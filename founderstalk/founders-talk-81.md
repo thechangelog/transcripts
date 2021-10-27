@@ -20,7 +20,7 @@
 
 **Adam Stacoviak:** Time does fly. So even eight years ago - I think about that, and that's like roughly a quarter of GitHub's history. Or actually three quarters of GitHub's history... Because GitHub is around 12 years old, and I think as the idea of having multiple codebases, and the maturity of dev teams and whatnot - just the idea of repositories has exploded over the last eight years. So I'd even say that when you began, you began - I guess as any good idea might - a little premature to the market, right?
 
-**Quinn Slack:** \[00:04:13.14\] Yeah.
+**Quinn Slack:** \[04:13\] Yeah.
 
 **Adam Stacoviak:** So even this last eight years, you've really had to go uphill to express the importance of code search. And I think you might be at the perfect moment now, considering 1) the funding, so that's a great, resounding support of your idea, but then 2) I think your current tagline is pretty awesome... "Move fast, even in big codebases." That's gotta say most of that, because a lot of teams have big codebases, multiple repositories, a lot of dependencies in open source... And being able to grok a majority of that with Cmd+Shift+F just isn't possible without a lot of setup, really. Can you speak to that?
 
@@ -46,7 +46,7 @@ And I would also say - when you're a dev, your job is complex and hard, in propo
 
 **Quinn Slack:** It's not like Google is only used by professional knowledge workers, at work. It's used for so many things, because it's so easy to use, and all this knowledge is at your fingertips. And with code search, we wanna make that the same way, so it's so easy for any dev, even if they're on a tiny little project.
 
-\[00:08:01.24\] And one other thing about code search is once you've used it, you can't live without it. For me, I work on some random side projects; one of them is this simulation of the aviation industry. It's not like a flight simulator, which is probably a lot cooler... But yeah, you can make airlines, and fares, and discounts, and baggage fees, and run all that. Tiny, little random hack project. I use code search on it, even though it's just me, and I'm almost embarrassed to talk about it publicly, because it's such a nerdy project.
+\[08:01\] And one other thing about code search is once you've used it, you can't live without it. For me, I work on some random side projects; one of them is this simulation of the aviation industry. It's not like a flight simulator, which is probably a lot cooler... But yeah, you can make airlines, and fares, and discounts, and baggage fees, and run all that. Tiny, little random hack project. I use code search on it, even though it's just me, and I'm almost embarrassed to talk about it publicly, because it's such a nerdy project.
 
 **Adam Stacoviak:** Well, I'd imagine code search is probably second-nature to you, so may have a bias... But that's cool. That's okay. It's still useful. It doesn't change its usefulness...
 
@@ -70,7 +70,7 @@ Fast-forward, I was working on patches to some bigger open source projects - Cur
 
 This was around 2009 to 2010. I would set up OpenGrok and I would just have my editor, Emacs, up on one screen; on the other screen - OpenGrok, and I would use it to browse through, understand, search the code to find usage examples, or "Hey, this new class was added. Let me look at the commit that added it and understand why that person did it that way. Let me see the changes over time of that." And I learned so much. I loved that anyone could just go and learn that.
 
-\[00:11:50.25\] I think I probably thought that everyone used code search at the time. For my co-founder at Sourcegraph - similar story. He was at Google, where they famously have this awesome code search tool that every Google dev uses; it's called Code Search, naturally...
+\[11:50\] I think I probably thought that everyone used code search at the time. For my co-founder at Sourcegraph - similar story. He was at Google, where they famously have this awesome code search tool that every Google dev uses; it's called Code Search, naturally...
 
 **Adam Stacoviak:** Good name.
 
@@ -102,7 +102,7 @@ So that was 2013, and just to give people a timeline, it wasn't really until the
 
 **Adam Stacoviak:** Right. Because naming is a challenge for developers; obviously, it's one of the hardest problems we often face... Like, "What do I name this thing...?" But you may have a similar idea, like doc.new, as another developer... So if you can search for doc.new across a span of code that may be useful to you, a dependency, or something in open source, then maybe you find something that's similar to what you might write. You read a little bit of code, you discover it has similar features, or the same exact features maybe in this case... You're like, "Well, I'm gonna save myself two weeks and I'm just gonna use their project", temporarily, or long-term, as a dependency.
 
-**Quinn Slack:** \[00:16:14.23\] Yeah. You'll probably learn something, even if it's not exactly what you need to do; even if you can't just copy and paste it, you'll definitely learn something.
+**Quinn Slack:** \[16:14\] Yeah. You'll probably learn something, even if it's not exactly what you need to do; even if you can't just copy and paste it, you'll definitely learn something.
 
 **Adam Stacoviak:** That's what it's really about, too - finding code that's similar or useful within whatever your search parameters might be. Being able to find, discover and use that, cross-reference to other repositories, and being able to really kind of dig deeper into -- you know, it's kind of like finding the needle in the haystack, essentially. You've got the haystack of code, and the needle is what you really need to fine-tune and find that point of, to use the analogy well... And that's your ability to search across; that is your sort of lens to find the needles within the haystack. Is that kind of how you describe Sourcegraph and the usefulness?
 
@@ -128,7 +128,7 @@ So that was 2013, and just to give people a timeline, it wasn't really until the
 
 **Quinn Slack:** And I look back and I wanna smack myself in the head for thinking about calling it anything confusing. It's code search. And I see a lot of other dev tools companies that are starting, struggle with that. Do you talk about the value, as so many people say you should? Or do you talk about "What is it? What is the noun?" and be really concrete? And if you do the latter, then you open yourself up to other people thinking you're naive, you don't know how to build a business, you don't know how to sell. You're not gonna be able to get beyond just the people that already know it. And those are fair criticisms, and you should take it, but... We just found that it didn't work unless we called it Code Search, and that was one of the things that went into us really starting to take off in 2019, was just being really concrete about what Sourcegraph is... Not developer platform, not something else or other. Just code search.
 
-**Break:** \[00:20:23.25\]
+**Break:** \[20:23\]
 
 **Adam Stacoviak:** How early on in your lifespan of the business did you do sort of an introspective process to -- you know, I wanna call it branding, but less around the logo design, but more about who you are as a company? How soon from inception did it take you to sort of do an exercise like that? Have you ever done one?
 
@@ -148,7 +148,7 @@ So we have our values now, that are on our handbook, that's all public, and we a
 
 So you went through an exercise to sort of discover these things? Did you lock yourself in a room for a couple days? What was the process to get here? Was this iterative over years, or was it something that you had brought, and Beyang had brought, and other team members had brought? How did it come together?
 
-**Quinn Slack:** \[00:24:05.27\] We really evolved to this point. We're a global and all-remote company, so we didn't lock ourselves in a room. It was an async process, and it was asking the team for what kinds of behaviors do you think are really good, that you want an easy way to reinforce?
+**Quinn Slack:** \[24:05\] We really evolved to this point. We're a global and all-remote company, so we didn't lock ourselves in a room. It was an async process, and it was asking the team for what kinds of behaviors do you think are really good, that you want an easy way to reinforce?
 
 I think we started with three, and then we've added some more; we've also removed some since then... And you can actually look in the history of that page on our handbook, in the Git repository, and you can see all the changes that have been made since we've set that up.
 
@@ -174,7 +174,7 @@ And what I've found was the most beneficial thing was less of what we came out w
 
 **Quinn Slack:** Yeah. And there's probably a lot of different perfectly right answers to what are you optimizing for, but you all have to have the same answer.
 
-**Adam Stacoviak:** \[00:28:02.20\] Yeah, eventually... And that's the fun part and the hard part, is coming to that same answer... Because I think once you're unified, which I think you can speak to, because as I said before in the top of the call, I am a fan; I'm a big fan of Sourcegraph, I've known Beyang longer than I've known you, but I'm also a fan of you as well... And I'm a fan of what you're doing. It was not always easy to understand what you were trying to do over the years... And I think you do that with a brain discovery, or a product discovery, or how do we deploy this discovery, how do we -- we understand the value of code search, we understand the usefulness of code search to every developer, but how do we put it in the hands of developers so it's actionable? I think that's the hard part there... Which might lead to another mistake/failure at the product level, which is you went cloud, not self-host first. So you began with cloud, and you didn't do self-host... Talk about how you (I suppose) engineered the application to be as a service, not as a service, as a cloud service... How did you begin? How did you know it was wrong? How do you know it's right now?
+**Adam Stacoviak:** \[28:02\] Yeah, eventually... And that's the fun part and the hard part, is coming to that same answer... Because I think once you're unified, which I think you can speak to, because as I said before in the top of the call, I am a fan; I'm a big fan of Sourcegraph, I've known Beyang longer than I've known you, but I'm also a fan of you as well... And I'm a fan of what you're doing. It was not always easy to understand what you were trying to do over the years... And I think you do that with a brain discovery, or a product discovery, or how do we deploy this discovery, how do we -- we understand the value of code search, we understand the usefulness of code search to every developer, but how do we put it in the hands of developers so it's actionable? I think that's the hard part there... Which might lead to another mistake/failure at the product level, which is you went cloud, not self-host first. So you began with cloud, and you didn't do self-host... Talk about how you (I suppose) engineered the application to be as a service, not as a service, as a cloud service... How did you begin? How did you know it was wrong? How do you know it's right now?
 
 **Quinn Slack:** Yeah. A lot of mistakes and a lot of things in the product went into that. First, when you hear code search, there are some people who even in 2013, when we started the company, knew exactly what that meant and wanted that. And those were the ex-Googlers, the ex-Facebookers, because they also had code search... It was the other people like me, that had worked on these big open source projects that had code search tools set up... And those people generally think in terms of "I wanna search across all my company's code", and they work at generally bigger companies. That's one population that we could go after.
 
@@ -194,7 +194,7 @@ There were a few, very small companies that wanted to do it. And the reality is 
 
 **Quinn Slack:** We didn't discover that until we tried doing it the other way and it failed. We had some individual users, but no real companies were getting on... And there's other aspects of founder psychology that hurt us here. The feedback we were getting was "I don't feel comfortable clicking that green button to auth our code." And I think we wanted to be very introspective, and reflective, and honest with ourselves, and it seems very convenient as founders who loved our product to say "Yeah, it's just a security problem. Let's just overcome that." But we wanted to be more introspective, and think like "Well, maybe if the product was more valuable, then they would click that green button. Because there are other companies that they do trust with their code. They might have their code on GitHub, for example, and that means GitHub is more valuable, so how do we make our product more valuable?"
 
-\[00:32:14.19\] I didn't wanna be the headstrong founder to just say -- I know it sounds silly in hindsight, but I didn't wanna just say "Yeah, it's a security objection. Let's address that." Well, we tried to make the product more and more valuable, but we were just going after a segment that wasn't where that intense need was, and the product wasn't good enough, and it was still too high-friction. So finally, we said "Okay, it must be a security objection. Let's just try that." We didn't really have any alternatives. And we made it so that you could run Sourcegraph self-hosted, and self-service. You didn't even need to talk to us to get it set up. It was just the docker run command, like we have now...
+\[32:14\] I didn't wanna be the headstrong founder to just say -- I know it sounds silly in hindsight, but I didn't wanna just say "Yeah, it's a security objection. Let's address that." Well, we tried to make the product more and more valuable, but we were just going after a segment that wasn't where that intense need was, and the product wasn't good enough, and it was still too high-friction. So finally, we said "Okay, it must be a security objection. Let's just try that." We didn't really have any alternatives. And we made it so that you could run Sourcegraph self-hosted, and self-service. You didn't even need to talk to us to get it set up. It was just the docker run command, like we have now...
 
 **Adam Stacoviak:** Yeah.
 
@@ -216,7 +216,7 @@ There were a few, very small companies that wanted to do it. And the reality is 
 
 **Quinn Slack:** Yeah.
 
-**Adam Stacoviak:** \[00:36:02.14\] ...potentially even contribute, I don't know; you could probably speak to that. \[unintelligible 00:36:04.10\] involved in that, but I'd imagine no...
+**Adam Stacoviak:** \[36:02\] ...potentially even contribute, I don't know; you could probably speak to that. \[unintelligible 00:36:04.10\] involved in that, but I'd imagine no...
 
 **Quinn Slack:** And the enterprise build - that's the default built that if you do docker run, then you're gonna get that. So I think people add a lot of complexity in their mind when they think of software licensing, and I think a good analogy is to the New York Times. Is the New York Times open source? No, but you can go and read the articles for free. And then also, even things like Google Chrome and VS Code and Android... Android is mostly open source, but there are some components that Google mixes in at the end, that they've chosen to withhold... And we go a little bit farther in terms of open source than VS Code and Chrome and Android, in that everything is public... But it's a good mix, I think. We've found it to be a good mix, because it's really important to us to show devs everything we do, and to build that trust.
 
@@ -228,7 +228,7 @@ Let's face it - you're a business, you have to make money... How does that trans
 
 Going back to business model - there's a lot of business models that software companies use... And for me, I'm a dev; what I like is companies that are transparent. We chose to make our source public... And the alternative is not "Oh, Sourcegraph is gonna give everything away for free", because we are a business. We can't do that. We need to charge for something. We decided to make our source available; half of it is under Apache 2 open source, half of it is not... We like to be really clear about how we make money. I think a lot of the skepticism that developers have is not "Oh, we don't want companies to be building a business", it's "We don't want companies to be hiding that", or we don't wanna be the product ourselves. We wanna know that as customers, the company is devoted to us. And you know, you mentioned our first value is to be customer-driven... We make money when all the devs at a company are using Sourcegraph. The company will pay us for each dev that uses it... And it's really simple, like that.
 
-**Adam Stacoviak:** \[00:40:17.13\] So we got to this subject by keying off of mistakes. Initially, you went cloud; the discovery was to go self-hosted. That way it was less around a business success, but more of an adoption success... Because one, as even a half open source project, the first thing you've gotta do to be used is be adopted, right? That's the hardest thing for any open source really, that intends to be at scale, is to find adoption. So you have to, I suppose, remove the friction of... So if you were cloud, you were not easily adopted because of security constraints. Let's go back to that though, because I think you said -- in that scenario, you said that the security concern was top of mind at first, but it seemed like you kicked it down the field a bit, and you thought, "Well, that's just too simple. It can't be the security. We have to improve the usefulness of this thing, the value of this thing."
+**Adam Stacoviak:** \[40:17\] So we got to this subject by keying off of mistakes. Initially, you went cloud; the discovery was to go self-hosted. That way it was less around a business success, but more of an adoption success... Because one, as even a half open source project, the first thing you've gotta do to be used is be adopted, right? That's the hardest thing for any open source really, that intends to be at scale, is to find adoption. So you have to, I suppose, remove the friction of... So if you were cloud, you were not easily adopted because of security constraints. Let's go back to that though, because I think you said -- in that scenario, you said that the security concern was top of mind at first, but it seemed like you kicked it down the field a bit, and you thought, "Well, that's just too simple. It can't be the security. We have to improve the usefulness of this thing, the value of this thing."
 
 **Quinn Slack:** Yeah.
 
@@ -252,7 +252,7 @@ Going back to business model - there's a lot of business models that software co
 
 **Quinn Slack:** Yeah. It started out with companies like Uber and Lyft and Yelp, and so on. We have three of the five FANG companies using Sourcegraph now, we have companies like Capital One, and Atlassian, and GE... We've got companies all around the world. We've got large banks, we've got large government customers... We've got so many of the companies that make the products that we use every day, which is really motivating.
 
-\[00:44:07.05\] And what worked for us was making a product so good that every dev used it in a company, and having that be the benchmark. So we wanted to never lose a customer, we wanted to always grow virally within a company... And by the way, we've found that to be much easier than trying to go and get like 40 million devs to just use Sourcegraph for open source code.
+\[44:07\] And what worked for us was making a product so good that every dev used it in a company, and having that be the benchmark. So we wanted to never lose a customer, we wanted to always grow virally within a company... And by the way, we've found that to be much easier than trying to go and get like 40 million devs to just use Sourcegraph for open source code.
 
 Having code search within a company was just way more immediately valuable to the company's devs than finding individual devs and having them see a ton of value early on. And when you look at where we have the most penetration now as the mid-market, it's companies up to 5,000 devs. We've got a ton of companies that are in the larger enterprise segment, and they need features like way more complex permissions, or they have a million repos and we need to scale up to that; they have other compliance requirements. But because we've shown like a hundred amazing logos that are all around the size, maybe a little bit smaller in some ways, a little bit bigger in other ways, we can just take a small step forward and bring in a lot of new customers.
 
@@ -270,7 +270,7 @@ And then one other thing that's really exciting is as we build really good code 
 
 **Quinn Slack:** Yeah.
 
-**Adam Stacoviak:** \[00:47:56.25\] So when you talk about this funding and this series D round, what are some of the ways that you're gonna roll out these dollars to make a better product, a better company? What are some of the key things you're really hoping to happen with that money?
+**Adam Stacoviak:** \[47:56\] So when you talk about this funding and this series D round, what are some of the ways that you're gonna roll out these dollars to make a better product, a better company? What are some of the key things you're really hoping to happen with that money?
 
 **Quinn Slack:** Well, 90% of our money goes to our team, our people, hiring amazing people. So it's really growing the team by a lot. Engineers who have felt the problem of tons of code, and who have used code search in the past maybe, or who wish they had it - we are hiring in basically every single team, and the main increase in hiring that's come from this funding round is massive increase in our hiring plan on engineering.
 
@@ -288,7 +288,7 @@ And there's so much that we can do, given that in all these amazing companies we
 
 So our customers are asking us to build so many more kinds of things on top of that, and to make it so they can as well, which is really exciting and keeps us busy.
 
-**Break:** \[00:50:44.01\]
+**Break:** \[50:44\]
 
 **Adam Stacoviak:** Okay, so 90% of the money is going to growth in terms of people. You're going to do it in a healthy way based upon your handbook and team growth intentions. You mentioned cloud being in beta, so I'd imagine that's high on your priority list when it comes to how you're rolling out product and what you're focusing on...
 
@@ -308,7 +308,7 @@ So now with Sourcegraph it's not just finding code, but you can also fix code, a
 
 **Adam Stacoviak:** ...under the Enterprise directories. So that's already available, and you can use that now... And I can see that being super-useful. I imagine that even if you're one of these security teams or whatever, you can hypothesize, "Okay, what if we did all this to the legacy code, do that, run a build, and instead of maybe creating a bunch of pull requests, maybe you run all the tests, and then you showcase that to your higher-ups, or to your other teams, and say "Listen, we've done all the work, we're not passing you JIRA tickets anymore. We've done the work, we've got the tests passing, we've done all this stuff to the legacy code to make it more secure... We just want you to do a cool review of the tests, that they are passing, and then we're gonna submit a pull request and you can review all the code, and then we'll ship it, obviously."
 
-\[00:56:11.29\] It's a new chance where you sort of empower developers. Going back to something you said before - go and empower developers with code search and the power it offers individuals and teams. That to me is like -- batch changes is one of the coolest things, because we encounter in some areas so much legacy code, and it's almost like "Don't ever touch that. It works... Don't mess with it."
+\[56:11\] It's a new chance where you sort of empower developers. Going back to something you said before - go and empower developers with code search and the power it offers individuals and teams. That to me is like -- batch changes is one of the coolest things, because we encounter in some areas so much legacy code, and it's almost like "Don't ever touch that. It works... Don't mess with it."
 
 **Quinn Slack:** Yeah.
 
