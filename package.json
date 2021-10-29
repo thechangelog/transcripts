@@ -5,7 +5,8 @@
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
     "format:test": "jest",
-    "format": "node format.js"
+    "format": "node scripts/format.js",
+    "commitMessage": "node scripts/commitMessage.js"
   },
   "repository": {
     "type": "git",
