@@ -72,7 +72,7 @@ At that same time there were people trying to put JS everywhere. So they were do
 
 **Amal Hussein:** Okay, so I feel like it's not an issue for me, them being the heaviest objects in the universe, because it's a server technology, it's never getting shipped in the browser... But I feel like these issues with dependencies really became a problem once the frontend community hijacked Node as their build chain and their dependency management.
 
-**Matteo Collina:** \[12:18\] It's totally fine. They are not shipping them in the \[unintelligible 00:12:20.17\] Node modules, most of them is not stuff that you want to ship in the browser anyway. It's all the toolchain. In fairness, it's bytes on disk, disk is very cheap; it's bytes on network, and bytes on the wire are somewhat cheap in the vast majority of the world where you would develop software anyway... So the reality is that that's fine. And that's the price for using a lot of software. You can build everything yourself and not have all those things you have to download.
+**Matteo Collina:** \[12:18\] It's totally fine. They are not shipping them in the brow-so, all of those things that I'm pressing in Node modules, most of them is not stuff that you want to ship in the browser anyway. It's all the toolchain. In fairness, it's bytes on disk, disk is very cheap; it's bytes on network, and bytes on the wire are somewhat cheap in the vast majority of the world where you would develop software anyway... So the reality is that that's fine. And that's the price for using a lot of software. You can build everything yourself and not have all those things you have to download.
 
 But I don't know, for all my time, I have been -- you know, at some point, in order to have the new version of Red Hat, I needed to receive a CD. You see, that was slow. Downloading a few megabytes over the wire - well, it's not slow. But that thing would actually -- the full disk was 600 MB, and now a Node module is a hundred and something...
 
@@ -184,17 +184,17 @@ So after that, I think I was having a beer or dinner with David, and David said 
 
 **Amal Hussein:** Interesting.
 
-**Matteo Collina:** I don't remember what was at the time \[unintelligible 00:30:04.05\] It's not 10, but it's probably 5-6 times.
+**Matteo Collina:** I don't remember what was at the time is 5-6-10 right now. It's not 10, but it's probably 5-6 times.
 
 **Amal Hussein:** Is Koa fast? I've never done any benchmarking for Koa.
 
 **Matteo Collina:** It's slightly faster. It's kind of 2x compared to Express. Probably half what Node Core can do. Still, you're still paying a significant penalty on using those frameworks.
 
-**Amal Hussein:** And what about -- I'm just curious... I'm sorry, this is the stuff I nerd out about. So at Netflix I know they're using a bunch of \[unintelligible 00:30:31.25\]
+**Amal Hussein:** And what about -- I'm just curious... I'm sorry, this is the stuff I nerd out about. So at Netflix I know they're using a bunch of Node.
 
 **Matteo Collina:** Restify. Restify. And Express. And they are more or less happy, because they have a lot of codebase using it, developed back in the day. So it's probably not worth to change it unless you really need to. The problem was already on the TSC, and the question was "Why the heck are we spending effort in improving the performance of Node if then you use a logger and a web framework that will destroy your performance?" So it's not worth optimizing Node Core, or improving Node Core if we have those problems in the ecosystem.
 
-So I started doing some research... However, I picked one choice. Writing a web framework. Try to look at the HTTP spec, the \[unintelligible 00:31:15.15\] and cry and run away. It's a Gargantuan job. That should be a very important read at every course, bootcamp, university, whatever... But it's a big, big spec.
+So I started doing some research... However, I picked one choice. Writing a web framework. Try to look at the HTTP spec, the GP101 1.1LFC and cry and run away. It's a Gargantuan job. That should be a very important read at every course, bootcamp, university, whatever... But it's a big, big spec.
 
 So I know it was a massive, Gargantuan task, so I decided "Well, I can't do this alone, and I can't get NearForm to pay for it, because it's a new web framework and it will take years to get it done. So how can we get it done?" I decided, "Well, let's see if there is somebody else that is seeing the same problems, and if they wanted to join me on that journey."
 
@@ -214,7 +214,7 @@ So this is the source of the problem with Express and Restify. So those communit
 
 **Amal Hussein:** Yeah, yeah. Under the rug, don't look here... We'll fix some day... There be dragons... All of that stuff.
 
-**Matteo Collina:** Apart from those type of files, which are \[unintelligible 00:34:44.12\]
+**Matteo Collina:** Apart from those type of files, which have been decreasing
 
 **Amal Hussein:** Right, right. No, it's good to encapsulate those files though, right? It's good to have them --
 
@@ -234,7 +234,7 @@ So this is the source of the problem with Express and Restify. So those communit
 
 So given that focus on not adding overhead, we add a certain class of features that are very useful for most people developing Node.js applications. And these are the key things that you really want to stay in Fastify, use Fastify for those; probably not for the speed, in most apps. However, Fastify will not let you down when your product starts scaling. So it's having a very good developer experience without overhead.
 
-**Nick Nisi:** Nice. Is there anything that it is sacrificing to stay true to that in terms of not adding too much overhead to the \[unintelligible 00:38:50.17\]
+**Nick Nisi:** Nice. Is there anything that it is sacrificing to stay true to that in terms of not adding too much overhead to the HTTP
 
 **Matteo Collina:** There was more at the beginning than there is now. We have been able to do most things at this point in time. A key part of that experience has been to embrace the concept of plugins. And this is part of the great success of the framework. So instead of middlewares, which is the most popular thing in Express land, we have the concept of plugins. And plugins can either add some functionality to the library... Oh, by the way, Fastify is one critical feature that Express does not have, nor Restify, or Koa, or others. It has a boot sequence. So you can start a Fastify server and it's an asynchronous startup sequence. So you can do your database connections, do your pre-rendering if you want to do pre-rendering of your things... And it's all asynchronous, so you don't need to have that complex codebase at the beginning to bootstrap your Node process... Which can get very ugly. This is a critical feature, because then it enables very fine-grained unit testing of the library. So this is the type of decisions where you can have a great user experience, because testing is as important as the rest.
 
@@ -246,11 +246,11 @@ And then you have the problem that when you run tests against that, you start ha
 
 On top of that boot sequence, it loads multiple plugins one at a time. They are loaded as a reentrant graph, so you can load one plugin that can have its own dependencies, that can have their own dependencies, and so on and so forth... And they will all be loaded one at a time. And these become the hard things. All of these can be written using AsyncAwait or callbacks. And you can even await in between, so that "Oh, I want to wait until this tree of plugins is loaded, and then I want to execute some more code." And all of this is seamlessly done by Fastify, and all of these can be several nesting levels of plugins. I've seen it in the wild... And it's probably the most important feature, because it enables reuse.
 
-I can even develop a good chunk of my whole application as its own plugin, and then later on \[unintelligible 00:42:58.12\] I have all this part of my app; instead of deploying inside my container, I can take and put it in a Lambda... And the only thing that I need to do is to change how I start my server and use the Lambda adapter and it's done. Or I want to take it and deploy it in a microservice, and then I can do that as well. It takes very little effort to move those things around.
+I can even develop a good chunk of my whole application as its own plugin, and then later on think "Oh I have all this part of my app; instead of deploying inside my container, I can take and put it in a Lambda..." And the only thing that I need to do is to change how I start my server and use the Lambda adapter and it's done. Or I want to take it and deploy it in a microservice, and then I can do that as well. It takes very little effort to move those things around.
 
 So that type of flexibility is more or less -- almost unique in the frameworks. It's also the fact that that flexibility does not come at a huge performance penalty, so you will still get more or less a consistent level of throughput throughout the -- as much as you add complexity to a Fastify application.
 
-So while Express, for example, \[unintelligible 00:43:42.21\] very quickly, even more when you add a lot of complexity, especially on the routing side... It has a very naive router, which is great simplicity, because a lot of people can understand it very quickly how it works. However, it's also not great for \[unintelligible 00:43:55.15\] It's the most naive router that you can implement. Just a set of regular expressions and test them one at a time.
+So while Express, for example, decrease very quickly, even more when you add a lot of complexity, especially on the routing side... It has a very naive router, which is great simplicity, because a lot of people can understand it very quickly how it works. However, it's also not great for perf. It's the most naive router that you can implement. Just a set of regular expressions and test them one at a time.
 
 **Amal Hussein:** Yeah. And order matters.
 
@@ -260,13 +260,13 @@ So while Express, for example, \[unintelligible 00:43:42.21\] very quickly, even
 
 **Matteo Collina:** It's a radix prefix tree. I'm going to paste it in the chat.
 
-**Amal Hussein:** Yeah, we'll have to put that in our show notes. Okay, so Express was really cool because of middleware, right? Everybody loved middleware; easy to use, easy to understand. You're saying not the best to scale, right? So could you explain more specifically, or even if you have to repeat yourself, I apologize... But the actual difference between middleware patterns and \[unintelligible 00:44:51.13\] What if I want something to work like middleware, right?
+**Amal Hussein:** Yeah, we'll have to put that in our show notes. Okay, so Express was really cool because of middleware, right? Everybody loved middleware; easy to use, easy to understand. You're saying not the best to scale, right? So could you explain more specifically, or even if you have to repeat yourself, I apologize... But the actual difference between middleware patterns and Fastify pluggin pattern. What if I want something to work like middleware, right?
 
 **Matteo Collina:** Perfect. Let's talk about how middleware works, okay? Whenever a request comes in, you add a bunch of middlewares to your applications. Each one of them, they have this pattern; they say "if something" and then they do whatever they need to do.
 
 **Amal Hussein:** Right, right.
 
-**Matteo Collina:** So if you want to parse a body, \[unintelligible 00:45:17.03\] I am parsing a body. Or if this method matches a certain prefix, then I want all those requests to be authenticated, for example. Okay?
+**Matteo Collina:** So if you want to parse a body, if per request.method === body, I am parsing a body. Or if this method matches a certain prefix, then I want all those requests to be authenticated, for example. Okay?
 
 **Amal Hussein:** Correct.
 
@@ -286,7 +286,7 @@ So while Express, for example, \[unintelligible 00:43:42.21\] very quickly, even
 
 **Amal Hussein:** Didn't we implement that with ES6?
 
-**Matteo Collina:** No, that was \[unintelligible 00:46:46.04\]
+**Matteo Collina:** No, that was scrapped.
 
 **Amal Hussein:** Every engine didn't do it...
 
@@ -318,11 +318,11 @@ So while Express, for example, \[unintelligible 00:43:42.21\] very quickly, even
 
 **Amal Hussein:** So does that put that onus back onto the caller?
 
-**Matteo Collina:** So what we do is that you call it with a given route... So in that route, we decide what code is going to be executed, and what -- we call them "lifecycle hooks." Essentially, we do something like when we receive a request, \[unintelligible 00:48:55.20\] so there are moments where you can inject your code in the sequence... And then we execute your function code, and then you can execute some more things at the end.
+**Matteo Collina:** So what we do is that you call it with a given route... So in that route, we decide what code is going to be executed, and what -- we call them "lifecycle hooks." Essentially, we do something like when we receive a request, something before the handle is called, we all do something after the body is parsed, so there are moments where you can inject your code in the sequence... And then we execute your function code, and then you can execute some more things at the end.
 
-\[unintelligible 00:49:08.26\] It's very straightforward, and there are no weird turns here. The weird turns are exception paths, and so on. So in this way, the code can be very streamlined.
+And end the cycle ok. It's very straightforward, and there are no weird turns here. The weird turns are exception paths, and so on. So in this way, the code can be very streamlined.
 
-The logic that I cannot write -- and you were right, there's no Next, in the sense of... The next level, there is a Done. We call it Done in Fastify, to differentiate of that... Because even when you resolve a promise, you move to the next step, but you cannot fork it in that sense. So let's say that you have a route that matches -- you put something \[unintelligible 00:49:47.17\] that matches certain IDs, and you want to say "Oh, if I cannot find these in the database, move to this other route that generates it on the fly", or something. You can do that in Fastify. You will need to find some other different pattern to implement this same logic... Which is probably a little bit more complex, but nevertheless, it enables us to minimize the amount of checks that we need to execute to reach your route. So a complex 30-something, 30 or 50-something \[unintelligible 00:50:20.09\] multiplied by three become a smaller, maybe 5-10 multiplied by two. So we have shrinked completely the call stack. And this is part of the reason why Fastify is good. And Fastify can maintain that level of performance while providing a good level of user experience.
+The logic that I cannot write -- and you were right, there's no Next, in the sense of... The next level, there is a Done. We call it Done in Fastify, to differentiate of that... Because even when you resolve a promise, you move to the next step, but you cannot fork it in that sense. So let's say that you have a route that matches -- you put something a route that matches certain IDs, and you want to say "Oh, if I cannot find these in the database, move to this other route that generates it on the fly", or something. You can do that in Fastify. You will need to find some other different pattern to implement this same logic... Which is probably a little bit more complex, but nevertheless, it enables us to minimize the amount of checks that we need to execute to reach your route. So a complex 30-something, 30 or 50-something \[unintelligible 00:50:20.09\] multiplied by three become a smaller, maybe 5-10 multiplied by two. So we have shrinked completely the call stack. And this is part of the reason why Fastify is good. And Fastify can maintain that level of performance while providing a good level of user experience.
 
 **Amal Hussein:** That makes a lot of sense. So Fastify does borrow from Express and Hapi a little bit...
 
@@ -366,23 +366,23 @@ Going back to the Express thingy - so the API is very familiar. However, with a 
 
 **Matteo Collina:** Funnily enough, if you open up the docs, it's actually very -- it will get a sense of familiarity. The snippet is actually very similar to what you would use with Express, the callback version of it. I'm going to pass the callback snippet in here. Oh, it didn't render correctly... But you can find it on the website. It's in there.
 
-But it also supports AsyncAwait, so you can just return from your async function, and if you return an object, that will automatically be rendered as a JSON, which is essentially even simpler than using \[unintelligible 00:54:29.21\]
+But it also supports AsyncAwait, so you can just return from your async function, and if you return an object, that will automatically be rendered as a JSON, which is essentially even simpler than using .send
 
 **Amal Hussein:** No, that's cool. Well, no - Matteo, I mean, Fastify is awesome. Pino -- so I haven't used Fastify in production. I've been following the project, it's very cool, I can't wait to try it at a real company... But I've been using Pino, and I love Pino. Pino is incredible, and the ecosystem around it is great; it's very easy to create your own abstractions, really low overhead... And yeah, log management is hard, people. Don't diss it, okay? A great interview question, I think. \[laughs\]
 
 **Matteo Collina:** Oh, yes. But I don't ask logging when I'm interviewing candidates. So I do interview a lot of candidates at NearForm. We are hiring a lot at the moment. We hired so many people this year. We keep adding more, so if you want to join, nearform.com/careers. Have fun.
 
-**Amal Hussein:** A good place to write JavaScript and learn from people who \[unintelligible 00:55:17.07\]
+**Amal Hussein:** A good place to write JavaScript and learn from people who...
 
 **Matteo Collina:** Yeah... And Fastify and Pino... So - going back to Pino, which is actually one of the nicest things, is that we are actually shipping a major release of Pino, Pino 7, which I've been writing on my newsletter for probably the last six months now... So they took a long time to get there. We are moving part of the logic or producing those logs to worker threads.
 
-**Amal Hussein:** But does that mean \[unintelligible 00:55:45.29\] to require a certain -- like, you have to have this Node version, and this OS?
+**Amal Hussein:** But does that mean that you're going to require a certain -- like, you have to have this Node version, and this OS?
 
 **Matteo Collina:** It's supported in Node 12+, so yes.
 
 **Amal Hussein:** Yeah, I'm saying -- you can't use it with Node 11 or 10.
 
-**Matteo Collina:** \[56:02\] Well, yes, but you should not be using those anyway, because \[unintelligible 00:56:03.07\]
+**Matteo Collina:** \[56:02\] Well, yes, but you should not be using those anyway, because...
 
 **Amal Hussein:** Agree, I'm with you. I'm 100% with you. But believe it or not, you and I both know there's lots of servers in the world running --
 
@@ -402,7 +402,7 @@ So Matteo, before we end this show, we promised everyone we were gonna talk abou
 
 **Matteo Collina:** I would say a few things. So the first one is I did not like at all --
 
-**Amal Hussein:** \[laughs\] \[unintelligible 00:57:18.04\] Just kidding, just kidding.
+**Amal Hussein:** \[laughs\] Why am I not surprised? Just kidding, just kidding.
 
 **Matteo Collina:** The marketing approach that they've taken in the first few period of the years - there have been written communicates about essentially that we're stating falsehood, or even pointing out certain things and just telling a very specifically framed part of the story, that did not really reflect reality. Or did reflect some part of the reality without telling the rest. I have been not happy about the way they launched it. Not the way that Ryan did the talk at JSConf. That was fine. The talk was good, and I think it was spot on on most of the things that he said. What I did not -- the follow-on narrative on the project, it was not good. They changed the narrative lately, and started focusing on their own specific features. I like that. I think you should be focusing on your own features and what you can do for the community, and not on throwing rocks at others, without even justifying them, to be honest.
 
@@ -430,11 +430,11 @@ My main take here is how much time it will take for Node to get the bunch of the
 
 **Matteo Collina:** Yes. Nodetodo.org.
 
-**Amal Hussein:** \[unintelligible 01:02:12.27\] C++ do you need to know versus JavaScript? Like, do you need to even know C++? Can you just know JavaScript?
+**Amal Hussein:** C++ do you need to know versus JavaScript? Like, do you need to even know C++? Can you just know JavaScript?
 
 **Matteo Collina:** You can just know JavaScript, but you might be willing to learn some C++.
 
-**Amal Hussein:** Yeah, yeah. I'm \[unintelligible 01:02:25.10\] I learned it, I feel like I'm re-learning it now... But it's a very good investment, learning how to write C++. Learning about memory management - it will change your whole framework as an engineer. So it's good fundamentals, if and when you're ready for that next step. But you don't have to.
+**Amal Hussein:** Yeah, yeah. And why don't I. I learned it, I feel like I'm re-learning it now... But it's a very good investment, learning how to write C++. Learning about memory management - it will change your whole framework as an engineer. So it's good fundamentals, if and when you're ready for that next step. But you don't have to.
 
 So Matteo, where can people find you online? And then there's a Node conference coming up, right?
 
@@ -448,7 +448,7 @@ So Matteo, where can people find you online? And then there's a Node conference 
 
 **Matteo Collina:** No, no.
 
-**Amal Hussein:** Okay, so \[unintelligible 01:04:11.01\]
+**Amal Hussein:** Okay, so I misunderstood.
 
 **Matteo Collina:** If you find it, shhh...
 
