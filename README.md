@@ -345,6 +345,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/EvanLongMa"><img src="https://avatars.githubusercontent.com/u/36727778?v=4?s=100" width="100px;" alt=""/><br /><sub><b>EvanLongMa</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=EvanLongMa" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/nikparo"><img src="https://avatars.githubusercontent.com/u/8129613?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Nik</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=nikparo" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/LucasVance"><img src="https://avatars.githubusercontent.com/u/47468502?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Lucas Vance</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=LucasVance" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/rvtraveller"><img src="https://avatars.githubusercontent.com/u/1789427?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brian Thompson</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=rvtraveller" title="Documentation">📖</a></td>
   </tr>
 </table>
 
