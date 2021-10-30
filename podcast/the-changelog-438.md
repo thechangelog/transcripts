@@ -8,7 +8,7 @@ So the cool thing about NFTs is not -- you know, people sold one for 68 million,
 
 **Jerod Santo:** Right.
 
-**Mikeal Rogers:** But what I can say is that what people are doing right now - they're putting all of these little images into Ethereum, as NFTs, as art that they're selling. But what they've really done here is that they've basically created the decentralized Instagram. There isn't an application experience right now that looks like Instagram, but if you're thinking from a protocol standpoint where there's this thing that everybody's building on and transacting in, that's what's happening right now. People are putting photos into feeds, they're publishing them, and then people can buy them... And that buy, that ownership part is almost like just metadata in a database. You can think about it that way. And the value of owning it is gonna be determined by all these applications that build on that data. So every application that anyone ever builds that shows my gallery of my NFTs that are in my wallet is going to add value to those NFTs. It's a new experience that I get from them. And artists that are publishing them can create new relationships and experiences with those NFT holders and those users directly as well.
+**Mikeal Rogers:** But what I can say is that what people are doing right now - they're putting all of these little images into Ethereum, as NFTs, as art that they're selling. But what they've really done here is that they've basically created the decentralized Instagram. There isn't an application experience right now that looks li****ke Instagram, but if you're thinking from a protocol standpoint where there's this thing that everybody's building on and transacting in, that's what's happening right now. People are putting photos into feeds, they're publishing them, and then people can buy them... And that buy, that ownership part is almost like just metadata in a database. You can think about it that way. And the value of owning it is gonna be determined by all these applications that build on that data. So every application that anyone ever builds that shows my gallery of my NFTs that are in my wallet is going to add value to those NFTs. It's a new experience that I get from them. And artists that are publishing them can create new relationships and experiences with those NFT holders and those users directly as well.
 
 I don't know if you're always gonna have a 68-million-dollar image, but I do think that there will be something like Instagram, and every image in it will be an NFT that people own, and the average price might be like four dollars, right? \[laughs\] But if every image on Instagram was worth four dollars, that would be the economy of a small country. That's a substantial thing going on.
 
@@ -74,7 +74,7 @@ One thing that we haven't really talked about here is that the Ethereum contract
 
 **Jerod Santo:** It's either public, or future public.
 
-**Mikeal Rogers:** Yeah, and that is eventually gonna get \[unintelligible 00:16:47.17\] I think all of our social security numbers are just out there now, because the State Department can't maintain servers, apparently... And these leaks are just gonna keep happening.
+**Mikeal Rogers:** Yeah, and that is eventually gonna get hacked, right? I think all of our social security numbers are just out there now, because the State Department can't maintain servers, apparently... And these leaks are just gonna keep happening.
 
 So one of the nice things about this decentralized web is that in order to do any sort of permissioning, or have any of these assets in something, encryption has to be involved. So everybody has a public key that they're using for one of these wallets... And hopefully, there's a lot of decentralized identity work going on, so that we can have longer-term identities that are attached to us in social networks, as well as we can publish that we also have these particular public keys for these wallets in these different networks, and we can tie all that information together. But that gives us a lot of access to encryption utilities to make private data, and to then put that data and exchange that data in a lot of the same networks that we're using for public data, because nobody will be able to see it.
 
@@ -218,7 +218,7 @@ Protocol Labs, Juan Benet who started the company - he's always had a lot of vis
 
 **Mikeal Rogers:** Yeah, so since we're talking about NFTs, the best way to look at it is to skip over some of the more file systemy aspects of it, and just think of it as addressing and availability in a peer-to-peer network.
 
-So if you give it some data, then it's gonna be able to give you back a content ID, which is a hash with some other data in front of it, that tells you what you can do with that hash, and what kind of format it is. Again, we've really thought about future-proofing these technologies against future hash functions, and different use cases... So you get this address, and you have an URL scheme where you can actually even path into that address... So you have \[unintelligible 00:29:30.02\] When you do check-ins with Git, you get that hash back, right? And that hash is immutably the state of the tree at that time... That's what you get out of IPFS - you get the immutable state of that tree, at that time. And that's really important, because in the IPFSnetwork, which is this global peer-to-peer network for getting the content, you can say "Hey, who has this address?" And you can find anybody on the internet with that address, and you can pull it from them, and in a trustless manner you can validate that that content is the content that they said that it was, right?
+So if you give it some data, then it's gonna be able to give you back a content ID, which is a hash with some other data in front of it, that tells you what you can do with that hash, and what kind of format it is. Again, we've really thought about future-proofing these technologies against future hash functions, and different use cases... So you get this address, and you have an URL scheme where you can actually even path into that address... So you have like have ipfs:// that address and then you can path it into it and that is effectively a tree. When you do check-ins with Git, you get that hash back, right? And that hash is immutably the state of the tree at that time... That's what you get out of IPFS - you get the immutable state of that tree, at that time. And that's really important, because in the IPFSnetwork, which is this global peer-to-peer network for getting the content, you can say "Hey, who has this address?" And you can find anybody on the internet with that address, and you can pull it from them, and in a trustless manner you can validate that that content is the content that they said that it was, right?
 
 And what IPFS does is it takes really large files and breaks them up into parts, and does all of that stuff... Like BitTorrent does, as well. If you actually look at a BitTorrent file, you'll see all those parts in it.
 
@@ -250,7 +250,7 @@ But a lot of these projects that are getting people to set up Metamask, getting 
 
 **Mikeal Rogers:** So as long as you're the first one... Like, if you're not the first one, then that's \[unintelligible 00:35:54.28\]
 
-**Jerod Santo:** \[unintelligible 00:35:55.16\]
+**Jerod Santo:** Yeah, the first one!
 
 **Mikeal Rogers:** But no, I think not every person wants to dig through all their tweets and pay $20 transaction fees for the ones that they think are gonna be worth it...
 
@@ -312,7 +312,7 @@ So yeah, so you have a --
 
 **Jerod Santo:** Yeah. So now you're driving cross-compatibility, whereas the incentives for the game creators before that was to actually hoard everything. But now the incentive for someone who's an upstart is to be compatible, because they need to transfer that network, whatever your stuff is in, to make this game actually worth playing.
 
-**Mikeal Rogers:** Exactly. Nobody who's making a ton of money right now having their own locked down in-game asset store is going to move all of that to a public \[unintelligible 00:40:35.07\] people can leverage...
+**Mikeal Rogers:** Exactly. Nobody who's making a ton of money right now having their own locked down in-game asset store is going to move all of that to a public platform other people can leverage...
 
 **Jerod Santo:** Yeah. Why would I do that.
 
@@ -586,7 +586,7 @@ So it's not just about "Okay, great, we all get to leverage the same data layer.
 
 **Adam Stacoviak:** "Reverse-engineer own keys..."
 
-**Mikeal Rogers:** This is the first rule of Fight Club, you don't talk about your personal security \[unintelligible 01:03:49.19\]
+**Mikeal Rogers:** This is the first rule of Fight Club, you don't talk about your personal security on a podcast.
 
 **Jerod Santo:** Just give us the first letter of each word, that's all we want. We don't need them all. We can figure out the rest.
 
