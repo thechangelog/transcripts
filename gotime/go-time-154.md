@@ -102,7 +102,7 @@ So I said yes immediately, and there was a small group of us that joined Todd. I
 
 **Jerod Santo:** Did they call you on a red phone, like "We need you. Report immediately"?
 
-**Johnny Boursiquot:** And instead of \[unintelligible 00:17:12.19\] you show up with a keyboard? \[laughter\]
+**Johnny Boursiquot:** And instead of Mjolnir you show up with a keyboard? \[laughter\]
 
 **Paul Smith:** I mean, honestly, there's the kind of cliché moment in movies where it's like your country -- I mean, it really felt like that, like your country needs you. It felt like that, because we knew what the stakes were. The stakes were very high, and we could see this thing kind of failing in real time.
 
