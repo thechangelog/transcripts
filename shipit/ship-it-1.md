@@ -48,7 +48,7 @@ All these things have been fun to explore ourselves, so why not just produce a s
 
 So this show here, today, the very first episode on the feed, is the invitation to anyone out there, shippers, to join us on that adventure, to invest, to get involved, to listen, to encourage, to share, people we should talk to... All those fun things. Hop into Slack and be a part of the community, and just have fun for the next (I don't know) hundred, two hundred, four hundred, thousand episodes... We never know where we're gonna go with this, but I know it's gonna be a lot of fun.
 
-**Gerhard Lazu:** Yeah, I don't think you can see a video. There's no video \[unintelligible 00:07:54.08\] with this show, but we will have a screenshot which shows my mic, I have Ship It, and I have four zeroes. So I'm thinking we'll have 10,000 shows. That's my estimate.
+**Gerhard Lazu:** Yeah, I don't think you can see a video. There's no video feed with this show, but we will have a screenshot which shows my mic, I have Ship It, and I have four zeroes. So I'm thinking we'll have 10,000 shows. That's my estimate.
 
 **Jerod Santo:** \[08:07\] There you go.
 
@@ -124,7 +124,7 @@ If you're paying attention, I was always very curious. I was always like "What i
 
 Coming back to Changelog, I wrote this tool in Bash for deploying Ruby websites. Not just Ruby websites - I was working at a tech startup; this was 2012, and we were using Capistrano and Chef and Puppet and a bunch of things... It was just a mess to deploy things, and I thought "No, this is madness. It can't be this complicated. Can I just build a really simple thing that SSH-es into service and deploys things?" And that was Deliver. Ship It, Deliver - it was right there. And there was a fork called eDeliver, which deployed Erlang apps into prod. And Jerod picked up on that, and he saw my name, and he was like "Hm, I think I know him." I think it was the Ruby background, right Jerod? The Rails background?
 
-**Jerod Santo:** So I think you had written something for Changelog years before, back when we were using a GitHub-based writing flow, where you could write into a repo and we give you feedback right there on a pull request, and then we would publish it from there. And you had written something about something \[unintelligible 00:21:34.26\] We can go all the way back and we could find it in our CMS.
+**Jerod Santo:** So I think you had written something for Changelog years before, back when we were using a GitHub-based writing flow, where you could write into a repo and we give you feedback right there on a pull request, and then we would publish it from there. And you had written something about something, I thought it was about Ansible maybe, but who knows what it was about. We can go all the way back and we could find it in our CMS.
 
 So I had interacted with you very briefly via that, because you had written a piece for us, and then when I saw your name again, I said "I know that guy. He wrote something for us. And here he is again." The synapses fired and I thought "I bet he's better at this than I am, so I'm gonna just go ahead and email him."
 
@@ -146,7 +146,7 @@ I knew Linode, I knew DigitalOcean... At that point I will have been with all th
 
 **Jerod Santo:** That's right.
 
-**Gerhard Lazu:** \[23:53\] And I hope that's never gonna change. That's my hope and that's my wish. So while this thing was happening with Changelog, I was going through infrastructure stuff, I was going to Erlang, I was going to Go, I spent quite a bit of time with Go, I was \[unintelligible 00:24:05.29\] I was a consultant for consultants... I went through many, many things. Think about all the big companies - I either worked with someone from those companies, I was interviewed... Well, wanted to be interviewed many times, but the big company never appealed to me. It was just like, it was just too big. Change is too difficult; things are moving so slowly... And things are just about to change now, I think, but that's a different story for another day.
+**Gerhard Lazu:** \[23:53\] And I hope that's never gonna change. That's my hope and that's my wish. So while this thing was happening with Changelog, I was going through infrastructure stuff, I was going to Erlang, I was going to Go, I spent quite a bit of time with Go, I was an XP, I was a consultant for consultants... I went through many, many things. Think about all the big companies - I either worked with someone from those companies, I was interviewed... Well, wanted to be interviewed many times, but the big company never appealed to me. It was just like, it was just too big. Change is too difficult; things are moving so slowly... And things are just about to change now, I think, but that's a different story for another day.
 
 The point is that if you wanna know more about me, guess what - there's Gerhard.io. Check it out. All my talks, all my videos, all my history is there, if you care about Gerhard the person.
 
