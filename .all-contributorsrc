@@ -2204,6 +2204,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "rvtraveller",
+      "name": "Brian Thompson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1789427?v=4",
+      "profile": "https://github.com/rvtraveller",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
