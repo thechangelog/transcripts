@@ -58,7 +58,7 @@
 
 **Mat Ryer:** Yes...
 
-**Mark Bates:** I'mma do my \[unintelligible 00:05:04.21\] sandwich I can do really, really well, but every other word is a swear, so I don't think that would be appropriate... \[unintelligible 00:05:12.07\]
+**Mark Bates:** I'mma do my scouse accent which I can do really, really well, but every other word is a swear, so I don't think that would be appropriate... \[unintelligible 00:05:12.07\]
 
 **Mat Ryer:** Let me tell you about Gophers Say. Gophers Say is like family feud. Or in the U.K. it's called Family Fortunes, which is actually much nicer, I think. It's a bit like how we have The Great British Bake Off, which is like everyone's all nice and they help each other... And then you have the U.S. Master Chef, where they're like "I will destroy! I'm gonna make a soufflé. You will be wiped from the face of the Earth!"
 
@@ -90,7 +90,7 @@
 
 **Brian Ketelsen:** Knights are out!
 
-**Mat Ryer:** You're gonna be split into two teams, which we'll do in a moment, and we're gonna Round Robin asking you to try and guess the most common answers, without conferring. So for example, if the question is "What's your favorite programming language?", you might say "Go", and if people agree with you, you'll hear this sound. \[win alert\] If 95 people agree with you, you get 95 points. So that's pretty good. If you said - I don't know, "Java", you might hear this sound. \[fail sound\] And that means nobody agrees, and unfortunately, you'll receive \[unintelligible 00:07:22.28\] which is French for "no points", and you lose a life. If your team loses three lives, then the other team has the chance to steal the round, and you will be allowed to confer when it comes to stealing. You actually only have to get anything on the board to steal... So be careful of those steals. I'll try to make that my catchphrase for this. So does everyone understand the rules?
+**Mat Ryer:** You're gonna be split into two teams, which we'll do in a moment, and we're gonna Round Robin asking you to try and guess the most common answers, without conferring. So for example, if the question is "What's your favorite programming language?", you might say "Go", and if people agree with you, you'll hear this sound. \[win alert\] If 95 people agree with you, you get 95 points. So that's pretty good. If you said - I don't know, "Java", you might hear this sound. \[fail sound\] And that means nobody agrees, and unfortunately, you'll receive nil point which is French for "no points", and you lose a life. If your team loses three lives, then the other team has the chance to steal the round, and you will be allowed to confer when it comes to stealing. You actually only have to get anything on the board to steal... So be careful of those steals. I'll try to make that my catchphrase for this. So does everyone understand the rules?
 
 **Carlisia Thompson:** No. Let's do it.
 
@@ -274,7 +274,7 @@ Brian, let's start with you. What's your Twitter name, Brian?
 
 **Mat Ryer:** You have to type it in a British accent, or any...?
 
-**Angelica Hill:** Yeah, it's mandatory. Think British. So think British \[unintelligible 00:13:13.09\]
+**Angelica Hill:** Yeah, it's mandatory. Think British. So think British, tea, scones, queen, corgis, you'll get me.
 
 **Mark Bates:** And the @ sign is on the other side...
 
@@ -302,7 +302,7 @@ Brian, let's start with you. What's your Twitter name, Brian?
 
 **Erik St. Martin:** And then it's wrong. \[laughter\]
 
-**Mat Ryer:** \[unintelligible 00:14:04.21\]
+**Mat Ryer:** She did get it wrong.
 
 **Angelica Hill:** You're not really encouraging people, are you?
 
@@ -432,7 +432,7 @@ Anyway - yes, I'm on the Twitters, I am on the everythings just as @markbates. J
 
 **Mat Ryer:** I'm obviously joking. Look at the studio he's got. I definitely wanna go and spend time there. Now, sometimes the banter will slip over into hate... And I'm sorry when that happens; it's an accident. I mean it, honestly, all of it, with the utmost love... Mostly.
 
-Okay, well - let's play. I think it's time. We've met the contestants, they're all a wonderful bunch of lovely people... Actually, the first thing we're gonna do is choose our teams. Let me share my telly with you... And I'm using GitHub Codespaces here, and I've written a little program... And this is essentially \[unintelligible 00:18:40.02\] we've got all the players, and a little loop, one to four... I'm just gonna pull out a random player. And this is like a pure function, Erik, for you, so... Kind of rusty, isn't it?
+Okay, well - let's play. I think it's time. We've met the contestants, they're all a wonderful bunch of lovely people... Actually, the first thing we're gonna do is choose our teams. Let me share my telly with you... And I'm using GitHub Codespaces here, and I've written a little program... And this is essentially I see the randoms there, we've got all the players, and a little loop, one to four... I'm just gonna pull out a random player. And this is like a pure function, Erik, for you, so... Kind of rusty, isn't it?
 
 So you pass in the players, we get back the list with the one removed, and... Let's run it and see who's on what team.
 
@@ -458,7 +458,7 @@ So you pass in the players, we get back the list with the one removed, and... Le
 
 **Carlisia Thompson:** I mean, I think you need the loop, but you don't need --
 
-**Mark Bates:** \[unintelligible 00:19:37.03\]
+**Mark Bates:** It's highly inefficient and confusing... 
 
 **Kris Brandow:** I don't think you need half this...
 
@@ -468,17 +468,17 @@ So you pass in the players, we get back the list with the one removed, and... Le
 
 **Erik St. Martin:** Even if you wanted to call it twice, you could have abstracted it.
 
-**Mark Bates:** Right. Just \[unintelligible 00:19:47.21\] the names.
+**Mark Bates:** Right. Just print out the names.
 
 **Johnny Boursiquot:** Yeah, Mat.
 
 **Mat Ryer:** Excellent.
 
-**Mark Bates:** \[unintelligible 00:19:50.00\] You don't even need the loop, for crying out loud.
+**Mark Bates:** It could even have been done with a strings join, You don't even need the loop, for crying out loud.
 
 **Johnny Boursiquot:** Goodness...
 
-**Mat Ryer:** Excellent. \[laughter\] Well, at least we have our teams from this. Team one - Erik, Natalie, Mark and Angelica. And team two is Brian, Carlisia, Johnny and Kris. There we have it. If you're not happy with the teams, you can blame \[unintelligible 00:20:12.24\]
+**Mat Ryer:** Excellent. \[laughter\] Well, at least we have our teams from this. Team one - Erik, Natalie, Mark and Angelica. And team two is Brian, Carlisia, Johnny and Kris. There we have it. If you're not happy with the teams, you can blame math rand.
 
 **Brian Ketelsen:** \[20:14\] Or bad for loops.
 
@@ -524,13 +524,13 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Erik St. Martin:** Oh, number two. Alright.
 
-**Mat Ryer:** Yeah, it's a very good guess. Okay. We've got lots of points on the scorebard... Let's see if we can get some more. It's Mr. Bates' turn. Careful, it's Mark Bates' turn... Mark, what's your guess? What's the least useful Go keyword?
+**Mat Ryer:** Yeah, it's a very good guess. Okay. We've got lots of points on the scoreboard... Let's see if we can get some more. It's Mr. Bates' turn. Careful, it's Mark Bates' turn... Mark, what's your guess? What's the least useful Go keyword?
 
 **Mark Bates:** I was gonna say fallthrough. That was my big guess.
 
 **Mat Ryer:** What are you gonna say now...?
 
-**Mark Bates:** What am I gonna say... Hang on a second. So there's only 24 of them. \[unintelligible 00:22:36.09\]
+**Mark Bates:** What am I gonna say... Hang on a second. So there's only 24 of them. This shouldn't be this hard.
 
 **Carlisia Thompson:** There's like 25, I don't know...
 
@@ -788,7 +788,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Mat Ryer:** Python. Gophers say... \[win sound\] Correct. And let's see where it is on the board... It's right bang in the middle, at number four. We've got seven items on the board here, number four there - Python. Carlisia, if you can beat this, that means your team takes the --
 
-**Carlisia Thompson:** Ruby. Ruby will be that.
+**Carlisia Thompson:** Ruby. Ruby will be beat that.
 
 **Johnny Boursiquot:** \[unintelligible 00:30:23.11\]
 
@@ -848,7 +848,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Mat Ryer:** We don't have the demographics...
 
-**Johnny Boursiquot:** \[unintelligible 00:31:44.23\]
+**Johnny Boursiquot:** There must be some really old stuff like LISP or something.
 
 **Kris Brandow:** Yeah.
 
@@ -924,7 +924,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Angelica Hill:** Just let me take my time, Mat...
 
-**Mat Ryer:** No we haven't really got time because of all the \[unintelligible 00:33:29.13\]
+**Mat Ryer:** No we haven't really got time because of all the bants.
 
 **Angelica Hill:** Oh, goodness. Well, that's your fault, isn't it? \[laughter\]
 
@@ -1000,7 +1000,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Carlisia Thompson:** It's gonna be Yaml.
 
-**Mat Ryer:** Let's see what was at number first... \[unintelligible 00:35:00.16\]
+**Mat Ryer:** Let's see what was at number seven first... \[unintelligible 00:35:00.16\]
 
 **Carlisia Thompson:** Wow... Wow!
 
@@ -1206,7 +1206,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Carlisia Thompson:** I have to go look it up. Hold on. I'll be right back.
 
-**Mat Ryer:** \[unintelligible 00:40:06.27\]
+**Mat Ryer:** Let's wait for Mark though.
 
 **Natalie Pistunovich:** I wrote it on paper, if that helps... I'm sorry for my bad handwriting, but here's the list. Maybe it's \[unintelligible 00:40:12.11\]
 
@@ -1228,7 +1228,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Johnny Boursiquot:** Alright...
 
-**Mark Bates:** Why is new a keyword now? \[unintelligible 00:40:47.18\]
+**Mark Bates:** Why is new a keyword now? Who knows?
 
 **Kris Brandow:** Vim and Neovim are together, and those are two separate things...
 
@@ -1300,7 +1300,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Carlisia Thompson:** Is it like, when I'm texting? When I'm sexting? What?! \[laughter\]
 
-**Mark Bates:** \[unintelligible 00:43:10.04\]
+**Mark Bates:** Those are very differnt things, you want to make sure you don't...
 
 **Carlisia Thompson:** I need to know more. I need more information. What does this mean?
 
@@ -1598,7 +1598,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Mat Ryer:** Really? I thought that was politer...
 
-**Mark Bates:** I think Erik's term, "losers" \[unintelligible 00:52:50.26\]
+**Mark Bates:** I think Erik's term, "losers" probably more accurate.
 
 **Carlisia Thompson:** If you wanna call us losers, call us losers, okay?
 
@@ -1704,7 +1704,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Mat Ryer:** Johnny, in the land of the bald, the receded man is king. \[laugher\]
 
-**Mark Bates:** On the nose, Johnny. \[unintelligible 00:56:52.22\]
+**Mark Bates:** On the nose, Johnny. Really.
 
 **Mat Ryer:** Um, okay.
 
@@ -1712,7 +1712,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Johnny Boursiquot:** I know...
 
-**Mark Bates:** \[unintelligible 00:56:55.08\]
+**Mark Bates:** you were unbelieveable Mat.
 
 **Johnny Boursiquot:** I don't like to beat around the bush. I was saying how wonderful you are.
 
@@ -2076,7 +2076,7 @@ Okay... The question we asked our Gophers is "The most useful package in the sta
 
 **Johnny Boursiquot:** Boom. Boom.
 
-**Mat Ryer:** It's on there, and it's at number four. Five people said they'd like to outlaw pair programming. They sound very social, those people... \[unintelligible 01:07:35.17\] If you don't like it, it's fine. That's good, ain't it? Oh, it's going well... So we've got 1, 2 and 4 taken; it just leaves number 3 to guess. Carlisia, it's your turn. Can you guess what's the final one? Two lives left...
+**Mat Ryer:** It's on there, and it's at number four. Five people said they'd like to outlaw pair programming. They sound very social, those people... Well I don't want to have a go at you. If you don't like it, it's fine. That's good, ain't it? Oh, it's going well... So we've got 1, 2 and 4 taken; it just leaves number 3 to guess. Carlisia, it's your turn. Can you guess what's the final one? Two lives left...
 
 **Carlisia Thompson:** I have an idea, but is it time to confer?
 
@@ -2154,7 +2154,7 @@ Okay... The question we asked our Gophers is "The most useful package in the sta
 
 **Erik St. Martin:** Alright... Who feels really confident about their answer? Because with the answers to all of these questions, I'm not feeling so confident...
 
-**Mat Ryer:** Yeah. Code reviews - that's such a vital one, but recently I've been put off with that when \[unintelligible 01:10:44.23\] destroyed my reputation reviewing my code just then... \[laughter\]
+**Mat Ryer:** Yeah. Code reviews - that's such a vital one, but recently I've been put off with that when you lot all destroyed my reputation reviewing my code just then... \[laughter\]
 
 **Natalie Pistunovich:** It's true.
 
@@ -2254,14 +2254,13 @@ So that's it. That comes to the end -- oh, some other interesting answers to thi
 
 **Carlisia Thompson:** Being super-clever is not a development practice... \[laughter\]
 
-**Natalie Pistunovich:** The famous developer practice of being \[unintelligible 01:13:56.01\] That's probably what they meant.
+**Natalie Pistunovich:** The famous developer practice of being a 10X That's probably what they meant.
 
 **Carlisia Thompson:** But I like where your head is at, dude... Whoever said that.
 
 **Mark Bates:** I think that means like a meta-programming kind of thing, is what they'd like to outlaw, more than being clever. I think a better term would say "Outlaw meta-programming." You know, the Ruby stuff that you couldn't ever grep for your codebase...
 
-**Kris Brandow:** Yeah. I feel like hackathon should be on here \[unintelligible 01:14:17.09\]
-
+**Kris Brandow:** Yeah. I feel like hackathon should be on here, get rid of those.
 **Mat Ryer:** So let's have the lovely opinions...
 
 **Carlisia Thompson:** Duck typing for programming should be outlawed... \[laughs\]
@@ -2330,7 +2329,7 @@ So that's it. That comes to the end -- oh, some other interesting answers to thi
 
 **Mat Ryer:** Oh, isn't it? Yeah, I've had lots of fun...
 
-**Mark Bates:** \[unintelligible 01:15:45.03\] fortnight, that's for sure.
+**Mark Bates:** Can't text abbreviate fortnight, that's for sure.
 
 **Mat Ryer:** True. Just put two w. Okay - well, I wanna say thank you again so much for coming... Brian Ketelsen, Erik St. Martin, Carlisia Thompson - the OG Go Time; it's great back together and hang out. I really do mean that, so thank you so much. And also, we had Natalie Pistunovich, Kris Brandow, Angelica Hill, Johnny Boursiquot, and of course, Mark Bates. I was Mat Ryer... Thank you so much. Tell all your friends about Go Time if you want... See you later. Bye!
 
