@@ -14,7 +14,7 @@
 
 **Gerhard Lazu:** \[04:24\] Yeah, that's right. It makes a big difference. I know it's hard, and I've seen it... But you've done such an amazing job. So if this is like that, or if this was the way it was, considering all the things, how is Los Angeles going to be? I'm looking forward to that.
 
-**Constance Caramanolis:** Los Angeles - we hope there's gonna be an in-person... \[unintelligible 00:04:40.25\] we hope the in-person part is gonna happen. So if the in-person part happens, we're kind of expecting it to be smaller than other North Americas, and also EU, partially, because we don't know what travel restrictions are, and we don't know \[unintelligible 00:04:55.18\] But we have some fun ideas... I come up with a lot of like -- you know, like the tinfoil hat; I come up with a lot of those ideas in terms of spicing things up, and so I have an idea for what we would do if there's an in-person component for the keynotes... So just to tease it out for people, if there is an in-person, this is gonna be like a favorite - at least in North America - game show with Bob. So just to give that as a clue for people.
+**Constance Caramanolis:** Los Angeles - we hope there's gonna be an in-person... it is marked as happening right now, we hope the in-person part is gonna happen. So if the in-person part happens, we're kind of expecting it to be smaller than other North Americas, and also EU, partially, because we don't know what travel restrictions are, and we don't know all that stuff there. But we have some fun ideas... I come up with a lot of like -- you know, like the tinfoil hat; I come up with a lot of those ideas in terms of spicing things up, and so I have an idea for what we would do if there's an in-person component for the keynotes... So just to tease it out for people, if there is an in-person, this is gonna be like a favorite - at least in North America - game show with Bob. So just to give that as a clue for people.
 
 **Gerhard Lazu:** Okay. I don't know what that means, but I'm intrigued. Do you know what it means, Stephen?
 
@@ -26,7 +26,7 @@
 
 **Stephen Augustus:** Different Bob. Different Bob.
 
-**Constance Caramanolis:** He was the presenter for this game show a while back; there's a new presenter now, his first name is \[unintelligible 00:05:48.23\]
+**Constance Caramanolis:** He was the presenter for this game show a while back; there's a new presenter now, his first name is Drew Carey or Drew Carey Flint to give people more hints if they want to Google it afterwards.
 
 **Gerhard Lazu:** Okay, okay...
 
@@ -64,7 +64,7 @@
 
 **Stephen Augustus:** Just a quick clarification... The China event is now I believe OSS Summit China, maybe... So the primary KubeCon CloudNativeCon events are North America and EU. We do kind of like a region-specific for China moving forward... And Constance and I are not directly involved in that.
 
-**Constance Caramanolis:** Not anymore, yeah. It's also because it's all up in the air too, because our co-chair reign of terror ends after North America... So China is supposed to be like \[unintelligible 00:09:12.15\] Jasmine might know.
+**Constance Caramanolis:** Not anymore, yeah. It's also because it's all up in the air too, because our co-chair reign of terror ends after North America... So China is supposed to be like afterwards, so Jasmine might know.
 
 **Gerhard Lazu:** Who's Jasmine? I'm glad that you mentioned Jasmine. Who's Jasmine?
 
@@ -118,7 +118,7 @@ I think often the adrenaline of deadlines allows you to do things more effective
 
 **Gerhard Lazu:** Yeah, that was appreciated in so many ways. I think it's going to lead to so many other things, this idea. You take -- I wouldn't say a negative, but something that could be a negative, turn it into a positive, a playful positive, and then it leads to many other positive things. So that was really nice.
 
-**Constance Caramanolis:** Yeah. One thing I do wanna say is a lot of people did have very negative experiences. I personally had some negative experience, like in feedback, and it happened -- a lot of people who were big program chairs, and \[unintelligible 00:17:33.03\] We've said this many times, but they spend hours, up to hundreds of hours reviewing the talks and trying to give us feedback, so that we can curate it more and come and come up with a final selection... And that is thankless work. So thank you.
+**Constance Caramanolis:** Yeah. One thing I do wanna say is a lot of people did have very negative experiences. I personally had some negative experience, like in feedback, and it happened -- a lot of people who were big program chairs, and track chairs. We've said this many times, but they spend hours, up to hundreds of hours reviewing the talks and trying to give us feedback, so that we can curate it more and come and come up with a final selection... And that is thankless work. So thank you.
 
 It's tedious to read... It's tedious because you're just seeing conference talk after conference talk, and you're trying to identify what's different, and what's unique, and trying to think about what people wanna see, and it's a really hard place to put yourself in, so thank you. Also, thank you to everyone who submitted CFPs. Thank you. People do review them, and we appreciate it. We really do.
 
@@ -168,13 +168,13 @@ I guess the second suggestion would be don't make this decision in a vacuum. You
 
 **Stephen Augustus:** Yeah.
 
-**Constance Caramanolis:** \[unintelligible 00:26:43.29\] a lot of talks are actually a blog post, because there's a lot of things I maybe wanna learn from people, but it's really hard for me to -- at least for myself, how I learn is I can't consume things well in a talk, because they're sharing snippets of code, and they're running these things there, and it's really hard to follow. So a lot of talks I actually wish they were either blogs, or they had the accompanying blogs detailing exactly what they did.
+**Constance Caramanolis:** There is one thing too - a lot of talks are actually a blog post, because there's a lot of things I maybe wanna learn from people, but it's really hard for me to -- at least for myself, how I learn is I can't consume things well in a talk, because they're sharing snippets of code, and they're running these things there, and it's really hard to follow. So a lot of talks I actually wish they were either blogs, or they had the accompanying blogs detailing exactly what they did.
 
 At least for myself, whenever I'm searching for some problem-solving, if I have to watch a video, I don't process it really well, so that's where I wish people wrote more blogs. But also, I understand that it's incredibly difficult to write blogs, and I hate doing it whenever I have to do it, so I get why people don't.
 
 **Stephen Augustus:** Well, I think it's playing to your strengths, too. To your point, everyone learns a little differently. We take SIG meetings, for example - like, I will not go back and view a recording. It needs to be something that I'm building for evidence, that will force me to go back and look for a recording. I don't like learning that way. I would prefer to see a digest, or something... There are some people who can easily churn out blogs. There are some people who are terrified of being on-stage.
 
-\[27:56\] Figuring out how to play to your strengths... You know, some of the talks that we saw around kind of like playing with the borders of delivering a talk, because it was now virtual, like you just had more opportunity... People who have video editing experience went crazy with it for a few of the talks. I think both \[unintelligible 00:28:15.27\] were just brilliant examples of tearing down the borders of what it means to just give a talk to an audience. They played with it, and I liked that.
+\[27:56\] Figuring out how to play to your strengths... You know, some of the talks that we saw around kind of like playing with the borders of delivering a talk, because it was now virtual, like you just had more opportunity... People who have video editing experience went crazy with it for a few of the talks. I think both Tabby and Ellen's talk this time around and Justin Garrison's talk for NA were just brilliant examples of tearing down the borders of what it means to just give a talk to an audience. They played with it, and I liked that.
 
 **Gerhard Lazu:** That's right. It's like a whole new world when you record yourself. Props. Sure. So easy, right? Do it again. It doesn't have to be the first time. Refine it. Give maybe an internal talk and see what people think, and then do it again. So it doesn't have to be the first time, right?
 
