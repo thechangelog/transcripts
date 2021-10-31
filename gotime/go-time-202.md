@@ -12,7 +12,7 @@ I'm joined today by my co-panelist, Natalie Pistunovich. How are you doing today
 
 **Ian Lopshire:** Well, about 50 weeks in a year, about 80 years in a life... So like 4,000?
 
-**Natalie Pistunovich:** \[00:04:13.23\] \[laughs\]
+**Natalie Pistunovich:** \[04:13\] \[laughs\]
 
 **Kris Brandow:** Why are you doing math? Human math...? Alright, Ian says 4,000. What do you say, Natalie?
 
@@ -38,7 +38,7 @@ The second job that I had afterwards (the first one in software) was not doing a
 
 **Kris Brandow:** Yeah, I would take an assumption to say that probably we want a direction for where we're going, as quickly as we're going, so we kind of aren't just working against ourselves. Because we're just optimizing for speed. We could be driving in a circle, we could be one sprint going in one way, and another sprint turning completely around and then going back to where we came from... And obviously, if we just do that, we're not actually going anywhere, even if we are moving quickly.
 
-\[00:08:02.18\] So I guess for that one, I would say there's this nice idea of like velocity... At least we're aiming at something. We're trying to get somewhere. But is that something that we should be measuring on a sprint by sprint basis? Is the word velocity that we all just kind of defined between ourselves as like the speed at which we're heading towards something in a direction - is that the reality of what velocity is in our sprints? And in the practice of software engineering, we do. That's a very meta question. Wow. \[laughter\] What do you think, Ian? Do you think that what we've just kind of framed velocity as lines up with velocity that we experience when we actually build software, or when we measure our speed of building software?
+\[08:02\] So I guess for that one, I would say there's this nice idea of like velocity... At least we're aiming at something. We're trying to get somewhere. But is that something that we should be measuring on a sprint by sprint basis? Is the word velocity that we all just kind of defined between ourselves as like the speed at which we're heading towards something in a direction - is that the reality of what velocity is in our sprints? And in the practice of software engineering, we do. That's a very meta question. Wow. \[laughter\] What do you think, Ian? Do you think that what we've just kind of framed velocity as lines up with velocity that we experience when we actually build software, or when we measure our speed of building software?
 
 **Ian Lopshire:** I think we try to make it line up like that. To me, velocity is something that everyone's trying to measure, and no one's doing a good job at it. Or maybe I've never been somewhere where we've done a good job at it. I don't' know. I actually did not quite follow that whole question that you've just asked, but... \[laughter\]
 
@@ -58,7 +58,7 @@ But yeah, on the deleting code point, I think that really is interesting. It's l
 
 **Natalie Pistunovich:** Yeah, refactoring is pretty much like one by one finding a nicer one, but I have more IKEA than I'm willing to admit at home. I do think that the one day that I'll decide to make it a less IKEA flat and more a flat-flat would be not one by one, but kind of one day I'll bring in a home designer, and she'll make everything beautiful. But it will not be one by one. But in software, it's sort of like piece by piece, element by element. Why is it different?
 
-**Kris Brandow:** \[00:11:55.12\] Right. You know, I think that's a really good point there, because we do have this very iterative "Don't do big design upfront. Do it piece by piece", but I think your apartment analogy is spot on. I know for me personally, in the last apartment I lived in, I did take this more piecemeal approach; I did just buy a bunch of IKEA stuff, and like "I need a bookshelf", so I just bought a bookshelf. I needed some nightstands, and I just bought some nightstands. Just piece by piece. Every time I needed a little thing, I just bought a little thing. But my apartment never really -- it didn't feel like it had a good flow to it. It felt that it was just kind of like assembled, piecemeal, and things were just kind of patched together.
+**Kris Brandow:** \[11:55\] Right. You know, I think that's a really good point there, because we do have this very iterative "Don't do big design upfront. Do it piece by piece", but I think your apartment analogy is spot on. I know for me personally, in the last apartment I lived in, I did take this more piecemeal approach; I did just buy a bunch of IKEA stuff, and like "I need a bookshelf", so I just bought a bookshelf. I needed some nightstands, and I just bought some nightstands. Just piece by piece. Every time I needed a little thing, I just bought a little thing. But my apartment never really -- it didn't feel like it had a good flow to it. It felt that it was just kind of like assembled, piecemeal, and things were just kind of patched together.
 
 And when I had moved into my current apartment, I decided "Nah, I'm just gonna plan everything. I'm gonna plan how I want everything, and figure out all of the pieces." And I did that for the first iteration of my apartment. I sat down, I've planned everything out, I bought the things, I got the things, I put them up... And then I've added to it since, but all those things I added to are in the same field; they're in the same balance with everything else in my apartment. So it looks like those things were put there right from the beginning. But the only reason I could do that is because I planned upfront. I said "This is the aesthetic I want for my apartment. This is how I want things to look, this is how I want things to feel." And I feel like a lot of times in Agile we don't do that. We hate to plan; we try and get away from planning. We try to get away from the big upfront design, as it sits.
 
@@ -80,7 +80,7 @@ And then eventually, we all decide that "Well, this line of IKEA isn't cool anym
 
 **Natalie Pistunovich:** At the same velocity. \[laughs\]
 
-**Kris Brandow:** \[00:15:53.08\] Yeah. We don't wanna lose any velocity. You need to keep moving, you need to keep building. We're gonna build a whole new platform, a whole new set of microservices or whatever... And I feel like we blame the furniture for being bad. It's like, we blame Kubernetes for being bad; we blame REST APIs, or JSON, or a container, or whatever, and it's like, we bring in a new hotness, and it's like, "Ah, microservices will fix this", or gRPC will fix this, or whatever. It's like, yeah, that lamp didn't fit with the decor because it's like a bad lamp. It's because you didn't buy a lamp that fit with the rest of the stuff. You've gotta buy things that fit together.
+**Kris Brandow:** \[15:53\] Yeah. We don't wanna lose any velocity. You need to keep moving, you need to keep building. We're gonna build a whole new platform, a whole new set of microservices or whatever... And I feel like we blame the furniture for being bad. It's like, we blame Kubernetes for being bad; we blame REST APIs, or JSON, or a container, or whatever, and it's like, we bring in a new hotness, and it's like, "Ah, microservices will fix this", or gRPC will fix this, or whatever. It's like, yeah, that lamp didn't fit with the decor because it's like a bad lamp. It's because you didn't buy a lamp that fit with the rest of the stuff. You've gotta buy things that fit together.
 
 **Natalie Pistunovich:** Yup. Yup.
 
@@ -120,7 +120,7 @@ And then eventually, we all decide that "Well, this line of IKEA isn't cool anym
 
 But another area of balancing work and trying to keep things in order is the backlog. It's this giant list of things that we have. I have definitely felt in the past that backlogs started to become giant dumping grounds for tests that we want to do. I'll often feel pretty endless. It feels like "Oh, there's so many things on it that I wanna do", and it feels like we're moving through it so slowly. And I wonder if either of you have maybe some suggestions for our audience, or some techniques you use to help make the backlog that you guys use feel less daunting...
 
-**Natalie Pistunovich:** \[00:20:11.04\] One thing that works actually as a community organizer, so not related to code, is that we have a Trello board per year. And we can carry over meetup ideas, which is what lives in our backlog column, but you have to kind of proactively opt in. You want to do this; it's not kind of like -- if you have some board that is not necessarily per year, but per project, this can stay in the backlog forever. But if you give it a lifetime of a maximum one year, or kind of like the end of the calendar year, you do reevaluate this better and it's more generally acceptable to kill things in the backlog, that "Well, it's a good idea. It's not gonna happen. We don't take this to the new year."
+**Natalie Pistunovich:** \[20:11\] One thing that works actually as a community organizer, so not related to code, is that we have a Trello board per year. And we can carry over meetup ideas, which is what lives in our backlog column, but you have to kind of proactively opt in. You want to do this; it's not kind of like -- if you have some board that is not necessarily per year, but per project, this can stay in the backlog forever. But if you give it a lifetime of a maximum one year, or kind of like the end of the calendar year, you do reevaluate this better and it's more generally acceptable to kill things in the backlog, that "Well, it's a good idea. It's not gonna happen. We don't take this to the new year."
 
 **Ian Lopshire:** Something that we do is -- I think it's called ICE scoring. Impact... What is the C? Confidence, and Ease. So you score them 1 to 10, and the compound score is the addition of all of those. And then we just kind of drop everything at the bottom of the list, we archive that and we don't ever look at it again. We've decided it's not a big deal. And if that stuff changes, it's gonna rise back up in that list.
 
@@ -134,11 +134,11 @@ There's so many of these prioritization things that exist that probably do work 
 
 **Kris Brandow:** Yeah, I like that use of a backlog, the nice rule in place where it's like "Check the backlog before you add something new, to make sure it doesn't already exist there." Because that's the other thing I've found with backlogs sometimes - we do pile in things, and it's like "Why \[unintelligible 00:22:01.20\] same feature request, or the same thing in here?"
 
-**Break:** \[00:22:06.25\]
+**Break:** \[22:06\]
 
 **Kris Brandow:** So we've talked a bit about balancing work, hopefully we've given our audience some nice tips around that... Let's talk about balancing things outside of work. I wanna start with community. Many, or I think probably all of our listeners are part of the Go community, so we're all involved in a community... And Natalie, you help organize both a conference and meetups, so I'm wondering, for you - do you wind up having to track the time that you spend in the community space in the same ways that you would track your full-time work?
 
-**Natalie Pistunovich:** \[00:24:14.01\] I will make a small correction that I'm not helping organizing, I've been the main organizer for the five years, and it's been a long five years in the Go meetup, and I'm still very much enjoyed that... And with the Go conference - yeah, I'm not tracking my time well, because I don't have a reason to do that, I guess. It is a blocker in the calendar in that sense, so I know not to plan on that, and I know roughly how much it takes... But I think it's all -- at least the Go meetup is somewhat structured, in the sense that it used to be the same format every time, and then we were two co-organizers, and now we're three, and each one owns a month. And on months when we have a good backlog of speakers - and I'll take a second to say that we always need speakers; please submit a talk, even if you gave it at another meetup; we're happy to hear that. Yes, it's online, yes, we'd still want to hear that...
+**Natalie Pistunovich:** \[24:14\] I will make a small correction that I'm not helping organizing, I've been the main organizer for the five years, and it's been a long five years in the Go meetup, and I'm still very much enjoyed that... And with the Go conference - yeah, I'm not tracking my time well, because I don't have a reason to do that, I guess. It is a blocker in the calendar in that sense, so I know not to plan on that, and I know roughly how much it takes... But I think it's all -- at least the Go meetup is somewhat structured, in the sense that it used to be the same format every time, and then we were two co-organizers, and now we're three, and each one owns a month. And on months when we have a good backlog of speakers - and I'll take a second to say that we always need speakers; please submit a talk, even if you gave it at another meetup; we're happy to hear that. Yes, it's online, yes, we'd still want to hear that...
 
 Jumping back - I know that I will have to do the same few steps as I've been doing for the past few years every few months... And I guess because it's so automated, it also no longer needed really to be tracking... But maybe whenever inviting a new co-organizer on board, which used to be slightly more frequent than the Covid days, when people would relocate more, I guess - I had to put a number on this when I was asking if anybody wants to help me... Because I would say "This is how many hours you need to commit to." But now, the same organizers are with me for two years now, so I think I forgot how long it takes.
 
@@ -160,7 +160,7 @@ I think it's amazing that you've been an organizer for five years, Natalie. You'
 
 **Natalie Pistunovich:** Definitely, yeah. Occasionally, when that feeling comes, it's in the form of "I don't want to do this anymore", and then I would probably ask one of my co-organizers to step in and just switch months... So that's the good thing about having the option of switching. And I think it also comes a little bit with big holidays for me... If this is a Christmas slowdown, I think it's a bit of a mental, like, "Let's make sure that the December meetup is very early in the year, and the January is very late in the month", so there will be a bigger gap... But it also makes sense, because so many people have travel plans.
 
-\[00:28:04.20\] To make another analogy, it's a little bit like budgeting. Some people budget in the sense that they know to the resolution of like pennies of cents how they spend their money and where it goes... And I find that for me putting a cut-off and saying "All the expenses under $50 I would not really keep track, and I'm okay with that, because I know where the 80% of my money is spent, and the rest is here and there."
+\[28:04\] To make another analogy, it's a little bit like budgeting. Some people budget in the sense that they know to the resolution of like pennies of cents how they spend their money and where it goes... And I find that for me putting a cut-off and saying "All the expenses under $50 I would not really keep track, and I'm okay with that, because I know where the 80% of my money is spent, and the rest is here and there."
 
 I think managing spending and using the time in a similar way is the way that works for me. But organizing meetups is one way of doing community work, open source is another way of doing community work.
 
@@ -198,7 +198,7 @@ So yeah, I think that's like another way that you can kind of help balance your 
 
 **Natalie Pistunovich:** So you have to do those -- I think it's three; I forget... You have to make those contributions within the month of October. And there's some rules that you cannot make up repos and contribute to yourself, so not cheats like that, but actually do something good, to whatever level that you can. It can also be contributing typos, and so on. Really, any level that works for you... But it has to be helping promote open source. I think it's a wonderful initiative, and it's the small things that kind of like -- because you get a T-shirt, because you get that care package, it's fun; it makes you enjoy open source more.
 
-**Kris Brandow:** \[00:32:15.29\] I think that's really cool. I need to check that out.
+**Kris Brandow:** \[32:15\] I think that's really cool. I need to check that out.
 
 **Ian Lopshire:** Yeah, same.
 
@@ -230,7 +230,7 @@ So Ian, what do you do when you start feeling overwhelmed, or to prevent yoursel
 
 **Natalie Pistunovich:** I think that going outside, leaving the house is different for people who live in a house, versus people who live in a flat. I live in a classic, old German building, with very high ceilings, and I live on the last floor, and we have no elevator. So going outside is -- like, from the moment that I touch the door handle, until I'm breathing outside air, and I have to go through the yard between the buildings... It's the second building, so this is like a solid six minutes.
 
-\[00:36:09.20\] So leaving the house is like a big engagement. \[laughter\] And I imagine if I would live in a house, or even on the ground floor of a building, it would be a lot more of an easier thing to go outside and grab some sun... Especially as the winter is coming, and the days are shorter \[unintelligible 00:36:24.04\]
+\[36:09\] So leaving the house is like a big engagement. \[laughter\] And I imagine if I would live in a house, or even on the ground floor of a building, it would be a lot more of an easier thing to go outside and grab some sun... Especially as the winter is coming, and the days are shorter \[unintelligible 00:36:24.04\]
 
 It's a good question to bring up, because you should be more mindful of that, especially if you live further from the Equator and you're getting more dark hours...
 
@@ -250,7 +250,7 @@ So we aren't always great at keeping ourselves from being overwhelmed, and you k
 
 **Natalie Pistunovich:** It sounds better in other languages, but it makes sense even in English, in the sense of communicating that makes things kind of more into proportion, and stops that from being a snowball. Yeah, I definitely agree that telling to the team that "There will be a slowdown coming up", that velocity is not going to be the same... \[laughter\] Those are good ways of handling that in your professional life.
 
-**Kris Brandow:** \[00:39:56.23\] Yeah, I like those. So have you ever gotten to the point where you are just actually fully burned out? Like, it's exhausting to get out of bed every morning. You just don't want to. "Can I just not?" If that has happened to you, how have you actually pulled yourself out of that situation?
+**Kris Brandow:** \[39:56\] Yeah, I like those. So have you ever gotten to the point where you are just actually fully burned out? Like, it's exhausting to get out of bed every morning. You just don't want to. "Can I just not?" If that has happened to you, how have you actually pulled yourself out of that situation?
 
 **Natalie Pistunovich:** So I used to work for a company that had a limited vacation day policy... And that, of course, translated to me taking like maybe two Monday/Friday to bridge for a little bit of a long weekend, but then it came -- I think September, or close to my birthday, which is end of August, and I realized that I have not been on vacation for probably a year, probably more. I took a week off on my birthday, and it was terrible, because I didn't make any travel plans, I didn't do anything specific... So I was just sitting at home, and because my brain was used to be working so much, but it had no new tasks, I just filled it up with all sorts of ideas, and that week - I came out of it with a list of 50 half-started, half-done projects... And just like putting it in the backlog, versus saying "I'm not gonna do it" is also a bit of a mental toll for me, saying "Oh, I'm not gonna do that."
 
@@ -268,7 +268,7 @@ The company I currently work for does something kind of like this. We have one F
 
 **Kris Brandow:** Yeah. And I think, Ian, you brought up this other perspective of it, where it can be actually beneficial for the company as well to make sure people are taking their vacation time... I know that at least in the U.S, and I'd imagine other places as well, in the financial industry, certain positions have mandatory, contiguous 2-week vacation times every year. That's to ensure that -- you know, it takes about two weeks for a financial scheme to fall apart, so that's to make sure that fraud isn't happening...
 
-\[00:44:14.02\] But I think the same sort of thing can apply for us in software, just like making sure that there's not a single person that's keeping this one system running... Because the always wake up when it's falling over. And if that person got sick, or if they left, now that whole system would break. So I think having days or weeks where nobody's here, or like everybody has to take this big, long time off, just to make sure that we have that organizational resiliency to actually survive someone being gone for a period of time is definitely in the best interest of the company as a whole. So it's good for the worker, good for the person... It's a win/win.
+\[44:14\] But I think the same sort of thing can apply for us in software, just like making sure that there's not a single person that's keeping this one system running... Because the always wake up when it's falling over. And if that person got sick, or if they left, now that whole system would break. So I think having days or weeks where nobody's here, or like everybody has to take this big, long time off, just to make sure that we have that organizational resiliency to actually survive someone being gone for a period of time is definitely in the best interest of the company as a whole. So it's good for the worker, good for the person... It's a win/win.
 
 **Natalie Pistunovich:** That's a really good point. It's true. That's the way to find single points of failure.
 
@@ -276,7 +276,7 @@ The company I currently work for does something kind of like this. We have one F
 
 **Natalie Pistunovich:** A hundred percent.
 
-**Break:** \[00:45:35.00\]
+**Break:** \[45:35\]
 
 **Kris Brandow:** We haven't really talked about Go specifically, so I wanna have a little part at the end here to ask you if there are ways in which you see Go either helping or hindering a kind of balanced development style, of a balanced development experience for software engineers.
 
@@ -284,7 +284,7 @@ The company I currently work for does something kind of like this. We have one F
 
 **Kris Brandow:** See? You're making me have to define what I mean... \[laughter\] So I guess from balanced of like any of the things we've talked about... Like, does it help balance the software we write at the end of the day? Are there things about it that make it a good language for people to contribute to? Are there things that make it a hard language to contribute to? And then just in like the personal life of engineers - are there things about Go that make it so that engineers can take a vacation and feel good about it, or are there things that are like "Oh no, because we develop in this style, because we develop in this language, it's hard for people to do those things"? I'm curious if there's any linkages you see for that into Go itself, and maybe improvements we can make as a community or within the language to help resolve those things that more hinder people's ability to balance?
 
-**Ian Lopshire:** \[00:48:11.13\] I feel like the simplicity of Go comes up in every conversation, but I think it belongs here, as well. The readability of Go does make it so when you're gone for two weeks and something goes down, someone can read through your code and figure out what it is. I do think the barrier to entry in code you didn't write in Go is lower than a lot of other languages.
+**Ian Lopshire:** \[48:11\] I feel like the simplicity of Go comes up in every conversation, but I think it belongs here, as well. The readability of Go does make it so when you're gone for two weeks and something goes down, someone can read through your code and figure out what it is. I do think the barrier to entry in code you didn't write in Go is lower than a lot of other languages.
 
 **Natalie Pistunovich:** And also, a lot of the mentality that is related with Go, like doing things TDD, all the unit tests plus integration tests, and all the benchmarking can kind of put a good frame around things. You have more tools to feel confident and comfortable in knowing what to expect and assume things with slightly more confidence... Also with an easier way, because things like benchmarking, for example, is built-in.
 
@@ -298,11 +298,11 @@ I feel that also the Go community is somewhat bringing the more relaxed mentalit
 
 Like yeah, you had to write some code that you might not know how to write in another language, or copy some code from somewhere you might not have had to do in another language, because you could have just grabbed the dependency... But it feels like the long-term effects of having fewer dependencies is like -- fewer things are there to break, because there's fewer things that are like "Oh, this dependency got updated and it broke all of this stuff I had", or there's the security flaw that I now have to go and dig in and figure out if it affects my code, or whatnot. I feel like that low number of dependencies that we have definitely is a boon to Go... Or at least it has been historically.
 
-**Natalie Pistunovich:** And if you're a dev ops person, you can always cross-compile very easily. Also nice.
+**Natalie Pistunovich:** And if you're a DevOps person, you can always cross-compile very easily. Also nice.
 
 **Kris Brandow:** Yeah. You can actually assemble container images on your Mac, locally, without having to run a Linux VM... Which is cool. Alright - well, I think it's time for some unpopular opinions...
 
-**Jingle:** \[00:51:21.28\] to \[00:51:40.14\]
+**Jingle:** \[51:21\] to \[51:40\]
 
 **Kris Brandow:** Alright... Natalie, do you have an unpopular opinion?
 
@@ -312,7 +312,7 @@ Like yeah, you had to write some code that you might not know how to write in an
 
 **Natalie Pistunovich:** Today I gave a talk about how to give technical talks... And one of the slides included my personal recommendation to use more memes, less text. And then I had several other more slides, and then we had a breakout room, and I was not participating because it was for the attendees... And then we came back all together to the call, and then all the attendees were saying their conclusions from discussing this in the breakout rooms... And most of the breakout rooms said that memes are not necessarily a good idea.
 
-\[00:52:20.19\] It can be not inclusive to people who don't know a specific meme, it can get offensive, especially if you change it from using a meme generator to make it relevant for whatever technical topic you're focusing on, this can also not work... So a lot of people were against this idea, and this became my unpopular idea, or unpopular opinion. Use more memes in slides.
+\[52:20\] It can be not inclusive to people who don't know a specific meme, it can get offensive, especially if you change it from using a meme generator to make it relevant for whatever technical topic you're focusing on, this can also not work... So a lot of people were against this idea, and this became my unpopular idea, or unpopular opinion. Use more memes in slides.
 
 **Kris Brandow:** I like your unpopular opinion.
 
@@ -372,7 +372,7 @@ So you know, like a nice image, or something that just kind of like helps me und
 
 **Kris Brandow:** It can be less confusing. I know there's all sorts of things I've tripped over in Make before. The way that sub-shells work - that always trips me up, of like what gets passed in, versus what doesn't... But that may be a 50/50 split. There might be some people that find it like "No! I love Make!" And then there's probably a bunch of people that are like "Burn it to the ground."
 
-**Ian Lopshire:** \[00:56:04.28\] And it could be I just haven't taken the time to really dig in and understand everything, but I just don't know if I want to do that.
+**Ian Lopshire:** \[56:04\] And it could be I just haven't taken the time to really dig in and understand everything, but I just don't know if I want to do that.
 
 **Natalie Pistunovich:** That's fair.
 
@@ -404,7 +404,7 @@ So you know, like a nice image, or something that just kind of like helps me und
 
 **Ian Lopshire:** It's been a pleasure.
 
-**Outro:** \[00:57:43.20\]
+**Outro:** \[57:43\]
 
 **Natalie Pistunovich:** You know, we missed this episode -- I just realized, we missed \[unintelligible 00:58:55.10\] joke. All things perfectly balanced, as they should be.
 
