@@ -10,7 +10,7 @@
 
 **Vladimir Vivien:** Thank you. Very excited to be here.
 
-**Angelica Hill:** Secondly, we have Tobias Theel, also known as the "Always Developing Princess." I feel like we need to talk about that a bit more. He's a lead developer for the fintech Fino and the regtech ClariLab. He has 15 years expertise, including \[unintelligible 00:04:12.13\] building digital solutions to automate KYC processes, and he is an extremely enthusiastic open source maintainer, contributor to several different projects, as well as being the author of "TinyGo: Creative DIY Microcontroller Projects with TinyGo and Web Assembly."
+**Angelica Hill:** Secondly, we have Tobias Theel, also known as the "Always Developing Princess." I feel like we need to talk about that a bit more. He's a lead developer for the fintech Fino and the regtech ClariLab. He has 15 years expertise, including inter alia building digital solutions to automate KYC processes, and he is an extremely enthusiastic open source maintainer, contributor to several different projects, as well as being the author of "TinyGo: Creative DIY Microcontroller Projects with TinyGo and Web Assembly."
 
 **Tobias Theel:** \[04:33\] Hello. I'm really happy to be here.
 
@@ -44,7 +44,7 @@ Right from the beginning, I was that person who just discovered the existence of
 
 **Vladimir Vivien:** Yeah, so as a dayjob I do what I consider to be, you know -- well, it pays the bills, but it's something I could do in my sleep... So I started to look into what else I can do with Go. I've told the story last time we talked... Of course, it was pandemic-driven, when we had a hard time getting cameras for a webcam, and I started to search to see if there's any way I could build my own... So I started looking into the Raspberry Pi that had just come out, with the HQ camera...
 
-\[08:26\] And there was some stuff out there that shows you how to do it, and it's multiple steps, and of course, you have to build -- you needed a C toolchain to build the binary etc. But that got me thinking, "Hey, can't this be done with Go?" And it turned out that yes, you can. And it got me thinking what else programming hardware you can do with Go... Because what I've found out is that Go actually puts you closer to the operating system that - if you're just using Go for web or cloud-native, you don't realize how close you are to the operating system, and what sort of system programming you can do... And doing that work, I started a small project to basically do, if not every -- probably it's not gonna be every part of the \[unintelligible 00:09:16.15\] that allows you to stream video from using what we call the Video for Linux API, but at least a good chunk of it where you can build something useful using Go... Because I seriously think, when it comes to hardware and low-level programming, Go is grossly under-utilized... So we'll see.
+\[08:26\] And there was some stuff out there that shows you how to do it, and it's multiple steps, and of course, you have to build -- you needed a C toolchain to build the binary etc. But that got me thinking, "Hey, can't this be done with Go?" And it turned out that yes, you can. And it got me thinking what else programming hardware you can do with Go... Because what I've found out is that Go actually puts you closer to the operating system that - if you're just using Go for web or cloud-native, you don't realize how close you are to the operating system, and what sort of system programming you can do... And doing that work, I started a small project to basically do, if not every -- probably it's not gonna be every part of the the C API that allows you to stream video from using what we call the Video for Linux API, but at least a good chunk of it where you can build something useful using Go... Because I seriously think, when it comes to hardware and low-level programming, Go is grossly under-utilized... So we'll see.
 
 **Angelica Hill:** So when working on that project, were you kind of forcing Go and TinyGo onto the project, or do you feel like it truly was the right fit for that kind of project?
 
@@ -52,7 +52,7 @@ Right from the beginning, I was that person who just discovered the existence of
 
 But the project is not necessarily TinyGo-specific, but it can be. As long as you have an operating system, specifically Linux, it'll work.
 
-**Ron Evans:** I feel like jumping in, just because, Vladimir, what you're doing is really cool... And interestingly, long before TinyGo existed, before -- actually, a couple of times ago when I was on Go Time, I had mentioned one of the first applications of Go running on embedded Linux were video systems. When we first came out with GoBot a few years back, people started popping out of the woodwork saying "Oh, we're running Go on an embedded system for some type of video surveillance system, or video monitoring system", and I was like, "Okay, great. Open-source it!" "Oh no, we can't do that. This is all proprietary." But it's really cool that you've been working on this... I think that's a really killer application for Go, is \[unintelligible 00:12:08.16\] video.
+**Ron Evans:** I feel like jumping in, just because, Vladimir, what you're doing is really cool... And interestingly, long before TinyGo existed, before -- actually, a couple of times ago when I was on Go Time, I had mentioned one of the first applications of Go running on embedded Linux were video systems. When we first came out with GoBot a few years back, people started popping out of the woodwork saying "Oh, we're running Go on an embedded system for some type of video surveillance system, or video monitoring system", and I was like, "Okay, great. Open-source it!" "Oh no, we can't do that. This is all proprietary." But it's really cool that you've been working on this... I think that's a really killer application for Go, is computing video.
 
 **Vladimir Vivien:** \[12:11\] Absolutely.
 
@@ -104,7 +104,7 @@ So there's a suite of tools that comes with the Video for Linux call. The Video 
 
 **Ron Evans:** Well, do we really have to choose? Can't we all just get along...? Would you rather have an instant coffee, or a nice cup of tea? I'll take anything, under the right circumstances.
 
-**Tobias Theel:** \[unintelligible 00:18:33.10\] a typical tabs versus spaces war just with coffee versus tea right now...
+**Tobias Theel:** Either we are happy and love each other or start a typical tabs versus spaces war just with coffee versus tea right now...
 
 **Ron Evans:** Exactly. Unpopular opinion - coffee is way better than tea. \[laughter\] Oh, wait. Sorry, that was supposed to be later. I'm sorry, I got excited. \[laughter\] Maybe it was all the coffee...
 
@@ -114,7 +114,7 @@ So there's a suite of tools that comes with the Video for Linux call. The Video 
 
 **Vladimir Vivien:** Tobias, what microcontroller did you say you were using?
 
-**Tobias Theel:** The Arduino Nano 33 IoT. Such a really long name for such a small controller... There are two Arduino Nano 33 microcontrollers - one with Bluetooth, and one with the awesome NINA Wi-Fi chip. \[unintelligible 00:19:12.02\] capable of Bluetooth stuff, and the other one is capable of Wi-Fi stuff... And this Wi-Fi stuff really helps me, as I use it to send MQTT messages over the network, and so on. And also, this bot is really, really well supported in TinyGo right now.
+**Tobias Theel:** The Arduino Nano 33 IoT. Such a really long name for such a small controller... There are two Arduino Nano 33 microcontrollers - one with Bluetooth, and one with the awesome NINA Wi-Fi chip. So the one is capable of Bluetooth stuff, and the other one is capable of Wi-Fi stuff... And this Wi-Fi stuff really helps me, as I use it to send MQTT messages over the network, and so on. And also, this bot is really, really well supported in TinyGo right now.
 
 **Ron Evans:** Yeah, with the -- I think it was three years ago, GopherCon.. We had a fantastic community hardware hack day... Well, actually, we ran the community hardware hack day every physical GopherCon, starting at the first one, when that wasn't even an official thing. It was just a community day... And I brought a bunch of flight cases full of equipment, because I had to leave directly from Denver to fly to Berlin, to do a conference there. Then also to Scotland... It was like this whole European tour. I just had a bunch of flight cases full of equipment. So I just popped the cases open, took a bunch of stuff out, on the honor system, like a library - you know, just "Play with it. Bring it back." That was the first unofficial community hardware hack day, and then that just became an actual official event.
 
@@ -172,13 +172,13 @@ But it has also some drawbacks... And there was a really great talk -- I'm tryin
 
 **Vladimir Vivien:** Oh, right.
 
-**Ron Evans:** ...which Guido and the core team of Python readily acknowledge. I look at that and I think \[unintelligible 00:35:02.01\] but more like, "Okay, that is the future of our favorite programming language if we are not very cautious about the way that we develop it, and compatibility with things." That's one reason why TinyGo is not in a 1.0 release yet... Because when we say "Okay, it's 1.0", we take that responsibility seriously, about "Okay, now we're bound by the same covenants that the main Go implementation (if you will) has demanded of itself", of saying "You can count on this for the next 15 years as a stable platform to keep the world actually running on", since if the computers of the world stopped working all at once, it's gonna be really inconvenient for the people who are in flight at the time, for example.
+**Ron Evans:** ...which Guido and the core team of Python readily acknowledge. I look at that and I think there but for the grace of God go I, not like HaHa, you messed up Python, but more like, "Okay, that is the future of our favorite programming language if we are not very cautious about the way that we develop it, and compatibility with things." That's one reason why TinyGo is not in a 1.0 release yet... Because when we say "Okay, it's 1.0", we take that responsibility seriously, about "Okay, now we're bound by the same covenants that the main Go implementation (if you will) has demanded of itself", of saying "You can count on this for the next 15 years as a stable platform to keep the world actually running on", since if the computers of the world stopped working all at once, it's gonna be really inconvenient for the people who are in flight at the time, for example.
 
 **Vladimir Vivien:** \[laughs\] Yes, it would be.
 
 **Natalie Pistunovich:** \[35:57\] Tobias, I noticed you were laughing when Vladimir asked the question. What is your opinion about the comparison?
 
-**Tobias Theel:** \[laughs\] Hey, it's a little bit unfair to say that, but \[unintelligible 00:36:04.28\]
+**Tobias Theel:** \[laughs\] Hey, it's a little bit unfair to say that, but I was laughing at a stupid question.
 
 **Natalie Pistunovich:** You don't have to answer if you don't want to.
 
@@ -188,7 +188,7 @@ But it has also some drawbacks... And there was a really great talk -- I'm tryin
 
 **Natalie Pistunovich:** That's a fair answer.
 
-**Ron Evans:** I think there's another aspect, of course, which is "Alright, so this all sounds like a great idea", and some top executive says "Yes, this is our new platform", and then they take this to some technical review team, and they're like, "Wait... You're saying you could just update the source code on the devices in the field? Are you out of your mind? That's exactly how we get ransomware \[unintelligible 00:37:18.22\] Actually, we would like you to spend the next six months making sure that's impossible to do." \[laughter\] And without any joke, do you think security in your cloud is hard... Cloud security is trivially easy compared to device security, and look how insanely hard it is. It's insanely hard. Device security is so much worse, because somebody can just get a hammer and smash the cover off the thing and now they have access to the guts of the machine, and now they get started.
+**Ron Evans:** I think there's another aspect, of course, which is "Alright, so this all sounds like a great idea", and some top executive says "Yes, this is our new platform", and then they take this to some technical review team, and they're like, "Wait... You're saying you could just update the source code on the devices in the field? Are you out of your mind? That's exactly how we get ransomware or who knows what. Actually, we would like you to spend the next six months making sure that's impossible to do." \[laughter\] And without any joke, do you think security in your cloud is hard... Cloud security is trivially easy compared to device security, and look how insanely hard it is. It's insanely hard. Device security is so much worse, because somebody can just get a hammer and smash the cover off the thing and now they have access to the guts of the machine, and now they get started.
 
 **Natalie Pistunovich:** That almost feels like a spoiler to the security Go episode that we're gonna have in October. \[laughs\]
 
@@ -238,7 +238,7 @@ One thing I've noticed with GoCV in particular is we have a huge community of pe
 
 **Ron Evans:** The machine learning - the AI said that you should program in Go. Sorry, Rustaceans. Sorry all you people using Elixir happily, or Rust, or Lisp... All you people using Lisp, you're doing it wrong. You should all use Go. There is only Go.
 
-I thought that was very funny... But there was something to it, in the sense that there's no reason why only one language should exist. I mean, that's completely ridiculous. But the more languages you use, the harder it is for people to context-switch between them. I mean, some people have \[unintelligible 00:44:44.19\] abilities to switch between languages, and I think that's really admirable... But the vast majority of people who do programming - they really like programming, and they wouldn't do it, but it's not their main passion in life. It's a really great job, where they could do good things. They're more excited about doing the things with the software than the software itself. The software is a means to an end. No... Means to an end?! It's an end in itself! What are you talking about, heretic?!
+I thought that was very funny... But there was something to it, in the sense that there's no reason why only one language should exist. I mean, that's completely ridiculous. But the more languages you use, the harder it is for people to context-switch between them. I mean, some people have eidetic abilities to switch between languages, and I think that's really admirable... But the vast majority of people who do programming - they really like programming, and they wouldn't do it, but it's not their main passion in life. It's a really great job, where they could do good things. They're more excited about doing the things with the software than the software itself. The software is a means to an end. No... Means to an end?! It's an end in itself! What are you talking about, heretic?!
 
 But TinyGo - I'm not supposed to say too many big things about TinyGo... First of all, Tiny... \[laughter\] But also, since I am on the core team and clearly biased. But Go is a very cool language; it's still growing rapidly. It has a big place -- it basically won the war for the cloud, just very peacefully, because it was doing great things. Things like Docker, that have themselves created entire ecosystems, could not have been created without Go. So all these things sort of layer on top of each other.
 
@@ -254,13 +254,13 @@ But the next frontier for software - what is that? Well, it's things like Web 3 
 
 **Vladimir Vivien:** It is.
 
-**Ron Evans:** So there's actually a whole bunch of -- I have a whole list of projects that are using TinyGo today, with Web Assembly, in all sorts of different contexts. That sort of edge computing - I've been on record with saying "That's not real edge computing. That's just a data center nearest you." Real edge computing is the last millimeter. The hardware that you literally touch with your fingertips, that's edge computing. But that's not strictly true, I know. That was just a really funny thing to say. \[unintelligible 00:47:02.02\]
+**Ron Evans:** So there's actually a whole bunch of -- I have a whole list of projects that are using TinyGo today, with Web Assembly, in all sorts of different contexts. That sort of edge computing - I've been on record with saying "That's not real edge computing. That's just a data center nearest you." Real edge computing is the last millimeter. The hardware that you literally touch with your fingertips, that's edge computing. But that's not strictly true, I know. That was just a really funny thing to say. There are many edges.
 
 But there's a lot of really cool projects going on right now. Astro, if you've heard of that project... Astro's build is all built using TinyGo for Web Assembly; that way they could reduce the necessary runtime for their application from, I think, 6 MB to 600k, something like that.
 
 **Vladimir Vivien:** Oh, wow.
 
-**Ron Evans:** Suborbital - they're doing a lot of stuff with TinyGo and Web Assembly. The Proxy WASM project, which is \[unintelligible 00:47:37.11\] specification if you wanna run Web Assembly on proxies like Envoy, or Istio - the only way to use Go from that is TinyGo. And they have reasons why they tell you that, largely to do with the main Go implementation not providing the necessary APIs, as well as being too big. So we've got that. Vecty, which is frontend development in Go. TinyGo.
+**Ron Evans:** Suborbital - they're doing a lot of stuff with TinyGo and Web Assembly. The Proxy WASM project, which is the ABI specification if you wanna run Web Assembly on proxies like Envoy, or Istio - the only way to use Go from that is TinyGo. And they have reasons why they tell you that, largely to do with the main Go implementation not providing the necessary APIs, as well as being too big. So we've got that. Vecty, which is frontend development in Go. TinyGo.
 
 \[48:10\] Just recently, there was a really cool project that came out called WASM 4, which lets you build retro-style gaming on a web interface. Kind of a fantasy console. It's language agnostic. They have Rust, and Python, and C++, and - oh yeah, TinyGo...
 
@@ -354,7 +354,7 @@ If you go to a conference that specializes in hardware development, like Embedde
 
 **Angelica Hill:** How about you, Vladimir? What's your unpopular opinion?
 
-**Vladimir Vivien:** It's interesting, because it kind of lined up with what Ron and Tobias have been saying... Mine is "Our industry takes pride in disqualifying folks because they don't use a favorite antiquated tool like \[unintelligible 00:58:28.21\] Vi, Emacs, Bash etc." And my unpopular opinion is that we should stop. There's a level of walled garden or some kind of ivory tower around these tools, where if you're not using C, or if you're not using -- and hopefully, we don't get to that point with Go or Rust, but... People who are using or developing in software like JS, we tend to not look that as a real language; we have billions of dollars of value being written in JavaScript probably every day...
+**Vladimir Vivien:** It's interesting, because it kind of lined up with what Ron and Tobias have been saying... Mine is "Our industry takes pride in disqualifying folks because they don't use a favorite antiquated tool like your C, Vi, Emacs, Bash etc." And my unpopular opinion is that we should stop. There's a level of walled garden or some kind of ivory tower around these tools, where if you're not using C, or if you're not using -- and hopefully, we don't get to that point with Go or Rust, but... People who are using or developing in software like JS, we tend to not look that as a real language; we have billions of dollars of value being written in JavaScript probably every day...
 
 So that's my unpopular opinion, is that we need to stop disqualifying folks around these -- and I call them antiquated because those tools are very old. So yeah.
 
@@ -376,7 +376,7 @@ There's another one... Once you publish your open source software, you have no c
 
 **Tobias Theel:** That's true.
 
-**Ron Evans:** Don't slap a license on there saying \[unintelligible 01:01:40.03\] It's like, "Ha-ha!" I laugh at your license and I use it to write ransomware with, you know...? I mean, not me personally, but... I just don't think that you have that kind of control over your software. Once you release it into the world, like your children, you hope you've given it a good foundation, but you no longer have any control over whatever they do. I explained this to my parents... It wasn't your fault, mom and dad. It was just -- I read the wrong book at some point. Any more unpopular opinions from anyone else?
+**Ron Evans:** Don't slap a license on there saying don't do evil, It's like, "Ha-ha!" I laugh at your license and I use it to write ransomware with, you know...? I mean, not me personally, but... I just don't think that you have that kind of control over your software. Once you release it into the world, like your children, you hope you've given it a good foundation, but you no longer have any control over whatever they do. I explained this to my parents... It wasn't your fault, mom and dad. It was just -- I read the wrong book at some point. Any more unpopular opinions from anyone else?
 
 **Angelica Hill:** Natalie, have you got one?
 
@@ -448,7 +448,7 @@ I feel a great deal of compassion for the people who are just getting started to
 
 **Vladimir Vivien:** It's definitely a technology problem. A lot of it is a technology problem.
 
-**Ron Evans:** So there was a conference called Roguelike, that I believe last year they did a brilliant job of creating a whole \[unintelligible 01:06:23.13\] for their conference. They had virtual items, and the virtual bar, and when you walked in one of the salons that the talk was in, then it would bring up the streaming video... I just thought that was absolutely brilliant. I'm not sure it was the best user experience or not. I did not attend it, I just saw it. But I thought "At last, another approach towards how to do this." Just to riff on Natalie's take - yes, let's try to explore the medium and find different forums.
+**Ron Evans:** So there was a conference called Roguelike, that I believe last year they did a brilliant job of creating a whole MUD for their conference. They had virtual items, and the virtual bar, and when you walked in one of the salons that the talk was in, then it would bring up the streaming video... I just thought that was absolutely brilliant. I'm not sure it was the best user experience or not. I did not attend it, I just saw it. But I thought "At last, another approach towards how to do this." Just to riff on Natalie's take - yes, let's try to explore the medium and find different forums.
 
 **Vladimir Vivien:** Yeah, agree.
 
