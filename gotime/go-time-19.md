@@ -92,7 +92,7 @@
 
 So if I reviewed your code, I may have a ton of things to say about your code, but if I was presented with the problem without ever seeing anybody else's solution, I may have suffered from the same things, right? So I think having that empathy and keeping that frame of mind that this evolves as somebody's understanding of the problem evolves, and you weren't there for all of the small decisions along the line that lead to this. You're looking at it as a completed product, and thinking "How can I make this better?"
 
-**Katrina Owen:** \[11:57\] And especially when you're learning a new language, you're not familiar with the standard library functions and the packages, you're not familiar with how scoping works or constants work, so you'll often see a lot of flaring around as people try to figure out how to even get the syntax right. Then once it compiles, it's like "Oh, it work. Wonderful!" \[unintelligible 00:12:22.16\] and then it turns out that you've done all this extra stuff that turns out to just be noise. Once you start understanding the underlying implementation and the underlying language syntax, you can start simplifying and removing some of the complexity, and you need human feedback for that.
+**Katrina Owen:** \[11:57\] And especially when you're learning a new language, you're not familiar with the standard library functions and the packages, you're not familiar with how scoping works or constants work, so you'll often see a lot of flailing around as people try to figure out how to even get the syntax right. Then once it compiles, it's like "Oh, it work. Wonderful!" and submit that and then it turns out that you've done all this extra stuff that turns out to just be noise. Once you start understanding the underlying implementation and the underlying language syntax, you can start simplifying and removing some of the complexity, and you need human feedback for that.
 
 **Erik St. Martin:** I think that's a fair point. And even with refactoring... Refactoring is its own skill set. There's people who can look at this and they're like "Oh yeah, I just have to check this one method and do this", but it's a whole new world that most people aren't presented with.
 
@@ -188,7 +188,7 @@ I have a little bot that does some linting and a little bit of static analysis i
 
 **Erik St. Martin:** Yeah. Now I need to store stuff in the database, now I need to learn SQL. You get hit with this, and it's easy for us to talk to friends or family or somebody who's interested in it, and be like "Oh yeah, all you gotta do is learn HTML and CSS and a little bit of JavaScript. From there, pick a backend language and a database..." Then they're sitting here trying to figure out how tot get their web page showing up in a web server, and they feel inadequate and that it just takes natural ability. We forget that we learned all of these things in small wins, a little bit at a time.
 
-**Katrina Owen:** Yeah, we weren't born knowing it either. We should \[unintelligible 00:28:49.19\] sometimes, I think.
+**Katrina Owen:** Yeah, we weren't born knowing it either. We forget that sometimes, I think.
 
 **Erik St. Martin:** And there's so many other things, too. Git and GitHub, that's almost a necessity now, right? Oh, I wanna work on this thing... Before, you just had to unzip something. You just went to the website, you pulled down the TAR files (or the file, depending on the architecture you were working on) and you had the code.
 
@@ -438,11 +438,11 @@ A couple hundred lines of code and I've got a fully automated solution to bring 
 
 **Brian Ketelsen:** That's true, I'm teaching a lot of classes, upcoming in October. Boston, I've got an online class 24th or 23rd October, both through O'Reilly. If you're listening live, you can use discount code Ketelsen to get 25% off either one of those classes.
 
-**Carlisia Thompson:** I really wanna take your online class \[unintelligible 01:01:16.08\] you'll be teaching.
+**Carlisia Thompson:** I really wanna take your online class. Online because I'm not in any of the places you'll be teaching.
 
-**Erik St. Martin:** They have claims. \[laughs\]
+**Erik St. Martin:** They have planes. \[laughs\]
 
-**Carlisia Thompson:** Well, I'll be lucky if Fastly pays for it, so I'm definitely gonna be asking. Because I think I'm right there, needing to master everything that's listed there. I feel like I'm close, but it's also very confusing to figure out what the idiomatic way is, and you spend a lot of time trying to figure that out, as opposed to just \[unintelligible 01:01:45.22\]. So I think the course is perfect for me, for where I am, so I definitely wanna take it.
+**Carlisia Thompson:** Well, I'll be lucky if Fastly pays for it, so I'm definitely gonna be asking. Because I think I'm right there, needing to master everything that's listed there. I feel like I'm close, but it's also very confusing to figure out what the idiomatic way is, and you spend a lot of time trying to figure that out, as opposed to just learning what the damn thing is. So I think the course is perfect for me, for where I am, so I definitely wanna take it.
 
 **Erik St. Martin:** So this is the thing that Brian's been trying to show off to me for like the last week, and I've been too busy. It creates a user, sandboxes them inside of a container, copies over the training material... It did a whole bunch of stuff; it has a little command line tool for it...
 
@@ -452,7 +452,7 @@ A couple hundred lines of code and I've got a fully automated solution to bring 
 
 **Brian Ketelsen:** It almost falls into what we were talking about earlier, that idea of building environments for people to learn it. I noticed Andrew Gerrand posted a slide deck about an idea today, the Go workspace tool that he's working on. The same concept - how do you get somebody from, "Okay, I've installed Go" to "How do I start using Go?" There's a gap there, and I'm aiming to narrow that gap with my students. With some time I'd like to make it open source, because I think it's powerful enough that it would be helpful for other people teaching.
 
-**Carlisia Thompson:** And for the record, he's not working on it... I think he's \[unintelligible 01:03:19.20\] out there and trying to entice people to take on the work where he left off. He's done some work, but he doesn't seem to have the bandwidth to continue. He explicitly said he's not working on it.
+**Carlisia Thompson:** And for the record, he's not working on it... I think he's putting it out there and trying to entice people to take on the work where he left off. He's done some work, but he doesn't seem to have the bandwidth to continue. He explicitly said he's not working on it.
 
 **Brian Ketelsen:** Well, that's too bad.
 
@@ -466,7 +466,7 @@ A couple hundred lines of code and I've got a fully automated solution to bring 
 
 **Erik St. Martin:** \[01:04:00.09\] Those battle scars...
 
-**Carlisia Thompson:** And I also wanna give a shout out to GoConvey. I have been using it a lot. I don't use it as a test package, but I use it to -- we were talking about refactoring, red/green. If you put it up on your project and you open it on your browser, it just gives you that nice green-red-green-red. I don't have my editor set up to check compiler errors on tests, I check it on GoConvey and I feel super productive like that. I'm changing things, either on the tests or \[unintelligible 01:04:42.04\] file on the corresponding file, and I just get the notification from GoConvey. It's quick, and it's been great. I love it. I love color-coded things as well, that makes me so happy!
+**Carlisia Thompson:** And I also wanna give a shout out to GoConvey. I have been using it a lot. I don't use it as a test package, but I use it to -- we were talking about refactoring, red/green. If you put it up on your project and you open it on your browser, it just gives you that nice green-red-green-red. I don't have my editor set up to check compiler errors on tests, I check it on GoConvey and I feel super productive like that. I'm changing things, either on the tests or alternative file or on the corresponding file, and I just get the notification from GoConvey. It's quick, and it's been great. I love it. I love color-coded things as well, that makes me so happy!
 
 **Erik St. Martin:** I used to use it a lot, and I'm actually ashamed to say I haven't used it very much lately. I think it's like you jump in and you try to start doing stuff quickly, and then that kind of becomes your pattern and you fall off from some of these things. I need to start using it again.
 
@@ -504,7 +504,7 @@ A couple hundred lines of code and I've got a fully automated solution to bring 
 
 **Katrina Owen:** Yeah, fast tests was my motivation to learn how to refactor, so that I could have less decoupling and load fewer dependencies when I was testing my code.
 
-**Erik St. Martin:** That's kind of a big goal of mine. I always find it hard when I'm up against something that requires a lot of mocking and stubbing in order to \[unintelligible 01:08:46.01\], but I can't stand that having to require having some Etcd cluster for this thing to run against. I don't want that. It means I can't just run it on my laptop while I'm on an airplane.
+**Erik St. Martin:** That's kind of a big goal of mine. I always find it hard when I'm up against something that requires a lot of mocking and stubbing in order to fake out backend, but I can't stand that having to require having some Etcd cluster for this thing to run against. I don't want that. It means I can't just run it on my laptop while I'm on an airplane.
 
 **Brian Ketelsen:** Well, that brings up a completely random thought about the Gopher Slack - we have a barbecue channel, and we are building a PID controller for our barbecue grills, which will automate keeping the grill at a particular temperature by controlling the air flow into the fire pit. And the first thing I did when I started writing the code was build out the interfaces, because seriously, I don't wanna have to test I2C interface on a Raspberry Pi. I just don't.
 
