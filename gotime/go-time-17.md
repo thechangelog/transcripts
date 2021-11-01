@@ -344,7 +344,7 @@ I will say this, you can explore the monorepo, but realize that it's not a panac
 
 **Carlisia Thompson:** Do you ever talk about breaking it out?
 
-**Bryan Liles:** Some people talk about it, and I would say there are projects that aren't in the repo for reasons political or technical, but we're just trying to make sure that everyone keeps \[unintelligible 01:01:48.17\] for the greater good of the team; we keep all the Go in the same place. And you know, this is another thing that comes down to dependency management in Go. Since it's not a thing that we know about, it's not a solved problem for us, we chose to solve it by just blocking everything in and burgeoning the dependencies along with everything else.
+**Bryan Liles:** Some people talk about it, and I would say there are projects that aren't in the repo for reasons political or technical, but we're just trying to make sure that everyone keeps it in there for the greater good of the team; we keep all the Go in the same place. And you know, this is another thing that comes down to dependency management in Go. Since it's not a thing that we know about, it's not a solved problem for us, we chose to solve it by just blocking everything in and burgeoning the dependencies along with everything else.
 
 **Carlisia Thompson:** A question for you - what is your ratio of commits to merge conflicts?
 
