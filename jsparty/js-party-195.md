@@ -46,7 +46,7 @@ It's also interesting - in a physical office there's proximity between teams; th
 
 **Amelia Wattenberger:** It's too much work.
 
-**Jerod Santo:** Yeah. \[laughs\] \[unintelligible 00:07:06.05\] Chris, what about you? Were you remote the entire time, or you went remote? I can't recall.
+**Jerod Santo:** Yeah. \[laughs\] We're not gonna study we write code. Chris, what about you? Were you remote the entire time, or you went remote? I can't recall.
 
 **Christopher Hiller:** I've been remote for like a decade now. I don't really remember what it's like to work in an office.
 
@@ -60,9 +60,9 @@ It's also interesting - in a physical office there's proximity between teams; th
 
 Well, let's get to some other stories. Definitely, the remote work thing is an ongoing and very important story and aspect of our lives... Amelia, yours are a little bit more technical and nitty-gritty. Do you wanna share your story of the week?
 
-**Amelia Wattenberger:** Yeah... I couldn't think of anything that happened recently, so I just picked two things. The first one is a little bit newsy, but it's CSS container queries are in the Chrome Canary. Super-exciting. This is like -- so you know how you can have \[unintelligible 00:09:16.12\] in CSS, and you can say something is 10% of the width? Well, now in (only) Chrome Canary you can base it on its container. So you can say "I want this image to be 10% of the width", but you can also do more complicated things, like stack things differently... I haven't totally read into it yet, but it's very exciting. I'm excited to read about it, I'm excited to use it sometime in the future.
+**Amelia Wattenberger:** Yeah... I couldn't think of anything that happened recently, so I just picked two things. The first one is a little bit newsy, but it's CSS container queries are in the Chrome Canary. Super-exciting. This is like -- so you know how you can have viewport units like viewport width viewport height in CSS, and you can say something is 10% of the width? Well, now in (only) Chrome Canary you can base it on its container. So you can say "I want this image to be 10% of the width", but you can also do more complicated things, like stack things differently... I haven't totally read into it yet, but it's very exciting. I'm excited to read about it, I'm excited to use it sometime in the future.
 
-The other thing that's not newsy, that I think is really cool is Harry Roberts - he did some talk that you can't listen to, but you can see the slides, and he released this CSS snippet where it basically turns all of the links and scripts and things in the head of your document into visible things. Basically, they exist, they're just not visible. With a little bit of CSS, you can make these things visible. And if you use it on any web page, you can see things that are maybe not as performant as you want them to be. It'll highlight if your title is blocked by some blocking JavaScript that has to execute before crawlers \[unintelligible 00:10:33.04\] I don't know, I think it's super-cool that you can just use a litlte bit of CSS and get this kind of performance report.
+The other thing that's not newsy, that I think is really cool is Harry Roberts - he did some talk that you can't listen to, but you can see the slides, and he released this CSS snippet where it basically turns all of the links and scripts and things in the head of your document into visible things. Basically, they exist, they're just not visible. With a little bit of CSS, you can make these things visible. And if you use it on any web page, you can see things that are maybe not as performant as you want them to be. It'll highlight if your title is blocked by some blocking JavaScript that has to execute before crawlers might get the title and, like there's green orange and red blacks and, I don't know, I think it's super-cool that you can just use a litlte bit of CSS and get this kind of performance report.
 
 **Jerod Santo:** That is cool. So it provides a bookmarklet; drag and drop the following link in your bookmark bar. So you can do that on any website, right? You just click that and it's gonna show you that.
 
@@ -86,7 +86,7 @@ I appreciate Rach for sharing this, because it's something that -- I think it's 
 
 **Kevin Ball:** I've spent 2,5 or 3 years publishing a weekly frontend development newsletter... And I stopped doing that a few months ago. One, I wanna say that I'm so much happier not keeping up on what's happening every week... \[laughter\] It's so stressful to feel like there's this constant churn, and you've gotta constantly keep up, and do this, and do that.
 
-So I'm personally happier not trying to keep up with everything all the time. I like to catch up every now and then, but if something's big it'll get to me eventually. I don't have to keep \[unintelligible 00:14:16.13\] But the other thing that I learned from doing that is even though there's this sense of constant churn, and I could find tons of articles every week, all the time... Like, the amount of actually new content is pretty low. A lot of times I'd be linking something and I'm like "Oh, this is another take on that thing. That's pretty well done. Maybe this one will work for you." But after doing that for three years of like "Okay, I'm just seeing all the content that's coming through in this space", actual legitimate, new, interesting changes - they're not as frequent as they feel like. We've just got this industry of churn, and this feeling of "I've gotta keep publishing, and I've gotta keep reading, and I've gotta keep doing all these things to keep up." And at the core, it's like - no, there's change, but it's built on the same fundamentals.
+So I'm personally happier not trying to keep up with everything all the time. I like to catch up every now and then, but if something's big it'll get to me eventually. I don't have to keep pulling. But the other thing that I learned from doing that is even though there's this sense of constant churn, and I could find tons of articles every week, all the time... Like, the amount of actually new content is pretty low. A lot of times I'd be linking something and I'm like "Oh, this is another take on that thing. That's pretty well done. Maybe this one will work for you." But after doing that for three years of like "Okay, I'm just seeing all the content that's coming through in this space", actual legitimate, new, interesting changes - they're not as frequent as they feel like. We've just got this industry of churn, and this feeling of "I've gotta keep publishing, and I've gotta keep reading, and I've gotta keep doing all these things to keep up." And at the core, it's like - no, there's change, but it's built on the same fundamentals.
 
 **Christopher Hiller:** Where do you think this sort of fear comes from? I see a lot of junior developers lamenting on Twitter that it's hard to keep up, or on Reddit, and they're complaining about it... So is it just you wanna keep up to maximize your career potential, or is it something else? What is the root of that fear of not keeping up with JavaScript?
 
@@ -120,7 +120,7 @@ Lots of thoughts there... A couple of good things coming out in the chat. One th
 
 **Jerod Santo:** Right.
 
-**Christopher Hiller:** So maybe you weren't really prepared for it, maybe you're not good at that stuff... It's like, "Okay, I went out and I learned React so I could get jobs like this, but now I can't get jobs like this because I've gotta go back and \[unintelligible 00:22:25.08\]" I don't know, it's busted.
+**Christopher Hiller:** So maybe you weren't really prepared for it, maybe you're not good at that stuff... It's like, "Okay, I went out and I learned React so I could get jobs like this, but now I can't get jobs like this because I've gotta go back and do lead code" I don't know, it's busted.
 
 **Jerod Santo:** It's busted. Well, let's turn briefly to something that is still kind of busted, but gets better every single time a new release comes out. Chris, you wanna talk about iOS 15, right?
 
@@ -392,13 +392,13 @@ The cool thing about shipping containers is they're all the same exact size, and
 
 **Christopher Hiller:** This is me trying.
 
-**Jerod Santo:** He's \[unintelligible 00:47:47.13\] to be excited about something.
+**Jerod Santo:** He's gotta work up the gusto to be excited about something.
 
 **Christopher Hiller:** So - alright, you know Legos? I like Legos.
 
 **Jerod Santo:** Yeah.
 
-**Christopher Hiller:** \[47:54\] So I'm gonna talk about Legos. They've got this Lego Ideas. If you don't know what that is - it's kind of like a contest. You make something with a Lego, you upload it to the site, and then people come and they vote on it. And if you get like 10,000 votes on your thing that you made, the Lego team and their designers will make sure that they can get the rights to whatever you've made, if it's like a licensed thing. But they'll work with you to actually make it a real Lego set, and they'll release it. There have been a whole bunch of these over the years. There was like \[unintelligible 00:48:34.05\] there was a fishing cabin, like a great, big fishing thing... Lots of other ideas. And birds, and things like that. Just random stuff. And I always get kind of excited when I see that another thing has made it to 10,000, because the ones that get that many votes are always really awesome, and I'm like, "Wow, I can't wait to not justify spending $300 on that when it comes out." But they're cool. There's so many things people make, and... I don't know, I'm just really impressed. And that's what I'm excited about, I guess.
+**Christopher Hiller:** \[47:54\] So I'm gonna talk about Legos. They've got this Lego Ideas. If you don't know what that is - it's kind of like a contest. You make something with a Lego, you upload it to the site, and then people come and they vote on it. And if you get like 10,000 votes on your thing that you made, the Lego team and their designers will make sure that they can get the rights to whatever you've made, if it's like a licensed thing. But they'll work with you to actually make it a real Lego set, and they'll release it. There have been a whole bunch of these over the years. There was like a tron one, there was a fishing cabin, like a great, big fishing thing... Lots of other ideas. And birds, and things like that. Just random stuff. And I always get kind of excited when I see that another thing has made it to 10,000, because the ones that get that many votes are always really awesome, and I'm like, "Wow, I can't wait to not justify spending $300 on that when it comes out." But they're cool. There's so many things people make, and... I don't know, I'm just really impressed. And that's what I'm excited about, I guess.
 
 **Jerod Santo:** How could would it be to have your thing made into an actual Lego set? That would be just amazingly cool.
 
@@ -416,7 +416,7 @@ The cool thing about shipping containers is they're all the same exact size, and
 
 **Christopher Hiller:** I don't...
 
-**Amelia Wattenberger:** I don't have kids as an excuse to have Legos, although you definitely don't need that excuse... But I got to play with them recently, because GitHub had swag for our internal conference of like - you put together a little \[unintelligible 00:50:38.00\] and you get this whole kit... And it was so much fun. I'm gonna break it apart and do it again, I had that much fun.
+**Amelia Wattenberger:** I don't have kids as an excuse to have Legos, although you definitely don't need that excuse... But I got to play with them recently, because GitHub had swag for our internal conference of like - you put together a little mona octocat and you get this whole kit... And it was so much fun. I'm gonna break it apart and do it again, I had that much fun.
 
 **Christopher Hiller:** Buy some Legos.
 
@@ -442,7 +442,7 @@ The cool thing about shipping containers is they're all the same exact size, and
 
 **Jerod Santo:** I hate that, because I'm a perfectionist/completionist. So I'll look forever for that color... Like, hours. I've gotta find a black, flat, 2x1. If I don't find it, I'm not gonna finish the piece.
 
-**Kevin Ball:** Yeah, that's what we're trying to cut off \[unintelligible 00:51:47.07\] with my kids.
+**Kevin Ball:** Yeah, that's what we're trying to cut off at the pass with my kids.
 
 **Jerod Santo:** That's smart. I'm not saying my way is good, I just can't stand having that one weird colored thing.
 
