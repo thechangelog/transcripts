@@ -150,7 +150,7 @@ So combining these different chips together and creating a system out of them - 
 
 **Natalie Pistunovich:** When you say "Go get..." \[laughter\]
 
-**Ron Evans:** \[unintelligible 00:29:05.10\]
+**Ron Evans:** Yeah, exactly, I hope you have the domain tobias'.book
 
 **Tobias Theel:** I'm buying it. I'm buying it. No worries. \[laughter\]
 
@@ -266,7 +266,7 @@ But there's a lot of really cool projects going on right now. Astro, if you've h
 
 **Vladimir Vivien:** Sweet.
 
-**Ron Evans:** So that's really cool. Then there's actual people doing the same thing, but in hardware. One of the coolest articles I saw recently was writing a Gameboy Advanced game in Go. And naturally, they had to actually run it on their actual Gameboy Advanced hardware, not just in a Web Assembly simulator... So naturally, I had to go and get some hardware to do exactly that myself. So in an upcoming episode of my stream that I do on Fridays from here \[unintelligible 00:48:59.17\] I'm gonna be doing some GBA hacking, just because -- I just wanna do it. It's just too cool.
+**Ron Evans:** So that's really cool. Then there's actual people doing the same thing, but in hardware. One of the coolest articles I saw recently was writing a Gameboy Advanced game in Go. And naturally, they had to actually run it on their actual Gameboy Advanced hardware, not just in a Web Assembly simulator... So naturally, I had to go and get some hardware to do exactly that myself. So in an upcoming episode of my stream that I do on Fridays from here at la peep, I'm gonna be doing some GBA hacking, just because -- I just wanna do it. It's just too cool.
 
 But those are some of the things that are happening right now as far as places where the TinyGo communities already surpassed the wider body of the Go community... Although I will say, we do not view TinyGo as separate from Go. TinyGo is Go. I know cgo is not Go, but TinyGo is Go, because Go is a programming language. There's also a runtime, there's also a standard library... But ultimately, it's a programming language, and if you have a compiler from a programming language, it's not a different programming language unless it's a different programming language. I mean, there's many C compilers.
 
