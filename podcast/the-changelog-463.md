@@ -200,23 +200,23 @@ I look at a lot of the code that I've published as open source, and I really hop
 
 So even though there's a lot of terrible code in Kubernetes, and I wrote a lot of it, there's a lot of great examples of what an API should look like, API versioning, API machinery... And I think those are the examples that you should be looking at, depending on what you're building.
 
-**Matt Rickard:** I actually learned a similar lesson to this from a fellow named Brian Tracy, but it was more in the sales vein, and more of a self-development vein than it was simply programming... But the analogy is very similar. Basically, if you want to be good at something, or excel in some way at something, look at who's already doing it really well, and emulate them.
+**Adam Stacoviak:** I actually learned a similar lesson to this from a fellow named Brian Tracy, but it was more in the sales vein, and more of a self-development vein than it was simply programming... But the analogy is very similar. Basically, if you want to be good at something, or excel in some way at something, look at who's already doing it really well, and emulate them.
 
 So the practice essentially is if you wanna do something really well, find out who's doing the best currently at it, or writing the best current version of it, and emulate what they've done. Not so much to copy them, but to follow their path to greatness. And you may branch off and find your own path, but follow the greats to greatness and you may be great yourself.
 
 **Jerod Santo:** I like that. Now, how do we identify the greatness?
 
-**Matt Rickard:** Luck...
+**Adam Stacoviak:** Luck...
 
 **Jerod Santo:** \[laughs\] You wanna be good? Gotta get lucky...
 
-**Matt Rickard:** Well, I think in the case of, say, the Go standard library, I think it may have been written by some really well-known and knowledgeable people inside of Google, for the most part. So I think they're pretty good examples of people to emulate, considering their career and what they're touched and what they've brought to market. So I think that's a good example there.
+**Adam Stacoviak:** Well, I think in the case of, say, the Go standard library, I think it may have been written by some really well-known and knowledgeable people inside of Google, for the most part. So I think they're pretty good examples of people to emulate, considering their career and what they're touched and what they've brought to market. So I think that's a good example there.
 
 I think otherwise you've just gotta follow your peers. Pay attention to the Changelog, this podcast, for example; that's how you find greats - you pay attention to the media and the content happening in the space, you pay attention to Twitter, you pay attention to maybe TikTok, who knows... But for sure, Stack Overflow, for sure GitHub, for sure standard libraries, for sure the package registries, what are other people using, what are other people using as dependencies... And all that work will shake out who's great.
 
 **Jerod Santo:** I almost stopped you at TikTok, but let you keep going... Alright.
 
-**Matt Rickard:** I know. So I have a rule, I have to mention TikTok at least once every podcast from now on.
+**Adam Stacoviak:** I know. So I have a rule, I have to mention TikTok at least once every podcast from now on.
 
 **Jerod Santo:** \[laughs\] I thought that was Silicon Valley.
 
