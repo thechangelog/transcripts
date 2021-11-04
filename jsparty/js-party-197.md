@@ -156,7 +156,7 @@ We at the company do some performance optimizations and so on, and then we reach
 
 **Amal Hussein:** "If this most popular logger is treating you so badly, the best thing I can do is write you a new one, baby..."
 
-**Matteo Collina:** Yeah... And it was \[unintelligible 00:27:51.03\] So that happened, okay... And we started developing the thing. And it's called Pino, because Pine was taken. And in front of my house at the time there was a pine. That's it.
+**Matteo Collina:** Yeah... And it was so romantic. So that happened, okay... And we started developing the thing. And it's called Pino, because Pine was taken. And in front of my house at the time there was a pine. That's it.
 
 **Amal Hussein:** But that's Italian for pine, right? It's not in English.
 
