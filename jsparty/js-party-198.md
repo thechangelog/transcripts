@@ -48,7 +48,7 @@ So yeah, at that point I did start considering "What if I wanted to make a move 
 
 **Nader Dabit:** Yeah, so at AWS - and really, within the Web community - for the past few years we were doing some really great stuff around improving the developer experience, improving the user experience... When you're in the area that I was in, like JAMstack, and also mobile development, we seemed to be solving kind of the same problems over and over and over. We had WordPress as the CMS like 10-15 years ago, whatever... The big rage at the time was like JAMstack and CMSes. So I felt like we're basically rebuilding a CMS over and over and over, and that was one of the really hot things that I felt like was cool, but it wasn't revolutionary, and it wasn't that huge of a deal.
 
-We were doing fun stuff, and cool stuff, but it wasn't anything that was brand new... Whereas I felt like some of this stuff in the Web3 space that I'll talk about, \[unintelligible 00:10:45.14\] was kind of brand new... But yeah, I was just getting tired of seeing, and even crating myself, like "Oh, here's how you create a blog using this stack." We've created like millions of blog posts about how to create a blog. There's thousands of ways to do it. It just wasn't that interesting to me. So I would say that's kind of the feeling that I was having around some of the stuff we were doing.
+We were doing fun stuff, and cool stuff, but it wasn't anything that was brand new... Whereas I felt like some of this stuff in the Web3 space that I'll talk about in just a moment was kind of brand new... But yeah, I was just getting tired of seeing, and even crating myself, like "Oh, here's how you create a blog using this stack." We've created like millions of blog posts about how to create a blog. There's thousands of ways to do it. It just wasn't that interesting to me. So I would say that's kind of the feeling that I was having around some of the stuff we were doing.
 
 Databases are cool, but we were just rebuilding the same types of databases over and over, and... You know, people really have to go into details to even understand the differences between this new SQL database versus the other dozen SQL databases that were already out there. And I think when I started looking into Web3 and crypto, I started seeing that there were a multitude of different, interesting problems that some of them were in the process of being solved, some of them were theoretical and they haven't been solved yet... And some of them kind of have been solved, and they're iterating on new, improved ways of making that technology better.
 
@@ -208,7 +208,7 @@ The two main things that have been enabled by blockchain technology, that were n
 
 **Nader Dabit:** Yeah. So when you look at the PayPal founders, if you kind of listen to how they describe creating that company, it sounded kind of like a nightmare. The way that they describe all the stuff that they had to do to get this thing functioning, they basically were saying that -- I forgot which founder said this, but they thought that no one would ever build anything to compete with them because of how complex it was to make that a thing.
 
-So to enable digital payments, all of these millions of dollars and all of these hundreds and thousands of hours of work, from thousands or tens of thousands of people, along with all of this massively complex infrastructure had to be put in place... And even then, it's still not idea, because in order to use that, you have to be an elite person, especially \[unintelligible 00:38:55.09\] because you couldn't have used that all around the world. And even today, there are two billion people probably that can't access it, because you have to have all of these things put in place to use them.
+So to enable digital payments, all of these millions of dollars and all of these hundreds and thousands of hours of work, from thousands or tens of thousands of people, along with all of this massively complex infrastructure had to be put in place... And even then, it's still not idea, because in order to use that, you have to be an elite person, especially at first to have used it, because you couldn't have used that all around the world. And even today, there are two billion people probably that can't access it, because you have to have all of these things put in place to use them.
 
 **Amal Hussein:** Like a traditional bank account?
 
@@ -224,7 +224,7 @@ The other thing is state. So to save information - how do we do that today? Well
 
 **Amal Hussein:** Right, what is it, and what is it not? And in particular --
 
-**Jerod Santo:** \[unintelligible 00:41:09.04\] one sentence.
+**Jerod Santo:** We'll give you more than one sentence.
 
 **Amal Hussein:** Exactly, yeah. What is Web3 in a tweet? And another question is really "What does Web3 have to do with blockchain or crypto?" Specifically, if we're talking about standardized protocols.
 
@@ -240,7 +240,7 @@ The way that it works is people have the opportunity to basically run one of the
 
 But the tokens aren't just for buying and selling on an exchange, they actually are for securing the network, for managing the network, for enabling participants within the network to be part of what in the past would have been run on AWS, but instead you have maybe a more efficient way of doing this.
 
-**Amal Hussein:** Yeah, it's like \[unintelligible 00:44:47.07\] So how is that Web3? How is that an example of Web3 in action?
+**Amal Hussein:** Yeah, it's all your opperationalized costs. So how is that Web3? How is that an example of Web3 in action?
 
 **Nader Dabit:** Well, I think it's part of Web3 because it's been enabled by cryptocurrency, it's decentralized, people are able to own these tokens... And also, if you are part of building one of these protocols, you're often allocated tokens. If you're participating in the community and you're building out infrastructure, you can be given part of these tokens as part of your work, therefore you're kind of like part owner as well. And like Jerod mentioned earlier, when someone is rooting for Ethereum, instead of having people (I would say) buying shares of AWS instead, maybe it feels like they have a little bit more ownership, and they do want that thing to succeed, so you have thousands of people that are not only working to build out these protocols and these systems, but you have thousands of owners, and it kind of creates a different type of incentive structure that is really interesting, and I think it's extremely powerful when it's actually done at scale.
 
@@ -256,7 +256,7 @@ But the tokens aren't just for buying and selling on an exchange, they actually 
 
 **Amal Hussein:** Okay. \[laughs\]
 
-**Nader Dabit:** \[unintelligible 00:46:18.02\] I will just say "Web3 is the decentralized web."
+**Nader Dabit:** I will just say "Web3 is the decentralized web."
 
 **Amal Hussein:** Alright.
 
@@ -326,7 +326,7 @@ If you're the average user, that doesn't really maybe understand how some of the
 
 So yeah, that's a big concern... And I think one of the ways that people are going around mitigating that is that we're building and innovating in the user experience of how to manage that, and having some form of backup, usually through some type of multi-signature wallet, meaning that can give access to a handful of other people, and if they all get together, they can kind of unlock something... Or maybe you have like a social mechanism where you have your mom, or your cousin, or your wife, or something, and all of you can get together to unlock it.
 
-**Amal Hussein:** I don't know if you guys know about care bears... Care bears, when they all get together, they shoot love out of their hearts, and then something magical \[unintelligible 01:01:06.29\] Care bear for crypto! Anyways... So that's really interesting. I'm glad that that's happening, and I have no doubt that there's innovation happening there; it makes sense. But it is a reality - scamming, grifting, malware... That is a real thing. And forget crypto. Just - you know, your grandma gets a phone call from some dude in central Asia, who's like, "Hey, grandma, send me a bunch of money." That happens. So how are we protecting that? Is there gonna be a Bitcoin police? Or not Bitcoin, but - like a crypto police?
+**Amal Hussein:** I don't know if you guys know about care bears... Care bears, when they all get together, they shoot love out of their hearts, and then something magical happens. Care bear for crypto! Anyways... So that's really interesting. I'm glad that that's happening, and I have no doubt that there's innovation happening there; it makes sense. But it is a reality - scamming, grifting, malware... That is a real thing. And forget crypto. Just - you know, your grandma gets a phone call from some dude in central Asia, who's like, "Hey, grandma, send me a bunch of money." That happens. So how are we protecting that? Is there gonna be a Bitcoin police? Or not Bitcoin, but - like a crypto police?
 
 **Nader Dabit:** There's no way to recover this stuff...
 
@@ -354,7 +354,7 @@ If people are still wary of the drawbacks, I would actually encourage to wait un
 
 To me, it's really fun and interesting to be able to transact so much and so quickly using these wallets. You can trade between coins, you can do DeFi, you can buy NFTs, you can send money to people... In my DAO, I mint these tokens for free to get people into my DAO and send it to them for free for people that can't have gas... Yeah, there's all kinds of fun stuff.
 
-There's also financial (of course) incentives, but again, not everyone probably wants or should participate in this stuff. So I would say keep an eye, if you're still wary about this stuff - just keep an eye on the innovations and improvements that will happen over the next 6-12 months and check back again with us a year from now. Maybe we'll \[unintelligible 01:05:16.21\] I don't really know... But yeah, I definitely think that these concerns that people have are legitimate, and I would encourage people to check out my thread that I kind of wrote, maybe going into stuff a little bit more in detail... As well as a blog post that I wrote called "Getting into crypto as a developer." I have linked in that blog post another thread from someone else that kind of talked about it... And I think he was a little bit more critical than I was, and I encourage you to read both of those.
+There's also financial (of course) incentives, but again, not everyone probably wants or should participate in this stuff. So I would say keep an eye, if you're still wary about this stuff - just keep an eye on the innovations and improvements that will happen over the next 6-12 months and check back again with us a year from now. Maybe we'll have adjusted some of those, and maybe we haven't, I don't really know... But yeah, I definitely think that these concerns that people have are legitimate, and I would encourage people to check out my thread that I kind of wrote, maybe going into stuff a little bit more in detail... As well as a blog post that I wrote called "Getting into crypto as a developer." I have linked in that blog post another thread from someone else that kind of talked about it... And I think he was a little bit more critical than I was, and I encourage you to read both of those.
 
 **Amal Hussein:** Yeah, we'll link to both of those, the Twitter thread on drawbacks, and then the getting into crypto, as well as a bunch of your other blog posts and tutorials, in the show notes. Just really quickly, before we get off this topic and talk about your DAO real quick -- is it DAO or DOA?
 
@@ -422,7 +422,7 @@ So for a token, you can basically sell that, either on some digital exchange, or
 
 For the Developer DAO, which is the DAO that I have created for developers, the token is completely free. All you have to do is just go to the website and mint the token. And you do have to pay the Ethereum transaction costs. When you pay that cost, you get that token sent to your wallet.
 
-And really, the reason that there is any type of cost at all is to kind of have some type of way to prevent civil resistance... Because if this token is gonna be worth money at some point, what's to stop someone from minting all 8,000 of those for themselves? Like, how do we equally distribute ownership between a large number of people? Well, there is some type of way that we can do that with needing \[unintelligible 01:12:33.03\] to mint.
+And really, the reason that there is any type of cost at all is to kind of have some type of way to prevent civil resistance... Because if this token is gonna be worth money at some point, what's to stop someone from minting all 8,000 of those for themselves? Like, how do we equally distribute ownership between a large number of people? Well, there is some type of way that we can do that with needing someone to mint.
 
 But what I've been doing is actually setting aside a few thousand of my own dollars, and just minting those and sending them to people around the world that can't afford even the $20 minting cost. But that way I know that that person is real, and that they're kind of in it to be part of the community, and they're not just in there to kind of speculate.
 
