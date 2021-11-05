@@ -10,7 +10,7 @@
 
 So Ashley, Ela, how did you get into your current role? How did you get into management?
 
-**Ashley Willis:** \[00:04:11.11\] In my current role, or into management in general?
+**Ashley Willis:** \[04:11\] In my current role, or into management in general?
 
 **Natalie Pistunovich:** Everything. Everything that's interesting. Everything you feel comfortable sharing.
 
@@ -36,7 +36,7 @@ So Ashley, Ela, how did you get into your current role? How did you get into man
 
 **Natalie Pistunovich:** \[unintelligible 00:07:35.05\] What would you say that makes a good manager? What makes you a good manager, what makes your manager a good manager...?
 
-**Ashley Willis:** \[00:07:48.29\] I don't want to call myself a good manager; I think we're all winging it, honestly, day by day... You do the best that you can; sort of like raising kids. When they take off to college, you've done your job. I think that listening, being a good listener is a trait that I look for in my managers. I wanna make sure that there's mutual trust, and respect. I want to know that my manager is looking out for me and my career and my interests... So I think knowing your employees and what motivates them is a good manager trait.
+**Ashley Willis:** \[07:48\] I don't want to call myself a good manager; I think we're all winging it, honestly, day by day... You do the best that you can; sort of like raising kids. When they take off to college, you've done your job. I think that listening, being a good listener is a trait that I look for in my managers. I wanna make sure that there's mutual trust, and respect. I want to know that my manager is looking out for me and my career and my interests... So I think knowing your employees and what motivates them is a good manager trait.
 
 **Natalie Pistunovich:** That makes a lot of sense.
 
@@ -52,7 +52,7 @@ So being clear and intentional about what you want, about what the business need
 
 **Ela Krief:** So - plus one, and I have a feeling we're gonna agree a lot today, Ashley, because it's quite repetitive... At the end of the day we know that as managers we cannot always give our people tasks that they would 100% enjoy, and would give them energy; sometimes we just have to do a lot of things that facilitates our successes, but are not fun. A lot of infrastructure work, a lot of maintenance, a lot of administration are not fun by itself, but maybe trying to be very vocal about that and not make them feel that I think it's fun, but that I know that it's not fun, but we still have to do that... And think about what is going to be the impact of us doing that good preparation, with all the things that are kind of boring, that we can get to do the interesting tasks, and they have a higher chance of coming out, the deliverables can be so much better and of a higher quality because we put a lot of effort into the mundane tasks as much as we do in the fun, interesting, intriguing tasks...
 
-\[00:12:20.21\] And balancing the priorities of the organization - yeah, I think it's a lot of work, but that's the manager's work. That is exactly -- it's not about being the best SME in the room, it's about being the manager of the SMEs. They need to know they are the experts of something, and it's my role as a manager to be a buffer in front of the organization, but also to communicate the messages and set up expectations and be clear, so they don't operate in too much ambiguity.
+\[12:20\] And balancing the priorities of the organization - yeah, I think it's a lot of work, but that's the manager's work. That is exactly -- it's not about being the best SME in the room, it's about being the manager of the SMEs. They need to know they are the experts of something, and it's my role as a manager to be a buffer in front of the organization, but also to communicate the messages and set up expectations and be clear, so they don't operate in too much ambiguity.
 
 **Natalie Pistunovich:** Sometimes what's good for your team would not be the best thing that's good for the company. Sometimes the best thing for the company, which is probably what you got from your manager, is not necessarily the best thing for your team. How do you find a balance in such situations?
 
@@ -66,7 +66,7 @@ And specifically with what people want to do versus what the organization wants 
 
 Sometimes people on the frontline have a very different view of what is going on in the business than the ones in upper management... Good and bad, by the way. It's not always to the same direction. But those are the question that are taken into account in senior leadership, and they are thinking "Okay, we have clients. We need to make this business viable." We have commitments to our investors, to clients, to the market, and we know that there is a price, and there is some transactional tax that we will pay when we make this tough decision, but that is the decision that we choose to take.
 
-\[00:16:04.06\] And sometimes, without transparency, I can't understand how that could look random and arbitrary to people in the frontline that are subject matter experts, and they know what's best for the product, for the platform, for the technology. Not always what's best for the business. Because sometimes you can explain and give visibility, sometimes you don't have it yourself, and you just do it. So that's the balance, I guess.
+\[16:04\] And sometimes, without transparency, I can't understand how that could look random and arbitrary to people in the frontline that are subject matter experts, and they know what's best for the product, for the platform, for the technology. Not always what's best for the business. Because sometimes you can explain and give visibility, sometimes you don't have it yourself, and you just do it. So that's the balance, I guess.
 
 **Ashley Willis:** This specific example was helpful. When I run up against this, just as important as it is to understand what motivates your reports, it's also important to understand what's motivating your boss. Why is your boss asking you to do these activities? Can you ask them to help prioritize your to-do list?
 
@@ -74,7 +74,7 @@ So if you say "Hey, listen, I understand that you want to push this feature. Her
 
 **Natalie Pistunovich:** Definitely, yeah. It seems like the answer to the question so far is have a good balance and have good communication. Managers who are listening, I hope you have this noted somewhere.
 
-**Break:** \[00:17:31.09\]
+**Break:** \[17:31\]
 
 **Natalie Pistunovich:** So I gave one example of a question, and that was a specific story. Do you have a specific story about a great manager that you take with you, stay with you through your career?
 
@@ -90,7 +90,7 @@ So if you say "Hey, listen, I understand that you want to push this feature. Her
 
 **Natalie Pistunovich:** That sounds great.
 
-**Ashley Willis:** \[00:19:47.12\] I will say somebody that's been influential for me in my career, but has never managed me, is Kelsey Hightower. I get a lot of awesome mentorship from him. And I remember being really, really loyal to my employers. I'm not saying I'm not loyal now, but he gave me some advice... It was "Hey, Ashley, your company is never going to be as loyal to you as you are to them. You have to do what's best for you and your family." And I was like, "That's such simple advice." It changed the way I think about work, and I have better boundaries with work, work/life balance is better... I'm kind of in a burnout cycle right now, but for the most part, it's better. So I think that somebody like Kelsey sort of gave me the permission, I guess, to put myself first, and change the way that I work.
+**Ashley Willis:** \[19:47\] I will say somebody that's been influential for me in my career, but has never managed me, is Kelsey Hightower. I get a lot of awesome mentorship from him. And I remember being really, really loyal to my employers. I'm not saying I'm not loyal now, but he gave me some advice... It was "Hey, Ashley, your company is never going to be as loyal to you as you are to them. You have to do what's best for you and your family." And I was like, "That's such simple advice." It changed the way I think about work, and I have better boundaries with work, work/life balance is better... I'm kind of in a burnout cycle right now, but for the most part, it's better. So I think that somebody like Kelsey sort of gave me the permission, I guess, to put myself first, and change the way that I work.
 
 **Natalie Pistunovich:** That's a great reminder to have, absolutely.
 
@@ -108,7 +108,7 @@ That was an example for me of a manager that was not attentive to how I like to 
 
 And for my mistakes, I think that sometimes I forget that other people are not like me, and they operate differently... And what really helps me is when I cut meetings short, so I have shorter meetings than what I used to have before. Maybe 20-30 minutes, but not an hour-long meetings, and try to leave some of the conversation to be asynchronous and come back to it later, so I would have time to reflect on what happened with that person, and come back with some introspection on what I need to do in order to help that person, rather that bring my agenda to the table.
 
-\[00:24:05.00\] I'm a lot better at that, but I did have a very brave employee maybe 6-7 years ago that just told me "You know what - I'm not like you. You need to listen that I'm doing things differently." I was like, "Oh my God, thank you for telling me. I did not notice." So that was a very powerful feedback that I try to implement every day.
+\[24:05\] I'm a lot better at that, but I did have a very brave employee maybe 6-7 years ago that just told me "You know what - I'm not like you. You need to listen that I'm doing things differently." I was like, "Oh my God, thank you for telling me. I did not notice." So that was a very powerful feedback that I try to implement every day.
 
 **Ashley Willis:** For me, I tend to project my motivations onto people. Say that somebody does not necessarily love rewards, they're not necessarily motivated by promotion, or even more money. Maybe they're actually more motivated by public recognition, and I'm like, "What do you mean, you don't want more money?"
 
@@ -124,7 +124,7 @@ I think if somebody is aware of the areas that they need to be aware of, and the
 
 **Natalie Pistunovich:** That is interesting to ask as the interviewee, the part with "Do you have any questions for me?" Always a relevant one to ask. Would you say that as a manager, if I'm interviewing with you, and then I'm asking you something like "Can you motivate me in the way that resonates with me most?", what would be a good way for me as an interviewee to ask you this as a manager, during a job interview? So I can \[unintelligible 00:28:14.08\]
 
-**Ashley Willis:** \[00:28:18.06\] I don't know if I would be able to answer that question during an interview; I don't know you yet. I need time to get to know my people.
+**Ashley Willis:** \[28:18\] I don't know if I would be able to answer that question during an interview; I don't know you yet. I need time to get to know my people.
 
 **Natalie Pistunovich:** That's fair.
 
@@ -144,11 +144,11 @@ So that gives me usually a glimpse into where are the challenges, and oftentimes
 
 **Ashley Willis:** I get this question a lot, actually... The longer I manage, the less I am in the technical weeds. I have not written a line of code in two years. I review code, but I've not written code in two years. I just don't have the time. I truly like management though. I like it more than I do writing code, so I choose to stay here. But for someone else, that might not be what they wanna do. So I think understanding that the longer you're in a management position, the less you are doing those IC activities. You have to make a choice, what's more important to you. And that's a hard choice to make.
 
-**Ela Krief:** \[00:31:59.18\] Absolutely nothing more to add. Spot on, everything you've just said. The management role is not a more in-depth role of an IC. You have so many other things that you need to take care of when you're a manager, that it's not about being a +1 IC. So the question would be "Are you willing to let go of the things that you like as an IC?" and "Do you have the understanding that as you move up the ladder, you're going to have to shed more and more of those technical skills and be less in the know and less updated, but you will have other things that will compensate for the loss only if you really, really enjoy being a manager?" Because it's such a complex type of role, and I think it's -- I don't know if Ashley would agree, but it's quite difficult to know what it's like being a manager before you actually have to take that role.
+**Ela Krief:** \[31:59\] Absolutely nothing more to add. Spot on, everything you've just said. The management role is not a more in-depth role of an IC. You have so many other things that you need to take care of when you're a manager, that it's not about being a +1 IC. So the question would be "Are you willing to let go of the things that you like as an IC?" and "Do you have the understanding that as you move up the ladder, you're going to have to shed more and more of those technical skills and be less in the know and less updated, but you will have other things that will compensate for the loss only if you really, really enjoy being a manager?" Because it's such a complex type of role, and I think it's -- I don't know if Ashley would agree, but it's quite difficult to know what it's like being a manager before you actually have to take that role.
 
 **Ashley Willis:** It is. And I think that there are certainly people who are able to balance that deep technical work with management. Sarah Drasner is one of those people, @sarah\_edo on Twitter. She's incredible. I don't think she sleeps. I feel inferior every time I talk to her. But she's truly good at both. She is a unicorn in my opinion. I think that it takes a lot of work for her to maintain both.
 
-**Break:** \[00:33:22.22\]
+**Break:** \[33:22\]
 
 **Natalie Pistunovich:** Okay, another tough question... What is a critical conversation to you, in the context of management? Does it mean having a conversation of firing somebody? When I say "critical conversation" in this context, what do you think about?
 
@@ -156,7 +156,7 @@ So that gives me usually a glimpse into where are the challenges, and oftentimes
 
 We all try to avoid confrontations. I don't think there's a person that says "Oh, I'm very confrontational because I like it." There's always a lot of emotion that goes into that, and as a manager even more so, because I want to protect people and I want to help them grow, and sometimes I do have to have more difficult conversations. And if I call them critical, maybe it's because it's critical, but I would do them, because there's nobody else that would. I'm the closest one to that person, I'm the best person to give that feedback to, I'm the best person to set up clear boundaries and to set expectations, and I think that it's also -- you know, aside from being this difficult conversation and I have to take a deep breath before entering one, it also could be a start of something very different and new in the relationship.
 
-\[00:36:15.29\] And I'm saying that after -- you know, I even have two or three examples where I had people on my team that were underperforming, to a point that I had to have a conversation that this is not where we need to be. But then the conversation was started with "This is not where we need to be", and then continued with "This is what we're going to do to get you there." And "We're here as a team, and we're going to do check-ins, and put more energy into it to make sure that you're there." And I think when the check-ins and the goals are the right ones, then the person really feels that sort of conversation is a good conversation. And then the next time you have to do that conversation with the person, they know that you're there for them, and that the outcome can be very positive. I've seen people really turn things around for themselves. And in fact, looking back, I think there was not a single person where I had that kind of difficult conversation with on performance that actually didn't deliver at the end.
+\[36:15\] And I'm saying that after -- you know, I even have two or three examples where I had people on my team that were underperforming, to a point that I had to have a conversation that this is not where we need to be. But then the conversation was started with "This is not where we need to be", and then continued with "This is what we're going to do to get you there." And "We're here as a team, and we're going to do check-ins, and put more energy into it to make sure that you're there." And I think when the check-ins and the goals are the right ones, then the person really feels that sort of conversation is a good conversation. And then the next time you have to do that conversation with the person, they know that you're there for them, and that the outcome can be very positive. I've seen people really turn things around for themselves. And in fact, looking back, I think there was not a single person where I had that kind of difficult conversation with on performance that actually didn't deliver at the end.
 
 I think that if I would just tell them "Okay, this is not the right place to be", and just leave it at that, then it would just fail, because I'd just tell them what's not good, but not tell them how to fix it, or how to behave differently... Also not give them tools to become more independent when I let them go from that phase.
 
@@ -170,7 +170,7 @@ I think that it's very critical to have the path forward. So knowing that there'
 
 I also wanted to ask you, how do you go about having such hard conversations? But I think in your answer you shared some great ideas. So instead of that, I'll ask you - how do you deal with conflict inside your team?
 
-**Ashley Willis:** \[00:39:57.14\] Conflict is impossible to avoid in this position. You have conflict between your reports, sometimes there's conflict with management... It's impossible to avoid. I think leading with empathy is key. There's conflict in having difficult conversations, but if people understand that you can have -- I don't even know a better word, but like "loving conflict", again, there's a path forward. So like, "Hey, we're about to have a really hard conversation with you, but I still have your back. I'm here for you. Let's find a way to get through it."
+**Ashley Willis:** \[39:57\] Conflict is impossible to avoid in this position. You have conflict between your reports, sometimes there's conflict with management... It's impossible to avoid. I think leading with empathy is key. There's conflict in having difficult conversations, but if people understand that you can have -- I don't even know a better word, but like "loving conflict", again, there's a path forward. So like, "Hey, we're about to have a really hard conversation with you, but I still have your back. I'm here for you. Let's find a way to get through it."
 
 **Ela Krief:** A +1 on the empathy part. We're humans, so it shouldn't be any different than other relationships we're having when we're at work. We will have any type of human behavior with our colleagues as well. So just be aware of that. I like to put post-its sometimes on my desk, just to remind me of what people are like in general... And then be humble about it, because that's how I am also. So conflict is expected, and conflict is also a way to get to resolutions, and it's also a way to lead by example; when you show people how there is conflict and how you deal with that, and you express a positive communication style, the one that leads to resolving issues and to mutual respect and to diversity of opinions, then it could also be a tool.
 
@@ -184,7 +184,7 @@ And I'm putting aside the fact that yeah, it could be annoying. I'm a person, so
 
 I was looking while you were talking on how a team is actually an entity that does not exist if you do not address it as a team. So you need to have rituals, and you need to have culture, and I think once you have that, then it's a lot harder to see behaviors that are offensive, or that are more self-centered, that are like projects... And it's fine; I mean, I also do things that are just for me, but they're not taking anything away from other people, and I think the more you invest in a team, and the more the team recognizes that this is important, they also invest more in the team themselves... And that's what I always like to see more of, and it's actually really humbling... And sorry to say that, it's super-moving for me when I see a team forming and they start to be this one organ... Even though they're individuals, but they really work together. They have this culture and something that is unique to them.
 
-**Natalie Pistunovich:** \[00:44:24.02\] Okay. What is one piece of advice that you would give to new or existing managers to achieve all those behaviors that we want them to have?
+**Natalie Pistunovich:** \[44:24\] Okay. What is one piece of advice that you would give to new or existing managers to achieve all those behaviors that we want them to have?
 
 **Ela Krief:** Get yourself mentors. As many as you can. And talk to one every week, especially when you're new; even every day, if you can. I cannot even stress how helpful it is. I have a lot of years of experience as an IC, senior leadership positions in management, in managing managers... But at any given time I had at least four mentors that are on duty to get my calls for me to consult with them... Because it's such a lonely place to be a leader, and you don't realize it until you are plucked away from the team, and then you're this outside function and you cannot be part of that team as you were before. It's very lonely, you need a lot of support, you need a lot of advice, you can get burnt out very quickly. Get your board of mentors ready for that day that you step into that role, and keep them throughout your career as a manager.
 
@@ -192,7 +192,7 @@ I was looking while you were talking on how a team is actually an entity that do
 
 **Natalie Pistunovich:** Wonderful advice. Thank you. And the opposite, or another side of the interesting questions to ask would be the time for our Unpopular Opinion. So this is something that can be unrelated to management, it can be related to management, it can be unrelated to Go altogether... But let's hear Mat singing us about that.
 
-**Jingle:** \[00:46:09.07\] to \[00:46:35.02\]
+**Jingle:** \[46:09\] to \[46:35\]
 
 **Natalie Pistunovich:** So, Ashley and Ela, I hope you have an unpopular opinion to share with us, and I hope your unpopular opinion is... Unpopular. Because we will be running a Twitter survey and we will be asking people if they agree with you or not. And then we'll find out how popular or unpopular is your opinion.
 
