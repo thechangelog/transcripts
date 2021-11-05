@@ -206,7 +206,7 @@ In Delve we had to do some really tricky stuff, use ptrace to see when the Go ru
 
 \[36:09\] So you could have something like a ring buffer that lets you -- let's say if you have a simple BPF program that is triggered every time a certain function is called, or let's say a system call... Every time a system call is triggered. In that BPF program you can just have a little message that says "Hey, the system call was triggered. Put that in, let's say, a string, and send it to user space using this ring buffer." And then on the user space side you just have a goroutine that is picking up these events and printing them to screen. So you have these buffers, these maps that you can use to share memory between user space, and share memory between different BPF programs.
 
-**Mat Ryer:** So do you literally get a channel interface then in the Go side, where you can \[unintelligible 00:36:55.18\]
+**Mat Ryer:** So do you literally get a channel interface then in the Go side, where you can `for each over` or `for range over` a, the channel to just read this stuff?
 
 **Grant Seltzer Richman:** I'll say yes, but it depends on the library that you're using. So the actual underlying primitive is a different interface, but in the case of libbpfgo you do have a channel. So you could really interact with it in the same way that you would with any other Go program.
 
@@ -238,7 +238,7 @@ Before, something that you might have written a kernel module to do, something t
 
 **Derek Parker:** Yeah.
 
-**Mat Ryer:** Yeah, I see. So if you're reading, if it's one-way data, use something like a \[unintelligible 00:40:46.25\] or something.
+**Mat Ryer:** Yeah, I see. So if you're reading, if it's one-way data, use something like a room buffer or something.
 
 **Derek Parker:** Yeah, from within a program. The uprobe will fire and start executing your eBPF program, and then your eBPF program can use a ring buffer or a map, or something like that, to communicate back with the user space.
 
@@ -256,7 +256,7 @@ Delve uses both. So it kind of uses maps to communicate from the user space to t
 
 **Johnny Boursiquot:** Commercial products... That's what's next. Commercial products. \[laughs\]
 
-**Mat Ryer:** Is that what's gonna happen next? Let's start the company now. Us four. \[laughter\] Let's just do it live, on The Go Time. Not The Go Time, is it? It's Go Time. \[unintelligible 00:43:00.19\] I think it's cooler, though. That was very much of its time, taking "the" off Facebook. I think it's cooler now to be called The Go Time.
+**Mat Ryer:** Is that what's gonna happen next? Let's start the company now. Us four. \[laughter\] Let's just do it live, on The Go Time. Not The Go Time, is it? It's Go Time. I've done the thing from The Facebook. I think it's cooler, though. That was very much of its time, taking "the" off Facebook. I think it's cooler now to be called The Go Time.
 
 **Johnny Boursiquot:** The Go Time.
 
@@ -316,7 +316,7 @@ Delve uses both. So it kind of uses maps to communicate from the user space to t
 
 **Mat Ryer:** \[47:43\] It's definitely true when you're designing systems that security is one of the key things that you think of. And you're right, sometimes you can just make design decisions that make systems more robust. If they're idempotent, so that you can just retry something lots of times, and kind of better safe than sorry, because you've designed it a certain way, it's not gonna break. You can do that same thing with security issues, too. Just by making certain design choices, you're sort of necessarily more secure. So yeah, an interesting one... We're gonna definitely test that one on Twitter. We would test it on Facebook, but I think we all know why we're not gonna do that...
 
-**Grant Seltzer Richman:** \[unintelligible 00:48:25.07\]
+**Grant Seltzer Richman:** Ayo
 
 **Mat Ryer:** We'd never see the results...
 
@@ -434,7 +434,7 @@ Delve uses both. So it kind of uses maps to communicate from the user space to t
 
 **Johnny Boursiquot:** And for those who don't know, GDN stands for The Go Developer Network. So this is sort of the meta organization behind all of the Go meetups and events, and even things like GoBridge, and things like that. So it's the behind the scenes of the behind the scenes.
 
-**Mat Ryer:** Yeah, and it has a lot of members. 117,000 members are at the time of recording... So you could be one of those ones; or you already have to have been one of those, but you can increase the number \[unintelligible 00:55:14.18\]
+**Mat Ryer:** Yeah, and it has a lot of members. 117,000 members are at the time of recording... So you could be one of those ones; or you already have to have been one of those, but you can increase the number and be that one.
 
 **Johnny Boursiquot:** Yeah, definitely. Join the GDN and we'll send you your license information in the mail for having joined the Go Developer Network. I'm kidding. There's no license.
 
@@ -478,7 +478,7 @@ Delve uses both. So it kind of uses maps to communicate from the user space to t
 
 Well, that is all the time we have today. I hope you enjoyed this deep dive on eBPF. Very technical and very interesting... And quite exciting. I do wanna see what Gophers are gonna build with it. I think there's some exciting opportunities there. Tweet us at @GoTimeFM if you've built something cool with it. We'd love to hear about it.
 
-Thank you so much to our guests today. Derek Parker, Grant Seltzer - always a pleasure. You have to come back. And of course, Johnny Boursiquot was here... And so was I. \[unintelligible 00:57:01.03\] See you later! Bye!
+Thank you so much to our guests today. Derek Parker, Grant Seltzer - always a pleasure. You have to come back. And of course, Johnny Boursiquot was here... And so was I. Enough said me. See you later! Bye!
 
 Not the most professional ending I've ever done, but... \[laughter\] There we go. And now we have to play the outro.
 
