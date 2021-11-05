@@ -132,7 +132,7 @@ There's so many of these prioritization things that exist that probably do work 
 
 **Natalie Pistunovich:** Yeah.
 
-**Kris Brandow:** Yeah, I like that use of a backlog, the nice rule in place where it's like "Check the backlog before you add something new, to make sure it doesn't already exist there." Because that's the other thing I've found with backlogs sometimes - we do pile in things, and it's like "Why \[unintelligible 00:22:01.20\] same feature request, or the same thing in here?"
+**Kris Brandow:** Yeah, I like that use of a backlog, the nice rule in place where it's like "Check the backlog before you add something new, to make sure it doesn't already exist there." Because that's the other thing I've found with backlogs sometimes - we do pile in things, and it's like "Why 5 of the same feature request, or the same thing in here?"
 
 **Break:** \[22:06\]
 
@@ -150,7 +150,7 @@ Hilarious side note - I'm still part of the Drupal community in New York City. I
 
 I think it's amazing that you've been an organizer for five years, Natalie. You've gotten it down to be like a few hours a month plus the night, but that's a long journey, for sure. I've seen a lot of organizing groups kind of cycle in and cycle out.
 
-**Natalie Pistunovich:** It's \[unintelligible 00:26:57.20\] inefficiency.
+**Natalie Pistunovich:** It's a German efficiency.
 
 **Kris Brandow:** Yes, you've gotten your velocity to a very, very high degree, so you can just knock out all of those tasks you have to do...
 
@@ -192,7 +192,7 @@ So yeah, I think that's like another way that you can kind of help balance your 
 
 **Kris Brandow:** No, no, I just --
 
-**Natalie Pistunovich:** Okay, just making sure... GitHub and some other companies, like DigitalOcean, and some of them change over the years... But if you make this many open source contributions - so it can be code, it can be a PR, it can be documentation (the rules change a little bit every year), then they send you a swag packet... Like, stickers, and a T-shirt \[unintelligible 00:31:34.29\] and then it's always fun to wear that into a job interview, because they're like "Oh, you're contributing to open source. That's nice."
+**Natalie Pistunovich:** Okay, just making sure... GitHub and some other companies, like DigitalOcean, and some of them change over the years... But if you make this many open source contributions - so it can be code, it can be a PR, it can be documentation (the rules change a little bit every year), then they send you a swag packet... Like, stickers, and a T-shirt and so on, and then it's always fun to wear that into a job interview, because they're like "Oh, you're contributing to open source. That's nice."
 
 **Kris Brandow:** I like that.
 
@@ -230,7 +230,7 @@ So Ian, what do you do when you start feeling overwhelmed, or to prevent yoursel
 
 **Natalie Pistunovich:** I think that going outside, leaving the house is different for people who live in a house, versus people who live in a flat. I live in a classic, old German building, with very high ceilings, and I live on the last floor, and we have no elevator. So going outside is -- like, from the moment that I touch the door handle, until I'm breathing outside air, and I have to go through the yard between the buildings... It's the second building, so this is like a solid six minutes.
 
-\[36:09\] So leaving the house is like a big engagement. \[laughter\] And I imagine if I would live in a house, or even on the ground floor of a building, it would be a lot more of an easier thing to go outside and grab some sun... Especially as the winter is coming, and the days are shorter \[unintelligible 00:36:24.04\]
+\[36:09\] So leaving the house is like a big engagement. \[laughter\] And I imagine if I would live in a house, or even on the ground floor of a building, it would be a lot more of an easier thing to go outside and grab some sun... Especially as the winter is coming, and the days are shorter: Less light.
 
 It's a good question to bring up, because you should be more mindful of that, especially if you live further from the Equator and you're getting more dark hours...
 
@@ -244,7 +244,7 @@ So we aren't always great at keeping ourselves from being overwhelmed, and you k
 
 **Ian Lopshire:** Yeah, so I've caught myself feeling that way a couple of times in the last couple of years... I think when I am starting to feel burnout and overwhelmed, I used to have this habit of shutting down and not communicating... Or a project is not going well - you kind of get this landslide of "It's not going well, so then I feel bad, so I'm not as productive, so it goes down..." And I think the biggest way to get out of that is just communication. Communicate with your team, communicate with your manager... And if everyone knows where you're at, and everyone's okay, that pressure just kind of goes away. I think that really helps alleviate some of that burnout. Obviously, it doesn't do everything for it, but it just does help it from escalating.
 
-**Natalie Pistunovich:** It also makes things more manageable. It's not as scary that "Oh no, they know that all this time it was one thing, but this is \[unintelligible 00:39:19.29\] and no more, and I will not do that work..." and so on. So definitely, like -- the sunlight is disinfecting.
+**Natalie Pistunovich:** It also makes things more manageable. It's not as scary that "Oh no, they know that all this time it was one thing, but this is what now, and no more, and I will not do that work..." and so on. So definitely, like -- the sunlight is disinfecting.
 
 **Ian Lopshire:** Yes.
 
@@ -368,7 +368,7 @@ So you know, like a nice image, or something that just kind of like helps me und
 
 **Kris Brandow:** Okay.
 
-**Ian Lopshire:** Just write a shell script. \[unintelligible 00:55:42.11\] folder of shell scripts, and... How is that any harder than --
+**Ian Lopshire:** Just write a shell script. You know just have a folder of shell scripts, and... How is that any harder than --
 
 **Kris Brandow:** It can be less confusing. I know there's all sorts of things I've tripped over in Make before. The way that sub-shells work - that always trips me up, of like what gets passed in, versus what doesn't... But that may be a 50/50 split. There might be some people that find it like "No! I love Make!" And then there's probably a bunch of people that are like "Burn it to the ground."
 
@@ -390,7 +390,7 @@ So you know, like a nice image, or something that just kind of like helps me und
 
 **Natalie Pistunovich:** \[laughs\]
 
-**Kris Brandow:** I'm fine if you're using it context... Like, I don't know, \[unintelligible 00:57:05.19\] but don't put it on a book cover.
+**Kris Brandow:** I'm fine if you're using it context... Like, I don't know, like you need to hashtag Golang whatever, type it into Google, whatever, but don't put it on a book cover.
 
 **Ian Lopshire:** Okay, yeah. You're right there.
 
@@ -406,7 +406,7 @@ So you know, like a nice image, or something that just kind of like helps me und
 
 **Outro:** \[57:43\]
 
-**Natalie Pistunovich:** You know, we missed this episode -- I just realized, we missed \[unintelligible 00:58:55.10\] joke. All things perfectly balanced, as they should be.
+**Natalie Pistunovich:** You know, we missed this episode -- I just realized, we missed a Thanos joke. All things perfectly balanced, as they should be.
 
 **Ian Lopshire:** Delete half the code.
 
@@ -448,7 +448,7 @@ So you know, like a nice image, or something that just kind of like helps me und
 
 **Natalie Pistunovich:** The real fuzzing...
 
-**Kris Brandow:** It reminds me - I saw this TikTok once, and it was like a guy, and he was just like, "If you really wanna get back at someone, do these things", and one of them was "Go to some you don't like's house, as to like a party, and take all of their remotes except one", because then they'll be like "Where are all the remotes? I have this one, so clearly no one took them..." Just small things that inconvenience people's lives, \[unintelligible 01:00:44.01\]
+**Kris Brandow:** It reminds me - I saw this TikTok once, and it was like a guy, and he was just like, "If you really wanna get back at someone, do these things", and one of them was "Go to some you don't like's house, as to like a party, and take all of their remotes except one", because then they'll be like "Where are all the remotes? I have this one, so clearly no one took them..." Just small things that inconvenience people's lives, I'm like yeah something. Make a bot.
 
 **Ian Lopshire:** Put dead batteries in all the remotes.
 
