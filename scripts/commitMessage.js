@@ -18,7 +18,7 @@ function createCommitMessage(filenames, maxListLen = 10) {
     if (!filenames.length) return 'No changes'
     const firstName = path.basename(filenames[0])
     const numFiles = filenames.length
-    const others = numFiles > 1 ? ` and ${numFiles -1} other files` : ''
+    const others = numFiles === 2 ? ` and 1 other file` : numFiles > 2 ? ` and ${numFiles -1} other files` : ''
     const list = filenames.slice(0,maxListLen).join('\n')
     const after = numFiles > maxListLen ? `and ${numFiles - maxListLen} more` : ''
     const message = `Apply standardised formatter to ${firstName}${others}
