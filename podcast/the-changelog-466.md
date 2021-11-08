@@ -1,18 +1,18 @@
 **$STDOUT:** I am $STDOUT the rapper. I'm a fan of tech and rap songs. It's my thing. \[$STDOUT song 00:00:40.08\]
 
-\[00:02:01.11\] I feel like it really started a long time ago. Maybe when I was 13-14, just an angsty teenager, writing angsty lyrics... And I think I wrote lyrics for years. I was really into rap growing up. Still am really into rap... But you know, I reached a certain age where the lyric-writing part of it, I was like "It's not okay for me to be writing raps. I'm a grown-ass man."
+\[02:01\] I feel like it really started a long time ago. Maybe when I was 13-14, just an angsty teenager, writing angsty lyrics... And I think I wrote lyrics for years. I was really into rap growing up. Still am really into rap... But you know, I reached a certain age where the lyric-writing part of it, I was like "It's not okay for me to be writing raps. I'm a grown-ass man."
 
 How I got bag into rapping for $STDOUT is actually kind of ridiculous... My older brother was starting a product, and he knew that I'm pretty good at rap. He was saying, "Hey, I want you to make a viral tech rap, so that I can market my product through your channel." And I definitely did not go viral, but he bought me this decent mic to get started, and I made Hell.js as my first song. \[$STDOUT song 00:02:59.22\]
 
-\[00:03:42.08\] I am a web developer, full stack. On the backend I've mostly done Rails applications, also done a bit of Go on the backend, and then on the frontend, when I started out, I think jQuery was still kind of the way to go. And then I've since gone into React and Vue.js. I don't know, pretty normal full-stack developer. I primarily have worked at startups... So at my current job, the day-to-day team I work with is about seven people, but there's about 200-ish engineers total at the company, and probably around 1,500(ish) people total. Yeah, and my current job is by far the largest company I've worked for. Prior to this it's been less than 100, for sure... Like, one team was literally like seven people total. I've been coding for about seven years at this point.
+\[03:42\] I am a web developer, full stack. On the backend I've mostly done Rails applications, also done a bit of Go on the backend, and then on the frontend, when I started out, I think jQuery was still kind of the way to go. And then I've since gone into React and Vue.js. I don't know, pretty normal full-stack developer. I primarily have worked at startups... So at my current job, the day-to-day team I work with is about seven people, but there's about 200-ish engineers total at the company, and probably around 1,500(ish) people total. Yeah, and my current job is by far the largest company I've worked for. Prior to this it's been less than 100, for sure... Like, one team was literally like seven people total. I've been coding for about seven years at this point.
 
 **Jerod Santo:** You've been rapping longer than you've been coding.
 
 **$STDOUT:** Oh, yeah. Rapper-first. Coder second. All my songs are definitely borne out of real-world experiences that I've lived through... Personal frustrations, personal - just shit that I've gone through on the job. I think most of the times I do -- I do have a few more like serious songs, but most of the time it also has to come with that inherent comedic element. That's a must also. \[$STDOUT song 00:05:16.28\]
 
-\[00:05:47.11\] I don't like to rap about things that are too in the weeds technically, or super-niche technical topics. I try to find things where like "Yeah, I think most devs probably have gone through this, and it sucked for them, too." If I can make a song about this and make them look back and laugh about that, then that's a win. \[$STDOUT song 00:06:06.17\]
+\[05:47\] I don't like to rap about things that are too in the weeds technically, or super-niche technical topics. I try to find things where like "Yeah, I think most devs probably have gone through this, and it sucked for them, too." If I can make a song about this and make them look back and laugh about that, then that's a win. \[$STDOUT song 00:06:06.17\]
 
-**Jerod Santo:** \[00:07:41.21\] Why do you think your songs resonate with devs?
+**Jerod Santo:** \[07:41\] Why do you think your songs resonate with devs?
 
 **$STDOUT:** Because they're true. I live through something in the real world, and then I make fun of it. These songs aren't coming from me having read blog posts about a topic and then wanting to create something about it. I was there, in the coding trenches, on every one of these topics. Probably at the time I was actually really feeling some pain about it, and then only later I decided to look back and make fun of it. I'm definitely "Become the comedian in times of stress" kind of guy, so a lot of these songs I wrote when I was actually stressed out about these topics. The truthiness there really comes through in the lyrics. \[$STDOUT song 00:08:27.23\]
 
@@ -36,7 +36,7 @@ I really think when you get that tech lead title, it almost means "Hey, any gaps
 
 It was a good experience, and it did give me more visibility, just like -- it was a good look for me, if I put my personal gains head-on. But yeah... I don't ever need to do it again. \[$STDOUT song 00:13:32.02\]
 
-**Jerod Santo:** \[00:14:46.08\] How long does it take you to make one of these?
+**Jerod Santo:** \[14:46\] How long does it take you to make one of these?
 
 **$STDOUT:** I think it really depends. The bottleneck is definitely the lyric-writing. When it comes to the beat-making, I typically find one that I like writing to, just on YouTube or something, and then I'll kind of make a beat that's similar in vibe, and beats per minute, and all that stuff.
 
@@ -46,7 +46,7 @@ And then how quickly I can expand on that - yeah, it really depends on the topic
 
 **Jerod Santo:** A lot of your tracks borrow beats and flows from popular songs. For example, "Opinions" uses "I like it like that." \[$STDOUT song 00:15:53.05\]
 
-\[00:16:07.02\] "Interviews covers that famous Eminem flow from the 8 Mile soundtrack. \[$STDOUT song 00:16:14.01\] Is this something you're gonna keep doing?
+\[16:07\] "Interviews covers that famous Eminem flow from the 8 Mile soundtrack. \[$STDOUT song 00:16:14.01\] Is this something you're gonna keep doing?
 
 **$STDOUT:** I don't think I will. I think I have grown out of it. It was much easier to start with a song that already exists; it already kind of has a theme that you can twist into a parody about tech... But yeah, like you said, I used to not make beats, now I do. I think I've definitely grown as a rapper through making this channel.
 
@@ -64,7 +64,7 @@ And then how quickly I can expand on that - yeah, it really depends on the topic
 
 I think in reality, as long as I have a day job, I'm gonna find more things to talk shit about... Because I'll bet all my money that there'll be things that frustrate me in any job, any position. I don't think I will run out of songs to make until I literally have zero complaints about work, which will never happen. \[$STDOUT song 00:18:31.06\]
 
-**Jerod Santo:** \[00:21:11.24\] You also have tracks that are more serious...
+**Jerod Santo:** \[21:11\] You also have tracks that are more serious...
 
 **$STDOUT:** Yeah.
 
@@ -72,11 +72,11 @@ I think in reality, as long as I have a day job, I'm gonna find more things to t
 
 **$STDOUT:** I mean, if I just look at what I've actually done, my answer is I wanna make you laugh like 90% of the time, and then drop a serious truth bomb on you. Make you question all your life decisions. \[$STDOUT song 00:21:39.13\]
 
-\[00:22:10.24\] Tech right now is such a privileged space. When I talk to anybody that works in any other job, I look at my day-to-day and I'm like "This isn't even a fuckin' job." I make six figures sitting on my ass, and a bad day for me is like "Oh, I'm a little more stressed out than usual." That's as bad as it gets.
+\[22:10\] Tech right now is such a privileged space. When I talk to anybody that works in any other job, I look at my day-to-day and I'm like "This isn't even a fuckin' job." I make six figures sitting on my ass, and a bad day for me is like "Oh, I'm a little more stressed out than usual." That's as bad as it gets.
 
 So I think we all have the right to be stressed out and complain about work and stuff, but for me, I think any complaint a dev in America has is just kind of like inherently funny, because we are so privileged. But at the same time, where I feel like I wore my heart on my sleeve the most is the most recent serious song, called "3 AM in San Francisco." I think there I try to speak to this cognitive dissonance between what we actually do, and how good our lives are. \[$STDOUT song 00:23:09.29\]
 
-\[00:23:31.05\] I do like making people look at that (how would you call it) dissonance, I guess, and think about that. I think it's important. But yeah, mostly I want you to have a good time listening to my music.
+\[23:31\] I do like making people look at that (how would you call it) dissonance, I guess, and think about that. I think it's important. But yeah, mostly I want you to have a good time listening to my music.
 
 **Jerod Santo:** What has the reaction been to your serious tracks?
 
@@ -98,7 +98,7 @@ I have no hard feelings when I see a reaction like that. I'm like, "Yeah, I get 
 
 **$STDOUT:** That is probably true. This is definitely a very niche thing I'm doing. If I could just, out of all the developers I know, count how many also are like bumping rap on a weekly basis, I can think of like two... So yeah, that might be it. But my hope is that the content is good enough that this could be somebody who historically hasn't liked rap, this could be their gateway artist into rap. \[$STDOUT song 00:26:36.09\]
 
-**Jerod Santo:** \[00:27:35.04\] Let's say that your channel blows up. Somehow, everybody just sees the light and they agree with you, and everybody is bumping $STDOUT... So much so that this can become -- this is a typical story nowadays... All of a sudden you become a creator, full-time. "Wow, look at this... I'm making money off my rap. I can do live shows, people show up, they attend my events, they're buying my merch", all the good things.
+**Jerod Santo:** \[27:35\] Let's say that your channel blows up. Somehow, everybody just sees the light and they agree with you, and everybody is bumping $STDOUT... So much so that this can become -- this is a typical story nowadays... All of a sudden you become a creator, full-time. "Wow, look at this... I'm making money off my rap. I can do live shows, people show up, they attend my events, they're buying my merch", all the good things.
 
 **$STDOUT:** Yeah.
 
@@ -106,7 +106,7 @@ I have no hard feelings when I see a reaction like that. I'm like, "Yeah, I get 
 
 **$STDOUT:** First of all, wouldn't that be something? I'm just picturing a crowd of engineers rocking out to -- I just imagine a bunch of really socially awkward people with their hands in their pockets, while I'm just going apeshit on the stage. That'd be hilarious.
 
-**Jerod Santo:** \[00:28:15.20\] They're supposed to wave their hands in the air like they just don't care...
+**Jerod Santo:** \[28:15\] They're supposed to wave their hands in the air like they just don't care...
 
 **$STDOUT:** Oh yeah, yeah...
 
