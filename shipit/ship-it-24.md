@@ -284,7 +284,7 @@ At the end of the day, the best thing you can do is just be deliberate about the
 
 **Arnaud Porterie:** Yeah, I think we could do it. I don't think there's anything really hidden there.
 
-**Gerhard Lazu:** Yes, please. That would be amazing - to see that, to have that visibility into how Echoes is using Echoes, to see what is important to you, what is the progress that you're making towards that... Because I remember the screenshot that you had; I think this was in -- actually, it was one of your tweets, \[unintelligible 00:55:14.20\], it's a recent one, i'll link it in the show notes. But to see the real one day, what it looks like - that would be fascinating.
+**Gerhard Lazu:** Yes, please. That would be amazing - to see that, to have that visibility into how Echoes is using Echoes, to see what is important to you, what is the progress that you're making towards that... Because I remember the screenshot that you had; I think this was in -- actually, it was one of your tweets, photo 2, it's a recent one, i'll link it in the show notes. But to see the real one day, what it looks like - that would be fascinating.
 
 So what comes next for Echoes? The next six months, what are like the big items on your list? I think list is a poor word, but you know what I mean.
 
