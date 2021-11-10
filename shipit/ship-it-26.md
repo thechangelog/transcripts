@@ -4,7 +4,7 @@
 
 So what eBPF allows us to do is to run custom programs that we load into the kernel and we associate them with events. And because there are so many different types of events that we can attach our programs to, and because they're in the kernel, there's only one kernel per host, so these programs have access to pretty much everything that's happening on the entire machine, and that makes them incredibly powerful and incredibly useful for observing what's going on, security, and of course, networking as well. So yeah, I'm very excited about eBPF.
 
-**Gerhard Lazu:** \[00:04:15.04\] That was exactly my impression as well. I really like this idea where we have all those containers running on this host, and then you have many hosts... But still, when it comes to the hosts, why is this particular set of containers struggling? What is going on there? Networking is such a big issue, even today. I think things are getting better, but I remember 3-4 years ago it was like the Wild Wild West in the world of Kubernetes. IP tables? Oh, my goodness me. Don't get me started.
+**Gerhard Lazu:** \[04:15\] That was exactly my impression as well. I really like this idea where we have all those containers running on this host, and then you have many hosts... But still, when it comes to the hosts, why is this particular set of containers struggling? What is going on there? Networking is such a big issue, even today. I think things are getting better, but I remember 3-4 years ago it was like the Wild Wild West in the world of Kubernetes. IP tables? Oh, my goodness me. Don't get me started.
 
 **Liz Rice:** \[laughs\]
 
@@ -26,7 +26,7 @@ There's a history of observability in particular using eBPF. Brendan Gregg has b
 
 **Liz Rice:** Yeah, so Cilium has always made use of eBPF. It was originally created as a networking project that uses eBPF to create that network plumbing between different end points in your system. And I think probably a lot of users just know it as a Kubernetes CNI. But it's actually a lot more than that. It's also offering sort of CNI with lots of bells and whistles, so things like observability, being able to look at network flows, network policies, so giving you security enforcement at a network level... And increasingly, some of our roadmap features take it to the next level with things like eBPF by service mesh, which I think service mesh is a really great example of something where by running code in the kernel we don't have to instrument each individual application, and that's a big benefit; it's gonna make things much simpler for people to deploy.
 
-**Gerhard Lazu:** \[00:07:58.07\] So does Cilium -- I know that it exposes all these metrics and all this visibility into what is happening under the hood, especially from a networking perspective and from a communication perspective... But Cilium - what are the components in the Cilium product, or project? ...I'm not sure how you wanna call it. Because obviously, there's the CNI, and there's other things. What are the big components that make Cilium?
+**Gerhard Lazu:** \[07:58\] So does Cilium -- I know that it exposes all these metrics and all this visibility into what is happening under the hood, especially from a networking perspective and from a communication perspective... But Cilium - what are the components in the Cilium product, or project? ...I'm not sure how you wanna call it. Because obviously, there's the CNI, and there's other things. What are the big components that make Cilium?
 
 **Liz Rice:** Yeah, so when you run Cilium, you install a Cilium agent on every node, and if all you want is networking capabilities, then that gets you going. You probably want to start being able to see those network flows, and to do that, you'd install a component called Hubble, which collects this network information, and the Kubernetes identity is associated with it.
 
@@ -58,7 +58,7 @@ So my next question would be "Where would you recommend that I start? Do I take 
 
 **Liz Rice:** Yeah, so I've done a few talks about eBPF programming... There's lots of different frameworks and libraries that you can use, and you can write your user space code in different languages, like Python, and Go, and Rust now as well. My Rust isn't quite up to doing live-coding in that myself, but... \[laughs\]
 
-**Gerhard Lazu:** \[00:12:10.29\] What do you use for live-coding?
+**Gerhard Lazu:** \[12:10\] What do you use for live-coding?
 
 **Liz Rice:** I typically use either -- Go is kind of my go-to language, but for ease of demonstrating a lot of eBPF capabilities, I'll quite often use the BCC framework, which supports Python. That's also very easy to read in a live coding environment. And occasionally, I've done \[unintelligible 00:12:29.26\] Because the eBPF programs that you're actually running in the kernel, that are typically written in C, can now be written in Rust, so I'm gonna have to up my Rust game... But because the kernel part is often written in C, a lot of eBPF programmers are also comfortable in that language, and I'm therefore writing the user space part in C as well.
 
@@ -92,7 +92,7 @@ Then maybe we go down the direction of "How do we get information in and out of 
 
 **Liz Rice:** Yeah, so we are eight hours different, so that makes it a little bit more difficult to collaborate than ideal, but... Yeah, we're definitely figuring out some of the ways that we want to tell stories, doing Echo, which is our livestream; that's a lot of fun to do together... Yeah, it's a delight to have him in the company.
 
-**Gerhard Lazu:** \[00:16:05.15\] That sounds great.: Speaking about KubeCon - I know that you'll be remote, virtual... I've seen even your Twitter tagline change; I'm thinking of doing the same, but it's a great idea. "I'll be at KubeCon, but virtually. So I'll be there, but you won't see me, unless it's online." What are you looking forward to the most at this KubeCon?
+**Gerhard Lazu:** \[16:05\] That sounds great.: Speaking about KubeCon - I know that you'll be remote, virtual... I've seen even your Twitter tagline change; I'm thinking of doing the same, but it's a great idea. "I'll be at KubeCon, but virtually. So I'll be there, but you won't see me, unless it's online." What are you looking forward to the most at this KubeCon?
 
 **Liz Rice:** Well, I'll be completely honest, I'm very much looking forward to the project updates announcements about new projects joining the CNCF. That's only in about an hour away from now, so... Keep your eye out for a project that we know and love becoming a CNCF project.
 
@@ -122,7 +122,7 @@ I think for us, in our timezone, most of the first social hallway track events a
 
 I think the virtual office hours - that is a great idea. Conversations like these help, and more of this happening live would help for sure... But I think we're all trying to figure this out, and we don't expect it to be permanent. I mean, it's now -- I think this was an unfortunate situation, because from November I know that U.K. and much of Europe can go to the U.S, so it was just bad timing, I suppose.
 
-**Liz Rice:** \[00:20:05.07\] Yeah... Although I hope that we do keep some of this virtual element going, because I see there were a lot of people who, for financial reasons or commitment reasons - you know, there were many reasons beyond Covid why people can't necessarily make it to an event. So I think if we can maintain some of the virtual elements, I do think that brings more people in. And it won't ever be quite the same as being there in person, but it is still an opportunity to connect.
+**Liz Rice:** \[20:05\] Yeah... Although I hope that we do keep some of this virtual element going, because I see there were a lot of people who, for financial reasons or commitment reasons - you know, there were many reasons beyond Covid why people can't necessarily make it to an event. So I think if we can maintain some of the virtual elements, I do think that brings more people in. And it won't ever be quite the same as being there in person, but it is still an opportunity to connect.
 
 I was actually gonna say, the platform that they're using this time around seems quite good for... Certainly, when I did the virtual office hours yesterday - it works. You can have conversations with people. So yeah, we're getting there.
 
@@ -142,7 +142,7 @@ I was actually gonna say, the platform that they're using this time around seems
 
 **Liz Rice:** Thank you for having me.
 
-**Break:** \[00:22:32.26\]
+**Break:** \[22:32\]
 
 **Gerhard Lazu:** So out of everyone that I spoke to so far then, you're the first one that you're at KubeCon in person... So tell us what's it like for everyone that couldn't make it.
 
@@ -164,7 +164,7 @@ So the virtual office hours that we'd ran yesterday was quite successful, with a
 
 So I was trying to focus on delivering the material, while everyone else was attacking all the questions. Dan, do you remember any specific ones that you were jumping on while I was presenting?
 
-**Jared Watts:** \[00:27:33.11\] Yeah, absolutely. Like you said, there were a lot of really great questions. The ones that really stuck out to me... And this is something that's kind of been a point of interest for folks throughout all of Crossplane's lifecycle - that's handling of sensitive data. So with Crossplane we have two major sources of sensitive data, one of them being credentials to talk to cloud providers or external APIs, and the other one being credentials to communicate with the infrastructure that you're provisioning using those external APIs. And so some of the progress we've made around being able to supply external API credentials via secret stores like Vault, and injecting those into the file system of our providers, and that sort of thing, as well as some of the proposals around how we publish connection details to that infrastructure that comes up - it's always really exciting when you go from one conference to the next iteration of it, and you have some solutions for the folks that had questions about that the previous time, or you at least have something where you have a design for what it's gonna look like... So those kind of topic areas around security, and credentials and that sort of thing was something that really stuck out to me in the questions that we got.
+**Jared Watts:** \[27:33\] Yeah, absolutely. Like you said, there were a lot of really great questions. The ones that really stuck out to me... And this is something that's kind of been a point of interest for folks throughout all of Crossplane's lifecycle - that's handling of sensitive data. So with Crossplane we have two major sources of sensitive data, one of them being credentials to talk to cloud providers or external APIs, and the other one being credentials to communicate with the infrastructure that you're provisioning using those external APIs. And so some of the progress we've made around being able to supply external API credentials via secret stores like Vault, and injecting those into the file system of our providers, and that sort of thing, as well as some of the proposals around how we publish connection details to that infrastructure that comes up - it's always really exciting when you go from one conference to the next iteration of it, and you have some solutions for the folks that had questions about that the previous time, or you at least have something where you have a design for what it's gonna look like... So those kind of topic areas around security, and credentials and that sort of thing was something that really stuck out to me in the questions that we got.
 
 **Dan Mangum:** There was also a question that really stuck out in my mind, and now it just popped back in... Somebody asked "I can just go into the GCP console and in the UI and create infrastructure. Why do I need Crossplane at all?"
 
@@ -190,7 +190,7 @@ I had one run out to Dodger Stadium earlier this week, and that was pretty nice,
 
 **Dan Mangum:** Yup. They announced yesterday -- KubeCon EU I believe is in Valencia, and KubeCon North America is gonna be in Detroit, which is... I'm pumped about it, coming to the Midwest. I think that's kind of exciting, because we sometimes miss out on some events in the Midwest.
 
-**Gerhard Lazu:** \[00:32:10.07\] I see, okay. No surfing there, I'm imagining, in Detroit, being in the Midwest...
+**Gerhard Lazu:** \[32:10\] I see, okay. No surfing there, I'm imagining, in Detroit, being in the Midwest...
 
 **Dan Mangum:** I don't think so...
 
@@ -226,7 +226,7 @@ I absolutely love talking to folks who don't know anything about Crossplane and 
 
 **Jared Watts:** Yeah, exactly. We started the process to apply for incubation probably March of this year, so it was about nine months or so that we started getting serious and putting the proposal out there, and then the process itself took about six months.
 
-**Gerhard Lazu:** \[00:36:06.20\] Yeah. I think that in my mind explains a lot about the level of busyness that I've seen, and the level of activity... Because even before then, I can imagine this must be a really thorough process, as you mentioned, for a good reason... And it's great to see this journey that you're on. I mean, 2019, as you mentioned, not even part of the CNCF, but you were there... Almost like, "Oh yes, that was there, and I wanted to use it since then." I'm finally using Crossplane, and I love what I see there, so I have so many questions... And I'm sure that many more people will have many more questions.
+**Gerhard Lazu:** \[36:06\] Yeah. I think that in my mind explains a lot about the level of busyness that I've seen, and the level of activity... Because even before then, I can imagine this must be a really thorough process, as you mentioned, for a good reason... And it's great to see this journey that you're on. I mean, 2019, as you mentioned, not even part of the CNCF, but you were there... Almost like, "Oh yes, that was there, and I wanted to use it since then." I'm finally using Crossplane, and I love what I see there, so I have so many questions... And I'm sure that many more people will have many more questions.
 
 Which is the best way of, first of all, finding out about Crossplane, starting to use it, and then once you get a bit more intermediate in the Crossplane usage, what do you do next? What does that trajectory look like in your mind, Dan?
 
@@ -244,7 +244,7 @@ So I think that is one important thing for people listening to this, to try and 
 
 One thing which I would like to say is that the GCP provider - there was a very recent version, I think 0.18 or 0.19, I can't remember exactly... That upgrade was very interesting, and I think that those things will become -- when you deprecated the GKE Cluster for the cluster, so there was like an export to be made, and then a re-import to be made... That was a fairly involved process. So I'm wondering, going forward, is that something that you're thinking about, Jared, in terms of how to make it smoother for users? Because if people will keep spending a lot of time on figuring that out or even performing it... To be honest, what I've done - I just didn't bother with the upgrade. I deleted all the clusters, removed, re-installed, because it was too involved. I tried it, but at step number five or six I said "Hm... This is just too much work." So I'm wondering how you're thinking about the continued usage and the upgrades going forward, so that users - their lives are easier.
 
-**Jared Watts:** \[00:40:11.23\] Yeah, that's a really good question. There's a couple of thoughts that come to mind. First is that there was a lot of thought put into that. It wasn't an easy decision of "Oh, hey, let's just make this change here and roll that out." Dan drove that effort to begin with, so he made a proposal about it, explained it very thoroughly, and gave the entire community a sense of what the situation is, with GCP having kind of a beta API that some people may wanna depend on, and then a stable API which other people may wanna depend on... So kind of supporting two different APIs from the cloud provider itself, with different varying levels of guarantees around breaking changes and things like that...
+**Jared Watts:** \[40:11\] Yeah, that's a really good question. There's a couple of thoughts that come to mind. First is that there was a lot of thought put into that. It wasn't an easy decision of "Oh, hey, let's just make this change here and roll that out." Dan drove that effort to begin with, so he made a proposal about it, explained it very thoroughly, and gave the entire community a sense of what the situation is, with GCP having kind of a beta API that some people may wanna depend on, and then a stable API which other people may wanna depend on... So kind of supporting two different APIs from the cloud provider itself, with different varying levels of guarantees around breaking changes and things like that...
 
 So Dan did a really good job laying all that out, putting it out to the community, and then spending a couple of months actually with getting feedback and kind of understanding it. So that was a good thing there. And then Hassan did a really good job of writing up a migration guide.
 
@@ -260,7 +260,7 @@ So as we are about to wrap this up, anything coming in the next six months that 
 
 **Dan Mangum:** So I'll talk a little bit about some of the future things that we have planned for Crossplane. And some of this -- you know, Crossplane, as we all know here, is a CNCF project, so when I talk about what I want to see in Crossplane, that doesn't necessarily mean it's gonna happen... It's my personal desire for what happens, and my contribution to the roadmap as a maintainer. So we'll see how other maintainers and other community members feel about my proposals.
 
-\[00:43:56.10\] One of the things that I am really interested in is our provider deployment model. Right now, the way provider packages work is it's essentially a stream of YAML, which is a bunch of different CRDs, and then it's a reference to an image that lives on a registry somewhere, or is already in your cluster, that you run, that runs the controllers for all of those different resource types that you're installing.
+\[43:56\] One of the things that I am really interested in is our provider deployment model. Right now, the way provider packages work is it's essentially a stream of YAML, which is a bunch of different CRDs, and then it's a reference to an image that lives on a registry somewhere, or is already in your cluster, that you run, that runs the controllers for all of those different resource types that you're installing.
 
 Now, the way that we actually set up that controller for you when you install a provider is we create a Kubernetes deployment, and that's the only way we do it right now. That doesn't have to be the case, right? The deployment is one way to manage your workload within a Kubernetes cluster; you could also create a Knative function, you could create something external to your Kubernetes cluster; it could be a Lambda function on AWS that had access to your Kubernetes cluster, and you can also start to think of things as more granular than our monolithic providers we have right now, where you can think of just custom logic that you need to run that's kind of the glue between your different providers.
 
@@ -280,7 +280,7 @@ And then the other one - custom compositions. The composition engine is fairly p
 
 **Gerhard Lazu:** Well, all I can say is please continue blowing my mind the way you are. There's a very special way that you blow my mind every single time I talk to you. This is amazing. Thank you very much.
 
-\[00:47:58.10\] The other thing which I'd like to say is stay cool. Crossplane is really cool. Just keep doing what you're doing, and keep reconciling. I'm enjoying KubeCon, but especially reconciling. So thank you Dan, thank you Jerod. This has been a pleasure.
+\[47:58\] The other thing which I'd like to say is stay cool. Crossplane is really cool. Just keep doing what you're doing, and keep reconciling. I'm enjoying KubeCon, but especially reconciling. So thank you Dan, thank you Jerod. This has been a pleasure.
 
 **Dan Mangum:** Awesome.
 
@@ -288,7 +288,7 @@ And then the other one - custom compositions. The composition engine is fairly p
 
 **Dan Mangum:** Absolutely.
 
-**Break:** \[00:48:14.04\]
+**Break:** \[48:14\]
 
 **Gerhard Lazu:** So I know, David, that this is your first KubeCon, and I am very curious to hear what was it was like for you.
 
@@ -310,7 +310,7 @@ And then the other one - custom compositions. The composition engine is fairly p
 
 **David Ansari:** It was a lot of fun, and the experience was very good from start to end. I first applied (I think) a few months ago, directly after KubeCon Europe. I was actually listening to Ship It episode 2, where some tips were given on how to submit an abstract... So I submitted my abstract I think just two days after the episode came out, and it worked. I was lucky. And from then on, the communication went very well.
 
-\[00:51:53.22\] There was very good content being given to the speakers on how to prepare, with checklists and deadlines, and the communication was very good from start to end. Especially Cody - he was answering very quickly, so that was nice. I pre-recorded the talk and I submitted it one month before the conference; that was the beginning of September. Then after I was very relaxed, because once I submitted the talk, I knew nothing can go really wrong. So I would just be there, the talk would play, and then I'd jump in for the Q&A... So it was a very relaxed and nice experience overall.
+\[51:53\] There was very good content being given to the speakers on how to prepare, with checklists and deadlines, and the communication was very good from start to end. Especially Cody - he was answering very quickly, so that was nice. I pre-recorded the talk and I submitted it one month before the conference; that was the beginning of September. Then after I was very relaxed, because once I submitted the talk, I knew nothing can go really wrong. So I would just be there, the talk would play, and then I'd jump in for the Q&A... So it was a very relaxed and nice experience overall.
 
 **Gerhard Lazu:** I attended the talk, I have to say, and I really enjoyed it, especially how quickly you're answering questions... And I think there is something very unique about pre-recorded talks. Maybe the interaction isn't -- obviously, it's not the way you would interact if you were giving it in-person and you had a connection with the audience, because... Well, you're not there and you can't see the audience... So in that case, I think a pre-recorded talk makes sense. But the highlight of that is that you can answer questions as they come in. And it was great to see you answering some of those questions. I mean, some of them were tough ones, and not only was the talk really polished, by the way, because you could take your time to record, and re-record, and get it just right... Your video editing skills are really good, by the way. I know that you've edited it yourself, and it was great. I really genuinely enjoyed watching it. So from my perspective as a viewer, it was great.
 
@@ -336,7 +336,7 @@ And you even see how advanced your users are... I was a bit surprised, because p
 
 **David Ansari:** \[laughs\] I'm curious now... Do you hold it for the end? \[laughter\]
 
-**Gerhard Lazu:** \[00:56:09.15\] No, I mean - there's two rules, and you only say one, right? Like, don't give out all the information; that's it. \[laughs\]
+**Gerhard Lazu:** \[56:09\] No, I mean - there's two rules, and you only say one, right? Like, don't give out all the information; that's it. \[laughs\]
 
 **David Ansari:** Okay, now I get it. Now I get it.
 
