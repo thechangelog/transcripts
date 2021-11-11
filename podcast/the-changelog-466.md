@@ -94,7 +94,7 @@ I have no hard feelings when I see a reaction like that. I'm like, "Yeah, I get 
 
 **$STDOUT:** It's also something I've wondered about, because you would assume that anything with a 99% positive reaction would just keep getting shared, and be bigger. I totally agree. I think one aspect for sure could just be like a lot of people don't like rap. That's one thing. That's really all... Yeah, I don't know.
 
-**Jerod Santo:** That's \[unintelligible 00:25:51.08\] Well, how about this - perhaps it's the intersection that's small. So a lot of people like rap, a lot of people program, but not a lot of programmers like rap, maybe.
+**Jerod Santo:** That's your only take? Well, how about this - perhaps it's the intersection that's small. So a lot of people like rap, a lot of people program, but not a lot of programmers like rap, maybe.
 
 **$STDOUT:** That is probably true. This is definitely a very niche thing I'm doing. If I could just, out of all the developers I know, count how many also are like bumping rap on a weekly basis, I can think of like two... So yeah, that might be it. But my hope is that the content is good enough that this could be somebody who historically hasn't liked rap, this could be their gateway artist into rap. \[$STDOUT song 00:26:36.09\]
 
