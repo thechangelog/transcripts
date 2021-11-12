@@ -496,7 +496,8 @@ I'm a long-time huge fan of SVGs, but they do have this pain point of like it's 
 
 I remember when I first discovered about local storage, and there's IndexedDB in the browser... It is kind of amazing to see that... But yeah. So I learned that. That's what I TIL-ed today, was that you can use fingerprint auth in your JavaScript.
 
-**Nick Nisi:** That is awesome. You can access sensors as well on the device... GPS coordinates I guess have been around a while... But also things like the battery. So maybe don't do some things; turn off animations if the user's battery is low, or something. Be a nice citizen for them. It's a good one.
+**Nick Nisi:** That is awesome.
+**Mat Ryer:** You can access sensors as well on the device... GPS coordinates I guess have been around a while... But also things like the battery. So maybe don't do some things; turn off animations if the user's battery is low, or something. Be a nice citizen for them. It's a good one.
 
 **Jerod Santo:** Absolutely.
 
