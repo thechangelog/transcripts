@@ -114,9 +114,9 @@ But yeah, I think the underpinnings - it's a good question. It is different than
 
 **Jerod Santo:** Right. \[laughs\]
 
-**Adam Stacoviak:** Like the ll command, for example, which is a common thing you do when you go into a directory... You wanna list the contents. Well, in Jerod's case - what did you do, Jerod? You changed your CD command to automatically --
+**Adam Stacoviak:** Like the ll command, for example, which is a common thing you do when you go into a directory... You wanna list the contents. Well, in Jerod's case - what did you do, Jerod? You changed your `cd` command to automatically --
 
-**Jerod Santo:** I overwrote my CD command to automatically do that, as well as do some other funky things that can bite people. But my ll is just my own Bash alias that's doing the same thing that Adam is doing, only I don't think he wrote his. I think his just came, \[unintelligible 00:21:49.15\]
+**Jerod Santo:** I overwrote my `cd` command to automatically do that, as well as do some other funky things that can bite people. But my ll is just my own Bash alias that's doing the same thing that Adam is doing, only I don't think he wrote his. I think his just came, written.
 
 **Adam Stacoviak:** I didn't write mine at all. It was the batteries that were included with Oh My Zsh.
 
