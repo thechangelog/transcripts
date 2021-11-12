@@ -28,7 +28,7 @@ And the original survey, quite interestingly, was two different surveys. They us
 
 **Alice Merrick:** Yeah...
 
-**Kris Brandow:** \[00:08:02.28\] I've only taken the survey for the last couple of years and I thought I'd just missed it in years before, but it sounds like it kind of like wasn't even what it is in its current incarnation back then.
+**Kris Brandow:** \[08:02\] I've only taken the survey for the last couple of years and I thought I'd just missed it in years before, but it sounds like it kind of like wasn't even what it is in its current incarnation back then.
 
 **Alice Merrick:** Yeah, yeah. It's still very new. It got official in like 2016 or so, and it didn't get UXR support until 2018, or the 2019 survey maybe...?
 
@@ -48,7 +48,7 @@ So the first year was really just trying to kind of put more best practices in p
 
 **Alice Merrick:** Yeah, the next year it was a big change... I think the number of questions on the survey effectively doubled the year that I took over the survey. We had this idea of "Well, we have like 10,000 respondents or so... We don't actually need 10,000 respondents to be confident in some of these multiple-choice questions. We only need a fraction of that. So what if we only showed this question to half of the people, or 40% of the people, or something? We could ask a lot more questions and we could get a lot more bang for our buck here. And it wouldn't make the survey longer for any one person. We would just kind of randomly select what blocks they saw." We had the questions organized into blocks; the number of questions basically doubled. It was really just kind of an exercise in finding "How many questions can one research or reasonably analyze, given an amount of time?" And I think we've found it.
 
-\[00:12:00.10\] We definitely asked a lot of questions, we got a lot of data, and that was a huge format change for us, just with the amount of things that we could ask. And we asked just -- if you could think of it, we basically asked that question, without too much worrying about "How are we gonna use this?" It was kind of like "Well, we wanna know this. We wanna know this."
+\[12:00\] We definitely asked a lot of questions, we got a lot of data, and that was a huge format change for us, just with the amount of things that we could ask. And we asked just -- if you could think of it, we basically asked that question, without too much worrying about "How are we gonna use this?" It was kind of like "Well, we wanna know this. We wanna know this."
 
 Of course, this year is my second year doing it; I learned a thing or two. You definitely wanna have a little bit more focus in the kinds of questions that we're asking, and we wanna make sure we're making the most use out of a researcher's time in terms of analysis. So we've sort of trimmed it down a little bit this year.
 
@@ -64,7 +64,7 @@ Another big one - and Alice really alluded to this earlier... The very swift ado
 
 **Alice Merrick:** I mean, I'm always surprised by just how much love there is for Go, to be honest... I used to work on Gerrit, so maybe that sort of colors my current perception... And also the fact that our sample - these are people who are following the Go blog, or looking specifically for Go things. So it does sort of skew in that direction. But the satisfaction is higher than I'm used to seeing on some kinds of developer tools. So it seems like there at least are some happy individuals who are happy to tell me about it more so than I've seen in other products.
 
-**Todd Kulesza:** \[00:16:17.22\] That's a really good point. I had a similar reaction the first time I worked on the survey - just how many people respond to it... And they do so out of the goal of making a better programming language, a better environment for the whole community. We have a lot of colleagues that when they run surveys, they have to really keep pushing people to respond to a survey, and I feel like we get this wealth of really rich, useful data simply by posting a blog about it, and the community is very responsive. And that's just been a wonderful thing to see.
+**Todd Kulesza:** \[16:17\] That's a really good point. I had a similar reaction the first time I worked on the survey - just how many people respond to it... And they do so out of the goal of making a better programming language, a better environment for the whole community. We have a lot of colleagues that when they run surveys, they have to really keep pushing people to respond to a survey, and I feel like we get this wealth of really rich, useful data simply by posting a blog about it, and the community is very responsive. And that's just been a wonderful thing to see.
 
 **Alice Merrick:** Yeah.
 
@@ -82,11 +82,11 @@ So there's some things that have changed in a little bit more subtler ways to ki
 
 **Todd Kulesza:** To add on to that, one thing that has changed on a lot of questions - or maybe this is more about our process in terms of how the survey evolves... When we don't have a great sense of what the community's response to a question is going to be, we tend to leave it pretty open-ended... And so those questions can be really hard to analyze. Sometimes you'll get people that don't provide a lot of context there, or we're trying to infer too much from what they tell us, and we have to read through every response and try to take some meaning out of that... And we do that by basically going through in a huge spreadsheet and trying to assign categories or tags to each piece of feedback, and looking for patterns in the way that those categories or tags build up... And then the next year what we might do is take all of those categories that we identified, all of the themes in those open-ended responses, and create a question that is multiple-choice. And say "Now select all of the ones that you identify with", to try to kind of work backwards from the data that we collected one year, and create an easier form of that question to answer; something that takes less cognition on the part of the respondent to actually fill that out, and is easier for us to analyze.
 
-\[00:20:25.20\] But sometimes that doesn't work that well... And to Alice's point, we definitely saw that with the things that were blocking Go adoption. In working backwards, we ended up with a list that sort of -- it had a whole lot of holes in it. It didn't cover a lot of situations that we suddenly realized "Oh, these should be in here", and so questions continued to evolve over the last couple of years.
+\[20:25\] But sometimes that doesn't work that well... And to Alice's point, we definitely saw that with the things that were blocking Go adoption. In working backwards, we ended up with a list that sort of -- it had a whole lot of holes in it. It didn't cover a lot of situations that we suddenly realized "Oh, these should be in here", and so questions continued to evolve over the last couple of years.
 
 **Alice Merrick:** Yeah... You can look through the various years and see how it's changed over time... And sometimes the changes are very subtle. Every time we do this, I feel like I learned something new. I learned "Okay, next time let's do this instead. Let's ask it like this instead." And it's an iterative process. It's just like software development. You're not necessarily gonna get it right the first time. It's important to have that constant improvement, I think, on what we're asking, how we're asking it, is it still useful... Every year when I'm doing this, I start with what we asked last year, and I have to say "Okay, what do we still need? What should we throw away? What should we change?"
 
-**Break:** \[00:21:36.23\] to \[00:23:03.12\]
+**Break:** \[21:36\] to \[23:03\]
 
 **Natalie Pistunovich:** A few episodes ago, to celebrate episode \#200, we had also a sort of a survey to the listeners, and asked all sorts of questions, and it was definitely one question that sounds similar to that... It was phrased something like "What is a keyboard shortcut abbreviation that you're using?" And the game was that -- so we asked this question ahead, and then a few hundred people answered, maybe one hundred... And there were two teams of panelists trying to guess the answers. And when this question came, all the panelists were like "What does this mean? Give me one example. What is this question? I don't know..." \[laughter\] I think, Kris, actually, you got one of the answers right, and you said -- was it like LOL, or AFK, or one of those...?
 
@@ -96,7 +96,7 @@ So there's some things that have changed in a little bit more subtler ways to ki
 
 **Todd Kulesza:** That's a really good point, too... Alice can speak to this in more detail, but one of the things that we typically do is pilot the survey each year, or pilot-test it with a couple of people just to get a sense of "Do these questions make sense? Is there something confusing here?" and see how they would respond to those, and whether those responses turn out to be something that we could then parse, and would be useful to our analysis.
 
-**Alice Merrick:** \[00:24:12.06\] Yeah... Part of the Go team, what we ask them to do is go through it and give us any feedback on wording, what makes sense, what doesn't... This year we also had a trusted tester from the community go through and be like "Okay, is the question that I'm asking the thing that is understood by the other person?" and getting feedback on that. That was super-useful. I would love to just keep doing that on future iterations of this survey, because it's so valuable.
+**Alice Merrick:** \[24:12\] Yeah... Part of the Go team, what we ask them to do is go through it and give us any feedback on wording, what makes sense, what doesn't... This year we also had a trusted tester from the community go through and be like "Okay, is the question that I'm asking the thing that is understood by the other person?" and getting feedback on that. That was super-useful. I would love to just keep doing that on future iterations of this survey, because it's so valuable.
 
 I mean, I'm not a Go developer. I'm in the community, but I'm not having to use Go every day, and so what somebody else understands and what my understanding of -- there may be some mismatch there, and it's so useful to get that other perspective.
 
@@ -116,7 +116,7 @@ I mean, I'm not a Go developer. I'm in the community, but I'm not having to use 
 
 **Todd Kulesza:** That's a really good question. To kind of answer it in two parts... First, the number of responses we get to the Go survey are huge. And if it was randomly sampled, we would have very high confidence, based on a sample of, say, 10,000 people responding. That's much larger than what you would typically get for a survey like this. So that gives us a lot of power and a lot of confidence that the responses generalize.
 
-\[00:28:09.28\] The problem we run into, as you pointed out - it's not randomly sampled. And one of the things that we're doing this year to try to get around that is introducing a prompt in our VS Code exception to randomly ask developers who are working with Go to take the survey that way, on the idea that we are never entirely certain that people finding the survey link from the blog, or from -- you know, it'll probably get posted or shared on Reddit, on Twitter, Hacker News, all of these different sites... We don't know the audience of people that are looking at those sites, and we wanna make sure that we're being as inclusive to everyone as possible. So by prompting right in the IDE when we can, we're trying to get a more representative, random sample... So this year we're going to be able to do a comparison of the people that found the survey through the IDE, versus took it from one of the links that's posted on, say, the Go blog, to see if there are substantial differences between those groups.
+\[28:09\] The problem we run into, as you pointed out - it's not randomly sampled. And one of the things that we're doing this year to try to get around that is introducing a prompt in our VS Code exception to randomly ask developers who are working with Go to take the survey that way, on the idea that we are never entirely certain that people finding the survey link from the blog, or from -- you know, it'll probably get posted or shared on Reddit, on Twitter, Hacker News, all of these different sites... We don't know the audience of people that are looking at those sites, and we wanna make sure that we're being as inclusive to everyone as possible. So by prompting right in the IDE when we can, we're trying to get a more representative, random sample... So this year we're going to be able to do a comparison of the people that found the survey through the IDE, versus took it from one of the links that's posted on, say, the Go blog, to see if there are substantial differences between those groups.
 
 **Alice Merrick:** Yeah. I guess I could talk more about that. In terms of representativeness, this is just one signal that we use. So this is not like everybody's voting for what happens next in Go. This is one signal we use. It's funny, when you asked about surprises... You know, a lot of times, if we're doing our jobs right, there shouldn't be surprises, because we're doing other research as well, and sometimes we are using the survey to sort of get a quantitative measure for something that we already found through other kinds of research or other surveys, and this is a way to triangulate a hypothesis we're already confident in... And also, in terms of representativeness, it's also -- it's a sliding scale, really. It's probably more representative than something like the population of people who file bug reports... Or at least it's a different sample.
 
@@ -132,7 +132,7 @@ So in terms of representativeness - obviously, not perfect; always trying to get
 
 **Todd Kulesza:** It's a really good question. And to kind of dive into that a little bit more... Alice was just talking about this - the idea that if we see an interesting signal in a set of developer interviews that we're doing, or a usability study on some other part of the Go ecosystem, if we see something surprising there, we'll try to validate it at a wider scale on the annual survey. So it may not be something that we're thinking of as a surprise anymore, because we've already been surprised, and that's why we're kind of trying to triangulate with a different data source, or we're trying to in some way validate this hypothesis that we've formed... It's relatively rare, I think in surveys in general, to ask questions that you don't already have a pretty good idea what the answer is going to be.
 
-\[00:32:01.26\] You're looking to validate the hypothesis that you've formed doing other forms of research, and you're looking to see changes in a community over time; you know, trends changing over time, the types of things people are building, and things like that. And we also have a number of just health metrics really in the survey, that we wanna track over time... Does that answer your question?
+\[32:01\] You're looking to validate the hypothesis that you've formed doing other forms of research, and you're looking to see changes in a community over time; you know, trends changing over time, the types of things people are building, and things like that. And we also have a number of just health metrics really in the survey, that we wanna track over time... Does that answer your question?
 
 **Natalie Pistunovich:** Yeah, definitely. That also makes a lot of sense.
 
@@ -154,7 +154,7 @@ And so trying to scope that down has been a big effort for this year, because th
 
 **Alice Merrick:** Yeah. One thing I'd like to do this year in the analysis phase is actually incorporate more of the team into that process, to get familiar with and/or contribute to the codebook that we are using to classify responses. I feel like that could be -- I mean, useful for me to have some help, but also I think useful for the team as well, to sort of be able to internalize some of those findings...
 
-\[00:35:54.13\] You know, if they're triaging bugs, or whatever; they have some more context, other than the "Well, this is just a one-off bug." They have like, "Well, about 20% of people on the survey who answered that question were talking about this", so now I have that additional context. So I would love to get more of the team involved this year.
+\[35:54\] You know, if they're triaging bugs, or whatever; they have some more context, other than the "Well, this is just a one-off bug." They have like, "Well, about 20% of people on the survey who answered that question were talking about this", so now I have that additional context. So I would love to get more of the team involved this year.
 
 **Todd Kulesza:** That's a really good point, yeah. It definitely helps me as well when we have the engineers that can see -- they might have a better hypothesis as to what somebody means than I might, or Alice might, as we're looking at those responses. So yeah, big +1 to that.
 
@@ -178,7 +178,7 @@ There is lots of hoops for me to jump through to make that happen, but I would l
 
 **Alice Merrick:** Well, it depends on how many people see that question. And actually, I'd have to go -- there's some questions where I think more people respond than others. I think it also depends on where it appears in the survey for them. Did they see it earlier? They might be more inclined to answer it. So I would have to go and compare the response rates for each open text question, which I have not done. A lot of times we get plenty of responses. Sometimes there's thousands.
 
-**Todd Kulesza:** \[00:39:53.22\] Yeah, I've seen up to 2,000, particularly for questions like "What is your biggest challenge using Go?" There are some critical ones the community does tend to spend some time answering... And that's like 2,000 responses out of a year when we had 11,000 respondents overall... So that's a pretty good response rate for an open text question, honestly.
+**Todd Kulesza:** \[39:53\] Yeah, I've seen up to 2,000, particularly for questions like "What is your biggest challenge using Go?" There are some critical ones the community does tend to spend some time answering... And that's like 2,000 responses out of a year when we had 11,000 respondents overall... So that's a pretty good response rate for an open text question, honestly.
 
 As you were sort of hinting at, typically, those are the questions that are gonna be least likely to be answered on a survey, because they take the most cognitive effort.
 
@@ -234,7 +234,7 @@ As you were sort of hinting at, typically, those are the questions that are gonn
 
 **Todd Kulesza:** It's the latter of what you've described. This is a pilot, so we'll see what the data looks like. It's entirely possible that we'll realize there is basically no difference in the audience of people that find the survey through the blog links, versus who get prompted from the code editor.
 
-**Alice Merrick:** \[00:43:59.05\] Other than their editor of preference, probably...
+**Alice Merrick:** \[43:59\] Other than their editor of preference, probably...
 
 **Todd Kulesza:** Spot on, yes. \[laughter\] We know what we'll see there.
 
@@ -270,7 +270,7 @@ As you were sort of hinting at, typically, those are the questions that are gonn
 
 **Alice Merrick:** Okay. Maybe a future question.
 
-**Break:** \[00:47:18.07\]
+**Break:** \[47:18\]
 
 **Kris Brandow:** You mentioned earlier too that the Go survey, this annual survey, soon to hopefully be semi-annual - is that the word?
 
@@ -304,7 +304,7 @@ But for anyone who has seen those surveys pop up on any of the Go websites or co
 
 **Alice Merrick:** Yeah. It doesn't create a tag cloud, or word cloud.
 
-**Todd Kulesza:** \[00:51:57.08\] We did try a machine learning approach, and it did not work well... So yeah, it's all human analyzed.
+**Todd Kulesza:** \[51:57\] We did try a machine learning approach, and it did not work well... So yeah, it's all human analyzed.
 
 **Alice Merrick:** Aside from the surveys, we do run other kinds of research. And Todd, you will know more about this. Is there a way that people can sign up specifically for our developer surveys?
 
@@ -328,7 +328,7 @@ But for anyone who has seen those surveys pop up on any of the Go websites or co
 
 **Kris Brandow:** Vacation is super, super-important. Alright. And with that, we'll go into our final segment of the show...
 
-**Jingle:** \[00:54:08.26\] to \[00:54:27.07\]
+**Jingle:** \[54:08\] to \[54:27\]
 
 **Kris Brandow:** Alright... So if you don't know how this works, this is just a segment where you get to voice an opinion you think is unpopular. It does not have to be related to Go, or tech; it can just be anything. And then we're gonna throw them up on Twitter and see if they actually are unpopular or not. And if it's not unpopular, you have to come back and give another one until you actually get one that's unpopular.
 
@@ -350,7 +350,7 @@ Now, I'm saying this having not used any of these computers, and I know they're 
 
 **Kris Brandow:** You can also give more than one if you'd like. It doesn't have to be a single unpopular opinion. It could be multiple unpopular opinions.
 
-**Alice Merrick:** \[00:56:16.12\] Because I could just say something outrageous that nobody's gonna agree with, or I could get on a soapbox and preach about something I believe in... I'm gonna go with something that I think is probably unpopular, and it's not work-related, so I'm off the hook there... I'm gonna say that Snow Crash by Neal Stephenson is a terrible novel.
+**Alice Merrick:** \[56:16\] Because I could just say something outrageous that nobody's gonna agree with, or I could get on a soapbox and preach about something I believe in... I'm gonna go with something that I think is probably unpopular, and it's not work-related, so I'm off the hook there... I'm gonna say that Snow Crash by Neal Stephenson is a terrible novel.
 
 **Natalie Pistunovich:** I don't know that one.
 
