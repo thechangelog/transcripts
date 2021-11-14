@@ -19,7 +19,13 @@ async function main(globPattern = '**/*.md') {
 
     // console.log(JSON.stringify(shows, null, 2))
 
-    let result = "This issue lists all of the unintelligibles in the transcripts.\n\nIt's automatically updated using a GitHub Action.\n\n"
+    let result = `---
+title: Fix unintelligibles
+labels: "help wanted", hacktoberfest
+---
+`
+
+    result += "This issue lists all of the unintelligibles in the transcripts.\n\nIt's automatically updated using a GitHub Action.\n\n"
 
     result += shows.map(show => {
         return [`## ${show.show}`, `<details><summary>${show.numUnintelligibles} unintelligibles in ${show.episodes.length} episodes</summary>`, renderEpisodes(show.episodes), '</details>' ].join('\n')
