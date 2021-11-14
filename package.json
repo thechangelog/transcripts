@@ -4,7 +4,7 @@
   "scripts": {
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
-    "format:test": "jest",
+    "test": "jest",
     "format": "node scripts/format.js",
     "commitMessage": "node scripts/commitMessage.js"
   },
