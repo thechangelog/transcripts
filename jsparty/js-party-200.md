@@ -14,7 +14,7 @@ As an extra bonus though, I have to give a shout-out to the music underneath and
 
 Here's a track we use... It's called Zegend of Lelda. Anybody who's familiar with the Zelda franchise will immediately spot the influence.
 
-**Zelda track:** \[00:04:22.08\] to \[00:04:42.03\]
+**Zelda track:** \[04:22\] to \[04:42\]
 
 **Jerod Santo:** I am also with you on your episode selection. Our interview with Eric Normand on functional programming is definitely a highlight from our catalog. Here is a great moment from that episode. It's Eric Normand describing functional programming and how to think functionally in a language that developers can easily understand.
 
@@ -40,7 +40,7 @@ And so making this distinction between actions that depend on time - because the
 
 **Eric Normand:** And you don’t show credibility by just talking about basics. You have to use the jargon and show that you’re one of the club, and you understand this, you’ve earned your Ph.D. by learning all these obscure terms. So that’s a shame for the rest of the industry, for the non-academic side, that we don’t have a lot of good literature that has taken the time to like “Let me just shed all that academic stuff, and start over, and talk like real people, without all the jargon.”
 
-**Jerod Santo:** \[00:08:05.14\] That clip is just the beginning of a truly great conversation. Even Kball and I, who have been exposed to epic concepts for many years, had some a-ha moments during it. If you want to hear more, it's episode 163. It's called "JS is an occasionally functional language."
+**Jerod Santo:** \[08:05\] That clip is just the beginning of a truly great conversation. Even Kball and I, who have been exposed to epic concepts for many years, had some a-ha moments during it. If you want to hear more, it's episode 163. It's called "JS is an occasionally functional language."
 
 Okay, up next we have a message from listener \[unintelligible 00:08:25.15\] who says:
 
@@ -116,7 +116,7 @@ Well, Heady, as the now permanent host of JS Danger, I choose not to be offended
 
 **Kevin Ball:** It's a conceptual model... Interesting. Huh.
 
-**Jake Dohm:** \[00:12:08.20\] Doo-doo-doo-doo...
+**Jake Dohm:** \[12:08\] Doo-doo-doo-doo...
 
 **Kevin Ball:** Yeah, I know...
 
@@ -194,7 +194,7 @@ Up next, special guest Scott Tolinski wagered 100% of his points, so 1,400 point
 
 **Jerod Santo:** His answer, "What is CouchDB?" \[fail sound\] was a valiant guess. And so he ends up his game at zero, or -2,800, depending on how you do math... But way better than negative infinity... Which means Nick Nisi, who wagered 2,700 - is this all your points, Nick?
 
-**Nick Nisi:** \[00:16:12.05\] It is. I should have done one less.
+**Nick Nisi:** \[16:12\] It is. I should have done one less.
 
 **Jerod Santo:** ...answered "What is Firebase." \[fail sound\] Answer fail, and wager fail, because you could have left money on the table and gotten first place, but now you've tied with Scott, in the most ridiculous game of JS Danger in human history.
 
@@ -210,7 +210,7 @@ The correct answer, of course - Scott was off literally by one letter... The cor
 
 **Jerod Santo:** We hope you enjoyed it. We had a lot of fun for this edition of JS Danger game. Remember, here at JS Party, Danger is our middle name.
 
-**Break:** \[00:17:12.14\]
+**Break:** \[17:12\]
 
 **Kevin Ball:** Hey there. This is Kball, and my absolute favorite moment in the past hundred episodes of JS Party was during an Explain It Like I'm Five segment. I had just gone and done what I thought was a pretty good job of Explaining Web Assembly Like I'm Five, and Nick Nisi busts out this amazing five-minute-long story where he was mapping React hooks to the stories of Moana, and mixing in a little bit of Coco and these other animated films... And he just did this incredible job, and completely blew my explanation out of the water... But also, our jaws were on the floor listening to him. Definitely worth a listen through the entire thing.
 
@@ -234,7 +234,7 @@ Now, the chief developer learned the class-based way of her people, and she was 
 
 **Jerod Santo:** You might get us banned.
 
-**Nick Nisi:** \[00:20:03.16\] Yeah. \[laughs\] So she thought of the class-based approach to what they were doing was just too verbose, and she constantly pushed for a new way of doing things, but she was shut down because classes are the way of her people, of her development team.
+**Nick Nisi:** \[20:03\] Yeah. \[laughs\] So she thought of the class-based approach to what they were doing was just too verbose, and she constantly pushed for a new way of doing things, but she was shut down because classes are the way of her people, of her development team.
 
 **Kevin Ball:** And did she know the way?
 
@@ -278,7 +278,7 @@ Now, Monad continued to explain the basics of useState, useMemo, and useEffect t
 
 **Nick Nisi:** Almost...
 
-**Jerod Santo:** \[00:24:06.16\] Okay... Because you stopped like you're waiting for an applause. I feel like we're not quite there yet. Please, continue.
+**Jerod Santo:** \[24:06\] Okay... Because you stopped like you're waiting for an applause. I feel like we're not quite there yet. Please, continue.
 
 **Nick Nisi:** \[laughs\] So Monad’s custom hook could be used to recall the existing application’s state, but it could also be used to have an effect on the world around it, because it could use effects. And he could also listen to the ocean, mouse clicks, page scrolls and other things, and he could establish a plan for when his component was cleaned up or removed, and he could talk to the all-knowing cloud by using fetch.
 
@@ -300,7 +300,7 @@ Anyway, I didn’t have a huge problem with jumping into Hooks, but I know a lot
 
 **Emma Bostian:** Yeah.
 
-**Kent C. Dodds:** \[00:28:02.02\] And then I’ve got a couple of things about testing… And state management is another thing that people struggle with quite a bit… And then useEffect and useLayoutEffect are pretty big ones, too. So I would say that there are definitely hard parts about learning React, and it’s very possible that it’s harder to learn React than it is to learn other frameworks… But I just come back again to - I feel like React is simple, and it’s easier to build a simple application with a simple framework than it is to build a simple application with a complicated one.
+**Kent C. Dodds:** \[28:02\] And then I’ve got a couple of things about testing… And state management is another thing that people struggle with quite a bit… And then useEffect and useLayoutEffect are pretty big ones, too. So I would say that there are definitely hard parts about learning React, and it’s very possible that it’s harder to learn React than it is to learn other frameworks… But I just come back again to - I feel like React is simple, and it’s easier to build a simple application with a simple framework than it is to build a simple application with a complicated one.
 
 **Nick Nisi:** As a side note, I think I probably make up 50% of the traffic on your “Common mistakes with React Testing Library.” \[laughter\] I think I link to that in almost every pull request that I’m doing.
 
@@ -332,7 +332,7 @@ To honor JS Party continuing to rock even during Covid restrictions, here's Suz 
 
 **Suz Hinton:** I’m a bookworm, so I have three books to recommend. The first one is Cal Newport’s Deep Work, which I mentioned before… And the next one is Jenny Odell’s “How To Do Nothing.” Jenny Odell is one of my favorite speakers. She speaks at I/O Festival over the last few years, and she’s an artist and she talks about the fact that the new hustle culture and things like that - it’s just constantly tearing at our personal time, our personal space, our mental well-being… And I think that right now I’m seeing a lot of that chatter on Twitter. It’s like “This is time for your side-project now that you’re quarantined”, and “This is the time to do this and that”, and just not allowing people to ever take a break, because things are crappy. So I think that this book is particularly relevant. It’s very popular and it has really great reviews.
 
-\[00:32:15.24\] And then also Contact, by Carl Sagan. I’m seeing a lot of parallels in this book, compared to what we’re seeing now… So yes, it’s a science-fiction book, and it has nothing to do with a virus worldwide, but it has to do with worldwide cooperation, the breakdown of barriers between science and religion, as well as just watching different nations try to own different solutions.
+\[32:15\] And then also Contact, by Carl Sagan. I’m seeing a lot of parallels in this book, compared to what we’re seeing now… So yes, it’s a science-fiction book, and it has nothing to do with a virus worldwide, but it has to do with worldwide cooperation, the breakdown of barriers between science and religion, as well as just watching different nations try to own different solutions.
 
 I think that there are just so many themes that we’re seeing, and I think that Carl Sagan kind of thinks about this stuff the right way, and you might actually find it quite comforting to imagine ideologically what would be the greatest way that we could deal with this kind of thing right now.
 
@@ -392,7 +392,7 @@ I remember when I first discovered about local storage, and there’s IndexedDB 
 
 **Mat Ryer:** See what I mean? I'm nervous now. \[laughter\] I don't wanna upset the king.
 
-**Jerod Santo:** \[00:36:04.21\] Logan isn't the only one who liked this episode. Take it away, Kball...
+**Jerod Santo:** \[36:04\] Logan isn't the only one who liked this episode. Take it away, Kball...
 
 **Kevin Ball:** Hey, Kball here. Another one of my favorite moments from this last hundred episodes was when we had Mat Ryer from Go Time on as a guest for a segments episode... And Jerod just springs on him "Hey, we need a jingle for this next segment. Can you make one up?" And he kind of looked at him for a second, and then just busted out this incredible tune for Story of the Week. I wish I had those types of skills...
 
@@ -426,7 +426,7 @@ I remember when I first discovered about local storage, and there’s IndexedDB 
 
 **Mat Ryer:** This does feel increasingly like an ambush.
 
-**Break:** \[00:38:12.09\]
+**Break:** \[38:12\]
 
 **Amal Hussein:** So what I absolutely love about JS Party is how much fun we have on the show, and just all of the goofball moments that are interspersed between technical facts. So my favorite shows have been my intro show, where I got to talk a little bit about my background... And I never really thought the word "pirates" would come up in a JavaScript podcast, but I was wrong.
 
@@ -484,7 +484,7 @@ I remember when I first discovered about local storage, and there’s IndexedDB 
 
 Well, enough said... Thank you so much for keeping me sane during this time of uncertainty, and keep on keeping on!"
 
-\[00:44:23.26\] Thank you for the kind words, Chris. We appreciate having you with us. Here is a clip from that CSS Tricks edition of JS Danger. One thing we've learned with that game is that a key to winning is not stealing unless you're sure you know the answer. I advise contestants about this, but few heed the advice. In this clip I thought Geoff Graham was about to do himself in, but...
+\[44:23\] Thank you for the kind words, Chris. We appreciate having you with us. Here is a clip from that CSS Tricks edition of JS Danger. One thing we've learned with that game is that a key to winning is not stealing unless you're sure you know the answer. I advise contestants about this, but few heed the advice. In this clip I thought Geoff Graham was about to do himself in, but...
 
 **Chris Coyier:** Framewords for 1,000.
 
@@ -564,7 +564,7 @@ That is very cool, Scott. Thanks for letting us know that. Happy to hear that yo
 
 **Amelia Wattenberger:** It’s just like, this isn’t – I don’t want to. You hate when you ask someone to do something and they lie about like “Oh, no, I can’t do that, because I’m not available” and you’re like “I didn’t say when…” \[laughter\] That never feels good.
 
-**Amal Hussein:** \[00:48:14.27\] Yeah…
+**Amal Hussein:** \[48:14\] Yeah…
 
 **Jerod Santo:** They’re like “I have bowling league that night” and you’re like “Yeah, I didn’t give a date yet.”
 
@@ -602,7 +602,7 @@ That is very cool, Scott. Thanks for letting us know that. Happy to hear that yo
 
 **Kevin Ball:** Hey, Kball here. One more moment from out last 100 episodes of JS Party that I wanna plug... This one starts behind the scenes. We had an episode coming up with Adam Wathan, the creator of Tailwind CSS, and I think Nick had jokingly titled the episode "The Tailwind Beneath my Wings", playing off the Bette Midler song... And I couldn't make it, but I joked in the channel, "Hey, it would be amazing if you all worked in the lyrics from the song", not expecting it to actually work. But those crazy guys - Jerod, Feross, and especially Nick Nisi carrying the show, managed to work in the entire song as part of the episode, most of it without Adam even knowing what was going on. It was just hysterical, and funny, and... Unique.
 
-**Bette Midler Song:** \[00:51:11.13\] \[Nick Nisi\] It just really must have been cold there, in the shadow... \[Jerod Santo\] To never have sunlight on your face. \[Nick Nisi\] Content to let me shine; that's your way... You're always walking a step behind. \[Feross Aboukhadijeh\] So you're really the one with all the glory. \[Nick Nisi\] You're the one with all the strength. \[Feross Aboukhadijeh\] A beautiful face without a name, for so long. \[Nick Nisi\] A beautiful smile to hide the pain. \[Jerod Santo\] Did you ever know that you're my hero...? \[Nick Nisi\] It's everything I would like it to be. \[Feross Aboukhadijeh\] I can fly higher than an eagle. \[Jerod Santo\] Thank you for putting the Tailwind beneath our wings, Adam.
+**Bette Midler Song:** \[51:11\] \[Nick Nisi\] It just really must have been cold there, in the shadow... \[Jerod Santo\] To never have sunlight on your face. \[Nick Nisi\] Content to let me shine; that's your way... You're always walking a step behind. \[Feross Aboukhadijeh\] So you're really the one with all the glory. \[Nick Nisi\] You're the one with all the strength. \[Feross Aboukhadijeh\] A beautiful face without a name, for so long. \[Nick Nisi\] A beautiful smile to hide the pain. \[Jerod Santo\] Did you ever know that you're my hero...? \[Nick Nisi\] It's everything I would like it to be. \[Feross Aboukhadijeh\] I can fly higher than an eagle. \[Jerod Santo\] Thank you for putting the Tailwind beneath our wings, Adam.
 
 **Jerod Santo:** Kball drilled it. This was our finest moment, if I do say so myself. When the show first started, only Nick and I knew about the gag, and it was so awkward keeping it a secret. Here's Nick squeezing one of the lines in early on.
 
@@ -632,7 +632,7 @@ That is very cool, Scott. Thanks for letting us know that. Happy to hear that yo
 
 **Jerod Santo:** This has been Best of the Fest vol. 1. Here's to the last 200 episodes, and to the next 200 as well. Special thanks to the many listeners, guests and panelists who contributed to Best of the Fest. You are what makes JS Party awesome. I've included links to every episode referenced in order of appearance in your show notes.
 
-**Outro:** \[00:55:19.12\]
+**Outro:** \[55:19\]
 
 **Horse JS:** Hello, JavaScript developers. I just want to take a moment...
 
