@@ -34,7 +34,7 @@
 
 **Erik St. Martin:** We're auto-tuning, everybody.
 
-**Mat Ryer:** Exactly. \[laughter\] We've also got Johnny Boursiquot here though... Hello, Johnny Boursiquot!
+**Mat Ryer:** \[4:26\] Exactly. \[laughter\] We've also got Johnny Boursiquot here though... Hello, Johnny Boursiquot!
 
 **Johnny Boursiquot:** Hello! Yes, mate, I'm here, knocking about...
 
@@ -286,7 +286,7 @@ Brian, let's start with you. What's your Twitter name, Brian?
 
 **Mat Ryer:** Yeah. Angelica, what would you say is the best HTML tag? So your divs, your spans, your p's... Which one would you go with if you had to pick one, which you definitely do?
 
-**Angelica Hill:** Probably script, just because when I was first learning software engineering I was obsessed with just shoving JavaScript in... I didn't wanna have separate files; just shove it in.
+**Angelica Hill:** \[13:35\] Probably script, just because when I was first learning software engineering I was obsessed with just shoving JavaScript in... I didn't wanna have separate files; just shove it in.
 
 **Mat Ryer:** Yeah, that's a good answer, I like that... Although it's wrong. The answer is "a", because without that, it's not--
 
@@ -2279,7 +2279,7 @@ So that's it. That comes to the end -- oh, some other interesting answers to thi
 
 **Kris Brandow:** Hm... Spicy.
 
-**Mat Ryer:** Well, we're way over time, but wasn't it worth it? Thank you so much for joining us on our special 200th episode. Two hundreDTH... Can anyone say that?
+**Mat Ryer:** \[01:15:56\] Well, we're way over time, but wasn't it worth it? Thank you so much for joining us on our special 200th episode. Two hundreDTH... Can anyone say that?
 
 **Kris Brandow:** Two hundreth?
 
