@@ -300,7 +300,7 @@ But I think the hardest part about abstractions is actually the interface for th
 
 **Johnny Boursiquot:** Here's the thing though... For something that is seemingly so quantitative, we do have a very qualitative way of measuring it. So we talk about sort of a confidence in tests, and how much is good enough... We can't come out and say "Well, it must be 100%." "Well, it could be 100%, but some of those tests are so brittle that you might as well not have 100%..." A vast array of reasons why you should, or shouldn't... But it's all very subjective.
 
-It's like, "What is the confidence level in a test?" Well, that's a very human thing, right? My confidence level might be higher than yours, so should we just get together and decide what our collective sense of confidence should be for something? If I told you my very critical to you package is 50% covered with tests, but I'm very confident in that 50%, would you put that in your mission-critical project?
+\[41:25\] It's like, "What is the confidence level in a test?" Well, that's a very human thing, right? My confidence level might be higher than yours, so should we just get together and decide what our collective sense of confidence should be for something? If I told you my very critical to you package is 50% covered with tests, but I'm very confident in that 50%, would you put that in your mission-critical project?
 
 **Mat Ryer:** Yeah, I would, because I trust you, Johnny. \[laughter\] I would die for you, Johnny. I will release anything you tell me to.
 
