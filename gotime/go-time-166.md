@@ -368,7 +368,7 @@ So to me, this proposal feels quite Go-like... But at the same time, what I don'
 
 **Daniel Martí:** Yeah. We were talking about ranging, and I said that people use channels for ranges as a sort of iterator, and I said I think channels are probably the biggest footgun in Go... And I think that's probably triggered a reaction. \[laughter\]
 
-**Mat Ryer:** It certainly did that... He's livid. What's the phrase you're using?
+**Mat Ryer:** \[50:15\] It certainly did that... He's livid. What's the phrase you're using?
 
 **Daniel Martí:** As my unpopular opinion, you mean...
 
