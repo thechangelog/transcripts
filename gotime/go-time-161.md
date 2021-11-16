@@ -1182,7 +1182,7 @@ Right, time to start... Kat. Contestant number one, Kat Zień. That's how you sa
 
 **Mat Ryer:** \[win sound\] Yes, you've stolen it. Okay. L, it's your turn for this last one... Goldy Gopher cheers alongside students at this American university.
 
-**L Körbes:** \[44:11\] I barely understand the sentence. \[laughter\]
+**L Körbes:** \[44:10\] I barely understand the sentence. \[laughter\]
 
 **Mark Bates:** I think it's a mascot. There's a mascot called Goldy Gopher.
 
