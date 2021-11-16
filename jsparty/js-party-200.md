@@ -42,7 +42,7 @@ And so making this distinction between actions that depend on time - because the
 
 **Jerod Santo:** \[08:05\] That clip is just the beginning of a truly great conversation. Even Kball and I, who have been exposed to epic concepts for many years, had some a-ha moments during it. If you want to hear more, it's episode 163. It's called "JS is an occasionally functional language."
 
-Okay, up next we have a message from listener \[unintelligible 00:08:25.15\] who says:
+Okay, up next we have a message from listener Heady Glee who says:
 
 "Hi. I really, really loved the JS Danger episodes where Emma was the host. It was really funny. I was able to work through the questions with you guys and I could test my JS/Web knowledge together."
 
@@ -62,7 +62,7 @@ Well, Heady, as the now permanent host of JS Danger, I choose not to be offended
 
 **Emma Bostian:** That is absolutely correct.
 
-**Kevin Ball:** Popular by what dimension? I think jQuery is still \[unintelligible 00:09:29.20\]
+**Kevin Ball:** Popular by what dimension? I think jQuery is still...
 
 **Jake Dohm:** Ooh...!
 
@@ -102,9 +102,9 @@ Well, Heady, as the now permanent host of JS Danger, I choose not to be offended
 
 **Kevin Ball:** It's that insertion order thing...
 
-**Jake Dohm:** I was like, "It can't be \[unintelligible 00:11:05.19\] again..." Yeah, yeah. That's a good steal.
+**Jake Dohm:** I was like, "It can't be that again..." Yeah, yeah. That's a good steal.
 
-**Jerod Santo:** Speaking of episode \#112, we have another listener who wrote in about it, saying "\[unintelligible 00:11:18.02\] here. My favorite moment was in the JS Jeopardy episode \#112, more specifically the TCP/IP question. I was working on a college assignment on the OSI model while listening to the episode, and like Chris, my first guess was the OSI model. I guess "conceptual model" really threw me a curveball."
+**Jerod Santo:** Speaking of episode \#112, we have another listener who wrote in about it, saying "Petruso Keterov here. My favorite moment was in the JS Jeopardy episode \#112, more specifically the TCP/IP question. I was working on a college assignment on the OSI model while listening to the episode, and like Chris, my first guess was the OSI model. I guess "conceptual model" really threw me a curveball."
 
 **Kevin Ball:** Let's go with The Web for 500.
 
@@ -154,7 +154,7 @@ Well, Heady, as the now permanent host of JS Danger, I choose not to be offended
 
 **Kevin Ball:** Yeah. I was in between TCP/IP and HTTP, but... Whatever. We got it.
 
-**Emma Bostian:** Well, hold on to that term \[unintelligible 00:13:26.29\]
+**Emma Bostian:** Well, hold on to that term for later
 
 **Kevin Ball:** And why choose TCP instead of like UDP?
 
