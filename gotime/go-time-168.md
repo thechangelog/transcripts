@@ -622,7 +622,7 @@ And the other thing is, there is such thing as good taste, which you can't reall
 
 **Johnny Boursiquot:** You have to come back, yeah. Come back just to deliver your unpopular opinion. It better be a good one. We're gonna have a whole show just for that. \[laughs\]
 
-**Mat Ryer:** Yeah. We could do that.
+**Mat Ryer:** \[1:09:03\] Yeah. We could do that.
 
 **Jerod Santo:** I think we should address why Mat would prefer to replace me with a horse.
 
