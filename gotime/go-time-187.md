@@ -24,7 +24,7 @@ The North-East U.K. - this is my favorite thing... Golang North-East is called t
 
 **Johnny Boursiquot:** Yeah, I'm very SEO-friendly.
 
-**Mat Ryer:** Yeah, very. Amazing. Okay, well let's get into it. We spoke about fuzzing last time in August, 2020, episode \#145 if you wanna go and listen to that... But now the beta is here, right? It's exciting.
+**Mat Ryer:** \[5:17\] Yeah, very. Amazing. Okay, well let's get into it. We spoke about fuzzing last time in August, 2020, episode \#145 if you wanna go and listen to that... But now the beta is here, right? It's exciting.
 
 **Johnny Boursiquot:** And for those who don't speak, you know, Mat - by \[British accent\] beta, he means the beta.
 

@@ -424,7 +424,7 @@ I would love to see projects like that - if people can make bundles and submit i
 
 **Carolyn Van Slyck:** I am terrible at selling anything. I'm always like "You do you. Whatever makes sense", and then I forget to actually explain when it would make sense...
 
-**Johnny Boursiquot:** No, this looks really interesting. From my viewpoint, this is a -- like, I was aware of CNAB, but I was trying to place it, and then having concrete implementations of the spec... I think I'm like "Oh, okay, now I get the Why of this."
+**Johnny Boursiquot:** \[01:09:04\] No, this looks really interesting. From my viewpoint, this is a -- like, I was aware of CNAB, but I was trying to place it, and then having concrete implementations of the spec... I think I'm like "Oh, okay, now I get the Why of this."
 
 **Carolyn Van Slyck:** Oh, that's great.
 

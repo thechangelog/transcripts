@@ -92,7 +92,7 @@ So I believe that we may still face the case where we have at some point to retu
 
 **Mark Bates:** From my understanding of the issue it was just that. It was something they obviously would have loved to have avoided, because it is a bug, obviously, that hits people, and a weird bug, but it was just more -- it felt out of the type system and it wasn't necessarily designed to...
 
-**Mat Ryer:** Yeah. I never thought I'd say this, Mark, but you should be a little bit louder. Move a little closer to the mic, please...
+**Mat Ryer:** \[14:25\] Yeah. I never thought I'd say this, Mark, but you should be a little bit louder. Move a little closer to the mic, please...
 
 **Mark Bates:** I should be a little louder... I don't know why you don't think I'm loud.
 
@@ -226,7 +226,7 @@ So concurrency in Go -- what drove us all to Go originally, I think... I know it
 
 **Mat Ryer:** But the thing is - if you're dealing with data that comes in from JSON or something, because sometimes you have generic data, so you don't have structs to demarshal it into; you have maps of string interface. And then if there's an object inside an object, that becomes a map string interface, too. So in that case you have to rely on that. So in a way -- in some cases probably not, but... I don't know, what were you gonna say, Mark? Do you like generics?
 
-**Mark Bates:** What I was gonna say is I grew up -- my first job I was writing Java, we didn't have generics. Then I went to Ruby and we didn't have generics.
+**Mark Bates:** \[30:05\] What I was gonna say is I grew up -- my first job I was writing Java, we didn't have generics. Then I went to Ruby and we didn't have generics.
 
 **Mat Ryer:** How old are you? No, carry on... \[laughter\]
 
@@ -534,7 +534,7 @@ Now, how do I make that clean and good, and do what I actually wanted to do, not
 
 **Mat Ryer:** \[56:05\] Yeah, you can't really -- you learn so much by building the real thing... And this also speaks to software engineering generally. We wanna design it all upfront sometimes; we wanna know exactly what it's gonna be, so we can do good estimates and things... You learn so much by doing it, so get on and do it. You'll just make so much more ground, and making mistakes in that sense is great, because that really is how you find out what the real thing to do is. Sometimes it's impossible to know upfront, isn't it?
 
-**Mark Bates:** Yeah. I would say 9 out of 10 times I run tests, they fail. And I'm okay with that, most of the time. There are times when I'm like "Why the hell are you failing?!" But most of the times it's like "Yeah, okay... Still not there yet. That didn't work. What can I try now to get this test to pass?" You know, just keep making those mistakes till you find it, and that's okay.
+**Mark Bates:** \[56:43\] Yeah. I would say 9 out of 10 times I run tests, they fail. And I'm okay with that, most of the time. There are times when I'm like "Why the hell are you failing?!" But most of the times it's like "Yeah, okay... Still not there yet. That didn't work. What can I try now to get this test to pass?" You know, just keep making those mistakes till you find it, and that's okay.
 
 **Mat Ryer:** Yeah, absolutely. Well, speaking of mistakes, Teiva's book, "100 Mistakes" is --
 
