@@ -32,7 +32,7 @@ And the original survey, quite interestingly, was two different surveys. They us
 
 **Alice Merrick:** Yeah, yeah. It's still very new. It got official in like 2016 or so, and it didn't get UXR support until 2018, or the 2019 survey maybe...?
 
-**Todd Kulesza:** The 2019 survey is really when that started. I came on as we were doing the analysis of the 2018 survey data... Which was a really great place to kind of join the team, because your first experience is essentially learning all of the feedback that the community has, all in one giant brain dump. So that was really cool. And then in 2019 was when we started to sort of evolve the survey \[unintelligible 00:08:46.14\] UX best practices, essentially.
+**Todd Kulesza:** The 2019 survey is really when that started. I came on as we were doing the analysis of the 2018 survey data... Which was a really great place to kind of join the team, because your first experience is essentially learning all of the feedback that the community has, all in one giant brain dump. So that was really cool. And then in 2019 was when we started to sort of evolve the survey in line with some more UX best practices, essentially.
 
 **Kris Brandow:** Well, I have a follow-up question to that... Since we've had it in this kind of official UXR capacity, how has the survey changed or grown over the last couple of years?
 
@@ -124,7 +124,7 @@ One thing that I like seeing on the survey is actually only about I think a thir
 
 So in terms of representativeness - obviously, not perfect; always trying to get better. But it's nice to get more representation than we would otherwise.
 
-**Natalie Pistunovich:** So you could say that you feel comfortable saying that some results that come up are pretty representative? Or would you say that because of the sample \[unintelligible 00:31:00.25\] it tries to provide insights about smaller scopes?
+**Natalie Pistunovich:** So you could say that you feel comfortable saying that some results that come up are pretty representative? Or would you say that because of the sample group or like the subsections and so on, it tries to provide insights about smaller scopes?
 
 **Todd Kulesza:** I think it's safe to say that everything that we publish on the blog we're very confident in...
 
@@ -214,7 +214,7 @@ As you were sort of hinting at, typically, those are the questions that are gonn
 
 **Todd Kulesza:** But yeah, given the release of generics coming up soon, we really wanted to get a pulse of the survey out after that had shipped, without needing to wait until the following fall.
 
-**Natalie Pistunovich:** Maybe you can even have that match the current Go version, and then maybe you'll skip your -- like, it will not be consecutive in the version of the survey, but it will be \[unintelligible 00:42:39.26\]
+**Natalie Pistunovich:** Maybe you can even have that match the current Go version, and then maybe you'll skip your -- like, it will not be consecutive in the version of the survey, but it will be good timestamp.
 
 **Todd Kulesza:** Yeah. If we're doing one in fall and on in spring, assuming we keep the same release schedule for Go itself, it'll always be sort of versioned to a most recent major Go release. I like that.
 
@@ -324,7 +324,7 @@ But for anyone who has seen those surveys pop up on any of the Go websites or co
 
 **Alice Merrick:** Well, that's always the big question... I think last year we got them out in March. Obviously, I don't want to get them out any later than March. I would love to get them out in February or January, ideally. We'll see how that goes. It depends on how much vacation time Alice needs to take between now and then.
 
-**Natalie Pistunovich:** We hope you have a long and good vacation. You should focus on that. It's especially important now. \[unintelligible 00:53:53.06\]
+**Natalie Pistunovich:** We hope you have a long and good vacation. You should focus on that. It's especially important now. We're all curious but we're also, want to have meaningful, everything around that.
 
 **Kris Brandow:** Vacation is super, super-important. Alright. And with that, we'll go into our final segment of the show...
 
@@ -340,7 +340,7 @@ But for anyone who has seen those surveys pop up on any of the Go websites or co
 
 Now, I'm saying this having not used any of these computers, and I know they're just coming out right now, so maybe the first time I end up using one, I will absolutely despise it, and will justly get a lot of grief for this opinion, but... My first take on them so far has been I'm actually excited for the notch.
 
-**Kris Brandow:** If it's anything like the iPhone 10, it will be massively unpopular to begin with, and then people will use it and then they'll be like "Oh, this is fine." And then all the other people making fun of it will see notches in tons of laptops in the future \[unintelligible 00:55:48.20\]
+**Kris Brandow:** If it's anything like the iPhone 10, it will be massively unpopular to begin with, and then people will use it and then they'll be like "Oh, this is fine." And then all the other people making fun of it will see notches in tons of laptops in the future, oh smaller bezzles that's what we can get with that.
 
 **Todd Kulesza:** Exactly.
 
@@ -368,7 +368,7 @@ If I want to be even more contentious, I might say something about Harry Potter,
 
 **Alice Merrick:** Yeah. I mean, I could talk about why I don't like it, but I think I'll just let it stand as is. I don't feel like I need any justification. In fact, I invite all -- like, I want it to be super-unpopular. I'm trying to win here. \[laughter\]
 
-**Kris Brandow:** I have played that game before and I have won that game before. \[laughter\] I think we put out on Twitter a couple of tweets about who's had the most popular unpopular opinion, so people were like "No, that's popular." \[unintelligible 00:58:09.09\] the most unpopular unpopular opinions... And I think I got like both first and second place for the most unpopular unpopular opinion, so...
+**Kris Brandow:** I have played that game before and I have won that game before. \[laughter\] I think we put out on Twitter a couple of tweets about who's had the most popular unpopular opinion, so people were like "No, that's popular." And who's had the most unpopular unpopular opinions... And I think I got like both first and second place for the most unpopular unpopular opinion, so...
 
 **Alice Merrick:** Amazing. Now I have to know, what was your unpopular unpopular opinion?
 
@@ -376,7 +376,7 @@ If I want to be even more contentious, I might say something about Harry Potter,
 
 **Alice Merrick:** Wow...
 
-**Kris Brandow:** Which - I kind of knew it was gonna be unpopular by saying it, but it's one of those things where still inside I was like "That shouldn't be unpopular..." But it's okay. And \[unintelligible 00:58:59.16\] The language's name is Go. But that was my big unpopular opinion, that I still kind of stand, and I'm like "This should not be unpopular."
+**Kris Brandow:** Which - I kind of knew it was gonna be unpopular by saying it, but it's one of those things where still inside I was like "That shouldn't be unpopular..." But it's okay. And I always like the context too like hashtages for golang, whatever, Google for golang, whatever but don't put it on the cover of a book, or something like that; The language's name is Go. But that was my big unpopular opinion, that I still kind of stand, and I'm like "This should not be unpopular."
 
 **Todd Kulesza:** Based on the way you explained it, I agree. That should not be unpopular.
 
@@ -430,11 +430,11 @@ If I want to be even more contentious, I might say something about Harry Potter,
 
 **Alice Merrick:** Yeah.
 
-**Kris Brandow:** Probably a Java developer in a previous engineering life. \[laughter\] \[unintelligible 01:01:54.15\]
+**Kris Brandow:** Probably a Java developer in a previous engineering life. \[laughter\] Hot opinion!
 
 **Alice Merrick:** That'd be an interesting behavioral experiment, for sure.
 
-**Kris Brandow:** I think we've talked about it a few times on the podcast before, about how people can come in and they just -- you know, "Oh, you're still writing Java, or Ruby, or Python. It's just Go syntax, and it compiles in Go", but like, this code is definitely still Java-y code. One of the nice things about Go - it's super-easy to learn; one of the top things about Go is it's super-hard to master, and people just kind of come in, they're like "Boom!" \[unintelligible 01:02:23.07\] how many people actually are coming from Java. Is it proportional to the number of codebases I've seen that are this Java-esque Go. And if not, those people should take the survey, so we can --
+**Kris Brandow:** I think we've talked about it a few times on the podcast before, about how people can come in and they just -- you know, "Oh, you're still writing Java, or Ruby, or Python. It's just Go syntax, and it compiles in Go", but like, this code is definitely still Java-y code. One of the nice things about Go - it's super-easy to learn; one of the top things about Go is it's super-hard to master, and people just kind of come in, they're like "Boom!" yeah maybe that's more insight like how many people actually are coming from Java. Is it proportional to the number of codebases I've seen that are this Java-esque Go. And if not, those people should take the survey, so we can --
 
 **Alice Merrick:** Yeah. Actually, we do see a large proportion of people who come to Go are coming from Java and Python. That's not super-surprising, because there are so many Java and Python developers, but also, you don't see as many from, say, like C++ or something, where you might expect that because there are so many C++ developers, right? So we do see -- there are certain populations that are more likely to migrate to Go. That's interesting.
 
