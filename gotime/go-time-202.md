@@ -82,7 +82,7 @@ And then eventually, we all decide that "Well, this line of IKEA isn't cool anym
 
 **Kris Brandow:** \[15:53\] Yeah. We don't wanna lose any velocity. You need to keep moving, you need to keep building. We're gonna build a whole new platform, a whole new set of microservices or whatever... And I feel like we blame the furniture for being bad. It's like, we blame Kubernetes for being bad; we blame REST APIs, or JSON, or a container, or whatever, and it's like, we bring in a new hotness, and it's like, "Ah, microservices will fix this", or gRPC will fix this, or whatever. It's like, yeah, that lamp didn't fit with the decor because it's like a bad lamp. It's because you didn't buy a lamp that fit with the rest of the stuff. You've gotta buy things that fit together.
 
-**Natalie Pistunovich:** Yup. Yup.
+**Natalie Pistunovich:** \[16:30\] Yup. Yup.
 
 **Kris Brandow:** Man, my statements are not ending in questions... \[laughs\]
 
@@ -438,7 +438,7 @@ So you know, like a nice image, or something that just kind of like helps me und
 
 **Natalie Pistunovich:** Interesting.
 
-**Kris Brandow:** It's just like, "Yeah, we're just gonna get rid of most of this. Goodbye... Wipe it away.. Just delete all of your tests..." It's like, "Yeah... Do you really need them?"
+**Kris Brandow:** \[01:00:03\] It's just like, "Yeah, we're just gonna get rid of most of this. Goodbye... Wipe it away.. Just delete all of your tests..." It's like, "Yeah... Do you really need them?"
 
 **Natalie Pistunovich:** Or random documentation lines.
 
