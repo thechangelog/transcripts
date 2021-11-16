@@ -160,7 +160,7 @@ So like you're a doctor, and maybe you see a thousand patients a year, and you s
 
 **Nicholas Mohnacky:** So how do we support climate literacy for policymakers? I'm a millennial, I care about the environment, I'm constantly thinking about social good... I know you're a plant eater, you're socially conscious...
 
-**Chris Benson:** Yeah. I'm a vegan, so... Anyone that's listened to me for a while \[unintelligible 00:28:43.13\] probably knows that about me.
+**Chris Benson:** Yeah. I'm a vegan, so... Anyone that's listened to me for a while, sadly probably knows that about me.
 
 **Nicholas Mohnacky:** Yeah, yeah. So how can we maybe support this massive dataset that doesn't have a whole lot of history behind it? There's certainly a lot of dissonance between it. You've got these attorneys in Congress and municipalities that are gonna be writing legislation and writing policies to solve these problems that they don't really even understand, and it's no different than the infrastructure bill that's 1,300 pages, or however many pages I think that one is...
 
