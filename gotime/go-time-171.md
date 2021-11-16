@@ -552,7 +552,7 @@ I think in software if you're gonna run your code against MySQL, then test your 
 
 **Mark Bates:** You just kind of like waved me off. You're like, "Thanks for coming, Mark. Bye!"
 
-**Wayne Ashley Berry:** I think it was the bacon comment that did that.
+**Wayne Ashley Berry:** \[1:01:43\] I think it was the bacon comment that did that.
 
 **Mark Bates:** Well, Mat's a vegan, so he's gonna be on board with that one.
 
