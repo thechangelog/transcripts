@@ -140,7 +140,7 @@ I would love to be in a world where we don't need one at all. I'm not sure that'
 
 **Kris Brandow:** I guess I have a sort of question off of that, but I wanna preface it with something. The codebases I've worked on that have been unmaintainable, or feels like unmaintainable, where it's like "This thing should take a week, and instead it's taking four months to do. This is miserable, I hate everything." Whenever I wound up in one of those situations, there's not like one big thing that's the problem; it's always thousands of little, tiny things, and then you look at those in isolation and everybody's like "Well, that's a little thing, so is it really worth it to go and fix it? There's all this other stuff we need to do." We know that it's death by a thousand papercuts, but we never want to stop any one of those papercuts from happening. So the question I have based on that is "Is gardening week enough?" or should we actually be pushing further and saying "We want a gardening team."
 
-I think there's this myth that exists in our industry that people wouldn't like working on \[unintelligible 00:30:15.04\] It'd be like this miserable thing, where like "Oh, well that's the team of people that doesn't get to do the fun stuff of building features and building new products and doing all of that." But I think -- and I have some friends that are like this; they're just like, "No, just give them \[unintelligible 00:30:30.19\] Let them go and just clean up some certain parts of codebases..."
+\[30:15\] I think there's this myth that exists in our industry that people wouldn't like working on said time. It'd be like this miserable thing, where like "Oh, well that's the team of people that doesn't get to do the fun stuff of building features and building new products and doing all of that." But I think -- and I have some friends that are like this; they're just like, "No, just give them codebase. Let them go and just clean up some certain parts of codebases..."
 
 **Sam Boyer:** Scratch that itch...
 
@@ -344,7 +344,7 @@ The manner in which the structures and variants, rules, whatever, of the languag
 
 Go is very enumerable, it's very analyzable, and that means that most of my cognitive effort is spent on dealing with the higher-order abstractions that people have tried to create, because all the boring questions are quickly answerable, so I can get right to the heart of the matter.
 
-**Kris Brandow:** Alright. And then final question - what would you add, if you have anything, to make Go more... Not just make Go itself more maintainable, but make the code that we write more maintainable?
+**Kris Brandow:** \[58:50\] Alright. And then final question - what would you add, if you have anything, to make Go more... Not just make Go itself more maintainable, but make the code that we write more maintainable?
 
 **Johnny Boursiquot:** Generics... Hell no. \[laughter\]
 
@@ -526,9 +526,9 @@ Anyway, Ian - unpopular opinion. Got anything? It doesn't have to be related to 
 
 **Johnny Boursiquot:** Or so we think... They end up being popular anyways.
 
-**Kris Brandow:** I'm not really sure how many of these are gonna wind up being popular. I feel like it could be -- \[unintelligible 01:09:20.23\] what the poll results will say... Because we do go and we poll all of these on Twitter, so... It should be good.
+**Kris Brandow:** I'm not really sure how many of these are gonna wind up being popular. I feel like it could be -- I'm wondering what the poll results will say... Because we do go and we poll all of these on Twitter, so... It should be good.
 
-**Sam Boyer:** I mean, my semver one really - that one gets unpopular when you start suggesting alternatives. It sounds fine when you're just like "The world's terrible! Don't do that thing!" and everyone agrees. Then you try to suggest an alternative and everybody's like "Go f\*\*\* yourself!" \[laughter\] So it depends on how far you're walking out, I guess. \[laugher\]
+**Sam Boyer:** \[01:09:38\] I mean, my semver one really - that one gets unpopular when you start suggesting alternatives. It sounds fine when you're just like "The world's terrible! Don't do that thing!" and everyone agrees. Then you try to suggest an alternative and everybody's like "Go f\*\*\* yourself!" \[laughter\] So it depends on how far you're walking out, I guess. \[laugher\]
 
 **Johnny Boursiquot:** I think I'm gonna fall over... We haven't had a bleep on this show in a while, so this is gonna be a good one.
 
