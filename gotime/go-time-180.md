@@ -108,7 +108,7 @@ I guess, as Go Time's producer, let me just float a stereotype out, and maybe ha
 
 So I think this can be an interesting spot. For me, this is a personal focus of curiosity. I will not say that I looked at a lot of frameworks, but this is a reason I will look at this one.
 
-**Johnny Boursiquot:** Now, here's my take. Jerod, you're not wrong. But.
+**Johnny Boursiquot:** \[25:24\] Now, here's my take. Jerod, you're not wrong. But.
 
 **Jerod Santo:** Okay... Is this a big but or a little but?
 
@@ -256,7 +256,7 @@ So yeah, we absolutely want it to be backwards-compatible, and that's a big reas
 
 If it is the right thing for you, then I would love your feedback. If it isn't, I would love to hear why not, and what is it about it that rubs you the wrong way, or whatever. I know it's very early days, and the things we support right now are limited and so on, but I very much believe that we can create a much, much better developer experience by eliminating these silos of these different layers that we've talked about earlier, by actually creating an experience that is with you from the first line of code you write, into how you're collaborating with other people, into testing and reviewing code, and all the way out into production and beyond... I think it's just -- there's so much potential there in terms of creating a really, really good experience... And any feedback, and any contribution for that matter - if you find an issue and you wanna fix it, or you wanna add something, I'd super-appreciate it.
 
-**Natalie Pistunovich:** How do you give feedback on open source projects? Do you open an issue and say "I don't like this"? Is this how you do this? \[laughter\]
+**Natalie Pistunovich:** \[51:14\] How do you give feedback on open source projects? Do you open an issue and say "I don't like this"? Is this how you do this? \[laughter\]
 
 **Jerod Santo:** There are plenty of examples of that you can look at... \[laughter\]
 
@@ -360,7 +360,7 @@ If it is the right thing for you, then I would love your feedback. If it isn't, 
 
 **Natalie Pistunovich:** Yeah.
 
-**Johnny Boursiquot:** So the level of effort is much higher for prerecorded than it is if I just show up, and in the middle of the talk if I'm "uhm" and "ahm" and all these sort of human quirks, I'd be okay if somebody said "You know what - you have to do it live." That way I don't have to agonize about it. I can just worry about the content, rather than worry about the content and the editing I have to do after I record it. So I can definitely see the value in that. But I think giving folks a choice maybe of a hybrid model where they give the talk and maybe they do live Q&A, or in the prerecorded talk the live Q&A afterwards, would be also a nice choice to have.
+**Johnny Boursiquot:** \[57:03\] So the level of effort is much higher for prerecorded than it is if I just show up, and in the middle of the talk if I'm "uhm" and "ahm" and all these sort of human quirks, I'd be okay if somebody said "You know what - you have to do it live." That way I don't have to agonize about it. I can just worry about the content, rather than worry about the content and the editing I have to do after I record it. So I can definitely see the value in that. But I think giving folks a choice maybe of a hybrid model where they give the talk and maybe they do live Q&A, or in the prerecorded talk the live Q&A afterwards, would be also a nice choice to have.
 
 **André Eriksson:** Or live talk and prerecorded Q&A... \[laughter\]
 
