@@ -34,7 +34,7 @@ So if you look at Hubble flows, you can see traffic flowing between different Ku
 
 **Gerhard Lazu:** What about when it comes to alerting, monitoring, that side of things? ...when there is a problem, you being informed that "Hey, there's a problem." Is there such a component, or would you integrate Cilium with something else for that capability? What does that story look like?
 
-**Liz Rice:** Yeah, you'd integrate that with something else. I think a lot of people will push the flow data into some kind of \[unintelligible 00:09:39.23\] for example.
+**Liz Rice:** Yeah, you'd integrate that with something else. I think a lot of people will push the flow data into some kind of sim for example.
 
 **Gerhard Lazu:** But I'm thinking about, for example, packet loss. There's a lot of congestion, or lots of retries, whatever the case may be. Is there a way to monitor or to consume the Cilium metrics, I'm assuming, and then have alerts?
 
@@ -60,7 +60,7 @@ So my next question would be "Where would you recommend that I start? Do I take 
 
 **Gerhard Lazu:** \[12:10\] What do you use for live-coding?
 
-**Liz Rice:** I typically use either -- Go is kind of my go-to language, but for ease of demonstrating a lot of eBPF capabilities, I'll quite often use the BCC framework, which supports Python. That's also very easy to read in a live coding environment. And occasionally, I've done \[unintelligible 00:12:29.26\] Because the eBPF programs that you're actually running in the kernel, that are typically written in C, can now be written in Rust, so I'm gonna have to up my Rust game... But because the kernel part is often written in C, a lot of eBPF programmers are also comfortable in that language, and I'm therefore writing the user space part in C as well.
+**Liz Rice:** I typically use either -- Go is kind of my go-to language, but for ease of demonstrating a lot of eBPF capabilities, I'll quite often use the BCC framework, which supports Python. That's also very easy to read in a live coding environment. And occasionally, I've done some that you see. Because the kernel programs, the eBPF programs that you're actually running in the kernel, that are typically written in C, can now be written in Rust, so I'm gonna have to up my Rust game... But because the kernel part is often written in C, a lot of eBPF programmers are also comfortable in that language, and I'm therefore writing the user space part in C as well.
 
 **Gerhard Lazu:** Okay. And what would you like to cover in those sessions? Which is your step number one, step number two? What do you tend to cover in those? I haven't watched one, but again, top of my list, as I mentioned.
 
@@ -132,7 +132,7 @@ I was actually gonna say, the platform that they're using this time around seems
 
 **Gerhard Lazu:** So as we are preparing to wrap up, I'm wondering if there is anything interesting happening for eBPF, or Cilium in the next six months that you would like to share.
 
-**Liz Rice:** Well, I guess we've started off with those weekly \[unintelligible 00:21:31.27\] so that's our kind of initial -- I mean, I think from a feature roadmap perspective there are some pretty interesting things coming down the pipeline, and in particular I think kernel service mesh... In general, I think the whole service mesh space is pretty confusing right now, and I think we are all seeing some evolution in the different products that are out there, and Cilium is definitely gonna be a big part of that story.
+**Liz Rice:** Well, I guess we've started off with those weekly install fests so that's our kind of initial -- I mean, I think from a feature roadmap perspective there are some pretty interesting things coming down the pipeline, and in particular I think kernel service mesh... In general, I think the whole service mesh space is pretty confusing right now, and I think we are all seeing some evolution in the different products that are out there, and Cilium is definitely gonna be a big part of that story.
 
 **Gerhard Lazu:** Okay... Well, I didn't need any more reasons, but I go them, to watch this even more closely and try it out myself, and try running it in production, just to see what's it like with some significant demands with traffic, to see how it holds up, to see what it shows us. I'm really excited about that, so...
 
@@ -174,7 +174,7 @@ So I was trying to focus on delivering the material, while everyone else was att
 
 **Gerhard Lazu:** Here's an idea for you... Next time someone asks you this, I think you should introduce Dan as the CCOO, Chief Click Ops Officer... \[laughs\] And say "We created a role." That was such a good thing. So Click Ops is real, and we have just the right antidote for it, and he's called Dan Mangum. \[laughs\] So yeah, that's a good one.
 
-Okay, okay... This is actually something which I've been thinking about as well. I started using Crossplane to manage all my GKE clusters. It works great, I never wanna go back... And not even to the CLI, which is really weird, because the \[unintelligible 00:29:59.28\] CLI is great, but Crossplane is better from that perspective, so I really enjoy that. And in that world, I was wondering - how can we handle secrets better? Because you know, secrets in Kubernetes by default, base64-encoded - well, sorry, that's not really secret. Anyone can get it. So that's a great one. I will definitely want to follow up on that...
+Okay, okay... This is actually something which I've been thinking about as well. I started using Crossplane to manage all my GKE clusters. It works great, I never wanna go back... And not even to the CLI, which is really weird, because CLI is great, but Crossplane is better from that perspective, so I really enjoy that. And in that world, I was wondering - how can we handle secrets better? Because you know, secrets in Kubernetes by default, base64-encoded - well, sorry, that's not really secret. Anyone can get it. So that's a great one. I will definitely want to follow up on that...
 
 But I have another thing on my mind, because San Diego was mentioned a couple of times... And I had an amazing run around the San Diego marina... So I'm wondering then - was the run in L.A. better than your San Diego one? What can you tell us about it?
 
@@ -342,7 +342,7 @@ And you even see how advanced your users are... I was a bit surprised, because p
 
 **Gerhard Lazu:** Okay. \[laughs\] So the idea being that you want the audience -- I mean, that's basically what prompts the questions, right? If you tell them half the story... I mean, there's so much more than you could tell them, but what do THEY want to know? And then they come to you asking about questions that you haven't thought about... It's more about telling a user what's possible, getting users excited, making them imagine things, and then see what they do with that. I mean, was it exciting enough? What are they thinking? What do they wish you had told them that you haven't, for time reasons, for the conversation reasons... As you mentioned, it's about the discussions. And the way you generate discussions is by making it interesting and short, and letting them decide "Well, what shall we do next?" It doesn't always work like that, obviously. You have to know your audience... But I think that's what happened here. So it was very compressed, it was very condensed, many concepts were introduced, and that's what it was meant to be. You know, "I'll give you a taste from many different things, and then you tell me what you would like to know more."
 
-I'm wondering if maybe had you maybe spent more time in Slack, you could have continued some of those conversations there. I don't know. But what I do know is that another talk which I attended, that was Liz Rice's talk on eBPF, in the \[unintelligible 00:57:38.19\] the Q&A didn't work. We could ask questions, but she couldn't answer, and then we moved into Slack, and we had a good conversation between the different people there. It was mostly question answering, but also someone - I forget their name - added some extra information, and it was good to see in the Slack channel that conversation.
+I'm wondering if maybe had you maybe spent more time in Slack, you could have continued some of those conversations there. I don't know. But what I do know is that another talk which I attended, that was Liz Rice's talk on eBPF, in the talk the Q&A didn't work. We could ask questions, but she couldn't answer, and then we moved into Slack, and we had a good conversation between the different people there. It was mostly question answering, but also someone - I forget their name - added some extra information, and it was good to see in the Slack channel that conversation.
 
 So I think that's a good idea, to say "Hey, if you wanna know more, if you wanna talk o me, I'll be there. Leet's hang out. Again, it's just an idea. Who know if it works out until you try it.
 
@@ -390,7 +390,7 @@ My most important take-away about eBPF is that it's all about kernel events. And
 
 **David Ansari:** Have you used eBPF in the projects you're working on?
 
-**Gerhard Lazu:** Not yet, but all that is going to change in the next few months. So Parca.dev - that's one of the first things that I'll be setting up. And the next one will be Cilium. Cilium, with Hubble, and a couple more things... I think the level of observability from a kernel perspective is unique. I haven't seen anything like that before. And now that you mention that, I think the only utility that I've used that uses eBPF under the hood was Netdata, but not extensively. Only at a brief, superficial level. It's good, and it's not much different than it was before, with eBPF, or since \[unintelligible 01:05:09.03\] but that's the first one that I have used with eBPF, now that I remember. What else would you like to talk about?
+**Gerhard Lazu:** Not yet, but all that is going to change in the next few months. So Parca.dev - that's one of the first things that I'll be setting up. And the next one will be Cilium. Cilium, with Hubble, and a couple more things... I think the level of observability from a kernel perspective is unique. I haven't seen anything like that before. And now that you mention that, I think the only utility that I've used that uses eBPF under the hood was Netdata, but not extensively. Only at a brief, superficial level. It's good, and it's not much different than it was before, with eBPF, or since it and eBPF integration, but that's the first one that I have used with eBPF, now that I remember. What else would you like to talk about?
 
 **David Ansari:** One good experience was the speaker support. So there was a dedicated Slack channel, and support was answering, with a response time less than a minute. So when we asked a question, it just got flagged, and someone was saying they will look up the answer or get in touch with us. That was really great support.
 
@@ -420,7 +420,7 @@ Okay, David. Well, thank you for making the time. This was an absolute pleasure.
 
 So it's a couple of different components, but overall, the goal of the Sigstore project is to make it easy and free to sign and verify open source software.
 
-We were heavily inspired by the LetsEncrypt model. So if you're familiar with LetsEncrypt, what LetsEncrypt did, operating a free certificate authority for web browsers... They made it so all of the web traffic became encrypted over a couple of years. \[unintelligible 01:09:41.14\] been around since the early '90s, but we just weren't seeing movement in the percentage of web traffic that was encrypted, all the websites still have that red X at the top, years and years ago, if you remember what it was like before LetsEncrypt... And then they solved the problem by making it free, easy and automated to do it. So now with one line in your Kubernetes yamls now you can just get free certificates for everything... Not overnight, because a ton of hard work went in from the LetsEncrypt people... Compared to the overall timeline the internet's been around, the shift was immediate almost. We try to do the same thing for open source software.
+We were heavily inspired by the LetsEncrypt model. So if you're familiar with LetsEncrypt, what LetsEncrypt did, operating a free certificate authority for web browsers... They made it so all of the web traffic became encrypted over a couple of years. These have been around since the early '90s, but we just weren't seeing movement in the percentage of web traffic that was encrypted, all the websites still have that red X at the top, years and years ago, if you remember what it was like before LetsEncrypt... And then they solved the problem by making it free, easy and automated to do it. So now with one line in your Kubernetes yamls now you can just get free certificates for everything... Not overnight, because a ton of hard work went in from the LetsEncrypt people... Compared to the overall timeline the internet's been around, the shift was immediate almost. We try to do the same thing for open source software.
 
 **Gerhard Lazu:** How is this different from PGP?
 
@@ -448,7 +448,7 @@ And the kind of cool thing is because the container image standards have gotten 
 
 **Dan Lorenc:** Yeah. We're talking about kind of base images and image hierarchies and stuff here when it comes to containers, but... Yeah, a couple things there. Go has some awesome support for static compilation as a Go binary, which means you can throw it into a container image without any of the other operating system runtime stuff. So if you do it from scratch, that's awesome; there's no base image to check, the only thing in there is your binary and some configuration. So you can sign that resulting image, and in that case there's no base image to check. And you can actually look at a container and prove that it was from scratch later, after it was built. There would only be one layer inside of that, you don't have to worry.
 
-There's been some other recent work in the OCI (Open Containers Initiative) to start propagating a lot more meta data around. One of the issues that's been around for a while is that if you did it from Ubuntu and you threw a Go application into there, it's really hard to figure out after it was built that it was actually from Ubuntu, or which Ubuntu that was. But a couple months ago, one of my colleagues, Jason Hall at Red Hat, finally got a new field approved in the OCI specification for a standard base image annotation. So build tools can start setting that in these JSON manifests to indicate which Ubuntu was used, where it was found, \[unintelligible 01:15:39.22\] of that was at that time... And you can actually check that later, so you don't even really need to trust that tool. So it's all about kind of leaving these breadcrumbs around.
+There's been some other recent work in the OCI (Open Containers Initiative) to start propagating a lot more meta data around. One of the issues that's been around for a while is that if you did it from Ubuntu and you threw a Go application into there, it's really hard to figure out after it was built that it was actually from Ubuntu, or which Ubuntu that was. But a couple months ago, one of my colleagues, Jason Hall at Red Hat, finally got a new field approved in the OCI specification for a standard base image annotation. So build tools can start setting that in these JSON manifests to indicate which Ubuntu was used, where it was found, what the digest of that was at that time... And you can actually check that later, so you don't even really need to trust that tool. So it's all about kind of leaving these breadcrumbs around.
 
 Now that we have that new breadcrumb (you know, from the fairytale), you can follow that back and you can find the Ubuntu image and you can check to see if that was signed by the original publisher. So this is something that just in the last couple of months has started becoming possible.
 
@@ -466,7 +466,7 @@ Now that we have that new breadcrumb (you know, from the fairytale), you can fol
 
 **Gerhard Lazu:** As far as I know, distroless is a concept that comes from Google... And I'm wondering, is that something that you're involved with, distroless?
 
-**Dan Lorenc:** Yeah, so I started that project with one of my co-workers, Matt Moore, years and years and years ago. We kind of did it as a proof of concept, to show what some of this stuff looked like. We were playing around with the Bazel toolset at that time, and we got reproducible container builds working, and it was pretty cool. He even talked at a conference - I think it was like a JFrog swampUP \[unintelligible 01:17:07.05\] We didn't really expect much to come out of it.
+**Dan Lorenc:** Yeah, so I started that project with one of my co-workers, Matt Moore, years and years and years ago. We kind of did it as a proof of concept, to show what some of this stuff looked like. We were playing around with the Bazel toolset at that time, and we got reproducible container builds working, and it was pretty cool. He even talked at a conference - I think it was like a JFrog swampUP when we just kept playing with the repository. We didn't really expect much to come out of it.
 
 Then a couple of years later, like it happens in open source, the Kubernetes release engineering team, so Stephen Augustus and his crew, moved all of the Kubernetes-based images from Debian, or something like that, to distroless, without even really telling us. So all of a sudden, overnight, this became a piece of critical infrastructure for the entire container ecosystem, what started as like a little hobby project.
 
@@ -500,7 +500,7 @@ Scott put in a really funny Easter egg about my hair here that we're talking abo
 
 **Dan Lorenc:** I think he was looking at the analytics stats for our page - because we've put an analytics thing on there - and the About page has more views than anything else on the website right now.
 
-**Gerhard Lazu:** \[laughs\] So we'll just pile on top of that \[unintelligible 01:19:46.08\] Alright. The effect on Kim - I think it looks the best. I tried all the faces, but I think her - it suits her. \[laughs\]
+**Gerhard Lazu:** \[laughs\] So we'll just pile on top of that. Alright. The effect on Kim - I think it looks the best. I tried all the faces, but I think her - it suits her. \[laughs\]
 
 **Dan Lorenc:** Yeah, I didn't even realize he did it for all of the faces at first. I thought it was just mine.
 
@@ -510,7 +510,7 @@ Scott put in a really funny Easter egg about my hair here that we're talking abo
 
 **Gerhard Lazu:** \[01:20:05.03\] Any other Easter eggs that you're aware of, that we should check out?
 
-**Dan Lorenc:** Not that I'm aware of... You can ask Scott Nichols. He probably \[unintelligible 01:20:09.24\]
+**Dan Lorenc:** Not that I'm aware of... You can ask Scott Nichols. He probably has more.
 
 **Gerhard Lazu:** Yeah, Scott, please... Stop working on features. Give us more Easter eggs.
 
@@ -524,7 +524,7 @@ So yeah, three years ago nobody even understood it, the term wasn't around, nobo
 
 **Gerhard Lazu:** Yeah.
 
-**Dan Lorenc:** It led to government regulations, the EU is working on new standards, the U.S. government put out an executive order, calling for institutions to start figuring out what to do, and kind of change the way that we build software to fix all of this and make it more secure, leave a lot more of those kind of verifiable breadcrumbs (as we talked about) around, to make a lot of these \[unintelligible 01:21:42.13\]
+**Dan Lorenc:** It led to government regulations, the EU is working on new standards, the U.S. government put out an executive order, calling for institutions to start figuring out what to do, and kind of change the way that we build software to fix all of this and make it more secure, leave a lot more of those kind of verifiable breadcrumbs (as we talked about) around, to make a lot of these attacks harder.
 
 **Gerhard Lazu:** I'm really glad that the world is taking this seriously; it was high time. And thank goodness nothing worse happened... But it is obvious that we have to act fast on this, and I'm glad that you, first of all, are a small team of crazy people that really believe in this. I think that is the best way of driving change, and I'm glad that many other companies are paying attention.
 
@@ -536,9 +536,9 @@ I'm sure over the next year, next two years, this will just grow in popularity a
 
 **Dan Lorenc:** It wasn't as weird as I thought. I hadn't been around big crowds of people in a while, it's been a long time... I was at one smaller conference a couple of weeks ago and sort of warmed back up to it. It was just awesome to see the energy; I could tell the whole community needed this to get back together, set aside some time to talk about open source, and relax a little bit, as things start to get back to normal. It was exhausting though, I'll say that. It's a long week; those conference sessions were long days, and I think I just forgot how tiring these conferences can be.
 
-**Gerhard Lazu:** I know that you had also Supply Chain Security Con. I almost called it Supply Chain Con. Crazy. \[laughs\] No, Supply Chain Security Con. \[unintelligible 01:23:05.24\] referred to it as a -1 event, which I think is important in relation to KubeCon. I really like that. How was that?
+**Gerhard Lazu:** I know that you had also Supply Chain Security Con. I almost called it Supply Chain Con. Crazy. \[laughs\] No, Supply Chain Security Con. Can even referred to it as a -1 event, which I think is important in relation to KubeCon. I really like that. How was that?
 
-**Dan Lorenc:** Yeah, so Supply Chain Security Con was a day -1 event - I think I kind of made up that term. KubeCon has kind of had a long history of having day zero events, or collocated events the day before the conference. There's just been so many topics to cover, and so on, \[unintelligible 01:23:24.10\] the organizers decided to have two of those. So the Monday of this week - the conference officially started Wednesday, but the Monday of this week we started off with a day -1 event called Supply Chain Security Con, that the Continuous Delivery Foundation and a bunch of other companies helped sponsor and put together.
+**Dan Lorenc:** Yeah, so Supply Chain Security Con was a day -1 event - I think I kind of made up that term. KubeCon has kind of had a long history of having day zero events, or collocated events the day before the conference. There's just been so many topics to cover, and so on, since we've had a kubecon the organizers decided to have two of those. So the Monday of this week - the conference officially started Wednesday, but the Monday of this week we started off with a day -1 event called Supply Chain Security Con, that the Continuous Delivery Foundation and a bunch of other companies helped sponsor and put together.
 
 **Gerhard Lazu:** Okay. So this makes me think of the coolness wall at Top Gear. I don't know if you remember that, I don't know if you watch Top Gear, but they had a wall and they used to rank cars... And sub zero were the really cool ones. Sub zero was like the coolest car category they had. So -1 sounds a bit like sub zero to me... I think there's a link there.
 
