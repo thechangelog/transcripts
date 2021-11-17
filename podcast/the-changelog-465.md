@@ -236,7 +236,7 @@ Fast-forward several years, I'm a teenager, I'm really into punk music, I'm maki
 
 **Robby Russell:** I can still sell stickers, and I'm like --
 
-**Jerod Santo:** Small circle.
+**Jerod Santo:** Full circle.
 
 **Robby Russell:** ...I'm successful. I'm finally selling stickers!
 
