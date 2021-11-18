@@ -304,7 +304,7 @@ But yeah, I mean - straight on, it's not a loss leader. They plan to make money 
 
 **Shawn Wang:** So I try not to do the prediction business, because I got out of that from the finance days... All I'm doing is nowcasting. I observe what I'm seeing now and I try to put out the clearest vision of it, so the others can follow.
 
-I think that it makes sense for them to \[unintelligible 00:48:02.22\] replicating the primitives of every other cloud service. So in 2017 they did service compute with Cloudflare Workers. In 2018 they did eventually consistent data store. In 2019 - website hosting; that's the Netlify competitor. In 2020 they did strongly-consistent data store, with Durable Objects. In 2021 object storage. What's next on that list? Go on to your AWS console and go shopping. And instead of seven different ways to do async messaging in AWS, probably they're gonna do one way in Cloudflare. \[laughs\]
+I think that it makes sense for them to be replicating the primitives of every other cloud service. So in 2017 they did service compute with Cloudflare Workers. In 2018 they did eventually consistent data store. In 2019 - website hosting; that's the Netlify competitor. In 2020 they did strongly-consistent data store, with Durable Objects. In 2021 object storage. What's next on that list? Go on to your AWS console and go shopping. And instead of seven different ways to do async messaging in AWS, probably they're gonna do one way in Cloudflare. \[laughs\]
 
 **Adam Stacoviak:** \[48:34\] A unified API, or something like that...
 
@@ -326,7 +326,7 @@ I think that it makes sense for them to \[unintelligible 00:48:02.22\] replicati
 
 **Adam Stacoviak:** Which, if you thought maybe that was oxygen, the territory, you might suck the oxygen away from them, so they can't live anymore, so to speak... And maybe you don't take it by killing it. Maybe you sort of suffocate it almost, if their space becomes small enough; if you take enough territory and it begins to shrink enough, it's kind of like checkmate, but not.
 
-**Shawn Wang:** Yeah. There's also a concept of \[unintelligible 00:50:51.06\] in Go, which is that you make a move that the opponent has to respond to, which is kind of like a check, or checkmate -- actually, not; just the check, in chess. And right now, AWS doesn't feel the need to respond. Cloudflare is not big enough. Like, these are names to us, but let's just put things in numbers. Cloudflare's market cap is 36 billion, AWS' market cap is 1.6 trillion; this is Amazon's total market cap. Obviously, AWS is a subset of that.
+**Shawn Wang:** Yeah. There's also a concept of sente in Go, which is that you make a move that the opponent has to respond to, which is kind of like a check, or checkmate -- actually, not; just the check, in chess. And right now, AWS doesn't feel the need to respond. Cloudflare is not big enough. Like, these are names to us, but let's just put things in numbers. Cloudflare's market cap is 36 billion, AWS' market cap is 1.6 trillion; this is Amazon's total market cap. Obviously, AWS is a subset of that.
 
 **Jerod Santo:** Sure.
 
@@ -352,7 +352,7 @@ I think that it makes sense for them to \[unintelligible 00:48:02.22\] replicati
 
 **Adam Stacoviak:** New territory.
 
-**Shawn Wang:** It's a frontend developer who realizes that there's a career ceiling for frontend developers. And it's not a polite conversation, and obviously there are exceptions to frontend developers who are VPs of engineering, frontend developers who are startup founders... And actually, by the way, there's a lot of VC funding coming from frontend developers, which is fantastic for all my friends. They're all getting funded, left, right and center. I feel left out. But there is a \[unintelligible 00:53:56.08\] survey a hundred VPs of engineering, how many of them have backend backgrounds, and how many of them have frontend backgrounds? And given that choice, what's more likely for you and your long-term career progression? Do you want to specialize in frontend or do you want to specialize in backend? Different people have different interests, and I think that you can be successful in whatever discipline you pick. But for me, I've been moving towards the backend for that reason.
+**Shawn Wang:** It's a frontend developer who realizes that there's a career ceiling for frontend developers. And it's not a polite conversation, and obviously there are exceptions to frontend developers who are VPs of engineering, frontend developers who are startup founders... And actually, by the way, there's a lot of VC funding coming from frontend developers, which is fantastic for all my friends. They're all getting funded, left, right and center. I feel left out. But there is a Career ceiling, in a sense that survey a hundred VPs of engineering, how many of them have backend backgrounds, and how many of them have frontend backgrounds? And given that choice, what's more likely for you and your long-term career progression? Do you want to specialize in frontend or do you want to specialize in backend? Different people have different interests, and I think that you can be successful in whatever discipline you pick. But for me, I've been moving towards the backend for that reason.
 
 **Adam Stacoviak:** Describe ceiling. What exactly do you mean when you say "ceiling"?
 
@@ -380,7 +380,7 @@ I think that it makes sense for them to \[unintelligible 00:48:02.22\] replicati
 
 **Shawn Wang:** Yeah.
 
-**Jerod Santo:** So you're kind of both ascending to \[unintelligible 00:56:13.19\]
+**Jerod Santo:** So you're kind of both ascending to that degree
 
 **Shawn Wang:** Backends devs will never report to you, let's put it that way.
 
@@ -464,7 +464,7 @@ So Temporal was created at Uber; it runs over 300 use cases at Uber, including d
 
 **Jerod Santo:** Yeah, that's sweet.
 
-**Shawn Wang:** So Temporal combines a database scheduler and a queue system. So why do we not currently do "sleep 30 days" in our system? Because it ties up cross-compute, and it's all in memory; like, it's gonna go away the moment your system goes down. So what you need to do is at every single point in time save any state change to the database, and be able to set internal timers to wake up again when it's time to carry on to the next step. And by the way, what you saw there with the 30-day sleep is also applicable for \[unintelligible 01:03:16.19\] retries. So any single time that you need to call an API, "Oh, it's temporarily rate-limited", you need to try it again. But guess what - you have to set up all this infrastructure and code to do the \[unintelligible 01:03:27.16\] retries. With Temporal, it just kind of bakes that in for you.
+**Shawn Wang:** So Temporal combines a database scheduler and a queue system. So why do we not currently do "sleep 30 days" in our system? Because it ties up cross-compute, and it's all in memory; like, it's gonna go away the moment your system goes down. So what you need to do is at every single point in time save any state change to the database, and be able to set internal timers to wake up again when it's time to carry on to the next step. And by the way, what you saw there with the 30-day sleep is also applicable for timeouts and retries. So any single time that you need to call an API, "Oh, it's temporarily rate-limited", you need to try it again. But guess what - you have to set up all this infrastructure and code to do the timeouts and retries. With Temporal, it just kind of bakes that in for you.
 
 **Adam Stacoviak:** Interesting. What's the prediction then? So if this is the next --
 
@@ -478,7 +478,7 @@ So Temporal was created at Uber; it runs over 300 use cases at Uber, including d
 
 **Shawn Wang:** Yeah, yeah. So for what it's worth, the multi-cloud story is not something we're pushing at all. It's just possible; it's not a main part of the story. The main part of the story is that people are doing long-running jobs badly, they're doing microservice orchestration badly, and that mostly comes out of not having the right abstraction to do it.
 
-\[01:04:08.13\] We have centuries of distributed systems people here that solve that for you in a framework. If you just \[unintelligible 01:04:13.02\] everything else is gonna behave predictably and testably, and you can maintain it.
+\[01:04:08.13\] We have centuries of distributed systems people here that solve that for you in a framework. If you just thought in our breakdown of workflow activities everything else is gonna behave predictably and testably, and you can maintain it.
 
 So I have a blog post for people who are interested on Why Temporal. That's literally the URL, WhyTemporal. The prediction really is about that microservices are exploding, serverless environments are exploding, and they need a way to manage complexity. Every time you call an API, your risk of failure goes up exponentially the more APIs you call. And workflows are getting more and more complex. So we're just long that. As long as that goes up, we go up. \[laughter\] And I think that's a fairly safe bet, I think.
 
@@ -512,4 +512,4 @@ Swyx, this has been so much fun. Any final words, final thoughts, anything you w
 
 **Adam Stacoviak:** Yeah. I appreciate you, man. Thank you for being a listener for all these years, thank you for all you shared here today. We really appreciate you. Thank you.
 
-**Shawn Wang:** Yeah, thanks for having me on. \[unintelligible 01:07:10.11\]
+**Shawn Wang:** Yeah, thanks for having me on. It was a blast.
