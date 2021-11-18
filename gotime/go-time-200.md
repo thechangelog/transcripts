@@ -24,7 +24,7 @@
 
 **Mat Ryer:** \[singing\] Angelicaaa...! Does everyone sing your name if they've seen Hamilton now?
 
-**Angelica Hill:** They do, yes. And I then respond and make them very uncomfortable.
+**Angelica Hill:** They do, yes. And I then respond and make them feel very uncomfortable.
 
 **Mat Ryer:** Yeah, you harmonize with them straight away. That's good.
 
@@ -80,11 +80,11 @@
 
 **Mat Ryer:** We asked a hundred Gophers a set of questions, and it's your job to find the most common answers. It's not a game of right or wrong, this is about getting into the horrible little minds that we've surveyed of those Gophers, and figuring out what they would have said.
 
-**Angelica Hill:** If you're my team, you'd better think that it's about getting it right... \[laughter\]
+**Carlisia Thompson:** If you're on my team, you'd better think that it's about getting it right... \[laughter\]
 
 **Mat Ryer:** Ooh...! Competitive.
 
-**Angelica Hill:** It's all I'm saying.
+**Carlisia Thompson:** It's all I'm saying.
 
 **Johnny Boursiquot:** Always Be Winning. That's Carlisia.
 
@@ -116,7 +116,7 @@ Brian, let's start with you. What's your Twitter name, Brian?
 
 **Brian Ketelsen:** The Norwegian way, K-E-T-E-L-S-E-N.
 
-**Mat Ryer:** Okay, thank you so much. And your question, I thought - Brian, what's your favorite URL scheme? HTPPS? FTP? Which one do you reckon?
+**Mat Ryer:** Okay, thank you so much. And your question, I thought - Brian, what's your favorite URL scheme? HTTPS? FTP? Which one do you reckon?
 
 **Brian Ketelsen:** I like Gopher.
 
@@ -512,7 +512,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Erik St. Martin:** Goto.
 
-**Mat Ryer:** Gophers say... \[win sound\] Top answer. Okay, so Erik, you go the top answer there, so your team now controls the board. We're gonna go around your team in order, and take guesses. Remember, you have three lives. If you lose those three lives, it gives Brian's team the chance to steal. So Natalie, let's have your guess, please. What's the least useful Go keyword, Natalie?
+**Mat Ryer:** Gophers say... \[win sound\] Top answer. Okay, so Erik, you got the top answer there, so your team now controls the board. We're gonna go around your team in order, and take guesses. Remember, you have three lives. If you lose those three lives, it gives Brian's team the chance to steal. So Natalie, let's have your guess, please. What's the least useful Go keyword, Natalie?
 
 **Angelica Hill:** Fallthrough.
 
