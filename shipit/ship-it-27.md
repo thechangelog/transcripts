@@ -2,7 +2,7 @@
 
 **Oleg Nenashev:** Yes, it's live. So it was a project within the Jenkins community, as a part of the Google Summer of Code this year. Akihiro was one of the students, and he chose observability with OpenTelemetry. Originally, the project was rather positioned towards Prometheus, but given the recent developments in the ecosystem, we decided to press it with OpenTelemetry, and actually to try all three parts should time allow. So metrics, traceability and logs. For us it was one of the missing parts of the puzzle, because we already have an OpenTelemetry plugin for Jenkins; Cyrille and many other contributors created it. But this plugin focuses on the Jenkins controller as one of the instances.
 
-\[00:04:27.15\] At the same time, Jenkins itself is a distributed system, it has agents, and actually agents might prove to be quite unstable, especially if you use multi-cloud environments, if you use various cloud provisioning, \[unintelligible 00:04:38.08\] So it's essential to have some tracing and monitoring for these systems, so that you can ensure that your CI environment is operational. And of course, if you can also verify that it's cost-effective, it would be super.
+\[04:27\] At the same time, Jenkins itself is a distributed system, it has agents, and actually agents might prove to be quite unstable, especially if you use multi-cloud environments, if you use various cloud provisioning, \[unintelligible 00:04:38.08\] So it's essential to have some tracing and monitoring for these systems, so that you can ensure that your CI environment is operational. And of course, if you can also verify that it's cost-effective, it would be super.
 
 **Gerhard Lazu:** Okay. So this tracing was happening on the agents, not on the Jenkins master, so that when the jobs run, there will be visibility into the jobs and into the availability of the Jenkins agents themselves. Is that right?
 
@@ -22,17 +22,17 @@ So with this context, why would you say that it's important that we use OpenTele
 
 **Oleg Nenashev:** And this is exactly where we can talk about OpenTelemetry and other open standards. Because if any system independently creates its own monitoring and observability, you basically get lost. So when we talk about modern cloud-native deployment, with Kubernetes, you usually build your CI or CD system from dozens of different tools; each of them might have different applications and different interfaces, and then basically you end up just trying to understand what happens.
 
-\[00:08:11.29\] Similarly to why Jaeger was introduced for cloud-native applications, we need the same for CI/CD and automation in the cloud, because we also need to draw information from these tools on multiple levels. So it might be a CI server, it might an agent, it might be just a build tool like Maven... But we need all this information to understand how is our pipeline going, and now it's also important for audit, for supply chain security, and many other buzzwords that are emerging. But overall, you need data to verify what happens, and OpenTelemetry is one of the great opportunities to provide this data across the ecosystem.
+\[08:11\] Similarly to why Jaeger was introduced for cloud-native applications, we need the same for CI/CD and automation in the cloud, because we also need to draw information from these tools on multiple levels. So it might be a CI server, it might an agent, it might be just a build tool like Maven... But we need all this information to understand how is our pipeline going, and now it's also important for audit, for supply chain security, and many other buzzwords that are emerging. But overall, you need data to verify what happens, and OpenTelemetry is one of the great opportunities to provide this data across the ecosystem.
 
 **Gerhard Lazu:** You said there something really interesting about you disagreeing that CI and CD should be separate systems... And I will want to come back to that. So that's really important; I've taken a mental note. But Cyrille, why do you think that OpenTelemetry is important for CI/CD systems?
 
-**Cyrille Le Clerc:** I will break down the point in two different themes. The first theme is, as you have said, there is a lot of visibility \[unintelligible 00:09:13.29\] end-to-end view of the execution of the CI and CD processes, where distributed traces is very valuable. We see that distributed traces is a very good data structure to model the execution of CI and CD pipelines and processes. Exposing and meeting more practitioners with this proposal, we discovered that all the data of the CD processes is a goldmine. Of course, CI/CD administrators are interested in this to troubleshoot and maintain up and running their platform; they also see benefits for sizing their platform, and then we see dev teams interested in shortening their build cycles and optimizing their unit tests, their flaky tests. We discover people doing cost accounting on the platform, people doing -- I've seen process optimization, like digital transformation, agile transformation, dev ops transformation. If you want to measure your lead time on here, this is a source of data that is very interesting.
+**Cyrille Le Clerc:** I will break down the point in two different themes. The first theme is, as you have said, there is a lot of visibility \[unintelligible 00:09:13.29\] end-to-end view of the execution of the CI and CD processes, where distributed traces is very valuable. We see that distributed traces is a very good data structure to model the execution of CI and CD pipelines and processes. Exposing and meeting more practitioners with this proposal, we discovered that all the data of the CD processes is a goldmine. Of course, CI/CD administrators are interested in this to troubleshoot and maintain up and running their platform; they also see benefits for sizing their platform, and then we see dev teams interested in shortening their build cycles and optimizing their unit tests, their flaky tests. We discover people doing cost accounting on the platform, people doing -- I've seen process optimization, like digital transformation, agile transformation, DevOps transformation. If you want to measure your lead time on here, this is a source of data that is very interesting.
 
 So here we see a lot of value in capturing this data on distributed traces, which is often associated with OpenTelemetry, and is very useful. Then what you said also that was very interesting for me is - you say "We want a unified view on CI and CD", and beyond this debate, is it different tools, is it the same tools? Here the distributed trace culture tells us that we can have an overall visibility across different phases of a cohesive unit. So here, whatever people choose to structure their CI and CD phases, with this visibility on the process we will be able to make this unified.
 
 Then when you talked about OpenTelemetry - I think OpenTelemetry is a great solution. First, it does distributed traces well, in a way that is standardized, popular for people... And also, OpenTelemetry has the vision to provision unified semantic conventions, a common vocabulary to unify things together. And you said "I can have different CI and CD systems", and I remember this week I was talking with some CI platform administrators who told us "We don't use only Jenkins in our organization. Some other people use \[unintelligible 00:11:36.11\] they use maybe other tools... And we want to have a holistic vision across all these, where the CI platform is an implementation detail." This reminds me of your Dagger conversation previously. These people - they are very interested in having an abstraction to look at the CD process, rather than the details of each CI tool... And this culture of the OpenTelemetry community of creating semantic conventions that span across different tools, techniques and implementations I think is a very good match with the problems we want to solve.
 
-\[00:12:13.20\] So I saw these two dimensions - collecting data, and also this culture of abstracting to provide a unified vision on top of different implementation details, in some ways.
+\[12:13\] So I saw these two dimensions - collecting data, and also this culture of abstracting to provide a unified vision on top of different implementation details, in some ways.
 
 **Gerhard Lazu:** So from the perspective of having a good CI/CD system, regardless whether it's one or multiple, which has a good OpenTelemetry integration, what would that look like from the moment you push some code? What is the perfect flow that you imagine that a system with good OpenTelemetry would have?
 
@@ -52,7 +52,7 @@ So basically, in the beginning of this pipeline we should go through all these l
 
 **Gerhard Lazu:** What do you think, Cyrille?
 
-**Cyrille Le Clerc:** \[00:16:02.04\] I would like to come back to your question on what is the right way to instrument a pipeline. What we have discovered instrumenting Jenkins and Maven and Ansible is that instrumenting well your pipeline is a journey for the instrumentation people. We have to understand what are the right spans to capture in your pipeline execution to capture the right step.
+**Cyrille Le Clerc:** \[16:02\] I would like to come back to your question on what is the right way to instrument a pipeline. What we have discovered instrumenting Jenkins and Maven and Ansible is that instrumenting well your pipeline is a journey for the instrumentation people. We have to understand what are the right spans to capture in your pipeline execution to capture the right step.
 
 For example, on Jenkins we had to iterate to capture the right spans to measure the time it was taken to allocate a build agent. Our initial instrumentation did not capture it well, so it was hard for CI/CD administrators to really narrow down their investigation to this specific phase and understand \[unintelligible 00:16:45.24\] across time.
 
@@ -60,7 +60,7 @@ Another thing that was important for us was to iterate on the right attributes w
 
 If you want to be able to use this pipeline execution data to do some cost accounting, then you need to attribute your pipeline execution to teams, so maybe it's to understand what has caused your pipeline -- we are improving this on Jenkins at the moment... To understand what caused the execution of the pipeline, to be able to attribute it to the right team. Same will be for using the pipeline execution data to understand the velocity of teams on the software delivery process in different CI platforms. On your pipelines you have some concepts that are commonly used to define your business logic. Jenkins people commonly use what they call stages, which is a grouping of things; it's maybe the CI build phase, it's the QA validation phase, it's the security validation phase. So here we need to capture the right attributes on these constructs of the pipeline that are used for organizational grouping, to be sure that the data will be useful downstream for the consumers, the use case that will come one day.
 
-**Break:** \[00:18:25.20\]
+**Break:** \[18:25\]
 
 **Gerhard Lazu:** You mentioned, Cyrille, about calculating, or the spans being worked out incorrectly when it comes to job allocation and agents... And that was an interesting problem that I know that CI/CD administrators have. There are many other problems... So I'm wondering, how does OpenTelemetry help the CI/CD administrators, which I think is a very important role? It's not necessarily a person that does that, it's maybe a role that many people share. So how does this help them?
 
@@ -78,7 +78,7 @@ Here it was a very good match with the problems that observability is solving at
 
 For example, there might be a provisioning of agents, if we talk about the \[unintelligible 00:23:25.09\] And this agent provisioning doesn't have to be synchronous. Agents maybe share between different pipelines, and hence various outages \[unintelligible 00:23:36.06\] multiple pipelines. So being capable to trace these events would help me as an administrator to understand, "Okay, this agent is broken." For example, it has the wrong version of Java, due to whatever reason. And then I can go back and understand which pipelines were affected and restore them, if needed, and adjust my systems to reschedule them, so that my delivery continues, and my development teams do not waste time. Just one example. There are many like that.
 
-**Gerhard Lazu:** \[00:24:06.21\] That's a good one. One thing that really got me in the past was caching in CI/CD systems. So when you have basically some dependencies which have been cached, and there's issues related to retrieving data from the cache, it's so difficult to even understand "Where does this fit into my pipeline? Does my pipeline depend on this other thing? What is this other thing? Does it just affect my pipeline? Did I mess up something in the caching? Maybe I'm running the wrong digest, or maybe something just doesn't interact with the caching system properly. That was so frustrating.
+**Gerhard Lazu:** \[24:06\] That's a good one. One thing that really got me in the past was caching in CI/CD systems. So when you have basically some dependencies which have been cached, and there's issues related to retrieving data from the cache, it's so difficult to even understand "Where does this fit into my pipeline? Does my pipeline depend on this other thing? What is this other thing? Does it just affect my pipeline? Did I mess up something in the caching? Maybe I'm running the wrong digest, or maybe something just doesn't interact with the caching system properly. That was so frustrating.
 
 And you're right, there's all these changes that happen in pipelines, and we don't know why they're broken. We just know it doesn't work. Well, that doesn't help me much... And good luck debugging systems that you don't even know exist. That's an interesting proposition...
 
@@ -92,11 +92,11 @@ And you're right, there's all these changes that happen in pipelines, and we don
 
 **Cyrille Le Clerc:** So this is on our radar, to also add observability to unit test execution. There is already a solution for Go tests; it's written by Jaana Dogan, who works at AWS, where she has instrumented with OpenTelemetry Go tests. And we have the idea that it could also work on Java unit tests or any other language, and that we could as well use distributed traces to visualize your unit test execution, the duration and the outcome, success/failure.
 
-And where I think OpenTelemetry is very powerful is that every large organization has its flaky test detector implemented in some ways. People tend to reinvent the wheel. And with OpenTelemetry, with the open nature of its format, then we have an opportunity to create the backbone of unit test results, going through OpenTelemetry channels, which typically can be a Kafka stream. Then you will have the dev ops team -- I think flaky tests \[unintelligible 00:27:29.23\] something that an observability vendor will implement... But maybe it will be a dev ops team somewhere in an organization who will just connect to these Kafka streams of OpenTelemetry traces, create its own tool to process its flaky test report, and share this with the community.
+And where I think OpenTelemetry is very powerful is that every large organization has its flaky test detector implemented in some ways. People tend to reinvent the wheel. And with OpenTelemetry, with the open nature of its format, then we have an opportunity to create the backbone of unit test results, going through OpenTelemetry channels, which typically can be a Kafka stream. Then you will have the DevOps team -- I think flaky tests \[unintelligible 00:27:29.23\] something that an observability vendor will implement... But maybe it will be a DevOps team somewhere in an organization who will just connect to these Kafka streams of OpenTelemetry traces, create its own tool to process its flaky test report, and share this with the community.
 
 With this open source community nature, I imagine that an open source solution will grow in the community, and leverage the fact that OpenTelemetry has a very flexible architecture, a popular technology with OpenTelemetry itself, and streaming Kafka, Kinesis or Google PubSub. I see a lot of traction, and I expect the solution to come soon in the community.
 
-**Gerhard Lazu:** \[00:28:11.14\] So I'm sold... I definitely want OpenTelemetry in my CI/CD system. How do I get it, Oleg? What do I do?
+**Gerhard Lazu:** \[28:11\] So I'm sold... I definitely want OpenTelemetry in my CI/CD system. How do I get it, Oleg? What do I do?
 
 **Oleg Nenashev:** Well, in theory, any system should include OpenTelemetry or APIs out of the box. It doesn't happen at the moment because OpenTelemetry is still an emerging standard... But how I would foresee it - basically, any enterprise-grade CI/CD would include a number of OpenTelemetry collectors, so that you can just connect to them and retrieve this information. And it can be opt-in, \[unintelligible 00:28:40.15\] for example in your Helm charts, and then all your OpenTelemetry collection is configured, because -- it's a building block. If you need to do something complex to enable OpenTelemetry, then it probably doesn't achieve its goal. And once a technology emerges, I would expect that every tool just adopts that, and it becomes a commodity for any system we run.
 
@@ -128,7 +128,7 @@ Also, even when you are inside Jenkins, inside a CI platform that is instrumente
 
 **Gerhard Lazu:** Do you have an example of how to do that? That's very interesting. I would like to check it out, the code.
 
-**Oleg Nenashev:** \[00:32:10.07\] I don't have the code with me, but basically, you can just take OpenTelemetry, you create a shell wrapper, which just sends all the \[unintelligible 00:32:16.24\] in this shell to OpenTelemetry... And that's it.
+**Oleg Nenashev:** \[32:10\] I don't have the code with me, but basically, you can just take OpenTelemetry, you create a shell wrapper, which just sends all the \[unintelligible 00:32:16.24\] in this shell to OpenTelemetry... And that's it.
 
 **Gerhard Lazu:** Okay.
 
@@ -156,7 +156,7 @@ What I would like to say, if you talk about modern Jenkins management - everyone
 
 **Oleg Nenashev:** Firstly, I agree that you should be able to test locally, but that doesn't mean that you cannot use pipeline definitions... Because many modern systems actually allow running pipelines locally. It's not just Jenkins... So for Jenkins we had Jenkinsfile Runner, \[unintelligible 00:35:42.20\] for GitHub there are projects as well... And it basically imposes this \[unintelligible 00:35:50.05\] So if you have proper configuration management for a system, if you can produce your production, see the environment locally, for example if you run your CI/CD system in the container, you can easily do local development and create complex pipelines.
 
-**Cyrille Le Clerc:** \[00:36:06.14\] That's a good solution.
+**Cyrille Le Clerc:** \[36:06\] That's a good solution.
 
 **Gerhard Lazu:** We will talk about pipeline development, what that looks like... But I would like to go back to the production question. How do you deploy Jenkins in production? I think Cyrille was mentioning Kubernetes... You would deploy Jenkins, a production deployment, and you would manage Jenkins via Kubernetes. And I imagine a Helm chart, or Operator? What would you go, Cyrille? Which way?
 
@@ -186,7 +186,7 @@ What I would like to say, if you talk about modern Jenkins management - everyone
 
 **Oleg Nenashev:** In my case, I would rather use for agent management, because if you put it in Kubernetes, it will be still a question how do you actually retrieve these configurations into Jenkins... And ultimately, it doesn't matter, because it's still a system in the same repository. It doesn't matter how exactly it's deployed. Kubernetes inside Jenkins just gives you more flexibility, because if needed, you can change in flight, without redeploying significant parts of your system.
 
-**Break:** \[00:39:41.13\]
+**Break:** \[39:41\]
 
 **Gerhard Lazu:** Oleg, I would like us to come back to the conversation that we started having and we've put a pin in it, around separating the CI from the CD concerns in your system, which gets code out into production. What do you think about that? Do you think you should separate them or you shouldn't? And why.
 
@@ -208,7 +208,7 @@ So in that world, we can have multiple copies of production, whatever that means
 
 **Oleg Nenashev:** Yeah, it's a good approach, because the CD system will be eventually more complex than CI, even in this case... Because it's nice to say that we just download the artifact, but when it comes, let's say, to failover - failover is a must for CD - then of course, various kinds of scalability concerns... Then you get a huge CD system, and having proper tools for that is definitely nice.
 
-**Gerhard Lazu:** \[00:45:59.00\] This is a question for you, Oleg... What does your process of developing a CI/CD pipeline look like?
+**Gerhard Lazu:** \[45:59\] This is a question for you, Oleg... What does your process of developing a CI/CD pipeline look like?
 
 **Oleg Nenashev:** So in my case, I develop pipelines locally. I mostly use Jenkins (surprise, surprise). I also use GitHub Actions quite a lot. In both cases, I run pipelines locally, I verify them... And in both cases, I try to minimize the amount of code and business logic that goes into my user definitions, whether it's Yaml, or whether it's Jenkinsfile, because I want to have a library of common steps... For example, if I deploy my application, like publish to Docker Hub, it's just a common step. Or if I build a Maven project, it's still a common step.
 
@@ -232,7 +232,7 @@ It happens usually that there is a pipeline library that implements these steps;
 
 So this is what comes to my mind... And then there are other requirements for the CI/CD companies, but I am less involved in this at the moment.
 
-**Gerhard Lazu:** \[00:50:13.25\] How do you think about supply chain security within the CI/CD space, Oleg?
+**Gerhard Lazu:** \[50:13\] How do you think about supply chain security within the CI/CD space, Oleg?
 
 **Oleg Nenashev:** I definitely support this topic. It's very important. When SolarWinds was announced one year ago, we actually had a Jenkins governance board meeting, and then a discussion at the contributors summit, and we decided to prioritize supply chain security as one of the major topics for this year for the Jenkins community.
 
@@ -260,7 +260,7 @@ So I think there is an incremental journey. It's a continuous exercise to verify
 
 **Gerhard Lazu:** Right.
 
-**Oleg Nenashev:** \[00:54:09.00\] For the record, I'm a big fan of Scandinavia, but Switzerland is good, and why not. I moved there.
+**Oleg Nenashev:** \[54:09\] For the record, I'm a big fan of Scandinavia, but Switzerland is good, and why not. I moved there.
 
 **Gerhard Lazu:** How long have you been in Switzerland? How long have you been living there?
 
