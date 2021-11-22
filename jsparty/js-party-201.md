@@ -14,7 +14,7 @@
 
 Anyways, I'm gonna stop yapping... Let's first get into introducing who Rachel is, and then we'll get into some of those specifics next. So hello, Rachel. You can tell I'm excited, because I've been talking non-stop for about two minutes... Can you tell us who you are and tell us a little bit about yourself?
 
-**Rachel Nabors:** \[00:04:12.27\] I'm Rachel Nabors, I am the documentation engineer working with the React core team, as well as React Native and Relay, which is a React data solution you may or may not have heard about in the open source ecosystem, but basically, the React fam of technologies, as I like to think of them.
+**Rachel Nabors:** \[04:12\] I'm Rachel Nabors, I am the documentation engineer working with the React core team, as well as React Native and Relay, which is a React data solution you may or may not have heard about in the open source ecosystem, but basically, the React fam of technologies, as I like to think of them.
 
 I've started out actually -- I came in working on React Native's documentation, and lately I've been working with the React core team on the React documentation as well.
 
@@ -30,7 +30,7 @@ And I think that's been the most interesting thing about working on the team, is
 
 **Amal Hussein:** Yeah. The adoption of React is really massive. And to give everybody a mental model for what the scale of the web is - React is still used by only 2% of websites on the internet. So think about how widely React is adopted, and then think that's only 2%. So just how massive the web is. That 2% is ridiculous amounts of traffic. It's in the millions/billions, right Rachel? I mean, Facebook alone is in the billions, so... Yeah, Facebook plus all the other websites, so... It's huge. It's really incredible.
 
-\[00:08:09.03\] So what's your relationship with React? How is your relationship -- so it was really nice to hear you describe what it's been like for you to witness it all come together, and that experience, but how has your relationship with React the library changed now that you're on the \[unintelligible 00:08:22.13\]
+\[08:09\] So what's your relationship with React? How is your relationship -- so it was really nice to hear you describe what it's been like for you to witness it all come together, and that experience, but how has your relationship with React the library changed now that you're on the \[unintelligible 00:08:22.13\]
 
 **Rachel Nabors:** Let's be honest, I kept trying to learn React, and kept not making it stick. It would just go in one ear and out the other. And I was like, "Well, maybe I need a job where I'm working with React." But at the time, I was thinking about what I wanted to do next, and I was like "You know, I could just learn React from the people who build it. Oh, look over there... There's a team. They work with React a lot. Hello... Do you need any assistance? Can I do anything for you?" "Oh, okay, yeah... Let's write some educational materials. I'm pretty good at that."
 
@@ -56,7 +56,7 @@ When I say "platform tree" here, you're probably thinking "What is she talking a
 
 So platform tree is an internal lingo saying "Whatever it is that React is spitting out to - that." It's usually a tree, full of nodes representing content and data. But when I first came in, I wasn't really sure how the state was working. I mean, when you look at Vue, when you look at other kinds of UI platforms, they tend to have more mutable state models. But React is different. It has a one-way data flow. You have to deliberately set the state. And that act of setting the state tells React "Yo! Things have changed. Look at that component. Did that component change because the state has changed? If it has changed, go to that platform tree and make any necessary adjustments." The render and the commit process. And that was something... Once you get that, everything else really falls into place. Hooks, the API that you use with React - it lets you hook into different parts of this process. \[unintelligible 00:12:17.14\] they happen after the render process, and set state, that hook itself kicks off the render process.
 
-\[00:12:30.16\] Anyway... I think grokking that when you come in, just like "Oh, I'm telling React what to do with these APIs. That's pretty cool." I think that is the difference between really succeeding and running with React, and being like "What is going on here?"
+\[12:30\] Anyway... I think grokking that when you come in, just like "Oh, I'm telling React what to do with these APIs. That's pretty cool." I think that is the difference between really succeeding and running with React, and being like "What is going on here?"
 
 And now, the new docs are completely written from the ground up with hooks first, so that you really understand these internal processes.
 
@@ -106,7 +106,7 @@ I think as you go on with your React journey, the challenges become more about e
 
 **Rachel Nabors:** Oh, trust me, I can do plenty of wrong.
 
-**Amal Hussein:** \[00:15:50.20\] This is a fart cloud that smells like strawberries and fresh chocolate chip cookies, okay? You can do no wrong. \[laughs\]
+**Amal Hussein:** \[15:50\] This is a fart cloud that smells like strawberries and fresh chocolate chip cookies, okay? You can do no wrong. \[laughs\]
 
 **Rachel Nabors:** You know, if I could come up with a pill that would do that, I would be a millionaire. I feel like there are entire crack teams of scientists working towards solving that problem.
 
@@ -148,7 +148,7 @@ And one thing that came through for both communities, time and time again, was -
 
 **Rachel Nabors:** This would be like if you invited someone to a craft workshop and said "Here are all these nails." "Okay, great. I love the nails. What do I do with them?" So to show you the nails, it's great if you can give people like, "Here's a piece of wood and a hammer. Now, hammer all the nails you want here." And that's sort of what the interactive examples do. You don't have to worry about spinning up an environment. You don't have to make big decisions, like "Next or Gatsby?! Or should I spin my own? I don't know!" No, just go poke the code; poke the code until you're in love with the code. Then you can make all those life-changing decisions. I mean, stack-changing decisions. But no pressure, no commitment, no renewal fees. Get in there.
 
-\[00:20:02.18\] So we implemented these interactive examples for React Native, which were a new and bigger challenge, and they took off. Everyone loved them. They loved the API docs having interactive examples, they loved that every single example on the site was suddenly interactive. There were a bunch of other little things that were tested out in the React Native docs effort that tested so well, got such great feedback before and after, having made good on these... And we saw the same things going on with React's docs. It was like, "Well, we know exactly what to do here."
+\[20:02\] So we implemented these interactive examples for React Native, which were a new and bigger challenge, and they took off. Everyone loved them. They loved the API docs having interactive examples, they loved that every single example on the site was suddenly interactive. There were a bunch of other little things that were tested out in the React Native docs effort that tested so well, got such great feedback before and after, having made good on these... And we saw the same things going on with React's docs. It was like, "Well, we know exactly what to do here."
 
 **Amal Hussein:** Yeah.
 
@@ -170,7 +170,7 @@ I think we've kind of skirted around a bunch of things on this site, so can I --
 
 Additionally, we wanted to give this to people who are training folks to learn React, too. People who are writing articles, who are running meetups and workshops... We want them to be able to be like, "Yeah, if you're struggling with that, just check out the React docs." Or "We're introducing you to this API today", and the link goes to one page in the React docs that has anything, to answer any question, any hiccup that people might have. We wanted to create a resource that would empower the community to become authority in their own right.
 
-**Break:** \[00:23:57.23\]
+**Break:** \[23:57\]
 
 **Amal Hussein:** Okay, Rachel, those are some really great goals. I'm really curious to hear if you think you have achieve them or you are on track to achieve them... And also, can you share some insights into the big TBD section that's on the website right now, where it's like "We're this percent complete with the API docs. We're this percent complete with the learning docs." So can you speak more about that?
 
@@ -188,7 +188,7 @@ Now, the community of course is very eager to assist in any way possible, and th
 
 **Rachel Nabors:** And we really appreciate pull requests for things like typos, "This example could be done like that..." I actually did partner with a couple of people from the community who work on the documentation so far, and we'll continue to do so... For instance, I wanna give a shout-out to Sylwia Vargas. Originally, all our docs had kittens in the examples. We were using placekitten for everything. And I loved putting the cats jokes in there, but cats are not very inclusive. Not everyone loves cats, not every culture loves cats... So we were like, "We should do something with these docs that really showcases all of humanity." Great scientists, cities, art, that sort of thing. And we've partnered with Sylvia, who went through and updated all of the examples to showcase these amazing topics, and really bring in added spark.
 
-\[00:28:18.27\] But there will be ways in the future for the community to have even more impact. There'll be a translation effort that will kick off, and that is a great time to get involved then. But for now, we're mostly writing and generating and editing the content on team, and with the people we've been partnering so far. It's like getting mentored by a team member, so it's pretty awesome. I feel great about the quality that has been produced so far.
+\[28:18\] But there will be ways in the future for the community to have even more impact. There'll be a translation effort that will kick off, and that is a great time to get involved then. But for now, we're mostly writing and generating and editing the content on team, and with the people we've been partnering so far. It's like getting mentored by a team member, so it's pretty awesome. I feel great about the quality that has been produced so far.
 
 **Amal Hussein:** Yeah. That makes a lot of sense. It's a completely rational decision and I think a good move to make sure you can take full ownership of the message, you can own the mistakes and you can own the success. I get that. So that's awesome.
 
@@ -206,7 +206,7 @@ But you know, if you're shy, you can also leave feedback using the Feedback butt
 
 One of the challenges with this was we could have -- you know, it is a new design; we could have just designed things and thrown them over the wall and seen how they did, or showed people designs with mock content in it... But we really wanted to test the design with the content and see where people were getting stuck, where they were doing well... We caught a lot of stuff early, for instance networking issues that were making the examples take very, very long to load in different parts of the world. We caught those so early; we're really happy we were able to do that.
 
-\[00:31:59.22\] Other things -- like, at first, people didn't realize that the interactive examples are interactive. They thought they were -- I mean, interactive examples are still fairly new. They're gonna be like old hat in a few days, I'm sure... But right now, people are still like "I thought that was a picture of the code." Or "I expected that to be a code block." So we had to do some things where we rejiggered the design to make it more interactive and more like a coding editor, with numbers down the side etc. But there's no way we would have known this if we'd just been like "Waterfall! Launch everything with horns." So this is why we did so much testing along the way.
+\[31:59\] Other things -- like, at first, people didn't realize that the interactive examples are interactive. They thought they were -- I mean, interactive examples are still fairly new. They're gonna be like old hat in a few days, I'm sure... But right now, people are still like "I thought that was a picture of the code." Or "I expected that to be a code block." So we had to do some things where we rejiggered the design to make it more interactive and more like a coding editor, with numbers down the side etc. But there's no way we would have known this if we'd just been like "Waterfall! Launch everything with horns." So this is why we did so much testing along the way.
 
 There's also been formal surveying of people coming in and out of the testing pools, to get a better idea of how does this stack up against the old docs which you've recommended to a friend... And the signal has been strong, and it remains strong. We're still getting really good feedback. But now there's a question, because you know, you can sit over a person's shoulder and watch him for an hour, you can ask them to fill out a survey after they've interacted with the docs for a week, but now the question is "What kind of feedback do we get after people have been using the docs in beta for a while?" That's the feedback. This is the third stage of user testing. And that's why we are exceptionally keen to get that feedback.
 
@@ -240,7 +240,7 @@ There's also been formal surveying of people coming in and out of the testing po
 
 **Amal Hussein:** Subpar...
 
-**Rachel Nabors:** \[00:36:10.23\] ...not polished enough for everybody. So there was a reason for keeping it behind a gate for a bit, to make sure that everybody was gonna have a great experience, that user testing was all around positive, people realized that the interactive examples were interactive, for instance... That was all good stuff. But now? Now the real question is "How is it gonna do in production?" And you can only test on a subset of users for so long. Eventually, you do have to see how it's gonna go. And you're absolutely right; you can run all the tests on your code to make sure it's working, but in the end, doing the code review is going to probably give you the most insights. Eventually, you have to share.
+**Rachel Nabors:** \[36:10\] ...not polished enough for everybody. So there was a reason for keeping it behind a gate for a bit, to make sure that everybody was gonna have a great experience, that user testing was all around positive, people realized that the interactive examples were interactive, for instance... That was all good stuff. But now? Now the real question is "How is it gonna do in production?" And you can only test on a subset of users for so long. Eventually, you do have to see how it's gonna go. And you're absolutely right; you can run all the tests on your code to make sure it's working, but in the end, doing the code review is going to probably give you the most insights. Eventually, you have to share.
 
 **Amal Hussein:** Yeah.
 
@@ -256,7 +256,7 @@ Additionally, I like to use -- there's this thing called Net Promoter Score, whi
 
 **Rachel Nabors:** Yeah. That's pretty good. So this is an interesting measure... And you really do have to read up on it before you start using it. But for me, from doing so much metric tracking with all the documentation efforts since getting here, it tracks really well with a bunch of other satisfaction metrics. So if that metric is doing well, I kind of expect that a bunch of other questions I could ask are also doing well, which means I don't have to ask people as many questions. "How likely are you to recommend this particular set of documentation to a friend or a colleague?" And that is a pretty good baseline from which you can compare before and after photos, or compare how well is my JavaScript documentation doing next to my Android documentation? Well, NPS is x, NPS is y... We can see that people are less likely to recommend this one, so let's investigate that. It's really good for taking the pulse, and before and after pictures.
 
-\[00:40:09.14\] You can always do page metrics, thumbs up, thumbs down... Those are great for tracking how people are feeling about the documentation after you've moved on from the project. They're a little less useful when you're doing beta testing on new content, because you don't have a lot of people there thumbs-upping and thumbs-downing. You know, four people give you a thumbs up doesn't necessarily mean that that particular page is stellar. So that's the interesting thing about metrics. The more people you have giving you the data, the more trustworthy it is. When you're doing little tiny beta tests, you end up leaning more on qualitative feedback... Like, "What did you think of the docs?" People say "Ah, this is amazing. It's exactly what I need." That's a really good signal.
+\[40:09\] You can always do page metrics, thumbs up, thumbs down... Those are great for tracking how people are feeling about the documentation after you've moved on from the project. They're a little less useful when you're doing beta testing on new content, because you don't have a lot of people there thumbs-upping and thumbs-downing. You know, four people give you a thumbs up doesn't necessarily mean that that particular page is stellar. So that's the interesting thing about metrics. The more people you have giving you the data, the more trustworthy it is. When you're doing little tiny beta tests, you end up leaning more on qualitative feedback... Like, "What did you think of the docs?" People say "Ah, this is amazing. It's exactly what I need." That's a really good signal.
 
 So it's a mixture -- when you're developing a new learning resource, it's a mixture of qualitative and quantitative. But once you release it into the wild, it really is helpful to have the quantitative metrics set up and running, to help you ensure \[unintelligible 00:41:03.22\] "Oh, these docs haven't been updated in a while and they're getting a lot of thumbs down. We should look into that." "Huh, we're getting a lot of feedback that people are coming to the references section, but they're not finding what they need. Hm... I wonder what it is that they need. Let's dive into the comments."
 
@@ -292,7 +292,7 @@ And then the second question is really what it was like to work with all these p
 
 **Rachel Nabors:** Yeah. That was fun. And then, to actually build out the final site, there was a design effort. We had a UI designer in-house who worked on the code diagrams and how the interactive examples would work. And another designer, who came up with the design system which actually folded into a bit of a design refresh for the React brand - you might notice that the logo is a little smoother around the edges now. It's very, very subtle...
 
-**Amal Hussein:** \[00:44:13.23\] \[laughs\] But is this the difference between a squircle and--
+**Amal Hussein:** \[44:13\] \[laughs\] But is this the difference between a squircle and--
 
 **Amelia Wattenberger:** A rounded rectangle?
 
@@ -348,11 +348,11 @@ And these take my chicken-scratchings and makes them actual diagrams.
 
 So I really think when you look at these docs, you're looking at a synthesis of so many efforts, and a feedback of so many amazing volunteers who joined us at the start of the journey.
 
-**Break:** \[00:48:33.08\]
+**Break:** \[48:33\]
 
 **Amal Hussein:** Okay, Rachel, that was really incredible to hear, about just how many people were involved, and vendors, volunteers, you name it... You have a whole kind of smorgasbord of people helping birthe this into the world; it's just so exciting. I'm curious - the goals are kind of these lofty goals, right? Like, "Hey, you should be able to more or less master React through these docs", and you should be able to be comfortable, the API reference should cover everything you need to know to stay safe and be productive. So I'm assuming, as much as I know when I'm learning, I'm usually learning from multiple sources on the same topic... And usually, that's because they don't all cover the same thing, in the same way, and I don't always learn from them in the same way... So what gaps do you think that you guys are never gonna cover, and what types of things would people wanna kind of look to other places beyond the docs to gain mastery?
 
-**Rachel Nabors:** \[00:52:19.07\] Well, for one thing, the docs strictly teach React. They don't teach React and Next, or React and Gatsby, or React for building a blog, or React for building your own app. It's strictly how to get great with React. If you want to learn those other things, there are amazing resources available. The documentation at Next and Gatsby is excellent.
+**Rachel Nabors:** \[52:19\] Well, for one thing, the docs strictly teach React. They don't teach React and Next, or React and Gatsby, or React for building a blog, or React for building your own app. It's strictly how to get great with React. If you want to learn those other things, there are amazing resources available. The documentation at Next and Gatsby is excellent.
 
 What we wanted to do though was to make sure that these people who build great courses, great platforms etc. - that they have reference material that they could link out to, lean on, or even re-explain React better than we could to their audiences, but feel certain that they were -- in the case of trainers making courses, really be sure that they were explaining it right. We're not able to go out and offer editorialship to everyone's documentation and courses. We wish we could...
 
@@ -372,7 +372,7 @@ What we wanted to do though was to make sure that these people who build great c
 
 So there was an information architecture overhaul. We have API references, and we have the actual React Learn content, which is step-by-step lessons and guides for how to install, how to get something quickly running, and how to dive deep with React. These guides are actually a little bit different from the conceptual overview and guides docs you mentioned. They're kind of a merging of the two, because it's very hard to talk about React conceptually without actually showing things in progress. And if we did split up the conceptual overview, we'd run into a situation where we might end up with long essays here, and then explanations that don't really help you understand what's going on over here. And you can guess how much time people are gonna spend on which.
 
-\[00:56:04.29\] So this goal-based approach to learning React actually kind of blends those two kinds of content into one. So as you're learning about how state works, you're also learning about the concept of render and commit, which is necessary to understand how state works. Setting state triggers a render process. Oh... But what is that render process? "Don't go to the other side of the site; stay right there, kiddos. We're gonna tell you about it right there." So that was the approach that we took with these. It's a little different, a little experimental, but it seems to be doing well with test audiences, and we think it's doing well in production so far... So - fingers crossed. We did take that particular approach here.
+\[56:04\] So this goal-based approach to learning React actually kind of blends those two kinds of content into one. So as you're learning about how state works, you're also learning about the concept of render and commit, which is necessary to understand how state works. Setting state triggers a render process. Oh... But what is that render process? "Don't go to the other side of the site; stay right there, kiddos. We're gonna tell you about it right there." So that was the approach that we took with these. It's a little different, a little experimental, but it seems to be doing well with test audiences, and we think it's doing well in production so far... So - fingers crossed. We did take that particular approach here.
 
 We do want to add some tutorials once we've gotten out of beta and gone fully-loaded into the new site... That is on the roadmap for the future. So I'm so glad that you brought of those different content types.
 
