@@ -90,7 +90,7 @@ There's an underlying behavior of the model that isn't really probed until you d
 
 **Chris Benson:** Absolutely. And we can put in the show notes the paper that this is based on, it's called Delphi: Towards Machine Ethics and Norms, and we can include that for people to go read, as well as the article.
 
-**Break**: \[00:18:10.17\]
+**Break**: \[18:10\]
 
 **Daniel Whitenack:** Okay, Chris, well - last year, I don't know if we'd consider this a follow up Fully-Connected episode, but last year we did talk about the AI Index report, which came out from the Stanford Institute for Human-Centered Artificial Intelligence, and we have an updated version of that for this year. There's sort of a bit of a summary article, which I think you ran across, also on IEEE Spectrum, but you can also look at directly at the AI Index Annual Report site, and they have some sort of major takeaways as well.
 
