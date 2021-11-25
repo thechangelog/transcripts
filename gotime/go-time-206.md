@@ -20,7 +20,7 @@
 
 **Mat Ryer:** I hear people tell me that they've done one of your courses and they loved it, so I do hear that feedback.
 
-**Johnny Boursiquot:** \[00:04:04.13\] Yeah. I enjoy hearing that. I enjoy it when students reach out and say "Hey, your teaching, your course, your live workshop (whatever it was) helped me in my career", this and that... Oh, man. I love to hear that. As a teacher, it's one of the best things you can hear.
+**Johnny Boursiquot:** \[04:04\] Yeah. I enjoy hearing that. I enjoy it when students reach out and say "Hey, your teaching, your course, your live workshop (whatever it was) helped me in my career", this and that... Oh, man. I love to hear that. As a teacher, it's one of the best things you can hear.
 
 **Mat Ryer:** Amazing, yeah. Absolutely. Tiago, you spoke recently at GopherCon UK, didn't you?
 
@@ -42,7 +42,7 @@ I think in that case it was actually a really good thing, because it just highli
 
 Imagine that you have a policy table, a vehicle table, a profile table, and you have to change all of that data in one go. With a distributed system, that's very hard to achieve, because you need to make multiple requests and guarantee that the data changes.
 
-\[00:08:00.18\] So eventual consistency, in my view, is you need to ask for the change to happen, and you just need to be okay with the fact that the change might not happen now, it might happen in two minutes, in five minutes, tomorrow, just because of networking problems, services may be down... So eventual consistency means that you make a request now, the data eventually is guaranteed to all be changed, and you'll eventually get all of that data changed.
+\[08:00\] So eventual consistency, in my view, is you need to ask for the change to happen, and you just need to be okay with the fact that the change might not happen now, it might happen in two minutes, in five minutes, tomorrow, just because of networking problems, services may be down... So eventual consistency means that you make a request now, the data eventually is guaranteed to all be changed, and you'll eventually get all of that data changed.
 
 I noticed that it's a hard topic to actually explain. It's hard to explain this eventual consistency thing, and I was trying to find a good analogy for it... And I thought about the analogy of - so two people that want to meet somewhere, it's a three-hour drive, and one person takes two hours, the other takes three hours, and they both leave at the appropriate time, but one person gets stuck in traffic, the other person arrives, but eventually, that first person will also arrive there, and eventually they'll be consistent and meet each other. I'm not sure if it's the best analogy, but it was what I could think of...
 
@@ -58,7 +58,7 @@ This is why distributed systems are so hard; not just at the consistency of the 
 
 **Tiago Mendes:** Sure. So the Saga pattern - and what is surprising is that the Saga pattern was described first on a paper in '87, so it's nothing new... But the time it was described it was a pattern for long-lived transactions in the local database; so transactions that take a long time in getting those transactions done.
 
-\[00:12:07.09\] And what happened is that with the advent of microservices, this Saga pattern was then adapted to handle the distributed system case. And this Saga pattern - it's not an acronym. A lot of people asked what's the acronym for it; it's not exactly an acronym. I think it's the Saga pattern because each of the intervenients are called Sagas, or each of the transactions are called Sagas.
+\[12:07\] And what happened is that with the advent of microservices, this Saga pattern was then adapted to handle the distributed system case. And this Saga pattern - it's not an acronym. A lot of people asked what's the acronym for it; it's not exactly an acronym. I think it's the Saga pattern because each of the intervenients are called Sagas, or each of the transactions are called Sagas.
 
 What it does is it comes into two flavors. One of them is - it's a pattern that allows you to change data in microservices and guarantee that those changes will be consistent, and it has those rollback mechanisms that can still be hard to get, but it does feature rollback mechanisms.
 
@@ -76,13 +76,13 @@ The problem with two-phase commit and why people tend to go for Sagas when they 
 
 I have a feeling - and I can't confirm this with any type of data - that it's just a pattern that is not yet very widespread. A lot of people, when they see this problem at work or day-to-day lives, you try to think by yourself, because you think "Well, this is a unique problem." We know all the information from microservices books, but a lot of books don't cover exactly the Saga pattern, they just cover how you can deal with this.
 
-\[00:16:12.03\] So people end up dealing with it themselves, without researching that there's a saga pattern... Which is perfectly valid. Like, if it solves your problem, it solves your problem; you don't need to go to a technical description of how you're solving it. So my gut feeling tells me there are a lot of people that already used the Saga pattern without knowing that they're using the Saga pattern.
+\[16:12\] So people end up dealing with it themselves, without researching that there's a saga pattern... Which is perfectly valid. Like, if it solves your problem, it solves your problem; you don't need to go to a technical description of how you're solving it. So my gut feeling tells me there are a lot of people that already used the Saga pattern without knowing that they're using the Saga pattern.
 
 **Jon Calhoun:** I would probably guess that for a majority of people they probably don't need to use eventual consistency or anything that complex. A lot of us work at large companies where we get introduced to that. So if you worked at Google or something, you pretty much have to deal with it. But if you're working at a smaller company, introducing this is just a lot of complexity that you don't need... So I'm guessing there's just a ton of developers out there who never actually have to implement it. So the result there is they don't really learn about it or put it to practice. Anybody who's learned about algorithms or anything like that knows that until you've actually coded it, knowing it in theory and knowing how to actually implement it is two completely different things.
 
 **Tiago Mendes:** So true.
 
-**Break:** \[00:17:08.06\]
+**Break:** \[17:08\]
 
 **Mat Ryer:** Yeah, so it's very interesting, this idea -- I think some of the technical problems that we face are probably quite unique, and it'd be interesting... Because I could imagine there being a Go package that you can just pick up and just use... And I know there are some examples of frameworks like that... But I find that in some way, your problems really are quite unique. But obviously, learning a pattern like this from people that have implemented it can only really help there.
 
@@ -92,7 +92,7 @@ But it's interesting... So one of the other questions I had about this is whethe
 
 **Mat Ryer:** Why does that happen? Why does it happen that you get the same message multiple times?
 
-**Johnny Boursiquot:** \[00:19:57.01\] Well, you can imagine -- say you have a cluster of systems who are responsible for relaying a certain message at a certain time. Maybe the coordination. I have a feeling it's gonna vary from product to product, but assuming you have a system where you require some coordination to relay that a particular message was communicated, or that a client picked up a message, or whatever it is. It could be timing, it could be however they track which message has already been communicated... And because you might have some overlap at some point - though rare, it does happen; so it could be that the same message finds itself staying in a queue when it's already been picked up; the window for it, for whatever reason, doesn't get set to hide it from other clients picking it up, so that message ends up getting picked up again, multiple times, sometimes by the same client, sometimes by other clients...
+**Johnny Boursiquot:** \[19:57\] Well, you can imagine -- say you have a cluster of systems who are responsible for relaying a certain message at a certain time. Maybe the coordination. I have a feeling it's gonna vary from product to product, but assuming you have a system where you require some coordination to relay that a particular message was communicated, or that a client picked up a message, or whatever it is. It could be timing, it could be however they track which message has already been communicated... And because you might have some overlap at some point - though rare, it does happen; so it could be that the same message finds itself staying in a queue when it's already been picked up; the window for it, for whatever reason, doesn't get set to hide it from other clients picking it up, so that message ends up getting picked up again, multiple times, sometimes by the same client, sometimes by other clients...
 
 So you kind of need to factor in the fact that in a distributed system, especially when messages are involved, which is a common thing for evented systems \[unintelligible 00:20:52.27\] So with these kinds of systems, you kind of have to factor in the fact that you may get a message multiple times, and it's up to you as a developer -- then I have to solve it at a systems level, at this point. It's up to you as a developer to engineer your software for that \[unintelligible 00:21:13.12\]
 
@@ -124,7 +124,7 @@ Francesc Campoy, actually, of justforfunc fame, and loads of other things, told 
 
 **Tiago Mendes:** Yeah. One of the top tips around Sagas that are usually mentioned is to use transaction IDs, so that you can use these transaction IDs to know if this particular transaction ID was already processed or not. For example, if you're changing data, you don't need to exactly have a +1, but you might be getting into the case where you're updating your database twice, or whatever... Which wouldn't be a critical case, but still, you probably don't wanna do that operation. But for example in banking, if the request really is "Transfer 10 pounds to that other account", you don't wanna process that message twice. So you can use transaction IDs to guarantee that if this message comes, you just don't process it again, because you already processed this transaction ID; just throw it away.
 
-\[00:24:12.03\] And that's one of the key things also about Sagas, is to use transaction IDs. They help you in more than just this, but it's very helpful to guarantee that you're not making the wrong changes.
+\[24:12\] And that's one of the key things also about Sagas, is to use transaction IDs. They help you in more than just this, but it's very helpful to guarantee that you're not making the wrong changes.
 
 **Mat Ryer:** Yeah, one example that I think people might be familiar with is when you do an update in like a SQL request, a SQL command executed... You can sometimes have conditions on an update. So you can say "Update this if" a particular value is what you expect it to be. And I've seen this done with like a version number as well in the row. So you might read the record and you see it's version nine, and then you say "Okay, make this update on the condition that the version is still nine." And then if anyone's been in there before that to update it, that will fail, because something else has changed and you have to sort of go back and then do it.
 
@@ -140,7 +140,7 @@ One important thing that the Saga orchestrator is also responsible for is to hol
 
 And again, there's another business case here that you could just say "Okay, you don't roll back, but you just wait until you can ship this." But let's suppose that we want to roll back here... What you would do is you would then start issuing compensation commands. So in that reply message, instead of the command being "Move forward to the next step" or "I updated this", the command will be "I've failed. Compensate." And the Saga orchestrator is then responsible to say "Okay, then payment service, compensate this", or for example "Release the funds", or "Refund the customer. Order service, compensate this, so put the stock back in the place it was." And this is how these systems can self-heal. And the Saga will always keep the log of what's going on, which point, for each transaction ID... It's very important to have those transaction IDs to know which of the transactions you're talking about at this point... And you'll always keep a log of your steps and the compensating transactions that you need to do, or the next transactions that you need to do.
 
-**Mat Ryer:** \[00:27:56.06\] So is this the case where every service, every microservice needs to know how to kind of undo itself? \[unintelligible 00:28:00.18\] depending on your case.
+**Mat Ryer:** \[27:56\] So is this the case where every service, every microservice needs to know how to kind of undo itself? \[unintelligible 00:28:00.18\] depending on your case.
 
 **Tiago Mendes:** It depends on the business. But if you need to roll back, if you wanna have the concept in your business of rolling back data, or the concept or rolling forward, for example instead of deleting the row on the database you add a new row with the previous data; that's also a valid way to do it. Each service should know how to compensate the transactions.
 
@@ -158,7 +158,7 @@ I think everybody -- hopefully, if you're lucky enough and you get to work on a 
 
 So I think it's a perfectly reasonable thing to expect engineers working on systems of a certain size to know about the Saga pattern, for example, to know about how to deal with these resilient system and to work with their teams to figure out "Okay, what are the different failure modes? What are the things that could go wrong in the process? What are the workflows that we need to set? Parts on a component can wait for other parts to recover" and things like that. So identifying these things - that is the beauty of engineering these kinds of solutions.
 
-**Mat Ryer:** \[00:32:03.04\] Yeah. That's very -- you're getting me excited now; I wanna go build some enormous thing...
+**Mat Ryer:** \[32:03\] Yeah. That's very -- you're getting me excited now; I wanna go build some enormous thing...
 
 **Johnny Boursiquot:** You wanna build a distributed system? \[laughs\]
 
@@ -178,7 +178,7 @@ So that's always quite fun as well, I think, when you think about user experienc
 
 **Mat Ryer:** We won't be able to put Tiago's talk in the show notes, because I don't think it's going to be published by the time this episode goes out, but... \[unintelligible 00:35:50.02\] or eventually you'll find it.
 
-\[00:35:58.07\] I've got another example of a real one that I had, where I built this game, it was like a choose your own adventure game on Twitter, where the audience chooses the branch of the story to go down by using Twitter polls. So all the followers vote, and that's the decision that's then taken. And when using the Twitter API to read the poll results, sometimes I'd get old data. And this again is down to eventual consistency, the fact that it may be some of the servers probably had the latest information, but it just hadn't propagated across the system yet. So for whatever reason, through the magic of routing around the internet, I was hitting a server with old data... And it reminds me of that Xbox score problem.
+\[35:58\] I've got another example of a real one that I had, where I built this game, it was like a choose your own adventure game on Twitter, where the audience chooses the branch of the story to go down by using Twitter polls. So all the followers vote, and that's the decision that's then taken. And when using the Twitter API to read the poll results, sometimes I'd get old data. And this again is down to eventual consistency, the fact that it may be some of the servers probably had the latest information, but it just hadn't propagated across the system yet. So for whatever reason, through the magic of routing around the internet, I was hitting a server with old data... And it reminds me of that Xbox score problem.
 
 The fix was to just basically say, "Well, there's no way to unvote on Twitter, so if there's fewer votes, ignore it. It's old data." That was like a bit of resilience that I didn't expect. And again, it's because I think I just assumed when you ask Twitter what's the latest results, they'll tell you what the latest results are. But of course, in the real world it's not so easy. But that's another kind of interesting thing you have to do when dealing with eventual consistency.
 
@@ -226,7 +226,7 @@ The fix was to just basically say, "Well, there's no way to unvote on Twitter, s
 
 **Jon Calhoun:** ...it's hard sometimes.
 
-**Mat Ryer:** \[00:40:09.02\] But yeah, you're right... So that's the thing - the advantage of having a fast system that is distributed is you don't have to wait so much for all that. But of course, sometimes you'd prefer it. That's interesting, and I think that gives people a lot to think about, when they're designing their system. And honestly, I think the user experience, which you mentioned, Jon, is kind of something that you should consider; take into consideration. Because the users will expect something, and we have to kind of make sure that they get what they need. And that might well influence the design. It should influence the design of the system, and these kinds of decisions.
+**Mat Ryer:** \[40:09\] But yeah, you're right... So that's the thing - the advantage of having a fast system that is distributed is you don't have to wait so much for all that. But of course, sometimes you'd prefer it. That's interesting, and I think that gives people a lot to think about, when they're designing their system. And honestly, I think the user experience, which you mentioned, Jon, is kind of something that you should consider; take into consideration. Because the users will expect something, and we have to kind of make sure that they get what they need. And that might well influence the design. It should influence the design of the system, and these kinds of decisions.
 
 If you think of the case of insurance, where changing data is not only something that you need to show the customer, but it's something that is reflected on a legal document, the final policy... And that final policy, that's the law; whatever information is there, whatever the user declared there, it needs to be the most accurate information. If you have an inconsistency between this policy document and your systems, and then while your policy has one type of information, there's some other request that is very important, gets a different type of data, it shows a different type of data, this can actually be quite serious. So it goes a bit beyond just the user experience. It can have actually legal implications. So it's also interesting from that point of view.
 
@@ -264,7 +264,7 @@ If you think of the case of insurance, where changing data is not only something
 
 **Tiago Mendes:** I do, I do. That's why I keep talking about insurance, because it's the domain I'm familiar with in this circumstance. But on the topic of how complex it is to manage these systems, one of the funniest, most interesting question that I think summarizes everything around this, that I had at GopherCon, was - someone asked me, "Is this even worth it? Is it even worth doing all of this? Why don't we just have our old monolith?" And again, the answer is "Maybe an old monolith is the best solution for you." No one says you really have to go into microservices. Sometimes it's just simpler to deal with a monolith. Or even, if you wanted to -- if that little piece of your system is like... If the order as in the payment and the shipping are so inter-related, maybe just create a kind of microlith just to manage that, if you find that it's simpler. So there's no one-size-fits-all, there's no one magic solution. Yeah, I think it's very interesting.
 
-**Mat Ryer:** \[00:44:13.22\] And then we should also mention a little bit about testing, because that must be quite important, especially when we're talking about failure cases. Do you try and write tests or have some kind of test coverage for those failure cases? How do you make sure that the rollback stuff is working as expected?
+**Mat Ryer:** \[44:13\] And then we should also mention a little bit about testing, because that must be quite important, especially when we're talking about failure cases. Do you try and write tests or have some kind of test coverage for those failure cases? How do you make sure that the rollback stuff is working as expected?
 
 **Tiago Mendes:** Someone actually asked this during my talk, during the questions... I think to properly test this, you need to go to the integration testing level. I think unit tests can miss a lot of things here. If you go to the integration testing level, I think there's a concept -- if you look at Stripe's API, they have a really interesting concept to test cards failing and cards with no funds... So they have different cards number for test cards that you can use, and one card number will be a card that requires \[unintelligible 00:44:57.05\] and is okay to go; another card number will always have insufficient funds, and you can test it this way.
 
@@ -280,7 +280,7 @@ If you think of the case of insurance, where changing data is not only something
 
 **Tiago Mendes:** It reminds me of that sentence from "The Falcon and the Winter Soldier" - he's out of line, but he's right... \[laughter\] About testing in production. It's actually not a bad idea when you think of it.
 
-**Break:** \[00:46:47.23\]
+**Break:** \[46:47\]
 
 **Mat Ryer:** Okay, Tiago, have you brought an unpopular opinion with you today?
 
@@ -322,7 +322,7 @@ Okay, but do you not see -- is there value in the learning you get from actually
 
 **Tiago Mendes:** So there's this interesting book -- for the life of me, I can't remember the name of the book... And they explain an interesting phenomenon, which is the company that moved really fast to get on the market and made a lot of trade-offs - it can move fast, but then it starts flatlining in terms of progress. Whereas the company that took a bit longer to go to the market, but had well-thought systems and architectured in a way that they can extend it, they can add new functionalities like that - they can actually pick up and even surpass it in the long run. And that's one thing that really stuck to me... Because it can be quite cumbersome to have to maintain a lot of old code that wasn't really well thought of.
 
-**Jon Calhoun:** \[00:51:50.23\] I mean, I absolutely agree that introducing too much debt could be a big issue, and I think the larger or the more stable your company is, the more that applies. I would probably only disagree with that opinion in the case that there are definitely some companies that like -- if you're trying to build something and you literally don't even know if you're gonna be something people wanna pay for or use, then spending months trying to design the perfect system might not be the best idea, given that you might design a perfect system that nobody wants to use.
+**Jon Calhoun:** \[51:50\] I mean, I absolutely agree that introducing too much debt could be a big issue, and I think the larger or the more stable your company is, the more that applies. I would probably only disagree with that opinion in the case that there are definitely some companies that like -- if you're trying to build something and you literally don't even know if you're gonna be something people wanna pay for or use, then spending months trying to design the perfect system might not be the best idea, given that you might design a perfect system that nobody wants to use.
 
 **Tiago Mendes:** I agree with you there. That's why it's an unpopular opinion. \[laughs\]
 
@@ -348,7 +348,7 @@ And as with most things, as with most technology, there are two times when the g
 
 I think right now we're sort of in the infancy, at the beginning stages of this whole blockchain engineering and developer talent kind of wave... And again, regardless of how you feel about the technology or its applications, there's gonna be fervent need for people who understand that stuff, and they're gonna be paid well, at least for the next 4-5 years or so. So if that's something that's of interest to you - hey, maybe now is the time to take a look into it.
 
-**Tiago Mendes:** \[00:56:07.14\] I feel like there's a new blockchain company starting up every day.
+**Tiago Mendes:** \[56:07\] I feel like there's a new blockchain company starting up every day.
 
 **Johnny Boursiquot:** Yeah. \[laughs\] Pretty much.
 
