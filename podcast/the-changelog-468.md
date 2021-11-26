@@ -92,11 +92,11 @@ But the other interesting thing about them is that they also all had web technol
 
 \[16:16\] So it's interesting to see people think of what we're doing as sort of like a move, or a shift, when really it's just taking something we've always cared about deeply and continuing to use it in our product for the things that appeal to us about it.
 
-**Nick Nisi:** I can see that perspective though, because I -- definitely, when you say that, 90% of my interaction with 1Password is through the browser extensions and \[unintelligible 00:16:38.12\] to open that up. I guess I just don't ever think about it as like "Well, it's really just this thing", and I'm never really opening up 1Password proper, unless I'm doing more in-depth searching, or things like that. But usually, most of it is just straight through that web thing, and when I t thought about that, it never really came to my mind that that was my primary interaction with it.
+**Nick Nisi:** I can see that perspective though, because I -- definitely, when you say that, 90% of my interaction with 1Password is through the browser extensions and command slash to open that up. I guess I just don't ever think about it as like "Well, it's really just this thing", and I'm never really opening up 1Password proper, unless I'm doing more in-depth searching, or things like that. But usually, most of it is just straight through that web thing, and when I t thought about that, it never really came to my mind that that was my primary interaction with it.
 
 **Mitchell Cohen:** And that's a great observation, because it's something we both notched and heard ourselves, that people were saying "The part of 1Password that I actually use is the part in my web browser." That informed what we're doing with 1Password today, first of all because we wanted to bring some of what made the browser experience so special sort of into the rest of our app... But we also want to move faster, so that we can give you a reason to open that desktop app more often, because we think that is a great place to organize, to share, to understand your security. And if people are only opening it to troubleshoot - well, we have to do better there.
 
-So one thing we're very excited about with 8 is actually making it so that you do interact with all of our service and our apps, not just the \[unintelligible 00:17:46.24\] So that's really on our minds.
+So one thing we're very excited about with 8 is actually making it so that you do interact with all of our service and our apps, not just the command backslash as useful as it is. So that's really on our minds.
 
 **Nick Nisi:** How so? How would that change my usage of going to a site and wanting it to auto-populate? How would it bring in the desktop version?
 
@@ -190,7 +190,7 @@ So I think maybe my last question on this is really now that you've done this sh
 
 **Mitchell Cohen:** We're building that, and we're building that in a big way, and we're building it for every platform we support. And I mean, we're going deep into platform features. We're doing things on Linux that no one's ever done before, for instance having biometrics and browser extension integration, and integration with the system keychain... The Linux community has been really grateful and appreciative of that, and me too, because I love Linux. And on Mac - I can go into detail forever. There's a ton of native code in this app, and native integrations, from support for touch ID, to Apple Watch, to all the keyboard shortcuts you can think of, to text transformations, to interaction with the system clipboard for secure copy and paste to the universal clipboard sharing setting... It goes on and on, and we're always going to do that, because the app isn't very useful if it doesn't integrate well with your computer.
 
-But the buttons are not \[unintelligible 00:34:19.07\] And that's where I'm just -- I don't really care anymore. I wanna build a great product, with great features, and I think that's true for all of us. So that's basically what we're doing.
+But the buttons are not NSbutton And that's where I'm just -- I don't really care anymore. I wanna build a great product, with great features, and I think that's true for all of us. So that's basically what we're doing.
 
 **Nick Nisi:** Yeah, I think that that's a really good vision to have. You care more about the result than how you got there... And I do, too. All of those features that you listed - those are the things that I absolutely love about 1Password. And if this changed to somehow not let me use touch ID, or the Apple Watch 2 unlock, and things like that, then it would be a big step backward. But it's not, because it does support that.
 
@@ -244,7 +244,7 @@ I'm not 100% -- I'm still waiting to see, is there another Electron app that doe
 
 **Mitchell Cohen:** \[48:20\] So a lot of this conversation has been about what Mac users expect. And it's always like a hypothetical Mac user. People tell us "This is what Mac users expect." It's interesting to me - first of all, I've been a Mac user for as long or longer than the people telling me this, and I know what I expect. I know lots of Mac users.
 
-**Amal Hussein:** Wait, are you Steve Jobs? Because you guys have been inventing browser extensions before browsers, you've been using Macs since before Macs... I mean, you know... \[unintelligible 00:48:48.01\] Steve reincarnated.
+**Amal Hussein:** Wait, are you Steve Jobs? Because you guys have been inventing browser extensions before browsers, you've been using Macs since before Macs... I mean, you know... Be like Steve reincarnated.
 
 **Andrew Beyer:** He may or may not have a Lisa in that room...
 
