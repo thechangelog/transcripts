@@ -30,7 +30,7 @@ And I think that's been the most interesting thing about working on the team, is
 
 **Amal Hussein:** Yeah. The adoption of React is really massive. And to give everybody a mental model for what the scale of the web is - React is still used by only 2% of websites on the internet. So think about how widely React is adopted, and then think that's only 2%. So just how massive the web is. That 2% is ridiculous amounts of traffic. It's in the millions/billions, right Rachel? I mean, Facebook alone is in the billions, so... Yeah, Facebook plus all the other websites, so... It's huge. It's really incredible.
 
-\[08:09\] So what's your relationship with React? How is your relationship -- so it was really nice to hear you describe what it's been like for you to witness it all come together, and that experience, but how has your relationship with React the library changed now that you're on the \[unintelligible 00:08:22.13\]
+\[08:09\] So what's your relationship with React? How is your relationship -- so it was really nice to hear you describe what it's been like for you to witness it all come together, and that experience, but how has your relationship with React the library changed now that you're on the "inside"
 
 **Rachel Nabors:** Let's be honest, I kept trying to learn React, and kept not making it stick. It would just go in one ear and out the other. And I was like, "Well, maybe I need a job where I'm working with React." But at the time, I was thinking about what I wanted to do next, and I was like "You know, I could just learn React from the people who build it. Oh, look over there... There's a team. They work with React a lot. Hello... Do you need any assistance? Can I do anything for you?" "Oh, okay, yeah... Let's write some educational materials. I'm pretty good at that."
 
@@ -54,7 +54,7 @@ When you work on a team, building something for so long, it can be easy to lose 
 
 When I say "platform tree" here, you're probably thinking "What is she talking about?" If you're working on the web, that would be your DOM, your document object model. But React can actually output to different platforms, including iOS and Android, React Native... They have different trees; they have UIView trees.
 
-So platform tree is an internal lingo saying "Whatever it is that React is spitting out to - that." It's usually a tree, full of nodes representing content and data. But when I first came in, I wasn't really sure how the state was working. I mean, when you look at Vue, when you look at other kinds of UI platforms, they tend to have more mutable state models. But React is different. It has a one-way data flow. You have to deliberately set the state. And that act of setting the state tells React "Yo! Things have changed. Look at that component. Did that component change because the state has changed? If it has changed, go to that platform tree and make any necessary adjustments." The render and the commit process. And that was something... Once you get that, everything else really falls into place. Hooks, the API that you use with React - it lets you hook into different parts of this process. \[unintelligible 00:12:17.14\] they happen after the render process, and set state, that hook itself kicks off the render process.
+So platform tree is an internal lingo saying "Whatever it is that React is spitting out to - that." It's usually a tree, full of nodes representing content and data. But when I first came in, I wasn't really sure how the state was working. I mean, when you look at Vue, when you look at other kinds of UI platforms, they tend to have more mutable state models. But React is different. It has a one-way data flow. You have to deliberately set the state. And that act of setting the state tells React "Yo! Things have changed. Look at that component. Did that component change because the state has changed? If it has changed, go to that platform tree and make any necessary adjustments." The render and the commit process. And that was something... Once you get that, everything else really falls into place. Hooks, the API that you use with React - it lets you hook into different parts of this process. Like you use effects and they happen after the render process, and set state, that hook itself kicks off the render process.
 
 \[12:30\] Anyway... I think grokking that when you come in, just like "Oh, I'm telling React what to do with these APIs. That's pretty cool." I think that is the difference between really succeeding and running with React, and being like "What is going on here?"
 
@@ -96,7 +96,7 @@ I think as you go on with your React journey, the challenges become more about e
 
 **Amelia Wattenberger:** Yes...
 
-**Amal Hussein:** See, I'm listening \[unintelligible 00:15:34.18\] for God's sake...
+**Amal Hussein:** See, I'm listening to Amelia, Rachel for God's sake...
 
 **Amelia Wattenberger:** Thanks, Amal... \[laughs\]
 
@@ -120,11 +120,11 @@ I think as you go on with your React journey, the challenges become more about e
 
 **Amal Hussein:** \[laughs\] Okay, that's true. Back on track, back on track. So...
 
-**Rachel Nabors:** So that is a great question... So working on the React Native documentation \[unintelligible 00:16:38.26\] way too many roles in my career. Now I get to add documentation engineer onto the list.
+**Rachel Nabors:** So that is a great question... So working on the React Native documentation like, I used to be \[unintelligible 00:16:38.26\] I've been way too many roles in my career. Now I get to add documentation engineer onto the list.
 
 **Amal Hussein:** Wow.
 
-**Rachel Nabors:** I just -- I'm interested in things, and I wonder \[unintelligible 00:16:49.01\] "Hello, friend... What are you doing?"
+**Rachel Nabors:** I just -- I'm interested in things, and I wonder over and "Hello, friend... What are you doing?"
 
 **Amal Hussein:** You are a mis-shapen puzzle in a world of squares and circles... So you can fit anywhere. I think you're just a really adaptable person, and I think that's why your career is so awesome and different all the time. I think that's a skill. This is a safe space for you to acknowledge, Rachel Nabors, that you are a highly adaptable human being. And that's badass.
 
@@ -134,7 +134,7 @@ I think as you go on with your React journey, the challenges become more about e
 
 **Rachel Nabors:** Hello, YouTube. So you may have recalled that I originally -- the first test that was set for me when I came and was like "Alright, I'm gonna go work with the people who built this stuff... What am I gonna do?" And they were like, "Alright, Rachel, spin this straw into gold." This is how everything in my life starts... It's like, "Yes, I can totally spin that straw into gold."
 
-The React Native documentation needed a bit of love when I arrived, and that was my first task - turn the React Native documentation around. It was sorely out of date; I ran some community API documentation update drives around that \[unintelligible 00:18:09.13\] and adding more on-ramps etc. But the point was I didn't just arrive and start writing. No... Because I used to be a UX person back in the day; I was like, "Yeah, you say the docs need work, but what exactly needs done? What do we need to do?" "Well, we should just ask the people who are using them what they'd like."
+The React Native documentation needed a bit of love when I arrived, and that was my first task - turn the React Native documentation around. It was sorely out of date; I ran some community API documentation update drives around that, love you guys, and adding more on-ramps etc. But the point was I didn't just arrive and start writing. No... Because I used to be a UX person back in the day; I was like, "Yeah, you say the docs need work, but what exactly needs done? What do we need to do?" "Well, we should just ask the people who are using them what they'd like."
 
 So you know, I conducted user interviews, I formulated a couple of ideas... I really got to know the React Native community over here in the EU, which was really cool. It's a pretty hoppin' place. And I started running surveys for the React Native and React communities, to really start feeling out what it was that we were lacking, what they wanted more of.
 
@@ -176,7 +176,7 @@ Additionally, we wanted to give this to people who are training folks to learn R
 
 **Rachel Nabors:** Awesome. Yeah, we're about 75% done with the learning documentation. That's because the remaining documentation is mostly, well, how to use things around edge cases. Effects are largely used for doing things with React, interacting with things outside React. There's additionally -- you know, we're going to have to add some things for React's developer tooling, which is coming later this year... So there's some stuff that we didn't have finished, but we had enough done that we didn't wanna hold back until things were perfect. We wanted to make sure that we were actually getting the content to the community.
 
-The API documentation itself is still very nascent. We wanna really make sure that we are -- because hooks are very challenging to document, compared to more traditional APIs. They are deeply nested, they do interesting things with -- you know, there's this thing that returns a function, and that returns a clean-up function, and it takes a dependencies array, but it does different things depending on the state of that array... And a lot of those APIs depend on how we document that last 25% of content, how we explain how to use them. So \[unintelligible 00:26:40.12\] by finishing the rest of the guides themselves. So they're still en route.
+The API documentation itself is still very nascent. We wanna really make sure that we are -- because hooks are very challenging to document, compared to more traditional APIs. They are deeply nested, they do interesting things with -- you know, there's this thing that returns a function, and that returns a clean-up function, and it takes a dependencies array, but it does different things depending on the state of that array... And a lot of those APIs depend on how we document that last 25% of content, how we explain how to use them. So there's sort of road block by finishing the rest of the guides themselves. So they're still en route.
 
 Now, the community of course is very eager to assist in any way possible, and that is awesome, and we appreciate it... But we're not quite ready to accept community assistance. These flagship pieces of documentation are really things that come right from the core's heart... And it's not just something you can churn out. I would know, I've tried. It really does get a lot of input from the core team.
 
@@ -258,7 +258,7 @@ Additionally, I like to use -- there's this thing called Net Promoter Score, whi
 
 \[40:09\] You can always do page metrics, thumbs up, thumbs down... Those are great for tracking how people are feeling about the documentation after you've moved on from the project. They're a little less useful when you're doing beta testing on new content, because you don't have a lot of people there thumbs-upping and thumbs-downing. You know, four people give you a thumbs up doesn't necessarily mean that that particular page is stellar. So that's the interesting thing about metrics. The more people you have giving you the data, the more trustworthy it is. When you're doing little tiny beta tests, you end up leaning more on qualitative feedback... Like, "What did you think of the docs?" People say "Ah, this is amazing. It's exactly what I need." That's a really good signal.
 
-So it's a mixture -- when you're developing a new learning resource, it's a mixture of qualitative and quantitative. But once you release it into the wild, it really is helpful to have the quantitative metrics set up and running, to help you ensure \[unintelligible 00:41:03.22\] "Oh, these docs haven't been updated in a while and they're getting a lot of thumbs down. We should look into that." "Huh, we're getting a lot of feedback that people are coming to the references section, but they're not finding what they need. Hm... I wonder what it is that they need. Let's dive into the comments."
+So it's a mixture -- when you're developing a new learning resource, it's a mixture of qualitative and quantitative. But once you release it into the wild, it really is helpful to have the quantitative metrics set up and running, to help you ensure, you know, look and be like, "Oh, these docs haven't been updated in a while and they're getting a lot of thumbs down. We should look into that." "Huh, we're getting a lot of feedback that people are coming to the references section, but they're not finding what they need. Hm... I wonder what it is that they need. Let's dive into the comments."
 
 So metrics, and those quantitative and qualitative are your friend in changing ways throughout the educational material development lifecycle. Did I answer your question, Amelia? I kind of gave you a dissertation...
 
@@ -274,7 +274,7 @@ So metrics, and those quantitative and qualitative are your friend in changing w
 
 And then the second question is really what it was like to work with all these people, maybe external to the React core team? Because it seems like there was a whole group of people. So who were they, and what was it like to work with them? Sorry for two big questions, but...
 
-**Rachel Nabors:** I'm gonna have to pick one of them... You know I give dissertations \[unintelligible 00:42:29.15\] an entire essay here.
+**Rachel Nabors:** I'm gonna have to pick one of them... You know I give dissertations one interview is like an entire essay here.
 
 **Amal Hussein:** Okay... The external people. Actually, you know what? No, no. I think you can list that pretty quickly. I just was curious who was working with you. But I think I'm maybe more curious about how you worked on this before the launch. What was that experience like?
 
@@ -302,7 +302,7 @@ And then the second question is really what it was like to work with all these p
 
 **Amal Hussein:** Oh, okay. Excellent. Yay! That's what I figured, because it's not very noticeable...
 
-**Rachel Nabors:** Yeah... And \[unintelligible 00:44:35.04\]
+**Rachel Nabors:** Yeah... And I was \[unintelligible 00:44:35.04\]
 
 **Amal Hussein:** What is it with big companies and the desire to constantly change logos or names? Google has done this a hundred times, Facebook did this... No, we don't need to talk about the actual -- like, just in general... It's just like this hilarious thing that we don't need to spend any time on...
 
@@ -314,7 +314,7 @@ And then the second question is really what it was like to work with all these p
 
 **Amal Hussein:** Oh, you haven't finished. Oh, sorry. Okay. Great.
 
-**Rachel Nabors:** Yeah. So then we had these cool designs, and we worked with Dustin and Dane over at This Dot, and they did the implementation for the designs. So there were a couple of different teams at different places, doing different integration work. Different people designing UI, different people implementing it, different people putting the new design system into place... And Maggie Appleton - the original prototype site was all my sketches and doodles everywhere... Because I'd be in a meeting, and I'd be like "Okay, and does state work like this?" "No..." "Like this? Is this a good metaphor?" "Okay, that's close..." And I put all these illustrations and hand-drawn diagrams in. And you know what the \[unintelligible 00:45:51.01\] feedback was?
+**Rachel Nabors:** Yeah. So then we had these cool designs, and we worked with Dustin and Dane over at This Dot, and they did the implementation for the designs. So there were a couple of different teams at different places, doing different integration work. Different people designing UI, different people implementing it, different people putting the new design system into place... And Maggie Appleton - the original prototype site was all my sketches and doodles everywhere... Because I'd be in a meeting, and I'd be like "Okay, and does state work like this?" "No..." "Like this? Is this a good metaphor?" "Okay, that's close..." And I put all these illustrations and hand-drawn diagrams in. And you know what the alpha tester feedback was?
 
 **Amal Hussein:** What?
 
@@ -328,7 +328,7 @@ And these take my chicken-scratchings and makes them actual diagrams.
 
 **Amal Hussein:** Yeah...
 
-**Rachel Nabors:** Those are final \[unintelligible 00:46:32.17\]
+**Rachel Nabors:** Those are final illustrations
 
 **Amal Hussein:** Gender-neutral dude... Or maybe not so gender-neutral. I don't know.
 
@@ -368,7 +368,7 @@ What we wanted to do though was to make sure that these people who build great c
 
 **Amelia Wattenberger:** Gotcha. Okay. Thanks for clarifying that. I read once that there's four, at least four types of documentation that are all kind of different. There's tutorials, how-to guides, explanations and references, and it seems like you've kind of split out to treat at least two of those separately, which - I'm curious what was the thinking behind that, and what is going where.
 
-**Rachel Nabors:** That is great, thank you for bringing that up. Originally - I don't know if you've looked at Reactjs.org recently, but it's sort of... All of it is guides. There's some API documentation in there, but depending on what you're looking for, it could exist in multiple places. Like, you go find where the API docs are on the site; it takes a little bit of rummaging around. And if you're looking for a hook, you're gonna \[unintelligible 00:55:08.25\] a couple of different places. But you know, this is what happens when your information architecture kind of gets away from you here.
+**Rachel Nabors:** That is great, thank you for bringing that up. Originally - I don't know if you've looked at Reactjs.org recently, but it's sort of... All of it is guides. There's some API documentation in there, but depending on what you're looking for, it could exist in multiple places. Like, you go find where the API docs are on the site; it takes a little bit of rummaging around. And if you're looking for a hook, you're gonna be rummaging a couple of different places. But you know, this is what happens when your information architecture kind of gets away from you here.
 
 So there was an information architecture overhaul. We have API references, and we have the actual React Learn content, which is step-by-step lessons and guides for how to install, how to get something quickly running, and how to dive deep with React. These guides are actually a little bit different from the conceptual overview and guides docs you mentioned. They're kind of a merging of the two, because it's very hard to talk about React conceptually without actually showing things in progress. And if we did split up the conceptual overview, we'd run into a situation where we might end up with long essays here, and then explanations that don't really help you understand what's going on over here. And you can guess how much time people are gonna spend on which.
 
@@ -388,7 +388,7 @@ We do want to add some tutorials once we've gotten out of beta and gone fully-lo
 
 **Rachel Nabors:** I love so much of the documents here. Even some of the content -- like, there was the question of... There was this one piece called "Thinking in React", which was one of the original "Here's how React helps you think about building UI." And at first, it was like, "Yeah, I've gotta make a whole new page all about thinking in React. Yeah. And for the modern world." But people in beta testing kept being like "Don't forget about keep thinking in React. I love that piece, man." And I was like, "You know, it's such a classic. We can't burn it down." So I went through and gave it a bit of a facelift for the modern era. You know, the original Thinking in React piece was very, you know, "Here's a new way you may not have thought about thinking about your interfaces, kids. Have you heard about atomicity?" Yes, everyone has heard of that by now. Let's write this as though people probably have encountered some of these concepts already. They've permeated other branches of programming, they've inspired new approaches out there, so let's talk more in the present and less in the past... But just updating that classic was a real honor. It was very awesome to see it with actual interactive examples, showing the thing that it was describing originally in the text.
 
-My personal favorite is the Describing the UI section, which is really just introducing you to the concept of components and props... You know, "What are these things? How do you structure them into extra files?" There's a lot of stuff there that we saw people coming out of bootcamp maybe not quite take this up yet. We got to cover some of those basics again, and it was actually a lot of fun to work on some of those pieces, and break things down. And even more fun to read through the individual feedback on those pieces. You hear someone say "This was the best explanation of this that I've ever read", and I'm just like \[unintelligible 01:00:11.25\]
+My personal favorite is the Describing the UI section, which is really just introducing you to the concept of components and props... You know, "What are these things? How do you structure them into extra files?" There's a lot of stuff there that we saw people coming out of bootcamp maybe not quite take this up yet. We got to cover some of those basics again, and it was actually a lot of fun to work on some of those pieces, and break things down. And even more fun to read through the individual feedback on those pieces. You hear someone say "This was the best explanation of this that I've ever read", and I'm just like
 
 **Amal Hussein:** \[01:00:14.24\] Yeah! Nailed it!
 
@@ -420,7 +420,7 @@ My personal favorite is the Describing the UI section, which is really just intr
 
 **Amal Hussein:** This is not that. Okay, cool.
 
-**Rachel Nabors:** So there's a word for this, and jump in and tell me if you've heard of it before... It's where today's amazing becomes tomorrow's expected. Remember when the iPhone came out? Everyone was like, "It's a touchscreen! \[unintelligible 01:02:50.01\]
+**Rachel Nabors:** So there's a word for this, and jump in and tell me if you've heard of it before... It's where today's amazing becomes tomorrow's expected. Remember when the iPhone came out? Everyone was like, "It's a touchscreen! It doesn't have keys!"
 
 **Amal Hussein:** Oh, yeah...
 
