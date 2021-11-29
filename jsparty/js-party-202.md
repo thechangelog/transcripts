@@ -10,7 +10,7 @@
 
 **Sophie Alpert:** That's right.
 
-**Amal Hussein:** Yeah. And so she's now currently head of engineering at Humu, so we'll talk a little bit about her career... But one of the reasons why we invited Sophie onto the show today was really to kind of dive into her experiences on the React team, and being part of that early growth, as part of one of the most widely-adopted open source projects in the web community... And really, just some of the challenges around what it's like to manage a project at that scale, and all the expectations around community engagement, and API \[unintelligible 00:03:35.20\] and all of that other good stuff. Lots to get into, so welcome, Sophie. Do you wanna just tell us a little bit about yourself in your own words?
+**Amal Hussein:** Yeah. And so she's now currently head of engineering at Humu, so we'll talk a little bit about her career... But one of the reasons why we invited Sophie onto the show today was really to kind of dive into her experiences on the React team, and being part of that early growth, as part of one of the most widely-adopted open source projects in the web community... And really, just some of the challenges around what its like to manage a project at that scale, and you know, all the kind of expectations around community engagement, and API nerd turfing, and all of that other good stuff. Lots to get into, so welcome, Sophie. Do you wanna just tell us a little bit about yourself in your own words?
 
 **Sophie Alpert:** Sure. I mean, I think you covered the highlights... I worked on the React team for about four years at Facebook, from -- what year was it? Gosh...
 
@@ -202,7 +202,7 @@ I think that there's a few other quirks where forms submit event bubbles in reac
 
 And so for something like that, oftentimes the answer is just "Well, let's leave it as it is", because keeping a stable ecosystem is more important than getting to the magical, mythical, perfect version of React that we might ideally wanna get to.
 
-**Amal Hussein:** That makes a ton of sense. I think what's challenging is - to kind of play devil's advocate here - and this is the argument I've used in the past as well, to be very clear. This is a well-rehearsed argument... Like, why can't Facebook just fix the handful of interop bugs in the browsers? Because ultimately, Facebook can fund those projects, they can \[unintelligible 00:50:55.03\] there's lots of ways to get those interop issues patched. Is it worth the overhead and the bloat in the library?
+**Amal Hussein:** That makes a ton of sense. I think what's challenging is - to kind of play devil's advocate here - and this is the argument I've used in the past as well, to be very clear. This is a well-rehearsed argument... Like, why can't acebook can fund those projects, they can hire Igalia, there's lots of ways to get those interop issues patched. Is it worth the overhead and the bloat in the library?
 
 Synthetic events have gotten smaller over the years, for sure, in the refactors... But I'm just curious, is that contributing to browsers and pushing them -- is it too slow? Because I really do think of Facebook engineers as probably being very fast-moving and very -- I don't know, the opposite of the standards world, where things move glacially slow. So I'm just curious, is there conflict there, or is it just faster to do it yourself?
 
