@@ -120,7 +120,7 @@ I think as you go on with your React journey, the challenges become more about e
 
 **Amal Hussein:** \[laughs\] Okay, that's true. Back on track, back on track. So...
 
-**Rachel Nabors:** So that is a great question... So working on the React Native documentation like, I used to be \[unintelligible 00:16:38.26\] I've been way too many roles in my career. Now I get to add documentation engineer onto the list.
+**Rachel Nabors:** So that is a great question... So working on the React Native documentation like, I used to be I used to be a UX designer, I've been way too many roles in my career. Now I get to add documentation engineer onto the list.
 
 **Amal Hussein:** Wow.
 
@@ -302,7 +302,7 @@ And then the second question is really what it was like to work with all these p
 
 **Amal Hussein:** Oh, okay. Excellent. Yay! That's what I figured, because it's not very noticeable...
 
-**Rachel Nabors:** Yeah... And I was \[unintelligible 00:44:35.04\]
+**Rachel Nabors:** Yeah... And I was Razvan and Dan
 
 **Amal Hussein:** What is it with big companies and the desire to constantly change logos or names? Google has done this a hundred times, Facebook did this... No, we don't need to talk about the actual -- like, just in general... It's just like this hilarious thing that we don't need to spend any time on...
 
