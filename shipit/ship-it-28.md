@@ -38,7 +38,7 @@
 
 I'm wondering - this is a yearly thing, right? So next year it's gonna happen again, also in-person, I'm imagining.
 
-**Romano Roth:** \[08:06\] Yeah, exactly. I think the next one will be on the 31st of May, and we will do it again in-person, and it will be again in Zurich, or in \[unintelligible 00:08:19.18\] as we call it. In the same building.
+**Romano Roth:** \[08:06\] Yeah, exactly. I think the next one will be on the 31st of May, and we will do it again in-person, and it will be again in Zurich, or in Winterthur, as we call it. In the same building.
 
 **Gerhard Lazu:** Okay. When do you open call for papers? When do people start submitting their talk proposals?
 
@@ -62,7 +62,7 @@ Now, I know that you're into DevOps; like, big-time into DevOps. But I don't kno
 
 **Romano Roth:** \[laughs\] Very good point. When I started my career, I was a .NET developer. And this was back in 2002, and we were doing there development of applications, or rich client applications. And one of the things also in the early times which struck me is "How can I ensure the quality of what I'm doing?" And yeah, of course, you could do testing also there, but it was not so automated. And I was always a little bit lazy, and I wanted to automate things... So I went into this area where we were starting automating the tests, and then also the deployment. So I went into continuous integration, continuous deployment, and the applications were getting bigger, and distributed... I was becoming an architect, and slowly I moved in the direction of these continuous delivery pipelines.
 
-And when the whole DevOps movement started, I jumped on that, because this was really one of my hard topics, where I wanted to create these pipelines to continuously \[unintelligible 00:11:44.02\] value to the customer.
+And when the whole DevOps movement started, I jumped on that, because this was really one of my hard topics, where I wanted to create these pipelines to continuously deal that value to the customer.
 
 **Gerhard Lazu:** So my understanding is that you were passionate about how value gets delivered, which got you into DevOps, which seems to have made that almost like the center of its activity. How do you move this code from a repository into customer hands, wherever that may be? And there's like a whole lot of automation, because you can do it manually, but there is a better way, and automating that. Okay, interesting. Which was your first CI/CD system that you used? Do you remember?
 
@@ -198,7 +198,7 @@ When I look back to the statements that I did, I think I was absolutely right wi
 
 **Gerhard Lazu:** Interesting. Okay. We talked about AI ops... Now, in automation, what tools do you find yourself reaching out for when you're automating things? What is in your toolbox, or what do you find maybe that your team likes to use?
 
-**Romano Roth:** What we quite often use when it comes to deployment automation, we use quite a lot Octopus Deploy, of course... And when it comes to CI/CD pipelines, then of course we use Jenkins, but also TeamCity, \[unintelligible 00:45:10.17\] is also a huge thing, and of course, GitHub and GitLab.
+**Romano Roth:** What we quite often use when it comes to deployment automation, we use quite a lot Octopus Deploy, of course... And when it comes to CI/CD pipelines, then of course we use Jenkins, but also TeamCity, ASH Devops is also a huge thing, and of course, GitHub and GitLab.
 
 **Gerhard Lazu:** Okay. And another category was dev sec ops; I think I would call it like supply chain security... What tools do you use for securing the supply chain?
 
