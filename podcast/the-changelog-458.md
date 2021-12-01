@@ -134,7 +134,7 @@ Somebody challenged my copyleft bonafide on Twitter, and I was like "I literally
 
 And here, it's important to distinguish that there's two possible stages at which copyright infringement could have occurred. There's "Did GitHub infringe people's copyright?" and "Are people who are using Copilot infringing the copyright?" And the answers to those may be different. I tend to think that the answer is in both cases there's no infringement. That's my bottom line. But it's important to distinguish between those two... Because you can see a world -- there's definitely arguments to be made that GitHub is infringing, but the user of Copilot is not. So let me get into a little bit why that is.
 
-So when you're looking at fair use - I mention the sort of transformative concept, but before we get to that, there's these four rules, and I can't believe... Maybe I've had a longer \[unintelligible 00:38:42.23\] than I thought. I should normally be able to rattle them off... But we'll go through them one by one and I will really try to remember the fourth one by the time I get to it. So one is the nature of the taking. So are you doing this for some kind of societally-advancing purpose or not? This is where things like teachers get much more of a flexibility than a rival book publisher.
+So when you're looking at fair use - I mention the sort of transformative concept, but before we get to that, there's these four rules, and I can't believe... Maybe I've had a longer morning than I thought. I should normally be able to rattle them off... But we'll go through them one by one and I will really try to remember the fourth one by the time I get to it. So one is the nature of the taking. So are you doing this for some kind of societally-advancing purpose or not? This is where things like teachers get much more of a flexibility than a rival book publisher.
 
 Another is how much did you copy? It is one thing -- so this is one of the key ways in which how GitHub has copied and how a Copilot user might copy is very different. Because Copilot undoubtedly at some point in the process copied the whole thing. So a court looks differently at "Did you copy the whole thing?" versus "Did you copy one function fragment out of a giant...?"
 
@@ -180,7 +180,7 @@ By the way, I should say again, this is all in the U.S. E.U. has different sets 
 
 **Luis Villa:** But at this point, the fraction of the world's code that is on GitHub is large, so it was probably most of GitHub.
 
-**Christopher Hiller:** \[unintelligible 00:46:24.13\] it seems like the license is irrelevant, right?
+**Christopher Hiller:** Speaking of, it seems like the license is irrelevant, right?
 
 **Luis Villa:** I don't know that it's -- I mean, I think it's important to say, I've been wearing my lawyer hat this whole call so far... And there's a whole other ethical, like "Is it legal?" I mean, like I said, I think the answer is probably pretty clearly yes. It's possible to be legal and still be a f\*\*\*\*\*\*. Excuse me on the f-word. Are we a family-friendly podcast here, or...?
 
