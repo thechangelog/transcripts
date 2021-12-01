@@ -372,7 +372,7 @@ Ladies first, we'll have Amelia and Divya, please step right up. Round one will 
 
 **Jerod Santo:** You've got three possibilities here.
 
-**Amelia Wattenberger:** I'm \[unintelligible 00:15:07.24\]
+**Amelia Wattenberger:** I've got that too
 
 **Chris Coyier:** I feel like the troll answer is to just say CSS, because people like to be like "I don't understand..."
 
@@ -518,13 +518,13 @@ Ladies first, we'll have Amelia and Divya, please step right up. Round one will 
 
 **Amelia Wattenberger:** I definitely eat hot chips... \[laughter\]
 
-**Dave Rupert:** Hot chip. \[unintelligible 00:22:01.10\]
+**Dave Rupert:** Hot chip.
 
 **Amelia Wattenberger:** I guess if not that, you wanted Chris to be more clear about his going to places thing, so I'm gonna go with a specific place, which is going to your desk. I don't like that face.
 
 **Jerod Santo:** Show me "Going to your desk." \[laughter\] Maybe just a little bit too on the nose... But a good effort. We go back to Chris.
 
-**Chris Coyier:** It sounds like none of these are related to technology. None of them is like "Troll around for cool VS Code extensions", or whatever. \[unintelligible 00:22:38.27\]
+**Chris Coyier:** It sounds like none of these are related to technology. None of them is like "Troll around for cool VS Code extensions", or whatever.
 
 **Scott Tolinski:** "Go on Twitter."
 
@@ -686,7 +686,7 @@ Alright, so no steal, so ShopTalk gets the points... They missed the last one, b
 
 **Scott Tolinski:** Oh, wow...
 
-**Chris Coyier:** That's gonna \[unintelligible 00:26:48.06\]
+**Chris Coyier:** That's gonna kick us to the lead for sure
 
 **Divya:** Nice...
 
@@ -746,7 +746,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Divya:** I know, seriously...
 
-**Dave Rupert:** Why use span when you can \[unintelligible 00:28:40.04\]
+**Dave Rupert:** Why use span when you can I or div inline-block
 
 **Jerod Santo:** Div inline-block, love it. Okay, we go over to Team ShopTalk. Let's have Amelia, "Name a favorite HTML element."
 
@@ -758,7 +758,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Scott Tolinski:** Well done!
 
-**Jerod Santo:** Good answer. That's the number two answer, actually... So \[unintelligible 00:29:11.02\]
+**Jerod Santo:** Good answer. That's the number two answer, actually... So it ties the board
 
 **Amelia Wattenberger:** Oh... Not obscure... \[laughs\]
 
@@ -788,7 +788,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Jerod Santo:** Show me "a". \[fail sound\]
 
-**Dave Rupert:** That checks out. It's a JavaScript podcast. \[laughter\] \[unintelligible 00:30:12.02\]
+**Dave Rupert:** That checks out. It's a JavaScript podcast. \[laughter\]
 
 **Jerod Santo:** I'll just say, personally, "a" is my favorite element, personally...
 
@@ -830,7 +830,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Jerod Santo:** Show me "ul". \[fail sound\]
 
-**Divya:** Oh, no... \[unintelligible 00:31:21.00\]
+**Divya:** Oh, no...
 
 **Scott Tolinski:** All that default styling...
 
@@ -962,7 +962,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Wes Bos:** I forgot that that was part of HTML. I thought it was part of WebPack...
 
-**Jerod Santo:** Honorable mentions - a couple people mentioned iFrame... UL was mentioned by a couple people. The picture element was mentioned twice... Somebody said "Keep it on the DL", so they're being very cute with that... And someone actually said div, and then in parentheses they put "ya", so Divya \[unintelligible 00:35:16.29\]
+**Jerod Santo:** Honorable mentions - a couple people mentioned iFrame... UL was mentioned by a couple people. The picture element was mentioned twice... Somebody said "Keep it on the DL", so they're being very cute with that... And someone actually said div, and then in parentheses they put "ya", so Divya
 
 **Scott Tolinski:** We get points for that though, right?
 
@@ -1092,7 +1092,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Chris Coyier:** Picked wrong tech, forget to save, Git mistakes...
 
-**Jerod Santo:** Yes, there we go. Chris \[unintelligible 00:40:33.00\]
+**Jerod Santo:** Yes, there we go. Chris is in it.
 
 **Wes Bos:** Oh... Come on, give us one more. \[laughter\]
 
@@ -1218,7 +1218,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Wes Bos:** That's an upset.
 
-**Divya:** \[unintelligible 00:43:43.17\]
+**Divya:** The law won
 
 **Jerod Santo:** So after round five, it's Syntax 285, and ShopTalk 193. We have just one round left.
 
@@ -1252,7 +1252,7 @@ So we asked 140 handsome JS Party listeners "Name your favorite HTML element." T
 
 **Jerod Santo:** No helping him...!
 
-**Scott Tolinski:** We had a show on this... \[unintelligible 00:45:06.03\] \[laughter\]
+**Scott Tolinski:** We had a show on this... What is that. What could we possibly have had a show on? \[laughter\]
 
 **Dave Rupert:** Scott's now going through 300 episodes... \[laughter\]
 
