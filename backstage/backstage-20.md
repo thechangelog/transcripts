@@ -50,7 +50,7 @@ I'll just spoil mine... I'm mindblown, because my working laptop up until last w
 
 **Jerod Santo:** Four years old... Not under-powered by any means, until I started doing more audio and video editing. That's really where I feel it, of course. As well as livestreaming, when I was doing those live Elixir sessions and I would have to compile code while running OBS, and streaming to somewhere... That's where I really started to hit up against the power limitations of that machine. So I've been waiting for an upgrade, because I wanted this machine that I bought.
 
-\[00:04:10.18\] I didn't want the MacBook Air edition. I knew the M1 last year was brand new, there was gonna be some transitionary time... We still have -- I don't know if you've hit the Rosetta thing already, but I have... Installing Rosetta for certain things that aren't ported to the new architecture... But what are you upgrading from? I know you were on a beefier machine than I was.
+\[04:10\] I didn't want the MacBook Air edition. I knew the M1 last year was brand new, there was gonna be some transitionary time... We still have -- I don't know if you've hit the Rosetta thing already, but I have... Installing Rosetta for certain things that aren't ported to the new architecture... But what are you upgrading from? I know you were on a beefier machine than I was.
 
 **Adam Stacoviak:** It's pretty similar... I don't notice a ton of change, really... Except for apps loading super-fast. Audition in particular - it would take quite a bit to load the plugins, and you have that initial splash screen... That actually is super-fast on the M1 Macs. So I'm coming from an iMac Pro 2017, so similar year at least, but much different machine.
 
@@ -78,7 +78,7 @@ I'll just spoil mine... I'm mindblown, because my working laptop up until last w
 
 **Adam Stacoviak:** Yeah, I think my machine wasn't that much of an upgrade, honestly... And I went down RAM-wise, but I think what you have with the single-chip design probably makes up for that, where you don't need that much RAM. So I don't really feel a difference yet. I honestly think I had more RAM than you need. I think it's great when you buy a pro machine to buy more than you actually need, because you wanna grow into it. You don't wanna hit your threshold right away; you wanna have it for five years and enjoy it for five years, and get all you can out of it, and that kind of thing. So I think I really put that machine through its paces, but...
 
-\[00:08:17.17\] Exporting has been faster. I've done some exports of Audition. So we have a process when we do our mixdowns, essentially; we have different plugins in place, and it essentially takes all the tracks... In some cases, it's five to eight tracks per session; a session is a project, essentially. You mix those down, it takes all those and munges it into one single wav file, then you take that wav file and you run it through a process called match loudness, that exports an mp3, that's ready for broadcast, essentially. It's got broadcast quality attached to it. It's got \[unintelligible 00:08:48.00\] attached to it, it's equalized, all that good stuff.
+\[08:17\] Exporting has been faster. I've done some exports of Audition. So we have a process when we do our mixdowns, essentially; we have different plugins in place, and it essentially takes all the tracks... In some cases, it's five to eight tracks per session; a session is a project, essentially. You mix those down, it takes all those and munges it into one single wav file, then you take that wav file and you run it through a process called match loudness, that exports an mp3, that's ready for broadcast, essentially. It's got broadcast quality attached to it. It's got \[unintelligible 00:08:48.00\] attached to it, it's equalized, all that good stuff.
 
 But that process would take quite a while, even for my iMac Pro. And for the M1 Macs it's just like -- so far, it's been really, really fast. I can't complain, by any means. No crashes yet, either.
 
@@ -112,7 +112,7 @@ Initial impressions for me though are outstanding. I mean, I think the machine i
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** \[00:11:58.29\] The box opening was different than any other box beforehand, all that good stuff... The machine is just very, very beefy, because you can tell it's a pro machine... Which I think is interesting, because they've always had the MacBook Pro line, but I think they went way pro in terms of hardware, and it's just very, very dense with this build here. They didn't hold anything back; they weren't like "Let's make the lightest thing possible. Let's make the thinnest thing possible."
+**Adam Stacoviak:** \[11:58\] The box opening was different than any other box beforehand, all that good stuff... The machine is just very, very beefy, because you can tell it's a pro machine... Which I think is interesting, because they've always had the MacBook Pro line, but I think they went way pro in terms of hardware, and it's just very, very dense with this build here. They didn't hold anything back; they weren't like "Let's make the lightest thing possible. Let's make the thinnest thing possible."
 
 **Jerod Santo:** Right.
 
@@ -162,7 +162,7 @@ Initial impressions for me though are outstanding. I mean, I think the machine i
 
 **Adam Stacoviak:** Yeah. I guess one more point to for me is coming from also -- so I had an iMac Pro, and I like to go mobile as well, so I had a 13-inch MacBook Pro, which was just the barebones, essentially. I got the lowest that you can ever get, essentially; just enough so I can be mobile, have a mobile machine; because we do travel... At least we were traveling less the last couple of years; we do travel often though... To record, I needed a more capable machine on the road, but not super-beefy. So in that case, I was coming from the touchbar and whatnot, and even the touch ID on that was not very fast. Here, it's instant.
 
-**Jerod Santo:** \[00:16:27.00\] It really is.
+**Jerod Santo:** \[16:27\] It really is.
 
 **Adam Stacoviak:** Instant, yeah. And the cool thing I like about these new machines too is you can get the external keyboard with touch ID as well.
 
@@ -194,7 +194,7 @@ And honestly, the notch is the same situation as it was on the phone. When I fir
 
 **Adam Stacoviak:** So credits to Rene Ritchie on this, but whenever he -- I think it was either him, or MKBHD; it was one of the two. So on the screen on the MacBook Pro, the menu bar above - you still get your normal real estate. So that's why when you take an application into full-screen, the notch essentially goes away, because that bar comes into play. They took what was normally the 16x9 aspect ratio - I could be off (I'm paraphrasing) and just not correct on some of these things, but the rough idea essentially is they took that display and added the File menu bar above it. So you're actually not losing real estate anyways when it comes down to breaking down how it works out... But how often do you look in the top-center of your screen and wish "I just wish something was there, that was more informative to my experience of using this machine?"
 
-**Jerod Santo:** \[00:20:14.21\] Yeah, never.
+**Jerod Santo:** \[20:14\] Yeah, never.
 
 **Adam Stacoviak:** It just never came into play. So - like you, yeah, "Yuck. What's it doing there?", but in practice, it didn't really bother me one bit.
 
@@ -244,7 +244,7 @@ And honestly, the notch is the same situation as it was on the phone. When I fir
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** \[00:24:05.14\] So yeah... First impressions for me - I love it. Heavy machine, but give me all the Pro. I don't want you to thin it out, I don't want you to shrink the machine... I mean, obviously, there's a threshold, so don't go overboard... But when it comes to a pro machine, I buy a pro machine that costs what this thing costs, $5,000+, in some cases, fully spec-ed out, I want all pro. I don't' want all thin. I don't want MacBook Air. I want all Pro.
+**Adam Stacoviak:** \[24:05\] So yeah... First impressions for me - I love it. Heavy machine, but give me all the Pro. I don't want you to thin it out, I don't want you to shrink the machine... I mean, obviously, there's a threshold, so don't go overboard... But when it comes to a pro machine, I buy a pro machine that costs what this thing costs, $5,000+, in some cases, fully spec-ed out, I want all pro. I don't' want all thin. I don't want MacBook Air. I want all Pro.
 
 **Jerod Santo:** So when it comes to the upgrade itself, on my phone I do the easiest, fastest thing, restore from iCloud backup. I just want my exact phone, transmuted -- is that a word? I just want it transferred directly onto this new phone, as if nothing else changed.
 
@@ -280,7 +280,7 @@ The next thing it asked me though was FileVault disk encryption. And it defaults
 
 **Jerod Santo:** That was my -- I mean, it wasn't like I've put a lot of thought into it. I was like, "You know what - this thing is geeky, I do take it some places... Better safe than sorry. Yeah, go ahead." You know, they want it as a default, so that's what Apple thinks I should do... You turned it off.
 
-**Adam Stacoviak:** \[00:27:55.10\] My biggest fear is getting locked out of my data, somehow... And that may show my naivety to disk encryption and how that works and what the possibility is, but... You know, if something happened to this machine, for some reason, and I needed to -- in the past I've had this happen where you can plug in one machine to another and boot in a certain way, and it acts like just an external disk, essentially. Like, if I ever had to do that with this machine, would that mean that file disk encryption would lock me out? I don't know.
+**Adam Stacoviak:** \[27:55\] My biggest fear is getting locked out of my data, somehow... And that may show my naivety to disk encryption and how that works and what the possibility is, but... You know, if something happened to this machine, for some reason, and I needed to -- in the past I've had this happen where you can plug in one machine to another and boot in a certain way, and it acts like just an external disk, essentially. Like, if I ever had to do that with this machine, would that mean that file disk encryption would lock me out? I don't know.
 
 So my fear and lack of knowledge is what made me say no, even though they had already defaulted me to yes. I was like, "Yeah... Not so fast there, Apple... No. I'm gonna pull back on that one."
 
@@ -298,7 +298,7 @@ The cool thing about Carbon Copy Cloner is that it gives you a chance to do what
 
 **Adam Stacoviak:** And yeah, I'm comfortable with that. But in the case of accidentally deleting something, and that rsync command somehow falls on the hour of the cron job you ran, or something like that, and you actually didn't wanna delete it, and you don't have a way back, the safety net's gone. So rsync - I would love it if somehow they buffered in some sort of safety net features, like Carbon Copy Cloner. But Carbon Copy Cloner is a GUI, really easy to use, sturdy; I've used it for years, I love the application... But the geek in me wants to run a cron job and monitor it with Cronitor, and do it with an rsync command instead, because... Why not?
 
-**Jerod Santo:** \[00:31:58.12\] So what are the other things you did right away? I have a list of things that despite my reticence to installing stuff, and doing like a just-in-time installation of things that I absolutely need, there's still probably half a dozen apps or things that I did or set up immediately, within the first hour.
+**Jerod Santo:** \[31:58\] So what are the other things you did right away? I have a list of things that despite my reticence to installing stuff, and doing like a just-in-time installation of things that I absolutely need, there's still probably half a dozen apps or things that I did or set up immediately, within the first hour.
 
 **Adam Stacoviak:** Yeah. Okay, let's play first app. What was your first app?
 
@@ -368,7 +368,7 @@ The cool thing about Carbon Copy Cloner is that it gives you a chance to do what
 
 **Jerod Santo:** I installed Transmit right away... And that's basically it.
 
-**Adam Stacoviak:** \[00:36:06.17\] I haven't installed Transmit yet. Yeah, I haven't done Transmit yet...
+**Adam Stacoviak:** \[36:06\] I haven't installed Transmit yet. Yeah, I haven't done Transmit yet...
 
 **Jerod Santo:** Those were my instant installs.
 
@@ -422,7 +422,7 @@ So in that case, then I think the next thing was like iCloud. It's an obvious th
 
 **Adam Stacoviak:** It is lame. And then, because I use Pi-hole on the network too, every machine that has or should have a dedicated IP - so DHCP tends to only issue the same IP, but it can change theoretically through DHCP. So I tend to issue static IPs to particular machines I know I'm logging into... So the Raspberry Pi's, they have their own. The Linux box I have on the network, it has its own. And like this machine, if I'm outside the network and I'm SSH-ing in, and I wanna get at something on this machine for some reason, I want it to have a dedicated IP.
 
-\[00:40:14.02\] But that actually matters less when you do DNS... So through Pi-hole, you have the option to do CNAMEs, and DNS, and stuff like that. So I have a simple system... Similarly to this, you know, \[unintelligible 00:40:27.16\] a couple Raspberry Pi's, a Linux box... So those all get named appropriately, but that first part is whatever the machine's name is, dot home, dot LAN. So it's pretty easy to get around the network, especially when adding keys, and logging in... Obviously, I tend to use the same username to get in as my personal user, because hey, it's my name... So I don't even have to put the username @ before the thing, because it assumes the username recurrently login as via SSH. So it gets a little easy. So this is another reason to name your machines appropriately, is to navigate the machines well on your network.
+\[40:14\] But that actually matters less when you do DNS... So through Pi-hole, you have the option to do CNAMEs, and DNS, and stuff like that. So I have a simple system... Similarly to this, you know, \[unintelligible 00:40:27.16\] a couple Raspberry Pi's, a Linux box... So those all get named appropriately, but that first part is whatever the machine's name is, dot home, dot LAN. So it's pretty easy to get around the network, especially when adding keys, and logging in... Obviously, I tend to use the same username to get in as my personal user, because hey, it's my name... So I don't even have to put the username @ before the thing, because it assumes the username recurrently login as via SSH. So it gets a little easy. So this is another reason to name your machines appropriately, is to navigate the machines well on your network.
 
 The second app for me was Superhuman.
 
@@ -460,7 +460,7 @@ So my client has to be fast, it's gotta be easy to navigate... I don't wanna lea
 
 But then next thing for me was like which -- I really wanted to resist the need to install anything Rosetta. If it required Rosetta, at first --
 
-**Jerod Santo:** \[00:44:15.23\] I did too, but as soon as I had to do a Creative Cloud, there was Rosetta.
+**Jerod Santo:** \[44:15\] I did too, but as soon as I had to do a Creative Cloud, there was Rosetta.
 
 **Adam Stacoviak:** Pretty much, yeah. So then, to install Creative Cloud, I tried just to have to install only Audition.
 
@@ -512,7 +512,7 @@ Now, I have noticed in Audition the timeline, and different things inside Auditi
 
 **Adam Stacoviak:** Yeah. And then Dropbox. So I'm kind of right there with you - the next thing installed was Dropbox. But you know, Dropbox drives me crazy... So there was that recent tweet out there with essentially -- there was a support ticket, and someone's asked about M1 support, and they're like "Maybe" or something like that... Like, what? Maybe?
 
-**Jerod Santo:** \[00:48:04.25\] Right. They were like "We'll think about it."
+**Jerod Santo:** \[48:04\] Right. They were like "We'll think about it."
 
 **Adam Stacoviak:** How do you say "Maybe" to the next generation Apple processors support? That's just not a thing; you don't do that.
 
@@ -566,7 +566,7 @@ Let's say today in Dropbox in my root I only have four directories, and I want t
 
 **Jerod Santo:** Are you sure about that?
 
-**Adam Stacoviak:** \[00:52:03.13\] A hundred percent. I tested it today, just to make sure before this call... Because I'm like, "Well, let me double-check before I gripe about it, how true this is."
+**Adam Stacoviak:** \[52:03\] A hundred percent. I tested it today, just to make sure before this call... Because I'm like, "Well, let me double-check before I gripe about it, how true this is."
 
 **Jerod Santo:** Yeah, that's dumb. That's not the way it should work.
 
@@ -670,7 +670,7 @@ Historically, I would use Homebrew to install Git, I'd definitely do those two s
 
 **Adam Stacoviak:** That's true.
 
-**Jerod Santo:** \[00:56:10.03\] I move around. So if I can keep as many things not open and listening on my machine, then why not. And I already have Dropbox set up, so I just --
+**Jerod Santo:** \[56:10\] I move around. So if I can keep as many things not open and listening on my machine, then why not. And I already have Dropbox set up, so I just --
 
 **Adam Stacoviak:** It'd be cool that in that case if they would allow SSH access when on a particular Wi-Fi, or a particular network.
 
