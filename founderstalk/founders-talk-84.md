@@ -10,7 +10,7 @@
 
 **Zac Smith:** I think it's a little more than that now. I think we're up to 14,000 all-in... But yeah, we've been growing pretty fast, so it's well over 10,000 at this point, and it's a little bit -- I think when we were acquired, Packet was like 130, or something... You know, you knew everybody's name, you knew their kids' names, you knew the pets' names, all that stuff. And then suddenly, you're in the midst of a much bigger ocean, which has definitely been a challenge, but super-fun at the same time. I think we have more offices in more countries than we had people at Packet.
 
-**Adam Stacoviak:** \[00:03:58.02\] That's crazy. So there's a lot of different directions I wanna go, and I do wanna talk about that in particular, this transition from startup, essentially -- or literally, startup...
+**Adam Stacoviak:** \[03:58\] That's crazy. So there's a lot of different directions I wanna go, and I do wanna talk about that in particular, this transition from startup, essentially -- or literally, startup...
 
 **Zac Smith:** Sure, yeah.
 
@@ -40,7 +40,7 @@ Anyways, we ended up becoming partners. So I was doing a lot of the selling and 
 
 **Adam Stacoviak:** Mm-hm. Big fan of Raj.
 
-**Zac Smith:** \[00:07:58.25\] So he's kept with it. So we kind of grew up in that, in that internet infrastructure space... And it was super-hard, and it was full of self-funded, bootstrapped, nobody would give you money for this kind of weirdo business "No, no, no... We're gonna sell people on-demand access to computers, with no contract... But don't worry, they're gonna stay." And everyone's like "No, they're not. They're gonna leave." I'm like, "No, no, no, they're gonna stay." It turns out that they do stay. You get them pretty addicted to that kind of stuff.
+**Zac Smith:** \[07:58\] So he's kept with it. So we kind of grew up in that, in that internet infrastructure space... And it was super-hard, and it was full of self-funded, bootstrapped, nobody would give you money for this kind of weirdo business "No, no, no... We're gonna sell people on-demand access to computers, with no contract... But don't worry, they're gonna stay." And everyone's like "No, they're not. They're gonna leave." I'm like, "No, no, no, they're gonna stay." It turns out that they do stay. You get them pretty addicted to that kind of stuff.
 
 So we sold the business actually in 2011 to a publicly-traded firm called Internap, and that was a really interesting process. We had raised some debt 18 months before, we had brought in some outside leadership... Mainly because Raj and I - we were like oil and water. We were kind of like mom and dad fighting in the corner. And he's one of my best friends today, but we were young, and we had hundred-person company that we had bootstrapped, and we were paycheck to paycheck, and cashflow \[unintelligible 00:09:00.09\] AmEx card, and all the kind of things you could think about...
 
@@ -64,7 +64,7 @@ So we were just very different in those regards, and young, and so we ended up b
 
 **Adam Stacoviak:** Wow.
 
-**Zac Smith:** \[00:12:08.28\] And he was just an incredible mentor and inspiration for me. He's like, "No, we're starting this Linux Foundation thing, it's about cloud-native software that can go anywhere", and I'm like, "I'm gonna make really automated hardware so that way we can meet in the ether." And so that was the genesis for Packet. A little crazy idea, but you know, you had to think far enough out. You had to believe -- you still have to believe, actually, that software is gonna eat the whole thing; and that means that software can run anywhere, and become increasingly - I'm gonna call it easier to operate. Maybe that's not the case right now... It is -- I argue to myself sometimes, like "Wow, I can't always spin up my own Kubernetes pod, and keep up with all the things..." But just think about how many people can run a globally distributed workload now, versus five years ago. That was like...
+**Zac Smith:** \[12:08\] And he was just an incredible mentor and inspiration for me. He's like, "No, we're starting this Linux Foundation thing, it's about cloud-native software that can go anywhere", and I'm like, "I'm gonna make really automated hardware so that way we can meet in the ether." And so that was the genesis for Packet. A little crazy idea, but you know, you had to think far enough out. You had to believe -- you still have to believe, actually, that software is gonna eat the whole thing; and that means that software can run anywhere, and become increasingly - I'm gonna call it easier to operate. Maybe that's not the case right now... It is -- I argue to myself sometimes, like "Wow, I can't always spin up my own Kubernetes pod, and keep up with all the things..." But just think about how many people can run a globally distributed workload now, versus five years ago. That was like...
 
 **Adam Stacoviak:** Unheard of, yeah.
 
@@ -108,7 +108,7 @@ I use the analogy because I always carry around a commodity piece of infrastruct
 
 **Zac Smith:** Yeah. I mean, if we're building monitoring -- with the first company, Voxel, that Raj started, that I joined - we had an open source platform for infrastructure operations like billing, and device management and monitoring. Because in the hosting world you used to give away free monitoring so that you could tell people that their host was up online. That was your job, to do the monitoring. And it was just such an interesting paradigm... I remember actually a conversation with Raj and Alexis from Datadog in our offices here in New York - we were arguing over giving away monitoring, which is what we had to do for hosting... And he was like, "No, no, no. We can charge for monitoring." And there was this big argument between Raj and Alexis - I mean, it wasn't an argument; it was more like a --
 
-**Adam Stacoviak:** \[00:16:10.09\] Which is interesting too, those two...
+**Adam Stacoviak:** \[16:10\] Which is interesting too, those two...
 
 **Zac Smith:** Yeah, of course. And Alexis is like, "Well, you have to make monitoring that isn't awful." And we were like "Oh, fair point." \[laughs\]
 
@@ -152,7 +152,7 @@ So open SaaS I think is a really cool way to think of monetizing. So from a busi
 
 **Zac Smith:** Well, I'm super-interested in the shift that's undergoing related to -- and I have to tell you, I'm addicted to cool ideas, and I'm always thinking about new stuff, or talking to different founders, or investing in them if I can afford to, or doing other kinds of stuff... But I love new things, and thinking about where it all might be, or how could it be...
 
-\[00:19:55.11\] The topic that I think about a lot these days has to do with that buyer adoption and persona issue that I see right now in sales. Because the go to market motion of like Salesforce, where you've gotta qualify people out, so you only focus on the ones that matter, who are ready to buy, and the whole marketing machine that drives leads towards that funnel, and then you trim it down to the point where you get down to a negotiation... The way that I see the highest growth companies work these days, like Datadog or whatever, is the opposite. It's like, invite everybody in; don't restrict the funnel, widen it. Free trial. Easy access. Sign up now. Get going. Free. Download. Open source. Whatever. Wide, wide, wide, wide, wide. A long phase of adoption, that can be very, very differential in terms of its place. It can move very quick, or it could take very long.
+\[19:55\] The topic that I think about a lot these days has to do with that buyer adoption and persona issue that I see right now in sales. Because the go to market motion of like Salesforce, where you've gotta qualify people out, so you only focus on the ones that matter, who are ready to buy, and the whole marketing machine that drives leads towards that funnel, and then you trim it down to the point where you get down to a negotiation... The way that I see the highest growth companies work these days, like Datadog or whatever, is the opposite. It's like, invite everybody in; don't restrict the funnel, widen it. Free trial. Easy access. Sign up now. Get going. Free. Download. Open source. Whatever. Wide, wide, wide, wide, wide. A long phase of adoption, that can be very, very differential in terms of its place. It can move very quick, or it could take very long.
 
 And then eventually, some sort of buying signal, where the customer buys it, because they want to subscribe, they want to have, they want more... Or they raise their hand and be like "I need something that's not normal. I need to negotiate it. I work for BigCo, and we need this \[unintelligible 00:21:02.28\]" or whatever it is. And I think that the tooling behind (let's call it) product-led or developer-led growth models is just so different, versus sales-led growth models. The whole infrastructure around comp, and sales tooling, and revenue, and billing, and all the things that are done \[unintelligible 00:21:25.09\] in a sales-driven model, because the time to value and the process is so long - they get flipped on their head, and suddenly all the back-office stuff becomes the front office. Pricing is in the website; pricing is there, where you can consume it.
 
@@ -168,7 +168,7 @@ Usage models have to be real-time, because those are the adoption signals that t
 
 **Adam Stacoviak:** You'd mentioned back in the day with Raj you were leading sales. Have you always been on the sales front, the business side front, the make it fit with the customer economically etc? Has that always been your spot?
 
-**Zac Smith:** \[00:24:02.06\] Well, interestingly enough, when I was working with Raj I didn't really run the sales; I really ran operations, which we might call these days Customer Success... So in a way I was doing sales and I was doing growth. And I love being out with customers; it's one of my favorite things to do, is talk to customers and understand what they love, what they hate... I think that's one of the coolest things of being at a small startup, is that you can 't hide from the customers.
+**Zac Smith:** \[24:02\] Well, interestingly enough, when I was working with Raj I didn't really run the sales; I really ran operations, which we might call these days Customer Success... So in a way I was doing sales and I was doing growth. And I love being out with customers; it's one of my favorite things to do, is talk to customers and understand what they love, what they hate... I think that's one of the coolest things of being at a small startup, is that you can 't hide from the customers.
 
 Have you ever read Jeff Lawson's book "Ask your developer"? It's like, get in the seat, answer support calls, because then you'll really know the product pain; then you'll really know what people love and hate.
 
@@ -192,7 +192,7 @@ Once you get that going and maybe you raise capital or you're constantly convinc
 
 So making sure you're with the right group of people, who align with the same vision as you, and also have this -- in EOS it's People Analyzer. Right butt, in the right seat, at the right time in their life. And I think that's really important, and that helped me -- I can totally look back and \[unintelligible 00:28:02.08\] the right person, in the right seat, but in the wrong time. Like, they were just not ready. They had like four kids, and two mortgages, and this and that... And they couldn't do it. That was too much pressure for them. Or other things, maybe with -- you know, they've gotta support their wife who was starting something, or their husband who was doing something. It just depends... So I think being honest about that has helped make sure that expectations were clear around founder groups... Because you can't do it on your own. It's too much. Especially these days. It's so competitive, and it's hard, and it's moving so fast, and the technology space in particular. Things move fast, and living up to that is difficult.
 
-**Break:** \[00:28:52.29\]
+**Break:** \[28:52\]
 
 **Adam Stacoviak:** Can you speak to the pace of Packet prior to Equinix Metal, Equinix? How many people at the beginning, when was the beginning, how fast did you ramp? Were you always involved in the hiring, were you personally involved? How has that worked for you?
 
@@ -220,7 +220,7 @@ So that was my job in the hiring scheme. And we grew -- I'd say the first two ye
 
 **Adam Stacoviak:** Wow.
 
-**Zac Smith:** \[00:35:04.12\] So we attracted people in that way. So I think we were really lucky and fortunate on having a shared values system with most of our employees, who had a strong passion and desire to work on similar things that we wanted to work on. My job was to make sure we had enough money to see that through, and customers who also valued what we did... Because there was a lot of gaps they had to fill in along the way.
+**Zac Smith:** \[35:04\] So we attracted people in that way. So I think we were really lucky and fortunate on having a shared values system with most of our employees, who had a strong passion and desire to work on similar things that we wanted to work on. My job was to make sure we had enough money to see that through, and customers who also valued what we did... Because there was a lot of gaps they had to fill in along the way.
 
 And we had raised a series B later, with Third Point, and Samsung, and Battery Ventures, and a couple of other people... And then right before we were out to raise a series C is when Equinix stepped in and decided that they wanted to automate their data centers. So that's where we ended up.
 
@@ -260,7 +260,7 @@ And we had raised a series B later, with Third Point, and Samsung, and Battery V
 
 **Zac Smith:** It's so important in startups, because you haven't figured it out. You don't know the How, you know the Why. And "Why are we doing this?" And then you'll figure out the How, which will probably change. You might even change the What. You know, what we're trying to do -- for example, the mission of Packet, beyond a very high-level one that we put on our T-shirts called "Build a better internet", was that we wanted to connect the world's developers to the technology, no matter where it was, no matter what it was, and no matter what you wanted to build on it. That was the What. We were like "You know what - we believe that software is gonna be portable and free, and innovation happens, magic happens when you put the right hardware and the right software together. We wanna do our job and make that better. And how we're gonna do that - it turned out to be a bare metal cloud. That actually wasn't the main vision. The main vision was like "Be the best bare metal cloud in the world" - it was not that. It was like "Get technology in a sustainable way out to the developers of the world, so they can create magic." That's what we wanted to do.
 
-**Adam Stacoviak:** \[00:39:11.29\] Was the What a surprise, to some degree, then?
+**Adam Stacoviak:** \[39:11\] Was the What a surprise, to some degree, then?
 
 **Zac Smith:** Well, I think we had a lot of \[unintelligible 00:39:14.12\] and I remember deep arguments, in 2015 and 2016, where some of my partners and colleagues and customers were like "You need to build load balancing as a service. People just need load balancers." And I was like, "Nope. Software will handle it." I was like, "How can we support another automated \[unintelligible 00:39:36.29\] for this Kubernetes thing? Ah, there's this cool thing \[unintelligible 00:39:38.28\] It just works. Let's do it! Let's fund it." You know, like, "How can we make those things happen?" But there were a lot -- people were like "We should build database as a service. You know why? Because databases are hard." And I'm like, "No, but that's not our mission. Our mission is not to solve the world's database problems. Our mission is to connect software with hardware. That's our job. How can we do that, and just be the best at that thing?"
 
@@ -284,7 +284,7 @@ So I think that we aligned really well on those topics, and I've seen a lot of t
 
 **Adam Stacoviak:** If you're pushing too fast, we can't follow that fast. We're just more into slow and steady. "Keeping the main thing the main thing" is another one for us... Far too often it's hard to find your main thing, and then once you do, you get so distracted by all the possible yes'es that lead you to the no's you never say, and then you're saying yes to too many things. And the way you focus is not by saying yes, it's by saying no. A lot.
 
-**Zac Smith:** \[00:42:45.26\] Yeah. That's hard. Yeah, well, it's fascinating about building startups and building companies. And I would say that the other thing that I learned in the journey of Packet - we did a management memo. We started very early with -- I have this very frustrating experience when Raj and I sold Voxel... Because we weren't dataroom ready. We had built a business, we kind of like didn't understand full P&L's and all that stuff along the way... And then when we sold to a public company, it was rather painful for us.
+**Zac Smith:** \[42:45\] Yeah. That's hard. Yeah, well, it's fascinating about building startups and building companies. And I would say that the other thing that I learned in the journey of Packet - we did a management memo. We started very early with -- I have this very frustrating experience when Raj and I sold Voxel... Because we weren't dataroom ready. We had built a business, we kind of like didn't understand full P&L's and all that stuff along the way... And then when we sold to a public company, it was rather painful for us.
 
 So I was like, "You know what I'm gonna do? When I start a new company, I'm gonna make it really buttoned up from the beginning. I wanna make sure that we're good. And I started this thing where we would write a management memo at the tenth of every month. We'd close out the month -- we started it from July of 2014, when our month was only like two weeks, and we wrote kind of a letter to ourselves. And it was to our investors, and other people, and eventually to our whole company, because we're a very transparent company... So we share everything except personal salary details throughout the company. And that served as a record for us, to really -- because the other thing that happens in a startup, from my experience, is time goes by really fast, because you're doing so much. And then four months later, you look back and you're like, "Wow, that seemed like a long time ago. Did we really think that we were gonna do that? Is that really what we thought four months ago?"
 
@@ -302,7 +302,7 @@ And that was the other thing that I learned at Packet, was how important that wa
 
 And then you've got the bull's eye, which is the stuff that's totally not urgent, but super-important. "How are we gonna win the market next year? How do we get that key employee \[unintelligible 00:47:00.00\]? Where do we go for that partnership that I might need to start developing? I should call that person again..." And those are the things that you never -- as the business gets big, and there's stuff, and there's customers... There's a special time at the beginning of a startup where you don't have any customers, you don't have any revenue... It's amazing, because you can just think about the bull's eye stuff. "How do we build this right thing? How do we go in the future? What do we do...?" You know, you do all that stuff.
 
-\[00:47:25.06\] Then as the business starts to come around you, and be successful or grow, you've got all this stuff in the outer ring that hits you in the face all day long. "We need this. This has to get paid. What's going on with that? That customer is annoyed" etc. It's noise. It needs to be done. But it's just not important in the grand scheme of things.
+\[47:25\] Then as the business starts to come around you, and be successful or grow, you've got all this stuff in the outer ring that hits you in the face all day long. "We need this. This has to get paid. What's going on with that? That customer is annoyed" etc. It's noise. It needs to be done. But it's just not important in the grand scheme of things.
 
 So figuring out how you can organize as a CEO around how do you get 10%, 20%, 30% of your time in that bull's eye - that's gonna make a difference. If you spend most of your time, and you recognize that you're spending all of your time... You go to bed at the end of your day and you're like "Shoot, I spend like 100% of my time in the outer rings", something is wrong. So you've gotta figure out how as a leader you are maniacally delegating, empowering other people, figuring out how you let some stuff drop on the floor, so that you can make sure you get some of that bull's eye time. That has to happen every day. That's my trick.
 
@@ -326,7 +326,7 @@ I had a mentor, a guy named Bill Luby at Seaport Capital, and he always told me,
 
 **Zac Smith:** I was like, "That's really cool." That's what I try to do, is keep a little bit of that future imagination that's not bounded by all the problems of the day, or challenges of \[unintelligible 00:50:41.16\] You know what? We should totally change the whole infrastructure of how our go-to-market sales stuff works, because maybe it could be better." Lots of people around you might be like, "No...! It'd be too much work..." And you have to be like "Well, maybe we could."
 
-**Adam Stacoviak:** \[00:51:00.16\] Yeah. Well, that's how you got there in the first place, right? Like you said, pre-customers, pre-revenue - all you were doing was dreaming at the future, what it could be, and then suddenly you get in this mix and you have no contemplation time. Do you ever think about that word very often, contemplation?
+**Adam Stacoviak:** \[51:00\] Yeah. Well, that's how you got there in the first place, right? Like you said, pre-customers, pre-revenue - all you were doing was dreaming at the future, what it could be, and then suddenly you get in this mix and you have no contemplation time. Do you ever think about that word very often, contemplation?
 
 **Zac Smith:** Oh, yeah.
 
@@ -344,7 +344,7 @@ I had a mentor, a guy named Bill Luby at Seaport Capital, and he always told me,
 
 So I think it's about just finding your way and systematizing that, so that when things get busy at a company - which they will - whether it's going good or going bad, it'll get busy, and you'll be in the middle of it all; that will help you. And then delegation for me has always been really important. Super-challenging, because I like to be involved; some people call that "controlling". I like to be involved. But delegating and ensuring that you get good at that is also really important, especially when you're scaling a company.
 
-**Break:** \[00:53:18.17\]
+**Break:** \[53:18\]
 
 **Adam Stacoviak:** Well, let's go deeper into Packet and then Equinix... Because you'd mentioned the seed round, you mentioned series A and series B, and then series C was when Equinix came knocking... Is that right? Did I remember correctly?
 
@@ -362,7 +362,7 @@ We had actually partnered with Equinix to some degree, and that's how the whole 
 
 So we were really needing... And after our series B, which was led by Third Point, which is Dan Loeb's venture side of his Third Point private equity firm, or something... And one of the reasons why we did that was we wanted sophisticated access to more capital. That proved prescient. We needed that, especially as we started to get really, really big customers.
 
-\[00:58:54.24\] So in the end, I don't think we wanted to, but we were in a position where we really needed to raise a ton more money for our series C, and it so happened that when Equinix approached us - you know, they have such an incredible balance sheet that they immediately saw what they could do with our platform against their balance sheet. So either we were gonna be out for a pretty big slug of capital, probably a lot of debt, and some venture, which would have been complicated, or we were gonna get acquired by one of these capital-heavy businesses...
+\[58:54\] So in the end, I don't think we wanted to, but we were in a position where we really needed to raise a ton more money for our series C, and it so happened that when Equinix approached us - you know, they have such an incredible balance sheet that they immediately saw what they could do with our platform against their balance sheet. So either we were gonna be out for a pretty big slug of capital, probably a lot of debt, and some venture, which would have been complicated, or we were gonna get acquired by one of these capital-heavy businesses...
 
 I can't say we went to get sold, but we definitely were out there, looking for a partner with a large capital base. So a little bit not normal is what I meant to do in terms of fundraising strategy, only because we knew that we were gonna have to be with a larger pool of capital to really execute on our business vision.
 
