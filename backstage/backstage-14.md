@@ -1,10 +1,8 @@
-\[00:10\]
-
 **Jerod Santo:** Alright, we are here, we are backstage at Changelog. Jerod is here - that's me; Adam is here - that's you, Adam...
 
 **Adam Stacoviak:** What's up?!
 
-**Jerod Santo:** And we have a special guest with us in Backstage, Hugo Baraúna. \[unintelligible 00:00:29.18\] What's up, man?
+**Jerod Santo:** And we have a special guest with us in Backstage, Hugo Baraúna, but we'll probably just call him Hugo, because that's easier. What's up, man?
 
 **Hugo Baraúna:** Yay! I'm great.
 
