@@ -23,6 +23,15 @@ test('applyReplaces works as expected', () => {
     expect(applyReplaces("The difference between \\`foo\\` and \\`bar\\`")).toBe('The difference between `foo` and `bar`')
 
     expect(applyReplaces("ML ops is ML ops, but OCAML ops is not")).toBe('MLOps is MLOps, but OCAML ops is not')
+
+    expect(applyReplaces("So then you type gofmt and go from there.")).toBe('So then you type go fmt and go from there.')
+    expect(applyReplaces("I love gofmt.")).toBe('I love go fmt.')
+
+    expect(applyReplaces("Opensource is the best")).toBe('Open source is the best')
+    expect(applyReplaces("It's an open-source thing")).toBe("It's an open source thing")
+    expect(applyReplaces("We open-sourced it")).toBe("We open sourced it")
+    expect(applyReplaces("What's wrong with close-sourced stuff")).toBe("What's wrong with close sourced stuff")
+    expect(applyReplaces("It's a closed-source thing")).toBe("It's a closed source thing")
 })
 
 
