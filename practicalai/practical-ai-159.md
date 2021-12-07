@@ -118,7 +118,7 @@ I want to get back, maybe, to one thing you mentioned, Natalie, around the open-
 
 **Daniel Whitenack:** I love that.
 
-Natalie Pistunovich:…which is a formatting, and then we all used that.
+**Natalie Pistunovich:** ...which is a formatting function, and then we all used that.
 
 **Daniel Whitenack:** I do, too.
 
