@@ -186,11 +186,11 @@ So it's nice, because all of our APIs are described as Go interfaces, which sinc
 
 So we then have to -- we can write our definition interface, we run the code gen, and then we implement the interface, and that's it. We've then got a new service that's then exposed in our project.
 
-**Jaana Dogan:** When are you open-sourcing this?
+**Jaana Dogan:** When are you open sourcing this?
 
 **Jon Calhoun:** I think he already did.
 
-**Mat Ryer:** It's open-sourced, yeah.
+**Mat Ryer:** It's open sourced, yeah.
 
 **Jaana Dogan:** Really?!
 

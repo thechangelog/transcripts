@@ -28,7 +28,7 @@ To some extent they're similar, because they have large physics experiments on t
 
 \[08:10\] I like it a lot because I'm not always working with programmers or computer scientists, I also get to talk to people who are doing physical sciences and other stuff. It's a pretty cool environment from that perspective.
 
-**Nadia Eghbal:** Can you talk a little bit about your lab's history with open source? I think you've mentioned in previous conversations that your lab has open-sourced a bunch of other types of projects before, and I was wondering also how did you personally get into open source in your current role?
+**Nadia Eghbal:** Can you talk a little bit about your lab's history with open source? I think you've mentioned in previous conversations that your lab has open sourced a bunch of other types of projects before, and I was wondering also how did you personally get into open source in your current role?
 
 **Todd Gamblin:** If you look at Livermore's history, I think from the Lab's founding in 1952, we've deployed fast computers; building software for them has been a long part of the lab's history. We built this thing called the Livermore Time Sharing System - I say "we", but this was way before my time... And that was one of the first time sharing operating systems to run on like a supercomputer, and that was so that the physicists could swap out time for their simulations.
 
@@ -50,7 +50,7 @@ ZFS I think is one of the major ones now, and then Slurm is used all over the pl
 
 We ported ZFS because our interest is in -- so we also have developers who work on a parallel file system called Lustre, and that's what we run on our clusters. Lustre is a parallel file system where there's a local file system that it's based on. Lustre runs on top of ZFS in our current configuration, and we're pretty psyched about that, because we get some good performance out of it.
 
-**Nadia Eghbal:** Was Spack the first project that you had open-sourced at Lawrence Livermore yourself?
+**Nadia Eghbal:** Was Spack the first project that you had open sourced at Lawrence Livermore yourself?
 
 **Todd Gamblin:** \[12:03\] It wasn't, actually. In addition to Spack, I've had a bunch of different research projects. For my PhD I worked on a scalable clustering algorithm. That's open source, it's called Muster and it's on GitHub, too. That was sort of for finding nodes in a parallel application that very similar performance characteristics.
 
@@ -271,7 +271,7 @@ That involves things like putting training out there, familiarizing scientists a
 
 **Todd Gamblin:** Yeah, but in large part -- a lot of the science parts of it and a lot of the math libraries and the computer science infrastructure are open source; this is stuff that people could build on. I think it would be really awesome if we could build simulation frameworks and things that someone could come along and build an open source code on top of, because that helps both Livermore and other organizations out.
 
-Our code teams are sort of starting to think about that. We recently had an effort internally to look at how our simulations are structured, and I think they found that something like 40%-50% of the code is pure computer science - no physics, nothing sensitive - and that part could be factored out as like a general tool kit that we could use, and open-sourcing that seems like a really good idea, because we could get contributors and we could help open science with the stuff that we're building.
+Our code teams are sort of starting to think about that. We recently had an effort internally to look at how our simulations are structured, and I think they found that something like 40%-50% of the code is pure computer science - no physics, nothing sensitive - and that part could be factored out as like a general tool kit that we could use, and open sourcing that seems like a really good idea, because we could get contributors and we could help open science with the stuff that we're building.
 
 **Nadia Eghbal:** So how do you get industry contributors involved in situations like that? Do they come to the same sort of conferences that you do? Do you have to reach out to them individually?
 
@@ -283,7 +283,7 @@ I think Procter & Gamble - I'm blanking on the guy's name, but he came out here 
 
 The other problem with getting industry contributors I think is that in many cases for something as complex as like a piece of simulation software, the industry folks really want someone to support it, they want someone to call and to say "We're having problems deploying this. What do we do?" I think for that we would have to look into starting small companies to support parts of this infrastructure, or to have maybe a support contract for like an Exxon or a P&G.
 
-**Nadia Eghbal:** \[01:00:06.16\] Well, we're gonna close out on that note... Do you have any final thoughts to share about lessons learned from your experiences open-sourcing in a fairly (I'd say) comparably difficult context?
+**Nadia Eghbal:** \[01:00:06.16\] Well, we're gonna close out on that note... Do you have any final thoughts to share about lessons learned from your experiences open sourcing in a fairly (I'd say) comparably difficult context?
 
 **Todd Gamblin:** One of the things that I've learned from Spack I guess is that you really have to think about the broader context for the thing that you're building, and that means giving up some degree of control. I think there are a lot of projects where they've grown up in one lab and they've served that one team, and they could be more broadly useful, but making it easy for people to either jump in and contribute or to pick up the thing and use it for maybe something that the users didn't intend - it wasn't always one of the team's goals.
 

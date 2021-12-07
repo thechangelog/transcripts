@@ -112,7 +112,7 @@ Some of the nice things that you can say is, "Add a unit test", right? And then 
 
 **Daniel Whitenack:** Yeah. I know, right? But yeah, some of the things I did, just to give people a sense-... And I'm sure it's not as complicated as the things that you've just mentioned. But as a simple example, I started a Python list like, data = bracket-1 comma-2 and then it just filled in the rest of the numbers for me up to a certain point, right? And then it was cool, because then I was like, "Well, I want to create a data frame now", and that's going to be one of the columns. And I said, "labels= (a, b", and then it filled in the same number of things, but with the ab pattern. And then create data frame. It did that for me. And then I just said, "Comment, save data frame to CSV", and it did the thing. So that's just a very simple example, but it was pretty cool to see, for a non-VS Code user who is also learning how to use VS code at the time, I wrote things very, very quickly, which maybe is blasphemous from a Vim user, but it was very exciting.
 
-I want to get back, maybe, to one thing you mentioned, Natalie, around the open-source code and how it was trained and such. I wonder if you have any thoughts... One of the things that I've thought about this whole time with the OpenAI Codex stuff is that open-source code, a lot of it is really bad, and there's a lot of closed source code that's really good. Was there like a-- and if you don't know, it's fine. But outside of the licensing issue in terms of code quality, what code might be there? And also, there's all sorts of stylistic opinions that people have. So, is that part of the providing ways to have people have alternates or something like that?
+I want to get back, maybe, to one thing you mentioned, Natalie, around the open source code and how it was trained and such. I wonder if you have any thoughts... One of the things that I've thought about this whole time with the OpenAI Codex stuff is that open source code, a lot of it is really bad, and there's a lot of closed source code that's really good. Was there like a-- and if you don't know, it's fine. But outside of the licensing issue in terms of code quality, what code might be there? And also, there's all sorts of stylistic opinions that people have. So, is that part of the providing ways to have people have alternates or something like that?
 
 **Natalie Pistunovich:** So, the wonderful thing about Go is that there's no different styles. There's go fmt-
 
@@ -138,11 +138,11 @@ I want to get back, maybe, to one thing you mentioned, Natalie, around the open-
 
 **Daniel Whitenack:** At my bad code, or...?
 
-**Chris Benson:** No. No, no, no. Just the general because, I mean, this has come up before. I think open-source tends to be better than closed source, because open-source, people are going to see. If it's out there on GitHub or any other place, and people will see it, and people are embarrassed to publish code that's just not very good. But in closed source, they do it all the time.
+**Chris Benson:** No. No, no, no. Just the general because, I mean, this has come up before. I think open source tends to be better than closed source, because open source, people are going to see. If it's out there on GitHub or any other place, and people will see it, and people are embarrassed to publish code that's just not very good. But in closed source, they do it all the time.
 
 **Daniel Whitenack:** I have no shame, I guess. \[laughter\]
 
-**Chris Benson:** There's open-source, there's closed source, and there's Daniel's code.
+**Chris Benson:** There's open source, there's closed source, and there's Daniel's code.
 
 **Daniel Whitenack:** Yeah. Yeah. That's a whole other category.
 

@@ -190,7 +190,7 @@ So we've kept the business small. It's not a promise, but we wanna support SQLit
 
 **Jerod Santo:** Really?
 
-**Richard Hipp:** Dave Barrett, the founder of the company, wrote this product called Bedrock. And he open-sourced it, it's out there on GitHub... It's sort of a wrapper around SQLite. His idea is that he builds a server for the application that is doing the database processing, and the frontend devices, they don't speak SQL directly; they call essentially stored procedures. And so you don't have any concern with SQL injection, because everything is done with stored procedures. But the server thing, Bedrock, uses SQLite for all of its underlying processing.
+**Richard Hipp:** Dave Barrett, the founder of the company, wrote this product called Bedrock. And he open sourced it, it's out there on GitHub... It's sort of a wrapper around SQLite. His idea is that he builds a server for the application that is doing the database processing, and the frontend devices, they don't speak SQL directly; they call essentially stored procedures. And so you don't have any concern with SQL injection, because everything is done with stored procedures. But the server thing, Bedrock, uses SQLite for all of its underlying processing.
 
 **Jerod Santo:** Huh.
 

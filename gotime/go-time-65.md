@@ -328,7 +328,7 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Brian Ketelsen:** Well, she has a day job, for sure.
 
-**Vitor De Mario:** Yeah. My co-worker is saying here on the chat that we should open-source the software as soon as possible to get a cool logo. \[laughter\]
+**Vitor De Mario:** Yeah. My co-worker is saying here on the chat that we should open source the software as soon as possible to get a cool logo. \[laughter\]
 
 **Brian Ketelsen:** Well, there are several other people in the community that are making logos, too. We should get you connected with some of them, so that you can get some good gopher logos if Ashley is too busy.
 
@@ -340,7 +340,7 @@ We have a few people from the U.S. because of that, because of the talk submissi
 
 **Vitor De Mario:** I'm sending in the chat the current version of what the bunny looks like.
 
-**Erik St. Martin:** That's actually pretty funny. I can see this as like a pitch deck to the business on why you should open-source your proprietary project. \[laughter\] It's like, "Number one - to get a cool logo." \[laughter\] They're like, "But how do we make money?" "Do you not see? I said cool logo!"
+**Erik St. Martin:** That's actually pretty funny. I can see this as like a pitch deck to the business on why you should open source your proprietary project. \[laughter\] It's like, "Number one - to get a cool logo." \[laughter\] They're like, "But how do we make money?" "Do you not see? I said cool logo!"
 
 **Brian Ketelsen:** Yeah. "We have a logo from Ashley McNamara? Hello!
 

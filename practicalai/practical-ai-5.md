@@ -234,11 +234,11 @@ If you have a big planet, it will make a deep dip. If you have a small planet, i
 
 **Daniel Whitenack:** That helps a lot, I appreciate it.
 
-**Chris Benson:** Thanks for that. So I heard that you had made your model open source, and I guess I was just wondering what the reasoning behind open-sourcing it was, and what do you hope others might achieve with it going forward?
+**Chris Benson:** Thanks for that. So I heard that you had made your model open source, and I guess I was just wondering what the reasoning behind open sourcing it was, and what do you hope others might achieve with it going forward?
 
-**Chris Shallue:** Yeah, so I generally personally believe in open-sourcing or releasing as much of the research that I do as possible, and I'm actually glad to work in this team at Google that is generally very open about our research...
+**Chris Shallue:** Yeah, so I generally personally believe in open sourcing or releasing as much of the research that I do as possible, and I'm actually glad to work in this team at Google that is generally very open about our research...
 
-I actually published this model in a TensorFlow repository on GitHub that has many models. I think it probably has dozens of models there that have all been open-sourced. I just think in general, when you do some research and you publish the paper, you do that not only to share the result that you got, but also in the hope that others can build on it. Part of that is the paper, which details the methods, but in computer science you also have the code that actually produced those results... So that was sort of the reasoning behind releasing the code.
+I actually published this model in a TensorFlow repository on GitHub that has many models. I think it probably has dozens of models there that have all been open sourced. I just think in general, when you do some research and you publish the paper, you do that not only to share the result that you got, but also in the hope that others can build on it. Part of that is the paper, which details the methods, but in computer science you also have the code that actually produced those results... So that was sort of the reasoning behind releasing the code.
 
 I certainly hope that this, at the very least, is a starting point for anyone in astronomy or other fields that has a problem similar to ours, that may be able to apply a similar technique.
 

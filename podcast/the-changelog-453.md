@@ -30,7 +30,7 @@ So in a lot of my work I'm trying to help folks, especially engineers, get out o
 
 **Jerod Santo:** Yeah.
 
-**Lara Hogan:** There's so much data that says that that's where we should be investing our energy when it comes to supporting other people as they grow... And that's also what we should be asking for when we're thinking about our own growth... Like, who are the people that know our work and might be able to vouch for us for the big, juicy leadership opportunities that, you know -- like, I wanna start public speaking, or I wanna write a company blog post, or I wanna open-source this project... Who are the people that can maybe vouch for me and help me put my name \[unintelligible 00:06:19.19\] for those opportunities?
+**Lara Hogan:** There's so much data that says that that's where we should be investing our energy when it comes to supporting other people as they grow... And that's also what we should be asking for when we're thinking about our own growth... Like, who are the people that know our work and might be able to vouch for us for the big, juicy leadership opportunities that, you know -- like, I wanna start public speaking, or I wanna write a company blog post, or I wanna open source this project... Who are the people that can maybe vouch for me and help me put my name \[unintelligible 00:06:19.19\] for those opportunities?
 
 **Adam Stacoviak:** Yeah. In some ways too it almost forces you to not be in your own way.
 

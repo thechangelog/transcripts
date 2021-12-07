@@ -38,7 +38,7 @@ Basically, you write the code, you send the code to us and we take care of every
 
 **Solomon Hykes:** Incredible, I know. And you know, eventually we refined -- to be clear, we didn't invent that tech; we built on top of low-level building blocks of the system, and that was just at a period where Linux was getting better at supporting containers, but it was still a very niche thing to do. When we started out in 2008, you had to patch the kernel very heavily, so it was for very niche use only. Then around 2012-2013 it became kind of viable to do containers yourself on top of an unmodified Linux kernel, and that opened a lot of possibility.
 
-Anyway, we heard the demand enough that we ended up just open-sourcing the underlying tech, and that became Docker. Of course, for reasons that are still a combination of mystery and luck (and hard work, as far as I'm concerned) it took off, and we ended up doing only that. We sold the platform-as-a-service business and we only do Docker.
+Anyway, we heard the demand enough that we ended up just open sourcing the underlying tech, and that became Docker. Of course, for reasons that are still a combination of mystery and luck (and hard work, as far as I'm concerned) it took off, and we ended up doing only that. We sold the platform-as-a-service business and we only do Docker.
 
 **Erik St. Martin:** You talk about kind of like the surprise, that it's like that... And credit where credit is due, right? Yes, containers existed in the Linux kernel, but I think Docker made it significantly more approachable, right? Most people who built software for Linux didn't really know about or understand cgroups and namespaces. I think Docker really made that approachable for people, and the fact that there was this kind of portable image format...
 
@@ -194,7 +194,7 @@ I think now we're one citizen of a Go city among many others, so we're contribut
 
 **Erik St. Martin:** Vitesse.
 
-**Solomon Hykes:** Yes, exactly... I think they open-sourced it since, but at the time it was not open source... But they talked about it and they said it was written in Go, and they said that the whole critical path of MySQL queries for the frontend of YouTube.com went through that. I did a quick back of the envelope math and thought "Okay, I think I can use this language."
+**Solomon Hykes:** Yes, exactly... I think they open sourced it since, but at the time it was not open source... But they talked about it and they said it was written in Go, and they said that the whole critical path of MySQL queries for the frontend of YouTube.com went through that. I did a quick back of the envelope math and thought "Okay, I think I can use this language."
 
 **Adam Stacoviak:** Nice.
 
@@ -316,7 +316,7 @@ You have spent several years defending Docker and this open container spec and y
 
 **Adam Stacoviak:** There you go, constructive feedback. Flack was my word... I don't think you directly said that, so I'm not putting words in your mouth.
 
-**Solomon Hykes:** \[56:04\] The thing to remember is when we started Docker we had open-sourced things at DotCloud but never had the scale, right? And also, it was company open source; there was no serious effort in trying to create a community where everyone participating is equal. But Docker, from day one, that was the model; we firewalled it off. But we learned a lot along the way. We looked at what other projects did, we copied... We also tried things at scale that people told us were a good idea, and then we broke it because at our scale it was a bad idea. What people forget is there's very few projects that have ever operated at the scale of Docker.
+**Solomon Hykes:** \[56:04\] The thing to remember is when we started Docker we had open sourced things at DotCloud but never had the scale, right? And also, it was company open source; there was no serious effort in trying to create a community where everyone participating is equal. But Docker, from day one, that was the model; we firewalled it off. But we learned a lot along the way. We looked at what other projects did, we copied... We also tried things at scale that people told us were a good idea, and then we broke it because at our scale it was a bad idea. What people forget is there's very few projects that have ever operated at the scale of Docker.
 
 There are projects, we're not the only one and we're not the largest, we're definitely in the top 0.1%. Just like systems behave differently at large scale and sometimes the rules change - what seemed obvious at a small scale suddenly starts breaking in mysterious ways at large scale; for projects, it's just the same thing.
 

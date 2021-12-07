@@ -44,7 +44,7 @@ I did some contract work with two different companies, and that ultimately led m
 
 So Couchbase was in this position of looking to add that capability to their product. We were already adopting Go at that point, and had been successful using Go to -- from our perspective, the value-add of Go was really faster development time. Maybe we could write a higher-performing thing in C, but there was also a chance that it crashes all the time, and the code quality is no good, and it takes maybe twice as long to get it to that same point. Go has always been a very -- to me it's like it's an engineer's mindset; it's the right trade-offs for what you need right now.
 
-So again, we set out to write what we needed in Go, but also we had this vision from the very beginning of making it open source. And I don't mean open source in name only, which is what you see a lot of companies initiate, or they write something first and then they open-source it later, but there's not really that community working on something together approach. We really set out to build a true open source community around it.
+So again, we set out to write what we needed in Go, but also we had this vision from the very beginning of making it open source. And I don't mean open source in name only, which is what you see a lot of companies initiate, or they write something first and then they open source it later, but there's not really that community working on something together approach. We really set out to build a true open source community around it.
 
 \[08:02\] And again, you can debate how successful or not successful we are, but it's a tough thing to set out to do, and I'm pretty proud of what we accomplished, as led by Couchbase.
 

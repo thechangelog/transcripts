@@ -218,7 +218,7 @@ Yeah, so I was never really excited about any of the Google languages. I wrote i
 
 Somebody had a question from the audience, like "Does Go have closures? Do you have first-class functions?" And the answer was a very dismissive "No, we don't. You don't need them", or something. And I was like "Well, okay... I'm out." Perl had them, and I had this book "Higher-order Perl" that I really loved, that taught me a lot of what people would probably actually learn in Lisp in school, or whatever, but I never really had any exposure to it until that book. So I was totally in love with higher-order functions, and stuff like that. So when Go didn't have it, I was like -- I kind of wrote it off. And also was like "I don't really invest much time in another Google internal language, because I'll just leave Google at some point and I won't get to play with it anyway, and I won't get to use it for my personal projects..."
 
-But then when they said they were open-sourcing it, I was like "Oh, I should look again. And then I noticed they had added closures in the meantime. I guess Russ Cox just went in one day when Ken Thompson was on vacation, and couldn't object, and Russ just added them. \[laughter\]
+But then when they said they were open sourcing it, I was like "Oh, I should look again. And then I noticed they had added closures in the meantime. I guess Russ Cox just went in one day when Ken Thompson was on vacation, and couldn't object, and Russ just added them. \[laughter\]
 
 **Johnny Boursiquot:** Russ? No..
 

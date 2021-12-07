@@ -6,7 +6,7 @@
 
 **Mikeal Rogers:** So why don't we start off by just telling me a little bit about how you got into open source and how you got into Ruby?
 
-**Ryan Bigg:** Sure. I was interested in Ruby on Rails from about 2007 when a friend of mine showed me the 15-minute blog by DHH, where he used Whoops a lot, and he's like "Look at all the things I'm not doing", and from that point on I was really interested in building a forum system in Rail. I started building that, and I open-sourced it and started doing work on that, and people were contributing to it through the SVN repository at the time.
+**Ryan Bigg:** Sure. I was interested in Ruby on Rails from about 2007 when a friend of mine showed me the 15-minute blog by DHH, where he used Whoops a lot, and he's like "Look at all the things I'm not doing", and from that point on I was really interested in building a forum system in Rail. I started building that, and I open sourced it and started doing work on that, and people were contributing to it through the SVN repository at the time.
 
 Then a few years later GitHub came along and I moved the project over to GitHub and people were contributing through that. So that's really where I got my start, with my own little forum project.
 

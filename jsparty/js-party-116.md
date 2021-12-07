@@ -90,7 +90,7 @@ So even in production, we can say "Alright, we don't want the fingerprint of fil
 
 **Kevin Ball:** That's pretty cool. So you mentioned this is something you built yourself for Begin. Is this open source, is this something people can play with?
 
-**Brian Leroux:** Yeah, I extracted it just today, and I'll be open-sourcing it with my slides. It's actually not a lot of code, it's one Lambda function, like I said, and it's really quite short. It doesn't do a whole lot. It only relies on vanilla Rollup right now. If you wanted to add more things like code mods, or Babel, or whatever, you could; you would slow it down in that process, but... Yeah, it's just one Lambda. You could run that anywhere Lambdas run, which is mostly AWS, but Netlify has an answer for that, too. Yeah, it works.
+**Brian Leroux:** Yeah, I extracted it just today, and I'll be open sourcing it with my slides. It's actually not a lot of code, it's one Lambda function, like I said, and it's really quite short. It doesn't do a whole lot. It only relies on vanilla Rollup right now. If you wanted to add more things like code mods, or Babel, or whatever, you could; you would slow it down in that process, but... Yeah, it's just one Lambda. You could run that anywhere Lambdas run, which is mostly AWS, but Netlify has an answer for that, too. Yeah, it works.
 
 **Kevin Ball:** That's interesting. I'm in this JAMStack world these days where I'm thinking about pre-compiling everything, and I'm like "Okay, there's the benefit of you can cut through", but maybe when you push it out, you automatically hit all those things just to regenerate the cache anyway. But then you're back to a build step.
 

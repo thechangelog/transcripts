@@ -30,7 +30,7 @@ Mikeal, you're here, so you might as well say hello...
 
 So GitHub has evolved tremendously. At first launch it didn't need - maybe it did, maybe it didn't need data scientists, I don't know... But you can totally see a true need now.
 
-And then obviously this survey, OpenSourceSurvey.org - I guess that redirects to 2017 because you have plans for a future version of this... Is that true?
+And then obviously this survey, Open SourceSurvey.org - I guess that redirects to 2017 because you have plans for a future version of this... Is that true?
 
 **Nadia Eghbal:** Yes.
 
@@ -56,7 +56,7 @@ By having access to the traffic going to these projects, we have an ability to g
 
 **Adam Stacoviak:** Yeah. It certainly makes sense to be GitHub and conduct this interview, because otherwise, on the outside, like you had just said, it's difficult to seamlessly access those kinds of people.
 
-Let's rewind a bit and kind of touch base on exactly what this is... So this is an open source survey conducted by GitHub in collaboration with researchers from academia, industry, other folks from the community... The purpose was to gather high-quality insights and data from those who were interacting with or even just checking out open source projects... A lot of responses - a little over 5,000 responses - not only from GitHub's data pool, but also it seems like random samples from other communities that aren't the GitHub platform, and then open-sourcing that data set. Is that right?
+Let's rewind a bit and kind of touch base on exactly what this is... So this is an open source survey conducted by GitHub in collaboration with researchers from academia, industry, other folks from the community... The purpose was to gather high-quality insights and data from those who were interacting with or even just checking out open source projects... A lot of responses - a little over 5,000 responses - not only from GitHub's data pool, but also it seems like random samples from other communities that aren't the GitHub platform, and then open sourcing that data set. Is that right?
 
 **Frannie Zlotnick:** So it's a little over 5,500 randomly sampled respondents from open source repos on GitHub, and then another 500-ish responses from a non-random sample of communities off GitHub.
 
@@ -422,7 +422,7 @@ This is just me guessing, but I think it goes even beyond that... People just do
 
 **Frannie Zlotnick:** Yeah... I haven't looked at that \[unintelligible 01:08:24.29\] I thought it was interesting. Something like 20% of the data is people who are students.
 
-**Adam Stacoviak:** That's a good point right there, that someone should look into this. This data that you've pulled back is all open source; the GitHub repo is linked up on the website OpenSourceSurvey.org, so it's not like you can't go and find it. You can download the data and just get started. There's a big Download button at the bottom of the site.
+**Adam Stacoviak:** That's a good point right there, that someone should look into this. This data that you've pulled back is all open source; the GitHub repo is linked up on the website Open SourceSurvey.org, so it's not like you can't go and find it. You can download the data and just get started. There's a big Download button at the bottom of the site.
 
 So what we've been talking through is your findings of this, your insights from this... That doesn't mean that somebody else might go and -- that doesn't mean the questions changed, but someone can go back to this data and pull back more insights than the five you shared here.
 
@@ -480,6 +480,6 @@ For your individual project it may not be the case that support is the least imp
 
 **Nadia Eghbal:** I really hope that open source projects use some of this stuff to figure out how to get new contributors on board and how to strengthen their communities, because I think there's a lot of really good insights around that.
 
-**Adam Stacoviak:** OpenSourceSurvey.org. I'll also mention that at the very bottom you can subscribe to survey updates; you can put your email address there, click the button Subscribe... I guess that means that we'll obviously have to do another show like this, because this was super fun. I love rountableing this and dig in through everything and getting to hear different perspectives. It's been a lot of fun. Nadia, Mikeal, Frannie, this has been fun. Thank you!
+**Adam Stacoviak:** Open SourceSurvey.org. I'll also mention that at the very bottom you can subscribe to survey updates; you can put your email address there, click the button Subscribe... I guess that means that we'll obviously have to do another show like this, because this was super fun. I love rountableing this and dig in through everything and getting to hear different perspectives. It's been a lot of fun. Nadia, Mikeal, Frannie, this has been fun. Thank you!
 
 **Frannie Zlotnick:** Thank you!

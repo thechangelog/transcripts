@@ -154,7 +154,7 @@ For example, the booking service, when you make a booking, that will put some ev
 
 **Wycliffe Maina:** For the frontend we're using Next.js, which is based on React for those who don't know about that... So most of our important pages, that is the trips pages, the homepage with your trips, hosts, and so on, are SSR-ed. So Next.js goes to the API, fetches the data, and then sends in a fully SSR-ed static page to the frontend. \[unintelligible 00:23:36.21\] so that the page gets the data and can behave more like a \[unintelligible 00:23:43.01\] application rather than a static application, which is normally what you don't want. You want to be able to provide a rich user experience for the user.
 
-So essentially, what this involves is the fetching between Next.js \[unintelligible 00:23:58.02\] The application is hosted on Vercel, which is the parent company of Next.js, or the company that builds Next.js and open-sources it.
+So essentially, what this involves is the fetching between Next.js \[unintelligible 00:23:58.02\] The application is hosted on Vercel, which is the parent company of Next.js, or the company that builds Next.js and open sources it.
 
 \[24:10\] Essentially, that goes directly to AppSync. At the moment we don't \[unintelligible 00:24:13.05\] but that might be an option for the future. So AppSync directly goes to the individual services to get the requested data, and then it does that through Next.js, which sort of caches some pages that don't change that frequently, so that the users get some pages much faster than it would involve getting them directly through AppSync \[unintelligible 00:24:34.20\]
 

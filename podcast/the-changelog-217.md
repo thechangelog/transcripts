@@ -256,7 +256,7 @@ But we are thinking about extending that to code snippets too, so that if you ha
 
 **Beyang Liu:** It's free for open source and always will be. If you're using it inside a company, you can use it for free up to -- I think the limit is 15 people now. And after that there is kind of the standard proceed pricing model. As far as how you can consume it, we've actually experimented with a couple of ways you can consume it.
 
-The most popular way of consuming is just going to sourcegraph.com and using it as a web application; that gives you global search and global user examples. So you get user examples pulled from every open-source library that might use a function, and a bunch of other stuff that's useful in the application.
+The most popular way of consuming is just going to sourcegraph.com and using it as a web application; that gives you global search and global user examples. So you get user examples pulled from every open source library that might use a function, and a bunch of other stuff that's useful in the application.
 
 The other alternative is some people prefer a native application. Kind of the same way that the Slack native app is essentially the web application in a native frame. The Sourcegraph desktop is essentially the same experience, but in native frame and with the added benefit of direct editor integration. If you install a plugin, it will add some shortcuts to your editor that make it super simple to lookup stuff in Sourcegraph. So as you're coding, Sourcegraph will kind of like preload the documentation and usage examples it thinks are relevant to the code that you're writing. So you can quickly Alt+Tab over and get the answer to "How do I use this function?" in a split second.
 
@@ -390,7 +390,7 @@ Both those ideas are very half baked, I haven't really explored them seriously y
 
 **Beyang Liu:** \[laughs\] Yeah, you know, I think it's both good and bad. Like, I'm glad that people are interested in machine learning. I think it can add a lot of value to a lot of products, but along with the good also comes the hype, and it's kind of funny to watch.
 
-**Jerod Santo:** Absolutely. Well, let's shift gears a little bit and let's talk about licensing. So we have a few different projects coming out of Sourcegraph. Of course, we've mentioned SourceLib itself, which is MIT License. You also have some cool new things like Checkup, which we can talk about in a minute in detail. That's also MIT License, but you guys commissioned a creation of a new open-source license called Fair Source, and you even hired a lawyer to write it. Can you give us the background on Fair Source, why it needed to exist and what are your thoughts are there?
+**Jerod Santo:** Absolutely. Well, let's shift gears a little bit and let's talk about licensing. So we have a few different projects coming out of Sourcegraph. Of course, we've mentioned SourceLib itself, which is MIT License. You also have some cool new things like Checkup, which we can talk about in a minute in detail. That's also MIT License, but you guys commissioned a creation of a new open source license called Fair Source, and you even hired a lawyer to write it. Can you give us the background on Fair Source, why it needed to exist and what are your thoughts are there?
 
 **Beyang Liu:** \[01:04:06.15\] Yeah, totally. So just to be clear, we don't consider Fair Source open source, and we wanna make sure that people understand we're not trying to pond Fair Source off as an open source license. We think it's separate distinct from open source, but we do think it has a place in the world.
 
@@ -404,7 +404,7 @@ We kind of looked around and said, "Well, can we kind of take some things from o
 
 So we kind of looked around, we asked a bunch of open source contributors what they thought about the idea. We were really worried that we'd get a lot of pushback from people, because I think a lot of people - and rightly so - have concerns about companies coming along and trying to cast things as open source that aren't open source.
 
-But what we found among open-source authors is actually kind of this latent frustration at the fact that they're kind of investing so many hours of their lives... A lot of these people have families and kids in addition to day jobs and they are investing time and energy into these projects and companies are using those projects to build things that make a lot of money, and the people actually building the underlying technology don't see a penny.
+But what we found among open source authors is actually kind of this latent frustration at the fact that they're kind of investing so many hours of their lives... A lot of these people have families and kids in addition to day jobs and they are investing time and energy into these projects and companies are using those projects to build things that make a lot of money, and the people actually building the underlying technology don't see a penny.
 
 And that's bad, because if you're building something valuable for the world, you should be able to make a living off of it. So talking to those contributors kind of gave us the confidence to kind of keep looking around and then we ended up meeting this lawyer by the name of Heather Meeker who I think was involved in drafting the Mozilla Public License and a couple of other open source licenses.
 
@@ -448,7 +448,7 @@ We met them through a mutual friend of the company and she said, "I would love t
 
 **Adam Stacoviak:** Have you done much discussing or talking out there on the Internet anywhere about Fair Source and the motivations behind it and the plan for it?
 
-**Beyang Liu:** Yeah, we've talked to... There has been some interest from open-source authors; a journalist from WIRED reached out a couple of months back and my co-founder, Quinn, spoke to him and I think wrote up an article. But it's not been kind of a core focus of the company. The main focus right now is just building an awesome product for developers. This is just a means for us to release the product in a way that we think is kind of the right way to do it for developers.
+**Beyang Liu:** Yeah, we've talked to... There has been some interest from open source authors; a journalist from WIRED reached out a couple of months back and my co-founder, Quinn, spoke to him and I think wrote up an article. But it's not been kind of a core focus of the company. The main focus right now is just building an awesome product for developers. This is just a means for us to release the product in a way that we think is kind of the right way to do it for developers.
 
 **Adam Stacoviak:** \[01:11:53.08\] Any common myths about this license you wanna debunk right now?
 

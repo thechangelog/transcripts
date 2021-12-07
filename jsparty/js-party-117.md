@@ -84,7 +84,7 @@ But as far as whether we're going to do that in Gatsby - probably not any time s
 
 **Dustin Schau:** Sebastian McKenzie.
 
-**Christopher Hiller:** He open-sourced it last night, so it's just kind of a big -- it's just a code dump right now. It's very new, is what I'm saying. Less than 24 hours ago, so...
+**Christopher Hiller:** He open sourced it last night, so it's just kind of a big -- it's just a code dump right now. It's very new, is what I'm saying. Less than 24 hours ago, so...
 
 **Dustin Schau:** Yeah, you're kind of trying to catch me off-guard, and making sure I know my JS ecosystem.
 
@@ -220,7 +220,7 @@ There are edge cases here. I don't wanna portray a silver-bulleted scenario ever
 
 **Nick Nisi:** Cool.
 
-**Kevin Ball:** Is that diffing tool intended to be part of what is open-sourced as a part of Gatsby, or is that maintaining proprietary to the Gatsby Inc.?
+**Kevin Ball:** Is that diffing tool intended to be part of what is open sourced as a part of Gatsby, or is that maintaining proprietary to the Gatsby Inc.?
 
 **Dustin Schau:** Yeah, good question. Incremental Builds requires cloud tooling to be an effective solution today. In the future we definitely want to explore that space to see what's possible in open source. You've mentioned a couple things that I think are really interesting.
 

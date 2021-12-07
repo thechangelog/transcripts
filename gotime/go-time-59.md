@@ -270,7 +270,7 @@ So we're trying to make it easy for them to run good Go code, and of course, Goo
 
 As just one example, a different project of mine that I run is [Debian Code Search](https://codesearch.debian.net/), which is a regular expression code search engine for all of the open source software that is found in Debian. When I launched it, we had quite some trouble getting the resources for it, because you need storage devices that have a huge number of IOPS; you definitely need flash devices, maybe even RAM if you can afford it, which we can't right now. But you can't run it off of a regular spinning hard disk, and in 2012 when I started that project, I approached the Debian sys admin team and asked them for flash storage, and they flat out laughed at me. I was like "What's happening?", I just couldn't understand, because that was also the year when I joined Google, and when I needed flash storage, I would just ask for it and allocate it in a self-service way, and a couple of minutes later I would have the flash storage available to me... And I just couldn't fathom how there could be this huge divide between "Oh yeah, sure, you can do that. You don't even need to talk to a human to do that internally", and then externally it just would not be possible.
 
-**Carlisia Thompson:** Is Google going to open-source a lot of the infrastructure or some of the infrastructure?
+**Carlisia Thompson:** Is Google going to open source a lot of the infrastructure or some of the infrastructure?
 
 **Michael Stapelberg:** \[39:56\] I think that's definitely the trend. Infrastructure is always hard to really open source, as in infrastructure software and systems. But if you read about it, there was the release of [Abseil](https://abseil.io/) recently, which is sort of Google's base libraries for C++ and also for Python. It was released at CppCon just a couple of days ago.
 
@@ -280,9 +280,9 @@ I'm very excited about this release, because it means that other parts of Google
 
 **Michael Stapelberg:** Unfortunately, I didn't even know that she was moving, so... I don't know, sorry.
 
-**Carlisia Thompson:** Yeah, more like what the plans are for open-sourcing... What parts of the infrastructure is what I'm curious.
+**Carlisia Thompson:** Yeah, more like what the plans are for open sourcing... What parts of the infrastructure is what I'm curious.
 
-**Michael Stapelberg:** Right. I think that is a decision that the individual teams actually need to make for themselves. I think in general the climate is pro-open source and people are encouraged to think about it and consider open-sourcing it, but ultimately there's no top-down mandate to open-source everything. That wouldn't fly, that's not how Google works.
+**Michael Stapelberg:** Right. I think that is a decision that the individual teams actually need to make for themselves. I think in general the climate is pro-open source and people are encouraged to think about it and consider open sourcing it, but ultimately there's no top-down mandate to open source everything. That wouldn't fly, that's not how Google works.
 
 I think if the team in question has the man power to do it and has the will to do it, they will now be much more empowered than they used to be.
 
@@ -378,7 +378,7 @@ So there is definitely a balance that one needs to strike here, and I'm fairly c
 
 **Carlisia Thompson:** Yeah... Sounds like software development. \[laughter\] So I ran into this post early in the week (a few days ago), and to complement Michael's blog post, which is -- we never mention the name, but it's named [Why Go is my favorite programming language](https://michael.stapelberg.de/posts/2017-08-19-golang_favorite/), and that's gonna be in the show notes.
 
-This post is called [The 7 stages of becoming a Go programmer](https://opensource.com/article/17/9/seven-stages-becoming-go-programmer), and it's sort of hilarious... I was laughing.
+This post is called [The 7 stages of becoming a Go programmer](https://open source.com/article/17/9/seven-stages-becoming-go-programmer), and it's sort of hilarious... I was laughing.
 
 **Brian Ketelsen:** It really is good.
 

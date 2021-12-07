@@ -114,7 +114,7 @@ So what we saw was that phase - I'm putting out stuff; our LEGO autopilot back i
 
 **Adam Stacoviak:** When did the law change around that? At what point did they get wiser to it?
 
-**Chris Anderson:** The law never changed. There are two things that the law accommodates. One was that there was an exemption for public domain. So if you open-source this stuff, then it's considered public domain and you're exempted... On the assumption that no one would ever open-source a cruise missile controller, but of course, that's kind of what we did.
+**Chris Anderson:** The law never changed. There are two things that the law accommodates. One was that there was an exemption for public domain. So if you open source this stuff, then it's considered public domain and you're exempted... On the assumption that no one would ever open source a cruise missile controller, but of course, that's kind of what we did.
 
 **Jerod Santo:** Apparently that's a bad assumption.
 

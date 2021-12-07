@@ -344,7 +344,7 @@ And not everybody's accustomed to reading the draft proposal form of things, so 
 
 **Erik St. Martin:** The chaos is actually happening in the office, not in production.
 
-Yeah, I mean, most people don't really test that way, so it was an interesting paradigm a number of years ago when it was released. I just found it really interesting that they completely rewrote the Chaos Monkey in Go. I think Scott Mansfield had mentioned that when he was on the show, that they were working on it, so that's finally open-sourced.
+Yeah, I mean, most people don't really test that way, so it was an interesting paradigm a number of years ago when it was released. I just found it really interesting that they completely rewrote the Chaos Monkey in Go. I think Scott Mansfield had mentioned that when he was on the show, that they were working on it, so that's finally open sourced.
 
 A related project that I actually ran into over the week was Pumba. It's chaos testing for Docker, which was interesting. It has a lot of like the "kill your container and restart it", "send random signals at the process" and things like that. Another interesting aspect of it was that it allows you to emulate network conditions where you experience packet loss coming into your container, packets being reordered, corruption and stuff like that. I have not played with it yet, so I can't give it an awesome stamp of approval, but it definitely looks interesting and I wanna start playing with it.
 

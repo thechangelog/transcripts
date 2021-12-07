@@ -140,7 +140,7 @@ So there's a lot of ways that you don't really have a clear path forward, and it
 
 **Mat Ryer:** Oh, wow.
 
-**Joakim Kennedy:** So I wrote a tool... I open-sourced this; I think it was two years ago... And what it does - you throw it a Go binary and it will extract that information, and it will print out like a source code projection. So you get a folder, file, and then functions, and then the line numbers where the function starts and ends. You print that out and you can look at samples. And many times, I'll just throw a bunch of Go binaries and it would just go through it and go Loader, Cracked, Ransomware. Oh, that's a new backdoor... Because you see the function names. Encrypt. Get key. Drop note. Walk filesystem. I see only encrypt, I never see a decrypt function. It's pretty clear what this is doing, just from the name.
+**Joakim Kennedy:** So I wrote a tool... I open sourced this; I think it was two years ago... And what it does - you throw it a Go binary and it will extract that information, and it will print out like a source code projection. So you get a folder, file, and then functions, and then the line numbers where the function starts and ends. You print that out and you can look at samples. And many times, I'll just throw a bunch of Go binaries and it would just go through it and go Loader, Cracked, Ransomware. Oh, that's a new backdoor... Because you see the function names. Encrypt. Get key. Drop note. Walk filesystem. I see only encrypt, I never see a decrypt function. It's pretty clear what this is doing, just from the name.
 
 **Natalie Pistunovich:** It's nice to know that hackers use good practices in software...
 

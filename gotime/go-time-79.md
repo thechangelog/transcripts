@@ -297,7 +297,7 @@ We're trying to surface that a bit more, and let people know that Go is ready, a
 
 **Steve Francia:** I know we don't talk about things like this. I'll say broadly - Google does not share internal language usage, and I'll just point out what is public already, which is this week we announced [gVisor](https://github.com/google/gvisor), which is a new container runtime that works with Kubernetes and Docker. It is a sandboxed container runtime; it was announced a couple days ago. I believe it might have been announced at [KubeCon](https://events.linuxfoundation.org/events/kubecon-cloudnativecon-europe-2018/), which is also happening this week... But I think it's been a part of Google for years; we've just released it. It is I think a industry-transformative; it has the power to transform our industry, particularly in cloud. It brings a brand new approach to running containers in a secure and isolated way, and this entire application is written in Go.
 
-I think you'll see a lot of core Google projects that are being open-sourced that are written in Go, and that's probably the best answer I have for that question.
+I think you'll see a lot of core Google projects that are being open sourced that are written in Go, and that's probably the best answer I have for that question.
 
 **Carlisia Thompson:** Thank you. I know why you can say it's limited, but we always try to ask anyway. Someday, somebody will slip, I promise. I promise the listeners... \[laughter\]
 
@@ -315,7 +315,7 @@ There's a second approach, which is a rule-based execution, which is using thing
 
 **Carlisia Thompson:** Cool. I see now what you're saying.
 
-**Steve Francia:** I encourage people to read the [post](https://cloudplatform.googleblog.com/2018/05/Open-sourcing-gVisor-a-sandboxed-container-runtime.html), the readme around it. It's transformative in the way that it's gonna make containers... In my mind, it's really -- and I've been part of the containers space for a very long time... This really is the project that tackles the biggest gap in what containers can do. With gVisor, I think containers are in a place where they really are the future, and there's no more gaps. gVisor closes the last gap.
+**Steve Francia:** I encourage people to read the [post](https://cloudplatform.googleblog.com/2018/05/Open sourcing-gVisor-a-sandboxed-container-runtime.html), the readme around it. It's transformative in the way that it's gonna make containers... In my mind, it's really -- and I've been part of the containers space for a very long time... This really is the project that tackles the biggest gap in what containers can do. With gVisor, I think containers are in a place where they really are the future, and there's no more gaps. gVisor closes the last gap.
 
 **Erik St. Martin:** Yeah, I'm actually really excited about it, and I'm kind of sad I haven't got to play with it yet. Just getting back from Chicago and getting caught up, and about to leave for Seattle, so I'm like, "Nooo....!"
 

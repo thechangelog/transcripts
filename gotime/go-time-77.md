@@ -317,7 +317,7 @@ The core Go team, which is the people that you'd actually see doing things on th
 
 **Brian Ketelsen:** I'll put the link in Slack, and we'll get that in the show notes, too. The thing that really got me excited this week was lgo, which is at [github.com/yunabe/lgo](https://github.com/yunabe/lgo). That's [Jupyter Notebook](https://jupyter.org/), and it's 100% Go-compatible. So unlike the [Gopher Notes](https://github.com/gopherdata/gophernotes) implementation, which is still awesome, but has a lot of limitations about what kind of Go code it'll run, this new lgo implementation for Jupyter Notebooks does everything, including importing external code, it gives you runtime code introspection, code completion - the whole works. It's amazing. I was playing with it last night, and I can think of a million ways to use this for teaching Go specifically, so I'm super excited.
 
-**Erik St. Martin:** Did anybody see the [announcement](https://medium.com/netflix-techblog/titus-the-netflix-container-management-platform-is-now-open-source-f868c9fb5436) yesterday from Netflix for Titus?
+**Erik St. Martin:** Did anybody see the [announcement](https://medium.com/netflix-techblog/titus-the-netflix-container-management-platform-is-now-open source-f868c9fb5436) yesterday from Netflix for Titus?
 
 **Brian Ketelsen:** Who's Netflix?
 

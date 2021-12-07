@@ -58,7 +58,7 @@ So I did a lot of code, and also a lot of issue gardening, and a lot of communit
 
 But every opportunity that one gets, you should be trying to contribute back. Because the same way you sort of leverage and bring in these open source components into your own world to actually deliver value, you're actually getting something for free indeed, but it's actually creating value, so you need to be able to send someone at back for somebody else to be able to leverage that. The pay it forward kind of model.
 
-**Mark Bates:** You mentioned that a lot of the companies you work for don't open-source their projects, which is quite common, obviously. We all have private repos... But have you ever worked for a company that just won't use open source at all?
+**Mark Bates:** You mentioned that a lot of the companies you work for don't open source their projects, which is quite common, obviously. We all have private repos... But have you ever worked for a company that just won't use open source at all?
 
 **Johnny Boursiquot:** \[08:08\] I've been fortunate enough to not have worked directly for those companies, but I have worked on projects for other third-party companies through my employer, that basically did not wanna use any open source at all. And usually, the problem came with sort of legal and licensing, especially with projects that did not have any sort of specific, explicit licensing in the repositories themselves, where you couldn't tell whether you were allowed to use a software for profit or not... So the waters were kind of murky; legal was always basically saying "Nope, you can't have that in there."
 

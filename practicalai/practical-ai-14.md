@@ -142,7 +142,7 @@ There are also great books. There is a book by Ian, a deep learning book, there 
 
 I would really recommend to go through fundamentals instead of jumping right away to the most difficult architectures, and I would really recommend as much as you can to implement things from scratch.
 
-**Daniel Whitenack:** Yeah, that's a great point. I know I've had some experience in the past where some research comes out, it's really interesting, and you can go to a GitHub repo within a number of days and there's an open-sourced architecture there, but you try to run it and you see all this weird behavior, and maybe it behaves differently than you'd expect, but it's really hard if you don't know the fundamentals to dive into the debug and advance... So yeah, that's great.
+**Daniel Whitenack:** Yeah, that's a great point. I know I've had some experience in the past where some research comes out, it's really interesting, and you can go to a GitHub repo within a number of days and there's an open sourced architecture there, but you try to run it and you see all this weird behavior, and maybe it behaves differently than you'd expect, but it's really hard if you don't know the fundamentals to dive into the debug and advance... So yeah, that's great.
 
 I appreciated what you've said about any one person, even yourself, who has advanced a lot in this field, doesn't have all of the pieces of knowledge to perform a successful research or to advance a project... I was wondering, at OpenAI, how do you structure your teams and what do you look for when you're putting together a team, so that you have a variety of experience and perspectives to actually give a good result?
 

@@ -214,7 +214,7 @@ If there are any issues with the new application, for example it doesn't pass it
 
 **Gerhard Lazu:** Hacker News, that's the one. Thank you, Jerod. And he's very excited to see that he can pick up a lot of the things that we learned, and he also gets to share when he learns something... Because it's open source; he can do a PR, and all of a sudden our application is better, and everybody benefits. That's the one thing which I loved about Changelog, how open it was.
 
-Jerod, you were the first one that open-sourced the entire new Changelog.com application. I thought that was great. And then later on you did the same for infrastructure, but because it was done so late, it made little sense to the users. I mean, they've seen this finished thing. While with this new infrastructure, the entire codebase, everything we do is in the same repository as the application. There is a monorepo, right? It's one happy party.
+Jerod, you were the first one that open sourced the entire new Changelog.com application. I thought that was great. And then later on you did the same for infrastructure, but because it was done so late, it made little sense to the users. I mean, they've seen this finished thing. While with this new infrastructure, the entire codebase, everything we do is in the same repository as the application. There is a monorepo, right? It's one happy party.
 
 **Jerod Santo:** Right. It's one happy party and everyone's invited.
 

@@ -252,7 +252,7 @@ And I kind of mentioned it quickly at the end there, \[unintelligible 00:28:30.2
 
 **Mike Hartington:** Yeah. From a governance model, yeah. It's all kind of driven by us. But we do have the community voice represented. Question about open source governance model... I am touched. No one asks that stuff.
 
-**Kevin Ball:** Well, we are representing The Changelog here, so we care pretty deeply about that. So - question then... Because Cordova came out of PhoneGap. PhoneGap was a commercial product. They open-sourced it. I believe they've put it under the Apache Foundation. Is that correct? Do you all have intentions to move to a more open governance model, or is that not in the cards for now?
+**Kevin Ball:** Well, we are representing The Changelog here, so we care pretty deeply about that. So - question then... Because Cordova came out of PhoneGap. PhoneGap was a commercial product. They open sourced it. I believe they've put it under the Apache Foundation. Is that correct? Do you all have intentions to move to a more open governance model, or is that not in the cards for now?
 
 **Mike Hartington:** I don't think it's in the cards for now. I think a lot of what -- so when we saw Cordova go to Apache, there's obviously a lot of benefit there, but there's also... There's a process involved to make sure that things go through; the Apache process are done the Apache way... We saw that as a factor for why it was getting held back, or kind of not iterating fast enough.
 

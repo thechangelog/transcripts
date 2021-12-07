@@ -68,7 +68,7 @@ There's plenty of technical challenges in the Open edX codebase; it's big and ol
 
 **Jerod Santo:** Has edX been open from the start?
 
-**Ned Batchelder:** Not quite the start. We actually open-sourced on June 1st, 2013, so it's been quite a long time. We've been open source for six years. I've been saying it started six years ago; I guess at this point it was about 7,5 years ago that the first commit went into GitHub.
+**Ned Batchelder:** Not quite the start. We actually open sourced on June 1st, 2013, so it's been quite a long time. We've been open source for six years. I've been saying it started six years ago; I guess at this point it was about 7,5 years ago that the first commit went into GitHub.
 
 **Jerod Santo:** Time flies.
 
@@ -80,13 +80,13 @@ There's plenty of technical challenges in the Open edX codebase; it's big and ol
 
 **Jerod Santo:** Okay.
 
-**Ned Batchelder:** When I came in the door, the plan was "We're gonna open-source. We have to get around to it."
+**Ned Batchelder:** When I came in the door, the plan was "We're gonna open source. We have to get around to it."
 
 **Jerod Santo:** I was gonna ask that question.
 
 **Ned Batchelder:** Yeah. Because edX was spun out from MIT, so we've got a culture behind us of sharing, and the whole point was to open up institutions of higher education to help get their teaching out onto the internet. We're a non-profit. Technically, edX Inc. is a non-profit, so sort of from the ground up it's been built as an open source kind of organization.
 
-**Jerod Santo:** Well, that probably serves it well, because if it wasn't, there was debate internally, and then maybe it was open-sourced in haste or in anger... Buy-in is an important thing, so that's what I was trying to drill down on - how long it has been open, and if it was at least planned from the start. That seems like a recipe for success, more so than the other way around, where some organizations will open-source for reasons like they read in a magazine that they should do it, and it will help them get business, or whatever...
+**Jerod Santo:** Well, that probably serves it well, because if it wasn't, there was debate internally, and then maybe it was open sourced in haste or in anger... Buy-in is an important thing, so that's what I was trying to drill down on - how long it has been open, and if it was at least planned from the start. That seems like a recipe for success, more so than the other way around, where some organizations will open source for reasons like they read in a magazine that they should do it, and it will help them get business, or whatever...
 
 **Ned Batchelder:** It's what all the cool kids do, so we should do it.
 

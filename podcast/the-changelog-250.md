@@ -48,9 +48,9 @@ We have the power here to send an email and tell everybody in the company "You h
 
 Kubernetes internally isn't in great use, although we are seeing more and more teams now start to port their applications to our cloud product on top of a container engine.
 
-**Jerod Santo:** So was Borg or any parts of Borg ever open sourced, or was there just a white paper? I remember there being a few years back a lot of news around this Borg thing coming out of Google, and that might have pre-dated Kubernetes open-sourcing. Can you help me out with the history there? Was Borg or parts of Borg ever open-sourced?
+**Jerod Santo:** So was Borg or any parts of Borg ever open sourced, or was there just a white paper? I remember there being a few years back a lot of news around this Borg thing coming out of Google, and that might have pre-dated Kubernetes open sourcing. Can you help me out with the history there? Was Borg or parts of Borg ever open sourced?
 
-**Tim Hockin:** The way Google's codebase works is we have a mega codebase. Parts of Borg have been open-sourced in the sense that some of the core libraries that Borg uses are used by other open source projects, so pieces of this system have been released, but not as a scheduler or a container system per se. We did do a paper on Omega, and then we did a paper on Borg. We also did some papers and performance analysis of Borg and using application traces through the system to model the behavior of Borg, and in fact, some of these are in fact what led to the development of things like Mesos.
+**Tim Hockin:** The way Google's codebase works is we have a mega codebase. Parts of Borg have been open sourced in the sense that some of the core libraries that Borg uses are used by other open source projects, so pieces of this system have been released, but not as a scheduler or a container system per se. We did do a paper on Omega, and then we did a paper on Borg. We also did some papers and performance analysis of Borg and using application traces through the system to model the behavior of Borg, and in fact, some of these are in fact what led to the development of things like Mesos.
 
 **Jerod Santo:** Very interesting. Oh, that does ring a bell.
 
@@ -58,7 +58,7 @@ Kubernetes internally isn't in great use, although we are seeing more and more t
 
 **Jerod Santo:** Absolutely.
 
-**Aparna Sinha:** The other point I wanted to make is that, you know, what we found is that when you talk about open source systems, there's a fundamental difference between taking a technology that you're using internally and open-sourcing it versus developing something as an open source platform from the get-go. Kubernetes is the latter. When you take something that's internal and open-source it, it's not necessarily built for an external environment, and it usually has a number of constraints built into it that may be specific to the company from which it comes.
+**Aparna Sinha:** The other point I wanted to make is that, you know, what we found is that when you talk about open source systems, there's a fundamental difference between taking a technology that you're using internally and open sourcing it versus developing something as an open source platform from the get-go. Kubernetes is the latter. When you take something that's internal and open source it, it's not necessarily built for an external environment, and it usually has a number of constraints built into it that may be specific to the company from which it comes.
 
 \[08:13\] The Kubernetes was built differently, and I think Tim can speak much more about that... But it was really built for the external world, with the external world from the start.
 

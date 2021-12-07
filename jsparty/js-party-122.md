@@ -374,7 +374,7 @@ So what it ends up being is that it feels like you're editing the website in rea
 
 **Divya Sasidharan:** Oh, yes... \[laughs\]
 
-**Guillermo Rauch:** So the dev tools have done a better job so far at making this technology available to everybody than the rest of the world so far. But now, admittedly, we clearly see a path forward. I believe we're about to open-source the preview example too, so that everyone can plug it into their headless CMS of choice...
+**Guillermo Rauch:** So the dev tools have done a better job so far at making this technology available to everybody than the rest of the world so far. But now, admittedly, we clearly see a path forward. I believe we're about to open source the preview example too, so that everyone can plug it into their headless CMS of choice...
 
 **Divya Sasidharan:** Cool.
 

@@ -224,7 +224,7 @@ One thing we haven't done yet is just to give the lay of the land with regard to
 
 When it comes to the application - our listeners already know - it's Elixir, which is running on top of the Erlang VM, which runs inside a Docker container. PostgreSQL is the database, Elixir connects to the PostgreSQL. There's NGINX in front, NGINX proxies request to the Elixir application, and in front of all of that we have a CDN - we're using Fastly for that, and that's fronting and distributing all the static content, all the MP3's, all the episodes and all of that.
 
-There are two repositories, both hosted on GitHub. One of them is the infrastructure repository, which contains all the code, and basically all the glue, holding all the services together, and the application which is already open-sourced, the changelog.com application.
+There are two repositories, both hosted on GitHub. One of them is the infrastructure repository, which contains all the code, and basically all the glue, holding all the services together, and the application which is already open sourced, the changelog.com application.
 
 \[44:06\] When it comes to the services that we used, all the credentials are stored in LastPass; that's where all the credentials are stored, and when we configure out CI, we pull credentials from LastPass. Either one of us can just pull the credentials by the LastPass CLI. We configure the CI using this tool called Fly; it's self-contained and it's very easy to use and fairly self-explanatory, and I think that's it. What did I miss, Jerod?
 

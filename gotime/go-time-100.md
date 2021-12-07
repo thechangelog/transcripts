@@ -124,7 +124,7 @@ At that point we were five, and the five of us worked as a group for probably qu
 
 **Rob Pike:** Yes, Jeanie Kim. Yes.
 
-**Carmen Andoh:** And this was all the pre-open source. Do you wanna talk a little bit about the journey to the big day, November 10th, 2009, when it got open-sourced?
+**Carmen Andoh:** And this was all the pre-open source. Do you wanna talk a little bit about the journey to the big day, November 10th, 2009, when it got open sourced?
 
 **Rob Pike:** We knew that if we were ever gonna do this, it was gonna be open source... So we planned it to be an open source release. But we wanted to be able to get it right, or as close as we could get to right, before we showed it to the world. It was about two years of work before we launched it. There was an enormous rush in the last few months to clean up everything we were too embarrassed to let out the door, although we didn't get rid of everything...
 

@@ -228,7 +228,7 @@ It's mostly you begging people, hoping that your projects gets big enough that a
 
 **Caleb Porzio:** \[31:53\] Like, I'm buried up to my eyeballs in GitHub issues and PRs and everything... Yeah, shouldn't the work I'm doing right now justify the payment in itself? So that was sort of my position. It was like "Alright, Daniel, let's argue this. I think that there's this crazy thing where nobody's paying these open source maintainers, and I'm in that place right now, where I'm kind of living unsustainably... But I don't wanna be the one to go on Twitter and be like "Hey, everybody should pay me money."
 
-So we started talking about some different ideas, and this really emerged from that discussion. There was a moment in that discussion where I was talking about Sushi, which -- that's kind of a funny package as an example for this... But I was talking about Sushi, and like "Yeah, I think I'm gonna open-source it..." So I posed to him this problem, I'm like "I like open source. I love the open source movement. I love everything about it. And something about charging for software and not making it open source feels weird to me. I've benefitted so much from people sharing projects..." So I don't wanna just say "Hey, this package is only available to my sponsors. It's one of the rare packages that I just keep to myself." I could do that, but something just felt off about it... And I'm restricting the growth of it. There's so many reasons that that's just not satisfactory. Every time I come to that decision in my head, I go "You know what - I'd rather not have the $200, or whatever, and I'd rather just everybody use it. I don't know..."
+So we started talking about some different ideas, and this really emerged from that discussion. There was a moment in that discussion where I was talking about Sushi, which -- that's kind of a funny package as an example for this... But I was talking about Sushi, and like "Yeah, I think I'm gonna open source it..." So I posed to him this problem, I'm like "I like open source. I love the open source movement. I love everything about it. And something about charging for software and not making it open source feels weird to me. I've benefitted so much from people sharing projects..." So I don't wanna just say "Hey, this package is only available to my sponsors. It's one of the rare packages that I just keep to myself." I could do that, but something just felt off about it... And I'm restricting the growth of it. There's so many reasons that that's just not satisfactory. Every time I come to that decision in my head, I go "You know what - I'd rather not have the $200, or whatever, and I'd rather just everybody use it. I don't know..."
 
 **Jerod Santo:** Right.
 
@@ -262,7 +262,7 @@ So we started talking about some different ideas, and this really emerged from t
 
 **Caleb Porzio:** Kickstarter is a good analogy. Yeah, so basically he had proposed that... Like, "What if you kept it just to sponsors until you reached a certain threshold? And then at that threshold of sponsors, or monthly income, or whatever, you release it open source?" And it was one of the ideas that felt like it came out of the clouds. I was like "Dude, that's it. That's exactly it." It's perfect, because it really answers all the questions for me. It checks all the boxes. It's still open source, so at the end of the day it'll be an open source project. If it's open source, it will be sustainable, because it will have already earned its keep... And yeah, and I get to make money. So I get to make money, and I get to have open source stuff. So I thought it was a great idea.
 
-**Jerod Santo:** It's interesting, because the actual sponsorship goes to you, the person; it doesn't go necessarily to Sushi, the project... But they are backing you in order to open, allow you to open-source Sushi. This is GitHub sponsors you're using, so how many sponsors did you have when you first put up Sushi as sponsorware?
+**Jerod Santo:** It's interesting, because the actual sponsorship goes to you, the person; it doesn't go necessarily to Sushi, the project... But they are backing you in order to open, allow you to open source Sushi. This is GitHub sponsors you're using, so how many sponsors did you have when you first put up Sushi as sponsorware?
 
 **Caleb Porzio:** \[35:57\] Yeah. I'll run you through the hard numbers and then we can talk causation and intent, things like that. Also, I wanted to note that there is tons of nuance in this whole open source payment discussion. That's why we did that podcast, because it's like "Well, what about maintaining the project, and not the first person who started it?" We can get there.
 
@@ -302,7 +302,7 @@ So after the podcast, when I actually sat down to implement all this stuff, I re
 
 **Caleb Porzio:** Yeah.
 
-**Jerod Santo:** And then you turned around and you sent an email to your mailing list that said basically "Okay, I'm writing Sushi. If you want me to open-source it, I've gotta get to 75 GitHub sponsors." I'm wondering how much of this may have been because of the novelty of the idea. Because there's some of that... Especially that a lot of your backers might be indies and devs, and like "Oh, cool." Obviously, you can't necessarily quantify all this, but I'm just curious, how did you actually pitch this to your audience, and I'm wondering how much we could rinse and repeat this and have success for the people?
+**Jerod Santo:** And then you turned around and you sent an email to your mailing list that said basically "Okay, I'm writing Sushi. If you want me to open source it, I've gotta get to 75 GitHub sponsors." I'm wondering how much of this may have been because of the novelty of the idea. Because there's some of that... Especially that a lot of your backers might be indies and devs, and like "Oh, cool." Obviously, you can't necessarily quantify all this, but I'm just curious, how did you actually pitch this to your audience, and I'm wondering how much we could rinse and repeat this and have success for the people?
 
 **Caleb Porzio:** \[40:12\] Right, yeah. So there's a lot of factors here. To give more details, the email list was 3,000 people... Which is a decent list, at least for me. That's my generic email. I've resisted segmenting my email list, so it's basically one giant list of people that I send an email to every so often, that are generally interested in the things that I do, and are generally in the Laravel community and aware of those things. And on Twitter I have like 10,5k followers. Actually, I had less than 10k before I did that tweet. I gained a bunch just from the tweet.
 
@@ -342,7 +342,7 @@ I have a tiny bit of experience with this sort of thing, launching something to 
 
 **Caleb Porzio:** It was one of those naming decisions where I was like "I'm not gonna stress. I'm just gonna do the first ridiculous thing I think about."
 
-**Jerod Santo:** Well, the repo had to be public though, because I found the readme and it said "This will be open-sourced when I hit 75 sponsors." So the readme at least had to be out there, right?
+**Jerod Santo:** Well, the repo had to be public though, because I found the readme and it said "This will be open sourced when I hit 75 sponsors." So the readme at least had to be out there, right?
 
 **Caleb Porzio:** The readme wasn't out there, no. You found it when the readme was stale and it was public.
 
@@ -354,7 +354,7 @@ I have a tiny bit of experience with this sort of thing, launching something to 
 
 **Caleb Porzio:** Yeah, right.
 
-**Jerod Santo:** I thought that's what you had done, because I found it after you'd open-sourced it.
+**Jerod Santo:** I thought that's what you had done, because I found it after you'd open sourced it.
 
 **Caleb Porzio:** That's almost an even better idea. That's something I thought of, but it was just so last-minute that I didn't worry about it... But you're right. And also, this idea is so simple. It's one of those cool ideas that's actually super-simple. The value in the idea is the idea, not the implementation... Where like Liveware it's both.
 

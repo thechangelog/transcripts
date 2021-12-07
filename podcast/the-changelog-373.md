@@ -124,19 +124,19 @@ For example, the album is about my photos, and the apps are the apps I made. The
 
 So when you go here, you can see your images, and it sort of goes from this pixelated version to the actual, real photo. Is that a separate project? What's the thinking behind that and how does that work?
 
-**Ovilia:** Yes, this is a separated project that I made for my new design of personal website. The main idea is to use image processing to make the photos into old-school palette. So I made a command line Node.js service to do the job. After that, I made this separate Npm package and open-sourced it.
+**Ovilia:** Yes, this is a separated project that I made for my new design of personal website. The main idea is to use image processing to make the photos into old-school palette. So I made a command line Node.js service to do the job. After that, I made this separate Npm package and open sourced it.
 
 The main idea is to give a palette of colors. For example, for old school I may give some different scales of grey colors, and then it will find the nearest color of each pixel and turn it into an old-school palette image.
 
 **Adam Stacoviak:** You mentioned that's -- for Node.js, is that open source as well, as most things you work on?
 
-**Ovilia:** Yes, it's open-sourced to a separate project, and I created an Npm package of it.
+**Ovilia:** Yes, it's open sourced to a separate project, and I created an Npm package of it.
 
-**Adam Stacoviak:** Clearly, you have a plethora of open source. This website is a testament to that. That's also open source on GitHub... So if you want to dig into this software and the code behind it, the website, you can check out our show notes... But I'm curious when you find time to do all this. How do you design your life to be able to work on so much open source? And I guess maybe a side note to that is why open-source everything that you've done?
+**Adam Stacoviak:** Clearly, you have a plethora of open source. This website is a testament to that. That's also open source on GitHub... So if you want to dig into this software and the code behind it, the website, you can check out our show notes... But I'm curious when you find time to do all this. How do you design your life to be able to work on so much open source? And I guess maybe a side note to that is why open source everything that you've done?
 
 **Ovilia:** I think for the time part, if you really want to do something, you will have to \[unintelligible 00:25:57.29\] the excuses. We all have limited time nowadays, but what we do with our limited times pretty much forms who we are... So I think it is a cool thing to make those things open source to public and let others see who I am from the projects I made.
 
-**Adam Stacoviak:** Let's talk about maybe the reasoning why open-source then. Why do you open-source so much?
+**Adam Stacoviak:** Let's talk about maybe the reasoning why open source then. Why do you open source so much?
 
 **Ovilia:** I can't think of a straight answer, but the first idea that comes to me is that "Why not?"
 
@@ -146,7 +146,7 @@ The main idea is to give a palette of colors. For example, for old school I may 
 
 **Adam Stacoviak:** Let's speak to that then, versus the opposite side of that... So then why not? What's your reasoning behind that?
 
-**Ovilia:** I think my idea was that at first if I open-source a project, I have nothing to lose. And then, I certainly get more reputation from the community. And I don't think there is instant revenue from that, but I think I pretty much like and enjoy the experience of open source.
+**Ovilia:** I think my idea was that at first if I open source a project, I have nothing to lose. And then, I certainly get more reputation from the community. And I don't think there is instant revenue from that, but I think I pretty much like and enjoy the experience of open source.
 
 **Adam Stacoviak:** So you spoke to time, you spoke to the Why... Maybe what do you like most? You mentioned it's not about revenue, or (I would assume) some sort of income, or some sort of personal gain, but what is it that you like most about being an open source software maintainer?
 
@@ -164,7 +164,7 @@ The main idea is to give a palette of colors. For example, for old school I may 
 
 **Ovilia:** Yes.
 
-**Adam Stacoviak:** Interesting. I love that, "Earn the merit." It's such a nice thing to say. That's a phenomenal response to "Why open-source?" Because you get to earn the merit, you get to make the world a better place. Obviously, on the flip side of that there's always some sort of least favorite thing... So as an open source software maintainer, what is it that makes you wanna pull your hair out? What's the least thing you like about being an open source software maintainer?
+**Adam Stacoviak:** Interesting. I love that, "Earn the merit." It's such a nice thing to say. That's a phenomenal response to "Why open source?" Because you get to earn the merit, you get to make the world a better place. Obviously, on the flip side of that there's always some sort of least favorite thing... So as an open source software maintainer, what is it that makes you wanna pull your hair out? What's the least thing you like about being an open source software maintainer?
 
 **Ovilia:** I sometimes feel regret to see that some of the users from the open source community take it for granted that their requirements should be answered and fulfilled as soon as possible. Not only for ECharts, but this is rather a common problem for the open source world. Of course we can understand that from the user's view they always have urgent requirements and think it's the responsibility of the open source project's maintainers to fix the problems with the highest priority, but it's not how the open source works. This makes some of the users frustrated or even angry about it.
 

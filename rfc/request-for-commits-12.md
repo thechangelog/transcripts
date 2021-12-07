@@ -74,7 +74,7 @@ An equivalent example would be Dan Abramov interacts a lot with React users, and
 
 **Mikeal Rogers:** Yeah, I've seen this in the Node community, too. There are certain projects where because the maintainers are in China and available on the social networks, there is just more localized support for it. It's not like those projects aren't used anywhere else, but they certainly have more of a following in China than elsewhere, which is really interesting. I've noticed with the coroutines stuff in Node.js. There's a lot of people that follow that, particularly in China.
 
-**Evan You:** Yeah, I think one of the core maintainers of Koa is Chinese, and a lot of the active Node contributors are from Alibaba, because they use Node.js pretty heavily in production, and they've open-sourced a lot of modules. I think it's a very good thing; they contributed a lot to Node.js's popularity in China because of all the open source work they do.
+**Evan You:** Yeah, I think one of the core maintainers of Koa is Chinese, and a lot of the active Node contributors are from Alibaba, because they use Node.js pretty heavily in production, and they've open sourced a lot of modules. I think it's a very good thing; they contributed a lot to Node.js's popularity in China because of all the open source work they do.
 
 **Nadia Eghbal:** From my perspective at least, being newer to open source, a lot of conversation at least seems dominated by the U.S., Europe and Australia... For the both you - have you noticed that developers outside of these areas can feel siloed off? How do you make them feel involved? It sounds like part of what was cool about Vue was that it just made them feel connected to you and to the project.
 
@@ -250,7 +250,7 @@ I think it's usually more reliable if you look at these numbers directly, rather
 
 **Nadia Eghbal:** It's interesting to think about... Because there's also so many examples where a company has shut down an open source project, or kind of just abandoned it or not really paid attention to it, so it's funny that the assumption is that somehow it's more stable or supported.
 
-**Evan You:** Yeah, I usually try to avoid mentioning that, but it's true... The thing about company-backed open source projects is that in a lot of cases big companies open-source their projects sometimes because they want to make it sort of an open standard for a certain industry, or sometimes the simply open source it to serve as some sort of publicity improvement to help with recruiting. But fundamentally, this project needs to be supporting the company's internal work, their production projects.
+**Evan You:** Yeah, I usually try to avoid mentioning that, but it's true... The thing about company-backed open source projects is that in a lot of cases big companies open source their projects sometimes because they want to make it sort of an open standard for a certain industry, or sometimes the simply open source it to serve as some sort of publicity improvement to help with recruiting. But fundamentally, this project needs to be supporting the company's internal work, their production projects.
 
 If this project no longer serves that purpose, then most companies will probably just cut it, or (in other terms) just give it to the community and let the community drive it. I don't know... I'm not arriving at any conclusions here, I'm just trying to...
 
@@ -274,7 +274,7 @@ That's why I also - especially earlier on - would hear a lot of resistance to pe
 
 **Nadia Eghbal:** We talked so much about Henry... \[laughter\]
 
-**Mikeal Rogers:** We'll interview Henry eventually, don't worry... \[laughter\] You mentioned that a lot of times these companies open-source these projects so that they can get a standard within a particular industry, and I find that kind of fascinating because what they used to do for that was write standards... Companies used to control a lot of the standards bodies and drive a lot of standards, and there was like a decade of driving standards in this really weird direction that nobody cared about.
+**Mikeal Rogers:** We'll interview Henry eventually, don't worry... \[laughter\] You mentioned that a lot of times these companies open source these projects so that they can get a standard within a particular industry, and I find that kind of fascinating because what they used to do for that was write standards... Companies used to control a lot of the standards bodies and drive a lot of standards, and there was like a decade of driving standards in this really weird direction that nobody cared about.
 
 Now it seems like they're just skipping the standards phase and going straight to open source projects.
 

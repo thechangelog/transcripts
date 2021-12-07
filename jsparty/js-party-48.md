@@ -184,7 +184,7 @@ They were looking for a place to put it, because they didn't wanna leave it on t
 
 **Tierney Cyren:** You mean like Node used to be?
 
-**Dave Methvin:** Yeah, exactly. And I think that's a perfect example of why it needed to come out, because you can't really have a community project that's owned by one company and controlled by one company. It could be open-sourced in the license, but it's not really open source in the way that we think of Node today, or all of the JSF projects.
+**Dave Methvin:** Yeah, exactly. And I think that's a perfect example of why it needed to come out, because you can't really have a community project that's owned by one company and controlled by one company. It could be open sourced in the license, but it's not really open source in the way that we think of Node today, or all of the JSF projects.
 
 **Tierney Cyren:** And to dig into that question, all of that is TBD. We're still defining that, so that's why feedback right now is super-critical. But there's a lot of prior art. JSF has prior art itself, CNCF has a lot of prior art, as well; they're a very similar model to what we're thinking about at this point... That also includes the tiering system they have. I think it's incubator, then something in the middle, then graduate. I believe that's the structure... Yeah, that's about right.
 

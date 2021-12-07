@@ -84,7 +84,7 @@ I mean what I love absolutely is of course we look at other clouds out there, an
 
 **Adam Stacoviak:** Anything unexpected coming up for open source? Like, anything that's Windows, or anything that's like-- \[laughter\]
 
-**Julia White:** Someone asked me yesterday "When are you open-sourcing Windows?"
+**Julia White:** Someone asked me yesterday "When are you open sourcing Windows?"
 
 **Jerod Santo:** That's gonna be \[unintelligible 00:09:29.29\]
 
@@ -162,7 +162,7 @@ Interestingly though, in the pivot of like "How much do we support Linux? What d
 
 **Adam Stacoviak:** So aside from style, how did Satya change the direction for the company? What are some milestones for him that you can see that he's done that earned trust internally, as a company?
 
-**Julia White:** I think nothing of this size of change happens overnight. Honestly, I think some of his magic in driving the change is just being super consistent, day in, day out. As a new conversation rises, like "Oh, should we do this, or should we do this? Should we open-source, should we not? Should we contribute back or not?" Yes, lots and lots of decisions every day, very consistent on the execution. And Scott Guthrie too, it's not just Satya.
+**Julia White:** I think nothing of this size of change happens overnight. Honestly, I think some of his magic in driving the change is just being super consistent, day in, day out. As a new conversation rises, like "Oh, should we do this, or should we do this? Should we open source, should we not? Should we contribute back or not?" Yes, lots and lots of decisions every day, very consistent on the execution. And Scott Guthrie too, it's not just Satya.
 
 **Adam Stacoviak:** Sure, of course. It's a team.
 
@@ -485,7 +485,7 @@ I mean, we're just early on this one, but wiring it up with our AI services, you
 
 **Adam Stacoviak:** And this is part of the open source announcement too, the IoT runtime.
 
-**Julia White:** So we open-sourced our IoT Edge runtime, so people can take that and put it on all different kinds of devices, including this new Project Kinect for Azure... It's gonna be one of the places. But then what we can do with this incredible depth sensor that we have, in addition to those IoT and AI services - it just gives a new technology to the stack.
+**Julia White:** So we open sourced our IoT Edge runtime, so people can take that and put it on all different kinds of devices, including this new Project Kinect for Azure... It's gonna be one of the places. But then what we can do with this incredible depth sensor that we have, in addition to those IoT and AI services - it just gives a new technology to the stack.
 
 **Jerod Santo:** So we served you the softball on the differentiation question... Are there any other questions that we didn't ask that you've just been waiting for? You're like "I can't wait till they ask me about this, so I can answer that..." What didn't we ask you?
 

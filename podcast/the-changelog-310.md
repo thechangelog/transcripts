@@ -1,12 +1,12 @@
 **Jerod Santo:** Ben, it's a big day for you. Tell us what's going on.
 
-**Ben Halpern:** Yeah, so today at 1 PM Eastern we open-sourced the dev.to codebase for the whole community, and we are really hoping folks get as excited to take part in this project as they've sort of indicated to us every step of the journey... But today is the big day.
+**Ben Halpern:** Yeah, so today at 1 PM Eastern we open sourced the dev.to codebase for the whole community, and we are really hoping folks get as excited to take part in this project as they've sort of indicated to us every step of the journey... But today is the big day.
 
 **Jerod Santo:** Today is the big day... So as we're recording this, it's August 8th, and it's about 3:15 PM Eastern Time, so it's been open source for a couple of hours; by the time you listeners are listening to this, it's a week later... But today is the big day, so I guess we should just start by saying congratulations!
 
 **Adam Stacoviak:** Definitely.
 
-**Ben Halpern:** Yeah, it's been a real journey. I kind of wish I'd thought to even open-source on day one; it just didn't even cross my mind when this was just still a little side project... But we took a lot of time in the past few months and weeks to really put this on our roadmap, and we finally made it happen.
+**Ben Halpern:** Yeah, it's been a real journey. I kind of wish I'd thought to even open source on day one; it just didn't even cross my mind when this was just still a little side project... But we took a lot of time in the past few months and weeks to really put this on our roadmap, and we finally made it happen.
 
 **Jerod Santo:** Very cool. Well, let's back up a moment and let's get the full story. For those coming to this show, not familiar with dev.to and the dev community that you're building over there, you said it started as a little side-project - can you give us a little bit of the back-story of the website and how it came to be?
 
@@ -16,7 +16,7 @@ The most notable jokes I was telling was the O'Reilly Parody Covers, the book co
 
 As much as programmers always find a way to solve their problems, I just didn't think that this was being done in any special way, and I really thought we could do a little better if we kept at it.
 
-**Jerod Santo:** So you said you were doing this as a side-project. This has since turned into not just yourself, but a team of people and a burgeoning business... So tell us that transition and where it became -- you mentioned the Twitter account The Practical Dev, and then you have the website dev.to... Tell us what the website started out as - I know it's been through many iterations - where it's come to, and we'll get back around to the open-sourcing of it all after we kind of understand it in holistic fashion.
+**Jerod Santo:** So you said you were doing this as a side-project. This has since turned into not just yourself, but a team of people and a burgeoning business... So tell us that transition and where it became -- you mentioned the Twitter account The Practical Dev, and then you have the website dev.to... Tell us what the website started out as - I know it's been through many iterations - where it's come to, and we'll get back around to the open sourcing of it all after we kind of understand it in holistic fashion.
 
 **Ben Halpern:** Yeah, so the website really started out as just whatever I thought would be most valuable based on my resources at the time, my thoughts about the future... The thing about a platform where people share software knowledge and have discussions and all that stuff; it's obviously a huge chicken/egg problem, so at no point did I really try to get ahead of myself in terms of what the project could be.
 
@@ -84,7 +84,7 @@ You've gotta do what works for you, and stuff like that... I'm very thoughtful a
 
 **Break:** \[23:45\]
 
-**Adam Stacoviak:** Ben, we're now at a point where it's a business, it's legit... Obviously, you're open-sourcing it today, that's a big deal... But, I mean, Jerod and I have been paying attention to what you've been doing for a long time; we've talked years ago, and have been to some degree involved in what you're doing, but not directly, just more so as a community, not so much as one of the co-founders of course... But now that it's here, I mean, you've culminated quite a community, lots of traffic, lots of fresh articles, we link to you often through our newsletter and our newsfeed and stuff like that, so we're very familiar with what you're doing here. You've done a great job on the community front. What do you think is the secret sauce to building this particular community? Not community in general, but this particular community.
+**Adam Stacoviak:** Ben, we're now at a point where it's a business, it's legit... Obviously, you're open sourcing it today, that's a big deal... But, I mean, Jerod and I have been paying attention to what you've been doing for a long time; we've talked years ago, and have been to some degree involved in what you're doing, but not directly, just more so as a community, not so much as one of the co-founders of course... But now that it's here, I mean, you've culminated quite a community, lots of traffic, lots of fresh articles, we link to you often through our newsletter and our newsfeed and stuff like that, so we're very familiar with what you're doing here. You've done a great job on the community front. What do you think is the secret sauce to building this particular community? Not community in general, but this particular community.
 
 **Ben Halpern:** I would say merging fundamental human community needs with practical software development needs... And not really giving either one of those things more attention than the other one.
 
@@ -164,7 +164,7 @@ Let's continue talking... Let's turn towards the open source, because we'd keyed
 
 One thing I wanted to talk to you about - and you mentioned in the opening that as it started as a side project, you just didn't think about it, and you had wished that you had just done it from the very beginning, because you probably would have done a lot of things subtly, or maybe even majorly differently.
 
-One thing that you did do was pre-announce open-sourcing it - I'm not sure how long back - and then went about getting ready for it... So maybe tell us your strategy there and why there was a pre-announcement, and then time passed, and then finally today, August 8th, the final open-sourcing. Give us that story.
+One thing that you did do was pre-announce open sourcing it - I'm not sure how long back - and then went about getting ready for it... So maybe tell us your strategy there and why there was a pre-announcement, and then time passed, and then finally today, August 8th, the final open sourcing. Give us that story.
 
 **Ben Halpern:** Yeah, so the pre-announcement was really a matter of letting people know where we stood on the issue and how excited we were about it. As soon as things kind of started falling in place, it got more and more exciting.
 
@@ -180,7 +180,7 @@ But we finally felt like we were kind of getting ready for that, and we put a da
 
 We worked hard, we worked with some outsiders to kind of audit the code for possible security vulnerabilities... We expect little things to possibly come up, but you can't really rely on obfuscation when all the code's out there... But we know that in the long run, when we are fully open, the long-term security story is really promising.
 
-At our core, it became such a strong part of our values, and I just didn't think that this project was important enough to warrant open-sourcing at the time, and just... You know, in the future I wouldn't really care that much about the importance of a project, but honestly, early on it was just a Rails website I'd made over the holiday break one year when I wasn't doing anything else...
+At our core, it became such a strong part of our values, and I just didn't think that this project was important enough to warrant open sourcing at the time, and just... You know, in the future I wouldn't really care that much about the importance of a project, but honestly, early on it was just a Rails website I'd made over the holiday break one year when I wasn't doing anything else...
 
 But when things started to turn, I started to kind of get my co-founders really pumped about the idea that the community is more valuable than the code, and we can really put ourselves out there and we don't have to worry that other people can now build a clone if they wanted to, with our exact... But it's really not the code that's so special, it's the community; the community is really what's gonna help make the code special. We really think that the future is strong, because we're gonna have a lot of really talented and really enthusiastic developers in our ear and in our codebase.
 
@@ -188,9 +188,9 @@ But when things started to turn, I started to kind of get my co-founders really 
 
 What made you decide to do a security audit? I don't think we did that, Jerod. Did we do that? You probably did it, but we didn't have a third-party do it.
 
-**Jerod Santo:** Yeah, and we also open-sourced at an earlier stage in our software's history. Ben probably had multiple years of development going back, whereas we had maybe six months.
+**Jerod Santo:** Yeah, and we also open sourced at an earlier stage in our software's history. Ben probably had multiple years of development going back, whereas we had maybe six months.
 
-We did not open-source from the very beginning, from the relaunch, but we had had that in mind from the very beginning... So there's a huge difference just in your mindset, even just like subconsciously, I believe, when you know that that's eventually going to happen... So yeah, our security audit was probably just me thinking through everything, and then double-checking and making sure there was nothing super-stupid.
+We did not open source from the very beginning, from the relaunch, but we had had that in mind from the very beginning... So there's a huge difference just in your mindset, even just like subconsciously, I believe, when you know that that's eventually going to happen... So yeah, our security audit was probably just me thinking through everything, and then double-checking and making sure there was nothing super-stupid.
 
 \[44:05\] And then of course, we've had plenty of people report situations publicly... And publicly meaning through the GitHub issues, and then even privately, stuff they'd found. So our security has improved from it, but like you said, Adam, there's definitely other security holes that it can open up as well.
 
@@ -204,11 +204,11 @@ That process is just an ongoing battle. We thought that if there's anywhere we h
 
 Rails has a lot of convention that we follow pretty well, and we know not to run arbitrary code. We use whitelists and not blacklists... We take it all really seriously, but there's always just the unknown unknown. We have a lot of friends in the community though, and several people who were very helpful, and I think any possible vulnerabilities we find in this process I think are not gonna be severe, and we will deal with them as they come.
 
-It's just a matter of programming, and had we been open source from the get-go - yeah, this is not a process we would have had to spend so much time on, and that's really my big, like "Damn, I wish we were open source right away", because we would have been much cleaner the whole way. You can't really get away with things just in passing, but overall, we got here and I'm always amazed at how successful this whole project has been and how much it impacts people, so... No major regrets, but definitely -- I don't think I would ever closed-source in the future something that didn't have a very good reason for being closed source.
+It's just a matter of programming, and had we been open source from the get-go - yeah, this is not a process we would have had to spend so much time on, and that's really my big, like "Damn, I wish we were open source right away", because we would have been much cleaner the whole way. You can't really get away with things just in passing, but overall, we got here and I'm always amazed at how successful this whole project has been and how much it impacts people, so... No major regrets, but definitely -- I don't think I would ever closed source in the future something that didn't have a very good reason for being closed source.
 
 **Break:** \[48:02\]
 
-**Jerod Santo:** Ben, one of the reasons why I asked about that time span, the pre-announcement versus the open-sourcing - I was curious, and my intuition was maybe there was a little bit of accountability there... Like, once you announce a thing, you kind of have to do it, and open-sourcing, since it's not like a feature - although it can be considered one - on your product roadmap, it's the kind of thing that would just continue like "Yes, we're gonna eventually do it", but once you write a blog post and make an announcement, there's this expectation of "It's going to happen." So maybe there was a little bit of that in there, as well.
+**Jerod Santo:** Ben, one of the reasons why I asked about that time span, the pre-announcement versus the open sourcing - I was curious, and my intuition was maybe there was a little bit of accountability there... Like, once you announce a thing, you kind of have to do it, and open sourcing, since it's not like a feature - although it can be considered one - on your product roadmap, it's the kind of thing that would just continue like "Yes, we're gonna eventually do it", but once you write a blog post and make an announcement, there's this expectation of "It's going to happen." So maybe there was a little bit of that in there, as well.
 
 I'm curious also about the timespan and bringing in the third-parties for helping... Security is one aspect of being not prepared for open source. The other aspect, which is way more personal for me, and I'm curious if it's the same for you, and perhaps inappropriately prideful... Now it's like that dream where you're at school with your clothes off, and everybody's laughing at you... It's that fear of "Oh no, everyone's gonna see my code." Was there any of that involved?
 
@@ -254,7 +254,7 @@ That's just the architecture that makes sense for website content-driven stuff. 
 
 It's funny - people themselves really know the best use cases for their own software, and sometimes you just have to listen. There's some really cool stuff out there, and we have the same concept with some of our other services. We use Algolia, which is a distributed search index; so we don't host our own search, because we actually have nodes distributed all over the world. So if you're in Tokyo, you're gonna get a search response and a site response both from the edge, within milliseconds.
 
-I do live in the U.S., so this really wouldn't be a problem for me, but at some point in my life I became very interested in not being exclusive to the rest of the world, and from a business perspective it just made sense to do that right away... Trying to \[01:03:22.05\] that kind of optimization at the end, when you already have all your -- so if open-sourcing was tough because we had already kind of just been writing code without that in mind right away, optimizing edge caching like that would be ten times tougher if that wasn't initially your use case... Because you'd have to really start tearing things out, and it would be really frustrating and possibly not worth it.
+I do live in the U.S., so this really wouldn't be a problem for me, but at some point in my life I became very interested in not being exclusive to the rest of the world, and from a business perspective it just made sense to do that right away... Trying to \[01:03:22.05\] that kind of optimization at the end, when you already have all your -- so if open sourcing was tough because we had already kind of just been writing code without that in mind right away, optimizing edge caching like that would be ten times tougher if that wasn't initially your use case... Because you'd have to really start tearing things out, and it would be really frustrating and possibly not worth it.
 
 \[01:03:44.25\] And the wonderful thing about being the coder, the founder, the project manager or whatever - I didn't have to convince anyone else that this is a good idea; I just had to really know in my heart that this was a good thing to try to do, and see if it worked... And it really did, and over time we've found things that are like "Damn, I wish we would have not gone so hard on this part, because it made everything else harder...", but things kind of work themselves out over time and we get to like a happy medium.
 
@@ -280,7 +280,7 @@ What we really have to get a little bit better at now is describing the path and
 
 And I don't really have any sort of strong open source ties in my life. I've contributed a little bit, I've been a big fan of open source for a long time, but never had the urge to strongly become a part of any one project, because it's not really in my personality, the same way I see it with so many community members, and... Yeah, I'm just really excited to see it all happen and to be able to do it full-time. I'm not very good at splitting my time in that sense. It's just... Exciting things ahead.
 
-**Adam Stacoviak:** Well, I'd say now that we've got the understanding of why open-sourcing matters to you, to your team, to the business, to the direction - that makes sense, but what about the community itself? What are you hoping for the community to contribute back? Part of the reason why you open-source is not just to "Hey, here's my code. Take a peek." Maybe there's some reasons for the community to get involved. What are some of your visions or aspirations there?
+**Adam Stacoviak:** Well, I'd say now that we've got the understanding of why open sourcing matters to you, to your team, to the business, to the direction - that makes sense, but what about the community itself? What are you hoping for the community to contribute back? Part of the reason why you open source is not just to "Hey, here's my code. Take a peek." Maybe there's some reasons for the community to get involved. What are some of your visions or aspirations there?
 
 **Ben Halpern:** Yeah, so we really think of it as like, you know, not really one killer reason it has to happen... Lots of people have just been really excited to kind of like build the things they had been complaining are missing, and little things like that. That's one part of the puzzle... But I've really been driven by certain successful open source projects, namely Linux, which I think just really has a fascinating idea of how to develop software, where people can contribute in sort of greedy ways... You know, potential partnerships or platform concepts... People can really -- like, if they want something to happen and we agree that it should happen in theory, we just don't have the resources for it, they can kind of help code it up.
 
@@ -294,7 +294,7 @@ Then the big, magical unicorn use case is people will develop ways for this appl
 
 **Ben Halpern:** Yeah, and the features to make these things work - it's like, if one other group of people, like anyone who's a part of our platform, wants to build dev.to for their activist cause or music or anything else that interests them in their lives, they immediately then have to start caring about the quality of everything, working with us on missing features, arguing about whether something should exist or not in the concept of the codebase... And that's really cool.
 
-I've seen that out there - there's a lot of these sort of "make your own social network" platforms, but none of them are meaningfully open-sourced, or if they are open-sourced, they're missing the whole caretaking (I think) we've done with this whole project in terms of molding the user experience, and the code, and stuff like that.
+I've seen that out there - there's a lot of these sort of "make your own social network" platforms, but none of them are meaningfully open sourced, or if they are open sourced, they're missing the whole caretaking (I think) we've done with this whole project in terms of molding the user experience, and the code, and stuff like that.
 
 When I look out there, I see a void in the universe a little bit, but I think our goal will be to run the dev community. We are a dev platform for developers, but if there's future instances, we will be super-supportive of that, because that makes this whole thing an ecosystem. And we're not gonna build necessarily an abstract framework; we don't want this to be like a spin-your-own whatchamacallit, like Wordpress, or anything like that... But all these things are really good guideposts for how to make software that's much bigger than yourself and much bigger than the initial problem, and just more amazing.
 
@@ -322,6 +322,6 @@ I know Jess was supposed to be on this call; we're bummed she couldn't make it, 
 
 **Ben Halpern:** There's so many great open source projects, and we already feel like we're -- it's a few hours into our adventure, but we're so much more steeped in the whole community, in the whole software world, and it's... Yeah, it's so exciting!
 
-**Adam Stacoviak:** Well, cool. Ben, thank you so much for your time today, congrats on open-sourcing, and more importantly, thanks for coming on this show and sharing your story. It was a lot of fun going through that. Thank you.
+**Adam Stacoviak:** Well, cool. Ben, thank you so much for your time today, congrats on open sourcing, and more importantly, thanks for coming on this show and sharing your story. It was a lot of fun going through that. Thank you.
 
 **Ben Halpern:** Yeah, thanks so much for having me.

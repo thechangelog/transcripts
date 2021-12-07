@@ -106,7 +106,7 @@ And because in Chain's case we're not talking about public networks, we're talki
 
 **Brian Ketelsen:** Interesting.
 
-**Tess Rinearson:** Yeah, I feel like every year at GopherCon... I make all these big plans to do some open source work, and it hadn't happened until Monday, when we open-sourced new stuff. But I definitely think GopherCon gets me in the open source spirit, and then generally I fall through on that.
+**Tess Rinearson:** Yeah, I feel like every year at GopherCon... I make all these big plans to do some open source work, and it hadn't happened until Monday, when we open sourced new stuff. But I definitely think GopherCon gets me in the open source spirit, and then generally I fall through on that.
 
 **Brian Ketelsen:** Well, you delivered big for this year, so you've done your part. We need to take a quick sponsor break, but when we come back, remind me to ask you about how this differs from the blockchain that IBM announced earlier this year.
 
@@ -116,7 +116,7 @@ And because in Chain's case we're not talking about public networks, we're talki
 
 **Brian Ketelsen:** Alright, so how does your blockchain differ from the one that IBM released? I saw a press release - it was really early this year - that IBM had released some sort of business-oriented blockchain. Is that different? I think there was Go code and Java code... I don't remember all of the details.
 
-**Tess Rinearson:** Yeah, I don't actually know exactly what they're working on. There are a lot of different blockchain systems out there, and I tend to be pretty heads down on what we're doing here. One thing definitely - and I don't know if this is the case with their blockchain, but definitely one reason why we open-sourced was to really just show our hand and communicate our ideas as effectively as possible. We've been planning on publishing our protocol for a while...
+**Tess Rinearson:** Yeah, I don't actually know exactly what they're working on. There are a lot of different blockchain systems out there, and I tend to be pretty heads down on what we're doing here. One thing definitely - and I don't know if this is the case with their blockchain, but definitely one reason why we open sourced was to really just show our hand and communicate our ideas as effectively as possible. We've been planning on publishing our protocol for a while...
 
 One thing about blockchains, like I said, is there's a lot of them. With some of them it's just hard to know what's really going on beneath the surface. There's a lot of press releases or white papers, but not too many in-depth protocol documents and even pure implementations. So one reason why we went open source is just to really communicate our ideas about what a blockchain can and should look like as clearly as possible, and also to show the world that we have something very real. And also to show the world that you can just go download a Chain Core node and write it on your computer, and connect to testnet and it all just kind of works. I mean, knock on wood, it all seems to be working.
 
@@ -138,7 +138,7 @@ In the case of these financial networks, that's actually not a bad thing, becaus
 
 **Tess Rinearson:** Yeah, we're not looking... It's this funny thing - we are not looking for contribution in the same way that a lot of other open source projects are. It really is about communicating ideas as much as we can.
 
-It's this funny thing, where we have a product roadmap and we're very driven by our work with our partners, so if people have things that they wanna contribute, or find bugs or things like that - that's awesome. But it's not the driving force behind open-sourcing.
+It's this funny thing, where we have a product roadmap and we're very driven by our work with our partners, so if people have things that they wanna contribute, or find bugs or things like that - that's awesome. But it's not the driving force behind open sourcing.
 
 **Brian Ketelsen:** I think your license choice kind of proves that point - it's AGLP license, isn't it?
 
@@ -214,9 +214,9 @@ It's this funny thing, where we have a product roadmap and we're very driven by 
 
 **Tess Rinearson:** Totally.
 
-**Carlisia Thompson:** One thing with open source, if you're building a project that you are planning to open source, I think you would be thinking to be more careful in the way you are structuring the project and best practices, maybe more than a project that's not open-sourced, and I'm wondering if Chain has a set of guidelines that the team uses for design and for implementation?
+**Carlisia Thompson:** One thing with open source, if you're building a project that you are planning to open source, I think you would be thinking to be more careful in the way you are structuring the project and best practices, maybe more than a project that's not open sourced, and I'm wondering if Chain has a set of guidelines that the team uses for design and for implementation?
 
-**Tess Rinearson:** Yeah, so it's funny... We actually didn't know we were going to open source this until July, and we've been working on it for over a year. It's funny... This is kind of corny, but when I think about the lifecycle of this project, I actually think about GopherCon a lot, because we started building our own system after a conversation I had with our CTO at GopherCon 2015. Then, at GopherCon 2016, this year, I basically got a phone call from my team - I was the only one at GopherCon, so they call me, being like "Hey, we're planning on open-sourcing"... So both GopherCon 2015 and GopherCon 2016 were milestone moments for this project in this funny, coincidental way.
+**Tess Rinearson:** Yeah, so it's funny... We actually didn't know we were going to open source this until July, and we've been working on it for over a year. It's funny... This is kind of corny, but when I think about the lifecycle of this project, I actually think about GopherCon a lot, because we started building our own system after a conversation I had with our CTO at GopherCon 2015. Then, at GopherCon 2016, this year, I basically got a phone call from my team - I was the only one at GopherCon, so they call me, being like "Hey, we're planning on open sourcing"... So both GopherCon 2015 and GopherCon 2016 were milestone moments for this project in this funny, coincidental way.
 
 **Erik St. Martin:** You're counting in GopherCons...
 
@@ -238,9 +238,9 @@ It's this funny thing, where we have a product roadmap and we're very driven by 
 
 **Brian Ketelsen:** The first GopherCon. That's how we measure time now - three GopherCons.
 
-**Tess Rinearson:** Yeah. Anyway, to jump back to Carlisia's question about open source versus non-open source codebases and the way that you build them - we did not start building Chain Core with open sourcing in mind, but we always had pretty rigorous guidelines around even like commit style. And early on we had a lot of conversation about what should go into our style guide, and some of that actually made it into the formal style guide and some of it just sort of became community knowledge at the company. But really, the only things that we had to do when we open-sourced were 1) we did not open source everything.
+**Tess Rinearson:** Yeah. Anyway, to jump back to Carlisia's question about open source versus non-open source codebases and the way that you build them - we did not start building Chain Core with open sourcing in mind, but we always had pretty rigorous guidelines around even like commit style. And early on we had a lot of conversation about what should go into our style guide, and some of that actually made it into the formal style guide and some of it just sort of became community knowledge at the company. But really, the only things that we had to do when we open sourced were 1) we did not open source everything.
 
-What we open-sourced we called Chain Core Developer Edition, and that's most of the guts, most of the logic, most of the interesting blockchain stuff is in there, but we do have other features around security and scalability that we withheld from the open source project. If you are a financial service paying us for an enterprise license, you get all of that good stuff too, but we didn't open source that. So we had to figure out how to split out monorepo for that, and then additionally we also had a small amount of company confidential information that we had to scrub from the Git history, but that wasn't too big of a deal either.
+What we open sourced we called Chain Core Developer Edition, and that's most of the guts, most of the logic, most of the interesting blockchain stuff is in there, but we do have other features around security and scalability that we withheld from the open source project. If you are a financial service paying us for an enterprise license, you get all of that good stuff too, but we didn't open source that. So we had to figure out how to split out monorepo for that, and then additionally we also had a small amount of company confidential information that we had to scrub from the Git history, but that wasn't too big of a deal either.
 
 Ultimately, it was a little bit of cleanup around the edges, but the code itself really didn't change. Oh, I think we also wrote some more package docs before open sourcing, but by and large we didn't have to change too much.
 
@@ -300,7 +300,7 @@ This will be a problem when the person delivering the vegetables does not enter 
 
 **Carlisia Thompson:** And then, of course, build the dashboard. Maybe use Prometheus.
 
-**Tess Rinearson:** \[43:48\] Yeah, these are all v2 things. Honestly, I haven't worked really on anything but Chain stuff for the past two months, just because we were trying to get everything in ship shape, and we had some product... You know, in addition to open-sourcing, we had product stuff that we were announcing too, so I've been pretty heads down on the Chain codebase for the past two months. But yeah, I'm excited to get back to my doorbell project.
+**Tess Rinearson:** \[43:48\] Yeah, these are all v2 things. Honestly, I haven't worked really on anything but Chain stuff for the past two months, just because we were trying to get everything in ship shape, and we had some product... You know, in addition to open sourcing, we had product stuff that we were announcing too, so I've been pretty heads down on the Chain codebase for the past two months. But yeah, I'm excited to get back to my doorbell project.
 
 **Carlisia Thompson:** Did that involve a screwdriver? That's what I wanna know.
 

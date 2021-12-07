@@ -182,7 +182,7 @@ I've seen the monorepo work well when you have enough engineers around that you 
 
 **Mat Ryer:** Yeah, I must admit that continuous integration is more difficult in a monorepo. For those who don't know, continuous integration - you can get it so that when you create a pull request, it automatically runs a set of tests, and do some other activities for you before you then merge into master. So of course, if you have a big repo, you have to do extra work to figure out what's changed, like "I don't need to run all the tests, I only need to run these few that are touching what's changed."
 
-At Machine Box we run every test, and that just meant we made sure that the tests ran extremely quickly... But yes, it is more difficult when you do that. And of course, the other thing is for open source projects if you've got a package that you're gonna open-source, then that should just be its own repo, because that's just how we do packages in Go. But for company work, I must admit I'm in love with the monorepo at the moment.
+At Machine Box we run every test, and that just meant we made sure that the tests ran extremely quickly... But yes, it is more difficult when you do that. And of course, the other thing is for open source projects if you've got a package that you're gonna open source, then that should just be its own repo, because that's just how we do packages in Go. But for company work, I must admit I'm in love with the monorepo at the moment.
 
 **Cory LaNou:** I have a different topic real quick, while we're talking about structuring Go projects... One of the questions I get that's related to structuring is actually how many lines should be in a file, and how many files should you have per package?
 

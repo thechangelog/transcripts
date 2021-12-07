@@ -214,7 +214,7 @@ So yeah, in the second iteration, this was built into the software as well, and 
 
 Then he also built in transitions. \[unintelligible 00:36:57.12\] Of course, CSS is animations, so of course his light programming thingy also needs to have animations, so he's like, "Okay, let me animate the rotation", and then all of a sudden all the lights in the venue were just spinning, and it's all done in this CSS editor that he built... It's like, "What is going on?!" I was so blown away when he did that. I'm not sure if that's open source.
 
-**Suz Hinton:** We should get him to open-source it.
+**Suz Hinton:** We should get him to open source it.
 
 **Jerod Santo:** Absolutely.
 

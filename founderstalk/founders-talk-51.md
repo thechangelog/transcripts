@@ -26,7 +26,7 @@ What has it done for you to be as open as you have been about things in your lif
 
 **Sam Soffes:** I think it's a big thing for my personal motivation. I say a lot of what I'm working on and things I'm doing; if I don't mention anything for a while -- I feel like someone somewhere might care and be like "I wonder why he hasn't shared anything in a while."
 
-I know there's probably no one that's following me that closely, like "Oh, he hasn't open-sourced in like three days... What's he doing?" But I don't know, it's kind of like -- people notice what I'm doing, and it keeps me accountable to my own standards, that it's more public.
+I know there's probably no one that's following me that closely, like "Oh, he hasn't open sourced in like three days... What's he doing?" But I don't know, it's kind of like -- people notice what I'm doing, and it keeps me accountable to my own standards, that it's more public.
 
 I have my fat.soff.es, it's like my weight graph from my Fitbit scale...
 
@@ -34,7 +34,7 @@ I have my fat.soff.es, it's like my weight graph from my Fitbit scale...
 
 **Sam Soffes:** ...because I'm trying to lose weight and exercise more and stuff. And even though no one really looks at it, which is fine, it's there and it's public, so it makes me more conscious of it. I don't know.
 
-**Adam Stacoviak:** This is on GitHub, so as a fan of open source and a big contributor, you open-source this... Did you hack an API for this? You said it's from your Fitbit; I have a Fitbit too, so I'm kind of curious what you did to do this.
+**Adam Stacoviak:** This is on GitHub, so as a fan of open source and a big contributor, you open source this... Did you hack an API for this? You said it's from your Fitbit; I have a Fitbit too, so I'm kind of curious what you did to do this.
 
 **Sam Soffes:** \[04:11\] Yeah, there's like a Fitbit API. It's just a little Sinatra app that pulls in the data, and caches it in Redis, and then there's a nice Chart.js to draw the graph. It's really basic... Because Fitbit has all this data, so I just pull it in and show it nicely.
 
@@ -132,9 +132,9 @@ That caused problems in my earlier -- like when I was 18 and I had my first prog
 
 **Sam Soffes:** Totally.
 
-**Adam Stacoviak:** \[15:54\] I mean, just because this is the fourth time you've been on the show and listeners can literally go back and listen to part one, two and three and then now four, they can see how your quick decision-making has changed and impacted your life; they can see that through the story you've told about your life and what you've been doing, everything from Cheddar to Nothing Magical to open-sourcing things, to moving back and forth, selling stuff, getting married... You know, all these different things are effects or evidence of the impact of you doing that.
+**Adam Stacoviak:** \[15:54\] I mean, just because this is the fourth time you've been on the show and listeners can literally go back and listen to part one, two and three and then now four, they can see how your quick decision-making has changed and impacted your life; they can see that through the story you've told about your life and what you've been doing, everything from Cheddar to Nothing Magical to open sourcing things, to moving back and forth, selling stuff, getting married... You know, all these different things are effects or evidence of the impact of you doing that.
 
-**Sam Soffes:** Yeah. And I guess something -- as you were listing those things, I was kind of thinking through what all these things have in common... And I guess part of -- you know, open-sourcing Cheddar I thought about for a couple days, and I was trying to figure out why did that take a couple days, versus why didn't I just do that on the spot, and I couldn't really give one good reason one way or the other for the choice... And it wasn't ever like "Well, this one just feels right, so I'm gonna do that." It was "Here are the reasons why."
+**Sam Soffes:** Yeah. And I guess something -- as you were listing those things, I was kind of thinking through what all these things have in common... And I guess part of -- you know, open sourcing Cheddar I thought about for a couple days, and I was trying to figure out why did that take a couple days, versus why didn't I just do that on the spot, and I couldn't really give one good reason one way or the other for the choice... And it wasn't ever like "Well, this one just feels right, so I'm gonna do that." It was "Here are the reasons why."
 
 I'm a very concrete thinker, as far as facts and logic and whatnot... So you know, I'm never happy to just like -- I feel like this is the right decision, so I'm just gonna go with that. And I feel like feeling the decision is right takes a lot longer than "Here are the facts, so that's what I'm choosing." I guess maybe that's part of it, I don't know. Anyway...
 

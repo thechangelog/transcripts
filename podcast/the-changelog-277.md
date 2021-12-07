@@ -1,6 +1,6 @@
 **Adam Stacoviak:** What is it that you would like to talk about? What's important to you? We talk to developers, we talk to the open source community...
 
-**Julia Liuson:** Great, that's my kind of people, because we are one of those very fluent in GitHub and open source people. I would love to talk about it, and the reason is, for example, I still feel people are judging us and looking at us with a very old lens. I was telling someone, I can remember it was three years ago at this very conference, in this very studio, where we announced we open-sourced and made .NET open source and cross-platform.
+**Julia Liuson:** Great, that's my kind of people, because we are one of those very fluent in GitHub and open source people. I would love to talk about it, and the reason is, for example, I still feel people are judging us and looking at us with a very old lens. I was telling someone, I can remember it was three years ago at this very conference, in this very studio, where we announced we open sourced and made .NET open source and cross-platform.
 
 **Adam Stacoviak:** Three years ago, yeah. We did a show on that... We did. And we were excited, too.
 
@@ -210,7 +210,7 @@ If we're only helping people running on Windows and targeting the Microsoft plat
 
 This is when we started doing iOS and Android development, helping with the mobile side, and we look at what people really need in the cloud space, in the mobile space, and we take open.net cross-platform, and it's become a fantastic way for our customers to share code, between their Unity gaming, to their cloud back-end, to their website, to their mobile apps... It's just really the best programming language that can share common business logic, and today Miguel showed you how can take the core business logic written in C\# and then embed that into your iOS and Android app.
 
-That capability of us understanding developers' needs and open-sourcing our core framework capability, and really allow this breadth that has been super powerful for us. And then with that, not to mention we also started to develop Visual Studio Code.
+That capability of us understanding developers' needs and open sourcing our core framework capability, and really allow this breadth that has been super powerful for us. And then with that, not to mention we also started to develop Visual Studio Code.
 
 **Jerod Santo:** That was exactly what we were gonna lead to next, because you now have this bifurcation of Visual Studio, where you have the established 20-year-old project that millions of people are using, but then brand new, open, greenfield new editor. That decision.
 
@@ -252,7 +252,7 @@ And I remember we had this conversation -- I remember Anders was there, and Eric
 
 Once we put it on GitHub, we were just amazed by how many contributors are telling their logging issues, are working with us out there in the community, and Visual Studio Code, in GitHub's latest ranking, we are number one in terms of contributors. We are almost double the next project, which is Facebook's React Native, in terms of contributors. That's just totally amazing.
 
-There's lots and lots of active discussions going on in the VS Code GitHub repos, and it completely changed the way our team works. Before we actually were engaging with the community, when the team was working internally before the launch, we'd work on a monthly sprint schedule for that particular team, and once we started to open-source on GitHub, the community feedback came in and the team realized they need to go spend up to like 30%-40% of their time interacting with the community on GitHub, triaging issues, responding to requests and addressing any concerns. You have to be active in the community in order to have that kind of level of interaction.
+There's lots and lots of active discussions going on in the VS Code GitHub repos, and it completely changed the way our team works. Before we actually were engaging with the community, when the team was working internally before the launch, we'd work on a monthly sprint schedule for that particular team, and once we started to open source on GitHub, the community feedback came in and the team realized they need to go spend up to like 30%-40% of their time interacting with the community on GitHub, triaging issues, responding to requests and addressing any concerns. You have to be active in the community in order to have that kind of level of interaction.
 
 One of the phrases I increasingly say is that we're not only customer obsessed, which we are now, we're also community obsessed, because we really view the community as an extension of our team. That is true for Visual Studio Code and that is also true for the .NET project we have, or Typescript, or all of these main GitHub repos that we actually drive.
 
@@ -550,7 +550,7 @@ I think with pair programmers probably it is, but with lots of other stuff...
 
 **Chris Dias:** I think it's definitely a potential thing. I don't know if it's in the roadmap or where it is in the roadmap, but if you think about it, it makes sense. It's kind of like -- we talked a little bit about language servers earlier... We actually have this nice protocol, it's called the Language Server Protocol, that we made open source in a public area thing, which basically means that any editor or IDE can use the language server and plug into the environment. So you can use Sublime with Typescript and get a pretty rich editing experience, because it goes to the Language Server Protocol.
 
-So you can imagine in this model that there's a protocol that's running over the wire so one editor can connect to another editor, or IDE, or whatever it is... And that can be something that's open-sourced and all editors take advantage of, and there's basically a plugin for each editor. But I don't think we're far enough down the road yet to say "Okay, here, we've got this protocol. Everybody go build!"
+So you can imagine in this model that there's a protocol that's running over the wire so one editor can connect to another editor, or IDE, or whatever it is... And that can be something that's open sourced and all editors take advantage of, and there's basically a plugin for each editor. But I don't think we're far enough down the road yet to say "Okay, here, we've got this protocol. Everybody go build!"
 
 **Jerod Santo:** Sure. You just demo-ed the feature for the -- or was it the first demo?
 

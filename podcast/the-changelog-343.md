@@ -242,7 +242,7 @@ So no, I don't think it's odd at all for me putting that hat on to go out and ac
 
 Some of the models that I think we've seen in the past are providing enterprise support where it can help a company sleep better at night to know that there's someone they can call.
 
-Another model that isn't actually necessarily helping the project, but may bring funds, is what SpringSource did when they started out, which is training and consultancy. I think we're starting to see a move away from open core, with Chef for instance open-sourcing all of their components for their enterprise add-ons.
+Another model that isn't actually necessarily helping the project, but may bring funds, is what SpringSource did when they started out, which is training and consultancy. I think we're starting to see a move away from open core, with Chef for instance open sourcing all of their components for their enterprise add-ons.
 
 And then really, it's like, okay, as a SaaS, do you want to compete on price? Because there's no way you can. So I'm not probably the best person to ask about how to monetize open source software and how to make it sustainable... But one thing that I do know is that whatever we're doing here, and all the things that I've been trying, have helped build a really healthy, thriving community, that really care about the project, and have created something that's now basically on the critical path for some very large companies... And there's some even bigger ones that are doing PoC's with it at the moment, that I can't give names for.
 

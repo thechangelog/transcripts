@@ -36,7 +36,7 @@ In fact, my colleague at the time - he's also an OG - Keith Rarick and I really 
 
 **Erik St. Martin:** I wanna say at that time, in 2009, to just hit an endpoint in Ruby on Rails was still three-digit response time; it was like 100-115 milliseconds, so the dropdown to single digits meant the world.
 
-**Blake Mizerany:** Right, yeah. I was working on a small project at Heroku at the time when I really started to use Go, and one thing I noticed was that we needed some sort of a service discovery and we needed some configuration management, so Keith and I picked up the Chubby paper that Google had put out, and we worked on implementing our own multi-Paxos implementation, since the only one that was really out there at the time was Zookeeper; in fact, I think that was the only one that was open-sourced. Well, no, there were others, I think... A couple out of Berkeley, but we immediately looked at the design of Paxos and Go's concurrency and how it all just seemed to meld together really well.
+**Blake Mizerany:** Right, yeah. I was working on a small project at Heroku at the time when I really started to use Go, and one thing I noticed was that we needed some sort of a service discovery and we needed some configuration management, so Keith and I picked up the Chubby paper that Google had put out, and we worked on implementing our own multi-Paxos implementation, since the only one that was really out there at the time was Zookeeper; in fact, I think that was the only one that was open sourced. Well, no, there were others, I think... A couple out of Berkeley, but we immediately looked at the design of Paxos and Go's concurrency and how it all just seemed to meld together really well.
 
 We were able to crank out a basic multi-Paxos implementation relatively quickly. I remember after we did that I immediately reached out to Rob Pike, sent him an email and said "Hey, we built a multi-Paxos implementation in Go. We'd love it if you'd come take a look, let us know what you think." So he came by -- I don't know where I'm going with this; I think I'm more excited about the fact that Rob showed up when I emailed him. \[laughter\]
 
@@ -142,7 +142,7 @@ And like you said, I think your point is so good, because it ends up not being t
 
 **Carlisia Thompson:** Fastly's awesome.
 
-**Brian Ketelsen:** I'm excited because it's written in Elixir and Phoenix, and I would love to see the code. I know that in their blog post they mentioned that they planned on open-sourcing it, so I'm really looking forward to seeing an implementation of a serious system in Phoenix, so that I can get a better idea of what that looks like. It's on my to-do list for this year to play with Elixir and Phoenix, because they seem like interesting technologies.
+**Brian Ketelsen:** I'm excited because it's written in Elixir and Phoenix, and I would love to see the code. I know that in their blog post they mentioned that they planned on open sourcing it, so I'm really looking forward to seeing an implementation of a serious system in Phoenix, so that I can get a better idea of what that looks like. It's on my to-do list for this year to play with Elixir and Phoenix, because they seem like interesting technologies.
 
 **Erik St. Martin:** Yeah, actually an interesting point that I forgot to mention is that they're releasing all of this open source, so if you plan on running your own podcast or a series of podcasts, you've got the hookup from Changelog.
 

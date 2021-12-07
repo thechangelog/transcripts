@@ -352,7 +352,7 @@ I'm right now making about $500/month from Tidelift. So it's great, but all thes
 
 **Jerod Santo:** There's definitely an imbalance... Sorry to cut you off, but I just wanna speak to your point about the people building profitable - or sometimes failing - companies on top of open source... There's definitely an imbalance that we see, and I think we all see it, especially from the inside, and especially with all of our friends burning out, or struggling, and making these things that huge corporations benefit from, and not seeing any kickback... So I see the imbalance.
 
-There's also a side of it like "Well, we're open-sourcing our code. We're giving it away, it's a gift to the world."
+There's also a side of it like "Well, we're open sourcing our code. We're giving it away, it's a gift to the world."
 
 **Feross Aboukhadijeh:** It's our decision, I totally buy that. I wanna give a gift to the world. That's why I got involved - I love the idea of giving away my code and just letting anybody do what they want with it.
 

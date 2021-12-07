@@ -64,9 +64,9 @@ For those out there though who may be listening to this that aren't very familia
 
 **Arunesh Chandra:** Yes, ChakraCore is open source, ChakraCore is cross-platform. Chakra, on the other hand, is \[unintelligible 00:10:47.12\]
 
-**Adam Stacoviak:** Gotcha, okay. How important was it for the development of Chakra to open-source it? Obviously, we're seeing a new Microsoft in terms of embracing open source, but why open source? How has that helped the overall mission of the Edge browser being more any developer, any device, being more open - this neutrality, so to speak, generally across developers? How has open-sourcing it made a big deal for the development of it?
+**Adam Stacoviak:** Gotcha, okay. How important was it for the development of Chakra to open source it? Obviously, we're seeing a new Microsoft in terms of embracing open source, but why open source? How has that helped the overall mission of the Edge browser being more any developer, any device, being more open - this neutrality, so to speak, generally across developers? How has open sourcing it made a big deal for the development of it?
 
-**Arunesh Chandra:** ChakraCore open-sourcing has provided us the opportunity to really work with the open source community and developers. There's a lot of people out there, and it has allowed us to engage with that community and organically grow the platform for us. Also, it has given us an opportunity to reach a larger audience with the technology we are building, and allow the innovations coming out of our technology to reach a larger audience.
+**Arunesh Chandra:** ChakraCore open sourcing has provided us the opportunity to really work with the open source community and developers. There's a lot of people out there, and it has allowed us to engage with that community and organically grow the platform for us. Also, it has given us an opportunity to reach a larger audience with the technology we are building, and allow the innovations coming out of our technology to reach a larger audience.
 
 It comes both ways: we get to benefit from really organic discussions and PRs and reviews that happen online on our repo, and on the other hand we are able to also bring our innovation to a larger audience in that way.
 
@@ -90,7 +90,7 @@ The point when we went open source - there were things where Chakra was already 
 
 **Gaurav Seth:** So when we were kind of looking at the technological roadmap for us, I think from what we wanna do, I think we had achieved quite a lot of it. Nothing is ever done. It's an era of always improving, in continuous improvement, but at that point in time we were like, "Hey, what is the best big thing that we should do for the community, to help the community?"
 
-It was suddenly becoming obvious that "Hey, we should not keep ourselves restricted to only one platform and be there, because that is not the way for us to really grow and help the community." We started out conversations internally and we just decided that it's the best thing for us to go and maybe open-source the thing.
+It was suddenly becoming obvious that "Hey, we should not keep ourselves restricted to only one platform and be there, because that is not the way for us to really grow and help the community." We started out conversations internally and we just decided that it's the best thing for us to go and maybe open source the thing.
 
 In terms of the technical steps that you asked, like how much of an effort it took us, it was actually pretty minimal. One of the reason was, you know, when you think about the bindings we had to the Edge browser, those were already gone when we had started working on supporting the Windows 10 IoT platform, because even when we enabled the IoT platform, that IoT platform could not work with the Edge specific binding. So we had already written this new modern hosting API as we call it, to enable that scenario. It was all about just going and making sure that we open up and we open source that particular thing, and say "Hey, here's the format that you're gonna be using."
 
@@ -160,7 +160,7 @@ So we're seeing a new resurgence, so to speak, from Microsoft in the fact that y
 
 **Gaurav Seth:** It's just the amount of intense interactions you can have with developers, how much confidence you can instill in them when you open the codebases and say, "Hey, whatever we are doing, we're doing it in the open so that you can take a look at it. You can always contribute back to it." It's a completely different world from that perspective; you're just opening up, you're being transparent to people, and people love it if you're being transparent to them.
 
-**Arunesh Chandra:** That's the exciting part... The open-sourcing effort of Microsoft is also well received by the community, and there's good appreciation...
+**Arunesh Chandra:** That's the exciting part... The open sourcing effort of Microsoft is also well received by the community, and there's good appreciation...
 
 **Adam Stacoviak:** Yeah, definitely! I'm excited about it.
 

@@ -122,7 +122,7 @@ So being a good maintainer of a project, in my mind, is not separate from being 
 
 **Jerod Santo:** Yeah, October... Which is interesting, because it's open source, but it's not like a little library - or even a tool - it's our website, and it's a product, that has a product direction... So it's a different kind of open source project that many; of course, they take many shapes and forms... But we weren't expecting too much contribution because it's our website... People use the website, so we thought we'd have some interested -- it's written in Elixir, which some people are interested in seeing an Elixir application, or a Phoenix-based application that's in production, like what it all looks like to glue that together...
 
-\[24:09\] So we open-sourced it mostly because first of all we love open source, and it would be weird if our stuff wasn't open source, but secondly, it was more as people could look at it, file issues against it... As a headquarters, so to speak. But we weren't expecting too many people to actually contribute.
+\[24:09\] So we open sourced it mostly because first of all we love open source, and it would be weird if our stuff wasn't open source, but secondly, it was more as people could look at it, file issues against it... As a headquarters, so to speak. But we weren't expecting too many people to actually contribute.
 
 We've been happily surprised by many people hopping -- I think we're up to like 20+ contributors at this point - fixing bugs, adding little features... Really cool stuff.
 

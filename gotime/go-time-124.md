@@ -258,7 +258,7 @@ It's easy for people to be able to hook up to something like IntelliJ or Go land
 
 **Johnny Boursiquot:** \[laughs\]
 
-**Mat Ryer:** Well, actually, what I love about it is it just solves a real problem. And the thing is that is a fundamental thing that a lot of projects miss, I think... Especially, we like to write packages; I love making packages and open-sourcing them. I really love doing that, and I used to do it all the time. And the only reason I don't do it as often now is because that process can involve a lot of imagining things, and building hypothetical software, solving hypothetical problems.
+**Mat Ryer:** Well, actually, what I love about it is it just solves a real problem. And the thing is that is a fundamental thing that a lot of projects miss, I think... Especially, we like to write packages; I love making packages and open sourcing them. I really love doing that, and I used to do it all the time. And the only reason I don't do it as often now is because that process can involve a lot of imagining things, and building hypothetical software, solving hypothetical problems.
 
 When you solve an actual real problem that you have, it's a whole different ball game, and everyone who's working on software should understand the why. Really make sure that you are solving a real problem for somebody and it hasn't just been imagined, I think.
 

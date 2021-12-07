@@ -198,7 +198,7 @@ I think there were challenges. I think it's hard to get the same kind of spirit 
 
 But there were also kind of nice things... We ran these kind of mentorship sessions where one person was able to chat with 10-20 folks who were interested in mentorship in a kind of one-to-many model, that actually I think might have been difficult at a conference, but kind of works actually pretty nicely over Zoom.
 
-Anyway, it was an experimental setup. Since then, we open-sourced all the tools that we built for the conference. You can get it online if you search for "Mini Conf". The software has been used for about 5-6 other major conferences since then, including ACL this year, which is the big NLP conference, and ICML, which is another machine learning conference venue... I don't think we've cracked it, but in the meantime it's nice to have something we built as a community.
+Anyway, it was an experimental setup. Since then, we open sourced all the tools that we built for the conference. You can get it online if you search for "Mini Conf". The software has been used for about 5-6 other major conferences since then, including ACL this year, which is the big NLP conference, and ICML, which is another machine learning conference venue... I don't think we've cracked it, but in the meantime it's nice to have something we built as a community.
 
 **Daniel Whitenack:** Yeah, I attended the conference ICLR, and I was super-impressed with everything that was put together, especially given the timeframe. I know you must have had some very late nights fueled by very much coffee... So congratulations on in such a short time period putting together something that was so good.
 

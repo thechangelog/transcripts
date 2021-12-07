@@ -220,7 +220,7 @@ There are a few things that we don't ignore in the original styling, but general
 
 **Adam Stacoviak:** Wow.
 
-**James Long:** \[52:05\] Yeah, it's a pretty interesting change to my development style. I started it very late November, and then kind of hacked on it some in December, and I open-sourced it the first or second week of January. It's been good; it's only been there for two or three months, but it already has a bunch of activity and a lot of people who are using it seem to like it.
+**James Long:** \[52:05\] Yeah, it's a pretty interesting change to my development style. I started it very late November, and then kind of hacked on it some in December, and I open sourced it the first or second week of January. It's been good; it's only been there for two or three months, but it already has a bunch of activity and a lot of people who are using it seem to like it.
 
 **Adam Stacoviak:** So the pain you were feeling I guess has been pretty quick... The pain being going from a project with zero stars to now 5,367 stars, Facebook having an involvement with it, Christopher Chedeau, all that good stuff. You've gone from no code, to code, to community, really quick.
 

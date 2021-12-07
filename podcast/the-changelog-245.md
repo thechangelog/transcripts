@@ -76,7 +76,7 @@ This whole process normally takes place within a couple of days. We've got it do
 
 If you're gonna release something in Perl, then you use the Artistic License, because that's what that community expects. We definitely are very cognizant of the communities that we're engaging with and what the cultural norms within those communities are.
 
-**Adam Stacoviak:** I'm curious, you said that there's a process to do this... How often does someone in their well-known Google 20% time, or just anyone else that has a project come to this scenario and wants to release something open source and gets turned away from it? What are the obvious things that say "We can't release that. This doesn't work"? How often do people get turned away from open-sourcing something?
+**Adam Stacoviak:** I'm curious, you said that there's a process to do this... How often does someone in their well-known Google 20% time, or just anyone else that has a project come to this scenario and wants to release something open source and gets turned away from it? What are the obvious things that say "We can't release that. This doesn't work"? How often do people get turned away from open sourcing something?
 
 **Will Norris:** Almost never. It's very rare that we would find a project that we say "Look, we just simply cannot open source this." Sometimes it's "Okay, you're wanting to release some code that's actually owned by this other team, so you just need to make sure that they're okay with you releasing this." Or, actually what happens there really often is maybe you have a dependency that is owned by another team, so in order to release your project, you actually need that dependency to be open source as well, or else people outside the company aren't gonna be able to use it. This tends to be more about coordination.
 
@@ -86,13 +86,13 @@ We're certainly not gonna release any projects that -- let me give you an exampl
 
 **Will Norris:** \[20:00\] Sure, exactly.
 
-**Jerod Santo:** So what about stuff that's not quite ready yet? Because surely you guys have standards of quality - and I don't want to imply that any of your engineers ever write any code that's not good... But do you ever see something that's not quite ready, like it's half-baked and not ready to be open-sourced?
+**Jerod Santo:** So what about stuff that's not quite ready yet? Because surely you guys have standards of quality - and I don't want to imply that any of your engineers ever write any code that's not good... But do you ever see something that's not quite ready, like it's half-baked and not ready to be open sourced?
 
 **Adam Stacoviak:** Or needs more strategy?
 
 **Jerod Santo:** "Let's wait six months..." - does that ever happen?
 
-**Will Norris:** Well, I would push that back and say "What do you think is ready to be open-sourced?" Part of this comes from having such a big portfolio of projects that they're just really all over the spectrum in terms of size and complexity and quality, and different development models, too. We have some projects where it is mostly developed internally, and then released as a whole to the community. TensorFlow is a good example of this; we released it a year and a half ago. That had been internally developed for many years and we had been using it for a long time and really perfected a lot of it, and then released this kind of complete package. Now the future of TensorFlow is as an open source project, and collaboratively.
+**Will Norris:** Well, I would push that back and say "What do you think is ready to be open sourced?" Part of this comes from having such a big portfolio of projects that they're just really all over the spectrum in terms of size and complexity and quality, and different development models, too. We have some projects where it is mostly developed internally, and then released as a whole to the community. TensorFlow is a good example of this; we released it a year and a half ago. That had been internally developed for many years and we had been using it for a long time and really perfected a lot of it, and then released this kind of complete package. Now the future of TensorFlow is as an open source project, and collaboratively.
 
 But then we have other projects that are developed in the open from much earlier in their development process. Maybe it's something as simple as a design doc, and they actually wanna develop it in the open from the very beginning. It's really hard to say that there is like a particular bar of quality or of whatever metric you wanna use, because I think that they're all okay. Again, that kind of speaks to our philosophy that we're okay with all of these variances in these things.
 
@@ -108,7 +108,7 @@ If this is something that we use to power whatever at Google, we're trying to ta
 
 **Break:** \[23:35\]
 
-**Jerod Santo:** Alright, we are back with Will Norris of Google, talking about Google open source and the brand new shiny website OpenSource.Google.com, that has a few purposes, Will. One of the purposes we teed up before the break was helping you guys really explain and communicate what kind of projects you have. This is something that everybody struggles with; in fact, a few episodes back Adam and I were discussing with Chris Lamb about some throwaway code and whether or not it should be open sourced. Some of the conversation there was like, "How do I actually communicate that this is a throwaway?", or like you said before the break, some things are experimental, some things are flagship products that you're developing internally, but open-sourcing for other reasons, other things you want the community to design those... So let's talk about that problem in general and then why you think this website is a specific solution, for Google at least.
+**Jerod Santo:** Alright, we are back with Will Norris of Google, talking about Google open source and the brand new shiny website Open Source.Google.com, that has a few purposes, Will. One of the purposes we teed up before the break was helping you guys really explain and communicate what kind of projects you have. This is something that everybody struggles with; in fact, a few episodes back Adam and I were discussing with Chris Lamb about some throwaway code and whether or not it should be open sourced. Some of the conversation there was like, "How do I actually communicate that this is a throwaway?", or like you said before the break, some things are experimental, some things are flagship products that you're developing internally, but open sourcing for other reasons, other things you want the community to design those... So let's talk about that problem in general and then why you think this website is a specific solution, for Google at least.
 
 **Will Norris:** Yeah, absolutely. It's certainly a problem that anyone that's doing any amount of open source are dealing with. I wouldn't even go so far as to say that this website is yet solving that problem... I think this is us beginning down that path. There's so much to that, of how do you set appropriate expectations. You were talking before the break a little bit about GitHub's new tag feature -- or I forget what they call it... Labels, or topics?
 
@@ -216,7 +216,7 @@ With that said, we're coming up on our second break here. When we come back, we'
 
 **Break:** \[47:57\]
 
-**Adam Stacoviak:** Alright, we're back with Will Norris, talking about Google's open source documentation. Now, you've already had this open source office website out there; this is a new and improved version of it, opensource.google.com... I believe /docs is the URL... We've got some early access to this, so our URL is a little different than maybe the ending version of it.
+**Adam Stacoviak:** Alright, we're back with Will Norris, talking about Google's open source documentation. Now, you've already had this open source office website out there; this is a new and improved version of it, open source.google.com... I believe /docs is the URL... We've got some early access to this, so our URL is a little different than maybe the ending version of it.
 
 I mentioned the call with James Pearce at Facebook, and Jerod, you can back me up on this, I was so excited to have that conversation with them because... Obviously, we've been doing this show since 2009, so it's been forever; we love open source, we think it's the lifeblood of the future of software and what we're doing, so to see organizations like Google, like Facebook leading the way, but not just leading the way in terms of sustaining and funding and employing people to maintain software, but also very much so documentation. People underestimate how important documentation, and to see you do this is a cool thing because you're helping so many organizations lead the way. I couldn't say it any better... But let's talk about this.
 
@@ -230,7 +230,7 @@ We hope that seeing how we address certain open source problems is useful. Even 
 
 **Jerod Santo:** Very nice to see it also licensed liberally, as well... Creative Commons attribution license. In the spirit of open, it's out there for others to use with attribution.
 
-**Will Norris:** \[52:05\] Yeah, absolutely. Adam had actually asked me that earlier, about whether we were open-sourcing the site, which is another thing that comes up often in the TODO group. A lot of the tools that we have built - us and other companies - are not open source for various reasons. The site itself is not being open-sourced, but as you said, the documentation we are putting under a CC BY license, because we want people to be able to take this and use it.
+**Will Norris:** \[52:05\] Yeah, absolutely. Adam had actually asked me that earlier, about whether we were open sourcing the site, which is another thing that comes up often in the TODO group. A lot of the tools that we have built - us and other companies - are not open source for various reasons. The site itself is not being open sourced, but as you said, the documentation we are putting under a CC BY license, because we want people to be able to take this and use it.
 
 We're not actually putting it in a public GitHub repo because we're not really trying to collaborate on these docs - it's not really the goal of what we're trying to do here - but we do want people to be able to take it and apply it and use it in a way that makes sense for them.
 
@@ -238,7 +238,7 @@ We're not actually putting it in a public GitHub repo because we're not really t
 
 **Will Norris:** Yeah, absolutely.
 
-**Adam Stacoviak:** Though contribution and conversation can blend on GitHub quite easily. Sometimes open-sourcing something might simply just be having a conversation around it, rather than contributing to it. For those listening that dig into these docs, if they have questions, conversation they wanna have around something, what's the best way to go about reaching out to somebody to say, "Hey, I checked out your policy on GitHub at Google. I've got some questions."
+**Adam Stacoviak:** Though contribution and conversation can blend on GitHub quite easily. Sometimes open sourcing something might simply just be having a conversation around it, rather than contributing to it. For those listening that dig into these docs, if they have questions, conversation they wanna have around something, what's the best way to go about reaching out to somebody to say, "Hey, I checked out your policy on GitHub at Google. I've got some questions."
 
 **Will Norris:** Yeah, absolutely. That's a great question, and I'm glad you asked it. On the site we do have a feedback mechanism, which is like a standard way to \[unintelligible 00:53:36.23\] That's more really for reporting bugs, and things like that... But for really having a conversation, what we're hoping to do is to push those conversations toward the TODO group. It's todogroup.googlegroups.com. You'd have to go and join group. It's a public group that anyone can join.
 
@@ -344,7 +344,7 @@ Will, what else can you share about what's going on here with the docs that you 
 
 We actually spend a lot of energy in keeping track of all of the open source code that we use inside Google, and it's a lot of code. It's literally hundreds of millions of lines of open source code that we use inside Google. Keeping track of that is a lot of work, but it's something that we feel is really important to do.
 
-**Adam Stacoviak:** For those out there following along with this show to take the next step, obviously you've got opensource.google.com, which is a new URL -- the old site was developers.google.com/open-source, which I'm assuming will now redirect... Is that correct?
+**Adam Stacoviak:** For those out there following along with this show to take the next step, obviously you've got open source.google.com, which is a new URL -- the old site was developers.google.com/open source, which I'm assuming will now redirect... Is that correct?
 
 **Will Norris:** Yeah, that's correct.
 

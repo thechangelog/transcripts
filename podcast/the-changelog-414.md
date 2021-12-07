@@ -14,7 +14,7 @@ We're trying to have a complete DevOps platform delivered as a single applicatio
 
 **Adam Stacoviak:** It's definitely a different kind of trade from the CEO though. So not just so much that your decision is alone, but I'm sure that inside of GitLab the thought that Gitter doesn't fit long-term with your vision - not so much just keeping it, or holding it... Hoarding might even be a better word to use.
 
-One of your promises back to the community was to open-source it, which you did... But then the desire, I suppose, to see it continue is very admirable.
+One of your promises back to the community was to open source it, which you did... But then the desire, I suppose, to see it continue is very admirable.
 
 **Sid Sijbrandij:** Yeah, I think I wanna thank two people. First of all, Eric, who for years kept going Gitter, many times almost by himself, even though the rest of the company wasn't focused on it... And then I wanna thank Eliran. Eliran does Mergers and Acquisitions at GitLab, and is focused on acquiring companies. We just acquired two fuzzing companies not too long ago... But now he's also shown that when something doesn't make sense, he can find a great new home for it... So I'm very grateful to both.
 

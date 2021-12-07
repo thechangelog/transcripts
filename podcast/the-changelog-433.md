@@ -22,7 +22,7 @@ Actually, another one that came up right after that was S3-compatible stores... 
 
 **Ben Johnson:** Yeah, that's a really good point, actually. That's probably some copy editing I need to change... Those are huge contributions; I guess code contribution is the thing it's closed to.
 
-**Jerod Santo:** Yeah. Only Ben can write code, but everybody else can-- because the question is, if I don't want contributions, then it's like "Well, why did you open-source it?" But it's clear why you open-sourced it, because you do want participation, or community involvement, and all these things. It's just specifically you're writing the code for this project.
+**Jerod Santo:** Yeah. Only Ben can write code, but everybody else can-- because the question is, if I don't want contributions, then it's like "Well, why did you open source it?" But it's clear why you open sourced it, because you do want participation, or community involvement, and all these things. It's just specifically you're writing the code for this project.
 
 **Ben Johnson:** \[07:57\] Yeah. And I think there's a lot around the actual direction of usability and how you want it to feel, how everything integrates together, that I think is easy to miss if you're an outside contributor just bringing in an initial PR into the project. And I think I could certainly get people up and running, explain to them why certain things go together, and certain things work in the way they do... But again, that's just a lot of overhead, that I'm not necessarily opposed to. But is that time better spent building the product and making it kind of gel a little better together?
 

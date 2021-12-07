@@ -300,7 +300,7 @@ So let's say you've written an HTTP service. So it's sitting there, it's gonna l
 
 One of the kind of aspects of this is we've really tried to make it the concept of we've clearly defined what maps into a container, how do you build that container, how do you deploy that container right into the language?
 
-**Jerod Santo:** The last thing I'd like to chat about before I let you go, Paul, is the community side of Ballerina. This is a fully open source Apache 2.0 licensed thing; you've recently had a Ballerina Conference (the first one, I believe) and you seem to be really trying hard to build not just a programming language that happens to be open source, but it appears to be one of those fully open-sourced things, where it embraces the ecosystem.
+**Jerod Santo:** The last thing I'd like to chat about before I let you go, Paul, is the community side of Ballerina. This is a fully open source Apache 2.0 licensed thing; you've recently had a Ballerina Conference (the first one, I believe) and you seem to be really trying hard to build not just a programming language that happens to be open source, but it appears to be one of those fully open sourced things, where it embraces the ecosystem.
 
 Can you tell us about Ballerina's community? Where it is, what you're trying to build there, and kind of the angle that you guys take at -- not just WSO2 building Ballerina, but a group of people building it.
 

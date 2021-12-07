@@ -384,7 +384,7 @@ I would recommend that if you're in a particularly bad situation, you should go 
 
 **Evan Conrad:** Yeah.
 
-**Jerod Santo:** So we've talked about the open-sourceness, we've talked about the translations, which is awesome; I love seeing that, getting this into more people's hands in different languages... And it seems like the kind of app where the specific words are so necessary, but it's not like there's a lot of text, from what I've seen... So it seems like it's reasonable to do a translation relatively quickly if you are well familiar with the language that you're translating into.
+**Jerod Santo:** So we've talked about the open sourceness, we've talked about the translations, which is awesome; I love seeing that, getting this into more people's hands in different languages... And it seems like the kind of app where the specific words are so necessary, but it's not like there's a lot of text, from what I've seen... So it seems like it's reasonable to do a translation relatively quickly if you are well familiar with the language that you're translating into.
 
 You talked about the metrics, and how those are gonna be open, or are open to those... What else is looking down the road for Quirk, besides my amazing, awesome community features, which Adam loves...? Aside from that, what else are you looking to do with this? Is it kind of done? Has it done its job? We know it's helping quite a bit, but what else do you see down the road for Quirk?
 

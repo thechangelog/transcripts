@@ -24,7 +24,7 @@
 
 **Daniel Whitenack:** Awesome, awesome. Chris, I don't know if you remember - actually, this is kind of a long story, but part of the reason why this podcast exists is because I met our editors at GopherCon... I believe it was in 2016. I do a little bit of Go programming, as our listeners probably know... And I met Adam Stacoviak and -- actually, I think it was just Adam there who is editor in chief at the Changelog... And that's actually what got us started talking about doing an AI podcast.
 
-Well, at that same conference I met our guest today, and have been following their company for some time, and using some of their packages that they've open-sourced... They're just doing really cool stuff, so today we're joined by Hamish Ogilvy, who is founder at Sajari, talking to us all the way from Australia, I believe. How are you doing, Hamish?
+Well, at that same conference I met our guest today, and have been following their company for some time, and using some of their packages that they've open sourced... They're just doing really cool stuff, so today we're joined by Hamish Ogilvy, who is founder at Sajari, talking to us all the way from Australia, I believe. How are you doing, Hamish?
 
 **Hamish Ogilvy:** I'm good. I'm in San Francisco though...
 

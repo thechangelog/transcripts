@@ -60,11 +60,11 @@ On one side, I remember sitting in the room with Chris and Tom in 2008, literall
 
 So that's happening, from Chris' perspective. From Microsoft's perspective - what does this mean for Microsoft? We can talk about what it means for GitHub, and then we can talk about what it means for every day users like you and myself.
 
-**Adam Stacoviak:** At some point I wanna speculate a little bit... So if we can't talk about it now, let's earmark the fact that, given that conversation we've had with Julia White at Build, I have this suspicion that their next move will be to open-source it somehow...
+**Adam Stacoviak:** At some point I wanna speculate a little bit... So if we can't talk about it now, let's earmark the fact that, given that conversation we've had with Julia White at Build, I have this suspicion that their next move will be to open source it somehow...
 
-**Jerod Santo:** To open-source GitHub...
+**Jerod Santo:** To open source GitHub...
 
-**Adam Stacoviak:** Yeah, like go to an open core model of some sort, too. Give the community what they have been asking for, which is -- they open-sourced so much, and I think GitHub had to hold their technology somewhat close to their vest to get to this point... But I think now - I'd personally like to see Microsoft follow through and just say "You know what? The platform is open source." I feel like that would win a lot of favor for them and a lot of trust for them that they have open source in mind.
+**Adam Stacoviak:** Yeah, like go to an open core model of some sort, too. Give the community what they have been asking for, which is -- they open sourced so much, and I think GitHub had to hold their technology somewhat close to their vest to get to this point... But I think now - I'd personally like to see Microsoft follow through and just say "You know what? The platform is open source." I feel like that would win a lot of favor for them and a lot of trust for them that they have open source in mind.
 
 What do they have to lose? I guess 7.5 billion dollars in stock...? \[laughter\] That's a lot of money.
 
@@ -78,7 +78,7 @@ What do they have to lose? I guess 7.5 billion dollars in stock...? \[laughter\]
 
 \[08:14\] And we talked to folks inside of VS Code about just the way that project is run - that's super open source. And we see a lot of that change, and I just hope that others kind of give them a chance to at least state their case before they say they're totally bad.
 
-**Jerod Santo:** I agree with you that the -- well, on both accounts, first of all; I think that open-sourcing it would win a lot of street cred for them on the community's behalf, and I also agree that we've seen this transition that by my best take is not a facade, is not a front, is not just marketing talk. It's legitimate change from the top down, and from the bottom up as well; it's kind of interesting.
+**Jerod Santo:** I agree with you that the -- well, on both accounts, first of all; I think that open sourcing it would win a lot of street cred for them on the community's behalf, and I also agree that we've seen this transition that by my best take is not a facade, is not a front, is not just marketing talk. It's legitimate change from the top down, and from the bottom up as well; it's kind of interesting.
 
 But let's talk about our initial reactions, and then we'll talk about community reactions, because there have been both positive and negative community reactions... But I wanted to start with the way you felt, because when you wrote about it a little bit, even talking in our Slack - this fired up quite an interesting little conversation in our community Slack, as everybody has those initial reactions...
 
@@ -128,7 +128,7 @@ The next step for GitHub to become the GitHub that needs to be there for the nex
 
 **Jerod Santo:** \[laughs\] Okay... So I named the alternatives. But if GitLab hadn't been formed, then there wouldn't be anywhere to go... But do you feel like most of these people are over-reacting with the whole export, right when you hear the news?
 
-**Adam Stacoviak:** You know, I mean, because of the ease of transition and move, I'd say yeah... I mean, why can that hurt, to wait and see? I think in life people can get and deserve second chances. I mean, obviously, that's a sliding scale, of course, but I think for the most part Microsoft, as we've documented, has been working hard for years to reclaim their trust, to re-establish trust, to reconnect with developers, to make new inroads, to open-source things... Miguel de Icaza mentioned it was like the crown jewel of Microsoft, .NET.
+**Adam Stacoviak:** You know, I mean, because of the ease of transition and move, I'd say yeah... I mean, why can that hurt, to wait and see? I think in life people can get and deserve second chances. I mean, obviously, that's a sliding scale, of course, but I think for the most part Microsoft, as we've documented, has been working hard for years to reclaim their trust, to re-establish trust, to reconnect with developers, to make new inroads, to open source things... Miguel de Icaza mentioned it was like the crown jewel of Microsoft, .NET.
 
 To me - sure, the skepticism there, the distrust is there from the old Microsoft, but leadership has changed. To me, I'd be like "Just wait and see." Why create this whole stir? Sure, voice your opinion, blog about it, whatever, but does it need to be a mass exodus? I don't think so. I think the community would be better served by patience. Patience to see how it will work out, "Can we trust them?" and if you can't, then you do what you need to do. Then it makes more sense.
 

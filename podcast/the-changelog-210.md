@@ -234,7 +234,7 @@ A lot of success, frankly, in open source, can be serendipity, right place, righ
 
 **Adam Stacoviak:** It's a sad face, but I think it's interesting to -- at least for me, because I have a different perspective than you, because you didn't know this before me telling you this, but all along I've been watching you two in parallel to a degree, and I've seen you rise, and I imagine it's for the reasons we all know, that open source is easily adopted, is easily contributed to, and you can go in and change it if you want. You can work hard and become a maintainer, become a contributor or whatever, whereas a proprietary software that is to a degree simple enough that it should be open source - maybe even better as open source, because it is infrastructure... I'm just trying to say that I think maybe open source was the better way to go, obviously.
 
-For somebody out there who maybe thinks, "Should I close-source this...?" but now you aren't really open source anymore, so that could be the flip.
+For somebody out there who maybe thinks, "Should I close source this...?" but now you aren't really open source anymore, so that could be the flip.
 
 **Alan Shreve:** That's true.
 

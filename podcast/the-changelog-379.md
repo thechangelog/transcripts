@@ -202,7 +202,7 @@ As you&#39;re describing it, it all sounds very reasonable, MVP-driven developme
 
 **Adam Stacoviak:** Ha-ha! Nice.
 
-**Jerod Santo:** I mean, right now, in our codebase, what I did was what you said - I skipped step one, so combined those two, I had enough time to build the thing that notices that the transcript has been added, and then hardcode-- you can go check, it&#39;s open-source, and it says email, and the string is jared@changelog.com. It&#39;s just going to email me when there&#39;s a new transcript. But it&#39;s already in a for-loop, so I can go ahead and get to the next step pretty easily, add multiple email addresses... So I&#39;m looking forward to a little bit, but hey, it&#39;s a feature that -- I&#39;ve always wanted to know when the transcript&#39;s ready, and now I do. So... Baby steps.
+**Jerod Santo:** I mean, right now, in our codebase, what I did was what you said - I skipped step one, so combined those two, I had enough time to build the thing that notices that the transcript has been added, and then hardcode-- you can go check, it&#39;s open source, and it says email, and the string is jared@changelog.com. It&#39;s just going to email me when there&#39;s a new transcript. But it&#39;s already in a for-loop, so I can go ahead and get to the next step pretty easily, add multiple email addresses... So I&#39;m looking forward to a little bit, but hey, it&#39;s a feature that -- I&#39;ve always wanted to know when the transcript&#39;s ready, and now I do. So... Baby steps.
 
 **Jon Thornton:** Yeah.
 

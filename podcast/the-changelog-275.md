@@ -222,7 +222,7 @@ But I think, it's a little bit like that diagram of -- I don't know, one of thes
 
 **Miguel de Icaza:** Yeah, the trough of despair, or something like that. So what happened is that over the years the hype of what was open source - eventually people understood what it was, both us and the industry... Both us, the advocates, and the industry. We understood what it was and what it could do and what it couldn't do, and where it worked well and where it didn't work well. Even Red Hat went through this process, right?
 
-So I think that the thinking internally of Microsoft started to change, and Microsoft started to open-source a lot of things... Bit by bit. Somebody was asking yesterday "What are the things that Microsoft open-sourced?" and they were kind of thinking towards 2010, and it's like "No, there's stuff that went back to 2006, 2005... They did little bits, they did little pieces.
+So I think that the thinking internally of Microsoft started to change, and Microsoft started to open source a lot of things... Bit by bit. Somebody was asking yesterday "What are the things that Microsoft open sourced?" and they were kind of thinking towards 2010, and it's like "No, there's stuff that went back to 2006, 2005... They did little bits, they did little pieces.
 
 **Adam Stacoviak:** Testing the waters.
 
@@ -238,7 +238,7 @@ So I think that the thinking internally of Microsoft started to change, and Micr
 
 **Adam Stacoviak:** On that note, there was one point in your career where you mentioned -- I think it was when you were being interviewed, I think earlier on in your career, towards Microsoft, and you had on this advocacy of open source you mentioned that they should open source IE. This was way back in IE's lifetime, and you were kind of using Netscape as a case study of like, "Hey, this is what they're doing." Can you kind of pontificate...?
 
-**Miguel de Icaza:** Netscape actually happened later. They were not open-sourced at that point. Yeah, there wasn't -- I had an interview with Microsoft... I was working on Linux on the SPARC, supporting Linux on the SPARC, so a friend of mine, Randy Chapman, said "Hey, we're working on importing IE to SPARC, and they're interviewing here. Do you wanna come?" And I came and I interviewed with the people - I don't know who interviewed me anymore, but I made my pitch. "You should make IE open source." That was my pitch. "Make this open source. There's all these benefits", and I think they were like "Alright... Whatever, dude."
+**Miguel de Icaza:** Netscape actually happened later. They were not open sourced at that point. Yeah, there wasn't -- I had an interview with Microsoft... I was working on Linux on the SPARC, supporting Linux on the SPARC, so a friend of mine, Randy Chapman, said "Hey, we're working on importing IE to SPARC, and they're interviewing here. Do you wanna come?" And I came and I interviewed with the people - I don't know who interviewed me anymore, but I made my pitch. "You should make IE open source." That was my pitch. "Make this open source. There's all these benefits", and I think they were like "Alright... Whatever, dude."
 
 **Adam Stacoviak:** So we heard a story that...
 

@@ -4,7 +4,7 @@
 
 So that's really what was the pain point at that time - automate the reverse proxy. That's something I started to work on, but it was a side project. So yeah, I started to do a few lines of code in Go, then \[unintelligible 00:03:56.21\] and then I was just passionate about it.
 
-\[04:01\] A few months later I had something, I had a project, and it was Traefik. I decided to open-source it, and I was like "Yeah, maybe it will interest a few people in the world, because maybe a few people will hit the same pain that I did." But I was not expecting anything.
+\[04:01\] A few months later I had something, I had a project, and it was Traefik. I decided to open source it, and I was like "Yeah, maybe it will interest a few people in the world, because maybe a few people will hit the same pain that I did." But I was not expecting anything.
 
 Surprisingly, the success was here. The project was on the front page of Hacker News, and it changed everything. So it was completely unexpected. From a side project it went to a real open source project with a community around it, with external maintainers, external contributors in only a few weeks... So that really was how everything started.
 

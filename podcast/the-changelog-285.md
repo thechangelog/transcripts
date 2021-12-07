@@ -294,7 +294,7 @@ The other aspect for democratizing something is the content. For the mouse, it's
 
 **Break:** \[42:50\]
 
-**Adam Stacoviak:** The reason why we're having this conversation, Max, is because 1) it's a cool subject, and your story is super cool, but on the flipside, you've open-sourced everything, and through this journey you got to level up your math skills, make some new friends, play with some cool new tech - potentially even say it's a bleeding edge tech - and in a lot of ways innovate, but then you've also gotten to meet people from the Oculus team, and I believe it was -- Atman is how you say his name? From the Oculus team?
+**Adam Stacoviak:** The reason why we're having this conversation, Max, is because 1) it's a cool subject, and your story is super cool, but on the flipside, you've open sourced everything, and through this journey you got to level up your math skills, make some new friends, play with some cool new tech - potentially even say it's a bleeding edge tech - and in a lot of ways innovate, but then you've also gotten to meet people from the Oculus team, and I believe it was -- Atman is how you say his name? From the Oculus team?
 
 **Maxime Coutté:** Atman Binstock.
 
@@ -358,7 +358,7 @@ My mother was like, "Who is this guy?" So my mother met him, and all my brothers
 
 **Adam Stacoviak:** Absolutely. And you probably would have driven your parents crazy... Er. \[laughter\]
 
-**Maxime Coutté:** No... My father was in IP. \[laughter\] So he was like "Do you want to open-source it? Okay, that's cool."
+**Maxime Coutté:** No... My father was in IP. \[laughter\] So he was like "Do you want to open source it? Okay, that's cool."
 
 **Jerod Santo:** \[laughs\] So tell us about your sensei's thoughts, and his feelings through all this... Because this is an amazing story, if you're flying to Silicon Valley, rubbing shoulders with all these important technology people, and getting this advice from the chief architect of Oculus... It has to just tickle him to have inspired this turn of events in your life, that have led to such fortune in terms of your education and experience. Has he been involved all along the way?
 
@@ -398,9 +398,9 @@ My mother was like, "Who is this guy?" So my mother met him, and all my brothers
 
 **Maxime Coutté:** That would be awesome.
 
-**Jerod Santo:** \[56:00\] It sounds like an awesome scenario. And secondly, I wanna point out what you say in the section about open-sourcing, just to get back to the story with Atman Binstock giving you the advice, and this whirlwind tour of rubbing shoulders with bigwigs... You decided to open-source it, and what you say - and I think we've all had this feeling, when we go to open-source something - is that you deleted all the code and you started rewriting it from scratch, when you decided... Tell us about that.
+**Jerod Santo:** \[56:00\] It sounds like an awesome scenario. And secondly, I wanna point out what you say in the section about open sourcing, just to get back to the story with Atman Binstock giving you the advice, and this whirlwind tour of rubbing shoulders with bigwigs... You decided to open source it, and what you say - and I think we've all had this feeling, when we go to open source something - is that you deleted all the code and you started rewriting it from scratch, when you decided... Tell us about that.
 
-**Maxime Coutté:** \[laughs\] Yeah, I remember... It was on an Uber with Oussama Ammar in San Francisco, and I said, "You know what, Oussama? I will open-source everything", and he said, "Cool. What is the first step?" "Deleting all the code." \[laughter\] And he was like, "What?! What are you doing?" and I was like, "Yeah, there are some mistakes in the code, and it will be easier if I delete it."
+**Maxime Coutté:** \[laughs\] Yeah, I remember... It was on an Uber with Oussama Ammar in San Francisco, and I said, "You know what, Oussama? I will open source everything", and he said, "Cool. What is the first step?" "Deleting all the code." \[laughter\] And he was like, "What?! What are you doing?" and I was like, "Yeah, there are some mistakes in the code, and it will be easier if I delete it."
 
 It was because the first version of the code was really raw/rough, and the new one is still a bit rough, but it's a little bit better. And yeah, it took a little bit of time to rewrite everything from scratch. To be honest, I'm not sure if it was really worth it to do this, because for the moment I'm not really sure that it has been helpful... I hope, but I'm not sure.
 

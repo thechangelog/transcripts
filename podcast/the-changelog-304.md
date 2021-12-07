@@ -258,17 +258,17 @@ But then you start thinking to yourself, all CI/CD -- I mean, what CI/CD pipelin
 
 **Jerod Santo:** It extends it.
 
-**Corey Sanders:** It extends it, exactly. And then how do you take a consistent programming model, a consistent application model and make it possible to deploy on that edge? This is where IoT Edge, which we open-sourced today, which is very exciting... So that means, again, portability - you don't need to feel locked in with our platform.
+**Corey Sanders:** It extends it, exactly. And then how do you take a consistent programming model, a consistent application model and make it possible to deploy on that edge? This is where IoT Edge, which we open sourced today, which is very exciting... So that means, again, portability - you don't need to feel locked in with our platform.
 
 **Jerod Santo:** Come back to tell us exactly what that means, but keep going...
 
 **Corey Sanders:** Yeah, I will. And then the ability to deploy -- perhaps even more important, the fact that all of the components that deploy into IoT Edge are containers, which means again, they have portability, they can deploy anywhere... So you take our cognitive services, you take our function platform (also open source) - you can take those, you can containerize them, you can deploy them in this IoT Edge, and suddenly, that IoT Edge can run disconnected, so we can start doing intelligence and using the cognitive services that you've built/developed in the cloud, but it can run without talking to the cloud.
 
-**Adam Stacoviak:** Which you open-sourced with the runtime portion of it.
+**Adam Stacoviak:** Which you open sourced with the runtime portion of it.
 
 **Corey Sanders:** With the runtime portion of it, exactly. I think that is super-compelling -- and then Azure stack sort of up the chain, where it can run even the full cloud in that environment... It's super compelling when you look at that sort of cloudy picture, where it's got the center cloud, and then sort of the edge cloud... It's just super-compelling to say "Look, you write once and you can deploy anywhere." It's just a very, very exciting world that that could be.
 
-**Jerod Santo:** \[20:14\] Yeah. Let's go back to the open-sourcing of the runtime...
+**Jerod Santo:** \[20:14\] Yeah. Let's go back to the open sourcing of the runtime...
 
 **Corey Sanders:** Yeah.
 

@@ -204,7 +204,7 @@ From a popularity and size perspective, there's an absolute versus relative numb
 
 **Jerod Santo:** \[unintelligible 00:28:49.15\]
 
-**Brett Cannon:** Historically, what happened was Guido wanted a scripting language for the Amoeba Distributed Operating System that was being developed at CWI, which is a research lab in the Netherlands that he worked at. And he didn't \[unintelligible 00:29:03.15\] knew the people who worked on the ABC programming language, also at CWI, and had learned some things from them, and talking with them... So he decided (in December 1989) like "You know what - I think I'm gonna try to write a scripting language for this OS." And he created Python. He open-sourced it on \[unintelligible 00:29:21.26\] on February of 1991. And it's been going ever since.
+**Brett Cannon:** Historically, what happened was Guido wanted a scripting language for the Amoeba Distributed Operating System that was being developed at CWI, which is a research lab in the Netherlands that he worked at. And he didn't \[unintelligible 00:29:03.15\] knew the people who worked on the ABC programming language, also at CWI, and had learned some things from them, and talking with them... So he decided (in December 1989) like "You know what - I think I'm gonna try to write a scripting language for this OS." And he created Python. He open sourced it on \[unintelligible 00:29:21.26\] on February of 1991. And it's been going ever since.
 
 **Jerod Santo:** Amoeba. Nice.
 

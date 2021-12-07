@@ -492,11 +492,11 @@ I've used Parse for an actually massively distributed project that we redeployed
 
 So drawing that line and finding out where I wanna invest my time as an individual and as a team is really what makes that difference on how deep you go - is it per library, or is it per service provider, or is it per vendor that you're just gonna give everything to... Like the IBM appliances - just buy those and put your entire enterprise on them. I don't know, did that change your mind, Jerod?
 
-**Amal Hussein:** I have something that I wanna share with Jerod that may change his mind, but it's really actually to answer a point that you brought up earlier, Jerod... You were like "Hey, what if this startup's tool that I'm using just disappears? What happens then?" And there's two stories I wanna share with you. One is my dear friend Gleb Bahmutov, who's the VP of engineering at Cypress. The first thing that he did when he joined the company was like "Okay, cool, let's start working on open-sourcing Cypress." Six months later they open-sourced Cypress. And the value there was like "We're going to open-source Cypress. How are we gonna get people to adopt our tool if it's just some closed-source startup that's like maybe gonna go away?" Right? Do you see what I'm saying?
+**Amal Hussein:** I have something that I wanna share with Jerod that may change his mind, but it's really actually to answer a point that you brought up earlier, Jerod... You were like "Hey, what if this startup's tool that I'm using just disappears? What happens then?" And there's two stories I wanna share with you. One is my dear friend Gleb Bahmutov, who's the VP of engineering at Cypress. The first thing that he did when he joined the company was like "Okay, cool, let's start working on open sourcing Cypress." Six months later they open sourced Cypress. And the value there was like "We're going to open source Cypress. How are we gonna get people to adopt our tool if it's just some closed source startup that's like maybe gonna go away?" Right? Do you see what I'm saying?
 
 **Jerod Santo:** Yeah.
 
-**Amal Hussein:** They open-sourced it to actually give it more credibility, and also to empower -- they kind of separated the business from the tool. The tool is a free, open source thing that you can use. The business is like management of the tool and usage of the tool at scale, with their dashboard.
+**Amal Hussein:** They open sourced it to actually give it more credibility, and also to empower -- they kind of separated the business from the tool. The tool is a free, open source thing that you can use. The business is like management of the tool and usage of the tool at scale, with their dashboard.
 
 **Jerod Santo:** Sure.
 

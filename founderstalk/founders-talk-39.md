@@ -42,7 +42,7 @@ In the previous show, Sam, we talked quite a bit about your past. We even pulled
 
 **Adam Stacoviak:** Yeah, there you go.
 
-**Sam Soffes:** Yeah, it was kind of trickling off, and then I open-sourced Cheddar for iOS two days ago and I had like 10% growth in one day, which was huge. And now it's trickling off a little bit. It's still way higher than it was last week. I assume in a week or so it will fall back to more flat until I do another announcement.
+**Sam Soffes:** Yeah, it was kind of trickling off, and then I open sourced Cheddar for iOS two days ago and I had like 10% growth in one day, which was huge. And now it's trickling off a little bit. It's still way higher than it was last week. I assume in a week or so it will fall back to more flat until I do another announcement.
 
 **Adam Stacoviak:** So since we're talking about numbers, I think the one thing we didn't really dive in deep enough in the last show -- I don't think we mentioned price at all, and your application Cheddar is extremely, I would say, affordable to most people... $2/month, or what is it, $6 for three months for your services?
 
@@ -80,7 +80,7 @@ I just sold a bunch more Apple stock. All my savings is in Apple stock, and I so
 
 **Adam Stacoviak:** Not there?
 
-**Sam Soffes:** \[11:48\] No... I've been busy. Open-sourcing Cheddar for iOS actually took more time than you'd expect, and I'm working on some web fixes and a lot of different things, so I haven't really had a lot of time to spend on it yet... But hopefully in a couple weeks, we'll see. But anyway, that's the next big thing, and I think that will drive revenue a lot, because I already have some really high profile tech blogs that said they wanted to do a piece on it.
+**Sam Soffes:** \[11:48\] No... I've been busy. Open sourcing Cheddar for iOS actually took more time than you'd expect, and I'm working on some web fixes and a lot of different things, so I haven't really had a lot of time to spend on it yet... But hopefully in a couple weeks, we'll see. But anyway, that's the next big thing, and I think that will drive revenue a lot, because I already have some really high profile tech blogs that said they wanted to do a piece on it.
 
 I don't know, I'm kind of not really worried; I'm not super-focused on revenue. I really don't look at it that often. Today was the first time I looked to see how much income I've had since I think the last time we talked. I'm pretty much just heads down on "These are the features that need to happen to make the product better." Making it better in general makes people happy, and making people happy is more conversions, which is more money.
 
@@ -124,7 +124,7 @@ I guess I'm far away enough from my end of money, but I'm not super focused on i
 
 **Sam Soffes:** Yeah.
 
-**Adam Stacoviak:** I wanna talk about open-sourcing of Cheddar, so we'll hold that thought for and we'll talk about some of those things you're reviewing, what the impact is to Cheddar iOS... But I'm still kind of curious, just in terms of -- and I don't wanna make you worry, because I don't want you to come on this podcast and be like "Oh, I didn't realize really that 14,000 to 50,000 - that's a big gap... What do I do in between here? And I've got October, and I've got these needs and this different stuff...", but what kind of things have you thought about how to get people to help you build a tribe? So people who use Cheddar who wanna share Cheddar with other people and say, you know, "I use Cheddar. It's really simple, it's really easy, it's affordable" - whatever the reasons are. How are you incentivizing people to help you get to that number?
+**Adam Stacoviak:** I wanna talk about open sourcing of Cheddar, so we'll hold that thought for and we'll talk about some of those things you're reviewing, what the impact is to Cheddar iOS... But I'm still kind of curious, just in terms of -- and I don't wanna make you worry, because I don't want you to come on this podcast and be like "Oh, I didn't realize really that 14,000 to 50,000 - that's a big gap... What do I do in between here? And I've got October, and I've got these needs and this different stuff...", but what kind of things have you thought about how to get people to help you build a tribe? So people who use Cheddar who wanna share Cheddar with other people and say, you know, "I use Cheddar. It's really simple, it's really easy, it's affordable" - whatever the reasons are. How are you incentivizing people to help you get to that number?
 
 **Sam Soffes:** So... And by the way, I've only been out 33 days, or 30-something days, so 15,000 is --
 
@@ -188,9 +188,9 @@ I know Mark Jardine tweeted, he was excited about it, and it totally made my day
 
 **Sam Soffes:** Yeah, I'm excited to do something new and learn... I don't know. It's good.
 
-**Adam Stacoviak:** We'll earmark that learning topic for a bit later in this show, but I wanna turn left and talk about open source, because in the last show you talked about you might open-source Cheddar for iOS, and since then you have open-sourced it and it's at your company's GitHub, which is NothingMagical; so if you go to github.com/nothingmagical you'll see the stuff that Sam's working on there for his company, and one of those happens to be Cheddar iOS.
+**Adam Stacoviak:** We'll earmark that learning topic for a bit later in this show, but I wanna turn left and talk about open source, because in the last show you talked about you might open source Cheddar for iOS, and since then you have open sourced it and it's at your company's GitHub, which is NothingMagical; so if you go to github.com/nothingmagical you'll see the stuff that Sam's working on there for his company, and one of those happens to be Cheddar iOS.
 
-**Sam Soffes:** Yeah, I almost didn't do it. Someone was talking to me briefly about wanting to buy Cheddar, so I was like "Well, I shouldn't do it because it will make Cheddar less valuable." Then I talked with a friend about maybe him being a co-founder, and then he didn't because whatever; I was like, okay, well now that all that's settled down and it hasn't happened, it's just me, so I'm gonna open-source it because I wanna help, and because I feel like it'd be really cool, and it's a good source of sample code, so people can learn from it... Just learning by example as an iOS developer in general, or how to make a great app around Cheddar, or whatever else. So yeah, I just pulled the trigger and did it. I don't know if it's a bad business decision, but whatever, it's done.
+**Sam Soffes:** Yeah, I almost didn't do it. Someone was talking to me briefly about wanting to buy Cheddar, so I was like "Well, I shouldn't do it because it will make Cheddar less valuable." Then I talked with a friend about maybe him being a co-founder, and then he didn't because whatever; I was like, okay, well now that all that's settled down and it hasn't happened, it's just me, so I'm gonna open source it because I wanna help, and because I feel like it'd be really cool, and it's a good source of sample code, so people can learn from it... Just learning by example as an iOS developer in general, or how to make a great app around Cheddar, or whatever else. So yeah, I just pulled the trigger and did it. I don't know if it's a bad business decision, but whatever, it's done.
 
 **Adam Stacoviak:** Let's hope not. Some parts of the readme that made me wanna dive a little deeper on this was just some things you say in your license. In your readme you say your licensing is a simplified BSD license, and while it's not totally forbidden to take this exact app and do something else with it, like redistribute it or even charge for it or do something else... Is charging in that clause? Is there anything about charging for it but you can redistribute the app?
 
@@ -274,13 +274,13 @@ So that's just a tough fit... I think most VC's probably wouldn't trust some kid
 
 **Sam Soffes:** It's so silly, it's a to-do list... They're not hard. Granted, there's not any good ones that I like, so I'll make one, and people seem to like it, so alright... But yeah, I'm definitely not passionate about productivity software. I don't get up every day to make a to-do list. I get up so I can make a cool product that people are excited about. I'd rather make a much more interesting product that can service even more people, but right now Cheddar is my product and that's what I'll be working on for the next several months, unless something changes.
 
-**Adam Stacoviak:** There was only one thing I wanted to talk about with Cheddar iOS being open source before we dial away from that... It was mostly around the product itself - what kind of impact have you seen to Cheddar directly from open-sourcing it? You mentioned sitting on pull requests, or waking up in the morning and the first thing you do is do support, and some of that is looking at pull requests and what not... So how much impact has come from the community that it's touched, and how long has it been open source - like three days or so?
+**Adam Stacoviak:** There was only one thing I wanted to talk about with Cheddar iOS being open source before we dial away from that... It was mostly around the product itself - what kind of impact have you seen to Cheddar directly from open sourcing it? You mentioned sitting on pull requests, or waking up in the morning and the first thing you do is do support, and some of that is looking at pull requests and what not... So how much impact has come from the community that it's touched, and how long has it been open source - like three days or so?
 
 **Sam Soffes:** Yeah, this is day three.
 
 **Adam Stacoviak:** Day three.
 
-**Sam Soffes:** So yeah, it's been spectacular. Before I open-sourced it, I put it in my Cheddar list of features and bugs into GitHub issues, so it's easier to work with it from code... And by the way, that's something I wanna do down the road, have the Cheddar list sync with other things, like Basecamp or GitHub... Anyway, it's just kind of a fun thing I need to figure out how to do well. Anyway, I just added all my stuff, and kind of like went to bed and woke up yesterday and someone had fixed -- added two features that I had on there, fixed a couple bugs, and then someone else had fixed another bug... It was like, "This is amazing!"
+**Sam Soffes:** So yeah, it's been spectacular. Before I open sourced it, I put it in my Cheddar list of features and bugs into GitHub issues, so it's easier to work with it from code... And by the way, that's something I wanna do down the road, have the Cheddar list sync with other things, like Basecamp or GitHub... Anyway, it's just kind of a fun thing I need to figure out how to do well. Anyway, I just added all my stuff, and kind of like went to bed and woke up yesterday and someone had fixed -- added two features that I had on there, fixed a couple bugs, and then someone else had fixed another bug... It was like, "This is amazing!"
 
 One of the features that this guy implemented I had planned on probably cutting, because I wasn't gonna have time to do it, and he implemented it and it was like "Great!" I merged it in, it all worked, and it was like "This is amazing!" I tweeted yesterday, 38% of the commits in the last two days are from people I've never met, and they're helping me build this product that I'm living off of.
 
@@ -580,7 +580,7 @@ It says in the Bible that man is supposed to work on something, right? We're sup
 
 **Sam Soffes:** Yeah, probably not.
 
-**Adam Stacoviak:** \[01:24:11.22\] I think that that about wraps it up; I don't have any more topics on my list. I think we got most of the ones that we wanted to talk about out. We've thoroughly learned about your personal life in part one, we've thoroughly learned about your business model, pricing and reasons behind it for Cheddar now, how you open-sourced it... Potentially maybe not getting an offer from somebody else to buy you or buy a part of you or whatever, and that's your own little subject we'll leave there.
+**Adam Stacoviak:** \[01:24:11.22\] I think that that about wraps it up; I don't have any more topics on my list. I think we got most of the ones that we wanted to talk about out. We've thoroughly learned about your personal life in part one, we've thoroughly learned about your business model, pricing and reasons behind it for Cheddar now, how you open sourced it... Potentially maybe not getting an offer from somebody else to buy you or buy a part of you or whatever, and that's your own little subject we'll leave there.
 
 **Sam Soffes:** Do you wanna talk about that real quick?
 

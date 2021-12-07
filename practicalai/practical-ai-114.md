@@ -32,7 +32,7 @@ Unsplash has released a huge -- actually, the world's largest open library datas
 
 **Luke Chesser:** Yeah, for sure. My background was originally as a designer, and I joined two friends to start a company, which was at the time a marketplace for hiring designers and developers... And by necessity over the years I ended up having to learn engineering, and kind of worked my way into building products completely.
 
-One of the side projects we started building inside of that company was a company called Unsplash. It was just this little image repository that we open-sourced... And that eventually turned itself into a full company, which is its own entire story. Now I get to oversee this team of really talented people. I'll pretend that I know a lot about coding and design and everything, but really, they're the ones that make me look really good now.
+One of the side projects we started building inside of that company was a company called Unsplash. It was just this little image repository that we open sourced... And that eventually turned itself into a full company, which is its own entire story. Now I get to oversee this team of really talented people. I'll pretend that I know a lot about coding and design and everything, but really, they're the ones that make me look really good now.
 
 **Chris Benson:** Before we go on, I've gotta ask... Because the listeners only hear the audio; we're all on a Zoom call right now, and I see the guitars hanging behind you on the wall, so you must be a musician, I guess...? Or just a fan, or what?
 
@@ -74,7 +74,7 @@ We're also including search conversion data. That could be very interesting, I t
 
 **Chris Benson:** Very cool. As you were saying that, something came to mind... I was really wondering - and I'll probably throw it back to Luke for this - how is your business model accommodating that? Because what you're describing is wonderful to hear as a practitioner and a consumer of that... But how is your company organized so that you can support this kind of work, and what's the benefit? How does all that work in your world?
 
-**Luke Chesser:** Yeah, so the dataset isn't open-sourced, isn't released in any way to be this commercial product. There is a potential for it to have a commercial business behind it, in the sense that right now it's under a license where -- we've released two datasets. The smaller dataset is able to be used for commercial and non-commercial uses. The bigger dataset is more restricted in terms of commercial uses.
+**Luke Chesser:** Yeah, so the dataset isn't open sourced, isn't released in any way to be this commercial product. There is a potential for it to have a commercial business behind it, in the sense that right now it's under a license where -- we've released two datasets. The smaller dataset is able to be used for commercial and non-commercial uses. The bigger dataset is more restricted in terms of commercial uses.
 
 \[12:16\] So there's a possibility that it could eventually commercialize in that way. We're not necessarily banking on that, or that's not the reason why we're doing it.
 

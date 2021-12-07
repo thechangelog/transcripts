@@ -170,7 +170,7 @@ So I would say that instead of doing that -- for login, for instance, I've recen
 
 **Isobel Redelmeier:** Before that it was in xContext for a while.
 
-**Francesc Campoy:** Yeah. And before that it was internally at Google. For many years it was actually a part of the networking package, or something. I think it was like the internal networking package... And they changed the implementation completely before open-sourcing it, but they left the API exactly the same. And I feel like that is a clear proof of the power of interfaces, of the fact that we went from having one thing that that's everything, to having a bunch of different contexts that create this cool tree. Before, it was not a tree. But from the point of view of the user, you don't care, so they were able to rewrite the whole thing and make it much smaller and efficient without ever changing any interface.
+**Francesc Campoy:** Yeah. And before that it was internally at Google. For many years it was actually a part of the networking package, or something. I think it was like the internal networking package... And they changed the implementation completely before open sourcing it, but they left the API exactly the same. And I feel like that is a clear proof of the power of interfaces, of the fact that we went from having one thing that that's everything, to having a bunch of different contexts that create this cool tree. Before, it was not a tree. But from the point of view of the user, you don't care, so they were able to rewrite the whole thing and make it much smaller and efficient without ever changing any interface.
 
 **Mat Ryer:** It's a good testament to the interface design itself as well, isn't it?
 

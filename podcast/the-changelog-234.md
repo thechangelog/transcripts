@@ -102,7 +102,7 @@ Part of the problem before Open Collective appeared was that before, the only wa
 
 **Jerod Santo:** Alright, we are back with Pia Mancini, talking about Open Collective. Before the break you laid out Open Collective - what it is, its mission and its design, to a certain degree. We'd like to understand how it works on a practical sense for a hypothetical project and a new Open Collective being founded. Let's just say Adam and I have an open source project and it's getting popular... Project X - it's got a great name, because it's Project X, and we've been putting time and effort into it and we're starting to think "If we're gonna keep this going, we might need a thousand bucks a month, or some sort of income coming in. Let's start an Open Collective." How would the process work and what does Open Collective provide for our group in Project X?
 
-**Pia Mancini:** \[23:52\] Alright, so essentially if Project X is an open source project, you would apply to create a collective. The link is like opencollective/opensource/apply, and the reason why I'm mentioning that is because that connects to GitHub. So you would pick your repository and your core contributors, and then we would create the Open Collective. What that means has two different elements to it.
+**Pia Mancini:** \[23:52\] Alright, so essentially if Project X is an open source project, you would apply to create a collective. The link is like opencollective/open source/apply, and the reason why I'm mentioning that is because that connects to GitHub. So you would pick your repository and your core contributors, and then we would create the Open Collective. What that means has two different elements to it.
 
 The first one is you will have your own public page on Open Collective. It's gonna be opencollective.com/projectX, and there you will be able to state your mission, show your expenses and your donations and show who your core contributors are, and there's two buttons to receive donations.
 
@@ -362,7 +362,7 @@ Experimenting is fun. We are trying to really think outside the box in terms of 
 
 **Adam Stacoviak:** Well, Pia, anything else you wanna cover? I know Jerod and I had a lot of questions here and we're getting ready to wrap up, so I wanna give you a chance to cover anything that we may have not talked about that you wanted to cover. Any closing thoughts, any welcoming invitation to the community Open Collective? Whatever you wanna share is really what this is about, so anything else you wanna share before we wrap up?
 
-**Pia Mancini:** No, you guys have been super thorough, thank you very much for having me. To your audience in general, I'd really love you to go to opencollective.com/opensource/apply and join this community. I think that, as I said, the more amazing projects we have, the better we are gonna get at having better sponsors, more backers... We'd love to have everyone on board, as long as not like Webpack, that you are breaking Open Collective... \[laughs\]
+**Pia Mancini:** No, you guys have been super thorough, thank you very much for having me. To your audience in general, I'd really love you to go to opencollective.com/open source/apply and join this community. I think that, as I said, the more amazing projects we have, the better we are gonna get at having better sponsors, more backers... We'd love to have everyone on board, as long as not like Webpack, that you are breaking Open Collective... \[laughs\]
 
 **Adam Stacoviak:** Right, pretty much. That's a success story there.
 

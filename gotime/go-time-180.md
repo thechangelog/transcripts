@@ -236,13 +236,13 @@ So yeah, we absolutely want it to be backwards-compatible, and that's a big reas
 
 **Johnny Boursiquot:** So Encore is open source, and you do have contributors...
 
-**André Eriksson:** Yeah. We open-sourced it about two weeks ago, so it's very fresh. It's all open source, all the runtime stuff, all the tracing, all the parsing - it's all there.
+**André Eriksson:** Yeah. We open sourced it about two weeks ago, so it's very fresh. It's all open source, all the runtime stuff, all the tracing, all the parsing - it's all there.
 
 **Jerod Santo:** Was that the plan from the get-go, or is that a pivot?
 
-**André Eriksson:** No, it was entirely the plan. As a developer, you might not realize it when you just import a package, but we're all building on mountains and mountains of open source, from the first line of code we're writing... And I think not contributing back to that is - I wouldn't say a mistake; every product is different. But to me, being able to contribute back and being able to open-source this is incredibly important to me. And just for developers to have a look at something; even if it's not for you, it's at least different... And being able to have a look and see how it works under the hood - I think that's super-important. Over the years, I've learned so much from just opening up projects that I like and learning from that - "Oh, how did they do this? Okay." And then you dig into that, and suddenly you've learned something new.
+**André Eriksson:** No, it was entirely the plan. As a developer, you might not realize it when you just import a package, but we're all building on mountains and mountains of open source, from the first line of code we're writing... And I think not contributing back to that is - I wouldn't say a mistake; every product is different. But to me, being able to contribute back and being able to open source this is incredibly important to me. And just for developers to have a look at something; even if it's not for you, it's at least different... And being able to have a look and see how it works under the hood - I think that's super-important. Over the years, I've learned so much from just opening up projects that I like and learning from that - "Oh, how did they do this? Okay." And then you dig into that, and suddenly you've learned something new.
 
-**Natalie Pistunovich:** \[48:43\] So you liked all the open source tools that you had, and that's why you felt you want to give back and open-source your tool...
+**Natalie Pistunovich:** \[48:43\] So you liked all the open source tools that you had, and that's why you felt you want to give back and open source your tool...
 
 **André Eriksson:** Yeah. And we talk a lot about developer productivity and how Encore makes it so much better... But it's also important to remember how far we've come, both on the coding side, and the editors, and the languages, and the libraries we have - that's all because of open source. And then I think a big part of modern productivity for backend development is also due to the cloud (thank you, Heroku). And maybe the story there is not quite as good in terms of open source, but hopefully we'll get there.
 

@@ -224,7 +224,7 @@ So it is a free service that we're offering, and we're going to be figuring out 
 
 **Jerod Santo:** What you get is what you get, and what you get is what's been signed.
 
-**Gregory Kurtzer:** Yes, exactly. So that's one of our business models, which is to add value. Don't hold it hostage, but somehow add value to that open source piece of software... And we can do that commercially. That's a cloud service. That's not something that we're planning on open-sourcing. That's a cloud service.
+**Gregory Kurtzer:** Yes, exactly. So that's one of our business models, which is to add value. Don't hold it hostage, but somehow add value to that open source piece of software... And we can do that commercially. That's a cloud service. That's not something that we're planning on open sourcing. That's a cloud service.
 
 **Jerod Santo:** But you're making it pretty, so...
 
@@ -258,7 +258,7 @@ So it is a free service that we're offering, and we're going to be figuring out 
 
 **Jerod Santo:** Did you consider closed source? Was it even a thought? Because that simplifies business cases a lot, but it complicates other things.
 
-**Gregory Kurtzer:** For Singularity, we never considered it. For our cloud development -- I mean, it is a cloud service, so that's not something that we're open-sourcing. So that is definitely a closed source. But we've actually gotten some really interesting information, which is - everybody's talking about cloud, everybody's talking about getting all their apps and everything up to the cloud, and so we developed this cloud service thinking everybody wants to go up to the cloud. A really interesting spin on this, and something I totally didn't expect, is that almost everybody - well, maybe not everybody; I'm exaggerating... Maybe about half of the people that we talk to wants to run that on-prem, and I wasn't expecting that.
+**Gregory Kurtzer:** For Singularity, we never considered it. For our cloud development -- I mean, it is a cloud service, so that's not something that we're open sourcing. So that is definitely a closed source. But we've actually gotten some really interesting information, which is - everybody's talking about cloud, everybody's talking about getting all their apps and everything up to the cloud, and so we developed this cloud service thinking everybody wants to go up to the cloud. A really interesting spin on this, and something I totally didn't expect, is that almost everybody - well, maybe not everybody; I'm exaggerating... Maybe about half of the people that we talk to wants to run that on-prem, and I wasn't expecting that.
 
 So we are figuring out how to relicense and rebrand our cloud services, and allow people to run those on-prem. And we have several different cloud services at this point. The key store that I was mentioning before is just one of them. Another one is a build service, so you can actually build containers without requiring root or without requiring any sort of privilege escalation, because we have a service that does that in a controlled way. We also have something called the container library.
 

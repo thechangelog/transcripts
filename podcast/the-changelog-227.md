@@ -446,7 +446,7 @@ I've been thinking about ways to do that. I don't have anything to talk about ye
 
 **Adam Stacoviak:** It's called Mojibar, now that I recall.
 
-**Jerod Santo:** There you go, Mojibar. So that got us excited about it, with how easy it is to get started, but that's as far as we've taken it. As you may know, we just relaunched our website, Changelog.com, and we just open-sourced all the code for that. So we've been doing that mostly recently, but we have ideas and we'd like to do something with Electron.
+**Jerod Santo:** There you go, Mojibar. So that got us excited about it, with how easy it is to get started, but that's as far as we've taken it. As you may know, we just relaunched our website, Changelog.com, and we just open sourced all the code for that. So we've been doing that mostly recently, but we have ideas and we'd like to do something with Electron.
 
 **Adam Stacoviak:** We do have this embedded player coming up, so we do have a lot of design and user experience thoughts into this player, so I can see us playing with Electron very soon. Maybe... Soon. Just soon.
 

@@ -330,7 +330,7 @@ Another way to solve some of the other problems we talked about is just not to h
 
 **Johnny Boursiquot:** Wow... Alright, so this has been an awesome episode. Thank you again, Kelsey, for coming on, and for regaling us your tales of putting together an entire infrastructure for your podcast to save $12... \[laughs\]
 
-**Mat Ryer:** Are you gonna open-source that, by the way? \[laughter\]
+**Mat Ryer:** Are you gonna open source that, by the way? \[laughter\]
 
 **Kelsey Hightower:** I am. No, I actually have a set of command line tools that I will be publishing... Because I also do some things like translate the audio, using some of the cloud APIs... You know, you've gotta move it to the next level. You'll see that coming soon to GitHub.
 

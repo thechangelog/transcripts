@@ -374,7 +374,7 @@ And let's see, what else is coming up. You know, right now we're focusing on our
 
 **Jerod Santo:** In a non-creepy way.
 
-**Adam Stacoviak:** In a non-creepy way. What's on your radar? There's lots of open-source out there, you deeply invest with a lot of fun stuff - it's 6 PM when you take you breaks, what would you hack on that's new, fresh in open source? What's out there on your radar that if you had some time to play with it...?
+**Adam Stacoviak:** In a non-creepy way. What's on your radar? There's lots of open source out there, you deeply invest with a lot of fun stuff - it's 6 PM when you take you breaks, what would you hack on that's new, fresh in open source? What's out there on your radar that if you had some time to play with it...?
 
 **Raquel Vélez:** Yeah. Oh, man... I've done such a good job of avoiding everything for a little while. That said, I keep hearing amazing things about React. I'm just like, "Okay, I need to just build something with that", but I haven't yet. I don't know... I've just been kind of like... I think a lot of the robot stuff continues to be really fascinating to me, seeing how people are building cooler and cooler things, which aren't on the super-mathy kind of stuff.
 

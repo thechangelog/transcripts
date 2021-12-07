@@ -414,13 +414,13 @@ Also, I found that there's a lot of people there who love to invent work, and I 
 
 **Jerod Santo:** Well, it sounds like Swift is in good hands with Chris.
 
-**Max Howell:** Yeah, Swift has got a fantastic team, it's gonna do really great, and I'm so glad that they open-sourced it. Without that, it would have only ever been like for iPhone, even if someone else figured out how to compile it on Linux or whatever, or bring their own Swift compiler... Because it's open source, I feel that it has a good chance to be the next big scripting language, replacing things like Ruby, Python, maybe even replacing Node. I know that that's gonna be harder, because people love their JavaScript so much...
+**Max Howell:** Yeah, Swift has got a fantastic team, it's gonna do really great, and I'm so glad that they open sourced it. Without that, it would have only ever been like for iPhone, even if someone else figured out how to compile it on Linux or whatever, or bring their own Swift compiler... Because it's open source, I feel that it has a good chance to be the next big scripting language, replacing things like Ruby, Python, maybe even replacing Node. I know that that's gonna be harder, because people love their JavaScript so much...
 
 **Jerod Santo:** So the Swift Package Manager is open source; Swift, of course, famously open source... Big shift really, for Apple to open source things on their own accord, and not because they're complying with a GPL, or something like that.
 
 **Max Howell:** Well, that's not strictly true...
 
-**Jerod Santo:** Were you involved with the open-sourcing idea around the package manager? Were you in any of those meetings?
+**Jerod Santo:** Were you involved with the open sourcing idea around the package manager? Were you in any of those meetings?
 
 **Max Howell:** I didn't make the decision. That was already made.
 
@@ -466,7 +466,7 @@ With Swift you don't crash, and you don't do nothing, so both of these issues...
 
 **Jerod Santo:** So if you had to put your forecaster's hat on - I know you like to wear a lot of hats... So put on your forecaster hat and tell us where Swift is five, ten years out. You said it could be your programming language. Do you think it will come to dominate the programming landscape, or do you think it will always be inside Apple's bubble?
 
-**Max Howell:** I think it's already starting to leave Apple's bubble because it was open-sourced for Linux support, and since then some people at Facebook have made it work on Android, and some people are working on making it work on Windows. So we're getting to this point where you can write your app in Swift for every major platform apart from the web. But you could write your server-side in Swift, and someone's already made a Swift to JavaScript compiler, so you could write the frontend in the Swift as well if you trust the compiler. I don't know, I haven't really looked into it.
+**Max Howell:** I think it's already starting to leave Apple's bubble because it was open sourced for Linux support, and since then some people at Facebook have made it work on Android, and some people are working on making it work on Windows. So we're getting to this point where you can write your app in Swift for every major platform apart from the web. But you could write your server-side in Swift, and someone's already made a Swift to JavaScript compiler, so you could write the frontend in the Swift as well if you trust the compiler. I don't know, I haven't really looked into it.
 
 So I really want it to be. I think it's a lovely language, and I'm not just saying that as someone who's been a bit of an Apple fanboy for so long. I've been disappointed with Apple in many ways, not just because I worked there. I think MacOS is really in need of work, or at least some hooks so that developers can change how it works. I wanna get rid of the dock, I wanna get rid of the menu bar, I wanna experiment with many different ways of making it a better platform for me. I've been using Windows a lot lately, and I think Microsoft are doing a lot better with Windows 10 than Apple are doing with MacOS right now.
 

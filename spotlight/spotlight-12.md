@@ -183,7 +183,7 @@ Tracy, in general, has been a pioneer in diversity/inclusivity work in community
 
 **Mikeal Rogers:** I get called Mikeel four times a day, so... \[laughter\]
 
-**Adam Stacoviak:** But I was talking to him about ChakraCore and VM neutrality, and they're very excited about it. They're excited about open-sourcing ChakraCore and the fun stuff that's happening there, and just the involvement inside of Microsoft. With ChakraCore, it was kind of funny the way that they described this story. I was asking them about Chakra and ChakraCore and how they went about open-sourcing it or even making ChakraCore, and they were like, "Well, we were really motivated internally first, then we realized that we were already trying to extract Core to use it on our own, to use it on Azure and elsewhere, so why not just open source it?"
+**Adam Stacoviak:** But I was talking to him about ChakraCore and VM neutrality, and they're very excited about it. They're excited about open sourcing ChakraCore and the fun stuff that's happening there, and just the involvement inside of Microsoft. With ChakraCore, it was kind of funny the way that they described this story. I was asking them about Chakra and ChakraCore and how they went about open sourcing it or even making ChakraCore, and they were like, "Well, we were really motivated internally first, then we realized that we were already trying to extract Core to use it on our own, to use it on Azure and elsewhere, so why not just open source it?"
 
 Rewinding back a little bit, you said, "Other VM developers" - give us an idea of what VM developers are out there; what other VM developers are out there that matter?
 
