@@ -224,7 +224,7 @@ Alright, so moving on. What else have we got?
 
 **Brian Ketelsen:** I wanna say too about our perennial, favorite projects here at GoTime, our Vim Go and Hugo, they both leveled up this week with some updates. I haven't read the Hugo announcement yet, so I don't know what's new there. Vim Go had some interesting changes for implementing interfaces - is that what you were telling me, Erik?
 
-**Erik St. Martin:** Yeah... I don't even know how you would pronounce this command... Gofmt - I would never expect it could be pronounced, until I heard someone say it. So I don't know how you would pronounce the command, but Go implementer... But it's cool, because it basically stubs out your type with all the functions, so that it will implement said interface, which is really cool.
+**Erik St. Martin:** Yeah... I don't even know how you would pronounce this command... go fmt - I would never expect it could be pronounced, until I heard someone say it. So I don't know how you would pronounce the command, but Go implementer... But it's cool, because it basically stubs out your type with all the functions, so that it will implement said interface, which is really cool.
 
 **Brian Ketelsen:** Nice.
 

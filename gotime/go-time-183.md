@@ -232,7 +232,7 @@ And from the things that maybe I like less - I think that would be when comparin
 
 **Natalie Pistunovich:** I have to say, to your point of Go being so well read... I recently found myself reading lots of code in other languages, and I just come with this expectation of just easily reading and understanding people different and different company cultures, and stuff... And it spoils you a little bit. And it's true, it can be that this is because you've been doing Go for long enough, but it's probably just because the language is so well read, and some other languages are not putting enough stress on that. So it definitely puts you in a spoiled position.
 
-**Mat Ryer:** Yeah, the gofmt also - the formatting \[unintelligible 00:29:59.03\] all in the same way - really helps.
+**Mat Ryer:** Yeah, the go fmt also - the formatting \[unintelligible 00:29:59.03\] all in the same way - really helps.
 
 **Natalie Pistunovich:** Oh, yes.
 

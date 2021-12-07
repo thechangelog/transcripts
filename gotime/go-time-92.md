@@ -384,7 +384,7 @@ From a storytelling point of view, I always like to still handcraft the API... B
 
 **Mat Ryer:** If that's what you want. If it fits, then there's nothing better, absolutely. It's just for the times when it doesn't quite fit, or if you wanna do just a small tweak, then you get stuck, and that's where the pain comes. But like you say, it's a trade-off, and it depends what you care about. You're right about that gRPC stuff - it is very weird what gets generated. It's code, but it's not very readable, it's not very user-friendly, in my opinion. But that's kind of the attitude when you generate code - the attitude is "A human is not gonna look at this. It's gonna get generated just before we then compile, so it doesn't matter." But remember, we do all go through projects, read code... We like to sit and read it, and see what it's doing.
 
-So I think a goal for generated code should be that, especially in Go, it's readable, it looks good. It's gonna probably be Go-formatted anyway (gofmt-ed, I suppose). But make it readable too, if you can... Because sometimes you can easily do it. It's just something you have to bear in mind.
+So I think a goal for generated code should be that, especially in Go, it's readable, it looks good. It's gonna probably be Go-formatted anyway (go fmt-ed, I suppose). But make it readable too, if you can... Because sometimes you can easily do it. It's just something you have to bear in mind.
 
 **Mark Bates:** It's hard to do code generation well, I think... Because again, everybody is a critic. Like Mat said, we all love to read our code, don't we? I will often just look at code on my phone, and just be like "Oh, that's pretty." \[laughter\] I know, I'm a weirdo, but I actually do sit there and look at code sometimes. And I'm sure others do, too.
 
@@ -404,7 +404,7 @@ But the code generation part is hard. It's hard on a lot of levels. One, because
 
 **Aaron Schlesinger:** Yeah, I've never tried actually doing it.
 
-**Mat Ryer:** There's a Printer package. You actually have a printer that you give it the AST and it'll print it. And that's basically gofmt.
+**Mat Ryer:** There's a Printer package. You actually have a printer that you give it the AST and it'll print it. And that's basically go fmt.
 
 **Aaron Schlesinger:** \[47:57\] Yeah... I'd be interested to see what it's like, I suppose, to generate code actually using Go to build up the syntax tree, and then passing it through that printer function.
 
@@ -422,7 +422,7 @@ But the code generation part is hard. It's hard on a lot of levels. One, because
 
 **Mark Bates:** I've been exploring that space recently. I actually sent you, Mat, an idea of a tool that I was considering... So I agree - one of the problems I've been trying to solve recently is just getting as much data as I can about a module or a package, as quickly as I can, and also as useful as I can... And there's a lot of different places where that's very difficult still.
 
-But one of the things I've been considering was a tool that would actually rewrite your entire package or module, so that it would group all your types together and organize them nicely, with the type at the top, then the constructor... You know, all that sort of nice stuff - move then tests around and physically rewrite all these files for you, so you could take a hastily-written project and kind of gofmt the actual project package as opposed to it. But to do that, you really need a decent set of tools that can easily pick up each file and present to you "Hey, here are the types defined, and here are these things, and here are those things."
+But one of the things I've been considering was a tool that would actually rewrite your entire package or module, so that it would group all your types together and organize them nicely, with the type at the top, then the constructor... You know, all that sort of nice stuff - move then tests around and physically rewrite all these files for you, so you could take a hastily-written project and kind of go fmt the actual project package as opposed to it. But to do that, you really need a decent set of tools that can easily pick up each file and present to you "Hey, here are the types defined, and here are these things, and here are those things."
 
 So I agree, Mat, I think there's a place for a really nice tool that breaks down and gives you a bunch of really nice types back, that represent your files and all your stuff, right?
 

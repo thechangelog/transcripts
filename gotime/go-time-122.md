@@ -180,7 +180,7 @@ So this is all part of the journey, and there's just not fast way through it. Yo
 
 **Carmen Andoh:** You know what - I internalized it as the impostor syndrome. Like "Maybe I'm not that good after all. Maybe it's me." I didn't have the courage to be able to sort of \[unintelligible 00:31:05.07\] my elbows and have the confidence that what I knew was probably a good way. Or equally a good way.
 
-**Mat Ryer:** Yeah. It definitely happened more for me in languages where there were more choices to be made. Having gofmt do all of that for us and take that decision away kind of removed--
+**Mat Ryer:** Yeah. It definitely happened more for me in languages where there were more choices to be made. Having go fmt do all of that for us and take that decision away kind of removed--
 
 **Carmen Andoh:** Oh, okay, so formatting...
 

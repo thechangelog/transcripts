@@ -236,7 +236,7 @@ So our formatter that you run is not Prettier. It's something called Deprint, an
 
 We have deno lsp, which allows VS Code to talk to Deno, and get tab completion, really nice editor interaction... So Deno can basically tell your editor documentation, all sorts of interesting interactions that Deno can help provide VS Code.
 
-**Jerod Santo:** That's all really cool stuff. How much of that stuff is informed or inspired by other languages? Are you a language aficionado? Do you watch what the Go folks are doing, what the Elixir folks are doing, what the Haskell folks...? Are you watching these different ecosystems and saying "Oh, there's a good idea." Because I think gofmt kind of made this formatter a popular thing to do at the language level, not like a third-party level... And it seems like you're pulling in lots of good ideas.
+**Jerod Santo:** That's all really cool stuff. How much of that stuff is informed or inspired by other languages? Are you a language aficionado? Do you watch what the Go folks are doing, what the Elixir folks are doing, what the Haskell folks...? Are you watching these different ecosystems and saying "Oh, there's a good idea." Because I think go fmt kind of made this formatter a popular thing to do at the language level, not like a third-party level... And it seems like you're pulling in lots of good ideas.
 
 **Ryan Dahl:** Absolutely. This was heavily inspired by Go. Not just in these various toolings, but all throughout the system. It's important to continually improve and take good ideas where you can get them.
 

@@ -526,7 +526,7 @@ I have to say, we are approaching that special time where we launch our new radi
 
 **Johnny Boursiquot:** It just hides it and puts it back in during commit...
 
-**Mark Bates:** Yeah, exactly. It rewrites on save. \[laughter\] Your own version of gofmt. Just puts an i in front of every interface.
+**Mark Bates:** Yeah, exactly. It rewrites on save. \[laughter\] Your own version of go fmt. Just puts an i in front of every interface.
 
 **Mat Ryer:** GoTroll. It could be a tool. We could make that.
 

@@ -24,7 +24,7 @@
 
 **Jon Calhoun:** I'd say another part to that is that any friction you can remove from teammates is useful. So not having people bicker about the correct way to instantiate a variable, or anything like that, that just gets them back to work, is a useful thing.
 
-**Mat Ryer:** Right. So the gofmt stuff, the fact that all the code is formatted automatically by the tooling, means it kind of takes that conversation off the table, doesn't it?
+**Mat Ryer:** Right. So the go fmt stuff, the fact that all the code is formatted automatically by the tooling, means it kind of takes that conversation off the table, doesn't it?
 
 **Jon Calhoun:** Yeah. And I think anybody who's used a language with more features understands that when you have seven ways to do something, you're gonna have seven different people who all think that a different way is better.
 
@@ -484,13 +484,13 @@ Again, it's part of the language; that doesn't mean you should avoid using it, a
 
 **Johnny Boursiquot:** But what if you replace them with spaces?
 
-**Jon Calhoun:** Then you should use gofmt.
+**Jon Calhoun:** Then you should use go fmt.
 
 **Mat Ryer:** Well, they take up more, don't they?
 
 **Johnny Boursiquot:** Tabs versus spaces. Fight!
 
-**Mat Ryer:** Well, tabs wins in Go, because gofmt uses tabs...
+**Mat Ryer:** Well, tabs wins in Go, because go fmt uses tabs...
 
 **Johnny Boursiquot:** \[laughs\]
 

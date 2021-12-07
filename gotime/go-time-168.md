@@ -230,13 +230,13 @@ This is a pretty large change to the language, and it's essentially saying a com
 
 **Daniel Martí:** I don't think so, because the current examples we have, the type is always spelled somewhere local. You cannot create a new composite literal without having the name of that type somewhere in your local scope. I think it's impossible. With this new proposal it would be possible. You might call an API that returns a type, and then you assign a new literal to that type, but you're not spelling out what that type is.
 
-**Roberto Clapis:** Nowadays this mostly happens for collections. You can say a slice of this type. And of course, you can just use the literal without the type again, because... I mean, you just said what this is. If this were to change, I would be in favor of this proposal with a little twist to it, which is you can type that code without the type, and then gofmt can just add the type for you. So you write fast, and then gofmt kicks in and makes everyone able to read it fast. So you don't compromise. You get readability and writeability.
+**Roberto Clapis:** Nowadays this mostly happens for collections. You can say a slice of this type. And of course, you can just use the literal without the type again, because... I mean, you just said what this is. If this were to change, I would be in favor of this proposal with a little twist to it, which is you can type that code without the type, and then go fmt can just add the type for you. So you write fast, and then go fmt kicks in and makes everyone able to read it fast. So you don't compromise. You get readability and writeability.
 
 **Mat Ryer:** That is very interesting, Roberto.
 
 **Johnny Boursiquot:** Some are - to speak out for those that think omitting the type makes for more readable code... Right? I like the proposal, I'll start by saying that. I think it would make for less verbosity. But there are those who value that verbosity as part of what makes Go code readable. So it's really one of those things where you have some folks that are on either side, and they both make valid arguments.
 
-I like the gofmt compromise, if you will, that you can type it quickly... But if your sensibilities are offended by seeing it and reading it, that's not gonna help. Well, perhaps the best judge of readability might be the beginners to the language, how much that makes sense when you read that; do you understand what's going on? And the second-best, I would say, maintainers of code that's been around for a while. If you haven't looked at this code for a bit and you pull it up and you open it, does having that type definition explicit - does that make the code more readable, more glanceable to you than not having it?
+I like the go fmt compromise, if you will, that you can type it quickly... But if your sensibilities are offended by seeing it and reading it, that's not gonna help. Well, perhaps the best judge of readability might be the beginners to the language, how much that makes sense when you read that; do you understand what's going on? And the second-best, I would say, maintainers of code that's been around for a while. If you haven't looked at this code for a bit and you pull it up and you open it, does having that type definition explicit - does that make the code more readable, more glanceable to you than not having it?
 
 So I think this is one of those where I think we'd have to do a little bit of a research and really figure out where everybody kind of leans.
 
@@ -292,13 +292,13 @@ If you drop one token, it's just feeling like unbalanced or clunky, so it would 
 
 **Daniel Martí:** I was actually gonna follow up with what Roberto said, which is that if we drop the underscore, we change the Go syntax... Because right now, when you parse a composite literal, you parse type, open curly brace, the elements, close curly brace. And if you drop the type expression, be it the underscore, be it some name, be it whatever you want, then every single program out there that needs to parse Go code has to be updated, and that has a pretty high cost.
 
-**Johnny Boursiquot:** Maybe you can use Roberto's fix - just throw some gofmt at it.
+**Johnny Boursiquot:** Maybe you can use Roberto's fix - just throw some go fmt at it.
 
 **Daniel Martí:** You could, you could.
 
-**Johnny Boursiquot:** Go have gofmt put it in there. \[laughs\]
+**Johnny Boursiquot:** Go have go fmt put it in there. \[laughs\]
 
-**Mat Ryer:** While we're it, why don't we just have gofmt write all the code for us?
+**Mat Ryer:** While we're it, why don't we just have go fmt write all the code for us?
 
 **Johnny Boursiquot:** I mean, yeah. Soon, it should. Aren't we working on that?
 
@@ -308,7 +308,7 @@ If you drop one token, it's just feeling like unbalanced or clunky, so it would 
 
 **Mat Ryer:** Sorry, Daniel...
 
-**Roberto Clapis:** There is this joke that I've seen a lot in other communities, that is in Go, what the language can't do, the editors are supposed to replace. I've seen a lot of people saying that generating code when generics are not there, or using other tools to fill in where the language misses something... And that is always for writing. All of the things that I've seen was always about writing, never about reading. So honestly -- I mean, I wouldn't go as far as something "Okay, Gofmt, write my code", because that would be writing my job away.
+**Roberto Clapis:** There is this joke that I've seen a lot in other communities, that is in Go, what the language can't do, the editors are supposed to replace. I've seen a lot of people saying that generating code when generics are not there, or using other tools to fill in where the language misses something... And that is always for writing. All of the things that I've seen was always about writing, never about reading. So honestly -- I mean, I wouldn't go as far as something "Okay, go fmt, write my code", because that would be writing my job away.
 
 **Johnny Boursiquot:** Mat would.
 
@@ -602,9 +602,9 @@ And the other thing is, there is such thing as good taste, which you can't reall
 
 **Mat Ryer:** Yeah. And Johnny, you said something earlier and forgot, and said you were gonna defer it. We're about to close the show, so now's the time where the defers have to happen. Do you wanna do it?
 
-**Johnny Boursiquot:** No... Probably something like "gofmt all the things." Like Roberto says, "Gofmt fixes everything."
+**Johnny Boursiquot:** No... Probably something like "go fmt all the things." Like Roberto says, "go fmt fixes everything."
 
-**Mat Ryer:** I'd love that on a swag T-shirt. Gofmt all the things.
+**Mat Ryer:** I'd love that on a swag T-shirt. go fmt all the things.
 
 **Johnny Boursiquot:** That's right. \[laughs\]
 

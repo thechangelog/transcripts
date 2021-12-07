@@ -257,7 +257,7 @@ You really do need the single standard, and we're gonna do our best to make that
 
 **Erik St. Martin:** The hard part too here is I think we're critical on the Go team, too. I think it was naive, but I also kind of understand where they were coming from, where it's not really a language thing, it's an ecosystem thing. But I also argue that there's many things in the language that were brought in that were ecosystem things, which has actually helped adoption. The Go tool - everybody uses that now. I think that that made the language so much more approachable when everything kind of got bundled into the Go tool.
 
-**Peter Bourgon:** \[43:46\] Arguably the great lesson of the Go experiment is that you can't really treat the language and its tooling ecosystem in isolation. They are really part of a package that developers buy into as a whole, and I think that that understanding has really helped Go, and the commitment to gorename, gofix, gofmt, govet, golint - all these things packed together in a way that makes a compelling developer experience.
+**Peter Bourgon:** \[43:46\] Arguably the great lesson of the Go experiment is that you can't really treat the language and its tooling ecosystem in isolation. They are really part of a package that developers buy into as a whole, and I think that that understanding has really helped Go, and the commitment to gorename, gofix, go fmt, govet, golint - all these things packed together in a way that makes a compelling developer experience.
 
 **Erik St. Martin:** Are you familiar with the Rails world?
 

@@ -666,9 +666,9 @@ But to get back to your original question - I don't know, queue didn't seem that
 
 But again, if a new concept comes out and it's called a flimp, then you'd be like "A flimd? What do you mean?" I've even got it wrong already.
 
-**L Körbes:** \[01:00:22.01\] I mean, even explaining gofmt to people is really complicated, because how the heck do you even pronounce that word? We don't know how to pronounce it right in English.
+**L Körbes:** \[01:00:22.01\] I mean, even explaining go fmt to people is really complicated, because how the heck do you even pronounce that word? We don't know how to pronounce it right in English.
 
-**Kris Brandow:** Gofmt, you've just pronounced it.
+**Kris Brandow:** go fmt, you've just pronounced it.
 
 **L Körbes:** Sure, but it's not the most intuitive thing in the world. If you're not a Go programmer, you're gonna look at that and you're gonna be like "What?!" And in Portuguese, how the hell should I just make something up for how the pronunciation should be?
 

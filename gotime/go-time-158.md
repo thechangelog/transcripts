@@ -38,7 +38,7 @@ You can also create files as you're going along. For example, let's just imagine
 
 So this is a bit of an experiment really to see whether this kind of interactive type of documentation works... Because the Tour of Go and Go Playground are incredibly popular as a way of getting to know the language, but then at that point there's kind of nothing; you're left to your own devices. And this is a way that, as Carmen said in her closing keynote at GopherCon, of trying to lower the barriers to entry, if you like, for the next one million Gophers, i.e. not place any requirements on them to have anything installed locally, and just try things out in the browser, in a nice, fun, interactive way.
 
-**Jon Calhoun:** \[08:14\] So if I understand this correctly, that would mean that this is -- like, if you wanted to show somebody exactly how running go test works, you could do it there. But then you could also jump into other tools like gofmt, and things like that, and actually show them how it formats code, and different things like that.
+**Jon Calhoun:** \[08:14\] So if I understand this correctly, that would mean that this is -- like, if you wanted to show somebody exactly how running go test works, you could do it there. But then you could also jump into other tools like go fmt, and things like that, and actually show them how it formats code, and different things like that.
 
 **Paul Jolly:** Absolutely, yeah. And it's not just limited to tools that run just on that machine. As you can see, if you actually go to play-with-go.dev, there are a number of module-based guides on there as well, that show the full lifecycle of a module, from just creating your first Go package, to then creating and publishing a module, to then actually getting that module through the Go proxy. So it is really a beginning-to-end story when it comes to modules, as well as tools themselves.
 
@@ -302,9 +302,9 @@ And there's obviously tooling improvements along the way that are desperately ne
 
 **Jon Calhoun:** It would probably be more interesting if Peter Bourgon (I think that's how you pronounce his last name) was here, because I don't know if he would agree with you on that one... I don't think he likes semantic versioning I think that's the bigger underlying issue. And if you get rid of semantic versioning, I don't know if Go modules would stick around or not.
 
-I do agree that sticking with something that's built into the Go tooling is enough of a net gain that even if you don't like 100% of it, you'll still use it... It's kind of like gofmt; even if you don't love that format output, there's enough net benefit from everybody using the same thing that it's worth doing.
+I do agree that sticking with something that's built into the Go tooling is enough of a net gain that even if you don't like 100% of it, you'll still use it... It's kind of like go fmt; even if you don't love that format output, there's enough net benefit from everybody using the same thing that it's worth doing.
 
-**Carmen Andoh:** But ten years later gofmt now becomes ossified into the way that modern programming languages add as a feature. We do not wanna fight over tabs and spaces... And also the other benefits that it provides.
+**Carmen Andoh:** But ten years later go fmt now becomes ossified into the way that modern programming languages add as a feature. We do not wanna fight over tabs and spaces... And also the other benefits that it provides.
 
 **Jon Calhoun:** I still fight with tabs. \[laughter\] The only time I end up doing that is whenever I'm copy-pasting code to put in -- I write an email newsletter; so when I'm doing that, it's easier to turn to spaces, so it's not real wide on the screen... And I know there's some CSS to change that, but it's just sometimes easier to have spaces.
 

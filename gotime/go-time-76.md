@@ -96,7 +96,7 @@ We've definitely had several sort of deep hackathons on profiling and finding pl
 
 **Matt Jaffee:** Let's see, outside of Pilosa... I think there's a lot of cool opportunity in the Go Build and the AST packages, where you can sort of get really easy prepared access to modifying Go programs and analyzing Go programs. I think that's an area where Go's strict adherence to simplicity is going to allow people - and it already has allowed people to build really great tooling... But I would love to do very project-specific tooling...
 
-Even though Go has Gofmt and a lot of really good culture in idioms, every project tends to come up with its own little ways of doing things, and to be able to enforce those in a tool, rather than spending time, reviewer's time in pull requests and stuff, is a really great thing. I think that Go's support for that kind of tooling is in a place where it's probably worth the time to invest in it.
+Even though Go has go fmt and a lot of really good culture in idioms, every project tends to come up with its own little ways of doing things, and to be able to enforce those in a tool, rather than spending time, reviewer's time in pull requests and stuff, is a really great thing. I think that Go's support for that kind of tooling is in a place where it's probably worth the time to invest in it.
 
 **Brian Ketelsen:** I was wondering the other day whether you could take the AST rewriting and rewrite combined with the compiler, so you'd almost have like a hot spot JVM, but for Go... I don't know enough about all the low-level bits, but it's just occurred to me that we're almost there in terms of tooling...
 

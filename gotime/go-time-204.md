@@ -390,7 +390,7 @@ If I want to be even more contentious, I might say something about Harry Potter,
 
 **Alice Merrick:** Is that canon? Is that the official --
 
-**Kris Brandow:** I feel like it's as much cannon as gofmt and the other things that we have. We have random pronunciations for things...
+**Kris Brandow:** I feel like it's as much cannon as go fmt and the other things that we have. We have random pronunciations for things...
 
 **Alice Merrick:** You know, I'm a long-time listener, first time caller here. When I joined the Go team, I started listening to this podcast, and this is how I learned how to pronounce anything, is through this show.
 
@@ -398,7 +398,7 @@ If I want to be even more contentious, I might say something about Harry Potter,
 
 **Alice Merrick:** \[laughs\] Yeah. I'm glad I was using an authoritative source here.
 
-**Kris Brandow:** We at least try to pronounce things the way that (I guess) the Go team intended, or the Go creators intended. Gofmt is always one that people -- some people say "go format", some people say "go f-m-t"... It's kind of like the same thing with kubectl, how some people are like "It's Kube CTL", "It's Kube Control..."
+**Kris Brandow:** We at least try to pronounce things the way that (I guess) the Go team intended, or the Go creators intended. go fmt is always one that people -- some people say "go format", some people say "go f-m-t"... It's kind of like the same thing with kubectl, how some people are like "It's Kube CTL", "It's Kube Control..."
 
 **Alice Merrick:** Kube Ectal...
 

@@ -216,7 +216,7 @@ Then the question was "What do I call this package?" I was gonna call it WebTorr
 
 **Feross Aboukhadijeh:** That was actually the huge win... Because it was called Standard, it could just end a bunch of fights in different people's companies... Which - who would have known that was actually the real benefit...?
 
-**Jerod Santo:** We've seen languages with official implementations adding formatter tools to the tool kit, for that exact reason - gofmt (the Go formatter), Elixir recently added a formatter as part of its Mix tools... So that these conversations just don't have to happen. Like, "This is the format. You follow it, or you can have your own style if you want. We're not gonna enforce you to do that. But if you wanna just follow the style, run the tool; it's gonna reformat your code, and we don't have to have these bikeshed conversations."
+**Jerod Santo:** We've seen languages with official implementations adding formatter tools to the tool kit, for that exact reason - go fmt (the Go formatter), Elixir recently added a formatter as part of its Mix tools... So that these conversations just don't have to happen. Like, "This is the format. You follow it, or you can have your own style if you want. We're not gonna enforce you to do that. But if you wanna just follow the style, run the tool; it's gonna reformat your code, and we don't have to have these bikeshed conversations."
 
 It's interesting in the JavaScript land that there's no one implementation to rule them all. Maybe to a certain degree there is practically, but there's not a single company or entity that runs it. It's all based on boards, and what have you's, implementers. But here comes a one-off JavaScript library from a guy named Feross, who just calls it the Standard.
 

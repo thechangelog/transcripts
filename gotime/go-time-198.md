@@ -1,4 +1,4 @@
-**Kris Brandow:** Welcome to Go Time! On this week's episode we are going to be talking about an important, but little well-known team called the Go Tools team. Today I am joined by a whole host of guests... We'll start with Daniel. Daniel contributes to Go in his spare time, maintains a few tools, such as the gofmt fork and Go Code Obfuscator, and runs a local meetup in Sheffield. How are you doing today, Dan?
+**Kris Brandow:** Welcome to Go Time! On this week's episode we are going to be talking about an important, but little well-known team called the Go Tools team. Today I am joined by a whole host of guests... We'll start with Daniel. Daniel contributes to Go in his spare time, maintains a few tools, such as the go fmt fork and Go Code Obfuscator, and runs a local meetup in Sheffield. How are you doing today, Dan?
 
 **Daniel Martí:** Good. Happy to be here.
 

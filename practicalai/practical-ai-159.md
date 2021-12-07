@@ -114,7 +114,7 @@ Some of the nice things that you can say is, "Add a unit test", right? And then 
 
 I want to get back, maybe, to one thing you mentioned, Natalie, around the open-source code and how it was trained and such. I wonder if you have any thoughts... One of the things that I've thought about this whole time with the OpenAI Codex stuff is that open-source code, a lot of it is really bad, and there's a lot of closed source code that's really good. Was there like a-- and if you don't know, it's fine. But outside of the licensing issue in terms of code quality, what code might be there? And also, there's all sorts of stylistic opinions that people have. So, is that part of the providing ways to have people have alternates or something like that?
 
-**Natalie Pistunovich:** So, the wonderful thing about Go is that there's no different styles. There's gofmt-
+**Natalie Pistunovich:** So, the wonderful thing about Go is that there's no different styles. There's go fmt-
 
 **Daniel Whitenack:** I love that.
 

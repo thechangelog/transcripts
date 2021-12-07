@@ -218,7 +218,7 @@ It's an unfair comparison, just because we're a speedboat and they're a battlesh
 
 **Jerod Santo:** Right.
 
-**Ron Evans:** Rust just says "No. Failure", and tries to give you some meaningful error messages if it can, but if you don't know what any of it means, then that's not helpful. Go also will not compile. It's still got a certain rigor of requiring, you know, like fmt. Gofmt says "Here's how Go code should be formatted." And for the rebel, hippie programmer, they're like "Well, man, you know, don't quash my creativity." For the corporate coder, you're like "What idiot wrote this code?!" "It was you, sir."
+**Ron Evans:** Rust just says "No. Failure", and tries to give you some meaningful error messages if it can, but if you don't know what any of it means, then that's not helpful. Go also will not compile. It's still got a certain rigor of requiring, you know, like fmt. go fmt says "Here's how Go code should be formatted." And for the rebel, hippie programmer, they're like "Well, man, you know, don't quash my creativity." For the corporate coder, you're like "What idiot wrote this code?!" "It was you, sir."
 
 **Jerod Santo:** "It was you, sir..." \[laughs\]
 

@@ -668,7 +668,7 @@ A templating language, for example - you have a bunch of built-in functions, for
 
 **Mark Bates:** It's okay, you can talk about my past mistakes. I certainly do. I'll talk about yours... \[laughter\] Don't forget, it's Tim's birthday.
 
-**Tim Raymond:** So as time went on, more features got added to it. The grammar of it changed slightly between different parts of this templating language... And so by writing a more formalized grammar of it, I could parse all of these things and then do almost something similar to gofmt, where I actually removed a whole bunch of things. And then I could just start deleting code from the official parser, because none of those rules would ever match, ever again.
+**Tim Raymond:** So as time went on, more features got added to it. The grammar of it changed slightly between different parts of this templating language... And so by writing a more formalized grammar of it, I could parse all of these things and then do almost something similar to go fmt, where I actually removed a whole bunch of things. And then I could just start deleting code from the official parser, because none of those rules would ever match, ever again.
 
 **Mark Bates:** Yeah.
 

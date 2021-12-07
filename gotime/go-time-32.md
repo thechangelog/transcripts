@@ -20,7 +20,7 @@ So I've been looking at how to smooth that process and also how to make it easie
 
 Then the other side of it that gets confusing is how to you contribute back? That's a common confusion... Like, "Okay, I wanna commit something, so I fork this repo, but now it's not in the right place... How do I change my import path?" and it's not immediately clear that you could just set your fork as a different remote for the Git repository. So there is a lot of confusion with that, because the paths are explicit that way.
 
-**Filippo Valsorda:** \[04:02\] Yeah, a number of times I've seen PRs that have all the import paths changed to fork, and the person being like, "Oh, yeah, you can remove that... I just had to do that to make it work on my machine", and every time it's this little learning process. So hellogopher is actually meant to get you through your first PR without needing to set up GOPATH at all. The project just builds, tests, runs gofmt, goimports without any need to set up GOPATH.
+**Filippo Valsorda:** \[04:02\] Yeah, a number of times I've seen PRs that have all the import paths changed to fork, and the person being like, "Oh, yeah, you can remove that... I just had to do that to make it work on my machine", and every time it's this little learning process. So hellogopher is actually meant to get you through your first PR without needing to set up GOPATH at all. The project just builds, tests, runs go fmt, goimports without any need to set up GOPATH.
 
 **Erik St. Martin:** So have you had pretty good success at CloudFlare with that, with people being able to just grab a project and work on it?
 

@@ -242,7 +242,7 @@ So I was there at the GoCon from 2013, and then I met [Dave Cheney](https://twit
 
 **Erik St. Martin:** Nice.
 
-**Wally Quevedo:** Yeah, I'm good with the Go-mode. It has integrated the gofmt, goimports...
+**Wally Quevedo:** Yeah, I'm good with the Go-mode. It has integrated the go fmt, goimports...
 
 **Brian Ketelsen:** I know this because I played with Emacs two or three weeks ago. I tried it for a day... There's a lot of Control going on there; Control this, control... I think somebody had some control issues. \[laughter\]
 

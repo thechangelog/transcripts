@@ -641,11 +641,11 @@ So stick to something a little more -- I won't say standard. Standard is good, b
 
 **Nick Nisi:** I disable it.
 
-**Mat Ryer:** Yeah. Go has this thing called gofmt...
+**Mat Ryer:** Yeah. Go has this thing called go fmt...
 
 **Jerod Santo:** Here we go...
 
-**Mat Ryer:** I know, but come on... This is something that could be valuable for the JS community. Gofmt doesn't give you any options at all. It's very opinionated, that's it. You just have to use it. It sorts out your tabs, it makes you use tabs, and the code formatting is done... It's very opinionated. And what that means is a lot of Go code - I mean, all Go code - looks very familiar. Of course, there's still ways you can do different design things, and you can still make a mess... But you get this benefit of -- sometimes I'll go to repositories and I'll read the code and I feel like I've written that code. And if you think about contributing to other projects, that takes a weight off. That's a great kind of property to have.
+**Mat Ryer:** I know, but come on... This is something that could be valuable for the JS community. go fmt doesn't give you any options at all. It's very opinionated, that's it. You just have to use it. It sorts out your tabs, it makes you use tabs, and the code formatting is done... It's very opinionated. And what that means is a lot of Go code - I mean, all Go code - looks very familiar. Of course, there's still ways you can do different design things, and you can still make a mess... But you get this benefit of -- sometimes I'll go to repositories and I'll read the code and I feel like I've written that code. And if you think about contributing to other projects, that takes a weight off. That's a great kind of property to have.
 
 **Kevin Ball:** It's like Prettier, but--
 
@@ -673,7 +673,7 @@ But kind of to that, we are kind of in a very roundabout way getting that in Jav
 
 **Mat Ryer:** \[unintelligible 00:59:21.25\] rejected it... \[laughs\]
 
-**Jerod Santo:** I have an idea for an awesome fork... I think we should fork the Go project and just track it identically, everything that goes in, except for change the tabs to spaces on gofmt... And then you got me. I'm there with you.
+**Jerod Santo:** I have an idea for an awesome fork... I think we should fork the Go project and just track it identically, everything that goes in, except for change the tabs to spaces on go fmt... And then you got me. I'm there with you.
 
 **Mat Ryer:** Yeah.
 
