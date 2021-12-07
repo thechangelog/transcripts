@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/thechangelog/transcripts#readme",
   "devDependencies": {
-    "all-contributors-cli": "^4.10.0",
+    "all-contributors-cli": "^6.20.0",
     "jest": "^27.2.4"
   }
 }
