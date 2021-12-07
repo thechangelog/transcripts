@@ -2,21 +2,19 @@ const util = require('util');
 const exec = util.promisify(require('child_process').exec);
 const fs = require('fs').promises
 
-
 const REPLACES = [
     [/([^/])\bjavascript/gi, '$1JavaScript'], // stylise javascript to JavaScript
     [/\bML ops/gi, 'MLOps'],
     [/\bdev ops/gi, 'DevOps'],
     [/\bclick[ -]ops/g, 'ClickOps'],
     [/\bgofmt/gi, 'go fmt'], // it's always go fmt
-    [/\b(open)(source)/gi, '$1 $2'],
-    [/\b(open)-(source)/gi, '$1 $2'],
-    [/\b(close)(source)/gi, '$1 $2'],
-    [/\b(closed?)-(source)/gi, '$1 $2'],
+    [/\b(open)(sourc[e|ing])/gi, '$1 $2'],
+    [/\b(open)-(sourc[e|ing])/gi, '$1 $2'],
+    [/\b(close)(sourc[e|ing])/gi, '$1 $2'],
+    [/\b(closed?)-(sourc[e|ing])/gi, '$1 $2'],
     [/\\?\[(00:)?(\d{2}:\d{2})(\.\d{2})?\\?\]/g, '\\[$2\\]'], // Remove leading 00: and fractions in timestamps
     [/\\`(.*?)\\`/g, '`$1`'], // Remove escaping backslashes before backticks
 ]
-
 
 // Perform multiple rounds of replaces on a string
 function applyReplaces(text) {
@@ -40,14 +38,10 @@ async function processFile(filename, processor, newname = '') {
     }
 }
 
-
-
 async function main() {
     const transcripts = await getTranscripts()
     transcripts.forEach(filename => processFile(filename, applyReplaces))
 }
-
-
 
 if (require.main === module) {
     main();

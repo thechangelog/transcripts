@@ -30,6 +30,7 @@ test('applyReplaces works as expected', () => {
     expect(applyReplaces("Opensource is the best")).toBe('Open source is the best')
     expect(applyReplaces("It's an open-source thing")).toBe("It's an open source thing")
     expect(applyReplaces("We open-sourced it")).toBe("We open sourced it")
+    expect(applyReplaces("They are open-sourcing it soon")).toBe("They are open sourcing it soon")
     expect(applyReplaces("What's wrong with close-sourced stuff")).toBe("What's wrong with close sourced stuff")
     expect(applyReplaces("It's a closed-source thing")).toBe("It's a closed source thing")
 })
