@@ -100,7 +100,7 @@ I am a big believer that tech is a big enabler to get out of poverty and to get 
 
 If you have a website or something that works effectively on a phone, on small screens, at small resolutions, big resolutions, on a slow internet connection, you have-- and it's not just about accessibility; it's about access to information, isn't it? It's about access to critical, life-saving, life-changing information. And performance is a big part of that, because if your site is slow, if your site crashes, if your site is bloated, if your images are too big, and you are robbing the internet user of their bandwidth with your large files and your large images and your slow nonsense load times, then you are doing the world a disservice, potentially. That's a profound, ridiculously silly statement, but perhaps you are. Perhaps you are depriving the next generation of people who will be able to take themselves out of poverty as a result of access to information on the internet.
 
-**Break:** \[00:15:12.13\]
+**Break:** \[15:12\]
 
 **Amal Hussein:** So Salma, that was really, really profound. And obviously, that's going to be a running theme for me here, being inspired, for the next 30, 40 minutes. However, you've kind of skirted around this - how does accessibility affect new internet users or folks maybe even remote parts of the world? But I think, for me, the core problem is I just feel like developers don't care. It pains me to say that. And so, my question to you is, "Does accessibility have a marketing problem?" And if we just-- I know we said, "Hey, they're not exactly the same thing", right? Accessibility is not perf, perf is not accessibility, right? There's a Venn diagram relationship here.
 
@@ -162,7 +162,7 @@ So if we can start getting, once again, these incentives-- and I was looking aro
 
 **Kevin Ball:** The numbers they're saying here is 71% of shoppers with disabilities will click away from your website if it's too difficult to use. And the majority will pay more money for the same item on a competitor website, if that site is more accessible. And then they tried to track what percentage of online customers are in this group. And this study, which was in 2016, pegged it at 10% of online shoppers in the UK.
 
-**Amal Hussein:** Fascinating. I think maybe what we're trying to really suss out here is, are there metrics that could help drive this conversation \[00:29:17.25\] I think, business leaders caring, right? And it really sucks, because it kind of comes back to that earlier point you were making, Salma, around, "Hey, my C-suite is the one that actually doesn't care. It's not the developers", right? And so, I don't know. It's a tough nut to crack.
+**Amal Hussein:** Fascinating. I think maybe what we're trying to really suss out here is, are there metrics that could help drive this conversation \[29:17\] I think, business leaders caring, right? And it really sucks, because it kind of comes back to that earlier point you were making, Salma, around, "Hey, my C-suite is the one that actually doesn't care. It's not the developers", right? And so, I don't know. It's a tough nut to crack.
 
 **Salma Alam-Naylor:** I'm hopeful that maybe in 30 to 50 years - it's a long time to wait - when the C-suites have diversified because they've all--
 
@@ -198,7 +198,7 @@ So I think it's cyclical. We're coming back to the web of the '90, but we've lea
 
 **Amal Hussein:** Yeah. I think that pressure's coming from Twitter. The Twitter-driven development; it's very real. This is an incredible segue into something that I want to get into next, which is really talking about, like, is JavaScript a liability, actually? So stay tuned for that, and more, in our next segment, with the lovely Salma. We'll be right back.
 
-**Break:** \[00:38:19.14\]
+**Break:** \[38:19\]
 
 **Amal Hussein:** So Salma, I'm loving this analogy of drinking too much, drinking too much JavaScript in this case, and learning like "Hey, we've got to take it easy. We've got to build up a tolerance." But also JavaScript, in large doses, can be a little dangerous, perhaps. And I think you're on the money with saying that we needed to feel that burn first-hand, or else we would never or have known, right? I love that. Don't you love that, K-Ball? I can see you smiling, you're just like, "Yup."
 
