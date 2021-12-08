@@ -208,8 +208,6 @@ So I think it's cyclical. We're coming back to the web of the '90, but we've lea
 
 **Amal Hussein:** We are.
 
-**Salma Alam-Naylor:** \[unintelligible 00:40:26.15\]
-
 **Kevin Ball:** And I feel like some episodes are like we're shooting shots, and some episodes it's like chilling with a beer, right?
 
 **Amal Hussein:** True that.
@@ -238,7 +236,7 @@ A lot of the time I think you see people say, "Oh, yeah, we'll just use React. I
 
 **Amal Hussein:** Right. And speaking of problems 0 so you talk about there isn't enough time in the day, but there are some really low-hanging offenses on the internet, aren't there? You shared some of the top 10 common errors, and I couldn't believe how simple they were. It might take you a total of 30 minutes to fix most of these on your own personal sites. So do you want to just run through them real quick for us, Salma?
 
-**Salma Alam-Naylor:** So the quick ones to fix and to always bear in mind - and I guess, this is where the frameworks have to help us - is alternative texts on images, right? The amount of times you see blank alternative text or no alt attribute... This is the attribute that reads out the description of the image for people who use screen readers. And also, sometimes it's absolutely \[unintelligible 00:45:37.06\] alternative text. Picture of a chair, "Describe that chair to me, please." I love writing a really colorful alternative text for people... Especially on Twitter when I'm adding pictures, I write sentences and sentences to describe every single part of the image. It's like little Easter eggs for people who are using screen readers. I think it's a really fun thing to do.
+**Salma Alam-Naylor:** So the quick ones to fix and to always bear in mind - and I guess, this is where the frameworks have to help us - is alternative texts on images, right? The amount of times you see blank alternative text or no alt attribute... This is the attribute that reads out the description of the image for people who use screen readers. And also, sometimes it's absolutely bobbins alternative text. Picture of a chair, "Describe that chair to me, please." I love writing a really colorful alternative text for people... Especially on Twitter when I'm adding pictures, I write sentences and sentences to describe every single part of the image. It's like little Easter eggs for people who are using screen readers. I think it's a really fun thing to do.
 
 Missing form input labels. This one, missing form input labels, plus low contrast text, I think is a symptom of the web is designed by designers today. And designers also don't necessarily have the time-space/budget to educate themselves on actually how a webpage should be made up. And then couple that with a fresh developer who's working with a new JavaScript framework, who doesn't have time to be mentored; they've just got to get these features out. These designers and developers need to work together to create beautiful functional-- it should be function over form.
 
@@ -268,7 +266,7 @@ So that's really interesting. We'll share a link to your slides where everybody 
 
 But let's talk a little bit about what are some just tactical things people can do to start eating away at this. And one thing I want to put out there is - we already have tools for catching these obvious errors, right? It's really easy to add some basic linting rules in your project. You probably are -- if you're writing a bunch of JavaScript, I hope you already have a JavaScript linter in there; you can add a linter that checks, "Hey, do all of my images have all text? Do all of my form inputs have labels?"
 
-And those are things that impact accessibility, but the label one - that impacts everyone. Every time I go to a site and I'm like, "Oh, yeah, auto-fill my information", and it goes \[unintelligible 00:51:33.13\] and chokes on it and stuff isn't there, I'm like, "Oh, you are not labeling your form, so all of my auto-fill is not working. So I'm going to bounce. This is 2021. I'm not going to spend five minutes filling out your form. I've filled that out before. My browser takes care of that if you do your work right."
+And those are things that impact accessibility, but the label one - that impacts everyone. Every time I go to a site and I'm like, "Oh, yeah, auto-fill my information", and it goes blehh and chokes on it and stuff isn't there, I'm like, "Oh, you are not labeling your form, so all of my auto-fill is not working. So I'm going to bounce. This is 2021. I'm not going to spend five minutes filling out your form. I've filled that out before. My browser takes care of that if you do your work right."
 
 **Salma Alam-Naylor:** And I think there are a myriad tools out there that I use throughout the development process. And I think a lot of the time people will look at accessibility when the thing is finished. But I think it's something to bear in mind as you develop "Every section of code you write, let's check it."
 
