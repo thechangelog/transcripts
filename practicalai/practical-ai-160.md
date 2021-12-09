@@ -2,7 +2,7 @@
 
 **Chris Benson:** It was very good. Nice family stuff, \[unintelligible 00:02:34.20\] things like that. Now we're into the holiday season, and looking forward to see what kind of machine learning gifts are under the tree this year.
 
-**Daniel Whitenack:** Yes. Well, in the spirit of distributing machine learning to all the boys and girls, maybe not by Santa... \[laughter\] But a couple weeks ago, you and I had a conversation about federated learning. Now, neither you or I is an expert in that area or a practitioner in that area, although I think it was a good conversation. But today we're privileged to have Daniel Beautel with us, who is one of the creators of Flower, which is one of the open-source federated learning frameworks that we talked about. He's a co-founder at Adap and a visiting researcher at University of Cambridge. Welcome, Daniel.
+**Daniel Whitenack:** Yes. Well, in the spirit of distributing machine learning to all the boys and girls, maybe not by Santa... \[laughter\] But a couple weeks ago, you and I had a conversation about federated learning. Now, neither you or I is an expert in that area or a practitioner in that area, although I think it was a good conversation. But today we're privileged to have Daniel Beautel with us, who is one of the creators of Flower, which is one of the open source federated learning frameworks that we talked about. He's a co-founder at Adap and a visiting researcher at University of Cambridge. Welcome, Daniel.
 
 **Daniel Beutel:** Thanks. Thanks for having me.
 
@@ -44,7 +44,7 @@ This is not the only model that's possible. I want to describe one which I think
 
 The one important thing to mention though is that there are different types of federated learning. So you can roughly categorize it into two different types. One is this cross-silo type that we just talked about, where different organizations collaborate with each other. The other type that we often see also in scientific literature is the cross-device setting, where you would usually-- typically, you would have one organization, for example, think about Google or Apple, for example, and this organization would have access to a large number of devices, for example, mobile devices, like in Android phones or iOS phones. And the goal, in this case, is also to train a model across all of these devices, and these devices, they hold data that is also where you wouldn't want to upload this data to the cloud. So this is the cross-device setting where a single organization trains these models without access to re-underlying training data.
 
-**Break:** \[00:15:05.17\]
+**Break:** \[15:05\]
 
 **Daniel Whitenack:** So Daniel, I think we mostly talked about some of the data-centric motivations for federated learning, or maybe privacy-focused, or whenever it is, competitive type of advantages... But I'm also thinking of the devices on which the actual training is happening. So if I'm thinking of the centralized model, I'm thinking of, "Oh, I'm going to spin up a pod of GPUs, a really expensive pod of GPUs, and do all my training there, and get my data there somehow. So am I correct that you could have some sort of infrastructure savings with this, where the actual computation is happening on those Edge devices and you're doing a smaller amount of aggregation and updating of the model centrally? Could you talk to that a little bit and what people have seen and how they look at infrastructure in that way?
 
@@ -74,7 +74,7 @@ And it's also something where you need appropriate ways of handling it on the se
 
 Another perspective is from a more intuitive and more practical perspective, in the sense that you can think of federated learning as a way compared to centralized learning to actually overcome bias, because you can-- not overcome it completely, that's not what I mean, but help to overcome it, in the sense that you can suddenly get access to more training data, and hopefully more representative training data, and then you can make better decisions about how to train your model and what kind of pieces of data to include in your training process, how to sample these data examples that you have on the clients, and a lot of those related questions.
 
-**Break:** \[00:26:52.28\]
+**Break:** \[26:52\]
 
 **Daniel Whitenack:** Well, Daniel, this is Practical AI, so we definitely should get into the practicalities of how federated learning can be implemented... And I think you're probably one of the best people to speak to that, because you've been heavily involved in one of the creators of the Flower framework. So maybe just to start out our discussion around that, could you talk about the backstory of Flower, the motivation behind it, and what it is?
 
