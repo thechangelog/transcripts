@@ -36,7 +36,7 @@
 
 **Roger Peppe:** Yeah, unfortunately a clash... But at least I can listen to that back to that. I can't speak while I'm listening to that.
 
-**Natalie Pistunovich:** \[00:04:08.08\] Only the organizers were organized. I'm talking a lot myself here, not about my co-organizer for this episode... Johnny, hi!
+**Natalie Pistunovich:** \[04:08\] Only the organizers were organized. I'm talking a lot myself here, not about my co-organizer for this episode... Johnny, hi!
 
 **Johnny Boursiquot:** Hey there, how's it going?
 
@@ -68,7 +68,7 @@ So yeah, ever since then it's been, you know, first doing some side projects, an
 
 So I've been doing some stuff with Inferno \[unintelligible 00:07:32.11\] had a full-time job doing that area... And that was kind of fizzling out, to be honest. And on the day it came out, somebody mentioned, "Oh, Go has come out today, this new language." And I was like "Oh, this is interesting." So I was actually staying in the Bay Area at the time, and I found that out in the afternoon, and I was going into town -- I played the fiddle and I was going into town to play at a music session in town... And I found a printer and I printed out the specification, and I read it on the bus, on the way to San Francisco... \[unintelligible 00:08:09.08\] "Oh, yeah. Oh, this is interesting." So that's how I found out about Go. That's how I started. And from then on, I didn't look back, really. I basically -- I took a year not doing anything, not doing any paid work. I was just working on Go in that year, basically.
 
-**Natalie Pistunovich:** \[00:08:28.16\] When you say that somebody told you about that - did you overhear a conversation, did you find it on Reddit? How did this magic happen?
+**Natalie Pistunovich:** \[08:28\] When you say that somebody told you about that - did you overhear a conversation, did you find it on Reddit? How did this magic happen?
 
 **Roger Peppe:** So the reason I was in the Bay Area was I was with a guy that I worked with/worked for; he mentioned it to me, he said "Hey, check this out." I was like, "Oh."
 
@@ -108,7 +108,7 @@ So I was looking for a language, and I looked at several of them. I like program
 
 **Johnny Boursiquot:** It was.
 
-**Natalie Pistunovich:** \[00:11:58.17\] I think I'm one of the few people that I know that started using Go because of their work, but also used Go for a long time. I started it in 2014, because the company that I started working at was written exclusively in Go. Now it's kind of more popular; more and more people are joining, because their employer is already using Go for a while... But now Go is 12 years old, so... We have expanded.
+**Natalie Pistunovich:** \[11:58\] I think I'm one of the few people that I know that started using Go because of their work, but also used Go for a long time. I started it in 2014, because the company that I started working at was written exclusively in Go. Now it's kind of more popular; more and more people are joining, because their employer is already using Go for a while... But now Go is 12 years old, so... We have expanded.
 
 **Johnny Boursiquot:** It's also common now -- or I should say more common now for experienced developers who perhaps have the option/luxury of going on a longer job search, to almost exclusively be looking for companies that do Go almost exclusively, or a majority of their stack.
 
@@ -138,7 +138,7 @@ And there was me and this one other guy, Gustavo Niemeyer, who you might have he
 
 I think Go has got loads of potential niches. I think Kubernetes is a really big one, but there's nothing about Kubernetes that necessarily means that anything has to be programmed in Go... Because mostly you interact with it through an API, and it just happens that most of the API is defined in Go, so it's easy to use... But I think the engineering properties of Go are really great. It has some excellent properties compared to something like -- I mean, Rust perhaps is safer, but it's also a lot harder to use. So I think it hits a sweet spot in lots of respects.
 
-**Natalie Pistunovich:** \[00:16:15.17\] You mentioned, Roger, that you spent your first year after discovering Go just playing around with it and building projects for fun... Some of the things you were doing is contributing to the codebase... What other projects did you think that Go would be a good match for, and what in the properties of it made you think that?
+**Natalie Pistunovich:** \[16:15\] You mentioned, Roger, that you spent your first year after discovering Go just playing around with it and building projects for fun... Some of the things you were doing is contributing to the codebase... What other projects did you think that Go would be a good match for, and what in the properties of it made you think that?
 
 **Roger Peppe:** I'm not sure I had a good idea about what particular kind of areas it might be a good match for. I was playing around, I did some graphics stuff... There was an X11 driver for it, so \[unintelligible 00:16:43.12\] playing around with that.
 
@@ -184,7 +184,7 @@ So it was a good match for Go to do that, to basically run tests. Currently, it'
 
 **Miki Tebeka:** As a sidenote, it's really hard to get rid of your open source project, to find someone else to maintain it. So I'm really thankful for that. After that, I dipped my toe that says "I'm going to do something inside Go itself." So I wrote the initial implementation for the parallel testing feature. That was my first interaction with the core Go team, and I learned so much - how to do designs, how to do reviews... I think it was like 14 cycles of code reviews before it got in. I think, Roger, you were there, as well.
 
-**Roger Peppe:** \[00:20:13.05\] Sorry, which feature was this? I missed it...
+**Roger Peppe:** \[20:13\] Sorry, which feature was this? I missed it...
 
 **Miki Tebeka:** The parallel testing. T.parallel.
 
@@ -206,7 +206,7 @@ At that point, once I've planted that seed, I'd just step back and watch it grow
 
 **Miki Tebeka:** That is an awesome strategy. I think that command line clients - the fact that Go compiles to a static binary is a great thing, because I think CLI tools... So what do I need to install? Just grab the executable. No JVM, no pip install, no Npm, or whatever... So this is really a good niche to start.
 
-**Break:** \[00:23:10.07\]
+**Break:** \[23:10\]
 
 **Natalie Pistunovich:** We had earlier, or last month, an episode about hacking with Go, and the same thing - the fact that it's so easy to cross-compile to everything is the favorite feature of some people who use Go for their malware. It is very convenient, it's very efficient.
 
@@ -270,7 +270,7 @@ I see more companies using it. It's more widespread. Big companies, big names, a
 
 **Johnny Boursiquot:** Of two. \[laughter\]
 
-**Roger Peppe:** \[00:28:06.16\] Like, okay, who knows, there might be others... I think I had a meetup account for joining some other Go meetup in the U.S, and I was like "Oh, I'll just put it on and see what happens." And a bunch of people came along, and so that's how our meetup in Newcastle got started, and it just sort of carried along.
+**Roger Peppe:** \[28:06\] Like, okay, who knows, there might be others... I think I had a meetup account for joining some other Go meetup in the U.S, and I was like "Oh, I'll just put it on and see what happens." And a bunch of people came along, and so that's how our meetup in Newcastle got started, and it just sort of carried along.
 
 **Natalie Pistunovich:** When was that? How many years ago?
 
@@ -302,7 +302,7 @@ So I was basically trying to be the change I wish to see, right? So I knew there
 
 Like we were saying, the pandemic has had sort of a chilling effect on all meetups. We used to meet face-to-face, and part of the fun was meeting face-to-face, and the camaraderie, and everything else, and that added an additional layer to it. Because we were already all online most of the time during our jobs, and getting a chance to meet in person was part of the appeal. And then we had to go back to all online... Then it became "Oh man, I've gotta get onto another Zoom today?" So it kind of had a chilling effect; I think every meetup organizer will tell you that.
 
-\[00:32:24.13\] Like everybody else, I think we're gonna try to get back to face-to-face in Q1 of next year. We'll see what happens, if it's January of February, but we're definitely gonna try and do that again. We tried doing that about a month and a half or so ago, after the vaccine was starting to spread and some of the restrictions were being lifted, but it was still too early. We had like three people show up, when we usually had like 20. So I was like, "Okay, it's still a little too early." So now we're gonna try and do that again in the new year.
+\[32:24\] Like everybody else, I think we're gonna try to get back to face-to-face in Q1 of next year. We'll see what happens, if it's January of February, but we're definitely gonna try and do that again. We tried doing that about a month and a half or so ago, after the vaccine was starting to spread and some of the restrictions were being lifted, but it was still too early. We had like three people show up, when we usually had like 20. So I was like, "Okay, it's still a little too early." So now we're gonna try and do that again in the new year.
 
 Obviously, the numbers continue to go down, even if they did a little rollercoaster thing, but hopefully it's a downward trend, and that way people feel more comfortable in joining us back in person. Because I really do believe that helps foster community.
 
@@ -318,7 +318,7 @@ So for those of you who are thinking "Man, the only way I can contribute is by w
 
 **Roger Peppe:** Yeah... Go, the language, is so mature that all the rough edges have been \[unintelligible 00:35:41.16\] As I was saying, when I started, there were loads of sharp edges. And when there are sharp edges, it's really easy to just dive in. It's like, "I've got this need to fix this thing." But now it's really hard to get into actually -- there aren't so many things to fix. And the things that are there to be fixed are pretty hard to fix. They're not easy, because if they were easy, someone else would have done it, right?
 
-**Natalie Pistunovich:** \[00:36:04.24\] Yeah.
+**Natalie Pistunovich:** \[36:04\] Yeah.
 
 **Roger Peppe:** So I think that Johnny's absolutely right. I hardly ever contribute. I kind of like contributing to Go, but I haven't. I've done like two features in the last three years, or something. It's nothing.
 
@@ -346,7 +346,7 @@ Every now and then \[unintelligible 00:38:45.05\] whether they realize it or not
 
 We do a pretty good job, enough so that people who do come into the Go community want to stay in it, and I think that's a testament to the last ten years and all the work that has gone in, the people that are involved, and the learner attitude we take towards community management and community organization. Everybody on this call who manages a user group knows how hard that stuff can be at times, so I think that's a testament to the people that really are providing the leadership for this community going forward... And hopefully, the next ten years is even better.
 
-**Natalie Pistunovich:** \[00:40:17.26\] Yup. \[laughs\] Roger, is there anything that you would point out, that you really enjoyed from all the changes of the language and/or the community?
+**Natalie Pistunovich:** \[40:17\] Yup. \[laughs\] Roger, is there anything that you would point out, that you really enjoyed from all the changes of the language and/or the community?
 
 **Roger Peppe:** For me the biggest change in the community is just the size of it. It's interesting, because you get a lot of people that are familiar with the core codebase, and maybe familiar with the idioms there, and write code that's resilient, but now there's a whole \[unintelligible 00:40:43.17\] very different style. There's lots of people that have looked at Kubernetes, for example, and they're like "Oh, that's how you write Go", and so they write Go like that. And I think that whole thing is really interesting. And I can talk to someone a little bit and I'll \[unintelligible 00:41:00.03\] totally different way, and I think that's kind of interesting.
 
@@ -356,7 +356,7 @@ There are lots of ways to do it, and also there's this huge community that gener
 
 **Miki Tebeka:** I think scale changes everything, including the scale of the community. When the community grows, you need different ways of dealing with that community. I think going forward we will see probably the code of conduct being more important, or any written rules, some guidelines... Very much like small village versus a big city. Go is becoming a bigger city now.
 
-**Break:** \[00:42:17.29\]
+**Break:** \[42:17\]
 
 **Natalie Pistunovich:** The last few years, as you've already mentioned a little bit, it has been picked up by large corporates, and it was wildly adopted by all sorts of large companies and organizations... And if a decade ago you were a hipster to use Go, today less so... So how do you see the next 10-12 years of Go?
 
@@ -392,7 +392,7 @@ I think there's a lot to be said for just using it to talk to existing services.
 
 I think the use cases for Go are just gonna continue to grow, because as we add more and more people, new gophers into the community, they're all gonna bring their own ideas of what they like to use Go for... Some of the most popular tools in services and things that we use today - really just the initial salvo; it's just a show of what basically solving a set of problems that we used to have, and using Go to solve those problems in a better way than we used to be able to solve them. That doesn't mean we're out of ideas for where Go can go next. We've just solved the problems that we used to have, better; better technology, better language now. There's a lot of innovation happening in our space. Our field, what we do, innovation is part and parcel to that. So the use cases of Go - we haven't seen all of them yet. They're just gonna continue to grow, especially if Go sticks around for another 20, 30, 40 years, like things like C and C++ have. We're just at the tip of the iceberg.
 
-\[00:47:56.25\] My wish for Go, really -- I have two wishes. One for the language itself, the technology itself, but also for the community. I wish Go doesn't fall for the trap of innovation for the sake of innovation. We saw how long it took, how much deliberation it took to add something like generics (parametric polymorphism) to the language. And it took a lot of back-and-forth, multiple revisions to design and spec, a lot of back-and-forth between prominent members of the community, users of the language, potential users of the feature, and things like that... And even to this day, we have folks like Russ Cox saying "Hey, I'm sure we're gonna have some guidelines for how to use Go properly. But take it easy on that stuff for now, as we learn what the best practices are. Maybe put your use of generics behind a build flag, or something." So that's for those who wanna use it - they can use it; those who don't want to, they can stick to the more tried and true things.
+\[47:56\] My wish for Go, really -- I have two wishes. One for the language itself, the technology itself, but also for the community. I wish Go doesn't fall for the trap of innovation for the sake of innovation. We saw how long it took, how much deliberation it took to add something like generics (parametric polymorphism) to the language. And it took a lot of back-and-forth, multiple revisions to design and spec, a lot of back-and-forth between prominent members of the community, users of the language, potential users of the feature, and things like that... And even to this day, we have folks like Russ Cox saying "Hey, I'm sure we're gonna have some guidelines for how to use Go properly. But take it easy on that stuff for now, as we learn what the best practices are. Maybe put your use of generics behind a build flag, or something." So that's for those who wanna use it - they can use it; those who don't want to, they can stick to the more tried and true things.
 
 So that level of reservation, that level of conservatism with regards to adopting new things and new ways of doing things in the language - I hope we always retain that. Because I think keeping something simple is very, very hard. Keeping it easy to use... There's a reason why Go is easy to use when you compare it to other popular languages these days. That wasn't by chance; that was a deliberate effort. And I hope that regardless of those at the helm of the language over the years, I hope that we retain the sensibility for keeping the language simple, keeping the use of it simple. Because with a simple tool, you can then build more complicated things. But if the tool you have to use is also complicated, then your appetite for building these more powerful, more complex tools kind of dwindles a little bit, and that's when you start to have stagnation, and that's when you start to have less innovation happening.
 
@@ -428,7 +428,7 @@ So now one of the even fun reasons that I get when people ask me "Why should I u
 
 **Natalie Pistunovich:** Well, that will not be my unpopular opinion, because I came prepared, okay? \[laughter\] I just want you to know that. But before that, let's do the unpopular opinion theme.
 
-**Jingle:** \[00:52:07.20\] to \[00:52:26.26\]
+**Jingle:** \[52:07\] to \[52:26\]
 
 **Natalie Pistunovich:** Normally, I would start by asking you all what are your unpopular opinion... But I came, as I said, very prepared; I already asked on Twitter, so I'm just going to state it... And there's no even need to test it, as we do with all the unpopular opinions that we hear by asking on our Twitter handle "Is this opinion unpopular or not?" It was unpopular, but only by a little bit. So something like 55/45. So avocado toast - not with fresh tomatoes, but with dried tomatoes. Somehow, most of my Twitter feed got it wrong and said - or thought, mistakenly, and it's okay, we all make mistakes - that you need to use it to eat that with fresh tomatoes. But no. So that's a validated unpopular opinion.
 
@@ -478,7 +478,7 @@ Actually, there was a recent episode of DevTool Time recently when I explored th
 
 **Roger Peppe:** I think I agree with that actually... Because I think a good speaker will find ways to make even a mundane subject really interesting. You might think "Oh, this isn't very interesting", and then they bring some life and bring some things and "Oh, I'd never thought of that."
 
-**Johnny Boursiquot:** \[00:56:00.04\] Right. There's nuance there... So it's not about the popularity of the speaker themselves, it's about their delivery mechanism, or how well they're able to keep your attention, or get you interested in something that might otherwise be a mundane topic. So yeah, there's some nuance to that, yeah.
+**Johnny Boursiquot:** \[56:00\] Right. There's nuance there... So it's not about the popularity of the speaker themselves, it's about their delivery mechanism, or how well they're able to keep your attention, or get you interested in something that might otherwise be a mundane topic. So yeah, there's some nuance to that, yeah.
 
 But interestingly enough, those people who are able to do that become the more popular speakers. \[laughter\] So they're kind of hand in hand.
 
