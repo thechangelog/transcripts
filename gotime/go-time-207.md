@@ -264,7 +264,7 @@ I said it a few podcasts ago, I think it was an unpopular opinion I might have p
 
 **Kris Brandow:** Alright... Sam, why don't you start us off? Do you have an unpopular opinion?
 
-**sam boyer:** Oh, how many... Observability is not meaningfully different from other data-oriented disciplines. It's just another data discipline, whether you're talking about doing your BI business anylist type person, such that anybody who is going to look at a bunch of data and make decisions on the basis of it. Yeah, we do slightly different things, but no more different than the other data disciplines against each other.
+**sam boyer:** Oh, how many... Observability is not meaningfully different from other data-oriented disciplines. It's just another data discipline, whether you're talking about doing your BI business analyst type person, such that anybody who is going to look at a bunch of data and make decisions on the basis of it. Yeah, we do slightly different things, but no more different than the other data disciplines against each other.
 
 **Aaron Schlesinger:** I agree with you, you know...
 
