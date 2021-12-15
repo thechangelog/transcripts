@@ -16,7 +16,7 @@
 
 **Gerhard Lazu:** I don't want to leave myself open to unique encounters and \[unintelligible 00:04:14.14\]
 
-**Jerod Santo:** \[00:04:15.06\] Yeah, that's a challenge. Serendipity is taken out when you're scheduled out.
+**Jerod Santo:** \[04:15\] Yeah, that's a challenge. Serendipity is taken out when you're scheduled out.
 
 **Gerhard Lazu:** That is a great word. I haven't heard it in a while. I thought I was the only one using it. Okay...
 
@@ -58,7 +58,7 @@ The thinking goes we always want to be running "latest". When do you not want to
 
 **Gerhard Lazu:** Um, I looked at the manifest, and I tried to understand what happens. So I went through the steps of what would happen, or of what happens in Kubernetes when -- like, the new one gets put in service, it fails, the old one crashes, and when it gets restored, it gets restored with "latest". So that's what happens.
 
-**Jerod Santo:** \[00:07:56.26\] So my developer brain sees something like this, and I think infinite loop. Is that going on here, or does it just fail? Because if it runs "latest", "latest" is broken, it runs "latest", "latest" is broken... Does it just keep doing that over and over again?
+**Jerod Santo:** \[07:56\] So my developer brain sees something like this, and I think infinite loop. Is that going on here, or does it just fail? Because if it runs "latest", "latest" is broken, it runs "latest", "latest" is broken... Does it just keep doing that over and over again?
 
 **Gerhard Lazu:** Yeah. So in our case, what happened was that the version that was running - that crashed. Because it's just meant to restore it, right? It crashes - not a problem, it will come back.
 
@@ -108,7 +108,7 @@ So finish GitOps... We're 90%, maybe 95% there. Because we version the manifests
 
 **Adam Stacoviak:** It does say "We've just released our short book on GitOps."
 
-**Gerhard Lazu:** \[00:11:57.23\] There you go. So that's the new element which I wasn't aware of. If you scroll down, you see push-based deployments, pull-based deployments, which is what we have, by the way... We have a pull-based deployment model. And WeaveWorks were the ones that coined the term of GitOps, and this is the canonical resource, for me at least, when it comes to GitOps.
+**Gerhard Lazu:** \[11:57\] There you go. So that's the new element which I wasn't aware of. If you scroll down, you see push-based deployments, pull-based deployments, which is what we have, by the way... We have a pull-based deployment model. And WeaveWorks were the ones that coined the term of GitOps, and this is the canonical resource, for me at least, when it comes to GitOps.
 
 **Adam Stacoviak:** Okay. So they have this graph down there... Or, sorry, this -- what do you call this thing? Infographic, I guess... A graphic to look at, essentially outlining what --
 
@@ -142,7 +142,7 @@ But anyways, it was like up for anyone that was casually browsing it; people cou
 
 **Adam Stacoviak:** That's a good -- to your point, Jerod, the unsolved mysteries... If you listen to Kaizen 20, we solved some more mysteries for you. So if you left that conversation thinking "Gerhard, what actually happened behind the scenes?" Well, we've kind of recapped some of that, so... The mystery is solved for those unsolved mysteries of Kaizen 20. You're welcome.
 
-**Gerhard Lazu:** \[00:16:12.12\] But I do have very exciting news... So not only we solved that mystery, we did something even better. And I think we discussed about this also in episode 20, about a tighter Honeycomb integration. So one of the things which we did since - we integrated Honeycomb with Fastly, with our CDN, so we can see a lot more details about how the CDN behaves. Which are the cache hits, which are the misses... I don't mean "misses" like the missus; I mean like M-I-S-S-E-S. There's no U there.
+**Gerhard Lazu:** \[16:12\] But I do have very exciting news... So not only we solved that mystery, we did something even better. And I think we discussed about this also in episode 20, about a tighter Honeycomb integration. So one of the things which we did since - we integrated Honeycomb with Fastly, with our CDN, so we can see a lot more details about how the CDN behaves. Which are the cache hits, which are the misses... I don't mean "misses" like the missus; I mean like M-I-S-S-E-S. There's no U there.
 
 **Jerod Santo:** Solved clarification...
 
@@ -160,7 +160,7 @@ We can for example see the top URL's, the top episodes by browser, by user agent
 
 **Gerhard Lazu:** Correct. Yeah. That was one of the big improvements since episode 20. And we can see the slowest requests, and we understand that the XML ones, like the sitemap, or the feeds that are the slow ones, they take 5 seconds sometimes to load. The website is fairly fast; the only time when it gets slow is when we serve static assets from the website. So in the Phoenix app, when there's a cache miss in the CDN, it has to go to the app - actually, Ingress NGINX... Ingress NGINX has to go to the app, and the app has to store a PNG, or JPEG. It's usually a PNG. That's the one that took quite a bit of time. So I was looking at it -- was it earlier? Yes. Let me find it, it's right here. That was an interesting one. It was icon-small... No, it wasn't that one. Time elapsed. This was it. It was actually a GIF. News item, 1.4 minutes to serve it. That's how long it took to serve that news item GIF, all the way to Hong Kong. So someone from Hong Kong was accessing it...
 
-**Adam Stacoviak:** \[00:20:37.09\] They were waiting that long, huh?
+**Adam Stacoviak:** \[20:37\] They were waiting that long, huh?
 
 **Gerhard Lazu:** They were waiting that long because they had to go all the way to our data center in New York.
 
@@ -214,7 +214,7 @@ The other question is it was a miss - so why was it a miss? These are questions 
 
 **Gerhard Lazu:** Yeah, that’s a great, great idea.
 
-**Adam Stacoviak:** \[00:24:02.18\] So why wouldn't they offer it as a service, like "Hey, just cache the whole thing indefinitely, and I’ll pay for it."
+**Adam Stacoviak:** \[24:02\] So why wouldn't they offer it as a service, like "Hey, just cache the whole thing indefinitely, and I’ll pay for it."
 
 **Gerhard Lazu:** I would love us to be able to do that. All our stuff should be cached all over the world. I agree.
 
@@ -274,7 +274,7 @@ So when it comes to content that is not in the cache, I don't think we should sp
 
 **Jerod Santo:** ...my ShipIt-28.mp3 hasn't changed, it's not going to change. It's never going to change. It’s never going to change.
 
-**Adam Stacoviak:** \[00:28:07.11\] Right. We know it's never going to change. So, just keep them.
+**Adam Stacoviak:** \[28:07\] Right. We know it's never going to change. So, just keep them.
 
 **Gerhard Lazu:** I will not name any names, the people that I reached out that I knew within Fastly, but if a listener knows someone within Fastly that wants to have this conversation, I would love to do that improvement... Because Honeycomb - this new integration showed us how much can improve within the CDN. And we are reaching diminishing returns within the app, within our own infrastructure, where the biggest wins right now are in the CDN.
 
@@ -302,7 +302,7 @@ I think we've changed like an episode, just to go back and update... We call it 
 
 **Adam Stacoviak:** I'm with you, Jerod. I feel like we're holding it wrong. I do. I feel -- I don't know why we're holding it wrong. It seems like the logical way a CDN should work is the way we think it does work... Yet we are holding it seemingly wrong.
 
-\[00:32:12.09\] So yeah, listeners, if you're out there, if you know somebody at Fastly who knows more than we do... We have connections in there, but we've hit certain dead-ends on that front... But we'd love to have some help... Like, Fastly, come on this show. Come on YouTube with Gerhard and triage how we use our CDN and help us de-antennagate ourselves and hold it right. \[laughter\] You know what I mean? Let’s not CDN-gate ourselves here.
+\[32:12\] So yeah, listeners, if you're out there, if you know somebody at Fastly who knows more than we do... We have connections in there, but we've hit certain dead-ends on that front... But we'd love to have some help... Like, Fastly, come on this show. Come on YouTube with Gerhard and triage how we use our CDN and help us de-antennagate ourselves and hold it right. \[laughter\] You know what I mean? Let’s not CDN-gate ourselves here.
 
 **Gerhard Lazu:** Over the years, we've had some epic support threads with Fastly. Epic. Some of them have not been solved.
 
@@ -360,7 +360,7 @@ I think we've changed like an episode, just to go back and update... We call it 
 
 **Gerhard Lazu:** Yeah.
 
-**Break:** \[00:35:19.24\]
+**Break:** \[35:19\]
 
 **Adam Stacoviak:** So Jerod and I got some brand new computers recently, brand new M1 Macs, and like any new Mac, you take your sweet time setting it up... And in my case, Jerod, you may concur with your case, I'm doing it all manually. I'm not scripting anything this time, I want to take my time... Because the M1 Mac is so different, even Homebrew has a couple -- it has one slight variance in how you set it up with what you add to your, in my case, and I think yours too, Jerod, the .zshrc file. So there's a couple particulars to deal with, and I haven't gotten to the point yet to set up the app. Actually, I have, but I haven't done it yet. So my thought’s like if I'm setting up changelog.com for a dev environment on my new Mac - how? What's the way? The readme isn't super clear, there's a Docker path I'm not sure is still working... So what do we do? How do you do it? Have you set it up, Jerod? Where are you at?
 
@@ -390,7 +390,7 @@ I think we've changed like an episode, just to go back and update... We call it 
 
 **Gerhard Lazu:** Well, no, they won't, but like, can they allow people to use, like -- you know, as you can run your own GitHub runners with the GitHub Actions... So you should be able to run your own hardware, wherever it is, with GitHub Codespaces. I think it's a natural next step. Because whatever needs -- because you pay for the hardware. That's where the cost for the GitHub Codespaces is... And that's fine if you want the simplicity. But if you want to run, for example, on the ARM servers, or fast Intel servers with dedicated CPUs, dedicated NVMes, 20-gigabit networks, why wouldn't you go to Equinix Metal? So that's what I'm thinking... Because in that world, everything is amazing.
 
-**Adam Stacoviak:** \[00:40:18.13\] So I guess then—
+**Adam Stacoviak:** \[40:18\] So I guess then—
 
 **Gerhard Lazu:** Or it will be when I’m finished with it.
 
@@ -420,7 +420,7 @@ So there's like a couple of things coming together, which make me really excited
 
 Because my local hackery things that aren't really connected to a dev environment shouldn't overlap with my actual dev environment for the application. I'm kind of in that weird space where it's like my truck - I have a gas-guzzling Ford F-150. I love the new EV F-150, the Lightning coming out. I want to buy a new truck sometime soon, because I’m due, it's like seven years old... But I don't want to buy a gas vehicle. I want to buy an electric vehicle.
 
-\[00:43:49.17\] So I don't want to spin up my own dev environment. I want to use Codespaces, or some prescribed dev space that I don't have to worry about, that's always just fresh... Because I’m me, my identity is me, you know my trustworthiness, or the application should, or our config should, so I can then get access to a certain database maybe a drive-by contributor shouldn't get access to... That kind of thing. And even drive-by contributions - those are harder to do probably. Maybe through \[unintelligible 00:44:15.24\] it's somewhat easy if it's a typo or something like that. But if it's a contribution, I think it's much easier for us.
+\[43:49\] So I don't want to spin up my own dev environment. I want to use Codespaces, or some prescribed dev space that I don't have to worry about, that's always just fresh... Because I’m me, my identity is me, you know my trustworthiness, or the application should, or our config should, so I can then get access to a certain database maybe a drive-by contributor shouldn't get access to... That kind of thing. And even drive-by contributions - those are harder to do probably. Maybe through \[unintelligible 00:44:15.24\] it's somewhat easy if it's a typo or something like that. But if it's a contribution, I think it's much easier for us.
 
 **Gerhard Lazu:** So I'm thinking of the GitHub Codespaces experience, but maybe not necessarily running on Azure as it is today. But I'm not suggesting that we should all set up some bare-metal servers. No way. It's an approach that our contributors should be able to use as well. And you're right, identity should be baked in. But that's like the long-term. Short-term. I think you want the short-term. The short-term answer is use your old machine. \[laughs\]
 
@@ -486,7 +486,7 @@ Because my local hackery things that aren't really connected to a dev environmen
 
 **Adam Stacoviak:** ...in terms of what it prescribes. It just said dependencies are Elixir and Erlang; it doesn't say which Postgres, and everything else.
 
-**Jerod Santo:** \[00:48:16.11\] Just wait for the transcript to come out, of this episode, and then follow that. I'm telling you, brew install Elixir, brew install Postgres, clone the repo...
+**Jerod Santo:** \[48:16\] Just wait for the transcript to come out, of this episode, and then follow that. I'm telling you, brew install Elixir, brew install Postgres, clone the repo...
 
 **Gerhard Lazu:** Okay. So first step--
 
@@ -512,7 +512,7 @@ Because my local hackery things that aren't really connected to a dev environmen
 
 **Adam Stacoviak:** Which I do. It's right next to me. It's no problem to use it. But, like anybody, I want to get set up on this new machine and never look back to the old, and just format the drive and roll on.
 
-**Break:** \[00:49:15.08\]
+**Break:** \[49:15\]
 
 **Jerod Santo:** Last Kaizen we talked about moving our uploads to the cloud, specifically S3 is cloud. I wanted to give a quick update on progress there. I wanted to have it done by the time we recorded this, and the fact that Gerhard, you and I met (was it last week?) to discuss a game plan to getting us from where we are to 100% cut over. We did not quite get there, and that's because I had a yak shave instead. So I thought I would take you guys on a little journey.
 
@@ -528,7 +528,7 @@ Because my local hackery things that aren't really connected to a dev environmen
 
 **Jerod Santo:** Yeah. So probably I'm at like 94% now... And then here comes an issue, issue number 393 hit our GitHub issues, which we'll link up... Newsletter links proxy encodes special URLs with HTML instead of percent based. This is a tiny little bug that was just interesting to me.
 
-\[00:51:59.13\] So what happened is, in our Changelog weekly newsletter, which goes out every Sunday morning, it includes all the shows from that week, every episode we put out, as well as all the news and the links and the repos and the commentary for the week, we linked to Chris Manson's post called It's All Gravy. And his website is Chris.manson.ie, probably because he loves Internet Explorer, and then /it's-all-gravy... Only it's is a contraction, right? So, it's, it apostrophe s. And the son of a gun left the apostrophe in there. Now, I'm giving him a hard time, because I know Chris, he's a JS Party listener, hangs out in the chat... And he left that apostrophe in the URL. First of all, isn't that just like, blasphemous right there, having an apostrophe in your clean URLs, people?
+\[51:59\] So what happened is, in our Changelog weekly newsletter, which goes out every Sunday morning, it includes all the shows from that week, every episode we put out, as well as all the news and the links and the repos and the commentary for the week, we linked to Chris Manson's post called It's All Gravy. And his website is Chris.manson.ie, probably because he loves Internet Explorer, and then /it's-all-gravy... Only it's is a contraction, right? So, it's, it apostrophe s. And the son of a gun left the apostrophe in there. Now, I'm giving him a hard time, because I know Chris, he's a JS Party listener, hangs out in the chat... And he left that apostrophe in the URL. First of all, isn't that just like, blasphemous right there, having an apostrophe in your clean URLs, people?
 
 But what happened with that apostrophe is the way that we encode that creates the HTML encoding instead of percent-based, which you'd expect in the URL, which caused people that clicked on that link in our newsletter to go to a web page, which was a 404, because it was incorrect.
 
@@ -552,7 +552,7 @@ So I started digging a little deeper, and I started thinking, it's like, "Whatev
 
 And when I start to have these questions - you laid out a very clear path to potential victory, but I'm lazier than you, so my first thing is like, "Am I running the latest version?" That's just what I ask myself. Like, maybe this was fixed between my version and now. So my first step is, "Well, let's just upgrade stuff." And I start to -- even if it's like a procrasticoding thing, I'm like, "I'm going to go check out my deps tree and see how old everything is." A bunch of stuff was out of date, so this begins the yak shave. So instead of fixing that, I'm like "Here's what I'm going to do - I'm going to update all of our deps."
 
-**Gerhard Lazu:** \[00:56:11.03\] Update everything. Oh, my goodness me. Okay... What can possibly go wrong...? \[laughs\]
+**Gerhard Lazu:** \[56:11\] Update everything. Oh, my goodness me. Okay... What can possibly go wrong...? \[laughs\]
 
 **Jerod Santo:** Exactly. So we're on Phoenix 1.5, and 1.6 was out. Most Elixir packages do a pretty good job of following semantic versioning. So I knew this was a minor upgrade, so there are some breaking changes, but -- or no, a major upgrade breaks changes. There shouldn't have been any API changes, right? Yeah... So this one kind of bit me. So there were API changes. \[laughs\] So I thought I could just safely upgrade. And I did all the auto upgrades... So inside of Elixir's mix tool, if you have patch version upgrades, it'll just auto do those for you. They're green, you can just upgrade those, because they're assuming semantic versioning.
 
