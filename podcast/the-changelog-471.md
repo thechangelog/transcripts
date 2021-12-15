@@ -10,7 +10,7 @@
 
 **Ben Halpern:** Alright, so The Changelog has been around for a while... You're on episode 463, as my notes say, and we're very excited to have both of you on. I've been on The Changelog, and someone can look up that episode if they want...
 
-**Jerod Santo:** Episode \#310, "Open-sourcing the dev community."
+**Jerod Santo:** Episode \#310, "Open sourcing the dev community."
 
 **Adam Stacoviak:** Mm-hm.
 
@@ -22,7 +22,7 @@ For me, things began really with Geocities, and wanting to put something on the 
 
 Timeframe-wise, I would say this was like 2004-2005... So I hadn't really considered at the time -- the web wasn't as mature as it is now, to say "Okay, there's a real future here." Because I think now it's more mature, to the point where it's pretty clear there's a future here... Whereas then it was sort of like "What's gonna happen here?" It was still sort of like being proven.
 
-\[00:04:06.13\] But it was so far back, I was like "I should try this, I guess. I should dig a little further in." So like with any good advice -- I took my mom's advice. My mom said "Adam, you're really good at this. You should really do something with it." And that's when I took it more seriously. I didn't go to school for software development, I didn't go to school for design, or user experience, or the things that I consider skillsets I have as a frontender, or something like that.
+\[04:06\] But it was so far back, I was like "I should try this, I guess. I should dig a little further in." So like with any good advice -- I took my mom's advice. My mom said "Adam, you're really good at this. You should really do something with it." And that's when I took it more seriously. I didn't go to school for software development, I didn't go to school for design, or user experience, or the things that I consider skillsets I have as a frontender, or something like that.
 
 I sort of just played, and tinkered, and there you go. I got into more design stuff, I eventually got into Sass, I had a blog called The Sass Wave for a while there... The repo is still there, but the domain actually expired accidentally... And so the domain isn't there anymore, unfortunately, but the Twitter handle is still there, and the repo is still there... But the impact was still there around Sass as a processing engine around CSS, and programmatic stuff around it. It was really interesting, really pushing CSS3 at the time forward...
 
@@ -58,7 +58,7 @@ I went through college doing scripting stuff... It was kind of like an InfoSec s
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** \[00:07:50.09\] So I learned really how to program for the web through that, and then I saw DHH's Ruby on Rails, and his "Build a blog post in 15 minutes", and I was like "Hello!" I found my way in, and so I really started doing that. I did contract software for many years.
+**Jerod Santo:** \[07:50\] So I learned really how to program for the web through that, and then I saw DHH's Ruby on Rails, and his "Build a blog post in 15 minutes", and I was like "Hello!" I found my way in, and so I really started doing that. I did contract software for many years.
 
 So that brings us to the Changelog... I was not there in 2009, when Adam and Wynn Netherland began. I was just a listener. And I listened to the Changelog because I was doing contract dev out here in the outskirts of Omaha, Nebraska... A little bit in the middle of nowhere. I very much felt like I was on an island, and so I would listen to podcasts to feel like I was connected to other developers. The Changelog was one of my favorite podcasts. There were some other ones back in the day... Did you know GitHub actually had a podcast, that was just the founders of GitHub sitting around - they may or may not have been drinking beers - and just BS-ing? It was called GitSplosion, and I loved it. And as soon as they got some investment money and got official, they had to kill that thing off. But I was just loving podcasts, because it kept me connected.
 
@@ -82,7 +82,7 @@ I think about even things with Nadia, and funding, the funding of open source an
 
 I think there's different styles of open source, that's what's matured; there's obviously the idea of commercial open source now, there's this idea that you could become open source and then re-license and no longer be open source, because you choose SSPL or what the OSI deems is or is not "open source licenses." Which does make sense, we need arbiters out there like the OSI, doing great work, to help draw that line and that distinction... Because you know, there's just a lot of different ways you can leverage open source - as a business, as an individual to create your career, as a software developer to gain new knowledge, as just a curious person to just get more into a different language. It's so many different facets.
 
-\[00:12:08.13\] In terms of being important, I think it's the most important thing we have going on in the world today. Everything is run by open source software. Linux is a phenomenally, insanely used piece of software; it is everywhere. Everywhere. Sure, Windows is out there, and so is macOS and whatnot, and different commercial operating systems, but Linux - anybody can grab it and do something different with it. You can change the kernel, you can make your own flavor and your own distribution. It's just so malleable. As a tinkerer, everybody's invited. That's awesome.
+\[12:08\] In terms of being important, I think it's the most important thing we have going on in the world today. Everything is run by open source software. Linux is a phenomenally, insanely used piece of software; it is everywhere. Everywhere. Sure, Windows is out there, and so is macOS and whatnot, and different commercial operating systems, but Linux - anybody can grab it and do something different with it. You can change the kernel, you can make your own flavor and your own distribution. It's just so malleable. As a tinkerer, everybody's invited. That's awesome.
 
 **Jerod Santo:** Yeah. I would definitely say that it has engulfed the world of software... You know that Marc Andreessen quote about software eating the world, and open source has kind of eaten the world of software. We used to say that Changelog was about open source software and people, but we actually even took that off, because where is the distinction? I mean, everybody has an angle into open source today, whereas they didn't back then. And so we even just say "We interview the hackers, leaders and innovators of the software world", because what's the difference, really?
 
@@ -112,19 +112,19 @@ And Jerod came around at a time when we were gonna change this into a business. 
 
 **Jerod Santo:** You invented this?
 
-**Adam Stacoviak:** \[00:16:07.01\] This is my invention.
+**Adam Stacoviak:** \[16:07\] This is my invention.
 
 **Jerod Santo:** Okay. So the first one starts with a Q, which is hilarious, but the three Cs are Quality, Content... So there’s your C, is the content, and Consistency and Community. Those are kind of the three pillars that we focus on. And I think of those three things, I spoke a little bit to the content, concerns and struggles, especially now versus back then. For a while, it was like, “What’s interesting? Where is it? Can we find it?" Now it’s like the same question, but now there’s a lot more noise.
 
 I don’t think the content is the hardest part, because there’s so many interesting discussions, so many people doing cool things, overcoming challenges. There’s always somebody worth talking to. For us, it has been the consistency, which we continue to struggle with, to this day. I think most podcasters do, because as you all know, podcasting is very much a grind... And a show every week, whatever you decide your cadence is, maybe you go on seasons, maybe not; there’s different ways you can attack consistency. But scheduling, cancellations, flubbed recordings, a conversation that went off the rails - all these things that go into it, they all attack your consistency. Vacations, sickness, whatever it is. And so I think for us, for me, on my side of it, especially now that we do have a portfolio of shows that record every week - some record live, some have panels, five people, we had nine people on a show... Some are more like The Changelog where they’re every Wednesday afternoon, and it’s kind of reliable... Just staying consistent and then keeping that quality each and every time - we’re doing our best to do so. But that's hard work.
 
-**Break:** \[00:17:42.07\]
+**Break:** \[17:42\]
 
 **Ben Halpern:** Alright, let's get into the meat of this episode. This episode came to be because we were talking about some news stories, about some folks who were creating AI chatbots to replicate the dialogue they’d had with deceased relatives, and things like that... And talking about not just the fact that this is happening, but sort of the way it’s such a deeply human and personal type of story... But who do we talk to about that, aside from just the folks doing it themselves? And that conversation went to a bit of discussion of -- you know, some of the episodes I feel like I’ve heard on your show touched me, or were like really authentic dives into some deeply human things... And an episode that came to mind was the episode you did with Pieter Hintjens called, “A Protocol for Dying”, was the name of the episode, and it was also the name of a blog post that he had written.
 
 Pieter Hintjens, a very notable open source software developer, who at the time had terminal cancer and was thinking deeply about death, and how it related to everything else, thinking of it in their own terms... And Pieter has since passed away, but I thought it was a very good episode. I learned a lot. If one of you two want to get into what recording that show was like, how that happened and how you two felt about the whole thing.
 
-**Jerod Santo:** \[00:20:12.12\] Sure. I’ll start on this one. I’ll say this was Adam’s idea. And I didn’t know Pieter Hintjens prior to Adam telling me about him... So he had already written that post, but Pieter was a prolific open source person. The creator and lead maintainer of ZeroMQ. He has the C4, his licensing agreement, or Covenant, whatever it’s called, the way that you can interact with a governance model... And many other protocols. But he hadn’t crossed my radar.
+**Jerod Santo:** \[20:12\] Sure. I’ll start on this one. I’ll say this was Adam’s idea. And I didn’t know Pieter Hintjens prior to Adam telling me about him... So he had already written that post, but Pieter was a prolific open source person. The creator and lead maintainer of ZeroMQ. He has the C4, his licensing agreement, or Covenant, whatever it’s called, the way that you can interact with a governance model... And many other protocols. But he hadn’t crossed my radar.
 
 And when Adam brought that show idea to me, he had already written A Protocol for Dying. So this was something that we were well aware of. And I will say that going into that episode -- I mean, Pieter was basically living out the end of his days. He knew he was going to die, and it was going to happen somewhat slowly, and he was deliberately living his last days, spending his time as he saw best. So first of all, it was a complete honor that he would come and talk to us. I had never met him. Adam, maybe you had met him previously...
 
@@ -140,7 +140,7 @@ So if he hadn’t had that invitation, I probably wouldn’t have emailed him or
 
 So when we were saying goodbye on the show, it was challenging. Like, even almost now I’m a little crackly, because we were really saying goodbye to Pieter... Because one, I'd just met him, never met him before, had a deep conversation about his life and his legacy, what mattered to him most, and his daughter and his family, and all his plans... And saying goodbye at the end was like "We’re literally saying goodbye to this guy." And I know Jerod almost cracked up in terms of tears.
 
-**Jerod Santo:** \[00:24:20.24\] Yeah.
+**Jerod Santo:** \[24:20\] Yeah.
 
 **Adam Stacoviak:** Because we were on video at the time, and this even a day -- I don't know how often we did video, but we did for this one... And I was just like "Wow, this is probably the most profound show we have done", because -- just the weight of it.
 
@@ -162,7 +162,7 @@ Pieter and his story just helped for me reinforce the reasons why we choose slow
 
 **Jerod Santo:** Yeah, so I touched on the campfire stories near the end, and that was definitely the most enjoyable part... Because when you just say like "Hey, tell us some stories..." and then he just started telling us stories. I don't remember the stories. I just remember he was so open, and so like "Yeah, let's do this." That really touched me.
 
-\[00:27:59.02\] One thing that I noticed is that he was really proud of his C4, which -- I always butcher the acronyms, so I looked i up. That's the Collective Code Construction Contract. This was his favorite protocol. So we asked him -- you know, he's written over 30 protocols, his blog post was "A protocol for dying", he's going into very nitty-gritty of how he's gonna go spend his final days... And he said that his most favorite or most proud protocol is this C4, because it's a way of working with people on software. So it was very meta.
+\[27:59\] One thing that I noticed is that he was really proud of his C4, which -- I always butcher the acronyms, so I looked i up. That's the Collective Code Construction Contract. This was his favorite protocol. So we asked him -- you know, he's written over 30 protocols, his blog post was "A protocol for dying", he's going into very nitty-gritty of how he's gonna go spend his final days... And he said that his most favorite or most proud protocol is this C4, because it's a way of working with people on software. So it was very meta.
 
 **Pieter Hintjens:** I really like that protocol, because it works really well. I mean, we’ve tried it now for years and it works almost magically well. And it’s written kind of from an artistic viewpoint, where you don’t really care what people feel as such, but you do care that they do feel. And so there’s this kind of very brutal approach to human nature in there, where -- you know, how do you solve bike-shedding? Well, you look at the emotions involved, you look at why people argue, you look at the fallacies that people have in their minds, and then you reposition if they go away. And to do that takes a certain distance... If you’re involved and you really care too much, then you can’t do that, I think.
 
@@ -176,7 +176,7 @@ Also, Pieter passed away, he hasn't been around to see the evolution of things a
 
 His blogs are still around to be read... He's written a lot of personal stuff. You're not gonna go there and find a million things that personally you agree with or worked for you, but I think your episode really distilled a lot of the most impactful stuff he'd written... And I think he was thinking about it very lucidly when he came out and talked about it. I think it was pretty meaningful, and I definitely suggest that people who are curious about thinking deeply about some of this stuff give that show a listen, and anticipate it impacting them in some way.
 
-**Break:** \[00:31:43.06\]
+**Break:** \[31:43\]
 
 **Christina Gorton:** You all had another really powerful episode with Lara Hogan, author of Resilient Management, titled "Leading leaders who lead engineers", which obviously hits on some of the most human aspects of software, which is managing people. Can you give us a little description of that episode, and about Lara herself?
 
@@ -192,7 +192,7 @@ She really emphasizes people’s need for sponsorship; just really going out and
 
 **Adam Stacoviak:** She shared a story too about that process, like -- it wasn't just, by any means... Not that she would, but it wasn't pontificating. It wasn't like, "Here's how you do sponsorship." It was like, "Here's an example of sponsorship in my life." And she was saying about a time when she was at Etsy, because she was an engineering manager at Etsy, and how her boss - at the time she wasn't promoted yet... Her boss was away for a sustained amount of time, and they were like "While I'm gone - Lara."
 
-**Lara Hogan:** \[00:38:08.09\] He was a VP, I was not. And I was not prepared for what that was like. He didn't ask me first... It was sponsorship. As you said, Adam, by force. Sponsorship by force. But again, it connected to so many different people within the business. I didn't know what CapEx or OpEx was, I didn't understand how headcount worked. It threw me in a deep end in a way that really, again, skyrocketed my growth.
+**Lara Hogan:** \[38:08\] He was a VP, I was not. And I was not prepared for what that was like. He didn't ask me first... It was sponsorship. As you said, Adam, by force. Sponsorship by force. But again, it connected to so many different people within the business. I didn't know what CapEx or OpEx was, I didn't understand how headcount worked. It threw me in a deep end in a way that really, again, skyrocketed my growth.
 
 **Adam Stacoviak:** She gave good, concrete examples of how to sponsor in ways that showed up in her life, to help her be where she was at today.
 
@@ -210,7 +210,7 @@ But I think empathy is sort of meeting somebody where they're at... And I'm by n
 
 And I think about things like mindset; a lot of the mindset I have, with empathy and with different things, I've gotten from exercising that part of my brain by producing that show... So if you're listening to this, check it out. Not to \[unintelligible 00:42:00.19\] It's an awesome show. I love it.
 
-**Ben Halpern:** \[00:42:05.05\] The next episode I'd like to talk about is entitled "Every commit is a gift." Can we hear about what that show was all about?
+**Ben Halpern:** \[42:05\] The next episode I'd like to talk about is entitled "Every commit is a gift." Can we hear about what that show was all about?
 
 **Jerod Santo:** So "Every commit is a gift" is an episode we did just recently... I think it was either this calendar year, or last calendar year... I think it was just this spring.
 
@@ -234,7 +234,7 @@ Now, that isn’t to say that people could end up with certain expectations, rig
 
 So doing that show as part of Maintainer Week was just perfect, honestly. It's exactly the kind of show we wanted to deliver for that kind of event, which - Maintainer Week was just about celebrating open source software maintainers, so we did that with Brett.
 
-**Christina Gorton:** \[00:46:14.11\] As someone who's not a maintainer necessarily - because our whole team maintains our open source project - but manages our repo (I manage our repo), when there's a project where a maintainer is... Especially when there's a project where it's a single maintainer, or maybe they don't have a whole team behind them, and stuff, I definitely get that concept of "This is a gift, and I can keep putting stuff out there as a gift, but you coming at me and expecting things is maybe not the way this should be working..."
+**Christina Gorton:** \[46:14\] As someone who's not a maintainer necessarily - because our whole team maintains our open source project - but manages our repo (I manage our repo), when there's a project where a maintainer is... Especially when there's a project where it's a single maintainer, or maybe they don't have a whole team behind them, and stuff, I definitely get that concept of "This is a gift, and I can keep putting stuff out there as a gift, but you coming at me and expecting things is maybe not the way this should be working..."
 
 Also, I see -- because we've had people before in our repo who are passionate (and I say passionate) about different things on our project, I also see that as a gift sometimes... Because if someone really deeply cares, and they want to comment on it, or even add to it - especially add to it, which is helpful... But even just comment and really kind of push you to think about where your project is going and what you're doing - I also see that as a gift, too. And I know there's a lot of pushback a lot of times from people in open source, but just kind of something to add there to someone who helps manage.
 
@@ -254,7 +254,7 @@ But yeah, I just wanted to say that our responsibility as a commercial open sour
 
 **Adam Stacoviak:** Yeah. Well, that speaks to the maturity we talked about earlier though, right? Like when you said, how has open source matured over the years? I think that speaks to the maturity of it, because Brett’s perspective from what I recall in the post is his contribution to Python itself. Whereas your all contribution to Forem is different than his contribution to the same open source commons that we all lean upon. So it’s a facet, totally. But I think that speaks to the maturity, because a GitLab or a Forem, and the commercial aspect of it - you know, you still have the software and it’s still licensed permissively. You have AGPL V3 license. I could take that software today and go commercially use it. There’s probably some copyright conditions I have to adhere to, but for the most part, if I contribute to it, I can also take your software and do something commercial with it as well.
 
-\[00:50:22.14\] So it kind of depends... I mean, licenses play a role in helping that line and being crossed too, because what makes open source open source is, one, I would suppose OSI’s blessing of the license... But then, two, its permissiveness, and its restrictions.
+\[50:22\] So it kind of depends... I mean, licenses play a role in helping that line and being crossed too, because what makes open source open source is, one, I would suppose OSI’s blessing of the license... But then, two, its permissiveness, and its restrictions.
 
 **Jerod Santo:** Right. And AGPL is not one of the more permissive licenses, but we don't wanna necessarily bike-shed licenses at the moment. I will say that -- that’s why I started off with it’s so important to set expectations. So I think you can layer on top of this gift concept and hold yourself to a higher standard. And if you put your higher standard out there, like in your documentation, in your readme, in your communications with your community, and like "Here’s where we are. We’re going to be here..."
 
