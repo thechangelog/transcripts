@@ -4,7 +4,7 @@
 
 **Adam Stacoviak:** Do you listen to this show? Have you been a listener for long?
 
-**Jessica Lord:** I have listened to-- I do one-off episodes when I see them on Twitter. Podcast-wise, I'm strictly \[unintelligible 00:02:51.00\] history. \[laughter\]
+**Jessica Lord:** I have listened to-- I do one-off episodes when I see them on Twitter. Podcast-wise, I'm strictly tuned into history. \[laughter\]
 
 **Adam Stacoviak:** We're not offended, by any means. Don't worry.
 
@@ -46,7 +46,7 @@ But I have tried to stay as much as I can in this space of open source and web f
 
 So way, way back in my career, I was an urban designer, and I think that it's very related, in that my brain thinks in a systems way, and I've always thought about how users experience a system. And so I think my head was kind of always able to work in that way, or already thinking that way, but then going through the motions of doing product management in practice and reading the book and learning the more day-to-day terminology and practices and deliverables and things like that came through doing the work and reading books.
 
-**Adam Stacoviak:** \[unintelligible 00:09:36.26\] Andy Chen's "Running Lean" I believe is what it was called, I may have read, and a couple others that were on, like Resilient Management from Lara Hogan, of course... It's a couple of things around that front that weren't necessarily products \[unintelligible 00:09:49.09\] also some product, because it had been the first time I'd been back into a leader-ish role, you know? And so there's a little bit of a step, and you're helping others do their thing, and helping them exceed and excel, not just yourself, doing what you do every single day, showing up and doing your best. It's a different responsibility that comes into play. Whether it's self-elected or not, the responsibility is there.
+**Adam Stacoviak:** Yeah for me it was, Andy Chen's "Running Lean" I believe is what it was called, I may have read, and a couple others that were on, like Resilient Management from Lara Hogan, of course... It's a couple of things around that front that weren't necessarily products, some leading but also some product, because it had been the first time I'd been back into a leader-ish role, you know? And so there's a little bit of a step, and you're helping others do their thing, and helping them exceed and excel, not just yourself, doing what you do every single day, showing up and doing your best. It's a different responsibility that comes into play. Whether it's self-elected or not, the responsibility is there.
 
 **Jessica Lord:** Yeah.
 
@@ -112,7 +112,7 @@ I think that's super-awesome, where you can give that kind of power to somebody 
 
 **Jessica Lord:** Well, yeah, but -- I mean, besides banks in America, who's banking on using any software for 20 years? How do you define the future?
 
-**Jerod Santo:** Yeah. On everyone's time scale, all the stuff is \[unintelligible 00:26:44.07\]
+**Jerod Santo:** Yeah. On everyone's time scale, all the stuff is going away.
 
 **Adam Stacoviak:** There's a shelf life for everything.
 
@@ -186,7 +186,7 @@ That's what's weird. It's like, there's not really-- we do see things pop up lik
 
 **Jessica Lord:** Yeah. Sponsors is about two and a half years old now.
 
-**Adam Stacoviak:** Yeah. But you've got that crossover of \[unintelligible 00:35:32.21\] you mentioned just the-- I don't know if that's worth mentioning deeply, but I think it's interesting how both of you come from this background that wasn't necessarily... You're obviously a software engineer, and have been, but you originated in this space. That's just interesting, that both of you have that history, that experience.
+**Adam Stacoviak:** Yeah. But you've got that crossover of urban planning you mentioned just the-- I don't know if that's worth mentioning deeply, but I think it's interesting how both of you come from this background that wasn't necessarily... You're obviously a software engineer, and have been, but you originated in this space. That's just interesting, that both of you have that history, that experience.
 
 **Jerod Santo:** Yeah. Was that a pre-req on the job description, was to be an urban planner?
 
@@ -230,7 +230,7 @@ Sentry just did a really great blog post a couple of weeks ago, and they really 
 
 **Jessica Lord:** A few. Yeah.
 
-**Adam Stacoviak:** Yeah. But shout-out to Chad, this post he had... And this big idea, "Tell the \[unintelligible 00:44:53.20\] we just gave $154,999.89 to open source maintainers". So that's a cool title let alone, but I'm glad to see Chad back in the game. I'm excited to see him again, and especially to see him working like this at Sentry. And I know that they have this heart, despite them being BSL and having license change, all these things that happen in open source that happens at the company level, they still have open source, they still are for open source, and this is a way they're doing that. "How can we give back to our dependencies? The things that should matter to us as Sentry, as our organization, what do we use as open source and how can we give back and sustain that?" So it's pretty cool to see this drive from the company level coming back to you saying, "How can we give \[unintelligible 00:45:40.16\]?"
+**Adam Stacoviak:** Yeah. But shout-out to Chad, this post he had... And this big idea, "Tell the post is we just gave $154,999.89 to open source maintainers". So that's a cool title let alone, but I'm glad to see Chad back in the game. I'm excited to see him again, and especially to see him working like this at Sentry. And I know that they have this heart, despite them being BSL and having license change, all these things that happen in open source that happens at the company level, they still have open source, they still are for open source, and this is a way they're doing that. "How can we give back to our dependencies? The things that should matter to us as Sentry, as our organization, what do we use as open source and how can we give back and sustain that?" So it's pretty cool to see this drive from the company level coming back to you saying, "How can we give large amounts?"
 
 **Jessica Lord:** \[45:43\] Yeah. And what's interesting too is how they want to pick projects... Because the no-brainer is, "Back your sack, support your dependencies." But people also want-- and when I say people, I mean corporations and companies... They are also interested in supporting projects they may use in the future, or projects that are from under-represented groups, or projects that are around a theme they care about. And so another thing for us to work on on the Sponsors side is this whole area of discovery, of how do people find out about projects? How do projects get themselves known to people out there who are looking to fund things outside of their dependencies?
 
@@ -276,7 +276,7 @@ And so we have suggested tiers now. When you're on your tiers page, you can get 
 
 **Adam Stacoviak:** Okay.
 
-**Jerod Santo:** \[unintelligible 00:55:00.22\]
+**Jerod Santo:** May or may not be shipping soon
 
 **Jessica Lord:** Yeah. And people have definitely run out of space on their Sponsors profile page.
 
@@ -294,7 +294,7 @@ And so we have suggested tiers now. When you're on your tiers page, you can get 
 
 **Adam Stacoviak:** That's right.
 
-**Jerod Santo:** Yeah. The ridiculous things that Mat's \[unintelligible 00:56:25.20\]
+**Jerod Santo:** Yeah. The ridiculous things that Mat's personality
 
 **Adam Stacoviak:** My favorite is the most expensive one, though. $1,024 a month is "A bit creepy now."
 
@@ -436,7 +436,7 @@ And I think another piece there is we have to think deeply about what we do, bec
 
 Then there was also the question of, "Well, okay, if an issue costs $5, it doesn't lost $5 of my time to answer this." There's a whole range of things. So it turned into a pretty meaty-- I don't know, meaty is not the right word... But a pretty gnarly topic. And so we have our research, everything is still clanking around in our heads and the thing we did as more obvious solutions were that nudge on issues to sponsor, and then trying to surface that people are sponsors and that you're in a sponsorable repo in more places.
 
-**Jerod Santo:** Yeah. I think another way to put it is that you're playing with rather large levers, right? You're highly leveraged because of the position and the platform that you're in. And so every change must be considered and reconsidered, because once you put it out there -- like, what if that feature went GitHub viral and every maintainer is just like, "Sweet. Pay me to open an issue"? Because honestly, why wouldn't you turn that on? You do change open source. I mean, sure, it was the community that chose that, but sometimes it's hard to push that lever back in the other position. \[unintelligible 01:22:45.28\]
+**Jerod Santo:** Yeah. I think another way to put it is that you're playing with rather large levers, right? You're highly leveraged because of the position and the platform that you're in. And so every change must be considered and reconsidered, because once you put it out there -- like, what if that feature went GitHub viral and every maintainer is just like, "Sweet. Pay me to open an issue"? Because honestly, why wouldn't you turn that on? You do change open source. I mean, sure, it was the community that chose that, but sometimes it's hard to push that lever back in the other position. That's taken away
 
 **Jessica Lord:** And then people were still like, "But I don't want my friends to have to pay to open an issue."
 
@@ -468,7 +468,7 @@ Then there was also the question of, "Well, okay, if an issue costs $5, it doesn
 
 **Adam Stacoviak:** Right. Right. Then I think--
 
-**Jerod Santo:** But he's killing it, and they're not. No offense, OpenSSL. 52 is nothing to \[unintelligible 01:26:09.01\]
+**Jerod Santo:** But he's killing it, and they're not. No offense, OpenSSL. 52 is nothing to balk at
 
 **Adam Stacoviak:** Right. So then it comes down to, "Is that GitHub Sponsors' role to play?"
 
@@ -518,7 +518,7 @@ Then there was also the question of, "Well, okay, if an issue costs $5, it doesn
 
 **Jessica Lord:** Yeah.
 
-**Adam Stacoviak:** "Did you get the Max? Did you get the Pro? Did you \[unintelligible 01:31:19.09\]" Whatever. You want to know what your buddies did, \[unintelligible 01:31:21.11\]
+**Adam Stacoviak:** "Did you get the Max? Did you get the Pro? Did you max out the ram?" Whatever. You want to know what your buddies did, essentially your peers do
 
 **Jessica Lord:** Yeah. And they don't want to come out looking bad, of like "Oh, we didn't give enough."
 
@@ -554,7 +554,7 @@ Then there was also the question of, "Well, okay, if an issue costs $5, it doesn
 
 **Jessica Lord:** Well, this is the future. I mean, I honestly believe that, that this is the future; that open source in five years is going to be different than it is today... And it's going to be different because of what is happening right now, with the changes we're making to GitHub Sponsors, with companies realizing that they need to give back to open source. This is the beginning of the change, and I really do believe that five years from now we will think of open source completely differently than we do today.
 
-**Adam Stacoviak:** What was that quote, Jerod, from Zeke, that he had said? Can we just layer that \[unintelligible 01:36:03.01\]
+**Adam Stacoviak:** What was that quote, Jerod, from Zeke, that he had said? Can we just layer that back in?
 
 **Jerod Santo:** The promised land. \[laughter\]
 
