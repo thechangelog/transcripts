@@ -208,7 +208,7 @@ But I think empathy is sort of meeting somebody where they're at... And I'm by n
 
 **Adam Stacoviak:** Precisely. And we did 32 episodes on that show, and I think there's people who still tweet about it... It's been out of production for about a year, and it bums me out, because I loved that show so much. We just don't have the time for it right at this very moment. But I'm hoping someday we might be able to bring it back in some way, shape or form... But there's just so many great nuggets in there.
 
-And I think about things like mindset; a lot of the mindset I have, with empathy and with different things, I've gotten from exercising that part of my brain by producing that show... So if you're listening to this, check it out. Not to \[unintelligible 00:42:00.19\] It's an awesome show. I love it.
+And I think about things like mindset; a lot of the mindset I have, with empathy and with different things, I've gotten from exercising that part of my brain by producing that show... So if you're listening to this, check it out. Not to grill this show, just grill yourself. It's an awesome show. I love it.
 
 **Ben Halpern:** \[42:05\] The next episode I'd like to talk about is entitled "Every commit is a gift." Can we hear about what that show was all about?
 
