@@ -14,7 +14,7 @@
 
 **Dominic St-Pierre:** Yeah, exactly. It's not a boolean, for sure. So how am I developing? Well, I was lucky enough, to be frank, to have enough vision long time ago. I have a degenerative visual disease, that is fairly common, and there's not much escape for me... And sadly, in the last two years I've lost a lot of my central vision. We will come back to that later... But I just want to give a little bit of a background here, because I'm in a transition at this moment. So I'm kind of transiting from mostly a normal way of working - years from now I was using bigger text font, and whatnot, but not really a huge difference from a normal-sighted person, if I can say that. So these days I'm learning, in fact, to start working with more assistive tooling, like a screenreader, and it's not an easy transition, if I can say that.
 
-\[00:04:26.20\] So I've always been legally blind, but my vision is getting lower and lower as I go. So to answer the questions - well, I'm trying to work as much as I can as a normal programmer, I guess... But I started to feel huge roadblocks since three years ago, for example, when I started to lose my central vision, if you will. So hopefully I've not lost you already, but - yeah, it's a tough one to answer first, I guess.
+\[04:26\] So I've always been legally blind, but my vision is getting lower and lower as I go. So to answer the questions - well, I'm trying to work as much as I can as a normal programmer, I guess... But I started to feel huge roadblocks since three years ago, for example, when I started to lose my central vision, if you will. So hopefully I've not lost you already, but - yeah, it's a tough one to answer first, I guess.
 
 **Jon Calhoun:** No, it completely makes sense, and I think it's good for people to know that it's not always black or white, and that some people are in the situation like you are, where they have to completely re-learn something they've done for years at a time, which in many ways can be possibly more challenging than being accustomed to that and then jumping into coding.
 
@@ -34,7 +34,7 @@ I would say the most obvious would be function names. Being as explicit as possi
 
 The video that you were referring to - take a completely blind developer, for example, which were like that since their birth, for example... Compared to me, they are able to capture or understand the screen reader in a speed that I just cannot -- I'm not there yet. I don't even know how they are doing that. I'm blind since birth as well, but I always had a little visual -- so yeah, it's hard.
 
-\[00:08:15.28\] So what I'm doing at this moment is that I force myself to close my screen, at the moment; so I need to close my screen, and I need to try to learn to use that. It is difficult. I'm a Linux user, I've been using Linux day to day since 2014... The tooling that I use there - it is extremely performant for me... Until three years ago. So I'm using i3 as the \[unintelligible 00:08:42.07\] manager. I'm not using my mouse, ever. All my windows are always maximized, and I'm using the virtual desktop of i3... So that was very good.
+\[08:15\] So what I'm doing at this moment is that I force myself to close my screen, at the moment; so I need to close my screen, and I need to try to learn to use that. It is difficult. I'm a Linux user, I've been using Linux day to day since 2014... The tooling that I use there - it is extremely performant for me... Until three years ago. So I'm using i3 as the \[unintelligible 00:08:42.07\] manager. I'm not using my mouse, ever. All my windows are always maximized, and I'm using the virtual desktop of i3... So that was very good.
 
 This way of working will not work for me in the next year or two years. I'm trying to switch to a Gnome-based desktop, because the only screen reader on Linux is Orca actually, and... Yeah, I'm not sure if it's going to work. To me, this is another very, very difficult change, accepting to leave my very comfortable zone... The Xrender on Linux - you can just reverse all colors, so this is extremely useful when you have a little bit of vision; sometimes a white background can be extremely difficult on your eyes.
 
@@ -58,7 +58,7 @@ This is something I really have to take a decision quick. I was even starting to
 
 **Dominic St-Pierre:** So I'm mostly doing Go for the last 6-7 years. I'm not sure how to answer that... I'm doing consulting, so my work requires me to work on lots of different languages, and stacks, and whatnot. This might be something.. For example, doing frontend at this moment - I'm not sure I will be able to do that anymore, just because it's very hard to build a beautiful frontend application when you don't really see the end result, and whatnot.
 
-\[00:12:02.14\] So I'm transitioning towards a backend language that will allow me to make sure that once I do run full-time on the screen reader - which is very soon for me - I will not have an issue. So I have tried lots of different backend languages in the last ten years. I have a lot to say about lots of them, because it's very different from a blind developer, and it's just those small things that makes a language more usable on the screen reader or not.
+\[12:02\] So I'm transitioning towards a backend language that will allow me to make sure that once I do run full-time on the screen reader - which is very soon for me - I will not have an issue. So I have tried lots of different backend languages in the last ten years. I have a lot to say about lots of them, because it's very different from a blind developer, and it's just those small things that makes a language more usable on the screen reader or not.
 
 **Jon Calhoun:** One thing I'd like to add is that I think what might happen is that you might have a different opinion as to what makes a beautiful UI in the future... Which is going to be very different from how other people see it, but it's also good to have a different perspective sometimes. And there might be a time where you could be the specialist in helping people make it actually accessible and a great blind experience, versus - you know, everybody's always focusing on things looking pretty, versus being functional.
 
@@ -86,7 +86,7 @@ Like I was saying earlier, navigation is the enemy here, and knowing very quickl
 
 **Dominic St-Pierre:** Well, yeah, exactly... But you know... So yeah, one other thing - of course, GoDoc. On the terminal, GoDoc - just having to look at what a function wants in its parameter, and what it is returning... It's strange, because I can compare both worlds now... When you see your screen very well, then yes, VS Code or any editor will provide you a visual indication \[unintelligible 00:15:53.19\] as a string, for example. But sometimes the screen readers are not picking those, or they are not speaking the return type, ever. It's very hard.
 
-\[00:16:06.23\] So this is a good thing... GoDoc is extremely useful. You just go to your terminal, and your screen reader will have no issues whatsoever reading everything that the developer wrote, that that function wanted you to do. So this is major.
+\[16:06\] So this is a good thing... GoDoc is extremely useful. You just go to your terminal, and your screen reader will have no issues whatsoever reading everything that the developer wrote, that that function wanted you to do. So this is major.
 
 That brings me to a downside as well, while we are here... Small, one-letter variable names in Go - it is hard for a screen reader as well, and for the blind developer in general, especially when \[unintelligible 00:16:36.29\] very fast, you are missing those. We always use \[unintelligible 00:16:40.18\] and whatnot in Go, and those are difficult.
 
@@ -112,7 +112,7 @@ So I could imagine there's certain variables and things like that that when they
 
 **Dominic St-Pierre:** Yeah, I would guess not, because frankly, it is not fun. But yeah, this is something I see myself doing in the future. I always have a couple of open source projects myself here and there... I will not have any choice but to build what I will need to continue working. I love to program; I will not stop doing that. So that's why I was also saying that if I have to, I will contribute to Orca and try to make it work in a Linux distribution.
 
-**Break:** \[00:20:43.08\]
+**Break:** \[20:43\]
 
 **Jon Calhoun:** So are there other things in Go that make -- or really in any language that you've seen... What types of things should developers be looking out for if they're designing a language, or working on a programming language? What types of things have you seen so far that make it more challenging?
 
@@ -132,7 +132,7 @@ You know, other than the channel, I cannot really think about anything else. Eve
 
 **Dominic St-Pierre:** Well, for me at least, because I do have my screen reader telling that to me, so that's great... I prefer that, than having, let's say, a modifier like private/public-protected, or sealed, or whatever the flavor.
 
-\[00:24:00.27\] I would say as well not being an object-oriented language is also helpful. And let me explain, because it's a huge claim, probably... This hierarchy of objects in C\# and Java, that we don't really have, unless you do composing in Go - we are returning to navigation, as well. The structure of all those objects is kind of difficult to navigate, to be frank... To understand what is going on in that. Because it's very quick for you to switch \[unintelligible 00:24:33.10\]
+\[24:00\] I would say as well not being an object-oriented language is also helpful. And let me explain, because it's a huge claim, probably... This hierarchy of objects in C\# and Java, that we don't really have, unless you do composing in Go - we are returning to navigation, as well. The structure of all those objects is kind of difficult to navigate, to be frank... To understand what is going on in that. Because it's very quick for you to switch \[unintelligible 00:24:33.10\]
 
 Let's say you're moving from one package to another, and you're returning, and visually, you are quickly, rapidly re-understanding if that's a word where you were when you left... And this is not really easy with a screen reader. You always need to re-check your surrounding. Again, a screen reader is a one-line thing, so let's say your cursor is on line 13... You just have the context of that line.
 
@@ -152,7 +152,7 @@ Let's say you have return empty string on Go. So where are you? What's that func
 
 **Jon Calhoun:** As I say, if you're using a lot of languages, that probably helps. I think one of the things that forces me to do a double-take on generics is that I haven't used them in quite a while... Like, I've used them a lot in Java, because you pretty much have to in Java, if you like... But since then, I have not really touched them, and it's been a while since I've used Java, so it's one of those things where I'm hoping that familiarity and seeing them more frequently makes it easier to read them and comprehend them... Otherwise it's gonna slow me down some, too... Which I think is an okay trade-off for some of the stuff, but hopefully they don't get used everywhere.
 
-**Dominic St-Pierre:** \[00:27:54.01\] Yeah, one aspect is that it brings that one-letter word, if you will, that I would expect lots of people would use probably T... And the fact that it's capitalized as well... So the screen reader will say "Capital T" at each time. But I prefer that. I'm grateful that it is capitalized as well. So that's something that I think will -- if my memory is correct, they are capitalized, so...
+**Dominic St-Pierre:** \[27:54\] Yeah, one aspect is that it brings that one-letter word, if you will, that I would expect lots of people would use probably T... And the fact that it's capitalized as well... So the screen reader will say "Capital T" at each time. But I prefer that. I'm grateful that it is capitalized as well. So that's something that I think will -- if my memory is correct, they are capitalized, so...
 
 **Jon Calhoun:** I think most people capitalize them, in the examples I've seen.
 
@@ -184,7 +184,7 @@ Nothing really -- well, pair programming. This is a complete topic... It's super
 
 **Dominic St-Pierre:** Yeah.
 
-**Jon Calhoun:** \[00:31:52.25\] So I guess the next thing I'd wanna ask is what other languages have you tried going into this, with the screen reader and that sort of tooling? You mentioned Go... Are there some others that you've given a shot to see how they were and how they compared?
+**Jon Calhoun:** \[31:52\] So I guess the next thing I'd wanna ask is what other languages have you tried going into this, with the screen reader and that sort of tooling? You mentioned Go... Are there some others that you've given a shot to see how they were and how they compared?
 
 **Dominic St-Pierre:** Oh, yeah. I'm still doing consulting in .NET, C\#, so it's okay-ish... But yeah, there's so many Windows dialogues and whatnot that come with .NET... It's not really the language per se, it's more like the framework, or Visual Studio in itself.
 
@@ -200,7 +200,7 @@ I talked with -- when I was starting to really lose lots of vision two years ago
 
 So I'm not sure at this point if I'm having my baggage of 20 years of development that is difficult to change... That might be why I'm saying that C\# is harder than Go, for example, as a blind developer. But yeah, I feel that the object-oriented languages feel a little bit harder to navigate, for sure. And all those keywords that you need to \[unintelligible 00:34:48.15\] and whatnot. So all the visibility for a class or a function - it really adds lots of noise, in all senses of the word; screen reader and code-wise, I think. Those are very hard, because you have to rely on having to return to the function, trying to see what it was exactly, what's going on in here.
 
-**Break:** \[00:35:15.16\]
+**Break:** \[35:15\]
 
 **Jon Calhoun:** You mentioned earlier when we were talking that it's a slower process... So it's not one where you can -- basically, it just takes more time to go through stuff and to write certain code. So with that in mind, do you find yourself taking more time and thinking things through a little bit more ahead of time, or do you find yourself planning what you're going to do a little bit more than what you used to?
 
@@ -214,7 +214,7 @@ So yeah, I think test-driven development will finally be something I should star
 
 **Jon Calhoun:** I think it's worth saying, I guess, that what is easy for one person is not necessarily easy for somebody else... Because I'm sitting here in my head, thinking like, I have typos, or I swap two letters all the time... And if we couldn't see it visually, it's very hard to check that real quickly. And I imagine that if I was closing my eyes and typing, I'd have to be a little bit slower in typing and a little bit more certain that I was typing it correctly... Versus when you can see, you can just kind of throw some code there real quickly, and if it's wrong, you'll see it and you would just quickly take the suggestion it gives you and move on.
 
-**Dominic St-Pierre:** \[00:40:26.12\] Yeah, and often your code editor should do a small red line under. Something that it's not. So we don't have that on a screen reader; there's no notifier for that. So yeah, it's a challenge. I would say anyone that wants to really understand a little bit what it is - close your eyes, and don't cheat, and write an email, for example. You will see that it is extremely difficult.
+**Dominic St-Pierre:** \[40:26\] Yeah, and often your code editor should do a small red line under. Something that it's not. So we don't have that on a screen reader; there's no notifier for that. So yeah, it's a challenge. I would say anyone that wants to really understand a little bit what it is - close your eyes, and don't cheat, and write an email, for example. You will see that it is extremely difficult.
 
 But the tooling is great, because a screen reader - you can read the previous word, the previous sentence, the line above, the line on top, and whatnot, without the cursor having to change the line. I don't know if I'm clear here, but... You can move a virtual cursor, if you will, on the screen, without you really moving the editing cursor. So that takes a little bit of time to get used to, because - yeah, it's strange.
 
@@ -234,7 +234,7 @@ I used links for a long time when I was younger, to navigate websites. Before th
 
 So that's a little complaint I have... The new doc site for Go, the go.dev - I think before it was GoDoc.org... It was just easier before.
 
-**Jon Calhoun:** \[00:44:15.00\] Hopefully, somebody on the Go team listens and hears that, because I'm sure that wasn't their intent, to make things harder...
+**Jon Calhoun:** \[44:15\] Hopefully, somebody on the Go team listens and hears that, because I'm sure that wasn't their intent, to make things harder...
 
 **Dominic St-Pierre:** No, no, absolutely.
 
@@ -244,7 +244,7 @@ So that's a little complaint I have... The new doc site for Go, the go.dev - I t
 
 **Jon Calhoun:** So we are getting near the end of the hour... Do you have an unpopular opinion you'd like to share?
 
-**Jingle:** \[00:44:33.29\] to \[00:44:50.06\]
+**Jingle:** \[44:33\] to \[44:50\]
 
 **Jon Calhoun:** Alright, Dominic... It's time for you to share your unpopular opinion. Then we'll post it on Twitter, people will vote, and as Mat says, if it's not unpopular, you have to come back on the show. That's your punishment.
 
@@ -266,7 +266,7 @@ And it's also hard for me, because personally, when I was in school, I feel like
 
 But there's probably a bunch of kids who deserved to be in a program like that, who would have thrived, or something like that, but they just didn't get the chance... And seeing that now, I'm like "Well, that really sucks."
 
-**Dominic St-Pierre:** \[00:48:02.14\] Yeah, exactly. I hear you. This is the same for sports, after-school sport - it should be open to everyone. It's sad to see kids that don't really have the money to do that, cannot do that because of the money aspect. So the government should inject way, way more money into the education system.
+**Dominic St-Pierre:** \[48:02\] Yeah, exactly. I hear you. This is the same for sports, after-school sport - it should be open to everyone. It's sad to see kids that don't really have the money to do that, cannot do that because of the money aspect. So the government should inject way, way more money into the education system.
 
 **Jon Calhoun:** In the U.S. at least, after-school sports tend -- well, I guess it depends on the sport. There are some sports that are harder... But things like soccer and football and a lot of those things - usually, the school, at least where I live, the schools do fundraiser type things to provide... Like, essentially, a kid can go play football without any money whatsoever. The football team and other things will do fundraisers to try to help produce funds for that sort of stuff.
 
