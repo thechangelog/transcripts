@@ -446,7 +446,7 @@ Because my local hackery things that aren't really connected to a dev environmen
 
 **Gerhard Lazu:** Yes.
 
-**Adam Stacoviak:** Just because you're setting that motion. Now, if you've made a promise or whatever, reach back out to them and say, "Hey, I'm sorry. We've got a timely episode coming out. I need to bump you back one week." They're probably not going be upset. And if they are, give them a free T-shirt, or whatever it takes to make them \[unintelligible 00:47:14.20\]
+**Adam Stacoviak:** Just because you're setting that motion. Now, if you've made a promise or whatever, reach back out to them and say, "Hey, I'm sorry. We've got a timely episode coming out. I need to bump you back one week." They're probably not going be upset. And if they are, give them a free T-shirt, or whatever it takes to make them sweet
 
 **Gerhard Lazu:** How do you do that? I don't know how to give them a free T-shirt.
 
@@ -490,7 +490,7 @@ Because my local hackery things that aren't really connected to a dev environmen
 
 **Gerhard Lazu:** Okay. So first step--
 
-**Jerod Santo:** \[unintelligible 00:48:25.08\]
+**Jerod Santo:** `mix deps.get`
 
 **Gerhard Lazu:** ...Gerhard gets a new MacBook M1 for Christmas. \[laughter\]
 
@@ -516,7 +516,7 @@ Because my local hackery things that aren't really connected to a dev environmen
 
 **Jerod Santo:** Last Kaizen we talked about moving our uploads to the cloud, specifically S3 is cloud. I wanted to give a quick update on progress there. I wanted to have it done by the time we recorded this, and the fact that Gerhard, you and I met (was it last week?) to discuss a game plan to getting us from where we are to 100% cut over. We did not quite get there, and that's because I had a yak shave instead. So I thought I would take you guys on a little journey.
 
-**Gerhard Lazu:** I did a few as well, so it's okay. Your yak shave \[unintelligible 00:50:37.24\] yak shaves. It's all good.
+**Gerhard Lazu:** I did a few as well, so it's okay. Your yak shave held yak shaves. It's all good.
 
 **Jerod Santo:** \[laughs\] So... You know, I only have so much time to work on the platform, and I have to use that time wisely, and sometimes it's GitHub issues-based development when things come in, because then you know it’s a user or a listener or a reader’s need, or something that they hit up against. So I end up deprioritizing things that I want to do; probably not always the wisest... But it happened again. I had my waffle branch, which waffle is the new replacement for Ark. Ark is the upload library that we had used previously, that went unmaintained, taken over by the community and now called Waffle... And so we've cut over to that, I have my branch... It's like, I said it was -- what did I tell you? How many percentage points did I have done when I told you the other day, Gerhard?
 
@@ -758,7 +758,7 @@ Alright, here it is.
 
 **Jerod Santo:** Two ISPs now... \[laughing out loud\]
 
-**Gerhard Lazu:** Yeah, like two fiber connections \[unintelligible 01:19:08.15\]
+**Gerhard Lazu:** Yeah, like two fiber connections coming into the house. Three routers
 
 **Adam Stacoviak:** The funny part about this is like -- you have to think about that beyond just being two ISPs, that's two separate people coming to your house to install fiber...
 
@@ -778,7 +778,7 @@ Alright, here it is.
 
 **Jerod Santo:** Don't give him anything else to do, Adam.
 
-**Adam Stacoviak:** I'm just thinking like - the logistics of doing that. That's being on the phone to order it, that's deciding to pay for it. That's one more line item on the budget, so to speak. That's somebody coming in your house, new hole, new fiber, new equipment. At least you're getting to use that \[unintelligible 01:20:09.03\]
+**Adam Stacoviak:** I'm just thinking like - the logistics of doing that. That's being on the phone to order it, that's deciding to pay for it. That's one more line item on the budget, so to speak. That's somebody coming in your house, new hole, new fiber, new equipment. At least you're getting to use that LAN fill over though, on the uninfy system
 
 **Gerhard Lazu:** I do actually, yeah. I do. Not load balancing yet, but I'm working towards it.
 
@@ -788,7 +788,7 @@ Alright, here it is.
 
 **Jerod Santo:** Alright, we’ve got to reel this in. What's the summary here, Gerhard? What's the takeaway from this?
 
-**Gerhard Lazu:** The summary is that now I have two \[unintelligible 01:20:26.01\]
+**Gerhard Lazu:** The summary is that now I have two LAN connections
 
 **Jerod Santo:** \[laughing out loud\] You've already said that part. What's the takeaway?
 
