@@ -14,13 +14,13 @@
 
 **Adam Stacoviak:** That's a compliment.
 
-**Gerhard Lazu:** I don't want to leave myself open to unique encounters and \[unintelligible 00:04:14.14\]
+**Gerhard Lazu:** I don't want to leave myself open to unique encounters and like...
 
 **Jerod Santo:** \[04:15\] Yeah, that's a challenge. Serendipity is taken out when you're scheduled out.
 
 **Gerhard Lazu:** That is a great word. I haven't heard it in a while. I thought I was the only one using it. Okay...
 
-**Jerod Santo:** \[unintelligible 00:04:24.24\]
+**Jerod Santo:** Happy to surprise and delight.
 
 **Gerhard Lazu:** Right. Well, thank you very much in which case, Jerod. I appreciate that. Thank you. And what I'm really excited about is -- I don't think many people realize this, but there's like a theme to this; there are like multiple themes. A couple of episodes, they kind of cluster together, and there's a build-up... And a lot of the episodes that we had -- like the last 10-15 ones, they're leading to something. They're building to something. And that will be the Christmas episode, episode 33, which I'm very excited about. We'll come back to that a bit later, but... One of the things which is on my mind is the incident 2. Our last episode, 20, our last kaizen, episode 20, was all about incidents. We called it "Five incidents later."
 
@@ -78,7 +78,7 @@ The thinking goes we always want to be running "latest". When do you not want to
 
 **Jerod Santo:** It's like that show, Unsolved Mysteries, which I always avoided, because... Come on, give us the solution already. Have you guys ever watched that one? It's probably dead now, but back in the day they would show these mysteries and they're like, people who are actively being sought by FBI, or whatever... And there's no solution. At the end they're like, "If you know where this person is, please let us know."
 
-**Gerhard Lazu:** \[unintelligible 00:09:22.02\]
+**Gerhard Lazu:** Unsolved cases.
 
 **Jerod Santo:** And I'm always like, "I want the solution!"
 
@@ -134,9 +134,9 @@ So finish GitOps... We're 90%, maybe 95% there. Because we version the manifests
 
 **Adam Stacoviak:** Which is important for recovery from a disaster. So in this case, a disaster happened, the application failed, you needed to reboot, you rebooted, but you called upon latest, and latest wasn't right... So if you would have had continuity in place, the operator would have told the environment repository which SHA to point to, essentially, so that when you reboot, you don't pull from a broken "latest".
 
-**Gerhard Lazu:** Yeah. So a couple of things had to go wrong in our case \[unintelligible 00:14:28.19\] The version that was running - that one came down as well. So the version that was running came down, it had to be rebooted, the pod, and when the pod was restarted, because it was pointing to the latest, it pulled the broken version. So that happened as well, on top of latest being broken.
+**Gerhard Lazu:** Yeah. So a couple of things had to go wrong in our case when instant 2. The version that was running - that one came down as well. So the version that was running came down, it had to be rebooted, the pod, and when the pod was restarted, because it was pointing to the latest, it pulled the broken version. So that happened as well, on top of latest being broken.
 
-So it needs to be like a sequence of events for this to happen, which is what happened in our case, and that's why those are rare. So as I mentioned, in the year since I had this set up, it only happened once. It was enough for us to have an incident. It wasn't a major one, it was just a minor one, because production was up, everything was cached, we served from the CDN... We ARE serving from the CDN everything, except the authenticated users, except the dynamic requests. So not like the gets. This was like a post, a patch, and we have quite a few of those. I didn't actually realize how many of those we have... Because whenever we visit a link, \[unintelligible 00:15:31.18\] that's the most popular one we keep hitting; we keep doing a lot of posts. So there's that.
+So it needs to be like a sequence of events for this to happen, which is what happened in our case, and that's why those are rare. So as I mentioned, in the year since I had this set up, it only happened once. It was enough for us to have an incident. It wasn't a major one, it was just a minor one, because production was up, everything was cached, we served from the CDN... We ARE serving from the CDN everything, except the authenticated users, except the dynamic requests. So not like the gets. This was like a post, a patch, and we have quite a few of those. I didn't actually realize how many of those we have... Because whenever we visit a link, like news and press, that's the most popular one we keep hitting; we keep doing a lot of posts. So there's that.
 
 But anyways, it was like up for anyone that was casually browsing it; people could listen to podcasts. Only a few URLs that were not in the CDN were not available.
 
@@ -246,7 +246,7 @@ The other question is it was a miss - so why was it a miss? These are questions 
 
 **Jerod Santo:** When does the law of diminishing returns come in?
 
-**Adam Stacoviak:** \[unintelligible 00:25:34.03\]
+**Adam Stacoviak:** The now known from the unknowns
 
 **Gerhard Lazu:** I didn't hear any of you. \[laughs\] Do you want to try again?
 
@@ -420,7 +420,7 @@ So there's like a couple of things coming together, which make me really excited
 
 Because my local hackery things that aren't really connected to a dev environment shouldn't overlap with my actual dev environment for the application. I'm kind of in that weird space where it's like my truck - I have a gas-guzzling Ford F-150. I love the new EV F-150, the Lightning coming out. I want to buy a new truck sometime soon, because I’m due, it's like seven years old... But I don't want to buy a gas vehicle. I want to buy an electric vehicle.
 
-\[43:49\] So I don't want to spin up my own dev environment. I want to use Codespaces, or some prescribed dev space that I don't have to worry about, that's always just fresh... Because I’m me, my identity is me, you know my trustworthiness, or the application should, or our config should, so I can then get access to a certain database maybe a drive-by contributor shouldn't get access to... That kind of thing. And even drive-by contributions - those are harder to do probably. Maybe through \[unintelligible 00:44:15.24\] it's somewhat easy if it's a typo or something like that. But if it's a contribution, I think it's much easier for us.
+\[43:49\] So I don't want to spin up my own dev environment. I want to use Codespaces, or some prescribed dev space that I don't have to worry about, that's always just fresh... Because I’m me, my identity is me, you know my trustworthiness, or the application should, or our config should, so I can then get access to a certain database maybe a drive-by contributor shouldn't get access to... That kind of thing. And even drive-by contributions - those are harder to do probably. Maybe through dot dev it's somewhat easy if it's a typo or something like that. But if it's a contribution, I think it's much easier for us.
 
 **Gerhard Lazu:** So I'm thinking of the GitHub Codespaces experience, but maybe not necessarily running on Azure as it is today. But I'm not suggesting that we should all set up some bare-metal servers. No way. It's an approach that our contributors should be able to use as well. And you're right, identity should be baked in. But that's like the long-term. Short-term. I think you want the short-term. The short-term answer is use your old machine. \[laughs\]
 
