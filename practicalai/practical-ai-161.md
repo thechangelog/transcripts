@@ -58,7 +58,7 @@
 
 **Chris Benson:** Yeah. Just to call out some of the things, in that dropdown there's chat, there's Q&A, which we talked about, grammatical standard English summarized for a second grader, text to command, English to French, parse unstructured data and classification, and then it has a More Examples section. But yeah, it looks good. I'm looking forward to diving into this.
 
-**Break:** \[00:17:12.23\]
+**Break:** \[17:12\]
 
 **Daniel Whitenack:** Well, Chris, Hugging Face continues to be the darling of the AI world. Does it not?
 
@@ -120,7 +120,7 @@ There is one that I think is worth calling out, there was a DARPA -- it's a publ
 
 **Chris Benson:** Yeah. Not just having the models, but having some of the tooling we need around it to make it safe and get to what you need to get to for a good output, without some of the missteps.
 
-**Break:** \[00:31:11.00\]
+**Break:** \[31:11\]
 
 **Daniel Whitenack:** So Chris, you had just started to talk about how we are getting to a point where there's a good number of tools that fulfill a lot of the needs that an AI researcher or a data scientist-- their needs are so diverse, everything from analyzing data sets, to serving models, to dealing with infrastructure and tracking things... There's a lot of good tools out there now, and I know that our team - and maybe this is a follow up from a previous conversation that we had about building data teams. Our team at SIL, we've been in the growth phase. We're building up a team that's doing NLP research and development, and we've gone through a kind of process of figuring out what tools work well for us and how to plug all of these tools together. It's kind of taken a year to work through a lot of those things, but I know there's a lot of things that we talked about on this podcast, around MLOps and GPU servers and tracking models and experiments, and all of those things. And I thought it might be good to follow up on that conversation that we had before and talk a little bit about how some of these things might tie together in a real-world environment... Because we talked about a lot of them individually.
 
@@ -132,7 +132,7 @@ So some of that's a little bit easier than others. I mean, code we version in Gi
 
 **Chris Benson:** I was going to say a scheduler is one of those things, in terms of getting the jobs lined up and stuff. How did you approach it? I'm curious what's different from how we addressed it.
 
-**Daniel Whitenack:** So I think one of the things that we wanted to make sure was that our people running and supporting the server on the ground weren't really the ones that were going to-- although they're installing the server, they're not really administrating the server. We don't have a large dev ops and engineering team behind our NLP team supporting us, so we wanted a simple solution that we could work with on our distributed team. So we ended up using ClearML for this.
+**Daniel Whitenack:** So I think one of the things that we wanted to make sure was that our people running and supporting the server on the ground weren't really the ones that were going to-- although they're installing the server, they're not really administrating the server. We don't have a large DevOps and engineering team behind our NLP team supporting us, so we wanted a simple solution that we could work with on our distributed team. So we ended up using ClearML for this.
 
 So ClearML - we actually had conversation on the podcast about a similar tool, which is in the same vein as Weights & Biases. That's another very popular one. But ClearML allows you to have a dashboard where you track all your experiments and your runs. And you can, actually, just by-- so I could be running a Google Colab notebook, import the ClearML library, and register that experiment in the ClearML dashboard... But I could also, from the ClearML dashboard, enqueue a job on the GPU server, that will also be registered on the same dashboard and will be sent to the GPU server in Dallas, sort of like a scheduler. It's not as full-featured as these really robust, big schedulers that are used on supercomputers, but it's enough for our team, because we can say, "Well, we have this many queues on our GPUs", and you put things in there, and they'll run in that order. We don't really need much more functionality than that. And all of that's registered. And all of the input-output data is registered in a backing data store in S3.
 
