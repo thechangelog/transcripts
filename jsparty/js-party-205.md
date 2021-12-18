@@ -18,9 +18,9 @@
 
 **Rich Harris:** Hi. Thanks for having me.
 
-**Amal Hussein:** Yeah, I don't even know how to introduce you anymore, because I would say you're that JavaScript engineer that makes everything better, who also kind of identifies as a journalist... You're an open-sourcer, you're a teacher, you're an educator, a creator... And now kind of working on open source full-time. So yeah, just tell us a little bit about yourself for folks who might not be familiar... And welcome.
+**Amal Hussein:** Yeah, I don't even know how to introduce you anymore, because I would say you're that JavaScript engineer that makes everything better, who also kind of identifies as a journalist... You're an open sourcer, you're a teacher, you're an educator, a creator... And now kind of working on open source full-time. So yeah, just tell us a little bit about yourself for folks who might not be familiar... And welcome.
 
-**Rich Harris:** \[00:04:22.10\] Yeah. So I'm Rich, I work at Vercel as of three weeks ago. I joined the company \[unintelligible 00:04:25.08\] work on Svelte full-time. Svelte is a project that I've been developing for the last five years now. It has its fifth birthday this month -- actually, no. Last month. It's now December. Man, time moves fast.
+**Rich Harris:** \[04:22\] Yeah. So I'm Rich, I work at Vercel as of three weeks ago. I joined the company \[unintelligible 00:04:25.08\] work on Svelte full-time. Svelte is a project that I've been developing for the last five years now. It has its fifth birthday this month -- actually, no. Last month. It's now December. Man, time moves fast.
 
 And prior to Vercel, I spent my entire career in newsrooms. I trained as a journalist, and I worked in the interactive graphics departments of The Guardian and then the New York Times.
 
@@ -38,7 +38,7 @@ Then after I gained a bit more experience as a programmer, and I started to beco
 
 So that's how it started... It's since evolved into a much more comprehensive set of ideas about web development. We kind of had a realization a couple of years ago that we weren't really designing a framework, we were actually designing a language. It's a language for expressing user interfaces... But all the ancillary stuff that goes around that is -- you know, SvelteKit is this meta-framework that is our take on how you should build web apps from soup to nuts, as opposed to just the component framework part. And all of the libraries that go around it, it's like "This is how we think about the problem of web development writ large."
 
-**Amelia Wattenberger:** \[00:07:56.18\] I feel like there's so many good tools that come out of newsrooms, especially ones that do really fancy graphics, like The New York Times... Is there some secret sauce, or what are the conditions that lead to all of these awesome tools?
+**Amelia Wattenberger:** \[07:56\] I feel like there's so many good tools that come out of newsrooms, especially ones that do really fancy graphics, like The New York Times... Is there some secret sauce, or what are the conditions that lead to all of these awesome tools?
 
 **Rich Harris:** I think the conditions are very important. To give some examples of the sort of thing that you're talking about... The New York Times graphics department - I was a member of it for a while. Before that, Jeremy Ashkenas was in the graphics department, and had other jobs at the Times... And he created Backbone, he created Underscore, he created CoffeeScript... Things that have had seismic impacts on the JavaScript ecosystem. And specifically within data viz, Mike Bostock created D3 very largely while he was working at The New York Times graphics department. And there have been other examples as well. Gregor Aisch has done a lot of really cool open source, and he was a member of the department...
 
@@ -58,7 +58,7 @@ Svelte has seen a lot of pick-up outside newsrooms. It's being used in all sorts
 
 And to kind of maybe shift that a little bit... So I guess you've now moved on from The New York Times, and you're working kind of full-time, and you've got, I would say, more of a pure focus on your open source projects, which is really exciting. And for me, Vercel is -- you know like when a really attractive person walks into a room, and I feel like Svelte is like another really attractive person walking into the same room, and those two attractive people found each other, and they're asking each other out - that's how I feel... I feel like Vercel and Svelte - it's a marriage that makes sense, because I think at the core, Vercel is really pushing performant web experiences, more turnkey developer experiences, and I feel like Svelte is kind of tackling those same things, from a different angle.
 
-\[00:12:01.17\] So can you tell us a little bit about -- give us the Vercel story, and what can we expect with their support towards your projects?
+\[12:01\] So can you tell us a little bit about -- give us the Vercel story, and what can we expect with their support towards your projects?
 
 **Rich Harris:** Well, I think you the nail on the head there, talking about Vercel being a place that is trying to make the web more performant, and also more turnkey. I think the reason that it makes sense for me to have a home at Vercel.
 
@@ -90,7 +90,7 @@ What else...? We've got lots of big ideas around what motion and transitions cou
 
 **Amelia Wattenberger:** I have to say, the transitions are my favorite part about Svelte. I'll go back and forth between React and Svelte projects, and being able to just say \[unintelligible 00:15:57.11\] and then it does, and not have to pull in a library or write more code... It's so good.
 
-**Rich Harris:** \[00:16:06.27\] Yeah. And the React team have occasionally talked about making that stuff esier in React... Adding APIs that will allow you to defer the unmounting of elements, for example... But it's super-hard, and it's something that you've gotta actively prioritize... Because it's one thing that we've learned from the process of building those transitions is that it's gotta be a first-class consideration as you're building the framework, is kind of deeply tied in there. So I don't know, we'll see... But as I say, I think we can take that idea and super-charge it. There's a whole list of things, none of which I'm ready to commit to, but all of which we're going to be looking at in 2022.
+**Rich Harris:** \[16:06\] Yeah. And the React team have occasionally talked about making that stuff esier in React... Adding APIs that will allow you to defer the unmounting of elements, for example... But it's super-hard, and it's something that you've gotta actively prioritize... Because it's one thing that we've learned from the process of building those transitions is that it's gotta be a first-class consideration as you're building the framework, is kind of deeply tied in there. So I don't know, we'll see... But as I say, I think we can take that idea and super-charge it. There's a whole list of things, none of which I'm ready to commit to, but all of which we're going to be looking at in 2022.
 
 **Amal Hussein:** Yeah. It seems like basically folks at Vercel have -- it's like they're giving you an official sponsorship, in these that "Hey, we see the value of this, we care about performance", and I feel like they're kind of really putting their money where their mouth is, in many ways, and it's really nice. It's a great thing to see. So again, congratulations on that opportunity. We're all hopefully gonna benefit from their sponsorship; that's the beauty of open source, the stadium effect of our code.
 
@@ -104,7 +104,7 @@ So it's very difficult to design an interface and design an API that meets all o
 
 This is something that I'm a little surprised that more frameworks haven't kind of adopted. Vue is a framework that obviously has opinions about how to get your CSS into an app, but React, and all of the React-like frameworks out there just kind of leave it to developers... To me, that just feels like an abdication of responsibility. And there is a good argument why you would do that, and the argument I think that React would make is that by being deliberately bare-boned about this stuff and letting the community come up with its own conventions, you get more people working on the problem, and the best ideas will float to the surface, and you can sort of gradually adopt them.
 
-\[00:20:07.08\] But in the meantime, you're causing a lot of confusion and a lot of work for your users. And particularly in the environment in which Svelte was created, where -- we don't have time to mess around with stuff like that. It makes total sense that styling would be a first-class concern in the framework. And the same goes for things like the transitions that we talked about. Any kind of motion, like if you wanna get spring physics in your user interface, then you can do that in Svelte with an import that comes from inside the Svelte package. And that's there because we wanna encourage people to think of that as part of what you get when you use the framework, as opposed to a problem that we're giving you to solve.
+\[20:07\] But in the meantime, you're causing a lot of confusion and a lot of work for your users. And particularly in the environment in which Svelte was created, where -- we don't have time to mess around with stuff like that. It makes total sense that styling would be a first-class concern in the framework. And the same goes for things like the transitions that we talked about. Any kind of motion, like if you wanna get spring physics in your user interface, then you can do that in Svelte with an import that comes from inside the Svelte package. And that's there because we wanna encourage people to think of that as part of what you get when you use the framework, as opposed to a problem that we're giving you to solve.
 
 But where historically we drew the line was Svelte was very much a component framework, in the manner of React or Vue; Angular and Ember would be sort of \[unintelligible 00:20:57.21\] frameworks. Because of the very different ways that you can use a component framework, and - you know, in particular at the New York Times we had these very esoteric requirements, that Svelte needs to integrate with our workflow, which is primarily driven by Google Docs. And so you just couldn't have this opinionated application framework that is gonna be able to serve all of these very different use cases... So it's always been very important that Svelte is this compiler that you can use however you like, you can build your own server-side rendering solution, you can build your own build tool, plugins, all of that stuff. It's completely free-form.
 
@@ -120,7 +120,7 @@ So SvelteKit is the low floor, Svelte is (I guess) the high ceiling... I can't r
 
 So Rich, we're gonna take a break, because there's so much good stuff to get into. I wanna talk about comparisons, there's community... There's so much. So we'll be right back, after these short messages, kids.
 
-**Break:** \[00:23:40.22\]
+**Break:** \[23:40\]
 
 **Amal Hussein:** Alright... Rich, thank you for that wonderful background and context around Svelte, and SvelteKit. It was really great to learn about some of the decisions behind what came to be this interface and these constraints; it's great.
 
@@ -138,7 +138,7 @@ You said something earlier around Svelte is maybe considered one of the major fr
 
 When I say that we're one of the major frameworks, what I really mean is that other frameworks in a few cases being influenced by Svelte's decisions... When people announce new things, like new cloud things, they will very often say "Okay, here is how you build a Svelte app on it." It's one of the first things that they have in their introductory documentation. Cloudflare Pages just came out and they used SvelteKit as their example of how to build a Cloudflare Pages site. And I think once you reach that level of awareness, I think it's probably fair to count yourself as one of the major frameworks, even if you are by far the smallest.
 
-\[00:27:48.00\] And I'm pretty confident that we're gonna keep growing. We have pretty high satisfaction numbers. We've got the "Most satisfied" result in the most recent State of JavaScript survey, and we were the most loved framework in the Stack Overflow developer survey this year... So it stands to reason that we're gonna keep gaining adoption. But at the same time, adoption is not why we do this. Adoption is not the metric to try and optimize. It's just something that tells you whether or not you are in fact optimizing the right things.
+\[27:48\] And I'm pretty confident that we're gonna keep growing. We have pretty high satisfaction numbers. We've got the "Most satisfied" result in the most recent State of JavaScript survey, and we were the most loved framework in the Stack Overflow developer survey this year... So it stands to reason that we're gonna keep gaining adoption. But at the same time, adoption is not why we do this. Adoption is not the metric to try and optimize. It's just something that tells you whether or not you are in fact optimizing the right things.
 
 **Amelia Wattenberger:** If you look at JavaScript frameworks, there's like a hype cycle, if you chart how much people like it and how much people use it. How much you like it is on the X axis, and how much you use it is on the Y axis. Usually, they'll go to the right and then up... So when people really like it, there's definitely an increase in usage coming, and then you'll see the opposite on the way down. Eventually, too many developers will have to use it for work, and then they'll hate it, and then they'll stop using it. \[laughter\]
 
@@ -156,7 +156,7 @@ You look at projects like Rush, and you look at projects like Lerna, and you loo
 
 **Rich Harris:** It's a very international project.
 
-**Amal Hussein:** \[00:31:56.11\] Yeah. Wonderful for the web. For me, my life mission is to increase the number of people, change the percentage of folks who are writing for the web, so that they are more reflective of the people using the web, you know what I mean? Like, let's have those demographics mirror each other, so that we create inclusive and delightful tools and applications. So I'm really happy to hear that.
+**Amal Hussein:** \[31:56\] Yeah. Wonderful for the web. For me, my life mission is to increase the number of people, change the percentage of folks who are writing for the web, so that they are more reflective of the people using the web, you know what I mean? Like, let's have those demographics mirror each other, so that we create inclusive and delightful tools and applications. So I'm really happy to hear that.
 
 **Rich Harris:** Yeah. And it manifests itself in real ways. When we're discussing features inside Svelte or SvelteKit, we'll often have a lot of back and forth between people who've just had these very different experiences, and can speak to some of those decisions in different ways. And that makes the project much stronger than if the team was a lot more homogenous, and people had had the same kinds of experiences.
 
@@ -184,7 +184,7 @@ A lot of people will just disagree with me vehemently on that, but my observatio
 
 So if you can write code as concisely as possible, without it becoming this Perl-like gibberish, then generally you'll find that your application is gonna be more robust. So that is the big argument. And that's changed a little bit, because we used to think about Svelte in very different terms. When it first came out, the big selling point was you can make tiny JavaScript bundles, because at the time, we were coming out of this era when desktop frameworks had predominated, but mobile was becoming the more important place to write stuff on the web. We were shipping too much JavaScript to our users; we're still shipping too much JavaScript to our users, but that was like the most urgent problem.
 
-\[00:36:19.16\] So that's what Svelte initially was aimed at solving, was just making bundles smaller. And because it's compiling to this sort of vanilla JavaScript without the heavy virtual DOM machinery, it also means that your updates are faster.
+\[36:19\] So that's what Svelte initially was aimed at solving, was just making bundles smaller. And because it's compiling to this sort of vanilla JavaScript without the heavy virtual DOM machinery, it also means that your updates are faster.
 
 So that's what people first associated with Svelte, is the small and fast, and that's why it's called Svelte... But nowadays we think about it more in terms of how it affects how you think about the code that you're writing.
 
@@ -202,7 +202,7 @@ Ultimately, I think it's ridiculous for us to start over and create a whole new 
 
 **Rich Harris:** It's almost like you're trying to goad me into sharing spicy takes on Web Components.
 
-**Amal Hussein:** \[00:40:11.22\] I wanted to talk about Web Components, but then I was like "Let me not get eye rolls", because people are just gonna eye roll... But I'm like, "Shouldn't this just be a custom element?" Really, I'm curious. Because it is a web API, these are web APIs, supported natively on the platform by a majority of browsers, fairly well-ish... So I'm just curious, what are your thoughts on that.
+**Amal Hussein:** \[40:11\] I wanted to talk about Web Components, but then I was like "Let me not get eye rolls", because people are just gonna eye roll... But I'm like, "Shouldn't this just be a custom element?" Really, I'm curious. Because it is a web API, these are web APIs, supported natively on the platform by a majority of browsers, fairly well-ish... So I'm just curious, what are your thoughts on that.
 
 **Rich Harris:** I think people tend to overstate that problem, the problem of having to rewrite things for different frameworks... Because there aren't that many frameworks. And having to rewrite something in three frameworks is a tractable problem; having to rewrite it in a thousand frameworks would not be. But that's not the situation that we find ourselves in.
 
@@ -228,7 +228,7 @@ I've just got so tired of thinking about Web Components and how hard they make i
 
 **Amal Hussein:** Yeah, a different bag of problems that an increasingly shrinkig group of developers seem to be caring about as well... Yeah, so thank you so much for weighing in on that and humoring me. You did a really good job of avoiding that pitfall, so good job. Points for you, Rich.
 
-**Break:** \[00:43:38.05\]
+**Break:** \[43:38\]
 
 **Amal Hussein:** Rich, thank you for walking us through part one of hot topics in the open source community. It's like a never-ending story. Actually, Amelia, remember you and I were preparing for this show earlier today? I think you said something really funny; do you wanna share it? That he's like the kind of hot takes... \[laughs\]
 
@@ -246,7 +246,7 @@ I've just got so tired of thinking about Web Components and how hard they make i
 
 So kind of just to continue our hot topics... So React - I've been using the library forever; really, it helped me even be better at JavaScript. It helped really democratize the component model that we were kind of skirting around for a very long time as a community. So I'm very thankful for the way it's helped push certain things forward. However, I think there's certain things around performance and other things where I feel like maybe React has kind of stagnated. And for me, I think a product of its success in many ways, React is a product that really supports a wide variety of applications and platforms. And this reconciliation algorithm, and this virtual DOM, and the synthetic events, and all these things that are kind of like extraneous and not necessarily found in other projects on the web... You can look at Preact, Svelte - y'all don't need a virtual DOM, y'all don't need synthetic events... Extremely performant, much smaller bundler size... But the constraint that React has is we output to many DOM trees; or not DOM trees, but platformy trees... iOS and Android being the other two major platforms. So it's got some bloat because of that.
 
-\[00:47:48.29\] A friendly argument that I was having with a friend of mine a few weeks ago was like "Okay, is it safe to say at that point that maybe React is not the best choice if you're writing for just the web?" We agreed, and he was like "Yes. If you're just writing for the web, React is not the best choice." Because I was just trying to say, I don't think React is -- like, if I was starting a project in 2021 (or 2022 now almost) for the web, I wouldn't pick React. I wouldn't. Just because it's bulky. I would try to pick something that's really gonna force me to use as little JavaScript as possible. And React is more than I need, it's more engine than I need, if I'm just writing for the web. So I'm just curious, do you feel like Svelte is -- like, how is Svelte tackling this problem? Because I feel like for me Svelte feels very web-first, web-only right now. Is there a mobile story? Have you tackled those constraints around multi-platform? Because if I'm working at a company and I'm trying to get my manager to adopt Svelte, my manager is gonna say "Well, is there a native library? How does that work? I don't wanna have to hire folks to write Swift and Kotlin, or whatever."
+\[47:48\] A friendly argument that I was having with a friend of mine a few weeks ago was like "Okay, is it safe to say at that point that maybe React is not the best choice if you're writing for just the web?" We agreed, and he was like "Yes. If you're just writing for the web, React is not the best choice." Because I was just trying to say, I don't think React is -- like, if I was starting a project in 2021 (or 2022 now almost) for the web, I wouldn't pick React. I wouldn't. Just because it's bulky. I would try to pick something that's really gonna force me to use as little JavaScript as possible. And React is more than I need, it's more engine than I need, if I'm just writing for the web. So I'm just curious, do you feel like Svelte is -- like, how is Svelte tackling this problem? Because I feel like for me Svelte feels very web-first, web-only right now. Is there a mobile story? Have you tackled those constraints around multi-platform? Because if I'm working at a company and I'm trying to get my manager to adopt Svelte, my manager is gonna say "Well, is there a native library? How does that work? I don't wanna have to hire folks to write Swift and Kotlin, or whatever."
 
 **Rich Harris:** Yeah, I have many thoughts about all of this. I'm gonna preface it all with saying that I'm not a \[unintelligible 00:48:58.16\] developer.
 
@@ -266,7 +266,7 @@ What we haven't done is make that process pluggable and expose it via an API. Bu
 
 **Rich Harris:** It's possible that Svelte will have more native support for native one day. For now, you can do it. The maybe caveats -- again, I'm not all that experienced, so I can't speak to them... But if you want a battle-tested solution for building native apps, then React Native is probably the best thing for right now.
 
-**Amal Hussein:** \[00:52:09.23\] That's interesting. I'm glad to hear you say that. I'm really curious to maybe see in like a year what your answer is... Because I know the exponential compound interest natures of JavaScript ecosystem, and someone could have the solution ready for this like tomorrow. So I'm curious to see how that pans out. But thank you for weighing in on that.
+**Amal Hussein:** \[52:09\] That's interesting. I'm glad to hear you say that. I'm really curious to maybe see in like a year what your answer is... Because I know the exponential compound interest natures of JavaScript ecosystem, and someone could have the solution ready for this like tomorrow. So I'm curious to see how that pans out. But thank you for weighing in on that.
 
 I know Amelia and I were really excited to hear about Svelte's community. We can't end this show without talking about community. It's like the currency of open source, it's the currency of everything that we do. I know there's an incredible, very active Svelte community, and like you said earlier, there are the people who have chosen to get into Svelte - not because of work, but because they're hobbyists, or people who really appreciate the API. So can you just maybe tell us a little about the Svelte community, and where do you all convene...? You guys had your first conference recently...
 
@@ -312,7 +312,7 @@ And yeah, there was a conference recently... Svelte - there's like the core team
 
 Guillermo and some of the Vercel crew flew in to join the meetup, he gave a little impromptu talk to the assembled people, that was also broadcast live on the internet... It felt like a really nice moment, because as I say, it sort of coincides with Svelte's 5th birthday, and it was a really nice time to sort of take stock and think about everything that the community has achieved, and where it's going in the future.
 
-**Amal Hussein:** \[00:56:14.25\] That sounds amazing. And there's also like a newer community group called Svelte Sirens, I think, that's geared towards folks who are --
+**Amal Hussein:** \[56:14\] That sounds amazing. And there's also like a newer community group called Svelte Sirens, I think, that's geared towards folks who are --
 
 **Rich Harris:** Oh, yes, yes, yes. I wanted to talk about Svelte Sirens.
 
@@ -340,7 +340,7 @@ So Three has done 95% of the work, and then Svelte Kubed aims to do the last 5%.
 
 At the same time, state management becomes very difficult when you're building things imperatively... If you have a component framework that lets you use the same idioms that you use elsewhere in your app, to build WebGL stuff, then it does get a hell of a lot easier to manage. But you also get things like lifecycle management, which means that you get hot module reloading inside your Three.js classes, for example, which you will not get with Three by itself. So it's not just making it slightly more idiomatic and slightly easier to use, it's actually improving the experience of building stuff in some fairly tangible, but non-obvious ways as well.
 
-\[00:59:48.15\] So I'm kind of excited by that... It's something that came out of a New York Times project over the summer, and now that it's open-sourced, it starting to get some contributions from people who actually know what they're doing... So I'm excited to see how that shapes out.
+\[59:48\] So I'm kind of excited by that... It's something that came out of a New York Times project over the summer, and now that it's open sourced, it starting to get some contributions from people who actually know what they're doing... So I'm excited to see how that shapes out.
 
 **Amelia Wattenberger:** I was gonna ask, as someone who has used react-three-fiber, were there implementation differences, or API differences for using it? Or is it pretty much similar?
 
