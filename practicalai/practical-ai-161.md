@@ -170,7 +170,7 @@ So we're using notebooks, we're using the GPU server, but then these models and 
 
 **Daniel Whitenack:** Yeah, exactly. We can split them up and slice and dice them the way that makes sense for the season of research that we're in. I think that's a really beneficial thing. So yeah, I would highly recommend people look into that technology if if they're able.
 
-**Chris Benson:** It is. That was my single favorite feature when the A100s came out, was that ability to do that instead of having to use them all. \[unintelligible 00:45:02.17\] once you had the A100s to look back, it felt very inefficient in terms of how you were going and doing training.
+**Chris Benson:** It is. That was my single favorite feature when the A100s came out, was that ability to do that instead of having to use them all. It was otherwise - once you had the A100s to look back, it felt very inefficient in terms of how you were going and doing training.
 
 I want to go back and hit a really basic question that people are facing a lot, and that is, how did you determine your crossover for the organization for when it needed to have an on-prem server, versus when it could use cloud resources, whether that be Google Colab or AWS, or any of the others that are out there? How did you make such a determination?
 
@@ -188,7 +188,7 @@ Now, you could also spin up our cloud server and implement similar queues and su
 
 **Chris Benson:** It does. It looks pretty cool. I'm looking through it now. Thank you for sharing this.
 
-**Daniel Whitenack:** Yeah, for sure. There's also a bunch of things going on in the month of December around the Advent of Code, and 27 days of \[unintelligible 00:48:42.04\] I've seen that. So there's a whole bunch of every day of December trying to do some coding thing out there. So if you're into that, you could look up some of those things, as they're always good learning experiences... But yeah, I wanted to share this Pandas thing that I ran across.
+**Daniel Whitenack:** Yeah, for sure. There's also a bunch of things going on in the month of December around the Advent of Code, and 27 days of jacks I've seen that. So there's a whole bunch of every day of December trying to do some coding thing out there. So if you're into that, you could look up some of those things, as they're always good learning experiences... But yeah, I wanted to share this Pandas thing that I ran across.
 
 **Chris Benson:** Well, thanks. You've really taken us on a bit of a tour today, between OpenAI and Hugging Face, and then how you guys put together your current approach to training... So thank you for sharing that.
 
