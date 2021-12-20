@@ -24,7 +24,7 @@
 
 **Miki Tebeka:** Close enough.
 
-**Natalie Pistunovich:** Roger, you are an aging gopher. You describe yourself like that. And an ex Plan 9 \[unintelligible 00:03:39.22\] long-time contributor. That's fun. And you work at InfluxData. You're also a meetup organizer. Actually, both of you are meetup organizers.
+**Natalie Pistunovich:** Roger, you are an aging gopher. You describe yourself like that. And an ex Plan 9 inferno er long-time contributor. That's fun. And you work at InfluxData. You're also a meetup organizer. Actually, both of you are meetup organizers.
 
 **Roger Peppe:** This is true. Hi.
 
@@ -66,7 +66,7 @@ So yeah, ever since then it's been, you know, first doing some side projects, an
 
 **Roger Peppe:** I think I had a bit of a different background to most people. I got into this system from -- it came from Bell Labs, called Plan 9, way back when I was at university, in the early '90s. And I've been following along with that, and they also produced a system called Inferno, which started at the same kind of time as Java. There was a kind of JIT basis to it. It had this really interesting language - I thought it was a really nice language - called Limbo. And that had a lot -- it actually had a lot in common with Go.
 
-So I've been doing some stuff with Inferno \[unintelligible 00:07:32.11\] had a full-time job doing that area... And that was kind of fizzling out, to be honest. And on the day it came out, somebody mentioned, "Oh, Go has come out today, this new language." And I was like "Oh, this is interesting." So I was actually staying in the Bay Area at the time, and I found that out in the afternoon, and I was going into town -- I played the fiddle and I was going into town to play at a music session in town... And I found a printer and I printed out the specification, and I read it on the bus, on the way to San Francisco... \[unintelligible 00:08:09.08\] "Oh, yeah. Oh, this is interesting." So that's how I found out about Go. That's how I started. And from then on, I didn't look back, really. I basically -- I took a year not doing anything, not doing any paid work. I was just working on Go in that year, basically.
+So I've been doing some stuff with Inferno and I'd had a full-time job doing that area... And that was kind of fizzling out, to be honest. And on the day it came out, somebody mentioned, "Oh, Go has come out today, this new language." And I was like "Oh, this is interesting." So I was actually staying in the Bay Area at the time, and I found that out in the afternoon, and I was going into town -- I played the fiddle and I was going into town to play at a music session in town... And I found a printer and I printed out the specification, and I read it on the bus, on the way to San Francisco... Just like, reading through it, "Oh, yeah. Oh, this is interesting." So that's how I found out about Go. That's how I started. And from then on, I didn't look back, really. I basically -- I took a year not doing anything, not doing any paid work. I was just working on Go in that year, basically.
 
 **Natalie Pistunovich:** \[08:28\] When you say that somebody told you about that - did you overhear a conversation, did you find it on Reddit? How did this magic happen?
 
@@ -84,9 +84,9 @@ So I've been doing some stuff with Inferno \[unintelligible 00:07:32.11\] had a 
 
 **Roger Peppe:** I haven't looked at the GoNuts IRC channel for a number of years now.
 
-**Natalie Pistunovich:** I can't say \[unintelligible 00:09:51.01\] Miki, how did you find out about the language?
+**Natalie Pistunovich:** I can't say I'm there. Miki, how did you find out about the language?
 
-**Miki Tebeka:** So for me it's a bit of a twisted path. I did mostly Python at the time, and they started talking about adding asyncio to the language, which I didn't like. So I looked for other languages who support both a lot of concurrency, and can use all the cores easily. If you're interested, there's one article called "The free lunch is over", which talks about the fact that clock cycles are staying the same, and now we get more cores, and traditional languages - it's a problem for them to use that. And the second one is the \[unintelligible 00:10:28.21\] how can I serve 10,000 connections from a single process.
+**Miki Tebeka:** So for me it's a bit of a twisted path. I did mostly Python at the time, and they started talking about adding asyncio to the language, which I didn't like. So I looked for other languages who support both a lot of concurrency, and can use all the cores easily. If you're interested, there's one article called "The free lunch is over", which talks about the fact that clock cycles are staying the same, and now we get more cores, and traditional languages - it's a problem for them to use that. And the second one is the sit nk problem - how can I serve 10,000 connections from a single process.
 
 So I was looking for a language, and I looked at several of them. I like programming languages in general... And I tried out Erlang, Clojure, and Go. Go was at the very beginning; without the Go tool, we used makefiles, and... Because I came from dynamic languages, I started actually with Clojure, and it was nice, until my hatred of the JVM drove me away. Then I came back to Go. It was a bit more mature. And ever since, I'm really happy there.
 
@@ -140,17 +140,17 @@ I think Go has got loads of potential niches. I think Kubernetes is a really big
 
 **Natalie Pistunovich:** \[16:15\] You mentioned, Roger, that you spent your first year after discovering Go just playing around with it and building projects for fun... Some of the things you were doing is contributing to the codebase... What other projects did you think that Go would be a good match for, and what in the properties of it made you think that?
 
-**Roger Peppe:** I'm not sure I had a good idea about what particular kind of areas it might be a good match for. I was playing around, I did some graphics stuff... There was an X11 driver for it, so \[unintelligible 00:16:43.12\] playing around with that.
+**Roger Peppe:** I'm not sure I had a good idea about what particular kind of areas it might be a good match for. I was playing around, I did some graphics stuff... There was an X11 driver for it, so you know, I remember playing around with that.
 
 I built little tools... One of the tools I built was this thing called godef, which enabled you to click on something in your editor, on a Go symbol, and it would take you to where that symbol was defined. And that was actually used in Govim for quite a long time, because I built it in a way that was pretty easy to use. I actually built it for the editor that I use, which nobody else uses...
 
-**Johnny Boursiquot:** Is that Emacs? \[laughter\] \[unintelligible 00:17:13.02\]
+**Johnny Boursiquot:** Is that Emacs? \[laughter\]
 
 **Roger Peppe:** Yeah... No. Vim. \[laughter\]
 
 **Johnny Boursiquot:** Oh, nice. Nice.
 
-**Roger Peppe:** Yeah, so I was just building little things... Godef ended up quite widely used, and I went back earlier, thinking \[unintelligible 00:17:29.29\] back in May 2010; around then I was kind of starting... Because the way that Godef came about is I was looking at the Go AST packages and the Go parser packages, where they make it really easy for you to parse Go source code... And I was like "Oh, that's really cool." And I just built a little thing to parse it, and I was like, "You know what - you could probably work out a way... If you just had a little bit of intelligence there, you could actually work out where these symbols were defined." You can actually do it really efficiently... Unfortunately, Godef these days is really slow, because it uses the standard tooling, which basically \[unintelligible 00:18:09.02\] everything into memory. At the time it was pretty nice, because it would just do it lazily. So it would just read only the symbol, only the bit of code that it needed, and it would just resolve exactly that; it would resolve a symbol within a couple of milliseconds, from scratch, from cold... It was pretty cool at the time. Now, of course, you've got Go IDE, or Go -- I can't remember what it's called.
+**Roger Peppe:** Yeah, so I was just building little things... Godef ended up quite widely used, and I went back earlier, thinking, oh look the first commits on there, I was doing stuff back in May 2010; around then I was kind of starting... Because the way that Godef came about is I was looking at the Go AST packages and the Go parser packages, where they make it really easy for you to parse Go source code... And I was like "Oh, that's really cool." And I just built a little thing to parse it, and I was like, "You know what - you could probably work out a way... If you just had a little bit of intelligence there, you could actually work out where these symbols were defined." You can actually do it really efficiently... Unfortunately, Godef these days is really slow, because it uses the standard tooling, which basically reads everything into memory. At the time it was pretty nice, because it would just do it lazily. So it would just read only the symbol, only the bit of code that it needed, and it would just resolve exactly that; it would resolve a symbol within a couple of milliseconds, from scratch, from cold... It was pretty cool at the time. Now, of course, you've got Go IDE, or Go -- I can't remember what it's called.
 
 **Johnny Boursiquot:** GoLand?
 
@@ -180,9 +180,7 @@ So it was a good match for Go to do that, to basically run tests. Currently, it'
 
 **Miki Tebeka:** No.
 
-**Roger Peppe:** \[unintelligible 00:19:37.13\]
-
-**Miki Tebeka:** As a sidenote, it's really hard to get rid of your open source project, to find someone else to maintain it. So I'm really thankful for that. After that, I dipped my toe that says "I'm going to do something inside Go itself." So I wrote the initial implementation for the parallel testing feature. That was my first interaction with the core Go team, and I learned so much - how to do designs, how to do reviews... I think it was like 14 cycles of code reviews before it got in. I think, Roger, you were there, as well.
+As a sidenote, it's really hard to get rid of your open source project, to find someone else to maintain it. So I'm really thankful for that. After that, I dipped my toe that says "I'm going to do something inside Go itself." So I wrote the initial implementation for the parallel testing feature. That was my first interaction with the core Go team, and I learned so much - how to do designs, how to do reviews... I think it was like 14 cycles of code reviews before it got in. I think, Roger, you were there, as well.
 
 **Roger Peppe:** \[20:13\] Sorry, which feature was this? I missed it...
 
@@ -198,9 +196,9 @@ So it was a good match for Go to do that, to basically run tests. Currently, it'
 
 **Miki Tebeka:** And after that, a lot of other things.
 
-**Johnny Boursiquot:** I just snuck Go into every organization I could find, wherever I went to work... I just snuck it in, and I'd usually do it with like a command line tool. That was my beachhead, basically - just build a CLI tool, and then deliberately have another developer on the team extend it, say like "Oh, you wanna add support for that?" "Yeah, just go \[unintelligible 00:20:44.19\] check it out, and if you have any questions, let me know." \[unintelligible 00:20:47.03\] "Yeah, it'll be fine. It'll be fine. Just check it out, and if you don't have Go, just download it here. It's super, super-simple." And they'd kind of give me the side-eye and be a little skeptic, but "Oh, it'll be fine. It'll be fine. Do you want me to come pair with you? Let's just do it." And we'd sit down, and all of a sudden you'd see all of the hesitation start to dissipate a little bit, because they're like "Okay, this is kind of nice. I don't need any super-fancy things, or anything heavy... Oh my God, it compiles so fast! It's almost like I'm scripting." I'm like, "Yeah! That's awesome, isn't it?" And next thing you know, we'd open up a PR, and boom. And that was it.
+**Johnny Boursiquot:** I just snuck Go into every organization I could find, wherever I went to work... I just snuck it in, and I'd usually do it with like a command line tool. That was my beachhead, basically - just build a CLI tool, and then deliberately have another developer on the team extend it, say like "Oh, you wanna add support for that?" "Yeah, just go in the repo check it out, and if you have any questions, let me know." They go into it and be like "This is in Go?" "Yeah, it'll be fine. It'll be fine. Just check it out, and if you don't have Go, just download it here. It's super, super-simple." And they'd kind of give me the side-eye and be a little skeptic, but "Oh, it'll be fine. It'll be fine. Do you want me to come pair with you? Let's just do it." And we'd sit down, and all of a sudden you'd see all of the hesitation start to dissipate a little bit, because they're like "Okay, this is kind of nice. I don't need any super-fancy things, or anything heavy... Oh my God, it compiles so fast! It's almost like I'm scripting." I'm like, "Yeah! That's awesome, isn't it?" And next thing you know, we'd open up a PR, and boom. And that was it.
 
-One at a time, I'd just be converting people -- obviously, not every company was appreciative of how I was converting everybody into using a non-sanctioned language... But eventually, folks started to see the value. Because beyond the CLIs, what typically would happen, there'd be one developer - not me; at that point I'd be removing myself from the equation and letting people just run with it and see where they go with it... And somebody would suggest, "Hey, how about we write this API, this REST service - how about we do that in Go? Because I heard it's pretty fast, pretty good at that stuff. And there's libraries we can use already... Can we just do one of those things?" And then \[unintelligible 00:22:03.29\] manager or technical lead would be like, "Okay, fine." And then we'd try it and it would be so fast compared to other things, which I will not name, because that's not the point... But it'd be so much faster than what they typically would be using... And then that's really how that whole transition would start to happen. People would be like, "Oh, I'm more productive. This is a safe language to use; it's gonna catch things that normally I'd go find out about at runtime." The process for getting this work done, even when novice developers who are actually adapting with concurrency stuff and they wanted to use goroutines and everything else - with a little bit of guidance, they were so productive.
+One at a time, I'd just be converting people -- obviously, not every company was appreciative of how I was converting everybody into using a non-sanctioned language... But eventually, folks started to see the value. Because beyond the CLIs, what typically would happen, there'd be one developer - not me; at that point I'd be removing myself from the equation and letting people just run with it and see where they go with it... And somebody would suggest, "Hey, how about we write this API, this REST service - how about we do that in Go? Because I heard it's pretty fast, pretty good at that stuff. And there's libraries we can use already... Can we just do one of those things?" And then with some reluctance manager or technical lead would be like, "Okay, fine." And then we'd try it and it would be so fast compared to other things, which I will not name, because that's not the point... But it'd be so much faster than what they typically would be using... And then that's really how that whole transition would start to happen. People would be like, "Oh, I'm more productive. This is a safe language to use; it's gonna catch things that normally I'd go find out about at runtime." The process for getting this work done, even when novice developers who are actually adapting with concurrency stuff and they wanted to use goroutines and everything else - with a little bit of guidance, they were so productive.
 
 At that point, once I've planted that seed, I'd just step back and watch it grow. Because Go really just speaks for itself. It's that good of a language.
 
@@ -266,7 +264,7 @@ I see more companies using it. It's more widespread. Big companies, big names, a
 
 **Natalie Pistunovich:** Nice. Interesting. Roger, how is that in the North of the U.K.?
 
-**Roger Peppe:** Well, there was a long time where I thought there were actually no gophers here at all, absolutely none. There was a time when GitHub did this "You are the top developer in your area" thing, and I was like "Oh, and the top Go developer in the \[unintelligible 00:27:50.12\] then there's none", right? Except there's someone else. I'm like, "Who's this other person?" So we got chatting on Twitter, and it's like, "Oh, there's someone else. Maybe we should have a meetup."
+**Roger Peppe:** Well, there was a long time where I thought there were actually no gophers here at all, absolutely none. There was a time when GitHub did this "You are the top developer in your area" thing, and I was like "Oh, and the top Go developer in the North East, no \*\*\*\* then there's none", right? Except there's someone else. I'm like, "Who's this other person?" So we got chatting on Twitter, and it's like, "Oh, there's someone else. Maybe we should have a meetup."
 
 **Johnny Boursiquot:** Of two. \[laughter\]
 
@@ -280,7 +278,7 @@ I see more companies using it. It's more widespread. Big companies, big names, a
 
 **Roger Peppe:** Yeah, but you know, you're never alone on the internet. \[laughter\] I mean, that's pretty much it. I didn't know of anyone... To be honest, most of the people that come along to the meetup tend to be people that are interested in Go, not people that are actually actively working in Go.
 
-But ever since that first Go job, I've been working remotely, so that's the thing. They don't have to be anyone in your local area that programs in Go or programs in whatever you want to program in. You can just get a remote job and that's awesome, because now I'm in the middle of absolutely nowhere, in the \[unintelligible 00:29:10.14\] of Northumberland, and I've got a fine job at Influx, and it's awesome.
+But ever since that first Go job, I've been working remotely, so that's the thing. They don't have to be anyone in your local area that programs in Go or programs in whatever you want to program in. You can just get a remote job and that's awesome, because now I'm in the middle of absolutely nowhere, in the wiles of Northumberland, and I've got a fine job at Influx, and it's awesome.
 
 **Natalie Pistunovich:** And other than the meetup, do you see that the tech ecosystem is adopting Go, or how is the adoption looking like?
 
@@ -316,19 +314,19 @@ So for those of you who are thinking "Man, the only way I can contribute is by w
 
 **Miki Tebeka:** Yeah, I think there's a big difference between a user of the language and a developer of the language. You can be a good citizen in the Go community by using the language and making it better, without actually developing any feature or doing any bug fix on the language itself.
 
-**Roger Peppe:** Yeah... Go, the language, is so mature that all the rough edges have been \[unintelligible 00:35:41.16\] As I was saying, when I started, there were loads of sharp edges. And when there are sharp edges, it's really easy to just dive in. It's like, "I've got this need to fix this thing." But now it's really hard to get into actually -- there aren't so many things to fix. And the things that are there to be fixed are pretty hard to fix. They're not easy, because if they were easy, someone else would have done it, right?
+**Roger Peppe:** Yeah... Go, the language, is so mature that all the rough edges have been filed off. As I was saying, when I started, there were loads of sharp edges. And when there are sharp edges, it's really easy to just dive in. It's like, "I've got this need to fix this thing." But now it's really hard to get into actually -- there aren't so many things to fix. And the things that are there to be fixed are pretty hard to fix. They're not easy, because if they were easy, someone else would have done it, right?
 
 **Natalie Pistunovich:** \[36:04\] Yeah.
 
 **Roger Peppe:** So I think that Johnny's absolutely right. I hardly ever contribute. I kind of like contributing to Go, but I haven't. I've done like two features in the last three years, or something. It's nothing.
 
-If you actually wanna contribute to Go, the core thing, as well as the social thing, just filing good issues, if you have problems \[unintelligible 00:36:25.13\] can be really, really helpful, I think. If you have an issue which you think is a bug, then you can complain about it... But filing a really good issue is actually really helpful.
+If you actually wanna contribute to Go, the core thing, as well as the social thing, just filing good issues, if you have problems then, actually contributing can be really, really helpful, I think. If you have an issue which you think is a bug, then you can complain about it... But filing a really good issue is actually really helpful.
 
 **Johnny Boursiquot:** Right, right.
 
 **Natalie Pistunovich:** And if you are an early user and you're not even finding bugs, what you can always do is answer questions on Slack, for example. There's always somebody newer than you, and somebody who answered many newbie questions; sometimes they will be over-answered and will not want to answer, so step in, answer some questions, whatever you can. It's always a great way to nurture the community.
 
-**Roger Peppe:** Some of the Go team members are really good examples in that regard. You see on the GoNuts mailing list, Ian Lance Taylor - he's one of the original three contributors, and he basically knows everything, and he will not ever look down on the question. He answers the questions at face-value really well, and it's a \[unintelligible 00:37:24.21\] lesson to all of us, not to be snarky. Because it's so easy, like "Oh, they're asking that same thing that I've heard asked a hundred times before", to just say "Go look back into the archives."
+**Roger Peppe:** Some of the Go team members are really good examples in that regard. You see on the GoNuts mailing list, Ian Lance Taylor - he's one of the original three contributors, and he basically knows everything, and he will not ever look down on the question. He answers the questions at face-value really well, and it's a object lesson to all of us, not to be snarky. Because it's so easy, like "Oh, they're asking that same thing that I've heard asked a hundred times before", to just say "Go look back into the archives."
 
 **Natalie Pistunovich:** Read the docs, yeah.
 
@@ -342,15 +340,15 @@ If you actually wanna contribute to Go, the core thing, as well as the social th
 
 **Johnny Boursiquot:** Something immediately comes to mind, and that's the code of conduct, that's gone through a few iterations. We have a Go code of conduct for the community that's gone through a few iterations, that's now headed by and managed by a core group of people on the Go team, and some other involved community members as well. That's gone through some iterations, and it's gotten more refined, and all in the pursuit of making this a safe and welcoming community for everybody.
 
-Every now and then \[unintelligible 00:38:45.05\] whether they realize it or not. What I can say to that is basically if you know that you're running afoul of our code of conduct - you don't necessarily have to agree with everything it says, but you have to respect it, because this is sort of the body of work that basically says "This is the expectation that we have of everybody within that community." Again, you don't have to agree with everything, but you at least have to respect it. And if it's not for you, and you think "Okay, there's something in there I just cannot live with", maybe you practice Go in isolation; nobody's gonna prevent you from doing Go, but your involvement in the community may be limited, or you may be self-limiting your participation in the Go community if you're not willing to adapt to some of those things. Again, not everything in there is gonna be a hundred percent agreeable to everybody, but we all have to have some sort of common -- like a base to go from, if we wanna have something that works for most people. Again, nothing's gonna work for everybody, but we all need some sort of baseline to go from.
+Every now and then, forced to    run a file on it, whether they realize it or not. What I can say to that is basically if you know that you're running afoul of our code of conduct - you don't necessarily have to agree with everything it says, but you have to respect it, because this is sort of the body of work that basically says "This is the expectation that we have of everybody within that community." Again, you don't have to agree with everything, but you at least have to respect it. And if it's not for you, and you think "Okay, there's something in there I just cannot live with", maybe you practice Go in isolation; nobody's gonna prevent you from doing Go, but your involvement in the community may be limited, or you may be self-limiting your participation in the Go community if you're not willing to adapt to some of those things. Again, not everything in there is gonna be a hundred percent agreeable to everybody, but we all have to have some sort of common -- like a base to go from, if we wanna have something that works for most people. Again, nothing's gonna work for everybody, but we all need some sort of baseline to go from.
 
 We do a pretty good job, enough so that people who do come into the Go community want to stay in it, and I think that's a testament to the last ten years and all the work that has gone in, the people that are involved, and the learner attitude we take towards community management and community organization. Everybody on this call who manages a user group knows how hard that stuff can be at times, so I think that's a testament to the people that really are providing the leadership for this community going forward... And hopefully, the next ten years is even better.
 
 **Natalie Pistunovich:** \[40:17\] Yup. \[laughs\] Roger, is there anything that you would point out, that you really enjoyed from all the changes of the language and/or the community?
 
-**Roger Peppe:** For me the biggest change in the community is just the size of it. It's interesting, because you get a lot of people that are familiar with the core codebase, and maybe familiar with the idioms there, and write code that's resilient, but now there's a whole \[unintelligible 00:40:43.17\] very different style. There's lots of people that have looked at Kubernetes, for example, and they're like "Oh, that's how you write Go", and so they write Go like that. And I think that whole thing is really interesting. And I can talk to someone a little bit and I'll \[unintelligible 00:41:00.03\] totally different way, and I think that's kind of interesting.
+**Roger Peppe:** For me the biggest change in the community is just the size of it. It's interesting, because you get a lot of people that are familiar with the core codebase, and maybe familiar with the idioms there, and write code that's resilient, but now there's a whole off-sheets that write very different style. There's lots of people that have looked at Kubernetes, for example, and they're like "Oh, that's how you write Go", and so they write Go like that. And I think that whole thing is really interesting. And I can talk to someone a little bit and I'll mention something and they'll be like "Oh really? You do it like this?" No we do it like this. totally different way, and I think that's kind of interesting.
 
-There are lots of ways to do it, and also there's this huge community that generates its own -- there's many sub-ecosystems to Go now, I think. Lots of people that are familiar with a codebase, and "Oh, that's how you do it." I think that's pretty interesting, how that's managed to \[unintelligible 00:41:28.24\] And maybe you don't need to manage it, but maybe Go just helps. But I do think there are probably good ways and bad ways to go, and sometimes I look at code and I'm like, "Oh, really? Um... You're doing Java in Go" or you're doing some other language in Go, and maybe that's not ideal. But maybe that's the way forward, I don't know.
+There are lots of ways to do it, and also there's this huge community that generates its own -- there's many sub-ecosystems to Go now, I think. Lots of people that are familiar with a codebase, and "Oh, that's how you do it." I think that's pretty interesting, how that's managed to start to go forward. And maybe you don't need to manage it, but maybe Go just helps. But I do think there are probably good ways and bad ways to go, and sometimes I look at code and I'm like, "Oh, really? Um... You're doing Java in Go" or you're doing some other language in Go, and maybe that's not ideal. But maybe that's the way forward, I don't know.
 
 **Johnny Boursiquot:** Gava and Guby? \[laughter\]
 
@@ -376,7 +374,7 @@ There are lots of ways to do it, and also there's this huge community that gener
 
 **Roger Peppe:** I always think that Go would make a great language for programming graphic stuff in... I know it hasn't gotten to that place, but there's some interesting developments in that area. Maybe it would, but the area is so complex that maybe it never will.
 
-I think Go excels in tooling, APIs and that sort of thing; it's great, because you can actually have this whole back-and-forth between different sources of truth. You can generate code... There's a language called CUE, which I think is great... There's \[unintelligible 00:45:45.13\] interplay between that kind of configuration-based stuff and more imperative, more Go stuff. I think that's a really interesting area.
+I think Go excels in tooling, APIs and that sort of thing; it's great, because you can actually have this whole back-and-forth between different sources of truth. You can generate code... There's a language called CUE, which I think is great... There's interplay between that kind of configuration-based stuff and more imperative, more Go stuff. I think that's a really interesting area.
 
 I think there's a lot to be said for just using it to talk to existing services... For example, if you want to use InfluxDB, get Go; it's really easy. So who knows where it'll go...
 
@@ -438,7 +436,7 @@ So now one of the even fun reasons that I get when people ask me "Why should I u
 
 **Miki Tebeka:** It's true and false for you at the same time.
 
-**Natalie Pistunovich:** \[unintelligible 00:53:15.09\] opinion.
+**Natalie Pistunovich:** Schrödinger's opinion.
 
 **Roger Peppe:** I love avocadoes, so I'm sure the combination is good, but...
 
@@ -450,7 +448,7 @@ So now one of the even fun reasons that I get when people ask me "Why should I u
 
 **Roger Peppe:** Yeah, I have to say I don't even know -- you know, it's got toast and it's got avocadoes, but I have no idea what else it's got. A little bit of dressing, maybe...
 
-**Natalie Pistunovich:** \[unintelligible 00:53:44.10\]
+**Natalie Pistunovich:** Out of order execution I fried the avocado and then here's bread
 
 **Roger Peppe:** Chilis...? You'd have to have chilies with it... For me, definitely.
 
@@ -502,7 +500,7 @@ But interestingly enough, those people who are able to do that become the more p
 
 **Roger Peppe:** So why is the ball better? I'm interested. Maybe I should get one.
 
-**Johnny Boursiquot:** It's a stationary surface. The only thing moving is your thumb, and you can go anywhere on the screen. You don't have to \[unintelligible 00:57:31.28\] and everything else... It's just a nice, one surface; your hand just stays there. If you wanna get sophisticated, some of these things even have different positions they can take to accommodate your hand, and everything else... I mean, it's really quite a different experience.
+**Johnny Boursiquot:** It's a stationary surface. The only thing moving is your thumb, and you can go anywhere on the screen. You don't have to get carpal tunneled, hand around on your desk and everything else... It's just a nice, one surface; your hand just stays there. If you wanna get sophisticated, some of these things even have different positions they can take to accommodate your hand, and everything else... I mean, it's really quite a different experience.
 
 **Roger Peppe:** Maybe I should get one.
 
@@ -526,7 +524,7 @@ But interestingly enough, those people who are able to do that become the more p
 
 **Natalie Pistunovich:** Congratulations.
 
-**Roger Peppe:** \[unintelligible 00:58:22.22\]
+**Roger Peppe:** It's because I need three buttons right? So I can't use the normal, trackpad.
 
 **Johnny Boursiquot:** Alright... Well, there you have it.
 
