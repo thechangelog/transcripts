@@ -34,7 +34,7 @@ I would say the most obvious would be function names. Being as explicit as possi
 
 The video that you were referring to - take a completely blind developer, for example, which were like that since their birth, for example... Compared to me, they are able to capture or understand the screen reader in a speed that I just cannot -- I'm not there yet. I don't even know how they are doing that. I'm blind since birth as well, but I always had a little visual -- so yeah, it's hard.
 
-\[08:15\] So what I'm doing at this moment is that I force myself to close my screen, at the moment; so I need to close my screen, and I need to try to learn to use that. It is difficult. I'm a Linux user, I've been using Linux day to day since 2014... The tooling that I use there - it is extremely performant for me... Until three years ago. So I'm using i3 as the \[unintelligible 00:08:42.07\] manager. I'm not using my mouse, ever. All my windows are always maximized, and I'm using the virtual desktop of i3... So that was very good.
+\[08:15\] So what I'm doing at this moment is that I force myself to close my screen, at the moment; so I need to close my screen, and I need to try to learn to use that. It is difficult. I'm a Linux user, I've been using Linux day to day since 2014... The tooling that I use there - it is extremely performant for me... Until three years ago. So I'm using i3 as the time manager. I'm not using my mouse, ever. All my windows are always maximized, and I'm using the virtual desktop of i3... So that was very good.
 
 This way of working will not work for me in the next year or two years. I'm trying to switch to a Gnome-based desktop, because the only screen reader on Linux is Orca actually, and... Yeah, I'm not sure if it's going to work. To me, this is another very, very difficult change, accepting to leave my very comfortable zone... The Xrender on Linux - you can just reverse all colors, so this is extremely useful when you have a little bit of vision; sometimes a white background can be extremely difficult on your eyes.
 
@@ -84,11 +84,11 @@ Like I was saying earlier, navigation is the enemy here, and knowing very quickl
 
 **Jon Calhoun:** I would almost argue for every developer... \[laughter\]
 
-**Dominic St-Pierre:** Well, yeah, exactly... But you know... So yeah, one other thing - of course, GoDoc. On the terminal, GoDoc - just having to look at what a function wants in its parameter, and what it is returning... It's strange, because I can compare both worlds now... When you see your screen very well, then yes, VS Code or any editor will provide you a visual indication \[unintelligible 00:15:53.19\] as a string, for example. But sometimes the screen readers are not picking those, or they are not speaking the return type, ever. It's very hard.
+**Dominic St-Pierre:** Well, yeah, exactly... But you know... So yeah, one other thing - of course, GoDoc. On the terminal, GoDoc - just having to look at what a function wants in its parameter, and what it is returning... It's strange, because I can compare both worlds now... When you see your screen very well, then yes, VS Code or any editor will provide you a visual indication then this function acts as a string, for example. But sometimes the screen readers are not picking those, or they are not speaking the return type, ever. It's very hard.
 
 \[16:06\] So this is a good thing... GoDoc is extremely useful. You just go to your terminal, and your screen reader will have no issues whatsoever reading everything that the developer wrote, that that function wanted you to do. So this is major.
 
-That brings me to a downside as well, while we are here... Small, one-letter variable names in Go - it is hard for a screen reader as well, and for the blind developer in general, especially when \[unintelligible 00:16:36.29\] very fast, you are missing those. We always use \[unintelligible 00:16:40.18\] and whatnot in Go, and those are difficult.
+That brings me to a downside as well, while we are here... Small, one-letter variable names in Go - it is hard for a screen reader as well, and for the blind developer in general, especially when your rate is speaking very fast, you are missing those. We always use s-string or v as interface and whatnot in Go, and those are difficult.
 
 **Jon Calhoun:** I can't relate exactly, but I listen to audiobooks on 2x speed, and that's something that took me a while to get to that speed. And it depends on the narrator and a bunch of other aspects. But over several years of listening to audiobooks, I just gradually slowly increased the speed. But I can definitely say there are still times where certain words of phrases, for whatever reason, I have to go back and slow it down, because I can listen to it four times at 2x speed and for whatever reason that sentence I cannot understand. But every other thing in the book is completely fine.
 
@@ -98,7 +98,7 @@ So I could imagine there's certain variables and things like that that when they
 
 **Jon Calhoun:** How does that work for things like tests, if you're running tests and several of them are failing? Or you know how sometimes you will just get like a pass, which is nice, and then other times you'll get a lot more output, it feels like.
 
-**Dominic St-Pierre:** Yeah... So I would say that I'm using most often the \[unintelligible 00:18:23.10\] and using a subset of tests at once. Especially when something is wrong, multiple outputs is an issue, and yes, this is a problem. But sometimes you don't have a choice; so you can output that into a text file and try to make sense of that in a more comfortable way. So that's different. This is where blind people would lose precious minutes compared to a sighted developer, for sure.
+**Dominic St-Pierre:** Yeah... So I would say that I'm using most often the dashrun and using a subset of tests at once. Especially when something is wrong, multiple outputs is an issue, and yes, this is a problem. But sometimes you don't have a choice; so you can output that into a text file and try to make sense of that in a more comfortable way. So that's different. This is where blind people would lose precious minutes compared to a sighted developer, for sure.
 
 **Jon Calhoun:** Do you think there's anything that could be improved in that sense? I guess in my mind I'm wondering if there's a way to either summarize, or... Like, you almost summarize and say like "Eight tests failed..." You know what I mean? Something along those lines.
 
@@ -132,11 +132,11 @@ You know, other than the channel, I cannot really think about anything else. Eve
 
 **Dominic St-Pierre:** Well, for me at least, because I do have my screen reader telling that to me, so that's great... I prefer that, than having, let's say, a modifier like private/public-protected, or sealed, or whatever the flavor.
 
-\[24:00\] I would say as well not being an object-oriented language is also helpful. And let me explain, because it's a huge claim, probably... This hierarchy of objects in C\# and Java, that we don't really have, unless you do composing in Go - we are returning to navigation, as well. The structure of all those objects is kind of difficult to navigate, to be frank... To understand what is going on in that. Because it's very quick for you to switch \[unintelligible 00:24:33.10\]
+\[24:00\] I would say as well not being an object-oriented language is also helpful. And let me explain, because it's a huge claim, probably... This hierarchy of objects in C\# and Java, that we don't really have, unless you do composing in Go - we are returning to navigation, as well. The structure of all those objects is kind of difficult to navigate, to be frank... To understand what is going on in that. Because it's very quick for you to switch file.
 
 Let's say you're moving from one package to another, and you're returning, and visually, you are quickly, rapidly re-understanding if that's a word where you were when you left... And this is not really easy with a screen reader. You always need to re-check your surrounding. Again, a screen reader is a one-line thing, so let's say your cursor is on line 13... You just have the context of that line.
 
-Let's say you have return empty string on Go. So where are you? What's that function where I was? So having structure, and not having \[unintelligible 00:25:15.06\] in my opinion, it's helpful.
+Let's say you have return empty string on Go. So where are you? What's that function where I was? So having structure, and not having objection, in writtens, in my opinion, it's helpful.
 
 **Jon Calhoun:** That makes sense. I completely get what you're saying, where like if you jump from line 13 to line 50, visually I think we kind of just take for granted the fact that you see the function definition above it a couple of lines... But like you said, if it's a screen reader that's just reading the line you're on, it's not gonna give you that context, and it wouldn't know to do it, so it's kind of like a -- at least I suspect, you'd have to spend a little bit of time figuring out "What function am I in? What is going on here?"
 
@@ -160,7 +160,7 @@ Let's say you have return empty string on Go. So where are you? What's that func
 
 **Jon Calhoun:** I can't imagine it's required, but it just seems like one of those things that just carried over from other languages.
 
-**Dominic St-Pierre:** Yeah, I don't know; I have a doubt now. I remember having seen an \[unintelligible 00:28:31.17\] and I think it was lower-case. That will be a challenge, for sure. Maybe I will change my point of view; it will probably be difficult.
+**Dominic St-Pierre:** Yeah, I don't know; I have a doubt now. I remember having seen an LM for a slice and I think it was lower-case. That will be a challenge, for sure. Maybe I will change my point of view; it will probably be difficult.
 
 **Jon Calhoun:** You've got me curious now, because I haven't -- I think there was a proposed package for Go maybe 1.18, maybe 1.19... I don't remember which one it was being proposed for, but it was a package with slice operations...
 
@@ -168,13 +168,13 @@ Let's say you have return empty string on Go. So where are you? What's that func
 
 **Jon Calhoun:** ...that was meant to go in the standard library. But I didn't actually look at the code too much to see what all was there, and what the code looked like... So I'll have to check that out at some point.
 
-**Dominic St-Pierre:** I think the \[unintelligible 00:29:07.10\] was lower-case, but I could be wrong.
+**Dominic St-Pierre:** I think the LM was lower-case, but I could be wrong.
 
 **Jon Calhoun:** So my next question is more about other people you're working with. You'd mentioned the single-letter variables... Are there other things that developers do that make your life better or worse? Or I guess some of that times it might be yourself in the past... Have you found yourself looking at code you wrote in the past, and being angry at yourself?
 
-**Dominic St-Pierre:** Yeah, of course, but... \[laughs\] I think commenting is overrated, probably. A good comment is still very helpful, so we tend as developers (I think) to not really comment. Especially in Go, because it's so verbose, it's so clear what it is doing... But a comment line explaining what it is doing can save two minutes for blind developers, because now you don't have to scroll down a five-line \[unintelligible 00:29:59.21\] or whatever it is doing. So yeah, commenting is extremely helpful for us.
+**Dominic St-Pierre:** Yeah, of course, but... \[laughs\] I think commenting is overrated, probably. A good comment is still very helpful, so we tend as developers (I think) to not really comment. Especially in Go, because it's so verbose, it's so clear what it is doing... But a comment line explaining what it is doing can save two minutes for blind developers, because now you don't have to scroll down a five-line for a for that is resorting or whatever it is doing. So yeah, commenting is extremely helpful for us.
 
-Nothing really -- well, pair programming. This is a complete topic... It's super-hard for a person to follow, of course, someone that sees well. When you're driving, it's often very difficult, because the other party does not really understand why it is so long \[unintelligible 00:30:31.14\] or whatever the reason... So yeah, pair programming is very difficult.
+Nothing really -- well, pair programming. This is a complete topic... It's super-hard for a person to follow, of course, someone that sees well. When you're driving, it's often very difficult, because the other party does not really understand why it is so long at this place it's just a line or whatever the reason... So yeah, pair programming is very difficult.
 
 **Jon Calhoun:** It almost feels like if you had the audio one on your end -- like, if I was pair programming with you, and you had the audio one... I'm guessing that's not normally the case, because normally, the audio on your computer doesn't get pushed through video, or anything like that... But if it was there, I suspect it would be useful in the sense that it would help open up people's eyes as to what you're experiencing, and then I think it'd be a lot easier to be understanding and empathetic about it... But I agree with you that before then, you might be sitting there like "Why is this person sitting on this line? I don't know what's going on." And meanwhile, you're trying to listen to the screen reader to understand what's going on on this line, and that's very different from very different from visually looking at it.
 
@@ -198,7 +198,7 @@ But yeah, it's difficult. I don't know how to answer that, frankly. The command 
 
 I talked with -- when I was starting to really lose lots of vision two years ago, I talked with a PHP programmer that worked at Booking.com, actually, which is completely blind... And he was trying to convince me to switch to Emacs and whatnot. But it's -- to take Darth Vader's words, "It's too late for me." I cannot do that.
 
-So I'm not sure at this point if I'm having my baggage of 20 years of development that is difficult to change... That might be why I'm saying that C\# is harder than Go, for example, as a blind developer. But yeah, I feel that the object-oriented languages feel a little bit harder to navigate, for sure. And all those keywords that you need to \[unintelligible 00:34:48.15\] and whatnot. So all the visibility for a class or a function - it really adds lots of noise, in all senses of the word; screen reader and code-wise, I think. Those are very hard, because you have to rely on having to return to the function, trying to see what it was exactly, what's going on in here.
+So I'm not sure at this point if I'm having my baggage of 20 years of development that is difficult to change... That might be why I'm saying that C\# is harder than Go, for example, as a blind developer. But yeah, I feel that the object-oriented languages feel a little bit harder to navigate, for sure. And all those keywords that you need to predict and seal and whatnot. So all the visibility for a class or a function - it really adds lots of noise, in all senses of the word; screen reader and code-wise, I think. Those are very hard, because you have to rely on having to return to the function, trying to see what it was exactly, what's going on in here.
 
 **Break:** \[35:15\]
 
@@ -208,7 +208,7 @@ So I'm not sure at this point if I'm having my baggage of 20 years of developmen
 
 Let's say you're writing a web handler in Go, for example. You type http.request, and usually I was doing Tab very fast five years ago, because I was directly on the right thing. Now I need to wait a little bit, listen to what the screen reader is saying, and "Oh, what? What did it say?" So you need to jump one element above to try to see "Well, am I on the right thing?" So you have to re-check almost everything that you are typing. This is the flow.
 
-Let's continue with this web handler... So once you do \[unintelligible 00:39:01.01\] for example, you just return one word and you make sure "Well, did I type 'request' or not?" So those small things, compared to -- you know, it takes like 1-2 seconds to write this, normally... So it's those things.
+Let's continue with this web handler... So once you do `r http.request` for example, you just return one word and you make sure "Well, did I type 'request' or not?" So those small things, compared to -- you know, it takes like 1-2 seconds to write this, normally... So it's those things.
 
 So yeah, I think test-driven development will finally be something I should start to do, because I really see the value of having the compiler really being my sighted friend, if you will. So this is where I will be certain that I'm not doing newbie mistakes -- not newbie mistakes, but I'm not doing blind mistakes... Or -- I don't know how to say that. I'm not doing easy mistakes to miss when you are not seeing. Because it's very hard.
 
@@ -226,7 +226,7 @@ Let me explain what my problem is visually... So I always add only 2% of field o
 
 **Jon Calhoun:** So when you're actually visiting websites and going through there, what does that process look like, I guess? Because I have gone to a website, and kind of -- like, you can hit Tab and kind of go through links, and there's some things that I know that I can do if I just don't have my mouse with me... But I can't imagine what the process is like. Are you using like Pg. Down or something like that to read through it, or what does that look like?
 
-**Dominic St-Pierre:** There's tools in the browser -- well, not in the browser, but in the screen reader, that allow you to navigate quickly by H tag. So H1, H2, H3. So that's the first thing. Then you kind of use your arrow key to continue in that paragraph. Let's say you are the right H1, for example, or H2. There's also a shortcut to quickly have all the links, very quickly, all the links in the page that you have let's say in the \[unintelligible 00:43:18.10\] or I don't know what it is; the alias stuff, or something. So you can scroll that very quickly, and just click any links
+**Dominic St-Pierre:** There's tools in the browser -- well, not in the browser, but in the screen reader, that allow you to navigate quickly by H tag. So H1, H2, H3. So that's the first thing. Then you kind of use your arrow key to continue in that paragraph. Let's say you are the right H1, for example, or H2. There's also a shortcut to quickly have all the links, very quickly, all the links in the page that you have let's say in the lizbox or I don't know what it is; the alias stuff, or something. So you can scroll that very quickly, and just click any links
 
 Let's say you are on a phone and someone says "Go click on that thing." It's like what we were saying for pair programming; navigating is really what makes things difficult.
 
