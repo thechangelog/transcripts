@@ -6,7 +6,7 @@ We're joined by Sameer Ajmani. Hello, Sameer. Engineering director. And you run 
 
 **Mat Ryer:** I'm sure they appreciate it. We're also joined by Cameron Balahan, who's looking at the product side of Go, right Cameron?
 
-**Cameron Balahan:** \[00:04:00.00\] Yeah, that's right. I'm a product manager. I'm one of two product leads for Go, along with Steve Francia. My focus in Go is primarily on the IDE tools and security spaces, but I also work across all of Go, especially as it relates to how we position it in Google.
+**Cameron Balahan:** \[04:00\] Yeah, that's right. I'm a product manager. I'm one of two product leads for Go, along with Steve Francia. My focus in Go is primarily on the IDE tools and security spaces, but I also work across all of Go, especially as it relates to how we position it in Google.
 
 **Mat Ryer:** Yeah, very interesting to think of a programming language having a product. I'm keen to dig into that a bit more. We're also joined by Alice Merrick, who's a UX researcher, and you run the Go Developer Survey, right Alice
 
@@ -44,7 +44,7 @@ In order to succeed, we've invested a lot, having more cross-functional partners
 
 **Mat Ryer:** Yes, that's very interesting then. One of the things about Go that I appreciated when I first looked at the language was some of the principles, like the simplicity and some of the trade-off and the taste that was in the design. How do you make sure that people that join the Go team really understand those principles? Is it something that you find you have to teach a lot, or do you find people that naturally think that way, or does it not matter, do you prefer the mix?
 
-**Sameer Ajmani:** \[00:08:03.10\] It used to be that we heard a lot from the community, in which case we were hiring like-minded people. As we've grown and diversified, there's a bit more of an on-boarding journey to get the ethos across. I think a lot of it is peer-to-peer. New engineers will work with existing engineers on the team... Within Google, we have processes, we're helping people learn how to use Go and write idiomatic Go, and there's of course documents on this as well.
+**Sameer Ajmani:** \[08:03\] It used to be that we heard a lot from the community, in which case we were hiring like-minded people. As we've grown and diversified, there's a bit more of an on-boarding journey to get the ethos across. I think a lot of it is peer-to-peer. New engineers will work with existing engineers on the team... Within Google, we have processes, we're helping people learn how to use Go and write idiomatic Go, and there's of course documents on this as well.
 
 For example, our tech writer is a good example. He came in with a great experience writing for enterprise use, and had to learn really what the Go voice was, how we communicate... But he also educated us on how to better connect with the users. So it's bi-directional.
 
@@ -60,7 +60,7 @@ For example, our tech writer is a good example. He came in with a great experien
 
 **Alice Merrick:** Yeah. Well, I'll talk a little bit about what I have researched, and also what some of my fellow researchers have worked on. The lower-level stuff is too low-level for us. We're kind of looking a little higher, at things like developer workflows. So how somebody might look for documentation, or packages when they are writing Go, for example. Things like when you are in your IDE, what kind of challenges do you have there, when you're debugging? Looking for those kinds of challenges and opportunities of "Where could we improve something, where could we maybe introduce something new into the ecosystem as far as tooling goes, or smooth out some workflow there?"Those are some of the interesting questions that we've looked at.
 
-\[00:11:55.05\] Another thing is that we do run the annual survey, so looking at "How happy are people using Go? Do we see more usage in particular areas, and where are opportunities that we might wanna grow?" Cameron sort of mentioned leveraging some of that research on the product side...
+\[11:55\] Another thing is that we do run the annual survey, so looking at "How happy are people using Go? Do we see more usage in particular areas, and where are opportunities that we might wanna grow?" Cameron sort of mentioned leveraging some of that research on the product side...
 
 And then recently, we were looking at "What are people really concerned about as Go developers, and what other areas might we branch into?" This year I did a study that looked at specifically people who considered using Go, and then didn't, and why. And is there something that we could do there, that would make it easier for more people to use Go.
 
@@ -92,7 +92,7 @@ But where we've seen the most update required is for things like static analyzer
 
 **Rob Findley:** No. So we've had to preserve -- I mean, we have back-compatibility promise, and we've kept that promise... So we have updated those packages to support generic code. So we introduced some new constructs into those packages, but we've done it in what we hope is the least obtrusive way possible... And a lot of those packages deal with generic constructs, like what's an object in a program. And that we've translated into the generic realm. So that's why a lot of stuff just works, because those packages were updated in such a way that things just make sense, I hope.
 
-**Break:** \[00:15:37.29\]
+**Break:** \[15:37\]
 
 **Mat Ryer:** Well, we have a question from Aaron on Discord, related to this... And Keith, this might be a good one for you, since you've worked on generics at the compiler level. The question was "How are you measuring success of generics?" How do we know if it was a good thing to have done or not, in say five years?
 
@@ -118,7 +118,7 @@ Our hope is not necessarily that we need people to adopt generics a lot. So it's
 
 **Mat Ryer:** You did. We'll put the drums in \[unintelligible 00:19:55.04\] don't worry. That definitely deserved one.
 
-**Sameer Ajmani:** \[00:19:58.28\] Yeah. So we did explore simplifying error handling with the Try proposal a few years ago, and our assessment - or the assessment of the community really, not ours - was that it didn't make things better. That the explicitness, the debuggability of the current way of handling errors was simply better. That all the work we tried to do with condensing the syntax, then moving the handlers up to defer - it just made things worse. And so I think this is a case where we really want to understand what is the problem that users are struggling with, and I think people like Alice and Todd or other UX researchers can really help us dig into that. That'll help us understand what solution we should be going forward with. But I think we need to understand the problem better first.
+**Sameer Ajmani:** \[19:58\] Yeah. So we did explore simplifying error handling with the Try proposal a few years ago, and our assessment - or the assessment of the community really, not ours - was that it didn't make things better. That the explicitness, the debuggability of the current way of handling errors was simply better. That all the work we tried to do with condensing the syntax, then moving the handlers up to defer - it just made things worse. And so I think this is a case where we really want to understand what is the problem that users are struggling with, and I think people like Alice and Todd or other UX researchers can really help us dig into that. That'll help us understand what solution we should be going forward with. But I think we need to understand the problem better first.
 
 **Keith Randall:** I think it is an interesting question of whether generics is the new tool in the toolbox that can make a new, interesting design that may be better in some way or another. I don't think anyone's come up with a good answer to that question yet, but it's certainly something to explore.
 
@@ -148,7 +148,7 @@ If you're interesting in what good generic code looks like and don't wanna wait 
 
 **Sameer Ajmani:** And you can automate migration from, say, the interface-based version to a generic version as well. That should be fairly straightforward.
 
-**Mat Ryer:** \[00:24:03.03\] I see. Yeah, help people out with tools. And speaking of tools - I wonder, what was the biggest challenge, what was the hardest thing to do when trying to get generics to work with the tools? Was there one thing in particular that stood out as difficult?
+**Mat Ryer:** \[24:03\] I see. Yeah, help people out with tools. And speaking of tools - I wonder, what was the biggest challenge, what was the hardest thing to do when trying to get generics to work with the tools? Was there one thing in particular that stood out as difficult?
 
 **Cameron Balahan:** I would say that Robert is probably the better one to speak to this, but I can say that the overall theme has been that because this is the biggest change that we've ever made to the language, by its nature it's very deliberate. I couldn't identify a specific thing as well as Robert could though, so maybe I'll yield to him to potentially give you a better answer than that.
 
@@ -180,7 +180,7 @@ As I mentioned earlier, one thing top of mind is security. When we interviewed c
 
 And then we have a team that works on deep static analysis, and we're able to leverage their work to really build something much more precise than you might get just checking the module level for finding vulnerabilities.
 
-\[00:28:03.09\] So it's a bit of looking at what developers are concerned about and how to meet those needs, and also looking at what assets we have. The fact that we have modules, the fact that we have static analysis means we can do something really interesting, that still helps solve the user problem, but in a differentiated and better way. We save you time by eliminating a lot of false vulnerability reports, for example.
+\[28:03\] So it's a bit of looking at what developers are concerned about and how to meet those needs, and also looking at what assets we have. The fact that we have modules, the fact that we have static analysis means we can do something really interesting, that still helps solve the user problem, but in a differentiated and better way. We save you time by eliminating a lot of false vulnerability reports, for example.
 
 That's just one example... I think the other major driver is that we have a lot of users, and users are gonna have production issues, scaling issues, performance issues, and we will get reports from all over the place. And then we've got our IDE and web... So we do listen to our users and we prioritize the issues we're hearing from them. Some of those turn into larger projects to make strategic changes to what we have.
 
@@ -204,7 +204,7 @@ In the end, we also try and build a highly-functioning cross-functional team, th
 
 So the question of governance comes down to "What are the problems we're trying to solve?" And this is where we wanna hear the community, like "What's not happening, that you would want to see happen?" Because governance is a solution to a problem. And again, we really wanna understand the problem well, and to understand how best to serve the community in that way.
 
-**Break:** \[00:32:16.26\]
+**Break:** \[32:16\]
 
 **Mat Ryer:** Okay, so we've got a fun question coming, and we're gonna do a quick roundtable. You're just gonna say your name, and then just tell me what IDE you use day-to-day, generally. Sameer, what is your IDE?
 
@@ -230,7 +230,7 @@ So the question of governance comes down to "What are the problems we're trying 
 
 **Alice Merrick:** Yeah. \[laughs\] I mean, it's definitely on a different screen, you know?
 
-**Mat Ryer:** \[00:36:17.26\] Oh, what more can you ask for?
+**Mat Ryer:** \[36:17\] Oh, what more can you ask for?
 
 **Alice Merrick:** Not even looking at it...
 
@@ -274,7 +274,7 @@ Anyone else got anything that they'd remove from Go if they were allowed to? Sam
 
 **Sameer Ajmani:** I'll mention a few... Range variable loop capture; this just bites all of us when we write a closure inside a range loop. That may still be fixable, it depends... I think the confusion around nil pointers inside an interface, and that not being nil itself - the whole question of \[unintelligible 00:39:43.22\] interfaces just creates a lot of confusion. I wonder if we could have done better there... And bufio scanner - I don't like APIs where you run a loop and then you have to check whether the loop exited because of an error, because you always forget to check...
 
-\[00:39:58.25\] And I'm sensitive to this because back when I used to write C++ and I was on the Maps team, I had a similar API where I forgot to check for an error, and I dropped half a million places from the map index because I forgot to check that error. So when we introduced bufio scanner, I'm like, "No, no, no... That will create really terrible bugs", but \[unintelligible 00:40:17.11\]
+\[39:58\] And I'm sensitive to this because back when I used to write C++ and I was on the Maps team, I had a similar API where I forgot to check for an error, and I dropped half a million places from the map index because I forgot to check that error. So when we introduced bufio scanner, I'm like, "No, no, no... That will create really terrible bugs", but \[unintelligible 00:40:17.11\]
 
 **Mat Ryer:** Did that just wipe out loads of restaurants?
 
@@ -352,7 +352,7 @@ So I think once you set aside breaking changes, Go 2 becomes a marketing term. A
 
 **Keith Randall:** I could day-drink instead of doing programming. It'd be great. \[laughter\]
 
-**Alice Merrick:** \[00:44:05.08\] Does it look up things on Stack Overflow for you?
+**Alice Merrick:** \[44:05\] Does it look up things on Stack Overflow for you?
 
 **Mat Ryer:** Yeah, it learns and it's smart enough not to pick the top answer; to scroll down a bit, which is already smarter than me.
 
@@ -360,7 +360,7 @@ So I think once you set aside breaking changes, Go 2 becomes a marketing term. A
 
 **Mat Ryer:** Yeah, exactly. It's kind of a -- well, I'm not gonna sell it. If you've not heard of it, I think that speaks volumes. It does all this programming himself, \[unintelligible 00:44:22.25\] Yeah - actually, we've reached our time; this is all the time we've got... But thank you so much to everybody who's joined along and asked questions in Discord, and thank you to Sameer, Cameron, Alice, Rob and Keith. We'll see you next time on Go Time.
 
-**Outro:** \[00:44:40.24\]
+**Outro:** \[44:40\]
 
 **Mat Ryer:** We did have a question from \[unintelligible 00:45:01.05\] instead of reference counting... That's quite an interesting, technical one... Does anyone have an opinion?
 
@@ -396,7 +396,7 @@ I mean, the Go testing package kind of hasn't really changed that much, apart fr
 
 **Keith Randall:** Now, the changes it makes will never check in, but it's a good way to get a -- one of the big problems with testing generics is there is no generic code... So how do you test that generics work when there's no generic code to test it on? So we sort of need a way to automatically manufacture generic code, so we can run lots of code through the generic portion of the compiler.
 
-**Mat Ryer:** \[00:48:18.16\] That is getting way too meta. It's like watching Inception.
+**Mat Ryer:** \[48:18\] That is getting way too meta. It's like watching Inception.
 
 **Keith Randall:** It is a little bit meta...
 
@@ -420,7 +420,7 @@ I mean, the Go testing package kind of hasn't really changed that much, apart fr
 
 **Sameer Ajmani:** So Mat, you've actually touched on probably one of the most promising, but unexplored areas of generics, which is concurrency libraries. So we have WaitGroup and errgroup, which do a really nice job of packaging up certain idioms around concurrency... Generics might allow us to package them up even more nicely, because you can have things that -- you know, I wanna do a scatter/gather collection of things, and \[unintelligible 00:51:50.26\] like I have a bunch of producer functions that return t's, and I wanna run them all and collect them, and just get back a slice of t's. You can use generics to write that library. You could just wrap WaitGroup or errgroup.
 
-\[00:52:05.28\] So I think there are things like that where as we discover common idioms, we wanna apply a little concurrency. You can wrap that up and you don't even see the concurrency anymore. Now, that has cost and trade-offs, because that's a hidden cost... But who knows.
+\[52:05\] So I think there are things like that where as we discover common idioms, we wanna apply a little concurrency. You can wrap that up and you don't even see the concurrency anymore. Now, that has cost and trade-offs, because that's a hidden cost... But who knows.
 
 **Mat Ryer:** Yeah.
 
