@@ -38,9 +38,9 @@ Sameer, the Go team, when it started, it was just kind of a few people, and it's
 
 **Mat Ryer:** Wow.
 
-**Sameer Ajmani:** And it's really quite a remarkable growth over a period of time... But it's been a bit spiky. So a lot of our recent growth was in 2018-2019, so a lot of our time since then has just really been about scaling our team and the way we work, to really gell... You know, new processes and all the sort of managerial, to make sure the team works well. But it has allowed us to take Go from just being a language to more of an end-to-end platform. We have full-fledged IDE support, we have Go Command, which has been a platform with all sorts of extensions... Of course, there's our suite of libraries, and then our web suite around Go.dev and \[unintelligible 00:06:50.13\] This larger team has enabled us to really build something much more holistic, so Go feels like Go throughout the various things developers have to do.
+**Sameer Ajmani:** And it's really quite a remarkable growth over a period of time... But it's been a bit spiky. So a lot of our recent growth was in 2018-2019, so a lot of our time since then has just really been about scaling our team and the way we work, to really gell... You know, new processes and all the sort of managerial, to make sure the team works well. But it has allowed us to take Go from just being a language to more of an end-to-end platform. We have full-fledged IDE support, we have Go Command, which has been a platform with all sorts of extensions... Of course, there's our suite of libraries, and then our web suite around Go.dev and pax discovery site. This larger team has enabled us to really build something much more holistic, so Go feels like Go throughout the various things developers have to do.
 
-In order to succeed, we've invested a lot, having more cross-functional partners. On the call we have Cameron and Alice, who are two examples, and we have many more. Challenge-wise - scaling. Scaling the team, scaling the user base, scaling with larger pieces of code, and a lot of this is driven by mainstream usage. So instead of our early adopters, we're now dealing with mainstream adopters, enterprise adopters, who are maybe looking for slightly different things from Go... And security is top of mind, both for enterprises and all the supply chain security \[unintelligible 00:07:30.06\] Cameron I'm sure can help speak to more of those issues.
+In order to succeed, we've invested a lot, having more cross-functional partners. On the call we have Cameron and Alice, who are two examples, and we have many more. Challenge-wise - scaling. Scaling the team, scaling the user base, scaling with larger pieces of code, and a lot of this is driven by mainstream usage. So instead of our early adopters, we're now dealing with mainstream adopters, enterprise adopters, who are maybe looking for slightly different things from Go... And security is top of mind, both for enterprises and all the supply chain security tax. Cameron I'm sure can help speak to more of those issues.
 
 **Mat Ryer:** Yes, that's very interesting then. One of the things about Go that I appreciated when I first looked at the language was some of the principles, like the simplicity and some of the trade-off and the taste that was in the design. How do you make sure that people that join the Go team really understand those principles? Is it something that you find you have to teach a lot, or do you find people that naturally think that way, or does it not matter, do you prefer the mix?
 
@@ -76,7 +76,7 @@ And then recently, we were looking at "What are people really concerned about as
 
 **Alice Merrick:** That's true. And at that point, I might not have even spoken to them, because they didn't consider Go seriously enough to even make it through the filter of people for us to talk to.
 
-**Mat Ryer:** \[unintelligible 00:13:10.26\]
+**Mat Ryer:** Fair enough, brutal.
 
 **Alice Merrick:** That's true. They could have turned somebody off very early in the pipeline, and we just didn't find them.
 
@@ -116,7 +116,7 @@ Our hope is not necessarily that we need people to adopt generics a lot. So it's
 
 **Sameer Ajmani:** So Mat, we did try...
 
-**Mat Ryer:** You did. We'll put the drums in \[unintelligible 00:19:55.04\] don't worry. That definitely deserved one.
+**Mat Ryer:** You did. We'll put the drums in post don't worry. That definitely deserved one.
 
 **Sameer Ajmani:** \[19:58\] Yeah. So we did explore simplifying error handling with the Try proposal a few years ago, and our assessment - or the assessment of the community really, not ours - was that it didn't make things better. That the explicitness, the debuggability of the current way of handling errors was simply better. That all the work we tried to do with condensing the syntax, then moving the handlers up to defer - it just made things worse. And so I think this is a case where we really want to understand what is the problem that users are struggling with, and I think people like Alice and Todd or other UX researchers can really help us dig into that. That'll help us understand what solution we should be going forward with. But I think we need to understand the problem better first.
 
@@ -130,7 +130,7 @@ Is anyone worried about us overusing generics? This was one of the big arguments
 
 **Mat Ryer:** So what's the remedy?
 
-**Sameer Ajmani:** Education, I think... Setting a good example... But honestly, we need the community to help with this. This isn't something that can come top-down. I think Go has a reputation for being a simple, comprehensible, readable language. It is very easy to use generics to create things that make code inscrutable... So I think we as a community, when we do code review, when we adopt libraries, need to be conscious of the trade-off we make between perhaps a \[unintelligible 00:21:57.05\] one-liner that is very concise, but very inscrutable, hard to debug, hard to manage the performance of it... Versus the more explicit way we write things in Go, that - yeah, it costs you a little bit more typing, but when you have to debug and optimize it, it's way simpler. So that's where my head is at, but I would love to hear from others on the panel.
+**Sameer Ajmani:** Education, I think... Setting a good example... But honestly, we need the community to help with this. This isn't something that can come top-down. I think Go has a reputation for being a simple, comprehensible, readable language. It is very easy to use generics to create things that make code inscrutable... So I think we as a community, when we do code review, when we adopt libraries, need to be conscious of the trade-off we make between perhaps a deep functional one-liner that is very concise, but very inscrutable, hard to debug, hard to manage the performance of it... Versus the more explicit way we write things in Go, that - yeah, it costs you a little bit more typing, but when you have to debug and optimize it, it's way simpler. So that's where my head is at, but I would love to hear from others on the panel.
 
 **Mat Ryer:** Any other takers?
 
@@ -172,7 +172,7 @@ If you're interesting in what good generic code looks like and don't wanna wait 
 
 **Rob Findley:** Keith just reminded me of one other thing that was difficult, which was producing good error messages.
 
-**Mat Ryer:** Oh, great. Yeah. Well, we do appreciate good error messages, to be fair... So it is worth it. And actually, that's an interesting kind of point. When we think of -- like, generics was at the top of the developer survey Most Wanted list for a while... But how do you decide what to work on? How does that happen? Does it happen somewhat organically? Do you have some process where you think about it? And I'd also like to hear your thoughts more generally on -- we had a question specifically on Twitter from Tim \[unintelligible 00:26:45.06\] who asked about governance, and how you think these things should work, and will work in the future.
+**Mat Ryer:** Oh, great. Yeah. Well, we do appreciate good error messages, to be fair... So it is worth it. And actually, that's an interesting kind of point. When we think of -- like, generics was at the top of the developer survey Most Wanted list for a while... But how do you decide what to work on? How does that happen? Does it happen somewhat organically? Do you have some process where you think about it? And I'd also like to hear your thoughts more generally on -- we had a question specifically on Twitter from Tim Heckman who asked about governance, and how you think these things should work, and will work in the future.
 
 **Sameer Ajmani:** I guess I'll take this one. You know, we do wanna be informed by our users. So we start with our users, and the developer survey is one example, but Alice and her partner Todd on the UX team have done a number of studies to really help us zero in on pain points. And then our products team, Cameron and Steve, look at the broader ecosystem, look at specific users, use cases, they look at things in the aggregate, and also look at the strategic landscape, like how is software engineering changing.
 
@@ -208,7 +208,7 @@ So the question of governance comes down to "What are the problems we're trying 
 
 **Mat Ryer:** Okay, so we've got a fun question coming, and we're gonna do a quick roundtable. You're just gonna say your name, and then just tell me what IDE you use day-to-day, generally. Sameer, what is your IDE?
 
-**Sameer Ajmani:** Google Docs and Gmail. \[laughter\] No, in the rare times that I code, it's VS Code, because I wanna use \[unintelligible 00:35:06.24\] But it's rare that I get to code. It's sad.
+**Sameer Ajmani:** Google Docs and Gmail. \[laughter\] No, in the rare times that I code, it's VS Code, because I wanna use the team as developing. VS-code id pluggin go please. But it's rare that I get to code. It's sad.
 
 **Mat Ryer:** Yeah. I should just say, this question came in from BillyDroptables. Billy wants to know what everyone's IDE is. Cameron, do you use an IDE?
 
@@ -248,7 +248,7 @@ So the question of governance comes down to "What are the problems we're trying 
 
 **Mat Ryer:** Yeah. These text-based editors, when -- because I use the mouse, or a trackpad... I've never been into that; and I used to have Windows, and so it was very much point-and-click, and stuff, and MS Access, and Visual Basic... But yeah, when I see it, it looks like magic still. It looks like the Matrix. People are tapping stuff, and things are happening. It's amazing, I love it.
 
-Okay, we have another question here from \[unintelligible 00:37:31.04\] They say, "Hi, Go team. If there was anything you wanted to remove from Go, what would it be?" So this is assuming that there's like a Go 2, or you can do breaking changes now... What would you break? And Keith, since we were chatting, why don't you start?
+Okay, we have another question here from Makakie They say, "Hi, Go team. If there was anything you wanted to remove from Go, what would it be?" So this is assuming that there's like a Go 2, or you can do breaking changes now... What would you break? And Keith, since we were chatting, why don't you start?
 
 **Keith Randall:** Hm... That's a good question. I'm not a big fan of the three-argument slice operation. I think there should be a slice to length and slice to capacity operations as separate things.
 
@@ -260,7 +260,7 @@ Okay, we have another question here from \[unintelligible 00:37:31.04\] They say
 
 **Keith Randall:** Right.
 
-**Mat Ryer:** Yeah. \[unintelligible 00:38:14.06\]
+**Mat Ryer:** Yeah. I need to think about that
 
 **Keith Randall:** You often don't wanna modify the capacity. You're generally just slicing because of the length, and it's only occasionally when you need to talk about the capacity... In which case you don't need to talk about the length; or you could do that as a separate slice. It makes the language a little bit simpler... But yeah, otherwise -- it's not a huge deal. It doesn't come up one way or the other either all that much.
 
@@ -272,9 +272,9 @@ Okay, we have another question here from \[unintelligible 00:37:31.04\] They say
 
 Anyone else got anything that they'd remove from Go if they were allowed to? Sameer, what would you do?
 
-**Sameer Ajmani:** I'll mention a few... Range variable loop capture; this just bites all of us when we write a closure inside a range loop. That may still be fixable, it depends... I think the confusion around nil pointers inside an interface, and that not being nil itself - the whole question of \[unintelligible 00:39:43.22\] interfaces just creates a lot of confusion. I wonder if we could have done better there... And bufio scanner - I don't like APIs where you run a loop and then you have to check whether the loop exited because of an error, because you always forget to check...
+**Sameer Ajmani:** I'll mention a few... Range variable loop capture; this just bites all of us when we write a closure inside a range loop. That may still be fixable, it depends... I think the confusion around nil pointers inside an interface, and that not being nil itself - the whole question of use of nill in interfaces just creates a lot of confusion. I wonder if we could have done better there... And bufio scanner - I don't like APIs where you run a loop and then you have to check whether the loop exited because of an error, because you always forget to check...
 
-\[39:58\] And I'm sensitive to this because back when I used to write C++ and I was on the Maps team, I had a similar API where I forgot to check for an error, and I dropped half a million places from the map index because I forgot to check that error. So when we introduced bufio scanner, I'm like, "No, no, no... That will create really terrible bugs", but \[unintelligible 00:40:17.11\]
+\[39:58\] And I'm sensitive to this because back when I used to write C++ and I was on the Maps team, I had a similar API where I forgot to check for an error, and I dropped half a million places from the map index because I forgot to check that error. So when we introduced bufio scanner, I'm like, "No, no, no... That will create really terrible bugs", but lost that argument.
 
 **Mat Ryer:** Did that just wipe out loads of restaurants?
 
@@ -290,7 +290,7 @@ Anyone else got anything that they'd remove from Go if they were allowed to? Sam
 
 **Mat Ryer:** Okay, fine. Yeah. Sure. Yeah, very good ones. I would actually probably like to get rid of the new keyword and just have the curly brace way of making things... Because I always use that anyway. And now if I see new, I'm like "What...?" Although I quickly do remember, to my credit...
 
-Okay, so will there be a Go 2? Johann Brandhurst actually asked this one on Discord, and so did \[unintelligible 00:41:03.24\] Will there be a Go 2?
+Okay, so will there be a Go 2? Johann Brandhurst actually asked this one on Discord, and so did Tahel Altinel Will there be a Go 2?
 
 **Sameer Ajmani:** I don't think we're gonna make breaking changes to Go. I think we'd rather find ways to support people -- you know, fix things; maybe some of the things we've just described (range variables, for example), without breaking users. Maintaining compatibility for users -- like, we would much rather do work on our end to minimize the work that the whole Go community has to do to adopt these changes.
 
@@ -358,17 +358,17 @@ So I think once you set aside breaking changes, Go 2 becomes a marketing term. A
 
 **Alice Merrick:** Yeah, always go with the second answer.
 
-**Mat Ryer:** Yeah, exactly. It's kind of a -- well, I'm not gonna sell it. If you've not heard of it, I think that speaks volumes. It does all this programming himself, \[unintelligible 00:44:22.25\] Yeah - actually, we've reached our time; this is all the time we've got... But thank you so much to everybody who's joined along and asked questions in Discord, and thank you to Sameer, Cameron, Alice, Rob and Keith. We'll see you next time on Go Time.
+**Mat Ryer:** Yeah, exactly. It's kind of a -- well, I'm not gonna sell it. If you've not heard of it, I think that speaks volumes. It does all this programming himself. Yeah - actually, we've reached our time; this is all the time we've got... But thank you so much to everybody who's joined along and asked questions in Discord, and thank you to Sameer, Cameron, Alice, Rob and Keith. We'll see you next time on Go Time.
 
 **Outro:** \[44:40\]
 
-**Mat Ryer:** We did have a question from \[unintelligible 00:45:01.05\] instead of reference counting... That's quite an interesting, technical one... Does anyone have an opinion?
+**Mat Ryer:** We did have a question from WhatJay who asked why Go uses this mark and sweep garbage collector instead of reference counting... That's quite an interesting, technical one... Does anyone have an opinion?
 
 **Sameer Ajmani:** I'll give that to Keith.
 
 **Keith Randall:** We can collect cycles, which is harder to do with a reference counting collector. It's not impossible, but it means basically you write a mark and sweep collector also which runs when a reference counter can't keep up. So reference counting isn't a panacea, especially in a general language, where you can have cycles amongst objects... Then things like -- there are some other languages where you basically can't make cycles in various functional languages, in which case reference counting is a bit better. Yeah, that's the main reason...
 
-**Mat Ryer:** That's a great answer. There you go, \[unintelligible 00:45:45.12\] Somebody else asks about your favorite package in the standard library, or if there are any packages outside, in the community, that you would like to see in the standard library? Do you have any favorites?
+**Mat Ryer:** That's a great answer. There you go, WhatJay. Somebody else asks about your favorite package in the standard library, or if there are any packages outside, in the community, that you would like to see in the standard library? Do you have any favorites?
 
 **Sameer Ajmani:** I like the Exact package. It's really convenient to start sub-processes from Go. I think it was Brad Fitzpatrick's design. It's just -- I really like it, the way it works, and it's easy to understand and easy to use.
 
@@ -400,7 +400,7 @@ I mean, the Go testing package kind of hasn't really changed that much, apart fr
 
 **Keith Randall:** It is a little bit meta...
 
-**Mat Ryer:** A little bit, yeah. Are you gonna do that while going into someone's dreams? \[laughter\] That's the sort of deal there... That is interesting though, as an approach. It's funny - I wonder if it's possible to have generic code where if you... You sort of hinted at this earlier, but if you ignore the generic piece altogether, could it just fall back by default to any type and still work, but it's generic \[unintelligible 00:48:47.09\] Would something like that be backwards-compatible? I don't know. It just occurred to me, but... Yeah.
+**Mat Ryer:** A little bit, yeah. Are you gonna do that while going into someone's dreams? \[laughter\] That's the sort of deal there... That is interesting though, as an approach. It's funny - I wonder if it's possible to have generic code where if you... You sort of hinted at this earlier, but if you ignore the generic piece altogether, could it just fall back by default to any type and still work, but it's generic. Would something like that be backwards-compatible? I don't know. It just occurred to me, but... Yeah.
 
 **Keith Randall:** That works for arguments, but it doesn't work for return values... So there's sort of this co-variance/contra-variance thing which doesn't quite work. But with the right type-cast, you can maybe make it work... So maybe you can have a tool that goes through and just puts the type-cast in where they're needed, and maybe it would work.
 
@@ -418,7 +418,7 @@ I mean, the Go testing package kind of hasn't really changed that much, apart fr
 
 **Mat Ryer:** Yeah. That's true though with channels; I used to be the same. Everything was a channel. If I'm gonna open a file, I'm sending those bytes down a channel. I've got channels now; I'm channeling everything. And honestly, WaitGroup tends to be what I reach for now if I'm writing concurrent code. I'll often have a small little place, and have a WaitGroup, and call out to things... But channels sometimes - again, perfect, for the right situation.
 
-**Sameer Ajmani:** So Mat, you've actually touched on probably one of the most promising, but unexplored areas of generics, which is concurrency libraries. So we have WaitGroup and errgroup, which do a really nice job of packaging up certain idioms around concurrency... Generics might allow us to package them up even more nicely, because you can have things that -- you know, I wanna do a scatter/gather collection of things, and \[unintelligible 00:51:50.26\] like I have a bunch of producer functions that return t's, and I wanna run them all and collect them, and just get back a slice of t's. You can use generics to write that library. You could just wrap WaitGroup or errgroup.
+**Sameer Ajmani:** So Mat, you've actually touched on probably one of the most promising, but unexplored areas of generics, which is concurrency libraries. So we have WaitGroup and errgroup, which do a really nice job of packaging up certain idioms around concurrency... Generics might allow us to package them up even more nicely, because you can have things that -- you know, I wanna do a scatter/gather collection of things, and whatever type-t, like I have a bunch of producer functions that return t's, and I wanna run them all and collect them, and just get back a slice of t's. You can use generics to write that library. You could just wrap WaitGroup or errgroup.
 
 \[52:05\] So I think there are things like that where as we discover common idioms, we wanna apply a little concurrency. You can wrap that up and you don't even see the concurrency anymore. Now, that has cost and trade-offs, because that's a hidden cost... But who knows.
 
@@ -430,7 +430,7 @@ I mean, the Go testing package kind of hasn't really changed that much, apart fr
 
 **Rob Findley:** Yeah, I think in my experience writing generic code, one of the things I'm noticing is that I use function closures a lot more... And I think a more concise function closure syntax would gell really nicely with generics.
 
-**Mat Ryer:** I see. But this is a bit like having JavaScript; you can have a function typed out, a function with brackets, or you can just have the empty brackets \[unintelligible 00:53:04.06\] and they both work, would you break the way function closures worked? Like, the syntax - are you talking about that?
+**Mat Ryer:** I see. But this is a bit like having JavaScript; you can have a function typed out, a function with brackets, or you can just have the empty brackets witht the fat arrow, and they both work, would you break the way function closures worked? Like, the syntax - are you talking about that?
 
 **Rob Findley:** Pure syntax. I'm not sure if this is a good idea, but it's something that I'm immediately noticing. So don't quote me on this and say that I've endorsed this in the future, but I think it's something that would be interesting to explore.
 
@@ -454,7 +454,7 @@ I mean, the Go testing package kind of hasn't really changed that much, apart fr
 
 **Sameer Ajmani:** That is something our static analysis team has looked at, is "Can we provide better, say, safety around mutexes in static data race detection?" And an open question is can we do that with Go code as it exists today, or do we need to add more? Does the programmer have to say more in order to do this?
 
-**Mat Ryer:** Right. I quite like the question mark notation in TypeScript, where if an object is nil, essentially you can do question mark - that would be a panic if you're doing the dot, calling something on nil; you get then a panic in Go. The question mark dot notation makes that okay, and it'll just return an empty value, or something. I don't know if that's right for Go. I quite like how explicit everything is in Go. But when you're dealing with data that you don't understand fully the structure of it, those sorts of things can be pretty useful, especially in the templates. We could probably \[unintelligible 00:55:13.03\] Can maybe someone do that tomorrow...?
+**Mat Ryer:** Right. I quite like the question mark notation in TypeScript, where if an object is nil, essentially you can do question mark - that would be a panic if you're doing the dot, calling something on nil; you get then a panic in Go. The question mark dot notation makes that okay, and it'll just return an empty value, or something. I don't know if that's right for Go. I quite like how explicit everything is in Go. But when you're dealing with data that you don't understand fully the structure of it, those sorts of things can be pretty useful, especially in the templates. We could probably update the templates I would've thought. Can maybe someone do that tomorrow...?
 
 **Keith Randall:** It's certainly useful in the fmt package, that if you give a %s and you give it an integer, it knows how to handle that, it never crashes, and if it's confused about what's there, it prints something in the output, instead of crashing.
 
