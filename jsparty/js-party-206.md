@@ -128,7 +128,7 @@ Alright, let's play, shall we? We'll start round one, and the two contestants fa
 
 **Tara Z. Manicsic:** Have you heard of that one? \[laughter\]
 
-**Jerod Santo:** \[unintelligible 00:08:04.19\] Show me js. \[win sound\] The number three answer, with 13 responses...
+**Jerod Santo:** What is that again? Show me js. \[win sound\] The number three answer, with 13 responses...
 
 **Tara Z. Manicsic:** \[08:15\] Three?!
 
@@ -308,7 +308,7 @@ Alright, let's play, shall we? We'll start round one, and the two contestants fa
 
 **Nick Nisi:** Nobody thinks of Jekyll... \[laughter\]
 
-**Jerod Santo:** \[unintelligible 00:15:55.05\] good sign, Nick.
+**Jerod Santo:** Probably not a good sign, Nick.
 
 **Nick Nisi:** Yeah. \[laughter\]
 
@@ -442,7 +442,7 @@ Alright, let's play, shall we? We'll start round one, and the two contestants fa
 
 **Jerod Santo:** There you go.
 
-**Tara Z. Manicsic:** I do developer experience for a living, so \[unintelligible 00:22:46.24\]
+**Tara Z. Manicsic:** I do developer experience for a living, so bleh
 
 **Jerod Santo:** You must be good at your job.
 
@@ -542,7 +542,7 @@ Alright, let's play, shall we? We'll start round one, and the two contestants fa
 
 **Yuraima Estevez:** Oh, boy.
 
-**Michael Chan:** Okay, so is this quote about laziness being one of the characteristics of a developer? I'm kind of feeling like that's one of those two, just because it's such a popular \[unintelligible 00:27:55.09\]
+**Michael Chan:** Okay, so is this quote about laziness being one of the characteristics of a developer? I'm kind of feeling like that's one of those two, just because it's such a popular
 
 **Yuraima Estevez:** I'd +1 that.
 
@@ -578,11 +578,9 @@ Alright, let's play, shall we? We'll start round one, and the two contestants fa
 
 **Brandon Dail:** 10x? It's 10x, isn't it?
 
-**Tara Z. Manicsic:** \[unintelligible 00:28:45.03\]
+**Colby Fayock:** Is it communication?
 
 **Yuraima Estevez:** Oh, gosh...
-
-**Tara Z. Manicsic:** \[unintelligible 00:28:48.02\]
 
 **Colby Fayock:** Didn't we already try that?
 
@@ -678,11 +676,11 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Colby Fayock:** Let's go "weekend".
 
-**Jerod Santo:** Show us the weekend. \[fail sound\] \[laughter\] For a second there I felt like Daniel Craig on Saturday Night Live, when he says "Ladies and gentlemen... The weekend." \[unintelligible00:34:24.07\]
+**Jerod Santo:** Show us the weekend. \[fail sound\] \[laughter\] For a second there I felt like Daniel Craig on Saturday Night Live, when he says "Ladies and gentlemen... The weekend."
 
 **Nick Nisi:** It was a good guess though.
 
-**Tara Z. Manicsic:** \[unintelligible 00:34:28.01\]
+**Tara Z. Manicsic:** I liked it
 
 **Jerod Santo:** Sorry, team one, you guys are thinking outside the box, you have creative answers, and you're just striking out left and right... So team two tends to just pick days of the week, which is turning out to work pretty well. \[laughter\]
 
@@ -808,7 +806,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Michael Chan:** A quick draw nomination. I should have spoke sooner. \[laughter\]
 
-**Jerod Santo:** There's a nomination, a second, and \[unintelligible 00:41:45.18\] So that's official. Let's move to round six. Gentlemen, step right up. We asked 100 JavaScript developers "What's the first thing you do when your code doesn't work right?" Since team 1 is trailing, we'll let Colby guess first.
+**Jerod Santo:** There's a nomination, a second, and a ool. So that's official. Let's move to round six. Gentlemen, step right up. We asked 100 JavaScript developers "What's the first thing you do when your code doesn't work right?" Since team 1 is trailing, we'll let Colby guess first.
 
 **Colby Fayock:** I feel like I could come up with a lot of smart answers for this, but console log.
 
@@ -828,7 +826,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Jerod Santo:** What are you trying to saying here?
 
-**Brandon Dail:** \[unintelligible 00:43:07.00\]
+**Brandon Dail:** Just trolling for the answer here
 
 **Jerod Santo:** Yeah, yeah. You've gotta guess one at some point. \[laughter\]
 
@@ -850,7 +848,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Yuraima Estevez:** Hard refresh.
 
-**Jerod Santo:** Kind of like I did earlier, when I refreshed \[unintelligible 00:44:05.02\] Show us "Re-run the code." \[win sound\]
+**Jerod Santo:** Kind of like I did earlier, when I refreshed. Show us "Re-run the code." \[win sound\]
 
 **Nick Nisi:** \[44:15\] Yes!
 
@@ -874,7 +872,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Jerod Santo:** Checking tests did not make the cut. That's your first life lost. Back to Tara.
 
-**Tara Z. Manicsic:** So like part of me would want to say you rubber duck your co-workers, but we know from the first respondents that nobody works \[unintelligible 00:44:58.29\] and collaborates.
+**Tara Z. Manicsic:** So like part of me would want to say you rubber duck your co-workers, but we know from the first respondents that nobody works in teams and collaborates.
 
 **Yuraima Estevez:** No. \[laughter\]
 
@@ -894,7 +892,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Jerod Santo:** Well, it's an order of operations thing, right? The first thing you do is cry. Then you reach for a debugger.
 
-**Brandon Dail:** \[unintelligible 00:45:42.11\] crying, yeah.
+**Brandon Dail:** It's a lot easier to start crying, yeah.
 
 **Colby Fayock:** The five stages of debugging...
 
@@ -1058,7 +1056,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Tara Z. Manicsic:** I wanna be a smart aleck again and just say that they're arguing against each other that React is the best framework ever... \[laughter\]
 
-**Jerod Santo:** Like, how \[unintelligible 00:52:46.13\]
+**Jerod Santo:** Like, how bestest it is?
 
 **Colby Fayock:** Every day the most... \[laughter\]
 
@@ -1164,7 +1162,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Brandon Dail:** I mean, I think the licensing stuff is maybe not like a popular point of contention for most people... And when they re-licensed years ago, it's kind of faded. I don't know, I could do linting, we could do -- I think JSX is just very controversial, so I think there'll always be people who are talking about it... But gosh, I don't know.
 
-**Tara Z. Manicsic:** Jerod has such a good poker face, too. \[unintelligible 00:57:22.28\]
+**Tara Z. Manicsic:** Jerod has such a good poker face, too. I get no...
 
 **Jerod Santo:** I will remind you, the game is on the line...
 
@@ -1186,7 +1184,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Tara Z. Manicsic:** He's got a whole flow chart over there... \[laughter\] He's looked up our backgrounds, he has a whole --
 
-**Michael Chan:** Yeah, just \[unintelligible 00:57:58.27\] connecting theories together... \[laughter\] I do like -- if we think it's different enough, I do like the file system organization, if we think it's different enough.
+**Michael Chan:** Yeah, just red string connecting theories together... \[laughter\] I do like -- if we think it's different enough, I do like the file system organization, if we think it's different enough.
 
 **Colby Fayock:** They feel close to me, but...
 
@@ -1246,11 +1244,11 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Michael Chan:** Aww! \[laughter\]
 
-**Tara Z. Manicsic:** I feel so bad for your sound editor, because my chair is really squeaky, and I've just been like \[unintelligible 01:00:21.26\] \[laughter\]
+**Tara Z. Manicsic:** I feel so bad for your sound editor, because my chair is really squeaky, and I've just been like \[laughter\]
 
 **Jerod Santo:** \[01:00:26.01\] Unfortunately, I'm also our sound editor, so... I appreciate your empathy. Well, team one - congratulations. After all that, you win with 354 points.
 
-**Tara Z. Manicsic:** The underdog \[unintelligible 01:00:40.11\] \[applause\]
+**Tara Z. Manicsic:** The underdog \[applause\]
 
 **Yuraima Estevez:** Wow...
 
@@ -1278,7 +1276,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Jerod Santo:** So team 1, you guys win. That means you get to do shout-outs. So all three of you each get an opportunity to shout-out anything that you would like. It cannot be TypeScript. Nick, you are up. What would you like to shout out?
 
-**Nick Nisi:** Well, I already shouted out \[unintelligible 01:01:49.15\] at the beginning, so... \[laughter\]
+**Nick Nisi:** Well, I already shouted out liquid aminos at the beginning, so... \[laughter\]
 
 **Tara Z. Manicsic:** I prefer mine solid, but whatever...
 
@@ -1308,7 +1306,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Nick Nisi:** Um... Colby? \[laughter\]
 
-**Tara Z. Manicsic:** \[unintelligible 01:03:08.26\] so much more...
+**Tara Z. Manicsic:** So much more...
 
 **Colby Fayock:** Check me out on YouTube at @colbyfayock.
 
@@ -1334,7 +1332,7 @@ I also just wanted to thank everybody for playing the game. This has been Fronte
 
 **Yuraima Estevez:** Thanks, y'all.
 
-**Brandon Dail:** \[unintelligible 01:04:46.18\] This was fun!
+**Brandon Dail:** Thanks this was fun!
 
 **Yuraima Estevez:** Bye! \[laughter\]
 
