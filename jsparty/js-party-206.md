@@ -58,7 +58,7 @@
 
 **Brandon Dail:** Thank you for having me.
 
-**Jerod Santo:** \[00:04:13.09\] And Brandon, the people really wanna know - how many tabs do you have open.
+**Jerod Santo:** \[04:13\] And Brandon, the people really wanna know - how many tabs do you have open.
 
 **Brandon Dail:** Um, like in the window that I have opened right now, or the dozens of other windows that I have?
 
@@ -130,7 +130,7 @@ Alright, let's play, shall we? We'll start round one, and the two contestants fa
 
 **Jerod Santo:** \[unintelligible 00:08:04.19\] Show me js. \[win sound\] The number three answer, with 13 responses...
 
-**Tara Z. Manicsic:** \[00:08:15.05\] Three?!
+**Tara Z. Manicsic:** \[08:15\] Three?!
 
 **Jerod Santo:** ...which means you did not get number one, and Brandon now has an opportunity to steal.
 
@@ -212,7 +212,7 @@ Alright, let's play, shall we? We'll start round one, and the two contestants fa
 
 **Michael Chan:** Okay. Well, I was gonna guess Eleventy, because I love Eleventy, and I was just gonna guess it, because I like it... But I'm gonna go the opposite direction and guess Gatsby...
 
-**Yuraima Estevez:** \[00:12:01.03\] How is that opposite? What are you trying to say? \[laughter\]
+**Yuraima Estevez:** \[12:01\] How is that opposite? What are you trying to say? \[laughter\]
 
 **Michael Chan:** Oh, I mean... \[laughter\]
 
@@ -318,7 +318,7 @@ Alright, let's play, shall we? We'll start round one, and the two contestants fa
 
 **Tara Z. Manicsic:** Sure. \[laughs\]
 
-**Jerod Santo:** \[00:16:14.13\] Colby, what are you thinking? You've been pretty quiet up there.
+**Jerod Santo:** \[16:14\] Colby, what are you thinking? You've been pretty quiet up there.
 
 **Colby Fayock:** Yeah, I think SvelteKit is interesting. I honestly thought that was gonna be higher, because I thought it was kind of growing... But I don't know.
 
@@ -418,7 +418,7 @@ Alright, let's play, shall we? We'll start round one, and the two contestants fa
 
 **Jerod Santo:** I might have to hard-refresh each round. We'll see how this plays out. This is interesting. Alright, we're gonna award those points to team two... And now they lead, after three rounds, with 184, team one pulling up their rear with 79 points... But don't worry, there's lots of game left to play.
 
-**Break:** \[00:20:22.18\]
+**Break:** \[20:22\]
 
 **Jerod Santo:** We now move to round four, and our interface-off is between Tara and Brandon. Please step up. We surveyed 100 JavaScript developers and asked them to name a character trait that many successful developers have in common. There are five popular responses on the board. Brandon, you get to guess first.
 
@@ -462,7 +462,7 @@ Alright, let's play, shall we? We'll start round one, and the two contestants fa
 
 **Nick Nisi:** Um... I'm going to say... Everything I think of falls into those two categories, so... Um...
 
-**Jerod Santo:** \[00:23:56.28\] Just do your best, Nick...
+**Jerod Santo:** \[23:56\] Just do your best, Nick...
 
 **Yuraima Estevez:** Look inside yourself and say "What am I?"
 
@@ -552,7 +552,7 @@ Alright, let's play, shall we? We'll start round one, and the two contestants fa
 
 **Michael Chan:** Let's do it.
 
-**Jerod Santo:** \[00:28:02.18\] Show us laziness. \[win sound\]
+**Jerod Santo:** \[28:02\] Show us laziness. \[win sound\]
 
 **Michael Chan:** Yes!
 
@@ -638,7 +638,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Yuraima Estevez:** What?!
 
-**Jerod Santo:** \[00:32:15.23\] Sunday did not make the board, so neither Saturday, nor Sunday.
+**Jerod Santo:** \[32:15\] Sunday did not make the board, so neither Saturday, nor Sunday.
 
 **Brandon Dail:** I guess these are people's responses, right?
 
@@ -704,7 +704,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Tara Z. Manicsic:** Such a rebel, I know, I know... Um, let's try Tuesday. Let's see what happens there.
 
-**Jerod Santo:** \[00:36:15.04\] Show us Tuesday. \[win sound\] Number one answer. 30 respondents find Tuesday to be when they get the most coding done, which puts it at only five points, because we're inverted... But points nonetheless. We'll award those to team one, and we'll go back to team two. And Brandon is up... There's only one last thing on the board. Are you gonna go for "holiday"? What's gonna happen here?
+**Jerod Santo:** \[36:15\] Show us Tuesday. \[win sound\] Number one answer. 30 respondents find Tuesday to be when they get the most coding done, which puts it at only five points, because we're inverted... But points nonetheless. We'll award those to team one, and we'll go back to team two. And Brandon is up... There's only one last thing on the board. Are you gonna go for "holiday"? What's gonna happen here?
 
 **Brandon Dail:** So literally every actual day of the week is out... \[laughter\] I'm gonna maybe account for the self-deprecating answer here and say "no days". None.
 
@@ -794,7 +794,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Jerod Santo:** Alright, so 30 points awarded to team one there. That ends our inverted round.
 
-**Break:** \[00:39:39.02\]
+**Break:** \[39:39\]
 
 **Jerod Santo:** We now move to our final two rounds. These are worth double points, and the teams get to decide who does the face-off. So we will now go to round six, that's worth double points. Team 1, who would you like to represent you in your face-off?
 
@@ -852,7 +852,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Jerod Santo:** Kind of like I did earlier, when I refreshed \[unintelligible 00:44:05.02\] Show us "Re-run the code." \[win sound\]
 
-**Nick Nisi:** \[00:44:15.11\] Yes!
+**Nick Nisi:** \[44:15\] Yes!
 
 **Jerod Santo:** Number two answer. This includes "Refresh the page" or "Re-run the code." 15 respondents, which gives you 30 points. You're raking up the points in this round.
 
@@ -970,7 +970,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Tara Z. Manicsic:** Maybe when they say that the most productive code - that's where that falls into, is copying and pasting.
 
-**Brandon Dail:** \[00:48:03.08\] I thought for sure -- the whole time, I was like "Just don't guess it, because we got this", but wow. Wow. That's rough.
+**Brandon Dail:** \[48:03\] I thought for sure -- the whole time, I was like "Just don't guess it, because we got this", but wow. Wow. That's rough.
 
 **Tara Z. Manicsic:** It's gotta be a smart aleck answer. This is gonna be where Sunday shows up. It's just gonna be like "Sunday." \[laughter\]
 
@@ -1044,7 +1044,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Nick Nisi:** I'm gonna say the language, like TypeScript, JavaScript...
 
-**Jerod Santo:** \[00:51:59.21\] I knew you would say that. Show us "TypeScript". \[win sound\] Yes, of course, TypeScript vs. JavaScript. Number two answer, with 11 responses. Okay, the comeback continues. Colby, you have 1 in 4 open, and you have all three of your lives left. Name something that React devs argue about.
+**Jerod Santo:** \[51:59\] I knew you would say that. Show us "TypeScript". \[win sound\] Yes, of course, TypeScript vs. JavaScript. Number two answer, with 11 responses. Okay, the comeback continues. Colby, you have 1 in 4 open, and you have all three of your lives left. Name something that React devs argue about.
 
 **Colby Fayock:** Hooks.
 
@@ -1142,7 +1142,7 @@ So we asked 100 JS devs "Which day of the week do you get the most coding done?"
 
 **Michael Chan:** That is a good one. Yeah, I was thinking like suffixes too, like we were talking about earlier... Linting also too, I was thinking about... Like linting rules and whatnot.
 
-**Yuraima Estevez:** \[00:56:17.02\] Go super-broad and say Facebook. \[laughter\]
+**Yuraima Estevez:** \[56:17\] Go super-broad and say Facebook. \[laughter\]
 
 **Michael Chan:** Yeah, like licensing?
 
