@@ -46,7 +46,7 @@
 
 **Adam Stacoviak:** I want this show to be like -- if it's gonna be Friday, fine. If it's gonna be Monday, fine. Pick a day, ship it no matter what... If that thing hasn't shipped at the time it should have shipped, it's a fail. And I feel like we've probably hit ten weeks this year, if that many, on a Monday.
 
-**Jerod Santo:** \[00:04:24.26\] Should we admit to the people that our goal is to ship the Changelog on Mondays? Should we admit that? Or should we just keep that one to ourselves? Because I don't think we ever ship it on Mondays. Yeah, maybe half a dozen or so.
+**Jerod Santo:** \[04:24\] Should we admit to the people that our goal is to ship the Changelog on Mondays? Should we admit that? Or should we just keep that one to ourselves? Because I don't think we ever ship it on Mondays. Yeah, maybe half a dozen or so.
 
 **Adam Stacoviak:** If that, yeah. I'd say maybe ten max.
 
@@ -94,7 +94,7 @@
 
 **Adam Stacoviak:** Right, focus. So you have to say no to focus, and -- a quick rewind on this... The reason I think we're sitting here is because I said no to even Founders Talk, for several years, to totally focus on this show, to totally focus on the relationship we've been building over the years, and to turn this thing into a business and generate revenue to make it sustainable. And I think that that's why it's on hiatus, because -- I was spending a lot of time, obviously, on Brain Science, and while there's been success with it, it wasn't in our main thing... So we have a saying called "Keep the main thing the main thing." And when you do that, I think in anything in life, you see the results you wanna see, because you're doing the work for which you're optimizing for.
 
-\[00:08:12.01\] And I saw myself putting a lot of work out there into this show, but I kept getting pulled into it - because I enjoy doing it, and it's a great show - and not enough into... I kept seeing myself being mediocre in other places. Not that I didn't show up and do my job, and deliver; it just was I was, like, mediocre... In the results of like sales, in the results of like delivering this podcast, and others... So I had to get that time back.
+\[08:12\] And I saw myself putting a lot of work out there into this show, but I kept getting pulled into it - because I enjoy doing it, and it's a great show - and not enough into... I kept seeing myself being mediocre in other places. Not that I didn't show up and do my job, and deliver; it just was I was, like, mediocre... In the results of like sales, in the results of like delivering this podcast, and others... So I had to get that time back.
 
 So basically, the reason why I was on hiatus is to give me my time back to focus... And I think to get us to a point where we can bring it back in a manner where it would be more sustainable, rather than being a burden... Despite it being an awesome show, and Mireille being an awesome co-host, and all the things. And plus, she has some things in her life too, which made it easier to do that... And sometimes it's just the right timing, you know? Seth Godin's book, The Dip, will teach you when to quit, essentially. Sometimes you've gotta quit. Sometimes you've gotta put things on the shelf for a bit and come back to it, and this is one of those things where you've gotta put it on the shelf and come back to it.
 
@@ -126,7 +126,7 @@ So basically, the reason why I was on hiatus is to give me my time back to focus
 
 **Jared Watts:** Yeah, great question. I think there’s maybe two different branches of thought there to perhaps explore. The first one is that some of us that created the Crossplane project - we also created the Rook project as well, too. Rook is storage orchestration for Kubernetes. We found there that in the early days of persistent storage for Kubernetes - you know, the story needed to evolve a little bit there before people started to become more comfortable with running storage or data-persistent sort of things inside the cluster.
 
-\[00:12:05.20\] So we found there that some of the work that the special interest group for storage in Kubernetes had done was really strong. Persistent volume claim, storage classes, things like that. And we found very early on that applying those same patterns for being able to dynamically provision storage would also work very well for other types of infrastructure platform resources such as databases, and buckets, and even clusters themselves.
+\[12:05\] So we found there that some of the work that the special interest group for storage in Kubernetes had done was really strong. Persistent volume claim, storage classes, things like that. And we found very early on that applying those same patterns for being able to dynamically provision storage would also work very well for other types of infrastructure platform resources such as databases, and buckets, and even clusters themselves.
 
 So that was the original why of Crossplane, is “Hey, we’ve done great things with Kubernetes for storage… Let’s do more infrastructure resources inside of Kubernetes and bring them in to being managed and provisioned and controlled by the control plane itself.”
 
@@ -146,7 +146,7 @@ And then beyond that, we’ve found that there’s a very strong story too for b
 
 **Jerod Santo:** Yeah. Well, this was very intentional by us. For many years -- we have a lot of episode requests; we still get lots of episode requests. And we love those, and we do a lot of episodes, honestly, just because somebody asked us to. We love to do that. That being said, for a long time people would ask us to do specific shows, and hear more about their favorite thing, or their niche inside of software... And you know, we only get to shoot one shot once a week for The Changelog, right? We've got 50 episodes a year, and we just didn't feel like we should put a bunch of episodes about Go in The Changelog feed. It wouldn't be serving our listeners. It would be serving some of them, but not all.
 
-\[00:15:49.21\] And so that was why the strategy was to strategically add new shows that can go super-deep on these sub-genres inside of software, and I'm really happy that we finally have an operations infrastructure/dev ops/shipping it podcast, so we can have those conversations each and every week, without feeling like we're having to avoid other potential awesome conversations on the Changelog.
+\[15:49\] And so that was why the strategy was to strategically add new shows that can go super-deep on these sub-genres inside of software, and I'm really happy that we finally have an operations infrastructure/DevOps/shipping it podcast, so we can have those conversations each and every week, without feeling like we're having to avoid other potential awesome conversations on the Changelog.
 
 **Adam Stacoviak:** I think too also to add more voices. While I really do enjoy your voice, Jerod...
 
@@ -196,7 +196,7 @@ I think in the most recent episode of Kaizen on Ship It we thanked some particul
 
 **Adam Stacoviak:** I encourage \[unintelligible 00:19:46.29\] of laugh every once in a while is a good thing, sure.
 
-**Break**: \[00:19:51.21\]
+**Break**: \[19:51\]
 
 **Jerod Santo:** So as we dive into now focusing in on the Changelog, we have for this show -- every year we do the most popular episodes, we talk through a few of those... Our favorite episodes this year we've also asked listeners to basically leave us voice messages; we appreciate each and every one that did. So we'll play those, and of course, clips from episodes that they appreciated.
 
@@ -216,7 +216,7 @@ So if you're listening to this, if you're ever a guest on the show, when your sh
 
 **Jerod Santo:** I wanted that feature for so many years, because our shipping process was so manual... And we've given away free T-shirts to all of our guests since -- I can't remember when we didn't do that. But I can remember when we had a giant spreadsheet with a backlog, and it was just such a manual process, and it relied upon us - or upon Adam and his wife Heather to get that stuff done... And we weren't in that operational groove. I always wanted to just like -- can't we just auto-generate a coupon code? How cool would that be?
 
-**Adam Stacoviak:** \[00:24:06.18\] And somebody else does all the work, yes. That's what fulfillment is for.
+**Adam Stacoviak:** \[24:06\] And somebody else does all the work, yes. That's what fulfillment is for.
 
 **Jerod Santo:** And it's so cool.
 
@@ -252,7 +252,7 @@ So lots of little intricacies in getting this done. I'm just so happy to have it
 
 **Adam Stacoviak:** Yeah. We were trying to -- so behind the scenes, we were trying to get Nat Friedman... So Nat, if you're listening to this, or somebody's listening to this and you know Nat - Nat, you missed out, man. We were gonna do a show called Maintainers, Maintainers, Maintainers with you; it would have been a nice dovetail to the future of software, and GitHub, and the Microsoft roots, and all the fun stuff... But anyways; we wanted to do a show titled "Maintainer, Maintainer, Maintainer" in light of Steve Balmer's Developers, Developers, Developers. If you wanna play a clip of that, Jerod -- I don't know if you have a clip of that pulled up; probably not. But you get it. You heard the chant.
 
-\[00:28:15.13\] So that shirt is super-cool, and it's warm. We got some stickers out there... And all that was done by our fulfillment team. We didn't have to ship any of that late. The only hard part really was getting the shirts printed on time. It took a month and a half to get those shirts printed. We wanted to do one large batch and send them all at once, and... Yeah. So it was a lot of fun.
+\[28:15\] So that shirt is super-cool, and it's warm. We got some stickers out there... And all that was done by our fulfillment team. We didn't have to ship any of that late. The only hard part really was getting the shirts printed on time. It took a month and a half to get those shirts printed. We wanted to do one large batch and send them all at once, and... Yeah. So it was a lot of fun.
 
 **Jerod Santo:** So look out for this coming June, I believe we will have maintainer week again, and we will definitely try to put out another limited run, different, I hope, T-shirt, specifically for maintainers.
 
@@ -288,9 +288,9 @@ Justin Dorfman: Adam, Jerod, it's Justin Dorfman. Happy holidays, my friends. I 
 
 **Jerod Santo:** Yeah. It is easy to get winded, but I wanna say this - I don't think I've told you this yet, Adam, but just the other day I was putting together, and we're putting together a special episode of Go Time called "The Funny Bits." That's the working title. I'm not sure what it's gonna be exactly... But it's coming, and it'll drop into your feed soon, for Changelog++ subscribers, as well as Master feed subscribers.
 
-\[00:32:01.11\] Or, if you are a Go Time listener, there as well. It's just like all the funny parts from the last year, basically. People being silly on Go Time. And there's a really great clip between Mat Ryer and Johnny Boursiquot, where Mat is just messing with him, and saying things like "I'll do anything you tell me to do, Johnny." He's just being weird. And it reminded me of Ryan Adams or Bryan Adams. I always get the two confused; I think it's Bryan Adams - "Everything I do, I do it for you", off of the Robin Hood, Prince of Thieves soundtrack. So I thought "Well, what's the appropriate thing to do here?" Well, I have to splice their voices into this song in order just to spice it up a notch.
+\[32:01\] Or, if you are a Go Time listener, there as well. It's just like all the funny parts from the last year, basically. People being silly on Go Time. And there's a really great clip between Mat Ryer and Johnny Boursiquot, where Mat is just messing with him, and saying things like "I'll do anything you tell me to do, Johnny." He's just being weird. And it reminded me of Ryan Adams or Bryan Adams. I always get the two confused; I think it's Bryan Adams - "Everything I do, I do it for you", off of the Robin Hood, Prince of Thieves soundtrack. So I thought "Well, what's the appropriate thing to do here?" Well, I have to splice their voices into this song in order just to spice it up a notch.
 
-**Song extract:** \[00:32:40.18\] to \[00:32:53.10\]
+**Song extract:** \[32:40\] to \[32:53\]
 
 **Jerod Santo:** So I'm sitting there, putting together this montage of Mat Ryer professing his feelings for Johnny Boursiquot over this soundbit of Bryan Adams singing that he would die for you... And I just thought, "I love this job." This is like the most amazing thing ever.
 
@@ -314,7 +314,7 @@ But yeah, I'm so thankful to get to do this. And the reason why - just to pause 
 
 **Jerod Santo:** Well, we'll just edit ourselves way down... Probably not. It's just gonna be long. That's okay. Most popular... Well, let's start off with another listener clip here, because we have a good one, who loves not just a specific episode, but a specific part of all of our episodes. This is Aaron Yoshitaka calling in.
 
-**Aaron Yoshitaka:** \[00:36:01.21\] Hey Changeloggers. Thanks for all the awesome content over the year. I've really enjoyed a lot of different episodes, but to be honest, one of my favorite parts of every episode is the amazing beats that you've got, the intros and the outros, and the ads... So a huge shout-out to Breakmaster Cylinder for creating all these awesome songs. My favorite is Solfeggio, which used to be the Changelog end credits; I've downloaded that and I listen to it all the time now. Cheers!
+**Aaron Yoshitaka:** \[36:01\] Hey Changeloggers. Thanks for all the awesome content over the year. I've really enjoyed a lot of different episodes, but to be honest, one of my favorite parts of every episode is the amazing beats that you've got, the intros and the outros, and the ads... So a huge shout-out to Breakmaster Cylinder for creating all these awesome songs. My favorite is Solfeggio, which used to be the Changelog end credits; I've downloaded that and I listen to it all the time now. Cheers!
 
 **Jerod Santo:** Cheers to you, Aaron. Thank you for leaving us that message.
 
@@ -330,7 +330,7 @@ But yeah, I'm so thankful to get to do this. And the reason why - just to pause 
 
 **Jerod Santo:** So Solfeggio - this outro, which ran on the Changelog for years... \[Solfeggio sample 00:38:55.25\] no longer is. It actually started with our most popular episode of 2021, which is Why We Love Vim, which was a Changelog Special. This is something new for us, kind of breaking out of the mold, and doing a non-normal "people sit and talk" episode. That's our style; it's an interview, it's a conversation... And this was different. We had four guests, four different interviews, we had a long production process... It was actually a lot more work... I knew it was gonna be a lot of work, but it's always more work than you think. And it was always off-schedule; because it was a special, it wasn't like it had to fit into a certain week, so it actually took me a long time to produce it, mostly because I'm a procrastinator...
 
-\[00:39:59.02\] But on that episode we wanted to have a very special outro, and we've put in a new track, not Solfeggio. And it was such a banger that we fell in love with it and just started replacing that outright. Although, of all of our outros - this doesn't go for the theme songs, but for our outros - that's the one that most people ask about, is the Solfeggio, like Aaron said. They love that track. But we love this new track quite a bit. Both Adam and I separately kind of fell in love with it.
+\[39:59\] But on that episode we wanted to have a very special outro, and we've put in a new track, not Solfeggio. And it was such a banger that we fell in love with it and just started replacing that outright. Although, of all of our outros - this doesn't go for the theme songs, but for our outros - that's the one that most people ask about, is the Solfeggio, like Aaron said. They love that track. But we love this new track quite a bit. Both Adam and I separately kind of fell in love with it.
 
 **Adam Stacoviak:** The interesting thing about the song is that -- so Breakmaster works with a DJ... I don't know if you can call him a DJ, or a vocalist, or a rapper... I'm not sure how you would -- an artist named Dislotec. And so Breakmaster is beyond just podcast famous in terms of music production; they produce music with I think at least Dislotec; I'm not sure if it's others, but I'm sure they would if they did... So this song in particular has -- it's just the music of that track. So there's a whole track out there with Dislotec rapping, with lyrics, of course, and all that fun stuff... This is just the music of that song.
 
@@ -378,7 +378,7 @@ But yeah, this "Why we love Vim" episode - we've put a lot of work into this one
 
 **Jerod Santo:** He does, yeah.
 
-**Adam Stacoviak:** \[00:44:09.25\] I didn't even know that until we did that show. I'm like, "This is so cool!" It was so awesome to have him as a --
+**Adam Stacoviak:** \[44:09\] I didn't even know that until we did that show. I'm like, "This is so cool!" It was so awesome to have him as a --
 
 **Jerod Santo:** Yeah, close the loop.
 
@@ -410,7 +410,7 @@ So any of those for me is sufficient, especially for the last one. If you think 
 
 **Jerod Santo:** Hm... So you switched your editor. \[laughs\] Number two - Modern Unix tools, with Nick Janetakis. This was actually the next episode, right after Why We Love Vim, and I think it may have benefitted a bit from Why We Love Vim's success. This is \#451, and this is one of those shows where it's just like "Hey, let's look at a repo and talk down a list of things on a repo." So it's kind of the opposite from Why We Love Vim, which was like a six-month production. This was "Find a cool repo, invite a friend on the show, and just talk about it." And that was Nick, and that was Modern Unix Tools, which just lists out replacements for older Unix tools... And just have a fun conversation, nerding out, all about the command line.
 
-**Adam Stacoviak:** \[00:48:12.28\] Not that I think this was a bad show by any means, but I'm surprised. And I love that about -- like, when we do this at the end of the year... Because wasn't it last year -- we had a bunch of authors on in that year, and almost everybody \[unintelligible 00:48:26.05\] was a book author...
+**Adam Stacoviak:** \[48:12\] Not that I think this was a bad show by any means, but I'm surprised. And I love that about -- like, when we do this at the end of the year... Because wasn't it last year -- we had a bunch of authors on in that year, and almost everybody \[unintelligible 00:48:26.05\] was a book author...
 
 **Jerod Santo:** Yeah.
 
@@ -454,7 +454,7 @@ So long story short, Barat - not even about OAuth at this point yet, but Barat h
 
 **Adam Stacoviak:** So Barat has an agenda - and for sure, he does; he's a marketer, and he's trying to connect us with the right people, and get the right message out there about Microsoft, and Build, and... This is years in the making, but they hadn't acquired GitHub then, so they were a different Microsoft in terms of like the community perception of them. So I think we play -- maybe not a significant, but a key role, in many of the key roles that were played, to (I guess) reshape their narrative. So rather than just going to this conference(s) and just saying "Great, Barat! Who are we talking to? Make us a list and we'll just dance." We pushed back on it; we pushed back and said "We want this kind of person. We want that kind of person. We wanna talk at this level. We wanna talk about AI, we wanna talk about Python", and the different things we did, and we pushed just as much as he pushed us.
 
-\[00:52:07.24\] And so I think that's why I thought it was funny, because Barat is fun, but he's also business, and so because of the deep relationship, when you said that, it just was like "Yes, that's the perfect nickname for Barat." And I think he actually likes it a lot. So he doesn't take it as an offense, by any means.
+\[52:07\] And so I think that's why I thought it was funny, because Barat is fun, but he's also business, and so because of the deep relationship, when you said that, it just was like "Yes, that's the perfect nickname for Barat." And I think he actually likes it a lot. So he doesn't take it as an offense, by any means.
 
 **Jerod Santo:** No, it was not meant to offend, by any means.
 
@@ -528,7 +528,7 @@ So long story short, Barat - not even about OAuth at this point yet, but Barat h
 
 **Adam Stacoviak:** And this is probably a good 15(ish) minutes... And then I'm like, "It's kind of lame to be a one-word kind of a thing... I don't know. Not creative at all", and you're like "I agree, it's not creative." And then I think you finally said "Why Neovim", essentially. You're like "Just giving some options. Why Neovim." I'm like, "Okay, cool. That works for me." And that's how we ended it.
 
-**Jerod Santo:** \[00:55:58.07\] Yeah, sometimes the title just strikes you, and you just know it. I think OAuth, "It's complicated" - I think I put that in there even before we recorded the show, because I that was my feelings about it, and you just left it... So I'll throw in some title options sometimes, and then Adam ships the episode, usually... So he kind of has final call on that; sometimes he just uses it, sometimes he asks for replacements.
+**Jerod Santo:** \[55:58\] Yeah, sometimes the title just strikes you, and you just know it. I think OAuth, "It's complicated" - I think I put that in there even before we recorded the show, because I that was my feelings about it, and you just left it... So I'll throw in some title options sometimes, and then Adam ships the episode, usually... So he kind of has final call on that; sometimes he just uses it, sometimes he asks for replacements.
 
 **Adam Stacoviak:** Yeah.
 
@@ -606,7 +606,7 @@ So let's go back and forth on these. So that was one... I'll just say, also in m
 
 I thought it turned out really well. I just liked hearing different people have different takes, and they're all well-reasoned, and they all come from these different perspectives... So that was one of my favorites.
 
-**Adam Stacoviak:** Yeah. What I liked most about this was it was a community well-rounded. Not just practitioners. You know, Paul Dix is CTO/founder of InfluxDB; Influx Data is the company, but InfluxDB the technology. Permissively open-sourced. They have built a business around it, and he's been in the ups and downs of the business side of open source.
+**Adam Stacoviak:** Yeah. What I liked most about this was it was a community well-rounded. Not just practitioners. You know, Paul Dix is CTO/founder of InfluxDB; Influx Data is the company, but InfluxDB the technology. Permissively open sourced. They have built a business around it, and he's been in the ups and downs of the business side of open source.
 
 \[01:03:56.12\] Heather Meeker is a well-known lawyer who's assisted many companies in establishing their licenses. The SSPL... She's done a lot of work in different licensing and stuff like that. I'm probably leaving out lots, because it's just meant to be light... But a legal side even. You know, Adam Jacob built a company around it... Chef, obviously, Manish Jain...
 
@@ -620,7 +620,7 @@ I thought it turned out really well. I just liked hearing different people have 
 
 **Adam Stacoviak:** I'll go back to my list... Which one shall I pick? Okay, so I'll just go with the next one in line with this then, not so much next one in terms of favorites... But back to Adam, "The business model of open source." So this is funny, because we actually pulled the Adam Jacob clip for the show we just talked about, this "Community perspectives on Elastic vs. AWS" - we pulled that Adam clip from the conversation we had with him way back I think in 2017 or 2018, and it was still accurate, it was still true; and we said that again in "The business model for open source."
 
-I pay attention to Adam Jacob on Twitter, I always appreciate his perspective on hard things in life, hard decisions, hard emotional thoughts on software, hard things in terms of like -- even when Docker took their thing that I think everybody thought should be open-sourced, there were a lot of thoughts around this... And Adam just has this different perspective on it, so I always appreciate the Adam word of wisdom, essentially... So the business model of open source was a good show to go into that... Because Adam is cool. Here's a clip.
+I pay attention to Adam Jacob on Twitter, I always appreciate his perspective on hard things in life, hard decisions, hard emotional thoughts on software, hard things in terms of like -- even when Docker took their thing that I think everybody thought should be open sourced, there were a lot of thoughts around this... And Adam just has this different perspective on it, so I always appreciate the Adam word of wisdom, essentially... So the business model of open source was a good show to go into that... Because Adam is cool. Here's a clip.
 
 **Adam Jacob:** Oh, I’m so hopeful. Yeah. No, look, how can you not be hopeful? Look at people… Look at this thing that we do all the time. It’s insane that it exists at all… And it exists because we have all decided it should. Like, literally, all of us decided that this was the coolest thing we’d seen, and we wanted to keep doing it, and we do it every day, and it’s such a blessing. And that mass group decision that this is how it’s gonna go, and that we can all have lives because of it, and we can spend our time on Earth doing this work - that is such a beautiful thing. And I fundamentally believe that that is who people really are. There’s so many things that divide us and make us awful, and those are awful things, and I see them, and I don’t want them… Do you know what I mean?
 
