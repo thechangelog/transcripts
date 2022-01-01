@@ -16,9 +16,9 @@ How I got bag into rapping for $STDOUT is actually kind of ridiculous... My olde
 
 **$STDOUT:** Because they're true. I live through something in the real world, and then I make fun of it. These songs aren't coming from me having read blog posts about a topic and then wanting to create something about it. I was there, in the coding trenches, on every one of these topics. Probably at the time I was actually really feeling some pain about it, and then only later I decided to look back and make fun of it. I'm definitely "Become the comedian in times of stress" kind of guy, so a lot of these songs I wrote when I was actually stressed out about these topics. The truthiness there really comes through in the lyrics. \[$STDOUT song 00:08:27.23\]
 
-**Jerod Santo:** True story?
+**Jerod Santo:** \[10:25\] True story?
 
-**$STDOUT:** Oh, 100% true story... That is exactly how it all went down. Let me tell you how this started... It's at my current company. I think I am a really high output code. I'm good at - you give me a project, I'm gonna get it done, and I can do it leading a small team of other engineers. My managers saw that I was really good at this, and thought "Hey, let's give him more responsibility", which is kind of this paradox, because the new responsibilities are things that I'm not great at, and actually make me less effective at the thing that they recognize me as being really good at... I'm tech lead, and now I have less time to actually code, crank out these projects; instead, I am one-on-one-ing with people on the team, I'm doing presentations, I'm breaking down projects into tickets... Yeah, it was okay, but I'm not tech lead anymore. I very intentionally removed myself from that seat.
+**$STDOUT:** Oh, 100% true story... That is exactly how it all went down. Let me tell you how this started... It's at my current company. I think I am a really high output coder. I'm good at - you give me a project, I'm gonna get it done, and I can do it leading a small team of other engineers. My managers saw that I was really good at this, and thought "Hey, let's give him more responsibility", which is kind of this paradox, because the new responsibilities are things that I'm not great at, and actually make me less effective at the thing that they recognize me as being really good at... I'm tech lead, and now I have less time to actually code, crank out these projects; instead, I am one-on-one-ing with people on the team, I'm doing presentations, I'm breaking down projects into tickets... Yeah, it was okay, but I'm not tech lead anymore. I very intentionally removed myself from that seat.
 
 **Jerod Santo:** And you've put your feelings out to the internet about it.
 
@@ -80,7 +80,7 @@ So I think we all have the right to be stressed out and complain about work and 
 
 **Jerod Santo:** What has the reaction been to your serious tracks?
 
-**$STDOUT:** I think some people really appreciate it, and you can see it in the comments. They'll say like "I thought you were just the funny man. This is actually making me think." On the 3 AM in San Francisco song, I remember one comment that kind of sticks in my brain, where somebody said "I'm leaving the tech industry, and you basically just spelled out why I want to leave."
+**$STDOUT:** I think some people really appreciated, and you can see it in the comments. They'll say like "I thought you were just the funny man. This is actually making me think." On the 3 AM in San Francisco song, I remember one comment that kind of sticks in my brain, where somebody said "I'm leaving the tech industry, and you basically just spelled out why I want to leave."
 
 So I do think even the serious songs - I hope they make people think... But definitely, people prefer the funny stuff. If I had to sum up the reaction, it would be like "Hm... Nice try, but you're the funny man. That was okay, but like... Go back to being funny." \[laughs\]
 
