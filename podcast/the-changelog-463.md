@@ -1,4 +1,4 @@
-**Matt Rickard:** Matt, welcome to the Changelog. 10,000 hours is a lot to put into anything, and at some point you hit mastery... In your blog post on the subject, titled "Reflections on 10,000 hours of programming" you quoted Malcolm Gladwell from Outliers, "The key to achieving world-class expertise in any skill is to a large extent a matter of practicing the correct way for a lot of around 10,000." So 10,000 to master a skill, that's where we're at. You've got some lessons here you've shared, reflections for you, but lessons for us, so let's dig into those... Where do you begin when you reflect on 10,000 hours of anything?
+**Adam Stacoviak:** Matt, welcome to the Changelog. 10,000 hours is a lot to put into anything, and at some point you hit mastery... In your blog post on the subject, titled "Reflections on 10,000 hours of programming" you quoted Malcolm Gladwell from Outliers, "The key to achieving world-class expertise in any skill is to a large extent a matter of practicing the correct way for a total of around 10,000." So 10,000 hours to master a skill, that's where we're at. You've got some lessons here you've shared, reflections for you, but lessons for us, so let's dig into those... Where do you begin when you reflect on 10,000 hours of anything?
 
 **Matt Rickard:** Well, just when I think about 10,000 hours - I mean, it's a long time. I think about how long I've been doing this... I've been programming for probably 15 years now, and it's a lot of time to do anything. I've had tons of failures along the way, learned a ton of things, and I've been trying to blog more and write down these ideas so that I don't keep on making the same mistakes over and over again.
 
@@ -66,7 +66,7 @@ So we're just gonna go down, pick a few, see how long we last, and talk about so
 
 **Matt Rickard:** That's a really good question. I don't know if it's either. I think it's just necessary complexity, and I think it's important to know maybe where you are on the spectrum, because I do think that you need to -- you can't necessarily jump from something like hardcoded variables or environmental variables to going to a DSL. I've never really seen that work out... So I think you do need to increase the complexity, but in a way that complexity can be absorbed by the projects or the developers.
 
-**Matt Rickard:** I almost feel like the process of iteration is necessary. You almost learn something -- you said that as the surface area of the program evolves, it's almost like this iteration through the flow, this heptagon is necessary to sort of like flush out the brittleness, or the flexibility and the eventual brittleness again of an application... Because you sort of learn something about it. You provide configuration to the user base, so that they can use it in a more flexible manner, and then those flexibilities turn into like "Well, this is now a best practice." So all those things solidify to now you just wanna hardcode them, so almost everybody uses the same flexible configuration, in some cases. I mean, there's a thousand different ways you can slice how this is used in the real world, but that seems to be a necessary iteration process.
+**Adam Stacoviak:** I almost feel like the process of iteration is necessary. You almost learn something -- you said that as the surface area of the program evolves, it's almost like this iteration through the flow, this heptagon is necessary to sort of like flush out the brittleness, or the flexibility and the eventual brittleness again of an application... Because you sort of learn something about it. You provide configuration to the user base, so that they can use it in a more flexible manner, and then those flexibilities turn into like "Well, this is now a best practice." So all those things solidify to now you just wanna hardcode them, so almost everybody uses the same flexible configuration, in some cases. I mean, there's a thousand different ways you can slice how this is used in the real world, but that seems to be a necessary iteration process.
 
 **Matt Rickard:** Yeah, I really like that point. I think it's a lot about discovering what those best practices are, and starting to codify them in different sorts of ways.
 
@@ -88,11 +88,11 @@ So we're just gonna go down, pick a few, see how long we last, and talk about so
 
 **Matt Rickard:** Yeah... I don't really know how to get around it. I keep on falling prey to it over and over again... But maybe that's just kind of the name of the game.
 
-**Matt Rickard:** \[15:48\] And what do you think comes out of the falling prey to it again and again? Do you think that it's a necessary thing that you just learn from and grow from as a result of like just this awareness that it's not efficient to repeat yourself? Instead of saying "Don't", let's say "Maybe not repeat yourself", or "Should not" versus "Don't." It's kind of a little softer on the -- it's maybe just being more aware of the times when there are the patterns... As you said, Jerod, the pattern matching - to just be aware that these can lead down bad roads if you repeat yourself too often, and it makes sense to DRY up things...
+**Adam Stacoviak:** \[15:48\] And what do you think comes out of the falling prey to it again and again? Do you think that it's a necessary thing that you just learn from and grow from as a result of like just this awareness that it's not efficient to repeat yourself? Instead of saying "Don't", let's say "Maybe not repeat yourself", or "Should not" versus "Don't." It's kind of a little softer on the -- it's maybe just being more aware of the times when there are the patterns... As you said, Jerod, the pattern matching - to just be aware that these can lead down bad roads if you repeat yourself too often, and it makes sense to DRY up things...
 
 **Jerod Santo:** To treat it more loosely?
 
-**Matt Rickard:** It's like an awareness thing.
+**Adam Stacoviak:** It's like an awareness thing.
 
 **Jerod Santo:** Well, it's worth pointing out what the rule really was, or is, that they point out in the Pragmatic Programmer book... And the repetition is not about code. That's where we all get it wrong. Anytime you're repeating code it's bad, so don't repeat yourself. So let's create a function, name it etc. Abstract a function. What they were talking about is knowledge in your system. Every piece of knowledge in your system should live in one place and one place only. But because the acronym was DRY, and it's such a catchy thing, and it's easy to remember "Don't repeat yourself", as soon as you start repeating something, you just immediately apply it, right?
 
@@ -130,7 +130,7 @@ When you're really trying to explain exactly how your code works, then maybe you
 
 **Jerod Santo:** Yeah, I think the rules change entirely for library authors, maybe API designers, versus somebody who needs to write an application code, business logic... I think the rules change, the best practices change. Most of my comments are apologies to my future self, like "Sorry, I couldn't think of a better way to do this", you know? \[laughter\] Or admitting this is a little bit gnarly, but I couldn't think of a better way... And sometimes you just have to move on and come back and it'll come to you.
 
-But yeah, I think the what and the why's, those should be in-line comments. Not the how's. Because the how can change; that's an implementation detail. Oftentimes we see jokes because the comments describe something that no longer exists. Comments because out of date, especially when you're saying how. That's the most out of date thing, because that's gonna churn, is the how, usually more than the why.
+But yeah, I think the what and the why's, those should be in-line comments. Not the how's. Because the how can change; that's an implementation detail. Oftentimes we see jokes because the comments describe something that no longer exists. Comments become out of date, especially when you're saying how. That's the most out of date thing, because that's gonna churn, is the how, usually more than the why.
 
 **Matt Rickard:** Yeah.
 
@@ -140,7 +140,7 @@ But yeah, I think the what and the why's, those should be in-line comments. Not 
 
 **Break:** \[24:40\]
 
-**Jerod Santo:** So anytime you reflect on 10,000 hours of programming, surely Stack Overflow comes into those reflections... And it turns out it did, because one of your findings or one of the things that you believe now, after all this time, is that browsing the source is almost always faster than finding an answer on Stack Overflow. Now, I kind if agree with you, but I also kind of disagree, so I'd love to have you elaborate a little bit on this one.
+**Jerod Santo:** So anytime you reflect on 10,000 hours of programming, surely Stack Overflow comes into those reflections... And it turns out it did, because one of your findings or one of the things that you believe now, after all this time, is that browsing the source is almost always faster than finding an answer on Stack Overflow. Now, I kind of agree with you, but I also kind of disagree, so I'd love to have you elaborate a little bit on this one.
 
 **Matt Rickard:** Yeah... I mean, this is one that I've found super-helpful, just because the code can never lie, and the documentation can be out of date, the blog post you're reading could be out of date, the Stack Overflow answer could be out of date... But if you're looking at the right commit, then the code necessarily can't be out of date.
 
@@ -150,17 +150,17 @@ I do think that it's maybe a little bit language-dependent. I write a lot of Go,
 
 **Matt Rickard:** That's true. Maybe that's the loophole.
 
-**Matt Rickard:** You definitely have to check the date on Stack Overflow, that's for sure... Because if it's like from 2016, and it's 2021, it might be out of date. It might be. I don't know, that's a hard one too, because it depends. And the reason I say it depends -- and maybe this is where the difference is; these are reflections about pure coding, whereas my example here I'll give is more about using. So I've been doing a lot of stuff locally with Docker, a lot of containers on my local network, and I'm doing things with Docker Compose, and just learning more about different ways to extend and use Docker Compose. They're Yaml files; configuration, essentially. And I'm not gonna go read the Docker source code to learn about Compose, because the docs are pretty good. So in that example -- but that's not pure coding.
+**Adam Stacoviak:** You definitely have to check the date on Stack Overflow, that's for sure... Because if it's like from 2016, and it's 2021, it might be out of date. It might be. I don't know, that's a hard one too, because it depends. And the reason I say it depends -- and maybe this is where the difference is; these are reflections about pure coding, whereas my example here I'll give is more about using. So I've been doing a lot of stuff locally with Docker, a lot of containers on my local network, and I'm doing things with Docker Compose, and just learning more about different ways to extend and use Docker Compose. They're Yaml files; configuration, essentially. And I'm not gonna go read the Docker source code to learn about Compose, because the docs are pretty good. So in that example -- but that's not pure coding.
 
 **Jerod Santo:** That's not Stack Overflow either.
 
-**Matt Rickard:** \[28:09\] It's kind of coding, right? I'm coding a config file, which isn't necessarily coding.
+**Adam Stacoviak:** \[28:09\] It's kind of coding, right? I'm coding a config file, which isn't necessarily coding.
 
 **Jerod Santo:** You're using a thing.
 
-**Matt Rickard:** It's sort of the ambiguous middle there, of coding.
+**Adam Stacoviak:** It's sort of the ambiguous middle there, of coding.
 
-**Jerod Santo:** Yeah, it's almost like -- a good example is like "How do I properly call FFmpeg with these files from my app?" I just say that because we call FFmpeg from our app, and I know I've looked these things up... And it's like, okay, well the man page is a start... But holy cow, have you seen FFmpeg's man page? It is massive.
+**Jerod Santo:** Yeah, it's almost like -- a good example is like "How do I properly call FFmpeg with these flags from my app?" I just say that because we call FFmpeg from our app, and I know I've looked these things up... And it's like, okay, well the man page is a start... But holy cow, have you seen FFmpeg's man page? It is massive.
 
 FFmpeg - I give it praise often. It's one of the most robust tools I've ever seen. The thing can do so many different things. It's amazing, and it's incredibly black box. Even the flags are very weird. I ended up on Stack Overflow a lot, and I never look at FFmpeg source code. Now, maybe in that case I'm just a user of a tool, and so source code is never gonna be where I would go, unless things aren't working correctly. Maybe you just say "Well, now the man page is really what I'm kind of thinking about." So contextually, when you say that, are you referring to how to solve my particular language feature problem, or how do I loop over these arrays, or how do I use this reduce function? What context are you saying "Look at the source code" or what kind of source code are you referring to? Your own? Other people's?
 
@@ -210,7 +210,7 @@ So the practice essentially is if you wanna do something really well, find out w
 
 **Jerod Santo:** \[laughs\] You wanna be good? Gotta get lucky...
 
-**Adam Stacoviak:** Well, I think in the case of, say, the Go standard library, I think it may have been written by some really well-known and knowledgeable people inside of Google, for the most part. So I think they're pretty good examples of people to emulate, considering their career and what they're touched and what they've brought to market. So I think that's a good example there.
+**Adam Stacoviak:** Well, I think in the case of, say, the Go standard library, I think it may have been written by some really well-known and knowledgeable people inside of Google, for the most part. So I think they're pretty good examples of people to emulate, considering their career and what they've touched and what they've brought to market. So I think that's a good example there.
 
 I think otherwise you've just gotta follow your peers. Pay attention to the Changelog, this podcast, for example; that's how you find greats - you pay attention to the media and the content happening in the space, you pay attention to Twitter, you pay attention to maybe TikTok, who knows... But for sure, Stack Overflow, for sure GitHub, for sure standard libraries, for sure the package registries, what are other people using, what are other people using as dependencies... And all that work will shake out who's great.
 
@@ -228,7 +228,7 @@ I think otherwise you've just gotta follow your peers. Pay attention to the Chan
 
 **Jerod Santo:** Go ahead, bring it up right now.
 
-**Matt Rickard:** \[35:54\] What's a good example of the greats there? I think in Silicon Valley in particular - and this may be just a break, or something else, but... The way you've found the greats there was just by paying attention to where the money was going. Who was getting funded, who was competing, who was stealing engineers away from others? In many ways it was Gavin Belson, the evil bad guy, essentially, the big tech person, fighting the little guy trying to build the best algorithm to build a better internet. You find the best by just seeing who is actually putting stuff in the market and winning. So that's how you find the best.
+**Adam Stacoviak:** \[35:54\] What's a good example of the greats there? I think in Silicon Valley in particular - and this may be just a break, or something else, but... The way you've found the greats there was just by paying attention to where the money was going. Who was getting funded, who was competing, who was stealing engineers away from others? In many ways it was Gavin Belson, the evil bad guy, essentially, the big tech person, fighting the little guy trying to build the best algorithm to build a better internet. You find the best by just seeing who is actually putting stuff in the market and winning. So that's how you find the best.
 
 **Jerod Santo:** Alright, I take it back. Do not work in a Silicon Valley one right there... It was a good effort though. While we're talking about other people's code, reading their code, learning from them, number 14 - I'll give you guys this one, listeners - definitely counts as a lesson. Use other people's code religiously. I think it ties in what I was just talking about when I was saying don't be afraid of looking at the said code. I was saying you shouldn't use it if you don't. It doesn't mean you have to understand it, but you have to be willing to dig into it, I think.
 
@@ -248,11 +248,11 @@ So now my appetite kind of changes, and the decision-making process kind of chan
 
 \[40:00\] If you're working on a startup, I think it makes sense to outsource as much of the non-core value proposition of your application. It's possible. Sure, you can write your own authentication library, but just look at how many amazing startups have been built on Ruby on Rails - GitHub, Shopify, GitLab... I'm sure there's a ton others. But sometimes it makes sense to just use other people's code in that case.
 
-**Matt Rickard:** Would you also say it's proven ground, where if you're at a lower level, you're on less proven ground, so there's probably less code to potentially even choose from, even if you could? ...and maybe where you're in more proven ground, say a frontend, where things are sort of stabilized or something like that, it makes a lot more sense, because maybe even the user base of that dependency might be great. They've got a lot of community happening there, a lot of support coming in, so it makes zero sense for you to invent here, rather than dependency yourself.
+**Adam Stacoviak:** Would you also say it's proven ground, where if you're at a lower level, you're on less proven ground, so there's probably less code to potentially even choose from, even if you could? ...and maybe where you're in more proven ground, say a frontend, where things are sort of stabilized or something like that, it makes a lot more sense, because maybe even the user base of that dependency might be great. They've got a lot of community happening there, a lot of support coming in, so it makes zero sense for you to invent here, rather than dependency yourself.
 
 **Matt Rickard:** Yeah, I think that's a great point.
 
-**Jerod Santo:** Yeah, especially around certain projects where the community rallies into a specific project. I mean, Devise is a good example from maybe 5-10 years ago now, where all of the authentication things -- like, instead of rolling your own, you use Devise, and then you worked on Devise with the Devise people, and everybody is making that one thing better. So you have way more eyes on it, you have way more feature development, bug fixes while you're sleeping... That whole community open source flywheel gets rolling, and that's a rel benefit.
+**Jerod Santo:** Yeah, especially around certain projects where the community rallies into a specific project. I mean, Devise is a good example from maybe 5-10 years ago now, where all of the authentication things -- like, instead of rolling your own, you use Devise, and then you worked on Devise with the Devise people, and everybody is making that one thing better. So you have way more eyes on it, you have way more feature development, bug fixes while you're sleeping... That whole community open source flywheel gets rolling, and that's a real benefit.
 
 Now, on the other side, a community can move away from you and your project. All of a sudden, they're adding things that you don't want or need, and you disagree with, and too bad the community all thinks this is good, but hey, I don't need SMS-based 2-factor auth.... And now you're just adding lines of code to my project when I upgrade, and I don't care. Not in Devise's case; it's pluggable. It was pretty good software, it still is probably... But you know what I'm saying - a piece of software, a dependency can start off like completely fitting you, and then a few years later it's like "This thing's heading another direction that I don't like. It's time to jump ship, or find another alternative, or start writing it yourself." There's a lot to think about these things.
 
@@ -260,11 +260,11 @@ Now, on the other side, a community can move away from you and your project. All
 
 **Jerod Santo:** We had a show on JS Party with Ahmad Nassri, who was Npm's CTO for a while, he also started Kong, or he was involved in Kong... He's been around the block, he's seen a lot of things, and he takes a very hardline stance that you should only write code that only you can write, or you and your team. Only write the code that makes you unique and different, and you have the special skillset. Everything else, you shouldn't be writing. Him and I actually go back and forth in that episode; maybe we'll link up to it, because it's an interesting conversation. But I thought, "Wow, here's a real context-independent--" Right? I agree with you, I think context does matter. But he's saying, "Nah... Pretty much, if it's not unique to you, you're wasting your time and your cycles. You should be outsourcing that and you should only write the code that makes you, your company, your org, whatever, unique and different, or adds something to the world, versus reinventing."
 
-**Matt Rickard:** I think in small teams that makes sense, for sure... And even if you're in a big org, you'll still be in a small team.
+**Adam Stacoviak:** I think in small teams that makes sense, for sure... And even if you're in a big org, you'll still be in a small team.
 
 **Jerod Santo:** True.
 
-**Matt Rickard:** So you're always sort of like resource-aware. So if you're resource-aware, you shouldn't waste time... So wasting time would be writing code you shouldn't write... And being efficient would be writing code that you should write, only you should write. So I think it kind of depends still yet... But even in a big org, you can be a small team.
+**Adam Stacoviak:** So you're always sort of like resource-aware. So if you're resource-aware, you shouldn't waste time... So wasting time would be writing code you shouldn't write... And being efficient would be writing code that you should write, only you should write. So I think it kind of depends still yet... But even in a big org, you can be a small team.
 
 **Jerod Santo:** True. There's also business decisions that go into a lot of these things, beyond merely the engineering decision-making. Matt, you were talking about a lot of these large companies have rolled their own databases internally, and they weren't the only one that needed that... But they had specific business reasons to do it, or they had specific needs, or they didn't want to -- I mean, the context goes on and on and on for these decisions.
 
@@ -306,11 +306,11 @@ So once we were able to move over to a different solution - I mean, I probably d
 
 **Matt Rickard:** It was great, because our unit test coverage went way up, the tool became much more reliable, and we didn't have to spend nearly as much time maintaining all of these different patches and different pieces of code.
 
-**Matt Rickard:** The difference there might be that you didn't write that code, right? You wrote the code to maintain, but you didn't write the four million lines of code.
+**Adam Stacoviak:** The difference there might be that you didn't write that code, right? You wrote the code to maintain, but you didn't write the four million lines of code.
 
 **Matt Rickard:** That's true, but I think even deleting a package dependency in my mind still counts as deleting a ton of code.
 
-**Matt Rickard:** Sure. I don't mean to downplay what you did... What I mean is the emotional tie to the code.
+**Adam Stacoviak:** Sure. I don't mean to downplay what you did... What I mean is the emotional tie to the code.
 
 **Matt Rickard:** Exactly, yeah. It's much easier to delete someone else's code than to delete your own code...
 
@@ -326,11 +326,11 @@ So once we were able to move over to a different solution - I mean, I probably d
 
 **Matt Rickard:** Exactly, exactly. So that's tough, but it's just so necessary.
 
-**Matt Rickard:** I wonder if it speaks to confidence in yourself... To go psychological.
+**Adam Stacoviak:** I wonder if it speaks to confidence in yourself... To go psychological.
 
 **Jerod Santo:** How so?
 
-**Matt Rickard:** \[51:57\] To feel like you shouldn't or can't delete it is having less confidence in yourself that you could rewrite it better... You know what I mean? Like, you wanna hold on to it because maybe you're less confident that you -- so Jerod, to your point, and maybe a hat tip to you might be that you're highly confident in your abilities to rewrite the code better.
+**Adam Stacoviak:** \[51:57\] To feel like you shouldn't or can't delete it is having less confidence in yourself that you could rewrite it better... You know what I mean? Like, you wanna hold on to it because maybe you're less confident that you -- so Jerod, to your point, and maybe a hat tip to you might be that you're highly confident in your abilities to rewrite the code better.
 
 **Jerod Santo:** Maybe I'm overconfident.
 
@@ -342,19 +342,19 @@ So once we were able to move over to a different solution - I mean, I probably d
 
 **Jerod Santo:** It could be. I think it's like, "I might toggle this back on with my next commit" kind of a thing. There's lots of reasons why that happens... But I find that a lot. I've never been a commenter-outer. I'm just like "Delete that crap. Get it out of here. It's noise."
 
-**Matt Rickard:** Yeah. As somebody who is somewhat of a digital pack rat, I can empathize with the person who has a challenge in deleting it... Not because I find it useful or that I'm emotionally tied to it, but what if I wanted to reference it? What if this could be useful someday?
+**Adam Stacoviak:** Yeah. As somebody who is somewhat of a digital pack rat, I can empathize with the person who has a challenge in deleting it... Not because I find it useful or that I'm emotionally tied to it, but what if I wanted to reference it? What if this could be useful someday?
 
 **Jerod Santo:** Right.
 
-**Matt Rickard:** But I also say I like to delete code. It's nice. There's some value in that too, because you can sort of see a better future... And I think it kind of depends, really. It depends on how emotionally connected you are to it, what your confidence might be of it, if you do believe in Git... Which is totally true. If it's in Git --
+**Adam Stacoviak:** But I also say I like to delete code. It's nice. There's some value in that too, because you can sort of see a better future... And I think it kind of depends, really. It depends on how emotionally connected you are to it, what your confidence might be of it, if you do believe in Git... Which is totally true. If it's in Git --
 
 **Jerod Santo:** It's in there.
 
-**Matt Rickard:** Or even anything else. Fossil, for example.
+**Adam Stacoviak:** Or even anything else. Fossil, for example.
 
 **Jerod Santo:** There you go.
 
-**Matt Rickard:** The new and upcoming Git.
+**Adam Stacoviak:** The new and upcoming Git.
 
 **Jerod Santo:** Yeah, go agnostic. Maybe it's in Mercurial, who knows...?
 
@@ -370,7 +370,7 @@ So once we were able to move over to a different solution - I mean, I probably d
 
 **Jerod Santo:** Yeah, you would think these would be small concerns, but they end up becoming large concerns in software architecture, right? It's like, where the files go, how I name things, where to put things... Especially when you start working on teams, then there's disagreements over how this works... You're introducing logistics into your software by having these distinctions prematurely, and having to make sure everything's in the right place, named the correct way etc. Start simple, and then only abstract when it's necessary and beneficial. That is an art though, and it does take time to learn, and even somebody who's done it for -- I think you and I are in very similar boats. I've definitely been writing software for 15 years... I still screw that up. I still make the wrong call, and then maybe it's hours later, maybe it's days or weeks, and I'm like "That was the wrong call", and then I go ahead and roll that back... I'm gonna go back to where I started and go ahead and just try it the other way and see if it works any better.
 
-**Adam Stacoviak:** \[56:19\] What are the downsides? Let's say over-organizing... Is there an over- to that, potentially? So you wanna organize it, and it's an art to do so, but what about over-organizing? Can it be fatiguing, so to speak? The reason why I ask this is I often see this in the -- on the frontend mainly, where I play most, in SaaS. I know that when SaaS came about, it was -- you can always add import CSS files, for example, on the frontend... But it was less common, because it really in the end just created one big CSS file on the frontend itself when you moved it along. But in SaaS, I noticed that a lot of people would compartmentalize little components, and it would be like a five-line rule set for CSS in there, and it's like, "Well, that could have been in the regular file..." You just find yourself itising yourself to the point where you're like, in so many different files, it's like, "Is this really helpful?" What's the downside to over-organizing?
+**Adam Stacoviak:** \[56:19\] What are the downsides? Let's say over-organizing... Is there an over- to that, potentially? So you wanna organize it, and it's an art to do so, but what about over-organizing? Can it be fatiguing, so to speak? The reason why I ask this is I often see this in the -- on the frontend mainly, where I play most, in Sass. I know that when Sass came about, it was -- you can always add import CSS files, for example, on the frontend... But it was less common, because it really in the end just created one big CSS file on the frontend itself when you moved it along. But in Sass, I noticed that a lot of people would compartmentalize little components, and it would be like a five-line rule set for CSS in there, and it's like, "Well, that could have been in the regular file..." You just find yourself itising yourself to the point where you're like, in so many different files, it's like, "Is this really helpful?" What's the downside to over-organizing?
 
 **Jerod Santo:** Hard to find things?
 
@@ -402,19 +402,19 @@ A for loop is an obvious one, where it's like, "Yeah, i is fine." Because "Here'
 
 That was a pretty good way of thinking about it, because I've always gone for this balance of clarity and brevity, but it's always been a hard balance to strike.
 
-**Matt Rickard:** Would it be more helpful if it was - instead of i, if it was "iterate"? Or "increment"? That's where you can really drive that point home. Because if you can say "What would the extended version of i be?"
+**Adam Stacoviak:** Would it be more helpful if it was - instead of i, if it was "iterate"? Or "increment"? That's where you can really drive that point home. Because if you can say "What would the extended version of i be?"
 
 **Jerod Santo:** Iterator.
 
-**Matt Rickard:** "...and would it be more useful?"
+**Adam Stacoviak:** "...and would it be more useful?"
 
 **Jerod Santo:** Yeah, I think in the case of a for loop, I think i is just totally fine. That's my take on it. I would use it --
 
-**Matt Rickard:** Of course it is. But let's do the exact opposite, as a fun case. Let's expand it to its full word. Would it be "iterate", or "increment", or what would it be?
+**Adam Stacoviak:** Of course it is. But let's do the exact opposite, as a fun case. Let's expand it to its full word. Would it be "iterate", or "increment", or what would it be?
 
 **Jerod Santo:** Yeah, I would think it's an iterator. That variable is one that you're using to iterate, so I call it iterator. Something like that.
 
-**Matt Rickard:** So would it be more helpful or less helpful if it was for iterator? You know, if the variable was iterate, instead of i?
+**Adam Stacoviak:** So would it be more helpful or less helpful if it was for iterator? You know, if the variable was iterate, instead of i?
 
 **Jerod Santo:** It's too much typing, man... Too much typing.
 
@@ -424,9 +424,9 @@ That was a pretty good way of thinking about it, because I've always gone for th
 
 I understand when you take internationalization and you say i18n. That's a huge win for all of us, right? But err as an abbreviation for error just seems a little bit silly. That being said, we all do it, we're all on board. It's clear. It's not a problem, I just don't understand the win.
 
-**Matt Rickard:** I don't know if that's short for error though... Is it?
+**Adam Stacoviak:** I don't know if that's short for error though... Is it?
 
-**Matt Rickard:** Yeah, it is.
+**Jerod Santo:** Yeah, it is.
 
 **Matt Rickard:** Well, isn't err an actual word itself though? Err...
 
@@ -442,17 +442,17 @@ I understand when you take internationalization and you say i18n. That's a huge 
 
 **Matt Rickard:** If you were to say e instead of err, maybe that's a little wrong, because you're not sticking to convention, and you're shortening it a little bit too much.
 
-**Matt Rickard:** Yeah.
+**Adam Stacoviak:** Yeah.
 
 **Jerod Santo:** Right, I agree. Whatever are the idioms of the language, or the runtime, or whatever it is, the community that you're working in - follow those conventions, because that's where clarity is just for free. You get it for free. And even if your idea is more clear to you, you're breaking convention, so it's less clear, almost de facto, to everybody else.
 
 But in a case where there is no convention, I think Dave Cheney's rule of like "The further away a thing is from being used, the more verbose or more information has to be in the variable name" - I think that's a pretty cool rule of thumb. Obviously, rules are meant to be broken, so there are times where it may not make sense... But I thought that was an actual tangible way of a takeaway... Because I like to say "Hey, this variable name is terrible, too", but lacking any other information, like "Well, that's not useful." How could it be better? Well, it's 27 characters long, so... \[laughs\] so that's not good. There's such thing as too long.
 
-**Matt Rickard:** \[01:04:21.25\] I think the point he's making there is like if you're gonna see it frequently, make it brief. Because you're gonna see it more often. The quicker you can get something done that you're familiar with, or going to happen frequently, probably the better. So the more often you're gonna read err versus error, as an example - if you read that 50 times a day versus once a week maybe, do it briefly.
+**Adam Stacoviak:** \[01:04:21.25\] I think the point he's making there is like if you're gonna see it frequently, make it brief. Because you're gonna see it more often. The quicker you can get something done that you're familiar with, or going to happen frequently, probably the better. So the more often you're gonna read err versus error, as an example - if you read that 50 times a day versus once a week maybe, do it briefly.
 
 **Jerod Santo:** Yeah. If you can't think of a good variable name, this is where Code Comic comes into place. Apologize. Be like, "This is not the greatest name ever, but I needed to finish this feature... So this is what I got. Please, think of a better name."
 
-**Matt Rickard:** Yeah, open a consideration. Feedback welcome.
+**Adam Stacoviak:** Yeah, open a consideration. Feedback welcome.
 
 **Jerod Santo:** If you're confused by this variable name, you're just like me. I'm also confused. \[laughs\] Those are the kind of comments I enjoy... Because you get to chuckle even when you come back to it later, you're like "Oh yeah, I couldn't think of a name for this thing." Then you sit there and you're like, "Hm... I still can't think of a good one." But sometimes it just comes to you.
 
@@ -468,11 +468,11 @@ So the individual takeaways there I guess is kind of like "Keep your head up and
 
 **Matt Rickard:** Yeah, I think your example from Dan is amazing. It's just ideas like that that can pop up in a lot of different places, and you can look at it and say "Oh my God, this would be amazing for the project or the part of the stack that I'm working on..." And I just think there's so much cross-pollination that can still happen, and it's just such low-hanging fruit in terms of how we can push all of this technology forward.
 
-**Matt Rickard:** Yeah. We often think in camps; we often think "Oh, JavaScript, or Go", and this is an example we often run across with Go Time and JS Party - like, which one's better; always a competition...
+**Adam Stacoviak:** Yeah. We often think in camps; we often think "Oh, JavaScript, or Go", and this is an example we often run across with Go Time and JS Party - like, which one's better; always a competition...
 
 **Jerod Santo:** \[whispering\] JS Party... \[laughs\] Sorry.
 
-**Matt Rickard:** \[01:08:07.16\] But to be able to look beyond the lines of the camps, and say "What ideas have you implemented that would translate to our ecosystem and make sense for us to look at?" I think it's something that's been a hallmark for this show really, since inception. We began as the Changelog. We began not choosing the Ruby camp, despite our Ruby roots, in many ways. We didn't choose a specific camp and say "This is the Ruby Changelog." We just said "This is the Changelog", because open source was moving fast, it was difficult to keep up, and this show and the blog that came from it was an example of how to pay attention agnostically across the board, and to cross-pollinate those ideas. So I think this is core DNA for us and phenomenal advice from you.
+**Adam Stacoviak:** \[01:08:07.16\] But to be able to look beyond the lines of the camps, and say "What ideas have you implemented that would translate to our ecosystem and make sense for us to look at?" I think it's something that's been a hallmark for this show really, since inception. We began as the Changelog. We began not choosing the Ruby camp, despite our Ruby roots, in many ways. We didn't choose a specific camp and say "This is the Ruby Changelog." We just said "This is the Changelog", because open source was moving fast, it was difficult to keep up, and this show and the blog that came from it was an example of how to pay attention agnostically across the board, and to cross-pollinate those ideas. So I think this is core DNA for us and phenomenal advice from you.
 
 **Jerod Santo:** Here's another awesome example... This happened just recently. I loved seeing it, because it means we're having a little bit of impact out there... So there is this idea with to-do comments, which talk about commenting and best practices, is that you always leave these to-do's lying around our codebases... And then nothing else happens; like, that's where they are. And usually, these things never get done. And a lot of times it's because you forget about it, or it depends on something else changing... Well, there was a cool idea coming out of (I think) the Rust community, and there's also a Ruby Gem for this, where they started having these self-destructing to-do's... Have you guys heard of these?
 
@@ -490,6 +490,6 @@ Anything else you wanna say, Matt, before we call it a show?
 
 **Matt Rickard:** I mean, thanks for having me. I had such a blast, and I've been such a long-time listener, so it's fun to be on the podcast.
 
-**Matt Rickard:** It's good to have you, Matt.
+**Adam Stacoviak:** It's good to have you, Matt.
 
 **Jerod Santo:** Yeah, it was lots of fun. We appreciate it.
