@@ -22,7 +22,7 @@ It was also fun to work with you and Guillaume and try to figure out how to repl
 
 **Gerhard Lazu:** Right back at you. What about you, Guillaume?
 
-**Guillaume de Rouville:** \[00:03:58.01\] For me, it was really fun working with you. One of the things maybe, some of headaches because I didn't know CircleCI, and it's quite interesting to -- because as I was helping you... I know Dagger, I don't know this technology, so to help you port it, I had to learn a lot of things, \[unintelligible 00:04:14.29\] and we encountered a lot of issues along the way, and in order to tweak them, to fix them, you need to properly understand what you're doing... Because your config at the moment, the CircleCI one, is quite a big one, and in order to port it, we needed to understand it properly. But it was a lot of fun.
+**Guillaume de Rouville:** \[03:58\] For me, it was really fun working with you. One of the things maybe, some of headaches because I didn't know CircleCI, and it's quite interesting to -- because as I was helping you... I know Dagger, I don't know this technology, so to help you port it, I had to learn a lot of things, \[unintelligible 00:04:14.29\] and we encountered a lot of issues along the way, and in order to tweak them, to fix them, you need to properly understand what you're doing... Because your config at the moment, the CircleCI one, is quite a big one, and in order to port it, we needed to understand it properly. But it was a lot of fun.
 
 **Gerhard Lazu:** That is actually my key takeaway as well. I wasn't expecting to learn as much. I was hoping, but I wasn't expecting it... And then with you two - it was great; we went on such a journey... And I think what helped is that we didn't have a lot of time, but we had long gaps between us working together. So maybe it was like a couple of days, and then we got together for like half an hour or an hour. Joel, you're in Colorado, and Guillaume was in Paris, so he's like an hour ahead of me. I think that really helped, because in a way we found a pace, and then we just bounced ideas off one another, and we bridged that gap really nicely, I think.
 
@@ -38,7 +38,7 @@ On the right-hand side we have to compile the dependencies for production. We ha
 
 **Joel Longtine:** Yeah, so we're basically improving the developer experience around the low-level interactions that Dagger has with BuildKit. So we're basically changing the API to BuildKit. Right now we have kind of an implicit, kind of spread all over the place API to BuildKit, instead of our CUE packages. And the changes that were in the process of building out actually make that API much more explicit, and kind of form like a low-level representation of the BuildKit API within CUE... Which then can be used by our packages, or other packages, to interact with BuildKit, the various file system states and actions on those file systems as well.
 
-\[00:08:07.23\] So yeah, I think this is gonna get a lot better. We'll be able to actually use some of the features that we weren't able to use this time around, of BuildKit, like mounting volumes in a much cleaner way.
+\[08:07\] So yeah, I think this is gonna get a lot better. We'll be able to actually use some of the features that we weren't able to use this time around, of BuildKit, like mounting volumes in a much cleaner way.
 
 **Gerhard Lazu:** Okay. And then when that is done, the last step is obviously assemble the image and push it to Docker Hub. The one step which we don't have here, and we would want, is to git commit the digest of the image that was deployed, so that we can do like a proper GitOps way, so that rather than our production pulling the latest - and you know, there's a couple of issues around that; I won't go into them, but I know we have to improve that... We would like Dagger in this case to make that Git commit. And I say Dagger, but now I realize it could just be GitHub Actions. And why do I say that? Part of this pull request we did the integration with GitHub Actions, and we'll get to that in a minute. But first of all, I would like to show what the new pipeline looks like, and what makes it better. So what are these green items here, Guillaume? How would you describe these? What are they?
 
@@ -60,7 +60,7 @@ So you have all these inputs coming into this node, which is that file system st
 
 **Gerhard Lazu:** Right, yeah. So if you can see here, these steps - I mean, there's no cache, right? If you remember the Docker file, if you think about that, and how some of those commands could be cached, and then they're really quick... For example, the app image - you can think of it almost like a command in the Docker file. So that is cached and it takes 0.9 seconds. It just has to verify where it is in the cache. Now, these run in parallel, and we'll do a run for you to see what they look like. But this whole pipeline as a whole, even though it looks flat, it runs in parallel, and it takes 190 seconds. So it's a slight improvement over the 3 minutes and 38 seconds which we had here. But you have to realize that these 3 minutes and 38 seconds will always be just that. I mean, this is using caching. But Dagger, if it does use the caching, if everything is cached, if you don't have to compile anything, it just has to run the tests themselves - it's five times quicker. That is a huge speed-up. So this pipeline run, all of it, took 45 seconds. And the test took the longest, 42 seconds... Versus 3 minutes and 38. So - much, much quicker.
 
-\[00:12:14.16\] And by the way, this will run against any Docker daemon. That's the only requirement. You need Build Kit, and the easiest way of getting Build Kit is just in your Docker. It already has it. So there's no special CI setup required; you can run this anywhere, whether it runs the same way, whether it runs in GitHub Actions, Circle CI, or your local machine, which is really cool.
+\[12:14\] And by the way, this will run against any Docker daemon. That's the only requirement. You need Build Kit, and the easiest way of getting Build Kit is just in your Docker. It already has it. So there's no special CI setup required; you can run this anywhere, whether it runs the same way, whether it runs in GitHub Actions, Circle CI, or your local machine, which is really cool.
 
 The other very cool feature is that open tracing is built in. So what that means is that you can see what does the span look like for a cached run, versus an uncached run. And all you have to do is to run Jaeger, and have an environment variable. By the way - all this code, all the integration is here. So if you look at pull request 395, you can see all of it.
 
@@ -82,7 +82,7 @@ So you can see what a cached run looks like. You can see that all these steps ar
 
 **Guillaume de Rouville:** Basically, it's the step you do when you run it locally. You just do a Dagger \[unintelligible 00:15:53.22\] and I presume you have specified an input, which is a local folder, and you don't have to specify it.
 
-**Gerhard Lazu:** \[00:16:07.10\] That's right. So if you don't see the glue code, so the \[unintelligible 00:16:08.23\] - you're right, it's just a step, which already takes some values that have been preconfigured. So those values are committed, including the secrets, by the way. Dagger is using this really cool thing called SOPS - you may have heard of it, from Mozilla - to encrypt all the secrets. So we have to set in terms of a secret the \[unintelligible 00:16:26.15\] for them to be able to be decrypted, if you think of it like the private key... And yeah, everything just works. So we commit secrets, right; we're crazy, I know... No, actually, it works really well. It's a done thing. And I waited for a long time to do this, and I'm really excited.
+**Gerhard Lazu:** \[16:07\] That's right. So if you don't see the glue code, so the \[unintelligible 00:16:08.23\] - you're right, it's just a step, which already takes some values that have been preconfigured. So those values are committed, including the secrets, by the way. Dagger is using this really cool thing called SOPS - you may have heard of it, from Mozilla - to encrypt all the secrets. So we have to set in terms of a secret the \[unintelligible 00:16:26.15\] for them to be able to be decrypted, if you think of it like the private key... And yeah, everything just works. So we commit secrets, right; we're crazy, I know... No, actually, it works really well. It's a done thing. And I waited for a long time to do this, and I'm really excited.
 
 So this is what the glue code looks like locally. So it's basically what puts everything together. It is a makefile, that's what we use. It just makes things easier. It just runs a bunch of commands. And what I would like to point out is, for example, the new CI package, it declares a new CI... This is a plan, is that right? Is it called a plan, or is it an environment?
 
@@ -102,7 +102,7 @@ The other part of this is obviously the CI queue. And this is like all the code 
 
 **Gerhard Lazu:** Yeah. \[unintelligible 00:19:50.28\] with something changed; actually, added... Because it appends stuff to it. Okay. And what is CUE?
 
-**Guillaume de Rouville:** \[00:20:05.08\] CUE is a configuration language. It aims to be a better JSON and a better YAML. It stands for Configure, Unify and Execute. Basically, I think Joel will be able to continue after that... \[laughs\]
+**Guillaume de Rouville:** \[20:05\] CUE is a configuration language. It aims to be a better JSON and a better YAML. It stands for Configure, Unify and Execute. Basically, I think Joel will be able to continue after that... \[laughs\]
 
 **Joel Longtine:** Yeah, so like Guillaume said, it's a configuration language, and one of the things that I think is really lovely about CUE is schema definition, data validation, and it basically allows you to create configurations that have types, so they can be type-checked, preferably, before you get to prod... \[laughs\] And that actually is true; it's how it works.
 
@@ -124,7 +124,7 @@ And then when any configuration from a developer or an SRE comes into that, if i
 
 **Gerhard Lazu:** Ooh... Wow. An LSP. I would love that. I would love that. Okay, right. So I'll definitely want to watch, for sure. So what comes next?
 
-**Joel Longtine:** \[00:23:59.14\] I think one thing that occurs to me - at least as far as I remember, this is currently still using the docker build. So you're actually pushing out the contents of a bunch of those steps to the Docker Engine to actually then build the image... And with Europa and some of the improvements there, that should not be necessary. You should be able to just take the output of one of these stages and just add the information that you want on top of it, and be off to the races, and then be able to push that directly. Because right now what's happening is a bunch of the context is still having to be pushed from within BuildKit to Docker Engine, so that it can build the image. And that will not be necessary with some of the new Europa stuff.
+**Joel Longtine:** \[23:59\] I think one thing that occurs to me - at least as far as I remember, this is currently still using the docker build. So you're actually pushing out the contents of a bunch of those steps to the Docker Engine to actually then build the image... And with Europa and some of the improvements there, that should not be necessary. You should be able to just take the output of one of these stages and just add the information that you want on top of it, and be off to the races, and then be able to push that directly. Because right now what's happening is a bunch of the context is still having to be pushed from within BuildKit to Docker Engine, so that it can build the image. And that will not be necessary with some of the new Europa stuff.
 
 **Gerhard Lazu:** Interesting. Okay, it sounds great. Anything to add, Guillaume, to that, or something else?
 
@@ -148,7 +148,7 @@ Okay. Well, I'm gonna wish you both a Merry Christmas, even though this is weeks
 
 So profiling has been around for a very long time. It's essentially us recording what the program is doing. You can literally think of it as we're recording the stack traces that are happening 100 times per second. That has kind of evolved over the years. Profiling used to be a very expensive operation to do, which is why you only did it when you really needed to. So one thing that kind of changed the perspective was when we discovered sampling profiling. In the olden days, the way that profiling worked is that we literally recorded everything that was happening in our program. And naturally, that's really expensive.
 
-\[00:28:10.06\] Sampling profiling kind of go a different strategy and say "Actually, we only need something that's statistically significant." So instead of recording everything that's happening, as I said earlier, we only look at the stack traces a hundred times per second. And that, we can do incredibly efficiently.
+\[28:10\] Sampling profiling kind of go a different strategy and say "Actually, we only need something that's statistically significant." So instead of recording everything that's happening, as I said earlier, we only look at the stack traces a hundred times per second. And that, we can do incredibly efficiently.
 
 The reason why this is super-useful and why being able to record stack traces with statistical significance is useful is that now we can say "This is where my program is spending time." So that can be used to save money on your infrastructure, but also there are a lot of optimizations that you can only do if you have that type of depth of data to analyze. So you can actually down to the line number tell what is using your CPU resources.
 
@@ -164,7 +164,7 @@ We're going to run it in our production Kubernetes setup. Just like that. Why no
 
 **Frederic Branczyk:** One thing that I think is really important to mention - everything revolves around the pprof standard. This is kind of an industry standard format for profiling data. So everything produces or works with pprof format. So you could send any kind of profile, like memory profiles that have been captured through some other mechanism, to Parka, and analyze that as well. It's just that the agent today can only produce CPU profiles and continuously send those.
 
-\[00:32:12.14\] The agent actually also produces pprof-compatible profiles, and maybe we can have a look at that later. The server ingests those, and then one additional really cool feature, I think, is any query that you do in the Parka frontend, you can download again in pprof format. And if you have any other sort of tooling around the pprof format, you can still use them and compose your workflows.
+\[32:12\] The agent actually also produces pprof-compatible profiles, and maybe we can have a look at that later. The server ingests those, and then one additional really cool feature, I think, is any query that you do in the Parka frontend, you can download again in pprof format. And if you have any other sort of tooling around the pprof format, you can still use them and compose your workflows.
 
 **Gerhard Lazu:** Okay. We are on the server, looking at all the CPU profiles. This is the profile coming from container Parka. How do we read this? There's a CPU sample, we can see the root, that's the root's span... What about all the other spans? What are these?
 
@@ -192,7 +192,7 @@ That said, having allocations is not a bad thing, because at the end of the day 
 
 **Frederic Branczyk:** The two major things are definitely what you already mentioned. Symbolization, because this happens asynchronously, as you have uploaded your profiling data... And then it's actually ingesting and writing that profiling data to its storage. This is something that, because we're doing continuous profiling, it happens continuously. And every network request that we receive causes memory allocations. Because we read that from the network stack, and that causes memory allocations.
 
-\[00:36:11.11\] Now, there are a number of optimizations that can be done to reduce this, and you can reuse buffers, and stuff like that... And we'll get to all of that, but it's unlikely that we'll ever get to know. Zero. But there's definitely lots of optimization potential here.
+\[36:11\] Now, there are a number of optimizations that can be done to reduce this, and you can reuse buffers, and stuff like that... And we'll get to all of that, but it's unlikely that we'll ever get to know. Zero. But there's definitely lots of optimization potential here.
 
 **Gerhard Lazu:** Okay. I do have to say, looking at this Flame Graph, it's really amazing. If you remember how difficult this used to be in the past, where you had generate a pprof, and then use that pprof, or something similar that can read that profile, to get at this Flame Graph, and then try and slice and dice... Now, if I don't want this Flame Graph, I want a different one, I just click on it, and there we go. Database, Postgres... Let's see, what do we get from Postgres? Okay. So this is slightly a different view. This is a machine-compiled binary, right?
 
@@ -218,7 +218,7 @@ Okay, so we've seen Postgres... What about Erlang VM? So this is our app, and we
 
 **Frederic Branczyk:** Yeah. So this is kind of another variation of this, but the first difference is this is not a binary that was compiled to machine-readable code, right? This is, in the broadest possible sense, interpreted code. The good news about Erlang is it actually has a just-in-time compiler. So what that means is even though it is technically a virtual machine, on the fly it compiles parts of your code to actually machine-executable code.
 
-\[00:40:17.22\] This is kind of good news again, because at least in theory, the same strategy can be applied. It just turns out that a lot of the strategies that these dynamic languages or virtual machines tend to very subtly differ, and so we do have to essentially implement small pieces of runtime-specific things.
+\[40:17\] This is kind of good news again, because at least in theory, the same strategy can be applied. It just turns out that a lot of the strategies that these dynamic languages or virtual machines tend to very subtly differ, and so we do have to essentially implement small pieces of runtime-specific things.
 
 One thing that's actually really cool, that I think Erlang does implement, and the Node.js runtime implements as well, is something called perf.maps. This is something that many just-in-time compilers implement, where essentially the just-in-time compiler, because it generates or compiles this code on the fly, it can also write out this mapping from the memory address to the human-readable symbol, and that Parka Agent can, again, pick up and symbolize on the fly. Now, I have tried this with Node.js... Unfortunately, we haven't gotten it to work with Erlang just yet.
 
@@ -252,7 +252,7 @@ One thing that's actually really cool, that I think Erlang does implement, and t
 
 **Gerhard Lazu:** Okay. So this one is slightly better... But this one, the beam.smp - and I wish we knew what this was... Or maybe this one, which is just a memory address... This is 350% worse. So I can see, or I can think -- I mean, even though this is very Christmasy, and I like it, like red and green, and it's very nice, it would be easier if we had used a different color for the ones which have an infinity. Maybe black, or something like that, which - they're completely new. I like the diff idea, but a different color from the ones that are like -- for example this one, +700. So this is just worse... But this is brand new. This didn't even happen in the previous sample.
 
-**Frederic Branczyk:** \[00:44:13.27\] Yeah.
+**Frederic Branczyk:** \[44:13\] Yeah.
 
 **Gerhard Lazu:** Okay.
 
@@ -294,7 +294,7 @@ My theory is, because of what we can see here - the way that this binary code wa
 
 **Gerhard Lazu:** Yeah.
 
-**Frederic Branczyk:** \[00:47:54.14\] So it could be that this is just an artifact of that. But because it's also a virtual machine, maybe there's something happening that we don't understand, and we are actually executing code that is on the stack. It seems unlikely, but it's one of those things where -- I'm not an expert on the Erlang VM, so I don't know for sure...
+**Frederic Branczyk:** \[47:54\] So it could be that this is just an artifact of that. But because it's also a virtual machine, maybe there's something happening that we don't understand, and we are actually executing code that is on the stack. It seems unlikely, but it's one of those things where -- I'm not an expert on the Erlang VM, so I don't know for sure...
 
 **Gerhard Lazu:** Yeah.
 
@@ -312,7 +312,7 @@ So what I would like to say is thank you very much, Frederic, for running us thr
 
 **Gerhard Lazu:** I can see so much potential here... I really like where this is going and how simple it makes certain things. It makes me excited as to what's coming next year. But this was great. Thank you, Frederic.
 
-**Break:** \[00:49:34.14\]
+**Break:** \[49:34\]
 
 **Gerhard Lazu:** What we want to do is, first of all, fix this R, damn it. Someone can't type. Infrastructure... As if my life depended on it. Right. So we want in 2022 for the Changelog.com setup to use Crossplane to provision our Linode Kubernetes cluster. That's the goal. And the way we're thinking of achieving it is to follow this guide to generate a Linode Crossplane provider using the Terrajet tool, which is part of the Crossplane ecosystem. And we can generate any Crossplane provider from any Terraform provider. Cool. So how are we going to do that?
 
@@ -320,7 +320,7 @@ So what I would like to say is thank you very much, Frederic, for running us thr
 
 **Gerhard Lazu:** That is a good idea. I like it. But I have found issues when I went from \[unintelligible 00:51:10.14\] to something else. GKE, LKE, any Rio cluster, because there's different things, like RBAC, for example, or different security policies, or who knows what. So I like starting with production, which is a bit weird, because you would think -- like, you start from development; but I like starting with production. What I'm thinking is I want to start with Crossplane installed in a production setup... And I can't remember if this was episode \#16 or \#17, where I was saying that if there was a Crossplane -- \#15, there we go. Gerhard has an idea for the Changelog '22 setup. So the idea was to use a managed Crossplane, which would be running on the Upbound cloud, and with that Crossplane, that should manage everything else. So that is our starting point. That's what we're doing here. If we go to Upbound cloud - there we go. Control planes. I have already created one... It's a Christmas gift.
 
-**Dan Mangum:** \[00:52:12.24\] Nice...
+**Dan Mangum:** \[52:12\] Nice...
 
 **Gerhard Lazu:** So this exists. I will contact you after my free trial... \[laughter\]
 
@@ -394,7 +394,7 @@ So what I would like to say is thank you very much, Frederic, for running us thr
 
 **Gerhard Lazu:** So where was the template?
 
-**Dan Mangum:** \[00:55:52.13\] So all you're doing here is you're specifying what you want your provider name lower and upper to be, and then these commands are going to replace all instances of Template.
+**Dan Mangum:** \[55:52\] So all you're doing here is you're specifying what you want your provider name lower and upper to be, and then these commands are going to replace all instances of Template.
 
 **Gerhard Lazu:** Ah, I see. Okay, I'm with you. Okay. Replace all the occurrences... I see. So now I just basically run this command. Okay.
 
@@ -460,7 +460,7 @@ So what I would like to say is thank you very much, Frederic, for running us thr
 
 **Dan Mangum:** Oh, I know what it is. This is a Go package, and they have a v4 version. So that's just the import path for the Go package. So you can leave that out as long as the Linode provider is a normal Go package here.
 
-**Gerhard Lazu:** \[00:59:54.19\] Look, that is the line... Found, downloading. So that pulls it from the right place. Okay, great. If your provider is using an old version... How do I know if it's using an old version? Oh, okay, I see. I was confused. \[unintelligible 01:00:10.17\]
+**Gerhard Lazu:** \[59:54\] Look, that is the line... Found, downloading. So that pulls it from the right place. Okay, great. If your provider is using an old version... How do I know if it's using an old version? Oh, okay, I see. I was confused. \[unintelligible 01:00:10.17\]
 
 **Dan Mangum:** I believe you need an actual replace stanza down there at the bottom.
 
@@ -530,7 +530,7 @@ So what I would like to say is thank you very much, Frederic, for running us thr
 
 **Muvaffak Onuş:** Yeah, I'm glad to be here.
 
-**Gerhard Lazu:** We had a couple of early mornings, and I think I had a couple of late nights... So why did we do this? The reason why we did this is because we wanted our Kubernetes clusters to not be provisioned via UI or CLI. So no click ops, Dan; that was a great word. No click ops, no UI, and not even CLI. We didn't want to have a CLI that we need to command a type to provision a Kubernetes cluster. Now, that is not entirely true, because obviously, we still have to give it a config... But there's something that provisions the cluster for us, and that is Crossplane. But not just Crossplane. There's this secret sauce element which I didn't know about, until Dan mentioned that "Hey, have you seen Terrajet?" That was your idea...
+**Gerhard Lazu:** We had a couple of early mornings, and I think I had a couple of late nights... So why did we do this? The reason why we did this is because we wanted our Kubernetes clusters to not be provisioned via UI or CLI. So no ClickOps, Dan; that was a great word. No ClickOps, no UI, and not even CLI. We didn't want to have a CLI that we need to command a type to provision a Kubernetes cluster. Now, that is not entirely true, because obviously, we still have to give it a config... But there's something that provisions the cluster for us, and that is Crossplane. But not just Crossplane. There's this secret sauce element which I didn't know about, until Dan mentioned that "Hey, have you seen Terrajet?" That was your idea...
 
 **Muvaffak Onuş:** Well, so you see, in the Crossplane ecosystem there are many providers, and not all of them have support for all APIs that clouds actually expose.
 
