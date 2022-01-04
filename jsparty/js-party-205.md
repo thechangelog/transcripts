@@ -60,7 +60,7 @@ And to kind of maybe shift that a little bit... So I guess you've now moved on f
 
 \[12:01\] So can you tell us a little bit about -- give us the Vercel story, and what can we expect with their support towards your projects?
 
-**Rich Harris:** Well, I think you the nail on the head there, talking about Vercel being a place that is trying to make the web more performant, and also more turnkey. I think the reason that it makes sense for me to have a home at Vercel.
+**Rich Harris:** Well, I think you hit the nail on the head there, talking about Vercel being a place that is trying to make the web more performant, and also more turnkey. I think the reason that it makes sense for me to have a home at Vercel.
 
 **Amal Hussein:** Don't you mean like for you to have Vercel's number? Because you know, you're an attractive person that's maybe trying to get to know this other -- just kidding... \[laughter\]
 
@@ -68,7 +68,7 @@ And to kind of maybe shift that a little bit... So I guess you've now moved on f
 
 **Amal Hussein:** Well, well, well... \[laughs\] The plot thickens...
 
-**Rich Harris:** Right. You know, Vercel and Svelte both very concerned with how you democratize web development, but in a way that doesn't compromise user experience. Obviously Vercel is attacking that problem in a far more expansive sense. Svelte is purely focused on authoring frontends... But there's this kind of philosophical alignment. So it just makes sense that Vercel would wanna invest in a framework like Svelte. You know, they have customers who are using Svelte, and there's always been an interplay between SvelteKit and Next, for example...
+**Rich Harris:** Right. You know, Vercel and Svelte are both very concerned with how you democratize web development, but in a way that doesn't compromise user experience. Obviously Vercel is attacking that problem in a far more expansive sense. Svelte is purely focused on authoring frontends... But there's this kind of philosophical alignment. So it just makes sense that Vercel would wanna invest in a framework like Svelte. You know, they have customers who are using Svelte, and there's always been an interplay between SvelteKit and Next, for example...
 
 So the hope from the Vercel side, as I understand it at least, is that by investing in Svelte becoming a better framework, it's better for Vercel's customers, it's better for the web at large, because it means that one of the - I guess we can call Svelte one of the major frameworks at this point - has proper backing. And from my side, it makes total sense, because the biggest blocker to Svelte's development for me over the last couple of years has been my lack of ability to devote time to it, and that's now solved.
 
@@ -90,7 +90,7 @@ What else...? We've got lots of big ideas around what motion and transitions cou
 
 **Amelia Wattenberger:** I have to say, the transitions are my favorite part about Svelte. I'll go back and forth between React and Svelte projects, and being able to just say animate-in and then it does, and not have to pull in a library or write more code... It's so good.
 
-**Rich Harris:** \[16:06\] Yeah. And the React team have occasionally talked about making that stuff esier in React... Adding APIs that will allow you to defer the unmounting of elements, for example... But it's super-hard, and it's something that you've gotta actively prioritize... Because it's one thing that we've learned from the process of building those transitions is that it's gotta be a first-class consideration as you're building the framework, is kind of deeply tied in there. So I don't know, we'll see... But as I say, I think we can take that idea and super-charge it. There's a whole list of things, none of which I'm ready to commit to, but all of which we're going to be looking at in 2022.
+**Rich Harris:** \[16:06\] Yeah. And the React team have occasionally talked about making that stuff easier in React... Adding APIs that will allow you to defer the unmounting of elements, for example... But it's super-hard, and it's something that you've gotta actively prioritize... Because it's one thing that we've learned from the process of building those transitions is that it's gotta be a first-class consideration as you're building the framework, is kind of deeply tied in there. So I don't know, we'll see... But as I say, I think we can take that idea and super-charge it. There's a whole list of things, none of which I'm ready to commit to, but all of which we're going to be looking at in 2022.
 
 **Amal Hussein:** Yeah. It seems like basically folks at Vercel have -- it's like they're giving you an official sponsorship, in these that "Hey, we see the value of this, we care about performance", and I feel like they're kind of really putting their money where their mouth is, in many ways, and it's really nice. It's a great thing to see. So again, congratulations on that opportunity. We're all hopefully gonna benefit from their sponsorship; that's the beauty of open source, the stadium effect of our code.
 
@@ -168,7 +168,7 @@ So with that said, Rich, can you tell us -- like, if we're just gonna pick React
 
 **Rich Harris:** The short answer is you'll ship faster. That's what we believe. And there's caveats to that, obviously. If you're someone who is already experienced with React, then it's gonna take you a bit to learn how to do Svelte. But overall, the argument for Svelte is that because of the design decisions that we're taking, and the foundational design decisions, that we have this compiler-centric mentality where we're essentially designing a component language, as opposed to trying to express user interface semantics in a language which is fundamentally ill-suited to them (namely JavaScript), because of that, you can express concepts much more concisely and idiomatically in a Svelte component than you can using React.
 
-A lot of people will just disagree with me vehemently on that, but my observation has been that, for example, if you convert a React component to a Svelte component, it will be about 40% smaller in terms of the bytes of code that you have to write. And that has real consequences - obviously, how fast you can write the component, because you're physically writing that stuff, but it's also more readable. Less code is more readable than more code.
+A lot of people will just disagree with me vehemently on that, but my observation has been that, for example, if you convert a React component to a Svelte component, it will be about 40% smaller in terms of the bytes of code that you have to write. And that has real consequences - obviously, how fast you can write the component, because you're physically writing less stuff, but it's also more readable. Less code is more readable than more code.
 
 **Amal Hussein:** Also maintainable.
 
