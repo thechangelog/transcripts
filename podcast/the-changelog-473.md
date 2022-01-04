@@ -194,7 +194,7 @@ I think in the most recent episode of Kaizen on Ship It we thanked some particul
 
 **Jerod Santo:** Sometimes.
 
-**Adam Stacoviak:** I encourage \[unintelligible 00:19:46.29\] of laugh every once in a while is a good thing, sure.
+**Adam Stacoviak:** I encourage a good little laugh every once in a while is a good thing, sure.
 
 **Break**: \[19:51\]
 
@@ -390,7 +390,7 @@ But yeah, this "Why we love Vim" episode - we've put a lot of work into this one
 
 **Jerod Santo:** Yeah. Why Neovim, which was very popular as well. We'll get to that one. So - awesome that you got influenced to adopt Vim. That makes us official influencers.
 
-**Adam Stacoviak:** And no plugins. I can't go Gary's route; I'm going no plugins. I was trying to keep it vanilla. Vimrc only. A few things, like \[unintelligible 00:44:42.23\] and a couple of other things... Just settings, essentially; what every Vim user might do. I'm just trying to avoid plugins, except for my color scheme, which - you have to do that.
+**Adam Stacoviak:** And no plugins. I can't go Gary's route; I'm going no plugins. I was trying to keep it vanilla. Vimrc only. A few things, like syntax on and a couple of other things... Just settings, essentially; what every Vim user might do. I'm just trying to avoid plugins, except for my color scheme, which - you have to do that.
 
 **Jerod Santo:** So the number one Vim influencer might be Gary Bernhardt. We gave him the mic drop at the very end of the episode. He gives three reasons why you might wanna use Vim. Here's the clip. It's very compelling.
 
@@ -410,7 +410,7 @@ So any of those for me is sufficient, especially for the last one. If you think 
 
 **Jerod Santo:** Hm... So you switched your editor. \[laughs\] Number two - Modern Unix tools, with Nick Janetakis. This was actually the next episode, right after Why We Love Vim, and I think it may have benefitted a bit from Why We Love Vim's success. This is \#451, and this is one of those shows where it's just like "Hey, let's look at a repo and talk down a list of things on a repo." So it's kind of the opposite from Why We Love Vim, which was like a six-month production. This was "Find a cool repo, invite a friend on the show, and just talk about it." And that was Nick, and that was Modern Unix Tools, which just lists out replacements for older Unix tools... And just have a fun conversation, nerding out, all about the command line.
 
-**Adam Stacoviak:** \[48:12\] Not that I think this was a bad show by any means, but I'm surprised. And I love that about -- like, when we do this at the end of the year... Because wasn't it last year -- we had a bunch of authors on in that year, and almost everybody \[unintelligible 00:48:26.05\] was a book author...
+**Adam Stacoviak:** \[48:12\] Not that I think this was a bad show by any means, but I'm surprised. And I love that about -- like, when we do this at the end of the year... Because wasn't it last year -- we had a bunch of authors on in that year, and almost everybody in NMC was a book author...
 
 **Jerod Santo:** Yeah.
 
@@ -434,7 +434,7 @@ So any of those for me is sufficient, especially for the last one. If you think 
 
 **Jerod Santo:** Okay.
 
-**Adam Stacoviak:** Okay, so this is a little insider baseball. Barat is a good friend of ours. We've met him at Microsoft years ago, and he brought us out for Build in Seattle, and also New York... And he's become a great friend. And what I love most about this business, and I think what makes me not just say, but feel "We came for the tech, but we stayed for the humans" is because of relationships like Barat. Because Barat no longer works at Microsoft. At the time he worked for Okta, which recently Auth0. Now he -- I'm not sure I shared this with you Jerod, but he works at Influx Data now. As you may know, Influx Data is one of our partners; we love them very much, they're awesome people over there, all the \[unintelligible 00:49:54.03\] he was from Equinix Metal... I just love the people. It's really that kind of thing.
+**Adam Stacoviak:** Okay, so this is a little insider baseball. Barat is a good friend of ours. We've met him at Microsoft years ago, and he brought us out for Build in Seattle, and also New York... And he's become a great friend. And what I love most about this business, and I think what makes me not just say, but feel "We came for the tech, but we stayed for the humans" is because of relationships like Barat. Because Barat no longer works at Microsoft. At the time he worked for Okta, which recently Auth0. Now he -- I'm not sure I shared this with you Jerod, but he works at Influx Data now. As you may know, Influx Data is one of our partners; we love them very much, they're awesome people over there, Paul Dix, rest of the team. Maria, Chris, lot of people. Tom Crow used to be there, he was from Equinix Metal... I just love the people. It's really that kind of thing.
 
 So long story short, Barat - not even about OAuth at this point yet, but Barat helped us coordinate this show with Aaron Parecki... And Aaron who is deep in the throes of OAuth, came on and schooled us. Absolutely schooled us. Maybe less you, but more me...
 
@@ -444,7 +444,7 @@ So long story short, Barat - not even about OAuth at this point yet, but Barat h
 
 **Jerod Santo:** Right. It was funny, because as you were telling that, I was looking at our transcript, trying to find that quote, and I was like "Maybe it got cut from the show, because it's not anywhere in here", but no, it turns out it's unintelligible. So near the end of the show I thanked Barat, I said "Well, we do wanna give a shout-out to \[unintelligible\] for introducing us to you, Aaron." So I'll go fix that after this... But what I said was "All business Barat." So tell me why that was funny to you. What's the inside story?
 
-**Adam Stacoviak:** Well, this is a bit of insider baseball again, but I know when we went to -- okay, so a bit about maybe how we work. We're not \[unintelligible 00:51:06.13\] dance monkey kind of people.
+**Adam Stacoviak:** Well, this is a bit of insider baseball again, but I know when we went to -- okay, so a bit about maybe how we work. We're not put you're quarter in kind of dance monkey kind of people.
 
 **Jerod Santo:** Right.
 
@@ -544,7 +544,7 @@ Honorable mentions for most popular... It didn't quite make the top five, but st
 
 **Jerod Santo:** So do I.
 
-**Adam Stacoviak:** It's nice to see that we have certain feelings about an episode, and then the listeners respond in the same way. Having Laura on the show - I mentioned that in the Deeply Human conversation we had on DevDiscuss, which was a few episodes back, so go back in your feed just like one or two shows, you'll see that... I had imposter syndrome inviting her on, because I was such a fan of her work. I was like, "I'm a little intimidated... She's so cool... Can we match up?" And then Adam coming back... We had Adam on the show in 2017, I think, in line with OSCON, and I think it was "The war for the soul of open source." What a dramatic title. And then Gergely is another be-back. We had a lot of be-backs this year. Adam, Gergely... \[unintelligible 00:57:55.02\] That was super-cool. I'm a big fan of all of those shows. So I agree with the audience.
+**Adam Stacoviak:** It's nice to see that we have certain feelings about an episode, and then the listeners respond in the same way. Having Laura on the show - I mentioned that in the Deeply Human conversation we had on DevDiscuss, which was a few episodes back, so go back in your feed just like one or two shows, you'll see that... I had imposter syndrome inviting her on, because I was such a fan of her work. I was like, "I'm a little intimidated... She's so cool... Can we match up?" And then Adam coming back... We had Adam on the show in 2017, I think, in line with OSCON, and I think it was "The war for the soul of open source." What a dramatic title. And then Gergely is another be-back. We had a lot of be-backs this year. Adam, Gergely... Laura's a first time. That was super-cool. I'm a big fan of all of those shows. So I agree with the audience.
 
 **Jerod Santo:** Well, let's get into our favorites then. I think you've just hit on a few... Do you wanna go first?
 
@@ -586,7 +586,7 @@ So just having him on finally, I think after 12 years, basically... I think Node
 
 **Jerod Santo:** So now I'm starting to guess things, but... Lots of things. And now I believe he works at Vercel, according to this website called LinkedIn.
 
-**Adam Stacoviak:** And he needs to, because Tim is such a tools/tool maker... He goes deeper than deep can go. I think we had him on the show 3-4 years back, and we were talking about IDEs, and all the stuff he was doing with \[unintelligible 01:01:08.18\] and just this super-deep stuff; above my head in terms of where I need tooling at. He's a toolmaker for toolmakers, essentially...
+**Adam Stacoviak:** And he needs to, because Tim is such a tools/tool maker... He goes deeper than deep can go. I think we had him on the show 3-4 years back, and we were talking about IDEs, and all the stuff he was doing with git. Just this super-deep stuff; above my head in terms of where I need tooling at. He's a toolmaker for toolmakers, essentially...
 
 **Jerod Santo:** Yeah.
 
@@ -612,7 +612,7 @@ I thought it turned out really well. I just liked hearing different people have 
 
 **Jerod Santo:** Dgraph...
 
-**Adam Stacoviak:** \[unintelligible 01:04:29.12\] and then Vicky Brasseur, who's very much in the weeds of what is and what is not open source, and just kind of helping lead communities through the process of open source. And Markus - a listener sharing his thoughts on how this played out for him, what his perspective was as an everyday developer, essentially. So multi-angled for that show. I just love how that came together, honestly.
+**Adam Stacoviak:** And then Vicky Brasseur, who's very much in the weeds of what is and what is not open source, and just kind of helping lead communities through the process of open source. And Markus - a listener sharing his thoughts on how this played out for him, what his perspective was as an everyday developer, essentially. So multi-angled for that show. I just love how that came together, honestly.
 
 **Break:** \[01:04:45.08\]
 
@@ -666,7 +666,7 @@ I just really enjoy those conversations... They're deep in the weeds of software
 
 **Jerod Santo:** So clearly I wasn't the only one who enjoyed this episode; it was one of our most popular... And we had a listener call in and tell us about it as well.
 
-**Rustem:** Hi there, Changelog. My name is Rustem \[unintelligible 01:12:55.12\] so you can call me that. I'm a data scientist from Russia. Currently, I work in UAE, and my favorite episode of 2021 is with Matt Rickard about his 10,000 hours of deliberate programming. My favorite points are number three, delete as much code as you can... Which is quite funny, because he mentioned that he predominantly deleted other people's code, which I feel so compelled to do sometimes. The other point is number ten, if it looks ugly, it's most likely a terrible mistake. And I go back to my code before I listened to that podcast and I find so many "terrible mistakes".
+**Rustem:** Hi there, Changelog. My name is Rustem which Miscrosoft speech cognition system recognizes me as Auston Glu so you can call me that. I'm a data scientist from Russia. Currently, I work in UAE, and my favorite episode of 2021 is with Matt Rickard about his 10,000 hours of deliberate programming. My favorite points are number three, delete as much code as you can... Which is quite funny, because he mentioned that he predominantly deleted other people's code, which I feel so compelled to do sometimes. The other point is number ten, if it looks ugly, it's most likely a terrible mistake. And I go back to my code before I listened to that podcast and I find so many "terrible mistakes".
 
 Well, I'm a fan of the show. Thanks a lot for your work, and have a good new year.
 
@@ -782,7 +782,7 @@ I wanna encourage everybody who's out there listening, follow in his footsteps a
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** \[unintelligible 01:28:54.02\] as a thankful bit to you, and a source of encouragement even to me, sometimes -- I think I saw a TikTok on this recently, where it was like, you can't tell somebody your vision, sometimes you have to show them your vision before they can follow you. Because only you can see your vision.
+**Adam Stacoviak:** Sometimes where I think as a thankful bit to you, and a source of encouragement even to me, sometimes -- I think I saw a TikTok on this recently, where it was like, you can't tell somebody your vision, sometimes you have to show them your vision before they can follow you. Because only you can see your vision.
 
 So as an encouragement to you -- like, you were gonna do this anyways, but always show up with your vision. Just because I don't agree with it - and same thing for me, if you don't agree with my vision early - put a bit more work into it until it's enough to see more of. Because once I got a glimpse further into what this could be - not just $STDOUT the rapper and what they brought to making this cool and interesting - is showing that... And I think that's something you've developed this year, was between the Vim episode and this. You definitely have a storyteller heart, and you're able to take all of this widespread story and somehow condense it into an edit, which I think is very much a skill. And you've definitely developed that skill.
 
@@ -832,7 +832,7 @@ So with that being said, a lot of be-backs in there, a lot of long-time friends 
 
 **Adam Stacoviak:** What's interesting about NFTs I think is that currently you've got some people that are sort of like anti-crypto because of climate change, and things like that... And I think the sad and challenging thing of that is that we're mixing this paradigm shift in humanity, the way we exchange value essentially - we're mixing that with a current problem. And I think that'll eventually get panned out. Somehow, someway. We always innovate to a point somehow that this is not longer a bad thing for the human race and the Earth. And I'm hopeful that one day that will become a thing.
 
-But the NFT idea is often in this faddish, \[unintelligible 01:35:56.10\] because you've got people on Twitter with, you know, AdamStack.eth, for example, or JerodSanto.eth, for example... Because you've gotta put your identity out there, in this crypto world. And NFTs is the vehicle, I think, that is propelling web 3 forward.
+But the NFT idea is often in this faddish, this weirdish because you've got people on Twitter with, you know, AdamStac.eth, for example, or JerodSanto.eth, for example... Because you've gotta put your identity out there, in this crypto world. And NFTs is the vehicle, I think, that is propelling web 3 forward.
 
 \[01:36:16.07\] We've got the old web, which is web 1, where it was like "Everybody's invited", and you can publish. Web 2.0 was more on like "Okay, now we have social networks, now we have communication down." And web 3 is about "How do we enable everyone to own a part of the internet and command a part of the internet?" And that's very much what web 3 is about. And NFTs is exactly that.
 
