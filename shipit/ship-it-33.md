@@ -22,7 +22,7 @@ It was also fun to work with you and Guillaume and try to figure out how to repl
 
 **Gerhard Lazu:** Right back at you. What about you, Guillaume?
 
-**Guillaume de Rouville:** \[03:58\] For me, it was really fun working with you. One of the things maybe, some of headaches because I didn't know CircleCI, and it's quite interesting to -- because as I was helping you... I know Dagger, I don't know this technology, so to help you port it, I had to learn a lot of things, \[unintelligible 00:04:14.29\] and we encountered a lot of issues along the way, and in order to tweak them, to fix them, you need to properly understand what you're doing... Because your config at the moment, the CircleCI one, is quite a big one, and in order to port it, we needed to understand it properly. But it was a lot of fun.
+**Guillaume de Rouville:** \[03:58\] For me, it was really fun working with you. One of the things maybe, some of headaches because I didn't know CircleCI, and it's quite interesting to -- because as I was helping you... I know Dagger, I don't know this technology, so to help you port it, I had to learn a lot of things, mix and then create and we encountered a lot of issues along the way, and in order to tweak them, to fix them, you need to properly understand what you're doing... Because your config at the moment, the CircleCI one, is quite a big one, and in order to port it, we needed to understand it properly. But it was a lot of fun.
 
 **Gerhard Lazu:** That is actually my key takeaway as well. I wasn't expecting to learn as much. I was hoping, but I wasn't expecting it... And then with you two - it was great; we went on such a journey... And I think what helped is that we didn't have a lot of time, but we had long gaps between us working together. So maybe it was like a couple of days, and then we got together for like half an hour or an hour. Joel, you're in Colorado, and Guillaume was in Paris, so he's like an hour ahead of me. I think that really helped, because in a way we found a pace, and then we just bounced ideas off one another, and we bridged that gap really nicely, I think.
 
@@ -42,7 +42,7 @@ On the right-hand side we have to compile the dependencies for production. We ha
 
 **Gerhard Lazu:** Okay. And then when that is done, the last step is obviously assemble the image and push it to Docker Hub. The one step which we don't have here, and we would want, is to git commit the digest of the image that was deployed, so that we can do like a proper GitOps way, so that rather than our production pulling the latest - and you know, there's a couple of issues around that; I won't go into them, but I know we have to improve that... We would like Dagger in this case to make that Git commit. And I say Dagger, but now I realize it could just be GitHub Actions. And why do I say that? Part of this pull request we did the integration with GitHub Actions, and we'll get to that in a minute. But first of all, I would like to show what the new pipeline looks like, and what makes it better. So what are these green items here, Guillaume? How would you describe these? What are they?
 
-**Guillaume de Rouville:** These are -- I think it's actions. An action represents a step, so in general, it lies inside a definition in Dagger... So how do you build a Dagger pipeline? You just assemble actions \[unintelligible 00:09:25.12\] That's how you have parallel dependency builds.
+**Guillaume de Rouville:** These are -- I think it's actions. An action represents a step, so in general, it lies inside a definition in Dagger... So how do you build a Dagger pipeline? You just assemble actions all together. And at run time we built a dag that's a little above. That's how you have parallel dependency builds.
 
 **Gerhard Lazu:** Okay. What is an action? If you had to describe it, Joel, how would you describe an action?
 
@@ -64,7 +64,7 @@ So you have all these inputs coming into this node, which is that file system st
 
 The other very cool feature is that open tracing is built in. So what that means is that you can see what does the span look like for a cached run, versus an uncached run. And all you have to do is to run Jaeger, and have an environment variable. By the way - all this code, all the integration is here. So if you look at pull request 395, you can see all of it.
 
-So what we're seeing here is that this cached run - we can see it compiling the dependencies, and you can see that some of these steps run in parallel. So \[unintelligible 00:13:02.05\] are still running, while the test cache already started here. \[unintelligible 00:13:07.21\] so on and so forth... And tests - the tests are running, and we are already... We started building the production image. And that is the beauty of the pipeline. You want to run as many things as you can in parallel, and then I do like optimistic branching, it's called, in CPUs... And then when you get to the end of it, it's just like the last step. You assume that everything will just work, and that's what will make it really quick.
+So what we're seeing here is that this cached run - we can see it compiling the dependencies, and you can see that some of these steps run in parallel. So dep's compiled prod are still running, while the test cache already started here. Same thing image pod start here assets devs so on and so forth... And tests - the tests are running, and we are already... We started building the production image. And that is the beauty of the pipeline. You want to run as many things as you can in parallel, and then I do like optimistic branching, it's called, in CPUs... And then when you get to the end of it, it's just like the last step. You assume that everything will just work, and that's what will make it really quick.
 
 So you can see what a cached run looks like. You can see that all these steps are really, really quick, the tests take the longest, and all in all, we're done in 47 seconds... 46.98. Let's be precise.
 
@@ -72,7 +72,7 @@ So you can see what a cached run looks like. You can see that all these steps ar
 
 **Gerhard Lazu:** Yeah, exactly. What about the GitHub Actions integration? Well, this is a screenshot, this is what it looks like. We wanted to do like a point in time, and we can see how much quicker this is... But I would like to talk about this, and maybe Guillaume can run us through it, what does this look like. This is a GitHub Actions config. So what can you tell us about it, Guillaume? How do you read this?
 
-**Guillaume de Rouville:** So it's like a normal GitHub Action. What I see here - you have environment variables, so a Docker host, the \[unintelligible 00:14:57.04\] to the Jaeger endpoint, and then you have a job, only one job, which is named ci. It runs on Ubuntu, so you just check out the code for the context of the changes. Then you use basically Dagger here...
+**Guillaume de Rouville:** So it's like a normal GitHub Action. What I see here - you have environment variables, so a Docker host, the hotel to the Jaeger endpoint, and then you have a job, only one job, which is named ci. It runs on Ubuntu, so you just check out the code for the context of the changes. Then you use basically Dagger here...
 
 **Gerhard Lazu:** A Dagger action, yeah...
 
@@ -80,9 +80,9 @@ So you can see what a cached run looks like. You can see that all these steps ar
 
 **Gerhard Lazu:** Yeah. Because this Docker is remote, that's right. And it's the same Docker host which I use locally. I don't run Docker locally, I just have a Tailscale tunnel, which connects me to that host. And it's the same host that the CI uses. Now, there's an improvement to be made there, and we'll get to that maybe at the end... But yeah, it's the same one. So if it runs locally, it will run exactly the same in the CI, and that's really cool, I think. And then what about the last step?
 
-**Guillaume de Rouville:** Basically, it's the step you do when you run it locally. You just do a Dagger \[unintelligible 00:15:53.22\] and I presume you have specified an input, which is a local folder, and you don't have to specify it.
+**Guillaume de Rouville:** Basically, it's the step you do when you run it locally. You just do a Dagger rep and I presume you have specified an input, which is a local folder, and you don't have to specify it.
 
-**Gerhard Lazu:** \[16:07\] That's right. So if you don't see the glue code, so the \[unintelligible 00:16:08.23\] - you're right, it's just a step, which already takes some values that have been preconfigured. So those values are committed, including the secrets, by the way. Dagger is using this really cool thing called SOPS - you may have heard of it, from Mozilla - to encrypt all the secrets. So we have to set in terms of a secret the \[unintelligible 00:16:26.15\] for them to be able to be decrypted, if you think of it like the private key... And yeah, everything just works. So we commit secrets, right; we're crazy, I know... No, actually, it works really well. It's a done thing. And I waited for a long time to do this, and I'm really excited.
+**Gerhard Lazu:** \[16:07\] That's right. So if you don't see the glue code, so the dagger op - you're right, it's just a step, which already takes some values that have been preconfigured. So those values are committed, including the secrets, by the way. Dagger is using this really cool thing called SOPS - you may have heard of it, from Mozilla - to encrypt all the secrets. So we have to set in terms of a secret the h key for them to be able to be decrypted, if you think of it like the private key... And yeah, everything just works. So we commit secrets, right; we're crazy, I know... No, actually, it works really well. It's a done thing. And I waited for a long time to do this, and I'm really excited.
 
 So this is what the glue code looks like locally. So it's basically what puts everything together. It is a makefile, that's what we use. It just makes things easier. It just runs a bunch of commands. And what I would like to point out is, for example, the new CI package, it declares a new CI... This is a plan, is that right? Is it called a plan, or is it an environment?
 
@@ -98,9 +98,9 @@ The other part of this is obviously the CI queue. And this is like all the code 
 
 **Gerhard Lazu:** Yup.
 
-**Joel Longtine:** We also do the same thing for Node modules... And then this \#depscompile is - we're using that basically as a way to describe a kind of structure, that we're then going to apply in a few other places. So you can see \[unintelligible 00:19:35.22\] And we do the same thing with dev and prod, if I remember correctly.
+**Joel Longtine:** We also do the same thing for Node modules... And then this \#depscompile is - we're using that basically as a way to describe a kind of structure, that we're then going to apply in a few other places. So you can see deps compiled test actually uses that definition and specializes it with args mix and tests. And we do the same thing with dev and prod, if I remember correctly.
 
-**Gerhard Lazu:** Yeah. \[unintelligible 00:19:50.28\] with something changed; actually, added... Because it appends stuff to it. Okay. And what is CUE?
+**Gerhard Lazu:** Yeah. deps compiled name is right down here so the only difference you're right the the mix end the same definitition as deps compiled with something changed; actually, added... Because it appends stuff to it. Okay. And what is CUE?
 
 **Guillaume de Rouville:** \[20:05\] CUE is a configuration language. It aims to be a better JSON and a better YAML. It stands for Configure, Unify and Execute. Basically, I think Joel will be able to continue after that... \[laughs\]
 
@@ -128,7 +128,7 @@ And then when any configuration from a developer or an SRE comes into that, if i
 
 **Gerhard Lazu:** Interesting. Okay, it sounds great. Anything to add, Guillaume, to that, or something else?
 
-**Guillaume de Rouville:** Yeah, I think that with Europa, as Joel mentioned earlier, the DX will be far better. What we're trying to do at the moment - if the people watch the PR with Europa, it will \[unintelligible 00:25:11.15\]
+**Guillaume de Rouville:** Yeah, I think that with Europa, as Joel mentioned earlier, the DX will be far better. What we're trying to do at the moment - if the people watch the PR with Europa, it will be normal.
 
 **Gerhard Lazu:** I think -- yeah, that makes a lot of sense. Europa will make this a lot simpler. And while we had to jump through a couple of hoops, it just made it obvious they shouldn't be there... So I'm really excited to adapt this to that new way. That will be great. And to see what improvements we can get. Because at the end of the day, that's what you care about, right? This looks not as good as it could; I mean, it works, and that's what you care about, make it work, make it write... I think that's what's happening; now we're making it write, and then we're making it fast. I'm very excited about that.
 
@@ -176,7 +176,7 @@ We're going to run it in our production Kubernetes setup. Just like that. Why no
 
 In this case, you actually clicked a particularly interesting sample, because we can see in our metrics above that we have these spikes every now and then, and we can very clearly see what it is that is causing this spike in this profile; we can see that it's garbage collection. A very classic thing, that can use a lot of CPU resources.
 
-**Gerhard Lazu:** Right. So this is garbage collection that happens in \[unintelligible 00:34:01.13\]
+**Gerhard Lazu:** Right. So this is garbage collection that happens in
 
 **Frederic Branczyk:** Right.
 
@@ -212,7 +212,7 @@ This is great news, because it means that you don't have to install these debug 
 
 **Frederic Branczyk:** Exactly.
 
-**Gerhard Lazu:** That's really cool. I didn't know this. I knew about \[unintelligible 00:39:14.16\] and being able to use those build IDs to get the debug symbol for this particular binary from that server? That's really cool.
+**Gerhard Lazu:** That's really cool. I didn't know this. I knew about strip boundaries but I didn't know about those build IDs and being able to use those build IDs to get the debug symbol for this particular binary from that server? That's really cool.
 
 Okay, so we've seen Postgres... What about Erlang VM? So this is our app, and we can see that we have beam.smp all over the place, which is the name of the binary for the Beam Erlang VM. So we see the same thing here...
 
@@ -272,7 +272,7 @@ My theory is, because of what we can see here - the way that this binary code wa
 
 **Frederic Branczyk:** We can do the host, or the container. Yeah, it shouldn't matter. Both should work.
 
-**Gerhard Lazu:** Okay, yeah. Let's go on the host. So we won't go on that -- \[unintelligible 00:45:38.02\] There we go. That's the proc. Yes?
+**Gerhard Lazu:** Okay, yeah. Let's go on the host. So we won't go on that -- let's see do we still have the CD? There we go. That's the proc. Yes?
 
 **Frederic Branczyk:** Right. And here there's a file called maps...
 
@@ -284,7 +284,7 @@ My theory is, because of what we can see here - the way that this binary code wa
 
 **Frederic Branczyk:** Well, if you're able to search within your terminal, maybe we can -- it's a bit of a hack, but we can search for the address that you have copied, and we can just try to remove certain digits until we maybe get a match.
 
-**Gerhard Lazu:** Okay. So let's remove those \[unintelligible 00:46:41.10\]
+**Gerhard Lazu:** Okay. So let's remove those two
 
 **Frederic Branczyk:** And as we can see, the ranges don't have the 0x prefix here, so we're gonna need to remove that.
 
@@ -316,9 +316,9 @@ So what I would like to say is thank you very much, Frederic, for running us thr
 
 **Gerhard Lazu:** What we want to do is, first of all, fix this R, damn it. Someone can't type. Infrastructure... As if my life depended on it. Right. So we want in 2022 for the Changelog.com setup to use Crossplane to provision our Linode Kubernetes cluster. That's the goal. And the way we're thinking of achieving it is to follow this guide to generate a Linode Crossplane provider using the Terrajet tool, which is part of the Crossplane ecosystem. And we can generate any Crossplane provider from any Terraform provider. Cool. So how are we going to do that?
 
-**Dan Mangum:** Yeah, I think -- well, there's a couple different parts here. In order to be able to test out anything that we generate, we're going to need a Crossplane control plane running somewhere. That being said, we need to generate and package up this provider to be able to install it in Crossplane, and go through our package manager there. But it could be as simple as even just having a local \[unintelligible 00:50:57.01\] cluster to start out, and after generating, using go run to just apply some CRDs and see if it picks them up correctly.
+**Dan Mangum:** Yeah, I think -- well, there's a couple different parts here. In order to be able to test out anything that we generate, we're going to need a Crossplane control plane running somewhere. That being said, we need to generate and package up this provider to be able to install it in Crossplane, and go through our package manager there. But it could be as simple as even just having a local kime cluster to start out, and after generating, using go run to just apply some CRDs and see if it picks them up correctly.
 
-**Gerhard Lazu:** That is a good idea. I like it. But I have found issues when I went from \[unintelligible 00:51:10.14\] to something else. GKE, LKE, any Rio cluster, because there's different things, like RBAC, for example, or different security policies, or who knows what. So I like starting with production, which is a bit weird, because you would think -- like, you start from development; but I like starting with production. What I'm thinking is I want to start with Crossplane installed in a production setup... And I can't remember if this was episode \#16 or \#17, where I was saying that if there was a Crossplane -- \#15, there we go. Gerhard has an idea for the Changelog '22 setup. So the idea was to use a managed Crossplane, which would be running on the Upbound cloud, and with that Crossplane, that should manage everything else. So that is our starting point. That's what we're doing here. If we go to Upbound cloud - there we go. Control planes. I have already created one... It's a Christmas gift.
+**Gerhard Lazu:** That is a good idea. I like it. But I have found issues when I went from kime to something else. GKE, LKE, any Rio cluster, because there's different things, like RBAC, for example, or different security policies, or who knows what. So I like starting with production, which is a bit weird, because you would think -- like, you start from development; but I like starting with production. What I'm thinking is I want to start with Crossplane installed in a production setup... And I can't remember if this was episode \#16 or \#17, where I was saying that if there was a Crossplane -- \#15, there we go. Gerhard has an idea for the Changelog '22 setup. So the idea was to use a managed Crossplane, which would be running on the Upbound cloud, and with that Crossplane, that should manage everything else. So that is our starting point. That's what we're doing here. If we go to Upbound cloud - there we go. Control planes. I have already created one... It's a Christmas gift.
 
 **Dan Mangum:** \[52:12\] Nice...
 
@@ -398,7 +398,7 @@ So what I would like to say is thank you very much, Frederic, for running us thr
 
 **Gerhard Lazu:** Ah, I see. Okay, I'm with you. Okay. Replace all the occurrences... I see. So now I just basically run this command. Okay.
 
-**Dan Mangum:** I'm guessing that has to do with the name of the Terraform repo, potentially... But it says \[unintelligible 00:56:14.00\] broken link, potentially...
+**Dan Mangum:** I'm guessing that has to do with the name of the Terraform repo, potentially... But it says that it checked out line in the controller docker file. Look like a broken link, potentially...
 
 **Gerhard Lazu:** Found. Cool. So that is the link that we should use. Perfect.
 
@@ -438,7 +438,7 @@ So what I would like to say is thank you very much, Frederic, for running us thr
 
 **Gerhard Lazu:** Mm-hm. So if we take this one -- is this public? It is. Cool. So GitHub - look at that. GitHub is there.
 
-**Dan Mangum:** Yeah. So I think this is an example of \[unintelligible 00:58:18.01\] so I think you'd have Linode instead of GitHub, right?
+**Dan Mangum:** Yeah. So I think this is an example of, so I think you'd have Linode instead of GitHub, right?
 
 **Gerhard Lazu:** Yeah, yeah.
 
@@ -460,7 +460,7 @@ So what I would like to say is thank you very much, Frederic, for running us thr
 
 **Dan Mangum:** Oh, I know what it is. This is a Go package, and they have a v4 version. So that's just the import path for the Go package. So you can leave that out as long as the Linode provider is a normal Go package here.
 
-**Gerhard Lazu:** \[59:54\] Look, that is the line... Found, downloading. So that pulls it from the right place. Okay, great. If your provider is using an old version... How do I know if it's using an old version? Oh, okay, I see. I was confused. \[unintelligible 01:00:10.17\]
+**Gerhard Lazu:** \[59:54\] Look, that is the line... Found, downloading. So that pulls it from the right place. Okay, great. If your provider is using an old version... How do I know if it's using an old version? Oh, okay, I see. I was confused. 
 
 **Dan Mangum:** I believe you need an actual replace stanza down there at the bottom.
 
@@ -478,7 +478,7 @@ So what I would like to say is thank you very much, Frederic, for running us thr
 
 **Gerhard Lazu:** Okay. I wasn't sure that go mod supports this...
 
-**Dan Mangum:** Yup. \[unintelligible 01:00:56.22\]
+**Dan Mangum:** Yup.
 
 **Gerhard Lazu:** ...but okay. Yeah, okay. They're more tidy.
 
@@ -512,7 +512,7 @@ So what I would like to say is thank you very much, Frederic, for running us thr
 
 **Dan Mangum:** Nice. So I'm guessing that's what we want there.
 
-**Gerhard Lazu:** That's what we want, yeah. Where does this key come from? Hang on, let me see. \[unintelligible 01:02:03.03\] Where does this key come from?
+**Gerhard Lazu:** That's what we want, yeah. Where does this key come from? Hang on, let me see. Key username. Where does this key come from?
 
 **Dan Mangum:** You just deleted the variable that was key username... But you can name it whatever -- sorry, it was way up at the top.
 
@@ -566,9 +566,9 @@ So that's what we're using as a generator for a Linode provider that uses Terraf
 
 **Gerhard Lazu:** Right.
 
-**Muvaffak Onuş:** \[01:07:52.20\] When you install 700 CRDs \[unintelligible 01:07:52.21\] for 40 minutes or something, which affects all the workloads that it was supposed to schedule. So we have fixed that problem; there was a patch and we accelerated some of the processes in upstream. So now, we are able to use those Jet providers.
+**Muvaffak Onuş:** \[01:07:52.20\] When you install 700 CRDs, API showed our guests were responsible for 40 minutes or something, which affects all the workloads that it was supposed to schedule. So we have fixed that problem; there was a patch and we accelerated some of the processes in upstream. So now, we are able to use those Jet providers.
 
-In January, we will have a big splash of announcements. We'll announce AWS, Azure and GCP providers, Jet providers with their API group stabilized, conflicts are stabilized, and API fields are stabilized. And then we will start making some of the resources \[unintelligible 01:08:35.08\] which has more guarantees around that.
+In January, we will have a big splash of announcements. We'll announce AWS, Azure and GCP providers, Jet providers with their API group stabilized, conflicts are stabilized, and API fields are stabilized. And then we will start making some of the resources we want better one. Which has more guarantees around that.
 
 Then we will have commercial WebHooks in Crossplane, which will affect how easily we can make a resource, let's say, that you're not happy with the implementation in Terraform provider; you can just switch to native implementation, with API calls directly to AWS.
 
@@ -582,7 +582,7 @@ Then we will have commercial WebHooks in Crossplane, which will affect how easil
 
 **Gerhard Lazu:** There we go. Amazing.
 
-**Muvaffak Onuş:** And also, that was the hardest part, bootstrapping the provider. If you, for example, decide to add an instance resource to Jet Linode provider, it's 10 or 15 lines of code \[unintelligible 01:10:10.07\]
+**Muvaffak Onuş:** And also, that was the hardest part, bootstrapping the provider. If you, for example, decide to add an instance resource to Jet Linode provider, it's 10 or 15 lines of code as you see like the single configuration.
 
 **Gerhard Lazu:** Yeah, that's right. So all the commits are there, go and check them, see what we've done for provider Jet Linode. Again, it's very, very simple. So what I would like to do now is show you how easy it is to actually do this. And I say "show" because we record video, and we may not have time to publish everything in time, or ever; things can get very busy. But at least we'll do a step-by-step process; there's a pull request, by the way, in the Changelog org, the changelog.com repository, pull request 399, which has all the text, all the screenshots, everything on how to do this, all the links.
 
@@ -594,7 +594,7 @@ So make, in this case, LKE Crossplane. And what that does - that installs Crossp
 
 The next step is make Crossplane Linode provider, and that's it. That's simple. That was really quick, because the provider is super-small. Like 18 kb, I've seen the image; which then pulls a bigger image. How does that work, can you tell us?
 
-**Muvaffak Onuş:** \[01:11:58.12\] Yeah. So the \[unintelligible 01:11:58.19\] that contains your CRDs, and also some information about your package. Once it's downloaded by the package manager, it installs the CRDs and then creates a deployment with the image that you provided there. So that other image contains the binary.
+**Muvaffak Onuş:** \[01:11:58.12\] Yeah. So the better data image, it said it was CI image, but where has only the meta data YAML, that contains your CRDs, and also some information about your package. Once it's downloaded by the package manager, it installs the CRDs and then creates a deployment with the image that you provided there. So that other image contains the binary.
 
 **Gerhard Lazu:** Okay. And which version did we install of the provider? Version 0.0.0-12. So there's no tag for this. This is like a dev-only version. We trust dev in production. The dream is real. Production became dev. Great.
 
@@ -664,7 +664,7 @@ In this case, as listed there in the PR, you've got the cert manager, you've got
 
 **Gerhard Lazu:** Right.
 
-**Muvaffak Onuş:** So you would have the cluster that is managed in one namespace, maybe like Changelog system, with its own \[unintelligible 01:25:47.19\] So you would have that production cluster, but different teams or developers in their own namespace - they would refer to that central production cluster in their claims that are defined, again, by you, via XRD.
+**Muvaffak Onuş:** So you would have the cluster that is managed in one namespace, maybe like Changelog system, with its own claim, claim is what we call similar to PVC. So you would have that production cluster, but different teams or developers in their own namespace - they would refer to that central production cluster in their claims that are defined, again, by you, via XRD.
 
 **Gerhard Lazu:** Yeah.
 
