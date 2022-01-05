@@ -76,7 +76,7 @@ First up we have episode 161. This was our very first Go Panic game. Everyone te
 
 **Mat Ryer:** Oh, man... Yeah. I mean, if you want a language proposal, I propose that our American cousins pronounce their T's a little more, and then we wouldn't get in this mess... \[laughter\] That's a language proposal for me. I'm gonna actually open that. Can you open PRs for America? \[laughter\]
 
-**Jerod Santo:** \[00:04:02.03\] I think we should address why Mat would prefer to replace me with a horse.
+**Jerod Santo:** \[04:02\] I think we should address why Mat would prefer to replace me with a horse.
 
 **Mat Ryer:** Oh, you were listening... \[laughter\] Not replace you with one, mate...
 
@@ -144,7 +144,7 @@ First up we have episode 161. This was our very first Go Panic game. Everyone te
 
 **Jerod Santo:** Moving on without comment, I am acting like that did not just happen. Here's a question for you... Are frameworks getting an encore? That's actually the title of episode 180 with André Eriksson, which I was fortunate enough to join in a pinch, and needless to say, we had a lot of fun on that one.
 
-**Johnny Boursiquot:** \[00:08:04.24\] Now, here's my take. Jerod, you're not wrong. But.
+**Johnny Boursiquot:** \[08:04\] Now, here's my take. Jerod, you're not wrong. But.
 
 **Jerod Santo:** Okay... Is this a big but or a little but?
 
@@ -244,7 +244,7 @@ Carolyn Van Slyck: Oh my goodness, I'd probably swoon if I saw a PR from you... 
 
 **Johnny Boursiquot:** \[laughs\]
 
-**Mat Ryer:** \[00:11:59.14\] I don't think that solves the problem, I think that makes it worse, but that's fine...
+**Mat Ryer:** \[11:59\] I don't think that solves the problem, I think that makes it worse, but that's fine...
 
 **Johnny Boursiquot:** Here we go, here we go...
 
@@ -376,7 +376,7 @@ Carolyn Van Slyck: Oh my goodness, I'd probably swoon if I saw a PR from you... 
 
 **Johnny Boursiquot:** I know, I'm trying to get it out and y'all keep making me laugh. \[laughter\]
 
-**Mark Bates:** \[00:16:01.16\] Just keep making those mistakes till you find it, and that's okay.
+**Mark Bates:** \[16:01\] Just keep making those mistakes till you find it, and that's okay.
 
 **Mat Ryer:** Yeah, absolutely. Well, speaking of mistakes, Teiva's book, "100 Mistakes" is --
 
@@ -448,7 +448,7 @@ Oh, I would add Rust. That's what I would add... \[laughter\] I would really lik
 
 **Sam Boyer:** I mean, my semver one really - that one gets unpopular when you start suggesting alternatives. It sounds fine when you're just like "The world's terrible! Don't do that thing!" and everyone agrees. Then you try to suggest an alternative and everybody's like "Go f\*\*\* yourself!" \[laughter\] So it depends on how far you're walking out, I guess. \[laugher\]
 
-**Johnny Boursiquot:** \[00:19:59.12\] I think I'm gonna fall over... We haven't had a bleep on this show in a while, so this is gonna be a good one.
+**Johnny Boursiquot:** \[19:59\] I think I'm gonna fall over... We haven't had a bleep on this show in a while, so this is gonna be a good one.
 
 **Sam Boyer:** Sorry, sorry. I should have enquired at the beginning.
 
@@ -592,7 +592,7 @@ Oh, I would add Rust. That's what I would add... \[laughter\] I would really lik
 
 **Kris Brandow:** Man, my statements are not ending in questions... \[laughs\]
 
-**Natalie Pistunovich:** \[00:23:59.01\] But they're so wholesome and so true that you just find yourself nodding, like "Yes, absolutely."
+**Natalie Pistunovich:** \[23:59\] But they're so wholesome and so true that you just find yourself nodding, like "Yes, absolutely."
 
 **Kris Brandow:** Yeah, I feel like this is like "Kris just talks to the world, with Ian and Natalie bringing up really good points."
 
