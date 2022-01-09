@@ -348,6 +348,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/rvtraveller"><img src="https://avatars.githubusercontent.com/u/1789427?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Brian Thompson</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=rvtraveller" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/w3bdev1"><img src="https://avatars.githubusercontent.com/u/65990737?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Sudeep Biswas</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=w3bdev1" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://yamanoku.net"><img src="https://avatars.githubusercontent.com/u/1996642?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Okuto Oyama</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=yamanoku" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
