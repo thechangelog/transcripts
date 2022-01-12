@@ -18,7 +18,7 @@ Amelia is here... What's up, Amelia?
 
 **Amal Hussein:** Hello, everyone! Happy to be in 2022. It's so awesome here.
 
-**Jerod Santo:** \[00:03:56.03\] It is.
+**Jerod Santo:** \[03:56\] It is.
 
 **Amal Hussein:** It's like, the air is better, world peace is a thing... It's amazing.
 
@@ -128,7 +128,7 @@ Kball, your desire, your wish, your resolution for 2021 was to be able to do han
 
 **Amal Hussein:** Oh, I forget that Divya is the fitness queen, yeah...
 
-**Divya:** \[00:07:56.14\] No, I'm not.
+**Divya:** \[07:56\] No, I'm not.
 
 **Amal Hussein:** Yeah, I forget that.
 
@@ -222,7 +222,7 @@ Kball, your desire, your wish, your resolution for 2021 was to be able to do han
 
 **Jerod Santo:** So we already sang Denver's praises, but why did you pick there, and what were your other choices?
 
-**Ali Spittel:** \[00:11:58.21\] Okay, so funny enough, me and my partner Andrew, we both made lists of all the cities that we would possibly want to move to, and then blind-rated them... And then Denver was number one for both of us. So that's really how we ended up here. It's a little bit random...
+**Ali Spittel:** \[11:58\] Okay, so funny enough, me and my partner Andrew, we both made lists of all the cities that we would possibly want to move to, and then blind-rated them... And then Denver was number one for both of us. So that's really how we ended up here. It's a little bit random...
 
 **Jerod Santo:** Analytical.
 
@@ -300,7 +300,7 @@ Kball, your desire, your wish, your resolution for 2021 was to be able to do han
 
 **Divya:** Oh, my...
 
-**Break:** \[00:15:12.02\]
+**Break:** \[15:12\]
 
 **Jerod Santo:** So let's talk trends in 2022. What's going on, what we think will be going on as the year progresses. Divya, what are you thinking?
 
@@ -328,7 +328,7 @@ But yeah, okay... So Vercel plus -- I'm writing this down for next year's New Ye
 
 **Jerod Santo:** What's interesting about a company like Vercel, and Netlify etc. hiring open source developers - it's kind of like a shot in the arm; no pun intended... It's not a pun. No contemporary topic intended... \[laughter\] It's a shot in the arm to the amount of time and thought and effort that can go into the project, but then you're also wondering, like - there's a cynical me, or maybe more than just me, that's kind of like with Facebook and React... It's like, "Does Facebook's needs drive React's direction?" Does now Vercel's corporate needs potentially sully the waters of a Svelte.js, or of these other projects that these people they hire work on? What do you guys think about that? Chris, you have an arm in open source; what do you think about that?
 
-**Chris Hiller:** \[00:20:23.14\] Yeah, I think that's a concern. I think it's especially a concern with a company that's just taking on more and more VC funding as well. So yeah, you start to worry about things like \[unintelligible 00:20:32.27\] where you had this open source project that was permissively licensed... Whoops, now we're going to change the license, and now we're going to open core, and we're gonna strip out features, and just... The same thing that's happened time and time and time again.
+**Chris Hiller:** \[20:23\] Yeah, I think that's a concern. I think it's especially a concern with a company that's just taking on more and more VC funding as well. So yeah, you start to worry about things like \[unintelligible 00:20:32.27\] where you had this open source project that was permissively licensed... Whoops, now we're going to change the license, and now we're going to open core, and we're gonna strip out features, and just... The same thing that's happened time and time and time again.
 
 I think what's really frustrating to me is people don't -- they'll still reach for these projects. It's like, they think it's not gonna happen. They don't appreciate the risk of adopting an open source project like that... And yup, that's how things go. There's a lot of talk right now, obviously, about not being appreciative of the risk of adopting open source by companies, so...
 
@@ -356,7 +356,7 @@ So I just hope folks know what they're doing... I do think what's different abou
 
 **Kevin Ball:** And one thing that I think is a little different in the Vercel case versus, say, an Npm case, is like, they're funding a wide range of open source projects and creators that all are projects that if people are using them, they'll probably also be interested in what Vercel has to offer... Whereas Npm was a single thing, and it was deeply integrated between the open source project they're funding and the product they're trying to sell. So I think they're pretty different scenarios. If Vercel goes under or is acquired, Rich Harris can go someplace else. He's not gonna have a problem, and Svelte isn't gonna necessarily have a problem. And they're kind of touching a lot of different things; they've been funding some of the key maintainers of Next.js for a while, now they're bringing in \[unintelligible 00:23:57.03\] on React, they're talking about Rich... I wouldn't be surprised if they bring in one of the core members from Nuxt, or something like that. They're kind of doing a diversified portfolio of helping fund innovation in this space, where people who are using that innovation are in their target customer audience.
 
-\[00:24:16.09\] So I don't think they get quite the same conflict of interest and single-focused "How do I monetize hang-ups?", though obviously if they went under, that would cause all sorts of problems, and the pressures of VC are very real.
+\[24:16\] So I don't think they get quite the same conflict of interest and single-focused "How do I monetize hang-ups?", though obviously if they went under, that would cause all sorts of problems, and the pressures of VC are very real.
 
 **Jerod Santo:** Well, switching gears...
 
@@ -386,7 +386,7 @@ So I am very excited for our experience today... I cannot tell you how many time
 
 And the other thing I'm really excited about is it feels like we're moving more towards - at least in my little frontend world, it's like there's the code, but there's also like "What is the code produced?" So it feels like the focus for a long time has been on "What is the syntax? What does the code look like? Let's share diffs." But for me, at least what I've seen is it's moving more towards like "What is this code building? What tools can we build on top of that?"
 
-\[00:28:02.00\] So this is like no-code tools, and GUIs, more in that direction. It feels like we've solved a lot of these cases on the web, and like "How can we make it easier for new developers, or people who aren't developers, to build things?"
+\[28:02\] So this is like no-code tools, and GUIs, more in that direction. It feels like we've solved a lot of these cases on the web, and like "How can we make it easier for new developers, or people who aren't developers, to build things?"
 
 **Jerod Santo:** Very cool. I'll just point out that we're 41 minutes in the recording and we've had our first drop of the term Metaverse, so... \[unintelligible 00:28:21.22\]
 
@@ -424,7 +424,7 @@ I mean, we're just adding more fragmentation to our stack, and we're also not th
 
 **Divya:** The thing is, in developer tooling for JavaScript, it's not always JavaScript. We have used other languages before. So we've used C++. And I would argue that C++ is more complex and more confusing than Rust is... And that's going way in the weeds, at least, because we're on JS Party and we're very frontend-focused, but... If we're already reaching for a lot of languages like that, I would say Rust is a bit more user-friendly, because their compiler at least gives you very clear indications for when things go wrong. And I'm speaking from personal experience, because I'm not a Rust developer. I have picked up Rust in the last year and a half, going from JavaScript to Rust, and I've done C++ before, and it's been painful... But from a JavaScript perspective, when you do pick up Rust, there is a clear sense of -- obviously, there's syntax, there's extra stuff you need to think about, because you don't think about pointers and memory and JavaScript too much, but... Considering the fact that we are already pulling from compiler-heavy languages like C++ for tooling, I would say if we had to choose, Rust is actually not a bad choice.
 
-\[00:32:21.21\] And it sometimes helps sort of give you a clearer sense of how you're fixing a certain problem. You don't have to think about certain things that you had to with C++... And so yeah, I would say there is a gain there. Obviously, I understand where you're coming from, which is like, we shouldn't be building everything and completely throwing away JavaScript and just writing everything in Rust. But that's not the point I'm trying to make. I think the point I'm trying to make is that internals - ultimately, we're using Rust to augment, and then the user experience and the wrapper layer is still JavaScript. So there's just like, "Is there a way that those two can co-exist?"
+\[32:21\] And it sometimes helps sort of give you a clearer sense of how you're fixing a certain problem. You don't have to think about certain things that you had to with C++... And so yeah, I would say there is a gain there. Obviously, I understand where you're coming from, which is like, we shouldn't be building everything and completely throwing away JavaScript and just writing everything in Rust. But that's not the point I'm trying to make. I think the point I'm trying to make is that internals - ultimately, we're using Rust to augment, and then the user experience and the wrapper layer is still JavaScript. So there's just like, "Is there a way that those two can co-exist?"
 
 **Amal Hussein:** Yeah, I think that's a really good point.
 
@@ -478,7 +478,7 @@ So Rust makes sense. It makes sense to use a faster language to do those things.
 
 **Amal Hussein:** Anyways...
 
-**Jerod Santo:** \[00:36:07.20\] Alright, let's do one more trend, because then we're gonna change subjects... We've got Chris with a wishlist item. You want Chrome to lose market share. Tell us. I do, too.
+**Jerod Santo:** \[36:07\] Alright, let's do one more trend, because then we're gonna change subjects... We've got Chris with a wishlist item. You want Chrome to lose market share. Tell us. I do, too.
 
 **Chris Hiller:** Yeah. I don't know, has anybody been keeping an eye on these --
 
@@ -530,7 +530,7 @@ My husband decided, just with all the stuff going on with Chrome -- he was so up
 
 **Jerod Santo:** Let's just all collectively lose all of our keys, and then everything goes away. Just start fresh. Alright, any last trends before we call it a segment and switch gears?
 
-**Amal Hussein:** \[00:40:02.25\] I think people are gonna start to use Temporal. Temporal, Temporal, Temporal, Temporal, Temporal. That's my last trend. And that's it, we'll leave it at that. You know, no more --
+**Amal Hussein:** \[40:02\] I think people are gonna start to use Temporal. Temporal, Temporal, Temporal, Temporal, Temporal. That's my last trend. And that's it, we'll leave it at that. You know, no more --
 
 **Kevin Ball:** No more JavaScript dates?
 
@@ -556,7 +556,7 @@ My husband decided, just with all the stuff going on with Chrome -- he was so up
 
 **Jerod Santo:** Alright, there you have it. Temporal is coming to a browser near you. Maybe even Safari. We'll be right back.
 
-**Break:** \[00:41:02.24\]
+**Break:** \[41:02\]
 
 **Jerod Santo:** Let's talk personal goals, resolutions, call them whatever you like... Let's talk about where we are investing our time this year; what do we wanna learn, what do we wanna try, what do we wanna do? Kball, you're up first.
 
@@ -564,7 +564,7 @@ My husband decided, just with all the stuff going on with Chrome -- he was so up
 
 The other is investing in learning. Reading some new books in different areas. I'm taking a workshop -- I ran here from a workshop this morning, I'm super-excited, learning about how to better developer other developers. That's fun. But really, just investing in myself and actually looking forward again, rather than just "How do I survive today? How do I recover from the hell that's been the last couple of years?"
 
-**Jerod Santo:** \[00:44:02.12\] Sounds good to me. Let's kick it over to Divya next. What are you thinking, Divya?
+**Jerod Santo:** \[44:02\] Sounds good to me. Let's kick it over to Divya next. What are you thinking, Divya?
 
 **Divya:** So I'm looking forward to be excited about tech again, because I haven't been this year at all. I've been focusing a lot on my personal life and just getting myself together, and sort of similar to Kball, just surviving... And thriving.
 
@@ -608,7 +608,7 @@ I've never really done full-time developer advocacy or anything like that, but I
 
 The blog is called Unrelated Thread, and right now I'm deciding between UnrelatedThread.blog, UnrelatedThread.com, .dev... I don't know, there's so many options; I think I own all of them, so I don't know. If you have thoughts, let me know.
 
-**Kevin Ball:** \[00:48:06.11\] Wait, you're a developer launching a blog. What did you build it with?
+**Kevin Ball:** \[48:06\] Wait, you're a developer launching a blog. What did you build it with?
 
 **Jerod Santo:** Yeah, \[unintelligible 00:48:08.27\]
 
