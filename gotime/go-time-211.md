@@ -18,7 +18,7 @@ Let's meet the teams. We have Team Zero, is -- well, let's meet our contestants 
 
 **Mat Ryer:** Hi, Jon. I'm good, mate. I'm excited. Are you gonna win?
 
-**Jon Calhoun:** \[00:03:59.04\] I don't know.
+**Jon Calhoun:** \[03:59\] I don't know.
 
 **Mat Ryer:** That's a good answer. An honest answer.
 
@@ -80,7 +80,7 @@ So team zero - it's Natalie, Steve and Julie. You are our first team, team zero.
 
 **Mat Ryer:** Natalie's team, team zero, takes control. And we're over to Steve Francia. Steve... How's it going, Steve? Are you gonna have a guess? What do you think the Go community said about this?
 
-**Steve Francia:** \[00:08:05.00\] I was gonna say welcoming and friendly...
+**Steve Francia:** \[08:05\] I was gonna say welcoming and friendly...
 
 **Mat Ryer:** Okay...
 
@@ -174,7 +174,7 @@ So team zero - it's Natalie, Steve and Julie. You are our first team, team zero.
 
 **Mat Ryer:** Okay, let's find out. The office. Gophers say... \[win sound\] Yes, indeed. In at number three, "the office", with 21 people. By the way, 38 people said "coffee shop". Very cool. Alright, John, three lives still. Going strong. Where do you like to code/work?
 
-**Jon Calhoun:** \[00:12:02.01\] I'm gonna go with "park".
+**Jon Calhoun:** \[12:02\] I'm gonna go with "park".
 
 **Mat Ryer:** In the park, how beautiful. Gophers say... \[win sound\] Yes, indeed. Number two. Park/garden/yard. 26 people. Okay, Katie - you've still got your three lives...
 
@@ -268,7 +268,7 @@ So team zero - it's Natalie, Steve and Julie. You are our first team, team zero.
 
 **Mat Ryer:** That's okay, don't worry though... It's going well, we've got team zero have 17 points, team one are forging ahead with 85 points. Let's go on to round three...
 
-**Break:** \[00:15:50.08\]
+**Break:** \[15:50\]
 
 **Mat Ryer:** Okay, round three. The question we asked our gophers is "The most useful Go keyword is what?" What is the most useful Go keyword? What did people say? We're gonna find out which team takes control of the board when Julie and Rob go head to head... Julie, this time.
 
@@ -314,7 +314,7 @@ So team zero - it's Natalie, Steve and Julie. You are our first team, team zero.
 
 **Jon Calhoun:** Var?
 
-**Mat Ryer:** \[00:20:01.28\] Var... Good one.
+**Mat Ryer:** \[20:01\] Var... Good one.
 
 **Jon Calhoun:** I mean, how else are you gonna create those globals?
 
@@ -382,7 +382,7 @@ Wow, things are heating up here... 82 and 85 \[unintelligible 00:22:18.16\] Now 
 
 **Mat Ryer:** The people. That'd be nice, if they people said "the people". Let's see - did the people say "the people"? Gophers say... \[win sound\] Yes indeed, at number four. The people or the community that they're in. 15 people said that. That's very nice, isn't it? Rob, can you find a nicer one than that? Or just any?
 
-**Rob Findley:** \[00:23:53.17\] I don't know about that, but... How about the fact that we get to program? How about the work?
+**Rob Findley:** \[23:53\] I don't know about that, but... How about the fact that we get to program? How about the work?
 
 **Mat Ryer:** Oh, the work itself, programming. Gophers say... \[win sound\] Yes, indeed. People did say that. Problem-solving, we grouped into that. 19 people, at number three, yes.
 
@@ -450,7 +450,7 @@ Okay, so let's check in with the scores. Team zero, in our slice of team here - 
 
 **Mat Ryer:** There we go. Okay, let's move on, shall we, to the next round. Round five. Daram-pam-pam-pow! Someone else is having a party at their own house by the sound of that... Okay, right. Here we go again. This is round five... This time the question is "The worst thing about the tech industry." This is what we're after now - what's the worst thing about the tech industry? And last time it was Jon and Natalie went head to head, so it's Steve and Katie. And Steve goes first. Steve, what's the worst thing?
 
-**Steve Francia:** \[00:28:20.15\] Um, bugs.
+**Steve Francia:** \[28:20\] Um, bugs.
 
 **Mat Ryer:** Bugs. What a great answer.
 
@@ -510,7 +510,7 @@ And Natalie - we're back around to you now. It's your turn to have a guess. What
 
 **Natalie Pistunovich:** Bad code was already said, right? That was kind of the bad practices one...
 
-**Mat Ryer:** \[00:31:57.29\] Yeah, bad practices in existing code was at number four there. We've got number three, the pressure of long hours, and at number one is the people.
+**Mat Ryer:** \[31:57\] Yeah, bad practices in existing code was at number four there. We've got number three, the pressure of long hours, and at number one is the people.
 
 **Natalie Pistunovich:** Legacy?
 
@@ -564,13 +564,13 @@ Okay, I don't know, I probably wouldn't have guessed that one. I thought there w
 
 **Mat Ryer:** Yeah. It's surprising; you learn things. It is a surprise. Let's check in with the scores, shall we? Please? Team zero has got 160 points. Just slightly ahead of team one, who have 157. This is so tight, you won't believe it... But the next round is Double Points Round! Round six. Let's go!
 
-**Break:** \[00:34:42.02\]
+**Break:** \[34:42\]
 
 **Mat Ryer:** Okey-doke, this is the final round for double points. Anyone could win the amazing prize. Any one of the three of you can win this... And then you have to share it, which I'm sure will be no problem.
 
 The question for round six is - we asked people to describe the Go language with just one word. Describe the Go language with just a single, solitary word. What did people say? Julie and Rob, you're going head to head, starting with Rob. What do you think people said, Rob?
 
-**Rob Findley:** \[00:36:06.05\] I think people said "simple".
+**Rob Findley:** \[36:06\] I think people said "simple".
 
 **Mat Ryer:** Do you know? Let's see if people did say "simple".
 
@@ -660,7 +660,7 @@ The question for round six is - we asked people to describe the Go language with
 
 **Mat Ryer:** Shall we find out? Is that your answer?
 
-**Natalie Pistunovich:** \[00:40:23.13\] Yes.
+**Natalie Pistunovich:** \[40:23\] Yes.
 
 **Mat Ryer:** Would you like to lock it in?
 
@@ -736,7 +736,7 @@ So there we go... Any surprises? What do we think? Which was the round? Jon, whe
 
 **Jon Calhoun:** I was something waiting for "else" to be on the list, even though "if" and "switch" weren't. I was just like, "If that's the case, it's just somebody trolling us."
 
-**Mat Ryer:** \[00:44:07.08\] Some of the answers in some of the questions -- because we've asked loads of questions, so we have loads to choose from... And some of them are -- like, you wonder if people are trolling, or joking. And sometimes the joke answers - enough people say it that it makes it onto the board as well, because... You know, it's quite funny, but... It's interesting to get into the minds of people, I think, a little bit...
+**Mat Ryer:** \[44:07\] Some of the answers in some of the questions -- because we've asked loads of questions, so we have loads to choose from... And some of them are -- like, you wonder if people are trolling, or joking. And sometimes the joke answers - enough people say it that it makes it onto the board as well, because... You know, it's quite funny, but... It's interesting to get into the minds of people, I think, a little bit...
 
 Speaking of that, we've got a couple of minutes... Steve, what have you been working on lately?
 
@@ -764,7 +764,7 @@ Thank you so much to everyone for joining this live feed, this game. A great tim
 
 **Natalie Pistunovich:** Bye!
 
-**Break:** \[00:46:44.28\]
+**Break:** \[46:44\]
 
 **Jerod Santo:** I feel like I only really screwed up probably the tech/innovation one, which was the number one answer nobody got... I almost gave it when Jon said "Go", because that would be focused on like the tech, but it was more broad... I was struggling.
 
@@ -940,7 +940,7 @@ Thank you so much to everyone for joining this live feed, this game. A great tim
 
 **Steve Francia:** Oh, we should have said "fun"!
 
-**Katie Hockman:** \[00:52:12.26\] I was so sure... And then when they said it, I was like, "We're done. We're done." I knew they had it. And then they didn't, and I was like...
+**Katie Hockman:** \[52:12\] I was so sure... And then when they said it, I was like, "We're done. We're done." I knew they had it. And then they didn't, and I was like...
 
 **Rob Findley:** Yeah, when Steve said said "fun"...
 
