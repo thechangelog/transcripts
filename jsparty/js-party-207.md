@@ -58,7 +58,7 @@ Amelia is here... What's up, Amelia?
 
 **Jerod Santo:** "Don't..." \[laughs\]
 
-**Kevin Ball:** In fact, I think it's almost for no one... Except \[unintelligible 00:05:43.03\]
+**Kevin Ball:** In fact, I think it's almost for no one... Except the zoo
 
 **Jerod Santo:** Well, you know, Kball, it represents a large minority of the JS Party panelists, so it is for... It's for JS Party people. Maybe you should check it out. \[laughter\]
 
@@ -98,7 +98,7 @@ Kball, your desire, your wish, your resolution for 2021 was to be able to do han
 
 **Kevin Ball:** Okay, here we go. Here we go.
 
-**Jerod Santo:** I think that's \[unintelligible 00:07:29.29\] punishment.
+**Jerod Santo:** I think that's ample punishment.
 
 **Amal Hussein:** Oh, my gosh...
 
@@ -304,7 +304,7 @@ Kball, your desire, your wish, your resolution for 2021 was to be able to do han
 
 **Jerod Santo:** So let's talk trends in 2022. What's going on, what we think will be going on as the year progresses. Divya, what are you thinking?
 
-**Divya:** It's interesting to see the JavaScript space sort of heating up specifically around, like, people vying for this JAMstack, or King of JAMstack role... Specifically seeing Netlify raise series D, Vercel raised series D around the same time... And then Vercel is also hiring a lot of people. And it sort of feels like the trend is moving away from just focusing on React and Next.js, because with Rich Harrison joining, and he owns Svelte, and \[unintelligible 00:16:39.21\] he joined as well... So there's a lot of heavy-hitters that they're hiring. It's interesting to see that, and I'm curious to see the progression and what that means for the space, and what they're cooking up at Vercel.
+**Divya:** It's interesting to see the JavaScript space sort of heating up specifically around, like, people vying for this JAMstack, or King of JAMstack role... Specifically seeing Netlify raise series D, Vercel raised series D around the same time... And then Vercel is also hiring a lot of people. And it sort of feels like the trend is moving away from just focusing on React and Next.js, because with Rich Harrison joining, and he owns Svelte, and Markbåge - is that how you say his name? I don't know how to say his name - he joined as well... So there's a lot of heavy-hitters that they're hiring. It's interesting to see that, and I'm curious to see the progression and what that means for the space, and what they're cooking up at Vercel.
 
 **Jerod Santo:** Do we think the hires are just gonna continue apace? Do you think they've gotten who they're looking for? Is it all open source people, or what's going on? You named two, but does anybody know anybody else, or...?
 
@@ -328,7 +328,7 @@ But yeah, okay... So Vercel plus -- I'm writing this down for next year's New Ye
 
 **Jerod Santo:** What's interesting about a company like Vercel, and Netlify etc. hiring open source developers - it's kind of like a shot in the arm; no pun intended... It's not a pun. No contemporary topic intended... \[laughter\] It's a shot in the arm to the amount of time and thought and effort that can go into the project, but then you're also wondering, like - there's a cynical me, or maybe more than just me, that's kind of like with Facebook and React... It's like, "Does Facebook's needs drive React's direction?" Does now Vercel's corporate needs potentially sully the waters of a Svelte.js, or of these other projects that these people they hire work on? What do you guys think about that? Chris, you have an arm in open source; what do you think about that?
 
-**Chris Hiller:** \[20:23\] Yeah, I think that's a concern. I think it's especially a concern with a company that's just taking on more and more VC funding as well. So yeah, you start to worry about things like \[unintelligible 00:20:32.27\] where you had this open source project that was permissively licensed... Whoops, now we're going to change the license, and now we're going to open core, and we're gonna strip out features, and just... The same thing that's happened time and time and time again.
+**Chris Hiller:** \[20:23\] Yeah, I think that's a concern. I think it's especially a concern with a company that's just taking on more and more VC funding as well. So yeah, you start to worry about things like a right's ratchet where you had this open source project that was permissively licensed... Whoops, now we're going to change the license, and now we're going to open core, and we're gonna strip out features, and just... The same thing that's happened time and time and time again.
 
 I think what's really frustrating to me is people don't -- they'll still reach for these projects. It's like, they think it's not gonna happen. They don't appreciate the risk of adopting an open source project like that... And yup, that's how things go. There's a lot of talk right now, obviously, about not being appreciative of the risk of adopting open source by companies, so...
 
@@ -354,7 +354,7 @@ So I just hope folks know what they're doing... I do think what's different abou
 
 **Amal Hussein:** So what's different is I think Vercel does have a clear strategy for how to make money. I think my personal question mark on this is second-tier cloud... Like, I think, what's to stop AWS or Google from spending one or two quarters to actually close the gap on whatever Vercel is offering as a value prop, right? So I'm just saying, there's risk there too, and best-case scenario is they're acquired, and the JavaScript community doesn't suffer as a result. And worst-case scenario is not great. So we're hoping the best...
 
-**Kevin Ball:** And one thing that I think is a little different in the Vercel case versus, say, an Npm case, is like, they're funding a wide range of open source projects and creators that all are projects that if people are using them, they'll probably also be interested in what Vercel has to offer... Whereas Npm was a single thing, and it was deeply integrated between the open source project they're funding and the product they're trying to sell. So I think they're pretty different scenarios. If Vercel goes under or is acquired, Rich Harris can go someplace else. He's not gonna have a problem, and Svelte isn't gonna necessarily have a problem. And they're kind of touching a lot of different things; they've been funding some of the key maintainers of Next.js for a while, now they're bringing in \[unintelligible 00:23:57.03\] on React, they're talking about Rich... I wouldn't be surprised if they bring in one of the core members from Nuxt, or something like that. They're kind of doing a diversified portfolio of helping fund innovation in this space, where people who are using that innovation are in their target customer audience.
+**Kevin Ball:** And one thing that I think is a little different in the Vercel case versus, say, an Npm case, is like, they're funding a wide range of open source projects and creators that all are projects that if people are using them, they'll probably also be interested in what Vercel has to offer... Whereas Npm was a single thing, and it was deeply integrated between the open source project they're funding and the product they're trying to sell. So I think they're pretty different scenarios. If Vercel goes under or is acquired, Rich Harris can go someplace else. He's not gonna have a problem, and Svelte isn't gonna necessarily have a problem. And they're kind of touching a lot of different things; they've been funding some of the key maintainers of Next.js for a while, now they're bringing in Seb who's been core on React, they're talking about Rich... I wouldn't be surprised if they bring in one of the core members from Nuxt, or something like that. They're kind of doing a diversified portfolio of helping fund innovation in this space, where people who are using that innovation are in their target customer audience.
 
 \[24:16\] So I don't think they get quite the same conflict of interest and single-focused "How do I monetize hang-ups?", though obviously if they went under, that would cause all sorts of problems, and the pressures of VC are very real.
 
@@ -364,7 +364,7 @@ So I just hope folks know what they're doing... I do think what's different abou
 
 **Jerod Santo:** No. No, no, now.
 
-**Amal Hussein:** Is this gonna be a Twitter controversy \[unintelligible 00:24:37.09\] so I apologize...
+**Amal Hussein:** Is this gonna be a Twitter controversy @ cluster so I apologize...
 
 **Jerod Santo:** No, no, no. That's not me. I'm over here thinking I could talk about this the entire show, but we need to keep the show rolling... Because this is very interesting to me, and I have more things to say about it, but I'm gonna hold them back.
 
@@ -388,7 +388,7 @@ And the other thing I'm really excited about is it feels like we're moving more 
 
 \[28:02\] So this is like no-code tools, and GUIs, more in that direction. It feels like we've solved a lot of these cases on the web, and like "How can we make it easier for new developers, or people who aren't developers, to build things?"
 
-**Jerod Santo:** Very cool. I'll just point out that we're 41 minutes in the recording and we've had our first drop of the term Metaverse, so... \[unintelligible 00:28:21.22\]
+**Jerod Santo:** Very cool. I'll just point out that we're 41 minutes in the recording and we've had our first drop of the term Metaverse, so... We made it quite a ways
 
 **Amelia Wattenberger:** My apologies...
 
@@ -506,7 +506,7 @@ My husband decided, just with all the stuff going on with Chrome -- he was so up
 
 **Amal Hussein:** Yeah. So it really sucks, but... Yeah.
 
-**Chris Hiller:** I do have another wish... I kind of don't wanna mention it, but it involves the something-chain... And I don't wanna mention the third version of the thing, but \[unintelligible 00:38:46.11\]
+**Chris Hiller:** I do have another wish... I kind of don't wanna mention it, but it involves the something-chain... And I don't wanna mention the third version of the thing, but that I would like to go away
 
 **Jerod Santo:** \[laughs\] Just like Beetlejuice, if you say it too many times it shows up, or what?
 
@@ -560,7 +560,7 @@ My husband decided, just with all the stuff going on with Chrome -- he was so up
 
 **Jerod Santo:** Let's talk personal goals, resolutions, call them whatever you like... Let's talk about where we are investing our time this year; what do we wanna learn, what do we wanna try, what do we wanna do? Kball, you're up first.
 
-**Kevin Ball:** Alright, so I sort of alluded to last year being a \[unintelligible 00:43:11.26\] also a mess for everyone... So this year, my goal is to get back to growing again, get back to positive, get back to moving forward. And a couple particular places I'm working on that or thinking about that - I wanna get back to writing much more regularly than I've been doing... So writing, focusing on that.
+**Kevin Ball:** Alright, so I sort of alluded to last year being a shot year, it was about recovery for me, and challenges. The year before taht was also a mess for everyone... So this year, my goal is to get back to growing again, get back to positive, get back to moving forward. And a couple particular places I'm working on that or thinking about that - I wanna get back to writing much more regularly than I've been doing... So writing, focusing on that.
 
 The other is investing in learning. Reading some new books in different areas. I'm taking a workshop -- I ran here from a workshop this morning, I'm super-excited, learning about how to better developer other developers. That's fun. But really, just investing in myself and actually looking forward again, rather than just "How do I survive today? How do I recover from the hell that's been the last couple of years?"
 
@@ -578,7 +578,7 @@ Moving forward, I'm excited to just challenge myself again, learn again... I'm h
 
 **Jerod Santo:** Awesome. Amelia.
 
-**Amelia Wattenberger:** So there's gonna be a bit of a common theme here... I'll start with my resolution this year, which was \[unintelligible 00:45:41.13\] My husband and I moved to DC in March 2020, and if you've checked the news since then, we didn't get to explore DC very much... So at the beginning of 2021 we were really excited to explore DC, and get to know the city. That didn't happen very much, so come this year, we're moving to the Bay Area in a few weeks, and I'm going to have the same fake resolution of getting to know the Bay Area, and hopefully it actually happens this time. Then I'll have an official low-bar resolution of being able to do one sit-up at the end of the year.
+**Amelia Wattenberger:** So there's gonna be a bit of a common theme here... I'll start with my resolution this year, which was informal, just looking back. My husband and I moved to DC in March 2020, and if you've checked the news since then, we didn't get to explore DC very much... So at the beginning of 2021 we were really excited to explore DC, and get to know the city. That didn't happen very much, so come this year, we're moving to the Bay Area in a few weeks, and I'm going to have the same fake resolution of getting to know the Bay Area, and hopefully it actually happens this time. Then I'll have an official low-bar resolution of being able to do one sit-up at the end of the year.
 
 **Jerod Santo:** So you'll do one more than Kball can do.
 
@@ -610,7 +610,7 @@ The blog is called Unrelated Thread, and right now I'm deciding between Unrelate
 
 **Kevin Ball:** \[48:06\] Wait, you're a developer launching a blog. What did you build it with?
 
-**Jerod Santo:** Yeah, \[unintelligible 00:48:08.27\]
+**Jerod Santo:** Yeah, when's your new blog engine going to launch?
 
 **Amal Hussein:** Yeah, it's a Netlify CMS, and just my own frontend... Very simple, nothing crazy, and I'm sure it'll get more and more refined. I'm trying to not have great get in the way of good, I guess. Does that make sense? But there's some really interesting things that I'm doing with this blog. I think it's cool; it's called Unrelated Thread for a reason, and you'll see it when it launches.
 
@@ -636,7 +636,7 @@ So writing and being more intentional about my community work, and just continui
 
 **Jerod Santo:** Guillermo Rauch... \[laughs\]
 
-**Amal Hussein:** Yeah, I think Sal Khan is my first choice, if I can get him; I have a few connections with him, so if I can convince him... But yeah, it's really just trying to bridge the gap; we have too big of a gap, and technology is just becoming too critical of a thing in everyone's lives for people to just handwave around it. And it's a sign of our success that so many people are able to use technology without understanding it... But still, people need to understand it. So this is just kind of like a \[unintelligible 00:50:41.14\] to try to at least marginally improve that. Shorten the gap, so to say...
+**Amal Hussein:** Yeah, I think Sal Khan is my first choice, if I can get him; I have a few connections with him, so if I can convince him... But yeah, it's really just trying to bridge the gap; we have too big of a gap, and technology is just becoming too critical of a thing in everyone's lives for people to just handwave around it. And it's a sign of our success that so many people are able to use technology without understanding it... But still, people need to understand it. So this is just kind of like a hurrah to try to at least marginally improve that. Shorten the gap, so to say...
 
 **Jerod Santo:** Very cool. Well, you did not disappoint in your ambitious goals for the year. I hope you accomplish all of them.
 
