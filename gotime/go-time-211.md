@@ -298,7 +298,7 @@ So team zero - it's Natalie, Steve and Julie. You are our first team, team zero.
 
 **Katie Hockman:** Everybody needs that... \[laughs\]
 
-**Mat Ryer:** Well \[unintelligible 00:19:21.05\]
+**Mat Ryer:** What are their programs?
 
 **Rob Findley:** You need to return...
 
@@ -364,7 +364,7 @@ So team zero - it's Natalie, Steve and Julie. You are our first team, team zero.
 
 **Mat Ryer:** So team zero is now on 82, team one is on 85. Let's reveal the rest of this board then. What was the most useful Go keyword? Number seven, people said "struct", five people said that. At number six was "select", with seven people. Number five is "interface", nine people said that. At number four, "for". Clue is in the number... Ten people said so. And defer was at number three, with 11 people, func in spot two, 18 people, and go at number one there, with 29 people.
 
-Wow, things are heating up here... 82 and 85 \[unintelligible 00:22:18.16\] Now we've built some tension... It's time to go to round four! Pam-param-pam-pam-pow! Right... What are we doing again...? What are we doing again? Okay, the next question... The best thing about the tech industry is - what? What is the best thing about the tech industry. And it's Natalie and Jon to go head to head... Jon, what's your guess? What's the best thing about the tech industry?
+Wow, things are heating up here... 82 and 85 it's not much in it is there? Now we've built some tension... It's time to go to round four! Pam-param-pam-pam-pow! Right... What are we doing again...? What are we doing again? Okay, the next question... The best thing about the tech industry is - what? What is the best thing about the tech industry. And it's Natalie and Jon to go head to head... Jon, what's your guess? What's the best thing about the tech industry?
 
 **Jon Calhoun:** The paycheck?
 
@@ -534,7 +534,7 @@ And Natalie - we're back around to you now. It's your turn to have a guess. What
 
 **Jon Calhoun:** So I'm assuming that if they voted the podcasts, that they would have filtered that one out, right? \[laughter\] Jerod wouldn't have let that fly.
 
-**Mat Ryer:** \[unintelligible 00:32:59.23\]
+**Mat Ryer:** Didn't take conferences out
 
 **Katie Hockman:** My idea is like Twitter, Reddit, Hacker News, that kind of -- like the social media aspect. What do you guys think?
 
@@ -776,7 +776,7 @@ Thank you so much to everyone for joining this live feed, this game. A great tim
 
 **Jerod Santo:** And I grouped it into like -- it was tough because there were so many... Like, "tech bros"... There were a lot of weird responses, so I kind of like put it in like the people and the culture. But when you said diversity specifically, I was kind of like "It would be too much of a mismatch with just the people." It was tough.
 
-**Katie Hockman:** Nah, that's fair. \[unintelligible 00:48:36.02\]
+**Katie Hockman:** Nah, that's fair. I'll allow it.
 
 **Jerod Santo:** That one was.
 
@@ -784,7 +784,7 @@ Thank you so much to everyone for joining this live feed, this game. A great tim
 
 **Jerod Santo:** Oh, those were -- that one I didn't do any grouping, because that was like the easiest one, right? Because you can actually just like "Group by" and the actual words were... So I didn't do any grouping of the words. But on the --
 
-**Mat Ryer:** Maybe we should \[unintelligible 00:48:53.04\] So you have to do it in your head live, but...
+**Mat Ryer:** Maybe we should like each question and then have a regex for the answer next time. So you have to do it in your head live, but...
 
 **Jerod Santo:** Just do the regex live and apply it?
 
@@ -822,11 +822,11 @@ Thank you so much to everyone for joining this live feed, this game. A great tim
 
 **Rob Findley:** Do you say gif or gif?
 
-**Katie Hockman:** I say \[unintelligible 00:49:39.23\] just to mess with people.
+**Katie Hockman:** I say gif just to mess with people.
 
 **Jerod Santo:** Do you say gif?
 
-**Katie Hockman:** \[unintelligible 00:49:40.22\] I switch.
+**Katie Hockman:** I say gif, I switch.
 
 **Jon Calhoun:** I mean, I get reg ex in the sense that it's regular expression, but...
 
@@ -838,9 +838,9 @@ Thank you so much to everyone for joining this live feed, this game. A great tim
 
 **Mat Ryer:** Yeah, it's hard to say. I just say regiular expressions... \[laughter\]
 
-**Jerod Santo:** This is funny, because \[unintelligible 00:50:01.10\]
+**Jerod Santo:** This is funny, because...
 
-**Natalie Pistunovich:** It sounds like \[unintelligible 00:50:01.27\] British.
+**Natalie Pistunovich:** It sounds like something you'd say in British.
 
 **Julie Qiu:** Do you say Lynux, too?
 
@@ -852,7 +852,7 @@ Thank you so much to everyone for joining this live feed, this game. A great tim
 
 **Natalie Pistunovich:** Oh...
 
-**Rob Findley:** Well, I thought it was based \[unintelligible 00:50:13.14\]
+**Rob Findley:** Well, I thought it was based off minux
 
 **Jerod Santo:** No, because Linus is actually on the record of saying "My name is Linus Torvalds and I call Linux Linux." \[Linus recording 00:50:22.20\] He recorded that audio and put it out there.
 
@@ -914,7 +914,7 @@ Thank you so much to everyone for joining this live feed, this game. A great tim
 
 **Rob Findley:** Yes.
 
-**Steve Francia:** Well, yes. \[unintelligible 00:51:30.19\]
+**Steve Francia:** Well, yes.
 
 **Jon Calhoun:** It's still cheating.
 
@@ -936,7 +936,7 @@ Thank you so much to everyone for joining this live feed, this game. A great tim
 
 **Rob Findley:** It was not there. I was surprised.
 
-**Katie Hockman:** I knew it was gonna be "fun". As soon as I said "fast", I was like, "I hope that \[unintelligible 00:52:03.26\] Because they said "fun" in a previous one, for a similar question. I was like, "They're gonna say it again." I thought "fun" was gonna be on the board 100%.
+**Katie Hockman:** I knew it was gonna be "fun". As soon as I said "fast", I was like, "I hope that can get fun" Because they said "fun" in a previous one, for a similar question. I was like, "They're gonna say it again." I thought "fun" was gonna be on the board 100%.
 
 **Steve Francia:** Oh, we should have said "fun"!
 
@@ -958,7 +958,7 @@ Thank you so much to everyone for joining this live feed, this game. A great tim
 
 **Steve Francia:** Oh, that'd be fun.
 
-**Mat Ryer:** And we'd be like \[unintelligible 00:52:33.15\] go backwards through everything, and we can get to that question again, and you can answer it differently, and we play it forward.
+**Mat Ryer:** And we'd be like \[reverse sound\] go backwards through everything, and we can get to that question again, and you can answer it differently, and we play it forward.
 
 **Jerod Santo:** Wow. Can we go back and erase that "verbosity" joke you did?
 
@@ -998,13 +998,13 @@ Thank you so much to everyone for joining this live feed, this game. A great tim
 
 **Rob Findley:** I think that's a good guess.
 
-**Mat Ryer:** And \[unintelligible 00:53:31.24\] Yeah, yeah. On keywords.
+**Mat Ryer:** Yeah, yeah. On keywords.
 
 **Jerod Santo:** Yeah, it actually was on the last time.
 
 **Steve Francia:** It was.
 
-**Mat Ryer:** \[unintelligible 00:53:37.16\]
+**Mat Ryer:** People bundle that in.
 
 **Jerod Santo:** So they were playing 4D chess. Was that you, Natalie? She was on the last time...
 
