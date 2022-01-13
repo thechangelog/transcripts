@@ -22,7 +22,7 @@ Amelia is here... What's up, Amelia?
 
 **Amal Hussein:** It's like, the air is better, world peace is a thing... It's amazing.
 
-**Jerod Santo:** Yes. We also have Kball with us. He is salsa-ing into the new year. What's up, Kball?
+**Jerod Santo:** Yes. We also have K-Ball with us. He is salsa-ing into the new year. What's up, K-Ball?
 
 **Kevin Ball:** Am I? I actually have not been out dancing in almost two years now, since March 2020. I'm gonna say "Hey, 2022, you can't possibly get worse... Right?!"
 
@@ -52,7 +52,7 @@ Amelia is here... What's up, Amelia?
 
 **Kevin Ball:** Don't.
 
-**Jerod Santo:** If you did, then we would just be -- go ahead, Kball...
+**Jerod Santo:** If you did, then we would just be -- go ahead, K-Ball...
 
 **Kevin Ball:** I'm just playing with you, Jerod... I was gonna say "Don't." It's not for everyone, I hear...
 
@@ -60,7 +60,7 @@ Amelia is here... What's up, Amelia?
 
 **Kevin Ball:** In fact, I think it's almost for no one... Except the zoo
 
-**Jerod Santo:** Well, you know, Kball, it represents a large minority of the JS Party panelists, so it is for... It's for JS Party people. Maybe you should check it out. \[laughter\]
+**Jerod Santo:** Well, you know, K-Ball, it represents a large minority of the JS Party panelists, so it is for... It's for JS Party people. Maybe you should check it out. \[laughter\]
 
 **Kevin Ball:** It's true. Actually, one of my co-workers is from Nebraska as well, and she knew you all from Nebraska JS, and things like that.
 
@@ -68,7 +68,7 @@ Amelia is here... What's up, Amelia?
 
 **Kevin Ball:** As previously stated, it's really not for many.
 
-**Jerod Santo:** It's not. Kball, did you ever imagine that you would be a Nebraska troll? Like, would that be part of your life? You're just like our biggest troll.
+**Jerod Santo:** It's not. K-Ball, did you ever imagine that you would be a Nebraska troll? Like, would that be part of your life? You're just like our biggest troll.
 
 **Kevin Ball:** \[laughs\] The real thing there is I'm a Nick and Jerod troll... So y'all are bringing Nebraska to the forefront in your commentary, and so then I become a Nebraska troll, I guess...
 
@@ -82,7 +82,7 @@ Amelia is here... What's up, Amelia?
 
 **Jerod Santo:** Well, come check us out. It's nice this time of year. Okay, let's get in the show. So this is our annual new year's show. If you listened to the last one, you will know that we finished it by making some resolutions. And it wouldn't be a resolution if we didn't fail at it wildly... And then hold each other's hands to the fire - or is it feet to the fire? I don't know. We're getting hot next to a fire because I'm bringing them back out and asking how everybody did on last year's resolutions.
 
-Kball, your desire, your wish, your resolution for 2021 was to be able to do handstand push-ups by the end of the year. How did you do?
+K-Ball, your desire, your wish, your resolution for 2021 was to be able to do ten handstand push-ups by the end of the year. How did you do?
 
 **Kevin Ball:** Failed miserably. Actually, I have no idea, because I haven't tried... \[laughter\]
 
@@ -470,7 +470,7 @@ So Rust makes sense. It makes sense to use a faster language to do those things.
 
 **Amal Hussein:** Pretty much, yeah. Let's use Napi.
 
-**Jerod Santo:** Kball! You're making me pull up my bleep button way too often in this episode. \[laughter\]
+**Jerod Santo:** K-Ball! You're making me pull up my bleep button way too often in this episode. \[laughter\]
 
 **Chris Hiller:** Yeah, you're swearing a blue streak over there, man...
 
@@ -558,15 +558,15 @@ My husband decided, just with all the stuff going on with Chrome -- he was so up
 
 **Break:** \[41:02\]
 
-**Jerod Santo:** Let's talk personal goals, resolutions, call them whatever you like... Let's talk about where we are investing our time this year; what do we wanna learn, what do we wanna try, what do we wanna do? Kball, you're up first.
+**Jerod Santo:** Let's talk personal goals, resolutions, call them whatever you like... Let's talk about where we are investing our time this year; what do we wanna learn, what do we wanna try, what do we wanna do? K-Ball, you're up first.
 
-**Kevin Ball:** Alright, so I sort of alluded to last year being a shot year, it was about recovery for me, and challenges. The year before taht was also a mess for everyone... So this year, my goal is to get back to growing again, get back to positive, get back to moving forward. And a couple particular places I'm working on that or thinking about that - I wanna get back to writing much more regularly than I've been doing... So writing, focusing on that.
+**Kevin Ball:** Alright, so I sort of alluded to last year being a shot year, it was about recovery for me, and challenges. The year before that was also a mess for everyone... So this year, my goal is to get back to growing again, get back to positive, get back to moving forward. And a couple particular places I'm working on that or thinking about that - I wanna get back to writing much more regularly than I've been doing... So writing, focusing on that.
 
-The other is investing in learning. Reading some new books in different areas. I'm taking a workshop -- I ran here from a workshop this morning, I'm super-excited, learning about how to better developer other developers. That's fun. But really, just investing in myself and actually looking forward again, rather than just "How do I survive today? How do I recover from the hell that's been the last couple of years?"
+The other is investing in learning. Reading some new books in different areas. I'm taking a workshop -- I ran here from a workshop this morning, I'm super-excited, learning about how to better develop other developers. That's fun. But really, just investing in myself and actually looking forward again, rather than just "How do I survive today? How do I recover from the hell that's been the last couple of years?"
 
 **Jerod Santo:** \[44:02\] Sounds good to me. Let's kick it over to Divya next. What are you thinking, Divya?
 
-**Divya:** So I'm looking forward to be excited about tech again, because I haven't been this year at all. I've been focusing a lot on my personal life and just getting myself together, and sort of similar to Kball, just surviving... And thriving.
+**Divya:** So I'm looking forward to be excited about tech again, because I haven't been this year at all. I've been focusing a lot on my personal life and just getting myself together, and sort of similar to K-Ball, just surviving... And thriving.
 
 So I think next year I really wanna thrive, and just -- I started a new job, I'm excited about that, I'm excited to learn again, and grow, and develop, and do something that's completely outside of my comfort zone... Because when you're dealing with stuff, you tend to just kind of stick to what is the status quo, so I think that's what I did for the last year.
 
@@ -580,11 +580,11 @@ Moving forward, I'm excited to just challenge myself again, learn again... I'm h
 
 **Amelia Wattenberger:** So there's gonna be a bit of a common theme here... I'll start with my resolution this year, which was informal, just looking back. My husband and I moved to DC in March 2020, and if you've checked the news since then, we didn't get to explore DC very much... So at the beginning of 2021 we were really excited to explore DC, and get to know the city. That didn't happen very much, so come this year, we're moving to the Bay Area in a few weeks, and I'm going to have the same fake resolution of getting to know the Bay Area, and hopefully it actually happens this time. Then I'll have an official low-bar resolution of being able to do one sit-up at the end of the year.
 
-**Jerod Santo:** So you'll do one more than Kball can do.
+**Jerod Santo:** So you'll do one more than K-Ball can do.
 
 **Kevin Ball:** Sit-ups?
 
-**Jerod Santo:** Just kidding, Kball.
+**Jerod Santo:** Just kidding, K-Ball.
 
 **Amelia Wattenberger:** Just a normal sit-up.
 
@@ -614,7 +614,7 @@ The blog is called Unrelated Thread, and right now I'm deciding between Unrelate
 
 **Amal Hussein:** Yeah, it's a Netlify CMS, and just my own frontend... Very simple, nothing crazy, and I'm sure it'll get more and more refined. I'm trying to not have great get in the way of good, I guess. Does that make sense? But there's some really interesting things that I'm doing with this blog. I think it's cool; it's called Unrelated Thread for a reason, and you'll see it when it launches.
 
-So there's that, and then the other thing is, again, just being more intentional about my community work, and being more -- kind of making more space for this. I know this is gonna sound crazy, but I've decided I'm writing a book. And it's not the type of book that you think... And in order to keep me accountable for reading this book, I'm hosting a series of monthly salons for the year of 2022. The salons are not actually for y'all, because the book that I'm writing is not for y'all, in the sense that -- I mean, you can read it, by all means, but it's a book about technology for non-technologists. I'm working to help bridge that gap, and there's some really interesting things that I'm hoping to do.
+So there's that, and then the other thing is, again, just being more intentional about my community work, and being more -- kind of making more space for this. I know this is gonna sound crazy, but I've decided I'm writing a book. And it's not the type of book that you think... And in order to keep me accountable for writing this book, I'm hosting a series of monthly salons for the year of 2022. The salons are not actually for y'all, because the book that I'm writing is not for y'all, in the sense that -- I mean, you can read it, by all means, but it's a book about technology for non-technologists. I'm working to help bridge that gap, and there's some really interesting things that I'm hoping to do.
 
 So writing and being more intentional about my community work, and just continuing on the themes that I think I've built in my personal life, over like being healthy, and trying to be more inward, and make more time for myself, and take care of my physical and mental health. I feel like I've gotten good at that, but I think getting better boundaries and managing that alongside work... You know, I'm absolutely a workaholic; it's not draining always, because I love my job, but I think it's important for me to have better boundaries, so I'm excited to try that as well.
 
