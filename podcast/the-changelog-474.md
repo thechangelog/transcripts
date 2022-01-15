@@ -22,7 +22,7 @@ So in the same afternoon I bought the domain name, put up the first blog post on
 
 **Jerod Santo:** Yeah.
 
-**Paul Orlando:** \[00:04:07.26\] So I didn't write on an existing blog of mine, or like a Medium post, or whatever... I had this thing, so it just became something I was kind of returning to. And the first few months I might have written every couple of weeks, whenever something interested me... Again, I was not trying to make this a big part of what I did, but kind of early on, maybe a couple months in, one of the posts that I wrote got to the top page of Hacker News, and that was the first time I had experienced that drug, that feeling... And it kind of encouraged me to keep going.
+**Paul Orlando:** \[04:07\] So I didn't write on an existing blog of mine, or like a Medium post, or whatever... I had this thing, so it just became something I was kind of returning to. And the first few months I might have written every couple of weeks, whenever something interested me... Again, I was not trying to make this a big part of what I did, but kind of early on, maybe a couple months in, one of the posts that I wrote got to the top page of Hacker News, and that was the first time I had experienced that drug, that feeling... And it kind of encouraged me to keep going.
 
 Long story short, I've written over a hundred of these articles on various unintended consequences topics, and things that have been -- it could be something in history, something in the news... But I'm really trying to educate myself, and along the way I've just discovered a bunch of other people seem to get some value out of it, too.
 
@@ -36,7 +36,7 @@ In our case, it was also a telecom-related business. What we ended up doing was 
 
 But getting to that point was this jumbled -- certainly not systematic process for us, where we had all these different ideas of how people were going to use it, and then were surprised in what ended up emerging, and what people were happy to pay for later on.
 
-\[00:07:52.22\] But I got interested in that process, like how founders figure things out, or often don't figure things out. I was in New York at the time, and I ended up visiting a bunch of startup accelerators, just to mentor, meet people, and kind of talk and (I guess) coach back then... And I realized I wanted to make that a bigger part of what I did.
+\[07:52\] But I got interested in that process, like how founders figure things out, or often don't figure things out. I was in New York at the time, and I ended up visiting a bunch of startup accelerators, just to mentor, meet people, and kind of talk and (I guess) coach back then... And I realized I wanted to make that a bigger part of what I did.
 
 New York back then - this is like 2011-2012... New York had probably ten startup accelerators, and I didn't think it made sense to try to start the 11th one... So I was looking for a new market to enter. And earlier in my career I had actually worked in Hong Kong, I had worked in China a lot, other parts of Asia... So I did a scouting trip, just to try to suss out, "Okay, maybe Hong Kong, or maybe some other location in Asia might be a good fit for something like a startup accelerator."
 
@@ -56,7 +56,7 @@ So Goodhart's Law is one that we have discussed on the podcast; I think it was l
 
 **Paul Orlando:** Yeah. He was -- I mean, there's so many variations of this. Everything from going back to universities in the U.K. hundreds of years ago, and how they were being measured when people were trying to, for the first time in history maybe, be quantitative about outcomes... You know, there's economic-focused versions of this...
 
-\[00:11:55.20\] I like this formulation, "When a measure becomes a target, it ceases to be a good measure." I think it's really easily understood. I certainly think there's like a crossover there to - you know, it could be software development, it could just be general business, economic background... I kind of further summarize this maybe, in saying that Goodhart's Law - it has origins in a couple of different places. One is that behavior change that occurs when people start trying to achieve a metric rather than a goal.
+\[11:55\] I like this formulation, "When a measure becomes a target, it ceases to be a good measure." I think it's really easily understood. I certainly think there's like a crossover there to - you know, it could be software development, it could just be general business, economic background... I kind of further summarize this maybe, in saying that Goodhart's Law - it has origins in a couple of different places. One is that behavior change that occurs when people start trying to achieve a metric rather than a goal.
 
 **Jerod Santo:** Right.
 
@@ -84,7 +84,7 @@ So we take these things, we try to get at these proxies, and we optimize for the
 
 **Paul Orlando:** And then you also don't have these scale effects. So if you do have a small society that makes bad choices, those outcomes are pretty local, and it doesn't spread globally. So most of the impact in the past was local, and in a highly connected world we kind of have to be a little more careful about some of the big actions we take, because they can lead to these really big unintended effects somewhere else.
 
-**Jerod Santo:** \[00:15:50.06\] Right. So there's a couple of exemplars for this. The common one in software that all developers innately or inherently understand is like if you use lines of code as a measurement for productivity, then you've just failed... Especially if you know that's the target. As soon as it's the target, you're like, "Oh, okay. I get paid per line of code." Every self-respecting developer knows how to optimize for that particular target, and that's not actually a good proxy for productive work. That's an obvious one.
+**Jerod Santo:** \[15:50\] Right. So there's a couple of exemplars for this. The common one in software that all developers innately or inherently understand is like if you use lines of code as a measurement for productivity, then you've just failed... Especially if you know that's the target. As soon as it's the target, you're like, "Oh, okay. I get paid per line of code." Every self-respecting developer knows how to optimize for that particular target, and that's not actually a good proxy for productive work. That's an obvious one.
 
 **Paul Orlando:** Right.
 
@@ -112,7 +112,7 @@ So we take these things, we try to get at these proxies, and we optimize for the
 
 **Paul Orlando:** So once you dig into it, you find the story is a little different than what's presented. And this is another unintended consequence, just like, say, something like a fast-moving news cycle... People are presented a ton of information; nobody has the time to really do the research, and as a result, the quality of the information that you're presented might be pretty low. It might also be hard for you to know that, unless you're like me, and willing to dive into one of these topics early in the morning...
 
-**Jerod Santo:** \[00:20:16.28\] Right.
+**Jerod Santo:** \[20:16\] Right.
 
 **Paul Orlando:** But you can't do that all the time, of course.
 
@@ -124,7 +124,7 @@ Modern era? You could have a newsletter that's paid, that has - whatever, a thou
 
 Yeah, so there's maybe a bit of nostalgia for those days a generation or two ago when it comes to reporting the news... Certainly, business models had a part in that change.
 
-**Break:** \[00:23:08.04\]
+**Break:** \[23:08\]
 
 **Jerod Santo:** Before we leave Goodhart's Law \[unintelligible 00:25:18.03\] let's hop to the Cobra Effect, because these two things are interrelated. This has to do with incentive structures and the design of incentive structures. Many of us are building these things, or maybe we're living inside of these things - with regards to social media, you mentioned that moment when you hit the Hacker News homepage, and you were incentivized to get back to number one again some day soon, as you felt that dopamine rush of having your words read by many people, and debated, and enjoyed, and maybe not enjoyed... All that comes alongside that, sometimes it's the best of times and the worst of times to get all that attention all at once... But this Cobra Effect - you've written about it a couple of times, and this is really the idea of... You know, sometimes your incentives systems go wildly haywire, sometimes because of Goodhart's Law, or for other reasons, they're just not well designed. Tell us the Cobra Effect, how it got its name... I think it's one of the best examples of how it can go wrong.
 
@@ -136,7 +136,7 @@ Yeah, so there's maybe a bit of nostalgia for those days a generation or two ago
 
 So to try to achieve that goal, they put up a bounty, and they say "Okay, I'm gonna pay a bounty if you show up with a cobra skin." And that's gonna get rid of the cobras, right? Then the story, of course, is - well, people discovered "Oh, so I should just raise cobras, and turn them in for the bounty, and raise more cobras, and turn them in..." And then the British realized what's happening, they eliminate the bounty, and everybody releases the cobras, and so you have a worse problem than you had before.
 
-\[00:28:03.06\] So this is the story... It has definitely happened in a couple other cases in history. So after that cobra story, the most famous one that there is history behind is also a colonial situation... So the French in Vietnam, in the late 1800's, I believe... So they discovered that rats were spreading plague, and that they were using the newly-built sewer system in different cities to travel around the city, and get into houses... And also, of course, houses that were occupied by the colonists themselves... So they set up this bounty to pay people to kill rats. And I can't think of a worse job than having to go into a sewer and hunt rats for a bounty. But that's what people were doing.
+\[28:03\] So this is the story... It has definitely happened in a couple other cases in history. So after that cobra story, the most famous one that there is history behind is also a colonial situation... So the French in Vietnam, in the late 1800's, I believe... So they discovered that rats were spreading plague, and that they were using the newly-built sewer system in different cities to travel around the city, and get into houses... And also, of course, houses that were occupied by the colonists themselves... So they set up this bounty to pay people to kill rats. And I can't think of a worse job than having to go into a sewer and hunt rats for a bounty. But that's what people were doing.
 
 Then at one point the French said, "You know, enough with the dead rats. I don't wanna collect these things. The tail is enough. Just show up with the tail, and I'll pay the bounty." So then what was discovered was people discovered rats running around with no tails...
 
@@ -150,7 +150,7 @@ For example - and I proposed "Here's a way that you might structure the actual c
 
 **Paul Orlando:** So the interesting thing that I've found - and this goes back to that Hacker News post, because this was one of the ones that got attention there... It was interesting to me, because some people had a little difficulty with that. They basically said "No, you don't get it. The whole story is that you cannot really control this, and that's just the way it is." And I agree, there's always gonna be something you didn't think about, but this example that I'm giving, of just work with the biology when you're constructing an animal-related reward system - if you at least do that, you at least avoid that most obvious of bad outcomes.
 
-\[00:32:11.17\] I'm sure you'll get something else, but at least avoid that most obvious one, rather than just throwing up your arms and saying "This is an unsolvable problem." So that's, again, just something that got me thinking, and how do you apply that elsewhere I think is a lot of fun.
+\[32:11\] I'm sure you'll get something else, but at least avoid that most obvious one, rather than just throwing up your arms and saying "This is an unsolvable problem." So that's, again, just something that got me thinking, and how do you apply that elsewhere I think is a lot of fun.
 
 **Jerod Santo:** Yeah, you wonder how far you can kick that can down the road, to the point where the can becomes not a big deal; it's fine. Because like you said, there is gonna be something else. It's almost like that old saying, "No good deed goes unpunished." It's like, "No good reward system goes ungamed." Someone's going to game you, and a lot of it is a cat and mouse circumstance, where you're just constantly changing the rules of the game, and then the adversarial people change the way they attack.
 
@@ -168,7 +168,7 @@ I've become fascinated with TikTok's algorithm. Not so much the app and the cont
 
 **Paul Orlando:** Right.
 
-**Jerod Santo:** \[00:35:54.00\] And then the other one - I forget what the other one is. There's just two factors. But their algorithm is so responsive that it almost evolves as I use it throughout a session. So people will game -- I'm more interested in what the algorithm is doing than the content, which maybe makes me a bad use case... But the point is, you will game your own system.
+**Jerod Santo:** \[35:54\] And then the other one - I forget what the other one is. There's just two factors. But their algorithm is so responsive that it almost evolves as I use it throughout a session. So people will game -- I'm more interested in what the algorithm is doing than the content, which maybe makes me a bad use case... But the point is, you will game your own system.
 
 And then roll it out to a few other people, and start to scale... So you don't have to just blast it and get that top-down, huge scale effect immediately. Scale it out in phases and iterate before you make a big mistake.
 
@@ -214,7 +214,7 @@ Yeah, there's often push-back there, because people want to think "Well, certain
 
 **Paul Orlando:** And I'm not sure if this was him or me, but... It must have been him; I don't think I would have thought of this, but...
 
-**Jerod Santo:** \[00:40:11.28\] \[laughs\]
+**Jerod Santo:** \[40:11\] \[laughs\]
 
 **Paul Orlando:** He was basically looking -- or somebody was looking at what would happen when a country or a city would change the side of the road that people drove on. So this happened famously in Sweden in the '60s, and Iceland... A number of different places went from driving on one side of the road to the other. So you would just think, "That's gotta be like complete chaos. Everybody is doing a mirror image of what they used to do..." And then the actual natural experiment that unfolded was - well, the place became safer for a while, because everybody is so careful about driving around. "Well, I've gotta make sure that I turn in a different way now, and I'm watching for traffic from a different direction."
 
@@ -228,7 +228,7 @@ There was a traffic engineer - Monderman I think was his name - who was designin
 
 **Paul Orlando:** That's it, yeah.
 
-**Break:** \[00:42:22.05\]
+**Break:** \[42:22\]
 
 **Jerod Santo:** So Garmin, the GPS maker, had an unintended consequence recently... Some downtime/outage... Do you wanna tell that story, and we'll get into some of these problems we have around dependencies?
 
@@ -262,7 +262,7 @@ So I felt like this was something that kind of connected to, if I remember right
 
 **Jerod Santo:** Engagements through the roof...
 
-**Paul Orlando:** \[00:48:10.10\] Yeah, engagement is through the roof, so we wanna boost these posts. And of course, it was doing like the opposite of what they wanted. So in this case, it was a much more modest financial reward for whoever the scammer was. I think it was only around $100,000 in Bitcoin that they ended up getting away with... But you have scams that can scale. So you can scale through a social network, like Twitter, or you have something like the Garmin ransomware situation, where I'm dependent upon this one piece of tech, and now I cannot do the thing that I need to do at this moment. Or now navigating for me is impossible, or it's really dangerous. So yeah, I like just bringing attention to these things.
+**Paul Orlando:** \[48:10\] Yeah, engagement is through the roof, so we wanna boost these posts. And of course, it was doing like the opposite of what they wanted. So in this case, it was a much more modest financial reward for whoever the scammer was. I think it was only around $100,000 in Bitcoin that they ended up getting away with... But you have scams that can scale. So you can scale through a social network, like Twitter, or you have something like the Garmin ransomware situation, where I'm dependent upon this one piece of tech, and now I cannot do the thing that I need to do at this moment. Or now navigating for me is impossible, or it's really dangerous. So yeah, I like just bringing attention to these things.
 
 For me, when I wrote them, I think I was calling back to some of the writing I did about autonomous vehicles, in both of these examples... If you don't mind, I'll loop in the thought on autonomous vehicles there.
 
@@ -296,7 +296,7 @@ And I started thinking - okay, so if I wanted to reverse things, what if I wante
 
 **Jerod Santo:** Yeah.
 
-**Paul Orlando:** \[00:52:12.02\] And ultimately - again, kind of going back to the Peltzman Effect, people who are in the cars, if they are really seeking danger, they're gonna remove themselves from the driving population, eventually. They'll be able to affect a handful of cars; they won't be able to effect a thousand cars, or a million cars. So you can't really scale up danger with individual humans. You can scale it up when you have more of a top-down system, or where you have fleets of cars that are communicating with each other, and doing all the things that AVs are supposed to be able to do, like ride really close to each other at higher speeds, and things like that.
+**Paul Orlando:** \[52:12\] And ultimately - again, kind of going back to the Peltzman Effect, people who are in the cars, if they are really seeking danger, they're gonna remove themselves from the driving population, eventually. They'll be able to affect a handful of cars; they won't be able to effect a thousand cars, or a million cars. So you can't really scale up danger with individual humans. You can scale it up when you have more of a top-down system, or where you have fleets of cars that are communicating with each other, and doing all the things that AVs are supposed to be able to do, like ride really close to each other at higher speeds, and things like that.
 
 **Jerod Santo:** Right.
 
@@ -316,7 +316,7 @@ This is actually a book that I didn't realize was popular with developers, becau
 
 **Jerod Santo:** I don't know that one.
 
-**Paul Orlando:** \[00:55:57.06\] ...where he talks about how do you design a city or even like a house around human behaviors. He says "If you optimize around cars, you're gonna get more cars." So with the AV discussion, you might say "You know, should we be designing for cars to be able to get around really quickly or safely? Or should we be designing places so that people can enjoy them the most, and get around?" And maybe actually doing things at a human scale, or at like a walking scale is actually good for parts of different neighborhoods.
+**Paul Orlando:** \[55:57\] ...where he talks about how do you design a city or even like a house around human behaviors. He says "If you optimize around cars, you're gonna get more cars." So with the AV discussion, you might say "You know, should we be designing for cars to be able to get around really quickly or safely? Or should we be designing places so that people can enjoy them the most, and get around?" And maybe actually doing things at a human scale, or at like a walking scale is actually good for parts of different neighborhoods.
 
 **Jerod Santo:** Right.
 
@@ -346,7 +346,7 @@ But yeah, removing the human completely I think is kind of closing the loop, or 
 
 **Paul Orlando:** Right.
 
-**Break:** \[00:59:58.17\]
+**Break:** \[59:58\]
 
 **Jerod Santo:** So the Garmin one is interesting because it's -- there's two aspects that interest me, both from like the consumer standpoint of like individual dependence... Like if you depend on a Garmin GPS, whether it's mission-critical, or you're out riding your mountain bike, and it was that time period when Garmin was down - your life is immediately affected. So there's that aspect.
 
