@@ -16,7 +16,7 @@
 
 So in the same afternoon I bought the domain name, put up the first blog post on like a WordPress site, which is why the domain is too very long and difficult to spell words, which I thought at the time was clever... And also a .es at the end to make it even --
 
-**Jerod Santo:** Right. Almost too clever \[unintelligible 00:03:43.11\]
+**Jerod Santo:** Right. Almost too clever perhaps.
 
 **Paul Orlando:** Yes, make it even more difficult. But that's literally how I got started, just kind of having this spark, and then just cranking out a first quick post about what some of those unintended consequences with the existence of a VoiceAI might be... And then I kind of had this thing.
 
@@ -32,7 +32,7 @@ I'm curious how your curiosity with this topic, and maybe your expertise -- you 
 
 **Paul Orlando:** Sure. So I've worked in tech my whole career; I have been just about always on the business side. I started out early on doing voice-over-IP work... This is a little before Skype was around, so it was about connecting telecom carriers to each other, and routing traffic differently... And that's certainly when I got a great appreciation for how, in that case telecom networks, can lead to these unusual outcomes. We can dive into that maybe later on, if it's a fit... But I had the experience also of starting a startup, and making - you know, not 100%, but maybe 90% of the possible mistakes in doing that... And just really getting interested in how people figure things out, and how things end up being differently than you expect.
 
-In our case, it was also a telecom-related business. What we ended up doing was connecting patients who were going through a serious health situation, connecting them to another patient, and that was part of their recovery process. So you get to talk to another person who has kind of gone through some difficult recovery, and we protect the patient privacy, and we would kind of push out whatever their doctor, or supporter \[unintelligible 00:07:24.27\] wanted afterwards. It could be a survey, it could be "Here's some health goals for you this next week."
+In our case, it was also a telecom-related business. What we ended up doing was connecting patients who were going through a serious health situation, connecting them to another patient, and that was part of their recovery process. So you get to talk to another person who has kind of gone through some difficult recovery, and we protect the patient privacy, and we would kind of push out whatever their doctor, or support group leader wanted afterwards. It could be a survey, it could be "Here's some health goals for you this next week."
 
 But getting to that point was this jumbled -- certainly not systematic process for us, where we had all these different ideas of how people were going to use it, and then were surprised in what ended up emerging, and what people were happy to pay for later on.
 
@@ -126,7 +126,7 @@ Yeah, so there's maybe a bit of nostalgia for those days a generation or two ago
 
 **Break:** \[23:08\]
 
-**Jerod Santo:** Before we leave Goodhart's Law \[unintelligible 00:25:18.03\] let's hop to the Cobra Effect, because these two things are interrelated. This has to do with incentive structures and the design of incentive structures. Many of us are building these things, or maybe we're living inside of these things - with regards to social media, you mentioned that moment when you hit the Hacker News homepage, and you were incentivized to get back to number one again some day soon, as you felt that dopamine rush of having your words read by many people, and debated, and enjoyed, and maybe not enjoyed... All that comes alongside that, sometimes it's the best of times and the worst of times to get all that attention all at once... But this Cobra Effect - you've written about it a couple of times, and this is really the idea of... You know, sometimes your incentives systems go wildly haywire, sometimes because of Goodhart's Law, or for other reasons, they're just not well designed. Tell us the Cobra Effect, how it got its name... I think it's one of the best examples of how it can go wrong.
+**Jerod Santo:** Before we leave Goodhart's Law -well- maybe just attaching heart to Goodhart's law, let's hop to the Cobra Effect, because these two things are interrelated. This has to do with incentive structures and the design of incentive structures. Many of us are building these things, or maybe we're living inside of these things - with regards to social media, you mentioned that moment when you hit the Hacker News homepage, and you were incentivized to get back to number one again some day soon, as you felt that dopamine rush of having your words read by many people, and debated, and enjoyed, and maybe not enjoyed... All that comes alongside that, sometimes it's the best of times and the worst of times to get all that attention all at once... But this Cobra Effect - you've written about it a couple of times, and this is really the idea of... You know, sometimes your incentives systems go wildly haywire, sometimes because of Goodhart's Law, or for other reasons, they're just not well designed. Tell us the Cobra Effect, how it got its name... I think it's one of the best examples of how it can go wrong.
 
 **Paul Orlando:** Sure. So the Cobra Effect - and this is also sometimes called "Adversarial Goodhart" or "perverse effects"... In other words, you're trying to improve some problem, and the actions that you take end up making it even worse than it was before. In other words, this requires people; so people are where the adversarial part comes in...
 
@@ -222,9 +222,9 @@ There was a traffic engineer - Monderman I think was his name - who was designin
 
 **Jerod Santo:** Pure chaos. \[laughs\]
 
-**Paul Orlando:** Well, but it actually was pretty safe. So in other words -- and I think even maybe getting rid of a curb, or something... So pedestrians who want to cross the street making eye contact with the driver, the driver seeing them, slowing down, and then they cross. So it seems like this would just be total chaos, and actually \[unintelligible 00:41:39.05\] pretty effective.
+**Paul Orlando:** Well, but it actually was pretty safe. So in other words -- and I think even maybe getting rid of a curb, or something... So pedestrians who want to cross the street making eye contact with the driver, the driver seeing them, slowing down, and then they cross. So it seems like this would just be total chaos, and actually in his rollouts it being pretty effective.
 
-**Jerod Santo:** That reminds me of a scene from the Mandalorian where they're commenting on the surprising lack of guardrails on walkways in Star Wars movies \[unintelligible 00:41:50.29\] It's so hazardous. You'd think that some safety council would be like "Let's put a handrail in." And I can't remember which episode it is, but they send a guy out to hit a thing along this chasm, and he's like "No guardrails? Come on, I'm not going out there..." And it's kind of like, "Well, actually, you're more safe, because you're really paying attention, and every step is crucial, knowing that this is dangerous."
+**Jerod Santo:** That reminds me of a scene from the Mandalorian where they're commenting on the surprising lack of guardrails on walkways in Star Wars movies. Where they finally got self-referential because there's no - it's so hazardous. You'd think that some safety council would be like "Let's put a handrail in." And I can't remember which episode it is, but they send a guy out to hit a thing along this chasm, and he's like "No guardrails? Come on, I'm not going out there..." And it's kind of like, "Well, actually, you're more safe, because you're really paying attention, and every step is crucial, knowing that this is dangerous."
 
 **Paul Orlando:** That's it, yeah.
 
@@ -268,7 +268,7 @@ For me, when I wrote them, I think I was calling back to some of the writing I d
 
 **Jerod Santo:** Please do. Yeah, go ahead.
 
-**Paul Orlando:** I've been writing on this topic even before I had this Unintended Consequences blog... But I remember a few years ago I saw a VC (I believe) tweet that he was using support for autonomous vehicles as kind of an intelligence test. In other words, if you do not support them, it's like, \[unintelligible 00:49:43.12\] because you don't understand how things can improve", and whatever.
+**Paul Orlando:** I've been writing on this topic even before I had this Unintended Consequences blog... But I remember a few years ago I saw a VC (I believe) tweet that he was using support for autonomous vehicles as kind of an intelligence test. In other words, if you do not support them, it's like, a mark against you. Because you don't understand how things can improve", and whatever.
 
 So I really started wondering about "Well, is that a good test?" first of all. Because I was failing the test. And it's not that I'm against AVs. I like the concept; I like the theory a lot. And I do not wanna be a proponent of 3,000 people a month in the U.S. alone dying in traffic accidents. I don't wanna say "No, let's maintain the status quo."
 
