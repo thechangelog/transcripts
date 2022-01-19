@@ -58,7 +58,15 @@
 
 **Mat Ryer:** Yes...
 
-**Mark Bates:** I'mma do my scouse accent which I can do really, really well, but every other word is a swear, so I don't think that would be appropriate... \[unintelligible 00:05:12.07\]
+**Mark Bates:** I'mma do my scouse accent which I can do really, really well, but every other word is a swear, so I don't think that would be appropriate...
+
+**Mat Ryer:** I think you should do it anyway mate I think it would be great
+
+**Mark Bates:** Aye Mate
+
+**Mat Ryer:** He's done it.
+
+**Mark Bates:** He's done the burgers and the murders
 
 **Mat Ryer:** Let me tell you about Gophers Say. Gophers Say is like family feud. Or in the U.K. it's called Family Fortunes, which is actually much nicer, I think. It's a bit like how we have The Great British Bake Off, which is like everyone's all nice and they help each other... And then you have the U.S. Master Chef, where they're like "I will destroy! I'm gonna make a soufflé. You will be wiped from the face of the Earth!"
 
@@ -790,7 +798,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Carlisia Thompson:** Ruby. Ruby will be beat that.
 
-**Johnny Boursiquot:** \[unintelligible 00:30:23.11\]
+**Johnny Boursiquot:** Brian's back, Brian is back.
 
 **Erik St. Martin:** It's like all the OG Gophers... \[laughs\]
 
@@ -822,7 +830,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Mat Ryer:** The answers are anonymous. We have to protect the identities of our sources.
 
-**Mark Bates:** I should hope so, because we might have to find them after this show and \[unintelligible 00:31:16.01\]
+**Mark Bates:** I should hope so, because we might have to find them after this show and have a...
 
 **Mat Ryer:** Exactly.
 
@@ -1000,7 +1008,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Carlisia Thompson:** It's gonna be Yaml.
 
-**Mat Ryer:** Let's see what was at number seven first... \[unintelligible 00:35:00.16\]
+**Mat Ryer:** Let's see what was at number seven first...
 
 **Carlisia Thompson:** Wow... Wow!
 
@@ -1208,7 +1216,7 @@ So this is to figure out who's gonna own the board... What is the least useful G
 
 **Mat Ryer:** Let's wait for Mark though.
 
-**Natalie Pistunovich:** I wrote it on paper, if that helps... I'm sorry for my bad handwriting, but here's the list. Maybe it's \[unintelligible 00:40:12.11\]
+**Natalie Pistunovich:** I wrote it on paper, if that helps... I'm sorry for my bad handwriting, but here's the list. Maybe it's also mirrored
 
 **Mark Bates:** I swear I asked somebody to put the list in Slack or Zoom earlier, so we can avoid this confusion... But anyway, it's my turn. So I'm gonna go with Goland.
 
