@@ -18,7 +18,7 @@
 
 **Angelica Hill:** Because everyone knows where the Microsoft studios are.
 
-**Sebastian Spaink:** \[00:03:58.23\] Enter Redmond, Washington.
+**Sebastian Spaink:** \[03:58\] Enter Redmond, Washington.
 
 **Natalie Pistunovich:** It's on the internet. \[laughter\]
 
@@ -82,7 +82,7 @@
 
 **Linus Lee:** Before I came to the conference I was talking to one of my co-workers and he asked me, "You're going to this GopherCon thing... What is GopherCon about?" I was like, "You know, it's for all the people who love gophers. We just talk about gophers for four days."
 
-**Natalie Pistunovich:** \[00:08:09.00\] Not showing off or anything, but here's the one from Singapore.
+**Natalie Pistunovich:** \[08:09\] Not showing off or anything, but here's the one from Singapore.
 
 **Angelica Hill:** I was gonna ask. That's what I was just about to ask; I was being like, "I've not seen that purple, and I want it."
 
@@ -102,7 +102,7 @@ One of the nice things about Go is that we value stability a lot, so if you writ
 
 **Sebastian Spaink:** Yeah, I guess I've had the good fortune of being able to work with Go now professionally for the past year, InfluxData, working on the Telegraf project. It's been fantastic. Because before that it was also just kind of dabbling with it, and just whenever I could, for projects. Technically, for a half year, I "professionally" worked with Go, but just because I was just doing it on a project that nobody else wanted to work on... But who knows what that ended up with. But now I'm doing it professionally with Telegraf, and it's been fantastic. An open source project written in Go... It's everything I could dream of as far as a career.
 
-**Break:** \[00:10:29.15\]
+**Break:** \[10:29\]
 
 **Natalie Pistunovich:** Speaking of career, Sebastian, would you like to tell us about your fun project in Go?
 
@@ -128,7 +128,7 @@ So they've got this whole thing called OctoPrint that helps monitor and remotely
 
 **Daniela Petruzalek:** I must say, I really admire anyone that can do 3D modeling. This is such a thing that my brain can't process. That's why when I go to my hobbies, I only do 2D things, because my brain just can't process a third dimension. I really admire that. Looking forward to seeing your talk, how it works.
 
-**Sebastian Spaink:** \[00:15:57.00\] Yeah. I did cheat and use Blender to make it sexier-looking than the spheres, but... Yeah, it's definitely my first thing I've ever 3D modeled before. Usually, I'm also just working on the 2D space; it's definitely more comfortable.
+**Sebastian Spaink:** \[15:57\] Yeah. I did cheat and use Blender to make it sexier-looking than the spheres, but... Yeah, it's definitely my first thing I've ever 3D modeled before. Usually, I'm also just working on the 2D space; it's definitely more comfortable.
 
 **Angelica Hill:** And did you use Go because it was the best language to do this, or because you write Go anyway, or did you think about using other languages, try it out, before settling on Go?
 
@@ -174,7 +174,7 @@ I mean, right, you could send your blender files, share those as well, but I fel
 
 **Daniela Petruzalek:** I had an interesting experience with that when I was writing some games. Also, you do a lot of guessing in terms of positioning things... So in the end, I ended up using Steve Francia's -- I don't remember now if it's Viper or Cobra; that library that helps load the configuration dynamically... So basically, every time I had something I need to set up a different thing on the screen, I used the dynamic configuration and it was reloading JSON files on the fly... And you just couldn't see anything, because the renderer was just updating the screen every single frame. I was just kind of automating my trial and error with dynamic configuration. I don't know if you thought about something... I'm not sure how fast is rendering, but in my case it was just one frame, so that was pretty fast.
 
-**Sebastian Spaink:** \[00:20:18.14\] Yeah, it was pretty quick in the sense that there was like -- I was using the Slicer program to get it to the 3D printed format, and I just... You can reload it in there. It felt pretty hacky, but -- yeah, I'm sorry; what were you gonna say?
+**Sebastian Spaink:** \[20:18\] Yeah, it was pretty quick in the sense that there was like -- I was using the Slicer program to get it to the 3D printed format, and I just... You can reload it in there. It felt pretty hacky, but -- yeah, I'm sorry; what were you gonna say?
 
 **Angelica Hill:** I was gonna say "Let's hear more." Let's go from 3D to 2D. Daniela, I would love to hear a little bit about -- you talked about some of your in-the-weeds, how you got it working, how you tested it... But what is your project, and how did it come to be? I would say \[unintelligible 00:20:44.08\] I have a very, very special place in my heart for this project, because when I was but a young gopher... Not even. When I was but a young newbie, dweeb, looking at the computer science world for a language that fit, I went to Gotham Go and saw you do your talk on this side project. And it got me so excited I went home and spent the entire weekend building it. And that was one of the main things; I was like, "This is my language. This is so fun. I'm ready. Let me be a gopher."
 
@@ -186,7 +186,7 @@ The whole idea of this project was to give the community something in terms of a
 
 **Angelica Hill:** Yeah. And I think the beauty of it is exactly what you've just said, that people who are learning Go, whether from another language, or completely it's their first language, you go through that phase you're like going through all the Go tutorials, and you're trying to do this little app, and you're trying to print Hello World... But then you hit this ceiling where you're like, "What do I do now? I know the basics. I wanna build something that feels like an accomplishment, that feels exciting, that feels like "Oh! This is something I wanna show my friends, show my family, and be like "Look, I can code now!"
 
-\[00:24:02.24\] And this is fun, it's colorful; as you say, it gives you that visual feedback, and it gives you, as a beginner, that feeling of accomplishment, and like "I did this. I've made it through that tutorial, and I accomplished this thing."
+\[24:02\] And this is fun, it's colorful; as you say, it gives you that visual feedback, and it gives you, as a beginner, that feeling of accomplishment, and like "I did this. I've made it through that tutorial, and I accomplished this thing."
 
 I think the beauty of how you framed it is that you've really paid attention to making sure it is truly step by step, and it really does guide everyone through why you made the decision, how you did it, you provided the code so that you can look through... I'm waiting for your next game to come out. What's going on...?! \[laughs\]
 
@@ -204,7 +204,7 @@ The problems come -- because Go is traditionally a systems language, it's not ve
 
 But overall, I think that you can do good games with Go, and even Ebiten - they are just recently publishing their first game on Nintendo Switch... So you can see, it can be used for real games, like real commercial games.
 
-**Break:** \[00:28:05.16\]
+**Break:** \[28:05\]
 
 **Natalie Pistunovich:** Daniela, I'm so very curious, as somebody who knows nothing about game development - when you say "gaming libraries", what kind of tools do they give you? What do you need in a gaming library?
 
@@ -226,7 +226,7 @@ But also, the whole part about game design, of how your game mechanics work, lik
 
 **Daniela Petruzalek:** I think that's a great idea.
 
-**Natalie Pistunovich:** \[00:32:10.15\] You know, you always feel paper cards in the hand, and once you'll feel more chunkier, reminding of like a phone, it will be very interesting. You'll have to pay more attention when you do that.
+**Natalie Pistunovich:** \[32:10\] You know, you always feel paper cards in the hand, and once you'll feel more chunkier, reminding of like a phone, it will be very interesting. You'll have to pay more attention when you do that.
 
 **Sebastian Spaink:** Revolutionary.
 
@@ -262,7 +262,7 @@ So the website is inspired by Go By Example, but it's a website for Ink that som
 
 **Linus Lee:** Right.
 
-**Sebastian Spaink:** \[00:36:05.04\] Would you see your language could be used for the same type of use, like writing scripts for AIs, or things like that?
+**Sebastian Spaink:** \[36:05\] Would you see your language could be used for the same type of use, like writing scripts for AIs, or things like that?
 
 **Linus Lee:** Yeah, that's a great question. So a lot of the domain of tool languages is actually fr embedding in other programs, and Lua is a great example of that. I think there's some specific things about Lua that make it really great for embedding in a game, specifically. The things that come to mind are -- Lua is a really small language, it's written in C, it's pretty readable, so it's fairly easy to embed in terms of just like the technical work involved, to embed it into another program.
 
@@ -290,7 +290,7 @@ If you have opinions on how Oak should work differently - I have my own opinions
 
 **Natalie Pistunovich:** Cool. Well, that's inspiring, and also gives us all ideas on what can we do in our free time. Okay, time for Unpopular Opinions.
 
-**Jingle:** \[00:40:27.22\] to \[00:40:43.21\]
+**Jingle:** \[40:27\] to \[40:43\]
 
 **Natalie Pistunovich:** Okay, so you know the rules... You have the stage to tell us what is your unpopular opinion. It does not have to be about your project, about tech, about anything at all. It can be about any theme. And we will then go and ask on Twitter to see if your unpopular opinion is really unpopular, or yes-popular. Linus, would you like to start?
 
