@@ -20,7 +20,7 @@
 
 **Ali Spittel:** Yeah. Yup. \[laughter\]
 
-**Shawn Wang:** \[00:04:05.09\] But I did the weird thing - I worked in currency derivatives in London, I had to do option pricing, and you have to use a functional programming language for that. My company used Haskell, so I did two years of production in Haskell before I was a developer...
+**Shawn Wang:** \[04:05\] But I did the weird thing - I worked in currency derivatives in London, I had to do option pricing, and you have to use a functional programming language for that. My company used Haskell, so I did two years of production in Haskell before I was a developer...
 
 **Nick Nisi:** Oh, wow.
 
@@ -38,7 +38,7 @@
 
 **Shawn Wang:** I think it also helps this whole thing become a bit less lonely. It's better to do it in a group and learn together, and you can actually help a lot of people who are just a little bit behind you. But you can even help people who are more knowledgeable and more advanced than you, because if you prove yourself to be a good co-worker or like a good foil for them to test their messaging, then it gets really helpful. I think that's something that has really benefitted my own career.
 
-\[00:08:03.23\] Something that I did, actually, was as I was going through Netlify and I was at AWS and I wrote this, I actually wrote down what I thought was missing from cloud... And that's how I've found Temporal, because I was like, "Let's list down the jobs to be done of the monolith that we lost when we broke everything apart into distributed cloud services." And then I've found that there's some things that were just not answered that well, and that's eventually how I made my way to Temporal - because I wrote a blog post, and they found me.
+\[08:03\] Something that I did, actually, was as I was going through Netlify and I was at AWS and I wrote this, I actually wrote down what I thought was missing from cloud... And that's how I've found Temporal, because I was like, "Let's list down the jobs to be done of the monolith that we lost when we broke everything apart into distributed cloud services." And then I've found that there's some things that were just not answered that well, and that's eventually how I made my way to Temporal - because I wrote a blog post, and they found me.
 
 **Nick Nisi:** Oh, wow. Nice. So there's immediate benefits from learning in public. That's great.
 
@@ -60,7 +60,7 @@ So I think there is a lot of growth, and I think the JAMstack movement was a big
 
 I think the main place I'll point people to is Chris Coyier's talk on "The All-Powerful Frontend Developer", and I was very lucky to be referenced in that, because I think he's really seeing that from \[unintelligible 00:12:04.11\] CSS-Tricks, where a lot of services are just catering more and more to frontend developers because of the JAMstack movement, because serverless makes things so much easier. And yeah, I think it's continuing to go.
 
-\[00:12:15.16\] I've actually been thinking more about like serverless as a business model, more than a technology. The main break in the mental model was actually at Amplify, when we started offering serverless containers. A lot of people are like, "Wait, what do you mean serverless containers?" I thought serverless was all about Lambda functions. And it really starts to flex a little bit on the meaning of serverless. You know, scale to zero, charge only for what you use, and having a very light deploy model. I think that idea of serverless is being stretched more and more. You're also seeing more and more companies adopt the concept of a serverless database, where you also don't have to provision some instance upfront. You just use it as much or as little as possible, and they charge you based on what you use. So that philosophy is much more of like a business model than a single specific technology.
+\[12:15\] I've actually been thinking more about like serverless as a business model, more than a technology. The main break in the mental model was actually at Amplify, when we started offering serverless containers. A lot of people are like, "Wait, what do you mean serverless containers?" I thought serverless was all about Lambda functions. And it really starts to flex a little bit on the meaning of serverless. You know, scale to zero, charge only for what you use, and having a very light deploy model. I think that idea of serverless is being stretched more and more. You're also seeing more and more companies adopt the concept of a serverless database, where you also don't have to provision some instance upfront. You just use it as much or as little as possible, and they charge you based on what you use. So that philosophy is much more of like a business model than a single specific technology.
 
 **Ali Spittel:** Yeah. I did a Twitter Space with the developer advocate for serverless at AWS, and they were talking about this as well... Serverless is really difficult to define; people think it functions as a service, but then there's also other serverless services too, like DynamoDB, or serverless databases that have some traction right now, like FaunaDB... So it goes far beyond that. So I think this is a really interesting conversation, of defining what \[unintelligible 00:13:35.14\]
 
@@ -80,7 +80,7 @@ So I've been thinking of pitching Temporal as "The single stateful service in yo
 
 **Nick Nisi:** Yeah.
 
-**Shawn Wang:** \[00:15:50.22\] ...because I think that is the best way to do this. I often talk about three different use cases. One of them is YouTube video processing. YouTube gets something ridiculous like 10,000 hours of video per hour... And then they have to break it down, they farm it out to a fleet of machines, and then they have to stitch things back together and post that upload up. That takes the span of minutes, but also the scale of this is also unimaginable.
+**Shawn Wang:** \[15:50\] ...because I think that is the best way to do this. I often talk about three different use cases. One of them is YouTube video processing. YouTube gets something ridiculous like 10,000 hours of video per hour... And then they have to break it down, they farm it out to a fleet of machines, and then they have to stitch things back together and post that upload up. That takes the span of minutes, but also the scale of this is also unimaginable.
 
 So how would you normally do that? You would write the logic, you would provision schedulers to continually check, like "Is the processing done? Is the processing done?" You would have to write a state machine somewhere to say "If this is in this state, then proceed to the next state, then proceed to the next state." And then don't forget logging. Because once you've done all that stateful stuff, you probably just did the very bare minimum as an MVP. Now you have to start logging the state transitions and how long things took.
 
@@ -108,7 +108,7 @@ But then product requirements do not stay stable. They just increase from there.
 
 The story I like to tell about this is that -- so this technology originated at Uber. If you imagine modeling the entire journey of Uber Eats, it's everything from matching pricing, to sending the driver to the restaurant, the restaurant handing it over, and then them dropping it off, and then rating, and tipping, and all that. All those little individual functions are individual teams of people and developers maintaining their own systems, and they all have to be orchestrated in one way. And that's only the happy path. What about cancelations, what about missed drivers, what about all that? So you need to be able to respond and create your systems in a maintainable fashion. So the complexity of this just starts to explode really quickly once you start considering anything complex.
 
-**Break:** \[00:20:20.07\]
+**Break:** \[20:20\]
 
 **Ali Spittel:** I love it when people give examples for things, because it makes it so, so tangible for the listeners... So thank you for that example. And I really do want to tie this back into the frontend though, just because our listeners are primarily JavaScript developers... So what would you say that this correlates to for them?
 
@@ -116,7 +116,7 @@ The story I like to tell about this is that -- so this technology originated at 
 
 Imagine in the days of jQuery's spaghetti code - you'd be wiring up handlers, and you'd be rendering out elements all over the page, and there'd be no organization, no event pooling, and ensuring of consistency. That's what React brought with the component model. And the real contracts actually that people don't really think about is that React's promise to you is that "Okay, you write things in our way, in our special way, which is that every UI is a pure function of data. And then you send it over to us. As a central, core team, we maintain React, the renderer and the reconciler, and then we'll make sure to commit it to your DOM and write it all for you." So each developer only handles the components, but they don't handle the core React rendering engine. You would never want to build that yourself. You just kind of trust the React core team to do it. And that's a bargain; you sort of lose control to them, but in exchange you get much more predictability and you get an ecosystem that you can build on top of, because you now know a very tight contract between yourself and the central framework.
 
-\[00:23:56.25\] And what's amazing is that when I started exploring the backend space, this doesn't exist for the backend. Everyone's rolling their own, with queues, and databases, and all sorts of frameworks to do that.
+\[23:56\] And what's amazing is that when I started exploring the backend space, this doesn't exist for the backend. Everyone's rolling their own, with queues, and databases, and all sorts of frameworks to do that.
 
 **Nick Nisi:** Sounds familiar...
 
@@ -136,7 +136,7 @@ We handle the retries, we handle the state which every request is going, and we 
 
 Imagine if you're a product engineer and -- I don't care if you're a frontend or a backend developer, but let's say you're a frontend developer and you've been recently empowered by all the fun serverless functions that have been available to you... And you're tasked to do a one-click purchase. If you have an e-commerce experience, typically if a customer buys something, they typically add to cart, and then they go to the cart and then they check out. But it turns out that if you switch everything to a one-click buy experience, purchase rates/checkouts increase by 70%, because the cart abandonment rates are 70% as well. People check things into a cart and then they never buy it. So you'd much rather actually frontload that experience.
 
-\[00:28:04.29\] But just that reversal from changing the experience from a synchronous experience, like a request/response, set a state and that's it, to an asynchronous experience, which is set a state, and then also set a timer for that to expire, so that when the timer expires, the one-click buy goes through - that actually is a hurdle; it's extra-friction, right? You have to add extra infrastructure, like a timer, and you have to make sure that it's well-maintained with the rest of your system. And that's only like the most basic requirement. There's a lot of that as well.
+\[28:04\] But just that reversal from changing the experience from a synchronous experience, like a request/response, set a state and that's it, to an asynchronous experience, which is set a state, and then also set a timer for that to expire, so that when the timer expires, the one-click buy goes through - that actually is a hurdle; it's extra-friction, right? You have to add extra infrastructure, like a timer, and you have to make sure that it's well-maintained with the rest of your system. And that's only like the most basic requirement. There's a lot of that as well.
 
 So what I'm most interested in is the increase in developer velocity from this when you don't have to provision this anymore, and you can just kind of play with "Well, what if we made this asynchronous? What if we made this long-running?" It doesn't matter, right? You stop having to prevent yourself from trying all these things out, because they often turn out to be a better user experience.
 
@@ -166,7 +166,7 @@ So what I'm most interested in is the increase in developer velocity from this w
 
 But the other thing that I'm also very curious on is versioning... Because these things are long-running, which means that you're probably going to have stuff in flight when you wanna roll out updates and changes. So do you have a framework or format for doing that? Most people don't. Most people when they hand-roll their own systems, they just kind of cut over to the next thing and hope stuff works, and they get very nervous. Well, with us, because we are event-sourced, we can actually take the entire history of things that are currently running and just replay it on your new code, and make sure that nothing's broken. If there is stuff that's broken, you mark out the parts that are branched, and you can keep old code running while new code is being forced on a different branch. So that's just a really nice and neat way to organize migrations.
 
-**Nick Nisi:** \[00:32:02.23\] Mm-hm. Is this like an analogy to git rebase?
+**Nick Nisi:** \[32:02\] Mm-hm. Is this like an analogy to git rebase?
 
 **Shawn Wang:** Oh, yeah. Yeah. Very much so.
 
@@ -200,15 +200,15 @@ Analytics engine - people have dedicated tons of years to storing, calling their
 
 **Shawn Wang:** Oh, yeah. The origin actually goes back to AWS, actually... So our CEO was the tech lead for what became AWS SQS. This is old school. \[laughs\] This is like 15 years ago. And then a tech lead for AWS Simple Workflow Service, which is kind of like the predecessor to AWS Step Functions, which most people know today. And then \[unintelligible 00:36:01.18\] left to eventually wind up at Uber, where they created an open source version of this for Uber's needs... So it runs everything from like a lot of Uber Eats, to Uber's driver onboarding.
 
-\[00:36:13.29\] Imagine when you onboard a driver you have to go check things like their criminal background, their driving record, whatever. 17 things need to be true before you say "Alright, I'll proceed to the next step." Imagine if you could write all of that in a single function and say "Alright, just block until all these things are true. And then continue -- just let me know when it's freed up." It's a very nice programming model for that.
+\[36:13\] Imagine when you onboard a driver you have to go check things like their criminal background, their driving record, whatever. 17 things need to be true before you say "Alright, I'll proceed to the next step." Imagine if you could write all of that in a single function and say "Alright, just block until all these things are true. And then continue -- just let me know when it's freed up." It's a very nice programming model for that.
 
-So they open-sourced it at Uber four years ago, and then it got a lot of traction at places like Airbnb and Stripe and Netflix, all of whom have been public -- even HashiCorp as well... And Mitchell Hashimoto is one of our advisors. One of the fun things that he said, which I really loved, was that if Temporal didn't exist, then he would have had to write it. So I think we kind of scooped one from HashiCorp, which is pretty fun.
+So they open sourced it at Uber four years ago, and then it got a lot of traction at places like Airbnb and Stripe and Netflix, all of whom have been public -- even HashiCorp as well... And Mitchell Hashimoto is one of our advisors. One of the fun things that he said, which I really loved, was that if Temporal didn't exist, then he would have had to write it. So I think we kind of scooped one from HashiCorp, which is pretty fun.
 
 **Nick Nisi:** Yeah, that's great.
 
 **Shawn Wang:** Yeah, so the company is two years old, and hopefully it's an open source project that is continuing to grow, and hopefully the commercial cloud offering can grow along with it.
 
-**Break:** \[00:37:06.09\]
+**Break:** \[37:06\]
 
 **Nick Nisi:** Alright, so you joined Temporal and began working, and your position there - is it head of developer experience, or...?
 
@@ -224,7 +224,7 @@ So I wanted to approach this job with a more holistic view of what developer exp
 
 **Nick Nisi:** Nice. I assume that that is a very important role, specifically for a company like Temporal, where developers are really the clients or the customers of the product. Does it differ, I guess, if -- or is there also an analogy for internal developer experience, or...?
 
-**Shawn Wang:** \[00:40:06.21\] Yes. I have not been involved as much, but definitely, the other half of developer experience, which I don't really mess with, is internal developer experience. The model for this though which I like is from Netflix actually, which invests a lot in their developer productivity tools... And their three big buckets, I think -- it's pretty interesting; it basically covers the lifecycle of software development, if you slim it down a lot. That's kind of how it looks like.
+**Shawn Wang:** \[40:06\] Yes. I have not been involved as much, but definitely, the other half of developer experience, which I don't really mess with, is internal developer experience. The model for this though which I like is from Netflix actually, which invests a lot in their developer productivity tools... And their three big buckets, I think -- it's pretty interesting; it basically covers the lifecycle of software development, if you slim it down a lot. That's kind of how it looks like.
 
 So how long does it take to set up? There's a lot of developer environment bootstrapping tools from -- I think Shopify has one, I think Spotify... I think Spotify, not Shopify; whatever. \[laughs\] And Netflix also has one. They have a cool codename for it, I don't remember what it is.
 
@@ -244,7 +244,7 @@ Stuff like that, getting really involved in API design and product design to mak
 
 By the way, no amount of developer advocates can overcome bad docs. You do wanna sort of get that in that first circle, as well. The second circle of this \[unintelligible 00:43:26.01\] community. The really engaged users that help people go up the ramp... Because there's only so much of introductory material and workshops and blog posts and talks that you can do... And once they get past that initial stage, there's often a big lack of content. So you wanna really think about that end-to-end developer experience, you have to provide a community where they can ask and answer questions... But even more than that, start to really build a reputation.
 
-\[00:43:53.16\] They come to this community for answers about that general field. Sometimes I really like this area to be about category creation. A lot of companies' forums are just glorified support channels, and that's not really inspiring to hang out in. But if that's the place where you talk about news and talk about "Hey, there's this interesting paper that came out. Let's talk about it", then it becomes a real community.
+\[43:53\] They come to this community for answers about that general field. Sometimes I really like this area to be about category creation. A lot of companies' forums are just glorified support channels, and that's not really inspiring to hang out in. But if that's the place where you talk about news and talk about "Hey, there's this interesting paper that came out. Let's talk about it", then it becomes a real community.
 
 For me, the litmus test of whether or not it's a community versus a support forum is "Do you expect your relationship with this company to outlast your current employer?" The other metric is like "Is it many-to-many, or is it employees-to-people?" Once you have a kind of self-sustaining many-to-many connection, I think that's a really good community, and that enhances the experience, because people can really connect and get help and get things going and collaborate.
 
@@ -264,7 +264,7 @@ So I think maybe the analogy is a bit like farming - you make the first \[uninte
 
 **Ali Spittel:** My biggest thing that I really enforced with my team is friction logs. Every time we're building something with the product, it's like, \[unintelligible 00:47:28.19\] is good, yellow is "It could use some work", red is "I didn't work for this. I would be quitting right now." And making sure that that's seen and prioritized by the product owners, whether that's the engineering manager, or the PM, or whoever, making sure that there's buy-in for improving the developer experience, especially if you are a developer experience product, which a lot of us who are building stuff for developers - we are that. So... That's my two cents.
 
-**Shawn Wang:** \[00:47:59.04\] Yeah. Have you heard of the Kubernetes Empathy Sessions that Kelsey Hightower used to run? So he actually promised to write about those and then never did... I've been dying to learn how he did it, and what it's like to run one... Because a lot of the times people just don't wanna do it, or you feel like it's an imposition on their existing roadmap, which is like "They already have stuff to do. Why are you adding more for them to do?"
+**Shawn Wang:** \[47:59\] Yeah. Have you heard of the Kubernetes Empathy Sessions that Kelsey Hightower used to run? So he actually promised to write about those and then never did... I've been dying to learn how he did it, and what it's like to run one... Because a lot of the times people just don't wanna do it, or you feel like it's an imposition on their existing roadmap, which is like "They already have stuff to do. Why are you adding more for them to do?"
 
 But it is true that a lot of teams who build developer tools, if you put them in a room and you give them two hours to use their own docs, they couldn't actually get it running. \[laughs\] And that's very motivating, I think, if you can manage to get it working.
 
@@ -286,7 +286,7 @@ At Netlify I never knew what the paying experience was like, I never knew the fe
 
 Even recently, actually, Corey Quinn had an interesting point about AWS - all AWS employees do not log into AWS the same way that most AWS customers do. We use Isengard. Ali, you know this... \[laughs\] Isengard is great for AWS employees, but we don't experience the same pain, because we don't dogfood. And maybe dev rel or dev experience people should dogfood in exactly the same way. Like, straight up give people a Brex, with a separate credit card. And put it on that Brex. But have them worry about, "Hey, this thing costs way more than I thought.' Or "I don't understand this billing statement. How come it's so hard to identify the components of it."
 
-\[00:52:21.10\] Or even for me at Netlify, my eternal complaint was we went from a sear-based model where it's very predictable, to seven different dimensions of pricing, and you needed an Excel sheet to price it. I was like, "Wait, this is necessary usage-based billing is important, but how do we communicate this? Are enough people at the company feeling this?", so that there is a cost to adding more and more complexity.
+\[52:21\] Or even for me at Netlify, my eternal complaint was we went from a sear-based model where it's very predictable, to seven different dimensions of pricing, and you needed an Excel sheet to price it. I was like, "Wait, this is necessary usage-based billing is important, but how do we communicate this? Are enough people at the company feeling this?", so that there is a cost to adding more and more complexity.
 
 **Ali Spittel:** Yeah, I appreciate that I still all my AWS account billing alerts, even though it's expense for me... But I still get that email every single month, that is like, "Hey, you spent seven dollars this month", which I think is kind of funny that it's like that. Usually, the services that I'm spinning up, like an EC2 instance instead of the service that I actually work on, but...
 
@@ -332,6 +332,6 @@ It's pretty funny, because I always thought that it would not happen, actually. 
 
 **Ali Spittel:** Thank you so much.
 
-**Outro:** \[00:56:46.21\]
+**Outro:** \[56:46\]
 
 **Horse JS:** The web is the only modern programming platform.
