@@ -8,7 +8,7 @@
 
 **Adam Stacoviak:** Metaphysics, you've got interstellar physics, you've got all sorts of different stuff you're looking at when it comes to that... But I think planets, the planet idea totally makes sense for what you're doing with PlanetScale. When I've talked to many different entrepreneurs here on this show, the big issue tends to be the database, at some point. You might start someplace, and pick something off the shelf that works, or maybe you don't put a lot of thought into it, and I think over time the entrepreneur and developer's interaction with software creation and product development is evolving and maturing... But you tend to begin somewhere that is developer friendly, easy to deploy, easy(ish) to manager, for the most part, and then hopefully provides the end experience that your customers need and want...
 
-\[00:04:08.08\] But I think what happens at today's scale from, say, a startup to a company like whomever, that will eventually IPO - somewhere along that road you hit some major bumps, typically in the database part. So that's what PlanetScale is trying to do, to solve that big problem. How did you become involved in PlanetScale? What's your journey to here?
+\[04:08\] But I think what happens at today's scale from, say, a startup to a company like whomever, that will eventually IPO - somewhere along that road you hit some major bumps, typically in the database part. So that's what PlanetScale is trying to do, to solve that big problem. How did you become involved in PlanetScale? What's your journey to here?
 
 **Sam Lambert:** So exactly what you said completely resonates with me, and I've lived through it a couple of times... And it's also very much the journey that our customers have been through. So every day, multiple times a day, we speak to engineers or founders and people that are scaling their business, and they picked the database that was right for day one, which is exactly what you should do... Pre-optimizing too much for a future that you may not even earn is unwise. You shouldn't do it. You've gotta build for today, get that first user, get the first ten, a hundred, a thousand, ten thousand, a million, and maybe even a billion if you're very lucky.
 
@@ -30,7 +30,7 @@ Eventually, I ended up being lucky enough to run the infrastructure team at GitH
 
 **Adam Stacoviak:** Twitter...
 
-**Sam Lambert:** \[00:08:00.13\] Twitter... Yeah. The list is like, you shard your database eventually. You horizontally scale. You're very soon in your journey, and now even quicker in most startups because of the way everything is accelerating... You out-live what a single box can do. And then having a master box and replicas - that falls down eventually as well. So you eventually get to sharding, and that is a very hard problem to solve. Just very difficult. And we were stuck between this "Well, we're scaling... Do we do it ourselves?" And just at the right time, Vitess came along. It was a sharding solution based on MySQL, that had been proven at massive scale. So Vitess was the database layer for YouTube, and it ran across 20 data centers, up 70,000 nodes... Just this huge database cluster. And they were all presented as a single application as well, which was very handy for us, because GitHub was a Rails app, and we didn't wanna make things extremely complex, and we didn't wanna push out sharding logic in the app... We wanted something that was fairly transparent, so we discovered this technology. And you know, the team loved it... We had a great database team at GitHub; they loved it, they saw the value... So I met with the founders and I asked if I could invest in the company, because I thought \[unintelligible 00:09:20.04\] So I did. Then I was advising for the company for a little while.
+**Sam Lambert:** \[08:00\] Twitter... Yeah. The list is like, you shard your database eventually. You horizontally scale. You're very soon in your journey, and now even quicker in most startups because of the way everything is accelerating... You out-live what a single box can do. And then having a master box and replicas - that falls down eventually as well. So you eventually get to sharding, and that is a very hard problem to solve. Just very difficult. And we were stuck between this "Well, we're scaling... Do we do it ourselves?" And just at the right time, Vitess came along. It was a sharding solution based on MySQL, that had been proven at massive scale. So Vitess was the database layer for YouTube, and it ran across 20 data centers, up 70,000 nodes... Just this huge database cluster. And they were all presented as a single application as well, which was very handy for us, because GitHub was a Rails app, and we didn't wanna make things extremely complex, and we didn't wanna push out sharding logic in the app... We wanted something that was fairly transparent, so we discovered this technology. And you know, the team loved it... We had a great database team at GitHub; they loved it, they saw the value... So I met with the founders and I asked if I could invest in the company, because I thought \[unintelligible 00:09:20.04\] So I did. Then I was advising for the company for a little while.
 
 Then I was thinking about what I wanted to do next, and I thought if you have -- you know, after being through the GitHub journey and seeing the power that developers bring, and what phenomenal audience they are to build for and build with, I thought "If we can take this extremely powerful backend technology and deliver it so that we are that first database..." Right now, it's like a trade-off at either end of the spectrum. You don't pick the large-scale, hard to implement, hard to learn technologies. You do that later on in your journey, when it's appropriate, when you have loads of money and you can hire loads of engineers.
 
@@ -56,7 +56,7 @@ I think there was need, there was demand... There was a miss, a massive miss in 
 
 **Sam Lambert:** Postgres has been around ages... And this is not bad stuff. This is good. This is maturity; this is what you want from your database. It can't be being risky. So building on those solid foundations, but with an eye for the beauty, and the eye for this great experience is really what we're here to do, and it's been amazing so far.
 
-**Adam Stacoviak:** \[00:12:08.05\] PlanetScale as a company is, from my estimation, at least four years old, right?
+**Adam Stacoviak:** \[12:08\] PlanetScale as a company is, from my estimation, at least four years old, right?
 
 **Sam Lambert:** Three.
 
@@ -106,7 +106,7 @@ And let me just say real quick - this is not an ad for The Frame - I love the TV
 
 **Adam Stacoviak:** Oh, yeah.
 
-**Sam Lambert:** \[00:15:47.22\] It's also the biggest education platform in the world. So anyway, YouTube is booming, and now they're in the billions of users scale. And they're of course running MySQL, because MySQL is just ubiquitous in the very large website space, and they had to come up with a solution for scaling it. And actually Sugu, our co-founder, he did a really good talk at Prisma's Serverless Data Conf that happened last week, and I really recommend checking that out. He tells the story and goes into the story of how we did this with Vitess.
+**Sam Lambert:** \[15:47\] It's also the biggest education platform in the world. So anyway, YouTube is booming, and now they're in the billions of users scale. And they're of course running MySQL, because MySQL is just ubiquitous in the very large website space, and they had to come up with a solution for scaling it. And actually Sugu, our co-founder, he did a really good talk at Prisma's Serverless Data Conf that happened last week, and I really recommend checking that out. He tells the story and goes into the story of how we did this with Vitess.
 
 So Vitess was born on Borg. People may know Borg as the predecessor to Kubernetes. Kubernetes is kind of architecturally based on Borg, which is this very, very large container runtime system that powers pretty much all of Google. Some of the core tenets of Borg are "No real persistence." Like, if you lose a node, it's gone; it's never coming back. So they had to orchestrate and run MySQL on this environment, so they needed to build this orchestration and sharding system to do this, and that's how they built Vitess. And it was built very pragmatically, and in fact, it was also one of the earliest Go projects. People don't realize this, but Vitess was running on Go from such incredibly early day... And the Go team, actually, when this History of Go article came out a while back, they called out our co-founders as a thank you, because them building Vitess - and Vitess is one of the largest Go applications out there - really helped actually Go evolve, and they gave lots of feedback.
 
@@ -114,13 +114,13 @@ So it was very interesting... Vitess was born at this incredible moment of time 
 
 There's something special when you're building a technology to serve a single website, and then you have to deploy this technology over and over again, with continual load, that means you're kind of born in the fire. When they deployed Vitess, if it had a bug, with a billion users, you discover that immensely quickly. And that is another challenge if you're building a database from the ground-up. It's a hard thing to do without that immediate demand. You're not always deploying into your customers' environments. You're not always debugging it. So Vitess had a really smart team of engineers building it for a very long time, with the demands of an extremely rapidly growing website, and I think all of those things together made a very powerful and resilient system.
 
-So when they decided to open-source it - and it is truly open source; it's out there for everybody to use, modify, do whatever, host themselves if they feel free... They signed it over to the CNCF, so it's kind of neutralized/neutral, and they've basically put it out there, and other companies started to adopt it, Slack being one of those very early adopters. And Slack have blogged about Vitess, and how they use Vitess, and it's their main database... Just, again, giant scale, and thank you to Slack and their fantastic engineers that have continued to commit to Vitess and make modifications and improve it based on their needs.
+So when they decided to open source it - and it is truly open source; it's out there for everybody to use, modify, do whatever, host themselves if they feel free... They signed it over to the CNCF, so it's kind of neutralized/neutral, and they've basically put it out there, and other companies started to adopt it, Slack being one of those very early adopters. And Slack have blogged about Vitess, and how they use Vitess, and it's their main database... Just, again, giant scale, and thank you to Slack and their fantastic engineers that have continued to commit to Vitess and make modifications and improve it based on their needs.
 
 If you look at the commit history and if you look at the contributors to Vitess, it is just a litany of some of the biggest sites in the world, or platforms in the world. So this base of people that run the software and improve it and continue to make it better means that we have very -- like, we talk about standing on the shoulders of giants... These are giant giants.
 
 And that's the history of Vitess. We started using it at GitHub, it's been fantastic, and that's how I came in contact with it.
 
-\[00:20:01.07\] It's beautiful in the sense that it's wonderful to see all these companies collaborating... This is a game I play \[unintelligible 00:20:05.21\] when we found out from the game creators that the new version of said game... They hit us up and they were like, "Oh, we're using Vitess as the backend for this." It was just crazy. I was sitting there, playing the game, thinking "This is awesome." Or every Slack message I send... It's really delightful to know that the technology that we contribute to and that we maintain - and we do maintain the project, and the project maintainers work here - has such an impact. It just feels amazing.
+\[20:01\] It's beautiful in the sense that it's wonderful to see all these companies collaborating... This is a game I play \[unintelligible 00:20:05.21\] when we found out from the game creators that the new version of said game... They hit us up and they were like, "Oh, we're using Vitess as the backend for this." It was just crazy. I was sitting there, playing the game, thinking "This is awesome." Or every Slack message I send... It's really delightful to know that the technology that we contribute to and that we maintain - and we do maintain the project, and the project maintainers work here - has such an impact. It just feels amazing.
 
 And then the icing on the top is that now thousands of the startups that have started this year that use PlanetScale have that stack factored in, and they're not gonna go through that painful middle period of redoing the database, ripping the database out... They factored scale in early, and that's the real moment in time. And you think about all these other platforms you can consume now, you can build an incredibly scalable stack while still picking the stack that is appropriate for day one, is still the fastest to use, fastest to build against. It's awesome.
 
@@ -134,7 +134,7 @@ So you know like at the bottom of your pull request, when all the CI checks come
 
 My favorite thing to look at in the usage graphs at GitHub was you could see all of the \[unintelligible 00:23:47.27\] for the world, because everyone had crons that would pull their repo down and do testing. And you could see this spike through all of the graphs, whether it was like frontend, CPU load, whether it was database queries... Every single performance graph at GitHub had these ticks, had these large spikes. On the hour was the largest, then half an hour, then 15, 10, 5, 1 minute... And you would just see these little -- because all of the world's crons are running to pull code down from GitHub and start up CI processes.
 
-\[00:24:21.29\] Anyway, we were trying to scale that, so we adopted things incrementally, table by table, and moved them over to Vitess, and it just worked fantastically, and we still see the enthusiasm from the different engineering teams that get to use it... That's how I got involved.
+\[24:21\] Anyway, we were trying to scale that, so we adopted things incrementally, table by table, and moved them over to Vitess, and it just worked fantastically, and we still see the enthusiasm from the different engineering teams that get to use it... That's how I got involved.
 
 So then when I was here at PlanetScale, I thought "We can democratize this tech. We can give it to everybody", and then it came to the team. And I have to give all of the credit to the great team that we have at PlanetScale. Not only do we have the Vitess team, that are just literal wizards... They're writing query planners, and you look at the annotation and their notes in the formula that they're working, and I just look at this and just think "I don't know anything about computers." \[laughter\] You just think, "Wow, these people are phenomenal."
 
@@ -162,7 +162,7 @@ So you pair that team and these people, these experts in databases, in the very 
 
 We take it to this extent where we want it to be delightful and accessible to absolutely everybody, and that is where the detail comes in. We have the teams that work on the details and the experiences that people run into, so diligent, so dedicated and so talented, and they have taste, and that is something that is very hard to replicate. I just feel constant excitement whenever they share their work, or whenever I see them deliver things; I feel excited and humbled, and just -- and it makes me happy, just to see them work.
 
-\[00:28:13.08\] The import feature we just released last week - no one's ever done it that way before. I went and looked at every other competitor, how they do imports, and it's like, "Well, here's the instructions, and how to dump your database... And you have to restore that database into our thing, and connect up here, or set some environment variables, and this, and that..." And it's just a mess. With what our team delivered, you just put in credentials, we connect, thanks to Vitess and VReplication we just pull the data in, no dumping, no restoring, and then you can switch your connections to PlanetScale and we'll proxy back to your old database and do a cut, and you can do a fully online migration on our platform with this tool, and thanks to Vitess, thanks to the refinement and polish they've put on... It's just magical. I've seen people take months to do something as complex as that, and now it's a fully online operation... And it is just the import tool. We could have just gone, "Oh, we'll do it the lazy way like everyone else does it" and move on. But we didn't, because our standards are much higher than that. We wanna make something that's delightful for every second that you use it.
+\[28:13\] The import feature we just released last week - no one's ever done it that way before. I went and looked at every other competitor, how they do imports, and it's like, "Well, here's the instructions, and how to dump your database... And you have to restore that database into our thing, and connect up here, or set some environment variables, and this, and that..." And it's just a mess. With what our team delivered, you just put in credentials, we connect, thanks to Vitess and VReplication we just pull the data in, no dumping, no restoring, and then you can switch your connections to PlanetScale and we'll proxy back to your old database and do a cut, and you can do a fully online migration on our platform with this tool, and thanks to Vitess, thanks to the refinement and polish they've put on... It's just magical. I've seen people take months to do something as complex as that, and now it's a fully online operation... And it is just the import tool. We could have just gone, "Oh, we'll do it the lazy way like everyone else does it" and move on. But we didn't, because our standards are much higher than that. We wanna make something that's delightful for every second that you use it.
 
 **Adam Stacoviak:** How did that feature come about in particular? I wanna put some heavy weight on this, because this to me is like the clincher. If you can get this down right, like you said, fully online... It's one thing technically to make it possible, but then too to make the user experience so easy to do... Just establish your connection to your database, it does all the magic inside of it, and you can essentially proxy to PlanetScale in between to try it out, essentially.
 
@@ -174,7 +174,7 @@ And in building that kind of replication stream technology, VReplication, you ca
 
 Then it's about giving the overall feeling of what we wanna build and what needs to be possible, and handing it to the engineering team, who are incredibly picky and talented, and have a very high bar... And this is what they came back with.
 
-**Adam Stacoviak:** \[00:32:02.03\] I like to use the word "selective" instead of picky.
+**Adam Stacoviak:** \[32:02\] I like to use the word "selective" instead of picky.
 
 **Sam Lambert:** Yes, selective, picky...
 
@@ -186,7 +186,7 @@ Then it's about giving the overall feeling of what we wanna build and what needs
 
 **Sam Lambert:** "And we're gonna do the proxying, and we're gonna make this possible." And yeah, it's just mind-blowing every time we see it. And then obviously, we put our incredibly talented product designers on hoof, who are very good at what they do, and then kind of some magic comes out. It's an intertwining of culture, talent, knowing what users want, knowing what our standard is, and coming together as a group to build it.
 
-**Break:** \[00:32:46.29\]
+**Break:** \[32:46\]
 
 **Adam Stacoviak:** So you said you got exposed to Vitess inside GitHub... What do you think GitHub would have been like in your day if PlanetScale existed exactly as it is now, with the promise that it exists now, in that day, for GitHub? How would GitHub have changed if it had PlanetScale then?
 
@@ -194,7 +194,7 @@ Then it's about giving the overall feeling of what we wanna build and what needs
 
 We have a startup -- obviously I'm not gonna name names, but they're not really a startup now; they're just crushing it, but they've been on the platform for a little while now... And they see 40% growth month on month. Every month, their data size, their usage goes up by 40%. It's amazing. It's just amazing to see; when the database gets out of the way - and obviously, we can't take full credit for everything, but it is just awesome to solve problems for companies that are growing and scaling so quickly. It's just immense fun; it's really awesome.
 
-**Adam Stacoviak:** \[00:36:04.07\] Let's talk about your journey then to CEO. Did you expect to, I suppose, have this exposure early on to Vitess, this desire to invest, to advise, to eventually rethink what's next for you, make that move to chief product officer at PlanetScale? And then -- how many months after that was it that you were promoted as a CEO? What's that journey been like for you to go from that journey to exposure to it, investment, investment \[unintelligible 00:36:32.29\] chief product officer, now CEO? What's that -- is it like expected, unexpected? Delightful? How do you feel about this journey of yours?
+**Adam Stacoviak:** \[36:04\] Let's talk about your journey then to CEO. Did you expect to, I suppose, have this exposure early on to Vitess, this desire to invest, to advise, to eventually rethink what's next for you, make that move to chief product officer at PlanetScale? And then -- how many months after that was it that you were promoted as a CEO? What's that journey been like for you to go from that journey to exposure to it, investment, investment \[unintelligible 00:36:32.29\] chief product officer, now CEO? What's that -- is it like expected, unexpected? Delightful? How do you feel about this journey of yours?
 
 **Sam Lambert:** It's completely unexpected. I think it would have kind of been a little -- um, it'd be a bit aggressively ambitious, I think, to maybe expect it all to happen this way. And honestly, it's been amazing. I don't really think too far ahead, for myself personally. I think very far ahead in terms of what I would love the company to become, and what I want our product to become, and it feels like we haven't even gotten started, and it's already been incredible.
 
@@ -214,7 +214,7 @@ I came over here and started talking to some old colleagues, and pitched them on
 
 Now we're definitely in that state of flow, and it just feels incredible. You hop from customer call with a major brand, and they're like "We're on. We wanna do this." Or you jump into a product review and the engineers have just far exceeded everything you expected you could do. Or you have a leadership meeting and you meet a bunch of folks on this journey with you who are trying to not just build a great product, but build a great product and kind of view the experience internally almost as a product.
 
-\[00:40:25.02\] And the days just kind of melt away, and you have so much fun. I'm kind of dedicated to enjoying every second of it, even the low points, because I never thought I'd get to do something as fun as GitHub again... And getting to do something like this the second time, I'm taking it all in, and just enjoying the small moments. The late nights where you're with a few colleagues and you're just like batting around ideas and hopes for the future... Or just the little conversations.
+\[40:25\] And the days just kind of melt away, and you have so much fun. I'm kind of dedicated to enjoying every second of it, even the low points, because I never thought I'd get to do something as fun as GitHub again... And getting to do something like this the second time, I'm taking it all in, and just enjoying the small moments. The late nights where you're with a few colleagues and you're just like batting around ideas and hopes for the future... Or just the little conversations.
 
 We're gonna be certain people's first ever job, and it will shape their career, and that's just awesome. I think it's so amazing. It's such a -- you know, people mock it and laugh at it, and I sound silly when I talk about the journey; it's so cliché. But it really feels like it.
 
@@ -238,7 +238,7 @@ There's great learning and fun to be had from even going through shitty things, 
 
 **Sam Lambert:** Yeah.
 
-**Adam Stacoviak:** \[00:44:10.08\] So you can say "I have to... Ugh...", with this begrudge in the heart. Or you can shift to a gratitude position, which is "I get to." "I get to produce two podcasts this week. And not only do I get to produce these awesome podcasts, somebody out there is gonna hear Sam share his story about why PlanetScale is what it is, and why he believes in it, and why the team is phenomenal around it etc. Somebody's gonna get impacted and their life will be changed." Rather than just saying, "Oh man, I've gotta ship two podcasts this week." Or "I've gotta deal with this bug/feature" or "I've gotta be on \[unintelligible 00:44:45.09\] this weekend", or whatever.
+**Adam Stacoviak:** \[44:10\] So you can say "I have to... Ugh...", with this begrudge in the heart. Or you can shift to a gratitude position, which is "I get to." "I get to produce two podcasts this week. And not only do I get to produce these awesome podcasts, somebody out there is gonna hear Sam share his story about why PlanetScale is what it is, and why he believes in it, and why the team is phenomenal around it etc. Somebody's gonna get impacted and their life will be changed." Rather than just saying, "Oh man, I've gotta ship two podcasts this week." Or "I've gotta deal with this bug/feature" or "I've gotta be on \[unintelligible 00:44:45.09\] this weekend", or whatever.
 
 **Sam Lambert:** Reframing is very powerful...
 
@@ -264,7 +264,7 @@ I used to think extreme positivity was being very naive. Or like optimists were 
 
 **Sam Lambert:** Yes.
 
-**Adam Stacoviak:** \[00:48:13.00\] Once you're there, it's like, "Wow...!" It's almost like \[unintelligible 00:48:14.02\] That momentum was a little hard to get to, but once you got there, it just sort of keeps clicking.
+**Adam Stacoviak:** \[48:13\] Once you're there, it's like, "Wow...!" It's almost like \[unintelligible 00:48:14.02\] That momentum was a little hard to get to, but once you got there, it just sort of keeps clicking.
 
 **Sam Lambert:** You're right. I sort of think manifestation is both quite dumb, and probably the most amazing thing that you can actually do... Right?
 
@@ -288,7 +288,7 @@ I think if you do that on a larger scale for your life, and try to manifest the 
 
 **Sam Lambert:** I love the job. I absolutely love the job, and I feel incredibly lucky and privileged to be able to do the job. I will say though, it's a very tough job. And it's funny, I didn't imagine what it would feel like until I took the job, and I knew I was gonna be the CEO for probably a month before it happened. But even just minutes after it was announced, you just feel this very strange feeling...
 
-\[00:51:55.20\] And people say it's the loneliest job in the world, and I think that's true. Again, just insanely fortunate to have such an amazing team at PlanetScale, but in a lot of ways, you're responsible for the final say. And if things go wrong inside your company...
+\[51:55\] And people say it's the loneliest job in the world, and I think that's true. Again, just insanely fortunate to have such an amazing team at PlanetScale, but in a lot of ways, you're responsible for the final say. And if things go wrong inside your company...
 
 **Adam Stacoviak:** It's your fault.
 
@@ -308,7 +308,7 @@ On the other hand, if you surround yourself with a great team - and I think this
 
 Also, I don't really wanna build the type of company where I make all the decisions. I'm not the smartest person in the room. There's amazingly talented folks here that have honed their craft over many years. The more I can give them to decide and build against and decentralize how things are done, the better things will be. If you just limit the company behind the world that you see, you will stumble, because you have your own perspective and view upon the world, and it's not the same as everyone else's.
 
-\[00:56:14.03\] That's why I try and also talk to young developers that are very unreasonable and have very unreasonable views of the world or what products can do... Because it tells you something. That's why I think serverless is such a fantastic movement, because it's really unreasonable in wonderful ways.
+\[56:14\] That's why I try and also talk to young developers that are very unreasonable and have very unreasonable views of the world or what products can do... Because it tells you something. That's why I think serverless is such a fantastic movement, because it's really unreasonable in wonderful ways.
 
 The demands on building a serverless product are really hard. It goes against the trend of how we've traditionally built applications. But it's that unreasonableness that is so optimistic to me. It's like, yeah, actually, previously you couldn't do this. Or "Actually, this is a really hard problem. But you know what - we're not gonna stop until we reduce it into something that can be simply understood and mastered." And that is really, really tough. But it's an amazing discipline and it's great fun to do with really awesome people.
 
@@ -322,7 +322,7 @@ And look, I don't want anyone to listen to me and think that I've made it, or th
 
 **Adam Stacoviak:** What about the fact that you're not in general availability? How does that shift the focus of the company? It's like, being in closed beta, or limited beta, you're in one way perfecting product, you're doing certain things behind the scenes; not quite focused on growth, but kind of focused on growth, because hey, you want to... But how does the company momentum shift at large now being general availability?
 
-**Sam Lambert:** \[00:59:52.28\] It definitely accelerates, in the sense that it's on, right? You launch, you kind of launch once, and it's happened. It feels awesome. We were very lucky that even during beta major websites moved to PlanetScale, which is so awesome.
+**Sam Lambert:** \[59:52\] It definitely accelerates, in the sense that it's on, right? You launch, you kind of launch once, and it's happened. It feels awesome. We were very lucky that even during beta major websites moved to PlanetScale, which is so awesome.
 
 **Adam Stacoviak:** Do you wanna name some names? Can you name any names? A couple I'm sure are listed on your website, right?
 
@@ -418,7 +418,7 @@ It would have just seemed weird to develop a product like this, now or in the la
 
 **Sam Lambert:** That's an amazing advantage.
 
-**Adam Stacoviak:** Okay. So they don't have a staff of dev ops, potentially.
+**Adam Stacoviak:** Okay. So they don't have a staff of DevOps, potentially.
 
 **Sam Lambert:** Right, exactly. They'll have just a few motivated developers.
 
