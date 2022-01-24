@@ -22,7 +22,7 @@ He is one of the organizers of the Russian Go community meetups and GopherCon Ru
 
 **Natalie Pistunovich:** I'm sorry...
 
-**Alexey Palazhchenko:** \[00:04:07.20\] They don't like that we use a name too close to the trademark.
+**Alexey Palazhchenko:** \[04:07\] They don't like that we use a name too close to the trademark.
 
 **Natalie Pistunovich:** That is fair, that is fair. How did you choose FerretDB?
 
@@ -48,7 +48,7 @@ Then a year and a half later we were bought by Skype, and our small startup, whi
 
 **Natalie Pistunovich:** Okay... \[laughs\]
 
-**Alexey Palazhchenko:** Okay, so we decided to spend this time to sharpen our skills, trying something new... So we decided to make a multiplayer game of Go, of this board game... So we made one part of the \[unintelligible 00:06:44.24\] in Erlang language, and we started working on a mobile client in C\#... And then I wrote the backend part that manages GNU Go program in Go. And that was release 60; that was after \[unintelligible 00:07:02.09\] but before the 1.0 release... \[unintelligible 00:07:06.11\] error type instead of built-in error type... But still, \[00:07:18.05\] it still builds and runs today.
+**Alexey Palazhchenko:** Okay, so we decided to spend this time to sharpen our skills, trying something new... So we decided to make a multiplayer game of Go, of this board game... So we made one part of the \[unintelligible 00:06:44.24\] in Erlang language, and we started working on a mobile client in C\#... And then I wrote the backend part that manages GNU Go program in Go. And that was release 60; that was after \[unintelligible 00:07:02.09\] but before the 1.0 release... \[unintelligible 00:07:06.11\] error type instead of built-in error type... But still, \[07:18\] it still builds and runs today.
 
 When I had a chance, I left Microsoft; basically, when my options \[unintelligible 00:07:27.23\] I started my own company, and we started using Go. That was Go 1.0 already.
 
@@ -62,7 +62,7 @@ When I had a chance, I left Microsoft; basically, when my options \[unintelligib
 
 **Natalie Pistunovich:** That is a jump, for sure.
 
-**Alexey Palazhchenko:** \[00:08:13.04\] Yeah. Then Go was completely random, but I actually liked it a lot. So I was programming in C++, and Ruby, and Python... \[unintelligible 00:08:20.27\] with all those callbacks, and I immediately liked goroutines, and also the fact that the language is compiled, but it compiles very quickly as a static \[unintelligible 00:08:33.19\] all the usual stuff. And - yeah, I never looked back since then.
+**Alexey Palazhchenko:** \[08:13\] Yeah. Then Go was completely random, but I actually liked it a lot. So I was programming in C++, and Ruby, and Python... \[unintelligible 00:08:20.27\] with all those callbacks, and I immediately liked goroutines, and also the fact that the language is compiled, but it compiles very quickly as a static \[unintelligible 00:08:33.19\] all the usual stuff. And - yeah, I never looked back since then.
 
 **Natalie Pistunovich:** Interesting. Okay... So we're here to talk about AI-driven development. So when we say that, AI-driven development, what do you envision? What would development with AI be looking like in the future?
 
@@ -100,7 +100,7 @@ Actually, I would say that for me, the best solution would be something what Git
 
 **Natalie Pistunovich:** Yeah.
 
-**Alexey Palazhchenko:** \[00:12:09.07\] So essentially, it can write the whole project for you. There is a very fun video on YouTube where the guys writes a game in six minutes using Copilot. It's basically a game where you pick a random number, and whoever chooses a number closer to the random number wins. And it just works. He types much \[unintelligible 00:12:28.10\] It's just crazy. And yeah, I envision that in the future it can also write readme for your code, write Docker Compose, Kubernetes manifests, all that. Actually, I should try that with Kubernetes manifests. That would be fun to try.
+**Alexey Palazhchenko:** \[12:09\] So essentially, it can write the whole project for you. There is a very fun video on YouTube where the guys writes a game in six minutes using Copilot. It's basically a game where you pick a random number, and whoever chooses a number closer to the random number wins. And it just works. He types much \[unintelligible 00:12:28.10\] It's just crazy. And yeah, I envision that in the future it can also write readme for your code, write Docker Compose, Kubernetes manifests, all that. Actually, I should try that with Kubernetes manifests. That would be fun to try.
 
 **Natalie Pistunovich:** It does work well, from my experience. So what would you say the current state of AI-driven development these days -- do you know of people who are already using it at their job, or for fun? I guess for fun we know some, but for personal projects that are more than tab-tab-tab?
 
@@ -122,7 +122,7 @@ So I would say that by the time we have some precedents and we actually know whe
 
 **Alexey Palazhchenko:** Yeah...
 
-**Natalie Pistunovich:** \[00:15:59.29\] One of the interesting arguments in the conversation about AI writing code is that it's trained on open source code, and not all open source code, especially the one that is -- I mean, maybe it's even safe to say that most of the open source code is fun projects of people; it's not actually functioning things that are used in production somewhere. Because a lot of the production code is closed-source, so it was not trained for GitHub, but it was actually peer-reviewer. And a lot of the open source code is just code something, learn to code, put it out there, and now Copilot got trained on my bad code, and the first time that I was learning Elixir, or something. And now it saw that, and found that this is an example of how you need to write Elixir code. So kind of how good is this auto-generated code.
+**Natalie Pistunovich:** \[15:59\] One of the interesting arguments in the conversation about AI writing code is that it's trained on open source code, and not all open source code, especially the one that is -- I mean, maybe it's even safe to say that most of the open source code is fun projects of people; it's not actually functioning things that are used in production somewhere. Because a lot of the production code is closed source, so it was not trained for GitHub, but it was actually peer-reviewer. And a lot of the open source code is just code something, learn to code, put it out there, and now Copilot got trained on my bad code, and the first time that I was learning Elixir, or something. And now it saw that, and found that this is an example of how you need to write Elixir code. So kind of how good is this auto-generated code.
 
 On the level of "Did it learn from a good example or from a bad example?", because GitHub code is not labeled with "good repo", "bad repo". And also, even if the language is written correctly. Does it have good safety practices? Is the code that is out there secure or not? So you have to look out for so many things when you are choosing whether to accept AI-proposed code into your codebase or not.
 
@@ -138,7 +138,7 @@ On the level of "Did it learn from a good example or from a bad example?", becau
 
 **Natalie Pistunovich:** Yeah. This brings me to the question if Go would be a good choice for AI-driven development, for the style of the language. What do you think?
 
-**Alexey Palazhchenko:** Yes, all this power of gofmt, and you have the same standard for all the Go code - that seems to be very easy for Copilot to understand Go code. And I would say maybe Go is the single best language for that. I don't know another language that has this simple code structure, this regular structure with the same formatting. I can't imagine Copilot for something like C++, for example... Especially modern C++. That would be a hot mess. Because yeah, especially given that Copilot just grabs all the C++ code from GitHub, and then half of that is written 20 years ago, with a very different standard... That's basically a different language at this point.
+**Alexey Palazhchenko:** Yes, all this power of go fmt, and you have the same standard for all the Go code - that seems to be very easy for Copilot to understand Go code. And I would say maybe Go is the single best language for that. I don't know another language that has this simple code structure, this regular structure with the same formatting. I can't imagine Copilot for something like C++, for example... Especially modern C++. That would be a hot mess. Because yeah, especially given that Copilot just grabs all the C++ code from GitHub, and then half of that is written 20 years ago, with a very different standard... That's basically a different language at this point.
 
 **Natalie Pistunovich:** Yeah, that's actually another interesting point, that is AI code trained on up to date code, that is made for our machines, and not for the past machines.
 
@@ -146,7 +146,7 @@ On the level of "Did it learn from a good example or from a bad example?", becau
 
 **Natalie Pistunovich:** Maybe we will have to... \[laughter\] Eventually we'll have to imagine how that works, yeah.
 
-**Break:** \[00:19:32.06\]
+**Break:** \[19:32\]
 
 **Natalie Pistunovich:** I've been trying to do the Advent of Code on different programming languages with using Codex, which is the underlying engine of Copilot. So basically, Copilot is kind of you take whatever you have in your IDE, and then you add the prompt to that, so kind of like the secret sauce, and then you send that to the end point of Codex. And what I was trying to do, and gave up in the middle because it didn't work at all, is trying to do the same with the different languages. And just finding the right context for some of the languages that are not supported as well, like Java, for example... Finding a standard highest header was a big deal. All Go programs will start with package main import. Not many languages have this standard thing, for Java or for C.
 
@@ -172,7 +172,7 @@ And you know, they have this new feature in beta when they allow you to describe
 
 **Alexey Palazhchenko:** Yeah, I did not try that. It would be interesting. Actually, the problem there - it's not an algorithm; it's just machine learning. And maybe it's not even correct. That would be also interesting, to check if that's correct. Yeah, I tried that with Python. I mean, it still works, but in my opinion the Go snippets are better overall in code.
 
-**Natalie Pistunovich:** \[00:24:17.09\] I tried writing some Bash scripts with it and that was also successful in doing what it was supposed to do. I guess Bash is similar to Go in that sense, that it's a kind of one way of doing things.
+**Natalie Pistunovich:** \[24:17\] I tried writing some Bash scripts with it and that was also successful in doing what it was supposed to do. I guess Bash is similar to Go in that sense, that it's a kind of one way of doing things.
 
 **Alexey Palazhchenko:** Yeah, maybe just my way of writing Python is outdated. \[unintelligible 00:24:33.20\] was using Python 2 when I switched to Go. So maybe Python 3 \[unintelligible 00:24:40.23\]
 
@@ -216,7 +216,7 @@ And you know, they have this new feature in beta when they allow you to describe
 
 **Alexey Palazhchenko:** Yeah, you can say so... Actually, when I started I was just alone, myself and Copilot. So you can see he's my co-author now. Right now we have a lot of people from community just jumping in and starting to help... But the core of it was written by me and Copilot. That would be an interesting take, from all the project... The first database system written by machine learning.
 
-**Natalie Pistunovich:** \[00:28:16.25\] By machines, for machines.
+**Natalie Pistunovich:** \[28:16\] By machines, for machines.
 
 **Alexey Palazhchenko:** Yeah. \[laughter\]
 
@@ -262,7 +262,7 @@ And you know, they have this new feature in beta when they allow you to describe
 
 **Natalie Pistunovich:** It would be interesting to tell "fuzz it for me", or something like this. Find fuzzy inputs.
 
-**Alexey Palazhchenko:** \[00:32:02.04\] That might be another most effective way to use a machine learning framework, but...
+**Alexey Palazhchenko:** \[32:02\] That might be another most effective way to use a machine learning framework, but...
 
 **Natalie Pistunovich:** I probably saw some interesting examples, but yeah... Maybe not. I'm trying to think what other interesting recommendations we can give to listeners who are just getting -- or you know what? Let's take one step back and let's speak to those who are maybe a little bit cynical about including AI in their flow, and look at that as an NFT or whatnot; a new buzzword. So why is it actually a good idea to include AI in your flow? Why should I not just stick to my good, old Vim, or IDE like VS Code, with no any other add-ons?
 
@@ -300,7 +300,7 @@ I would say that I did some measurements \[unintelligible 00:34:27.04\] but I've
 
 **Alexey Palazhchenko:** So we were speaking about the machine learning model explaining this code. I wrote something like "explain this usage of concurrency".
 
-**Natalie Pistunovich:** \[00:36:16.02\] In the sense of what are potential outputs, or what are you missing when you're looking at it, or what exactly?
+**Natalie Pistunovich:** \[36:16\] In the sense of what are potential outputs, or what are you missing when you're looking at it, or what exactly?
 
 **Alexey Palazhchenko:** So on many layers. For example, this function that taps these channels cannot tap that and that, and that channel is closed at this point, and then the big picture... And then the ultimate question - it should answer "Was it worth it a lot, or you should just write linear code there, without all the goroutines and channels, and be more simple?"
 
@@ -342,7 +342,7 @@ So imagine that Copilot analyzes your business problem, your domain, and then cr
 
 **Natalie Pistunovich:** Well, that is some interesting expected future for the development of our life as developers. Not to ask in our lifetime, but let's say in our professional career, which is hopefully for most people shorter than our lifetime, what things do you see that will be becoming a very common thing in a very short term? Something that you would write in your CV when you're looking for your next job, so a couple of years from now. What would be an AI skill that is related to development?
 
-**Alexey Palazhchenko:** \[00:40:11.05\] I think for machine learning you have to have some experience already. And if you don't have it by now, then in a few years it might be a problem to find a good job. And I guess -- yeah, I think Copilot will be much more common, in more editors, more languages, with different representations.
+**Alexey Palazhchenko:** \[40:11\] I think for machine learning you have to have some experience already. And if you don't have it by now, then in a few years it might be a problem to find a good job. And I guess -- yeah, I think Copilot will be much more common, in more editors, more languages, with different representations.
 
 **Natalie Pistunovich:** Would you be writing that on your CV? I'm asking because I saw CVs of people who write that they do Git as a skill, but I never -- I cannot remember, let's say, seeing a CV that mentions their favorite IDE. So like "I am good with Vim. I am good with VS Code." But would you say that Copilot is more in the category of your IDE, or more in the category of skills like Git?
 
@@ -376,7 +376,7 @@ And back to this Advent of Code with Codex, I noticed that sometimes some of the
 
 **Natalie Pistunovich:** There is a point to that, because the model was trained on English, or on natural language, and it was trained on code... But it was trained only on a subset, and it's always -- like, it will never be the same subset of the average person. It's not like the average person of one country has another world of context and vocabulary and whatnot of another person, in another language... So maybe even skills of English is actually becoming more of a need for a developer to have, so you can better communicate with the AI.
 
-**Alexey Palazhchenko:** \[00:44:22.06\] Yeah. And also imagine that you have to command AI to write the code for you, for it to work... But you don't want to command your co-workers, right? That would be a different language already on that level.
+**Alexey Palazhchenko:** \[44:22\] Yeah. And also imagine that you have to command AI to write the code for you, for it to work... But you don't want to command your co-workers, right? That would be a different language already on that level.
 
 **Natalie Pistunovich:** For sure. Interesting. Okay, so if we summarize kind of the tip around communication skills and how to present that next time you speak about your Copilot skills in a professional setup like a job interview, what would be your take-away?
 
@@ -388,7 +388,7 @@ And back to this Advent of Code with Codex, I noticed that sometimes some of the
 
 **Natalie Pistunovich:** Yeah. More AI engines will be doing code, so it only makes sense. Well, that was an inspiring and interesting conversation... Time for some unpopular opinion. I hope you have one.
 
-**Jingle:** \[00:45:28.08\] to \[00:45:45.07\]
+**Jingle:** \[45:28\] to \[45:45\]
 
 **Natalie Pistunovich:** The nice thing about this tune is that even on episodes where Mat is not here with us, he is a little bit with us... Because he is the creator of this short tune, so... Hi, Mat. I hope you're feeling better.
 
