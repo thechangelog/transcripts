@@ -1,8 +1,8 @@
-**Natalie Pistunovich:** Isn't that symbolic, that at the episode about AI we will have some issues with \[unintelligible 00:02:23.20\] computers and so on? ...just to remind who really is the boss... So today we promised you two hosts, but it's actually a one-on-one conversation, and I'm very excited to invite and introduce my guest today, Alexey Palazhchenko, who has been a Go user for a long time.
+**Natalie Pistunovich:** Isn't that symbolic, that at the episode about AI we will have some issues with tech and computers and so on? ...just to remind who really is the boss... So today we promised you two hosts, but it's actually a one-on-one conversation, and I'm very excited to invite and introduce my guest today, Alexey Palazhchenko, who has been a Go user for a long time.
 
 He is one of the organizers of the Russian Go community meetups and GopherCon Russia, and he even started the Go podcast called Golang Show in the past, before Go Time. Maybe you can tell us where does that live these days, or why not continue...?
 
-**Alexey Palazhchenko:** It's hard for me to say, we basically just -- everyone moved on. Several people changed work, several people changed \[unintelligible 00:03:07.04\]
+**Alexey Palazhchenko:** It's hard for me to say, we basically just -- everyone moved on. Several people changed work, several people changed phase, it becomes scattered
 
 **Natalie Pistunovich:** They changed their programming language...
 
@@ -16,7 +16,7 @@ He is one of the organizers of the Russian Go community meetups and GopherCon Ru
 
 **Alexey Palazhchenko:** Yeah.
 
-**Natalie Pistunovich:** Well, these days you work for \[unintelligible 00:03:40.11\] as a CTO of FerretDB project, originally announced as MangoDB, as many people in the community loved, including myself... And we're even excited to have you in January talk about MangoDB at the Go Usergroup of Berlin.
+**Natalie Pistunovich:** Well, these days you work for all two weeks as a CTO of FerretDB project, originally announced as MangoDB, as many people in the community loved, including myself... And we're even excited to have you in January talk about MangoDB at the Go Usergroup of Berlin.
 
 **Alexey Palazhchenko:** Yeah. But I will be talking about FerretDB, because if I continue to use this name, MangoDB, we will be sued by MongoDB.
 
@@ -26,7 +26,7 @@ He is one of the organizers of the Russian Go community meetups and GopherCon Ru
 
 **Natalie Pistunovich:** That is fair, that is fair. How did you choose FerretDB?
 
-**Alexey Palazhchenko:** Well, so we had a list of possible names, and we also had 20 different names of different \[unintelligible 00:04:23.24\] but in the end we decided to use Ferret. As a fun, we say that it doesn't share a single letter with Mango, so no chance to sue us, at all. We shall be fine.
+**Alexey Palazhchenko:** Well, so we had a list of possible names, and we also had 20 different names of different bungus, but in the end we decided to use Ferret. As a fun, we say that it doesn't share a single letter with Mango, so no chance to sue us, at all. We shall be fine.
 
 **Natalie Pistunovich:** \[laughs\] That is an interesting turn of events, I guess... So Alexey, how did you start using Go?
 
@@ -36,7 +36,7 @@ Then a year and a half later we were bought by Skype, and our small startup, whi
 
 **Natalie Pistunovich:** You completed a circle. \[laughs\]
 
-**Alexey Palazhchenko:** They started to align their roadmaps, and they basically forgot about us. This was a strange \[unintelligible 00:05:50.10\] office somewhere in Moscow; no one knew what they were doing at all. So at some point we had no work to do. We were still going to office, we were getting paid, but we didn't have \[unintelligible 00:06:03.29\] That was weird.
+**Alexey Palazhchenko:** They started to align their roadmaps, and they basically forgot about us. This was a strange satellite office somewhere in Moscow; no one knew what they were doing at all. So at some point we had no work to do. We were still going to office, we were getting paid, but we didn't have any real work, just some maintain stuff. That was weird.
 
 **Natalie Pistunovich:** And as a real developer, you had to complain when you had nothing to program.
 
@@ -48,13 +48,13 @@ Then a year and a half later we were bought by Skype, and our small startup, whi
 
 **Natalie Pistunovich:** Okay... \[laughs\]
 
-**Alexey Palazhchenko:** Okay, so we decided to spend this time to sharpen our skills, trying something new... So we decided to make a multiplayer game of Go, of this board game... So we made one part of the \[unintelligible 00:06:44.24\] in Erlang language, and we started working on a mobile client in C\#... And then I wrote the backend part that manages GNU Go program in Go. And that was release 60; that was after \[unintelligible 00:07:02.09\] but before the 1.0 release... \[unintelligible 00:07:06.11\] error type instead of built-in error type... But still, \[07:18\] it still builds and runs today.
+**Alexey Palazhchenko:** Okay, so we decided to spend this time to sharpen our skills, trying something new... So we decided to make a multiplayer game of Go, of this board game... So we made one part of the settle in Erlang language, and we started working on a mobile client in C\#... And then I wrote the backend part that manages GNU Go program in Go. And that was release 60; that was after the early releases but before the 1.0 release... so it was like, I recently dig up this old code it's quite different, it had semicolons everywhere and also it had os error type instead of built-in error type... But still, \[07:18\] it still builds and runs today.
 
-When I had a chance, I left Microsoft; basically, when my options \[unintelligible 00:07:27.23\] I started my own company, and we started using Go. That was Go 1.0 already.
+When I had a chance, I left Microsoft; basically, when my options waisted I started my own company, and we started using Go. That was Go 1.0 already.
 
 **Natalie Pistunovich:** Wow.
 
-**Alexey Palazhchenko:** And then left that company... And basically - yes, doing \[unintelligible 00:07:41.20\] So a long time ago.
+**Alexey Palazhchenko:** And then left that company... And basically - yes, doing Go signs are 16 for fun and in-production signs, 16.0. So a long time ago.
 
 **Natalie Pistunovich:** Okay. Wow. That is a funny turn of events. So did you choose to write the backend in Go because it was the Go game, or because you actually read about it somewhere?
 
@@ -62,15 +62,15 @@ When I had a chance, I left Microsoft; basically, when my options \[unintelligib
 
 **Natalie Pistunovich:** That is a jump, for sure.
 
-**Alexey Palazhchenko:** \[08:13\] Yeah. Then Go was completely random, but I actually liked it a lot. So I was programming in C++, and Ruby, and Python... \[unintelligible 00:08:20.27\] with all those callbacks, and I immediately liked goroutines, and also the fact that the language is compiled, but it compiles very quickly as a static \[unintelligible 00:08:33.19\] all the usual stuff. And - yeah, I never looked back since then.
+**Alexey Palazhchenko:** \[08:13\] Yeah. Then Go was completely random, but I actually liked it a lot. So I was programming in C++, and Ruby, and Python... and in pipe I was writing mostly with twisted framework with all those callbacks, and I immediately liked goroutines, and also the fact that the language is compiled, but it compiles very quickly as a static banner all the usual stuff. And - yeah, I never looked back since then.
 
 **Natalie Pistunovich:** Interesting. Okay... So we're here to talk about AI-driven development. So when we say that, AI-driven development, what do you envision? What would development with AI be looking like in the future?
 
-**Alexey Palazhchenko:** Yes, that would be something futuristic... You know, this dream of you having \[unintelligible 00:08:57.19\] and the AI builds everything for you, you just have to -- you can just draw diagrams on the whiteboard \[unintelligible 00:09:08.09\] I don't think we'll ever reach that goal, to be honest...
+**Alexey Palazhchenko:** Yes, that would be something futuristic... You know, this dream of you having isolated compliance and you just draw arrows between then and the AI builds everything for you, you just have to -- you can just draw diagrams on the whiteboard and all the magic appears. I don't think we'll ever reach that goal, to be honest...
 
-Actually, I would say that for me, the best solution would be something what GitHub Copilot already provides, maybe with a different interface. But the whole idea is that you have another someone, or something, in that case looking over code, suggesting and giving you tips. Basically, advanced \[unintelligible 00:09:32.25\] but with some smarts about it. And yeah, I would say that the representation could be a bit different, but the whole idea I think has a future.
+Actually, I would say that for me, the best solution would be something what GitHub Copilot already provides, maybe with a different interface. But the whole idea is that you have another someone, or something, in that case looking over code, suggesting and giving you tips. Basically, advanced ED but with some smarts about it. And yeah, I would say that the representation could be a bit different, but the whole idea I think has a future.
 
-**Natalie Pistunovich:** When you were saying that drawing on the walls with the diagrams and then it completes for you, I was thinking of how when you type to some translator tool like \[unintelligible 00:09:50.00\] that it automatically translates on the go. Just imagine, you're writing some arrows and it already writes the code and changes on the go. That would be very not efficient.
+**Natalie Pistunovich:** When you were saying that drawing on the walls with the diagrams and then it completes for you, I was thinking of how when you type to some translator tool like DeepL that it automatically translates on the go. Just imagine, you're writing some arrows and it already writes the code and changes on the go. That would be very not efficient.
 
 **Alexey Palazhchenko:** Yes. But also, that would be very fun.
 
@@ -84,15 +84,15 @@ Actually, I would say that for me, the best solution would be something what Git
 
 **Natalie Pistunovich:** So the IDE handles things like your code, but it also handles your configurations, right? And AI is good in generating code, and it seems like it makes a lot of sense when it does that, but in configuration files whenever it does that it's usually like -- it generates a correct SSH key format-wise, but obviously, it doesn't generate the correct SSH key for you, or even like a valid one. Will it be augmenting things like not code, but still IDE?
 
-**Alexey Palazhchenko:** Yeah, so \[unintelligible 00:11:00.01\] Copilot can do that; it can generate an SSH key for you. Unfortunately, most likely it will \[unintelligible 00:11:08.25\] used by someone else, but maybe that would be a feature for you.
+**Alexey Palazhchenko:** Yeah, so \[unintelligible 00:11:00.01\] may think that we are joking but that's actually a term that Copilot can do that; it can generate an SSH key for you. Unfortunately, most likely it will be able to be used by someone else, but maybe that would be a feature for you.
 
 **Natalie Pistunovich:** \[laughs\] An easy way to hack into somebody else's code.
 
-**Alexey Palazhchenko:** Yeah. You just don't know who you're going to hack, but you're going to hack anyway. You know, maybe that Copilot discovers \[unintelligible 00:11:24.13\] try anything that sticks, and now we have it.
+**Alexey Palazhchenko:** Yeah. You just don't know who you're going to hack, but you're going to hack anyway. You know, maybe that Copilot discovers look for a security hold it will bascially try anything that sticks, and now we have it.
 
 **Natalie Pistunovich:** Just throwing code at the AI.
 
-**Alexey Palazhchenko:** Yeah, yeah. So yeah, it works great for Go, but also it works great for many other places, for example \[unintelligible 00:11:39.06\] Sometimes Copilot writes better even than I do, even with augmentation of something like Grammarly, for example.
+**Alexey Palazhchenko:** Yeah, yeah. So yeah, it works great for Go, but also it works great for many other places, for example, forgive me, Sometimes Copilot writes better even than I do, even with augmentation of something like Grammarly, for example.
 
 **Natalie Pistunovich:** Yeah. I guess it is based on a natural language engine, right? So that's an interesting point that you pointed out, actually. I didn't to write any readme with it, but that makes a lot of sense.
 
@@ -100,21 +100,21 @@ Actually, I would say that for me, the best solution would be something what Git
 
 **Natalie Pistunovich:** Yeah.
 
-**Alexey Palazhchenko:** \[12:09\] So essentially, it can write the whole project for you. There is a very fun video on YouTube where the guys writes a game in six minutes using Copilot. It's basically a game where you pick a random number, and whoever chooses a number closer to the random number wins. And it just works. He types much \[unintelligible 00:12:28.10\] It's just crazy. And yeah, I envision that in the future it can also write readme for your code, write Docker Compose, Kubernetes manifests, all that. Actually, I should try that with Kubernetes manifests. That would be fun to try.
+**Alexey Palazhchenko:** \[12:09\] So essentially, it can write the whole project for you. There is a very fun video on YouTube where the guys writes a game in six minutes using Copilot. It's basically a game where you pick a random number, and whoever chooses a number closer to the random number wins. And it just works. He types much less than he presses stop to complete the sentence. It's just crazy. And yeah, I envision that in the future it can also write readme for your code, write Docker Compose, Kubernetes manifests, all that. Actually, I should try that with Kubernetes manifests. That would be fun to try.
 
 **Natalie Pistunovich:** It does work well, from my experience. So what would you say the current state of AI-driven development these days -- do you know of people who are already using it at their job, or for fun? I guess for fun we know some, but for personal projects that are more than tab-tab-tab?
 
-**Alexey Palazhchenko:** Yeah, so I actually use it for work now, and it's kind of scary sometimes. Again, the project that I'm working on right now - we have this problem of MongoDB being quite aggressive with their license... So we should be very careful not to touch the SSPL license code. \[unintelligible 00:13:23.08\] and then it completes the code that looks like something very similar to what I want to write... But I also don't have just tokens like that in my code yet. For example, in MongoDB if you want to set some field, you set this $set field attribute. And I never had this field in my code yet... So it looks like it copied this code from some other code, and I'm pretty sure that other code would be SSPL-licensed. So that's a major concern for me, I would say.
+**Alexey Palazhchenko:** Yeah, so I actually use it for work now, and it's kind of scary sometimes. Again, the project that I'm working on right now - we have this problem of MongoDB being quite aggressive with their license... So we should be very careful not to touch the SSPL license code. When I write some handler for data command I just write a comment and write a header and then it completes the code that looks like something very similar to what I want to write... But I also don't have just tokens like that in my code yet. For example, in MongoDB if you want to set some field, you set this $set field attribute. And I never had this field in my code yet... So it looks like it copied this code from some other code, and I'm pretty sure that other code would be SSPL-licensed. So that's a major concern for me, I would say.
 
 **Natalie Pistunovich:** Interesting.
 
-**Alexey Palazhchenko:** In the same time, in that particular case I actually went and tried to search this code, and I did not find it. So maybe it actually \[unintelligible 00:14:06.06\] this code knowing that I am working with MongoDB, and pulling in some other code, maybe from some other languages. I don't know.
+**Alexey Palazhchenko:** In the same time, in that particular case I actually went and tried to search this code, and I did not find it. So maybe it actually this code knowing that I am working with MongoDB, and pulling in some other code, maybe from some other languages. I don't know.
 
 So that kind of thing kind of scares me... If you work in open source, you have to be very, very careful about licensing. That could be a problem for you. But in most other cases, that's just a miracle.
 
 **Natalie Pistunovich:** Yeah, that is an interesting point that you're bringing. I'd never thought of it until now... When you use AI to help you write code, you actually have to add one more test to everything that you are allowed to use the code that it generated... Like, when you search, that this code does not exist somewhere. That is actually something that we might all be adding to our future checklists as developers.
 
-**Alexey Palazhchenko:** Yeah. So actually, after that happened, I did some research what other people think. Yeah, a lot of people think that GitHub Copilot is basically a code laundering machine, because they publicly say that they teach the code on all the public code, not caring about the license. So I can assume that all public code includes some code you can't -- for example, GPL code. If you use a permissive license, you don't want to touch GPL code, but you don't know. The same thing - it would be hard to say "Okay, this code is copied verbatim", because basically almost nothing is copied verbatim... And then that would be for a judge to decide whether it was copied or not \[unintelligible 00:15:34.01\] we don't even know from the philosophical standpoint \[unintelligible 00:15:39.00\] but not from a legal perspective.
+**Alexey Palazhchenko:** Yeah. So actually, after that happened, I did some research what other people think. Yeah, a lot of people think that GitHub Copilot is basically a code laundering machine, because they publicly say that they teach the code on all the public code, not caring about the license. So I can assume that all public code includes some code you can't -- for example, GPL code. If you use a permissive license, you don't want to touch GPL code, but you don't know. The same thing - it would be hard to say "Okay, this code is copied verbatim", because basically almost nothing is copied verbatim... And then that would be for a judge to decide whether it was copied or not, we don't even know from the philosophical standpoint which should be considered copyable but not from a legal perspective.
 
 So I would say that by the time we have some precedents and we actually know whether it was legal or not, our judges will be AI tools. So that would be an AI judging an AI.
 
@@ -126,7 +126,7 @@ So I would say that by the time we have some precedents and we actually know whe
 
 On the level of "Did it learn from a good example or from a bad example?", because GitHub code is not labeled with "good repo", "bad repo". And also, even if the language is written correctly. Does it have good safety practices? Is the code that is out there secure or not? So you have to look out for so many things when you are choosing whether to accept AI-proposed code into your codebase or not.
 
-**Alexey Palazhchenko:** Yeah, but at the same time, how do you know if the code you \[unintelligible 00:17:17.14\] on GitHub as you, as a human or whatever, is good or not? Let's say you go develop \[unintelligible 00:17:24.21\] you join a community and you want to say "Okay, how you organize my Go code." You google it and find this famous Go standard layout. Is it good? Is it not?
+**Alexey Palazhchenko:** Yeah, but at the same time, how do you know if the code you want to look on GitHub as you, as a human or whatever, is good or not? Let's say you want a new go developer you join a community and you want to say "Okay, how you organize my Go code." You google it and find this famous Go standard layout. Is it good? Is it not?
 
 **Natalie Pistunovich:** I guess if it has some people thumbing it up, or even commenting... If it's active enough, it means enough people don't think it's bad.
 
@@ -134,7 +134,7 @@ On the level of "Did it learn from a good example or from a bad example?", becau
 
 **Natalie Pistunovich:** Just skipped it for later...
 
-**Alexey Palazhchenko:** Yeah. So I would say it's always for the human to decide, and I wonder how this would affect the coding styles of \[unintelligible 00:18:05.00\] for example. It may be very different from what language designers expected it to be.
+**Alexey Palazhchenko:** Yeah. So I would say it's always for the human to decide, and I wonder how this would affect the coding styles of a human for example. It may be very different from what language designers expected it to be.
 
 **Natalie Pistunovich:** Yeah. This brings me to the question if Go would be a good choice for AI-driven development, for the style of the language. What do you think?
 
@@ -154,7 +154,7 @@ For C, for example, you'll probably start with an import, but maybe not... Not a
 
 Last week was GopherCon, and there were some conversations around that, and one of the points that I made in a talk about that was that Go will not land you in the uncanny valley of code. That graph that makes you feel awkward about robots, and the one that can make you feel awkward about code. Because if it looks like it's computer-generated, it's like a weird robot. But if it looks like Go code that everybody else wrote, you're probably gonna feel comfortable with it.
 
-**Alexey Palazhchenko:** Well, I would say that generated Go code sometimes looks like uncanny valley. So it kind of makes sense, but it also kind of doesn't, and it looks very weird... \[unintelligible 00:22:09.23\] it doesn't even compile. It doesn't work. But it looks like it almost does what you need it to do.
+**Alexey Palazhchenko:** Well, I would say that generated Go code sometimes looks like uncanny valley. So it kind of makes sense, but it also kind of doesn't, and it looks very weird... Look at it careful and it doesn't even compile. It doesn't work. But it looks like it almost does what you need it to do.
 
 This video has a great example when the guy was making a game where you should guess the number, and the one who chooses the closest number wins. But Copilot always steered him to the game of "You have to choose the correct number exactly." So it basically tried to redefine the rules of the game. That was quite strange to see.
 
@@ -166,7 +166,7 @@ This video has a great example when the guy was making a game where you should g
 
 **Alexey Palazhchenko:** So the second-best language Copilot works for me is actually English... As I mentioned, readme generation is just great. And comments -- yeah, sometimes it writes better comments for my code than I would do.
 
-And you know, they have this new feature in beta when they allow you to describe the code as English. For example, you have a snippet of code, and -- yeah, most importantly, it works with regular expressions. It translates regular expressions to plain English. That's just great for people who don't know regular expressions \[unintelligible 00:23:36.29\] after that it just explains it in plain English. That's great.
+And you know, they have this new feature in beta when they allow you to describe the code as English. For example, you have a snippet of code, and -- yeah, most importantly, it works with regular expressions. It translates regular expressions to plain English. That's just great for people who don't know regular expressions. Basically you understand the jargon after that it just explains it in plain English. That's great.
 
 **Natalie Pistunovich:** Would you say it works great in both ways? Regex to English and English to regex?
 
@@ -174,11 +174,11 @@ And you know, they have this new feature in beta when they allow you to describe
 
 **Natalie Pistunovich:** \[24:17\] I tried writing some Bash scripts with it and that was also successful in doing what it was supposed to do. I guess Bash is similar to Go in that sense, that it's a kind of one way of doing things.
 
-**Alexey Palazhchenko:** Yeah, maybe just my way of writing Python is outdated. \[unintelligible 00:24:33.20\] was using Python 2 when I switched to Go. So maybe Python 3 \[unintelligible 00:24:40.23\]
+**Alexey Palazhchenko:** Yeah, maybe just my way of writing Python is outdated. The last instruction I was using was using Python 2 when I switched to Go. So maybe Python 3 is very different.
 
 **Natalie Pistunovich:** I imagine Python has multiple ways of doing things, so you cannot just set a one-one. And what languages did you get to try that were not really a good choice?
 
-**Alexey Palazhchenko:** Actually, I don't think I tried a lot of languages. At my current job I use Yaml. Yaml works great; English works great. \[unintelligible 00:25:03.09\] works great. Everything was pretty much great for me.
+**Alexey Palazhchenko:** Actually, I don't think I tried a lot of languages. At my current job I use Yaml. Yaml works great; English works great. I used configuration file, JSON works great. Everything was pretty much great for me.
 
 **Natalie Pistunovich:** Well...
 
