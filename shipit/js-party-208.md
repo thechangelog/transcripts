@@ -24,7 +24,7 @@
 
 **Ildar Iskhakov:** Everybody from the team should be responsible for the service, and it's better if it's not a night for that person... And that's basically what is being on-call.
 
-**Gerhard Lazu:** \[00:04:18.04\] So do you think that having a distributed team, Matvey, which is around the whole world, helps with this, so that when it's daytime for someone, it's nighttime for someone else... And maybe the person that is on-call, it's preferably daytime for them. Do you think that helps?
+**Gerhard Lazu:** \[04:18\] So do you think that having a distributed team, Matvey, which is around the whole world, helps with this, so that when it's daytime for someone, it's nighttime for someone else... And maybe the person that is on-call, it's preferably daytime for them. Do you think that helps?
 
 **Matvey Kukuy:** Actually, that's the only one way to put people on-call. Not at night. Because we don't have any other ways to distribute 24 hours fair enough. So that's why different tools showed up, which helped people to distribute on-call pressure, or alert pressure... So if it's night for one person, it makes a lot of sense to send incidents to another person who is on the other side of the globe. But of course, not every team could afford that, not every company could afford that, so there's still a lot of on-call teams which are not distributed worldwide which don't have this fair on-call distribution.
 
@@ -48,7 +48,7 @@ So yes, of course, I was on-call, and I had to wake up and fix something, and al
 
 So I believe, for most of the services, people would still need to wake up in the night and do some job.
 
-**Gerhard Lazu:** \[00:08:13.12\] I think waking up in the night - I think that's maybe the worst possible scenario when you're on-call... Preferably, there's someone when it's like daytime for them, and they don't need to wake up during the night... Because how good can you be at 3 AM or 4 AM in the morning, when you haven't had your coffee, you haven't had your routine, and you have to load all that up? Not to mention how peaceful is your sleep when you have to think that "Oh, any time my pager or my phone (whatever the case may be) may go off, and I need to be ready for that." So you're already setting yourself, just before you fall asleep, that "I may need to be woken up." As a result, you're half-asleep almost, because you need to be aware, I suppose. So what was your best on-call experience, Matvey?
+**Gerhard Lazu:** \[08:13\] I think waking up in the night - I think that's maybe the worst possible scenario when you're on-call... Preferably, there's someone when it's like daytime for them, and they don't need to wake up during the night... Because how good can you be at 3 AM or 4 AM in the morning, when you haven't had your coffee, you haven't had your routine, and you have to load all that up? Not to mention how peaceful is your sleep when you have to think that "Oh, any time my pager or my phone (whatever the case may be) may go off, and I need to be ready for that." So you're already setting yourself, just before you fall asleep, that "I may need to be woken up." As a result, you're half-asleep almost, because you need to be aware, I suppose. So what was your best on-call experience, Matvey?
 
 **Matvey Kukuy:** Interesting question. So the best on-call experience, of course, is when you are on-call, you know when you will be on-call, you prepared, and nothing happens. So your shift just passes by... \[laughter\]
 
@@ -70,7 +70,7 @@ Of course, everything got a little bit worse when I needed to involve somebody f
 
 **Matvey Kukuy:** So one of the main things about incident management is not to consider incidents as something unique. They will happen, they will happen always, and if you don't change, the incident will show up again. The same incident. So the bubble of problems will start to grow, and at some moment you'll find yourself just fixing incidents, and doing nothing else.
 
-\[00:11:50.21\] So of course, one of the main things is to share and build some action items after each incident. Of course, some incidents are like - okay, you go there, you reboot the server. It happens again, you go there, reboot the server. Again, you reboot the server. Again, and again, and you found out that you're doing it three times a day, and even if the incident is small, you need to bring some small group, like once a week, discuss what happened, and write down some action items, put them into your backlog, to mitigate this amount of technical debt you have in your infrastructure.
+\[11:50\] So of course, one of the main things is to share and build some action items after each incident. Of course, some incidents are like - okay, you go there, you reboot the server. It happens again, you go there, reboot the server. Again, you reboot the server. Again, and again, and you found out that you're doing it three times a day, and even if the incident is small, you need to bring some small group, like once a week, discuss what happened, and write down some action items, put them into your backlog, to mitigate this amount of technical debt you have in your infrastructure.
 
 So we tried our best to do it from the very beginning when it was a two-people startup. We still had those meetings, we incorporated those learnings, we wrote a little bit of runbooks... Of course, in the very beginning it's very naive, small, self-made... But it helped us to grow a lot. We're building incident management tools, we need to have a proper incident management process.
 
@@ -98,7 +98,7 @@ So we tried our best to do it from the very beginning when it was a two-people s
 
 **Gerhard Lazu:** Okay. So in terms of bad incidents, have you ever deleted production data? Like, drop the entire database. "Oops. I was meant to drop my development database, not my production one." I've done it once; it was terrible. \[laughter\] But luckily, we could rebuild it all. It was a grueling six hours, but we fixed it. I think that's the worst one that I can remember. This was maybe 15 years ago, maybe 10 years ago... I don't know. Something like that. And I was using one of those apps, the UIs to connect to my database, and I just had the wrong dropdown selected. I said "Yeah, of course I wanna delete all the tables." I was like, "Okay, okay." I didn't even read the message. The whole production went down. That was bad. That was bad. Did anything like that happen to you?
 
-**Ildar Iskhakov:** \[00:16:21.05\] I can say somebody from our team continuously wants to do that, but I guess we were experienced enough to add some pop-ups or some scripts that gives you some --
+**Ildar Iskhakov:** \[16:21\] I can say somebody from our team continuously wants to do that, but I guess we were experienced enough to add some pop-ups or some scripts that gives you some --
 
 **Matvey Kukuy:** Ildar is talking about me, because I have -- in the database query tool I use, I have production database selected by default, and everytime Ildar sees this, he says "That's not good." \[laughter\]
 
@@ -144,7 +144,7 @@ What about the stack? You mentioned you use Django, RabbitMQ, Celery... Do you u
 
 **Ildar Iskhakov:** Yeah, we do have a bunch of pools in different zones, I believe. And that's of course about our previous Amixr times, because when we joined Grafana, we completely redesigned; we checked what was wrong with some parts and we kind of spent a couple of months on transitioning our infrastructure... And now it can be a little bit different.
 
-**Break:** \[00:20:33.11\]
+**Break:** \[20:33\]
 
 **Gerhard Lazu:** So what does the infrastructure look like for Grafana OnCall today? ..or Amixr, however way you want to go. The present, or just before you were acquired. I'm trying to imagine your infrastructure setup, and the operations, and pushing code into prod... So if you can run us through that, I would really enjoy learning about that, Ildar.
 
@@ -152,7 +152,7 @@ What about the stack? You mentioned you use Django, RabbitMQ, Celery... Do you u
 
 Another nice part of our infrastructure was that from the beginning we used Amixr, which is Grafana OnCall now, for our own incident response management. When we just started the company, Amixr, we both were working in startups, I was working in enterprise, and we both were trying to start using some IRM tools, and I've found that something doesn't satisfy me with the existing solutions. And when I met Matvey again and started talking to him, I realized that we have some common opinion on the IRM tools. Matvey had so many ideas about that thing. He was working for a startup, for Constructor.io, I believe; the one from San Francisco... Matvey, you can tell us more about that experience of being on-call more... Because Matvey was that real on-call engineer, and probably he was the first person who was interviewed about \[unintelligible 00:24:08.07\] by himself, Matvey, and by me... \[laughter\]
 
-**Gerhard Lazu:** \[00:24:13.28\] Okay, interesting.
+**Gerhard Lazu:** \[24:13\] Okay, interesting.
 
 **Ildar Iskhakov:** Yeah, we were thinking "Why not? Why not start something that is easy to start using, that the market expects?" Because everything that we tried to use was built around 2010, when the whole infrastructure was different. When Docker was not popular, when there was no Kubernetes, and so on; when there was no SaaS/PaaS, everything as a service... And yeah, we were thinking "Why not build something that lives in the same place where engineers live?" And we had an idea that we need to build something, some tool that helps engineers to be on-call. And that's how the idea started.
 
@@ -184,7 +184,7 @@ And there is one other story, how this cluster -- why did we have from the very 
 
 **Gerhard Lazu:** ...and Ildar said "What the hell? Let me just spin another one up", and he did, and a few minutes later, 30 minutes, whatever, the whole setup was back on GKE?
 
-**Matvey Kukuy:** \[00:28:10.17\] Yes, yes. And it was a moment of celebrating Kubernetes, actually... So that's the imaginary situation why everybody is using Kubernetes. Exactly for this.
+**Matvey Kukuy:** \[28:10\] Yes, yes. And it was a moment of celebrating Kubernetes, actually... So that's the imaginary situation why everybody is using Kubernetes. Exactly for this.
 
 **Gerhard Lazu:** When was this? I'm really curious... When was this?
 
@@ -234,7 +234,7 @@ So would you be considering at any point a platform instead of Kubernetes? Can y
 
 **Ildar Iskhakov:** The same managed DNS from Google.
 
-**Gerhard Lazu:** \[00:31:59.09\] Okay, interesting.
+**Gerhard Lazu:** \[31:59\] Okay, interesting.
 
 **Matvey Kukuy:** Yeah, one thing which we didn't -- the main component of our system is RabbitMQ. Because of course, writing -- so from the very beginning, Amixr is very critical to deliver incidents for it. So we cannot lose incidents, we cannot lose data. So our software is a pipeline, so at the very beginning we receive the HTTP request, we put it as fast as possible to RabbitMQ, even if the database will go down; even if half the system wouldn't work, we will publish it to RabbitMQ. And okay, whatever happens later.
 
@@ -274,7 +274,7 @@ So we have multiple workers which consumed from this RabbitMQ, and for example, 
 
 **Gerhard Lazu:** Okay, that's great to know. Thank you for that, I enjoyed that.
 
-**Break:** \[00:35:28.02\]
+**Break:** \[35:28\]
 
 **Gerhard Lazu:** So if we were to start using OnCall for Changelog.com, where do you think that we should start?
 
@@ -292,7 +292,7 @@ So we have multiple workers which consumed from this RabbitMQ, and for example, 
 
 **Matvey Kukuy:** So it will automatically create a contact point for you in unified alerting, and start consuming alerts from the rest of Grafana. Your next steps are to configure on-call rotation. For on-call rotation we have a pretty interesting concept, which is a lot different from on-call schedulers our competitors have. Initially, we introduced these on-call rotation mechanics as a prototype. Just something quick, hacky, to give our clients to test, and it ended up to be so cool that we just stayed with it.
 
-\[00:40:22.08\] So actually, we don't have an on-call rotation editor in our product at all. So you'll not find something like in pager duty. But we allow consumption of on-call sheets from Google Calendar, Outlook... Any calendar system you use. So you just go to Google Calendar, create a new calendar, share it with your colleagues, create time slots, and connect it with Grafana OnCall.
+\[40:22\] So actually, we don't have an on-call rotation editor in our product at all. So you'll not find something like in pager duty. But we allow consumption of on-call sheets from Google Calendar, Outlook... Any calendar system you use. So you just go to Google Calendar, create a new calendar, share it with your colleagues, create time slots, and connect it with Grafana OnCall.
 
 It works well, because you already have your calendar app in your mobile phone. And the main thing which on-call editors should allow you to do is quick changes. For example, I need to -- I don't know, I have some family business, I need to leave my laptop; I'm on-call now, I need to overwrite, so I need to exchange on-call shifts with Ildar. How do I do it? Do I go to some large UI login, go deep, and make this change? Or I just open my calendar, create a time slot, and just create/overwrite there?
 
@@ -308,7 +308,7 @@ So we stayed with these mechanics and it worked well so far. Anything \[unintell
 
 For example, you could use Grafana OnCall with Zabbix, with Datadog, with any other system which could issue signals, alerts, whatever. You could write a cron job which will fire alerts there, and that's okay. No need to use Loki, Tempo, and other parts. Of course we want to build a cool experience, and make you \[unintelligible 00:44:00.25\] all tools together. But we don't force you. So that's a very cool idea we enjoyed when we joined.
 
-**Gerhard Lazu:** \[00:44:10.03\] That really resonates with me. I like that idea very much. Not forcing people... You don't have to use all of this stuff together. Just pick and choose whatever makes sense to you. And you can change your mind; that's okay, too. It's not like "Once you go down this path, that's it. It's really hard to go back."
+**Gerhard Lazu:** \[44:10\] That really resonates with me. I like that idea very much. Not forcing people... You don't have to use all of this stuff together. Just pick and choose whatever makes sense to you. And you can change your mind; that's okay, too. It's not like "Once you go down this path, that's it. It's really hard to go back."
 
 I'm wondering, how do SLOs fit with Grafana OnCall? Let's imagine that my uptime - let's just go with uptime - is three 9's. 99.9%. How does this concept - if at all; maybe it doesn't fit anywhere within Grafana OnCall. So I'm wondering if there is a connection there with SLOs.
 
@@ -326,7 +326,7 @@ So a question for you - how far do you think instruments should go? So what's th
 
 Let me give you an example. Currently - and I think this is us using... When I say "this is us", let me be more specific. This is me configuring alerts wrong in Grafana, in that if one probe - we're using synthetic monitoring - doesn't get a 200 response, I get a notification. Now, the first thing which I do, I look, like "Is this one probe, or is this across multiple probes?" If it's just one probe, I know that most likely there's an issue with that probe which is running in Grafana Cloud; our service is okay. Our service is fronted by a CDN, so the CDN would need to have a pretty bad day - which did happen, by the way... The first time in maybe five years when Fastly went down, it affected everyone. I was sunbathing. It was a very important moment... And I got all those incidents. It was like my day off. And I got so many alerts that day, because all the probes were failing.
 
-\[00:47:59.17\] So when I get notified, I know that I need to investigate. So nothing automatically couldn't resolve itself. It wasn't a matter of restarting it, there was no disk which was getting full, nothing like that. So what that usually means is networking; in almost all cases for us it just meant networking. So I would love to know which part of the network stack is the problem. Is it between a portion of the users and the CDN? Is it like a specific pop which maybe didn't fail over? Is it some data which was cached incorrectly in the CDN, and then that is being served, but everything is fine between the CDN, and the network is fine?
+\[47:59\] So when I get notified, I know that I need to investigate. So nothing automatically couldn't resolve itself. It wasn't a matter of restarting it, there was no disk which was getting full, nothing like that. So what that usually means is networking; in almost all cases for us it just meant networking. So I would love to know which part of the network stack is the problem. Is it between a portion of the users and the CDN? Is it like a specific pop which maybe didn't fail over? Is it some data which was cached incorrectly in the CDN, and then that is being served, but everything is fine between the CDN, and the network is fine?
 
 So going with the networking approach, which part of the network is the problem? And I would love basically to know where to pinpoint, where to start digging. It does happen that for example our Kubernetes - there's some issues with the networking, and the CDN cannot forward requests correctly. When that happens, we just serve stale content, except the dynamic requests. We still have a fair bit of those, and I wish we had fewer requests which were dynamic, which wouldn't depend on the origin being up. So that's okay. Again, for the majority of the users, the content can be served; the mp3 files, all the static assets, all that stuff. The website is up, it's not fully down... And that helps me figure out "Okay, so this is like a problem with the origin. We have only one, so things are simple... But I would expect us to have multiple origins, so that when one origin is down, it's okay. The traffic gets re-routed, and we just keep the healthy origin in the CDN.
 
@@ -346,7 +346,7 @@ I don't like having a single instance of anything. So I don't like depending on 
 
 I know people say multi-cloud is very difficult to do right. I get it. I understand the challenge, and I'm going to slowly chip away at that. There's some simple solutions, I think, rather than like the big problem. We're not that big; we can use, for example, Fly.io to host an instance of Changelog. We need to migrate all our assets to S3. And when we do that, our app and our stateful data is less, and we don't have to have an instance of all our media in multiple regions, and that will solve a lot of the problems.
 
-\[00:52:17.10\] The database, if we go to a hosted PostgreSQL, because that's what we use - maybe like CockroachDB; I'm really interested in what that would look like - we don't have to move the data. It's already distributed, it's all handled for us. So then all we have to do is \[unintelligible 00:52:29.16\] our code, and then how do we distribute the code effectively across multiple providers? Now, that's a very interesting challenge, isn't it? But all the state, the hard problem - that's already in S3. And if S3 is down - well, should we have a single S3? No, we should have multiple. What does that look like? I'm really passionate about solving that problem. And then you have multiples of everything; if one goes down, that's okay. My system is not down. It's degraded. And sure, I want to be notified, like "This part is down", but it's like, you know, a news item. "Oh, this is interesting. Some interesting tweets. What else happened in the life of Changelog infrastructure?" That's the way I think about this. So incidents - and that's why I asked my question about being on-call. Maybe if you approach things wrong, nobody needs to be on-call. Maybe.
+\[52:17\] The database, if we go to a hosted PostgreSQL, because that's what we use - maybe like CockroachDB; I'm really interested in what that would look like - we don't have to move the data. It's already distributed, it's all handled for us. So then all we have to do is \[unintelligible 00:52:29.16\] our code, and then how do we distribute the code effectively across multiple providers? Now, that's a very interesting challenge, isn't it? But all the state, the hard problem - that's already in S3. And if S3 is down - well, should we have a single S3? No, we should have multiple. What does that look like? I'm really passionate about solving that problem. And then you have multiples of everything; if one goes down, that's okay. My system is not down. It's degraded. And sure, I want to be notified, like "This part is down", but it's like, you know, a news item. "Oh, this is interesting. Some interesting tweets. What else happened in the life of Changelog infrastructure?" That's the way I think about this. So incidents - and that's why I asked my question about being on-call. Maybe if you approach things wrong, nobody needs to be on-call. Maybe.
 
 **Matvey Kukuy:** You know, black swans - they always come from the side you don't expect...
 
