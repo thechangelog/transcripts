@@ -18,7 +18,7 @@ And with me today, co-hosting, is Jerod. Hello, Jerod.
 
 **Amal Hussein:** So Mr. Kupertino, can you just tell us a little bit about yourself, for those folks who may not know you?
 
-**Amal Hussein:** \[00:04:03.08\] Yeah, absolutely. So I have been in engineering for a long time. I worked at a company called Baracuda Networks, doing security stuff; I worked at Twitter on trust and safety, and then on Twitter.com, worked on the Brave browser, back when there were like seven or eight of us or something like that on it... Then I was at Adobe for four years, working on a bunch of cool, creative cloud stuff... And then I'd always wanted to try developer relations. I'd always done conferences, and meetups, and stuff... So this is my first developer relations job now here at Cloudflare... And then I also run JSConf Hawaii, which is an awesome -- postponed for the last few years, but an awesome in-person JavaScript conference.
+**Amal Hussein:** \[04:03\] Yeah, absolutely. So I have been in engineering for a long time. I worked at a company called Baracuda Networks, doing security stuff; I worked at Twitter on trust and safety, and then on Twitter.com, worked on the Brave browser, back when there were like seven or eight of us or something like that on it... Then I was at Adobe for four years, working on a bunch of cool, creative cloud stuff... And then I'd always wanted to try developer relations. I'd always done conferences, and meetups, and stuff... So this is my first developer relations job now here at Cloudflare... And then I also run JSConf Hawaii, which is an awesome -- postponed for the last few years, but an awesome in-person JavaScript conference.
 
 **Jerod Santo:** Do you live in Hawaii?
 
@@ -94,7 +94,7 @@ I feel "internet" is the word that always comes to mind when I'm asked big-pictu
 
 **Amal Hussein:** Yeah.
 
-**Amal Hussein:** \[00:08:10.09\] And many folks don't know that, but really, we're very grateful to Cloudflare and how it's actually helped the JavaScript community support Npm and Node as it was scaling. I have to wonder, if it wasn't for Cloudflare's generosity, I don't even know what we would -- I don't even know what the internet would look like, because we have like a ridiculous discount with Cloudflare. I don't even know if you're charging us even a fraction of what you should have been charging us... So thank you, Cloudflare, for supporting the JavaScript community as it was growing and scaling, and figuring itself out.
+**Amal Hussein:** \[08:10\] And many folks don't know that, but really, we're very grateful to Cloudflare and how it's actually helped the JavaScript community support Npm and Node as it was scaling. I have to wonder, if it wasn't for Cloudflare's generosity, I don't even know what we would -- I don't even know what the internet would look like, because we have like a ridiculous discount with Cloudflare. I don't even know if you're charging us even a fraction of what you should have been charging us... So thank you, Cloudflare, for supporting the JavaScript community as it was growing and scaling, and figuring itself out.
 
 But I love this kind of remarketing as like a web security and performance company. So can you tell us a little bit about this shift towards being not just a CDN company, but so much more? Was it just kind of like a natural thing for Cloudflare?
 
@@ -118,7 +118,7 @@ Can you maybe tell us a little bit - how is Cloudflare more supportive to JavaSc
 
 **Amal Hussein:** Yeah. It's so interesting, because I feel like you sort of make these decisions early on in a company's life, and I know really smart leadership folks will be able to see the 5-10 years down the line, but for people like me it's often a surprise where we end up... So I think that - just to get into some of the architectural decisions when you look at Fastly, Cloudflare, AWS, these big players in the serverless space, it's that Cloudflare, unlike the other two, we don't have these VMs. If you boil it down to this base concept, you've got Amazon with this virtual machine, it spins up when a request comes in, you have this idea of like a cold start where it was off and it needs to turn on, versus a warm start, where it's already on, it's a lot faster... All this incredible technology. I'm a gigantic AWS fan. I think what they've built is just incredible...
 
-\[00:12:23.26\] So we're going with this different approach, which is that we run V8 in our data centers; Chrome V8, the JavaScript engine... So V8 has this concept of isolates. So V8 can have tons of these different isolates, which are little security sandboxed instances, but they are in VMs that turn off and on. So the V8 VM is always on. So basically, you have some of these trade-offs here that go pretty deep, but one very cool thing about us is in order to be super, superfast, we went with this architecture that's always on. So as soon as you hit a worker, it just runs a lot of times within 20 or 30 milliseconds, the response time. Very quickly. And one of the effects of that choice is that we natively support JavaScript and WASM, which is what V8 supports, because we're just running V8 at the edge.
+\[12:23\] So we're going with this different approach, which is that we run V8 in our data centers; Chrome V8, the JavaScript engine... So V8 has this concept of isolates. So V8 can have tons of these different isolates, which are little security sandboxed instances, but they are in VMs that turn off and on. So the V8 VM is always on. So basically, you have some of these trade-offs here that go pretty deep, but one very cool thing about us is in order to be super, superfast, we went with this architecture that's always on. So as soon as you hit a worker, it just runs a lot of times within 20 or 30 milliseconds, the response time. Very quickly. And one of the effects of that choice is that we natively support JavaScript and WASM, which is what V8 supports, because we're just running V8 at the edge.
 
 So all of a sudden, we have this platform that is very familiar, very comfortable for anybody doing these Node or JavaScript apps. They literally just point it at Cloudflare, we use the same module format, event listener format... All these browser and APIs that V8 supports, we support.
 
@@ -144,7 +144,7 @@ So that's actively where we're at right now - we have a lot of stuff turned off,
 
 **Amal Hussein:** Yeah, they're really fast. The numbers are tough because of latency and because we have pops all over the world, and things like that, but I think that a lot of people are able to see full runs of their worker returning data in under 50, often under 30 milliseconds.
 
-\[00:15:51.16\] At a certain point there's like a little bit of diminishing returns on speed, but what I love about our speed is it's fast enough that you can do dynamic stuff as fast as people are used to seeing static stuff. So I've built a lot of these apps -- like, we have this cool thing called HTML Rewriter, which is an API that runs in workers, that can do all of this cool manipulation of HTML, and stuff like that. And then we have data stores, like KV and Durable Objects. So you could literally pull a static page and decorate it with like a like counter, a view counter, or comments, or anything that you could imagine, about as fast as people are used to seeing a static website; still 30-50 milliseconds, and it could have all sorts of dynamic information on it, which is really fun for me. A lot of fun to play with.
+\[15:51\] At a certain point there's like a little bit of diminishing returns on speed, but what I love about our speed is it's fast enough that you can do dynamic stuff as fast as people are used to seeing static stuff. So I've built a lot of these apps -- like, we have this cool thing called HTML Rewriter, which is an API that runs in workers, that can do all of this cool manipulation of HTML, and stuff like that. And then we have data stores, like KV and Durable Objects. So you could literally pull a static page and decorate it with like a like counter, a view counter, or comments, or anything that you could imagine, about as fast as people are used to seeing a static website; still 30-50 milliseconds, and it could have all sorts of dynamic information on it, which is really fun for me. A lot of fun to play with.
 
 **Jerod Santo:** Yeah, I think 50 milliseconds is the threshold of which the human eye doesn't notice. To us it's instantaneous. So as long as you don't have additional bandwidth latency or whatever, at least execution time - you can't ask for much better than 30-50 milliseconds.
 
@@ -178,7 +178,7 @@ The one thing that it left out, in my opinion, was location. That still felt odd
 
 So the edge meant - if we're looking at our CDN - what we call each individual point of presence is like an edge network, that's like the closest thing to the user. So the actual code is running at the edge. As opposed to before, if you had a Lambda in Seattle and then you used Cloudflare to cache your responses, that cache would be at the edge, but the actual code, when there was a cache miss, would have to go all the way back to Seattle.
 
-\[00:19:50.02\] So that's kind of like edge computing. The reason I hated it is because it's like, at what point does it become edge? If you have two data centers with a load balancer, is that edge computing? And you go to the closest? Is 10 edge, is 20 edge? So I think it's a little bit tricky and there are diminishing returns, but edge meaning that your function is deployed somewhat all around the globe, and your users will hit the data center closest to them automatically.
+\[19:50\] So that's kind of like edge computing. The reason I hated it is because it's like, at what point does it become edge? If you have two data centers with a load balancer, is that edge computing? And you go to the closest? Is 10 edge, is 20 edge? So I think it's a little bit tricky and there are diminishing returns, but edge meaning that your function is deployed somewhat all around the globe, and your users will hit the data center closest to them automatically.
 
 **Jerod Santo:** Yeah, I think it's overloaded as well, because many companies use edge to refer to IoT devices, and stuff...
 
@@ -192,7 +192,7 @@ So the edge meant - if we're looking at our CDN - what we call each individual p
 
 **Amal Hussein:** So I think the thing is that when you use Cloudflare, you don't choose where it lives; it lives everywhere that we have the offer. And your users - you can just rest assured knowing that they'll hit the closest one.
 
-**Break:** \[00:20:40.01\]
+**Break:** \[20:40\]
 
 **Amal Hussein:** So Jon, that was a really great introduction into what is Cloudflare, how the company has grown, and how the company is reshifting its focus to better support modern web development, which is very exciting... And I think it'd be really great to clarify something for our listeners before we get into some of the nitty-gritty nuts and bolts of the new features... can we maybe clarify that like Cloudflare isn't a second-tier cloud? It's not like Vercel, where you're building on top of --
 
@@ -222,7 +222,7 @@ And then pretty much right away there was all this need for state. People were l
 
 So it's real simple... If you've ever used MongoDB, or -- a lot of companies have their own key-value stores, where you can keep track of how many times a user has visited the site, you could have the key be their IP address and the value be 0, going up, whatever. Stuff like that.
 
-\[00:24:01.26\] So KV is really awesome. And in fact - I'll get into Pages in a minute, but our original concept of static site host was this thing called Worker Sites, which we still support. Basically, it's like a build tool that takes a static website, markdown files, and sticks each markdown file on a KV store. So the key is the path, like my first blog post, and then the value is a bunch of HTML or markdown. And then a worker that reads the path from the request, fetches it from the KV store, and returns it. It's a basic kind of static site, even though it's dynamic, technically.
+\[24:01\] So KV is really awesome. And in fact - I'll get into Pages in a minute, but our original concept of static site host was this thing called Worker Sites, which we still support. Basically, it's like a build tool that takes a static website, markdown files, and sticks each markdown file on a KV store. So the key is the path, like my first blog post, and then the value is a bunch of HTML or markdown. And then a worker that reads the path from the request, fetches it from the KV store, and returns it. It's a basic kind of static site, even though it's dynamic, technically.
 
 So KV is awesome, it's just incredible. The only problem with KV is that it's an eventually consistent system. So if you imagine having this KV store running on all 200-300 data centers, it takes some time to populate. For the blog example it's great, because it's like, "Okay, I updated my blog, and it takes you 20 seconds before you can actually see it." That's not a problem, right? But when you start doing really performance-based state, it's a problem.
 
@@ -254,7 +254,7 @@ But we also have an offering now called Cloudflare Pages, which simply is a stat
 
 **Amal Hussein:** Yeah, is there a time where someone would wanna use key-value store versus a durable object?
 
-**Amal Hussein:** \[00:27:53.09\] Yeah, I mean the debate is really truly consistency versus latency, for those that are trying to make their chart... Like, if you don't care about eventual consistency, if you don't care about things taking a little while to update, then KV is a far superior platform, because it's so low-latency. It'll return super-quickly. If you're making chat room comments, Google Docs, something where you just can't have like a 20-second wait time in between updates, then Durable Objects is the way to go for that.
+**Amal Hussein:** \[27:53\] Yeah, I mean the debate is really truly consistency versus latency, for those that are trying to make their chart... Like, if you don't care about eventual consistency, if you don't care about things taking a little while to update, then KV is a far superior platform, because it's so low-latency. It'll return super-quickly. If you're making chat room comments, Google Docs, something where you just can't have like a 20-second wait time in between updates, then Durable Objects is the way to go for that.
 
 **Jerod Santo:** And the drawback of Durable Objects is...
 
@@ -308,7 +308,7 @@ But when it comes to simple examples for a worker - because I've done a lot of w
 
 So you can think of these areas where you're just intercepting, doing a little something, and passing it on. And it goes all the way from there -- you could build your whole application on workers, but I think for people that already have big API surfaces, thinking about things like that, like adding a simple security header to all of your endpoints, that's a great use case for a worker.
 
-**Amal Hussein:** \[00:32:13.13\] That's some hot stuff. I mean, it's a great proxy layer, and also we use it heavily at Npm, and yeah, I can say, blocking a specific IP - super-easy on the Cloudflare dashboard.
+**Amal Hussein:** \[32:13\] That's some hot stuff. I mean, it's a great proxy layer, and also we use it heavily at Npm, and yeah, I can say, blocking a specific IP - super-easy on the Cloudflare dashboard.
 
 **Amal Hussein:** Absolutely.
 
@@ -350,7 +350,7 @@ I did a blog post recently on spinning up a whole video app where you can upload
 
 **Jerod Santo:** Q, R ,S... Yeah, for sure.
 
-**Amal Hussein:** \[00:35:59.28\] I think there's gotta be something there... And also, they call it radically reprogrammable, or something like that.
+**Amal Hussein:** \[35:59\] I think there's gotta be something there... And also, they call it radically reprogrammable, or something like that.
 
 **Jerod Santo:** Didn't you want to make it better? Like, you are less than Amazon, but which one -- would it be like T4, if you were gonna be better than S3?
 
@@ -420,7 +420,7 @@ I do think it's cool for me as like a user, advocating for the users - again, to
 
 **Amal Hussein:** Yeah... "I keep googling, but nothing turns up."
 
-**Break:** \[00:40:10.18\]
+**Break:** \[40:10\]
 
 **Amal Hussein:** So okay, Jon Kuperman, my request to you is --
 
@@ -434,7 +434,7 @@ I do think it's cool for me as like a user, advocating for the users - again, to
 
 **Amal Hussein:** Yeah, I'd say there's the big things, like to check out -- if you start a new Pages app, or if you move your site onto Cloudflare, just playing around in the dashboard, which we've been working on design tweaks to, but... We basically have a lot of cool stuff about automatic image optimization, making your images smaller, or reading the device size and serving images... So that's like Polish and Mirage.
 
-\[00:43:59.14\] Then we have the Rocket Loader, which will turn off unnecessary \[unintelligible 00:44:02.07\] So we've got a lot of these options, and these are all one-click options for the most part. So if you start a new Cloudflare Pages app, or if you move your website over... Sort of looking at these things - automatic imagery sizing, automatic compression of JavaScript and CSS and HTML, serving images by the device width... Or with the automatic resizing, every time we have to do a resize, we save it, too. That's like a paid service. And so then you just upload one image, and then as devices come in, we start resizing it based on their width, and then we save all those cached in the edge... So you end up with 10 or 20 copies of your image. Rocket Loader for speeding up JavaScript-heavy sites...
+\[43:59\] Then we have the Rocket Loader, which will turn off unnecessary \[unintelligible 00:44:02.07\] So we've got a lot of these options, and these are all one-click options for the most part. So if you start a new Cloudflare Pages app, or if you move your website over... Sort of looking at these things - automatic imagery sizing, automatic compression of JavaScript and CSS and HTML, serving images by the device width... Or with the automatic resizing, every time we have to do a resize, we save it, too. That's like a paid service. And so then you just upload one image, and then as devices come in, we start resizing it based on their width, and then we save all those cached in the edge... So you end up with 10 or 20 copies of your image. Rocket Loader for speeding up JavaScript-heavy sites...
 
 And then the other one that I wanted to talk about which I think is really cool is we have this tiered caching initiative which is now available in the dashboard... So the idea being let's say you have 200 data centers, and you use our CDN. Or we have 200 data centers, you use our CDN. So your stuff gets cached in all 200 data centers, but then every time you do a cache purge, or a user requests something where there's a miss, it has to always go back to your application.
 
@@ -452,7 +452,7 @@ So it's like, "I need a JPEG, and I hit this one -- I'm in Florida, so I hit the
 
 **Amal Hussein:** Yes. But there's advantages where it can do a lot of things that DNS can't. It can monitor slowdowns, or different routes, or different paths towards hosts... This is where I feel like we kind of have built this -- I don't wanna be too tooting our own horn about it, but it's kind of cool the internet has some... Like, the way that networking works has a few of these shortcomings, like traffic jam is a thing, right? Where like a certain popular data center will be slowed down... So we have some cool things with the fact that we're sitting on top of that. So we can basically have these caching systems that can re-route based on real-time analytics and stuff like that, and prevent you from hammering origin servers. So I really like that stuff...
 
-**Jerod Santo:** \[00:48:03.08\] Is that because you own every hop, whereas in DNS you're going outside your own networks, but in this system you control each hop, and so you can route around certain things, whereas you wouldn't have that information inside of a DNS architecture?
+**Jerod Santo:** \[48:03\] Is that because you own every hop, whereas in DNS you're going outside your own networks, but in this system you control each hop, and so you can route around certain things, whereas you wouldn't have that information inside of a DNS architecture?
 
 **Amal Hussein:** Yeah, absolutely. So we have some cool stuff -- I think Argo Smart Routing is that product. If you search Argo Smart Routing, you go to the site, it has really cool -- our design team did these awesome visualizations of like... You know, let's say there's something going down in this really big data center in the middle of the country, and how Argo Smart Routing can move around and get back to origin in a faster way, not just optimizing for least number of hops.
 
@@ -484,7 +484,7 @@ You mentioned the image resizing optimizations... Images only get resized when a
 
 **Amal Hussein:** So luck for me is opportunity meets preparation, right? I can tell you Cloudflare has been pushing the boundaries for a very long time, and I'll share a story with everyone... My first interaction with Cloudflare was maybe about 5-6 years ago; I knew about the company before that, but I was at All Things Open, and connected with someone who worked at a company that was just acquired by Cloudflare, and I got invited to a workshop that he was giving for a few people to demo his app. It was some drag-and-drop edge compute thing; I can't even remember the name.
 
-\[00:51:58.19\] But anyways, I attended this workshop and I learned about edge computing for the first time, and they had developer advocates from Cloudflare there, and I was just like "Whoa! What is all this stuff?" It just felt like they were talking to me about the iPhone when I still had like a rotary phone. It felt very future-focused. So I think the company itself has been very oriented towards the future for a very long time, so... It's not luck.
+\[51:58\] But anyways, I attended this workshop and I learned about edge computing for the first time, and they had developer advocates from Cloudflare there, and I was just like "Whoa! What is all this stuff?" It just felt like they were talking to me about the iPhone when I still had like a rotary phone. It felt very future-focused. So I think the company itself has been very oriented towards the future for a very long time, so... It's not luck.
 
 **Amal Hussein:** No, I don't think so... I think it's interesting being new and being on more of a customer-focused team. I feel like other jobs I've had, leadership gets on stage and kind of drills into you "This is our mantra. This is our thinking. This is where we're heading." You know what I mean? They \[unintelligible 00:52:41.03\] Cloudflare has this very unique thing where they don't do a lot of that kind of talking. Stuff just kind of comes together, and I feel like one of the cool results is that employees have these micro-epiphanies as they're working, where it's like another ball drops and you're like "Oh, that's what you've been doing -- Oh, okay, okay, I get it." It has this SaaS stuff for me, as we've done the streams stuff, and we've done... It just starts coming together. I feel like it's so much cooler being shown than it is being told. I think that's one thing I really enjoy about working there. The releases are happening, and wheels are turning in my head, and stuff is clicking together, and I'm starting to really see this vision here, which is just exciting.
 
@@ -510,7 +510,7 @@ I feel like it's really empathetic too, to be like "What is in people's head rig
 
 **Amal Hussein:** So we do a lot of really cool stuff, like from product offerings... So we have like the Captcha, which is really nice... It's not one that you necessarily have to play with. It just runs its automated heuristics, where it pops you out to a Cloudflare screen, it says "Give me a second" and then it pops you back. We have a lot of different protections over like bots, and things like that, and spam... So you can set up your own heuristics to be like "Oh, if it's more than a 70, just block it", or "If it's an IP address that's hit more than --"
 
-\[00:56:19.18\] So it kind of comes into this, again -- we try to offer these building blocks where you can create your own experience... So we have the bot detector score, we have Cloudflare Page Rules, which are like an if-else UI that you can use... So you could say "If a user hits this URL, add a header." But you could also say "If a user's bot management score is over 80, send him away. I don't want it."
+\[56:19\] So it kind of comes into this, again -- we try to offer these building blocks where you can create your own experience... So we have the bot detector score, we have Cloudflare Page Rules, which are like an if-else UI that you can use... So you could say "If a user hits this URL, add a header." But you could also say "If a user's bot management score is over 80, send him away. I don't want it."
 
 So we kind of offer this whole package, and then again, being in the DNS spot, a lot of the cool stuff is really just behind the scenes. There's just stuff where -- when that page is sitting, we're running latest and greatest kind of cool security heuristics, and stuff like that behind the scenes.
 
