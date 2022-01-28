@@ -182,9 +182,9 @@ And you know, they have this new feature in beta when they allow you to describe
 
 **Natalie Pistunovich:** Well...
 
-**Alexey Palazhchenko:** I imagine something like \[unintelligible 00:25:12.03\] programming language would not work very well.
+**Alexey Palazhchenko:** I imagine something like very esoteric, I don’t know, like Malbolge programming language would not work very well.
 
-**Natalie Pistunovich:** \[unintelligible 00:25:18.22\] might be interesting to see how that goes. English to \[unintelligible 00:25:23.16\]
+**Natalie Pistunovich:** LaTeX, LaTeX might be interesting to see how that goes. English to LaTeX.
 
 **Alexey Palazhchenko:** Imagine you could write a Ph.D. with Copilot.
 
@@ -194,15 +194,15 @@ And you know, they have this new feature in beta when they allow you to describe
 
 **Natalie Pistunovich:** Kind of the other way around from Copilot. I saw in some -- for example in Replit, which is kind of an online IDE, and there you can highlight a function and then say what does it do. And then it will -- similarly, I guess, to a readme, it will be sort of your English used in programming languages, a helper. Can you imagine some more other interesting places where your AI can be augmenting our developer lives?
 
-**Alexey Palazhchenko:** Well, I can imagine it doing pull request reviews. They already have quite some help with linters, and CI, and all that... But imagine Angry AI saying "You should DRY this code" or "You should use single \[unintelligible 00:26:35.25\]" or something like that... And then there would be a slider, like "Angry team leader" or "Pleasant team leader", with different settings.
+**Alexey Palazhchenko:** Well, I can imagine it doing pull request reviews. They already have quite some help with linters, and CI, and all that... But imagine Angry AI saying "You should DRY this code" or "You should use single explicability" or something like that... And then there would be a slider, like "Angry team leader" or "Pleasant team leader", with different settings.
 
 **Natalie Pistunovich:** Or like a linter for the answers... A linter before you basically submit your review, that kind of helps you choose the -- "This word is nicer than that word." Or more encouraging.
 
-**Alexey Palazhchenko:** Actually, one I think I would want from Copilot is to generate proper \[unintelligible 00:27:05.05\] configuration file for me... Because it has so many configuration options.
+**Alexey Palazhchenko:** Actually, one I think I would want from Copilot is to generate proper Go configuration file for me... Because it has so many configuration options.
 
 **Natalie Pistunovich:** Yeah. It can be sort of like a smart configuration values, right? Kind of like "This is my use case. Give me what's a good default to have."
 
-**Alexey Palazhchenko:** Yeah. Or just "This is my code. \[unintelligible 00:27:19.26\] disable everything.
+**Alexey Palazhchenko:** Yeah. Or just "This is my code. My configuration passes my code." This is how I disabled everything.
 
 **Natalie Pistunovich:** I hope somebody is listening and writing down and making a startup of each of those ideas, because it's all useful tools.
 
@@ -242,7 +242,7 @@ And you know, they have this new feature in beta when they allow you to describe
 
 **Natalie Pistunovich:** I guess you can always make it more specific... So what would be your recommendations for Go developers who are not yet using Copilot, or kind of just played around with it a little bit? So how can you use that as a tool to make your developer life better? What can you already do?
 
-**Alexey Palazhchenko:** Yeah, so I would say the hardest problem for you could be just get access to it... Because as far as I know, it's still not public \[unintelligible 00:29:35.09\] If you have it and if you've found a way to have it -- maybe people can contact you and you ask them nicely to give some access... \[laughs\] But I would say just try it out if you have access to it, and start writing code with maybe a bit more comments than you previously used, especially if you never write comments in your public code, or private code. Then, after that, it just works miracles. Of course, you should try to verify the code \[unintelligible 00:30:06.07\] not just blindly accept it. Other than that, I would say go ahead.
+**Alexey Palazhchenko:** Yeah, so I would say the hardest problem for you could be just get access to it... Because as far as I know, it's still not public for everyone. If you have it and if you've found a way to have it -- maybe people can contact you and you ask them nicely to give some access... \[laughs\] But I would say just try it out if you have access to it, and start writing code with maybe a bit more comments than you previously used, especially if you never write comments in your public code, or private code. Then, after that, it just works miracles. Of course, you should try to verify the code fraud, not just blindly accept it. Other than that, I would say go ahead.
 
 **Natalie Pistunovich:** So starting by better documentation.
 
@@ -250,7 +250,7 @@ And you know, they have this new feature in beta when they allow you to describe
 
 **Natalie Pistunovich:** Yeah. Yeah. It can be also interesting to use for maybe refactoring.
 
-**Alexey Palazhchenko:** Refactoring would be actually a really interesting use case... Because right now, all refactoring I know in various editors and IDEs is just completely algorithmic. It's very deterministic. Simple methods like \[unintelligible 00:30:42.21\] But if you're using AI - yeah, that would be a very powerful tool.
+**Alexey Palazhchenko:** Refactoring would be actually a really interesting use case... Because right now, all refactoring I know in various editors and IDEs is just completely algorithmic. It's very deterministic. Simple methods like a name or extract might be something like that. But if you're using AI - yeah, that would be a very powerful tool.
 
 **Natalie Pistunovich:** I can imagine also improving your testing. All the tests that you have for your code; it can also be a quick, easy win.
 
@@ -258,7 +258,7 @@ And you know, they have this new feature in beta when they allow you to describe
 
 **Natalie Pistunovich:** I'm curious now if there's already some existing library that somebody created that "Here's a great dataset (or pack), all the things you can ever test, all the inputs that are worth being tested", or something like this, and generated by Copilot, and then this will become kind of one of the new things that you always involve in your testing flow.
 
-**Alexey Palazhchenko:** Yeah, actually there's a repository, something about like "repository of bad \[unintelligible 00:31:36.26\]" which contains all these weird edge cases, like \[unintelligible 00:31:41.03\]
+**Alexey Palazhchenko:** Yeah, actually there's a repository, something about like "repository of bad strings" which contains all these weird edge cases, like unicode, zero strings, null strings, and all that
 
 **Natalie Pistunovich:** It would be interesting to tell "fuzz it for me", or something like this. Find fuzzy inputs.
 
@@ -272,9 +272,9 @@ So I would say representation could be better, but when it works nicely, you go 
 
 **Natalie Pistunovich:** Well, to play a little bit the devil's advocate, we started this show with listing all the different things that you might need to be reviewing if you are getting the help of an AI to be your co-programmer, if you're doing pair programming with it... So is it actually more efficient?
 
-**Alexey Palazhchenko:** I would say yes. One problem that we did not mention yet - for me at least - is that you just compile it, you have to switch \[unintelligible 00:33:55.07\] between reading and writing. Sometimes you read the code, you understand where you should place new code, how it works, how you refactor it, and then you start writing. And then you pause, you look for what happened, refactor it. With Copilot's suggestions, you have to configure timing pretty well. Otherwise you can be interrupted in your flow. But once you're just used to it, or you configured it, it works much better.
+**Alexey Palazhchenko:** I would say yes. One problem that we did not mention yet - for me at least - is that you just compile it, you have to switch modes between reading and writing. Sometimes you read the code, you understand where you should place new code, how it works, how you refactor it, and then you start writing. And then you pause, you look for what happened, refactor it. With Copilot's suggestions, you have to configure timing pretty well. Otherwise you can be interrupted in your flow. But once you're just used to it, or you configured it, it works much better.
 
-I would say that I did some measurements \[unintelligible 00:34:27.04\] but I've found it helpful... Simple code, repetitive code is generated basically by GitHub Copilot automatically.
+I would say that I did some measurements not scientific totally from me of course, but I've found it helpful... Simple code, repetitive code is generated basically by GitHub Copilot automatically.
 
 **Natalie Pistunovich:** Would you say that Copilot is a good tool to use if you are diving into a completely new codebase? ...so you're kind of even trying to understand what goes where... Speaking of reading versus writing.
 
@@ -286,11 +286,11 @@ I would say that I did some measurements \[unintelligible 00:34:27.04\] but I've
 
 **Natalie Pistunovich:** Yeah.
 
-**Alexey Palazhchenko:** I think one Go-specific way where Copilot would help is as a generics replacement. You don't have to write all this code yourself, you don't have to use generics; you can just ask the compiler to generate all the various functions for \[unintelligible 00:35:32.02\] and it works great.
+**Alexey Palazhchenko:** I think one Go-specific way where Copilot would help is as a generics replacement. You don't have to write all this code yourself, you don't have to use generics; you can just ask the compiler to generate all the various functions for different and it works great.
 
 **Natalie Pistunovich:** \[laughs\] That's an interesting approach.
 
-**Alexey Palazhchenko:** Yeah... I mean, we used these code generators everyone wrote back in the day, and... \[unintelligible 00:35:45.00\] Just use Copilot. That would be fine.
+**Alexey Palazhchenko:** Yeah... I mean, we used these code generators everyone wrote back in the day, and... reflection, interface...Just use Copilot. That would be fine.
 
 **Natalie Pistunovich:** So what would your ideal Copilot Go library look like? What would be a super-useful function/functions?
 
@@ -314,7 +314,7 @@ I would say that I did some measurements \[unintelligible 00:34:27.04\] but I've
 
 **Natalie Pistunovich:** Go is used a lot, or more and more, not just for regular code, like web code, but also for infrastructure; like, different tools that are written in Go. So how can we improve that with AI? Let's see what we can do better.
 
-**Alexey Palazhchenko:** So let's imagine that we have an AI that actually can write the domain-specific language for our infrastructure. So for all those benefits of Go, Go is quite \[unintelligible 00:37:54.27\] language, and this error handling can -- I mean, writing business logic in Go is not the nicest way to use the language. It's great for infrastructure, it's great for some places where you manage bytes and so on, but if you want to write high-level business logic in Go, that's not very easy.
+**Alexey Palazhchenko:** So let's imagine that we have an AI that actually can write the domain-specific language for our infrastructure. So for all those benefits of Go, Go is quite various language, and this error handling can -- I mean, writing business logic in Go is not the nicest way to use the language. It's great for infrastructure, it's great for some places where you manage bytes and so on, but if you want to write high-level business logic in Go, that's not very easy.
 
 At the same time, existing solutions for integrating different other languages are also not great.
 
@@ -350,7 +350,7 @@ So imagine that Copilot analyzes your business problem, your domain, and then cr
 
 **Natalie Pistunovich:** Okay. Interesting.
 
-**Alexey Palazhchenko:** Yeah, people do write that. Maybe \[unintelligible 00:41:09.05\] people just write down all the keywords they know in English \[unintelligible 00:41:13.27\] is in Russian...
+**Alexey Palazhchenko:** Yeah, people do write that. Maybe that's a Russian thing that people just write down all the keywords they know in English and everything else is in Russian...
 
 **Natalie Pistunovich:** Or you're coming very opinionated. "If you're not working with Vim, I don't want to work here."
 
@@ -364,7 +364,7 @@ So imagine that Copilot analyzes your business problem, your domain, and then cr
 
 And back to this Advent of Code with Codex, I noticed that sometimes some of the days when I just copy-pasted the entire instruction of what is the Advent Code of today that you need to solve, for some languages it solved it perfectly from the first attempt, for some other languages, other days, were just not working. So you can even change your comment or change your instruction to the computer... So you can argue that prompt engineering can be even used in Copilot.
 
-**Alexey Palazhchenko:** Yeah, that's definitely a useful skill to mention in your CV. You know how \[unintelligible 00:43:07.06\] things for Copilot. You're fast at tweaking words for Copilot.
+**Alexey Palazhchenko:** Yeah, that's definitely a useful skill to mention in your CV. You know how to relay things for Copilot. You're fast at tweaking words for Copilot.
 
 **Natalie Pistunovich:** I wonder if this is a similar category to "I'm really good in documenting my code." Would you write that in your CV? \[laughs\]
 
@@ -372,7 +372,7 @@ And back to this Advent of Code with Codex, I noticed that sometimes some of the
 
 **Natalie Pistunovich:** \[laughs\] "I can do that in only 7.5 seconds." \[laughs\] I guess that all falls under communication skills... But then maybe this is kind of the expanding my communication skills with my human teammates, and with my AI augmentation tools...?
 
-**Alexey Palazhchenko:** Yes, that would be interesting, if the skills should be significantly different \[unintelligible 00:43:43.18\] You speak with humans with one language, and with AI this different language.
+**Alexey Palazhchenko:** Yes, that would be interesting, if the skills should be significantly different and diverse. You speak with humans with one language, and with AI this different language.
 
 **Natalie Pistunovich:** There is a point to that, because the model was trained on English, or on natural language, and it was trained on code... But it was trained only on a subset, and it's always -- like, it will never be the same subset of the average person. It's not like the average person of one country has another world of context and vocabulary and whatnot of another person, in another language... So maybe even skills of English is actually becoming more of a need for a developer to have, so you can better communicate with the AI.
 
