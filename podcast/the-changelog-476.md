@@ -18,7 +18,7 @@
 
 **Paul Copplestone:** No, that's exactly right. The main thing that we offer is the database. It's a full-on Postgres database. It's not abstractions. And really, what we're building around it is the tooling to make Postgres as easy to use as possible. So automatic APIs, and auth... All the things that he said, actually. So really, it's this "inspired by", as you've said. We're not going for one-to-one compatibility. If we were, then the only differentiator would be open source, and already Firebase is a very good product, and it's just having open source as a differentiator. It might be enough, but we feel like we can go above and beyond; we can also make it incredibly scalable, we can make it work with existing open source tools, we can support open source tools... So yeah, we sort of take a few liberties beyond just being a one-to-one alternative.
 
-**Jerod Santo:** \[00:04:22.08\] So I've never used Firebase beyond the demos... I know some people who sing its praises. I know there's been some decent businesses built on top of Firebase. It's not a new thing. Firebase has been around for many years... I don't know what the general zeitgeist feeling is - like, is it stagnant, is it continuing to add? I feel like I don't hear about it as much as I used to, which may be a hypecycle thing, or maybe it's like -- it's inside Google now, so it's maybe just being maintained, but not worker on... I'm sure you know this far better than I do, so maybe catch us up with Firebase, your feelings on it, and why Supabase became a thing; was it a reaction to Firebase? Did you see an opportunity? Unpack that.
+**Jerod Santo:** \[04:22\] So I've never used Firebase beyond the demos... I know some people who sing its praises. I know there's been some decent businesses built on top of Firebase. It's not a new thing. Firebase has been around for many years... I don't know what the general zeitgeist feeling is - like, is it stagnant, is it continuing to add? I feel like I don't hear about it as much as I used to, which may be a hypecycle thing, or maybe it's like -- it's inside Google now, so it's maybe just being maintained, but not worker on... I'm sure you know this far better than I do, so maybe catch us up with Firebase, your feelings on it, and why Supabase became a thing; was it a reaction to Firebase? Did you see an opportunity? Unpack that.
 
 **Paul Copplestone:** It's definitely still a thing, still growing. I think the team inside Google -- I've heard from one person it's 200 or so, so it's fairly decent size.
 
@@ -54,7 +54,7 @@ Originally, we weren't really thinking of building an open source Firebase alter
 
 **Adam Stacoviak:** For timing's sake, or in terms of understanding historicals, when did things began? So take us back to that tagline day. When did things really begin for Supabase?
 
-**Paul Copplestone:** \[00:07:50.18\] Yeah, so right back at the beginning I met my co-founder actually in an accelerator in Singapore... And then we didn't do a business together, we just hung out and we lived together for a year, and we did our separate startups for a couple of years... And then I kind of incubated some of the tools that we built for Supabase in that startup, and then I said to him, "Look, I'm gonna do this Postgres tooling startup." I think I pitched him -- the name was like Deckstack, or something like that, as a placeholder... Something ridiculous, terrible. So he was keen... I think I actually pitched him "We're gonna assemble this squad of people who are gonna be very YC-friendly, and we're gonna apply for YC." He had applied for YC like 5 or 6 times and been rejected, so I think that's really what he was going for, hopefully, just to get into YC...
+**Paul Copplestone:** \[07:50\] Yeah, so right back at the beginning I met my co-founder actually in an accelerator in Singapore... And then we didn't do a business together, we just hung out and we lived together for a year, and we did our separate startups for a couple of years... And then I kind of incubated some of the tools that we built for Supabase in that startup, and then I said to him, "Look, I'm gonna do this Postgres tooling startup." I think I pitched him -- the name was like Deckstack, or something like that, as a placeholder... Something ridiculous, terrible. So he was keen... I think I actually pitched him "We're gonna assemble this squad of people who are gonna be very YC-friendly, and we're gonna apply for YC." He had applied for YC like 5 or 6 times and been rejected, so I think that's really what he was going for, hopefully, just to get into YC...
 
 Then we did, of course -- January 2020 we chatted to a few people about Postgres. Everyone loved Postgres. We had asked them what they wanted to use, we asked them what they were really using, and they said Firebase, and so that's where we got this idea "Well, the tooling is very important." Why did they use it? It was just very easy, so we sort of changed the tagline and made the tooling -- sent it against Firebase. We got into YC, and that was summer '20. And since then, we've just been building non-stop, trying to catch up with all the features of Firebase.
 
@@ -80,7 +80,7 @@ So in these ways I think we've kind of taken some of their ideas and made them o
 
 **Paul Copplestone:** But he said that they had this enterprise graduation problem, because everyone would get to sort of enterprise level, but then there was too much magic. They didn't understand everything happening under the hood. There were too much abstractions going on. So it became for us -- we just took his term, "no magic." We'll make it feel magical, but you can really understand everything. It's just Postgres. Yeah, we failed at their pitch, but I think we won a very important lesson from it.
 
-**Jerod Santo:** \[00:12:09.00\] Well, you're definitely speaking my language. I am a long-time Postgres die-hard.
+**Jerod Santo:** \[12:09\] Well, you're definitely speaking my language. I am a long-time Postgres die-hard.
 
 **Paul Copplestone:** Nice.
 
@@ -112,7 +112,7 @@ It sounds like your story then with Supabase -- we'll get into the open source, 
 
 So I used this -- actually, most of the tools inside Supabase were what I used in my previous business, and then the idea was -- well, it was just so easy... We built this whole business with just me and two other techies, just because the tooling enabled us to do a lot more... And then I just decided, "Well, perhaps there's a business around it", and I chatted to Ant, my co-founder, and he agreed... So we went with it.
 
-There was kind of an impetus as well. So we were using Firebase for one part of the system; it's like a chat application. And it has this weird limitation where you can only update a document once per second, and then it rate-limits you... So I had to implement real-time functionality inside our Postgres database, and I did it using an Elixir tool, and I open-sourced it, and that started getting a lot of traction. So that's the thing that kind of gave me the reason to reach out to Ant, and the reason for us to start Supabase.
+There was kind of an impetus as well. So we were using Firebase for one part of the system; it's like a chat application. And it has this weird limitation where you can only update a document once per second, and then it rate-limits you... So I had to implement real-time functionality inside our Postgres database, and I did it using an Elixir tool, and I open sourced it, and that started getting a lot of traction. So that's the thing that kind of gave me the reason to reach out to Ant, and the reason for us to start Supabase.
 
 **Jerod Santo:** So let's continue talking about these other aspects... We touched on auth; I think we'll probably revisit auth in a deeper way, but you're also offering obviously the Postgres database as is, file storage which I think is pretty self-explanatory. You can tell me if there's interesting bits there... But then the API side sounds interesting to me. So do you wanna touch on file storage if there's anything to say besides it's like a file store?
 
@@ -120,7 +120,7 @@ There was kind of an impetus as well. So we were using Firebase for one part of 
 
 So once again, when people are accessing those, you can put rules, like "Oh, this user can access this file", and you just write those rules inside the database.
 
-**Jerod Santo:** \[00:16:09.21\] Okay, that is kind of cool.
+**Jerod Santo:** \[16:09\] Okay, that is kind of cool.
 
 **Adam Stacoviak:** That is interesting.
 
@@ -156,21 +156,21 @@ It sounds like even if I was in the Supabase, I could be into this cool, new ext
 
 **Jerod Santo:** Like, "Wait a second... You're just giving away this extension that could open up a whole new area of business for us?" It seems like there's a push and a pull there.
 
-**Paul Copplestone:** \[00:20:05.10\] Yeah, well they are very patient, our investors. They've luckily got very deep pockets. But also, our core business is hosting Postgres databases, so anything that could make that more attractive to our customers would be good.
+**Paul Copplestone:** \[20:05\] Yeah, well they are very patient, our investors. They've luckily got very deep pockets. But also, our core business is hosting Postgres databases, so anything that could make that more attractive to our customers would be good.
 
 **Jerod Santo:** Yeah, the better Postgres gets, the better you guys potentially get.
 
 **Paul Copplestone:** Exactly. And we know that probably a lot of people will use this. It was very popular on Hacker News when we launched it. We know that probably a lot of cloud providers might wanna use it... Which is fine by us. I mean, Postgres itself I think is the epitome of good open source. And if all open source operated like this, where we're kind of sharing resources, then the world would be a better place. Hopefully, by other people using it, they will help us improve it as well, and it's good for everyone.
 
-**Break:** \[00:21:00.17\]
+**Break:** \[21:00\]
 
-**Jerod Santo:** So Supabase is open-sourced... Can you explain to us what all that means? Because open source is all shapes and sizes, and software - many facets. Surely there's some aspects that aren't maybe... Or maybe not; maybe it's all open source, and then the business side - let's dig into that, the all VC-backed open source company thing is fascinating.
+**Jerod Santo:** So Supabase is open sourced... Can you explain to us what all that means? Because open source is all shapes and sizes, and software - many facets. Surely there's some aspects that aren't maybe... Or maybe not; maybe it's all open source, and then the business side - let's dig into that, the all VC-backed open source company thing is fascinating.
 
 **Paul Copplestone:** Yeah. As you point out, everyone's choosing a different flavor of open source these days. Basically, for us everything is open source except for our platform code. So you can sign up to Supabase at app.supabase.io, and you can launch a database or multiple databases, whatever you want. All that orchestration code is closed source, it's proprietary. Anything else - if you wanna self-host, you wanna put the dashboard in front of your database, you wanna put on the components in front of your database, that's all open source.
 
 And quite particular, we ensure that we choose very OSI-compliant licenses: MIT, Apache 2 Postgres... Anything along these lines.
 
-**Adam Stacoviak:** \[00:23:53.13\] One of the things I thought was interesting too as I was doing some research was just the flexibility this model gives to those who use it. You can do a local machine, you can do the cloud service, which is what you were talking about, the platform code, or even as a Docker container. So you really have, from a user perspective, the highest advantage, which is really open source; the mantra behind open source is adoption. I can put something out there, and one person can use it and get value, or everybody can use it and get value. I think that's kind of interesting, that you're so flexible that you can do local, cloud service, as you do, or a container, and just giving the user base that kind of flexibility to be so restriction-free.
+**Adam Stacoviak:** \[23:53\] One of the things I thought was interesting too as I was doing some research was just the flexibility this model gives to those who use it. You can do a local machine, you can do the cloud service, which is what you were talking about, the platform code, or even as a Docker container. So you really have, from a user perspective, the highest advantage, which is really open source; the mantra behind open source is adoption. I can put something out there, and one person can use it and get value, or everybody can use it and get value. I think that's kind of interesting, that you're so flexible that you can do local, cloud service, as you do, or a container, and just giving the user base that kind of flexibility to be so restriction-free.
 
 **Paul Copplestone:** For sure. I mean, we get a lot of people who want us to integrate, they wanna integrate with us, or... We don't really have a marketplace for integration platform. The thing that really holds us back is that usually if they're proprietary tools, then you can't run it on your local machine. You can't stick it into the Docker, or you could sign up for our proprietary API. And even this is quite difficult with Stripe; we like to do a lot of stuff with Stripe to make it easier... But you know, it's all web-based, and you can't emulate all of Stripe inside your database. But with Supabase, everything -- you could literally run it on an airplane with the Wi-Fi off, and you could start building your app in the airplane. So yeah, that's a huge developer productivity gain.
 
@@ -236,7 +236,7 @@ And quite particular, we ensure that we choose very OSI-compliant licenses: MIT,
 
 **Paul Copplestone:** Yeah.
 
-**Jerod Santo:** \[00:28:08.08\] ...I think if your answer is "We're gonna outcompete them", which it sounds like what you're just saying, is like "Well, we're just gonna be better. We're not gonna do the relicensing thing." You definitely have chosen this path, and I appreciate that you respect Postgres has its own IP, its own copyright, its own licensing, and you're building around that... So yeah, what else are you gonna do? You're just gonna outcompete at that point, I guess...
+**Jerod Santo:** \[28:08\] ...I think if your answer is "We're gonna outcompete them", which it sounds like what you're just saying, is like "Well, we're just gonna be better. We're not gonna do the relicensing thing." You definitely have chosen this path, and I appreciate that you respect Postgres has its own IP, its own copyright, its own licensing, and you're building around that... So yeah, what else are you gonna do? You're just gonna outcompete at that point, I guess...
 
 **Paul Copplestone:** For sure, for sure. We'll do better product lines, better developer experience, better taste... I mean, AWS just doesn't have it in their DNA. Go on our website and you'll just know straight away. It's just not an AWS product.
 
@@ -252,7 +252,7 @@ I think though there's a lot of -- I would imagine the people you've hired are d
 
 **Adam Stacoviak:** On that note then, what do you think is the -- if you can say how you're capturing the value most, is it just being who you are and being reliable? What is it that captures the value for Supabase today?
 
-**Paul Copplestone:** \[00:31:46.01\] Well, at the moment, most of our customers are the JAMstack crowd. So we worked very well with Netlify and Vercel. Anything that you're deploying as a frontend and you need a backend, sort of a serverless backend. As we push more into enterprise... Maybe JAMstack will grow into enterprise; it seems to be, given the recent fundraising rounds that we're seeing for Netlify and Vercel. Then they might be more interested. But for now, the pitch is developer productivity around Postgres, our auth is becoming very popular with the enterprise crowd. So different parts of the stack. Support of course is the thing that enterprise customers always want. Uptime, SLAs... All the boring stuff. So the exciting stuff gets the JAMstack crowd in, the boring stuff gets the enterprise customers.
+**Paul Copplestone:** \[31:46\] Well, at the moment, most of our customers are the JAMstack crowd. So we worked very well with Netlify and Vercel. Anything that you're deploying as a frontend and you need a backend, sort of a serverless backend. As we push more into enterprise... Maybe JAMstack will grow into enterprise; it seems to be, given the recent fundraising rounds that we're seeing for Netlify and Vercel. Then they might be more interested. But for now, the pitch is developer productivity around Postgres, our auth is becoming very popular with the enterprise crowd. So different parts of the stack. Support of course is the thing that enterprise customers always want. Uptime, SLAs... All the boring stuff. So the exciting stuff gets the JAMstack crowd in, the boring stuff gets the enterprise customers.
 
 **Jerod Santo:** So while we're on the financial side - I notice on the website you are backed by Mozilla. I've never seen that before... Can you talk about that?
 
@@ -318,7 +318,7 @@ Can you share what the spectrum of that 80k might be, just rough? ...or exact, i
 
 **Paul Copplestone:** These are the ones where I share without the Y axis... \[laughter\] No, no --
 
-**Jerod Santo:** \[00:36:18.07\] Give us a percentage. We can't derive the math; just give us a percentage.
+**Jerod Santo:** \[36:18\] Give us a percentage. We can't derive the math; just give us a percentage.
 
 **Paul Copplestone:** No, it's a valid point. A lot of people --
 
@@ -340,7 +340,7 @@ Obviously, the name of the game in business is to profit and sustain, right? But
 
 So there's lots up for grabs, but there's lots of competition in this space. Fauna is one, Cockroach, you guys, Prisma... There's a lot of people doing databases in different forms; like you said, Firebase has kind of been there, established, 18 different sub-projects... Maybe not your immediate competition. Who do you see as Supabase's competition in database-as-a-service? I know you're more than just database, but still...
 
-**Paul Copplestone:** \[00:39:56.12\] Yeah. Ultimately, we'll be going after the serverless database situation... So that could be for example AWS Aurora. They have a serverless Postgres offering. Google also bringing out a similar offering. A very good service at the moment is PlanetScale as well; I think they're doing very good stuff for the MySQL crowd. So anyone who's doing this -- Cockroach no doubt; they're Postgres-compatible as well. Not fully, 100% Postgres, because it's sort of rewritten... But I guess yeah, we'll definitely be bumping shoulders with these type of people as we grow.
+**Paul Copplestone:** \[39:56\] Yeah. Ultimately, we'll be going after the serverless database situation... So that could be for example AWS Aurora. They have a serverless Postgres offering. Google also bringing out a similar offering. A very good service at the moment is PlanetScale as well; I think they're doing very good stuff for the MySQL crowd. So anyone who's doing this -- Cockroach no doubt; they're Postgres-compatible as well. Not fully, 100% Postgres, because it's sort of rewritten... But I guess yeah, we'll definitely be bumping shoulders with these type of people as we grow.
 
 But yeah, really, this market is getting very big, and I can see there's not gonna be a winner-takes-all type market. There's definitely gonna be a lot of space.
 
@@ -368,7 +368,7 @@ So really - yeah, this is great, because... You know, the technology that you le
 
 **Jerod Santo:** Yeah.
 
-**Paul Copplestone:** \[00:44:23.21\] I didn't realize that there was a hard limitation of 8,000 bytes... So I found an Elixir library that helped out a lot, but I built this engine where you can connect via WebSockets to your database, and you'll just listen to the replication stream. So the write-ahead log sends events out of it. I connected to that with a Phoenix server, and then I sort of decoded this stream, and then I blasted the decoded JSON into the WebSocket, so you can listen to any change that's happening.
+**Paul Copplestone:** \[44:23\] I didn't realize that there was a hard limitation of 8,000 bytes... So I found an Elixir library that helped out a lot, but I built this engine where you can connect via WebSockets to your database, and you'll just listen to the replication stream. So the write-ahead log sends events out of it. I connected to that with a Phoenix server, and then I sort of decoded this stream, and then I blasted the decoded JSON into the WebSocket, so you can listen to any change that's happening.
 
 And then we've just built out this functionality, we've just released it with row level security; so the rules that you specify on your table, that are adhered to on the real-time security. So for example, if you had a messages table, and let's say you wrote a row where only you, your user ID could listen to message ID 1 and 3. You could just listen to all the changes in the messages table, but you would only receive changes to message ID 1 and 3, because you're authenticated through the real-time server.
 
@@ -394,7 +394,7 @@ And then we've just built out this functionality, we've just released it with ro
 
 **Adam Stacoviak:** Because Supabase is in beta, and just beneath the benefits is - there's a server-guaranteed delivery of every data change. And there's some, essentially, limitations and warnings, basically... Like, your database may run out of disk space due to the write-ahead logging... So there's like crash possibility... Like, tread your own water. Would you consider this like in the same vein of beta as Supabase, or is this ready to be used? Are you iterating on those limitations?
 
-**Paul Copplestone:** \[00:48:08.21\] This one's probably slightly different... Every tool kind of has its own status, ultimately...
+**Paul Copplestone:** \[48:08\] This one's probably slightly different... Every tool kind of has its own status, ultimately...
 
 **Adam Stacoviak:** Right. Is it done, or is this just sort of like a future, what you'd love to have?
 
@@ -402,7 +402,7 @@ And then we've just built out this functionality, we've just released it with ro
 
 But for connecting multiple clients to the database and listening, usually it's for like message updates, and things like this. You don't really need guaranteed delivery. You want almost guaranteed delivery, but it doesn't matter if the occasional message slips through. They just refresh the page. So in this case - yeah, it's definitely a done product, but we'll keep iterating on the CDC part of it.
 
-**Break:** \[00:49:12.15\]
+**Break:** \[49:12\]
 
 **Jerod Santo:** So as a Postgres user, who also speaks with a lot of newfangled database vendors, a lot of the stories that I hear about the architecture of databases have made me believe - I'm here for you to debunk or to agree - that a client-server relational database such as Postgres architecturally is not well-suited in a serverless world. Your response, sir...
 
@@ -428,7 +428,7 @@ So there's a lot of stuff coming in this space... Pluggable storage is an intere
 
 **Paul Copplestone:** But I know of other companies who are completely rewriting it, because if you combine Postgres with ZFS, then you've essentially got Postgres doing a storage mechanism, ZFS doing a storage mechanism. So it's like double-handling of storage. Ideally, what you want is it handled all inside Postgres itself.
 
-**Adam Stacoviak:** \[00:56:16.13\] Even when you talked about the architecture too, to make Postgres serverless, you talked about maybe an intent log, or something like that... It reminded me of the ZIL, which is the -- I don't know what the ZFS terminology is, but it's like an intent log. ZFS intends to write this to its storage engine, or whatever it might be. I'm not familiar with all the necessary particulars of language and lingo, but that's it - it's an intent to write it. So this log is a separate cache, or it can be a separate cache; it seems like what you're building to make Postgres serverless is not necessarily converting Postgres to serverless, but adding services on top of it to augment and add to it, that may actually land -- because you're kind of user land, technically, right? You're commercially user land; that might actually eventually land in Postgres itself.
+**Adam Stacoviak:** \[56:16\] Even when you talked about the architecture too, to make Postgres serverless, you talked about maybe an intent log, or something like that... It reminded me of the ZIL, which is the -- I don't know what the ZFS terminology is, but it's like an intent log. ZFS intends to write this to its storage engine, or whatever it might be. I'm not familiar with all the necessary particulars of language and lingo, but that's it - it's an intent to write it. So this log is a separate cache, or it can be a separate cache; it seems like what you're building to make Postgres serverless is not necessarily converting Postgres to serverless, but adding services on top of it to augment and add to it, that may actually land -- because you're kind of user land, technically, right? You're commercially user land; that might actually eventually land in Postgres itself.
 
 **Paul Copplestone:** Correct, correct. And we will work on it with the community, for sure. I mean, we've got the funding to do this, as well as our intention. But for now - yeah, as you say, it's a really good term, we're in user land, and we are providing the tools that abstract all the difficulties of Postgres, including this sort of not being serverless. So we abstract all of that away, so that people don't have to think about that, and they just think in user land. And then it's up to us to figure out how to do really serverless Postgres, so that if you get to 20 terabytes of data, you don't have to worry.
 
