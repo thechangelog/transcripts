@@ -86,7 +86,7 @@ So we tried our best to do it from the very beginning when it was a two-people s
 
 **Ildar Iskhakov:** It didn't wake up, luckily. The script was to notify somebody when the person got online, which was really cool... But it was actually not that bad. We just kind of increased the level of -- you know, just more people learned about our product, and after that we just got a few more requests for the demo. So it was not that bad. But of course, from the developer point of view, it was not the best experience.
 
-**Matvey Kukuy:** It was \[unintelligible 00:14:34.08\] spammed all of our customers... And they were like "Wow. What's that?"
+**Matvey Kukuy:** It was Go hacker on call rotation and he just spammed all of our customers... And they were like "Wow. What's that?"
 
 **Gerhard Lazu:** And they said "I want this. This is a great feature. Can I have it, please?" \[laughter\] So the problem was like "Now we have to ship it." You can't back out of it; it's not like a hidden feature, A/B testing sort of thing. No, everybody has to have it. Okay, interesting.
 
@@ -102,7 +102,7 @@ So we tried our best to do it from the very beginning when it was a two-people s
 
 **Matvey Kukuy:** Ildar is talking about me, because I have -- in the database query tool I use, I have production database selected by default, and everytime Ildar sees this, he says "That's not good." \[laughter\]
 
-**Gerhard Lazu:** Alright. But you haven't deleted it yet, so \[unintelligible 00:16:50.16\] something similar, by the way.
+**Gerhard Lazu:** Alright. But you haven't deleted it yet, so even you're doing that, I was something similar, by the way.
 
 **Matvey Kukuy:** Yeah, yeah. \[laughs\]
 
@@ -150,7 +150,7 @@ What about the stack? You mentioned you use Django, RabbitMQ, Celery... Do you u
 
 **Ildar Iskhakov:** Sure, I'd love to. We had all our code in our own instance of GitLab, and we used GitLab CI to push our code in the primary cluster, in our primary Kubernetes cluster. It was GKE, and we had a pretty interesting pipeline, which actually checked the databases, it makes all the clones, it ran all the migrations, it tested them... And only after everything successfully passed, we were doing the actual release, the actual migrations, everything.
 
-Another nice part of our infrastructure was that from the beginning we used Amixr, which is Grafana OnCall now, for our own incident response management. When we just started the company, Amixr, we both were working in startups, I was working in enterprise, and we both were trying to start using some IRM tools, and I've found that something doesn't satisfy me with the existing solutions. And when I met Matvey again and started talking to him, I realized that we have some common opinion on the IRM tools. Matvey had so many ideas about that thing. He was working for a startup, for Constructor.io, I believe; the one from San Francisco... Matvey, you can tell us more about that experience of being on-call more... Because Matvey was that real on-call engineer, and probably he was the first person who was interviewed about \[unintelligible 00:24:08.07\] by himself, Matvey, and by me... \[laughter\]
+Another nice part of our infrastructure was that from the beginning we used Amixr, which is Grafana OnCall now, for our own incident response management. When we just started the company, Amixr, we both were working in startups, I was working in enterprise, and we both were trying to start using some IRM tools, and I've found that something doesn't satisfy me with the existing solutions. And when I met Matvey again and started talking to him, I realized that we have some common opinion on the IRM tools. Matvey had so many ideas about that thing. He was working for a startup, for Constructor.io, I believe; the one from San Francisco... Matvey, you can tell us more about that experience of being on-call more... Because Matvey was that real on-call engineer, and probably he was the first person who was interviewed about OnCall by himself, Matvey, and by me... \[laughter\]
 
 **Gerhard Lazu:** \[24:13\] Okay, interesting.
 
@@ -162,7 +162,7 @@ I already mentioned that we had this back-up system that lived in the cluster, t
 
 **Gerhard Lazu:** Interesting. So how was this beginning for you, Matvey, with Constructor? How did you see this period of becoming Amixr more and more? How did that grow for you?
 
-**Matvey Kukuy:** As Ildar mentioned, I used to be on-call in this awesome startup called Constructor.io. Thanks, \[unintelligible 00:26:05.10\] you have incidents all the day, all the night; I was in charge of infrastructure, so that's when I started thinking about maybe building some tooling here, because the tooling which existed didn't fit me, for some reason. It was hard for me to formulate why exactly. So I started this as a mostly research project, like "I will build something in this field, and if I spend a lot of effort, I will build something awesome. But I don't know what it is."
+**Matvey Kukuy:** As Ildar mentioned, I used to be on-call in this awesome startup called Constructor.io. Thanks, Sam, they're cool. And one thing, you have incidents all the day, all the night; I was in charge of infrastructure, so that's when I started thinking about maybe building some tooling here, because the tooling which existed didn't fit me, for some reason. It was hard for me to formulate why exactly. So I started this as a mostly research project, like "I will build something in this field, and if I spend a lot of effort, I will build something awesome. But I don't know what it is."
 
 **Gerhard Lazu:** Okay.
 
@@ -238,7 +238,7 @@ So would you be considering at any point a platform instead of Kubernetes? Can y
 
 **Matvey Kukuy:** Yeah, one thing which we didn't -- the main component of our system is RabbitMQ. Because of course, writing -- so from the very beginning, Amixr is very critical to deliver incidents for it. So we cannot lose incidents, we cannot lose data. So our software is a pipeline, so at the very beginning we receive the HTTP request, we put it as fast as possible to RabbitMQ, even if the database will go down; even if half the system wouldn't work, we will publish it to RabbitMQ. And okay, whatever happens later.
 
-So we have multiple workers which consumed from this RabbitMQ, and for example, Slack - we have a lot of third-parties. We have \[unintelligible 00:32:45.18\] which is making a phone call; we have other dependencies... And they sometimes go down, and that's why we have these retry-based systems. So our workers - they will try, try, try, again and again, a lot of fallbacks, a lot of ifs and elses, but that's why we didn't use managed RabbitMQ, because we spent a lot of time trying to understand how exactly does it work, how exactly does it recover, and we wanted full control under RabbitMQ.
+So we have multiple workers which consumed from this RabbitMQ, and for example, Slack - we have a lot of third-parties. We have Pillar which is making a phone call; we have other dependencies... And they sometimes go down, and that's why we have these retry-based systems. So our workers - they will try, try, try, again and again, a lot of fallbacks, a lot of ifs and elses, but that's why we didn't use managed RabbitMQ, because we spent a lot of time trying to understand how exactly does it work, how exactly does it recover, and we wanted full control under RabbitMQ.
 
 **Gerhard Lazu:** Right.
 
@@ -266,7 +266,7 @@ So we have multiple workers which consumed from this RabbitMQ, and for example, 
 
 **Gerhard Lazu:** Maybe just like in one sentence - which RabbitMQ version? 3.6, 3.7, 3.8, 3.9? What are you running? How many nodes? One, three, five? Whatever. How many clusters? And which queue type? Classic queue, classic mirrored? Quorum queue? Have you heard of Streams?
 
-**Ildar Iskhakov:** I believe we use the latest version, 3.9. We have a cluster of three nodes as for now, and I believe we used classic, \[unintelligible 00:35:19.27\]
+**Ildar Iskhakov:** I believe we use the latest version, 3.9. We have a cluster of three nodes as for now, and I believe we used classic, residence.
 
 **Gerhard Lazu:** Classic queues, okay. Mirrored? Do you use mirroring?
 
@@ -286,7 +286,7 @@ So we have multiple workers which consumed from this RabbitMQ, and for example, 
 
 **Gerhard Lazu:** So if we already emit logs to Grafana Cloud, and we emit metrics to Grafana Cloud, how do we make use of those with Grafana OnCall?
 
-**Matvey Kukuy:** So Grafana OnCall - it's very important to understand what is this product about. It's not about \[unintelligible 00:38:53.24\] It's not for managing large incidents, when you have like a 17-hour long incident and you need help and communication... It's not about that. It's focused on notification for right people, right time, according to on-call schedules and different channels. So if you need to go to Grafana and set up your alerts, feel free to play with unified alerting, which was revealed recently also... And after you configure your alerts, rules and thresholds, you could open the Grafana OnCall, you'll see the small onboarding instructions there, like "Do a, b, c, d." So you click at integration there, and it's a quick integration with current Grafana.
+**Matvey Kukuy:** So Grafana OnCall - it's very important to understand what is this product about. It's not about insane colors. Grafana itself is for, j-rating colors. It's not for managing large incidents, when you have like a 17-hour long incident and you need help and communication... It's not about that. It's focused on notification for right people, right time, according to on-call schedules and different channels. So if you need to go to Grafana and set up your alerts, feel free to play with unified alerting, which was revealed recently also... And after you configure your alerts, rules and thresholds, you could open the Grafana OnCall, you'll see the small onboarding instructions there, like "Do a, b, c, d." So you click at integration there, and it's a quick integration with current Grafana.
 
 **Gerhard Lazu:** Okay.
 
@@ -296,7 +296,7 @@ So we have multiple workers which consumed from this RabbitMQ, and for example, 
 
 It works well, because you already have your calendar app in your mobile phone. And the main thing which on-call editors should allow you to do is quick changes. For example, I need to -- I don't know, I have some family business, I need to leave my laptop; I'm on-call now, I need to overwrite, so I need to exchange on-call shifts with Ildar. How do I do it? Do I go to some large UI login, go deep, and make this change? Or I just open my calendar, create a time slot, and just create/overwrite there?
 
-So we stayed with these mechanics and it worked well so far. Anything \[unintelligible 00:41:33.25\] The next thing you could do is to connect your mobile phone, verify your mobile phone/sms, set up escalation policies... So if incidents occurred, what Grafana OnCall will do; who to notify. Somebody based on on-call schedule? What if this person would not respond? Five minutes later, notify for example Tom, because \[unintelligible 00:41:58.14\] on-call shift... And yeah, that's all. That's all about Grafana OnCall. So if will notify in comfortable time.
+So we stayed with these mechanics and it worked well so far. Anything back we'd really appreciate, if you will have one. The next thing you could do is to connect your mobile phone, verify your mobile phone/sms, set up escalation policies... So if incidents occurred, what Grafana OnCall will do; who to notify. Somebody based on on-call schedule? What if this person would not respond? Five minutes later, notify for example Tom, because Mattias kept on-call shift... And yeah, that's all. That's all about Grafana OnCall. So if will notify in comfortable time.
 
 **Gerhard Lazu:** So alerting - I know that when you configure alerts, you can also set up notifications... So what system to use to notify, and then it fires off those notifications. I don't fully understand how Grafana OnCall fits into that chain, in that notifications won't be fired straight away; they need to basically adhere to some rules, which I imagine is just Grafana OnCall, which knows maybe who to notify. Is that right? But I'm not quite clear...
 
@@ -306,7 +306,7 @@ So we stayed with these mechanics and it worked well so far. Anything \[unintell
 
 **Matvey Kukuy:** ...you could go there. What we really enjoyed about Grafana when we joined is that big tent philosophy. So we designed Grafana OnCall so it will be helpful for you even if you don't use other parts of Grafana. And other parts of Grafana - they don't need Grafana OnCall. You could use Grafana OnCall if you find it comfortable. If you don't, just use a competitor tool.
 
-For example, you could use Grafana OnCall with Zabbix, with Datadog, with any other system which could issue signals, alerts, whatever. You could write a cron job which will fire alerts there, and that's okay. No need to use Loki, Tempo, and other parts. Of course we want to build a cool experience, and make you \[unintelligible 00:44:00.25\] all tools together. But we don't force you. So that's a very cool idea we enjoyed when we joined.
+For example, you could use Grafana OnCall with Zabbix, with Datadog, with any other system which could issue signals, alerts, whatever. You could write a cron job which will fire alerts there, and that's okay. No need to use Loki, Tempo, and other parts. Of course we want to build a cool experience, and make you laugh all tools together. But we don't force you. So that's a very cool idea we enjoyed when we joined.
 
 **Gerhard Lazu:** \[44:10\] That really resonates with me. I like that idea very much. Not forcing people... You don't have to use all of this stuff together. Just pick and choose whatever makes sense to you. And you can change your mind; that's okay, too. It's not like "Once you go down this path, that's it. It's really hard to go back."
 
@@ -346,7 +346,7 @@ I don't like having a single instance of anything. So I don't like depending on 
 
 I know people say multi-cloud is very difficult to do right. I get it. I understand the challenge, and I'm going to slowly chip away at that. There's some simple solutions, I think, rather than like the big problem. We're not that big; we can use, for example, Fly.io to host an instance of Changelog. We need to migrate all our assets to S3. And when we do that, our app and our stateful data is less, and we don't have to have an instance of all our media in multiple regions, and that will solve a lot of the problems.
 
-\[52:17\] The database, if we go to a hosted PostgreSQL, because that's what we use - maybe like CockroachDB; I'm really interested in what that would look like - we don't have to move the data. It's already distributed, it's all handled for us. So then all we have to do is \[unintelligible 00:52:29.16\] our code, and then how do we distribute the code effectively across multiple providers? Now, that's a very interesting challenge, isn't it? But all the state, the hard problem - that's already in S3. And if S3 is down - well, should we have a single S3? No, we should have multiple. What does that look like? I'm really passionate about solving that problem. And then you have multiples of everything; if one goes down, that's okay. My system is not down. It's degraded. And sure, I want to be notified, like "This part is down", but it's like, you know, a news item. "Oh, this is interesting. Some interesting tweets. What else happened in the life of Changelog infrastructure?" That's the way I think about this. So incidents - and that's why I asked my question about being on-call. Maybe if you approach things wrong, nobody needs to be on-call. Maybe.
+\[52:17\] The database, if we go to a hosted PostgreSQL, because that's what we use - maybe like CockroachDB; I'm really interested in what that would look like - we don't have to move the data. It's already distributed, it's all handled for us. So then all we have to do is worry about our code, and then how do we distribute the code effectively across multiple providers? Now, that's a very interesting challenge, isn't it? But all the state, the hard problem - that's already in S3. And if S3 is down - well, should we have a single S3? No, we should have multiple. What does that look like? I'm really passionate about solving that problem. And then you have multiples of everything; if one goes down, that's okay. My system is not down. It's degraded. And sure, I want to be notified, like "This part is down", but it's like, you know, a news item. "Oh, this is interesting. Some interesting tweets. What else happened in the life of Changelog infrastructure?" That's the way I think about this. So incidents - and that's why I asked my question about being on-call. Maybe if you approach things wrong, nobody needs to be on-call. Maybe.
 
 **Matvey Kukuy:** You know, black swans - they always come from the side you don't expect...
 
