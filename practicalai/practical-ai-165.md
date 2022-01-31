@@ -28,7 +28,7 @@
 
 **Chris Benson:** You don't have to go all the way back to birth. It's okay. But if it's interesting, we'd like to hear it. \[laughter\]
 
-**Bonaventure Dossou:** \[00:04:00.22\] Yeah, so I can say that I did not at all plan/predict where I am right now. I was meant to be a gynecologist, someone who helps pregnant women to give birth. I was trained in high school in biology, and to become a doctor. I sucked at math, and of course, I loved computer science, because I had my first computer when I was six. I envisioned myself doing it, but not that much. You know, medicine was my priority.
+**Bonaventure Dossou:** \[04:00\] Yeah, so I can say that I did not at all plan/predict where I am right now. I was meant to be a gynecologist, someone who helps pregnant women to give birth. I was trained in high school in biology, and to become a doctor. I sucked at math, and of course, I loved computer science, because I had my first computer when I was six. I envisioned myself doing it, but not that much. You know, medicine was my priority.
 
 So a lot of things happened, family and stuff, personal issues, and finally, I jumped right into the field of mathematics. I then got a scholarship to study for my bachelor in mathematics in Russia, where I spent five years --
 
@@ -52,7 +52,7 @@ And you know, the most interesting fact about him was I could completely fail an
 
 So high school is divided into two main components. Maybe the first part, the first year of the four years - that's more general. After, you have to pass a national exam. And then the second part is when you go into a more specialized field... Like, if you want to do mathematics, advanced math, then there's a fit for it. If you want to do biology, there's a fit...
 
-\[00:07:59.24\] So I performed well at that exam in biology, but not in math. So I was now redirected in biology. But in SS1, I met him. So the transition from SG4 to SS1 was huge, because people who were top math students and everything, they saw that transformation and they were like "Okay, so what happened?" I would say that's from where the whole passion about math and doing something that involves math started.
+\[07:59\] So I performed well at that exam in biology, but not in math. So I was now redirected in biology. But in SS1, I met him. So the transition from SG4 to SS1 was huge, because people who were top math students and everything, they saw that transformation and they were like "Okay, so what happened?" I would say that's from where the whole passion about math and doing something that involves math started.
 
 Then after, I still wanted to become a doctor, because that's always been my child dream... But then, they came in conflict, because I discovered computer science. I mean, I discovered the real computer science, all the math and algebra behind... It gave me more passion.
 
@@ -68,7 +68,7 @@ I'm also someone who learns from mistakes a lot, so I was like "Okay, if you bec
 
 **Bonaventure Dossou:** Yeah. So the core of ML, of AI is actually maths, right? Differential equations, statistics, probabilities. And at first, me and my friend Chris, who also knows \[unintelligible 00:11:21.04\] were like, okay, we're one year from our graduation, and we knew that we wanted to do something that actually was on trend. Something a lot of people had attention to, and things like that. So we didn't want to do the classical software engineering, and things like that. We wanted to be more free, and we were people who liked giving crazy ideas. So at night, at 3 AM we won't be sleeping, we just jump up and then bring up a crazy idea, or things like that. So we found that doing research will be a better choice, because that's when you can try out a lot of ideas.
 
-\[00:12:08.18\] I mean, we did not want to do research in maths, and then which field of computer was actually like (let me call it) the hot spot? It was AI. Then we looked at AI and we were like, "Okay, how can we connect AI with the math that we are currently doing?" That's where everything started. We now started reading books, watching tutorials, watching classes, and we now connected the dots between pure theoretical math and applications of deep learning.
+\[12:08\] I mean, we did not want to do research in maths, and then which field of computer was actually like (let me call it) the hot spot? It was AI. Then we looked at AI and we were like, "Okay, how can we connect AI with the math that we are currently doing?" That's where everything started. We now started reading books, watching tutorials, watching classes, and we now connected the dots between pure theoretical math and applications of deep learning.
 
 For instance, when you want to use a self-driving car, sometimes you have to actually be able to measure the instant shift of movement of the car, or maybe of the camera, and things like that; like, how is it done? We're using differential equations, and things like that. So when we tried to connect the dots, it became more and more obvious that we needed math, and that actually what we are doing was something that was happiness. And then we now jumped machine translation... Because we were like, "Okay, currently, what can we start from?"
 
@@ -92,7 +92,7 @@ But except that, when I went to Germany, I also found myself that I have a lot o
 
 **Bonaventure Dossou:** I mean, Canada was not predicted this soon. I predicted Canada potentially when I'd be finishing my master, but it happened just a few months after I got into my master in Germany.
 
-**Break:** \[00:16:32.21\]
+**Break:** \[16:32\]
 
 **Natalie Pistunovich:** And so, Canada... Tell us about the interesting things that you're working on, and with whom.
 
@@ -102,7 +102,7 @@ You know, when you are kind of new in a field, you tend to look at someone and b
 
 So I came here in Montreal, I'm currently at Mila, working on a drug discovery project. Except that, I've also joined Roche Canada. That one is more in my passion of working towards technological challenges or pharma-related challenges using deep learning. So I've been doing both at the same time.
 
-\[00:20:15.22\] I also had many opportunities... For instance, I attended a scientist residence program which was first dedicated especially for Ph.D. students. Because when I applied, they were like "Okay, cool, your resume looks good, but we're only looking for Ph.D. students." I was like "Okay." Then one day they just came back, "Okay, fine. Out of all the applications we've seen, you're probably the best fit", and then we jumped in. And that was also an amazing thing because it was more practical, it was shifted away from Academia, and then it was brought into industry. I could actually see how people in the industry do it there. Because it's not only about creating a model, to \[unintelligible 00:20:57.26\] It's also about the business - how can you bring it to the market? How can you monetize it? Things like that.
+\[20:15\] I also had many opportunities... For instance, I attended a scientist residence program which was first dedicated especially for Ph.D. students. Because when I applied, they were like "Okay, cool, your resume looks good, but we're only looking for Ph.D. students." I was like "Okay." Then one day they just came back, "Okay, fine. Out of all the applications we've seen, you're probably the best fit", and then we jumped in. And that was also an amazing thing because it was more practical, it was shifted away from Academia, and then it was brought into industry. I could actually see how people in the industry do it there. Because it's not only about creating a model, to \[unintelligible 00:20:57.26\] It's also about the business - how can you bring it to the market? How can you monetize it? Things like that.
 
 And finally, in January 2022 I joined Google, and we've been working on building NLP, language technologies for more sub-Saharan languages, including mine, of course.
 
@@ -112,7 +112,7 @@ And finally, in January 2022 I joined Google, and we've been working on building
 
 So coming to machine learning part and active learning part, where actually we try to maximize the production of good candidates. Now, we are doing discovery, so we are not in the mindset of rediscovering and recreating/regenerating what already exists. We want to do new things, or create or discover new things. So that's where the part I would call the diversity part comes in. So it's basically like setting up a lot of things -- I tried and brought a lot of ideas, of course with some other co-workers, my supervisor and co-supervisors, and we tried many bunch of things, and then I actually introduced a \[unintelligible 00:23:56.22\] to enhance and to produce more diverse sequences.
 
-\[00:24:07.18\] Basically, the idea is that if I take a reference set that I know that are good AMPs from the real world, because the dataset that we are using is from a publicly-available source, that have been developed by biologists. So those sequences, the properties are well-known. So if I take that and I compare it to what I have, does it give me a good performance according to our metrics? One. Two, is that statistically different from the initial set? So that's two things. We wanted to be actually having more or equal to the same properties, but at the same time to be different... Because you can imagine \[unintelligible 00:24:42.21\] when you have a sequence of the same; we wanna do as better as multi-different sequences.
+\[24:07\] Basically, the idea is that if I take a reference set that I know that are good AMPs from the real world, because the dataset that we are using is from a publicly-available source, that have been developed by biologists. So those sequences, the properties are well-known. So if I take that and I compare it to what I have, does it give me a good performance according to our metrics? One. Two, is that statistically different from the initial set? So that's two things. We wanted to be actually having more or equal to the same properties, but at the same time to be different... Because you can imagine \[unintelligible 00:24:42.21\] when you have a sequence of the same; we wanna do as better as multi-different sequences.
 
 It's also, like a human being, when you are specializing in only one thing, you are only good at math. But in life, there's not only math. There's also biology, sports, things like that. So you have to be good, like mixing. That was the main idea, and that's what I have been working on.
 
@@ -132,7 +132,7 @@ Yeah, that's it. So at Google, now I've recently just started, and I know that t
 
 **Bonaventure Dossou:** So I guess I'm then targeting the projects here at Mila. Technically, generative models because we want to create new things. I don't know if you see the idea. Like, if we are pretending to do discovery, it's because we are creating new chemical compounds and new structures, new materials.
 
-\[00:27:54.07\] So you can't do that by using a predictive model, for instance, where you already have a set of things, and then you just predict some value on it. Of course, we are using predictive models or classication of equation types in the process, but it doesn't really add anything new. The new thing that you bring in does not really come from building a prediction model. It comes from a generative one, because it learns from the data distribution of an existing dataset, and then tries to generate things that are similar, but not equal. That's from where I guess discovery comes from.
+\[27:54\] So you can't do that by using a predictive model, for instance, where you already have a set of things, and then you just predict some value on it. Of course, we are using predictive models or classication of equation types in the process, but it doesn't really add anything new. The new thing that you bring in does not really come from building a prediction model. It comes from a generative one, because it learns from the data distribution of an existing dataset, and then tries to generate things that are similar, but not equal. That's from where I guess discovery comes from.
 
 **Natalie Pistunovich:** So you mentioned all those interesting things that you're about to do at Google with sub-Saharan languages, and you're also working on that at Masakhane. What do you see as the future of those developments?
 
@@ -142,7 +142,7 @@ Also, language resources. Like, when you go on the internet, or Facebook, and th
 
 Yeah, that's also another interesting part - working on those languages helps the restoration of the cultural identity, or things like that; things that actually are \[unintelligible 00:31:26.12\] just trying to build models now. It has a very deep root, in preservation of those languages. We've seen a lot of groups of people who actually got \[unintelligible 00:31:43.24\] So we don't want it to happen with other languages, and everything.
 
-\[00:31:55.09\] So I think I touched a lot of points... That's mainly how vast the problem is, and how I think that working on those kind of languages could actually help solving those problems, and bring in language technologies to everyone.
+\[31:55\] So I think I touched a lot of points... That's mainly how vast the problem is, and how I think that working on those kind of languages could actually help solving those problems, and bring in language technologies to everyone.
 
 **Chris Benson:** It strikes me that though you're using similar toolsets, you're using deep learning in both problems, they're somewhat different... One being drug discovery, and one being under-resourced languages.
 
@@ -162,7 +162,7 @@ Access to healthcare should be a primary need. But in Africa currently it's a lu
 
 So access to healthcare is still a very big problem, and a very big field that we scientists need to work on. So I would also like to bring something new into that, maybe through my research in AI, doing drug discovery, things like that, to actually contribute to the development, to the emancipation of the continent, and not just focusing on myself, on the fact that "Oh, I'm working at good places, places that everyone would like to be at..." Also maybe making good money doing this, or vice-versa.
 
-**Chris Benson:** \[00:36:02.21\] You've gone from medicine to -- you realize that you have invented the notion of the AI superhero, which I actually love that idea. It's a beautiful idea, it's great.
+**Chris Benson:** \[36:02\] You've gone from medicine to -- you realize that you have invented the notion of the AI superhero, which I actually love that idea. It's a beautiful idea, it's great.
 
 **Bonaventure Dossou:** Yeah. Actually, I'll say - the fact that I wanted to be not the superhero, but someone who helps, someone who brought to the world, to the continent, to his country, when he was alive, that one drug with AI, because I saw it as a tool to do those kinds of things.
 
@@ -176,7 +176,7 @@ So they still have that lack of education. There are not so many universities, i
 
 So one institute that would actually attract investors, that will attract world scientists to Africa. That will actually make it a bigger hub of AI. I mean, not bigger -- I mean, I don't know how big it's going to be, but a reference at least in Africa. If I succeed in making it at least a reference in Africa, that would have already been great.
 
-\[00:40:16.12\] So I talked about education, I talked about healthcare, and like I said earlier, there's also access to language technologies. I hope I'll be still alive to witness that our language is incorporated into cell phones. So the keyboard people are really using, but the model that we developed, people are not. They have to go to a website to be able to use it. But what if it was integrated into an app? That's something I hope really wish achieved by this year with my friend, Chris. But there was a map integrated in the phone, so that they could just easily use it, like they use Google Translate, or things like that.
+\[40:16\] So I talked about education, I talked about healthcare, and like I said earlier, there's also access to language technologies. I hope I'll be still alive to witness that our language is incorporated into cell phones. So the keyboard people are really using, but the model that we developed, people are not. They have to go to a website to be able to use it. But what if it was integrated into an app? That's something I hope really wish achieved by this year with my friend, Chris. But there was a map integrated in the phone, so that they could just easily use it, like they use Google Translate, or things like that.
 
 And those language technologies would come from AI and from many other groups, many other sectors, activities, like electronics, things like that. It should be an interdisciplinary collaboration. But still, AI has its own role into creating those technologies, so that other fields could use it.
 
