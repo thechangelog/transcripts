@@ -350,6 +350,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   </tr>
   <tr>
     <td align="center"><a href="https://yamanoku.net"><img src="https://avatars.githubusercontent.com/u/1996642?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Okuto Oyama</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=yamanoku" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/vwkd"><img src="https://avatars.githubusercontent.com/u/33468089?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vwkd</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=vwkd" title="Documentation">📖</a></td>
   </tr>
 </table>
 
