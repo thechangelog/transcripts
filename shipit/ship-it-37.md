@@ -8,7 +8,7 @@
 
 **Gerhard Lazu:** So what's the story behind that?
 
-**Vincent Ambo:** \[00:03:56.06\] Tazjin is the username I go by online. Honestly, I've been using it for (I think) about 15 years, and the real origins of it are kind of lost at this point. My best theory at this point - because I was a teenager at the time - is it was related to the Warcraft games, because they have a race in the game that's called the Trolls, and the Trolls have a specific format of forming their names. And according to these rules, you could get the name that I use as my username. I don't actually play any of those games, but I think at some point I came up with the name in some context, and it just kind of stuck. It's short, six letters, and usually available \[unintelligible 00:04:30.02\]
+**Vincent Ambo:** \[03:56\] Tazjin is the username I go by online. Honestly, I've been using it for (I think) about 15 years, and the real origins of it are kind of lost at this point. My best theory at this point - because I was a teenager at the time - is it was related to the Warcraft games, because they have a race in the game that's called the Trolls, and the Trolls have a specific format of forming their names. And according to these rules, you could get the name that I use as my username. I don't actually play any of those games, but I think at some point I came up with the name in some context, and it just kind of stuck. It's short, six letters, and usually available \[unintelligible 00:04:30.02\]
 
 **Gerhard Lazu:** Okay. Everywhere. Like Twitter, GitHub - you don't have the issue of anyone having it. Okay, great.
 
@@ -48,7 +48,7 @@ At some point I stopped doing stuff like measuring my internet connection speed,
 
 **Gerhard Lazu:** Sure thing. I'll be happy to share as much as you want, and as much as is helpful. So tell me about Nixery... Why did you create it?
 
-**Vincent Ambo:** \[00:07:49.24\] It's interesting, because I have to figure out where to start with this story. So back in the days when Kubernetes was still a fairly new project, I was working at a startup in Sweden that was starting to eye the Kubernetes world a little bit for various internal projects and deploying software that was not super production-critical, but with the intention of finding a new and slightly more modern way of hosting everything.
+**Vincent Ambo:** \[07:49\] It's interesting, because I have to figure out where to start with this story. So back in the days when Kubernetes was still a fairly new project, I was working at a startup in Sweden that was starting to eye the Kubernetes world a little bit for various internal projects and deploying software that was not super production-critical, but with the intention of finding a new and slightly more modern way of hosting everything.
 
 At the time, I got very interested in this concept of declarative infrastructure. I jokingly said at some point that there's something I call Tazjin's Law, which is that any infrastructure process that's not controlled by a reconciliation loop will eventually fail, in some strange way. And Kubernetes is sort of the embodiment of this idea. You have a bunch of small process, the various controllers, and you give these processes a bunch of desired state, and then they go and they reconcile everything continuously, until it's in the shape that you want. There's a term I learned for this at Google a while back, which is continuous intent-based actuation. And it sounds very fancy, but I think it's a good expression of this model.
 
@@ -64,7 +64,7 @@ So in the context of creating a demo for this, I realized that it might be inter
 
 So I was thinking "What if we use these paths to sort of denote which packages should be in the image?" So if we want an image that has, say, NGINX and Git in it, we could write the name of the registry, slash NGINX, slash Git. And then the registry would automatically yield an image that contains these things.
 
-\[00:12:17.21\] So I went and implemented that, and got a lot more wows from people than the previous sort of YAML-based, "dump this resource into the Kubernetes API server" implementation. And people quickly brought me lots of ideas for what this could be used for. For example, if you are debugging an active incident inside of a Kubernetes cluster, you might be interested in quickly running a container that has some debugging tools that are not included in any of the images you already have. So it's very useful to be able to layer this very easily onto an image in your cluster.
+\[12:17\] So I went and implemented that, and got a lot more wows from people than the previous sort of YAML-based, "dump this resource into the Kubernetes API server" implementation. And people quickly brought me lots of ideas for what this could be used for. For example, if you are debugging an active incident inside of a Kubernetes cluster, you might be interested in quickly running a container that has some debugging tools that are not included in any of the images you already have. So it's very useful to be able to layer this very easily onto an image in your cluster.
 
 Another use case that often comes up is people running CI systems and needing a base image that contains, for example, a set of compilers and other build tools that they need. In that case it's also very useful to just make the definition of which things should be in the image that you're building with part of your build configuration. So that's kind of how that came about...
 
@@ -84,7 +84,7 @@ It feels very natural to people who are used to languages like Haskell or Erlang
 
 The second thing called Nix is the package manager itself. So the package manager implements a concept called derivations. A derivation is essentially a data structure that says "We have a transformation that we want to apply to some data." Usually, this transformation is something like running a compiler or running some other tool that does file transformations. And these derivations specify all of the inputs that they have, fully pinned, which means that we have full SHA hashes of everything that gets into the derivation, and then this information together can be used to create a hash.
 
-\[00:15:55.29\] So you take the hashes of everything going into your derivation, including recursively, if you think about other derivations - I'll bring up an example in a second - and the build instructions. You hash them together and you get something that uniquely identifies this particular operation to be executed.
+\[15:55\] So you take the hashes of everything going into your derivation, including recursively, if you think about other derivations - I'll bring up an example in a second - and the build instructions. You hash them together and you get something that uniquely identifies this particular operation to be executed.
 
 An example of this is if you're building a program foo, and it depends on a library bar, then you would have a derivation for your library bar, and that derivation would be passed into the derivation for your program foo. And the hash of those together would yield the exact hash specifying how to build your program.
 
@@ -112,7 +112,7 @@ So there's a lot of that work, but if you look at it purely from a functional pe
 
 **Gerhard Lazu:** One cool thing - I like that you mentioned Debian, because I was talking to Frederic Branczyk, from Polar Signals, Parca.dev, a couple of weeks (maybe it's been months now), and I didn't know this trick, but he showed me how when they built Parca, they pinned the sources for Debian to a specific SHA. And what that means is that everything is reproducible, so if anyone was to pin the sources of the same SHA and they were to try and build Parca, they would get the exact bit for bit output... Which I thought was really cool.
 
-**Vincent Ambo:** \[00:20:14.25\] Yes, that is sort of the holy grail that you want in the end.
+**Vincent Ambo:** \[20:14\] Yes, that is sort of the holy grail that you want in the end.
 
 **Gerhard Lazu:** Can you do that with Nix?
 
@@ -122,7 +122,7 @@ Because for each of the package definitions in there the inputs are what we call
 
 **Gerhard Lazu:** That's really cool.
 
-**Break:** \[00:21:33.29\]
+**Break:** \[21:33\]
 
 **Gerhard Lazu:** We were talking about pinning sources, reproducible builds, being able to go back and rebuild exactly the same thing bit for bit... I'm wondering, how does Cosign fit into this?
 
@@ -130,7 +130,7 @@ Because for each of the package definitions in there the inputs are what we call
 
 **Gerhard Lazu:** So the idea is, in a nutshell, you sign the SHAs, so you don't have to trust whoever signed the SHA; you just need to have a signature that corresponds to the SHA, so that you know the SHA that you're consuming is the SHA that was built and was intended to be consumed. So you can basically verify that it comes from a source that -- actually, it doesn't matter the source, as long as the SHA is linked to a signature. And that gives you confidence in what you're consuming.
 
-**Vincent Ambo:** \[00:24:04.10\] Okay. So in this case, my understanding of Cosign is that you are signing the SHA hashes of outputs. So you're building something, and then for example reproduce it as a tarball, which could be an image layer instead of an OCI image... And you sign the hash of that tarball.
+**Vincent Ambo:** \[24:04\] Okay. So in this case, my understanding of Cosign is that you are signing the SHA hashes of outputs. So you're building something, and then for example reproduce it as a tarball, which could be an image layer instead of an OCI image... And you sign the hash of that tarball.
 
 **Gerhard Lazu:** Correct.
 
@@ -156,7 +156,7 @@ And the interesting thing - if you have lots of different people running this Tr
 
 **Vincent Ambo:** There is an interesting idea I actually just had, as we're talking about this... In container images in the OCI image format, the format that registries speak when you're downloading a container image and so on - you can attach some metadata to each layer in an image. This is what's typically known in the Docker world as the Docker version, or Docker history feature. You run Docker history on an image name and it tells you sort of the Dockerfile commands. But this is just a plain stream. You can put any information in there.
 
-\[00:28:17.15\] So an interesting thing to do would be to include the derivation hashes of each of the layers or the contents of each of the layers in this manifest, this data structure representing the image, and then probably include it in the signing process, which now gives you an additional guarantee over what the contents are. That could be fun to implement in Nixery.
+\[28:17\] So an interesting thing to do would be to include the derivation hashes of each of the layers or the contents of each of the layers in this manifest, this data structure representing the image, and then probably include it in the signing process, which now gives you an additional guarantee over what the contents are. That could be fun to implement in Nixery.
 
 **Gerhard Lazu:** Interesting. Okay. So talking about inputs and outputs and versions, it reminded me that Nixery itself - there's no tags or \[unintelligible 00:28:46.18\] on the GitHub repository of Nixery. Why is this? I've found that very interesting. Why is this?
 
@@ -178,7 +178,7 @@ But basically, to roll back to your question, it's just that I don't really beli
 
 **Vincent Ambo:** Yeah.
 
-**Gerhard Lazu:** \[00:32:00.02\] ...which is my favorite versioning scheme. But anyways, going back to semver, which Kubernetes uses, like 1.22, 1.23... That version means something; that version bump, whether it's a minor, or a major, or a patch; regardless which version bumps, it means something. So it compresses a lot of this information in terms of should you expect something to break. Or are there new features, or is this just like a bug fix, and apply to a security fix, and everything is good...
+**Gerhard Lazu:** \[32:00\] ...which is my favorite versioning scheme. But anyways, going back to semver, which Kubernetes uses, like 1.22, 1.23... That version means something; that version bump, whether it's a minor, or a major, or a patch; regardless which version bumps, it means something. So it compresses a lot of this information in terms of should you expect something to break. Or are there new features, or is this just like a bug fix, and apply to a security fix, and everything is good...
 
 So I think it's this hint that we would be missing if we don't have versions... And who has time to read all the changelogs, when you are consuming tens of different software in production?
 
@@ -200,7 +200,7 @@ There is one complexity here, which is that if you are using merge-based develop
 
 For example, you are always sticking to the left side of the merge tree, meaning that the merge commit itself is counted, but the things included by that merge from somewhere else are not. And then you get unique, monotonically increasing version/revision numbers for Git.
 
-\[00:36:08.07\] We have a setup in the TVL repository where our CI system, whenever a commit makes it to the head branch, which is called \[unintelligible 00:36:14.11\] for us, a new revision number is created and pushed to Git as a ref... Which means that you can run a git fetch command locally and you get the refs that exist in the remote, and you have the same revision numbers locally.
+\[36:08\] We have a setup in the TVL repository where our CI system, whenever a commit makes it to the head branch, which is called \[unintelligible 00:36:14.11\] for us, a new revision number is created and pushed to Git as a ref... Which means that you can run a git fetch command locally and you get the refs that exist in the remote, and you have the same revision numbers locally.
 
 But even if you don't run this fetch command, there's a one-line shell command that you can run locally that will use your CPU for a couple of minutes while it's going through the Git history, and it will yield the exact same numbers as \[unintelligible 00:36:36.24\] So you're not really dependent on keeping the state anywhere, as long as the actual Git hashes are the same.
 
@@ -238,7 +238,7 @@ So do regular releases of your services, just as an example, every n hours, wher
 
 For example, we have a bunch of Haskell projects, and Haskell projects are very prone to breakage on dependency updates, and this other thing. Especially if you try to not pin your dependency versions too much. So we end up in a situation where people are fixing each other's software, and eventually getting so good at it that the friction of doing this over time has gone down to the point where most releases just go through kind of seamlessly at this point, when we bump third-party dependencies.
 
-\[00:40:16.20\] So that's an interesting sort of side effect that we've had, of not paying particular attention to exactly which version numbers of things we're using. There is -- I can't remember her name... There's a person from Honeycomb.io, if you're familiar with that... It's like a monitoring --
+\[40:16\] So that's an interesting sort of side effect that we've had, of not paying particular attention to exactly which version numbers of things we're using. There is -- I can't remember her name... There's a person from Honeycomb.io, if you're familiar with that... It's like a monitoring --
 
 **Gerhard Lazu:** Yes. They're our partners. Very familiar. Who are you thinking? Charity?
 
@@ -250,7 +250,7 @@ For example, we have a bunch of Haskell projects, and Haskell projects are very 
 
 **Gerhard Lazu:** Yeah, for sure. I'm a big fan to every commit going straight into production. No gatekeepers, nothing like that. If all the tests pass, if the build passes, if it can boot in production, it can do the database migration - all the things it needs to do - it's out there. Every single commit.
 
-**Break:** \[00:41:29.23\]
+**Break:** \[41:29\]
 
 **Gerhard Lazu:** Something different about software that has versions, that goes out to users, and people expect it to come at specific intervals maybe; because you can't be always upgrading. Or when it does come, it's very clear about what breaks and what doesn't, and if anything breaks... And we go back to your break log. But still, that expectation that every week or every month there'll be a new version... And you can upgrade to it if you want. There may be, by the way, intermediaries, but if you ship every single commit, I think users of your software would be like "I can't upgrade every single time", and then how do you enforce upgrades, and backwards-compatibility, and stuff like that? You need to have those break points in your release cycle. But I'm pretty sure we could talk about this for the rest of the podcast, but we're not going to.
 
@@ -276,7 +276,7 @@ I know of two companies right now using a lot of our technology in their develop
 
 **Vincent Ambo:** I have some thoughts about developer tooling, which I think play into this a lot. So when you have an idea for something that you want to implement, there's a lot of stuff that you need to do between having the idea and getting feedback on whether the idea is valuable. If you're bootstrapping a completely new project, and you're doing it in the best practiced ways that currently exist, you're probably going to be setting up Git repositories and setting up a CI system, and figuring out what issue tracker to use... All of this kind of stuff. You could opt for just using GitHub, but even then, a lot of setup still needs to be done there. And then you need to figure out how to build your software, and you need to figure out how to test your software... All of this kind of stuff.
 
-\[00:48:10.19\] Our vision for what we're doing with our repository is that the entire overhead of this gets reduces to just making a folder somewhere and dumping some code into it, and you immediately get all of this other stuff around it. And we're actually kind of at that point already.
+\[48:10\] Our vision for what we're doing with our repository is that the entire overhead of this gets reduces to just making a folder somewhere and dumping some code into it, and you immediately get all of this other stuff around it. And we're actually kind of at that point already.
 
 The people in the community that use this the most have sort of remarked on how this reduces the feedback loop that you have for getting your ideas out and checking whether or not they're valid. So you feel a lot like this kind of becomes an extension of your thinking, and there's a lot of overhead that goes away, and then you're just working much faster.
 
@@ -306,7 +306,7 @@ The drawback of this is that if it becomes very easy to start new things and exp
 
 **Vincent Ambo:** We do use Git. We just have a Git repository in Gerrit. The workflows for this are very different from what you might be used to from the GitHub/GitLab etc. world. In short, the main difference is that your unit of review is always one commit. So if you make one commit and you upload it to Gerrit, that is something that you send to a reviewer, and then they make a decision on a commit. It depends on the rules that you've set up for your repository.
 
-\[00:52:00.08\] You're not ever bunching together a bunch of changes into something like a pull request, which I think often leads to slightly unrelated things being accumulated at the same time. And also, your reviews work sort of like a first in/first out system. So you upload a bunch of commits and people can start reviewing these commits already, as you are working at the tail end of your chain of commits. And then some things might be merged earlier, or not; the control over when to merge things is actually an important topic, but it's up to you... And then you can avoid the issue of having, for example, multiple pull requests that depend on each other and not having a really good way of representing that to potential reviewers,
+\[52:00\] You're not ever bunching together a bunch of changes into something like a pull request, which I think often leads to slightly unrelated things being accumulated at the same time. And also, your reviews work sort of like a first in/first out system. So you upload a bunch of commits and people can start reviewing these commits already, as you are working at the tail end of your chain of commits. And then some things might be merged earlier, or not; the control over when to merge things is actually an important topic, but it's up to you... And then you can avoid the issue of having, for example, multiple pull requests that depend on each other and not having a really good way of representing that to potential reviewers,
 
 I think I learned in my time working on medium to large-sized C++ systems at Google that it's very useful to have things that are kind of still in progress, already in the stage of being reviewed... Because errors in thinking and stuff like that gets caught much earlier.
 
@@ -330,7 +330,7 @@ There's a situation on GitHub - I don't know the details of how it happens, I do
 
 **Vincent Ambo:** And that is just something that Gerrit kind of avoids. This is very similar to how things work inside of Google. So people might know that Google has its own version control system, but the majority of people use it through something that looks kind of like Mercurial. So if you're familiar with Mercurial, then it's basically the same workflow. But each commit that you make becomes its own unit of review. So each one of those is assigned a revision number and it's something that you send to a person. It means that you end up structuring the way you write these commits much more thoughtfully than you would if it's just a bunch of commits that I review together.
 
-**Gerhard Lazu:** \[00:56:13.17\] Okay. So is this your masterplan to change how the world develops software, and make them develop a bit more like Google? Have the monorepo, have the not-pull requests... You know, because you mentioned that everyone that worked at Google tries to get others to work Google does things...
+**Gerhard Lazu:** \[56:13\] Okay. So is this your masterplan to change how the world develops software, and make them develop a bit more like Google? Have the monorepo, have the not-pull requests... You know, because you mentioned that everyone that worked at Google tries to get others to work Google does things...
 
 **Vincent Ambo:** Yeah, it's an interesting question... So I think Google is doing a lot of things in a less than ideal way, which is understandable, considering that it's pretty old for a tech company at this point, and there's a lot of stuff that has simply accumulated, legacy over the last decades. And there's a lot of stuff that I think we can conceptually improve upon. But my intention is not -- there's no masterplan of making everybody use the same stack, because there are different ways of working, and it's really a cultural question of like "What kind of culture do you want in your company?" It's very related to the whole cathedral versus bazaar conversation, and all this kind of stuff; what way of working works best for your team.
 
@@ -350,7 +350,7 @@ For me, the Google way of doing things worked better. However, I should note - b
 
 **Gerhard Lazu:** Oh, yes.
 
-**Vincent Ambo:** \[00:59:38.09\] One of the things that Bazel sometimes struggles a bit with is that there isn't a foundational concept like the derivation in Nix, in terms of which everything else is expressed. It's not necessarily a criticism of Bazel, but I find that building a mental model of a complex system like that is much easier if there's a single thing at its core that you can understand, that is sort of simple and flexible enough to compose into many of the different things that a more specialized thing with different content could do.
+**Vincent Ambo:** \[59:38\] One of the things that Bazel sometimes struggles a bit with is that there isn't a foundational concept like the derivation in Nix, in terms of which everything else is expressed. It's not necessarily a criticism of Bazel, but I find that building a mental model of a complex system like that is much easier if there's a single thing at its core that you can understand, that is sort of simple and flexible enough to compose into many of the different things that a more specialized thing with different content could do.
 
 I think Nix is currently not really reaching its full potential. It's being used for -- the Nix package set is being used for Nix \[unintelligible 01:00:15.22\] Linux distributions built on top of Nix... But for the most part, packages built with it are wrapping existing build systems.
 
