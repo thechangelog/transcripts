@@ -98,7 +98,7 @@ I feel "internet" is the word that always comes to mind when I'm asked big-pictu
 
 But I love this kind of remarketing as like a web security and performance company. So can you tell us a little bit about this shift towards being not just a CDN company, but so much more? Was it just kind of like a natural thing for Cloudflare?
 
-**Amal Hussein:** It's funny, because I'm sort of new... I have my opinions, and I've been \[unintelligible 00:09:00.16\] with some people a lot higher up to check this thing... But the way that I view it - I've been really liking this analogy of like we used to be a passive company, where all of our services were these passive services that you added on, you configured, they were kind of set it and forget it... So like the CDN, security stuff, the js-captcha to prevent bots, things like that. And we have sort of transitioned over the years into -- we're still maintaining those world-class services, but offering a lot more active solutions.
+**Jon Kuperman:** It's funny, because I'm sort of new... I have my opinions, and I've been meaning forever to get some meeting time with some people a lot higher up to check this thing... But the way that I view it - I've been really liking this analogy of like we used to be a passive company, where all of our services were these passive services that you added on, you configured, they were kind of set it and forget it... So like the CDN, security stuff, the js-captcha to prevent bots, things like that. And we have sort of transitioned over the years into -- we're still maintaining those world-class services, but offering a lot more active solutions.
 
 For example, we have a serverless platform called Cloudflare Workers, we have the video platform Cloudflare Stream, we have Cloudflare Access to do a smart VPN... So we have all these things that are not set and forget. We're moving into this applications space, where application developers are using us to actually build stuff, to store files, to stream videos, to build these massive applications.
 
@@ -164,7 +164,7 @@ So that's actively where we're at right now - we have a lot of stuff turned off,
 
 **Amal Hussein:** And more specifically, what is this V8 on the edge thing? What does that even mean? Why would you ever even wanna do that? So educate us, Mr. Kupertino... \[laughter\]
 
-**Amal Hussein:** \[unintelligible 00:17:48.09\] I sort of hate this term now... Like, have you ever kind of fallen in love with something because you need it to be like "Hey, we're different", and then a few years later you're like, "Oh, I wish this would go away a little bit"?
+**Jon Kuperman:** Cards on the table I sort of hate this term now... Like, have you ever kind of fallen in love with something because you need it to be like "Hey, we're different", and then a few years later you're like, "Oh, I wish this would go away a little bit"?
 
 **Amal Hussein:** You mean like Web 3? \[laughs\] Buzzwords around that?
 
