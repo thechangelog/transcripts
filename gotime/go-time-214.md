@@ -22,7 +22,7 @@ Let's just start off by talking about what are migrations. Do any of you wanna t
 
 **Jon Calhoun:** That makes sense. I'm sure we've all ran into some of those issues where something seems to be working locally and it's not somewhere else, and database migrations can definitely be one of those cases where if you've done something locally and forgotten you've done it, it can have a big impact on whether it's gonna work somewhere else.
 
-\[00:04:11.23\] So to start here, I wanna talk a little bit about the tooling around it, because one of the questions we get asked a lot is "How should people be running these migrations? What sort of tooling should they be using? How do these tools even work?" And I think a lot of times this stems from the fact that people come from a framework like Ruby on Rails, where all of that is kind of baked into it, and they don't even think about it... But then in Go, that's not really the case, because we're not using a big framework. So what are some of the tools out there? And I guess, if you can elaborate a little bit on what they're actually doing behind the scenes.
+\[04:11\] So to start here, I wanna talk a little bit about the tooling around it, because one of the questions we get asked a lot is "How should people be running these migrations? What sort of tooling should they be using? How do these tools even work?" And I think a lot of times this stems from the fact that people come from a framework like Ruby on Rails, where all of that is kind of baked into it, and they don't even think about it... But then in Go, that's not really the case, because we're not using a big framework. So what are some of the tools out there? And I guess, if you can elaborate a little bit on what they're actually doing behind the scenes.
 
 **Mike Fridman:** I guess maybe we should - maybe, as a suggestion - take it one step back and understand why we're doing this in the first place, before we get to a tool... So before you even jump into a tool, as a developer, you're usually developing some backend application, and you wanna make incremental changes to your database, because when your requirements come up, or you understand users better... And if you're a single developer on a single system, you can probably get away by applying migrations directly, doing an ad-hoc deployment, and then just calling it a day. But as soon as you get into a team or an organization and you have multiple developers working in parallel, there needs to be some sort of a process to coordinate how you incrementally make changes to your database over time. Then you wanna sort of decouple that from your application, and then be able to eventually roll that out.
 
@@ -40,7 +40,7 @@ And then these tools - their only responsibility is to read those files and dete
 
 So depending on the tool you use - for example, Golang Migrate, you have two separate files. So you'll have something like "01 create table up", and then you'll have "01 create table down". And when you do your up migrations, that creates the table. When you do your down migration, that drops the table. So you kind of have a way to go forwards and backwards in your migrations.
 
-**Jon Calhoun:** \[00:08:09.29\] So when we're looking at these migrations, another question that I've seen pop up is "Is it possible for them to run not directly in the order that's listed?" If you're sorting (I guess) alphabetically... I'm not sure what -- basically, they're sorted by the number, like the 01, 02, 03... Is it possible for these to not run in the order that they're listed in the directory?
+**Jon Calhoun:** \[08:09\] So when we're looking at these migrations, another question that I've seen pop up is "Is it possible for them to run not directly in the order that's listed?" If you're sorting (I guess) alphabetically... I'm not sure what -- basically, they're sorted by the number, like the 01, 02, 03... Is it possible for these to not run in the order that they're listed in the directory?
 
 **Mike Fridman:** It depends on the tool. This is actually an interesting one, because the number one requested feature in Goose was being able to apply out of order migrations. Because from what I understand - and it's been like eight years since I've done any Rails work... In Rails you have time-based migrations, and you kind of just apply the migration and call it a day. You don't think about it too much.
 
@@ -58,7 +58,7 @@ I prefer the sequential increments for the versioning, just because I like to th
 
 **Jon Calhoun:** I think it's one of those things that -- like, out of order sort of made sense with Rails, where people expect things to kind of magically work. They don't wanna have to go in and merge some conflict where two people both generated Migration 24, or something... Because when you're using migrations that are expected to go in a sequential order, I suppose the issue there is that if you and I check out a branch at the same time, Vojtech, and then you check yours in sooner, when I go to check mine in, all of a sudden my migration number is gonna be wrong, and I'm gonna have to fix something at that point to actually get it to work. And I think one of the reasons people like the out of order is that they don't really have to worry about it... If they're time-based at least, you can just submit it and be like, "Okay, whatever. It runs."
 
-\[00:12:04.24\] But there's definitely cases that that could be an issue, or it's definitely a bad idea to have something where you've only tested it in one order on your computer, and then when you go to push it to production, it's gonna be running in a different order and you don't actually know for sure that's gonna work.
+\[12:04\] But there's definitely cases that that could be an issue, or it's definitely a bad idea to have something where you've only tested it in one order on your computer, and then when you go to push it to production, it's gonna be running in a different order and you don't actually know for sure that's gonna work.
 
 **Vojtech Vitek:** That's exactly right. So this out of order thing - it may have some edge cases, but you're very unlikely to hit them. But once you hit them, it's gonna be a big problem, and you will have a hard time dealing with some production issue. But there's one more thing that I wanted to mention - I think the sequential numbering might have another benefit, which is if you are pushing a single change, a single deployment consisting of five different migration files, maybe one of them is adding a new table, a second one is adding a new column somewhere else, the third one is doing indexes or some data manipulation... What happens if this doesn't go well? How do you roll back to the very first migration that you wanted to push out?
 
@@ -80,7 +80,7 @@ There's also one more thing, which is -- yeah, that's what I wanted to mention a
 
 So that's one of the differences between Golang Migrate and Pressly Goose. Pressly Goose, on the other hand, doesn't use any locking mechanism, because it supports lots of different database drivers, and not all of them can do locking... And it actually defers this problem to the executor. So you as a developer or ops guy are responsible to run the migration as a singleton process, and that can be done in multiple ways. In Kubernetes you would spin up a job or a pod, which has to succeed, and Kubernetes will handle it because of the unique name of the pod... Or if you have some other tooling, you need to make sure that you run this first before deploying the new version of the application.
 
-\[00:16:05.20\] If you do the locking, that's fine too, but I actually ran into some issues with that when I locked the whole database, and then I had to ask a DBA team to go into the database to fix it for me, because the database was in a locked state and I couldn't fix it myself.
+\[16:05\] If you do the locking, that's fine too, but I actually ran into some issues with that when I locked the whole database, and then I had to ask a DBA team to go into the database to fix it for me, because the database was in a locked state and I couldn't fix it myself.
 
 **Jon Calhoun:** Okay. So when we're talking about these things running in migrations, and you guys have also mentioned that it's possible to undo a migration, but in reality there are migrations that you can't truthfully undo, if that makes sense... So can you give some examples of what those types of migrations might be for people out there wondering what those are?
 
@@ -92,7 +92,7 @@ So that's one of the differences between Golang Migrate and Pressly Goose. Press
 
 **Jon Calhoun:** It makes sense.
 
-**Break:** \[00:17:48.02\]
+**Break:** \[17:48\]
 
 **Jon Calhoun:** So when we're talking about migrations, do you have advice on how to setup that process? Because at times we do need to eventually delete data, or maybe we need to add a new column, then we need to deploy some code that uses that column... So do you have advice to some people, what process they should be using for that type of release, if that makes sense?
 
@@ -100,7 +100,7 @@ So that's one of the differences between Golang Migrate and Pressly Goose. Press
 
 In our case, for example, we have Kubernetes, so that's doing a rolling upgrade where we sequentially apply the migration steps first, and then we do a rolling upgrade of the nodes. Now, the thing to remember there is that those nodes are going to have an old version and a new version of your application running at one time. So they're gonna co-exist. So whatever changes you're making to your database have to be forwards and backwards compatible in all the new versions of the application.
 
-\[00:19:56.08\] So some migrations you actually have to split into two steps. So you can't do it all in one step. The way that usually works is write your migration, update your code, deploy that changeset to production, and then write another migration and/or more code changes, and then deploy that again. The main reason you wanna do that nowadays is to accomplish zero downtime deployment.
+\[19:56\] So some migrations you actually have to split into two steps. So you can't do it all in one step. The way that usually works is write your migration, update your code, deploy that changeset to production, and then write another migration and/or more code changes, and then deploy that again. The main reason you wanna do that nowadays is to accomplish zero downtime deployment.
 
 It's easy when you can just say "Oh, I'm gonna turn the application into maintenance mode", and then you don't have to worry about writes happening to your database and you can go nuts. But if you have a high-available system, you have to be careful with how you structure that. And the way I explain it is I think the way most folks do it.
 
@@ -124,7 +124,7 @@ So definitely worth spending some time thinking through like how would you write
 
 I've showed it to some people who have had some confusions around migrations in the past, and it's kind of crazy how enlightening that is, just to see "Oh, there's nothing too magical going on. It's really just following some series of steps." And not to say there's not more going on with your tooling, because there's a lot of things it can do to help save you, but it's nice to see what exactly the core of it is, and that it's really nothing too magical going on there.
 
-\[00:24:08.03\] So the next question I have for you is - talking about going to production... So we all deploy in different ways. For instance, Mike, you had talked about building this into your application, or some people like to build it in their application, so that when they deploy, it just kind of automatically does that... And you've talked about also having it as a separate step. So what are some of the ways you've seen people push migrations to production? What does that process look like?
+\[24:08\] So the next question I have for you is - talking about going to production... So we all deploy in different ways. For instance, Mike, you had talked about building this into your application, or some people like to build it in their application, so that when they deploy, it just kind of automatically does that... And you've talked about also having it as a separate step. So what are some of the ways you've seen people push migrations to production? What does that process look like?
 
 **Mike Fridman:** Yeah, so I think there's three main ways. The first one is doing it ad-hoc, like running SQL against your database, creating tables and so forth... So we call that, let's say, the manual way. Then there's the semi-manual way, where you have a tool, let's say on your local host, like Goose or Golang Migrate, and you set up the connection strings, and then you're just reading directly from your local file system, and then applying that to production... But then, eventually, when you get to larger organizations where you truly wanna have auditability, versioning, being able to track what happened in production, then you set up a continuous deployment environment where that step of physically taking some files and applying them in production is carried out in your CI/CD pipeline.
 
@@ -140,7 +140,7 @@ I would say the other approach is to really run a singleton process. So you just
 
 **Jon Calhoun:** That makes sense. I know it's one that people are more familiar with a lot of times, especially when they're getting started. I feel like GitHub Actions are a little bit more approachable. Obviously, when you get to larger-scale corporations there's usually some process involved. And I know these questions are hard to answer, because everybody's deployment process and everybody's production environment is so different. I think that's something it takes a while to realize when you're new to development, until you actually go work places and realize that everybody has a million custom tools built, because they've kind of evolved this production environment... So you take everything you're learning and you kind of learn to adapt it to where you're working and what you're doing.
 
-**Mike Fridman:** \[00:28:22.24\] I think GitHub Actions are perfectly fine, because in GitHub Actions you have workfiles and you have jobs, and then within jobs you have steps... And as long as one of those steps -- and steps are run sequentially, if I remember correctly, within a single job. So as long as one of those steps is like "Apply your migrations" and then the next step is "Roll out your application", I think that's a perfectly valid way to do it. It's actually how I do it for the little toy website that I have, \[unintelligible 00:28:46.01\] That's exactly how it works, with GitHub Actions.
+**Mike Fridman:** \[28:22\] I think GitHub Actions are perfectly fine, because in GitHub Actions you have workfiles and you have jobs, and then within jobs you have steps... And as long as one of those steps -- and steps are run sequentially, if I remember correctly, within a single job. So as long as one of those steps is like "Apply your migrations" and then the next step is "Roll out your application", I think that's a perfectly valid way to do it. It's actually how I do it for the little toy website that I have, \[unintelligible 00:28:46.01\] That's exactly how it works, with GitHub Actions.
 
 **Jon Calhoun:** Awesome. So the next thing I have is about testing. People always wanna know "How do you test different parts of your code?" and when it comes to touching data, obviously that's a very important thing to make sure you don't mess up. We've all heard horror stories about people accidentally dropping databases and things like that... So how do you test migrations, and what are some different techniques people can use to avoid having big mistakes?
 
@@ -158,7 +158,7 @@ And then once at the end of the test, it'll run all the down migrations and make
 
 **Vojtech Vitek:** Right. So you can check the final schema after you run all the migrations into your Git repository... And then this is also applicable to your local host. So even when you're developing your own new migrations, you see the changes against the \[unintelligible 00:31:59.13\] and you can compare if this is exactly what you meant to do. So Git actually helps you see the changes in the final schema, which is very useful.
 
-**Jon Calhoun:** \[00:32:12.08\] Okay.
+**Jon Calhoun:** \[32:12\] Okay.
 
 **Mike Fridman:** Yeah, so maybe I can expand on that one. I also found that useful, where you kind of apply all of your migrations, and at the end of that, let's say in CI, you ask CI to drop the current schema. So you're running, let's say, a Postgres database in a container, you're applying all your migrations \[unintelligible 00:32:27.29\] schema, and now the developer also checked in a schema file, and then you can do a diff against those... And if that (let's say) developer accidentally locally added an extra index, that'll show up in the diff, and it'll fail CI, saying "You're trying to commit something that you probably applied that isn't part of your migrations."
 
@@ -174,7 +174,7 @@ So I like to be in charge of our database schema, because schemas is our state, 
 
 **Jon Calhoun:** That makes sense. And it also makes sense what you were saying earlier, Mike, about developers can sometimes make changes locally when they're sort of tinkering with things and it's easy to forget, especially if you have a long weekend or anything; you can forget that you even tried some different change to your database... And we don't always just drop our database and rebuild it before we submit things. So it's definitely a good check to have.
 
-**Break:** \[00:35:19.00\]
+**Break:** \[35:19\]
 
 **Jon Calhoun:** So I guess we're getting close to the end, so we're gonna start talking about unpopular opinions soon... But before that, are there any big takeaways, or words of wisdom, or anything like that that you'd like to share with people before we move on?
 
@@ -198,13 +198,13 @@ So I like to be in charge of our database schema, because schemas is our state, 
 
 **Jon Calhoun:** It's one of those things where -- I do a lot of smaller projects myself, or myself and one or two other developers, and sometimes it can feel like you're getting cut by a thousand papercuts when you have all these different bills stacking up... And you aren't a big company, so you're paying for all these things, like backups and database hosting... But at the same time, there are so many easy ways to just break everything or screw everything up if you don't just rely on them. They are incredibly helpful; I know that sometimes people like to avoid them or like to try to roll something custom because they don't wanna spend that extra couple dollars... But at the end of the day, if you're planning on doing something using real data and people are paying for, it's worth getting it right. Okay, we're going to move on to Unpopular Opinions...
 
-**Jingle:** \[00:39:38.02\] to \[00:39:54.23\]
+**Jingle:** \[39:38\] to \[39:54\]
 
 **Jon Calhoun:** Okay, Vojtech, I think you said you have an unpopular opinion for us. Would you like to share?
 
 **Vojtech Vitek:** Yeah. I mean, generics - I'm not against it, I'm very excited about the feature; I can't wait for it, and I'm already playing with it... But I'm also scared for the Go community, like what's gonna happen in the next two years. I'm sure that people will use it and abuse it to the levels that we will eventually realize that generics don't really help there.
 
-\[00:40:24.03\] I think this kind of happened with the Go channels back in the day... People were very excited about the channels, and they used it everywhere, prematurely; they didn't really make sense. And it settled, and now people only use it for specific use cases. And I think the same applies to Go generics. So people, please don't go crazy.
+\[40:24\] I think this kind of happened with the Go channels back in the day... People were very excited about the channels, and they used it everywhere, prematurely; they didn't really make sense. And it settled, and now people only use it for specific use cases. And I think the same applies to Go generics. So people, please don't go crazy.
 
 **Jon Calhoun:** I think my one hope around that is that anybody coming to Go from a language that already has generics isn't gonna be like "Oh, I need to use these generics", because they've already had enough experience with it... Whereas the concurrency stuff, if you're coming from a language that doesn't have great concurrent primitives, it's really tempting to use them all the time, because you just haven't ever seen them before.
 
@@ -230,7 +230,7 @@ But you might also be right, in the sense that had there been an interface, mayb
 
 **Mike Fridman:** Yeah... But it also creates a little bit of fragmentation, because if you have everyone redefining what an interface is within their project, I feel like that's something that should inevitably be solved at the standard library level... But who knows.
 
-**Jon Calhoun:** \[00:44:18.20\] It's a tough one. I guess we'll see. I suppose it's something that could potentially introduce a new package in the future for, and at that point third-party libraries would hopefully start to move towards that... But who knows.
+**Jon Calhoun:** \[44:18\] It's a tough one. I guess we'll see. I suppose it's something that could potentially introduce a new package in the future for, and at that point third-party libraries would hopefully start to move towards that... But who knows.
 
 So I have a follow-up, maybe unpopular type of question for you... What do you guys think of the any alias that they're adding in Go 1.18? For anybody listening that doesn't know what this is, basically they're adding a type alias where the word "any" is going to map to the empty interface. So interface, then left curly bracket, right curly bracket, where there's no methods defined.
 
@@ -242,7 +242,7 @@ So I have a follow-up, maybe unpopular type of question for you... What do you g
 
 **Mike Fridman:** That's such a good point, because one of the beautiful things about Go is I could go type something in a search engine, find an article from 2015 which would be 6-7 years old now, and it would be exactly the same. Not much has changed in Go. So there's so much resources out there that are gonna reference empty interfaces. And then now we have "any". So for new folks that don't know that, it might cause confusion. And the more things you add to a language to bloat it, the harder it becomes, and you lose what Vojtech said, the simplicity of the language.
 
-**Vojtech Vitek:** I wonder if the gofmt will eventually replaces interfaces with anys.
+**Vojtech Vitek:** I wonder if the go fmt will eventually replaces interfaces with anys.
 
 **Jon Calhoun:** It would be a nice way to clean it up, but I don't know... I guess we'll have to wait and see. I know I've seen people show some -- I think it was Brad Fitzpatrick... I think that's who it was; I'm trying to remember for sure... But I think he had posted something on Twitter that was like a short little snippet of how you could go replace it in all of your code, if you wanted to.
 
