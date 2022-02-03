@@ -2,7 +2,7 @@
 
 **Paul Copplestone:** Hi, guys. Nice to be here.
 
-**Jerod Santo:** Happy to have you. I should say - this episode was requested by John \[unintelligible 00:02:30.25\] a long-time listener, who also got a request serviced last year; the Darklang episode was John's request, and he's back requesting Supabase. He says "Hey! Open source Firebase... Need I go on? They're building an all-in-one solution. You can self-host or buy as a service. They aim at providing the same features as Firebase, but with their own twist. They've already established auth, database and storage, with functions on the way. Is that a pretty good pitch, Paul?
+**Jerod Santo:** Happy to have you. I should say - this episode was requested by Jon Stødle, a long-time listener, who also got a request serviced last year; the Darklang episode was Jon's request, and he's back requesting Supabase. He says "Hey! Open source Firebase... Need I go on? They're building an all-in-one solution. You can self-host or buy as a service. They aim at providing the same features as Firebase, but with their own twist. They've already established auth, database and storage, with functions on the way. Is that a pretty good pitch, Paul?
 
 **Paul Copplestone:** Well, you probably should have just got him on the show. I mean, he's already done my job for me.
 
@@ -26,7 +26,7 @@
 
 **Paul Copplestone:** I don't know that for sure, actually; I have to fact-check my facts. But yeah, it's still very popular, and I think a lot of big businesses are built from the conversations that we have.. So yeah, I think it's just one of the best tools that you can use if you're starting new.
 
-Now, when you start scaling, then maybe there's a different conversation to be had... But I think it's still very well\[unintelligible 00:05:33.23\] especially in the mobile space. They've got al ot of products as well, so...
+Now, when you start scaling, then maybe there's a different conversation to be had... But I think it's still very well loved, especially in the mobile space. They've got al ot of products as well, so...
 
 We have four core products: database, auth, the APIs and the file storage. They've got something like 18 different products - analytics, ML... All sorts of things. So it's probably a bit beyond what we would consider offering. ML, and things - it's probably a bit outside of our ecosystem.
 
@@ -90,7 +90,7 @@ It sounds like your story then with Supabase -- we'll get into the open source, 
 
 **Paul Copplestone:** That's definitely the case. Pg\_dump, and you're away laughing. Hook up whatever you want... The other thing - all your users live in your database. You can do joins on them, row level security rules with them... Yeah, it's really just whatever you would probably build yourself, ideally, but we've thought it through, we've plugged all the pieces in for you... So whatever you might do yourself, hopefully we've just done it a little bit better... Or a lot better.
 
-**Jerod Santo:** \[laughs\] Depending on \[unintelligible 00:13:21.02\]
+**Jerod Santo:** \[laughs\] Depending on how well you hit your market right?
 
 **Paul Copplestone:** Yeah.
 
@@ -124,7 +124,7 @@ So once again, when people are accessing those, you can put rules, like "Oh, thi
 
 **Adam Stacoviak:** That is interesting.
 
-**Paul Copplestone:** Yeah. Then we've got the suite dashboard for -- you just sort of upload everything, drag and drop whole folders inside it... And the dashboard is actually -- the storage part is one of the coolest. \[unintelligible 00:16:22.14\] You know, normally, S3, if you go in there and you try to use it, it's terrible. And no storage service out there is good, for some reason, and I just think our interface for it is just ten times better. It's as good as like a desktop app.
+**Paul Copplestone:** Yeah. Then we've got the suite dashboard for -- you just sort of upload everything, drag and drop whole folders inside it... And the dashboard is actually -- the storage part is one of the coolest. Got a few MIL columns. You know, normally, S3, if you go in there and you try to use it, it's terrible. And no storage service out there is good, for some reason, and I just think our interface for it is just ten times better. It's as good as like a desktop app.
 
 **Jerod Santo:** Wow. What's it built with?
 
@@ -134,13 +134,13 @@ So once again, when people are accessing those, you can put rules, like "Oh, thi
 
 **Jerod Santo:** So - obviously, a good UI is a good thing to have, but on the auto-generated APIs bit, it seems like better than just a fancy UI. That sounds like a really cool thing.
 
-**Paul Copplestone:** Yeah. The tech behind that is very cool, and it's a very cool open source project. It was around long before we started the business. We employed one of the late maintainers, or THE maintainer of Postgres. It was originally started by someone else \[unintelligible 00:17:09.29\] I only know his GitHub handle, I don't know his full name... Who is no longer active. But Steve Chavez works on it now, and he's a full-time employee at Supabase.
+**Paul Copplestone:** Yeah. The tech behind that is very cool, and it's a very cool open source project. It was around long before we started the business. We employed one of the late maintainers, or THE maintainer of Postgres. It was originally started by someone else, "begrips" I can't -- I only know his GitHub handle, I don't know his full name... Who is no longer active. But Steve Chavez works on it now, and he's a full-time employee at Supabase.
 
 So it's a Haskell tool, and it kind of does this introspection on your database, and as you make changes to your schema, the tables are exposed, and then you can write a bunch of filters, modifiers, quality full-text search, anything that basically Postgres can do, you can do it over a RESTful API... Which is cool, because we're starting to leverage this a lot for a few cool things that I can chat about if you want.
 
 **Jerod Santo:** Yeah, that's spectacular. I've definitely heard of that tool. There's another one which seems like it'd be right up your alley, which is PostGraphile, which is gonna now create instead of a REST API, a GraphQL API. It's a similar concept, right? Go through your schema, introspect it, create a GraphQL API. Is that something that you guys are thinking about leveraging as well?
 
-**Paul Copplestone:** Yeah, which I think is very cool... And \[unintelligible 00:18:10.21\] has done a great job on that one. Actually, we were asked a lot for GraphQL at the start, and we just didn't have sort of enough resources to run so many APIs. But what we've ended up doing instead is that -- and we've just announced this... We've started building a Postgres GraphQL extension. So the GraphQL resolvers live inside your database. This is quite good, because it solves the N+1 problem.
+**Paul Copplestone:** Yeah, which I think is very cool... And Benjie has done a great job on that one. Actually, we were asked a lot for GraphQL at the start, and we just didn't have sort of enough resources to run so many APIs. But what we've ended up doing instead is that -- and we've just announced this... We've started building a Postgres GraphQL extension. So the GraphQL resolvers live inside your database. This is quite good, because it solves the N+1 problem.
 
 Then we exposed the extension through Postgres -- well, that's the plan. We will. So we use the same RESTful API that you use for accessing your table. You can actually use it to access Postgres functions as well as RPC calls. So we'll just expose one RPC function, and then you can actually use GraphQL as well. You can choose REST of GraphQL.
 
@@ -326,7 +326,7 @@ Can you share what the spectrum of that 80k might be, just rough? ...or exact, i
 
 **Paul Copplestone:** \[laughs\] Yeah. Well, first of all, one thing to note is that we're still in beta, actually, even after two years. Because there's databases, we wanna make sure that we've got complete stability. We just know that there's always gonna be an 80/20 type situation. So there's gonna be 20% of our customers who fund the bottom 80%. And actually with databases, it's actually a long time before you start monetizing.
 
-I think it took Mongo six -- someone can fact-check this, but I think it took six years to reach ten million \[unintelligible 00:37:08.11\] I think that's the number I saw... Which is a lot longer than most SaaS businesses. So we just know that as a database company it's gonna take longer. But when you make it, if you make it, it's very hard to break into this market. The market size is just a lot larger than most other companies. So that's what we're banking on, and we've got the right backers to get us there, and make sure we can get there.
+I think it took Mongo six -- someone can fact-check this, but I think it took six years to reach ten million ARR I think that's the number I saw... Which is a lot longer than most SaaS businesses. So we just know that as a database company it's gonna take longer. But when you make it, if you make it, it's very hard to break into this market. The market size is just a lot larger than most other companies. So that's what we're banking on, and we've got the right backers to get us there, and make sure we can get there.
 
 **Jerod Santo:** Yeah.
 
@@ -398,7 +398,7 @@ And then we've just built out this functionality, we've just released it with ro
 
 **Adam Stacoviak:** Right. Is it done, or is this just sort of like a future, what you'd love to have?
 
-**Paul Copplestone:** I mean, Postgres, of course, is not a beta product, right? It's very tried and true... The real-time server, for example - it's very robust for certain use cases. You wouldn't use it for guaranteed delivery \[unintelligible 00:48:30.25\] with it, in which case we want guaranteed delivery. So we'll probably code that part into it.
+**Paul Copplestone:** I mean, Postgres, of course, is not a beta product, right? It's very tried and true... The real-time server, for example - it's very robust for certain use cases. You wouldn't use it for guaranteed delivery change data capture. But we'll probably code that in. For example we might do some sort of cashe busting with it, in which case we want guaranteed delivery. So we'll probably code that part into it.
 
 But for connecting multiple clients to the database and listening, usually it's for like message updates, and things like this. You don't really need guaranteed delivery. You want almost guaranteed delivery, but it doesn't matter if the occasional message slips through. They just refresh the page. So in this case - yeah, it's definitely a done product, but we'll keep iterating on the CDC part of it.
 
@@ -414,7 +414,7 @@ But for connecting multiple clients to the database and listening, usually it's 
 
 **Jerod Santo:** Right.
 
-**Paul Copplestone:** So the holy grail really, I think the person or the company doing it the best would be AWS Aurora have the sort of serverless Postgres. It has a bunch of quirks as well. Really though -- I mean, it's very hard to bet against Postgres. They know that there are some limitations around this, and we work around a bunch of these limitations with our existing tooling. For example, one of the limitations is around connections, and it doesn't scale so well if you're doing serverless directly to the database. So you've gotta put a \[unintelligible 00:53:40.25\] in place, or something like that. We provide a \[unintelligible 00:53:44.06\] for you. Or if you just use our APIs, the HTTP API, you don't have any problems at all. So really, we've solved some of the problems of working with serverless and Postgres.
+**Paul Copplestone:** So the holy grail really, I think the person or the company doing it the best would be AWS Aurora have the sort of serverless Postgres. It has a bunch of quirks as well. Really though -- I mean, it's very hard to bet against Postgres. They know that there are some limitations around this, and we work around a bunch of these limitations with our existing tooling. For example, one of the limitations is around connections, and it doesn't scale so well if you're doing serverless directly to the database. So you've gotta put a pg-puller in place, or something like that. We provide a puller for you. Or if you just use our APIs, the HTTP API, you don't have any problems at all. So really, we've solved some of the problems of working with serverless and Postgres.
 
 Then you've gotta ask, "Well, how can Postgres be serverless?" And this is the thing that really our business is going to gear up towards over the next few years. We're going to make sure that we can help with these efforts, build out a cloud-native Postgres. We don't wanna have to run a fork of Postgres. If we do run a fork, it'll be to upstream as much as we can. And there are a lot of companies that are going to be working on this. A lot of people are interested in this, of course. Everyone thinks there's a lot of money in it from a commercial side, but even the open source contributors just know that it's something that Postgres needs to get through.
 
@@ -440,9 +440,9 @@ So there's a lot of stuff coming in this space... Pluggable storage is an intere
 
 **Paul Copplestone:** For sure, for sure. It's a huge benefit for us. A lot of people come in just because they like the fact that we're Postgres.
 
-**Jerod Santo:** I mean, an analog to this, which I think was at a smaller scale, was the NoSQL trend, which was kind of like "Look what you can't do with your relational database", without N+1 queries, or whatever... And then Postgres the community and the core team reaction to a certain degree to that, which is like "Look at all these cool JSON tools \[unintelligible 00:58:42.22\] to Postgres. It's like, my database can do that just as well, if not better, given these constraints etc." That was an answer to a desire for a different style thing.
+**Jerod Santo:** I mean, an analog to this, which I think was at a smaller scale, was the NoSQL trend, which was kind of like "Look what you can't do with your relational database", without N+1 queries, or whatever... And then Postgres the community and the core team reaction to a certain degree to that, which is like "Look at all these cool JSON tools we have built right into Postgres. It's like, my database can do that just as well, if not better, given these constraints etc." That was an answer to a desire for a different style thing.
 
-Now, this seems more foundational - and we're talking about storage engines; it's lower than a data type, and I think therefore bigger of a lift... But I can see where you're coming from. There's money here, there's gold in them hills if we can figure it out, there's a lot of people with vested interests in Postgres, 25 \[unintelligible 00:59:11.29\] years of development on the software project. If you were to forget about the how, and just tell us the what - so what would a cloud-native Postgres look like? Forget about how it gets done. What are the attributes? What makes it cloud-native versus not? What's it missing?
+Now, this seems more foundational - and we're talking about storage engines; it's lower than a data type, and I think therefore bigger of a lift... But I can see where you're coming from. There's money here, there's gold in them hills if we can figure it out, there's a lot of people with vested interests in Postgres, 25-30 years of development on the software project. If you were to forget about the how, and just tell us the what - so what would a cloud-native Postgres look like? Forget about how it gets done. What are the attributes? What makes it cloud-native versus not? What's it missing?
 
 **Paul Copplestone:** Decoupled compute and storage. So the idea is that you should be able to attach the compute part of it to a storage, hopefully like an infinite storage; you know, anything that is infinitely scalable. If you can do this, and in particular, if the compute can start up very fast, maybe in, say, a hundred milliseconds via some sort of HTTP response, then that's cloud-native, yeah.
 
