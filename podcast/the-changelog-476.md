@@ -410,15 +410,15 @@ But for connecting multiple clients to the database and listening, usually it's 
 
 **Jerod Santo:** What do you think about that? Do you think that's the case? Or do you think that it's just a small thing that you can work around, or is it a big problem?
 
-**Paul Copplestone:** Well, it's definitely not a small problem. So the experience right now for you if you sign up to Supabase is we sort of scale your database for you. There's no unlimited scaling, actually; there are some theoretical limits around this, and we will work around these eventually. But what they're really getting to is they are cloud-native Postgres.
+**Paul Copplestone:** Well, it's definitely not a small problem. So the experience right now for you if you sign up to Supabase is we sort of scale your database for you. There's no unlimited scaling, actually; there are some theoretical limits around this, and we will work around these eventually. But what they're really getting to is they are cloud native Postgres.
 
 **Jerod Santo:** Right.
 
 **Paul Copplestone:** So the holy grail really, I think the person or the company doing it the best would be AWS Aurora have the sort of serverless Postgres. It has a bunch of quirks as well. Really though -- I mean, it's very hard to bet against Postgres. They know that there are some limitations around this, and we work around a bunch of these limitations with our existing tooling. For example, one of the limitations is around connections, and it doesn't scale so well if you're doing serverless directly to the database. So you've gotta put a pg-puller in place, or something like that. We provide a puller for you. Or if you just use our APIs, the HTTP API, you don't have any problems at all. So really, we've solved some of the problems of working with serverless and Postgres.
 
-Then you've gotta ask, "Well, how can Postgres be serverless?" And this is the thing that really our business is going to gear up towards over the next few years. We're going to make sure that we can help with these efforts, build out a cloud-native Postgres. We don't wanna have to run a fork of Postgres. If we do run a fork, it'll be to upstream as much as we can. And there are a lot of companies that are going to be working on this. A lot of people are interested in this, of course. Everyone thinks there's a lot of money in it from a commercial side, but even the open source contributors just know that it's something that Postgres needs to get through.
+Then you've gotta ask, "Well, how can Postgres be serverless?" And this is the thing that really our business is going to gear up towards over the next few years. We're going to make sure that we can help with these efforts, build out a cloud native Postgres. We don't wanna have to run a fork of Postgres. If we do run a fork, it'll be to upstream as much as we can. And there are a lot of companies that are going to be working on this. A lot of people are interested in this, of course. Everyone thinks there's a lot of money in it from a commercial side, but even the open source contributors just know that it's something that Postgres needs to get through.
 
-So there's a lot of stuff coming in this space... Pluggable storage is an interesting one. New storage engines for Postgres, fundamentally rewriting the storage engines to be distinct, ways of combining it with, say, other disk tools, maybe ZFS, things like these... So there are people working around it with clustering, and things. So that's how we do it at the moment, but really, I've got no doubt, give it five years, Postgres will have some very cloud-native functionality.
+So there's a lot of stuff coming in this space... Pluggable storage is an interesting one. New storage engines for Postgres, fundamentally rewriting the storage engines to be distinct, ways of combining it with, say, other disk tools, maybe ZFS, things like these... So there are people working around it with clustering, and things. So that's how we do it at the moment, but really, I've got no doubt, give it five years, Postgres will have some very cloud native functionality.
 
 **Adam Stacoviak:** What particularly about ZFS can you talk about? Because we're gonna air - I think before your show... So if you're listening to this, there's Matt Ahrens, one of the co-creators of ZFS was on the show. What specifically about ZFS is it gonna be solving to make it serverless?
 
@@ -442,9 +442,9 @@ So there's a lot of stuff coming in this space... Pluggable storage is an intere
 
 **Jerod Santo:** I mean, an analog to this, which I think was at a smaller scale, was the NoSQL trend, which was kind of like "Look what you can't do with your relational database", without N+1 queries, or whatever... And then Postgres the community and the core team reaction to a certain degree to that, which is like "Look at all these cool JSON tools we have built right into Postgres. It's like, my database can do that just as well, if not better, given these constraints etc." That was an answer to a desire for a different style thing.
 
-Now, this seems more foundational - and we're talking about storage engines; it's lower than a data type, and I think therefore bigger of a lift... But I can see where you're coming from. There's money here, there's gold in them hills if we can figure it out, there's a lot of people with vested interests in Postgres, 25-30 years of development on the software project. If you were to forget about the how, and just tell us the what - so what would a cloud-native Postgres look like? Forget about how it gets done. What are the attributes? What makes it cloud-native versus not? What's it missing?
+Now, this seems more foundational - and we're talking about storage engines; it's lower than a data type, and I think therefore bigger of a lift... But I can see where you're coming from. There's money here, there's gold in them hills if we can figure it out, there's a lot of people with vested interests in Postgres, 25-30 years of development on the software project. If you were to forget about the how, and just tell us the what - so what would a cloud native Postgres look like? Forget about how it gets done. What are the attributes? What makes it cloud native versus not? What's it missing?
 
-**Paul Copplestone:** Decoupled compute and storage. So the idea is that you should be able to attach the compute part of it to a storage, hopefully like an infinite storage; you know, anything that is infinitely scalable. If you can do this, and in particular, if the compute can start up very fast, maybe in, say, a hundred milliseconds via some sort of HTTP response, then that's cloud-native, yeah.
+**Paul Copplestone:** Decoupled compute and storage. So the idea is that you should be able to attach the compute part of it to a storage, hopefully like an infinite storage; you know, anything that is infinitely scalable. If you can do this, and in particular, if the compute can start up very fast, maybe in, say, a hundred milliseconds via some sort of HTTP response, then that's cloud native, yeah.
 
 **Jerod Santo:** And at that point you can do geographic distribution of storage as well, correct?
 
@@ -454,7 +454,7 @@ Now, this seems more foundational - and we're talking about storage engines; it'
 
 **Paul Copplestone:** Tricky, yeah... \[laughs\] Then we're getting into distributed systems, so...
 
-**Jerod Santo:** Well, aren't cloud-native systems kind of inherently distributed?
+**Jerod Santo:** Well, aren't cloud native systems kind of inherently distributed?
 
 **Paul Copplestone:** Yeah, it depends whether you want multi-master, or a master and a read. So it really comes down to if you want to write your data -- well, it's classic CAP theorem, right?
 
