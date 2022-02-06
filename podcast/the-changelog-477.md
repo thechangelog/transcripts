@@ -34,7 +34,7 @@ These are the major services of AWS.
 
 **Forrest Brazeal:** Yeah, actually I do. It was at a conference called Serverless Conf, dearly departed, back in Austin, Texas. This was 2017. I was giving a talk, it was about serverless functions, something like that. I decided that I would end the talk by rapping... Acapella rap, which is just the worst thing you can imagine.
 
-**Recording begins:** \[00:02:09.19\]
+**Recording begins:** \[02:09\]
 
 "Alright, let's do this.
 
@@ -50,7 +50,7 @@ No maintenance windows from midnight till 2. Jeff Bezos will pay those sysadmins
 
 Amazon \[unintelligible 00:03:05.25\] try Azure, or Google, or - yes, IBM... Use Cloud Functions, Step Functions, Firebase, Cognito, or wrap them all up like a \[unintelligible 00:03:14.11\] the quick kick of that serverless stack is addicting as heck, and there's no looking back... So go write a function, deploy and test, and let the cloud do what the cloud does best." \[applause\]
 
-**Recording ends:** \[00:03:26.06\]
+**Recording ends:** \[03:26\]
 
 For whatever reason, it became a very memorable moment at the end of that talk, and it ended up leading to some great opportunities, and I realized "Hey, people do enjoy engaging with these concepts in this way." And at some point I started putting more music around this stuff, and... Yeah, here we are.
 
@@ -66,7 +66,7 @@ I think about the song that I wrote on ransomware back when everybody was thinki
 
 That song ended up winning what's called a Pony Award at Black Hat. I got to meet a lot of cool security people through that, I got to partner a little bit with CISA, the government agency that's responsible for cybersecurity... And yeah, you just never know what doors are gonna be opened once you start singing.
 
-**Song:** \[00:04:47.26\]
+**Song:** \[04:47\]
 
 One day I asked my teacher, What use is math to me?
 
@@ -152,7 +152,7 @@ So from that point, it becomes "Well, what's it gonna sound like? How are you go
 
 In that case, I ended up putting the song together as a -- there's a few different instruments involved. There's a little rap break in the middle of it, and it's got a pop sound to it that's very easy on the ears. I wanted it to sound like an oral hug to help you feel a little bit better about the problem you just caused. Kind of the audio equivalent of the HugOps discipline. So you know, it depends on the setting, it depends on the time, it depends on the concept you're trying to get across.
 
-**Song:** \[00:08:11.15\]
+**Song:** \[08:11\]
 
 My day was going great;
 
@@ -264,7 +264,7 @@ I have moved on to Google, I work there now, so you can expect to see more Googl
 
 **Forrest Brazeal:** Yeah, it was interesting... Somebody had hit me up on a Friday night, like "Hey, you should do a serverless versus containers rap battle", and I said "If this person's tweet gets X amount of shares by Monday, I'll go ahead and write one." And so they did, and I ended up writing it over the weekend.
 
-**Song:** \[00:11:32.27\]
+**Song:** \[11:32\]
 
 Wait and see, the latency's no worse than your complacency.
 
@@ -342,7 +342,7 @@ The guy that was over top of the AWS Hero program at that time, Brian Hall, AWS'
 
 But you're talking about a cloud provider that - hey, it's third out of three. They're in a challenger position. And one of the advantages of doing that is you can be pretty outside the box in how you tell your story and what you're willing to do. So you can expect to see more unusual, creative storytelling coming out of Google Cloud. Will there be some music? I certainly can't deny that there might be some, you know...
 
-**Song:** \[00:13:51.04\]
+**Song:** \[13:51\]
 
 It doesn't seem so long ago,
 
@@ -380,7 +380,7 @@ Just wow, Google Cloud, look at you now.
 
 **Forrest Brazeal:** Yeah. There's a song from back in the '60s called "The merry minuet", made popular by a group called The Kingston Trio. It's all about the atomic age, and the razor edge of nuclear Armageddon that everybody was living on back then. But the very kind of serious commentary nature of the song is undercut by these whimsical lyrics, and it's a very light melody. It actually has a minuet feel to it, and it just trips along very whimsically. So the intentional triviality of the music and of the way it's phrased is in complete contrast to the civilization-destroying implications of what they're talking about.
 
-**Song extract:** \[00:16:03.22\]
+**Song extract:** \[16:03\]
 
 They're rioting in Africa
 
@@ -392,11 +392,11 @@ And Disneyland needs rain...
 
 **Forrest Brazeal:** So I wanted to write something like that about big tech. So if you listen to that song, you'll hear - it's a very kind of calm, flowing, cheerful melody.
 
-**Song extract:** \[00:16:29.26\]
+**Song extract:** \[16:29\]
 
 **Forrest Brazeal:** You know, it just kind of flows along like that, but you're singing about a world where people are not in control of their own thoughts and feelings, and where you have a small number of oligarchic technology companies that are making decisions about who can speak, and who's not allowed to speak... That's our version of Armageddon that we're contemplating, in some ways, and I just wanted to back that with music that absolutely didn't sound like it at all.
 
-**Song:** \[00:17:11.10\]
+**Song:** \[17:11\]
 
 Grandma is a Nazi now.
 
@@ -494,7 +494,7 @@ That's someone who has an incredible, obviously, commitment to researching and s
 
 **Forrest Brazeal:** And so it was something like...
 
-**Song:** \[00:21:49.09\]
+**Song:** \[21:49\]
 
 Scalability
 
