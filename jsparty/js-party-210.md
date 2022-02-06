@@ -26,7 +26,7 @@ With us on the panel as well today is our resident open source -- I don't even k
 
 **Amal Hussein:** Awesome. So Tobie is -- I don't even know if I can do justice for introducing Tobie... He's just a long-time, I would say, advocate and expert within open source ecosystems. He really gets -- I don't know, what open governance means... He's helped some really large-scale open source projects land in Foundations, he runs a consultancy helping various organizations adapt open source strategies and whatnot... I don't know, Tobie, I'm not doing you any justice, so in your own words, why don't you introduce yourself and tell folks a little bit about yourself?
 
-**Tobie Langel:** \[00:04:20.06\] Well, I mean, originally, I'm actually a JavaScript developer. Just saying.
+**Tobie Langel:** \[04:20\] Well, I mean, originally, I'm actually a JavaScript developer. Just saying.
 
 **Amal Hussein:** Oh yeah, that too...
 
@@ -42,7 +42,7 @@ And regardless of whether that's actually specifically true and a legit claim in
 
 **Amal Hussein:** Yeah, I mean -- thank you for that really wonderful summary. Just for our listeners - we're not here to really poo-poo over the specifics of what happened in terms of "This developer did this exact thing." I think the wider takeaway for today is really this is just one of many potential things, but also it was literally also one of many things that happened with the same developer over a short period of time... So how do we kind of like unpack that and react to some clear vulnerabilities in our processes and in our systems, and just even in our knowledge base as engineers; there's a lot of gaps here, and we hope to discuss some of that.
 
-\[00:08:08.28\] I'm really excited to also have a wonderful panel of people to discuss this with, because even though Tobie is our guest today, Feross and Chris are both pretty seasoned open source developers and maintainers of fairly widely-adopted projects... So Feross and Chris, I'm eager to hear from both of you as well, thoughts on the context for what happened.
+\[08:08\] I'm really excited to also have a wonderful panel of people to discuss this with, because even though Tobie is our guest today, Feross and Chris are both pretty seasoned open source developers and maintainers of fairly widely-adopted projects... So Feross and Chris, I'm eager to hear from both of you as well, thoughts on the context for what happened.
 
 **Feross Aboukhadijeh:** I'll just second what Tobie said... I think we've been super-lucky with the types of attacks that we've seen so far. It could be much worse than what we saw in this particular attack. I think we're starting to see these kinds of supply chain attacks happen on a much more regular basis. It's sort of picked up in 2021, and it hasn't really let go since. I see a headline about something like this every two weeks, it seems like; sometimes even more frequently. And if you look at the kind of packages that are being affected, they're all these pretty headline-grabbing numbers in terms of downloads.
 
@@ -60,7 +60,7 @@ There have been hints at much more scary attacks. If you go back to 2018 with ev
 
 **Amal Hussein:** Mirroring, yeah.
 
-**Feross Aboukhadijeh:** \[00:11:53.27\] Mirroring, exactly. So it's not like you're gonna get away with it, really. Eventually, it's gonna be discovered, and so there's an element of that. And then I also do think that you're right, that most people are good. I mean, we're talking about most people who write open source are doing it for good reasons. They get into it for good reasons, for one reason or another... So it's pretty rare that they wanna try to do something bad; it's more (I feel like) external actors coming in and trying to get access to people's packages. But I don't know... It's an open question. I wonder what other people think.
+**Feross Aboukhadijeh:** \[11:53\] Mirroring, exactly. So it's not like you're gonna get away with it, really. Eventually, it's gonna be discovered, and so there's an element of that. And then I also do think that you're right, that most people are good. I mean, we're talking about most people who write open source are doing it for good reasons. They get into it for good reasons, for one reason or another... So it's pretty rare that they wanna try to do something bad; it's more (I feel like) external actors coming in and trying to get access to people's packages. But I don't know... It's an open question. I wonder what other people think.
 
 **Amal Hussein:** For me, honestly, this fragility of our ecosystem just purely in terms of -- the fact that there are packages on Npm that are downloaded millions of times a week, but they don't have 2FA, or have a single maintainer... A single point of failure, in some ways... Like, what if this person dies and they don't have a death plan, or whatever? What then?
 
@@ -84,7 +84,7 @@ You have lots of examples, especially within the Node community, of stadium proj
 
 I gave a short presentation two days ago on this topic, and it was really quickly after this original thread, and so I decided to just use the Twitter thread and use that as a deck. So I was missing a title, and I quickly came up with a title that was something along the lines of "Open source is public infrastructure. It's about time we treat it as such", or something of that nature... And I tweeted that so that I could actually have the title for the first slide of my Twitter deck.
 
-\[00:16:06.18\] And people went really -- like, it was so tense, the responses to that tweet; that wasn't supposed to be a tweet, I was just using it as sort of a scratchpad... And this really tense culture, and really a strong difference in perspective between North America and Europe in terms of what public infrastructure is, and whether it's something useful and great, that we can rely on in our daily life as individuals and as businesses... And the opposite perspective in the U.S, where you think of it as broken bridges, and potholes, and all of that stuff.
+\[16:06\] And people went really -- like, it was so tense, the responses to that tweet; that wasn't supposed to be a tweet, I was just using it as sort of a scratchpad... And this really tense culture, and really a strong difference in perspective between North America and Europe in terms of what public infrastructure is, and whether it's something useful and great, that we can rely on in our daily life as individuals and as businesses... And the opposite perspective in the U.S, where you think of it as broken bridges, and potholes, and all of that stuff.
 
 So there's a real tension there. But regardless of how we're actually thinking of public infrastructure, I don't wanna really say "public infrastructure" to imply "must be owned and operated by the government." I really mean it sort of like in a broader, more loose way, in terms of like "This is what we build our things on today." And I'm not trying to imply specific solutions that are tied to more taxes, and the government owning open source...
 
@@ -94,7 +94,7 @@ So there's a real tension there. But regardless of how we're actually thinking o
 
 I think we have to acknowledge that this is a problem... And it's been a problem for a while. But now that we're actually being really impacted by security problems that this is creating, people are starting to pay attention... Which is good. Because of security problems we're going to be able to solve what is also sort of like a human problem, of people doing work and not being paid for it. So I'm all for that.
 
-**Break:** \[00:18:22.29\]
+**Break:** \[18:22\]
 
 **Amal Hussein:** Tobie, that was a really great point to end on, because really, you're absolutely right - until we kind of like feel the burn from the fire, we usually don't learn...
 
@@ -102,7 +102,7 @@ I think we have to acknowledge that this is a problem... And it's been a problem
 
 **Amal Hussein:** Right, yeah. Exactly. But Feross pointed out this has been happening, this is not new... We make a little fuss, news articles come out, we move on and forget about it. It's like the attention deficit disorder of the internet, and also our complete and utter bias towards just moving forward. Somehow we've all embraced the meta mission of "Break it and don't think about it, and move on."
 
-**Tobie Langel:** \[00:19:56.25\] So I'm gonna make the argument that it's different this time...
+**Tobie Langel:** \[19:56\] So I'm gonna make the argument that it's different this time...
 
 **Amal Hussein:** Okay... I hope so.
 
@@ -148,7 +148,7 @@ I think we have to acknowledge that this is a problem... And it's been a problem
 
 **Amal Hussein:** It's like folks suddenly looked at the shopping bags that they just came home with... Or, actually, I take it back; they just looked at the shopping bags that have been in their car for the past 10-15 years, and just decided "You know what - let me just take a look at the label. What are the ingredients in here? What are these clothes made of?" It's like, "Whoa! Wow, I didn't realize there were so many different kinds of fabric." And "Oh, guess what - all of these fabrics have different laundry settings." And "Oh, some of them age differently. Oh, some of them have their own set of mini-fabrics." It's like the crazy, recursive dependency tree, which quite frankly, to me, we can poo-poo on it all we want, but I think open source is working, right? Open source -- like, we want people to write less code, in the sense that... I think the statistics the last time I checked, at least a couple years ago, the statistics were around like for every one line of application code a software engineer writes, there's ten lines of code in their open source dependencies that are running. So that's a really good ratio. People should not see that as a sign of weakness, right? It means that you're focusing on the problems that you need to solve for your specific customers, and we're relying on code that's more secure, and reused, and maintained, and we're reducing the surface area and we're able to move faster.
 
-\[00:24:09.28\] So open source is working, but what's missing I think is our hygiene around open source, and the resilience and our sustainability around open source. That's where we're failing. So what do we need to do to be more resilient? Both on the organizational level, for the Fortune 10 companies, but also as individuals that are also using these packages, or using these libraries - how do we tackle this giant sustainability problem that's been very under-addressed?
+\[24:09\] So open source is working, but what's missing I think is our hygiene around open source, and the resilience and our sustainability around open source. That's where we're failing. So what do we need to do to be more resilient? Both on the organizational level, for the Fortune 10 companies, but also as individuals that are also using these packages, or using these libraries - how do we tackle this giant sustainability problem that's been very under-addressed?
 
 **Tobie Langel:** There's lots of questions here...
 
@@ -176,7 +176,7 @@ When you look at the whole dependency tree that's behind it, the long tail, you 
 
 **Tobie Langel:** Well, no, sure, but we can't do that at scale.
 
-**Feross Aboukhadijeh:** \[00:28:04.10\] There is a company called Tidelift that's trying to do that... I think they're even a sponsor of JS Party or one of the Changelog podcasts...
+**Feross Aboukhadijeh:** \[28:04\] There is a company called Tidelift that's trying to do that... I think they're even a sponsor of JS Party or one of the Changelog podcasts...
 
 **Tobie Langel:** Absolutely.
 
@@ -202,7 +202,7 @@ I'm just saying that there's steps here, but I think even more so the driving fa
 
 **Feross Aboukhadijeh:** Yeah, I'll just start by saying that what we're trying to do here is actually a pretty crazy problem. Basically, what's going on is people are downloading code from the internet, written by people who they don't know, that they've never met, and they're executing it on their laptops and on their production servers, and they're hoping that that goes well... Which is, when you put it like that --
 
-**Tobie Langel:** \[00:32:17.15\] Mind-boggling.
+**Tobie Langel:** \[32:17\] Mind-boggling.
 
 **Feross Aboukhadijeh:** Yeah, it's mind-boggling, that not only does it mostly work, which is a testament to how good most people are, but it's just a lot of trust that people put in... It's sort of like, people just don't think about that that's what they're doing very often. It's crazy, it's mind-boggling, it's astounding... I don't know what words to use. We download random code from the internet, we run it on our computers, we don't even bother reading it first, most of the time...
 
@@ -230,7 +230,7 @@ So there's a lot of blind trust, and giving strangers access to unsandboxed envi
 
 **Amal Hussein:** You're such a polite gentleman. I just blindly interrupt people all the time... But honestly, for me it's almost uncontrollable. It's actually a problem, so... I just wanna say, I really appreciate your politeness. I really do, Chris.
 
-**Christopher Hiller:** \[00:36:00.08\] Thanks. Right, so I don't wanna pull us too far of... So we're talking about there is or there is no -- you've got this GitHub repo, you've got this package on Npm... You could say that the code you're publishing to Npm comes from this GitHub repo, but you could throw anything in that tarball and upload it to Npm.
+**Christopher Hiller:** \[36:00\] Thanks. Right, so I don't wanna pull us too far of... So we're talking about there is or there is no -- you've got this GitHub repo, you've got this package on Npm... You could say that the code you're publishing to Npm comes from this GitHub repo, but you could throw anything in that tarball and upload it to Npm.
 
 **Amal Hussein:** Of course, yeah.
 
@@ -258,7 +258,7 @@ I feel like the speed of how things moved in the server-side world for JavaScrip
 
 So I'm just saying, the speed of the internet is a thing, and standards are slow, because they are thoughtful processes... So it's push-pull. But anyways, we're gonna take a break. There's so much to discuss and unpack here. We're gonna compose ourselves, argue about how we wanna spend our last 20 minutes, and then we'll be back.
 
-**Break:** \[00:40:18.04\]
+**Break:** \[40:18\]
 
 **Amal Hussein:** Alright kids, so I think we have some healthy constraints to help us get through brainstorming solutions for this last segment... Because this is a giant topic, and we could talk about it for hours. However, we don't have hours, so the constraint is - how do we come up with solutions that would have potentially helped us avoid the situation that happened with Marak's packages? He released something intentionally malicious; it wasn't kind of like a secret thing... Things started showing up in your terminal, or whatever... So in some ways it's an easy to find issue. However, it doesn't mean -- just because it's easy to find doesn't mean that we couldn't have mitigated it entirely, even including it into our updated application versions.
 
@@ -272,7 +272,7 @@ So with that said, Feross and Tobie and Chris - solutions, folks... How could we
 
 The person here we were worried about, the person who inserted the malware into the package was themselves the maintainer. So they would have simply signed the malware and we would all be running it on our machines, and nobody would know the better. So it's a nice idea, unfortunately it doesn't help at all with this incident.
 
-\[00:43:54.23\] The second one I wanna bring up is 2FA. It's not a requirement to have two-factor authentication on your Npm account, and a lot of people want that to become a requirement, and maybe it should be... But again, in this particular incident it would not have helped, because the person we're worried about is the maintainer of the package, and they have their own 2FA device with them, and so they would have been able to use that to publish malware. So again, 2FA - not the solution in this situation.
+\[43:54\] The second one I wanna bring up is 2FA. It's not a requirement to have two-factor authentication on your Npm account, and a lot of people want that to become a requirement, and maybe it should be... But again, in this particular incident it would not have helped, because the person we're worried about is the maintainer of the package, and they have their own 2FA device with them, and so they would have been able to use that to publish malware. So again, 2FA - not the solution in this situation.
 
 I think possible solutions - one is read every single line of code that you allow to run in your project. Audit every single line of code.
 
@@ -320,7 +320,7 @@ Obviously - yeah, the practicality of this approach for a typical startup, or ev
 
 **Feross Aboukhadijeh:** The thing that's so interesting about them though in my opinion is that they help you keep your project up to date and avoid known vulnerabilities. Known vulnerabilities are vulnerabilities where some security researcher has found a problem in a package, and made a report, and a CVE has been issued, which is like an official report with the National Vulnerability Database, and then now Dependabot can warn you that "Hey, you should update", because it resolves this issue.
 
-\[00:47:59.16\] But what's so interesting about it is if you just install Dependabot and you start just getting all these pull requests - I don't know about you all, but in my experience, I end up getting like five or ten of them per day... And they're so overwhelming. And I basically just read the changelog, and I say "Does this seem fine? Did the test pass? Okay, click Merge." Because there's too many, and you're not actually reviewing the contents of the changes... So what ends up happening is you have this unfortunate trade-off where on the one hand -- like, if you keep up to date, you're gonna be safe from known vulnerabilities. But the more you do that, the more up to date you keep yourself, the more you're running code that has potentially only been published for like a day or two on Npm. You're updating to the thing that Marak updated yesterday. You're clicking Merge on that PR because you're trying to keep up to date, so now you're actually running code that no eyeballs have looked at... So it's actually the case that some organizations choose to intentionally keep all their dependencies six months out of date, with the exception of security fixes, just to avoid this problem of supply chain attacks that come in from code that somebody published yesterday or a week ago, that hasn't been caught yet.
+\[47:59\] But what's so interesting about it is if you just install Dependabot and you start just getting all these pull requests - I don't know about you all, but in my experience, I end up getting like five or ten of them per day... And they're so overwhelming. And I basically just read the changelog, and I say "Does this seem fine? Did the test pass? Okay, click Merge." Because there's too many, and you're not actually reviewing the contents of the changes... So what ends up happening is you have this unfortunate trade-off where on the one hand -- like, if you keep up to date, you're gonna be safe from known vulnerabilities. But the more you do that, the more up to date you keep yourself, the more you're running code that has potentially only been published for like a day or two on Npm. You're updating to the thing that Marak updated yesterday. You're clicking Merge on that PR because you're trying to keep up to date, so now you're actually running code that no eyeballs have looked at... So it's actually the case that some organizations choose to intentionally keep all their dependencies six months out of date, with the exception of security fixes, just to avoid this problem of supply chain attacks that come in from code that somebody published yesterday or a week ago, that hasn't been caught yet.
 
 So it's this really unfortunate trade-off... It's like, what are you more afraid of? Are you more afraid of supply chain malware getting inserted by random bad actors, or are you more afraid of known vulnerabilities? And you have to choose your poison.
 
@@ -346,7 +346,7 @@ For example, if I have a React project, I don't like being on the latest version
 
 We always try to push -- I think our bias towards pushing new and being very future-oriented... We all try to adopt the bleeding edge, and I don't understand why. Why do we all feel the need to be on the bleeding edge. Bleeding edge is not for everyone, and... I don't get that. Maybe you can share some insights, Tobie...
 
-**Tobie Langel:** \[00:52:19.24\] It does go back to this tension though... Because again, either you're running the latest patches, and so you're safe against known vulnerabilities, or you're not.
+**Tobie Langel:** \[52:19\] It does go back to this tension though... Because again, either you're running the latest patches, and so you're safe against known vulnerabilities, or you're not.
 
 **Amal Hussein:** Security patches can be patched in -- let's say I have three major versions of a project right now that I'm supporting in production. If I discover a security vulnerability, it affects all of them. I can patch --
 
@@ -378,7 +378,7 @@ So in those examples, all of those packages added install scripts, which means t
 
 **Feross Aboukhadijeh:** I'm actually working on a thing that does what I've just said, so I'm kind of biased. I'm promoting my preferred solution. But I do think that we need something like this, because we can't review all the code by hand. We certainly can't just close our eyes and hope for the best, and just run this code and hope for the best. I think a middle ground is really nice, where you just use some tooling, some static analysis tooling to kind of tell you what does it look like this package is doing. And when you notice a really drastic change in behavior that indicates that the maintainer may have gone rogue, or a new maintainer may have actually been a malicious actor, not just a normal person - we can use those signals to alert people before they update to those dangerous versions.
 
-**Amal Hussein:** \[00:56:15.23\] Yeah.
+**Amal Hussein:** \[56:15\] Yeah.
 
 **Feross Aboukhadijeh:** I think that's where we need to go. Because I don't think the solution is to have everybody read every line of code, or to --
 
@@ -408,7 +408,7 @@ So essentially, you have to have a flow of resources going up, to sort of deal w
 
 **Amal Hussein:** Oh my God, forget that... Don't even -- honestly, I was trying to avoid this part, because this is such a huge topic. This is going to set me off on a giant tangent, but I will say this very quickly... The fact that folks at TypeScript - God bless them, whatever - they made a patch into Babel that was so huge, because... Like, for anybody listening who uses TypeScript, and Node, and JavaScript, I juts wanna say that I highly recommend using the Babel parser for TypeScript, because really, you wanna use TypeScript compiler to handle types, and you wanna use the Babel TypeScript plugin to really manage all your transpiling, because you wanna really leverage... Babel has a much better transpiler than TypeScript. So just -- for what it's worth.
 
-\[00:59:52.23\] So folks are starting to really widely acknowledge this, and Microsoft is like, "Yeah, we really should just start contributing to the Babel plugin." They created this giant patch that just created so much work for the Babel maintainers... And that's not cool. What is this? People working full-time are making so much work for people working on a community-run project that's extremely critical to our ecosystem without making formal time to contribute a ton of money or resources to help? I mean, that's just an example of that pushing it down in a way that's not conducive or productive, and then quite frankly, harmful in contributing to maintainer burnout.
+\[59:52\] So folks are starting to really widely acknowledge this, and Microsoft is like, "Yeah, we really should just start contributing to the Babel plugin." They created this giant patch that just created so much work for the Babel maintainers... And that's not cool. What is this? People working full-time are making so much work for people working on a community-run project that's extremely critical to our ecosystem without making formal time to contribute a ton of money or resources to help? I mean, that's just an example of that pushing it down in a way that's not conducive or productive, and then quite frankly, harmful in contributing to maintainer burnout.
 
 **Christopher Hiller:** One thing I think a lot of people don't necessarily understand is "Oh, well, I sent a PR to this project. Am I not helping?" And in some cases, no. You're making more work.
 
