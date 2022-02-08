@@ -378,7 +378,7 @@ So there is definitely a balance that one needs to strike here, and I'm fairly c
 
 **Carlisia Thompson:** Yeah... Sounds like software development. \[laughter\] So I ran into this post early in the week (a few days ago), and to complement Michael's blog post, which is -- we never mention the name, but it's named [Why Go is my favorite programming language](https://michael.stapelberg.de/posts/2017-08-19-golang_favorite/), and that's gonna be in the show notes.
 
-This post is called [The 7 stages of becoming a Go programmer](https://open source.com/article/17/9/seven-stages-becoming-go-programmer), and it's sort of hilarious... I was laughing.
+This post is called [The 7 stages of becoming a Go programmer](https://opensource.com/article/17/9/seven-stages-becoming-go-programmer), and it's sort of hilarious... I was laughing.
 
 **Brian Ketelsen:** It really is good.
 
