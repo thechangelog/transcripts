@@ -20,7 +20,7 @@ This show is hosted by myself, Adam Stacoviak... I almost said Andrew Thorpe... 
 
 **Adam Stacoviak:** And before we kick off this show, I wanna pay some homage to our sponsor, DigitalOcean, a super-awesome cloud hosting provider.
 
-**Break:** \[00:01:33.24\] to \[00:03:00.15\]
+**Break:** \[01:33\] to \[03:00\]
 
 **Adam Stacoviak:** That's kind of neat though, Andrew - we have a friend at \[unintelligible 00:02:59.11\] that works with us, that is about to move to their services. Kelly - you know his service, \[unintelligible 00:03:04.11\] He's been using Linode, and I think one thing that was pretty enticing about DigitalOcean for him was the fact they have private IPs now, so he was like "Oh, that's nice." Plus it's on SSD, so it's super-fast, too...
 
@@ -42,7 +42,7 @@ This show is hosted by myself, Adam Stacoviak... I almost said Andrew Thorpe... 
 
 **Adam Stacoviak:** Oh, yeah. And the five bucks, they basic plan -- we get ten bucks off, so it's basically two months free; the easy way to say that. That's a super-extended promo for DigitalOcean, but we certainly appreciate the support to the show. That's cool that you guys are using them, too. But let's kick off the show. Andrew, do you wanna take the lead, my friend?
 
-**Andrew Thorp:** \[00:04:19.13\] Yeah, so Sytse, why don't you go ahead and give us -- so we mentioned it before, but we had a little sponsor, so... You're with GitLab, so why don't you give us kind of an intro. The history -- or why don't you start with what GitLab is? Why don't we go there?
+**Andrew Thorp:** \[04:19\] Yeah, so Sytse, why don't you go ahead and give us -- so we mentioned it before, but we had a little sponsor, so... You're with GitLab, so why don't you give us kind of an intro. The history -- or why don't you start with what GitLab is? Why don't we go there?
 
 **Sid Sijbrandij:** GitLab is a code and project management system. So you manage your Git repositories in there, there's an issue tracker, there's a Wiki system, you can manage users and all kinds of permissions... And the whole goal is to collaborate with software developers, to do code reviews, to communicate stuff, and to work together more efficiently, and to do a continuous delivery of your software, supported by this management in GitLab. Does that make sense?
 
@@ -60,7 +60,7 @@ A big step in the development of GitLab, in my view, was version 5.0, when we go
 
 **Sid Sijbrandij:** Yeah, it came out on the 22nd of the previous month. Since 2011, it's always come out on that date, so you can expect a new major or minor release on the 22nd of each month. So that's something the whole community is always looking forward to. 6.0 was also a major release. We added lots of awesome features; most importantly, the ability to combine groups of people and groups of projects.
 
-\[00:08:14.21\] You can now have a group where you have a couple of developers in, and then if you add projects to that group, all the developers get their authorizations on the project automatically, and vice-versa. And this makes managing bigger enterprise installations a lot easier. But also for smaller companies, like 50 people, or 20 people, or 5 people, it's nice to be able to group projects and access; and of course, there were many other changes and improvements as well. But this was the biggest one in the 6.0 release.
+\[08:14\] You can now have a group where you have a couple of developers in, and then if you add projects to that group, all the developers get their authorizations on the project automatically, and vice-versa. And this makes managing bigger enterprise installations a lot easier. But also for smaller companies, like 50 people, or 20 people, or 5 people, it's nice to be able to group projects and access; and of course, there were many other changes and improvements as well. But this was the biggest one in the 6.0 release.
 
 **Andrew Thorp:** So the enterprise edition is new in the 6.0 release, is that right?
 
@@ -80,7 +80,7 @@ It was starting to gain major traction around the release -- some of the feature
 
 **Andrew Thorp:** You kind of alluded in a conversation we had that there was quite a bit of discussion that actually went around the licensing of the enterprise edition...
 
-**Sid Sijbrandij:** \[00:12:08.19\] Yes. Obviously, making two versions is a major step, and you can do it the wrong way or the right way. Obviously, what Oracle is doing to MySQL is not the way you want to do it... And we thought the best thing would be just to talk to our community about it, our plans for it and how we were gonna do it. So on GitLab.org, about a month before the release, we said "Okay, these are our plans, and this is how we're gonna do it", and then all the hard questions came, about how you're gonna license it... That was the main point.
+**Sid Sijbrandij:** \[12:08\] Yes. Obviously, making two versions is a major step, and you can do it the wrong way or the right way. Obviously, what Oracle is doing to MySQL is not the way you want to do it... And we thought the best thing would be just to talk to our community about it, our plans for it and how we were gonna do it. So on GitLab.org, about a month before the release, we said "Okay, these are our plans, and this is how we're gonna do it", and then all the hard questions came, about how you're gonna license it... That was the main point.
 
 Obviously, we were thinking about a commercial license. All the extra code would be commercial code, and you couldn't copy it etc. Some of the people in the community said "Why don't you just put your faith in the community and just make it open source? That's what we all believe in, and people are gonna be okay. The GitLab community is pretty awesome, and nobody's gonna be mean and redistribute it. Why should they? If we're being a good member of the community, we can expect the rest of the community to be cool."
 
@@ -92,7 +92,7 @@ That was a pretty convincing argument, so we MIT-licensed the enterprise edition
 
 So why is this happening, that would be the first question. And we might be mistaken. We might think about a feature that's only for large ones, but it's also good for smaller organizations. In that case we're wrong, and we'll just merge that enterprise code into the community edition.
 
-\[00:16:13.25\] If that's not the case, I think what would be important is the seriousness. Some of these features are non-trivial to make. Is the code that is contributed of a high quality? Did someone take it really serious to try to add this feature? Or is it just like "Hey, I saw that this feature is missing and I tried to whip something up, but it's not that functional." So if someone is serious, that makes it more likely that we'll include it. Obviously, if the code was directly \[unintelligible 00:16:49.28\] from the enterprise edition, that would be legal, but that would not be very cool...
+\[16:13\] If that's not the case, I think what would be important is the seriousness. Some of these features are non-trivial to make. Is the code that is contributed of a high quality? Did someone take it really serious to try to add this feature? Or is it just like "Hey, I saw that this feature is missing and I tried to whip something up, but it's not that functional." So if someone is serious, that makes it more likely that we'll include it. Obviously, if the code was directly \[unintelligible 00:16:49.28\] from the enterprise edition, that would be legal, but that would not be very cool...
 
 **Adam Stacoviak:** Yeah... \[laughs\] It seems like one of your interests that I was reading through is that some features can be bottled up into -- because somebody suggested a plugin system, and making it where these enterprise features could be bottled up in plugins, and added on through some sort of subscription that you've already mentioned... But that some of them are just kind of bigger interfaces to the application, and it's just not easy to bottle up into a plugin.
 
@@ -104,7 +104,7 @@ So why is this happening, that would be the first question. And we might be mist
 
 So the thing is we haven't gotten around to making public repositories. On a GitLab server, everything is private. And for most people running a GitLab server, this is why they're running GitLab, because they want unlimited private repositories. So most of the people are really happy with that. We're not against public repositories, so we're accepting merge requests for that, but it would be a big change, with all kinds of problems; you no longer have a current user, so lots of code needs to be adapted, and we wanna do it in the right way, so that all the security tests and everything - it doesn't become brittle. So we haven't gotten around to it.
 
-\[00:20:12.28\] If somebody contributes really good code, we'll merge it. If there's a customer that really insists on it, we'll do it. But so far, everyone's really happy with the private stuff. But I think it's a question of time, because there are people right now building Fedora packages, people building Debian packages, there's discussion on the Drupal mailing list about using GitLab... So the pressure is on to start supporting public repos. I think it's a question of time, but we're trying to be pragmatic about that. Does that make sense?
+\[20:12\] If somebody contributes really good code, we'll merge it. If there's a customer that really insists on it, we'll do it. But so far, everyone's really happy with the private stuff. But I think it's a question of time, because there are people right now building Fedora packages, people building Debian packages, there's discussion on the Drupal mailing list about using GitLab... So the pressure is on to start supporting public repos. I think it's a question of time, but we're trying to be pragmatic about that. Does that make sense?
 
 **Andrew Thorp:** Yeah. So basically, right now, just to summarize and make sure I understand this correctly - right now just because GitLab is itself open source and maybe GitLab.com the cloud is not the best solution for an open source project right now, because there are no public repositories. But eventually, if that happens, you would consider moving GitLab itself into GitLab to be hosted there...?
 
@@ -128,7 +128,7 @@ Have you received any attention from GitHub itself, the company, or any of the t
 
 **Sid Sijbrandij:** Besides the GitLab thing, the other main project is GitLab CI. It's a very basic continuous integration server. I think the cool thing about it is that it's really user-friendly, so it's very easy to set up your projects. You don't have to set up new user accounts or new permissions; it communicates with GitLab over the API, and it gets your existing projects, and you can set up a new project in under a minute.
 
-\[00:24:04.25\] The other thing that's really cool about it is that it's distributed by nature. So your tests do not run on the CI server; they can run somewhere else. And this is the default setup. So what we commonly see with people - they set up a CI server, but the tests run on the server; so any project that runs on the server can access the whole CI server, and that's a bit of a security concern. And also, maintenance and everything is complicated. GitLab CI is distributed by nature, and I think that's really cool. If you wanna know more, you should check out the GitLab CI architecture blog post.
+\[24:04\] The other thing that's really cool about it is that it's distributed by nature. So your tests do not run on the CI server; they can run somewhere else. And this is the default setup. So what we commonly see with people - they set up a CI server, but the tests run on the server; so any project that runs on the server can access the whole CI server, and that's a bit of a security concern. And also, maintenance and everything is complicated. GitLab CI is distributed by nature, and I think that's really cool. If you wanna know more, you should check out the GitLab CI architecture blog post.
 
 **Andrew Thorp:** Awesome. So to go back - I read an article from one of the founders of GitHub about Grit, I don't remember if it was Tom, but one of them was talking about how they just were in a bar one night, sat down, decided to start writing the Git bindings from Ruby, and so Grit came about. You guys have written a wrapper around that called GitLab \[unintelligible 00:25:11.15\] Can you elaborate on what that is, and why you decided to do that, and how you chose to use that architecture?
 
@@ -152,7 +152,7 @@ The thing that we built on that \[unintelligible 00:25:47.29\] maybe that goes a
 
 **Adam Stacoviak:** Yeah, solve your own problems.
 
-**Sid Sijbrandij:** \[00:27:57.06\] Yeah, solve our own problems.
+**Sid Sijbrandij:** \[27:57\] Yeah, solve our own problems.
 
 **Adam Stacoviak:** I think the point I was trying to make was like what's the -- is it solving your own problems, or is it... I don't know, just an easy question to answer.
 
@@ -180,7 +180,7 @@ When you're truly open to what the community wants and willing to kind of shift 
 
 **Sid Sijbrandij:** Yeah. With the introduction of GitLab Enterprise Edition we've become a sustainable company. Before that we took on consulting assignments to make ends meet.
 
-**Andrew Thorp:** \[00:32:19.09\] And you're gonna be working full-time at the end of the month on GitLab, is that right?
+**Andrew Thorp:** \[32:19\] And you're gonna be working full-time at the end of the month on GitLab, is that right?
 
 **Sid Sijbrandij:** Yes. I'm finishing up the last consulting work and I can't wait to start working full-time.
 
@@ -202,7 +202,7 @@ When you're truly open to what the community wants and willing to kind of shift 
 
 **Andrew Thorp:** No, no, no. Well, that's the point; you can't pay your bills with code, right? You have to somehow make money, whether it's through donations, or some sort of a business model, or something. We talk about a lot on the show, different business models that people have. This is one -- I don't know, I mean, maybe I'm just making this up; I have nothing to back this, but it seems like this type of a business model, where you have your open source product and then you kind of extend it for an enterprise edition, or a paid version, or something like that - this is kind of growing in popularity. And it seems that this model was growing in popularity specifically when your target customer is a developer. Because I think developers understand that this stuff isn't free, that the people that are doing this still have lives, they have families, and bills, and all this and that... So I think that it's a model that \[unintelligible 00:35:50.22\] to be successful because -- you know, myself, I'm more than willing to give money to a project that I rely on to get my job done, because I know that this guy has to do his job, and the only way he can keep going is if he makes money. And if he can't keep going, then I don't have his project anymore to work with. Does that make sense?
 
-**Adam Stacoviak:** \[00:36:12.08\] Yeah, absolutely.
+**Adam Stacoviak:** \[36:12\] Yeah, absolutely.
 
 **Sid Sijbrandij:** Yeah, totally. And what also comes into play is that many times the benefactor of the open source project is a company, and in a company it's really normal to pay for software; it's not so normal to do a donation. So for a lot of people who wanted to donate, it was much easier if we just said it was for software. But we can only do that if it really is for software. So that's also why it's good to have a commercial offering.
 
@@ -218,7 +218,7 @@ When you're truly open to what the community wants and willing to kind of shift 
 
 **Sid Sijbrandij:** Yeah, I think we'll see what we get for questions, and then we'll start answering them and making notes. I think the sales vacancy we have at the moment is gonna be inbound. So just keeping up with all the requests that are coming in, and making sure that people have all the information, and following up on all the questions they asked, and all the wishes they have. So we're hiring for that. And we're hiring for support, making sure that you help people with their environments, setting everything up, making sure the backups are okay, and doing high-availability configurations.
 
-\[00:40:02.01\] So right now we're hiring for that. Outbound sales - that's still in the future; we have trouble keeping up with the growth we're currently having, so... Although I'd like to do even more sales, let's first -- we're still doing a great job at servicing our customers, but we need to hire in the very near future, so if you're interested, please let us know, because we need you to grow further and keep doing a good job.
+\[40:02\] So right now we're hiring for that. Outbound sales - that's still in the future; we have trouble keeping up with the growth we're currently having, so... Although I'd like to do even more sales, let's first -- we're still doing a great job at servicing our customers, but we need to hire in the very near future, so if you're interested, please let us know, because we need you to grow further and keep doing a good job.
 
 **Adam Stacoviak:** So on that note then, what are some of the biggest challenges you face then? So if you -- is it manpower? We've just talked about you becoming sustainable with the enterprise edition... What is the biggest challenge you face right now?
 
@@ -248,7 +248,7 @@ The third major thing is project-specific IDs. Now, if you open an issue from a 
 
 **Sid Sijbrandij:** Exactly.
 
-**Andrew Thorp:** \[00:43:58.10\] Gotcha. Awesome. So that's coming out for 6.1. I think it's interesting that you guys have no -- when we talked, you kept talking about "We have no roadmap. We have no big, audacious goal, or no big private plan of where we're going." So that kind of means that your sight and your vision is very close to what you're working on right now. Why don't you talk about that -- I don't know if that was a decision, or if you guys just naturally, organically grew into that... But why don't you guys have some big roadmap? Why don't you have a long-term plan?
+**Andrew Thorp:** \[43:58\] Gotcha. Awesome. So that's coming out for 6.1. I think it's interesting that you guys have no -- when we talked, you kept talking about "We have no roadmap. We have no big, audacious goal, or no big private plan of where we're going." So that kind of means that your sight and your vision is very close to what you're working on right now. Why don't you talk about that -- I don't know if that was a decision, or if you guys just naturally, organically grew into that... But why don't you guys have some big roadmap? Why don't you have a long-term plan?
 
 **Sid Sijbrandij:** We used to have this roadmap file in the repo, but it wasn't maintained any longer, so we deprecated it... And we've found that normally, when a release is almost done - most of the time it's a few days before the 22nd - Dmytro kind of knows what he wants to work on, the community knows what they wanna work on... But you just figure it out right there and then. So you're done, the stress is gone, and you think "Oh, I'd like to work on this or that." Or "I heard so many people complain about this or that." And these things - you cannot predict them two weeks or a month in advance. Sometimes you can, but sometimes you can't. And we wanna be working on the things that inspire us and that are important to the community and to the clients of GitLab.com. So why work on something less important, just because you said so a month ago? We don't wanna end up in that situation.
 
@@ -262,7 +262,7 @@ I think David Heinemeier Hansson said it very eloquently when he said "Inspirati
 
 So when you have the open source community that's very active with your project, I feel like a roadmap would lock you into something that maybe wouldn't be the best idea.
 
-**Sid Sijbrandij:** \[00:48:02.04\] Or the energy you spend on the roadmap - it's wasted. So before feature branches, you'd have people at companies who were called release managers. Most companies still have them. If you do a software-as-a-service product, you don't need a release manager. You can do continuous delivery and you can just deliver the features as they are completed. There's no need to do a release, there's no need for GitFlow. Please use feature branches and just release what's ready. And the release manager can do something else, and be productive, and no one has to stress out or fight about which features get in which release, which is not adding anything. So yeah, I feel really strongly about this, as you maybe noticed, and I'm really glad that we're able to practice what we preach.
+**Sid Sijbrandij:** \[48:02\] Or the energy you spend on the roadmap - it's wasted. So before feature branches, you'd have people at companies who were called release managers. Most companies still have them. If you do a software-as-a-service product, you don't need a release manager. You can do continuous delivery and you can just deliver the features as they are completed. There's no need to do a release, there's no need for GitFlow. Please use feature branches and just release what's ready. And the release manager can do something else, and be productive, and no one has to stress out or fight about which features get in which release, which is not adding anything. So yeah, I feel really strongly about this, as you maybe noticed, and I'm really glad that we're able to practice what we preach.
 
 **Andrew Thorp:** What were you gonna say, Adam?
 
@@ -282,7 +282,7 @@ I think that's what's scary if you are roadmap-driven and you're not willing to 
 
 **Adam Stacoviak:** Why...? \[laughs\]
 
-**Andrew Thorp:** \[00:51:57.05\] ...the sooner that you can embrace the fact that you can't predict 12 months down the road, the more that you can realize that you're wasting time and money on trying, and you can invest that time and money into what's happening right now... And that's important.
+**Andrew Thorp:** \[51:57\] ...the sooner that you can embrace the fact that you can't predict 12 months down the road, the more that you can realize that you're wasting time and money on trying, and you can invest that time and money into what's happening right now... And that's important.
 
 **Sid Sijbrandij:** Yeah, I totally agree. And great quote of Ryan, as a product manager. I think what you're trying to do if you're making a roadmap - you're drawing roads on a piece of paper that doesn't have a map; it doesn't list the terrain you're in. So you're drawing this path you will take, but you're not taking into account the train. Because the terrain - it's hard to see how much effort stuff will be, or what's important, or what's the weather gonna be.
 
@@ -304,7 +304,7 @@ People used to send an email with an attachment, and then you added something an
 
 **Andrew Thorp:** Just documents, yeah.
 
-**Sid Sijbrandij:** \[00:56:08.26\] ...everything that's digital will be version-controlled. People are starting to figure that out. I think it will be as important as web servers, these collaboration servers. And I think there should be a really good, free one, that everyone can use in freedom. That's how I see GitLab. Dmytro might say something else, and we have to figure that out as we go along, and listen to our users, and to the people in the community.
+**Sid Sijbrandij:** \[56:08\] ...everything that's digital will be version-controlled. People are starting to figure that out. I think it will be as important as web servers, these collaboration servers. And I think there should be a really good, free one, that everyone can use in freedom. That's how I see GitLab. Dmytro might say something else, and we have to figure that out as we go along, and listen to our users, and to the people in the community.
 
 **Andrew Thorp:** Yeah. So it's been two years and you guys are at 6.0... Would you say that you put out another major release, you bump the version in a major number every four months or so? Has that proven to be pretty accurate?
 
@@ -334,7 +334,7 @@ And of course, if you need an awesome feature yourself, please make it and contr
 
 **Andrew Thorp:** That's good advice, yeah. What about -- so if you weren't doing what you're doing now - and I ask that question, let's say, assuming it's a month from now and you're working on GitLab full-time... And if you weren't doing that, what would you like to be doing instead?
 
-**Sid Sijbrandij:** \[00:59:33.29\] I would like to learn JavaScript and play with Node. I listened to your episode with \[unintelligible 00:59:38.22\] the Npm maintainer. That sounds awesome. I'd like to know more about that and play with it. I'm a Ruby developer, I love Ruby, but it would be good to learn a second language in a good way... So I'd do that.
+**Sid Sijbrandij:** \[59:33\] I would like to learn JavaScript and play with Node. I listened to your episode with \[unintelligible 00:59:38.22\] the Npm maintainer. That sounds awesome. I'd like to know more about that and play with it. I'm a Ruby developer, I love Ruby, but it would be good to learn a second language in a good way... So I'd do that.
 
 **Andrew Thorp:** Awesome. And our last question is a programming hero, or somebody that you have been influenced by greatly in your life, that you would like to give a shout-out to.
 
