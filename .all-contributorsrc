@@ -2240,6 +2240,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "tazjin",
+      "name": "Vincent Ambo",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1552853?v=4",
+      "profile": "https://tazj.in/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
