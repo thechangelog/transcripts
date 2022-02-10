@@ -26,7 +26,7 @@
 
 **Natalie Pistunovich:** Or TectonAI, I should say, because the name of the product, as you told me, is Tecton. And Tecton is building systems to operate and manage feature pipelines and datasets for production machine learning applications for all sorts of customers that we all know... And you used to be a googler. At Google you were working on indexing and serving infrastructure for web search.
 
-**Mike Eastham:** \[00:04:08.01\] Yup.
+**Mike Eastham:** \[04:08\] Yup.
 
 **Natalie Pistunovich:** Fun. So can you tell us a little bit on where you work and what you do there?
 
@@ -60,7 +60,7 @@ In our case, we have data scientists and data engineers define those features ge
 
 **Mike Eastham:** Yeah, that's an important question. You can probably have a very mathematical definition of this, but generally, the features are sort of the engineered inputs that go into a machine learning model. So when you're in the process of making a machine learning model, you sort of have an algorithm that takes in some values and it uses those to predict an outcome. And generally, when you're building these systems, you kind of engineer those values to encode some sort of domain knowledge about the system you're trying to model...
 
-\[00:08:16.03\] So if you have a bunch of, let's say raw data about users in a system, and maybe you're trying to predict a product they might be interested in buying, as someone who kind of knows a bit about or predicts what people might wanna buy, you might say, "Okay, I think their age might be an important determinant of what things they might be interested in." So then you can build a feature that based on your raw data, let's say like a database of all of your user information, just extracts the age as a number. So you're kind of like distilling down things that you think might be important to the model training system. And that process is super-important for building models that actually perform well... Because the model training algorithms are now actually quite sophisticated, and they can produce really good results, but you're always gonna get better outcomes if you have better data going into the training.
+\[08:16\] So if you have a bunch of, let's say raw data about users in a system, and maybe you're trying to predict a product they might be interested in buying, as someone who kind of knows a bit about or predicts what people might wanna buy, you might say, "Okay, I think their age might be an important determinant of what things they might be interested in." So then you can build a feature that based on your raw data, let's say like a database of all of your user information, just extracts the age as a number. So you're kind of like distilling down things that you think might be important to the model training system. And that process is super-important for building models that actually perform well... Because the model training algorithms are now actually quite sophisticated, and they can produce really good results, but you're always gonna get better outcomes if you have better data going into the training.
 
 **Johnny Boursiquot:** Is the objective of a feature to make it a reusable part of the workflow for building these models? Or what is the objective of having a feature?
 
@@ -78,7 +78,7 @@ And then during model training, you provide all these examples, and then a model
 
 An example I gave before - if you're trying to predict while they're shopping what it is that they might be interested in buying, you have just those feature values as inputs; you feed that into your model serving system, and then you get out a predicted outcome.
 
-**Johnny Boursiquot:** \[00:11:50.01\] So I'm trying to figure out where features fit in the greater set of tools that you would use; if we're talking personalization here, for example, I do know in having used some commercial personalization products that there's different algorithms that are used and different models that are used -- or rather different approaches to training and being able to produce recommendations... Like the example you gave - if I've liked a few things, searched for a few things, then "This should be the next set of things that you might like." Kind of like going on Amazon and you search for one thing and you see other recommendations and you're like, "Oh, I'm seeing things I didn't know I wanted." Or you go to Netflix and you watch something and all of a sudden it's just recommending other things.
+**Johnny Boursiquot:** \[11:50\] So I'm trying to figure out where features fit in the greater set of tools that you would use; if we're talking personalization here, for example, I do know in having used some commercial personalization products that there's different algorithms that are used and different models that are used -- or rather different approaches to training and being able to produce recommendations... Like the example you gave - if I've liked a few things, searched for a few things, then "This should be the next set of things that you might like." Kind of like going on Amazon and you search for one thing and you see other recommendations and you're like, "Oh, I'm seeing things I didn't know I wanted." Or you go to Netflix and you watch something and all of a sudden it's just recommending other things.
 
 So these kinds of recommender systems - it sounds like these are a kind of problem that the features that you're creating would feed into sort of helping these kinds of problems. So I'm trying to imagine in my head where the layer of things needed to have a fully-operational recommendation engine, what unit -- where's the feature at? Is it one of the first things that you do as somebody who's building a model, or once you train a model? What's the workflow? Where does that enter the picture?
 
@@ -96,7 +96,7 @@ Whereas when you're training the model, the latency is not super-important. I me
 
 In addition to the performance requirements being different, in the online case you're generally looking for the freshest data, so you want the most recent version of the feature value. That doesn't make sense with the age example I've been using, but if you're talking about a feature that's like the last product that someone bought, you want that to be updated very quickly after someone makes a purchase.
 
-\[00:16:07.14\] So you want those to be fresh, and have the most recent copy, whereas in the training or offline contexts, you want to get the correct value for like a historical point in time. So you wanna be retrieving the feature value as of the example that you're computing features for. So the interface looks a little bit different in addition to the requirements for performance.
+\[16:07\] So you want those to be fresh, and have the most recent copy, whereas in the training or offline contexts, you want to get the correct value for like a historical point in time. So you wanna be retrieving the feature value as of the example that you're computing features for. So the interface looks a little bit different in addition to the requirements for performance.
 
 **Natalie Pistunovich:** Would you say that the reason that feature stores became a thing rather recently is that we expect faster everything? Like you said, fast search results, and everything? For example, feature stores were not really around five years ago.
 
@@ -114,7 +114,7 @@ So the whole idea with the feature store is that we can just have the data scien
 
 So we have one part of the interface that's focused towards the data scientists that are doing exploration, defining new features, and then another piece that is focused towards people that are operating the serving systems and integrating them into CI/CD pipelines, and things like that.
 
-**Natalie Pistunovich:** \[00:20:11.16\] Yeah. A company I used to work for in the past, they had exactly what you described. There was the data science/engineering team, who were building models and taking data and crunching and coming up with new ideas and new rules, kind of... You know, "if this, then perform this action." Then they would just hand over those Python chunks of code to the Go team, which is the backend team, and then "Now translate this into the system. That's exactly what it's solving." So it's been a couple of years, but yeah, that's very much in my personal world of context at least.
+**Natalie Pistunovich:** \[20:11\] Yeah. A company I used to work for in the past, they had exactly what you described. There was the data science/engineering team, who were building models and taking data and crunching and coming up with new ideas and new rules, kind of... You know, "if this, then perform this action." Then they would just hand over those Python chunks of code to the Go team, which is the backend team, and then "Now translate this into the system. That's exactly what it's solving." So it's been a couple of years, but yeah, that's very much in my personal world of context at least.
 
 **Johnny Boursiquot:** That's not error-prone at all... \[laughs\]
 
@@ -124,13 +124,13 @@ So we have one part of the interface that's focused towards the data scientists 
 
 **Natalie Pistunovich:** Yeah.
 
-**Break:** \[00:21:16.12\]
+**Break:** \[21:16\]
 
 **Natalie Pistunovich:** So we asked you to define some things, Mike, and I guess we've covered a little bit what was your definition of MLOps, but maybe you can say that for us, how do you see this, and how do you see this different from the devops and the infrastructure as a thing. You mentioned, for example, how many lifecycles...
 
 **Mike Eastham:** Yeah. From my perspective, the most significant difference is that with devops generally you're talking about deploying servers, or some other programs into production... You've kind of got this pipeline that's going from some code in your Git repository or wherever it is, and then you're compiling it, so these artifacts that end up in production. And of course, there's some steps there to make sure maybe you're doing canary deployments to make sure you're not breaking things, and you're testing, and making sure everything works reliably... But the actual transformation of the code to the server is actually pretty straightforward and fast.
 
-\[00:24:04.07\] With MLOps, it's really kind of an extension of the same thing, it's just that that process of transforming the raw data into the final product, which is like a model in this case, is really quite a lot more complex. So it takes longer, either because there's manual steps that are involved, or because some of these training systems actually take a significant amount of computational power and time to produce the results.
+\[24:04\] With MLOps, it's really kind of an extension of the same thing, it's just that that process of transforming the raw data into the final product, which is like a model in this case, is really quite a lot more complex. So it takes longer, either because there's manual steps that are involved, or because some of these training systems actually take a significant amount of computational power and time to produce the results.
 
 You've got different kind of disciplines involved, with different stages of that pipeline... There's data scientists, data engineers, so multiple different stakeholders and people that are concerned with that pipeline. So really, there's a lot more complex pieces involved, is the main difference that I see.
 
@@ -178,7 +178,7 @@ So I think you kind of have to spend more time thinking about the different role
 
 **Johnny Boursiquot:** I will say, I am curious where Go fits into this wonderful world of mlops. \[laughs\]
 
-**Mike Eastham:** \[00:27:58.21\] Yeah, great question. So I can kind of give you some perspective on how we're using it at my company, and then maybe a little bit on how I think it's going in the outside ecosystem... Although I'm obviously more familiar with what we're doing.
+**Mike Eastham:** \[27:58\] Yeah, great question. So I can kind of give you some perspective on how we're using it at my company, and then maybe a little bit on how I think it's going in the outside ecosystem... Although I'm obviously more familiar with what we're doing.
 
 So I've mentioned before we have this online surveying interface for the system where low-latency is one of the big requirements... And so that's primarily where we're applying Go at Tecton.
 
@@ -204,13 +204,13 @@ So you might wanna have a feature which is like -- a silly example would be what
 
 **Mike Eastham:** Yeah, that would be pretty cool, but we're not doing that.
 
-**Johnny Boursiquot:** I'm like, "You need to open-source that thing." \[laughs\]
+**Johnny Boursiquot:** I'm like, "You need to open source that thing." \[laughs\]
 
 **Mike Eastham:** I have actually kind of looked into this. There are projects floating around that will let you basically compile Python down to LVM bytecode or something, and then you could potentially link that into a Go binary. We haven't really seriously investigated that.
 
 Most of these transformations are doing quite simple things, they're not super performance-intensive, so we haven't really seen a need... But it's something we could look at doing, potentially.
 
-**Johnny Boursiquot:** \[00:32:10.05\] So this was done really to solve not really a technical problem, but more of a meeting your internal users, where they are, kind of thing... Because if Python is what they know and that's their tool, that's the thing that they know best, supporting that to some degree was sort of the goal; not really because it couldn't have been done in Go, right?
+**Johnny Boursiquot:** \[32:10\] So this was done really to solve not really a technical problem, but more of a meeting your internal users, where they are, kind of thing... Because if Python is what they know and that's their tool, that's the thing that they know best, supporting that to some degree was sort of the goal; not really because it couldn't have been done in Go, right?
 
 **Mike Eastham:** Yeah, that was definitely the main thing, that our customers writing these are primarily familiar with Python. There's also a bit of a nice thing technically with Python, in that you can just take the function definition as a string and just send it to the server, so you don't have to worry about linking it into the binary and restarting the server every time there's a new configuration, basically. That's something I'm sure we could have figured out with Go, but we just haven't really had a strong need to do it.
 
@@ -234,7 +234,7 @@ I know there are other systems, like -- I may be misspeaking here, but I believe
 
 **Mike Eastham:** Yeah.
 
-**Break:** \[00:36:01.07\]
+**Break:** \[36:01\]
 
 **Natalie Pistunovich:** When did you start writing Go? What got you into this?
 
@@ -254,7 +254,7 @@ But yeah, at the time I was working on it everything was in Go. That system had 
 
 **Mike Eastham:** It has some Go. And frankly, I'm less familiar with the exact composition of everything on the Feast side... They're a lot more Python-focused, because they basically run a lot more of the feature store system inside the client, whereas Tecton's architected with more things living on the backend... But they do have some Go mixed in there as well.
 
-**Natalie Pistunovich:** \[00:40:12.27\] Okay. So anybody who's listening and wants to dive into this a little bit by contributing code, can do this in the repo of Feast.
+**Natalie Pistunovich:** \[40:12\] Okay. So anybody who's listening and wants to dive into this a little bit by contributing code, can do this in the repo of Feast.
 
 **Mike Eastham:** Yeah. Feast is a good place to start.
 
@@ -276,7 +276,7 @@ But yeah, at the time I was working on it everything was in Go. That system had 
 
 **Natalie Pistunovich:** Alright.
 
-**Jingle:** \[00:41:07.00\] to \[00:41:22.14\]
+**Jingle:** \[41:07\] to \[41:22\]
 
 **Natalie Pistunovich:** I don't know if I'm supposed to say this, and I'm sorry if not, but the performer of this wonderful song has a birthday today. Finally turning 18. So if you see Mat on Twitter... \[laughs\] Wish him a happy birthday. But only if you're listening to the live recording. Actually, you know what - even if you're listening afterwards, just say hi to Mat. You don't need to say happy birthday. Just say "Hey, Mat."
 
