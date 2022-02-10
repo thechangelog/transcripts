@@ -214,7 +214,7 @@ Most of these transformations are doing quite simple things, they're not super p
 
 **Mike Eastham:** Yeah, that was definitely the main thing, that our customers writing these are primarily familiar with Python. There's also a bit of a nice thing technically with Python, in that you can just take the function definition as a string and just send it to the server, so you don't have to worry about linking it into the binary and restarting the server every time there's a new configuration, basically. That's something I'm sure we could have figured out with Go, but we just haven't really had a strong need to do it.
 
-I know there are other systems, like -- I may be misspeaking here, but I believe Airbnb has published, they have an internal feature store product where I think they... I think they have an equivalent concept where they have people write the transformations in Rust maybe, and they can make this whole thing super-fast... But I think that's kind of like an outlier case. Most of our users, when they're writing these things, are doing very simple additions or very small transformations that really only take a few hundred microseconds, generally \[unintelligible 00:33:37.10\]
+I know there are other systems, like -- I may be misspeaking here, but I believe Airbnb has published, they have an internal feature store product where I think they... I think they have an equivalent concept where they have people write the transformations in Rust maybe, and they can make this whole thing super-fast... But I think that's kind of like an outlier case. Most of our users, when they're writing these things, are doing very simple additions or very small transformations that really only take a few hundred microseconds, generally so, we haven't seen it yet.
 
 **Natalie Pistunovich:** Would you say that Go is generally a good choice for machine learning ops? MLOps? Mlops?
 
@@ -244,7 +244,7 @@ But yeah, at the time I was working on it everything was in Go. That system had 
 
 **Natalie Pistunovich:** And that's also, would you say, the main language for you now, right? Some Python, but mostly this.
 
-**Mike Eastham:** Yeah, we've got definitely a mix. All of our online serving stuff is written in Go; there's the Python for the customer-facing stuff... And then just for variety we have \[unintelligible 00:39:32.16\] that's involved in some of the more management and orchestration systems that are kind of off to the side.
+**Mike Eastham:** Yeah, we've got definitely a mix. All of our online serving stuff is written in Go; there's the Python for the customer-facing stuff... And then just for variety we have Kotlin that's involved in some of the more management and orchestration systems that are kind of off to the side.
 
 **Natalie Pistunovich:** And feast is the open source project, right?
 
@@ -258,7 +258,7 @@ But yeah, at the time I was working on it everything was in Go. That system had 
 
 **Mike Eastham:** Yeah. Feast is a good place to start.
 
-**Natalie Pistunovich:** I love the way \[unintelligible 00:40:24.27\] the documentation, I have to say, of Feast. It's a great job at that.
+**Natalie Pistunovich:** I love the way he alalyzed the documentation, I have to say, of Feast. It's a great job at that.
 
 **Mike Eastham:** Yeah, they've done a really good job with all that stuff.
 
@@ -312,7 +312,7 @@ But yeah, at the time I was working on it everything was in Go. That system had 
 
 **Johnny Boursiquot:** \[laughs\] They'll be like, "Oh, you don't like syrup, huh?" Well, there you have it. Unpopular opinion.
 
-**Natalie Pistunovich:** Yeah. I think the most funny opinions we have is in the context of food, so... Great choice for an unpopular opinion. There will be a Twitter survey; we will see how unpopular is your unpopular opinion. You might get into the top five, or \[unintelligible 00:43:21.19\]
+**Natalie Pistunovich:** Yeah. I think the most funny opinions we have is in the context of food, so... Great choice for an unpopular opinion. There will be a Twitter survey; we will see how unpopular is your unpopular opinion. You might get into the top five, or low five
 
 **Mike Eastham:** Are you supposed to have the most people disagree with you?
 
