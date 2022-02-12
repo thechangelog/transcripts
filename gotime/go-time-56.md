@@ -84,7 +84,7 @@ A really good example is if you've got a micro-service that is supposed to—may
 
 **Liz Rice:** Right.
 
-**Erik St. Martin:** But yeah, I think there needs to be better documentation on some of that stuff for sure. There's actually a really cool Github repo — I am trying to remember this off the top of my head; I think it's [github.com/0xAX/linux-insides](https://github.com/0xAX/linux-insides), and it walks through a lot of stuff, like the assembly during the bootup process and how a process actually gets called by the kernel, it's got some stuff on _Cgroups_ and things like that, and some of the internal data structures and things that are used. So if anybody is interesting in really deep kernel internals, that's a super cool repo to check out.
+**Erik St. Martin:** But yeah, I think there needs to be better documentation on some of that stuff for sure. There's actually a really cool GitHub repo — I am trying to remember this off the top of my head; I think it's [github.com/0xAX/linux-insides](https://github.com/0xAX/linux-insides), and it walks through a lot of stuff, like the assembly during the bootup process and how a process actually gets called by the kernel, it's got some stuff on _Cgroups_ and things like that, and some of the internal data structures and things that are used. So if anybody is interesting in really deep kernel internals, that's a super cool repo to check out.
 
 **Liz Rice:** That does look amazing.
 
@@ -306,7 +306,7 @@ Secrets management is another important aspect, and Kubernetes fairly recently -
 
 **Brian Ketelsen:** OMG! I do. It's a tiny one, but it packs a lot of punch. So, if you've used the terminal, like most of us have, and you've come across [Powerline](https://github.com/powerline/powerline) — you know that Powerline is a Python app that makes lots of cool things appear in your terminal and gives you information, contact-sensitive information, as you change around and execute commands. And Powerline is great, but it's a little slow, and especially as you add more and more things to your command prompt. Well, someone, Just Janne on GitHub, ported Powerline to Go and it is stupid fast! So, I've added it to all of my machines in this last week and it just makes me brilliantly happy.
 
-\[00:44:03:20\] Powerline -- so it's at [gitHub.com/justjanne/powerline-go](https://github.com/justjanne/powerline-go). Crazy fast, and it's written in Go, so you can extend it yourself.
+\[00:44:03:20\] Powerline -- so it's at [github.com/justjanne/powerline-go](https://github.com/justjanne/powerline-go). Crazy fast, and it's written in Go, so you can extend it yourself.
 
 **Erik St. Martin:** I don't even know what time it was at night when Brian messaged me 'Dude, you have to see this!'
 

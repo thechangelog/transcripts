@@ -308,7 +308,7 @@ I think the same for CFP's, honestly... I was kind of hoping that we would have 
 
 **Cassandra Salisbury:** Enough... \[laughs\]
 
-**Carlisia Thompson:** You and I can talk, but this show needs to end and be wrapped up, unfortunately. So I want to thank you, again, and thank all of the listeners and everybody in the whole wide world... Gosh, they are not gonna let me do this again. So for everybody listening, please spread the word, let people know about the show. If you would like to sponsor us, contact any of us; sponsorship slots are open. And if you go to GoTime.fm, you can subscribe to our mailing list. You can follow us on Twitter @GoTimeFM, and if you do have any suggestions for the show, any suggestions for guests or speakers or how we can do this show better, you can go to GitHub.com/gotimefm/ping and open an issue there.
+**Carlisia Thompson:** You and I can talk, but this show needs to end and be wrapped up, unfortunately. So I want to thank you, again, and thank all of the listeners and everybody in the whole wide world... Gosh, they are not gonna let me do this again. So for everybody listening, please spread the word, let people know about the show. If you would like to sponsor us, contact any of us; sponsorship slots are open. And if you go to GoTime.fm, you can subscribe to our mailing list. You can follow us on Twitter @GoTimeFM, and if you do have any suggestions for the show, any suggestions for guests or speakers or how we can do this show better, you can go to github.com/gotimefm/ping and open an issue there.
 
 With that said, this is a wrap. Thank you, I loved the show, and I did it all on my own... \[laughs\]
 

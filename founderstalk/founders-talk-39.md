@@ -134,7 +134,7 @@ I guess I'm far away enough from my end of money, but I'm not super focused on i
 
 There's a lot of things I can do to improve my conversion, but I haven't really had time to work on those things. I mean, those are all important, but I think right now getting a couple features that everyone really wants is kind of my top priority. Then once I kind of get Cheddar for Mac and all these little features wrapped up that everyone wants, on all the platforms, then I can kind of like step back for a minute and optimize some things, or start on the next big project, which is Sharing, or whatever. I don't know, I haven't really spent a lot of time on that.
 
-I guess one thing I did is if you have a Twitter.com or GitHub.com email address, you get a free account for life, with the hopes that those people would share how great Cheddar is, because those people are like huge influencers, at least in the tech community. And people in the tech community in general are influencers of the rest of the internet.
+I guess one thing I did is if you have a Twitter.com or github.com email address, you get a free account for life, with the hopes that those people would share how great Cheddar is, because those people are like huge influencers, at least in the tech community. And people in the tech community in general are influencers of the rest of the internet.
 
 Not a lot of people signed up, I don't think I did a good job telling people that work at those companies about it, but... I don't know. That was one thing I tried. It worked okay.
 

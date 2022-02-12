@@ -698,7 +698,7 @@ So even here locally, right? Anybody who lives here and we're not running meetup
 
 **Brian Ketelsen:** Oh, good point. Okay, I'll go do that right now.
 
-**Erik St. Martin:** Alright, so thanks again for listening, everybody. You can follow us on Twitter, @GoTimeFM. Head to gotime.fm to subscribe, and GitHub.com/gotimefm/ping if you have suggestions for topics or speakers, including yourself. With that, goodbye everybody! We'll see you next week.
+**Erik St. Martin:** Alright, so thanks again for listening, everybody. You can follow us on Twitter, @GoTimeFM. Head to gotime.fm to subscribe, and github.com/gotimefm/ping if you have suggestions for topics or speakers, including yourself. With that, goodbye everybody! We'll see you next week.
 
 **Brian Ketelsen:** Goodbye! Thanks, Leo.
 

@@ -6,7 +6,7 @@
 
 **Adam Stacoviak:** Alright, we're here today... Jerod, we’ve got an interesting guest here today. We’ve never had someone who is blind on this show, and this came from an issue. We've got Parham Doustdar on this show and -- where did this issue come from? What was the premise behind this?
 
-**Jerod Santo:** Yeah, we have to give a thanks to listener Omid Assefa - I probably butchered the last name there, sorry about that Omid - from Finland who pinged us on our repo in GitHub, that's Github.com/thechangelog/ping, where we take all sorts of suggestions, as well as news and repos and stuff like that, pulling us toward Parham and saying "This is an interesting fella. He has overcome being blind in order to be a backend developer and he seems like an inspirational person." So I hadn't heard of you before, Parham. I appreciate the ping there Omid, as well as... Another person came in here, Sallar, I am not doing so well here with names, Sallar Kaboli, who also added "Not only does he type and code in English, he types and reads Persian or Farsi as well. This is very difficult in general, and I admire him." You've got some admirers out there Parham, and thanks for joining us.
+**Jerod Santo:** Yeah, we have to give a thanks to listener Omid Assefa - I probably butchered the last name there, sorry about that Omid - from Finland who pinged us on our repo in GitHub, that's github.com/thechangelog/ping, where we take all sorts of suggestions, as well as news and repos and stuff like that, pulling us toward Parham and saying "This is an interesting fella. He has overcome being blind in order to be a backend developer and he seems like an inspirational person." So I hadn't heard of you before, Parham. I appreciate the ping there Omid, as well as... Another person came in here, Sallar, I am not doing so well here with names, Sallar Kaboli, who also added "Not only does he type and code in English, he types and reads Persian or Farsi as well. This is very difficult in general, and I admire him." You've got some admirers out there Parham, and thanks for joining us.
 
 **Parham Doustdar:** Hi. It's great to be here and thanks for inviting me and thanks to Omid and Sallar, who are… Well, they seem to be originally Iranian, so thanks to them also, for pointing me out. It's great to be here. Thanks for having me.
 
@@ -16,7 +16,7 @@
 
 **Adam Stacoviak:** Was it the last name that got it, or was it the first names?
 
-**Parham Doustdar:** Well, I actually talked to them on Twitter. Sallar is actually one of the guys who worked on a really useful library on Github. I actually first noticed his name when I was writing an article for SitePoint and his name always came in as the most popular GitHub contributor in Tehran. So if you go to my article on SitePoint, he is like at the top. I was like "Who is this guy?" That’s how I actually met him first.
+**Parham Doustdar:** Well, I actually talked to them on Twitter. Sallar is actually one of the guys who worked on a really useful library on GitHub. I actually first noticed his name when I was writing an article for SitePoint and his name always came in as the most popular GitHub contributor in Tehran. So if you go to my article on SitePoint, he is like at the top. I was like "Who is this guy?" That’s how I actually met him first.
 
 **Jerod Santo:** \[03:59\] Very cool.
 

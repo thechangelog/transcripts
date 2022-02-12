@@ -277,7 +277,7 @@ It's working its way towards production. We've got some people using it internal
 
 **Erik St. Martin:** Me too...
 
-**Brian Ketelsen:** ...and just do something super hacky and fun and awesome. Well, somebody on GitHub released a Go interface to the obd2 system, and they called it elmODB. So I'm assuming that Elmo is like the Sesame Street Elmo, but it's elmODB, and that's at GitHub.com--
+**Brian Ketelsen:** ...and just do something super hacky and fun and awesome. Well, somebody on GitHub released a Go interface to the obd2 system, and they called it elmODB. So I'm assuming that Elmo is like the Sesame Street Elmo, but it's elmODB, and that's at github.com--
 
 **Erik St. Martin:** elmOBD.
 
@@ -521,7 +521,7 @@ The point is that we ship these shows, we transcript them so that they're access
 
 **Erik St. Martin:** Okay. So thank you, everybody, for being on the show. I love the fact that Jerod and Adam came in and took over, so it was kind of fun, especially getting to talk about something that Brian and I have worked on recently... Huge thank you to all of our listeners; you keep the show going. Definitely share the show with friends and co-workers.
 
-You can find us at GoTime.fm, or @GoTimeFM on Twitter. If you wanna be on the show, have suggestions for topics, hit us up on GitHub.com/gotimefm/ping... And I think I've covered everything. We've got a short holiday break, so we may skip a couple of episodes for the holidays, but we'll see you in a couple weeks.
+You can find us at GoTime.fm, or @GoTimeFM on Twitter. If you wanna be on the show, have suggestions for topics, hit us up on github.com/gotimefm/ping... And I think I've covered everything. We've got a short holiday break, so we may skip a couple of episodes for the holidays, but we'll see you in a couple weeks.
 
 **Adam Stacoviak:** See you, everybody!
 

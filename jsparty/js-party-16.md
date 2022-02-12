@@ -292,7 +292,7 @@ All I'm saying is that everything's fine and I used the tools that were the best
 
 **Mikeal Rogers:** Let's now dig into the project of the week. JD, you wrote a loader to -- I believe this is too to the universal spec, that you do your working on?
 
-**John-David Dalton:** Yes, so it's part of Lodash 5... So the Lodash 5 is the thing I'm working on. It's going to be ES6+ only, and I did not want to have to transpile it back for Node 4 or 5 or whatever, so I wanted there to be a loader for that, and so I had to create one. I've created a work in progress - this has not been published yet. If you go to the repo, which is GitHub.com/standard-things/esm, you'll see the EcmaScript module loader there.
+**John-David Dalton:** Yes, so it's part of Lodash 5... So the Lodash 5 is the thing I'm working on. It's going to be ES6+ only, and I did not want to have to transpile it back for Node 4 or 5 or whatever, so I wanted there to be a loader for that, and so I had to create one. I've created a work in progress - this has not been published yet. If you go to the repo, which is github.com/standard-things/esm, you'll see the EcmaScript module loader there.
 
 It is for Node 4+, it supports .js, .mjs, it supports dynamic imports, it supports the file protocol, it supports live bindings, it's going to be spec-compliant by default, which means that things like unambiguous grammar are off by default, but you can opt into them... Things like carrying over some of the CommonJS goodies like dirname and filename that require named exports of CommonJS modules - all of that can be opted into, but by default it will follow the Node behavior of what .mjs and ESM is in Node 10, except it will be available for Node 4+.
 

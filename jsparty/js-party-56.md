@@ -88,7 +88,7 @@ I found it interesting that very few people who had installed event-stream or ha
 
 **Nick Nisi:** Do you think that there's a problem that there's a disconnect between the source that you can view and what might actually be in an npm package?
 
-**Safia Abdalla:** Yeah, that's definitely another tricky thing - the thing that's on the npm registry is not the thing that's on GitHub.com, and that void does cause a lot of problem, again, especially with third-party dependencies.
+**Safia Abdalla:** Yeah, that's definitely another tricky thing - the thing that's on the npm registry is not the thing that's on github.com, and that void does cause a lot of problem, again, especially with third-party dependencies.
 
 **Kevin Ball:** Yeah, I think you need a way to have visibility; I'm not sure that you can require -- because people don't have to host their code on GitHub... That's one private company. But there needs to be some way to transparently see what is the code that got released in this package.
 

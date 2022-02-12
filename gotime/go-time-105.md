@@ -170,7 +170,7 @@ And then we see people applying this to not just running stuff on Kubernetes, bu
 
 **Joe Beda:** And to bring this back to Go, I think Go is the preferred language for doing this stuff right now... So there you go. \[laughter\]
 
-**Mat Ryer:** Yeah, I was gonna ask about that, actually... If you look at the GitHub.com/kubernetes/kubernetes repo, which I guess is the main Kubernetes codebase...
+**Mat Ryer:** Yeah, I was gonna ask about that, actually... If you look at the github.com/kubernetes/kubernetes repo, which I guess is the main Kubernetes codebase...
 
 **Joe Beda:** We call that the KK. \[laughs\] Kubernetes/Kubernetes.
 

@@ -96,7 +96,7 @@ With module linking, what we can do is we can say hey, take that core compute th
 
 **Kevin Ball:** That's super-cool. Does Fastly support that today?
 
-**Nick Fitzgerald:** It's an open source tool. This isn't something that we're kind of hoarding the magic and doling it out as we please... You can download the tool, it's on GitHub.com/bytecodealliance/wizer. It's the WASM Initializer, Wizer. And then someone suggested that we call these modules, after the snapshots, as "wizened" modules, because now they already know everything that they need to start up.
+**Nick Fitzgerald:** It's an open source tool. This isn't something that we're kind of hoarding the magic and doling it out as we please... You can download the tool, it's on github.com/bytecodealliance/wizer. It's the WASM Initializer, Wizer. And then someone suggested that we call these modules, after the snapshots, as "wizened" modules, because now they already know everything that they need to start up.
 
 **Kevin Ball:** How did you spell that?
 

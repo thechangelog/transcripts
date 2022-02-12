@@ -170,7 +170,7 @@ I have a little bot that does some linting and a little bit of static analysis i
 
 **Erik St. Martin:** That's true too for alternate compiler implementations.
 
-**Brian Ketelsen:** \[24:04\] We mentioned a little bit earlier about idiomatic Go, and I remembered that we had a Wiki resource; there's a code review comments section on the GitHub.com/golang/go/wiki Code Review Comments, and it's what Google uses internally for their code reviews. So if there were no other canonical source of what idiomatic Go code should look like, that might be a really good place to start.
+**Brian Ketelsen:** \[24:04\] We mentioned a little bit earlier about idiomatic Go, and I remembered that we had a Wiki resource; there's a code review comments section on the github.com/golang/go/wiki Code Review Comments, and it's what Google uses internally for their code reviews. So if there were no other canonical source of what idiomatic Go code should look like, that might be a really good place to start.
 
 **Katrina Owen:** It's an awesome document. That and the Effective Go document/project as on my website - both of those are things that I refer to constantly when getting feedback on Go code. It's amazing.
 
@@ -376,7 +376,7 @@ Anyway, that's the type of blog post that I try to write - the little thing that
 
 **Erik St. Martin:** Yeah.
 
-**Brian Ketelsen:** Github.com/fogleman/primitive. They have a Twitter feed too, they've just posted something on Twitter, so I started following the Twitter feed too, because it's really neat. They take these images and turn them into a very low number of polygons using Go, and they're surprisingly artistic and fun to look at, so I followed their Twitter feed, too.
+**Brian Ketelsen:** github.com/fogleman/primitive. They have a Twitter feed too, they've just posted something on Twitter, so I started following the Twitter feed too, because it's really neat. They take these images and turn them into a very low number of polygons using Go, and they're surprisingly artistic and fun to look at, so I followed their Twitter feed, too.
 
 **Erik St. Martin:** I love it when people come up with these creative uses for things that you totally would not have thought of.
 
@@ -566,7 +566,7 @@ I think that what they've done with their communities is absolutely amazing. One
 
 **Katrina Owen:** Thanks so much for having me.
 
-**Erik St. Martin:** And thanks to all the listeners and everybody who's participating live in the Slack channel. For next week, if anybody else wants to participate, we're on the Gophers Slack in GoTime FM. We are @GoTimeFM on Twitter, we are GoTime.fm online if you want to subscribe if you haven't already subscribed. Big shout out to our sponsors, Linode and Backtrace for this episode. If you wanna be a guest or you wanna suggest guests or topics, GitHub.com/gotimefm/ping. I think I covered everything... Alright everybody, it's been fun.
+**Erik St. Martin:** And thanks to all the listeners and everybody who's participating live in the Slack channel. For next week, if anybody else wants to participate, we're on the Gophers Slack in GoTime FM. We are @GoTimeFM on Twitter, we are GoTime.fm online if you want to subscribe if you haven't already subscribed. Big shout out to our sponsors, Linode and Backtrace for this episode. If you wanna be a guest or you wanna suggest guests or topics, github.com/gotimefm/ping. I think I covered everything... Alright everybody, it's been fun.
 
 **Carlisia Thompson:** Thank you, goodbye!
 

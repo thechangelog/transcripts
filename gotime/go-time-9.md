@@ -454,7 +454,7 @@ To everybody's point, we use only a couple of tools every day, so I think we've 
 
 **Brian Ketelsen:** Tomorrow?
 
-**Erik St. Martin:** Later today, you know... Alright so with that said, I think we are probably well over time at this point. I wanna thank everybody for being on the show, I wanna thank everybody for listening. Everybody who is chatting with us in the GoTimeFM channel on Slack. We are on iTunes too, so now everybody can share us through iTtunes or just go to GoTimeFM. We do have a GitHub.com/GoTimeFM/ping if you want to suggest people to be on this show or for us to ask questions, or... What else?
+**Erik St. Martin:** Later today, you know... Alright so with that said, I think we are probably well over time at this point. I wanna thank everybody for being on the show, I wanna thank everybody for listening. Everybody who is chatting with us in the GoTimeFM channel on Slack. We are on iTunes too, so now everybody can share us through iTtunes or just go to GoTimeFM. We do have a github.com/GoTimeFM/ping if you want to suggest people to be on this show or for us to ask questions, or... What else?
 
 **Brian Ketelsen:** Somebody needs to turn down the bass on Erik's voice.
 

@@ -324,7 +324,7 @@ We have these Servo starters, we also have bugs that are called E-Easy, although
 
 One of our team members calls these the "E-Easy piranhas", because basically if you dangle some E-Easy bugs out, thousands of fish jump out of the water to try to snap at it.
 
-**Jerod Santo:** Yeah, I'm hanging out on your issues page as you talk, just to get some context to that. GitHub.com/servo/servo - there's 1,775 open issues. Of those, 28 have the E-Easy label, and of those, there's only four that aren't actually assigned. So you have 28 easy things, and maybe 23-24 of those have already been taken by the E-Easy piranhas. They've already been snatched up.
+**Jerod Santo:** Yeah, I'm hanging out on your issues page as you talk, just to get some context to that. github.com/servo/servo - there's 1,775 open issues. Of those, 28 have the E-Easy label, and of those, there's only four that aren't actually assigned. So you have 28 easy things, and maybe 23-24 of those have already been taken by the E-Easy piranhas. They've already been snatched up.
 
 **Jack Moffitt:** \[01:12:09.28\] Yeah, so we are constantly struggling to keep up with demand, I guess, but it's a job that we absolutely love.
 

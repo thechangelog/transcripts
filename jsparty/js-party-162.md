@@ -82,7 +82,7 @@ For example, Nick brought up this idea that there's minimal user interaction on 
 
 **Feross Aboukhadijeh:** Alright.
 
-**Jerod Santo:** Alright, that was Divya's turn. And of course, as your moderator, I'm here to provide real-time fact-checking... Nick asserted that you cannot perform merge conflicts - or you cannot fix merge conflicts on GitHub.com. Fact-check - false. You can actually do that. Okay...
+**Jerod Santo:** Alright, that was Divya's turn. And of course, as your moderator, I'm here to provide real-time fact-checking... Nick asserted that you cannot perform merge conflicts - or you cannot fix merge conflicts on github.com. Fact-check - false. You can actually do that. Okay...
 
 **Nick Nisi:** We can.
 

@@ -440,6 +440,6 @@ Have you ever seen an email come through and it says "Begin PGP encryption"? Tha
 
 So start playing with the idea of just dragging and dropping files into the browser and sharing them out like that, and think about ways that you could integrate this completely alternate mode of content delivery and usage. The Changelog podcast on WebTorrent will be in the show notes. It's already been posted in the chat, so that looks good.
 
-That's the show for today. Thanks everybody for showing up, it's been a great show. Thank you to all of our sponsors. Rate us on iTunes. Go to GitHub.com/thechangelog/jsparty and suggest any new topics for us to cover. Also, we record live every Friday at noon Pacific. That's it for this show.
+That's the show for today. Thanks everybody for showing up, it's been a great show. Thank you to all of our sponsors. Rate us on iTunes. Go to github.com/thechangelog/jsparty and suggest any new topics for us to cover. Also, we record live every Friday at noon Pacific. That's it for this show.
 
 **Alex Sexton:** \[beatboxing\] That's the outro. \[laughter\]

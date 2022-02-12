@@ -2,7 +2,7 @@
 
 **Manish R Jain:** Thanks for having me, guys.
 
-**Jerod Santo:** And we should probably give a shout-out to Ping, because this is an episode that started in Ping; if you've never heard of our Ping repo, it's on Github at [thechangelog/ping](https://github.com/thechangelog/ping). Hop in there, give us your thoughts on what shows we should do. This one was actually opened up by an epic transcriber, [Horst Rutter](https://twitter.com/horst_vie)... Adam, you know Horst.
+**Jerod Santo:** And we should probably give a shout-out to Ping, because this is an episode that started in Ping; if you've never heard of our Ping repo, it's on GitHub at [thechangelog/ping](https://github.com/thechangelog/ping). Hop in there, give us your thoughts on what shows we should do. This one was actually opened up by an epic transcriber, [Horst Rutter](https://twitter.com/horst_vie)... Adam, you know Horst.
 
 **Adam Stacoviak:** Yes.
 

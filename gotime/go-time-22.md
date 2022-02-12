@@ -466,6 +466,6 @@ Alright, so thank you everybody on the panel for being here. Thank you to Cory f
 
 I definitely wanna encourage everybody to share this show with fellow programmers. You can go to GoTime.fm and subscribe. Even if you are subscribed, if you haven't seen the new website, you should go check it out. Changelog and GoTime did a whole huge rebranding and it's freakin' awesome.
 
-Follow us on Twitter, @GoTimeFM and you can ping us on GitHub.com/gotimefm/ping if you want to be on the show or have questions or have ideas for content. With that, we are ready for the goodbye.
+Follow us on Twitter, @GoTimeFM and you can ping us on github.com/gotimefm/ping if you want to be on the show or have questions or have ideas for content. With that, we are ready for the goodbye.
 
 **Jaana Dogan:** Thank you -- sorry, I just really need my really low voice... \[low voice\] Thank you for listening, and goodbye.

@@ -416,7 +416,7 @@ If there's anything else that either of you want to mention before we close out,
 
 **Adam Stacoviak:** That's a great way to close, Hillary, and you actually have a guide to back it up. There's an 18F open source style guide, which is essentially processed to name your project, making your repo descriptions clear, readme, documentation... So if anybody out there is listening, as Hillary just said, we're gonna link up in the show notes this open source style guide to kind of help you take that next step \[unintelligible 01:16:46.24\]
 
-And if you're in government and you're listening to this show, reach out to us. We wanna hear what you have to say about this project, and just in general your questions on open source. You can email us at editors@changelog.com or hit us up on GitHub; we have an open inbox there called Ping, so if you go to GitHub.com/thechangelog/ping, submit an issue... We like to do that \[unintelligible 01:17:08.08\] because, Jerod, how cool is that? This show started as an open source or an open repo ping, and it's our open inbox...
+And if you're in government and you're listening to this show, reach out to us. We wanna hear what you have to say about this project, and just in general your questions on open source. You can email us at editors@changelog.com or hit us up on GitHub; we have an open inbox there called Ping, so if you go to github.com/thechangelog/ping, submit an issue... We like to do that \[unintelligible 01:17:08.08\] because, Jerod, how cool is that? This show started as an open source or an open repo ping, and it's our open inbox...
 
 **Jerod Santo:** Right.
 

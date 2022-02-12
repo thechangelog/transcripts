@@ -652,7 +652,7 @@ Okay, so did we make it through everybody?
 
 **Vitor De Mario:** Thank you.
 
-**Erik St. Martin:** Thanks everybody for listening. You can find us at GoTime.fm online, or on Twitter @GoTimeFM. If you wanna be on the show, have suggestions for guests or topics, create an issue on GitHub.com/gotimefm/ping, and with that, goodbye everybody, we'll see you next week.
+**Erik St. Martin:** Thanks everybody for listening. You can find us at GoTime.fm online, or on Twitter @GoTimeFM. If you wanna be on the show, have suggestions for guests or topics, create an issue on github.com/gotimefm/ping, and with that, goodbye everybody, we'll see you next week.
 
 **Brian Ketelsen:** Goodbye!
 

@@ -162,7 +162,7 @@ But in the case of web development, in that scenario I think it's okay to bring 
 
 **Mat Ryer:** \[19:20\]
 
-**Mark Bates:** We're uniform! We've got GoBuffalo.io, and @gobuffalo\_io on Twitter, and GoBuffalo on Github, and... Whatever. That's enough name-dropping.
+**Mark Bates:** We're uniform! We've got GoBuffalo.io, and @gobuffalo\_io on Twitter, and GoBuffalo on GitHub, and... Whatever. That's enough name-dropping.
 
 **Mat Ryer:** The same name, as well.
 

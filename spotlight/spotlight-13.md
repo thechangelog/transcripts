@@ -196,7 +196,7 @@ So we're seeing a new resurgence, so to speak, from Microsoft in the fact that y
 
 **Adam Stacoviak:** Where can I find this Nappy project? Is it on GitHub as well?
 
-**Arunesh Chandra:** Yeah, it's on GitHub. You can go to GitHub.com/nodejs/ABI-stable-node. That repo also has steps to get involved. As Gaurav was saying, Nappy is supposed to be the stepping stone towards VM neutrality. This provides the fundamental piece of technology where we create the stable Node API for module developers. The current stage we are in - it's a very early prototype stage right now.
+**Arunesh Chandra:** Yeah, it's on GitHub. You can go to github.com/nodejs/ABI-stable-node. That repo also has steps to get involved. As Gaurav was saying, Nappy is supposed to be the stepping stone towards VM neutrality. This provides the fundamental piece of technology where we create the stable Node API for module developers. The current stage we are in - it's a very early prototype stage right now.
 
 We have converted two native modules onto this API, and the third one is being converted right now. The help we can use here is that people who own native modules, they can come and take a look at these APIs, try to convert them; if they find some gaps in the APIs we have provided, they can file an issue and let us know that "Hey, there are some gaps in this API", or if there's performance concerns... Things of that nature.
 

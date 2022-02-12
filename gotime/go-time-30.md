@@ -428,7 +428,7 @@ And back to our point before \#FreeSoftwareFriday, make 2017 the year that you s
 
 **Erik St. Martin:** With that, I think it's time to wrap up the show. I want to thank everybody who's here on the show, especially coming in and sharing your deep personal fears and feelings on things. Huge shoutout to our sponsors, StackImpact and Backtrace - without them, we couldn't keep doing this show, so definitely go show them some love.
 
-Definitely share this show with fellow Go programmers. This one isn't necessarily just Go, so if you know somebody who has impostor syndrome, send them this episode... Have them join and listen to every episode. We are GoTime.fm on the web - if you haven't subscribed yet. We are @GoTimeFM on Twitter. Github.com/gotimefm/ping if you wanna be on the show, if you have comments, if you have topic suggestions. With that, goodbye everybody! We'll see you next week.
+Definitely share this show with fellow Go programmers. This one isn't necessarily just Go, so if you know somebody who has impostor syndrome, send them this episode... Have them join and listen to every episode. We are GoTime.fm on the web - if you haven't subscribed yet. We are @GoTimeFM on Twitter. github.com/gotimefm/ping if you wanna be on the show, if you have comments, if you have topic suggestions. With that, goodbye everybody! We'll see you next week.
 
 **Bill Kennedy:** Goodbye!
 
