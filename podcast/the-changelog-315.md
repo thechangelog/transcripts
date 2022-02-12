@@ -100,7 +100,7 @@ People always want something new, and the same thing is for news. They only publ
 
 **Adam Stacoviak:** But you coming on a show like this and saying "Hey, we're not trying to win, we're just trying to achieve success, which is--"
 
-**Eugen Rochko:** It's not even just that; it's not even just that. It's people's criteria for winning is not adjusted for what Mastodon is. It's a new concept. E-mail is old, but nobody thinks of it as a social network, and nobody really talks about the success of email. I mean, it's pretty clear it is used by everyone, so I guess it's already successful but nobody really talks about it.
+**Eugen Rochko:** It's not even just that; it's not even just that. It's people's criteria for winning is not adjusted for what Mastodon is. It's a new concept. Email is old, but nobody thinks of it as a social network, and nobody really talks about the success of email. I mean, it's pretty clear it is used by everyone, so I guess it's already successful but nobody really talks about it.
 
 **Jerod Santo:** \[19:51\] That's because there's no press releases for email, right? \[laughter\] There's no certain entity saying "Look how successful we are", because it's like a public good, or it's a concept...
 

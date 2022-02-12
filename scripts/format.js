@@ -13,6 +13,7 @@ const REPLACES = [
     [/\b(close)(sourc[e|ing])/gi, '$1 $2'],
     [/\b(closed?)-(sourc[e|ing])/gi, '$1 $2'],
     [/\bopen source\.com/gi, 'opensource.com'],
+    [/\b(e)-(mail)/gi, '$1$2'], // e-mail and E-mail => email and Email
     [/\\?\[(00:)?(\d{2}:\d{2})(\.\d{2})?\\?\]/g, '\\[$2\\]'], // Remove leading 00: and fractions in timestamps
     [/\\`(.*?)\\`/g, '`$1`'], // Remove escaping backslashes before backticks
 
