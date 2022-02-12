@@ -272,7 +272,7 @@ And it's also annoying , because you speak like a child. I currently speak like 
 
 **Zach Leatherman:** Yeah, I kind of wonder how much of that affected how I built software too, because I saw my daughter learn something, learn all these things for the first time, and now my son is learning all these things for the first time, and it sort of puts you in more of that friendly-to-beginners mindset, and "How can I make this more user-friendly to someone that has none of the knowledge that I may have accumulated over time?"
 
-**Nick Nisi:** Some things that I'm pretty excited about are Eleventy -- I am excited to check that out, and I just wanted to tell you that... And I really get excited every time I get a new LetsEncrypt e-mail about my certificate expiring, and then we're having to go figure out how to do that again... And I'm like "I should just rewrite everything and throw it on Netlify right, and be done with this whole charade", because I don't actually know how to manage a server, as is obvious by me having to shut down a Bitcoin miner that started up online at some point.
+**Nick Nisi:** Some things that I'm pretty excited about are Eleventy -- I am excited to check that out, and I just wanted to tell you that... And I really get excited every time I get a new LetsEncrypt email about my certificate expiring, and then we're having to go figure out how to do that again... And I'm like "I should just rewrite everything and throw it on Netlify right, and be done with this whole charade", because I don't actually know how to manage a server, as is obvious by me having to shut down a Bitcoin miner that started up online at some point.
 
 **Divya Sasidharan:** Oh, no...! \[laughs\]
 

@@ -232,7 +232,7 @@ The hard part is like "Well, what is the special value that I provide to my cust
 
 And again, with email we have a mix of proprietary software, open source software, cloud-based software, web software, so I think that the same kind of thing will happen with social software.
 
-**Jerod Santo:** I think email is the best success story to use, because it's used globally by everybody. It's on open protocols, SMTP, POP3 and IMAP, and it's completely federated. I think a failure case - if you wanted to say "What worked for email?" and then "What didn't work?" So IRC is the opposite, right? IRC is federated, IRC is very popular amongst people like us, and in many ways it's better, in many ways it's worse, but it never broke through, which is interesting, because they probably both started in the good old days. E-mail was used by everybody; IRC never made it outside of hacker circles, and even amongst us - most of us are on Slack, because they provide overall a better experience.
+**Jerod Santo:** I think email is the best success story to use, because it's used globally by everybody. It's on open protocols, SMTP, POP3 and IMAP, and it's completely federated. I think a failure case - if you wanted to say "What worked for email?" and then "What didn't work?" So IRC is the opposite, right? IRC is federated, IRC is very popular amongst people like us, and in many ways it's better, in many ways it's worse, but it never broke through, which is interesting, because they probably both started in the good old days. Email was used by everybody; IRC never made it outside of hacker circles, and even amongst us - most of us are on Slack, because they provide overall a better experience.
 
 \[44:13\] So what - and I'm not necessarily asking you to answer this, Evan... I'm just kind of throwing this out as a thought - why did email get traction and IRC never did?
 
@@ -250,7 +250,7 @@ That third-party developer experience where it's like "Hey, I'd like to augment 
 
 **Jerod Santo:** Yeah.
 
-**Evan Prodromou:** E-mail is somewhere in the middle. A lot of us build applications to just like "fire off email", but doing things like mailbox management is kind of a mess, right? That's not as much fun. So it kind of lies somewhere in the middle there.
+**Evan Prodromou:** Email is somewhere in the middle. A lot of us build applications to just like "fire off email", but doing things like mailbox management is kind of a mess, right? That's not as much fun. So it kind of lies somewhere in the middle there.
 
 So those are a couple things... Can you get something that's fun for hackers?
 
@@ -260,7 +260,7 @@ So those are a couple things... Can you get something that's fun for hackers?
 
 How many of us use Twitter because of all the hilarious bots that are on there? That's a big part of a lot of people's Twitter experience, right? That is largely because they built an API early on that was fun and easy to use. You really don't need to know much about the Twitter API to be posting. I think that the more that open source projects are easy and accessible to third-party developers, the more that we get fun bots, fun add-ons, fun applications, fun games that run on the network.
 
-**Jerod Santo:** \[48:29\] One of the things I'll add is that even a more basic concern with regards to -- just going back to IRC versus email and why one took off and one didn't... E-mail appealed to humans at a level they already understood. You already know how the mail system works; I'm talking conceptually now, not technically or anything like that. "This is like mail for your computer", and that's something that everyone was like "Oh, okay, I get mail. Internet mail? Okay, I'm gonna get mail on my computer." I'm just talking about human buy-in into the network, not just how it works and the federation...
+**Jerod Santo:** \[48:29\] One of the things I'll add is that even a more basic concern with regards to -- just going back to IRC versus email and why one took off and one didn't... Email appealed to humans at a level they already understood. You already know how the mail system works; I'm talking conceptually now, not technically or anything like that. "This is like mail for your computer", and that's something that everyone was like "Oh, okay, I get mail. Internet mail? Okay, I'm gonna get mail on my computer." I'm just talking about human buy-in into the network, not just how it works and the federation...
 
 The people who are creating cool things, like you said, are attracting other people to use it, but the ones who are just deciding "Should I get an email account?", they're thinking "Is this gonna provide value? Is this something that I understand and can use?" whereas IRC was very technically challenging (like you said), very insider. Actually, when I was exposed to IRC as a young lad - I probably was like 16, 17 - it was scary, weird... The whole interaction with IRC was something...
 

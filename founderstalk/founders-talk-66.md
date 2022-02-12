@@ -26,7 +26,7 @@ So you're actually the exact same person, but all of a sudden this person enters
 
 **Sahil Lavingia:** Yeah.
 
-**Adam Stacoviak:** We're gonna tackle some interesting topics. We've already got some shows recorded... But it is in preview right now, so if you're interested, e-mail us at editors@changelog.com. The subject line should be in all caps "BRAIN SCIENCE" if you're really excited about it. That's my short plug there. But back to studying humans and ego and stuff like that - take us back there.
+**Adam Stacoviak:** We're gonna tackle some interesting topics. We've already got some shows recorded... But it is in preview right now, so if you're interested, email us at editors@changelog.com. The subject line should be in all caps "BRAIN SCIENCE" if you're really excited about it. That's my short plug there. But back to studying humans and ego and stuff like that - take us back there.
 
 **Sahil Lavingia:** Yeah, so we went through some downs at that point, in 2015. We shrunk the team to five, and then shrunk the team to one, just me... No one had joined the company to build a lifestyle business basically, so I was like "I'm gonna go run this thing... At some point it'll grow to a point where I can start hiring new folks again. And if Gumroad doesn't grow, I can shut it down. If it does, we'll figure it out." It ended up doing great actually. Even though basically we didn't ship any new features for almost two years, it continued to grow, which is the power of technology and the power of software.
 
@@ -208,7 +208,7 @@ I think the thing with being proactive - typically, you're just doubling down. Y
 
 Then a fantasy author that I really like -- so in the meantime Gumroad was going through that slump, and I had started trying to figure out what I could do to have goals that I could measure, things that I wanted to do for a long time and never could, and one of those things was writing fiction. So I started writing a fantasy novel.
 
-I wrote the first draft, and I was working on the second draft I believe at the time, and a fantasy author that I love, this guy Brandon Sanderson, who lives in Provo, Utah, and teaches a class at BYU, the local university, run by the LDS Church... And I applied to it; anyone could apply and get in, and you just had to move to Provo. Then I got an e-mail saying "Hey, you got in." I submitted the first chapter of my book. They told me "Class is in two weeks." I was like, "Okay. I guess I'm moving to Provo, Utah."
+I wrote the first draft, and I was working on the second draft I believe at the time, and a fantasy author that I love, this guy Brandon Sanderson, who lives in Provo, Utah, and teaches a class at BYU, the local university, run by the LDS Church... And I applied to it; anyone could apply and get in, and you just had to move to Provo. Then I got an email saying "Hey, you got in." I submitted the first chapter of my book. They told me "Class is in two weeks." I was like, "Okay. I guess I'm moving to Provo, Utah."
 
 **Adam Stacoviak:** Okay, that is reactive then.
 

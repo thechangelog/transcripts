@@ -744,6 +744,6 @@ I'm so glad that you're here to share that message, and the book coming up, and 
 
 **Adam Stacoviak:** Alright, that wraps up our anthology from OSCON and All Things Open. I hope you enjoyed the conversations Jerod and I were able to have at these great conferences; I know Jerod and I definitely did. Taking with people face-to-face is so awesome, and being in the trenches with fellow community members is where we like to be.
 
-If you're listening to this and you run a conference, get in touch. We'd love to help you share the stories from your conference. E-mail us, editors@changelog.com and thanks again to our friends at OSCON and All Things Open for working with us, and our friends at ThoughtWorks who run GoCD, Rollbar and also Toptal for sponsoring this show.
+If you're listening to this and you run a conference, get in touch. We'd love to help you share the stories from your conference. Email us, editors@changelog.com and thanks again to our friends at OSCON and All Things Open for working with us, and our friends at ThoughtWorks who run GoCD, Rollbar and also Toptal for sponsoring this show.
 
 Our theme music was created by Breakmaster Cylinder. Last but not least, thanks to Fastly, our bandwidth partner. If you're impressed by how fast you can download our shows, it's because of Fastly. Head to Fastly.com, tell them Changelog sent you, and thanks for listening.
