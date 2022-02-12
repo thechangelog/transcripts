@@ -5,6 +5,7 @@
     "contributors:add": "all-contributors add",
     "contributors:generate": "all-contributors generate",
     "format:test": "jest",
+    "format:test-watch": "jest --watch",
     "format": "node scripts/format.js",
     "commitMessage": "node scripts/commitMessage.js"
   },
