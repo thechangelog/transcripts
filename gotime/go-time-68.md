@@ -484,7 +484,7 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Erik St. Martin:** Yeah, that's gonna be awesome. Okay, so what about Pop?
 
-**Brian Ketelsen:** Mark Bates' [Pop](https://github.com/markbates/pop), the library that Buffalo uses to manage database access added associations support in the last week. I can't remember the name of the person that added the pull request, but holy cow, something that was awesome just became significantly more awesome, and I love Pop a lot. It got a lot better. It's just a great thing. So if you are looking for some way to do database stuff bigger than dbsql, that feels a lot like ActiveRecord in Rails, Pop is the answer to that. GitHub.com/markbates/pop. It's got migrations and all of the good stuff.
+**Brian Ketelsen:** Mark Bates' [Pop](https://github.com/markbates/pop), the library that Buffalo uses to manage database access added associations support in the last week. I can't remember the name of the person that added the pull request, but holy cow, something that was awesome just became significantly more awesome, and I love Pop a lot. It got a lot better. It's just a great thing. So if you are looking for some way to do database stuff bigger than dbsql, that feels a lot like ActiveRecord in Rails, Pop is the answer to that. github.com/markbates/pop. It's got migrations and all of the good stuff.
 
 **Erik St. Martin:** Nice. So then on the news front - I think it was only a couple days ago or something - 1.9.4 came out for Go, and then I think 1.10 is gonna be released sometime today or within the next couple of days, so definitely by the time you hear this, if you're listening to it recorded, 1.10 should be out. And I'm trying to remember some of the stuff--
 
@@ -532,7 +532,7 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Brian Ketelsen:** Yeah, the only thing that really made a big impact on my life this week was [Unison](https://www.cis.upenn.edu/~bcpierce/unison/), and I've already mentioned Unison - great way to synchronize folders between computers on a scheduled sort of basis. I've used it several times this week and marveled at how damn fast it is.
 
-**Erik St. Martin:** Okay, so with that, time to wrap up our show. Thanks everybody for listening. Check us out on Twitter @GoTimeFM. As always, hit us up on GitHub.com/GoTimeFM/ping with comments, questions, suggestions for topics of guests. Definitely let us know if you like these AMA's, and we'll try and start doing them more regularly and come up with a way to consistently take questions for future AMA's. With that, goodbye everybody. We'll see you next week!
+**Erik St. Martin:** Okay, so with that, time to wrap up our show. Thanks everybody for listening. Check us out on Twitter @GoTimeFM. As always, hit us up on github.com/GoTimeFM/ping with comments, questions, suggestions for topics of guests. Definitely let us know if you like these AMA's, and we'll try and start doing them more regularly and come up with a way to consistently take questions for future AMA's. With that, goodbye everybody. We'll see you next week!
 
 **Carlisia Thompson:** This was fun!
 

@@ -362,7 +362,7 @@ With that, we are out of time unfortunately.
 
 With that, I wanna thank everybody for being on the show today. Huge shout out to our sponsors, both to Stackimpact and Code School, thank you to all of our live listeners and future listeners. Definitely forward this to your friends.
 
-We are @GoTimeFM on Twitter, we have a GoTimeFM channel on the Gophers Slack. If you are not subscribed already, go to GoTime.fm, our website for email. If you wanna be on the show or you have ideas for guests or topics for this show, hit us up on GitHub.com/gotimefm/ping. With that, everybody goodbye.
+We are @GoTimeFM on Twitter, we have a GoTimeFM channel on the Gophers Slack. If you are not subscribed already, go to GoTime.fm, our website for email. If you wanna be on the show or you have ideas for guests or topics for this show, hit us up on github.com/gotimefm/ping. With that, everybody goodbye.
 
 **Carlisia Thompson:** Thank you, Nathan. Goodbye!
 

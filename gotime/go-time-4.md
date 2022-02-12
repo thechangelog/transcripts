@@ -78,7 +78,7 @@ Welcome back for another episode of Go Time. This is episode number four. Today 
 
 **Erik St. Martin:** Alright, moving on - interesting Go projects. And speaking on sleeping and downloading information, Brian, with your nightly download of cool projects.
 
-**Brian Ketelsen:** Here's one that I saw a couple weeks ago and I wasn't too sure about it, because I didn't see all of the code there. This one's called GAFKA, and it's a suite of Go tools for managing KAFKA clusters. It's at GitHub.com/funkygao/GAFKA and it looks really complete. It looks really complete now. Very interesting if you manage KAFKA, which a lot of people do, and it's got a lot of nice little Go commands and Go tools for working with your cluster, things that will save you from the ugly mounting of Java shell scripts that you have to do generally when you're messing with KAFKA.
+**Brian Ketelsen:** Here's one that I saw a couple weeks ago and I wasn't too sure about it, because I didn't see all of the code there. This one's called GAFKA, and it's a suite of Go tools for managing KAFKA clusters. It's at github.com/funkygao/GAFKA and it looks really complete. It looks really complete now. Very interesting if you manage KAFKA, which a lot of people do, and it's got a lot of nice little Go commands and Go tools for working with your cluster, things that will save you from the ugly mounting of Java shell scripts that you have to do generally when you're messing with KAFKA.
 
 **Erik St. Martin:** This is just helpers for administering and kind of... That world for KAFKA? Or for places as Sarama and some of those client libraries?
 

@@ -330,7 +330,7 @@ Or just the different packages that you can find in there that people have coded
 
 **Brian Ketelsen:** So on that note, I'd like to thank everybody... Todd, thanks for coming in, Carlisia and Bill who's already departed, but thanks for stepping in for us today, Bill. Thanks to everybody who's listening out there, thanks to our dedicated Slack team in the GoTimeFM channel on the Gopher Slack, we couldn't have this much fun without you guys. Thank you to both Minio and Backtrace for being amazing companies and sponsors for us.
 
-We encourage you to share this show with all of your friends, and especially if they like Go or if you're trying to kind of nudge them towards Go - we might be able to help with that. An easy way to subscribe is to head to GoTime.fm and you can subscribe to our weekly email, which should be coming shortly. You can follow us on Twitter on @GoTimeFM, and if you have something that you wanna discuss on the show, or a guest you think we might want to bring on, head to GitHub.com/gotimefm/ping.
+We encourage you to share this show with all of your friends, and especially if they like Go or if you're trying to kind of nudge them towards Go - we might be able to help with that. An easy way to subscribe is to head to GoTime.fm and you can subscribe to our weekly email, which should be coming shortly. You can follow us on Twitter on @GoTimeFM, and if you have something that you wanna discuss on the show, or a guest you think we might want to bring on, head to github.com/gotimefm/ping.
 
 On that note, thanks everybody. We really appreciate this show, it was a fun one!
 

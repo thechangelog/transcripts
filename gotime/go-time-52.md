@@ -336,7 +336,7 @@ So on that note, on that sidetrack note, we should probably move on to interesti
 
 **Brian Ketelsen:** Yeah, I'm still a little tired. So I ran across a couple news items that were interesting this week. [JBD](https://twitter.com/rakyll) wrote a great article on the scheduler, and that is at [rakyll.org/scheduler](https://rakyll.org/scheduler/). Really good article about how the scheduler works, and I always like those deep dives into the things that are happening underneath, so that was cool.
 
-Then there's a cool game engine that I noticed on GitHub about two weeks ago that I didn't get to mention, because we haven't had a show for a while, and it's called Oak. That's at [gitHub.com/oakmound/oak](https://github.com/oakmound/oak), and it's a Go-based (not pure Go-based) game engine. It does all of its rendering, and all that stuff.
+Then there's a cool game engine that I noticed on GitHub about two weeks ago that I didn't get to mention, because we haven't had a show for a while, and it's called Oak. That's at [github.com/oakmound/oak](https://github.com/oakmound/oak), and it's a Go-based (not pure Go-based) game engine. It does all of its rendering, and all that stuff.
 
 **Ashley McNamara:** OMG, Brian...
 

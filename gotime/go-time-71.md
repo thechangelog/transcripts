@@ -420,7 +420,7 @@ The other one I found is one called [Bettercap](https://github.com/bettercap/bet
 
 **Carmen Andoh:** Thanks for having me.
 
-**Erik St. Martin:** Thanks everybody else for being on the show, thank you to all of our listeners. You can find us on Twitter @GoTimeFM. If you wanna be on the show, you have suggestions for guests or topics, file an issue on GitHub.com/gotimefm/ping, and with that, goodbye everybody. We'll see you next week.
+**Erik St. Martin:** Thanks everybody else for being on the show, thank you to all of our listeners. You can find us on Twitter @GoTimeFM. If you wanna be on the show, you have suggestions for guests or topics, file an issue on github.com/gotimefm/ping, and with that, goodbye everybody. We'll see you next week.
 
 **Brian Ketelsen:** Goodbye, Carmen. Awesome show, thank you.
 

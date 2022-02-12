@@ -126,7 +126,7 @@
 
 **Mat Ryer:** Yeah. If you're generating Go code, absolutely.
 
-**Brian Ketelsen:** If you're generating Go code. But there is a package out there by a gentleman named Dave, on GitHub.com/dave. The package is called dst (decorated syntax tree), and it is truly the most elegant solution I've ever found for generating beautiful code.
+**Brian Ketelsen:** If you're generating Go code. But there is a package out there by a gentleman named Dave, on github.com/dave. The package is called dst (decorated syntax tree), and it is truly the most elegant solution I've ever found for generating beautiful code.
 
 **Mat Ryer:** Brilliant... Yeah, because this is a gap, I think, in the standard library. There are packages in the standard library, and they've added new ones too, to make it easier... But they're so difficult to use, because I guess they're the tools that the Go build tools use, and so they're kind of all-powerful... But they seem really low-level and quite difficult to get your head around. You have to do value, value, and it's kind of like reflection, isn't it?
 

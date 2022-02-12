@@ -410,6 +410,6 @@ So my opinion would be like generics went in a direction I did not want them to 
 
 **Alexey Palazhchenko:** Who knows...? Maybe generics will be fixed with the help of Copilot in the next release.
 
-**Natalie Pistunovich:** \[laughs\] Yeah, interesting. I have to say, the last couple of episodes had unpopular opinions on the field of generics; what a surprise... Well, that was an interesting conversation, for sure. If anybody who has listened to this episode and wants to try Copilot but is not there yet, so you can apply on the GitHub website... Probably googling "copilot github" would be the best way to join the waitlist.
+**Natalie Pistunovich:** \[laughs\] Yeah, interesting. I have to say, the last couple of episodes had unpopular opinions on the field of generics; what a surprise... Well, that was an interesting conversation, for sure. If anybody who has listened to this episode and wants to try Copilot but is not there yet, so you can apply on the GitHub website... Probably googling "copilot GitHub" would be the best way to join the waitlist.
 
 Yeah, that would be wrapping it up for today, so thank you all for joining us... And join our outro tune.

@@ -600,7 +600,7 @@ Anything that he's written... His giant library stuff over at the Facebook Go - 
 
 **Brian Ketelsen:** Nothing to see here, move along...
 
-**Erik St. Martin:** So huge thank you to all of our listeners, especially the people listening live right now. Huge shoutout to our sponsors for today's episode - Toptal and Compose; without them, we wouldn't have a show. Definitely share the show with fellow Go programmers. We are GoTime.fm online, @GoTimeFM on Twitter, and GitHub.com/GoTimeFM/ping if you wanna be on the show, have suggestions for guests or questions for guests that we've had. With that, bye everybody! We'll see you next week!
+**Erik St. Martin:** So huge thank you to all of our listeners, especially the people listening live right now. Huge shoutout to our sponsors for today's episode - Toptal and Compose; without them, we wouldn't have a show. Definitely share the show with fellow Go programmers. We are GoTime.fm online, @GoTimeFM on Twitter, and github.com/GoTimeFM/ping if you wanna be on the show, have suggestions for guests or questions for guests that we've had. With that, bye everybody! We'll see you next week!
 
 **Carlisia Thompson:** Bye!
 

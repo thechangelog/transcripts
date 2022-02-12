@@ -291,7 +291,7 @@ So that's one... That one will be mine. And then for Erik, I would like to thank
 
 **Brian Ketelsen:** \[laughs\] "Damian wrote this."
 
-**Erik St. Martin:** Thank you to all of our listeners. You can find us at GoTime.fm. We are @GoTimeFM on Twitter. If you have suggestions for guests or topics or you wanna come on the show, you can file an issue on GitHub.com/gotimefm/ping. With that, goodbye everybody. We'll see you next week.
+**Erik St. Martin:** Thank you to all of our listeners. You can find us at GoTime.fm. We are @GoTimeFM on Twitter. If you have suggestions for guests or topics or you wanna come on the show, you can file an issue on github.com/gotimefm/ping. With that, goodbye everybody. We'll see you next week.
 
 **Carlisia Thompson:** Bye!
 

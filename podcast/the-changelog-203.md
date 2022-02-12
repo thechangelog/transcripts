@@ -254,7 +254,7 @@ Correct me if I'm wrong, I think I read in the Wired articled that you do have a
 
 **Sara Chipps:** Yeah, exactly.
 
-**Jerod Santo:** Yeah, I go back and forth on my level of open source purism or idealism. I tend to lean on the more pragmatic side of saying, you know, we do have proprietary things in business, and we're not required, in order to participate in the open source community and everything that we do open source - GitHub.com, which is one of our favorite open source companies in terms of how much they give back to the community, not just as a host, but with Atom and all these other tools that they provide... But GitHub.com is closed source.
+**Jerod Santo:** Yeah, I go back and forth on my level of open source purism or idealism. I tend to lean on the more pragmatic side of saying, you know, we do have proprietary things in business, and we're not required, in order to participate in the open source community and everything that we do open source - github.com, which is one of our favorite open source companies in terms of how much they give back to the community, not just as a host, but with Atom and all these other tools that they provide... But github.com is closed source.
 
 **Sara Chipps:** Yes.
 

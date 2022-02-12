@@ -308,7 +308,7 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Erik St. Martin:** I can see you back in 'Nam, sharing Rails development stories. \[laughter\] Alright, does anybody wanna talk about anything else - interesting projects, news?
 
-**Brian Ketelsen:** There's a lot of interesting stuff that came out this week. Probably the most exciting one - or at least the most interesting one is the Goggles application. Did anybody see that? From Kyle Banks. [GitHub.com/kylebanks/goggles](https://github.com/KyleBanks/goggles), it's an application that lets you search your GOPATH for code, and it shows you the GoDoc... It's almost like a little admin interface for your GOPATH - it will show you all of the code, all of the GoDoc... It's very pretty and well-written, and it's got a cute little pop-up gopher that comes up when you're searching... A nicely done app.
+**Brian Ketelsen:** There's a lot of interesting stuff that came out this week. Probably the most exciting one - or at least the most interesting one is the Goggles application. Did anybody see that? From Kyle Banks. [github.com/kylebanks/goggles](https://github.com/KyleBanks/goggles), it's an application that lets you search your GOPATH for code, and it shows you the GoDoc... It's almost like a little admin interface for your GOPATH - it will show you all of the code, all of the GoDoc... It's very pretty and well-written, and it's got a cute little pop-up gopher that comes up when you're searching... A nicely done app.
 
 **Luna Duclos:** Oh yeah, that... I've seen that on Twitter. I've been meaning to try it out, actually. I should do that.
 
@@ -468,7 +468,7 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Erik St. Martin:** And then it becomes a bookmark... And two years from now I clean up my bookmarks. \[laughter\]
 
-**Brian Ketelsen:** At least we're honest about it. You know, there was one more package that I wanted to talk about... CockroachDB actually had a blog post about it too, The Arbitrary Precision Decimal Package, so that they could manage data types at arbitrary precision with a little bit more speed than Go allows. So at [GitHub.com/CockroachDB/apd](https://www.cockroachlabs.com/blog/apd-arbitrary-precision-decimal-package/) there's a nice arbitrary precision decimal package. I don't have a link to the blog post, but maybe we can dig that up somewhere, too. I'm pretty sure there was a blog post that went with it.
+**Brian Ketelsen:** At least we're honest about it. You know, there was one more package that I wanted to talk about... CockroachDB actually had a blog post about it too, The Arbitrary Precision Decimal Package, so that they could manage data types at arbitrary precision with a little bit more speed than Go allows. So at [github.com/CockroachDB/apd](https://www.cockroachlabs.com/blog/apd-arbitrary-precision-decimal-package/) there's a nice arbitrary precision decimal package. I don't have a link to the blog post, but maybe we can dig that up somewhere, too. I'm pretty sure there was a blog post that went with it.
 
 **Erik St. Martin:** Yeah, we'll find it and we'll drop it in the show notes before this episode is released. So I think now is a perfect time for our second sponsor break. Our second sponsor for today is The Ultimate Go Training Series.
 

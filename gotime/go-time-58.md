@@ -370,7 +370,7 @@ And I know video games use it, too.
 
 **Dmitri Shuralyov:** If they exist.
 
-**Erik St. Martin:** Alright, so another cool tool that I saw come out - I'm guessing the name is called Colly (the dog). It's at [gitHub.com/asciimoo/colly](https://github.com/gocolly/colly). It's like a web scraping utility written in Go, and you can kind of visit links and things like that. That looks really cool. Because a lot of people have been using like Python for this, so there's some good tools like Scrapy, or something like that... There's another one that's really common for doing web scraping.
+**Erik St. Martin:** Alright, so another cool tool that I saw come out - I'm guessing the name is called Colly (the dog). It's at [github.com/asciimoo/colly](https://github.com/gocolly/colly). It's like a web scraping utility written in Go, and you can kind of visit links and things like that. That looks really cool. Because a lot of people have been using like Python for this, so there's some good tools like Scrapy, or something like that... There's another one that's really common for doing web scraping.
 
 I wonder whether we're gonna get some Capybaras and things like that built on top of that.
 
@@ -506,7 +506,7 @@ Did anybody have any more shoutouts, or do we wanna wrap this thing up?
 
 **Carlisia Thompson:** Yeah!
 
-**Dmitri Shuralyov:** This is more for an open source contributor. This will be to [Glenn Lewis](https://github.com/gmlewis). He helps a lot with the go-github Go package - it's the Go client for GitHub's API. He basically makes sure that the PR's get reviewed and merged, and without him I'm not sure what that project would do, so huge thanks for all his work. It's Glenn Lewis.
+**Dmitri Shuralyov:** This is more for an open source contributor. This will be to [Glenn Lewis](https://github.com/gmlewis). He helps a lot with the go-GitHub Go package - it's the Go client for GitHub's API. He basically makes sure that the PR's get reviewed and merged, and without him I'm not sure what that project would do, so huge thanks for all his work. It's Glenn Lewis.
 
 **Erik St. Martin:** Awesome.
 

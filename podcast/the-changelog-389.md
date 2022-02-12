@@ -254,7 +254,7 @@ So I don't think that it's very useful to put identity information in a certific
 
 **Jerod Santo:** No, I was just curious your thoughts on it.
 
-**Adam Stacoviak:** I think at one point it was interesting because it was different. Not all certificates you've got gave you the option. So I can recall a day whenever you to GitHub.com, and it would say separately, twice almost; someone's double-branding even. You know, heavy on the brand side.
+**Adam Stacoviak:** I think at one point it was interesting because it was different. Not all certificates you've got gave you the option. So I can recall a day whenever you to github.com, and it would say separately, twice almost; someone's double-branding even. You know, heavy on the brand side.
 
 **Jerod Santo:** With a big, green background, and then it was like very official...
 

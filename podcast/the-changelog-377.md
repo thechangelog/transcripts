@@ -340,7 +340,7 @@ On the other hand, the concern that you might have as well - if they're using al
 
 **Jerod Santo:** Cool, Dan. Well, thanks so much for joining us today, thanks for Algo... I'm definitely gonna give this a try, and get it set up. It looks very useful, and I like a lot of the opinions you have here, and the way you've gone about this I think is sound. I think there's no doubt why it's becoming the most recommended self-hosted VPN out there. So keep up the good work...
 
-How can the people contact you, how can they get involved? We'll have, of course, all the links to the different things we've mentioned in the shows notes, and Algo is on GitHub.com/trailofbits/algo, so that will also be in the show notes... But what are some waypoints where people can get involved, either in the software, or in Trail of Bits, or other things you're up to? I know you have other projects as well.
+How can the people contact you, how can they get involved? We'll have, of course, all the links to the different things we've mentioned in the shows notes, and Algo is on github.com/trailofbits/algo, so that will also be in the show notes... But what are some waypoints where people can get involved, either in the software, or in Trail of Bits, or other things you're up to? I know you have other projects as well.
 
 **Dan Guido:** Yeah. So Trail of Bits - we do a ton of outreach, really trying to put out code that people wanna use. Algo VPN is just one of the more accessible ones. Our GitHub is filled with projects that people should look at. There's some really nice and easy ones like TWA (Tiny Website Auditor), that helps you review the security of various websites that you're on... Or various fuzzers and tools like KRF, our kernel syscall fuzzer.
 

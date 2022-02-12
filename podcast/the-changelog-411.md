@@ -238,7 +238,7 @@ So in theory, there'd be enough information that you could in fact reconstruct a
 
 **Jerod Santo:** That's awesome. What else is going in there?
 
-**Jon Evans:** Wiktionary, a couple of other things, and a list of about 200 books, mostly but not exclusively technical, all of which is available on [The Archive Program repo at GitHub](https://github.com/github/archive-program).
+**Jon Evans:** Wiktionary, a couple of other things, and a list of about 200 books, mostly but not exclusively technical, all of which is available on [The Archive Program repo at GitHub](https://github.com/GitHub/archive-program).
 
 **Jerod Santo:** I'll snatch that one up and link it for those interested in seeing all the things inside the Tech Tree. Are you guys taking suggestions?
 

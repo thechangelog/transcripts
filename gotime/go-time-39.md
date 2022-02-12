@@ -374,7 +374,7 @@ I saw the coolest video -- I think I saw it on Twitter... It's by Scott Lobdell.
 
 **Erik St. Martin:** One of my favorite things about the Gokrazy thing is that the tools that they use for you to do on-device debugging, where you actually need to SSH in, is called Break Glass... \[laughter\]
 
-**Brian Ketelsen:** In case of emergency. There was one last interesting Go project that I wanted to mention, because this one has caught me several times, and I'm surprised nobody had thought of this - including myself - before. The Twitch team at GitHub.com/TwitchTV released a vendoring project for binaries.
+**Brian Ketelsen:** In case of emergency. There was one last interesting Go project that I wanted to mention, because this one has caught me several times, and I'm surprised nobody had thought of this - including myself - before. The Twitch team at github.com/TwitchTV released a vendoring project for binaries.
 
 I can think of dozens of applications that have binary helpers, and maybe the biggest one I can think of is Hugo, but there's also things like the ProtoGen compiler and other tools that you might need, especially in Goa, in Ponzu... A lot of the apps that I use have a binary component to them, and when you have a project that's versioned, it's silly that you don't also have the binary with it that's versioned, too.
 

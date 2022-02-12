@@ -368,7 +368,7 @@ Experimenting is fun. We are trying to really think outside the box in terms of 
 
 **Pia Mancini:** Pretty much, yeah. No, we love Webpack, they've been amazing, and it's such a great example of how this can work when everyone's interest is aligned, and we are talking about the topics that we need to talk and dealing with the issues that we need to deal with. It's such a great project... We love them.
 
-**Adam Stacoviak:** I also wanna direct people for you, since Open Collective is open source, go to GitHub.com/opencollective. You'll see various projects there; I believe your website is just /opencollective, and there's a bunch of issues there. To the community out there listening, if you wanna step in and help triage issues, documentation, things like that, that's probably a great place to get started, to reach out to the team behind Open Collective.
+**Adam Stacoviak:** I also wanna direct people for you, since Open Collective is open source, go to github.com/opencollective. You'll see various projects there; I believe your website is just /opencollective, and there's a bunch of issues there. To the community out there listening, if you wanna step in and help triage issues, documentation, things like that, that's probably a great place to get started, to reach out to the team behind Open Collective.
 
 **Pia Mancini:** \[01:19:11.15\] Yeah, absolutely. We welcome every PR and support and issues and feedback. We really thrive on feedback, so yeah - just jump in there!
 

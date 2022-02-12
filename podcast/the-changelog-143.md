@@ -458,7 +458,7 @@ We've got some awesome for this show, too. Codeship, Toptal and CodeSchool are s
 
 **Adam Stacoviak:** So for the listeners out there, if they wanted to follow you, or follow you on GitHub, how can they follow you?
 
-**Darcy Clarke:** The easiest way to get a hold of me or to check out what I'm doing is probably hit up my GitHub page, GitHub.com/DarcyClarke, or follow me on Twitter, twitter.com/darcy.
+**Darcy Clarke:** The easiest way to get a hold of me or to check out what I'm doing is probably hit up my GitHub page, github.com/DarcyClarke, or follow me on Twitter, twitter.com/darcy.
 
 **Adam Stacoviak:** Wow, /darcy. Nice.
 

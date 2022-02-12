@@ -246,7 +246,7 @@ So it has to write all the data first, and then it writes a new meta page to poi
 
 **Ben Johnson:** Thanks.
 
-**Jerod Santo:** GitHub.com/boltdb/bolt, check out the readme. Ben goes through not just usage and backups and stuff, but he actually goes through a comparison with other databases, he'll talk about the LSM-tree versus the B-tree, when you should use which one, there's even caveats and limitations... Lots to be had there. Check out Bolt, a low-level key-value store that's simple on purpose, and it sounds like it's a rock; it's been production-ready since November of last year, and people are picking it up, so check that out.
+**Jerod Santo:** github.com/boltdb/bolt, check out the readme. Ben goes through not just usage and backups and stuff, but he actually goes through a comparison with other databases, he'll talk about the LSM-tree versus the B-tree, when you should use which one, there's even caveats and limitations... Lots to be had there. Check out Bolt, a low-level key-value store that's simple on purpose, and it sounds like it's a rock; it's been production-ready since November of last year, and people are picking it up, so check that out.
 
 I think we should switch gears a little bit and talk about the next one. I know we had a list of a ton of databases... We're just gonna pick a couple, because we don't have too much time... The next is the one that you seem to be working with either in a consulting capacity, or full-time, but... InfluxDB, which is open source as well, but also has a business built around it. Can you tell us about Influx?
 

@@ -366,4 +366,4 @@ Alright, did anybody have any other shout-outs before we call this show complete
 
 **Brian Ketelsen:** It's what I do.
 
-**Erik St. Martin:** And definitely shout-out to all of our listeners, especially the number of them that we have that listen every week, and a decent group of them that listen live every week. We love you all, and thanks for the support. Definitely share this show with co-workers and friends; we are @GoTimeFM on Twitter. If you find us on GitHub.com/GoTimeFM/ping, please let us know topics or guests that you'd love to see on the show. I think that's it, that's a wrap. Goodbye, everybody! We'll see you next week.
+**Erik St. Martin:** And definitely shout-out to all of our listeners, especially the number of them that we have that listen every week, and a decent group of them that listen live every week. We love you all, and thanks for the support. Definitely share this show with co-workers and friends; we are @GoTimeFM on Twitter. If you find us on github.com/GoTimeFM/ping, please let us know topics or guests that you'd love to see on the show. I think that's it, that's a wrap. Goodbye, everybody! We'll see you next week.

@@ -466,7 +466,7 @@ We should put in the show notes links to people's Twitter handles so everybody c
 
 **Brian Ketelsen:** You were congratulating the panel and thanking the listeners.
 
-**Erik St. Martin:** Yes, and if you have not subscribed already, gotime.fm, you can subscribe. Eventually, we're going to get a weekly email going out, so make sure to sign up there, follow us on Twitter if you're not, we're @GoTimeFM. If you want to be on the show or have suggestions for topics or guests, please submit an issue on our GitHub repository, which is GitHub.com/GoTimeFM/ping, and I think that is it. Thanks again, everybody.
+**Erik St. Martin:** Yes, and if you have not subscribed already, gotime.fm, you can subscribe. Eventually, we're going to get a weekly email going out, so make sure to sign up there, follow us on Twitter if you're not, we're @GoTimeFM. If you want to be on the show or have suggestions for topics or guests, please submit an issue on our GitHub repository, which is github.com/GoTimeFM/ping, and I think that is it. Thanks again, everybody.
 
 **Brian Ketelsen:** Thank you.
 

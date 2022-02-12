@@ -32,7 +32,7 @@ This was 2013... So February 2013 I got fired, and then a month later I lined up
 
 **Nadia Eghbal:** Yeah, I guess so, yeah! I mean, how do you keep such a positive attitude about all the work that you're doing? Is it just that you just set really good boundaries about the work that you do, or do you just love it that much and you're that crazy?
 
-**Daniel Bachhuber:** \[07:57\] I think it's both. I think setting boundaries is integral, and if I could help anyone else involved in open source in any way, it'd be like coaching and education around setting boundaries. That is a whole two hours of conversation in itself. But I actually like to thank Github, for all of its limits, being such an amazing user experience around contributing to open source... Because the WordPress project actually is still on SVN, in Trac, and like... I don't like to touch that with a ten-foot pole, you know? When was the last time you submitted a patch to an SVN-based project?
+**Daniel Bachhuber:** \[07:57\] I think it's both. I think setting boundaries is integral, and if I could help anyone else involved in open source in any way, it'd be like coaching and education around setting boundaries. That is a whole two hours of conversation in itself. But I actually like to thank GitHub, for all of its limits, being such an amazing user experience around contributing to open source... Because the WordPress project actually is still on SVN, in Trac, and like... I don't like to touch that with a ten-foot pole, you know? When was the last time you submitted a patch to an SVN-based project?
 
 **Mikeal Rogers:** Um, probably 2009...
 

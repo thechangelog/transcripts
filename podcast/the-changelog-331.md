@@ -214,7 +214,7 @@ Like you see in Jess' blog post, she was offering to meet with open source maint
 
 **Kyle Daigle:** Yes.
 
-**Jerod Santo:** Because it does... As I'm using it, it appears to be running inside of the GitHub.com main application, unless it's iframed, or something. How does that service work, and how did you guys build that?
+**Jerod Santo:** Because it does... As I'm using it, it appears to be running inside of the github.com main application, unless it's iframed, or something. How does that service work, and how did you guys build that?
 
 **Kyle Daigle:** Yeah, so it's ultimately a very sneaky iframe. \[laughs\]
 

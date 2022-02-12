@@ -464,7 +464,7 @@ The one that I wanna give a shoutout to is [GitLab](https://about.gitlab.com/)..
 
 **Erik St. Martin:** Mine for today is [Jessie Frazelle](https://twitter.com/jessfraz). She is amazing... Her knowledge of Linux and containers particularly... I don't think there's a container thing that you can touch that she wasn't somehow involved in. And then recently this week -- I think the project has been around for a little while, but this week I had seen a new project of hers that I had never seen before, and it's called [Am I Contained](https://github.com/genuinetools/amicontained). You can run it and it will tell you what container runtime you're running in and the Linux capabilities that are available to you... Which is ridiculously cool.
 
-That is at GitHub.com/jesfraz/amicontained.
+That is at github.com/jesfraz/amicontained.
 
 **Brian Ketelsen:** Awesome.
 

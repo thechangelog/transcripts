@@ -26,7 +26,7 @@ So that was kind of the story of how it got to where it is. Then this last June,
 
 **Bex Warner:** Yeah, sure. So I joined GitHub as an intern, and I was really excited for my time there. I was on the Community and Safety team. Going into the internship, I really had no idea what I was gonna be working on. When I got there, on the first day they told me that I was gonna be doing some IBM Watson level sort of analysis on toxic comments. I was like, "That sounds pretty cool. I wanna prevent toxic comments in open source." That was a very vague and not totally accurate description of what I ended up doing.
 
-Basically, the plan that they had laid out for me was to create a series of open source GitHub apps that were designed to help large open source communities build and grow and maintain open source contributors, especially aimed at diversity and inclusion in open source. And since we were building GitHub apps, the obvious platform, that being a githubber I said I'd heard about, was to use Probot. So I was basically assigned a summer of doing coding working on Probot.
+Basically, the plan that they had laid out for me was to create a series of open source GitHub apps that were designed to help large open source communities build and grow and maintain open source contributors, especially aimed at diversity and inclusion in open source. And since we were building GitHub apps, the obvious platform, that being a GitHubber I said I'd heard about, was to use Probot. So I was basically assigned a summer of doing coding working on Probot.
 
 **Jerod Santo:** What an awesome internship, by the way. I'm thinking back to my college internship. It was at a technology company where I basically spent the summer answering phone calls and helping people upgrade their version of Java... I'm totally jealous right now, how awesome that internship sounds.
 
@@ -74,7 +74,7 @@ An example - actually, Bex, do you wanna talk about Sentiment Bot, or the Welcom
 
 \[16:10\] That app is hosted, so anyone who wanted to install Sentiment Bot on their repository can just go and click through and get a free version of it. But it becomes more complicated when people want to install multiple instances of apps or mix in customizations that really make sense for their project; that's definitely a struggle we've had - making the deployed version work for everyone's specific needs.
 
-**Adam Stacoviak:** So the bots that are available on Probot.GitHub.io right now that are under the Explore section, those are hosted by GitHub, but if you wanna do your own version of those or something like it, you host it yourself.
+**Adam Stacoviak:** So the bots that are available on Probot.github.io right now that are under the Explore section, those are hosted by GitHub, but if you wanna do your own version of those or something like it, you host it yourself.
 
 **Brandon Keepers:** Exactly. I think there's nine apps hosted right now. Probably about the time this airs there will be a few more; there's a couple others that are about ready, and then all of them that are listed on the site are open source. We're taking feedback on those projects, or you can stand up your own instance.
 
@@ -317,11 +317,11 @@ And the status checks are really great in GitHub, except that they don't give yo
 
 We're experimenting with a lot of those patterns, storing metadata on issues, slash commands, displaying the results of checks, like CI or DCO...
 
-**Adam Stacoviak:** This is very much in the skunkworks, slash, "It's out there, it's available, however it's early in its days", so a lot of innovation, a lot of change could be potentially expected, because you're sort of in this "How should it work? How could it work? What does the community really want, what does the community really need?" and even down to "How is it hosted?" Because you've got one, which is hosted apps (that you do) in a .github directory inside of your repository, or the opposite, which is hosting externally - Heroku, Glitch... However, it seems like you're still in the very -- it's a cake being baked. It's ready for usage, but maybe not full-on consumption.
+**Adam Stacoviak:** This is very much in the skunkworks, slash, "It's out there, it's available, however it's early in its days", so a lot of innovation, a lot of change could be potentially expected, because you're sort of in this "How should it work? How could it work? What does the community really want, what does the community really need?" and even down to "How is it hosted?" Because you've got one, which is hosted apps (that you do) in a .GitHub directory inside of your repository, or the opposite, which is hosting externally - Heroku, Glitch... However, it seems like you're still in the very -- it's a cake being baked. It's ready for usage, but maybe not full-on consumption.
 
 **Brandon Keepers:** Yeah. I think one of the things we were trying to do with all that there was recognize at least the abstractions early on and pull those out, so that apps aren't having to -- actually, I think the config one would be a good example... Can you talk about that, Bex?
 
-**Bex Warner:** Yeah, so one thing that was one of the original goals of Probot was to not have to use any outside data storage, so most third-party integrators (like Travis or any CI service) have their own website; you go to their own website, and that's where you view all the data that they're trying to give you. But with Probot, none of the apps at this moment have their own website. Basically, we just wanted to be able to build apps that were purely dependent on your GitHub repo, so that's why we came up with the idea of having configuration in .github files, so that all of the (basically) history of your GitHub app lives within GitHub, so it's kind of purely using GitHub as its platform.
+**Bex Warner:** Yeah, so one thing that was one of the original goals of Probot was to not have to use any outside data storage, so most third-party integrators (like Travis or any CI service) have their own website; you go to their own website, and that's where you view all the data that they're trying to give you. But with Probot, none of the apps at this moment have their own website. Basically, we just wanted to be able to build apps that were purely dependent on your GitHub repo, so that's why we came up with the idea of having configuration in .GitHub files, so that all of the (basically) history of your GitHub app lives within GitHub, so it's kind of purely using GitHub as its platform.
 
 \[01:00:20.09\] Recently, we've been having a lot of conversations about the best ways to store configurations that aren't annoying for people, because we've had people want to install GitHub apps at an organizational level; if you have 100 repositories in your organization and you want the same style of settings to act on them, we're not really in a space right now where you can easily set that up for all 100 repos without having a configuration file in every repository. And we haven't really seen a lot of good patents for apps that are acting upon it without having some sort of third-party actor doing it for them.
 
@@ -337,7 +337,7 @@ We're experimenting with a lot of those patterns, storing metadata on issues, sl
 
 **Brandon Keepers:** Let's hear it.
 
-**Jerod Santo:** Okay. Bear with me... It's called Changelog Promoter Bot. \[laughter\] It watches every repository on all of GitHub.com issues, and anytime somebody references a changelog, it just chimes in and says "I'm sorry, did you mean the Changelog, an awesome podcast about open source, or did you mean the actual changelog of this project?"
+**Jerod Santo:** Okay. Bear with me... It's called Changelog Promoter Bot. \[laughter\] It watches every repository on all of github.com issues, and anytime somebody references a changelog, it just chimes in and says "I'm sorry, did you mean the Changelog, an awesome podcast about open source, or did you mean the actual changelog of this project?"
 
 **Adam Stacoviak:** Oh, boy...
 
@@ -365,7 +365,7 @@ We're experimenting with a lot of those patterns, storing metadata on issues, sl
 
 Then the second thing is to start to dive in, to play around with it. It's really easy to get started with the "Hello, world" example. You can run it on Glitch, so it's free hosting, you can edit it live right in the browser...
 
-And then the third way is just getting involved with the community. There's been a really fun community around this project, starting with Bex, and then several of GitHub's interns this summer got really involved - JasonEtco on Github, Brian Anglin (@anglinb) I started naming people, now I'm gonna forget a bunch of people... The community is starting to take off. We do lots of trout slapping in the Slack room... \[laughter\] Is that phrase familiar to you guys?
+And then the third way is just getting involved with the community. There's been a really fun community around this project, starting with Bex, and then several of GitHub's interns this summer got really involved - JasonEtco on GitHub, Brian Anglin (@anglinb) I started naming people, now I'm gonna forget a bunch of people... The community is starting to take off. We do lots of trout slapping in the Slack room... \[laughter\] Is that phrase familiar to you guys?
 
 **Adam Stacoviak:** No, I was lost. Trout slapping - it's like are you a bear?
 
@@ -395,7 +395,7 @@ But it's a pretty simple process. Either me or Brandon will probably reply to an
 
 **Brandon Keepers:** The ones that are listed now are all hosted. We're still undecided if we want to -- in the back of my mind I've always had like, we'll feature the ones that are like one-click install, and then if there's other ones, anything else where you have to run it yourself, it requires a little more digging... But that's a hard chicken and egg problem for some of these apps that kind of getting traction. So I think we'll probably just exercise a little bit of editorial around -- you know, there's a couple apps... There's one that does duplicate issue detection, as an example; so you open a new issue, and it will search for other issues that look like that and then comment "Hey, were you looking for this other one?" Something like that to me seems really useful, and I would love to just see a version out there, but it basically just needs a little bit more work to improve the algorithm.
 
-**Adam Stacoviak:** \[01:08:00.11\] What's nice too is that you're actually linking up repository directories; the work in progress, for example, is... Internet's slow... it's from Gregor, and seems to be not a githubber, from Hoodie, but the person - or persons, or community that are involved in that repository or that app get some credit when they get their app listed. Credit where credit's due, right?
+**Adam Stacoviak:** \[01:08:00.11\] What's nice too is that you're actually linking up repository directories; the work in progress, for example, is... Internet's slow... it's from Gregor, and seems to be not a GitHubber, from Hoodie, but the person - or persons, or community that are involved in that repository or that app get some credit when they get their app listed. Credit where credit's due, right?
 
 **Bex Warner:** Yeah. And we've also talked about adding more community content style features, adding better ways to give credit to people who are contributing to apps, but maybe not the main creator. We were also considering talking about adding a blog and featuring a different app every month and just having sort of community content, as Probot hopefully grows, to basically be able to give people credit where credit is due.
 
