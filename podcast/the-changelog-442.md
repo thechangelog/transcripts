@@ -52,7 +52,7 @@
 
 So if you're listening to this and you wanna host something that week, whether it's like you put out a blog post, whether it's a podcast like this, whether it's like "Hey, I'm getting a bunch of folks together and having a conversation", I really encourage you to. There's a whole site as well, we can point you to a repo where you can list it there, so other folks can find it and check it out.
 
-**Adam Stacoviak:** Yeah, github.com/github/maintainerweek is the repo I think you're talking about.
+**Adam Stacoviak:** Yeah, github.com/GitHub/maintainerweek is the repo I think you're talking about.
 
 **Kara Sowles:** That's it.
 
@@ -700,7 +700,7 @@ I will have fatigue, so to speak, but it's not as if I'm on droning Zoom calls t
 
 **Jerod Santo:** Show notes. It's in the show notes.
 
-**Adam Stacoviak:** Yeah, Jerod's reminded me we have show notes. GitHub.com/github/maintainerweek is the repo.
+**Adam Stacoviak:** Yeah, Jerod's reminded me we have show notes. github.com/GitHub/maintainerweek is the repo.
 
 **Kara Sowles:** That's it. Go to the repo.
 

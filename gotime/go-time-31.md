@@ -600,7 +600,7 @@ At Google's scale, logs probably don't mean much; it's probably all metrics at t
 
 Thanks to all the listeners who are listening live and everybody who's going to be listening to this how when the recording is released. Huge shoutout to our sponsors, StackImpact and Backtrace.
 
-If you are not following us already, we are GoTime.fm, you can sign up; eventually, we'll get around to putting out our weekly email. We are @GoTimeFM on Twitter, and if you wanna be on the show, have suggestions for topics or guests for the show, GitHub.com/GoTimeFM/ping. With that, goodbye everybody! We'll see you next week.
+If you are not following us already, we are GoTime.fm, you can sign up; eventually, we'll get around to putting out our weekly email. We are @GoTimeFM on Twitter, and if you wanna be on the show, have suggestions for topics or guests for the show, github.com/GoTimeFM/ping. With that, goodbye everybody! We'll see you next week.
 
 **Brian Ketelsen:** Bye! Thanks, Travis.
 

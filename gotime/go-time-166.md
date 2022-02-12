@@ -50,7 +50,7 @@ Joining me today - Johnny Boursiquot's back. Hello, Johnny.
 
 **Mat Ryer:** That's a good tip. How do you do it? Any special way?
 
-**Daniel Martí:** You can filter by site, so I filter by GitHub.com/golang/go/issues, and then whatever keywords. And it mostly works... But it's especially better than GitHub search in terms of relevance, because if you didn't get exactly the right keyword, GitHub might not even show the issue at all... That kind of thing.
+**Daniel Martí:** You can filter by site, so I filter by github.com/golang/go/issues, and then whatever keywords. And it mostly works... But it's especially better than GitHub search in terms of relevance, because if you didn't get exactly the right keyword, GitHub might not even show the issue at all... That kind of thing.
 
 **Mat Ryer:** Okay, so maybe we could have a look at some of the proposals that are out there. There's some really interesting ones. And we're not gonna pick any that are currently underway... Is that what we said? Although I think we've added a few extra since then, haven't we? Maybe...
 

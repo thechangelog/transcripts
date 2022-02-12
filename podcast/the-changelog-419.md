@@ -554,7 +554,7 @@ And half of the downtime was because of the migration. There's an interesting st
 
 **Adam Stacoviak:** You sure are, yeah.
 
-**Gerhard Lazu:** So if you look at GitHub.com, they have 60 seconds. GitHub.com, a single IP address, it's global \[unintelligible 01:02:10.18\] they have 60 seconds. So all the big names - they have a very low DNS TTL. What about Google.com? 60 seconds. Single IP address. What about Microsoft.com?
+**Gerhard Lazu:** So if you look at github.com, they have 60 seconds. github.com, a single IP address, it's global \[unintelligible 01:02:10.18\] they have 60 seconds. So all the big names - they have a very low DNS TTL. What about Google.com? 60 seconds. Single IP address. What about Microsoft.com?
 
 **Jerod Santo:** Try Microsoft.
 

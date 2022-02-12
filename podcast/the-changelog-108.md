@@ -274,7 +274,7 @@ So I guess we talked about Go a bit here... Originally, the CLI was written in R
 
 **Katrina Owen:** \[36:09\] ...and it's really a pain to set up all the Ruby -- like, setting up Ruby on your machine is actually quite an ordeal, especially if you don't know Ruby. So with the Go, it's possible to cross-compile for all the different operating systems and architectures, and people just have to download and install this one binary, and that's it. No dependencies.
 
-**Adam Stacoviak:** So on the homepage that you have, the Try It version, the quickie, "don't worry about telling us your Github", "just do it now" version, I guess, will that eventually go away, or is it dead and you just haven't removed it yet?
+**Adam Stacoviak:** So on the homepage that you have, the Try It version, the quickie, "don't worry about telling us your GitHub", "just do it now" version, I guess, will that eventually go away, or is it dead and you just haven't removed it yet?
 
 **Katrina Owen:** Oh, the one that says "Ruby"?
 

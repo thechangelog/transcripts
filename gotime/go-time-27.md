@@ -510,7 +510,7 @@ So did anybody else have anything they wanna talk about, or do we wanna wrap thi
 
 A huge shout out to our sponsors for this episode, who are StackImpact and Backtrace. Without them, we wouldn't be able to do this show. A huge shout out to all the listeners, both listening live and who will listen to the recorded version of this. Definitely share the show with fellow Go programmers.
 
-You can subscribe by going to GoTime.fm. We're also @GoTimeFM on Twitter. If you wanna be on the show or have questions for upcoming guests, hit us up on GitHub.com/GoTimeFM/ping. And I think that's it. I always feel like I'm forgetting something, because there's always so much to go through.
+You can subscribe by going to GoTime.fm. We're also @GoTimeFM on Twitter. If you wanna be on the show or have questions for upcoming guests, hit us up on github.com/GoTimeFM/ping. And I think that's it. I always feel like I'm forgetting something, because there's always so much to go through.
 
 Next episode will be with Thorsten Ball, and we're gonna be talking about building an interpreter in Go, which is highly related to this, and then we're gonna do basically a two-week break over the holiday, and we will be back in January. So with that, goodbye everybody!
 

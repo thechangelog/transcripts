@@ -291,7 +291,7 @@ I'm trying to think of any particular people who just no one would know about wh
 
 **Jerod Santo:** \[24:00\] Give us some waypoints where people can go to either learn from your work or to help out with your work. What's the best way to get involved?
 
-**Karthik Ram:** Fantastic question. We have tons of opportunities for people to get involved. If people just go to GitHub.com/ropensci, you can contribute code, you can contribute documentation, you can help us wrangle issues... And you're welcome to join our Slack. We have a link on our website, and you can participate.
+**Karthik Ram:** Fantastic question. We have tons of opportunities for people to get involved. If people just go to github.com/ropensci, you can contribute code, you can contribute documentation, you can help us wrangle issues... And you're welcome to join our Slack. We have a link on our website, and you can participate.
 
 The other thing that we do that is really important to the open source community, that doesn't exist elsewhere, is that we review software.
 
@@ -327,7 +327,7 @@ The other thing that we do that is really important to the open source community
 
 **Karthik Ram:** Yup. I'll wait for that day in my self-driving car.
 
-**Jerod Santo:** Exactly. Awesome. Karthik, thanks for sharing that story, and check out GitHub.com/ropensci. It sounds like a project to learn from and to get involved in, so check that out. Thanks for coming on the show.
+**Jerod Santo:** Exactly. Awesome. Karthik, thanks for sharing that story, and check out github.com/ropensci. It sounds like a project to learn from and to get involved in, so check that out. Thanks for coming on the show.
 
 **Karthik Ram:** Thanks for having me.
 

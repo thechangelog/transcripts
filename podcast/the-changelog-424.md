@@ -124,7 +124,7 @@ So I made my first contribution and didn't think much of it for many years after
 
 **Jerod Santo:** And they sure do make a difference -- I mean, the legal apparatus is a lot like a computer in its pedantry. You can to be specific, and you have to be clear... So it's worth sweating those particular details, whereas in many contexts of life, you're like "Dude, leave me alone with that. I don't care." But you have to actually care. If you care about licensing, MIT plus that clause changes everything.
 
-**Mike Pennisi:** Yeah. The way we learned about this was through issues -- it's funny, it was through an issue filed by a contributor that I'd never met before, saying "Please remove that clause." And it's funny, that was filed on GitHub.com, and there's certain parts about how it was filed there, because it's somewhat coincidental... For instance, it was assigned Issue \#1234, which is a kind of nice -- not round number, but...
+**Mike Pennisi:** Yeah. The way we learned about this was through issues -- it's funny, it was through an issue filed by a contributor that I'd never met before, saying "Please remove that clause." And it's funny, that was filed on github.com, and there's certain parts about how it was filed there, because it's somewhat coincidental... For instance, it was assigned Issue \#1234, which is a kind of nice -- not round number, but...
 
 **Jerod Santo:** Easy to remember.
 

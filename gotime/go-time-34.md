@@ -288,7 +288,7 @@ So once we've got Git for data and we've figured out how to make that experience
 
 **Erik St. Martin:** And maybe we can stomp Joe with some stuff he has not seen yet.
 
-**Brian Ketelsen:** There were a lot of interesting things that came out this week. One of my favorite ones is Wuzz. It's at GitHub.com/asciimoo/wuzz.
+**Brian Ketelsen:** There were a lot of interesting things that came out this week. One of my favorite ones is Wuzz. It's at github.com/asciimoo/wuzz.
 
 **Erik St. Martin:** I knew you were gonna say that...
 
@@ -480,7 +480,7 @@ Today I'll start off with NATS from APCERA and Derek Collison. I solved a really
 
 **Erik St. Martin:** I don't know who named it that, but yeah, I wrote that for one of the big data companies we worked for, because we needed to rotate encryption keys, so I wrote something over the top of Vault.
 
-**Brian Ketelsen:** Yeah, so if you go over to GitHub.com/xordataexchange/superdog - I named it SuperDog, because it had Crypto in it, and it always reminded me of my son's favorite cartoon when he was little, Crypto The Superdog.
+**Brian Ketelsen:** Yeah, so if you go over to github.com/xordataexchange/superdog - I named it SuperDog, because it had Crypto in it, and it always reminded me of my son's favorite cartoon when he was little, Crypto The Superdog.
 
 **Erik St. Martin:** Now it makes a lot more sense.
 
@@ -522,7 +522,7 @@ Thank you for everybody being on the show, especially thank you Joe for coming o
 
 **Brian Ketelsen:** It's terrible...
 
-**Erik St. Martin:** So huge thank you to all of our listeners, and especially a big shoutout to our sponsors for today, Toptal and Backtrace. Show them love, because they're showing us love. Definitely share this show with friends and colleagues that might be interested. You can subscribe going to GoTime.fm. We are @GoTimeFM on Twitter, GoTimeFM channel inside the GopherSlack and if you wanna be on the show or have suggestions for topics on the show, GitHub.com/gotimefm/ping. With that, goodbye everybody.
+**Erik St. Martin:** So huge thank you to all of our listeners, and especially a big shoutout to our sponsors for today, Toptal and Backtrace. Show them love, because they're showing us love. Definitely share this show with friends and colleagues that might be interested. You can subscribe going to GoTime.fm. We are @GoTimeFM on Twitter, GoTimeFM channel inside the GopherSlack and if you wanna be on the show or have suggestions for topics on the show, github.com/gotimefm/ping. With that, goodbye everybody.
 
 **Brian Ketelsen:** Erik, there's an important announcement we need to make before we end the show... GoTime FM, its producers and its members and staff will not be responsible if you flood your house with your data lake, so please use Pachyderm carefully. \[laughter\]
 

@@ -420,7 +420,7 @@ I use different tools like the tag bar or whatever, in Vim, so that I have a lay
 
 **Erik St. Martin:** You brought it up.
 
-**Brian Ketelsen:** You brought it up, it's your world, baby. Alright, so I wanna shout out to Buffalo Web Framework by Mark Bates. The website is at gobuffalo.io and it's not even done yet, so he's probably gonna kill me for bringing it up live, but it brought love back to web development in Go for me. Now, I know a lot of you are thinking, "A web framework in Go? That is sacrilege-ish. You should just use the standard library", and I used to agree with you until I found Buffalo. If you came from Ruby on Rails like I did, you will find Buffalo about the closest experience as you can come to Rails in Go, and it's awesome. We're using it for the next version of GopherCon's website, which is at GitHub.com/gopheracademy/Gcon. I think you should go take a look at it because it's really awesome. Just don't get me in trouble for shouting it out before he publically announced it, because the website isn't done yet. Sorry, Mark.
+**Brian Ketelsen:** You brought it up, it's your world, baby. Alright, so I wanna shout out to Buffalo Web Framework by Mark Bates. The website is at gobuffalo.io and it's not even done yet, so he's probably gonna kill me for bringing it up live, but it brought love back to web development in Go for me. Now, I know a lot of you are thinking, "A web framework in Go? That is sacrilege-ish. You should just use the standard library", and I used to agree with you until I found Buffalo. If you came from Ruby on Rails like I did, you will find Buffalo about the closest experience as you can come to Rails in Go, and it's awesome. We're using it for the next version of GopherCon's website, which is at github.com/gopheracademy/Gcon. I think you should go take a look at it because it's really awesome. Just don't get me in trouble for shouting it out before he publically announced it, because the website isn't done yet. Sorry, Mark.
 
 **Erik St. Martin:** We'll just claim that we sent everybody there to look at the really awesome logo.
 
@@ -474,7 +474,7 @@ I wanna thank everybody on the show, definitely thank you, Thorsten, for coming 
 
 **Erik St. Martin:** Huge shout out to all our listeners, especially the ones that are hanging out with us in the GoTimeFM channel on Slack; huge shout out to our sponsors, Backtrace and StackImpact - without them, we would not have a show. So everybody go check out their sites and products; we only work with awesome people, so definitely check out Backtrace and StackImpact.
 
-Follow us on Twitter @GoTimeFM, GitHub.com/GoTimeFM/ping if you wanna be on the show or have questions for our guests. With that, goodbye everybody and happy holidays!
+Follow us on Twitter @GoTimeFM, github.com/GoTimeFM/ping if you wanna be on the show or have questions for our guests. With that, goodbye everybody and happy holidays!
 
 **Brian Ketelsen:** Happy Gophermas! Happy holiday!
 

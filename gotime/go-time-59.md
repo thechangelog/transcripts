@@ -352,7 +352,7 @@ So there is definitely a balance that one needs to strike here, and I'm fairly c
 
 **Erik St. Martin:** I think we are probably running a little late on time. Do we wanna jump into some interesting projects and news, and \#FreeSoftwareFriday?
 
-**Brian Ketelsen:** Yes, let's! I think the number one interesting project for the whole year is the Space Gophers screensaver for Mac. [gitHub.com/apiarian/space-gophers](https://github.com/apiarian/space-gophers). You have to build it yourself, because whoever built it doesn't have an X-code developer Apple account thing... But it is the most adorable Gopher screensaver; they're bouncing all across your screen, and it's the Gophers from GopherCon this year, so they're little space Gophers. You have to have it. If you have a Mac, you have to have this. It's not optional.
+**Brian Ketelsen:** Yes, let's! I think the number one interesting project for the whole year is the Space Gophers screensaver for Mac. [github.com/apiarian/space-gophers](https://github.com/apiarian/space-gophers). You have to build it yourself, because whoever built it doesn't have an X-code developer Apple account thing... But it is the most adorable Gopher screensaver; they're bouncing all across your screen, and it's the Gophers from GopherCon this year, so they're little space Gophers. You have to have it. If you have a Mac, you have to have this. It's not optional.
 
 **Carlisia Thompson:** I'm gonna wait for somebody who does have X-code to build it so I can install it properly... But it's so cute!
 
@@ -370,7 +370,7 @@ So there is definitely a balance that one needs to strike here, and I'm fairly c
 
 **Erik St. Martin:** So what else did we run into this week?
 
-**Brian Ketelsen:** My [Golang UK talk](https://www.youtube.com/watch?v=mxlJqrVSalY&list=PLDWZ5uzn69eyM81omhIZLzvRhTOXvpeX9&index=8), I announced a tool called [Gopher Rocks](https://github.com/pkg/rock) that automatically tags your GitHub releases for you, so that everybody can start tagging their stuff. Mine was a pretty facile implementation, not very bright... There is a much better implementation at [gitHub.com/timberio/grease](https://github.com/timberio/grease), and it looks like it's a lot more functional than mine, of course... Because I wrote one, somebody had to have something much better. So Grease looks like a really nice GitHub tagging releasing kind of tool. I definitely recommend going to check that out, and I'll probably just stop writing mine now.
+**Brian Ketelsen:** My [Golang UK talk](https://www.youtube.com/watch?v=mxlJqrVSalY&list=PLDWZ5uzn69eyM81omhIZLzvRhTOXvpeX9&index=8), I announced a tool called [Gopher Rocks](https://github.com/pkg/rock) that automatically tags your GitHub releases for you, so that everybody can start tagging their stuff. Mine was a pretty facile implementation, not very bright... There is a much better implementation at [github.com/timberio/grease](https://github.com/timberio/grease), and it looks like it's a lot more functional than mine, of course... Because I wrote one, somebody had to have something much better. So Grease looks like a really nice GitHub tagging releasing kind of tool. I definitely recommend going to check that out, and I'll probably just stop writing mine now.
 
 **Erik St. Martin:** Actually, I almost don't mind when that happens, because to me the fun part is the proof of concept. And then it's like once the problems are figured out, I wanna move on to the next problem. I rarely want to get stuff in the state that I would consider it shippable...
 

@@ -420,7 +420,7 @@ I always think companies ought to do something extra for people that are contrib
 
 **Jon Calhoun:** "And it's not really a weakness if you're not getting caught..." No, I'm just kidding. \[laughter\]
 
-**Mat Ryer:** Well, that's all the time we have today. Sean, thank you so much. Please do come back, and anyone interested in Pion, check it out. It's literally GitHub.com/Pion, and you can start hacking on it.
+**Mat Ryer:** Well, that's all the time we have today. Sean, thank you so much. Please do come back, and anyone interested in Pion, check it out. It's literally github.com/Pion, and you can start hacking on it.
 
 This has been great, thank you very much. I'm gonna wind up the show, unless there's other bits we wanna talk about.
 

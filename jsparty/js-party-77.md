@@ -52,7 +52,7 @@ So it's just a strange thing... Maybe they're trying to fly under the radar. It'
 
 **Nick Nisi:** Maybe I caught on to that, but no, I don't think so.
 
-**Jerod Santo:** So the details of this you can find in the show notes. Of course, you can just go to GitHub.com/features/package-registry if you wanna read it for yourself. It says "Your packages, at home with their code." And it says "With GitHub Package Registry you can safely publish and consume packages within your organization or with the entire world." They have -- I guess you could call it a limited set, or a starter set of supported ecosystems and language; Npm, RubyGems, Docker, NuGet, Maven, and I think that's it... There might be a couple more, but that's at least what they're launching with.
+**Jerod Santo:** So the details of this you can find in the show notes. Of course, you can just go to github.com/features/package-registry if you wanna read it for yourself. It says "Your packages, at home with their code." And it says "With GitHub Package Registry you can safely publish and consume packages within your organization or with the entire world." They have -- I guess you could call it a limited set, or a starter set of supported ecosystems and language; Npm, RubyGems, Docker, NuGet, Maven, and I think that's it... There might be a couple more, but that's at least what they're launching with.
 
 **Divya Sasidharan:** Yeah. I was really surprised Python wasn't on there.
 

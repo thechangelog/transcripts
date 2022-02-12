@@ -271,7 +271,7 @@ I will kick it off this week with [Luke Smith](https://github.com/LukeSmithxyz).
 **Brian Ketelsen:** No? Alright. And Erik's not here, so even if he had something to shout out, he doesn't get to vote. Sorry, Erik. Alright, well if we've got no other open source to shout out, then this is the end of our show.
 
 I'd like to congratulate Jon and Carlisia for such a great show, and thanks everybody who is listening live, and thanks to those of you who will listen eventually when we get this released. We'd love it if you would share this show with your fellow Go programmers or people who are looking to become Go programmers. You can point them to GoTime.fm.
-You can follow us on Twitter, @GoTimeFM, or if you wanna suggest topics for the show, or perhaps suggest a new guest for us, GitHub.com/gotimefm/ping, just open up an issue.
+You can follow us on Twitter, @GoTimeFM, or if you wanna suggest topics for the show, or perhaps suggest a new guest for us, github.com/gotimefm/ping, just open up an issue.
 With that, thank you, Jon. We appreciate you coming on the show.
 
 **Jon Calhoun:** Thanks for having me.

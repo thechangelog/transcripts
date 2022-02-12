@@ -306,7 +306,7 @@ The other one is GNU Radio. I didn't realize just how much you could do with tha
 
 **Mat Ryer:** Well, there's already more possible combinations... They're enough for everyone on the planet to have almost like ten each, I think. It's insane, the number of actual different combinations of gophers on Gopherize Me.
 
-**Erik St. Martin:** Oh, wow... So huge thank you to all of our listeners and to our sponsors, Backtrace and Ardan Labs' Ultimate Go Series. Definitely share this show with friends and co-workers who you think might be interested. You can subscribe by going to GoTime.fm. Follow us on Twitter, we are @GoTimeFM and if you wanna be on the show or have suggestions for guests on the show, topics etc. GitHub.com/GoTimeFM/ping. With that, goodbye everybody, we'll see you next week!
+**Erik St. Martin:** Oh, wow... So huge thank you to all of our listeners and to our sponsors, Backtrace and Ardan Labs' Ultimate Go Series. Definitely share this show with friends and co-workers who you think might be interested. You can subscribe by going to GoTime.fm. Follow us on Twitter, we are @GoTimeFM and if you wanna be on the show or have suggestions for guests on the show, topics etc. github.com/GoTimeFM/ping. With that, goodbye everybody, we'll see you next week!
 
 **Carlisia Thompson:** Bye!
 

@@ -460,7 +460,7 @@ So it's just like you would normally use in like a front-end debugging, you can 
 
 **Alex Sexton:** Make sure everyone installs it as root... \[laughs\]
 
-**Wes Bos:** Well, okay... You give it a port and everything, and it's on Github as well. Maybe I am gonna get totally hacked and whatnot, but... \[laughter\] You can manually connect to it as well, but it's no way to live your life.
+**Wes Bos:** Well, okay... You give it a port and everything, and it's on GitHub as well. Maybe I am gonna get totally hacked and whatnot, but... \[laughter\] You can manually connect to it as well, but it's no way to live your life.
 
 **Alex Sexton:** \[01:00:12.07\] It seems really cool, because -- and I always hate talking about Node without Mikeal, because I'm sure he goes back and listens to these and then he's yelling because he knows something that I don't, but... \[laughter\] The path to this point has been long for Node debugging. We've had Chrome DevTools pretty much the entire time that Node has been around - I'm pretty sure that's roughly accurate - the good Chrome DevTools that could do this... And there have always been little projects that pop up - Node Debugger, and there was another one back in the day - and it was always just like it runs Chrome DevTools, but it actually runs it as a totally separate web server, so it's not actually the Chrome DevTools you know and all the good features are gone and you can't do any of the stuff... So it's been years in the making, and now you can finally just run your Node app and you get Chrome DevTools automatically attached.
 

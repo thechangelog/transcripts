@@ -278,7 +278,7 @@ So here's another interesting one - who read the [Cloudflare post](https://blog.
 
 **Brian Ketelsen:** Yeah, we've covered all kinds of crazy topics this week.
 
-**Erik St. Martin:** Alright, so with that, I definitely encourage sharing the show with fellow Go programmers; you can head over to GitHub.com/gotimefm/ping if you have suggestions for guests or topics. Follow us on Twitter @GoTimeFM, and with that, goodbye everybody. We'll see you next week!
+**Erik St. Martin:** Alright, so with that, I definitely encourage sharing the show with fellow Go programmers; you can head over to github.com/gotimefm/ping if you have suggestions for guests or topics. Follow us on Twitter @GoTimeFM, and with that, goodbye everybody. We'll see you next week!
 
 **Carlisia Thompson:** Bye!
 

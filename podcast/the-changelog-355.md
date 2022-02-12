@@ -524,7 +524,7 @@ So I wanna satisfy their needs, and I think if we do that, the adoption follows.
 
 **CJ Silverio:** Yeah, it looks like either I, or Chris Dickinson and I together will be at NodeConf EU in Ireland this November to talk. We'll probably do a deep dive into what's going on technically with the API and the data model, and that'll be a lot of fun. We may even have some answers on the security side by that point.
 
-So that'll be fun... Go to Ireland, be at a beautiful resort in Ireland and talk Node. Or you could come join us in our Discourse, at our Discord; all of the disses. You can find all of these things if you go to our GitHub, which is GitHub.com/entropic-dev, and there's only one project in there... Well, actually there are two projects in there now. Kat is making projects. Find us there, and we have pointers there to our Discourse and our Discord, as well as the code. The code is the least important thing right now. Come join with us and talk with us... Because we're in the talking phase.
+So that'll be fun... Go to Ireland, be at a beautiful resort in Ireland and talk Node. Or you could come join us in our Discourse, at our Discord; all of the disses. You can find all of these things if you go to our GitHub, which is github.com/entropic-dev, and there's only one project in there... Well, actually there are two projects in there now. Kat is making projects. Find us there, and we have pointers there to our Discourse and our Discord, as well as the code. The code is the least important thing right now. Come join with us and talk with us... Because we're in the talking phase.
 
 **Adam Stacoviak:** Any plans to have entropic.dev redirect, instead of showing this kind of...
 

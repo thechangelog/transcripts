@@ -182,7 +182,7 @@ There's opportunities there where you don't have to necessarily worry about the 
 
 **Adam Stacoviak:** Is it on your user then?
 
-**James Snell:** We're doing it under the Node organization. So if you got at GitHub.com/nodejs/http2, all the works being done there.
+**James Snell:** We're doing it under the Node organization. So if you got at github.com/nodejs/http2, all the works being done there.
 
 **Adam Stacoviak:** I saw that repo there, but I saw Ryan Dahl in there, so this is not a new repo...?
 

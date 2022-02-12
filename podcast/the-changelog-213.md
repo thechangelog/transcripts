@@ -320,7 +320,7 @@ Another thing I was gonna add is this project is very unique too in that we open
 
 What's interesting too is that everyone can also have a say on, for example, what is the best UI default colors for Windows, or Linux, or stuff like that. That are many different ways to contribute.
 
-**Adam Stacoviak:** A nice shout out to Timothy, who also goes by CodeTheory on GitHub and also Twitter, for that pull request to update the sketch file and readme and add some branding assets. That's super cool to open source that portion of it as well. So for the listeners out there, head to GitHub.com/zeit, and you'll find HyperTerm, you'll find HyperTerm-website, HyperPower, that you've mentioned a couple of times, and also HyperTerm-art, which is the logos, mockups and web design for HyperTerm. That is super cool.
+**Adam Stacoviak:** A nice shout out to Timothy, who also goes by CodeTheory on GitHub and also Twitter, for that pull request to update the sketch file and readme and add some branding assets. That's super cool to open source that portion of it as well. So for the listeners out there, head to github.com/zeit, and you'll find HyperTerm, you'll find HyperTerm-website, HyperPower, that you've mentioned a couple of times, and also HyperTerm-art, which is the logos, mockups and web design for HyperTerm. That is super cool.
 
 We've got a couple more questions... I'll ask you these simply because we talked about these in the pre-call, and you've got some people who've influenced you over the years. One of the questions that we like to ask our guests when they come on is "Who's a hero to you? Who's somebody who's been influential, that's inspired you along the way?" Who's that person(s) to you?
 

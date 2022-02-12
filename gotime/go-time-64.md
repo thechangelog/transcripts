@@ -242,7 +242,7 @@ I think for hiring we benefitted for sure from having open source bits all over 
 
 **Erik St. Martin:** So much cool stuff to talk about!
 
-**Brian Ketelsen:** So I'll start off with a new project that I saw, that I didn't play with yet, but man, does it look cool! It's called Grumble, and it's at [GitHub.com/desertbit/grumble](https://github.com/desertbit/grumble). It's an automatic CLI and shell tool. The API for it looks almost like an exact clone of Cobra, from [Steve Francia's](https://twitter.com/spf13) SPF13 [Cobra](https://github.com/spf13/cobra) library. However, it also has a shell. So instead of just being able to do command lines, you can drop into a shell and have an interactive shell that works with your application. I really wanna play with that, because that looks kind of fun.
+**Brian Ketelsen:** So I'll start off with a new project that I saw, that I didn't play with yet, but man, does it look cool! It's called Grumble, and it's at [github.com/desertbit/grumble](https://github.com/desertbit/grumble). It's an automatic CLI and shell tool. The API for it looks almost like an exact clone of Cobra, from [Steve Francia's](https://twitter.com/spf13) SPF13 [Cobra](https://github.com/spf13/cobra) library. However, it also has a shell. So instead of just being able to do command lines, you can drop into a shell and have an interactive shell that works with your application. I really wanna play with that, because that looks kind of fun.
 
 **Carlisia Thompson:** This looks cool... Like a repl kind of thing?
 
@@ -256,7 +256,7 @@ I think for hiring we benefitted for sure from having open source bits all over 
 
 **Erik St. Martin:** So while we were at CloudNativeCon and KubeCon, one of the things I hadn't heard of before was OpenFaaS, which is Open Functions as a Service, which is kind of implementing serverless on top of Kubernetes. What's the URL for that --
 
-**Brian Ketelsen:** [GitHub.com/openfaas/faas](https://github.com/openfaas/faas).
+**Brian Ketelsen:** [github.com/openfaas/faas](https://github.com/openfaas/faas).
 
 **Erik St. Martin:** The regular website is [OpenFaaS.com](https://www.openfaas.com/), too. I think that's really cool. It's one of the things I'm most excited about for Kubernetes now; now that we've kind of accepted how awesome Kubernetes as like a container orchestration platform, now it's starting to catch on the modularity of the system and how each of the components, schedulers and things like that are all implemented separately and you can build your own, and I'm really looking forward to the more creative use cases that we build in abstractions on top of Kubernetes.
 
@@ -276,7 +276,7 @@ I think for hiring we benefitted for sure from having open source bits all over 
 
 **Erik St. Martin:** Cool!
 
-**Paul Dix:** I don't know if it's new-new... Well, I've just heard about it I guess a month and a half ago. Google has this effort to try and combine in an open source framework metrics and distributed tracing. They wanted to build that out as like a standard... So the project is called OpenCensus, and they have a Go library up already on GitHub. It's [GitHub.com/census-instrumentation/opencensus-go](https://github.com/census-instrumentation/opencensus-go), which I will post in the channel.
+**Paul Dix:** I don't know if it's new-new... Well, I've just heard about it I guess a month and a half ago. Google has this effort to try and combine in an open source framework metrics and distributed tracing. They wanted to build that out as like a standard... So the project is called OpenCensus, and they have a Go library up already on GitHub. It's [github.com/census-instrumentation/opencensus-go](https://github.com/census-instrumentation/opencensus-go), which I will post in the channel.
 
 So I think it's interesting because they have their monitoring product called Stackdriver, but they are trying to still push out open source tooling, at least on the client side, and they're trying to basically build this standard tooling platform on the client side so that you can actually use -- and what they're hoping is that the other cloud providers and the other monitoring providers will actually implement these protocols so that you could use this library and actually use many different monitoring providers.
 
@@ -394,7 +394,7 @@ If you have ideas for how to incorporate [OpenCV](https://github.com/opencv/open
 
 **Paul Dix:** Yeah, thank you.
 
-**Erik St. Martin:** And definitely thank you to everybody who's listening. You can find us @GoTimeFM on Twitter, we are at GoTime.fm on the interwebs... If you wanna be on the show, have suggestions for topics or guests, you can file an issue on our GitHub, which is GitHub.com/GoTimeFM/ping... And with the holiday break, if I didn't forget anything, that's it.
+**Erik St. Martin:** And definitely thank you to everybody who's listening. You can find us @GoTimeFM on Twitter, we are at GoTime.fm on the interwebs... If you wanna be on the show, have suggestions for topics or guests, you can file an issue on our GitHub, which is github.com/GoTimeFM/ping... And with the holiday break, if I didn't forget anything, that's it.
 
 **Brian Ketelsen:** We forgot to mention that today's show is sponsored by the letter G and the number 12, thanks. \[laughter\]
 

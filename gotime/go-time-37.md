@@ -349,7 +349,7 @@ Maybe we need licensing models where you're able to turn on or off the ability o
 
 **Ron Evans:** I agree.
 
-**Brian Ketelsen:** Alright, I'll go next. This is a little one... It's a project I fund on GitHub when I got tired of trying to figure out how to exclude my vendor directory from running Go commands. It's a tiny little project called g.. , and it's from somebody who's GitHub username is mibk - GitHub.com/mibk-g.. It's just a wrapper for the Go command that excludes your vendor directory. So you can run gotest or g..test instead of gotest, and you don't have to worry about the Go program descending into your vendor directory and all of that stuff. So it's a cute little wrapper, handy tool and very useful.
+**Brian Ketelsen:** Alright, I'll go next. This is a little one... It's a project I fund on GitHub when I got tired of trying to figure out how to exclude my vendor directory from running Go commands. It's a tiny little project called g.. , and it's from somebody who's GitHub username is mibk - github.com/mibk-g.. It's just a wrapper for the Go command that excludes your vendor directory. So you can run gotest or g..test instead of gotest, and you don't have to worry about the Go program descending into your vendor directory and all of that stuff. So it's a cute little wrapper, handy tool and very useful.
 
 **Erik St. Martin:** Awesome. How about yours, Ron? Did you have a project you wanted to shout out to?
 
@@ -357,7 +357,7 @@ Maybe we need licensing models where you're able to turn on or off the ability o
 
 **Brian Ketelsen:** Yeah, I will second that. Every time I turn around, there's somebody from the NATS community helping out somewhere. In fact, I think maybe it was last week or the week before we shouted out NATS on \#FreeSoftwareFriday, too. It's nice. Great community-focused company at APCERA.
 
-**Erik St. Martin:** \[01:03:47.03\] Mine for this week is by somebody named OJ Reeves. I'm gonna continue my trend with security tools. It's called Gobuster; it's on [gitHub.com/OJ/gobuster](https://github.com/OJ/gobuster). It's like a replacement for Dirb or Dirbuster, basically to brute-force innumerate directories for websites. Basically, you can give it a word list and it tries to find cgi-bin or cPanel or things like that. So that's a super cool tool for scanning web servers. Extremely fun to see what you find, too... With permission, of course.
+**Erik St. Martin:** \[01:03:47.03\] Mine for this week is by somebody named OJ Reeves. I'm gonna continue my trend with security tools. It's called Gobuster; it's on [github.com/OJ/gobuster](https://github.com/OJ/gobuster). It's like a replacement for Dirb or Dirbuster, basically to brute-force innumerate directories for websites. Basically, you can give it a word list and it tries to find cgi-bin or cPanel or things like that. So that's a super cool tool for scanning web servers. Extremely fun to see what you find, too... With permission, of course.
 
 **Brian Ketelsen:** With permission. Consult your lawyer before hacking any websites, please.
 

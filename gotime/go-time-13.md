@@ -308,7 +308,7 @@ I've been working on something similar to that; I'm still in a very, very early 
 
 **Francesc Campoy:** We discussed the impact of what Women Who Go has been doing and what GoBrige has been doing, and I think that it is very powerful. All the impact that they've had so far is very positive, so that is something that we should keep on doing.
 
-There is also another idea that I think came from Katrina. Katrina works at Github, and they sponsored this thing called First Robotics. We were wondering, could robotics be a good place for Go to be taught? So if we're able to make Gobot work easily on the robots, then it could be a fun thing for kids to learn how to program those bots and go around just by writing Go.
+There is also another idea that I think came from Katrina. Katrina works at GitHub, and they sponsored this thing called First Robotics. We were wondering, could robotics be a good place for Go to be taught? So if we're able to make Gobot work easily on the robots, then it could be a fun thing for kids to learn how to program those bots and go around just by writing Go.
 
 **Carlisia Thompson:** Were you at the San Francisco meetup yesterday, Francesc?
 
@@ -578,7 +578,7 @@ Equinox is free for community and personal projects, and they have very affordab
 
 **Erik St. Martin:** If you're not subscribed, we are on iTunes and Play Store. You can subscribe at GoTime.fm. Big shout out to our sponsors for the show today, Linode and Equinox.io.
 
-If you have something you would like to discuss or suggestions for guests to come on the show, GitHub.com/GoTimFM/ping. I think that's it. It's a lot to cover, but I think I got it all.
+If you have something you would like to discuss or suggestions for guests to come on the show, github.com/GoTimFM/ping. I think that's it. It's a lot to cover, but I think I got it all.
 
 **Brian Ketelsen:** You did well, Erik. Good job!
 

@@ -92,7 +92,7 @@ Let's also meet our other guests. He's back, it's Roberto Clapis. Hello, Roberto
 
 **Daniel Martí:** Yeah.
 
-**Mat Ryer:** He's invented YAML. \[laughter\] Okay, so let's jump in. Why don't we go straight to our first language proposal that we're gonna discuss today? Anybody following along, you can find these on GitHub.com/golang/go, and then we'll read out the issue number so that you can follow along.
+**Mat Ryer:** He's invented YAML. \[laughter\] Okay, so let's jump in. Why don't we go straight to our first language proposal that we're gonna discuss today? Anybody following along, you can find these on github.com/golang/go, and then we'll read out the issue number so that you can follow along.
 
 The first issue number is issue number 20733. It's a proposal to redefine range loop variables in each iteration. This is a common gotcha for a lot of people in Go. Johnny, have you seen this in the wild, bugs that relate to this?
 

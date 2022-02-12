@@ -279,7 +279,7 @@ But it's nice, you can just go to GitPitch.com and then paste in the URL of any 
 
 **Brian Ketelsen:** We wanna thank you very much, Andrei, for joining us, and Carlisia for asking such great questions today. Thanks to all the people out there listening to GoTime. We encourage you to share the show with your fellow programmers, people who might be interested in Go... We continue to get really inspiring messages from people who say "We just started learning Go, and we discovered your podcast. We love it!" We encourage you to continue to send us awesome messages telling us how great we are, too. We like that a lot.
 
-You can follow us on Twitter @GoTimeFM. On GitHub.com/gotimefm/ping you can suggest topics for shows or guests that we might want to add or invite... And you can go to GoTime.fm and subscribe to our upcoming weekly email, and GoTime.fm to find the rest of our episodes. With that, thank you everybody. I hope you have a good week!
+You can follow us on Twitter @GoTimeFM. On github.com/gotimefm/ping you can suggest topics for shows or guests that we might want to add or invite... And you can go to GoTime.fm and subscribe to our upcoming weekly email, and GoTime.fm to find the rest of our episodes. With that, thank you everybody. I hope you have a good week!
 
 **Carlisia Thompson:** Thank you, Brian.
 

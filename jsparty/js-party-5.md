@@ -370,7 +370,7 @@ I was impressed with the way I was able to just get everything running. It's ext
 
 **Alex Sexton:** They had literally no idea what I was saying. As a callback to my thing - Google's Project Zero is the security team that I was talking about. But that might be all.
 
-**Mikeal Rogers:** Yeah, that's all the picks. Thanks for tuning in. If you have any suggestions for show topics for us to take on, you can head over to GitHub.com/thechangelog/jsparty and log an issue or send a PR with great new topics for us to check out. We record live on Fridays, so you can listen to the live stream and pop into the Slack, as well. Rate us on iTunes to get the word out, and that's all. Thanks everybody for showing up!
+**Mikeal Rogers:** Yeah, that's all the picks. Thanks for tuning in. If you have any suggestions for show topics for us to take on, you can head over to github.com/thechangelog/jsparty and log an issue or send a PR with great new topics for us to check out. We record live on Fridays, so you can listen to the live stream and pop into the Slack, as well. Rate us on iTunes to get the word out, and that's all. Thanks everybody for showing up!
 
 **Juan Pablo Buritica:** Thanks for having me too, and shoutout to Rachel and her internet.
 

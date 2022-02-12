@@ -613,7 +613,7 @@ You can install it, and it installs this pt, and you can use it like a grep, exc
 **Erik St. Martin:** I'm in the same boat. I used the Silver Searcher for many years now, and it still installed, and people keep reminding me of The Platinum Searcher, and I'm like "I'm gonna use that", and then I go along my way and continue to build stuff and I forget all about it. So now it's gonna live in my sea of tabs until either my computer shuts down and I lose the tab, or I actually install it.
 
 Alright, so I think with that we are out of time, and I definitely wanna thank everybody on the panel. Thank you, Scott, for stepping in, and thank you, Peter, for coming on the show. Thanks to everybody who's listening now, and who will be listening to us when the recording is released.
-Huge thank you to our sponsors, Minio and Backtrace. Definitely share the show with your friends, family, colleagues... We are @GoTimeFM on Twitter, GoTime.FM - you can go there to subscribe, and if you want to be on the show or have ideas for the show, or just questions of the hosts or guests, hit us up on GitHub.com/gotimefm/ping. With that, goodbye everybody, we'll see you next week.
+Huge thank you to our sponsors, Minio and Backtrace. Definitely share the show with your friends, family, colleagues... We are @GoTimeFM on Twitter, GoTime.FM - you can go there to subscribe, and if you want to be on the show or have ideas for the show, or just questions of the hosts or guests, hit us up on github.com/gotimefm/ping. With that, goodbye everybody, we'll see you next week.
 
 **Carlisia Thompson:** This was fun, bye! Thanks, Peter.
 

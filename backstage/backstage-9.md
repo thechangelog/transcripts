@@ -428,7 +428,7 @@ Maintainers who don't get any thanks - we love to pat them on the back and say "
 
 **Quincy Larson:** Yeah, and if you-- oh, I'm sorry, I didn't mean to interrupt...
 
-**Adam Stacoviak:** One more layer to his story though, speaking to GitHub and podcasts - we were actually syndicated for a while onto GitHub.com/explore. This is early days, too. They loved what we were doing, they loved The Changelog, they loved what we were trying to do about open source and sharing all the things happening, and they're like "Let us help you somehow." So they syndicated -- the most recent five episodes were on GitHub.com/explore. Now, it's not there anymore, so if you go there, don't be disappointed. I am, but... If anybody at GitHub wants to reignite -- I'm just kidding.
+**Adam Stacoviak:** One more layer to his story though, speaking to GitHub and podcasts - we were actually syndicated for a while onto github.com/explore. This is early days, too. They loved what we were doing, they loved The Changelog, they loved what we were trying to do about open source and sharing all the things happening, and they're like "Let us help you somehow." So they syndicated -- the most recent five episodes were on github.com/explore. Now, it's not there anymore, so if you go there, don't be disappointed. I am, but... If anybody at GitHub wants to reignite -- I'm just kidding.
 
 **Quincy Larson:** Yeah. Now, that's some prime real estate right there.
 

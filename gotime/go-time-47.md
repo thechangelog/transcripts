@@ -240,7 +240,7 @@ Then there's another aspect, which is an open source project where specialized, 
 
 \[40:07\] So the key thing to realize is the switch to Moby affects that second group, the open source contributor community, in a positive way; that's the goal. The goal is to improve things for the open source community.
 
-It does not affect our user community at all, or our customers. Or if it does, it's indirectly, meaning that if you zoom out from this community that we're in right now -- anyone that has ever gone to GitHub.com/docker/docker is in that group, the smaller group, the more specialized and better-informed group that is interested in how things work on the inside, that's actually participating in creating it.
+It does not affect our user community at all, or our customers. Or if it does, it's indirectly, meaning that if you zoom out from this community that we're in right now -- anyone that has ever gone to github.com/docker/docker is in that group, the smaller group, the more specialized and better-informed group that is interested in how things work on the inside, that's actually participating in creating it.
 
 But as far as everyone else using Docker is concerned, nothing has changed. Docker is Docker, it's still being updated in the same way, it's got the same features, it's got the same interfaces, it's got the same free version and paid version... So to set the context, it's an important dimension to keep in mind.
 

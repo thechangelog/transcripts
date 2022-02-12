@@ -360,7 +360,7 @@ Then if you step outside of Go, there's tons of stuff. There's one that I love c
 
 \[01:09:23.06\] I'll shamelessly plug this dcode library, but not because I want people to use it (you're welcome to if you do), but it's really more that I would love to just have this start a conversation. People go in, try it out, submit an issue, tell me I'm dumb, whatever it may be... It would just be really cool to expand mindsets in the Go community using functional programming.
 
-**Mat Ryer:** Brilliant. I agree. So check it out. That one is at [gitHub.com/go-functional/dcode](https://github.com/go-functional/dcode). And go-functional - there are other repos in that organization?
+**Mat Ryer:** Brilliant. I agree. So check it out. That one is at [github.com/go-functional/dcode](https://github.com/go-functional/dcode). And go-functional - there are other repos in that organization?
 
 **Aaron Schlesinger:** There are... Most of them are just like I put a repo up and wrote a main.go and then said "It'd be cool if I did this", and then it's been completed.. \[laughter\] So that's really the only one with some meat in it. The rest are just defunct.
 

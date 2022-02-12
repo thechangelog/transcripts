@@ -130,7 +130,7 @@ I think that's what's gonna happen in the industry in general; you're starting t
 
 **Break:** \[26:17\]
 
-**Jerod Santo:** Jason, we are on the cncf/landscape GitHub repo here, where some of these images that you referenced earlier are sitting... So listeners, if you'd like to look at these images, they are informative and a bit overwhelming; definitely check out our show notes, they're right there for you... Or if you are at your computer, just got to GitHub.com/cncf/landscape and there you have it. There's a trail map and then there's the current version of the landscape, which is what you're talking about, which has all of the different icons or avatars there.
+**Jerod Santo:** Jason, we are on the cncf/landscape GitHub repo here, where some of these images that you referenced earlier are sitting... So listeners, if you'd like to look at these images, they are informative and a bit overwhelming; definitely check out our show notes, they're right there for you... Or if you are at your computer, just got to github.com/cncf/landscape and there you have it. There's a trail map and then there's the current version of the landscape, which is what you're talking about, which has all of the different icons or avatars there.
 
 And on the landscape specifically, we have service mesh and discovery at step five -- excuse me, on the roadmap, which is kind of like a step-by-step thing of how you accomplish this, or... I don't know what's at the end; success is at the end of the road... And step five is "Pick a service mesh and discovery", or something like that.
 

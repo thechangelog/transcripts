@@ -182,7 +182,7 @@ I think that if you step out of your comfort zone you can learn a lot from other
 
 **Brian Ketelsen:** Yeah, don't forget that you can share this show by finding us at GoTime.fm, or tweeting @GoTimeFM.
 
-**Erik St. Martin:** Yes, and definitely as we mentioned earlier in the show, send us questions, send us people you'd like to see on the show, or if you wanna come on the show, definitely reach out to us there. We also have a GitHub set up where issues can be opened for these things, if you prefer that, which is Github.com/gotimefm/ping. With that being said, goodbye everybody until next week. Next week we have a special guest coming on the show.
+**Erik St. Martin:** Yes, and definitely as we mentioned earlier in the show, send us questions, send us people you'd like to see on the show, or if you wanna come on the show, definitely reach out to us there. We also have a GitHub set up where issues can be opened for these things, if you prefer that, which is github.com/gotimefm/ping. With that being said, goodbye everybody until next week. Next week we have a special guest coming on the show.
 
 **Carlisia Thompson:** Cory.
 
