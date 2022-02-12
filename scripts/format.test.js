@@ -33,6 +33,21 @@ test('applyReplaces works as expected', () => {
     expect(applyReplaces("They are open-sourcing it soon")).toBe("They are open sourcing it soon")
     expect(applyReplaces("What's wrong with close-sourced stuff")).toBe("What's wrong with close sourced stuff")
     expect(applyReplaces("It's a closed-source thing")).toBe("It's a closed source thing")
+
+    
+})
+
+test("formatting for GitHub and GitLab works", () => {
+    expect(applyReplaces("The code is on github.")).toBe("The code is on GitHub.")
+    expect(applyReplaces("at github.com/thechangelog/transcripts")).toBe("at github.com/thechangelog/transcripts")
+    expect(applyReplaces("The code is on GITHUB")).toBe("The code is on GitHub")
+    expect(applyReplaces("at https://GitHub.com/thechangelog/transcripts")).toBe("at https://github.com/thechangelog/transcripts")
+    
+    expect(applyReplaces("The code is on Gitlab.")).toBe("The code is on GitLab.")
+    expect(applyReplaces("at gitlab.com/something")).toBe("at gitlab.com/something")
+    expect(applyReplaces("The code is on GITLSB")).toBe("The code is on GitLab")
+    expect(applyReplaces("at https://GitLab.com/something")).toBe("at https://gitlab.com/something")
+
 })
 
 
