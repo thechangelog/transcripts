@@ -4,10 +4,11 @@ const fs = require('fs').promises
 
 const REPLACES = [
     [/([^/])\bjavascript/gi, '$1JavaScript'], // stylise javascript to JavaScript
-    [/\bML ops/gi, 'MLOps'],
+    [/\bML[\s|-]ops/gi, 'MLOps'],
+    [/\bai[\s|-]ops/gi, 'AIOps'],
     [/\bdev ops/gi, 'DevOps'],
-    [/\bclick[ -]ops/g, 'ClickOps'],
-    [/\bgofmt/gi, 'go fmt'], // it's always go fmt
+    [/\bclick[\s|-]ops/gi, 'ClickOps'],
+    [/\bgofmt/gi, '`go fmt`'], // it's always `go fmt`
     [/\b(open)(sourc[e|ing])/gi, '$1 $2'],
     [/\b(open)-(sourc[e|ing])/gi, '$1 $2'],
     [/\b(close)(sourc[e|ing])/gi, '$1 $2'],
