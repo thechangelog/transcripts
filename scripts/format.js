@@ -4,6 +4,7 @@ const fs = require('fs').promises
 
 const REPLACES = [
     [/([^/])\bjavascript/gi, '$1JavaScript'], // stylise javascript to JavaScript
+    [/npm/gi, 'npm'], // stylize npm as all lowercase
     [/\bML[\s|-]ops/gi, 'MLOps'],
     [/\bai[\s|-]ops/gi, 'AIOps'],
     [/\bdev ops/gi, 'DevOps'],

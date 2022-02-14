@@ -24,6 +24,12 @@ test("'JavaScript' has only one form", () => {
     expect(applyReplaces("r/javascript")).toBe("r/javascript")
 })
 
+test("npm is always all lowercase", () => {
+    expect(applyReplaces("Npm-based exploits")).toBe("npm-based exploits")
+    expect(applyReplaces("NPM has a website")).toBe("npm has a website")
+    expect(applyReplaces("https://npm.com")).toBe("https://npm.com")
+})
+
 test("go fmt is always 2 words and has code backtics around it", () => {
     expect(applyReplaces("So then you type gofmt and go from there.")).toBe("So then you type `go fmt` and go from there.")
     expect(applyReplaces("I love gofmt.")).toBe("I love `go fmt`.")
