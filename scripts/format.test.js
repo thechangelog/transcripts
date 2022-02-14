@@ -69,6 +69,12 @@ test("GitHub and GitLab is correct", () => {
     expect(applyReplaces("at https://GitLab.com/something")).toBe("at https://gitlab.com/something")
 })
 
+test("Whenever an 'n' is by itself or like 'n+1', make it capital", () => {
+    expect(applyReplaces("Then do it n times.")).toBe("Then do it N times.")
+    expect(applyReplaces("It's an n+1 query")).toBe("It's an N+1 query")
+    expect(applyReplaces("The answer is n!")).toBe("The answer is N!")
+    expect(applyReplaces("p-r-e-s-e-n-c-e")).toBe("p-r-e-s-e-n-c-e")
+})
 
 test('getTranscripts works as expected', async () => {
     const transcripts = await getTranscripts()

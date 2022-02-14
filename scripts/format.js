@@ -18,13 +18,11 @@ const REPLACES = [
     [/\b(e)-(mail)/gi, '$1$2'], // e-mail and E-mail => email and Email
     [/\\?\[(00:)?(\d{2}:\d{2})(\.\d{2})?\\?\]/g, '\\[$2\\]'], // Remove leading 00: and fractions in timestamps
     [/\\`(.*?)\\`/g, '`$1`'], // Remove escaping backslashes before backticks
-
     [/\bgithub/gi,'GitHub'], // stylise github to GitHub (This breaks github.com, but the next line fixes it again)
     [/\bgithub(\.\w)/gi,'github$1'], // stylise GitHub.com to github.com
-
     [/\bgitlab/gi,'GitLab'], // stylise gitlab to GitLab (This breaks gitlab.com, but the next line fixes it again)
     [/\bgitlab(\.\w)/gi,'gitlab$1'], // stylise GitLab.com to gitlab.com
-
+    [/\sn\b/gi, ' N'] // when "n" is used as a placeholder, make it capital
 ]
 
 // Perform multiple rounds of replaces on a string
