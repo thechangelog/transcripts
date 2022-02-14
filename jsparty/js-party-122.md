@@ -226,7 +226,7 @@ The crazy thing about functions is they're super-configurable, and they're super
 
 **Divya Sasidharan:** Exactly, yeah.
 
-**Guillermo Rauch:** ...but the ecosystem is shared. We all use Npm. But the ecosystem itself is targeting these environments that share the runtime, but are actually quite different. So there's almost this impedance mismatch where developers come to using a function and then they expect that everything that they're used to in the Node.js world works out of the box. And that mismatch ends up sometimes being a paper cut. We've seen this with databases...
+**Guillermo Rauch:** ...but the ecosystem is shared. We all use npm. But the ecosystem itself is targeting these environments that share the runtime, but are actually quite different. So there's almost this impedance mismatch where developers come to using a function and then they expect that everything that they're used to in the Node.js world works out of the box. And that mismatch ends up sometimes being a paper cut. We've seen this with databases...
 
 If you just wanna use the pg client for Postgres from Node, and the way that connection pooling works with PostgreSQL servers, and then you may use it with functions now, you almost immediately run up against the wall of "Oh, I opened too many connections to Postgres", and the connections were not gracefully closed. So now basically I was promised my website would never go down because of JAMstack and serverless, and now three database queries and my server is exacerbated.
 
@@ -234,13 +234,13 @@ If you just wanna use the pg client for Postgres from Node, and the way that con
 
 **Guillermo Rauch:** And by the way, this impedance mismatch is exactly what we were talking about with regards to that server-versus-clients rendering environment. You would have to use node-fetch for the server, and then fetch for the client, and they're slightly different. And then one context has window and the other one doesn't.
 
-Npm had to navigate that problem, too. I remember Seldo started realizing by looking at the data that browser-js was getting deployed a lot to Npm. And keep in mind that to them, to Isaac and Seldo, that was a surprising emergent behavior from the community, because Npm was literally designed to be the Node package manager. I think maybe that's what originated the joke of -- you know, all the different acronyms of Npm.
+npm had to navigate that problem, too. I remember Seldo started realizing by looking at the data that browser-js was getting deployed a lot to npm. And keep in mind that to them, to Isaac and Seldo, that was a surprising emergent behavior from the community, because npm was literally designed to be the Node package manager. I think maybe that's what originated the joke of -- you know, all the different acronyms of npm.
 
 **Divya Sasidharan:** Oh, yeah... \[laughs\]
 
-**Guillermo Rauch:** Nice People Matter... And yeah, they rotated on the website. But it's true, JS is so -- this is not a great word now, with Coronavirus, but JS is so viral that Npm has become kind of a repository of everything. And then the developer has to make the right decision for what package fits the environment that they are deploying to.
+**Guillermo Rauch:** Nice People Matter... And yeah, they rotated on the website. But it's true, JS is so -- this is not a great word now, with Coronavirus, but JS is so viral that npm has become kind of a repository of everything. And then the developer has to make the right decision for what package fits the environment that they are deploying to.
 
-**Divya Sasidharan:** Definitely, yeah. And that's why I'm really excited to see the emergence of Deno, and ES Modules, because it's completely shifting the model away from all of the problems we had with Node and Npm.
+**Divya Sasidharan:** Definitely, yeah. And that's why I'm really excited to see the emergence of Deno, and ES Modules, because it's completely shifting the model away from all of the problems we had with Node and npm.
 
 **Guillermo Rauch:** Yeah, for example if Deno focuses on functions - which I think they are - from the get-go, then we can have a higher degree of certainty that if I write Deno functions, then they will have thought about these problems early on, and there is less of that bumping against the wall problem.
 

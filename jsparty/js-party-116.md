@@ -64,7 +64,7 @@ And this also doesn't solve the problem that a lot of these bundlers solve reall
 
 **Brian Leroux:** Yes... Which is all the major evergreen browsers. That's a line in the sand that we can draw; maybe the enterprise can't though. You might be stuck on IE6 in the VM, for some reason.
 
-**Kevin Ball:** But also on the bundle side -- because we've had a conversation related to this before, talking about "Okay, how do we get everybody upgrading to using ES6 modules?" and one of the challenges is there's a million packages on Npm right now that different things are referencing, and some of them are essentially stranded, not gonna update any time soon...
+**Kevin Ball:** But also on the bundle side -- because we've had a conversation related to this before, talking about "Okay, how do we get everybody upgrading to using ES6 modules?" and one of the challenges is there's a million packages on npm right now that different things are referencing, and some of them are essentially stranded, not gonna update any time soon...
 
 **Brian Leroux:** Totally.
 

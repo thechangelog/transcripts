@@ -134,7 +134,7 @@ React Native also uses something called Yoga, which is a layouting library; it a
 
 **Atul R:** So you can just think of NodeGUI as a Node.js add-on that can exchange into Node.js, so that way you could use all the tools that Node.js supports for debugging.
 
-**Jerod Santo:** What about if you take off the... for debugging, can you just use all Node.js compatible packages, like anything on Npm that runs on Node is gonna run here, or are there any gotchas?
+**Jerod Santo:** What about if you take off the... for debugging, can you just use all Node.js compatible packages, like anything on npm that runs on Node is gonna run here, or are there any gotchas?
 
 **Atul R:** Yeah, so anything that runs on Node.js can run on this pretty seamlessly. Even the native plugins, with something like a SASS or things like that, if you wanna run, you could run it... If they have those C++ add-ons, they will run properly on this.
 

@@ -182,7 +182,7 @@ It's interesting, when I was in graduate school I had an opportunity to work on 
 
 **Adam Stacoviak:** Let me echo that, because we have a son who everytime we cook - almost every time - if I led the cooking, or my wife led the cooking, either of us, or it could be both of us, "Mom, dad, you're the best cook ever." Best of the best. You want that kind of kid.
 
-**Mireille B. Reece, Psy.D:** Right? And it's funny, because one of my children says "You're the best mom ever", and I'm like "Well, I am your only mom", so I'm an n of 1. \[laughs\]
+**Mireille B. Reece, Psy.D:** Right? And it's funny, because one of my children says "You're the best mom ever", and I'm like "Well, I am your only mom", so I'm an N of 1. \[laughs\]
 
 **Adam Stacoviak:** She still meant it... But you were like "Ah, whatever..." \[laughs\]
 

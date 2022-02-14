@@ -180,7 +180,7 @@ So I think there are those exceptional use cases where people do choose their ow
 
 **Jon Calhoun:** If you like to... But you're one of the four people, so... \[unintelligible 00:29:37.18\]
 
-**Peter Bourgon:** The three other people in this room... I wanna do a straw poll that's like n=3. We all program, right? Probably... We all program.
+**Peter Bourgon:** The three other people in this room... I wanna do a straw poll that's like N=3. We all program, right? Probably... We all program.
 
 **Tim Heckman:** Yes...
 

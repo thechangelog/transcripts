@@ -344,7 +344,7 @@ One of the things I'm excited about that's non-standard is the support of gzippe
 
 **John-David Dalton:** Actually, if you gzipped -- so I didn't experiment where I just gzipped my Node modules folder, Babel... You know. After a while, your build tools and your build change - you'll have over a gb inside your Node modules folder... So I gzipped it and I saved 500 mb out of the gate. And it turns out that reading from disk is actually more expensive in many cases than inflating gzip through your CPU... So in many cases, small gzip files will actually load faster.
 
-Isaac of NPM (formally Node) has also written a 3x faster gzip loader, which is what I'm also using. It's super fast. I'll be using it, like I said, for Lodash. I like that, because with Lodash, if you wanna load the kitchen sink, it's 600+ modules; I'm using that as my benchmark for the ESM loader as well, seeing how fast I can load 600+ modules in Node, with or without gzip there.
+Isaac of npm (formally Node) has also written a 3x faster gzip loader, which is what I'm also using. It's super fast. I'll be using it, like I said, for Lodash. I like that, because with Lodash, if you wanna load the kitchen sink, it's 600+ modules; I'm using that as my benchmark for the ESM loader as well, seeing how fast I can load 600+ modules in Node, with or without gzip there.
 
 I will say it's not a silver bullet, but for me, since most people have multiple versions of Lodash, 4 mb x 4 mb + 4 mb starts to add up, and eat into people's quotas for things like Azure functions or AWS Lambdas, or Electron apps and things like that. Your Node modules folder tends to inflate and can have consequences, so it's nice to be able to have a way to zip that up.
 
@@ -378,7 +378,7 @@ Lodash will be taking a dependency on it - I'm incorporating feedback from peopl
 
 For me, the benefit is really clear because most -- so I should also mention this... Lodash 5 will not have an index file, will not have a main monolithic include; everything is cherry-picked, which means that -- a common usage is for people to reach for about five or six of the 300+ methods, and just use five or six. For me, five or six small loads are nothing, so I get to save over 3 mb in package download and have almost negligible impact on the load. It's a win for me in that case.
 
-**Mikeal Rogers:** Right now I actually ended up pulling down the Lodash.whatever method that I need from NPM, so that I get a smaller version - how is that gonna change in Lodash 5 with this?
+**Mikeal Rogers:** Right now I actually ended up pulling down the Lodash.whatever method that I need from npm, so that I get a smaller version - how is that gonna change in Lodash 5 with this?
 
 **John-David Dalton:** So that actually ends up being a larger version. I'm stopping the individually packaged methods - like the Lodash.chunk package - because it turns out code can't be shared very well across those packages. Something that's nice about a single package that has a lot of submodules within it is that you can use build optimizations inside Webpack or Babel to alias and reduce functionality, and that's something that doesn't travel well across packages... So I would end up actually duplicating a lot of code in those individual packages.
 

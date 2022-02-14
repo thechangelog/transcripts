@@ -298,7 +298,7 @@ I found this project called Neovim, I got involved with that, I started helping 
 
 **Nick Nisi:** \[laughs\] I've written some. I have a lot of Vim script in my dotfiles, but it's not packages as a -- I guess it is kind of packages as a plugin, just because I'm following the directory structure and the file names, things like that. I just haven't isolated it as Vim plugins. But I have looked into yours a but, specifically the nvim-typescript one, and a lot of that is actually written in TyepScript, which I thought was pretty cool... Does that make it easier, or was it specifically easier because it's a plugin for TypeScript?
 
-**Mike Hartington:** It was easier in the sense that I wasn't having to learn a new language to work with TypeScript's APIs. I could just import something from TypeScript's library and just use it right away. And I could import various things from like a temp file creator from Npm. I would just pull that up and I was like "Oh... Okay. I can use this in my plugin and know that it's going to work."
+**Mike Hartington:** It was easier in the sense that I wasn't having to learn a new language to work with TypeScript's APIs. I could just import something from TypeScript's library and just use it right away. And I could import various things from like a temp file creator from npm. I would just pull that up and I was like "Oh... Okay. I can use this in my plugin and know that it's going to work."
 
 It's basically recreating a Node runtime inside of Neovim, so I was like "I know how to write stuff for a Node environment... It should be the same thing, right?" There's some weird race conditions and things kind of coming out of order that you have to manage there, but once you're aware of those, you just kind of await everything.
 

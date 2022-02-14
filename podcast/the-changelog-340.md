@@ -278,7 +278,7 @@ Rsync - I saw a talk these days, and the guy was saying that rsync is made of ma
 
 Also grep. Grep is such a great tool. I was reading these days a post about why grep is so fast, and it was just -- all these things have so much magic into them... It's not just rsync. I think rsync and grep stand out, but I think both rsync and grep are great tools.
 
-Also make. I think many people overlook make. I think it's such a great tool for automating tasks... And even though there's this joke around, of there only having been one makefile, and all the other makefiles are copies, a bit modified, of this first makefile... I actually think make is a great tool. I think it plays really well, even with Npm scripts and all of that.
+Also make. I think many people overlook make. I think it's such a great tool for automating tasks... And even though there's this joke around, of there only having been one makefile, and all the other makefiles are copies, a bit modified, of this first makefile... I actually think make is a great tool. I think it plays really well, even with npm scripts and all of that.
 
 I think sometimes things like \[unintelligible 00:53:00.01\] are quite annoying to configure maybe, so I'd say make does many things really well and is really simple to use; it has been around for a very long time, so I quite like it as well.
 

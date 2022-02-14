@@ -1074,7 +1074,7 @@ But then if that's the driving force, he's way overdoing this... And then it get
 
 **Adam Stacoviak:** Lots.
 
-**Brett Cannon:** I can't remember. I think they said at the end of Reloaded that "This is the n-th time we've built this for you."
+**Brett Cannon:** I can't remember. I think they said at the end of Reloaded that "This is the N-th time we've built this for you."
 
 **Adam Stacoviak:** Yeah.
 

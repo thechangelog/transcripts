@@ -554,7 +554,7 @@ So if one of the things that you wanna accept rather than having people login wi
 
 **Jerod Santo:** Who wants to build a reputation system though? Come on...
 
-**Mikeal Rogers:** Look, I was one of the first people to do Node.js development, and there were no libraries, and there was no Npm, and there was nothing... But it was also a really fun experience to be a part of that ecosystem and filling in those gaps... And then when you see that ecosystem take off, when you see what people can build and how many more people flood in once you just solve a couple problems and people can leverage it in an easy way... The whole ecosystem is just gonna go gangbusters.
+**Mikeal Rogers:** Look, I was one of the first people to do Node.js development, and there were no libraries, and there was no npm, and there was nothing... But it was also a really fun experience to be a part of that ecosystem and filling in those gaps... And then when you see that ecosystem take off, when you see what people can build and how many more people flood in once you just solve a couple problems and people can leverage it in an easy way... The whole ecosystem is just gonna go gangbusters.
 
 Just something as simple as "I wanna have a gallery show of all of the things in somebody's wallet." Well, only one service needs to solve that problem, like indexing all the chains and showing that \[unintelligible 01:02:00.10\] We're gonna build one, but we may not be the winner of that. But who cares. That's not our mission. We just want people to build apps.
 

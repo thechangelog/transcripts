@@ -142,7 +142,7 @@ Anyway, on the "Should you bother to learn class components?" About every six mo
 
 \[27:56\] The thing is that if you really get into a codebase where all of a sudden now you need to use a class, then great. Go look up the bagillion articles about how to write class components with React. I've got a course on Egghead that's still available. It's the "Original Beginner's Guide to React", and you can learn everything you need to know about writing class components... Or you could watch my other course on Egghead that shows you how to refactor a class component to a function component with Hooks, which is what you should be doing whenever you run into a class component anyway.
 
-So I suggest learn on-demand. When you need to learn it, then go ahead and learn it. The only thing that you can't do with hooks that you can do with classes is error boundaries, and I wouldn't bother writing one of those anyway, because it's on Npm; it's called React Error Boundary. I'm the maintainer of that actually, so... \[laughter\] So I do write class components, but... That's literally the only one that you need in your app. You don't need class components at all.
+So I suggest learn on-demand. When you need to learn it, then go ahead and learn it. The only thing that you can't do with hooks that you can do with classes is error boundaries, and I wouldn't bother writing one of those anyway, because it's on npm; it's called React Error Boundary. I'm the maintainer of that actually, so... \[laughter\] So I do write class components, but... That's literally the only one that you need in your app. You don't need class components at all.
 
 **Emma Bostian:** It seems like we chose the right person to bring on and talk about React today...
 

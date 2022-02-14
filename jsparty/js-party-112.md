@@ -292,7 +292,7 @@ The first category is CSS, the second is JavaScript level 1, the third is JavaSc
 
 **Emma Bostian:** That is correct. That is correct... That was for 400...
 
-**Jake Dohm:** What is Npm install promisify? \[laughter\]
+**Jake Dohm:** What is npm install promisify? \[laughter\]
 
 **Emma Bostian:** What even... \[laughs\] Oh, gosh. Alright, Kball, you're up.
 

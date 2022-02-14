@@ -94,11 +94,11 @@ So part of the thing was figuring out what's the feature set, what things do we 
 
 **Jonas Downey:** Yes. And then as we developed the product, we came to notice that the point of the HEY inbox is that it's only the stuff that's meaningful enough to you that you should see it relatively quickly when you check your email. When you check your email, you might well have 30 new messages, and a normal email client might have 30 unread things. Typically, maybe two of those are important enough that they actually warrant your immediate concern. The rest of it is kind of not that important. Traditional email clients don't distinguish those things very well... Or they use artificial intelligence to try to guess if something is important, or may or may not be.
 
-\[16:01\] So after we've built out these flows for how to screen people into HEY, and choose where they go, and decide what's important to you and what's not, the HEY inbox became really just the important stuff. So we decided that calling it a traditional inbox (with an n) was sort of doing it a disservice, because a lot of people hate their inboxes. The HEY inbox is not the same as a normal inbox, and it would not be honest to call it one. So we came up with this name imbox. Now, of course, people have lots of reactions to that; some people find it viscerally uncomfortable, because it's like a misspelling.
+\[16:01\] So after we've built out these flows for how to screen people into HEY, and choose where they go, and decide what's important to you and what's not, the HEY inbox became really just the important stuff. So we decided that calling it a traditional inbox (with an N) was sort of doing it a disservice, because a lot of people hate their inboxes. The HEY inbox is not the same as a normal inbox, and it would not be honest to call it one. So we came up with this name imbox. Now, of course, people have lots of reactions to that; some people find it viscerally uncomfortable, because it's like a misspelling.
 
 **Jerod Santo:** Yeah...
 
-**Jonas Downey:** But the thing we liked about the name though is that when you hear it, it almost doesn't matter; the m and the n sound are so close that you might as well just mishear it, so you can't tell... So people understand what it is without us having to explain what it is necessarily. They'll get -- like, "Oh, that's the inbox."
+**Jonas Downey:** But the thing we liked about the name though is that when you hear it, it almost doesn't matter; the m and the N sound are so close that you might as well just mishear it, so you can't tell... So people understand what it is without us having to explain what it is necessarily. They'll get -- like, "Oh, that's the inbox."
 
 **Jerod Santo:** Right. What do you think about it, Adam?
 

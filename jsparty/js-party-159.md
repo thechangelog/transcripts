@@ -288,7 +288,7 @@ So definitely, you don't need to learn all of this, but you need to know what th
 
 **Kamran Ahmed:** Again, I would just say, pick HTML, CSS, JavaScript, then Git, and React. js, and learn maybe the testing. Those are the 4-5 items that you need to learn. So don't look at the roadmap if you are overwhelmed by all of this. Just pick these 4-5 items and you're good. Just start working on the projects, and do a lot of projects, and then you learn along the way. Most of the items listed here - you don't even need to spend so much time on it; you can learn it while you're building stuff.
 
-For example, I have a section for Npm \[unintelligible 00:42:34.02\] I have a section for a lot of different things that you don't need to learn. You learn it while you're building software.
+For example, I have a section for npm \[unintelligible 00:42:34.02\] I have a section for a lot of different things that you don't need to learn. You learn it while you're building software.
 
 **Break:** \[42:42\]
 

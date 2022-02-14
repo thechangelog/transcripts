@@ -40,7 +40,7 @@ So that project - a startup with some friends of mine, after I left my previous 
 
 Then I spotted an opportunity when Aaron Heckman, the previous maintainer of Mongoose, was leaving MongoDB. He left for a while, nothing happened, and he was still maintaining Mongoose, but then fast-forward to April 2014, after I'd been at MongoDB for maybe about 8 months, Aaron had left the company maybe about four months prior, and he sends out a message on Twitter saying "Hey, I'm looking for someone to maintain Mongoose." I was just mindlessly scrolling through Twitter on the AirTrain to JFK airport in New York... And yeah, I just saw that, I couldn't respond fast enough; I can probably still send you that tweet... So that's how I ended up taking over Mongoose.
 
-It ended up being probably the most low-touch hand-over I have ever seen. Aaron just sent me some credentials to log into the Twitter account, get me GitHub access, Npm publish access... And I didn't really talk to him for another couple months until I ran into him at a Philz Coffee in Redwood City, California, after I had just moved there.
+It ended up being probably the most low-touch hand-over I have ever seen. Aaron just sent me some credentials to log into the Twitter account, get me GitHub access, npm publish access... And I didn't really talk to him for another couple months until I ran into him at a Philz Coffee in Redwood City, California, after I had just moved there.
 
 **Jerod Santo:** Wow. So kind of an opportunist; you were on the way to JFK, and saw the opportunity there on Twitter, and hopped all over it. Did you understand maybe the gravity of that move? I mean, you've been working on the project ever since. I don't know how much time and effort you have to put into it on a daily or recurring basis, but it's been your baby ever since; it's like adoption.
 
@@ -218,7 +218,7 @@ Mongoose does have a Slack channel, but I don't really check it as often as I wo
 
 **Valeri Karpov:** Yeah, it's been pretty stable, and also Mongoose hasn't really been broken by a new Node version in a long time. I think the biggest one recently was the changes to the custom inspect functions; that caused a little bit of headache, but not too much.
 
-Mongoose is not the only thing that's built on top of the MongoDB driver on Npm. There's a lot of other things that are built on top of the MongoDB driver on Npm, like Connect Mongo, or Connect MongoDB Session, the Expression Session stores. There's Agenda, the task scheduler... All these other projects.
+Mongoose is not the only thing that's built on top of the MongoDB driver on npm. There's a lot of other things that are built on top of the MongoDB driver on npm, like Connect Mongo, or Connect MongoDB Session, the Expression Session stores. There's Agenda, the task scheduler... All these other projects.
 
 And now what happens if you have an old version of Connect Mongo that's using an old version of the Node MongoDB driver, and then you take a MongoDB ObjectId object from this old version of the Node driver and pass that into Mongoose, which is using a totally incompatible version of the Node driver... That version resolution thing ends up being a bit of a mess.
 
@@ -260,7 +260,7 @@ Let's see here... I do love ESLint. It took me a while to warm up to it, because
 
 **Valeri Karpov:** What I wanted to say about ESLint is that for a while I just didn't think I could get too much value out of it, and it seemed pretty overwhelming to lint the entire Mongoose codebase, because the style was a little inconsistent when I first started... But once I got past that initial hurdle, ESLint has been quite great; it helped me catch quite a few bugs. And there's a pretty surprising amount of cool things you can bake into ESLint.
 
-\[36:13\] The serve module on Npm - that one is also a pretty important module in my workflow. It's more of a command line tool for spinning up a web server, so just 'serve .' gives you a web server that just serves up the current directory over HTTP. That one is pretty amazing for testing doc sites, and I've been looking to migrate Mongoose over to using it... But most of my other stuff already uses serve. Serve is great.
+\[36:13\] The serve module on npm - that one is also a pretty important module in my workflow. It's more of a command line tool for spinning up a web server, so just 'serve .' gives you a web server that just serves up the current directory over HTTP. That one is pretty amazing for testing doc sites, and I've been looking to migrate Mongoose over to using it... But most of my other stuff already uses serve. Serve is great.
 
 Another reason why I really like it is it has really great developer experience baked in... Little things like when you run serve. it automatically puts the URL to your clipboard, so you can just go to the browser, Ctrl+V and all of a sudden you're looking at your directory.
 

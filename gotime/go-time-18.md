@@ -412,7 +412,7 @@ Anything else anybody wants to talk about? We can start getting into some \#Free
 
 **Erik St. Martin:** But that begs the question, "Does it make sense to have some canonical place to look for these things?" And then you switch to them and decide which ones you like. Although it's hard to tell what the adoption rate of one is versus another.
 
-**Brian Ketelsen:** So you could do something like NPM search?
+**Brian Ketelsen:** So you could do something like npm search?
 
 **Aaron Schlesinger:** Oh man, that's a great segue into some \#FreeSoftwareFriday I wanted to mention.
 
@@ -420,7 +420,7 @@ Anything else anybody wants to talk about? We can start getting into some \#Free
 
 **Erik St. Martin:** Well, if it's a good segue, go ahead.
 
-**Aaron Schlesinger:** Alright... Well, I wanted to mention a library by Sam Boyer called GPS. It is a library that basically you import into your code; it's about ten lines of code, and you can get the entire dependency tree for any package, in a Go data structure. On top of it, it's being brought into the Glide project, which if you don't know it's a package manager for Go. It's also going to be used, I predict, inside of Peter Burjon's \[53:35\] working group to do better package management in Go. So I predict that this project is going to be used in whatever solution they come out with. Eventually, we're going to have something like NPM search for Go, which would be amazing.
+**Aaron Schlesinger:** Alright... Well, I wanted to mention a library by Sam Boyer called GPS. It is a library that basically you import into your code; it's about ten lines of code, and you can get the entire dependency tree for any package, in a Go data structure. On top of it, it's being brought into the Glide project, which if you don't know it's a package manager for Go. It's also going to be used, I predict, inside of Peter Burjon's \[53:35\] working group to do better package management in Go. So I predict that this project is going to be used in whatever solution they come out with. Eventually, we're going to have something like npm search for Go, which would be amazing.
 
 **Erik St. Martin:** That kind of reminds me... There was another tool that I saw come out - I can't remember where it was or who mentioned it, but it basically does the whole visualization of your dependency tree for your project. For the life of me, I can't remember what the project name was, but I will link to it in the show notes, because I will find it; my brain won't be able to let it go. It basically drew out a big graph of your dependencies.
 

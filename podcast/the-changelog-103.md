@@ -334,7 +334,7 @@ And of course, if you need an awesome feature yourself, please make it and contr
 
 **Andrew Thorp:** That's good advice, yeah. What about -- so if you weren't doing what you're doing now - and I ask that question, let's say, assuming it's a month from now and you're working on GitLab full-time... And if you weren't doing that, what would you like to be doing instead?
 
-**Sid Sijbrandij:** \[59:33\] I would like to learn JavaScript and play with Node. I listened to your episode with \[unintelligible 00:59:38.22\] the Npm maintainer. That sounds awesome. I'd like to know more about that and play with it. I'm a Ruby developer, I love Ruby, but it would be good to learn a second language in a good way... So I'd do that.
+**Sid Sijbrandij:** \[59:33\] I would like to learn JavaScript and play with Node. I listened to your episode with \[unintelligible 00:59:38.22\] the npm maintainer. That sounds awesome. I'd like to know more about that and play with it. I'm a Ruby developer, I love Ruby, but it would be good to learn a second language in a good way... So I'd do that.
 
 **Andrew Thorp:** Awesome. And our last question is a programming hero, or somebody that you have been influenced by greatly in your life, that you would like to give a shout-out to.
 

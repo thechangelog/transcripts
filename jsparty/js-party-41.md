@@ -150,7 +150,7 @@ We'll see what happens, but it's kind of interesting... We now actually have a b
 
 **Chad Hietala:** Right, yeah.
 
-**Kevin Ball:** Hey, we could look at Npm downloads; that might give us an alternative measure... And pretty much every other measure besides GitHub stars, React is still worlds ahead of everything...
+**Kevin Ball:** Hey, we could look at npm downloads; that might give us an alternative measure... And pretty much every other measure besides GitHub stars, React is still worlds ahead of everything...
 
 **Chad Hietala:** Right, right.
 

@@ -190,7 +190,7 @@ Vue 3 is pretty much in beta, so you can actually work on it now. It's not behin
 
 **Nick Nisi:** Yeah, parts of the package.json and the author of it updated the code, so that it could be natively pulled in with ES modules, so you could just import is-promise without having to have the whole transpiler, or -- I can't remember the term for it, but... Being able to pull the CJS module and use it as if it were an ES module.
 
-So he updated that, and there's just a lot of metadata issues that went wrong with that, just because the project had an npmignore, so he assumed that it wouldn't have a files array in package.json... I won't go through all of the changes. You can read the post-mortem for that. But there's just a lot of metadata that I don't know about since the last time I published something on Npm. So it' something to look out for if you're going to be doing that soon.
+So he updated that, and there's just a lot of metadata issues that went wrong with that, just because the project had an npmignore, so he assumed that it wouldn't have a files array in package.json... I won't go through all of the changes. You can read the post-mortem for that. But there's just a lot of metadata that I don't know about since the last time I published something on npm. So it' something to look out for if you're going to be doing that soon.
 
 **Christopher Hiller:** Nick, I wanted to -- people might not understand why is is-promise even a thing... So why do we need is-promise?
 
@@ -226,7 +226,7 @@ So that's why you need something like is-promise, because you need to be able to
 
 **Jerod Santo:** Right. But what if the blog post author also wrote the test suite? It's like "This is actually correct. This is the way you do it."
 
-**Christopher Hiller:** \[laughs\] Yes, you could post the code, and you could post all the tests in a blog post, and then you could go around copy and pasting that. Or you could download that package from Npm, if it was published there.
+**Christopher Hiller:** \[laughs\] Yes, you could post the code, and you could post all the tests in a blog post, and then you could go around copy and pasting that. Or you could download that package from npm, if it was published there.
 
 **Jerod Santo:** For a while, until something goes wrong with that package... So it's a trade-off.
 
@@ -238,7 +238,7 @@ So that's why you need something like is-promise, because you need to be able to
 
 **Jerod Santo:** Right. Or they'll take your site down. Your build at least will break, or whatever happens... So that was just a few hours... So what happened, Nick?
 
-**Nick Nisi:** Yeah, it was a total of three hours. It was pretty quickly resolved through removing versions from Npm that were published, that were bad, and replacing them with newer versions... And I think it fully incremented to a new major version because of it, as it probably should have been.
+**Nick Nisi:** Yeah, it was a total of three hours. It was pretty quickly resolved through removing versions from npm that were published, that were bad, and replacing them with newer versions... And I think it fully incremented to a new major version because of it, as it probably should have been.
 
 So yeah, it was only three hours, on a Saturday, so probably not a huge disruption anywhere... But still, something to think about. And now I will just ask for your support, as I go pitch my first TC39 proposal of a \[unintelligible 00:22:39.06\] I mean, it would be nice, but...
 

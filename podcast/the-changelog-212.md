@@ -206,7 +206,7 @@ We're gonna talk about what it measures, how it measures it, and get into some o
 
 **Break:** \[21:29\]
 
-**Adam Stacoviak:** Alright, we're back with Peter Hedenskog, and we're talking about performance, because who doesn't love performance? Peter, it had come to me that it would make sense to have something like this as a web service versus some sort of NPM module you can install, which is great, we love that version. And I'm just thinking, why not make this a web service, why not give the people out there, since it's so important to you, the choice to say "Okay, here's four or five pages that are really important to me. Let's track those pages' performance, and if they're not performing well, alert me."
+**Adam Stacoviak:** Alright, we're back with Peter Hedenskog, and we're talking about performance, because who doesn't love performance? Peter, it had come to me that it would make sense to have something like this as a web service versus some sort of npm module you can install, which is great, we love that version. And I'm just thinking, why not make this a web service, why not give the people out there, since it's so important to you, the choice to say "Okay, here's four or five pages that are really important to me. Let's track those pages' performance, and if they're not performing well, alert me."
 
 I guess, take us to the idea of this SiteSpeed and where it's at, and why it's not a service like that?
 
@@ -242,9 +242,9 @@ So the thing we wanted to do is to split it into multiple different tools instea
 
 \[28:06\] The coach knows a lot of things. The coach is like the new YSlow, but the coach will never give you false advice. The coach will say, "Oh, I see something that's fishy here. Maybe you should look into it", so you're still in the driving seat to make sure that it's okay. With YSlow it was rules, and rules are often made to be broken, right? You cannot find rules that are perfect, because you have desktop, and you have mobile phones, and you have small connections and fast connections and so on. But the coach knows all about that. The coach is more a tool to give you advice, so we are removing YSlow and using the coach instead. That's kind of cool, I think...
 
-**Jerod Santo:** So the coach is a project that you all started for this version, 4.0. But like you said, these are all modules, so is this just a separate NPM package, or is this a browser plugin? How do you use the coach by itself if you wanted to?
+**Jerod Santo:** So the coach is a project that you all started for this version, 4.0. But like you said, these are all modules, so is this just a separate npm package, or is this a browser plugin? How do you use the coach by itself if you wanted to?
 
-**Peter Hedenskog:** Yeah, it's an NPM package, and it's also a browser plugin in Chrome that you can use. What it does is it executes some JavaScript inside the browser - check and collect metrics and see how the site or the page is built. Then it uses a HAR file, a file that describes how different assets are loaded in the browser, and different timings, analyze that and give back some feedback to the user.
+**Peter Hedenskog:** Yeah, it's an npm package, and it's also a browser plugin in Chrome that you can use. What it does is it executes some JavaScript inside the browser - check and collect metrics and see how the site or the page is built. Then it uses a HAR file, a file that describes how different assets are loaded in the browser, and different timings, analyze that and give back some feedback to the user.
 
 **Jerod Santo:** Okay... Go on, what other modules or what other sections are there for the new version?
 
@@ -272,7 +272,7 @@ Then on top of that is SiteSpeed. In SiteSpeed you have the crawler, you can sen
 
 **Jerod Santo:** Yeah.
 
-**Peter Hedenskog:** WebPagetest.org is built by Pat, a super great guy that now work on Google, but he started the project when he was working at AOL. That tool is amazing, it's really good; it's open source, it runs on Windows. WebPagetest is a service, so you use it online. Then there's build tools upon it that you can use; you can have an NPM module that collects the data... But SiteSpeed actually also uses WebPagetest, so you can run WebPagetest with SiteSpeed, and SiteSpeed drives WebPagetest, collects the metrics from WebPatetest and then dumps the data to Graphite or whatever you want. Or on the tests in your continuous integration.
+**Peter Hedenskog:** WebPagetest.org is built by Pat, a super great guy that now work on Google, but he started the project when he was working at AOL. That tool is amazing, it's really good; it's open source, it runs on Windows. WebPagetest is a service, so you use it online. Then there's build tools upon it that you can use; you can have an npm module that collects the data... But SiteSpeed actually also uses WebPagetest, so you can run WebPagetest with SiteSpeed, and SiteSpeed drives WebPagetest, collects the metrics from WebPatetest and then dumps the data to Graphite or whatever you want. Or on the tests in your continuous integration.
 
 I forget to mention that - SiteSpeed also wraps WebPagetest. So if you are having WebPagetest instances, you can drive it with SiteSpeed.io to collect the metrics. Because what's cool about WebPagetest is that you can also collect metrics from reading mobile phones. You can do that in SiteSpeed 4.0 also, but only on Android phones. With WebPagetest you can drive it on iPhone, so that's really cool, to collect metrics on real phones.
 

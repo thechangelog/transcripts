@@ -338,7 +338,7 @@ I think that it makes sense for them to be replicating the primitives of every o
 
 **Shawn Wang:** You're just adding another vendor in your dependency tree. I think for anyone running silicon bandwidth, it is a no-brainer.
 
-**Jerod Santo:** Yeah. So over the course of n months, where n equals when they launch plus a certain number - I mean, I think this is gonna end up eventually on Amazon's radar, to where it's gonna start affecting some bottom lines that important people are gonna notice. So I just wonder - I mean, how much territory can Cloudflare grab before there's a counter-move? It's gonna be interesting to watch.
+**Jerod Santo:** Yeah. So over the course of N months, where N equals when they launch plus a certain number - I mean, I think this is gonna end up eventually on Amazon's radar, to where it's gonna start affecting some bottom lines that important people are gonna notice. So I just wonder - I mean, how much territory can Cloudflare grab before there's a counter-move? It's gonna be interesting to watch.
 
 **Shawn Wang:** \[52:12\] So Ben from Vantage actually did a cost analysis... Vantage is a startup that is made up of former AWS Console people; they're trying to build a better developer experience on top of AWS. They actually did a cost analysis on the R2 move, and they said that there's probably a hundred billion dollars' worth of revenue at stake for Amazon. So if they start to have a significant dent in that, let's say like 40%, AWS will probably have to respond. But until then, there's nothing to worry about. That's literally how it is in Amazon; you have to see the numbers hit before you respond.
 

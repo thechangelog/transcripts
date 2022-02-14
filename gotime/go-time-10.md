@@ -36,7 +36,7 @@
 
 **Brian Ketelsen:** No, I put my real name in, but I did mention that dependency management was a pain point that we need to resolve as a community immediately.
 
-**Ed Muller:** Yeah, we do. So I maintain the Go Buildpack at Heroku and I have the wonderful honor of having to implement all sorts of different detections based on whether people are using things like GB or Glide or Govendor or Godeps, and that also excludes things like GVT and all sorts of other stuff... Where the other buildpacks are just like, "Hey, you're a Node, use NPM. You're on Ruby, use Bundler etc."
+**Ed Muller:** Yeah, we do. So I maintain the Go Buildpack at Heroku and I have the wonderful honor of having to implement all sorts of different detections based on whether people are using things like GB or Glide or Govendor or Godeps, and that also excludes things like GVT and all sorts of other stuff... Where the other buildpacks are just like, "Hey, you're a Node, use npm. You're on Ruby, use Bundler etc."
 
 **Brian Ketelsen:** That's gotta be a lot of fun.
 
@@ -134,7 +134,7 @@ So there's not a lot of people - although it is gaining traction recently - for 
 
 **Erik St. Martin:** Yeah, I'm not too familiar with the Node ecosystem. Is it typical for the way they package their stuff to not check in vendor?
 
-**Ed Muller:** That's my understanding. You run an NPM install... Again, my knowledge of Node itself is probably about your level as well.
+**Ed Muller:** That's my understanding. You run an npm install... Again, my knowledge of Node itself is probably about your level as well.
 
 **Erik St. Martin:** So in this whole left-pad thing - it probably helped with the check-in vendor thing.
 

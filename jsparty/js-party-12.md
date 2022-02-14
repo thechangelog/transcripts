@@ -312,9 +312,9 @@ MongoDB has like a new DB Admin thing that's like a desktop app with Electron. V
 
 **Rachel White:** Yeah. I mean, I'm super comfortable with Node too, and Electron has always been something that I have known existed as a thing, but is there anything extra that people that already know how to build web applications with Node would need to know in order to get up and running with Electron? Or does Electron kind of just wrap around all that stuff?
 
-**Mikeal Rogers:** It wraps around all of it, but also... I don't think that we can underestimate how much stuff there is in NPM right now, like how many modules. And to make a lot of web apps work, a ton of what you do is that you build these backend services that just talk to something that has less security around it and more of the Node ecosystem, and then you push that to the browser in some way.
+**Mikeal Rogers:** It wraps around all of it, but also... I don't think that we can underestimate how much stuff there is in npm right now, like how many modules. And to make a lot of web apps work, a ton of what you do is that you build these backend services that just talk to something that has less security around it and more of the Node ecosystem, and then you push that to the browser in some way.
 
-I've seen a lot of people just get up and running so quickly on their ideas because they can just store directly on the file system and access every module in NPM and then put a web front-end on it and not have to spin up a back-end service, not have to deal with a front-end and a back-end, where they just kind of have it all mashed together in this environment in Electron.
+I've seen a lot of people just get up and running so quickly on their ideas because they can just store directly on the file system and access every module in npm and then put a web front-end on it and not have to spin up a back-end service, not have to deal with a front-end and a back-end, where they just kind of have it all mashed together in this environment in Electron.
 
 **Rachel White:** Alex...
 

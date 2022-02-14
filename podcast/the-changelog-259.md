@@ -230,7 +230,7 @@ There was a couple of stuff more recently... I released Giddy, which is a comman
 
 **Safia Abdalla:** Yes.
 
-**Jerod Santo:** So you do some Python, you do some JavaScript... All these tools that are NPM-installable things.
+**Jerod Santo:** So you do some Python, you do some JavaScript... All these tools that are npm-installable things.
 
 **Safia Abdalla:** Yeah.
 
@@ -268,7 +268,7 @@ There was a couple of stuff more recently... I released Giddy, which is a comman
 
 **Safia Abdalla:** The JavaScript show.
 
-**Jerod Santo:** They are the JavaScript show. I mean, if you're a command line junkie or in the JavaScript or NPM communities and you're on Twitter, you've seen Captain Safia retweeted around with some new awesome CLI tool. I've seen this so many times recently that I told you, I'm getting fear of inadequacy. So you're part of the show -- I mean, maybe you ever are the show at this point...
+**Jerod Santo:** They are the JavaScript show. I mean, if you're a command line junkie or in the JavaScript or npm communities and you're on Twitter, you've seen Captain Safia retweeted around with some new awesome CLI tool. I've seen this so many times recently that I told you, I'm getting fear of inadequacy. So you're part of the show -- I mean, maybe you ever are the show at this point...
 
 **Safia Abdalla:** Oh, boy...
 
@@ -362,7 +362,7 @@ I talked a little bit about what that means for us to exist in a society that gl
 
 **Adam Stacoviak:** That's a good comparison, to the nutrition facts... Like, "This is what's in your food. Eat it, or do not eat it."
 
-**Jerod Santo:** It's like, "Do you know how many NPM modules are in this stuff? I'm not using that!" \[laughter\]
+**Jerod Santo:** It's like, "Do you know how many npm modules are in this stuff? I'm not using that!" \[laughter\]
 
 **Adam Stacoviak:** That's a good one, man. That's a good one.
 

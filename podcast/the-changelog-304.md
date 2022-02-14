@@ -579,7 +579,7 @@ I talk to people, my friends that are our age, who worry about data privacy, the
 
 **Steve Guggenheimer:** Definitely sharing, in particular on the ethics in the AI conversation. Look, sort of like this podcast, there's very few forums you go to where you don't get some combination of the -- you know, if it's all developers, you get more depth on the technical side, but you do get these sort of social conscience type questions... So trying to have that conversation in a vacuum isn't too useful, so we do talk with the Facebooks of the world, we talk with Amazon... I get a lot of interesting questions from other large corporations and we connect them with the folks in our company who are sort of leading that dialogue on behalf of Microsoft.
 
-What you wanna try and do is have an industry conversation. It doesn't mean everybody agrees with the approach, but this notion of "What are the ethics of AI? What are the seven principles we have? What are the n number of principles a different company has? How do we have a unified conversation? How do we have a conversation across borders, across countries?"
+What you wanna try and do is have an industry conversation. It doesn't mean everybody agrees with the approach, but this notion of "What are the ethics of AI? What are the seven principles we have? What are the N number of principles a different company has? How do we have a unified conversation? How do we have a conversation across borders, across countries?"
 
 **Adam Stacoviak:** Can you say again about the seven principles, what book is that from? You put out a manifesto, right?
 

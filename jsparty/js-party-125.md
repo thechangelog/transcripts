@@ -158,7 +158,7 @@ I just feel like we want people to know this stuff, but if they don't, this is a
 
 Most of our teams are fast-moving, so trying to focus on all this nitty-gritty sometimes can be time-consuming, and that's why it's always a good idea to leverage someone else's work, someone who has thought about all those fundamentals and accessibility details and the styling details of a component... And literally just make your life easier in general.
 
-**Feross Aboukhadijeh:** \[32:16\] My tendency when I'm working on projects is typically -- if I look at a library or I look at a component, a package on Npm and I notice even one or two minor things about it that I don't like, I tend to say "Okay, I can clearly do better than this", and I'll go and reinvent it... Because part of it is it's a good learning exercise, it's fun. I enjoy knowing how stuff works at a lower level...
+**Feross Aboukhadijeh:** \[32:16\] My tendency when I'm working on projects is typically -- if I look at a library or I look at a component, a package on npm and I notice even one or two minor things about it that I don't like, I tend to say "Okay, I can clearly do better than this", and I'll go and reinvent it... Because part of it is it's a good learning exercise, it's fun. I enjoy knowing how stuff works at a lower level...
 
 **Segun Adebayo:** Cool.
 

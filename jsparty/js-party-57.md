@@ -250,7 +250,7 @@ Yeah, it feels like where there was once a lot of fatigue, there's sort of been 
 
 **Nick Nisi:** Yeah, for sure. I think that that's a great thing, and React is huge, but I think that -- well, maybe it was 2018, but some of the big news is that Vue is really a contender to it, so there's healthy competition there... But you're right, it's not 10,000 frameworks or a new framework every day. It's healthy competition between the big frameworks, and they're all just growing in functionality and ease of use and adoption.
 
-**Kevin Ball:** Npm published some really interesting stuff this year in JavaScript, and one of the things they highlighted was - yeah, React's growth has started to slow down relative to overall ecosystem growth; Angular is still going strong, relatively flat. Vue has been growing strongly. Ember has started to come back, at least number of npm downloads... Which is cool, because they do a lot of really interesting, innovative stuff. The only framework that seems to be continuing to really die away is Backbone.
+**Kevin Ball:** npm published some really interesting stuff this year in JavaScript, and one of the things they highlighted was - yeah, React's growth has started to slow down relative to overall ecosystem growth; Angular is still going strong, relatively flat. Vue has been growing strongly. Ember has started to come back, at least number of npm downloads... Which is cool, because they do a lot of really interesting, innovative stuff. The only framework that seems to be continuing to really die away is Backbone.
 
 **Christopher Hiller:** It's incredible that we're still talking about Backbone.
 

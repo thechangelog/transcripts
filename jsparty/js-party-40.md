@@ -120,7 +120,7 @@ You could have special ways of showing each type of sites; maybe for a Reddit pa
 
 **Kevin Ball:** Mocha and D3. \[laughter\] That's pretty fun. Who wants to tackle that?
 
-**Suz Hinton:** I can try... I think it would be cool if you run an Npm test on your own library, and then that triggers an Npm test on all of your dependencies, and then on its dependencies' dependencies, and then you can actually see how many tests and stuff in D3, I think that would look really cool... To see overall just how much stuff is actually covered.
+**Suz Hinton:** I can try... I think it would be cool if you run an npm test on your own library, and then that triggers an npm test on all of your dependencies, and then on its dependencies' dependencies, and then you can actually see how many tests and stuff in D3, I think that would look really cool... To see overall just how much stuff is actually covered.
 
 **Feross Aboukhadijeh:** Is the idea behind that like if you're about to publish a new version of a package, you can see all the packages that depend on yours, you can run their tests to see if it's gonna break them, and then if so, you have to make it a major version? Is that the idea?
 
@@ -130,7 +130,7 @@ You could have special ways of showing each type of sites; maybe for a Reddit pa
 
 **Suz Hinton:** That's not a bad idea. I was just doing it for art. My stuff never has a purpose... \[laughs\] I just want it to look cool.
 
-**Feross Aboukhadijeh:** Yeah... Because I thought about this - I'm sure there's something in Npm that does it, but it'd be so cool to know... Like, if you're about to make a minor or a patch version, and then you're like "Well, wait a minute... The tests of one of the people depending on this would actually break, so let me go and see exactly what broke, and see if they're using an undocumented thing... Do I actually care that it's breaking? Or is that actually an edge case I didn't about and maybe I should make it a major version..."
+**Feross Aboukhadijeh:** Yeah... Because I thought about this - I'm sure there's something in npm that does it, but it'd be so cool to know... Like, if you're about to make a minor or a patch version, and then you're like "Well, wait a minute... The tests of one of the people depending on this would actually break, so let me go and see exactly what broke, and see if they're using an undocumented thing... Do I actually care that it's breaking? Or is that actually an edge case I didn't about and maybe I should make it a major version..."
 
 **Suz Hinton:** I know that Node does that. Node has that list of packages, including ones with native modules, and things like that, and I sort of have that test suite... So you're saying being able to have one for your individual library?
 
@@ -146,7 +146,7 @@ You could have special ways of showing each type of sites; maybe for a Reddit pa
 
 **Suz Hinton:** Yeah.
 
-**Kevin Ball:** Npm has started doing some of that tree stuff for security, though it's going the other way; it's saying "What do I depend on?" and traversing down each of those packages and understanding "Are there security vulnerabilities?" and things like that. This would be kind of inverting that and saying "Everything that depends on my library - let's go and run all their tests with this..." You'd need a massive server farm, essentially... Like, kick everything off; okay, go run an AWS for three hours, come back and show me pretty graphs.
+**Kevin Ball:** npm has started doing some of that tree stuff for security, though it's going the other way; it's saying "What do I depend on?" and traversing down each of those packages and understanding "Are there security vulnerabilities?" and things like that. This would be kind of inverting that and saying "Everything that depends on my library - let's go and run all their tests with this..." You'd need a massive server farm, essentially... Like, kick everything off; okay, go run an AWS for three hours, come back and show me pretty graphs.
 
 Any other JavaScript libraries you wanna -- I wanna throw one out... We talked about this once on an episode and I just wanna pit you two off on combining WebUSB with WebTorrents, because I think there's some really interesting things we could do there... Particularly getting around the setup problem and how do we make this something that's truly distributed, or other fun stuff. Do you have any ideas?
 

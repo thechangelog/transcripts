@@ -222,7 +222,7 @@ So if you add a new environment variable, for example, because you're introducin
 
 **Vincent Ambo:** I was in a conversation yesterday with a friend of mine who used to be one of the architects at Spotify, a company where I worked back in the day, a long time ago at this point... And I randomly said that I think release schedules should be unpredictable, including to the people that are writing the software. What I mean by this is that you should always submit code to your repository with the notion in the back of your head that this might get released at any moment in time, and doing things like a change that is split up across two different review units, but that changes behavior in between in a way that is breaking is probably something you shouldn't do. And a good way to enforce this sort of things and instill this sort of mindset in people is to make things kind of a little bit unpredictable.
 
-So do regular releases of your services, just as an example, every n hours, where n is a range from, say, 3 to 8, and you don't exactly know -- there's no such thing as a merge window, or a release window.
+So do regular releases of your services, just as an example, every N hours, where N is a range from, say, 3 to 8, and you don't exactly know -- there's no such thing as a merge window, or a release window.
 
 **Gerhard Lazu:** Okay. So that's like a release monkey, right?
 

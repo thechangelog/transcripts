@@ -130,9 +130,9 @@ This one's bad - I don't think too many people are using SHA1. Even if you use H
 
 **Mikeal Rogers:** Yeah. I've actually been using Sodium encryption an signing. I don't know who came up with the standard, but Mathias Buus in the Node community has gotten really into it. There's really good libraries that work both in the browser and in Node, and it's a really good, consistent, easy way to do signing encryption.
 
-**Rachel White:** The stuff that I've seen from previous jobs that I was at where we did a lot of Node stuff was more built into CI tests, so when it would check to make sure all the tests pass, it would also check for known vulnerabilities and maybe certain NPM packages, or the way that code was written. Would that be separate to other things that people would want to integrate into their regular behavior? Or is that just another good level of authentication?
+**Rachel White:** The stuff that I've seen from previous jobs that I was at where we did a lot of Node stuff was more built into CI tests, so when it would check to make sure all the tests pass, it would also check for known vulnerabilities and maybe certain npm packages, or the way that code was written. Would that be separate to other things that people would want to integrate into their regular behavior? Or is that just another good level of authentication?
 
-**Mikeal Rogers:** It's a good practice to -- Snyk has a service that you can plug your open source module into (I believe for free), on your GitHub PRs and stuff like that. It will check if you have any vulnerabilities, and there's obviously a proprietary version as well. That looks through your NPM tree and sees if there's any known vulnerabilities, and in fact even offers you ways to patch them and stuff like that, so it's a pretty nice tool.
+**Mikeal Rogers:** It's a good practice to -- Snyk has a service that you can plug your open source module into (I believe for free), on your GitHub PRs and stuff like that. It will check if you have any vulnerabilities, and there's obviously a proprietary version as well. That looks through your npm tree and sees if there's any known vulnerabilities, and in fact even offers you ways to patch them and stuff like that, so it's a pretty nice tool.
 
 But that's really just for known vulnerabilities, things we've already seen out in the wild. It doesn't really protect you against bad practices. Also, you run into this problem... Like Alex was saying, if nobody is using the module, then nobody is probably going to take the time to find these vulnerabilities early on. Using well known, well-trafficked modules will really help, as well.
 
@@ -286,7 +286,7 @@ But with a serial port, you're talking to the hardware there. It is asynchronous
 
 **Alex Sexton:** Yeah, I made a mistake then.
 
-**Rachel White:** For anyone that's wondering, Isaac from NPM - if you ever see them, talk to them about how much they love raccoons. \[laughter\]
+**Rachel White:** For anyone that's wondering, Isaac from npm - if you ever see them, talk to them about how much they love raccoons. \[laughter\]
 
 **Alex Sexton:** They don't.
 

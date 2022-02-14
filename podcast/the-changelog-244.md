@@ -260,11 +260,11 @@ Tell us about the CLI landscape in JavaScript nowadays, and why it's so awesome.
 
 **Tracy Lee:** Yeah... \[laughter\] I would say probably somewhere around 95% (if not more) Ember apps are built with EmberCLI. So they are very focused on the convention of a configuration thing, and that means that -- like, there's so much thought around it... The way you deploy your apps - there's an addon for that; how you generate anything - there is a very set, prescribed way to do almost everything in Ember. Because of that, the CLI has more ability for you to generate different things. You can generate routes, components you can generate in both EmberCLI and AngularCLI.
 
-But if you just NPM install EmberCLI and then you just say... I think it's Ember--help, you can see all the different commands that you can actually use, and everything is pretty well documented. So AngularCLI came about a year ago, and it was originally built on top of EmberCLI, so it was actually an addon based on -- AngularCLI was an addon of EmberCLI, and last year they made their own changes and made up their own changing things from using Broccoli to Webpack etc., and making it for the Angular community.
+But if you just npm install EmberCLI and then you just say... I think it's Ember--help, you can see all the different commands that you can actually use, and everything is pretty well documented. So AngularCLI came about a year ago, and it was originally built on top of EmberCLI, so it was actually an addon based on -- AngularCLI was an addon of EmberCLI, and last year they made their own changes and made up their own changing things from using Broccoli to Webpack etc., and making it for the Angular community.
 
 \[40:04\] There's a lot of features that AngularCLI is still trying to do... I think they're in RC -- I don't remember which RC they are right now, but it's... Or no, sorry, they're in beta right now... I think it's like beta 1 or 2 for AngularCLI. But it's good enough; you can generate models and services and components, and different things like that in AngularCLI, and it does a lot more configuration than it did last year for you. Last year you were still adding things to your module file, and the imports, and doing a little bit of configuration; now it's very much like the EmberCLI experience.
 
-Then that as well - all you have to do is NPM install and then it just spins up an app for you. Same thing with Create React App. I think the most important thing for this is that Create React App sets up your development server, and you can just get started.
+Then that as well - all you have to do is npm install and then it just spins up an app for you. Same thing with Create React App. I think the most important thing for this is that Create React App sets up your development server, and you can just get started.
 
 **Jerod Santo:** Right, it's all the tedious, tricky parts that you get stuck on.
 
@@ -433,7 +433,7 @@ I was able to do that in two hours, so you know... That's what the cruise is gon
 
 **Jerod Santo:** That's chump change.
 
-**Tracy Lee:** I mean, okay... Before it used to be like $100/day, if not more. But now you get like $16/day unlimited internet, and it's fast enough to NPM install, so...
+**Tracy Lee:** I mean, okay... Before it used to be like $100/day, if not more. But now you get like $16/day unlimited internet, and it's fast enough to npm install, so...
 
 **Jerod Santo:** It's gotta be satellite though, isn't it? They don't have wires, or cell towers...
 

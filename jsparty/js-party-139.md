@@ -60,7 +60,7 @@ The second point is the single thread thing. With Node.js at least there is one 
 
 **Jerod Santo:** To semicolon or not to semicolon is definitely a thing, right?
 
-**Amal Hussein:** Oh, for sure. That's a thing, yeah. I was at Npm and we use standard at Npm, and it was the first time I've had to write code without semicolons, and it was a big adjustment... Especially because I'm very familiar with the traps of ASI (automatic semicolon insertion), so I was always just like "Am I gonna take down the registry? Am I gonna break all the builds?" \[laughs\]
+**Amal Hussein:** Oh, for sure. That's a thing, yeah. I was at npm and we use standard at npm, and it was the first time I've had to write code without semicolons, and it was a big adjustment... Especially because I'm very familiar with the traps of ASI (automatic semicolon insertion), so I was always just like "Am I gonna take down the registry? Am I gonna break all the builds?" \[laughs\]
 
 **Jerod Santo:** Valid concerns.
 
@@ -142,7 +142,7 @@ The reason, by the way, that I believe that MVC is under-structured and not powe
 
 **Jerod Santo:** Model, yeah.
 
-**Yoni Goldberg:** Yeah, everything is a model. MVC never meant to answer this question. N-tier is a great medium between having something -- make a great separation between the API, the entry point... Let me emphasize about what is n-tiers. N-tier architecture simply means that you have layers. In plan JavaScript, in Node.js, a layer is just a folder. And then as you request - think about some API request flying in - it just goes through, for example, three different layers. The first one is the entry point, like the API. So you have one folder with only API-related code. Only \[unintelligible 00:23:42.04\] related to receiving the request.
+**Yoni Goldberg:** Yeah, everything is a model. MVC never meant to answer this question. N-tier is a great medium between having something -- make a great separation between the API, the entry point... Let me emphasize about what is N-tiers. N-tier architecture simply means that you have layers. In plan JavaScript, in Node.js, a layer is just a folder. And then as you request - think about some API request flying in - it just goes through, for example, three different layers. The first one is the entry point, like the API. So you have one folder with only API-related code. Only \[unintelligible 00:23:42.04\] related to receiving the request.
 
 Then your second layer is the business logic, or the domain. This is where you apply custom data change, logic, orchestrating if you need to call other services... Everything that is - as the name says - the business logic of your application.
 
@@ -166,7 +166,7 @@ And then the third folder, the third tier is the data access. If you have an ORM
 
 **Nick Nisi:** Yeah, correct me if I'm wrong, Yony, but I feel like this is kind of the architecture pattern that a Nest.js application would use, if you're familiar with that. That's what I have a lot of experience with lately. Bringing everything up into controllers, then -- or basically the API endpoints, that then talk to services, that have all of the business logic, and then going into (in our case) a type ORM backend to access the data and manipulate that.
 
-**Yoni Goldberg:** Absolutely, yeah. Years later, NestJS did a very similar thing. I think what Nest resembles more than anything else kind of n-tiers approach.
+**Yoni Goldberg:** Absolutely, yeah. Years later, NestJS did a very similar thing. I think what Nest resembles more than anything else kind of N-tiers approach.
 
 **Jerod Santo:** Interesting.
 
@@ -176,7 +176,7 @@ And then the third folder, the third tier is the data access. If you have an ORM
 
 **Amal Hussein:** Yeah, skinny controllers, fat models.
 
-**Jerod Santo:** Yeah. Because everything was shoved into the controllers, and it's like "Well, you should shove it into the models." Well, then we ended up with these really fat models... And I never at a personal level felt the pain, but I saw the pain in so many Rails projects, where it just became unwieldy, and I think it was because there were just not enough buckets laid out, even though \*spoiler alert\* you can create your own buckets. Like you said, this is not about that... But I haven't done n-tiers, so I'm very interested in checking out what Nest is up to.
+**Jerod Santo:** Yeah. Because everything was shoved into the controllers, and it's like "Well, you should shove it into the models." Well, then we ended up with these really fat models... And I never at a personal level felt the pain, but I saw the pain in so many Rails projects, where it just became unwieldy, and I think it was because there were just not enough buckets laid out, even though \*spoiler alert\* you can create your own buckets. Like you said, this is not about that... But I haven't done N-tiers, so I'm very interested in checking out what Nest is up to.
 
 Are there other projects, or open source things, or people using this tiered approach, where you could say "Here's a codebase. Check it out. Here's what it looks like"?
 
@@ -208,9 +208,9 @@ Are there other projects, or open source things, or people using this tiered app
 
 **Jerod Santo:** ...are part of the story.
 
-**Amal Hussein:** Yeah, part of the story was a suggestion, first try. So I'm just curious -- a lot of our listeners work on frontend applications, as well as backend... But for folks that are working on progressively thicker clients - is there an n-tiers mirror model for browser code that's written in JavaScript or TypeScript?
+**Amal Hussein:** Yeah, part of the story was a suggestion, first try. So I'm just curious -- a lot of our listeners work on frontend applications, as well as backend... But for folks that are working on progressively thicker clients - is there an N-tiers mirror model for browser code that's written in JavaScript or TypeScript?
 
-**Yoni Goldberg:** Well, I guess you can structure your -- it makes sense for everything. I guess you can structure your frontend calls with n-tiers, because also in frontends there are multiple big concerns, which are good candidates for partitioning the frontend. But as we all saw the movement in the frontend world, the state thing gets most of the attention
+**Yoni Goldberg:** Well, I guess you can structure your -- it makes sense for everything. I guess you can structure your frontend calls with N-tiers, because also in frontends there are multiple big concerns, which are good candidates for partitioning the frontend. But as we all saw the movement in the frontend world, the state thing gets most of the attention
 
 **Jerod Santo:** Right.
 
@@ -312,7 +312,7 @@ Personally, I'm embracing that model. I just realized I -- I'm in a principal so
 
 **Jerod Santo:** Okay, let's turn our focus over to security, because there's so much to say here... And this is a place where many of us know a thing or two, but not everything. And even if we think that we have a good grasp, there's so many ways you can shoot yourself in the foot and accidentally write insecure code, or deploy things in an insecure way... And surely, there's lots of best practices around that. You have a whole section in the repo on security best practices, so let's pick a few and talk through them, Yoni. What are some globalized best -- like, everyone should know about these, don't do this/do this kind of security practices?
 
-**Yoni Goldberg:** Yeah. Well, I tried to pick some interesting security practices that kind of reflect on the complexity of configuring our application security. The first one is that you should hopefully inspect for outdated packages. But the important question is how soon should you update your packages? Because one common sense believes that "Yeah, we should always update as fast as possible. We want to get the latest and greatest, as soon as they become available..." But what we have seen in the industry in the past two years, at least, is that most of the security breaches, the hilarious Npm security breaches were discovered by the community in -- I tried to calculate this; it was around maybe 30 days. So if someone waits, before updating, 30 or 40 days, you're greatly decreasing the chances of being affected by some new security breach in Npm. I'm not sure if you're familiar with the infamous EventStream incident...
+**Yoni Goldberg:** Yeah. Well, I tried to pick some interesting security practices that kind of reflect on the complexity of configuring our application security. The first one is that you should hopefully inspect for outdated packages. But the important question is how soon should you update your packages? Because one common sense believes that "Yeah, we should always update as fast as possible. We want to get the latest and greatest, as soon as they become available..." But what we have seen in the industry in the past two years, at least, is that most of the security breaches, the hilarious npm security breaches were discovered by the community in -- I tried to calculate this; it was around maybe 30 days. So if someone waits, before updating, 30 or 40 days, you're greatly decreasing the chances of being affected by some new security breach in npm. I'm not sure if you're familiar with the infamous EventStream incident...
 
 **Jerod Santo:** Yes, we are...
 
@@ -328,15 +328,15 @@ Personally, I'm embracing that model. I just realized I -- I'm in a principal so
 
 **Jerod Santo:** Okay.
 
-**Amal Hussein:** ...one of my really good friends, who was the former CTO of Npm while I was there, literally were making fun of Dependabot yesterday. We were saying "If you're not updating your repo six times a day via Dependabot, can you really call yourself a developer?"
+**Amal Hussein:** ...one of my really good friends, who was the former CTO of npm while I was there, literally were making fun of Dependabot yesterday. We were saying "If you're not updating your repo six times a day via Dependabot, can you really call yourself a developer?"
 
 **Jerod Santo:** \[laughs\]
 
-**Amal Hussein:** And while I was at Npm, one of the things I worked on was updating the Unpublish package feature... So we actually gave a little more autonomy to users; we can link to the blog post on that as well. So now you can unpublish packages with a little bit more of a grace period and more leeway, if you meet certain criteria. So we just kind of took a first step at widening that.
+**Amal Hussein:** And while I was at npm, one of the things I worked on was updating the Unpublish package feature... So we actually gave a little more autonomy to users; we can link to the blog post on that as well. So now you can unpublish packages with a little bit more of a grace period and more leeway, if you meet certain criteria. So we just kind of took a first step at widening that.
 
-It was a lot of headache to get that feature out. It's a very sensitive topic. Once you publish something, in theory, the Npm registry is this immutable thing. I consider it to be immutable. In fact, Isaac, who was the creator of \[unintelligible 00:53:35.21\] he said that he regrets adding the Unpublish feature into the API, because it takes away from the immutability... And while I was at Npm, there was tons of security packages that got removed from the registry; if it's something malicious, we remove it, and it's gone, regardless of who was downloading it or not.
+It was a lot of headache to get that feature out. It's a very sensitive topic. Once you publish something, in theory, the npm registry is this immutable thing. I consider it to be immutable. In fact, Isaac, who was the creator of \[unintelligible 00:53:35.21\] he said that he regrets adding the Unpublish feature into the API, because it takes away from the immutability... And while I was at npm, there was tons of security packages that got removed from the registry; if it's something malicious, we remove it, and it's gone, regardless of who was downloading it or not.
 
-So I am very much in the favor of being one major release behind for everything. I just think living on the edge - there's just too much churn, the bigger your engineering team. The more you have at stake -- so for me, that's the rule that I use. I like being one major version behind. That gives enough -- especially with the Npm ecosystem, there's enough dependencies on the dependencies; your dependencies have dependencies, and peer dependencies... There's just too much interlocking, and the more time you wait, the more everything is gonna just work together, in a seamless way... Versus upgrading your WebPack, and then all of a sudden, Babel still hasn't caught up, or they're still fixing bugs... Why take that cost?
+So I am very much in the favor of being one major release behind for everything. I just think living on the edge - there's just too much churn, the bigger your engineering team. The more you have at stake -- so for me, that's the rule that I use. I like being one major version behind. That gives enough -- especially with the npm ecosystem, there's enough dependencies on the dependencies; your dependencies have dependencies, and peer dependencies... There's just too much interlocking, and the more time you wait, the more everything is gonna just work together, in a seamless way... Versus upgrading your WebPack, and then all of a sudden, Babel still hasn't caught up, or they're still fixing bugs... Why take that cost?
 
 I think our obsession with new is something that we need to acknowledge as a problem and actively curb in our community. It's just unhealthy... And it promotes unsafe code practices as well, like Yoni just highlighted with \[unintelligible 00:55:07.03\]
 
@@ -400,7 +400,7 @@ I would also mention the move to GraphQL as a very popular transport... It's all
 
 **Amal Hussein:** The hardening of schemas and built-in validation, yeah. I agree. I feel like for me, the industry here being library authors and ORM developers and/or the services world - we're heading into stronger defaults, better defaults out of the box. So give power users flexibility, but also give novices less of a chance to shoot themselves in the foot. So yeah, it seems like we're heading in the right direction.
 
-**Jerod Santo:** I think another way that we could move there together, faster, better, stronger, is to collaborate more. One of the things that I see inside our ecosystem is this ethos of like the indie dev with 1,000 Npm packages. Like, one person, many packages. And that's amazing, and those people are amazing. But what can be more secure and maintained and sustainable is many devs working together on less packages... Because now we're bringing our collective knowledge.
+**Jerod Santo:** I think another way that we could move there together, faster, better, stronger, is to collaborate more. One of the things that I see inside our ecosystem is this ethos of like the indie dev with 1,000 npm packages. Like, one person, many packages. And that's amazing, and those people are amazing. But what can be more secure and maintained and sustainable is many devs working together on less packages... Because now we're bringing our collective knowledge.
 
 And even inside the security research field, there are verticals inside of information security. There's people with this particular niche expertise, and they can bring a different eye on a security question than somebody else; somebody who understand cryptography inside and out, versus somebody who understands databases inside and out, and all the ways that a database can be compromised.
 

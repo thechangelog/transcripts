@@ -4,7 +4,7 @@
 
 **Alex Sexton:** And I'm Alex Sexton.
 
-**Mikeal Rogers:** And on the show today we also have Kat Marchán and Rebecca Turner from NPM... Why don't you all say hi?
+**Mikeal Rogers:** And on the show today we also have Kat Marchán and Rebecca Turner from npm... Why don't you all say hi?
 
 **Kat Marchán:** Hi!
 
@@ -108,9 +108,9 @@ Another aspect of npm@5 is that it is probably our most significant step in a wh
 
 \[12:24\] All the work that you don't have to change, you won't have to rewrite. We have several new packages that are meant to be used by the community more generally.
 
-We're talking about "How the heck will you yank out parts of the installer so that people can make decisions about how they install the tree?" A really good example of things that npm isn't gonna sacrifice is npm has a very -- I guess we're sacrificing it maybe in like some distant future, but right now it is a very core tenet at npm that we do not do dependency hell. Npm is the package manager you use when you never, ever want to run into dependency hell. That's why we did the peer dependencies change.
+We're talking about "How the heck will you yank out parts of the installer so that people can make decisions about how they install the tree?" A really good example of things that npm isn't gonna sacrifice is npm has a very -- I guess we're sacrificing it maybe in like some distant future, but right now it is a very core tenet at npm that we do not do dependency hell. npm is the package manager you use when you never, ever want to run into dependency hell. That's why we did the peer dependencies change.
 
-For those unfamiliar, dependency hell is when you have two packages have dependency on two incompatible versions of the same other package. There's two ways to resolve that diamond. Either you install both versions of the package in nested dependencies, which is what npm does, or you have some kind of conflict resolution mechanism where you can tell one package to use the wrong dependency; wrong according to semver. So you will introduce a thing here where you're forced to choose what to break and how, and hope that it works. Npm will probably refuse to do that for the foreseeable future.
+For those unfamiliar, dependency hell is when you have two packages have dependency on two incompatible versions of the same other package. There's two ways to resolve that diamond. Either you install both versions of the package in nested dependencies, which is what npm does, or you have some kind of conflict resolution mechanism where you can tell one package to use the wrong dependency; wrong according to semver. So you will introduce a thing here where you're forced to choose what to break and how, and hope that it works. npm will probably refuse to do that for the foreseeable future.
 
 It's why we never integrated any kind of flat install like Bower would do. We're just not gonna do that. I don't see us doing that.
 
@@ -146,7 +146,7 @@ It's why we never integrated any kind of flat install like Bower would do. We're
 
 **Kat Marchán:** And building. You can build Git deps now. If you have a prepare script and you npm a Git dependency, we will install as step dependencies and run the install script to pretend that you're -- you know, basically simulate publishing to a registry.
 
-**Alex Sexton:** I see. You're cannibalizing Npm Enterprise.
+**Alex Sexton:** I see. You're cannibalizing npm Enterprise.
 
 **Kat Marchán:** Sure, why not!? \[laughter\]
 
@@ -162,13 +162,13 @@ It's why we never integrated any kind of flat install like Bower would do. We're
 
 **Mikeal Rogers:** I wanna go at a little bit higher level... We talked earlier on this podcast about yarn a little bit... For people that don't know, yarn is an npm alternative client that pulls from the npm registry, but it sort of touts two main features: one was performance and one was defaulting this lockfile. Given that you've done a bunch of performance and lockfile work, I wonder if you can kind of compare npm@5 to yarn in terms of those two features.
 
-**Rebecca Turner:** Npm always had a lockfile, of course, in the form of a shrinkwrap, so we didn't feel like we should reinvent the wheel there... We just reused that for the new npm@5 package lock. The main difference between yarn's lockfile and the package lock is -- yarn's lockfile, what it stores in it is the relationships between all the modules, but it doesn't say anything about how these are installed onto disk.
+**Rebecca Turner:** npm always had a lockfile, of course, in the form of a shrinkwrap, so we didn't feel like we should reinvent the wheel there... We just reused that for the new npm@5 package lock. The main difference between yarn's lockfile and the package lock is -- yarn's lockfile, what it stores in it is the relationships between all the modules, but it doesn't say anything about how these are installed onto disk.
 
 The npm lockfile stores exactly how your Node modules should look when it's done. The npm lockfile guarantees that you will have exactly the same shape of Node modules, as well as the same content, regardless of what you're using to install it.
 
 **Alex Sexton:** I've seen Kat talk about that a little bit. You mentioned that became obvious to you all that it was important to maintain that directory structure... What have you seen people do? What is the reason that is important?
 
-**Kat Marchán:** I think every single person who's ever run CI that runs on Node 4, Node 6 and Node 7 at the same time has run into something at some point where they forget to set up a dependency or something happens with the tree, and suddenly only Node 4 breaks, because Node 4 still defaults to NPM 2, which is before our flattening change. People do the darndest things that rely--
+**Kat Marchán:** I think every single person who's ever run CI that runs on Node 4, Node 6 and Node 7 at the same time has run into something at some point where they forget to set up a dependency or something happens with the tree, and suddenly only Node 4 breaks, because Node 4 still defaults to npm 2, which is before our flattening change. People do the darndest things that rely--
 
 **Alex Sexton:** \[20:07\] So they're grabbing into the Node modules folder directly, you mean... With the fs.read...
 
@@ -182,7 +182,7 @@ The npm lockfile stores exactly how your Node modules should look when it's done
 
 **Mikeal Rogers:** No, it's really not recommended...
 
-**Alex Sexton:** Nested installation... Npm install that kicks of in npm install...
+**Alex Sexton:** Nested installation... npm install that kicks of in npm install...
 
 **Rebecca Turner:** Or "Download this tarball and extract it here", and some of that includes Node modules.
 

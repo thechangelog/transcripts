@@ -72,7 +72,7 @@
 
 **Jerod Santo:** Yeah. One of the things we're doing here, actually going on right now as we speak, is gathering examples of people who are doing it right... So as you go around and help other people do maintenance and build communities, what are some exemplars, in your opinion, of projects that you could turn to and say "Do it like these guys and you're gonna do well."
 
-**Richard Littauer:** NPM does a lot of good stuff with their community. They're not perfect, in some ways... The CLI tools are really getting there hard, but their heart is in it, and you can see that, and I love that. Hoodie does it really well; they're all about community, they're all about how to do this. Node is getting there... I've been sitting in on some of the communications committee meetings and they're working really hard to figure that out. NodeTogether was great - that's with Ashley.
+**Richard Littauer:** npm does a lot of good stuff with their community. They're not perfect, in some ways... The CLI tools are really getting there hard, but their heart is in it, and you can see that, and I love that. Hoodie does it really well; they're all about community, they're all about how to do this. Node is getting there... I've been sitting in on some of the communications committee meetings and they're working really hard to figure that out. NodeTogether was great - that's with Ashley.
 
 I'm a big fan of a lot of high-level decisions, like Go's decision to have a formatter, so you just get rid of a lot of the issues that you have in other languages, like \*coughs\* JavaScript... \[laughter\]
 
@@ -90,7 +90,7 @@ Yeah, there's a lot of great projects, a lot of bad ones, but I love it when you
 
 **Richard Littauer:** I would love to talk more about models for actually having people not burn themselves out at night. Like, how can we make it easier for the hobbyist open sourcer to do this and love their work for years. A lot of us are young guys - young women, as well; sorry, I keep using the word 'guys'... Young people, and we're starry-eyed and eager, and I've seen the other side of that as well, and that's hard. So what I really love about this conversation here is that we're talking about sustainability - not just financial models, but also long-term, for the best of the project, for the best of people staying safe...
 
-**Jerod Santo:** One thing I noticed when I asked you for examples, you gave Node, Hoodie and NPM, and these are organizations...
+**Jerod Santo:** One thing I noticed when I asked you for examples, you gave Node, Hoodie and npm, and these are organizations...
 
 **Richard Littauer:** Yup.
 
@@ -133,7 +133,7 @@ I'm trying to think of any particular people who just no one would know about wh
 
 **Jerod Santo:** I don't even know where that is...
 
-**Richard Littauer:** It's the Northern-most human habitated place in the world. We have a JavaScript conference there in a church, because why not?! \[laughter\] He has an NPM package called Geopackage, which basically -- everytime you push something to NPM, it will tag your geographical coordinates, and I'm having a lot of fun with that.
+**Richard Littauer:** It's the Northern-most human habitated place in the world. We have a JavaScript conference there in a church, because why not?! \[laughter\] He has an npm package called Geopackage, which basically -- everytime you push something to npm, it will tag your geographical coordinates, and I'm having a lot of fun with that.
 
 **Jerod Santo:** Oh, nice. Very cool. So you have your own little map that you keep, with places you pushed from?
 

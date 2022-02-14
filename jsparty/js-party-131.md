@@ -334,7 +334,7 @@ I know years ago when I was big on CoffeeScript -- it's funny that I'm a bit of 
 
 **Jerod Santo:** No.
 
-**Feross Aboukhadijeh:** Oh, okay, it's super-cool. If you like template strings and you are annoyed by the problem Nick just mentioned, where you wanna have a multi-line string, but you're annoyed that you're gonna be indented, and that you're gonna have all these extra spaces in the string - if you use common- tags on Npm, they have these little helpers that you can use to remove those spaces in a nice way. So you just write your code the normal way, and then it'll fix it for you. It uses the feature of template strings where you can kind of -- what is it called...?
+**Feross Aboukhadijeh:** Oh, okay, it's super-cool. If you like template strings and you are annoyed by the problem Nick just mentioned, where you wanna have a multi-line string, but you're annoyed that you're gonna be indented, and that you're gonna have all these extra spaces in the string - if you use common- tags on npm, they have these little helpers that you can use to remove those spaces in a nice way. So you just write your code the normal way, and then it'll fix it for you. It uses the feature of template strings where you can kind of -- what is it called...?
 
 **Nick Nisi:** Tagged templates.
 

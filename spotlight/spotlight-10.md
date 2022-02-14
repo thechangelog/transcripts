@@ -56,7 +56,7 @@
 
 **Shiya Lou:** Right. I will say that the first lesson for software developers is how to connect to VPN \[unintelligible 00:07:18.28\]. Then I think the biggest barrier there still though is language, much less of developer experience in terms of whether you can get across, because for us developers, we can always get across.
 
-**Adam Stacoviak:** Right. I was taking notice to something that's near and dear to us here at this conference (Node Interactive). Obviously, around a Node Conference, anybody who is in the Node community knows what NPM is, so seeing CNPM, which is China's NPM -- so you had the language barrier, but then you also have this firewall barrier. Talk about the language barrier first. Clearly, from here to South America there's a language barrier; from here to China, there's a language barrier; from here to Germany as well... So there's a language barrier everywhere. What is your example of experiencing this language barrier?
+**Adam Stacoviak:** Right. I was taking notice to something that's near and dear to us here at this conference (Node Interactive). Obviously, around a Node Conference, anybody who is in the Node community knows what npm is, so seeing Cnpm, which is China's npm -- so you had the language barrier, but then you also have this firewall barrier. Talk about the language barrier first. Clearly, from here to South America there's a language barrier; from here to China, there's a language barrier; from here to Germany as well... So there's a language barrier everywhere. What is your example of experiencing this language barrier?
 
 **Shiya Lou:** \[08:15\] Right. I think the language barrier is only an issue in countries that don't use English as the working language. In China, a framework or an open source project like Node is only gonna be popular if it has Chinese documentation and advocates in China. So very luckily for Node, there was a few very early adopters in China who wrote books on Node, and that's what people base their learning and studying from. I see a lot more people reading books than reading online documentations, surprisingly.
 
@@ -182,15 +182,15 @@ So for people like us, or people that aspire to be like us, to have that kind of
 
 **Shiya Lou:** Yes.
 
-**Adam Stacoviak:** So I guess, since we're talking here, we're at Node Interactive, this series we're doing here is called The Future Of Node JS, talking about the future of Node... For those out there listening, these are people who are either in the ecosystem already, developers in the Node ecosystem, and they want to learn more about the future. What can you share, more from your talk or more from your ideas on the future of Node and where we're going? One thing I mentioned earlier and we didn't get to dive much into, was the NPM of China, basically. How does that play out?
+**Adam Stacoviak:** So I guess, since we're talking here, we're at Node Interactive, this series we're doing here is called The Future Of Node JS, talking about the future of Node... For those out there listening, these are people who are either in the ecosystem already, developers in the Node ecosystem, and they want to learn more about the future. What can you share, more from your talk or more from your ideas on the future of Node and where we're going? One thing I mentioned earlier and we didn't get to dive much into, was the npm of China, basically. How does that play out?
 
-**Shiya Lou:** CNPM I think actually stands for private, or company NPM. It actually doesn't stand for China, it stands for Company NPM.
+**Shiya Lou:** Cnpm I think actually stands for private, or company npm. It actually doesn't stand for China, it stands for Company npm.
 
 **Adam Stacoviak:** I had that wrong... I just made an assumption.
 
 **Shiya Lou:** I didn't know until a few days ago either, actually. I've just been using it...
 
-**Adam Stacoviak:** Wow... Okay. So it's a mirror of NPM, right?
+**Adam Stacoviak:** Wow... Okay. So it's a mirror of npm, right?
 
 **Shiya Lou:** The registry, yes.
 
@@ -202,17 +202,17 @@ So for people like us, or people that aspire to be like us, to have that kind of
 
 **Shiya Lou:** Yeah, LeftPad - it never affected China because when it happened we were like, "Oh, let's just stop mirroring that part. Let's just not sync that part."
 
-**Adam Stacoviak:** Wow. That's an easy way to avoid it. For those who aren't familiar, give us the deeper side of CNPM. It's a mirror of the registry... What's the point of it? Is it because of the firewall?
+**Adam Stacoviak:** Wow. That's an easy way to avoid it. For those who aren't familiar, give us the deeper side of Cnpm. It's a mirror of the registry... What's the point of it? Is it because of the firewall?
 
 **Shiya Lou:** Yeah, it's because it's much slower to download...
 
 **Adam Stacoviak:** From elsewhere.
 
-**Shiya Lou:** From NPM, yeah.
+**Shiya Lou:** From npm, yeah.
 
 **Adam Stacoviak:** So who got the permission to synchronize this? Did they work with the government, did they work with somebody to bypass parts of the firewall to sync the registry?
 
-**Shiya Lou:** So the firewall doesn't work in a way that you need permission to do things; you just do it until someone stops you. So NPM right now does not have anything political, basically, so there's no reason to censor it. And it's very important for the developers, so that's a very...
+**Shiya Lou:** So the firewall doesn't work in a way that you need permission to do things; you just do it until someone stops you. So npm right now does not have anything political, basically, so there's no reason to censor it. And it's very important for the developers, so that's a very...
 
 **Adam Stacoviak:** So basically until it may cross a line that should not be crossed, door are open.
 
@@ -242,7 +242,7 @@ So for people like us, or people that aspire to be like us, to have that kind of
 
 **Shiya Lou:** Well, yeah, but I think this is pretty common knowledge already, so that's fine for me to talk about. It's pretty open... Everyone kind of knows about this now.
 
-**Adam Stacoviak:** Okay. So for those who are right now in China, listening to this podcast - maybe we've got a hundred people; it's a big country, a lot of people there, maybe it's 10,000 people, I don't know... What do they need to know about CNPM? What do they need to know about this concern you have of the firewall, this concern of the language barrier? What do the developers inside of China need to know?
+**Adam Stacoviak:** Okay. So for those who are right now in China, listening to this podcast - maybe we've got a hundred people; it's a big country, a lot of people there, maybe it's 10,000 people, I don't know... What do they need to know about Cnpm? What do they need to know about this concern you have of the firewall, this concern of the language barrier? What do the developers inside of China need to know?
 
 **Shiya Lou:** Well, I think it's definitely more beneficial to learn English, because you're far ahead of people who have to wait and read Chinese documentation. I think that's actually the bottleneck for developers in China - not being able to be updated so quickly with English documentation.
 

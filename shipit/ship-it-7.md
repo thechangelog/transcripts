@@ -2,7 +2,7 @@
 
 **Lars Wikman:** I think Alex gets the credit on that...
 
-**Gerhard Lazu:** I definitely know he improved the n+1 queries, that's for sure...
+**Gerhard Lazu:** I definitely know he improved the N+1 queries, that's for sure...
 
 **Lars Wikman:** Yeah. I even caused some of those...
 
@@ -24,7 +24,7 @@
 
 **Gerhard Lazu:** He did, yes. Definitely. The PromEx stuff I think is the one that I got the most excited about, because it touches on the infrastructure side of things; it just integrates a couple of things together, so that it is from my perspective very visible and something which I'm very interested in to see how are things behaving.
 
-The n+1 optimizations, improvements, n+1 query improvements - that was great to see as well. I didn't know that you were the cause for it, so... I'm not sure how I feel about that. \[laughs\]
+The N+1 optimizations, improvements, N+1 query improvements - that was great to see as well. I didn't know that you were the cause for it, so... I'm not sure how I feel about that. \[laughs\]
 
 **Lars Wikman:** I think I only introduced one fairly chunky case of them. It was mostly when you're doing development that it turned things a little bit slow to start, because I was doing something optimistic, but it didn't turn out...
 

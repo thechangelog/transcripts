@@ -202,7 +202,7 @@ One at a time, I'd just be converting people -- obviously, not every company was
 
 At that point, once I've planted that seed, I'd just step back and watch it grow. Because Go really just speaks for itself. It's that good of a language.
 
-**Miki Tebeka:** That is an awesome strategy. I think that command line clients - the fact that Go compiles to a static binary is a great thing, because I think CLI tools... So what do I need to install? Just grab the executable. No JVM, no pip install, no Npm, or whatever... So this is really a good niche to start.
+**Miki Tebeka:** That is an awesome strategy. I think that command line clients - the fact that Go compiles to a static binary is a great thing, because I think CLI tools... So what do I need to install? Just grab the executable. No JVM, no pip install, no npm, or whatever... So this is really a good niche to start.
 
 **Break:** \[23:10\]
 

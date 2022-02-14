@@ -314,11 +314,11 @@ So to your actual question as to what things are maybe slighted for more areas f
 
 **Dustin Schau:** Sure, great question. I would recommend going to GatsbyJS.org/plugins. They're ranked by popularity, which honestly is probably not the best ranking mechanism. I think there are some really cool ones.
 
-One of the nice things about having a plugin ecosystem is that you can encapsulate a fairly complex thing or a fairly complex use case in a plugin that you can just get by Npm-installing it to a Gatsby config.
+One of the nice things about having a plugin ecosystem is that you can encapsulate a fairly complex thing or a fairly complex use case in a plugin that you can just get by npm-installing it to a Gatsby config.
 
 Some of my favorites are gatsby-plugin-offline. That will then generate a service worker and it'll do some PWA-type things, and will kind of cache your application offline once it's been accessed. Again, any developer who has used or written service workers is like "Oh, there are some dragons here." So what's kind of cool about gatsby-plugin-offline is we have vanquished at least all the dragons that we know about... So just by adding that plugin you get this nice offline experience.
 
-Gatsby-plugin-manifest - same space. I think a lot of the application space is moving towards making it more aligned with the web, and so this whole notion of progressive web apps -- with just those two plugins you get a pretty great progressive web app experience, just by Npm-installing.
+Gatsby-plugin-manifest - same space. I think a lot of the application space is moving towards making it more aligned with the web, and so this whole notion of progressive web apps -- with just those two plugins you get a pretty great progressive web app experience, just by npm-installing.
 
 Beyond that... There's a lot. Whatever you'd like to do or whatever you'd wanna do, there's probably a plugin for it. I think we have nearly 2,000 plugins, which is pretty incredible. For me, I feel like I'm coming here with a lot of opinions and hot takes, but... I'm a big CSS-in-JS fan, so there's a lot of really cool plugins that -- you know, I like the developer experiences, but oftentimes there's a runtime parse, and so with these Gatsby plugins you can then generate ahead of time that CSS file based on CSS-in-JS, and then statically optimize it as much as possible. For instance, there's a Gatsby plugin styled-components...
 

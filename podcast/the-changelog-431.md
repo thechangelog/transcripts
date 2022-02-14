@@ -488,7 +488,7 @@ Only if you're trying to move as fast as possible doesn't make sense to hire for
 
 **Adam Stacoviak:** Yeah. A non-profit unicorn.
 
-**Jerod Santo:** So for the next 30 days - and of course, we had some production time on this, so for the next n days; don't wait, go check it out right now - this fundraiser is gonna be going on. And during this time, up to the first 150k, Darryl is gonna match dollar for dollar, right? So every dollar you put in is worth two dollars. That's excellent. So where does the money go? What's it going to exactly?
+**Jerod Santo:** So for the next 30 days - and of course, we had some production time on this, so for the next N days; don't wait, go check it out right now - this fundraiser is gonna be going on. And during this time, up to the first 150k, Darryl is gonna match dollar for dollar, right? So every dollar you put in is worth two dollars. That's excellent. So where does the money go? What's it going to exactly?
 
 **Quincy Larson:** Yeah, 100% of this money is going to go toward the data science curriculum. So the big cost is usually people in any organization... And we have already found a really good instructor who's got like 20 years of experience teaching collegiate and high-school level... So he's on, and we're gonna identify a few other instructors as well who can help, at least in a part-time capacity. A lot of professors work several different jobs, or like they're adjuncts in one place and then they write books and do other things on the side... So we're gonna try to find a good, solid collection of people who already know what freeCodeCamp is and have been a part of the community.
 

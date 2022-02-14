@@ -164,11 +164,11 @@ So given the batteries included things, I think that Electron, in the sense that
 
 The number of people in the world who already know how to use those technologies is much smaller than if you’re building with JavaScript. A lot of people already know JavaScript and already know CSS, and know Node, and know how to use those APIs. So from the perspective of somebody who’s trying to hire a team, I think there’s a lot to be said for the available pool of people who can bang out some JavaScript.
 
-**Kevin Ball:** And this has gotten a tremendous uptake... I saw a survey recently or a blog post about a survey on the NPM Blog where across industries, more than 20% of developers reported using Electron for something, in every industry that they surveyed.
+**Kevin Ball:** And this has gotten a tremendous uptake... I saw a survey recently or a blog post about a survey on the npm Blog where across industries, more than 20% of developers reported using Electron for something, in every industry that they surveyed.
 
 **Jeremy Apthorp:** Using Electron?
 
-**Kevin Ball:** Using Electron. This was JavaScript-focused folks, because it was a survey by Node or NPM, but it said across all the industries that they looked at – finance, advertising, marketing, education, government, manufacturing – 20% or more reported using Electron on at least some project.
+**Kevin Ball:** Using Electron. This was JavaScript-focused folks, because it was a survey by Node or npm, but it said across all the industries that they looked at – finance, advertising, marketing, education, government, manufacturing – 20% or more reported using Electron on at least some project.
 
 **Shelley Vohr:** Wow, that is a brand new statistic to me.
 
@@ -320,7 +320,7 @@ Every person who’s serious about developing a desktop app is going to have to 
 
 You can go through the series of things that everyone’s gonna have to do... It’s like, well, debug crashes that happen on the client’s machine - there’s some really fantastic support for that coming from the Electron community. So I think that definitely is perhaps beyond the batteries included, but batteries available for Electron, in a way that you would have to build things in a much more custom way if you were doing things with a different framework.
 
-**Kevin Ball:** Awesome. Maybe let’s talk a little bit about what is it like being on the core team, being an open source maintainer. There was a recent tweet from Jeff Lembeck at NPM talking about just the flack that you sometimes run into. It’s crazy, you’re building this thing that people can use for free, that is incredibly powerful for them, and yet some folks are unremittingly negative.
+**Kevin Ball:** Awesome. Maybe let’s talk a little bit about what is it like being on the core team, being an open source maintainer. There was a recent tweet from Jeff Lembeck at npm talking about just the flack that you sometimes run into. It’s crazy, you’re building this thing that people can use for free, that is incredibly powerful for them, and yet some folks are unremittingly negative.
 
 I know that you have open source maintainer burnout is a big issue in our community... So what is that like for you, especially since you’re in the great position of being able to work on this full-time, paid by a company? How does that work for you?
 

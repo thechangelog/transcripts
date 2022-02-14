@@ -82,7 +82,7 @@ So first I figured out how it works in Python, because a vague big idea. In Pyth
 
 I'm a big fan of generating code, because I don't wanna have to write the dumb code that's always mostly the same, I want something to write it for me; that way, I can write the good stuff. So I was like, "Well, okay, I can do that." I think I was lucky that that was my starting point. It was a fairly complicated thing of typing some JSON to a specific function to prettify it, so that was a difficult use case that I think made it much easier to do everything else that Gorram can do. So that's the story.
 
-\[11:42\] I started poking at Go types, the standard library package that reads code and understands what types are in there. Luckily, much of Go code has a lot of conventions that we can use to understand what type of action this function's gonna take; so like readers and writers, and returning n for the length, and returning errors, and stuff... There's all these conventions to make it very easy to just generate some code, because you pretty much know what each thing is going to expect.
+\[11:42\] I started poking at Go types, the standard library package that reads code and understands what types are in there. Luckily, much of Go code has a lot of conventions that we can use to understand what type of action this function's gonna take; so like readers and writers, and returning N for the length, and returning errors, and stuff... There's all these conventions to make it very easy to just generate some code, because you pretty much know what each thing is going to expect.
 
 So I just started poking at that for like a week or so, and got some basic things working. Then I've been adding a few new features since then.
 

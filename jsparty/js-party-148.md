@@ -32,7 +32,7 @@
 
 **Jerod Santo:** \[laughs\]
 
-**Gleb Bahmutov:** When you talk about Amal, you now talk about a former engineer of Npm, and now Indigo Agriculture... I can not picture you not being an expert, Amal, in Boston.
+**Gleb Bahmutov:** When you talk about Amal, you now talk about a former engineer of npm, and now Indigo Agriculture... I can not picture you not being an expert, Amal, in Boston.
 
 **Amal Hussein:** Oh, you're so sweet, you're so kind... But you know what, I can't say I was born this way... But I'll take the compliment. \[laughs\] "Maybe she was born with it", you know? Just came out of the womb, like -- "Well, actually..." \[laughter\]
 
@@ -104,7 +104,7 @@ So we're trying to automate end-to-end testing, make it fun, make it a nice expe
 
 **Christopher Hiller:** And that API is going to be -- you have a different philosophy then, versus something like how you would use Selenium, to XPath, and all that crap... How does that differ?
 
-**Gleb Bahmutov:** Chris, two things. One is the difficulty of setting up. If you're setting up Selenium with something, you have to install specific things, install specific drivers. You have to jump through a bunch of hoops before you can write your first test. With Cypress, you can start the same way you would start with Mocha. So with Mocha you do npm install Mocha, or yarn add Mocha, and then you're good to go. The same with Cypress. It's Npm installation - npm install Cypress, or yarn add Cypress, and that's it. There's nothing else to configure. It already comes with its Electron-based test runner, which includes an Electron JS browser... If it opens and finds other browsers on your system, it will show you the list, so you can select Firefox, or Edge, or Chrome, whatever you have there, and run both browsers.
+**Gleb Bahmutov:** Chris, two things. One is the difficulty of setting up. If you're setting up Selenium with something, you have to install specific things, install specific drivers. You have to jump through a bunch of hoops before you can write your first test. With Cypress, you can start the same way you would start with Mocha. So with Mocha you do npm install Mocha, or yarn add Mocha, and then you're good to go. The same with Cypress. It's npm installation - npm install Cypress, or yarn add Cypress, and that's it. There's nothing else to configure. It already comes with its Electron-based test runner, which includes an Electron JS browser... If it opens and finds other browsers on your system, it will show you the list, so you can select Firefox, or Edge, or Chrome, whatever you have there, and run both browsers.
 
 But then it's like, what's the API for actually writing tests? And in that case, everything is chained off a global object called Cy. For example, if you wanna visit Cy, you write cy.visit, and you'd go to that URL. If you wanna find an element by selector, you would say cy.get and then CSS selector; we prefer CSS selectors, because that's what you see in DevTools. And when you run Cypress tests, a real browser pops up, you pop DevTools, just like normally you would, and when you see an element, you would just copy the selector and put it inside that Git command, and it would just find the element. And then if you wanna click, you just chain it. So you say cy.getselector for a button for example, and then .click, because every command finds the element and then passes it along to the next command.
 

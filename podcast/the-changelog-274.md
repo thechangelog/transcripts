@@ -139,7 +139,7 @@ To me, that was the best option that I had. Rocks does have some tradeoffs, it h
 But with this decision, anybody who's doing persistence, when you're selecting your persistence engine, it has huge ramifications down the road, so it's a really big decision to make.
 Give us some insight, how did you go about -- you said that it was production-grade and you liked that Facebook was behind it, but what was your process? Like, what do you go about "Okay, I am going to compare against Redis; I want something embeddable", but it sounds like you weren't completely sold against Redis at the time, even though you preferred an embedded solution. Did you just google around, find all the embedded Go things and then compare them? What's your style of picking a big dependency like that?
 
-**Mike Perham:** There's a couple of things that I was looking for. First was that I knew that I wanted to use Go to build it, so I knew that I had to have something that would integrate with my language of choice. The number two concern was long-term support. Is this thing going to be worked on for the next n years? Is it going to be something that I can submit a bug for, and someone will look at it in days, rather than months or years, or never?
+**Mike Perham:** There's a couple of things that I was looking for. First was that I knew that I wanted to use Go to build it, so I knew that I had to have something that would integrate with my language of choice. The number two concern was long-term support. Is this thing going to be worked on for the next N years? Is it going to be something that I can submit a bug for, and someone will look at it in days, rather than months or years, or never?
 
 **Jerod Santo:** Right.
 
@@ -179,7 +179,7 @@ So Evan said "Oh, this is not just a flag you can tune in Bolt, it's part of the
 
 If you're doing -- well, I don't wanna pontificate on what the right use cases are for Bolt, but suffice to say that Rocks has proven to be, like I said, orders of magnitude faster, so I realized that I had to go with something like Rocks.
 
-Now, I couldn't find any other LevelDB clone for Go that was really sort of production hardened and that's why I went with Rocks... Because I would have preferred and loved to have seen something that was native Go, something that I could tell is running in production and is gonna be supported for the next n years... And I know that Facebook has several engineers working full-time on Rocks, and they're pushing new versions all the time. That is a very strong endorsement to use it in my own stuff.
+Now, I couldn't find any other LevelDB clone for Go that was really sort of production hardened and that's why I went with Rocks... Because I would have preferred and loved to have seen something that was native Go, something that I could tell is running in production and is gonna be supported for the next N years... And I know that Facebook has several engineers working full-time on Rocks, and they're pushing new versions all the time. That is a very strong endorsement to use it in my own stuff.
 
 **Jerod Santo:** \[40:19\] Just found it here - we actually had Ben Johnson on The Changelog back in 2015, talking about BoltDB; I think he actually compared and contrasted with LevelDB at the time, so he's very well aware of these different architectures.
 

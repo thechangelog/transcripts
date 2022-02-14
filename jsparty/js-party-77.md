@@ -52,7 +52,7 @@ So it's just a strange thing... Maybe they're trying to fly under the radar. It'
 
 **Nick Nisi:** Maybe I caught on to that, but no, I don't think so.
 
-**Jerod Santo:** So the details of this you can find in the show notes. Of course, you can just go to github.com/features/package-registry if you wanna read it for yourself. It says "Your packages, at home with their code." And it says "With GitHub Package Registry you can safely publish and consume packages within your organization or with the entire world." They have -- I guess you could call it a limited set, or a starter set of supported ecosystems and language; Npm, RubyGems, Docker, NuGet, Maven, and I think that's it... There might be a couple more, but that's at least what they're launching with.
+**Jerod Santo:** So the details of this you can find in the show notes. Of course, you can just go to github.com/features/package-registry if you wanna read it for yourself. It says "Your packages, at home with their code." And it says "With GitHub Package Registry you can safely publish and consume packages within your organization or with the entire world." They have -- I guess you could call it a limited set, or a starter set of supported ecosystems and language; npm, RubyGems, Docker, NuGet, Maven, and I think that's it... There might be a couple more, but that's at least what they're launching with.
 
 **Divya Sasidharan:** Yeah. I was really surprised Python wasn't on there.
 
@@ -76,21 +76,21 @@ But what this enables is at least the potential to do end-to-end validation of "
 
 **Jerod Santo:** Chris in the chat is asking me a question, "Is this GitHub or is this Microsoft?" and what he means by that, I think... And we can't know, but product roadmaps take a long time, and huge new -- I mean, this is a whole other area of their business at this point; these things don't spike out in three weeks and then get released. And we know Microsoft has purchased GitHub - gosh, probably coming up on a year, or 18 months; I can't remember the exact timeframe. But the question is, was this a thing that was already up and moving with the previous GitHub management, with different leadership? Or is this a thing that Microsoft came and said "This is a next step." Because this is a huge next step for them branching out.
 
-**Divya Sasidharan:** Yup. It's also really exciting, because with this it means that -- because a lot of the times with package registries, like if you think of Npm and RubyGems and so on, it's really hard to find, like... Because there's the package registry, and then there's where the code is hosted, and a lot of the community is in GitHub; people submit issues, pull requests... They see the code, and you kind of gather in one place, and not in the actual package management place.
+**Divya Sasidharan:** Yup. It's also really exciting, because with this it means that -- because a lot of the times with package registries, like if you think of npm and RubyGems and so on, it's really hard to find, like... Because there's the package registry, and then there's where the code is hosted, and a lot of the community is in GitHub; people submit issues, pull requests... They see the code, and you kind of gather in one place, and not in the actual package management place.
 
 **Jerod Santo:** Right.
 
-**Divya Sasidharan:** So with this it's really nice, because it seems like a centralized location where people could be like "Oh, okay. I can easily discover packages in GitHub, and I can also see what are the open issues and things like that", without having to toggle between like "Oh, I'm on Npm, and now I have to go back to GitHub", or do the weird click-through, which is like "Where is the GitHub link?"
+**Divya Sasidharan:** So with this it's really nice, because it seems like a centralized location where people could be like "Oh, okay. I can easily discover packages in GitHub, and I can also see what are the open issues and things like that", without having to toggle between like "Oh, I'm on npm, and now I have to go back to GitHub", or do the weird click-through, which is like "Where is the GitHub link?"
 
 **Jerod Santo:** The weird click-through, yeah...
 
 **Divya Sasidharan:** I always find myself -- I've done it so many times, but I'm always "The git... where is the GitHub link?"
 
-**Nick Nisi:** That's all I do on Npm, is just find the GitHub link and then go there.
+**Nick Nisi:** That's all I do on npm, is just find the GitHub link and then go there.
 
 **Jerod Santo:** Right.
 
-**Divya Sasidharan:** Exactly, and it's really frustrating... But yeah, so hopefully this will be much nicer, a better workflow. And like you're saying, Nick, with the GitHub Actions - I think that'll be really neat as well, because I find in general whenever I publish a package, I would have to use the Npm CLI, and then... It's basically like two different things I'm doing. I'd be like "Push to GitHub", and then from GitHub I have to version it, and then I have to be like "Okay, let me go publish it on Npm", and then figure out what's happening. I've messed it up a couple of times. I'm like "Wait, let me roll back! Roll back!" \[laughter\]
+**Divya Sasidharan:** Exactly, and it's really frustrating... But yeah, so hopefully this will be much nicer, a better workflow. And like you're saying, Nick, with the GitHub Actions - I think that'll be really neat as well, because I find in general whenever I publish a package, I would have to use the npm CLI, and then... It's basically like two different things I'm doing. I'd be like "Push to GitHub", and then from GitHub I have to version it, and then I have to be like "Okay, let me go publish it on npm", and then figure out what's happening. I've messed it up a couple of times. I'm like "Wait, let me roll back! Roll back!" \[laughter\]
 
 **Kevin Ball:** \[11:52\] I have a couple questions on this, that are perhaps less sunny... One question is -- one of the really nice things about some of the language-specific registries right now is you don't have to ask about "Where do I load things from?" I'm not much of a sysadmin person, but I know every time I have to muck with Linux and Ubuntu or whatever, I'm like "Shoot! Where do I load these packages from? Some of them are in the default registry; do I have to add registries? Do I have to do this, do I have to do that...?" It's much more of a headache than with Python or Ruby or JavaScript, where I'm just like "Okay, there is one registry, I'm gonna install from there, and I'm good." So that's one area where I'm wondering, "Is this a step towards fragmentation in these language ecosystems?"
 
@@ -102,7 +102,7 @@ And then the second one, which is almost the inverse problem, is --
 
 **Jerod Santo:** I know, I was torn as well.
 
-**Kevin Ball:** I kind of like that Npm is a different company than GitHub, and a different company than whatever else. There's GitLab, and GitHub, and whatever. If everything is going through GitHub, which is Microsoft, are we continuing to consolidate power in our industry in those top four companies?
+**Kevin Ball:** I kind of like that npm is a different company than GitHub, and a different company than whatever else. There's GitLab, and GitHub, and whatever. If everything is going through GitHub, which is Microsoft, are we continuing to consolidate power in our industry in those top four companies?
 
 **Jerod Santo:** I know...
 
@@ -110,9 +110,9 @@ And then the second one, which is almost the inverse problem, is --
 
 **Jerod Santo:** The three-part strategy, yeah. It's such a weird dichotomy, because you do have both concerns. You have a fragmentation concern, and then you have a centralization concern, and I think they're both legitimate, you know? I could see both of them happening in certain ways, and both of them affecting negatively both the already diverse ecosystems, and then the convergent one ecosystem of GitHub.
 
-Let's talk about it specifically inside the JavaScript, the front-end space - Npm is the only player in the game. You have other clients, you have the Yarn client, but when it comes to registries, it is Npm, and that has both spurred a lot of flourishment in terms of packages publishing, and the ease of use, and all that kind of stuff, but then it can also be lacking competition on the actual hosting and the registry side of things. In that regard, GitHub getting into this can basically put a fire under Npm's butt, and say "Hey, we've got features that you don't have" or "We can do things you don't have because we are the source code host as well, so step up your game", and that can make everybody better.
+Let's talk about it specifically inside the JavaScript, the front-end space - npm is the only player in the game. You have other clients, you have the Yarn client, but when it comes to registries, it is npm, and that has both spurred a lot of flourishment in terms of packages publishing, and the ease of use, and all that kind of stuff, but then it can also be lacking competition on the actual hosting and the registry side of things. In that regard, GitHub getting into this can basically put a fire under npm's butt, and say "Hey, we've got features that you don't have" or "We can do things you don't have because we are the source code host as well, so step up your game", and that can make everybody better.
 
-**Nick Nisi:** Just to confirm, do we think that this is directly competing with Npm's enterprise solutions?
+**Nick Nisi:** Just to confirm, do we think that this is directly competing with npm's enterprise solutions?
 
 **Divya Sasidharan:** I assumed it wasn't. I just assumed this was just a way for making the workflow easier, but it wasn't necessarily a competition. I don't know...
 
@@ -120,11 +120,11 @@ Let's talk about it specifically inside the JavaScript, the front-end space - Np
 
 **Nick Nisi:** I do, too.
 
-**Kevin Ball:** Yeah, if we look at what is their pitch at Npm for enterprise package, they have enterprise-grade JavaScript, whatever that means, but then they also say "Do you duplicate development, so manage your internal stuff in the same way you manage your open source stuff?" And then there's team management, which we also are already doing on GitHub... The only thing they have on here that I'm not sure is definitely addressed is this security expertise piece... But yeah, I think most of the value-adds that Npm enterprise have are very much challenged by this.
+**Kevin Ball:** Yeah, if we look at what is their pitch at npm for enterprise package, they have enterprise-grade JavaScript, whatever that means, but then they also say "Do you duplicate development, so manage your internal stuff in the same way you manage your open source stuff?" And then there's team management, which we also are already doing on GitHub... The only thing they have on here that I'm not sure is definitely addressed is this security expertise piece... But yeah, I think most of the value-adds that npm enterprise have are very much challenged by this.
 
 **Jerod Santo:** \[15:56\] Yeah. I just wanna comment on that enterprise-grade JavaScript; it makes me think of -- have you guys ever seen the enterprise version of FizzBuzz, that made the rounds a couple years ago? So funny! It was like this Java class that does FizzBuzz, the programming quiz, in the most enterprisy way possible. I'll try to find the code and put it in the show notes. It's spectacular. But that's what I think of enterprise-grade JavaScript -- it's like, "Are you writing the JavaScript for us, or...? How is it enterprise-grade? Is my code magically better because I'm using you as a enterprise provider?"
 
-**Kevin Ball:** I mean there is also a sort of de-risking component here... Because I don't know if I'm -- I'm probably not the only one who's watched all the Npm-related drama on Twitter going down over the last few months...
+**Kevin Ball:** I mean there is also a sort of de-risking component here... Because I don't know if I'm -- I'm probably not the only one who's watched all the npm-related drama on Twitter going down over the last few months...
 
 **Divya Sasidharan:** Oh, definitely...
 
@@ -132,9 +132,9 @@ Let's talk about it specifically inside the JavaScript, the front-end space - Np
 
 **Jerod Santo:** Can you summarize that without slamming anybody? The drama.
 
-**Kevin Ball:** Yes. So I'm not on the inside of this, I have no context over what is right or wrong... I know that there was once some buzz around a set of people being laid off from Npm, that the assertion made (as I understand it) was that this was done very inelegantly, and by a third-party coming in, rather than direct conversations with the executives, and that perhaps this was done to people who had just recently been hired. So it was done in a way that left a lot of people with a bad taste in their mouth.
+**Kevin Ball:** Yes. So I'm not on the inside of this, I have no context over what is right or wrong... I know that there was once some buzz around a set of people being laid off from npm, that the assertion made (as I understand it) was that this was done very inelegantly, and by a third-party coming in, rather than direct conversations with the executives, and that perhaps this was done to people who had just recently been hired. So it was done in a way that left a lot of people with a bad taste in their mouth.
 
-Following that, I have seen a number of high-profile members of Npm saying that they are leaving Npm, often without saying too much more than that... So not weighing in on the drama, or the this and the that. We did a -- I don't remember if it was JS party of Changelog, but there was an interview we did with Jeff Lembeck and his people... Well, I saw on Twitter that Jeff is leaving Npm. And a number of other folks who have been at least very visible in the community representing Npm have announced publicly that they are leaving Npm. So it makes me wonder what's going on behind the scenes there.
+Following that, I have seen a number of high-profile members of npm saying that they are leaving npm, often without saying too much more than that... So not weighing in on the drama, or the this and the that. We did a -- I don't remember if it was JS party of Changelog, but there was an interview we did with Jeff Lembeck and his people... Well, I saw on Twitter that Jeff is leaving npm. And a number of other folks who have been at least very visible in the community representing npm have announced publicly that they are leaving npm. So it makes me wonder what's going on behind the scenes there.
 
 Running a company is bloody hard, and without knowing the background, I don't wanna place judgment on one person on another, but it definitely seems like there is a lot of struggle happening there right now.
 
@@ -144,7 +144,7 @@ Running a company is bloody hard, and without knowing the background, I don't wa
 
 **Jerod Santo:** 12 years, wasn't it something like that?
 
-**Nick Nisi:** A couple of other interesting bits on this is that it does work within the APIs of the existing CLI apps that you would use. So you would still use Npm or Yarn or this, and I assume the same thing for Docker and Maven and all of those; I was more just interested in the Npm side of it, obviously... But then it also allows you to have public and private repos. And I think private is only for GitHub Pro, if I remember correctly...
+**Nick Nisi:** A couple of other interesting bits on this is that it does work within the APIs of the existing CLI apps that you would use. So you would still use npm or Yarn or this, and I assume the same thing for Docker and Maven and all of those; I was more just interested in the npm side of it, obviously... But then it also allows you to have public and private repos. And I think private is only for GitHub Pro, if I remember correctly...
 
 **Divya Sasidharan:** I think it's free for all now. They've changed that recently.
 
@@ -152,7 +152,7 @@ Running a company is bloody hard, and without knowing the background, I don't wa
 
 **Divya Sasidharan:** Oh, for packages.... Um, actually it might be Pro, yeah. That would make sense why people go Pro.
 
-**Nick Nisi:** Yeah, it was giving incentive to go Pro. \[laughs\] But yeah, that will be interesting. I think that that coupled with the things that you can potentially do with Actions, or with some kind of certified pipeline, are the things that will make this stand out over just Npm, or RubyGems, or whatever the other package managers are.
+**Nick Nisi:** Yeah, it was giving incentive to go Pro. \[laughs\] But yeah, that will be interesting. I think that that coupled with the things that you can potentially do with Actions, or with some kind of certified pipeline, are the things that will make this stand out over just npm, or RubyGems, or whatever the other package managers are.
 
 **Divya Sasidharan:** Also, totally separately, but I've found it really interesting, because when GitHub announced their new registry, GitLab released an article saying "Hey, we did this before everyone else..." \[laughter\] It was an article saying they did this back in 2016, or something... It was like, "Okay, cool... Nice flex, GitLab." \[laughs\]
 
@@ -188,9 +188,9 @@ Running a company is bloody hard, and without knowing the background, I don't wa
 
 **Divya Sasidharan:** That's a huge shift. And that probably moves us to the next segment, on job skills stuff. We can talk about that later, but... It's just an interesting way of how they've positioned themselves. In the developer community they're seen quite well now. And they've obviously done a good job, so... Yeah.
 
-**Nick Nisi:** Just to close it, there's a Twitter account, @npm_parody that speculates on what Npm might actually stand for, and I saw a tweet from them, "Nobody Protected Microsoft." \[laughter\]
+**Nick Nisi:** Just to close it, there's a Twitter account, @npm_parody that speculates on what npm might actually stand for, and I saw a tweet from them, "Nobody Protected Microsoft." \[laughter\]
 
-**Kevin Ball:** I believe that Npm account was created specifically when the package manager was announced.
+**Kevin Ball:** I believe that npm account was created specifically when the package manager was announced.
 
 **Nick Nisi:** Oh, really?
 
@@ -352,7 +352,7 @@ What about the back-end, guys?
 
 **Jerod Santo:** Yeah, it depends on what kind of tooling you're talking about, I guess. Are you talking about back-end tooling, or front-end tooling?
 
-**Nick Nisi:** Npm. \[laughter\]
+**Nick Nisi:** npm. \[laughter\]
 
 **Jerod Santo:** I would say version control, communication and things like this cross all those chasms, but toolings very specific to -- I mean, Docker, I guess, would be another one that is general. Containers, that kind of stuff.
 
@@ -476,7 +476,7 @@ It's super-cool to see this UI-focused development stuff growing and being more 
 
 **Divya Sasidharan:** Yeah, I know. Once it's in your head, you can't get it out. And then this is another shout-out to a tool that Rouzbeh mentioned on the chat, which is Quokka.js. It's interesting, because this is a tool that I recently heard about, and it's funny that he posted it as well... So I was at NationJS, which is a small conference, also really great, in DC, and Nir Kaufman was one of the speakers; he's big in the React community in New York. He spoke about Quokka, and it was so -- I had never heard of it, and I think it's really cool, because it allows you to prototype... It's like a scratchpad for when you're working on stuff, so you're like "Oh wait, I'm working with this library, and I don't know how it work", and you can kind of just use it as a scratchpad, and be like "Let me try different things", and then erase it when you're done, without having to mess up your files... Which I think is so cool and interesting. Even the way that it was presented to me...
 
-Most of the time you look at a framework, and you look at the documentation, and then that's how you learn how it works; a library like Lodash, for example. But with this, you can actually work on the thing... Which I've done before. I've used RunKit, and various things on Npm, where you're like "Okay, I wanna play around with this tool, and see what things are doing", but I think Quokka allows you to dig really deep into a specific library or tool, which is so interesting, just from a learning perspective... Going back to the conversation of scaling up - to be like "I'm a junior developer", to be like "I wanna progress", I think that's such a great tool for you to just learn about how tools are created, how libraries are architectured, and so on.
+Most of the time you look at a framework, and you look at the documentation, and then that's how you learn how it works; a library like Lodash, for example. But with this, you can actually work on the thing... Which I've done before. I've used RunKit, and various things on npm, where you're like "Okay, I wanna play around with this tool, and see what things are doing", but I think Quokka allows you to dig really deep into a specific library or tool, which is so interesting, just from a learning perspective... Going back to the conversation of scaling up - to be like "I'm a junior developer", to be like "I wanna progress", I think that's such a great tool for you to just learn about how tools are created, how libraries are architectured, and so on.
 
 And then the last thing - I really like shaders, just for fun. They don't really do anything for me in terms of getting me money, or a job...
 

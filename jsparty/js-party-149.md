@@ -194,7 +194,7 @@ I've had that background, so I understand it, but I can put myself in plenty of 
 
 **Ben Ilegbodu:** Yes.
 
-**Amal Hussein:** Yeah, Babel, TypeScript - it's the magic of the open source ecosystem that lets this cool synergy of improvements incrementally happen at an enormous scale. It's amazing how the Npm ecosystem has changed our worlds as engineers... Writing JavaScript, to be specific. But I'm curious - you have millions of packages written in JavaScript.
+**Amal Hussein:** Yeah, Babel, TypeScript - it's the magic of the open source ecosystem that lets this cool synergy of improvements incrementally happen at an enormous scale. It's amazing how the npm ecosystem has changed our worlds as engineers... Writing JavaScript, to be specific. But I'm curious - you have millions of packages written in JavaScript.
 
 **Ben Ilegbodu:** I don't, but the community does. \[laughter\]
 

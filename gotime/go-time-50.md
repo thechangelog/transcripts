@@ -792,7 +792,7 @@ That's the disadvantage to crafting your own workspace and environment...
 
 **Erik St. Martin:** I'm gonna have to play with this now.
 
-**Brian Ketelsen:** I don't know... That means you have to use NPM. Just say no.
+**Brian Ketelsen:** I don't know... That means you have to use npm. Just say no.
 
 **Erik St. Martin:** Oh, sweet... like I'm actually looking at it now.
 

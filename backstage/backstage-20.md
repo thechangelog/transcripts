@@ -852,7 +852,7 @@ So I was hoping Safari wasn't first... Because I think what made me go the oppos
 
 **Adam Stacoviak:** That would be cool.
 
-**Jerod Santo:** Well, with this tool we could -- first of all, he has a built-in hub, so Docker Hub, and GitHub, and Npm, and all these things...
+**Jerod Santo:** Well, with this tool we could -- first of all, he has a built-in hub, so Docker Hub, and GitHub, and npm, and all these things...
 
 **Adam Stacoviak:** EspansoHub.
 

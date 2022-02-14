@@ -164,7 +164,7 @@ It's basically a survey or a way of tracking purchasing power parity - which is 
 
 **Jerod Santo:** Oh, that's cool.
 
-**Zeno Rocha:** I already saw there's Npm packages for the purchase parity power (PPP) concept.
+**Zeno Rocha:** I already saw there's npm packages for the purchase parity power (PPP) concept.
 
 **Jerod Santo:** The PPP, yeah. Awesome.
 
@@ -200,7 +200,7 @@ It's basically a survey or a way of tracking purchasing power parity - which is 
 
 **Zeno Rocha:** Yeah.
 
-**Jerod Santo:** I don't know, Zeno, how do those Npm packages work, do you know? Is it based on their locale, or just IP address, or...?
+**Jerod Santo:** I don't know, Zeno, how do those npm packages work, do you know? Is it based on their locale, or just IP address, or...?
 
 **Zeno Rocha:** Yeah, \[unintelligible 00:21:40.16\] on your server, they detect your IP, based on that they give you a certain percentage of discount that you can apply. So if you're connecting with some payment system, you can set up different coupons for different countries. So if you are in Brazil, it's like "Okay, 57%", if you're in India it's another percentage... So that's how it usually works. But yeah, you can just enable VPN and pretend you're there, right?
 

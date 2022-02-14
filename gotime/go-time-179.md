@@ -230,7 +230,7 @@ But yeah, as far as continuous deployment goes, I have no strong opinions one wa
 
 **Jon Calhoun:** Alright. Steve, do you have an unpopular opinion you would like to share?
 
-**Steve High:** Oh, man... Yeah, I shared this with Dan yesterday, and he didn't like it at all, so I'm pretty sure this is unpopular. I think the overuse of err as an error variable - I think it makes code harder to read. Now, there's a lot of guard rails around that statement... Obviously, you shouldn't be writing 200 and 300-line functions. I don't know, I think errors should in some way describe what the error actually is, even if you put an n, or a g in front of it.
+**Steve High:** Oh, man... Yeah, I shared this with Dan yesterday, and he didn't like it at all, so I'm pretty sure this is unpopular. I think the overuse of err as an error variable - I think it makes code harder to read. Now, there's a lot of guard rails around that statement... Obviously, you shouldn't be writing 200 and 300-line functions. I don't know, I think errors should in some way describe what the error actually is, even if you put an N, or a g in front of it.
 
 I don't know, I see the reuse of err too much, and to me it just makes code a little harder to read. As a corollary to that, I think there is another part of the language that people don't use that often, and that is naked braces. You just have two mustache braces, and then -- to me, I look at the code and I can just totally read it a lot cleaner, even though it does some things with scope as well... It just makes things a lot easier to read. An old guy like me, with failing eyes, it's really hard for me to figure out where that err began. I just can't. So just give it a better name, that's my opinion.
 

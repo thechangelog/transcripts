@@ -472,7 +472,7 @@ So that's the goal here - I want the design community to realize that they could
 
 **Jerod Santo:** No we didn't. We'll have to have you come back on, but we're hitting up against our bumper of time, so... Final words from you about VisBug, about what you're trying to do, maybe a call to action for people who are interested...? What are your final words for us in the community?
 
-**Adam Argyle:** Yeah, final words - hey, developers, go show your designers what this can do. Go double-click some text. And don't stop at your designers; I want you to go show your PMs, I want you to go show your UX writers, your content writers... Anybody that participates n your front-end, I want them to feel like they can go understand and inspect, and feel like they can tweak this.
+**Adam Argyle:** Yeah, final words - hey, developers, go show your designers what this can do. Go double-click some text. And don't stop at your designers; I want you to go show your PMs, I want you to go show your UX writers, your content writers... Anybody that participates N your front-end, I want them to feel like they can go understand and inspect, and feel like they can tweak this.
 
 And this is the other thing - I want you to tell those designers, go make a GitHub account, go put an issue on this repo, and go watch what happens as other people want that feature too, and start to get involved in GitHub. I want designers on GitHub. There you go, that's sort of the final thing.
 

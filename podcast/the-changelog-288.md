@@ -122,7 +122,7 @@ You know, it's very hard to separate yourself from your code, right? So I though
 
 **Jerod Santo:** But yeah, absolutely.
 
-**Suz Hinton:** I have a funny story about that. When I first entered the Node.js ecosystem and saw NPM the package manager, I actually asked "Oh, who do you ask for permission to publish a library? How do you get somebody to review your library to see if it's good enough to be on NPM?" and people just laughed at me. They're like "You just publish it, you just push it", and I was like "What does that even mean?" Because I'm so -- even though I grew up basically having access to the internet maybe shortly after I was a teenager, I still felt that there were just certain parts where you had to prove yourself first, or you had to be good enough in order to be able to publish.
+**Suz Hinton:** I have a funny story about that. When I first entered the Node.js ecosystem and saw npm the package manager, I actually asked "Oh, who do you ask for permission to publish a library? How do you get somebody to review your library to see if it's good enough to be on npm?" and people just laughed at me. They're like "You just publish it, you just push it", and I was like "What does that even mean?" Because I'm so -- even though I grew up basically having access to the internet maybe shortly after I was a teenager, I still felt that there were just certain parts where you had to prove yourself first, or you had to be good enough in order to be able to publish.
 
 **Break:** \[22:09\]
 

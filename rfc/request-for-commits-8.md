@@ -66,7 +66,7 @@ So I was able to get some help building out Sentry for our needs at Disqus, but 
 
 **Mikeal Rogers:** Not in part, I mean in whole. \[laughter\]
 
-**David Cramer:** Yeah, basically Ryan Dahl was like, "Hey, come work on Node. I need somebody to help with this thing that Joyent is paying me to do", and I happened to be jobless at the time when he said that, so it worked out. But no, I always maintain that NPM was my thing and not Joyent's thing.
+**David Cramer:** Yeah, basically Ryan Dahl was like, "Hey, come work on Node. I need somebody to help with this thing that Joyent is paying me to do", and I happened to be jobless at the time when he said that, so it worked out. But no, I always maintain that npm was my thing and not Joyent's thing.
 
 Honestly, I think it's sort of tricky -- I don't wanna speak for Joyent, obviously; it's a whole different company than it was when I got hired, and it was a whole different company when I left than when I got hired. It's a whole different company now. But I think for a lot of the time, the view of npm was that it was sort of this thing that's attached to Node.
 
@@ -114,7 +114,7 @@ So we had a little bit of that, but from our actual customers and our actual use
 
 Longer term we're looking at how we monetize the enterprise without creating what I call crippleware - that is like an open core product. We're trying to prove that we can be successful without that, and I think we can. So we've started exploring some of that, but fundamentally the SaaS is what's gotten us off the ground.
 
-**David Cramer:** For npm, we have two main products. One is Npm Enterprise, which is a standalone registry that you can spin up really easily inside of your company's infrastructure, and it integrates with SAML or LDAP or whatever special snowflake authorization/authentication system you might have.
+**David Cramer:** For npm, we have two main products. One is npm Enterprise, which is a standalone registry that you can spin up really easily inside of your company's infrastructure, and it integrates with SAML or LDAP or whatever special snowflake authorization/authentication system you might have.
 
 Then we have a private modules SaaS system that you can use for organizations and teams. We shipped private modules for individuals and then about six months later added the organizational and team features, and what's really interesting is you can see from the registration graphs and the new customer signup graphs that the individual product was not the product, it's not what people actually want. The folks are willing to pay or are paying for organization and team features. That's about evenly split between our SaaS and enterprise products right now. In all of our early customer conversations when we were trying to figure out exactly what we should go build, what we found was about half of the people said, "No, no, no... We're never gonna be able to put our code anywhere other than in our infrastructure, and multi-tenancy is absolutely a no-go for us."
 
@@ -166,7 +166,7 @@ We use a ton of SaaS at npm. We use AWS, we use Joyent, we use Fastly... It woul
 
 **Nadia Eghbal:** \[36:10\] Totally.
 
-**David Cramer:** Npm is a business built around a workflow which has been pioneered in an open source community, so we're not really selling our open source thing; what we're selling is some tools to make it easier to use this open source workflow, which is a little bit of like a subtle thing to wrap your head around. I think Sentry is a similar kind of thing, it's an open source product; you can use it, you can have it. What you're really selling is the service, and that's a thing that is like "Yes, of course I will pay for that, because the alternative is I pay even more for it."
+**David Cramer:** npm is a business built around a workflow which has been pioneered in an open source community, so we're not really selling our open source thing; what we're selling is some tools to make it easier to use this open source workflow, which is a little bit of like a subtle thing to wrap your head around. I think Sentry is a similar kind of thing, it's an open source product; you can use it, you can have it. What you're really selling is the service, and that's a thing that is like "Yes, of course I will pay for that, because the alternative is I pay even more for it."
 
 **Nadia Eghbal:** Yeah, even the term "open source business" is not really actually a term; it's like a business that might have a component to it that's open source, but how that is monetized, or whether it's even relevant to the business itself seems to vary a lot. A lot of companies now that are saying they're an open source business or they open source a certain aspect of their products, and they do it for recruiting and they do it because they're trying to build a platform and attract all these developers to it and whatever. Those things are I think very different from what npm or Sentry does.
 
@@ -232,7 +232,7 @@ I think it's actually kind of rare that there are companies like npm or Automatt
 
 **Nadia Eghbal:** David, how about Sentry? Are they Sentry employees or are they themselves?
 
-**Isaac Schlueter:** It's very different for Sentry, just because we're not a community. Npm has tons and tons of users and they interact heavily with their own code, their own projects through npm, whereas Sentry it's like you're using our product, the product that we built. I very much believe that everyone at Sentry is acting on behalf of Sentry, but as themselves. Their interests are Sentry's interests, that is the company and the project; we think of them as kind of one and the same. But it's not a community as a whole. It's very much like, "Hey, we're all of the same mindset, we all wanna build this thing. This is our singular voice and how this thing is gonna be built."
+**Isaac Schlueter:** It's very different for Sentry, just because we're not a community. npm has tons and tons of users and they interact heavily with their own code, their own projects through npm, whereas Sentry it's like you're using our product, the product that we built. I very much believe that everyone at Sentry is acting on behalf of Sentry, but as themselves. Their interests are Sentry's interests, that is the company and the project; we think of them as kind of one and the same. But it's not a community as a whole. It's very much like, "Hey, we're all of the same mindset, we all wanna build this thing. This is our singular voice and how this thing is gonna be built."
 
 **Nadia Eghbal:** Does this affect how you think about recruiting? Are you looking for people that are...? I mean obviously, probably people that have already been involved with Sentry, or care about it, or think about, but do you that sort of like strengthens that unified voice if you're hiring someone who is already involved with the project and already feels like they're a part of it?
 

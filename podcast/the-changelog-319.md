@@ -188,7 +188,7 @@ So then you have module-level dead code elimination, aka tree shaking, which is 
 
 **Jerod Santo:** That's super-cool. So it does all the transitive dependencies and stuff to figure out which functions those functions are calling, and so on... So you're not gonna be missing a function at the end of the day.
 
-**Richard Feldman:** Exactly. Now, this is really cool, and it's one of the big reasons that Elm 0.19 was able to get such a small bundle size. However many dependencies we pull in - it doesn't really matter how big they are; all it matters is how big are the things we actually use. And the reason we're able to do this is that Elm has its own totally separate package ecosystem from Npm. That whole SPA example doesn't actually use Npm at all. It's just only using Elm packages.
+**Richard Feldman:** Exactly. Now, this is really cool, and it's one of the big reasons that Elm 0.19 was able to get such a small bundle size. However many dependencies we pull in - it doesn't really matter how big they are; all it matters is how big are the things we actually use. And the reason we're able to do this is that Elm has its own totally separate package ecosystem from npm. That whole SPA example doesn't actually use npm at all. It's just only using Elm packages.
 
 As a consequence of that, it means you get the system-wide dead code elimination, which is really great, but it also means that it's kind of hard to measure what percentage of this is X, versus Y, versus Z, because it's kind of like, well, what even is Elm's baseline? And the answer is, well, it kind of depends on how much of it you're using.
 
@@ -278,17 +278,17 @@ For us, honestly, the bigger benefit is the compile time, because now we've got 
 
 **Richard Feldman:** Yup.
 
-**Jerod Santo:** So Npm isn't even touched. Now, the gift and the curse of Npm is there's so much out there, right?
+**Jerod Santo:** So npm isn't even touched. Now, the gift and the curse of npm is there's so much out there, right?
 
 **Richard Feldman:** Yeah.
 
-**Jerod Santo:** Every piece of code in the universe is on Npm somehow... So when we talk about community and advantages, how much has Elm at a disadvantage in terms of packages that developers need, versus Npm? I just think of that because of the limiting factor of you're waiting on some packages, they haven't been updated yet, and I wonder how big is the package ecosystem?
+**Jerod Santo:** Every piece of code in the universe is on npm somehow... So when we talk about community and advantages, how much has Elm at a disadvantage in terms of packages that developers need, versus npm? I just think of that because of the limiting factor of you're waiting on some packages, they haven't been updated yet, and I wonder how big is the package ecosystem?
 
-**Richard Feldman:** That's a good question. I don't know the exact number of packages, but I know that Npm being the biggest in the world is a lot bigger, there's no doubt.
+**Richard Feldman:** That's a good question. I don't know the exact number of packages, but I know that npm being the biggest in the world is a lot bigger, there's no doubt.
 
 **Jerod Santo:** Yeah.
 
-**Richard Feldman:** \[40:00\] I see it in a couple different ways. One is Elm does have JavaScript interop. If worse came to worst, if I was starting a brand new project and there was some package on Npm that I was like "I can't live without this package", I would necessarily have to rewrite it in Elm. I could probably just do JavaScript interop and just get by with that. Of course, if I do that, then that chunk of code doesn't get me all of Elm's guarantees, all of its benefits, the function-level dead code elimination is not there...
+**Richard Feldman:** \[40:00\] I see it in a couple different ways. One is Elm does have JavaScript interop. If worse came to worst, if I was starting a brand new project and there was some package on npm that I was like "I can't live without this package", I would necessarily have to rewrite it in Elm. I could probably just do JavaScript interop and just get by with that. Of course, if I do that, then that chunk of code doesn't get me all of Elm's guarantees, all of its benefits, the function-level dead code elimination is not there...
 
 **Jerod Santo:** Right.
 
@@ -364,7 +364,7 @@ Philosophically, I think the phrase Evan used was "I built Elm because I wanted 
 
 **Jerod Santo:** Surely you've heard some of those people where they say, "Yeah, this just isn't the way I like it" or "That's up to snuff" or "I just can't get over this, that or the other thing." What are some things people have been saying of why they don't adopt Elm?"
 
-**Richard Feldman:** \[56:01\] That's a great question. You're right, I am very plugged into that, and I can rattle off a list... I would say they break down into a couple different categories. A common one is team buy-in. There'll be one person on the team who's really excited about Elm, and everybody else on the team is just kind of like "We don't really care. We don't wanna learn a new language", and the idea just kind of dies on the vine. That said - well, it happens, but at the same time, teams have to work together. I don't think there's really much hope for a success of adoption something (any technology) if only one out of n people actually wants to use it. So that's certainly a barrier.
+**Richard Feldman:** \[56:01\] That's a great question. You're right, I am very plugged into that, and I can rattle off a list... I would say they break down into a couple different categories. A common one is team buy-in. There'll be one person on the team who's really excited about Elm, and everybody else on the team is just kind of like "We don't really care. We don't wanna learn a new language", and the idea just kind of dies on the vine. That said - well, it happens, but at the same time, teams have to work together. I don't think there's really much hope for a success of adoption something (any technology) if only one out of N people actually wants to use it. So that's certainly a barrier.
 
 Another one that comes to mind is basically the learning curve. Elm is a different programming language. That's just an innately higher learning curve than learning a library, learning a framework... I kind of think that's the progression. A library tens to have the lowest learning curve, a framework is more than that, a language is more than that... Especially because sometimes when you get into languages, people end up with roadblocks that are not necessarily matters of "It's too difficult to learn", but rather than people are just not interested in learning because there's some aesthetic turn-off. Elm does have a different syntax than JavaScript.
 

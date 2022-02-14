@@ -185,7 +185,7 @@ I feel like UI people actually have an easier time on-boarding than people that 
 
 **Rachel White:** \[27:59\] It depends on the on-boarding, obviously. If you can set somebody up with good documentation, then yeah, that's good. I feel like even five years ago there was still not great documentation for a ton of front-end UI stuff... At least I didn't have a good time with it.
 
-**Mikeal Rogers:** If you're getting into JavaScript for robotics - or JavaScript hardware stuff in general - there's a lot of libraries out there, everything in NPM; there's maybe even more embedded systems that support this. It's like the Atari 2600 days of computing, everybody's got their own specialized board...
+**Mikeal Rogers:** If you're getting into JavaScript for robotics - or JavaScript hardware stuff in general - there's a lot of libraries out there, everything in npm; there's maybe even more embedded systems that support this. It's like the Atari 2600 days of computing, everybody's got their own specialized board...
 
 You mess with a lot of these, Rachel. What do you recommend that people pick up as a first introductory set of hardware, and what libraries would you point them to?
 
@@ -225,7 +225,7 @@ There's a question about IDEs... So I've never used IDEs, I've always used strai
 
 It's really good... So Mikeal's looking for a new computer, right? \[laughs\] And he's like asking people "What should I get?" Well, he just wants a laptop. But the reason I bring this up is because he said it on Facebook, and some guy in his comments was like "Ugh, dev work on a Windows machine?", and just wanted to be like "Have you even tried?", because... I don't know, it's just so nice, especially with Git for -- I don't know how to say this word correctly... Ubuntu? The Bash for that on Windows is fantastic. I have it running inside of Hyper, which is great. My terminal and my code editor are beautiful, and they run great and they're fast.
 
-**Mikeal Rogers:** Yeah, that was a weird comment, especially because -- I mean, we have statistics on this from NPM, but there are more Windows users of NPM and NodeJS than there are Mac users.
+**Mikeal Rogers:** Yeah, that was a weird comment, especially because -- I mean, we have statistics on this from npm, but there are more Windows users of npm and NodeJS than there are Mac users.
 
 **Adam Stacoviak:** Really?
 
@@ -237,7 +237,7 @@ It's really good... So Mikeal's looking for a new computer, right? \[laughs\] An
 
 But before we get off of IDEs, I did wanna just -- I wanna get a list of your extensions, Rachel, because I've just found some new, interesting extensions that I'm really happy about. So you can put @installed into the extensions thing, and that will show you the ones you have installed.
 
-I have the JS Standard Linter installed, I have NPM Intellisense, so that will actually do auto-completion for the NPM packages that you have. And obviously, the regular kind of Intellisense.
+I have the JS Standard Linter installed, I have npm Intellisense, so that will actually do auto-completion for the npm packages that you have. And obviously, the regular kind of Intellisense.
 
 Also Search Node Modules I think is really cool. It searches your Node modules directory for autocompletion as well.
 

@@ -6,7 +6,7 @@
 
 **Alex Koutmos:** I think it's gotta be like six years now. I read Saša Juric's book "Elixir in Action" back in 2015, and I was hooked on the Beam since then. Yeah, I guess since 2015 I've been working on the Beam.
 
-**Gerhard Lazu:** That sounds awesome. So the way I know you, Alex, is from the work that you've been doing on the Changelog app, which happens to be an Elixir/Phoenix/Erlang behind the scenes app. You've been doing some fantastic optimizations, especially with those n+1 queries. Thank goodness for that, because the website will be much slower without...
+**Gerhard Lazu:** That sounds awesome. So the way I know you, Alex, is from the work that you've been doing on the Changelog app, which happens to be an Elixir/Phoenix/Erlang behind the scenes app. You've been doing some fantastic optimizations, especially with those N+1 queries. Thank goodness for that, because the website will be much slower without...
 
 **Alex Koutmos:** Oh, yeah.
 

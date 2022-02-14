@@ -214,7 +214,7 @@ So the way that actors talk to each other is by having reference to other actors
 
 With XState, the architecture is really about simplifying, and having everything in terms of isolated behaviors and message passing... And that's pretty much it. So I feel like that makes your logic a lot more predictable, and it's something that you could even extract and communicate with non-technical people.
 
-**Amal Hussein:** For sure, yeah. I think that's the whole -- it helps you decouple your design and discovery process, and I have to give credit to Alec Levoy who's a teammate of mine at Indigo, who was the first person who introduced me to XState. I had spent a few years kind of away from frontend explicitly... So I was at Npm, and I was just doing things with Electron before that... So I kind of came back into the frontend world, and then all of a sudden XState was a thing. Alec introduced me to it, and he was really trying to push us creating state machines with our designers and incorporating that into our development process, because it's like -- you get this artifact that you can then code against, because "Here's your spec. Here's this flow chart." You can host it somewhere, you can put it in a GitHub issue... And it's this thing that helps you decouple the design and discovery process and just makes sure that you've got all your error states, you've kind of thought through all the different scenarios, and then you can decide what you wanna support in this iteration and what you don't; build in placeholders... And it's just a really great communication tool, so kudos for doing that. And kudos to Alec, you know...?
+**Amal Hussein:** For sure, yeah. I think that's the whole -- it helps you decouple your design and discovery process, and I have to give credit to Alec Levoy who's a teammate of mine at Indigo, who was the first person who introduced me to XState. I had spent a few years kind of away from frontend explicitly... So I was at npm, and I was just doing things with Electron before that... So I kind of came back into the frontend world, and then all of a sudden XState was a thing. Alec introduced me to it, and he was really trying to push us creating state machines with our designers and incorporating that into our development process, because it's like -- you get this artifact that you can then code against, because "Here's your spec. Here's this flow chart." You can host it somewhere, you can put it in a GitHub issue... And it's this thing that helps you decouple the design and discovery process and just makes sure that you've got all your error states, you've kind of thought through all the different scenarios, and then you can decide what you wanna support in this iteration and what you don't; build in placeholders... And it's just a really great communication tool, so kudos for doing that. And kudos to Alec, you know...?
 
 **David Khourshid:** Yeah, yeah.
 
@@ -270,7 +270,7 @@ So those are really useful for communicating how different systems or different 
 
 **Amal Hussein:** Estadito, there we go.
 
-**David Khourshid:** I think I still have the Npm name, so I might do something with it, just as an Easter egg, or something...
+**David Khourshid:** I think I still have the npm name, so I might do something with it, just as an Easter egg, or something...
 
 **Amal Hussein:** Just publish copies of what's the latest main branch onto there too, so people can choose to use that package.
 

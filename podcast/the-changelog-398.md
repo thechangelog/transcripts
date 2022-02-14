@@ -250,7 +250,7 @@ Also, we don't pay people for their experience at a particular company... And th
 
 **Jerod Santo:** I agree.
 
-**Jessica Kerr:** Yeah, I'm happy about it. I'm happy that they bought GitHub and Npm. That's sweet. But VS Code...
+**Jessica Kerr:** Yeah, I'm happy about it. I'm happy that they bought GitHub and npm. That's sweet. But VS Code...
 
 **Jerod Santo:** You're happy they're doing VS Code, yeah.
 
@@ -498,7 +498,7 @@ So I can be in "just follow what Avdi is looking at" mode for a while, and then 
 
 **Jerod Santo:** We're back to restarting Windows...
 
-**Jessica Kerr:** I keep forgetting, and I get really frustrated. But Npm install, with the number of files, when it's downloading thousands and thousands of files into that directory - oh, that can kill it...
+**Jessica Kerr:** I keep forgetting, and I get really frustrated. But npm install, with the number of files, when it's downloading thousands and thousands of files into that directory - oh, that can kill it...
 
 **Jerod Santo:** That is no bueno.
 

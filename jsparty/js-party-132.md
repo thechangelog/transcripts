@@ -324,9 +324,9 @@ So maybe I just wanna say "Look, I trust this Google script. Let it do whatever 
 
 **Feross Aboukhadijeh:** Yeah, it's pretty cool. Anyway, if you're having trouble deploying CSP, I highly recommend taking a look at that. It makes it a lot more practical, and it makes it so that you can actually get it right, without having to guess and to maintain these long lists of domains.
 
-The other thing I've seen a lot of sites do wrong when they're trying to deploy CSP, too - it's pretty funny, there are sites that just end up listing so many domains in their CSP,leaving less things like those JavaScript CDNs, they'll let code come from a JavaScript CDN. The problem with that is those CDNs are hosting everything on Npm, so if you're an attacker and you wanna run code and you figure out how to get your script tag into this victim website, then all you need to do to run your code is you just put something on Npm, the CDN will host it, and then you can just refer to it and they're gonna allow it. So you can't allow a source where anyone can publish code to it, or else it's not doing you any good.
+The other thing I've seen a lot of sites do wrong when they're trying to deploy CSP, too - it's pretty funny, there are sites that just end up listing so many domains in their CSP,leaving less things like those JavaScript CDNs, they'll let code come from a JavaScript CDN. The problem with that is those CDNs are hosting everything on npm, so if you're an attacker and you wanna run code and you figure out how to get your script tag into this victim website, then all you need to do to run your code is you just put something on npm, the CDN will host it, and then you can just refer to it and they're gonna allow it. So you can't allow a source where anyone can publish code to it, or else it's not doing you any good.
 
-**Nick Nisi:** These days it might just be easier to get your malicious code into the Npm module...
+**Nick Nisi:** These days it might just be easier to get your malicious code into the npm module...
 
 **Divya:** \[laughs\]
 

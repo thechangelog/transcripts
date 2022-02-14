@@ -216,7 +216,7 @@ Yeah, so I think there are definitely ways of improving the performance, improvi
 
 I remember at some point in the future the person running the open source project got in touch with me and was like "Hey, you're kind of using my name." I'm like, "Oh, sorry... I thought the project was dead. I didn't realize that it was still going on..." \[laughter\] But the thing is that yeah, obviously, I feel pretty certain that web-based jQuery is far more popular than the jQuery Java SQL querying thing... \[laughs\] But yeah, I did feel a little bit bad about that.
 
-**Suz Hinton:** This is such a classic naming problem, you know what I mean? Like, "Is the domain available? Is there already a project called this?" These days it's like "Is the name taken on Npm?"
+**Suz Hinton:** This is such a classic naming problem, you know what I mean? Like, "Is the domain available? Is there already a project called this?" These days it's like "Is the name taken on npm?"
 
 **Jerod Santo:** Right. The age-old programming problem is naming things, and cache invalidation, and off-by-one errors.
 

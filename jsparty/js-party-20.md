@@ -34,13 +34,13 @@ So I love that about it. I definitely treat it like a layered cake, and I prefer
 
 **Safia Abdalla:** Yeah, I think my passion for JavaScript intersects a little bit with some of the things that you mentioned about liking the ubiquity and usability of the language. I do like a lot of the innovations with respect to the things that are happening with the actual grammar and language functionality, that are coming out in ES6, and some of the things that TC39 is proposing.
 
-But my biggest interest in JavaScript is the community and how open everything is... Especially because over the past couple of months on my blog I've been regularly writing about what I call the Code Reading Rainbow Series. It's where I read open source project code, and try and dissect how it came about and what it does, and learn a little bit more about it by actually reading the code, and I think it's so wonderful that mostly everything on NPM is open source, and you can go and take a look into how the tools that you use every day work, and that that's available to you is so fantastic and wonderful. So the openness is a big factor for me.
+But my biggest interest in JavaScript is the community and how open everything is... Especially because over the past couple of months on my blog I've been regularly writing about what I call the Code Reading Rainbow Series. It's where I read open source project code, and try and dissect how it came about and what it does, and learn a little bit more about it by actually reading the code, and I think it's so wonderful that mostly everything on npm is open source, and you can go and take a look into how the tools that you use every day work, and that that's available to you is so fantastic and wonderful. So the openness is a big factor for me.
 
 **Jerod Santo:** Very cool, and we should say I first met Safia about a year ago at OSCON. Was that in Austin...?
 
 **Safia Abdalla:** Yes.
 
-**Jerod Santo:** And at the time, you had released a bunch of NPM modules, specifically a lot of command line tools that were very much popular amongst developers. Ever since then, I've been following your blog and you write quite prolifically; I can barely read them as fast as you can put them out. How do you get that done?
+**Jerod Santo:** And at the time, you had released a bunch of npm modules, specifically a lot of command line tools that were very much popular amongst developers. Ever since then, I've been following your blog and you write quite prolifically; I can barely read them as fast as you can put them out. How do you get that done?
 
 **Safia Abdalla:** I've just been trying to get myself into a habit of committing to things and building a lifestyle around consistency. One of the big things that I wanted to do was to become a better writer and start holding myself accountable to publishing blog posts three times a week - on Mondays, Wednesdays and Fridays. So it's part me hoping to learn new things and expand my knowledge as a developer, part me trying to become more disciplined and committed to a particular project, and then part wanting to become a better writer.
 

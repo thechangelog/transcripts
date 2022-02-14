@@ -92,7 +92,7 @@ Then there is RedisGraph, which adds graph capabilities. I know all these module
 
 **Daniel Whitenack:** \[16:13\] I'm so glad you're calling this out, because I actually got burned by this very issue on a project where we were trying to implement a graph database, and I mistakenly chose a graph layer on top of MongoDB (which is another database) and it was so slow. Basically, the graph logic was really interesting and good for the project, but we got burned because of this issue that you're talking about... So thanks for explaining that.
 
-**Pieter Cailliau:** Yeah, so the difference is then you have graph native, you have an O(1) time complexity to go from one node to another node. So instead of an O(log n) in a relational database. And typically, you try to keep the data as close as possible, residing in the same key, effectively.
+**Pieter Cailliau:** Yeah, so the difference is then you have graph native, you have an O(1) time complexity to go from one node to another node. So instead of an O(log N) in a relational database. And typically, you try to keep the data as close as possible, residing in the same key, effectively.
 
 Then you've got RedisBloom, which is a set of probabilistic data structures, like a Bloom Filter, a Cuckoo Filter, we also have a Top-K... We've got RedisJSON, which is going to take your JSON document and it's going to split it up inside a tree, so that in an atomic operation, in a large JSON document, you could for example append some data to an array, but you could increment a numeric value inside your JSON documents without having to fetch it and putting it back.
 

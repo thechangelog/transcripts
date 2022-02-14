@@ -30,7 +30,7 @@ This has been problematic for a number of reasons. One is that this really locks
 
 If you've ever upgraded a major version of Node, you've probably had to recompile some of your projects in order to work. If you're on the frontend, it's probably because of the SaaS library - there's a really popular SaaS library written in C. If you do database stuff, it's probably the level ecosystem, if you do robots it's probably Serial Port; Serial Port is a native module and it needs to get down in the depth there...
 
-There aren't that many native modules in the native ecosystem, but if you crawl through the deep dependencies, the depths of depths of depths, about 30% of the modules in NPM are indirectly dependent on some kind of native module. Breaking all of those at a release sucks, nobody wants to do that.
+There aren't that many native modules in the native ecosystem, but if you crawl through the deep dependencies, the depths of depths of depths, about 30% of the modules in npm are indirectly dependent on some kind of native module. Breaking all of those at a release sucks, nobody wants to do that.
 
 If another feature impacted 30% of the ecosystem, Node.js would do everything that it could to ensure that that never broke between major releases. Nothing that impacts the ecosystem that much, other than native modules, would ever be considered in the core project.
 
@@ -92,7 +92,7 @@ A lot of modules actually use NaN for maybe 90% of what they do, and then they h
 
 **Mikeal Rogers:** This module looks like pure JavaScript. This looks like it's not a native module, though.
 
-**Alex Sexton:** Okay... Feels very nativey. Whenever you download it, you have to get the Node headers.tar.gz thing, and that broke this past week whenever NPM went down.
+**Alex Sexton:** Okay... Feels very nativey. Whenever you download it, you have to get the Node headers.tar.gz thing, and that broke this past week whenever npm went down.
 
 **Mikeal Rogers:** Oh, wow.
 
@@ -106,7 +106,7 @@ A lot of modules actually use NaN for maybe 90% of what they do, and then they h
 
 **Alex Sexton:** So the answer is "no".
 
-**Mikeal Rogers:** Yeah, yeah... Another really annoying bit of this too is if you've done any Electron development, Electron has its own version of Node in it, with its own version of V8. If you have native modules, you need to compile them, not against the command line Node and command line NPM that you run on the command line to install the native module, but you actually need to compile them against the V8 and Node that Electron uses and Electron has, so there's all this crazy work that you have to do to swap out the header locations and make all that stuff work as well.
+**Mikeal Rogers:** Yeah, yeah... Another really annoying bit of this too is if you've done any Electron development, Electron has its own version of Node in it, with its own version of V8. If you have native modules, you need to compile them, not against the command line Node and command line npm that you run on the command line to install the native module, but you actually need to compile them against the V8 and Node that Electron uses and Electron has, so there's all this crazy work that you have to do to swap out the header locations and make all that stuff work as well.
 
 Hopefully this will also make that a lot easier to deal with, because if they're all just bound to the same API, then they can just get compiled and be hunky-dory... Hopefully. We'll see. It's still very early days, but that's the goal - the goal is to make everybody's life easier, and to eventually also have many VMs that support Node.js, so you can run Node.js on all these really tiny microcontrollers and devices, and they can have custom-built engines that work really well for those devices.
 

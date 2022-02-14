@@ -420,7 +420,7 @@ Ladies first, we'll have Amelia and Divya, please step right up. Round one will 
 
 **Chris Coyier:** Interesting. So there's a missing three.
 
-**Jerod Santo:** Number three was React... And number five was Npm.
+**Jerod Santo:** Number three was React... And number five was npm.
 
 **Chris Coyier:** Fair enough...
 

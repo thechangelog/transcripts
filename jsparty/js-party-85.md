@@ -264,7 +264,7 @@ One thing that I didn't recognize was that a big part of their business is peopl
 
 **Jerod Santo:** Let's just say it's a very appropriate answer. Yeah... It's awesome. So Antoni, listen to that; listeners, listen to that if you haven't yet. It's a great episode.
 
-**Antoni Kepinski:** Also, in terms of PizzaQL I haven't implemented the payment system. The reason behind it is because in the U.S. I think Stripe has a really good API so that you can implement checkout in your apps. Unfortunately, Stripe is not yet supported in Poland. It is in private beta that I can't get into, unfortunately... And other companies in Poland don't have good APIs, Npm packages or something like that... And that's really disappointing.
+**Antoni Kepinski:** Also, in terms of PizzaQL I haven't implemented the payment system. The reason behind it is because in the U.S. I think Stripe has a really good API so that you can implement checkout in your apps. Unfortunately, Stripe is not yet supported in Poland. It is in private beta that I can't get into, unfortunately... And other companies in Poland don't have good APIs, npm packages or something like that... And that's really disappointing.
 
 **Mikeal Rogers:** Maybe we can get you into that beta. Alex Sexton works at Stripe, and he's an old co-host for this podcast, so... We might be able to get you in. We'll just poke him about it.
 

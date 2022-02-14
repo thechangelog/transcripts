@@ -268,7 +268,7 @@ It doesn't sound at first like it would make sense to be a strategy in inclusivi
 
 **Adam Stacoviak:** ...to the well.
 
-**Tracy Hinds:** Yeah. A lot of events - and it's not just events that would like help, but a lot of them see the challenges around sponsorships or getting money, and they want money. But that doesn't actually sustain their project or their organization. So having folks who would like to offer advice, or having a repo where we talk about these things... Because it's not just about money, it's also about the challenges, about not having internet and trying to NPM install everything.
+**Tracy Hinds:** Yeah. A lot of events - and it's not just events that would like help, but a lot of them see the challenges around sponsorships or getting money, and they want money. But that doesn't actually sustain their project or their organization. So having folks who would like to offer advice, or having a repo where we talk about these things... Because it's not just about money, it's also about the challenges, about not having internet and trying to npm install everything.
 
 \[35:54\] I saw that with Node School early on, how much the organizers helped one another with that. I mean, I was one of them, and that helped us all rise in our local groups, and really build communities there. But we're seeing new rounds of support needed, such as... Maybe one of those orgs wants to establish governance, and they know that we're slightly more experienced at it than them.
 
@@ -298,7 +298,7 @@ Having folks that are on the ground like that gives you a less myopic perspectiv
 
 **Tracy Hinds:** Yeah. So those sorts of visits were really awesome, because it also opened us. Mikeal Rogers and I, we try and meet new people all the time, we have tons of emails and DMs and conversations on GitHub, and it's so not enough; those networks are still walled, in some ways.
 
-Beijing was an especially powerful visit for finding out how was behind the Great Firewall. We knew we were gonna run into some surprises, we just didn't know how rich that community would be, and we have no connection to it. So that's... They're running their own NPM.
+Beijing was an especially powerful visit for finding out how was behind the Great Firewall. We knew we were gonna run into some surprises, we just didn't know how rich that community would be, and we have no connection to it. So that's... They're running their own npm.
 
 **Adam Stacoviak:** \[40:01\] It's the language barrier and it's also the actual firewall barrier, so you get two huge hurdles to tackle when it comes to opening the doors to be more inclusive to China.
 

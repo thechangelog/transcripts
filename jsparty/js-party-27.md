@@ -18,7 +18,7 @@ First off, we've got Nick Nisi.
 
 **Alex Sexton:** I think cheating is immutable, right? That's pretty irreplaceable.
 
-**Christopher Hiller:** I'm gonna go with NPM. I think that's somewhat irreplaceable.
+**Christopher Hiller:** I'm gonna go with npm. I think that's somewhat irreplaceable.
 
 **Kevin Ball:** Alright. So before we get started, I wanna make you all feel comfortable with being ridiculous, so I'm gonna lay down a challenge to Jerod. Jerod started off JS Party with a rap at one point, so I prepared a little rap to intro you guys. It's terrible. Just to throw that out there - it's terrible, but after this, no matter what you say, you know you're less ridiculous than I was.
 
@@ -120,9 +120,9 @@ The other big win that I think we got at Stripe for dev mode stuff is turn off m
 
 **Nick Nisi:** Yeah, they make it really easy to get up and running in a project. I'm not sure if they'll have long-term effects of abstracting away those underlying pieces; I don't think so, but... It is really nice being able to quickly get up and running with that, and also it makes sharing projects much easier. If you have to share a project for reasons like getting support or getting help on something, it's really easy to spin up a project with those tools.
 
-**Alex Sexton:** Yeah. I mean, they've become so popular that NPM has roughly built their use case into the CLI in 6 now... So there's Npm Create, which is kind of a better dependency managed version of something like Create React App or Ember CLI. You can kind of create a runner for your framework, that runs across Npm Create, but you don't need to install some global dependency to do it... So they're kind of like fixing some of the rough edges around the NPM side of things when it comes to just needing a global installer that has to be different versions for everything.
+**Alex Sexton:** Yeah. I mean, they've become so popular that npm has roughly built their use case into the CLI in 6 now... So there's npm Create, which is kind of a better dependency managed version of something like Create React App or Ember CLI. You can kind of create a runner for your framework, that runs across npm Create, but you don't need to install some global dependency to do it... So they're kind of like fixing some of the rough edges around the npm side of things when it comes to just needing a global installer that has to be different versions for everything.
 
-So you can Npm Create React App, and there's a space there now... And then that can run all the same code, but in a nicer, non-global way. So I think they're becoming so popular that we're getting first-class support for it in our baseline tooling.
+So you can npm Create React App, and there's a space there now... And then that can run all the same code, but in a nicer, non-global way. So I think they're becoming so popular that we're getting first-class support for it in our baseline tooling.
 
 **Christopher Hiller:** Yeah, a part of me wonders if your framework is so complex to need its own CLI, maybe it's too complex. But I'm just gonna throw that out there... \[laughs\]
 
@@ -305,7 +305,7 @@ If we go down - of course, it never happens - that's an incident at Stripe... Bu
 
 Then App There runs just a couple versions of Node. We don't double up on lint checks, or whatever, we don't have App There launch its own set of browser tests, because that doesn't make sense. But that's basically how we do it.
 
-And I agree... Like, I haven't seen a whole lot of deployment happening from open source projects. Usually, the world I'm in, deployment means you publish to NPM. When that does happen in CI, it seems to happen with semantic release, if you're familiar with that tool... But yeah. So there is like an artifact that we -- so we publish an artifact to S3, or maybe a handful of them, which are the bundles created by Karma... So we run our browser tests with Karma, so we basically take the browserified, karmafied test bundle and upload that to S3 if we need to debug it.
+And I agree... Like, I haven't seen a whole lot of deployment happening from open source projects. Usually, the world I'm in, deployment means you publish to npm. When that does happen in CI, it seems to happen with semantic release, if you're familiar with that tool... But yeah. So there is like an artifact that we -- so we publish an artifact to S3, or maybe a handful of them, which are the bundles created by Karma... So we run our browser tests with Karma, so we basically take the browserified, karmafied test bundle and upload that to S3 if we need to debug it.
 
 I haven't had to use that for quite a while, ever since we dropped support for IE9 or IE8... Because that was really a nightmare to debug. I would log into Sauce Labs, because we run them through Sauce Labs, and you could get into IE8, but you couldn't really see a stack trace... You'd get like a line number, so you couldn't see the code, so I'd have to go back and actually look at the bundle and match up the line number... So that's what that was for. But I would say at least in Node land, we're not deploying much of anything.
 
@@ -359,25 +359,25 @@ I haven't had to use that for quite a while, ever since we dropped support for I
 
 **Kevin Ball:** Oh, Yarn...
 
-**Alex Sexton:** My opinion - we use Yarn at Stripe. Yarn is one of those things that's gonna work fine for you if you work against it; enough people are using it to where it's good. I think it motivates the NPM team to speed some things up, and I think it's roughly good to have the competition or whatever, but also I don't feel like you're missing out on something great. I think especially NPM 6 has great features that Yarn doesn't have, as well.
+**Alex Sexton:** My opinion - we use Yarn at Stripe. Yarn is one of those things that's gonna work fine for you if you work against it; enough people are using it to where it's good. I think it motivates the npm team to speed some things up, and I think it's roughly good to have the competition or whatever, but also I don't feel like you're missing out on something great. I think especially npm 6 has great features that Yarn doesn't have, as well.
 
 **Kevin Ball:** Is it gonna go the io.js route, where they diverge for a while and eventually make good and remerge?
 
 **Alex Sexton:** That doesn't seem to be how Facebook does things. I think Facebook will dig their heels in and build more things that are custom to just them, if history serves us right. But generally, they're pretty decent tools.
 
-**Christopher Hiller:** I like Yarn just for what you've said, because it helps push NPM forward. Npm had a lot of big changes after Yarn showed up. I tend to just use NPM if I'm starting a project, but I use whatever lockfile I see.
+**Christopher Hiller:** I like Yarn just for what you've said, because it helps push npm forward. npm had a lot of big changes after Yarn showed up. I tend to just use npm if I'm starting a project, but I use whatever lockfile I see.
 
-**Alex Sexton:** Lockfiles are a massive improvement to the entire ecosystem. The shrinkwrap was a nightmare in the past... And I think a lot of criticism of Yarn was that like "Of course it's fast, it only does one eighth of what NPM does, and doesn't ensure any of these things", and the feedback that was heard was like "Well, most of the time, most people are only doing this one eighth of things."
+**Alex Sexton:** Lockfiles are a massive improvement to the entire ecosystem. The shrinkwrap was a nightmare in the past... And I think a lot of criticism of Yarn was that like "Of course it's fast, it only does one eighth of what npm does, and doesn't ensure any of these things", and the feedback that was heard was like "Well, most of the time, most people are only doing this one eighth of things."
 
-So it wasn't so much that the code for Yarn was just brilliant compared to the code for NPM. I think there was just a lot of folklore... But Yarn does a lot less than NPM does, and I think it was motivating to the team to just streamline that most common use case, and I think they have done a good job. Speed-wise it's great.
+So it wasn't so much that the code for Yarn was just brilliant compared to the code for npm. I think there was just a lot of folklore... But Yarn does a lot less than npm does, and I think it was motivating to the team to just streamline that most common use case, and I think they have done a good job. Speed-wise it's great.
 
 **Kevin Ball:** Chris, do you wanna chime in?
 
-**Christopher Hiller:** \[55:12\] No... I mean, I pretty much use NPM. The only thing I ran into with Yarn was that it had some issues... You had to pass a special flag or something to it, or else you could run into problems if you're trying to run it in two places at once.
+**Christopher Hiller:** \[55:12\] No... I mean, I pretty much use npm. The only thing I ran into with Yarn was that it had some issues... You had to pass a special flag or something to it, or else you could run into problems if you're trying to run it in two places at once.
 
 **Alex Sexton:** Yeah \[unintelligible 00:55:32.01\]
 
-**Christopher Hiller:** Yeah. But for me, I don't really know what the real value proposition is anymore, given that now NPM has all this other stuff, so... But yeah, it doesn't seem like anything that's necessarily gonna bite you in the rear for choosing it.
+**Christopher Hiller:** Yeah. But for me, I don't really know what the real value proposition is anymore, given that now npm has all this other stuff, so... But yeah, it doesn't seem like anything that's necessarily gonna bite you in the rear for choosing it.
 
 **Alex Sexton:** They have kind of versions of the same thing, like pulling in packages from local filesystem, or things like that work slightly different. The way the lockfiles store things are slightly different one is deterministic and one isn't -- maybe that is no longer true, but there are tradeoffs... Speed for consistency, or various things like that, but I don't think they're large. I think whatever you use now, if you're happy with it, use it; if it's broken, try the other one, and if it works, use that. \[laughter\] Keep doing that for the rest of your life. They're completely interchangeable from a runtime standpoint. If you know one, it's pretty easy to use the other.
 

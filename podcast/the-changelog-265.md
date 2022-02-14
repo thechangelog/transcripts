@@ -228,7 +228,7 @@ In terms of performance, it's pretty straightforward. We don't do anything fancy
 
 **Dmitry Jemerov:** Yes, and we also integrate with the native frontend too; we have a Webpack loader for Kotlin, so that if you are using Webpack you can just integrate Kotlin directly into your build process.
 
-You can install NPM modules and use them together with Kotlin code. You can also use type definitions from DefinitelyTyped; you can convert those TypeScript files into Kotlin and use them to get static types for JavaScript frameworks that you want to use from your Kotlin code. So we have put and still putting a lot of effort into the integration with the JavaScript ecosystem; even though it's evolving very quickly and it's hard to keep up with, but we are trying.
+You can install npm modules and use them together with Kotlin code. You can also use type definitions from DefinitelyTyped; you can convert those TypeScript files into Kotlin and use them to get static types for JavaScript frameworks that you want to use from your Kotlin code. So we have put and still putting a lot of effort into the integration with the JavaScript ecosystem; even though it's evolving very quickly and it's hard to keep up with, but we are trying.
 
 **Adam Stacoviak:** Something about what's coming up here - you have Kotlin Conf coming up later this year. You mentioned -- I believe it's Andrey Breslav, he's the creator of this language... Is he one of or many of the creators of this? Was it his idea or not? Just setting that case.
 

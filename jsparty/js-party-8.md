@@ -12,7 +12,7 @@ Cool, let's jump right into the documentation. We're gonna talk about what makes
 
 **Tracy Hinds:** I'll jump into it a little bit, because this is something that's just been this wonderful, sort of serendipitous week of hearing a lot about documentation. I was doing research for learning Node and kind of looking at the survey stuff that we had gotten from last winter's survey... As I was reading through all of this data that we had it was really odd, because I kept reading about what docs people were using to help learn Node. Some people were saying like, "Oh yeah, these docs are great!" and then I'm seeing other people saying, "Docs are terrible, they're substandard. What's going on?" and I was just like "What docs -- they're being really vague about it."
 
-What I found out when I dug into it was that they weren't referring to the Node API doc. They were referring to docs from authors with NPM packages.
+What I found out when I dug into it was that they weren't referring to the Node API doc. They were referring to docs from authors with npm packages.
 
 **Rachel White:** Oh...
 
@@ -92,7 +92,7 @@ Django, you know... [James Socol](https://jamessocol.com/) was giving a great ta
 
 **Tracy Hinds:** Oh, yeah.
 
-**Alex Sexton:** Kind of like a central repository for different projects docs. I think NPM kind of becomes that for a lot of JavaScript projects, because you write the readme with the docs in it, and then NPM hosts it, and you end up hitting the NPM homepage... But the ReadTheDocs thing is nice, because it's versioned, and all that kind of stuff. So you can kind of go back in time and see what the docs were for your version... They may be more uniform, as well...
+**Alex Sexton:** Kind of like a central repository for different projects docs. I think npm kind of becomes that for a lot of JavaScript projects, because you write the readme with the docs in it, and then npm hosts it, and you end up hitting the npm homepage... But the ReadTheDocs thing is nice, because it's versioned, and all that kind of stuff. So you can kind of go back in time and see what the docs were for your version... They may be more uniform, as well...
 
 **Tracy Hinds:** Yeah, I've used ReadTheDocs at least at one company, and especially it was because the founder, Eric Holscher - we worked together at Urban Airship, so we were using that... We were dogfooding it quite a bit. It was great. I'm not super stoked about writing RST, I much prefer markdown, but in terms of that, it's really useful. The documentation in ReadTheDocs is incredible... They're at least practicing what they preach.
 
@@ -200,7 +200,7 @@ There's the Node Project itself, which is comprised of the TSC, which is the Tec
 
 Then there's the Community Committee, which is very newly chartered. That is a place that was created that I helped get chartered at the beginning of this year, after we'd worked on it for quite some time, to give voice to community. So that's really interesting, because a lot of programming foundations don't have that level of voice.
 
-\[36:01\] Community is a very weird, ambiguous, handwavy word because it's communities - it's a whole ecosystem of groups around the world, and it can be people who are writing NPM packages, or it could be projects like Express, or... The TSC is part of the community, as well. Then you have all of these events, like Node School and NodeBots, who have helped keep Node a thing.
+\[36:01\] Community is a very weird, ambiguous, handwavy word because it's communities - it's a whole ecosystem of groups around the world, and it can be people who are writing npm packages, or it could be projects like Express, or... The TSC is part of the community, as well. Then you have all of these events, like Node School and NodeBots, who have helped keep Node a thing.
 
 When their code isn't changing a lot or we're not really hearing a lot from the core project itself, there are people who are still around the world, using this in production, and using this for fun, and they still need to learn this code, so those communities are really helping keep that there.
 

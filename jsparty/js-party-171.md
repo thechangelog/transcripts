@@ -28,7 +28,7 @@ We all have our reasons, so we're not here to say one true way, because there ar
 
 Now, I wanna turn to Feross for a moment and ask you a personal question, Feross... Do you write a lot of JavaScript?
 
-**Feross Aboukhadijeh:** Yeah, I actually start by installing a minimum of one thousand Npm packages before I begin.
+**Feross Aboukhadijeh:** Yeah, I actually start by installing a minimum of one thousand npm packages before I begin.
 
 **Jerod Santo:** \[laughs\] Okay... So how would react if someone said you need to write less JavaScript, Feross?
 

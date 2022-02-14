@@ -572,7 +572,7 @@ So you can imagine in this model that there's a protocol that's running over the
 
 **Chris Dias:** Yeah, so the Insider has had it for a while, and really in the last milestone we kind of held off releasing it in stable, because we wanted to do a push to make sure that the top extensions that are out there were all multi-root aware. There's sort of this very root API that had an assumption about the fact that there was one workspace, and everybody used that... So we had to make sure that people were supporting the fact that you could have multiple roots.
 
-**Jerod Santo:** Like the old singleton design principle problem... "There's only ever gonna be one of these", and then six months later you're like "It'd be great if there was two of those." \[laughter\] Or n of those, right?
+**Jerod Santo:** Like the old singleton design principle problem... "There's only ever gonna be one of these", and then six months later you're like "It'd be great if there was two of those." \[laughter\] Or N of those, right?
 
 **Chris Dias:** So that has clearly been the biggest one that people have been asking us for, and there's a long tale of things that people are looking for. The other thing we just released was the ability to have the horizontal pane that's at the bottom of the debugger (debug console terminal) - we put that to be vertical in this space. So if you've got a widescreen monitor, you can have your console on the right, the code in the middle, and the explorer is on the left.
 

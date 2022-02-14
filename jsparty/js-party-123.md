@@ -928,7 +928,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Break:** \[33:14\]
 
-**Jerod Santo:** We are back for round two. Some people call it Double Trouble, or Double Danger, or Double Down. I don't know, you pick your favorite. Our categories for this round are "Can I use?", Frameswork, Npm-Install, Bang Important, and "What a Character". Emma, you are first up. Please choose a category and a point value.
+**Jerod Santo:** We are back for round two. Some people call it Double Trouble, or Double Danger, or Double Down. I don't know, you pick your favorite. Our categories for this round are "Can I use?", Frameswork, npm-Install, Bang Important, and "What a Character". Emma, you are first up. Please choose a category and a point value.
 
 **Emma Bostian:** I'll take Important for 300, please.
 
@@ -946,9 +946,9 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** Please choose a value.
 
-**Nick Nisi:** I'll go with Npm-Install for 300.
+**Nick Nisi:** I'll go with npm-Install for 300.
 
-**Jerod Santo:** Easily run command line scripts and other binaries installed from Npm with this related command.
+**Jerod Santo:** Easily run command line scripts and other binaries installed from npm with this related command.
 
 **Nick Nisi:** What is Npx?
 
@@ -1034,15 +1034,15 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** Yes. Many tools used to generate those, and now they're just used when something's slightly off and you're like "You know what, we just want one more space in there." Okay. We go to Nick.
 
-**Nick Nisi:** Okay... You know what I'll do - I'll do Npm-Install for 400, please.
+**Nick Nisi:** Okay... You know what I'll do - I'll do npm-Install for 400, please.
 
-**Jerod Santo:** Npm famously doesn't wanna be known as the Node package manager, leading to this running joke on the company's website.
+**Jerod Santo:** npm famously doesn't wanna be known as the Node package manager, leading to this running joke on the company's website.
 
 **Nick Nisi:** What...? \[laughter\] What is Nice People Matter? \[fail sound\] I don't know...
 
 **Emma Bostian:** What?!
 
-**Jerod Santo:** Npm famously doesn't want to be known as the Node package manager, leading to this running joke on the company's website. We'll go to Scott for a steal.
+**Jerod Santo:** npm famously doesn't want to be known as the Node package manager, leading to this running joke on the company's website. We'll go to Scott for a steal.
 
 **Scott Tolinski:** Um, pass...
 
@@ -1054,19 +1054,19 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Nick Nisi:** Well, I named a different acronym.
 
-**Jerod Santo:** Yeah, but that wouldn't be a running joke, that would be a one-time joke. Nice People Matter. \[laughter\] Yes, so every time you reload Npmjs.com, or whatever the website is, it will have a new acronym, because they don't wanna be associated with Node Package Manager. So I'm just gonna apologize for that question and we're gonna move on to Scott.
+**Jerod Santo:** Yeah, but that wouldn't be a running joke, that would be a one-time joke. Nice People Matter. \[laughter\] Yes, so every time you reload npmjs.com, or whatever the website is, it will have a new acronym, because they don't wanna be associated with Node Package Manager. So I'm just gonna apologize for that question and we're gonna move on to Scott.
 
-**Scott Tolinski:** Yes! Let's get some points. Let's do Npm-Install for 200.
+**Scott Tolinski:** Yes! Let's get some points. Let's do npm-Install for 200.
 
-**Jerod Santo:** Npm-Install for 200. This Npm subcommand introduced in 2018 helps you identify and fix insecure dependencies.
+**Jerod Santo:** npm-Install for 200. This npm subcommand introduced in 2018 helps you identify and fix insecure dependencies.
 
-**Scott Tolinski:** Oh, dang. I don't know. Dependabot is always telling me about them. \[laughter\] Let's see... Sorry, people... What is Npm insecure? \[fail sound\]
+**Scott Tolinski:** Oh, dang. I don't know. Dependabot is always telling me about them. \[laughter\] Let's see... Sorry, people... What is npm insecure? \[fail sound\]
 
 **Jerod Santo:** Emma, with an opportunity to steal...
 
-**Emma Bostian:** What is Npm audit fix? \[correct sound\] I know that because all my packages are insecure... \[laughs\]
+**Emma Bostian:** What is npm audit fix? \[correct sound\] I know that because all my packages are insecure... \[laughs\]
 
-**Jerod Santo:** What is Npm audit--
+**Jerod Santo:** What is npm audit--
 
 **Scott Tolinski:** I update too frequently. I've got updates running every day. I have an update right now.
 
@@ -1272,7 +1272,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** I think you just threw Feross under the bus. Okay. Moving on. Sorry, Feross. We'll get you next time. Nick, it is your turn.
 
-**Nick Nisi:** Alright, Npm-Install for 500.
+**Nick Nisi:** Alright, npm-Install for 500.
 
 **Jerod Santo:** He's going big, and he might be going home.
 
@@ -1358,15 +1358,15 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Jerod Santo:** Scott's, okay.
 
-**Scott Tolinski:** Let's do Npm-Install for 100.
+**Scott Tolinski:** Let's do npm-Install for 100.
 
-**Jerod Santo:** Npm-Install for 100. This utility library is the number one most depended-upon package on Npm.
+**Jerod Santo:** npm-Install for 100. This utility library is the number one most depended-upon package on npm.
 
 **Scott Tolinski:** Utility library, the number one most depended-upon package. Utility library... What is Lodash?
 
 **Jerod Santo:** Very good! What is Lodash.
 
-**Nick Nisi:** Isn't Npm on Npm? Couldn't Npm be the answer?
+**Nick Nisi:** Isn't npm on npm? Couldn't npm be the answer?
 
 **Scott Tolinski:** Is it a utility library?
 
@@ -1374,7 +1374,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Scott Tolinski:** It's a CLI.
 
-**Jerod Santo:** If you go to Npm's Explore stuff, you'll find that they list Lodash as their number one depended on... So no, Nick, it can't be.
+**Jerod Santo:** If you go to npm's Explore stuff, you'll find that they list Lodash as their number one depended on... So no, Nick, it can't be.
 
 **Scott Tolinski:** Wrong.
 
@@ -1382,7 +1382,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Emma Bostian:** I feel like I need some points, so I feel like I should just go hard, maybe... Let's go like "What a Character" for 500, because I've been so successful already with that category...
 
-**Jerod Santo:** This full-time open sourcerer has over 900 source repos on GitHub and over 1,100 Npm packages. They are prolific indeed.
+**Jerod Santo:** This full-time open sourcerer has over 900 source repos on GitHub and over 1,100 npm packages. They are prolific indeed.
 
 **Scott Tolinski:** That's a lot of packages.
 
@@ -1396,7 +1396,7 @@ Our categories for the first round - this is not double-trouble, this is regular
 
 **Scott Tolinski:** No, not a chance.
 
-**Jerod Santo:** The full-time open sourcerer that has over 900 source repos on GitHub and over 1,100 Npm packages is Sindre Sorhus... Or I don't know if that's how you say the name.
+**Jerod Santo:** The full-time open sourcerer that has over 900 source repos on GitHub and over 1,100 npm packages is Sindre Sorhus... Or I don't know if that's how you say the name.
 
 **Scott Tolinski:** I would never have gotten that.
 

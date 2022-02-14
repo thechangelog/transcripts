@@ -58,7 +58,7 @@ So one of the challenges with these authenticator apps is that attackers can sti
 
 **Adam Stacoviak:** Oh, yeah.
 
-**Jerod Santo:** Yeah, so the apps like Google Authenticator, Authy etc. - they are on a rotating key. That code rotates every n seconds. I've not implemented it as a developer, I'm not sure how the server-side syncs up with that code... But setting that aside, if somebody were to phish you and get you to enter all three things, they would have n seconds to then go and sign into your actual email or whatever it is, with that code, before it expires. I think that n is like 60 seconds... I'm not sure what it is. But yes, absolutely, please tell us the best way, because I'll just do that.
+**Jerod Santo:** Yeah, so the apps like Google Authenticator, Authy etc. - they are on a rotating key. That code rotates every N seconds. I've not implemented it as a developer, I'm not sure how the server-side syncs up with that code... But setting that aside, if somebody were to phish you and get you to enter all three things, they would have N seconds to then go and sign into your actual email or whatever it is, with that code, before it expires. I think that N is like 60 seconds... I'm not sure what it is. But yes, absolutely, please tell us the best way, because I'll just do that.
 
 **Neil Daswani:** Yes, that's right. And by the way, 60 seconds is a lot of time for an attacker site to receive the two-factor code and then do an automated authentication into your account...
 

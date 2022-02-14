@@ -184,7 +184,7 @@ I think this is actually the key point to think about as you're looking at these
 
 **Emma Wedekind:** Yeah, for sure.
 
-**Kevin Ball:** Well, that can be a really valuable use case, of having a centralized design system and component library, because if you've done that and you wanna update an approach, you update it in one location and sprinkle it out. You update your symbols in Sketch, you update your components in your component library, you do an Npm package update, or however you're managing your component library, and you're done.
+**Kevin Ball:** Well, that can be a really valuable use case, of having a centralized design system and component library, because if you've done that and you wanna update an approach, you update it in one location and sprinkle it out. You update your symbols in Sketch, you update your components in your component library, you do an npm package update, or however you're managing your component library, and you're done.
 
 **Jerod Santo:** It sounds like a wonderfully utopian idea. I wonder if it ever actually works in practice. \[laughter\]
 

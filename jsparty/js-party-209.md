@@ -90,11 +90,11 @@ And with me today, co-hosting, is Jerod. Hello, Jerod.
 
 I feel "internet" is the word that always comes to mind when I'm asked big-picture what Cloudflare does. We're an internet company.
 
-**Amal Hussein:** Yeah, that makes a lot of sense. I love that that's the branding that you've taken. For me, I was exposed to the scale of Cloudflare for the first time when I was at Npm, and I realized "Oh, wow... Actually, the massive scale of Npm is pretty much -- the majority of that is actually fronted by Cloudflare, because all the cached reads for every single install is coming from Cloudflare caches.
+**Amal Hussein:** Yeah, that makes a lot of sense. I love that that's the branding that you've taken. For me, I was exposed to the scale of Cloudflare for the first time when I was at npm, and I realized "Oh, wow... Actually, the massive scale of npm is pretty much -- the majority of that is actually fronted by Cloudflare, because all the cached reads for every single install is coming from Cloudflare caches.
 
 **Jon Kuperman:** Yeah.
 
-**Amal Hussein:** \[08:09\] And many folks don't know that, but really, we're very grateful to Cloudflare and how it's actually helped the JavaScript community support Npm and Node as it was scaling. I have to wonder, if it wasn't for Cloudflare's generosity, I don't even know what we would -- I don't even know what the internet would look like, because we have like a ridiculous discount with Cloudflare. I don't even know if you're charging us even a fraction of what you should have been charging us... So thank you, Cloudflare, for supporting the JavaScript community as it was growing and scaling, and figuring itself out.
+**Amal Hussein:** \[08:09\] And many folks don't know that, but really, we're very grateful to Cloudflare and how it's actually helped the JavaScript community support npm and Node as it was scaling. I have to wonder, if it wasn't for Cloudflare's generosity, I don't even know what we would -- I don't even know what the internet would look like, because we have like a ridiculous discount with Cloudflare. I don't even know if you're charging us even a fraction of what you should have been charging us... So thank you, Cloudflare, for supporting the JavaScript community as it was growing and scaling, and figuring itself out.
 
 But I love this kind of remarketing as like a web security and performance company. So can you tell us a little bit about this shift towards being not just a CDN company, but so much more? Was it just kind of like a natural thing for Cloudflare?
 
@@ -112,7 +112,7 @@ So that's how I see the transition... But again, the CDN and the DDOS and all of
 
 **Jerod Santo:** Well played, well played.
 
-**Amal Hussein:** So that's fascinating, and I love your analogy of set it and forget it... Going from set it and forget it to more active application management. Because you're absolutely right - when I think of how I've dealt with my CDN providers, and even to some degree Cloudflare at Npm... Because we use workers, and we'll get to that in a second. But it was very much like a set it and forget it thing, because it just worked. You configure it, you set up all your routing, you set up all your mappings, and you're good to go. So now, moving more into the land of AWS, but it's almost like a lot better than AWS in many ways, because there's a lot more focus towards the needs of web development, and I would say very JavaScript-heavy applications. I think that's the interesting value prop.
+**Amal Hussein:** So that's fascinating, and I love your analogy of set it and forget it... Going from set it and forget it to more active application management. Because you're absolutely right - when I think of how I've dealt with my CDN providers, and even to some degree Cloudflare at npm... Because we use workers, and we'll get to that in a second. But it was very much like a set it and forget it thing, because it just worked. You configure it, you set up all your routing, you set up all your mappings, and you're good to go. So now, moving more into the land of AWS, but it's almost like a lot better than AWS in many ways, because there's a lot more focus towards the needs of web development, and I would say very JavaScript-heavy applications. I think that's the interesting value prop.
 
 Can you maybe tell us a little bit - how is Cloudflare more supportive to JavaScript developers than AWS? Because for me, it's very clear that Cloudflare is geared towards modern web applications, specifically frontend-heavy ones.
 
@@ -216,7 +216,7 @@ So the edge meant - if we're looking at our CDN - what we call each individual p
 
 **Jon Kuperman:** They're awesome. They're a great team. They're such a cool company.
 
-**Amal Hussein:** Yeah. I mean, I think whether folks realize it or not, if you write JavaScript, you are already using Cloudflare; or you have used it. Because they support the Npm ecosystem. So that's one thing. But that being said, getting into Workers, and Durable Objects, and pages and all these things, can we maybe start to break some of this stuff down? So what are Cloudflare Workers? And also -- like, from my understanding, Durable Objects are a somewhat adjacent thing, but that folks are often confused about...
+**Amal Hussein:** Yeah. I mean, I think whether folks realize it or not, if you write JavaScript, you are already using Cloudflare; or you have used it. Because they support the npm ecosystem. So that's one thing. But that being said, getting into Workers, and Durable Objects, and pages and all these things, can we maybe start to break some of this stuff down? So what are Cloudflare Workers? And also -- like, from my understanding, Durable Objects are a somewhat adjacent thing, but that folks are often confused about...
 
 **Jon Kuperman:** Yeah, it's all in the same ecosystem, for sure. So Cloudflare Workers were the initial building block; so they are a serverless platform -- you can think about it like an app, that's your request-response, that's what it is. So you handle requests coming in, you can do all sorts of stuff; you can add headers, you can interact with other Cloudflare APIs, like bot detection... All sorts of stuff like that. You can take advantage of all those APIs, you can run your business logic and you return a response. So they were like our initial thing.
 
@@ -310,7 +310,7 @@ But when it comes to simple examples for a worker - because I've done a lot of w
 
 \[31:56\] So you can think of these areas where you're just intercepting, doing a little something, and passing it on. And it goes all the way from there -- you could build your whole application on workers, but I think for people that already have big API surfaces, thinking about things like that, like adding a simple security header to all of your endpoints, that's a great use case for a worker.
 
-**Amal Hussein:** That's some hot stuff. I mean, it's a great proxy layer, and also we use it heavily at Npm, and yeah, I can say, blocking a specific IP - super-easy on the Cloudflare dashboard.
+**Amal Hussein:** That's some hot stuff. I mean, it's a great proxy layer, and also we use it heavily at npm, and yeah, I can say, blocking a specific IP - super-easy on the Cloudflare dashboard.
 
 **Jon Kuperman:** Absolutely.
 

@@ -124,13 +124,13 @@ For example, the album is about my photos, and the apps are the apps I made. The
 
 So when you go here, you can see your images, and it sort of goes from this pixelated version to the actual, real photo. Is that a separate project? What's the thinking behind that and how does that work?
 
-**Ovilia:** Yes, this is a separated project that I made for my new design of personal website. The main idea is to use image processing to make the photos into old-school palette. So I made a command line Node.js service to do the job. After that, I made this separate Npm package and open sourced it.
+**Ovilia:** Yes, this is a separated project that I made for my new design of personal website. The main idea is to use image processing to make the photos into old-school palette. So I made a command line Node.js service to do the job. After that, I made this separate npm package and open sourced it.
 
 The main idea is to give a palette of colors. For example, for old school I may give some different scales of grey colors, and then it will find the nearest color of each pixel and turn it into an old-school palette image.
 
 **Adam Stacoviak:** You mentioned that's -- for Node.js, is that open source as well, as most things you work on?
 
-**Ovilia:** Yes, it's open sourced to a separate project, and I created an Npm package of it.
+**Ovilia:** Yes, it's open sourced to a separate project, and I created an npm package of it.
 
 **Adam Stacoviak:** Clearly, you have a plethora of open source. This website is a testament to that. That's also open source on GitHub... So if you want to dig into this software and the code behind it, the website, you can check out our show notes... But I'm curious when you find time to do all this. How do you design your life to be able to work on so much open source? And I guess maybe a side note to that is why open source everything that you've done?
 

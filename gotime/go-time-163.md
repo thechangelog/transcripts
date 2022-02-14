@@ -224,7 +224,7 @@ There is already a number type, a predeclared identifier, which people typically
 
 **Mat Ryer:** Okay. Well, there you go; maybe I could suggest 💩 for error type. I can be the Roger Peppe of CUE.
 
-**Marcel van Lohuizen:** Yeah. So performance is not great yet, and this is partly deliberate. It's been designed to be O(n) (order n), but it's definitely not been implemented this way, so that's something that needs to be done. Basically, it's written so that I can try out a lot of things fast, so deliberately, sometimes I made it easier and made it slower, essentially... But that would be one of the big next things to do.
+**Marcel van Lohuizen:** Yeah. So performance is not great yet, and this is partly deliberate. It's been designed to be O(n) (order N), but it's definitely not been implemented this way, so that's something that needs to be done. Basically, it's written so that I can try out a lot of things fast, so deliberately, sometimes I made it easier and made it slower, essentially... But that would be one of the big next things to do.
 
 So the errors messages - they have become better already, this last iteration, but they need to become a lot better. And there's probably also a different model, where an error message is not just a message, but it really contains a lot of context of where the error occurred, so that you can do further analysis on it, which is important for a configuration language.
 

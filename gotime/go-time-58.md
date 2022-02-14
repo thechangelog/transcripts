@@ -195,7 +195,7 @@ So Vecty tries to do things in a very Go-centered way, and you could totally use
 
 **Carlisia Thompson:** Yeah, because the other languages that are more mature, they have a bunch of packages that would do things like that.
 
-**Dmitri Shuralyov:** Yeah, actually I saw an example of that very recently. There's an NPM package you can download, and it's basically a component that visualizes diffs, or patch files, and I was like "Well, you can just NPM install that, and it already exists, and it has all these properties that you can configure how it displays it." That's the kind of state that they're at - they have pre-made components for visualizing diffs. I thought it was interesting to see that, whereas I was building something like that myself from scratch, because it didn't exist yet.
+**Dmitri Shuralyov:** Yeah, actually I saw an example of that very recently. There's an npm package you can download, and it's basically a component that visualizes diffs, or patch files, and I was like "Well, you can just npm install that, and it already exists, and it has all these properties that you can configure how it displays it." That's the kind of state that they're at - they have pre-made components for visualizing diffs. I thought it was interesting to see that, whereas I was building something like that myself from scratch, because it didn't exist yet.
 
 **Brian Ketelsen:** I think we've talked about Vecty a time or two, but it's definitely the one Gopher.js front-end framework that I understand best, that clicks with me the best. I like Vecty a lot.
 

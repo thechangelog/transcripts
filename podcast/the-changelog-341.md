@@ -152,7 +152,7 @@ Talking about Java, there is a very interesting project called TeaVM. This VM ac
 
 **Adam Stacoviak:** So what's the UX for installing currently? Is it a cURL command, or something like that, to install?
 
-**Syrus Akbary:** It will be similar to what Npm is doing.
+**Syrus Akbary:** It will be similar to what npm is doing.
 
 **Adam Stacoviak:** But I mean now - what's the way it is now, and how it will change, I guess.
 
@@ -226,9 +226,9 @@ I'm curious though, because when the herds form, people get slaughtered. Hopeful
 
 **Syrus Akbary:** Yes, completely. I think as a business, what we are trying to do is trying to get as much a stake of that as you can, so that when people are trying to come in, you will really have a very good position, so you can remain stronger. I guess that's one of the attractions of WebAssembly - is this starting to take off? Is this still early? But we will start seeing more companies and more companies approaching this space; we'll see how the ecosystem improves and matures... And from that, the companies that are there from the start probably will be in a very good place.
 
-**Jerod Santo:** \[40:11\] One thing I'd like to revisit is you talking about this package manager that you're excited to be releasing. You said there's "wapm install" or whatever it is, and you download sqlite.wasm from a repository... Is this an attempt of becoming the Npm for WebAssembly? Because I think Npm would like to be the Npm for WebAssembly.
+**Jerod Santo:** \[40:11\] One thing I'd like to revisit is you talking about this package manager that you're excited to be releasing. You said there's "wapm install" or whatever it is, and you download sqlite.wasm from a repository... Is this an attempt of becoming the npm for WebAssembly? Because I think npm would like to be the npm for WebAssembly.
 
-**Syrus Akbary:** Yes. I mean, Npm is actually trying to be the package manager for WebAssembly... But the truth is Npm is designed with JavaScript in mind. The way packages work in Npm is very different from how we think it should work with WebAssembly. We are designing a package manager from the ground up, designed explicitly for WebAssembly. That means what kind of ABI you wanna use for your WebAssembly module, how they are going to interoperate... Because of that, we believe we cannot reuse a package manager that already exists, and we need to create something that is completely tailored to the WebAssembly needs.
+**Syrus Akbary:** Yes. I mean, npm is actually trying to be the package manager for WebAssembly... But the truth is npm is designed with JavaScript in mind. The way packages work in npm is very different from how we think it should work with WebAssembly. We are designing a package manager from the ground up, designed explicitly for WebAssembly. That means what kind of ABI you wanna use for your WebAssembly module, how they are going to interoperate... Because of that, we believe we cannot reuse a package manager that already exists, and we need to create something that is completely tailored to the WebAssembly needs.
 
 Plus, we don't need no JavaScript, Node.js, and basically we wanna make this package manager friendly for people that wanna use a package from Python, or wanna use a package from Rust, or from PHP, without the need for them to have to install Node.js on their servers.
 

@@ -154,7 +154,7 @@ I think a hundred percent of us seem like we could have benefitted from that... 
 
 **Juan Pablo Buritica:** I love tools.
 
-**Mikeal Rogers:** Okay, so I'll run a real thing that happened to me by you all, and you can tell me if you agree or not. I was curious about something that was going on in Yarn... In particular, we had this issue where we were thinking about adding an install step into Node Core for NPM packages, then I went "Oh, Yarn wrote that, too... Let me go look at the Yarn code." So I go into the Yarn code, and this is... It's just a command line tool, and it uses Webpack, Babel, Flow and Gulp. And just getting into the code just a little bit, I was just kind of pushed back, and ended up just giving up because I was just like "I don't wanna learn all these tools just to figure out what this code pack looks like." Am I just like way too old now?
+**Mikeal Rogers:** Okay, so I'll run a real thing that happened to me by you all, and you can tell me if you agree or not. I was curious about something that was going on in Yarn... In particular, we had this issue where we were thinking about adding an install step into Node Core for npm packages, then I went "Oh, Yarn wrote that, too... Let me go look at the Yarn code." So I go into the Yarn code, and this is... It's just a command line tool, and it uses Webpack, Babel, Flow and Gulp. And just getting into the code just a little bit, I was just kind of pushed back, and ended up just giving up because I was just like "I don't wanna learn all these tools just to figure out what this code pack looks like." Am I just like way too old now?
 
 **Alex Sexton:** Yup.
 
@@ -182,9 +182,9 @@ I don't see a problem... My favorite response to that is just like "It still wor
 
 **Mikeal Rogers:** But this is a false dichotomy. If you've got some stuff up in 0.12 and you don't wanna upgrade it, fine. But you're also not gonna get the newest Yarn installer either. Like... No. You're not gonna get the newest dependency and have that support these ancient versions. You either aren't updating this at all anymore, or you're updating it and you're using a version that actually gets critical security fixes, period. I don't think that those are like--
 
-**Alex Sexton:** \[27:59\] If you put out a competitor to NPM and NPM has a set of version that it works on, and you don't work on and you don't work on those versions, then you instantly are at a disadvantage.
+**Alex Sexton:** \[27:59\] If you put out a competitor to npm and npm has a set of version that it works on, and you don't work on and you don't work on those versions, then you instantly are at a disadvantage.
 
-**Mikeal Rogers:** New versions of NPM do not work with 0.12 and 0.10.
+**Mikeal Rogers:** New versions of npm do not work with 0.12 and 0.10.
 
 **Alex Sexton:** They do.
 
@@ -248,7 +248,7 @@ You're gonna tackle that problem slightly differently, 1) because you are a pret
 
 I understand that in order to get it running on your machine, that kind of sucks, but the actual reading of the code shouldn't have necessarily been affected, other than you might see some type definitions here or there. Does that make sense?
 
-I feel like the "npm run configure" or whatever would be a really nice thing to maybe standardize or become more of a popular thing, to where it's like a one-click install type of things. But honestly, it really feels like NPM install does most of that already.
+I feel like the "npm run configure" or whatever would be a really nice thing to maybe standardize or become more of a popular thing, to where it's like a one-click install type of things. But honestly, it really feels like npm install does most of that already.
 
 **Mikeal Rogers:** StandardJS does a very good job of this, right? You can run it as a command line thing, it just works; it just works in whatever linter that you're plugging it into... If you have some giant toolchain, you just kind of plug it into one of those places. It doesn't really have an opinion about how you integrate it into these workflows. It's exposed in a really nice way.
 
@@ -264,7 +264,7 @@ There continues to be this argument, like every time that they put a new version
 
 **Mikeal Rogers:** No, no... I don't complain about Create React App because I'm never gonna use Create React App, so I honestly don't care... So I don't understand the argument from that perspective, but we are getting to the point where these are getting huge. The baseline to set up is just enormous.
 
-**Alex Sexton:** Yeah... I think actually the Ember community nailed this before more or less anyone else with EmberCLI. EmberCLI is one of the best... Like, I did Ember before EmberCLI, and I did Ember after EmberCLI, and baking in EmberCLI is like an officially supported thing; the docs for Ember have EmberCLI usage to where you don't have to know how to create a new file because you can just Ember New up a new file and you can run the test through it and you can install things to it, and it can check extra things that NPM doesn't check, and you can do add-ons... The whole ecosystem can be built into this tool, and I think that far and beyond even Create React App, that ecosystem is one that people can instantly spin up and do with very little trouble until they wanna upgrade it, which is its own problem with those bootstrap things, because when you're generating files it becomes very hard to then upgrade the runner of those files that generates new types. I mean, they have good strategies, but it's a hard problem.
+**Alex Sexton:** Yeah... I think actually the Ember community nailed this before more or less anyone else with EmberCLI. EmberCLI is one of the best... Like, I did Ember before EmberCLI, and I did Ember after EmberCLI, and baking in EmberCLI is like an officially supported thing; the docs for Ember have EmberCLI usage to where you don't have to know how to create a new file because you can just Ember New up a new file and you can run the test through it and you can install things to it, and it can check extra things that npm doesn't check, and you can do add-ons... The whole ecosystem can be built into this tool, and I think that far and beyond even Create React App, that ecosystem is one that people can instantly spin up and do with very little trouble until they wanna upgrade it, which is its own problem with those bootstrap things, because when you're generating files it becomes very hard to then upgrade the runner of those files that generates new types. I mean, they have good strategies, but it's a hard problem.
 
 **Juan Pablo Buritica:** \[40:13\] I'm with you with that, because EmberCLI is to me the de facto example of how these tools should work... But what I respect from EmberCLI is that they have a vision; they had a vision and they implemented across add-ons, across templates... All that stuff just works. But I've had the opposite experience and I know that the Angular CLI is still an RC candidate, but I've come to the point where I expect so many things to actually be done by this, and it just doesn't work. We've struggled a lot at Splice, even having people dedicated at just fixing some problems with getting some of this stuff working, because once you have to do AoT because if not you're shipping a giant... Like, either you are doing tree-shaking or you wanna get a faster response time on your shipped build, it gets super frustrating. It's one of those things that if it doesn't work properly, then I'd rather just not have it at all.
 

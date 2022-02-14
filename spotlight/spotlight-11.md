@@ -29,7 +29,7 @@ I get paid to make things like that. I can get people excited to try out-of-the-
 
 **Adam Stacoviak:** Fun stuff!
 
-**Rachel White:** \[03:47\] Yeah. You could totally use it for more applicable things. I would like to think that I am more reaching out to the people that may not have had too much experience with Node, and then they'll see this application -- I always open source everything that I make, and I write the readme super documented, not making any assumptions about what the user might know, down to "Go to the website and install Node" and "Install NPM, and do all of these steps", so hopefully they can make their own weird and cool stuff by the end of it.
+**Rachel White:** \[03:47\] Yeah. You could totally use it for more applicable things. I would like to think that I am more reaching out to the people that may not have had too much experience with Node, and then they'll see this application -- I always open source everything that I make, and I write the readme super documented, not making any assumptions about what the user might know, down to "Go to the website and install Node" and "Install npm, and do all of these steps", so hopefully they can make their own weird and cool stuff by the end of it.
 
 **Adam Stacoviak:** That's really interesting, because you get a chance to 1) open source fund interesting projects, but also use a creative side to yourself that -- I don't wanna say not important, because it's not production code, but at the same time you have this level of freedom in your code that isn't restricted by business requirements, isn't restricted by revenue-generating things, that you can kind of like whimsically tinker, which to me is like a box of legos.
 

@@ -222,7 +222,7 @@ I think it put those folks -- not on notice, because that would be the wrong ter
 
 **Jerod Santo:** Sure.
 
-**Jason Warner:** But the idea here is that GitHub Actions is an end-to-end workflow platform, all the way from editing on your code, to deploying it into production, and working backwards; it's got package management built in, and now it's got CI built in as well. And then obviously we just acquired Npm to augment that story for the JavaScript ecosystem.
+**Jason Warner:** But the idea here is that GitHub Actions is an end-to-end workflow platform, all the way from editing on your code, to deploying it into production, and working backwards; it's got package management built in, and now it's got CI built in as well. And then obviously we just acquired npm to augment that story for the JavaScript ecosystem.
 
 **Jerod Santo:** So I don't have the numbers that you had to make your gut decision, but it seems like to me that GitHub Actions would require similar infrastructure that the CI would. So is it just the vision that changed? Because I assume you're still invested into Actions, similarly to the CI product.
 
@@ -238,7 +238,7 @@ I think it put those folks -- not on notice, because that would be the wrong ter
 
 **Break:** \[32:27\]
 
-**Jerod Santo:** So Jason, you mentioned that you had these notebooks with plans of what companies should do over the next n years, five years or so... And what we've just learned during the break is that you actually had a GitHub notebook. So you've talked about your notebooks for other companies, but you had a GitHub notebook, and it seems like it was somewhat \[unintelligible 00:34:20.00\] Can you tell us the story of your GitHub notebook and what was in there?
+**Jerod Santo:** So Jason, you mentioned that you had these notebooks with plans of what companies should do over the next N years, five years or so... And what we've just learned during the break is that you actually had a GitHub notebook. So you've talked about your notebooks for other companies, but you had a GitHub notebook, and it seems like it was somewhat \[unintelligible 00:34:20.00\] Can you tell us the story of your GitHub notebook and what was in there?
 
 **Jason Warner:** Sure. My notebooks are pretty standard things, that describe either the small \[unintelligible 00:34:28.20\] and I just try to take notes on what I think the company is, what it wants to be, what it could be, and what I think from the outside. It's always called whatever company I view from the outside, and then I try to map it out. So you're working on assumptions. I just happen to know GitHub really well, because while I was at Heroku, GitHub and Heroku were similar type companies. Even from a product perspective, they sat in similar spaces. They were formed even right around the same year, I think.
 

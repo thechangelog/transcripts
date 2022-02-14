@@ -280,7 +280,7 @@ Basically, I think the lesson for you here, kids, is if you build a bad API, som
 
 **Suz Hinton:** Build just another layer...
 
-**Amal Hussein:** And make lots of money, really. Because even at Npm -- I mean, there are so many things with Npm that were missing, or not there, and mainly because the team was under-resourced, and had so many other things to do... But the community builds all these things around Npm that should have actually be in Npm. For example, BundlePhobia, or Unpackage... You know what I mean? There's so many features that would be great to just be in Npm directly, that people had to build abstractions around it, because it wasn't supported with the Npm API.
+**Amal Hussein:** And make lots of money, really. Because even at npm -- I mean, there are so many things with npm that were missing, or not there, and mainly because the team was under-resourced, and had so many other things to do... But the community builds all these things around npm that should have actually be in npm. For example, BundlePhobia, or Unpackage... You know what I mean? There's so many features that would be great to just be in npm directly, that people had to build abstractions around it, because it wasn't supported with the npm API.
 
 Yarn even - workspaces wasn't a thing... So "Oh, we're gonna build an abstraction around our connection to the registry." So just lesson learned - if you're not solving it well, someone else is going to solve it better and faster.
 

@@ -160,19 +160,19 @@ There's so many different JavaScript libraries that all achieve the same end goa
 
 **Rachel White:** Yeah, I mean... Whenever something comes out, people always jump on trying to learn it as fast as possible, so that they don't have that FOMO of not knowing about what's hot in the JavaScript library. The worst part of it is you're gonna get as many different responses for "What should I use to achieve this goal?" as you'll get from asking somebody "Where should I go eat tacos in Austin?" You're just gonna get so many different answers, and it's hard to pinpoint what to choose.
 
-**Alex Sexton:** To that example, as an austinite, you'll get a ton of different answers, but in general, I feel like a) good problem to have, and b) you're probably gonna have good tacos regardless of what you choose. I hate -- this is a very rare moment in my mind where I think... Mikeal probably has some good opinions about this, but I think, Mikeal, you've done more research around the NPM ecosystem than most people, and you like to hype just raw numbers sometimes... But I feel like also your experience in the Python community prior to Node and JavaScript - why is JavaScript different in this regard? Why does JavaScript have such -- and maybe every community thinks that they're the community that has the paralysis of choice with fatigue, but I don't believe that's true.
+**Alex Sexton:** To that example, as an austinite, you'll get a ton of different answers, but in general, I feel like a) good problem to have, and b) you're probably gonna have good tacos regardless of what you choose. I hate -- this is a very rare moment in my mind where I think... Mikeal probably has some good opinions about this, but I think, Mikeal, you've done more research around the npm ecosystem than most people, and you like to hype just raw numbers sometimes... But I feel like also your experience in the Python community prior to Node and JavaScript - why is JavaScript different in this regard? Why does JavaScript have such -- and maybe every community thinks that they're the community that has the paralysis of choice with fatigue, but I don't believe that's true.
 
 **Mikeal Rogers:** No... It is pretty unique, yeah.
 
 **Alex Sexton:** As a second follow-up question - is it better? Does it mean we have revolutions more often, that cause better things to occur, and we move faster? Or is it worse, in that everyone's constantly learning new tools, and the quality of output doesn't get any better? Those are my two questions... You have 20 seconds.
 
-**Mikeal Rogers:** \[laughs\] Okay, so a couple notable things. One is that we used to just call this 'framework fatigue' before NPM took off, and this problem actually predates even the NPM ecosystem. Obviously, you could think of it as being a little bit accelerated into the NPM ecosystem, but we've always had this issue where there is a new framework every year for people to build their web applications in, and everybody wants you to learn it.
+**Mikeal Rogers:** \[laughs\] Okay, so a couple notable things. One is that we used to just call this 'framework fatigue' before npm took off, and this problem actually predates even the npm ecosystem. Obviously, you could think of it as being a little bit accelerated into the npm ecosystem, but we've always had this issue where there is a new framework every year for people to build their web applications in, and everybody wants you to learn it.
 
 **Alex Sexton:** There were the framework wars before JavaScript fatigue, and the framework wars were like five frameworks, not 500 frameworks.
 
 **Mikeal Rogers:** Well, no... It was five frameworks until jQuery won, and then people argued about what framework on top of jQuery to use jQuery that you were gonna build onto... And it's all the same thing, which is that...
 
-**Alex Sexton:** I still feel like it's exponentially exploded since... I think you nailed it with NPM...
+**Alex Sexton:** I still feel like it's exponentially exploded since... I think you nailed it with npm...
 
 **Mikeal Rogers:** \[28:05\] Yes... So it has exploded, but here's the thing... One of the reasons why you get this more in this space than in the cloud space, or enterprise, is because people build more new web applications than they maintain web applications. People build new stuff all the time, and so when you have new things to build, you just have the opportunity to take a new tool.
 
@@ -182,7 +182,7 @@ There's so many different JavaScript libraries that all achieve the same end goa
 
 **Alex Sexton:** Well, you can...
 
-**Mikeal Rogers:** You can with NPM, but think about it from the top-level framework perspective - you can't. So there's an opportunity for people to do this more often, which is why we have more of these frameworks. But I think a lot of the fatigue really comes down to higher order libraries - particularly frameworks - have a lot of hidden semantics in them, and as you learn the framework, you start to embed more and more of those semantics in your understanding of just how things work. And when you have to switch to a new framework, all that understanding gets thrown out the window; it's not really applicable anymore.
+**Mikeal Rogers:** You can with npm, but think about it from the top-level framework perspective - you can't. So there's an opportunity for people to do this more often, which is why we have more of these frameworks. But I think a lot of the fatigue really comes down to higher order libraries - particularly frameworks - have a lot of hidden semantics in them, and as you learn the framework, you start to embed more and more of those semantics in your understanding of just how things work. And when you have to switch to a new framework, all that understanding gets thrown out the window; it's not really applicable anymore.
 
 Also, operating under so many layers of semantics, it actually gets kind of hard to just think about applications and build applications. You start having to think in terms of frameworks, rather than in terms of problems that you're solving, and that makes it much harder for you to switch to the new thing when everybody's talking about the new thing.
 
@@ -286,7 +286,7 @@ When mobile was on the rise, we saw a new slew of frameworks that solved mobile;
 
 So this would be similar to that... You don't have to know SVG. It depends.
 
-**Mikeal Rogers:** I think you have to know D3 in order to get a D3 plugin in. Also, I haven't seen anything that was in NPM install, this library... Or even just a library that you could take off the shelf that included D3. A lot of those chart libraries that you're talking about, I always had to include it as a script tag ahead, like 2015 style...
+**Mikeal Rogers:** I think you have to know D3 in order to get a D3 plugin in. Also, I haven't seen anything that was in npm install, this library... Or even just a library that you could take off the shelf that included D3. A lot of those chart libraries that you're talking about, I always had to include it as a script tag ahead, like 2015 style...
 
 **Alex Sexton:** Bower for sure. \[laughter\] Yeah, most of those libraries are so far from working, even in JS DOM. It hasn't been a huge thing. But now that everybody uses Webpack to be able to pull vendor stuff out of Node modules and into actual files, I think it's all there.
 

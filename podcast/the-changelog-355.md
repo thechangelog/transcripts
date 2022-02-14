@@ -60,19 +60,19 @@ I think the talk, and Entropic the project come from my realization that I was f
 
 **CJ Silverio:** Yeah. You can't do that with the thing that all of JavaScript needs to keep running.
 
-**Jerod Santo:** There was a moment in time - and again, the talk goes through it - and you do a very good job of going step by step through the history... There was some there that I definitely learned; even Adam and I have been along for the ride, so to speak, both as users of Npm and as people who are having these conversations... We've had Isaac on Founders Talk, we've had npm employees, current and past, on a lot of our shows, so we've been along for the ride... But definitely worth getting the full history.
+**Jerod Santo:** There was a moment in time - and again, the talk goes through it - and you do a very good job of going step by step through the history... There was some there that I definitely learned; even Adam and I have been along for the ride, so to speak, both as users of npm and as people who are having these conversations... We've had Isaac on Founders Talk, we've had npm employees, current and past, on a lot of our shows, so we've been along for the ride... But definitely worth getting the full history.
 
 And there was a point in time where it's like "This thing can't exist for free without somebody stepping up and putting money in." And at that point it was like "Well, there's different ways of doing that", and the way that it went was VC capital, and that really sustained npm for years, but it brought all of us alongside it and centralized the commons.
 
 **CJ Silverio:** That was the moment I got involved actually, and I probably wouldn't have been involved without some way to pay my salary... Or at least that amount of all-consuming work is something people don't do for free, and you should never expect them to do for free. That's the way to burn people out.
 
-Npm at the time it was founded - the very end of 2013 was when those first discussions happened, and the very beginning of 2014 is when the company started moving as a company. During that period, npm was a tire fire; it was down... It was like nine sixes of availability. It needed serious attention and serious operational work to stabilize it, and that's something that's hard to get from human beings, it's hard to have people on call 24/7 without paying something for their time and attention.
+npm at the time it was founded - the very end of 2013 was when those first discussions happened, and the very beginning of 2014 is when the company started moving as a company. During that period, npm was a tire fire; it was down... It was like nine sixes of availability. It needed serious attention and serious operational work to stabilize it, and that's something that's hard to get from human beings, it's hard to have people on call 24/7 without paying something for their time and attention.
 
 And the trade-off is really interesting, because most of the language systems haven't done this. CPAN has chosen a very different approach to this, but RubyGems is a volunteer-run thing, and your expectations for RubyGems are very different from where your expectations from npm are. The scale that npm reached was possible because they had a team of professionals working on it and moving it from a single CouchDB to the system it was.
 
 **Jerod Santo:** Right, to the system that it is now today. When you say the expectations for RubyGems are different - you mean in terms of support, speed of downloads? Because RubyGems is free to the end user, just like npm is.
 
-**CJ Silverio:** Right. It's all of these things. Npm support was for a while legendary; the npm support team was just fantastic. A bunch of really empathetic, customer-centric people who did -- most of their time was spent supporting open source users, not paid users... And the attempt was to give that really excellent, high-quality level of support to everybody. You can't do that if you're not paying salaries, because you're using somebody on their free time.
+**CJ Silverio:** Right. It's all of these things. npm support was for a while legendary; the npm support team was just fantastic. A bunch of really empathetic, customer-centric people who did -- most of their time was spent supporting open source users, not paid users... And the attempt was to give that really excellent, high-quality level of support to everybody. You can't do that if you're not paying salaries, because you're using somebody on their free time.
 
 The service-level agreements - you never really sign up for that with npm, but people came to expect that they would get a really nice, professional, supportive, helpful answer from a professional support team.
 
@@ -278,13 +278,13 @@ Anti-goals would be things like -- CocoaPods has a perfectly great solution for 
 
 **CJ Silverio:** You have control -- like, Twitter can make a change to how Twitter works, and it's immediate across the whole deployed base. Mastodon - some people have features, other people don't. There's a huge barrier to entry.
 
-**Jerod Santo:** Npm can yank a malicious package.
+**Jerod Santo:** npm can yank a malicious package.
 
 **CJ Silverio:** Yeah. This right here...
 
 **Jerod Santo:** \[35:56\] That's a huge one, right?
 
-**CJ Silverio:** ...is super-important. Npm also is a centralized place; every published package goes through Adam Baldwin's beautifully suspicious hands... \[laughter\]
+**CJ Silverio:** ...is super-important. npm also is a centralized place; every published package goes through Adam Baldwin's beautifully suspicious hands... \[laughter\]
 
 **Jerod Santo:** I love that description.
 
@@ -296,7 +296,7 @@ Anti-goals would be things like -- CocoaPods has a perfectly great solution for 
 
 **CJ Silverio:** He's totally a great guy. He's an expert, and because it's centralized, he can look at every package that comes in; he can crack it open, he can look for--
 
-**Jerod Santo:** Yeah. Npm audit is a great thing, right?
+**Jerod Santo:** Yeah. npm audit is a great thing, right?
 
 **CJ Silverio:** Yup.
 

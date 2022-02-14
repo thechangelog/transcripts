@@ -188,7 +188,7 @@ So that's what led me to go build our MogileFS, which is an anagram of OmgFiles.
 
 **Johnny Boursiquot:** Do you like the arbitrary stress? You know, say, product teams - you're making arbitrary deadlines, saying "Hey, we need to have a conference on this date, so we need to build this thing by that date." Or do you prefer the stuff that's being driven by customer need? Like, basically needing to scale.
 
-**Brad Fitzpatrick:** Oh, the customer needs, for sure. Seeing people react to things, on Twitter or whatnot, when you launch something - that's way more motivating than some arbitrary deadline. I mean, if it's getting things done for a conference demo or something, at least that date is real. But if someone is doing a sprint, and it's arbitrarily for n weeks from now, I'm like "Okay, why that Friday? Why that Thursday?" I don't know... But yeah.
+**Brad Fitzpatrick:** Oh, the customer needs, for sure. Seeing people react to things, on Twitter or whatnot, when you launch something - that's way more motivating than some arbitrary deadline. I mean, if it's getting things done for a conference demo or something, at least that date is real. But if someone is doing a sprint, and it's arbitrarily for N weeks from now, I'm like "Okay, why that Friday? Why that Thursday?" I don't know... But yeah.
 
 **Mat Ryer:** And then they make you complicit by going through that estimations exercise, and then it's like "Well, I'm sorry, you said it was four muffins, so it's four muffins." \[laughter\]
 

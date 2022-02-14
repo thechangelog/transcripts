@@ -362,7 +362,7 @@ Another approach to that would be to take the code and abstract it away, so that
 
 **Mat Ryer:** Yeah.
 
-**Brian Ketelsen:** Yeah, I feel like code generation is one of those things like SQL normalization; you've got n levels of normalization in SQL - third normal, fourth normal, fifth normal form... Code generation is kind of the same way. Level one of code generation is taking this template and plugging in a variable here or there and spitting out some code. Level two is maybe throwing some f loops and some statements in there... And you get all the way up to level five - you're introspecting the whole system, determining the needs of the many versus the needs of the few, and generating all the other code that needs to be generated... That's a different level of code generation, a different plane.
+**Brian Ketelsen:** Yeah, I feel like code generation is one of those things like SQL normalization; you've got N levels of normalization in SQL - third normal, fourth normal, fifth normal form... Code generation is kind of the same way. Level one of code generation is taking this template and plugging in a variable here or there and spitting out some code. Level two is maybe throwing some f loops and some statements in there... And you get all the way up to level five - you're introspecting the whole system, determining the needs of the many versus the needs of the few, and generating all the other code that needs to be generated... That's a different level of code generation, a different plane.
 
 **Mat Ryer:** Yeah, that's true. Have you ever seen code that generates code that generates code? That sort of...
 

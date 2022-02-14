@@ -614,7 +614,7 @@ So it doesn't really make sense for WebTorrent as an open source project to be r
 
 **Jerod Santo:** Awesome.
 
-**Mikeal Rogers:** I think almost 6-9 months ago we did a show on ESM, and one of the things that came out of that was a lot of people think that they've been using ESM for a long time, because they've been using the syntax through compilers, but native ESM is actually a very different thing... And this is gonna be the most disruptive thing that's happened in our ecosystem. A lot of what we have on Npm is not going to work well or make the transition.
+**Mikeal Rogers:** I think almost 6-9 months ago we did a show on ESM, and one of the things that came out of that was a lot of people think that they've been using ESM for a long time, because they've been using the syntax through compilers, but native ESM is actually a very different thing... And this is gonna be the most disruptive thing that's happened in our ecosystem. A lot of what we have on npm is not going to work well or make the transition.
 
 **Jerod Santo:** You betcha. So that's next week. Fred K. Schott will be joining us, Chris Hiller will be there, and it should be an excellent show, so stay tuned for that one. This is JS Party for this week. Hey, that was a lot of fun. Y'all are super-smart on this stuff, and I enjoyed learning from you; hopefully, the listeners did as well. Thanks, Suz, thanks, Feross, thanks, Mikeal. We'll talk to you next time.
 

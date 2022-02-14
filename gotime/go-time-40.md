@@ -312,19 +312,19 @@ Once you get into having to mix Gulp and Bauer and Webpack... Just shoot me in t
 
 **Luna Duclos:** Oh yeah, that... I've seen that on Twitter. I've been meaning to try it out, actually. I should do that.
 
-**Erik St. Martin:** You know, Brian, I'm actually really surprised that you installed it, because it requires working with NPM and Gulp.
+**Erik St. Martin:** You know, Brian, I'm actually really surprised that you installed it, because it requires working with npm and Gulp.
 
-**Brian Ketelsen:** I've got NPM installed, and Gulp, and Bauer, and Webpack, and... \[laughter\]
+**Brian Ketelsen:** I've got npm installed, and Gulp, and Bauer, and Webpack, and... \[laughter\]
 
 **Erik St. Martin:** No, I just mean you're using those things so much...
 
 **Brian Ketelsen:** It's all right here, buddy... It's all right here. My chops are getting strong.
 
-**Erik St. Martin:** I can picture it too, you're like "Wow, this looks really cool! Oh, NPM... How badly do I want this?" \[laughter\]
+**Erik St. Martin:** I can picture it too, you're like "Wow, this looks really cool! Oh, npm... How badly do I want this?" \[laughter\]
 
 **Luna Duclos:** I wonder why this hasn't been all bundled in one neat, single Go binary that you can just start up.
 
-**Carlisia Thompson:** \[32:03\] That's a good idea. I'm trying to get by without installing NPM and Gulp... I don't have those on this machine...
+**Carlisia Thompson:** \[32:03\] That's a good idea. I'm trying to get by without installing npm and Gulp... I don't have those on this machine...
 
 **Brian Ketelsen:** I can tell you, the reason for all of that is because it uses [Gallium](https://github.com/alexflint/gallium), which is the wrapper for the Chrome web app thing that makes it a native app, and I would bet you a dollar that Kyle does not have an Apple developer account, so he can't sign those web apps or sign those Gallium apps, which means that he can't distribute applications in the new MacOS, because they're not signed, so you have to build them yourself. This all boils down to developer signatures.
 

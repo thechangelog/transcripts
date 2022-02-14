@@ -256,7 +256,7 @@ You will buzz in when you think you have an answer. You can buzz in by saying "B
 
 **Divya:** Oh, my god... That's so general.
 
-**Jerod Santo:** So those are the ones missed... Bosses and managers barely missed the board; there were six responses. Three people complained about Npm, two about WebPack, one about Vim, one about JIRA, one about lack of respect... So there's a few other answers.
+**Jerod Santo:** So those are the ones missed... Bosses and managers barely missed the board; there were six responses. Three people complained about npm, two about WebPack, one about Vim, one about JIRA, one about lack of respect... So there's a few other answers.
 
 **Divya:** Okay...
 

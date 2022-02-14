@@ -103,7 +103,7 @@ However, the plus side of this is I sort of wrote it understanding that there ar
 
 **Sam Boyer:** Yes. Right, someone already wrote -- we put a call out asking for something like this as part of the blog post that we wrote for the Advent series last December. Someone wrote something which I am embarrassed to say that I have not actually had time to look at yet. But yes, having this as a part of the tool is probably something that would be very helpful. The reason that we maybe haven't done \[unintelligible 00:16:59.16\] of it yet is just because it ends up being -- say, `go release, for example... What are you releasing to?
 
-Right now a release is you tag your thing and you push it, for whatever that means in the version control system that you're using. In the future, if we end up going the direction of having some sort of central registry - something analogous to NPM or Crates or all the different ones that are out there - then the `release` command would be publishing code into that system. But that's its whole own subdomain, and we do have an open issue for it in the dep queue (there's an interesting discussion there), but it's not clear when we'll go that direction, or if we will.
+Right now a release is you tag your thing and you push it, for whatever that means in the version control system that you're using. In the future, if we end up going the direction of having some sort of central registry - something analogous to npm or Crates or all the different ones that are out there - then the `release` command would be publishing code into that system. But that's its whole own subdomain, and we do have an open issue for it in the dep queue (there's an interesting discussion there), but it's not clear when we'll go that direction, or if we will.
 
 The real value now actually is the static analysis that can tell you which semver version you should bump. That's the thing that helps, because it makes sure that we're using semver correctly.
 
@@ -500,11 +500,11 @@ I saw somewhere, I think it's [Kubeapps.com](https://kubeapps.com/)... I think s
 
 **Carlisia Thompson:** Oh, boy... \[laughter\]
 
-**Brian Ketelsen:** You're fired! How dare you install NPM on my laptop?
+**Brian Ketelsen:** You're fired! How dare you install npm on my laptop?
 
 **Erik St. Martin:** Well, technically you just did yourself, so...
 
-**Brian Ketelsen:** I've had NPM for years now... I just don't admit it. I'm the one who three years ago famously tweeted "Docker is like a condom for Node", and it's the truth. \[laughter\]
+**Brian Ketelsen:** I've had npm for years now... I just don't admit it. I'm the one who three years ago famously tweeted "Docker is like a condom for Node", and it's the truth. \[laughter\]
 
 **Carlisia Thompson:** No comment.
 

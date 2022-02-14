@@ -362,7 +362,7 @@ I'm sure that people wanna see it in action, because I don't know if a VC-funded
 
 **Jerod Santo:** Gunsling it - I love it. We're actually running low on time... Let's do this: you've given the elevator pitch, you've even given some stuff people are building on it. Give us a quick "Getting started" and a call-to-arms for the open source hackers out there, and if they wanna get involved with Gun or they wanna try it, they wanna see what you have to offer - where do they go, what do they do? What would you love them to do?
 
-**Mark Nadal:** Yeah, so it should be pretty easy to get set up with Gun. Just NPM install Gun and then go into its directory and run Npm.start. If you don't have Node.js, there's some guides on the readme. If it's not easy to get started, jump on the Gitter channel - the URL for that is on the website and the repo - complain about any problems that you guys have had, and get to know the community, because realistically, exciting ideas like Gun and decentralized architecture is about the community and the people behind it.
+**Mark Nadal:** Yeah, so it should be pretty easy to get set up with Gun. Just npm install Gun and then go into its directory and run npm.start. If you don't have Node.js, there's some guides on the readme. If it's not easy to get started, jump on the Gitter channel - the URL for that is on the website and the repo - complain about any problems that you guys have had, and get to know the community, because realistically, exciting ideas like Gun and decentralized architecture is about the community and the people behind it.
 
 First and foremost get to know us and other people in the community, and we'll help you out as much as we can.
 

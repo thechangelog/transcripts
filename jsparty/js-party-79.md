@@ -154,7 +154,7 @@ The big one that I have gravitated towards lately is just raw JavaScript templat
 
 **Zach Leatherman:** Yeah, just a string of HTML. Or you can feed it any sort of template language that will output a string; you can do that as well inside of these JavaScript templates. Anything you can do in JavaScript, you can do in Eleventy within a JavaScript template.
 
-**Nick Nisi:** The tool itself - you install from Npm, as you said, and then that gives you an Eleventy command that you can run... Is that the main part of it? Does that consist of a server and a tool for compiling or working with one format and translating it into another?
+**Nick Nisi:** The tool itself - you install from npm, as you said, and then that gives you an Eleventy command that you can run... Is that the main part of it? Does that consist of a server and a tool for compiling or working with one format and translating it into another?
 
 **Zach Leatherman:** Yeah, basically Eleventy is just a command line tool. We do include BrowserSync; if you wanna run a local hot-swapping web server to preview your code, and reload automatically - all of that is built-in, too. But really, Eleventy at its core is just a command line tool to let you transform templates into HTML.
 

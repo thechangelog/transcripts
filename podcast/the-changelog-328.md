@@ -54,7 +54,7 @@ The first one that I highlight is Winamp2 JS, which is right up there on my pers
 
 **Jerod Santo:** That's interesting.
 
-**Adam Stacoviak:** Some interesting sub-facts about Jordan Eldredge, the creator of that projects... He went to the n-th degree around the creation, and kind of tie back to the original Winamp... He was very specific with how he did it, and I think it was one of those labor of love projects that just had a lot of good fruits to come from it. One, an appearance on the show here, and then, you know, Facebook, getting hired there, working on Nuclide.
+**Adam Stacoviak:** Some interesting sub-facts about Jordan Eldredge, the creator of that projects... He went to the N-th degree around the creation, and kind of tie back to the original Winamp... He was very specific with how he did it, and I think it was one of those labor of love projects that just had a lot of good fruits to come from it. One, an appearance on the show here, and then, you know, Facebook, getting hired there, working on Nuclide.
 
 **Jerod Santo:** \[08:16\] Yeah, and I think one of the reasons why maybe that show was so popular in terms of downloads is because Jordan was very fun and forward to work with us and try interesting things... Back in the spring and early summer I was Twitch-streaming stuff, and just experimenting, and he would hop on there and we were hacking on Winamp2, trying to get a Winamp version of our on-site player at Changelog.com to work... And then he actually took the episode and he put it in the playlist of the Winamp2 JS homepage.
 

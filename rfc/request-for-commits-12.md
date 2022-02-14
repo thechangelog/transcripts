@@ -288,7 +288,7 @@ I digress, but I think it's actually a good thing that we try to -- I'm not sure
 
 \[56:07\] If people think it's cool and then kind of get bored with it, they're just gonna stop funding you.
 
-**Evan You:** Yeah, I think we get some sort of very general sentiment based on tweets that I get, and I somewhat keep very loose track of, say, the Google search trends or GitHub stars, or Npm download counts... None of these alone are very good metrics to determine the growth of the project, but when they are combined together, you would get this pretty good combined growth curve. I've basically been using that as an indicator.
+**Evan You:** Yeah, I think we get some sort of very general sentiment based on tweets that I get, and I somewhat keep very loose track of, say, the Google search trends or GitHub stars, or npm download counts... None of these alone are very good metrics to determine the growth of the project, but when they are combined together, you would get this pretty good combined growth curve. I've basically been using that as an indicator.
 
 Actually, a better indicator is probably the weekly active users of the official DevTools plugin... That's kind of like -- the real developers, the actual developers that are actually using Vue are using DevTools. It's kind of a good metrics that I look at pretty often. Aside from that, we also have -- I also added the feature in our DevTools plugin which allows us to... Basically, the logo just brightens up whenever you visit a website that's using Vue, so sometimes community members would sent tweets at me saying "Hey, I just discovered this website is using Vue."
 

@@ -192,7 +192,7 @@ You mentioned that we probably never will get to step five, and we wouldn't want
 
 So we can save literally hundreds of hours of developer time by using bots to do that work... And we use bots also for release management, publishing, docs monitoring... And we even take it -- not quite to step five, but we have some robots that do bot monitoring.
 
-For instance, our publishing flow to Npm is multi-step. The first step is that we build CI, and we tag things on the GitHub side. But there's a step after that that will publish to Npm. And for some reason, in between those two - it doesn't get all the way to the end - a bot comes through, it notices, and then it opens a bug for us. That sort of ties back into the talk - it's good to scope your bots. So while it's monitoring, it is a very simple task, the worst thing you can do is open bugs against a repo; we have some safeguards so it doesn't try to open a lot of bugs, but... Yeah.
+For instance, our publishing flow to npm is multi-step. The first step is that we build CI, and we tag things on the GitHub side. But there's a step after that that will publish to npm. And for some reason, in between those two - it doesn't get all the way to the end - a bot comes through, it notices, and then it opens a bug for us. That sort of ties back into the talk - it's good to scope your bots. So while it's monitoring, it is a very simple task, the worst thing you can do is open bugs against a repo; we have some safeguards so it doesn't try to open a lot of bugs, but... Yeah.
 
 **Nick Nisi:** What could go wrong. So you have bots watching the bots?
 
@@ -228,13 +228,13 @@ And then another one - and this is something that in the Probot community we saw
 
 **Nick Nisi:** Nice.
 
-**Chris Wilcox:** The actually most complex thing we do is probably publishing, just because there's a lot of steps. Individually, it's all very simple, but we have to publish talks, and as well as the samples of the repository in the package... The Npm package, we use TypeScript, so that needs to be transpiled... None of it is too complicated, but all the pieces do need to fall together.
+**Chris Wilcox:** The actually most complex thing we do is probably publishing, just because there's a lot of steps. Individually, it's all very simple, but we have to publish talks, and as well as the samples of the repository in the package... The npm package, we use TypeScript, so that needs to be transpiled... None of it is too complicated, but all the pieces do need to fall together.
 
 **Nick Nisi:** And for that example, what level of automation would you say that falls under?
 
 **Chris Wilcox:** At this point it's up to -- I would say it's three or four. The levels are a bit fluid, if you noticed from the talk... They're based on something to do with automotive engineering, to driverless car leveling and understanding... So it's just really a way to frame risk and reward, honestly, more than anything else. It's about a level -- probably a 3, maybe a 4 at this point.
 
-The thing that made the change for us is we go as far now to auto-detect if we ought to publish. So as commits come into the main branch, we can detect that there are new changes, and we use a thing called conventional commits. At the front of every commit is a label - be that "Chore", "Fix", "Breaking" - that it'll also detect "Is it a patch, a minor or a major release?" We can auto-generate changelogs... And from that, really the only thing you do as a developer on the team at this point is merge the PR, and everything else is done for you. So we still control whether or not we publish to Npm, but the rest is fully automated.
+The thing that made the change for us is we go as far now to auto-detect if we ought to publish. So as commits come into the main branch, we can detect that there are new changes, and we use a thing called conventional commits. At the front of every commit is a label - be that "Chore", "Fix", "Breaking" - that it'll also detect "Is it a patch, a minor or a major release?" We can auto-generate changelogs... And from that, really the only thing you do as a developer on the team at this point is merge the PR, and everything else is done for you. So we still control whether or not we publish to npm, but the rest is fully automated.
 
 **Nick Nisi:** Nice. That must save a lot of time.
 
@@ -448,7 +448,7 @@ I think what Rich did in his talk is a very good example. For those who didn't s
 
 **Rich Trott:** Yeah, because those queries get to be really expensive, at least the way I did them. So for me, the exciting use cases are -- so where I work, there's a lot of people who do or are interested in doing data science stuff, and they all wanna use Python, which is a great language for that. JavaScript has been a terrible language for that, but between worker threads, and recently also getting BigInt... I mean, we're not there yet, but it's getting pretty good for things like machine learning and natural language processing and all sorts of stuff.
 
-\[01:00:14.23\] The other thing I think about for worker threads is all those JavaScript packages that do graphics manipulation... Like, "Here's an Npm package that will create thumbnails for your whatever." I think of graphics processing and that sort of thing as a CPU-intensive thing, and why not get a pool of four or eight worker threads, or however many make sense, and just launch them and have them do all of them at once, and bask in the glory of finishing your job faster?
+\[01:00:14.23\] The other thing I think about for worker threads is all those JavaScript packages that do graphics manipulation... Like, "Here's an npm package that will create thumbnails for your whatever." I think of graphics processing and that sort of thing as a CPU-intensive thing, and why not get a pool of four or eight worker threads, or however many make sense, and just launch them and have them do all of them at once, and bask in the glory of finishing your job faster?
 
 **Anna Henningsen:** Yup. Imagine processing is a great example. It's also CPU-intensive work. Image data is usually represented in some way as \[unintelligible 01:01.04.06\] array of bytes... So you can transfer or share them with zero cost with workers.
 
