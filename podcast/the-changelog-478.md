@@ -256,7 +256,7 @@ So I haven't seen any internal tools at a lot of companies do this. Most organiz
 
 So I do think it's probably a next big job, and it does require an engineering, technical background, because you need to be able to ask the nitty-gritty questions, and you need to be able to talk to experts of these systems in ways that like y'all can understand each other.
 
-**Jerod Santo:** What did you call it earlier? Distributed systems cultural anthropologists, or something like that?
+**Jerod Santo:** What did you call it earlier? Distributed Systems Cultural Anthropologists, or something like that?
 
 **Nora Jones:** Yeah.
 
@@ -272,7 +272,7 @@ So I do think it's probably a next big job, and it does require an engineering, 
 
 **Jerod Santo:** I'm a DSCA.
 
-**Adam Stacoviak:** Distributed systems cultural anthropologist.
+**Adam Stacoviak:** Distributed Systems Cultural Anthropologist.
 
 **Jerod Santo:** Right.
 
@@ -334,7 +334,7 @@ So I do think it's probably a next big job, and it does require an engineering, 
 
 **Nora Jones:** Yeah. And that's the thing, you have to be really likable. I tell orgs that are trying to roll out these programs, like "You don't have to have this particular role to use Jeli. Jeli is meant to be used for any engineer, in any organization. This is just if you want to take things to the next level." But I always tell people, "You need to be likable. You need to be likeable by your colleagues. You can't be just writing things down that they're saying. You need to be trusted by them." You need to have a good reputation too, which is why I usually recommend hiring someone internally to do this, someone that has been a good engineer, because they've already built that trust with their colleagues.
 
-**Jerod Santo:** So for somebody who would like to get started as a distributed systems cultural anthropologist, or an incident analyst, I guess, if you're more into brevity, we have the Howie guide link, of course, so everybody listening can reference that in the show notes. But in terms of anything else, in terms of like, "This is interesting to me as a career path or for my org", obviously jeli.io, but where do you send people? I know there's like a community of folks. This is not just yourself leading this charge. There's a community around this whole movement, right?
+**Jerod Santo:** So for somebody who would like to get started as a Distributed Systems Cultural Anthropologist, or an incident analyst, I guess, if you're more into brevity, we have the Howie guide link, of course, so everybody listening can reference that in the show notes. But in terms of anything else, in terms of like, "This is interesting to me as a career path or for my org", obviously jeli.io, but where do you send people? I know there's like a community of folks. This is not just yourself leading this charge. There's a community around this whole movement, right?
 
 **Nora Jones:** Yeah. There's for sure, community. I started the Learning From Incidents community early 2019, with a few of my Netflix colleagues; there's a few other folks running it, too... And it's grown to over 300 people at this point. We try to keep it intentionally small, because we want people to be comfortable participating and sharing their incidents in their orgs, but it's across several different companies that are trying this and rolling this out. And we've open sourced a lot of the learnings from that community. You can go to learningfromincidents.io and you can see write-ups from folks all throughout the industry trying some of this stuff in their organizations.
 
