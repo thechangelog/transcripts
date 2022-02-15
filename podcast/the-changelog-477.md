@@ -48,7 +48,7 @@ Now, does the tooling have some gaps? Sure. But just like our apps, perhaps, it'
 
 No maintenance windows from midnight till 2. Jeff Bezos will pay those sysadmins for you. \[laughter\]
 
-Amazon \[unintelligible 00:03:05.25\] try Azure, or Google, or - yes, IBM... Use Cloud Functions, Step Functions, Firebase, Cognito, or wrap them all up like a \[unintelligible 00:03:14.11\] the quick kick of that serverless stack is addicting as heck, and there's no looking back... So go write a function, deploy and test, and let the cloud do what the cloud does best." \[applause\]
+Amazon hasn't got your back, forgot them; try Azure, or Google, or - yes, IBM... Use Cloud Functions, Step Functions, Firebase, Cognito, or wrap them all up like a steakless burito. In short the quick kick of that serverless stack is addicting as heck, and there's no looking back... So go write a function, deploy and test, and let the cloud do what the cloud does best." \[applause\]
 
 **Recording ends:** \[03:26\]
 
