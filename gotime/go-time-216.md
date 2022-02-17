@@ -14,7 +14,7 @@ I'm joined today by my co-host, Johnny, and we have two guests. We have Anthony 
 
 **Anthony Alaribe:** I mean, an API is an application programming interface, but I think it can mean a lot of things. I like to think of an API as a contract. So if you have, for example, two services, two machines, one server and one mobile application and they need to communicate with each other, both parties can decide on this contract, "If I ask for this, this is what you give to me. If I ask for this other thing, you give me this other thing." And that contract is basically what I think is an API.
 
-**Natalie Pistunovich:** \[00:04:13.12\] Okay. Smile, what is your take on what is an API.
+**Natalie Pistunovich:** \[04:13\] Okay. Smile, what is your take on what is an API.
 
 **Smile Egbai:** My take on what an API is roughly the same thing, and coming majorly from the mobile background, I would always say an API is more or less a series of endpoints that will give you resources.
 
@@ -36,7 +36,7 @@ I'm joined today by my co-host, Johnny, and we have two guests. We have Anthony 
 
 The main problems that APIToolkit is trying to solve is around anomaly detection. So you have an API, in this case a primarily RESTful API, so an API that you expose over a transport. But let's stick with a REST API. So you have a REST API, with a series of endpoints, and each endpoint returns a series of fields, with values, and something changes. For example, you have a new engineer on the team who makes a change, and that change snowballs and just touches something else. Sometimes these kinds of changes can be difficult to spot.
 
-\[00:08:01.05\] Or even for example you have a legacy service which you're trying to rewrite, for different reasons, and you believe you know about the contract of that API, because it was very well documented... But then you rewrite that API and realize that - okay, there were some fields were there maybe ten years ago, no one knows about them anymore, but they are part of this contract, and you did not know about them, and so something breaks. So APIToolkit tries to find these issues before hopefully your customers find them.
+\[08:01\] Or even for example you have a legacy service which you're trying to rewrite, for different reasons, and you believe you know about the contract of that API, because it was very well documented... But then you rewrite that API and realize that - okay, there were some fields were there maybe ten years ago, no one knows about them anymore, but they are part of this contract, and you did not know about them, and so something breaks. So APIToolkit tries to find these issues before hopefully your customers find them.
 
 **Johnny Boursiquot:** So that's an interesting problem space... So if we can start to sort of dig in a little bit here - when I think of the operability of an API - say you make something public, and once you make it public, like you said, you basically have a contract with whoever is gonna be consuming that. So making changes to that API is very hard to do after you published it, after you have a v1, hence why you typically have to have some strategy for how you're gonna move customers onto the next version of whatever it is.
 
@@ -60,7 +60,7 @@ So the use case you give is one where maybe you have some less-traveled parts of
 
 **Anthony Alaribe:** Yeah... \[laughs\] Then you really don't need something like this. But unfortunately, in the real world you always make compromises. People deploy to production on Friday nights... And the issues don't only come from within. So you have a service - the issue might not be that on the server side things are broken; the issue could also be that on the consumer side something is broken.
 
-\[00:12:11.02\] For example, if a consumer used to send a particular format of input, and someone deployed a web app or a mobile app that starts sending something else, then we also want to flag that and notify someone that "Hey, this server is accepting a very different input from its clients." And the clients could be third-parties, it could be other companies who don't have those best practices that you are following.
+\[12:11\] For example, if a consumer used to send a particular format of input, and someone deployed a web app or a mobile app that starts sending something else, then we also want to flag that and notify someone that "Hey, this server is accepting a very different input from its clients." And the clients could be third-parties, it could be other companies who don't have those best practices that you are following.
 
 **Smile Egbai:** Something that came up a lot in our interviews, where -- it's actually based on third-parties; we integrated a third-party provider. And I think it's also a bad practice when you version an API and you end up going back to version one and changing things. Meanwhile we know if you are going to be using API versioning, if you move to version 2, \[unintelligible 00:13:00.03\] We constantly see third-parties doing these kinds of things. We won't name names, but these kinds of things have come up a lot within our interviews, where you would integrate a third-party, usually within three minutes, and you wake up some weekend or a Monday and you see a lot of requests are broken, things are not going through. And why? Because someone, somewhere, or some machine somewhere changed an old version and added new fields, and changed old fields \[unintelligible 00:13:33.01\] It's more like an API you consume is breaking the contract that has been set. Within these kinds of situations, you definitely want to get an alert about something like this, so you could mitigate certain effects.
 
@@ -68,7 +68,7 @@ So the use case you give is one where maybe you have some less-traveled parts of
 
 If you have something that shows you and says "Hey, this contract broke at this time, and this is what changed", you can show and say "Hey, you definitely broke something. This is what you broke, at this time."
 
-**Break:** \[00:14:47.09\]
+**Break:** \[14:47\]
 
 **Natalie Pistunovich:** The first time that we talked about APIToolkit, I kind of imagined myself that a good scenario for me to use that would be as a consumer of different APIs... But just now y'all mentioned that this can be a great tool also for a provider of APIs, to make sure that all are in sync. So that's a very interesting accountability tool in addition to everything.
 
@@ -82,7 +82,7 @@ So what does observability look like for this project? Are you providing tools t
 
 **Johnny Boursiquot:** Is your focus on the shape of API requests and responses? We've come back to the field and the endpoints a few times; I wanna make sure that when we talk about observability, we're sort of localizing the word... We're contextualizing it to just basically the shape of the API; less so things like throughput and how long is the average response taking to come back, and things like that. Or does your solution cover that, too?
 
-**Anthony Alaribe:** \[00:20:01.16\] Yes. I mean, we give you your throughput, response time, and different percentiles. That's kind of like just the cherry on the cake; we have the information, so why not give it? But the exciting part of APIToolkit is that you get these statistics, but down to the level of the fields and the endpoints. If you have, for example, a fintech endpoint where you can accept payments, you can see that -- something that we're exploring is that you can see that there's an amount field which usually gets sent; you can see that this field is always being sent on this endpoint, but something that we're exploring is that you would even be able to plot that amount field. So you can on a graph see just basic averages that this field is usually -- you know, over time, every day, the average amount that people transact is $200, but you can just get these statistics down to the level of the fields as well. So we like to just call it field-level observability, pretty much.
+**Anthony Alaribe:** \[20:01\] Yes. I mean, we give you your throughput, response time, and different percentiles. That's kind of like just the cherry on the cake; we have the information, so why not give it? But the exciting part of APIToolkit is that you get these statistics, but down to the level of the fields and the endpoints. If you have, for example, a fintech endpoint where you can accept payments, you can see that -- something that we're exploring is that you can see that there's an amount field which usually gets sent; you can see that this field is always being sent on this endpoint, but something that we're exploring is that you would even be able to plot that amount field. So you can on a graph see just basic averages that this field is usually -- you know, over time, every day, the average amount that people transact is $200, but you can just get these statistics down to the level of the fields as well. So we like to just call it field-level observability, pretty much.
 
 **Johnny Boursiquot:** Okay. But you have a few layers on top of that, in addition to just the fields stuff.
 
@@ -104,7 +104,7 @@ So what does observability look like for this project? Are you providing tools t
 
 **Johnny Boursiquot:** So I'm curious where your toolkit lives. Are clients routing requests through it for this analytics to be captured, or are you at the edge, at the API gateway level, or where is this deployed?
 
-**Anthony Alaribe:** \[00:24:07.27\] So there's the ideal scenario, there's the long-term scenario, and there's the now.
+**Anthony Alaribe:** \[24:07\] So there's the ideal scenario, there's the long-term scenario, and there's the now.
 
 **Johnny Boursiquot:** Okay, let's do it. \[laughs\]
 
@@ -128,7 +128,7 @@ You can sample the request, but we basically process every request that we get o
 
 So the plan is to have these kinds of sidecars... Actually, we do have the sidecars, but there's just no one using it yet. But the plan is to have this sidecar which you can -- if you have like a Kubernetes cluster or a Docker cluster, instead of your application sending your request to our server directly, it sends it to the sidecar, which then just pre-processes it and sends it to us. That way your actual server doesn't need to keep a lot of information in memory, or doesn't need to do any processing at all. Or little processing.
 
-**Johnny Boursiquot:** \[00:27:59.27\] Okay. This sounds very much like the OpenTelemetry community right now. One of the design approaches is basically to have these collectors that are running, and you can certainly run them as sidecars if you wished... But if you have dedicated collectors where - as the name implies - they're collecting all the traces and metrics and whatnot, they on their own time can figure out basically the sending of whatever data you're collecting to your own servers. So you offload that processing out of the application, out of the service, and into this little collecting model. That seems to be a popular approach for this kind of problem solving.
+**Johnny Boursiquot:** \[27:59\] Okay. This sounds very much like the OpenTelemetry community right now. One of the design approaches is basically to have these collectors that are running, and you can certainly run them as sidecars if you wished... But if you have dedicated collectors where - as the name implies - they're collecting all the traces and metrics and whatnot, they on their own time can figure out basically the sending of whatever data you're collecting to your own servers. So you offload that processing out of the application, out of the service, and into this little collecting model. That seems to be a popular approach for this kind of problem solving.
 
 So what I'm hearing is that you're hoping that even though Go today makes the middleware approach good enough, that's ultimately not the long-term solution, right?
 
@@ -144,7 +144,7 @@ So outside of the collectors and our server side, Go is the first line of contac
 
 **Anthony Alaribe:** Precisely.
 
-**Break:** \[00:30:14.05\]
+**Break:** \[30:14\]
 
 **Natalie Pistunovich:** So talking about APIToolkit, you probably saw a lot of APIs, you've probably complained about a lot of APIs in general as you were coming up with the idea for this...
 
@@ -154,7 +154,7 @@ So outside of the collectors and our server side, Go is the first line of contac
 
 **Smile Egbai:** So being a mobile developer, I probably consume more than I create. I don't create so much \[unintelligible 00:31:28.15\] I know this might rupture some feathers, or something, but actually it's a bad practice. I'll just have to be brief... \[laughs\] When you are sending an error -- I sent an error, we got an HTTP response code of 200. I'm sorry, but it's a really big red flag for me. I always feel that way, and designing APIs, the error codes are there for a reason.
 
-\[00:32:03.17\] So if I request a resource that's not there, it gives me a 404. If there's a problem on the server, it gives me one of the 500s. 501, depending on what depending on what server it is. If the resource has moved, or something, I think it's a 301, or something... But don't give me a 200, then now give me a JSON and throw me an error, then you give me a constructive error body with another error code. Even when you return like a 400 or whatever, you could return an error body with your custom code if you want that, but let errors be errors. Let \[unintelligible 00:32:38.13\]
+\[32:03\] So if I request a resource that's not there, it gives me a 404. If there's a problem on the server, it gives me one of the 500s. 501, depending on what depending on what server it is. If the resource has moved, or something, I think it's a 301, or something... But don't give me a 200, then now give me a JSON and throw me an error, then you give me a constructive error body with another error code. Even when you return like a 400 or whatever, you could return an error body with your custom code if you want that, but let errors be errors. Let \[unintelligible 00:32:38.13\]
 
 I think that's one of the worst bad practices, and even when they are written in JSON, returning a number as a string; it's a small thing, but... It doesn't make sense. If it's a number, let it be a number. But don't put a number inside a string, or don't mask a JSON body in a string. It happens a lot, I see it a lot when I'm communicating with third-parties; I get a JSON body within a string, and then I have to encode it again, or decode it into a JSON object before turning it into an actual object.
 
@@ -182,7 +182,7 @@ I just feel things like these are terrible API designs. I mean, most times, idea
 
 **Johnny Boursiquot:** That did not live up to your namesake. It did not put a smile on your face. \[laughter\]
 
-**Smile Egbai:** \[00:36:12.03\] Oh no, it didn't.
+**Smile Egbai:** \[36:12\] Oh no, it didn't.
 
 **Johnny Boursiquot:** Oh, man... Given that you're probably receiving a lot of the data you need to process in JSON - correct me if I'm wrong - how is it dealing with JSON in Go? Do you find that the standard library works just fine, or have you had to use \[unintelligible 00:36:27.01\]
 
@@ -198,7 +198,7 @@ Unfortunately, we outsourced a lot of these kinds of problems to Haskell... The 
 
 Processing the stream is where a lot of the anomaly detection happens, because you wanna go to the traffic in real-time, and if there's an issue, you want to alert someone. But in terms of building the model and displaying it on the dashboard, that's something that -- there's no real time constraints. I mean, there is a time constraint, but it's just more flexible. You don't need the most performant thing to display this model on a dashboard, for example; but you need the fastest thing you can get if you wanna process -- for example, if you have customers who are maybe doing a million requests per second, we need something that can actually process one million requests per second. Basically, process it and compare it against a model and say "Okay, is this request valid? Yes." Then throw it away. "Is this request valid? Yes." Throw it away. Pretty much that.
 
-**Natalie Pistunovich:** \[00:40:24.02\] The APIToolkit is available, it's open source on GitHub, right?
+**Natalie Pistunovich:** \[40:24\] The APIToolkit is available, it's open source on GitHub, right?
 
 **Anthony Alaribe:** Well, right now--
 
@@ -238,7 +238,7 @@ Over time, we're sure that we can handle whatever our customers throw at us, bec
 
 **Natalie Pistunovich:** Time to invite... Mat.
 
-**Jingle:** \[00:42:49.25\] to \[00:43:07.17\]
+**Jingle:** \[42:49\] to \[43:07\]
 
 **Natalie Pistunovich:** Hey, now that we have Mat's song with us, we can officially approach the second part of the show... \[laughs\] In the last five minutes. Guys, we're interested in your unpopular opinions. Who would like to go first?
 
@@ -256,7 +256,7 @@ Over time, we're sure that we can handle whatever our customers throw at us, bec
 
 **Smile Egbai:** Okay, it's not really API or tech-related, but it's more of educational. It's more like -- I think the current school system, or this school system \[unintelligible 00:43:53.12\] doesn't work. You subject children to -- I don't know, is it eight hours, ten hours of school, with 15-30 minutes break, and they come back home to 2-3 hours' worth of homework...
 
-\[00:44:09.24\] They are like bank workers. The kids are basically in this reformed sweatshop that you pay for. That's how I see it. You send your kids to a sweatshop, and you pay for them to suffer. Because -- I mean, they are children.
+\[44:09\] They are like bank workers. The kids are basically in this reformed sweatshop that you pay for. That's how I see it. You send your kids to a sweatshop, and you pay for them to suffer. Because -- I mean, they are children.
 
 Okay, like - you have a full-time job, you work eight hours. When you are done, you're tired mentally, you're stressed. Now imagine children having to go for like 8-10 hours outside their home, they come back, and they have another 2-3 hours of assignments. They have no life besides school. We don't build children's character. I really think the school system should be modified in a way there are shorter times for course learning.
 
