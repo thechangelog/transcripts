@@ -36,7 +36,7 @@ But yeah, it's a play on "quick", because the original motivation of building Vi
 
 **Nick Nisi:** We did a hack week at my work a few months ago back in November, and we had to do pitches, and my pitch was "Let's replace Create React App with Vite and see how that goes for a week." And as part of my pitch, I was like "Vite. Rhymes with feet." and that's how I hammered it in, the correct pronunciation.
 
-**Amal Hussein:** "Vite, rhymes with feet..." \[laughs\] So first of all, thank you for even drawing the lines for me, that Vue is also French... I didn't even make that connection, which is so weird. You're clearly also winning on naming, it seems, right? \[laughs\] \[unintelligible 00:06:16.29\] French Connection - also a clothing store, by the way... \[laughs\] But anyways. So - slow build times, right? Can you kind of like walk folks through what was maybe some of the source of that slowness? Because for a long time on the web we have not had a native module system, and so the community has put together all of these variations, like AMD, CommonJS, UMD, \[unintelligible 00:06:49.08\] and whatever else we could think of... And ECMAScript 6 has saved us from that universe, right? But it's taken a long time to really roll that out, in terms of like have we been able to really benefit from having unbundled modules in the browser, and also in our build system... So can you maybe walk us through how ESM has maybe saved the day a little?
+**Amal Hussein:** "Vite, rhymes with feet..." \[laughs\] So first of all, thank you for even drawing the lines for me, that Vue is also French... I didn't even make that connection, which is so weird. You're clearly also winning on naming, it seems, right? \[laughs\] French Connection - also a clothing store, by the way... \[laughs\] But anyways. So - slow build times, right? Can you kind of like walk folks through what was maybe some of the source of that slowness? Because for a long time on the web we have not had a native module system, and so the community has put together all of these variations, like AMD, CommonJS, UMD, IIFEs and whatever else we could think of... And ECMAScript 6 has saved us from that universe, right? But it's taken a long time to really roll that out, in terms of like have we been able to really benefit from having unbundled modules in the browser, and also in our build system... So can you maybe walk us through how ESM has maybe saved the day a little?
 
 **Evan You:** I would say ESM natively in the browser presented us an opportunity to just rethink how the model should work... Because previously, because we didn't have native module support in the browser, we have to basically bundle everything ourselves. So that's why we had tools like Browserify, WebPack, Rollup... They're all bundlers, because their primary goal is to take your source modules and then concatenate them, also put them into the -- essentially, pretend there is a module system and put everything into one file that the browser can understand. And the major downside of this is for every change that we make, even if we just change a single module, we have to still bundle the whole thing, because we have to rebuild this whole entire bundle so that we can reload it in the browser.
 
@@ -66,7 +66,7 @@ So Esbuild serves multiple roles in Vite; it's a really great project. We first 
 
 **Amal Hussein:** Yeah, that makes a lot of sense. I worked with someone who worked on a WebPack plugin - I think it was like WebPack Cache; we'll put it in the show notes...
 
-**Evan You:** \[unintelligible 00:15:27.24\]
+**Evan You:** DLL plugging
 
 **Amal Hussein:** Yeah, it was a plugin that helped optimize your WebPack build time and rebuild time, because it just cached all of that, it did a lot of caching, and I think that ended up being the base spec for how WebPack handled perf in v4, or something like that; they kind of took that model from that plugin...
 
@@ -122,7 +122,7 @@ So that's TypeScript... And because Esbuild is extremely fast, you don't really 
 
 **Evan You:** Yeah. So by default, we don't even need Babel anymore, if you're building a Vite app. So the default assumption - the target browser support is modern browsers. When you build with Vite, the output is in fact also native ESM. So it assumes your browser already supports native ESM. You can support older browsers, but that requires using a dedicated legacy plugin. So the legacy plugin will in fact pull in Babel using babel/preset-env to actually do all the transpiling, down-leveling your syntax, and all that... But if you are targeting above ES 2015, Esbuild already does a lot of the syntax down-leveling. So if you're targeting modern, you still don't need Babel.
 
-So Babel really only comes in two scenarios. One is you're really targeting legacy browsers, and two is you need to do really custom plugins. Like, completely custom Babel plugins. That's where Babel \[unintelligible 00:26:27.01\] is if you use React...
+So Babel really only comes in two scenarios. One is you're really targeting legacy browsers, and two is you need to do really custom plugins. Like, completely custom Babel plugins. That's where Babel plugging. Another case where Babel plugging coming is if you use React...
 
 **Amal Hussein:** Or non-JavaScript... Like, you know, I'm using stage two, and stage one... Right?
 
@@ -136,7 +136,7 @@ So Babel really only comes in two scenarios. One is you're really targeting lega
 
 **Evan You:** I'm not sure if I...
 
-**Nick Nisi:** So the specific use case I'm thinking of, and one way that we ended up having to use the Babel plugin for Vite was specifically for our tests; and that was because we were using \[unintelligible 00:27:51.09\] and we needed to be able to get into the module loading to replace modules with mocks...
+**Nick Nisi:** So the specific use case I'm thinking of, and one way that we ended up having to use the Babel plugin for Vite was specifically for our tests; and that was because we were using `jest.mock` and we needed to be able to get into the module loading to replace modules with mocks...
 
 **Evan You:** So are you using Jest?
 
@@ -166,17 +166,17 @@ So when Vite first came out, unit testing was a major pain point for a lot of ou
 
 **Amal Hussein:** "We know which browser supports what..." And they maintain this real-time check. So where does that come into play? Because they're an equivalent of that in the Vite ecosystem?
 
-**Evan You:** Oh, yeah. So first of all, Esbuild covers that, to a certain extent. So Esbuild, when we do our final production build, we do have an option called build.target. \[unintelligible 00:30:36.18\] If you set that target, then all the syntax that's above ES2015, Esbuild will down-level that.
+**Evan You:** Oh, yeah. So first of all, Esbuild covers that, to a certain extent. So Esbuild, when we do our final production build, we do have an option called build.target. You can say target ES2015. If you set that target, then all the syntax that's above ES2015, Esbuild will down-level that.
 
 **Amal Hussein:** Okay.
 
-**Evan You:** For example, if you use object spread, but you target ES2015 - Esbuild actually handles that for you. It will in-line a helper for you, sort of like Babel helpers, and then transform your code \[unintelligible 00:30:56.10\] Which is why I say - if you target ES2015 or above, in most cases you don't really need Babel, for production build that is.
+**Evan You:** For example, if you use object spread, but you target ES2015 - Esbuild actually handles that for you. It will in-line a helper for you, sort of like Babel helpers, and then transform your code the right way. Which is why I say - if you target ES2015 or above, in most cases you don't really need Babel, for production build that is.
 
 The other aspect of it is my personal preference is - say when I'm developing... I don't know, maybe I'm able to just -- whenever I'm using some features, because I work on Vue, as a library author I kind of just memorize which ES edition has a certain feature...
 
 **Amal Hussein:** Yeah, of course.
 
-**Evan You:** ...so I'm always trying to remember "Okay, this is a browser baseline support. I can't use this. I can use this, I cannot use that..." So \[unintelligible 00:31:35.21\] but yeah, I realized for --
+**Evan You:** ...so I'm always trying to remember "Okay, this is a browser baseline support. I can't use this. I can use this, I cannot use that..." So I'm getting sad but yeah, I realized for --
 
 **Amal Hussein:** Average, everyday people, for the rest of us... For the rest of us average folks... \[laughs\]
 
@@ -194,7 +194,7 @@ The other aspect of it is my personal preference is - say when I'm developing...
 
 **Evan You:** To put it simply, it's sort of like Babel, but written in Rust.
 
-**Amal Hussein:** Yeah. It's a good segue to like \[unintelligible 00:32:32.19\]
+**Amal Hussein:** Yeah. It's a good segue to like our Rust
 
 **Evan You:** It's more opinionated than Babel... You can write plugins, but you can only write plugins in Rust, so it's a bit harder to extend for normal JS developers. I haven't been able to write an SWC plugin myself, but from a conceptual level, it does similar things. It parses your code, it transforms the AST, and then spits out JavaScript.
 
@@ -258,7 +258,7 @@ When we see that you're trying to import a WASM, we just transform it into the c
 
 **Amal Hussein:** Interesting.
 
-**Evan You:** The other part about workers is you want to apply the same transforms on your workers as your other \[unintelligible 00:37:53.03\] For example, you want to write your workers with TypeScript, you want to have module imports... Maybe you have a worker, but you want to have multiple files that import one another... But some browsers don't support module workers yet, so we have to pre-bundle the worker for you, so that your worker would work everywhere... That's a lot of these kind of things that we do under the hood so you can have a simple syntax, just import the worker, and then use it without having to worry about "Okay, how do I transpile the workers, how do I bundle the worker?" and all that stuff.
+**Evan You:** The other part about workers is you want to apply the same transforms on your workers as your other part of \[unintelligible 00:37:53.03\] For example, you want to write your workers with TypeScript, you want to have module imports... Maybe you have a worker, but you want to have multiple files that import one another... But some browsers don't support module workers yet, so we have to pre-bundle the worker for you, so that your worker would work everywhere... That's a lot of these kind of things that we do under the hood so you can have a simple syntax, just import the worker, and then use it without having to worry about "Okay, how do I transpile the workers, how do I bundle the worker?" and all that stuff.
 
 **Amal Hussein:** But you know how workers have all these special rules, because they're running in a specific context? I'm curious, is there like a lint package or something along those lines in Vite for handling all of the rules around workers?
 
@@ -290,7 +290,7 @@ When we see that you're trying to import a WASM, we just transform it into the c
 
 **Amal Hussein:** It's so powerful, oh my gosh. We'll probably do a whole show on proxy. So we talked a little bit earlier about Rollup config being supported with Vte, and I'm assuming obviously all the tree-shaking happens as well... So can you kind of talk about this decision to support Rollup? Like, there's some intentional kind of steering I think you're doing, but that's an opinionated move; I think a good opinion, but it's opinionated nonetheless, so...
 
-**Evan You:** Yeah. So initially, obviously if we could, we would want to do the bundling with Esbuild, because it's just so fast... I tested with that, but the thing with Esbuild is that it's great for bundling libraries, but it's still kind of a bit immature when it comes to bundling applications. Because when you're bundling applications, you have a different layer of concern that is code-splitting, \[unintelligible 00:41:05.00\] and how to best optimize your chunking so that you get the best loading performance in production.
+**Evan You:** Yeah. So initially, obviously if we could, we would want to do the bundling with Esbuild, because it's just so fast... I tested with that, but the thing with Esbuild is that it's great for bundling libraries, but it's still kind of a bit immature when it comes to bundling applications. Because when you're bundling applications, you have a different layer of concern that is code-splitting, chunk-cashe and how to best optimize your chunking so that you get the best loading performance in production.
 
 So in that aspect, WebPack gives you the most control, but it's extremely complicated. Again, it's really hard to get a good default. You have to learn how WebPack chunk splitting configuration works.
 
@@ -302,7 +302,7 @@ When I was writing the Vue single-file component support for Rollup and WebPack,
 
 One reason that a lot of advanced users also like Vite is because they can pretty much do anything they want by writing their own Vite plugins. So they're not sort of -- even though a lot of things are opinionated, they work out of the box, they can still sort of bend Vite to do what they want Vite to do by writing their own plugins.
 
-So I think this is extremely important for power users. Having good defaults appeal to the maybe 80% of the users who just want to get things \[unintelligible 00:43:15.05\] but at the same time, there will be this group of power users who want to do advanced things, and you need to give them that ability to do that with a nice API. So I think Rollup's API is a good way to give them that power, and Rollup itself is also powerful enough for us to give normal users a good default for production performance, and then it has a great ecosystem.
+So I think this is extremely important for power users. Having good defaults appeal to the maybe 80% of the users who just want to get things working, but at the same time, there will be this group of power users who want to do advanced things, and you need to give them that ability to do that with a nice API. So I think Rollup's API is a good way to give them that power, and Rollup itself is also powerful enough for us to give normal users a good default for production performance, and then it has a great ecosystem.
 
 So going with Rollup is essentially sort of a trade-off decision between the plugin API friendliness, the existing ecosystem and how we can give a better production build performance out of the box for end users.
 
@@ -340,21 +340,21 @@ So when we're thinking about server-side rendering with Vite, we want to have th
 
 **Amal Hussein:** Oh, right, right, right.
 
-**Evan You:** And you can easily do that with native ESM. So we need to control the module graph, which is why we have to do this ourselves. So Rich came up with the idea first. When they were working on SvelteKit \[unintelligible 00:50:15.28\] idea into Snowpack, which is another --
+**Evan You:** And you can easily do that with native ESM. So we need to control the module graph, which is why we have to do this ourselves. So Rich came up with the idea first. When they were working on SvelteKit, he turned that idea into Snowpack, which is another --
 
 **Amal Hussein:** No bundler, yeah...
 
 **Evan You:** No bundler tool, with a very similar scope to Vite. We were sort of competing, because the two projects actually came out around the same time, but with kind of different design decisions on some parts of how we handle deps, and how we handle certain things...
 
-Rich was investigating which tool he wants to base SvelteKit upon, so as a test, he PR-ed his SSR module transform into Snowpack. So I saw that and I felt like "Oh, this is a genius idea." Essentially, I implement the same thing in Vite. And the cool thing is we are able to apply the same client-side \[unintelligible 00:51:06.24\] plugin pipelines on that node side module as well. And in order to do that, we had to extend Rollup's plugin format, so that you can use the same plugin to do different transforms based on whether you are doing SSR or not.
+Rich was investigating which tool he wants to base SvelteKit upon, so as a test, he PR-ed his SSR module transform into Snowpack. So I saw that and I felt like "Oh, this is a genius idea." Essentially, I implement the same thing in Vite. And the cool thing is we are able to apply the same client-side trans plugin pipelines on that node side module as well. And in order to do that, we had to extend Rollup's plugin format, so that you can use the same plugin to do different transforms based on whether you are doing SSR or not.
 
 **Amal Hussein:** So do you have like a little abstraction layer in there?
 
-**Evan You:** Yeah. So essentially, we took \[unintelligible 00:51:24.23\] then we combined it with Vite's plugin system, and got it to a state where you can essentially use it quite smoothly to run arbitrary SSR for any framework. So we can do that for React, we can do that for Vue, we can do that for Svelte.
+**Evan You:** Yeah. So essentially, we took rich space transform, then we combined it with Vite's plugin system, and got it to a state where you can essentially use it quite smoothly to run arbitrary SSR for any framework. So we can do that for React, we can do that for Vue, we can do that for Svelte.
 
 **Amal Hussein:** Wow.
 
-**Evan You:** \[51:45\] So it's generic enough. I think that's also what I'm kind of proud about with Vite, is we try to find the right abstraction boundaries, so that we do just enough inside the framework so that it's still flexible enough to support different other frameworks, like client-side frameworks... But for the client-side frameworks we do so much that they can basically all share the same underlying implementation, without duplicating work with one another... Which is why I think we are seeing a lot of other frameworks, like Solid or \[unintelligible 00:52:22.04\] they're able to do their server-side rendering implementation using Vite as well. I think that's super-great, because we have this common foundation that can be leveraged by different client frameworks. So they don't have to reinvent the wheels all over again.
+**Evan You:** \[51:45\] So it's generic enough. I think that's also what I'm kind of proud about with Vite, is we try to find the right abstraction boundaries, so that we do just enough inside the framework so that it's still flexible enough to support different other frameworks, like client-side frameworks... But for the client-side frameworks we do so much that they can basically all share the same underlying implementation, without duplicating work with one another... Which is why I think we are seeing a lot of other frameworks, like Solid or Markal they essentially - they're able to do their server-side rendering implementation using Vite as well. I think that's super-great, because we have this common foundation that can be leveraged by different client frameworks. So they don't have to reinvent the wheels all over again.
 
 So I think there are ideas coming from different places, and Vite came up with the most usable, flexible, but still powerful enough solution for people. A lot of these higher-level frameworks start to sort gravitate towards that as the common base... And SvelteKit is now also based on Vite, so using this same SSR system. We also have Hydrogen, which is the new React framework by Shopify, which is also using Vite SSR.
 
@@ -418,9 +418,9 @@ That said, I do agree that the speed of type-checking is slowly becoming the onl
 
 **Amal Hussein:** Yeah.
 
-**Evan You:** There's a few other things I kind of wanna touch upon regarding these native dependencies... There are some certain kind of jobs that JavaScript can actually be pretty performant. Because v8 is pretty amazing. If you write JavaScript code in the right way, you can get pretty close to native performance in certain cases. Because one of the things that Vite tries to do is we avoid full AST parses during development. A lot of these features that we do - for example, we resolve your imports and rewrite them... We do that without doing full AST parses. We use es-module-lexer, which is written in C, to only find imports. Then we rewrite those things using another package called MagicString, which is super lightweight... And only do this sort of direct string manipulations, without doing full AST transforms. So it's an order of magnitude faster than, say, \[unintelligible 01:02:48.21\] and then transforming the AST, then printing it out.
+**Evan You:** There's a few other things I kind of wanna touch upon regarding these native dependencies... There are some certain kind of jobs that JavaScript can actually be pretty performant. Because v8 is pretty amazing. If you write JavaScript code in the right way, you can get pretty close to native performance in certain cases. Because one of the things that Vite tries to do is we avoid full AST parses during development. A lot of these features that we do - for example, we resolve your imports and rewrite them... We do that without doing full AST parses. We use es-module-lexer, which is written in C, to only find imports. Then we rewrite those things using another package called MagicString, which is super lightweight... And only do this sort of direct string manipulations, without doing full AST transforms. So it's an order of magnitude faster than, say, Parsonage with Arorn and then transforming the AST, then printing it out.
 
-**Amal Hussein:** Is that because you're only looking for the imports? For our listeners, I think when you're parsing -- like when you're, let's say like \[unintelligible 01:03:00.05\] when you're parsing that one line, the first step is the compiler does this like actually just break that string up and try to find the tokens. So that's like the lexicon -- like, what is const? What is hello? What is this string? So breaking that up, and then it goes into actually parsing the tree, and creating the AST. So I'm just curious, what's the benefit of the thing that you're doing?
+**Amal Hussein:** Is that because you're only looking for the imports? For our listeners, I think when you're parsing -- like when you're, let's say like `const hello = "worlds"` when you're parsing that one line, the first step is the compiler does this like actually just break that string up and try to find the tokens. So that's like the lexicon -- like, what is const? What is hello? What is this string? So breaking that up, and then it goes into actually parsing the tree, and creating the AST. So I'm just curious, what's the benefit of the thing that you're doing?
 
 **Evan You:** Actually parsing the whole file into AST is expensive.
 
@@ -430,7 +430,7 @@ That said, I do agree that the speed of type-checking is slowly becoming the onl
 
 \[01:04:21.20\] So this is in fact the only transform that Vite does by default. If you don't use any plugin, this is the only thing we do... Which is why it stays really fast.
 
-So we've been thinking about maybe we can replace MagicString with a native dependency that does the same thing, because it feels like a good candidate. And it turns out someone actually did that. So they reimplemented MagicString using Rust. And in the performance benchmark we noticed that it's only maybe 30% to 40% faster than the JavaScript version. And for us, that becomes a much less attractive trade-off... Because the JavaScript of MagicString is lighter; when you compile something for native, it incurs another issue, which is distribution. Right now, for example you're trying to download -- like, Rust or Go, they all have to compile into \[unintelligible 01:05:11.27\] and you have to compile all these different artifacts for different operating systems. And then when the end user tries to install them, we need a way to figure out that you only install the correct binary for your target operating system. Previously, it was a big hack; everyone was doing their own thing. You have to use a post-install script to detect the target OS, then do a fetch yourself, fetch the binary and then put it on the machine... Which just sounds super-sketchy. It's like a super-insecure way of doing things.
+So we've been thinking about maybe we can replace MagicString with a native dependency that does the same thing, because it feels like a good candidate. And it turns out someone actually did that. So they reimplemented MagicString using Rust. And in the performance benchmark we noticed that it's only maybe 30% to 40% faster than the JavaScript version. And for us, that becomes a much less attractive trade-off... Because the JavaScript of MagicString is lighter; when you compile something for native, it incurs another issue, which is distribution. Right now, for example you're trying to download -- like, Rust or Go, they all have to compile into native boundaries and you have to compile all these different artifacts for different operating systems. And then when the end user tries to install them, we need a way to figure out that you only install the correct binary for your target operating system. Previously, it was a big hack; everyone was doing their own thing. You have to use a post-install script to detect the target OS, then do a fetch yourself, fetch the binary and then put it on the machine... Which just sounds super-sketchy. It's like a super-insecure way of doing things.
 
 **Amal Hussein:** Especially because it's not like we in the JavaScript community have the same hygiene around dependency management that folks who've been doing native development have, right?
 
