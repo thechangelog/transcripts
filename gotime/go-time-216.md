@@ -42,7 +42,7 @@ The main problems that APIToolkit is trying to solve is around anomaly detection
 
 So the use case you give is one where maybe you have some less-traveled parts of an API, and all of a sudden you think "Okay, can I or can I not change this, or make some modification tweaks, whatever it is, maybe even make some backwards-incompatible changes?" So what you're saying is that you want to have enough information about the usage, how the API is used, in order to know what is the likelihood of you making a change and breaking a particular endpoint in this set of endpoints. Did I get that right?
 
-**Anthony Alaribe:** I mean, very much. Of course, within the limits of what a machine can learn about your servers; it tries to understand "These are the fields that are usually being sent, this is the frequency at which they're being sent." This particular field, this name is usually - maybe it's a string, it's a text field, and it usually has this kind of format, this kind of mask. Maybe there's some alphanumeric mask, and then there's a space, and then there's a mask... So if someone changes that name field and starts to return numbers, then obviously something is wrong. Once \[unintelligible 00:10:12.23\] and let people know "Hey, this used to be a text field with this format, and now it's returning numbers..."
+**Anthony Alaribe:** I mean, very much. Of course, within the limits of what a machine can learn about your servers; it tries to understand "These are the fields that are usually being sent, this is the frequency at which they're being sent." This particular field, this name is usually - maybe it's a string, it's a text field, and it usually has this kind of format, this kind of mask. Maybe there's some alphanumeric mask, and then there's a space, and then there's a mask... So if someone changes that name field and starts to return numbers, then obviously something is wrong. Once you read a lot of bills and let people know "Hey, this used to be a text field with this format, and now it's returning numbers..."
 
 **Johnny Boursiquot:** So is this a development time tool? You want this detection before going live with a change, right?
 
@@ -52,7 +52,7 @@ So the use case you give is one where maybe you have some less-traveled parts of
 
 **Anthony Alaribe:** I mean, Smile, you wanted to add something first?
 
-**Smile Egbai:** Ideally, we would all love for this detector to our code before you go to production, and definitely the tool would surely run both on your staging server and your production server, and whatever servers you would have... But it all depends on the tool itself detecting these anomalies. So if you have this running on your staging environment and you've probably run tests, integration tests within your staging environment, most like the APIToolkit would be able to detect such things. But if you are maybe one of the \[unintelligible 00:11:17.00\] who probably pushed straight to master and deployed, like in a rodeo, then of course, this cannot really be detected in production. But that's the worst-case scenario.
+**Smile Egbai:** Ideally, we would all love for this detector to our code before you go to production, and definitely the tool would surely run both on your staging server and your production server, and whatever servers you would have... But it all depends on the tool itself detecting these anomalies. So if you have this running on your staging environment and you've probably run tests, integration tests within your staging environment, most like the APIToolkit would be able to detect such things. But if you are maybe one of the C/AL persons who probably pushed straight to master and deployed, like in a rodeo, then of course, this cannot really be detected in production. But that's the worst-case scenario.
 
 **Anthony Alaribe:** In a perfect world, a tool like this probably should not exist, because if people were building perfect systems, will test it, every single endpoint is tested, every single field is tested...
 
@@ -62,7 +62,7 @@ So the use case you give is one where maybe you have some less-traveled parts of
 
 \[12:11\] For example, if a consumer used to send a particular format of input, and someone deployed a web app or a mobile app that starts sending something else, then we also want to flag that and notify someone that "Hey, this server is accepting a very different input from its clients." And the clients could be third-parties, it could be other companies who don't have those best practices that you are following.
 
-**Smile Egbai:** Something that came up a lot in our interviews, where -- it's actually based on third-parties; we integrated a third-party provider. And I think it's also a bad practice when you version an API and you end up going back to version one and changing things. Meanwhile we know if you are going to be using API versioning, if you move to version 2, \[unintelligible 00:13:00.03\] We constantly see third-parties doing these kinds of things. We won't name names, but these kinds of things have come up a lot within our interviews, where you would integrate a third-party, usually within three minutes, and you wake up some weekend or a Monday and you see a lot of requests are broken, things are not going through. And why? Because someone, somewhere, or some machine somewhere changed an old version and added new fields, and changed old fields \[unintelligible 00:13:33.01\] It's more like an API you consume is breaking the contract that has been set. Within these kinds of situations, you definitely want to get an alert about something like this, so you could mitigate certain effects.
+**Smile Egbai:** Something that came up a lot in our interviews, where -- it's actually based on third-parties; we integrated a third-party provider. And I think it's also a bad practice when you version an API and you end up going back to version one and changing things. Meanwhile we know if you are going to be using API versioning, if you move to version 2, then most of us go to version 1, I introduce new changes. Or do you constantly see third-parties doing these kinds of things. We won't name names, but these kinds of things have come up a lot within our interviews, where you would integrate a third-party, usually within three minutes, and you wake up some weekend or a Monday and you see a lot of requests are broken, things are not going through. And why? Because someone, somewhere, or some machine somewhere changed an old version and added new fields, and changed old fields we should be good for now. It's not even about you making a mistake. It's more like an API you consume is breaking the contract that has been set. Within these kinds of situations, you definitely want to get an alert about something like this, so you could mitigate certain effects.
 
 **Anthony Alaribe:** I actually just remembered a conversation we had in the interviews with someone, and he said that they have a popular fintech provider that they consume/make use of, and this fintech provider probably deployed a change, and everything was broken for about a couple of hours. So they lost a lot of money, but of course, the fintech provider probably detected it and rolled back... But there was no public update; they did not say they did anything that broke anything, and they would not agree that they made any changes which broke things.
 
@@ -72,7 +72,7 @@ If you have something that shows you and says "Hey, this contract broke at this 
 
 **Natalie Pistunovich:** The first time that we talked about APIToolkit, I kind of imagined myself that a good scenario for me to use that would be as a consumer of different APIs... But just now y'all mentioned that this can be a great tool also for a provider of APIs, to make sure that all are in sync. So that's a very interesting accountability tool in addition to everything.
 
-**Johnny Boursiquot:** So along those lines... So it sounds like - and we're gonna get to where Go fits into all of this in a bit here... I wanna make sure I understand your project before we dive in deeper. So your website APIToolkit.io mentions observability. So observability means something very specific these days. It's no longer just monitoring. Observability implies other things. And obviously, we talked about the accountability here, so I'm sure if you consume -- let's imagine that I consume an API from a fintech company; we have an SLA, a service level agreement that says I can expect -- this is when I should, if at all, expect outages etc. So that's an SLA. That's a legally binding document that says \[unintelligible 00:17:32.22\]
+**Johnny Boursiquot:** So along those lines... So it sounds like - and we're gonna get to where Go fits into all of this in a bit here... I wanna make sure I understand your project before we dive in deeper. So your website APIToolkit.io mentions observability. So observability means something very specific these days. It's no longer just monitoring. Observability implies other things. And obviously, we talked about the accountability here, so I'm sure if you consume -- let's imagine that I consume an API from a fintech company; we have an SLA, a service level agreement that says I can expect -- this is when I should, if at all, expect outages etc. So that's an SLA. That's a legally binding document that says this is the level source of it.
 
 And then you have tools, whether it be on the provider side or on the client side, which obviously APIToolkit.io could be something that you as a consumer or me as a buyer, the consumer of this API, could use to basically create my own SLOs, around the availability of this API that I'm paying for and I'm consuming.
 
@@ -88,7 +88,7 @@ So what does observability look like for this project? Are you providing tools t
 
 **Anthony Alaribe:** Yeah.
 
-**Johnny Boursiquot:** So I do want to sort of dig into the Go side of things... What role is Go playing in this product? I know you have a lot of plugins and integrations \[unintelligible 00:21:23.19\] bigger role in this project for you?
+**Johnny Boursiquot:** So I do want to sort of dig into the Go side of things... What role is Go playing in this product? I know you have a lot of plugins and integrations sort of a - and go is obviously one of them - is go playing a bigger role in this project for you?
 
 **Anthony Alaribe:** In the development world right now, if you want to do a lot of numbers crunching, and handle/process a lot of things in little time, you have a lot of options. But in terms of the popular options, which are also easy to get into, if you're gonna on-board a lot of people on the project, I think Go brings that hands-down. It's a relatively simple language to on-board people to, but it's also very performant. We use Go for a lot of this. We're trying to process our customers' requests real-time, and that gives us very tight constraints, which Go is helping solve.
 
@@ -124,7 +124,7 @@ You can sample the request, but we basically process every request that we get o
 
 **Johnny Boursiquot:** Okay, okay. So I can see how Go in this case would be a good choice as middleware, as one of your clients. So if the shuttling of data on request happens every time somebody makes a request, and a goroutine gets launched, and during the processing of the request hopefully anything that you're doing in the middleware is not delaying the actual processing of the request... So I imagine you structure it in a way that the impact to the processing of the request - because everything has to go through that middleware layer - the impact on the request itself is minimized as much as possible... And then behind the scenes you're just sending data to your server.
 
-**Anthony Alaribe:** This is why I told you there's the now, there's the idea, and there's the future. \[laughs\] So for a lot of projects, for example Golang projects, the middleware \[unintelligible 00:26:35.22\] middleware is part of the project; Go's memory representation of information is very compact and useful. But if you're making use of a language like PHP - maybe not so much PHP anymore, but a language that tries to be stateless, then such a middleware \[unintelligible 00:26:56.16\] doesn't really work, because you have to send each request to our servers, each single time a request comes. Whereas in Go we kind of send everything pretty much to one channel, and buffer the inputs from your server and stream them to our servers. In some other language ecosystem this is much harder to do.
+**Anthony Alaribe:** This is why I told you there's the now, there's the idea, and there's the future. \[laughs\] So for a lot of projects, for example Golang projects, the middleware app which works very nicely, where the middleware is part of the project; Go's memory representation of information is very compact and useful. But if you're making use of a language like PHP - maybe not so much PHP anymore, but a language that tries to be stateless, then such a middleware app which doesn't really work, because you have to send each request to our servers, each single time a request comes. Whereas in Go we kind of send everything pretty much to one channel, and buffer the inputs from your server and stream them to our servers. In some other language ecosystem this is much harder to do.
 
 So the plan is to have these kinds of sidecars... Actually, we do have the sidecars, but there's just no one using it yet. But the plan is to have this sidecar which you can -- if you have like a Kubernetes cluster or a Docker cluster, instead of your application sending your request to our server directly, it sends it to the sidecar, which then just pre-processes it and sends it to us. That way your actual server doesn't need to keep a lot of information in memory, or doesn't need to do any processing at all. Or little processing.
 
@@ -140,7 +140,7 @@ So outside of the collectors and our server side, Go is the first line of contac
 
 **Anthony Alaribe:** Precisely.
 
-**Johnny Boursiquot:** But pretty much everything that you ship, the moment it touches your network, then it's all Go all the way down, except of course for the Haskell stuff. This sounded like some sort of abstract syntax tree, with \[unintelligible 00:30:06.02\] trying to figure out what the shape of these APIs looks like. Okay, that makes sense.
+**Johnny Boursiquot:** But pretty much everything that you ship, the moment it touches your network, then it's all Go all the way down, except of course for the Haskell stuff. This sounded like some sort of abstract syntax tree, with a new creation or something like that, trying to figure out what the shape of these APIs looks like. Okay, that makes sense.
 
 **Anthony Alaribe:** Precisely.
 
@@ -152,9 +152,9 @@ So outside of the collectors and our server side, Go is the first line of contac
 
 **Natalie Pistunovich:** So from seeing so many APIs, and probably writing a bunch, what are some good practices that you see, that you follow, and what makes them good?
 
-**Smile Egbai:** So being a mobile developer, I probably consume more than I create. I don't create so much \[unintelligible 00:31:28.15\] I know this might rupture some feathers, or something, but actually it's a bad practice. I'll just have to be brief... \[laughs\] When you are sending an error -- I sent an error, we got an HTTP response code of 200. I'm sorry, but it's a really big red flag for me. I always feel that way, and designing APIs, the error codes are there for a reason.
+**Smile Egbai:** So being a mobile developer, I probably consume more than I create. I don't create so much per se, but, one thing that always ate me, I know this might rupture some feathers, or something, but actually it's a bad practice. I'll just have to be brief... \[laughs\] When you are sending an error -- I sent an error, we got an HTTP response code of 200. I'm sorry, but it's a really big red flag for me. I always feel that way, and designing APIs, the error codes are there for a reason.
 
-\[32:03\] So if I request a resource that's not there, it gives me a 404. If there's a problem on the server, it gives me one of the 500s. 501, depending on what depending on what server it is. If the resource has moved, or something, I think it's a 301, or something... But don't give me a 200, then now give me a JSON and throw me an error, then you give me a constructive error body with another error code. Even when you return like a 400 or whatever, you could return an error body with your custom code if you want that, but let errors be errors. Let \[unintelligible 00:32:38.13\]
+\[32:03\] So if I request a resource that's not there, it gives me a 404. If there's a problem on the server, it gives me one of the 500s. 501, depending on what depending on what server it is. If the resource has moved, or something, I think it's a 301, or something... But don't give me a 200, then now give me a JSON and throw me an error, then you give me a constructive error body with another error code. Even when you return like a 400 or whatever, you could return an error body with your custom code if you want that, but let errors be errors. Let responsive key be responsive key
 
 I think that's one of the worst bad practices, and even when they are written in JSON, returning a number as a string; it's a small thing, but... It doesn't make sense. If it's a number, let it be a number. But don't put a number inside a string, or don't mask a JSON body in a string. It happens a lot, I see it a lot when I'm communicating with third-parties; I get a JSON body within a string, and then I have to encode it again, or decode it into a JSON object before turning it into an actual object.
 
@@ -162,7 +162,7 @@ I think for me those are one of the pet peeves when you're talking about API bes
 
 **Anthony Alaribe:** I just remembered one issue Smile was ranting about some time ago... I think he spent some time investing some issue; I think there was a field that -- if the field doesn't exist, it would be a null. He was checking for this null... Maybe you wanna tell the story better... \[laughter\]
 
-**Smile Egbai:** Yeah, so there's this weird third-party provider we have, and when \[unintelligible 00:33:49.03\] they always sent a null. But now, when the field doesn't exist, I don't know what they do or how they do it, they just don't send the field. If we are not decoding that JSON, it crashes the adaptor.
+**Smile Egbai:** Yeah, so there's this weird third-party provider we have, and when field doesn't exist instead, they always sent a null. But now, when the field doesn't exist, I don't know what they do or how they do it, they just don't send the field. If we are not decoding that JSON, it crashes the adaptor.
 
 **Anthony Alaribe:** You were telling me about a situation where they were sending this null, but as a string.
 
@@ -170,7 +170,7 @@ I think for me those are one of the pet peeves when you're talking about API bes
 
 I just feel things like these are terrible API designs. I mean, most times, ideally, if you're going to send in a value which is a string as a null, that's fine; we could always check that. But removing the field completely? No. It just makes it hacky. Then bringing it back and instead of sending a null, you now send it as an empty string. I mean, that could still be worked, but it's just too many inconsistencies.
 
-**Natalie Pistunovich:** Yeah. They should be sending like a string to a URL of an image of a meme that says \[unintelligible 00:35:15.23\]
+**Natalie Pistunovich:** Yeah. They should be sending like a string to a URL of an image of a meme that says, "Null"
 
 **Smile Egbai:** Look, and the part that killed me the most... I remember it now. They sent the null as a string. You know when you put a null in a string? So instead of sending null, you send me null as a string...
 
@@ -178,19 +178,19 @@ I just feel things like these are terrible API designs. I mean, most times, idea
 
 **Johnny Boursiquot:** End of sentence...
 
-**Smile Egbai:** Our users were literally getting null. They were getting null; when you displayed the text, you were getting null. And I saw these things and I was like, "How...?!" I didn't believe I made that kind of mistake, and I could not for the life of me understand why I was displaying null null. I just couldn't get it. \[unintelligible 00:35:59.22\] and I saw a string null, and I was like, "Okay... That's nice."
+**Smile Egbai:** Our users were literally getting null. They were getting null; when you displayed the text, you were getting null. And I saw these things and I was like, "How...?!" I didn't believe I made that kind of mistake, and I could not for the life of me understand why I was displaying null null. I just couldn't get it. When I had to go to the restaurant, I now saw a string null, and I was like, "Okay... That's nice."
 
 **Johnny Boursiquot:** That did not live up to your namesake. It did not put a smile on your face. \[laughter\]
 
 **Smile Egbai:** \[36:12\] Oh no, it didn't.
 
-**Johnny Boursiquot:** Oh, man... Given that you're probably receiving a lot of the data you need to process in JSON - correct me if I'm wrong - how is it dealing with JSON in Go? Do you find that the standard library works just fine, or have you had to use \[unintelligible 00:36:27.01\]
+**Johnny Boursiquot:** Oh, man... Given that you're probably receiving a lot of the data you need to process in JSON - correct me if I'm wrong - how is it dealing with JSON in Go? Do you find that the standard library works just fine, or have you had to use something else?
 
-**Anthony Alaribe:** Go actually handles JSON quite nicely. Unfortunately, most programming languages in the world are not written in Go, so this makes it quite difficult to work with. For example, in the dynamically-typed ecosystem it's very common to have one field that can be three things; maybe it's an object sometimes, other times it's a string, maybe sometimes it's null... And this is relatively difficult to represent in Go. You need to maybe use an empty interface, and kind of \[unintelligible 00:37:05.04\]
+**Anthony Alaribe:** Go actually handles JSON quite nicely. Unfortunately, most programming languages in the world are not written in Go, so this makes it quite difficult to work with. For example, in the dynamically-typed ecosystem it's very common to have one field that can be three things; maybe it's an object sometimes, other times it's a string, maybe sometimes it's null... And this is relatively difficult to represent in Go. You need to maybe use an empty interface, and kind of Go Tree
 
 So this problem -- it kind of makes it harder to consume APIs in Go. It's really nice to produce in Go, because every language who consumes an API that was made in Go would get something very consistent. But if you as a Go service is the one consuming, then you need to be prepared to deal with these things that are very difficult to represent in Go.
 
-Unfortunately, we outsourced a lot of these kinds of problems to Haskell... The language just exists to solve these kinds of parsing problems, and it's just more mature in solving these kinds of parsing problems than Go. Definitely, these things can be done in Go. You can save it into an interface and have a \[unintelligible 00:38:00.15\] of possible alternatives, but the solutions are just easier in Haskell.
+Unfortunately, we outsourced a lot of these kinds of problems to Haskell... The language just exists to solve these kinds of parsing problems, and it's just more mature in solving these kinds of parsing problems than Go. Definitely, these things can be done in Go. You can save it into an interface and have a cast a Go tree list of possible alternatives, but the solutions are just easier in Haskell.
 
 **Johnny Boursiquot:** Right. So I'm assuming that in the next iteration of the product, where you do have a separate - let's just go with the term 'sidecar' for now, but... You do have a separate collector, if you want. Then the constraint really becomes how fast can you show the results of your analysis, of your anomaly detections in your own dashboard, and not how fast you can get out of the day of a particular request, right? Then would you say that it doesn't matter as much how fast the processing of the JSON is if you are collecting and maybe doing some compacting on the collector side, maybe doing some sampling right before the data even reaches the edge of the network? Would you say that processing JSON really at that stage doesn't really matter? Or do you have a similar concern?
 
@@ -254,7 +254,7 @@ Over time, we're sure that we can handle whatever our customers throw at us, bec
 
 **Natalie Pistunovich:** So what is your actual unpopular opinion?
 
-**Smile Egbai:** Okay, it's not really API or tech-related, but it's more of educational. It's more like -- I think the current school system, or this school system \[unintelligible 00:43:53.12\] doesn't work. You subject children to -- I don't know, is it eight hours, ten hours of school, with 15-30 minutes break, and they come back home to 2-3 hours' worth of homework...
+**Smile Egbai:** Okay, it's not really API or tech-related, but it's more of educational. It's more like -- I think the current school system, or this school system that's always been, just doesn't work. You subject children to -- I don't know, is it eight hours, ten hours of school, with 15-30 minutes break, and they come back home to 2-3 hours' worth of homework...
 
 \[44:09\] They are like bank workers. The kids are basically in this reformed sweatshop that you pay for. That's how I see it. You send your kids to a sweatshop, and you pay for them to suffer. Because -- I mean, they are children.
 
@@ -276,7 +276,7 @@ I think there was a study where children who are homeschooled actually performed
 
 **Johnny Boursiquot:** Alright, alright... Well, I don't know if that's gonna be unpopular. I don't disagree. I hear you.
 
-**Anthony Alaribe:** I definitely agree. I think I saw a talk \[unintelligible 00:45:42.21\] a TED talk, and he was like "Kids who want to go into kindergarten get interviewed." I was like, "What exactly are you interviewing these kids for?" Like, are you gonna ask them "What have you done with your three years of your life?" \[laughter\] Just breastfeeding?
+**Anthony Alaribe:** I definitely agree. I think I saw a talk by Ken, somebody, sorry I don't remember, a TED talk, and he was like "Kids who want to go into kindergarten get interviewed." I was like, "What exactly are you interviewing these kids for?" Like, are you gonna ask them "What have you done with your three years of your life?" \[laughter\] Just breastfeeding?
 
 **Johnny Boursiquot:** "I don't know... Pee, poo, try to walk around... I don't know."
 
@@ -302,7 +302,7 @@ I think there was a study where children who are homeschooled actually performed
 
 **Johnny Boursiquot:** Okay, okay... For a lack of a better term, you were afraid of it until you started learning it.
 
-**Anthony Alaribe:** Yes. There's this popular \[unintelligible 00:47:26.26\] But maybe that's also what makes it nice, because then the rules are very clear.
+**Anthony Alaribe:** Yes. There's this popular stereotype about the German language. It's like, machine, so harsh. But maybe that's also what makes it nice, because then the rules are very clear.
 
 **Natalie Pistunovich:** Until you hit exceptions. \[laughter\] But there's probably less than in English. I think I would agree with that.
 
@@ -320,13 +320,13 @@ I think there was a study where children who are homeschooled actually performed
 
 **Natalie Pistunovich:** You can think of it also as a sort of a contract, sort of an API, right? Languages...
 
-**Anthony Alaribe:** Yeah, my API contract with the German population. With the ladies at the \[unintelligible 00:48:15.18\]
+**Anthony Alaribe:** Yeah, my API contract with the German population. With the ladies at the male dom office.
 
 **Natalie Pistunovich:** City registration and all the bureaucracy... That is a serious contract with them. They will not upgrade to a version two... \[laughter\]
 
 **Anthony Alaribe:** Yes, they will not. \[laughs\]
 
-**Natalie Pistunovich:** Cool. Alright, well, thank you very much for joining, and thanks everybody who tuned in. We look forward to hearing about your contracts with the world, I guess, and \[unintelligible 00:48:43.03\]
+**Natalie Pistunovich:** Cool. Alright, well, thank you very much for joining, and thanks everybody who tuned in. We look forward to hearing about your contracts with the world, I guess, and all the texts.
 
 **Johnny Boursiquot:** Yeah, good luck, guys.
 
