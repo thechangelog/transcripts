@@ -26,7 +26,7 @@ I spent the first half of my life in China, the second half in the U.S, and I've
 
 **Amal Hussein:** Yes. It's like we're at almost a 12-hour spectrum here... It's like 9 o'clock for you, and 8 AM for me, it's 7 AM for Nick... Fun times. Well, thank you so much. We're so happy to have you here, Evan... And I think for me, one of the reasons why I find your work so interesting is I think you've always somehow managed to challenge the status quo, and whip out something that's not only impressive in terms of its ability, but I think in terms of its community as well.
 
-\[00:04:15.05\] We were just talking last week with Tobie Langel about open source sustainability and what it's like also for corporations to start drawing all of our boundaries for us within largely adopted open source projects, and I feel like Vue has stayed true to its community roots, and it's truly great to see you've done the same thing also with Vite.
+\[04:15\] We were just talking last week with Tobie Langel about open source sustainability and what it's like also for corporations to start drawing all of our boundaries for us within largely adopted open source projects, and I feel like Vue has stayed true to its community roots, and it's truly great to see you've done the same thing also with Vite.
 
 So can you tell us, what is Vite? First of all, anyone who's like "Vite \[veet\]? I thought it's Vite \[vyte\]. What's going on?"
 
@@ -40,7 +40,7 @@ But yeah, it's a play on "quick", because the original motivation of building Vi
 
 **Evan You:** I would say ESM natively in the browser presented us an opportunity to just rethink how the model should work... Because previously, because we didn't have native module support in the browser, we have to basically bundle everything ourselves. So that's why we had tools like Browserify, WebPack, Rollup... They're all bundlers, because their primary goal is to take your source modules and then concatenate them, also put them into the -- essentially, pretend there is a module system and put everything into one file that the browser can understand. And the major downside of this is for every change that we make, even if we just change a single module, we have to still bundle the whole thing, because we have to rebuild this whole entire bundle so that we can reload it in the browser.
 
-\[00:08:04.24\] So this essentially means during development the build speed just deteriorates linearly with the size of your app. The bigger your app is, the slower the build gets. So if you have an app with a thousand modules, even if you've just added a single one of them, you have to wait like ten seconds for the thing to build... And it just gets worse and worse the longer you work on a project. So that's why we started to have concepts like hot module replacement...
+\[08:04\] So this essentially means during development the build speed just deteriorates linearly with the size of your app. The bigger your app is, the slower the build gets. So if you have an app with a thousand modules, even if you've just added a single one of them, you have to wait like ten seconds for the thing to build... And it just gets worse and worse the longer you work on a project. So that's why we started to have concepts like hot module replacement...
 
 But interestingly enough, even if we did have hot module replacement - with WebPack primarily - we discovered that... I'm not entirely sure the actual reason behind it, but what we've found in the wild is that hot module replacement performance also deteriorates the bigger your app gets. And that's very common in large Webpack-based projects.
 
@@ -52,7 +52,7 @@ When we first started on the web - because you just load a script into an HTML f
 
 So Evan, can you tell us a little bit about how you were able to also leverage Esbuild to handle some of this heavylifting?
 
-**Evan You:** \[00:11:51.28\] I talked a a little bit about the limitation of native ESM, and the limitation is it struggles a little bit when you have too many modules loaded in the browser. Let's say when you're loading one hundred modules, it's snappy, it's fast. But once you do something in the thousands, it just starts to congest at the network level, because the browser has to make an HTTP request for every module that's fetched. So when you have too many modules being fetched in parallel, the browser just gets stuck a little bit, and you kind of have this sort of waterfall of waiting for the request to come back... And we noticed that there are two aspects to solve this problem. The first is because ESM is loaded on-demand, so if you do code splitting, say you lazy-import certain parts of your app, which we should do in production for better performance for our users - well, it turns out that would also improve your local development performance when you're using native ESM, because now you're only loading the modules that you're actually working on.
+**Evan You:** \[11:51\] I talked a a little bit about the limitation of native ESM, and the limitation is it struggles a little bit when you have too many modules loaded in the browser. Let's say when you're loading one hundred modules, it's snappy, it's fast. But once you do something in the thousands, it just starts to congest at the network level, because the browser has to make an HTTP request for every module that's fetched. So when you have too many modules being fetched in parallel, the browser just gets stuck a little bit, and you kind of have this sort of waterfall of waiting for the request to come back... And we noticed that there are two aspects to solve this problem. The first is because ESM is loaded on-demand, so if you do code splitting, say you lazy-import certain parts of your app, which we should do in production for better performance for our users - well, it turns out that would also improve your local development performance when you're using native ESM, because now you're only loading the modules that you're actually working on.
 
 Say if you have a big app with like 20 routes, but you're only working on one screen, and if each route is lazy-loaded, then even during development you're only loading and compiling your modules that's on the route that you're currently working on. So that's one aspect of it. So we really actively encourage our users to think about code splitting even right when you're developing, because that affects both development and production performance.
 
@@ -72,7 +72,7 @@ So Esbuild serves multiple roles in Vite; it's a really great project. We first 
 
 **Evan You:** Yeah, file system caching is obviously going to be a big performance boost... But the thing is, in WebPack, because everything is bundled together, essentially how your code imports dependencies would affect how the dependency should be bundled. So changes in your source code would actually invalidate the cache for your dependencies, in some way. So in WebPack, if you want to really consistently cache your dependency build result, you'll have to use something like the DLL plugin, which is pretty complicated to configure right.
 
-\[00:16:23.27\] So one of the things that we've also kind of struggled with is you can do a lot of very advanced optimizations with WebPack, but they are very hard to get right. Also, the more of these advanced plugins or configurations that you use, the harder it gets for you to get everything working together and nicely... Because we've maintained Vue CLI over a very long time. And Vue CLI is sort of this battery-included WebPack-based solution. We try to do most of the complicated stuff for our user, and during that process we absorbed so much complexity... It's just getting out of hand.
+\[16:23\] So one of the things that we've also kind of struggled with is you can do a lot of very advanced optimizations with WebPack, but they are very hard to get right. Also, the more of these advanced plugins or configurations that you use, the harder it gets for you to get everything working together and nicely... Because we've maintained Vue CLI over a very long time. And Vue CLI is sort of this battery-included WebPack-based solution. We try to do most of the complicated stuff for our user, and during that process we absorbed so much complexity... It's just getting out of hand.
 
 While working on Vite, I also tried to learn from the things that we learned during the development of Vue CLI to say "Okay, where is this step where maybe we can drop down to the right layer of abstraction, directly in the tooling itself, to solve some of this complexity problem." Instead of having the base tooling to be extremely configurable but then the configuration layer becomes extremely complex. How about we just collapse these two layers together, so that we solve the complexity directly in the tooling, so that we make the higher-level system much simpler.
 
@@ -88,7 +88,7 @@ And this is not a show where we're poo-pooing on WebPack. We're all standing on 
 
 **Nick Nisi:** But that's just it - working within those cow paths and really optimizing for that, because that is in a lot of ways the general way to do development now. So you can build on top of that and just make those assumptions and keep things a lot smoother for the general use case, which is just so nice.
 
-**Amal Hussein:** \[00:20:06.13\] Yeah.
+**Amal Hussein:** \[20:06\] Yeah.
 
 **Nick Nisi:** I'm the same way as you, Evan - if it's taking a couple of seconds to build, or to refresh, my mind just immediately wants to go somewhere else. So the hot module replacement is amazing, especially when I'm -- I've been working on a multi-part form component for a long time. If I could have it automatically refresh at the part of the form that I'm at, instead of having to restart every time and go through it - that makes such a difference, and so it's so nice. That's why I was a big fan of AMD back in the day, because it just immediately reloaded, and the browser understood it.
 
@@ -98,13 +98,13 @@ And this is not a show where we're poo-pooing on WebPack. We're all standing on 
 
 **Evan You:** Yeah, yeah.
 
-**Break:** \[00:21:11.26\]
+**Break:** \[21:11\]
 
 **Nick Nisi:** So we talked about Vite, and kind of introduced what it is and what it does... But let's talk about where it fits into the toolchain. If you replace your current build system with Vite, what are you actually replacing? What are the nuts and bolts of it?
 
 **Evan You:** Yeah. So first of all, Vite covers both the development part and the build part. So during development it is a dev server, and during build we actually run a full bundling process using Rollup. So if you use WebPack, you would have to install WebPack, WebPack CLI, WebPack DevServer, then you need to configure the DevServer to do the same thing with the actual build. But Vite tries to just have all these things in one package. So when it comes to the modules, it handles TypeScript out of the box using Esbuild. So it only transforms the syntax. It strips away your types, spits out plain JavaScript; it doesn't do type checking. One of the reasons we do that is because TSC type-checking is really slow. So having that to be part of the module transform pipeline is actually a major performance killer.
 
-\[00:23:57.22\] On the other hand, if you use something like VS Code, your VS Code already runs a TypeScript language service, and you already get all of this type-checking, but you're working on your code. So why would you wanna do it as part of your build process, to just slow it down?
+\[23:57\] On the other hand, if you use something like VS Code, your VS Code already runs a TypeScript language service, and you already get all of this type-checking, but you're working on your code. So why would you wanna do it as part of your build process, to just slow it down?
 
 **Nick Nisi:** It seems very redundant, yeah.
 
@@ -146,7 +146,7 @@ So Babel really only comes in two scenarios. One is you're really targeting lega
 
 **Amal Hussein:** Yeah, Jest has opinions... It just has loud ones.
 
-**Evan You:** \[00:28:09.27\] Jest didn't really have native, built-in async transform support. So for a very long time we were completely blocked on that. I think in Jest they finally shipped it, so now technically we have a first-class integration with Jest. But still, it's sort of not optimal, because Jest really is -- people using Jest are very used to configure a completely separate set of transforms, just for Jest, which in a lot of cases is redundant, and you have two configurations, two different sets of plugins, for two systems. So that's why the community actually came up with a project called Vitest...
+**Evan You:** \[28:09\] Jest didn't really have native, built-in async transform support. So for a very long time we were completely blocked on that. I think in Jest they finally shipped it, so now technically we have a first-class integration with Jest. But still, it's sort of not optimal, because Jest really is -- people using Jest are very used to configure a completely separate set of transforms, just for Jest, which in a lot of cases is redundant, and you have two configurations, two different sets of plugins, for two systems. So that's why the community actually came up with a project called Vitest...
 
 **Nick Nisi:** Yes.
 
@@ -190,7 +190,7 @@ The other aspect of it is my personal preference is - say when I'm developing...
 
 **Evan You:** So I'm glad Esbuild does that. But if you want to go even lower than ES2015, then babel/preset-env obviously covers that for you. I think SWC also replicates babel/preset-env. So we in fact have users in the ecosystem to use SWC as a Babel replacement in certain cases as well.
 
-**Amal Hussein:** \[00:32:21.02\] What is SWC? I've seen it floating around in the ecosystem, so I feel like I know what it is as a high level... Do you wanna just maybe explain that to our listeners?
+**Amal Hussein:** \[32:21\] What is SWC? I've seen it floating around in the ecosystem, so I feel like I know what it is as a high level... Do you wanna just maybe explain that to our listeners?
 
 **Evan You:** To put it simply, it's sort of like Babel, but written in Rust.
 
@@ -236,7 +236,7 @@ The other aspect of it is my personal preference is - say when I'm developing...
 
 So I just wanna give a shout-out, because Parcel is obviously the first tool to do this kind of thing. A lot of people who like Vite also like Parcel for the same reason, and they recently rewrote a lot of their internals with Rust, so it's also pretty cool to check out. Parcel 2 is a really impressive project.
 
-**Amal Hussein:** \[00:36:16.08\] That's a project that I wish I've had a chance to play around with... Just following it, I feel like they've always been pushing the boundaries of how things should work, the thought leadership and North Star I think has been with Parcel-like implementation and APIs, so... Yeah, we'll have to maybe have them on the show sometime.
+**Amal Hussein:** \[36:16\] That's a project that I wish I've had a chance to play around with... Just following it, I feel like they've always been pushing the boundaries of how things should work, the thought leadership and North Star I think has been with Parcel-like implementation and APIs, so... Yeah, we'll have to maybe have them on the show sometime.
 
 So I guess specifically with this WASM workflow - this is just really cool. So how are you -- can you tell us a little bit about how this works? Essentially, we're able to import WASM files...
 
@@ -284,7 +284,7 @@ When we see that you're trying to import a WASM, we just transform it into the c
 
 **Evan You:** It creates a proxy object that simulates the browser... So every operation that you call, they buffer it into a series of commands, then send it to the main thread, do the things, then send it back.
 
-**Amal Hussein:** \[00:39:56.18\] Yeah, so this is where -- proxy is probably also one of the least understood, but most powerful built-ins in JavaScript.
+**Amal Hussein:** \[39:56\] Yeah, so this is where -- proxy is probably also one of the least understood, but most powerful built-ins in JavaScript.
 
 **Evan You:** It's extremely powerful.
 
@@ -306,13 +306,13 @@ So I think this is extremely important for power users. Having good defaults app
 
 So going with Rollup is essentially sort of a trade-off decision between the plugin API friendliness, the existing ecosystem and how we can give a better production build performance out of the box for end users.
 
-\[00:44:01.15\] I always say the reason we choose certain lower-level tools to do certain things is not always fixed in stone for Vite, because our goal is to have a coherent package to do things. So if, say, there is a Rust-based alternative that can replace Rollup, but is much faster, but gives you the same ability, can be compatible with Rollup plugins, then we can switch to that. I know someone who is working on a Rust-based version of Rollup.
+\[44:01\] I always say the reason we choose certain lower-level tools to do certain things is not always fixed in stone for Vite, because our goal is to have a coherent package to do things. So if, say, there is a Rust-based alternative that can replace Rollup, but is much faster, but gives you the same ability, can be compatible with Rollup plugins, then we can switch to that. I know someone who is working on a Rust-based version of Rollup.
 
 **Amal Hussein:** Oh, wow. Yeah, so this is a really great segue into what I wanna get into next around Rust and where this fits into the ecosystem... So there's lots to discuss, and most are eager to hear about the server-side rendering story for Vite, and all of that... And then also, I wanna hear about your wishlist. If Evan could wave his magic wand, what would you wanna change or what would you wanna do, what would you wanna implement, or which issue would you want closed? \[laughs\] I know, there's too many...
 
 **Evan You:** There's too many...
 
-**Break:** \[00:44:58.02\]
+**Break:** \[44:58\]
 
 **Amal Hussein:** Alright, Evan, so that was like a really impressive and exhaustive rundown of Vite's capabilities. It was not so Vite, but actually -- Viteless was not so Vite. I don't know. Alright. Bad joke. Either way... \[laughs\] We've covered a good chunk of, I would say, some of the highlight features, but really, there's so much more, and I encourage everyone to check out your awesome documentation... Because really, it's quite impressive how rich and robust and well-organized your docs are. I just wanted to say kudos to you and your team.
 
@@ -324,7 +324,7 @@ So going with Rollup is essentially sort of a trade-off decision between the plu
 
 **Amal Hussein:** Oh, that's great. Thank you for pushing that envelope. I'd love to get into the server-side rendering and what that story is, because that has typically been -- I'm curious to see if Vite has smoothed out those edges.
 
-**Evan You:** \[00:47:54.08\] Yeah. So for server-side rendering the first thing is if you're doing it with Node, code needs to run in Node. The challenge is for a lot of projects, you have to compile code differently when you're targeting either a client, or you're targeting the server. So there are different code paths. Some code you'll want to only run in Node, some code you'll only want to run on the client... And then there's also, for example for Vue or Svelte, we actually compile our components differently when targeting a client or targeting SSR, because we compile our components into more efficient string concatenation while we're doing server-side rendering.
+**Evan You:** \[47:54\] Yeah. So for server-side rendering the first thing is if you're doing it with Node, code needs to run in Node. The challenge is for a lot of projects, you have to compile code differently when you're targeting either a client, or you're targeting the server. So there are different code paths. Some code you'll want to only run in Node, some code you'll only want to run on the client... And then there's also, for example for Vue or Svelte, we actually compile our components differently when targeting a client or targeting SSR, because we compile our components into more efficient string concatenation while we're doing server-side rendering.
 
 So this means for the same set of source files, you actually need to have two different compile outputs, so that you can do server-side rendering. Previously with WebPack the most frameworks do it in a way that you actually just make two bundles simultaneously. So every time you edit something, you rebuild the tool bundles. And that gets really complicated, and is also kind of slow.
 
@@ -354,7 +354,7 @@ Rich was investigating which tool he wants to base SvelteKit upon, so as a test,
 
 **Amal Hussein:** Wow.
 
-**Evan You:** \[00:51:45.18\] So it's generic enough. I think that's also what I'm kind of proud about with Vite, is we try to find the right abstraction boundaries, so that we do just enough inside the framework so that it's still flexible enough to support different other frameworks, like client-side frameworks... But for the client-side frameworks we do so much that they can basically all share the same underlying implementation, without duplicating work with one another... Which is why I think we are seeing a lot of other frameworks, like Solid or \[unintelligible 00:52:22.04\] they're able to do their server-side rendering implementation using Vite as well. I think that's super-great, because we have this common foundation that can be leveraged by different client frameworks. So they don't have to reinvent the wheels all over again.
+**Evan You:** \[51:45\] So it's generic enough. I think that's also what I'm kind of proud about with Vite, is we try to find the right abstraction boundaries, so that we do just enough inside the framework so that it's still flexible enough to support different other frameworks, like client-side frameworks... But for the client-side frameworks we do so much that they can basically all share the same underlying implementation, without duplicating work with one another... Which is why I think we are seeing a lot of other frameworks, like Solid or \[unintelligible 00:52:22.04\] they're able to do their server-side rendering implementation using Vite as well. I think that's super-great, because we have this common foundation that can be leveraged by different client frameworks. So they don't have to reinvent the wheels all over again.
 
 So I think there are ideas coming from different places, and Vite came up with the most usable, flexible, but still powerful enough solution for people. A lot of these higher-level frameworks start to sort gravitate towards that as the common base... And SvelteKit is now also based on Vite, so using this same SSR system. We also have Hydrogen, which is the new React framework by Shopify, which is also using Vite SSR.
 
@@ -380,7 +380,7 @@ So SSR support out of the box, for multiple frameworks. That's huge. And fast SS
 
 **Amal Hussein:** Yes, immediately. \[laughs\] But yeah, Nick... So anyway, we're moving on to some of this other stuff that we covered around Rust... So we've seen this interesting shift in our community towards like "Hey, JavaScript build times are taking too long. We need to go lower, closer to the metal. We need to use Rust to speed that up." Quite frankly, it's working. Things are faster with these Rust binaries. For me, I worry about the trade-off... And this is probably me just being grandma and cranky about it, but I just worry about the trade-off that we're making with just shaving a little bit of time here and there... We're also losing our interoperability and ability for people to contribute and know what's going on and debug etc. So I'd just love to hear your thoughts on that.
 
-**Evan You:** \[00:56:24.06\] Yeah, I definitely share a concern. I've actually argued with people about this on Twitter, because I think there was an article basically saying Rust is the future of JavaScript tooling... And I was expressing the same concern, pretty much. I was saying "Okay, Rust is fast, but it's harder to write, it's harder to understand", and especially if you have a Rust-based dependency, I can't just crack-open Node modules and see what's going on. I can't patch it myself on the spot.
+**Evan You:** \[56:24\] Yeah, I definitely share a concern. I've actually argued with people about this on Twitter, because I think there was an article basically saying Rust is the future of JavaScript tooling... And I was expressing the same concern, pretty much. I was saying "Okay, Rust is fast, but it's harder to write, it's harder to understand", and especially if you have a Rust-based dependency, I can't just crack-open Node modules and see what's going on. I can't patch it myself on the spot.
 
 **Amal Hussein:** You can't debug it.
 
@@ -438,7 +438,7 @@ So we've been thinking about maybe we can replace MagicString with a native depe
 
 **Amal Hussein:** We just npm-install stuff, and we're not expecting "Oh, there's this binary that's compiling", or whatever. I mean, granted, that does happen, but the whole point is we don't have the same hygiene around low-level code running on our machine that a Linux developer would have, for example... But yeah, I'm just happy to hear that you have the same sentiment, Evan...
 
-**Evan You:** This is one of the problems that the Npm ecosystem needs to solve next, is like "How do we efficiently and securely distribute these native binaries if you want to actually make it easy for people to write JavaScript tooling with native languages?" Because from what I see, this is still something that's lacking from the ecosystem.
+**Evan You:** This is one of the problems that the npm ecosystem needs to solve next, is like "How do we efficiently and securely distribute these native binaries if you want to actually make it easy for people to write JavaScript tooling with native languages?" Because from what I see, this is still something that's lacking from the ecosystem.
 
 **Amal Hussein:** Very much so. We're having trouble doing that with just plain old JavaScript, Evan, so you know... Let alone the native binaries. But I'm just happy -- Nick's probably heard me say this a bunch of times; I poo-poo on this like "I don't know about Rust in the JavaScript ecosystem! This doesn't make me feel good!" I feel like the odd person out, so Evan, thank you for making me feel less crazy and less paranoid... And yeah, I'm with you.
 
@@ -466,7 +466,7 @@ So just to kind of like wrap up our discussion - we could talk about this for ho
 
 **Evan You:** Yeah, yeah.
 
-**Amal Hussein:** And Npm doesn't make it easy to identify like "Hey, here's the newer version of this thing that somebody forked and is maintaining." There's no easy way to also redirect people to the newer thing... But yeah. So any other wishlists before we wrap up? Are you like "Everything is perfect with Vite"?
+**Amal Hussein:** And npm doesn't make it easy to identify like "Hey, here's the newer version of this thing that somebody forked and is maintaining." There's no easy way to also redirect people to the newer thing... But yeah. So any other wishlists before we wrap up? Are you like "Everything is perfect with Vite"?
 
 **Evan You:** Another wishlist is if someone rewrites Rollup with Rust. I know someone's already working on it, I just wish they can finish it faster. That would actually help Vite quite a bit, but... That'll probably take some time. But I wish that can happen sooner.
 
