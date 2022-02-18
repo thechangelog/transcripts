@@ -1,5 +1,3 @@
-\[03:21\]
-
 **Gerhard Lazu:** This is another real-world story of \[unintelligible 00:03:22.15\] what works, what could be improved. The goal is to learn from a different perspective, and if we're lucky, maybe disagree on a few things. I love that. That's when I find myself learning the most.
 
 We have Robin today, that I hope will disagree with me on a few things. What do you think? Can we make that happen, Robin?
