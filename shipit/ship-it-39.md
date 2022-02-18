@@ -1,4 +1,4 @@
-**Gerhard Lazu:** This is another real-world story of \[unintelligible 00:03:22.15\] what works, what could be improved. The goal is to learn from a different perspective, and if we're lucky, maybe disagree on a few things. I love that. That's when I find myself learning the most.
+**Gerhard Lazu:** This is another real-world story of how this run, ops, and infra. What works, what could be improved. The goal is to learn from a different perspective, and if we're lucky, maybe disagree on a few things. I love that. That's when I find myself learning the most.
 
 We have Robin today, that I hope will disagree with me on a few things. What do you think? Can we make that happen, Robin?
 
@@ -54,7 +54,7 @@ We have Robin today, that I hope will disagree with me on a few things. What do 
 
 **Gerhard Lazu:** Okay.
 
-**Robin Morero:** It's basically similar to BDD, I think, only it's less \[unintelligible 00:06:42.16\]
+**Robin Morero:** It's basically similar to BDD, I think, only it's less rigorous.
 
 **Gerhard Lazu:** Yeah. It sounds like acceptance testing almost, because you have -- maybe actually acceptance testing is not the right word for it. It's more like end-to-end... I'm not sure how to call that test, because you're simulating real users. It is the behavior of the system, but I'm trying to visualize how you describe the tests, or what are those bot users doing on the system that will inform you when something breaks?
 
@@ -66,7 +66,7 @@ We have Robin today, that I hope will disagree with me on a few things. What do 
 
 **Gerhard Lazu:** Right, okay. Okay.
 
-**Robin Morero:** So you write the use cases, you try to set up tests for these use cases... Only we don't do the unit tests. We do \[unintelligible 00:07:24.20\] live traffic into a production environment.
+**Robin Morero:** So you write the use cases, you try to set up tests for these use cases... Only we don't do the unit tests. We do it with a live traffic into a production environment.
 
 **Gerhard Lazu:** Okay. So you simulate live traffic... Which obviously isn't live; it's artificial traffic.
 
@@ -78,7 +78,7 @@ We have Robin today, that I hope will disagree with me on a few things. What do 
 
 **Gerhard Lazu:** Okay.
 
-**Robin Morero:** And they cover more than one thing, because you see like "user logs in", "user does something", so it's \[unintelligible 00:07:58.20\] several steps it covers.
+**Robin Morero:** And they cover more than one thing, because you see like "user logs in", "user does something", so it's similar several steps it covers.
 
 **Gerhard Lazu:** I see.
 
@@ -106,7 +106,7 @@ We have Robin today, that I hope will disagree with me on a few things. What do 
 
 **Gerhard Lazu:** Hm, interesting.
 
-**Robin Morero:** So we're waiting for the \[unintelligible 00:09:01.06\] to appear in Yugabyte at the moment. What are you running?
+**Robin Morero:** So we're waiting for the gist and the gin index to appear in Yugabyte at the moment. What are you running?
 
 **Gerhard Lazu:** A single-node Postgres. Really interesting, because we went with the Crunchy operator first...
 
@@ -142,11 +142,11 @@ So coming back to your app and coming back to your use of PostgreSQL - you're us
 
 **Gerhard Lazu:** Okay. Did you ever have to restore, or failover? And how did that work?
 
-**Robin Morero:** It happens, and we kind of want to do that every now and then as well, to make sure that we don't lose something along the way. So we're trying to go for a portable and immutable setup, so it's disposable; we just throw it down and throw it up again, make sure it works. And I guess that's one of the issues I have with the Zalando operator. I would rather have the horizontal, so that I can \[unintelligible 00:11:59.13\] new versions on it.
+**Robin Morero:** It happens, and we kind of want to do that every now and then as well, to make sure that we don't lose something along the way. So we're trying to go for a portable and immutable setup, so it's disposable; we just throw it down and throw it up again, make sure it works. And I guess that's one of the issues I have with the Zalando operator. I would rather have the horizontal, so that I can throw up new versions on it.
 
 **Gerhard Lazu:** Yeah, that makes sense. What about database migrations? How do you run them?
 
-**Robin Morero:** \[12:07\] We run them as code. We put them in code and we make this small microservice that takes care of it. It does something in SQL and something \[unintelligible 00:12:14.06\]
+**Robin Morero:** \[12:07\] We run them as code. We put them in code and we make this small microservice that takes care of it. It does something in SQL and something sincode, to migrate
 
 **Gerhard Lazu:** Okay. So when you migrate production, did you ever have a migration not work?
 
@@ -168,7 +168,7 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Gerhard Lazu:** Okay.
 
-**Robin Morero:** Meanwhile, I love Kubernetes, but it's basically \[unintelligible 00:13:48.02\]
+**Robin Morero:** Meanwhile, I love Kubernetes, but it's basically NewOps at this state. You know, DevOps
 
 **Gerhard Lazu:** Yeah.
 
@@ -184,7 +184,7 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Gerhard Lazu:** Okay... So when they look at the logs, can't they see why their application is restarting?
 
-**Robin Morero:** I see a lot of people having trouble understanding that. It takes a while for them to understand that pattern. I mean, they can learn, everyone can learn, but at the moment what I'm seeing is that \[unintelligible 00:16:24.19\] have problems with it.
+**Robin Morero:** I see a lot of people having trouble understanding that. It takes a while for them to understand that pattern. I mean, they can learn, everyone can learn, but at the moment what I'm seeing is that new developers have problems with it.
 
 **Gerhard Lazu:** Okay, interesting. So you see younger developers struggling with -- okay, when I say "younger", maybe less experienced developers...?
 
@@ -196,7 +196,7 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Gerhard Lazu:** Capistrano?
 
-**Robin Morero:** Capistrano, yes. So they used Capistrano, and then you've got PHP on one side, you've got \[unintelligible 00:17:04.23\] each of these crowds have their way of doing things. So it's not like one unified way; it's different, I think.
+**Robin Morero:** Capistrano, yes. So they used Capistrano, and then you've got PHP on one side, you've got \[unintelligible 00:17:04.23\] on one side. each of these crowds have their way of doing things. So it's not like one unified way; it's different, I think.
 
 **Gerhard Lazu:** Right. What about platforms such as Heroku? Is that something that they are used to and familiar with?
 
@@ -212,11 +212,11 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Gerhard Lazu:** So what would you say is complex in the world of Kubernetes? What became complex over time?
 
-**Robin Morero:** The growing ecosystem is the big part, and the constantly changing ecosystem \[unintelligible 00:18:34.26\] are you using things like -- where do you put your logs? How do you route your traffic? Are you using a service mesh \[unintelligible 00:18:44.23\] It depends and it varies. If you have seen one environment, you haven't seen them all.
+**Robin Morero:** The growing ecosystem is the big part, and the constantly changing ecosystem. Which parts are you using kubernetes? Are you using persistsent volume claims? Are you using things like -- where do you put your logs? How do you route your traffic? Are you using a service mesh? Which ingres are you using? It depends and it varies. If you have seen one environment, you haven't seen them all.
 
 **Gerhard Lazu:** Yeah, so the diversity in the different Kubernetes configurations... Which obviously doesn't mean just Kubernetes; it's all the stuff that runs on top of it, and there are like slight variations, so it's difficult to know where to find the logs, where to find the metrics, where to see the events, stuff like that. Okay.
 
-**Robin Morero:** Yes. And then you could add to that -- I mean, that's part of it. When you use it on \[unintelligible 00:19:09.23\] self-hosted one, that's one thing. But if you add to that something like AWS or GCP, then you have to understand that environment as well; you have to know where to look for things, you have to know how to set up and configure things.
+**Robin Morero:** Yes. And then you could add to that -- I mean, that's part of it. When you use it on your home you host kubernetes so you run on a self-hosted one, that's one thing. But if you add to that something like AWS or GCP, then you have to understand that environment as well; you have to know where to look for things, you have to know how to set up and configure things.
 
 **Gerhard Lazu:** Okay.
 
@@ -252,7 +252,7 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Gerhard Lazu:** Okay.
 
-**Robin Morero:** I don't know if it's the same \[unintelligible 00:21:33.25\] but we're seeing a lot of worry about GDPR and \[unintelligible 00:21:37.06\] at the moment.
+**Robin Morero:** I don't know if it's the same at your end but we're seeing a lot of worry about GDPR and its frames too at the moment.
 
 **Gerhard Lazu:** Yeah, I know what you mean.
 
@@ -284,11 +284,11 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Gerhard Lazu:** Okay. What would this platform look like in terms of the big components? Obviously, there's going to be Kubernetes, but also a bunch of things on top of it. What are those things?
 
-**Robin Morero:** Yeah, we're looking at what we shouldn't have, really, more than what we should have. We're trying to get rid of complexity first, to make it as small and light as possible, and then build up from there. For base, we're looking at K3s instead of Kubernetes, because it's more lightweight. And in terms of logging, we're looking at Loki, Grafana, instead of going with something like Elasticsearch, that consumes a lot of resources and is harder to maintain, in my experience. NATS for events. \[unintelligible 00:23:47.03\]
+**Robin Morero:** Yeah, we're looking at what we shouldn't have, really, more than what we should have. We're trying to get rid of complexity first, to make it as small and light as possible, and then build up from there. For base, we're looking at K3s instead of Kubernetes, because it's more lightweight. And in terms of logging, we're looking at Loki, Grafana, instead of going with something like Elasticsearch, that consumes a lot of resources and is harder to maintain, in my experience. NATS for events. NATS yet streamed a new version.
 
 **Gerhard Lazu:** NATS, yes.
 
-**Robin Morero:** I really like that one, it's amazing. And in terms of database, we are evaluating Yugabyte at the moment, with just like a \[unintelligible 00:23:56.25\] but horizontally scalable.
+**Robin Morero:** I really like that one, it's amazing. And in terms of database, we are evaluating Yugabyte at the moment, with just like a postgress compatible but horizontally scalable.
 
 **Gerhard Lazu:** Interesting. And would you run all those services on the same Kubernetes cluster?
 
@@ -364,7 +364,7 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Gerhard Lazu:** I would really like to see this setup, how it all comes together - all the components that you use... Is this something that you are thinking of maybe opening up to the public?
 
-**Robin Morero:** \[27:53\] We're thinking about that, yes. We're doing a demo, we're working on that at the moment. Something that will be like a public demo. And then we plan -- what we're talking about is to release the CLI tool we're using as an open source tool, \[unintelligible 00:28:03.11\] but also to keep the platform, like the web-based management GUI, as part of our product.
+**Robin Morero:** \[27:53\] We're thinking about that, yes. We're doing a demo, we're working on that at the moment. Something that will be like a public demo. And then we plan -- what we're talking about is to release the CLI tool we're using as an open source tool, as an open source tool, to be used by everyone. But also to keep the platform, like the web-based management GUI, as part of our product.
 
 **Gerhard Lazu:** Interesting. So what will the CLI tool do?
 
@@ -384,7 +384,7 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Gerhard Lazu:** And on Hetzner - so I'm still trying to understand that integration, because you mentioned KVM. Do you talk to the Hetzner API to create anything? What does that integration look like.
 
-**Robin Morero:** We tell Hetzner to create a new server for us. It should be this size, it should be this type, it should have these -- the \[unintelligible 00:29:14.20\] we don't really set there, but we have it in the configuration for that node. So we tell Hetzner to create a new node for us, a new server, and then we create a bunch of those, and tell them to go in the same cluster.
+**Robin Morero:** We tell Hetzner to create a new server for us. It should be this size, it should be this type, it should have these -- the things we don't really set there, but we have it in the configuration for that node. So we tell Hetzner to create a new node for us, a new server, and then we create a bunch of those, and tell them to go in the same cluster.
 
 **Gerhard Lazu:** So those servers when they get created, what operating system do they use?
 
@@ -392,7 +392,7 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Gerhard Lazu:** Okay, okay.
 
-**Robin Morero:** We would like to have a \[unintelligible 00:29:34.13\] something lightweight. Just to get it faster up. So we're talking about doing a node pull for that; have always a couple of standby nodes that we just promote to "Use this now."
+**Robin Morero:** We would like to have a ready snapshot, just to prod something lightweight. Just to get it faster up. So we're talking about doing a node pull for that; have always a couple of standby nodes that we just promote to "Use this now."
 
 **Gerhard Lazu:** Ah, interesting. Okay. And on those physical, bare metal machines you create VMs using KVM. Is that right?
 
@@ -404,7 +404,7 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Gerhard Lazu:** Wow, I would love to see that code. That sounds super-interesting. I'm very curious now. Okay... Why did you choose K3s? That's a very interesting choice, especially for production... And I'll tell you why.
 
-**Robin Morero:** I'd love to hear why. Like I said, this is an experiment, and we're trying to keep it as lightweight as possible. We wanna see how light this can get. What can we get by without having. And then we might \[unintelligible 00:30:47.12\] So that's what we're trying to do.
+**Robin Morero:** I'd love to hear why. Like I said, this is an experiment, and we're trying to keep it as lightweight as possible. We wanna see how light this can get. What can we get by without having. And then we might have to add ports, but what can we do with bare minimum ports. So that's what we're trying to do.
 
 **Gerhard Lazu:** So K3s - I like it, especially for experiments. It's a very lightweight Kubernetes, and I know it is compliant. If you run any of the compliance tests, it's like a certified Kubernetes. So it behaves exactly like the real deal. What I have found, especially on certain operating systems like Debian, when they switch the IP tables to the newer version, their issues with K3s not being able to set the IP table rules correctly, and it was leaking rules... Which meant that as time went by, you end up having hundreds of thousands of IP table rules, to the point that everything would slow down to a crawl. So there were issues like that, which goes to show that the integration between the operating system and K3s sometimes can be problematic.
 
@@ -464,7 +464,7 @@ We used to work with a customer like that, and they were running a really big te
 
 **Gerhard Lazu:** So did you end up putting those metrics in?
 
-**Robin Morero:** We've put some metrics in there and we managed to make it a bit better at least. We fixed the flickering, but it went really slow, and we did little by little to make it happen. And we ended up not reaching the goal, before I left at least. \[unintelligible 00:41:00.06\] we could have done it faster, we could have put more metrics in place directly, and proved or disproved the value of the tests.
+**Robin Morero:** We've put some metrics in there and we managed to make it a bit better at least. We fixed the flickering, but it went really slow, and we did little by little to make it happen. And we ended up not reaching the goal, before I left at least. Afterwards I wish we could have done it faster, we could have put more metrics in place directly, and proved or disproved the value of the tests.
 
 **Gerhard Lazu:** Okay. So do you think that if you had placed those metrics quicker, you would have gotten to a better place to determine what to remove and what to keep?
 
@@ -476,7 +476,7 @@ We used to work with a customer like that, and they were running a really big te
 
 **Gerhard Lazu:** Interesting. So do you think that if you had removed the entire test suite, that would have been acceptable? Would people have agreed to that? "Let's just remove everything and let's start over."
 
-**Robin Morero:** I mean, it's risky, and people would not have approved of that directly. I wouldn't have either, but I would have liked to \[unintelligible 00:42:46.01\] and remove the most obvious parts first.
+**Robin Morero:** I mean, it's risky, and people would not have approved of that directly. I wouldn't have either, but I would have liked to cut it into parts, and remove the most obvious parts first.
 
 **Gerhard Lazu:** Okay. How long did it take you to be part of this, until you had to leave? Was it months? Years? How long did it take?
 
@@ -532,7 +532,7 @@ So what I'm saying is that make sure that you capture the value when you're writ
 
 **Robin Morero:** I've been experimenting with that a lot, and we've done protobufs to set the version of the contract as a defined state. We've also been doing REST and trying to keep like "This version of the REST protocol is the contract between this version of the service and the next one." Because you might end up wanting to promote one version of a service, right? You've got a transformation service, and you want to be able to run version one and version two in parallel. So then you need to be able to handle both the contracts for version one and version two.
 
-So I think that's \[unintelligible 00:47:35.21\] I think that would be nice to have some kind of standard for this. I haven't seen one. I'm not sure - have you?
+So I think that's a gap there. I think that would be nice to have some kind of standard for this. I haven't seen one. I'm not sure - have you?
 
 **Gerhard Lazu:** No. I am still on the monolith bandwagon...
 
@@ -556,7 +556,7 @@ So I think that's \[unintelligible 00:47:35.21\] I think that would be nice to h
 
 **Gerhard Lazu:** Dave Farley. He wrote a book recently , "Modern Software Engineering." I've finished reading it. And that is one of the things that he says in that book.
 
-**Robin Morero:** From people that have been doing microservices for a while, I think that's pretty common... Because that's what we're after. We're not after the technical solution. It's not a technical silver bullet; it's expensive, but you want the organizational parts. \[unintelligible 00:50:18.23\] a good combo.
+**Robin Morero:** From people that have been doing microservices for a while, I think that's pretty common... Because that's what we're after. We're not after the technical solution. It's not a technical silver bullet; it's expensive, but you want the organizational parts. \[unintelligible 00:50:18.23\] microservices give a good combo.
 
 **Gerhard Lazu:** Interesting. Yeah, I do have to say, if you're using Java as an org, and you wanna do something else, maybe you should consider Erlang, and Elixir specifically, rather than going like Go... Because that has its own complexities. But again, I'm biased, because that's what I've been doing for many, many years, and I had success wih it, and it seems to work.
 
@@ -592,7 +592,7 @@ There's a couple of conversations which I've had with ex-Google employees, ex-Go
 
 **Gerhard Lazu:** I would love to have that second-hand experience, from someone that did it first-hand... But yeah, I don't know.
 
-**Robin Morero:** Alright. \[unintelligible 00:53:26.09\] or something like that maybe.
+**Robin Morero:** Alright. Well you probably go that way, you wanted to hot-swap code or something like that maybe.
 
 **Gerhard Lazu:** I think that is a very complicated problem. So you need to write migrations between versions, because you expect the previous version to be in-placed, hot-swapped with a new one, and it needs to know how to do the transformations, like function calls and stuff like that. Now, Kubernetes is not optimized for that, because the expectation is there will be new versions starting up. You won't do an in-place upgrade. So it's expecting containers, it's expecting a SHA which changes between deploys... And with this hot code reloading you wouldn't have any of that. You'd have like a long-running thing which can automatically update itself, and that is at odds on how Kubernetes likes to do things.
 
@@ -638,7 +638,7 @@ I think that's a very nice way of doing microservices as an adult, as a grown-up
 
 **Gerhard Lazu:** Showing it to people, getting it out there and seeing what they think... And building on top of it. Because once you get it out there, someone else may say "You know what - I have a better idea. How about this? Have you thought about this?" And then you build on top of each other, for sure.
 
-**Robin Morero:** Yeah, because a lot of the assumptions we're working with today are based on '80s or '90s, how we did it back then. We try to \[unintelligible 00:58:08.18\]
+**Robin Morero:** Yeah, because a lot of the assumptions we're working with today are based on '80s or '90s, how we did it back then. We try to produce a way, but still a lot unemerged data
 
 **Gerhard Lazu:** Okay. So challenging assumptions. I like that. Which assumption have you challenged recently?
 
@@ -654,7 +654,7 @@ I think that's a very nice way of doing microservices as an adult, as a grown-up
 
 **Gerhard Lazu:** \[01:00:03.13\] Interesting. So I suppose this is in the context of companies that don't have maybe outside contributions. It's not like a public repository; it's just private.
 
-**Robin Morero:** Exactly. But also, if you look at some of the open source projects - look at the Kubernetes codebase for one thing, and look at the threads in there after a code review, how long it delayed \[unintelligible 01:00:23.14\] for a feature to reach usability. I'm not saying it's bad, because it might lead to a really good discussion, it might lead to a better solution... But there is a cost there. It's not free of charge.
+**Robin Morero:** Exactly. But also, if you look at some of the open source projects - look at the Kubernetes codebase for one thing, and look at the threads in there after a code review, how long it delayed causes for a feature to reach usability. I'm not saying it's bad, because it might lead to a really good discussion, it might lead to a better solution... But there is a cost there. It's not free of charge.
 
 **Gerhard Lazu:** Yeah, I do have to say I'm a big fan of pushing straight into main, and finding out if it works or if it doesn't really quickly. Getting it out there into prod, seeing if it breaks anything... And by the way, if you have a resilient system, it should catch these failures.
 
@@ -684,7 +684,7 @@ I think that's a very nice way of doing microservices as an adult, as a grown-up
 
 **Robin Morero:** I think the way to see this is like an evolutionary experiment, and see where that leads. If you like it and you can use it, then we'll help you, we'll get you started and we'll try to see if we can do something better with it. But if there's no interest, we'll just probably just drop it.
 
-**Gerhard Lazu:** Okay, interesting. Yeah, checking if it works. I like that. That's \[unintelligible 01:02:43.16\] Well, Robin, it's been a pleasure talking to you. Thank you very much for making the time today, and I hope to talk to you again soon. Thank you.
+**Gerhard Lazu:** Okay, interesting. Yeah, checking if it works. I like that. That's the way. Ok. Well, Robin, it's been a pleasure talking to you. Thank you very much for making the time today, and I hope to talk to you again soon. Thank you.
 
 **Robin Morero:** Thank you.
 
