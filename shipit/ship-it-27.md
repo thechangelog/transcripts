@@ -248,7 +248,7 @@ So I think there is an incremental journey. It's a continuous exercise to verify
 
 **Gerhard Lazu:** How can we follow up on what Captain is up to these days? Captain Obvious, specifically...
 
-**Oleg Nenashev:** Well, Captain Obvious - it was just a sneak peek into my talk, which is coming soon... And yes, it's talk driven developement becase I needed to implement a few \[unintelligible 00:53:14.27\] So stay tuned. There might be an announcement in a few months.
+**Oleg Nenashev:** Well, Captain Obvious - it was just a sneak peek into my talk, which is coming soon... And yes, it's talk driven developement because I needed to implement a few \[unintelligible 00:53:14.27\] So stay tuned. There might be an announcement in a few months.
 
 **Gerhard Lazu:** Okay.
 
