@@ -1,4 +1,4 @@
-\[00:03:21.19\]
+\[03:21\]
 
 **Gerhard Lazu:** This is another real-world story of \[unintelligible 00:03:22.15\] what works, what could be improved. The goal is to learn from a different perspective, and if we're lucky, maybe disagree on a few things. I love that. That's when I find myself learning the most.
 
@@ -8,7 +8,7 @@ We have Robin today, that I hope will disagree with me on a few things. What do 
 
 **Gerhard Lazu:** Okay. So I would like to start with my favorite. I would like to understand what it looks like for you to take code from dev to prod. What is the path that the code takes for you, from your development workstation to production?
 
-**Robin Morero:** \[00:04:05.03\] Yeah, it depends on the context... But ideally, my dream scenario is to just push the code, make it land in production, and then let it roll there... And check the observability, how does it behave in production.
+**Robin Morero:** \[04:05\] Yeah, it depends on the context... But ideally, my dream scenario is to just push the code, make it land in production, and then let it roll there... And check the observability, how does it behave in production.
 
 **Gerhard Lazu:** Okay.
 
@@ -84,7 +84,7 @@ We have Robin today, that I hope will disagree with me on a few things. What do 
 
 **Gerhard Lazu:** I see.
 
-**Robin Morero:** \[00:08:03.13\] And it goes all the way down to the database, but it's a separate database from the production one. So it goes through the first service, the first services routes it to the next service, with a header. This is mirrored traffic; it should go to the mirror flow. So we use traffic mirroring a lot. Service meshes has been good.
+**Robin Morero:** \[08:03\] And it goes all the way down to the database, but it's a separate database from the production one. So it goes through the first service, the first services routes it to the next service, with a header. This is mirrored traffic; it should go to the mirror flow. So we use traffic mirroring a lot. Service meshes has been good.
 
 **Gerhard Lazu:** Service meshes, okay. So that's interesting... Is your production Kubernetes?
 
@@ -148,7 +148,7 @@ So coming back to your app and coming back to your use of PostgreSQL - you're us
 
 **Gerhard Lazu:** Yeah, that makes sense. What about database migrations? How do you run them?
 
-**Robin Morero:** \[00:12:07.14\] We run them as code. We put them in code and we make this small microservice that takes care of it. It does something in SQL and something \[unintelligible 00:12:14.06\]
+**Robin Morero:** \[12:07\] We run them as code. We put them in code and we make this small microservice that takes care of it. It does something in SQL and something \[unintelligible 00:12:14.06\]
 
 **Gerhard Lazu:** Okay. So when you migrate production, did you ever have a migration not work?
 
@@ -160,13 +160,13 @@ So coming back to your app and coming back to your use of PostgreSQL - you're us
 
 **Gerhard Lazu:** Yeah. So when it comes to your setup, what do you like about it?
 
-**Robin Morero:** I like how it's lightweight. I think as we go along, and the further we get into the Kubernetes ecosystem, we're seeing -- I would almost call it a death of dev ops, but that's a bit challenging, I think.
+**Robin Morero:** I like how it's lightweight. I think as we go along, and the further we get into the Kubernetes ecosystem, we're seeing -- I would almost call it a death of DevOps, but that's a bit challenging, I think.
 
 **Gerhard Lazu:** Okay... Why do you say that? That's very interesting. Why do you say that?
 
-**Robin Morero:** I mean, what we used to have -- I've been working in this industry for a while... We used to have these really big products, and we had ops divisions, and we had dev divisions. With dev ops, what I really liked about it was that you'd take care of your own code, from designing it, writing it, deploying it, to checking it afterwards.
+**Robin Morero:** I mean, what we used to have -- I've been working in this industry for a while... We used to have these really big products, and we had ops divisions, and we had dev divisions. With DevOps, what I really liked about it was that you'd take care of your own code, from designing it, writing it, deploying it, to checking it afterwards.
 
-But as it grows more complex, you either have to keep more stuff in your head, or you have to specialize harder. So you can't do both frontend, backend and ops. So that's the pattern I'm seeing; what I'm seeing is that junior developers or mid-level have problems with doing real dev ops on Kubernetes. Because when something goes wrong, they can't read the logs really well, they can't see what happens in Kubernetes... So you end up destroying the feedback loop, I think.
+But as it grows more complex, you either have to keep more stuff in your head, or you have to specialize harder. So you can't do both frontend, backend and ops. So that's the pattern I'm seeing; what I'm seeing is that junior developers or mid-level have problems with doing real DevOps on Kubernetes. Because when something goes wrong, they can't read the logs really well, they can't see what happens in Kubernetes... So you end up destroying the feedback loop, I think.
 
 **Gerhard Lazu:** Okay.
 
@@ -174,7 +174,7 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Gerhard Lazu:** Yeah.
 
-**Break:** \[00:13:55.12\] to \[00:15:24.22\]
+**Break:** \[13:55\] to \[15:24\]
 
 **Gerhard Lazu:** I think many call it a platform for building platforms, and using Kubernetes directly is almost like an anti-pattern. You shouldn't as a developer do that. And the expectation is that there's like some higher-level primitives built on top of that. For example, you mentioned logs.
 
@@ -182,7 +182,7 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Gerhard Lazu:** Logs will be all aggregated in a place. And it doesn't matter which Kubernetes cluster things run in, all the logs are centralized. Same thing for metrics. Same thing for traces, same thing for everything else. The point being, as a developer -- I mean, okay, Kubernetes is there, and maybe you're aware of it, but you still just git push and then everything else comes together and you know where to look.
 
-**Robin Morero:** \[00:16:01.17\] And those are all nice perks, but what happens when something goes wrong? Because it still happens. For instance, a younger developer does something wrong in the code and their application keeps restarting, and they don't understand why.
+**Robin Morero:** \[16:01\] And those are all nice perks, but what happens when something goes wrong? Because it still happens. For instance, a younger developer does something wrong in the code and their application keeps restarting, and they don't understand why.
 
 **Gerhard Lazu:** Okay... So when they look at the logs, can't they see why their application is restarting?
 
@@ -230,7 +230,7 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Gerhard Lazu:** And how are they getting these logs? Do they go to Kubernetes directly, or do they use something else to look at those logs?
 
-**Robin Morero:** \[00:19:58.14\] Most of the time it's something else, right. And it varies. I mean, depending on what you use. Some tools are easy to use, some are hard. But if you take AWS for instance, finding logs in there can be quite tricky, depending on what you're looking for. And GCP as well. Datadog - I love the tool, but it's sometimes... If you have a lot of logs in there, it's hard to find the right ones.
+**Robin Morero:** \[19:58\] Most of the time it's something else, right. And it varies. I mean, depending on what you use. Some tools are easy to use, some are hard. But if you take AWS for instance, finding logs in there can be quite tricky, depending on what you're looking for. And GCP as well. Datadog - I love the tool, but it's sometimes... If you have a lot of logs in there, it's hard to find the right ones.
 
 **Gerhard Lazu:** Okay. Which is your favorite tool for looking and finding logs coming from Kubernetes workloads?
 
@@ -278,7 +278,7 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Gerhard Lazu:** I know that when we were talking you were mentioning about that you were thinking about... How does that link to what we've just discussed?
 
-**Robin Morero:** Yeah, what we're doing is we're experimenting with setting up a platform. It might end up as a product one day, but it might not. At the moment, it's just trying to find out "Can we automated dev ops patterns better than they are today, so that we get a continuous reading of dev ops params, like how long does it take to deploy, how fast does it deploy to production, how often does it fail, and so on. So we try building these best practices into a platform and seeing where that leads us.
+**Robin Morero:** Yeah, what we're doing is we're experimenting with setting up a platform. It might end up as a product one day, but it might not. At the moment, it's just trying to find out "Can we automated DevOps patterns better than they are today, so that we get a continuous reading of DevOps params, like how long does it take to deploy, how fast does it deploy to production, how often does it fail, and so on. So we try building these best practices into a platform and seeing where that leads us.
 
 **Gerhard Lazu:** Okay.
 
@@ -296,7 +296,7 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Robin Morero:** They would run on the same cluster, but for different customers. So instead of multi-tenants, we try to do a single tenancy, for each customer, in this case.
 
-**Gerhard Lazu:** \[00:24:16.13\] Yeah, so each customer gets its own cluster, or their own cluster, and that cluster has these components pre-installed. Okay.
+**Gerhard Lazu:** \[24:16\] Yeah, so each customer gets its own cluster, or their own cluster, and that cluster has these components pre-installed. Okay.
 
 **Robin Morero:** Different namespaces, but the same cluster. It could end up in different clusters, but at the moment we have it on the same on.
 
@@ -366,7 +366,7 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 **Gerhard Lazu:** I would really like to see this setup, how it all comes together - all the components that you use... Is this something that you are thinking of maybe opening up to the public?
 
-**Robin Morero:** \[00:27:53.19\] We're thinking about that, yes. We're doing a demo, we're working on that at the moment. Something that will be like a public demo. And then we plan -- what we're talking about is to release the CLI tool we're using as an open source tool, \[unintelligible 00:28:03.11\] but also to keep the platform, like the web-based management GUI, as part of our product.
+**Robin Morero:** \[27:53\] We're thinking about that, yes. We're doing a demo, we're working on that at the moment. Something that will be like a public demo. And then we plan -- what we're talking about is to release the CLI tool we're using as an open source tool, \[unintelligible 00:28:03.11\] but also to keep the platform, like the web-based management GUI, as part of our product.
 
 **Gerhard Lazu:** Interesting. So what will the CLI tool do?
 
@@ -412,7 +412,7 @@ But as it grows more complex, you either have to keep more stuff in your head, o
 
 A better approach, again, in my experience, seems to have been operating systems that were built for Kubernetes, and that's like the entry point. You don't add Kubernetes on top of an operating system. The operating system is Kubernetes. And then when you provision the host, it's already -- mostly a worker, because the control plane nodes, they are managed... And I suppose that's where the value of managed Kubernetes comes in, where you don't ge to do anything when it comes to the control plane. That is the provider that does it for you.
 
-\[00:32:10.07\] But I understand that from a GDPR perspective, and customers that need to control all of that, they need to know exactly where those are, what they are... And I'm not sure, GCP, for example - how do they do that? Because they have it in Zurich, in Switzerland; it's one of the places where they -- you can't get like a managed Kubernetes from a GKE, from GCP. Would that not be an option for you, to go for a provider?
+\[32:10\] But I understand that from a GDPR perspective, and customers that need to control all of that, they need to know exactly where those are, what they are... And I'm not sure, GCP, for example - how do they do that? Because they have it in Zurich, in Switzerland; it's one of the places where they -- you can't get like a managed Kubernetes from a GKE, from GCP. Would that not be an option for you, to go for a provider?
 
 **Robin Morero:** Yeah, we have some customers that want all of their traffic and data in Sweden. And in terms of hosting in Sweden, there's not a lot of hosts from there. There are options, but they're not as strong at the moment.
 
@@ -444,7 +444,7 @@ A better approach, again, in my experience, seems to have been operating systems
 
 **Robin Morero:** That's good, I think. I think that's a good approach for it. So we're basically trying to keep it portable at this state. We just want to build it, we want to test it, see how it works, and then we iterate.
 
-**Break:** \[00:35:53.20\] to \[00:38:32.24\]
+**Break:** \[35:53\] to \[38:32\]
 
 **Gerhard Lazu:** As a consultancy that sees many small businesses, many different teams, you get to experience a lot of different codebases, a lot of different approaches. Some are better, some are worse. They all can be improved in different ways. But you mentioned something which I've found really interesting. You mentioned about those haunted codebases. What did you mean by that?
 
@@ -456,7 +456,7 @@ We used to work with a customer like that, and they were running a really big te
 
 **Robin Morero:** It was a shared codebase. The test suite was shared between different teams. So there was this huge discussion with like five teams or something, "How should we approach this?" And some of us wanted to test specific parts, but there was a general feeling of fear. We didn't wanna do it, because we might end up being haunted by it.
 
-**Gerhard Lazu:** \[00:40:06.10\] And what happened afterwards, after this discussion? What did you do?
+**Gerhard Lazu:** \[40:06\] And what happened afterwards, after this discussion? What did you do?
 
 **Robin Morero:** We tried to make it smaller, in the ports, but we couldn't really agree on how small we could make it, so I suggested putting metrics in there, measuring what value do we get from each part of the tests. If this test suite fails, what cost would it have made for the business, and how often does it happen? So the same thing that we do all the time - if you can't prove something, measure it and check the metrics.
 
@@ -490,7 +490,7 @@ We used to work with a customer like that, and they were running a really big te
 
 So what I'm saying is that make sure that you capture the value when you're writing the tests. And if you can, put the value in there; put a log that says "This test just failed. It would have cost you this much if you had actually done it in production."
 
-**Gerhard Lazu:** \[00:44:02.11\] So I think that the tests that you're thinking about - they must be acceptance tests. They can't be unit tests, they can't be something that runs really, really fast. They must be expensive tests by design.
+**Gerhard Lazu:** \[44:02\] So I think that the tests that you're thinking about - they must be acceptance tests. They can't be unit tests, they can't be something that runs really, really fast. They must be expensive tests by design.
 
 **Robin Morero:** Yeah.
 
@@ -540,7 +540,7 @@ So I think that's \[unintelligible 00:47:35.21\] I think that would be nice to h
 
 **Robin Morero:** Ah... Alright.
 
-**Gerhard Lazu:** \[00:47:46.16\] Yeah. I mean, as weird as that sounds. Kubernetes is great, and I think many good things came out of it, but I think all this microservices craze - they're a lot more complex than people think, and there are some hard problems, like the one that you've just mentioned... And I haven't spent enough time in that space to know what the solutions look like. But I'm not seeing problems with monoliths, especially when you have something like the Erlang VM, which scales really, really nicely. And you can have multiple applications running inside of that Erlang VM. So it's not just one application. And you have a supervision tree... So I come from that world where -- obviously, I did quite a bit of Ruby, and then for a few years I was in Go, and then for many, many years I stuck with Erlang, including Elixir, and Phoenix... And I see a lot of benefits to that approach.
+**Gerhard Lazu:** \[47:46\] Yeah. I mean, as weird as that sounds. Kubernetes is great, and I think many good things came out of it, but I think all this microservices craze - they're a lot more complex than people think, and there are some hard problems, like the one that you've just mentioned... And I haven't spent enough time in that space to know what the solutions look like. But I'm not seeing problems with monoliths, especially when you have something like the Erlang VM, which scales really, really nicely. And you can have multiple applications running inside of that Erlang VM. So it's not just one application. And you have a supervision tree... So I come from that world where -- obviously, I did quite a bit of Ruby, and then for a few years I was in Go, and then for many, many years I stuck with Erlang, including Elixir, and Phoenix... And I see a lot of benefits to that approach.
 
 **Robin Morero:** But would you really call an Erlang application a monolith? I would probably call it like an orchestration layer, or something like that.
 
@@ -562,7 +562,7 @@ So I think that's \[unintelligible 00:47:35.21\] I think that would be nice to h
 
 **Gerhard Lazu:** Interesting. Yeah, I do have to say, if you're using Java as an org, and you wanna do something else, maybe you should consider Erlang, and Elixir specifically, rather than going like Go... Because that has its own complexities. But again, I'm biased, because that's what I've been doing for many, many years, and I had success wih it, and it seems to work.
 
-**Robin Morero:** It depends on your setup. Because we're doing microservices, and with microservices, Go is a pretty nice match... Because you end up with one static binary, and it's nice to package it, nice dev ops.
+**Robin Morero:** It depends on your setup. Because we're doing microservices, and with microservices, Go is a pretty nice match... Because you end up with one static binary, and it's nice to package it, nice DevOps.
 
 **Gerhard Lazu:** Yeah.
 
@@ -574,7 +574,7 @@ Now, I do have to say it's a small team, so we're not 50, 100 people developing 
 
 **Robin Morero:** What I could see happening in a bigger team, if you work like that - I'm not saying this is the case; you'll have to tell me if you've seen it, but... What would happen when you have at least 50 people working on that codebase and you have it in the same monorepo? Wouldn't that be pretty big? Wouldn't that be resource-consuming if someone made an error somewhere that ate up a lot of memory, and so on?
 
-**Gerhard Lazu:** \[00:52:15.20\] Apparently, Google does it successfully... And Google - they have one of the biggest mono repositories in the world. GitHub does the same thing, they have a monorepo for all of GitHub. A lot of it still runs Rails, which is a framework. I don't know others... Facebook, I think they also have a mono repository. I don't know how they've made it work at that scale.
+**Gerhard Lazu:** \[52:15\] Apparently, Google does it successfully... And Google - they have one of the biggest mono repositories in the world. GitHub does the same thing, they have a monorepo for all of GitHub. A lot of it still runs Rails, which is a framework. I don't know others... Facebook, I think they also have a mono repository. I don't know how they've made it work at that scale.
 
 There's a couple of conversations which I've had with ex-Google employees, ex-Googlers - Xooglers, as they're called - and they have great things to say about how they approach this. Apparently, they have it figured out. But they're a massive org.
 
@@ -616,7 +616,7 @@ I think that's a very nice way of doing microservices as an adult, as a grown-up
 
 **Gerhard Lazu:** That is a great idea. As we prepare to wrap up, what would you say is the most important takeaway for our listeners.
 
-**Robin Morero:** \[00:56:05.00\] I would just say that try to question things when you do them. Always try to find a value in what you're doing, and if you have issues with that value, try to do something else, if you don't see enough value. If you're doing something that you think might be wasteful, try a different approach and see where it leads you. Don't be afraid to try new paths.
+**Robin Morero:** \[56:05\] I would just say that try to question things when you do them. Always try to find a value in what you're doing, and if you have issues with that value, try to do something else, if you don't see enough value. If you're doing something that you think might be wasteful, try a different approach and see where it leads you. Don't be afraid to try new paths.
 
 **Gerhard Lazu:** Yeah, I like that.
 
