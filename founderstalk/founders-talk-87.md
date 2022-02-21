@@ -4,7 +4,7 @@
 
 **Adam Stacoviak:** At the risk of doing a terrible job of explaining what Titan is, can you give me kind of just a precursor? It might be going back to how you began, but just help me understand and help the audience understand what Titan is today.
 
-**Joe Percoco:** \[00:04:07.19\] Yes, we're a new-guard investment management platform. So to speak very simply, people will give us their hard-earned savings or capital for us to manage in our investment products. We have four or five... We have a large-cap growth one, focused on identifying blue chip compounders, we have an opportunities one, focused on rising stars. We have a crypto product we just launched, focused on identifying the best crypto assets ripe to outperform, and so we're going to keep launching new products in different asset classes. Ultimately, what the mutual fund was for the baby boomer generation, we aim to be that for ours.
+**Joe Percoco:** \[04:07\] Yes, we're a new-guard investment management platform. So to speak very simply, people will give us their hard-earned savings or capital for us to manage in our investment products. We have four or five... We have a large-cap growth one, focused on identifying blue chip compounders, we have an opportunities one, focused on rising stars. We have a crypto product we just launched, focused on identifying the best crypto assets ripe to outperform, and so we're going to keep launching new products in different asset classes. Ultimately, what the mutual fund was for the baby boomer generation, we aim to be that for ours.
 
 **Adam Stacoviak:** What's the problem with access to this kind of wealth-building tooling? Maybe go into this side where -- I guess to some of your history really with Goldman Sachs, and just kind of seeing behind the, like you’d said with the restaurant analogy, like getting to go beyond that door where the food comes out. You've got to go behind the scenes to build wealth for the ultra-wealthy, I'm sure. What did you see, what did you come back with, and how did that change for you to build what Titan is today?
 
@@ -18,7 +18,7 @@ It's just so ironic, just like -- for example, some of these big institutions, s
 
 **Joe Percoco:** Yeah, feel free to slow me down wherever you need to, but... Because of technology, you can actually change certain categories... In particular, like wealth management. Let's flip the script. Why does someone who creates a business, an elite business, say "I'm going to do it for accredited investors or institutional investors only." So talk about the supply side, the people who are saying, "I'm going to go to build a business for the back, forget the front." They're not irrational. The people in the front have a lot of money, a lot of hard-earned savings, that add up to trillions of assets. So why are they building the business to the back? There's two primary reasons. One is the cost to serve the incremental customer in the back is way less, i.e. I can go get one $10 million check, or I can go try to manage thousands of $1,000 checks. I'm just going to do the one check, because - great. Obviously, it's way harder and you have to try to pitch a lot of people to get that one $10 million check. But if you do it, your cost profile is way different. You have one effective customer, instead of 10,000. And then the second is from a legal standpoint, there were easier constructs way back when to just do it for accredited and institutional investors only.
 
-\[00:08:18.08\] So with the advent of the mobile phone, what you can do is basically gather together millions of people at once and enable them to organize and do things. For example, a very colloquial example, a million people at once can go like a Nike shoe drop on Instagram. That's effectively a million people organizing to do a singular action, which is go heart the latest Nike shoe drop. Imagine half a million people organized at once to produce $10 billion and say, "Hey, Mr. Hedge Fund Portfolio Manager, you currently manage $5 billion. Delete your job. We're going to pay you as much, but just come do it for regular Americans."
+\[08:18\] So with the advent of the mobile phone, what you can do is basically gather together millions of people at once and enable them to organize and do things. For example, a very colloquial example, a million people at once can go like a Nike shoe drop on Instagram. That's effectively a million people organizing to do a singular action, which is go heart the latest Nike shoe drop. Imagine half a million people organized at once to produce $10 billion and say, "Hey, Mr. Hedge Fund Portfolio Manager, you currently manage $5 billion. Delete your job. We're going to pay you as much, but just come do it for regular Americans."
 
 So with technology, you can organize people en masse at a much lower cost, and create a much better experience. So all this sort of stuff that for right reasons and wrong reasons was locked - let's call it the back of the restaurant - can finally be unlocked.
 
@@ -34,7 +34,7 @@ So with technology, you can organize people en masse at a much lower cost, and c
 
 **Joe Percoco:** It's critical. Across any business, like in the history of humanity, one of the most important things you need to get right is distribution. It's sort of like, who cares if you produced the best product in the world, if you cooked the best apple pie? It doesn't matter. Sort of like if the tree falls in the forest and no one's around, did it make a sound? Same thing as a business. If you build a good product and you don't have distribution, do you even have business?
 
-\[00:12:06.29\] So I pay very, very close attention to where audiences are en masse, because that is what's called distribution. Those are the -- what was the town square, what was the OG amphitheater where people came together and discovered services, discovered ideas, debated things, dialogued, that has just shifted online.
+\[12:06\] So I pay very, very close attention to where audiences are en masse, because that is what's called distribution. Those are the -- what was the town square, what was the OG amphitheater where people came together and discovered services, discovered ideas, debated things, dialogued, that has just shifted online.
 
 So one needs to pay close attention to where are these digital counting squares forming, because those are the best ways to enter dialogue about the products and services you have to offer. A lot of brands are now going beyond just, "Let me pay a TikTok influencer to shout about my brand. How do I build an authentic connection in this digital Town Square in a way where it cuts through the noise and say, "Hey, TikTok community, this isn't just another ad for you to scroll through. This is an authentic product that could add meaning to your life that's worth paying for. Click to discover more about it."
 
@@ -48,7 +48,7 @@ So one needs to pay close attention to where are these digital counting squares 
 
 So notice how the core bridge that I mentioned, that you had access to, that maybe the rest of the world didn't, was where you put your money and where you get your content from is the same place. Whereas someone, who's let's say in like a diversified ETF, or like trading your own stocks - they go to a platform, put their money in it, buy and sell stocks, and they have to go to a different platform to try to piece together what's going on. Whether one of these news publishing sites, Wall Street Journal, turn on CNBC... And they basically say "Does this CNBC article about COVID driving the markets down 5% apply to my Apple stock here in my brokerage account?" Whereas someone who has a direct line to the portfolio manager can say, "Yo, is this COVID announcement that the Fed just published, is that actually going to affect Apple?" \[unintelligible 00:15:48.03\] "No, Apple's a compounder. They have pricing power. It maybe will hit some blips, but like in reality, you should just hold on tight", and you just get access to a whole different world of content. So my core job is to build a product like that, en masse, using technology, for everyone.
 
-**Adam Stacoviak:** \[00:16:07.07\] We didn't go too deep into your background, which normally we might do in Founders Talk, but we’ve got barely an hour with you today, so I want to kind of laser in. I know of your history and you've got some experience in that space, so maybe you've met some people, but how did you get to the point where you knew enough to wield these specific toolsets - investment media, tech, mobile? How did you learn to wield that to what you're doing? How are you doing it?
+**Adam Stacoviak:** \[16:07\] We didn't go too deep into your background, which normally we might do in Founders Talk, but we’ve got barely an hour with you today, so I want to kind of laser in. I know of your history and you've got some experience in that space, so maybe you've met some people, but how did you get to the point where you knew enough to wield these specific toolsets - investment media, tech, mobile? How did you learn to wield that to what you're doing? How are you doing it?
 
 **Joe Percoco:** My mother's a software engineer. I've been watching her write code, and ship products ever since I was young. I accidentally went to the best finance school in the country, and then, I happened to be privileged enough to get exposed to all these different worlds that I've been describing. So whereas when I first started Titan, I couldn't quite articulate the business plan, I knew a lot to be dangerous. I said, "Wait, I know enough about mobile tech. I know all the different dichotomies in investing, and I've studied the subject myself for several years. I'm blanking, and I'm getting question marks on why the world works the way it does." And then pitched Titan to 100 venture capitalists, I got rejected 100 times, and they gave me a lot of the same responses.
 
@@ -64,7 +64,7 @@ At that point, it required a deep moment of courage and thought, where I looked 
 
 If everyone just decided to invest in a passive ETF, everything I just described is non-existent. It's zero. Everyone gets the same blanket amount of chips. So that was one piece.
 
-\[00:20:04.03\] Another piece was that the end-state humans were that humans won't want--this was before Robinhood took off. And it's funny to remember this world, where people were telling me, "Folks don't care about their money." They were like, "People want to just put it on autopilot and never think about it." I was like, "You're going against a century of data." Like, just take a look at stock exchanges across the world, take a look at TD Ameritrade and E\*TRADE. Just by looking at those businesses, you'd sense a core human trait that's been around since the Amsterdam Stock Exchange, where we could trade the Dutch East India CO. I’m like, "You’re shorting 400 years of human behavior saying they're never going to care about their money again." So they said, "Okay." But ultimately, you have to have humility and say, "Okay, these people are really smart. They see a lot of companies. Maybe they're right, but if anything, it just should inspire me to go get data even faster." Like, if you have arrogance in the room, you could end up getting blindsided.
+\[20:04\] Another piece was that the end-state humans were that humans won't want--this was before Robinhood took off. And it's funny to remember this world, where people were telling me, "Folks don't care about their money." They were like, "People want to just put it on autopilot and never think about it." I was like, "You're going against a century of data." Like, just take a look at stock exchanges across the world, take a look at TD Ameritrade and E\*TRADE. Just by looking at those businesses, you'd sense a core human trait that's been around since the Amsterdam Stock Exchange, where we could trade the Dutch East India CO. I’m like, "You’re shorting 400 years of human behavior saying they're never going to care about their money again." So they said, "Okay." But ultimately, you have to have humility and say, "Okay, these people are really smart. They see a lot of companies. Maybe they're right, but if anything, it just should inspire me to go get data even faster." Like, if you have arrogance in the room, you could end up getting blindsided.
 
 **Adam Stacoviak:** And you said then the data you went and got was actually shipping a -- would you call it an MVP? What would you call it at that point? You said a v1, I think, right?
 
@@ -82,7 +82,7 @@ So the nerve we felt we were tapping into was a willingness to move the lion's s
 
 **Adam Stacoviak:** What do you think unlocked that larger check writing? Like, if I'm willing to give you not hundreds and thousands, but 20,000-ish on a given account, what was it that you were doing that communicated the safety, and - maybe not de-risking it, but maybe even explaining the risk differently? How do you capture that trust? What did you showcase?
 
-**Joe Percoco:** \[00:24:07.12\] We turned a black box industry that had probably been a black box for a century, into an open box. What I mean by that - if you think about the mutual fund, which is the hallmark product of everything I'm describing, it's finding products. If Adam gives money to mutual funds, the mutual fund will receive it - let's say it's a large-cap mutual fund - it will invest it in blue chip stocks. But the issue is that the mutual fund doesn't talk back to Adam. It's a black box.
+**Joe Percoco:** \[24:07\] We turned a black box industry that had probably been a black box for a century, into an open box. What I mean by that - if you think about the mutual fund, which is the hallmark product of everything I'm describing, it's finding products. If Adam gives money to mutual funds, the mutual fund will receive it - let's say it's a large-cap mutual fund - it will invest it in blue chip stocks. But the issue is that the mutual fund doesn't talk back to Adam. It's a black box.
 
 **Adam Stacoviak:** I get prospectuses and stuff like that from whomever. I'm like...
 
@@ -96,7 +96,7 @@ So the nerve we felt we were tapping into was a willingness to move the lion's s
 
 **Joe Percoco:** So the same technology that LeBron James uses, Kevin Durant says, "Hey, fans. I'm here in the Olympics. Look at me." You can give those tools to a manager to say, "Hey, Adam. You're down 3% in your portfolio this month, but don't worry, that’s just because of noise. FYI, it's all looking good from an economic standpoint. Hang on tight." And now we've effectively built trust at scale. One single video message can be shipped to a million people at once.
 
-**Break:** \[00:25:42.29\]
+**Break:** \[25:42\]
 
 **Adam Stacoviak:** I saw the video of your co-CEO, which I do have questions on as well, and co-founder, Clay Gardner. It was the Q4 update. I haven't watched the full thing, but it just seemed like an iPhone set vertical. Someone like even TikTok might express, like 0 you know, not a horizontal, but a vertical video.
 
@@ -106,7 +106,7 @@ So the nerve we felt we were tapping into was a willingness to move the lion's s
 
 **Joe Percoco:** Yes. The secret sauce is quite simple, which is enable this manager who used to manage their service, a diesel truck piece of technology called mutual fund, give them the same career tools that we give everyone else to communicate with people at scale. Let's say Adam wanted to create a crypto product on Titan. Here's the unmasking plan, which is opening up the gates 0 not just our products that we launched on Titan, but giving the tools to anyone who wants to create a financial product. Ditch the mutual fund, ditch the ETF, come use a Tesla.
 
-\[00:28:15.16\] Adam can now say, "Okay, I want to create a crypto product." Let's say he wants to go after niche crypto-asset tokens that others haven't yet seen yet, unlike Bitcoin. It's like, "Okay, he's going to create." He’ll go into the backend of Titan, in the manager portal, say, "Okay, here are the six crypto assets I want to trade on behalf of clients."
+\[28:15\] Adam can now say, "Okay, I want to create a crypto product." Let's say he wants to go after niche crypto-asset tokens that others haven't yet seen yet, unlike Bitcoin. It's like, "Okay, he's going to create." He’ll go into the backend of Titan, in the manager portal, say, "Okay, here are the six crypto assets I want to trade on behalf of clients."
 
 And then when something happens, it's like, "Okay, I open up the backend Titan app. I want to record a video, because crypto is up 20%. I want to send a message to all my clients." I swipe, I literally hold my phone, I record it, I swipe, it gets shipped." It's like a very, very simple proposition, and for some reason, we're the only people who were like, "Guys, this whole idea of us accepting black box financial products is pretty bad. We should collectively try to just delete the whole thing." Just like bad for like four different reasons.
 
@@ -142,7 +142,7 @@ So for the progress of the world at large, my money just sits; it doesn't move. 
 
 **Adam Stacoviak:** Okay.
 
-**Joe Percoco:** \[00:31:49.24\] Launch a product on Titan. You can do it more cheaply, you can stand up the product in a 10th of the time, your customers aren't anonymized, and you can actually communicate back to them. We have a lot of people who currently manage their product off the mutual fund and ETF, reaching out to say, "Hey, can I launch a product on Titan? Can I launch my product on Titan?" Because you guys know your customers, you can talk to them, you can trade faster. There's none of this red tape. It's just entirely a holistic, better experience. Because right now, instead, I have an ETF, and then I try to go build an audience on Twitter to solve for that content thing, but you guys just merge it all together.
+**Joe Percoco:** \[31:49\] Launch a product on Titan. You can do it more cheaply, you can stand up the product in a 10th of the time, your customers aren't anonymized, and you can actually communicate back to them. We have a lot of people who currently manage their product off the mutual fund and ETF, reaching out to say, "Hey, can I launch a product on Titan? Can I launch my product on Titan?" Because you guys know your customers, you can talk to them, you can trade faster. There's none of this red tape. It's just entirely a holistic, better experience. Because right now, instead, I have an ETF, and then I try to go build an audience on Twitter to solve for that content thing, but you guys just merge it all together.
 
 **Adam Stacoviak:** Yeah.
 
@@ -182,7 +182,7 @@ So for instance, like under-developed urban communities need a lot of real estat
 
 **Adam Stacoviak:** I'm just really interested in what you've built here. I think it's interesting. The secret sauce of just communicating back seems just so...
 
-**Joe Percoco:** \[00:36:11.09\] Trivial, right?
+**Joe Percoco:** \[36:11\] Trivial, right?
 
 **Adam Stacoviak:** Very trivial, because it's like, that should be table stakes, right? That should just be how it works anyways. I don't understand why--I mean, I guess I do understand why. Greed, probably. Greed and scarcity, right? If you make things scarce, you can drive the price up, you can lock certain people out, and you can essentially be very biased and you can showcase your bias. It can be class bias, essentially; like, if you have enough money, you can play in my park, or come to my house, or whatever it might be. But if you don't, then you're not welcome here, and I won't let you access these markets and make the money that we make. I like the way you pair up this side of the business. It's really, really interesting.
 
@@ -202,7 +202,7 @@ So you can see the overarching consumer psychology - again, to generalize; and g
 
 **Joe Percoco:** I'm a millennial.
 
-**Adam Stacoviak:** \[00:40:14.05\] Okay.
+**Adam Stacoviak:** \[40:14\] Okay.
 
 **Joe Percoco:** Getting old.
 
@@ -218,7 +218,7 @@ So you can see the overarching consumer psychology - again, to generalize; and g
 
 **Joe Percoco:** Our median customer is somewhere between the age of 28 to 33. But we're seeing pull from two different polls. So we're seeing older clients who think we're way cooler than the mutual fund that they currently have, but we're also seeing it from way younger. So people who identify with the content-rich, open box niche of our platform, they're just like "Hey, this is like way better than the thing I inherited from our parents." So, our question mark from a business standpoint is which customer profile type do we build for right now? We're building for millennials roughly, but we're going to start targeting younger and younger, so we can be a part of people's early financial trajectory. But it definitely is a strategic question that a lot of folks have differing opinions on.
 
-**Break:** \[00:42:05.27\]
+**Break:** \[42:05\]
 
 **Adam Stacoviak:** I can remember whenever I first entered the "workforce", and I was offered a 401(k), and I was slightly educated on how I can use my income as a possibility to have retirement... And everyone said, "Well, the earlier you start, the better off you are." But the fact is what kept me out of the market largely were misinformation. So what do you think about the future of a world where we have access to a Titan where there's that feedback loop? What do you project as a CEO? What do you project as like your dream for the future for what Titan could enable because you just simply have access to somebody who has your best interest in mind? ...not somebody who just shares a prospectus.
 
@@ -234,7 +234,7 @@ So this whole Reddit situation with GameStop and the hedge fund that you saw ear
 
 **Joe Percoco:** Yeah, Series B.
 
-**Adam Stacoviak:** \[00:49:11.16\] $58 million Series B, not a bad round. What valuation was that, just roughly?
+**Adam Stacoviak:** \[49:11\] $58 million Series B, not a bad round. What valuation was that, just roughly?
 
 **Joe Percoco:** 400.
 
@@ -254,7 +254,7 @@ So now with this round, the goal is to really go give the five star experience o
 
 **Adam Stacoviak:** You already have the meat, so to speak, and you’re just going to season it a bit more. You're going to concierge all the aspects. I like the tripod analogy of the person, their money.... What was the three things? It was person, money and something else.
 
-**Joe Percoco:** There's the person, \[00:51:24.20\] relationship, experience, and your content...
+**Joe Percoco:** There's the person, \[51:24\] relationship, experience, and your content...
 
 **Adam Stacoviak:** That's right.
 
@@ -270,7 +270,7 @@ So now with this round, the goal is to really go give the five star experience o
 
 **Adam Stacoviak:** Yes. What's the right path.
 
-**Joe Percoco:** \[00:53:06.18\] There's different strategic approaches. So usually -- like, for example, when I'm angel investing in other companies, once I get their mission, I understand where they're going, it's like, "Okay, great." Now, to really test them, I say "Tell me how you're considering the different sequence in paths." That answers two things. Do you understand and have the humility to say "The path I'm thinking through is not the only path; there are others." And then can you show me how you had judgment to say "This is the right path that we should go down, and here are the data points that would make me switch." So you can learn a lot about an entrepreneur just asking through how they're thinking about sequencing.
+**Joe Percoco:** \[53:06\] There's different strategic approaches. So usually -- like, for example, when I'm angel investing in other companies, once I get their mission, I understand where they're going, it's like, "Okay, great." Now, to really test them, I say "Tell me how you're considering the different sequence in paths." That answers two things. Do you understand and have the humility to say "The path I'm thinking through is not the only path; there are others." And then can you show me how you had judgment to say "This is the right path that we should go down, and here are the data points that would make me switch." So you can learn a lot about an entrepreneur just asking through how they're thinking about sequencing.
 
 **Adam Stacoviak:** So I guess, to put that bluntly, you're thinking about what the right path is to move forward to create the next Fidelity.
 
@@ -300,7 +300,7 @@ Alternative path - go build for the other people first, because they can inform 
 
 So the question that \[unintelligible 00:56:48.00\] apply to a business like ours, at least right now - I'm speed-first, and I think a bunch of the entrepreneurs I respect I think would also shake out speed-first. But the interesting is, does it change as you scale? That's something that could pose a lot of really interesting debate.
 
-**Adam Stacoviak:** \[00:57:02.23\] Yeah. I like the way you answered that, because there's no right answer. You're like, where you're at, your stage of your company is different than mine. Very different businesses. Slow and steady might win for us, which actually is a guiding principle for us. Slow and steady wins, and if we're going too fast, like if we can't keep the main thing we're doing the main thing we're doing, slow down and check yourself.
+**Adam Stacoviak:** \[57:02\] Yeah. I like the way you answered that, because there's no right answer. You're like, where you're at, your stage of your company is different than mine. Very different businesses. Slow and steady might win for us, which actually is a guiding principle for us. Slow and steady wins, and if we're going too fast, like if we can't keep the main thing we're doing the main thing we're doing, slow down and check yourself.
 
 So we’ve got a couple of guiding principles that I often share here on the show, that guide us. But I'm always questioning how accurate those are. Because you may be more speed-first, because you need to. The next Fidelity, as you said, is going to get built. Will it be built by you? And I think speed in evolving and speed in churning through the wrongs and the rights, and determining your sequence, is what's going to help you become the next Fidelity, if that's going to happen.
 
