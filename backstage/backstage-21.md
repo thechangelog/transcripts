@@ -52,7 +52,7 @@ One of the first main ways how I got into it was podcasts, of which the Changelo
 
 **Jerod Santo:** Or people are risky? I don't know. There's risk involved.
 
-**Simey de Klerk:** \[00:04:02.15\] That is just about right. We do have a reputation for being well-paid. We don't suffer. I'm not convinced that we are a cut above other professionals nowadays; I'm pretty sure some software engineers and lawyers and private accountants and the like earn similar, if not at times higher salaries. But we are well paid professionals, so that part is true.
+**Simey de Klerk:** \[04:02\] That is just about right. We do have a reputation for being well-paid. We don't suffer. I'm not convinced that we are a cut above other professionals nowadays; I'm pretty sure some software engineers and lawyers and private accountants and the like earn similar, if not at times higher salaries. But we are well paid professionals, so that part is true.
 
 In terms of what we do, the sort of business slogan is that we are experts in managing long-term uncertainty and risk. The key application of that is life insurance, and pensions, and the like. There are various subfields in that, but the typical technical one that people think about is projections and calculations, typically around life risks. So forming a view of a person and how long we expect them to live, and if we sell them life insurance, how many premiums do we expect to get before we need to pay the claim, but sort of in a probabilistically-modeled way.
 
@@ -64,7 +64,7 @@ A lot of that, on a practical level, comes down to effectively complex mathemati
 
 **Adam Stacoviak:** I don't know what it was, but there was this thing I saw on LinkedIn today, as a matter of fact this morning... It was a satire, or at least comedy at best... And it was some sort of show, and it was talking about -- think of it like SNL, or some sort of skit style comedy. And there was this person conducting class in school - and this is like post-pandemic school. And it was essentially highlighting the PTSD that people have around the pandemic. And the teacher was talking about "What was notable things that happened in 2019?" and the class went around and said different things. He's like "Okay, great. What was notable things that happened in 2022?" And the class went around and was like "This, or that, or whatever." And the one student says "Teacher, what about 2020?" He's like "Get out. Just get out. Go to the principal's office now." It was just like "Just forget 2020 and 2021. That didn't happen. Go with me, class. What is it - 2018, 2019, 2022, 2023..." And that was like the way they were brainwashed. It was meant to be funny, of course, but it was that kind of thing; 2020 and 2021 just totally ravaged all known ways, basically.
 
-**Simey de Klerk:** \[00:08:29.24\] Yeah. We don't talk about it. I still haven't watched the movie, but I feel like I almost know all the words to this song "We don't talk about Bruno" by this stage, by virtue of my wife playing it to our kids.
+**Simey de Klerk:** \[08:29\] Yeah. We don't talk about it. I still haven't watched the movie, but I feel like I almost know all the words to this song "We don't talk about Bruno" by this stage, by virtue of my wife playing it to our kids.
 
 **Adam Stacoviak:** We don't talk about Bruno around here, okay? Oh, no, no, no.
 
@@ -82,7 +82,7 @@ In my team we've got various other processes, and I find there's a kind of minds
 
 **Simey de Klerk:** And yeah, I feel like that is part of something I think I bring to the table, just having that mindset, and an understanding of what computers can do... Which more or less should be possible, even if I can't do it myself, to say "Well, what should a good solution to this kind of problem look like, and how should we piece things together so that the flow works and we don't have unnecessary manual steps", because they are a) no fun, and b) just begging for problems and typos and the like.
 
-**Jerod Santo:** \[00:11:54.22\] Well, when it comes to automation, I'm also a fan... And when it comes to manual things that I don't want to do, or would be nice to have done, but we're not going to do them because there has to be a better way, I'm also a big fan... And it turns out we have such tasks around our episode transcripts.
+**Jerod Santo:** \[11:54\] Well, when it comes to automation, I'm also a fan... And when it comes to manual things that I don't want to do, or would be nice to have done, but we're not going to do them because there has to be a better way, I'm also a big fan... And it turns out we have such tasks around our episode transcripts.
 
 Now, back in October of 2020 I opened an issue on our transcripts repo called "A GitHub Action to auto-improve transcripts." And I labeled it "enhancement" and I labeled it "help wanted". Because while I thought this would be cool, it hadn't quite percolated to the point where I was actually going to write this, because there's other code that needs writing more than this needed writing. But I thought this was like a nice, small, encapsulated, easy for me to spec feature that I would love to exist. And I just kind of put that out there on the repo, and it sat dormant for a while. And I thought eventually I would just do it myself; that's kind of where it was. Like, "Note to self, but I'll put it on an open issue, and throw the 'help wanted' on there and see what happens." And then you came along. Do you wanna tell how did you find this issue? I think it was Hacktoberfest or something, but...
 
@@ -112,7 +112,7 @@ So for a long time on Hacktoberfest this was something that we would offer as a 
 
 **Jerod Santo:** \[laughs\] Two for two.
 
-**Simey de Klerk:** \[00:15:55.01\] I did that, and then did some other small random things, and sort of got my four or five pull requests, or whatever the hurdle was that year to get my T-shirt.
+**Simey de Klerk:** \[15:55\] I did that, and then did some other small random things, and sort of got my four or five pull requests, or whatever the hurdle was that year to get my T-shirt.
 
 **Jerod Santo:** Right.
 
@@ -158,7 +158,7 @@ And yeah, then I just started hacking away at it, building it bit by bit, checki
 
 **Adam Stacoviak:** Maybe it has diminishing returns or whatever, but... It's just interesting how you put something out there, and you connect certain dots in the world, and people actually connect them too, and it changes their life in some small way or some large way. I think that's just -- and then it comes full circle. It's like, this feature is super-cool. I love this feature. There's so much more we could do with it, and it's cool that you contributed, Simey.
 
-**Jerod Santo:** \[00:20:16.20\] Yeah. So let me describe the feature as it stands today, and then maybe you can give a little bit of the story. We should say that Simey also wrote a blog post that y'all can read called "Auto-improved transcripts with GitHub Actions, or how I taught Logbot to change Changelog's logs like magic." Say that five times fast...
+**Jerod Santo:** \[20:16\] Yeah. So let me describe the feature as it stands today, and then maybe you can give a little bit of the story. We should say that Simey also wrote a blog post that y'all can read called "Auto-improved transcripts with GitHub Actions, or how I taught Logbot to change Changelog's logs like magic." Say that five times fast...
 
 **Adam Stacoviak:** No, thank you.
 
@@ -174,7 +174,7 @@ Every time a push goes to the transcripts repo, it's going to go through -- and 
 
 **Jerod Santo:** Exactly. So that's the feature. How did we get here? So you mentioned you started off knowing a little bit about GitHub Actions, you knew a little bit of JavaScript and Node, and you also hopped into our Slack and said "Hey Jerod, I'm thinking about working on this." My spec was brief, apparently too brief, because it needed some more information... I think the main thing I wasn't sure was like how the whole GitHub Actions workflow was gonna work. Was it gonna commit, was it gonna open up a new pull request? etc. And then you got going on it. But I know there was more to the process than that. Was there any particular aspects, or decisions you made, or things you hit against that were problematic, or hurdles that you had to overcome?
 
-**Simey de Klerk:** \[00:24:10.21\] Right. So maybe to jump into the one at the end that you mentioned first maybe, around how we actually wanted to execute. We had gotten it going, and the first commit was actually a pretty big one, because now it's going through basically everything, and applying all the stylistic changes to every single episode. And while the other ones that you mentioned, the JavaScript and the MLOps and those things appear here and there, but aren't always as prevalent, the timestamps were everywhere. So basically every transcript there were multiple timestamps that needed to get fixed. So the first time we ran it by hand and I think we made a couple of big commits just to \[unintelligible 00:24:53.17\] the existing transcripts.
+**Simey de Klerk:** \[24:10\] Right. So maybe to jump into the one at the end that you mentioned first maybe, around how we actually wanted to execute. We had gotten it going, and the first commit was actually a pretty big one, because now it's going through basically everything, and applying all the stylistic changes to every single episode. And while the other ones that you mentioned, the JavaScript and the MLOps and those things appear here and there, but aren't always as prevalent, the timestamps were everywhere. So basically every transcript there were multiple timestamps that needed to get fixed. So the first time we ran it by hand and I think we made a couple of big commits just to \[unintelligible 00:24:53.17\] the existing transcripts.
 
 **Jerod Santo:** Mm-hm.
 
@@ -202,7 +202,7 @@ Every time a push goes to the transcripts repo, it's going to go through -- and 
 
 So because Logbot had made other commits to this repo, I could just use its username and email address in the Git CLI, effectively within this Action, and that part just worked.
 
-\[00:28:05.17\] I eventually got there and it was a pretty easy and simple solution after trying to get a token for another user and using that... But then there's weird, cyclical things in GitHub Actions where -- it's actually pretty cleverly designed, where in the default case a commit from an Action doesn't trigger another Action to run that should run on commits... But if it's coming from outside -- so basically, how the GitHub commit trigger works is if it's a commit from an outside profile, it will run. But if it's a commit from itself, it won't run, because otherwise it would create a circular reference. But now the other thing I was trying was making it look like it's coming from outside, and then it kept triggering itself, which is not what we wanted. So a couple of hours spent learning there, but we got it working eventually.
+\[28:05\] I eventually got there and it was a pretty easy and simple solution after trying to get a token for another user and using that... But then there's weird, cyclical things in GitHub Actions where -- it's actually pretty cleverly designed, where in the default case a commit from an Action doesn't trigger another Action to run that should run on commits... But if it's coming from outside -- so basically, how the GitHub commit trigger works is if it's a commit from an outside profile, it will run. But if it's a commit from itself, it won't run, because otherwise it would create a circular reference. But now the other thing I was trying was making it look like it's coming from outside, and then it kept triggering itself, which is not what we wanted. So a couple of hours spent learning there, but we got it working eventually.
 
 **Jerod Santo:** Yeah.
 
@@ -218,7 +218,7 @@ I kind of like that aspect of programming, where it gets really practical at a c
 
 **Jerod Santo:** \[laughs\]
 
-**Simey de Klerk:** \[00:31:58.25\] But there was one where you spoke to someone about functional programming. The way he explained it I thought was really awesome; he said "Functional programming is not about shunning side effects, it's just about being really explicit about them." And like you've just described, having your functional bits clean, having it be clear when \[unintelligible 00:32:17.07\] and when not. Because as much as this clean, functional code is awesome to nerd out on...
+**Simey de Klerk:** \[31:58\] But there was one where you spoke to someone about functional programming. The way he explained it I thought was really awesome; he said "Functional programming is not about shunning side effects, it's just about being really explicit about them." And like you've just described, having your functional bits clean, having it be clear when \[unintelligible 00:32:17.07\] and when not. Because as much as this clean, functional code is awesome to nerd out on...
 
 **Jerod Santo:** Right.
 
@@ -244,7 +244,7 @@ So that makes it really extensible. I mean, we're not gonna change it all that m
 
 **Jerod Santo:** So I did add those... That was actually my implementation of one thought applied to a couple different circumstances. So those are just like -- I could have written like one more complicated regular expression, or I thought "Well, why do that? Because the more complicated your regular expression, the harder it is for you to read later." I'll just create a few simpler ones to apply the same thought... And that thought is like how we handle the word "open source" and "open sourcing", and the words "closed source", "closed sourcing" in our transcripts.
 
-\[00:36:02.01\] So yeah, it was really easy -- I came up with those by going to the tests and adding all the examples I could think of, of ways that I'll see it in the transcripts, and then the output obviously that you wanna end up with. And then - that's like test-driven development style - I could create those rules until everything is green.
+\[36:02\] So yeah, it was really easy -- I came up with those by going to the tests and adding all the examples I could think of, of ways that I'll see it in the transcripts, and then the output obviously that you wanna end up with. And then - that's like test-driven development style - I could create those rules until everything is green.
 
 And so yeah, that was really easy to add. Now, I could have just done one line, a very complicated one probably... But then I was like, "Well, I've got all this space right here... I'll just add more rules, and then have the same output." So it was flexible that way.
 
@@ -270,7 +270,7 @@ So I remember just landing on that and being like, "Yup, good enough." Like, thi
 
 **Jerod Santo:** That's a good example.
 
-**Adam Stacoviak:** \[00:39:58.02\] Would you go then -- because those two brand names occur quite a bit, same thing with maybe Elasticsearch, sometimes it's camel case when it's actually two words... Could we/should we go then and just really do a lot more?
+**Adam Stacoviak:** \[39:58\] Would you go then -- because those two brand names occur quite a bit, same thing with maybe Elasticsearch, sometimes it's camel case when it's actually two words... Could we/should we go then and just really do a lot more?
 
 **Jerod Santo:** There's no reason not to at this point. It's just so easy. It's too easy. Adam's favorite new favorite phrase, "It's just too easy."
 
@@ -312,7 +312,7 @@ So if you went and said "Every time GitHub has misspelled or miscapitalized, fix
 
 **Adam Stacoviak:** Yeah.
 
-**Simey de Klerk:** \[00:44:03.20\] And I'll share the limits of my powers here... I did actually try to write the GitHub one, but I couldn't figure out how to not change URLs. So whenever there's like a github.com/ with stuff in front of it, that's when you don't want it to change, I'm assuming...
+**Simey de Klerk:** \[44:03\] And I'll share the limits of my powers here... I did actually try to write the GitHub one, but I couldn't figure out how to not change URLs. So whenever there's like a github.com/ with stuff in front of it, that's when you don't want it to change, I'm assuming...
 
 **Jerod Santo:** Yup.
 
@@ -326,13 +326,13 @@ So if you went and said "Every time GitHub has misspelled or miscapitalized, fix
 
 **Adam Stacoviak:** Now that I think about the fact that there is an opensource.com. And we do link to them often, so that's why I'd suggest that one.
 
-**Jerod Santo:** I'm looking at my tests, and my tests do not account for periods... Except for the gofmt one; I have a test that has a period. So we leave it in. We still detect it, but we leave it in. If I had to guess off the top of my head, I think probably opensource.com might break it at this point... But I'm confident at least in my skills to get that one done. I think word boundaries is the key there... But yeah, we could colab on that. It'd be easy to create the test inside the Jest file for GitHub.com, and just make sure that it doesn't get futzed with.
+**Jerod Santo:** I'm looking at my tests, and my tests do not account for periods... Except for the `go fmt` one; I have a test that has a period. So we leave it in. We still detect it, but we leave it in. If I had to guess off the top of my head, I think probably opensource.com might break it at this point... But I'm confident at least in my skills to get that one done. I think word boundaries is the key there... But yeah, we could colab on that. It'd be easy to create the test inside the Jest file for github.com, and just make sure that it doesn't get futzed with.
 
 **Adam Stacoviak:** Well, just a quick search on our transcripts repo, which I think we have linked to opensource.com... We may have not set it in the transcripts, but...
 
 **Jerod Santo:** For sure in the show notes, but maybe not in --
 
-**Adam Stacoviak:** For sure in the show notes. So this may be an edge case, or it may be an indication of a potential issue... So searching for opensource.com does not find any matches. So it's possible that we may have changed opensource.com to opensourcing.com.
+**Adam Stacoviak:** For sure in the show notes. So this may be an edge case, or it may be an indication of a potential issue... So searching for opensource.com does not find any matches. So it's possible that we may have changed opensource.com to open sourcing.com.
 
 **Jerod Santo:** Oh, you think we've said it before, but now we've changed it to --
 
@@ -350,7 +350,7 @@ So if you went and said "Every time GitHub has misspelled or miscapitalized, fix
 
 **Jerod Santo:** Okay...
 
-**Adam Stacoviak:** Somebody had mentioned - this post is called "The seven stages of becoming a Go programmer". And it's now https://open source.com.
+**Adam Stacoviak:** Somebody had mentioned - this post is called "The seven stages of becoming a Go programmer". And it's now https://opensource.com.
 
 **Jerod Santo:** Oh, so there you go.
 
@@ -374,7 +374,7 @@ So if you went and said "Every time GitHub has misspelled or miscapitalized, fix
 
 **Adam Stacoviak:** Right. So now when we do certain words, like GitHub even, or GitLab even, or open source, we have to confirm or consider that we've said them as a URL somewhere, or have linked to them in -- that's part of actually Hacktober, too; a lot of contributions will be "Well, this actually makes sense to link up", or maybe it doesn't, and we'll allow that. It's not like we're going through and linking up every single thing. But if they say "This post is called The Seven Stages of Becoming a Go Programmer" and it has a link to somewhere... I actually don't even know why that's linked to opensource.com. Actually, I do know. It says "This post." So that's the reference. So it does make sense. Right. So in that case, this totally makes sense to link up the text in a transcript, where normally we just don't do that. Like, it's more or less meant to be readable, not clickable.
 
-**Jerod Santo:** \[00:48:38.09\] Yeah. Because the show notes are clickable, and the transcript is readable, generally speaking.
+**Jerod Santo:** \[48:38\] Yeah. Because the show notes are clickable, and the transcript is readable, generally speaking.
 
 **Adam Stacoviak:** Right.
 
@@ -402,7 +402,7 @@ But you had some cool ideas. I never even thought of this - you could go through
 
 **Jerod Santo:** Right. So our initial simplest idea is like each broken link gets its own GitHub issue on teh show notes repo, which could be thousands of issues, which maybe is too simplistic. Then we're like "Well, what if each episode gets one issue with its broken links in there, in the body of the comment?" or something like that.
 
-\[00:51:49.18\] And now you start managing basically issue state on subsequent runs of the script, because if there's already an issue for this episode, do I update the issue? Do I open a new one every time? It actually gets to be a hairier coding problem than this one was. And perhaps just open up a bunch of issues that never get closed, and we don't care enough... I don't know. I mean, it's the kind of thing that we could put somebody on, go out and find the right link and fix them, if it's manageable.
+\[51:49\] And now you start managing basically issue state on subsequent runs of the script, because if there's already an issue for this episode, do I update the issue? Do I open a new one every time? It actually gets to be a hairier coding problem than this one was. And perhaps just open up a bunch of issues that never get closed, and we don't care enough... I don't know. I mean, it's the kind of thing that we could put somebody on, go out and find the right link and fix them, if it's manageable.
 
 **Adam Stacoviak:** I think the issues ways is probably the most pragmatic way of doing it... Because the issues state does become an issue later on, if you haven't gone and fixed it. And the simplest thing probably would be an editorial kind of concern. So it'd probably require some sort of autonomy to move, but with some parameters, meaning like the most likely thing to happen is just delete it, and maybe remove the link, but leave the text. And with some sort of parentheses that says "Editor's note - it was linked, but the link is now dead", or something like that; I don't know, some sort of way to communicate that.
 
@@ -442,7 +442,7 @@ I don't know how much value there are in those show notes over time. I know peop
 
 I think one of the two things that the broken links that the script found was projects that are just dead and they don't exist on the internet anymore.
 
-**Adam Stacoviak:** \[00:55:56.15\] Yeah. It's probably a lot of dead GitHub links probably.
+**Adam Stacoviak:** \[55:56\] Yeah. It's probably a lot of dead GitHub links probably.
 
 **Jerod Santo:** Wow... So I went back to Rockbot's episode \#200 while we were talking, and just started clicking on show notes. Four of the first five were 404's.
 
