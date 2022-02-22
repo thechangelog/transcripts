@@ -28,7 +28,7 @@ And I would just get into situations where I'm like "I just wanna commit my code
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** And just like "Here's this incantation", and then when this messes up... And the design, the API of the command line tool - somewhat obtuse. It's gotten better over the years. It used to be very unintuitive how you would for instance delete a \[unintelligible 00:10:29.06\] branch I still don't know why... There's a reason for that, I'm sure. But yeah, as you use it, first you start off just memorizing the commands, then you start emulating people who have been around longer, and then you start to kind of understand how it works, and it does become less intimidating, but you still aren't sure if you're using it right.
+**Jerod Santo:** And just like "Here's this incantation", and then when this messes up... And the design, the API of the command line tool - somewhat obtuse. It's gotten better over the years. It used to be very unintuitive how you would for instance delete a remote branch I still don't know why... There's a reason for that, I'm sure. But yeah, as you use it, first you start off just memorizing the commands, then you start emulating people who have been around longer, and then you start to kind of understand how it works, and it does become less intimidating, but you still aren't sure if you're using it right.
 
 **Annie Sexton:** Right.
 
@@ -38,7 +38,7 @@ And I would just get into situations where I'm like "I just wanna commit my code
 
 **Annie Sexton:** Absolutely.
 
-**Jerod Santo:** So the standard, typical -- now that GitHub is established and most of us are doing PRs, or if you're on GitLab you're doing MRs (merge requests), kind of a standard flow for a feature or even bug production... Bug production - that's what most of us do on accident. \[laughter\] It's a feature branch, but I've got bugs alongside. I remember I made an image one time of -- it was a meme I was trying to get going... It was like a ship that was shipping a ship... Not a cargo ship, but an airplane. Have you ever seen those -- they're carrying a little \[unintelligible 00:12:01.08\] maybe it was a rocket on top, or something...
+**Jerod Santo:** So the standard, typical -- now that GitHub is established and most of us are doing PRs, or if you're on GitLab you're doing MRs (merge requests), kind of a standard flow for a feature or even bug production... Bug production - that's what most of us do on accident. \[laughter\] It's a feature branch, but I've got bugs alongside. I remember I made an image one time of -- it was a meme I was trying to get going... It was like a ship that was shipping a ship... Not a cargo ship, but an airplane. Have you ever seen those -- they're carrying a little one on top maybe it was a rocket on top, or something...
 
 **Adam Stacoviak:** Oh, yeah.
 
@@ -62,7 +62,7 @@ I actually think that more importantly what makes this flow better is for PRs, t
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** \[16:07\] But now describe this other way, so at least we'll have both methods on the table. Then we can discuss the differences. So how do you propose, or how are you doing it these days \[unintelligible 00:16:14.27\]
+**Jerod Santo:** \[16:07\] But now describe this other way, so at least we'll have both methods on the table. Then we can discuss the differences. So how do you propose, or how are you doing it these days, that you learned from Dan?
 
 **Annie Sexton:** Sure. So what I do these days is when I am developing a feature, fixing a bug, Git is really not something I'm thinking about too often. The first stage is just fix the thing, make the feature; along the way I still wanna save my work, obviously, and push up to a feature branch, but I tend to just always commit things with a WIP (work in progress) message, and that's it. I don't try and describe what I was doing, because all of that I intend to just completely rewrite.
 
@@ -100,7 +100,7 @@ So that's very interesting. That now comes into the conversation that Adam was g
 
 **Jerod Santo:** Sure.
 
-**Adam Stacoviak:** It comes down to knowing how Git works, and knowing that and being comfortable. Because if you have a scalpel and you don't know it's sharp, you can cut somebody, right? You're still holding the same object. It could be a \[unintelligible 00:21:13.07\] but if you don't know how sharp it is, then you can still do some damage.
+**Adam Stacoviak:** It comes down to knowing how Git works, and knowing that and being comfortable. Because if you have a scalpel and you don't know it's sharp, you can cut somebody, right? You're still holding the same object. It could be a dull scalpal it could be a sharp one but if you don't know how sharp it is, then you can still do some damage.
 
 **Annie Sexton:** Right.
 
@@ -138,7 +138,7 @@ But once you get to the point where you've done all of that, you've done all you
 
 So we talked about moving our assets to S3, that's pull request \#400... And what this pull request has is an opening commit and comment from Jerod saying kind of what we're doing with this pull request, stating the case. And then along the way you see -- and because I know Gerhard and Jerod did not use your Git flow, I know that these are atomic commits in the, I guess, normal fashion Jerod had mentioned in part one. So what you see here is you see a collaboration between Gerhard adding commits that add Crossplane features to our Linode provider, and then all down the line; you see different comments and commits, you see Jerod's atomic commits on dropping Waffle to replace Ark, and a bunch of other stuff that essentially make us move our local assets from a disk at Linode to S3.
 
-And what I'm curious of, since I know that \[unintelligible 00:29:16.01\] and we talk about collaboration with the pull requests, because in a lot of cases you do have a lot of collaboration. Sometimes they're single individuals committing and it's just a review; so it might be you committing a feature and your teammates coming on, and you wanna organize things so it's easier for them to do the review, because that's never fund to do, organize a review...
+And what I'm curious of, since I know that it nulls your flow, and we talk about collaboration with the pull requests, because in a lot of cases you do have a lot of collaboration. Sometimes they're single individuals committing and it's just a review; so it might be you committing a feature and your teammates coming on, and you wanna organize things so it's easier for them to do the review, because that's never fund to do, organize a review...
 
 So how does collaboration happen? So if this is an example of non-Annie workflow, if we can call it that, let's just say... If we know it's not that, how do we then collaborate in your style? How does it change?
 
@@ -180,7 +180,7 @@ So a lot of people have brought up "You can use rebasing as an alternative", and
 
 **Adam Stacoviak:** \[35:49\] Well, I might be upset, but if you know your Git, then maybe there is no tantrum. It's just more like a blip of cognitive shift to get my Git right, and then get back to my -- I'm gonna just keep saying Git... I'm gonna get my Git stuff back in order.
 
-But I think what I would do then is if I've got some -- let's just say I've got my own WIPs locally... If I know she's got a forced out there and I've gotta essentially consume what she's got because I'm out of sync, I would probably maybe keep my work in progress commits... I essentially wanna rebase her branch. I wanna have my changes in place; probably commit all my changes, even WIPs \[unintelligible 00:36:31.27\] get all my stuff staged actually in my commit log, and then I wanna rebase that branch back locally, all my changes back onto hers. That's essentially how you deal with a forced, right?
+But I think what I would do then is if I've got some -- let's just say I've got my own WIPs locally... If I know she's got a forced out there and I've gotta essentially consume what she's got because I'm out of sync, I would probably maybe keep my work in progress commits... I essentially wanna rebase her branch. I wanna have my changes in place; probably commit all my changes, even WIPs or actual messages, get all my stuff staged actually in my commit log, and then I wanna rebase that branch back locally, all my changes back onto hers. That's essentially how you deal with a forced, right?
 
 **Annie Sexton:** Yeah.
 
@@ -220,7 +220,7 @@ But I think what I would do then is if I've got some -- let's just say I've got 
 
 **Adam Stacoviak:** That's right.
 
-**Jerod Santo:** So most of the collaboration that I do on small teams - our teams are like one, two, sometimes three people. And I know there's people that work on larger teams and collaboration is harder amongst more people, so I'm not sure how those processes scale... But most of what we do is tag team. So it's kind of like I do some commits, the pull request is open or something, and we talk about it, and then it's kind of like "tag your it", and so now here comes \[unintelligible 00:40:01.01\] another collaborator of ours. He did a lot of the UI of things that I would build the backend for, to create a full-stack developer between the two of us... And it's like, "Hey, your turn. Let me know when you're done doing some stuff." And then he works on that same branch for a while, and then he says "Passing it back to you", and then I pull, and work...
+**Jerod Santo:** So most of the collaboration that I do on small teams - our teams are like one, two, sometimes three people. And I know there's people that work on larger teams and collaboration is harder amongst more people, so I'm not sure how those processes scale... But most of what we do is tag team. So it's kind of like I do some commits, the pull request is open or something, and we talk about it, and then it's kind of like "tag your it", and so now here comes Cody is another collaborator of ours. He did a lot of the UI of things that I would build the backend for, to create a full-stack developer between the two of us... And it's like, "Hey, your turn. Let me know when you're done doing some stuff." And then he works on that same branch for a while, and then he says "Passing it back to you", and then I pull, and work...
 
 \[40:22\] That's how a lot of my collaboration has been, is kind of just like pass the baton, more so than like we're both working simultaneously on the same feature. So I think in that way, one branch makes a lot of sense. But if you're simultaneously collaborating on a feature, maybe different files, but you're not passing the feature back and forth - I could see where two branches, or N branches for that many collaborators is a better flow.
 
@@ -242,7 +242,7 @@ So that has been what collaboration has looked like in the past for me. I actual
 
 **Adam Stacoviak:** Back to the flexibility of Git though - I think that's what makes it so cool, that it is so flexible... Back to your example, Annie, between React and Rails. You know, there's just so much you could do with it, and so I think that's why it's such a good fit and why it's actually lasted so long. Like, why it won and why it's lasted, despite reset seeming scary because of what it actually names, or the way you would delete a branch to a remote repository by pushing, and despite the odd API sometimes with Git, and some of the scary innards, it's so flexible. It lets you and your team work the way you want, other teams work the way they want. It's really about leveraging its tooling inside of Git to work the way you need to for a team to collaborate in the way that it actually works out on GitHub itself.
 
-**Annie Sexton:** Totally. And I would say that one of the benefits of having a lot of different ways to achieve the same objective in Git is that it also means that if you screw up, there's a lot of different ways of fixing it. And that's really nice. So there's a huge relief when you start to learn more about Git, and find that it's really not as scary... It definitely can seem scary, but the complexity is really beneficial when you realize that a lot of these things are \[unintelligible 00:44:56.18\] as long as you know how or you have somebody who can help you.
+**Annie Sexton:** Totally. And I would say that one of the benefits of having a lot of different ways to achieve the same objective in Git is that it also means that if you screw up, there's a lot of different ways of fixing it. And that's really nice. So there's a huge relief when you start to learn more about Git, and find that it's really not as scary... It definitely can seem scary, but the complexity is really beneficial when you realize that a lot of these things are salvageable as long as you know how or you have somebody who can help you.
 
 **Break:** \[45:02\]
 
@@ -300,7 +300,7 @@ So from your perspective then, what you're saying is when you work it's just eas
 
 **Jerod Santo:** So what's the time span at which you are doing this, and at what frequency? Because at a certain degree, if you're literally just WIPping in order to have a backup for something, you're basically just hitting the Save button again in Git, which means you really don't trust your SSD... Which is fair, I think. But is this over the course of hours, days, weeks, months?
 
-**Annie Sexton:** Usually hours. Definitely at the end of the day, at the very least, so I can push up to my \[unintelligible 00:57:04.08\] because I don't wanna lose any changes... But it's really whenever I remember. But because it's all gonna get rewritten, it doesn't really matter how frequently I do it, as long as it's at least at the end of the day. But it's really just for saving your work at that point, if you're doing it in the method that I've described.
+**Annie Sexton:** Usually hours. Definitely at the end of the day, at the very least, so I can push up to my future branch because I don't wanna lose any changes... But it's really whenever I remember. But because it's all gonna get rewritten, it doesn't really matter how frequently I do it, as long as it's at least at the end of the day. But it's really just for saving your work at that point, if you're doing it in the method that I've described.
 
 **Jerod Santo:** Right. You can actually write a watcher to do that for you.
 
@@ -372,7 +372,7 @@ So from your perspective then, what you're saying is when you work it's just eas
 
 **Annie Sexton:** I don't know. I'm mostly familiar with relying more on VS Code for knowing what to stage and what not to stage, because it's a lot easier to be specific about which files -- especially, if you're doing this process where you're only staging some of them, and not all of them. So I'm not sure.
 
-**Adam Stacoviak:** I wasn't sure what your flow was particularly because that's how I tend to use VS Code; I'm usually a command line junkie with Git, unless I'm already in that visual mode and I've got my commit sitting here \[unintelligible 01:00:45.01\] on these two files and just commit them right there, because I happen to be there. Now, I also use Sublime Text, I occasionally use Vim, too... But most of the time I'm doing commits into a repository it's been VS Code primarily.
+**Adam Stacoviak:** I wasn't sure what your flow was particularly because that's how I tend to use VS Code; I'm usually a command line junkie with Git, unless I'm already in that visual mode and I've got my commit sitting here unstaged might as well hit the plus button on these two files and just commit them right there, because I happen to be there. Now, I also use Sublime Text, I occasionally use Vim, too... But most of the time I'm doing commits into a repository it's been VS Code primarily.
 
 **Jerod Santo:** Early Google search says you need the Git Graph extension for this in VS Code... But that's also 18 months old, so who knows; they could have brought it into the main editor.
 
@@ -446,7 +446,7 @@ So from your perspective then, what you're saying is when you work it's just eas
 
 **Adam Stacoviak:** I know--
 
-**Jerod Santo:** I was drawing some lines here and I'm wondering \[unintelligible 01:05:49.07\]
+**Jerod Santo:** I was drawing some lines here and I'm wondering where you're trying to go with this
 
 **Annie Sexton:** I am the Joker, I am the Joker. \[laughter\]
 
@@ -458,7 +458,7 @@ So from your perspective then, what you're saying is when you work it's just eas
 
 **Adam Stacoviak:** It's a point of empathy, it really is... Because there's no one way to roam, and obviously, Git can be a divisive kind of conversation, because people have feelings and emotions around their ways and their things... I think it just provides that point of empathy, for real.
 
-**Annie Sexton:** Yeah. And I think that it doesn't need to be a point of tension, because -- especially with the things that I've outlined... If you have your own feature branch and it's just you, and it's how you manage your local commits, it ain't nobody's business how you do that, and how you deal with it. It really isn't. It's whatever works for you. And I see a lot of value in how other people have described how they \[unintelligible 01:06:40.04\] and I think that's fantastic. And I don't think it needs -- to me, there doesn't need to be a fight about it. At the end of the day, it's just whatever works for you... And I think it's awesome that Git can accommodate so many different ways of approaching this.
+**Annie Sexton:** Yeah. And I think that it doesn't need to be a point of tension, because -- especially with the things that I've outlined... If you have your own feature branch and it's just you, and it's how you manage your local commits, it ain't nobody's business how you do that, and how you deal with it. It really isn't. It's whatever works for you. And I see a lot of value in how other people have described how they managed to get through rebasing and I think that's fantastic. And I don't think it needs -- to me, there doesn't need to be a fight about it. At the end of the day, it's just whatever works for you... And I think it's awesome that Git can accommodate so many different ways of approaching this.
 
 **Adam Stacoviak:** Let me ask you this - do you think Render has less customers because of the way you commit your code, or more customers? They don't even know, is the answer. They don't even know. They still love the platform...
 
@@ -478,7 +478,7 @@ So from your perspective then, what you're saying is when you work it's just eas
 
 **Adam Stacoviak:** Any advice for those out there following along? Any final words of wisdom?
 
-**Annie Sexton:** I would say don't let the imposter syndrome get to you too much. I think that's really what drives a lot of people's strong opinions; if you were maybe taught a certain way, and when you were learning early on that you're supposed to do it this way, and that was something that you struggled with, then \[unintelligible 01:08:15.23\] contributed to some amount of imposter syndrome. But the reality is there's a lot of different ways of accomplishing the same thing. This goes for beyond Git, just in development in general. The more we are curious about how other people approach the same problems, the more we can learn, and I think it's a lot better for the community if we approach these conversations through a lens of curiosity, rather than trying to find the right answer.
+**Annie Sexton:** I would say don't let the imposter syndrome get to you too much. I think that's really what drives a lot of people's strong opinions; if you were maybe taught a certain way, and when you were learning early on that you're supposed to do it this way, and that was something that you struggled with, then that history may have contributed to some amount of imposter syndrome. But the reality is there's a lot of different ways of accomplishing the same thing. This goes for beyond Git, just in development in general. The more we are curious about how other people approach the same problems, the more we can learn, and I think it's a lot better for the community if we approach these conversations through a lens of curiosity, rather than trying to find the right answer.
 
 **Adam Stacoviak:** I agree. For the curious! Thank you, Annie. It's been awesome.
 
