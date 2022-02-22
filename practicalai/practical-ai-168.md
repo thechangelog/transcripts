@@ -14,7 +14,7 @@
 
 **Chris Benson:** It is. It has to be. I'm going to be worried if it isn't, okay?
 
-**Daniel Whitenack:** \[00:04:06.01\] Yeah. So I do listen to some of our episodes where I am on it, and obviously, I'm part of the conversation, so I remember what's going on, but I gain a lot out of these podcast episodes... And actually, I just had a conversation with someone and they were asking me, "With doing the podcast and interacting with all sorts of AI people across industry, how has it shifted some of how you think about AI or the industry?" I thought that was a really interesting question. I don't know how you'd answer that, Chris. I think I said something like, "It's encouraging to learn from so many people that have really deep knowledge in different areas, but it sort of also reinforces that idea that everyone, even though they might seem like an expert in all areas - and there are some people like that, but most people have a very deep knowledge in a certain area."
+**Daniel Whitenack:** \[04:06\] Yeah. So I do listen to some of our episodes where I am on it, and obviously, I'm part of the conversation, so I remember what's going on, but I gain a lot out of these podcast episodes... And actually, I just had a conversation with someone and they were asking me, "With doing the podcast and interacting with all sorts of AI people across industry, how has it shifted some of how you think about AI or the industry?" I thought that was a really interesting question. I don't know how you'd answer that, Chris. I think I said something like, "It's encouraging to learn from so many people that have really deep knowledge in different areas, but it sort of also reinforces that idea that everyone, even though they might seem like an expert in all areas - and there are some people like that, but most people have a very deep knowledge in a certain area."
 
 **Chris Benson:** Yes.
 
@@ -30,7 +30,7 @@ And then the other thing that I would notice - and I think it would be the same,
 
 **Daniel Whitenack:** And ethics thing and--
 
-**Chris Benson:** \[00:07:54.05\] Ethics things, which are huge. These are big, big parts of not only the industry, but it affects everybody now. So it's a very cool time to be alive and participating in things. I know a lot of people focus on all the negatives in the world... And there are many. We are in the middle and maybe approaching the end - we'll have to see - of a global pandemic. We've had all sorts of crazy politics in recent years, lots of challenges. My daughter was asking me the other day, "What historical period would you choose to be a part of?" and I said, "This is it. We're living it. This is a cool moment." And someday this is going to evolve. We'll have things like quantum AI, eventually. I don't think we're there yet, but it will happen someday. So yeah, pretty cool.
+**Chris Benson:** \[07:54\] Ethics things, which are huge. These are big, big parts of not only the industry, but it affects everybody now. So it's a very cool time to be alive and participating in things. I know a lot of people focus on all the negatives in the world... And there are many. We are in the middle and maybe approaching the end - we'll have to see - of a global pandemic. We've had all sorts of crazy politics in recent years, lots of challenges. My daughter was asking me the other day, "What historical period would you choose to be a part of?" and I said, "This is it. We're living it. This is a cool moment." And someday this is going to evolve. We'll have things like quantum AI, eventually. I don't think we're there yet, but it will happen someday. So yeah, pretty cool.
 
 **Daniel Whitenack:** Yeah, yeah. Well, I mean, I guess on that note with the theme of health things and trending news and all that, I know -- just to get into some of the AI news things that happened in recent times, both you and I kind of sent each other the same link, I know--
 
@@ -50,7 +50,7 @@ And then the other thing that I would notice - and I think it would be the same,
 
 **Daniel Whitenack:** So yeah, maybe a side outcome of this work is nutrients for vegans.
 
-**Chris Benson:** \[00:12:08.15\] There're so many things in medicine and nutrition and stuff that this could help.
+**Chris Benson:** \[12:08\] There're so many things in medicine and nutrition and stuff that this could help.
 
 **Daniel Whitenack:** Yeah. It's very interesting how computers doing this task are working with expert biologists and chemists and drug developers to produce things much quicker than they could otherwise, which brings up all sorts of -- I think it is a really good example of humans and machines working together very closely, with a lot of benefit... Because no one would want your machine to combine a bunch of things together virtually and say, "Here's the vaccine", and then they just go out and produce it, and that's that. There has to be a human element in this process still. And my understanding is the machine learning model is doing a lot of this brute-force stuff that was very time-consuming before with previous software products. So it kind of directly predicts complexes that will form when two proteins bind together.
 
@@ -68,7 +68,7 @@ And then the other thing that I would notice - and I think it would be the same,
 
 **Chris Benson:** Yeah. And there's a lot of variability, and there can be so many combinations; I'm assuming millions. I'm not going to speculate. One of the co-authors - and I'm going to butcher his name - Octavian-Eugen Ganea, maybe. I hope. And if I have mispronounced your name, sir, I sincerely apologize on that... But he made the comment, "Deep learning is very good at capturing interactions between different proteins that are otherwise difficult for chemists or biologists to write experimentally. And some of those interactions are very complicated, and people have not found good ways to express them, so the deep learning model can learn these types of interactions from the data." So a classic deep learning task, just not one that those of us not in chemistry might not have thought about previously.
 
-**Break:** \[00:14:56.17\]
+**Break:** \[14:56\]
 
 **Daniel Whitenack:** I also noticed, Chris, that some of what was done with this protein attaching model thing had to do with very interesting data structures and how they're processed into the neural network, where here we have 3D structures, these 3D protein structures, and from what I'm understanding here, they convert those 3D protein structures into 3D graphs, which are processed by the neural network. And of course, that also fits a theme that we've been seeing in really the past year and a half or more, where people are really exploring graphed structured data and putting in graphed structured data into neural networks in very interesting ways.
 
@@ -80,7 +80,7 @@ So a different type of data was used here, which is pretty interesting. That, I 
 
 **Chris Benson:** Okay.
 
-**Daniel Whitenack:** \[00:19:46.11\] But whatever data we put in, we're going to create a model that is trained to represent that in a learned vector space... Hence the name, data2vec. So moving from thinking about a single modality of data input to a model that can take one or two or three or a combination of data inputs and represent that in a vector space. So that's why I thought this was pretty interesting.
+**Daniel Whitenack:** \[19:46\] But whatever data we put in, we're going to create a model that is trained to represent that in a learned vector space... Hence the name, data2vec. So moving from thinking about a single modality of data input to a model that can take one or two or three or a combination of data inputs and represent that in a vector space. So that's why I thought this was pretty interesting.
 
 **Chris Benson:** It does sound interesting. Did you get any sense of why the modality was no longer a critical part of the pattern, or any sense of how they've overcome that approach in this?
 
@@ -102,7 +102,7 @@ They show certain benchmarks where they beat other models or other image2vec or 
 
 **Chris Benson:** That is pretty cool. One of the articles that I came across, I've been -- actually, several articles - \[unintelligible 00:23:24.17\] I've been very interested lately in AI and its interface with robotics. And once upon a time at a previous employer I was doing that exclusively for a while... And so I ran across this article, it was in Science Daily, called Robot Performs First Laparoscopic Surgery Without Human Help. And it's actually referencing a paper by John Hopkins University that was very recent, January 26, which had a similarly named "A Robot Has Performed Laparoscopic - I'm probably butchering the name - Surgery on Soft Tissue of a Pig Without the Guiding Hand of a Human. A Significant Step in Robotics Toward Fully Automated Surgery on Humans."
 
-\[00:24:06.02\] That's pretty cool, because when you think of what's called keyhole surgery, where they make a very small incision, and it goes in... The laparoscopic surgery is on the gut. So when you think of all of the various ailments that humans, and for that matter, animals get - all mammals in their gut - anything from cancer to various digestive problems... And we've come far enough in such a short amount of time, so that they can put the robot to work and it makes the cut, it goes in, it does the work it has to do, mends, sows it back together, things like that, and pulls out.
+\[24:06\] That's pretty cool, because when you think of what's called keyhole surgery, where they make a very small incision, and it goes in... The laparoscopic surgery is on the gut. So when you think of all of the various ailments that humans, and for that matter, animals get - all mammals in their gut - anything from cancer to various digestive problems... And we've come far enough in such a short amount of time, so that they can put the robot to work and it makes the cut, it goes in, it does the work it has to do, mends, sows it back together, things like that, and pulls out.
 
 And we've been talking, in recent years, about human surgeons doing these surgeries with the assistance of robots and the assistance of AI. But now we're looking at this, making this next jump where you're taking that human surgeon out of the loop, at least in this test case, and the AI combined with the robot are successfully doing it on their own. What do you think of that?
 
@@ -128,7 +128,7 @@ There was a DARPA program a year and a half probably, maybe two years - I think 
 
 **Chris Benson:** That's a great point.
 
-**Daniel Whitenack:** \[00:28:08.29\] The idea of control and the distribution of inputs and outputs is not something that's obvious to general people out there. And I don't know how to better communicate that as practitioners, but the things that we're doing are, for the most part, very task-specific.
+**Daniel Whitenack:** \[28:08\] The idea of control and the distribution of inputs and outputs is not something that's obvious to general people out there. And I don't know how to better communicate that as practitioners, but the things that we're doing are, for the most part, very task-specific.
 
 **Chris Benson:** Very narrow.
 
@@ -150,7 +150,7 @@ So I think when people focus on the intelligent side, they are missing the boat 
 
 **Chris Benson:** That's where I was going to go next. Keep going.
 
-**Daniel Whitenack:** \[00:31:44.12\] Yeah. I think what's weird is somehow there's the mix of using the terminology "artificial intelligence" to describe what's going on here, which triggers the wrong thing in people's mind in terms of how they define intelligence. So yeah, I think it's just a lot of confusion, which probably feeds into that sort of narrow versus wide perception that you brought up earlier.
+**Daniel Whitenack:** \[31:44\] Yeah. I think what's weird is somehow there's the mix of using the terminology "artificial intelligence" to describe what's going on here, which triggers the wrong thing in people's mind in terms of how they define intelligence. So yeah, I think it's just a lot of confusion, which probably feeds into that sort of narrow versus wide perception that you brought up earlier.
 
 **Chris Benson:** It's very imprecise, the phrase. So except for the name of our podcast, which is perfect, the term artificial intelligence is otherwise a very, very nebulous and imprecise way of describing it. And as we see, as you've just pointed out, it's changing constantly. And as practitioners, we're not spending our time thinking AI in this big nebula -- we're looking today at specific deep learning algorithms and approaches to training and implementation, and it's very narrow, and I don't think most of us spend much time thinking about it the same way that untrained people in the general population probably perceive it as. And so it is very practical. It is very pragmatic what we're doing, but I think a lot of people miss that. And we've just demonstrated, going to how to define intelligence, that now that the surgery is done, neither one of us -- we're both in agreement that that isn't what we think of as intelligence. And I think that's because people conflate several ideas together, which is consciousness, intelligence, self-awareness.
 
@@ -192,7 +192,7 @@ So I think when people focus on the intelligent side, they are missing the boat 
 
 **Daniel Whitenack:** Because it's competitive, it's like -- anyway, that's a total rabbit trail. But despite that, there's this set of tasks and they ran AlphaCode through its paces on these competitive coding tasks, and determined that... I don't think they're saying that it is vastly better than the human coders, but I think they're saying it's as good. That's their conclusion - as good, and in some cases, better. And you can go and look at the example of challenges that they have, and they're definitely not -- you know, I would not consider them easy challenges.
 
-**Chris Benson:** \[00:36:27.16\] No. I was looking at those in this article that you've passed me; they are not. As we record this in early 2022, you raised that as good, but it probably will be going forward, and surpass. And it really draws out the fact that if you can take a task and break it down into a repetitive pattern, there's a pretty good chance that there is a narrow, deep learning algorithm which can learn it, eventually, better than a human expert can. It's an interesting world that we're moving into, Daniel Whitenack.
+**Chris Benson:** \[36:27\] No. I was looking at those in this article that you've passed me; they are not. As we record this in early 2022, you raised that as good, but it probably will be going forward, and surpass. And it really draws out the fact that if you can take a task and break it down into a repetitive pattern, there's a pretty good chance that there is a narrow, deep learning algorithm which can learn it, eventually, better than a human expert can. It's an interesting world that we're moving into, Daniel Whitenack.
 
 **Daniel Whitenack:** Yeah. Yeah, for sure. And it's sort of that line... I view it as like -- people have known this for a long time, that there are a repetitive coding tasks, which is why code generation exists.
 
@@ -224,7 +224,7 @@ So I think when people focus on the intelligent side, they are missing the boat 
 
 **Daniel Whitenack:** Yeah. As soon as we can generate a next reasonable script for the Lord of the Rings, then--
 
-**Chris Benson:** \[00:40:02.16\] Oh, boy.
+**Chris Benson:** \[40:02\] Oh, boy.
 
 **Daniel Whitenack:** ...we can probably do a pretty good job right now, but still, I think, lacking. But yeah.
 
