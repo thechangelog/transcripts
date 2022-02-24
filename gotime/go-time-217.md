@@ -4,15 +4,15 @@ In fact, we've got a new rule - if they are mentioned by anyone, even accidental
 
 **Daniel Martí:** Hello. Nice to be back, and nice to bring my technical problems along with me.
 
-**Mat Ryer:** \[laughs\] Your technical problems are, like you, always welcome, Daniel. Daniel's been using and contributing to Go for quite a few years now, and you've actually written a few tools as well, like the stricter gofmt, and what could be described as the opposite, a Go code obfuscator. They're interesting tools, Daniel... How is the gofmt more strict?
+**Mat Ryer:** \[laughs\] Your technical problems are, like you, always welcome, Daniel. Daniel's been using and contributing to Go for quite a few years now, and you've actually written a few tools as well, like the stricter `go fmt`, and what could be described as the opposite, a Go code obfuscator. They're interesting tools, Daniel... How is the `go fmt` more strict?
 
 **Daniel Martí:** It essentially restricts how you can write and format code in a few extra ways. For example, no empty lines at the start of the function body. Things that I generally do.
 
-**Mat Ryer:** Cool. Okay, we'll put a link to that in the show notes, if anyone likes -- I like the fact we have gofmt, and I like the idea of a more strict one. Oh, Daniel, do you pinky-promise you're not gonna talk about those two other subjects today?
+**Mat Ryer:** Cool. Okay, we'll put a link to that in the show notes, if anyone likes -- I like the fact we have `go fmt`, and I like the idea of a more strict one. Oh, Daniel, do you pinky-promise you're not gonna talk about those two other subjects today?
 
 **Daniel Martí:** Pinky-promise!
 
-**Mat Ryer:** \[00:04:03.10\] Okay, Daniel's pinky-promised. Okay. This is really professional. Okay, we've also -- you're not gonna believe this, Daniel... You will believe it; you already know. But imagine if you didn't... We've also got Michael Matloob with us. Hello, Michael. Welcome to Go Time.
+**Mat Ryer:** \[04:03\] Okay, Daniel's pinky-promised. Okay. This is really professional. Okay, we've also -- you're not gonna believe this, Daniel... You will believe it; you already know. But imagine if you didn't... We've also got Michael Matloob with us. Hello, Michael. Welcome to Go Time.
 
 **Michael Matloob:** Hi! Great to be here.
 
@@ -34,7 +34,7 @@ In fact, we've got a new rule - if they are mentioned by anyone, even accidental
 
 **Mat Ryer:** Yeah. I see. By the way, just mentioning another taboo subject doesn't cancel out the other one. You're just compounding your crimes. I asked Daniel and Michael to find a list of the things that they're sort of excited about, or interested in, that we can go through and talk about... And obviously, Michael worked on module workspaces as well, so we'll carve some time out at the end to talk about that in particular. But Daniel, maybe you could kick us off... There's a really interesting one that to me seemed like a silly, unnecessary helped, but it turns out to be actually quite worthy. That was strings.cut. Could you tell us about that?
 
-**Daniel Martí:** Yeah, so I think anybody who's written any non-trivial amount of code knows that they have to deal with strings, they have to add strings, look at prefixes and suffixes and so on, and one quite common operation is wanting to cut a string in two. For example, maybe you've got a domain name and you want the actual name and the extension. Or maybe you've got a file name and you \[unintelligible 00:06:38.14\] that kind of thing. You can use Go APIs like strings.index, or there's also strings that split n, and you can give it the number 2. So like "split this string in up to two pieces." But these APIs are not super-easy to use. For example, if you use index, it may give you -1, and if you don't check for that, that might panic. And split has the same issue, because it gives you a slice. You could say cut has less sharp edges, so it only gives you two strings for the two sides, and a boolean telling you whether or not it's successfully cut.
+**Daniel Martí:** Yeah, so I think anybody who's written any non-trivial amount of code knows that they have to deal with strings, they have to add strings, look at prefixes and suffixes and so on, and one quite common operation is wanting to cut a string in two. For example, maybe you've got a domain name and you want the actual name and the extension. Or maybe you've got a file name and you \[unintelligible 00:06:38.14\] that kind of thing. You can use Go APIs like strings.index, or there's also strings that split N, and you can give it the number 2. So like "split this string in up to two pieces." But these APIs are not super-easy to use. For example, if you use index, it may give you -1, and if you don't check for that, that might panic. And split has the same issue, because it gives you a slice. You could say cut has less sharp edges, so it only gives you two strings for the two sides, and a boolean telling you whether or not it's successfully cut.
 
 **Mat Ryer:** Yeah, that's nice. So if say you were cutting on a colon and there wasn't a colon in there, it wouldn't be in any way like a panic or a problem. You'd just get a false as the second argument.
 
@@ -46,7 +46,7 @@ In fact, we've got a new rule - if they are mentioned by anyone, even accidental
 
 **Mat Ryer:** Yeah. I thought this was like an unnecessary helped, because whenever you can already do something, that's usually my preferred way. I looked at some of the commentary on this one, and the number of cases where people are basically doing the same operation over and over again is kind of everywhere. And including some places where we've done it incorrectly, or in a way that would panic if it got some bad input, or something.
 
-\[00:08:05.10\] If there was some testing tool that helped you test out all these different possible ways of responding to input, that'd be great; but not on this episode there isn't. But yeah, okay... So strings.cut, and that's coming in Go 1.18. Okay, Daniel, have you got another one for us?
+\[08:05\] If there was some testing tool that helped you test out all these different possible ways of responding to input, that'd be great; but not on this episode there isn't. But yeah, okay... So strings.cut, and that's coming in Go 1.18. Okay, Daniel, have you got another one for us?
 
 **Daniel Martí:** So I've got another one that's significantly more complex than strings.cut, and I believe it was developed by the people at Tailscale over a few years. It's essentially a replacement for the net.ip type. Right now, IP addresses in Go - they're represented as a byte slice. So you can think of a byte slice that can have many lengths. So an IPv4 is gonna be shorter than an IPv6, for example... And they designed a new IP package which they've called netaddr, but now it's being merged as net.ip. So it's /netip, and it's got a bunch of advantages, mostly related around performance, but the two main properties that it has as part of its design, which is "do not use a slice", essentially... One, it's comparable, so you cannot compare slices; you can only compare them to nil. And the other one is that it doesn't allocate. So you can create a new IP without calling make, or new, or anything like that, because I think it's backed by what is essentially a bunch of integers.
 
@@ -70,7 +70,7 @@ But with that promise, of course, your hands get tied. So this is kind of a nice
 
 **Mat Ryer:** Hm...
 
-**Michael Matloob:** \[00:11:49.25\] Both of these have a similar core motivation, which is like to improve visibility into binaries and which packages they were built on, so you can determine, say, if binaries were built with certain commits of code, in the case of vcs build stamping, because the main module may not have a version associated with it, and in the case of a buildinfo of dependencies.
+**Michael Matloob:** \[11:49\] Both of these have a similar core motivation, which is like to improve visibility into binaries and which packages they were built on, so you can determine, say, if binaries were built with certain commits of code, in the case of vcs build stamping, because the main module may not have a version associated with it, and in the case of a buildinfo of dependencies.
 
 This is shaping up to be a big thing in these days, to know whether your dependencies and the code they are built with have bugs or bad features in them, and if the code that you're running with is safe, and to audit everything properly. We've seen several cases of bad libraries in the wild, and people have to quickly audit if all their code running in production is safe or not.
 
@@ -116,7 +116,7 @@ And yeah, before we had to use either build tags or do something else funky to g
 
 **Michael Matloob:** Oh, so the buildinfo includes that, the hash. There we go, okay.
 
-**Daniel Martí:** \[00:16:03.11\] And I think the vcs stamping is also a bit confusing to end users, because you tell them "Go 1.18 now stamps vcs buildinfo", but they might say "If I go install a Go main package that I run Go version -m with Go 1.17, \[unintelligible 00:16:14.22\] module version, right?" But where that doesn't work is if instead of doing a global Git install via a module path, if you Git clone and then go build or go install locally from that Git clone, Go doesn't know what module version that is; it just has a Git clone. It's not resolving that module through the whole proxy system that tells it what version it is. In Go 1.17 it tells you version \[unintelligible 00:16:38.00\] has no idea. In Go 1.18 it will add some extra, separate metadata that will say "Hey, this was built from Git hash blah-blah-blah, date blah-blah-blah", and so on.
+**Daniel Martí:** \[16:03\] And I think the vcs stamping is also a bit confusing to end users, because you tell them "Go 1.18 now stamps vcs buildinfo", but they might say "If I go install a Go main package that I run Go version -m with Go 1.17, \[unintelligible 00:16:14.22\] module version, right?" But where that doesn't work is if instead of doing a global Git install via a module path, if you Git clone and then go build or go install locally from that Git clone, Go doesn't know what module version that is; it just has a Git clone. It's not resolving that module through the whole proxy system that tells it what version it is. In Go 1.17 it tells you version \[unintelligible 00:16:38.00\] has no idea. In Go 1.18 it will add some extra, separate metadata that will say "Hey, this was built from Git hash blah-blah-blah, date blah-blah-blah", and so on.
 
 **Mat Ryer:** Oh, right. Okay. Daniel, your turn to pick one from the list. What else is cool coming in Go 1.18? By the way, do you say one eighteen, one dot one eight, one point eighteen...? How do you say it?
 
@@ -134,13 +134,13 @@ And yeah, before we had to use either build tags or do something else funky to g
 
 **Mat Ryer:** I think for just that release. No, you can't, can you? No, because that's what I mean, it's not decimal. That's it, yeah. Yeah, we got there in the end.
 
-**Daniel Martí:** So another feature... I mean, it's maybe a bit cheeky that I bring this up, because I worked on this... But gofmt without a space now formats files in parallel. So up until we had -- well, you have two tools, which is also confusing. You have gofmt without a space, and then you have go fmt.
+**Daniel Martí:** So another feature... I mean, it's maybe a bit cheeky that I bring this up, because I worked on this... But `go fmt` without a space now formats files in parallel. So up until we had -- well, you have two tools, which is also confusing. You have `go fmt` without a space, and then you have go fmt.
 
-**Mat Ryer:** Yeah, it's ironic that the gofmt tool can be called in different ways just by changing the formatting... Yeah.
+**Mat Ryer:** Yeah, it's ironic that the `go fmt` tool can be called in different ways just by changing the formatting... Yeah.
 
-**Daniel Martí:** Oh, God... The difference between the two tools - and I think it also confuses a bunch of users - is that without a space it takes files and directories, but it doesn't know what packages are... And with a space, it takes the package pattern. So you can give it \[unintelligible 00:18:15.04\] for example. And the one that works on packages has always been relatively well parallelized, because what it does is I believe it formats each package in parallel, or something like that, but the one that takes directories and files - it would just do one at a time. And now we've essentially removed the parallelism from the one with the space, and just made both tools use the same kind of parallelism, which is gofmt (without a space), when you give it a bunch of files to format, it's just gonna figure out how to format them as fast as possible.
+**Daniel Martí:** Oh, God... The difference between the two tools - and I think it also confuses a bunch of users - is that without a space it takes files and directories, but it doesn't know what packages are... And with a space, it takes the package pattern. So you can give it \[unintelligible 00:18:15.04\] for example. And the one that works on packages has always been relatively well parallelized, because what it does is I believe it formats each package in parallel, or something like that, but the one that takes directories and files - it would just do one at a time. And now we've essentially removed the parallelism from the one with the space, and just made both tools use the same kind of parallelism, which is `go fmt` (without a space), when you give it a bunch of files to format, it's just gonna figure out how to format them as fast as possible.
 
-**Mat Ryer:** That's cool. Does gofmt work only within the context of a file at a time then? Like, it doesn't need to know anything else about types, and things, because it's just doing formatting tasks?
+**Mat Ryer:** That's cool. Does `go fmt` work only within the context of a file at a time then? Like, it doesn't need to know anything else about types, and things, because it's just doing formatting tasks?
 
 **Daniel Martí:** Yeah, that's correct.
 
@@ -150,7 +150,7 @@ And yeah, before we had to use either build tags or do something else funky to g
 
 **Mat Ryer:** Oh, that's really cool. That's a surprise. I would not have expected it to be doing that... But it's nice to know that that's measured and done properly. That's very cool. Have you used this then? Did you really notice this in practice, the speed improvements?
 
-**Daniel Martí:** \[00:19:59.22\] I think it depends on what people do. I think many people use the tool that works on packages, and then they just format their packages... But I like using the one with directories. So I go to the root of my repository and I just tell it "format everything", including test files, including everything. And because I did that, it was really slow before. So now, depending on your machine, it's usually about 3-4 times as fast. So for me, for example formatting a large repo might go from like five seconds to two seconds, which is nice.
+**Daniel Martí:** \[19:59\] I think it depends on what people do. I think many people use the tool that works on packages, and then they just format their packages... But I like using the one with directories. So I go to the root of my repository and I just tell it "format everything", including test files, including everything. And because I did that, it was really slow before. So now, depending on your machine, it's usually about 3-4 times as fast. So for me, for example formatting a large repo might go from like five seconds to two seconds, which is nice.
 
 **Mat Ryer:** Hm... Matloob, do you format your code?
 
@@ -168,7 +168,7 @@ And yeah, before we had to use either build tags or do something else funky to g
 
 **Michael Matloob:** I don't think I've ever run either of the tools... Or I certainly haven't run either of the tools by hand in years; my editors are just set up to format files as I save them.
 
-**Mat Ryer:** Oh, yeah. I thought you were saying that you just write it in perfect gofmt way the first time.
+**Mat Ryer:** Oh, yeah. I thought you were saying that you just write it in perfect `go fmt` way the first time.
 
 **Michael Matloob:** Oh, no, no, I don't.
 
@@ -200,7 +200,7 @@ Okay, we've also got the pacer redesign in the garbage collector. That's interes
 
 It seems like the GC pacer was designed a while ago. For the purpose that it was designed, it was good, but over time it's accumulated a bunch of debt and a bunch of quirks... And they've sort of sat down and said "Okay, let's redesign it in a way that it does a lot better in these edge cases that we've found in production workloads, that the old one doesn't do very well in." And I think that's where I'm gonna leave it.
 
-**Mat Ryer:** \[00:24:16.15\] Oh, it's very exciting. I'm really interested whenever there are these kind of really low-level -- because it's funny, when you dig into these little subsystems, they're just like other types of programs. They are just doing the same things that we're doing in our programs, but it's such an interesting domain... It always makes it more interesting. I love the fact that as programmers we get this for free; people are doing this work for us to make these improvements... I didn't even know about a pacer, to be honest. So it's very nice to know that that's happening. What do you think about that, Michael? Do you know anything about this?
+**Mat Ryer:** \[24:16\] Oh, it's very exciting. I'm really interested whenever there are these kind of really low-level -- because it's funny, when you dig into these little subsystems, they're just like other types of programs. They are just doing the same things that we're doing in our programs, but it's such an interesting domain... It always makes it more interesting. I love the fact that as programmers we get this for free; people are doing this work for us to make these improvements... I didn't even know about a pacer, to be honest. So it's very nice to know that that's happening. What do you think about that, Michael? Do you know anything about this?
 
 **Michael Matloob:** No... I mean, I am not closely acquainted with it, but I think any runtime improvements are well-appreciated. Good work, team.
 
@@ -238,7 +238,7 @@ It seems like the GC pacer was designed a while ago. For the purpose that it was
 
 **Mat Ryer:** Yeah. It looks very well written. And we'll post the link to all of these in the show notes, so you'll be able to go and actually look at the original issues. And honestly, notice that some of these issues aren't created by members of the Go team, or even popular contributors like Daniel, who've contributed massively. Sometimes these come from just people in the community that have a problem that they wanna solve, or something they care about. So do get stuck in, basically, because you never know, you might get some improvements made, and that'd be great for everyone.
 
-**Break:** \[00:26:49.06\]
+**Break:** \[26:49\]
 
 **Mat Ryer:** Does anyone have the M1 chip? Apple's M1.
 
@@ -264,7 +264,7 @@ It seems like the GC pacer was designed a while ago. For the purpose that it was
 
 **Daniel Martí:** Yeah, so that's a good segue, because going from, for example, ARM-based machines, there's a lot of versions; if you have an old phone, I believe that's gonna be like ARM version 6. But later phones are gonna be ARM version 8 or 9, which is 64 bits. And if compile a binary that's targeting the lowest-possible denominator, the older version, it's not gonna run as fast as it could on a newer device. So Go has had a flag called -- I think it's called Go ARM64, and you tell if what version of the architecture your target machine supports, and then if you swap a 6 for a 9, it might run 10% faster, depending on what kind of code you're running. And x86-64, i.e. AMD64 desktop CPUs - they don't suffer from as much of the same problem, because they haven't had as many versions, with as many changes in the last decade or two... But you have had some changes.
 
-\[00:32:13.26\] And sort of marrying the same environment variable for ARM64, now we have Go AMD64, and it targets one of four versions. These are sort of standard versions between Intel and AMD, where roughly speaking I believe version 1 is like the common denominator; it's basically every single machine that's a valid AMD64. And then you've got version 2 for things that are starting in 2010 or so, version 3 staring in 2013-2014, and then version 4, which is I think AVX-512, which has mostly server computers or very new desktop computers.
+\[32:13\] And sort of marrying the same environment variable for ARM64, now we have Go AMD64, and it targets one of four versions. These are sort of standard versions between Intel and AMD, where roughly speaking I believe version 1 is like the common denominator; it's basically every single machine that's a valid AMD64. And then you've got version 2 for things that are starting in 2010 or so, version 3 staring in 2013-2014, and then version 4, which is I think AVX-512, which has mostly server computers or very new desktop computers.
 
 So if for example you knew you were targeting a cloud machine and you know the cloud machine has all these new instructions, you can swap from the older version 1 to version 3 or 4, and maybe you're gonna save 5% or 10% CPU cost, depending on what kind of code you're running.
 
@@ -288,7 +288,7 @@ So the break and continue - I guess they are quite simple then. So continue is g
 
 **Daniel Martí:** So you can think of templates as sort of scripts. I don't believe they let you run code forever... At least not that I can remember. But they do have a range statement, where you can say \[unintelligible 00:36:01.15\] and then within that body you can set variables, or you can template them.
 
-\[00:36:09.10\] Like, if you just type something without using the brackets, that's gonna be output as part of the template. If you have two blocks of code within a range, and then between you say continue, then the second block is gonna be omitted, and then you're gonna go back to the top of the range.
+\[36:09\] Like, if you just type something without using the brackets, that's gonna be output as part of the template. If you have two blocks of code within a range, and then between you say continue, then the second block is gonna be omitted, and then you're gonna go back to the top of the range.
 
 **Mat Ryer:** Okay. So that is how it works in Go, so that should feel quite natural. But that is quite unusual for templating. I don't think I've seen that before.
 
@@ -312,7 +312,7 @@ We think this is gonna be useful because we've gotten a lot of feedback from peo
 
 **Mat Ryer:** Yeah. I think for packages and things if you're releasing a library that people are gonna use, I think that's kind of great advice. Definitely a time I've seen where multiple modules exist is if you have a monorepo... The way that you would do it at the moment - I use Visual Studio code - you basically open the subfolder just as the root, and that essentially becomes the context of that module, and that's a way to get around it. If you have multiple folders and they have modules in different ones, workspaces I think is gonna enable that now. So you'll be able to operate, right?
 
-**Michael Matloob:** \[00:40:18.04\] Yeah. I mean, one of the driving forces behind us starting to work on modules was the user experience in not just Visual Studio Code, but any editors that user Gopls, which kind of powers the Visual Studio Code Go experience. The team was thinking of different ways of representing multiple modules and providing that information to the Go command... But it had to introduce a new concept that didn't exist in the Go command. The Go command had no concept of people working in multiple modules at the same time. It just had replace directives or requirements.
+**Michael Matloob:** \[40:18\] Yeah. I mean, one of the driving forces behind us starting to work on modules was the user experience in not just Visual Studio Code, but any editors that user Gopls, which kind of powers the Visual Studio Code Go experience. The team was thinking of different ways of representing multiple modules and providing that information to the Go command... But it had to introduce a new concept that didn't exist in the Go command. The Go command had no concept of people working in multiple modules at the same time. It just had replace directives or requirements.
 
 So we decided the best thing to do is to make this a first-class feature of the Go command, so not only could Gopls use it, but users who introduce modules can then open up command line and the Go command understands that they're working in the same workspace, in the same set of modules.
 
@@ -338,7 +338,7 @@ We've had to make on the VS Code Go and Gopls teams -- they've made changes to u
 
 **Michael Matloob:** Yeah. I filed a proposal for this, and I made it available, and we had a link for people to easily download a development version that included these changes using the gotip command, and so people could try it in and give feedback. We got some feedback on it, which was super-helpful. And we got a lot of feedback on the issue too, which was very helpful in developing the proposal. Hopefully, we've addressed most of the important issues people have. For anything else, there's 1.19.
 
-**Mat Ryer:** \[00:44:27.25\] Absolutely. Well, honestly, I think these kinds of things make such a difference, so we're so pleased. And honestly, I feel like there's a lot more to talk about with workspaces and modules. Maybe, Michael, you could come back one day and we'll do like a modules and workspaces special.
+**Mat Ryer:** \[44:27\] Absolutely. Well, honestly, I think these kinds of things make such a difference, so we're so pleased. And honestly, I feel like there's a lot more to talk about with workspaces and modules. Maybe, Michael, you could come back one day and we'll do like a modules and workspaces special.
 
 **Michael Matloob:** Oh, sure. I'd love to.
 
@@ -352,7 +352,7 @@ We've had to make on the VS Code Go and Gopls teams -- they've made changes to u
 
 **Mat Ryer:** Yeah, I think that's the legal structure of the pinky promise. Well, here's another pinky promise - I promise you're about to hear some unpopular opinions.
 
-**Jingle:** \[00:45:25.28\] to \[00:45:42.07\]
+**Jingle:** \[45:25\] to \[45:42\]
 
 **Mat Ryer:** Okay, who's gonna go first with -- I don't know why I'm speaking in this spooky voice. Who wants to say the first unpopular opinion?
 
@@ -376,7 +376,7 @@ We've had to make on the VS Code Go and Gopls teams -- they've made changes to u
 
 You know, I feel like this ship has sailed, but if you're gonna do a lot of code generation, Basil is very nice for that, but it's not very heavily used in the Go community. Inside of Google we use mostly generated \[unintelligible 00:47:40.12\]... And it's seamless, because the build just generates some automatically and you don't need to think about them. The tools that take care of all of the annoyances that are caused by code generation. But our tools don't really do that, so there's like a lot of friction when using generated code outside of those build systems. So I get pretty annoyed. If I have to run a make before my go build, I feel like there's a problem. That's kind of answering a different question, but you know...
 
-**Mat Ryer:** \[00:48:13.22\] I think generics -- ugh, I've said it. Yeah, I'll get booted out of here... But I think this rule obviously is very weakly enforced. So much for pinky promises, right? After I was \[unintelligible 00:48:24.21\] and giving them all that legal weight, look at it now. It's been reduced to a silly, childish thing. How sad...
+**Mat Ryer:** \[48:13\] I think generics -- ugh, I've said it. Yeah, I'll get booted out of here... But I think this rule obviously is very weakly enforced. So much for pinky promises, right? After I was \[unintelligible 00:48:24.21\] and giving them all that legal weight, look at it now. It's been reduced to a silly, childish thing. How sad...
 
 Well, what I was saying is, I think generics are gonna get rid of a lot of cases for code generation... But reflection is pretty difficult to write, because there's no kind of feedback -- like, you need unit tests really for your feedback to... I mean, you don't really need that; let me rephrase that. I think reflection is quite hard to get right, because it's that sort of meta-programming. But then code generation templates are also meta-programming, and they are often quite difficult to look after and maintain. So maybe you've got some legs.
 
@@ -396,7 +396,7 @@ Certainly, the proposal as it was needed more work before it should go in, but I
 
 **Michael Matloob:** Yeah, so basically it gave you a mechanism to try with a function that returned an error as its final argument. And then it would allow you to handle that error elsewhere. So you could add -- I think in one of the variations of the proposal there was like a handle for handling a number of tries in a function. I think in another one, if I'm remembering correctly, recover was an option for handling the error... But you could kind of have the errors handled in a single place. Basically, people realize that error handling is awkward in Go, and the awkwardness I think causes people to take shortcuts.
 
-\[00:52:10.20\] So addressing that awkwardness and nudging people towards doing the right thing, especially if try and handle came with helpers... And now we do have functions like \[unintelligible 00:52:18.18\] that help people with wrapping errors. Those together would provide a better model for handling errors and for people to think about handling errors.
+\[52:10\] So addressing that awkwardness and nudging people towards doing the right thing, especially if try and handle came with helpers... And now we do have functions like \[unintelligible 00:52:18.18\] that help people with wrapping errors. Those together would provide a better model for handling errors and for people to think about handling errors.
 
 **Mat Ryer:** Well, fascinating stuff there... Yeah, I'll tell you what - it's interesting, because I think... See, when I handle errors - and I don't know if I do this different to other people. I may be unusual in this... But when I return the error, I add quite a bit of context there. So each one is different; I'll add and I'll include the thing it's trying to do in that wrapped error. So it's not that I'll have a wrap where I just put the method name into the error, and it's the same every time. So if it was the same every time, having it pulled out and deal with it in one place is quite nice.
 
@@ -420,7 +420,7 @@ I literally was writing something today, and I literally had to write if err!= n
 
 **Michael Matloob:** ...if it's an opinion that I hold, I would like it to be less unpopular, even though it is unpopular.
 
-**Mat Ryer:** \[00:55:07.04\] Sometimes, when the case is made, in fact it's hard to get unpopular opinions. This is what we've found. Because people make the case so eloquently, like you did. And then people on Twitter... You know, they're easily swayed. They'll believe that now.
+**Mat Ryer:** \[55:07\] Sometimes, when the case is made, in fact it's hard to get unpopular opinions. This is what we've found. Because people make the case so eloquently, like you did. And then people on Twitter... You know, they're easily swayed. They'll believe that now.
 
 **Michael Matloob:** I mean, if I'm gonna make reference to the g-word again, there was a time in the community where you brought up the g-word, and people are like "No! Not in my Go!" And people were right to be worried about those things. But I think the case was made, people worked really hard to present the case why it would actually be an improvement and really convince people; convince people who use Go that it was actually gonna be a net positive. I think the sentiment now towards the g-word is a lot more positive than it was 5-6 years ago.
 
