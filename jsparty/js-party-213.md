@@ -62,7 +62,7 @@
 
 **Kevin Ball:** That's why in the before times I loved to go to the East Coast, because then I could actually pretend I'm a normal adult for a little while and stay up past 9 o'clock... \[laughter\]
 
-**Jerod Santo:** \[00:04:04.08\] Well, your 9 o'clock is much later than our 9 o'clock. By the time you go to bed, that's 11 PM my time, and probably midnight Amelia's time.
+**Jerod Santo:** \[04:04\] Well, your 9 o'clock is much later than our 9 o'clock. By the time you go to bed, that's 11 PM my time, and probably midnight Amelia's time.
 
 **Amelia Wattenberger:** Yup.
 
@@ -110,7 +110,7 @@ So for holla, which is where we holla at various community meetups, events, thin
 
 **Jerod Santo:** Okay. I'm looking forward to that. I'm gonna actually do that. Challah French toast. That reminds me... What's the hilly seaside neighborhood within the city of San Diego, California? Well, it's La Jolla, which is spelled the same as \[unintelligible 00:06:49.28\] Anywhoo... \[laughter\] Today we're doing story of the week. Let's get it kicking.
 
-**Jingle:** \[00:07:04.13\] to \[00:07:18.07\]
+**Jingle:** \[07:04\] to \[07:18\]
 
 **Jerod Santo:** Story of the week is our segment where we take turns sharing what we believe is the most important, or the biggest, or maybe just the most interesting to us story of the week, or the recent times; since we don't do this weekly, you can go back a little further than merely a week. Let's start off with Ali, because I'm looking at the notes and I think she drilled it with the biggest story of recent times. Ali, what is it?
 
@@ -124,7 +124,7 @@ So for holla, which is where we holla at various community meetups, events, thin
 
 **Ali Spittel:** It's amazing.
 
-**Jerod Santo:** \[00:08:04.22\] Is that right?
+**Jerod Santo:** \[08:04\] Is that right?
 
 **Ali Spittel:** Yeah.
 
@@ -146,7 +146,7 @@ So for holla, which is where we holla at various community meetups, events, thin
 
 **Jerod Santo:** Well, it's JS Party, it's not a JS research assignment, so... We only go so far, people.
 
-**Ali Spittel:** Yeah. It's hard to research too because the Node Fetch Npm package is what comes up for everything.
+**Ali Spittel:** Yeah. It's hard to research too because the Node Fetch npm package is what comes up for everything.
 
 **Jerod Santo:** So the pull request that was merged, the add fetch pull request does say this adds a --experimental fetch flag...
 
@@ -180,7 +180,7 @@ So for holla, which is where we holla at various community meetups, events, thin
 
 **Jerod Santo:** Gergely.
 
-**Kevin Ball:** \[00:12:07.01\] Gergely. Okay. The guy who is behind the Pragmatic Engineer, which has kind of blown up recently... And it was sort of a quick mention that oh, Meta is now hiring engineering managers remote always, not just engineers. At least in the U.K. And I think it's like a hint to a larger story, which is around the continued ripple effects of the move to remote work; how more and more companies, even these large companies, are having to say "You know what - this is not just a during the pandemic thing. The world has changed. We're gonna hire folks all over, we're gonna have an ongoing remote plan." And I think there are some really interesting ripple effects in terms of how it levels salaries across the country and across the world.
+**Kevin Ball:** \[12:07\] Gergely. Okay. The guy who is behind the Pragmatic Engineer, which has kind of blown up recently... And it was sort of a quick mention that oh, Meta is now hiring engineering managers remote always, not just engineers. At least in the U.K. And I think it's like a hint to a larger story, which is around the continued ripple effects of the move to remote work; how more and more companies, even these large companies, are having to say "You know what - this is not just a during the pandemic thing. The world has changed. We're gonna hire folks all over, we're gonna have an ongoing remote plan." And I think there are some really interesting ripple effects in terms of how it levels salaries across the country and across the world.
 
 I've heard from folks who are hiring contractors in Eastern Europe and the Philippines and things like that... Folks who have been in places where salaries were much lower to do software development - they've seen 50%, 70%, 100% increases in how much you can earn as a software developer... And I just think it's fascinating. There's so many different ripples. One, that's a lot more money; it basically makes software development even more of an export industry; you can use that to bring money into wherever the heck you are. I think it potentially -- like, they're making this money going to U.S.-based mostly, and some European-based multinational companies, which then means local software development shops are gonna be starved for talent, or having trouble competing, which means - yes, there's more money flowing in, but there's also less development for local-facing things. So the world is changing in a way that I find absolutely fascinating, and I'd be curious to hear y'alls take on it.
 
@@ -200,7 +200,7 @@ I've heard from folks who are hiring contractors in Eastern Europe and the Phili
 
 The other thing that I've heard as I was talking with someone who's a startup co-founder working mostly with contract developers at the moments... And the rates of hiring contract developers overseas has skyrocketed. So that may not be the same type of like you're hiring full-time employees, but it's still demand for remote work and remote development in a way that is totally changing the landscape.
 
-**Ali Spittel:** \[00:15:53.12\] Yeah. I know it's difficult to hire full-time employees in other countries just for like legal and tax reasons a lot of times for companies... But also from a team perspective, it can be hard for timezones, too. I manage a team that is globally distributed right now; it's mostly U.S.-based, but there are some folks from not in the United States, and it's awesome that we have that opportunity now for sure... But that's one thing that I've noticed though, is those first couple hours of the day are packed with meetings, because they're the time that everybody is online... Then the afternoon becomes a little bit less packed, and I'm sure it's the inverse for a lot of other teams.
+**Ali Spittel:** \[15:53\] Yeah. I know it's difficult to hire full-time employees in other countries just for like legal and tax reasons a lot of times for companies... But also from a team perspective, it can be hard for timezones, too. I manage a team that is globally distributed right now; it's mostly U.S.-based, but there are some folks from not in the United States, and it's awesome that we have that opportunity now for sure... But that's one thing that I've noticed though, is those first couple hours of the day are packed with meetings, because they're the time that everybody is online... Then the afternoon becomes a little bit less packed, and I'm sure it's the inverse for a lot of other teams.
 
 I think that's a really interesting piece of it, too - in some roles, they're really, really good at being remote-first and asynchronous-first... And I wonder how that's also going to change the nature of work. It's gonna make it probably less social than it is now. And I've noticed that just moving remote myself - you used to go out with colleagues and get drinks or whatever after work, or you used to just have the watercooler chats... And you can kind of mimic that remote, but it isn't exactly the same. Maybe it'll make it so that people are more reliant on their hobbies and things for social groups instead of their jobs. So... Another interesting piece of it.
 
@@ -218,7 +218,7 @@ I think that's a really interesting piece of it, too - in some roles, they're re
 
 **Amelia Wattenberger:** Yeah... It's two semi-okay ones. So this first one I thought was a little bit terrifying, honestly... Some German state court found a website violating GDPR because they were serving fonts from Google Fonts... Which tons of websites do. I do it on side projects because it's just easy, and I guess the extra step of hosting my own fonts is prohibitive... But I thought that was pretty intense. And it's because you're sending Google -- well, you're not sending it, but Google's getting the IP of your users.
 
-**Jerod Santo:** \[00:19:58.06\] Right. Yeah, so related to that -- maybe it's related; maybe somebody knows this more than I do, but... There's been a back and forth between Meta/Facebook and the European Union as of recent... And I've only caught the headlines. So if this is misinfo, correct me, fact-check me and stuff. But what I've read is, the gist of it is the European Union said if Facebook and Instagram are gonna operate in Europe, they must store the data for the European users in European countries... Which we know is a difficult thing to get done just technically. It's doable, they have lots of money, they can get it done, but it's like a huge investment to get that done. Facebook/Meta goes back to the European Union and says "Well, we're just gonna pull out of Europe then." Which is a pretty big move for Instagram and for Facebook to do that. And then the European Union just says "Cool. Go for it."
+**Jerod Santo:** \[19:58\] Right. Yeah, so related to that -- maybe it's related; maybe somebody knows this more than I do, but... There's been a back and forth between Meta/Facebook and the European Union as of recent... And I've only caught the headlines. So if this is misinfo, correct me, fact-check me and stuff. But what I've read is, the gist of it is the European Union said if Facebook and Instagram are gonna operate in Europe, they must store the data for the European users in European countries... Which we know is a difficult thing to get done just technically. It's doable, they have lots of money, they can get it done, but it's like a huge investment to get that done. Facebook/Meta goes back to the European Union and says "Well, we're just gonna pull out of Europe then." Which is a pretty big move for Instagram and for Facebook to do that. And then the European Union just says "Cool. Go for it."
 
 **Kevin Ball:** Instant 5% productivity boost across Europe.
 
@@ -250,7 +250,7 @@ So this isn't just like Copilot, which is assisting humans to write code. This i
 
 **Jerod Santo:** Haah!
 
-**Kevin Ball:** \[00:24:08.09\] You would be shocked how many people who call themselves developers cannot solve these problems.
+**Kevin Ball:** \[24:08\] You would be shocked how many people who call themselves developers cannot solve these problems.
 
 **Jerod Santo:** Right. Why do you think that is? Is it they're just trying to get some work, or is it delusions of grandeur? Sometimes you have to trick yourself into thinking you can do a thing, and then eventually you can do it... But what do you think about that? Because if it was me, I just wouldn't apply.
 
@@ -274,7 +274,7 @@ But that's more along the lines of what we're currently seeing from tools like G
 
 **Ali Spittel:** Yeah. In the medium term I'm really excited about those hyper-developer productivity tools, like Copilot, or these kind of low-code, but developer-first low-code solutions that just automate the boring stuff for you, and then you can focus on those things.
 
-**Jerod Santo:** \[00:28:11.12\] For sure. Ultimately, I think the value that we provide is synthesizing ideas into working systems... And that doesn't change, regardless of what level you're operating at. So you just move higher up the stack, you synthesize more complex ideas or more ideas per capita than you did before, and you're just more productive. So I think it's gonna be a win for all of us.
+**Jerod Santo:** \[28:11\] For sure. Ultimately, I think the value that we provide is synthesizing ideas into working systems... And that doesn't change, regardless of what level you're operating at. So you just move higher up the stack, you synthesize more complex ideas or more ideas per capita than you did before, and you're just more productive. So I think it's gonna be a win for all of us.
 
 Well, I will say, Ali did steal my story of the week... So I submit this one knowing that it's not as good, but it's alright, it's all friendly competition around here; we're not actually trying to win. There is a post from Dr. Axel Rauschmayer; I feel like he's been on the show before, or agreed to... I can't remember if we've actually had him on the show, but you probably know him as a prolific author and writer in the JavaScript space. A very good teacher. He has a post from the end of January about the pipe operator coming to JavaScript. He has introduction and use cases.
 
@@ -296,7 +296,7 @@ I'm excited that this is continuing to make progress, and I just submit this art
 
 **Ali Spittel:** Yeah... I used to teach JavaScript as my full-time job, and teaching people the difference between different types of functions in JavaScript was just kind of a nightmare as is... And the arrow functions specifically, it was like "Why would I ever use this? Where does the arrow go? Where do all the things go?" So that's what scares me a little bit about this as well, somebody new to JavaScript seeing it and being like all wigged out by it, or something like that.
 
-**Jerod Santo:** \[00:32:16.16\] Yes. I think the arrow function specifically had a bunch of extra baggage around it, around optionality, and the fact that it's not syntax sugar, it's actually changing variable scopes...
+**Jerod Santo:** \[32:16\] Yes. I think the arrow function specifically had a bunch of extra baggage around it, around optionality, and the fact that it's not syntax sugar, it's actually changing variable scopes...
 
 **Ali Spittel:** Yeah.
 
@@ -346,11 +346,11 @@ Anyways, if you're confused about the pipe operator, wanna check it out, not sur
 
 **Amelia Wattenberger:** Yeah. Basically, any third-party server that you hit. It's scary. Cool, but scary.
 
-**Break:** \[00:35:40.03\]
+**Break:** \[35:40\]
 
 **Jerod Santo:** Alright, we are back, and it is time to play a little game we like to call "Today I learned."
 
-**Jingle:** \[00:37:19.03\] to \[00:37:33.19\]
+**Jingle:** \[37:19\] to \[37:33\]
 
 **Kevin Ball:** Is that another Mat Ryer hit?
 
@@ -378,7 +378,7 @@ So if you're learning, make sure that you're actually struggling at points, and 
 
 **Kevin Ball:** You don't obsess over them?
 
-**Ali Spittel:** \[00:40:14.22\] It's not something that I put into an Excel sheet, or anything like that... But I do try to keep that in mind when I'm learning something, is that I'm not gonna be good at it right away. Right now -- okay, so I've found out that there was a curling open house. Do you know like curling in the Olympics?
+**Ali Spittel:** \[40:14\] It's not something that I put into an Excel sheet, or anything like that... But I do try to keep that in mind when I'm learning something, is that I'm not gonna be good at it right away. Right now -- okay, so I've found out that there was a curling open house. Do you know like curling in the Olympics?
 
 **Jerod Santo:** Yeah.
 
@@ -430,7 +430,7 @@ So if you're learning, make sure that you're actually struggling at points, and 
 
 **Amelia Wattenberger:** What did I wanna talk about...? Oh! CSS Cascade Layers. Super-exciting. They actually came out in Firefox two days ago, so they're in the current version of Firefox 97. So for the CSS Cascade there's all these layers where it decides which styles to apply. If you say body background blue, and also body background red, is it gonna be blue or is it gonna be red? And that depends - like, did you use a tag for the selector? Did you use a class? Did you use an ID? And I think a lot of trouble that people run into with CSS has to do with this, because they'll add a style and then it won't work, and then they won't understand why... And then they'll learn that if you add another part to the selector, it will override another selector... So it's really frustrating, and I think we've all been there.
 
-\[00:43:54.26\] For the cascade layers, you can basically create different layers. You can have like a utility layer, a core styles layer, an element-specific layer... And then the order in which you declare those layers -- I think if it's declared earlier, it wins. No, I think if it's declared later it wins. I don't know; one or the other. But it'll make it easier to basically handle CSS styles and make it really explicit which one actually wins if there's two colliding ones with the same specificity.
+\[43:54\] For the cascade layers, you can basically create different layers. You can have like a utility layer, a core styles layer, an element-specific layer... And then the order in which you declare those layers -- I think if it's declared earlier, it wins. No, I think if it's declared later it wins. I don't know; one or the other. But it'll make it easier to basically handle CSS styles and make it really explicit which one actually wins if there's two colliding ones with the same specificity.
 
 **Kevin Ball:** Interesting. I feel like this is the type of thing we used to do by very carefully crafting the order of \[unintelligible 00:44:33.15\] And you'd have these frameworks that would have the layers of like "Here's the base layer, here's the graphical layer, and here's your overriders", and all of that... But they do it by very careful ordering and specificity numbers and what have you.
 
@@ -462,7 +462,7 @@ Alright, Kball, I stalled long enough... I'm acting as if you're not prepared, b
 
 **Kevin Ball:** Yeah, so I have kind of a fun one. This is in the TypeScript, and actually, when I was trying to track this down, I consulted our TypeScript expert, Nick Nisi... So I had a bug that I had to fix the other day, where a React component was failing. And it was failing because it was getting passed a prop that it thought it could render as a React node, and the caller had changed it to be something else, that needed to be interpreted in a certain way.
 
-\[00:48:19.10\] So you know, \[unintelligible 00:48:19.22\] and it was fine... But then I was like, "Wait, this is typed." The component declared it to be expecting a React Node; how did it possibly not get caught by TypeScript? We were passing something that React didn't know how to render. And I spent a while trying to dig into this, like "Did we do something wrong? What's going on?" It turns out -- so the TypeScript definitions for React components, React node and all these things, are coming from definitely typed... And React node is defined as - it's either a React child, a React fragment, a React portal, boolean, null or undefined. React fragment, for reasons that I don't know, is defined as empty object or React node array... Which, basically empty object is essentially any. This is the most permissive type you could possibly have.
+\[48:19\] So you know, \[unintelligible 00:48:19.22\] and it was fine... But then I was like, "Wait, this is typed." The component declared it to be expecting a React Node; how did it possibly not get caught by TypeScript? We were passing something that React didn't know how to render. And I spent a while trying to dig into this, like "Did we do something wrong? What's going on?" It turns out -- so the TypeScript definitions for React components, React node and all these things, are coming from definitely typed... And React node is defined as - it's either a React child, a React fragment, a React portal, boolean, null or undefined. React fragment, for reasons that I don't know, is defined as empty object or React node array... Which, basically empty object is essentially any. This is the most permissive type you could possibly have.
 
 So if you are using types in a React app and you are typing props as a React node because you think that's gonna save you or keep you from passing things that are gonna not be able to be rendered as React, you are not protected. React.reactnode as a type is meaningless. It does not protect you from anything. This is apparently a known issue, it's in the GitHub repo since 2018...
 
@@ -500,13 +500,13 @@ So yeah, the solution that I'm coming to is still in progress... But the thing t
 
 **Kevin Ball:** I suspect that many people are using this and thinking they are more protected than they are.
 
-**Jerod Santo:** \[00:52:12.19\] Well, if you can come up with a solution and fix it, you could help probably thousands of people.
+**Jerod Santo:** \[52:12\] Well, if you can come up with a solution and fix it, you could help probably thousands of people.
 
 **Kevin Ball:** Yeah, so that's one of the things we're looking for... It's like, okay, if we can find the fix, then we can try to make the time to get it submitted back upstream and get it to work... Or at least post how we fixed it on there so that other folks who run into this can do it.
 
 **Jerod Santo:** That's a big thing to learn. Alright, there you have it, TIL. Now, our final segment today is gonna be a Project Focus. Normally, what we would do is we would pick a project, the four of us would check it out, we would tell you all about it and discuss. We're gonna do it a little bit differently today. Instead, the author of the Vest framework joined me earlier this week, and he told me all about it... So we will end TIL. Say goodbye to Amelia, Kball and Ali. Thanks so much for hanging out, this has been lots of fun. And we'll say hello to Vest right after this.
 
-**Break:** \[00:53:05.13\]
+**Break:** \[53:05\]
 
 **Jerod Santo:** So this is our Project Focus segment. We are focusing in on Vest. Now, normally, when we do a Project Focus, it's the regular panelists, we take a look at a deal, we talk about it... But today we have a special treat. We're actually joined by the author of Vest, Evyatar. You actually were listening to a show where we were talking about form validation and you reached out to me and said "Hey, I've got a form validation thing, it's pretty cool." I tend to agree with you. I've looked at it, it looks cool to me... So first of all, welcome to JS Party, and then secondly, let's talk about this project of yours.
 
@@ -516,7 +516,7 @@ So yeah, the solution that I'm coming to is still in progress... But the thing t
 
 **Evyatar:** So Vest basically takes the general syntax of unit testing libraries like Mocha or Jest that many frontend developers are now familiar with, and it tries to adopt that same syntax or a very similar syntax of validation suite for the world of form validation. Because in the world of unit testing, what we basically have is a big suite of different tests that make sure that our code, our functions match some criteria.
 
-\[00:56:06.10\] And when you think about it, form validation is pretty much the same; so you have the big construct - so you don't have a unit testing suite, but you have a form, and inside of it you have some different fields. And each field, at least in your form validation, has to match some criteria. So why not take that same unit testing structure and use it for form validation?
+\[56:06\] And when you think about it, form validation is pretty much the same; so you have the big construct - so you don't have a unit testing suite, but you have a form, and inside of it you have some different fields. And each field, at least in your form validation, has to match some criteria. So why not take that same unit testing structure and use it for form validation?
 
 **Jerod Santo:** Yeah. And so do you run those validations as if they're tests? Do you have some sort of a runner than then says "Yes, this executes correctly"? Or do you not have to, because you're basically writing the test when you're creating the validation rules; is that how it works?
 
@@ -564,7 +564,7 @@ So if you have an async test - for example, I have a test function in which I us
 
 **Evyatar:** Yeah. So unlike most frameworks, and most models of thinking about form validation, in Vest fails are required by default, unless specifically defined as optional. This makes it so that as long as not all fields are filled, or as long as not all required fields are passing, then the validation is not valid to begin with, or is not valid at all. So if you get your validation suite and you try to run "is valid" on it, it will always say no, unless all the required fields are passed in.
 
-**Jerod Santo:** \[01:04:10.27\] Very cool. So, I should say, Vest is not a new library. It looks like you're on Npm version 4.1.2, so you had some iteration on this thing... Tell us the back-story - where did you start this framework, and how long have you been working on it?
+**Jerod Santo:** \[01:04:10.27\] Very cool. So, I should say, Vest is not a new library. It looks like you're on npm version 4.1.2, so you had some iteration on this thing... Tell us the back-story - where did you start this framework, and how long have you been working on it?
 
 **Evyatar:** I actually started working on Vest a couple of years ago, in around 2016 or 2017. Back then it wasn't even called Vest, it was called Passable. And I was working on it when I worked at Fiverr.com. Back then, I was just learning the first time about unit testing with Mocha, it was, I think... And as I said before, the ideas just clicked to me, because - well, you have that suite testing, and the thinking model, mental model of testing for validation was just the same for me. In the beginning I also thought about "Well, we have to do it in JavaScript, because if we do it in JavaScript, then we can run it on Node and have validations that are the same on the server and the browsers." This is a defining criteria for Vest. And iterating over this idea - in the beginning, it was terrible. I didn't know how to write a unit testing framework. But going again and again, I landed on the solution for Vest, which I think is pretty good.
 
@@ -582,6 +582,6 @@ I used to do Ruby on Rails, and they had validations built into the Ruby code, i
 
 **Evyatar:** Just try it, tell me if you find anything missing... I really enjoy working on it. And if you want to contribute to the project and help out, feel free. I'm always happy to help.
 
-**Jerod Santo:** Cool. Well, Evyatar, thanks for joining me for this Project Focus, and we appreciate your open-sourcing this work.
+**Jerod Santo:** Cool. Well, Evyatar, thanks for joining me for this Project Focus, and we appreciate your open sourcing this work.
 
 **Evyatar:** Thank you for having me.
