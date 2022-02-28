@@ -16,7 +16,7 @@
 
 **Jerod Santo:** Kball's here... Always ready to dance.
 
-**Kevin Ball:** You know it. I heard the BMC \[unintelligible 00:02:26.12\] going and I was rocking out over here. I've missed that.
+**Kevin Ball:** You know it. I heard the BMC going and I was rocking out over here. I've missed that.
 
 **Jerod Santo:** Are you still rocking multiple cups of coffee every morning? Are you in your coffee kick, or...?
 
@@ -50,7 +50,7 @@
 
 **Kevin Ball:** Well, I wake up at 5, right? So I wake up at 5 and I have my first cup of coffee and kind of get going... But I'm usually done with coffee by like 9 o'clock in the morning, and I don't have -- the latest I ever have coffee is like lunch time, and then I'm done.
 
-**Jerod Santo:** Right. \[unintelligible 00:03:30.17\] any problem sleeping at night though...
+**Jerod Santo:** Right. Well waking up at 5 you'd probably not have any problem sleeping at night though...
 
 **Kevin Ball:** None. I'm like out by nine o'clock.
 
@@ -108,7 +108,7 @@ So for holla, which is where we holla at various community meetups, events, thin
 
 **Kevin Ball:** Find a good Jewish deli that does challah French toast... And you will thank me for the rest of your life.
 
-**Jerod Santo:** Okay. I'm looking forward to that. I'm gonna actually do that. Challah French toast. That reminds me... What's the hilly seaside neighborhood within the city of San Diego, California? Well, it's La Jolla, which is spelled the same as \[unintelligible 00:06:49.28\] Anywhoo... \[laughter\] Today we're doing story of the week. Let's get it kicking.
+**Jerod Santo:** Okay. I'm looking forward to that. I'm gonna actually do that. Challah French toast. That reminds me... What's the hilly seaside neighborhood within the city of San Diego, California? Well, it's La Jolla, which is spelled the same as Holla, but unfortunately uses an aya. Anywhoo... \[laughter\] Today we're doing story of the week. Let's get it kicking.
 
 **Jingle:** \[07:04\] to \[07:18\]
 
@@ -238,7 +238,7 @@ I think that's a really interesting piece of it, too - in some roles, they're re
 
 **Jerod Santo:** Cool. Amelia, do you want to give your second one?
 
-**Amelia Wattenberger:** Yeah, I'm just glad I don't normally have to think about these things. Alright... The second one is also a little bit terrifying. Basically, there was this headline from DeepMind recently that showed they have this (I think) model named AlphaCode, and they had it respond to these \[unintelligible 00:23:02.03\] interview questions where there's a prompt and you have to write code that does a certain thing... And it basically did better than 46% of the human participants in the competition.
+**Amelia Wattenberger:** Yeah, I'm just glad I don't normally have to think about these things. Alright... The second one is also a little bit terrifying. Basically, there was this headline from DeepMind recently that showed they have this (I think) model named AlphaCode, and they had it respond to these leet code computer - the interview questions where there's a prompt and you have to write code that does a certain thing... And it basically did better than 46% of the human participants in the competition.
 
 So this isn't just like Copilot, which is assisting humans to write code. This is reading a prompt, which is all English, and then writing code that does a certain thing. So even if those competition questions aren't necessarily the hardest, this is just like the beginning of something that's gonna be computers writing code from specs... Which is cool, and scary.
 
@@ -258,11 +258,11 @@ So this isn't just like Copilot, which is assisting humans to write code. This i
 
 **Jerod Santo:** Yeah. Maybe the opportunity is just so great they're like "Well, I might as well go for it." Because when we're talking about the salaries, it's a great living, and it's only getting better. And then meanwhile, other career choices are getting less attractive because of global macro economics and things... I don't know, it's definitely confusing.
 
-**Ali Spittel:** Yeah. \[unintelligible 00:25:18.08\] really excited about this idea that we don't have to write the boring stuff anymore... Because that's one of the most annoying parts of being a developer, is writing a form and form submission logic over and over again... So if that can be abstracted away or done for a developer, that's a huge boon to everybody's productivity, because then you can focus on the hard stuff. And that's why we're all programmers in the first place; it's not because we wanna do the same repetitive stuff over and over again, it's because we wanna solve the new problems, and build the cool stuff... And maybe this will leave us more opportunity to do that. So that's something that I'm a little bit excited about.
+**Ali Spittel:** Yeah. A piece of me, on the other hand, that was really excited about this idea that we don't have to write the boring stuff anymore... Because that's one of the most annoying parts of being a developer, is writing a form and form submission logic over and over again... So if that can be abstracted away or done for a developer, that's a huge boon to everybody's productivity, because then you can focus on the hard stuff. And that's why we're all programmers in the first place; it's not because we wanna do the same repetitive stuff over and over again, it's because we wanna solve the new problems, and build the cool stuff... And maybe this will leave us more opportunity to do that. So that's something that I'm a little bit excited about.
 
 **Kevin Ball:** Totally.
 
-**Jerod Santo:** Yeah, that is cool. I mean, if you think about what I've just said earlier in the show - I've coded for many, many years; I took some time off, and then it's like "I've gotta go look up the syntax for a for loop." And it's like, I just wanna loop over the things, I don't care about the details; I've written these loops in multiple languages, and it's like, I don't wanna do the repetitive -- I mean, actually, I technically do wanna do a repetitive thing... But you know what I'm saying. \[laughs\] I just wanna \[unintelligible 00:26:21.12\]
+**Jerod Santo:** Yeah, that is cool. I mean, if you think about what I've just said earlier in the show - I've coded for many, many years; I took some time off, and then it's like "I've gotta go look up the syntax for a for loop." And it's like, I just wanna loop over the things, I don't care about the details; I've written these loops in multiple languages, and it's like, I don't wanna do the repetitive -- I mean, actually, I technically do wanna do a repetitive thing... But you know what I'm saying. \[laughs\] I just wanna do it seven times, and then stop.
 
 But that's more along the lines of what we're currently seeing from tools like GitHub Copilot and Tabnine. This is like "Hey, write a spec, and it does the coding." That's a whole other level of abstraction. In fact, we had the CEO and founder of Tabnine on the Changelog - they have a code assistant - and I asked him about that. I'm like "Is the end game where I can write a spec and the program just does it?" He's like, "No. The end game is you're better at programming because you don't have to do the repetitive things."
 
@@ -300,7 +300,7 @@ I'm excited that this is continuing to make progress, and I just submit this art
 
 **Ali Spittel:** Yeah.
 
-**Jerod Santo:** ...versus the function keyword is very confusing... And there was just too much like "Hey, if you don't need this, take it out, and it still works. And I'm like, as somebody who casually uses those, I still have to remember \[unintelligible 00:32:37.26\] what's the function, what's it returning? There's still just too many ways you can use it, in my opinion. I think the pipeline operator is simpler, conceptually. I like that it promotes functional practices, maybe without even knowing it. It's kind of like chaining; it's promoting you to send data through a pipeline, and I think that's cool. But I agree - just adding one more operator to a language that's already difficult to wrap your mind around, especially at the beginning, could be raising that learning curve.
+**Jerod Santo:** ...versus the function keyword is very confusing... And there was just too much like "Hey, if you don't need this, take it out, and it still works. And I'm like, as somebody who casually uses those, I still have to remember, where's the actual perameters here, what's the function, what's it returning? There's still just too many ways you can use it, in my opinion. I think the pipeline operator is simpler, conceptually. I like that it promotes functional practices, maybe without even knowing it. It's kind of like chaining; it's promoting you to send data through a pipeline, and I think that's cool. But I agree - just adding one more operator to a language that's already difficult to wrap your mind around, especially at the beginning, could be raising that learning curve.
 
 **Ali Spittel:** Yeah... Especially because it doesn't add new functionality, it's just adding another way to do a thing that you can already do.
 
@@ -310,7 +310,7 @@ I'm excited that this is continuing to make progress, and I just submit this art
 
 **Kevin Ball:** Once or twice...
 
-**Ali Spittel:** The level \[unintelligible 00:33:49.24\]
+**Ali Spittel:** The level of cheating on that
 
 **Jerod Santo:** Amelia probably had a lot more, yeah...
 
@@ -318,7 +318,7 @@ I'm excited that this is continuing to make progress, and I just submit this art
 
 **Jerod Santo:** That's like its own little DSL, you know?
 
-**Ali Spittel:** That was my thought. It was like, "Okay, \[unintelligible 00:33:56.00\] \[laughter\]
+**Ali Spittel:** That was my thought. It was like, "Okay, it actually might make D3 cleaner \[laughter\]
 
 **Kevin Ball:** That's the thing, we actually love chaining APIs. The chaining API that you get with jQuery, and things like that.
 
@@ -432,7 +432,7 @@ So if you're learning, make sure that you're actually struggling at points, and 
 
 \[43:54\] For the cascade layers, you can basically create different layers. You can have like a utility layer, a core styles layer, an element-specific layer... And then the order in which you declare those layers -- I think if it's declared earlier, it wins. No, I think if it's declared later it wins. I don't know; one or the other. But it'll make it easier to basically handle CSS styles and make it really explicit which one actually wins if there's two colliding ones with the same specificity.
 
-**Kevin Ball:** Interesting. I feel like this is the type of thing we used to do by very carefully crafting the order of \[unintelligible 00:44:33.15\] And you'd have these frameworks that would have the layers of like "Here's the base layer, here's the graphical layer, and here's your overriders", and all of that... But they do it by very careful ordering and specificity numbers and what have you.
+**Kevin Ball:** Interesting. I feel like this is the type of thing we used to do by very carefully crafting the order of when you CSS things. And you'd have these frameworks that would have the layers of like "Here's the base layer, here's the graphical layer, and here's your overriders", and all of that... But they do it by very careful ordering and specificity numbers and what have you.
 
 So this is basically letting you just say that in code. It's the same thing we did for JavaScript with modules, of like getting rid of the careful ordering of layers.
 
@@ -456,13 +456,13 @@ It's not actually new... I think it changed back in October. Maybe even October 
 
 **Jerod Santo:** Well, that's why it's cool. It's like, TIL, today I learned. I just learned this. It's not new, but I learned it, and... Maybe it's new to you. It was new to me. It's not like I'm using it anyways anymore, but I just thought it was a cool thing that we could all do. It kind of felt like a community thing to do, it's like "Hey, let's all just load this one JavaScript file once and be done with it." But that is now gone, and I think it's gone for good reasons; I think it actually improves privacy and security quite a bit, and other things... And I think the caching benefits were somewhat nominal anyways.
 
-Anyways, I'll link up this article, "Say goodbye to resource-caching across sites and domains", and you can read about it for yourself. But yeah, I've just learned that recently, and I was like, "Huh." \[unintelligible 00:47:41.29\] But now I know, and now you know.
+Anyways, I'll link up this article, "Say goodbye to resource-caching across sites and domains", and you can read about it for yourself. But yeah, I've just learned that recently, and I was like, "Huh. Show what I know." But now I know, and now you know.
 
 Alright, Kball, I stalled long enough... I'm acting as if you're not prepared, but you totally are; I'm just messing with you. It's your turn, what have you got?
 
 **Kevin Ball:** Yeah, so I have kind of a fun one. This is in the TypeScript, and actually, when I was trying to track this down, I consulted our TypeScript expert, Nick Nisi... So I had a bug that I had to fix the other day, where a React component was failing. And it was failing because it was getting passed a prop that it thought it could render as a React node, and the caller had changed it to be something else, that needed to be interpreted in a certain way.
 
-\[48:19\] So you know, \[unintelligible 00:48:19.22\] and it was fine... But then I was like, "Wait, this is typed." The component declared it to be expecting a React Node; how did it possibly not get caught by TypeScript? We were passing something that React didn't know how to render. And I spent a while trying to dig into this, like "Did we do something wrong? What's going on?" It turns out -- so the TypeScript definitions for React components, React node and all these things, are coming from definitely typed... And React node is defined as - it's either a React child, a React fragment, a React portal, boolean, null or undefined. React fragment, for reasons that I don't know, is defined as empty object or React node array... Which, basically empty object is essentially any. This is the most permissive type you could possibly have.
+\[48:19\] So you know, quick bug fix noticed it changed the colar to passive react node and it was fine... But then I was like, "Wait, this is typed." The component declared it to be expecting a React Node; how did it possibly not get caught by TypeScript? We were passing something that React didn't know how to render. And I spent a while trying to dig into this, like "Did we do something wrong? What's going on?" It turns out -- so the TypeScript definitions for React components, React node and all these things, are coming from definitely typed... And React node is defined as - it's either a React child, a React fragment, a React portal, boolean, null or undefined. React fragment, for reasons that I don't know, is defined as empty object or React node array... Which, basically empty object is essentially any. This is the most permissive type you could possibly have.
 
 So if you are using types in a React app and you are typing props as a React node because you think that's gonna save you or keep you from passing things that are gonna not be able to be rendered as React, you are not protected. React.reactnode as a type is meaningless. It does not protect you from anything. This is apparently a known issue, it's in the GitHub repo since 2018...
 
@@ -526,13 +526,13 @@ In the beginning, I actually wrote it as an experiment, and I learned that there
 
 **Jerod Santo:** Hm. So what are some of those values and benefits that you get from it?
 
-**Evyatar:** Most frontend developers have written some sort of form validation, whether it be with just plain functions that they write, or with a third-party library or a schema validation library... And most of them are very useful, but there are places where they are very rigid as well. For example, when you have multiple criteria for the form validation for a specific field, for example the username - it is required, so yeah, required; it has to match some specific length, and it has a third test, for example for "the username isn't already taken on the server". Now, expressing all these as a series of different tests or a series of different validations is very difficult to do with traditional validations, because you don't really have the structure for specifying different criteria. So you either put everything in the same function for one field, or sometimes you even put them in \[unintelligible 00:58:17.20\] for all validations, for all fields. And when using a suite-like test for form validation, you get a specific test for each scenario, for each field, and you can mix and match, and everything is very orderly outside of \[unintelligible 00:58:34.25\]
+**Evyatar:** Most frontend developers have written some sort of form validation, whether it be with just plain functions that they write, or with a third-party library or a schema validation library... And most of them are very useful, but there are places where they are very rigid as well. For example, when you have multiple criteria for the form validation for a specific field, for example the username - it is required, so yeah, required; it has to match some specific length, and it has a third test, for example for "the username isn't already taken on the server". Now, expressing all these as a series of different tests or a series of different validations is very difficult to do with traditional validations, because you don't really have the structure for specifying different criteria. So you either put everything in the same function for one field, or sometimes you even put them in just one big functions for all validations, for all fields. And when using a suite-like test for form validation, you get a specific test for each scenario, for each field, and you can mix and match, and everything is very orderly outside of your feature code.
 
 **Jerod Santo:** So I assume the same thing applies to a lot of the built-in new(ish) HTML validations. So there are things you can do, such as required, such as -- you can do format attributes in your HTML. Those are similar where like they get you so far, but then when your form gets sufficiently complex, they fail, because they just don't have that flexibility, such as combining multiple rules, or waterfall rules...
 
 **Evyatar:** Exactly.
 
-**Jerod Santo:** ...so it makes sense. What happens with Vest on your failure states? A lot of times you have to then interact with the rest of your page and say "Okay, if this field is not valid, I want to display this error message, or put a border red around it... And if everything isn't passing, I don't wanna submit the form." Sometimes you have more complex constraints even than that. \[unintelligible 00:59:25.17\] Sometimes you may hide or show other areas of a form. How does Vest work in that context?
+**Jerod Santo:** ...so it makes sense. What happens with Vest on your failure states? A lot of times you have to then interact with the rest of your page and say "Okay, if this field is not valid, I want to display this error message, or put a border red around it... And if everything isn't passing, I don't wanna submit the form." Sometimes you have more complex constraints even than that. That stop form submissions. Sometimes you may hide or show other areas of a form. How does Vest work in that context?
 
 **Evyatar:** Seamlessly and beautifully, I'd say...
 
