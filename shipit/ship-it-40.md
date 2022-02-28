@@ -122,13 +122,9 @@ When we switched to the S3 way of doing it, that transform step no longer has th
 
 **Jerod Santo:** I have to go back and find that.
 
-**Gerhard Lazu:** Yeah, so we can link it as well and we can show our listeners that you actually did it.
+**Gerhard Lazu:** Yeah, so we can link it as well and we can show our listeners that you actually did it. We could link this up with your reply.
 
-**Jerod Santo:** \[unintelligible 00:15:48.05\]
-
-**Gerhard Lazu:** We could link this up with your reply.
-
-**Jerod Santo:** Okay. This is kind of like on JS Party - we do a new year's resolutions episode, and the next year, I go back and listen to it and I hold everybody's feet to the fire. \[unintelligible 00:16:00.11\]
+**Jerod Santo:** Okay. This is kind of like on JS Party - we do a new year's resolutions episode, and the next year, I go back and listen to it and I hold everybody's feet to the fire. And say, "Did you actually?"
 
 **Adam Stacoviak:** Oh, boy...
 
@@ -182,7 +178,7 @@ When we switched to the S3 way of doing it, that transform step no longer has th
 
 But what I'm really curious about is - sure, how does this behave, but I think we talked about this in Kaizen 30... What if we used another CDN, besides Fastly, which integrates with this? And you know where I'm going with this; I'm thinking CloudFlare. I'm thinking CloudFlare R2. Could we try that out and see if that is simpler in terms of configuration, in terms of setup? I don't think we'll have the same amount of stats and logs that we currently have from Fastly, so that obviously will likely be an issue. But I'm wondering if that would be a simpler setup from performance, from customer satisfaction.
 
-\[24:07\] I mean, right now what I'm seeing is -- I was looking at the 99th percentile, and I've seen that our 99th percentile today was, for example, 657 seconds. So some requests would be great to dig into those to see which were those requests, are taking 657 seconds to serve. That's like 10 minutes. Who's waiting ten-- I think that must be one of those Apple watches again, waiting for an MP3 file to stream so they can listen to it. It must be \[unintelligible 00:24:34.16\]
+\[24:07\] I mean, right now what I'm seeing is -- I was looking at the 99th percentile, and I've seen that our 99th percentile today was, for example, 657 seconds. So some requests would be great to dig into those to see which were those requests, are taking 657 seconds to serve. That's like 10 minutes. Who's waiting ten-- I think that must be one of those Apple watches again, waiting for an MP3 file to stream so they can listen to it. It must be right over 4G
 
 **Jerod Santo:** Maybe.
 
@@ -204,13 +200,13 @@ So these are kind of like third-party relics that we're hosting, and I think com
 
 **Adam Stacoviak:** \[28:19\] 20 minutes... Human-readable formats - Honeycomb, please.
 
-**Gerhard Lazu:** \[laughs\] Yes, please. \[unintelligible 00:28:23.08\] I just have to set up the derived columns. Liz was showing me how to do that. Thank you, Liz. That was great.
+**Gerhard Lazu:** \[laughs\] Yes, please. There is actually a way, I just have to set up the derived columns. Liz was showing me how to do that. Thank you, Liz. That was great.
 
-**Adam Stacoviak:** \[unintelligible 00:28:29.15\] again?
+**Adam Stacoviak:** I'm gonna get it wrong again?
 
 **Gerhard Lazu:** Yeah. So 20 minutes was a 99th percentile for our audio files before. Now, since we went to S3, it is just 12 minutes. So it is an improvement. They are taking less to serve. What I was curious about was how long does it take to serve the other content. Because we have offloaded all those MP3s and all those static files off the server. How fast is the origin now? So that's what I would like to ask it next. How about we do that?
 
-**Adam Stacoviak:** What Gerhard is doing behind the scenes is he is deep into various dashboards where you can just sort of like ask Honeycomb pretty much anything about your system in production right now. And what he's doing is he's digging into essentially times between different content types and how it was delivered back, essentially the time, and seeing what that difference is, so that we can say, "Okay, this content was served in this amount of time", or "This content was served in that amount of time" and sort of understanding your system better so that you can see, "Okay, this is how it performs with this kind of load, or that kind of load", and then be able to fine-tune your system to perform accordingly, as you like. And so this beautiful magic box called Honeycomb allows you to ask these panes of glass this question, and essentially, just go \[unintelligible 00:29:40.18\] into these details. Maybe I've given Gerhard enough time to get his answer back.
+**Adam Stacoviak:** What Gerhard is doing behind the scenes is he is deep into various dashboards where you can just sort of like ask Honeycomb pretty much anything about your system in production right now. And what he's doing is he's digging into essentially times between different content types and how it was delivered back, essentially the time, and seeing what that difference is, so that we can say, "Okay, this content was served in this amount of time", or "This content was served in that amount of time" and sort of understanding your system better so that you can see, "Okay, this is how it performs with this kind of load, or that kind of load", and then be able to fine-tune your system to perform accordingly, as you like. And so this beautiful magic box called Honeycomb allows you to ask these panes of glass this question, and essentially, just go finite, super finite into these details. Maybe I've given Gerhard enough time to get his answer back.
 
 **Gerhard Lazu:** Yeah, I do have it. So it improved marginally - the XML ones are those feeds which I'm looking for - but not enough to show a huge alleviation in the pressure. So it's almost the same. And that shows that the time is not network-related, it's whatever needs to happen inside the system. So what I'm thinking is maybe PostgreSQL. Maybe when we go to a different PostgreSQL, maybe when you have reads a bit more optimized... And those are metrics which we're still missing, just to understand how can we improve our PostgreSQL query so that when we build those feeds, they don't take as long as they take currently.
 
@@ -222,9 +218,9 @@ So right now, the 99th percentile for our feeds are 1.2 seconds. Not bad, right?
 
 **Adam Stacoviak:** Speaking of something to look into next, I do want to plug a recent episode of Founders Talk, because we're talking about Honeycomb. And I truly believe this gives us superpowers, and that's exactly what I talked to Christine Yen about. The title of that show is "Bringing Observability Superpowers to All", because that's their mission. And if you're a fan -- if you're not a fan, you should listen to this show. Christine went deep on the subject of all things observability, founding Honeycomb alongside Charity, the bees that make up the team, and a bunch of other fun things. So we are definitely loving Honeycomb, but if you love the behind-the-scenes from a founder, CEO perspective, that's exactly what you'll get from that show. So it's episode 86 on Founders Talk. Make sure you check that out.
 
-**Gerhard Lazu:** \[32:18\] I'm going to share another behind and the scenes item regarding Honeycomb. That was meant to be another Christmas gift, which I didn't have time for, and we got blocked on other things and I had to reprioritize. I did have, I think, an hour-long session with Liz, \[unintelligible 00:32:33.29\] Thank you very much, Liz. That was so, so good, because it helped me understand some of the superpowers which I was missing. I was still thinking in terms of dashboards, and I was still thinking in terms of having these queries prebuilt. It's actually the opposite. You need to go and explore and dig into and ask questions, and seeing Liz doing that was so cool. And now I know how to use Honeycomb correctly. I was holding it wrong; definitely holding it wrong. And now I can dig around anything. It's just so good for us. We can understand things so much quicker than before. It takes me minutes, things that before would take at least half an hour, maybe even longer.
+**Gerhard Lazu:** \[32:18\] I'm going to share another behind and the scenes item regarding Honeycomb. That was meant to be another Christmas gift, which I didn't have time for, and we got blocked on other things and I had to reprioritize. I did have, I think, an hour-long session with Liz, Lizthegrey. Thank you very much, Liz. That was so, so good, because it helped me understand some of the superpowers which I was missing. I was still thinking in terms of dashboards, and I was still thinking in terms of having these queries prebuilt. It's actually the opposite. You need to go and explore and dig into and ask questions, and seeing Liz doing that was so cool. And now I know how to use Honeycomb correctly. I was holding it wrong; definitely holding it wrong. And now I can dig around anything. It's just so good for us. We can understand things so much quicker than before. It takes me minutes, things that before would take at least half an hour, maybe even longer.
 
-**Adam Stacoviak:** I was thinking, as you were digging into this, what the experience might be for our listeners. That's why I had to step in and comment in a little bit, because I'm thinking, "Gosh, we might be losing the audience." The \[unintelligible 00:33:23.14\] few might stick around in terms of brain-power, and then come back whenever Jerod speaks and maybe it gets more interesting again, or something like that... Just kidding. \[laughter\]
+**Adam Stacoviak:** I was thinking, as you were digging into this, what the experience might be for our listeners. That's why I had to step in and comment in a little bit, because I'm thinking, "Gosh, we might be losing the audience." They may be, the few, the tried and few might stick around in terms of brain-power, and then come back whenever Jerod speaks and maybe it gets more interesting again, or something like that... Just kidding. \[laughter\]
 
 **Gerhard Lazu:** Good one.
 
@@ -348,7 +344,7 @@ We could just push it to Heroku. We could definitely do that. And I would be up 
 
 **Jerod Santo:** Help us pay our S3 bill.
 
-**Gerhard Lazu:** \[unintelligible 00:44:38.11\] it hasn't happened? \[laughter\]
+**Gerhard Lazu:** Slack high five or it hasn't happened. \[laughter\]
 
 **Adam Stacoviak:** So that was mostly a joke, but a good reason to tie that in. So back to Fly and Chris and some of the things they're putting out there... So I'm going to read a tweet that Chris McCord put out, I think it was yesterday. It was 28th... Is that right? No, two days ago. He says, "I'm blowing my own mind deploying Elixir apps across the world on Fly and seeing them cluster together. PubSub's just arrived in Sydney and Amsterdam. A couple minutes later, I can have another instance in Hong Kong. And it all works, somehow. This deserves a little screencast."
 
@@ -532,7 +528,7 @@ But this is episode 40, Kaizen. We come back every 10 episodes, so we'll see you
 
 **Adam Stacoviak:** Gosh, we have waited to do a vanity URL. So normally we'll do like founderstalk.fm, or changelog.fm, or practicalai.fm, or jsparty -- I'm just naming all of our shows, by the way.
 
-**Jerod Santo:** Yes, \[unintelligible 01:14:07.29\]
+**Jerod Santo:** Yes, .fm
 
 **Adam Stacoviak:** But we don't have it for Ship It yet, because we really wanted shipit.fm. And then I guess ship.it would be just as cool. We don't want to settle for shipitshow.fm, or some flavor like that. It wouldn't be bad. It doesn't roll off the tongue as well. We love the name of the show.fm as best as possible. So if you know somebody who knows somebody who knows somebody, a friend of a friend, ship.it would be okay. My preference would be shipit.fm.
 
