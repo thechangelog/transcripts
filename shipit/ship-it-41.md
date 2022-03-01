@@ -22,7 +22,7 @@ I started with the idea of having kind of like step by step tutorials, focusing 
 
 **Gerhard Lazu:** Okay. Why did you start writing that book?
 
-**Mauricio Salatino:** \[00:08:05.27\] I started writing it because I've been presenting in conferences for the last four years in the Kubernetes space, and I keep noticing that the successful projects in the Kubernetes space - they are all following kind of like the same patterns and the same approaches... And the more you look into these projects and the ones that are already standing out, they are always focused on making the developer more productive. Sometimes they do not focus on developers, but developers get impacted by them. And I'm really into that developer experience, into building tools for developers.
+**Mauricio Salatino:** \[08:05\] I started writing it because I've been presenting in conferences for the last four years in the Kubernetes space, and I keep noticing that the successful projects in the Kubernetes space - they are all following kind of like the same patterns and the same approaches... And the more you look into these projects and the ones that are already standing out, they are always focused on making the developer more productive. Sometimes they do not focus on developers, but developers get impacted by them. And I'm really into that developer experience, into building tools for developers.
 
 As a developer, I want a bunch of stuff to happen around my software, the software that I create, and the only thing that I care is that software gets delivered and it's doing something useful for the use case that you are building. And all these tools are in some way related to that story, and as a developer I had the feeling that I need to understand them all in order to be productive. Through the years I started learning all these tools, and I got to a point where I said, "Okay, this is a story worth sharing." All these lessons learned, all these perspectives, all this overview on higher-level views that I'm gaining - they are worth sharing, the same as you mentioned with the Knative weekly blog post. That's pretty much what I'm doing in the work, I'm just trying to extract knowledge and just put in a high-level, and then just point to the right resources for people to just consume that.
 
@@ -40,7 +40,7 @@ As a developer, I want a bunch of stuff to happen around my software, the softwa
 
 I was advised against having a single example for the entire book, because usually it's pretty difficult to cover the same example from different angles... But I took that as a challenge, and I think that it's worth investing time in a larger example, that as you suggested at some point, those examples should be part of kind of like a foundation. Maybe the CNCF, maybe the CD Foundation.
 
-\[00:12:06.14\] I'm also going through the process of trying to figure out in which foundations should I host these examples, when they are a little bit more mature. They are in constant flux because of the tools and because of the project itself, and I keep finding more and more lessons by just doing that. So there is no reason why I should stop.
+\[12:06\] I'm also going through the process of trying to figure out in which foundations should I host these examples, when they are a little bit more mature. They are in constant flux because of the tools and because of the project itself, and I keep finding more and more lessons by just doing that. So there is no reason why I should stop.
 
 I feel that if I manage to finish this book, the example at that point will have so many other new lessons that I can definitely do a second edition and keep adding chapters, until it's an infinite kind of book.
 
@@ -62,7 +62,7 @@ So definitely the CD Foundation sounds like the right place. I've started having
 
 **Mauricio Salatino:** Yeah, because the applications and the examples were mostly created around for different conferences where I was presenting. So if I wanted to show, for example, how to orchestrate cloud events, very early on, when nobody was doing that, and Knative was trying to start to provide some of the risk mechanisms, I would just write an application in that repository, link a readme or a step by step tutorial, and then just have all the resources in there.
 
-\[00:15:57.22\] I've found quickly enough that that repository is just the main entrypoint for all the repositories that are hosting different services, and different tutorials as well... But that's kind of like the main entrypoint. That's why the repository is pretty old; I would say that before that I had the repositories of the services, even before having a single depository for all the tutorials. And most of those services, if you look at my GitHub repository, I have like 450 repositories in there. And most of those are tutorials, or examples that I've used to present in different conferences around different years.
+\[15:57\] I've found quickly enough that that repository is just the main entrypoint for all the repositories that are hosting different services, and different tutorials as well... But that's kind of like the main entrypoint. That's why the repository is pretty old; I would say that before that I had the repositories of the services, even before having a single depository for all the tutorials. And most of those services, if you look at my GitHub repository, I have like 450 repositories in there. And most of those are tutorials, or examples that I've used to present in different conferences around different years.
 
 Regarding that, it's funny enough - this year, if I manage to get into a conference in Barcelona that is called JBCNConf, it will be my tenth year in a row presenting in that conference.
 
@@ -84,7 +84,7 @@ So for me, it's usually like 30% on coding, 30% on planning, and roadmap, and th
 
 **Mauricio Salatino:** I find it really amazing, because I just suggested \[unintelligible 00:19:01.28\] I keep getting, over the years, every time that I present this in a conference or in a meetup or whatever, I keep getting people coming back and telling me that they want to help me to build an example. So I have a number of contributors during the years that have pushed me to make things better, even for them. So I know what they need in order to start contributing, but it's still under my personal organization, which is always a limitation for more people to see it, more people to give it a try... And also, it just puts all the pressure on me, on making it better. So I'm really hoping to be able to move this sometime soon.
 
-**Break:** \[00:19:45.27\]
+**Break:** \[19:45\]
 
 **Gerhard Lazu:** I'm curious, why do you call it delivery and not deployment? Why Continuous Delivery for Kubernetes and not Continuous Deployment for Kubernetes?
 
@@ -104,7 +104,7 @@ So I'm going to ask you something which maybe I should have asked much earlier, 
 
 **Mauricio Salatino:** Yeah, there are several reasons for that. And the main reason, I would say, from a developer perspective is just to validate that the things that you are doing are improving things or bringing new functionality, and not breaking stuff. So the faster, the more times that you deploy, the easier it is to get the errors; and if you find an error, the easier it is to fix it.
 
-**Gerhard Lazu:** \[00:24:06.07\] Okay.
+**Gerhard Lazu:** \[24:06\] Okay.
 
 **Mauricio Salatino:** Following that approach, I would say that I'm interested in just making sure that developers are not blocked by deploying new versions of things, and they have kind of like a continuous flow of changes to production or to the environment where they can at least get some validations for a different set of users. Maybe it's not production, but it's kind of like a place where users can access, or we can give access to a specific set of users. I'm really into that.
 
@@ -122,7 +122,7 @@ You mentioned something important - you mentioned about doing Kubernetes the rig
 
 **Gerhard Lazu:** Do you think that having a microservices architecture is a requirement for this?
 
-**Mauricio Salatino:** \[00:27:49.15\] I don't think so. I think you might have different approaches for different use cases. I do believe that if you want to scale a specific functionality on its own, without scaling up the rest of the application, you might need to have some kind of separation in there. I'm really interested in exploring more and going deeper into how cloud providers recommend their customers to implement different applications, and how that maps to the open source space. Because for most of these distributed application challenges, there are already solutions, and the problem right now is how these solutions can be built with open source projects without relying on cloud provider-specific tooling. So there is a journey there that needs to be explained, and it's not that easy to figure out on your own.
+**Mauricio Salatino:** \[27:49\] I don't think so. I think you might have different approaches for different use cases. I do believe that if you want to scale a specific functionality on its own, without scaling up the rest of the application, you might need to have some kind of separation in there. I'm really interested in exploring more and going deeper into how cloud providers recommend their customers to implement different applications, and how that maps to the open source space. Because for most of these distributed application challenges, there are already solutions, and the problem right now is how these solutions can be built with open source projects without relying on cloud provider-specific tooling. So there is a journey there that needs to be explained, and it's not that easy to figure out on your own.
 
 **Gerhard Lazu:** I think it's very important to mention that different contexts are completely valid. So even if you do have a monolith, it's still okay and it may still work very well for you to use Kubernetes. And Kubernetes is not a requirement, but it makes certain things easier, especially if you don't introduce a lot of complexity from -- again, I think it depends on the context, it depends on the perspectives, it depends on what you're trying to get out of it... But from my experience, as we evolve our Changelog application, it is a monolithic application; it is a single container image, and everything runs there, including the background jobs. Part of it is down to the VM. So the Erlang VM scales really nicely, it's very fast to boot up; the boot-up is not slow. I know that some runtimes can be slower to boot up - and I'm looking at Java; there's good reasons why that is. There is some legacy there as well, some optimizations, just how that bytecode works... But even in that case, your applications, your services in the book - they are Spring applications, Spring Boot. And I think you mentioned something about converting them to Spring Native. What does that mean?
 
@@ -132,7 +132,7 @@ So you kind of like have the two scenarios... And I think that by having GraalVM
 
 **Gerhard Lazu:** Yeah. So to go back to the monoliths that are running on Kubernetes - it is possible; we've been doing it for years. There is a good experience to be had. I think some Java applications can be a bit slower to boot, even though there are ways of speeding that up... At least in my experience, I don't remember ever having to run a GraalVM application in Kubernetes. The only example that I can give is the RabbitMQ PerfTest CLI tool.
 
-\[00:32:08.18\] We had a GraalVM implementation; it was a much smaller single binary, much quicker to boot up. I do have to say the performance wasn't on par with the native Java, JDK, JRE runtime, but even then, they were small issues, which I was expecting to be fixed as the GraalVM, the runtime matures. And this was like a couple of years back, so I haven't checked since. But it's very promising, for sure.
+\[32:08\] We had a GraalVM implementation; it was a much smaller single binary, much quicker to boot up. I do have to say the performance wasn't on par with the native Java, JDK, JRE runtime, but even then, they were small issues, which I was expecting to be fixed as the GraalVM, the runtime matures. And this was like a couple of years back, so I haven't checked since. But it's very promising, for sure.
 
 As a monolith, I think the things which are more important - a monolith running in Kubernetes, because the application is from monolith to Kubernetes... I think your example application in the book, it's worth pointing out that the services - they feel a bit like monoliths, in that even though they're broken down, they still take quite a while to spin up. So the boots are slow. But even then, for example, not depending on local storage is very important. We did have, for example, volumes in the Changelog application that we would use to mount, and all the media used to be stored on those persistent volumes, the PVs. The problem with that was that you can only have one instance of your application running.
 
@@ -150,7 +150,7 @@ The other approach is to have an installation of a database outside of your Kube
 
 **Gerhard Lazu:** \[unintelligible 00:36:01.06\]
 
-**Mauricio Salatino:** \[00:36:03.08\] Yeah. So that's what I've seen in my experience, again, and it is one of the topics that I would like to cover in the book in more depth. I think that in the packaging and how you install software, also in chapter four - I don't know if you have read that - but I do talk about infrastructure. Because the same happens with message brokers. What do you need for an application usually? A message broker, a database, and some other services for sending emails, and doing that kind of stuff. That's the main reason why the application has the shape that it has. Each of the services kind of like feels like monoliths, they are monoliths on their own, and I want to show how complex they will get if you \[unintelligible 00:36:38.21\] then the next step is just connecting to a database. Then the next step is - okay, that database leaps outside your cluster; what kind of complexity do you have? Then secrets become a problem, you need to deal with that... And when you realize you've spent kind of like two months trying to figure out how to just get a simple job application communicating with the database, which is nonsense.
+**Mauricio Salatino:** \[36:03\] Yeah. So that's what I've seen in my experience, again, and it is one of the topics that I would like to cover in the book in more depth. I think that in the packaging and how you install software, also in chapter four - I don't know if you have read that - but I do talk about infrastructure. Because the same happens with message brokers. What do you need for an application usually? A message broker, a database, and some other services for sending emails, and doing that kind of stuff. That's the main reason why the application has the shape that it has. Each of the services kind of like feels like monoliths, they are monoliths on their own, and I want to show how complex they will get if you \[unintelligible 00:36:38.21\] then the next step is just connecting to a database. Then the next step is - okay, that database leaps outside your cluster; what kind of complexity do you have? Then secrets become a problem, you need to deal with that... And when you realize you've spent kind of like two months trying to figure out how to just get a simple job application communicating with the database, which is nonsense.
 
 **Gerhard Lazu:** Yeah, I know what you mean. I did spend a fair amount of years in this space, looking at distributed, stateful systems in Kubernetes - RabbitMQ is one of them - and while the operator gets you really far and it works really well for RabbitMQ specifically, especially since RabbitMQ is built for clustering, and Erlang, and all those things are there, all the primitives are there, other systems like PostgreSQL for example - it's a bit more challenging. It's still possible, but challenging. And the only time that our application had downtime when it comes to the database was when PostgreSQL replication stopped working correctly. So we got a couple of those, unfortunately. I mean, it's just the reality of operating, in our case. Maybe we did it wrong, it's possible.
 
@@ -184,7 +184,7 @@ Oh, I have an important question - cloud native with a dash, or without a dash? 
 
 **Mauricio Salatino:** I think that that's really important. And the feedback is really appreciated, because when you're writing drafts, this is all about making sure that the ideas are there, and the refinements will come afterwards. And that's also like the editorial process that should go through it, just to make sure that we just align with the ecosystem that we are talking about.
 
-**Break:** \[00:40:28.13\]
+**Break:** \[40:28\]
 
 **Gerhard Lazu:** So I would like to talk with you specifics... How would you deploy an application that is running on Kubernetes? What would you pick? This is your application; what would you write your application in? I think I already know the answer to this... Would you do Java, or something else?
 
@@ -224,7 +224,7 @@ I would love to see the entire cycle automated... And with Func, it's something 
 
 **Mauricio Salatino:** Yeah, it's getting really interesting, and there are a lot of things going around that project that caught my attention. And remember what we discussed before - I'm not up for Hello World examples, and if you take a look at Func nowadays, you will see you can create a function that you can deploy, and it runs, and it scales, and all that stuff, but it's just a single function, with printing something in the logs. That's fine. But what happens when you have a hundred functions and they need to send events between each other?
 
-**Gerhard Lazu:** \[00:48:10.14\] Okay.
+**Gerhard Lazu:** \[48:10\] Okay.
 
 **Mauricio Salatino:** I want to make sure that I have in a repository all that described, in a declarative way, that every time that I change something, it gets reflected into my cluster.
 
@@ -256,7 +256,7 @@ And from that perspective, I think that Jenkins was covering the entire space, a
 
 **Mauricio Salatino:** From GitHub.
 
-**Gerhard Lazu:** \[00:51:59.05\] Yeah. Or do you care if the CI/CD pushes code into production, or if production pulls it down? Do you have an opinion around how that should work, what is good, what are the trade-offs, the whole push versus pull into production aspect?
+**Gerhard Lazu:** \[51:59\] Yeah. Or do you care if the CI/CD pushes code into production, or if production pulls it down? Do you have an opinion around how that should work, what is good, what are the trade-offs, the whole push versus pull into production aspect?
 
 **Mauricio Salatino:** I would be careful emitting a strong opinion on that, because as a developer, I don't want to get involved with production deployments. But I would be very in favor of the CI pushing to production, if that basically means declaratively saying "Hey, these are the new versions of things; just apply that into the cluster."
 
@@ -278,7 +278,7 @@ I will be really interested in figuring out who in the CNCF ecosystem is focused
 
 **Gerhard Lazu:** One thing which I did try in recent months, and it worked fairly well, was Planet Scale with database migrations. Planet Scale - they branch your data; this is like your Git branch, and I use that with Wordpress. And the way to install WordPress is you have to start one of those branches. It will do all the database migrations and mutations, and then you commit that change. And then your main is always like it's locked and it shouldn't change, and when you want to start doing any changes again, you start another branch. I thought that was a very interesting idea, and it mapped to my Git mindset of how that works.
 
-\[00:55:58.12\] Now, we haven't used that with our application, and what we do is very simple. Before we deploy a new version, we take a back-up. It's actually one of the first things that happens when a new version goes out. It takes a back-up of the database, and then it runs the migration. We never had a problem with migrations in six years, but if there was one, we would have a backup to go back to... Because we never had to do it, it's not automated, but there's always a backup to go back to if you mess things up. And the easiest way to do that is just delete the database, recreate it, and by default it restores from backup, so you can tell it which backup version to restore from, and that's it.
+\[55:58\] Now, we haven't used that with our application, and what we do is very simple. Before we deploy a new version, we take a back-up. It's actually one of the first things that happens when a new version goes out. It takes a back-up of the database, and then it runs the migration. We never had a problem with migrations in six years, but if there was one, we would have a backup to go back to... Because we never had to do it, it's not automated, but there's always a backup to go back to if you mess things up. And the easiest way to do that is just delete the database, recreate it, and by default it restores from backup, so you can tell it which backup version to restore from, and that's it.
 
 Now, we don't have a lot of data, and we're thinking gigabytes, right? If you have terabytes or petabytes, it's a whole new problem. So, again, context matters.
 
