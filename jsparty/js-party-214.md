@@ -26,7 +26,7 @@ My co-host today is Nick Nisi. What's up, Nick?
 
 **Jerod Santo:** Yeah, that's really cool. It's a growing trend in our ecosystem. We have full-time open source maintainers sponsored by corporate backers, and you are another one added to that list. We were just talking before the show that our friend Zach Leatherman also recently went full-time on his frontend static site generator, Eleventy, working at Netlify -- he already worked at Netlify, but now he's not gonna work on Netlify, he's just gonna work on Eleventy, full-time... And that's super-rad. So congrats to Zach, and to Eleventy, and really, to all of us. When that happens, I feel like the whole community wins... Don't you guys think?
 
-**Nick Nisi:** \[00:04:26.07\] Mm-hm.
+**Nick Nisi:** \[04:26\] Mm-hm.
 
 **Anthony Fu:** Yeah, totally.
 
@@ -48,7 +48,7 @@ My co-host today is Nick Nisi. What's up, Nick?
 
 **Jerod Santo:** But you were gonna hold it back. You were gonna make us ask. \[laughter\] Let's tease that out, let's go to Anthony. So Anthony, how did you first get involved with Vue and eventually Vite? What attracted you to this community?
 
-**Anthony Fu:** \[00:08:09.28\] I just enjoy creating apps using Vue, and then when the Vue Composition API comes out - it's in the RFC phase and people are discussing this... And there was a community plugin called Vue Composition API - I think basically it's the plugin that enables composition APIs in Vue 2. So you can use at that times, with their plugins.
+**Anthony Fu:** \[08:09\] I just enjoy creating apps using Vue, and then when the Vue Composition API comes out - it's in the RFC phase and people are discussing this... And there was a community plugin called Vue Composition API - I think basically it's the plugin that enables composition APIs in Vue 2. So you can use at that times, with their plugins.
 
 So then I created VueUse \[unintelligible 00:08:37.22\] So at that time I kind of think "Okay, this is a good time for people to migrate from Vue 2 into 3. So I would like to make the migration easier." VueUse is compatible for both Vue 2 and 3. In Vue 2, it's relying on the plugins I just mentioned about. And sometimes, there's a misalignment in Vue 3 implementations of the composition APIs and their plugin. So I created a pull request with it, but the maintainer thinks \[unintelligible 00:09:12.11\] for a few weeks or months... So I kind of think "Maybe I can take that job." Basically, the work is kind of simple to align the API design with Vue 3, so I created an issue saying "Okay, I volunteer to maintain this project, and I have \[unintelligible 00:09:31.06\] I have contributed before." So then Evan comes here and says "Okay, that's great", and he gave me the permission to maintain it. Then I became one of the members of the Vue team.
 
@@ -60,13 +60,13 @@ So yeah, I think that's basically \[unintelligible 00:09:46.04\] from Evan - tha
 
 So in the team meeting of Vite we were trying to discuss how should we recommend a user to use, regarding of the testing. Jest essentially duplicated all the plugins, all the configurations you do in Vite. And if you have a custom Vite plugin in store, but you also need to write the transformations for Jest in order to have the same behaviors when running the code.
 
-\[00:11:58.15\] So as a result of the meetings, we basically cannot recommend any of the test runners at the current stage for Vite. So I think the only solution would be the end-to-end testing libraries, for example like Cypress or \[unintelligible 00:12:11.23\] But that's not really unit testing; it's like firing up the whole process, and it will take a lot of your CI time. So then Patak comes up with the name called Vitest... So yeah, maybe you want to talk about how you came up with that name.
+\[11:58\] So as a result of the meetings, we basically cannot recommend any of the test runners at the current stage for Vite. So I think the only solution would be the end-to-end testing libraries, for example like Cypress or \[unintelligible 00:12:11.23\] But that's not really unit testing; it's like firing up the whole process, and it will take a lot of your CI time. So then Patak comes up with the name called Vitest... So yeah, maybe you want to talk about how you came up with that name.
 
 **Nick Nisi:** Excellent name, by the way.
 
 **Patak:** It's strange, because before that team meeting -- these meetings would normally be weekly, and we are talking about all the features that we are accepting or rejecting in Vite, with Evan and the rest of the team. So as Anthony said, we were discussing this, and 3-4 months before that I was using the Vitest name; actually when I was creating a \[unintelligible 00:12:54.02\] or in Vite, I will have in my local folder, I would name it Vitest... Just because I will say Vite, and Test, and then I started to collapse it at one point.
 
-Then when we were discussing this, we had some notes, and I put Vitest with a question mark at the end in a meeting... And Anthony sees that, and in the other chat he goes like "Who wrote Vitest?" And directly goes and grabs the package name from Npm that was free. It was strangely free, because Vite was for a long time there already... So yeah, the team meeting ends, Anthony disappears for 3-4 hours, and then gets back saying, "Hey, I have a proof of concept", and starts already like "Please invite me", and I see that he was already kind of running tests and everything, doing some very Anthony thing there.
+Then when we were discussing this, we had some notes, and I put Vitest with a question mark at the end in a meeting... And Anthony sees that, and in the other chat he goes like "Who wrote Vitest?" And directly goes and grabs the package name from npm that was free. It was strangely free, because Vite was for a long time there already... So yeah, the team meeting ends, Anthony disappears for 3-4 hours, and then gets back saying, "Hey, I have a proof of concept", and starts already like "Please invite me", and I see that he was already kind of running tests and everything, doing some very Anthony thing there.
 
 **Jerod Santo:** So in terms of the project itself, right there on the homepage there's a big warning sign - Vitest is still in development. It says "It's not recommended to migrate your current testing setups yet. You can try it out in new projects if you're willing to get involved and help us." And it looks like they do have a few other people on the team; shout-out to Aslemammad, Vladimir and Ivan as well. They're on the homepage.
 
@@ -86,9 +86,9 @@ Then when we were discussing this, we had some notes, and I put Vitest with a qu
 
 And then maybe we can just escape the IO part. After we transpile the modules, we can just \[unintelligible 00:15:43.11\] them right away. So I came up with the project called Vite Node, basically to run some modules with Vite transformations, and then running in Node.
 
-\[00:15:57.24\] So then it comes to Vitest, so then I think "Okay, maybe I can create new test runners based on Vite." So I used Vite Node as foundations, and to evaluate the modules. Basically, it was the initial thing, and then we put the assertion library \[unintelligible 00:16:16.03\] and also the Jest snapshots, the package to mock with the snapshot features from Jest.
+\[15:57\] So then it comes to Vitest, so then I think "Okay, maybe I can create new test runners based on Vite." So I used Vite Node as foundations, and to evaluate the modules. Basically, it was the initial thing, and then we put the assertion library \[unintelligible 00:16:16.03\] and also the Jest snapshots, the package to mock with the snapshot features from Jest.
 
-So basically, we kind of wanted to create a one-stop test framework that I think test runners other than Jest don't provide. For example, you don't have snapshot features in Mocha or AVA. So then I put up the repos and invited the team members of Vite and Patak with me to help with the first MVP of the test runners. \[unintelligible 00:16:51.18\] is the idea really working? So we kind of think, "Okay, maybe we can open it up for our sponsor to have an early assess to our codebase." \[unintelligible 00:17:03.09\] stable parts, we open-sourced it, and then I think currently we have six team members of it, and people really contributed a lot to this project.
+So basically, we kind of wanted to create a one-stop test framework that I think test runners other than Jest don't provide. For example, you don't have snapshot features in Mocha or AVA. So then I put up the repos and invited the team members of Vite and Patak with me to help with the first MVP of the test runners. \[unintelligible 00:16:51.18\] is the idea really working? So we kind of think, "Okay, maybe we can open it up for our sponsor to have an early assess to our codebase." \[unintelligible 00:17:03.09\] stable parts, we open sourced it, and then I think currently we have six team members of it, and people really contributed a lot to this project.
 
 So I think at the current stage, I can say that -- I think the experimental stage is more like... I would like to keep it experimental because for some features breaking changes I would like to make it more well-designed. So I wouldn't be afraid to like because this is stable and I'm afraid to introducing breaking changes, or the great features would take a long time. So I think the current stage is that we just want to make it for a while, for more space for us to make it better.
 
@@ -100,7 +100,7 @@ So I think at the current stage, I can say that -- I think the experimental stag
 
 So that initial part I think was kind of important to even get a more -- I don't know; more time, like Anthony said, to cook it more slowly at the initial months, let's say, of Vitest.
 
-**Break:** \[00:19:58.00\]
+**Break:** \[19:58\]
 
 **Nick Nisi:** So thinking about Vitest, I wanna contrast it a little bit to another popular testing framework like Jest... And kind of understand some of the differences and some of the similarities. Is it pretty close to out-of-the-box supporting a lot of the same features? Maybe in different ways, but is there anything that you'll miss from Jest, or that you get as an added benefit in Vitest?
 
@@ -116,7 +116,7 @@ So then I see, "Okay, the interface of \[unintelligible 00:23:31.07\] from Chai 
 
 So that's kind of a subtle difference, but if you have a large codebase, you have to replace up, and some of them that is not really replaceable... Like find and then replace - some of them you cannot do it. So I kind of think that maybe I can just create utility functions that just rename the function to bound to that instance. So I'm kind of starting with some basic API stats to match with the Jest API. So I don't need to change my testing codebase that much.
 
-\[00:24:16.17\] I have a file called jestcompat in our codebase, and put in -- I think there are only five or six functions, and I just leave it there. It seems like that's all I need. So then contributors come in, and fulfill all the -- I don't know how many, but maybe 50... So those APIs to match with Jest. That would be really great. That would also be one of the great things in open source that people can contribute and improve the software, so you can focus on different things.
+\[24:16\] I have a file called jestcompat in our codebase, and put in -- I think there are only five or six functions, and I just leave it there. It seems like that's all I need. So then contributors come in, and fulfill all the -- I don't know how many, but maybe 50... So those APIs to match with Jest. That would be really great. That would also be one of the great things in open source that people can contribute and improve the software, so you can focus on different things.
 
 **Nick Nisi:** Yeah, that's great. Another question that I had was -- it kind of dives into the weeds a little bit of the way that you traditionally run code before Vite, and then with Vite. Am I understanding correctly that Vite is using more native ES modules, and that's one of the big differences in the way that it's doing its building and bundling?
 
@@ -150,7 +150,7 @@ In the tests we kind of short-circuited that and instead of setting up the state
 
 I was curious how -- not to dive too deep into the weeds of it, but if it's using more like native modules, is that something that you can get into and do that runtime replacement of "When I import this, actually give me this"?
 
-**Anthony Fu:** \[00:28:08.11\] Okay. So actually, it's a little bit complex. Things like the resolving in Vite is different from Node. Vite is targeting browsers; every import is rewritten into some URL. So in Vitest we're trying to mimic this behavior, so all the plugins can work exactly the same. So we will rewrite your import, and then to do some sort of transformations from Vite.
+**Anthony Fu:** \[28:08\] Okay. So actually, it's a little bit complex. Things like the resolving in Vite is different from Node. Vite is targeting browsers; every import is rewritten into some URL. So in Vitest we're trying to mimic this behavior, so all the plugins can work exactly the same. So we will rewrite your import, and then to do some sort of transformations from Vite.
 
 For example, since Vite supports TypeScript, JSX, \[unintelligible 00:28:41.12\] Vitest also does. So if you import a .ts file, so we will send that file to Vite to transpile it, and then to run the code inside of Node. And then in that file, every import will be also \[unintelligible 00:28:59.18\] to Vite to also run that.
 
@@ -166,7 +166,7 @@ And I think one thing that I would like to mention is that things like we are us
 
 And things like Vite is on demand. We don't bundle your code. Instead, we only just retransform the source code you changed. Everything else stays the same, so it'll be really fast. We made this by default. So if you run the tests, it will run all your tests once, and then it will enter the watch mode. A little bit like when you start up with a test, or like Vite, it will fire up your console \[unintelligible 00:31:52.13\]
 
-\[00:32:00.05\] A small trick is that we will check if it is running a CI. So you can have the send command; if it's running the CI, it will just run the code and retain the result with the process call. But if you are in a terminal, you type it, and the terminal is interactive, we will enter the watch mode.
+\[32:00\] A small trick is that we will check if it is running a CI. So you can have the send command; if it's running the CI, it will just run the code and retain the result with the process call. But if you are in a terminal, you type it, and the terminal is interactive, we will enter the watch mode.
 
 **Nick Nisi:** Nice.
 
@@ -216,7 +216,7 @@ I think that is important, because maintaining Vite already is a lot of work, an
 
 **Jerod Santo:** Right.
 
-**Nick Nisi:** \[00:36:02.00\] I'm hoping to ignore that error pretty quick here...
+**Nick Nisi:** \[36:02\] I'm hoping to ignore that error pretty quick here...
 
 **Jerod Santo:** Yeah, exactly.
 
@@ -226,7 +226,7 @@ I think that is important, because maintaining Vite already is a lot of work, an
 
 **Jerod Santo:** Wink-wink...
 
-**Anthony Fu:** So far, from the feedback we see \[unintelligible 00:36:12.03\] or in discussions, most of people are getting quite a lot of performance boost. Also I think currently Vue just switched the default version to 3, and also there's a new create vue command... So it now has a Vitest preset, which is great. So if you do the create vue npm -- I think it's npm create vue. Npm init vue. And then you can have a pop-up to say "Okay, if you want to use Vitest." I also see that quite a lot of projects are already using Vitest for testing. We have a list on our website.
+**Anthony Fu:** So far, from the feedback we see \[unintelligible 00:36:12.03\] or in discussions, most of people are getting quite a lot of performance boost. Also I think currently Vue just switched the default version to 3, and also there's a new create vue command... So it now has a Vitest preset, which is great. So if you do the create vue npm -- I think it's npm create vue. npm init vue. And then you can have a pop-up to say "Okay, if you want to use Vitest." I also see that quite a lot of projects are already using Vitest for testing. We have a list on our website.
 
 **Patak:** Yeah. Things like Cypress, for example, is starting to also recommend Vitest, because it plays nicely with their story of using Cypress for browser testing, and Vitest for node testing.
 
@@ -234,7 +234,7 @@ Also, circling back to the beginning of the discussion about the State of JS - t
 
 **Jerod Santo:** Lots of interest. Well, from the Vue and Vite core team and community out to the world, it's just been like high-quality project one after the next. So congrats to all of you all for all the work you guys are putting into these things. It makes sense why people are writing your names into the State of JS, and people are interested in Vitest and in Vite... Because it's really cool, the work product that comes from these teams. So I guess congrats to the entire community and to you two in particular for all your hard work, because it's really paying off, and I would say that the open source community really appreciates it.
 
-**Break:** \[00:37:59.18\]
+**Break:** \[37:59\]
 
 **Jerod Santo:** So next up, let's talk about Slidev. Now, this topic was actually requested... Let me give a shout-out to Adam Young, who requested to have you on the show, Anthony, to talk about Slidev. He says "It's an interesting app of web tech that I have never seen before." So this is presentations for developers. Do you wanna give us the skinny on this project \[unintelligible 00:39:06.01\]
 
@@ -248,7 +248,7 @@ Also, circling back to the beginning of the discussion about the State of JS - t
 
 **Anthony Fu:** Yeah. So as developers, you will have code in slides, and something that the code might be a bit long, and you want to emphasize/highlight some of the lines when you are talking... And the highlight should move, or something else. So I tried PowerPoint and Keynote, and also Google Slides, and I think they are kind of good to making slides, but not very good for developers, for some reason.
 
-\[00:39:54.00\] For example, if you want to highlight your code, you cannot do that inside of either of this software. You need to either make it as an image, as a snapshot, or there's some service to highlight your code with in-line styles of them. So you can paste them inside your notes, but then it comes to the highlighting. At those times, I kind of find it tricky to have a square, a little bit semi-transparent, white, so that however \[unintelligible 00:40:28.19\] So I will have two blocks inside of it, so I have a little gap. At that gap, that code will be highlighted. So when I want to animate, I can move those two blocks up and down, so I can highlight my code. But you know, that can be really time-consuming, and if you want to change your code, you have to do all the process over again. That's kind of my experience when preparing tech-related slides.
+\[39:54\] For example, if you want to highlight your code, you cannot do that inside of either of this software. You need to either make it as an image, as a snapshot, or there's some service to highlight your code with in-line styles of them. So you can paste them inside your notes, but then it comes to the highlighting. At those times, I kind of find it tricky to have a square, a little bit semi-transparent, white, so that however \[unintelligible 00:40:28.19\] So I will have two blocks inside of it, so I have a little gap. At that gap, that code will be highlighted. So when I want to animate, I can move those two blocks up and down, so I can highlight my code. But you know, that can be really time-consuming, and if you want to change your code, you have to do all the process over again. That's kind of my experience when preparing tech-related slides.
 
 I think after two or three slides, or talks, at the third times I kind of think "Okay, maybe I can make one using the web technology." That's \[unintelligible 00:41:10.12\] so I can style with CSS, so I can animate them using code, using JavaScript. So I'm trying to mess up with the Vite and use the Markdown to present the contents of the slides, and I think that's where the \[unintelligible 00:41:30.03\]
 
@@ -262,7 +262,7 @@ So then, even though I use these tools and life is getting easier, but creating 
 
 But the fact that it's just Markdown right there, and the separation of the content from the design... Because we get so bogged down, like you said; when you're building these slide decks and you're trying to present your content, and you're thinking about what it looks like, as well as what you're saying... And it just becomes onerous to produce that. But when you can separate them and easily borrow some people's themes, just swap them in, change the themes and write your content in Markdown, which is what we're used to writing documentation, and blog posts, and our notes, and our to-do's... Darn near everything at this point is written in Markdown. Very attractive proposition, I think. This is a tool that speaks to developers. Speaks to me, at least. Nick, Patak? Agree?
 
-**Nick Nisi:** \[00:44:16.05\] A hundred percent. I have been in the same boat, where I can't stand trying to get code to look right in Keynote... And I don't wanna do that, and I am so familiar with Markdown and just love writing everything in Markdown if I can. And this is just the perfect way to bridge that and just have it going. I've used tools like this before, including some that will present directly in Vim...
+**Nick Nisi:** \[44:16\] A hundred percent. I have been in the same boat, where I can't stand trying to get code to look right in Keynote... And I don't wanna do that, and I am so familiar with Markdown and just love writing everything in Markdown if I can. And this is just the perfect way to bridge that and just have it going. I've used tools like this before, including some that will present directly in Vim...
 
 **Jerod Santo:** Hah!
 
@@ -290,7 +290,7 @@ So with the web tech, you can actually have it on your phone, so it will kind of
 
 **Jerod Santo:** That is cool.
 
-**Patak:** \[00:48:04.18\] One thing there - as a user, that presenter mode was amazing to give a talk. It makes things so simple. When you have all the nodes there already, you can put the camera mode... I did a recording and it was so easy to do it with it. It's an amazing feature of Slidev.
+**Patak:** \[48:04\] One thing there - as a user, that presenter mode was amazing to give a talk. It makes things so simple. When you have all the nodes there already, you can put the camera mode... I did a recording and it was so easy to do it with it. It's an amazing feature of Slidev.
 
 **Jerod Santo:** Well, and an open source project, like all of these things... And a way to get involved on this one - it looks like there are some official themes and some community themes. But if you have a design eye, or if you wanna practice your CSS skills, it sounds like a fun place to get involved would be to submit and create themes. Because once they are out there and usable, it's so easy to swap in between and pick your favorite theme. It sounds like a great way to get involved. Is there any other things that you're looking for with regards to Slidev and community support?
 
@@ -322,7 +322,7 @@ One last question for you... Coming in from the audience, Danny Feliz asks "How 
 
 **Anthony Fu:** Okay... So back to seriously... I'm just really enjoying working on things. I think there's a lot of different \[unintelligible 00:50:27.26\] they are liking my work, or thanks emails, or have some sort of events... Also, I'm kind of really enjoying doing things, and to explore something that isn't there before. So I would like to see, "Okay, this one plus this one... What will be the combinations?" I think that sort of thing. So I think that's the thing that keeps me doing it.
 
-\[00:51:09.02\] Regarding maintaining those project - I think \[unintelligible 00:51:11.04\] I have a very great committee behind. People are helping me out. For Vitest, we have six-member teams. Actually, I have \[unintelligible 00:51:23.05\] the projects keep running very fast. The members are still maintaining the pull requests, and the issues, to the release. So I think similar to other projects we've used, we have ten(ish) members, and we have many functions, and many people to contribute new functions to it. I think that's it... I think that's how open source makes me really enjoy working on it.
+\[51:09\] Regarding maintaining those project - I think \[unintelligible 00:51:11.04\] I have a very great committee behind. People are helping me out. For Vitest, we have six-member teams. Actually, I have \[unintelligible 00:51:23.05\] the projects keep running very fast. The members are still maintaining the pull requests, and the issues, to the release. So I think similar to other projects we've used, we have ten(ish) members, and we have many functions, and many people to contribute new functions to it. I think that's it... I think that's how open source makes me really enjoy working on it.
 
 **Jerod Santo:** Well, we're surely enjoying you working on it as well, because all of the fruits of your labor are enjoyed by many people in the community, to the both of you. I think these are really cool projects. Slidev, check it out (sli.dev), Vitest lives at vitest.dev. Of course, all the links to all the things, as well as where you can hook up with Patak and Anthony on the internets will be in our show notes. They both do open source, they're both sponsorable, so if you want more cool things from these two, definitely consider sponsorship as well. Fellas, any final words? Patak, Anthony? ...before we call it a show.
 
