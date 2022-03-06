@@ -34,7 +34,7 @@
 
 **Mark Sandstrom:** Yeah, I'll take this. So GraphQL is a specification for building APIs. It consists of a query language for fetching data, and also a spec for implementing GraphQL servers. It can run over any transport, but it's usually run over HTTP. You send a query to the server, usually as a post request. If you squint, a GraphQL query kind of looks like a JSON document, without quotes or colons or scalar array values; pretty much what you're left with is the keys and curly braces. And that isn't a coincidence. The query document describes the JSON data to be returned by the server.
 
-\[00:04:05.03\] So the structure of the data that you're requesting is specified in a schema that you write... So your schema might have a type called user, and the user would have an ID, and a name, and perhaps friends... And friends could be an array of users... And if you follow that through, those friends could have friends... And a little bit later we can talk about why that's okay in GraphQL.
+\[04:05\] So the structure of the data that you're requesting is specified in a schema that you write... So your schema might have a type called user, and the user would have an ID, and a name, and perhaps friends... And friends could be an array of users... And if you follow that through, those friends could have friends... And a little bit later we can talk about why that's okay in GraphQL.
 
 **Ben Kraft:** I guess the way I like to think about GraphQL is as a solution to some of the classic difficulties of a REST API. So say you have an API and you wanna get the current user, but different pages wanna get different pieces of information about the current user... So one page might just want their ID and name, and the other page wants their friends, and their friends of friends, and some whole complicated thing. And GraphQL lets you just define one schema that can cover all of these, and then each page just says "I want this data", and then the server can send back exactly what it needs, instead of having to write a bunch of -- either call a bunch of different API calls from each page, and then you get a bunch of roundtrips, or having to write essentially an API call for each page, and then you have to kind of duplicate a bunch of things.
 
@@ -54,7 +54,7 @@ GraphQL says "We're just gonna have this whole schema", and then the client says
 
 **Ben Kraft:** Yeah. I think at Khan Academy our user had like a hundred fields, because it's anything anyone needs anywhere; you just put it somewhere useful, and then most clients are only gonna select like five fields. And that's fine, they don't pay for the others.
 
-**Jon Calhoun:** \[00:07:51.25\] I think that's something that me personally, I wouldn't have thought about at first, because I have a lot more experience just making JSON RESTful APIs that send that data back... And if your objects aren't too big, or there's not too much there, it doesn't make much of a difference. But like you said, if you have a lot of different use cases where the information for a user - you know, you might need a lot, it is nice that you can throw it all there and not worry about the fact that that could be really slow if you had to send everything.
+**Jon Calhoun:** \[07:51\] I think that's something that me personally, I wouldn't have thought about at first, because I have a lot more experience just making JSON RESTful APIs that send that data back... And if your objects aren't too big, or there's not too much there, it doesn't make much of a difference. But like you said, if you have a lot of different use cases where the information for a user - you know, you might need a lot, it is nice that you can throw it all there and not worry about the fact that that could be really slow if you had to send everything.
 
 So GraphQL - Mark, you mentioned that it kind of looks like JSON when you're writing these queries, and then the data you get back actually is JSON. Is that correct?
 
@@ -94,7 +94,7 @@ In Go, one of the nice things - each separate resolver function is resolved (in 
 
 So it's like a very simple, lightweight library, and it was very easy to put together. But that's definitely not the case on the server. I sort of almost can't really imagine what that looks like on server code, to implement the server-side GraphQL.
 
-**Mark Sandstrom:** \[00:12:14.02\] Yeah. I looked at your client right quick, and it looks like you specify the query as a string when you're making the query. Like you said, it populates the data... So in that case, you have the query string, and the struct, and you have to keep the two in sync with one another... So there's another client library, the shurcooL GraphQL client, and what it does is you use struct tags, and it will generate the query from the struct, and then populate the data back in the struct.
+**Mark Sandstrom:** \[12:14\] Yeah. I looked at your client right quick, and it looks like you specify the query as a string when you're making the query. Like you said, it populates the data... So in that case, you have the query string, and the struct, and you have to keep the two in sync with one another... So there's another client library, the shurcooL GraphQL client, and what it does is you use struct tags, and it will generate the query from the struct, and then populate the data back in the struct.
 
 **Mat Ryer:** Right...
 
@@ -114,7 +114,7 @@ But then on the other side, on the server, the types are actually a lot simpler,
 
 **Mark Sandstrom:** Yeah. And you need a different strategy, because with a SQL database you can select just the fields you want, and document -- at least the document database we use, you get the entire entity from the data store.
 
-**Break:** \[00:15:11.03\]
+**Break:** \[15:11\]
 
 **Jon Calhoun:** So it sounds like using GraphQL on the server side is going to complicate things... So presumably it's solving some sort of problems to justify all that added complexity?
 
@@ -122,7 +122,7 @@ But then on the other side, on the server, the types are actually a lot simpler,
 
 **Jon Calhoun:** So can you speak a little bit to what problems it's solving and how it was helpful at Khan Academy?
 
-**Mark Sandstrom:** \[00:16:16.06\] Yeah. So Ben mentioned just RUST APIs versus GraphQL APIs, where in a REST API you may be making multiple requests and stitching it together on the client. I think it really does make it easier for the client; we have a couple clients, we have a website, and we also have a mobile client...
+**Mark Sandstrom:** \[16:16\] Yeah. So Ben mentioned just RUST APIs versus GraphQL APIs, where in a REST API you may be making multiple requests and stitching it together on the client. I think it really does make it easier for the client; we have a couple clients, we have a website, and we also have a mobile client...
 
 **Ben Kraft:** To me, one of the really nice things is that -- as someone who mostly works on the server, one of the really nice things is that you don't have to know exactly which client is going to want what, where; you don't have to -- if the frontend developers decide they need three more fields in this particular query, they just add it. As long as those fields are already in the schema, because you needed them on some other page... Like, they can decide; they can just add and remove things. So as a server engineer, you just say "How do we compute any data that we do need?" You don't have to worry, really at all, about which requests need which data. The server library just figures all that stuff out for you, because the client just asks for it.
 
@@ -144,7 +144,7 @@ But then on the other side, on the server, the types are actually a lot simpler,
 
 **Mat Ryer:** Oh... You were nearly gonna do it.
 
-**Jon Calhoun:** \[00:20:00.17\] Some of these problems are interesting to me, because it seems like people are approaching them from different angles. One of the more recent React frameworks was Remix, and I believe they're trying to solve some of those similar problems of not knowing what data you need further down in your React application. I don't know if either of you have used it at all, but essentially, if I recall correctly, it's supposed to be something where your entire page has like a small section that's like a panel, or a widget that needs to load some data... It tries to make it so that starts loading the data on its own API request if it needs to, without it being a waterfall, where the first one goes, and the second one goes, and it's really slow...
+**Jon Calhoun:** \[20:00\] Some of these problems are interesting to me, because it seems like people are approaching them from different angles. One of the more recent React frameworks was Remix, and I believe they're trying to solve some of those similar problems of not knowing what data you need further down in your React application. I don't know if either of you have used it at all, but essentially, if I recall correctly, it's supposed to be something where your entire page has like a small section that's like a panel, or a widget that needs to load some data... It tries to make it so that starts loading the data on its own API request if it needs to, without it being a waterfall, where the first one goes, and the second one goes, and it's really slow...
 
 So I've seen people approach this problem, like you had said, Ben, where you need to kind of know what data the entire page needs, whereas sometimes they're just like, "Well, let's just not know what the entire page needs, and let each thing load its own data." And there's pros and cons to both, I'm sure, but... You know, just seeing different approaches to similar problems.
 
@@ -170,7 +170,7 @@ Another strategy which we use is we have an entire list of all the queries that 
 
 **Mat Ryer:** You let the clients free to build and ask for what they need, and then lock it.
 
-**Mark Sandstrom:** \[00:23:54.19\] That's right. Yeah, we statically gather those across the mobile client, across all of the backend services, and so we have a complete list, which allows us to do other very interesting things, since we know exactly what data is being asked for everywhere. We also use GraphQL for communication between our services.
+**Mark Sandstrom:** \[23:54\] That's right. Yeah, we statically gather those across the mobile client, across all of the backend services, and so we have a complete list, which allows us to do other very interesting things, since we know exactly what data is being asked for everywhere. We also use GraphQL for communication between our services.
 
 **Mat Ryer:** Do you really?
 
@@ -210,7 +210,7 @@ Another strategy which we use is we have an entire list of all the queries that 
 
 **Mark Sandstrom:** You do, yeah.
 
-**Mat Ryer:** \[00:27:54.12\] It's an interactive web client that can connect to the end point, and gives you like IntelliSense, so you can actually look at the objects... It's kind of self-documenting, so it does feel very modern in that sense. And that's also great, if someone's consuming an API, having that at your fingertips, where you have autocomplete and features like that. That is gonna, for sure, help. And consuming services... Actually, I did consume a service that was extremely complicated, and essentially was just -- I feel like they'd basically dumped their tables through GraphQL. It wasn't much design or nuance to it, frankly. So that did make it quite difficult to consume.
+**Mat Ryer:** \[27:54\] It's an interactive web client that can connect to the end point, and gives you like IntelliSense, so you can actually look at the objects... It's kind of self-documenting, so it does feel very modern in that sense. And that's also great, if someone's consuming an API, having that at your fingertips, where you have autocomplete and features like that. That is gonna, for sure, help. And consuming services... Actually, I did consume a service that was extremely complicated, and essentially was just -- I feel like they'd basically dumped their tables through GraphQL. It wasn't much design or nuance to it, frankly. So that did make it quite difficult to consume.
 
 **Mark Sandstrom:** Yeah.
 
@@ -232,7 +232,7 @@ I built an API once that was just all arrays. There weren't any objects. And if 
 
 **Mark Sandstrom:** We doubled down on making our GraphQL schema the authoritative place for our documentation... So attached to each field, you can put a doc string; attached to each type, you can put a doc string... So really, in our systems, if you wanna understand the broad data model and how things connect together, you go to our composed schema, or federated schema, and you can read through and get a pretty good sense. We have a linter that enforces that some doc strings are written, and also that they have a consistent format etc.
 
-**Ben Kraft:** \[00:31:49.11\] One of the nice things about GraphQL is that it's a fairly opinionated type system. I mean, you can certainly have a type that's like string or a list of string, but it's gonna encourage you to do the list of string. If you design your GraphQL schema well, that's really where you make that decision and where you say "Okay, this might be a list, so let's make it a list."
+**Ben Kraft:** \[31:49\] One of the nice things about GraphQL is that it's a fairly opinionated type system. I mean, you can certainly have a type that's like string or a list of string, but it's gonna encourage you to do the list of string. If you design your GraphQL schema well, that's really where you make that decision and where you say "Okay, this might be a list, so let's make it a list."
 
 **Jon Calhoun:** Alright, so when it comes to actually working with GraphQL - and this is a Go Time podcast... So were there any challenges that you guys experienced that felt specific to Go, or maybe specific to a typed language, versus using JavaScript or something else when using it?
 
@@ -252,7 +252,7 @@ So that's something that I think Go is really powerful, especially using Go and 
 
 **Mat Ryer:** It's good, ain't it? I'm usually not a fickle man... This episode has completely convinced me to now use GraphQL on the server. To be honest, I've never comprehended -- I thought it was built writing SQL, and writing joint queries, and things like this, in the backend.
 
-**Jon Calhoun:** \[00:36:03.12\] I think that gets confusing because --
+**Jon Calhoun:** \[36:03\] I think that gets confusing because --
 
 **Ben Kraft:** You can do that, but...
 
@@ -264,7 +264,7 @@ So that's something that I think Go is really powerful, especially using Go and 
 
 **Ben Kraft:** Even with that, I think the big benefit is really -- it's not that you can skip requesting name; it's an extra 10 bytes, or whatever... It's that you can provide those linkages to friends, and friends of friends, and friends of friends of friends, and you can decide exactly how far down you want to go. I think the relationships -- and that's why it's called GraphQL; your users may be a graph. You can think of the schema, actually, as a graph. And you can decide exactly how far down that graph you wanna traverse. And that's really where it's like -- you definitely don't want to include friends of friends of friends in every API request. That would really explode. But you can get away with including it in your schema, because the client decides "Okay, I don't actually -- I really just needed the friends."
 
-**Break:** \[00:38:06.12\]
+**Break:** \[38:06\]
 
 **Jon Calhoun:** So I guess I'm kind of curious on both of your opinions, since you've built some stuff with this... Typically, when I'm helping somebody learn to build an API or do something like that, my general advice is to start with just a simple REST JSON API that returns some data... Mostly because if you only have one client, and you're writing that one client, and you know exactly what data it needs, you can kind of tailor it around that. Now, granted, at some point it might get so complex that you need something else, but generally speaking, I'm sort of an advocate of keeping it as simple as possible, especially when you're learning... Because you can't learn 17 things at the same time; it's just not possible. And GraphQL, from what I've seen at least - it's not that it's overly complex, but it's also not like "Pick it up in 30 seconds and move on with it." It's gonna take a little bit of learning.
 
@@ -294,7 +294,7 @@ So I guess, what is your advice on when to get started with it, and then can you
 
 **Ben Kraft:** Yeah, I mean -- I think there's a risk of that for anything. I think GraphQL is easiest to use when you're working with the people who are writing the client. There are certainly public GraphQL APIs, but I think when you are kind of both sides, it's really the easiest to adopt.
 
-**Mark Sandstrom:** \[00:44:04.04\] Yeah. And I think writing a GraphQL query is pretty intuitive. Mat, you mentioned tooling where you can write a query, select a field, and actually that tooling will pop up, this is the type, and here are all the other fields that it has, and the documentation for those fields... So it does help with discoverability quite a bit as well, and I think that's a great place to start learning GraphQL, is just try writing some queries. It's a pretty easy entry into it. And graphql.org - really good overview if you wanna learn just more high-level how GraphQL works as a spec. Graphql.org/learn. You can run through those pages and get a pretty good, high-level overview.
+**Mark Sandstrom:** \[44:04\] Yeah. And I think writing a GraphQL query is pretty intuitive. Mat, you mentioned tooling where you can write a query, select a field, and actually that tooling will pop up, this is the type, and here are all the other fields that it has, and the documentation for those fields... So it does help with discoverability quite a bit as well, and I think that's a great place to start learning GraphQL, is just try writing some queries. It's a pretty easy entry into it. And graphql.org - really good overview if you wanna learn just more high-level how GraphQL works as a spec. Graphql.org/learn. You can run through those pages and get a pretty good, high-level overview.
 
 **Jon Calhoun:** Alright, we're getting sort of near the end of the episode, so is there anything else you guys would like to talk about before we move on to Unpopular Opinions?
 
@@ -312,7 +312,7 @@ So I guess, what is your advice on when to get started with it, and then can you
 
 **Jon Calhoun:** The federation is one of those things that I've looked at because it looks cool, but I've never had a project I've been working on that's like at the scale where this makes sense... So it hasn't been something I've actually dove into. So it's interesting to see that that worked for you guys, for your particular use case of migrating. Alright, let's move on to the Unpopular Opinions.
 
-**Jingle:** \[00:46:26.18\] to \[00:46:42.01\]
+**Jingle:** \[46:26\] to \[46:42\]
 
 **Jon Calhoun:** Alright, Mark and Ben, do you have any unpopular opinions you would like to share with us?
 
@@ -320,7 +320,7 @@ So I guess, what is your advice on when to get started with it, and then can you
 
 **Mat Ryer:** Yeah, I think that's a really interesting one, because it didn't come intuitively to me. That's something I had to learn over years of getting it wrong, basically. I definitely have an instinct to jump too soon into automating things... Because the process of solving that problem is quite nice and rewarding anyway, especially if -- because we're programmers, we're problem-solving, and things...
 
-\[00:48:09.08\] But you're so right. And the point you made about you should be able to manually do it first enough to know it inside out before you automate applies to lots of things I think too, and has so many benefits. I think the knowledge you get from that...
+\[48:09\] But you're so right. And the point you made about you should be able to manually do it first enough to know it inside out before you automate applies to lots of things I think too, and has so many benefits. I think the knowledge you get from that...
 
 **Jon Calhoun:** I feel like you're gonna have a hard time for that one being unpopular. I feel like you're gonna have a lot of people agreeing with you.
 
@@ -360,7 +360,7 @@ Now, it's completely different if you host a platform, but when it's just you do
 
 **Mat Ryer:** I love mine. I'm one of those. I have a gigabit fiber symmetrical. It's life-changing.
 
-**Mark Sandstrom:** \[00:52:02.14\] Magical.
+**Mark Sandstrom:** \[52:02\] Magical.
 
 **Ben Kraft:** Yeah. Sadly, we could not get that at this apartment.
 
