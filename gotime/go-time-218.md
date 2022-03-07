@@ -82,7 +82,7 @@ In Go, one of the nice things - each separate resolver function is resolved (in 
 
 **Jon Calhoun:** Okay.
 
-**Mat Ryer:** I wrote the Machine Box GraphQL client library as well \[unintelligible 00:11:04.27\]
+**Mat Ryer:** I wrote the Machine Box GraphQL client library as well, yeah.
 
 **Jon Calhoun:** Okay.
 
