@@ -10,7 +10,7 @@ Joining me today is my co-host, Jon Calhoun. Say hi, Jon.
 
 **Johnny Boursiquot:** It's been a minute, glad to have you with me here today. Also joining me are two -- I don't know if it's co-founders, or core contributors, or all of the above, but the two of you work on the Codenotary team. I did a quick google around and see that's a company that actually has a product that they're selling, but we're not here to talk about that, we're here to talk about the open source project that the team is behind, called immudb. Joining me to talk about this project are the folks who work on it all the time. I've got Bart Święcki, who is a software engineer, and he's passionate about cryptography, and applied math, and open source, and he's been working on immudb since last year... And obviously, he's been using Go to do that, so we're gonna be peeling back that onion to figure out what makes Go such a good tool for this particular kind of technology.
 
-\[00:04:23.23\] Also joining Bart is Jeronimo Irazabal. Jeronimo also works at the Codenotary, on the team that works on immudb, and he's a software engineer, also passionate about cryptography and databases; I'm seeing a theme here... And also, he's been working on immudb actually a little bit longer, since \[unintelligible 00:04:42.21\] since July 2020, on this particular project. I'm also interested in hearing what your journey has been using Go to build these kinds of things. So welcome, Bart, and welcome, Jeronimo.
+\[04:23\] Also joining Bart is Jeronimo Irazabal. Jeronimo also works at the Codenotary, on the team that works on immudb, and he's a software engineer, also passionate about cryptography and databases; I'm seeing a theme here... And also, he's been working on immudb actually a little bit longer, since \[unintelligible 00:04:42.21\] since July 2020, on this particular project. I'm also interested in hearing what your journey has been using Go to build these kinds of things. So welcome, Bart, and welcome, Jeronimo.
 
 **Jeronimo Irazabal:** Hi, thanks for having me.
 
@@ -24,7 +24,7 @@ I remember when I was working on some standard databases, just common databases 
 
 **Johnny Boursiquot:** Right. Let me try to state that back to you, but based on the way I understand it. So when we talk about immutable data - let's just remove the database aspect of it for a second. When we talk about immutable data, we're talking about "What is the state of things? What is the reality of things right now, or at the time I choose to record this data, be it on a piece of paper, or electronically, in a database, whatever?" What is the state of the world right now, at the time I'm writing this piece of data?
 
-\[00:07:58.16\] So if currently it is 50 degrees Fahrenheit, at this hour, at this minute, and in another hour if the temperature rises about ten degrees, and now it's 60 degrees, you're not changing the past. You're not changing when it was 50. You're basically adding a new record, saying "Okay, another snapshot of this data means that at this hour now it is this temperature."
+\[07:58\] So if currently it is 50 degrees Fahrenheit, at this hour, at this minute, and in another hour if the temperature rises about ten degrees, and now it's 60 degrees, you're not changing the past. You're not changing when it was 50. You're basically adding a new record, saying "Okay, another snapshot of this data means that at this hour now it is this temperature."
 
 So it's almost like you're dealing with sort of an append-only logging kind of situation, where at any given time you're able to go back in history to figure out what was the state of the world at this particular point in time. I can see why this creates some sort of a trail, a log, audibility, that kind of thing, and see "Okay, how is this thing changing over time? Who changed it? Why?", whatever. So that applies to a particular use case whereby in most cases what I'm used to is "Give me the current temperature." Whether I asked for that an hour ago or an hour from now, I'm asking for the current temperature. Give me the current temperature. So what you're tracking behind the scenes, multiple versions of it - that's kind of your business, but sometimes I just want whatever the current value, however you determine that, I want whatever the current value is. So these are slightly different use cases.
 
@@ -40,7 +40,7 @@ So if there's something crucial, like audit logs, which after some time you may 
 
 **Johnny Boursiquot:** Okay.
 
-**Jeronimo Irazabal:** \[00:12:09.08\] I think you were covering a lot of problems that are addressed by immutable databases. First I would like to clarify, immutability is an overloaded term, because as, Johnny, you were mentioning, with immutability we usually refer to systems or data structures that are append-only. That treat changes or updates as new data, actually. So when we are doing an update of a record, we are not mutating the original record, but treating the update as a new record is creating the change.
+**Jeronimo Irazabal:** \[12:09\] I think you were covering a lot of problems that are addressed by immutable databases. First I would like to clarify, immutability is an overloaded term, because as, Johnny, you were mentioning, with immutability we usually refer to systems or data structures that are append-only. That treat changes or updates as new data, actually. So when we are doing an update of a record, we are not mutating the original record, but treating the update as a new record is creating the change.
 
 So we are used to that for immutability. And actually, immudb relies on -- every component in immudb is an append-only data structure. Even the cryptographic data structure I would treat as append-only. But immutability in databases, or even in blockchain - we tend to refer to another thing; not just to append-only, but to the possibility to verify that the history hasn't changed. So every record is registered and cryptographically linked to what happened before. And then you have a way to verify if a given transaction or a given record was present and was not modified anymore once it was written. It doesn't mean that \[unintelligible 00:13:29.16\] of your balance account. As a traditional database, you will have \[unintelligible 00:13:37.01\] the current, the latest value that was placed for a given record, because the record will be the key that identified the address or the balance... But also, depending on the use case, it may be a cumulative set of changes, like indeed where we are committing changes. So the current state or the history - it's independent of that.
 
@@ -52,7 +52,7 @@ What we refer to this type of thing is verifiable. I prefer the term "verifiable
 
 **Jon Calhoun:** To make sure I understand this - that means that deleting records also isn't permissible? Is that true?
 
-**Jeronimo Irazabal:** \[00:16:15.21\] Deletion is actually -- we have two labels. We have logical deletion, or physical deletion. Logical deletion is something that can be handled by the application, or by the server. But the difference will be in terms of performance, because the filtering out of the information will be done much faster if it's done directly by the database.
+**Jeronimo Irazabal:** \[16:15\] Deletion is actually -- we have two labels. We have logical deletion, or physical deletion. Logical deletion is something that can be handled by the application, or by the server. But the difference will be in terms of performance, because the filtering out of the information will be done much faster if it's done directly by the database.
 
 In immudb we currently have support for logical deletion in both manners - deleting a key, for instance, or by providing an expiration date. But this currently is just a logical deletion. This means that the data will be still there, it will be automatically filtered out, and the client won't receive it. But it's not yet physically deleted. We are under discussions to incorporate physical deletion of data. It's a very interesting topic to discuss what involves physically deleting the data and yet being able to prove. So depending on the data you delete or you remove, is the possibility you have later on to build proof. So it's a very interesting topic.
 
@@ -62,7 +62,7 @@ In immudb we currently have support for logical deletion in both manners - delet
 
 **Jeronimo Irazabal:** Regarding the use case, a few months ago there was a situation with a famous tennis player and the Covid-19 results. And there was some news regarding multiple results depending on when it was queried from the service. Of course, if that data is stored in immutable databases or in blockchain, then it will be possible to actually know if that data was consistent or was tampered with. That is kind of a use case in a more traditional system of service; it may take time to use an immutable database in this type of systems or services, but I'm sure it will happen with time. So it's not about just sensitive information.
 
-**Break:** \[00:20:00.08\]
+**Break:** \[20:00\]
 
 **Johnny Boursiquot:** So it sounds like, of the use cases, some obvious ones are obviously financial transactions, health records, things that you care about that basically change over time; you want to be able to go back at some point and say "Hey, what was the state of things on this date?" and have a high degree of confidence that this data hasn't been altered, hasn't been modified or anything like that. That's the key takeaway here from what I'm gathering.
 
@@ -74,7 +74,7 @@ When I've learned about immudb - because I joined the team a few months ago - it
 
 Previously, we could think of this... Maybe there's a project that I want to create, and it would use this technology, but then I find it hard to implement this. And suddenly, I find this kind of database where I have a very easy interface and I can just take it and use it. So for me, that's the major goal of projects like immudb. So we have a lot of knowledge, and actually, the majority of the cryptography and all these algorithms were invented a long time ago, and right now we only started implementing them and implementing them practically. That's where I think immudb -- that's the goal of the project, is give people the way to use immutable databases in a simple way.
 
-**Jeronimo Irazabal:** \[00:24:01.12\] Yes. Before giving the explanation how I ended up here... But actually using immudb for an application developer is exactly the same as using a traditional database. You can download the immudb binary or \[unintelligible 00:24:17.29\] container, and you will use any other key-value store, or SQL database as well.
+**Jeronimo Irazabal:** \[24:01\] Yes. Before giving the explanation how I ended up here... But actually using immudb for an application developer is exactly the same as using a traditional database. You can download the immudb binary or \[unintelligible 00:24:17.29\] container, and you will use any other key-value store, or SQL database as well.
 
 So before I joined Codenotary, I was working as a software engineer for IBM, and the last projects were related to digital rights management, and that was related to applied cryptography there for generating the crypto materials... And also, I was a contributor for Hyperledger Fabric. By then also I worked also in an experimental project where we added SQL to Hyperledger Fabric. We added SQL support into the changelogs, actually in the smart contracts. But by then, I was convinced that the complexity of the project was quite big. There were many companies or organizations willing to use blockchain just to be sure or to prove themselves or to their clients that the data was not changed. But then they had to run a very complex system, so I always thought about the possibility to have just a traditional database with the verification possibilities. So to have the same verification capabilities like a blockchain provided, but thinking of singular organizations being the owners of the data, but yet to fulfill with auditory requirements or to prove to their clients that the data has not been changed.
 
@@ -86,7 +86,7 @@ And related to immutability, I think tampering detection is one of the types of 
 
 **Jeronimo Irazabal:** Actually, everything started as a log. immudb has a composite construction; everything started as an embedded database, so immudb can be used as an embedded database. This set of logs, append-only logs, that is verifiable - it's like a transparency log. So you can access it. One of the differences of a traditional key-value store is that you can access a given transaction by its unique ID. If you only need to store records, logs, events, and then to query them, you don't need to query the data using an index. Just directly using the entry of the log. That is the basic way of using it.
 
-\[00:28:05.25\] Then we have the possibility to build an index based on a key. Because every transaction or log entry consists of a list of key-value \[unintelligible 00:28:13.15\] So then you can easily get what are the transactions that modify this particular entry. And of course, you will get the latest one, but you also cannot get the history of the transactions that modified this particular... And that is how we implemented temporary capabilities. So you can go back in time in the database and query the database as it was some time ago, without seeing newer changes.
+\[28:05\] Then we have the possibility to build an index based on a key. Because every transaction or log entry consists of a list of key-value \[unintelligible 00:28:13.15\] So then you can easily get what are the transactions that modify this particular entry. And of course, you will get the latest one, but you also cannot get the history of the transactions that modified this particular... And that is how we implemented temporary capabilities. So you can go back in time in the database and query the database as it was some time ago, without seeing newer changes.
 
 On top of this, we implemented SQL capabilities. So when you create an entry, thinking in SQL, it ends up being a transaction that consists of key and value entries. So SQL, all the SQL changes or the SQL data model is backed by a key-value database. So actually, the same transaction is what is happening. We are using the key-value transactions to store transactions that are happening in SQL. SQL was added afterwards, so it's possible to use both.
 
@@ -112,7 +112,7 @@ So let's talk about the operability of this. But before we jump into that, I see
 
 **Jon Calhoun:** As I say, most package managers won't let you do it, so I think as developers we use immutable systems at times, but we kind of like forget about it... Because I think a package manager is a great example of something that really benefits from something where you can verify nothing got changed... Because that would be really bad when you're downloading third-party packages, to not know for sure that that's still the same version...
 
-\[00:31:55.20\] But it's also interesting in the sense that I feel like most systems we work with that use immutability have some sort of scapegoat; the best example I can give is Git. We all use Git, where you can have the history, and it's supposed to basically be immutable... But there's always ways to force changes and to rewrite history, which is not necessarily a great thing, but it's possible.
+\[31:55\] But it's also interesting in the sense that I feel like most systems we work with that use immutability have some sort of scapegoat; the best example I can give is Git. We all use Git, where you can have the history, and it's supposed to basically be immutable... But there's always ways to force changes and to rewrite history, which is not necessarily a great thing, but it's possible.
 
 So knowing that developers at some point want to rewrite history and stuff, do they have to come in to using immudb -- like they can't come into it, I'm assuming, with the same mindset of like "I can use this exactly like a SQL database." So are there any tips or advice that sort of like help them get out of that mindset that you see people struggling with when they're starting?
 
@@ -130,7 +130,7 @@ Also, this example with changing the address - I think this is something very in
 
 **Jon Calhoun:** So does that make adoption harder, when you're basically forcing them to do that?
 
-**Jeronimo Irazabal:** In this, case, in immudb, you have to convince every other client. If you want to roll back the history in immudb, we have to convince every auditor or client that already have that register \[00:35:18.27\] locally. That's the only option.
+**Jeronimo Irazabal:** In this, case, in immudb, you have to convince every other client. If you want to roll back the history in immudb, we have to convince every auditor or client that already have that register \[35:18\] locally. That's the only option.
 
 **Johnny Boursiquot:** Measure twice, cut once... \[laughs\]
 
@@ -146,7 +146,7 @@ Also, this example with changing the address - I think this is something very in
 
 **Bartlomiej Święcki:** Why should we be ashamed of that? Actually, I see that people who can say that they made a mistake and they corrected that, they tend to deal with those issues better than trying to hide it. So I would go that way.
 
-**Jon Calhoun:** \[00:35:56.07\] That makes sense. I mean, I guess there are definitely cases where it makes sense to want to delete things. Like, if you released something on Git that had private keys, clearly you need to try to clean that up... But I agree with you that it is hard; people should be okay with mistakes, but I feel like in practice people are weird with them.
+**Jon Calhoun:** \[35:56\] That makes sense. I mean, I guess there are definitely cases where it makes sense to want to delete things. Like, if you released something on Git that had private keys, clearly you need to try to clean that up... But I agree with you that it is hard; people should be okay with mistakes, but I feel like in practice people are weird with them.
 
 **Jeronimo Irazabal:** And there is actually a technical situation that happened and there is a rollback. If you are using, let's say, a single master and a single node, and then caches, and you cannot recover the data. So if the back-up you have is old, older than the state that the client has, they will complain about that situation. So that is a situation that could happen and has to be taken into account. So the mistake there will be having only one node, or not having a back-up.
 
@@ -160,7 +160,7 @@ We just talked about how basically the go mod proxy \[unintelligible 00:38:47.21
 
 **Bartlomiej Święcki:** Yeah, so SBOM (software bill of materials) is a term that is used to -- let's say that you create a software, and today you don't write all the software by yourself, you just use external packages... And when we look at, let's say, a Node.js application, it usually has hundreds of different dependencies. And the same with Golang, where you don't write an HTTP server by yourself, you just take what's in the standard library, and you do the same with contributions from other people.
 
-\[00:40:01.01\] A software bill of materials is basically describing that if we have this binary, or this product, what is it made of? And here we can actually use this immutable ledger, because you just produce those assets, those binaries once, and we can identify them by let's say taking a hash, which is uniquely specifying this specific binary, and says that "This consists of other components, and those components also have this unique ID", maybe some kind of hashes. So that means that if you change anything, even a smaller bit, you will get a totally different binary, and you also have this specific set of components that it was built from. And when you take software companies that are running these binaries then, and it turns out that there's one specific library that has a vulnerability, how can you figure out where are those old components that are vulnerable? By just taking the software bill of materials information, and by just scanning it, what is actually running in production, you can very quickly identify vulnerable components, and then just fix this.
+\[40:01\] A software bill of materials is basically describing that if we have this binary, or this product, what is it made of? And here we can actually use this immutable ledger, because you just produce those assets, those binaries once, and we can identify them by let's say taking a hash, which is uniquely specifying this specific binary, and says that "This consists of other components, and those components also have this unique ID", maybe some kind of hashes. So that means that if you change anything, even a smaller bit, you will get a totally different binary, and you also have this specific set of components that it was built from. And when you take software companies that are running these binaries then, and it turns out that there's one specific library that has a vulnerability, how can you figure out where are those old components that are vulnerable? By just taking the software bill of materials information, and by just scanning it, what is actually running in production, you can very quickly identify vulnerable components, and then just fix this.
 
 There were attacks where -- actually, until now, people may not know that the software that they are running is vulnerable. And this executive order is actually saying that you should have this software bill of materials, so that you can trace this information.
 
@@ -174,7 +174,7 @@ Log4j came out a few months ago, and it was a very critical vulnerability, where
 
 **Johnny Boursiquot:** Cool, cool. Very briefly, does running immudb - is that process markedly different from, say, managing your own traditional RDBMS, or your traditional key-value store? All things being equal, do I have to do more or less than I would need to, say, run a Postgres server, or a Redis server, or something like that?
 
-**Bartlomiej Święcki:** \[00:44:01.08\] Just run a Docker image, or download the binary and run it, and that's it.
+**Bartlomiej Święcki:** \[44:01\] Just run a Docker image, or download the binary and run it, and that's it.
 
 **Johnny Boursiquot:** And then run it. So the beauty of Go, right?
 
@@ -186,7 +186,7 @@ Log4j came out a few months ago, and it was a very critical vulnerability, where
 
 And the other is to be aware that you cannot fool the clients that are using immudb. So if you try to revert to another back-up, the clients will complain about that.
 
-**Break:** \[00:44:57.08\]
+**Break:** \[44:57\]
 
 **Johnny Boursiquot:** I am interested in obviously understanding why you chose Go for this kind of work... You could have picked a different language. Was there something special about Go that made this kind of work easier to approach?
 
@@ -202,7 +202,7 @@ Also, Codenotary is a startup company where efficiency is also very important; t
 
 **Johnny Boursiquot:** Cool. What about you, Jeronimo?
 
-**Jeronimo Irazabal:** \[00:47:42.29\] Yeah, exactly. When I joined also immudb was on the initial release... \[laughter\] And it was already written in Go. But we cannot say that we have changed it, made drastic changes. So we didn't change the language, but we \[unintelligible 00:47:57.00\] because by then we completely wrote from scratch the storage system. Before, immudb was using BadgerDB; that is another key-value store that is written in Go. But I think it was a good choice for the reasons that Bart mentioned.
+**Jeronimo Irazabal:** \[47:42\] Yeah, exactly. When I joined also immudb was on the initial release... \[laughter\] And it was already written in Go. But we cannot say that we have changed it, made drastic changes. So we didn't change the language, but we \[unintelligible 00:47:57.00\] because by then we completely wrote from scratch the storage system. Before, immudb was using BadgerDB; that is another key-value store that is written in Go. But I think it was a good choice for the reasons that Bart mentioned.
 
 I also like it because the code is easy to read, code readability. I find it very, very easy to read code that is written in Golang. It makes it easier having a standard format for Go.
 
@@ -210,7 +210,7 @@ I also like it because the code is easy to read, code readability. I find it ver
 
 **Bartlomiej Święcki:** It's good you mentioned the formatting of Golang code, because in C++ there was always a war, which one is better, and what to choose.
 
-**Johnny Boursiquot:** Yeah, nobody does gofmt, but everybody loves gofmt, yeah.
+**Johnny Boursiquot:** Yeah, nobody does `go fmt`, but everybody loves `go fmt`, yeah.
 
 **Bartlomiej Święcki:** Actually, I loved it since the first use, I must say.
 
@@ -220,7 +220,7 @@ I also like it because the code is easy to read, code readability. I find it ver
 
 **Johnny Boursiquot:** Here we go, it's that time. I hope you brought the goodies, gents... Alright, let's get the tune going.
 
-**Jingle:** \[00:49:06.26\] to \[00:49:25.12\]
+**Jingle:** \[49:06\] to \[49:25\]
 
 **Johnny Boursiquot:** Alright, alright, alright... So let's go with Jeronimo first. What have you got?
 
@@ -246,7 +246,7 @@ I also like it because the code is easy to read, code readability. I find it ver
 
 **Jeronimo Irazabal:** It's a waste of resources.
 
-**Bartlomiej Święcki:** \[00:52:15.12\] Yeah, a waste of resources, and I was thinking - we approach this all in the wrong way. Why don't we, let's say, have big keyboards, where you can punch things, like use your muscles, and maybe it will increase your productivity. Just think about all these genius doctors in our movies - when they do something, they do this with shouting and waving hands, and things like that... Even if we read histories about some inventions in the past, they were not done while sitting; maybe they were, but some inventions were done when, let's say, running after someone.
+**Bartlomiej Święcki:** \[52:15\] Yeah, a waste of resources, and I was thinking - we approach this all in the wrong way. Why don't we, let's say, have big keyboards, where you can punch things, like use your muscles, and maybe it will increase your productivity. Just think about all these genius doctors in our movies - when they do something, they do this with shouting and waving hands, and things like that... Even if we read histories about some inventions in the past, they were not done while sitting; maybe they were, but some inventions were done when, let's say, running after someone.
 
 I think we are just limiting ourselves. Why don't we learn things and doing studies like discussing projects during the run, or maybe swimming and solving computations in your head? Maybe this will increase our brain power.
 
