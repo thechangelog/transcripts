@@ -168,7 +168,7 @@ And things like Vite is on demand. We don't bundle your code. Instead, we only j
 
 **Patak:** One thing there that I think that is a massive advantage of Vitest - this thing that Anthony is telling about, HMR, that is extremely fast because of how Vite works... And the feedback loop that it enables is really amazing to develop. In the same way that when you change some colors, you can change it with the slide, and you see how it is applied. If you have Autosave on in Vite, you can do that and you will have the same feeling as you have in the dep tools.
 
-So for tests, this also kind of applies, and you will have the feedback right there. Later, there could be work to integrate this more with \[unintelligible 00:33:02.11\] to your code or your IDE... So in the same way that you have TypeScript errors, and your linked errors, you should have your tests errors right there, as you code. Kind of like a Wallaby experience. So I think this is really important, and is part of the same philosophy that Vite is going for.
+So for tests, this also kind of applies, and you will have the feedback right there. Later, there could be work to integrate this more with Visual Studio code or your IDE... So in the same way that you have TypeScript errors, and your linked errors, you should have your tests errors right there, as you code. Kind of like a Wallaby experience. So I think this is really important, and is part of the same philosophy that Vite is going for.
 
 **Jerod Santo:** That's super-cool.
 
