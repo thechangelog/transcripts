@@ -2249,6 +2249,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "geoffrich",
+      "name": "Geoff Rich",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4992896?v=4",
+      "profile": "https://geoffrich.net",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
