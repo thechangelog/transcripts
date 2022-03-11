@@ -18,7 +18,7 @@
 
 **Rich Burroughs:** Yeah, and I was working at a company where I was doing developer relations, and I did a podcast for them, and/or co-hosted and created one. And it was fun to do, I really loved my co-host, we had some really great conversations with people... But the company owned it, right? And so there were questions about, are the metrics good enough to justify us spending the time that we do on this? Those kinds of things came up, and I was thinking about it and kind of I wanted to do one of my own that I own personally and wasn't something that one of my employers controlled. And I was there at KubeCon and I kept running into all these amazing people that I know. I saw all kinds of folks there, and it just made me think about the fact that I have access to a lot of amazing people in the Kubernetes community.
 
-\[00:04:25.12\] I've just met a lot of folks over the last few years, and it just got me thinking that I had this list of friends that are in that community, and I was like, "I'm sure I could get some of these folks to come on the podcast." And interestingly, when you're doing things like podcasts, access is a big thing, right? I probably can't interview President Biden on a podcast if I want to, right?
+\[04:25\] I've just met a lot of folks over the last few years, and it just got me thinking that I had this list of friends that are in that community, and I was like, "I'm sure I could get some of these folks to come on the podcast." And interestingly, when you're doing things like podcasts, access is a big thing, right? I probably can't interview President Biden on a podcast if I want to, right?
 
 **Gerhard Lazu:** I'm still working on my Elon Musk interview. That's like a long-term project. I don't think it's going to happen. I don't think Elon is going to talk Kubernetes with me, or shipping codes on Mars or wherever his spaceships go, but that's my ambition. That's why I started Ship It.
 
@@ -44,7 +44,7 @@ So I've been doing the podcast -- I started doing it at maybe the worst time eve
 
 **Gerhard Lazu:** Yeah. I know the topic of ADHD is a big one, and I want us to come back to that towards the end, I'm thinking. But what I'm hearing is that you get to do something that you love, and you do it exactly the way you think it should be done, and you do it when you feel like it. So to me, it sounds like you're living the dream when it comes to podcasting; having those great conversations, talking to the people that you admire, that you respect, that you want to learn from - that sounds like a great mix of things. And I do have to say that you have a couple of great episodes. Actually, all of them are really great.
 
-**Rich Burroughs:** \[00:08:14.27\] Thank you.
+**Rich Burroughs:** \[08:14\] Thank you.
 
 **Gerhard Lazu:** My favorite ones are the ones with Kelsey and the one with Kris and Dave. And maybe the fact that they're on the front page has something to do with it. So maybe there's some sort of an algorithm that does that, but still -- I mean, they happen to be my favorite ones. And I'm wondering, which is your favorite Kube Cuddle episode? I know it's hard, but if you were to pick one, which one is your favorite and why?
 
@@ -76,7 +76,7 @@ So of the other ones, the conversation with Kelsey was definitely one of my favo
 
 **Gerhard Lazu:** We talk about a real-world infrastructure and set up, but what about real life, people that struggle with various things, whether it's ADHD, whether it's homelessness, whether it's other things, which have such a huge impact? Forget AWS versus GCP. This stuff is so much bigger, and it's out there, and people don't talk about it enough. So I really like that you have that perspective and you share that with others on Kube Cuddle. So... Big fan of that.
 
-**Rich Burroughs:** \[00:12:03.17\] Well, thank you. I feel like the Kubernetes community is really amazing. There're so many interesting people, and a lot of people with, at least from my perspective, really great values. It's a very inclusive community. And I think that that's part of what I want to show too, right? I want people to understand that this is a community full of a lot of really smart folks, but also a lot of really welcoming people, and that they can come and participate, too.
+**Rich Burroughs:** \[12:03\] Well, thank you. I feel like the Kubernetes community is really amazing. There're so many interesting people, and a lot of people with, at least from my perspective, really great values. It's a very inclusive community. And I think that that's part of what I want to show too, right? I want people to understand that this is a community full of a lot of really smart folks, but also a lot of really welcoming people, and that they can come and participate, too.
 
 **Gerhard Lazu:** People that care. People that give a damn, as some would say it. And I know that you've seen the Kubernetes documentary, but for those that haven't, I'll include the link. That's such a great one to understand the story of Kubernetes, but also hear those people talk, how they think, the struggles which they had. They're not as extreme as the ones that we mentioned, but nevertheless, they are tough. And it exists, the project, the community, because of many people. Many great people believed in it, and they gave their blood, sweat and tears to make it happen. Not because of payout, but because they believed in it. Simon Sinek has quite a few things to say about that, which is one of my great favorites.
 
@@ -94,9 +94,9 @@ I'm an old school ops guy, and I used to be that person who knew, "Oh, the front
 
 **Gerhard Lazu:** Okay.
 
-**Rich Burroughs:** \[00:16:01.20\] I've been meaning to. I've shared the links on Twitter, so it probably looks like I've seen it, but I'm going to be watching it soon. But I definitely remember those days; and there was a time where you could look at Mesos and look at Kubernetes, and Mesos was the right choice, you know? And it's really, really funny to look back on that, because I imagine there aren't a lot of folks running Mesos anymore. And if they do, it's probably the legacy thing that nobody wants to touch.
+**Rich Burroughs:** \[16:01\] I've been meaning to. I've shared the links on Twitter, so it probably looks like I've seen it, but I'm going to be watching it soon. But I definitely remember those days; and there was a time where you could look at Mesos and look at Kubernetes, and Mesos was the right choice, you know? And it's really, really funny to look back on that, because I imagine there aren't a lot of folks running Mesos anymore. And if they do, it's probably the legacy thing that nobody wants to touch.
 
-**Break:** \[00:16:31.18\]
+**Break:** \[16:31\]
 
 **Gerhard Lazu:** So in your recent tweets, I've seen a few that caught my attention. The one about the community documentary was one, and I'm really looking forward to talking to you after you watch it, both parts. They're great. And the other tweet that caught my attention was the really exciting stuff that is coming up for vcluster. And I'm wondering if you can tell us more about that.
 
@@ -116,7 +116,7 @@ I'm an old school ops guy, and I used to be that person who knew, "Oh, the front
 
 **Gerhard Lazu:** Interesting.
 
-**Rich Burroughs:** \[00:19:48.27\] A lot of other things. And we're excited about it. I'm really excited, especially, to see what people in the community come up with. It's always the case for me with things like this that folks from the community come up with use cases that I just never would've imagined myself. And so that's, for me, a lot of the excitement about it, is to see what people do come up with. And I think that what we're going to probably have a repo, a shared repo that folks can contribute their own plugins that they write to if they want to share those with other people.
+**Rich Burroughs:** \[19:48\] A lot of other things. And we're excited about it. I'm really excited, especially, to see what people in the community come up with. It's always the case for me with things like this that folks from the community come up with use cases that I just never would've imagined myself. And so that's, for me, a lot of the excitement about it, is to see what people do come up with. And I think that what we're going to probably have a repo, a shared repo that folks can contribute their own plugins that they write to if they want to share those with other people.
 
 **Gerhard Lazu:** Do you have plugins that will share part of this? Like, a few plugins that are part of this release, so that you have a plugin system, as well as a couple of plugins that show what is possible.
 
@@ -150,7 +150,7 @@ So if you've been in the Kubernetes community for a while, you've probably heard
 
 The other option that people use a lot - and I think this probably happens more - is they just provision a ton of clusters, right? So like every team gets their own cluster, or maybe even every person... And that's really, really bad. It's wasteful in terms of costs. It also has an impact on our environment, the fact that there's all of these clusters running, and in a lot of cases, the workloads aren't really doing anything; they're just taking up resources.
 
-\[00:23:42.08\] Holly Cummins from IBM gave a really great keynote at KubeCon a few years ago where she talked about this. And I really recommend folks googling that and finding it, or maybe you could put a link in the show notes. It's a really wonderful talk, and it got me thinking about this stuff. And it was one of the reasons why I was really excited about vcluster, because it sort of bridges the gap sum, right? It gives people a situation where they can share a cluster, and then inside of each namespace on the cluster -- so you're still doing the namespace isolation, in essence, but what vcluster does, is it puts what looks like a full-blown Kubernetes cluster inside of that namespace.
+\[23:42\] Holly Cummins from IBM gave a really great keynote at KubeCon a few years ago where she talked about this. And I really recommend folks googling that and finding it, or maybe you could put a link in the show notes. It's a really wonderful talk, and it got me thinking about this stuff. And it was one of the reasons why I was really excited about vcluster, because it sort of bridges the gap sum, right? It gives people a situation where they can share a cluster, and then inside of each namespace on the cluster -- so you're still doing the namespace isolation, in essence, but what vcluster does, is it puts what looks like a full-blown Kubernetes cluster inside of that namespace.
 
 So we started off with K3s, and there's a K3s API server in there, and a few other things. And when you as an end-user are interacting with that virtual cluster, your API requests are going to that K3s API server inside there. And so it gives those developers, or whoever's working with the virtual cluster - they're admin in there, right? And so they can do things like manage CRDs, and all of those things, but they don't have direct access to the underlying cluster.
 
@@ -186,9 +186,9 @@ So we started off with K3s, and there's a K3s API server in there, and a few oth
 
 **Rich Burroughs:** Right. So the virtual cluster doesn't have a scheduler. That's really the big difference. It doesn't schedule the workloads directly. What happens is those objects like pods are synced to the underlying cluster, and the workloads run there. And so when we were talking earlier about the plugin system - that has to do with the syncer. And so that's the part of the equation that people are going to be able to customize more, like what gets synced and how it gets synced, those kinds of things. But by default, it's pods and just a few other objects.
 
-And then vcluster does some things like with the naming, for instance. When the pods get synced to the underlying cluster, it kind of renames them. So it puts the namespace and the virtual cluster name into the name of the pods. When you do like, \[00:28:10.28\] get pods, you see that stuff embedded in the name, so that way there aren't collisions across the different virtual clusters.
+And then vcluster does some things like with the naming, for instance. When the pods get synced to the underlying cluster, it kind of renames them. So it puts the namespace and the virtual cluster name into the name of the pods. When you do like, \[28:10\] get pods, you see that stuff embedded in the name, so that way there aren't collisions across the different virtual clusters.
 
-**Gerhard Lazu:** \[00:28:20.06\] So because I'm a hacker at heart and I love finding the edge of systems, like where stuff breaks - that's where all the interesting stuff happens, in my opinion - so that I know what the limits are, so that I know what to stay away from, if I care, or what to improve...
+**Gerhard Lazu:** \[28:20\] So because I'm a hacker at heart and I love finding the edge of systems, like where stuff breaks - that's where all the interesting stuff happens, in my opinion - so that I know what the limits are, so that I know what to stay away from, if I care, or what to improve...
 
 **Rich Burroughs:** Yeah.
 
@@ -212,7 +212,7 @@ The other great thing too is that there's a good community building up around it
 
 The point which I'm trying to make is that you have a Docker running in them, and you're trying to install Kind, and you try to run some integration tests and you're wondering why it takes half an hour... Well, you have your answer. It's like in the setup. So if you're using vcluster and you have an actual managed Kubernetes autopilot, I think that's amazing. I'm not sure how well vcluster runs there, but you only pay for what you run in that Kubernetes. And then you can spin these virtual Kubernetes clusters on-demand, run your integration tests, tear them down, and you can keep repeating this and you'll only pay for the Kubernetes that you run. And it's always fresh. You can run multiple versions. This sounds so exciting. So I can see that being amazing. But I'm also wondering, do people run this stuff in production, by any chance?
 
-**Rich Burroughs:** \[00:31:48.03\] I don't know of anyone running it in production yet. We've heard from some people who were working towards that. So I think within the next few months, there may be some folks doing it. It's not necessarily going to be the best fit for everybody for production. Everybody has their own requirements, especially when it comes to like compliance and auditing, security, things like that. So if you're working at a bank, maybe these virtual clusters aren't going to be enough isolation for you. Maybe you really are going to have to give everybody their own cluster. It really just depends. But I think to me, the dev environments use case is a really strong one. I agree completely that the CI/CD kind of use case is a really good one; the CI part, especially.
+**Rich Burroughs:** \[31:48\] I don't know of anyone running it in production yet. We've heard from some people who were working towards that. So I think within the next few months, there may be some folks doing it. It's not necessarily going to be the best fit for everybody for production. Everybody has their own requirements, especially when it comes to like compliance and auditing, security, things like that. So if you're working at a bank, maybe these virtual clusters aren't going to be enough isolation for you. Maybe you really are going to have to give everybody their own cluster. It really just depends. But I think to me, the dev environments use case is a really strong one. I agree completely that the CI/CD kind of use case is a really good one; the CI part, especially.
 
 I've worked at shops before that had really, really long-running tests. And a lot of times you want to spin up new systems under tests even within the same test suite, because you want a brand new system that doesn't have any cruft on it. And so you might be spinning those up and throwing them away multiple times within a test suite. These vclusters take a few seconds to start up.
 
@@ -236,15 +236,15 @@ I've worked at shops before that had really, really long-running tests. And a lo
 
 **Rich Burroughs:** Okay. I think the K3s option is great, and that's a great place for people to start. But yeah, we just keep talking to folks who are like, "Oh, this doesn't work for me because of X reason." And we definitely try to address those things that we can, and improve it.
 
-**Gerhard Lazu:** Just to double-check - is this something that anyone can use for free, it's open-source, they can download and they can start using it?
+**Gerhard Lazu:** Just to double-check - is this something that anyone can use for free, it's open source, they can download and they can start using it?
 
 **Rich Burroughs:** Yes. Yeah, absolutely.
 
 **Gerhard Lazu:** Okay. That's what I thought. I just wanted to make sure that that's the case.
 
-**Rich Burroughs:** Yeah. So it was a feature in our commercial product that's called Loft. We had virtual clusters in there at first, and then at one point we decided to open-source it. So it's been open-sourced for, I want to say, like at least seven or eight months, something like that. So it's just been great to see people embrace this thing... Because there really are, I think, a lot of legitimate use cases for it. And there are a lot of people who really feel the pain of the multitenancy issues. So it's part of the reason why I joined the company is that when I looked at what they were building, it was things that addressed the pain points that I knew were out there, really major pain points, and they were addressing them in very smart ways.
+**Rich Burroughs:** Yeah. So it was a feature in our commercial product that's called Loft. We had virtual clusters in there at first, and then at one point we decided to open source it. So it's been open sourced for, I want to say, like at least seven or eight months, something like that. So it's just been great to see people embrace this thing... Because there really are, I think, a lot of legitimate use cases for it. And there are a lot of people who really feel the pain of the multitenancy issues. So it's part of the reason why I joined the company is that when I looked at what they were building, it was things that addressed the pain points that I knew were out there, really major pain points, and they were addressing them in very smart ways.
 
-**Break:** \[00:35:52.18\]
+**Break:** \[35:52\]
 
 **Gerhard Lazu:** Speaking of a company that built really interesting things, I keep hearing about this thing called DevSpace, and I don't know what it is. Can you tell me about it?
 
@@ -258,7 +258,7 @@ When I worked at Puppet years ago, I was in that infrastructure-as-code world fo
 
 **Gerhard Lazu:** It's like, whether I want to dig into this. Can I run Vim with DevSpace on Kubernetes?
 
-**Rich Burroughs:** \[00:40:04.01\] Can you run Vim...?
+**Rich Burroughs:** \[40:04\] Can you run Vim...?
 
 **Gerhard Lazu:** So I have some code that I want to edit. Can my Vim be provisioned with all the plugins, with all the config using DevSpace in Kubernetes?
 
@@ -296,7 +296,7 @@ When I worked at Puppet years ago, I was in that infrastructure-as-code world fo
 
 **Rich Burroughs:** So that's easy. So my favorite feature by far is this thing called sleep mode. And what sleep mode does, basically, is it scales down your replica sets when they're not being used. And I think that dev environments are probably the strongest use case for this. So developers are only working like 40 hours a week. They might even have multiple Kubernetes environments that they need to use. All of that stuff is sitting there. And as we've mentioned, that's a lot of cost... And what sleep mode does is it looks at the API requests that are coming in. And if there are none for that namespace, it can make it sleep. And again, this is configurable, right? So you can say "If there haven't been any API request for 30 minutes, go ahead and scale down all the replicas."
 
-\[00:43:49.20\] And so if you're doing something like auto-scaling your compute nodes, you could actually end up scaling up and down nodes based on that. But there are some places I think that do charge just even based on the workloads. And so you could definitely be saving some money there, saving resources for sure. It's very configurable. We've just added some new features recently where you can even set up a schedule. You could say, “I want this stuff to sleep everyday between 6:00 PM and 7:00 AM", however you want to set it up.
+\[43:49\] And so if you're doing something like auto-scaling your compute nodes, you could actually end up scaling up and down nodes based on that. But there are some places I think that do charge just even based on the workloads. And so you could definitely be saving some money there, saving resources for sure. It's very configurable. We've just added some new features recently where you can even set up a schedule. You could say, “I want this stuff to sleep everyday between 6:00 PM and 7:00 AM", however you want to set it up.
 
 **Gerhard Lazu:** So your answer made me want to look on the website and find out more. So job well done. Now we can move on to the next thing.
 
@@ -308,7 +308,7 @@ When I worked at Puppet years ago, I was in that infrastructure-as-code world fo
 
 **Gerhard Lazu:** But this one is about the CNCF landscape. And I'm wondering, which is the project that gets you most excited these days from the CNCF landscape?
 
-**Rich Burroughs:** Oh gosh, that's a hard one, because I'm not sure if some of the things that I would necessarily think of are technically in the CNCF or not. \[00:45:18.09\]
+**Rich Burroughs:** Oh gosh, that's a hard one, because I'm not sure if some of the things that I would necessarily think of are technically in the CNCF or not. \[45:18\]
 
 **Gerhard Lazu:** It's okay. We can make it wider. I'm just wondering what gets you excited these days. And I'm imagining it's going to be Kubernetes related, but it's okay if it's not.
 
@@ -326,7 +326,7 @@ And then I saw Liz Rice's talk at the last KubeCon, and another talk as well, an
 
 **Rich Burroughs:** And so, eBPF is this super-flexible thing that can do so many different tasks, but you've got to be able to write code to make it do those things. And for a lot of folks, writing kernel code is going to be a barrier, right? And so the idea that you have this tool that -- it does all kinds of things. It's like a security tool, it's monitoring, it's a CNI... It's really amazing. So yeah, that's another one of the projects that I think is super-exciting.
 
-**Gerhard Lazu:** \[00:47:54.16\] I had the pleasure of talking to both Liz Rice and then Lawrence at the last KubeCon. I forget which episodes those were, but we only had maybe 15-20 minutes.
+**Gerhard Lazu:** \[47:54\] I had the pleasure of talking to both Liz Rice and then Lawrence at the last KubeCon. I forget which episodes those were, but we only had maybe 15-20 minutes.
 
 **Rich Burroughs:** Yeah.
 
@@ -380,7 +380,7 @@ And then I saw Liz Rice's talk at the last KubeCon, and another talk as well, an
 
 **Gerhard Lazu:** It's too good. Okay. So I mentioned at the beginning that we'll talk about one of the topics that you're passionate about, and that was ADHD. Do you want to talk about it?
 
-**Rich Burroughs:** \[00:52:09.25\] Yeah, absolutely. So I got diagnosed with ADHD just a little bit over a year ago. And I'm not young, I'm pretty middle-aged, and so it's really been amazing to me, because it's had an impact on my life in so many ways and I didn't realize it at the time. And this is an experience that a lot of folks, I think, who get diagnosed, especially as adults, have. There's a lot of things that go into it, and people's experiences are different. People talk about ADHD in sort of sweeping ways, but it's not exactly the same for everybody. I always try to caveat that.
+**Rich Burroughs:** \[52:09\] Yeah, absolutely. So I got diagnosed with ADHD just a little bit over a year ago. And I'm not young, I'm pretty middle-aged, and so it's really been amazing to me, because it's had an impact on my life in so many ways and I didn't realize it at the time. And this is an experience that a lot of folks, I think, who get diagnosed, especially as adults, have. There's a lot of things that go into it, and people's experiences are different. People talk about ADHD in sort of sweeping ways, but it's not exactly the same for everybody. I always try to caveat that.
 
 But some of the classic problems that people have is like following through and finishing things, forgetfulness, like working memory problems... And it's just really interesting to me, because I look back at my life... I dropped out of college twice. I never graduated. I had academic problems in high school, too... Just a lot of things that I think have been very much influenced by this thing that I have, and I didn't understand it.
 
@@ -394,7 +394,7 @@ But the most rewarding thing to me by far is I'll have people - and it's usually
 
 **Gerhard Lazu:** I know that the last couple of years, two to be more precise, have been really tough mentally for many of us; all the lockdowns, all the social distancing, conferences, everything remote, lots and lots of meetings... It's been tough for a lot of people. And I know that some of my closer friends are the ones that have been struggling mentally. And I'm wondering, what is the difference between having ADHD and just being burned out?
 
-**Rich Burroughs:** \[00:55:53.13\] That's a really good question. So ADHD - parts of it at least are definitely a cognitive thing, right? Like I mentioned, the working memory, and what they call executive function, which is the ability to lay out a plan and accomplish a goal, that kind of thing. So my feeling is the reason I got diagnosed in the first place is that I was struggling a lot during the pandemic. That's exactly what led me to go and get evaluated. And what I feel like is that the cognitive load, in general, has been a lot higher for a lot of people, which I think exacerbates the ADHD stuff. But it's interesting, because there are people who -- there're sometimes people who talk negatively about ADHD, and one of the things they'll say is, "Oh, well, everybody gets distracted." And they'll look at ADHD symptoms and then they'll say, "Oh, everybody has that."
+**Rich Burroughs:** \[55:53\] That's a really good question. So ADHD - parts of it at least are definitely a cognitive thing, right? Like I mentioned, the working memory, and what they call executive function, which is the ability to lay out a plan and accomplish a goal, that kind of thing. So my feeling is the reason I got diagnosed in the first place is that I was struggling a lot during the pandemic. That's exactly what led me to go and get evaluated. And what I feel like is that the cognitive load, in general, has been a lot higher for a lot of people, which I think exacerbates the ADHD stuff. But it's interesting, because there are people who -- there're sometimes people who talk negatively about ADHD, and one of the things they'll say is, "Oh, well, everybody gets distracted." And they'll look at ADHD symptoms and then they'll say, "Oh, everybody has that."
 
 It's true that a lot of people experience some of those ADHD symptoms, but to actually get diagnosed with ADHD -- you know, part of the evaluation process is not just looking at what's happening with you today, but looking at your childhood; did you have these problems in school? While maybe more folks right now are experiencing some of those symptoms than they normally would, that's not going to get somebody an ADHD diagnosis if it started two years ago. So that's really the problem. It's partly degree, and it's the fact that this has spanned your whole life, because it's a physical thing in your brain and it's very genetic. I mentioned people who talked about their kids, getting their kids diagnosed, and it's actually a really common experience for parents to take their kids to get evaluated. And then as they start learning about ADHD more, they realize they have it, too.
 
