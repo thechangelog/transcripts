@@ -224,7 +224,7 @@ I also like it because the code is easy to read, code readability. I find it ver
 
 **Johnny Boursiquot:** Alright, alright, alright... So let's go with Jeronimo first. What have you got?
 
-**Jeronimo Irazabal:** Mine is not a technical one, but during the pandemic I started to see that a lot of developers started to upload photos of their working environment all the time; in a garden, on the beach... For me it's impossible. I don't know if it's just me, or those photos are just illustrative, like when you see a \[unintelligible 00:49:55.08\] get out. So that will be it. I don't know if it's just me, or...
+**Jeronimo Irazabal:** Mine is not a technical one, but during the pandemic I started to see that a lot of developers started to upload photos of their working environment all the time; in a garden, on the beach... For me it's impossible. I don't know if it's just me, or those photos are just illustrative, like when you see a hamburger ad. So that will be it. I don't know if it's just me, or...
 
 **Jon Calhoun:** I mean, you've got a whole gym sitting there behind you. \[laughter\]
 
