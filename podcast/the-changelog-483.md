@@ -20,7 +20,7 @@
 
 **Jessica Kerr:** Back when we still had hope.
 
-**Jerod Santo:** \[00:04:06.23\] And you had just set up a Rails 6 application with Avdi, and you had just installed Honeycomb on it, and you were like, "This is cool! Honeycomb!"
+**Jerod Santo:** \[04:06\] And you had just set up a Rails 6 application with Avdi, and you had just installed Honeycomb on it, and you were like, "This is cool! Honeycomb!"
 
 **Jessica Kerr:** Oh, that's right. Yeah.
 
@@ -76,7 +76,7 @@ I love that if I go to the site, I can see that. And if I interact with it, I ca
 
 **Jerod Santo:** That's awesome. That's exactly why Gerhard had a little bit of a trouble with the name Ship It as the show's name, because he says "Once you ship it, that's the start. That's not the end goal", whereas a lot of us treat that as the end goal. Like, "I've written this thing, now I need to deploy it or ship it, and that's the last thing I do." He's like, "No, no, no. That's one of the first things you do", which is exactly what you did with that Rails 6 app.
 
-**Jessica Kerr:** \[00:08:12.02\] Right. And I do it with a lot of things. I've got a little Intro to Observability course mostly up on graceful.dev now, which is Avdi's site for episodes and courses now; formerly RubyTapas. And the first thing I did was make a course and put a little bit of text in there. And it's public; I don't know who's gonna look at it... I mean, right now it's actually useful, but... To start with, it's a place. And then I start adding to it and adding to it.
+**Jessica Kerr:** \[08:12\] Right. And I do it with a lot of things. I've got a little Intro to Observability course mostly up on graceful.dev now, which is Avdi's site for episodes and courses now; formerly RubyTapas. And the first thing I did was make a course and put a little bit of text in there. And it's public; I don't know who's gonna look at it... I mean, right now it's actually useful, but... To start with, it's a place. And then I start adding to it and adding to it.
 
 **Jerod Santo:** Is there like a minimum viable concept in there, or is it just literally like "I have a fresh skeleton of an app. I'm gonna put it out there and then start building it in public"? Or is it worth building like feature one, and then going? It sounds like you literally go as soon as possible.
 
@@ -128,7 +128,7 @@ Mikeal Rogers had a similar sentiment. He codes in public, a lot of open source 
 
 **Jessica Kerr:** And launch is not deploy. Launch is that advertising blitz. It's emailing your mailing list and announcing it. It's a press release sometimes. So launch is like -- I mean, it needs to come after a deploy... \[laughter\]
 
-**Jerod Santo:** \[00:12:19.29\] Right.
+**Jerod Santo:** \[12:19\] Right.
 
 **Adam Stacoviak:** Hopefully...
 
@@ -152,7 +152,7 @@ Mikeal Rogers had a similar sentiment. He codes in public, a lot of open source 
 
 **Jessica Kerr:** ...for some people that's a week, for some people that's an hour. But when you get used to working really close to production, in the sense of you feel that the loop is incomplete until you've seen it in production and seen that effect or traces in Honeycomb - I don't know, it's a different way of conceiving our role in the world as less of someone who implements our vision and more of someone who works within an environment to change both of us.
 
-**Jerod Santo:** \[00:15:51.27\] How far do you take that with regards to source code? I'm starting to think about Fossil. We just did a show about git reset and how to manage your git local changes, and present them to your team for a pull request... And then we have Fossil, which is an SCM written by Richard Hipp from SQLite, and it kind of works different than git, insofar as like you make a commit - it's shared to your whole team who's on that project. It's Amelia out there... The whole like presenting even your code to your teammates isn't really a thing. He's just like "No. Every change, everything you do, mistakes and all, whatever it is - it should be shared immediately and always." And there's some people that really love that model; I'm not sure if you've tried writing code that way... I've never done it. I've used git pretty much only, and I very much shy away from that... I feel like it's like getting dressed in the morning; at a certain point, I wanna prepare before I enter the world... But I do see there's value; one of the values is your code is immediately shared. You never have that whole "In case of fire, git push and then run out of the building." It's already --
+**Jerod Santo:** \[15:51\] How far do you take that with regards to source code? I'm starting to think about Fossil. We just did a show about git reset and how to manage your git local changes, and present them to your team for a pull request... And then we have Fossil, which is an SCM written by Richard Hipp from SQLite, and it kind of works different than git, insofar as like you make a commit - it's shared to your whole team who's on that project. It's Amelia out there... The whole like presenting even your code to your teammates isn't really a thing. He's just like "No. Every change, everything you do, mistakes and all, whatever it is - it should be shared immediately and always." And there's some people that really love that model; I'm not sure if you've tried writing code that way... I've never done it. I've used git pretty much only, and I very much shy away from that... I feel like it's like getting dressed in the morning; at a certain point, I wanna prepare before I enter the world... But I do see there's value; one of the values is your code is immediately shared. You never have that whole "In case of fire, git push and then run out of the building." It's already --
 
 **Jessica Kerr:** And you never have merge conflicts.
 
@@ -196,7 +196,7 @@ Mikeal Rogers had a similar sentiment. He codes in public, a lot of open source 
 
 **Jessica Kerr:** So in a lot of senses, what I hate about the pull request process is just a real, unavoidable coordination cost of working with the team, of getting a change into the code. I'm not just changing code here. We already talked about we're also changing running software that's gonna impact users. But the thing is, I'm also changing a shared piece of knowledge that belongs to the whole team.
 
-\[00:20:02.11\] And so part of that transition process is not just how is this gonna transition for users, how are they going to have a smooth experience and how are they gonna find out about it, which involves marketing etc. it's also a transition for the rest of the team... Because this codebase that we're mentally integrated with, we have a hopefully overlapping mental model of how this code works, and that's how we're able to work in it, and that is affected by every change that I make.
+\[20:02\] And so part of that transition process is not just how is this gonna transition for users, how are they going to have a smooth experience and how are they gonna find out about it, which involves marketing etc. it's also a transition for the rest of the team... Because this codebase that we're mentally integrated with, we have a hopefully overlapping mental model of how this code works, and that's how we're able to work in it, and that is affected by every change that I make.
 
 One of the things we're trying to do with pull requests is I have to see what this code is gonna do, but also, other people need to see what this code is gonna do, and they need to know why it works the way it does, so that they can make the good decisions later, so that it continues to do that etc.
 
@@ -226,7 +226,7 @@ So I'd much prefer pairing, and better than pairing is ensemble working. Let's j
 
 **Jessica Kerr:** So in ensembler working the ideal is the whole team works together, and say a team is five people. Occasionally, other people float in, too. Like designers, or product people who contribute. But say there's a core team of five, with different expertise, that maintain the same piece of code. A typical ensemble is gonna be four. It's just whoever's there that day for the six hours or whatever that you try to overlap... And some days it'll be three; and some days it'll be seven, because you have guests.
 
-\[00:23:49.07\] The point is that when somebody goes to the bathroom, the group attention continues. There's like this focus that's more resilient than an individual focus, because you don't need everybody there, every single minute. You need each person there most of the time. And then the direct working together is the best way we know to share expertise and have that flow between people, when they can immediately say "Wait, that code looks weird to me." "Oh yeah, we changed that an hour ago."
+\[23:49\] The point is that when somebody goes to the bathroom, the group attention continues. There's like this focus that's more resilient than an individual focus, because you don't need everybody there, every single minute. You need each person there most of the time. And then the direct working together is the best way we know to share expertise and have that flow between people, when they can immediately say "Wait, that code looks weird to me." "Oh yeah, we changed that an hour ago."
 
 The limitation of our work on software is not clock time, it's not how much we can type; it's knowledge. It's how much we can know. It's all the different contexts that need to go into the decisions of how are the people using this now, what is it supposed to do, how has this changed in the past, why does this code look like \[unintelligible 00:24:45.01\] There's just so much knowledge...
 
@@ -262,7 +262,7 @@ The limitation of our work on software is not clock time, it's not how much we c
 
 **Jessica Kerr:** Right, right. So this is the practice formally known as mob programming. Woody Zuill came up with the term "mob programming" for this several years ago, and it gained a lot of popularity under that. But there's also a lot of people going "Ugh, mobs..." Here especially in Europe, there's nothing positive about the word "mob". So Emily Bache came up with the phrase "ensemble working", because ensemble is just nicer; it's still a group of people coordinating together... And it's more than programming. I mean, a lot of it is programming, but we do other things. We write documentations, we fill out timesheets, whatever it is we need to do together.
 
-**Adam Stacoviak:** \[00:27:58.14\] Is it like, in simple terms -- let me see if I can just grok this without even knowing the defection of it... Is it just simply coordinating working as like say four or more at a particular time, for a certain sustained period, on a problem set?
+**Adam Stacoviak:** \[27:58\] Is it like, in simple terms -- let me see if I can just grok this without even knowing the defection of it... Is it just simply coordinating working as like say four or more at a particular time, for a certain sustained period, on a problem set?
 
 **Jessica Kerr:** Oh, yeah.
 
@@ -320,7 +320,7 @@ This has the property that all decisions are voiced, so that the whole group at 
 
 **Jessica Kerr:** But then when you've got one of the developers who's fluent in this programming language out there, you'll be like "Check for errors", and they'll type "if err!= nil \[unintelligible 00:31:58.09\] So different people are different levels of smart input devices.
 
-**Jerod Santo:** \[00:32:10.14\] Gotcha.
+**Jerod Santo:** \[32:10\] Gotcha.
 
 **Jessica Kerr:** And over time, even that designer is gonna know --
 
@@ -366,7 +366,7 @@ This has the property that all decisions are voiced, so that the whole group at 
 
 **Jessica Kerr:** So that's okay. It'll still be fun.
 
-**Break:** \[00:34:39.18\]
+**Break:** \[34:39\]
 
 **Jerod Santo:** Speaking of things that people do together... Games!
 
@@ -436,7 +436,7 @@ This has the property that all decisions are voiced, so that the whole group at 
 
 So gamification as it's usually described is away to add achievements and points, and give people a dopamine rush of "Oh, you got an achievement! You deleted ten lines of code today. Woo!" Don't incentivize me to do something non-optimal. Anyway...
 
-\[00:39:48.05\] Also, I don't like the competitive instinct, the focus on competitiveness, because that's not what I want on this team. That's not where I want people to be in their brains. And yet, there is total value in making work more like a game. Not with points, not with competition; this book finally described it for me. When you look at games, the major magic that brings a lot of us to play them is the experience that we get from being able to solve problems that we have the ability to solve, but they're not super-easy.
+\[39:48\] Also, I don't like the competitive instinct, the focus on competitiveness, because that's not what I want on this team. That's not where I want people to be in their brains. And yet, there is total value in making work more like a game. Not with points, not with competition; this book finally described it for me. When you look at games, the major magic that brings a lot of us to play them is the experience that we get from being able to solve problems that we have the ability to solve, but they're not super-easy.
 
 The example that it lists is like Super Mario Bros. In Super Mario Bros the game designer gives you a few abilities. You can walk, run and jump. And that's it. You can walk, run and jump.
 
@@ -456,7 +456,7 @@ The example that it lists is like Super Mario Bros. In Super Mario Bros the game
 
 **Jessica Kerr:** Yeah. So when I look at that as one of the core qualities of a game, and then I look at my software teams, and -- I mean, in the real world our ends are a lot messier, and we're never gonna get the slickness of the game of "I've reached the flag. I'm done with the level." Even when you deploy the software, you still need to go back and check it, and is it still working. That flag falls down on its own. But can we come closer to setting goals, whether for a quarter, or a sprint, or an hour, and having the abilities that we need to reach them?
 
-It made me think about dev ops and automating deploy work, for instance. If you have a bunch of people who've been doing manual deploys, and they consider that -- maybe they're ops people and they consider that a significant part of their job. Well, they have the ability to accomplish the problem \[unintelligible 00:42:34.05\] by the end of the day. But when you automate those deploys and you give them different problems of "Now your job is to maintain this automation", you've taken away the problem that they know how to solve, and given them one that they don't have the ability currently to solve. And some people are gonna be like "Oh, now I get to learn this, that and the other." And they're gonna be okay, because they're excited about bringing their ability up to that level.
+It made me think about DevOps and automating deploy work, for instance. If you have a bunch of people who've been doing manual deploys, and they consider that -- maybe they're ops people and they consider that a significant part of their job. Well, they have the ability to accomplish the problem \[unintelligible 00:42:34.05\] by the end of the day. But when you automate those deploys and you give them different problems of "Now your job is to maintain this automation", you've taken away the problem that they know how to solve, and given them one that they don't have the ability currently to solve. And some people are gonna be like "Oh, now I get to learn this, that and the other." And they're gonna be okay, because they're excited about bringing their ability up to that level.
 
 **Jerod Santo:** Right.
 
@@ -476,7 +476,7 @@ It made me think about dev ops and automating deploy work, for instance. If you 
 
 **Jerod Santo:** Especially if you're doing ensemble programming.
 
-**Jessica Kerr:** \[00:44:04.29\] Yeah.
+**Jessica Kerr:** \[44:04\] Yeah.
 
 **Jerod Santo:** \[laughs\]
 
@@ -528,7 +528,7 @@ It made me think about dev ops and automating deploy work, for instance. If you 
 
 So some goals you choose to take on not because they are the most critical thing in your customers biofeature list, but because they're going to give you the skills that you need to have the flexibility to do much more interesting things at level three and four. So that's another way. And I can call that gamification.
 
-**Break:** \[00:48:40.19\]
+**Break:** \[48:40\]
 
 **Jerod Santo:** So who's the Shigeru Miyamoto of our career game?
 
@@ -568,7 +568,7 @@ So some goals you choose to take on not because they are the most critical thing
 
 **Jessica Kerr:** Yeah. So we don't have to be incentivized to take on these goals. We don't have to take on the goal of "Users spend more time on the page." We don't have to be incentivized to take on that goal. We can take on that goal for its own purposes, which is because it helps us make useful decisions about what change to make next.
 
-\[00:53:02.16\] And when we're in the code, we can think about "Oh, if I add this piece of information, will people spend more time on the page?" And yeah, maybe it'll draw their attention to something that really interests them. But I won't choose to maliciously make them spend more time on the page. I would totally joke about that. "Whoa! We can make the button not work the first time" in the ensemble. But we wouldn't actually do that, because we've taken on this goal deliberately, in order to guide our decisions in the game we're playing today. And you don't have to incentivize it, because incentivize it messes it up. Because "Oh, but it would easier to make the button not work. And if I do that, then I'll win!" That's the competitive spirit. "And I'll beat the other people!" Or "I'll get the $5 Starbucks gift card!"
+\[53:02\] And when we're in the code, we can think about "Oh, if I add this piece of information, will people spend more time on the page?" And yeah, maybe it'll draw their attention to something that really interests them. But I won't choose to maliciously make them spend more time on the page. I would totally joke about that. "Whoa! We can make the button not work the first time" in the ensemble. But we wouldn't actually do that, because we've taken on this goal deliberately, in order to guide our decisions in the game we're playing today. And you don't have to incentivize it, because incentivize it messes it up. Because "Oh, but it would easier to make the button not work. And if I do that, then I'll win!" That's the competitive spirit. "And I'll beat the other people!" Or "I'll get the $5 Starbucks gift card!"
 
 **Jerod Santo:** Sure. I think we'll get into the semantic debate around what "incentivize" means, but it seems like to me that you're talking about intrinsic motivation versus extrinsic motivation.
 
@@ -628,7 +628,7 @@ So some goals you choose to take on not because they are the most critical thing
 
 **Jessica Kerr:** Our job is making decisions, and we can make decisions that will reach that number, and also hurt the company. When we choose to adopt a goal, like winning in a game, we choose to adopt it for a period of time. And we always have in the back of our heads "Also, I need to go to bed." As adults anyway. The kids struggle with this. But we don't adopt it universally. It doesn't consume us. If you tell people they're gonna lose their job if they don't X, you're gonna get people who are consumed with X, because they have to be, in a way that's not healthy for the company, and in a way that doesn't lead to the best decisions.
 
-\[00:57:00.22\] If you're asking people to (I don't know), deliver packages on foot - I'm sure there's also problems with this... There's a delivery person outside right now. \[laughs\] You're asking people to deliver packages on foot, and you want them to go faster, and you give them a prize for being faster - maybe, maybe that might help. They'll probably just do it wrong, because you've twisted their incentives again. But if it's physical activity, maybe you can get people to go faster, spend more energy on it.
+\[57:00\] If you're asking people to (I don't know), deliver packages on foot - I'm sure there's also problems with this... There's a delivery person outside right now. \[laughs\] You're asking people to deliver packages on foot, and you want them to go faster, and you give them a prize for being faster - maybe, maybe that might help. They'll probably just do it wrong, because you've twisted their incentives again. But if it's physical activity, maybe you can get people to go faster, spend more energy on it.
 
 **Adam Stacoviak:** And there's always the possibility of a good-intentioned incentive going wrong in the hands of the incentivee, I guess; I don't know... Like, the incentivizer/incentivee.
 
