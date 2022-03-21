@@ -70,7 +70,7 @@ I love that if I go to the site, I can see that. And if I interact with it, I ca
 
 **Jerod Santo:** \[laughs\] Yeah, it is pretty cool. And actually, what you're saying there very much resonates with what Gerhard Lazu - who's the host of Ship It, and our SRE on Changelog.com - says all the time, which is like "Ship it as soon as possible. Get it out there, and then you'll see if it really works, or how it changes the world." Up until then, you're just guessing, right?
 
-**Jessica Kerr:** You are just guessing. \[unintelligible 00:07:31.10\] is like your own little bubble. And our job as developers - I don't wanna think of it as writing software; I think of it as changing software. Because that extends forever into the future. So step one, get it out there, step two, change it. Step three through infinity - change it.
+**Jessica Kerr:** You are just guessing. Works on my box is like your own little bubble. And our job as developers - I don't wanna think of it as writing software; I think of it as changing software. Because that extends forever into the future. So step one, get it out there, step two, change it. Step three through infinity - change it.
 
 **Adam Stacoviak:** Mm-hm.
 
@@ -84,7 +84,7 @@ I love that if I go to the site, I can see that. And if I interact with it, I ca
 
 **Jerod Santo:** Right.
 
-**Jessica Kerr:** If you think about it -- I mean, the web is a big place, and if you have a site up at a domain... What did we put ours at? \[unintelligible 00:09:13.21\] something like that. That doesn't bring anybody there. It's not like opening a storefront on a street where people are walking around.
+**Jessica Kerr:** If you think about it -- I mean, the web is a big place, and if you have a site up at a domain... What did we put ours at? `changewith.me` something like that. That doesn't bring anybody there. It's not like opening a storefront on a street where people are walking around.
 
 **Jerod Santo:** Yeah.
 
@@ -176,7 +176,7 @@ Mikeal Rogers had a similar sentiment. He codes in public, a lot of open source 
 
 **Jessica Kerr:** Well, we can have both.
 
-**Jerod Santo:** Yeah, exactly. I'm not saying you have to choose one \[unintelligible 00:18:13.17\] I'm just curious if you've tried the other direction.
+**Jerod Santo:** Yeah, exactly. I'm not saying you have to choose one true way, I'm just curious if you've tried the other direction.
 
 **Jessica Kerr:** Yeah, because if you want a change to stick, you've gotta get it integrated. And I do find excruciating the pull request process.
 
@@ -204,7 +204,7 @@ One of the things we're trying to do with pull requests is I have to see what th
 
 **Jessica Kerr:** Yeah...
 
-**Jerod Santo:** Because I could just push this code up and it would be in there. I know I do that on our project a lot, and Adam's like "Hey, this doesn't work like it used to." \[unintelligible 00:21:05.26\] I'm like, "Yeah, I changed it." He's like, "Oh." I'm like, "Here's your announcement. It's different now." But that's cool; we don't do marketing very well with each other. But a pull request -- and maybe that's why we hate it, because it's like ceremony, and formalization... It's all the stuff that is hard for us to do, and we just wanna keep making progress. It almost feels like an impediment... Impedance? I don't know the word.
+**Jerod Santo:** Because I could just push this code up and it would be in there. I know I do that on our project a lot, and Adam's like "Hey, this doesn't work like it used to." And just as an end user I'm like, "Yeah, I changed it." He's like, "Oh." I'm like, "Here's your announcement. It's different now." But that's cool; we don't do marketing very well with each other. But a pull request -- and maybe that's why we hate it, because it's like ceremony, and formalization... It's all the stuff that is hard for us to do, and we just wanna keep making progress. It almost feels like an impediment... Impedance? I don't know the word.
 
 **Jessica Kerr:** Mm-hm. Compared to working alone, it is.
 
@@ -228,7 +228,7 @@ So I'd much prefer pairing, and better than pairing is ensemble working. Let's j
 
 \[23:49\] The point is that when somebody goes to the bathroom, the group attention continues. There's like this focus that's more resilient than an individual focus, because you don't need everybody there, every single minute. You need each person there most of the time. And then the direct working together is the best way we know to share expertise and have that flow between people, when they can immediately say "Wait, that code looks weird to me." "Oh yeah, we changed that an hour ago."
 
-The limitation of our work on software is not clock time, it's not how much we can type; it's knowledge. It's how much we can know. It's all the different contexts that need to go into the decisions of how are the people using this now, what is it supposed to do, how has this changed in the past, why does this code look like \[unintelligible 00:24:45.01\] There's just so much knowledge...
+The limitation of our work on software is not clock time, it's not how much we can type; it's knowledge. It's how much we can know. It's all the different contexts that need to go into the decisions of how are the people using this now, what is it supposed to do, how has this changed in the past, why does this code look like this, oh it's an old style guide. There's just so much knowledge...
 
 **Jerod Santo:** Yeah.
 
@@ -318,7 +318,7 @@ This has the property that all decisions are voiced, so that the whole group at 
 
 **Jerod Santo:** Right.
 
-**Jessica Kerr:** But then when you've got one of the developers who's fluent in this programming language out there, you'll be like "Check for errors", and they'll type "if err!= nil \[unintelligible 00:31:58.09\] So different people are different levels of smart input devices.
+**Jessica Kerr:** But then when you've got one of the developers who's fluent in this programming language out there, you'll be like "Check for errors", and they'll type "`if err!= nil throw blah }`" So different people are different levels of smart input devices.
 
 **Jerod Santo:** \[32:10\] Gotcha.
 
@@ -456,7 +456,7 @@ The example that it lists is like Super Mario Bros. In Super Mario Bros the game
 
 **Jessica Kerr:** Yeah. So when I look at that as one of the core qualities of a game, and then I look at my software teams, and -- I mean, in the real world our ends are a lot messier, and we're never gonna get the slickness of the game of "I've reached the flag. I'm done with the level." Even when you deploy the software, you still need to go back and check it, and is it still working. That flag falls down on its own. But can we come closer to setting goals, whether for a quarter, or a sprint, or an hour, and having the abilities that we need to reach them?
 
-It made me think about DevOps and automating deploy work, for instance. If you have a bunch of people who've been doing manual deploys, and they consider that -- maybe they're ops people and they consider that a significant part of their job. Well, they have the ability to accomplish the problem \[unintelligible 00:42:34.05\] by the end of the day. But when you automate those deploys and you give them different problems of "Now your job is to maintain this automation", you've taken away the problem that they know how to solve, and given them one that they don't have the ability currently to solve. And some people are gonna be like "Oh, now I get to learn this, that and the other." And they're gonna be okay, because they're excited about bringing their ability up to that level.
+It made me think about DevOps and automating deploy work, for instance. If you have a bunch of people who've been doing manual deploys, and they consider that -- maybe they're ops people and they consider that a significant part of their job. Well, they have the ability to accomplish the problem set then, by the end of the day. But when you automate those deploys and you give them different problems of "Now your job is to maintain this automation", you've taken away the problem that they know how to solve, and given them one that they don't have the ability currently to solve. And some people are gonna be like "Oh, now I get to learn this, that and the other." And they're gonna be okay, because they're excited about bringing their ability up to that level.
 
 **Jerod Santo:** Right.
 
@@ -486,11 +486,11 @@ It made me think about DevOps and automating deploy work, for instance. If you h
 
 **Adam Stacoviak:** Gotcha.
 
-**Jessica Kerr:** Can we make our work more like an effective game? Can we scale the goals of an hour, a day, a sprint, a quarter, to something people can achieve? Can we give them the abilities that they need to achieve that? Automation can help with this. Automation can make things easier. I like to think about observability, for instance, giving people the ability to make useful software; as opposed to right now, the only feedback mechanism we have is -- I don't know, the JIRA ticket's done. So can we set a different goal? Something maybe more satisfying than "Close the JIRA ticket." Although "Close the JIRA ticket" can be a sub-goal. You've got games within games within games... The little puzzle games within the \[unintelligible 00:45:03.20\]
+**Jessica Kerr:** Can we make our work more like an effective game? Can we scale the goals of an hour, a day, a sprint, a quarter, to something people can achieve? Can we give them the abilities that they need to achieve that? Automation can help with this. Automation can make things easier. I like to think about observability, for instance, giving people the ability to make useful software; as opposed to right now, the only feedback mechanism we have is -- I don't know, the JIRA ticket's done. So can we set a different goal? Something maybe more satisfying than "Close the JIRA ticket." Although "Close the JIRA ticket" can be a sub-goal. You've got games within games within games... The little puzzle games within the MMOs
 
 **Jerod Santo:** Right.
 
-**Jessica Kerr:** So we can do that. But can we look at our work and notice the friction? Where are our goals too easy? Where are they too hard? Where are our abilities not suited for them? And maybe that means hiring someone with that knowledge, and then ensemble working with them, \[unintelligible 00:45:27.25\] the rest of the team, or something.
+**Jessica Kerr:** So we can do that. But can we look at our work and notice the friction? Where are our goals too easy? Where are they too hard? Where are our abilities not suited for them? And maybe that means hiring someone with that knowledge, and then ensemble working with them, dispersed around the rest of the team, or something.
 
 **Adam Stacoviak:** That's what I love about the Mario game, honestly, when you mentioned that... I think his name is Shigeru Miyamoto, he is the original Mario game designer. And I actually got into this kick where we got into the Nintendo Switch... I'd kind of gotten out of playing games, particularly Mario games, or Nintendo games. We had a Nintendo way back in the day, and then obviously we had a Wii, and then we finally got the Switch was old enough to play... And kind of gotten back into the details of the making of these games. There's some really interesting YouTube videos out there, documentaries on this game in particular, where Super Mario Bros came from, where Mario 3 came from, how it came to be... And why Mario 2 was so different than the other games.
 
@@ -510,7 +510,7 @@ It made me think about DevOps and automating deploy work, for instance. If you h
 
 **Jerod Santo:** I see.
 
-**Adam Stacoviak:** Kept similar traits in terms of their abilities... That's why \[unintelligible 00:46:45.27\] could jump, and float a little bit, and then fall...
+**Adam Stacoviak:** Kept similar traits in terms of their abilities... That's why princess could jump, and float a little bit, and then fall...
 
 **Jerod Santo:** Right.
 
@@ -538,7 +538,7 @@ So some goals you choose to take on not because they are the most critical thing
 
 **Jessica Kerr:** Easy one.
 
-**Jerod Santo:** He's the one. Okay... We should just go ask him what \[unintelligible 00:51:07.19\]
+**Jerod Santo:** He's the one. Okay... We should just go ask him what to do next I guess. Just go ask Kent. Just have a website where you ask Kent things.
 
 **Adam Stacoviak:** Yeah, I mean... It's incentivizing, really.
 
@@ -634,7 +634,7 @@ So some goals you choose to take on not because they are the most critical thing
 
 **Jessica Kerr:** Yeah, yeah!
 
-**Adam Stacoviak:** Whoever receives this incentive can skew \[unintelligible 00:57:43.12\] the goal set, the process to get to the goal.
+**Adam Stacoviak:** Whoever receives this incentive can skew him a line, the goal set, the process to get to the goal.
 
 **Jessica Kerr:** Right. Which is why I like the concept of games as a goal, an end that we choose to take on, because then we still have the perspective of "We chose to take this on within this context, and there's also a wider context."
 
@@ -664,7 +664,7 @@ So some goals you choose to take on not because they are the most critical thing
 
 **Jerod Santo:** Yeah. It's going down. Right now.
 
-**Adam Stacoviak:** No, it literally doesn't. It's so well-tested. I did lose data in the past, but it's so perfect now that it's kind of boring. I told Matt Ahrens, one of the co-creators of ZFS, I'm like "It's so boring to run ZFS, because it just is \[unintelligible 01:00:26.04\] software."
+**Adam Stacoviak:** No, it literally doesn't. It's so well-tested. I did lose data in the past, but it's so perfect now that it's kind of boring. I told Matt Ahrens, one of the co-creators of ZFS, I'm like "It's so boring to run ZFS, because it just is that great of software."
 
 **Jessica Kerr:** Nice.
 
