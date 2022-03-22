@@ -406,4 +406,8 @@ The hour and sub-second sections are optional. This is another valid timestamp: 
 
 ## License & Copyright
 
-[Creative Commons Attribution Share Alike 4.0](https://creativecommons.org/licenses/by-sa/4.0/). Copyright Changelog Media LLC.
+[Creative Commons Attribution Share Alike 4.0](https://creativecommons.org/licenses/by-sa/4.0/).
+
+`bigtent` folder copyright Grafana Labs.
+
+Everything else copyright Changelog Media LLC.
