@@ -56,7 +56,7 @@ Basically, everything in the intersection of Kubernetes and Prometheus was my ar
 
 **Frederic Branczyk:** Yeah, that's a great question, actually... So I've always been into infrastructure. When I was 15 I actually started my first company, which was just like a consultancy, you could call it. A young 15-year-old, I thought I was gonna solve big problems, and stuff, but every time I wanted to solve something, I always found myself really frustrated with infrastructure tools. So I inevitably always ended up working on infrastructure tools.
 
-\[00:03:45.23\] In let's say the first half of my career actually I focused a lot of my energy on security things. I worked in security research, threat detection, things like that. A bit of key management services... So yeah, that past was actually what initially caught my attention about CarOS, because of the securing the internet... But at the time, Prometheus was super-new, and CoreOS had just pivoted into the Kubernetes direction, and I felt like however I could get my foot in the door was how I was gonna get into that company. It was a problem set that I was very interested in regardless. It was infrastructure nonetheless, right? So that's kind of how I got into that. Prometheus and observability ultimately was what made me stick around.
+\[03:45\] In let's say the first half of my career actually I focused a lot of my energy on security things. I worked in security research, threat detection, things like that. A bit of key management services... So yeah, that past was actually what initially caught my attention about CarOS, because of the securing the internet... But at the time, Prometheus was super-new, and CoreOS had just pivoted into the Kubernetes direction, and I felt like however I could get my foot in the door was how I was gonna get into that company. It was a problem set that I was very interested in regardless. It was infrastructure nonetheless, right? So that's kind of how I got into that. Prometheus and observability ultimately was what made me stick around.
 
 **Tom Wilkie:** Very cool, very cool. How did you go from Prometheus to profiling then?
 
@@ -82,7 +82,7 @@ Google described in this paper that they were consistently able to cut down on i
 
 **Frederic Branczyk:** There's always time. \[laughter\] After I read that paper, other than wanting a tool like that, because of my experience with Prometheus, I felt like I was in the position to build this tool. I had worked with a lot of data over time. So I put together this barely compiling, barely working proof of concept that I also very creatively called ConProf (you know, continuous profiling), and I shared that as part of our predictions for what's to come for observability in 2019.
 
-\[00:08:08.10\] And yeah, I guess in 2020 when the Corona pandemic hit, I think just like there's still what people call the great resignations, or I forget what the word was - but I feel like I was in the same situation where I saw this opportunity and this gap in the market... And at the time, when I decided to quit Red Hat, there wasn't really any company solely focused on this. I think there was maybe Google offering sort of a tool in this space, but really, it was very open still. So I felt like there was an opportunity here, and so I started the company, Polar Signals, to kind of make it my full-time job.
+\[08:08\] And yeah, I guess in 2020 when the Corona pandemic hit, I think just like there's still what people call the great resignations, or I forget what the word was - but I feel like I was in the same situation where I saw this opportunity and this gap in the market... And at the time, when I decided to quit Red Hat, there wasn't really any company solely focused on this. I think there was maybe Google offering sort of a tool in this space, but really, it was very open still. So I felt like there was an opportunity here, and so I started the company, Polar Signals, to kind of make it my full-time job.
 
 **Matt Toback:** This is my lack of understanding, but where does it fit in sort of like when someone would start to instrument continuous profiling? What is something that they would probably do just before, and then what is a thing they would do after, as far as the lifecycle of the team?
 
@@ -98,7 +98,7 @@ So always doing this is kind of the equivalent of going from like Nagios checks 
 
 Let's say a CPU spike, or a memory spike - we can actually down to the line number understand what was different in our processes. What was being executed, versus what was not being executed. So this is super-powerful, and it's essentially an extension tool of the other already useful observability tools that we have, but it shines a different light, a different aspect of our running programs.
 
-**Tom Wilkie:** \[00:12:12.08\] What kind of overheads are entailed if you're constantly dumping the stack of the running application?
+**Tom Wilkie:** \[12:12\] What kind of overheads are entailed if you're constantly dumping the stack of the running application?
 
 **Frederic Branczyk:** That's a great question, and it's maybe the number one question that we get when we have people interested in this. I'll talk a little bit more before I concretely answer that. Essentially, we understood that this was going to be a really big concern by people, because people already do metrics, people already do logging, people already do tracing, and people are already concerned with the overhead that that has. And profiling was traditionally often looked at as a heavy operation.
 
@@ -114,7 +114,7 @@ So we're seeing less than a percent of overhead in CPU usage, while being able t
 
 The eBPF piece, essentially - this is where we're trying to create as much language support as possible. We started with native languages, so like Go, C, C++, anything that compiles to native machine code... Because this is pretty much exactly the way that we get memory addresses out of eBPF. So literally, the way that code is executed if \[unintelligible 00:16:00.24\] are present - I don't know how much we wanna get into the nitty-gritty details, but basically, when code is executed, there are registers that you can use to jump up the stack, essentially, so that you can kind of figure out which functions were being executed. If those are present, then this is super-easy. The Go compiler by default enables those. Every major company that we've talked to, at some point had a dispute whether to include them or not, and pretty much everyone has concluded debugging is much more important than shaving off a little bit of your binary size. So please include your debug infos in your binaries.
 
-\[00:16:49.29\] Basically, long story short is native code is pretty easy to profile, because that's exactly how it's being executed on machines. It gets a little bit trickier with interpreted or JITed languages like Java... But JITed languages actually are a little bit easier, because at the end of the day, they do still produce machine-executable code, and so we just need to kind of get that mapping from memory addresses to the symbols somehow out of the runtime. But all of those do require specific integrations, so that's something we're working on extending.
+\[16:49\] Basically, long story short is native code is pretty easy to profile, because that's exactly how it's being executed on machines. It gets a little bit trickier with interpreted or JITed languages like Java... But JITed languages actually are a little bit easier, because at the end of the day, they do still produce machine-executable code, and so we just need to kind of get that mapping from memory addresses to the symbols somehow out of the runtime. But all of those do require specific integrations, so that's something we're working on extending.
 
 And there's also a bit of a middle ground... So there is a standard defined in the Linux Kernel that says you can write a file to temp/perf, then the process ID .map, and this is essentially a file where any process can write of itself the mappings from memory address to symbol into. And this is useful, for example, for JITed languages. Node.js natively supports this, so all you need to do is add that flag to your Node.js app and we can already profile it.
 
@@ -142,7 +142,7 @@ What we did initially was we just scraped pprof profiles from the Go pprof endpo
 
 **Frederic Branczyk:** Yeah. The name actually worked out pretty nicely. Of course, we spent a little bit of time on the name, but at the end we also just decided on a name. But I think the very first article that was published was like "Get your parca", or something like that, and someone put a header picture of someone in a parca... So yeah, it kind of worked out.
 
-**Break:** \[00:20:26.19\]
+**Break:** \[20:26\]
 
 **Tom Wilkie:** You mentioned the eBPF and how you moved there for performance optimizations, engagement, better performance, basically... I haven't really looked at eBPF a lot myself, but I understood that the language you compiled it down to, the bytecode that it executed, were pretty restrictive. You couldn't have for loops, and things. So how do you do things like working the stack in eBPF?
 
@@ -156,7 +156,7 @@ We actually know -- I forget what the number is right now, but let's just put a 
 
 This is actually pretty neat, because now we only need to compile it to BPF bytecode, and distribute that. Parca Agent is written in Go, so we just embed that using native Go functionality for embedding, and then we load that program. This does require a relatively new kernel, like 5.2 I believe, but actually, everyone who runs on cloud providers, we haven't had a problem with this... And it's definitely the future.
 
-**Tom Wilkie:** \[00:24:07.00\] It sounds like dynamic linking for eBPF almost.
+**Tom Wilkie:** \[24:07\] It sounds like dynamic linking for eBPF almost.
 
 **Frederic Branczyk:** Sort of... Specifically for kernel headers, because most of the time that's what we're gonna be interacting with. We're reading something out of a process struct.
 
@@ -188,7 +188,7 @@ This is actually pretty neat, because now we only need to compile it to BPF byte
 
 **Frederic Branczyk:** Yeah, we actually have a couple of really cool demos... And not just demos, things like workflows that we actually apply ourselves, where we have both. Let me start with that. It's definitely not mutually exclusive. They're definitely harmonizing really well together, actually. So something that we've started doing is we put our function names into spans in our distributed traces, and this way we can immediately jump from a distributed trace to continuous profiling data that kind of tells us everything about the CPU time that we've seen spent in this function.
 
-\[00:28:09.20\] So now, typically we find a performance problem with distributed tracing and we see "This span was particularly long in this case", but why? That's actually the question, right? And we usually then went ahead and started manually profiling, at least before continuous profiling, and we had exactly the problem that continuous profiling solves, which is we never know whether we're gonna catch the process at a time when it's actually spending a lot of time in it, right?
+\[28:09\] So now, typically we find a performance problem with distributed tracing and we see "This span was particularly long in this case", but why? That's actually the question, right? And we usually then went ahead and started manually profiling, at least before continuous profiling, and we had exactly the problem that continuous profiling solves, which is we never know whether we're gonna catch the process at a time when it's actually spending a lot of time in it, right?
 
 So just by immediately being able to pull up all the data ever collected about time having been spent in that function is an incredibly powerful workflow, and it totally composes; it's not mutually exclusive.
 
@@ -206,7 +206,7 @@ I think with that we've kind of figured out how we're gonna do it. It's essentia
 
 **Frederic Branczyk:** So that part we've worked out pretty well, but the columnar store type value store is definitely something that we're still learning with.
 
-**Tom Wilkie:** \[00:31:57.04\] Very cool. So what kind of orders of magnitude are we talking about here? If I'm monitoring -- say I've got a couple hundred machines and I'm tracing... Let's say there's a Kubernetes cluster, 30-40 pods on each one... Say I'm tracing all of my applications a hundred times a second; am I gonna be worried about my network bill, or...?
+**Tom Wilkie:** \[31:57\] Very cool. So what kind of orders of magnitude are we talking about here? If I'm monitoring -- say I've got a couple hundred machines and I'm tracing... Let's say there's a Kubernetes cluster, 30-40 pods on each one... Say I'm tracing all of my applications a hundred times a second; am I gonna be worried about my network bill, or...?
 
 **Frederic Branczyk:** So the network is interestingly not so bad. It's more about gathering the data and then compressing it in a way that we'll still be able to read it back efficiently. It's a really similar problem space as Prometheus, where a lot of the resources are spent with memory, so that we can keep CPU time low, and disk IOPS low.
 
@@ -234,7 +234,7 @@ I can't really say the amount of resources that this is gonna need, because this
 
 **Frederic Branczyk:** I think in the very beginning I wasn't able to spend much time on it, so that very much reflected itself in the state of the project... So it didn't really get a whole lot of adoption until we did this revamping of evolving it into the Parca project. As I said, it barely compiled, it had a very poor storage that barely worked, and all of these things are getting a lot better now.
 
-\[00:35:58.29\] I think the most evolution that we saw was actually through working with Polar Signals on early users and customers, and all that feedback that we got here. I think that was really the most useful in understanding what people actually need from this kind of thing... Because we had our own ideas, because we are users of this system, but things like latency optimizations - we thought it was going to be useful for that, but we're working with e-commerce companies for example, and for those companies it's huge. They actually don't care that much about cost saving in their infrastructure; they care way more that they can increase their conversion rates by having lower latencies. Saying this now, it sounds incredibly obvious, right?
+\[35:58\] I think the most evolution that we saw was actually through working with Polar Signals on early users and customers, and all that feedback that we got here. I think that was really the most useful in understanding what people actually need from this kind of thing... Because we had our own ideas, because we are users of this system, but things like latency optimizations - we thought it was going to be useful for that, but we're working with e-commerce companies for example, and for those companies it's huge. They actually don't care that much about cost saving in their infrastructure; they care way more that they can increase their conversion rates by having lower latencies. Saying this now, it sounds incredibly obvious, right?
 
 **Tom Wilkie:** Yeah.
 
@@ -246,7 +246,7 @@ I can't really say the amount of resources that this is gonna need, because this
 
 We have the Stack Overflow - they do these questionnaires once a year, where they figure out what the most popular language is... But is that really the most popular language for those companies that care about optimizing their cloud builds, or care about performance? We don't really know that.
 
-**Break:** \[00:38:01.10\]
+**Break:** \[38:01\]
 
 **Matt Toback:** So Frederic, let's say I'm bought in, and I wanna adopt this in my company. Let's say it's such an easy example as an e-commerce company that wants to close more sales at any cost. How would you help me advocate to my leadership, to my manager? All of it feels kind of like icky to say, but help me explain it in a way that they would care, that doesn't have to do with the tech.
 
@@ -262,7 +262,7 @@ A lot of the hyperscalers have built systems like this; as I said, Google even w
 
 **Matt Toback:** Yeah, yeah.
 
-**Frederic Branczyk:** \[00:40:05.17\] That's kind of reason number one. Reason number two is what we talked about last, which was increasing conversions. When I talk to frontend engineers, they all know about this, but essentially when an interaction is faster than 100 milliseconds, it feels instant to humans. And in e-commerce, this is a very closely tracked metric, because it means the faster their system is, the higher their conversion rates are. And there's a lot of studies about this that this is actually true. I won't get into that, but I guess the easy way to say this is if a system is fast, it's more enjoyable to use for us, in a way. I think everyone can agree on that. For them, it's not just about saving money, it's about making more money.
+**Frederic Branczyk:** \[40:05\] That's kind of reason number one. Reason number two is what we talked about last, which was increasing conversions. When I talk to frontend engineers, they all know about this, but essentially when an interaction is faster than 100 milliseconds, it feels instant to humans. And in e-commerce, this is a very closely tracked metric, because it means the faster their system is, the higher their conversion rates are. And there's a lot of studies about this that this is actually true. I won't get into that, but I guess the easy way to say this is if a system is fast, it's more enjoyable to use for us, in a way. I think everyone can agree on that. For them, it's not just about saving money, it's about making more money.
 
 **Matt Toback:** Yeah.
 
@@ -290,7 +290,7 @@ And this actually kind of nicely moves us on to the next question... You know, t
 
 The metrics have the same labeling scheme as continuous profiling data, so it's super-simple to jump from let's say a latency metric of one process to the CPU profile of the same process, at the same time.
 
-\[00:44:04.03\] The query language and everything in the storage engine was specifically designed so that when you query some timestamp, it would choose the closest one to it, so that it actually hopefully aligns best...
+\[44:04\] The query language and everything in the storage engine was specifically designed so that when you query some timestamp, it would choose the closest one to it, so that it actually hopefully aligns best...
 
 **Tom Wilkie:** Prometheus style, yeah.
 
@@ -316,7 +316,7 @@ But yeah, these are definitely -- it's become a really hot space. And as I said,
 
 **Frederic Branczyk:** Yeah, so I think as with founding Polar Signals, I think I wanted to learn from other past experiences. With Polar Signals - I'll get to Parca in a second - one of the things that exploded when we announced our funding was our company culture; it went a little bit viral on Twitter, and that was heavily inspired by my past experiences at companies. So we wanted to do exactly the same thing with the open source project. As you mentioned, I was involved in the Prometheus project, and the Kubernetes project, and several others, and I wanted to be really intentional about the things, removing all of the -- in SRE land we always call this toil. All of the things that doesn't really produce value by doing it manually all the time, so that we can focus on actually creating value.
 
-\[00:48:22.25\] A small-sounding thing is our documentation, which is kind of templated throughout with versions. So everything in the release process is entirely automated. When we tag a release on GitHub, that automatically triggers the release pipelines, it automatically publishes the changelog, which is a manual process in the Prometheus project, for example... It then pushes the container images to a registry... And if and only if the container images have been successfully uploaded, it redeploys the documentation and retemplates everything with the latest version. This way, literally, the process of doing a new release is creating a Git tag, and it's like one click on GitHub. That way, I think we've created 20-25 releases in the two months that Parca had been released... And this is only possible because we can truly only focus on producing value. And all this other stuff is completely automated.
+\[48:22\] A small-sounding thing is our documentation, which is kind of templated throughout with versions. So everything in the release process is entirely automated. When we tag a release on GitHub, that automatically triggers the release pipelines, it automatically publishes the changelog, which is a manual process in the Prometheus project, for example... It then pushes the container images to a registry... And if and only if the container images have been successfully uploaded, it redeploys the documentation and retemplates everything with the latest version. This way, literally, the process of doing a new release is creating a Git tag, and it's like one click on GitHub. That way, I think we've created 20-25 releases in the two months that Parca had been released... And this is only possible because we can truly only focus on producing value. And all this other stuff is completely automated.
 
 So that was super-intentional, and we did spend a lot of time on it, but now we're saving a lot of time on it. So this is just kind of one of those learnings. There are definitely several others, but this is one that I'm personally very excited about, because it means I don't have to do boring work. \[laughs\]
 
@@ -328,7 +328,7 @@ So that was super-intentional, and we did spend a lot of time on it, but now we'
 
 **Frederic Branczyk:** So the thing that I learned in my experience is everyone always craves that kind of instant success with open source projects... But I've actually learned that sticking to something and going with it for the long run - you're just so much more likely to actually produce something useful, because you'll get user feedback, and something popular.
 
-\[00:51:53.29\] The ConProf project in the beginning was not very well visited, the documentation wasn't particularly good... I just never spent a whole lot of time on it, but still, it grew to 800 stars or something like that, simply because every month or two I did another commit, or something. So it really helps to just stick with it. As long as you're solving something that you're genuinely interested in, I also don't have a problem with doing that.
+\[51:53\] The ConProf project in the beginning was not very well visited, the documentation wasn't particularly good... I just never spent a whole lot of time on it, but still, it grew to 800 stars or something like that, simply because every month or two I did another commit, or something. So it really helps to just stick with it. As long as you're solving something that you're genuinely interested in, I also don't have a problem with doing that.
 
 **Matt Toback:** Are there other projects that you're watching that are very similar to Parca, that you feel aligned with, or that eventually might join forces?
 
@@ -392,7 +392,7 @@ So that was super-intentional, and we did spend a lot of time on it, but now we'
 
 **Matt Toback:** Sadly, that's all the time we have for today. Thanks to Tom Wilkie and our special guest, Frederic Branczyk. I'm Matt (2xT) Toback and I wanna thank you for listening. You'll see 1xT Mat soon. We'll see you next time on Grafana's Big Tent.
 
-**Outro:** \[00:57:04.03\] to \[00:57:26.24\]
+**Outro:** \[57:04\] to \[57:26\]
 
 **Tom Wilkie:** You know what we didn't do? We have a regular feature, Frederic, that we like to do every week.
 

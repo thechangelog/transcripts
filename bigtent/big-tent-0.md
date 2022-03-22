@@ -52,7 +52,7 @@
 
 **Matt Toback:** I also wanna go outside of just the vendor or the project side, because the people that are actually using all this stuff - their story is very different than the story that we tell. We're super-inclusive, and it surprises when someone's using some combination of things in a completely different way than I expected, and doing something really cool with it. So I want them to have a voice here at some point, just saying like "Oh, thank you, project, and thank you, vendor, and thank you, tool, but this is actually how I do it", and I want them to show off... Because this is stuff that people legitimately spend their own time to try and solve a problem with, and that's cool to me.
 
-**Mat Ryer:** \[00:04:09.29\] So what is the big tent then? Maybe we should explore that. What do we mean at Grafana when we talk about the big tent?
+**Mat Ryer:** \[04:09\] So what is the big tent then? Maybe we should explore that. What do we mean at Grafana when we talk about the big tent?
 
 **Tom Wilkie:** What is the big tent? It's a great question, and it's kind of somewhat ill-defined, almost intentionally. We take a bit of a different approach with the Grafana project, and with other projects inside the company, where we don't just naturally assume everything we touch is golden. Not necessarily every solution to a problem should come from Grafana Labs. The approach we've got about being a little bit more inclusive to new ideas, and being able to bring together different technologies and systems and communities under one roof, and that one roof is normally Grafana; the ability to visualize data from multiple backends in one place.
 
@@ -64,7 +64,7 @@ But I think it's more than that, because we're trying to apply the same techniqu
 
 **Tom Wilkie:** First off, this is not just gonna be about the things we're working on at Grafana Labs. It's not gonna be releases of various projects, and things like that. It's gonna be interviews with people in the industry, in the communities, it's gonna be discussions broader than just technology... I'm really looking forward to the episode on remote work, for instance. Grafana Labs has been a remote-first company its entire existence. It's not something we've really talked about a huge amount... And some of the things we've learned doing that, and some of the techniques we use, and some of the ways we organize ourselves - I think they're really interesting. So it's gonna be broader than just "Look at this cool monitoring project."
 
-**Matt Toback:** \[00:07:50.08\] I like the idea also of talking about open source, and open source as a company, and the question that we still get, even as we've grown, like "How do you make money? Why is open source part of the strategy?" I think that's great, because I think we can talk about it both in tech, but also saying why we think open source is a means to actually be different, and why it's closer to where people actually are right now. So I'm excited about that; I think that'll be cool. The remote work one - I'm excited about that, too.
+**Matt Toback:** \[07:50\] I like the idea also of talking about open source, and open source as a company, and the question that we still get, even as we've grown, like "How do you make money? Why is open source part of the strategy?" I think that's great, because I think we can talk about it both in tech, but also saying why we think open source is a means to actually be different, and why it's closer to where people actually are right now. So I'm excited about that; I think that'll be cool. The remote work one - I'm excited about that, too.
 
 **Mat Ryer:** Yeah, I'm quite interested -- someone had an idea of doing one called "Not just noobs", where it talks about mistakes that we make still today as quite senior (some of us more senior than others) engineers. We still make mistakes, and sometimes they're quite silly mistakes as well... And I think that's quite nice, to show people that that's sort of normal.
 
@@ -104,7 +104,7 @@ I remember when I first started, every time I made a mistake, I would think that
 
 **Tom Wilkie:** The Daves channel still exists, and unfortunately, the latest message in there was from \[unintelligible 00:10:30.03\] \[laughter\]
 
-**Mat Ryer:** \[00:10:33.23\] Saying "Okay, I'll leave."
+**Mat Ryer:** \[10:33\] Saying "Okay, I'll leave."
 
 **Tom Wilkie:** As far as I can tell, he's the only non-Dave in there though...
 
@@ -168,4 +168,4 @@ I remember when I first started, every time I made a mistake, I would think that
 
 **Mat Ryer:** And we'll see you next time on Grafana's Big Tent.
 
-Break: \[00:13:19.10\] to \[00:13:39.08\]
+Break: \[13:19\] to \[13:39\]

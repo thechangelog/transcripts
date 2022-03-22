@@ -44,7 +44,7 @@
 
 **Mat Ryer:** I do, but I didn't wanna \[unintelligible 00:04:00.04\]
 
-**Tom Wilkie:** \[00:04:02.14\] Is this why you're asking the question of what observability is...? \[laughter\]
+**Tom Wilkie:** \[04:02\] Is this why you're asking the question of what observability is...? \[laughter\]
 
 **Mat Ryer:** Exactly. I've never needed it. All my code just nailed it first time.
 
@@ -102,7 +102,7 @@ Think about a debugger. If I attach a debugger to a process, I've not instrument
 
 **Matt Toback:** Bechamel, thank you. I was completely spacing. Whereas like a tomato sauce - I don't know what it's called. I don't know my mother sauces.
 
-**Tom Wilkie:** \[00:08:16.22\] It's called a tomato sauce, I think. It's definitely tomato.
+**Tom Wilkie:** \[08:16\] It's called a tomato sauce, I think. It's definitely tomato.
 
 **Mat Ryer:** Good name.
 
@@ -172,7 +172,7 @@ If you look at things like the USE method, this is saying for every resource in 
 
 **Tom Wilkie:** This is the beauty of these kinds of methodologies, these philosophies. If you identify, if you build dashboards and you structure your systems such that you don't actually have to know what it is you're looking at, but you know what a resource is, and you know what utilization, saturation and error rate look like, then hopefully that can make it easier for someone who's not familiar with the system to start to diagnose what might be wrong with it.
 
-\[00:12:00.17\] At the same time, I don't think there's necessarily a panacea here. We live in a world where all of the models for how to develop software are literally designed to be broken on a day-to-day basis. We're always evolving the fundamental architectures, and any model that you express in a monitoring system or config management database will always meet a system that it can't fully model. This is one of my things I'm very keen on, not relying on these models of systems to automate extraction of insight, but instead relying more on heuristics. I'm not gonna go as far as saying AI, but relying on correlation of data between different systems to extract that insight. Really, more as kind of having engineers form hypotheses and providing you with tools to test those hypotheses. I think it's a different way of thinking of things.
+\[12:00\] At the same time, I don't think there's necessarily a panacea here. We live in a world where all of the models for how to develop software are literally designed to be broken on a day-to-day basis. We're always evolving the fundamental architectures, and any model that you express in a monitoring system or config management database will always meet a system that it can't fully model. This is one of my things I'm very keen on, not relying on these models of systems to automate extraction of insight, but instead relying more on heuristics. I'm not gonna go as far as saying AI, but relying on correlation of data between different systems to extract that insight. Really, more as kind of having engineers form hypotheses and providing you with tools to test those hypotheses. I think it's a different way of thinking of things.
 
 We talked a little bit about the USE method, and how that's helpful... You know, that works when -- I feel like if you're looking at challenges that come from, let's say, hardware. If your code is perfect, and the reason your service is failing is because the NIC has failed, or the network is throwing errors, dropping packets. I think in a world of microservices, it starts to break down, potentially. Thinking of a microservice as a resource is a bit of a stretch...
 
@@ -200,7 +200,7 @@ With anything -- with a queuing system, I think you need more of a queuing theor
 
 **Tom Wilkie:** I hope not... Otherwise, this gets really hard. I hope there are some common methodologies that can be applied to multiple systems, that maybe share a common architecture. But yeah, I think we're still learning what the best methodologies are, and how best to monitor things. Of course, as this gets more mature, this also gets more automated.
 
-**Matt Toback:** \[00:16:02.11\] Is there a way to instrument it or a way to set it up in which there would be like a red herring, to where you said the RED method wouldn't be useful in some case? But then if you set it up and it was reporting, you would have this false sense of security. Have you ever seen that happen, to where you think that you've set it up properly, and instead you've just kind of missed it?
+**Matt Toback:** \[16:02\] Is there a way to instrument it or a way to set it up in which there would be like a red herring, to where you said the RED method wouldn't be useful in some case? But then if you set it up and it was reporting, you would have this false sense of security. Have you ever seen that happen, to where you think that you've set it up properly, and instead you've just kind of missed it?
 
 **Tom Wilkie:** Yeah, all the time. Customers might be complaining because your alerts haven't caught it, you go to your dashboard and everything looks green. You're like "Well, what's going on here?"
 
@@ -238,7 +238,7 @@ Maybe the pace of innovation in software architecture is increasing, but we're s
 
 **Matt Toback:** Welcome to Big Tent, where it's Tom talking at us, \[unintelligible 00:20:10.00\] \[laughter\]
 
-**Break:** \[00:20:15.24\]
+**Break:** \[20:15\]
 
 **Tom Wilkie:** I think gravity of data is low in observability systems. Retention of logs tends to not be years, unless it's for audit and compliance reasons. If I wanna know what's broken with my system, I often wanna look at what happened in the last ten minutes, hour, couple of hours, and I don't really care what happened a few months ago. And yeah, this means if I want to try a new technology that's gonna help me understand what happened in the system, I only have to wait minutes, hours, maybe days before that technology becomes useful, if it is useful. But if you go and think "If I'm gonna switch from SQL to NoSQL", well, I need to architect my application, I need to change how I use the database, I need to learn how to deploy the new databases, I need to migrate my data... It's a six months, year-long process to migrate my database technology.
 
@@ -282,17 +282,17 @@ Maybe the pace of innovation in software architecture is increasing, but we're s
 
 **Matt Toback:** It becomes the everything then. So either that's brilliant or it means nothing. But then the other side - it does feel logical to me that response \[unintelligible 00:23:47.07\] is observability in my mind. And then you just come back to it. So it feels like a temporary pull into the real world, to then bring you back into the data.
 
-**Tom Wilkie:** \[00:24:02.04\] And you've also gotta mention the typical OODA loops. I'm not gonna say OODA, because it sounds silly... But you know, where your observability system is helping you react, but is it helping you actually kind of change anything? So to what point do you start to put in the ability to modify the system, the ability to scale things, the ability to tweak conflict? Is that observability? Probably not, right? But if you did it all within the same user interface, or when you start observing changes to your CI and CD pipelines...
+**Tom Wilkie:** \[24:02\] And you've also gotta mention the typical OODA loops. I'm not gonna say OODA, because it sounds silly... But you know, where your observability system is helping you react, but is it helping you actually kind of change anything? So to what point do you start to put in the ability to modify the system, the ability to scale things, the ability to tweak conflict? Is that observability? Probably not, right? But if you did it all within the same user interface, or when you start observing changes to your CI and CD pipelines...
 
-**Mat Ryer:** Yeah, to be honest, I think we will start to see that. It's not just instrumentation, but I do think we're gonna start to see developers becoming -- I mean, it already happens, really; the dev ops thing, where suddenly people who wrote the code have to be responsible for running it. And then suddenly we got serious. "Okay, hang on... This has got to be good. We need to actually instrument this code, we need to understand it properly..."
+**Mat Ryer:** Yeah, to be honest, I think we will start to see that. It's not just instrumentation, but I do think we're gonna start to see developers becoming -- I mean, it already happens, really; the DevOps thing, where suddenly people who wrote the code have to be responsible for running it. And then suddenly we got serious. "Okay, hang on... This has got to be good. We need to actually instrument this code, we need to understand it properly..."
 
-**Tom Wilkie:** Is that your characterization of dev ops, "They had to run it, so therefore they took it seriously?"
+**Tom Wilkie:** Is that your characterization of DevOps, "They had to run it, so therefore they took it seriously?"
 
 **Mat Ryer:** I think when it used to be someone else's problem... Like, what was that like, when you'd write something and then hand it over...?
 
 **Tom Wilkie:** I don't actually know; I've never operated in that space, to be honest. Well, I guess I have, right? Very early companies, we built shrinkwrap software and sold it to other people, who then used it to run their software. \[unintelligible 00:25:30.22\] And it was horrible, because I didn't know why the software didn't work. I had no ability to learn from how the software operated in practice.
 
-I see dev ops as the opposite. Coming from a dev background, it's actually that I want to operate the software, so I can learn more, so I can react quicker, so I can build better software. I feel like being on the hook for operating it helps me build software that is easier to operate, which helps everyone.
+I see DevOps as the opposite. Coming from a dev background, it's actually that I want to operate the software, so I can learn more, so I can react quicker, so I can build better software. I feel like being on the hook for operating it helps me build software that is easier to operate, which helps everyone.
 
 **Matt Toback:** So you're ObsOps?
 
@@ -314,7 +314,7 @@ So there should be a little bit of pragmatism... I particularly dislike any line
 
 **Mat Ryer:** I've been thinking about that specifically. I think there's space for -- you know, GitHub Copilot, which is the tool that you have in your IDE and it uses all the open source knowledge to guess what you're gonna say. It also uses your local context as well. And sometimes it gets it wrong, but honestly, if you haven't tried it, it is shockingly good at certain tasks. And I feel like instrumenting code - I don't know, but I feel like you could look for patterns of how people are instrumenting their code at least, and learn from that, and then suggest things.
 
-\[00:28:15.12\] I don't know if it's general enough that you'll be able to do that effectively and trust it, or if it's just gonna really help in humans to do that job... But yeah, on the other side, when you've got all this data, there are definitely some tasks where machine learning models or other statiscal models \[unintelligible 00:28:34.23\] will help in various ways. It is quite an exciting space, and we are paying attention to it at Grafana as well.
+\[28:15\] I don't know if it's general enough that you'll be able to do that effectively and trust it, or if it's just gonna really help in humans to do that job... But yeah, on the other side, when you've got all this data, there are definitely some tasks where machine learning models or other statiscal models \[unintelligible 00:28:34.23\] will help in various ways. It is quite an exciting space, and we are paying attention to it at Grafana as well.
 
 **Tom Wilkie:** But to devil's advocate on that... Why would you train a model to instrument your code, when you could just go in, recompile the code to add the instrumentation at runtime?
 
@@ -348,7 +348,7 @@ But you're right, the thing is, if it's so easy to instrument code - and it real
 
 I feel very strongly about this... I think logs are my insurance policy. What I mean by that is -- you know, when I get woken up in the middle of the night, I need to go and reconstruct what happened; forensically, figure out what happened, what led for the system to get into the state that it got into, and break its SLO. I need input, so I need external-facing things I can measure, things I can read, that will help me infer the internal state of the system. For me, that's logs. Very often, logs will help me go "Oh, I can go trace through these logs, reconstruct the values of various variables, and get to the point where I can see it's actually what went wrong."
 
-\[00:31:52.27\] So logs are that insurance policy. They're the thing that say "I put these in, and I know therefore sometime in the future when I have to reconstruct the state, I will be able to." And I like paying for insurance policies. It gives me peace of mind, it helps me sleep at night. But when insurance policies are very expensive, I start to be like, "Well, do I really need that? Do I really wanna pay that much for that insurance policy?" And that stresses me out.
+\[31:52\] So logs are that insurance policy. They're the thing that say "I put these in, and I know therefore sometime in the future when I have to reconstruct the state, I will be able to." And I like paying for insurance policies. It gives me peace of mind, it helps me sleep at night. But when insurance policies are very expensive, I start to be like, "Well, do I really need that? Do I really wanna pay that much for that insurance policy?" And that stresses me out.
 
 When a procurement person at company X that I work for comes to me and says "We need you to log less. You're spending too much on logs", that stresses me out, because they're getting rid of my insurance policy and \[unintelligible 00:32:27.06\] I can't sleep at night.
 
@@ -386,7 +386,7 @@ So that's why I built Loki. It was to make it affordable to store huge volumes o
 
 **Tom Wilkie:** \[unintelligible 00:33:49.28\] not recording a podcast, or anything...
 
-**Break:** \[00:33:54.14\]
+**Break:** \[33:54\]
 
 **Matt Toback:** I wanna talk about traces though, because I feel like two years ago you sat in Stockholm and you were like "Traces are this, traces are that, traces are amazing... Nobody uses them. And if you don't do it all, it's kind of useless." So plus two years, are we anywhere better, or do we just kind of like nudge each other and be like, "Yeah, yeah, traces..." \[laughs\]
 
@@ -410,7 +410,7 @@ So that's why I built Loki. It was to make it affordable to store huge volumes o
 
 **Tom Wilkie:** But yeah, so on the point of distributed tracing, Matt - yeah, a hundred percent; I feel like we're not quite living up to the promise of observability there, at the moment. That being said, the value of tracing is still very, very high. We've been on a journey with the systems that we run to get them to be very performant, and people have very high expectations of how quickly their dashboards load, and how quickly their queries succeed. And we would not have been able to achieve the latencies that we've achieved without distributed tracing. Because it's all in the long tail.
 
-\[00:36:12.18\] The thing that dominates our ability to respond to queries quickly is that one query that took a long time. That shifts everything. We're effectively at that kind of many high nines latency; we're just measuring the max. So we're measuring the speed of the slowest query. Now, I need to have a trace for that slow query, so that I can figure out why it was slow, what went wrong, and then you can start to design techniques to avoid it. And it's almost always where we should parallelize it more, we should chart it more, we should cache it more, we should retry them when they're slow... These kinds of things. The techniques are relatively well understood, but it's where do I deploy them, to what service, to what path on the query path. And yeah, that's why it is still unfortunately in my opinion too much effort to get these high-quality traces. But when you do, that's how you control your long tail.
+\[36:12\] The thing that dominates our ability to respond to queries quickly is that one query that took a long time. That shifts everything. We're effectively at that kind of many high nines latency; we're just measuring the max. So we're measuring the speed of the slowest query. Now, I need to have a trace for that slow query, so that I can figure out why it was slow, what went wrong, and then you can start to design techniques to avoid it. And it's almost always where we should parallelize it more, we should chart it more, we should cache it more, we should retry them when they're slow... These kinds of things. The techniques are relatively well understood, but it's where do I deploy them, to what service, to what path on the query path. And yeah, that's why it is still unfortunately in my opinion too much effort to get these high-quality traces. But when you do, that's how you control your long tail.
 
 And then once you've got high-quality tracing, so many things become possible. You suddenly have a service graph, because \[unintelligible 00:37:09.07\] is all interconnected and you can plot... Now you start to find, "Oh, I didn't know this system was talking to this system." You can start to do things like check that your SLOs nest nicely. If you have interdependent systems with different SLOs, you know the dependencies between them, and then you can check that you don't have a tighter SLO than one of the systems you're depending on. You can do all of these great things, so it is super-valuable. But yeah, it's not as easy to adopt as I'd like it to be.
 
@@ -440,7 +440,7 @@ And then once you've got high-quality tracing, so many things become possible. Y
 
 **Mat Ryer:** Can you also overindex on alerts? Can you end up just with too many alerts, or...?
 
-**Tom Wilkie:** \[00:40:03.29\] All the time. The amount of my friends are small... \[laughter\] I don't have any friends at work...
+**Tom Wilkie:** \[40:03\] All the time. The amount of my friends are small... \[laughter\] I don't have any friends at work...
 
 **Matt Toback:** \[unintelligible 00:40:12.11\] very small friends. You 3D-print them.
 
@@ -460,7 +460,7 @@ Bjorn from Souncloud, Prometheus, Google fame, he kind of explained to me, "Well
 
 **Tom Wilkie:** There are already projects doing this, which is really cool. There's a project called \[unintelligible 00:43:42.06\] by Matthias, who's one of the Prometheus maintainers, and that does this out of the box. You configure it with your SLOs and it basically generates these really high-quality alerts.
 
-\[00:43:54.00\] There's another project called Sloth, which is an awesome name, by a chap called Javier. I was just talking to him today, actually. And again, you give him (his tool) a definition, and it will generate out dashboards and alerts for these.
+\[43:54\] There's another project called Sloth, which is an awesome name, by a chap called Javier. I was just talking to him today, actually. And again, you give him (his tool) a definition, and it will generate out dashboards and alerts for these.
 
 **Mat Ryer:** Does it do it really slowly? Because I'd be disappointed if that was fast. \[laughter\] Maybe you could put it in sloth mode...
 
@@ -478,7 +478,7 @@ Bjorn from Souncloud, Prometheus, Google fame, he kind of explained to me, "Well
 
 **Matt Toback:** We should coin SloOps, which is SLO ops. SloOps.
 
-**Tom Wilkie:** Well, actually, I've been working on a project to -- we do these internally, we've generalized build functions to generate these alerts and dashboards... But we use a language called Jsonnet to do it. So I've been working on a project that I'm probably gonna open-source by the time this comes out, called JSLOnnet. This is why we don't let Tom name things.
+**Tom Wilkie:** Well, actually, I've been working on a project to -- we do these internally, we've generalized build functions to generate these alerts and dashboards... But we use a language called Jsonnet to do it. So I've been working on a project that I'm probably gonna open source by the time this comes out, called JSLOnnet. This is why we don't let Tom name things.
 
 **Matt Toback:** It also occurs to me that SloOps, if you read it out, it's sloops... That's funny.
 
@@ -542,7 +542,7 @@ Shall we describe the dashboard of the week?
 
 **Tom Wilkie:** Well, that's because it's our SLOs, but... I really like the use of structure and color and the fonts.
 
-**Mat Ryer:** \[00:48:11.18\] Yeah, fair play.
+**Mat Ryer:** \[48:11\] Yeah, fair play.
 
 **Tom Wilkie:** Matt, what do you like about this dashboard?
 
@@ -622,4 +622,4 @@ Tom, in your mind, what's it in pursuit of? It's the pursuit of more efficiently
 
 **Mat Ryer:** Yeah. You invented it, mate. So thank you so much for joining us, and we'll see you next time, on Grafana's Big Tent.
 
-**Outro:** \[00:51:56.03\]
+**Outro:** \[51:56\]
