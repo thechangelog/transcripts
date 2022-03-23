@@ -6,7 +6,7 @@
 
 Lo and behold, I never happened to do that, and then the publisher reaches out to me and says "Hey, would you like a review copy of this book? And I'm like "Sure, yeah. It's not like I don't have a dozen other things to do", but hey, I'm a sucker for reviewing Go books, and I was looking forward to this one as well... And I got the book in the mail, started going through it, and I was basically nodding in few places, I'm like, "Yup, yup, that's how I would explain that." In other places I'm like, "Okay, yeah, that's a different way of explaining it." But the thing is, as I was flipping through the book - and I certainly looked at different areas of the book to see how you explain things, and see "Are there some tricks and tips and things that I can steal from you to explain certain things as well in teaching people Go?" And when the opportunity came up for -- I think I was talking about it on Twitter or something, and you chimed in... I'm like, "Okay, so he seems friendly enough. Why don't I just have him on the show, so we can actually talk about the book?" But not just about the book, but really -- the title, basically, I find intriguing, and I wanted to talk about what it is like to master Go. We've gotta go meta with this, right?
 
-\[00:04:09.01\] But yeah, for those who don't know who you are, who you are on Twitter, the Twitter handle is @mactsouk, and you're a systems engineer and technical writer. So obviously, the writing is important. You're writing books, and everything. This is the third edition of your book. I wanted to start out with basically -- well, I'll give you a chance to sort of add any flavor you want to your intro. Like, what else have you been up to?
+\[04:09\] But yeah, for those who don't know who you are, who you are on Twitter, the Twitter handle is @mactsouk, and you're a systems engineer and technical writer. So obviously, the writing is important. You're writing books, and everything. This is the third edition of your book. I wanted to start out with basically -- well, I'll give you a chance to sort of add any flavor you want to your intro. Like, what else have you been up to?
 
 **Mihalis Tsoukalos:** Okay, so hello everyone, thanks for listening to us, and Johnny, thanks for the opportunity to come to your podcast. I'm a Unix passionate, I like Unix. I don't know why, but I like Unix, so you know... And systems stuff. I used to be an Oracle DBA, and I used to work with Cisco IOS... You know, the operating system of Cisco, not the Apple version of iOS. And Unix, and setting up SendMail DNS, with BIND, all these things that some people find miserable, but I really like them.
 
@@ -24,7 +24,7 @@ And that's how I started getting involved with Go. You know, you can't trust a p
 
 So then I was like, okay, great. That means when I start going through that book, I'm not going to see things like "This is what a conditional is." It'll just say "This is how Go does conditionals." Or things of that nature.
 
-\[00:07:56.05\] So when I went through the book, once I understood sort of the frame of reference that you were using to actually write the book, then the gripes I might have had with it, I started basically saying "Well, okay, so if Mihalis is making these assumptions about the reader, then this is the lens with which I have to look at this book and ingest some of this book." So I think definitely something I wanna put out there - a lot of times folks just pick up a book, and they'll give a review, and not really understanding basically who the book was targeted for... If you're a beginner and you've picked up this book - yeah, you'll still learn a lot. But there are some things that you're not gonna go deep into. There's some language features that you \[unintelligible 00:08:39.20\] without having to explain the background on them, because you assume that the reader is coming in with sort of a basic understanding of at least what Go is, and what Go does.
+\[07:56\] So when I went through the book, once I understood sort of the frame of reference that you were using to actually write the book, then the gripes I might have had with it, I started basically saying "Well, okay, so if Mihalis is making these assumptions about the reader, then this is the lens with which I have to look at this book and ingest some of this book." So I think definitely something I wanna put out there - a lot of times folks just pick up a book, and they'll give a review, and not really understanding basically who the book was targeted for... If you're a beginner and you've picked up this book - yeah, you'll still learn a lot. But there are some things that you're not gonna go deep into. There's some language features that you \[unintelligible 00:08:39.20\] without having to explain the background on them, because you assume that the reader is coming in with sort of a basic understanding of at least what Go is, and what Go does.
 
 So that was the approach I took with the book... And for those who are looking to pick it up as well, that's what they should expect. That said, I kind of wanted to give you a chance to narrate a little bit on -- yes, this is a book you would have liked to have had, but you've been working with Go for a while; obviously, you're gonna have a biased answer for this, but do you believe a book like this - maybe not necessarily your book, but a book like this - is the right entry point for somebody who's maybe coming from another language and looking to get into Go? Is this a book for just learning Go, period, or are you targeting one level deeper? ...not just for the person who's starting to learn to pick up Go, but as you mentioned, you like systems programming, right? Will a systems programmer find this Go book in particular a lot more their speed, or should they look at something else more targeted at systems programming?
 
@@ -40,7 +40,7 @@ Again, I think that the key point is practice. If you want to practice, then you
 
 **Johnny Boursiquot:** Right, right. Yeah, Google-driven development is a thing... I partake in Google-driven development myself, so no shame in my game. Nobody can remember everything, and the nuance of everything. Every once in a while I'll still go to -- you know, my favorite resource in the Go community is gobyexample.com, for example... For example, for example. Gobyexample.com is a great resource that I regularly reference, even to this day, after having been doing Go for like five years, or something. I'll be like, "Okay, how do I initialize this again? What's the technique for doing this again?"
 
-\[00:12:00.21\] One of the things I constantly refer to is "How do I properly seed for randomization?" I always have to go look up "Okay, what's the package \[unintelligible 00:12:05.27\]?" These things, even though you use them frequently -- like, sometimes it's "Okay, what's the syntax? What is this type that I use all the time, that I need to learn a little bit more about? What is this package in the standard library that I have used a dozen times and I've only ever tried one or two functions from this package? What else does it offer?"
+\[12:00\] One of the things I constantly refer to is "How do I properly seed for randomization?" I always have to go look up "Okay, what's the package \[unintelligible 00:12:05.27\]?" These things, even though you use them frequently -- like, sometimes it's "Okay, what's the syntax? What is this type that I use all the time, that I need to learn a little bit more about? What is this package in the standard library that I have used a dozen times and I've only ever tried one or two functions from this package? What else does it offer?"
 
 So this is sort of a continuous journey of mastering Go, which is something I definitely wanna get into and talk about in a bit... Sort of at the philosophical level, what does it mean to master Go. But this is a 750-page book, so it's a chunky book. Lots of topics covered. What do you think was the most interesting parts for you to research and write about?
 
@@ -52,13 +52,13 @@ So this is sort of a continuous journey of mastering Go, which is something I de
 
 I mean, that's the experience part. It's one thing to learn about something, but it's another thing to be able to choose based on facts. That's the difficult part.
 
-**Break:** \[00:13:43.10\]
+**Break:** \[13:43\]
 
 **Johnny Boursiquot:** Speaking of the research and writing process, how long did the -- at least the first edition; I'm assuming with each edition you're not rewriting everything, you're just updating a few parts, some things that have changed, maybe some idioms have changed and whatnot... Roughly how long did it take you to write and publish the first version?
 
 **Mihalis Tsoukalos:** Given the experience that I had with the articles, and another book that I have written for Packt is the Go Systems Programming, which helped a lot; it's one edition, it's the first book... It took me - and a lot of preparation though - six to eight months. But with a lot of preparation. You know, you cannot start from zero and expect to have the book ready in six months. But a lot of preparation, and a lot of code. You have to have some code ready.
 
-**Johnny Boursiquot:** \[00:16:07.14\] So did you enjoy -- like, in my mind, having collaborated on book projects and things, in my mind there's the thing that I'm writing about, and then there's the writing about the thing that I'm writing about. Those are very different disciplines, very different skillsets. Writing about something you know and doing the thing you know are very different things. I can go all day and feel like I know what I'm doing, but the process of writing, even if I've written before, writing a book and working with an editor, working with people that are gonna give you feedback on the writing process, the tools and resources that you use as a writer - these things are not your day-to-day typical programmer tool. There's always sort of a learning process that's also taking place with regards to the act of writing a book, or the act of creating a training, or a course, or the act of creating something for relaying and conveying information to another human being. That in itself is a separate skillset that you have to develop. I wonder how you feel about that skillset, having gone through it a few times. How do you feel about that?
+**Johnny Boursiquot:** \[16:07\] So did you enjoy -- like, in my mind, having collaborated on book projects and things, in my mind there's the thing that I'm writing about, and then there's the writing about the thing that I'm writing about. Those are very different disciplines, very different skillsets. Writing about something you know and doing the thing you know are very different things. I can go all day and feel like I know what I'm doing, but the process of writing, even if I've written before, writing a book and working with an editor, working with people that are gonna give you feedback on the writing process, the tools and resources that you use as a writer - these things are not your day-to-day typical programmer tool. There's always sort of a learning process that's also taking place with regards to the act of writing a book, or the act of creating a training, or a course, or the act of creating something for relaying and conveying information to another human being. That in itself is a separate skillset that you have to develop. I wonder how you feel about that skillset, having gone through it a few times. How do you feel about that?
 
 **Mihalis Tsoukalos:** For this skillset, the articles that I'm writing for Computer Magazine have helped me a lot, because for the article you have to present something, and you have a limited space. So you have to have a beginning, a middle and an end, and that helps a lot. So I'm trying to follow the same approach. As I've told you before, you cannot remember everything. If I read something afterwards, I try to be sure that it makes sense, at least to me, and then to the readers. Because you know what they say, "Write for your friends, but edit for your enemies."
 
@@ -78,7 +78,7 @@ I mean, that's the experience part. It's one thing to learn about something, but
 
 **Mihalis Tsoukalos:** The key to writing the book is to enjoy the process first. Because if you don't enjoy the process, it's difficult. The second is that you have to think of the reader as a friend; not as money, but as something that you're trying to help... You know, just help. \[unintelligible 00:20:00.08\] try to explain and don't assume that something that is easy for you should be easy for the other people, and vice-versa. Sometimes you have to explain something twice maybe... It's a process. You have to enjoy the process. Once you enjoy the process, then everything becomes easier.
 
-\[00:20:22.06\] The other thing that I told you before - write for your friends, edit for your enemies. You should be edit hard, for your own good. That's the way to do -- you have the skeleton, you have the text, but you have to edit hard. I'm still learning that. I really enjoy books like The C Programming Language, or The Unix Programming Environment - they have the necessary thing only.
+\[20:22\] The other thing that I told you before - write for your friends, edit for your enemies. You should be edit hard, for your own good. That's the way to do -- you have the skeleton, you have the text, but you have to edit hard. I'm still learning that. I really enjoy books like The C Programming Language, or The Unix Programming Environment - they have the necessary thing only.
 
 **Johnny Boursiquot:** Right, right. Everything you need, nothing you don't.
 
@@ -110,7 +110,7 @@ So again, the book is called Mastering Go, and I wanted to talk about what we be
 
 **Mihalis Tsoukalos:** Yes.
 
-**Johnny Boursiquot:** \[00:23:59.10\] For me, whenever I hear the term "master this, master that", I'm like -- yeah, like you said, this is marketing. I get it. But to me, at some point I believe you can reach what we can consider the realm of mastery. When somebody can present a problem and say "Hey, how would you approach this in Go?" and immediately ideas start popping in your head, and you're like "Oh yeah, I could use a buffer for this, I could use some goroutines for that, I'm gonna communicate over these channels..." So immediately in your head you start thinking "How can I approach this?" So I think sort of getting to these ideas flowing into your mind at a rapid pace - to me, I think that is what shows a sign of mastery.
+**Johnny Boursiquot:** \[23:59\] For me, whenever I hear the term "master this, master that", I'm like -- yeah, like you said, this is marketing. I get it. But to me, at some point I believe you can reach what we can consider the realm of mastery. When somebody can present a problem and say "Hey, how would you approach this in Go?" and immediately ideas start popping in your head, and you're like "Oh yeah, I could use a buffer for this, I could use some goroutines for that, I'm gonna communicate over these channels..." So immediately in your head you start thinking "How can I approach this?" So I think sort of getting to these ideas flowing into your mind at a rapid pace - to me, I think that is what shows a sign of mastery.
 
 **Mihalis Tsoukalos:** Exactly.
 
@@ -136,7 +136,7 @@ Personally, that's why I love Go, because - can I stick with this language for a
 
 **Mihalis Tsoukalos:** \[laughs\] Lots of people's writings have helped me a lot, and especially the official Go Blog is really helpful. I have read many things from Mat, who's not here with us today, and Bill Kennedy has helped me a lot... His writings are very good, and he's always ready to help and willing to help people, and the community is really -- I mean, I don't know if other programming languages have such an active and helpful community.
 
-**Johnny Boursiquot:** \[00:27:52.26\] Yeah, I totally agree. These are definitely some of my favorite people as well. I happened to also have the distinct pleasure of co-hosting this podcast with Mat every once in a while, along with my fantastic other co-hosts that grace the mic here every once in a while... And again, for me that's part of the joy; I get to hang out with people that share this love, and basically we want the community to be a welcoming one, a friendly one, a helpful one... So we try to live that, and hopefully as people new to the community come in and they feel that love, they feel that welcome, they stick around.
+**Johnny Boursiquot:** \[27:52\] Yeah, I totally agree. These are definitely some of my favorite people as well. I happened to also have the distinct pleasure of co-hosting this podcast with Mat every once in a while, along with my fantastic other co-hosts that grace the mic here every once in a while... And again, for me that's part of the joy; I get to hang out with people that share this love, and basically we want the community to be a welcoming one, a friendly one, a helpful one... So we try to live that, and hopefully as people new to the community come in and they feel that love, they feel that welcome, they stick around.
 
 I usually say -- pretty much every year we have a GopherCon, which is the big, official, I'd say the biggest Go conference we have year-round. And over the years we've gotten a lot more conferences spread throughout the world as well, but GopherCon is sort of the big one, and the one that usually gets a lot of people showing up on-site, and everything. During the pandemic we had to do it online the last couple of years, but it's gonna be in-person again this year...
 
@@ -180,7 +180,7 @@ So that means Go still has a lot of time, a lot of growth in front of it. We're 
 
 **Mihalis Tsoukalos:** Yes. I have tried to learn Elixir and Erlang, but... You know, they require a different kind of thinking. They are good, especially Erlang; Erlang was used for telephone initially, but it's high availability, and all these things; it's very powerful. But you know, you have to like it. Or you have to read it again, and like it in the process.
 
-\[00:32:14.16\] So I mainly write Python and Go, and I'm learning other languages. I'm going to write a tutorial about the V programming language. I haven't heard of it before, but... You know, it's a good way of learning it.
+\[32:14\] So I mainly write Python and Go, and I'm learning other languages. I'm going to write a tutorial about the V programming language. I haven't heard of it before, but... You know, it's a good way of learning it.
 
 **Johnny Boursiquot:** Yeah, yeah.
 
@@ -204,7 +204,7 @@ And then I met Go, and pretty much all others were cast aside once I learned abo
 
 **Mihalis Tsoukalos:** Okay.
 
-**Jingle:** \[00:35:27.01\] to \[00:35:44.05\]
+**Jingle:** \[35:27\] to \[35:44\]
 
 **Johnny Boursiquot:** Alright... So you brought some heat? Let's hear it.
 
@@ -216,7 +216,7 @@ And then I met Go, and pretty much all others were cast aside once I learned abo
 
 **Johnny Boursiquot:** Ooh...!
 
-**Mihalis Tsoukalos:** \[00:36:08.22\] \[laughs\]
+**Mihalis Tsoukalos:** \[36:08\] \[laughs\]
 
 **Johnny Boursiquot:** Okay, okay... Alright, alright... Let me mull on that for a second.
 
