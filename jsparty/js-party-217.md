@@ -122,7 +122,7 @@ So if I go to a website on the internet that was built with Eleventy, there's no
 
 **Zach Leatherman:** I mean, if I wanted to migrate those over, I could, but it was just so easy to use a redirect to point to my old host and not do any of that work, so I didn't. \[laughs\]
 
-**Break:** \[00:15:26.24\]
+**Break:** \[15:26\]
 
 **Jerod Santo:** So when you started Eleventy you did not work at Netlify.
 
@@ -240,7 +240,7 @@ We've used the Open Collective funds for some things, to pay for the different b
 
 That is kind of a fallback strategy for me at this point, and I'm open to discussing it with folks if they have concerns about that. But I do feel that my mindset is changing a little bit with this new arrangement at Netlify, and I'll probably start to use the money in a more community-organized way moving forward, as I feel more comfortable with the arrangement moving forward. It just feels so weird to me... Like, the entire thing just feels surreal and weird. And even just like the last 3-4 weeks that I've been doing -- because I'm on my fourth week of this open source arrangement right now. Every day still just feels strange. It was a thing that I had to sneak in after hours... Like, I went from less than ten hours a week on this project to like now I'm doing 40, and I have to physically stop myself from doing more than that, so I don't overwork... Because it's just like -- I love it so much. \[laughs\] I just don't know how to... I don't what to say too much about it, but yeah.
 
-**Break:** \[00:34:18.29\]
+**Break:** \[34:18\]
 
 **Nick Nisi:** How did that transpire then? Do you have to figure out how to justify the extra 30 hours that you get to spend a week on it, in terms of getting that offer, or accepting to work on it full-time? How did that go about?
 
@@ -260,7 +260,7 @@ I would say that my previous boss, Lauren Sell, had a lot of background in open 
 
 **Jerod Santo:** I think you're definitely trailblazing. Of course, Rich Harris is doing similar things with Svelte... Where it's like, we're not really sure how these relationships will play out, or should, and can, in a way that's known, because this is a relatively new thing. For you it's very new, but for the world of open source maintainers, there's been some isolated incidents, but oftentimes it's either started inside the company and you get to work on it full-time... But it's Kubernetes, and you're gonna work on it, because that's what the company. But this is like you brought it in, and you're gonna take it out, and then you also get to work on it while you're there... And there's just lots of -- I need you need to have a very good relationship with the employer, which it sounds like you do, in order for the trust to be there, for this to actually work out over a course of time... Because if you didn't, there could be situations where they're like, "Hey, it would be cool if Eleventy did this." And this is like something you're diametrically opposed to. And it's like, "Zach, add this feature." And you're like, "I don't want to." And it's like, "We're your boss", and it's like, "It's my project..." That kind of stuff -- I'm making it very obvious, but those kind of things could play out over time. And I think there's still the risk of that, but if you're walking together, hand-in-hand, and have this mutually assured path that you trust each other, then those concerns are probably less and less.
 
-**Zach Leatherman:** Yeah, I think that there's a huge amount of trust on both sides... And that trust was certainly built up over my years as a -- I don't wanna say regular employee, but a non-open-source employee. So yeah, I think there is a lot of truth to that, for sure.
+**Zach Leatherman:** Yeah, I think that there's a huge amount of trust on both sides... And that trust was certainly built up over my years as a -- I don't wanna say regular employee, but a non-open source employee. So yeah, I think there is a lot of truth to that, for sure.
 
 **Jerod Santo:** So as Nick and I said on the episode with Anthony and Patak, When you weren't here, we were talking about you... It seems like to us - we both agreed - that this is like a win. It's a win/win/win, because when Netlify wins, Zach wins, and the community wins... Because now there's adding fuel to this fire. Eleventy now gets 30 extra hours - we're just roughly speaking - of attention every week, that it wasn't getting before. That's --
 
