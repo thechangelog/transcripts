@@ -40,7 +40,7 @@ What do you think attracted folks to it? It's simple. It's trying to be simple, 
 
 **Nick Nisi:** That was really what caught my eye with it, because I had built stuff with Jekyll before, but I didn't like that I totally didn't understand Gemfiles, and Ruby, and that whole rigmarole. And then I saw everyone getting really excited about things like Hugo, and I was like, "Yeah, but I don't really wanna learn Go to run my website." And I was just dabbling with just like a custom, homegrown Gulp script that would put things together. Not that my site has anything on it or is remotely popular, but it was just fun to play around with.
 
-That was what caught my eye... I remember specifically talking to you, I think \[unintelligible 00:06:59.21\] one time, about this side project. I don't even know if you called Eleventy yet. But you were like, "Yeah, it's kind of like Jekyll, but JavaScript." I'm like, "Oh, yes! That sounds amazing."
+That was what caught my eye... I remember specifically talking to you, I think at Do Space one time, about this side project. I don't even know if you called Eleventy yet. But you were like, "Yeah, it's kind of like Jekyll, but JavaScript." I'm like, "Oh, yes! That sounds amazing."
 
 **Zach Leatherman:** Yeah, and I feel like a lot of the JavaScript static site generators before didn't really follow a lot of the Jekyll architectural patterns that were really good. A lot of them tried to reinvent the wheel from scratch, and I think that I appreciated and saw the value in what Jekyll provided, and wanted to improve on that if I could.
 
@@ -268,7 +268,7 @@ I would say that my previous boss, Lauren Sell, had a lot of background in open 
 
 **Jerod Santo:** ...very valuable, right? And then everybody who uses Eleventy, they just get to come along for that ride. They're getting basically their favorite site generator program worked on 30 hours a week extra... That's so cool. What kind of stuff does this unlock? Are there features you've been waiting to build and now you're like, "I've got the bandwidth now"?
 
-**Zach Leatherman:** Yeah, this is opening a lot of doors for things that I would have never attempted before... And one that just came up in the last week was this Browsersync removal. So we have this Browsersync dependency, and it's not maintained as frequently as I would like, and it's aging a little bit in terms of the browser support that it has, and the \[unintelligible 00:39:40.22\] that comes with aging browser support... So in the last week I completely stripped it out and rewrote the entire dev server in Eleventy. And that was something I never would have done prior to this full-time arrangement, just because I would not have had the bandwidth to maintain that dependency, I would not have had the bandwidth to develop that dependency... But it npm-installs way faster to get rid of it, and there's been a bunch of huge project benefits that are gonna come out of this. I mean, I have a big wall of sticky notes of the same style of feature that I'm looking at moving forward... So in just one week, a huge example, we completely rewrote the dev server from scratch. And there's gonna be a lot more examples of that moving forward.
+**Zach Leatherman:** Yeah, this is opening a lot of doors for things that I would have never attempted before... And one that just came up in the last week was this Browsersync removal. So we have this Browsersync dependency, and it's not maintained as frequently as I would like, and it's aging a little bit in terms of the browser support that it has, and the weightiness that comes with aging browser support... So in the last week I completely stripped it out and rewrote the entire dev server in Eleventy. And that was something I never would have done prior to this full-time arrangement, just because I would not have had the bandwidth to maintain that dependency, I would not have had the bandwidth to develop that dependency... But it npm-installs way faster to get rid of it, and there's been a bunch of huge project benefits that are gonna come out of this. I mean, I have a big wall of sticky notes of the same style of feature that I'm looking at moving forward... So in just one week, a huge example, we completely rewrote the dev server from scratch. And there's gonna be a lot more examples of that moving forward.
 
 **Nick Nisi:** I saw something about TypeScript support...
 
@@ -284,9 +284,9 @@ I would say that my previous boss, Lauren Sell, had a lot of background in open 
 
 **Jerod Santo:** What will go into that?
 
-**Zach Leatherman:** First we've gotta get ECMAScript modules. We don't have ESM right now, and that's definitely on the table for something we need to do in the short-term, because that's where the entire JavaScript world is moving. So yeah, we need to do that first. That's a \[unintelligible 00:41:11.11\]
+**Zach Leatherman:** First we've gotta get ECMAScript modules. We don't have ESM right now, and that's definitely on the table for something we need to do in the short-term, because that's where the entire JavaScript world is moving. So yeah, we need to do that first. That's a blocker.
 
-**Jerod Santo:** And then other things which you haven't thought about because you had to do that first anyways, so... \[unintelligible 00:41:16.01\] any deeper on that feature...
+**Jerod Santo:** And then other things which you haven't thought about because you had to do that first anyways, so... No use going any deeper on that feature...
 
 **Zach Leatherman:** Yeah.
 
@@ -316,7 +316,7 @@ I would say that my previous boss, Lauren Sell, had a lot of background in open 
 
 **Jerod Santo:** So explain this proposal, Nick, and the implications. Because I think I'm tracking, but I might not be, which means our listener might also be wondering what's this type annotations.
 
-**Nick Nisi:** Yeah, so the TypeScript team, and Microsoft, and other places like Bloomberg, \[unintelligible 00:44:22.04\] and a couple of other places are getting together for a TC39 proposal to allow for JavaScript to basically ignore type annotations, so the TypeScript syntax, and just treat it as comments, so that I could copy and paste TypeScript code and it would run just as regular JavaScript in your dev tools; or I could effectively write TypeScript and run it with no build step in between.
+**Nick Nisi:** Yeah, so the TypeScript team, and Microsoft, and other places like Bloomberg, Igalia and a couple of other places are getting together for a TC39 proposal to allow for JavaScript to basically ignore type annotations, so the TypeScript syntax, and just treat it as comments, so that I could copy and paste TypeScript code and it would run just as regular JavaScript in your dev tools; or I could effectively write TypeScript and run it with no build step in between.
 
 **Jerod Santo:** Right. So you have instant platform compatibility because it just ignores all the extra stuff that TypeScript adds.
 
@@ -368,7 +368,7 @@ And really, more investment around asset pipelines. I feel like that's maybe one
 
 **Jerod Santo:** That's a legitimate question that we should poll the audience... \[laughs\]
 
-**Nick Nisi:** \[unintelligible 00:49:05.10\]
+**Nick Nisi:** ¿Por qué no los dos?
 
 **Jerod Santo:** "Yes, and. Yes, and."
 
@@ -432,7 +432,7 @@ So there are some hard choices to make, because at that point I didn't have a fu
 
 **Jerod Santo:** That's probably the one thing I miss the most about not having an NEJS Conf, is Nick in a costume, just dishing out bad puns for hours on end. That was always the best part of the conference for me.
 
-**Zach Leatherman:** \[unintelligible 00:54:23.08\] and replay them... \[laughter\]
+**Zach Leatherman:** Bottle those groans up and replay them... \[laughter\]
 
 **Jerod Santo:** Yes...
 
