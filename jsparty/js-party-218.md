@@ -14,7 +14,7 @@ I'm in a privileged position today, because I'm joined by two experts. One is ou
 
 **Jerod Santo:** Nice.
 
-**Ali Spittel:** \[00:03:54.28\] Actually, in school I was a teaching assistant for the Computer Science department, but then outside of that I worked at General Assembly for about three years, and at the end I was their faculty lead for software engineering in New York, and was also a distinguished faculty member. So I've taught a lot of people how to code, both through that program, and then afterwards through content creation as well.
+**Ali Spittel:** \[03:54\] Actually, in school I was a teaching assistant for the Computer Science department, but then outside of that I worked at General Assembly for about three years, and at the end I was their faculty lead for software engineering in New York, and was also a distinguished faculty member. So I've taught a lot of people how to code, both through that program, and then afterwards through content creation as well.
 
 So that's kind of my teaching background. I've seen a lot of people transition into the industry, all different ages... And it's really awesome to see those students now. I have one former student who's on my team at work, and it's just so cool to see that progression.
 
@@ -52,7 +52,7 @@ Apart from that, I love to teach all different levels, and I'm actually teaching
 
 **Jen Looper:** I'll go ahead and just kind of jump in the deep end here. I think that there's this double-edged sword of availability, and that's a question of - everything now is online; everyone is online, everyone is doing everything, in giant programs and bootcamps and everything else, and it's very hard, I think, for people to kind of focus their efforts and decide on what's gonna get them from step A to step B in their career. Or even what career path they wanna pursue. Ali, I'm sure you have thoughts on this...
 
-**Ali Spittel:** \[00:08:07.15\] Yeah, for sure. I think that especially like maybe six year ago one of the biggest issues was shiny object syndrome, with the frontend space evolving so quickly... And I think some of that has stayed around, too. People saying "Hey, I want to learn frontend development", and then they start learning vanilla JavaScript, and then they see somebody on Twitter saying to learn Vue instead, and then they see somebody say React, and then they know Hello World in eight different frameworks, but can't really build anything. That's something that I think a lot of people have to deal with.
+**Ali Spittel:** \[08:07\] Yeah, for sure. I think that especially like maybe six year ago one of the biggest issues was shiny object syndrome, with the frontend space evolving so quickly... And I think some of that has stayed around, too. People saying "Hey, I want to learn frontend development", and then they start learning vanilla JavaScript, and then they see somebody on Twitter saying to learn Vue instead, and then they see somebody say React, and then they know Hello World in eight different frameworks, but can't really build anything. That's something that I think a lot of people have to deal with.
 
 I think there's just this inundation of information, too. There are so many different resources, so many different paths... Even the decision between a CS degree and a coding bootcamp and self-teaching. And then once you're inside one of those paths, which permutation of that do you choose, of "Which coding bootcamp?" or which set of resources for a self-taught developer do you use? I think all of that is a very challenging thing for people getting into the field; instead of there being a very clear-cut path, there really is not.
 
@@ -68,7 +68,7 @@ I kind of feel if you are absolutely sure as an 18-year-old that you want to be 
 
 **Ali Spittel:** Yeah, so the path that I always recommend to folks is to start with free resources and make sure that they're actually enjoying programming first, and it's something that appeals to them... Because when I was teaching at a coding bootcamp, I think a lot of the marketing was like "Hey, you take this class and then you become a software engineer." And that's not really how it works. You have to do the work, and you have to be willing to put in that time and learn the things that you need to within that course. So you really do have to know that you're going to enjoy doing this. And it doesn't have to be like "This is the love of my life. I'm so passionate about this." Passion is overrated. But if you hate writing code, and you don't understand it at all, it's probably not something that you wanna spend the next 30 years of your life doing.
 
-**Jerod Santo:** \[00:12:22.13\] Right.
+**Jerod Santo:** \[12:22\] Right.
 
 **Ali Spittel:** So start with free resources, see if you like those... I think freeCodeCamp - you're wearing the T-shirt, Jerod... Start somewhere like that, and see if you like it first. And then from there you have three different paths. I think bootcamps are kind of the middle ground between being self-taught and a four-year degree, or even a two-year degree. There are a lot of programs that are doing like a master's degree for folks who didn't have a CS undergrad; so I think that's another option as well.
 
@@ -94,7 +94,7 @@ Landing a mentor is really helpful, if you can find an industry mentor to kind o
 
 **Jerod Santo:** Oh, it worked. Okay, that's one way to do it, I guess...
 
-**Jen Looper:** \[00:15:59.29\] Yeah, yeah... It was alright. But of course, that's easy to do in an in-person conference; you can talk to people and ask. It takes a lot of courage, but I think just asking... Nowadays I'm guessing -- well, meetups are opening back up. Boston Vue.js is back in person. So honestly, I think that's still the best option. If you can find a way to meet industry people and then say "Hey, could you spare an hour a month so that I could take a look at my resume, take a look at my LinkedIn, and at my projects?" That sort of thing. Go with a plan and try to place yourself in the right location.
+**Jen Looper:** \[15:59\] Yeah, yeah... It was alright. But of course, that's easy to do in an in-person conference; you can talk to people and ask. It takes a lot of courage, but I think just asking... Nowadays I'm guessing -- well, meetups are opening back up. Boston Vue.js is back in person. So honestly, I think that's still the best option. If you can find a way to meet industry people and then say "Hey, could you spare an hour a month so that I could take a look at my resume, take a look at my LinkedIn, and at my projects?" That sort of thing. Go with a plan and try to place yourself in the right location.
 
 **Jerod Santo:** Yeah. Ali, any thoughts on mentorship?
 
@@ -110,7 +110,7 @@ Also, you don't have to have like a year-long mentorship relationship with someb
 
 **Ali Spittel:** Yes, definitely. And make it a two-directional relationship, too. Don't have it be like parasocial, parasitic type relationship. Give back in some way too, that's like not monetary; share your learnings, share your advice. You have some valuable contribution as well; the more mutual that a relationship can be, the better. And I think that goes for networking in general.
 
-**Break**: \[00:18:50.05\]
+**Break**: \[18:50\]
 
 **Jerod Santo:** So we covered where to start with regards to freeCodeCamp, bootcamps, colleges, self-taught... And I think that was some good advice from both of you on that front. Hopefully, that helps some people out trying to make that decision. But how about content? How about tech? How about the decision-making process? Should I learn Ruby on Rails? Should I learn Node.js? Should I learn React? What about Angular, what about these frameworks? Should I start with the fundamentals? To framework or to fundamental?
 
@@ -132,7 +132,7 @@ So we quickly transitioned from these fundamentals and accessibility into projec
 
 **Jen Looper:** That's 12 weeks, 24 lessons.
 
-**Jerod Santo:** \[00:24:20.00\] Okay. So Ali, on your side, maybe even what happened at General Assembly; I'm not sure what their style was, or what you think about starting with -- maybe you wanna get into a job yesterday, and the job says "Must know React." So would you maybe start with React, and just learn it so you can get the job? Or would you slow down to the fundamentals? I'm actually torn on the subject.
+**Jerod Santo:** \[24:20\] Okay. So Ali, on your side, maybe even what happened at General Assembly; I'm not sure what their style was, or what you think about starting with -- maybe you wanna get into a job yesterday, and the job says "Must know React." So would you maybe start with React, and just learn it so you can get the job? Or would you slow down to the fundamentals? I'm actually torn on the subject.
 
 **Ali Spittel:** Okay, so my advice always is to look at job descriptions as you're starting to learn. So do a regional search in your area, look at the jobs that are most interesting to you and are most beginner or entry-level friendly, and take notes of the things that you're seeing over and over again; if it's Python, or JavaScript, or React... And you can kind of make a curriculum for yourself based off of that.
 
@@ -156,7 +156,7 @@ I think that's something that I personally think is important, is to know what a
 
 That being said, I know that a lot of people have been super-successful in the industry going straight into frameworks, and that's mostly what I did, too. I was a backend software engineer first; I was focusing mostly on data science pipelines. And then I was thrown into frontend development because my company kept having turnover with frontend developers. That's the only reason I learned frontend stuff.
 
-\[00:27:54.03\] So I was jumping straight into writing jQuery and React immediately upon learning frontend development... And I think that that's valid as well. It's not the path that I would personally choose if I were to go back in time. It's not how you learn the fundamentals first... But it is valid. And I think bringing that up is important too, that different people have different journeys, and just because you went in a slightly different path than somebody else doesn't mean that you don't know that thing.
+\[27:54\] So I was jumping straight into writing jQuery and React immediately upon learning frontend development... And I think that that's valid as well. It's not the path that I would personally choose if I were to go back in time. It's not how you learn the fundamentals first... But it is valid. And I think bringing that up is important too, that different people have different journeys, and just because you went in a slightly different path than somebody else doesn't mean that you don't know that thing.
 
 **Jerod Santo:** And even different starting places, because you got thrown into those frameworks, but you knew what a loop was. You knew what variables were. You were already a programmer.
 
@@ -180,7 +180,7 @@ Actually, in Omaha, Nebraska back in 2014 if you were doing full-stack or even b
 
 **Ali Spittel:** Yeah. Something I would always tell learners is to have their reason and write it down, because learning is much more difficult than people think it is. It's not this linear trajectory where you start gaining knowledge and just keep progressing. Instead, there's lots of peaks and valleys, a lot of ups and downs, and really challenging parts, and bugs that you aren't going to solve for quite a while... So having your reason written down is something that's really valuable, so that you can keep coming back to that when you are having more difficulty. And I think having the tech stack that you're going to need is an important piece of that as well, because at the end of the day if your goal is to get a job, and then you're learning things that aren't going to be applicable to that, it's going to be pretty hard to keep yourself motivated. If you instead have this finished line in mind, I think that's usually more productive.
 
-**Break:** \[00:31:43.18\]
+**Break:** \[31:43\]
 
 **Jerod Santo:** So in addition to the actual topic you're trying to learn, whether it's Python and Django, whether it's the fundamentals of HTML, CSS and JavaScript, there's all these other things... Like, "How much time do I spend learning my text editor? Should I be a VS Code wizard? What about Git? What about GitHub? When do I learn how to use GitHub? Is that important right away? Can I wait till later? And where do I learn these things?"
 
@@ -202,7 +202,7 @@ I think for short programs like ours, I think that minimizing the amount of tool
 
 What we always did was day two we'd have a basic Git and GitHub tutorial, so like add, commit, push, and the very, very fundamentals... Because they would turn their homework in via GitHub. And I think things like that where you are modeling the real world as much as possible within the classroom is really valuable. Submitting a pull request every time you had to submit your homework, so you got in that workflow. I really value that.
 
-\[00:36:13.20\] That being said, Git can get really complex, especially when you're working with multiple people... So we would have a group project near the end of the program and we'd do another lesson on Git then. So they got to have that knowledge reinforced, but weren't super-overwhelmed by it right at first.
+\[36:13\] That being said, Git can get really complex, especially when you're working with multiple people... So we would have a group project near the end of the program and we'd do another lesson on Git then. So they got to have that knowledge reinforced, but weren't super-overwhelmed by it right at first.
 
 So I enjoyed that piece of it, but I also think that there's some value to need-driven learning. And hey, I don't know everything about VS Code, but I'm now realizing that my life as a developer would be easier if I had Git stuff in-line, or something like that in my text editor, and then learning that as you need it, instead of pausing to learn about it at the very beginning, if it's not something that you need yet, especially when you're self-teaching.
 
@@ -224,7 +224,7 @@ So I enjoyed that piece of it, but I also think that there's some value to need-
 
 **Jerod Santo:** Well, there's something to be said about an appetizer, right? Something that shows you "This is what's possible" in a short amount of time, and then it gets you excited and gets those wheels turning, and maybe you're willing then to take the next step. So in that regard, I think it's not like breaking your own principle to say "Well, we didn't talk about variable hoisting", but it's like, in a matter of an hour-and-a-half build something that's pretty cool... And you don't know exactly how that thing works, of course; you don't know anywhere near exactly how that thing works. But it does work, and it is yours, and that's empowering, and usually it'll excite the people that it excites, and get them to take the next step.
 
-**Ali Spittel:** \[00:39:50.05\] Something I see a ton with new learners too is they get caught in this cycle of doing a tutorial, and a tutorial, and a tutorial, without actually building anything, and they feel like they have to understand the topic a hundred percent before they move on... And that's not really productive, because the difficult part about programming is not the syntax or even all the conceptual stuff, it's the problem-solving and putting all those little puzzle pieces that you're learning together, to build something functional.
+**Ali Spittel:** \[39:50\] Something I see a ton with new learners too is they get caught in this cycle of doing a tutorial, and a tutorial, and a tutorial, without actually building anything, and they feel like they have to understand the topic a hundred percent before they move on... And that's not really productive, because the difficult part about programming is not the syntax or even all the conceptual stuff, it's the problem-solving and putting all those little puzzle pieces that you're learning together, to build something functional.
 
 So I very much agree that you should always have a project going, and that you shouldn't go more than one or two tutorials without implementing your knowledge from that. When I was teaching full-time, something that we always did was "I do, we do, you all do, you do." So what I do is I talk about a concept. Or I show them diagrams; I code something myself. We do is we do a code-along, so we all build something together. You all do is doing a group exercise, because I think it's really valuable if you're in a classroom to learn from other people in that classroom. And you can mimic this in Zoom as well if you're doing something virtually. You can do breakout rooms and assign people there. And then the final part is to do it individually, so everybody can master that concept themselves.
 
@@ -244,7 +244,7 @@ What about the people that say "I don't have a project. I don't have any ideas. 
 
 **Jen Looper:** It's funny, I just had this conversation at the Boston Vue.js meetup... The gentleman was saying "I don't know what to build", and my first question was "Well, what are your hobbies? What do you like to do? Can you turn that into an interesting app?" So we talked about his photography interest. But in terms of motivation, that's an important thing. I actually also pointed him towards Code for America, because maybe you can join a Code for America cohort and then work with people to really solve problems. These folks are building real applications. In Boston they built an app to show where fire hydrants are, because when it snows, \[unintelligible 00:44:04.14\]
 
-**Jerod Santo:** \[00:44:08.27\] Nice.
+**Jerod Santo:** \[44:08\] Nice.
 
 **Jen Looper:** ...made instructions on how to dig them out. So this kind of stuff. And this is useful. It sounds a little bit silly, but it's actually quite useful when your house is on fire.
 
@@ -272,7 +272,7 @@ When I was working at a coding bootcamp - and maybe this is an idea for instruct
 
 **Jerod Santo:** Very cool. Well, this is coming near the end... Any final thoughts? I know we could probably talk about this subject on and on, just as people can learn web development on and on... Of course, we'll link up the web dev for beginners course that is put out by Microsoft totally free, right, Jen? There's no catch, you don't have to--
 
-**Jen Looper:** \[00:48:03.06\] Yeah, no catch at all.
+**Jen Looper:** \[48:03\] Yeah, no catch at all.
 
 **Jerod Santo:** ...you don't have to have an Azure account, or something. It's just out there.
 
