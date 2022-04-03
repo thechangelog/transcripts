@@ -18,7 +18,7 @@
 
 **Chris Benson:** I remember.
 
-**Daniel Whitenack:** \[00:04:04.08\] ...Research Workshop. It's hundreds of researchers from around the world, and it's kind of the same philosophy like CERN in Switzerland, the big accelerator. It's a collaboration between a whole bunch of different researchers, a whole bunch of different institutions and countries. And the reason that happens is because it's become increasingly hard to do high-energy physics research, because of the size of the experiments. And so BigScience was like, "Well, it's becoming increasingly hard to train these large language models", or maybe what some people would call foundation models; we talked about that last time.
+**Daniel Whitenack:** \[04:04\] ...Research Workshop. It's hundreds of researchers from around the world, and it's kind of the same philosophy like CERN in Switzerland, the big accelerator. It's a collaboration between a whole bunch of different researchers, a whole bunch of different institutions and countries. And the reason that happens is because it's become increasingly hard to do high-energy physics research, because of the size of the experiments. And so BigScience was like, "Well, it's becoming increasingly hard to train these large language models", or maybe what some people would call foundation models; we talked about that last time.
 
 **Chris Benson:** We did.
 
@@ -54,7 +54,7 @@
 
 **Chris Benson:** A little throwback there...
 
-**Daniel Whitenack:** \[00:08:02.03\] Yeah. The other thing - this is incredibly impressive, just the whole process of putting the data set together. You can read more about that in the notes. But it still only includes 46 languages, of 7,000-plus spoken on Earth. So that is a drop in the bucket as far as languages. But if you consider this scale that they're approaching, the size of the data and the number of languages, it's still a hugely amazing progress in terms of multilingual models, because GPT-3 or something like that - we're talking about just supporting English, or other versions that might be trained in like a single large language, like Mandarin, or something like that. So 46 languages - pretty cool to see them work on a model at this scale with more languages.
+**Daniel Whitenack:** \[08:02\] Yeah. The other thing - this is incredibly impressive, just the whole process of putting the data set together. You can read more about that in the notes. But it still only includes 46 languages, of 7,000-plus spoken on Earth. So that is a drop in the bucket as far as languages. But if you consider this scale that they're approaching, the size of the data and the number of languages, it's still a hugely amazing progress in terms of multilingual models, because GPT-3 or something like that - we're talking about just supporting English, or other versions that might be trained in like a single large language, like Mandarin, or something like that. So 46 languages - pretty cool to see them work on a model at this scale with more languages.
 
 **Chris Benson:** I have sort of an aside, off the main topic, but you made me wonder...
 
@@ -74,7 +74,7 @@ In fact, I just saw in my recent Twitter feed, there's a new paper at ACL this y
 
 **Chris Benson:** Really nice.
 
-**Daniel Whitenack:** \[00:12:09.16\] So it's just really cool to kind of come full circle, where at the time in that working group, it seemed just like a very -- well, it is kind of a small piece of a much larger puzzle, but all of those pieces are necessary to make this happen, including those that worked on the architecture of the model, and the scaling, and the compute, and the data governance, and data storage... And all of those things, there are a lot of people that made it happen.
+**Daniel Whitenack:** \[12:09\] So it's just really cool to kind of come full circle, where at the time in that working group, it seemed just like a very -- well, it is kind of a small piece of a much larger puzzle, but all of those pieces are necessary to make this happen, including those that worked on the architecture of the model, and the scaling, and the compute, and the data governance, and data storage... And all of those things, there are a lot of people that made it happen.
 
 **Chris Benson:** You're in danger of not just analyzing the news here, but becoming the news yourself, a little bit of it.
 
@@ -136,7 +136,7 @@ In fact, I just saw in my recent Twitter feed, there's a new paper at ACL this y
 
 **Daniel Whitenack:** Yeah.
 
-**Chris Benson:** \[00:16:01.20\] Just to keep sane at this point.
+**Chris Benson:** \[16:01\] Just to keep sane at this point.
 
 **Daniel Whitenack:** I will say, the A100s, as far as usage -- and our team uses those. We have the great privilege--
 
@@ -174,7 +174,7 @@ And I have to say, we have actually loved that, because we can have the big card
 
 **Daniel Whitenack:** Yeah. So if you still want to send us -- yeah, if you happen to have a couple spare H100 around, you know, we're here.
 
-**Chris Benson:** \[00:20:10.22\] I thought that was implied in what I was saying. I thought that was just there. And by the way, Daniel and I have two different addresses, and we could provide both.
+**Chris Benson:** \[20:10\] I thought that was implied in what I was saying. I thought that was just there. And by the way, Daniel and I have two different addresses, and we could provide both.
 
 **Daniel Whitenack:** Yes, yes. We have not been compensated at all by NVIDIA for this conversation, just to be clear.
 
@@ -202,7 +202,7 @@ And I have to say, we have actually loved that, because we can have the big card
 
 **Daniel Whitenack:** Yeah. And if I'm just looking -- this is a lot of interpretation, and sorry for whoever designed the page if this wasn't how it was supposed to be read... But I see on the H100 page, in order of priority, kind of at the top is the transformer engine thing, and then right after that is real-time deep learning inference. So the speed-ups in inference, which -- like, you're talking about, and I think it has been mentioned by multiple guests on the show, the bulk of operations in kind of the enterprise AI world are inferences, right? Because you train a model, and then you use it billions and billions of times. And so that I think is really cool, that you can have more throughput on the inference side, and be more efficient, maybe with less cards. So yeah, I can see why that side of things is prioritized, for sure.
 
-**Chris Benson:** \[00:24:21.00\] Sure. Yeah. It's hitting most of their customers.
+**Chris Benson:** \[24:21\] Sure. Yeah. It's hitting most of their customers.
 
 **Daniel Whitenack:** Now, they also bring in the Omniverse to this. So I don't know if you saw that reference, but it's like -- so obviously, there's the Metaverse, which I assume a lot of people know what that is out there, but it's like the virtual reality world that Facebook or Meta is designing and running. I don't know, have you been in the Metaverse, Chris?
 
@@ -224,7 +224,7 @@ And I have to say, we have actually loved that, because we can have the big card
 
 This, in my understanding, these weather predictions that they're doing in this Earth-2 Supercomputer are driven, at least partially, by AI predictions of weather conditions and climate, which is kind of an interesting -- it might be a subtle point, but it is very different than how climate models have operated for quite some time.
 
-**Chris Benson:** \[00:28:15.27\] So I'm actually somewhat familiar with that, at least slightly. It still is Computational Fluid Dynamics. CFD is the lingo that people use in the industry. And we are seeing, and have been for the last few years, and are continuing to see a very large shift from CPU-driven, CFD simulations, into AI-driven, with GPUs. And really the hold-up there is usually the software being used is written for older CPU things. And so in general, industry is kind of trying to catch up with the technology at this point in terms of updating their software to do that. But yeah, I think that is the future of Computational Fluid Dynamics, is this kind of simulation that's GPU-driven.
+**Chris Benson:** \[28:15\] So I'm actually somewhat familiar with that, at least slightly. It still is Computational Fluid Dynamics. CFD is the lingo that people use in the industry. And we are seeing, and have been for the last few years, and are continuing to see a very large shift from CPU-driven, CFD simulations, into AI-driven, with GPUs. And really the hold-up there is usually the software being used is written for older CPU things. And so in general, industry is kind of trying to catch up with the technology at this point in terms of updating their software to do that. But yeah, I think that is the future of Computational Fluid Dynamics, is this kind of simulation that's GPU-driven.
 
 **Daniel Whitenack:** Yeah, and they specifically reference in the article, physics-informed neural networks, which - I think that would be a great show in and of itself.
 
@@ -272,7 +272,7 @@ This, in my understanding, these weather predictions that they're doing in this 
 
 **Daniel Whitenack:** Yeah, exactly. Speaking of tying all things together, we actually not that long ago, in the (I think) fall of last year, we talked about a few things related to the AI Index Report, which comes out of Stanford, and measures trends in artificial intelligence... Actually, the next version of that is out. So because we talked about it recently, we won't spend a whole episode on it, but maybe it's worth bringing up here as we close out our Fully Connected episode, just to kind of skim the top takeaways, and we'll definitely include it in our show notes so people can look at it.
 
-\[00:32:07.16\] I noticed that one of the top takeaways on theme is language models are more capable than ever, but are also more biased. That's one of their key takeaways. So BigScience language models are going to be more capable, but maybe it's worth exploring the bias. I think that Research Workshop has done an amazing job at exploring the data and the bias. They even created their own tool to explore such things. But yeah, it's still a problem, right?
+\[32:07\] I noticed that one of the top takeaways on theme is language models are more capable than ever, but are also more biased. That's one of their key takeaways. So BigScience language models are going to be more capable, but maybe it's worth exploring the bias. I think that Research Workshop has done an amazing job at exploring the data and the bias. They even created their own tool to explore such things. But yeah, it's still a problem, right?
 
 **Chris Benson:** It's interesting. It is a problem, and I think that exploring the bias actually ties into another thing that we're seeing there, just to pull two together, and that's the rise of AI ethics everywhere. And we're also seeing they have a note on day-to-day data. And maybe sometimes we need to go back and address some of that, because bigger may be better in many cases, but not if it's bigger bias.
 
@@ -288,7 +288,7 @@ We definitely have some challenges in this space. I mean, it's overall really go
 
 **Chris Benson:** It was literally the next thing I was going to bring up. As they are becoming cheaper, we're going to be seeing more and more -- for a while, our exposure to AI has been through kind of existing mechanisms, our laptops, things that have access to cloud providers, and stuff like that. But if the robotics side is coming down in price so much, then I think more of us will start interacting with AI in new and novel ways, that were not previously widely distributed. That will be another interesting change in how we live our lives. So it's really going to be pervasive.
 
-**Daniel Whitenack:** \[00:36:24.12\] So where do you think I'm going to start seeing robot arms? Where am I going to start interacting with them, do you think?
+**Daniel Whitenack:** \[36:24\] So where do you think I'm going to start seeing robot arms? Where am I going to start interacting with them, do you think?
 
 **Chris Benson:** Well, I just know that I am positive -- they don't have arms on them, but we have these little robotic vacuum cleaners running around...
 
