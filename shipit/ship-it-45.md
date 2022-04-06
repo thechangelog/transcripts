@@ -2,11 +2,11 @@
 
 **Pia Wiedermayer:** Thanks, Gerhard. I'm very happy to be here.
 
-**Gerhard Lazu:** Okay, so I will start with a clarifying question, because in November Romano published a very good YouTube video; I love the title - "Hey, dev ops, you're killing my job!" Maybe there were a couple more exclamation points there... But that was the actual title; great video. And in the beginning of that interview you say that quality assurance has a special place in your heart. What did you mean by that?
+**Gerhard Lazu:** Okay, so I will start with a clarifying question, because in November Romano published a very good YouTube video; I love the title - "Hey, DevOps, you're killing my job!" Maybe there were a couple more exclamation points there... But that was the actual title; great video. And in the beginning of that interview you say that quality assurance has a special place in your heart. What did you mean by that?
 
 **Pia Wiedermayer:** Yeah, that's absolutely true. You know, I'm just passionate about quality. I come originally from the hotel business, and I used to work in four or five-star hotels, the really nice ones, where everything is super-clean and tidy, and everything looks perfect... So that's where my passion for quality comes from. But I always had this interest in technology, in IT... So somehow it happened that I got to join the software industry, also delivering high-quality software to our users, for our stakeholders, for the team that drives me, that makes me happy to deliver a good product, a great product.
 
-**Gerhard Lazu:** \[00:04:01.06\] So I can imagine what a five-star hotel in Switzerland looks like, because that's the image that you have in mind. And I can imagine that. What about the equivalent in software? What does that look like? So when you say quality, that five-star Swiss hotel quality, what does that look like in software to you?
+**Gerhard Lazu:** \[04:01\] So I can imagine what a five-star hotel in Switzerland looks like, because that's the image that you have in mind. And I can imagine that. What about the equivalent in software? What does that look like? So when you say quality, that five-star Swiss hotel quality, what does that look like in software to you?
 
 **Pia Wiedermayer:** That's a very good question. And to be honest, I think I haven't seen it so far...
 
@@ -32,7 +32,7 @@ So the four and the fifth star comes -- we make our users happy; not only happy,
 
 So I have a follow-up question - what happens if you get a large deposit, unexpected, and you're really happy, and you start shaking your app, of joy, and then you log yourself out? \[laughter\] It was just meant to be funny, it's okay. Alright... So what about things about that app that you mentioned, which is a mobile app - what about if it breaks? So have you ever seen it break, or maybe fail for you? I'm wondering if that has an impact on the five-star rating that you would be tempted to give it.
 
-**Pia Wiedermayer:** \[00:08:26.28\] Yes. I've seen it fail, but I think with my experience - and I've been testing also mobile banking applications - my tolerance is higher. So I'm not freaking out when that app crashes. Instead, my mom would freak out, and think somebody has stolen her money, just because the mobile app crashed.
+**Pia Wiedermayer:** \[08:26\] Yes. I've seen it fail, but I think with my experience - and I've been testing also mobile banking applications - my tolerance is higher. So I'm not freaking out when that app crashes. Instead, my mom would freak out, and think somebody has stolen her money, just because the mobile app crashed.
 
 **Gerhard Lazu:** So you understand what goes behind the failure, and you're more tolerant to them, because you understand how difficult of a job it is to keep it running all the time, every time. So would it be safe to say or fair to say that as long as the failure is expected, or at least you understand why it happened, you're more forgiving and more accepting that "Yup, bad things happen. And you don't have to be up all the time, as long as you're not surprising me in a negative way. That's okay."
 
@@ -48,7 +48,7 @@ So I have a follow-up question - what happens if you get a large deposit, unexpe
 
 **Gerhard Lazu:** So this sounds a lot to me like the Shift Left principle that, for example, security teams like to go on about how security is a Shift Left, you should start it from the beginning of the process, it's embedded in every single line that you write, every single feature that you add... It's not something that you do at the end. And I can see something similar happening with testing. That makes a lot of sense, and I'm wondering how do you make that work. So knowing that that's what needs to happen, the whole team is responsible for the quality of the software, how do you help the team see that and apply those principles?
 
-**Pia Wiedermayer:** \[00:11:47.20\] Thanks for asking that question. I had to learn... As I said, when I started, for the first years being in that job, I was always at the end of the process, and I thought "Okay, that's also important, but that's not what I wanna do for the rest of my life." So I really had to put effort on it, talk to people, try to get closer to developers, get them talking to me, which is not always easy... But often, I got blocked by project managers, like "You're not allowed to talk to developers", all that stuff.
+**Pia Wiedermayer:** \[11:47\] Thanks for asking that question. I had to learn... As I said, when I started, for the first years being in that job, I was always at the end of the process, and I thought "Okay, that's also important, but that's not what I wanna do for the rest of my life." So I really had to put effort on it, talk to people, try to get closer to developers, get them talking to me, which is not always easy... But often, I got blocked by project managers, like "You're not allowed to talk to developers", all that stuff.
 
 So in every project, still today, when I join, I face such situations, but I don't stop telling them first. It's much easier to build in quality than having to find every little thing and then we have to fix it at the end, or we have production incidents which can cause quite some costs and reputation damages, that stuff. So I try to give them examples... What's the difference if I'm testing at the end or if they let me talk to developers, let me get involved in the whole requirements gathering process?
 
@@ -72,7 +72,7 @@ So it's a lot about what you've learned during your career... There are certain 
 
 **Gerhard Lazu:** I think I know what you mean... So let's see - if we were to explain that, it's the Liskov Substitution Principle, I think. The Liskov Substitution Principle, which says that you can replace something for something else, as long as the behavior is the same. And I have to check this, because it's been many years since I did this. I think our English listeners, that's what they're familiar with. So this is for object-oriented programming. Is that what you have in mind, object-oriented, or it's not related to a certain --
 
-**Pia Wiedermayer:** \[00:16:09.09\] No.
+**Pia Wiedermayer:** \[16:09\] No.
 
 **Gerhard Lazu:** Okay. So if we substitute a super-class object reference with an object of any of its sub-classes, the program should not break. So super-class and sub-class. If you replace the super-class with any of its sub-classes, the program will not break, because the behavior is supposed to be similar. Is that what you think, or do you think something else?
 
@@ -118,7 +118,7 @@ Okay, what would you say to someone that doesn't want to test? They think that t
 
 **Gerhard Lazu:** Okay, and what did you do? \[laughs\]
 
-**Pia Wiedermayer:** \[00:19:53.19\] They are out there. They are not as many as they used to be. I'm happy about that. But still, there are some people. A lot of people have -- you know, everybody's proud a little bit, more or less... So sometimes it works when you ask people "Yeah, but don't you have some kind of... Anspruch an deine Arbeit."
+**Pia Wiedermayer:** \[19:53\] They are out there. They are not as many as they used to be. I'm happy about that. But still, there are some people. A lot of people have -- you know, everybody's proud a little bit, more or less... So sometimes it works when you ask people "Yeah, but don't you have some kind of... Anspruch an deine Arbeit."
 
 **Gerhard Lazu:** Like a responsibility towards what you do... Like, what do you call that? The professional duty; not the fiduciary... There's a specific word that people use. I'm blanking out now as well. I think some would call it professionalism, and that's all-encompassing. It says "Aren't you a professional? And if you're a professional, why wouldn't you do things to the best of your ability? Why wouldn't you go beyond what you think is acceptable and go to what we as a team think needs to happen?"
 
@@ -154,7 +154,7 @@ Okay. So how well did that work in practice? You told them this, and what did th
 
 **Gerhard Lazu:** Okay.
 
-**Break:** \[00:23:04.18\]
+**Break:** \[23:04\]
 
 **Gerhard Lazu:** So I'm curious now, what is the connection between a good test suite? And we'll come back to this later, what it means to have a good test suite, which includes all the things. Or test suites, plural. Everything that -- is it called test in a system? How would you call that thing, by the way? All the unit tests, all the integration tests, all the system tests, black box tests...? Anything.
 
@@ -166,7 +166,7 @@ Okay. So how well did that work in practice? You told them this, and what did th
 
 **Gerhard Lazu:** Okay. \[laughs\]
 
-**Pia Wiedermayer:** The connection is very important, because I really like how things changed in the last years with this whole dev ops movement, and people wanna automate stuff more, and have less manual steps when it comes to testing, deployment, all that stuff... And to me, it's important to have a good test library across all different test levels; so from unit test, to end-to-end. And then, looking at our deployment pipeline, we need to think "Okay, where?" Because usually, you will have more than one environment. So you don't just code on your machine and deploy to production. I hope not.
+**Pia Wiedermayer:** The connection is very important, because I really like how things changed in the last years with this whole DevOps movement, and people wanna automate stuff more, and have less manual steps when it comes to testing, deployment, all that stuff... And to me, it's important to have a good test library across all different test levels; so from unit test, to end-to-end. And then, looking at our deployment pipeline, we need to think "Okay, where?" Because usually, you will have more than one environment. So you don't just code on your machine and deploy to production. I hope not.
 
 **Gerhard Lazu:** Why not? Because I think you should. I think if you're not doing that, something somewhere is not as good as it should be. If you have that full confidence in what you write and what you build, and you make small changes, and you keep constantly shipping them out into production... So what is the smallest change that I can make which moves this in the right direction? Whether it's a feature, whether it's a fix, whatever it is. It doesn't really matter. You're trying to learn something. How can I get it out there as soon as possible, so that I see that it actually works? Because it's the combination of all the things, which maybe it results in it not working. And the sooner you find that out, the smaller the change, the better you chances for finding the improvement. What would make this better? "Hm... It didn't work the way I thought it did. The tests are green, everything worked, but it still doesn't behave correctly. So what am I missing? What do I need to learn here?" You can only do that in production. Anything else is like a pretend. You know, staging... Everything's fine, everything's fine... And the longer you wait until you get into production, the more difficult it is for you to realize "Well, where is the delta?" Because there are so many steps.
 
@@ -180,7 +180,7 @@ But anyways, that's my thinking... And I welcome a different opinion, because I 
 
 So coming back to this, okay, how should we combine our test library which we've designed and built up very clever, and smart, and combine that with our deployment - then it's important to me that we think about "Okay, which tests do we wanna have, where, on which deployment executed? Where do we wanna have hard quality gates?" So like "You cannot deploy when certain tests are red." Which things are acceptable...
 
-\[00:28:19.15\] So we need to define, as a team, and always be aware of "Okay, what risk is behind?", so in the end we build the process -- until we come from the developing machine to the production most efficiently, and find as much as possible before we go into production and then have some reputation issues when it's \[unintelligible 00:28:41.23\]
+\[28:19\] So we need to define, as a team, and always be aware of "Okay, what risk is behind?", so in the end we build the process -- until we come from the developing machine to the production most efficiently, and find as much as possible before we go into production and then have some reputation issues when it's \[unintelligible 00:28:41.23\]
 
 **Gerhard Lazu:** Have you ever been part of projects where even though all the sign-offs and all the process was okay, failures still happened?
 
@@ -204,7 +204,7 @@ A person that doesn't see things that way, I would call them narrow-minded, and 
 
 So I like how you think about this as the whole team is responsible. It's not a person's responsibility. Yes, you will have more experienced people and more senior people, and you'll have maybe people that can see a few steps ahead... But those people will know that mistakes will happen. And I think it's not about not making mistakes, it's about building resilient systems that in the face of mistakes they will be able to handle those issues as best as they can. Obviously, every system has a tolerance limit; it's not indestructible or undeletable. There may be some downtime, or there may be some data loss; it will happen at some point, and we try to build redundancy in as much as we can... But systems should be resilient, so that at the first failure they don't just fall over. And obviously, we can't foresee all the things, and we learn all the time... But optimize for learning. Optimize for recovering from failures really quickly, that maybe only a subset of users are affected. And then you replay some data, and there's no data loss, because you have multiple redundancy. There's a temporary data loss, but not a permanent one. You can recover.
 
-\[00:32:32.09\] So what are your thoughts on that? What are your thoughts on resilient systems, on building resilient systems? Not that they don't fail, but they can tolerate failure well; and when there are mistakes - because there will be - they won't fall over.
+\[32:32\] So what are your thoughts on that? What are your thoughts on resilient systems, on building resilient systems? Not that they don't fail, but they can tolerate failure well; and when there are mistakes - because there will be - they won't fall over.
 
 **Pia Wiedermayer:** Yeah, very good point... But let me just --
 
@@ -222,7 +222,7 @@ So I think that that's very important, to think about "Okay, what do we do if th
 
 **Pia Wiedermayer:** Me personally, I didn't have the chance so far, but I would be really interested in doing that... But that's a good point; probably I'll ask in my project if there is a possibility to shadow operations people when they do that. Because usually, in the companies where I've worked in, it's with the operations department, they do this disaster recovery -- how do they call it? Yeah, so they do it quarterly, something like that; usually in the banks. So I would be super-interested in that.
 
-**Gerhard Lazu:** \[00:35:59.06\] For sure, there is that side of testing. But there's also what happens to the system when there's for example data that it doesn't expect. I have been part of teams -- you mentioned banks. A couple of years back we had security scanners, which would start throwing garbage traffic on ports that weren't expecting them. And then those services, the listeners on those ports - they didn't know how to handle that data, and they would crash, because they weren't resilient to garbage data. No one was expecting that something on that port would start sending random data. And those security scanners, every Saturday when they would run, they would do that. So systems would be crashing every Saturday, and who wants that...? Everybody's away, they're off, and they have to be paged, because the systems are crashing every single Saturday. It was just maddening.
+**Gerhard Lazu:** \[35:59\] For sure, there is that side of testing. But there's also what happens to the system when there's for example data that it doesn't expect. I have been part of teams -- you mentioned banks. A couple of years back we had security scanners, which would start throwing garbage traffic on ports that weren't expecting them. And then those services, the listeners on those ports - they didn't know how to handle that data, and they would crash, because they weren't resilient to garbage data. No one was expecting that something on that port would start sending random data. And those security scanners, every Saturday when they would run, they would do that. So systems would be crashing every Saturday, and who wants that...? Everybody's away, they're off, and they have to be paged, because the systems are crashing every single Saturday. It was just maddening.
 
 It took them a few months to figure out what the problem was, and it took us, because we were part of it as well... So I'm wondering about those sorts of tests, where the systems are receiving unexpected inputs, unexpected data... Something that you don't expect to happen happens, not necessarily from an operational perspective, but from a code perspective.
 
@@ -230,7 +230,7 @@ It took them a few months to figure out what the problem was, and it took us, be
 
 **Gerhard Lazu:** That's why those situations - I know them, because they are very difficult to troubleshoot, because they happen so far down the line that people don't even know what is happening. Like, there's this thing, no one understands it, there's maybe ten layers, ten different systems, no one even knows what they are, and there's a behavior that no one can explain. Good luck digging. Good luck exploring what the hell is going on. And it takes you a few months to figure it out, because as you know, those systems are really complex in banks. There's layers, and layers, and layers... And sometimes you are not even allowed to know what those layers are, and that makes it even more challenging. You don't have the security clearance to go beyond a certain level.
 
-**Break:** \[00:38:24.13\]
+**Break:** \[38:24\]
 
 **Gerhard Lazu:** So I'm wondering, Pia, when you think about a good test suite, what do you imagine?
 
@@ -248,7 +248,7 @@ So I wouldn't go for automation just for the sake of automation. But on the lowe
 
 **Gerhard Lazu:** Okay. So how long do you think they should take to run all of them, end-to-end? All types of tests; the whole test suite, that's how I refer to it. I refer to it like the whole test suite. Unit tests, integration, end-to-end, system integration - all of it. Manual, if you have manual...
 
-**Pia Wiedermayer:** \[00:44:09.20\] Let's say we have some manual tests, because I haven't seen it without any manual tests. If there were no manual tests at all, then usually we found stuff in production. Severe stuff.
+**Pia Wiedermayer:** \[44:09\] Let's say we have some manual tests, because I haven't seen it without any manual tests. If there were no manual tests at all, then usually we found stuff in production. Severe stuff.
 
 **Gerhard Lazu:** Okay.
 
@@ -286,7 +286,7 @@ So I wouldn't go for automation just for the sake of automation. But on the lowe
 
 **Pia Wiedermayer:** When you have a whole workflow, when you go from one application to the other, not all tools are able to handle that. So that was one thing I've experienced - as long as you have your web app and you're only in that browser, everything is fine. But as soon as you need to, I don't know, maybe prepare something before in your CRM, which you have as a desktop application, and then you take that data and go to your browser - not a lot of tools can handle that. Or the tools that can handle that are very expensive. So that's one thing.
 
-\[00:48:05.14\] Then dealing with unexpected behavior on the UI. So a human just reacts spontaneously, according to the situation, and the robot just waits for some button and just runs in a timeout because that button is not there, for example.
+\[48:05\] Then dealing with unexpected behavior on the UI. So a human just reacts spontaneously, according to the situation, and the robot just waits for some button and just runs in a timeout because that button is not there, for example.
 
 **Gerhard Lazu:** Right.
 
@@ -306,7 +306,7 @@ Okay. So now that we are talking about bad tests, and bad test suites, and hosti
 
 **Pia Wiedermayer:** Yeah. And then if there were some unit tests, then they were not transparent, so that testers were distracted from development, so they had no knowledge about what has been tested already by developers. So they just tested everything again. I've seen that far too often. But it's getting less and less, I'm very happy about that. And other things where I try to -- you know, I didn't want to do repetitive stuff. I don't like that. That's boring. I wanna use my brain for the interesting, for the tricky stuff...
 
-\[00:52:11.14\] So I wanted to automate my -- you know, the regression tests I did for every release, over and over again, so I wanted to automate them on the UI. And then - yeah, UI was unstable, and the agreed identifiers which I used for automation, they just disappeared... Yeah. So the developers, they didn't care, or they just forgot about informing me that things changed... And yeah, it's like you said before; it's just not built for testability.
+\[52:11\] So I wanted to automate my -- you know, the regression tests I did for every release, over and over again, so I wanted to automate them on the UI. And then - yeah, UI was unstable, and the agreed identifiers which I used for automation, they just disappeared... Yeah. So the developers, they didn't care, or they just forgot about informing me that things changed... And yeah, it's like you said before; it's just not built for testability.
 
 **Gerhard Lazu:** If you do test-driven development, you know it. And if you don't, you may not know it, but others will, including your end users. Stuff breaks all the time, and people are so fed up with it; like, nothing works. Or if it does, it sometimes works, depending on the day, if it rains. It works if it doesn't rain, or if it doesn't snow.
 
@@ -332,7 +332,7 @@ What is the worst test that you ever came across in your career? Do you remember
 
 **Gerhard Lazu:** So it's more than one, okay. I like where this is going. \[laughs\] Do tell.
 
-**Pia Wiedermayer:** \[00:55:55.27\] For instance, there is a test library, we have feature files, so we have test scenarios written in Gherkin syntax, and it's not only one, unfortunately... But you know, Gherkin syntax is quite simple; it's given, when, then. So you have given/when. That's it. So I was wondering, "Okay, where does that test go to? What should that do?" \[laughs\]
+**Pia Wiedermayer:** \[55:55\] For instance, there is a test library, we have feature files, so we have test scenarios written in Gherkin syntax, and it's not only one, unfortunately... But you know, Gherkin syntax is quite simple; it's given, when, then. So you have given/when. That's it. So I was wondering, "Okay, where does that test go to? What should that do?" \[laughs\]
 
 **Gerhard Lazu:** I see.
 
@@ -348,7 +348,7 @@ So as we prepare to wrap up, what would you say is the most important takeaway f
 
 **Pia Wiedermayer:** Looking at all techniques and frameworks and tools we have nowadays, they are all super-cool. But to me, in my experience, it's the people in the end who make the product a success, the project... If you don't have the right people in your team willing to really work together as a team, then the best automation tool or whatever framework can't help you.
 
-**Gerhard Lazu:** That's a great one. Okay. That definitely resonates with me, so thank you for sharing so many great insights with us, Pia. I look forward to your next presentations. Is there a conference that you'll be presenting to, or that you want to present at? I know that dev ops Zurich is coming up, so that's why I ask... Did you submit your CFP?
+**Gerhard Lazu:** That's a great one. Okay. That definitely resonates with me, so thank you for sharing so many great insights with us, Pia. I look forward to your next presentations. Is there a conference that you'll be presenting to, or that you want to present at? I know that DevOps Zurich is coming up, so that's why I ask... Did you submit your CFP?
 
 **Pia Wiedermayer:** No, that's on my list for next year, because the week after I will be at the EuroSTAR in Copenhagen. That's the biggest software testing conference in Europe, and I'm super-excited; I will be talking about "From waterfall testing to agile quality assurance."
 
