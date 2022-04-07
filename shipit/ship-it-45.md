@@ -180,7 +180,7 @@ But anyways, that's my thinking... And I welcome a different opinion, because I 
 
 So coming back to this, okay, how should we combine our test library which we've designed and built up very clever, and smart, and combine that with our deployment - then it's important to me that we think about "Okay, which tests do we wanna have, where, on which deployment executed? Where do we wanna have hard quality gates?" So like "You cannot deploy when certain tests are red." Which things are acceptable...
 
-\[28:19\] So we need to define, as a team, and always be aware of "Okay, what risk is behind?", so in the end we build the process -- until we come from the developing machine to the production most efficiently, and find as much as possible before we go into production and then have some reputation issues when it's \[unintelligible 00:28:41.23\]
+\[28:19\] So we need to define, as a team, and always be aware of "Okay, what risk is behind?", so in the end we build the process -- until we come from the developing machine to the production most efficiently, and find as much as possible before we go into production and then have some reputation issues when it's banked and, you know?
 
 **Gerhard Lazu:** Have you ever been part of projects where even though all the sign-offs and all the process was okay, failures still happened?
 
@@ -272,7 +272,7 @@ So I wouldn't go for automation just for the sake of automation. But on the lowe
 
 **Gerhard Lazu:** Fast.
 
-**Pia Wiedermayer:** Yes. Because what I've seen - and I think a lot of organizations have to clean up a lot of \[unintelligible 00:46:05.24\] Looking at test data, infrastructure, all that stuff; all that in combination slows down our tests, our pipelines. and again, from my experience, it always makes sense to have at least a handful of manual tests, which you don't wanna automate or you cannot automate. I've seen both. That's also a factor, where it's like, "Okay, it takes some time for a human."
+**Pia Wiedermayer:** Yes. Because what I've seen - and I think a lot of organizations have to clean up a lot of that. Looking at test data, infrastructure, all that stuff; all that in combination slows down our tests, our pipelines. and again, from my experience, it always makes sense to have at least a handful of manual tests, which you don't wanna automate or you cannot automate. I've seen both. That's also a factor, where it's like, "Okay, it takes some time for a human."
 
 **Gerhard Lazu:** I'm curious, can you give me an example of a test that you cannot automate? And I'm thinking about like a real world one. One that you ran, that you could not automate.
 
