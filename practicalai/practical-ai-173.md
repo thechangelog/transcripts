@@ -252,7 +252,7 @@ This, in my understanding, these weather predictions that they're doing in this 
 
 **Daniel Whitenack:** Oh, wow. I didn't even hear about this. You about died.
 
-**Chris Benson:** It was very close \[unintelligible 00:30:18.06\] ripping the wings off the plane kind of thing. So this happened earlier this year, early in 2022, but it made me keenly interested in the fluid dynamics of mountain waves. And so if anybody is looking for a CFD toy project and you want to look at that in the Smoky Mountains, you may save my life later. So that's the pitch. If you like the podcast and you want to see it perpetuated, then you've got to save my life so that I don't get driven into the ground by a mountain wave. How's that? Is that exciting enough for you, Daniel?
+**Chris Benson:** It was very close or ripping the wings off the plane kind of thing. So this happened earlier this year, early in 2022, but it made me keenly interested in the fluid dynamics of mountain waves. And so if anybody is looking for a CFD toy project and you want to look at that in the Smoky Mountains, you may save my life later. So that's the pitch. If you like the podcast and you want to see it perpetuated, then you've got to save my life so that I don't get driven into the ground by a mountain wave. How's that? Is that exciting enough for you, Daniel?
 
 **Daniel Whitenack:** If you could inference fast, and you did get the light bulb blinking, the warning that you were about to be overtaken by a mountain wave, would you have time to respond?
 
@@ -268,7 +268,7 @@ This, in my understanding, these weather predictions that they're doing in this 
 
 **Daniel Whitenack:** I saw that.
 
-**Chris Benson:** \[unintelligible 00:31:25.28\] normally go together. There we go. Having fun today.
+**Chris Benson:** You see how I tied all those things together that don't normally go together. There we go. Having fun today.
 
 **Daniel Whitenack:** Yeah, exactly. Speaking of tying all things together, we actually not that long ago, in the (I think) fall of last year, we talked about a few things related to the AI Index Report, which comes out of Stanford, and measures trends in artificial intelligence... Actually, the next version of that is out. So because we talked about it recently, we won't spend a whole episode on it, but maybe it's worth bringing up here as we close out our Fully Connected episode, just to kind of skim the top takeaways, and we'll definitely include it in our show notes so people can look at it.
 
