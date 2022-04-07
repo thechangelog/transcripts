@@ -28,7 +28,7 @@
 
 **Nick Nisi:** Nice! Very cool. That is a lot of wildly varying things, I was gonna say, and then I realized that --
 
-**Mikola Lysenko:** There's more stuff. I gave a bridged version. I don't wanna \[unintelligible 00:03:46.14\]
+**Mikola Lysenko:** There's more stuff. I gave a bridged version. I don't wanna lock in that.
 
 **Nick Nisi:** Oh, for sure. But that's like such a cool and unique segment.
 
@@ -64,13 +64,13 @@ So yeah, there's a lot of potential for bad things to happen if any of those get
 
 So it's really great, we're not against using open source; we just think that with the threat of supply chain attacks increasing, we need to take some steps to responsibly use open source... In the same way that it's become pretty common to scan for vulnerabilities in your open source packages. We think that scanning for supply chain attacks is a logical next step that the industry and all developers need to start thinking about and implementing in their apps to make sure that their open source is safe from supply chain attacks.
 
-**Christopher Hiller:** A question I've seen thrown around recently is "What \[unintelligible 00:07:45.03\] in JavaScript land? Why is it a thing with npm packages?" And of course, there's a lot of speculation as to the reasons why, but what do you think it is?
+**Christopher Hiller:** A question I've seen thrown around recently is "What if this happened in JavaScript land? Why is it a thing with npm packages?" And of course, there's a lot of speculation as to the reasons why, but what do you think it is?
 
 **Bret Comnes:** \[08:01\] I think it's because the scale of the JavaScript ecosystem is so much larger than every other ecosystem... Kind of like rare cosmological events. Like I was saying before, when you have large-scale numbers of things happening over and over every day, like people installing packages every day, things getting published every day, even if it's a very small probability of somebody introducing one of these vulnerabilities, just the sheer number increases the count of those that you see.
 
 **Mikola Lysenko:** Also, it's like, everyone has some JavaScript in their tech stack... It's like, back in the old days, would you bother writing viruses for some obscure Linux that runs on like a toaster? It's not worth it. So if you're an attacker, you're obviously gonna go after JavaScript, because that's where the money is, right?
 
-So yeah, we're gonna see them there, and then as it gets more locked down and we figure out how to fix it, the little cockroaches will scurry off to the other places where it's more vulnerable. So we're coming for you next, \[unintelligible 00:08:56.04\] We'll get you! They're just next, that's all it is. We're just the biggest, so we're gonna get hit first.
+So yeah, we're gonna see them there, and then as it gets more locked down and we figure out how to fix it, the little cockroaches will scurry off to the other places where it's more vulnerable. So we're coming for you next, Mavin, we're coming for you Python. We'll get you! They're just next, that's all it is. We're just the biggest, so we're gonna get hit first.
 
 **Nick Nisi:** Yeah. That is such a good point though. If you're not a Java developer, you probably won't be using Maven. If you're not a Ruby developer, you're probably not using Ruby Gems. But all of those projects are probably using npm. Because if they touch the web, they probably have some JavaScript in there. That really highlights how wide-ranging and vast the JavaScript landscape really is, compared to other languages.
 
@@ -150,7 +150,7 @@ And we have a bunch of other things we can detect on our website, which we're no
 
 **Mikola Lysenko:** Yeah. If there's just a package.json file, the best we can do is make a guess about npm install will do. But there's always gonna be a race condition there, because npm could update between when we do the scan and when you do the deploy. So for safety purposes, you should just use a package lockfile. But if it's not there, you could make a pretty good guess about what's gonna happen, so we do the thing as like a fallback.
 
-**Bret Comnes:** In module development though, even if you have a package lock for your development and your tests, the consumers who are installing you - they don't get those guarantees that your \[unintelligible 00:18:44.28\] does.
+**Bret Comnes:** In module development though, even if you have a package lock for your development and your tests, the consumers who are installing you - they don't get those guarantees that your model does.
 
 **Christopher Hiller:** Sorry, that's what I was trying to say.
 
@@ -216,7 +216,7 @@ In the case of React, we can probably in the future, for tests, once we're inges
 
 **Bret Comnes:** \[28:17\] It's an extreme optimization.
 
-**Mikola Lysenko:** Yeah, yeah. It's like, "What if we delete all our white space in our package file, too? We shouldn't publish anything that's not \[unintelligible 00:28:22.28\]" Like, I don't know; I guess if you really wanna do that, but... Why?
+**Mikola Lysenko:** Yeah, yeah. It's like, "What if we delete all our white space in our package file, too? We shouldn't publish anything that's not metal" Like, I don't know; I guess if you really wanna do that, but... Why?
 
 **Feross Aboukhadijeh:** Some people also minify their files that they publish in their packages. Or browserify or webpack the code, so that there's only one file that needs to be required...
 
@@ -226,7 +226,7 @@ In the case of React, we can probably in the future, for tests, once we're inges
 
 **Mikola Lysenko:** And this is why we have a concept of supply chain risk. It doesn't mean that they're doing something bad, but now it's more likely they could do something bad. So if they're deleting tests, if they're minifying their code and doing all this other stuff, you've gotta be a little sketched out about that. And maybe it's fine, but it's like processed food; you get a little bit of cadmium, or nickel contaminants here and there... And maybe one or two is okay, but the cumulative effect can give you terminal brain cancer.
 
-**Feross Aboukhadijeh:** The other thing too is I think there's things we can do with our scores and with the stuff we show on the package page to maybe encourage better practices... Not that we wanna create a lot more work for maintainers, but there are certain things, best practices that I think it would be great if we could make more normal... Something like being able to say "We took the GitHub code, we ran npm install, npm build, and then we ran npm pack", which is \[unintelligible 00:29:53.18\] and it gives you a tarball. And we compared it to what was on npm and we've found that it was identical. That's almost like a notion of a reproducible build. We could say "This package -- you can go get the GitHub code and you can run those commands yourself and you will be able to confirm that that's the code they put on npm." That's a great thing to know about a package. Versus some other package that might require random system libraries to be installed, and who knows what versions those are, and now the code doesn't even necessarily match, and so you don't know that what you're installing and running is actually what you saw on GitHub.
+**Feross Aboukhadijeh:** The other thing too is I think there's things we can do with our scores and with the stuff we show on the package page to maybe encourage better practices... Not that we wanna create a lot more work for maintainers, but there are certain things, best practices that I think it would be great if we could make more normal... Something like being able to say "We took the GitHub code, we ran npm install, npm build, and then we ran npm pack", which is what basically simulates a publish and it gives you a tarball. And we compared it to what was on npm and we've found that it was identical. That's almost like a notion of a reproducible build. We could say "This package -- you can go get the GitHub code and you can run those commands yourself and you will be able to confirm that that's the code they put on npm." That's a great thing to know about a package. Versus some other package that might require random system libraries to be installed, and who knows what versions those are, and now the code doesn't even necessarily match, and so you don't know that what you're installing and running is actually what you saw on GitHub.
 
 So stuff like that, where probably like 99% of most packages will be able to pass that test. npm install, npm build, npm pack - that produces the same thing. But some of them aren't gonna pass that, and we should probably be a little bit more suspicious of those packages, and encourage them to --
 
@@ -238,9 +238,9 @@ So stuff like that, where probably like 99% of most packages will be able to pas
 
 **Bret Comnes:** Unless they're rendering it into their npm package during build, they shouldn't.
 
-**Feross Aboukhadijeh:** Yeah, that's a good point. He's making the point that if their WebPack version is loose, or something, then maybe it produces \[unintelligible 00:30:59.28\] That is a challenge, and we haven't built this yet, but this is --
+**Feross Aboukhadijeh:** Yeah, that's a good point. He's making the point that if their WebPack version is loose, or something, then maybe it produces a slightly differernt output. That is a challenge, and we haven't built this yet, but this is --
 
-**Mikola Lysenko:** The other thing to is also - going back to what you said, we don't wanna make more work for maintainers. The thing is, doing all that extra packing, minifying, deleting test crap - I mean, that's actually more work. We're trying to convince maintainers to not do that, because it seems like you're helping, but this might be a case where the cure is worse than the disease. Just stop making it so complicated. You can just publish the damn files \[unintelligible 00:31:25.02\] Because everyone's already running this thing through a build step anyway when they're consuming it. You're not optimizing anything that's worthwhile here. It's making it more fragile, basically, right?
+**Mikola Lysenko:** The other thing to is also - going back to what you said, we don't wanna make more work for maintainers. The thing is, doing all that extra packing, minifying, deleting test crap - I mean, that's actually more work. We're trying to convince maintainers to not do that, because it seems like you're helping, but this might be a case where the cure is worse than the disease. Just stop making it so complicated. You can just publish the damn files right why? Because everyone's already running this thing through a build step anyway when they're consuming it. You're not optimizing anything that's worthwhile here. It's making it more fragile, basically, right?
 
 **Nick Nisi:** Sure.
 
@@ -252,7 +252,7 @@ So stuff like that, where probably like 99% of most packages will be able to pas
 
 **Feross Aboukhadijeh:** \[31:57\] It's something you probably wanna know about you choose a package...
 
-**Bret Comnes:** The other piece or tidbit I'd throw out there as well - back in the early days of Node there were a lot of DX design ideals around how Node modules should work, and one of the original ideas was you could actually just go into Node modules and \[unintelligible 00:32:16.11\] dependency and make contributions out of your dependencies folder. And we've obviously gone far away from that... npm in some sense has turned into a much more simple tool, which is just shipping tarballs here to your local development or CI pipeline... But in some sense, it's like - maybe you wanna know, "How is this maintainer treating this tarball?" Is it just like a sort of \[unintelligible 00:32:40.07\] that they send you, or is there actually a strong connection with the original source files?
+**Bret Comnes:** The other piece or tidbit I'd throw out there as well - back in the early days of Node there were a lot of DX design ideals around how Node modules should work, and one of the original ideas was you could actually just go into Node modules and get a nit dependency and make contributions out of your dependencies folder. And we've obviously gone far away from that... npm in some sense has turned into a much more simple tool, which is just shipping tarballs here to your local development or CI pipeline... But in some sense, it's like - maybe you wanna know, "How is this maintainer treating this tarball?" Is it just like a sort of built binary packed that they send you, or is there actually a strong connection with the original source files?
 
 **Mikola Lysenko:** Yeah.
 
@@ -260,7 +260,7 @@ So stuff like that, where probably like 99% of most packages will be able to pas
 
 **Nick Nisi:** Yeah. And I can see that, removing tasks or doing optimizations like removing white space, things like that, being like holdouts from the original days of JavaScript. You're shipping to the browser, so you want to have as little things as possible... But it's also possible that it's just accidental, in the case of like -- I don't know, maybe my entire codebase is written in TypeScript, and then the build command is just looking at what files start from main, or whatever... And tests are never part of that, and so it just never gets built out, and there really is no connection.
 
-**Feross Aboukhadijeh:** That's why this stuff is gonna be important to get right, and to be really sensitive to -- there's so many different workflows people have, and there's so many things you can use npm for... You know, originally we had a bug where we would find packages that just had CSS in them, and we would classify them as empty packages, packages that don't do anything... But it's like, no, actually, CSS packages - it's like a \[unintelligible 00:34:06.19\] npm for. So, like, okay, you know... So we're discovering all these different things. Some people publish C code to npm, and just use it -- you know, there's so many things people are using it for, so...
+**Feross Aboukhadijeh:** That's why this stuff is gonna be important to get right, and to be really sensitive to -- there's so many different workflows people have, and there's so many things you can use npm for... You know, originally we had a bug where we would find packages that just had CSS in them, and we would classify them as empty packages, packages that don't do anything... But it's like, no, actually, CSS packages - it's like a thing people use npm for. So, like, okay, you know... So we're discovering all these different things. Some people publish C code to npm, and just use it -- you know, there's so many things people are using it for, so...
 
 **Nick Nisi:** Oh, interesting.
 
@@ -328,7 +328,7 @@ So stuff like that, where probably like 99% of most packages will be able to pas
 
 **Mikola Lysenko:** We're working on product design...
 
-**Bret Comnes:** We have like a \[unintelligible 00:38:38.11\]
+**Bret Comnes:** We have like a thousand tangents
 
 **Mikola Lysenko:** Yeah... I don't know, you bring a few people -- we're doing product development right now, and this is what you're gonna get. \[laughter\] Sorry we're putting you all to sleep.
 
@@ -346,7 +346,7 @@ So stuff like that, where probably like 99% of most packages will be able to pas
 
 **Mikola Lysenko:** Correct. The reason your score is bad is because I hate you. \[laughter\] That's what you can take away from this conversation.
 
-**Bret Comnes:** \[unintelligible 00:39:37.04\]
+**Bret Comnes:** No Mik.
 
 **Feross Aboukhadijeh:** This is why we don't let Mik do public interviews. \[laughs\]
 
@@ -384,7 +384,7 @@ You can use it as like a way to justify "We should fork and make this better", o
 
 **Christopher Hiller:** So recently there was a supply chain attack, and a popular package - I think it was node-ipc - included another package, which is called peacenotwar. And peacenotwar - first it (I'm not sure) it started looking at your IP address and zeroing out your hard drive if you live in Russia, and then it pulled that out, and I think what it does now is it creates a file on your desktop... I don't know. But I'm curious, since this was a big deal, how did Socket approach that? What was the experience for a Socket user, if they had depended upon, say, node-ipc?
 
-**Mikola Lysenko:** \[48:07\] Well, at this point we basically only have a GitHub app that detects typosquats, so it wouldn't do anything on peacenotwar. But once we have a fully functional application that you can install, it would file an alert that basically this thing gained access to a file system at \[unintelligible 00:48:23.17\] So it would have alerted on node-ipc for this particular thing if it was actually running. And then you'd get some message like "Hey, all of a sudden this module is accessing the file system when you require it, which is probably not what you wanted." So it would eventually do that.
+**Mikola Lysenko:** \[48:07\] Well, at this point we basically only have a GitHub app that detects typosquats, so it wouldn't do anything on peacenotwar. But once we have a fully functional application that you can install, it would file an alert that basically this thing gained access to a file system at the top level require. So it would have alerted on node-ipc for this particular thing if it was actually running. And then you'd get some message like "Hey, all of a sudden this module is accessing the file system when you require it, which is probably not what you wanted." So it would eventually do that.
 
 At this current stage though, we're still trying to get the application up, and bring that up and running, so it wouldn't catch it right away... Unless you actually went to the website and looked at the package, then you would have seen it.
 
@@ -410,7 +410,7 @@ At the moment though, you have to just look at the website to check for yourself
 
 **Nick Nisi:** Nice.
 
-**Mikola Lysenko:** \[51:56\] So you can see "Okay, this version was compromised, but maybe subsequent versions are okay." And I think at the moment it's sort of just the facts type of stuff; it says "Oh, it was compromised at one point in the past", we might report that, but if the current version looks legit, it's okay. So yeah, that's basically what it is; it looks at each version in terms of when did things happen in that package, basically. If the \[unintelligible 00:52:20.11\] doesn't have an install script, then it won't see an install script.
+**Mikola Lysenko:** \[51:56\] So you can see "Okay, this version was compromised, but maybe subsequent versions are okay." And I think at the moment it's sort of just the facts type of stuff; it says "Oh, it was compromised at one point in the past", we might report that, but if the current version looks legit, it's okay. So yeah, that's basically what it is; it looks at each version in terms of when did things happen in that package, basically. If the current version doesn't have an install script, then it won't see an install script.
 
 **Nick Nisi:** So as we've alluded to, npm is quite popular, and there are a lot of packages out there... So how does Socket scale to analyze all of these packages and give you that in a timely manner?
 
@@ -430,7 +430,7 @@ So the parallelism happens at the level of functions, and we can also memo-ize t
 
 **Christopher Hiller:** And do you have anything that polls, or sits on a feed and waits for new published packages then?
 
-**Mikola Lysenko:** Yeah, so the way that works is we basically tail the npm package feed, and then you have sort of like a root point, which is like the state of all packages on npm. Then new packages come in, you build a new block and you throw it back in there, update \[unintelligible 00:55:35.13\]
+**Mikola Lysenko:** Yeah, so the way that works is we basically tail the npm package feed, and then you have sort of like a root point, which is like the state of all packages on npm. Then new packages come in, you build a new block and you throw it back in there, update a pointer and it redoes everything basically. 
 
 **Feross Aboukhadijeh:** The following npm part is really important to be able to detect when new stuff gets published that's sketchy... I don't know if we're currently -- are we currently running analysis on the feed?
 
