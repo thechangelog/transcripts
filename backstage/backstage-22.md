@@ -112,7 +112,7 @@ Mat Ryer, I know you from Go Time and other places, that you're super-funny, and
 
 **Mat Ryer:** Yeah. And I was just like, "Oh no, I hope I don't get dragged into this..." And I did, in the end, because... I think, Tom, you said something that I completely disagreed with about Go, or something. \[laughter\] You made a criticism about Go...
 
-**Tom Wilkie:** \[00:04:02.16\] Probably.
+**Tom Wilkie:** \[04:02\] Probably.
 
 **Mat Ryer:** ...and then I have a duty, don't I, to --
 
@@ -206,7 +206,7 @@ Then I think you reached out, Tom, and you were like "Why don't we do this for m
 
 **Matt Toback:** Yeah.
 
-**Mat Ryer:** \[00:07:56.14\] You've got my outline.
+**Mat Ryer:** \[07:56\] You've got my outline.
 
 **Jerod Santo:** Why do you guess every episode?
 
@@ -376,7 +376,7 @@ Then I think you reached out, Tom, and you were like "Why don't we do this for m
 
 **Jerod Santo:** Or some of your co-panelists might be American...
 
-**Mat Ryer:** \[00:11:54.07\] We'll get letters, Tom, assuming they can write... \[laughter\] You can cut that one out as well.
+**Mat Ryer:** \[11:54\] We'll get letters, Tom, assuming they can write... \[laughter\] You can cut that one out as well.
 
 **Jerod Santo:** No, it's all staying in. No one is gonna listen to your guys' podcast.
 
@@ -432,7 +432,7 @@ And for us it isn't just about data sources in Grafana. It pervades the company 
 
 **Mat Ryer:** Yeah. You know, when you look at the family of podcasts that you get from Changelog, and the quality of it... This was always the thing that struck me - with the transcripts, the little preview clips that go out on Twitter, the editing quality... In fact, we did a recent episode of Go Time with Ed Welch, who's actually from Grafana. And he was kind of really worried after that we'd just not produced anything; that we just had a conversation. He felt like there was a lot of stopping and starting, and he felt like there were big gaps, and he was a bit worried about that. And then he today told me he listened to the polished episode and it's amazing.
 
-\[00:16:23.15\] Honestly, that editing, cutting things down to the -- distilling it down to the bare essentials, that process, whatever goes on... You know, we don't talk over each other on the podcast; I mean, you do when you're recording it, because in real life you do. But it all gets sorted out for you in the edit. And I think the listening experience that that delivers is just really high, and it means you can listen to it on two times speed, which some people do... And I think that would be difficult if there was a lot more talking over each other, and things like that. So I think the quality was a big pull for doing it with you.
+\[16:23\] Honestly, that editing, cutting things down to the -- distilling it down to the bare essentials, that process, whatever goes on... You know, we don't talk over each other on the podcast; I mean, you do when you're recording it, because in real life you do. But it all gets sorted out for you in the edit. And I think the listening experience that that delivers is just really high, and it means you can listen to it on two times speed, which some people do... And I think that would be difficult if there was a lot more talking over each other, and things like that. So I think the quality was a big pull for doing it with you.
 
 **Tom Wilkie:** I also hope it compliments your other podcasts. I listen to Go Time, I listen to Changelog, and I just think what we're trying to do with Big Tent is similar, but different. Complementary. And so I'm hoping that it fits with the catalog.
 
@@ -480,7 +480,7 @@ And then also just getting the chance to help produce a good observability podca
 
 **Mat Ryer:** We're not very good at being nice to each other. So this has been a lot of us all being nice. Can we just have two minutes of hate?
 
-**Tom Wilkie:** \[00:20:14.06\] We're quite good friends in real life. We hang out outside of work, and everything... But yeah, the constant bickering might come across wrong.
+**Tom Wilkie:** \[20:14\] We're quite good friends in real life. We hang out outside of work, and everything... But yeah, the constant bickering might come across wrong.
 
 **Matt Toback:** It feels like an unfair advantage, particularly getting to record with you guys. You get to hang out, you get to go to the pub, have a relationship... I don't think this is gonna work.
 
@@ -552,7 +552,7 @@ And then also just getting the chance to help produce a good observability podca
 
 **Mat Ryer:** It was Quiz Time...! \[laughs\] We could do it now. It's Quiz Time!
 
-**Jingle:** \[00:22:30.20\] to \[00:22:49.01\]
+**Jingle:** \[22:30\] to \[22:49\]
 
 **Jerod Santo:** I couldn't help myself; I have fun with that kind of stuff... And whenever you make up something ridiculous, I think "Well, let's just lean into this thing. Why not?" This is the kind of stuff that we like to do; make every episode have something that's different or special, or just like that little extra something where you don't know exactly what to expect. Sometimes we put Easter eggs in at the end, or ridiculous things, and try to keep people on their toes. Because the conversations are good, but if you can sprinkle in something extra in the post-production, it just shows that we really do care. And I love when people do that with their podcasts. I think it's so neat. So yeah, if you make up something on the spot, I'm gonna try to riff on it and see if I can make it even better.
 
@@ -560,7 +560,7 @@ And then also just getting the chance to help produce a good observability podca
 
 **Adam Stacoviak:** Yeah. Well, we do appreciate y'all working with us, honestly. We've wanted to do this for a while, we've wanted to produce a brand's podcast, and help something like this come to life. Because I think given our journey to here, you can probably appreciate all the hurdles in front of producing a podcast. You can get the people together, you can give them good mics and give them things to say, but that's not a podcast. There's a lot more to it than that. And there's a lot of hurdles in front of producing a well-formed, well-produced podcast. I'm not saying it's impossible, by any means, but you really have to want it to get there. And I think we all came together in the right way to make this show possible.
 
-**Tom Wilkie:** \[00:24:23.20\] Yeah. All warm and fuzzy.
+**Tom Wilkie:** \[24:23\] Yeah. All warm and fuzzy.
 
 **Jerod Santo:** So hopefully it doesn't suck. \[laughter\]
 
@@ -690,7 +690,7 @@ That's one thing we say here, is like -- we have had a community for a while, we
 
 **Adam Stacoviak:** It's gotta be a big tent, okay...? We need a philosophy around this thing; it's gotta be a big tent.
 
-**Tom Wilkie:** \[00:27:59.28\] One of the jokes we were gonna have on this was that we were gonna send everyone that appears one of those little tents that you get in the tent shops. Because the tent shops can't have the big tent, because it's too big, and the shop would be too big, so they make little model tents.
+**Tom Wilkie:** \[27:59\] One of the jokes we were gonna have on this was that we were gonna send everyone that appears one of those little tents that you get in the tent shops. Because the tent shops can't have the big tent, because it's too big, and the shop would be too big, so they make little model tents.
 
 **Jerod Santo:** Are there tent shops, like all they sell is tents?
 
@@ -814,7 +814,7 @@ That's one thing we say here, is like -- we have had a community for a while, we
 
 **Jerod Santo:** Tom's like, "It's a bunch of clowns!" \[laughter\]
 
-**Adam Stacoviak:** \[00:32:03.23\] That ain't gonna work. Erik's like "Scratch that idea. Here's a campfire tent, Tom..."
+**Adam Stacoviak:** \[32:03\] That ain't gonna work. Erik's like "Scratch that idea. Here's a campfire tent, Tom..."
 
 **Matt Toback:** That's a great first idea, Tom. \[laughter\]
 
@@ -944,7 +944,7 @@ That's one thing we say here, is like -- we have had a community for a while, we
 
 **Jerod Santo:** Mat even did a few jingles for JS Party.
 
-**Adam Stacoviak:** \[00:35:51.23\] Precisely, yeah. And I was not surprised, but very happy with the outcome. There was a \[unintelligible 00:35:57.00\] that this was kind of framed after. There was a certain idea for the way the track would come in, but Mat Ryer, you're the one who produced this music track.
+**Adam Stacoviak:** \[35:51\] Precisely, yeah. And I was not surprised, but very happy with the outcome. There was a \[unintelligible 00:35:57.00\] that this was kind of framed after. There was a certain idea for the way the track would come in, but Mat Ryer, you're the one who produced this music track.
 
 **Mat Ryer:** Yeah, I like doing it. I used to be in bands, and stuff... Basically, a failed pop star, so I have to do --
 
@@ -978,7 +978,7 @@ That's one thing we say here, is like -- we have had a community for a while, we
 
 **Matt Toback:** And then it felt like 45 minutes later Mat sent over the first version, and I was like, "This is awesome!" And it was pretty much all there at the beginning. And then there was little modifications and tweaks, but it came out kind of fully formed, and I was psyched. And I'm psyched every time I hear it now, so...
 
-**Jingle:** \[00:37:56.07\] to \[00:38:21.22\]
+**Jingle:** \[37:56\] to \[38:21\]
 
 **Mat Ryer:** I solicited claps for it on the internal Slack. I just said, in a random channel, "Who here--" And who hasn't, if we're honest...?
 
@@ -1018,7 +1018,7 @@ That's one thing we say here, is like -- we have had a community for a while, we
 
 **Jerod Santo:** This is the kind of high-quality content you can expect!
 
-**Mat Ryer:** \[00:39:53.06\] But that song - it did come out fully-formed, and that's how it happens. It's like, I need like a reason to do it, and then there's like a bit of pressure to do it, and then it'll happen. It either happens, or it's just nothing. It's one of those things - it's not like I know what I'm doing, so I can't think melodically or think methodically and sit down and write it and do it properly, using science and computer music theory and all that stuff. It's just, if it sounds good, it happens and we're like "Okay, yeah." And I have to check that it's original as well, so I have to play it to some people and be like "Is this a thing already and I've just copied it?"
+**Mat Ryer:** \[39:53\] But that song - it did come out fully-formed, and that's how it happens. It's like, I need like a reason to do it, and then there's like a bit of pressure to do it, and then it'll happen. It either happens, or it's just nothing. It's one of those things - it's not like I know what I'm doing, so I can't think melodically or think methodically and sit down and write it and do it properly, using science and computer music theory and all that stuff. It's just, if it sounds good, it happens and we're like "Okay, yeah." And I have to check that it's original as well, so I have to play it to some people and be like "Is this a thing already and I've just copied it?"
 
 **Jerod Santo:** Yeah, so Adam had mentioned the Beatles song... So from our perspective, I was talking with Mat, and I had my idea of what I thought the music could be, and what I was gonna tell Breakmaster Cylinder - not Similar, but the real one - was I was gonna say "How about a glitched out homage to the Mr. Kites song off of Sgt. Peppers. I don't know the whole name of the song; it's longer than that. But it's Mr. Kite.
 
@@ -1082,7 +1082,7 @@ That's one thing we say here, is like -- we have had a community for a while, we
 
 **Matt Toback:** Is it interesting?
 
-**Jerod Santo:** \[00:43:55.10\] I mean, a lot of times it's people who end up being maintainers of projects. Now, we've done obscure projects where the person is therefore still not like a name in the industry, and asked them how they got into it... We had a series called Maintainer Spotlight, which is really like the life stories of maintainers. Really interesting stuff, especially I think even just users of open source software or observability tooling, and how they're solving their problems and what problems they have. Almost like you would have a conversation with somebody at a conference; really interesting things can come out of those, because they're like real-world, rubber hits the road situations that they can share, that you're not gonna get from like the library maintainers, or the people working for large companies, or whatever. The typical people you hear from.
+**Jerod Santo:** \[43:55\] I mean, a lot of times it's people who end up being maintainers of projects. Now, we've done obscure projects where the person is therefore still not like a name in the industry, and asked them how they got into it... We had a series called Maintainer Spotlight, which is really like the life stories of maintainers. Really interesting stuff, especially I think even just users of open source software or observability tooling, and how they're solving their problems and what problems they have. Almost like you would have a conversation with somebody at a conference; really interesting things can come out of those, because they're like real-world, rubber hits the road situations that they can share, that you're not gonna get from like the library maintainers, or the people working for large companies, or whatever. The typical people you hear from.
 
 **Matt Toback:** Even at large companies, that wanna -- this is something I hope we can do an episode on, but... When we're talking to customers, potentials, that are Grafana users, they're like "How do people do this? What happened? Tell us the recipe." And really, more often than not - Tom, Mat, keep me honest, but the person who did it just did it, and just started doing it, and just created the thing, and then it gained some momentum. So when someone's like, "Well, how can I do this?", we're like, "Well, maybe you're not the right person to do it..." No. \[laughter\] But it does feel similar to that open source ethos. You just kind of go. You create value, and people start attaching to it.
 
@@ -1118,7 +1118,7 @@ So I think the value of sharing those things, even if it's like a very specific 
 
 **Jerod Santo:** Especially if it's somebody that you respect, or that you look up to a little bit, and you're like, "Okay, that's the way they think about this." It really does give you permission to think outside the box, or try something a little more daring, or it gives you a little more courage when somebody else has gone in front of you and done the same thing.
 
-**Mat Ryer:** \[00:48:03.28\] Yeah, that's especially true if there's already something out there that's solving a similar problem. It's very easy to think, "Oh, what's the point? This has been out there for years..." But very often, a fresh approach, and from scratch - you have a lot of advantages over well-established projects. So it is worth doing.
+**Mat Ryer:** \[48:03\] Yeah, that's especially true if there's already something out there that's solving a similar problem. It's very easy to think, "Oh, what's the point? This has been out there for years..." But very often, a fresh approach, and from scratch - you have a lot of advantages over well-established projects. So it is worth doing.
 
 I think you're right, people need permission. Everyone should do it. Just do your thing, and talk about it, and do meetups, and write blogs about it, and tweet about it, go on Instagram, go on TikTok, do a podcast, go on IMDb... You never know, you might end up on IMDb.
 
@@ -1232,7 +1232,7 @@ I think you're right, people need permission. Everyone should do it. Just do you
 
 **Adam Stacoviak:** Presently it's not launched... This is part of the launch, so... If you're listening to this, the show is out there, so check it out, BigTent.fm. Man, what a joy it has been producing this with you all. Behind the scenes it's been so much fun, just seeing it all come to fruition... And that's my favorite thing with podcasts. Same thing with Ship It, we've launched that show last year. All the years that went into producing that show, the same here... All the years of your careers, Grafana's journey, but then also the actual journey of producing the actual show... It didn't begin yesterday, it began last year, and it's been a bit of a journey to get here.
 
-\[00:52:15.28\] But I'm excited for the listeners to hear this, I'm excited for us to keep producing it, and you all having the fun you have. I think it's fun even being here and -- I feel like I'm behind the scenes of the actual Big Tent, because Jerod and I are just bolted on here; it's the three of you, and other casts of folks that come in and join you... But it's been fun seeing the chemistry behind the scenes as well.
+\[52:15\] But I'm excited for the listeners to hear this, I'm excited for us to keep producing it, and you all having the fun you have. I think it's fun even being here and -- I feel like I'm behind the scenes of the actual Big Tent, because Jerod and I are just bolted on here; it's the three of you, and other casts of folks that come in and join you... But it's been fun seeing the chemistry behind the scenes as well.
 
 **Tom Wilkie:** Thank you. It's been great working with you two as well.
 
