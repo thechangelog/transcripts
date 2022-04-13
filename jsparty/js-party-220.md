@@ -32,7 +32,7 @@ So in honor of me giving Nick a gift that day, I thought I would give you the sa
 
 **Kevin Ball:** Okay. And then I've gotta know how Nick actually did, so that I know where is the bar.
 
-**Jingle:** \[00:03:20.22\] to \[00:03:31.01\]
+**Jingle:** \[03:20\] to \[03:31\]
 
 **Jerod Santo:** Now do you get it? \[laughs\] Now he's into it...
 
@@ -48,7 +48,7 @@ So in honor of me giving Nick a gift that day, I thought I would give you the sa
 
 **Jerod Santo:** I've always been a Dr. Evil fan... So yeah, absolutely. Well, it is just the two of us, but before we get into my silly game - and I'll tell you... I'm pretty sure - I didn't go back and listen - Nick lost. I can't remember by how much, but I remember rubbing it in quite a bit... So you can expect that in your future as well, unless you are a better lie detector than Nick Nisi.
 
-**Kevin Ball:** \[00:04:16.01\] Having planned the game, you may have your finger on the scale a little bit there... You know, favors the house...
+**Kevin Ball:** \[04:16\] Having planned the game, you may have your finger on the scale a little bit there... You know, favors the house...
 
 **Jerod Santo:** Okay, we'll see. The house does usually win. We'll see what happens. Before we get into the headlies, let's talk about some headlines, just so folks have some actionable, informational takeaways from this episode... And the first one we want to discuss is - brand new, finally released, it was in release candidate for a while, but out there in the while just as of a couple days ago, React 18.
 
@@ -76,7 +76,7 @@ So it's kind of an interesting thing, where it's like, it's under the hood, you'
 
 **Kevin Ball:** Well, so I think Microsoft has said June 15, 2020. That's what Nick just shared again in the chat.
 
-**Jerod Santo:** \[00:07:57.15\] 2020? That's in the past.
+**Jerod Santo:** \[07:57\] 2020? That's in the past.
 
 **Kevin Ball:** Sorry, 2022.
 
@@ -130,7 +130,7 @@ So it's kind of an interesting thing, where it's like, it's under the hood, you'
 
 We shifted to that three months ago, six months ago, and it has massively improved our developer experience over WebPack. So if you have a very large application and your local WebPack recompile times and things like that are annoying and painful, definitely look at migrating to Vite. It was not a drop in migration for us. Now, we had a pretty custom config... If you're using a WebPack config pretty much directly from Create React App, or something like that - there's probably an easy migration script. But if you have a pretty custom WebPack config, then yeah, you may have to do some work. But it's been a massive developer experience improvement to ship to Vite. Vite, pronounced Vite - it's from French, and I believe it means fast... And it is.
 
-**Jerod Santo:** \[00:12:29.19\] Yes. Vite rhymes with suite. That's my way of remembering it. Nick Nisi says Vite rhymes with feet. I'm like, "That's just gross, dude." Why not go suite? \[unintelligible 00:12:37.26\] Well, speaking to the older versions, I think Ogabe's point that we both missed on was that, well, those were auto-updating. IE11 is kind of the last holdout, and with official ES module support, it seems like IE11 is the last big red on Can I Use that people are still probably using. I don't think anyone's really stuck on an old Safari, unless they have like an older iPad that just won't upgrade. I know one of my sons has an old iPad that can't get iOS 14, I think, and he's left in the dark for many things in the modern web and native world.
+**Jerod Santo:** \[12:29\] Yes. Vite rhymes with suite. That's my way of remembering it. Nick Nisi says Vite rhymes with feet. I'm like, "That's just gross, dude." Why not go suite? \[unintelligible 00:12:37.26\] Well, speaking to the older versions, I think Ogabe's point that we both missed on was that, well, those were auto-updating. IE11 is kind of the last holdout, and with official ES module support, it seems like IE11 is the last big red on Can I Use that people are still probably using. I don't think anyone's really stuck on an old Safari, unless they have like an older iPad that just won't upgrade. I know one of my sons has an old iPad that can't get iOS 14, I think, and he's left in the dark for many things in the modern web and native world.
 
 So heading to our next headline - and this is another release. It's not quite here yet, I guess, when you're listening to this. If you're listening live, it's not live. If you're listening on the feed, then it has gone live, and that's Redwood.js. It goes 1.0 on April 4th.
 
@@ -150,7 +150,7 @@ And yeah, I don't think it's gotten -- it is a little bit bigger of a step from 
 
 So I just listened to the Remix episode; I wasn't on the episode. It sounds like Remix - they're calling it "center stack", which is a way of saying "We know we thought of it as a frontend framework, but we don't really have all that much backend stuff yet." That's kind of the way I was reading that \[unintelligible 00:16:02.09\] It seems like Tom and the gang, they're more like a full-stack, frontend-first, but full-stack; it's a hybridy thing, kind of like Next, but more full-stack even than Next is. Am I reading the room right?
 
-**Kevin Ball:** \[00:16:19.18\] Yeah. So my take on Remix - and I was digging into this; I'm actually working on a blog post based off of that episode, because I think it's a really interesting take on things. So I think Remix is really trying to solve the server-side rendering/client-side rendering uncanny valley when I ship over stuff, but then I have to hydrate it... That whole space.
+**Kevin Ball:** \[16:19\] Yeah. So my take on Remix - and I was digging into this; I'm actually working on a blog post based off of that episode, because I think it's a really interesting take on things. So I think Remix is really trying to solve the server-side rendering/client-side rendering uncanny valley when I ship over stuff, but then I have to hydrate it... That whole space.
 
 **Jerod Santo:** Right.
 
@@ -190,7 +190,7 @@ So it's kind of trying to do the whole thing of -- like, what you might do with 
 
 **Jerod Santo:** But Redwood.js 1.0 should be out there April 4th. They have a big launch week, we'll link to that... And yeah, expect -- not gonna promise, but expect more Redwood content on JS Party here in the coming weeks.
 
-**Break**: \[00:20:45.17\]
+**Break**: \[20:45\]
 
 **Jerod Santo:** Let's move to our last headline... And this one seems very interesting. MDN Plus. "Make MDN your own." So that's Mozilla Developer Network; or at least that's what it used to be called. Is that still what it's called? I think so. And they say in this announcement that it's one of the most trusted resources for information about web standards, code samples, tools and everything you need as a developer to create websites.
 
@@ -202,7 +202,7 @@ They go on to say "These two initiatives were the start of our exploration into 
 
 **Jerod Santo:** "Our first step to providing a personalized and more powerful experience." So basically, they have new features and they have subscriptions. First, your initial response, and then we'll go into a little bit about the plans and what they're offering. When you hear about this, what do you think? Is this cool? Is this weird? Exciting? Bad?
 
-**Kevin Ball:** \[00:23:56.29\] I don't know. So I hadn't heard of this before you put it out. It hadn't made it across my radar. It feels like they're going after freeCodeCamp, in some ways. Like, "We have all this web traffic, people who are trying to learn this... Let's put a bunch of tutorials together", and things like that.
+**Kevin Ball:** \[23:56\] I don't know. So I hadn't heard of this before you put it out. It hadn't made it across my radar. It feels like they're going after freeCodeCamp, in some ways. Like, "We have all this web traffic, people who are trying to learn this... Let's put a bunch of tutorials together", and things like that.
 
 I love to see innovation in that space, competition in that space. I think there's more opportunity in the web development world than ever before, and in my mind it's one of the most -- it's the best class to get into a middle class lifestyle. Or sorry, the best path to get into the middle class lifestyle that exists today. You can learn on your own, you don't have to pay, you don't have to be credentialed... You just have to learn and show you can do the work, and you can get a reasonably-paying job or contract opportunity doing web development anywhere in the world. You just need an internet connection and a laptop. That's amazing. So more ways to help people learn if they're high-quality, which MDN historically has been very high-quality...
 
@@ -242,7 +242,7 @@ So that's the value exchange... But I think also built in here is - we saw what 
 
 **Kevin Ball:** Totally.
 
-**Jerod Santo:** \[00:28:19.20\] I don't know if these three -- I'm also not the target audience, but I'm trying to broadcast my thoughts into a targeted audience. I'm just not sure if these three things provide that much value. But maybe it's just a starting place.
+**Jerod Santo:** \[28:19\] I don't know if these three -- I'm also not the target audience, but I'm trying to broadcast my thoughts into a targeted audience. I'm just not sure if these three things provide that much value. But maybe it's just a starting place.
 
 **Kevin Ball:** So I to this day pay for a Medium subscription, and I do that specifically because I want to support explorations in other ways to help authors monetize. Not because I actually get enough value out of that Medium subscription that I might pay for just that value.
 
@@ -264,11 +264,11 @@ So that's the value exchange... But I think also built in here is - we saw what 
 
 **Jerod Santo:** Right. Alright, those are your headlines. They're all true, these are all real headlines. When we get back from the break, I have some other real headlines, and I also have some headlies, and we'll see if Kball can detect which is which... Right after this.
 
-**Break**: \[00:30:42.28\]
+**Break**: \[30:42\]
 
 **Jerod Santo:** Alright, it is now time for the world-famous game show. That's a lie... It's called HeadLies, and unfortunately, our regular jingle guy, Mat Ryer - his head has exploded to three times the size. He's requiring me to send him only the brown M&Ms, fees out the wazoo, no royalty-free anymore... So I had to create my own jingle, and I apologize in advance. Here it goes.
 
-**Jingle:** \[00:33:50.21\] HeadLine or HeadLie, you've gotta decide! HeadLine or HeadLie, give it a try! HeadLine or HeadLie, guess what's inside! HeadLine or HeadLie, I'm out of words that rhyme...
+**Jingle:** \[33:50\] HeadLine or HeadLie, you've gotta decide! HeadLine or HeadLie, give it a try! HeadLine or HeadLie, guess what's inside! HeadLine or HeadLie, I'm out of words that rhyme...
 
 **Jerod Santo:** Thank you, thank you.
 
@@ -314,7 +314,7 @@ So that's the value exchange... But I think also built in here is - we saw what 
 
 **Kevin Ball:** On the one hand, I see no way that a man can actually do that. On the other hand, you just said "Man says that..." And people will claim all sorts of crazy stuff.
 
-**Jerod Santo:** \[00:36:08.01\] So you're on the fence then.
+**Jerod Santo:** \[36:08\] So you're on the fence then.
 
 **Kevin Ball:** I'm on the fence, so I'm gonna ask for more information.
 
@@ -376,7 +376,7 @@ So after two rounds, the score is Jerod 3, Kball 0. I'm having a great time. I h
 
 **Kevin Ball:** That is my final answer.
 
-**Jerod Santo:** \[00:40:15.19\] Drum roll, please... Ding-ding-ding-ding! You got one!
+**Jerod Santo:** \[40:15\] Drum roll, please... Ding-ding-ding-ding! You got one!
 
 **Kevin Ball:** Okay. Phew!
 
@@ -448,7 +448,7 @@ So it kind of just repeats the story, but... Yeah, she stole a car to go to cour
 
 **Jerod Santo:** Okay. "For over a year, Exxon has been working with Crusoe Energy Systems, a company based in Denver, said the people who asked not to be named, because details of the project are confidential. Crusoe's technology helps oil companies turn wasted energy or flare gas into a useful resource." For one point now.
 
-**Kevin Ball:** \[00:44:14.07\] I think this is one of those where they're doing something like that, but it being for crypto is just too perfect, and I think you \[unintelligible 00:44:22.01\] so I'm gonna say false.
+**Kevin Ball:** \[44:14\] I think this is one of those where they're doing something like that, but it being for crypto is just too perfect, and I think you \[unintelligible 00:44:22.01\] so I'm gonna say false.
 
 **Jerod Santo:** Okay. \[drum roll\] I'm back, baby! That one's true.
 
@@ -518,7 +518,7 @@ So it kind of just repeats the story, but... Yeah, she stole a car to go to cour
 
 **Kevin Ball:** One, a startup that I worked at early in my career called Causes was co-founded by Sean Parker and Joe Green... Joe Green being Zuckerberg's freshman roommate. And we had connections into Facebook and we actually leaned heavily into that Facebook viral crack when they first launched. We developed what was for a very long time the largest non-game application on the Facebook platform. Anyway, so I had that weird connection.
 
-\[00:47:57.16\] But then later weird connection... So my wife's family is Jewish, and we don't practice very much, but we do go to the synagogue for Yom Kippur. And it turns out that the synagogue that her parents belong to, that we go to for Yom Kippur is the same synagogue that Zuckerberg goes to. So a couple of years in a row we would kind of creep in for the end of -- we would go for the end of services; basically, the end of Yom Kippur, as they're closing the heavens and doing all the different pieces. People who are more observant will be there all day for services, but we'll just go towards the end. We would sneak in there. And two years in a row, Zuckerberg snuck in at about the same time, and he was within a row of us.
+\[47:57\] But then later weird connection... So my wife's family is Jewish, and we don't practice very much, but we do go to the synagogue for Yom Kippur. And it turns out that the synagogue that her parents belong to, that we go to for Yom Kippur is the same synagogue that Zuckerberg goes to. So a couple of years in a row we would kind of creep in for the end of -- we would go for the end of services; basically, the end of Yom Kippur, as they're closing the heavens and doing all the different pieces. People who are more observant will be there all day for services, but we'll just go towards the end. We would sneak in there. And two years in a row, Zuckerberg snuck in at about the same time, and he was within a row of us.
 
 **Jerod Santo:** Oh, wow.
 
@@ -560,7 +560,7 @@ Number 9. "Google Search's new "Highly suspect" label helps you question the sou
 
 **Kevin Ball:** Hm... I'm gonna go with false, and here's why. I think the description as stated, which is about zero things linking to that article \[unintelligible 00:51:02.08\] against real-time, and I know that one of the big areas that they're trying to think about here is actually real-time and how you support things. So I suspect that they're doing something similar, or like this, but that algorithm rings false to me, so I'm gonna say false.
 
-**Jerod Santo:** \[00:51:17.05\] \[drum roll\] Well played, it is false. So it's almost true, but I changed the label. So they have a new label, it's called "Highly cited", so I just inverted it. They have a new "Highly cited" label, which helps you know that a source is highly cited.
+**Jerod Santo:** \[51:17\] \[drum roll\] Well played, it is false. So it's almost true, but I changed the label. So they have a new label, it's called "Highly cited", so I just inverted it. They have a new "Highly cited" label, which helps you know that a source is highly cited.
 
 **Kevin Ball:** Is trustworthy, yeah. That makes a ton of sense.
 
