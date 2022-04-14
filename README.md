@@ -353,6 +353,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/vwkd"><img src="https://avatars.githubusercontent.com/u/33468089?v=4?s=100" width="100px;" alt=""/><br /><sub><b>vwkd</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=vwkd" title="Documentation">📖</a></td>
     <td align="center"><a href="https://tazj.in/"><img src="https://avatars.githubusercontent.com/u/1552853?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Vincent Ambo</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=tazjin" title="Documentation">📖</a></td>
     <td align="center"><a href="https://geoffrich.net"><img src="https://avatars.githubusercontent.com/u/4992896?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Geoff Rich</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=geoffrich" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/rafaelbeecker/"><img src="https://avatars.githubusercontent.com/u/8537227?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rafael Becker</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=rafaelbeecker" title="Documentation">📖</a></td>
   </tr>
 </table>
 
