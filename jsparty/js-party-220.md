@@ -42,7 +42,7 @@ So in honor of me giving Nick a gift that day, I thought I would give you the sa
 
 **Kevin Ball:** It worked a little better when it wasn't just you bobbing over there and me just hearing silence, right?
 
-**Jerod Santo:** You're like, "Why is he bobbing his head?" You'll notice I used the Dr. Evil version, not the official Will Smith version. Due to recent events I'm way more on Dr. Evil's side this week, than \[unintelligible 00:03:48.29\]
+**Jerod Santo:** You're like, "Why is he bobbing his head?" You'll notice I used the Dr. Evil version, not the official Will Smith version. Due to recent events I'm way more on Dr. Evil's side this week, than sir-smacks-a-lot
 
 **Kevin Ball:** And you weren't before?
 
@@ -90,7 +90,7 @@ So it's kind of an interesting thing, where it's like, it's under the hood, you'
 
 **Jerod Santo:** They're not gonna drop it on June 15th, 2022.
 
-**Kevin Ball:** "We still want it", then you say "Okay, well how do we move you along?" So I actually don't know off the top of my head what our internal date is. As much as we're trying to use Microsoft's EOL as a \[unintelligible 00:08:25.17\] to get everybody off of it, the reality is customers do in some senses have the final say... But it should be close to that timeframe.
+**Kevin Ball:** "We still want it", then you say "Okay, well how do we move you along?" So I actually don't know off the top of my head what our internal date is. As much as we're trying to use Microsoft's EOL as a cludge to get everybody off of it, the reality is customers do in some senses have the final say... But it should be close to that timeframe.
 
 **Jerod Santo:** Alright... Well, looking forward to close to June. I'm sure there's plenty of people out there waiting for this one to officially drop, so they can eventually drop. Anything else to say about React 18 before we go to the next headline?
 
@@ -108,7 +108,7 @@ So it's kind of an interesting thing, where it's like, it's under the hood, you'
 
 **Kevin Ball:** Concurrent should make it really easy to not have that be a problem. So I think it's a really useful tool for making things better without changing any sort of fundamental model of how you're approaching things.
 
-**Jerod Santo:** So in the chat room Ogabe has a question regarding IE11. Maybe you can \[unintelligible 00:09:47.19\] this one. I don't know exactly the answer. He says "When we can drop that, we can basically drop the old Safari, Firefox and Chrome versions too, which means WebPack won't be necessary anymore?"
+**Jerod Santo:** So in the chat room Ogabe has a question regarding IE11. Maybe you can feel this one. I don't know exactly the answer. He says "When we can drop that, we can basically drop the old Safari, Firefox and Chrome versions too, which means WebPack won't be necessary anymore?"
 
 **Kevin Ball:** Ooh...
 
@@ -130,7 +130,7 @@ So it's kind of an interesting thing, where it's like, it's under the hood, you'
 
 We shifted to that three months ago, six months ago, and it has massively improved our developer experience over WebPack. So if you have a very large application and your local WebPack recompile times and things like that are annoying and painful, definitely look at migrating to Vite. It was not a drop in migration for us. Now, we had a pretty custom config... If you're using a WebPack config pretty much directly from Create React App, or something like that - there's probably an easy migration script. But if you have a pretty custom WebPack config, then yeah, you may have to do some work. But it's been a massive developer experience improvement to ship to Vite. Vite, pronounced Vite - it's from French, and I believe it means fast... And it is.
 
-**Jerod Santo:** \[12:29\] Yes. Vite rhymes with suite. That's my way of remembering it. Nick Nisi says Vite rhymes with feet. I'm like, "That's just gross, dude." Why not go suite? \[unintelligible 00:12:37.26\] Well, speaking to the older versions, I think Ogabe's point that we both missed on was that, well, those were auto-updating. IE11 is kind of the last holdout, and with official ES module support, it seems like IE11 is the last big red on Can I Use that people are still probably using. I don't think anyone's really stuck on an old Safari, unless they have like an older iPad that just won't upgrade. I know one of my sons has an old iPad that can't get iOS 14, I think, and he's left in the dark for many things in the modern web and native world.
+**Jerod Santo:** \[12:29\] Yes. Vite rhymes with suite. That's my way of remembering it. Nick Nisi says Vite rhymes with feet. I'm like, "That's just gross, dude." Why not go suite? Why do you gotta go to the feed immediately? Well, speaking to the older versions, I think Ogabe's point that we both missed on was that, well, those were auto-updating. IE11 is kind of the last holdout, and with official ES module support, it seems like IE11 is the last big red on Can I Use that people are still probably using. I don't think anyone's really stuck on an old Safari, unless they have like an older iPad that just won't upgrade. I know one of my sons has an old iPad that can't get iOS 14, I think, and he's left in the dark for many things in the modern web and native world.
 
 So heading to our next headline - and this is another release. It's not quite here yet, I guess, when you're listening to this. If you're listening live, it's not live. If you're listening on the feed, then it has gone live, and that's Redwood.js. It goes 1.0 on April 4th.
 
@@ -148,7 +148,7 @@ They have some abstractions that are interesting and possibly unique - or some o
 
 And yeah, I don't think it's gotten -- it is a little bit bigger of a step from where people are, because it is a different take, and I haven't heard nearly as much buzz in the web community about it. That said, part of their announcement is they're talking about all the people using it, the startups that are built on Redwood and have raised money based on it, things like that... So it's clearly getting used, but I haven't heard as much. But I'm hoping actually that -- so I think it's really cool. I've missed in the frontend world that just out-of-the-box, it-just-works experience that I remember from the early Ruby on Rails days. That was magical, when I first started doing that on the server... And if they get it right, it will feel magical to have that again on the frontend. I don't know if they've nailed it or not, but I'm hopeful, and I hope this announcement gets them some deserved attention and gets people using it.
 
-So I just listened to the Remix episode; I wasn't on the episode. It sounds like Remix - they're calling it "center stack", which is a way of saying "We know we thought of it as a frontend framework, but we don't really have all that much backend stuff yet." That's kind of the way I was reading that \[unintelligible 00:16:02.09\] It seems like Tom and the gang, they're more like a full-stack, frontend-first, but full-stack; it's a hybridy thing, kind of like Next, but more full-stack even than Next is. Am I reading the room right?
+So I just listened to the Remix episode; I wasn't on the episode. It sounds like Remix - they're calling it "center stack", which is a way of saying "We know we thought of it as a frontend framework, but we don't really have all that much backend stuff yet." That's kind of the way I was reading that, from Kent, and it seems like Tom and the gang, they're more like a full-stack, frontend-first, but full-stack; it's a hybridy thing, kind of like Next, but more full-stack even than Next is. Am I reading the room right?
 
 **Kevin Ball:** \[16:19\] Yeah. So my take on Remix - and I was digging into this; I'm actually working on a blog post based off of that episode, because I think it's a really interesting take on things. So I think Remix is really trying to solve the server-side rendering/client-side rendering uncanny valley when I ship over stuff, but then I have to hydrate it... That whole space.
 
@@ -332,7 +332,7 @@ So that's the value exchange... But I think also built in here is - we saw what 
 
 **Jerod Santo:** Yeah.
 
-**Kevin Ball:** Alright, so this is setting my \[unintelligible 00:37:22.24\] I'm gonna have a pretty bad over-under here. \[laughter\]
+**Kevin Ball:** Alright, so this is setting my priors I'm gonna have a pretty bad over-under here. \[laughter\]
 
 **Jerod Santo:** Alright, so after one round, the score is Jerod 1, Kball 0. Are you ready for your next headline?
 
@@ -350,7 +350,7 @@ So that's the value exchange... But I think also built in here is - we saw what 
 
 **Kevin Ball:** Okay. I'm gonna say a lie, for two reasons. Here's what I'm thinking. So number one, I've already guessed a lie, and you said there's a distribution, so...
 
-**Jerod Santo:** So you're \[unintelligible 00:38:18.27\] you're counting cards...
+**Jerod Santo:** So you're playing the numbers game, you're counting cards...
 
 **Kevin Ball:** I'm playing the numbers game a little bit... But then the other one is we have been in a bear market on crypto and other stuff. There was huge amounts of hype last year, late into the last year, but pretty much this whole year it's been going the wrong direction. So if these are likely to be relatively recent, I like my odds for this being a lie.
 
@@ -448,7 +448,7 @@ So it kind of just repeats the story, but... Yeah, she stole a car to go to cour
 
 **Jerod Santo:** Okay. "For over a year, Exxon has been working with Crusoe Energy Systems, a company based in Denver, said the people who asked not to be named, because details of the project are confidential. Crusoe's technology helps oil companies turn wasted energy or flare gas into a useful resource." For one point now.
 
-**Kevin Ball:** \[44:14\] I think this is one of those where they're doing something like that, but it being for crypto is just too perfect, and I think you \[unintelligible 00:44:22.01\] so I'm gonna say false.
+**Kevin Ball:** \[44:14\] I think this is one of those where they're doing something like that, but it being for crypto is just too perfect, and I think you subbed that so I'm gonna say false.
 
 **Jerod Santo:** Okay. \[drum roll\] I'm back, baby! That one's true.
 
@@ -544,7 +544,7 @@ So it kind of just repeats the story, but... Yeah, she stole a car to go to cour
 
 **Kevin Ball:** And I couldn't imagine him saying it.
 
-**Jerod Santo:** No. He would sing it like \[unintelligible 00:49:24.20\] I was trying to do robot and I just stopped. I just stopped midway. I'm like, "No, Jerod, don't do the robot thing. You're terrible." I wish I would be better at being robotic, but I'm just such a human.
+**Jerod Santo:** No. He would sing it like hooked on a feeling -- I was trying to do robot and I just stopped. I just stopped midway. I'm like, "No, Jerod, don't do the robot thing. You're terrible." I wish I would be better at being robotic, but I'm just such a human.
 
 Okay, I lost my tab... Here it is. Well, you're up 6 to 8, so you could slow-ball it and force me only into a tie, if you're gonna play the meta game... Because there's only two left. So you can go one and one, and the best I can do is a tie... But you could also be boring to do that. So I won't tell you what to do...
 
@@ -558,13 +558,13 @@ Number 9. "Google Search's new "Highly suspect" label helps you question the sou
 
 **Jerod Santo:** That's a good strategy. "Google's adding a new "Highly suspect" label to search results infrequently sourced by other publications, the company is announced today. Anything from local news, stories, interviews, announcements and even press releases will be eligible for the new label being added to the search results preview image, in the case that zero or very few websites are linking to it."
 
-**Kevin Ball:** Hm... I'm gonna go with false, and here's why. I think the description as stated, which is about zero things linking to that article \[unintelligible 00:51:02.08\] against real-time, and I know that one of the big areas that they're trying to think about here is actually real-time and how you support things. So I suspect that they're doing something similar, or like this, but that algorithm rings false to me, so I'm gonna say false.
+**Kevin Ball:** Hm... I'm gonna go with false, and here's why. I think the description as stated, which is about zero things linking to that article, bias against real-time, and I know that one of the big areas that they're trying to think about here is actually real-time and how you support things. So I suspect that they're doing something similar, or like this, but that algorithm rings false to me, so I'm gonna say false.
 
 **Jerod Santo:** \[51:17\] \[drum roll\] Well played, it is false. So it's almost true, but I changed the label. So they have a new label, it's called "Highly cited", so I just inverted it. They have a new "Highly cited" label, which helps you know that a source is highly cited.
 
 **Kevin Ball:** Is trustworthy, yeah. That makes a ton of sense.
 
-**Jerod Santo:** Yeah. So if it has more links to it, then it's highly cited. So like, "Hey, these other people are citing this." I just changed it from "Highly cited" to "Highly suspect" to \[unintelligible 00:51:49.09\] But you drilled it, so another two for you...
+**Jerod Santo:** Yeah. So if it has more links to it, then it's highly cited. So like, "Hey, these other people are citing this." I just changed it from "Highly cited" to "Highly suspect" to falsehood that, but you drilled it, so another two for you...
 
 **Kevin Ball:** Just one.
 
@@ -604,4 +604,4 @@ Number 9. "Google Search's new "Highly suspect" label helps you question the sou
 
 **Kevin Ball:** Well, we'll see what happens. But I'll do that for a future episode.
 
-**Jerod Santo:** Alright, very cool. Well, that is our show for this week. I guess happy April Fool's day, for those who celebrate, myself excluded. If you enjoyed this, let us know. If you think HeadLies is the worst show I've ever come up with, then keep that to yourself, you know? \[laughter\] But if you like it, definitely let us know. \[unintelligible 00:53:59.13\] I am Jerod, and this has been JS Party. I guess we'll just talk to everybody next week.
+**Jerod Santo:** Alright, very cool. Well, that is our show for this week. I guess happy April Fool's day, for those who celebrate, myself excluded. If you enjoyed this, let us know. If you think HeadLies is the worst show I've ever come up with, then keep that to yourself, you know? \[laughter\] But if you like it, definitely let us know. For KBall, I am Jerod, and this has been JS Party. I guess we'll just talk to everybody next week.
