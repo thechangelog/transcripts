@@ -50,7 +50,7 @@
 
 **Matt Toback:** Spoiler alert...
 
-**Mat Ryer:** Tom has \[unintelligible 00:01:25.17\]
+**Mat Ryer:** Tom hasn't seen 2
 
 **Jerod Santo:** Is this like Monsters Inc. part 3, or something?
 
@@ -126,7 +126,7 @@ Mat Ryer, I know you from Go Time and other places, that you're super-funny, and
 
 **Mat Ryer:** ...corrected him, obviously. \[laughter\]
 
-**Tom Wilkie:** \[unintelligible 00:04:16.07\]
+**Tom Wilkie:** Laid him out.
 
 **Jerod Santo:** A nice, thick correction.
 
@@ -190,7 +190,7 @@ Then I think you reached out, Tom, and you were like "Why don't we do this for m
 
 **Jerod Santo:** Oh, okay...
 
-**Matt Toback:** So I think we were on the same Google \[unintelligible 00:07:37.03\]
+**Matt Toback:** So I think we were on the same Google Meet
 
 **Mat Ryer:** It's pronounced Ryer... \[laughter\]
 
@@ -282,7 +282,7 @@ Then I think you reached out, Tom, and you were like "Why don't we do this for m
 
 **Adam Stacoviak:** Let's ask Siri. "Hey Siri, what's 5'11,5 inches in metric?" \[Siri: "I've found this on the web.\]
 
-**Jerod Santo:** Oh, gosh... \[laughter\] \[unintelligible 00:09:33.17\] Come on, Siri...!
+**Jerod Santo:** Oh, gosh... \[laughter\] Can't even do basic maths? Come on, Siri...!
 
 **Adam Stacoviak:** Come on, Siri... Well, I jacked it kind of up, so... I'll use Google instead.
 
@@ -294,7 +294,7 @@ Then I think you reached out, Tom, and you were like "Why don't we do this for m
 
 **Matt Toback:** Do we judge how long since she's been inceived -- conceived, or the total breadth of information that she has?
 
-**Adam Stacoviak:** \[unintelligible 00:09:57.25\]
+**Adam Stacoviak:** Well that's infinite I would bet.
 
 **Mat Ryer:** It could be Adam's accent that doesn't make any sense.
 
@@ -438,7 +438,7 @@ And for us it isn't just about data sources in Grafana. It pervades the company 
 
 **Adam Stacoviak:** That's why we felt good also about working with you all, because this is obviously not something we do every day for many different brands. I think we have a desire to do it in smaller swathes, not "Let's produce every possible Grafana-like brand's podcast for them." That's not really our desire at all. But we felt so strong about who you all are, and your beliefs in this big tent philosophy.
 
-We had Raj on Founders Talk a little while back, I got to know the deeper innards of the long history of his entrepreneurship journey, from the \[unintelligible 00:17:47.22\] to Grafana, the whole entire journey. And I really gained a great respect for that direction.
+We had Raj on Founders Talk a little while back, I got to know the deeper innards of the long history of his entrepreneurship journey, from the Vox Mafia to Grafana, the whole entire journey. And I really gained a great respect for that direction.
 
 And then also just getting the chance to help produce a good observability podcast out there. That's another thing I think you can answer - is there a gap/desire to be filled in the observability landscape with this podcast? It may not be a weekly show like traditional shows, or every two weeks, seasonal... But is there a gap there that is aimed to be filled?
 
@@ -640,7 +640,7 @@ And then also just getting the chance to help produce a good observability podca
 
 **Adam Stacoviak:** I have another over there... Should I put it on?
 
-**Mat Ryer:** Yeah, just quickly \[unintelligible 00:26:33.12\]
+**Mat Ryer:** Yeah, just quickly build it imagine that
 
 **Adam Stacoviak:** That's my evolution, is just swap the hat. How about this hat, Mat? \[laughter\]
 
@@ -726,11 +726,15 @@ That's one thing we say here, is like -- we have had a community for a while, we
 
 **Matt Toback:** Playing a tent heist.
 
-**Jerod Santo:** Tent heist now...? I thought you said you were gonna plant a tent \[unintelligible 00:29:07.01\] I thought you were actually proposing to plant some tents. Because they'll start small, and then grow from there.
+**Jerod Santo:** Tent heist now...? I thought you said you were gonna plant a tent hiest. I thought you were actually proposing to plant some tents. Because they'll start small, and then grow from there.
 
 **Adam Stacoviak:** Matt Toback is suggesting we go to the store and steal the tents. Is that what you're saying, a tent heist?
 
-**Tom Wilkie:** No, I'm saying a heist. \[unintelligible 00:29:18.02\] When you steal something, it is low-class. When you plan a heist, it is world-class. That's the difference. \[laughter\]
+**Matt Toback:** No, I'm saying a heist.
+
+**Tom Wilkie:** Get it unrecorded so no one knows it's us.
+
+**Matt Toback:** When you steal something, it is low-class. When you plan a heist, it is world-class. That's the difference. \[laughter\]
 
 **Jerod Santo:** I like it. Everything we wanna do is world-class around here.
 
@@ -742,7 +746,7 @@ That's one thing we say here, is like -- we have had a community for a while, we
 
 **Matt Toback:** Bit tent controversy... \[laughter\]
 
-**Mat Ryer:** I thought he was talking about he was gonna steal from a tent. Because I think that would be easier than stealing from a shop that's made out of bricks and \[unintelligible 00:29:50.07\]
+**Mat Ryer:** I thought he was talking about he was gonna steal from a tent. Because I think that would be easier than stealing from a shop that's made out of bricks and wood and that.
 
 **Matt Toback:** \[laughs\] You just go and lift up the bottom of the...
 
@@ -918,7 +922,7 @@ That's one thing we say here, is like -- we have had a community for a while, we
 
 **Jerod Santo:** I think we should probably do headshots... You know, like glamour shots at the local mall. \[laughter\]
 
-**Matt Toback:** \[unintelligible 00:35:05.13\] lasers in the background...
+**Matt Toback:** Feathered, lasers in the background...
 
 **Jerod Santo:** I think whatever David Hasselhoff would do, that's what I would probably do.
 
@@ -944,7 +948,7 @@ That's one thing we say here, is like -- we have had a community for a while, we
 
 **Jerod Santo:** Mat even did a few jingles for JS Party.
 
-**Adam Stacoviak:** \[35:51\] Precisely, yeah. And I was not surprised, but very happy with the outcome. There was a \[unintelligible 00:35:57.00\] that this was kind of framed after. There was a certain idea for the way the track would come in, but Mat Ryer, you're the one who produced this music track.
+**Adam Stacoviak:** \[35:51\] Precisely, yeah. And I was not surprised, but very happy with the outcome. There was a Beatles song I believe Jerod, wasn't there? That this was kind of framed after. There was a certain idea for the way the track would come in, but Mat Ryer, you're the one who produced this music track.
 
 **Mat Ryer:** Yeah, I like doing it. I used to be in bands, and stuff... Basically, a failed pop star, so I have to do --
 
@@ -984,7 +988,7 @@ That's one thing we say here, is like -- we have had a community for a while, we
 
 **Matt Toback:** "Who here can clap?" \[laughs\]
 
-**Mat Ryer:** ...wants \[unintelligible 00:38:33.11\]
+**Mat Ryer:** ...wants to contribute a clap?
 
 **Jerod Santo:** "Who has both hands?"
 
@@ -1006,7 +1010,7 @@ That's one thing we say here, is like -- we have had a community for a while, we
 
 **Matt Toback:** Yeah, don't clap-shame.
 
-**Mat Ryer:** Yeah, don't clap-shame. But I put them in a -- I just popped them all in a folder, and then shuffled them up. Because I didn't need all the ones I got. And then I picked a few randomly, so I don't even know whose they are. There's like an element of "Your clap could be in that song", as far as \[unintelligible 00:39:33.19\]
+**Mat Ryer:** Yeah, don't clap-shame. But I put them in a -- I just popped them all in a folder, and then shuffled them up. Because I didn't need all the ones I got. And then I picked a few randomly, so I don't even know whose they are. There's like an element of "Your clap could be in that song", as far as anyone knows
 
 **Matt Toback:** Would you recognize your own clap, if you heard it?
 
@@ -1072,7 +1076,7 @@ That's one thing we say here, is like -- we have had a community for a while, we
 
 **Tom Wilkie:** It looked weird at the time, but I'm glad I put it in there.
 
-**Jerod Santo:** It's more like a \[unintelligible 00:43:21.06\] than a terms sheet.
+**Jerod Santo:** It's more like a writer than a terms sheet.
 
 **Mat Ryer:** This is the mistake of having a terms sheet in Google Docs, that you can just edit anytime... \[laughter\] You just go and sneak some extra bits in there...
 
@@ -1092,7 +1096,7 @@ That's one thing we say here, is like -- we have had a community for a while, we
 
 **Matt Toback:** I wanna do that episode, too. Tom teaches to scratch.
 
-**Jerod Santo:** Yeah. \[unintelligible 00:45:53.02\]
+**Jerod Santo:** Yeah. Just turn your video off first.
 
 **Adam Stacoviak:** It's like nerdy podcasts versus dirty podcasts. You just can't do that, okay?
 
