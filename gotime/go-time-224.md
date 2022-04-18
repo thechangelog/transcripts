@@ -46,9 +46,9 @@
 
 \[08:11\] Back when I did client work, I had a client who needed one endpoint, and they needed it to be really fast... And it was just like a JSON endpoint that took a few arguments and spit out different responses. I can't remember the exact thing. And Go -- this was pre-1.0. Go was very new, and I always liked the new, shiny stuff, so I gave it a go back then, and wrote that endpoint in Go. And it was probably like 80 to 100 lines of code. It worked great; I thought it was really cool, and never had another use case for a long time, because everything from there was -- Ruby on Rails apps was the primary thing I was doing. So I picked it up and dropped it then.
 
-And then recently - you know the Go Panic game show, and the... What's the other one called? On JS Party we call it Frontend Feud... Gophers Say. That's what we call it. Gophers Say has that in-browser UI with the scores, and the faces, and all the questions, and these things... And that was static HTML for a while. \[unintelligible 00:09:10.28\] to drive the JS Party side, and the Go Time side, with different stuff... Anyways, I wrote a little Go web server, that's again probably around a hundred lines. So this was like last fall. I picked up, I had a pretty good time with that.
+And then recently - you know the Go Panic game show, and the... What's the other one called? On JS Party we call it Frontend Feud... Gophers Say. That's what we call it. Gophers Say has that in-browser UI with the scores, and the faces, and all the questions, and these things... And that was static HTML for a while. Well eventually I wanted the same thing to drive the JS Party side, and the Go Time side, with different stuff... Anyways, I wrote a little Go web server, that's again probably around a hundred lines. So this was like last fall. I picked up, I had a pretty good time with that.
 
-So I've written probably around 200 lines with Go. So I'm not completely newb, but almost completely newb. But I'm very interested in it because I'm interested in building a Changelog command line for fun and for interest, and I think it's a great language for that reason, for distributing \[unintelligible 00:09:43.28\] It seems like it's simple for that purpose, with universal binaries and deployment and stuff, not having to have shared libraries everywhere... So that's why I'm curious about it.
+So I've written probably around 200 lines with Go. So I'm not completely newb, but almost completely newb. But I'm very interested in it because I'm interested in building a Changelog command line for fun and for interest, and I think it's a great language for that reason, for distributing command line appliations. It seems like it's simple for that purpose, with universal binaries and deployment and stuff, not having to have shared libraries everywhere... So that's why I'm curious about it.
 
 Also, just producing Go Time for many years, I know a lot about it at a very shallow level, which makes it less intimidating than other languages, like Rust, for example, which I know there's a lot of interest in that, and a lot of comparisons, and a lot of verticals that both languages play in. So it would be another contender. But I'm very interested in Go.
 
@@ -178,11 +178,11 @@ There are other ways to handle that as well, that are a bit more explicit, but t
 
 **Jerod Santo:** Right, right, right.
 
-**Kris Brandow:** \[unintelligible 00:21:43.26\] when I see that. But that doesn't make us immune from shadowing bugs. I've written my fair amount of shadowing bugs where I've spent a lot of time debugging and being like "Why is this error nil?" And it's like, "Oh, because I went into this different scope and I reassigned err, so in the larger scope it's still nil." That's happened to me too many times.
+**Kris Brandow:** So anyways when I see that. But that doesn't make us immune from shadowing bugs. I've written my fair amount of shadowing bugs where I've spent a lot of time debugging and being like "Why is this error nil?" And it's like, "Oh, because I went into this different scope and I reassigned err, so in the larger scope it's still nil." That's happened to me too many times.
 
 **Ian Lopshire:** Yeah, I think especially in error handling shadowing happens a lot, and it's just part of the language, really.
 
-**Jerod Santo:** Part of the language. Fair enough. So by the way, we have people in the \#GoTimeFM chat sounding off a little bit with some definitions and whatnot, so that's cool. \[unintelligible 00:22:19.04\] says "Array is fixed size list of items. Slice is a "pointer" to some subset of an array." So there's a nice, simple explainer there. If you all are looking up definitions or helping us wtih examples... Sometimes it's hard to think on your feet, and we can have them read off afterwards.
+**Jerod Santo:** Part of the language. Fair enough. So by the way, we have people in the \#GoTimeFM chat sounding off a little bit with some definitions and whatnot, so that's cool. Dillan Bork says "Array is fixed size list of items. Slice is a "pointer" to some subset of an array." So there's a nice, simple explainer there. If you all are looking up definitions or helping us wtih examples... Sometimes it's hard to think on your feet, and we can have them read off afterwards.
 
 If you're not hanging out in the \#GoTimeFM channel, what is wrong?! We're all hanging out in there live during the show; you can participate and be part of the fun. So hop into \#GoTimeFM of the Gopher Slack during our shows.
 
@@ -234,7 +234,7 @@ I think with looping, I kind of like the fact that there's really just one way. 
 
 **Kris Brandow:** I feel like it's maybe not an idiom. I feel like it's still somewhat contentious, because... I hate this pattern. I really don't like this pattern much at all.
 
-**Jerod Santo:** \[laughs\] Here comes Kris now with the honesty. See how he eased into it, he's like \[unintelligible 00:29:00.15\]
+**Jerod Santo:** \[laughs\] Here comes Kris now with the honesty. See how he eased into it, he's like, "Nah I'm done. I hate this pattern."
 
 **Kris Brandow:** I get the intention of it. We wanna make everything testable, but I feel like that kind of ignores a lot of the other things that make it testable at the end of the day. Ripping all of the guts out of the main function, so you could put in another function you can run and go test... It doesn't fix a problem with, say, environment variables, which could still be kind of annoying. Or other globals that can sneak in at the end of the day. So I understand the intent of saying "Well, we should have this smaller main function that you can then go and test more easily", but I think actually doing that misses the point a lot of the time. Misses the thing that we're actually trying to tell people, which is like "Don't use globals. Write smaller functions, write smaller pieces that compose together better, that you can test more easily."
 
@@ -242,7 +242,7 @@ And I also think it discourages people from kind of running the whole binary and
 
 **Jerod Santo:** Hm. Ian, your response.
 
-**Ian Lopshire:** So the practice that I generally use is I do end up with pretty big main files, but all it does is set up dependencies. I understand what Kris is saying; you probably should be doing some testing outside of that \[unintelligible 00:30:19.11\] as a whole, but I think just keeping the main small probably does encourage better testable code, even if it leaves out some of the pieces. It's like, we shouldn't not do it because it doesn't solve the problem completely. It gets us part of the way there.
+**Ian Lopshire:** So the practice that I generally use is I do end up with pretty big main files, but all it does is set up dependencies. I understand what Kris is saying; you probably should be doing some testing outside of, like, as a whole, but I think just keeping the main small probably does encourage better testable code, even if it leaves out some of the pieces. It's like, we shouldn't not do it because it doesn't solve the problem completely. It gets us part of the way there.
 
 **Jerod Santo:** Right.
 
@@ -252,7 +252,7 @@ And I also think it discourages people from kind of running the whole binary and
 
 **Kris Brandow:** I mean, I see this argument all the time, of like "It gets us a step in the right direction." But I really do -- like, a lot of the codebases I've seen that enact this skinny main thing do really just forget about setting up proper configuration, having configuration be sane, having the bootstrapping code look good, having an actual application kernel... These are the things that we actually want at the end of the day. We want the structure of how our applications boot up to be really nice. But instead, what I feel like we've got is - okay, now everybody just shoves all of the gross code they were putting in main into this other function that is effectively the same thing, except now you can return an error from it, and skipping out on all that good stuff that we actually want. So I feel like it's a distraction, and when you have to go back and actually sit there with that main function, and perhaps not be able to test it with just unit tests, and have to test it in like a real way, that forces you to have to do things in a way that you wouldn't otherwise.
 
-It's one of those sneaky things that's like "Well, this feels like progress", but it's actually progress leading you to like a dead end in the maze, unless we're gonna try and scale the walls of the \[unintelligible 00:31:42.28\] we've gotta turn around and figure out a different path forward.
+It's one of those sneaky things that's like "Well, this feels like progress", but it's actually progress leading you to like a dead end in the maze, unless we're gonna try and scale the walls of the labyrinth we've gotta turn around and figure out a different path forward.
 
 **Jerod Santo:** I love the analogy.
 
@@ -326,7 +326,7 @@ Now, the idea there, I think, is like once you get your product-market fit, or w
 
 **Jerod Santo:** So I definitely understand that. What I'm trying to get at - I have never quite understood, is the lack of a Rails or a Django coming out of the Go community because Gophers don't like that? Just speaking very broadly. Or is it because Go as a language isn't well-suited for that? And I don't know the answer to that.
 
-**Kris Brandow:** I think it's because there's not a need. Rails exists, Django exists, PHP, Drupal, and Symfony... All of these things already exist, and have large communities, and large support around them... So in order for something like that to exist inside of Go, we have to invest a lot of community energy and time into rebuilding all of that, into \[unintelligible 00:39:30.18\] all of that, to get a very small portion of the pie at the end of the day. So I think that people that are very comfortable with those sorts of things want to do that.
+**Kris Brandow:** I think it's because there's not a need. Rails exists, Django exists, PHP, Drupal, and Symfony... All of these things already exist, and have large communities, and large support around them... So in order for something like that to exist inside of Go, we have to invest a lot of community energy and time into rebuilding all of that, and to gaining all of that, to get a very small portion of the pie at the end of the day. So I think that people that are very comfortable with those sorts of things want to do that.
 
 I think Go as a language really does attract people that want to do this kind of lower-level, or different type of work, at the end of the day. I think people that want to go and explore Go - they're already onto the world of single-page web applications and APIs, and they don't want these big monolithic stacks as much anymore. So I think by nature of what Go is really good at, and by how crowded the field actually is, I think by the time you get o the point of thinking about using Go, you already have a different problem that you're trying to solve than what you would solve with Rails, or with Django, or with Drupal, or with any of these other things.
 
@@ -382,7 +382,7 @@ I think Go as a language really does attract people that want to do this kind of
 
 **Kris Brandow:** \[44:06\] There was this talk that one of the previous - I think he was one of the previous - Go team members gave on how great SQLite is, and how that's kind of the only database you need... That's the direction that I would like things to do. I like want my data to just be there, but also be distributed. I don't wanna have to worry about how my data is stored on disk. I just wanna be able to access it and manipulate it how I want, in my language. I don't wanna be writing lots of strings...
 
-I think part of my great \[unintelligible 00:44:31.00\] with SQL as a whole - I don't like the model of that for interacting with data; and everything is built on top of it, which is why I don't think any languages have good solutions to this. So I'd like to see something like that get better. And I think the way Go is structured, that's just something we could -- like, we do have this rather unique way of doing code generation, where you generate code not at the time of the... Like, you get it from a dependency, but when you actually build it to deploy it, I think that gives you some unique aspects of how you could actually use code generation... Because you kind of generate things much earlier in the pipeline, and the way that it all works in Go is a bit closer to being able to do something like take something like a DSL or something closer to a DSL and pre-compile it in your application before it kind of gets sent out.
+I think part of my gripe here with SQL as a whole - I don't like the model of that for interacting with data; and everything is built on top of it, which is why I don't think any languages have good solutions to this. So I'd like to see something like that get better. And I think the way Go is structured, that's just something we could -- like, we do have this rather unique way of doing code generation, where you generate code not at the time of the... Like, you get it from a dependency, but when you actually build it to deploy it, I think that gives you some unique aspects of how you could actually use code generation... Because you kind of generate things much earlier in the pipeline, and the way that it all works in Go is a bit closer to being able to do something like take something like a DSL or something closer to a DSL and pre-compile it in your application before it kind of gets sent out.
 
 So I think there's interesting things around all of that, but once again, it's just like the paradigm, how the industry works is we all want our applications to be stateless, so we're all shipping data out, we're communicating with something else that holds all the data, at the end of the day.
 
@@ -532,7 +532,7 @@ I think once I saw that, and once I started leaning into that as a signal that I
 
 **Kris Brandow:** Yes, HoarD.
 
-**Jerod Santo:** \[unintelligible 00:57:49.27\] Okay... Submit your Go fork names in the comments or on the Twitter poll for this particular unpopular opinion. I'm thinking that one's gonna be --
+**Jerod Santo:** Please enunciate. Okay... Submit your Go fork names in the comments or on the Twitter poll for this particular unpopular opinion. I'm thinking that one's gonna be --
 
 **Kris Brandow:** Oh, God. Someone said Go++, or Go\#.
 
