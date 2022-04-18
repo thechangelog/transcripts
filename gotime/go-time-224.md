@@ -4,7 +4,7 @@
 
 **Jerod Santo:** Yes, from behind the soundboard, to ask some questions today. If you listened to our Charm episode of The Changelog, which we aired in the Go Time feed because there was so much Go talk on that episode, you know that I've been Go curious as of late. But I have my apprehensions, I have my questions. I haven't actually dug very far into Go, and I have questions, so I thought I'd bring a few friends together and ask all sorts of newbie, outsidery, shallowy questions. So joining me today is Go Time regular, Kris Brandow. What's up, Kris?
 
-**Kris Brandow:** \[00:04:12.15\] Oh, hey! Doing pretty well. On for the second time this year. This first quarter has flown by so quickly.
+**Kris Brandow:** \[04:12\] Oh, hey! Doing pretty well. On for the second time this year. This first quarter has flown by so quickly.
 
 **Jerod Santo:** You're back, baby. You're back.
 
@@ -44,7 +44,7 @@
 
 **Jerod Santo:** Yeah. Very cool. So to give a little bit of my background - I've started off in Perl back in the early 2000's, went from Perl to Ruby, also learned a little bit of C, but just enough to be dangerous. I never actually worked daily in C. I did Ruby for many years, added JavaScript, of course, because I've been in web development most of my life... From there, I started writing Elixir; I've written Elixir quite a bit over the last 6-7 years. That's probably my primary language, plus JavaScript, because again, web development... And my experience with Go has been two small programs.
 
-\[00:08:11.01\] Back when I did client work, I had a client who needed one endpoint, and they needed it to be really fast... And it was just like a JSON endpoint that took a few arguments and spit out different responses. I can't remember the exact thing. And Go -- this was pre-1.0. Go was very new, and I always liked the new, shiny stuff, so I gave it a go back then, and wrote that endpoint in Go. And it was probably like 80 to 100 lines of code. It worked great; I thought it was really cool, and never had another use case for a long time, because everything from there was -- Ruby on Rails apps was the primary thing I was doing. So I picked it up and dropped it then.
+\[08:11\] Back when I did client work, I had a client who needed one endpoint, and they needed it to be really fast... And it was just like a JSON endpoint that took a few arguments and spit out different responses. I can't remember the exact thing. And Go -- this was pre-1.0. Go was very new, and I always liked the new, shiny stuff, so I gave it a go back then, and wrote that endpoint in Go. And it was probably like 80 to 100 lines of code. It worked great; I thought it was really cool, and never had another use case for a long time, because everything from there was -- Ruby on Rails apps was the primary thing I was doing. So I picked it up and dropped it then.
 
 And then recently - you know the Go Panic game show, and the... What's the other one called? On JS Party we call it Frontend Feud... Gophers Say. That's what we call it. Gophers Say has that in-browser UI with the scores, and the faces, and all the questions, and these things... And that was static HTML for a while. \[unintelligible 00:09:10.28\] to drive the JS Party side, and the Go Time side, with different stuff... Anyways, I wrote a little Go web server, that's again probably around a hundred lines. So this was like last fall. I picked up, I had a pretty good time with that.
 
@@ -60,7 +60,7 @@ In most other languages there's an array, or a list, or something... But Go has 
 
 Whereas slices are much like arrays, in that you can have these kind of enumerations of things in them, but they are resizable. So you can go from a slice that is size 10 to a slice of size 11 by adding something to it. So it's kind of like the base level of the difference between a slice and an array.
 
-\[00:11:53.08\] You can also think of it as like a slice is a pointer to an array, and the programming language just does all of the magic for you when you need to get a larger array kind of just giving it to you and handling all of the copying of what was in the old array into the new array, and all of that.
+\[11:53\] You can also think of it as like a slice is a pointer to an array, and the programming language just does all of the magic for you when you need to get a larger array kind of just giving it to you and handling all of the copying of what was in the old array into the new array, and all of that.
 
 **Jerod Santo:** Okay. So arrays sound more like what we used to do in C, where you pre-allocate slots, or memory for a fixed length. And if you wanna go beyond that, obviously, you walk off the side of an array, now you're in overflow land, and security problems. But you could then have a pointer to that... There's things that you can do in order to allocate new space, and copy things over... Whereas a slice -- I think I'm with you. Ian, do you wanna amend or help anything Kris said?
 
@@ -104,7 +104,7 @@ I imagine it would have been more complicated to do that with arrays, because in
 
 **Jerod Santo:** So with the quick assignment you do not have to explicitly declare the type of the variable.
 
-**Kris Brandow:** \[00:16:02.06\] Yeah. It also gives the language more of a feel of like a dynamically typed language as well... Because there are some specific things in Go that are kind of type-ambiguous until you say what the type is. Constant numbers are an example of this; they're the special number type. The language will eventually figure out what that type is when you get more specific with it. So by not declaring what the type is upfront, you get a little bit more flexibility to decide what this thing is going to be at a later date, which you couldn't do if you had to declare it right upfront, like you do with var and the regular equal sign.
+**Kris Brandow:** \[16:02\] Yeah. It also gives the language more of a feel of like a dynamically typed language as well... Because there are some specific things in Go that are kind of type-ambiguous until you say what the type is. Constant numbers are an example of this; they're the special number type. The language will eventually figure out what that type is when you get more specific with it. So by not declaring what the type is upfront, you get a little bit more flexibility to decide what this thing is going to be at a later date, which you couldn't do if you had to declare it right upfront, like you do with var and the regular equal sign.
 
 **Jerod Santo:** Okay. So coming from dynamic languages mostly, I would just wanna use quick assignment all the time, because I would always wanna defer that until later. But I don't see it used all the time. So there are times where var or the equals, the non-quick, the slow assignment is just preferable. Maybe you just know right upfront, so you might as well declare it.
 
@@ -164,7 +164,7 @@ I would also say that a lot of the time when I don't use quick assignment, it's 
 
 **Jerod Santo:** Gotcha.
 
-**Kris Brandow:** \[00:20:07.20\] So there are some uses around that. This always burns me when I'm doing unit testing; that's one of the areas where I start using goroutines and closures, and I'm like "Why isn't this working properly?" It's like, "Oh, right, I have to do this t:=t sort of thing" in order to redefine that variable within that iteration loop so it gets the goroutine properly.
+**Kris Brandow:** \[20:07\] So there are some uses around that. This always burns me when I'm doing unit testing; that's one of the areas where I start using goroutines and closures, and I'm like "Why isn't this working properly?" It's like, "Oh, right, I have to do this t:=t sort of thing" in order to redefine that variable within that iteration loop so it gets the goroutine properly.
 
 There are other ways to handle that as well, that are a bit more explicit, but that's definitely where I think it gets -- shadowing is used the most often to make it so that it's not a bug, and actually something that's helpful to you.
 
@@ -204,7 +204,7 @@ Okay, let's go on to a bigger question. These are kind of small language things.
 
 **Jerod Santo:** Okay. That was an easy one.
 
-**Break:** \[00:24:01.12\]
+**Break:** \[24:01\]
 
 **Jerod Santo:** So I've said "idiomatic Go" a couple of times. I know that's a term that perhaps is falling in or out of favor -- or the term "idiomatic", I've heard either unpopular opinions, or maybe just conversations about "Let's not use that term." So whatever term you wanna put in front of Go that means kind of normative... I don't know. The way people write code.
 
@@ -228,7 +228,7 @@ I think with looping, I kind of like the fact that there's really just one way. 
 
 **Kris Brandow:** Yeah. That's what I was gonna say. You can use them in main and you're alright, but certainly, if you have your own library -- if you're providing a library, you shouldn't use them. And certainly not use them if they're public. There's some cases for private globals, but public globals just get you into all sorts of messes.
 
-**Jerod Santo:** \[00:28:07.01\] Okay. So one thing Mat Ryer has told me, a pattern that he observes is like his main function doesn't do very much. It's basically like calling the rest of his program. Is that Mat Ryerism, or is that like a Gopher good idea? The programs I wrote, main - everything's in there, except for like my structs; and some functions are outside, but they get called in there... But like, it's the gist of things. Because it's a very simple program. But is that something that is discouraged? Maybe like skinny main is kind of like an idiom maybe?
+**Jerod Santo:** \[28:07\] Okay. So one thing Mat Ryer has told me, a pattern that he observes is like his main function doesn't do very much. It's basically like calling the rest of his program. Is that Mat Ryerism, or is that like a Gopher good idea? The programs I wrote, main - everything's in there, except for like my structs; and some functions are outside, but they get called in there... But like, it's the gist of things. Because it's a very simple program. But is that something that is discouraged? Maybe like skinny main is kind of like an idiom maybe?
 
 **Ian Lopshire:** I think that is... There's different forms of this you see in the community. Sometimes you see, like, it's literally one line in the main, and then the rest in a different package. But I think the idea of keeping any kind of business logic, any of that out of main is pretty ubiquitous in the community.
 
@@ -258,7 +258,7 @@ It's one of those sneaky things that's like "Well, this feels like progress", bu
 
 **Ian Lopshire:** I'll give you that, that it does provide kind of a way out, and can let us not do things we should be doing... So I'll give you that one.
 
-**Jerod Santo:** \[00:31:59.17\] Right. Some of that's like -- you know that old saying about laws, like they keep the honest people honest. Some of this is like these idioms or these patterns will keep the people who are gonna do good tests doing good tests. But the one who wasn't going to anyway, whether they shove it all in main, or put it into a different function immediately - it's not gonna change who they are, or the way they code.
+**Jerod Santo:** \[31:59\] Right. Some of that's like -- you know that old saying about laws, like they keep the honest people honest. Some of this is like these idioms or these patterns will keep the people who are gonna do good tests doing good tests. But the one who wasn't going to anyway, whether they shove it all in main, or put it into a different function immediately - it's not gonna change who they are, or the way they code.
 
 So I can see that, where it's like "This is a good pattern. It helps you do this thing that..." The problem is we're not doing that thing anyways. So it doesn't fix that particular problem.
 
@@ -296,7 +296,7 @@ Let's talk about web apps. This question actually came in from Twitter. "Is Go a
 
 **Jerod Santo:** So let me translate that and see if I'm picking up what you're saying here... Because dynamic web apps, that have a lot of user-generated content or input, building those at scale - I don't mean scale of users, but breadth of surface area; lots of forms, lots of pages, lots of what-have-yous - requires from a framework perhaps a lot of either code generation, or reflection-based stuff to make you not have to write a bunch of code yourself every time you wire up a form... In Go - it's not against the code gen at least; it seems like. But it's against the meta programming stuff that Rails and these other ones use, in order to cut down on your scaffolding in your coding. Is that kind of what you're saying, or did I just say a bunch of stuff that you didn't say?
 
-**Ian Lopshire:** \[00:36:06.11\] No, that is what I'm saying.
+**Ian Lopshire:** \[36:06\] No, that is what I'm saying.
 
 **Jerod Santo:** Okay.
 
@@ -330,7 +330,7 @@ Now, the idea there, I think, is like once you get your product-market fit, or w
 
 I think Go as a language really does attract people that want to do this kind of lower-level, or different type of work, at the end of the day. I think people that want to go and explore Go - they're already onto the world of single-page web applications and APIs, and they don't want these big monolithic stacks as much anymore. So I think by nature of what Go is really good at, and by how crowded the field actually is, I think by the time you get o the point of thinking about using Go, you already have a different problem that you're trying to solve than what you would solve with Rails, or with Django, or with Drupal, or with any of these other things.
 
-**Jerod Santo:** \[00:40:19.20\] Well said. Ian, anything to add?
+**Jerod Santo:** \[40:19\] Well said. Ian, anything to add?
 
 **Ian Lopshire:** No.
 
@@ -380,7 +380,7 @@ I think Go as a language really does attract people that want to do this kind of
 
 **Jerod Santo:** You want the ability to build your own DSLs, or what do you mean by better -- let's take the HyperMedia one; or let's take the database one, because more people are probably familiar with databases. Like, when you say "Access to database better" - I don't know what better looks like unless you tell me... Draw me a picture.
 
-**Kris Brandow:** \[00:44:06.04\] There was this talk that one of the previous - I think he was one of the previous - Go team members gave on how great SQLite is, and how that's kind of the only database you need... That's the direction that I would like things to do. I like want my data to just be there, but also be distributed. I don't wanna have to worry about how my data is stored on disk. I just wanna be able to access it and manipulate it how I want, in my language. I don't wanna be writing lots of strings...
+**Kris Brandow:** \[44:06\] There was this talk that one of the previous - I think he was one of the previous - Go team members gave on how great SQLite is, and how that's kind of the only database you need... That's the direction that I would like things to do. I like want my data to just be there, but also be distributed. I don't wanna have to worry about how my data is stored on disk. I just wanna be able to access it and manipulate it how I want, in my language. I don't wanna be writing lots of strings...
 
 I think part of my great \[unintelligible 00:44:31.00\] with SQL as a whole - I don't like the model of that for interacting with data; and everything is built on top of it, which is why I don't think any languages have good solutions to this. So I'd like to see something like that get better. And I think the way Go is structured, that's just something we could -- like, we do have this rather unique way of doing code generation, where you generate code not at the time of the... Like, you get it from a dependency, but when you actually build it to deploy it, I think that gives you some unique aspects of how you could actually use code generation... Because you kind of generate things much earlier in the pipeline, and the way that it all works in Go is a bit closer to being able to do something like take something like a DSL or something closer to a DSL and pre-compile it in your application before it kind of gets sent out.
 
@@ -410,7 +410,7 @@ Okay, so some of the things that I've seen in other languages, where I'm like "I
 
 Last one, and then we'll get to wrapping up here... How long did it take you to get over if err!= nil being all over the place?
 
-**Ian Lopshire:** \[00:48:06.17\] I've never hated it.
+**Ian Lopshire:** \[48:06\] I've never hated it.
 
 **Kris Brandow:** Yeah, I don't think it's ever bothered me.
 
@@ -468,9 +468,9 @@ I think once I saw that, and once I started leaning into that as a signal that I
 
 **Jerod Santo:** Well said. Okay, so this has given me new interest in that particular thing that has bothered me. It's like, "You know what - it doesn't have to be that way."
 
-**Break:** \[00:51:30.28\]
+**Break:** \[51:30\]
 
-**Jingle:** \[00:53:27.27\] to \[00:53:43.26\]
+**Jingle:** \[53:27\] to \[53:43\]
 
 **Jerod Santo:** Well, Ian, you are our guest today, so if you have an unpopular opinion, we would love for you to share it now.
 
@@ -502,7 +502,7 @@ I think once I saw that, and once I started leaning into that as a signal that I
 
 **Jerod Santo:** \[laughs\] Stake your claim right now...
 
-**Ian Lopshire:** \[00:56:06.28\] I do kind of agree with Kris here, that it's changed a bit. I don't know if I would say it's changed and become worse for experienced people that wanna write code a particular way, but it does seem to be more -- almost academic, instead of practical. Especially modules, and maybe generics as well. It feels almost like a research project, or like "How could we do this?" not "Should we do this?"
+**Ian Lopshire:** \[56:06\] I do kind of agree with Kris here, that it's changed a bit. I don't know if I would say it's changed and become worse for experienced people that wanna write code a particular way, but it does seem to be more -- almost academic, instead of practical. Especially modules, and maybe generics as well. It feels almost like a research project, or like "How could we do this?" not "Should we do this?"
 
 **Kris Brandow:** Yeah.
 
