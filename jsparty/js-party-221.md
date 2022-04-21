@@ -8,7 +8,7 @@ JS Nation is a two-day, two-track event, it focuses exclusively on JavaScript de
 
 So if you are in the Amsterdam area and can hit up those two confs, come see us there. If you cannot and you still wanna be involved - of course, they are dual, IRL plus hybrid. Awesome stuff. Shout-out to JS Nation and React Summit, happening on June 16th and 17th. Links in the show notes to check out what those conferences are all about. This has been Holla.
 
-\[00:04:18.03\] Alright, Rasmus, back to you. So Postgres... You have this library, quite popular, quite fast; it looks quite good. I've been scouring the readme, checking it all out. I'm a Postgres junkie from a long time back, so this speaks to me... And I wanted to bring you on to talk about it. It's hit v3, you've been working on it for a while. We're gonna get into the library itself, how you can use it, why you might wanna use it, how it's built etc. But first, let's talk about Postgres as a thing, or relational databases as a thing. Because there's lots of options when you're building the application - how and why are you gonna store your data... Relational databases are as old as time at this point. They were cool, they weren't cool, now they're kind of cool again... Help the folks decide, or maybe give us your perspective on why pick a relational database versus a document database like Mongo, or a key-value store, or a Firebase... There's lots of options for JS apps. What's up with relational databases? Why do you like them?
+\[04:18\] Alright, Rasmus, back to you. So Postgres... You have this library, quite popular, quite fast; it looks quite good. I've been scouring the readme, checking it all out. I'm a Postgres junkie from a long time back, so this speaks to me... And I wanted to bring you on to talk about it. It's hit v3, you've been working on it for a while. We're gonna get into the library itself, how you can use it, why you might wanna use it, how it's built etc. But first, let's talk about Postgres as a thing, or relational databases as a thing. Because there's lots of options when you're building the application - how and why are you gonna store your data... Relational databases are as old as time at this point. They were cool, they weren't cool, now they're kind of cool again... Help the folks decide, or maybe give us your perspective on why pick a relational database versus a document database like Mongo, or a key-value store, or a Firebase... There's lots of options for JS apps. What's up with relational databases? Why do you like them?
 
 **Rasmus Porsager:** Well, I've actually started out on the other side. When I began programming, MongoDB was just starting to become a thing. There was so many things I didn't know about. I had heard about SQL; I thought it was this ancient thing that wasn't a good idea to use anymore. I had some friends, I saw them write some queries, and it was like "Yeah... No. This other thing that has this real quick sample, I can just take it, and it works, and I don't need to set up much stuff. It's much easier. I'll just go along with that."
 
@@ -28,7 +28,7 @@ So for a long time, I was using Mongo also in Node, using the Mongoose library, 
 
 **Jerod Santo:** These are venture-backed, yet open source(ish) companies that have a very compelling product. There's a lot to like about MongoDB and the like, but the sensation that you had when you came into it -- like, we don't use the old crufty thing anymore; this is what people use today... It's really just kind of a cargo cult mentality, but when you don't know any better, you're just like "Okay, this is what we use now."
 
-\[00:08:21.24\] I think for a long time people sidelined MySQL, PostgreSQL, SQLite... Or as it's actually called. Or maybe I did say it right, SQLite. I don't know; I always say it wrong. SQLite, there you go. That's the correct way of saying it.
+\[08:21\] I think for a long time people sidelined MySQL, PostgreSQL, SQLite... Or as it's actually called. Or maybe I did say it right, SQLite. I don't know; I always say it wrong. SQLite, there you go. That's the correct way of saying it.
 
 **Rasmus Porsager:** Right.
 
@@ -56,7 +56,7 @@ So I actually started out just reading the PostgreSQL documentation, because I t
 
 **Rasmus Porsager:** My first introduction to a Postgres library in Node was pg-promise, which is built on top of the pg library. I didn't know that at the beginning, but pg-promise just looked fairly good. I had a good friend introduce me to it and showing off some of his projects using it... So that seemed like the natural thing to start out with. And it had the extra things you would build on top of pg to use it. Anyhow... But it didn't take long until I kind of felt that actually using it, writing code with it could be better.
 
-\[00:12:19.27\] Tagged template literals had just become a thing... So I made a wrapper for that library, that I just copied to all of my projects. It wasn't even a module or anything. It was just in the database initialization file; I would just put this wrapper, so I could write everything with tagged template literals.
+\[12:19\] Tagged template literals had just become a thing... So I made a wrapper for that library, that I just copied to all of my projects. It wasn't even a module or anything. It was just in the database initialization file; I would just put this wrapper, so I could write everything with tagged template literals.
 
 Some other projects I was working on did a lot of things with tagged template literals, and I think it was just a weekend where I was reading the Postgres documentation and I bumped into the wire protocol, and it seemed so simple somehow. I thought there was this crazy, complex system behind, talking to the database, but it seemed straightforward to just at least make a proof of concept. So I made something that could do queries, return some rows over a weekend... I couldn't stop from there. \[laughs\] "I've gotta see where this takes me."
 
@@ -76,7 +76,7 @@ And then there's prepared statements. When you have tagged template literals, it
 
 **Rasmus Porsager:** Yeah. It's around 2, 2.5x faster in this very simple benchmark that I did. But I really wanted to do a thorough benchmark and actually test with real network latency, instead of locally... Because that benchmark is locally, and I'm not doing any actual hard queries. I just wanted to test the raw overhead of the library itself. A lot of that is also more efficient parsing and handling of buffers.
 
-**Jerod Santo:** \[00:16:28.05\] What would be cool would be to get a benchmark from an application like TodoMVC, or that real-world app which surely has a Node implementation, which maybe doesn't use Postgres; you have to find one that actually uses Postgres. But if you can find something that's already out there and already using PG in a more real-world situation, not a synthetic benchmark, and then have a set of operations that you perform, through the UI even -- well, that would not isolate quite enough. Maybe through a command line shell that's using the PG library you might be able to get not so simple, more real-world benchmarks.
+**Jerod Santo:** \[16:28\] What would be cool would be to get a benchmark from an application like TodoMVC, or that real-world app which surely has a Node implementation, which maybe doesn't use Postgres; you have to find one that actually uses Postgres. But if you can find something that's already out there and already using PG in a more real-world situation, not a synthetic benchmark, and then have a set of operations that you perform, through the UI even -- well, that would not isolate quite enough. Maybe through a command line shell that's using the PG library you might be able to get not so simple, more real-world benchmarks.
 
 **Rasmus Porsager:** Yeah, I think it would be great to have some benchmark where there's a lot of concurrency, because of course, it has do with how you're handling your connection pool...
 
@@ -104,7 +104,7 @@ And then there's prepared statements. When you have tagged template literals, it
 
 **Rasmus Porsager:** Yeah.
 
-**Break:** \[00:19:12.17\]
+**Break:** \[19:12\]
 
 **Jerod Santo:** So it sounds like the nut of it was tagged template functions. You wanted to use tagged template functions... Or did you wanna use tagged templates in general, and now you're using tagged template functions?
 
@@ -116,7 +116,7 @@ If you have a function that inside it is calling a tagged template literal funct
 
 **Rasmus Porsager:** The first thing that it does is simply just build up a query object. This is an object that inherits from a promise, and it's actually a lazy promise... Which means that it won't do anything until you call .then( ), .catch( ) or .finally( ). And when you use the await keyword, it'll do that implicitly. The reason for that is because I wanted to be able to build dynamic queries, but as close to SQL as possible. So you can actually nest these tagged template calls inside your values to - let's say you wanna make it dynamic to choose if you wanna sort by ascending or descending order. Then you need to be sure that you're not simply just injecting a string; because it's a keyword, and you can't send keywords as parameters to Postgres. Postgres doesn't know how to handle that. But you can do that in a safe way with tagged templated rules, which is pretty cool, because you don't have to worry at all about SQL injection. The only way you can do that in Postgres.js is using a function \[unintelligible 00:23:54.14\] so it's pretty clear that you're doing stuff where you need to be careful.
 
-**Jerod Santo:** \[00:23:59.20\] So again, for the uninitiated, SQL injection is when you open up your queries - imagine you're building up a query string, and then you have an end user who is specifying for example sorting. So maybe you have a web UI where they can toggle a Sort By This, ascending or descending; invert the sort... You're allowing them to specify the order of that sort, which is going eventually into your database query. So SQL injection is when you do that in certain ways that are not safe, they can be nefarious and write arbitrary SQL at the end of that, maybe by instead of sending ASC or DSC, which is what you're expecting the UI to send, they send \[unintelligible 00:24:43.16\] or whatever they send.
+**Jerod Santo:** \[23:59\] So again, for the uninitiated, SQL injection is when you open up your queries - imagine you're building up a query string, and then you have an end user who is specifying for example sorting. So maybe you have a web UI where they can toggle a Sort By This, ascending or descending; invert the sort... You're allowing them to specify the order of that sort, which is going eventually into your database query. So SQL injection is when you do that in certain ways that are not safe, they can be nefarious and write arbitrary SQL at the end of that, maybe by instead of sending ASC or DSC, which is what you're expecting the UI to send, they send \[unintelligible 00:24:43.16\] or whatever they send.
 
 So this is a very common attack against SQL-backed application, that when you're building up these queries by hand, with strings, you're vulnerable to. So what Postgres.js is doing is it's protecting your from that possibility. It makes it impossible for that to happen because of the way that it's implemented. So that's pretty cool. I mean, that's a huge win.
 
@@ -156,7 +156,7 @@ So this is a very common attack against SQL-backed application, that when you're
 
 **Jerod Santo:** Then if you wanna back it out, you just run another one.
 
-**Rasmus Porsager:** \[00:27:53.17\] Yeah. And I've tried to get my feet wet with some of these tools that do auto-migrations, to figure out how you change your schema... And I think the vision is really great, I just -- I haven't tried using one where it felt like an improvement. And there's also the question about "Do you do only schema migrations, or do you wanna do data migrations at the same time?" And I actually feel okay just mixing it all up. But it depends on the project, of course. And for the things I've been doing, using Postgres Shift has been fine.
+**Rasmus Porsager:** \[27:53\] Yeah. And I've tried to get my feet wet with some of these tools that do auto-migrations, to figure out how you change your schema... And I think the vision is really great, I just -- I haven't tried using one where it felt like an improvement. And there's also the question about "Do you do only schema migrations, or do you wanna do data migrations at the same time?" And I actually feel okay just mixing it all up. But it depends on the project, of course. And for the things I've been doing, using Postgres Shift has been fine.
 
 **Jerod Santo:** Very good. Well, we'll take a show notes link over to Postgres Shift. Surely, there's other libraries...
 
@@ -194,7 +194,7 @@ But what about the dreaded ORM, which actually can be very nice if done well. It
 
 So I think once I find the time to actually get that up to a stage where I can present it, it's gonna push the other things away, because it's such an awesome way to just remove so much middleware in between the things you actually wanna build... And ORMs are one of those things.
 
-**Break:** \[00:32:10.18\]
+**Break:** \[32:10\]
 
 **Jerod Santo:** So while we're still talking about the way it works and some of the things it doesn't do, and stuff I like about it, I really like the way you return a result array from the queries... And it appears that - I'm asking for confirmation - you return a result array every time, no matter the query; even if it's empty, even if you say \[unintelligible 00:34:02.24\] it's gonna be an array every time.
 
@@ -216,7 +216,7 @@ I don't remember where I learned it, but I've got an idea. It might come from --
 
 **Rasmus Porsager:** Oh. It might have been from there I got it, too. Yeah. \[laughs\] I just never thought about it.
 
-**Jerod Santo:** \[00:35:52.07\] Yeah, I think about it because I just use jQuery long enough, because I used to deal with all the edge cases... And I started realizing -- it's almost like I didn't realize it at first. I feel like my code has less edge case handling when I was writing jQuery stuff. And I'm like "Why is that?" And I realized "Well, it's because you get an array everytime." So you don't have those two special cases of empty or one. And I started writing all my code that way, to return -- sometimes \[unintelligible 00:36:17.13\] So when I see that in the wild, I think "Okay, this person knows what they're doing", and I wonder, did they see it in jQuery? So maybe you did, but... You know, osmosis. Learning through osmosis, without knowing that you did. But yeah, I could see where design principles would also have -- it's kind of the "Don't make me think" concept, because that's kind of what you're doing.
+**Jerod Santo:** \[35:52\] Yeah, I think about it because I just use jQuery long enough, because I used to deal with all the edge cases... And I started realizing -- it's almost like I didn't realize it at first. I feel like my code has less edge case handling when I was writing jQuery stuff. And I'm like "Why is that?" And I realized "Well, it's because you get an array everytime." So you don't have those two special cases of empty or one. And I started writing all my code that way, to return -- sometimes \[unintelligible 00:36:17.13\] So when I see that in the wild, I think "Okay, this person knows what they're doing", and I wonder, did they see it in jQuery? So maybe you did, but... You know, osmosis. Learning through osmosis, without knowing that you did. But yeah, I could see where design principles would also have -- it's kind of the "Don't make me think" concept, because that's kind of what you're doing.
 
 **Rasmus Porsager:** Yeah, I think that with destructuring in JavaScript it also became so much better. It's so pleasant to write that way.
 
@@ -256,7 +256,7 @@ One that I think is really cool - and again, it's not like it's ground-shatterin
 
 **Jerod Santo:** 74 closed, 0 open...
 
-**Rasmus Porsager:** \[00:39:57.20\] We'll see. I suppose there's gonna come more when people start to use it for more than just side projects. It's still pretty young. I think it got a lot of attention with the version 3 release, but it's only two years ago I released the first version, so...
+**Rasmus Porsager:** \[39:57\] We'll see. I suppose there's gonna come more when people start to use it for more than just side projects. It's still pretty young. I think it got a lot of attention with the version 3 release, but it's only two years ago I released the first version, so...
 
 **Jerod Santo:** Okay. So the version 3 release was definitely when it crossed my radar. Do you have -- I mean, you have some other open source stuff. Do you have a GitHub Sponsors, do you have an Open Collective? Do you have any sort of sustainability plan? Or are you just happy to use this thing and it's done, and maybe you'll do another open source thing, maybe not, but you're not really looking to maintain open source as a thing?
 
@@ -274,7 +274,7 @@ One that I think is really cool - and again, it's not like it's ground-shatterin
 
 **Rasmus Porsager:** Yeah.
 
-**Jerod Santo:** But - I mean, that's like official. And I thought to myself, "Dang, dude got Postgres. Npm is quite a crowded name space at this point", and then I saw in the very, very, very, VERY bottom of your readme you have a thank you to Ryan Dahl. Do you wanna tell that story? It sounds like maybe he donated it, or he wasn't using it, or what happened there?
+**Jerod Santo:** But - I mean, that's like official. And I thought to myself, "Dang, dude got Postgres. npm is quite a crowded name space at this point", and then I saw in the very, very, very, VERY bottom of your readme you have a thank you to Ryan Dahl. Do you wanna tell that story? It sounds like maybe he donated it, or he wasn't using it, or what happened there?
 
 **Rasmus Porsager:** Exactly... So in the start it was called peegee...
 
@@ -300,7 +300,7 @@ One that I think is really cool - and again, it's not like it's ground-shatterin
 
 **Jerod Santo:** That's cool. I might kick the tires -- I've been kicking the tires on Deno; not in production contexts, but just in kicking the tires contexts, and having some fun... And as I said, I'm a Postgres guy from way back, so this sounds like a nice little playground for me. You have TypeScript support as well... You don't care about that, but was that also -- which one was harder?
 
-**Rasmus Porsager:** \[00:44:23.27\] Yeah, there was a user on GitHub who just PR-ed it, the first version...
+**Rasmus Porsager:** \[44:23\] Yeah, there was a user on GitHub who just PR-ed it, the first version...
 
 **Jerod Santo:** Ah, nice.
 
