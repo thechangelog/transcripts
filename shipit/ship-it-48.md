@@ -30,7 +30,7 @@ Anyways, today we are joined by all four Dagger founders. I'll start in alphabet
 
 **Gerhard Lazu:** Yeah. Eric, I know that you wanna say something.
 
-**Eric Bardin:** Absolutely, yes. Technically, I'm not an engineer; realistically, I'm \[unintelligible 00:05:52.29\] I've seen this launch like the beginning of Dagger, and with all this excitement that I've seen before in the past, like in 2013, when we pivoted at Docker.
+**Eric Bardin:** Absolutely, yes. Technically, I'm not an engineer; realistically, I'm not a user. I've seen this launch like the beginning of Dagger, and with all this excitement that I've seen before in the past, like in 2013, when we pivoted at Docker.
 
 **Gerhard Lazu:** I think that's something that many don't know, that this -- I don't wanna say like idea, but the whole excitement that the world has been on with containers has started with Docker, and you have been part of that. So when Docker launched, you were there, and you have that experience. And now Dagger launched. I'm curious, how do the two compare? How is this launch different from the Docker launch?
 
@@ -110,7 +110,7 @@ Well, Dagger solved this problem - from the developer to the cloud, it gives a w
 
 It was interesting for us, because talking to different companies, we have seen them evolve in the same way, doing the same thing, but with a different internal product. And I think there's a lot that can be reused and standardized. There's so many ways to build a React application. You don't need 12 different ways. You could have one component and just reuse it across, first of all, your repositories, but also across different projects. They're doing the same thing.
 
-And I guess I'm saying exactly what Eric said, but with a few more technical details... But I think that's the essence of it, just being able to reuse components, be able to -- also what Docker did, before Docker. It works on my laptop, but then I deploy it and it doesn't work anymore. Nowadays, that problem is solved, but we have the new problem, like "Hey, the test passed on my laptop", but then you open a PR \[unintelligible 00:22:36.13\] and then it fails, and then you push a few commits to try and fix it... We're trying also to give you the same experience locally and on the CI. Exactly like containers did, from production to laptop. So that's the other part.
+And I guess I'm saying exactly what Eric said, but with a few more technical details... But I think that's the essence of it, just being able to reuse components, be able to -- also what Docker did, before Docker. It works on my laptop, but then I deploy it and it doesn't work anymore. Nowadays, that problem is solved, but we have the new problem, like "Hey, the test passed on my laptop", but then you open a PR and CI and then it fails, and then you push a few commits to try and fix it... We're trying also to give you the same experience locally and on the CI. Exactly like containers did, from production to laptop. So that's the other part.
 
 **Gerhard Lazu:** Who wants to add the next refinement to that? There's so many perspectives here, and they're all valid.
 
@@ -122,7 +122,7 @@ And I guess I'm saying exactly what Eric said, but with a few more technical det
 
 **Gerhard Lazu:** No, no, this is different... \[laughs\]
 
-**Solomon Hykes:** Until \[unintelligible 00:23:03.11\]
+**Solomon Hykes:** Until the whole things...
 
 **Gerhard Lazu:** Okay, now we're going in the wrong direction, I think... \[laughter\] That's the opposite of what we're building with Dagger.
 
@@ -150,7 +150,7 @@ There's images, and there's pods, and then there's of course all the orchestrati
 
 Dagger is combining this know-how of how to combine these common ways of doing things, like deploying a React app, or building a React app, and putting it in the universe that we all can share. That's so amazing. I love that.
 
-**Solomon Hykes:** Yeah, that's the most important part... Because you need to be able to reuse someone else's work, and also reuse your own work from last month. And until you have that, then fragmentation will continue. I mean, that's where containers couldn't get us all the way, because they're binary artifacts, so you don't wanna reuse other people's binary artifacts. It's not enough composition. So you need a composition model; that's where we talk about \[unintelligible 00:29:23.00\] That's the one tough engineering and designing problem that we're trying to solve. We think we're solving it, but you know, it takes a lot of work. It's binary - either we really solve it, and the DevOps community looks at this and says "Wow. Yeah, I can actually encode my expertise into this software component and then someone else can use it", and vice-versa. It's actually true, for everything I'm doing, or it's not true, because the design doesn't work, and then it goes in the pile of all the other attempts, which there are many. But I think that's the fundamental challenge for us.
+**Solomon Hykes:** Yeah, that's the most important part... Because you need to be able to reuse someone else's work, and also reuse your own work from last month. And until you have that, then fragmentation will continue. I mean, that's where containers couldn't get us all the way, because they're binary artifacts, so you don't wanna reuse other people's binary artifacts. It's not enough composition. So you need a composition model; that's where we talk about Lego. That's the one tough engineering and designing problem that we're trying to solve. We think we're solving it, but you know, it takes a lot of work. It's binary - either we really solve it, and the DevOps community looks at this and says "Wow. Yeah, I can actually encode my expertise into this software component and then someone else can use it", and vice-versa. It's actually true, for everything I'm doing, or it's not true, because the design doesn't work, and then it goes in the pile of all the other attempts, which there are many. But I think that's the fundamental challenge for us.
 
 **Gerhard Lazu:** I'm wondering, how has your opinion of Dagger changed since - let's take October, when we recorded episode 23. And this is a question for all of you. In the last five months, six months, has something changed the way you think about Dagger based on all the feedback that we've had, based on all the refinements, based on everything that we've learned in the last six months?
 
@@ -164,7 +164,7 @@ Dagger is combining this know-how of how to combine these common ways of doing t
 
 **Solomon Hykes:** It's getting there. Your feedback was definitely important. I remember specifically a bunch of your questions around the container APIs; we had a bunch of different ways to run containers and build containers, and there was a lot of confusion around "Wait, so Dagger does things in containers, so I can have Dagger build and run containers through BuildKit as a built-in feature, but then separately there's Docker..." We can talk to Docker Engine and do docker run, and that's a very common use case. That's completely different, but also kind of the same.
 
-Then there's an additional semi-official API on top that was there because the basic one had rough edges... But that was like the third thing that you can to kind of grok. I remember you had questions about that, and that \[unintelligible 00:33:23.22\] Because you were not the only one; that's the thing.
+Then there's an additional semi-official API on top that was there because the basic one had rough edges... But that was like the third thing that you can to kind of grok. I remember you had questions about that, and that was definitely influx. Because you were not the only one; that's the thing.
 
 **Gerhard Lazu:** Yes, exactly.
 
@@ -180,7 +180,7 @@ Then there's an additional semi-official API on top that was there because the b
 
 So there's two approaches. Either you start from the tool and then you iterate and you basically almost fake it; there's almost no engine, or it's like a really basic, made-up engine that does the bare minimum. And then you validate the need, you validate the right UX, and then, only then, you ship the absolute bare minimum tool, with the shitty engine, because otherwise it's over-engineering. You're investing too much in the engine, in the backend, and probably you're gonna throw it all away, because you don't really know it's needed. And then over time, you're gaining more confidence, and you re-engineer, you scale etc.
 
-That's the normal, correct, proper, common sense way of \[unintelligible 00:35:51.27\] And then there's the other way, which is that you're actually inventing a new engine, and you're just going a leap of faith that that engine is so much better in some way than what existed before that you just have this unstoppable gut feeling that "Okay, this engine needs to exist, and there's a thousand different tools we've built on it, and we're not sure which one, but we'll figure it out."
+That's the normal, correct, proper, common sense way of filling a rut. And then there's the other way, which is that you're actually inventing a new engine, and you're just going a leap of faith that that engine is so much better in some way than what existed before that you just have this unstoppable gut feeling that "Okay, this engine needs to exist, and there's a thousand different tools we've built on it, and we're not sure which one, but we'll figure it out."
 
 \[36:17\] So you start from the engine, and then basically you -- I'll just take the analogy of a car. You invent the new car engine that just blows away everything else, and then you just kind of slap together a shitty car around it, and then you ask a few people "Hey, do you wanna drive my shitty car?" Like, "Yeah, I guess... Wow, you've got really a lot of work to do." And then they go inside and it goes from 0 to 1,000 miles an hour, or it flies, or something, but there is no doors. \[laughs\] So "I'm very confused by your dashboard design, but wow, I'm flying." \[laughter\] So you say, "Okay, good, you're flying. Okay. Yeah, don't worry about the dashboard for now."
 
@@ -220,7 +220,7 @@ So that's kind of our approach, but it's very dangerous, because it's a leap of 
 
 **Andrea Luzzardi:** There was so many names...
 
-**Solomon Hykes:** Every prototype had a codename. It had to not mean anything, because otherwise -- you can't pick all the good names for the prototype, because then... You don't wanna throw it away, because it's such a good name, and it's taken now. \[unintelligible 00:40:33.12\]
+**Solomon Hykes:** Every prototype had a codename. It had to not mean anything, because otherwise -- you can't pick all the good names for the prototype, because then... You don't wanna throw it away, because it's such a good name, and it's taken now. So we had the stupidest names.
 
 **Andrea Luzzardi:** Yeah, except one prototype was named Dagger. \[laughter\]
 
@@ -310,7 +310,7 @@ So the hard part is not inventing a new operating system from scratch that's nat
 
 **Gerhard Lazu:** That's right.
 
-**Solomon Hykes:** Because if you start from scratch and it's not compatible with anything, then no one wants to be the first to write for it. And also why you; you know, I can do my own platform over there. So what's interesting to me with Dagger is it's a bridge. You can actually solve a problem now using Dagger by writing software for it, and the software you're writing - it's pipelines that deploy applications etc. But really, it's software. And then over time you discover new uses for it, because there's a lot of different kinds of software, I think, that can be structured as a DAG, and you have to make the effort to structure it that way. But once you have, all of a sudden it's faster, it's more scalable, it's more secure... You're basically freed from the shackles of Unix, basically. And you still get Unix compatibility, because it can run \[unintelligible 00:51:57.00\] containers. One, or two, or ten, or a hundred.
+**Solomon Hykes:** Because if you start from scratch and it's not compatible with anything, then no one wants to be the first to write for it. And also why you; you know, I can do my own platform over there. So what's interesting to me with Dagger is it's a bridge. You can actually solve a problem now using Dagger by writing software for it, and the software you're writing - it's pipelines that deploy applications etc. But really, it's software. And then over time you discover new uses for it, because there's a lot of different kinds of software, I think, that can be structured as a DAG, and you have to make the effort to structure it that way. But once you have, all of a sudden it's faster, it's more scalable, it's more secure... You're basically freed from the shackles of Unix, basically. And you still get Unix compatibility, because it can run Linux containers. One, or two, or ten, or a hundred.
 
 \[52:01\] But now basically we're taking Linux and we're making it one component into a broader platform. And a lot of people are doing that. But they're doing it from scratch, and they're making a frontal assault on mainstream platforms. "Oh, stop using -- for your next web application, develop it on this wonderful thing!" But no one does it.
 
@@ -318,7 +318,7 @@ But I think once you've developed your pipeline with Dagger, and you start reali
 
 **Gerhard Lazu:** And it's a pipeline.
 
-**Solomon Hykes:** Yeah, it's a DAG. So I think there's just a lot more of those. You know, who did that really well was Amazon with Lambda. If you look at Lambda in the early days, they didn't position it as -- I mean, today you have \[unintelligible 00:52:54.15\] applications running on Lambda. And it's just like explosive in growth. They're powering a whole new chapter of the platform wars. They focused on a very specific problem, which was the little bits of glue around your regular application. "Oh, I need a handler for logs." Or "I need to fire a quick data cleanup task every hour." You know, just little bits of automation around the application. But then over time you get used to it, like "Wow, this is actually really powerful." It's powerful because it doesn't need to be compatible with everything. But over time, you realize "Oh, I have this one use case", then two use cases, and you grow, you grow, you grow. And I've mentioned automation around the application - that's exactly what Dagger does, in a different approach.
+**Solomon Hykes:** Yeah, it's a DAG. So I think there's just a lot more of those. You know, who did that really well was Amazon with Lambda. If you look at Lambda in the early days, they didn't position it as -- I mean, today you have Axel applications running on Lambda. And it's just like explosive in growth. They're powering a whole new chapter of the platform wars. They focused on a very specific problem, which was the little bits of glue around your regular application. "Oh, I need a handler for logs." Or "I need to fire a quick data cleanup task every hour." You know, just little bits of automation around the application. But then over time you get used to it, like "Wow, this is actually really powerful." It's powerful because it doesn't need to be compatible with everything. But over time, you realize "Oh, I have this one use case", then two use cases, and you grow, you grow, you grow. And I've mentioned automation around the application - that's exactly what Dagger does, in a different approach.
 
 So that's the part that excites me, it's actually operating system work. We're just sort of taking the long way there, because if we don't take the long way there, we'll get there faster, but we'll be alone.
 
