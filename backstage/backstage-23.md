@@ -8,7 +8,7 @@ It's cool to have somebody listening to the show be like "Hey, I wanna get invol
 
 **Parker Selbert:** Yeah, you're welcome. And you're welcome for some great fodder for Ship It in the - was it Kaizen?
 
-**Jerod Santo:** Yeah, the Kaizen episodes. Yeah, we always look -- I mean, one of the things why we open-source, even back in the day, was obviously because we've built our careers on open source, so it felt weird to be closed source... Even though we didn't really think anybody really would care so much about our website being open source, but...
+**Jerod Santo:** Yeah, the Kaizen episodes. Yeah, we always look -- I mean, one of the things why we open source, even back in the day, was obviously because we've built our careers on open source, so it felt weird to be closed source... Even though we didn't really think anybody really would care so much about our website being open source, but...
 
 **Parker Selbert:** No, people reference it all the time.
 
@@ -36,7 +36,7 @@ It's cool to have somebody listening to the show be like "Hey, I wanna get invol
 
 **Parker Selbert:** Oh, sure.
 
-**Jerod Santo:** \[00:03:43.10\] And what that required us to do then was basically delay our comment notifications, because we don't wanna get those non-edited versions sent out and then they wanna change it right away. So before that, it would just send immediately -- it would background, but it would just use Elixir features to background it and send off the comments. And then once we added the Edit button, it's like "Well, we've gotta delay the actual notification by 5 minutes, or whatever we decided was the comment window." And that's when Alex was working on that feature, and that's when plain, old Elixir/Erlang features just weren't cutting it, and he's like "Hey, can I use Oban?" And I was like -- I had actually heard of it from... Is it Uku? I think it's Uku, at Plausible.
+**Jerod Santo:** \[03:43\] And what that required us to do then was basically delay our comment notifications, because we don't wanna get those non-edited versions sent out and then they wanna change it right away. So before that, it would just send immediately -- it would background, but it would just use Elixir features to background it and send off the comments. And then once we added the Edit button, it's like "Well, we've gotta delay the actual notification by 5 minutes, or whatever we decided was the comment window." And that's when Alex was working on that feature, and that's when plain, old Elixir/Erlang features just weren't cutting it, and he's like "Hey, can I use Oban?" And I was like -- I had actually heard of it from... Is it Uku? I think it's Uku, at Plausible.
 
 **Parker Selbert:** Yeah.
 
@@ -66,7 +66,7 @@ So that was Quantum... So I definitely have felt that problem, because when I wo
 
 **Jerod Santo:** Right.
 
-**Parker Selbert:** \[00:08:03.29\] And Quantum has to coordinate through distributed Erlang to figure out who is leader, and it's therefore subject to split-brain kind of setups. But signing into the IEX situation happens to people with Oban as well.
+**Parker Selbert:** \[08:03\] And Quantum has to coordinate through distributed Erlang to figure out who is leader, and it's therefore subject to split-brain kind of setups. But signing into the IEX situation happens to people with Oban as well.
 
 **Jerod Santo:** Oh, it does?
 
@@ -102,7 +102,7 @@ Redis, around Redis 5, introduced this notion of streams. Streams were kind of K
 
 So a lot of the stuff that makes Oban as powerful as it is for doing uniqueness and workflows, and the things that people really want to use it for, is because it's in Postgres, and it keeps the jobs around after they ran... Which means that for a cron job I can say "Did I run this job an hour ago?"
 
-**Jerod Santo:** \[00:12:05.17\] Right.
+**Jerod Santo:** \[12:05\] Right.
 
 **Parker Selbert:** I don't rely on some side effect.
 
@@ -144,7 +144,7 @@ Anyways, I say all that to say this - when we switched to Fly, Gerhard was like 
 
 **Parker Selbert:** Yeah. Scaling -- well, I guess there are different types of scaling. There's parallelism, and then there's sheer volume. And there have been improvements over the years for both... Because there are some companies that run 25-30 nodes, all running Oban jobs. But even at dScout we routinely autoscale up to (I think) 12, when we have surges of videos and things that we have to process...
 
-\[00:16:02.08\] And then there are also some companies that run 50 to 100 million jobs a day... So there's a volume happening there that amazingly Postgres hold up with pretty well. But it's awesome that you're on Fly. We've also -- so the Oban Pro site is hosted on Fly, and all of our private packages are hosted on Fly. And we actually do it as a multi-region thing. So we have nodes in Australia, and then one in Tokyo, and in Europe...
+\[16:02\] And then there are also some companies that run 50 to 100 million jobs a day... So there's a volume happening there that amazingly Postgres hold up with pretty well. But it's awesome that you're on Fly. We've also -- so the Oban Pro site is hosted on Fly, and all of our private packages are hosted on Fly. And we actually do it as a multi-region thing. So we have nodes in Australia, and then one in Tokyo, and in Europe...
 
 **Jerod Santo:** Nice.
 
@@ -188,7 +188,7 @@ Anyways, I say all that to say this - when we switched to Fly, Gerhard was like 
 
 **Jerod Santo:** Yup. I think there's a lot of low-hanging fruit there. I think they know they're not there on lots of things, so I expect massive improvements in certain ways as it gets going. And then eventually, it's again, the 80/20 rule, or it's like the polish rule. It's like, at a certain point, Heroku has been polishing for so long that it's hard to get that level of fit and finish... But at this point they can make huge gains in probably a short amount of time on those kinds of things.
 
-**Parker Selbert:** \[00:20:00.29\] Well, Heroku -- it's funny... So Oban has to work for pretty much anybody who can run an app. So if you have a Postgres instance and an Elixir app, you should be able to run Oban. But there are very different categories of that. You can have a clustered app where you're using distributed Erlang to send messages between nodes, which is how you would want to do a lot of pub/subby kind of stuff. Or you could be in a pretty vanilla situation where there's no PgBouncer kind of thing in front of Postgres, and then you can use Postgres for pub/sub. But because Oban has to work in any of those situations and you can't necessarily determine whether they are clustered, or whether they have PgBouncer, there's a lot of work to do, like lowest common denominator kind of coordination between things.
+**Parker Selbert:** \[20:00\] Well, Heroku -- it's funny... So Oban has to work for pretty much anybody who can run an app. So if you have a Postgres instance and an Elixir app, you should be able to run Oban. But there are very different categories of that. You can have a clustered app where you're using distributed Erlang to send messages between nodes, which is how you would want to do a lot of pub/subby kind of stuff. Or you could be in a pretty vanilla situation where there's no PgBouncer kind of thing in front of Postgres, and then you can use Postgres for pub/sub. But because Oban has to work in any of those situations and you can't necessarily determine whether they are clustered, or whether they have PgBouncer, there's a lot of work to do, like lowest common denominator kind of coordination between things.
 
 **Jerod Santo:** Hm... Yeah, that sounds like a lot of effort there. So how's the business side going? Are you getting there? Mike's Sidekiq fame kind of set the standard of like "This can be done", at least in Rubyverse you can get it done... In Elixir land - I don't know. I know there's lots of successful businesses operating on Elixir and Phoenix, and so there's money there, there's success there, there's apparently load and scale there; just talking a little bit about a few of your users... I wonder how much of it translates into Pro and Web.
 
@@ -224,7 +224,7 @@ Now, most companies reach a certain level of scale and success - they don't have
 
 **Parker Selbert:** And every once in a while, for a while - my wife and I were discussing, "Why didn't we build it for JavaScript, or whatever it is?" But then you look, and - that's a massive community, with widely different experience levels... I don't know, there's something that's safe and tame about Elixir. Just the tightness of the community... Which actually has made it a little nicer. I mean, we have about ten open issues at most, ever. Not 100, not 200. So it's not this overwhelming swarm of problems.
 
-**Jerod Santo:** \[00:24:19.19\] Right. Well, I can speak to that a little bit from a podcaster's perspective, because we've also invested in communities... And we've been asked to create an Elixir podcast umpteen times. I've always been very pleasantly surprised - maybe not surprised, but I just feel like there's lots of good Elixir podcasts. I think for a small community, Elixir has podcasters.
+**Jerod Santo:** \[24:19\] Right. Well, I can speak to that a little bit from a podcaster's perspective, because we've also invested in communities... And we've been asked to create an Elixir podcast umpteen times. I've always been very pleasantly surprised - maybe not surprised, but I just feel like there's lots of good Elixir podcasts. I think for a small community, Elixir has podcasters.
 
 **Parker Selbert:** Over-represented.
 
@@ -248,7 +248,7 @@ Anyways, I can see the draw of larger... Python - again, so diverse, in terms of
 
 **Parker Selbert:** So where do you put it? You can either put it in open source and then sort of lose the ability to monetize that, or kind of carve it out. So the reason that Oban is on 2.0 is there was a split from 1.0 to 2.0 where some things were carved out, and then a whole lot of fixes and features and changes went in there, and we split out a couple of those things into the Pro packages. And Pro has been a pretty big focus since then, and has grown quite a bit.
 
-\[00:28:08.25\] So web is the UI, and Pro adds things that you could do with Oban on your own, but it makes them a lot easier. So doing batches with callbacks, doing workflows, which is like a directed graph where there's dependencies between jobs, and they only execute at certain intervals... And dynamic cron, so you can define, say, a cron schedule per account or user... Things like that. Things that just build on whatever the open source version is.
+\[28:08\] So web is the UI, and Pro adds things that you could do with Oban on your own, but it makes them a lot easier. So doing batches with callbacks, doing workflows, which is like a directed graph where there's dependencies between jobs, and they only execute at certain intervals... And dynamic cron, so you can define, say, a cron schedule per account or user... Things like that. Things that just build on whatever the open source version is.
 
 **Jerod Santo:** So how does Pro work with regards to the logistics? Is it just a license? Is it a separate package that you have to have like auth to get at, or how do you actually handle distribution and protection of your Pro deal?
 
@@ -286,7 +286,7 @@ But when you go to install -- so you add the repo as a known source, and you pro
 
 **Jerod Santo:** Well, they claim to have wire compatibility with Postgres, so...
 
-**Parker Selbert:** \[00:32:07.12\] It could be, but we haven't tried it.
+**Parker Selbert:** \[32:07\] It could be, but we haven't tried it.
 
 **Jerod Santo:** I guess maybe the onus is on them to be, sort of...
 
@@ -356,7 +356,7 @@ So there are a lot of -- like, there are advisory locks, and there's use of use 
 
 **Jerod Santo:** Right, right, right. That's why I asked for percentages, like based on bundle count, or subscriber count.
 
-**Parker Selbert:** \[00:36:08.08\] Yeah. We're 60% of the way there.
+**Parker Selbert:** \[36:08\] Yeah. We're 60% of the way there.
 
 **Jerod Santo:** Okay.
 
@@ -416,7 +416,7 @@ So there are a lot of -- like, there are advisory locks, and there's use of use 
 
 **Jerod Santo:** Fair enough. Only you're not an insider here, Parker. Come on. You're a long-time listener, but not a long-time insider. So Backstage is a show -- I think this is episode 23; we would love to do it more often. It's a show that we do that is not just for Plus Plus people, but it's for people who have kind of like bought in and are more of the super-listeners. They subscribe to the Master feed, so they get every single show we publish...
 
-\[00:40:08.05\] And the reason we did it originally was to kind of be a carrot for the Master feed. Because obviously, we would love everybody to subscribe to all of our shows, and just pick and choose the ones to listen to each week... And so we thought if we had some unique content that's only on the Master feed, maybe that will get more people to subscribe to it, and that's why we put it there.
+\[40:08\] And the reason we did it originally was to kind of be a carrot for the Master feed. Because obviously, we would love everybody to subscribe to all of our shows, and just pick and choose the ones to listen to each week... And so we thought if we had some unique content that's only on the Master feed, maybe that will get more people to subscribe to it, and that's why we put it there.
 
 Plus Plus gets obviously ad-free, they get higher bit rate mp3s... So if you're on like an audio file, you get slightly higher quality audio, although all of our stuff sounds pretty good, I think. And then they also get extended episodes. So we don't really do bonus episodes for Plus Plus, which is probably what you thought this was, but we'll do like another ten minutes that we cut for everybody else, throw it on at the end... Sometimes we have -- we've been doing lately, and we haven't published very many of these, but for the Changelog, Adam and I will actually come backstage for the half an hour leading up to the show, and talk about... Sometimes we talk about the show we're gonna have, sometimes we just BS, and then we record the actual Changelog with the guest, and then we'll take that Backstage and put it at the end for the Plus Plus people. So that's kind of what Plus Plus is, in terms of what you get.
 
@@ -468,7 +468,7 @@ But yeah, I think all of our stuff sounds good. I'm not much of an audio file in
 
 **Parker Selbert:** And you just know for yourself whether your ears can even pick that up.
 
-**Jerod Santo:** \[00:44:00.03\] Well, for instance, the public version that we ship of all our shows is 128 kbps. And the Plus Plus version is 192. And for me, even with studio monitors on, I can just barely tell the difference. But Gerhard is like, "Oh, this is much better. I would love it to be 256." And I'm like, "Alright..." I just can't do it. So obviously, people's ears work differently, and some are more highly tuned to changes than others.
+**Jerod Santo:** \[44:00\] Well, for instance, the public version that we ship of all our shows is 128 kbps. And the Plus Plus version is 192. And for me, even with studio monitors on, I can just barely tell the difference. But Gerhard is like, "Oh, this is much better. I would love it to be 256." And I'm like, "Alright..." I just can't do it. So obviously, people's ears work differently, and some are more highly tuned to changes than others.
 
 So you're almost there on your Oban -- you're 60% of the way there on Oban for life... What are you doing to get the final 40%? Are you just working on the deal, making it better, serving your current customers? Does your wife get involved at marketing things that you guys try to do, or growth hacks? How are you growing it?
 
@@ -512,7 +512,7 @@ So you're almost there on your Oban -- you're 60% of the way there on Oban for l
 
 **Jerod Santo:** Like progress along the way, or...?
 
-**Parker Selbert:** \[00:47:57.16\] Yeah. The last big release or set of releases we had, which I think was in February - yeah, I know it was in February, because we made the horrible mistake of publishing it on Super Bowl Sunday. We used to release Friday; we would do the release, and do the announcements, and if there was a blog post, do that. And we were a little slow, so like "Well, we'll just do it on Sunday. People aren't doing anything on Sunday anyway." That was wrong. That was a very bad idea.
+**Parker Selbert:** \[47:57\] Yeah. The last big release or set of releases we had, which I think was in February - yeah, I know it was in February, because we made the horrible mistake of publishing it on Super Bowl Sunday. We used to release Friday; we would do the release, and do the announcements, and if there was a blog post, do that. And we were a little slow, so like "Well, we'll just do it on Sunday. People aren't doing anything on Sunday anyway." That was wrong. That was a very bad idea.
 
 **Jerod Santo:** \[laughs\]
 
@@ -566,7 +566,7 @@ So you're almost there on your Oban -- you're 60% of the way there on Oban for l
 
 **Parker Selbert:** Yes, I don't know anything obviously. I mean, I'm familiar at least with what the app does. I've submitted news before, I've got an account, listened to podcasts, I get the weekly newsletter... So I'm familiar with all that, and I think a lot of that is already using different parts of Oban. But I don't know if you'd have much benefit from Pro. There are some subtle things, like if you happen to restart during a long-running job, it will use a lifeline plugin to rescue it. There are little things like that. But compared to a company, like dScout for example, where you have a large team of engineers and we're running hundreds of thousands of jobs per day, it's really important to go into the dashboard and then tweak things, maybe scale a queue up or down, maybe pause something, search, find out where errors are... Things like that.
 
-\[00:52:23.24\] If you're not sending that volume of jobs, or you are comfortable and everybody just has Postgres access, it's not quite as appealing. I hate to unsell the product, but \[unintelligible 00:52:33.29\]
+\[52:23\] If you're not sending that volume of jobs, or you are comfortable and everybody just has Postgres access, it's not quite as appealing. I hate to unsell the product, but \[unintelligible 00:52:33.29\]
 
 **Jerod Santo:** Yeah. Fair enough. Let me ask you a different question then, since you're in Elixir land. So we've worked with Lars Wickman, as I try to call him by his actual name...
 
@@ -598,7 +598,7 @@ So you're almost there on your Oban -- you're 60% of the way there on Oban for l
 
 **Jerod Santo:** That's one way to handle a question, is to ask it back. I don't know, that's why I asked. Yeah, it's tough... Also, people you can afford. I mean, we're a small business, and we can't employ at the same salaries as these larger tech companies who are making bookoo bucks. It doesn't mean we don't want to, it just means we just can't compete at a certain degree. Or we can hire at those rates, but we just do way less work, which ultimately can be unsatisfying for us... So it's difficult from that angle as well, because everybody's so well employed... Which we love, but it makes it harder to employ them, which we don't love as much.
 
-**Parker Selbert:** \[00:55:22.22\] Yeah. We would love to hire just a little bit of contract work, like "Oh, we wanna make these changes to the platform." So not necessary to like Oban, or Oban Pro, or something itself, but to the hosting platform. Right now there's a newsletter, so that we can give people email updates when there are gonna be account changes, but nobody can opt into it. That's a very small feature, but where do you prioritize that when you have all these other things going on? It's hard to find somebody to just plug into all that.
+**Parker Selbert:** \[55:22\] Yeah. We would love to hire just a little bit of contract work, like "Oh, we wanna make these changes to the platform." So not necessary to like Oban, or Oban Pro, or something itself, but to the hosting platform. Right now there's a newsletter, so that we can give people email updates when there are gonna be account changes, but nobody can opt into it. That's a very small feature, but where do you prioritize that when you have all these other things going on? It's hard to find somebody to just plug into all that.
 
 **Jerod Santo:** Well, there is a call for our listeners... So if you are a Changelog Master feed junkie and you're listening to Backstage because you subscribed to Plus Plus or Master, and you're an Elixir dev, hit up -- well, hit up me first, but then maybe Parker also. We'll give him the leftovers... Talk to me, and if I don't think you're a good fit, maybe Parker can -- I'm just messing around.
 
