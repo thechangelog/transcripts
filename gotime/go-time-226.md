@@ -24,7 +24,7 @@
 
 **Mat Ryer:** Yeah, that's exciting. How is it writing a book? Is it what you thought it was going to be?
 
-**Bartlomiej Płotka:** \[00:04:06.18\] Definitely not. Definitely not. Lots of pros and cons. Lots of learnings. I think it's worth it, but maybe just once a lifetime. \[laughs\]
+**Bartlomiej Płotka:** \[04:06\] Definitely not. Definitely not. Lots of pros and cons. Lots of learnings. I think it's worth it, but maybe just once a lifetime. \[laughs\]
 
 **Johnny Boursiquot:** One book will do. Yeah.
 
@@ -50,7 +50,7 @@ Now, of course, this can go even more complex, because you can have either manua
 
 **Bartlomiej Płotka:** So there are many, many different methods of how you can process this information about healthiness.
 
-**Björn Rabenstein:** \[00:07:51.18\] I mean, what we got with the age of cloud or the age of distributed systems was also a notion of that just being up or down - it's not that easy anymore, right? Your server consists of many microservices, and every microservice has many instances... Some of them are always down, because once you have enough of them, they will never all be up. So you get into this whole area of -- I mean, we have to tolerate a bit of downness, and then you start to think that just probing for up or down for this binary result isn't enough anymore. This is where your start to want perhaps some metrics about your running tasks. And that's where the instrumentation also, I think, gets into the game, right? If you just run a probe to see if something is up, you arguably don't really need instrumentation; you just check out if your endpoint is up, right?
+**Björn Rabenstein:** \[07:51\] I mean, what we got with the age of cloud or the age of distributed systems was also a notion of that just being up or down - it's not that easy anymore, right? Your server consists of many microservices, and every microservice has many instances... Some of them are always down, because once you have enough of them, they will never all be up. So you get into this whole area of -- I mean, we have to tolerate a bit of downness, and then you start to think that just probing for up or down for this binary result isn't enough anymore. This is where your start to want perhaps some metrics about your running tasks. And that's where the instrumentation also, I think, gets into the game, right? If you just run a probe to see if something is up, you arguably don't really need instrumentation; you just check out if your endpoint is up, right?
 
 I mean, this is what I call the founding myth of Prometheus. I have to talk about Prometheus, of course... I don't know if it's literally true. I was joining the Prometheus team very early in its history, but not from the beginning, right? So I also got this just from stories. So this is why it's all myth in the distant past... But, I mean, sometimes you get nice stories from that, right? And the mythological version is that the first idea for Prometheus was actually, "We need to instrument our code for metrics", and then the initial founder started to create an instrumentation library. And I like to believe it was the Go library they created first. It might have been the Java library, but let's assume it was the Go library, because it's a Go podcast, and then that might even be true.
 
@@ -90,7 +90,7 @@ I mean, this is what I call the founding myth of Prometheus. I have to talk abou
 
 **Björn Rabenstein:** The popularity of this library is actually -- for me, it was a huge surprise. And that's also, I think, an important topic about instrumentation. Back then - we're talking about the year 2012 - it was very uncommon for normal developers to even think about instrumentation. I mean, if they really thought about it, they would realize even putting a printf statement for debugging into their code, or emitting a logline - that's already instrumentation. Instrumenting code for profiling is instrumentation. Luckily, we get this for free in Go.
 
-\[00:11:48.24\] So they kind of did instrumentation, but they would never think about instrumentation for monitoring. This was completely an ops concern, and developers would never think about ops concerns. And teaching them that they have to instrument their code for things like monitoring was a big deal, right? I didn't expect that would get traction so quickly. But of course, the DevOps movement, blah, blah, blah, all those things. So that might have helped.
+\[11:48\] So they kind of did instrumentation, but they would never think about instrumentation for monitoring. This was completely an ops concern, and developers would never think about ops concerns. And teaching them that they have to instrument their code for things like monitoring was a big deal, right? I didn't expect that would get traction so quickly. But of course, the DevOps movement, blah, blah, blah, all those things. So that might have helped.
 
 Also, developers might have pretty quickly realized that if you instrument your code for even more things, like metrics or tracing or profiles, that it even helps during development. That's also an important thing, that monitoring per se is everywhere in the stack, right? It's not just in the end when you add it as an afterthought, and you need it to run your system.
 
@@ -104,7 +104,7 @@ I saw people who use Nagios as a tool for instrumentation. Well, I'm not going t
 
 **Bartlomiej Płotka:** Yeah. And I would like to kind of add something to your points, both Björn and Johnny, about instrumentation. I think it's very underestimated how much work it takes to really build a solid instrumentation library... Because the amount of work you put, Björn, in this Client Golang that you were surprised is popular - well, it's because it's so hard to produce one. And especially when I joined maintenanceship of this package or module, really, there's so much work in terms of making sure the code is efficient, because suddenly so many applications are just importing this package. Modules... So suddenly, the amount of dependencies really matters. The efficiency of the code matters. The API \[unintelligible 00:15:54.24\] of this really, really matters. And I was just today trying to -- well, what we did, let's be honest... We made a little bit of a mistake on a \[unintelligible 00:16:03.06\] Golang. So a Go team member really helped us to essentially move to different runtime metrics for the Golang processor.
 
-\[00:16:15.02\] So in Client Golang you are able to essentially expose really interesting information about your Golang process, and around garbage collection routine, and memory, and essentially heap allocations, like how many tiny objects and big objects you are kind of allocating; very low-level information. So we kind of consumed that, we merged this contribution with that, clearly looking on maybe how many metrics you are exposing, and we suddenly expose maybe twice more metrics, and suddenly we are impacting many Golang services, because suddenly they are scraping twice more metrics.
+\[16:15\] So in Client Golang you are able to essentially expose really interesting information about your Golang process, and around garbage collection routine, and memory, and essentially heap allocations, like how many tiny objects and big objects you are kind of allocating; very low-level information. So we kind of consumed that, we merged this contribution with that, clearly looking on maybe how many metrics you are exposing, and we suddenly expose maybe twice more metrics, and suddenly we are impacting many Golang services, because suddenly they are scraping twice more metrics.
 
 So the amount of thoughts that had to go through those instrumentation libraries is enormous. It's not only metrics, and it's even worse when you are talking about logging instrumentation and tracing instrumentation, because it's just even more data that you are passing through. You want to pay for this application compute power for doing normal work and not monitoring, right? And sometimes, if you'd implement it wrongly, if you use those libraries wrongly, if you make maybe wrong decisions, you can pay much more for your observability than for your real application. That's a risk here, right?
 
@@ -116,7 +116,7 @@ So the amount of thoughts that had to go through those instrumentation libraries
 
 **Björn Rabenstein:** And in what you just described, Bartek, with those new Go runtime metrics, now we also need to consider if we make this user configurable, because it's so many metrics that if you don't need them, it might be too expensive. So, of course, there are traders offs, but the ideal state in some utopia is you just have everything on and it costs you nothing. And we try to get as close as possible to that.
 
-**Break**: \[00:19:38.24\]
+**Break**: \[19:38\]
 
 **Mat Ryer:** Bartek, you mentioned earlier that you made a mistake in the client. What was that specifically?
 
@@ -136,7 +136,7 @@ However, what's happening with especially metrics is that we all care about card
 
 So this is generally kind of what we try to achieve. So we have a community who wants to have this new runtime, amazing, granular metrics... So we kind of approve it and merge it, and then suddenly, the rest of the world was like, "Oh, I need to pay twice more. I don't understand really." So this is really the trade-offs we have to make for such a popular module. It's much more stressful and much more work than if you could just break the API on every release.
 
-**Mat Ryer:** \[00:24:20.06\] Yeah. That is a big responsibility. Not only because it took off and became popular, but also the nature of it, the fact that it's found its way everywhere. I mean, it really is probably everywhere now. So it really does matter the decisions you take. How do you balance that? Is it a tough balance? Is there a disagreement about what can get in? Are there some people that are really paying attention to that cost?
+**Mat Ryer:** \[24:20\] Yeah. That is a big responsibility. Not only because it took off and became popular, but also the nature of it, the fact that it's found its way everywhere. I mean, it really is probably everywhere now. So it really does matter the decisions you take. How do you balance that? Is it a tough balance? Is there a disagreement about what can get in? Are there some people that are really paying attention to that cost?
 
 **Bartlomiej Płotka:** Definitely, yeah. After merging this feature, we got like 12, let's say, issues, and very friendly ones. So we were very, very -- I mean, it was amazing community contributions to just report some problems. So I think that's the pros and cons of such a popular module, is that you're going to get early feedback, but also you have to make sure you're not making mistakes a lot.
 
@@ -162,7 +162,7 @@ But generally speaking - yeah, I think there are basic rules when you are writin
 
 **Björn Rabenstein:** ...channels are the coolest thing, right? So we put channels in the function signatures, essentially used them as concurrency-safe iterators, which, you know, that's not what they're supposed to be used for. But they're still there, because if you now just change it \[unintelligible 00:27:42.22\] signature for the function. Now, please, all the code in the world, please change to that new function. That's pretty hard... So we still have those channels there. And if you think that's weird - yes, I agree. \[laughs\]
 
-**Mat Ryer:** \[00:27:58.07\] Yeah. The cruft you mentioned is interesting, because in Go especially we pay a lot of attention to writing very easy-to-read, maintainable code, and sometimes we'll sacrifice performance, in the right place, for readability. And then whenever you have to then optimize, of course, you're doing different things, right? You're doing more complicated things, or you're finding little ways to save memory, or avoid allocations, those kinds of tricks. And then you end with sort of mess, and unusual bits, and things you wouldn't be very proud of maybe. But really, that's just the reality, kind of how it evolves. And I think the stability in the API is worth it, and I'm sure the community thanks you for the attention paid at that level... Because yeah, if this was a package that was breaking all the time, and you never knew what -- you'd end up with all kinds of horrible things when like a dependency used a different version, and things like this. So I think yeah, I can speak for everybody when I say thanks for that.
+**Mat Ryer:** \[27:58\] Yeah. The cruft you mentioned is interesting, because in Go especially we pay a lot of attention to writing very easy-to-read, maintainable code, and sometimes we'll sacrifice performance, in the right place, for readability. And then whenever you have to then optimize, of course, you're doing different things, right? You're doing more complicated things, or you're finding little ways to save memory, or avoid allocations, those kinds of tricks. And then you end with sort of mess, and unusual bits, and things you wouldn't be very proud of maybe. But really, that's just the reality, kind of how it evolves. And I think the stability in the API is worth it, and I'm sure the community thanks you for the attention paid at that level... Because yeah, if this was a package that was breaking all the time, and you never knew what -- you'd end up with all kinds of horrible things when like a dependency used a different version, and things like this. So I think yeah, I can speak for everybody when I say thanks for that.
 
 **Bartlomiej Płotka:** Yeah, lots of trade-offs that are there. And I think what's also cool about this is it's just one module. These days it's so popular to create instrumentation libraries with like 10 modules, because you want to be, I don't know, generic, or have different versioning across. It's really hard to consume. But I have actually a question, Björn, to you. So you kind of started this library, I presume... Have you been designing the APIs with optimization in mind and you did benchmarking, or you rather created the API so it functionally works, and only then maybe after a couple of years you were maybe optimizing implementation?
 
@@ -174,7 +174,7 @@ It's interesting how also later you realize, when your programs get faster and t
 
 **Johnny Boursiquot:** So speaking for -- I like to sort of put myself in the shoes of a user of these instrumentation libraries, not necessarily a maintainer of them; that's sort of the lens we've been using for a little bit... So if I wanted to instrument my code -- so we've already teased out what instrumentation means to different tiers, with all the people that are concerned about observability, right? So if I'm new to observability, and I'm looking to figure out, "Okay, what does it even mean to instrument my code? What is it that I should be looking at? How do I figure out whether I should be measuring requests per second versus latency? How do I even approach this world?" And obviously, there are different libraries and different things; there's Prometheus, I have to figure out where that fits in my stack... There's OpenTelementry, and there's metrics, and there's this, and there's that, there's traces... How do I -- as a developer, when do I use what tool, and for what?
 
-**Björn Rabenstein:** \[00:32:48.27\] I think there is a problem that - who knows if you use Prometheus for metrics collection? Perhaps you use something else, and then you want to instrument not just for metrics, but for all the other things. And of course, you have a lot of choices to make. And then there are a lot of efforts to unify this. OpenTelementry is definitely a huge effort of tying up all the loose ends, and it's really hard, right?
+**Björn Rabenstein:** \[32:48\] I think there is a problem that - who knows if you use Prometheus for metrics collection? Perhaps you use something else, and then you want to instrument not just for metrics, but for all the other things. And of course, you have a lot of choices to make. And then there are a lot of efforts to unify this. OpenTelementry is definitely a huge effort of tying up all the loose ends, and it's really hard, right?
 
 So the first question in a practical context is you should look at what your organization you're working in is doing. Often, they use some framework, right? They use -- whatever. Let's start with a web router. You have your favorite Go web router, or whatever. And then from there on, you can kind of inform that decision. At SoundCloud, we had -- most microservices at SoundCloud were running on the JVM, and they had... This is also like somewhere in the public, people talk about it, they advocate for that, right? I think it was called JVMKit, where they had all that framework, how to write a microservice at SoundCloud. And then they put instrumentation in there.
 
@@ -184,9 +184,9 @@ I mean, rarely you have like a greenfield approach. If you do -- I mean, that's 
 
 **Bartlomiej Płotka:** Yeah. It's hard to mention, because you don't need to reimplement every possible metric instrumentation. So for example, if your application is doing an HTTP request, which probably 90% of applications do, you don't need to create a special separate HTTP request metric, or actually logline and trace as well. There are libraries that abstract this for you. Say you are using a standard HTTP library to create a server - you can just put a middleware, which is essentially a wrapper over your HTTP handlers, that will instrument automatically with very consistent metrics that are already -- someone thought through those to make sense, to make something reasonable.
 
-\[00:36:08.21\] And actually, the other plus of it is that you are getting lots of observability for free. So someone probably already built some Grafana dashboards, and maybe alerts, and maybe recording rules for this information, right? So we think you already created from HTTP package in Prometheus Client Golang, which already does that... And I'm maintaining a gRPC library, because we are using gRPC a lot. It's a very popular protocol, and we have literally the same middleware. They are called interceptors, but essentially they are like wrappers over gRPC things that add metrics. But also, we have logging and tracing in this module we could link.
+\[36:08\] And actually, the other plus of it is that you are getting lots of observability for free. So someone probably already built some Grafana dashboards, and maybe alerts, and maybe recording rules for this information, right? So we think you already created from HTTP package in Prometheus Client Golang, which already does that... And I'm maintaining a gRPC library, because we are using gRPC a lot. It's a very popular protocol, and we have literally the same middleware. They are called interceptors, but essentially they are like wrappers over gRPC things that add metrics. But also, we have logging and tracing in this module we could link.
 
-Break: \[00:36:49.26\]
+Break: \[36:49\]
 
 **Mat Ryer:** Well, that brings us to a new segment that I've just literally made up, but the editors do a great job when I do this... It's time for "Explain it quickly". So I'm going to challenge you, Bartek, to explain exemplars as quick as you can. Exemplars. We mentioned them earlier. What are they?
 
@@ -196,7 +196,7 @@ Break: \[00:36:49.26\]
 
 **Bartlomiej Płotka:** I think the easiest way to mention this - it is essentially an information that allows you to show an example situation that triggered some metric increment or metric latency observation, size observation, whatever you are measuring. And you can essentially -- usually, it's just a string, some characters and some timestamp, and actually an exact value of this example situation. Usually, we put there a trace ID to correlate with other signals like tracing, but we can put request ID, for example, to correlate with logging. You can put anything. But it's pretty useful for recognizing an example situation that is represented by this metric increase/decrease observation.
 
-**Mat Ryer:** \[00:40:32.05\] Cool. Congratulations. That was very well explained, and pretty quick as well, which really gets into the spirit of things, so thank you for that. Okay. But you don't include an example in every case, right? Do you do this kind of randomly, or how do you decide when to emit an exemplar?
+**Mat Ryer:** \[40:32\] Cool. Congratulations. That was very well explained, and pretty quick as well, which really gets into the spirit of things, so thank you for that. Okay. But you don't include an example in every case, right? Do you do this kind of randomly, or how do you decide when to emit an exemplar?
 
 **Bartlomiej Płotka:** Björn, go for it. I can see you want to explain that.
 
@@ -218,7 +218,7 @@ The current -- like, if you have a normal Prometheus histogram and put exemplars
 
 **Björn Rabenstein:** Bartek, you should be in a better position to answer.
 
-**Bartlomiej Płotka:** \[00:44:07.02\] Sure. So it's really tough situation, because it's really around tracing instrumentation and libraries. Usually, sampling is not application-driven. It's really communicated or done on a collector level, or agents. And so there are different phases you can do that. So it has to be collaboration between every of those signals, which we -- what works for us is that literally we use that on our production system, is you have whatever sampling suits you, as long as it's not tail sampling. So then it's very easy to essentially provide a proper exemplar to the proper metric. As long as it's tail - yeah, this is kind of impossible.
+**Bartlomiej Płotka:** \[44:07\] Sure. So it's really tough situation, because it's really around tracing instrumentation and libraries. Usually, sampling is not application-driven. It's really communicated or done on a collector level, or agents. And so there are different phases you can do that. So it has to be collaboration between every of those signals, which we -- what works for us is that literally we use that on our production system, is you have whatever sampling suits you, as long as it's not tail sampling. So then it's very easy to essentially provide a proper exemplar to the proper metric. As long as it's tail - yeah, this is kind of impossible.
 
 **Johnny Boursiquot:** Can you define tail sampling?
 
@@ -258,7 +258,7 @@ If you are looking for your first job, you might even check out if that company 
 
 **Mat Ryer:** Oh, that'll save you effort.
 
-**Johnny Boursiquot:** \[00:48:10.04\] There's 98 in this case. Yeah. And then some of us wrote like two or three. \[laughs\]
+**Johnny Boursiquot:** \[48:10\] There's 98 in this case. Yeah. And then some of us wrote like two or three. \[laughs\]
 
 **Mat Ryer:** I'll save \[unintelligible 00:48:11.26\]
 
@@ -266,7 +266,7 @@ If you are looking for your first job, you might even check out if that company 
 
 **Mat Ryer:** Oh, it sounds good. Well, I recommend people get that book. By the way, I've read it, and yeah, I genuinely do recommend it. Guess what? It's that time... It's time for Unpopular Opinions.
 
-**Jingle:** \[00:48:28.20\] to \[00:48:43.24\]
+**Jingle:** \[48:28\] to \[48:43\]
 
 **Mat Ryer:** Who has an unpopular opinion for us?
 
@@ -280,7 +280,7 @@ I'm more a fan of, instead of overgeneralizing a very specific term, just take t
 
 So for me, observability is like, if you want to use the term, it's something like a property of your system you want to have, but for me, it's a subset of monitoring, while most people think monitoring is something that might be part of observability, or not even. I don't know. What's his name? I always blank out on names.
 
-**Bartlomiej Płotka:** \[00:51:59.02\] No worries. But I just realized, Bjorn, that I was always saying that monitoring is a subset of observability, and now we are saying it's opposite. I guess I was close.
+**Bartlomiej Płotka:** \[51:59\] No worries. But I just realized, Bjorn, that I was always saying that monitoring is a subset of observability, and now we are saying it's opposite. I guess I was close.
 
 **Björn Rabenstein:** Yeah... Cory Quinn. Cory Quinn said-- he always says on his podcast, "Observability is the hipster word for monitoring." And I kind of like that, but I would say observability is the marketing word for monitoring, right? And if engineers call something a marketing word, it's probably doesn't mean anything good in a way, right? So I think if I use the word, it might mean exactly what I want, or it might mean nothing... And yeah, I just stopped using the word. I just use monitoring. And if you ever hear me use the word monitoring, I use it in the widest sense. It's not just Nagios probes, and it's not just metrics. It's everything.
 
@@ -310,7 +310,7 @@ We used configuration in my past job to build kind of configuration for infrastr
 
 And maybe the last example, embedded systems I mentioned. Of course, garbage collection is not very efficient here, but there are already implementations of manual allocations. I think Dgraph created a special allocator. And there's even Vlang, which also kind of removed GC, but kept some of the features that Golang did.
 
-\[00:56:14.27\] So we might have maybe a version of Go that has Rust-like memory ownership, and that'll be amazing, because we keep other features instead of kind of living with totally different decisions that the Rust community made for other stuff, that maybe I'm \[unintelligible 00:56:27.15\] So that's my unporpular opinion here.
+\[56:14\] So we might have maybe a version of Go that has Rust-like memory ownership, and that'll be amazing, because we keep other features instead of kind of living with totally different decisions that the Rust community made for other stuff, that maybe I'm \[unintelligible 00:56:27.15\] So that's my unporpular opinion here.
 
 **Mat Ryer:** Well, I'll genuinely be interested to see if that is unpopular with our audience, because maybe a lot of people would agree with you. I don't know.
 
@@ -348,4 +348,4 @@ And maybe the last example, embedded systems I mentioned. Of course, garbage col
 
 **Mat Ryer:** And of course, Johnny Boursiquot. Thanks, Johnny. It's always good hanging out. Björn, good luck with finding John Connor. We'll see you next time on Go Time.
 
-Outro: \[00:58:05.16\] to \[00:59:55.14\]
+Outro: \[58:05\] to \[59:55\]
