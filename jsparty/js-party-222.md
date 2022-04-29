@@ -18,7 +18,7 @@
 
 But we're gonna be talking a little bit about TypeScript, and also about sort of types coming to JavaScript, in a way... We'll explore that more. But first, why don't you tell us a little bit about yourselves.
 
-**Daniel Rosenwasser:** \[00:04:29.13\] Sure. My name is Daniel Rosenwasser, and I've basically been on the TypeScript team for about eight years now. Time really flies. I started off as an engineer, and I've been the PM for the last six years or so, because I just love working with the community, and I just have a lot of fun with it as well.
+**Daniel Rosenwasser:** \[04:29\] Sure. My name is Daniel Rosenwasser, and I've basically been on the TypeScript team for about eight years now. Time really flies. I started off as an engineer, and I've been the PM for the last six years or so, because I just love working with the community, and I just have a lot of fun with it as well.
 
 Yeah, and in general I'm just a big fan of programming languages, type systems, runtimes, things like that; it all kind of tickels my brain, I guess. I don't know, it's a weird way to say it, but...
 
@@ -52,7 +52,7 @@ Through the editor side, for example, we've got like two new quality of life imp
 
 **Ryan Cavanaugh:** We've got new functionality around keeping your imports organized in the way that you sort of set them out... The thing that people keep running into is they have some import that needs to go first, because it modifies some global state, and then they have some subsequent imports, which can go in whatever order, and usually when it's arbitrary, people like it to be sorted according to the filename, or whatever.
 
-\[00:08:10.08\] So the new cool feature is instead of having weird comments, we're just gonna say "If you have an empty line between some block of imports, then we'll set up those groups of imports independently", so that makes it really natural to just keep your imports in the order that you need, except sub-ordered by the order that you (I guess) don't care about. So that's really cool.
+\[08:10\] So the new cool feature is instead of having weird comments, we're just gonna say "If you have an empty line between some block of imports, then we'll set up those groups of imports independently", so that makes it really natural to just keep your imports in the order that you need, except sub-ordered by the order that you (I guess) don't care about. So that's really cool.
 
 **Nick Nisi:** Nice.
 
@@ -90,7 +90,7 @@ Not to keep going, but the other big thing that landed, which I really don't kno
 
 **Ryan Cavanaugh:** So this is the new, big family of fields that you can put in your package.json that say "This is the entry point for my module, under these conditions", and sort of all the associated import paths that you can use to refer to those things. It's hard to under-sell it or over-sell it, I guess; it's support for the new Node module resolution system, and kind of up and down the entire stack. So this has effects on how auto-imports work, effects on how we emit declaration files that refer to these modules, that you get into your program, and just sort of general, like, the definition has to go to the right place.
 
-\[00:12:17.08\] I don't wanna just kind of enumerate all the features that Node has added to this, because I don't know all of them, and it would be pretty boring, but... To our knowledge, we've supported the whole stack, the whole suite of features there, and you can now use them unflagged in 4.7 beta.
+\[12:17\] I don't wanna just kind of enumerate all the features that Node has added to this, because I don't know all of them, and it would be pretty boring, but... To our knowledge, we've supported the whole stack, the whole suite of features there, and you can now use them unflagged in 4.7 beta.
 
 **Daniel Rosenwasser:** Yeah. The thing you really have to think about is there aren't any libraries that ship as pure ESM, like, ECMAScript modules. They might use a bunch of specific features that have been added to Node, that are different from what you're used to if you've been writing Node maybe let's say 5-10 years ago. So you might wanna be able to say "I wanna scope which specific files you can import from a package. I wanna be able to use mjs or cjs as your file extension for JavaScript. And then if you're a TypeScript user, you wanna be able to use mts and mcts.
 
@@ -128,7 +128,7 @@ These are things that are maybe like a lot of conceptual overhead, but whenever 
 
 **Ryan Cavanaugh:** When you have a type that is generic... So if you have like an array of strings or an array of numbers - we call those instantiations. So a generic type will have some instantiations that are effectively themselves non-generic types. So if you think about -- let's just say like a box. You can have a box and you can have a thing in it. If I gave you a box of recyclables, or whatever, and there's a box of food - well, the way that those boxes relate to each other relates the same way that the contents of those boxes relate to each other. So you can't put food in the recycling bin, or vice-versa. I should have come up with an example that has a bit more clear real-world subtyping, but anyway...
 
-\[00:16:04.21\] We talk about this as the measured variants of that generic type. So you could think about a function that accepts an argument. Well, this actually kind of flows the other way compared to a function that returns a value. Because if I have a function that can accept a string or a number, that's more general than a function that only accepts strings... Versus a function that produces a string or number and a function that produces a string relates in the other direction.
+\[16:04\] We talk about this as the measured variants of that generic type. So you could think about a function that accepts an argument. Well, this actually kind of flows the other way compared to a function that returns a value. Because if I have a function that can accept a string or a number, that's more general than a function that only accepts strings... Versus a function that produces a string or number and a function that produces a string relates in the other direction.
 
 So when you're relating generic types and you wanna figure out if like a box of t is related to a box of u, to do things performantly you need to have shortcuts that say "Instead of relating the entire structure of that generic type, we'll just relate the type arguments. We'll relate t to u when relating box of t to box of u." But to do that correctly, we have to know which direction we should do the relation in. Because if this is an input position, like a parameter, we have to do the opposite check as if it was a return type.
 
@@ -148,7 +148,7 @@ And yeah, I think my guidance for people would be don't do this eagerly if you'r
 
 So for a user now, you don't really have to think about the concept of variance per se. It'll come up, but the way that this feature works is you just say "Am I using the type parameter in an input or an output position, or both?" Those are the keywords that we use to describe them. So if you use t in an input position, you would just write "in of t", in front of the t. If it's using an output position, you write "out t", and if it's using both, you say "in out t".
 
-\[00:19:55.15\] So you don't have to think about what is the variance, you would just have to think about "How am I using this thing?" That makes it a little bit easier for people to author these things as well. So a bit of a deep-dive, but... Necessary evil sometimes.
+\[19:55\] So you don't have to think about what is the variance, you would just have to think about "How am I using this thing?" That makes it a little bit easier for people to author these things as well. So a bit of a deep-dive, but... Necessary evil sometimes.
 
 **Christopher Hiller:** It seems to be a little easier to grok in the announcement...
 
@@ -164,7 +164,7 @@ So for a user now, you don't really have to think about the concept of variance 
 
 **Nick Nisi:** So I have a lot of exciting features coming to me when I can get that upgraded.
 
-**Break:** \[00:20:47.19\]
+**Break:** \[20:47\]
 
 **Nick Nisi:** Alright, so that's really exciting... But the main thing that we pitched you on coming on the show to talk about is this new proposal to JavaScript, or to TC39, to add not necessarily types, but add a new way of exposing those types as just comments that can be ignored by the JavaScript interpreter. And I talk to you guys every year at TSConf, and one of the recurring questions every single year is "When is TypeScript just gonna build into the browser?" Is this kind of the answer to that, finally?
 
@@ -176,7 +176,7 @@ So for a user now, you don't really have to think about the concept of variance 
 
 **Ryan Cavanaugh:** Well, types in the browser means a lot of things to a lot of different people. Some people think that means static type checking in the browser, where before your code runs, some sort of type-checking phase would occur... Some people think types in the browser means dynamic type checking; so if you write a function and say "This parameter is a string", then nothing sort of happens until an actual call into that function occurs.
 
-\[00:24:12.13\] For some people, types in the browser just means the proposal that we're putting here, which is types as comments. And then some people have even further out ideas, I guess. I think static, dynamic and comment-only is sort of the three main classes of what I think of as what people mean when they say "types in the browsers."
+\[24:12\] For some people, types in the browser just means the proposal that we're putting here, which is types as comments. And then some people have even further out ideas, I guess. I think static, dynamic and comment-only is sort of the three main classes of what I think of as what people mean when they say "types in the browsers."
 
 I think it's a long side discussion to talk about why we think that the static types and dynamic types in the browser aren't a good fit for JavaScript, and that's sort of the attitude that we've seen from TC39, which I think we're all in sort of pretty decent agreement with, I think... And then what's left is types as comments, and that's what we're going with here.
 
@@ -192,7 +192,7 @@ So we saw convergence there -- I mean, we knew that engines would not really fav
 
 This idea, with at least the types as comments proposal, was like, your types are literally -- you can think of them as comments, right? You can imagine if they were all erased away, they don't have any impact on running your code. They're purely a design-time thing for type checkers, so they can read your code, do some type checking and report some errors... But you could just plug that right in, something like your TypeScript syntax, or Flow syntax, whatever, into a browser, and then just have that run, and the browser would not do any of those checks at all. In fact, it would be mandatory not to do that in any way.
 
-\[00:28:24.17\] And so this is something where we were not totally bought off on it ourselves in some way either, because it's like, okay, well there is this sort of uncanny valley of like I've written my code in such a way where like "Oh, you've said this thing takes a string, but you're passing in a number", and my JavaScript runtime is just not gonna do anything to validate that at all. It feels really weird.
+\[28:24\] And so this is something where we were not totally bought off on it ourselves in some way either, because it's like, okay, well there is this sort of uncanny valley of like I've written my code in such a way where like "Oh, you've said this thing takes a string, but you're passing in a number", and my JavaScript runtime is just not gonna do anything to validate that at all. It feels really weird.
 
 And that kind of goes back to what Ryan was saying, which is like you could literally write your code in any way. You could write a comment that says "This thing takes a string", and that comment is totally out of date, or someone's using it wrong... So when you see that code, you're like, "Ah, someone has screwed up! How did they miss the comment here?!" It's like, "Well..." Okay, wouldn't it be great it something checked that for you? So your JavaScript runtime is not gonna do that. That would be unreasonable. No one would say "You should read the comments and make sure you're doing the right thing every time." It's the same thing with type annotations. So basically, that's what we mean when we say "Types as comments" - they just act as comments, and they don't have any runtime effect.
 
@@ -214,7 +214,7 @@ So we will have that discussion. We do feel pretty strongly that that's not the 
 
 **Daniel Rosenwasser:** It is a carve-out for type systems. It's kind of like what you say. The idea is you take a look at what TypeScript has done, what Flow has done, and try to basically find a space where JavaScript could say like "I don't care about this. Type systems can take up whatever syntax they want at these specific places." So you could say \[unintelligible 00:31:46.13\] and that says "Now you're gonna start reading a type out", and the whole thing is like because it's just supposed to get ignored, an engine can just go \[unintelligible 00:31:56.28\] until some end, and then just throw that away. It doesn't have to care about that at all.
 
-\[00:32:05.29\] And then we need some other stuff, too... So those are annotations. We need declarations too, so like interfaces, and type aliases. So you say like the interface keyword, some name, some extra stuff \[unintelligible 00:32:18.06\] So the way that we're thinking about this -- I mean, you need to think about where these things start and end. So there's gonna be some top-level set of things that an engine will have to know how to parse out and then throw away, but then there's places where we need to be able to grow out the type systems that exist today. Or a new type system should be able to leverage this space if they want to.
+\[32:05\] And then we need some other stuff, too... So those are annotations. We need declarations too, so like interfaces, and type aliases. So you say like the interface keyword, some name, some extra stuff \[unintelligible 00:32:18.06\] So the way that we're thinking about this -- I mean, you need to think about where these things start and end. So there's gonna be some top-level set of things that an engine will have to know how to parse out and then throw away, but then there's places where we need to be able to grow out the type systems that exist today. Or a new type system should be able to leverage this space if they want to.
 
 So let's think about object types, for example. Let's say you wanna add a new modifier for properties on object types, right? We could take whatever TypeScript and Flow have right now and try to figure out this combined set of syntax in between the curlies, and say like, okay, whenever you say "type foo =" and then some object type, and then you say "Okay, here's how you parse out every single member of the object type." You could do that, you could say "Oh, you need to know about the read-only modifier. You need to know about plus and minus for Flow, you need to know all these other things." Instead, what we're looking at is this place where you say "Okay, whenever you find braces, or brackets, or parentheses, you just skip through that until you find the closing brace." Kind of like when you have /\* with a comment, you just skip through that and you get the \*/ So an engine doesn't care what's in between there, it just looks for the next \*/ at the very end of the comment. And that's what we're leaning on to make sure that this thing is extensible, too.
 
@@ -232,7 +232,7 @@ At the end of the day, just remember though that these things all just get erase
 
 **Daniel Rosenwasser:** Probably, yeah. I mean, there is some discussion around whether or not "interface" should be reserved for a different purpose. There's another proposal called Protocols... We still think that interface is probably best suited for a proposal like this; and to be honest with you, the type systems have had this keyword for at least ten years now. I don't really think that it's appropriate. I think that given the number of people using TypeScript in the JS community these days - they would find it really confusing to repurpose that at that point.
 
-\[00:36:11.07\] I hate the argument of like "Hey, this thing's already been done by external forces, in some way." It probably rubs people the wrong way; that was never the intent. But it always definitely seemed to us like the obvious purpose of the interface keyword is to define an interface the way it's defined in literally every other language. It seems like the most reasonable thing to me, to be honest... But yeah.
+\[36:11\] I hate the argument of like "Hey, this thing's already been done by external forces, in some way." It probably rubs people the wrong way; that was never the intent. But it always definitely seemed to us like the obvious purpose of the interface keyword is to define an interface the way it's defined in literally every other language. It seems like the most reasonable thing to me, to be honest... But yeah.
 
 **Ryan Cavanaugh:** I hope that the committee follows where the (I guess) observed desire of the community is... I think the other thing to think about is if this proposal gets whittled away by like "Okay, we can't have interface, we can't have type, we can't have whatever" - that's kind of fair, but we don't wanna make something that's like "Here's 60% of TypeScript" or "Here's 65% of Flow" or whatever. I don't think that's gonna be super-useful, and we'd probably think about other ways we could accomplish this at that point.
 
@@ -252,7 +252,7 @@ And then if you go from like "How do I get started with JavaScript?" to "How do 
 
 I'm not trying to go with like "It's a call for simpler times", but also, it would be nice to make it easier for newcomers to get into this stuff, too. I think that there's some value in that, and it would be really inconsiderate if we didn't at least try to tackle the problem and see how we could bring a solution or two.
 
-**Break:** \[00:40:58.03\]
+**Break:** \[40:58\]
 
 **Christopher Hiller:** So one thing that's not really clear to me is does this proposal actually propose some type syntax, or is it just really more of a place/bucket where a type system can put in its own types? Or is it a little bit of both?
 
@@ -260,7 +260,7 @@ I'm not trying to go with like "It's a call for simpler times", but also, it wou
 
 So there's some top-level stuff that at least both Flow and TypeScript have agreed upon, that is like, "Okay, we both use these things." We definitely used those in this proposal. But again, this is stuff that's very likely -- I mean, I don't know how likely, but it can change at this point, because it's still like a stage one proposal... And all that means is the committee wants to discuss the topic of the proposal. It doesn't mean that we've agreed on syntax, it doesn't mean we've agreed on semantics, it means just like "Yeah, we're kind of interested in talking about this", which is probably a lot more \[unintelligible 00:44:17.28\] we're at stage one probably sounds like it has more fanfare than you might think, but it is actually a big deal in my opinion, just because even within the committee it was like a thing where we basically boxed out like 90 minutes of discussion time, and still needed to add another 45 minutes at the end of the meeting this past plenary. So it was discussed to \[unintelligible 00:44:43.17\] basically.
 
-**Nick Nisi:** \[00:44:47.12\] Well, from our perspective on the outside, it was introduced as like a stage zero proposal, and then it seemed like within a few weeks it immediately went to stage one. So it seemed like quick progress... You know, there's still a long ways to go, but quick, exciting progress on the proposal.
+**Nick Nisi:** \[44:47\] Well, from our perspective on the outside, it was introduced as like a stage zero proposal, and then it seemed like within a few weeks it immediately went to stage one. So it seemed like quick progress... You know, there's still a long ways to go, but quick, exciting progress on the proposal.
 
 **Daniel Rosenwasser:** Yeah. And this is in a big part thanks to -- so we have two co-champions on the proposal, Robert Palmer and \[unintelligible 00:45:10.02\] They've been extremely helpful in making sure that this thing came together. They have a very good set of intuitions of what we need to have ready in terms of materials, in terms of planning, in terms of all this stuff. They've been extremely helpful for making that come together. Because if it was just all on us, then -- we have so many things going on that we'd be stretched thin. And they've just been -- I just have to give them a huge shout-out. Thank you so much for that.
 
@@ -274,7 +274,7 @@ And then also, the other community participants in the proposal, too. The origin
 
 So it sounds cool to me. I was definitely skeptical; I was like, "Why are you doing this? This thing already works?" And yeah, it already works, but again, it could be better, and it sounds like this is a solution to that.
 
-**Daniel Rosenwasser:** \[00:47:57.00\] Yeah. We've seen a lot of support, a lot of excitement. We're really happy when people tell us "This is great", or "I've thought about it, and I've been thinking about it more and I've come around to what Chris just said... But you know, we're also just watching the sort of feedback that we get that is like, "Hey, I don't like this", and we're trying to think about it very thoughtfully, too. We're not coming at this from a very absolutist view of like "This is the right way to do it." We have some intuitions, we hope that people agree with them in some ways, and if not, we're willing to think about what are some of the downsides here, what are some of the places that this falls over, whatever. So in these cases, I hope that basically, first of all, being on this call, Chris is not just like trying to be nice about the proposal... \[laughs\]
+**Daniel Rosenwasser:** \[47:57\] Yeah. We've seen a lot of support, a lot of excitement. We're really happy when people tell us "This is great", or "I've thought about it, and I've been thinking about it more and I've come around to what Chris just said... But you know, we're also just watching the sort of feedback that we get that is like, "Hey, I don't like this", and we're trying to think about it very thoughtfully, too. We're not coming at this from a very absolutist view of like "This is the right way to do it." We have some intuitions, we hope that people agree with them in some ways, and if not, we're willing to think about what are some of the downsides here, what are some of the places that this falls over, whatever. So in these cases, I hope that basically, first of all, being on this call, Chris is not just like trying to be nice about the proposal... \[laughs\]
 
 **Nick Nisi:** I don't think he'd do that.
 
@@ -290,7 +290,7 @@ But yeah, it sounds like a line to walk there... And certainly, once you start t
 
 **Nick Nisi:** Yeah, I was gonna say, some of the criticisms I've seen are like -- well, I think that out of the three ways that Ryan proposed that this could happen, this seems like the best way in terms of compatibility and backwards-compatibility and still being completely optional. But if it does become allowed, then I can start writing everything that way and publishing everything that way, and you're going to have to read that, whether you like it or not. Because if you're just perusing my code, that's what it's going to be. So it is kind of thrust upon you in that sense, but I still think that the benefits outweigh the negative effects of that. But that's my opinion.
 
-**Christopher Hiller:** \[00:52:06.29\] I did see a fair amount of criticism "Well, if it doesn't do runtime checking, it's pointless."
+**Christopher Hiller:** \[52:06\] I did see a fair amount of criticism "Well, if it doesn't do runtime checking, it's pointless."
 
 **Daniel Rosenwasser:** People have been writing type-checked code for a decade now for their JavaScript... At least. It goes further back, if you go to -- but anyway, a lot of these systems do that, and it's okay. And actually, Python is another language that -- I know this is the JS Party, not the Python party, but they have had type annotations built into the language for at least as long as I've been on TypeScript at this point. I think a lot of people were probably either apprehensive or upset about that decision early on, and no one really cares now. It's a net good thing at least.
 
@@ -316,7 +316,7 @@ I take the criticism seriously, because I think the idea that you can write some
 
 **Nick Nisi:** Yeah. \[laughs\] I'm just thinking of like a -- you know how you minify the code, and you can rename variables and things like that; it makes it harder to read. Well, you can just have something that just randomly generates fake types \[unintelligible 00:55:42.04\] \[laughter\]
 
-**Daniel Rosenwasser:** \[00:55:47.28\] Again, it always comes back to the -- the original mental model, the original title of the proposal gives the good mental model there, which is like "It's just comments." So you could have always done the insane comment \[unintelligible 00:55:57.13\] as well... But it is really funny to think about -- we've known what type syntax is for as long as we've been around, but seeing people just write total nonsense between curly braces... I think someone on the Chrome team was joking around in curlies, like "One fine summer day, I..." \[laughter\]
+**Daniel Rosenwasser:** \[55:47\] Again, it always comes back to the -- the original mental model, the original title of the proposal gives the good mental model there, which is like "It's just comments." So you could have always done the insane comment \[unintelligible 00:55:57.13\] as well... But it is really funny to think about -- we've known what type syntax is for as long as we've been around, but seeing people just write total nonsense between curly braces... I think someone on the Chrome team was joking around in curlies, like "One fine summer day, I..." \[laughter\]
 
 The example I always give of nonsense types and "Does this feel good?" is like you can write in curly braces like "Kitty kitty kitty kitty kitty", all on the same line. And what does that mean? Nothing. To an engine, nothing. But how do you make sure that a type checker tells you that "Hey, this doesn't really seem to make any sense."
 
