@@ -16,7 +16,7 @@
 
 I think the most anxiety-filled part of it was probably the 20 minutes or so after we went live, to see if people would care or not. I think the thing that you really don't want is a launch that people just don't care about. That's sort of the big risk. And so there's this slight period once you put your thing out where it's like "Does anyone care?" And once we got past that, it was more like "Okay, people care, and there's a lot of stuff that we have to do to sort of make it successful." But yeah, it was definitely a bunch of anxiety.
 
-**Adam Stacoviak:** \[00:04:10.23\] What was the care level, let's say? Let's use that as the barometer for the day.
+**Adam Stacoviak:** \[04:10\] What was the care level, let's say? Let's use that as the barometer for the day.
 
 **Zach Lloyd:** I would say the care level was really high. We were the number one post on Hacker News for almost all day, Tuesday. I think we had like almost a thousand upvotes, and maybe like 800-900 comments, or something like that... Which is a pretty insane level of engagement from that community. And to be clear, there was a lot of stuff which I would consider feedback, or questions people had...
 
@@ -60,7 +60,7 @@ But in addition to that, the reason why I thought this would be a good episode i
 
 **Jerod Santo:** Exactly.
 
-**Zach Lloyd:** \[00:08:20.12\] ...from like a "How do you innovate while still making it backwards-compatible?" is hard... And all these things are hard. But you know, we're taking a very long-term view here, which is like "What should this thing actually look like?" if you had a magic wand and were designing not only the tool, but also the platform around the tool... So we were just fortunate, I think, to be in a position where we can build the ultimate vision of this. And I think it will take a while for that vision to become a reality, it'll take a while for every developer to use it, but I think the way that Warp will become prevalent is just by building the best possible version of this experience.
+**Zach Lloyd:** \[08:20\] ...from like a "How do you innovate while still making it backwards-compatible?" is hard... And all these things are hard. But you know, we're taking a very long-term view here, which is like "What should this thing actually look like?" if you had a magic wand and were designing not only the tool, but also the platform around the tool... So we were just fortunate, I think, to be in a position where we can build the ultimate vision of this. And I think it will take a while for that vision to become a reality, it'll take a while for every developer to use it, but I think the way that Warp will become prevalent is just by building the best possible version of this experience.
 
 **Adam Stacoviak:** The timing aspect of a launch is kind of interesting too, because it's like - I'm looking on your LinkedIn, and at least by your personal resume (for a lack of better terms) for LinkedIn, it says "June of 2020." So there's one, I wanna talk about timing of like how long has this been going on...
 
@@ -86,7 +86,7 @@ Then we went into a private beta in July of 2021, so about 8-9 months later, whe
 
 **Zach Lloyd:** I think VS Code now has like 70% of the IDE market. The terminal market is much more fragmented.
 
-**Adam Stacoviak:** \[00:12:09.01\] Right. To set up your environment and to install things you've gotta at some point touch the terminal. You may not use it as your driver, but you definitely have touched it as part of your flow as a developer to get set up. It's highly likely.
+**Adam Stacoviak:** \[12:09\] Right. To set up your environment and to install things you've gotta at some point touch the terminal. You may not use it as your driver, but you definitely have touched it as part of your flow as a developer to get set up. It's highly likely.
 
 What about timing? So we talked about time involved to get here... What about timing of the market? Why is now the right time, I suppose years later, of course, given the time you've put in so far - but why is now the right time for someone to really reinvent the terminal? What is it about today, or this moment, or this time?
 
@@ -114,7 +114,7 @@ The other thing I would say is there's a lot of evidence of demand around better
 
 **Jerod Santo:** ...and desire to make richer experiences, move faster etc. So you're kind of copying a little bit from the playbook, or at least inspired by it. What was your experience with Google Docs, and how does that inform what you're up to with Warp?
 
-**Zach Lloyd:** \[00:15:47.28\] Yeah, there's a lot in there. So on the Google Docs side - I think the main things that I carried over were that from like a product perspective and a productivity perspective the idea of taking desktop software (and for Google Docs it was Office, basically) and just making that live in the cloud, making it cloud-native, making it really easy to share, making it really easy to access from anywhere. That model is just -- even if your base product isn't even as good, and I think at Google Docs it took us a long time to get to a base product that was really good... That model is so powerful; I think you could pick almost any piece of productivity software, apply it, and there's gonna be some benefits. You've seen that in -- I mentioned Figma, Notion... Like, pick a tool - if you make it internet-native, if you make it work for teams, it's gonna be better.
+**Zach Lloyd:** \[15:47\] Yeah, there's a lot in there. So on the Google Docs side - I think the main things that I carried over were that from like a product perspective and a productivity perspective the idea of taking desktop software (and for Google Docs it was Office, basically) and just making that live in the cloud, making it cloud-native, making it really easy to share, making it really easy to access from anywhere. That model is just -- even if your base product isn't even as good, and I think at Google Docs it took us a long time to get to a base product that was really good... That model is so powerful; I think you could pick almost any piece of productivity software, apply it, and there's gonna be some benefits. You've seen that in -- I mentioned Figma, Notion... Like, pick a tool - if you make it internet-native, if you make it work for teams, it's gonna be better.
 
 For the terminal, I really believe the same thing will be true. I think the features might be different. I think real-time collaboration is cool, but maybe not the most important thing for a terminal... But actually, to be honest, it's not the most important thing for Google Docs either. The most important thing for Google Docs is actually more sort of asynchronous modes of collaboration, where it's like one person creates something, and then another person builds off it, and looks at it. So for the terminal I think there's always other modes of collaboration that it's gonna be really powerful when we unlock.
 
@@ -134,7 +134,7 @@ So that's one way, and I would say the primary way that we care about. The secon
 
 And then the third thing is stuff like what we're doing right now, which is like, we need to find ways to get in front of developers, make them aware of the product; that could be on social, it could be through podcasts, it could be through us producing great terminal content that lives on TikTok, or YouTube, and just sort of positioning the company as a leader in like "Hey, if you're doing anything related to the command line, Warp is where you want to be."
 
-\[00:20:16.13\] So those are the three ways that I think we can actually get Warp to grow. And it's working so far. We had a big splash, but we're getting more and more people to use it, which is pretty cool.
+\[20:16\] So those are the three ways that I think we can actually get Warp to grow. And it's working so far. We had a big splash, but we're getting more and more people to use it, which is pretty cool.
 
 **Jerod Santo:** Sure. Well, I can speak to the stickiness of Google Docs back when it was like the only collaborative office type of thing... And just the fact that, like you said, that feature alone, the web-native features of Sheets and Docs, even though Office Suite was better native software, it was just like "Yeah, but I can just collaborate with this so easily."
 
@@ -148,7 +148,7 @@ And then the third thing is stuff like what we're doing right now, which is like
 
 **Zach Lloyd:** Yeah. I mean, the thing is -- I think you can't really start with that for the terminal. It's just hard to get a group of people to adopt a thing at once, relative to an individual. If you look at the features that we have today, it's actually not so much about collaboration. It's more about how do you make the terminal more usable? How do you make it more powerful for an individual, just so an individual has some reason to use Warp, and immediately gets benefit out of it? So there's this sort of -- you've gotta make it awesome even for individuals to start, I think, for the terminal... Whereas for Google Docs, that was gonna be a very hard value prop, because Office had a 20-year lead in terms of features. I actually think the terminal - it's feasible to do it the way that we're doing it because the existing terminal experience, in my opinion, is really not good. So we can actually sort of get a lot of traction just by improving that, and then we can continue to add on features that are for teams.
 
-**Break:** \[00:22:22.05\]
+**Break:** \[22:22\]
 
 **Adam Stacoviak:** So I guess the question is -- you said the existing terminal experience isn't that good... So what's the baseline for what you say the terminal experience is? Because you've got the terminal app on Windows... You mentioned you're not multi-platform yet, but obviously, the terminal is multi-platform... So there's a terminal experience per operating system, Windows, macOS, Linux. So what's the baseline for what you think the terminal's experience is not good enough? What is that baseline?
 
@@ -172,7 +172,7 @@ So those are just things that I'm scratching the surface with, but if you start 
 
 And by the way, part of the reason why it's like it - just to diverge for a second - is the historical architecture of like what is a terminal and what is a shell. The terminal that you're using when you open a terminal app on your computer - you're running an app, say on your Mac, that is emulating the behavior of a physical hardware terminal that hasn't been, I don't know, made or used since the '80s. And it's doing that because that's what the shells and all these command line programs expect to interact with. So all the shells and command-line programs just treat the terminal as a very simple character input and output device. So it's like characters go in, characters go out, and the shell can basically say "Draw a character on the screen at X place."
 
-**Jerod Santo:** \[00:28:22.27\] Sure.
+**Jerod Santo:** \[28:22\] Sure.
 
 **Zach Lloyd:** So that's kind of some of the historical baggage of why it's like that.
 
@@ -196,7 +196,7 @@ So I think the command line is awesome. In fact, one of product principles that 
 
 **Jerod Santo:** There's the analogue that I'm drawing in my mind with databases, and the approach that FaunaDB is taking, versus CockroachDB... Fauna is saying like "Hey, we've got a whole new query language, and you've gotta use it. It's great." They have the reasons why it's great. And then other companies like Cockroach is like "We are Postgres wire-compatible. We have our own language, but also, here's the things that you're used to, because we think that's going to help adoption." I respect both approaches. One puts the stake in the ground and says "No, because we can do it better if we forget about all this other stuff."
 
-**Zach Lloyd:** \[00:32:17.27\] Clean break, right.
+**Zach Lloyd:** \[32:17\] Clean break, right.
 
 **Jerod Santo:** And the other one says "Yeah, but we're not gonna get anybody to come along unless they have some sort of path towards that..." So that's a tough call, and probably one you had to make early on.
 
@@ -218,7 +218,7 @@ When you face this mountain that Adam has described, "I'm gonna build a terminal
 
 **Zach Lloyd:** Okay, so it's a great question. So we started with sort of the fundamental UI things in a terminal. We started with what people really do in the terminal; they work with input and output... It's the predominant use case. There's this second use case which we actually don't do much with right now, which is like they run full-screen terminal apps, like Vim or Emacs or something... Warp right now doesn't do -- there's not much special in Warp with those apps. But for the type of uses that we were looking at, which is like "What do people do all day in a terminal? They run commands", we were like, "What is that fundamental experience like, and how could it be better?" So we started thinking about, "Well, on the input side for instance, the input and editing experience is not good. What would actually be a very good input and editing experience?" and we decided it would be something that's much more like what you would get in VS Code, basically. Like, why doesn't that experience exist in the terminal?
 
-\[00:36:17.10\] On the ouput side, we were like "What are the problems with it?" and it's sort of like what I talked about before - you can't really tell what command produces what output, so that means you can't navigate around your terminal on a command by command basis, or copy-paste what you want, or share one specific thing you did from the terminal. So we took inspiration from VS Code for the input, we took inspiration from Notebooks for the output, where you have a structured sequence of things you do... And then our bet was like, you know, for this for real with a long-term vision let's just start with the fundamental things and try to make them as good as possible.
+\[36:17\] On the ouput side, we were like "What are the problems with it?" and it's sort of like what I talked about before - you can't really tell what command produces what output, so that means you can't navigate around your terminal on a command by command basis, or copy-paste what you want, or share one specific thing you did from the terminal. So we took inspiration from VS Code for the input, we took inspiration from Notebooks for the output, where you have a structured sequence of things you do... And then our bet was like, you know, for this for real with a long-term vision let's just start with the fundamental things and try to make them as good as possible.
 
 So we had ideas around that, because we're developers and we use the terminal every day, non-stop; we talked to a lot of developers about this... And then our goal right at the beginning was like "We need to get to a feedback loop." So when you're starting a company -- we knew we had to build for a while before we'd have even something people would give us feedback on, so we did that. But then the first big milestone was like "Can we ourselves use it?" That was actually the first one. And then secondly, it was like, we had external people giving us feedback.
 
@@ -244,7 +244,7 @@ And then thirdly, Rust had a great cross-platform story for how we wanna eventua
 
 **Jerod Santo:** Gotcha.
 
-**Zach Lloyd:** \[00:40:10.12\] But yeah, Warp unfortunately at the moment doesn't really natively even support Nushell. It's something we would like to support. Nushell is a pretty cool product. But it's built in Rust, so we have a relationship with them.
+**Zach Lloyd:** \[40:10\] But yeah, Warp unfortunately at the moment doesn't really natively even support Nushell. It's something we would like to support. Nushell is a pretty cool product. But it's built in Rust, so we have a relationship with them.
 
 **Jerod Santo:** Gotcha. Yeah, I was looking at your open source dependencies and I was like, "I thought there's no shell inside yet", but you're gonna have your own shell eventually... But then I saw Nushell and I was like, "Wait, is there a shell in there?"
 
@@ -280,7 +280,7 @@ The other reason we did it that way is like, when we do go to Linux or the web, 
 
 **Zach Lloyd:** Linux, if you look at our GitHub issues and you sort them by number of requests, Warp for Linux is number one. So from what users are asking for, Linux would be next. I think Windows will be last. I don't know if Linux will be next or the web will be next. Those are the two that we would potentially do next. Of the two, Linux would be easier, and users clearly want it. Web I think is maybe more interesting for us from a product standpoint, from what are the features that are unlocked if you have a web-based version of Warp.
 
-\[00:44:19.16\] And then the reason we started focusing on one platform is just like I'd rather have a killer product on one platform than an okay product on three. So it's faster to iterate on getting the product perfectly right on one platform before we spread out.
+\[44:19\] And then the reason we started focusing on one platform is just like I'd rather have a killer product on one platform than an okay product on three. So it's faster to iterate on getting the product perfectly right on one platform before we spread out.
 
 **Jerod Santo:** Well, I think your move away from Electron pretty much made that bet, right? You made that decision at that point.
 
@@ -292,7 +292,7 @@ The other reason we did it that way is like, when we do go to Linux or the web, 
 
 **Zach Lloyd:** It depends how you did it. You could always technically run a WebGL app in Electron, which is a very contorted way of doing it, but... That's actually Figma, if you look at what they do; their codebase, I believe, is C++, and then they compile to Web Assembly and WebGL. And then they run that -- their Figma desktop app is running that WebGL and Web Assembly stuff. So you can get good performance, but you basically would still be doing it via a native code path.
 
-**Break:** \[00:45:38.14\]
+**Break:** \[45:38\]
 
 **Jerod Santo:** Well, they say if you're not embarrassed by what you shipped, then it took you too long. You guys launched, had a great response, a lot of interest... If I'm picking up a little bit of your vibe, it's like still early days, you're putting that out there, fair enough... You know, get it out there...
 
@@ -314,7 +314,7 @@ And then we have one really amazing feature... It's basically natural language c
 
 So those are all, I would say, reasons to use it today. Beyond that, it's just a much nicer, more polished terminal experience. We have a command palette, we have built-in themes that are super-nice... But if I had to summarize the pitch to a developer right now, it would be like "Warp is something that's gonna make you significantly more productive, without breaking your workflow." With a big asterisk next to it, which is that there are certain workflows that we don't yet support, because we're public beta. For instance, if you use tmux, you're probably not gonna get a ton of value out of Warp right now. And we are working through things that don't work that well, to try to make them work better for everyone.
 
-**Adam Stacoviak:** \[00:52:09.12\] What's it gonna take to support Vim, Emacs, Tmux, things like that?
+**Adam Stacoviak:** \[52:09\] What's it gonna take to support Vim, Emacs, Tmux, things like that?
 
 **Zach Lloyd:** So Vim, Emacs, Tmux - just to be clear, they all work. If you run Vim in Warp, you get the exact same Vim that you would get in your normal terminal app. Tmux I'd say needs more work, because when you run Tmux, what happens in Warp is it basically takes over the full screen, and you lose all the cool features around better input and output that you get with Warp. So for Tmux we're either gonna build something on top of Tmux that gives you the Warp features, or we're gonna basically replace that Tmux functionality with something that's native to Warp, which I think is the more likely way that we would do it right now.
 
@@ -342,7 +342,7 @@ Now, the one thing that kind of stopped me on first launch is... Sign up with Gi
 
 **Jerod Santo:** That to me seems like a business part of Warp, and not really like for me. Is that for you or for me?
 
-**Zach Lloyd:** \[00:55:53.04\] Great question... This is one of the things people gave the most feedback on on Hacker News. The short answer is it's for you; it's not so much for us. But it's a little bit more about where we wanna go than where we currently are. The place that we wanna get to with Warp is that there's a reason that we need to know who you are in order to keep your things, sync them across computers, make it so you can work with people on teams... And if we don't have a sense of who's using the product, I think it's just really hard to do that. There's some use cases that you can do anonymous, but what we're trying to do is build a sort of cloud-native terminal that works for teams. And without someone logging in, I think it's gonna be very hard to move past, just basically to get to that product experience. But it's a question, like -- we got a lot of feedback on this, especially on Hacker News...
+**Zach Lloyd:** \[55:53\] Great question... This is one of the things people gave the most feedback on on Hacker News. The short answer is it's for you; it's not so much for us. But it's a little bit more about where we wanna go than where we currently are. The place that we wanna get to with Warp is that there's a reason that we need to know who you are in order to keep your things, sync them across computers, make it so you can work with people on teams... And if we don't have a sense of who's using the product, I think it's just really hard to do that. There's some use cases that you can do anonymous, but what we're trying to do is build a sort of cloud-native terminal that works for teams. And without someone logging in, I think it's gonna be very hard to move past, just basically to get to that product experience. But it's a question, like -- we got a lot of feedback on this, especially on Hacker News...
 
 **Jerod Santo:** Full honesty, if I wasn't compelled to do it, because I wanted to talk to you about it, I probably would have deleted it right then. Because I have a terminal that's pretty good, in my opinion, and I don't need to sign into it. So when I had to sign into it, I probably would have stopped... But I pushed through, because I really wanted to try Warp. And once I got in, I was like, "This is cool. I like this." But I probably wouldn't have gotten this far if I wasn't talking to you about it.
 
@@ -360,7 +360,7 @@ I also wanna be super-clear - Warp is not sending or storing any of your command
 
 **Adam Stacoviak:** Know your customer, you know... KYC is a big thing, I think, in this current world. KYC is a big deal.
 
-**Zach Lloyd:** \[00:59:46.03\] Yeah. So we could do what VS Code does, which is - I think the moment you have to log in on VS Code is maybe the moment you wanna use live share, or something like that... I'm speaking for myself, I think that's a bad product experience, and I think it really limits the utility of any kind of sharing feature if you push it off until really late in the experience.
+**Zach Lloyd:** \[59:46\] Yeah. So we could do what VS Code does, which is - I think the moment you have to log in on VS Code is maybe the moment you wanna use live share, or something like that... I'm speaking for myself, I think that's a bad product experience, and I think it really limits the utility of any kind of sharing feature if you push it off until really late in the experience.
 
 I can't think of another sharing-based app where you don't log in... I mean, VS Code is a good example; I just think it really makes the experience worse, and it also creates a speed bump at the actual time where I want to create the most value for people using Warp... Which is like, okay, someone wants to collaborate, and then all of a sudden you're putting a log in front of them. That said, I have no doubt that we would get more adoption if we did what you said, Adam, if we just made login optional. I just don't know that it sets us on the path to building a really great, collaborative, cloud-connected terminal. So we're weighing it, is kind of the short answer...
 
@@ -420,23 +420,23 @@ I can get cynical, and I'm a pretty typical developer in that sense... Because i
 
 **Adam Stacoviak:** Tell them your story.
 
-**Jerod Santo:** \[01:03:40.28\] Yeah, I agree with that 100%. And the terminal is so close to us; it's inscrutable, it's got a lot of problems, like you've stated, but once you live there, day in, day out, it's a pretty close-knit tool. Even switching terminals is kind of a big deal. If I switch to Warp, I want it to be my terminal for n years. And if I feel like "Well, it's tied --" and maybe we can get into the business proposition next... Because I feel like if Warp's success is tied on the business' success, that also gives me pause... Even knowing I can just go back to terminal.app and life would go on.
+**Jerod Santo:** \[01:03:40.28\] Yeah, I agree with that 100%. And the terminal is so close to us; it's inscrutable, it's got a lot of problems, like you've stated, but once you live there, day in, day out, it's a pretty close-knit tool. Even switching terminals is kind of a big deal. If I switch to Warp, I want it to be my terminal for N years. And if I feel like "Well, it's tied --" and maybe we can get into the business proposition next... Because I feel like if Warp's success is tied on the business' success, that also gives me pause... Even knowing I can just go back to terminal.app and life would go on.
 
 **Zach Lloyd:** Yeah.
 
 **Jerod Santo:** But I think also telling Warp's story - not just roadmap, but also "Is this terminal.app, warp.app, is this terminal application require VC hockeystick growth?" Because as a person who's been a developer for 20 years, I have seen so many businesses come and go, and so many tools that I love don't exist anymore. In fact, somebody in our Changelog community Slack was just lamenting today that one of their favorite tools just disappeared. No reason why. The servers are gone, the website's gone... Just gone. And so these are things that - you know, it's hard to be cynical over time; not because of bad intentions or anything like that. Just like stuff fails, and then we're left in a lurch. So some sort of sustainability story I think is also important.
 
-**Zach Lloyd:** Yeah. I think that the thing for that that makes the most sense, which - you know, we're not yet open source, and I think if we were to essentially open-source the client, I think that would probably go a long way towards alleviating people's concerns around like "Is this thing gonna go away?" I don't wanna publicly fully commit that we're gonna do that, but it's probably something that we're gonna do. It's certainly something that I think there's a lot of -- it actually aligns our users' interests and the business interests, in a lot of ways. It gives people confidence that the app is secure, it's not doing anything nefarious, that it's not gonna go away...
+**Zach Lloyd:** Yeah. I think that the thing for that that makes the most sense, which - you know, we're not yet open source, and I think if we were to essentially open source the client, I think that would probably go a long way towards alleviating people's concerns around like "Is this thing gonna go away?" I don't wanna publicly fully commit that we're gonna do that, but it's probably something that we're gonna do. It's certainly something that I think there's a lot of -- it actually aligns our users' interests and the business interests, in a lot of ways. It gives people confidence that the app is secure, it's not doing anything nefarious, that it's not gonna go away...
 
 So I think it is a thing that we will do. I don't wanna 100% say, because we haven't decided the strategy, the timing, all of that... But I think it's something that makes sense for us to do.
 
-I guess just for me to ask you as a potential user, for a second... Is open-sourcing the thing that would give you the most confidence when it comes to your question here?
+I guess just for me to ask you as a potential user, for a second... Is open sourcing the thing that would give you the most confidence when it comes to your question here?
 
 **Jerod Santo:** Yes, I think it would. I'm not sure if the client alone would give me confidence... Depending on how much becomes collaborative requirement. Like, what was the old Google Docs competitor? Etherpad?
 
 **Zach Lloyd:** Yeah.
 
-**Jerod Santo:** Well, when Etherpad died, they open-sourced it, and that was awesome... But unless there's an Etherpad service, did it really matter? People could stand up their own. So maybe some sort of stadium... Like, "By the way, if Warp the company disappears, we'll just open-source all the things and you can do what you want." That actually makes me feel pretty good. That's a pretty good feeling. Like, "Okay, if they die, it'll open-source and we can do it."
+**Jerod Santo:** Well, when Etherpad died, they open sourced it, and that was awesome... But unless there's an Etherpad service, did it really matter? People could stand up their own. So maybe some sort of stadium... Like, "By the way, if Warp the company disappears, we'll just open source all the things and you can do what you want." That actually makes me feel pretty good. That's a pretty good feeling. Like, "Okay, if they die, it'll open source and we can do it."
 
 **Zach Lloyd:** If the company goes away, we'll give you the server, too. I think it makes sense.
 
