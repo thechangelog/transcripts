@@ -24,11 +24,11 @@
 
 **Jerod Santo:** Yeah. What part of Vista did you work on?
 
-**Frank Krueger:** I was actually a dev in tests, so I was responsible for making sure that codecs like gif and jpeg and tif would not crash the machine. If you remember those days, Microsoft would be Slashdot a lot for like "New vulnerability found in gif. Just download this image and we can \[00:04:02.10\] your system."
+**Frank Krueger:** I was actually a dev in tests, so I was responsible for making sure that codecs like gif and jpeg and tif would not crash the machine. If you remember those days, Microsoft would be Slashdot a lot for like "New vulnerability found in gif. Just download this image and we can \[04:02\] your system."
 
 **Jerod Santo:** Right. It would give you straight admin privileges. From like zero to admin privileges with one animated -- yeah, exactly.
 
-**Frank Krueger:** \[00:04:11.14\] Yeah. So I showed up at Microsoft when security was becoming a really important thing... And we were cracking down on everything, and we were just beating these APIs to death. But I also worked on designing the imaging APIs for what became WPF, the C\# managed way to write Windows apps. It's a UI framework. So I worked on that. So good stuff came out of Vista. Honestly, we're using a lot of fundamental Vista technologies on Windows even today. They just -- it was a rough release.
+**Frank Krueger:** \[04:11\] Yeah. So I showed up at Microsoft when security was becoming a really important thing... And we were cracking down on everything, and we were just beating these APIs to death. But I also worked on designing the imaging APIs for what became WPF, the C\# managed way to write Windows apps. It's a UI framework. So I worked on that. So good stuff came out of Vista. Honestly, we're using a lot of fundamental Vista technologies on Windows even today. They just -- it was a rough release.
 
 **Adam Stacoviak:** To give you some credit though, the hard problem about Windows generally was the upgrade path. There was obviously some flaws in the operating system as the new versions come out, but the upgrade path seemed to be the biggest hurdle for Microsoft to finally -- and I'm not even sure they finally conquered it, because I've since bailed on the operating system. I got mad respect for it; lots of users, a massive base, but... The upgrade path was truly the challenge, not just simply the operating system as itself, like the new advancements in the tech.
 
@@ -40,7 +40,7 @@
 
 **Adam Stacoviak:** Yeah, I guess that's the better case, every man's land.
 
-**Frank Krueger:** \[00:06:29.02\] just so many GPUs. That was the hot topic at the time... To the point where, you know, long into the project I would still boot up the operating system some days and the monitor would be flipped vertically, and everything would be upside down. You're just like, "Oh, it's one of those builds..." So you would have to use the computer upside down to go download a new build an update your system and hope that the new, latest build doesn't have the upside-down bug to it.
+**Frank Krueger:** \[06:29\] just so many GPUs. That was the hot topic at the time... To the point where, you know, long into the project I would still boot up the operating system some days and the monitor would be flipped vertically, and everything would be upside down. You're just like, "Oh, it's one of those builds..." So you would have to use the computer upside down to go download a new build an update your system and hope that the new, latest build doesn't have the upside-down bug to it.
 
 **Jerod Santo:** So would you flip the monitor, or would you stand on your head? What was the move?
 
@@ -72,7 +72,7 @@
 
 **Jerod Santo:** Haven't looked back. \[laughter\]
 
-**Frank Krueger:** \[00:07:57.11\] That's not actually true, in the proper timeline... I started my own company. Some friends were needing help getting contract jobs... There was a lot of immigration and people taking advantage of contract employs for a long time, and so I started a contracting business to help out a lot of my friends that were working on a visa... And at the same time, I also became a military contractor, and worked on control systems for cruisers, for the \[00:08:25.10\] and spent quite a few years just doing embedded system development for militaries. That was another big learning experience.
+**Frank Krueger:** \[07:57\] That's not actually true, in the proper timeline... I started my own company. Some friends were needing help getting contract jobs... There was a lot of immigration and people taking advantage of contract employs for a long time, and so I started a contracting business to help out a lot of my friends that were working on a visa... And at the same time, I also became a military contractor, and worked on control systems for cruisers, for the \[08:25\] and spent quite a few years just doing embedded system development for militaries. That was another big learning experience.
 
 **Jerod Santo:** Huh.
 
@@ -82,7 +82,7 @@
 
 **Frank Krueger:** Yeah, don't forget bribery and all that stuff, too.
 
-**Jerod Santo:** \[00:08:54.05\]
+**Jerod Santo:** \[08:54\]
 
 **Adam Stacoviak:** Corruption...
 
@@ -100,7 +100,7 @@ So what I learned was how to write reliable software. I even wanna rephrase it -
 
 **Jerod Santo:** Yeah... It makes you take iteration for granted when you don't have to have that circumstance. It's like, if you're designing a hardware panel that has to go off to be manufactured, you've gotta get that design right before you send that design off, right? You can't say "Well, we'll just ship this, and as soon as we start using it, we'll know where it fails." Because once you're using it, it's done. It's set in stone basically, right?
 
-**Frank Krueger:** Yeah. I remember one time I was presenting this system to a submarine commander. He was just a part of an entourage, and I was just giving a demo. And he looked at me and said "Why is this thing so complicated?" And I had to laugh, because -- I just turned around, because I had it sitting right next there, was "The book of error codes." That was not written by me, it was written by all the admirals \[00:11:53.07\] And I just handed him the book of error codes, and I'm like "That's why. 500 error codes."
+**Frank Krueger:** Yeah. I remember one time I was presenting this system to a submarine commander. He was just a part of an entourage, and I was just giving a demo. And he looked at me and said "Why is this thing so complicated?" And I had to laugh, because -- I just turned around, because I had it sitting right next there, was "The book of error codes." That was not written by me, it was written by all the admirals \[11:53\] And I just handed him the book of error codes, and I'm like "That's why. 500 error codes."
 
 **Jerod Santo:** \[laughs\]
 
@@ -114,7 +114,7 @@ So what I learned was how to write reliable software. I even wanna rephrase it -
 
 **Adam Stacoviak:** What's the biggest learning you've learned - or continue to learn - when it comes to reliability? What are some of the cardinal sins, or cardinal rules?
 
-**Frank Krueger:** \[00:12:13.24\] You have to test the error path just as much as you test the functioning path. It's always an edge case in the error handling where you mess things up. It's so easy to write code that, you know, when it's working correctly, it works correctly. That's the easiest code to write.
+**Frank Krueger:** \[12:13\] You have to test the error path just as much as you test the functioning path. It's always an edge case in the error handling where you mess things up. It's so easy to write code that, you know, when it's working correctly, it works correctly. That's the easiest code to write.
 
 **Jerod Santo:** Right.
 
@@ -152,7 +152,7 @@ So to answer your question in general, the answer is "Assume everything can fail
 
 **Frank Krueger:** And the moment Apple had an SDK, I just jumped on top of it.
 
-**Jerod Santo:** Did you hop into the original concept, the "really sweet solution" I think they called it, which was the web apps? I mean, did you try to do web apps initially? Because before the App Store, that was Apple's first like "Hey, you can program it with web apps." And it was kind of like \[00:15:12.02\] But did you at least try that kind of stuff?
+**Jerod Santo:** Did you hop into the original concept, the "really sweet solution" I think they called it, which was the web apps? I mean, did you try to do web apps initially? Because before the App Store, that was Apple's first like "Hey, you can program it with web apps." And it was kind of like \[15:12\] But did you at least try that kind of stuff?
 
 **Frank Krueger:** So I skipped another little part of my career. I spent two years being a web developer after the military stuff, and -- that kind of burnt me out. I was like, "I don't really wanna do this." HTML was crushing my soul. All of it was crushing my soul. I was a native app developer; I'd been writing UIs in VB since the '90s. I like writing native apps, I know how native app APIs work, rendering engines, all that stuff. It's just a more comfortable place for me.
 
@@ -160,9 +160,9 @@ So to answer your question in general, the answer is "Assume everything can fail
 
 **Frank Krueger:** Plus, I even question it, to this day, like "Should I become a web developer again?" But I think I just got so burnt out with just two years of being a web developer that I never want to do it again.
 
-**Jerod Santo:** \[00:15:53.22\] Yeah, if you couldn't last two years back then, you probably wouldn't last six months now... Because things are rapidly evolving, and there's always a new target. And there's a lot of power in the web in terms of freedom and expressiveness, and permissionless, to a certain degree, -ness... But there's a lot that comes alongside it as well. So if you've been building native UIs your whole life... You know \[00:16:20.12\]
+**Jerod Santo:** \[15:53\] Yeah, if you couldn't last two years back then, you probably wouldn't last six months now... Because things are rapidly evolving, and there's always a new target. And there's a lot of power in the web in terms of freedom and expressiveness, and permissionless, to a certain degree, -ness... But there's a lot that comes alongside it as well. So if you've been building native UIs your whole life... You know \[16:20\]
 
-**Frank Krueger:** And \[00:16:23.00\] so nicely constrained; they were all the same resolution, 320x480. No one had a different-sized iPhone... They were slow, your software couldn't do much, so you had to be a clever programmer, and I always loved being a clever programmer... You know, who doesn't love to optimize code? It's fun. It gave you an excuse to do that. And they had, most importantly, a store. Because I'm an engineer, and I'm terrible at marketing and sales. And I really need to rely on a third-party to be a publisher. And early successes in the App Store showed that you could actually make some money at it... Versus starting your own website, drawing people to your own website, doing sales that way.
+**Frank Krueger:** And \[16:23\] so nicely constrained; they were all the same resolution, 320x480. No one had a different-sized iPhone... They were slow, your software couldn't do much, so you had to be a clever programmer, and I always loved being a clever programmer... You know, who doesn't love to optimize code? It's fun. It gave you an excuse to do that. And they had, most importantly, a store. Because I'm an engineer, and I'm terrible at marketing and sales. And I really need to rely on a third-party to be a publisher. And early successes in the App Store showed that you could actually make some money at it... Versus starting your own website, drawing people to your own website, doing sales that way.
 
 **Jerod Santo:** So are you designing, building and selling your own apps on the store, or are you contracting for other companies and building their apps?
 
@@ -176,7 +176,7 @@ So to answer your question in general, the answer is "Assume everything can fail
 
 **Frank Krueger:** It's tricky, because all my marketing friends scream at me because I do basically zero marketing. So what I rely on is this terrible test of "You release the app and you see how many people bought it." If a lot of people bought it on day one, the app's probably gonna do alright. If no one bought it on day one, then there is just not an existing market there, so you have to hire the marketer to create the demand, instead of fulfilling an existing demand. I would much rather fulfill an existing demand, but I understand marketing's places like "Maybe you've never heard of this concept, and you've totally gotta check it out." So that's their job.
 
-**Jerod Santo:** \[00:19:58.16\] Right. I mean, some of it is awareness. There might be demand, but people just don't know that it exists. But then there's also -- like, when you push something up a hill and it's heavy, and you're like, "Why am I continuing when I have this other ball that's rolling down this hill?", or at least there's an obvious demand... So I think that puts a lot of pressure on your day one launch though, doesn't it?
+**Jerod Santo:** \[19:58\] Right. I mean, some of it is awareness. There might be demand, but people just don't know that it exists. But then there's also -- like, when you push something up a hill and it's heavy, and you're like, "Why am I continuing when I have this other ball that's rolling down this hill?", or at least there's an obvious demand... So I think that puts a lot of pressure on your day one launch though, doesn't it?
 
 **Frank Krueger:** Oh, yeah.
 
@@ -198,7 +198,7 @@ So day one is just fun, party times, and all you're telling yourself is "Don't e
 
 **Jerod Santo:** That's wise. What's your batting average? How many apps have you put out, and of those, what percentage are successes in terms of you're gonna keep working on them, or they still make money for you today?
 
-**Frank Krueger:** Not good. It depends on which \[00:21:28.14\]
+**Frank Krueger:** Not good. It depends on which \[21:28\]
 
 **Jerod Santo:** \[laughs\] Sorry for asking...
 
@@ -210,7 +210,7 @@ But then I wanna say, I've had some critical successes, where a lot of people li
 
 **Jerod Santo:** Right. Well, I definitely hope you continue to have success on the App Store. I think it's still something to be proud of; there's a lot of people that go through life and never have a success on the App Store. If you think of musicians, you have the one-hit wonders... And it's like, hey, people make fun of a one-hit wonder, but it's like, most of us are zero-hit wonders. Like, that's actually pretty stinking good... And the fact that you can live off it and continue to do what you love, and you continue to step up to the plate and see if you can hit another one is admirable, and very respectable. So I appreciate your honesty, but it's nothing to be ashamed of; you definitely have done well.
 
-**Frank Krueger:** No, I just wanted to make it clear... There's always a \[00:23:18.18\] It's not easy. It's a tough world. I used to do a lot of speaking at conferences, and people would ask "Oh, I wanna get into app development. What's your advice?" And my advice was "I lost money for the first two years, so have a lot of money in the bank before you even attempt to do this." It's hard to find that market.
+**Frank Krueger:** No, I just wanted to make it clear... There's always a \[23:18\] It's not easy. It's a tough world. I used to do a lot of speaking at conferences, and people would ask "Oh, I wanna get into app development. What's your advice?" And my advice was "I lost money for the first two years, so have a lot of money in the bank before you even attempt to do this." It's hard to find that market.
 
 But the actual good advice is pick your markets, find an existing demand... Pick a market that has a lot of money, and where there's not much competition. That's a sweet spot; work in that space. Then you can actually make a living off of it. You don't make a game. Your game is not gonna be successful. It doesn't even matter how good it is, you're not gonna make any money off of it.
 
@@ -218,7 +218,7 @@ But the actual good advice is pick your markets, find an existing demand... Pick
 
 **Frank Krueger:** Yeah. When the store was small, life was definitely easier... But finding something on the store just from natural search - it only accounts for 20% of your sales, my sales. It's not a lot.
 
-**Adam Stacoviak:** \[00:24:13.27\] Where does the other 80% come from then?
+**Adam Stacoviak:** \[24:13\] Where does the other 80% come from then?
 
 **Frank Krueger:** Word of mouth, links... My app has been used in universities now, so it's a part of some curriculums. That always helps. Become a part of a curriculum. \[laughs\]
 
@@ -238,9 +238,9 @@ But the actual good advice is pick your markets, find an existing demand... Pick
 
 **Frank Krueger:** That's exactly it. \[laughs\]
 
-**Break:** \[00:26:04.01\]
+**Break:** \[26:04\]
 
-**Jerod Santo:** Frank, sometimes you find yourself in a position of needing to write some code that you're just not sure how to write. I know this about you, because you wrote this down... And there's certain steps you take when you're \[00:28:36.24\] No huge revelations, just hard-earned advice. I'm transliterating your opening paragraph and I'm putting it into third person, even though you wrote it in the first... So if this sounds weird, that's what's going on here... But the point is you wrote this post, "Your practical guide to solving hard problems", and there's nine steps. Do you wanna kick off this conversation and just walking us through maybe some of the hard problems you've had to solve, or the types of things that stump you? And then we'll get going into actually your steps. Obviously, this is prescriptive, to a certain degree, and what you think works well for you... But it's more, I think, maybe fodder for us, something to think about; how each and every one of us solves problems is gonna be different, but I think there's some similarities, so... Open us up, will you, Frank?
+**Jerod Santo:** Frank, sometimes you find yourself in a position of needing to write some code that you're just not sure how to write. I know this about you, because you wrote this down... And there's certain steps you take when you're \[28:36\] No huge revelations, just hard-earned advice. I'm transliterating your opening paragraph and I'm putting it into third person, even though you wrote it in the first... So if this sounds weird, that's what's going on here... But the point is you wrote this post, "Your practical guide to solving hard problems", and there's nine steps. Do you wanna kick off this conversation and just walking us through maybe some of the hard problems you've had to solve, or the types of things that stump you? And then we'll get going into actually your steps. Obviously, this is prescriptive, to a certain degree, and what you think works well for you... But it's more, I think, maybe fodder for us, something to think about; how each and every one of us solves problems is gonna be different, but I think there's some similarities, so... Open us up, will you, Frank?
 
 **Frank Krueger:** Yeah, sure. Just for some context, I was having a conversation with a friend; we were talking about Twitch streaming - we've both been doing Twitch streaming - and he was talking about how hard it is to solve hard problems, and Twitch-stream, and code at the same time... It's a bit of a high pressure situation.
 
@@ -254,7 +254,7 @@ Even today, I was working on a problem where I'm trying to do these 3D LiDAR sca
 
 **Jerod Santo:** Right. That one's more reactive, and these are more proactive, right?
 
-**Frank Krueger:** \[00:31:59.26\] Yeah. This is how to push your own limits, let's say. \[laughs\] I don't like to do boring programming on Twitch. I like to always be at the edge of my own skill level. And so it's nice to have a procedure to fall back on when your mind is racing and you're wondering if you're looking like a complete fool in front of a live audience.
+**Frank Krueger:** \[31:59\] Yeah. This is how to push your own limits, let's say. \[laughs\] I don't like to do boring programming on Twitch. I like to always be at the edge of my own skill level. And so it's nice to have a procedure to fall back on when your mind is racing and you're wondering if you're looking like a complete fool in front of a live audience.
 
 **Jerod Santo:** Well, I guess your number one is somewhat confusing then, because if you're in front of a live audience, number one says, "Think hard about the problem for a few weeks before typing any code." So I'm just imagining you live on Twitch, just sitting there, staring off into the distance, thinking hard, hard thoughts. \[laughter\]
 
@@ -282,7 +282,7 @@ Even today, I was working on a problem where I'm trying to do these 3D LiDAR sca
 
 **Jerod Santo:** Yeah.
 
-**Frank Krueger:** \[00:35:47.03\] Sometimes you got to clean up the code to get it to a place where you think you can actually solve the hard problem, too. Some refactorings are required. But a huge chunk of programming is just regurgitation of data paths that you've created for the last ten years and you're just putting them back into this app, unfortunately.
+**Frank Krueger:** \[35:47\] Sometimes you got to clean up the code to get it to a place where you think you can actually solve the hard problem, too. Some refactorings are required. But a huge chunk of programming is just regurgitation of data paths that you've created for the last ten years and you're just putting them back into this app, unfortunately.
 
 It goes both ways. Sometimes -- like, a lot of what I'm going to describe in this blog was a top-down perspective on it, but I love to start at the bottom, too. Who doesn't like to write a little math function, and then a bigger function on top of that, a bigger function on top of that, and work your way up? But at some point, you're going to have to integrate that into a bigger system and come back down again. So... Just different ways of attacking.
 
@@ -324,7 +324,7 @@ And so you can actually write out the API the way you kind of think of using thi
 
 **Jerod Santo:** It's like that old adage, "How do you eat an elephant? One bite at a time." I think that's the way it goes. But that's really what the hard problems are, right? Like, "How am I going to eat this elephant, for instance?" A big thing, that's tough and all these -- and it's like, well, momentum, right? You've got to get started. And I really like the top-down approach for this that you described, because the details are where the difficulty is, but your end goal and your starting place are actually relatively straightforward to define. In fact, if you can't define your end goal, then you've got some other thinking to do, right?
 
-\[00:40:20.16\] I've done a lot of client work where that's a lot of the conversation I have with them, is they're describing this problem or this solution, or whatever they're describing to me, and I have to either derive from them or have them explicitly state, "Well, let's forget all of this stuff you're saying. What exactly do you want it to do?" That's your outputs, right? Your inputs and your outputs. And if you can define well your outputs, what are you trying to accomplish? What's the goal of this hard problem? You know what your inputs are because you're already there. That's where you stopped, right? You stopped at your inputs, and you know your end goal, and now you have something that's tangible. Like you said, that's momentum. And you can go from there. Now the solution in between - it's going to be a long and winding road. You may find out, actually, there was some other way of attacking it that made it into an easy problem. But you're going to find that along in the journey. But if you don't know where you are and where you're going, then the rest of it is not procrastinating, it's actually just like mindless wandering. There's no good end to that.
+\[40:20\] I've done a lot of client work where that's a lot of the conversation I have with them, is they're describing this problem or this solution, or whatever they're describing to me, and I have to either derive from them or have them explicitly state, "Well, let's forget all of this stuff you're saying. What exactly do you want it to do?" That's your outputs, right? Your inputs and your outputs. And if you can define well your outputs, what are you trying to accomplish? What's the goal of this hard problem? You know what your inputs are because you're already there. That's where you stopped, right? You stopped at your inputs, and you know your end goal, and now you have something that's tangible. Like you said, that's momentum. And you can go from there. Now the solution in between - it's going to be a long and winding road. You may find out, actually, there was some other way of attacking it that made it into an easy problem. But you're going to find that along in the journey. But if you don't know where you are and where you're going, then the rest of it is not procrastinating, it's actually just like mindless wandering. There's no good end to that.
 
 **Frank Krueger:** Yeah.
 
@@ -346,7 +346,7 @@ And so you can actually write out the API the way you kind of think of using thi
 
 **Frank Krueger:** The whole series was about Richard Hendricks and this algorithm, "My algorithm", right? And I think it was in like episode one or two by the time \[unintelligible 00:43:51.01\] But they did it as a group, and it was fun. So talking about fun and momentum - that made me think about them and solving this algorithm problem. They did as a group. And it was only because they're such fun characters, I guess. I mean, obviously it's TV, so it's not real, so to speak, but it's based on possible reality. I'm just curious, does this translate from individual developer to how you think and get progress yourself, to a one-person team, to a two or three or four? How does this translate to groupthink?
 
-**Frank Krueger:** \[00:44:26.15\] Well, it's been literally ten years since I've worked on a properly big team, but I would say it still applies just fine, because you get an issue assigned to you, and your boss or someone's expecting you to fix that issue, unless your company is purely people doing whatever they want. There's usually some level of organization, some task has been assigned to you, and so you would apply this general procedure to that task.
+**Frank Krueger:** \[44:26\] Well, it's been literally ten years since I've worked on a properly big team, but I would say it still applies just fine, because you get an issue assigned to you, and your boss or someone's expecting you to fix that issue, unless your company is purely people doing whatever they want. There's usually some level of organization, some task has been assigned to you, and so you would apply this general procedure to that task.
 
 What you benefit from in a large company is when you get stuck on any part of it, you can go talk to a coworker and be like, "Hey, I made it this far. Help me get over this next little hurdle." That's the benefit there. It's something I'm jealous of, being an individual worker, because if I run into a hard problem, especially in a field where I don't have close friends that are also in that same field - so, well, I'm just up a creek without a paddle... Whereas at a company, you're surrounded by smart people.
 
@@ -358,7 +358,7 @@ So this is kind of like a programmer's way of saying "Break it down into small p
 
 So once you're there, then you're going to have what you call in step seven, 80% solution, with a few pesky functions left, right? And those pesky ones are the hard part. And then you say from there, "Okay, now it's time to go out to the interwebs, see what other people have done..." In your case for this algorithm, you've found this Python project. You're not going to pull it in, but maybe you'll just read their code and see how they implement it, and see if you can port some of that, or at least get inspired by some of that, to solve those very last heart problems.
 
-\[00:47:41.29\] Now, I don't work in large teams either. I have worked in teams though. And I will say that this process is very teamwork-oriented, or it can be, because every step along the way -- I mean, you could whiteboard this thing up until the point where you're implementing those individual functions, right? So you can write down this on a whiteboard, you can name them like functions, you can say, "Alright, what other steps do we have? Maybe I missed one. I thought of three", and then somebody else thinks of, "Oh, don't forget, there's this other step." And so this could very much be done in a collaborative way, which would probably get you there faster, better than you would by yourself, without getting blocked, until you get to the point where you are implementing individual functions. Then just one person's like, "Well, go write the auth, Jerod, while I do this algorithm part, or this shader." And so I think that while it is written with you by yourself in mind, I think that it definitely is the kind of process that you can do as a team, and have a lot of success.
+\[47:41\] Now, I don't work in large teams either. I have worked in teams though. And I will say that this process is very teamwork-oriented, or it can be, because every step along the way -- I mean, you could whiteboard this thing up until the point where you're implementing those individual functions, right? So you can write down this on a whiteboard, you can name them like functions, you can say, "Alright, what other steps do we have? Maybe I missed one. I thought of three", and then somebody else thinks of, "Oh, don't forget, there's this other step." And so this could very much be done in a collaborative way, which would probably get you there faster, better than you would by yourself, without getting blocked, until you get to the point where you are implementing individual functions. Then just one person's like, "Well, go write the auth, Jerod, while I do this algorithm part, or this shader." And so I think that while it is written with you by yourself in mind, I think that it definitely is the kind of process that you can do as a team, and have a lot of success.
 
 **Frank Krueger:** Yeah. I like your whiteboard analogy. I wish I used mine more. I tend to draw on it and then leave what was up there for far too long. The old advice used to be "Write pseudo code", but who's got time for pseudo code? That's kind of pointless. \[laughter\] I mean, that's just silly. Our modern programming languages are high-level enough that we don't have to worry about low-level stuff. We can focus on the algorithm, moving data around, that kind of stuff. So don't get bogged down in those kind of details. And yeah, especially if you're a company, you can ask for help.
 
@@ -370,17 +370,17 @@ I don't think that you should just go in there and pull in libraries all the tim
 
 **Frank Krueger:** Well, it's also neat to see it from a few perspectives. Going back to that LiDAR scanning problem I mentioned - a big step of that is the marching cubes algorithm, which turns voxels into a mesh. And it's a pretty standard algorithm. There is one standard form of it, and then there is an improved form of it. Everyone implements the improved form of it. But it's a little bit of hard code to read. It's just written a little bit funny. I think the original is in C, but it's a funny dialect to see... And it's really fascinating to see other people's translations of it into other languages. You can tell they copied it, but they modified it a little bit. And so I would look at the JavaScript version of it, the Python version of it, the C++ version of it, all these just to get a general, "Oh, okay, this how it works, and this is how I'm going to make my version", yet another variant on it. But again, that's almost rote work, too.
 
-\[00:52:12.29\] I worked on that code because I was pretty confident I could find resources for it, when I was ignoring a much harder problem, which is the image registration, where all the images have to line up... Because that's a much, much harder problem than this other one that's been a known technique since the 1980s. And so it was fun to just spend a couple days working on a 1980s algorithm while I percolated the thoughts in my head for the other one.
+\[52:12\] I worked on that code because I was pretty confident I could find resources for it, when I was ignoring a much harder problem, which is the image registration, where all the images have to line up... Because that's a much, much harder problem than this other one that's been a known technique since the 1980s. And so it was fun to just spend a couple days working on a 1980s algorithm while I percolated the thoughts in my head for the other one.
 
 **Jerod Santo:** It's like a whole new level. It's like, there's one level, which is "This is hard for me", and then there's another level which like, "This is hard for humanity", or this is an unknown thing that maybe somebody's solved it in some lab or inside some proprietary company somewhere. But there are problems where you're not going to find them out there on GitHub or - what is it called? The archive with the X in there?
 
 **Frank Krueger:** Archive with the X, yeah. Any paper.
 
-**Break:** \[00:53:07.22\]
+**Break:** \[53:07\]
 
 **Adam Stacoviak:** We're kind of back to some psychological type things too, because whenever you have a challenge just generally as a human, it's often perspective that can give you that shift to see things differently. And I've heard it be said, if you're familiar with cameras and focal lengths, you might have a wide angle lens, like a 12 millimeter or 20 millimeter, that gives you a wider point of view... However, when you go into portrait mode or something like that, you might go to like an 85 mill, or something like that that's got a longer lens.
 
-The point is, is if you look at the image that comes out of each of those lens types, which is basically perspective, it's zooming into micro and zooming out to macro. It's that perspective shift, because when you see something from somebody else's perspective, like in this case in particular, like Python or a different language, you get to see -- and I think that's what we do here with this show, too; we've never been like a camp type show. We cover Ruby, or C, or only particular languages, only particular camps, because it's always about, okay, at large, how we solve this problem with code or with programming. And being able to see how somebody might do it in JavaScript or a different language is like, okay, their constraints are X. They did this for this reason. They also have Npm, this massive registry with millions and millions of developers pouring into it. So because of that, they can do this, this and this. Whereas here, you don't have that ability or constraint. And so you do it this way, you write it all yourself etc.
+The point is, is if you look at the image that comes out of each of those lens types, which is basically perspective, it's zooming into micro and zooming out to macro. It's that perspective shift, because when you see something from somebody else's perspective, like in this case in particular, like Python or a different language, you get to see -- and I think that's what we do here with this show, too; we've never been like a camp type show. We cover Ruby, or C, or only particular languages, only particular camps, because it's always about, okay, at large, how we solve this problem with code or with programming. And being able to see how somebody might do it in JavaScript or a different language is like, okay, their constraints are X. They did this for this reason. They also have npm, this massive registry with millions and millions of developers pouring into it. So because of that, they can do this, this and this. Whereas here, you don't have that ability or constraint. And so you do it this way, you write it all yourself etc.
 
 So I think perspective shifting like that really gives you a leg up, because as you said before, stand on the shoulder of giants; get somebody else's perspective who's been down that road a bit before, and translate it to your particular need. You say yet another, but if it's an iOS app and it's not open source, then yet another is just fine, right? It's a bespoke specific need you have, so why not yet another, right?
 
@@ -414,7 +414,7 @@ I actually had to refer back to the Dragon Book. Do you know what the dragon boo
 
 **Frank Krueger:** By copying a wizard spell, but yeah. \[laughs\] But I realized the wizard spell worked. Yeah, I was very \[unintelligible 01:01:20.18\]
 
-**Jerod Santo:** So this is a related question; a little bit off topic, but I thought about it because Adam started talking about Npm, and we're talking about finding solutions and being comfortable with other people's code. I'm curious what your appetite is for dependencies. It seems like you're probably the kind of guy who's like more on the "not invented here" side of the spectrum, where you probably implement most of those things yourself. But I'm curious, when do you pull in like a third party library or a dependency? Are there use cases where you're happy to do that, or do you pretty much write it all yourself?
+**Jerod Santo:** So this is a related question; a little bit off topic, but I thought about it because Adam started talking about npm, and we're talking about finding solutions and being comfortable with other people's code. I'm curious what your appetite is for dependencies. It seems like you're probably the kind of guy who's like more on the "not invented here" side of the spectrum, where you probably implement most of those things yourself. But I'm curious, when do you pull in like a third party library or a dependency? Are there use cases where you're happy to do that, or do you pretty much write it all yourself?
 
 **Frank Krueger:** I honestly think I've hit maturity when I look first for someone else's solution. I don't always do that. I do tend to be -- I definitely lean towards the NIH side. I would say when I started my career, I was just completely NIH. I wanted to know how the universe worked, therefore I'd program the universe; I'd do everything from scratch. Nowadays, there's just no time for that. Our apps are so much bigger than old apps. You look at apps from the 1980s and the 1990s - they're so wee; they're tiny compared to what we're producing these days. The amount of libraries that we pull in, the amount of dependencies we pull in. For example, I use all of Apple's frameworks, every single one of them, all 5,000 of them. I use every line of code out of all of them.
 
