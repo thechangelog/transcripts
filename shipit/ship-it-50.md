@@ -30,7 +30,7 @@
 
 **Gerhard Lazu:** I'm really enjoying it, I have to say. It's been a year and it doesn't feel that it's been a year, which is really weird. I was looking at -- because every year I try to look at the themes... Like, what is still relevant, what is still with us. And looking back at the first episodes, I realized "Wow, some of those - it's been a year?!" It was like yesterday, it felt like, some of those conversations. Like, is it too soon to have some of those people back?
 
-\[00:04:05.25\] So this is one for the audience... In the 50 episodes, if there was one that you really enjoyed and you want that person to be back, or those people to be back, let us know I'll be more than happy to have them back, and I know that they will enjoy it too, because we had so much fun in every single episode.
+\[04:05\] So this is one for the audience... In the 50 episodes, if there was one that you really enjoyed and you want that person to be back, or those people to be back, let us know I'll be more than happy to have them back, and I know that they will enjoy it too, because we had so much fun in every single episode.
 
 **Adam Stacoviak:** And the easy way to do that is go to Changelog.com/request. You can do that for every show, not just this show. But in particular, Changelog.com/request. So request a be-back, as we call them. Who should be back?
 
@@ -56,7 +56,7 @@
 
 And then we also can tell Fastly how long we could do it. So there's multiple layers of caching here, and as we all know, cache invalidation is one of the hard problems of computer science... But we're just layering them on. It took a few days, but we ended up getting it fixed. I think in January we paid around $600 for S3, and that was the month that we turned it on, at the end of the month. So we were pacing to spend about 2k a month on S3. And then after the changes in February we paid $92.85, and March it's down to $44.20. And we don't have April's bill yet. So we're expecting around $50 a month for S3, which is totally reasonable and sustainable. Whereas $2,000/month, for the size of our business, was not.
 
-**Adam Stacoviak:** \[00:08:09.09\] I would say thanks for kaizen too, because if we didn't have this kaizen kind of ritual, I would even say like a constraint, we would have asked that question when we got the bill.
+**Adam Stacoviak:** \[08:09\] I would say thanks for kaizen too, because if we didn't have this kaizen kind of ritual, I would even say like a constraint, we would have asked that question when we got the bill.
 
 **Jerod Santo:** Yeah, we would have.
 
@@ -120,7 +120,7 @@ And then we also can tell Fastly how long we could do it. So there's multiple la
 
 **Gerhard Lazu:** And I imagine that many people do the same thing. And that's why there's a lot of ranges being served. But still, it's a serious amount of traffic. So if we were holding the CDN wrong, we would really see that, as we did in the case of S3, where we were holding S3 wrong. I forget which one. Anyways, we were holding something wrong, or at least one thing wrong. So there's that.
 
-**Jerod Santo:** \[00:12:16.16\] Well, we're holding it right now, so that feels good.
+**Jerod Santo:** \[12:16\] Well, we're holding it right now, so that feels good.
 
 **Gerhard Lazu:** So we switched to Fly.io. That's our new origin. There's a nice story there. But I'm curious, when we did this migration from LKE to Fly.io, did you notice any change, Adam? Did the app behave any different? Do you push changes differently? What did you notice?
 
@@ -154,7 +154,7 @@ In terms of the app, I haven't hit any errors. I haven't noticed anything really
 
 And then if it detects not that, then it's like "Hey, just allow all. Don't index 22.changelog.com." And the way that dynamic robots.txt works requires the host header to sniff the origin domain; and we lost that in transition over to Fly, because we had to switch to -- do you remember what it was, the key? There was another exported header, something like that... Exported host, maybe?
 
-**Gerhard Lazu:** \[00:16:07.12\] Yeah. Exported host, that's right.
+**Gerhard Lazu:** \[16:07\] Yeah. Exported host, that's right.
 
 **Jerod Santo:** And so we began, after the Fly migration, to block Google from indexing our entire website. So that's not good... \[laughs\] And it didn't actually affect our search traffic for a while. I think maybe Google just takes a while to actually do its thing... And then eventually, Adam noticed that it did, and I dug in there and got that fixed. So that was not great... And I almost think that it's the way I coded it. If I could code it open by default, but then closed if you detect the abnormal circumstance, I think it would have been fine. But that's a lot harder, because then we had to have a list of domains, of subdomains that we detect, and the way I did it was like "Closed by default, but open if I detect the right origin", and that busted. So... Fixed, but that was definitely like a --
 
@@ -170,7 +170,7 @@ So the idea being these improvements make a lot of sense. I wish we knew about t
 
 So one thing which I noticed today as I was editing episodes - this is as an end user - I noticed that I had to save an episode multiple times to see a change. So I was doing some edits, episode 49, save, refresh the page - the changes weren't there. I thought it was caching. But then I was by-passing Fastly, I went directly to the origin. So it's a nice way to be able to rule the CDN out, and everything's still working.
 
-\[00:19:46.10\] And for some reason, the page was not updating. And only when I saved it again, the second time, even though nothing changed, then it updated. It might be the app. Maybe. I don't know. Maybe Jerod knows there's like some caching, something happening... Because the one component which is new, that we didn't have before, is now we have the Fly proxy. The Fly proxy is the equivalent of the Ingress NGINX, and I'm not sure how that behaves, because we don't have any logs from it. That's like a request, and we'll talk to Mark about it... But we can't see what's happening. That proxy layer is like an invisible component, so maybe this is something happening at that layer, but we don't see that.
+\[19:46\] And for some reason, the page was not updating. And only when I saved it again, the second time, even though nothing changed, then it updated. It might be the app. Maybe. I don't know. Maybe Jerod knows there's like some caching, something happening... Because the one component which is new, that we didn't have before, is now we have the Fly proxy. The Fly proxy is the equivalent of the Ingress NGINX, and I'm not sure how that behaves, because we don't have any logs from it. That's like a request, and we'll talk to Mark about it... But we can't see what's happening. That proxy layer is like an invisible component, so maybe this is something happening at that layer, but we don't see that.
 
 **Jerod Santo:** I haven't experienced that, but I would say that's definitely not in the app. I think we've used the app extensively at this point. I've never seen that, so I would think that's probably infrastructure. And the code around \[unintelligible 00:20:35.07\] hasn't changed for years, so I would expect that to be infra.
 
@@ -198,7 +198,7 @@ Now, the other thing which we changed is we removed shielding. So we no longer h
 
 **Gerhard Lazu:** Exactly, yeah. Before we weren't hitting Ingress NGINX as much as we were hitting the Fly proxy. So that's the one thing. But again, I suspect that if we had more details from the Fly proxy, we would be able to tell, because that's like one blind spot that we don't see, or one component that we don't see.
 
-**Break:** \[00:22:30.12\]
+**Break:** \[22:30\]
 
 **Gerhard Lazu:** Okay, so you must be wondering why did we really need to migrate off Kubernetes... Because I have been talking about Kubernetes for like 49 episodes, and now all of a sudden I'm telling you "What?! We've switched from Kubernetes." \[laughter\] And it's not because Simi asked, just to be clear. Simi asking "Why don't we use a PaaS?" - it just so happened that it fit.
 
@@ -234,7 +234,7 @@ So the Why, from my perspective, is we desire great and deep relational partners
 
 **Gerhard Lazu:** That's a good one. That hit some really important aspects. For me it was a couple of things. One recent one - Kelsey was mentioning about having a managed PostgreSQL, and I was thinking "Yeah, why don't we do that? Why don't we just go and get a managed PostgreSQL from somewhere?"
 
-\[00:28:02.06\] I know that we talked about CockroachDB for a while, but the change is too big. I remember Jerod pushing a little bit back on that... Like, "Is there something smaller that we can do as a first step?" So Linode, and I think MySQL is in private, or it was in private beta when I last looked at it; maybe it has not been made available more widely, in more locations... But they didn't have, and they still don't have PostgreSQL today. And that may seem like a small thing, but we did have quite a few issues with PostgreSQL, and we had downtime because of it, we went to Kubernetes operators, and... It's just a complex problem which - should we really be spending any time on? And the answer is no. Kelsey put it very nicely in episode 44 why we shouldn't do that... And it really got me thinking. Like, what is the hold-out? Why are we doing this? So that was one thing. The other thing was the forced migration. I really did not like that, I have to say.
+\[28:02\] I know that we talked about CockroachDB for a while, but the change is too big. I remember Jerod pushing a little bit back on that... Like, "Is there something smaller that we can do as a first step?" So Linode, and I think MySQL is in private, or it was in private beta when I last looked at it; maybe it has not been made available more widely, in more locations... But they didn't have, and they still don't have PostgreSQL today. And that may seem like a small thing, but we did have quite a few issues with PostgreSQL, and we had downtime because of it, we went to Kubernetes operators, and... It's just a complex problem which - should we really be spending any time on? And the answer is no. Kelsey put it very nicely in episode 44 why we shouldn't do that... And it really got me thinking. Like, what is the hold-out? Why are we doing this? So that was one thing. The other thing was the forced migration. I really did not like that, I have to say.
 
 **Jerod Santo:** Say more about that.
 
@@ -252,7 +252,7 @@ So to cut the long story short, this forced upgrade was not nice, and asking lik
 
 **Adam Stacoviak:** Well, I wanna throw one thing in there too, because I think this is part of the frustrations we have... Because if we had a deeper partnership at the nerd-out level, this may not have been quite a problem. Because if you have empathy from your partner - and I'm not saying that Linode is bad; I'm not trying to say they're bad. We just didn't have that kind of access, which was what we desired. And that's why working with Fly makes sense; that's why this Why makes sense to me... Because if we had that, if we could say "Here's our challenge. We're in the middle of something else. We can't make this, and this forced upgrade is really \[unintelligible 00:32:12.20\] abilities right now."
 
-\[00:32:17.19\] Well, if you have that deeper-level partnership, that deeper-level access to those who can not force you to upgrade, then there might be an easy yes... Because we had like zero empathy. It was just support. We didn't have an advocate for us, technically, inside of Linode, having our back. And that to me is challenging, because we desire to partner at that level, because of this show and what we do. That's why it makes sense for us. So if we had that, it may have been a different story. We may not have gotten curious to go and say "Well, maybe this PaaS makes more sense." We really desire just that deeper partnership, and that's what we have now.
+\[32:17\] Well, if you have that deeper-level partnership, that deeper-level access to those who can not force you to upgrade, then there might be an easy yes... Because we had like zero empathy. It was just support. We didn't have an advocate for us, technically, inside of Linode, having our back. And that to me is challenging, because we desire to partner at that level, because of this show and what we do. That's why it makes sense for us. So if we had that, it may have been a different story. We may not have gotten curious to go and say "Well, maybe this PaaS makes more sense." We really desire just that deeper partnership, and that's what we have now.
 
 I'm sure if there was something happening on the Fly platform in the next year, and it was gonna -- you know, there would be some workaround. We would have some sort of handholding, some sort of guidance, some sort of empathy and forgiveness in the process.
 
@@ -270,7 +270,7 @@ When it came to Ansible, I was along for the ride. When it came to Concourse CI,
 
 **Gerhard Lazu:** That is a big one, because what I'm hearing is I did not build the platform that Jerod needs... For obvious reasons. \[laughter\] So is there one that we could use, that would work? And Fly definitely fits that bill.
 
-\[00:35:49.04\] But just to mention -- again, the additive, to keep that point of view, to what Adam said. The interaction that we had with Fly was amazing. We had the Slack channel, we were able to talk to Kurt, we were able to talk to Mark, and I think Joshua... There was someone else, and I forget their names, but everyone was so helpful. Everyone was there. We had an issue, and it was fixed the next day. And this was like a genuine issue on the platform. So they are iterating --
+\[35:49\] But just to mention -- again, the additive, to keep that point of view, to what Adam said. The interaction that we had with Fly was amazing. We had the Slack channel, we were able to talk to Kurt, we were able to talk to Mark, and I think Joshua... There was someone else, and I forget their names, but everyone was so helpful. Everyone was there. We had an issue, and it was fixed the next day. And this was like a genuine issue on the platform. So they are iterating --
 
 **Adam Stacoviak:** There's even comments on the PR from Kurt, you know?
 
@@ -294,9 +294,9 @@ Now, again, just to be clear, it was not a Fly.io issue. It had nothing to do wi
 
 **Gerhard Lazu:** So we had all this plan, all the steps, and I had even like an incident running... It's all there. you can check out PR 407. And just like when we were adding the Fly origin into the Fastly config, everything blew up. And what I mean by that - the requests that were not cached - they were trying to be served from AWS S3. So admin pages, and news impressions, and any dynamic content was getting 404s because AWS S3 did not have that resource. That's how it was behaving. I'm like, "What is going on?! The config looks good... This makes no sense."
 
-So what was the problem? The problem was a VCL misconfiguration. This was in Fastly configs. One of the subroutines was getting terminated before the backend was being set, and I'm still not clear whether that was the actual issue why... Because we have 12,000 lines of VCL config, 11.5k is just gibberish, because it's all the origins, all the various shields, and only 500 is the actual config... So we're having to do some vimming, remove a lot of lines... And then it's like spaghetti code; you look at it... Why? Because it's generated via click ops, right? You click through a UI --
+So what was the problem? The problem was a VCL misconfiguration. This was in Fastly configs. One of the subroutines was getting terminated before the backend was being set, and I'm still not clear whether that was the actual issue why... Because we have 12,000 lines of VCL config, 11.5k is just gibberish, because it's all the origins, all the various shields, and only 500 is the actual config... So we're having to do some vimming, remove a lot of lines... And then it's like spaghetti code; you look at it... Why? Because it's generated via ClickOps, right? You click through a UI --
 
-**Jerod Santo:** This is why robots are not gonna take over our jobs any time soon, because that's what they generate, is 12,000 lines, and we have to go wading through it as humans to figure out what spaghetti code that click ops generated. And it's crazy how much junk was in there.
+**Jerod Santo:** This is why robots are not gonna take over our jobs any time soon, because that's what they generate, is 12,000 lines, and we have to go wading through it as humans to figure out what spaghetti code that ClickOps generated. And it's crazy how much junk was in there.
 
 **Gerhard Lazu:** Yup, that's right. And it's still is. That has not been fixed.
 
@@ -306,7 +306,7 @@ So what was the problem? The problem was a VCL misconfiguration. This was in Fas
 
 **Jerod Santo:** Yeah. And so Gerhard, you and I are sitting there, trying to determine -- this is like when you're knee-deep in a long debug session and you're thinking, "Okay, is it because of the order in which we entered these domains, these origins?" "No, it's not that. Because of this." "Is it alphabetical?" You start wondering, "Is it ordering by alphabetical?" And it's like, "Oh, it looks like it is. Oh, no. There's a case where it's actually not alphabetical." We couldn't figure out exactly what it was, but we did figure out a workaround... \[laughs\]
 
-**Gerhard Lazu:** \[00:40:11.08\] What was the AI thinking when it generated this VCL...? \[laughter\] \[unintelligible 00:40:13.13\] some automation, and it was so difficult...
+**Gerhard Lazu:** \[40:11\] What was the AI thinking when it generated this VCL...? \[laughter\] \[unintelligible 00:40:13.13\] some automation, and it was so difficult...
 
 **Jerod Santo:** Yes. Like backend procedural code, for sure.
 
@@ -380,7 +380,7 @@ So what was the problem? The problem was a VCL misconfiguration. This was in Fas
 
 **Gerhard Lazu:** Sure.
 
-**Adam Stacoviak:** \[00:44:03.06\] You shared the Fastly integration, the issue, they captured it - which is all out there - and Kurt's response was "That is a very large VCL. Wow." And y'all talked back and forth about bandwidth and whatnot, and just how challenging it is to deal with VCL, and in particular how big that one was, which you all commented on already, which is click ops, lots of lines, not very human-readable... We're not gonna be replacing it anytime soon.
+**Adam Stacoviak:** \[44:03\] You shared the Fastly integration, the issue, they captured it - which is all out there - and Kurt's response was "That is a very large VCL. Wow." And y'all talked back and forth about bandwidth and whatnot, and just how challenging it is to deal with VCL, and in particular how big that one was, which you all commented on already, which is ClickOps, lots of lines, not very human-readable... We're not gonna be replacing it anytime soon.
 
 **Jerod Santo:** Now, to Fastly's credit, and to whomever engineer-coded that backend, when you turn shielding off it gets a lot simpler. So the VCL that's generated without shielding is dramatically shorter. So it's not like every VCL that Fastly generates is gonna be inscrutable, it's just that ours was. Or anybody who has shielding turned on is. And probably most people do, so... Your mileage may vary, but... Apparently, setting up a shield for POPs all around the world is complicated. It's got a lot of instructions for a lot of circumstances.
 
@@ -398,7 +398,7 @@ Our desire is to come to this mix and say "Okay, here's some amazing picks. Here
 
 **Gerhard Lazu:** I remember that was one of the key reasons why we started Ship It, and we were thinking like "Do we have something here?" And that was one of the pillars on which Ship It was built. We think we can do amazing things for companies out there by simply using them, and by partnering with them, and it goes beyond being a partner of the show, like sponsoring a show; it really does. We'll use your stuff, we'll tell you where the blind spots are... We will tell you the things that you're missing. And it's just one perspective; we're not the final word in how to design systems and how to improve systems, but it's yet another data point, and we're a patient one. The code is there; we try these things, we have all the redundancies in place, we have a resilient system. It won't break. And we ourselves are trying to improve along the way.
 
-**Adam Stacoviak:** \[00:48:17.06\] And our closed open source - when you say "Okay, how does it integrate with a well-tuned application that's in production, that's also open source, that you can read the source code, permissively too? You can copy some of the code." What's our license, Jerod? Remind me. It's like, "Hey, take it if you want."
+**Adam Stacoviak:** \[48:17\] And our closed open source - when you say "Okay, how does it integrate with a well-tuned application that's in production, that's also open source, that you can read the source code, permissively too? You can copy some of the code." What's our license, Jerod? Remind me. It's like, "Hey, take it if you want."
 
 **Jerod Santo:** MIT.
 
@@ -406,7 +406,7 @@ Our desire is to come to this mix and say "Okay, here's some amazing picks. Here
 
 **Gerhard Lazu:** Very well put.
 
-**Break:** \[00:49:26.05\]
+**Break:** \[49:26\]
 
 **Gerhard Lazu:** So I really like the journey, and I'm wondering where are we going next. You can already tell, as a kaizen listener, that this is towards the end of this episode. So what is going to happen next? I'm very curious about that. There's a couple of things which I have on my list, but maybe we can start with Adam first? Or no. You know what - let's do in the reverse alphabetical order. Jerod first.
 
@@ -420,7 +420,7 @@ Our desire is to come to this mix and say "Okay, here's some amazing picks. Here
 
 **Gerhard Lazu:** ...and Kurt will be listening, for sure, and others as well... Go for it.
 
-**Jerod Santo:** I like this platform. It has a kernel of something amazing. There's a lot of missing things that I would like to have, as an old Heroku fan boy from way back. And the main one, for now, that I think is top of my list is like "Hey, how can we work with Postgres better?" Because right now it's like -- well, you work with it... There's a simplicity of like "Well, you basically SSH in and just do what you would do." \[unintelligible 00:52:51.14\] Familiar tools. It's like your own little shell there, do your own thing. But I would love to have automated backups, and things that you can just click a button... Give me some click ops. Let me check the button that says "Manage my Postgres backups, and allow me to do things --" A lot of the stuff that Heroku built out over time, Fly is missing.
+**Jerod Santo:** I like this platform. It has a kernel of something amazing. There's a lot of missing things that I would like to have, as an old Heroku fan boy from way back. And the main one, for now, that I think is top of my list is like "Hey, how can we work with Postgres better?" Because right now it's like -- well, you work with it... There's a simplicity of like "Well, you basically SSH in and just do what you would do." \[unintelligible 00:52:51.14\] Familiar tools. It's like your own little shell there, do your own thing. But I would love to have automated backups, and things that you can just click a button... Give me some ClickOps. Let me check the button that says "Manage my Postgres backups, and allow me to do things --" A lot of the stuff that Heroku built out over time, Fly is missing.
 
 The other thing which I think is smart, but I hate it, is the way they do secrets... Which is like 100% encrypted there. You can set them, but you can't read them. I understand why, but... Come on, man. Just show me my secrets. I need to know what they are. \[laughs\]
 
@@ -440,7 +440,7 @@ Those are just a couple things... I think Fly improvements - I'm looking forward
 
 **Gerhard Lazu:** Fly does things differently when it comes to applications starting up. So that lifecycle - and this was one of the issues with Heroku as well; you didn't have those nice hooks to put into them, like for example init. \[unintelligible 00:55:22.08\] All that is just like a bit -- I know it's the detail that the majority doesn't care about, but for us it's really important, like how can we trigger, for example, a backup before we run a migration? Or if an app crashes, can we save the crash dump somewhere, the Erlang crash dump? And things like these, that especially when you're so deeply integrated with Phoenix and Elixir as Fly is, we should have those things... Because they are first-class in Erlang, Elixir and Phoenix. That's one right there.
 
-**Jerod Santo:** \[00:55:56.22\] So I like that I can do Fly logs, like I used to do Heroku logs --tail, and right there, easy to get at my logs. I would also like those to be in Honeycomb, so that we can query them later.
+**Jerod Santo:** \[55:56\] So I like that I can do Fly logs, like I used to do Heroku logs --tail, and right there, easy to get at my logs. I would also like those to be in Honeycomb, so that we can query them later.
 
 **Gerhard Lazu:** Oh, yes.
 
