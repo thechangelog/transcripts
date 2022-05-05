@@ -88,7 +88,7 @@ Marco's been here just over two years, I believe, and has worked predominantly o
 
 **Tom Wilkie:** Wow. That sounds pretty amazing. I think you mentioned high scalability. What does that mean, where does that come from? What is high scalability?
 
-**Marco Pracucci:** \[00:03:55.09\] Yeah, sure. We are seeing an increasing number of customers needing massive scale when it comes to collecting query data metrics... And we see this growing need across the industry to scale to a number of metrics which just a couple of years ago were unimaginable. To mention the scale at which we have run and we are running Grafana Mimir, we are talking about more than a billion active time series for a single customer.
+**Marco Pracucci:** \[03:55\] Yeah, sure. We are seeing an increasing number of customers needing massive scale when it comes to collecting query data metrics... And we see this growing need across the industry to scale to a number of metrics which just a couple of years ago were unimaginable. To mention the scale at which we have run and we are running Grafana Mimir, we are talking about more than a billion active time series for a single customer.
 
 **Tom Wilkie:** A billion?
 
@@ -150,7 +150,7 @@ Marco's been here just over two years, I believe, and has worked predominantly o
 
 A shard actually is a set of series. So what we're gonna do is we're gonna actually execute PromQL on a set of selected series; for instance, we're gonna use \[unintelligible 00:07:32.12\] and each of them will only work on one sixteenth of the data, and then we're gonna recombine the data back on the frontend, and you're gonna be able to split up the query by 16 or 14, apparently.
 
-**Tom Wilkie:** \[00:07:52.05\] So I think in that brief intro to Mimir we've used a lot of pretty technical terms, and things the audience may not be familiar with. So should we take a step back now and maybe talk about some of the shoulders we're standing on? Mat, as the non-technical person in the audience, which of these terms do you think we should cover first?
+**Tom Wilkie:** \[07:52\] So I think in that brief intro to Mimir we've used a lot of pretty technical terms, and things the audience may not be familiar with. So should we take a step back now and maybe talk about some of the shoulders we're standing on? Mat, as the non-technical person in the audience, which of these terms do you think we should cover first?
 
 **Mat Ryer:** Well, thank you for reducing my entire career down to nothing...
 
@@ -184,7 +184,7 @@ Then Prometheus allows you to query back this data, those metrics, using the Pro
 
 So you also mentioned, at the beginning - and this is a bit of a weird question to ask... You mentioned Cortex. Marco, what's Cortex?
 
-**Marco Pracucci:** \[00:12:04.17\] Cortex is an open source project which actually started at WeWorks, and then after some time it was open-sourced and donated to CNCF. It's a horizontally-scalable version of Prometheus. The idea of Cortex is not to replace Prometheus, but to extend Prometheus. Basically, you keep running Prometheus, scraping metrics from your applications, but then you configure Prometheus to remote-write, to push those metrics to Cortex. And Cortex is your centralized, highly-available, horizontally-scalable, durable storage for all your metrics.
+**Marco Pracucci:** \[12:04\] Cortex is an open source project which actually started at WeWorks, and then after some time it was open sourced and donated to CNCF. It's a horizontally-scalable version of Prometheus. The idea of Cortex is not to replace Prometheus, but to extend Prometheus. Basically, you keep running Prometheus, scraping metrics from your applications, but then you configure Prometheus to remote-write, to push those metrics to Cortex. And Cortex is your centralized, highly-available, horizontally-scalable, durable storage for all your metrics.
 
 **Tom Wilkie:** Why would I wanna do that? Why would I wanna push my metrics out of Prometheus to a central place?
 
@@ -204,7 +204,7 @@ Another one is having a long-term storage. Now, to store a large amount of metri
 
 **Cyril Tovena:** Thanos is actually the same idea as Cortex, but not for the same type of user, in my opinion. I think Thanos also allows you to be able to query across multiple clusters, but it works a bit differently than Cortex. At the beginning, I think Cortex was already multi-tenant, Thanos wasn't at the beginning, so it wasn't really designed for building a SaaS product, for instance.
 
-\[00:15:59.12\] Another difference is also the deployment model is way different. In Cortex you need to spin up all the components that are part of the architecture to run Cortex. In Thanos you can actually go incremental. So it's a bit easier. You can only add the cheaper, for instance, and you can only add the component at the edge.
+\[15:59\] Another difference is also the deployment model is way different. In Cortex you need to spin up all the components that are part of the architecture to run Cortex. In Thanos you can actually go incremental. So it's a bit easier. You can only add the cheaper, for instance, and you can only add the component at the edge.
 
 So the big difference is Cortex is centralized, and Thanos is more working on the edge. So when you wanna query, it will actually connect to all your \[unintelligible 00:16:31.13\] and then it will aggregate back the results on the Thanos receiver, I think...
 
@@ -240,7 +240,7 @@ So nowadays the two projects are very similar, and it's quite difficult to find 
 
 **Marco Pracucci:** Sure. We have found different limitations. First of all, to understand these limitations, we need to understand how the data is stored. Both Cortex and Thanos, and also Mimir, use Prometheus TSDB to store the metrics data in the long-term storage. Basically, Prometheus TSDB partitions data by time, and for a given period of time the data is stored into a data structure which is called a block. And again, inside the block we have an index used to query this data, and the actual time series data, so the actual samples, which are compressed chunks of data.
 
-\[00:20:27.01\]Now, we have found some limitations -- well, they are well-known limitations in the TSDB index, like the index can't grow above 64 gigabytes, or even inside the index there are multiple sections, and each section, or some of those sections can't be bigger than four gigabytes... Basically, these look like very technical details, but at the end it means that you have a limit on how many metrics you can store for a given tenant, which typically translates for a given customer.
+\[20:27\]Now, we have found some limitations -- well, they are well-known limitations in the TSDB index, like the index can't grow above 64 gigabytes, or even inside the index there are multiple sections, and each section, or some of those sections can't be bigger than four gigabytes... Basically, these look like very technical details, but at the end it means that you have a limit on how many metrics you can store for a given tenant, which typically translates for a given customer.
 
 With Mimir, we have introduced a new compactor, which we call the Split and Merge Compaction Algorithm, which basically allows us to overcome those limitations. Instead of having one single block for a given time period for a customer - or a tenant, as we call it in Mimir - we split the data, we sharded the data into multiple blocks. And we can shard the data in as many blocks as we want, overcoming the single-block limitation or the single-block index limitation.
 
@@ -266,7 +266,7 @@ I'm still mentioning a single tenant, which is key in this context, because if y
 
 **Tom Wilkie:** I don't think we've ever mentioned k6 on this podcast. We haven't mentioned it yet, so you're the first one. What's k6?
 
-**Cyril Tovena:** \[00:24:10.26\] K6 is a load testing tool that we have now at Grafana. I think we acquired them last year or this year... So there's two products. There's one product which is the k6 CLI, where you can define a plan, that's often written in JavaScript, but we've created an extension for Cortex or Prometheus in Go... And it allows you to define a plan, and with the CLI we automatically load-test your application by running your test plan. So it could be a plan that sends metrics, but it could be also load-testing your shop website, or whatever... It's up to you to design the plan.
+**Cyril Tovena:** \[24:10\] K6 is a load testing tool that we have now at Grafana. I think we acquired them last year or this year... So there's two products. There's one product which is the k6 CLI, where you can define a plan, that's often written in JavaScript, but we've created an extension for Cortex or Prometheus in Go... And it allows you to define a plan, and with the CLI we automatically load-test your application by running your test plan. So it could be a plan that sends metrics, but it could be also load-testing your shop website, or whatever... It's up to you to design the plan.
 
 The other product is the k6 cloud, which takes the same plan - you actually don't need to modify anything, but it runs in the cloud and now you can actually scale your load tests \[unintelligible 00:24:55.26\]
 
@@ -350,7 +350,7 @@ I have another one that I use, which is github.com/matryer/is. And that is like 
 
 **Mat Ryer:** Yeah, it's still available. Available where you get your podcasts.
 
-**Break:** \[00:27:27.12\]
+**Break:** \[27:27\]
 
 **Mat Ryer:** So that's interesting, learning about Cortex and how this is solving that scalability problem. From an open source point of view, why didn't the Cortex thing just go into Prometheus?
 
@@ -372,7 +372,7 @@ I have another one that I use, which is github.com/matryer/is. And that is like 
 
 **Cyril Tovena:** Yeah, I think there's two axes for this answer. The first one is the metrics space is very competitive, and so I think we wanted to build a new project where we will be able to -- not specifically everyone was contributing to Cortex. We were the biggest maintainer and contributor. And I think our own project gives us more agility, but also it helps us to make sure that other competitors are not taking advantage of our work for free.
 
-\[00:32:05.20\] The other axis is we had a lot of also other features that we added close source, and we wanted to make them open source, and allow other people to be able to use and experiment with those features. It wasn't really possible without building a new project, with a different license. Otherwise it would just be giving away our work to our competitor.
+\[32:05\] The other axis is we had a lot of also other features that we added close source, and we wanted to make them open source, and allow other people to be able to use and experiment with those features. It wasn't really possible without building a new project, with a different license. Otherwise it would just be giving away our work to our competitor.
 
 **Marco Pracucci:** Yeah, I think it's fair to say that was a very difficult decision, and it's all about the trade-off. It's about finding a model which allows us to succeed commercially, while at the same time keeping most of our code open. And yeah, launching a new project, which is a first-party project, a new project at Grafana Labs, Grafana Mimir - we think that fits quite well in this trade-off, in this decision.
 
@@ -404,11 +404,11 @@ And then that other point that you make about bigger companies can sort of just 
 
 **Tom Wilkie:** And I guess the final question -- like, a lot of the features we've talked about adding to Mimir, a lot of the code we've built, I guess it's worth saying that we had done all of this before for our enterprise products and for our cloud products. A lot of these ideas were being built in closed source... And as a company, Grafana Labs, we really want these kind of things to be open source, and we're always trying to find ways to release them as open source. So partly, one of the reasons we've done Mimir is a way of getting the core technology that we've built out there, and in front of more people.
 
-**Marco Pracucci:** \[00:36:02.09\] Yeah, I think it's great you mentioned, because when we launched Mimir, a recurring question we got was "As a Cortex user or as a community user, can I jump on Mimir? Can I upgrade immediately? How stable is it?" And the cool thing is that the features we have released in Mimir are running in product since months at Grafana Labs, at any scale, from small clusters to very big clusters, including the one billion series cluster we've mentioned before. And that's why we have quite good confidence on the stability of this system, because it's already running since a long time.
+**Marco Pracucci:** \[36:02\] Yeah, I think it's great you mentioned, because when we launched Mimir, a recurring question we got was "As a Cortex user or as a community user, can I jump on Mimir? Can I upgrade immediately? How stable is it?" And the cool thing is that the features we have released in Mimir are running in product since months at Grafana Labs, at any scale, from small clusters to very big clusters, including the one billion series cluster we've mentioned before. And that's why we have quite good confidence on the stability of this system, because it's already running since a long time.
 
 **Mat Ryer:** Yeah. One of the things that really impressed me when I joined Grafana was this dedication to dogfooding things, so that you're not just building/imagining these use cases; they are our use cases, too. You know, when you scratch your own itch and solve your own problems like this, and also live with the consequences of the tech - anytime I've seen that, it makes the tech better, it makes the projects more usable; they solve the real problems. I think that's great, and I always encourage other companies to do that.
 
-And I also like it when there's an internal project where someone solves a problem, and then that becomes eventually something that can be open-sourced. I think that route to getting things out there is a great one, because like you say, Marco, it's tested, it works, we've been using it. You can sort of rely on it, which is pretty good.
+And I also like it when there's an internal project where someone solves a problem, and then that becomes eventually something that can be open sourced. I think that route to getting things out there is a great one, because like you say, Marco, it's tested, it works, we've been using it. You can sort of rely on it, which is pretty good.
 
 **Cyril Tovena:** It's battle-tested.
 
@@ -434,7 +434,7 @@ Now, blocks became the recommended way to run Cortex. Blocks is the only support
 
 **Mat Ryer:** Yeah, they're my favorite PRs... Especially when it's Tom's code that's being removed.
 
-**Tom Wilkie:** \[00:39:59.22\] Aw, that's a bit harsh, isn't it? Yes, I wrote the chunk storage...
+**Tom Wilkie:** \[39:59\] Aw, that's a bit harsh, isn't it? Yes, I wrote the chunk storage...
 
 **Mat Ryer:** Burn.
 
@@ -468,7 +468,7 @@ Another cool thing we have done in Mimir has been introducing a feature lifecycl
 
 **Mat Ryer:** Yeah, that's a problem I see at a lot of different places. I remember working on something where we added the ability to enable or disable something. Now, the ideal design would be enabled true, or false. That would be great. But because of the already-existing configs, we couldn't do that. So you end up being not enabled, or disable true, and so you end up with these strange things... But yeah, it is an important thing, and I'm really pleased it's in the fore of the minds of the engineers here, because sensible defaults make such a big difference, especially... Like, me - I'm not sure what I should configure it to. I kind of want it to just work initially, and then later, when I have a bit more of an understanding, or I see where it's not working for me, then maybe I tweak it.
 
-**Tom Wilkie:** \[00:44:05.15\] I think it's real v2 problems, right?
+**Tom Wilkie:** \[44:05\] I think it's real v2 problems, right?
 
 **Mat Ryer:** Yeah.
 
@@ -532,7 +532,7 @@ I was actually personally lobbying for Mjolnir, Thor's hammer...
 
 **Cyril Tovena:** We're also planning -- so I love query performance, that's why I'm going to talk about two query performance improvements that we wanna do in the future... So in Loki currently we are looking into splitting instant \[unintelligible 00:47:55.00\] like 30 days - that can be very slow, because as we were saying, it will actually be only split into just 16, the amount of shard... But we don't divide that into time, because it's just a single \[unintelligible 00:48:14.15\]
 
-\[00:48:19.25\] We do that in Loki right now, because Loki has -- you know, the amount of data for 30 days can be tremendous compared to the amount of sample you can have in metrics. So because we're doing that in Loki, then we can import it back into Mimir definitively... Again, because the licenses are the same, it's gonna be super-easy to do that.
+\[48:19\] We do that in Loki right now, because Loki has -- you know, the amount of data for 30 days can be tremendous compared to the amount of sample you can have in metrics. So because we're doing that in Loki, then we can import it back into Mimir definitively... Again, because the licenses are the same, it's gonna be super-easy to do that.
 
 And then when we worked on query sharding with Marco, we discovered a couple of problems and improvements that we want to do... It touches on TSDB itself, on PromQL or Prometheus itself, so we didn't do it straight away... But we want to make TSDB shard-aware, so being able to actually request \[unintelligible 00:49:00.12\] the data for a given shard from the beginning.
 
@@ -586,7 +586,7 @@ One of my big dreams around the project is to have the Mimir autopilot, and tryi
 
 **Tom Wilkie:** And my name is Tom Wilkie, thank you for listening to Grafana's Big Tent. I'll hopefully see you next time
 
-**Outro:** \[00:52:50.00\]
+**Outro:** \[52:50\]
 
 **Tom Wilkie:** You know, Mat actually recorded that himself.
 
