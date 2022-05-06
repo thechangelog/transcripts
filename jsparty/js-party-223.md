@@ -30,7 +30,7 @@
 
 **Nick Nisi:** And it has theming for both JS Party and Go Time, which is really awesome. But I wrote it in Dojo because that's what I was super-familiar with back then. I was kind of ramping back into React. It was just a fun -- a little project to play with that and get the gameboard built out based on a set of configurable options that you can pass in, so that you could develop these large JSON objects that define how the game is played... And Jerod is probably very familiar with that, because I think you've probably developed most of them...
 
-**Kevin Ball:** \[00:04:21.15\] Oh, large JSON objects... I've just heard someone describe React to me as just transforming JSON into pixels... And that's React.
+**Kevin Ball:** \[04:21\] Oh, large JSON objects... I've just heard someone describe React to me as just transforming JSON into pixels... And that's React.
 
 **Jerod Santo:** Right.
 
@@ -52,7 +52,7 @@ The other thing is Dojo has always been kind of considered this kitchen sink fra
 
 So it's just like set that all up in this object store that Dojo comes with, and you can then create these -- I'm completely forgetting the name of what you create, but there are like these executors that are ways of modifying those little pieces of the object in a way that is reactive, so that it'll trigger an update to the UI whenever those small pieces are updated... So if you wanna update a user, you'd pick the user and then have some way of filtering down to the exact user that you want if it's in an array, and then update their score, or mark a question as used. Those are kind of the two main updates that you'd have to do. But then it just gets rendered out.
 
-\[00:08:08.24\] And early days of it - I can't remember exactly where the conversation came about, but Jerod, you and I were talking about having that as like some cool demo project where we had it in like a number of different frameworks or implementations of it, just as a cool way to kind of play around with that... So when I decided to put together this talk, I was thinking of like a good application -- you know, I can't use my dayjob stuff in the talk, right? So I wanted some good application that I could use to kind of portray the concepts that I wanted to get across... And it was really actually a good, small, contained project, because it does have kind of a few different views. You have the main gameboard, you have a question view, you have a way to list contestants, a contestant view, and like a winner view. And then it's not just like a boring form... So like it has that appeal to it as well. It's more interesting.
+\[08:08\] And early days of it - I can't remember exactly where the conversation came about, but Jerod, you and I were talking about having that as like some cool demo project where we had it in like a number of different frameworks or implementations of it, just as a cool way to kind of play around with that... So when I decided to put together this talk, I was thinking of like a good application -- you know, I can't use my dayjob stuff in the talk, right? So I wanted some good application that I could use to kind of portray the concepts that I wanted to get across... And it was really actually a good, small, contained project, because it does have kind of a few different views. You have the main gameboard, you have a question view, you have a way to list contestants, a contestant view, and like a winner view. And then it's not just like a boring form... So like it has that appeal to it as well. It's more interesting.
 
 And then - yeah, you are dealing with this larger structure, and when I'm thinking about the state that I want to put together, and the talk that I was giving, which was kind of talking about XState specifically, it fit really well into a finite state machine... To where I had these finite states, but then I had an infinite number of questions that I could have, and how I deal with that... And then - yeah, it just seemed like a really good way to lay out those concepts.
 
@@ -72,7 +72,7 @@ And kind of the crux of the talk - it was a junior-level talk, kind of introduci
 
 **Nick Nisi:** That's a good question. It definitely could. There's some warts around -- well, specifically XState and React. There's some ways that I would like to do things that are a little bit harder because of -- I mean, I guess it's more of the way I set things up, but... I kind of treat XState as being this project that exists completely outside of React, meaning outside of any kind of React context, or anything like that... So all of the really cool projects and things that you wanna use in React, like hooks... The React Query specifically is like a really big one that I wanna be able to use, that I can't call from XState... Well, I kind of can, but it exists outside of there, so I can't just make hook calls. And in this project I haven't done anything too crazy with that, but in other projects I have done a couple of different iterations of things like setting up my own Pub/Sub listener to have a component that's only job is to listen for a publish to happen, and then do something in React land, because it can call hooks. And then I can just publish those out from the state machine and it'll update in the UI.
 
-**Jerod Santo:** \[00:12:44.01\] So how many, generally speaking, lines of code are we talking about? If somebody was like "Well, I'm a Vue advocate. I use Vue. I would love to do one of these in Vue", and then you have the Vue implementation alongside these other ones... Is that like a weekend project? Does that take like 40 hours and no one wants to do 40 hours for something this silly? What do you think would be the amount of work that would have to go into each version of this, if we were to have such a thing?
+**Jerod Santo:** \[12:44\] So how many, generally speaking, lines of code are we talking about? If somebody was like "Well, I'm a Vue advocate. I use Vue. I would love to do one of these in Vue", and then you have the Vue implementation alongside these other ones... Is that like a weekend project? Does that take like 40 hours and no one wants to do 40 hours for something this silly? What do you think would be the amount of work that would have to go into each version of this, if we were to have such a thing?
 
 **Nick Nisi:** Yeah. So not a lot, I don't think, because -- I guess it only took me a couple of weeks, very much part time, around kid schedules and everything, to get the Dojo version working a couple years ago... And it only took me a couple of hours to get it converted to React. And just running clock on the project, the React version, it's 37,627 lines of code. However, 36,000 --
 
@@ -110,17 +110,17 @@ And kind of the crux of the talk - it was a junior-level talk, kind of introduci
 
 **Nick Nisi:** Yeah. So that was episode 191 of our podcast, where we had David on to talk about XState... And XState was something that I was interested in because -- one thing that we were doing in my dayjob was doing this complete refactor or rewrite of one of the most complex pieces of our application... And our dev team was working with our product team on scoping out exactly everything that it needs to do, and they were using this Miro board that ended up just being giant, with like "We're gonna start here. This is the entry into it. And based on this criteria, you're gonna go here. And based on this other criteria, you go here." And it branched off into like 15 different branches. And then some of them came back together, and then went back out...
 
-\[00:16:10.13\] And the whole time I was looking at that, I'm like "That kind of looks like a state chart almost." And I was like, "What if we could just throw this Miro board out and have a generated board based on the actual code that's running?" And it would have every little intricate detail of that; every possible little tiny bit of state that we need to keep track of, would be kept track of. But we could also walk through that, and it would make sense to everyone, at all technical levels, as we're walking through it.
+\[16:10\] And the whole time I was looking at that, I'm like "That kind of looks like a state chart almost." And I was like, "What if we could just throw this Miro board out and have a generated board based on the actual code that's running?" And it would have every little intricate detail of that; every possible little tiny bit of state that we need to keep track of, would be kept track of. But we could also walk through that, and it would make sense to everyone, at all technical levels, as we're walking through it.
 
 So that was kind of the jumping off point for doing a quick spike on XState to see how we could implement it, and what the risks are, where we would have been with it, and all of that. So we kind of jumped into it from there.
 
 Before that, we really weren't doing a ton of state management. We don't have a Redux at all... And I haven't used Redux since the early days of it, when it was not very fun to use. It just seemed like a lot of boilerplate scattered across a lot of different files, in like the recommended ways of setting it up, that just didn't seem worth it at the time. And this was pre-ES2015, so a long time ago. And it's gotten a lot better since then, I'm sure, and there's a lot of projects, like Redux Toolkit, that are built up to help with those things, I think... But XState was something that I was really excited about. I liked that it's more framework-agnostic, and you can bring it in and use it anywhere... And I really like the ideas of it, and just the appeal of generating that chart was really big on my list for trying it out.
 
-**Break:** \[00:17:42.19\]
+**Break:** \[17:42\]
 
 **Jerod Santo:** So the JSON files are somewhat interesting, because they have the information about this version of the game, but they also have some config, like the name of this game - is it the JS Danger version, is it the Go Panic version? Because we'll style the gameboard differently there as well. But then we also have information about the people playing the game, the actual state of the game as it's being played as well... So it's kind of like we're munging everything into one concern. That being said, it's not so complex that we would need these different JSON files. But have you found that harder to work with? Because at one point you're just kind of reading these things in, and then there's other areas that you're actually reading and writing as the game gets played.
 
-**Nick Nisi:** \[00:20:19.06\] Yeah, it's not too terrible, because it's not a lot. If it grew any bigger, it probably would be more cumbersome, and it's something that I'd wanna separate. One thing that is in there - and it's kind of just in there so that we have a value - is like for each player that's playing, it lists a score. And for each question there's like a used bullion that stars off as false, and then as we go, it changes to true. And ideally, I'd like to have that actual game state - like this player's current score, and whether this question has been used - separated from the actual game data that's being plugged in... But I think it was just as a matter of like quickly getting it going when I originally did it. I just kind of munged them together and have them set up.
+**Nick Nisi:** \[20:19\] Yeah, it's not too terrible, because it's not a lot. If it grew any bigger, it probably would be more cumbersome, and it's something that I'd wanna separate. One thing that is in there - and it's kind of just in there so that we have a value - is like for each player that's playing, it lists a score. And for each question there's like a used bullion that stars off as false, and then as we go, it changes to true. And ideally, I'd like to have that actual game state - like this player's current score, and whether this question has been used - separated from the actual game data that's being plugged in... But I think it was just as a matter of like quickly getting it going when I originally did it. I just kind of munged them together and have them set up.
 
 Back in the Dojo world - and I guess with XState, too - one of the really cool things is on every state you define the exact events that can happen at that state, and exactly what happens on it. So I can easily specify "Only when a question is being shown can I actually increment or decrement a score on a user." And I could easily set that up so that it's only doing that for the current user that is playing the game, or the current player that's answering the question. So I'm very locked into one way of doing things... And that's the benefit of XState - there's no impossible states, or... There's not one way to jump from this one state where I'm showing the gameboard, to this other state, where I have a winner. You have to follow a specific flow to get there, and you define that flow exactly how you want, and you can't deviate from that, which is like a really big benefit.
 
@@ -134,7 +134,7 @@ So I wouldn't want to have a unique XState state for every question that we have
 
 **Feross Aboukhadijeh:** So if a question goes from being unused to used, that wouldn't be a state transition in this system...?
 
-**Nick Nisi:** \[00:23:57.10\] No, actually it wouldn't. It would be like -- once I hit the show answer state, that's when I consider the question to be used... Because you wouldn't bring it back up after that. So you can trigger these side effects once you enter or exit states, and once you enter the show answer state, one side effect that it does is that it goes to that question, marks it as used in the context, and then the next time it rerenders it'll update that to blank out that question on the board.
+**Nick Nisi:** \[23:57\] No, actually it wouldn't. It would be like -- once I hit the show answer state, that's when I consider the question to be used... Because you wouldn't bring it back up after that. So you can trigger these side effects once you enter or exit states, and once you enter the show answer state, one side effect that it does is that it goes to that question, marks it as used in the context, and then the next time it rerenders it'll update that to blank out that question on the board.
 
 **Kevin Ball:** Wait, so that's interesting... So what you're saying is that the state machine is the UI state, not the underlying data state.
 
@@ -168,7 +168,7 @@ So I wouldn't want to have a unique XState state for every question that we have
 
 **Feross Aboukhadijeh:** So it's up to you to decide when to do that. How do you decide how much XState is too much...? Where do you draw the line? \[laughs\]
 
-**Nick Nisi:** \[00:27:51.04\] That's a good question. And for this, and for this talk, I specifically kept it as just like one, pretty -- a single state machine that has a couple of nested states. But I kept it pretty simple on purpose, just so I could fit -- like, when I render that state chart, I could fit it all on the screen and show it, and it's easily something that you could walk through.
+**Nick Nisi:** \[27:51\] That's a good question. And for this, and for this talk, I specifically kept it as just like one, pretty -- a single state machine that has a couple of nested states. But I kept it pretty simple on purpose, just so I could fit -- like, when I render that state chart, I could fit it all on the screen and show it, and it's easily something that you could walk through.
 
 In the main project that I'm working on with XState at my day job, there's actually one orchestrating state machine, and then every page that you go to - it invokes a child state machine to handle the state of that page that doesn't matter to the overall state... And it's much, much more complex.
 
@@ -200,7 +200,7 @@ But that's another thing with XState - it's like, you create these machines and 
 
 **Jerod Santo:** I think we wanna hear this one...
 
-**Nick Nisi:** \[00:31:48.12\] \[laughs\] So originally, in the game data -- so just looking at the contestants list, there is name... And I'm looking at the one for our CSS Tricks show. So there's like name, Chris Coyier. And then there's a handle in there, so Chris Coyier's handle on Twitter, which is just his name. And then I think you added avatar in there, which is a string to an image; you said that you could just pull that... And then it has the score. And in my original design there was only name, handle and score, but no avatar, because I was like, "Oh, if I know their Twitter handle, I can just go fetch that and use it." But Twitter doesn't allow CORS calls, so I just created a simple Node server that would just relay that, go grab it from Twitter, and then pull it down.
+**Nick Nisi:** \[31:48\] \[laughs\] So originally, in the game data -- so just looking at the contestants list, there is name... And I'm looking at the one for our CSS Tricks show. So there's like name, Chris Coyier. And then there's a handle in there, so Chris Coyier's handle on Twitter, which is just his name. And then I think you added avatar in there, which is a string to an image; you said that you could just pull that... And then it has the score. And in my original design there was only name, handle and score, but no avatar, because I was like, "Oh, if I know their Twitter handle, I can just go fetch that and use it." But Twitter doesn't allow CORS calls, so I just created a simple Node server that would just relay that, go grab it from Twitter, and then pull it down.
 
 **Jerod Santo:** So he replaced my hardcoded URL to an avatar image with a Node server in order to resolve the exact same URL from Twitter... And I'm just loving this commit message you have, which says "Add a service to handle avatar lookups."
 
@@ -250,11 +250,11 @@ But that's another thing with XState - it's like, you create these machines and 
 
 **Jerod Santo:** Especially when somebody puts a \[unintelligible 00:34:50.11\] as their Twitter avatar and you live-pull it in on the show... \[laughter\] Oh, goodness...
 
-**Break:** \[00:34:59.18\]
+**Break:** \[34:59\]
 
 **Jerod Santo:** Hey, since it's Nick Nisi day here at JS Party, it's Pro Tip Time. Nick, take it away.
 
-**Jingle:** \[00:36:59.04\]
+**Jingle:** \[36:59\]
 
 **Nick Nisi:** I'm so sorry... \[laughter\]
 
@@ -310,7 +310,7 @@ But that's another thing with XState - it's like, you create these machines and 
 
 **Jerod Santo:** Okay. So go alone maybe. \[
 
-**Feross Aboukhadijeh:** \[00:40:05.29\] Yeah, go alone or go with someone you wanna talk to about it.
+**Feross Aboukhadijeh:** \[40:05\] Yeah, go alone or go with someone you wanna talk to about it.
 
 **Jerod Santo:** Yeah, contemplative. A contemplative mood you should be in before.
 
@@ -322,7 +322,7 @@ But that's another thing with XState - it's like, you create these machines and 
 
 **Jerod Santo:** I'm gonna follow that tip and I'm gonna see it.
 
-**Feross Aboukhadijeh:** I have a couple other ones that are more coding-related... A pro tip is if you have a site that needs to fetch data from NPM - we were just talking about CORS headers... There's now CORS headers on the Npm.js package metadata endpoints, so you can pull package metadata and package tarballs directly from Npmjs.com now, without having to build a proxy server.
+**Feross Aboukhadijeh:** I have a couple other ones that are more coding-related... A pro tip is if you have a site that needs to fetch data from npm - we were just talking about CORS headers... There's now CORS headers on the npm.js package metadata endpoints, so you can pull package metadata and package tarballs directly from npmjs.com now, without having to build a proxy server.
 
 **Jerod Santo:** Did you hear that, Twitter?
 
@@ -366,7 +366,7 @@ So thinking about what are those aspects of yourself that - maybe they're not fu
 
 **Jerod Santo:** Ha-haa!
 
-**Feross Aboukhadijeh:** \[00:43:54.04\] This is so appropriate, because the movie I mentioned, "Everything, everywhere, all at once" is also about these alternate reality versions of yourself, that could have been... And it has a bit of a Matrix vibe where they will jump into that persona and out of that persona, so they'll have completely different skills and life experiences, and behave completely differently when they need to, to accomplish things in the movie. So it's just like that.
+**Feross Aboukhadijeh:** \[43:54\] This is so appropriate, because the movie I mentioned, "Everything, everywhere, all at once" is also about these alternate reality versions of yourself, that could have been... And it has a bit of a Matrix vibe where they will jump into that persona and out of that persona, so they'll have completely different skills and life experiences, and behave completely differently when they need to, to accomplish things in the movie. So it's just like that.
 
 **Jerod Santo:** I like it. I'm gonna think about this as well. You know, I actually went the other direction though; I used to have an online persona and I ditched him. I was like, "You know, I'm just Jerod. Everywhere I go, I'm Jerod." And I think that's served me well. So maybe you can have multiple strategies.
 
@@ -376,7 +376,7 @@ I just was reminded of this yesterday or two days back... I was sitting there, b
 
 And I woke up in the morning, and I was driving to work out, and that problem popped up in my head, and I saw it so much more clearly. And I was like, "Actually, if I early return on this particular case, everything else is simple." But I was trying to handle that case as well throughout these other conditions, and it was just like, everywhere I went, that one little edge kept breaking all of my structure. And I had it where it was like -- I hate when you have logic that requires itself to run in the same order every time, if you know what I mean... Like, if you can reorder them and they still make sense, I think it's just safer code in the long-term. It was so order-dependent... And I was like, "Actually, if I just handle this one case right upfront, get rid of that one, the other ones jive." And it wasn't even that hard of a problem, but it just snapped.
 
-\[00:46:37.28\] So I'm the kind of guy that will sit there and just force myself to figure it out... And even if I do, it's like "Well, that took 2,5 hours." But if I would have stepped away, taken a hike, taken a walk, it probably would have taken 20 minutes, versus the 2,5 that it took me.
+\[46:37\] So I'm the kind of guy that will sit there and just force myself to figure it out... And even if I do, it's like "Well, that took 2,5 hours." But if I would have stepped away, taken a hike, taken a walk, it probably would have taken 20 minutes, versus the 2,5 that it took me.
 
 So just a reminder that we often come up with our best solutions when our mind is not actively trying to solve that problem, but is doing some other aspect of life... So take a hike. It'll help.
 
@@ -436,6 +436,6 @@ So just a reminder that we often come up with our best solutions when our mind i
 
 **Jerod Santo:** Today. Today is the day, Nick. Okay, we've gotta end the show, because we're going outside. Thank you, everybody, for listening. Thanks guys for hanging out, on behalf of Nick Nisi, Kball and Feross Aboukhadijeh. I've been Jerod Santo. This is JS Party, and we will talk to you guys all next week.
 
-**Outro:** \[00:49:47.25\]
+**Outro:** \[49:47\]
 
 **Horse JS:** Elon Musk is buying Twitter. I'm buying JavaScript.
