@@ -30,7 +30,7 @@
 
 **Mat Ryer:** We had an off-site recently at where I work, and it was in Amsterdam... And the souvenir that we got everyone was a little rubber duck, tailored to each person.
 
-**Natalie Pistunovich:** \[00:04:06.21\] Wow.
+**Natalie Pistunovich:** \[04:06\] Wow.
 
 **Mat Ryer:** Yeah. It's a very nice gift... But it's very useful for rubber ducking, like you mentioned, Natalie.
 
@@ -80,7 +80,7 @@
 
 **Matan Peled:** It was very cool, and I learned a lot, and I like my degree a lot, but it made it tougher than it might otherwise would have been, because I'm a programmer, I did software engineering before I started studying, so I was already good at that, and adding something that was completely new and different like Electrical Engineering, and all the circuits and physics and that stuff - it made it significantly harder. But I still liked it a lot, and I think that I learned a lot. And after my degree, I worked at a startup that my friends did at the time, and then I decided that I needed to experience life at a big corporate, so I went to Google, and I spent some time making search features... But eventually, I decided that being a code monkey is fun, and I like that, but I also want to experience research, and see what life in academy is, and what they're doing in graduate degrees...
 
-\[00:08:09.23\] So I went back for my master's, and finished that, and now I'm in my Ph.D. And I like it. I don't know if I'm going to do this forever, but for now, this is fun... And I get to play in my sandbox, and make sand castles, and toy around with my own toy ideas, which is what I like about academics.
+\[08:09\] So I went back for my master's, and finished that, and now I'm in my Ph.D. And I like it. I don't know if I'm going to do this forever, but for now, this is fun... And I get to play in my sandbox, and make sand castles, and toy around with my own toy ideas, which is what I like about academics.
 
 **Natalie Pistunovich:** You mentioned code monkey, and I have to make the joke now, because I still feel overdue from the less than smooth transition from before... Have you tried being a code gopher?
 
@@ -106,7 +106,7 @@ So I had a few cute ideas in there, of making it like a physical system of sprin
 
 **Matan Peled:** Yeah. In one sense, I think startup culture is about being small and agile, and being able to push yourself into a niche that a bigger company just wouldn't fit into, because they can't be flexible enough just to think about it that way, to allocate research for that thing... But on the other hand, I think that startups always think in terms of MVPs, and making usable things and making products, where in academics what you wanna do is always write a paper. You want to have an experiment, results, data that you can tell other academics about. And usually, in order to tell other people about what you're doing, you don't need to build the full product. You don't need to have users, you don't need to do any of that. You just need to make your specific experiment, and write it up well enough so that other people find it clear and interesting, and that's it.
 
-**Natalie Pistunovich:** \[00:12:32.28\] That sounds a lot like blogging about fun projects that you have.
+**Natalie Pistunovich:** \[12:32\] That sounds a lot like blogging about fun projects that you have.
 
 **Matan Peled:** It's blogging on steroids. It's blogging with a lot of formality added. And that's why science communication, where scientists blog - that's a thing that's happening. Academics usually love to write; that's what they do in their day-to-day, they're usually good at it. They make blogs. Academic Twitter, for example, is a thing.
 
@@ -126,7 +126,7 @@ But static analysis can also be a part of refactoring where you want to rename a
 
 **Matan Peled:** Exactly.
 
-**Break:** \[00:14:44.00\]
+**Break:** \[14:44\]
 
 **Mat Ryer:** Static analysis must be easier on typed languages that are strictly typed, versus languages that are dynamic, that have heavy runtime elements... Is that true?
 
@@ -146,7 +146,7 @@ And a corollary to that is the Rice theorem, which says that you can't prove any
 
 And what I think is that basically making them aware, having them use static analysis information can make them more powerful, more efficient. So I can for example say -- one of my initial examples was making reactive programming. Let's say I have this class, and in this class there is a field, and it has a \[unintelligible 00:19:49.01\] and what I want it to do is I want it to send me an event someone every time the field changes. But the class is not written that way; whoever wrote it just wrote \[unintelligible 00:20:00.09\] And what I want to do is I want to find out every way that this field can change in the program, and every time that it changes, I want it to send the event, so I can know when that happens, that it becomes reactive.
 
-\[00:20:15.25\] So if you can do static analysis and modify the program based on that, then you can easily do that. And that's basically my goal - I want to enable things like that, and I want to make in (let's call it) a declarative way, that I can build using basic building blocks more complex behavior.
+\[20:15\] So if you can do static analysis and modify the program based on that, then you can easily do that. And that's basically my goal - I want to enable things like that, and I want to make in (let's call it) a declarative way, that I can build using basic building blocks more complex behavior.
 
 **Mat Ryer:** It sounds really interesting. One example of static analysis I've seen - because you've mentioned quite a few... And I actually hadn't considered even like formatting as one of those. But of course, it makes sense. One of the downsides to the format go fmt tool is if the program is incorrect, it doesn't work. The program has to be --
 
@@ -174,7 +174,7 @@ I don't understand 100% how Copilot works. I've read their white paper, it's ver
 
 **Mat Ryer:** Yeah, it's funny, because it gets things right that are really surprising, and it makes mistakes that a simple static analysis tool wouldn't make. It still does make those mistakes, and I'm sure they'll keep working on that. It's almost like there'll be another extra check after to see whether this even is valid code.
 
-\[00:24:06.14\] It does get frustrating sometimes, because it'll kind of guess arguments to a method that are wrong. They look like it's the thing it's seen before, but they aren't the arguments for that particular method... So just a quick check would have found out that that wasn't gonna work... And I suppose that's what they'll do. But that is interesting, you do see clues really of what it's doing, with some of the mistakes it makes. But it is amazing, I have to say.
+\[24:06\] It does get frustrating sometimes, because it'll kind of guess arguments to a method that are wrong. They look like it's the thing it's seen before, but they aren't the arguments for that particular method... So just a quick check would have found out that that wasn't gonna work... And I suppose that's what they'll do. But that is interesting, you do see clues really of what it's doing, with some of the mistakes it makes. But it is amazing, I have to say.
 
 **Matan Peled:** Yeah, and the code that it came from, what it is that it learned that would make it answer in this way, right?
 
@@ -192,7 +192,7 @@ But definitely, the ability of not needing a full working program in order to ru
 
 **Matan Peled:** Yes. So Perl, if you remember, if you've ever used it, has this whole idea where you need to sanitize your input, and bless them, and things like that. They had this idea that if you take input and you don't use it carefully, then it could affect the program in ways; SQL injections, and all that sort of thing.
 
-\[00:28:20.23\] That sort of analysis is called taint analysis, and I think that in recent years even, that sort of thing has become important, where you can leak out the password... And also just develop a related, but not the same idea, that a developer is just putting secrets into their GitHub repositories. And that's also something a search might find, that yeah, maybe you should input -- there are specific places in the environment that you're supposed to put your secret keys in.
+\[28:20\] That sort of analysis is called taint analysis, and I think that in recent years even, that sort of thing has become important, where you can leak out the password... And also just develop a related, but not the same idea, that a developer is just putting secrets into their GitHub repositories. And that's also something a search might find, that yeah, maybe you should input -- there are specific places in the environment that you're supposed to put your secret keys in.
 
 **Mat Ryer:** Yeah, and I'll tell you what - having that early... So we talked about the program doesn't have to be finished for this to work... Having that insight as you're working - that's really when you need it, because that's the point at which maybe you're making design decisions that you'll then have to live with... So yeah, that's very exciting. What are some of the cool use cases or cool little things like that that you can do with this?
 
@@ -222,13 +222,13 @@ It seems that it also has some deeper static analysis, because it can track cont
 
 **Mat Ryer:** Yeah, there's actually quite a range of them, and some of them are general-purpose; others are very specific... There's a tool called Errorcheck that checks to make sure you don't ignore any errors, for example... Which is something that is quite important.
 
-\[00:32:11.29\] And then there's the Go Meta Linter, which essentially runs all of the linters and does those static checks; like you say, it's really linting, a lot of it... So we'll put some links to these in the show notes for people interested. But they're integrated nicely into IDEs already, so you probably already have them.
+\[32:11\] And then there's the Go Meta Linter, which essentially runs all of the linters and does those static checks; like you say, it's really linting, a lot of it... So we'll put some links to these in the show notes for people interested. But they're integrated nicely into IDEs already, so you probably already have them.
 
 **Matan Peled:** The thing that I find interesting about -- like, I want to do the static analysis research... Make my own, basically. The linters are great, everybody should probably use them. Everybody probably does use them, because as you say, they're already integrated into the IDE... But every project has its own things that it's doing, and it's using a library in some way, it's using an API... And what I want everyone to be able to do is be able to define their own rule set, or be able to use a language to define their own static analysis that will warn them of things that might go wrong when they're making code.
 
 For small projects, for scripts, you probably don't need that. But if you need to collaborate between multiple people that might do the thing, if you're a company or you're an open source project, then those things start to make a lot of sense.
 
-**Break:** \[00:33:33.14\]
+**Break:** \[33:33\]
 
 **Natalie Pistunovich:** What are some static checkers, from any language, that you saw, that you really liked what they do?
 
@@ -240,7 +240,7 @@ For small projects, for scripts, you probably don't need that. But if you need t
 
 **Natalie Pistunovich:** The static checker that you will build, what will it have?
 
-**Matan Peled:** \[00:36:02.15\] So one of the harder things to do with static analysis - and it's not like a tool in and of itself, it's a way to get there, but it's called points-to analysis, because even in languages that don't have pointers, you usually have references, which means that one thing references another thing, and that thing may change over the course of the program. And keeping track of what aliases a certain object in memory may have - it's hard to do when you're coding the program and trying to keep a mental model of the program in your head... It's hard to do when you're debugging and you need to find out "Wait, what does this point to right now?" And it's even hard to do when you're trying to do static analysis, and that means that you're not even running the program yet.
+**Matan Peled:** \[36:02\] So one of the harder things to do with static analysis - and it's not like a tool in and of itself, it's a way to get there, but it's called points-to analysis, because even in languages that don't have pointers, you usually have references, which means that one thing references another thing, and that thing may change over the course of the program. And keeping track of what aliases a certain object in memory may have - it's hard to do when you're coding the program and trying to keep a mental model of the program in your head... It's hard to do when you're debugging and you need to find out "Wait, what does this point to right now?" And it's even hard to do when you're trying to do static analysis, and that means that you're not even running the program yet.
 
 **Mat Ryer:** Mm-hm.
 
@@ -278,7 +278,7 @@ So what it basically does is keep snapshots, but not after every point; only bef
 
 **Mat Ryer:** Gotcha. Yeah. I think that makes sense. That does sound really cool. I wonder if we've got that for Go. I've never heard of it for Go, but maybe.
 
-**Matan Peled:** \[00:40:04.05\] So it might just work with Go, because -- I don't know, let's check.
+**Matan Peled:** \[40:04\] So it might just work with Go, because -- I don't know, let's check.
 
 **Natalie Pistunovich:** Everybody's googling.
 
@@ -328,7 +328,7 @@ In some contexts you just print statements everywhere and you're done. You look 
 
 **Natalie Pistunovich:** That's definitely an interesting view. Instead of saying, "I'm just printing things" you can say "Now I'm dynamically debugging."
 
-**Mat Ryer:** \[00:44:12.18\] Yeah. "I'm doing dynamic analysis." But would you say Hello World is a dynamic analysis program? That's all it is, isn't it? That's probably the simplest...
+**Mat Ryer:** \[44:12\] Yeah. "I'm doing dynamic analysis." But would you say Hello World is a dynamic analysis program? That's all it is, isn't it? That's probably the simplest...
 
 **Natalie Pistunovich:** What information does it give you?
 
@@ -376,7 +376,7 @@ So what we could do is add another backdoor into the compiler where it adds a ba
 
 **Mat Ryer:** He wrote that in 1984...
 
-**Matan Peled:** \[00:47:47.29\] So it's been around so long that there have been anti-reflections of trusting trust ideas, where you basically have to use multiple compilers to get one verified output, and there's a whole slew of ideas that combat this... But if you like these ideas of things that reference themselves and things that --
+**Matan Peled:** \[47:47\] So it's been around so long that there have been anti-reflections of trusting trust ideas, where you basically have to use multiple compilers to get one verified output, and there's a whole slew of ideas that combat this... But if you like these ideas of things that reference themselves and things that --
 
 **Mat Ryer:** Mat does.
 
@@ -402,7 +402,7 @@ So what we could do is add another backdoor into the compiler where it adds a ba
 
 **Mat Ryer:** Yeah!
 
-**Jingle:** \[00:48:36.03\] to \[00:48:55.02\]
+**Jingle:** \[48:36\] to \[48:55\]
 
 **Natalie Pistunovich:** You have to agree this one was smooth.
 
@@ -432,7 +432,7 @@ So what we could do is add another backdoor into the compiler where it adds a ba
 
 **Matan Peled:** Oh, so you say that, but that is a thing. I have friends who are researching that. It's called synthesis, and it's basically - you write the specification of a program, and the tests are specifying what the program should do, and synthesis... Like, either, again, you do machine learning, or you just search every program possible in a very specific way that actually makes it actually find programs sometimes... And you can make programs that way, you can do programming.
 
-\[00:51:58.29\] Excel, if you think about it and all the autofill things that you can do, is basically this. You write what you want it to output, and then you drag it, and then it figures everything out. Especially with the new features they've added.
+\[51:58\] Excel, if you think about it and all the autofill things that you can do, is basically this. You write what you want it to output, and then you drag it, and then it figures everything out. Especially with the new features they've added.
 
 **Mat Ryer:** Oh yeah, I've seen them. I tried it the other day. I put 1, 2, 3 and then it just repeated 1, 2, 3 loads of times. I was furious. I was absolutely living. \[laughter\] But you're actually right - if it's doing that with the code... I mean, if it's got things like that points to analysis, where it understands the memory use, and performance, and things - it could even then optimize code.
 
