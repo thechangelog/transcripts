@@ -42,7 +42,7 @@
 
 **Nick Nisi:** Yeah.
 
-**Jerod Santo:** ...which for me wasn't so great, because I had a hard time contributing... But maybe it's just because I'm \[unintelligible 00:05:43.16\]
+**Jerod Santo:** ...which for me wasn't so great, because I had a hard time contributing... But maybe it's just because I'm dense.
 
 **Nick Nisi:** Yeah, I should clarify that it's not Dojo 1.0, which has been around since like 2005. It was modern Dojo. I don't remember the exact version. It was probably like 6 or 7, something like that. But it looks and feels a lot like React, if you're familiar with React. It uses JSX, and it kind of has almost a functional React style to it. You can just write plain functions... But you do a lot of wrapping of it. You create a typed wrapper, and pass a callback to it that then renders everything.
 
@@ -382,7 +382,7 @@ So just a reminder that we often come up with our best solutions when our mind i
 
 **Feross Aboukhadijeh:** Do you wanna know what comes up when you google "Take a hike"?
 
-**Jerod Santo:** \[unintelligible 00:47:03.21\]
+**Jerod Santo:** Sure
 
 **Feross Aboukhadijeh:** All the synonyms.
 
@@ -422,7 +422,7 @@ So just a reminder that we often come up with our best solutions when our mind i
 
 **Kevin Ball:** It's ridiculously expensive, but I can go for a walk all but like 20 days of the year.
 
-**Jerod Santo:** Yeah. I love San Diego weather, and I like San Diego in general, so I would be very happy to live there. There's something about the springtime in Nebraska... When you haven't had it for the last three months, where it's like -- if it's always sunny \[unintelligible 00:48:54.11\] that's a nice life; but if it's not, but today it's \[unintelligible 00:48:59.13\] there's something just much more sweet about that. So I do appreciate the seasons, even though I super-appreciate San Diego weather.
+**Jerod Santo:** Yeah. I love San Diego weather, and I like San Diego in general, so I would be very happy to live there. There's something about the springtime in Nebraska... When you haven't had it for the last three months, where it's like -- if it's always sunny and 70 that's a nice life; but if it's not, but today it's sunny and 70, there's something just much more sweet about that. So I do appreciate the seasons, even though I super-appreciate San Diego weather.
 
 **Kevin Ball:** Do you do long fasts as well?
 
