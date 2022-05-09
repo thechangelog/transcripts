@@ -38,11 +38,11 @@
 
 **Mat Ryer:** Yeah, it is. Well, it makes some better programmers, really. I don't know why -- do they teach that at university? Do they teach rubber ducking?
 
-**Matan Peled:** I teach it when \[unintelligible 00:04:21.04\] students, and sometimes they have to help them with their homework. Basically, I have them just explain the problem to me, and through the process of them explaining it, they understand what the problem is. And then I tell them, "Well, the next time you should try that with a rubber duck."
+**Matan Peled:** I teach it when I TA students, and sometimes they have to help them with their homework. Basically, I have them just explain the problem to me, and through the process of them explaining it, they understand what the problem is. And then I tell them, "Well, the next time you should try that with a rubber duck."
 
 **Mat Ryer:** \[laughs\] Just leave it there. Don't elaborate.
 
-**Natalie Pistunovich:** \[unintelligible 00:04:43.08\] "Here's a rubber duck. Speak to it."
+**Natalie Pistunovich:** Just in your reception hours. "Here's a rubber duck. Speak to it."
 
 **Mat Ryer:** Good idea. You could just have that in your office.
 
@@ -138,13 +138,13 @@ And a corollary to that is the Rice theorem, which says that you can't prove any
 
 **Mat Ryer:** Reflection.
 
-**Matan Peled:** Reflection, yeah. If you have enough reflection, if you do enough \[unintelligible 00:18:20.24\] you can always confuse it enough that it doesn't work. But that's fine, because for 90% of the programs it does work, and that's usually good enough. We're talking about static analysis, not verification.
+**Matan Peled:** Reflection, yeah. If you have enough reflection, if you do enough pointer tricks in C, you can always confuse it enough that it doesn't work. But that's fine, because for 90% of the programs it does work, and that's usually good enough. We're talking about static analysis, not verification.
 
 **Natalie Pistunovich:** And how does this field tie to your research? Or what is your research about?
 
 **Matan Peled:** So what I want to do in my Ph.D. is meta programming using static analysis. And when I say meta programming, what I mean is code that writes code, or code that changes code, so basically refactoring. Refactoring usually means that you change the code and then you work on that changed version, but you can also have a compilation step that changes the code and you never work on that changed version. So that's what I mean by meta programming - all those things that make code change code, templates, maybe even generics, things like that.
 
-And what I think is that basically making them aware, having them use static analysis information can make them more powerful, more efficient. So I can for example say -- one of my initial examples was making reactive programming. Let's say I have this class, and in this class there is a field, and it has a \[unintelligible 00:19:49.01\] and what I want it to do is I want it to send me an event someone every time the field changes. But the class is not written that way; whoever wrote it just wrote \[unintelligible 00:20:00.09\] And what I want to do is I want to find out every way that this field can change in the program, and every time that it changes, I want it to send the event, so I can know when that happens, that it becomes reactive.
+And what I think is that basically making them aware, having them use static analysis information can make them more powerful, more efficient. So I can for example say -- one of my initial examples was making reactive programming. Let's say I have this class, and in this class there is a field, and it has a getter, and what I want it to do is I want it to send me an event someone every time the field changes. But the class is not written that way; whoever wrote it just wrote a getter and you have to call it. And what I want to do is I want to find out every way that this field can change in the program, and every time that it changes, I want it to send the event, so I can know when that happens, that it becomes reactive.
 
 \[20:15\] So if you can do static analysis and modify the program based on that, then you can easily do that. And that's basically my goal - I want to enable things like that, and I want to make in (let's call it) a declarative way, that I can build using basic building blocks more complex behavior.
 
@@ -160,7 +160,7 @@ One of the other projects that I'm currently working on - it has to do with pseu
 
 **Mat Ryer:** I use occasionally GitHub Copilot, and that actually does quite an interesting job... The code can be wrong. In fact, you can give it context just by writing comments, or just by the names of the functions that you use, and the variable names, and things. So that definitely feels magic. I guess that's different, because I suppose that's the ML doing that work, right?
 
-**Matan Peled:** Yeah. So \[unintelligible 00:22:14.04\] or however you wanna call applying machine learning to code - it's interesting, because on the one hand, code... So a lot of the techniques that are used there come from NLP, from natural language processing, which obviously makes sense, because this is text, and this is text, and you won't use techniques that come from image processing; that has nothing to do with it.
+**Matan Peled:** Yeah. So ML for PL or however you wanna call applying machine learning to code - it's interesting, because on the one hand, code... So a lot of the techniques that are used there come from NLP, from natural language processing, which obviously makes sense, because this is text, and this is text, and you won't use techniques that come from image processing; that has nothing to do with it.
 
 **Mat Ryer:** Right.
 
@@ -360,7 +360,7 @@ Go actually now is written in Go. Talk about meta programming... Go used to be w
 
 And the idea behind "Reflections on trusting trust" is that the C compiler is written in C, and it compiles itself. So if you added a backdoor into it, for example every time that it tries to compile the logging program, then it also adds a little backdoor that accepts a username and password that is unknown, then that compiler would insert a backdoor into code that would not be in the source code of the logging program. That's not good enough, because then the source code of the compiler will just show you that it's doing that, right? So it can't have that.
 
-So what we could do is add another backdoor into the compiler where it adds a backdoor into itself when it compiles itself, that both adds this backdoor and adds a backdoor for the logging program. And then you would have a backdoor that is basically undetectable, unless someone is especially fond of reading compiled assembly language; not even handwritten assembly language \[unintelligible 00:47:15.19\] just compiler output... The backdoor would appear nowhere in source code, it will only be in the binary... And you can't just recompile the compiler to get rid of it, because it would keep adding it.
+So what we could do is add another backdoor into the compiler where it adds a backdoor into itself when it compiles itself, that both adds this backdoor and adds a backdoor for the logging program. And then you would have a backdoor that is basically undetectable, unless someone is especially fond of reading compiled assembly language; not even handwritten assembly language with comments, just compiler output... The backdoor would appear nowhere in source code, it will only be in the binary... And you can't just recompile the compiler to get rid of it, because it would keep adding it.
 
 **Mat Ryer:** Oh, wow... That is awesome. That's really creepy.
 
@@ -472,7 +472,7 @@ So what we could do is add another backdoor into the compiler where it adds a ba
 
 **Matan Peled:** Oh, that's an interesting question. I suppose you could, but it depends what you mean by contradict themselves. You could use static analysis to extract them somehow and compare them, and see... Yeah, you could definitely do that. You could see if what they say about the method that they're testing - if they're unit tests, or you test a method - if that's consistent. If it can think of a method that outputs a certain thing.
 
-So a static analysis -- let's say you have a method that returns some integer... Then we have various sorts of integer analysis that can give a \[unintelligible 00:54:59.27\] This output is between 0 and 8. Give it like an interval. That's interval analysis. There are more complex types of integer analysis that try to figure out what the value can be... And yeah, it can definitely figure out that there's a contradiction somewhere.
+So a static analysis -- let's say you have a method that returns some integer... Then we have various sorts of integer analysis that can give bounds. This output is between 0 and 8. Give it like an interval. That's interval analysis. There are more complex types of integer analysis that try to figure out what the value can be... And yeah, it can definitely figure out that there's a contradiction somewhere.
 
 **Mat Ryer:** Yeah, that is interesting. I guess that's why pure functions, like that Rust has - that must be a much easier language to work with than Go, because they can have side effects to the methods and functions in Go.
 
