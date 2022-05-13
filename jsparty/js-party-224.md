@@ -14,7 +14,7 @@ So the premise is &quot;Were SPAs a big mistake?&quot; And I&#39;m sure Divya wi
 
 **Jerod Santo:** I hope those work just as well. And Divya&#39;s teammate today will be Nick Nisi. What&#39;s up, Nick?
 
-**Nick Nisi:** [00:04:14.29] Hoy-hoy. I&#39;m very excited, but I was ready to debate SPAs as in a place where you go for a day...
+**Nick Nisi:** \[04:14\] Hoy-hoy. I&#39;m very excited, but I was ready to debate SPAs as in a place where you go for a day...
 
 **Jerod Santo:** A day spa?
 
@@ -72,7 +72,7 @@ Okay. Well, ladies first. We&#39;ll start with Divya, and I will get my timer ou
 
 **Divya:** Well, first, if we wanna talk about single-page applications, it&#39;s worth talking about the definition of what they are, which is... Single-page apps are generally single HTML pages; they allow full interactions without any page refreshes, because the idea is that you&#39;re loading the entire app onto a user device, and the user is just going to work within that frame, or within that particular HTML page, and then I guess all the data is already fetched, more or less, and then new data is just fetched additionally, as needed. But the idea is that everything is loaded, so it allows for a single experience.
 
-[00:07:59.07] The problem and the downsides, of course - you can guess - is... Well, actually, first I&#39;ll kind of like talk about the corollary to that. So the single-page app, which is a single HTML page - the opposite of that is multi-page apps, where you have multiple pages. So every time you do a page, you try to go back or forward, it&#39;s really a full-page refresh, because you&#39;re going back to the server, requesting something, and then it loads data, and so on.
+\[07:59\] The problem and the downsides, of course - you can guess - is... Well, actually, first I&#39;ll kind of like talk about the corollary to that. So the single-page app, which is a single HTML page - the opposite of that is multi-page apps, where you have multiple pages. So every time you do a page, you try to go back or forward, it&#39;s really a full-page refresh, because you&#39;re going back to the server, requesting something, and then it loads data, and so on.
 
 And so those are the two differences that you work with. Single-page apps versus multi-page apps.
 
@@ -122,7 +122,7 @@ So you can use all these strawmen that you want, throw things out, like &quot;Th
 
 **Jerod Santo:** Very good. You had ten more seconds, but we&#39;ll just give you a complementary &quot;Wut?&quot; Okay, Kball coming in with the words-per-minute. Very nice. Nick, you don&#39;t talk quite that fast, but yet you still have the exact amount of minutes that Kball has. [laughter] He ended early... Let&#39;s see how you do. It&#39;s your turn, Nick. Take it away.
 
-**Nick Nisi:** [00:12:06.18] Alright. Well, first off, let&#39;s start in the way that Divya started - with some definitions. If we look at the words that make up &quot;single-page app&quot;, the first one is single. And as we all know, two is one, and one is none. So you&#39;re already off at a disadvantage there... So then you just have page apps. And you know what that is? That&#39;s multi-page apps; so we can just continue on going from there.
+**Nick Nisi:** \[12:06\] Alright. Well, first off, let&#39;s start in the way that Divya started - with some definitions. If we look at the words that make up &quot;single-page app&quot;, the first one is single. And as we all know, two is one, and one is none. So you&#39;re already off at a disadvantage there... So then you just have page apps. And you know what that is? That&#39;s multi-page apps; so we can just continue on going from there.
 
 We all know as JS Party - JS Party is where you party, it&#39;s not what you build apps with. And to get a little more serious, JS breaks -- when you start building a single-page app, you&#39;re building everything from scratch. You&#39;re breaking the Back button by default, you&#39;re breaking the URL by default. Those things don&#39;t work. And to get those to consistently work is entirely up to every single development team that&#39;s doing it themselves. So you&#39;re just starting off at a disadvantage. Your Lighthouse scores are immediately terrible, and you don&#39;t have a good experience for your users, because they&#39;re expecting a standard level of accessibility, a standard way to interact with things, and it&#39;s up to every single development team to pick the right implementation or to do it themselves, to get it done in that way.
 
@@ -162,7 +162,7 @@ So - quotes from the first result to the Google search &quot;Why single-page app
 
 **Kevin Ball:** It&#39;s off of Google. &quot;As you can monitor--&quot;
 
-**Divya:** [00:16:07.07] Question authority.
+**Divya:** \[16:07\] Question authority.
 
 **Kevin Ball:**&quot;...network operations, investigate page elements and data associated with it.&quot; And finally, &quot;It&#39;s easier to make a mobile application, because the developer can reuse the same backend code for web application and native mobile application.&quot;
 
@@ -192,7 +192,7 @@ So - quotes from the first result to the Google search &quot;Why single-page app
 
 **Jerod Santo:** Yeah, same team. So we&#39;ll see what happens in round two. It&#39;s gonna be the Rapid Fire Round. We&#39;ll have half as much time, and hopefully 100% less reading quotes. We&#39;ll find out what happens right after this break.
 
-**Break:** [00:17:11.27]
+**Break:** \[17:11\]
 
 **Jerod Santo:** We are back, round two of Yep/Nope. So far the scoring - team Yep, that&#39;s Nick and Divya, with ten points. Team Nope, zero.
 
@@ -206,7 +206,7 @@ So - quotes from the first result to the Google search &quot;Why single-page app
 
 **Nick Nisi:** Lies...
 
-**Kevin Ball:** [00:20:02.20] ...for our JS Party game show. That is writing a SPA. In fact, he wrote a SPA and then he rewrote a SPA... [laughter] And has implemented it in such a way that it&#39;s only writeable as a SPA.
+**Kevin Ball:** \[20:02\] ...for our JS Party game show. That is writing a SPA. In fact, he wrote a SPA and then he rewrote a SPA... [laughter] And has implemented it in such a way that it&#39;s only writeable as a SPA.
 
 **Jerod Santo:** Okay, he&#39;s scoring points... [laughs]
 
@@ -258,7 +258,7 @@ So when you&#39;re building an application for the web, you should not build it 
 
 **Nick Nisi:** Alright, so let&#39;s think about how we implement these single-page apps if we were to do such a thing. It starts with this thing called asynchronous JavaScript and XML. Who uses XML? It&#39;s right in the name... Like, this is old news, old tech... We don&#39;t do that anymore. We have a cloud and we deliver everything directly from the cloud, every time, and the browser updates and it&#39;s fast enough to update each time and have everything all right there. In the chat, Robert Hall posted a Hacker News comment, which is never wrong... [Wut?]
 
-**Jerod Santo:** [00:24:11.06] Sorry, you have to hold that for your next turn. Kevin, would you like to respond to Nick, or would you like to start something fresh?
+**Jerod Santo:** \[24:11\] Sorry, you have to hold that for your next turn. Kevin, would you like to respond to Nick, or would you like to start something fresh?
 
 **Kevin Ball:** You know, I&#39;m gonna keep going with his quote. The Hacker News comment was &quot;The web is a mistake.&quot; Y&#39;all are trying to tell me that &quot;Oh, the original design of the web is perfect and we should never build beyond it&quot;, but --
 
@@ -310,7 +310,7 @@ I think the argument that you build a separate thing in the interest of the web 
 
 **Kevin Ball:** I&#39;m gonna jump in here real quick, because I have a different example. So if y&#39;all ever worked with designer who are a little overloaded, you may have discovered that if you&#39;re asking for a design for a new feature, it may never happen. The best way to get a designer to give you a beautiful design for a new feature is you build an ugly version of that feature, and threaten to ship it. Or even do ship it. Once it&#39;s in production, the designer looks at that and says &quot;Hey, that&#39;s ugly. I&#39;m gonna fix that. I&#39;m gonna clean that up.&quot; That&#39;s exactly what SPAs are doing here. The browser is progressing because the people who are responsible for building the browser said &quot;Holy smokes! What we&#39;re providing here is clearly not sufficient, because people are building all this stuff around it.&quot; If SPAs weren&#39;t&#39; being built, would they have bothered to build all those APIs to enable them to be built well? No.
 
-**Divya:** [00:27:53.22] The argument is very interesting... And I take a lot of issue with it. Partially because you&#39;re creating problems in order -- like, you&#39;re creating extra-problems...
+**Divya:** \[27:53\] The argument is very interesting... And I take a lot of issue with it. Partially because you&#39;re creating problems in order -- like, you&#39;re creating extra-problems...
 
 **Jerod Santo:** It sounds passive-aggressive, right?
 
@@ -348,7 +348,7 @@ I think the argument that you build a separate thing in the interest of the web 
 
 **Jerod Santo:** Alright, thus ends our official debate. We&#39;ll come back on the other side of the break and we can talk freely about what we actually believe about these things, versus what we&#39;ve been assigned to argue... So stay tuned, and we&#39;ll hear what actually people think. I think in terms of winning - of course, the only way to win is to not participate. I&#39;m the only one who did that, so I do win... But coming in a close second with the Form Reform - thank you, Robert Hall, in the chatroom for giving it a name... Divya&#39;s argument about forms is the winning argument of the day, and so Divya takes a close second place. Everybody else, thank you for participating. We&#39;ll be right back.
 
-**Break:** [00:32:17.17]
+**Break:** \[32:17\]
 
 **Jerod Santo:** Alright, great debate, y&#39;all. Kball, you made some interesting points. Did you believe anything you were talking about, or were you just talking?
 
@@ -364,7 +364,7 @@ I think the argument that you build a separate thing in the interest of the web 
 
 **Jerod Santo:** Oh, you do. [laughter] Oh, okay. So you&#39;re just making the big mistake every day.
 
-**Nick Nisi:** [00:36:00.14] No, no, no... I think that in a lot of ways we do over-complicate everything, and we do have to rearchitect a lot of stuff. And it&#39;s just a lot more that&#39;s put on my plate to maintain and make sure it&#39;s working, when I could be off solving more important problems. But I do think that they have their place, for sure. I do like working with them, and I do think that in general there&#39;s -- like, take right now; we&#39;re recording this podcast in a web app, and it&#39;s on a single page, and it works fantastically. And if we wanted to bring in another guest, guess what they don&#39;t have to do? They don&#39;t have to download a single thing, or set anything up. They just have to do a complicated process of using a Chromium browser, and giving it a lot of permissions for things, but it does still work, which is really quite impressive... And it&#39;s been practically flawless, which is really a good testament.
+**Nick Nisi:** \[36:00\] No, no, no... I think that in a lot of ways we do over-complicate everything, and we do have to rearchitect a lot of stuff. And it&#39;s just a lot more that&#39;s put on my plate to maintain and make sure it&#39;s working, when I could be off solving more important problems. But I do think that they have their place, for sure. I do like working with them, and I do think that in general there&#39;s -- like, take right now; we&#39;re recording this podcast in a web app, and it&#39;s on a single page, and it works fantastically. And if we wanted to bring in another guest, guess what they don&#39;t have to do? They don&#39;t have to download a single thing, or set anything up. They just have to do a complicated process of using a Chromium browser, and giving it a lot of permissions for things, but it does still work, which is really quite impressive... And it&#39;s been practically flawless, which is really a good testament.
 
 **Jerod Santo:** Yeah. So for the listener we use riverside.fm to record, which provides all video streaming, recording etc. participation in this chatroom, the soundboard - it&#39;s all in one spot. That being said, this is a bit of a hybrid application, because we are in the studio, and the studio is this web application, it&#39;s all right here on one page. But then when you go to the recordings it&#39;s just its own separate page; when you go back to the list of your different studios it&#39;s its own separate page... So it&#39;s not like all of riverside.fm is one single page. It&#39;s like we have this rich web app in here that has its own tabs and stuff, that don&#39;t reload the page. But when you go beyond that, it is multiple pages, so it&#39;s a bit of a hybrid. And I think a lot of times that makes a lot of sense.
 
@@ -386,7 +386,7 @@ I feel like every time we do a Yep/Nope, we just end up here...
 
 **Divya:** Yeah.
 
-**Kevin Ball:** [00:40:06.15] Your point about local is interesting one... So Figma - they have local applications using Electron. They&#39;re actually embedding their single-page app... And that&#39;s -- a multi-page app doesn&#39;t really work in that kind of embedding. One of the really interesting things that the single-page approach enables is you can take the same application and package it up in these sort of native wrappers... And is that as good as creating individual, distinct native implementations using whatever those native packages prefer? I don&#39;t know. But for many cases it&#39;s good enough, and it facilitates giving these capabilities while lowering your development burden quite a bit.
+**Kevin Ball:** \[40:06\] Your point about local is interesting one... So Figma - they have local applications using Electron. They&#39;re actually embedding their single-page app... And that&#39;s -- a multi-page app doesn&#39;t really work in that kind of embedding. One of the really interesting things that the single-page approach enables is you can take the same application and package it up in these sort of native wrappers... And is that as good as creating individual, distinct native implementations using whatever those native packages prefer? I don&#39;t know. But for many cases it&#39;s good enough, and it facilitates giving these capabilities while lowering your development burden quite a bit.
 
 **Divya:** I think the cross-platform argument is interesting, because tools like Electron - and then I think there&#39;s newer ones, too; like, there&#39;s a Rust one, I forget what it&#39;s called. Torry, or something. But it&#39;s just like a way in which you cannot have to change your development environment, and you build across for like a desktop app, mobile and web... Which I think is honestly from a development cost perspective better, because then you don&#39;t have to have separate teams. But again, not every app needs to be cross-platform, right? Figma for example is a great use case; VS Code is a good use case. These are things in which people want them across platforms... But again, I don&#39;t know if you&#39;re building just like a small blog, or if you&#39;re building a podcast app thing... Do you really need it to be cross-platform? Can&#39;t you just use it on one platform? So you could argue there&#39;s a lot of different avenues for that.
 
@@ -408,7 +408,7 @@ I feel like every time we do a Yep/Nope, we just end up here...
 
 **Nick Nisi:** And from a developer&#39;s perspective, you don&#39;t really have to think about that too much, right? You just provide the data in the way that you need, or the way that it [unintelligible 00:43:54.13] I haven&#39;t used Remix yet, but... And then you can reload the page there, and it&#39;ll be fine, or you can navigate in a single-page way and it&#39;ll also be fine.
 
-**Kevin Ball:** [00:44:07.21] Yeah, it hides that away, and gives you a nice little - what do they call it? ...a bridge over the network chasm.
+**Kevin Ball:** \[44:07\] Yeah, it hides that away, and gives you a nice little - what do they call it? ...a bridge over the network chasm.
 
 **Nick Nisi:** Yeah.
 
@@ -454,7 +454,7 @@ I feel like every time we do a Yep/Nope, we just end up here...
 
 **Kevin Ball:** So I feel like DHH being the sort of disaster that he is, hides a lot of the real value that still is there in the framework, and the community beyond him.
 
-**Divya:** [00:47:52.04] Yeah, I think there&#39;s definitely -- I mean, I can see that... I think I&#39;m, again, very biased, because I&#39;m working on a Rails app, and it&#39;s really clunky, and the experience is horrible... And I dislike it.
+**Divya:** \[47:52\] Yeah, I think there&#39;s definitely -- I mean, I can see that... I think I&#39;m, again, very biased, because I&#39;m working on a Rails app, and it&#39;s really clunky, and the experience is horrible... And I dislike it.
 
 **Jerod Santo:** Hm. Modern Rails, or legacy Rails?
 
@@ -516,11 +516,11 @@ So I think there are things from the SPA period that were probably mistakes and 
 
 **Jerod Santo:** Yeah, that&#39;s one of the cool things, is there&#39;s so much choice. But one of the hard parts is there&#39;s so much choice, and so often we are lazy, or strapped on time, or don&#39;t have all the information and we&#39;re like &quot;Just tell me what&#39;s best. Just tell me what to do.&quot; Which is why these debate episodes are fun, because - of course, they have a harsh premise that can either be a yes or a no, but at the end of the debate you know that there&#39;s a lot of &quot;It depends&quot;, and the actual conversation around it is the interesting part. The debates are fun, but I always like the third segment best, because we can discuss all of those in-between spots.
 
-[00:51:48.06] If you enjoyed this debate episode - it&#39;s our fifth one, so go back into the feed and you&#39;ll find different arguments. &quot;Are web apps fundamentally different than websites?&quot; &quot;Should websites work without JavaScript?&quot; &quot;Is modern JavaScript tooling too complicated?&quot; &quot;And should we rebrand JavaScript?&quot;, which was a fun one for sure.
+\[51:48\] If you enjoyed this debate episode - it&#39;s our fifth one, so go back into the feed and you&#39;ll find different arguments. &quot;Are web apps fundamentally different than websites?&quot; &quot;Should websites work without JavaScript?&quot; &quot;Is modern JavaScript tooling too complicated?&quot; &quot;And should we rebrand JavaScript?&quot;, which was a fun one for sure.
 
 Kball mentioned Remix a couple times on this show... It reminds me - it is time for our new segment, Holla.
 
-**Jingle** : [00:52:12.13] to [00:52:16.11]
+**Jingle** : \[52:12\] to \[52:16\]
 
 **Jerod Santo:** Holla at Remix Conf. Remix Conf right around the corner, May 24th and 25th in Salt Lake City. We do not have a for-sure plan, but we believe JS Party will be involved at Remix Conf. So if you were thinking of going and you want to come see us, hang out with us, we will most likely be there. I&#39;m hedging, but it&#39;ll probably happen... So do that. Come to Remix Conf and come see us. It&#39;s May 24th and 25th, again, Salt Lake City, so check it out, Remix.run/conf.
 
