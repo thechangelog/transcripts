@@ -68,7 +68,7 @@ Okay. Well, ladies first. We&#39;ll start with Divya, and I will get my timer ou
 
 **Divya:** [laughs] Cool...
 
-**Jerod Santo:** You&#39;ll have to minutes... [unintelligible 00:07:05.11] old car horn as well, which would be a good one... But we&#39;ll see what happens with that. You&#39;ll have two minutes to make your case... And you can start right now.
+**Jerod Santo:** You&#39;ll have two minutes... Ooo actually I could just leave my old car horn as well, which would be a good one... But we&#39;ll see what happens with that. You&#39;ll have two minutes to make your case... And you can start right now.
 
 **Divya:** Well, first, if we wanna talk about single-page applications, it&#39;s worth talking about the definition of what they are, which is... Single-page apps are generally single HTML pages; they allow full interactions without any page refreshes, because the idea is that you&#39;re loading the entire app onto a user device, and the user is just going to work within that frame, or within that particular HTML page, and then I guess all the data is already fetched, more or less, and then new data is just fetched additionally, as needed. But the idea is that everything is loaded, so it allows for a single experience.
 
@@ -197,8 +197,6 @@ So - quotes from the first result to the Google search &quot;Why single-page app
 **Jerod Santo:** We are back, round two of Yep/Nope. So far the scoring - team Yep, that&#39;s Nick and Divya, with ten points. Team Nope, zero.
 
 **Kevin Ball:** Where are the points coming from? [laughter] You&#39;ve gotta tell me the rules of the game here. How do I score points?
-
-**Divya:** [unintelligible 00:19:26.01]
 
 **Jerod Santo:** I suggest a different strategy than the one you&#39;re currently taking... Nah, I&#39;m just giving you a hard time. There&#39;s no points, I&#39;m just messing with you. We&#39;re gonna let you go first, so that hopefully you can score some points in this round. But it&#39;s a rapid-fire, one minute, and we encourage in this round more cross-talk between debaters versus the previous round, where you must remain silent. So feel free to interact a little bit, but you&#39;re also stuck in your one minute. Kball, go!
 
@@ -338,11 +336,11 @@ I think the argument that you build a separate thing in the interest of the web 
 
 **Kevin Ball:** My response is y&#39;all may be willing to wait for the bureaucratic process that is involved in updating standards and creating browser change and all of this to happen before you solve your user problems... But I&#39;ve got users, and they need their problems solved, and I&#39;ll use the tools available to me today. And oftentimes, that involves a SPA.
 
-**Nick Nisi:** Just hope they don&#39;t hit the [unintelligible 00:31:30.21]
+**Nick Nisi:** Just hope they don&#39;t hit the back button
 
 **Kevin Ball:** You keep using that strawman argument as if there are not SPAs where Back button functionality works.
 
-**Jerod Santo:** Oh, you should point to us [unintelligible 00:31:40.16]
+**Jerod Santo:** Oh, you should point to us some, just saying.
 
 **Divya:** Yeah, please draw us an example... [laughs]
 
@@ -406,7 +404,7 @@ I feel like every time we do a Yep/Nope, we just end up here...
 
 **Kevin Ball:** It&#39;s so good. One of the things that we&#39;re starting to see, I think, is - even if you&#39;re separating your frontend, having some amount of server-rendering and server-side logic there. And it gets you some of that capability that you&#39;re talking about, without necessarily having to go all the way to a SPA. And even frameworks like Remix, which I&#39;m gonna bring up again, because they&#39;re doing kind of interesting stuff here... Like, they&#39;re doing all of their rendering on the server, but their architecture is set up -- it&#39;s still a separated frontend; it expects there to be a backend API that lives separately.
 
-**Nick Nisi:** And from a developer&#39;s perspective, you don&#39;t really have to think about that too much, right? You just provide the data in the way that you need, or the way that it [unintelligible 00:43:54.13] I haven&#39;t used Remix yet, but... And then you can reload the page there, and it&#39;ll be fine, or you can navigate in a single-page way and it&#39;ll also be fine.
+**Nick Nisi:** And from a developer&#39;s perspective, you don&#39;t really have to think about that too much, right? You just provide the data in the way that you need, or the way that it defines, I haven&#39;t used Remix yet, but... And then you can reload the page there, and it&#39;ll be fine, or you can navigate in a single-page way and it&#39;ll also be fine.
 
 **Kevin Ball:** \[44:07\] Yeah, it hides that away, and gives you a nice little - what do they call it? ...a bridge over the network chasm.
 
