@@ -24,7 +24,7 @@ No, I mean - for us going forward, we prefer the term open scheduling, because a
 
 **Peer Richelsen:** The same as WordPress and WordPress.com, if that makes sense, or \[unintelligible 00:08:06.23\] both works for us.
 
-**Adam Stacoviak:** \[00:08:10.00\] Okay. So a feature then of Cal.com, I guess, would be this future where if I own a token that I can meet up-- and I'm not even sure how this feature works, but this is like the interesting thing I see you pointing at, and not something I see from Calendly. Not that it's a race of features or whatever, but I saw that and I was like, "Okay, that's super-interesting", because I'm learning and embracing more and more of this Web3 future, and the useful cases of NFTs. We had a show on our main show called The Changelog with Mikeal Rogers going deep into NFTs, the whole technical bits around it. So we've been covering it for a while, but the use case of NFTs are super-interesting, and this idea of a token or this ownership of something getting you access to something else is something I saw as a feature set, or a future feature set for you. Can you talk about what that is and how that works?
+**Adam Stacoviak:** \[08:10\] Okay. So a feature then of Cal.com, I guess, would be this future where if I own a token that I can meet up-- and I'm not even sure how this feature works, but this is like the interesting thing I see you pointing at, and not something I see from Calendly. Not that it's a race of features or whatever, but I saw that and I was like, "Okay, that's super-interesting", because I'm learning and embracing more and more of this Web3 future, and the useful cases of NFTs. We had a show on our main show called The Changelog with Mikeal Rogers going deep into NFTs, the whole technical bits around it. So we've been covering it for a while, but the use case of NFTs are super-interesting, and this idea of a token or this ownership of something getting you access to something else is something I saw as a feature set, or a future feature set for you. Can you talk about what that is and how that works?
 
 **Peer Richelsen:** Yeah, absolutely. So we actually went live with this product about two or three days ago on Product Hunt and--
 
@@ -48,7 +48,7 @@ To put it in a nutshell, we built an integration, and there's many integrations.
 
 Basically, once you get granted this decentralized asset, it now opens certain doors, like a key to the conference room, right? So that's very interesting to me. I care less about the art. I care less about the videos and 3D animations. I care about the fundamental idea of having a decentralized database, because that's at the end of the day what a blockchain is. It's an open source ledger that just runs the same protocol, and that's very interesting for-- I think any open source company should look into Web3.
 
-**Adam Stacoviak:** \[00:12:18.21\] Yeah.
+**Adam Stacoviak:** \[12:18\] Yeah.
 
 **Peer Richelsen:** There's a lot of things you can do.
 
@@ -78,7 +78,7 @@ I think also what we intend to be is to just showcase what you can actually do w
 
 **Adam Stacoviak:** Because it kind of can take you away from your core product, which is, I guess it's still scheduling though; you're just doing a bleeding-edge version of that. And then maybe that brings in high value. I mean, it's just as good as marketing as it is maybe a feature, because you're bringing in high value, or in quotes, "high-value" people, because these are innovators or perceived as innovators, and they could be high net worth folks because they've got a CryptoPunk, for example. You know what I mean?
 
-\[00:16:10.21\] So if they're in that space, then you're really attracting some unique people who see innovation. And if Cal is an innovation on what Calendly has already done in the open source space, but going farther and beyond, as you had said, maybe that's worth building, because you're bringing in those kind of people.
+\[16:10\] So if they're in that space, then you're really attracting some unique people who see innovation. And if Cal is an innovation on what Calendly has already done in the open source space, but going farther and beyond, as you had said, maybe that's worth building, because you're bringing in those kind of people.
 
 **Peer Richelsen:** Yeah, absolutely. And our core vision is to connect a billion people by 2031. We always think of what's something we want to include, and we've launched, I think, 13 languages so far. And when we see something like the Web3 industry, which is still technically underserved in terms of products - like, they just recently launched like a Zoom for Web3, and there's no Salesforce Web3, there's no Google mail for Web3. It's very much a new frontier, and it's still millions of people who use cryptocurrencies today... And I think being this pioneer in this new industry is very important for us to just show that there's more to just being a knockoff.
 
@@ -108,7 +108,7 @@ I've seen a lot of open source projects who never escape the mental model of bei
 
 **Peer Richelsen:** Yeah.
 
-**Adam Stacoviak:** \[00:20:09.16\] And only by sheer luck was the codebase open-sourced enough to fork it and turn into open ZFS. So that is an example of the reason why you want code to be open-sourced, the reason why you wanted to serve the populace, the commons of the people, because it's no longer useful if people can't use it, right? What's the point of code if you can't use the code, right?
+**Adam Stacoviak:** \[20:09\] And only by sheer luck was the codebase open sourced enough to fork it and turn into open ZFS. So that is an example of the reason why you want code to be open sourced, the reason why you wanted to serve the populace, the commons of the people, because it's no longer useful if people can't use it, right? What's the point of code if you can't use the code, right?
 
 **Peer Richelsen:** Absolutely.
 
@@ -126,9 +126,9 @@ I find that really impressive, the longevity of open source. We've been forked 1
 
 And I look at companies like, let's say, Webflow, which is this website creator, or Squarespace or Wix. These are amazing companies to capture value and provide a hosted service. But eventually - I mean, 10 years is a long time in tech, but not a long time for, let's say, the end consumer. I have my own, let's say, email address for 20 years now, and I intend to keep it for the next 20 years. If I had my blog there and at some point I get an email, "Hey, we're shutting down" - like, go figure - that's usually when you start to realize how short-term most technology is.
 
-\[00:24:07.21\] And to be an open source is just really great, because we even have a longevity guarantee, which means if we eventually even shut down, we want to reincorporate as a nonprofit organization to have a more, let's say, lower-tech team, smaller ambitions, but just maintenance of the codebase, and maybe even donate it to, let's say, the Apache Foundation, or something. But we do have policies in place where we think if this ever fails as a startup, as a VC-funded growth case, we want this to be a thing in the next 10-20 years.
+\[24:07\] And to be an open source is just really great, because we even have a longevity guarantee, which means if we eventually even shut down, we want to reincorporate as a nonprofit organization to have a more, let's say, lower-tech team, smaller ambitions, but just maintenance of the codebase, and maybe even donate it to, let's say, the Apache Foundation, or something. But we do have policies in place where we think if this ever fails as a startup, as a VC-funded growth case, we want this to be a thing in the next 10-20 years.
 
-**Break:** \[00:24:37.21\]
+**Break:** \[24:37\]
 
 **Adam Stacoviak:** What's the state of things now, I guess, since you got a recent round of funding? I think it was just late last year, right? It was like seven million, or something like that. I forget what the exact number was.
 
@@ -148,7 +148,7 @@ And I look at companies like, let's say, Webflow, which is this website creator,
 
 **Adam Stacoviak:** Right. Okay. 2031, sure. Okay. So why that number? How did you get-- what's the quantifiable metric behind the scenes that says, "Okay, this number makes sense"?
 
-**Peer Richelsen:** \[00:28:01.20\] Yeah. So obviously, as open source, metrics are really tough. Self-hosted telemetry is a two-sided sort. I couldn't even tell you how many Docker instances run today. I don't think Docker knows how many Docker instances run today, or WordPress. So that obviously is a challenge. But for us, we have a metric which is just raw bookings, which we track with anonymous analytics. That gives us some sort of feeling... We've done almost a million bookings by now, which is obviously a great signal. But how we came to 1 billion - I mean, in 10 years I don't know how many people will be on the web. I imagine 8 billion or something, in 10 years. To have to build technology that's truly open and accessible and really solves a core problem, which is two humans meeting... I mean, that's literally all we do nowadays. I barely use my email. I use my email to send Cal links. That's pretty much my day job. I imagine yours is similar.
+**Peer Richelsen:** \[28:01\] Yeah. So obviously, as open source, metrics are really tough. Self-hosted telemetry is a two-sided sort. I couldn't even tell you how many Docker instances run today. I don't think Docker knows how many Docker instances run today, or WordPress. So that obviously is a challenge. But for us, we have a metric which is just raw bookings, which we track with anonymous analytics. That gives us some sort of feeling... We've done almost a million bookings by now, which is obviously a great signal. But how we came to 1 billion - I mean, in 10 years I don't know how many people will be on the web. I imagine 8 billion or something, in 10 years. To have to build technology that's truly open and accessible and really solves a core problem, which is two humans meeting... I mean, that's literally all we do nowadays. I barely use my email. I use my email to send Cal links. That's pretty much my day job. I imagine yours is similar.
 
 Sure, you sometimes send some follow-up notes, but the true human connection happens in, let's say, FaceTime calls or podcasts, or dentist appointments, or massage appointments, or telehealth, or hiring marketplaces. The sheer amount of use cases for two humans to meet and make time is infinite. And by having this vision of connecting a billion people, we really optimize to make the right decisions to reach as many people as possible... The same way WhatsApp is now connecting like 2 billion people or something. They've really always focused on having a simple, yet powerful tool that works for absolutely everyone.
 
@@ -166,7 +166,7 @@ So I think another thing to mention is the network effects, because eventually, 
 
 There's another thing where we could auto-match certain availabilities, like maybe there's a feature one day where it, let's say, sets up recurring meetings with something. And if the recipient and the link sender has a Cal.com account, there's a ton of things we can do with this network of time.
 
-\[00:31:54.10\] So that's just a few things why we think that eventually there's going to be a trend where Cal.com becomes the commodity for scheduling. And being a commodity also means being super-compatible to everyone else's instance. And that's something where we see really true long-term network effects at play, even with payments, like accepting payments for booking, cryptocurrencies as a booking... I have a friend who runs a massage studio and she's taking bookings over-- like paid bookings. That unlocks an entire new business model for millions of people in all kinds of industries.
+\[31:54\] So that's just a few things why we think that eventually there's going to be a trend where Cal.com becomes the commodity for scheduling. And being a commodity also means being super-compatible to everyone else's instance. And that's something where we see really true long-term network effects at play, even with payments, like accepting payments for booking, cryptocurrencies as a booking... I have a friend who runs a massage studio and she's taking bookings over-- like paid bookings. That unlocks an entire new business model for millions of people in all kinds of industries.
 
 **Adam Stacoviak:** Yeah. So I go to my barber, and the first step when going to my barber is going to whatever page Square sets up for them. They've got their card reader on-site, or whatever hardware they have, and Square is very much-- they're also a sponsor of ours, too. This is why I know so much, at least, about them. They're a hardware company and a software company.
 
@@ -200,7 +200,7 @@ It's likely we end up partnering with Square and providing them the scheduling i
 
 **Peer Richelsen:** Oh yeah, from \[unintelligible 00:36:08.10\] Twitter?
 
-**Adam Stacoviak:** \[00:36:11.03\] Yeah. I don't even know what all the details were. I just know it was like, "You're elite because you send the link to your Calendly", something like that. And I was just always like, "I don't understand that."
+**Adam Stacoviak:** \[36:11\] Yeah. I don't even know what all the details were. I just know it was like, "You're elite because you send the link to your Calendly", something like that. And I was just always like, "I don't understand that."
 
 **Peer Richelsen:** It's about scheduling etiquette, and I really don't get it, both as a biased founder of a scheduling product, but also as a lover of Calendly and lover of Cal, and other... I mean, I like all the scheduling products. Every time you remove the friction out of meeting someone, it is a bliss. It's just a waste of time on both ends.
 
@@ -244,7 +244,7 @@ The only thing I always send when someone requests to meet me -- first of all, b
 
 Now the other thing is - I always say, "Hey, I'd love to meet. Here is my link. But feel free to send me yours, if that's easier for you." Problem solved. There's literally no power play at work, because I don't care if you reply with a link. I literally don't care. Like, great, now I can use your link, because then I can choose. And I even think receiving a link is better than sending a link, because that gives me control over when it should happen. As a link sender, you maybe forgot to block your Sunday or something, right? Or you forgot to block out your Friday evening and you already have a date, and then you may need to reschedule. But if you receive a link, now I can take my time and I can look into my calendar and say, "Yes, Monday is perfect." So this whole discussion -- and obviously, this person received a lot of opposite opinions of like, "No, these scheduling products are amazing."
 
-**Adam Stacoviak:** \[00:40:13.26\] Yeah, I've seen so many people be like, "I just got so much value from it. You're just \[unintelligible 00:40:15.01\] person."
+**Adam Stacoviak:** \[40:13\] Yeah, I've seen so many people be like, "I just got so much value from it. You're just \[unintelligible 00:40:15.01\] person."
 
 **Peer Richelsen:** Yeah. So I wouldn't say it's bad. It's amazing marketing. And even when that blew up, we saw a ton of new users signing up, because people were like, "Hey, if you don't like Calendly, there's also Cal." I mean, the entire industry is still so young. Just think about how many people you know who have a scheduling link versus those who don't. My mom is using my link and - I mean, that says a lot, right? We made the mom test. If your mom can use your product, you have A+ usability. \[laugh\]
 
@@ -294,7 +294,7 @@ There's so many things where both Calendly and Cal become multi-billion dollar c
 
 **Peer Richelsen:** Yeah, exactly.
 
-**Adam Stacoviak:** \[00:43:59.03\] Drop a few letters in the front of it, it's just Box, right? Dropbox or just Box? \[laughter\] It's kind of silly at some point, and that's why I asked you what's your relationship with Tope, because there could be this perspective... And I only loosely know some of his history with raising money even. I think that his first round of funding was like $100 million or something like that, and it was years into it. He had to grind for a long time with Calendly.
+**Adam Stacoviak:** \[43:59\] Drop a few letters in the front of it, it's just Box, right? Dropbox or just Box? \[laughter\] It's kind of silly at some point, and that's why I asked you what's your relationship with Tope, because there could be this perspective... And I only loosely know some of his history with raising money even. I think that his first round of funding was like $100 million or something like that, and it was years into it. He had to grind for a long time with Calendly.
 
 **Peer Richelsen:** Yeah.
 
@@ -326,7 +326,7 @@ There's so many things where both Calendly and Cal become multi-billion dollar c
 
 **Peer Richelsen:** A lot of years. And I'm grateful for their pioneer work of normalizing link sharing. I think that's the biggest thing that this pandemic has shown us; that the more and more people work online and remotely and in a different time zones... You know, we've never had that decentralized organizations before ever. If you take a look at our team, we have 14 team members in 12 different time zones or something, anywhere from China to Vancouver, which is almost around the entire globe. So that new world requires new solutions.
 
-\[00:48:11.01\] And it's naive to think that Calendly, even for Tope, to be like, "We own this space now, and there's no one else going into it." So I don't think he-- he's very respectful with us and I'm respectful with them. It's a very interesting relationship, but I think that's how most second-time founders or mature founders think of the space. You don't compete on war, you compete on the best product and let the consumers decide.
+\[48:11\] And it's naive to think that Calendly, even for Tope, to be like, "We own this space now, and there's no one else going into it." So I don't think he-- he's very respectful with us and I'm respectful with them. It's a very interesting relationship, but I think that's how most second-time founders or mature founders think of the space. You don't compete on war, you compete on the best product and let the consumers decide.
 
 **Adam Stacoviak:** Yeah.
 
@@ -340,7 +340,7 @@ There's so many things where both Calendly and Cal become multi-billion dollar c
 
 **Peer Richelsen:** Yeah.
 
-**Adam Stacoviak:** So if I want to use Cal, I have the option to use Cal.com. And since it's open source, I can spin probably a Docker instance on some VPS, or some cloud host somewhere or whatever, and I could administer my own. So if I'm an enterprise and I have restrictions, whatever, whatever, then you've got the EE directory in your open source repo, which is under a different license that is not open-sourced, it's proprietary code; still in the same vein, similar to GitLab. I mean, these are all normal practices...
+**Adam Stacoviak:** So if I want to use Cal, I have the option to use Cal.com. And since it's open source, I can spin probably a Docker instance on some VPS, or some cloud host somewhere or whatever, and I could administer my own. So if I'm an enterprise and I have restrictions, whatever, whatever, then you've got the EE directory in your open source repo, which is under a different license that is not open sourced, it's proprietary code; still in the same vein, similar to GitLab. I mean, these are all normal practices...
 
 **Peer Richelsen:** Yeah.
 
@@ -364,7 +364,7 @@ Now, the business model is -- I'd say we have two very different products. We ha
 
 **Adam Stacoviak:** Yeah.
 
-**Peer Richelsen:** \[00:52:00.17\] And for us, Cal.com is a real, real-- I have a statistic on Cal.com/open. The day we rebranded, the signups went ballistic; literally vertical, like a rocket. So it's undeniable that the brand is important. But what's more important to me is, first, consumers don't give a s\*\*\*t about open source. They rarely even know the difference. If we really want to connect a billion people, I'd say 90% of them don't know what open source means, or they have never interacted with open source in a way, like they've never opened a GitHub repository, but they care about the best product. At the end of the day, best brand, best product and best price - that's usually the triangle.
+**Peer Richelsen:** \[52:00\] And for us, Cal.com is a real, real-- I have a statistic on Cal.com/open. The day we rebranded, the signups went ballistic; literally vertical, like a rocket. So it's undeniable that the brand is important. But what's more important to me is, first, consumers don't give a s\*\*\*t about open source. They rarely even know the difference. If we really want to connect a billion people, I'd say 90% of them don't know what open source means, or they have never interacted with open source in a way, like they've never opened a GitHub repository, but they care about the best product. At the end of the day, best brand, best product and best price - that's usually the triangle.
 
 And what we've seen with open source - I mean, listen, this company has been around for pretty much eight months now, and we are not only on par with Calendly, but already build things that people ask that were nonexistent in Calendly. So the rate of innovation and the rate of deployment or the security - we have about 13 languages, 13 or 14 languages that are all made by the community and peer-reviewed by the community. It's a major factor for us to be actually a better product. So it's not only about selling to enterprises and having these highly regulated industries, but also it helps us to really have a short feedback cycle, talk to customers. And also, scheduling is a very integrations heavy market. So Zoom, Google Calendar, Apple Calendar and Google Meets - that's just a few to name, and then there's some analytics products...
 
@@ -378,7 +378,7 @@ If you have the developer, you pretty much own the market for most industries. Y
 
 **Peer Richelsen:** That's true. But also, I don't think an open source Stripe wouldn't be better than a closed source Stripe, because I think the value proposition of Stripe is the valuable partnerships with the banks.
 
-**Break:** \[00:56:04.24\]
+**Break:** \[56:04\]
 
 **Adam Stacoviak:** Definitely an interesting space, that's for sure. I mean, I never really considered how complex it could be. It sounds like what you're saying though is even by current measures, current time and market even, you're innovating faster than Calendly. And that's not you talking crap, it's just simply--
 
