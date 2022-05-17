@@ -22,7 +22,7 @@ So finally, I'm getting to go to Spain... I think there's a trend here - finally
 
 I think in general Europe has -- there's been a lot going on in Europe lately. And if we can be there and lift people's hearts a little bit, bring some joy, engage in stuff that we all enjoy so much as a community, I think that'll be a good contribution for us to make.
 
-**Gerhard Lazu:** \[00:04:16.01\] If people still remember how traveling works, and they can make it to the conference... And that's a big if. Fingers crossed that everyone makes their way, and they remember how plains and trains and all that works... Because it's been a while for many of us. I think it's going to be amazing.
+**Gerhard Lazu:** \[04:16\] If people still remember how traveling works, and they can make it to the conference... And that's a big if. Fingers crossed that everyone makes their way, and they remember how plains and trains and all that works... Because it's been a while for many of us. I think it's going to be amazing.
 
 **Priyanka Sharma:** And rules change a lot... So I highly recommend folks should keep looking at the KubeCon Cloud-Native Con event website, because we post information on what's essential to travel... And while we can't go into every country in detail, we have links and we have our requirements crystal clear... So keep checking the website. We're also updating it regularly. So yes, travel is harder than it was before, because we're less experienced now, and also because extra rules and regulations. So stay on top of it, keep checking the website... But I think we'll get there.
 
@@ -54,7 +54,7 @@ So that's how we came up with it... It has surpassed my expectations and how muc
 
 **Gerhard Lazu:** Yeah. I know I will. That means, again. So this is for real, what is happening today; every other day at the company that I work for we have half an hour of a non-meeting... Where because we're remote, we get together, we have a bit of fun for half an hour. And then of course we end up talking about work in the last 5-10 minutes, but the idea - I wanna say it's called Happy Hour; it's not called Happy Hour, and it does not have Gerhard in it. It's not the whole sub-team. It's not Happy Hour with Gerhard, but it's like half an hour, it's called \[unintelligible 00:08:15.26\] actually. And we have a coffee, in the morning, and we have a conversation that would happen maybe in the kitchen area of the building that we are working at... Which doesn't exist, obviously. But the idea is there. The idea is really there.
 
-**Priyanka Sharma:** \[00:08:33.05\] The watercooler, right?
+**Priyanka Sharma:** \[08:33\] The watercooler, right?
 
 **Gerhard Lazu:** The watercool, yes. Some call it the watercooler moment. That's the one. Great idea. So this is going out on the 11th of May, if I'm recording it right this time... And I'm pretty sure I am. I triple-checked. \[laughter\] People will listen to this episode, for sure.
 
@@ -84,7 +84,7 @@ Can you share with us any keynote spoilers a week before the conference? Anythin
 
 **Priyanka Sharma:** You are, absolutely.
 
-**Break:** \[00:11:44.17\]
+**Break:** \[11:44\]
 
 **Gerhard Lazu:** So what is different about this year's KubeCon EU compared to last year's, apart from this episode of Ship It? And I will keep repeating that, because it's super-important for me. \[laughter\]
 
@@ -100,7 +100,7 @@ I do think this is the first KubeCon Cloud-Native Con where all co-chairs are re
 
 **Gerhard Lazu:** I think that's going to be a huge improvement, because I do feel like in the past years not many areas could have been improved, because you're already doing an amazing job... But there was this one when it came about the diversity, and a certain perspective, a certain angle... But it also had to do with the maturity of the ecosystem. So this shows that you're at a point where this is really exciting now. And you would think that -- how many years have you been doing this? Eight? Seven?
 
-**Priyanka Sharma:** \[00:16:16.25\] It started in 2015. KubeCon started in 2015.
+**Priyanka Sharma:** \[16:16\] It started in 2015. KubeCon started in 2015.
 
 **Gerhard Lazu:** Okay, so almost seven years.
 
@@ -128,7 +128,7 @@ We also think that behaviors are changing even more, where it's like "Oh, I'm go
 
 **Gerhard Lazu:** Yeah, that makes sense. That really makes sense. One thing which I'm wondering about is - I know that there's a difference between EU and the US conference, the North America one. And I think that while they are similar, there's something to be said about attending both in-person to realize that there are certain differences. I'm not sure whether it's about the people that participate, it's about the location... I'm not sure what it is. But it feels like it's the same conference, but almost like the reverse.
 
-\[00:20:16.06\] It's not better or worse; that's not a fair comparison. It's different like in a different dimension. I haven't been able to quantify it yet, to say in what way, but I do have to say that to get the full experience, going to both conferences is a must. And this year I think it will be the first -- do you know that actually this is my first in-person EU KubeCon? I've never been in-person.
+\[20:16\] It's not better or worse; that's not a fair comparison. It's different like in a different dimension. I haven't been able to quantify it yet, to say in what way, but I do have to say that to get the full experience, going to both conferences is a must. And this year I think it will be the first -- do you know that actually this is my first in-person EU KubeCon? I've never been in-person.
 
 **Priyanka Sharma:** What?!
 
@@ -148,7 +148,7 @@ I think in terms of things happening more at North America versus EU, I wouldn't
 
 **Priyanka Sharma:** And then in terms of hybrid or in-person, I think that it is possible that some of the sponsor companies may do more announcements in North America. But what I am finding, at least this year, because of just excitement, is people are stoked, and they're just bringing all kinds of things to announce at KubeCon EU. So I think it's maybe in the past that there's been maybe more vendor announcements in North America. However, this year people are just ready to announce stuff, so it's gonna be different.
 
-**Break:** \[00:23:10.15\]
+**Break:** \[23:10\]
 
 **Gerhard Lazu:** I asked this question last year, but because no one heard the answer, I'm going to ask it again, okay? \[laughter\] What goes into shipping a conference like KubeCon? I mean, it's such a huge thing... And you would think that shipping applications is complicated, regardless whether they have a monolith or microservices... Well, a conference is much, much difficult. Organizing it, putting it out there, getting it out there and just seeing what happens. So what goes into it? I know that you see only a small subset of that, but the people that you work with - they must be telling you so many stories and so many challenges to getting a KubeCon out there. Can you tell us a little bit about that?
 
@@ -158,7 +158,7 @@ I think that the number one thing that goes into shipping such an excellent expe
 
 After that, the unique awesomeness of the cloud-native community. I would say, actually speaking to that whole shipping an application as a monolith versus microservices, I think we've had that experience in shipping events over the last few years. As you also said, "Oh, it's probably the team who goes and does all this, but you must hear a little bit." No, it's different, where it's become more loosely coupled teams working with the core events team in order to produce the best result possible, and those loosely-coupled teams spin their efforts up and down based on the timing and what is required. And that's been a subtle shift that we have made intentionally, at least while I've been here. And also since before.
 
-\[00:28:16.13\] A great example is the idea that Dan Kohn (who was my predecessor) had, which is to have community cultures for each event, which means it's a community-chosen track, or a set of tracks for talks so that it ensures staying current with the latest technology trends. And I think that's a great example.
+\[28:16\] A great example is the idea that Dan Kohn (who was my predecessor) had, which is to have community cultures for each event, which means it's a community-chosen track, or a set of tracks for talks so that it ensures staying current with the latest technology trends. And I think that's a great example.
 
 Another great example is the CNCF PR and marketing teams are all involved when the time is right, and usually there's lots of questions and evolutions as we are going through in execution to iterate on our structure and processes to keep elevating the experience. So there's that core, solid thing we need which comes from the LF Events team. And then we need the loosely-coupled teams which spin up and down, change how they're working with the events team in order to be responsive to community needs.
 
@@ -168,7 +168,7 @@ I think there's so much to be learned here by companies that are wondering how t
 
 The principles - I see a lot of similarities to how a good, healthy organization should operate and should be structured. And the end result - it may not be events, it may be code or products, but I think the principles are more or less the same. And that's why it fascinates me. It doesn't have to be code, it doesn't have to be infrastructure to start seeing the similarities, to recognize the good things that work, learning from them, and then applying them to your context. Even if it's applications.
 
-**Priyanka Sharma:** I one hundred percent agree. And you know, the interesting thing that I've noticed is that it comes down to workflows and process. You know, process gets a bad rep; it's boring. It's like, who wants to talk process? No one. But in reality, that's how you get things done, and that's (I think) what's behind the whole dev ops movement - change our workflow, change our process to understand all the elements of software development and delivery. Or I should say technology development and delivery, at this point.
+**Priyanka Sharma:** I one hundred percent agree. And you know, the interesting thing that I've noticed is that it comes down to workflows and process. You know, process gets a bad rep; it's boring. It's like, who wants to talk process? No one. But in reality, that's how you get things done, and that's (I think) what's behind the whole DevOps movement - change our workflow, change our process to understand all the elements of software development and delivery. Or I should say technology development and delivery, at this point.
 
 And the same is true when you're running a large-scale event like this. There are so many things. If you don't have a solid process and workflow, which also iterates on itself, you're just not gonna be able to do it. So that fundamental principle remains the same.
 
@@ -176,7 +176,7 @@ And the same is true when you're running a large-scale event like this. There ar
 
 **Priyanka Sharma:** It was an essential experience to be able to come in and do this job. To be even considered for this job. So I started my cloud-native journey in the early days. As you'd mentioned, I was working on the OpenTracing project, which has now merged into OpenTelemetry; and then I was also helping out Jaeger, and all kinds of stuff. Observability was my jam, basically. And that is how I actually learned about distributed systems, about infrastructure, and got into the community and understood their pain points, their challenges, and really who they were.
 
-\[00:31:58.17\] So I came in with a very focused approach of working on observability, finding myself in a community where I got along with people and we all understood each other - our challenges, and how we all saw the world. There's a lot of diversity in cloud-native, but there are core principles we all agree on. We all want to build the best software, best technology possible. We all want to be kind and welcoming and go out of our way to increase our diversity, equity and inclusion, and just be a model community. These are genuinely common principles every member of the community has.
+\[31:58\] So I came in with a very focused approach of working on observability, finding myself in a community where I got along with people and we all understood each other - our challenges, and how we all saw the world. There's a lot of diversity in cloud-native, but there are core principles we all agree on. We all want to build the best software, best technology possible. We all want to be kind and welcoming and go out of our way to increase our diversity, equity and inclusion, and just be a model community. These are genuinely common principles every member of the community has.
 
 So having been really immersed in it, I understood the ecosystem in a way that I would never have -- you can't helicopter in and get it. And I think it has been really helpful for me. For me, it's been a steady progression, where first I'm a contributor, and doing all the things on the ground, speaking everywhere I get an opportunity, working with end users... That was when I worked at OpenTracing and with the company LightStep. Then I moved to GitLab and I got elected to serve on the CNCF governing board, and I got to see a completely different side of how this organization is run.
 
@@ -188,7 +188,7 @@ So I'm wondering, which KubeCon EU conversations would you enjoy listening to? A
 
 **Priyanka Sharma:** Yes, absolutely. I think I always have the end user bias, so I would love for you to interview some of the folks who are doing great things. Mercedes is a great example. They are just wonderful contributors and implementers. And they actually have a keynote at the event, so you'll hear from them... Great people. I would highly recommend talking to them.
 
-\[00:34:53.15\] I think the co-chairs are excellent people. As I said, they're all end user representatives. There's Emily from Apple, there is Ricardo from CERN, and then there is Jasmine from Twitter. So all have a very unique perspective, and I think you should talk to them.
+\[34:53\] I think the co-chairs are excellent people. As I said, they're all end user representatives. There's Emily from Apple, there is Ricardo from CERN, and then there is Jasmine from Twitter. So all have a very unique perspective, and I think you should talk to them.
 
 And then I would also round it out by talking to some of our European key contributors and folks in cloud-native projects who are doing so much stuff. A bunch of the Prometheus team is there... There's so many folks, but I would definitely talk to them too, and hear their unique experience.
 
