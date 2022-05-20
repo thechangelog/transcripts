@@ -164,7 +164,7 @@ Another great example is the CNCF PR and marketing teams are all involved when t
 
 And all in all, I will say that KubeCon Cloud-Native Cons are our biggest efforts in the year, and we're all so proud to be part of it and give that experience to the community.
 
-I think there's so much to be learned here by companies that are wondering how to build a company, how to structure teams, how to deliver products, so on and so forth. You're doing it so successfully, in like a completely different context, which is conferences, events, bringing people together.
+**Gerhard Lazu:** I think there's so much to be learned here by companies that are wondering how to build a company, how to structure teams, how to deliver products, so on and so forth. You're doing it so successfully, in like a completely different context, which is conferences, events, bringing people together.
 
 The principles - I see a lot of similarities to how a good, healthy organization should operate and should be structured. And the end result - it may not be events, it may be code or products, but I think the principles are more or less the same. And that's why it fascinates me. It doesn't have to be code, it doesn't have to be infrastructure to start seeing the similarities, to recognize the good things that work, learning from them, and then applying them to your context. Even if it's applications.
 
