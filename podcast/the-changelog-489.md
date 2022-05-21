@@ -14,7 +14,7 @@
 
 **Mike Riley:** Well, this is my fourth book for Pragmatic Bookshelf. My first book was actually another home automation book called "Programming your home." That was written almost ten years ago, and that was at a time when Pi's were just sort of on the cusp. They hadn't really been put out there as a dedicated system that could be running these kinds of things.
 
-\[00:04:07.17\] At that time it was Arduinos, and servos, and you didn't even have things like the home assistants like Alexa or Siri. So a lot has changed in ten years. But at the same time, some of the things haven't changed, and one of the big reasons I wrote the book was because as I saw this proliferation of different home automation kits that were coming out, that were closed environments; they were single, "Buy this from unknown manufacturer, with unknown support, and plug it into your home and just trust it to do whatever it's going to do, regardless of what data it's gonna leak, or where it's gonna send that data to." And I saw a lot of that, particularly - you know, you can buy things like that from Amazon and various other online retailers, that don't tell you about the risks that are involved with that, or doesn't give you much of an understanding of what is happening on the backend.
+\[04:07\] At that time it was Arduinos, and servos, and you didn't even have things like the home assistants like Alexa or Siri. So a lot has changed in ten years. But at the same time, some of the things haven't changed, and one of the big reasons I wrote the book was because as I saw this proliferation of different home automation kits that were coming out, that were closed environments; they were single, "Buy this from unknown manufacturer, with unknown support, and plug it into your home and just trust it to do whatever it's going to do, regardless of what data it's gonna leak, or where it's gonna send that data to." And I saw a lot of that, particularly - you know, you can buy things like that from Amazon and various other online retailers, that don't tell you about the risks that are involved with that, or doesn't give you much of an understanding of what is happening on the backend.
 
 So I felt that it was time to revisit some home automation, and really put the power back into the end user. And the Pi is a great platform to do that, because it allows -- it's really designed for home enthusiasts, and it allows you to not understand the operating system that's running on it, but all the interfaces that are connecting to it. And because it's a learning system, it's really optimized for that experimentation, automation, exploration.
 
@@ -22,7 +22,7 @@ So I felt that it was time to revisit some home automation, and really put the p
 
 **Mike Riley:** Well, in addition to that, you think about a rack-mounted server from 20 years ago; it is now somewhat equivalent to that Pi. So just like the old days, when they used to talk about computers filling a room, or being the size of a refrigerator - it's the same kind of miniaturization that's happened here, which is also great for letting it just run continuously, because the power requirements are so low so that it's something that you can have work for you while you're asleep. In fact, one of the projects in my book really compiles and does a text-to-speech audio translation so that it compiles various news sources or RSS feeds that you prefer, and puts that into an audio feed ready for you to listen to in the morning... And you did all that while you were asleep. I use that every day, actually.
 
-**Jerod Santo:** \[00:07:52.01\] That's so cool. What struck me about the book is how much of the time you spend in the hardware selection, and like "Here are some hardware stuff you should know", and then the software setup... Because when Adam talks about not knowing that much Python - I was struck by how little coding you have to do. Like, there is code to write, but even your water leak notifier project, the test script is like 12 lines of code... You know, there's coding to do. But it's very accessible... You're really kind of gluing together other people's projects. I'm sure that your text-to-speech engine - you didn't write your own neural networks to get that done.
+**Jerod Santo:** \[07:52\] That's so cool. What struck me about the book is how much of the time you spend in the hardware selection, and like "Here are some hardware stuff you should know", and then the software setup... Because when Adam talks about not knowing that much Python - I was struck by how little coding you have to do. Like, there is code to write, but even your water leak notifier project, the test script is like 12 lines of code... You know, there's coding to do. But it's very accessible... You're really kind of gluing together other people's projects. I'm sure that your text-to-speech engine - you didn't write your own neural networks to get that done.
 
 **Mike Riley:** Yup.
 
@@ -42,7 +42,7 @@ The other thing I also stuck with was particularly on the hardware side - you kn
 
 But that being said, if you can't get your hands on it, you can try to go with the Pi 4. That being said, the book will work with a Pi 3, or even a Pi 2, but I do recommend at least a Pi 3 at minimum, because of the capability of running 64-bit applications. The days of 32-bit apps are like the days of 16-bit apps - they're going away, and most newer distributions and applications are 64-bit-enabled. That's just the reality of the world today. So if you can get at least the Pi 3, that's a great start. But preferably a Pi 4.
 
-\[00:12:13.28\] All that being said, in terms of hardware, you'd mentioned the water leak notifier, and I also mentioned about minimizing any kind of breadboard. Well, the water leak actually does have a detector that detects leakage, which is really just two metal surfaces that determine whether or not there's a connection between them. And of course, water will allow that conductivity, so that if there's water between the two sensors, then you've got a water leak.
+\[12:13\] All that being said, in terms of hardware, you'd mentioned the water leak notifier, and I also mentioned about minimizing any kind of breadboard. Well, the water leak actually does have a detector that detects leakage, which is really just two metal surfaces that determine whether or not there's a connection between them. And of course, water will allow that conductivity, so that if there's water between the two sensors, then you've got a water leak.
 
 So that actually has just two wires, but you can actually connect those wires directly onto the pins of the GPIO pins on the Pi. And I tell you which ones they are in the book, and it's really simple that you can then just poll those pins for any change, any state change. And once there is, then I show you how to cook that up to a notification mechanism which is for the most part email... Although I do do other projects where I use the Discord API to be able to send messages through Discord etc. But for the really simple stuff - again, try to keep it as basic as possible, so that there's not a lot of overhead, you don't need all of this additional knowledge or additional resources on the web to be able to utilize the surfaces. So just go with HTTP, SMTP, the basic protocols, and then when you're ready to start to go further, then you can hook into things like the Discord API, which takes a little bit of getting used to, but once you get a hang of it - I actually use that in two different projects in the book - it's actually pretty straightforward.
 
@@ -64,7 +64,7 @@ So just like everything in the world of development, DevOps, once you've done it
 
 **Mike Riley:** Yeah... And again, the compute board is really for a different use case. But the Pi 4 has the various USB, USB-C, Ethernet, like you mentioned... All the ports that are necessary; plus, of course, it's got Wi-Fi and Bluetooth. Now, if either because of supply chain constraints you can't get a hold of Pi 4, or you're just looking for something that's a little less expensive... Because you know, even the top-end Pi 4, even before all the difficulty of trying to get a hold of this hardware, was still in the close to $100 range... Which, you know, still, for a full-blown Linux computer is fairly cheap, but then again - people with a limited budget, or they just wanted to start testing the waters, there's the Pi Zero 2 W, which is also a phenomenal piece of technology. It's about the size of a gumstick, and while you don't have the pins mounted on the board, they're easy enough to put on the board with either an attachment; or if you don't need them - you know, a lot of people, if they aren't interfacing with the GPIO pins, it's really not that big of a deal not to have those pins actually mounted on the board.
 
-\[00:16:09.26\] But all the other limitations I can think of with the PI Zero 2 is the fact that it does not have on-board Ethernet. But if it's just a Wi-Fi device, I've got several of them throughout my house, just because of the fact that the Wi-Fi connectivity is...
+\[16:09\] But all the other limitations I can think of with the PI Zero 2 is the fact that it does not have on-board Ethernet. But if it's just a Wi-Fi device, I've got several of them throughout my house, just because of the fact that the Wi-Fi connectivity is...
 
 **Adam Stacoviak:** Solid.
 
@@ -124,7 +124,7 @@ For one of the projects in the book, which I've actually got in the back - that 
 
 **Mike Riley:** And so what I've got is that connected to a Pi Zero 2. Sitting on top of it is the temperature sensor that tells me when -- if it gets too warm, I'm going to trigger that Hue lightswitch that is going to enable the electric power to turn on the fan. And then when it starts getting cooler in the room, the fan will turn off.
 
-\[00:20:06.16\] So all that is automatic. I don't even have to think about it. So it's a great little home automation that comes in quite practically.
+\[20:06\] So all that is automatic. I don't even have to think about it. So it's a great little home automation that comes in quite practically.
 
 **Jerod Santo:** That's a baller move right there.
 
@@ -168,7 +168,7 @@ So there's so many things in the multi-purpose capabilities of the Pi... Open it
 
 **Jerod Santo:** The seal, yeah.
 
-**Mike Riley:** \[00:24:00.26\] But once you've got that lead put into it, then it's just a matter of monitoring the temperature, and then if it reaches a certain threshold on that temperature, send yourself a notification, either whether it's a WebHook, or if it's going into one of these different IM systems, like Teams, or Slack, or Discord, send you a notification that way. Or just a plain email. And you'll know about it.
+**Mike Riley:** \[24:00\] But once you've got that lead put into it, then it's just a matter of monitoring the temperature, and then if it reaches a certain threshold on that temperature, send yourself a notification, either whether it's a WebHook, or if it's going into one of these different IM systems, like Teams, or Slack, or Discord, send you a notification that way. Or just a plain email. And you'll know about it.
 
 **Jerod Santo:** What's the easiest notification system for one of these? It seems like it'd be email, or maybe you could use Twilio for SMS, or something... But maybe SMS is the easiest.
 
@@ -210,7 +210,7 @@ The other thing I've seen is where it connects actually directly into, say, your
 
 **Adam Stacoviak:** Yeah. I just wanted if the leads to create a leak; if there's an alternate route you could take. So if you determine plan A is leads in the freezer, however it does inhibit the ability to seal the freezer and there's a small leak... What are some alternate routes that you can do? What are different ways that you can think about the problem, basically?
 
-**Jerod Santo:** \[00:28:12.29\] Yeah, yeah, yeah. I think it's a good way of thinking about it. Like Mike said, there are hold-ups there. My current solution is sub-optimal, which is I did buy this detector that goes in the freezer and it's built for this exact purpose, and it's wireless, and it speaks to this other device that's over there, that will actually -- you know, it's an alarm system.
+**Jerod Santo:** \[28:12\] Yeah, yeah, yeah. I think it's a good way of thinking about it. Like Mike said, there are hold-ups there. My current solution is sub-optimal, which is I did buy this detector that goes in the freezer and it's built for this exact purpose, and it's wireless, and it speaks to this other device that's over there, that will actually -- you know, it's an alarm system.
 
 The problem with it is it's run on AA batteries, so that's the problem with it. So you've gotta have power to that sucker, right? That's rule one of alert systems, is don't let the batteries run out.
 
@@ -232,7 +232,7 @@ I do have to do some manual configuration when it comes to setting up Wi-Fi, so 
 
 **Jerod Santo:** That's cool. I hadn't heard of that one, Manjaro. We'll link it up in the show notes. "An operating system for everyone." Neat.
 
-**Break:** \[00:30:30.15\]
+**Break:** \[30:30\]
 
 **Adam Stacoviak:** So Mike, let's assume our listeners are excited about segment one and they're like "You know what? Shut up and take my money, give me a Raspberry Pi 4 if I can find one." You said you recommend the 8-gig version, because that's future-proofing... But what's a good next step? If they didn't wanna read the book, if they wanna listen to the podcast version only, what's a good next step once you get the Pi? What's that first step?
 
@@ -250,7 +250,7 @@ Now, you can get those SD cards for under $25 these days, even cheaper whenever 
 
 All to all though, by the end of the day, when you've got all those pieces of external accessories put together, that 8-gig Pi 4 is probably gonna cost you around $110... Which is still quite reasonable, considering the amount of compute power and the capability you're getting out of this computer. But once you've got that all connected, then obviously you're also gonna need a keyboard, probably a mouse if you've got the Raspberry Pi OS, which has its own GUI, which is Ubuntu-based... And then you're going to have to have a monitor, so that you can see what you're doing. Once you've got the Pi set up though, normally what I recommend is you try to get that on an SSH daemon as quickly as possible, so that way you don't have to have that Pi connected to your keyboard, your mouse, your monitor. So you've got a network connection, whether that's through your Ethernet wire connection, or you've already set it up for your Wi-Fi; it makes it much, much easier to just secure-shell into it and then be able to issue your commands that way.
 
-\[00:36:03.07\] There's a couple of really nice add-ons for something like an IDE, like Visual Studio Code, that allow you to really easily remotely connect to a device like a Pi over SSH, and be able to browse the files, be able to modify them, to update your code in almost real-time... And it's almost like you're working locally on the Pi, but in fact you're doing it over this SSH connection. I talk about that briefly in the book as one of the recommended add-ons if you're using Visual Studio Code for your Python code.
+\[36:03\] There's a couple of really nice add-ons for something like an IDE, like Visual Studio Code, that allow you to really easily remotely connect to a device like a Pi over SSH, and be able to browse the files, be able to modify them, to update your code in almost real-time... And it's almost like you're working locally on the Pi, but in fact you're doing it over this SSH connection. I talk about that briefly in the book as one of the recommended add-ons if you're using Visual Studio Code for your Python code.
 
 **Jerod Santo:** Yeah. That's super-cool. Is there any world where a particularly skilled hacker - not like cracker, but like a person who's ready to rock, could get one of those Raspberry Pi Zero 2 W's, put it on their network and SSH to it without ever deploying a keyboard and a monitor to it to get it set up? I would love to just spend $15, get it out there, SSH right in, and be rockin'. Is that possible
 
@@ -278,7 +278,7 @@ All to all though, by the end of the day, when you've got all those pieces of ex
 
 And once you've got your sensors attached, then you can pretty much continue to debug remotely, while you're sitting in front of your favorite PC. And it could be, you know, several doors down, it could be three floors away... But the nice thing is that from a development standpoint everything seems like it's right there, local, and you're getting immediate responses to whatever sensors that you're trying to poll. So it makes debugging really easy that way, when you're set up remotely.
 
-**Adam Stacoviak:** \[00:40:04.22\] That's how I do it, is SSH. I just image with the Raspberry Pi Lite, move along, add the SSH file to the root, SSH into it, it gets an IP address from my DHCP server, so it's pretty simple there... If not, I can hop into Unify and see "Okay, which devices on my network was the IP address?", find it, log in via SSH, add my key, do some additional stuff... These are thing that -- I don't use Ansible, so these are things I could probably eventually automate... Like you had said, where you're updating your operating system, doing different things like that... But I'm manually doing things. Now, I have two Pi's, so it's not that hard, but...
+**Adam Stacoviak:** \[40:04\] That's how I do it, is SSH. I just image with the Raspberry Pi Lite, move along, add the SSH file to the root, SSH into it, it gets an IP address from my DHCP server, so it's pretty simple there... If not, I can hop into Unify and see "Okay, which devices on my network was the IP address?", find it, log in via SSH, add my key, do some additional stuff... These are thing that -- I don't use Ansible, so these are things I could probably eventually automate... Like you had said, where you're updating your operating system, doing different things like that... But I'm manually doing things. Now, I have two Pi's, so it's not that hard, but...
 
 The additional thing I do that's probably not necessary, but it's a nicety if you want it, is enable the VNC server inside the Raspberry Pi. I use a Mac, so I can use the screen-sharing tool, or the remote app that lets people remotely access other Macs on the network; I use that essentially to visually see the screen. You said before, with adding a monitor, HDMI - I skip all that. I buy the absolute base-level Pi. And SSD - I happen to go with 64 gigs, because I'm just slightly crazier than you...
 
@@ -302,7 +302,7 @@ I think they are obviously working on optimizations. If you're trying to use VLC
 
 I use Ubuntu server on three of my Pi 4's, because I'm running a Kubernetes cluster with Pi. Just because I can.
 
-**Jerod Santo:** \[00:44:11.22\] I was gonna say "Why?" \[laughter\]
+**Jerod Santo:** \[44:11\] I was gonna say "Why?" \[laughter\]
 
 **Mike Riley:** That way I absolutely make sure that whatever applications must absolutely be running at all times, I've got that capability and that scalability. But yeah, it's mostly just for fun, and to say that yes, I can run a full-blown Kubernetes cluster with two nodes and a master on a primary server that is controlling everything internally.
 
@@ -328,7 +328,7 @@ The Pi-hole, for instance, has a nice image that you can run on the Pi... But ag
 
 **Adam Stacoviak:** Yeah.
 
-**Mike Riley:** \[00:48:13.01\] Where they're gonna take the 5 - I can only imagine it's going to continue to increase, both the CPU, GPU, and probably even some sort of a RAM upgrade. I can imagine they'll probably offer a 16-gig version, because they can. And anybody like me, who's really starting to get to that limit of the 8-gig will probably appreciate that, and once again, allow me to future-proof for another couple of years.
+**Mike Riley:** \[48:13\] Where they're gonna take the 5 - I can only imagine it's going to continue to increase, both the CPU, GPU, and probably even some sort of a RAM upgrade. I can imagine they'll probably offer a 16-gig version, because they can. And anybody like me, who's really starting to get to that limit of the 8-gig will probably appreciate that, and once again, allow me to future-proof for another couple of years.
 
 **Adam Stacoviak:** So when you push your Pi's, since you say you try to minimize how many you buy, or kind of buy the 8-gig version - do you simply go full utilization to each Pi? Is that the way you look at when you might pull out another one, or buy another one? Is it more like "I wanna fully utilize this single Pi here, and then maximize, and then feel like if I have more services to run, then it's a whole new Pi, I then begin to fill up and maximize?"
 
@@ -354,7 +354,7 @@ The Pi-hole, for instance, has a nice image that you can run on the Pi... But ag
 
 **Mike Riley:** Yeah, actually - I'll be honest with you, I used to have a lot of hardware. And of course, I had to pay for the electricity to run all that hardware. But with the Pi's, especially with the Pi 4 - when the Pi 4 came out, it really helped to allow me to decouple and decommission a lot of that old hardware, because it just didn't make sense to run this hardware for 24/7, where I would just occasionally ping it. So I got myself a couple of Pi's, and even for the experimentation stuff with the Kubernetes cluster I put together - that's really just three Pi's stacked together.
 
-\[00:52:17.00\] I've got a mounting kit from one of the Pi distributors. It's just a Plexiglas mounting kit with the brass mounts, and it looks really nice. I probably could go downstairs and pull it out of the wall and bring it up here, but then of course my cluster would go down and I'd get all these alerts now.
+\[52:17\] I've got a mounting kit from one of the Pi distributors. It's just a Plexiglas mounting kit with the brass mounts, and it looks really nice. I probably could go downstairs and pull it out of the wall and bring it up here, but then of course my cluster would go down and I'd get all these alerts now.
 
 **Jerod Santo:** You can't have that.
 
@@ -386,7 +386,7 @@ But you know, in terms of wired devices, when we built the house I put together 
 
 You could always go less expensive if you don't need Wi-Fi 6 throughput, but again, I always like to future-proof... So make the early investment first, and then you don't have to worry about it for another couple of years.
 
-**Adam Stacoviak:** \[00:56:04.04\] Before you know it, you've got 15-20 clients on your network, maybe more, and you're like "I'm maxxing out--" not so much the actual bandwidth, but the multi-client bandwidth; how many clients can connect to one single point, and get decent throughput to that point, while also broadcasting to others. It gets heavy traffic.
+**Adam Stacoviak:** \[56:04\] Before you know it, you've got 15-20 clients on your network, maybe more, and you're like "I'm maxxing out--" not so much the actual bandwidth, but the multi-client bandwidth; how many clients can connect to one single point, and get decent throughput to that point, while also broadcasting to others. It gets heavy traffic.
 
 **Mike Riley:** And you've also got clients in your home that are streaming 4k videos from various streaming sites, so... Yeah, that collapses pretty quickly if you don't scale accordingly.
 
@@ -406,7 +406,7 @@ You could always go less expensive if you don't need Wi-Fi 6 throughput, but aga
 
 **Mike Riley:** You know, they're just Comcasting that way... \[laughs\]
 
-**Break:** \[00:57:58.03\]
+**Break:** \[57:58\]
 
 **Jerod Santo:** So all of the examples in your book are Python, but as we've been talking - because this is a general system, this is Linux machines, so pick your favorite programming language; this is a full-fledged, Turing-complete operating system. So you can write stuff in whatever language that you want. The thing that ties it all together though are the different sensors that you can plug into these devices, and then access the data off those sensors, and your mileage may vary based on your programming language du jour, how you access that particular information... And all of Mike's examples will show you how to get at it from the Python side of things.
 
