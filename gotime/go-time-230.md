@@ -20,7 +20,7 @@
 
 **Matt Holt:** And I'm joining you from Utah.
 
-**Natalie Pistunovich:** \[00:03:56.18\] So we're kind of like across so many different timezones... Always fun to have those shows. The benefit of the internet. So tell us a little bit about yourselves, and your intro question will be not an animal that starts with the first letter of your name, but WHEN did you start using Go?
+**Natalie Pistunovich:** \[03:56\] So we're kind of like across so many different timezones... Always fun to have those shows. The benefit of the internet. So tell us a little bit about yourselves, and your intro question will be not an animal that starts with the first letter of your name, but WHEN did you start using Go?
 
 **Matt Holt:** Mohammed, you go first.
 
@@ -64,7 +64,7 @@ In 2014 I was doing a web dev job as my full-time. We were a Java shop, and I wa
 
 And probably the thing that people mostly talk about when they think about what's special about Caddy is that it uses HTTPS by default. So it's the only server that does that automatically and by default, without needing any config; it will just try and make TLS work for your site, and manage that all automatically.
 
-**Jon Calhoun:** \[00:08:06.14\] See, I can say for myself that was pretty much the original draw to Caddy, was - you wanna set up some sort of HTTPS, and setting it up in other places has always historically been a pain in the butt. I remember the first time I had to get a certificate, and I was probably a teenager at the time... And it was one of those things where trying to do that while not having the money to really wanna do it for a side project was a nightmare for the longest time. So seeing things like Letsencrypt, or - is it ZeroSSL, is that one of the other ones? There's a bunch of them out there.
+**Jon Calhoun:** \[08:06\] See, I can say for myself that was pretty much the original draw to Caddy, was - you wanna set up some sort of HTTPS, and setting it up in other places has always historically been a pain in the butt. I remember the first time I had to get a certificate, and I was probably a teenager at the time... And it was one of those things where trying to do that while not having the money to really wanna do it for a side project was a nightmare for the longest time. So seeing things like Letsencrypt, or - is it ZeroSSL, is that one of the other ones? There's a bunch of them out there.
 
 **Matt Holt:** Yup. There's a few others.
 
@@ -92,7 +92,7 @@ If you wanna work on the CLI, it's there. If you wanna work on the config loadin
 
 And you'll always -- it's the nature of projects; there's a fractal nature. There's so many things that yo can work on, and you will always find something that's either a good first issue, or something that requires more depth and knowledge about the project itself, its architecture, or the Go runtime; if you wanna look at performance, you can go begin there. That will be perhaps a bit challenging. \[unintelligible 00:12:09.12\] it's all in there.
 
-\[00:12:13.23\] For example, one of the first things I worked on was basically looking at the warnings or the messages golint was giving (golint CI). It was basically saying "Change the order of these fields and that struct to make it more compact", and stuff like that.
+\[12:13\] For example, one of the first things I worked on was basically looking at the warnings or the messages golint was giving (golint CI). It was basically saying "Change the order of these fields and that struct to make it more compact", and stuff like that.
 
 So it was easy to get into the project and learn more about it as I worked on it more and more, picking up stuff like that.
 
@@ -114,7 +114,7 @@ Mohammed from the beginning has been awesome about optimizations and little nuan
 
 So the HTTP server has a start function and when it's called, that's when it starts its engine, so to speak, and starts serving your site. And then when it's stopped, it shuts down gracefully. So Caddy doesn't know anything about HTTP, really. So that's why I use C now... I don't know if this is clear to the listeners yet, but the implication with Mohammed's work with Caddy SSH is that you can now deploy a Caddy instance that does all that you need to do with one unified configuration. So you need to run an HTTPS server, you put that in your config; you need a memory-safe SSH server - you put that in your config. And you just deploy this one binary that's static and has no dependencies, and is memory-safe, and such, and it takes care of all the TLS for you. Obviously, SSH doesn't necessarily use TLS, but the idea is that it's kind of your one-stop-shop for memory-safe static deployments.
 
-**Break:** \[00:16:39.09\]
+**Break:** \[16:39\]
 
 **Jon Calhoun:** Mohammed, if I were to install your Caddy SSH extension and to run it, this would allow me to SSH into the server that's running Caddy, correct?
 
@@ -124,7 +124,7 @@ So the HTTP server has a start function and when it's called, that's when it sta
 
 **Mohammed S. Al Sahaf:** Yeah, especially with the SSH, because over the years - SSH has been around since the '90s, and the defaults have been changing and improving over time, but we have so many blogs and tutorials written that were probably \[unintelligible 00:19:45.05\] the early 2000's, while we are here in 2022 and SHA 1 isn't safe anymore, and RSA - you would need to have a minimum of 2048 bits, and so on.
 
-\[00:20:01.05\] At the same time, you'll find those tutorials, those blog posts saying "Well, generate an RSA 1024-bit key and it should be alright to use with your SSH server." The goal is just like Caddy now is working with \[unintelligible 00:20:14.10\] defaults for the certificates will do the same for the SSH server. So one of the things that I made sure to implement is the keys that are generated automatically, they follow the modern recommendations. For example, if there is no RSA key available minimum, one will be generated automatically for you, and it will be 4096 bit by default.
+\[20:01\] At the same time, you'll find those tutorials, those blog posts saying "Well, generate an RSA 1024-bit key and it should be alright to use with your SSH server." The goal is just like Caddy now is working with \[unintelligible 00:20:14.10\] defaults for the certificates will do the same for the SSH server. So one of the things that I made sure to implement is the keys that are generated automatically, they follow the modern recommendations. For example, if there is no RSA key available minimum, one will be generated automatically for you, and it will be 4096 bit by default.
 
 The other key that's automatically generated is the ECDSA, but the regular DSA isn't generated, and so on. All of that is written in the comments, in the docs, in the code docs itself.
 
@@ -146,7 +146,7 @@ I remember reading one of -- some of the stuff I came across, and I used a few b
 
 **Matt Holt:** I'm glad you did that, because I don't even really wanna go there... It sounds kind of gnarly.
 
-**Mohammed S. Al Sahaf:** \[00:24:06.06\] Oh, it is. It's funny, because here we are, we have the basic kind of system we work on almost always virtual machines, yet we're still SSH-ing into a server. The other side - and the name still implies it; it says teletype, pseudo-teletype, and you will tell the server "Here are my screen dimensions. Give me the text or the output based on those screen dimensions." And when you change the window of your shell, your SSH client will tell the server "Okay, these are the new dimensions of width and height. Now resize everything and give me back the response." Which is strange, because the remote machine isn't really connected to a screen. It's emulated all the way down, and it all goes back to, I think, the '60s or the '50s, whenever they had actual teletypes connected to the actual hardware, and it actually had to tell it "Yes, I have a screen of this particular size, and you have to redraw everything to that size." But now, here we are in 2022 and we still have to do all of that, because hey, we are emulating everything down to the pixel, because we have legacy.
+**Mohammed S. Al Sahaf:** \[24:06\] Oh, it is. It's funny, because here we are, we have the basic kind of system we work on almost always virtual machines, yet we're still SSH-ing into a server. The other side - and the name still implies it; it says teletype, pseudo-teletype, and you will tell the server "Here are my screen dimensions. Give me the text or the output based on those screen dimensions." And when you change the window of your shell, your SSH client will tell the server "Okay, these are the new dimensions of width and height. Now resize everything and give me back the response." Which is strange, because the remote machine isn't really connected to a screen. It's emulated all the way down, and it all goes back to, I think, the '60s or the '50s, whenever they had actual teletypes connected to the actual hardware, and it actually had to tell it "Yes, I have a screen of this particular size, and you have to redraw everything to that size." But now, here we are in 2022 and we still have to do all of that, because hey, we are emulating everything down to the pixel, because we have legacy.
 
 **Matt Holt:** I was just looking at the list of modules... If you go to the Caddy download page, or the modules page, and you look at the SSH app that you wrote - it registers a lot of plugins or modules. I see SSH actors, actor matchers, ask, lots of ask and authentication, different providers and flows, config loaders and matchers, session authorizers, signers... Even an SFTP subsystem, it looks like. This is pretty thorough. What can you do with this exactly?
 
@@ -156,7 +156,7 @@ I remember reading one of -- some of the stuff I came across, and I used a few b
 
 **Mohammed S. Al Sahaf:** For the shell actor there are a few enhancements that I've been working on locally. I know there are certain areas or gaps in the implementation that I have picked up on -- that I've fixed locally, and I haven't pushed yet... Because C is in the way. So the shell needs a lot of enhancements. There are a lot of actors that could be implemented. Perhaps proxy... I don't know. It takes a bit of creativity. Shell and static response were the least creative things, and they were probably the mostly used actors or expected functionalities out there... And this is why I went with them.
 
-**Matt Holt:** \[00:27:54.15\] I could see this being extended to implement custom SSH apps. I've seen kind of a resurgence lately in graphical, SSH-based applications, and I could see this maybe being a good platform to launch and deploy those. So you can deploy a website, but you can also deploy an SSH app. So if a user wants to SSH into it, you can have this nice tty. But that's really cool. It's retro and it's cool.
+**Matt Holt:** \[27:54\] I could see this being extended to implement custom SSH apps. I've seen kind of a resurgence lately in graphical, SSH-based applications, and I could see this maybe being a good platform to launch and deploy those. So you can deploy a website, but you can also deploy an SSH app. So if a user wants to SSH into it, you can have this nice tty. But that's really cool. It's retro and it's cool.
 
 **Jon Calhoun:** I think one of the ones I saw recently was by Charm, I think was the company... They have like a self-hosted Git server that made it look all pretty and stuff when you SSH-ed in. But every time I see one of those, I just think that like that's its own style of programming, making something look good in the terminal, and doing all that stuff.
 
@@ -182,7 +182,7 @@ We actually do have a lot of business users in JSON... So that might be helpful 
 
 **Jon Calhoun:** So are any of those built-in extensions that would be worth checking out for somebody who's just getting started, versus the ones that are a lot more complex?
 
-**Matt Holt:** \[00:31:58.26\] Yeah, I would check out extensions or modules that are like what you want to build. So if you want to build an HTTP handler that handles requests, then you should look at HTTP handlers. A simple one is the static response handler, where you just hardcode a response. That's a pretty good one. If you wanna write an app, the HTTP app is pretty complex. The TLS app might be a little better. There's also the PKI app, that's even simpler. So yeah, just look at the kind of module that you want to implement, and we have documentation pages explaining what the different kinds of modules are, and kind of how that works.
+**Matt Holt:** \[31:58\] Yeah, I would check out extensions or modules that are like what you want to build. So if you want to build an HTTP handler that handles requests, then you should look at HTTP handlers. A simple one is the static response handler, where you just hardcode a response. That's a pretty good one. If you wanna write an app, the HTTP app is pretty complex. The TLS app might be a little better. There's also the PKI app, that's even simpler. So yeah, just look at the kind of module that you want to implement, and we have documentation pages explaining what the different kinds of modules are, and kind of how that works.
 
 **Natalie Pistunovich:** \[unintelligible 00:32:32.06\] for people who want to start, and Mohammed, you gave a very good answer of "Start something small, and build on top of that. Don't make that too complex." Do you feel that your experience as a product manager helped you start in an organized way? And if yes, if you've found something that works well in your team at work and you took with you to building this, what are some tips that you can share?
 
@@ -194,15 +194,15 @@ We actually do have a lot of business users in JSON... So that might be helpful 
 
 And you know, if it's a breaking change, you're gonna have all of those customers yelling at you over \[unintelligible 00:34:37.03\] And with that, I find developing something from scratch is way better. The way it feeds back is - for me as a product manager, one of the things I took upon myself, because I was frontline support at one point in time, and then I shifted to product management... And what I do all the time is I take an hour or two every day and I sit with the frontline support team and I ask them for feedback - what do the customers complain about? And when I started working on the project, the SSH app, I had to take a similar perspective to that, like "I'm gonna structure this app in a way that will be used in a critical function, in a critical area. Now, I need it to be done in a way where support is gonna be easy, the customer onboarding is gonna be nice and simple and straightforward, and it should be intuitive." And this is where I had to take on the frontline support hat, like "What is gonna be a stress point for them, and how do I work around that?" I don't know if that makes sense or not...
 
-**Natalie Pistunovich:** \[00:35:57.11\] This is an interesting answer. It makes a lot of sense, and it also makes me think about people who take the path from project or product management into developer... Because you hear a lot about people going from software into product management, but I have to say, I personally know less people who took this path. But it sounds like this gives you such a toolbox that you wouldn't have otherwise. So that's an interesting to think about.
+**Natalie Pistunovich:** \[35:57\] This is an interesting answer. It makes a lot of sense, and it also makes me think about people who take the path from project or product management into developer... Because you hear a lot about people going from software into product management, but I have to say, I personally know less people who took this path. But it sounds like this gives you such a toolbox that you wouldn't have otherwise. So that's an interesting to think about.
 
 **Matt Holt:** I think more software should be written like that, with that approach.
 
 **Jon Calhoun:** I think in general there's a lot of people who get into software development and -- I don't know how to describe this... It's almost like they view things like this is the way it should be for good software, and they ignore the fact that there are real business needs that need to be achieved, and things that need to be maintained. And I think it takes - especially newgrads who are going into software, it takes them a little bit to realize that there is a business, and business actually matters more than the actual software being the prettiest thing in the world... So being a product manager probably makes that very clear, like "The only thing that matters is my project moving forward." Whereas a software developer -- I know some software developers that could probably sit there, rewriting the same application for like six years, trying to make it perfect.
 
-**Break:** \[00:37:07.17\]
+**Break:** \[37:07\]
 
-**Jingle:** \[00:39:24.01\]
+**Jingle:** \[39:24\]
 
 **Natalie Pistunovich:** So, gentlemen... What is the unpopular opinion that you brought onboard?
 
@@ -214,7 +214,7 @@ And you know, if it's a breaking change, you're gonna have all of those customer
 
 **Matt Holt:** Yeah, of course. I'm writing kind of a frontend app in my spare time right now, and there definitely are a few little pain points, but it's kind of like those pain points in Go, where you just write a less function, or something like that. So you do that in vanilla JavaScript, it's such a -- like, the traditional way of building web applications, it just runs so fast, compared to... And it's way less clunky than a lot of modern ones, with just kind of a plain stack, nothing fancy.
 
-**Jon Calhoun:** \[00:40:24.13\] I kind of wonder if half that issue stems from the fact that for the longest time vanilla JS was very hard to use, by itself at least... And I agree with you that it's gotten way, way better, to the point that if somebody started over, I'd be like "You can start with vanilla JS." But I don't know if I'd use it to build an entire frontend or not... I haven't tried recently, so I can't really speak to what that feels like... But I can definitely say that I understand why people are in the mindset of "That's the way we do it."
+**Jon Calhoun:** \[40:24\] I kind of wonder if half that issue stems from the fact that for the longest time vanilla JS was very hard to use, by itself at least... And I agree with you that it's gotten way, way better, to the point that if somebody started over, I'd be like "You can start with vanilla JS." But I don't know if I'd use it to build an entire frontend or not... I haven't tried recently, so I can't really speak to what that feels like... But I can definitely say that I understand why people are in the mindset of "That's the way we do it."
 
 **Matt Holt:** Yeah. I mean, maybe there's a place for frameworks, but I'm not even using jQuery at this time, and it's really been a breeze putting this together. I understand what's going on -- the DOM is a weird place, and there are definitely quirks, JavaScriptisms that are just a little strange; you've gotta read some documentation carefully or you get bit pretty hard... But it's just -- I have full control over things that are going on. I know exactly the performance of something... I have a very good grasp of it, just because it's bare-browser, so to speak.
 
@@ -254,7 +254,7 @@ I've definitely seen people sit on a spreadsheet, doing things that -- manually 
 
 **Natalie Pistunovich:** The GitHub autocomplete thing, yeah.
 
-**Jon Calhoun:** \[00:44:00.17\] I don't know if I'd trust that fully to write all my queries, but... That'd be interesting to try though. It's hard for me too, because I use spreadsheets for simple stuff all the time, where I just don't wanna code, and it's just real quick to throw something -- now, granted, most of my spreadsheets are throw-away spreadsheets of like throwing a couple things in here real quickly, doing some calculations, and... It's like a calculator almost.
+**Jon Calhoun:** \[44:00\] I don't know if I'd trust that fully to write all my queries, but... That'd be interesting to try though. It's hard for me too, because I use spreadsheets for simple stuff all the time, where I just don't wanna code, and it's just real quick to throw something -- now, granted, most of my spreadsheets are throw-away spreadsheets of like throwing a couple things in here real quickly, doing some calculations, and... It's like a calculator almost.
 
 **Matt Holt:** I'm kind of the same way. I use it like a disposable calculator, simple stuff... If I have to start looking up formulas, I'm switching to SQLite.
 
@@ -276,7 +276,7 @@ I've definitely seen people sit on a spreadsheet, doing things that -- manually 
 
 **Jon Calhoun:** I'm not saying one thing one way or the other, I just -- I laugh that you go to the documentation and the third line in \[unintelligible 00:45:15.24\] and I'm like "I feel like this right here has gotta lead to a lot of hatemail of some sort..." Although -- I mean, given your use case, I personally don't know a much better option for what you're doing, where you need a bunch of things imported and built with it.
 
-**Matt Holt:** I mean, it's either the two lines of code that you add to - well, more than that; you'd have to import the package and then you'd have to know all the module types in that package and call register module yourself. I don't think that's necessary. I think if you're using a package that has n number of modules, just plug them in. They're already there.
+**Matt Holt:** I mean, it's either the two lines of code that you add to - well, more than that; you'd have to import the package and then you'd have to know all the module types in that package and call register module yourself. I don't think that's necessary. I think if you're using a package that has N number of modules, just plug them in. They're already there.
 
 I think Caddy has some other unpopular design decisions, but I still stand by for the most part, some of them especially. Some people still don't love the JSON thing, but the JSON thing is wonderful, and you don't have to use it.
 
@@ -292,7 +292,7 @@ I think Caddy has some other unpopular design decisions, but I still stand by fo
 
 **Jon Calhoun:** I think Mark Bates has done it with Buffalo stuff before, but that's one of the few people I know that's even gone into that realm at all. Most projects I just don't think support it. They'd just be like "These are the modules we have. If you want others, good luck."
 
-**Matt Holt:** \[00:47:07.03\] Yeah. I mean, sometimes there is still some debate over Caddy's module design in terms of the fact that they have to be compiled in... Some people kind of hate that. But a lot of people love it, and it has a lot of advantages.
+**Matt Holt:** \[47:07\] Yeah. I mean, sometimes there is still some debate over Caddy's module design in terms of the fact that they have to be compiled in... Some people kind of hate that. But a lot of people love it, and it has a lot of advantages.
 
 **Jon Calhoun:** What would the alternative be? Having like a second server running that it communicates with?
 
