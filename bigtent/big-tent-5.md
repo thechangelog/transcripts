@@ -76,7 +76,7 @@
 
 **Ed Welch:** Thanks. I really wanted to hop in on that... I had some thoughts on what your outfit should be, but I wasn't introduced yet... \[laughter\]
 
-**Mat Ryer:** \[00:03:59.23\] Well, what would you say? What should my outfit be then?
+**Mat Ryer:** \[03:59\] Well, what would you say? What should my outfit be then?
 
 **Ed Welch:** Well, I feel it should be like maybe a combination of a onesie and a T-shirt; you know, like a Uni-Tee...
 
@@ -114,7 +114,7 @@ But yeah, so I've become very appreciative of how much information and how quick
 
 **Mat Ryer:** Yeah. Well, I think for devs, a lot of people kind of -- I don't know, we start off, as you... Yeah, I want you to say that thing you said earlier, about the first program...
 
-**Ed Welch:** \[00:08:16.05\] Yeah, that the first thing that every programmer ever does is write a log statement. Hello World is a log statement. And so the very first thing we ever do is to see if a program works. Maybe the reason why I like that interaction with the real world, with programs, is because when a program is running, if it doesn't log anything, or have metrics or another output, you have no idea if it's doing anything, or what it's doing. It exists somewhere, and it runs... So log statements are the kind of first and easiest, and the one that have been around forever, for how you get some idea if your application is even running or doing anything.
+**Ed Welch:** \[08:16\] Yeah, that the first thing that every programmer ever does is write a log statement. Hello World is a log statement. And so the very first thing we ever do is to see if a program works. Maybe the reason why I like that interaction with the real world, with programs, is because when a program is running, if it doesn't log anything, or have metrics or another output, you have no idea if it's doing anything, or what it's doing. It exists somewhere, and it runs... So log statements are the kind of first and easiest, and the one that have been around forever, for how you get some idea if your application is even running or doing anything.
 
 **Mat Ryer:** Yeah. So it's familiar then, I think, for most devs, what logging is. We're literally just talking about printing information out. And when you're writing a program and iterating on it and trying to get it to work, that's a great tool for that. And then the question is - because you end up sometimes with quite a lot of stuff being written out there at the end... Do you go back through and just delete it all, and then only start to log bits you need as you find out in the future? Or do you log everything and just ignore the things you don't need? And then of course, at scale that starts getting complicated and expensive. So what's your approach with that?
 
@@ -136,7 +136,7 @@ But yeah, so I've become very appreciative of how much information and how quick
 
 **Matt Toback:** You were like, "I hope I get through this and nobody asks..."
 
-**Ed Welch:** \[00:11:46.05\] Yeah, well, it's funny - so every programming language has a sort of different definition of levels. I think the range runs from something like trace, debug, warn, info, warn, error, and that's kind of the severity. Most loggers let you choose a severity that you can log at. So if you said "info", only info, warn and error logs would be displayed. If you said "trace", everything would be displayed.
+**Ed Welch:** \[11:46\] Yeah, well, it's funny - so every programming language has a sort of different definition of levels. I think the range runs from something like trace, debug, warn, info, warn, error, and that's kind of the severity. Most loggers let you choose a severity that you can log at. So if you said "info", only info, warn and error logs would be displayed. If you said "trace", everything would be displayed.
 
 **Matt Toback:** Are those generally agreed upon, or do you kind of pick and choose which ones you care about, in the same way that you would pick severities of support tickets? I feel like I've been on teams where you pick like 15, which then it basically means nothing. Or you pick 2. Is everyone using the same levels?
 
@@ -160,7 +160,7 @@ I have an opinion, for example, that an error log line should represent a proble
 
 **Ed Welch:** Right. The approach of having two is not unreasonable, separating... But there's another thing too, which is the type of logs. So we can kind of jump into the weeds a little... Not all log lines are the same. We've talked so far about log lines that you would use for understanding what your program is doing, as a debugger, or as a human debugging it, to know if it's working properly. But most of the log content in the world are things like access logs. It's an event in time where a resource was requested, or an order was created.
 
-**Mat Ryer:** \[00:16:06.03\] Is that for like auditing purposes, and things like that?
+**Mat Ryer:** \[16:06\] Is that for like auditing purposes, and things like that?
 
 **Ed Welch:** Yeah. And then those often have much different use cases, like business intelligence, or security, or just understanding -- well, I guess that's business intelligence; how often is a thing used, or a resource requested, what are maybe some metrics on response time for different resources and different paths... These things get logged at tremendous volume, they're very uniform... And we don't really have log levels assigned -- you know, the log level concept I've just described doesn't include something like audit log or access log. So I think there's maybe room to think outside the box here a little bit.
 
@@ -190,7 +190,7 @@ I think maybe the thing we should teach people or people should think about is t
 
 And Matt, to your question earlier about is it a nightmare with other people's code, and stuff - basically, what happens is you just ignore the logs. You're sort of ignoring them. Or it's very common when you're working on something to put lots of stars at the beginning of the line, to sort of draw your attention to it, in the stream of noise... That's what it feels like.
 
-\[00:19:53.22\] It's funny, it is kind of like almost as if it's an afterthought all the time, so it's very interesting to me to change that and start to think "What's our logging strategy upfront?" And like you're saying, Ed, that log line - how do you make it useful to somebody? Like, can we just put like a runbook link in for a certain error, and things like that?
+\[19:53\] It's funny, it is kind of like almost as if it's an afterthought all the time, so it's very interesting to me to change that and start to think "What's our logging strategy upfront?" And like you're saying, Ed, that log line - how do you make it useful to somebody? Like, can we just put like a runbook link in for a certain error, and things like that?
 
 **Ed Welch:** I'm even just feeling anxiety on this idea that -- so if you're just ignoring most of it, that's still noise. I don't care about the cost, I don't care about the cost of storage, I don't care about anything, but it just feels like it just adds so much noise to what you're trying to look at and what you're trying to focus on. You're like, "Oh, no, I only look at this, and I only look at this. Something with six stars at the beginning is important, but something with five stars - oh, that was Ed, but now it's Matt's time..." Like, it's too much.
 
@@ -214,7 +214,7 @@ And Matt, to your question earlier about is it a nightmare with other people's c
 
 There's kind of a hybrid that is common in the Go world, logfmt. So it's a key-value pair, but it's also structured. That's nice, right? Having things be machine-parsable is great, because we do a lot of stuff with our logs, with machines. Like business intelligence - trying to know the number of orders that we processed that succeeded or failed, or generating metrics, and things. But there's an interesting crossroads here, which is that logs also need to be human-friendly. We have to go through, from time to time, and actually look through our logs, and -- this is where I kind of come at odds with JSON as a log format, because it's not human-readable. It's not. And you can pretty-print it, but what you've done is you changed what was horizontal space for vertical space. And if you're trying to scroll through thousands of log lines, you've taken something that was one line and you've made it 400 lines, or 20 lines.
 
-\[00:23:42.18\] I think it's fine to log JSON; I'm not gonna say don't log JSON, because it's ubiquitous, and all of the logging tools work with it well. So definitely use JSON, use structured logs. But my only opinion here is keep the objects really simple. Don't do complex, nested JSON objects in your log lines. Keep them very flat, and try to split that difference of having it still be somewhat parsable by a human, and also machine-readable.
+\[23:42\] I think it's fine to log JSON; I'm not gonna say don't log JSON, because it's ubiquitous, and all of the logging tools work with it well. So definitely use JSON, use structured logs. But my only opinion here is keep the objects really simple. Don't do complex, nested JSON objects in your log lines. Keep them very flat, and try to split that difference of having it still be somewhat parsable by a human, and also machine-readable.
 
 Like, if you need to log complex data, do it in a way that machines work better. Use a database, or store it someplace else. Or log, you know, 500,000-line JSON objects; I don't wanna tell you what to do, but... \[laughter\]
 
@@ -252,7 +252,7 @@ Probably the most common structured format - my favorite is the Apache Common Lo
 
 **Mat Ryer:** Tell us them, please. Now. \[laughter\]
 
-**Ed Welch:** \[00:27:38.09\] The one thing that every log line needs to have - with a couple exceptions - is some context. Good examples of contexts are something like a trace ID, an order ID. Something that's very -- what's the word I wanna use here...? Like, unique, I guess. \[unintelligible 00:27:55.19\] are good examples. You want to be able to search for all of the events across your huge distributed systems (or not) that correspond to the flow of a thing through your system. And if you don't log an order ID, or a request ID, or a trace ID, or something, all of the log lines that were part of that that don't have that context are useless. You'll never find them, you'll never be able to understand if they were related or not... And they really shouldn't be logged at all at that point, I guess. Or multiple of those things, too. You know, user IDs, \[unintelligible 00:28:32.13\] IDs, and all of that stuff. Make it easy for yourself to correlate your logs. So that would be probably the biggest one.
+**Ed Welch:** \[27:38\] The one thing that every log line needs to have - with a couple exceptions - is some context. Good examples of contexts are something like a trace ID, an order ID. Something that's very -- what's the word I wanna use here...? Like, unique, I guess. \[unintelligible 00:27:55.19\] are good examples. You want to be able to search for all of the events across your huge distributed systems (or not) that correspond to the flow of a thing through your system. And if you don't log an order ID, or a request ID, or a trace ID, or something, all of the log lines that were part of that that don't have that context are useless. You'll never find them, you'll never be able to understand if they were related or not... And they really shouldn't be logged at all at that point, I guess. Or multiple of those things, too. You know, user IDs, \[unintelligible 00:28:32.13\] IDs, and all of that stuff. Make it easy for yourself to correlate your logs. So that would be probably the biggest one.
 
 I did mention there are some exceptions... You know, we have log lines that say "server started", "server stopped" - sort of higher-level systems, you know, they're not correlated, and it's more to the application itself... I'm sure there are others, but generally speaking, if you're writing a log line and you don't have some unique context going in it, you probably should be figuring out how to add it.
 
@@ -270,7 +270,7 @@ I did mention there are some exceptions... You know, we have log lines that say 
 
 So for error logs - that's probably the most obvious to start with, but the more that you can give some useful information in your error log... That means the less someone has to copy that error log, open up their editor and search the codebase for that error message to find the code that generated it, to try to figure out what they're supposed to do. So when you write that error message, write it for your future self, if you're running your own apps that you build. Like, what do I do about this? What happens if this error message fires? Or what is the application gonna do about it for me, so that I can go back to bed, or whatever?
 
-\[00:32:07.04\] Another way that I would say too is like error messages that end up being propagated through APIs - the same thing; if a user of your system gets back an error, what should they do? A 500 error - what do they do about it? Do they just try again? Do they contact somebody and ask for a limit increase?
+\[32:07\] Another way that I would say too is like error messages that end up being propagated through APIs - the same thing; if a user of your system gets back an error, what should they do? A 500 error - what do they do about it? Do they just try again? Do they contact somebody and ask for a limit increase?
 
 As much as you can make the errors prescriptive saves everybody time. Mat, you mentioned -- Uni-T, you mentioned the runbook approach...
 
@@ -316,7 +316,7 @@ So yeah, they're for humans to read as well... So what's that human trying to do
 
 **Matt Toback:** 17? Alright, so let's add one more. "Be conscientious. Be kind in your logging. Think about a person."
 
-**Ed Welch:** \[00:36:02.12\] I do like that idea, the "Throw some kindness aspect in there." Help somebody out that's got a -- a lot of times it's you. I don't remember --
+**Ed Welch:** \[36:02\] I do like that idea, the "Throw some kindness aspect in there." Help somebody out that's got a -- a lot of times it's you. I don't remember --
 
 **Matt Toback:** Yeah. Be kind to future Ed.
 
@@ -348,7 +348,7 @@ Generally, I would say -- I don't know what to call you now, Mat with a single t
 
 **Matt Toback:** It does feel almost lifecycle-related, right? Ed, you said it at the beginning... At the beginning you don't know what's working, what's not working, and you're sort of littering it, because you want insight. But then eventually, as it goes into production and it's more mature, I feel like that would -- calling that down would only be more helpful for actually keeping it up and running. And then it's less noise, it's less stuff... But that feels the same way about testing, right? You know, you start pulling that stuff out as you start to become more confident that it's gonna operate the way it's expected.
 
-**Break:** \[00:40:22.08\]
+**Break:** \[40:22\]
 
 **Mat Ryer:** These problems are all quite small when it's just you working on the project, on your laptop, or it's just a couple of you doing it. It's not a big problem, logs. Even if there's noise, it's probably not too much. It's when you start running systems at scale that suddenly all these logs really do start to add up, and it becomes quite a serious thing. Like you said earlier, there's a price to a log line. I don't think I've ever really thought of that before.
 
@@ -364,7 +364,7 @@ With Loki, we generally try to target the developer and operator use case. I wan
 
 The approach with Loki is a big different here. This gets a little bit off topic, but I'll just touch on it real quick, where - intentionally, the index is kept small, and it's just some metadata around where your logs came from, to make it easy to find them. And then instead of having that sort of quick look-up, like a reverse index, like at the back of a book, that says that this word was on page 23, we have like a table of contents that says "This word is between pages 100 and 300", and then we just go tell 100 computers to go read all those pages at the same time.
 
-\[00:44:14.06\] And obviously, that has a resource cost associated with it too, but with this pattern of... You know, we tend to infrequently look at the data - that cost is transient, and you can control it, you can set how much parallelism you wanna read at the same time, and you now store a really small index, that's easy to load in and out of memory, and you pay a transient fee for sort of searching that... And it can be really fast. It can be -- I mean, a full reverse index is very fast. These are apples and oranges in some regards, but when you start playing around with large scales and lots of data, parallelism is really fast, too. So it's kind of an interesting trade-off.
+\[44:14\] And obviously, that has a resource cost associated with it too, but with this pattern of... You know, we tend to infrequently look at the data - that cost is transient, and you can control it, you can set how much parallelism you wanna read at the same time, and you now store a really small index, that's easy to load in and out of memory, and you pay a transient fee for sort of searching that... And it can be really fast. It can be -- I mean, a full reverse index is very fast. These are apples and oranges in some regards, but when you start playing around with large scales and lots of data, parallelism is really fast, too. So it's kind of an interesting trade-off.
 
 **Mat Ryer:** Hm. So why are the indexes in Loki so small then?
 
@@ -388,7 +388,7 @@ I've taken several attempts over time to try to change that mindset in a couple 
 
 An example that I've used for that before is our NGINX Ingress logs tend to be quite high-volume, and we've extracted from those logs the label for the -- I think it's called the upstream, but in my mind downstream makes more sense... But the resource that the logs are ultimately going to, and that splits that log line now amongst those number of resources into separate streams, and then those can be parallelized over the infrastructure.
 
-\[00:48:11.18\] If you think about it a different way, it's also what are good access patterns, or query patterns; it's probably reasonably intuitive that I would only wanna look for the logs from one of those upstreams at a time, so having a label for it also makes sense in that case.
+\[48:11\] If you think about it a different way, it's also what are good access patterns, or query patterns; it's probably reasonably intuitive that I would only wanna look for the logs from one of those upstreams at a time, so having a label for it also makes sense in that case.
 
 So there's a bit of tuning there. We want ideally to be as intuitive and easy as possible, but there are definitely cases where you need to pay a bit of attention for getting that kind of right volume per stream.
 
@@ -432,7 +432,7 @@ But the goal should always be to kind of think of labels as sort of an intuitive
 
 **Ed Welch:** Oh, man. I'm glad you asked, Matt, because you can do everything. \[laughter\]
 
-**Mat Ryer:** \[00:52:09.08\] What can't you do with logs would be a shorter podcast...
+**Mat Ryer:** \[52:09\] What can't you do with logs would be a shorter podcast...
 
 **Ed Welch:** Right?!
 
@@ -458,7 +458,7 @@ So you can take that data that has this huge amount of cardinality, pull out the
 
 So you can actually then build a model that predicts on the frequency of the word error, or maybe particularly "Record not found", something like that; something you care about. And then have the model predict the future, sort of forecast it, and alert on that, too. So I think logs into metrics is very exciting.
 
-\[00:56:12.24\] I also got a bit excited when you talked about logging the file name, because then I was thinking - you could start to tie back into the dev experience real log example data. A log line - you'd be able to hover over it in your IDE, VS Code maybe, and see real examples of what that line has produced. And this is all about closing that feedback loop on making sure that we're thinking about the usage, what's the end point of these logs and visualizing that. It gets quite interesting.
+\[56:12\] I also got a bit excited when you talked about logging the file name, because then I was thinking - you could start to tie back into the dev experience real log example data. A log line - you'd be able to hover over it in your IDE, VS Code maybe, and see real examples of what that line has produced. And this is all about closing that feedback loop on making sure that we're thinking about the usage, what's the end point of these logs and visualizing that. It gets quite interesting.
 
 **Ed Welch:** Yeah, maybe I spend too much time hanging out with log lines and things, but what we've talked about so far, like building some set of standards or some set of ideas around your log lines - those unlock a lot of potential for their use. And so the more useful that they are, the more you can offset the cost of having them.
 
@@ -482,7 +482,7 @@ So you can actually then build a model that predicts on the frequency of the wor
 
 **Matt Toback:** That's a good one, yeah.
 
-**Ed Welch:** \[00:59:04.18\] We skipped this one a little, but make sure your logs are structured. Use a logger that produces JSON, or logfmt, or... I mean, non-XML, but...
+**Ed Welch:** \[59:04\] We skipped this one a little, but make sure your logs are structured. Use a logger that produces JSON, or logfmt, or... I mean, non-XML, but...
 
 **Mat Ryer:** Yeah. Not that.
 
