@@ -18,7 +18,7 @@
 
 So I felt that it was time to revisit some home automation, and really put the power back into the end user. And the Pi is a great platform to do that, because it allows -- it's really designed for home enthusiasts, and it allows you to not understand the operating system that's running on it, but all the interfaces that are connecting to it. And because it's a learning system, it's really optimized for that experimentation, automation, exploration.
 
-**Adam Stacoviak:** Yeah. I think the Raspberry Pi is a revolution. It's the beginning of a revolution, basically, because it really gives you this tiny little machine that doesn't require necessarily a screen and a keyboard and all the things; you can simple SSH into it now... It kind of provides that you are more in line with our core audience, which is \[unintelligible 00:05:48.17\] but this enthusiast is almost semi-developer, in a way. You can do some developery things. You can know that you have a terminal or a shell, or something like that in your operating system. It could be Windows, it could be Mac. But this idea of tapping into Linux... There's so much documentation out there for Linux. There's an immense amount of documentation and YouTube videos for Docker... So even getting to Docker Compose, and fiddling with a lot of the stuff you can do with a Raspberry Pi and a Linux machine like it is - it's just such a small piece of nothing, basically. I just can't even believe it's even possible, really. You used to have to build or buy this really expensive machine... And in terms of cost, maybe the Pi is expensive now, I don't know; or even hard to get, because of supply chain issues and whatnot... But it's generally like a sub-$150 all-in. $150 US all-in. Maybe you get your SD card, you get potentially even an SSD if you really wanted to, which isn't required... But for that little bit of money you get this tinkering machine that just really can open up the world to you.
+**Adam Stacoviak:** Yeah. I think the Raspberry Pi is a revolution. It's the beginning of a revolution, basically, because it really gives you this tiny little machine that doesn't require necessarily a screen and a keyboard and all the things; you can simple SSH into it now... It kind of provides that you are more in line with our core audience, which is, wears a developer hat primarily but this enthusiast is almost semi-developer, in a way. You can do some developery things. You can know that you have a terminal or a shell, or something like that in your operating system. It could be Windows, it could be Mac. But this idea of tapping into Linux... There's so much documentation out there for Linux. There's an immense amount of documentation and YouTube videos for Docker... So even getting to Docker Compose, and fiddling with a lot of the stuff you can do with a Raspberry Pi and a Linux machine like it is - it's just such a small piece of nothing, basically. I just can't even believe it's even possible, really. You used to have to build or buy this really expensive machine... And in terms of cost, maybe the Pi is expensive now, I don't know; or even hard to get, because of supply chain issues and whatnot... But it's generally like a sub-$150 all-in. $150 US all-in. Maybe you get your SD card, you get potentially even an SSD if you really wanted to, which isn't required... But for that little bit of money you get this tinkering machine that just really can open up the world to you.
 
 **Mike Riley:** Well, in addition to that, you think about a rack-mounted server from 20 years ago; it is now somewhat equivalent to that Pi. So just like the old days, when they used to talk about computers filling a room, or being the size of a refrigerator - it's the same kind of miniaturization that's happened here, which is also great for letting it just run continuously, because the power requirements are so low so that it's something that you can have work for you while you're asleep. In fact, one of the projects in my book really compiles and does a text-to-speech audio translation so that it compiles various news sources or RSS feeds that you prefer, and puts that into an audio feed ready for you to listen to in the morning... And you did all that while you were asleep. I use that every day, actually.
 
@@ -86,7 +86,7 @@ So just like everything in the world of development, DevOps, once you've done it
 
 **Mike Riley:** Yup.
 
-**Adam Stacoviak:** Yeah, GPIO pins. So it sits on that GPIO pin and powers itself via that. So it accepts the power of \[unintelligible 00:17:07.15\] and I believe it's three volts, or something... Something less than five volts. It's not very much. And that's how it powers the Pi... Rather than going through the normal power route, which is the power adapter.
+**Adam Stacoviak:** Yeah, GPIO pins. So it sits on that GPIO pin and powers itself via that. So it accepts the power of via POE and I believe it's three volts, or something... Something less than five volts. It's not very much. And that's how it powers the Pi... Rather than going through the normal power route, which is the power adapter.
 
 **Jerod Santo:** Right.
 
@@ -94,7 +94,7 @@ So just like everything in the world of development, DevOps, once you've done it
 
 **Mike Riley:** Yup. Plug it in.
 
-**Adam Stacoviak:** It's simple... I understand though if you really push the edges of this Raspberry Pi though, that if you're powering via PoE that you can have some power limitations... So if you have an SSD drive attached to it, or other things, or maybe a RAID of SSDs, for example, you're gonna probably hit some power issues, so you need to go power adapter. But for my use case, the main thing I use it for personally, which I haven't - as I said before, I aspire to get more tinkery and do this stuff... But thus far, I am simply a Pi-hole user, a Plex user, that kind of thing... Maybe a Portainer user, for example. That's the extent I've gone so far. I wanna get into home assist and all these other fun things, I just haven't found the time to really dig deep into it. But one can dream, basically.
+**Adam Stacoviak:** It's simple... I understand though if you really push the edges of this Raspberry Pi though, that if you're powering via POE that you can have some power limitations... So if you have an SSD drive attached to it, or other things, or maybe a RAID of SSDs, for example, you're gonna probably hit some power issues, so you need to go power adapter. But for my use case, the main thing I use it for personally, which I haven't - as I said before, I aspire to get more tinkery and do this stuff... But thus far, I am simply a Pi-hole user, a Plex user, that kind of thing... Maybe a Portainer user, for example. That's the extent I've gone so far. I wanna get into home assist and all these other fun things, I just haven't found the time to really dig deep into it. But one can dream, basically.
 
 **Mike Riley:** Well, you're a lot further along than a lot of Pi users.
 
@@ -220,11 +220,11 @@ The problem with it is it's run on AA batteries, so that's the problem with it. 
 
 **Jerod Santo:** Right.
 
-**Mike Riley:** One of the other things that I use with my Pi that is the one that is collecting my news feeds for the day is I have a Ansible server set up on it, so that it's making sure that all my Pi's are up to date, every day. So I don't even have to think about going in manually, depending on what distribution it is, whether it's \[unintelligible 00:29:16.16\] or if it's a sudo apt-get, it's all done for me automatically, so I don't even have to think about it.
+**Mike Riley:** One of the other things that I use with my Pi that is the one that is collecting my news feeds for the day is I have a Ansible server set up on it, so that it's making sure that all my Pi's are up to date, every day. So I don't even have to think about going in manually, depending on what distribution it is, whether it's a pacman update or if it's a sudo apt-get, it's all done for me automatically, so I don't even have to think about it.
 
 **Adam Stacoviak:** Wow. Here I am, manually sudo apt-getting all these things for myself... SSH into this Pi, sudo apt-get... It's like, ugh... I do that manually.
 
-**Jerod Santo:** Are you tinkering with your distros, Mike? Or how come you've got pacman going on one and apt-get on the others? You're setting up \[unintelligible 00:29:36.27\]
+**Jerod Santo:** Are you tinkering with your distros, Mike? Or how come you've got pacman going on one and apt-get on the others? You're setting up arch you're setting up...
 
 **Mike Riley:** Yup. You know, in the book of course I do recommend using the Raspberry Pi ls, just because it's the easiest one to work with. But as you get a little bit more comfortable and sophisticated, I've found that the one that runs the best most likely - that's the one I've got on all my Zeroes, because of the fact that it's got such a low footprint - is the Manjaro distribution that is available for installation directly from the Raspberry Pi OS installer. But yeah, it's an Arch distro that's extremely lightweight; it only puts on what you need to.
 
@@ -258,7 +258,7 @@ All to all though, by the end of the day, when you've got all those pieces of ex
 
 **Jerod Santo:** Yeah.
 
-**Mike Riley:** I know that there's developments underway with the Pi 4, which is utilizing the Ethernet connection, to be able to detect \[unintelligible 00:37:24.29\]
+**Mike Riley:** I know that there's developments underway with the Pi 4, which is utilizing the Ethernet connection, to be able to detect PXE boot
 
 **Jerod Santo:** Yeah, there you go.
 
@@ -298,7 +298,7 @@ So the Pi-hole really adds a lot of greatness to my local network... And if that
 
 **Mike Riley:** Yeah, the Raspberry Pi OS is the great starter for most people. That's the one that comes usually stock on a lot of the Raspberry Pi's that are prepared. A lot of schools use Raspberry Pi OS for just inexpensive workstations even. But if you're ready to move up a little bit further along the stack, there's Ubuntu, and Ubuntu has different flavors. You can get the full-blown 64-bit desktop... That one's a little heavy. I've noticed also performance-wise, particularly for video playback, it can exceed the processor capabilities sometimes.
 
-I think they are obviously working on optimizations. If you're trying to use VLC on it, for instance, that's gotten a little bit better, and they're trying to \[unintelligible 00:43:39.11\] a little bit more with hardware acceleration. But the Raspberry Pi OS has got most of those optimizations built-in, which is why it took a lot longer for the Raspberry Pi OS version, the 64-bit version to come out of beta. So that's probably the best one to go with. But when you're ready to start to graduate - again, going with an Ubuntu server, or if you really wanna go lightweight, go with Manjaro.
+I think they are obviously working on optimizations. If you're trying to use VLC on it, for instance, that's gotten a little bit better, and they're trying to in time a little bit more with hardware acceleration. But the Raspberry Pi OS has got most of those optimizations built-in, which is why it took a lot longer for the Raspberry Pi OS version, the 64-bit version to come out of beta. So that's probably the best one to go with. But when you're ready to start to graduate - again, going with an Ubuntu server, or if you really wanna go lightweight, go with Manjaro.
 
 I use Ubuntu server on three of my Pi 4's, because I'm running a Kubernetes cluster with Pi. Just because I can.
 
@@ -374,7 +374,7 @@ But you know, in terms of wired devices, when we built the house I put together 
 
 **Adam Stacoviak:** I was an absolute fool. I only went Cat 6 on certain rooms of my house, when I had the full ability to do Cat 6 anywhere I wanted to. But idiot me just did not know then. In retrospect, I'm like "Why would you do that? Why would you split your house some Cat 5 and some Cat 6?" It doesn't make any sense.
 
-**Mike Riley:** You know, whenever Cat 7 comes out \[unintelligible 00:54:16.17\] then all that stuff is gonna be like old twisted pair copper wire from old telephone POTS systems.
+**Mike Riley:** You know, whenever Cat 7 comes out with these 500 or 100 gigabit capabilities or terabit capabilities then all that stuff is gonna be like old twisted pair copper wire from old telephone POTS systems.
 
 **Adam Stacoviak:** Yeah.
 
@@ -460,7 +460,7 @@ Like you said, Ring is probably not gonna go away anytime soon, so you probably 
 
 **Adam Stacoviak:** \[01:10:18.21\] Well, that's true. \[laughter\] I don't know what you're talking about, but... True. The one thing, I think -- have you ventured into the world of locking your doors and stuff too then? Since we're talking about cameras and front-doors and Rings and whatnot... Have you begun to automate locking your doors, and real security level things, versus temperature and light and things like that? Which is more aesthetic in appearance and comfort, versus security.
 
-**Mike Riley:** Yeah, that's a little bit of a more tricky proposition, because you have to figure out, number one, the power source for those locks. A lot of homes don't have some sort of electrical connection that goes -- and it looks nice, by the way. Of course, you can have it all exposed \[unintelligible 01:10:58.15\]
+**Mike Riley:** Yeah, that's a little bit of a more tricky proposition, because you have to figure out, number one, the power source for those locks. A lot of homes don't have some sort of electrical connection that goes -- and it looks nice, by the way. Of course, you can have it all exposed and look like a hornet's nest of wiring
 
 **Adam Stacoviak:** You have to unplug your front door before you open it. \[laughter\] It's like, "Let me unplug this thing from the wall."
 
