@@ -424,4 +424,4 @@ The Rails developers are hanging in there, with Hotwire; the Phoenix developers 
 
 **Outro:** \[58:22\]
 
-**Horse JS:** The other thing I like about TSBuild is that it's a static Go binary, so I feel more confident that I'll be able to get it to work in the future than with a tool written in JavaScript... Just because I understand the JavaScript ecosystem.
+**Horse JS:** The other thing I like about esbuild is that it's a static Go binary, so I feel more confident that I'll be able to get it to work in the future than with a tool written in JavaScript... Just because I understand the JavaScript ecosystem.
