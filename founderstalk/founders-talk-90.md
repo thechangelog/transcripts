@@ -236,7 +236,7 @@ Going back to the transcription, I think the transcription is a key part of that
 
 **Connor Sears:** Thank you.
 
-**Adam Stacoviak:** If you're rewatching something later on... I mean, you just can't help but say rewatch; that's why it's so perfect. If you're rewatching these meetings later on and it doesn't have the kind of tooling you built around this, you're basically by yourself and it's boring. You're almost checked out, unless it's like a requirement; \[unintelligible 00:50:20.11\] getting a bonus because you watch the video, or something like that.
+**Adam Stacoviak:** If you're rewatching something later on... I mean, you just can't help but say rewatch; that's why it's so perfect. If you're rewatching these meetings later on and it doesn't have the kind of tooling you built around this, you're basically by yourself and it's boring. You're almost checked out, unless it's like a requirement; Like you're getting a bonus because you watch the video, or something like that.
 
 **Connor Sears:** Yeah. You have to keep the browser open, or you don't get the checkbox in your training.
 
@@ -538,7 +538,7 @@ So just being able to support different people, whether they want to consume the
 
 **Adam Stacoviak:** Cool. We'll leave it there.
 
-**Connor Sears:** Was there anything you wanted me to cover? I mean, I guess you were asking the question so that \[unintelligible 01:49:55.05\]
+**Connor Sears:** Was there anything you wanted me to cover? I mean, I guess you were asking the question so that is already done.
 
 **Adam Stacoviak:** More me leading, Connor...
 
