@@ -210,6 +210,8 @@ So I think once I find the time to actually get that up to a stage where I can p
 
 **Jerod Santo:** Whereas if you're returning an array every time, an array with zero is just an array; an array with one is just an array. An array with 75 is just an array. So that is the way to do it. Where did you learn that? I know I've learned it from a specific place, but... Where did you get that principle? It's kind of like a mixture of the principle of least surprise, but also there's a uniform access principle, which - it's kind of that... I don't think that's exactly what that principle is about, but you're uniformally accessing the results... So I'm curious where you learned that, because that's brilliant API design, if you ask me.
 
+**Rasmus Porsager:**
+
 I don't remember where I learned it, but I've got an idea. It might come from -- so I haven't studied anything with programming. I started out as a designer. And it's like, some of these principles in design, they affect how I write my code. So also if you're doing a user interface, or building stuff like that, it's the same things... The user land portion of my library is like interface design, right? Just like graphical user interface design. So perhaps from there, but I'm not sure.
 
 **Jerod Santo:** Okay. I will tell you, I learned it from jQuery, because that is the way jQuery works to this day when you do selectors.
