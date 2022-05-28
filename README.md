@@ -356,6 +356,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://www.linkedin.com/in/rafaelbeecker/"><img src="https://avatars.githubusercontent.com/u/8537227?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Rafael Becker</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=rafaelbeecker" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/yumemio"><img src="https://avatars.githubusercontent.com/u/59369226?v=4?s=100" width="100px;" alt=""/><br /><sub><b>yumemio</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=yumemio" title="Documentation">📖</a></td>
   </tr>
+  <tr>
+    <td align="center"><a href="https://github.com/camiaei"><img src="https://avatars.githubusercontent.com/u/79164595?v=4?s=100" width="100px;" alt=""/><br /><sub><b>camiaei</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=camiaei" title="Documentation">📖</a></td>
+  </tr>
 </table>
 
 <!-- markdownlint-restore -->
