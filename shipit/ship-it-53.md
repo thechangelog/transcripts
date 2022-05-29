@@ -16,7 +16,7 @@
 
 **Gerhard Lazu:** Where would you store it? I'm curious.
 
-**Adolfo García Veytia:** \[00:04:01.22\] I don't know... I don't know which problems you had at the time. I don't know what kind of load you had on there... I usually used to rely on the cloud providers volumes, but it seems that -- this is another part that I admire of your setup, is that you always want to get them ready to be easily movable to anywhere... So that's one way of doing it. But maybe some of the other offerings add too much complexity, so we had to do it.
+**Adolfo García Veytia:** \[04:01\] I don't know... I don't know which problems you had at the time. I don't know what kind of load you had on there... I usually used to rely on the cloud providers volumes, but it seems that -- this is another part that I admire of your setup, is that you always want to get them ready to be easily movable to anywhere... So that's one way of doing it. But maybe some of the other offerings add too much complexity, so we had to do it.
 
 **Gerhard Lazu:** Well, we talked in episode \#50 how we actually moved to a managed PostgreSQL, so that has happened... We also migrated off of Kubernetes, to a PaaS... That was a bit crazy, but we had to get good reasons for that. We talked, again, in episode \#51 how to use the PaaS better. And there's like a couple more coming, but I think Kubernetes will have its comeback. And I think PostgreSQL will finally move to like a properly managed distributed one. It could be Fly, it could be somewhere else... But somewhere that we can connect from multiple compute or runtimes, whether it's Kubernetes, whether it's a PaaS; wherever the app runs, it can connect to the PostgreSQL instance, which is distributed, which may be just a PostgreSQL protocol... So we don't know. But we'll see. We'll see. But you're right, that was a very controversial - even for many people that I talked to, it was like "Why are you doing that?" It just generated so many questions.
 
@@ -38,7 +38,7 @@ But first, we are both going to KubeCon EU. How amazing is that? It's been my fi
 
 **Adolfo García Veytia:** For example, I've been working for several years now with several contributors from Kubernetes, from Europe and India, which I've never met in-person before, so I'm really excited to have a change of meeting them. Some of \[unintelligible 00:07:44.02\] back there, and - well, lots of other people from Kubernetes. Even some from the Americas didn't make it to the last conference back in L.A, and I'm really excited to meet them.
 
-**Gerhard Lazu:** \[00:07:58.03\] Have you checked the agenda? Do you have any talks, or any events that you're keen on joining?
+**Gerhard Lazu:** \[07:58\] Have you checked the agenda? Do you have any talks, or any events that you're keen on joining?
 
 **Adolfo García Veytia:** Well, I am going to do some volunteering for the Sigstore booth. I also have to talk, so I expect my schedule to not allow me this time for attending a lot of the sessions. So I'm more expectant of the chance of meeting everyone at the events after the sessions.
 
@@ -68,7 +68,7 @@ Then we just finished signing Kubernetes. There will be some demos about those s
 
 So I would like to dig into the first talk first, and I think a lot of things that you're mentioning - the tooling, and the demo, I think it applies to the first talk. Is that right?
 
-**Adolfo García Veytia:** \[00:12:05.29\] Yeah, exactly. My talk would center on those tools. So most of the tooling that we've built for Kubernetes, and also some of the tools that we, in turn, use, like all of the six tools for container image signing are not specific to the project. So you can download all of the SBOM tools that we have and produce your own SBOMs. We have release tools to sign and publish on GitHub your artifacts... So we have a couple of those, and I'll try to present a coherent story of how to put all of those together, so that you can also use them in your project. That's the first one.
+**Adolfo García Veytia:** \[12:05\] Yeah, exactly. My talk would center on those tools. So most of the tooling that we've built for Kubernetes, and also some of the tools that we, in turn, use, like all of the six tools for container image signing are not specific to the project. So you can download all of the SBOM tools that we have and produce your own SBOMs. We have release tools to sign and publish on GitHub your artifacts... So we have a couple of those, and I'll try to present a coherent story of how to put all of those together, so that you can also use them in your project. That's the first one.
 
 **Gerhard Lazu:** I'm wondering, can you give us a really quick tour? Let's imagine that I'm producing some software, and it has some container images that I'm releasing... Maybe some manifests, I don't know. As a quick summary, what are the tools, how do I use them, what does the process look like, in a few minutes?
 
@@ -92,7 +92,7 @@ Then using our tool you can attach that SBOM to the images, then you use Cosign 
 
 **Adolfo García Veytia:** There are still ways that you can run it. You can point it to source code directories and it will produce an SBOM of those, including the dependencies that it finds. You can point it to container images, and it has support, for example, going inside of the container images, and it has support for listing the packages that are installed in the images, the operating system packages... You can point it to single files, for example SBOM-listing all of your binaries; we use that for Kubernetes.
 
-\[00:16:08.21\] It also has support for other not as widely used artifacts, like for example image archives... And we are - I hope I can finish this one for KubeCon - also adding support to indexing inside of the operating system packages. So say you point a tool to an RPM, or an APK file, and it'll list everything inside of it.
+\[16:08\] It also has support for other not as widely used artifacts, like for example image archives... And we are - I hope I can finish this one for KubeCon - also adding support to indexing inside of the operating system packages. So say you point a tool to an RPM, or an APK file, and it'll list everything inside of it.
 
 **Gerhard Lazu:** Okay. Out of all the different artifacts that it supports, which one was the hardest one to implement?
 
@@ -118,13 +118,13 @@ And maintainer support - I don't think it's already there. So we need to add the
 
 For example, if you have your workloads completely covered by SBOMs, and describing all of the dependencies that you have, you could simply go and query those SBOMs and find out what is running where. And you could take action based on that. And SBOMs also help you in doing other things, like for example licensing, compliance... Right now the focus has been -- since the executive order to \[unintelligible 00:19:49.22\] cybersecurity came out last year, a lot of focus has been put on SBOMs and the way they are produced, consumed, and how tools play with each other.
 
-**Gerhard Lazu:** \[00:20:05.15\] Okay. So those SBOMs, when they're used with containers, they end up being added to the container image. And then I think you mentioned Cosign from Sigstore being used to sign those container images. Before we go to Cosign, those SBOMs are like spread across hundreds, maybe thousands container images. How can an organization see what dependencies they have from those SBOMs, if the SBOMs themselves are attached to all those images, and then the question becomes, "Well, what images are we running?" Is there like a centralized place where those SBOMs can be added for an org, for them to see "Okay, these are all the images, these are all the SBOMs..." Because I imagine there will be a lot of duplications... Or is that maybe too far in the future, what I'm thinking?
+**Gerhard Lazu:** \[20:05\] Okay. So those SBOMs, when they're used with containers, they end up being added to the container image. And then I think you mentioned Cosign from Sigstore being used to sign those container images. Before we go to Cosign, those SBOMs are like spread across hundreds, maybe thousands container images. How can an organization see what dependencies they have from those SBOMs, if the SBOMs themselves are attached to all those images, and then the question becomes, "Well, what images are we running?" Is there like a centralized place where those SBOMs can be added for an org, for them to see "Okay, these are all the images, these are all the SBOMs..." Because I imagine there will be a lot of duplications... Or is that maybe too far in the future, what I'm thinking?
 
 **Adolfo García Veytia:** The last six months or so, people were focusing more on "How do I write an SBOM? How do I actually get the information--" There's still lots of debate going on on the right way to produce an SBOM. So what is the true nature of the information in an SBOM? There is debate going on. But the past six months have been mostly about organizations focusing on producing SBOMs, because others will start at some point demanding them from them... And the tooling to use them is starting to emerge right now. Some of the known security tools out there are already able to consume those SBOMs and ingest them and analyze and allow you to take action. There's a little bit of policy around them, but it's still the early days on how you can do it.
 
 There are some of us - like, the company I work in is one example - who are thinking about the problem, trying to come up with solutions to actually make them more usable and easier to work with.
 
-**Break:** \[00:22:13.19\]
+**Break:** \[22:13\]
 
 **Gerhard Lazu:** So in this landscape then we have Cosign from Sigstore. How does Cosign help signing images and how does that work very roughly, in terms of certificates, where they're stored, verification...?
 
@@ -136,7 +136,7 @@ But then the really, really great thing about Cosign is that it has the ability 
 
 So whenever you need to verify that artifact, Cosign can go and query the transparency log for the public key, the certificate, to verify the artifact that you've just signed, and basically it works like magic in the sense that you don't need to distribute \[unintelligible 00:25:56.23\] The information about all those signatures can be attached to the container image in the OCI registry.
 
-**Gerhard Lazu:** \[00:26:10.06\] Okay, interesting. Where does the Sigstore transparency log run? In terms of infrastructure, I'm thinking. It must be a public service, so that anyone can connect to it. Where does that run?
+**Gerhard Lazu:** \[26:10\] Okay, interesting. Where does the Sigstore transparency log run? In terms of infrastructure, I'm thinking. It must be a public service, so that anyone can connect to it. Where does that run?
 
 **Adolfo García Veytia:** Yeah, so Sigstore is a project from the Linux Foundation, and Sigstore is providing all of the infrastructure for running the transparency load. So currently, the project has an ongoing effort to get Sigstore to general availability, and some of us are working on that project to finish all of the infrastructure changes required to get the project to GA. So we have been looking at things all the way from the infrastructure to defining all of the policies, like deprecation policies, release policies... So really getting everything the project needs to get it out there.
 
@@ -152,7 +152,7 @@ Then there is another component which is called Fulcio. And Fulcio, what it does
 
 Someone described it as like the wax seal of the cloud-native infrastructure, and I think that is very, very accurate in terms of how I'm picturing it. It's so important. Not everyone used PGP or GPG, but even that is fairly significant. But this - I think it has the potential of becoming even bigger, and I'm really excited to see where it goes. So that's why the building blocks - they have to be really solid, and many big companies have to be involved in it for it to be successful. And I don't think there can be any one dominant player, because I think it will belong to everyone at some point. Or maybe it already does.
 
-**Adolfo García Veytia:** \[00:30:06.20\] Exactly, that's the idea behind the project. So it's not a company endorsing it, it's an open source project where lots of people can come and contribute. The idea is to make it as vendor-agnostic as possible.
+**Adolfo García Veytia:** \[30:06\] Exactly, that's the idea behind the project. So it's not a company endorsing it, it's an open source project where lots of people can come and contribute. The idea is to make it as vendor-agnostic as possible.
 
 So comparing how Letsencrypt was able to secure the web world is really appropriate and a really good analogy of what Sigstore is trying to do for the software world.
 
@@ -182,9 +182,9 @@ Fortunately, there are a lot of smart people working on the team to get that inf
 
 **Gerhard Lazu:** Okay. Is there a repo that we can link in the show notes that maybe shows what this looks like? Or maybe a blog post?
 
-**Adolfo García Veytia:** I know that we open-sourced some of the Terraform code to get the Sigstore tools... Because the idea is that you can also -- everything in Sigstore is open source, so you can download any of the components, run it separately, or you can run the whole thing inside of your premises if you want to.
+**Adolfo García Veytia:** I know that we open sourced some of the Terraform code to get the Sigstore tools... Because the idea is that you can also -- everything in Sigstore is open source, so you can download any of the components, run it separately, or you can run the whole thing inside of your premises if you want to.
 
-\[00:34:11.03\] Some of the work that we've been doing for GA has been open source; some of the Helm charts, some of the Terraform was going to be open source as well... I don't know if -- I don't have it right here at hand, but I can certainly \[unintelligible 00:34:24.01\]
+\[34:11\] Some of the work that we've been doing for GA has been open source; some of the Helm charts, some of the Terraform was going to be open source as well... I don't know if -- I don't have it right here at hand, but I can certainly \[unintelligible 00:34:24.01\]
 
 **Gerhard Lazu:** Yeah, that's okay. I'm more curious about how it all fits together; the overview of the different components, like the architectural diagram, I suppose... That's always worth a thousand words. Just understanding at a high level, and to have a better appreciation for how -- I don't wanna say complex, but how challenging it is to solve this in a simple way. In a way that just makes sense, and everyone agrees with, and everyone says "Yup, this will work." Just basically seeing that.
 
@@ -202,7 +202,7 @@ After one of the releases - I think it was 1.19 - fell right in the middle of...
 
 So we decided to switch from four releases a year to three, and it's been working out. This was after that long release, that it proved that everybody was in a more chill state of mind, and things worked really well. \[unintelligible 00:38:01.14\] more of a time commitment for the volunteers in the release team, but in general it's been working well.
 
-**Gerhard Lazu:** \[00:38:10.26\] Okay. So going from four releases to three has been a good thing. What about going from three to two? Like, if you follow the same pattern. Would it also be a good thing, I'm wondering? And if not, have you talked about it, like why not two a year? Why three a year?
+**Gerhard Lazu:** \[38:10\] Okay. So going from four releases to three has been a good thing. What about going from three to two? Like, if you follow the same pattern. Would it also be a good thing, I'm wondering? And if not, have you talked about it, like why not two a year? Why three a year?
 
 **Adolfo García Veytia:** Yeah, so two starts to become more difficult, because if you miss your enhancement for one release, you have to wait six months until you see it in the next one. So it's kind of difficult to do that.
 
@@ -226,7 +226,7 @@ Being forced to upgrade is really not fun. It just introduces pressure, it's jus
 
 **Gerhard Lazu:** Okay, okay. Yeah, that makes sense.
 
-**Adolfo García Veytia:** \[00:41:52.13\] And yeah, if you see the actual documentation and communications around Kubernetes 1.24, there's a lot of things dealing with the Dockershim deprecation. \[unintelligible 00:42:01.14\] which users are affected, who isn't, who should worry... So basically, for people who are running their own instances of Kubernetes, it's more of a concern than, for example, folks who have their Kubernetes run for them, for example from a cloud provider. So that's the way deprecations usually work. They're deprecating at some point, and the actual removal takes place some releases further down.
+**Adolfo García Veytia:** \[41:52\] And yeah, if you see the actual documentation and communications around Kubernetes 1.24, there's a lot of things dealing with the Dockershim deprecation. \[unintelligible 00:42:01.14\] which users are affected, who isn't, who should worry... So basically, for people who are running their own instances of Kubernetes, it's more of a concern than, for example, folks who have their Kubernetes run for them, for example from a cloud provider. So that's the way deprecations usually work. They're deprecating at some point, and the actual removal takes place some releases further down.
 
 And then we usually support three of the branches. Right now we've released Kubernetes 1.24, so that means 1.23 and 1.22 are under support. We also have a little maintenance period after we end-of-life one of those branches. For example, I think it was in 1.19 that it was already out of support, and it was in maintenance mode, and that means that -- I think \[unintelligible 00:43:08.19\] came along in Kubernetes, so since it was still under maintenance mode, we took the batch and cherry picked it to 1.19. But just because it was like a really, really important and critical patch. Other than that, we always keep two releases always under support; that means whenever the SIGs that handle the different components of Kubernetes have bugs - because actually features, we don't cherry-pick them. It's only bugs and security updates to the project. We cherry-pick those changes back to those branches. And once they're out of support, they don't the cherry picks.
 
@@ -248,7 +248,7 @@ And then we usually support three of the branches. Right now we've released Kube
 
 So I've been working on lots of interesting problem that I find interesting, like how do you secure things, and how do you parallelize the workloads to build things faster, to ensure the integrity; how do we verify the binaries that we put out and ensure that we do not ship a Windows binary to a Mac user... Things like that are the things I like doing.
 
-\[00:45:55.14\] So I started working on that, and when the supply chain security world started emerging really hard last year, we started focusing our work in the scene towards securing the Kubernetes release process, and - well, here we are now, with these last few advances.
+\[45:55\] So I started working on that, and when the supply chain security world started emerging really hard last year, we started focusing our work in the scene towards securing the Kubernetes release process, and - well, here we are now, with these last few advances.
 
 **Gerhard Lazu:** Okay. Out of all the things that you do work-wise, which one do you enjoy the most, and why?
 
@@ -266,11 +266,11 @@ Some of those transform in solutions that benefit a ton of people downstream. So
 
 **Gerhard Lazu:** I think that just based on the last few minutes, I would really like to learn how Kubernetes gets built, tested, and released. I think that is at least an episode-worth of talking about how does the machinery look like, and how do you ensure that it continues working year after year for many years now?
 
-\[00:49:58.02\] And the releases... Because the amount of contributions, the amount of people involved and companies involved is a crazy number. I know that you know it... Tens, hundreds, thousands people. I'm pretty sure it's thousands of people involved with every single release... And it's fascinating to see and to understand how can you make that work long-term, with all the changes over the years.
+\[49:58\] And the releases... Because the amount of contributions, the amount of people involved and companies involved is a crazy number. I know that you know it... Tens, hundreds, thousands people. I'm pretty sure it's thousands of people involved with every single release... And it's fascinating to see and to understand how can you make that work long-term, with all the changes over the years.
 
 **Adolfo García Veytia:** It's a really wonderful process. So the way Kubernetes works is contributors merge their code into the main Kubernetes space. So release managers, going through the process, making sure some of those changes get cherry-picked back to the branches where they're needed. And when we've got batch releases for the old branches, that release manager goes and cuts that thing.
 
-Releasing a new Kubernetes minor version, like 1.24 now - it's a huge endeavor, comprised of several teams that go together and do things like the release notes, \[00:50:58.10\] enhancements, ensure bug triage is finished by that time, documentation, communications, the blogs... And there's a release lead that coordinates all of this. The release team is comprised of around 30-35 people who rotate every cycle. Right now, by the time this episode airs, the survey to be a part of the release team should be out; so if people are interested, they can apply there.
+Releasing a new Kubernetes minor version, like 1.24 now - it's a huge endeavor, comprised of several teams that go together and do things like the release notes, \[50:58\] enhancements, ensure bug triage is finished by that time, documentation, communications, the blogs... And there's a release lead that coordinates all of this. The release team is comprised of around 30-35 people who rotate every cycle. Right now, by the time this episode airs, the survey to be a part of the release team should be out; so if people are interested, they can apply there.
 
 It's really competitive. Of all the names that apply, only around 13% get chosen. We of course encourage the leads to balance their team, and distribute it across the globe, across gender... All of that, to get a team as diverse as we can. That's on the human side.
 
@@ -278,7 +278,7 @@ On the technical side - just a super-quick rundown is we build the project, stag
 
 **Gerhard Lazu:** Okay.
 
-**Break:** \[00:52:14.24\]
+**Break:** \[52:14\]
 
 **Gerhard Lazu:** I've been waiting from the beginning to ask you this... What is the story behind Puerco, your nickname that everyone knows you by? Like, you can say Adolfo, "Adolfo who?" But if you say Puerco, everyone knows in the CNCF who Puerco is. What is the story behind that name?
 
@@ -304,7 +304,7 @@ On the technical side - just a super-quick rundown is we build the project, stag
 
 Alright... Okay, now do we use the name that me and my wife call one another? That is a different question... \[laughs\] But you must be very brave to go with that, and I respect that; I really, really do. I'm very glad I asked. It's a great story.
 
-**Adolfo García Veytia:** \[00:56:09.23\] I've never been one of those people that take themselves too seriously.
+**Adolfo García Veytia:** \[56:09\] I've never been one of those people that take themselves too seriously.
 
 **Gerhard Lazu:** Maybe that is the key takeaway from this. I should take myself less seriously, and pick the name that -- I don't think it would mean anything for anyone. By the way, I call my wife, because she's Romanian and I'm Romanian as well - I call her "Urâta", which means the female version of "ugly", and she calls me "Urâtul", which also means "The ugly one", but the male version of that. Now, would that work? I don't know. I don't think people would know what that means, but... \[laughs\]
 
