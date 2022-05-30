@@ -22,7 +22,7 @@ So that's what I'm really trying to preach and model and push for. And it's not 
 
 **Bruce Schneier:** You need both. You need all ways to get it done. So ACLU pays one-third to one-tenth money that you can make as a lawyer at a big corporate law firm, and they put out an application for an attorney, and they get a hundred resumes. So there are lots of people who are not just pursuing money, if there's a viable career path.
 
-\[00:08:06.17\] You work for the ACLU as an attorney, you feel good about your life when you come home. You're not working for some horrible corporate interest, you're not doing something you don't believe in. And I don't think the problem is gonna be supply. I think the problem is going to be...
+\[08:06\] You work for the ACLU as an attorney, you feel good about your life when you come home. You're not working for some horrible corporate interest, you're not doing something you don't believe in. And I don't think the problem is gonna be supply. I think the problem is going to be...
 
 **Jerod Santo:** Path.
 
@@ -60,7 +60,7 @@ So that's what I'm really trying to preach and model and push for. And it's not 
 
 **Bruce Schneier:** Interesting.
 
-**Jerod Santo:** \[00:12:02.19\] And that's interesting, because now we're like 20 years from there, and I wonder, would you still say that, or has so much changed since then? In the world of security specifically.
+**Jerod Santo:** \[12:02\] And that's interesting, because now we're like 20 years from there, and I wonder, would you still say that, or has so much changed since then? In the world of security specifically.
 
 **Bruce Schneier:** It's interesting... I mean, a lot has changed and not a lot has changed. People still read Secrets and Lies and get a lot out of it, because a lot of it is still true. But the threat landscape is now weirdly different. We're worrying about nation-states in ways we weren't. Ransomware didn't exist back then, business email compromise wasn't anything I wrote about... I mean, a lot of the business of cyber-crime, and almost like the business of cyber-espionage - it's become institutionalized in a way that we didn't really think about 20 years ago.
 
@@ -98,7 +98,7 @@ So the sophistication - you don't almost need, really. The fact that there are n
 
 **Adam Stacoviak:** Okay, that's easy.
 
-**Bruce Schneier:** \[00:16:11.16\] But there are organizations that do this, ransomware as a service. You can rent ransomware capability. There are criminal organizations that specialize in getting in, there are ones specialized in getting money, there are ones that specialize in turning the Bitcoin into actual cash you can spend. There's a whole supply chain, international criminal supply chain. That's incredibly sophisticated. That all is in the service of ransomware.
+**Bruce Schneier:** \[16:11\] But there are organizations that do this, ransomware as a service. You can rent ransomware capability. There are criminal organizations that specialize in getting in, there are ones specialized in getting money, there are ones that specialize in turning the Bitcoin into actual cash you can spend. There's a whole supply chain, international criminal supply chain. That's incredibly sophisticated. That all is in the service of ransomware.
 
 **Jerod Santo:** One thing I heard you say about ransomware which is interesting to me and I would love for you to elaborate even more on it is that it takes advantage of the fact that most people's data actually isn't all that interesting to anybody, except for themselves.
 
@@ -132,7 +132,7 @@ So the sophistication - you don't almost need, really. The fact that there are n
 
 **Bruce Schneier:** There's no value in a system where if you forget your password, you lose your life savings. That's just dumb. Intermediaries have value, that's why they exist. They're not there because they hate us. You wanna exchange money - use Venmo. It works great. Why don't you like it?
 
-**Jerod Santo:** \[00:20:01.13\] I like Venmo.
+**Jerod Santo:** \[20:01\] I like Venmo.
 
 **Adam Stacoviak:** Yeah. I use Venmo.
 
@@ -172,7 +172,7 @@ Another fun experiment - go on to Twitter and type "I'm having trouble with my B
 
 **Bruce Schneier:** That is the way that fraud works. And it's Bitcoin - there's nothing you can do about it. Period. Done. This is not great.
 
-**Break:** \[00:24:10.10\]
+**Break:** \[24:10\]
 
 **Jerod Santo:** So fraud leads us to one of the problems we have in computer security, which is social engineering. Fraud is just sophisticated social engineering. You're tricking somebody into doing something that benefits you and doesn't benefit them. It seems like those kind of things - education is really the only solution to that particular problem... Is that what you think?
 
@@ -206,7 +206,7 @@ We don't talk about various salmonella in chickens and say "Well, the user has t
 
 **Adam Stacoviak:** \[unintelligible 00:28:16.11\] yeah. Gosh.
 
-**Jerod Santo:** \[00:28:18.23\] Well, what's crazy is how data breaches are becoming normalized.
+**Jerod Santo:** \[28:18\] Well, what's crazy is how data breaches are becoming normalized.
 
 **Bruce Schneier:** Right. And they are normal.
 
@@ -248,7 +248,7 @@ So if you if you think about SolarWInds - if I'm a SolarWinds customer, I get an
 
 So from a societal perspective, I want them liable for defects in the update, because only they can improve the process. The customer can't.
 
-**Adam Stacoviak:** \[00:32:17.22\] And then it becomes a thing you can leverage in terms of competition. It's like, "Well, who's better at keeping their software safe. Who's better at keeping their software more reliable? Well, this company, so I give them my business." It becomes a competitive advantage.
+**Adam Stacoviak:** \[32:17\] And then it becomes a thing you can leverage in terms of competition. It's like, "Well, who's better at keeping their software safe. Who's better at keeping their software more reliable? Well, this company, so I give them my business." It becomes a competitive advantage.
 
 **Bruce Schneier:** Yeah, somewhat... That tends not to work. It tends not to be a market driver. Think about it - no airline advertises themselves as "We have fewer crashes than the other guys." Nobody.
 
@@ -298,7 +298,7 @@ One of the problems with litigation as a driver of social change is that almost 
 
 **Adam Stacoviak:** Like, we need more people to have an understanding of technology, to be involved in policy-making, so that -- this is an iteration, like you said; it's a beginning. I think if we're in software, we have to believe in iteration. So we have to believe in, I would imagine, iteration at the policy level as well. So while GDPR may be a start, it's gotta be something that begins an evolution. And that begins with more and more people - as you had said, this vacuum that's there - and demand for people involved in tech and policy.
 
-**Bruce Schneier:** \[00:36:09.29\] I think that's right. And these are not easy problems we're talking about. Now, the public policy of tech - look at the current battles on sections 230, and free speech on Twitter, all of these... These are not tech problems; these are policy problems, these are human value problems. These are what kind of society do we wanna live in problems. They're informed by tech. You have to understand tech to think about the problems, but you're not gonna solve them with tech. Tech is gonna be a part of the solution. So yes, very much so.
+**Bruce Schneier:** \[36:09\] I think that's right. And these are not easy problems we're talking about. Now, the public policy of tech - look at the current battles on sections 230, and free speech on Twitter, all of these... These are not tech problems; these are policy problems, these are human value problems. These are what kind of society do we wanna live in problems. They're informed by tech. You have to understand tech to think about the problems, but you're not gonna solve them with tech. Tech is gonna be a part of the solution. So yes, very much so.
 
 **Adam Stacoviak:** One thing that's come up to me though, with policy, and I think even -- not so much to go back to Bitcoin, but more so this idea that I think people believe in, or wanna believe in, this idea of a decentralized currency, and crypto, and Bitcoin, is this lack of trust in government.
 
@@ -344,7 +344,7 @@ So you know... I mean, yes, I did a book on trust. You have no choice but to tru
 
 But I'm trying to teach here a generation, people going into public policy. Teach them how to listen to technologists, figure out what they're saying... I'm really trying here.
 
-**Jerod Santo:** \[00:40:01.06\] Yeah. So you're talking to an audience of software developers and technologists... What would you teach us or instruct us? What can we do in our little part of the world, whether we're an independent contributor on a large codebase, or maybe we're starting a new business in a software-as-a-service... We're building these things, so the future... What are the kind of things we can be doing now to push things in the right direction, versus the wrong?
+**Jerod Santo:** \[40:01\] Yeah. So you're talking to an audience of software developers and technologists... What would you teach us or instruct us? What can we do in our little part of the world, whether we're an independent contributor on a large codebase, or maybe we're starting a new business in a software-as-a-service... We're building these things, so the future... What are the kind of things we can be doing now to push things in the right direction, versus the wrong?
 
 **Bruce Schneier:** I want us to think about the policy implications of what we do. This is actually interesting. A few years ago Google invented a new job title. I think it's called "Project counsel." So here's the idea - in the old way of doing things, engineers would build the thing, and a the end they'd show it to the attorneys and say "Will we go to jail if we do this? Is this good? Is this bad?" And the attorneys would give an opinion. And Google realized it's way better to embed the attorneys into the design team from the beginning, where the changes are cheaper. The attorney can say "If you did it this way and not that way, it's better." And that's what Google does. It's a great idea.
 
@@ -378,7 +378,7 @@ I think we need staff policy people. I want a policy person on the design team o
 
 **Bruce Schneier:** You know, and everyone I know who finds these jobs, they're all exceptions. And I do try to pay attention. Because a lot of students ask me, "I'm looking for a job. What do I do?" But certainly Facebook and Google and the big guys hire them. But a lot of my students don't wanna work for them, because they're evil. They wanna work for some small and more interesting company that's doing some social good.
 
-**Jerod Santo:** \[00:43:54.04\] So you mentioned this good idea inside of Google, you mentioned that we should have policy decisions coming in in the beginning, when we're starting software projects... And it's making me think of idea-sharing; like "This is a good policy." It makes me think of open source. And we talked about how cyber-security has kind of grown up over the last 20 years, it's gotten way more serious, ratcheted up the stakes... Open source has also matured during that time, and gotten corporate, and everything...
+**Jerod Santo:** \[43:54\] So you mentioned this good idea inside of Google, you mentioned that we should have policy decisions coming in in the beginning, when we're starting software projects... And it's making me think of idea-sharing; like "This is a good policy." It makes me think of open source. And we talked about how cyber-security has kind of grown up over the last 20 years, it's gotten way more serious, ratcheted up the stakes... Open source has also matured during that time, and gotten corporate, and everything...
 
 **Bruce Schneier:** Both good and bad, yeah.
 
@@ -406,9 +406,9 @@ The story I'll tell in class is about drones. And if you remember the history of
 
 **Bruce Schneier:** And there's also a tragedy of the commons. If everyone's using this open source project in their software, everyone assumes somebody else is evaluating it, and then nobody evaluates is. We see this a lot. Log4j was an example of that. Everyone thought somebody else was paying attention to Log4j, and it was actually just this guy, and suddenly there's this huge vulnerability.
 
-\[00:48:10.11\] So there is a fix happening now. I think the Open Source Foundation has set up a program, and they're getting the big tech companies to put in money... I think Google and Microsoft each put in five million to -- we're all going to evaluate these open source projects. So this third party is going to do the work, the big companies that benefit are going to put in money, and everyone benefits. And it's called (I think) the Alpha Omega Project. The idea is they're gonna look at the most popular and \[unintelligible 00:48:40.20\] open source projects really carefully, which is the Alpha, and then run automatic vulnerability scanning tools against the top 10,000 libraries. That's the Omega. And can we bypass the tragedy of the commons, and then get some real evaluation of these things that it turns out we're relying on, even though we don't realize it?
+\[48:10\] So there is a fix happening now. I think the Open Source Foundation has set up a program, and they're getting the big tech companies to put in money... I think Google and Microsoft each put in five million to -- we're all going to evaluate these open source projects. So this third party is going to do the work, the big companies that benefit are going to put in money, and everyone benefits. And it's called (I think) the Alpha Omega Project. The idea is they're gonna look at the most popular and \[unintelligible 00:48:40.20\] open source projects really carefully, which is the Alpha, and then run automatic vulnerability scanning tools against the top 10,000 libraries. That's the Omega. And can we bypass the tragedy of the commons, and then get some real evaluation of these things that it turns out we're relying on, even though we don't realize it?
 
-**Break:** \[00:49:07.03\]
+**Break:** \[49:07\]
 
 **Jerod Santo:** So one thing that's amazing to me about you, Bruce, is just how long you've been going at it.
 
@@ -444,7 +444,7 @@ The story I'll tell in class is about drones. And if you remember the history of
 
 **Bruce Schneier:** And a lot of it is -- it forces me to stay current. It forces me to start reading around and seeing what's happening, seeing what's being talked about... And that's good for me. I get a lot of my entries and news items from readers. I get a lot of email, which is really useful to me.
 
-\[00:54:11.10\] Some people will send me links all the time. And that is something I use to stay current, so I really appreciate that. Any listeners who send me emails and I see a good crypto story - thank you; keep doing that. And then, to me, writing is how I understand things. So it's how I process the news. It's how I process all of this. So you're seeing my process of processing, I just do it a little bit in public.
+\[54:11\] Some people will send me links all the time. And that is something I use to stay current, so I really appreciate that. Any listeners who send me emails and I see a good crypto story - thank you; keep doing that. And then, to me, writing is how I understand things. So it's how I process the news. It's how I process all of this. So you're seeing my process of processing, I just do it a little bit in public.
 
 **Adam Stacoviak:** Yeah. Super-cool. What would you say over the last -- since you said you've been doing it daily since 2004, but it's been longer than that... Maybe give us a trip down memory lane; what were some of the biggest, most surprising things you saw in security.
 
@@ -510,7 +510,7 @@ The other thing I was gonna call it was Potemkin security. But it turns out that
 
 **Jerod Santo:** Yeah, that's why I like it. That's funny...
 
-**Adam Stacoviak:** \[00:57:56.27\] Jerod asked the question before about developers and what they could do, building systems tomorrow... And you kind of mentioned some of the things they could do, which was essentially find somebody in policy and hire them, though the supply of them is challenging to find, because the path is challenging... What else would you share with today's technologists that they need to know? Things that you're preaching, that software devs, engineers, leaders of engineering departments, people building products should know about the state of security today, that they don't know.
+**Adam Stacoviak:** \[57:56\] Jerod asked the question before about developers and what they could do, building systems tomorrow... And you kind of mentioned some of the things they could do, which was essentially find somebody in policy and hire them, though the supply of them is challenging to find, because the path is challenging... What else would you share with today's technologists that they need to know? Things that you're preaching, that software devs, engineers, leaders of engineering departments, people building products should know about the state of security today, that they don't know.
 
 **Bruce Schneier:** \[unintelligible 00:58:25.04\] we are used to thinking that what we do ends at the keyboard and screen. And it turns out it's not true. That the stuff we write affects the world, affects society, affects people, affects human flourishing. And we need to think that way. We really do. We need to think that when we build a software product, we're building the world.
 
