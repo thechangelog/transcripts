@@ -90,7 +90,7 @@ Now, what's interesting, I think, is to think back at the NSA documents that we 
 
 **Bruce Schneier:** You hold on to the best stuff until you really need it. If you've got a ten and a three will get you in, you're gonna use a three; or maybe use a four, to make sure. You save the ten when you need a ten. You don't waste it.
 
-So the sophistication - you don't almost need, really. The fact that there are now business models for ransomware - it's organizational sophistication as opposed to \[unintelligible 00:16:00.00\] sophistication.
+So the sophistication - you don't almost need, really. The fact that there are now business models for ransomware - it's organizational sophistication as opposed to technicaly sophistication.
 
 **Adam Stacoviak:** What's the actual business model of ransomware these days? What is the business model?
 
@@ -106,7 +106,7 @@ So the sophistication - you don't almost need, really. The fact that there are n
 
 **Jerod Santo:** What if you say "But they kidnapped my daughter. I have to do this."
 
-**Bruce Schneier:** You can't do it. You will not be able to do it. The banking system will not let you wire money that way. It's not \[unintelligible 00:18:18.25\] it can't move. There are a lot of banking regs to stop you from doing that. So Bitcoin makes ransomware work.
+**Bruce Schneier:** You can't do it. You will not be able to do it. The banking system will not let you wire money that way. It's not going to a reputable business, it can't move. There are a lot of banking regs to stop you from doing that. So Bitcoin makes ransomware work.
 
 **Adam Stacoviak:** How do you feel about that? Does that make you negative Bitcoin? How does that make you feel about Bitcoin?
 
@@ -126,7 +126,7 @@ So the sophistication - you don't almost need, really. The fact that there are n
 
 **Jerod Santo:** So what about censorship-resistant money exchange? The concept of Bitcoin, with the peer-to-peer exchange of money. Do you think there's value in that concept of not having an intermediary between the two of us?
 
-**Bruce Schneier:** No, \[unintelligible 00:19:28.17\] value. There's no value in a system where if you're exchanging money with somebody and they're a millisecond slower than you, you lose all your money, and there's no recourse. That is not valuable.
+**Bruce Schneier:** No, intermedial share value. There's no value in a system where if you're exchanging money with somebody and they're a millisecond slower than you, you lose all your money, and there's no recourse. That is not valuable.
 
 **Jerod Santo:** Sure.
 
@@ -150,7 +150,7 @@ So the sophistication - you don't almost need, really. The fact that there are n
 
 **Bruce Schneier:** I don't even know what this is. It doesn't sound good...
 
-**Adam Stacoviak:** Well, I'll give you the TL;DR. Somebody who was just able to con people with large amounts of money, various bank accounts, he would con one person, then con another person... Credit cards, bank accounts that didn't match this name, so when \[unintelligible 00:21:51.03\] customer and attaching a bank account to a cash app account, or to a Venmo account that doesn't match your name - that's anti-money laundering; that's what you're speaking of.
+**Adam Stacoviak:** Well, I'll give you the TL;DR. Somebody who was just able to con people with large amounts of money, various bank accounts, he would con one person, then con another person... Credit cards, bank accounts that didn't match this name, so when it comes to their customer and attaching a bank account to a cash app account, or to a Venmo account that doesn't match your name - that's anti-money laundering; that's what you're speaking of.
 
 I mention that because this person never really used a bank account or a credit card that was in his name. It was always somebody else's. So when it comes to these intermediaries - I don't know how he was able to by-pass this stuff, but that's what they do. They say "Okay, your account is in this name, Adam Stacoviak. Does your bank account that you're attaching, money coming in or money going out, match that same name? If not, we're gonna flag it for anti-money laundering and you have to prove you own it by way of W-2, or some sort of tax form, or--" W-2 wouldn't fit there, but some sort of tax form that you filled out, that says this account is yours, or whatever. Something. Right? So that's where that comes into play, this intermediary benefit.
 
@@ -202,9 +202,9 @@ We don't talk about various salmonella in chickens and say "Well, the user has t
 
 **Jerod Santo:** So then the next question logically is "Well, how do we get there?" And it sounds like the answer is "Policy."
 
-**Bruce Schneier:** And \[unintelligible 00:27:38.22\] Because the companies wanna blame the user. The companies love that we blame the user for security issues, because they don't have to fix anything. So I think \[unintelligible 00:27:51.02\] answer is in regulation, liability... Markets don't reward safety and security, pretty much ever. And if you wanna get that, if you want restaurants that won't poison you, or drugs that are safe, or cars that won't blow up on impact - that is always government intervention. That's the way we do it. Pajamas that don't catch on fire... \[unintelligible 00:28:13.27\]
+**Bruce Schneier:** And \[unintelligible 00:27:38.22\] Because the companies wanna blame the user. The companies love that we blame the user for security issues, because they don't have to fix anything. So I think there are answers in regulation, liability... Markets don't reward safety and security, pretty much ever. And if you wanna get that, if you want restaurants that won't poison you, or drugs that are safe, or cars that won't blow up on impact - that is always government intervention. That's the way we do it. Pajamas that don't catch on fire... whatever it is we in society like. 
 
-**Adam Stacoviak:** \[unintelligible 00:28:16.11\] yeah. Gosh.
+**Adam Stacoviak:** Blankets yeah. Gosh.
 
 **Jerod Santo:** \[28:18\] Well, what's crazy is how data breaches are becoming normalized.
 
@@ -280,7 +280,7 @@ So from a societal perspective, I want them liable for defects in the update, be
 
 **Jerod Santo:** Yeah. On the margins, for sure. So has any of these big breaches or cases been litigated in a sense that has brought the liability back to the vendors? Or is it just not the case?
 
-**Bruce Schneier:** Not liability... There has been litigation. I'm not \[unintelligible 00:33:53.04\] class action lawsuits, there are some regulatory fines... They tend to be rounding errors. The exception is going to be Europe and GDPR, and privacy violations. Europe is the regulatory superpower on the planet. They do issue fines that companies notice, and don't say "Oh yeah, that was cheaper than the attorney fees. We'll take it", which the U.S. tends to do. But not enough...
+**Bruce Schneier:** Not liability... There has been litigation. I'm not up on the current state of litigation. But there are class action lawsuits, there are some regulatory fines... They tend to be rounding errors. The exception is going to be Europe and GDPR, and privacy violations. Europe is the regulatory superpower on the planet. They do issue fines that companies notice, and don't say "Oh yeah, that was cheaper than the attorney fees. We'll take it", which the U.S. tends to do. But not enough...
 
 One of the problems with litigation as a driver of social change is that almost all cases never get to courts where a judge decides.
 
@@ -292,7 +292,7 @@ One of the problems with litigation as a driver of social change is that almost 
 
 **Bruce Schneier:** Yeah, in a sense, GDPR was medication to stop the pain, rather than medication to fix the illness. It was a good start. It probably what the people who wrote it thought it would, but there are too many loopholes, to many ways to get around it, too many things it doesn't do... So we can't stop there. But it is doing some. It is not completely useless.
 
-**Adam Stacoviak:** \[unintelligible 00:35:34.24\] puts more pressure on your point, which is policy. This idea of tech and policy.
+**Adam Stacoviak:** This only puts more pressure on your point, which is policy. This idea of tech and policy.
 
 **Jerod Santo:** Right.
 
@@ -360,7 +360,7 @@ I think we need staff policy people. I want a policy person on the design team o
 
 **Adam Stacoviak:** Right. We're back to the beginning.
 
-**Bruce Schneier:** And these jobs are out there. My students are getting hired by tech companies to do tech policy. But there's no good job board, there's no way I can say "Here. You wanna do this - here's where you go." We're working on it. Ford Foundation is trying to build these \[unintelligible 00:43:06.14\], these systems, but it's not yet there. So I don't have a good answer, and that's bad. I mean, I wanna have a good -- I wanna have an easy answer to your question. "You wanna do this, go do this thing."
+**Bruce Schneier:** And these jobs are out there. My students are getting hired by tech companies to do tech policy. But there's no good job board, there's no way I can say "Here. You wanna do this - here's where you go." We're working on it. Ford Foundation is trying to build these paths, these systems, but it's not yet there. So I don't have a good answer, and that's bad. I mean, I wanna have a good -- I wanna have an easy answer to your question. "You wanna do this, go do this thing."
 
 **Adam Stacoviak:** Yeah.
 
@@ -374,7 +374,7 @@ I think we need staff policy people. I want a policy person on the design team o
 
 **Adam Stacoviak:** That could be one path. Just kidding.
 
-**Jerod Santo:** \[unintelligible 00:43:24.13\] your Bitcoin wallet address here for policy help...
+**Jerod Santo:** Enter your Bitcoin wallet address here for policy help...
 
 **Bruce Schneier:** You know, and everyone I know who finds these jobs, they're all exceptions. And I do try to pay attention. Because a lot of students ask me, "I'm looking for a job. What do I do?" But certainly Facebook and Google and the big guys hire them. But a lot of my students don't wanna work for them, because they're evil. They wanna work for some small and more interesting company that's doing some social good.
 
@@ -396,7 +396,7 @@ The story I'll tell in class is about drones. And if you remember the history of
 
 **Jerod Santo:** We're already flying them.
 
-**Bruce Schneier:** Right. There was never a moment when it was right to regulate drones. Now, this is, I think, a microcosm of the problem we have. In the beginning you don't know what to do, it's too early to do it, and at the end there are too many (I don't know) rich lobbyists preventing you from doing anything. So how do we navigate that? This is actually a very big problem of regulation in the 21st century; way bigger than security \[unintelligible 00:46:23.16\] And it's something that we really need to think about. You know, can we use the ideas of open source, or agile software development, and apply it to legislation, apply it to policy? I think the answer is yes; I don't know how... But we need to figure it out.
+**Bruce Schneier:** Right. There was never a moment when it was right to regulate drones. Now, this is, I think, a microcosm of the problem we have. In the beginning you don't know what to do, it's too early to do it, and at the end there are too many (I don't know) rich lobbyists preventing you from doing anything. So how do we navigate that? This is actually a very big problem of regulation in the 21st century; way bigger than security anywhere talking about. And it's something that we really need to think about. You know, can we use the ideas of open source, or agile software development, and apply it to legislation, apply it to policy? I think the answer is yes; I don't know how... But we need to figure it out.
 
 **Adam Stacoviak:** What about the flipside of that on open source, in terms of an attack vector? What are your thoughts as a security person?
 
@@ -406,7 +406,7 @@ The story I'll tell in class is about drones. And if you remember the history of
 
 **Bruce Schneier:** And there's also a tragedy of the commons. If everyone's using this open source project in their software, everyone assumes somebody else is evaluating it, and then nobody evaluates is. We see this a lot. Log4j was an example of that. Everyone thought somebody else was paying attention to Log4j, and it was actually just this guy, and suddenly there's this huge vulnerability.
 
-\[48:10\] So there is a fix happening now. I think the Open Source Foundation has set up a program, and they're getting the big tech companies to put in money... I think Google and Microsoft each put in five million to -- we're all going to evaluate these open source projects. So this third party is going to do the work, the big companies that benefit are going to put in money, and everyone benefits. And it's called (I think) the Alpha Omega Project. The idea is they're gonna look at the most popular and \[unintelligible 00:48:40.20\] open source projects really carefully, which is the Alpha, and then run automatic vulnerability scanning tools against the top 10,000 libraries. That's the Omega. And can we bypass the tragedy of the commons, and then get some real evaluation of these things that it turns out we're relying on, even though we don't realize it?
+\[48:10\] So there is a fix happening now. I think the Open Source Foundation has set up a program, and they're getting the big tech companies to put in money... I think Google and Microsoft each put in five million to -- we're all going to evaluate these open source projects. So this third party is going to do the work, the big companies that benefit are going to put in money, and everyone benefits. And it's called (I think) the Alpha Omega Project. The idea is they're gonna look at the most popular and critical open source projects really carefully, which is the Alpha, and then run automatic vulnerability scanning tools against the top 10,000 libraries. That's the Omega. And can we bypass the tragedy of the commons, and then get some real evaluation of these things that it turns out we're relying on, even though we don't realize it?
 
 **Break:** \[49:07\]
 
@@ -512,7 +512,7 @@ The other thing I was gonna call it was Potemkin security. But it turns out that
 
 **Adam Stacoviak:** \[57:56\] Jerod asked the question before about developers and what they could do, building systems tomorrow... And you kind of mentioned some of the things they could do, which was essentially find somebody in policy and hire them, though the supply of them is challenging to find, because the path is challenging... What else would you share with today's technologists that they need to know? Things that you're preaching, that software devs, engineers, leaders of engineering departments, people building products should know about the state of security today, that they don't know.
 
-**Bruce Schneier:** \[unintelligible 00:58:25.04\] we are used to thinking that what we do ends at the keyboard and screen. And it turns out it's not true. That the stuff we write affects the world, affects society, affects people, affects human flourishing. And we need to think that way. We really do. We need to think that when we build a software product, we're building the world.
+**Bruce Schneier:** What does that say of the state of the world, that we are used to thinking that what we do ends at the keyboard and screen. And it turns out it's not true. That the stuff we write affects the world, affects society, affects people, affects human flourishing. And we need to think that way. We really do. We need to think that when we build a software product, we're building the world.
 
 This is an old story, but I think it's a good story... I don't know if you remember Friendster. Friendster was a social network before MySpace.
 
@@ -530,7 +530,7 @@ This is an old story, but I think it's a good story... I don't know if you remem
 
 **Jerod Santo:** Unintended consequences.
 
-**Bruce Schneier:** Right. And it used to be the unintended consequences didn't matter. Nobody cared how Usenet worked, because Usenet \[unintelligible 00:59:48.11\] important, ever. No one kind of cared in the beginning how email worked. But now it matters. Now the unintended consequences can affect democracy. And maybe we should pay a little more attention to that.
+**Bruce Schneier:** Right. And it used to be the unintended consequences didn't matter. Nobody cared how Usenet worked, because Usenet wasn't important, ever. No one kind of cared in the beginning how email worked. But now it matters. Now the unintended consequences can affect democracy. And maybe we should pay a little more attention to that.
 
 **Jerod Santo:** Yeah.
 
@@ -570,7 +570,7 @@ This is an old story, but I think it's a good story... I don't know if you remem
 
 **Jerod Santo:** Okay.
 
-**Bruce Schneier:** I hate Google Docs. And it does make me a freak and hard to get along with. So I \[unintelligible 01:01:42.10\] to give you my advice as something to follow. I think I'm a cautionary tale of something to avoid.
+**Bruce Schneier:** I hate Google Docs. And it does make me a freak and hard to get along with. So I am hard pressed to give you my advice as something to follow. I think I'm a cautionary tale of something to avoid.
 
 **Adam Stacoviak:** But yet you do it.
 
@@ -584,7 +584,7 @@ This is an old story, but I think it's a good story... I don't know if you remem
 
 **Bruce Schneier:** Email is decentralized. Now, I can send an email to anybody, regardless of what they're using, which is different than like a Facebook message. SMS is decentralized. Web pages are decentralized. Decentralization is great. And Solid is a vision of decentralized data... The idea being - right now your data is siloed. Fitbit has your health data, and your phone has your location data, and someone else has your photographs... And on and on and on. Wouldn't it be great if all your data was in one place and you got to decide? And then you can do things with your data that you couldn't do otherwise. I don't know, my airline has a lot of my data in this Frequent Flier program. So does the hotel program I like. They don't actually want my data, they just want access to it.
 
-My data was in my - and the term Solid uses is "pod". I have control over it, I can see who accesses it, I can give permissions... If my address changes, I change it in my pod and it propagates everywhere... I had to download an app - because I'm going to Spain - to type in my health information, to get a QR code, so when I land in Spain I can show it and get into the country... So I'm entering my data, again and again and again. That doesn't make sense. And once this app has \[unintelligible 01:03:58.16\] I don't even know what they're gonna do with it. I have no idea what Spain is gonna do with my data. For all I know, they're gonna sell it to Cambridge Analytica. They could. Who knows. And this is a way of thinking about data that puts people in control. It's a way that actually solves the problems that GDPR tried to solve.
+My data was in my - and the term Solid uses is "pod". I have control over it, I can see who accesses it, I can give permissions... If my address changes, I change it in my pod and it propagates everywhere... I had to download an app - because I'm going to Spain - to type in my health information, to get a QR code, so when I land in Spain I can show it and get into the country... So I'm entering my data, again and again and again. That doesn't make sense. And once this app has -- I don't even know what they're gonna do with it. I have no idea what Spain is gonna do with my data. For all I know, they're gonna sell it to Cambridge Analytica. They could. Who knows. And this is a way of thinking about data that puts people in control. It's a way that actually solves the problems that GDPR tried to solve.
 
 So yeah, I'm involved, and I think it's a big deal, I think it's really important, and I think it's valuable. The fact that it's Tim Berners-Lee - it could conceivably change the world; he has a track record for doing that... So yeah, I'm super-excited about it.
 
@@ -668,7 +668,7 @@ So yeah, I'm involved, and I think it's a big deal, I think it's really importan
 
 **Jerod Santo:** \[01:10:20.21\] Right.
 
-**Bruce Schneier:** Maybe you can put your consents in some kind of accessible document that they can look at. But here again, this is a problem. We have to ask you every time \[unintelligible 01:10:32.27\] asked you already.
+**Bruce Schneier:** Maybe you can put your consents in some kind of accessible document that they can look at. But here again, this is a problem. We have to ask you every time instead of saying we asked you already.
 
 **Jerod Santo:** It sounds like something that they might build into the Google Chrome browser. And I know from our previous conversations that you refuse to use such things. I'm curious --
 
