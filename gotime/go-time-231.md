@@ -54,7 +54,7 @@ So I started to see that there is really something to it that makes total sense,
 
 **Natalie Pistunovich:** C\#...
 
-**Ole Bulbuk:** Yeah... So the standard competition back in those days. When you wanted to do business software, it was either Java or C\#. Companies like Siemens - they said "Yeah, we have \[unintelligible 00:10:36.16\] but we would really rather use C\#, if you wouldn't mind." And then I'm like "Yeah, maybe I'm not such a big fan of it."
+**Ole Bulbuk:** Yeah... So the standard competition back in those days. When you wanted to do business software, it was either Java or C\#. Companies like Siemens - they said "Yeah, we have the odd Java projects somewhere, but we would really rather use C\#, if you wouldn't mind." And then I'm like "Yeah, maybe I'm not such a big fan of it."
 
 **Natalie Pistunovich:** And how did you see the languages change as the ecosystem was developing, and specifically in Berlin? What languages, what tech stacks did you see over the years through the '90s, through the 2000s, through the 2010s? Give us a travel down the history lane.
 
@@ -170,7 +170,7 @@ Then other companies like the fintechs, who wanted to do banking, but in \[unint
 
 And then there are bigger companies that often are a bit more polyglot, and then sometimes they have a Go project and sometimes they use Java, or Kotlin, or whatever else. And yeah, I think these two types I see quite a lot, and some in between, of course, that still have something old running somewhere, or are trying to get rid of it, or have been able to switch fully to Go after they once started with a Ruby or PHP prototype, or first version, or whatever you want to call it.
 
-I don't think this is bad. I can imagine starting something with Ruby or so, getting something up and running quickly, and when you see that the smallest instance of some virtual machine on Amazon or so doesn't work out anymore, and you have to scale, then it's maybe a good time to switch to Go, because you seem to have a product-market fit, and then \[unintelligible 00:29:50.27\] invest some money, because you earned some. It could be a model that works well for me.
+I don't think this is bad. I can imagine starting something with Ruby or so, getting something up and running quickly, and when you see that the smallest instance of some virtual machine on Amazon or so doesn't work out anymore, and you have to scale, then it's maybe a good time to switch to Go, because you seem to have a product-market fit, and then  rebuild this with \[unintelligible 00:29:50.27\] invest some money, because you earned some. It could be a model that works well for me.
 
 **Natalie Pistunovich:** Yeah. With adoption of Go by enterprises that happened in the recent few years - how do you see this reflect in the Berlin tech ecosystem?
 
@@ -296,7 +296,7 @@ I think a lot of the over-engineering we see in the real world stems from the di
 
 **Natalie Pistunovich:** Over-engineering is definitely a topic I have heard in the past... That sure is interesting. I agree with you that, unfortunately, this is not so unpopular, at least in our little sample group. I agree with you that the type of skills and the views on programming that you get in universities is mostly not transferable, and things that should be taught on more is how to read other people's code... Because so much of the work that you do in university is just write from scratch, which is also not something you do often... Definitely not alone. And also, learning to accept and consider things like trade-offs in the context of actually business value.
 
-It's still hard for me to sometimes let go of doing the right thing versus doing the thing that is more efficient on the business part. I have \[unintelligible 00:58:04.08\] multiple times in the past, and it's still ongoing. Maybe if I would have learned more in university, more programming in the context of "This is the right thing, and this is the efficient thing", it would have gotten this transition easier for me, for sure. So I'm sorry, Ole, I agree with you. I agree with your unpopular opinion...
+It's still hard for me to sometimes let go of doing the right thing versus doing the thing that is more efficient on the business part. I have sinned in that multiple times in the past, and it's still ongoing. Maybe if I would have learned more in university, more programming in the context of "This is the right thing, and this is the efficient thing", it would have gotten this transition easier for me, for sure. So I'm sorry, Ole, I agree with you. I agree with your unpopular opinion...
 
 **Ole Bulbuk:** Well, sorry... \[laughter\]
 
