@@ -16,7 +16,7 @@ So Ole, you are a backend engineer since the '90s. That's your fun catchphrase. 
 
 **Ole Bulbuk:** Nowadays in Go.
 
-**Natalie Pistunovich:** \[00:03:56.10\] Yeah. So backend engineer since the '90s... Before we dive into what does that mean, for those of you who listen and don't know, Ole and I are co-organizing the Go user group, together with Tim who is not joining us today... And we've been meeting in-person for a while, and then we've been meeting on Zoom for a while, and we're still on Zoom, but we do look to moving back to in-person sometime soon... And the Berlin user group actually exists since 2011, which is I think before both of us were using Go... Which is pretty fun. So that was when it was very early released... And definitely before any stable version came out. So the Berlin Go community is old, but it's also definitely growing, so it's always changing. What is your impression of the Go user group in Berlin, or the Go community, also those who are not coming to the user group?
+**Natalie Pistunovich:** \[03:56\] Yeah. So backend engineer since the '90s... Before we dive into what does that mean, for those of you who listen and don't know, Ole and I are co-organizing the Go user group, together with Tim who is not joining us today... And we've been meeting in-person for a while, and then we've been meeting on Zoom for a while, and we're still on Zoom, but we do look to moving back to in-person sometime soon... And the Berlin user group actually exists since 2011, which is I think before both of us were using Go... Which is pretty fun. So that was when it was very early released... And definitely before any stable version came out. So the Berlin Go community is old, but it's also definitely growing, so it's always changing. What is your impression of the Go user group in Berlin, or the Go community, also those who are not coming to the user group?
 
 **Ole Bulbuk:** I'm very happy over that, and to be part of it, of course. I think in Germany at least it seems to be by far the biggest and most active, so I'm very happy with that. I can assure you, when you live in Berlin, you can find enough companies probably for the rest of your developer life, only working on Go. So this is quite nice, I think.
 
@@ -34,7 +34,7 @@ Nowadays you have a bit more of standards, and libraries and so on, and you're n
 
 **Ole Bulbuk:** Well, I got fed up with Java a bit, and then I tried Python for a while... And Python the language I don't mind too much, but back then it was all compared to Ruby and PHP, and \[unintelligible 00:07:50.20\] job at an agency, and this was really tough and not relaxed working there... And especially when things didn't turn out the way they were originally planned somehow. This wasn't so much fun.
 
-\[00:08:12.15\] Then I went back to Java, because I thought, "Well, the language might be nicer", but you know, the working conditions were not... And then I just went back to Java, and then I found Go later. It started a little bit when it first came out, 2009, 2010, or something; I started using it a little bit for a small pet project.
+\[08:12\] Then I went back to Java, because I thought, "Well, the language might be nicer", but you know, the working conditions were not... And then I just went back to Java, and then I found Go later. It started a little bit when it first came out, 2009, 2010, or something; I started using it a little bit for a small pet project.
 
 **Natalie Pistunovich:** Wait, so how did you hear about it?
 
@@ -60,7 +60,7 @@ So I started to see that there is really something to it that makes total sense,
 
 **Ole Bulbuk:** As I said, it started in the wild, old days where you would develop your own framework for everything. Every new project you started with a clean sheet, and then first thought what would be great to have, and then started building that. And later you had in the Java world also all these frameworks. Some very big, others -- like, the Spring Framework has been the small and lean one for many years at least... I saw that evolve, and getting bigger and bigger, and more refined, but also more overhead... And yeah, Java got its generics, that aren't very trivial to understand, especially since Java supports proper inheritance. This makes generics a lot more complicated, too.
 
-\[00:12:10.01\] Then these annotations in Java, that are really nice to write, but very hard to debug, because there's some code executed that you'd never seen, and you can't reach it anyhow with a normal debugger; the annotation itself doesn't even point to the real code. That is just looking for the annotation, and then doing something interesting... And yeah, it's really difficult.
+\[12:10\] Then these annotations in Java, that are really nice to write, but very hard to debug, because there's some code executed that you'd never seen, and you can't reach it anyhow with a normal debugger; the annotation itself doesn't even point to the real code. That is just looking for the annotation, and then doing something interesting... And yeah, it's really difficult.
 
 So I was more and more fed up with it, and I thought maybe the language - there's still some good color to it, and I tried to make people happy and adopt that a bit more. Then I realized that the community really loves these frameworks, and that you can do powerful things in three lines.
 
@@ -92,7 +92,7 @@ So I was more and more fed up with it, and I thought maybe the language - there'
 
 **Ole Bulbuk:** And then a few years later I took another look at Berlin, and I thought "Hey, it has developed in a good way, and I am happy to go back."
 
-**Natalie Pistunovich:** \[00:16:09.01\] So around the 2010s is when Berlin started getting some startups, and it also started -- it translates basically to more PHP developers... But also, that's around the time that Go was joining the awareness of the world... So Go kind of became online. And this is also around the time that the Berlin Go user group started. So around that time - what can you tell us about Berlin in the early 2010s? The ecosystem, and the companies, and the languages, and why somehow it is my feeling that there was more PHP is accurate, or is it just what I saw?
+**Natalie Pistunovich:** \[16:09\] So around the 2010s is when Berlin started getting some startups, and it also started -- it translates basically to more PHP developers... But also, that's around the time that Go was joining the awareness of the world... So Go kind of became online. And this is also around the time that the Berlin Go user group started. So around that time - what can you tell us about Berlin in the early 2010s? The ecosystem, and the companies, and the languages, and why somehow it is my feeling that there was more PHP is accurate, or is it just what I saw?
 
 **Ole Bulbuk:** Possible. I mean, we had Ruby a lot also. Not only PHP.
 
@@ -122,7 +122,7 @@ So I was more and more fed up with it, and I thought maybe the language - there'
 
 I've been to an old-school logistics company, invited for an interview, and they were using Go sometimes. So that's really nice. I am quite happy that that broadens, and adoption goes up, because it changes the community too, and you have different topics, to see what is useful now, and so on. We have to adapt as a meetup also, because the requirements are just a bit different.
 
-**Break**: \[00:19:04.15\]
+**Break**: \[19:04\]
 
 **Natalie Pistunovich:** I think one interesting thing about Berlin becoming more of a startuppy ecosystem in the tech is that there were a lot of people who immigrated to Berlin, and that kind of made Berlin very -- it probably definitely was very international, but also the tech of Berlin remained very international. So when you kind of first think of technology in the context of Germany, one might think of the car industry, and the very traditional German industries... But that's very much not Berlin. Our user group I think pretty early on was in English, and definitely since then remained in English, and I think a very large part of the developers that I know - they are only speaking English and some German.
 
@@ -142,7 +142,7 @@ But in the traditional companies they have a culture where everything is in Germ
 
 **Natalie Pistunovich:** Yeah. To the listeners who are not familiar with the concept of -- or generally with how German work contracts work, it's common that you get a contract that mentions a probation period of average six months, during which it is possible to terminate the employment within a week, or a couple of weeks notice; it kind of depends. And this is mutual. So if you don't like it, you can quit, and give a few weeks' notice; if the employer doesn't like something in the setup, it's possible.
 
-\[00:24:12.04\] But then after those probation six months it's becoming kind of permanent position, and then as an employer it's becoming significantly harder to fire. So you have to show that you have brought it to the attention of the employee that the performance is not as expected, and then you created a working plan together, and then you revisited it several times, and then as employer you've put some efforts into training, and giving some resources to the employee... So it's quite a long process to fire an employee.
+\[24:12\] But then after those probation six months it's becoming kind of permanent position, and then as an employer it's becoming significantly harder to fire. So you have to show that you have brought it to the attention of the employee that the performance is not as expected, and then you created a working plan together, and then you revisited it several times, and then as employer you've put some efforts into training, and giving some resources to the employee... So it's quite a long process to fire an employee.
 
 And from the employee side, for you to quit it's something like three months notice as an employee, and if you're in a management position, it can also be six months notice... So it's very different from some of the scenarios from other places might know.
 
@@ -164,7 +164,7 @@ So that's kind of how startups got this interesting culture that is a very Berli
 
 **Natalie Pistunovich:** The Go companies that you know from Berlin - would you say there are more that started in Go, or would you say that there are more that changed to Go, or something in between, that some just rewrote or added services in Go, so something in between?
 
-**Ole Bulbuk:** \[00:28:12.07\] Yeah, I think there are different companies. Some were just built up on Go, like these advertisement \[unintelligible 00:28:18.14\] who saw that this is the language they need to be able to develop quickly and efficiently, and also have the short latency that they need to be able to compete.
+**Ole Bulbuk:** \[28:12\] Yeah, I think there are different companies. Some were just built up on Go, like these advertisement \[unintelligible 00:28:18.14\] who saw that this is the language they need to be able to develop quickly and efficiently, and also have the short latency that they need to be able to compete.
 
 Then other companies like the fintechs, who wanted to do banking, but in \[unintelligible 00:28:39.02\] so they used Go. So they started all with Go.
 
@@ -184,7 +184,7 @@ And I think it's also got to do with this mentality that there are more risk-ave
 
 **Natalie Pistunovich:** As speakers in the meetup, yeah.
 
-**Ole Bulbuk:** \[00:31:48.01\] Yeah. Sometimes you see someone, especially when it's a bigger conference or something, or you've got someone who got paid for it, or so... But we usually do it preparing something in our spare time, and then going somewhere, wherever people would be willing to listen to us... \[laughs\] This is much more rare though, I think.
+**Ole Bulbuk:** \[31:48\] Yeah. Sometimes you see someone, especially when it's a bigger conference or something, or you've got someone who got paid for it, or so... But we usually do it preparing something in our spare time, and then going somewhere, wherever people would be willing to listen to us... \[laughs\] This is much more rare though, I think.
 
 **Natalie Pistunovich:** Yeah. And startups is kind of different, right?
 
@@ -208,7 +208,7 @@ And I think it's also got to do with this mentality that there are more risk-ave
 
 **Natalie Pistunovich:** Mm-hm.
 
-**Ole Bulbuk:** \[00:36:07.17\] And it's still doable, and it's possible, but it's not that common anymore. I think the community has changed also; you have a harder time to find those die-hard techies nowadays.
+**Ole Bulbuk:** \[36:07\] And it's still doable, and it's possible, but it's not that common anymore. I think the community has changed also; you have a harder time to find those die-hard techies nowadays.
 
 **Natalie Pistunovich:** So how would you describe the talks these days?
 
@@ -228,7 +228,7 @@ We still do have interesting technical talks, definitely, but it's not all about
 
 In the beginning it was more word of mouth, and reading, like you said, on the news, and so on... And now it's more - yeah, because you have to, because that's your job. And companies will keep adopting Go, but probably because we have kind of behind us, or right now, as fast as it gets is just not gonna be this fast anymore. So we will see gophers joining, but I think it will not be as many; the velocity of joining - the derivative of that is not gonna be positive for longer. It's gonna be more people, but less every time, kind of join us.
 
-\[00:39:47.03\] This last week, or this week was Google I/O, and this is kind of the conference that Google organizes for people who are community organizers, like us, and who are developers, and for people who participate in their different programs... And Go was mentioned. And before this year, it happened once, sometime I think in 2015, and in between, every year, in Google I/O, it was just not brought up... Although this is a language that came from that origin. So that's another interesting signal.
+\[39:47\] This last week, or this week was Google I/O, and this is kind of the conference that Google organizes for people who are community organizers, like us, and who are developers, and for people who participate in their different programs... And Go was mentioned. And before this year, it happened once, sometime I think in 2015, and in between, every year, in Google I/O, it was just not brought up... Although this is a language that came from that origin. So that's another interesting signal.
 
 I asked you earlier how did you join the Go community... So the way that I joined the Go community is when sometimes after I moved to Berlin I just went to a conference; I don't even remember how I heard about that anymore... But it was the DevFest, which is the annual conference of the different Google developer groups in Berlin. So the Go user group, the Android user group, and at the time I think there was also the general Google developer group, kind of; and that's it. There were less Google developer group communities at the time. And they joined forces to give an annual conference, which is kind of a mini, local Google I/O, if you will.
 
@@ -244,7 +244,7 @@ At that time I was working at a company that was using Go, and then I overheard 
 
 **Ole Bulbuk:** Yeah, that would be nice, of course. But it would be very welcome if we'd get a new wave of talks from companies we've never heard of so far that they would be using Go at all. Yeah, it would be really fun.
 
-**Break:** \[00:43:36.02\]
+**Break:** \[43:36\]
 
 **Natalie Pistunovich:** Do you think there's any connection between how the Berlin ecosystem is having lots of gophers, and then lots of companies with Go, and how the Go user group is very early on? So did one influence the other? If yes, which did which? If not, what is that connection between the ecosystem and the Go community in Berlin that you see?
 
@@ -258,7 +258,7 @@ At that time I was working at a company that was using Go, and then I overheard 
 
 You mentioned relocating to Berlin for Go... So for those who are not familiar with working in Europe generally as a developer, and specifically in Berlin, in Germany, there are very easy visas that your employer can issue for you. So it's a lot easier than a Green Card. You kind of need a recognized degree from university, and the rest is bureaucracy, pretty much. And it's also possible without a recognized degree, as well. It's slightly harder, but still definitely manageable, and a lot easier than a Green Card. So if anybody is considering to relocate here, just know that it's pretty easy, because there is a high demand.
 
-**Ole Bulbuk:** \[00:50:04.01\] I think the contract that you get from the company is the most important thing. Then with that you can get the rest rolling somehow. Especially from within the EU or something like that, it's quite easy. And when you are from outside, it's getting a bit more difficult, but...
+**Ole Bulbuk:** \[50:04\] I think the contract that you get from the company is the most important thing. Then with that you can get the rest rolling somehow. Especially from within the EU or something like that, it's quite easy. And when you are from outside, it's getting a bit more difficult, but...
 
 **Natalie Pistunovich:** Yeah, for those who are inside the EU, you don't need to do anything; you just move here and start working. But for those who want to come from abroad, the visa - it's called the Blue Card; it's rather straightforward. There's no quotas on that to start with. It does simplify things.
 
@@ -272,7 +272,7 @@ In the past we met once a month always. Since forever it was always once a month
 
 We do look to get back in-person, maybe this spring/summer, which is exciting... And it will change things again. So we'll see if the Zoom fatigue is being replaced with "I'm used to not leaving the house. I'm not gonna come to events" fatigue. Maybe yes, maybe not. Definitely, a global thing to think about, which is maybe something you all agree with, maybe something that you don't agree with, but this definitely is a type of an opinion, just like our Unpopular Opinions.
 
-**Jingle:** \[00:53:39.11\] to \[00:53:58.14\]
+**Jingle:** \[53:39\] to \[53:58\]
 
 **Natalie Pistunovich:** Ole, I heard a rumor, that you have two unpopular opinions.
 
@@ -290,7 +290,7 @@ So this is something quite different... And I think the audience is a major fact
 
 I think a lot of the over-engineering we see in the real world stems from the discrepancy that we see between the problems we learn to solve at universities and the problems that we have in real life, or lack of problems maybe.
 
-**Natalie Pistunovich:** \[00:57:05.00\] Interesting. I will not lie, I feel a little bit attacked...
+**Natalie Pistunovich:** \[57:05\] Interesting. I will not lie, I feel a little bit attacked...
 
 **Ole Bulbuk:** Sorry. \[laughter\]
 
