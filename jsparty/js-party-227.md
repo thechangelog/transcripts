@@ -20,7 +20,7 @@
 
 **Nick Nisi:** We'll have a link in the show notes for that. Welcome back. Mik, do you wanna tell us a little bit about yourself?
 
-**Mikola Lysenko:** \[00:03:59.20\] Yeah. So I also have been working at Socket for the last six months or so. We've been building a bunch of infrastructure around analyzing JavaScript, and just scanning Npm for suspicious packages and weird things, and trying to turn all of that data into something that people can use to detect attacks on their open source projects, or on their code that they're trying to ship to their users.
+**Mikola Lysenko:** \[03:59\] Yeah. So I also have been working at Socket for the last six months or so. We've been building a bunch of infrastructure around analyzing JavaScript, and just scanning npm for suspicious packages and weird things, and trying to turn all of that data into something that people can use to detect attacks on their open source projects, or on their code that they're trying to ship to their users.
 
 Before that I worked in China, not developing any malware or fixing malware, but on building a multiplayer online 3D Metaverse web game, which turned out to be exactly the wrong thing to do after the Chinese government regulations completely shut that entire sector down.
 
@@ -42,7 +42,7 @@ And then before that I was traveling around a lot, working on all kinds of diffe
 
 **Nick Nisi:** So that tends to be -- when I think about logging, when I hear the term logging, that is what I immediately think of, because that's what I do the most. And that's synonymous with debugging for me at this point. I recently was reminiscing about how I used to use the debugger so much more before TypeScript kind of made that a little redundant for me... Because I used to just pause on things to figure out what the heck I was actually typing, or what types of values I was actually passing around... But I don't have that so much anymore. So the things that I do the most now are just console.log( ) things to kind of debug my code.
 
-\[00:08:07.10\] But then there's lots of different ways that you can go with, with just talking about logging. As you mentioned, you can just have simple statements printed out to the console, you could be sending those logs somewhere else, you can provide different levels for logs, so that you can kind of filter maybe not seeing everything, only seeing more important things, or what you might deem to be more important, and so on from there.
+\[08:07\] But then there's lots of different ways that you can go with, with just talking about logging. As you mentioned, you can just have simple statements printed out to the console, you could be sending those logs somewhere else, you can provide different levels for logs, so that you can kind of filter maybe not seeing everything, only seeing more important things, or what you might deem to be more important, and so on from there.
 
 Bret, you also mentioned the command line, outputting logs and so on... Since you invoked the command line, I'm going to invoke Chris to talk about logging on the command line. What's the same or different?
 
@@ -58,11 +58,11 @@ Bret, you also mentioned the command line, outputting logs and so on... Since yo
 
 The thing that does suck is that it's not really interoperable. You can't just say "I wanna swap out all the logging here with a different thing." You end up kind of stuck with whatever logging your dependencies have chosen as your own logging service. And this actually creates a ton of risk for most of the people downstream, because there's no interoperability in the logging. Once you've committed to that logging system, you can't back out -- you can't swap it to a different thing. There's no general intermediate logging layer, or whatever. Which is why things like Log4j, once they sort of infect themselves into the ecosystem, you can't just rip them out. Everyone's gonna use that thing; even though it's not doing anything that hard, it's standardized on that particular interface now, so you have to keep going with that interface, and you can't easily replace it.
 
-\[00:12:07.17\] So then if Log4j decides it wants to go pick up some new capability - I don't know, maybe run random Java files that it downloads from the internet - now all of a sudden everything using this goofy logging system is vulnerable to some cool shell injection attack. It's an unfortunate thing that logging is not that interoperable, but I think this is a common problem with a lot of software systems.
+\[12:07\] So then if Log4j decides it wants to go pick up some new capability - I don't know, maybe run random Java files that it downloads from the internet - now all of a sudden everything using this goofy logging system is vulnerable to some cool shell injection attack. It's an unfortunate thing that logging is not that interoperable, but I think this is a common problem with a lot of software systems.
 
 **Bret Comnes:** What would be the most closely-resembling analog to Log4j in the JavaScript ecosystem? Would it be something like the Debug logging package that a lot of things used to use, or use to use?
 
-**Mikola Lysenko:** Maybe Debug... I mean, we use Debug at Socket, because it's like, Next uses Debug and Next uses it because Express and Npm use it. So it's like, we've sort of been just kind of -- like, Debug became a standard because it was simply there first, and not that it's anything great, or that the code is even that complicated.
+**Mikola Lysenko:** Maybe Debug... I mean, we use Debug at Socket, because it's like, Next uses Debug and Next uses it because Express and npm use it. So it's like, we've sort of been just kind of -- like, Debug became a standard because it was simply there first, and not that it's anything great, or that the code is even that complicated.
 
 I guarantee most programmers who are reasonably -- like, even if you've just gone through like a bootcamp, you can probably write your own logging system. It's not that hard. The problem is you have to use that logging system everywhere, and you certainly don't wanna have two logging systems in your code. That's far too many logging systems; you only need one. But you need it, and you need to use it everywhere, so you just have to standardize one of them.
 
@@ -84,7 +84,7 @@ For example, Sentry - there's a function where you can just embed it in the clie
 
 **Mikola Lysenko:** I know! Don't give people ideas. But surely, everyone's thought about this devious possibility, right? It seems like almost none of these logging systems do any kind of validation on the client side. In other systems not like JavaScript, which are less dynamic - I've seen C codebases do this. The number of things you can log on a client is explicitly enumerated. You just have like a look-up table of different strings, and then you can just like log them. There's kind of like an internationalization type of thing, so then you can't just like spam them with a bunch of stuff. You could always rate-limit a client if they're sending too many things... But as far as I know, a lot of the JavaScript logging stuff does nothing of this sort to ensure the integrity of untrusted code from the clients. Anyone can log anything... Which is also why Log4j and these kinds of things end up being really bad, because if you have a Java backend and then like a JavaScript frontend that's logging things that go to Log4j eventually, all of a sudden your servers route it now again. Oh, no. Right? "What have we done? Why did we do this?!" \[laughs\]
 
-**Nick Nisi:** \[00:16:21.04\] I can't imagine why you keep bringing that up as an example...
+**Nick Nisi:** \[16:21\] I can't imagine why you keep bringing that up as an example...
 
 **Mikola Lysenko:** Right...
 
@@ -100,7 +100,7 @@ For example, Sentry - there's a function where you can just embed it in the clie
 
 **Nick Nisi:** And how do you delineate what you send where?
 
-**Christopher Hiller:** Basically, the output of your program can be machine-readable. So maybe you have like a JSON flag or something that says "Output JSON", like Npm does. You could say --json. That should go to stdout. While your progress bars and all that nonsense should probably just go to stderr.
+**Christopher Hiller:** Basically, the output of your program can be machine-readable. So maybe you have like a JSON flag or something that says "Output JSON", like npm does. You could say --json. That should go to stdout. While your progress bars and all that nonsense should probably just go to stderr.
 
 **Nick Nisi:** Yeah.
 
@@ -132,7 +132,7 @@ For example, Sentry - there's a function where you can just embed it in the clie
 
 **Bret Comnes:** There was a Twitter thread, people were talking about like "What's the state of Windows support? What's the minimum thing you have to do to make sure they're happy?" Some people, including myself, were suggesting "Why not just expect everyone to use Windows Subsystem for Linux?" But I guess there's still a number of things that don't work exactly correct in the Linux compatibility layer around file watching, and stuff like that... We're so close to exact compatibility, but not quite there, in some ways.
 
-**Mikola Lysenko:** \[00:20:03.18\] Yeah. Well, and then there's also the file path length limits, and then the weird behavior with spaces and casing... In Windows -- it doesn't work. Just stop bothering with it. I feel like people should just give up. It's been long enough, nothing works on it really, so they have Windows Subsystem for Linux... So just stop doing the Windows thing. It's done.
+**Mikola Lysenko:** \[20:03\] Yeah. Well, and then there's also the file path length limits, and then the weird behavior with spaces and casing... In Windows -- it doesn't work. Just stop bothering with it. I feel like people should just give up. It's been long enough, nothing works on it really, so they have Windows Subsystem for Linux... So just stop doing the Windows thing. It's done.
 
 **Christopher Hiller:** Yeah... But most JavaScript developers are using Windows, so we kind of have to think about them if we're making open source, right?
 
@@ -154,7 +154,7 @@ I would characterize the Unix style thing as really just a functional approach, 
 
 The other style is more like an immutable type of interface; it's more like an imperative mode type of operation where you're changing the state of your computer by sending commands to it. So it's sort of like a QBasic type of interface. And Git, even though it is ironically based on immutable data structures, works more like the latter. It is basically a mutable interface for your current Git repository... Which is confusing, because the Git commands are just actually changing state when you're running that, even though the actual Git repo is a functional data structure.
 
-**Break:** \[00:23:03.11\]
+**Break:** \[23:03\]
 
 **Bret Comnes:** During the break we were talking about how -- I was sort of posing the idea "Is there a big difference between CLI logging, where you're providing context to a user, versus logging for a backend service that's shooting out structured log lines that's getting collected in some kind of log database like Datadog or \[unintelligible 00:25:15.26\] or whatever?" And I think Chris said you do both at the same time in some contexts, so...
 
@@ -174,7 +174,7 @@ The project I'm working on now, Appium, does both. It has like a CLI tool compon
 
 **Mikola Lysenko:** This is one of those things where it's like the design of Unix is probably holding us back a little bit. I mean, this type of thing happens all the time. For example, Next does this, and pretty much every large project I've worked on ends up in this same kind of situation where -- again, like you say, your development environment, and maybe you're running TypeScript and Webpack and a bunch of these other things which have like a little watch mode... And then the watch mode has one style of formatting, and then you also have your web server, and then maybe any subservices for that web server, and then all those logs are just getting dumped into one big stream... And good luck sorting that mess out. Here you go, buddy. Right?
 
-\[00:27:11.03\] You can do stuff like, okay, you just open up multiple shells and then you have to manually start every single one of these processes in each of its little shells, and then you can switch between them. But in a more perfect world, wouldn't it be nice if it could just open multiple shells for you automatically and you could just have multiple output streams that could be redirected in there?
+\[27:11\] You can do stuff like, okay, you just open up multiple shells and then you have to manually start every single one of these processes in each of its little shells, and then you can switch between them. But in a more perfect world, wouldn't it be nice if it could just open multiple shells for you automatically and you could just have multiple output streams that could be redirected in there?
 
 I think there's probably some Unix tool that sort of does that for you, to parallel execute them... But it would be nice if there was something a little more baked into the way shells worked, that allowed you to have more than two default output streams. You only have your stdout and stderr, but why can't you have more? I don't know. Well, you only get two, so deal with it.
 
@@ -212,7 +212,7 @@ I was gonna ask, does anyone have any experience with more advanced logging? I'm
 
 **Nick Nisi:** You console.group( ) them, right?
 
-**Bret Comnes:** \[00:30:43.18\] No, I'm thinking more like a Pino library, where it has like a little API and you pipe data with objects, and it formats it consistently, and can enforce things like having a transaction ID in the log line. So in theory, if you're disciplined about this, you could search for a transaction ID in a big stash of logs in a logging service and see a transaction move across different services.
+**Bret Comnes:** \[30:43\] No, I'm thinking more like a Pino library, where it has like a little API and you pipe data with objects, and it formats it consistently, and can enforce things like having a transaction ID in the log line. So in theory, if you're disciplined about this, you could search for a transaction ID in a big stash of logs in a logging service and see a transaction move across different services.
 
 But again, typically, when you have multiple services in a big org or project, it means multiple people, so getting everyone to follow that pattern consistently - it becomes a people problem at that point.
 
@@ -228,9 +228,9 @@ But again, typically, when you have multiple services in a big org or project, i
 
 Some of the things that the service does is log to stdout, and some of it actually saves things to a database in a transaction. So we kind of have different approaches to it. I think it's something that seems like it's grown organically, and probably at some point in the future we probably need to visit this and be a little more intentional about it. But we're still pretty early on, so...
 
-**Mikola Lysenko:** Yeah. So for most development we use Debug for logging, because it's the same thing that Next uses, and all of our other stuff in Npm uses. So we're just kind of like stuck with that, unless we wanna create another Debug equivalent... Which we don't, so we use that.
+**Mikola Lysenko:** Yeah. So for most development we use Debug for logging, because it's the same thing that Next uses, and all of our other stuff in npm uses. So we're just kind of like stuck with that, unless we wanna create another Debug equivalent... Which we don't, so we use that.
 
-And I think if you're working in Node and you're working in using a lot of projects built in Npm, you pretty much end up having to use Debug, and that's just the way the world is right now.
+And I think if you're working in Node and you're working in using a lot of projects built in npm, you pretty much end up having to use Debug, and that's just the way the world is right now.
 
 Besides that, we do use some more structured logging for specific events we need to analytics on, or querying. These are things where they have some kind of business impact, or there's something we need to measure later on. We collect certain profiling data in our SQL database that we then can do aggregates... Like, "Okay, what analysis is taking too long?" For things like GitHub events, like WebHooks events, we have to log those. But those are actually needed for correctness, because we have to sometimes replay a WebHook if something crashed in the middle, or the GitHub API timed out, or whatever, and then we have to retry it.
 
@@ -242,7 +242,7 @@ And this sort of structured logging idea that I threw out earlier is kind of a m
 
 A structured logger like Pino - you kind of feed it data objects and then it formats it in very specific formats. There's like a development view, for humans, and then JSON for a log aggregate service like Datadog, or Elasticsearch, and stuff like that. So that would be kind of the middle ground between the two, I think.
 
-**Mikola Lysenko:** \[00:35:09.06\] Yeah. Also, I could say one other thing too, which is the last project I worked on used a completely crazy logging system that was not based on anything like Debug, or whatever... But that was because we wrote our entire web stack from scratch. So it was like a JavaScript project, but we had a schema-based thing. It was also because there was like an online browser game, so everything worked in a very different way, and the performance requirements were very different from a typical web app. So we use almost no existing Npm packages. It's all written from scratch. There's many ways to do this in practice. You just kind of figure out what works.
+**Mikola Lysenko:** \[35:09\] Yeah. Also, I could say one other thing too, which is the last project I worked on used a completely crazy logging system that was not based on anything like Debug, or whatever... But that was because we wrote our entire web stack from scratch. So it was like a JavaScript project, but we had a schema-based thing. It was also because there was like an online browser game, so everything worked in a very different way, and the performance requirements were very different from a typical web app. So we use almost no existing npm packages. It's all written from scratch. There's many ways to do this in practice. You just kind of figure out what works.
 
 **Christopher Hiller:** What of metrics, things you \[unintelligible 00:35:48.29\] and look at in Grafana, or something like that?
 
@@ -262,7 +262,7 @@ A structured logger like Pino - you kind of feed it data objects and then it for
 
 So that kind of touches into error handling... We're gonna take a break and then we'll be back to talk more in-depth about error handling.
 
-**Break:** \[00:38:19.08\]
+**Break:** \[38:19\]
 
 **Nick Nisi:** Alright, so in the last session we talked about logging and started segueing into error handling and kind of seeing that... So let's more formally talk about error handling and some of the best practices around that. I know everyone on this panel has strong opinions about error handling, so... Let's start with a definition. Mik, do you wanna give us a definition?
 
@@ -284,7 +284,7 @@ Handling these exceptions is of course something that everyone needs to know abo
 
 **Mikola Lysenko:** You can throw promises, you can throw whatever you want, and it doesn't care. But the error object is a special thing that you can throw, and you should usually use the error when you throw it, because the error will give you a stack trace. And that stack trace tells you what called the code that actually triggered that original exception or object or whatever to be thrown up the stack. And that is actually the useful part of errors, is that they can capture stacks.
 
-**Christopher Hiller:** \[00:42:11.02\] Nick, you threw a promise? What, did you catch it and then like resolve it?
+**Christopher Hiller:** \[42:11\] Nick, you threw a promise? What, did you catch it and then like resolve it?
 
 **Nick Nisi:** You can catch it, check and see if it's been resolved, and then re-throw it. And this is called Suspense.
 
@@ -306,7 +306,7 @@ And of course, it's hypocritical, because if you try to throw something that isn
 
 **Bret Comnes:** Yeah...
 
-**Mikola Lysenko:** I've seen that in other packages, too... When I hook them up to some kind of Npm, it logs out errors and you start seeing errors coming out of a module \[unintelligible 00:43:25.25\] crashing your service, and you're like "What's going on here?!" You're like, "Oh, it's talking to itself through errors."
+**Mikola Lysenko:** I've seen that in other packages, too... When I hook them up to some kind of npm, it logs out errors and you start seeing errors coming out of a module \[unintelligible 00:43:25.25\] crashing your service, and you're like "What's going on here?!" You're like, "Oh, it's talking to itself through errors."
 
 **Bret Comnes:** Yeah, many packages do this. This is a thing that we've kind of realized by just doing a lot of static analysis. So one thing is throw makes static analysis in JavaScript so, so, so much harder than it would be otherwise. It's already a dynamic language, so resolving into a piece of code, trying to figure out the points-to analysis and all the simple binding and everything - that's not easy. But then when you're trying to build the control flow graph, taking into account that anything can throw pretty much, and when it throws, it doesn't just return to where it threw, it can just go further up.
 
@@ -324,7 +324,7 @@ In practice, most things that do static analysis or try to optimize JavaScript j
 
 **Bret Comnes:** I wonder if it's improved at all since then.
 
-**Mikola Lysenko:** \[00:45:59.12\] I mean, last I've really looked at this carefully, which was a couple years ago, it was pretty bad. And I think it's not improved much, because I was actually looking at a performance issue in our analysis on Socket. And currently, about 5% of all of our CPU time is spent in the Node semver package, just calling the semver test satisfies function, or whatever... And just looking at "Well, why is that slow?" Well, guess what semver does under the hood - lots of try-catch, lots of exceptions, right? So I haven't finished digging into this particular issue, but there's a part of me that's like "Hm... Maybe I need to fork Node semver and just remove all of those exceptions." \[laughs\]
+**Mikola Lysenko:** \[45:59\] I mean, last I've really looked at this carefully, which was a couple years ago, it was pretty bad. And I think it's not improved much, because I was actually looking at a performance issue in our analysis on Socket. And currently, about 5% of all of our CPU time is spent in the Node semver package, just calling the semver test satisfies function, or whatever... And just looking at "Well, why is that slow?" Well, guess what semver does under the hood - lots of try-catch, lots of exceptions, right? So I haven't finished digging into this particular issue, but there's a part of me that's like "Hm... Maybe I need to fork Node semver and just remove all of those exceptions." \[laughs\]
 
 **Bret Comnes:** This is like a surprising point for Node-style callback programming, which did not use exceptions...
 
@@ -348,7 +348,7 @@ So where this would be useful is if you have like a long-running promise, or som
 
 And where this was initially created was in the Fetch API. So this was not actually a thing that shipped with promises in the beginning. But it was basically in Fetch - it used to be there were like a million different ways that you could try to abort it. And this is partly because it tried to copy the older XML/HTTP request API. So you could do stuff like set a timeout, set a retry... There were all these different special conditions, and there were just like different flags and configuration parameters where you would try to enumerate all of the cases where this thing should stop.
 
-\[00:49:50.03\] In the case of the XHR there was also this kind of catch-all method where you could call .abort on the XHR and it would stop. So Fetch initially was trying to replace the XHR API with something that's using Promises, and it's better. You should use Fetch. But it took them a couple of iterations to get this right, because with promises initially there wasn't an easy way to abort the fetch after you've fired one off. So after a bunch of discussion and maybe like a year of back and forth on newsgroups, and you can look online... I mean, I was not involved in this process. Merely a by-stander, just eating popcorn and watching this play out. Eventually, abort signal was proposed as the solution for this.
+\[49:50\] In the case of the XHR there was also this kind of catch-all method where you could call .abort on the XHR and it would stop. So Fetch initially was trying to replace the XHR API with something that's using Promises, and it's better. You should use Fetch. But it took them a couple of iterations to get this right, because with promises initially there wasn't an easy way to abort the fetch after you've fired one off. So after a bunch of discussion and maybe like a year of back and forth on newsgroups, and you can look online... I mean, I was not involved in this process. Merely a by-stander, just eating popcorn and watching this play out. Eventually, abort signal was proposed as the solution for this.
 
 The way you make a fetch abortable was you'd just pass an abort signal into the fetch object, and then it'll handle that abort signal, and when it's done, it'll cancel the fetch. And that's much more flexible, because you can cancel this -- you know, if your fetch was initiated by some other promise or whatever, and you decide you wanna cancel it, then you've gotta kill all the fetches outwards, right? So it's a better API, and it took a while to get it. And it started in Fetch.
 
@@ -384,7 +384,7 @@ But that said, sometimes abort signals are needed to even make Ctrl+C work, beca
 
 **Bret Comnes:** I have an example... This was kind of like the moment that clicked with me with abort signals... With promises and async/await programming, doing control flow and concurrency-limiting code is a little bit different than with callbacks, or just plain promises... Where you typically use al ittle API wrapper that does all the control flow stuff in the middle, like "run all, but limit to 5", or whatever.
 
-\[00:53:58.11\] If you wanted to try to move towards a more literal programming style with async await and doing concurrency control - there's a great pattern that I am turned on to recently called semaphores, which I guess other language ecosystems have had this for ages, but they're kind of new to JS because of async/await.
+\[53:58\] If you wanted to try to move towards a more literal programming style with async await and doing concurrency control - there's a great pattern that I am turned on to recently called semaphores, which I guess other language ecosystems have had this for ages, but they're kind of new to JS because of async/await.
 
 Abort controllers work really well with semaphores, because you can pass the abort signal into the semaphore creating, and when your promise.all array or whatever is waiting on different semaphores to open up and let the new task start, they can actually be listening on this and abort out of those before those other tasks or promises have even started. So it fits really well with that style of programming.
 
@@ -416,7 +416,7 @@ But yeah, semaphores are very useful if you do anything where you wanna limit th
 
 For example, if you're hitting the GitHub API and GitHub is rate-limiting you because you don't wanna have too many threads hitting it at once from the same worker, so you put a semaphore on there to throttle the number of threads \[unintelligible 00:58:04.26\] at the same time.
 
-**Nick Nisi:** \[00:58:07.11\] Some real-time feedback - I just grepped for abort controller and abort signal in my codebase, and I am apparently doing promises very wrong... Because it's not in there once.
+**Nick Nisi:** \[58:07\] Some real-time feedback - I just grepped for abort controller and abort signal in my codebase, and I am apparently doing promises very wrong... Because it's not in there once.
 
 **Mikola Lysenko:** Yeah, probably... \[laughter\] Yeah... You might wanna take a look at that. For like a single-threaded promise where it just kind of goes from top to bottom, maybe it's excusable. But for example, here's another place where this would be useful. If you have a web server, and you're handling your request in a promise, then say the incoming request times out, or the client disconnects, or whatever. Then you might wanna use the abort controller to fire a signal down to all of the promises in that handler to tell them like "Hey, stop whatever you're doing. Don't waste any more resources handling this request. Let's get back to business and just stop that." So your server doesn't just end up kind of going into this loop where it's like "Oh, I've gotta handle this request for a guy who's already left to go get a sandwich, or peaced out from your page." So that's one place where it's very useful.
 
