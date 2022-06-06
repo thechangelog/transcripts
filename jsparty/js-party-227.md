@@ -112,7 +112,7 @@ For example, Sentry - there's a function where you can just embed it in the clie
 
 **Mikola Lysenko:** Dang, I've been doing it wrong the whole time.
 
-**Christopher Hiller:** If the output of your program is a text file - like, I don't know... Prettier does this, right? If you don't use --right, Prettier just dumps the prettified file to stdout. \[unintelligible 00:18:26.04\] it doesn't have to be like a JSON, or XML, or what have you.
+**Christopher Hiller:** If the output of your program is a text file - like, I don't know... Prettier does this, right? If you don't use --right, Prettier just dumps the prettified file to stdout. And sure it doesn't have to be like a JSON, or XML, or what have you.
 
 **Bret Comnes:** Browserify was another tool that did that early on in the Node ecosystem.
 
@@ -182,7 +182,7 @@ I think there's probably some Unix tool that sort of does that for you, to paral
 
 **Mikola Lysenko:** You could, yeah.
 
-**Bret Comnes:** I was gonna say, we need like a Tmux logger where you just page between the different \[unintelligible 00:28:00.25\] streams.
+**Bret Comnes:** I was gonna say, we need like a Tmux logger where you just page between the different output streams.
 
 **Mikola Lysenko:** Yeah, you can set it up, but it becomes kind of awkward, because then you have to make sure that your tool sort of decomposed in some way. And what if it is really some more integrated thing where you're running some modified version of ESBuild that knows something about your web server? It would be nice if it was kind of like built into the interface... Because you can open up multiple shells, there are multiple TTYs that exist... You just have to open up different files, or something. It's always kind of clumsy doing this. I don't know... I feel like there's probably a potential for innovation there. Someone could figure out a nicer way to handle that, and it would be cool.
 
@@ -190,7 +190,7 @@ I think there's probably some Unix tool that sort of does that for you, to paral
 
 **Mikola Lysenko:** That could be cool, maybe. But the thing is, then it has to kind of integrate with your actual terminal emulator in some way, right? Or maybe you could just open up multiple TTYs, or something... So I don't know what the right solution would look like for that.
 
-**Christopher Hiller:** Yeah, I don't wanna get into the weeds on that, but I am definitely being nerd-sniped, like "Ooh, I wanna go check that out and see \[unintelligible 00:29:02.20\]"
+**Christopher Hiller:** Yeah, I don't wanna get into the weeds on that, but I am definitely being nerd-sniped, like "Ooh, I wanna go check that out and see that is like"
 
 **Mikola Lysenko:** I don't know. Maybe it could be done.
 
@@ -236,7 +236,7 @@ Besides that, we do use some more structured logging for specific events we need
 
 **Christopher Hiller:** When you do stuff like that, are you putting queries in your codebase and just firing them off, or...?
 
-**Bret Comnes:** Yeah, we've been using \[unintelligible 00:33:51.21\] for catch-all columns in some of those logs... I would say the main difference between the two approaches too is like - one is very intentional and one is kind of more haphazard. So logging with Debug is like "I'm just logging what's happening right here at this line", whereas when we were capturing into our database, it's like, I wanna collect this data very specifically and be able to query it later.
+**Bret Comnes:** Yeah, we've been using JSONB fields for catch-all columns in some of those logs... I would say the main difference between the two approaches too is like - one is very intentional and one is kind of more haphazard. So logging with Debug is like "I'm just logging what's happening right here at this line", whereas when we were capturing into our database, it's like, I wanna collect this data very specifically and be able to query it later.
 
 And this sort of structured logging idea that I threw out earlier is kind of a middle ground. It's kind of like -- you know, Debug, just to catch anyone up who doesn't know about the Debug package... It's kind of like console.log( ), but you turn it on with an environment variable, and each file has to set up a little namespace, and you can filter which files are logging, essentially. It doesn't enforce anything about what's in the log.
 
@@ -244,7 +244,7 @@ A structured logger like Pino - you kind of feed it data objects and then it for
 
 **Mikola Lysenko:** \[35:09\] Yeah. Also, I could say one other thing too, which is the last project I worked on used a completely crazy logging system that was not based on anything like Debug, or whatever... But that was because we wrote our entire web stack from scratch. So it was like a JavaScript project, but we had a schema-based thing. It was also because there was like an online browser game, so everything worked in a very different way, and the performance requirements were very different from a typical web app. So we use almost no existing npm packages. It's all written from scratch. There's many ways to do this in practice. You just kind of figure out what works.
 
-**Christopher Hiller:** What of metrics, things you \[unintelligible 00:35:48.29\] and look at in Grafana, or something like that?
+**Christopher Hiller:** What of metrics, things you show off and look at in Grafana, or something like that?
 
 **Mikola Lysenko:** Yeah, for that kind of performance measurement - for those kinds of analytics things, I think they break into two categories. We have ones which are sort of defined by some business use case, measuring the performance of some task or whatever, where we do the logging ourselves in the database, and then we can query it our own way... And then for other stuff which are like more standardized Google Analytics type of stuff, we just use an off-the-shelf analytics package. That does its own metrics collection, and it just has its own system for doing that, and we don't even touch it.
 
@@ -266,7 +266,7 @@ So that kind of touches into error handling... We're gonna take a break and then
 
 **Nick Nisi:** Alright, so in the last session we talked about logging and started segueing into error handling and kind of seeing that... So let's more formally talk about error handling and some of the best practices around that. I know everyone on this panel has strong opinions about error handling, so... Let's start with a definition. Mik, do you wanna give us a definition?
 
-**Mikola Lysenko:** Errors, or exceptions \[unintelligible 00:40:18.25\]
+**Mikola Lysenko:** Errors, or exceptions or...?
 
 **Nick Nisi:** Yeah, error handling... I don't know. It's kind of a vague --
 
@@ -306,7 +306,7 @@ And of course, it's hypocritical, because if you try to throw something that isn
 
 **Bret Comnes:** Yeah...
 
-**Mikola Lysenko:** I've seen that in other packages, too... When I hook them up to some kind of npm, it logs out errors and you start seeing errors coming out of a module \[unintelligible 00:43:25.25\] crashing your service, and you're like "What's going on here?!" You're like, "Oh, it's talking to itself through errors."
+**Mikola Lysenko:** I've seen that in other packages, too... When I hook them up to some kind of npm, it logs out errors and you start seeing errors coming out of a module but it's not crashing your service, and you're like "What's going on here?!" You're like, "Oh, it's talking to itself through errors."
 
 **Bret Comnes:** Yeah, many packages do this. This is a thing that we've kind of realized by just doing a lot of static analysis. So one thing is throw makes static analysis in JavaScript so, so, so much harder than it would be otherwise. It's already a dynamic language, so resolving into a piece of code, trying to figure out the points-to analysis and all the simple binding and everything - that's not easy. But then when you're trying to build the control flow graph, taking into account that anything can throw pretty much, and when it throws, it doesn't just return to where it threw, it can just go further up.
 
@@ -378,7 +378,7 @@ But that said, sometimes abort signals are needed to even make Ctrl+C work, beca
 
 **Bret Comnes:** Sort of.
 
-**Mikola Lysenko:** Well, yeah, but sometimes it doesn't work and you have to Ctrl+Z and then kill \[unintelligible 00:53:15.05\] or whatever, and you can nuke the thing that way, if it's not really aborting.
+**Mikola Lysenko:** Well, yeah, but sometimes it doesn't work and you have to Ctrl+Z and then kill-9%1 or whatever, and you can nuke the thing that way, if it's not really aborting.
 
 **Nick Nisi:** I have used abort signal with Fetch, and I know that you just pass it in as like -- I think it's like a signal property that you pass. But you can just use it with normal promises...
 
@@ -414,7 +414,7 @@ So you need to have the abortable concurrency primitives. And they could be prom
 
 But yeah, semaphores are very useful if you do anything where you wanna limit the number of threads running. You could use it for a critical section, but you could also use it as just like a general throttle. Say you have a bunch of different tasks that are all kind of running, and you don't wanna run more than five of them at once, or something... You're gonna just have everything wait on a semaphore that's initialized to 5, and then when they're done with their critical section, they signal and let the next thread go through. You can have like a global semaphore that you can use to dial up or down the amount of concurrency you wanna allow those tasks to have.
 
-For example, if you're hitting the GitHub API and GitHub is rate-limiting you because you don't wanna have too many threads hitting it at once from the same worker, so you put a semaphore on there to throttle the number of threads \[unintelligible 00:58:04.26\] at the same time.
+For example, if you're hitting the GitHub API and GitHub is rate-limiting you because you don't wanna have too many threads hitting it at once from the same worker, so you put a semaphore on there to throttle the number of threads you have at the same time.
 
 **Nick Nisi:** \[58:07\] Some real-time feedback - I just grepped for abort controller and abort signal in my codebase, and I am apparently doing promises very wrong... Because it's not in there once.
 
@@ -490,7 +490,7 @@ If you're throwing stacks and they're there in front of the user, they're not re
 
 **Bret Comnes:** Use Debug - yeah, okay.
 
-**Christopher Hiller:** Yeah. Just like have a \[unintelligible 01:06:14.12\] and all that junk, and then you can see the stack trace.
+**Christopher Hiller:** Yeah. Just like have a verbose or a log level and all that junk, and then you can see the stack trace.
 
 **Mikola Lysenko:** What do you think is the real harm in having a stack for users? Is it just kind of like an aesthetic thing, like this looks ugly and therefore we shouldn't have it? Or is it confusing to people in some way, that maybe we should try to give them an affordance?
 
@@ -502,7 +502,7 @@ If you're throwing stacks and they're there in front of the user, they're not re
 
 **Christopher Hiller:** If an exception is uncaught and unexpected, Node does a thing with that, so there will be a stack trace. So you should know - with throwing exceptions and tools you need to know who your audience is. So if your audience is just somebody using the tool, you probably don't need to do it. But if, say, you have a CLI tool and that CLI tool accepts plugins or something, that plugin author might wanna know. So wherever this exception is gonna get thrown, you need to know who it's for.
 
-**Mikola Lysenko:** I think where these always do something weird is when there's like a -- for regular CLI tools, where they just crash and then print an exception to stderr, I usually find that not too annoying. But if there's some kind of weird \[unintelligible 01:07:58.26\] then it's not so good.
+**Mikola Lysenko:** I think where these always do something weird is when there's like a -- for regular CLI tools, where they just crash and then print an exception to stderr, I usually find that not too annoying. But if there's some kind of weird curses GUI thing or like some crazy x thing then it's not so good.
 
 I think also a lot of libraries are really chatty. If you've noticed Three.js - it loves to announce "Hey, I'm Three.js and I'm running on this web page." It's always gotta get that in there. And a lot of other things do that too, which is kind of like "Hm... Did I sign up for this?"
 
