@@ -22,7 +22,10 @@ const REPLACES = [
     [/\bgithub(\.\w)/gi,'github$1'], // stylise GitHub.com to github.com
     [/\bgitlab/gi,'GitLab'], // stylise gitlab to GitLab (This breaks gitlab.com, but the next line fixes it again)
     [/\bgitlab(\.\w)/gi,'gitlab$1'], // stylise GitLab.com to gitlab.com
-    [/\sn\b/gi, ' N'] // when "n" is used as a placeholder, make it capital
+    [/\sn\b/gi, ' N'], // when "n" is used as a placeholder, make it capital
+    [/\bstandard in\b/gi, 'STDIN'],
+    [/\bstandard out\b/gi, 'STDOUT'],
+    [/\bstandard error\b/gi, 'STDERR']
 ]
 
 // Perform multiple rounds of replaces on a string
