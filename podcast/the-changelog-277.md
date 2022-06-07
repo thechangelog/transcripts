@@ -558,7 +558,7 @@ So you can imagine in this model that there's a protocol that's running over the
 
 **Jerod Santo:** Yeah, so it's brand new stuff.
 
-**Chris Dias:** But the model makes sense. It is definitely -- it's a protocol. It's funny to see sort of the big circle of life - we were talking about this earlier, about recycling names... Like, a lot of stuff in VS Code is standard in and standard out, right? Just piping, and it works really well, so you can do the same thing with these as well.
+**Chris Dias:** But the model makes sense. It is definitely -- it's a protocol. It's funny to see sort of the big circle of life - we were talking about this earlier, about recycling names... Like, a lot of stuff in VS Code is STDIN and STDOUT, right? Just piping, and it works really well, so you can do the same thing with these as well.
 
 **Jerod Santo:** Nothing new under the sun... Just new names.
 

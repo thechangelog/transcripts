@@ -130,7 +130,7 @@ But I think one of the most exciting things for me about what Sigstore is doing 
 
 **Gerhard Lazu:** Yeah.
 
-**Matt Moore:** Some browsers - I think this is standard in Chrome - won't even show websites if they don't have TLS. It's certainly something you can turn on. I mean, new top-level domains like .dev, for sure, basically require TLS in order to serve HTTP on them.
+**Matt Moore:** Some browsers - I think this is STDIN Chrome - won't even show websites if they don't have TLS. It's certainly something you can turn on. I mean, new top-level domains like .dev, for sure, basically require TLS in order to serve HTTP on them.
 
 So the reason I bring it up is we like to make this analogy when we're explaining Sigstore, since Letsencrypt is a fairly well-established thing nowadays, that many folks use for TLS, where one of the objectives of the Sigstore community - and they're working really hard towards a GA of this public good infrastructure - is something like that, which instead of being a certificate authority for web traffic, it's a certificate authority for signing. And so it's this really cool process where if you enable this mode of keyless signing and you say, "Cosign, sign my OCI image digest", it will send you through what I've been calling an identity challenge.
 

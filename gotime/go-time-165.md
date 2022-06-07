@@ -90,9 +90,9 @@ Another way to get a kind of form of graceful shutdown, or at least of cleaning 
 
 **Mat Ryer:** Yes. Okay, so os.Exit is a very immediate stop, and you're not gonna have the nice things that Go would give you; you do have to bear that in mind.
 
-Another thing that's quite interesting is what happens to the standard in and out streams, and standard error? For example, will just standard out receive an io.EOF at the end of it? Does it do something to close the pipe? What's actually going on there? Is that operating system-dependent, too?
+Another thing that's quite interesting is what happens to the STDIN and out streams, and STDERR? For example, will just STDOUT receive an io.EOF at the end of it? Does it do something to close the pipe? What's actually going on there? Is that operating system-dependent, too?
 
-**Michael Knyszek:** This might be somewhat system-dependent. I'm thinking more in terms of the Linux/Unix philosophy, where pipes are just files. To the operating system, it uses the same sort of resources -- a file handle. And these standard out, standard error, standard in - they all get closed in exactly the same way as any other file.
+**Michael Knyszek:** This might be somewhat system-dependent. I'm thinking more in terms of the Linux/Unix philosophy, where pipes are just files. To the operating system, it uses the same sort of resources -- a file handle. And these STDOUT, STDERR, STDIN - they all get closed in exactly the same way as any other file.
 
 I will note that the moment you do this sort of exit call, whether or not code runs is sort of completely up in the air. Some Go code may run in that few milliseconds before the process gets taken down, or rather its thread stops... But you can't rely on that. So there's no EOF propagated through, because there's no code to even process that io.EOF, if that makes sense. The code is not guaranteed to run at all.
 

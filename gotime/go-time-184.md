@@ -258,7 +258,7 @@ I'd love it if people were interested in contributing... And like I said, it's g
 
 **Carolyn Van Slyck:** So my integration with Docker, for example, is written by myself, and it's maintained by other maintainers of Porter. If someone else wants to contribute to the project, that really isn't where they're contributing. It's kind of code that you write once and it kind of just sits there and gently settles, like a foundation... Whereas other things, like plugins or mix-ins... Mix-ins - I've said this a couple times and I apologize... It allows you to quickly use an existing tool like Terraform, or maybe your cloud provider's command line tool, like GCloud, or AWS, or Azure, inside your bundle, with a lot less work. It just does a lot of the plumbing for you by default. And for those, I expected anyone to wanna be able to write them.
 
-So a mix-in can actually be written in any language, you just need to compile it to something that's executable and can talk over standard in and standard out.
+So a mix-in can actually be written in any language, you just need to compile it to something that's executable and can talk over STDIN and STDOUT.
 
 **Johnny Boursiquot:** Nice.
 
@@ -272,9 +272,9 @@ Plugins - not written by as many people. It's just not as common to wanna integr
 
 **Mat Ryer:** Yeah, I think that's very interesting. A lot of people, I imagine, would want the tech stack to be consistent and try and then corral everyone into that, rather than this somewhat more flexible approach.
 
-\[47:49\] I have a project that kind of takes the same approach... And similarly like with gRPC, I wanted to try and write a plugin for gRPC once. In order to do that, you have to know how to do it, because the actual tool sends you a gRPC protobuf package through standard in. So you really have to be in that world to take part in that, and it is non-trivial. Are mix-ins just like JSON lines through standard in and standard out? How do they actually communicate in and out?
+\[47:49\] I have a project that kind of takes the same approach... And similarly like with gRPC, I wanted to try and write a plugin for gRPC once. In order to do that, you have to know how to do it, because the actual tool sends you a gRPC protobuf package through STDIN. So you really have to be in that world to take part in that, and it is non-trivial. Are mix-ins just like JSON lines through STDIN and STDOUT? How do they actually communicate in and out?
 
-**Carolyn Van Slyck:** Yeah, yeah... Okay, so - more hate. It's more Yaml... Because I wanted it to look like -- if we looked at a Porter Yaml file... Okay, it's in Yaml, and it has steps that say "Terraform is gonna do this little blurb of logic, and then we're gonna run a magical Bash script that has a bit of glue, and then we're gonna call off to Kubectl, or some other tool, maybe GCloud or AWS." And I wanted the mix-in author to be able to look at that file and get input that looked like that file; so they didn't have to translate it into something else. Whatever they saw in that file is what they were gonna get as standard in, essentially.
+**Carolyn Van Slyck:** Yeah, yeah... Okay, so - more hate. It's more Yaml... Because I wanted it to look like -- if we looked at a Porter Yaml file... Okay, it's in Yaml, and it has steps that say "Terraform is gonna do this little blurb of logic, and then we're gonna run a magical Bash script that has a bit of glue, and then we're gonna call off to Kubectl, or some other tool, maybe GCloud or AWS." And I wanted the mix-in author to be able to look at that file and get input that looked like that file; so they didn't have to translate it into something else. Whatever they saw in that file is what they were gonna get as STDIN, essentially.
 
 Then they execute whatever that command is... So if we were trying to do a Terraform apply, they would essentially go "This is the Yaml", and that translates to a command using the Terraform CLI that says "apply."
 

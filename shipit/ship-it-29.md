@@ -212,7 +212,7 @@ But the other thing is actually related to -- you know, in terms of creating thi
 
 **Gerhard Lazu:** Oh, yes.
 
-**Zac Smith:** But that's not a possibility right now, without creating some sort of a standard in-rack ATX case, so that way things can go and move, yet innovation can still happen within it.
+**Zac Smith:** But that's not a possibility right now, without creating some sort of a STDIN-rack ATX case, so that way things can go and move, yet innovation can still happen within it.
 
 **Gerhard Lazu:** Is this where Open 19 comes in? Is this is it? Basically, Open 19 is what you've just described, this standardization?
 

@@ -504,7 +504,7 @@ The new Gopher Academy website is written in Buffalo, the new GopherCon website 
 
 **Erik St. Martin:** It was kind of fun. The paining part is where it upgrades the socket. I was like, "Sweet, I can just the HTTP reverse proxy and just give it some socket knowledge." That didn't work at all, because it upgrades where basically they start talking just straight TCP and no more HTTP to each other for stuff like interactive terminals. But I threw something together... It works, it's cool.
 
-**Brian Ketelsen:** I'd like to see that code, because not too long ago I was doing Docker-backed web terminals, and I got stuck with that same websocket upgrade, because I was trying to connect the standard in and standard out from the web terminal directly to a Docker container running a shell, and there's that point in the middle where you get the upgrade and I was like, "Oh, darn it!"
+**Brian Ketelsen:** I'd like to see that code, because not too long ago I was doing Docker-backed web terminals, and I got stuck with that same websocket upgrade, because I was trying to connect the STDIN and STDOUT from the web terminal directly to a Docker container running a shell, and there's that point in the middle where you get the upgrade and I was like, "Oh, darn it!"
 
 **Erik St. Martin:** \[56:11\] Yeah... It's actually kind of cool, because you can just basically pipe the two connections together. But yeah, I'll help you through it.
 

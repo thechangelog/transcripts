@@ -151,7 +151,7 @@ I think it's fantastic if kids could program before 13. I also think if we're go
 
 **Todd McLeod:** Oh, cool.
 
-**Bill Kennedy:** When I think about teaching beginners, I'm always focused on what is that visual aspect to it? Because I feel if there isn't a visual aspect it's really hard, because everything's just abstracted. So how do you bring a visual aspect that is reasonable to that beginner programmer, so they can really see what they're doing, outside of writing to standard out?
+**Bill Kennedy:** When I think about teaching beginners, I'm always focused on what is that visual aspect to it? Because I feel if there isn't a visual aspect it's really hard, because everything's just abstracted. So how do you bring a visual aspect that is reasonable to that beginner programmer, so they can really see what they're doing, outside of writing to STDOUT?
 
 **Todd McLeod:** Yeah.
 

@@ -552,7 +552,7 @@ So I feel like that, and a context. We have no context when we're in there. And 
 
 Right now I feel a lot of CLIs get written in the main function by accident, just because people are hacking away, trying to get something right, and then they've got a big, long main.go file that's not very well tested, or broken out, and other people can't make use of that CLI without compiling and shelling out.
 
-**Mat Ryer:** I completely agree with that, actually. I solved that problem though by -- I have a little run function, and that takes in the Args, and it takes in an io.Reader and the writer (if there's standard in/standard out) and returns an error. And then I just have a standard little main... I do create a context in that main, which is canceled when Cmd+C is hit the first time. That cancels the context.
+**Mat Ryer:** I completely agree with that, actually. I solved that problem though by -- I have a little run function, and that takes in the Args, and it takes in an io.Reader and the writer (if there's STDIN/STDOUT) and returns an error. And then I just have a standard little main... I do create a context in that main, which is canceled when Cmd+C is hit the first time. That cancels the context.
 
 **Mark Bates:** Right.
 

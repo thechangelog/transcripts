@@ -302,7 +302,7 @@ Chris, pro tip time.
 
 **Christopher Hiller:** I have some pro tips... I use a Mac. If you use a Mac, maybe a thing you need to do is copy and/or paste text files (source files or what have you) in their entirety. I discovered not too long ago - maybe this is one of those things that everybody knows except me, but I discovered that there were actually a couple command line tools that come in Mac OS that help you do just this thing. They are pbpaste and pbcopy.
 
-\[52:16\] Pbpaste outputs to a standard out. It takes whatever is in the clipboard, and it sends it to standard out so you can pipe it to whatever you wanna pipe it to. Maybe you wanna pipe that to a file, and so if you copy some source and then you go to your command line and you say pbpaste, and then you do a write -- I don't even know if that's less than or greater than \[laughs\], but you're piping to the right with the direction, and you say foo.js... It will paste the contents of your clipboard into a new file, foo.js.
+\[52:16\] Pbpaste outputs to a STDOUT. It takes whatever is in the clipboard, and it sends it to STDOUT so you can pipe it to whatever you wanna pipe it to. Maybe you wanna pipe that to a file, and so if you copy some source and then you go to your command line and you say pbpaste, and then you do a write -- I don't even know if that's less than or greater than \[laughs\], but you're piping to the right with the direction, and you say foo.js... It will paste the contents of your clipboard into a new file, foo.js.
 
 I wrote a little tiny Zsh function called Paste, which does just this - it takes its first parameter and it says 'pbpaste', and it writes to this new file. So I say 'paste foo.js', it takes whatever is in my clipboard and throws it in a new file, foo.js.
 

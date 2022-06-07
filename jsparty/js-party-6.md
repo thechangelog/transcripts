@@ -144,7 +144,7 @@ There's a lot of really awesome resources, and a lot of these conferences also h
 
 **Mikeal Rogers:** I don't think that we could have done that nearly as well. Alex and I are both people that Chris helped out getting our events off the ground in that JSConf family. For me NodeConf and JSFest, and for Alex TXJS. But yeah, that's a great group of conferences... Even the conferences that aren't "JSConf family" are really directly influenced by that whole thing.
 
-\[24:00\] There's all kinds of new events popping up all over the place, and you can really see the difference in the content and how people are treated... A lot of the code of conduct stuff that is now pretty standard in conferences really started with JSConf\_US a while back. Alex, do you have anything to add?
+\[24:00\] There's all kinds of new events popping up all over the place, and you can really see the difference in the content and how people are treated... A lot of the code of conduct stuff that is now pretty STDIN conferences really started with JSConf\_US a while back. Alex, do you have anything to add?
 
 **Alex Sexton:** Me? This Alex?
 

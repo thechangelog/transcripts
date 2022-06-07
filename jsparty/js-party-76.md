@@ -38,7 +38,7 @@ So in JavaScript if an array is working with a range operator, streams are more 
 
 **Christopher Hiller:** Yeah, essentially. Another feature of streams - and this is where this idea of piping comes in. Streams are composable. There are two basic types of streams. One of those is a readable stream, and the other one is a writeable stream. A readable stream you can think of as a source, and a writeable stream you can also think of as a sync. These are interfaces, essentially.
 
-An example of a readable stream might be a standard in. If you're in Node and you want to read some information from standard in - readline, or whatever, and it's a readable stream, then you can pipe it to some output. So readable streams have a method "pipe". You'll frequently see this.
+An example of a readable stream might be a STDIN. If you're in Node and you want to read some information from STDIN - readline, or whatever, and it's a readable stream, then you can pipe it to some output. So readable streams have a method "pipe". You'll frequently see this.
 
 Maybe another good example is there's a function in the Fs module, and that's "createReadStream". So instead of calling, say, "fs readfile" - and what that's gonna do is it's gonna read the file and load its contents in the memory - you might wanna call "fs.createDreadStream" instead, so this will give you a stream, and it won't load the whole file into memory, and let you process it piece by piece.
 

@@ -252,9 +252,9 @@ I know more times than not you don't have debug logging on. There's some informa
 
 **Mat Ryer:** Yeah.
 
-**Jon Calhoun:** I assume fmt is os, so that's standard out... Or sorry, the fmt one. The log.println - I don't know if it's actually differentiated or not. I would assume it's just os.stdout. That would be my guess.
+**Jon Calhoun:** I assume fmt is os, so that's STDOUT... Or sorry, the fmt one. The log.println - I don't know if it's actually differentiated or not. I would assume it's just os.stdout. That would be my guess.
 
-**Mat Ryer:** Okay. Let's find out. \[sound effect 00:43:49.18\] That sound effect tells us that - no, Jon, unfortunately you're wrong. Log goes to standard error by default. So that's interesting...
+**Mat Ryer:** Okay. Let's find out. \[sound effect 00:43:49.18\] That sound effect tells us that - no, Jon, unfortunately you're wrong. Log goes to STDERR by default. So that's interesting...
 
 **Jon Calhoun:** See, I wasn't sure if this was a trick question or not. That's the hard part. With Mat you can never tell.
 

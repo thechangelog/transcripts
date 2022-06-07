@@ -318,9 +318,9 @@ More recently I've made a code formatting plugin. There is one right now called 
 
 **Nick Nisi:** Is that specific to a language, or is it language-agnostic? How does it determine how to format?
 
-**Mike Hartington:** So you have to pass in the configuration for it. There is a bagillion different formats that you could use, so I figured "Just let the users figure that out." I have mine wired up to use Prettier for most things, but I have a setup for Rust format, I have a setup for Lua format, for Clang format if that's your thing... If the tool supports passing in code via standard in, you should be able to do it.
+**Mike Hartington:** So you have to pass in the configuration for it. There is a bagillion different formats that you could use, so I figured "Just let the users figure that out." I have mine wired up to use Prettier for most things, but I have a setup for Rust format, I have a setup for Lua format, for Clang format if that's your thing... If the tool supports passing in code via STDIN, you should be able to do it.
 
-I have a branch where I'm working on passing it to like a real file, but standard in is so much easier to do, and I just print it back out to the file.
+I have a branch where I'm working on passing it to like a real file, but STDIN is so much easier to do, and I just print it back out to the file.
 
 **Nick Nisi:** That's awesome. So it's really just facilitating it to another tool that's probably walking the AST and doing things with it, and then passing it back. Is that the gist of it?
 

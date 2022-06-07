@@ -162,7 +162,7 @@ I'm curious what you all think of this and what your views are on it? Before I g
 
 And callbacks... The standard callback interfaces has kind of wrangled that into something usable and really fast. I think Promises landed a while ago in V8; people have been using Promises though since early Promise standards. Bluebird is based on the Promise standard, which is the really fast one, that people really tend to like.
 
-**Alex Sexton:** I feel like people used Promises far before it was even standard in V8, or whatever.
+**Alex Sexton:** I feel like people used Promises far before it was even STDIN V8, or whatever.
 
 **Mikeal Rogers:** Right. And before it was a standard, there were all these competing standard for Promises. If you go back far enough, you just could not get two people to agree on the same Promise.
 
@@ -172,7 +172,7 @@ And callbacks... The standard callback interfaces has kind of wrangled that into
 
 **Alex Sexton:** No one used those, though. They were just proposals.
 
-**Mikeal Rogers:** Right. But anyway, I think that Domenic Denicola did a ton of work just to get Promise people to agree on the same spec, or at least get everybody to stop listening to the people who were detracting. It got like a real standard in the language, which a lot of people that don't like Promises don't like. I personally prefer not to wrap this kind of state in an object myself... But one thing that you can say about it is that the browser - if you look at all browser standards - there's just no standard way to do I/O handlers. If you look at every DOM API that has to do this, they do something slightly different, and all of them are awful. And even if you don't like Promises, most of what people do in the DOM - they do the same thing, it's just worse than Promises.
+**Mikeal Rogers:** Right. But anyway, I think that Domenic Denicola did a ton of work just to get Promise people to agree on the same spec, or at least get everybody to stop listening to the people who were detracting. It got like a real STDIN the language, which a lot of people that don't like Promises don't like. I personally prefer not to wrap this kind of state in an object myself... But one thing that you can say about it is that the browser - if you look at all browser standards - there's just no standard way to do I/O handlers. If you look at every DOM API that has to do this, they do something slightly different, and all of them are awful. And even if you don't like Promises, most of what people do in the DOM - they do the same thing, it's just worse than Promises.
 
 So it's nice to have a standard that going forward - if you look at the Fetch API and some of these new browser APIs - you have something unified, which is so good.
 

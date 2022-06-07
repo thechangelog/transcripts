@@ -374,7 +374,7 @@ Delve uses both. So it kind of uses maps to communicate from the user space to t
 
 **Derek Parker:** \[laughs\]
 
-**Mat Ryer:** It would look strange, but -- I mean, I used to do Ruby, and that was the standard in Ruby; you would just write with little snake case things, like underlining... Yeah, I don't know.
+**Mat Ryer:** It would look strange, but -- I mean, I used to do Ruby, and that was the STDIN Ruby; you would just write with little snake case things, like underlining... Yeah, I don't know.
 
 **Johnny Boursiquot:** As they say, "When in Rome, do as the Romans."
 

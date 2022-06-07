@@ -114,7 +114,7 @@ So where does that come into play for you? ...you know, the logging story, and t
 
 **Yoni Goldberg:** Yeah... At some point the Node.js core realized it; maybe they already done it, I don't know... They switched to what I proposed. And not because of me, by the way... \[laughter\] The idea is that to include in every error an object, some identifier property; a name, a code, something that's a strongly identified error... And then it's very easy to reason about the error type and compare.
 
-**Jerod Santo:** So if I were to reiterate and just make sure I'm following you - don't throw the standard error, don't throw the non-custom error, but also don't customize the crap out of your errors. Have some classifiers for types of errors. You're suggesting some structure in your error messages, but not a hierarchy, or extreme unique errors for each circumstance. Is that what you're saying, or am I not following?
+**Jerod Santo:** So if I were to reiterate and just make sure I'm following you - don't throw the STDERR, don't throw the non-custom error, but also don't customize the crap out of your errors. Have some classifiers for types of errors. You're suggesting some structure in your error messages, but not a hierarchy, or extreme unique errors for each circumstance. Is that what you're saying, or am I not following?
 
 **Yoni Goldberg:** I believe that there are two valid practices here. One of them is just inherit from the base error object, and add at least one property that identifies \[unintelligible 00:19:03.12\] invalid input, payment failed, or whatever.
 
@@ -286,9 +286,9 @@ Personally, I'm embracing that model. I just realized I -- I'm in a principal so
 
 **Jerod Santo:** \[laughs\] Anything else on writing code, best practices? We have a lot to say about security, so we're gonna skip right to that, unless we have any more on this topic. Of course there's more to say, but for this particular podcast...
 
-**Amal Hussein:** I just had questions on standard out, standard error, versus -- there's one more, I forget...
+**Amal Hussein:** I just had questions on STDOUT, STDERR, versus -- there's one more, I forget...
 
-**Jerod Santo:** Standard out, standard error and standard in, but that's the other direction...
+**Jerod Santo:** STDOUT, STDERR and STDIN, but that's the other direction...
 
 **Amal Hussein:** In, yeah. In is different. Yeah, thank you. Okay. I don't know; I guess any light to shed there, really briefly, Yoni...
 
@@ -306,7 +306,7 @@ Personally, I'm embracing that model. I just realized I -- I'm in a principal so
 
 **Yoni Goldberg:** ...what he sees on the screen... And on the other end, what the program prints when it exits, or for the agnostics. There was kind of a separation. However, in backend application - this is the context I used here - this distinguishment is not very useful... So this is why I didn't differentiate. If you want to go by the book, stderr is the target for...
 
-**Jerod Santo:** Yeah, well said. A lot of times services will wrap those two up and there's no differentiation in where those actual entries go, like if you're sending them over to a papertrail, or something like that... It definitely makes sense on the command line though, as you have certain things that you want the person to see, regardless of something going wrong... Like, they asked you for an answer and you give them an answer, and then perhaps they ask you for an answer and it's an invalid question, and you log that to standard error, versus standard out.
+**Jerod Santo:** Yeah, well said. A lot of times services will wrap those two up and there's no differentiation in where those actual entries go, like if you're sending them over to a papertrail, or something like that... It definitely makes sense on the command line though, as you have certain things that you want the person to see, regardless of something going wrong... Like, they asked you for an answer and you give them an answer, and then perhaps they ask you for an answer and it's an invalid question, and you log that to STDERR, versus STDOUT.
 
 **Break:** \[47:41\]
 

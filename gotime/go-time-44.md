@@ -270,7 +270,7 @@ Actually, it was the last GopherCon that I gave a lightning talk about my motion
 
 **Erik St. Martin:** Are you doing that in Go, or are you just using [OpenCV](https://opencv.org/)?
 
-**Brad Fitzpatrick:** No, it's almost all Go. I have a little Go server in the house that connects to the cameras, and gets their compressed MPEG stream of the video, and then I stream it outside of the house to a cloud instance that has more compute power. Then I have little FFMPEG child\_process that decodes the video, and it also does the EDGE detection that is built into the FFMPEG. Then I just output the raw pixels over standard out from FFMPEG and I read the raw pixels out of FFMPEG with the EDGE detection and I compute the delta over time of where the EDGEs move, and once it crosses certain thresholds and certain zones of the video, then it starts recording.
+**Brad Fitzpatrick:** No, it's almost all Go. I have a little Go server in the house that connects to the cameras, and gets their compressed MPEG stream of the video, and then I stream it outside of the house to a cloud instance that has more compute power. Then I have little FFMPEG child\_process that decodes the video, and it also does the EDGE detection that is built into the FFMPEG. Then I just output the raw pixels over STDOUT from FFMPEG and I read the raw pixels out of FFMPEG with the EDGE detection and I compute the delta over time of where the EDGEs move, and once it crosses certain thresholds and certain zones of the video, then it starts recording.
 
 It's always recording the last 5 or 6 seconds, even when there's nothing in little rolling ring buffer, but once there's motion, then I start streaming it to an object on cloud storage.
 

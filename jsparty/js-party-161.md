@@ -8,7 +8,7 @@
 
 **Amal Hussein:** Yeah, we're super-excited to have you as well. We're gonna be talking about a super-cool topic. And by cool I mean, you know, only cool by the ultimate nerdiest standards... Watch me as I'm pushing my glasses up as we speak. So we're gonna be talking about testing, and test coverage instrumentation.
 
-We're really lucky, actually, because Ben is founder of Istanbul, a pretty big -- I think kind of a golden standard in the JavaScript community for testing coverage, instrumentation, and so we're gonna be getting into all the nitty-gritty details, and the back-story, and all of that. We'll talk about test coverage, testing in general, open source, project arcs... Lots of stuff to cover. So welcome, Ben. Why don't you tell us a little bit about yourself before we get started?
+We're really lucky, actually, because Ben is founder of Istanbul, a pretty big -- I think kind of a golden STDIN the JavaScript community for testing coverage, instrumentation, and so we're gonna be getting into all the nitty-gritty details, and the back-story, and all of that. We'll talk about test coverage, testing in general, open source, project arcs... Lots of stuff to cover. So welcome, Ben. Why don't you tell us a little bit about yourself before we get started?
 
 **Benjamin Coe:** \[04:01\] Yeah, so my name is Ben Coe, as you said, and I was an early engineer at npm Incorporated. That's definitely where I got more into open source and more into actually test coverage related stuff, while I was there.
 

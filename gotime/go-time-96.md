@@ -220,7 +220,7 @@ The lack of consensus is actually against the fact that distributed tracing is n
 
 **Johnny Boursiquot:** Would you be, by chance, talking about the OpenTelemetry stuff?
 
-**Jaana Dogan:** I could talk about that as well. This is a different initiative. OpenTelemetry is more of like an instrumentation library project. This standard is a wire header format standard. It's under [github.com/w3c/trace-context](https://github.com/w3c/trace-context). You can read the proposal, and there's already a discussion and some implementations for some languages. That's going to be the overall standard in a couple of years.
+**Jaana Dogan:** I could talk about that as well. This is a different initiative. OpenTelemetry is more of like an instrumentation library project. This standard is a wire header format standard. It's under [github.com/w3c/trace-context](https://github.com/w3c/trace-context). You can read the proposal, and there's already a discussion and some implementations for some languages. That's going to be the overall STDIN a couple of years.
 
 **Stevenson Jean-Pierre:** Very cool.
 

@@ -218,11 +218,11 @@ So that's really cool, because now I only have to press the button to jump to th
 
 **Jerod Santo:** That does sound fun. So tell me about this client-server situation... Is this like a network server, or is this like an embedded binary that you call? How does it actually talk? Explain that.
 
-**TJ DeVries:** Yeah, so LSP - the primary modes that people use to communicate are either just standard in, standard out, or you can do it over TCP. Generally, if you're doing it over TCP, people just use some pipe and then pretend that it's TCP, or something like that, instead of actually doing TCP...
+**TJ DeVries:** Yeah, so LSP - the primary modes that people use to communicate are either just STDIN, STDOUT, or you can do it over TCP. Generally, if you're doing it over TCP, people just use some pipe and then pretend that it's TCP, or something like that, instead of actually doing TCP...
 
 **Jerod Santo:** \[laughs\] Right...
 
-**TJ DeVries:** But Neovim doesn't care what's on the other side. We take a list of commands, we spin up that thing, and start it, and then we have standard in/standard out between the two, and we just send basically JSON over the wire for a request, and then they'll send JSON back over the wire to get to us, and it's just like a pipe, generally speaking. It's possible to do other things.
+**TJ DeVries:** But Neovim doesn't care what's on the other side. We take a list of commands, we spin up that thing, and start it, and then we have STDIN/STDOUT between the two, and we just send basically JSON over the wire for a request, and then they'll send JSON back over the wire to get to us, and it's just like a pipe, generally speaking. It's possible to do other things.
 
 So you could have anything on the other side. For example, gopls, the Go language server, is written in Go, and so it's just a Go binary on your machine that you say "gopls start up", you send basically a configuration request, so it can understand what directory am I in, what's part of this project, all those kinds of things. That's part of the protocol to understand. And then it will just respond to requests as you send it.
 
@@ -324,7 +324,7 @@ So it's very cool, because I can just type "ie" for if error, expand my snippet,
 
 But in terms of what Telescope is and why I made it - I partially made it just to explore writing some stuff in Lua as a way to push our API and boundaries to find out what we should be including in Neovim core. But as I was working on it, some of the things that I've struggled with doing in the past with fuzzy finders I just wanted to try and solve.
 
-For example, I love fzf. It's a very awesome tool. I use it all the time on the fly, but it's very difficult to do something like pass a function through fzf, because you have to encode it in some way, and then decode it again later, because fzf processes standard in and standard out. So Telescope is all Lua from the top of the stack down - or FFI, but that still counts... \[laughs\] So you can pass a function reference, which might be what you wanna do if this item is selected, at the beginning of your code, and then you can pass that all the way through. And so when you select it, you can do something with that item.
+For example, I love fzf. It's a very awesome tool. I use it all the time on the fly, but it's very difficult to do something like pass a function through fzf, because you have to encode it in some way, and then decode it again later, because fzf processes STDIN and STDOUT. So Telescope is all Lua from the top of the stack down - or FFI, but that still counts... \[laughs\] So you can pass a function reference, which might be what you wanna do if this item is selected, at the beginning of your code, and then you can pass that all the way through. And so when you select it, you can do something with that item.
 
 So my main goal for making it was just to basically create the most extensible fuzzy finder that I could imagine. Every part of Telescope is configurable. The sorting algorithm is just an interface of a function, so you can have fzy soring, fzf, strict matching, N-gram matching... You can write whatever you want to do, and you can just plug that in, and that will just work with everything else.
 

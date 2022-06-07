@@ -248,7 +248,7 @@ Like Yehuda was saying, there's a set of verbs that are intended to be used to p
 
 **Yehuda Katz:** And from a user perspective, what this effectively amounts to is that when you say "open Cargo.toml" or "Open package.json", for the most common situations that people have heard of or use (and that includes indie files; a lot of common cases), you just get a table. You don't have to figure it out. And I think what we kind of expect long-term is that the format system itself will be like a plugin system. For example, the .gitconfig is in a particular format, or .gitkeep is in a particular format, and we would expect some of those things to be built in, but a lot more of them to just exist in the world for you to install.
 
-**Jerod Santo:** \[40:03\] One thing that I thought was really cool - and it seems obvious once I've read it - is in terms of user adoption... You have this MVP set of commands that you all have implemented, and plugins and all that stuff will be built out over time... But if you do a command that isn't supported by Nushell, it just shells out directly as a fallback; on Windows it's CMD, or on Unix it's Bash... And then it just passes standard out, standard error, all this stuff, and then it sucks it right back up.
+**Jerod Santo:** \[40:03\] One thing that I thought was really cool - and it seems obvious once I've read it - is in terms of user adoption... You have this MVP set of commands that you all have implemented, and plugins and all that stuff will be built out over time... But if you do a command that isn't supported by Nushell, it just shells out directly as a fallback; on Windows it's CMD, or on Unix it's Bash... And then it just passes STDOUT, STDERR, all this stuff, and then it sucks it right back up.
 
 **Yehuda Katz:** So Vimworks, right?
 
@@ -428,7 +428,7 @@ So what if of the all given shell sessions there's also a help shell session, wh
 
 **Jonathan Turner:** That sounds awesome! Let's do that! \[laughter\]
 
-**Yehuda Katz:** I think the answer is for basic kinds of tmux usage, yes. The thing that I'm not totally sure how to deal with right now is - as we've discussed before, we care a lot about the Vim case working, and that means that we just wire up the standard out. That's what we do.
+**Yehuda Katz:** I think the answer is for basic kinds of tmux usage, yes. The thing that I'm not totally sure how to deal with right now is - as we've discussed before, we care a lot about the Vim case working, and that means that we just wire up the STDOUT. That's what we do.
 
 **Jerod Santo:** Right.
 

@@ -302,7 +302,7 @@ From a monitoring perspective, you can check that things are the way you expect 
 
 In this case, for example, we didn't have this, but right now if the backend goes away, if everything disappears, we can recreate everything within half an hour. Now, how would you do that? It's simple for me, but if I had to do it maybe once and codify it, which is actually what I have in mind for the 2022 setup, I will approach it as if we've lost 2021 and I have to recreate it. So what are the steps that I will perform to recreate it? And I'll go through them, I'll capture them...
 
-**Adam Stacoviak:** Yeah, because 2021 is kind of a standard in your codifying the current golden standard.
+**Adam Stacoviak:** Yeah, because 2021 is kind of a STDIN your codifying the current golden standard.
 
 **Gerhard Lazu:** The steps that I would take, yes, to set up a new one.
 

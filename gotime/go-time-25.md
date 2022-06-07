@@ -538,7 +538,7 @@ So do we have anything else, or we wanna move into \#FreeSoftwareFriday?
 
 **Carlisia Thompson:** That's interesting. What about Go Kit Log?
 
-**Peter Bourgon:** Go Kit Log is about how you manage logging within your process, within the service itself. What I'm curious about is once the log information leaves the process boundary, like on standard out, say, how do you get that into a system that is searchable and usable, operationally simply, and without having to deal with Elasticsearch, effectively?
+**Peter Bourgon:** Go Kit Log is about how you manage logging within your process, within the service itself. What I'm curious about is once the log information leaves the process boundary, like on STDOUT, say, how do you get that into a system that is searchable and usable, operationally simply, and without having to deal with Elasticsearch, effectively?
 
 **Carlisia Thompson:** Okay, so are you talking about what Prometheus is for metrics, you're talking about that for logging?
 
