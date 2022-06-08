@@ -16,7 +16,7 @@ Joining me today I have my usual co-host, Johnny Boursiquot. How are you today, 
 
 **Ian Lopshire:** I'm doing great!
 
-**Jerod Santo:** \[00:04:00.06\] Yay! Welcome, Ian! Congratulations!
+**Jerod Santo:** \[04:00\] Yay! Welcome, Ian! Congratulations!
 
 **Ian Lopshire:** Thanks!
 
@@ -46,7 +46,7 @@ Paint by numbers - the question is what does that draw across to for you guys? I
 
 Frameworks I don't think really fall in that category. They are strictly productivity, I think. Now, can they help somebody who is starting out? Absolutely. But they help you as a beginner to be productive within a journey of building software with other experienced people who are also using this framework for productivity. So I think we should be very careful not to downplay the role of frameworks. They're not really the same thing.
 
-**Kris Brandow:** \[00:08:03.16\] I do feel like there's a slight shift in the analogy there though... Because I think when we're talking about things like paint by numbers, or talking less about the thing that the software actually winds up doing, and the structure that we're giving to the software to start with. So when I say frameworks are paint by numbers, I'm specifically saying for the structuring of your project; not necessarily what it does, or the business thing that it solves, but specifically, you are getting handed the places where you put all of your code. You still have to figure out what code you put there. It's kind of like if you do paint by numbers, but you just pick your own colors, because you understand color theory, so it looks different than other people's paint by numbers. But the structure of what you wind up with is going to be that structure there.
+**Kris Brandow:** \[08:03\] I do feel like there's a slight shift in the analogy there though... Because I think when we're talking about things like paint by numbers, or talking less about the thing that the software actually winds up doing, and the structure that we're giving to the software to start with. So when I say frameworks are paint by numbers, I'm specifically saying for the structuring of your project; not necessarily what it does, or the business thing that it solves, but specifically, you are getting handed the places where you put all of your code. You still have to figure out what code you put there. It's kind of like if you do paint by numbers, but you just pick your own colors, because you understand color theory, so it looks different than other people's paint by numbers. But the structure of what you wind up with is going to be that structure there.
 
 **Ian Lopshire:** When I read the paint by numbers analogy, I was more thinking like -- you know, in my first years as a software engineer my manager would give me five tasks, and each of those tasks he's already broken down where this change needs to happen, how you should do it, go do it. And the blank canvas for me was saying "Hey, this is a feature that needs added, or this is a thing that needs done. Go figure that all out yourself."
 
@@ -64,7 +64,7 @@ Now, public consumption frameworks that a new person can come to and become prod
 
 And then you obviously have people -- this being on the internet, it's like "Ah, that's nothing. If he can't write music, then he's not a prodigy." I'm thinking "Okay, I can see what you're saying, that in the pantheon of music maybe this particular piece that he happens to be playing, albeit eloquently, could be considered sort of a beginner sonata, versus something that is more complicated in structure, and tempo etc." So while I understood the nuance that people who are critiquing this five-year-old kid, and their music skills and talents - I get the nuance. But to me, at the end of the day I'm thinking "Wow, this kid is pretty good."
 
-\[00:12:36.15\] Now, I wasn't slicing it and saying "Oh, he's good at playing music, but he's bad at composing music." I was saying "Okay, here's somebody performing the art of playing music, and they're pretty good.
+\[12:36\] Now, I wasn't slicing it and saying "Oh, he's good at playing music, but he's bad at composing music." I was saying "Okay, here's somebody performing the art of playing music, and they're pretty good.
 
 So if I bring this back to software, and I'm like, okay, can I identify somebody who's pretty good at coding, at flying through the keyboard, knowing everything that needs to go in, knows the syntax of the language, knows exactly how to implement an algorithm and do all these things - I can now say "Well, they might be pretty good at those things, but they don't know how to engineer software", or larger-scale software, or distributed systems software. They're good at coding, they're very efficient, they're a great coder, but maybe they're not a programmer, or an engineer... Because these things - you don't just master and memorize syntax and start ripping across the keyboard and doing things. That's a skill, but that's not the complete set of skills you need to build and engineer software that has value to somebody who's willing to pay for it.
 
@@ -78,7 +78,7 @@ So I think those who start with a blank canvas are seeking to innovate. Those wh
 
 **Jerod Santo:** The point that I was trying to make and I'll try to make here again is that while I agree with that, that man is a master who changed the way that software is written. He's like a Picasso. And lots of us are never gonna be Picasso. I'm not saying you all can't be, and I can't be; I'm not trying to limit anybody. And I don't necessarily wanna lift him up to a level that's higher than it deserves. I only know him from the seven-minute video as well. Much to my shame, I didn't know his name prior, so thanks, Kris. We'll link that up in the show notes. I've put it in the chat for those who wanna watch that great little video featuring this man's work, and some of his thoughts.
 
-\[00:16:04.19\] Some of us wanna paint because we love painting. And we're never gonna be Picasso. And we maybe wanna be a working painter, maybe we wanna paint portraits for people who paid us. Isn't even George W. Bush paints portraits now in his retirement? He's average at it, but people still give him respect about it, because he's an ex-president... We're not all gonna be that. I bet he starts with blank canvases now. He probably didn't start there. And so I guess I was trying to say lots of us just wanna be like working software developers who put in an honest day's work, do our best, write some good software, help people out, but aren't necessarily gonna make it to the level of a person who reinvents stuff. So how do we help those people as well, I guess?
+\[16:04\] Some of us wanna paint because we love painting. And we're never gonna be Picasso. And we maybe wanna be a working painter, maybe we wanna paint portraits for people who paid us. Isn't even George W. Bush paints portraits now in his retirement? He's average at it, but people still give him respect about it, because he's an ex-president... We're not all gonna be that. I bet he starts with blank canvases now. He probably didn't start there. And so I guess I was trying to say lots of us just wanna be like working software developers who put in an honest day's work, do our best, write some good software, help people out, but aren't necessarily gonna make it to the level of a person who reinvents stuff. So how do we help those people as well, I guess?
 
 A lot of the conversations on Go Time - which I very much appreciate, but I've also been in the business for a very long time - are very deep, and nuanced, and from an expert perspective, and... Hey, y'all are experts, so of course we want an expert perspective. But sometimes the question is like - well, Ian, when you start a brand new project now, or given that feature today, to build, and you've got your blank canvas, what do you do? Where do you start? You don't have to tell me where I need to start and paint by numbers me; but if I can listen to the way that you go through that process, and get to your end goal, your painted picture, maybe I can learn from that. And so I'm actually setting that up, but I also would love an answer... Like, let's say your boss gives you a feature to build, Ian. You've never built this before, maybe you have... What do you normally do? Where do you get going when you're just staring at a blank screen?
 
@@ -106,7 +106,7 @@ That's usually the on-ramp that I take... But that's really a lot because I'm a 
 
 **Jerod Santo:** It depends on how legacy code that sucker is.
 
-**Johnny Boursiquot:** \[00:19:49.08\] Depending on how old that thing is, right? And whereby Kris jumps into a Google Doc or a Vim window and whatnot and starts writing things out, I tend to be more of the -- I'm a visual thinker, so I tend to fire up one model or \[unintelligible 00:20:01.28\] or something, and I start mapping out flows; what data is coming from where, where does it need to go, what are the boundaries? Basically, I think in systems, so I'm trying to identify what systems am I dealing with here - internal, external, what are the constraints, how much data needs to flow through this pipe, and things like that. So I sort of picture a system in my mind and try to represent that on some sort of canvas, in this case a digital one.
+**Johnny Boursiquot:** \[19:49\] Depending on how old that thing is, right? And whereby Kris jumps into a Google Doc or a Vim window and whatnot and starts writing things out, I tend to be more of the -- I'm a visual thinker, so I tend to fire up one model or \[unintelligible 00:20:01.28\] or something, and I start mapping out flows; what data is coming from where, where does it need to go, what are the boundaries? Basically, I think in systems, so I'm trying to identify what systems am I dealing with here - internal, external, what are the constraints, how much data needs to flow through this pipe, and things like that. So I sort of picture a system in my mind and try to represent that on some sort of canvas, in this case a digital one.
 
 And then from there, I start to write about the different pieces of that system. Then I take Kris' approach and say "Well, what is this thing? If I were to get a readme for a codebase for this particular repository that represents this component in my system, what should that readme tell me?" So I do readme-driven development for that reason... Because I wanna be able to say "Okay, well if I hand this to an engineer on my team, are they gonna know what to do with it? Are they gonna know where this fits into the bigger picture?"
 
@@ -114,11 +114,11 @@ So I kind of approach it that way... Basically, I guess you call that top-down, 
 
 **Jerod Santo:** I'm similar. I'm an outliner though, so I work in outlines; I think in outlines - you know, top-level, and I star to drill down and start to feather it out as it makes sense... What depends on what, what do I know versus what do I not know, what's easy, what's hard? And then substeps. Trying to take that blank canvas, which to me still after almost 20 years in the industry can be intimidating, and give myself a task list, like Ian received from his boss. Like "Can I produce that, and come up with --" And this is kind of the process of user stories, or whatever, which I've never been good at writing those. As an admin, I want to finish this feature, so I can go home. \[laughter\]
 
-**Break:** \[00:21:51.16\]
+**Break:** \[21:51\]
 
 **Jerod Santo:** One thing \[unintelligible 00:23:36.16\] said in the chat which I would love to pull into this, which I think is a great point - he says the danger of paint by number in his opinion is that it can lead to a cargo-culting of the various patterns and idioms without any insight or understanding about why the things are done that way... Which, by the way, I think is a great aspect of having conversations like these, is because we hear about some of the why's and the "it depends", and not so much of the blog posts where it says "Here's how you ought to do it because it worked for me." It's harder to cargo-cult a podcast, I think, than it is a blog post or a book.
 
-\[00:24:12.17\] That being said, sometimes you just have to follow the other person's path until you realize when it doesn't actually work for you. I'm totally fine with cargo-culting some sort of rule... I was gonna say the Law of Demeter, but that one's too hard to explain. What's a very simple -- DRY, right? Everyone can remember that one. We all get it wrong, but we can all remember the acronym... And all of us here, I think, would all talk about how DRY is not the best principle in many cases. I think I've heard you guys talk about that. But we didn't realize that until we had tried to DRY the crap out of everything for a while. And then it came back to bite us.
+\[24:12\] That being said, sometimes you just have to follow the other person's path until you realize when it doesn't actually work for you. I'm totally fine with cargo-culting some sort of rule... I was gonna say the Law of Demeter, but that one's too hard to explain. What's a very simple -- DRY, right? Everyone can remember that one. We all get it wrong, but we can all remember the acronym... And all of us here, I think, would all talk about how DRY is not the best principle in many cases. I think I've heard you guys talk about that. But we didn't realize that until we had tried to DRY the crap out of everything for a while. And then it came back to bite us.
 
 So I think it's okay to go through that process of, like I was saying in the post, go ahead and paint by numbers for a little while. Don't live there, don't stay there, but until you can start to realize actually blue doesn't look great on the number four. A little bit lighter blue would look nicer there. You start to develop your taste, your experience, your own history of that working well in this context, not in that context.... Then you don't need it quite as much. But I think we do need to start somewhere, and I think that a lot of these idioms, best practices, rules, clean architecture, whatever that means - those are decent starting places.
 
@@ -136,7 +136,7 @@ I think we've mentioned this in an episode a while back, but I think that's actu
 
 **Kris Brandow:** And there's absolutely nothing wrong with that. There's nothing wrong with being the person that paints in all of the colors to make the beautiful portrait at the end of the day. Because starting with a blank canvas is very intense, and it takes a lot of energy to sit down and figure all the things out... And quite frankly, some people don't need a blank canvas.
 
-\[00:28:19.22\] Your marketing company needs a website; we don't need to spin up a whole new custom Go backend... Just go use a framework. Just go use WordPress, or Drupal, or Wix.com, or something. You don't need to do all of the intense effort. But I think we do, as an industry, have to start realizing that these are not things that stack on top of each other. These are things that are next to each other.
+\[28:19\] Your marketing company needs a website; we don't need to spin up a whole new custom Go backend... Just go use a framework. Just go use WordPress, or Drupal, or Wix.com, or something. You don't need to do all of the intense effort. But I think we do, as an industry, have to start realizing that these are not things that stack on top of each other. These are things that are next to each other.
 
 **Johnny Boursiquot:** But what about resume-driven development? I need to build a brand new framework for this website. \[laughter\]
 
@@ -168,7 +168,7 @@ So I think we overweight time too much of the time, and that has resulted in us 
 
 **Jerod Santo:** Some other measure that's not time... \[laughter\]
 
-**Ian Lopshire:** \[00:32:14.17\] No, it's not time. It's like --
+**Ian Lopshire:** \[32:14\] No, it's not time. It's like --
 
 **Jerod Santo:** What he means is like 10,000 hours... \[laughter\]
 
@@ -196,7 +196,7 @@ So it's possible for years to have gone by, for you to not grow as an engineer. 
 
 So it's one of those things where if you've been experienced enough -- let's use that example... Somebody comes to me and says "Hey, design a web scraper", and they give me the \[unintelligible 00:34:43.09\] and they say "Hey, this is what it needs to do etc." The first thing I do, I'm like, okay, I go to Google and say--
 
-**Jerod Santo:** "Npm install a web scraper." \[laughter\]
+**Jerod Santo:** "npm install a web scraper." \[laughter\]
 
 **Johnny Boursiquot:** Right? Right?! I mean, why am I gonna reinvent that wheel? I've got better things to do with my time. I need you to be experienced enough to recognize that. And go get a damn package off the internet that does this. I don't need you, as a junior developer, reinventing that wheel. That's not where your time is the most valuable to me.
 
@@ -206,7 +206,7 @@ And again, I'm biased because I've been doing this for a while, and I can say th
 
 **Kris Brandow:** I wonder if this has to do with where in the industry each of us is positioned... It's interesting to me that you, Johnny and Jerod, had never heard of Leslie Lamport before; I think part of it is before I've spent so much time in distributed systems that it's just like "Oh, yeah, Lamport clocks. Leslie Lamport. Of course."
 
-\[00:36:10.25\] But I think distributed systems specifically is one of those areas where it really isn't the amount of time that matters nearly as much as like the knowledge that you have obtained. And you can obtain that knowledge very quickly, but it takes a -- people's brains are different, so your ability to understand things like the distributed system concept... There is no now, and you can't use time. That's not something that you -- I mean, maybe. Maybe I'm wrong here. Maybe you can sit there and work through these problems long enough and you'll eventually figure out and wrap your brain around the concept that time is not at all what you've thought it is your entire life... But I think that's more of like a way that we have to teach people things, and the way they have to kind of like be curious and be okay enough with being frustrated at not understanding something to kind of dig into... And I think that's a better marker of how experienced someone is and the length of time they've been doing something. Curiosity, at least for this section of things...
+\[36:10\] But I think distributed systems specifically is one of those areas where it really isn't the amount of time that matters nearly as much as like the knowledge that you have obtained. And you can obtain that knowledge very quickly, but it takes a -- people's brains are different, so your ability to understand things like the distributed system concept... There is no now, and you can't use time. That's not something that you -- I mean, maybe. Maybe I'm wrong here. Maybe you can sit there and work through these problems long enough and you'll eventually figure out and wrap your brain around the concept that time is not at all what you've thought it is your entire life... But I think that's more of like a way that we have to teach people things, and the way they have to kind of like be curious and be okay enough with being frustrated at not understanding something to kind of dig into... And I think that's a better marker of how experienced someone is and the length of time they've been doing something. Curiosity, at least for this section of things...
 
 I think part of the problem here ultimately is that -- it's like we're trying to storypoint right now. We're trying to reduce a huge space of things down into a single entity... And it's like, how you gain experience as a frontend engineer is vastly different than how you gain it as a backend engineer, and it's different from a distributed systems engineer, or from an embedded engineer... There's all these different types of engineering, and I think that saying length of time is like an easy thing, because that's something you can trace across all of those different types of engineering... But I think it means a different thing in each space. So I don't think they're as comparable. I have no idea if any of that made sense... Sorry if it didn't. \[laughter\]
 
@@ -224,7 +224,7 @@ So a lot of new things, new techniques, new frameworks, thinking about it differ
 
 **Jerod Santo:** "Look how bad this idea was." That would be a cool reality show... It's like, Johnny just chases down people that used to work on software and shows them the ramifications of their decision-making. That would be a good show. "Look at what you did...!" \[laughs\]
 
-**Kris Brandow:** \[00:40:02.13\] The thing I just thought of when you were saying that, Ian, is like - time is a useful way of comparing yourself, and on your own trajectory. So it's like, you at one year of experience versus you at ten years of experience, or ten years of doing this, hopefully you have acquired a lot more and you've moved a lot more.
+**Kris Brandow:** \[40:02\] The thing I just thought of when you were saying that, Ian, is like - time is a useful way of comparing yourself, and on your own trajectory. So it's like, you at one year of experience versus you at ten years of experience, or ten years of doing this, hopefully you have acquired a lot more and you've moved a lot more.
 
 I think the thing I'm pushing against is that that's not comparable between people. I think that's the issue at hand - ten years of my experience is very different from ten years of Johnny's experience, or Jerod, or your experience. That's different, and that has a factor of what is the industry like over the course of ten years... Sometimes we have a lot of change in a small period of time, sometimes there's not much change in a period of time... But yeah, I think Jerod, you put it precisely there, with just like the diversity of experiences that you wind up having.
 
@@ -238,7 +238,7 @@ But that brings me to Sandi Metz's rules. Are you guys familiar with these? Sand
 
 Most of her work I think is in Java and Ruby, most of her experience and the most people she's teaching. "Pass no more than 4 parameters into a method; hash options are parameters." This to me is paint by numbers, to a certain degree... And I would never follow any of these. But... Okay, a couple of them. 4 parameters is -- I mean, these are good rules, but I probably wouldn't follow them. But if I was just getting started and needed to ramp up, or if I had somebody starting fresh and I was like "How do I do this?", I think starting with a strict set of rules is actually a pretty good place. And then you say "Follow these--" This is Sandi Metz, this is me. She says "You just follow these until you know better. And once you can explain why you're breaking the rule, then go ahead and break the rule. But until then, just follow the rule and your code will be better." That's a pretty useful teaching technique that a lot of people have appreciated.
 
-**Johnny Boursiquot:** \[00:44:15.11\] And you need time for that understanding.
+**Johnny Boursiquot:** \[44:15\] And you need time for that understanding.
 
 **Jerod Santo:** Exactly.
 
@@ -282,7 +282,7 @@ So I think at the end of the day what we're all saying here is diversity matters
 
 **Johnny Boursiquot:** Exactly.
 
-**Jerod Santo:** \[00:48:04.05\] That's their own point. "This is worse off than what I have now."
+**Jerod Santo:** \[48:04\] That's their own point. "This is worse off than what I have now."
 
 **Kris Brandow:** I feel like Excel is like a peak of programming. It's just like, I don't know, this is like this super-dynamic, instant compilation and -- you just start plugging in some formulas and you can just do some crazy stuff.
 
@@ -296,7 +296,7 @@ So I think at the end of the day what we're all saying here is diversity matters
 
 **Kris Brandow:** Yeah, yeah.
 
-**Break:** \[00:48:39.26\]
+**Break:** \[48:39\]
 
 **Kris Brandow:** Alright, so we've gotta get to our last segment, but does anybody have anything else they wanna say before we jump into that?
 
@@ -332,7 +332,7 @@ Or if you go into any other company, do they say "Oh, for these people - we cons
 
 **Jerod Santo:** But that's your definition of engineer. I think that we all kind of create these definitions, because I've had these conversations with hundreds of people, and they all define it a little bit differently, and a lot of times it's positioning. And I don't think that's what he was doing. But I think what he was doing was putting two words on what I consider busy work, and then hard work. He was like "Here's where I need to be creative and thoughtful, and then the rest of the time I'm coding." It's like, that's not how other people use the terms, so I felt like it was a weird play. But in his headspace if it made sense, I'm not mad at him or anything. I just think that when we tend to use coder, programmer, developer, engineer, architect, we're positioning. And coder tends to be at the bottom of that totem pole, and I agree with you, people do that; they're kind of d-bags. But they too tend to kind of do that, so I just think it's all kind of silliness.
 
-**Kris Brandow:** \[00:54:27.10\] Yeah. If you don't know who Leslie Lamport is - because he's the same person that's like "Unit testing is BS. You should be writing TLA+ instead." \[laughter\]
+**Kris Brandow:** \[54:27\] Yeah. If you don't know who Leslie Lamport is - because he's the same person that's like "Unit testing is BS. You should be writing TLA+ instead." \[laughter\]
 
 **Jerod Santo:** I heard him say that. I was kind of interested in the TLA+ thing. I'm like, "Dang, am I a total loser?"
 
@@ -372,7 +372,7 @@ I've run into a lot of people who are excellent at taking code that's written an
 
 **Kris Brandow:** Okay, time for unpopular opinions...
 
-**Jingle:** \[00:57:51.06\]
+**Jingle:** \[57:51\]
 
 **Kris Brandow:** Alright... Ian, do you have an unpopular opinion?
 
