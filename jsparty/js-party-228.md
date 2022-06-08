@@ -18,7 +18,7 @@
 
 **Divya:** Yeah. Kent organized Remix Conf, and also is part of the Remix community. Do you wanna talk more about Remix Conf?
 
-**Kent C. Dodds:** \[00:04:05.08\] Yeah, I would love to talk more about Remix Conf. Thank you so much for coming and being here at the conference. Remix is a web framework; we talked at length about it a couple episodes ago, so you can go back, and we'll link to that... But yeah, so it's a web framework for building awesome websites, and when I joined the team back in November, I thought we just should do a conference. It was one of the first things that I did, was start that up. We'd just barely open-sourced, but I knew that we had a good community going already with the closed source thing, and so I figured we could probably get 300 to 350 people in Salt Lake if I had the right team to organize the conference and put things together. So I got the right team, and we've got the same group, it's Zero Slope Events, the same group that does React Rally; they've done a couple ReactConf, NGConf... Yeah, a bunch of tech conferences. They're amazing. We're in the same venues React Rally has been in the past, and we've got 330(ish) people at the conference.
+**Kent C. Dodds:** \[04:05\] Yeah, I would love to talk more about Remix Conf. Thank you so much for coming and being here at the conference. Remix is a web framework; we talked at length about it a couple episodes ago, so you can go back, and we'll link to that... But yeah, so it's a web framework for building awesome websites, and when I joined the team back in November, I thought we just should do a conference. It was one of the first things that I did, was start that up. We'd just barely open sourced, but I knew that we had a good community going already with the closed source thing, and so I figured we could probably get 300 to 350 people in Salt Lake if I had the right team to organize the conference and put things together. So I got the right team, and we've got the same group, it's Zero Slope Events, the same group that does React Rally; they've done a couple ReactConf, NGConf... Yeah, a bunch of tech conferences. They're amazing. We're in the same venues React Rally has been in the past, and we've got 330(ish) people at the conference.
 
 **Ali Spittel:** That's awesome. That's actually a really impressive turnaround on a conference, too. I feel like these things take forever to plan, so six months or so is pretty impressive.
 
@@ -48,7 +48,7 @@ So eating out in the city - that one I borrowed from React Rally... And we also 
 
 **Ali Spittel:** No Covid. \[laughter\]
 
-**Kent C. Dodds:** \[00:08:09.04\] Yeah, absolutely not. So yeah, that was one thing that I'm excited that it will be able to be heard. They've put a lot of work and effort into preparing those talks. I also put the Twitter avatars on the badgers.
+**Kent C. Dodds:** \[08:09\] Yeah, absolutely not. So yeah, that was one thing that I'm excited that it will be able to be heard. They've put a lot of work and effort into preparing those talks. I also put the Twitter avatars on the badgers.
 
 **Ali Spittel:** That's also smart. So people can recognize you.
 
@@ -98,7 +98,7 @@ So really, this is 100% -- like I said, we're not making any money off of this. 
 
 **Ali Spittel:** For sure, for sure. Thanks for having us.
 
-**Break:** \[00:10:35.27\]
+**Break:** \[10:35\]
 
 **Ali Spittel:** Hello, Henri.
 
@@ -156,7 +156,7 @@ And the biggest picture - I'd say bigger, but I think the biggest picture overal
 
 **Divya:** Yeah, exactly.
 
-**Henri Helvetica:** \[00:15:37.15\] You know, I have to say this... When I first found out that this conference was happening, it was immediately on my radar, because I felt Remix was buzzing. And I also felt that they had been so adamant in indicating to people, letting them know that they were pretty performant in using our tool, so I just could not miss that... But a) I was happy I came, and b) I remember maybe like three days out I was looking at the actual speaker line-up and their abstracts, and I couldn't believe the amount of performance conversations that were taking place... And I come from a moment in time where it was myself and that was it. And to have ongoing talks about like a little performance here, and there, and your LCP is going improve...
+**Henri Helvetica:** \[15:37\] You know, I have to say this... When I first found out that this conference was happening, it was immediately on my radar, because I felt Remix was buzzing. And I also felt that they had been so adamant in indicating to people, letting them know that they were pretty performant in using our tool, so I just could not miss that... But a) I was happy I came, and b) I remember maybe like three days out I was looking at the actual speaker line-up and their abstracts, and I couldn't believe the amount of performance conversations that were taking place... And I come from a moment in time where it was myself and that was it. And to have ongoing talks about like a little performance here, and there, and your LCP is going improve...
 
 Divya, you might remember in 2019, during my keynote, I said at Performance Now in Amsterdam "Lighthouse is largely responsible for what's going on in terms of people chatting about it. And now you add Lighthouse, Core Web Vitals and there's like a huge tent of people who are pretty interested... And that's why I think - you know, when I joined WebPageTest, it was like the best time on Earth to be into performance right now. There are so many people who want more information.
 
@@ -208,7 +208,7 @@ So I had a great time today, to open the post-keynote talk... Which - again, I d
 
 **Henri Helvetica:** So I'll be frank - I'm really spending a lot of time watching what's happening on the WordPress site, because some of you may or may not know, last fall they officially announced a core performance team...
 
-**Divya:** \[00:20:25.25\] Oh, that's cool.
+**Divya:** \[20:25\] Oh, that's cool.
 
 **Henri Helvetica:** ...so my ears were like "Okay..." So I've been following them closely. I think I told this to someone earlier today - Douglas Crockford once said \[unintelligible 00:20:35.22\] Basically, the frontend is like a disaster. That's where your problems will keep coming up, day in and day out. I'm not saying that with all that's happening on the modern development side that we shouldn't keep an eye on that, but just - it's still such a small pie. There's so many bigger problems to take on, and they're more of in a classic frontend/backend split.
 
@@ -278,7 +278,7 @@ I have to give a shout-out to my team, everyone at WPT, as we call it - Tim, Sco
 
 **Henri Helvetica:** Oh, there we go. Storyblok's in the building, let's go!
 
-**Break:** \[00:23:50.00\]
+**Break:** \[23:50\]
 
 **Divya:** Arisa, welcome!
 
@@ -286,7 +286,7 @@ I have to give a shout-out to my team, everyone at WPT, as we call it - Tim, Sco
 
 **Arisa Fukuzaki:** Sure, sure. My name is Arisa, and I'm originally from Japan, but living in Germany. Storyblok is a headless CMS, and I work in there as a developer relations engineer. Not just on the headless CMS... What makes it unique is that we have the real-time visual editor, so whenever you make content changes, you can take a look at it and see in one screen.
 
-\[00:24:37.04\] We're based on the atomic design methodology; it means that you can reuse the components, as many as you want, and you can nest these reusable components in any levels. So you can only, for example, define only the necessary components that you need, and you don't need to duplicate unnecessary \[unintelligible 00:24:57.25\] components.
+\[24:37\] We're based on the atomic design methodology; it means that you can reuse the components, as many as you want, and you can nest these reusable components in any levels. So you can only, for example, define only the necessary components that you need, and you don't need to duplicate unnecessary \[unintelligible 00:24:57.25\] components.
 
 So that's what we have... And here for today's talk I was showing that, let's say, choices of choosing the technologies; I was showing as one of the examples that imagine that if you are for example in your everyday life, when you face something non-user-friendly interface, then maybe in the end you will be able to get something you wanted to have, but the journey until you will be able to get the things you wanted to have, or the things you wanted to achieve - it's not going to be nice. Same thing could be transferred or would be applied in the tech world.
 
@@ -314,7 +314,7 @@ I was showing how resilient, fast, very smooth and organized experience you can 
 
 **Arisa Fukuzaki:** Oh, sorry - you can actually map these array objects, so that you don't have to worry about to manually create for example let's say the component files, and you don't need to worry about to create the logic to manually render these components. You can just call one API that is provided from our SDK.
 
-\[00:28:11.16\] In Remix's case you can just use our React SDK. So you can call one of the APIs that is fully equipped to handle all the dynamic component rendering part, so conditionally, it will decide - like, if the dynamic components are there, then it's gonna return. But if not, then maybe you can put some nice error handling to show "Hey, the name of the component doesn't exist", stuff like that. And you don't have to worry about to build this kind of workflow by yourself. You can just call this API and you just call this API as a JSX component, and everything is all set. You don't need to worry about what kind of components the users are going to define, let's say inside of another component. Everything is already set in there.
+\[28:11\] In Remix's case you can just use our React SDK. So you can call one of the APIs that is fully equipped to handle all the dynamic component rendering part, so conditionally, it will decide - like, if the dynamic components are there, then it's gonna return. But if not, then maybe you can put some nice error handling to show "Hey, the name of the component doesn't exist", stuff like that. And you don't have to worry about to build this kind of workflow by yourself. You can just call this API and you just call this API as a JSX component, and everything is all set. You don't need to worry about what kind of components the users are going to define, let's say inside of another component. Everything is already set in there.
 
 **Divya:** Okay.
 
@@ -348,7 +348,7 @@ I was showing how resilient, fast, very smooth and organized experience you can 
 
 **Arisa Fukuzaki:** Thank you, too.
 
-**Break:** \[00:31:26.27\]
+**Break:** \[31:26\]
 
 **Anthony Frehner:** Wow, this mic looks like it's been beat up. I'm kind of scared of the previous people that were talking here... \[laughter\]
 
@@ -366,7 +366,7 @@ I was showing how resilient, fast, very smooth and organized experience you can 
 
 **Anthony Frehner:** Definitely. Well, thank you for having me.
 
-**Divya:** \[00:32:06.05\] Yeah, of course, thanks for being on.
+**Divya:** \[32:06\] Yeah, of course, thanks for being on.
 
 **Anthony Frehner:** I think this is the first time I've met both of you, so it's a pleasure to be here.
 
@@ -408,11 +408,11 @@ So again, there's lots of big plans, but we're still kind of pushing to try and 
 
 **Ali Spittel:** Yeah. I love how that's become such a strategy within the web dev space, of having some open source or free project that just helps everybody, and then - you know, you still have a company behind it, but you have this product completely detached from it... Next.js and Vercel, for example. I think that's really cool.
 
-**Anthony Frehner:** Yeah, it's interesting to see, like you say, the open-sourceness of everything, and everything going open... The other part - I'm fairly new to Shopify, so I don't wanna toe the line too much, or whatever you wanna call that... But there's a big emphasis at Shopify of "This isn't a zero-sum game." In other words, we don't have to make it so we are the winner and everyone else is a loser. We want to make it so everybody wins, if we can. And obviously, if we can do well in the process, that's great, and we can all have jobs, and stuff... But the goal is to really just help out the broader ecosystem and help everybody, and kind of see some of that -- not only in this work that we're doing in Hydrogen UI, but also just in React itself, with React Server Components and things like that... Providing feedback and trying to make that proposal better.
+**Anthony Frehner:** Yeah, it's interesting to see, like you say, the open sourceness of everything, and everything going open... The other part - I'm fairly new to Shopify, so I don't wanna toe the line too much, or whatever you wanna call that... But there's a big emphasis at Shopify of "This isn't a zero-sum game." In other words, we don't have to make it so we are the winner and everyone else is a loser. We want to make it so everybody wins, if we can. And obviously, if we can do well in the process, that's great, and we can all have jobs, and stuff... But the goal is to really just help out the broader ecosystem and help everybody, and kind of see some of that -- not only in this work that we're doing in Hydrogen UI, but also just in React itself, with React Server Components and things like that... Providing feedback and trying to make that proposal better.
 
 **Divya:** You've talked a bit about making it React-agnostic... So what are the plans so far? You have it working with Remix, you have it working with, I guess, vanilla React, and Next.js I think, too?
 
-**Anthony Frehner:** \[00:36:16.07\] So the package itself isn't released yet, so that's the fun part; this is all -- it almost feels like an Apple keynote of like "Hey, this is where we want to be in maybe six months, or less time", but this has like a future-looking type feel to it. But the goal is to make it so it works in Remix.
+**Anthony Frehner:** \[36:16\] So the package itself isn't released yet, so that's the fun part; this is all -- it almost feels like an Apple keynote of like "Hey, this is where we want to be in maybe six months, or less time", but this has like a future-looking type feel to it. But the goal is to make it so it works in Remix.
 
 And I alluded to in my talk as well - we'd really do want these tight integrations with other frameworks to make sure that we're doing it right for you. In fact, last week we noticed that Netlify, for example, had built a Hydrogen adapter for their new Netlify edge computing that's built on Deno, and stuff like that... We noticed that we had broken something in their adapter through one of our releases, and hadn't really paid attention... So we fixed it, but then we also worked with Netlify to say "Hey, we're now going to do preview deploys on every commit, so we can check out Hydrogen on Netlify, and make sure it's working there", and stuff like that. So yeah, there's the goal to just make it work everywhere eventually.
 
@@ -456,7 +456,7 @@ Working on -- the current one I'm excited about now is like this new app history
 
 **Divya:** Did you work on e-commerce prior to Shopify itself, or e-commerce dev tooling itself?
 
-**Anthony Frehner:** \[00:40:09.24\] So unintentionally I have worked -- you know, doing a lot of e-commerce throughout my job history... But it was never intentional. It was just - that's what I always happened to be working on. My first job was working for a local company here and making their website, and migrating it from Magento to Shopify, which at the time I had no idea I was gonna be working for them. And then another company I worked for, local, building a custom platform to integrate all these different e-commerce things into a dashboard, so you can see how well your products are selling, and stuff like that. So it's kind of been like an accidental "Hey, I kind of understand e-commerce, I guess, but..."
+**Anthony Frehner:** \[40:09\] So unintentionally I have worked -- you know, doing a lot of e-commerce throughout my job history... But it was never intentional. It was just - that's what I always happened to be working on. My first job was working for a local company here and making their website, and migrating it from Magento to Shopify, which at the time I had no idea I was gonna be working for them. And then another company I worked for, local, building a custom platform to integrate all these different e-commerce things into a dashboard, so you can see how well your products are selling, and stuff like that. So it's kind of been like an accidental "Hey, I kind of understand e-commerce, I guess, but..."
 
 **Divya:** Yeah, it's interesting, because developer tools itself is a niche in and of itself, in all of development, and then e-commerce dev tools is a niche within that niche, because it's very specific; the problems that people have in e-commerce, when they build e-commerce sites, are very different than if they were building another type of website, right?
 
@@ -468,7 +468,7 @@ Working on -- the current one I'm excited about now is like this new app history
 
 **Divya:** Yeah, thanks.
 
-**Break:** \[00:41:32.29\]
+**Break:** \[41:32\]
 
 **Ali Spittel:** How's it going?
 
@@ -512,7 +512,7 @@ Working on -- the current one I'm excited about now is like this new app history
 
 **Emily Kauffman:** ...Community Support Agriculture, where you get like a box from a farm... And two years ago, before the pandemic, we had like 40 products that you could get... Because everyone wanted grocery delivery service, we grew to like 500 products in the most short amount of time, and it kind of crashed our page... So that was one of the reasons we were looking for something to help with that performance.
 
-**Divya:** \[00:44:17.26\] Can you speak more to the stack, or what it was like before you moved to Remix itself, and what that migration was like? I mean, you haven't pushed to production, but I'm just curious what that stack process was like.
+**Divya:** \[44:17\] Can you speak more to the stack, or what it was like before you moved to Remix itself, and what that migration was like? I mean, you haven't pushed to production, but I'm just curious what that stack process was like.
 
 **Emily Kauffman:** So they were all Twig templates originally. We kind of set up a React single-page application, and it was kind of like intertwined with the Symfony application. And then as part of our performance stuff we were doing, we kind of split out our admin code versus our member code... So I'm just focusing on member right now, but I've built a components library, so I was able to pull out a bunch of -- you know, like the buttons, and all of that stuff. That made it a lot easier to move over...
 
@@ -570,7 +570,7 @@ Working on -- the current one I'm excited about now is like this new app history
 
 **Ali Spittel:** Nice to meet you.
 
-**Break:** \[00:47:12.21\]
+**Break:** \[47:12\]
 
 **Aaron Saunders:** My name is Aaron Saunders. I was one of the backup speakers also. I did not get promoted, but I still did \[unintelligible 00:47:26.26\] last night. I've found out about Remix through just evaluation of software.
 
@@ -580,7 +580,7 @@ Working on -- the current one I'm excited about now is like this new app history
 
 **Ali Spittel:** That's awesome.
 
-**Aaron Saunders:** \[00:47:54.08\] Then when -- I think Kent mentioned that they were gonna do the conference, he said "Hey, you should go for a talk." So I did. I threw my hat in the ring. I didn't make the final cut, but I was just happy to be here. I haven't spoken at a conference in almost 15 years now.
+**Aaron Saunders:** \[47:54\] Then when -- I think Kent mentioned that they were gonna do the conference, he said "Hey, you should go for a talk." So I did. I threw my hat in the ring. I didn't make the final cut, but I was just happy to be here. I haven't spoken at a conference in almost 15 years now.
 
 **Ali Spittel:** Oh, wow, that's awesome.
 
@@ -636,7 +636,7 @@ Working on -- the current one I'm excited about now is like this new app history
 
 **Ali Spittel:** Yeah, always. But you don't, actually.
 
-**Aaron Saunders:** \[00:51:52.10\] You don't. A lot of it just doesn't matter anymore. But you know, overall I've had a great experience, like I said. It's been years since I spoke at a conference, it's been since before Covid since I've actually been at a conference... So this is a great kind of first step back in, and then I'm also just excited, grateful for the opportunity to talk... Because honestly, pre-Covid I decided that I was gonna start getting back out and speaking at conferences, and trying to -- that's when I really got into promoting my YouTube channel, and stuff like that.
+**Aaron Saunders:** \[51:52\] You don't. A lot of it just doesn't matter anymore. But you know, overall I've had a great experience, like I said. It's been years since I spoke at a conference, it's been since before Covid since I've actually been at a conference... So this is a great kind of first step back in, and then I'm also just excited, grateful for the opportunity to talk... Because honestly, pre-Covid I decided that I was gonna start getting back out and speaking at conferences, and trying to -- that's when I really got into promoting my YouTube channel, and stuff like that.
 
 **Ali Spittel:** That's awesome. Well, thank you so much for chatting with us.
 
@@ -646,7 +646,7 @@ Working on -- the current one I'm excited about now is like this new app history
 
 **Ali Spittel:** This was great to meet you, and we'll definitely shout out your YouTube channel in the show notes.
 
-**Break:** \[00:52:29.24\]
+**Break:** \[52:29\]
 
 **Michael Jackson:** Hello...
 
@@ -696,7 +696,7 @@ Working on -- the current one I'm excited about now is like this new app history
 
 **Michael Jackson:** Thank you, by the way, for the compliments. The short version of the story is - we've been developing React Router for a long, long time... And I think Ryan and I were always kind of hoping that somebody would just sort of like pick it up and run with it, and take it to the next level... Because we saw so much potential for everything, everything that we're doing now with Remix - code-splitting by route, and data loading by route, and loading and unloading styles by route, and all of this stuff that you can do with React Router but nobody was actually doing anything with it. And it wasn't for lack of trying either; I had tried to convince various people to use it, and it just wasn't catching on. I tried to convince the RedwoodJS team to use it, I tried to convince the Next people to use it...
 
-\[00:56:03.24\] Actually, the top issue on the next issue tracker for a number of years was "Use React Router!" Because I think the React community actually really liked it. But it just never happened. At one point I was talking to them about possibly doing some consulting... Anyway, it never happened... So when Covid hit and our training business kind of took a big hit, we were just kind of like "Well, I guess if nobody else is gonna do it, I guess we should just do it. And along the way we're gonna do all this other good stuff too, which is stuff that we really believe in. We're gonna do progressive enhancement, and we're gonna make sure that it's backend-agnostic, and it runs in lots of different places..." Just a lot of different sort of opinions that we've had, that we just wanted to put in there as well.
+\[56:03\] Actually, the top issue on the next issue tracker for a number of years was "Use React Router!" Because I think the React community actually really liked it. But it just never happened. At one point I was talking to them about possibly doing some consulting... Anyway, it never happened... So when Covid hit and our training business kind of took a big hit, we were just kind of like "Well, I guess if nobody else is gonna do it, I guess we should just do it. And along the way we're gonna do all this other good stuff too, which is stuff that we really believe in. We're gonna do progressive enhancement, and we're gonna make sure that it's backend-agnostic, and it runs in lots of different places..." Just a lot of different sort of opinions that we've had, that we just wanted to put in there as well.
 
 **Ali Spittel:** Awesome, awesome.
 
