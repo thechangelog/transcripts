@@ -106,9 +106,9 @@ So my hunch - I'm not from the Ethereum Foundation, but my hunch is that they ne
 
 **Jerod Santo:** It makes sense with the Gas primitives and all those things, that something specific would make a lot of sense.
 
-**Tim Coulter:** Now, I think that's where they started. The ideas around smart contract languages is evolving, and so we're thinking - well, not we, but the community - about working on other ways of incorporating other languages... For instance, I don't know if you've ever heard of eWASM, but we can get a lot of the languages that currently exist in the world to compile down to eWASM, and then eWASM would be translated to the EVM. eWASM is Web Assembly.
+**Tim Coulter:** Now, I think that's where they started. The ideas around smart contract languages is evolving, and so we're thinking - well, not we, but the community - about working on other ways of incorporating other languages... For instance, I don't know if you've ever heard of eWASM, but we can get a lot of the languages that currently exist in the world to compile down to eWASM, and then eWASM would be translated to the EVM. eWASM is WebAssembly.
 
-**Jerod Santo:** What's the e in front of it? Is that like Ethereum Web Assembly?
+**Jerod Santo:** What's the e in front of it? Is that like Ethereum WebAssembly?
 
 **Tim Coulter:** Actually, I believe so.
 
@@ -122,7 +122,7 @@ So my hunch - I'm not from the Ethereum Foundation, but my hunch is that they ne
 
 **Jerod Santo:** What about email? We could do email...
 
-**Tim Coulter:** Ethereum Mail? Absolutely. \[laughter\] So I think with the eWASM project what they're actually doing is compiling normal languages down to Web Assembly that somehow Ethereum can know about. I'm not too well-versed on that project, but I do know that it's supposed to be the big connector of all of our current languages. The hard part there is how do you take advantage of the specific things that make the blockchain the blockchain? Like, I don't know, if you're writing Java or something, how do you specify that this is like a storage variable? A storage variable, for those listening, is data that's actually going to be stored in the blockchain, and you're paying as part of the transaction to store, versus like something in memory that you're just using as part of a computation.
+**Tim Coulter:** Ethereum Mail? Absolutely. \[laughter\] So I think with the eWASM project what they're actually doing is compiling normal languages down to WebAssembly that somehow Ethereum can know about. I'm not too well-versed on that project, but I do know that it's supposed to be the big connector of all of our current languages. The hard part there is how do you take advantage of the specific things that make the blockchain the blockchain? Like, I don't know, if you're writing Java or something, how do you specify that this is like a storage variable? A storage variable, for those listening, is data that's actually going to be stored in the blockchain, and you're paying as part of the transaction to store, versus like something in memory that you're just using as part of a computation.
 
 **Jerod Santo:** \[28:06\] Okay, so Solidity is what we have today; maybe there will be better things down the road. Another is competing blockchains, they are trying to do things like native JavaScript smart contract language, but none of those have the size and steam that Ethereum has at this point...
 

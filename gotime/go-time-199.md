@@ -10,7 +10,7 @@
 
 **Vladimir Vivien:** Thank you. Very excited to be here.
 
-**Angelica Hill:** Secondly, we have Tobias Theel, also known as the "Always Developing Princess." I feel like we need to talk about that a bit more. He's a lead developer for the fintech Fino and the regtech ClariLab. He has 15 years expertise, including inter alia building digital solutions to automate KYC processes, and he is an extremely enthusiastic open source maintainer, contributor to several different projects, as well as being the author of "TinyGo: Creative DIY Microcontroller Projects with TinyGo and Web Assembly."
+**Angelica Hill:** Secondly, we have Tobias Theel, also known as the "Always Developing Princess." I feel like we need to talk about that a bit more. He's a lead developer for the fintech Fino and the regtech ClariLab. He has 15 years expertise, including inter alia building digital solutions to automate KYC processes, and he is an extremely enthusiastic open source maintainer, contributor to several different projects, as well as being the author of "TinyGo: Creative DIY Microcontroller Projects with TinyGo and WebAssembly."
 
 **Tobias Theel:** \[04:33\] Hello. I'm really happy to be here.
 
@@ -242,11 +242,11 @@ I thought that was very funny... But there was something to it, in the sense tha
 
 But TinyGo - I'm not supposed to say too many big things about TinyGo... First of all, Tiny... \[laughter\] But also, since I am on the core team and clearly biased. But Go is a very cool language; it's still growing rapidly. It has a big place -- it basically won the war for the cloud, just very peacefully, because it was doing great things. Things like Docker, that have themselves created entire ecosystems, could not have been created without Go. So all these things sort of layer on top of each other.
 
-But the next frontier for software - what is that? Well, it's things like Web 3 and truly distributed computing; that's where Web Assembly and WASI come in... Unpopular opinion! \[laughter\]
+But the next frontier for software - what is that? Well, it's things like Web 3 and truly distributed computing; that's where WebAssembly and WASI come in... Unpopular opinion! \[laughter\]
 
 **Angelica Hill:** Another one...
 
-**Ron Evans:** Another one... So I did not say this myself; I'm just repeating what someone else said. But basically, without TinyGo, Go doesn't even have a place in Web Assembly. It's just too big.
+**Ron Evans:** Another one... So I did not say this myself; I'm just repeating what someone else said. But basically, without TinyGo, Go doesn't even have a place in WebAssembly. It's just too big.
 
 **Vladimir Vivien:** Hm. Interesting.
 
@@ -254,19 +254,19 @@ But the next frontier for software - what is that? Well, it's things like Web 3 
 
 **Vladimir Vivien:** It is.
 
-**Ron Evans:** So there's actually a whole bunch of -- I have a whole list of projects that are using TinyGo today, with Web Assembly, in all sorts of different contexts. That sort of edge computing - I've been on record with saying "That's not real edge computing. That's just a data center nearest you." Real edge computing is the last millimeter. The hardware that you literally touch with your fingertips, that's edge computing. But that's not strictly true, I know. That was just a really funny thing to say. There are many edges.
+**Ron Evans:** So there's actually a whole bunch of -- I have a whole list of projects that are using TinyGo today, with WebAssembly, in all sorts of different contexts. That sort of edge computing - I've been on record with saying "That's not real edge computing. That's just a data center nearest you." Real edge computing is the last millimeter. The hardware that you literally touch with your fingertips, that's edge computing. But that's not strictly true, I know. That was just a really funny thing to say. There are many edges.
 
-But there's a lot of really cool projects going on right now. Astro, if you've heard of that project... Astro's build is all built using TinyGo for Web Assembly; that way they could reduce the necessary runtime for their application from, I think, 6 MB to 600k, something like that.
+But there's a lot of really cool projects going on right now. Astro, if you've heard of that project... Astro's build is all built using TinyGo for WebAssembly; that way they could reduce the necessary runtime for their application from, I think, 6 MB to 600k, something like that.
 
 **Vladimir Vivien:** Oh, wow.
 
-**Ron Evans:** Suborbital - they're doing a lot of stuff with TinyGo and Web Assembly. The Proxy WASM project, which is the ABI specification if you wanna run Web Assembly on proxies like Envoy, or Istio - the only way to use Go from that is TinyGo. And they have reasons why they tell you that, largely to do with the main Go implementation not providing the necessary APIs, as well as being too big. So we've got that. Vecty, which is frontend development in Go. TinyGo.
+**Ron Evans:** Suborbital - they're doing a lot of stuff with TinyGo and WebAssembly. The Proxy WASM project, which is the ABI specification if you wanna run WebAssembly on proxies like Envoy, or Istio - the only way to use Go from that is TinyGo. And they have reasons why they tell you that, largely to do with the main Go implementation not providing the necessary APIs, as well as being too big. So we've got that. Vecty, which is frontend development in Go. TinyGo.
 
 \[48:10\] Just recently, there was a really cool project that came out called WASM 4, which lets you build retro-style gaming on a web interface. Kind of a fantasy console. It's language agnostic. They have Rust, and Python, and C++, and - oh yeah, TinyGo...
 
 **Vladimir Vivien:** Sweet.
 
-**Ron Evans:** So that's really cool. Then there's actual people doing the same thing, but in hardware. One of the coolest articles I saw recently was writing a Gameboy Advanced game in Go. And naturally, they had to actually run it on their actual Gameboy Advanced hardware, not just in a Web Assembly simulator... So naturally, I had to go and get some hardware to do exactly that myself. So in an upcoming episode of my stream that I do on Fridays from here at la peep, I'm gonna be doing some GBA hacking, just because -- I just wanna do it. It's just too cool.
+**Ron Evans:** So that's really cool. Then there's actual people doing the same thing, but in hardware. One of the coolest articles I saw recently was writing a Gameboy Advanced game in Go. And naturally, they had to actually run it on their actual Gameboy Advanced hardware, not just in a WebAssembly simulator... So naturally, I had to go and get some hardware to do exactly that myself. So in an upcoming episode of my stream that I do on Fridays from here at la peep, I'm gonna be doing some GBA hacking, just because -- I just wanna do it. It's just too cool.
 
 But those are some of the things that are happening right now as far as places where the TinyGo communities already surpassed the wider body of the Go community... Although I will say, we do not view TinyGo as separate from Go. TinyGo is Go. I know cgo is not Go, but TinyGo is Go, because Go is a programming language. There's also a runtime, there's also a standard library... But ultimately, it's a programming language, and if you have a compiler from a programming language, it's not a different programming language unless it's a different programming language. I mean, there's many C compilers.
 
@@ -292,7 +292,7 @@ In the capitalistic society in which we live, there is no way to have a sustaina
 
 **Vladimir Vivien:** Do you see a day where TinyGo is on par with the regular flavor of Go as far as popularity, adoption?
 
-**Ron Evans:** I mean, it serves a very different purpose. I think Web Assembly is the only thing that can maybe change that equation... Although there is the thriving ecosystem of building out cloud-native, the amazing other things that are happening with other applications of Go... Go in the UI, whether it's Gio or Fyre... I mean, there's so many interesting things that are happening in Go, that -- for me to say "Oh yeah, TinyGo is the most important", I don't think I could really say anything is THE most important. But I will say, hardware development is too important to be left to hardware developers.
+**Ron Evans:** I mean, it serves a very different purpose. I think WebAssembly is the only thing that can maybe change that equation... Although there is the thriving ecosystem of building out cloud-native, the amazing other things that are happening with other applications of Go... Go in the UI, whether it's Gio or Fyre... I mean, there's so many interesting things that are happening in Go, that -- for me to say "Oh yeah, TinyGo is the most important", I don't think I could really say anything is THE most important. But I will say, hardware development is too important to be left to hardware developers.
 
 **Vladimir Vivien:** That sounds like another unpopular opinion...
 

@@ -246,9 +246,9 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Erik St. Martin:** Yeah, I'd agree. I can't think of some concrete example, but I know there's been one or two instances. But considering the Go 1.0 came out five or six years ago, they've been pretty strict on the compatibility promise, and even the ones that did break - I can't remember any being super severe as far as having to refactor your code.
 
-**Brian Ketelsen:** Alright, Pascal Danerly asks "What keeps you excited about Go?" I think you've gotta keep it fresh, you've gotta go out on date nights, you've gotta bring flowers and surprise people every once in a while. If you don't make that effort, then things get stale after a while. Go is the same way. For me, it's things like GopherJS, Web Assembly... You've gotta kind of branch out a little bit and try some new things.
+**Brian Ketelsen:** Alright, Pascal Danerly asks "What keeps you excited about Go?" I think you've gotta keep it fresh, you've gotta go out on date nights, you've gotta bring flowers and surprise people every once in a while. If you don't make that effort, then things get stale after a while. Go is the same way. For me, it's things like GopherJS, WebAssembly... You've gotta kind of branch out a little bit and try some new things.
 
-[Richard Musiol](https://github.com/neelance), the guy who started [GopherJS](https://github.com/gopherjs/gopherjs) is very deeply busy right now working in the [Web Assembly](http://webassembly.org/) branch, and it looks like it's darn close to being ready to go. That really excites me about Go, the idea that we can build insanely fast client-side stuff in Go. I'm all over that. So even though I was a little snarky in the beginning, I did mean the idea of keeping things fresh and interesting just by trying new stuff, learning new things in Go.
+[Richard Musiol](https://github.com/neelance), the guy who started [GopherJS](https://github.com/gopherjs/gopherjs) is very deeply busy right now working in the [WebAssembly](http://webassembly.org/) branch, and it looks like it's darn close to being ready to go. That really excites me about Go, the idea that we can build insanely fast client-side stuff in Go. I'm all over that. So even though I was a little snarky in the beginning, I did mean the idea of keeping things fresh and interesting just by trying new stuff, learning new things in Go.
 
 **Erik St. Martin:** How about you, Carlisia?
 
@@ -258,7 +258,7 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Carlisia Thompson:** Yeah.
 
-**Erik St. Martin:** So I think it's exciting to keep watching it grow. Then similar to Brian's point too, I love seeing all the things that are happening on the fringe of what the past of couple of years we've been using Go for. From microservices and CLI tools... There's no surprise when somebody's like "Oh, I wrote that in Go", but I get really excited when I see stuff like the Web Assembly stuff, or people messing with embedded systems with Go, or GoCD, doing computer vision stuff with Go... Even though that's still cGO, but watching people write Nintendo emulators and all that stuff - I geek out on seeing people do interesting things with Go that is kind of outside the norm.
+**Erik St. Martin:** So I think it's exciting to keep watching it grow. Then similar to Brian's point too, I love seeing all the things that are happening on the fringe of what the past of couple of years we've been using Go for. From microservices and CLI tools... There's no surprise when somebody's like "Oh, I wrote that in Go", but I get really excited when I see stuff like the WebAssembly stuff, or people messing with embedded systems with Go, or GoCD, doing computer vision stuff with Go... Even though that's still cGO, but watching people write Nintendo emulators and all that stuff - I geek out on seeing people do interesting things with Go that is kind of outside the norm.
 
 **Brian Ketelsen:** Yeah, and I learn a lot from that, too. I agree. Alright, this is a troll question, but we're gonna answer it anyway. "Do any of you know how [Russ Cox's mystic quest to understand generics](https://research.swtch.com/go2017) is going?"
 
@@ -480,7 +480,7 @@ I remember in the Ruby world they had the -1 thing, which meant "Mats is nice, s
 
 **Erik St. Martin:** I think you have the next one, too.
 
-**Brian Ketelsen:** Yeah, but I was gonna skip it, because we just talked about Web Assembly. So [neelance/go](https://github.com/neelance/go) on GitHub is Richard Musiol's fork of the Go language where he's adding Web Assembly support. We already talked about how damn excited I am about that.
+**Brian Ketelsen:** Yeah, but I was gonna skip it, because we just talked about WebAssembly. So [neelance/go](https://github.com/neelance/go) on GitHub is Richard Musiol's fork of the Go language where he's adding WebAssembly support. We already talked about how damn excited I am about that.
 
 **Erik St. Martin:** Yeah, that's gonna be awesome. Okay, so what about Pop?
 

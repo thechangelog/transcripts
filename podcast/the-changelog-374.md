@@ -32,7 +32,7 @@ So starting off with CoreDNS was just to show people "Hey, I didn't put a URL up
 
 **Bryan Liles:** OPA. And you know what? That software is boring, too. But to see the passion of Torren explaining about their custom language Rego and how all the integrations work - wow! Yeah.
 
-**Gerhard Lazu:** And the Web Assembly piece. I thought it was really interesting how that fits into the big picture.
+**Gerhard Lazu:** And the WebAssembly piece. I thought it was really interesting how that fits into the big picture.
 
 **Bryan Liles:** Right. And if you didn't know that, you were like "That's policy. Boring!" But it's not boring. It's interesting. And I want these developers who spend all this time working on this stuff to have an outlet. And it's a little counter to what people were doing before, and whoever comes behind will probably do it different... But my thing is spotlight on people creating good things. And that's what I take these opportunities to do. I have a platform, and I'm gonna use it for that.
 

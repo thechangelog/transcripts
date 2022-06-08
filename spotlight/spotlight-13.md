@@ -44,7 +44,7 @@ The way to achieve it is that you allow different VM vendors to kind of plug int
 
 From a consumer perspective, like "I'm a consumer of Node" - for them it's like, "Hey, if there are these modules that target this new VM neutral Node, I don't have to worry about revving up my modules every time I rev up Node. So you're making those two pieces independent in itself, so that you don't have to rev it."
 
-\[08:14\] And from a platform or a Node ecosystem perspective itself, I think getting to the VM neutrality is almost like analogous to having more than one browser available to everybody, so that there is more than one party which is interested in making sure that we are pushing Node forward. For example, we work with the V8 team very closely in the web client space. We go together in TC39, we often go into design reviews, we've been designing things together alongside V8, Mozilla and other guys that own Web Assembly.
+\[08:14\] And from a platform or a Node ecosystem perspective itself, I think getting to the VM neutrality is almost like analogous to having more than one browser available to everybody, so that there is more than one party which is interested in making sure that we are pushing Node forward. For example, we work with the V8 team very closely in the web client space. We go together in TC39, we often go into design reviews, we've been designing things together alongside V8, Mozilla and other guys that own WebAssembly.
 
 Getting more than one VM player into the Node market means that now more than one of the VM players can actually start thinking about the server side functionality for JavaScript, and kind of think about how do we have to evolve that also in a period of time.
 

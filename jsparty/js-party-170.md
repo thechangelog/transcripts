@@ -60,7 +60,7 @@ They say "If you watch our conference talks, you will find we've been hinting at
 
 So that's what they're saying... Now, TBD what exactly all that means. There is on the new Deno.com - so they probably shelled out some of that five million on getting Deno.com, because it's always been deno.land, and now they have deno.com, because it's official. They have a new Deploy section, which seems a hint at their first potentially commercial offering... I just don't know exactly what that is. Did you check out that deploy thing?
 
-**Nick Nisi:** Yeah. That does seem to be like the first product from the Deno company, I guess you could put it. That's what I was trying to understand... In terms of what I already know, they call it a globally-distributed JavaScript VM. So it's a V8 runtime where you can run your JavaScript, your TypeScript, your Web Assembly code... At the edge, worldwide, is what they say.
+**Nick Nisi:** Yeah. That does seem to be like the first product from the Deno company, I guess you could put it. That's what I was trying to understand... In terms of what I already know, they call it a globally-distributed JavaScript VM. So it's a V8 runtime where you can run your JavaScript, your TypeScript, your WebAssembly code... At the edge, worldwide, is what they say.
 
 What I'm trying to understand - is this their own custom way to run Deno as like a Lambda function type thing? Is that comparable, or...?
 

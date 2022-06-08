@@ -20,7 +20,7 @@
 
 **Divya:** That's awesome. So with that, I guess we'll just dive into what exactly Deno is. Could you give us a really wide overview of what exactly Deno is and what it does?
 
-**Kitson Kelly:** \[04:08\] Yeah. Deno is a runtime for JavaScript and TypeScript and Web Assembly. The main intent of it was -- taking a step back, Ryan had created Node.js back in 2012, and obviously the whole JavaScript server-side world had transformed a lot due to Node, but JavaScript as a language had transformed, and TypeScript had started to come in, and WebAssembly started to become a big thing... So yeah, I think Ryan's motivation originally was that there is just kind of a need to take a step back and take a look at things again and see if there were some improvements and changes that could be made.
+**Kitson Kelly:** \[04:08\] Yeah. Deno is a runtime for JavaScript and TypeScript and WebAssembly. The main intent of it was -- taking a step back, Ryan had created Node.js back in 2012, and obviously the whole JavaScript server-side world had transformed a lot due to Node, but JavaScript as a language had transformed, and TypeScript had started to come in, and WebAssembly started to become a big thing... So yeah, I think Ryan's motivation originally was that there is just kind of a need to take a step back and take a look at things again and see if there were some improvements and changes that could be made.
 
 When I started to get involved, that was the attractive thing to me - let's no be encumbered, let's try to take a look at what we can do with JavaScript and TypeScript. Make TypeScript a first-class language from a runtime perspective, and also support modern syntax, modern language, and not be encumbered with 8+ years of legacy. That was the motivation.
 
@@ -98,7 +98,7 @@ And then communication between V8 and JavaScript, and the sandbox - there's only
 
 \[23:39\] So we get that module, and the first thing we do is we figure out "Hey, are you trying to refer to a local module or a remote module?" This is all happening in Rust, so we do a bit of work there. Then once we figure out the absolute path for that, be it a web server or a local file, we look in the cache and say "Hey, have we seen this file before?" And if it's in the cache, we'll pull it out.
 
-Then at that point we start to look at "Is that a JavaScript or a TypeScript module, or a Web Assembly module?" and we figure out what to do with it from that point. If it's a JavaScript module and you haven't told Deno that you want to type-check JavaScript modules, we'll hand it over to V8 and load it as an ES module. Everything in Deno is an ES module. So we'll hand it over to V8 as a module.
+Then at that point we start to look at "Is that a JavaScript or a TypeScript module, or a WebAssembly module?" and we figure out what to do with it from that point. If it's a JavaScript module and you haven't told Deno that you want to type-check JavaScript modules, we'll hand it over to V8 and load it as an ES module. Everything in Deno is an ES module. So we'll hand it over to V8 as a module.
 
 V8 will then do analysis of that module and say "Here are the other modules that are being requested." That comes back to Rust, and then we'll go off and fetch all of that. And if they're all JavaScript modules and they're locally cached, nothing's happening, except we'll pulling stuff out of the cache and handing it over to V8, and loading it up as an ES module. Then V8 will all do that.
 

@@ -350,21 +350,21 @@ If the people at the top, whether that be the people on the language team itself
 
 **Mat Ryer:** \[40:14\] That last question though, it's -- so obviously he knows something... Do you know what I mean? It's like when a really bad TV interviewer says "So, did anything happen to you on the way to the studio?" \[laughter\]
 
-**Erik St. Martin:** You all can -- because we're on a Zoom call, and anybody who's watching this on Twitch can see behind me; I've got like an Electronics desk back here... So Rust is something I've been wanting to learn, to do some embedded stuff on here... But we've had some projects at work kick up, that use Rust. One of those is a Kubernetes node agent that basically pretends to be a node in the cluster, and orchestrates Web Assembly to host, and stuff like that.
+**Erik St. Martin:** You all can -- because we're on a Zoom call, and anybody who's watching this on Twitch can see behind me; I've got like an Electronics desk back here... So Rust is something I've been wanting to learn, to do some embedded stuff on here... But we've had some projects at work kick up, that use Rust. One of those is a Kubernetes node agent that basically pretends to be a node in the cluster, and orchestrates WebAssembly to host, and stuff like that.
 
 **Mat Ryer:** Sorry, you've broken my brain.
 
-**Mark Bates:** He lost me at Web Assembly...
+**Mark Bates:** He lost me at WebAssembly...
 
-**Erik St. Martin:** Web Assembly can have some really, really unique...
+**Erik St. Martin:** WebAssembly can have some really, really unique...
 
 **Mat Ryer:** That was at the end, Mark...
 
 **Mark Bates:** Then you lost me at the beginning...
 
-**Erik St. Martin:** So if we think about a container, we have to secure it after the fact... Whereas Web Assembly - we kind of get to rethink that, where it automatically has no permissions, and you have to allow every call, so we can kind of have like this actor thing. And each of those abilities can be cryptographically signed. Mat, you could have permissions to give applications this role, to run this thing. And Mark, you could have this... So each person would have to sign that for that to happen.
+**Erik St. Martin:** So if we think about a container, we have to secure it after the fact... Whereas WebAssembly - we kind of get to rethink that, where it automatically has no permissions, and you have to allow every call, so we can kind of have like this actor thing. And each of those abilities can be cryptographically signed. Mat, you could have permissions to give applications this role, to run this thing. And Mark, you could have this... So each person would have to sign that for that to happen.
 
-Rust has really good Web Assembly support, so that's why we were doing that. I can't really take credit for that project; we jumped in and helped with a couple of things, built a really funny demo where we basically recreated the scene from The Martian, where Matt Damon is stuck on Mars and he can't communicate, and I built this robotic arm that would point the flags, and stuff like that. It was really funny... So that's probably what he's referring to.
+Rust has really good WebAssembly support, so that's why we were doing that. I can't really take credit for that project; we jumped in and helped with a couple of things, built a really funny demo where we basically recreated the scene from The Martian, where Matt Damon is stuck on Mars and he can't communicate, and I built this robotic arm that would point the flags, and stuff like that. It was really funny... So that's probably what he's referring to.
 
 **Mat Ryer:** You didn't need to plant potatoes in poo for that, Erik, but you did that anyway.
 

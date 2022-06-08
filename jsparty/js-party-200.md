@@ -212,7 +212,7 @@ The correct answer, of course - Scott was off literally by one letter... The cor
 
 **Break:** \[17:12\]
 
-**Kevin Ball:** Hey there. This is Kball, and my absolute favorite moment in the past hundred episodes of JS Party was during an Explain It Like I'm Five segment. I had just gone and done what I thought was a pretty good job of Explaining Web Assembly Like I'm Five, and Nick Nisi busts out this amazing five-minute-long story where he was mapping React hooks to the stories of Moana, and mixing in a little bit of Coco and these other animated films... And he just did this incredible job, and completely blew my explanation out of the water... But also, our jaws were on the floor listening to him. Definitely worth a listen through the entire thing.
+**Kevin Ball:** Hey there. This is Kball, and my absolute favorite moment in the past hundred episodes of JS Party was during an Explain It Like I'm Five segment. I had just gone and done what I thought was a pretty good job of Explaining WebAssembly Like I'm Five, and Nick Nisi busts out this amazing five-minute-long story where he was mapping React hooks to the stories of Moana, and mixing in a little bit of Coco and these other animated films... And he just did this incredible job, and completely blew my explanation out of the water... But also, our jaws were on the floor listening to him. Definitely worth a listen through the entire thing.
 
 **Nick Nisi:** Once upon a time there was a community of JavaScript developers that lived on an island. I’m tying in Moana right now, in case you need to know… \[laughter\]
 

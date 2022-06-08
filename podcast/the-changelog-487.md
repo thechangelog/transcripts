@@ -290,7 +290,7 @@ The other reason we did it that way is like, when we do go to Linux or the web, 
 
 **Adam Stacoviak:** I guess would you get the GPU acceleration, would you get the 60 fps- would you lose that in Electron?
 
-**Zach Lloyd:** It depends how you did it. You could always technically run a WebGL app in Electron, which is a very contorted way of doing it, but... That's actually Figma, if you look at what they do; their codebase, I believe, is C++, and then they compile to Web Assembly and WebGL. And then they run that -- their Figma desktop app is running that WebGL and Web Assembly stuff. So you can get good performance, but you basically would still be doing it via a native code path.
+**Zach Lloyd:** It depends how you did it. You could always technically run a WebGL app in Electron, which is a very contorted way of doing it, but... That's actually Figma, if you look at what they do; their codebase, I believe, is C++, and then they compile to WebAssembly and WebGL. And then they run that -- their Figma desktop app is running that WebGL and WebAssembly stuff. So you can get good performance, but you basically would still be doing it via a native code path.
 
 **Break:** \[45:38\]
 

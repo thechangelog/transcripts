@@ -10,11 +10,11 @@
 
 **Jingle:** \[03:15\] to \[03:21\]
 
-**Jerod Santo:** So, Explain It Like I'm 5. It's self-explanatory if you're older than five. We take complex technical subjects and we try to break it down, or metaphorize them, or do something to explain it to somebody who's younger than ourselves, maybe around five years old. So today we're gonna tackle three topics of varying degrees of difficulty. I think they're probably all pretty hard to explain. Web Assembly, React hooks, and Bitcoin.
+**Jerod Santo:** So, Explain It Like I'm 5. It's self-explanatory if you're older than five. We take complex technical subjects and we try to break it down, or metaphorize them, or do something to explain it to somebody who's younger than ourselves, maybe around five years old. So today we're gonna tackle three topics of varying degrees of difficulty. I think they're probably all pretty hard to explain. WebAssembly, React hooks, and Bitcoin.
 
-So we randomly selected people to explain these -- no, we decided who is gonna explain these before the show, and it turns out Kball is going to Web Assembly for us. Kball, can you explain Web Assembly like we're five?
+So we randomly selected people to explain these -- no, we decided who is gonna explain these before the show, and it turns out Kball is going to WebAssembly for us. Kball, can you explain WebAssembly like we're five?
 
-**Kevin Ball:** \[04:03\] Explain Web Assembly like we're five... Alright. So I was trying to think about different ways we could explain this, and I'm gonna try LEGOs. When you get a LEGO set, you've got these super-small, basic pieces, and then you have these instructions that kind of build up those basic pieces into larger chunks, and then you put the chunks together and you get a full, awesome Hogwarts castle, which was the biggest LEGO set we did recently.
+**Kevin Ball:** \[04:03\] Explain WebAssembly like we're five... Alright. So I was trying to think about different ways we could explain this, and I'm gonna try LEGOs. When you get a LEGO set, you've got these super-small, basic pieces, and then you have these instructions that kind of build up those basic pieces into larger chunks, and then you put the chunks together and you get a full, awesome Hogwarts castle, which was the biggest LEGO set we did recently.
 
 So if you think about that the other way, if you start from the vision of what you wanna do, that's the most descriptive.
 
@@ -22,7 +22,7 @@ I wanna build a Hogwarts castle. We can think about that as a very descriptive p
 
 So that's one set of concepts, is we have these multiple layers of increasing complexity; we might call those layers of abstraction, but five-year-olds probably don't understand that... But we can call it LEGO blocks, chunks of LEGOs at the scale of a room, or like the whole set... And in order to get something to run, we need to map things down from those high-level concepts into the LEGO blocks and understand what they need to do.
 
-Traditionally, on the web, the only way we've been able to do that is we get it down to the level of the intermediate blocks, JavaScript, and the browser does the translation into smaller LEGO blocks. And what Web Assembly is doing is saying "Okay, let's actually create a way to control things at the level of those smallest LEGO blocks. And what that lets us do is use other types of languages, other than JavaScript, to program for the web." So instead of just always having to build to JavaScript and trust that the browser is gonna translate that to LEGO blocks in a good way, we could build in another programming language. We could build in Rust, we could build in C++, we could build in something else, and use the compiler designed for this purpose to translate that down to these lowest-level LEGO blocks that are called Web Assembly. Does that feel like a five-year-old explanation?
+Traditionally, on the web, the only way we've been able to do that is we get it down to the level of the intermediate blocks, JavaScript, and the browser does the translation into smaller LEGO blocks. And what WebAssembly is doing is saying "Okay, let's actually create a way to control things at the level of those smallest LEGO blocks. And what that lets us do is use other types of languages, other than JavaScript, to program for the web." So instead of just always having to build to JavaScript and trust that the browser is gonna translate that to LEGO blocks in a good way, we could build in another programming language. We could build in Rust, we could build in C++, we could build in something else, and use the compiler designed for this purpose to translate that down to these lowest-level LEGO blocks that are called WebAssembly. Does that feel like a five-year-old explanation?
 
 **Jerod Santo:** \[laughs\] Maybe like you came up with it when you were five -- no. Nick, what do you think? Pretty good?
 
@@ -30,17 +30,17 @@ Traditionally, on the web, the only way we've been able to do that is we get it 
 
 **Jerod Santo:** \[laughs\]
 
-**Kevin Ball:** Well, and you can. You can write raw Web Assembly. That's okay. Most people won't be doing that. So that's actually a really important thing to think about; if you're thinking "I'm gonna learn Web Assembly", you can do that and you can learn how to manipulate Assembly, but just like very few people who are coding for non-web environments are actually directly coding in Assembly, very few people who are coding for Web Assembly are going to be directly writing in Web Assembly. Most folks will be writing in some sort of higher-level language, and using a compiler to translate it down into Web Assembly.
+**Kevin Ball:** Well, and you can. You can write raw WebAssembly. That's okay. Most people won't be doing that. So that's actually a really important thing to think about; if you're thinking "I'm gonna learn WebAssembly", you can do that and you can learn how to manipulate Assembly, but just like very few people who are coding for non-web environments are actually directly coding in Assembly, very few people who are coding for WebAssembly are going to be directly writing in WebAssembly. Most folks will be writing in some sort of higher-level language, and using a compiler to translate it down into WebAssembly.
 
-**Jerod Santo:** So in this LEGO blocks metaphor, where does these other languages... Like, there's Rust bindings -- not bindings, but cross-compiled to Web Assembly, Go can compile to Web Assembly, I believe... Are these like LEGO instructions that are written in other people's languages, or...?
+**Jerod Santo:** So in this LEGO blocks metaphor, where does these other languages... Like, there's Rust bindings -- not bindings, but cross-compiled to WebAssembly, Go can compile to WebAssembly, I believe... Are these like LEGO instructions that are written in other people's languages, or...?
 
 **Kevin Ball:** \[08:01\] Sure. Yeah, I think that's reasonable.
 
 **Jerod Santo:** Dang it, I shouldn't have given you an out like that. That was such a good out.
 
-**Kevin Ball:** Yeah, I think that's a good way to think about it. One interesting thing is probably the simplest to translate into Web Assembly and the languages that first created Web Assembly approaches are those without a runtime. So I don't know if we wanna get deep into runtimes or lack of runtimes or things like that, but JavaScript has a runtime, which means there's a set of libraries and function calls you can call... Web Assembly essentially has access to that same runtime, and it doesn't have extensively other pieces, like another language runtime, like you might have for example in Golang.
+**Kevin Ball:** Yeah, I think that's a good way to think about it. One interesting thing is probably the simplest to translate into WebAssembly and the languages that first created WebAssembly approaches are those without a runtime. So I don't know if we wanna get deep into runtimes or lack of runtimes or things like that, but JavaScript has a runtime, which means there's a set of libraries and function calls you can call... WebAssembly essentially has access to that same runtime, and it doesn't have extensively other pieces, like another language runtime, like you might have for example in Golang.
 
-So if you're going to ship a Go program as Web Assembly, you need to not only ship the program, but you have to ship the whole runtime as Web Assembly, so that you can run it there. Whereas runtimeless environments like Rust or C++ - those were the first languages to be shippable to Web Assembly, because you could just compile them down. And I see Mat is commenting in the chat, so he might be telling me where I'm wrong about Go.
+So if you're going to ship a Go program as WebAssembly, you need to not only ship the program, but you have to ship the whole runtime as WebAssembly, so that you can run it there. Whereas runtimeless environments like Rust or C++ - those were the first languages to be shippable to WebAssembly, because you could just compile them down. And I see Mat is commenting in the chat, so he might be telling me where I'm wrong about Go.
 
 **Jerod Santo:** Ah... Pay no attention to him.
 
@@ -56,13 +56,13 @@ So if you're going to ship a Go program as Web Assembly, you need to not only sh
 
 **Kevin Ball:** Tell me what a LEGO MindStorm is.
 
-**Jerod Santo:** \[laughs\] I'm just trying to make it harder on you... Alright. Well played, well played. Now, sometimes the problem with LEGOs is they can be expensive. Is Web Assembly expensive?
+**Jerod Santo:** \[laughs\] I'm just trying to make it harder on you... Alright. Well played, well played. Now, sometimes the problem with LEGOs is they can be expensive. Is WebAssembly expensive?
 
-**Kevin Ball:** No, Web Assembly ships for free with your browser today.
+**Kevin Ball:** No, WebAssembly ships for free with your browser today.
 
 **Jerod Santo:** Alright...
 
-**Kevin Ball:** You can do it. And all of the toolchain for pretty much every language that I'm aware of that compiles to Web Assembly is free. The first versions were built entirely open source, and I don't know if there are proprietary compiler tools that also compile to Web Assembly at this point, but you should be able to get started for free.
+**Kevin Ball:** You can do it. And all of the toolchain for pretty much every language that I'm aware of that compiles to WebAssembly is free. The first versions were built entirely open source, and I don't know if there are proprietary compiler tools that also compile to WebAssembly at this point, but you should be able to get started for free.
 
 **Jerod Santo:** Awesome. Thanks, dad. Alright... Nick, you're a dad.
 

@@ -46,15 +46,15 @@ First of all, Eric, thanks for joining us.
 
 **Eric Simons:** Yeah, it's essentially running a direct API parity version of Node in your browser. It's actually \[unintelligible 00:03:56.18\] toolchain that will take Node.js, the source code itself, built from source, and actually pull it out, and -- I guess, let me take a step back. When you look at Node.js, if you've kind of dug into how Node.js works, when you require the fs module, the first thing that it does - you're actually touching JavaScript code. Node's built-in packages are just JavaScript code. But they inevitably have to pass over into native code on your local machine. It's like with C++ and that sort of thing.
 
-\[04:29\] So essentially what we've done at a very high level is the JavaScript stuff will just work -- you know, browsers can run JavaScript, but how do you run C++ in the browser? Well, you convert it to Web Assembly.
+\[04:29\] So essentially what we've done at a very high level is the JavaScript stuff will just work -- you know, browsers can run JavaScript, but how do you run C++ in the browser? Well, you convert it to WebAssembly.
 
-So at a very high level what we've done here is the parts of Node.js that punch into your native operating system for \[unintelligible 00:04:44.22\] file system networking etc. we've written a Web Assembly operating system layer that actually provides those services. But actually if you go and inspect source on it and compare the Node.js runtime code against -- I think right now we support Node 14.6,or something like that... Compare that against raw source, it's one to one. So it's actually Node.js itself.
+So at a very high level what we've done here is the parts of Node.js that punch into your native operating system for \[unintelligible 00:04:44.22\] file system networking etc. we've written a WebAssembly operating system layer that actually provides those services. But actually if you go and inspect source on it and compare the Node.js runtime code against -- I think right now we support Node 14.6,or something like that... Compare that against raw source, it's one to one. So it's actually Node.js itself.
 
 **Kevin Ball:** So when you're doing that, when you're running JavaScript -- like, Node packages up an implementation of V8 that it compiles.
 
 **Eric Simons:** Yup.
 
-**Kevin Ball:** Are you running using that packaged V8 code running as Web Assembly, or are you cutting straight through to the browser's version of the JavaScript interpreter?
+**Kevin Ball:** Are you running using that packaged V8 code running as WebAssembly, or are you cutting straight through to the browser's version of the JavaScript interpreter?
 
 **Eric Simons:** Yeah, a really good question. So this comes down to "How is it so fast?" If you rewind back to the origin of Node.js itself... You know, the web is awesome; JavaScript is awesome. We wanted to use it to build stuff not just on the web, we wanted to use it to build local applications. And browsers though have to be really secure, they have to be really fast. So to add APIs that expand capabilities takes time to do right, because the blast radius is really large. Anytime you open a browser tab, you're downloading and executing code.
 
@@ -70,15 +70,15 @@ So at a technical level, that's the long answer to "Yeah, absolutely." So this i
 
 **Eric Simons:** Correct.
 
-**Kevin Ball:** ...and you're then essentially providing any of Node's library functions that happen to be implemented in C++ as available in Web Assembly?
+**Kevin Ball:** ...and you're then essentially providing any of Node's library functions that happen to be implemented in C++ as available in WebAssembly?
 
 **Eric Simons:** Yeah, more or less. I think there's parts of what V8 does, there's certain things that we have to port that -- we don't have access to the V8 API in the browser, for security reasons. But there are things that we can actually pull out and make run independently in a browser to provide that same sort of functionality.
 
-\[07:58\] Essentially, you lean on the existing V8 APIs available in a browser, or any browser engine, for that matter, or for things that you can't do, that are a bit more lower-level, you port them over in Web Assembly and actually use that as the target runtime there.
+\[07:58\] Essentially, you lean on the existing V8 APIs available in a browser, or any browser engine, for that matter, or for things that you can't do, that are a bit more lower-level, you port them over in WebAssembly and actually use that as the target runtime there.
 
-**Christopher Hiller:** So there's a ton of C++ code in Node.js that talks directly to V8 then... And if you're running this in Web Assembly, you don't have access to those APIs. Is that what you're saying?
+**Christopher Hiller:** So there's a ton of C++ code in Node.js that talks directly to V8 then... And if you're running this in WebAssembly, you don't have access to those APIs. Is that what you're saying?
 
-**Eric Simons:** Out of the box, yeah. And this is what took a long time for us to get right, is creating operating system interfaces where we could compile out the parts where Node.js does touch native into something that could run in Web Assembly, on top of a Web Assembly operating system... If that makes sense.
+**Eric Simons:** Out of the box, yeah. And this is what took a long time for us to get right, is creating operating system interfaces where we could compile out the parts where Node.js does touch native into something that could run in WebAssembly, on top of a WebAssembly operating system... If that makes sense.
 
 **Jerod Santo:** Do you follow that, Chris? You look confused.
 
@@ -94,7 +94,7 @@ So at a technical level, that's the long answer to "Yeah, absolutely." So this i
 
 **Eric Simons:** Yeah, totally. It's a bit of both... And there's still a lot of things that we're doing in R&D on this front. But the short of it... In certain places it doesn't make sense for those to call out to V8, because if you're trying to create a new date object - this is an absolutely arbitrary example - your browser can do that pretty well. In those cases we'll just short-circuit it and actually just leverage the existing stuff that the browser comes with. And there's a lot of things that you can do that with, right? There are more lower-level things though, like file system calls and things like that... People have tried to do this before, where they take polyfills and are like "We're gonna polyfill the surfaces." And the problem is that the runtime of Node is pretty specific in ways that aren't even -- like, they're incidental. It's not standardized, it's incidental, and people have built on top of that now. So it's not just a matter of having all the APIs, you kind of need the real thing to run. Or at least in the exact same way it went on local.
 
-You hit the nail on the head, this is exactly the big challenge in doing something like this, "Where do you draw the line? Do we port this to go into Web Assembly, or do we swap it out for something that's gonna leverage the browser's native capabilities?"
+You hit the nail on the head, this is exactly the big challenge in doing something like this, "Where do you draw the line? Do we port this to go into WebAssembly, or do we swap it out for something that's gonna leverage the browser's native capabilities?"
 
 **Christopher Hiller:** Sure, right. So those V8 calls - yeah, maybe Node is creating a JavaScript object, but it's doing it in C++, and that's what it needs a V8 for, right? So you can rip that out and you can actually just have JavaScript do it, right? Because there you go; we already have a V8 running in the browser. What we can't just fake or rip out is stuff like filesystem APIs, things like -- I'm curious, what about libuv, what about the dependencies of Node? What about OpenSSL, what about things like that? Is that part of what you had to compile down to WebAssembly as well?
 
@@ -104,7 +104,7 @@ So being able to leverage the existing event loops that your browsers have - tha
 
 So for things like that, that's more on the operating system side - how do we actually create a virtualized TCP networking stack that maps to the service worker API? For those, we're kind of tied to core Node internals there to, again, operating system interfaces that you would get on a POSIX sort of system.
 
-**Christopher Hiller:** \[12:12\] Right. Libuv provides Node's event loop, but it also provides system calls. So you could leverage the browser's event loop... But what about the system calls then? I assume this is where this Web Assembly operating system comes in.
+**Christopher Hiller:** \[12:12\] Right. Libuv provides Node's event loop, but it also provides system calls. So you could leverage the browser's event loop... But what about the system calls then? I assume this is where this WebAssembly operating system comes in.
 
 **Eric Simons:** Yeah.
 
@@ -112,7 +112,7 @@ So for things like that, that's more on the operating system side - how do we ac
 
 **Eric Simons:** Yeah, so there's been a lot of -- you know, getting an OS to run in a browser is not necessarily a new thing. This was one of the main demos -- you know, asm.js back in the day, they got Linux running as a JavaScript file, or whatever... So the problem with cross-compiling an actual Linux OS is that these things are just dog slow when you put them in the browser. And for \[unintelligible 00:13:01.14\] the key guiding principle for our product experience is that it's gotta be fast. Our goal always is it has to be faster than local. We're telling developers "Hey, you should do development in the browser. It's gotta be a better environment, and that means faster."
 
-So this was a really key part of the challenge that we had to figure out. We took a couple of different stabs at this, but we ultimately sat down and we were like "We've gotta bite the bullet. If we want the speed that we're looking for, the very light payload sizes clocks in at like under a megabyte, we're gonna have to do this from scratch, and write this thing using Rust, so it compiles out to be pretty optimal size for a Web Assembly module... And we're gonna have to identify the things that developer environments rely on, and really do a first-principles ground-up approach here." It took literally years... \[laughs\]
+So this was a really key part of the challenge that we had to figure out. We took a couple of different stabs at this, but we ultimately sat down and we were like "We've gotta bite the bullet. If we want the speed that we're looking for, the very light payload sizes clocks in at like under a megabyte, we're gonna have to do this from scratch, and write this thing using Rust, so it compiles out to be pretty optimal size for a WebAssembly module... And we're gonna have to identify the things that developer environments rely on, and really do a first-principles ground-up approach here." It took literally years... \[laughs\]
 
 But that's the short of it. But it's a thousand iterations that it took to figure out what are all the POSIX interfaces that Node.js requires... Not even that - when you look at developer repos, what are they relying on? What are the third-party packages doing? Part of it is just Node.js itself, and then the ecosystem does a whole bunch of crazy stuff. So testing across all of that has just been two years of trial and error, essentially.
 
@@ -172,11 +172,11 @@ So I'm trying to wrap my head around this, because I'm thinking about -- like, t
 
 **Jerod Santo:** That solves that problem. \[laughter\]
 
-**Eric Simons:** It runs today in Firefox. There's a couple small bugs. We don't have it available publicly just because there's bugs that we've gotta work through on the thing... But we built this on web standard API. In Safari, doing their best to ship Web Assembly --
+**Eric Simons:** It runs today in Firefox. There's a couple small bugs. We don't have it available publicly just because there's bugs that we've gotta work through on the thing... But we built this on web standard API. In Safari, doing their best to ship WebAssembly --
 
 **Jerod Santo:** One of these years...
 
-**Eric Simons:** Yeah, yeah... So, I mean, enough said, I guess, on that... But this stuff is standardized; it looks like they might ship it in the next six months maybe, like Web Assembly threads and that sort of thing.
+**Eric Simons:** Yeah, yeah... So, I mean, enough said, I guess, on that... But this stuff is standardized; it looks like they might ship it in the next six months maybe, like WebAssembly threads and that sort of thing.
 
 But the point stands of like, you can take -- it's like, StackBlitz is a business, and the way we make money is we actually sell an enterprise version of StackBlitz. You can run it behind a firewall, which - when you talk to Fortune 100 companies that are doing literally trillions of dollars in transaction volume, they will not use AWS. They can't afford to. They have to have their own data centers where they're running this stuff.
 
@@ -184,15 +184,15 @@ And the benefit that they see from this approach - it's a double-edged sword. Ye
 
 You can create a container that's gonna work the same everywhere, but if part of that container is code, it can be infected and you're opening your company up to supply chain attacks... That are on the rise. And so that's the double-edged sword here - do we wanna live in a world... And it's an individual basis, right? For Fortune 100 companies, the answer -- they'll take security every day of the week.
 
-**Kevin Ball:** \[27:52\] Yeah, virtualization with Web Assembly gives you some very clear security wins. I do wonder about -- like, you could potentially get that by shipping a Web Assembly runtime that is not running in the browser and doesn't have these same sort of mismatch version issues... You just lock it down, ship Node, some version of Web Assembly runtime.
+**Kevin Ball:** \[27:52\] Yeah, virtualization with WebAssembly gives you some very clear security wins. I do wonder about -- like, you could potentially get that by shipping a WebAssembly runtime that is not running in the browser and doesn't have these same sort of mismatch version issues... You just lock it down, ship Node, some version of WebAssembly runtime.
 
-**Eric Simons:** Well, you're relying on the implementer. You're relying on whatever is bridging out to your local machine for that Web Assembly interface. You're relying on that implementer to not have any vulnerabilities in their codebase.
+**Eric Simons:** Well, you're relying on the implementer. You're relying on whatever is bridging out to your local machine for that WebAssembly interface. You're relying on that implementer to not have any vulnerabilities in their codebase.
 
 **Kevin Ball:** Same as the browser, right? We're relying on the browser.
 
-**Eric Simons:** Bingo. But Fortune 100 companies - everyone has approved Google Chrome as a browser. These Fortune 100 companies - they have allowed a runtime explicitly for everyone at the company to use that they trust security-wise... For good reason. Google's got 15,000 cores, right now, while we're sitting, fuzzing that codebase, 24 hours a day, seven days a week... And they've got \[unintelligible 00:28:40.04\] This company is leading the web security industry. They take this stuff seriously. So if you're gonna say "Hey, we're gonna introduce a Web Assembly runtime that's more local-based...", which I have no doubt one will pop up... But if I were to bet money, I think it's gonna probably be based on all of the work that Google does from a security standpoint, for the exact reason that Cloudflare uses V8 for Cloudflare workers.
+**Eric Simons:** Bingo. But Fortune 100 companies - everyone has approved Google Chrome as a browser. These Fortune 100 companies - they have allowed a runtime explicitly for everyone at the company to use that they trust security-wise... For good reason. Google's got 15,000 cores, right now, while we're sitting, fuzzing that codebase, 24 hours a day, seven days a week... And they've got \[unintelligible 00:28:40.04\] This company is leading the web security industry. They take this stuff seriously. So if you're gonna say "Hey, we're gonna introduce a WebAssembly runtime that's more local-based...", which I have no doubt one will pop up... But if I were to bet money, I think it's gonna probably be based on all of the work that Google does from a security standpoint, for the exact reason that Cloudflare uses V8 for Cloudflare workers.
 
-**Kevin Ball:** Yeah. I mean, I might actually see us pulling out the Web Assembly runtime from Chrome.
+**Kevin Ball:** Yeah. I mean, I might actually see us pulling out the WebAssembly runtime from Chrome.
 
 **Eric Simons:** Yeah, totally.
 
@@ -250,9 +250,9 @@ Then that gets published, other people download from this open source author's p
 
 And again, when you talk about Fortune 100 companies, what happened with Solar Winds? What is going on with this stuff? Developers are the weakest link in security now, because we're running an npm-install and there's thousands of things we're installing that we're not even necessarily aware of. These people have security teams, but these things can slip in. So by removing post-install as a default thing that happens, it eliminated this attack surface. And you can introduce ways where you say "Hey, run this specific command" where the user has to take intent to do an action.
 
-\[40:18\] A lot of times too these post-install scripts are downloading, compiling and running binaries, which is not great from a security perspective necessarily... But with the transition that we're seeing, there's a lot of things that should be Web Assembly models. If you look at what Next.js is doing, they swapped their sharp image optimization to a Web Assembly variant, because it's faster, it's more secure.
+\[40:18\] A lot of times too these post-install scripts are downloading, compiling and running binaries, which is not great from a security perspective necessarily... But with the transition that we're seeing, there's a lot of things that should be WebAssembly models. If you look at what Next.js is doing, they swapped their sharp image optimization to a WebAssembly variant, because it's faster, it's more secure.
 
-There's a lot of binaries that shouldn't be binaries; they should be Web Assembly binaries, because they run everywhere, they require no post-install script, they're directly inspectable... I think 5-10 years ago when the npm ecosystem came up - sure, yeah. Web Assembly didn't exist. Different world today... And lots of attacks happening. So a different world, and a world that actually needs a more secure binary runtime format like Web Assembly. Anyways, off my soapbox, but... \[laughs\]
+There's a lot of binaries that shouldn't be binaries; they should be WebAssembly binaries, because they run everywhere, they require no post-install script, they're directly inspectable... I think 5-10 years ago when the npm ecosystem came up - sure, yeah. WebAssembly didn't exist. Different world today... And lots of attacks happening. So a different world, and a world that actually needs a more secure binary runtime format like WebAssembly. Anyways, off my soapbox, but... \[laughs\]
 
 **Kevin Ball:** I'm not gonna argue whether or not they are an anti-pattern, but my understanding is they are still supported by npm, so how does that work in a StackBlitz world?
 
@@ -260,19 +260,19 @@ There's a lot of binaries that shouldn't be binaries; they should be Web Assembl
 
 **Christopher Hiller:** And regarding the worms, since it's been brought up a couple times... npm didn't introduce two-factor authentication, which as you're describing it, would be exceedingly difficult for a worm to propagate if it had to put in the one-time password to publish something... But it seems fair to me if the companies and the intended audience for this tool prioritizes security to essentially disallow scripts on install. If they don't want them to happen, then great.
 
-And yeah, I agree, a lot of things should be Web Assembly modules. But say that you do wanna use something that (I don't know) needs to grab a binary, God forbid it needs to compile something - what happens? Can your OS compile things? What can it do in terms of -- is Bash running? How does that work?
+And yeah, I agree, a lot of things should be WebAssembly modules. But say that you do wanna use something that (I don't know) needs to grab a binary, God forbid it needs to compile something - what happens? Can your OS compile things? What can it do in terms of -- is Bash running? How does that work?
 
 **Eric Simons:** Yeah, we've got a slimmed-down shell. I think pretty soon you'll be able to actually execute Bash scripts in the thing... But I think there's some stuff going on where you could actually compile toolchains and binaries in the browser itself, for sure. I think the work that the WASI folks are doing is paving the way for this future to happen.
 
-We're kind of betting on a larger trend, which is the world is gonna move their software more towards web-based computing, like Web Assembly. And if that's the case, then yes, you're gonna end up with Web Assembly modules that compile Python to other Web Assembly modules, or whatever. And this is already starting to happen. That strikes us as the wright way to do this, using a secure by default runtime to produce more secure by default binaries for runtimes, or whatever.
+We're kind of betting on a larger trend, which is the world is gonna move their software more towards web-based computing, like WebAssembly. And if that's the case, then yes, you're gonna end up with WebAssembly modules that compile Python to other WebAssembly modules, or whatever. And this is already starting to happen. That strikes us as the wright way to do this, using a secure by default runtime to produce more secure by default binaries for runtimes, or whatever.
 
-\[44:07\] And to answer the direct question, like what happens if you need to compile a JVM or something \[unintelligible 00:44:11.22\] it's not gonna work, unless it's using a Web Assembly module to do the actual compilation work, of course. But yeah, it's a feature that it can't, in a sense.
+\[44:07\] And to answer the direct question, like what happens if you need to compile a JVM or something \[unintelligible 00:44:11.22\] it's not gonna work, unless it's using a WebAssembly module to do the actual compilation work, of course. But yeah, it's a feature that it can't, in a sense.
 
 **Jerod Santo:** So let's tease apart -- we're running a little bit low on time here, but before we go, I definitely wanna tease apart web containers versus StackBlitz. The announcement, the new tech is web containers; there's a GitHub repository, there's a working group... There's things that look very open and collaborative. StackBlitz - like you said, you're a business; you can run Node.js in your browser on StackBlitz.com, but can you run it in your browser in other places? So what's the collaboration and the open story here? Is there one, and how do we differentiate between what's StackBlitz proprietary tech and what's out there to be used by everybody kind of stuff?
 
 **Eric Simons:** Yeah, totally. I think right now -- this stuff is very new, and we're still figuring out a lot of it ourselves, so that's why we're in an open beta for people to try it out and kind of push the limits of it... Because there's still a bit more that we need to learn about how to make something like this very runtime-compatible and cross-platform compatible etc.
 
-At the same time, leading from what we were just talking about, we also need to get developers to think about how they're running their toolchains a little bit differently. And again, our pitch is it is faster and more secure to do it using Web Assembly-based toolchains, or leveraging the billions of dollars getting poured into browser innovation. But in order to do that, we need to make sure that it's seamless, because it's a key design goal; if you go to our web container working group repo, one of our key design goals is that this should not be something that requires you to change how your codebase is set up to work. It should "just work". So that means there's certain packages that are not available as Web Assembly modules, so we've gotta flip those over as a community. Kind of a host of other things.
+At the same time, leading from what we were just talking about, we also need to get developers to think about how they're running their toolchains a little bit differently. And again, our pitch is it is faster and more secure to do it using WebAssembly-based toolchains, or leveraging the billions of dollars getting poured into browser innovation. But in order to do that, we need to make sure that it's seamless, because it's a key design goal; if you go to our web container working group repo, one of our key design goals is that this should not be something that requires you to change how your codebase is set up to work. It should "just work". So that means there's certain packages that are not available as WebAssembly modules, so we've gotta flip those over as a community. Kind of a host of other things.
 
 But today, where the community is really helping is helping those larger shifts happen. There's just a ton of people who are doing this now, which is so awesome to see... And also giving us feedback on the core runtime and helping us battle-test it... Because what we're tracking towards is a general availability release sometime end of the summer, or fall, or something like that... And we wanna enable developers to use this thing, with a really great API surface, and perhaps introduce standards... Like, actually introduce standards where there are currently gaps in what browser vendors are doing, or WASI, or whatever.
 
@@ -286,13 +286,13 @@ We're still trying to get a little bit of the lay of the land to understand exac
 
 So that's very valuable what we're doing right now, is getting a lot of test data in lightweight environments, because people aren't trying to use this for work that is tied to their actual job or something right now. We wanna make sure that we're pretty confident before we start rolling this out for people to rely on for their jobs, for their livelihood.
 
-**Kevin Ball:** Something you said about getting this available to everyone made me wonder - is there a plan for supporting other backend languages? And I think there's an interesting question there around the performance benefits, because -- what were they called? Instantiations, or whatever it is - that benefit is not gonna be there; you are gonna be virtualizing some sort of runtime or something into Web Assembly... But some of the performance benefits you've talked about could very well generalize. The idea of package installation and utilizing the browser cache, the idea of cutting out the network stack and being able to directly access things.
+**Kevin Ball:** Something you said about getting this available to everyone made me wonder - is there a plan for supporting other backend languages? And I think there's an interesting question there around the performance benefits, because -- what were they called? Instantiations, or whatever it is - that benefit is not gonna be there; you are gonna be virtualizing some sort of runtime or something into WebAssembly... But some of the performance benefits you've talked about could very well generalize. The idea of package installation and utilizing the browser cache, the idea of cutting out the network stack and being able to directly access things.
 
-Does it make sense to have web containers for running Python on Web Assembly, Golang on Web Assembly? I mean, Rust already kind of goes straight to Web Assembly, but does it make sense to expand this beyond Node?
+Does it make sense to have web containers for running Python on WebAssembly, Golang on WebAssembly? I mean, Rust already kind of goes straight to WebAssembly, but does it make sense to expand this beyond Node?
 
 **Eric Simons:** That's our goal, for sure. We think that that's absolutely how it should work. Today, JavaScript is the easiest language, or certainly the most sensible one. If anyone's gonna understand the value of an online IDE, it should be web developers. We should be able to build the web using the web. But if you look beyond that - yeah, the same benefits can absolutely apply to other languages. So I think that's the longer-term view here.
 
-What's gonna be the hardest part, and why we've put together a working group to start thinking about these problems - because you've also got the Web Assembly Standard Interface (the WASI folks) who are trying to help bridge this gap... Because Web Assembly is great, but it does not specify how you access a file system, or TCP networking, or whatever. Really important APIs for most binaries to be converted to a Web Assembly module. And they're doing a phenomenal job on that.
+What's gonna be the hardest part, and why we've put together a working group to start thinking about these problems - because you've also got the WebAssembly Standard Interface (the WASI folks) who are trying to help bridge this gap... Because WebAssembly is great, but it does not specify how you access a file system, or TCP networking, or whatever. Really important APIs for most binaries to be converted to a WebAssembly module. And they're doing a phenomenal job on that.
 
 So StackBlitz is going to have a WASI standardized interface available to developers in the next month or two here. You'll be able to actually run Python etc. And to start, you'll be running the Python repl, or something like that... Because again, as an industry, we're gonna have to make some structural changes to enable the ease of adoption and performance etc. that you'd want in order for this to be a viable switch from your local environment... But we wanna apply momentum in that direction, because that just seems like the future. It seems like a better future, at least.
 

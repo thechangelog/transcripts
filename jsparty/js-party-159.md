@@ -278,7 +278,7 @@ So definitely, you need to know about this, but once you're hired, you can defin
 
 **Jerod Santo:** Was there anything that you learned, Kamran, where you learned it thinking "This is gonna get me hired. This is really gonna help me get hired", and it ended up being completely not usable until later? Or it was like "Why did I even learn that? Because they never asked me about it" or "I have never used it." Do you have any of those skills that you've just kind of wasted your time on when it came to getting hired?
 
-**Kamran Ahmed:** Definitely. I have a lot of stuff in the roadmap that I know about, but I have never used them. For example Electron - I have used it in a couple of my own projects, but I've never used it...Web Assembly - I learned it, but I did not use it at all, anywhere. There's definitely a lot of stuff.
+**Kamran Ahmed:** Definitely. I have a lot of stuff in the roadmap that I know about, but I have never used them. For example Electron - I have used it in a couple of my own projects, but I've never used it...WebAssembly - I learned it, but I did not use it at all, anywhere. There's definitely a lot of stuff.
 
 I have a framework of my own that I use to pick up stuff, but you definitely need to know what this thing is, and when should you use it. You don't need to learn and go deep down into the stuff, but you should know what the different items on the list are. For example, I'm working as an engineering manager, and whenever some project comes, I need to have an idea about something.
 
@@ -334,7 +334,7 @@ But I think maybe simplifying this and moving those down to where those could be
 
 **Kamran Ahmed:** Yeah.
 
-**Jerod Santo:** Well said. This goes into a DevOps thing eventually. But then we get down to what's really interesting. Of course, you're on JS Party, so we've already made our decision - the backend is JavaScript... No. Learn a language, right? So unlike in the browser -and maybe Web Assembly will change this - you're basically writing JavaScript in the browser. Maybe you're writing TypeScript, maybe you're writing something that compiles to JavaScript... But we're executing JavaScript in the browser, at least for now, until a lot of the WASM stuff really takes over and we can write whatever language we want and run it in the browser.
+**Jerod Santo:** Well said. This goes into a DevOps thing eventually. But then we get down to what's really interesting. Of course, you're on JS Party, so we've already made our decision - the backend is JavaScript... No. Learn a language, right? So unlike in the browser -and maybe WebAssembly will change this - you're basically writing JavaScript in the browser. Maybe you're writing TypeScript, maybe you're writing something that compiles to JavaScript... But we're executing JavaScript in the browser, at least for now, until a lot of the WASM stuff really takes over and we can write whatever language we want and run it in the browser.
 
 But on the backend - choice now. Massive amounts of choice. You do not need to run JavaScript on your backend, and so now it's time to learn and pick a language.
 
