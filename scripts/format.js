@@ -25,7 +25,8 @@ const REPLACES = [
     [/\sn\b/gi, ' N'], // when "n" is used as a placeholder, make it capital
     [/\bstandard in\b/gi, 'STDIN'],
     [/\bstandard out\b/gi, 'STDOUT'],
-    [/\bstandard error\b/gi, 'STDERR']
+    [/\bstandard error\b/gi, 'STDERR'],
+    [/\bWeb Assembly\b/gi, 'WebAssembly']
 ]
 
 // Perform multiple rounds of replaces on a string

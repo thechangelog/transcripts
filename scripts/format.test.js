@@ -82,6 +82,10 @@ test("'standard out' and 'standard error'", () => {
     expect(applyReplaces("Pipe it to Standard Error.")).toBe("Pipe it to STDERR.")
 })
 
+test("WebAssembly is a single word proper noun", () => {
+    expect(applyReplaces("I dig web assembly!")).toBe("I dig WebAssembly!")
+})
+
 test('getTranscripts works as expected', async () => {
     const transcripts = await getTranscripts()
     // TODO: What are good ways to test this function?
