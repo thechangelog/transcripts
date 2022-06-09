@@ -76,10 +76,11 @@ test("Whenever an 'n' is by itself or like 'n+1', make it capital", () => {
     expect(applyReplaces("p-r-e-s-e-n-c-e")).toBe("p-r-e-s-e-n-c-e")
 })
 
-test("'standard out' and 'standard error'", () => {
+test("'standard out', 'standard in', 'standard error'", () => {
     expect(applyReplaces("It goes to standard output.")).toBe("It goes to standard output.")
     expect(applyReplaces("It goes to standard out.")).toBe("It goes to STDOUT.")
     expect(applyReplaces("Pipe it to Standard Error.")).toBe("Pipe it to STDERR.")
+    expect(applyReplaces("There's stdout, stdin, and stderr.")).toBe("There's STDOUT, STDIN, and STDERR.")
 })
 
 test("WebAssembly is a single word proper noun", () => {

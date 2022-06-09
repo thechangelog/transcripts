@@ -24,8 +24,11 @@ const REPLACES = [
     [/\bgitlab(\.\w)/gi,'gitlab$1'], // stylise GitLab.com to gitlab.com
     [/\sn\b/gi, ' N'], // when "n" is used as a placeholder, make it capital
     [/\bstandard in\b/gi, 'STDIN'],
+    [/\bstdin\b/gi, 'STDIN'],
     [/\bstandard out\b/gi, 'STDOUT'],
+    [/\bstdout\b/gi, 'STDOUT'],
     [/\bstandard error\b/gi, 'STDERR'],
+    [/\bstderr\b/gi, 'STDERR'],
     [/\bWeb Assembly\b/gi, 'WebAssembly']
 ]
 
