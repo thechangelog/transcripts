@@ -748,7 +748,7 @@ So maybe you'll throw away the output and just output a lot of data from the tra
 
 **Daniel Stenberg:** Right. And when I created Curl, I actually wanted it to be more like the cat command in Curl; you cat a file and it outputs it to determine -- I wanted Curl to be that, but for a URL instead, so you would \[unintelligible 01:04:40.29\] I felt that was the UNIX philosophy, to just do that, so that's why.
 
-**Jerod Santo:** It totally is. Print to stdout and it integrates so much better with all the other command line tools when you do that.
+**Jerod Santo:** It totally is. Print to STDOUT and it integrates so much better with all the other command line tools when you do that.
 
 **Daniel Stenberg:** But then you need an optional one to save it as a file.
 

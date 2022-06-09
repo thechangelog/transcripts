@@ -442,11 +442,11 @@ But yeah, I've got drafts - it's like a custom alias I created that helps me cre
 
 **Adam Stacoviak:** Okay, that's making more sense now.
 
-**Jerod Santo:** So cat, for the uninitiated, is short for concatenate, and it just prints file to stdout, and it'll also concatenate multiple files, which - one of the cool things that I have done, that you may not know, is it can actually concatenate multiple mp3 files into a longer mp3 file.
+**Jerod Santo:** So cat, for the uninitiated, is short for concatenate, and it just prints file to STDOUT, and it'll also concatenate multiple files, which - one of the cool things that I have done, that you may not know, is it can actually concatenate multiple mp3 files into a longer mp3 file.
 
 So let's imagine you have a couple text files and you wanna create a combination of them, one after the other. This is very common for certificates, where you'll take multiple certificates and a private key, whatever, and you'll concatenate them all together into one new file.
 
-So you do cat, file one, file two, and then you do the greater-then (&gt;) to direct that, instead of to stdout, to direct it to this file, which is the next argument to file two, or file three. You can do that with mp3s, and it'll actually concatenate them as if they're text files. So if you wanna just splat a bunch together, you can say "cat 1.mp3, 2.mp3" and direct it to 3.mp3, and it'll work. You just listen to them and it just starts the second one after the first one in the new file, which is pretty cool.
+So you do cat, file one, file two, and then you do the greater-then (&gt;) to direct that, instead of to STDOUT, to direct it to this file, which is the next argument to file two, or file three. You can do that with mp3s, and it'll actually concatenate them as if they're text files. So if you wanna just splat a bunch together, you can say "cat 1.mp3, 2.mp3" and direct it to 3.mp3, and it'll work. You just listen to them and it just starts the second one after the first one in the new file, which is pretty cool.
 
 **Adam Stacoviak:** That's a new way to get your Changelog Master feed.
 
@@ -482,7 +482,7 @@ So you do cat, file one, file two, and then you do the greater-then (&gt;) to di
 
 **Jerod Santo:** It does have a flag to disable. So there's like a --paging=never. You can set that in your -- there's a configuration file. There's also a shorthand, which I don't know what it is. You can also alias cat to bat --paging=never. So you can make it as part of your alias so that it doesn't do that... But then it's also kind of smart insofar as if you're using it to concatenate files versus display them, it will turn it off automatically. It obviously won't got to a pager.
 
-So if you're cat-ing files together the way you're talking about with multiple text files, it'll work just like cat. But when it comes time to print them to stdout is when the pager is in there. So you can turn it off, but I think if it was my choice, I'd probably say "Well, you can turn it on. If you wanna just page, go ahead and turn this on." But the author of bat must have thought that that was a big enough feature for them that it'd be worth breaking that compatibility.
+So if you're cat-ing files together the way you're talking about with multiple text files, it'll work just like cat. But when it comes time to print them to STDOUT is when the pager is in there. So you can turn it off, but I think if it was my choice, I'd probably say "Well, you can turn it on. If you wanna just page, go ahead and turn this on." But the author of bat must have thought that that was a big enough feature for them that it'd be worth breaking that compatibility.
 
 **Adam Stacoviak:** You're just gonna need a batrc file.
 

@@ -178,7 +178,7 @@ So you'll see a key, and then the value might be like "...", and you can click t
 
 **Matt Holt:** Kind of. So that code is -- I don't even know if it's published. I think part of it is, because it's just very specific to Caddy only. The community has contributed helper plugins for editors, just to generate the JSON schema... So there is a Caddy plugin that generates a JSON schema. And that's the thing - we can't just hand you the Caddy JSON schema. I mean, I guess we could, for all known plugins in the world, all registered plugins, but that doesn't matter if your build doesn't have those plugins. So you need to generate a schema for your Caddy build, and that's what this schema generator plugin does. So yeah, you can get that.
 
-**Jon Calhoun:** Yeah, I was kind of wondering, because you'd mentioned that you could build different plugins, which I assume would change the documentation there a little bit as to what options were available... For example, I think with logs there's different options for writing logs, whether you're writing stdout, or somewhere else. And I'd assume if somebody wrote something custom and built it into it, that they might wanna look at those docs or use them in some way.
+**Jon Calhoun:** Yeah, I was kind of wondering, because you'd mentioned that you could build different plugins, which I assume would change the documentation there a little bit as to what options were available... For example, I think with logs there's different options for writing logs, whether you're writing STDOUT, or somewhere else. And I'd assume if somebody wrote something custom and built it into it, that they might wanna look at those docs or use them in some way.
 
 **Matt Holt:** Yeah, you probably wanna see it in your editor.
 

@@ -174,7 +174,7 @@ I feel good about the future of Ember, just because of how things are trending. 
 
 **Kevin Ball:** Didn't the first version of the Angular CLI ship with comments that were still Ember CLI, because they forked it?
 
-**Chad Hietala:** Yeah, at stdout or something like that, to rewrite all locations of Ember into Angular, but words like "remember" were getting remapped into saying like "Angular" somewhere in it...
+**Chad Hietala:** Yeah, at STDOUT or something like that, to rewrite all locations of Ember into Angular, but words like "remember" were getting remapped into saying like "Angular" somewhere in it...
 
 **Kevin Ball:** \[laughs\] That's hilarious.
 

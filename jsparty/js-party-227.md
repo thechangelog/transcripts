@@ -54,7 +54,7 @@ Bret, you also mentioned the command line, outputting logs and so on... Since yo
 
 **Christopher Hiller:** I don't even know the definition, but I do know that it enables you to -- it's kind of like decorating things, and sprinkling decorators around... But the problem, I think, from what I understand, is just that it makes your program really difficult to reason about, because you don't know what code is running.
 
-**Mikola Lysenko:** I think that's a good example of the incidental complexity in logging. And it's one of those things that happens because you do need to set up some kind of logging, and you do typically wanna have some way to kind of control it and turn it off. And while JavaScript does have built-in logging features, they're usually not adequate for a larger program... Because console.log( ), at least as it's interpreted by Node, just writes something to stdout. And while ultimately most loggers just do that - I mean, now sometimes they have network logging and other things - there are still a lot of rules around how you turn things on, and filter them, or namespace different logging, and stuff.
+**Mikola Lysenko:** I think that's a good example of the incidental complexity in logging. And it's one of those things that happens because you do need to set up some kind of logging, and you do typically wanna have some way to kind of control it and turn it off. And while JavaScript does have built-in logging features, they're usually not adequate for a larger program... Because console.log( ), at least as it's interpreted by Node, just writes something to STDOUT. And while ultimately most loggers just do that - I mean, now sometimes they have network logging and other things - there are still a lot of rules around how you turn things on, and filter them, or namespace different logging, and stuff.
 
 The thing that does suck is that it's not really interoperable. You can't just say "I wanna swap out all the logging here with a different thing." You end up kind of stuck with whatever logging your dependencies have chosen as your own logging service. And this actually creates a ton of risk for most of the people downstream, because there's no interoperability in the logging. Once you've committed to that logging system, you can't back out -- you can't swap it to a different thing. There's no general intermediate logging layer, or whatever. Which is why things like Log4j, once they sort of infect themselves into the ecosystem, you can't just rip them out. Everyone's gonna use that thing; even though it's not doing anything that hard, it's standardized on that particular interface now, so you have to keep going with that interface, and you can't easily replace it.
 
@@ -94,25 +94,25 @@ For example, Sentry - there's a function where you can just embed it in the clie
 
 **Christopher Hiller:** Anything that's gonna take some time, you wanna tell the user what's going on.
 
-**Nick Nisi:** Related to that, and specifically for this CLI, this interesting thing that I've been thinking about as I dabble with writing -- mostly I'm writing them in Bash, but they could be in JavaScript, or something else... But when you're writing those out, do you think about whether you're going to send it to stdout or stderr?
+**Nick Nisi:** Related to that, and specifically for this CLI, this interesting thing that I've been thinking about as I dabble with writing -- mostly I'm writing them in Bash, but they could be in JavaScript, or something else... But when you're writing those out, do you think about whether you're going to send it to STDOUT or STDERR?
 
 **Christopher Hiller:** Yes.
 
 **Nick Nisi:** And how do you delineate what you send where?
 
-**Christopher Hiller:** Basically, the output of your program can be machine-readable. So maybe you have like a JSON flag or something that says "Output JSON", like npm does. You could say --json. That should go to stdout. While your progress bars and all that nonsense should probably just go to stderr.
+**Christopher Hiller:** Basically, the output of your program can be machine-readable. So maybe you have like a JSON flag or something that says "Output JSON", like npm does. You could say --json. That should go to STDOUT. While your progress bars and all that nonsense should probably just go to STDERR.
 
 **Nick Nisi:** Yeah.
 
-**Mikola Lysenko:** Do you feel like including just general, like "Working on it..." type log messages should also go to stderr?
+**Mikola Lysenko:** Do you feel like including just general, like "Working on it..." type log messages should also go to STDERR?
 
 **Christopher Hiller:** I would.
 
-**Nick Nisi:** The way that I think about it is if it's something that I might want to pipe in somewhere else, then I want it to go to stdout. But if it's just like random "Oh, I've created a directory" or whatever, that goes to stderr for me.
+**Nick Nisi:** The way that I think about it is if it's something that I might want to pipe in somewhere else, then I want it to go to STDOUT. But if it's just like random "Oh, I've created a directory" or whatever, that goes to STDERR for me.
 
 **Mikola Lysenko:** Dang, I've been doing it wrong the whole time.
 
-**Christopher Hiller:** If the output of your program is a text file - like, I don't know... Prettier does this, right? If you don't use --right, Prettier just dumps the prettified file to stdout. And sure it doesn't have to be like a JSON, or XML, or what have you.
+**Christopher Hiller:** If the output of your program is a text file - like, I don't know... Prettier does this, right? If you don't use --right, Prettier just dumps the prettified file to STDOUT. And sure it doesn't have to be like a JSON, or XML, or what have you.
 
 **Bret Comnes:** Browserify was another tool that did that early on in the Node ecosystem.
 
@@ -126,7 +126,7 @@ For example, Sentry - there's a function where you can just embed it in the clie
 
 **Mikola Lysenko:** Yeah, ESBuild is good, but we know the one we're talking about that's not that. It's very popular, and it starts with a W and ends with -ck, right? \[laughter\]
 
-**Christopher Hiller:** Part of the reason is -- I mean, yes, you can certainly add the feature, but you probably don't wanna actually use it on open source code, because it's not portable. If you're dumping the stdout and then piping the things, that's not gonna work in cmd.exe, right?
+**Christopher Hiller:** Part of the reason is -- I mean, yes, you can certainly add the feature, but you probably don't wanna actually use it on open source code, because it's not portable. If you're dumping the STDOUT and then piping the things, that's not gonna work in cmd.exe, right?
 
 **Mikola Lysenko:** That's fine, I don't care about that. \[laughs\] Why do I care about cmd.exe? Cmd.exe is overrated. No one runs anything in cmd.exe.
 
@@ -150,7 +150,7 @@ For example, Sentry - there's a function where you can just embed it in the clie
 
 **Mikola Lysenko:** Yeah. It's like, do you think of your shell as like a programming language, or as more like an interactive user interface? This is kind of a thing a lot of \[unintelligible 00:22:04.04\] struggle with...
 
-I would characterize the Unix style thing as really just a functional approach, where it's like these commands are actually functions that take data or input and transform it from one state to another, and they're fundamentally immutable. They just observe things and then they write something to stdout, and then where it goes from there, that's up to you.
+I would characterize the Unix style thing as really just a functional approach, where it's like these commands are actually functions that take data or input and transform it from one state to another, and they're fundamentally immutable. They just observe things and then they write something to STDOUT, and then where it goes from there, that's up to you.
 
 The other style is more like an immutable type of interface; it's more like an imperative mode type of operation where you're changing the state of your computer by sending commands to it. So it's sort of like a QBasic type of interface. And Git, even though it is ironically based on immutable data structures, works more like the latter. It is basically a mutable interface for your current Git repository... Which is confusing, because the Git commands are just actually changing state when you're running that, even though the actual Git repo is a functional data structure.
 
@@ -176,7 +176,7 @@ The project I'm working on now, Appium, does both. It has like a CLI tool compon
 
 \[27:11\] You can do stuff like, okay, you just open up multiple shells and then you have to manually start every single one of these processes in each of its little shells, and then you can switch between them. But in a more perfect world, wouldn't it be nice if it could just open multiple shells for you automatically and you could just have multiple output streams that could be redirected in there?
 
-I think there's probably some Unix tool that sort of does that for you, to parallel execute them... But it would be nice if there was something a little more baked into the way shells worked, that allowed you to have more than two default output streams. You only have your stdout and stderr, but why can't you have more? I don't know. Well, you only get two, so deal with it.
+I think there's probably some Unix tool that sort of does that for you, to parallel execute them... But it would be nice if there was something a little more baked into the way shells worked, that allowed you to have more than two default output streams. You only have your STDOUT and STDERR, but why can't you have more? I don't know. Well, you only get two, so deal with it.
 
 **Nick Nisi:** You could script all of that with Tmux, and then just have it open separate splits.
 
@@ -208,7 +208,7 @@ I was gonna ask, does anyone have any experience with more advanced logging? I'm
 
 **Mikola Lysenko:** Keep your logging simple. Simple logging is advanced logging. Complicated logging is just complicated. It's not advanced. It's bad if you have to do it. So don't try to bait people into making it more advanced, please. No more advanced logging. Advanced logging is how we get Log4j. Do we need another Log4j? No! Don't make it more advanced, make it simpler. \[laughs\]
 
-**Bret Comnes:** There's maybe one avenue that maybe would be considered more advanced, which is like structured logging... So rather than just dumping random format strings to whatever stdout, or --
+**Bret Comnes:** There's maybe one avenue that maybe would be considered more advanced, which is like structured logging... So rather than just dumping random format strings to whatever STDOUT, or --
 
 **Nick Nisi:** You console.group( ) them, right?
 
@@ -226,7 +226,7 @@ But again, typically, when you have multiple services in a big org or project, i
 
 **Bret Comnes:** I could talk about a few things that we do. I do think we need a little bit more discipline in this area, but Debug is kind of like the basic tool that we use for if you wanna see what a particular part of the code path is doing specifically in a log format. We'll use that.
 
-Some of the things that the service does is log to stdout, and some of it actually saves things to a database in a transaction. So we kind of have different approaches to it. I think it's something that seems like it's grown organically, and probably at some point in the future we probably need to visit this and be a little more intentional about it. But we're still pretty early on, so...
+Some of the things that the service does is log to STDOUT, and some of it actually saves things to a database in a transaction. So we kind of have different approaches to it. I think it's something that seems like it's grown organically, and probably at some point in the future we probably need to visit this and be a little more intentional about it. But we're still pretty early on, so...
 
 **Mikola Lysenko:** Yeah. So for most development we use Debug for logging, because it's the same thing that Next uses, and all of our other stuff in npm uses. So we're just kind of like stuck with that, unless we wanna create another Debug equivalent... Which we don't, so we use that.
 
@@ -272,7 +272,7 @@ So that kind of touches into error handling... We're gonna take a break and then
 
 **Mikola Lysenko:** Yeah, error is a weird thing in JavaScript. It's a very special object, and it's the only way - that I know of anyway - at runtime that you can actually reflect over the stack of a program.
 
-But basically, exceptions, which are the actual thing that's kind of interesting in JavaScript - they're just the kind of non-local control flow feature. So if you throw an exception, you'll go up your call stack to the point where the exception was ultimately caught in a try-catch block, or it'll just go right to the top of the event loop and then crash and print something to your stdout, or wherever.
+But basically, exceptions, which are the actual thing that's kind of interesting in JavaScript - they're just the kind of non-local control flow feature. So if you throw an exception, you'll go up your call stack to the point where the exception was ultimately caught in a try-catch block, or it'll just go right to the top of the event loop and then crash and print something to your STDOUT, or wherever.
 
 Handling these exceptions is of course something that everyone needs to know about if they're writing code in JavaScript. You also have to think about this when you're dealing with promises, because that makes it a little bit more subtle, where these exceptions ultimately bubble out... And I'm sure everyone's seen this uncaught promise rejection warning, if you've ever done anything async... But yeah, it's just part of the language, you have to know how it works if you wanna write code... And it can be useful in a few places.
 
@@ -502,7 +502,7 @@ If you're throwing stacks and they're there in front of the user, they're not re
 
 **Christopher Hiller:** If an exception is uncaught and unexpected, Node does a thing with that, so there will be a stack trace. So you should know - with throwing exceptions and tools you need to know who your audience is. So if your audience is just somebody using the tool, you probably don't need to do it. But if, say, you have a CLI tool and that CLI tool accepts plugins or something, that plugin author might wanna know. So wherever this exception is gonna get thrown, you need to know who it's for.
 
-**Mikola Lysenko:** I think where these always do something weird is when there's like a -- for regular CLI tools, where they just crash and then print an exception to stderr, I usually find that not too annoying. But if there's some kind of weird curses GUI thing or like some crazy x thing then it's not so good.
+**Mikola Lysenko:** I think where these always do something weird is when there's like a -- for regular CLI tools, where they just crash and then print an exception to STDERR, I usually find that not too annoying. But if there's some kind of weird curses GUI thing or like some crazy x thing then it's not so good.
 
 I think also a lot of libraries are really chatty. If you've noticed Three.js - it loves to announce "Hey, I'm Three.js and I'm running on this web page." It's always gotta get that in there. And a lot of other things do that too, which is kind of like "Hm... Did I sign up for this?"
 

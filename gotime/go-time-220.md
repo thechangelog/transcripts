@@ -252,7 +252,7 @@ I know more times than not you don't have debug logging on. There's some informa
 
 **Mat Ryer:** Yeah.
 
-**Jon Calhoun:** I assume fmt is os, so that's STDOUT... Or sorry, the fmt one. The log.println - I don't know if it's actually differentiated or not. I would assume it's just os.stdout. That would be my guess.
+**Jon Calhoun:** I assume fmt is os, so that's STDOUT... Or sorry, the fmt one. The log.println - I don't know if it's actually differentiated or not. I would assume it's just os.STDOUT. That would be my guess.
 
 **Mat Ryer:** Okay. Let's find out. \[sound effect 00:43:49.18\] That sound effect tells us that - no, Jon, unfortunately you're wrong. Log goes to STDERR by default. So that's interesting...
 
@@ -266,7 +266,7 @@ I know more times than not you don't have debug logging on. There's some informa
 
 **Jon Calhoun:** Unless you're doing something specific, like piping it to an output file, or something.
 
-**Mat Ryer:** \[44:13\] This is the question then - where should the logs go to? Do we want them in stdout? Should we put only the error level logs in stderr, and the other logs in stdout? What do we think?
+**Mat Ryer:** \[44:13\] This is the question then - where should the logs go to? Do we want them in STDOUT? Should we put only the error level logs in STDERR, and the other logs in STDOUT? What do we think?
 
 **Jon Calhoun:** I think people have a lot of weird opinions on logging in general. I swear I've talked to somebody who said "If you're printing out a log statement instead of recording a metric, that it should be an error that some engineer has to go fix."
 
@@ -304,7 +304,7 @@ So the systems (I think) complement each other really well when you set them up.
 
 **Ed Welch:** I don't know, I mean... It happens from time to time. It always feels a little weird when you're validating a log line, I guess. I'm trying to think of an application where I've seen that done. Usually, it's in catching like an error message or something, like a sort of specific error you would catch, which becomes a log line...
 
-**Mat Ryer:** Yeah, I've done it once where it mattered what was printed out from the program; it was very important. And so, this is -- Because I always do this little abstraction where I have a run method, and main only just calls out to a run method, and passes the dependencies in. And I include stdout and stderr if I wanna use them; I include even those as io writers. So in test code then you can use buffers, or whatever else you want, to capture it. And that is a nice way to -- then you can make assertions about what is printed out. I don't know if it was logging out; it mattered what was printed out in that case. But yeah, that was just stdout. So we never did \[unintelligible 00:49:55.25\]
+**Mat Ryer:** Yeah, I've done it once where it mattered what was printed out from the program; it was very important. And so, this is -- Because I always do this little abstraction where I have a run method, and main only just calls out to a run method, and passes the dependencies in. And I include STDOUT and STDERR if I wanna use them; I include even those as io writers. So in test code then you can use buffers, or whatever else you want, to capture it. And that is a nice way to -- then you can make assertions about what is printed out. I don't know if it was logging out; it mattered what was printed out in that case. But yeah, that was just STDOUT. So we never did \[unintelligible 00:49:55.25\]
 
 **Ed Welch:** It could be interesting if you have downstream processing under your log lines. It is interesting, because you build dependencies, and now you're logging - you're talking about it being kind of an API of your application, and... Maybe API is not the right term, but it's an interface that...
 
