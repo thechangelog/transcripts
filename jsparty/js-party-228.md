@@ -2,7 +2,7 @@
 
 **Divya:** Welcome to JS Party! This is a live recording.
 
-**Ali Spittel:** \[unintelligible 00:03:37.10\]
+**Ali Spittel:** And at a real party too, in person.
 
 **Kent C. Dodds:** A legit party.
 
@@ -64,7 +64,7 @@ So eating out in the city - that one I borrowed from React Rally... And we also 
 
 **Divya:** At least I have.
 
-**Ali Spittel:** I was thinking the same. \[unintelligible 00:08:40.23\]
+**Ali Spittel:** I was thinking the same. And plus if you love drawing too, like their profile pictures.
 
 **Kent C. Dodds:** Yeah. So it was super-fun. And after the conference day, now I have a lot of ideas of cool things that we'll do next year.
 
@@ -120,11 +120,11 @@ So really, this is 100% -- like I said, we're not making any money off of this. 
 
 **Henri Helvetica:** Berlin, yeah.
 
-**Ali Spittel:** \[unintelligible 00:12:37.23\]
+**Ali Spittel:** VSource
 
-**Henri Helvetica:** Oh, you are correct. I think it was \[unintelligible 00:12:41.28\] maybe. I thought it was JSConf EU.
+**Henri Helvetica:** Oh, you are correct. I think it was VSource maybe. I thought it was JSConf EU.
 
-**Ali Spittel:** \[unintelligible 00:12:46.18\]
+**Ali Spittel:** Same thing. Same week.
 
 **Henri Helvetica:** Either way. I'm happy to see both of you guys. Ladies. Pardon me. So it's been a hot minute... And actually, when I found out this was happening, I'm like "Oh my god, I totally remember this", because I think I attended one, and I can't remember where it was, but it was a lot of fun then, too.
 
@@ -210,7 +210,7 @@ So I had a great time today, to open the post-keynote talk... Which - again, I d
 
 **Divya:** \[20:25\] Oh, that's cool.
 
-**Henri Helvetica:** ...so my ears were like "Okay..." So I've been following them closely. I think I told this to someone earlier today - Douglas Crockford once said \[unintelligible 00:20:35.22\] Basically, the frontend is like a disaster. That's where your problems will keep coming up, day in and day out. I'm not saying that with all that's happening on the modern development side that we shouldn't keep an eye on that, but just - it's still such a small pie. There's so many bigger problems to take on, and they're more of in a classic frontend/backend split.
+**Henri Helvetica:** ...so my ears were like "Okay..." So I've been following them closely. I think I told this to someone earlier today - Douglas Crockford once said, how's the quote go again? Basically, the frontend is like a disaster. That's where your problems will keep coming up, day in and day out. I'm not saying that with all that's happening on the modern development side that we shouldn't keep an eye on that, but just - it's still such a small pie. There's so many bigger problems to take on, and they're more of in a classic frontend/backend split.
 
 **Divya:** That's fair. What are you most excited about working on at RealWebPageTest now? Is there a new feature that you're working on, or what's new, what's upcoming?
 
@@ -260,7 +260,7 @@ I have to give a shout-out to my team, everyone at WPT, as we call it - Tim, Sco
 
 **Henri Helvetica:** Something a bit more formal... I've been having some backchannel talks, but... We could continue that afterwards.
 
-**Divya:** Yeah, we'll keep talking \[unintelligible 00:23:32.08\]
+**Divya:** Yeah, we'll keep talking
 
 **Henri Helvetica:** I've got some paperwork we could sign...
 
@@ -272,7 +272,7 @@ I have to give a shout-out to my team, everyone at WPT, as we call it - Tim, Sco
 
 **Ali Spittel:** Thanks for talking with us.
 
-**Henri Helvetica:** \[unintelligible 00:23:40.00\] Thank you. Who's up next?
+**Henri Helvetica:** By all means, man. Ladies, thank you. Who's up next?
 
 **Divya:** I think --
 
@@ -358,11 +358,11 @@ I was showing how resilient, fast, very smooth and organized experience you can 
 
 **Ali Spittel:** A literal one.
 
-**Anthony Frehner:** Yeah. So this is -- let's \[unintelligible 00:31:50.10\] Yeah, okay.
+**Anthony Frehner:** Yeah. So this is -- let's speed test. Yeah, okay.
 
 **Divya:** Yeah. So if you want to -- I don't wanna say, the A/V people may kill me for letting you mic drop... So maybe don't do that.
 
-**Ali Spittel:** Yeah, probably \[unintelligible 00:32:01.22\]
+**Ali Spittel:** Yeah, probably a bad idea.
 
 **Anthony Frehner:** Definitely. Well, thank you for having me.
 
@@ -562,7 +562,7 @@ Working on -- the current one I'm excited about now is like this new app history
 
 **Emily Kauffman:** Yeah, that's fine...
 
-**Ali Spittel:** Awesome. Well, thanks so much for chatting with us \[unintelligible 00:47:07.07\]
+**Ali Spittel:** Awesome. Well, thanks so much for chatting with us it was really cool to hear your story.
 
 **Emily Kauffman:** Yeah, it's nice to meet you guys.
 
@@ -572,7 +572,7 @@ Working on -- the current one I'm excited about now is like this new app history
 
 **Break:** \[47:12\]
 
-**Aaron Saunders:** My name is Aaron Saunders. I was one of the backup speakers also. I did not get promoted, but I still did \[unintelligible 00:47:26.26\] last night. I've found out about Remix through just evaluation of software.
+**Aaron Saunders:** My name is Aaron Saunders. I was one of the backup speakers also. I did not get promoted, but I still did my speech last night. I've found out about Remix through just evaluation of software.
 
 **Ali Spittel:** Okay.
 
@@ -590,7 +590,7 @@ Working on -- the current one I'm excited about now is like this new app history
 
 **Aaron Saunders:** So I figured I need to eat my own dogfood and put myself out there, so...
 
-**Ali Spittel:** Yeah. Well, a YouTube channel \[unintelligible 00:48:21.10\]
+**Ali Spittel:** Yeah. Well, a YouTube channel errs as well
 
 **Aaron Saunders:** Yeah, but a YouTube channel - you can sit at home, and if you don't like something, you cut it, and you can edit it, so it's a lot different than standing up in front of a bunch of people, talking.
 
@@ -630,7 +630,7 @@ Working on -- the current one I'm excited about now is like this new app history
 
 **Aaron Saunders:** I think it's almost unlearning some of the other stuff that you've learned, and getting back to the basics, which is one of the things that I liked about Remix. They take away a lot of the complexity of things, but a lot of those things are things that when you've read other articles and saw the things you had to learn - you're getting a specific mindset.
 
-**Ali Spittel:** Yeah. I think it's always funny when they bring up that a lot of new developers have used event.preventdefault() on every form that they've ever done. I think that's so funny \[unintelligible 00:51:39.22\] But it's probably true for a lot of people.
+**Ali Spittel:** Yeah. I think it's always funny when they bring up that a lot of new developers have used event.preventdefault() on every form that they've ever done. I think that's so funny it's like I'm an older developer now but it's probably true for a lot of people.
 
 **Aaron Saunders:** Yes, because you see it in all the demos and all that code, it's always like "Well, remember, you have to do event.preventdefault(), always."
 
@@ -662,7 +662,7 @@ Working on -- the current one I'm excited about now is like this new app history
 
 **Divya:** Because I think we had --
 
-**Michael Jackson:** ...JS Party, but \[unintelligible 00:54:27.14\]
+**Michael Jackson:** ...JS Party, but it...
 
 **Divya:** We had an episode on React Router, I think, at one point... I think you were on it...
 
@@ -800,7 +800,7 @@ So all we care about is when are you loading the data, when are you actually run
 
 **Michael Jackson:** Svelte, or whatever. Yeah. So I really don't care of what you wanna use for templating. You could even just say "I don't wanna run any JavaScript on my site at all", which we saw quite a few people do today. I thought it was kind of a fun, little theme; it was like a little bonus to everybody's talk. They're like "Oh, and by the way..."
 
-**Ali Spittel:** \[unintelligible 01:07:39.29\]
+**Ali Spittel:** Turn on JavaScript
 
 **Michael Jackson:** Yeah, and it still worked, right? But yeah, so that's I think why we call ourselves center stack, is because we fit right in that -- that's the part that we really care about, that we wanna provide some structure around what happens in between the front and the backend... And then pick whatever you want on either of those sides.
 
