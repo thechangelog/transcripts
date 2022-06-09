@@ -100,7 +100,7 @@ I was listening to the radio on the way back from dropping my little girl off to
 
 **Ben Ford:** Yeah, there clearly is a better way, but the incentives against following that better way are just heavily counted against doing that; political systems and incentives. Yeah, so that's an extremely difficult nut to crack.
 
-**Break:** \[00:18:24.00\]
+**Break:** \[18:24\]
 
 **Gerhard Lazu:** With our own infrastructure with Changelog, every year we try to do things differently. We try to challenge ourselves and go in a different direction. This year was no different. This year -- I mean, who goes from Kubernetes to PaaS? I think very few do that. We did it, and Jerod is so happy about that move. I would have not expected that outcome, and others which are coming. It just goes to show that if you try things that you wouldn't normally try, because - it's not that they don't make sense, but you go in a slightly different direction. You're trying to look for the learnings, you're optimizing for the learnings, not necessarily for where's the majority going, where it's safe to go, what has been proven.
 
@@ -180,7 +180,7 @@ Like Metabase, for example, is a good idea. You mentioned it earlier, plenty of 
 
 **Gerhard Lazu:** Right.
 
-**Break:** \[00:40:41.13\]
+**Break:** \[40:41\]
 
 **Gerhard Lazu:** So now that we are a lot more distributed, everyone's remote, more remote than they were before, especially in the sector that we operate in, how can we make those people still feel connected and still feel like they belong to the same tribe? Because I think that is very challenging these days. It feels like it's you in a room, best case, maybe at the kitchen table... How do you make them feel like they belong, part of a group that used to be the office, and is no longer the case?
 
@@ -230,7 +230,7 @@ The last you want to do when you... This is the big problem with approaches like
 
 If you go into an engineering business, it might be that, "Oh wow, we've got all of these expensive engineering managers that are spending 20% of their time collating reports." Click, that's easy, we can sort that one out. We might have something where the breakdown of customers and orders and their behavior once they become customers is unclear, because you've got the customer acquisition data held in one system and the operations in another. Then what we might do is just centralize that and build some dashboards over the top so that we can see different segments of customers and how they behave, which is not impossible to do in Excel, but it absolutely sucks and it's really painful to keep that up to date. Whereas what we can do with these capabilities that I just mentioned is you can have a real-time feed from all of those operational systems into the single source of consistent data. Backward-looking, because we don't really care about... It's not a transactional system, it's a business intelligence system so it works in retrospect. Then you use Metabase, or something similar. There's another great one called cube.dev, which is a headless BI system.
 
-The general principle is that all of these different parts of the system, where possible, should be open-source. They should run on cheap PaaS platforms that we mentioned, so that the overhead of them doesn't require a full-time engineer just to keep it up and running, and you can still use all of the engineers to build the product. But at any point, the bus factor of me is zero because it's all built off commodity open-source software. So if you're an engineering company, if the worst was to happen, then you would quite easily be able to manage and operate that system yourself.
+The general principle is that all of these different parts of the system, where possible, should be open source. They should run on cheap PaaS platforms that we mentioned, so that the overhead of them doesn't require a full-time engineer just to keep it up and running, and you can still use all of the engineers to build the product. But at any point, the bus factor of me is zero because it's all built off commodity open source software. So if you're an engineering company, if the worst was to happen, then you would quite easily be able to manage and operate that system yourself.
 
 **Gerhard Lazu:** Right. Okay. For Mission Ctrl, the business, the website, what do you pick? How do you run your stack? I'm curious.
 
