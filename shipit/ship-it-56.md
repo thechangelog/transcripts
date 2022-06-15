@@ -6,7 +6,7 @@ Maikel, I&#39;m very happy to welcome you here today on Ship It. Welcome!
 
 **Gerhard Lazu:** So these are my favorite stories, the long-term ones. When was, by the way, the 5by5 network? How long ago was that, Maikel?
 
-**Maikel:** [00:04:20.01] I looked it up, it was in 2009 when you joined 5by5.
+**Maikel:** \[04:20\] I looked it up, it was in 2009 when you joined 5by5.
 
 **Gerhard Lazu:** Wow...
 
@@ -44,7 +44,7 @@ The next year I had an internship at a company where I introduced Docker, and th
 
 **Gerhard Lazu:** Okay. I know that the platform engineers are more about the self-service model, so what do they need to build so that others can just consume it themselves, via docs, via APIs, and less about helping them go through that, and provision things, or set things up. So I think it would help me understand a bit better if you were to describe your day to day. What does your day to day look like when it comes to interacting with the engineers, with the admins? Do you have admins? I&#39;m not sure whether you have admins...
 
-**Maikel:** [00:08:27.22] No.
+**Maikel:** \[08:27\] No.
 
 **Gerhard Lazu:** Okay, so no infrastructure ops sort of people. Okay. And the frontend --
 
@@ -88,7 +88,7 @@ The next year I had an internship at a company where I introduced Docker, and th
 
 **Gerhard Lazu:** So after Kubernetes comes up and there&#39;s this managed database that comes up, what happens next?
 
-**Maikel:** [00:11:53.17] For now, the managed database is not in place yet. So it&#39;s for the future. But yeah, we have Argo CD installed via that Terraform script. So in the terraform apply it creates Argo CD with a Helm chart, then it pulls down from the Git repo the root application, the Argo CD application, and from that one it spins up all necessary tools, for example an Ingress controller. Argo CD itself is also managed by Argo, so that&#39;s also quite a nice thing, to be able to manage Argo through Argo.
+**Maikel:** \[11:53\] For now, the managed database is not in place yet. So it&#39;s for the future. But yeah, we have Argo CD installed via that Terraform script. So in the terraform apply it creates Argo CD with a Helm chart, then it pulls down from the Git repo the root application, the Argo CD application, and from that one it spins up all necessary tools, for example an Ingress controller. Argo CD itself is also managed by Argo, so that&#39;s also quite a nice thing, to be able to manage Argo through Argo.
 
 **Gerhard Lazu:** That&#39;s very interesting. I mean, if Argo manages itself, what happens if it&#39;s upgrading itself and it&#39;s still running? Will the run fail?
 
@@ -112,7 +112,7 @@ The next year I had an internship at a company where I introduced Docker, and th
 
 So I was tired of operating that by myself, so I automated the whole process. So once a night there will be run a GitLab CI job on the schedule, which checks if there&#39;s a new release or a new patch release of GitLab, and then it creates a merge request for itself. So there&#39;s a CI which creates a merge request and assigns it to the administrator. Then the administrator can merge that merge request, and then GitLab, using GitLab CI, will apply itself to the cluster, and then it&#39;s upgraded.
 
-**Gerhard Lazu:** [00:16:16.09] So in this case we&#39;re talking about a self-hosted GitLab?
+**Gerhard Lazu:** \[16:16\] So in this case we&#39;re talking about a self-hosted GitLab?
 
 **Maikel:** Yeah.
 
@@ -156,7 +156,7 @@ And this is not too dissimilar from the Kubernetes controller... Or shall I say 
 
 **Gerhard Lazu:** That&#39;s super-interesting. Okay.
 
-**Break** : [00:20:00.27]
+**Break** : \[20:00\]
 
 **Gerhard Lazu:** So I know that a lot of users are using GitHub and GitHub Actions. Not that many - again, from the ones that I&#39;m talking to - are using GitLab. What made you choose GitLab?
 
@@ -172,7 +172,7 @@ And also, GitLab has a once-a-month release, with a lot of features every month 
 
 **Maikel:** Yeah. And I came across them by a DigitalOcean post. DigitalOcean had a lot of tutorials which I learned a lot from. And then I set it up at first at my home server, for the first time; then a CI was integrated into GitLab. And at my job back then, at my internship, I introduced GitLab. So we had all those nice features and feature sets, and new, shiny things. GitLab and GitHub have quite a lot in common these days, but back then the feature set differed a lot.
 
-**Gerhard Lazu:** [00:24:26.26] Okay. So in the almost ten years since you have been using GitLab, did you have some upgrades that didn&#39;t work very well because you were self-hosting it? Any issues that you ran into it while you were running it yourself, that you wish you hadn&#39;t?
+**Gerhard Lazu:** \[24:26\] Okay. So in the almost ten years since you have been using GitLab, did you have some upgrades that didn&#39;t work very well because you were self-hosting it? Any issues that you ran into it while you were running it yourself, that you wish you hadn&#39;t?
 
 **Maikel:** Yeah, the upgrades back then were not always that smooth. For example, maybe the major upgrades were not so smooth.
 
@@ -222,7 +222,7 @@ And also, GitLab has a once-a-month release, with a lot of features every month 
 
 For now, Argo CD manages the infrastructure-related workfload, so for example the Ingress, the GitLab runner, and the GitLab agent, and some other infrastructure tools. And for now, the workload is deployed using GitLab CI, a push model, so a GitOps push. The downside of that is that you need to deploy them if you&#39;ve got a brand new cluster. You need to deploy them actively.
 
-[00:27:58.15] So in contrast to a GitOps pull model, which Argo CD is using, in that case the infrastructure-as-code is as-is, and you can just continue where you left off. So in the end, we want to integrate also the workload applications [unintelligible 00:28:13.02]
+\[27:58\] So in contrast to a GitOps pull model, which Argo CD is using, in that case the infrastructure-as-code is as-is, and you can just continue where you left off. So in the end, we want to integrate also the workload applications [unintelligible 00:28:13.02]
 
 **Gerhard Lazu:** That makes sense. Okay. Some of that is coming back from our Kubernetes days; when we were running our application on Kubernetes, we would start with the latest, so whatever was latest at that point in time, that&#39;s what would be pulled down. But we didn&#39;t have a declarative model that specified &quot;These are all the things that you need to be running [unintelligible 00:28:38.03] to this cluster.&quot; So still you would set up the initial tools, and then you would deploy a bit more and a bit more, more of the dependencies, until you would eventually be able to deploy the application.
 
@@ -262,11 +262,11 @@ I know what you mean when you say that Argo CD is managing the deployment curren
 
 **Maikel:** Yeah, it&#39;s per environment. We have [unintelligible 00:32:06.16]
 
-**Gerhard Lazu:** [00:32:11.01] Okay, so you have three clusters, and... Are you thinking of running Loki in each of them?
+**Gerhard Lazu:** \[32:11\] Okay, so you have three clusters, and... Are you thinking of running Loki in each of them?
 
 **Maikel:** Yeah, it&#39;s good that you mentioned that... It&#39;s still a discussion point. The same applies to Argo itself. I heard somewhere or read somewhere that it&#39;s not very recommended to host Argo CD in that same cluster it&#39;s managing. so I would split that into a separate cluster. And that also applies to the logging system and the monitoring system, like Prometheus. So we have to think about that one.
 
-**Gerhard Lazu:** Yeah, when you rotate the clusters, when the clusters go away, or you don&#39;t have just the three, there&#39;s a fourth one, then you have n places to look for things... And it&#39;s nice, because it&#39;s self-contained. But then it makes you wonder, &quot;Well, shall I have a single system to centralize all these things?&quot; And then maybe you&#39;re thinking &quot;Should I maybe have a managed service for this? Have a service for logs?&quot; Just as you have one for the database, so that you don&#39;t have to run those things yourself... Because then there&#39;s a contract, a commercial contract. And I know that in Europe it can be a little bit challenging because of data privacy, and all sorts of regulations around data... And that&#39;s why maybe the choice isn&#39;t as broad as it&#39;s in the U.S. But it&#39;s still better than having to worry about your logging system, or your metrics system, or whatever the case may be. And that&#39;s just like a service that you consume.
+**Gerhard Lazu:** Yeah, when you rotate the clusters, when the clusters go away, or you don&#39;t have just the three, there&#39;s a fourth one, then you have N places to look for things... And it&#39;s nice, because it&#39;s self-contained. But then it makes you wonder, &quot;Well, shall I have a single system to centralize all these things?&quot; And then maybe you&#39;re thinking &quot;Should I maybe have a managed service for this? Have a service for logs?&quot; Just as you have one for the database, so that you don&#39;t have to run those things yourself... Because then there&#39;s a contract, a commercial contract. And I know that in Europe it can be a little bit challenging because of data privacy, and all sorts of regulations around data... And that&#39;s why maybe the choice isn&#39;t as broad as it&#39;s in the U.S. But it&#39;s still better than having to worry about your logging system, or your metrics system, or whatever the case may be. And that&#39;s just like a service that you consume.
 
 **Maikel:** Indeed. And there&#39;s also a cost to managing it. You have to maintain it.
 
@@ -292,7 +292,7 @@ I know what you mean when you say that Argo CD is managing the deployment curren
 
 **Gerhard Lazu:** Okay.
 
-**Break** : [00:35:47.06]
+**Break** : \[35:47\]
 
 **Gerhard Lazu:** So I know that via your message, because when we talked on Slack there were quite a few things we&#39;ve exchanged... You told me that your goal in life is to make things easier for people. Tell me a little bit more about that. We mentioned Kubernetes, we mentioned workshops, we mentioned self-hosted services... How does making things easier for people work out in practice, with all these tools and technologies? And the people, let&#39;s not forget them.
 
@@ -306,7 +306,7 @@ For example, your Prettier formatter should be usable in all circumstances, but 
 
 **Gerhard Lazu:** Okay, so how does this translate to your company and the team that you&#39;re a part of? First of all, is there like a single repository that they clone, and that&#39;s how they get started? Are there multiple repositories? What is the starting point?
 
-**Maikel:** [00:40:13.06] We started with multiple repositories, but we&#39;re now migrating to a monorepo. So code sharing between the applications is easy.
+**Maikel:** \[40:13\] We started with multiple repositories, but we&#39;re now migrating to a monorepo. So code sharing between the applications is easy.
 
 So the readme is the first step to read, and that implies fetching credentials [unintelligible 00:40:30.11] credentials.
 
@@ -350,7 +350,7 @@ So the readme is the first step to read, and that implies fetching credentials [
 
 **Maikel:** Yeah. Because it&#39;s quite a beast to manage it on your own. The impact is quite high if you lose access to some systems.
 
-**Gerhard Lazu:** [00:44:11.08] Yeah. And then as you know, you should always have a back-up. That&#39;s something that if you had to recreate things, they should be fairly easy to recreate. Again, I don&#39;t know how we would encrypt that, because we need to somehow encrypt it... That&#39;s something to think about, for sure. With a GPG, or...
+**Gerhard Lazu:** \[44:11\] Yeah. And then as you know, you should always have a back-up. That&#39;s something that if you had to recreate things, they should be fairly easy to recreate. Again, I don&#39;t know how we would encrypt that, because we need to somehow encrypt it... That&#39;s something to think about, for sure. With a GPG, or...
 
 **Maikel:** Yeah. For now, we also use, of course, TLS certificates. [unintelligible 00:44:30.20] because the certificates are just with our own CI from the company. So the way it was fixed previously was they were using GitLab CI variables. Previously, they were using encrypted secrets in Git, and with [unintelligible 00:44:53.26] But I came across the Sealed Secrets operator from Bitnami. You heard about it...
 
@@ -376,7 +376,7 @@ So I see the appeal of setting connections to your source of truth where the sec
 
 **Maikel:** It&#39;s quite fast, yeah. I don&#39;t have numbers on that, but it [unintelligible 00:48:10.19] the changes, and then deploys them; it mirrors them, and vice-versa also. I used it a lot last week, for example, when running Prettier on the frontend code, and it works great.
 
-**Gerhard Lazu:** [00:48:27.18] How does this compare to GitHub Codespaces, or Gitpod? Is it something similar, or...?
+**Gerhard Lazu:** \[48:27\] How does this compare to GitHub Codespaces, or Gitpod? Is it something similar, or...?
 
 **Maikel:** So I shared with you that matrix for environments...
 
@@ -416,7 +416,7 @@ So I see the appeal of setting connections to your source of truth where the sec
 
 **Maikel:** I&#39;ve been playing around with it for a year now. Actually, it came from -- at the previous company I worked for we were using Docker Compose for local development. So all projects were set up using Docker. With Docker Compose all your files changes are synchronized, but the con of that is that in the end, for example, you have an NGINX configuration in front of your project, and with Docker Compose -- and you would set it up in the Helm charts. But when using Docker Compose you&#39;re not having an actual representation of your production environment. So DevSpace is like the Docker Compose in your Kubernetes story.
 
-**Gerhard Lazu:** [00:52:02.25] Okay. I haven&#39;t tried DevSpace out, but this conversation makes me want to go and check it out and see how well it works. Did you blog about this, or do you have more details about how you use it, and what works well, and your setup?
+**Gerhard Lazu:** \[52:02\] Okay. I haven&#39;t tried DevSpace out, but this conversation makes me want to go and check it out and see how well it works. Did you blog about this, or do you have more details about how you use it, and what works well, and your setup?
 
 **Maikel:** I&#39;m going to blog about it. I don&#39;t yet have a blog about it.
 
@@ -476,4 +476,4 @@ I&#39;m wondering how I can use those tools myself to change things slightly, ho
 
 **Maikel:** Thanks, Gerhard. It was quite fun.
 
-Break: [00:57:26.12] to [00:58:16.12]
+Break: \[57:26\] to \[58:16\]
