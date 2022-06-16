@@ -10,7 +10,7 @@ Maikel, I&#39;m very happy to welcome you here today on Ship It. Welcome!
 
 **Gerhard Lazu:** Wow...
 
-**Maikel:** I listened to other podcasts in that network, so I also came across this one. At the time I was really busy with Docker, and in 2013 there was a talk from Solomon Hykes in the Twitter meeting, [unintelligible 00:04:42.02] So that was my inspiration to go full-on web development.
+**Maikel:** I listened to other podcasts in that network, so I also came across this one. At the time I was really busy with Docker, and in 2013 there was a talk from Solomon Hykes in the Twitter meeting, [unintelligible 00:04:42.02] Docker. So that was my inspiration to go full-on web development.
 
 **Gerhard Lazu:** So the tweet from Solomon inspired you to go into web development full-time?
 
@@ -18,7 +18,7 @@ Maikel, I&#39;m very happy to welcome you here today on Ship It. Welcome!
 
 **Gerhard Lazu:** Okay, I&#39;ll mention it to him. I&#39;m sure he&#39;ll be very glad to hear that. Okay... So what inspired you (I&#39;m very curious) from that tweet? What was it?
 
-**Maikel:** It showed me that the world is gonna change with the technology that Docker provides us. [unintelligible 00:05:14.20] to fully focus on Docker and to learn the technology, and that full year I did that for school, for my study, because I thought it would change the world.
+**Maikel:** It showed me that the world is gonna change with the technology that Docker provides us. I even set my story on hold to fully focus on Docker and to learn the technology, and that full year I did that for school, for my study, because I thought it would change the world.
 
 The next year I had an internship at a company where I introduced Docker, and then later on Kubernetes, and that was a great success. I&#39;m very thankful for Docker... And Kubernetes, of course.
 
@@ -36,7 +36,7 @@ The next year I had an internship at a company where I introduced Docker, and th
 
 **Gerhard Lazu:** Okay. You&#39;re using Kaniko, okay. That&#39;s good to know. Cool. See? Side-tracked by technology. Can you tell I&#39;m a nerd for this? Whenever I hear things like that, like &quot;Yes, tell me more. Tell me more.&quot; Okay. So when you introduced yourself two months ago you said that you&#39;re a cloud engineer by heart. What did you mean by that? And specifically, what does it mean to you to be a cloud engineer?
 
-**Maikel:** Well, for me it&#39;s a way to enable the developers in the team, and UX designers, to deliver the software. So a full-on focus on the developer experience, from the moment you&#39;re beginning to code, to when it&#39;s in a feature [unintelligible 00:07:10.07] to production. I&#39;m focused on making that experience great, so their potential can be used to the full extent.
+**Maikel:** Well, for me it&#39;s a way to enable the developers in the team, and UX designers, to deliver the software. So a full-on focus on the developer experience, from the moment you&#39;re beginning to code, to when it&#39;s in a feature side or review app to production. I&#39;m focused on making that experience great, so their potential can be used to the full extent.
 
 **Gerhard Lazu:** So if cloud shipper was a role -- I think you&#39;re a cloud shipper; you&#39;re shipping code into the cloud... Okay. What is the difference between what you just mentioned and a platform engineer?
 
@@ -92,7 +92,7 @@ The next year I had an internship at a company where I introduced Docker, and th
 
 **Gerhard Lazu:** That&#39;s very interesting. I mean, if Argo manages itself, what happens if it&#39;s upgrading itself and it&#39;s still running? Will the run fail?
 
-**Maikel:** Well, in the end it can fail, if there&#39;s a missing chart value, for example. But we wanna set up the Prometheus monitoring tool to lock that, and then it notifies us that it&#39;s failed. But if you&#39;re operating Argo through the latest release, [unintelligible 00:13:00.10] so you see that it fails.
+**Maikel:** Well, in the end it can fail, if there&#39;s a missing chart value, for example. But we wanna set up the Prometheus monitoring tool to lock that, and then it notifies us that it&#39;s failed. But if you&#39;re operating Argo through the latest release, [unintelligible 00:13:00.10] on the UI so you see that it fails.
 
 **Gerhard Lazu:** But what I&#39;m wondering is if Argo is upgrading itself, Argo is running while it&#39;s upgrading, the upgrade gets applied, which means that the run will have to be stopped, because it just needs to basically restart with a new version. And when that happens, how does it continue the upgrade? Because the upgrade failed, because it was updated. Do you see what I mean?
 
@@ -224,7 +224,7 @@ For now, Argo CD manages the infrastructure-related workfload, so for example th
 
 \[27:58\] So in contrast to a GitOps pull model, which Argo CD is using, in that case the infrastructure-as-code is as-is, and you can just continue where you left off. So in the end, we want to integrate also the workload applications [unintelligible 00:28:13.02]
 
-**Gerhard Lazu:** That makes sense. Okay. Some of that is coming back from our Kubernetes days; when we were running our application on Kubernetes, we would start with the latest, so whatever was latest at that point in time, that&#39;s what would be pulled down. But we didn&#39;t have a declarative model that specified &quot;These are all the things that you need to be running [unintelligible 00:28:38.03] to this cluster.&quot; So still you would set up the initial tools, and then you would deploy a bit more and a bit more, more of the dependencies, until you would eventually be able to deploy the application.
+**Gerhard Lazu:** That makes sense. Okay. Some of that is coming back from our Kubernetes days; when we were running our application on Kubernetes, we would start with the latest, so whatever was latest at that point in time, that&#39;s what would be pulled down. But we didn&#39;t have a declarative model that specified &quot;These are all the things that you need to be running par to this cluster.&quot; So still you would set up the initial tools, and then you would deploy a bit more and a bit more, more of the dependencies, until you would eventually be able to deploy the application.
 
 I know what you mean when you say that Argo CD is managing the deployment currently, but it&#39;s like that push model. GitLab does like a push-deploy of the app. Okay.
 
@@ -238,7 +238,7 @@ I know what you mean when you say that Argo CD is managing the deployment curren
 
 **Maikel:** Yeah. We made the documentation for that. That&#39;s the simple answer. So everyone can just continue working on it. the goal is that everybody can just go along and also edit the infrastructure.
 
-**Gerhard Lazu:** Okay, so there is a document that people can read to understand where the different endpoints are, what basically the things to check are, whether it&#39;s the Argo CD UI, whether it&#39;s the GitLab pipeline [unintelligible 00:30:31.27] whatever the case may be, where they can go and see what the current state of the world is.
+**Gerhard Lazu:** Okay, so there is a document that people can read to understand where the different endpoints are, what basically the things to check are, whether it&#39;s the Argo CD UI, whether it&#39;s the GitLab pipeline view, whatever the case may be, where they can go and see what the current state of the world is.
 
 **Maikel:** I&#39;m planning to organize a Kubernetes workshop for my team, so I can also explain to them how those things are working.
 
@@ -252,7 +252,7 @@ I know what you mean when you say that Argo CD is managing the deployment curren
 
 **Gerhard Lazu:** Kube CTL, okay. Good. I know there&#39;s so many pronunciations... It&#39;s important to use the one that you prefer. Okay, so would you expect your team members to use Kubectl directly?
 
-**Maikel:** Yeah, they asked for it. [unintelligible 00:31:18.20] There is a goal behind it, that why would they want Kubectl. And mainly, it&#39;s because of logs. They want to see the application logs.
+**Maikel:** Yeah, they asked for it. It feels like the same as asking for SSH access to me. I also always think about, there is a goal behind it, that why would they want Kubectl. And mainly, it&#39;s because of logs. They want to see the application logs.
 
 **Gerhard Lazu:** Logs. Okay, yeah.
 
@@ -260,7 +260,7 @@ I know what you mean when you say that Argo CD is managing the deployment curren
 
 **Gerhard Lazu:** So you&#39;re setting up all these clusters... Would you think of centralizing the logs? How would that work? Because I imagine you have a production cluster... Or first of all, how do you slice up your clusters? Is it per environment, is it per application? How does that look like?
 
-**Maikel:** Yeah, it&#39;s per environment. We have [unintelligible 00:32:06.16]
+**Maikel:** Yeah, it&#39;s per environment. We have developement acceptance production clusters.
 
 **Gerhard Lazu:** \[32:11\] Okay, so you have three clusters, and... Are you thinking of running Loki in each of them?
 
@@ -318,7 +318,7 @@ So the readme is the first step to read, and that implies fetching credentials [
 
 **Maikel:** The latter. The tokens are the credentials you use in your local set up.
 
-**Gerhard Lazu:** But what about, for example, the database credentials? Or the Kubernetes ones, if you don&#39;t use the database. I think for GitLab it&#39;s easy, because you log in with your company username. Is it like [unintelligible 00:41:22.12]
+**Gerhard Lazu:** But what about, for example, the database credentials? Or the Kubernetes ones, if you don&#39;t use the database. I think for GitLab it&#39;s easy, because you log in with your company username. Is it like open ID or open ID connect, something like that?
 
 **Maikel:** Something like that, yeah.
 
@@ -328,7 +328,7 @@ So the readme is the first step to read, and that implies fetching credentials [
 
 **Gerhard Lazu:** OAuth, sure. What I&#39;m wondering - is the application, the credentials which need to... Like, do they stand everything up locally, and then the credentials get just generated? How does that look?
 
-**Maikel:** For now, you have to fetch them from external. But in the end, I want to be able to create a system where you just need one secret for your personal, and then that secret, again, can [unintelligible 00:41:58.28] the database and the other systems. That&#39;s the goal. We&#39;re not there yet.
+**Maikel:** For now, you have to fetch them from external. But in the end, I want to be able to create a system where you just need one secret for your personal, and then that secret, again, can grant you to the database and the other systems. That&#39;s the goal. We&#39;re not there yet.
 
 **Gerhard Lazu:** So when it comes to storing secrets, where do you store secrets for the apps?
 
@@ -362,7 +362,7 @@ So the readme is the first step to read, and that implies fetching credentials [
 
 So I see the appeal of setting connections to your source of truth where the secrets are, and having a way of refreshing everyone&#39;s view. The ones that still have access, by the way, to the secrets, because I think that&#39;s the whole idea. So you&#39;re focusing on the connections, rather than absolutes, like absolute files, or things like that. Ephemeral things which can get updated on the fly.
 
-**Maikel:** Yeah. [unintelligible 00:46:40.06]] It references a secret name in your code. So your secret is not stored locally, but when you deploy on your Kubernetes cluster in the cloud, using for example DevSpace, it references that secret and it can use that, but you don&#39;t have it stored in your Git repository.
+**Maikel:** Yeah. It's also possible to reference them in Kubernetes for example. It references a secret name in your code. So your secret is not stored locally, but when you deploy on your Kubernetes cluster in the cloud, using for example DevSpace, it references that secret and it can use that, but you don&#39;t have it stored in your Git repository.
 
 **Gerhard Lazu:** Interesting. So hang on... Are you suggesting to develop in Kubernetes? Because that&#39;s crazy interesting.
 
@@ -374,7 +374,7 @@ So I see the appeal of setting connections to your source of truth where the sec
 
 **Gerhard Lazu:** Interesting. What&#39;s the latency like?
 
-**Maikel:** It&#39;s quite fast, yeah. I don&#39;t have numbers on that, but it [unintelligible 00:48:10.19] the changes, and then deploys them; it mirrors them, and vice-versa also. I used it a lot last week, for example, when running Prettier on the frontend code, and it works great.
+**Maikel:** It&#39;s quite fast, yeah. I don&#39;t have numbers on that, but it ships them, it ships the changes, and then deploys them; it mirrors them, and vice-versa also. I used it a lot last week, for example, when running Prettier on the frontend code, and it works great.
 
 **Gerhard Lazu:** \[48:27\] How does this compare to GitHub Codespaces, or Gitpod? Is it something similar, or...?
 
@@ -438,7 +438,7 @@ So I see the appeal of setting connections to your source of truth where the sec
 
 **Gerhard Lazu:** Yeah.
 
-**Maikel:** I have friends who work for other companies who also use just option one, and they had issues. They couldn&#39;t reproduce an error which happened in production, and by the time [unintelligible 00:53:30.06] environment change.
+**Maikel:** I have friends who work for other companies who also use just option one, and they had issues. They couldn&#39;t reproduce an error which happened in production, and by the time [unintelligible 00:53:30.06] they found it was an environment change.
 
 **Gerhard Lazu:** So the version that they were running of the runtime, or -- yeah, okay.
 
