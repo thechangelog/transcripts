@@ -10,7 +10,7 @@
 
 **Jesse Grosjean:** Yeah. Sometimes you have news and sometimes you don't.
 
-**Jerod Santo:** \[00:03:59.02\] It's kind of nice though when you sign up for a newsletter and you're like, "I'm interested in this, but I don't want to get weekly updates on what's happening." And it's like, when I hear from Jesse, pay attention, because he's got something to say.
+**Jerod Santo:** \[03:59\] It's kind of nice though when you sign up for a newsletter and you're like, "I'm interested in this, but I don't want to get weekly updates on what's happening." And it's like, when I hear from Jesse, pay attention, because he's got something to say.
 
 **Adam Stacoviak:** Yeah.
 
@@ -68,7 +68,7 @@
 
 **Adam Stacoviak:** You've been to a mountain before. You live in Maine, which I believe you have some mountains there. Hey, I'm a mountain biker and I want to go to Maine someday in my life to ride the hills you all have there/mountain you all have there, because here in Houston, Texas, it's pretty much flat, it's very trail, not a lot of downhill. So I look forward to going to Maine one day to mountain-bike there.
 
-**Jesse Grosjean:** \[00:08:26.25\] Yeah. Well, I think depending on where you live, we have mountains or we most definitely don't. We have got Katahdin, and that's very mountain-like, although it doesn't show up against Rockies and things, but it's quite a hike.
+**Jesse Grosjean:** \[08:26\] Yeah. Well, I think depending on where you live, we have mountains or we most definitely don't. We have got Katahdin, and that's very mountain-like, although it doesn't show up against Rockies and things, but it's quite a hike.
 
 **Adam Stacoviak:** I also tend to blend Vermont and Maine together, despite my awareness of geography. So forgive me.
 
@@ -80,7 +80,7 @@ And anyway, so then after college, I did -- again, interested in cool computer s
 
 And so all of that was neat, and lots of experiments and cool demos, but in the end I also have this interest in taking notes on things, and I came to the conclusion that it's really hard to get a zooming interface or any other fancy interface to be generally as productive as just like a plain text editor. If you put that information that you're visualizing - and there are tons of exceptions, but I'm just talking about for a day-to-day, an average person. Well, let's see... I put my grocery list in this text editor, and it looks just as good and as easy to manage as some fancier tool. And so that realization - which wasn't immediate - that I came to, and I especially came to it with WriteRoom, where that was kind of just a fun idea that I did in a week and it got more attention and applause and money than stuff I'd worked on for years. So that got my attention, I was like "Hey, well..." So I wonder why that is, and stuff.
 
-\[00:12:20.11\] One thing that I have come to think is that computers are magic. Maybe this is old news, but especially for like 1995, they're the magic new thing. And I think that the real magic is pretty simple, in a lot of ways. For some use cases, it's just like you can edit this text without retyping it, which is dumb and 50 years old, but that's the big difference from paper. And all these things that we add on top of it are valuable, but if they get in the way of these core little things, like I can copy and paste text, or something... It's always a trade-off and it's taking away.
+\[12:20\] One thing that I have come to think is that computers are magic. Maybe this is old news, but especially for like 1995, they're the magic new thing. And I think that the real magic is pretty simple, in a lot of ways. For some use cases, it's just like you can edit this text without retyping it, which is dumb and 50 years old, but that's the big difference from paper. And all these things that we add on top of it are valuable, but if they get in the way of these core little things, like I can copy and paste text, or something... It's always a trade-off and it's taking away.
 
 And so that's been my assumption for a long time, is that for the kinds of things I'm interested in that are text-based, just a basic text editor is the foundation, and try to expand on that idea, but be aware that anything you do is going to have a plus and a minus, and that you might just be losing. It might be better to go back to the text editor.
 
@@ -96,7 +96,7 @@ And so that's been my assumption for a long time, is that for the kinds of thing
 
 **Jesse Grosjean:** But I iterated on that for a while, that basic idea, but putting a model behind it so that it's scriptable and you can write plug-- not really plugins, but automate aspects to it, and style sheets and all that; trying to keep the basic, simple text part, but then allow people to extend it with their ideas. So that's where I am with my apps now. I try to make very simple things that just have a few ideas, but then other people can extend them. And usually, the other people's like the 1% of programmers, I think, but it's the people who I interact with in my forums, and that's kind of where I am and where I have the fun.
 
-**Jerod Santo:** \[00:15:51.09\] Some of the features in Bike - and Bike is your new tool, it's an outliner... The features that you list for Bike are things like opening files is fast, and scrolling is fast. And it's 2022, and yet I read that and it kind of speaks to me, and I'm like, "Yeah, I want that." And that makes me wonder, or kind of consider the bigger picture of maybe the macOS platform, or software in general, maybe the practices of the community... I don't know what it is, but it seems like so much that we use isn't fast, it's bloated, or it's laggy or it's - pick your adjective - and it's not fast. And so your features, which you wouldn't think that-- I would think today that would be table stakes, but it's kind of like, "Hey, Bike has this", and not everything has that. So I guess a two-part question - why do you think that is? And then maybe go into some of the things that you had to do in order to make Bike so fast.
+**Jerod Santo:** \[15:51\] Some of the features in Bike - and Bike is your new tool, it's an outliner... The features that you list for Bike are things like opening files is fast, and scrolling is fast. And it's 2022, and yet I read that and it kind of speaks to me, and I'm like, "Yeah, I want that." And that makes me wonder, or kind of consider the bigger picture of maybe the macOS platform, or software in general, maybe the practices of the community... I don't know what it is, but it seems like so much that we use isn't fast, it's bloated, or it's laggy or it's - pick your adjective - and it's not fast. And so your features, which you wouldn't think that-- I would think today that would be table stakes, but it's kind of like, "Hey, Bike has this", and not everything has that. So I guess a two-part question - why do you think that is? And then maybe go into some of the things that you had to do in order to make Bike so fast.
 
 **Jesse Grosjean:** Well, a few things. First, I'd ask people to test it out themselves, because there's different ways to say fast, right? And so Bike is not a programmer's text editor that can open a 100 megabyte log file. It should be possible, I need to change some things on the backend, but it isn't now, sort of in the name of simplicity. But it's fast for user-sized data. I use Moby Dick as my text file, because it's bigger than anything I ever do. And that's one thing; it's fast for what it is, not necessarily Sublime.
 
@@ -114,7 +114,7 @@ And so that's been my assumption for a long time, is that for the kinds of thing
 
 **Jesse Grosjean:** Well, I'm just saying, compared to NSTextView, which is the standard - they have so much extra work to support that... I'm sure they know all these techniques just as well as I do, but to get it all to work on the current version and then 20 years of application API support is the trick.
 
-**Adam Stacoviak:** \[00:20:11.29\] Yeah. One thing you mentioned too on the Bike page in terms of speed - and this conversation we're having here is this Moby Dick Workout, which - you mentioned Moby Dick in your description there, but...
+**Adam Stacoviak:** \[20:11\] Yeah. One thing you mentioned too on the Bike page in terms of speed - and this conversation we're having here is this Moby Dick Workout, which - you mentioned Moby Dick in your description there, but...
 
 **Jesse Grosjean:** This is me marketing right now.
 
@@ -144,7 +144,7 @@ And so that's been my assumption for a long time, is that for the kinds of thing
 
 So this was a workspace where you could have supported different syntaxes, so a database. You have a whole bunch of plain text files, and then it would read the syntax from them and parse out a database and make it live, so you could have live queries of all these interesting things. All interesting, but I was going through huge amounts of work, extra work to support the plain text aspect, right? All these extra formats and syntax highlighting, and it still always looks kind of programmery at the end, right?
 
-\[00:24:00.16\] And so Bike is not plain text. Bike is HTML-based or OPML-based. It's a Markup Language-based. And I've decided that for me, selecting some text and making it bold just looks so much better, and I can think better with that than adding Markdown syntax or some other syntax, which I have advocated in the past, but it just--
+\[24:00\] And so Bike is not plain text. Bike is HTML-based or OPML-based. It's a Markup Language-based. And I've decided that for me, selecting some text and making it bold just looks so much better, and I can think better with that than adding Markdown syntax or some other syntax, which I have advocated in the past, but it just--
 
 **Adam Stacoviak:** Yeah.
 
@@ -162,7 +162,7 @@ So this was a workspace where you could have supported different syntaxes, so a 
 
 **Jesse Grosjean:** Yeah, I imagine, alright, in 10 or 20 or a 100 years, if you're the perfect tool for thought - are you really going to want to have this syntax on the sides, or is there going to be some of... I just feel like there's a huge trade-offl, I understand, but for me, I've been on one side of it for a long time and I'm really happy now with Bike that I'm on the other side of it, because it makes a lot of things easier... And not just for the end-user. Also, if you're a programmer, you can extract the information much more easily from HTML than from Markdown. I think it's a different thing, but it's not necessarily a decision that is better or worse for programmers or for end-users and stuff, but we'll see how it goes. But that's my current thinking.
 
-**Break:** \[00:26:23.01\]
+**Break:** \[26:23\]
 
 **Adam Stacoviak:** I'm just sitting here thinking about WriteRoom, because it's been a while since I've used it. I assume it's similar in nature to iA Writer, which was Markdown syntax, visual-first, not HTML bolding first. It leaned towards the side of like "Give me two stars before and after a word", and that made it bold. And that was what you actually saw in the UI, which is where he began and now he's anti-that, really, in Bike... Which is just almost a paradox. Almost. \[laughter\]
 
@@ -172,7 +172,7 @@ So this was a workspace where you could have supported different syntaxes, so a 
 
 So that's where I started to really wonder, "Huh, are my tools making plain text look good?" And it's also selling the idea that it can look good in any text editor, but really, it's tool-specific often. And so if you're in Sublime and you're writing Markdown, you're probably very careful to soft-wrap the lines, make it look good, and then it looks good in Sublime, all the time. But if you're in a tool like my FoldingText, it would do that automatically for you. So it looked good in FoldingText, but if you open it in Sublime, it'll be a mess. And that's one thing that I had with Markdown and plain text in general, is it's somewhat tool-specific.
 
-**Jerod Santo:** \[00:29:59.02\] So handwritten Markdown is portable, if I'm understanding you, because you wrote it by hand, and so it's readable to you, because you wrote it... Maybe with some tooling help where you hit a link button and it turns a thing into a link, or like it pre-populates the Markdown for you... But you're writing it by hand, like I do often, inside Sublime Text. But tool-generated Markdown is not as portable, because the tool is just generating the syntax, which is flexible enough that it might not look good in another tool, or to the human eye. And so you think you're getting this great-- you \[unintelligible 00:30:32.07\] like plain text, but oftentimes, you're not. Is that what you're saying?
+**Jerod Santo:** \[29:59\] So handwritten Markdown is portable, if I'm understanding you, because you wrote it by hand, and so it's readable to you, because you wrote it... Maybe with some tooling help where you hit a link button and it turns a thing into a link, or like it pre-populates the Markdown for you... But you're writing it by hand, like I do often, inside Sublime Text. But tool-generated Markdown is not as portable, because the tool is just generating the syntax, which is flexible enough that it might not look good in another tool, or to the human eye. And so you think you're getting this great-- you \[unintelligible 00:30:32.07\] like plain text, but oftentimes, you're not. Is that what you're saying?
 
 **Jesse Grosjean:** Yes. That's my opinion. I'm not saying it's 100% true, but that's--
 
@@ -192,7 +192,7 @@ So that's where I started to really wonder, "Huh, are my tools making plain text
 
 **Jerod Santo:** Well, the nice thing about Markdown and HTML is that Markdown renders to HTML, and you can also take HTML, parse it and output Markdown. And so going from a.bike file, which is an HTML file, if you wanted Markdown out of that - well, you're a programmer, you go and write a little utility that puts it back into Markdown. And maybe there's an extension, because like you said, Jesse, you're building a lot of these things as extensible. It seems like the things that you like are focused, plain text and extendable. And what's interesting is TaskPaper kind of has an outliner in it.
 
-**Jesse Grosjean:** \[00:34:15.28\] Yeah, it's very much-- it's an outliner, but with plain text.
+**Jesse Grosjean:** \[34:15\] Yeah, it's very much-- it's an outliner, but with plain text.
 
 **Jerod Santo:** Right. It's like a to-do-list, but it's like your to-do's are often outlined, right? Like this, and then these three things, and then go back. And so that makes me wonder, why Bike in the first place? Why pull the outliner out? Or why start afresh with just an outliner, which seems like it's less capable than your existing product, which people already like, and are buying, and stuff?
 
@@ -204,7 +204,7 @@ And so for example, one feature that people want is to be able to bold text. And
 
 **Jesse Grosjean:** And so if I wanted to push TaskPaper forward, I would start having to change some fundamental things if I wanted those things to be rich text. And also with Bike, I really want-- one thing we haven't talked about, it's performant, but it's also very animated, and like I say, fluid editing, which means that everything is very smoothly animated. And that requires that I write my own text editor, and that all of a sudden requires that I break-- it would be impossible to turn TaskPaper into what I wanted to explore with Bike without also alienating and breaking TaskPaper in fundamental ways.
 
-**Jerod Santo:** \[00:36:16.00\] Gotcha.
+**Jerod Santo:** \[36:16\] Gotcha.
 
 **Adam Stacoviak:** Yeah. You've got some foundation there that you just cannot avoid if you want to explore new ideas, essentially. So that basic question then - when you think about Bike and where you wanted to go with it, where did you begin? Was it a tool you wanted, or was it a tool that the users of TaskPaper said, "Well, I really want this", and TaskPaper couldn't be that for them, because they thought it could be, but it wasn't? How did you begin to even think about what Bike could be? How do you design software?
 
@@ -222,7 +222,7 @@ And so for example, one feature that people want is to be able to bold text. And
 
 **Jerod Santo:** Yeah, it kind of makes it fun to do. We're just over here indenting, outdenting as we talk... What strikes me about Bike at first was kind of like - you're talking about it being more fluid and less rigid, and yet because it's like actually an outliner, for a while... I've only been using it for a few days, but for a while I thought, "I've got to put outlines in this thing." And the way that I kind of scratch-paper my thoughts, which really this is, as you said, a tool for thought, it outlines very much that, right? ...is you want to be able to think, and move around and dive in, dive out etc. And I just have a bunch of random crap a lot of times. I call it like a scratch sheet. Scratch.md is usually where it lives. And I have outlines in there, but it's not all one, big outline. It's not like I have this big, organized thing. It's just like, I've got some outlines, and then I've got some words...
 
-**Jesse Grosjean:** \[00:40:14.01\] Right. Yeah, my files are definitely full of crap.
+**Jesse Grosjean:** \[40:14\] Right. Yeah, my files are definitely full of crap.
 
 **Jerod Santo:** Yeah. Well, it's interesting, because as we've been going, I've been realizing, actually, you don't need to outline everything, Jerod. Just throw some crap in there, and it works just fine. It is a lot more freeing now that you've kind of given me permission to just write at the top level every time. Because when I see the over-arrow - in the top of an outline it’s got the sideway triangle... I think like, "Okay, I've got to put a bullet point here", but Bike doesn't require that. It was just me that was thinking that it did. You just treat it like a piece of paper and then start indenting when you want to. So that's nice.
 
@@ -262,7 +262,7 @@ And so for example, one feature that people want is to be able to bold text. And
 
 **Jerod Santo:** Switch the foundation.
 
-**Jesse Grosjean:** \[00:43:52.16\] Well, not many people are buying -- I'm no good at charging for upgrades. So TaskPaper, the last thing I charged for was 2016, and this time I'm doing a different pricing model, which is exciting to me, because upgrades are always very painful to... You know, I think I've only -- so from 2004 I think I've charged maybe three upgrades ever, because it's just such a headache of trying to decide, "Alright, what's going to be in the 2.0 release that I can finally charge and upgrade for?" etc.
+**Jesse Grosjean:** \[43:52\] Well, not many people are buying -- I'm no good at charging for upgrades. So TaskPaper, the last thing I charged for was 2016, and this time I'm doing a different pricing model, which is exciting to me, because upgrades are always very painful to... You know, I think I've only -- so from 2004 I think I've charged maybe three upgrades ever, because it's just such a headache of trying to decide, "Alright, what's going to be in the 2.0 release that I can finally charge and upgrade for?" etc.
 
 And so Bike is doing subscription on the App Store, which I don't really think that's -- I wouldn't want to buy subscription, but that's the way things work nicely on the App Store. But on my website, it's doing the model where you buy it, you get free updates for a year. What you have continues to work forever, but if you want to get another year of updates, you pay some-- it might be 70% or 50% of the price to get the next year's updates. And so that's really freeing when I think about it, is now all I need to do is generate value and I hopefully will continue to get customers without having to figure out all that other stuff of how to charge them.
 
@@ -286,7 +286,7 @@ And so Bike is doing subscription on the App Store, which I don't really think t
 
 **Jesse Grosjean:** A lot of people use TaskPaper for the plain text aspect, and that's the big thing I don't want to support. But from an end user's perspective, it kind of depends, right? But for the people who are hacking away at TaskPaper, I don't see Bike as really a direct replacement. It's a very similar idea, but it's a different thing.
 
-\[00:47:55.06\] But I would say that Setapp would be happy if I add Bike, and I may, in a couple months, I don't really know, I can remove TaskPaper right away. There's no super long-term agreement, I think. I'm not sure about that, but they're happy to have it in, or happy to have both apps in, or happy to have it removed. I think that-- they're very nice. I'm happy with them.
+\[47:55\] But I would say that Setapp would be happy if I add Bike, and I may, in a couple months, I don't really know, I can remove TaskPaper right away. There's no super long-term agreement, I think. I'm not sure about that, but they're happy to have it in, or happy to have both apps in, or happy to have it removed. I think that-- they're very nice. I'm happy with them.
 
 **Adam Stacoviak:** Yeah. So they're flexible...
 
@@ -300,13 +300,13 @@ And so Bike is doing subscription on the App Store, which I don't really think t
 
 **Jesse Grosjean:** Yup. And I haven't paid super-- it's very possible that maybe there's some agreement that you have to have it in for a year, or something. I'm happy to have it in for however long. I haven't looked into that very much.
 
-**Break:** \[00:48:57.28\]
+**Break:** \[48:57\]
 
 **Jerod Santo:** So while we're talking the business end of what you do - you've been doing it for a long time, you have these three apps... I would love to hear what life is like as an indie Mac dev who's obviously very good at what you do, has kind of put your stake in the ground of the kind of apps you like to build. Don't love marketing, don't think that you're very good at that end of it. That's a common sentiment, I think, amongst devs, indie devs as well.
 
 We've seen stories of like the iOS store. You have your \[inaudible 00:51:43.00\] and you have your Flappy Bird people who blow up, but we know that on iOS it's really tough to make a living as an indie dev, even as a small company, unless you're in games or unless you get lucky or hit a home run. You can do it, but it's not easy. I wonder if that's the same on the Mac side. I wonder how your career has gone as an indie developer. Just give us the lay of the land. What's it like to be a Mac dev?
 
-**Jesse Grosjean:** \[00:52:11.01\] So again, I started-- maybe like 2002 I started messing with it, because I knew I wanted to sell shareware; that's what I was thought it was. And I was just also still working a full-time job, and then moved to Maine in 2004. That's where I'm from. And so my wife and I moved back and she went to the university here for an extra thing, and I said, "Alright, Maine's cheap. Let's see if I can do full-time shareware stuff." And from like 2004 until maybe 2012, every year it was up a bit, or a lot. And for a couple years, I hired some other people - I'm also not much of a manager, or a marketer - and it all went up, up, up, and then all of a sudden, I don't remember the exact... Maybe 2012 or '13, it went down, down, down, and it turned into just me again, because there wasn't enough money. And then it kept on going down, down, down, and it sort of... The dates are-- they're were within five years.
+**Jesse Grosjean:** \[52:11\] So again, I started-- maybe like 2002 I started messing with it, because I knew I wanted to sell shareware; that's what I was thought it was. And I was just also still working a full-time job, and then moved to Maine in 2004. That's where I'm from. And so my wife and I moved back and she went to the university here for an extra thing, and I said, "Alright, Maine's cheap. Let's see if I can do full-time shareware stuff." And from like 2004 until maybe 2012, every year it was up a bit, or a lot. And for a couple years, I hired some other people - I'm also not much of a manager, or a marketer - and it all went up, up, up, and then all of a sudden, I don't remember the exact... Maybe 2012 or '13, it went down, down, down, and it turned into just me again, because there wasn't enough money. And then it kept on going down, down, down, and it sort of... The dates are-- they're were within five years.
 
 **Jerod Santo:** Sure. Plus or minus
 
@@ -352,7 +352,7 @@ We've seen stories of like the iOS store. You have your \[inaudible 00:51:43.00\
 
 **Adam Stacoviak:** Yeah.
 
-**Jesse Grosjean:** \[00:56:00.29\] And so on the Mac App Store, you can't do that sort of model; at least I don't know how. That's why on the Mac app store, it's just a subscription model, a monthly or yearly subscription. And I'm not super-comfortable with that model as a buyer, that's why I'm generally pushing my website one. But I think it's the best answer.
+**Jesse Grosjean:** \[56:00\] And so on the Mac App Store, you can't do that sort of model; at least I don't know how. That's why on the Mac app store, it's just a subscription model, a monthly or yearly subscription. And I'm not super-comfortable with that model as a buyer, that's why I'm generally pushing my website one. But I think it's the best answer.
 
 **Adam Stacoviak:** Is it the same price, or do you have the price things differently?
 
@@ -538,7 +538,7 @@ If I was them, I can see why they made a lot of these decisions, and not necessa
 
 **Jerod Santo:** So one thing I wanted to touch on with you, which probably should have been done earlier, but here we are and I still want to ask, is that you've been very supportive of open formats, of extensibility, of letting people extend and play with your software, and export, and share, and I'm curious if you've ever considered going full open source, considering that most of your purchasers are not going to be compiling and running it. I don't think there's a huge business downside for you on an open source -- maybe even on your older apps that you're not working on anymore. Have you thought about doing that, maybe you get some community built around that side, too?
 
-**Jesse Grosjean:** I mean, I definitely have thought, "Wow, that would be neat", but I don't really dare. It's kind of the thing where... Bike, for example - would I want to open-source it? Oh, I have all kinds of visions of -- you know, I've got this nice outlining text component that could be plugged into all kinds of more specific scenarios. I would like to do that, but I can't really risk it. If somebody more energetic than me all of a sudden has a program that does everything mine does, I become less interesting really quick. And so that's where I am right now.
+**Jesse Grosjean:** I mean, I definitely have thought, "Wow, that would be neat", but I don't really dare. It's kind of the thing where... Bike, for example - would I want to open source it? Oh, I have all kinds of visions of -- you know, I've got this nice outlining text component that could be plugged into all kinds of more specific scenarios. I would like to do that, but I can't really risk it. If somebody more energetic than me all of a sudden has a program that does everything mine does, I become less interesting really quick. And so that's where I am right now.
 
 **Jerod Santo:** \[01:12:08.13\] Too risky. Not so much on people not buying it, like compiling it themselves, but on people putting it in their indie Mac apps.
 
@@ -552,7 +552,7 @@ If I was them, I can see why they made a lot of these decisions, and not necessa
 
 **Jesse Grosjean:** And I still-- I mean, well not with TaskPaper. With WriteRoom, I have visions of a new one that does have some more features, but that's still way down the road, and maybe it will never happen.
 
-**Adam Stacoviak:** Yeah. If you open-sourced it, it might remove your ability to make those future possibilities possible.
+**Adam Stacoviak:** Yeah. If you open sourced it, it might remove your ability to make those future possibilities possible.
 
 **Jesse Grosjean:** Yup.
 
