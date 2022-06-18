@@ -44,7 +44,7 @@ I was working at the Financial Times, where we had all of these hundreds of micr
 
 But I do remember - you stand out to me, us being up there, kind of in that breakout room, talking about what you were trying to do with the Financial Times... And it feels like you kind of continued in this natural progression, in this natural journey. When you think back to you then, how did you see the world?
 
-**Nayana Shetty:** \[00:06:15.05\] At that point we were investigating -- we had quite a lot of monitoring tools at the Financial Times, and I was working on the team that provided monitoring as a service to other teams... And my head was going mad thinking "Okay, how do I as a team with 4-5 engineers be able to support these 20-30-odd engineering teams who all want monitoring?" I'm there using from Nagios, to Zabbix, some Graphite, some \[unintelligible 00:06:42.25\] I think there were very few installations of Prometheus at that point... And it was like "How do we get all of these different use cases together, and how do we get them on a platform which could work together?" And it made me -- I was worried at that point, and three years later or four years later, looking at it, it's like...
+**Nayana Shetty:** \[06:15\] At that point we were investigating -- we had quite a lot of monitoring tools at the Financial Times, and I was working on the team that provided monitoring as a service to other teams... And my head was going mad thinking "Okay, how do I as a team with 4-5 engineers be able to support these 20-30-odd engineering teams who all want monitoring?" I'm there using from Nagios, to Zabbix, some Graphite, some \[unintelligible 00:06:42.25\] I think there were very few installations of Prometheus at that point... And it was like "How do we get all of these different use cases together, and how do we get them on a platform which could work together?" And it made me -- I was worried at that point, and three years later or four years later, looking at it, it's like...
 
 **Matt Toback:** You're still worried. No... \[laughs\]
 
@@ -64,7 +64,7 @@ I've often used this carrot and stick kind of approach in teams, to show the ben
 
 **Mat Ryer:** Yeah. I mean, you know, I would be kind to my future self, but I'm too busy dealing with all the stuff that my past self left me to do... \[laughter\] So I don't know.
 
-\[00:10:15.15\] So that's the thing - if you think about how it's gonna be, where it's gonna be running, the realities of that... If you think about that, the earlier, the better, almost, isn't it?
+\[10:15\] So that's the thing - if you think about how it's gonna be, where it's gonna be running, the realities of that... If you think about that, the earlier, the better, almost, isn't it?
 
 **Nayana Shetty:** It is that. And it's also that - yes, you are fixing things from yesterday; but if you don't fix it and leave some goodies along with it, then tomorrow you're fixing today's problem. So you're still in that vicious cycle. To get away from that vicious cycle I think you need to actually step back sometimes and put that extra effort.
 
@@ -86,7 +86,7 @@ It's a bit like how you design for failure as well. In the perfect world all the
 
 I do write Go code, and Go has error handling as a kind of explicit feature. There are values that are just returned as the second argument to functions, and things like this. And that frustrates a lot of people, because they're used to exceptions or something, that's just sort of automatic... But it forces you to think about what's gonna happen if this thing fails, and that's a great discipline to get into.
 
-**Nayana Shetty:** \[00:14:14.19\] And I think it's a myth to think that your system won't fail... Like, always build your system in such a way that it will fail. If it doesn't, then you have a problem. \[laughs\] So make sure you add those checks in place, so when it fails, it can smoothly recover.
+**Nayana Shetty:** \[14:14\] And I think it's a myth to think that your system won't fail... Like, always build your system in such a way that it will fail. If it doesn't, then you have a problem. \[laughs\] So make sure you add those checks in place, so when it fails, it can smoothly recover.
 
 **Mat Ryer:** Yeah. I know some companies that have that as part of the proper testing approach - literally, things will break on purpose; it's a first-class concern that they have. And it is that thing of -- I don't know, is it just ego, that people think "I'm so good. I'll write this, it's gonna be great"? What's going on?
 
@@ -104,7 +104,7 @@ But what could happen in these kinds of scenarios is people go all-in and they j
 
 **Matt Toback:** How would you -- if a team was listening to this and they were trying to understand the criticality of the app and then make decisions around it, if you had them sitting in a room, how would you explain it and say "Here. Start here. Do this"?
 
-**Nayana Shetty:** \[00:17:54.08\] I think it depends on the business criticality. If it is a highly business-critical application, which means if it went down for, say, more than 15 minutes, then we wouldn't be in business - if it's that kind of app, then you need to have your alerting in place, the right level of logging in place, which actually gives us any of the audit records that actually us what's happened with the applications. And then any sort of health checks.
+**Nayana Shetty:** \[17:54\] I think it depends on the business criticality. If it is a highly business-critical application, which means if it went down for, say, more than 15 minutes, then we wouldn't be in business - if it's that kind of app, then you need to have your alerting in place, the right level of logging in place, which actually gives us any of the audit records that actually us what's happened with the applications. And then any sort of health checks.
 
 So there's probably like two levels of monitoring that we should think about. One is the application-level monitoring, and then there is the system-level monitoring. Being able to figure out where the problem is soon enough is something very critical when it's a 15-minute recovery thing. But if it is an application that's less critical, then maybe just having the application-level monitoring is good enough, where you could take longer to actually investigate, look into the logs and actually figure out where the problem area is, and stuff.
 
@@ -124,11 +124,11 @@ I would say it is hard, it takes time, so invest based on how much returns you w
 
 I would always focus on the business value rather than the team's individual product value, and stuff... But yeah, it depends on -- like, if it were an internal system... Again, one of the teams I was in, we were building monitoring tools for other teams. So we don't have real business value \[unintelligible 00:21:28.24\] as our team, but we were supporting teams that had really high value systems. So that kind of meant that we had to think about the application-level, as well as system-level monitoring on our systems, and stuff.
 
-**Break:** \[00:21:50.02\]
+**Break:** \[21:50\]
 
 **Mat Ryer:** I love that advice of "Pay attention to the value you're gonna get from the effort that you put in." I like monorepos - I'd just like to put that out there; I love monorepos. And the reason I like them is because you can have a pull request that has a unit test, some backend code, maybe some API changes, frontend code in there too, hopefully with some frontend tests maybe... And it's nice that that all gets applied to the system in one go. Does that also apply to this sort of \[unintelligible 00:23:49.21\]\] instrumentation of that? Should we be having those kinds of conversations at that point, so that we kind of think about it as we go?
 
-**Nayana Shetty:** \[00:23:59.03\] I would love to say yes, but I've not seen a team do it really well. I can see the challenges -- like, when you have this monorepo and everyone is contributing to the same central repository, there is a challenge that the parameters that you would think about for your product and your monitoring systems might be different to what another team would be looking at. So there is a challenge with how do you then look at this as a product that we sell to customers. You have to think about capability monitoring maybe, rather than your individual product monitoring, where you're thinking about "What is a capability that I'm providing to the customer?" And those should probably be things that we have at a central level, and we do it as in when we add new features, we make sure we don't break the monitoring that we've got across the capability.
+**Nayana Shetty:** \[23:59\] I would love to say yes, but I've not seen a team do it really well. I can see the challenges -- like, when you have this monorepo and everyone is contributing to the same central repository, there is a challenge that the parameters that you would think about for your product and your monitoring systems might be different to what another team would be looking at. So there is a challenge with how do you then look at this as a product that we sell to customers. You have to think about capability monitoring maybe, rather than your individual product monitoring, where you're thinking about "What is a capability that I'm providing to the customer?" And those should probably be things that we have at a central level, and we do it as in when we add new features, we make sure we don't break the monitoring that we've got across the capability.
 
 But on a single individual product team's perspective - yeah, I don't know how much value it would add, so it depends on that, I guess. I'm not sure. Have you seen it work in your teams, or something?
 
@@ -148,7 +148,7 @@ As an example, when we were building this \[unintelligible 00:26:20.17\] that ev
 
 And what we did when we built this - we said "If you put the right information in this, then you would automatically have a dashboard that would show up only your team's monitoring in it." That was an incentive for teams to be like "Oh, if I did this, then I get my own dashboard. Let me do that."
 
-\[00:27:47.27\] So I think it's that showing intrinsic value beyond just what you want them to achieve out of it. That's how I've seen it work really well in teams. So yeah, you need to have some sort of carrots to actually get people to move towards your solutions and stuff.
+\[27:47\] So I think it's that showing intrinsic value beyond just what you want them to achieve out of it. That's how I've seen it work really well in teams. So yeah, you need to have some sort of carrots to actually get people to move towards your solutions and stuff.
 
 **Matt Toback:** Yeah, yeah.
 
@@ -180,7 +180,7 @@ So I think it's just being okay to experiment and continuously tinker your monit
 
 **Matt Toback:** Okay. So Nayana, you were thinking about the value derived, and focusing on that for the customers... I do think that's a common gotcha, where you build all these tools and you're like "We did it! We did it! It's all there. All you have to do is this."
 
-\[00:31:46.10\] I think the common gotcha is forgetting that you need to deliver something that someone can just adopt easily, like you said. It is a version of -- I was thinking like car parts, or legos, I guess... Dropping off like a collection of car parts and being like "There you go!" And you're like "I wanna drive. I get that I can get there, but you haven't helped me really at all." And you call left, and that's where the metaphor I think breaks, but...
+\[31:46\] I think the common gotcha is forgetting that you need to deliver something that someone can just adopt easily, like you said. It is a version of -- I was thinking like car parts, or legos, I guess... Dropping off like a collection of car parts and being like "There you go!" And you're like "I wanna drive. I get that I can get there, but you haven't helped me really at all." And you call left, and that's where the metaphor I think breaks, but...
 
 But I do think there's some version of that too, stopping short of actually delivering the value to the person consuming it, as opposed to just dropping a collection of pieces that can work, but they have to \[unintelligible 00:32:22.02\] last mile.
 
@@ -204,7 +204,7 @@ But I do think there's some version of that too, stopping short of actually deli
 
 **Mat Ryer:** Yeah, it's not the same... It's not the same, because you know it's a drill. Unless you're doing something where you literally break something and it's not really broken... Or maybe it is, and you're doing something kind of "That seems a bit extreme..." It is gonna feel different, but that still doesn't mean that there's not plenty of stuff to practice... Like practicing when you practice driving. There's an instructor next to you watching everything. That is a very strange situation to be in... But you still move the steering wheel and do the -- I don't drive, but there's a gear stick, I know that... And the horn...
 
-**Matt Toback:** \[00:36:03.11\] You press the horn to go... \[laughter\]
+**Matt Toback:** \[36:03\] You press the horn to go... \[laughter\]
 
 **Mat Ryer:** Yeah, horn to go, and then you leave that on, so that everyone knows you're there. I do, because they need to get out of the way... \[laughs\]
 
@@ -218,7 +218,7 @@ But I do think there's some version of that too, stopping short of actually deli
 
 **Nayana Shetty:** I think it's also a good exercise to do, just to test your documentation, if your documentation is up to scratch. When you've written something, you've written with good intent, but when someone's actually following it, does it make sense? It's something that the drills can actually capture. There's more than one benefit of having drills, I think.
 
-**Break:** \[00:38:04.15\]
+**Break:** \[38:04\]
 
 **Mat Ryer:** Nayana, you mentioned earlier this idea that if you do too much, you can overdo it and end up with basically alert fatigue... Just alerts going off. What do we mean really by alert fatigue?
 
@@ -226,7 +226,7 @@ But I do think there's some version of that too, stopping short of actually deli
 
 One of the exercises we did when we have these alert fatigues and like a thousand-odd alerts is we consciously stopped some of the alerts to see who will start shouting. And it happened that more than 50% of these alerts when we turned off, no one actually shouted at us. Like, "Was that even important?" Going through that exercise on a regular basis, where you see if you're ignoring more than at least 10% of your alerts, then go and do something about it. Maybe turn them off, and no one will care.
 
-\[00:43:16.23\] I think teams need to be conscious that it's okay to miss a faulty alert, compared to missing out on a real alert which would have cost us millions of pounds, or whatever it is. So I think it's being careful to put the right alerts in, and stopping at that, and not just going overboard with it. Let's take an example. We have Grafana in our systems, and we have alerting with Grafana. I have this tool, so I can put as many alerts as possible. Not going wild with it, but actually knowing where to stop. That's how I would describe this whole alert fatigue. And with time, it does happen with teams. So it's worth going back and auditing them and making sure you keep them clean as much as possible.
+\[43:16\] I think teams need to be conscious that it's okay to miss a faulty alert, compared to missing out on a real alert which would have cost us millions of pounds, or whatever it is. So I think it's being careful to put the right alerts in, and stopping at that, and not just going overboard with it. Let's take an example. We have Grafana in our systems, and we have alerting with Grafana. I have this tool, so I can put as many alerts as possible. Not going wild with it, but actually knowing where to stop. That's how I would describe this whole alert fatigue. And with time, it does happen with teams. So it's worth going back and auditing them and making sure you keep them clean as much as possible.
 
 **Matt Toback:** I wonder if you could do a -- what would be the equivalent of a bug bounty for alerts? How do incent people to go and clean those up and celebrate being like "They're gone!"
 
@@ -246,7 +246,7 @@ So it is that thing of it's just so much there, it stops being useful. I like th
 
 So I think it's something that a team should do on a regular basis as like a team activity or something like that, where they sanity-check their alerts.
 
-One way we used to do it is any alert that we actually did anything with, we started putting some -- all of our alerts used to come to Slack, so we started putting some emojis on it, so we know which of them were actually things that mattered. And on a weekly basis we were like "Oh, there were n of these, which we did nothing with, so maybe we can get rid of it." It's very hard to get that feedback cycle on alerts, I've found.
+One way we used to do it is any alert that we actually did anything with, we started putting some -- all of our alerts used to come to Slack, so we started putting some emojis on it, so we know which of them were actually things that mattered. And on a weekly basis we were like "Oh, there were N of these, which we did nothing with, so maybe we can get rid of it." It's very hard to get that feedback cycle on alerts, I've found.
 
 **Matt Toback:** Mat, you need to collect the emojis and then feed it back. Does the IP go in the other way on emojis?
 
@@ -264,7 +264,7 @@ One way we used to do it is any alert that we actually did anything with, we sta
 
 **Mat Ryer:** It's a good idea.
 
-**Matt Toback:** \[00:46:59.11\] Solved! \[laughter\] I wanted to quickly touch on - as you progress in your career, often you're going to walk into new organizations. And you're new to Lego... And everything today is just reinforced this thought that I was kind of \[unintelligible 00:47:13.13\] this morning, which is all these things are true, all these methods are proven, and in some ways, it has nothing to do with the technology and everything to do with the landscape that you're walking into. And then you have to figure out how and what you introduce.
+**Matt Toback:** \[46:59\] Solved! \[laughter\] I wanted to quickly touch on - as you progress in your career, often you're going to walk into new organizations. And you're new to Lego... And everything today is just reinforced this thought that I was kind of \[unintelligible 00:47:13.13\] this morning, which is all these things are true, all these methods are proven, and in some ways, it has nothing to do with the technology and everything to do with the landscape that you're walking into. And then you have to figure out how and what you introduce.
 
 I guess I'm curious - how much about open source tooling makes it easier to transfer into a new organization, and even just how much -- how do you approach going into a new org having this experience, but then also not understanding how everything fits together?
 
@@ -286,7 +286,7 @@ I have come from an organization where we were a very big advocate of open sourc
 
 **Nayana Shetty:** I often think less about tools and more about the capabilities that we really need in an organization. It could be anything from like what do we need in terms of system infrastructure side of things, or like the topic for today, more around observability. Around observability I often think the capabilities that we need are logging metrics. An organization can invest in having multiple tools for the same thing, or it could be one tool that does all of it. It depends on the kind of organization you are.
 
-\[00:51:22.29\] I have often leaned towards what's happening in the dev ops communities or like in the monitoring communities to actually get insights from them, saying "Oh, there's--" I think two years ago was when I was introduced to Loki, which is the logging tool, and I got super-excited about this, mainly because we were using another logging tool within the organization which was super-expensive. And like "Do we use this super-expensive tool which has some bells and whistles which we don't use, or can we go with something like Loki?" And it is finding out capabilities that you care about, and looking at what is happening in that particular market.
+\[51:22\] I have often leaned towards what's happening in the DevOps communities or like in the monitoring communities to actually get insights from them, saying "Oh, there's--" I think two years ago was when I was introduced to Loki, which is the logging tool, and I got super-excited about this, mainly because we were using another logging tool within the organization which was super-expensive. And like "Do we use this super-expensive tool which has some bells and whistles which we don't use, or can we go with something like Loki?" And it is finding out capabilities that you care about, and looking at what is happening in that particular market.
 
 Within the monitoring space, I think my preference within logging would be -- like, if you are in the AWS line, then something like AWS CloudWatch, or Loki, Splunk... These are a couple of tools that I have used in the logging space. You can use the same kind of tools for metrics as well, but there are better tools for metrics. Prometheus is really good. Or Graphite, which again, I have spent quite a lot of my career in Graphite, so I probably have a preference in this space, and see what innovation is happening in the Graphite space... But yeah, Prometheus is just probably another one which is really good in the time-series database side of things.
 
@@ -306,7 +306,7 @@ Well, unfortunately that's all the time we have, I'm afraid... Thank you so much
 
 **Nayana Shetty:** Oh, I love that. I think it is "You don't have to solve all problems today. There are things that you can leave for the future to solve." \[laughs\] That is what I would say to my future self.
 
-**Mat Ryer:** \[00:55:33.08\] Hm. It'd be more useful if we could send messages to our past selves though, because we could tell them what the stocks are gonna do...
+**Mat Ryer:** \[55:33\] Hm. It'd be more useful if we could send messages to our past selves though, because we could tell them what the stocks are gonna do...
 
 **Matt Toback:** No... Because we know what happens, right? The space-time continuum... It's just not good.
 
@@ -324,7 +324,7 @@ Well, unfortunately that's all the time we have, I'm afraid... Thank you so much
 
 **Mat Ryer:** Thank you so much to Matt Toback and our special guest, Nayana Shetty. I've been Mat Ryer (still am), and thank you very much for listening. See you next time on Grafana's Big Tent.
 
-**Outro:** \[00:56:37.22\]
+**Outro:** \[56:37\]
 
 **Mat Ryer:** Have you learned how to play the riff?
 
