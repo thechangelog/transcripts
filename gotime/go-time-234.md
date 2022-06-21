@@ -30,7 +30,7 @@ I was working at the Financial Times, where we had all of these hundreds of micr
 
 **Matt Toback:** Just even on a personal note, I'm excited that Nayana is here and joining us because we met in 2018 for the first time in an attic in Amsterdam... Which - when said that way, it doesn't feel weird at all, right? \[laughter\]
 
-**Nayana Shetty:** I mean, we were talking loads of monitoring, Grafana, and Graphite, and all of those things... So yeah, attic didn't make a difference then, so \[unintelligible 00:05:07.12\]
+**Nayana Shetty:** I mean, we were talking loads of monitoring, Grafana, and Graphite, and all of those things... So yeah, attic didn't make a difference then, so...
 
 **Matt Toback:** But it was wild, because we planned GrafanaCon EU in 2018, which was technically our third Grafana Con, but was kind of our biggest up to that point, and the most what felt well-produced. It was in the middle of an arctic chill... Do you remember that, that the canals had frozen over?
 
@@ -44,7 +44,7 @@ I was working at the Financial Times, where we had all of these hundreds of micr
 
 But I do remember - you stand out to me, us being up there, kind of in that breakout room, talking about what you were trying to do with the Financial Times... And it feels like you kind of continued in this natural progression, in this natural journey. When you think back to you then, how did you see the world?
 
-**Nayana Shetty:** \[06:15\] At that point we were investigating -- we had quite a lot of monitoring tools at the Financial Times, and I was working on the team that provided monitoring as a service to other teams... And my head was going mad thinking "Okay, how do I as a team with 4-5 engineers be able to support these 20-30-odd engineering teams who all want monitoring?" I'm there using from Nagios, to Zabbix, some Graphite, some \[unintelligible 00:06:42.25\] I think there were very few installations of Prometheus at that point... And it was like "How do we get all of these different use cases together, and how do we get them on a platform which could work together?" And it made me -- I was worried at that point, and three years later or four years later, looking at it, it's like...
+**Nayana Shetty:** \[06:15\] At that point we were investigating -- we had quite a lot of monitoring tools at the Financial Times, and I was working on the team that provided monitoring as a service to other teams... And my head was going mad thinking "Okay, how do I as a team with 4-5 engineers be able to support these 20-30-odd engineering teams who all want monitoring?" I'm there using from Nagios, to Zabbix, some Graphite, some -- I think there were very few installations of Prometheus at that point... And it was like "How do we get all of these different use cases together, and how do we get them on a platform which could work together?" And it made me -- I was worried at that point, and three years later or four years later, looking at it, it's like...
 
 **Matt Toback:** You're still worried. No... \[laughs\]
 
@@ -94,11 +94,11 @@ I do write Go code, and Go has error handling as a kind of explicit feature. The
 
 **Mat Ryer:** Yeah, I don't know... But the thing is, when I'm writing code and it doesn't work, it's shocking how quickly I'm like "There's something wrong with the processor." \[laughter\] "The processor is not working. Or physics has changed." I'll go to "Physics has changed" before it's my fault. But it turns out I just did a capital letter where I shouldn't have.
 
-**Nayana Shetty:** I've been in teams where they do pairing, and those mobbing sessions and stuff... They have kind of helped in \[unintelligible 00:15:32.17\] checking people's egos a bit, and being like "I'm not the best." And when two people talk about it, I think it does help think "Yeah, that is the reality that we live in, and this is what you need to consider."
+**Nayana Shetty:** I've been in teams where they do pairing, and those mobbing sessions and stuff... They have kind of helped in sense-checking people's egos a bit, and being like "I'm not the best." And when two people talk about it, I think it does help think "Yeah, that is the reality that we live in, and this is what you need to consider."
 
 **Matt Toback:** Is there anything that you would -- even like you were saying before, that progression between being in manual testing, and then Q&A, and then moving to SRE... Was there like a moment where it clicked, where people just started incorporating testing into the code? Do you see the same progression happening in observability, to where there'll be some moment and some kind of click where it just becomes part of it, as opposed to the separate thing that happens afterwards?
 
-**Nayana Shetty:** I have seen it work in some teams, and... A lot of teams I've worked in are all autonomous teams, so they can basically build how they want, using whatever technologies they want. What has often helped teams like that is having some sort of guardrails which actually says -- and also being aware that not all applications need the same level of checks and monitoring and all of these... So being aware that "Okay, there is a level of criticality of my app, and if it is a highly critical app, then let me put all of the things in." And if it is a less critical app, in that case you would just have maybe just a simple health check. That would be good enough. You don't need to go all \[unintelligible 00:16:51.23\]And one thing that we had when I was working for FT was you always have at least a basic check on all your apps, otherwise -- like, we used to get this service operability score for our applications, and the score used to go down when we didn't have some of these things in place. That was a nice measure, where people thought about it from the beginning, rather than as an afterthought about some of these.
+**Nayana Shetty:** I have seen it work in some teams, and... A lot of teams I've worked in are all autonomous teams, so they can basically build how they want, using whatever technologies they want. What has often helped teams like that is having some sort of guardrails which actually says -- and also being aware that not all applications need the same level of checks and monitoring and all of these... So being aware that "Okay, there is a level of criticality of my app, and if it is a highly critical app, then let me put all of the things in." And if it is a less critical app, in that case you would just have maybe just a simple health check. That would be good enough. You don't need to go all \[unintelligible 00:16:51.23\] And one thing that we had when I was working for FT was you always have at least a basic check on all your apps, otherwise -- like, we used to get this service operability score for our applications, and the score used to go down when we didn't have some of these things in place. That was a nice measure, where people thought about it from the beginning, rather than as an afterthought about some of these.
 
 But what could happen in these kinds of scenarios is people go all-in and they just say "Oh, I'm gonna monitor everything, have all my logs..." You don't need to go all \[unintelligible 00:17:29.22\] on this. There's a limit to how much you need to monitor as well. And understanding the criticality of your app and then building your observability around that is probably something that teams should think about.
 
@@ -122,11 +122,11 @@ I would say it is hard, it takes time, so invest based on how much returns you w
 
 **Nayana Shetty:** It is the cost, and at the end of the day it should be the cost to the business, as in "How much does having the system down cost us?" and you basically work backwards from there, saying "If this was down for 15 minutes, it would cost the business so much", which means we as a team should be investing more time in actually getting the right amount of measures so we can solve the problem or narrow down the problem quickly.
 
-I would always focus on the business value rather than the team's individual product value, and stuff... But yeah, it depends on -- like, if it were an internal system... Again, one of the teams I was in, we were building monitoring tools for other teams. So we don't have real business value \[unintelligible 00:21:28.24\] as our team, but we were supporting teams that had really high value systems. So that kind of meant that we had to think about the application-level, as well as system-level monitoring on our systems, and stuff.
+I would always focus on the business value rather than the team's individual product value, and stuff... But yeah, it depends on -- like, if it were an internal system... Again, one of the teams I was in, we were building monitoring tools for other teams. So we don't have real business value as such as our team, but we were supporting teams that had really high value systems. So that kind of meant that we had to think about the application-level, as well as system-level monitoring on our systems, and stuff.
 
 **Break:** \[21:50\]
 
-**Mat Ryer:** I love that advice of "Pay attention to the value you're gonna get from the effort that you put in." I like monorepos - I'd just like to put that out there; I love monorepos. And the reason I like them is because you can have a pull request that has a unit test, some backend code, maybe some API changes, frontend code in there too, hopefully with some frontend tests maybe... And it's nice that that all gets applied to the system in one go. Does that also apply to this sort of \[unintelligible 00:23:49.21\]\] instrumentation of that? Should we be having those kinds of conversations at that point, so that we kind of think about it as we go?
+**Mat Ryer:** I love that advice of "Pay attention to the value you're gonna get from the effort that you put in." I like monorepos - I'd just like to put that out there; I love monorepos. And the reason I like them is because you can have a pull request that has a unit test, some backend code, maybe some API changes, frontend code in there too, hopefully with some frontend tests maybe... And it's nice that that all gets applied to the system in one go. Does that also apply to this sort of field or the instrumentation of that? Should we be having those kinds of conversations at that point, so that we kind of think about it as we go?
 
 **Nayana Shetty:** \[23:59\] I would love to say yes, but I've not seen a team do it really well. I can see the challenges -- like, when you have this monorepo and everyone is contributing to the same central repository, there is a challenge that the parameters that you would think about for your product and your monitoring systems might be different to what another team would be looking at. So there is a challenge with how do you then look at this as a product that we sell to customers. You have to think about capability monitoring maybe, rather than your individual product monitoring, where you're thinking about "What is a capability that I'm providing to the customer?" And those should probably be things that we have at a central level, and we do it as in when we add new features, we make sure we don't break the monitoring that we've got across the capability.
 
@@ -140,7 +140,7 @@ But on a single individual product team's perspective - yeah, I don't know how m
 
 **Nayana Shetty:** Central teams pushing things is -- like, irrespective of it being monitoring or anything in general is really hard. It should always be driven by -- like, what I've seen work really well is the ones that are driven by value-add to the individual team itself.
 
-As an example, when we were building this \[unintelligible 00:26:20.17\] that everyone could apply, and they can run their own EC2 instances. When they had this, what we said we will do as part of it is we said "You're going to get monitoring --" I think we were pushing logs to Splunk in that case. So you would get that feature for free. You would get authentication for free. Have those kinds of things that you will get for free as part of whatever feature set you would give, and that has often been a nice way to drive teams to be like "Oh, yes, I like that, and I will do it."
+As an example, when we were building this Amazon Linux, like a baseplate image that everyone could apply, and they can run their own EC2 instances. When they had this, what we said we will do as part of it is we said "You're going to get monitoring --" I think we were pushing logs to Splunk in that case. So you would get that feature for free. You would get authentication for free. Have those kinds of things that you will get for free as part of whatever feature set you would give, and that has often been a nice way to drive teams to be like "Oh, yes, I like that, and I will do it."
 
 **Matt Toback:** Right. Make it so easy that they would rather adopt it, rather than trying to do it themselves.
 
@@ -182,7 +182,7 @@ So I think it's just being okay to experiment and continuously tinker your monit
 
 \[31:46\] I think the common gotcha is forgetting that you need to deliver something that someone can just adopt easily, like you said. It is a version of -- I was thinking like car parts, or legos, I guess... Dropping off like a collection of car parts and being like "There you go!" And you're like "I wanna drive. I get that I can get there, but you haven't helped me really at all." And you call left, and that's where the metaphor I think breaks, but...
 
-But I do think there's some version of that too, stopping short of actually delivering the value to the person consuming it, as opposed to just dropping a collection of pieces that can work, but they have to \[unintelligible 00:32:22.02\] last mile.
+But I do think there's some version of that too, stopping short of actually delivering the value to the person consuming it, as opposed to just dropping a collection of pieces that can work, but they have to do the last mile.
 
 **Mat Ryer:** Well, in a way, what helps that definitely is gonna be this "You build it and you run it." We're not throwing this thing over the wall for someone else to operate... Which I know that actually lots of people do still do that. And there's a disconnect. When you are yourselves kind of running it, you're the customer of that data. So a bit like when you're dogfooding software, if you're building dev tools like we do at Grafana - we dogfood a lot; we'll use our tools a lot internally. That's how they're so good, frankly. It's not like we're imagining the user of this; we are the user, and I think that makes a big difference, doesn't it?
 
@@ -190,7 +190,7 @@ But I do think there's some version of that too, stopping short of actually deli
 
 **Mat Ryer:** That's such a great point, I think... And that leads me to our next question, which is around drills. Should we be doing drills at 3 AM, and living that experience to see what it's like?
 
-**Nayana Shetty:** Three o'clock is probably taking the \[unintelligible 00:33:43.19\] if you were doing drills... \[laughter\]
+**Nayana Shetty:** Three o'clock is probably taking the Mickey out of people if you were doing drills... \[laughter\]
 
 **Matt Toback:** Do people do drills? I guess they do, but it's probably not common, is it?
 
@@ -260,11 +260,11 @@ One way we used to do it is any alert that we actually did anything with, we sta
 
 **Mat Ryer:** Yeah. It means it's cool. Who owns that idea, legally? I don't know...
 
-**Nayana Shetty:** I do, because \[unintelligible 00:46:51.24\] \[laughter\]
+**Nayana Shetty:** I do, because I-- \[laughter\]
 
 **Mat Ryer:** It's a good idea.
 
-**Matt Toback:** \[46:59\] Solved! \[laughter\] I wanted to quickly touch on - as you progress in your career, often you're going to walk into new organizations. And you're new to Lego... And everything today is just reinforced this thought that I was kind of \[unintelligible 00:47:13.13\] this morning, which is all these things are true, all these methods are proven, and in some ways, it has nothing to do with the technology and everything to do with the landscape that you're walking into. And then you have to figure out how and what you introduce.
+**Matt Toback:** \[46:59\] Solved! \[laughter\] I wanted to quickly touch on - as you progress in your career, often you're going to walk into new organizations. And you're new to Lego... And everything today is just reinforced this thought that I was kind of \[unintelligible 00:47:13.13\] on this morning, which is all these things are true, all these methods are proven, and in some ways, it has nothing to do with the technology and everything to do with the landscape that you're walking into. And then you have to figure out how and what you introduce.
 
 I guess I'm curious - how much about open source tooling makes it easier to transfer into a new organization, and even just how much -- how do you approach going into a new org having this experience, but then also not understanding how everything fits together?
 
@@ -294,7 +294,7 @@ And then it's also to do with your metrics aggregation. So you have all of these
 
 And finally, I think it's the whole -- you're doing all of this because you want alerting. So what do we have in the alerting space? Thinking about "Do I use Slack notifications? Do I use email notifications? SMSes? Pager duty?", whatever. And it's just making sure you understand the capabilities of what you're trying to solve, and finding core products in each of those areas. And it could be the same product that solves everything, or it could be different products. And yeah, I tend to lean towards communities and conferences to actually figure out what is hot in the market in places.
 
-**Matt Toback:** Yeah. And what I really like about this is -- that's all kind of like through the lens \[unintelligible 00:53:48.03\] way you think about it as like what are the problems that you're trying to solve for the customer, and what is the value that you're trying to provide. So even at that point, all of these could become sort of like -- it's not interchangeable, but you can solve the problem in 400 different ways. And I just really like that you started -- it feels like you started with that approach, to say "What do you actually need to do? What do you need to protect?" and then figure out how to do it. And I like that. That feels like the most transferable skill \[unintelligible 00:54:16.07\]
+**Matt Toback:** Yeah. And what I really like about this is -- that's all kind of like through the lens -- or at least the way you think about it as like what are the problems that you're trying to solve for the customer, and what is the value that you're trying to provide. So even at that point, all of these could become sort of like -- it's not interchangeable, but you can solve the problem in 400 different ways. And I just really like that you started -- it feels like you started with that approach, to say "What do you actually need to do? What do you need to protect?" and then figure out how to do it. And I like that. That feels like the most transferable skill between company to company.
 
 **Nayana Shetty:** Yeah. And also within teams. When there are so many different teams, and every team is autonomous to use their own tools... I think you need the core principles to be the same, irrespective of what tools they're using, and that's where I find having the capabilities and the principle layer set right would help teams figure out what is the best tool for their use cases and stuff.
 
@@ -310,7 +310,7 @@ Well, unfortunately that's all the time we have, I'm afraid... Thank you so much
 
 **Matt Toback:** No... Because we know what happens, right? The space-time continuum... It's just not good.
 
-**Mat Ryer:** \[unintelligible 00:55:46.10\] Okay. We won't do it then. We won't do it then, Matt. Okay. Well, yes, thank you so much.
+**Mat Ryer:** Biff gets it doesn't he? Okay. We won't do it then. We won't do it then, Matt. Okay. Well, yes, thank you so much.
 
 **Nayana Shetty:** I've enjoyed it. This is a topic that I enjoy speaking in general, so...
 
@@ -340,7 +340,7 @@ Well, unfortunately that's all the time we have, I'm afraid... Thank you so much
 
 **Mat Ryer:** You'd definitely get a ticket of like a double-bass. But you could also do Seinfeld links with it. You could make a little joke, a zinger to the staff...
 
-**Matt Toback:** \[unintelligible 00:57:21.10\]
+**Matt Toback:** Ba dom ba dowm bum bum
 
 **Mat Ryer:** Just do a bit of bass... That would be good, wouldn't it? \[laughter\]
 
