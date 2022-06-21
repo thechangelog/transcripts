@@ -40,7 +40,7 @@
 
 **Jerod Santo:** Yes.
 
-**Adam Stacoviak:** We were just talking about like, I'm a user of past of WriteRoom, and I was like, "Oh man, \[unintelligible 00:05:23.19\] software, I know this. I know WriteRoom", and I had to remind myself. And then we'll probably talk about iA Writer, and different things have happened in the writing app world in Mac, and I'm like, "I don't use it anymore." And it wasn't because you sent too many emails, so kudos to you for not doing that... But there's some software you scrutinize because they talk to you too much, they badge you too much, and they become noise and not signal, either in their actual software or in their emails. It's like, "You know what? Just leave me alone already."
+**Adam Stacoviak:** We were just talking about like, I'm a user of past of WriteRoom, and I was like, "Oh man, Hog Bay software, I know this. I know WriteRoom", and I had to remind myself. And then we'll probably talk about iA Writer, and different things have happened in the writing app world in Mac, and I'm like, "I don't use it anymore." And it wasn't because you sent too many emails, so kudos to you for not doing that... But there's some software you scrutinize because they talk to you too much, they badge you too much, and they become noise and not signal, either in their actual software or in their emails. It's like, "You know what? Just leave me alone already."
 
 **Jesse Grosjean:** Right. Yup. Although one of my resolutions here is that I send this newsletter more often than once every couple of years now that -- I've got it all planned out now. I've actually got some big features, so watch out. It could be two months you might get another mailing.
 
@@ -52,7 +52,7 @@
 
 **Jesse Grosjean:** I know...
 
-**Adam Stacoviak:** ...and \[unintelligible 00:07:49.19\] that you're hanging out on, but I can't see the bigger version of them.
+**Adam Stacoviak:** ...and this mountain that you're hanging out on, but I can't see the bigger version of them.
 
 **Jesse Grosjean:** I'm sorry. Yeah. I thought about it, but--
 
@@ -102,7 +102,7 @@ And so that's been my assumption for a long time, is that for the kinds of thing
 
 **Jerod Santo:** Sure.
 
-**Jesse Grosjean:** For macOS, I think that a lot of text-- I mean, the whole text system, it comes from 30 years -- I don't know, whenever \[unintelligible 00:17:32.08\] was. They have a really hard job of supporting everything that was there and evolving it forward, and I can't imagine trying to do that. So their standard text component that most applications are built on has legacy things that it has to support. And in particular, Bike is a fast outliner, and I've actually just been discussing with some people in some forums, "Well, why -- is it really fast?", everything. Text edits are super-fast on my computer already. And in many cases, text edit is fast, but using - go back to my other app - TaskPaper, which is based on NSTextView, which is the core component for macOS - basic scrolling is fast, but there's all kinds of little weird things that happen. For example, if you resize a document in the middle, all of a sudden, it'll get jumpy, and it might place-- you resize the document, you place your cursor and it jumps to a different position. And so it's little details like that that I'm trying to get right in Bike, which is-- there's lots of editors that get it right, but it's some work to do, too.
+**Jesse Grosjean:** For macOS, I think that a lot of text-- I mean, the whole text system, it comes from 30 years -- I don't know, whenever NextStep was. They have a really hard job of supporting everything that was there and evolving it forward, and I can't imagine trying to do that. So their standard text component that most applications are built on has legacy things that it has to support. And in particular, Bike is a fast outliner, and I've actually just been discussing with some people in some forums, "Well, why -- is it really fast?", everything. Text edits are super-fast on my computer already. And in many cases, text edit is fast, but using - go back to my other app - TaskPaper, which is based on NSTextView, which is the core component for macOS - basic scrolling is fast, but there's all kinds of little weird things that happen. For example, if you resize a document in the middle, all of a sudden, it'll get jumpy, and it might place-- you resize the document, you place your cursor and it jumps to a different position. And so it's little details like that that I'm trying to get right in Bike, which is-- there's lots of editors that get it right, but it's some work to do, too.
 
 **Jerod Santo:** Yeah.
 
@@ -172,7 +172,7 @@ So this was a workspace where you could have supported different syntaxes, so a 
 
 So that's where I started to really wonder, "Huh, are my tools making plain text look good?" And it's also selling the idea that it can look good in any text editor, but really, it's tool-specific often. And so if you're in Sublime and you're writing Markdown, you're probably very careful to soft-wrap the lines, make it look good, and then it looks good in Sublime, all the time. But if you're in a tool like my FoldingText, it would do that automatically for you. So it looked good in FoldingText, but if you open it in Sublime, it'll be a mess. And that's one thing that I had with Markdown and plain text in general, is it's somewhat tool-specific.
 
-**Jerod Santo:** \[29:59\] So handwritten Markdown is portable, if I'm understanding you, because you wrote it by hand, and so it's readable to you, because you wrote it... Maybe with some tooling help where you hit a link button and it turns a thing into a link, or like it pre-populates the Markdown for you... But you're writing it by hand, like I do often, inside Sublime Text. But tool-generated Markdown is not as portable, because the tool is just generating the syntax, which is flexible enough that it might not look good in another tool, or to the human eye. And so you think you're getting this great-- you \[unintelligible 00:30:32.07\] like plain text, but oftentimes, you're not. Is that what you're saying?
+**Jerod Santo:** \[29:59\] So handwritten Markdown is portable, if I'm understanding you, because you wrote it by hand, and so it's readable to you, because you wrote it... Maybe with some tooling help where you hit a link button and it turns a thing into a link, or like it pre-populates the Markdown for you... But you're writing it by hand, like I do often, inside Sublime Text. But tool-generated Markdown is not as portable, because the tool is just generating the syntax, which is flexible enough that it might not look good in another tool, or to the human eye. And so you think you're getting this great-- I can read it like plain text, but oftentimes, you're not. Is that what you're saying?
 
 **Jesse Grosjean:** Yes. That's my opinion. I'm not saying it's 100% true, but that's--
 
@@ -312,7 +312,7 @@ We've seen stories of like the iOS store. You have your \[inaudible 00:51:43.00\
 
 **Jesse Grosjean:** Yeah. But anyway, up, up, up, down, down, down, and then just sort of low holding pattern. I could definitely make more if I was working as a programmer for a company. But gosh, it's painful for me to do that, because I am really interested in exploring my own ideas. And I have done some contracting, and now this is the first-- like I said, I'm not very good at business or marketing or whatever, but I haven't released a new big app since 2016. I just do little updates to TaskPaper. And so that might be part of it, right?
 
-**Jerod Santo:** Yeah, that \[unintelligible 00:54:04.08\]
+**Jerod Santo:** Yeah, that'll maybe do it.
 
 **Jesse Grosjean:** Yeah. So yeah, I try, but it's hard to-- I'm more interested in exploring the idea and trying to get something. And when you have a product that in the end you fall out of love with, it's tricky. So with Bike, the launch, looking back at history, it's been good, similar to what I had when things were going well. And now that I have a solution where I don't have to plan upgrades ahead and do all that, I'm hopeful that I can keep going. And since I kept going without a product that was new, things should be good, right?
 
@@ -470,7 +470,7 @@ If I was them, I can see why they made a lot of these decisions, and not necessa
 
 **Adam Stacoviak:** Blogosphere. Yeah!
 
-**Jerod Santo:** Yeah. The blogosphere in the Mac world is nice. There's a lot of productivity people, MacRumors etc. iMore, which I think covers more than just Mac... But you know, gadget people. Did you go out and reach out to reviewers? You know, the Jason Snells of the world, and say \[unintelligible 01:07:37.06\]
+**Jerod Santo:** Yeah. The blogosphere in the Mac world is nice. There's a lot of productivity people, MacRumors etc. iMore, which I think covers more than just Mac... But you know, gadget people. Did you go out and reach out to reviewers? You know, the Jason Snells of the world, and say hey Six Colors.
 
 **Jesse Grosjean:** Yeah. My memory is terrible, and I've had a whole fire hose of email and stuff. So I can't remember the exact ones that reviewed, but Bike did get reviewed. Sometimes a short, little "Just reposting it here." I remember Mac Stories did a nice review of more in depth than the pluses and the minuses. I remember that one in particular. There was lots of other blog post kind of things, but I don't want to start listing because I'll then forget.
 
