@@ -14,7 +14,7 @@ And Kemal - he wrote two blog posts on various topics, which... There's lots of 
 
 **Frederic Branczyk:** Yeah, I mean - where to start, right? I think one of the most exciting things, that have nothing to do with software for us at Polar Signals, is that we grew the team a ton since we've last talked. I think we doubled the team since you and I talked last... So we're now 11 people, which is extremely exciting to see organizationally. But then, of course, the software that we're building is becoming ever better, ever more features, and more stable, and everything.
 
-Yeah, I think it's cool that you started with the Erlang bit, because that's where we left off last, and it's entirely random that just yesterday that RabbitMQ blog post \[unintelligible 00:03:58.27\] was published, showing what we were trying to do last time is properly supported by Erlang.
+Yeah, I think it's cool that you started with the Erlang bit, because that's where we left off last, and it's entirely random that just yesterday that RabbitMQ blog post was, to no control of you or me, was published, showing what we were trying to do last time is properly supported by Erlang.
 
 **Gerhard Lazu:** \[04:10\] You know, when things are meant to happen, they just happen... So sit back and just let them happen. Just going with the flow. Big fan of that. And seeing things come together this way - we're definitely on the right track with this.
 
@@ -106,7 +106,7 @@ I haven't seen that in the demo; maybe I wasn't paying enough attention... But t
 
 **Gerhard Lazu:** Nice. Okay. I can see it. I can see it. It was really nice... Like, click on the Demo, and I was wanting to know more about it - where it runs, how it's set up, what is being profiled... And I'm glad that you mentioned all those things, because now it just makes a lot more sense in my head.
 
-So the other thing which I - you know, just reading around and doing a bit of research, I've seen you mention that Matthias recently fixed some things in the Polar Signals IO pipeline, the continuous delivery pipeline. So six minutes from PR to dry run, diff \[unintelligible 00:22:08.21\]
+So the other thing which I - you know, just reading around and doing a bit of research, I've seen you mention that Matthias recently fixed some things in the Polar Signals IO pipeline, the continuous delivery pipeline. So six minutes from PR to dry run, diff in the cluster
 
 **Frederic Branczyk:** Yeah, this is pretty exciting.
 
@@ -240,7 +240,7 @@ So does that mean that you can store the samples or the profiles that you get wi
 
 Now, this only does work if you actually have application-level instrumentation for profiling as well, because the profiler needs to know about that trace ID somehow. But if you put in that work - and it's not a lot of work; as a matter of fact, this can actually be done as kind of an OpenTelemetry wrapper, so you only need to install a library and then you have all of that information automatically. And then you can jump from a distribute trace to all of the profiling data associated with that request, or whatever your trace ID represents.
 
-**Gerhard Lazu:** So because you mentioned how Prometheus is being used not as it was designed \[unintelligible 00:47:35.05\] here's a crazy idea, and you tell me if ArcticDB would be abused if it was used for this purpose - what would happen if ArcticDB would be used to store events with arbitrary labels? Would it work?
+**Gerhard Lazu:** So because you mentioned how Prometheus is being used not as it was designed and people abuse it. Here's a crazy idea, and you tell me if ArcticDB would be abused if it was used for this purpose - what would happen if ArcticDB would be used to store events with arbitrary labels? Would it work?
 
 **Frederic Branczyk:** That's exactly the use case that it's built for.
 
@@ -276,7 +276,7 @@ I think there is a possibility in the future to explore that path further, but i
 
 **Gerhard Lazu:** So you've mentioned some amazing people... The one which I would like to start with is Tyler Neely. I didn't even know about him until you mentioned him. He's been building Rust databases since 2014 - Sled, and Rio - so he has a lot of experience. I was watching one of his FOSDEM talks from 2020... He's smart.
 
-**Frederic Branczyk:** My God... \[unintelligible 00:51:33.13\]
+**Frederic Branczyk:** My God... Tyler is...
 
 **Gerhard Lazu:** Like genius smart, sort of...
 
@@ -292,7 +292,7 @@ I think there is a possibility in the future to explore that path further, but i
 
 **Frederic Branczyk:** So like I said - sure, we might have written the code, but Tyler was the person who came up with the mechanism. So yeah, huge shout-out to him for that.
 
-I guess the next one we definitely need to mention are Paul Dix and Andrew Lamb from InfluxDB. Basically, they're building something very similar in Rust. Actually, they've been building it for much longer than we have... \[laughs\] So they were kind of vital, and they were very generous in sharing their experience of what they're building, which is InfluxDB IOx. It's kind of their next-generation columnar database for \[unintelligible 00:53:24.12\] and they essentially have something super-similar with the dynamic columns, and they're also building on top of Apache Arrow and Apache Parquet... So a lot of the foundational pieces are extremely similar, and like I said, they were super-generous in sharing their experience, because we definitely would not be here this soon, this quickly, in this kind of quality if they hadn't shared all of that experience.
+I guess the next one we definitely need to mention are Paul Dix and Andrew Lamb from InfluxDB. Basically, they're building something very similar in Rust. Actually, they've been building it for much longer than we have... \[laughs\] So they were kind of vital, and they were very generous in sharing their experience of what they're building, which is InfluxDB IOx. It's kind of their next-generation columnar database for, that's going to, I think, back all of the influx cloud product. And they essentially have something super-similar with the dynamic columns, and they're also building on top of Apache Arrow and Apache Parquet... So a lot of the foundational pieces are extremely similar, and like I said, they were super-generous in sharing their experience, because we definitely would not be here this soon, this quickly, in this kind of quality if they hadn't shared all of that experience.
 
 **Gerhard Lazu:** Yeah. This is it, right? This is the secret to great teams and great products, and great open source projects - great people coming together over coffee, or a meal, sharing ideas, and then the best ones win, always. And the bad ones eventually go away. There's lots, lots of bad ideas, and there's a lot of fun to be had... So they are important, but it's always amazing people coming together and creating something amazing, and then putting it out there, and see what happens. I love that. You also mention Achille Roussel from Segment...
 
@@ -326,7 +326,7 @@ Every six months, or every few months, actually - it hasn't been that long - whe
 
 **Frederic Branczyk:** Yeah.
 
-**Gerhard Lazu:** \[59:54\] So what about your key take-away for the audience? You mentioned about the people a little bit, but ArcticDB \[unintelligible 00:59:58.10\] but maybe first, what are you thinking in the next six months? Where are you going with the Polar Signals Cloud, what do you expect to happen next...? Just a few things that you can share.
+**Gerhard Lazu:** \[59:54\] So what about your key take-away for the audience? You mentioned about the people a little bit, but ArcticDB, and, we can say the key take-away, but maybe first, what are you thinking in the next six months? Where are you going with the Polar Signals Cloud, what do you expect to happen next...? Just a few things that you can share.
 
 **Frederic Branczyk:** Yeah, we want to GA the product. We wanna make it as accessible to anyone who wants to, as much as we can. Like you said, it'll really only take deploying the agent and you're automatically profiling your entire infrastructure.
 
