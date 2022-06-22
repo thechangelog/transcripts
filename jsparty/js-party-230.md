@@ -32,7 +32,7 @@
 
 **Josh Goldberg:** Sure. Hello, everyone. I am Josh. I'm a frontend/general developer from New York. I used to work full-time for Codecademy previous Microsoft... But now I'm a full-time open source maintainer, contributor person, and as of this week a textbook author with O'Reilly. I made a book, Learning Typescript, that's out now, that you should all buy several copies of, and leave me glowing reviews for.
 
-\[00:04:15.22\] I mostly work around static analysis in the JavaScript ecosystem, so things like TypeScript ESLint, which is the tooling that lets you run ESLint on TypeScript, and then I sometimes contribute to TypeScript also when I have time. So yeah, that's me... Happy to be here.
+\[04:15\] I mostly work around static analysis in the JavaScript ecosystem, so things like TypeScript ESLint, which is the tooling that lets you run ESLint on TypeScript, and then I sometimes contribute to TypeScript also when I have time. So yeah, that's me... Happy to be here.
 
 **Nick Nisi:** Yeah, and we're very excited to have you here as well. Congrats on the book, that's really exciting.
 
@@ -40,7 +40,7 @@
 
 **Nick Nisi:** Tell us about the process of becoming an author.
 
-**Josh Goldberg:** Sure. I did not expect to do it, I'm still somewhat shook by the whole thing happening. O'Reilly reached out to me almost exactly a year ago, or a little bit -- we started a little more than a year ago, because I'd been doing a lot of work around conference-speaking, and my blog, and open source contributions, and I was getting involved at Codecademy, in their Learning TypeScript course, which we did end up releasing... And they wanted a book that can teach people who know Javascript somewhat, but don't know any sort of types or other languages necessarily, the foundations and fundamentals of TypeScript. And that's pretty much what the book became - a ramp-up of "What is a type system? Why do you care? What are these angry, little squiggles in your editor? ...and here's how to really use that to your best advantage."
+**Josh Goldberg:** Sure. I did not expect to do it, I'm still somewhat shook by the whole thing happening. O'Reilly reached out to me almost exactly a year ago, or a little bit -- we started a little more than a year ago, because I'd been doing a lot of work around conference-speaking, and my blog, and open source contributions, and I was getting involved at Codecademy, in their Learning TypeScript course, which we did end up releasing... And they wanted a book that can teach people who know JavaScript somewhat, but don't know any sort of types or other languages necessarily, the foundations and fundamentals of TypeScript. And that's pretty much what the book became - a ramp-up of "What is a type system? Why do you care? What are these angry, little squiggles in your editor? ...and here's how to really use that to your best advantage."
 
 **Nick Nisi:** And we are all now, as of today, Chris, using it to our best advantage... Right?
 
@@ -100,7 +100,7 @@
 
 **Kevin Ball:** So draw the line there for me... The compilation phase... But what else are you including in TypeScript that you don't like, that's not the types.
 
-**Christopher Hiller:** \[00:08:04.15\] Well, why are we talking about this? It's the language -- like, I don't wanna write .ts files. I try to avoid that, okay? But other than that - yeah, we do have a compilation step, but it's Babel in that project. And I know you can make Babel do that, but I haven't really seen the need yet... And of course, converting a JS codebase to TypeScript instead of a JS codebase with some comments is much more of a heavylift. But I'm just so accustomed to doing that now that any new module that I write is probably gonna just be JavaScript with checkJs enabled.
+**Christopher Hiller:** \[08:04\] Well, why are we talking about this? It's the language -- like, I don't wanna write .ts files. I try to avoid that, okay? But other than that - yeah, we do have a compilation step, but it's Babel in that project. And I know you can make Babel do that, but I haven't really seen the need yet... And of course, converting a JS codebase to TypeScript instead of a JS codebase with some comments is much more of a heavylift. But I'm just so accustomed to doing that now that any new module that I write is probably gonna just be JavaScript with checkJs enabled.
 
 **Nick Nisi:** That's the real benefit. It's just a tool to give you all of these extra features, so that your editor knows more about how to help you correctly... And you're getting that, so we're all in the same family here.
 
@@ -126,7 +126,7 @@
 
 **Josh Goldberg:** You know, you just made a very key assumption (perhaps mistake) that a lot of people do. You assume that I'm sufficiently funding myself, which is not a correct assumption. I'm making very little money from this open source thing. But that's okay. I have a wife who has great health insurance, that I can \[unintelligible 00:11:49.20\] off of. But I am getting funded.
 
-\[00:11:54.28\] I think a lot of people just wanna dive into open source just because they love it, but you need to prepare, you need to plan. I planned and prepared by getting active in a lot of open source projects, whether it's just contributing to TypeScript or other things, or actually taking on maintenance for TypeScript ESLint... You need to kind of justify yourself if people are gonna pay you money. You have to do a lot of work, kind of like an influencer, but I hope with less of a negative connotation. You need to convince people that you've got good things going on, you've gotta showcase your work and explain yourself.
+\[11:54\] I think a lot of people just wanna dive into open source just because they love it, but you need to prepare, you need to plan. I planned and prepared by getting active in a lot of open source projects, whether it's just contributing to TypeScript or other things, or actually taking on maintenance for TypeScript ESLint... You need to kind of justify yourself if people are gonna pay you money. You have to do a lot of work, kind of like an influencer, but I hope with less of a negative connotation. You need to convince people that you've got good things going on, you've gotta showcase your work and explain yourself.
 
 So now that I've gotten used to just constantly spamming Twitter with links to my pull requests and whatnot, I'm actually really enjoying it. I've always wanted to do the fun part of coding more than anything else. I like working with people, mentoring, being mentored, team management etc. But what's always got me going is these are really cool things that you can do. You can write these linters that automatically lint, or whatever... And then you can find bugs automatically? That's incredibly cool. So that's made me very happy, and I'm just happy to be able to do that as much as I can per day.
 
@@ -140,7 +140,7 @@ It feels like the type of thing where the reality of working on open source most
 
 **Josh Goldberg:** I'll let you know when I figure it out. Who knows when...? Yeah, it's a great question. I would love to become like a Sindre Sorhus, Evan You etc. type of person, who just makes a salary doing open source. I have this annoying mental block though where I feel bad splurging on myself, like going out for a nice dinner, if I know that this is based off of people giving me what could be misinterpreted as charity. I know that's wrong, but it's something I'm trying to get over.
 
-\[00:16:07.01\] So right now for money, in addition to just living with a person who has a full-time job, I'm doing consulting on the side, or gig economy style things, like pull request reviews. But I think a goal that I could strive towards is to have enough sustainable backers so that I earn, rather than, say, a hundred dollars or a couple hundred dollars a month, maybe like one or two thousand a month.
+\[16:07\] So right now for money, in addition to just living with a person who has a full-time job, I'm doing consulting on the side, or gig economy style things, like pull request reviews. But I think a goal that I could strive towards is to have enough sustainable backers so that I earn, rather than, say, a hundred dollars or a couple hundred dollars a month, maybe like one or two thousand a month.
 
 For reference here - if you look at the salary of a software engineer... Let's say that you're looking at a beginner salary, which is like three digits, a hundred bucks an hour, or some situation... Like 50 to 100 an hour, just to make the math easy... Let's say $50 an hour, which is a really nice salary for a lot of people. In order to get yourself into the top - I think it's like five or ten, or some single-digit percentage of GitHub Sponsors... That's your monthly intake. $5 or $10 a month on GitHub Sponsors is a pretty impressive amount, honestly. Most people don't get all that much. So it's a very different kind of economy, talking about your full-time job, where people can get $200,000, $300,000 a year after a decade of experience, versus GitHub Sponsors where a percent of a percent make minimum wage.
 
@@ -158,7 +158,7 @@ Yeah, I think - to speak to the last point, the company sponsorship full-time is
 
 Usually, the things that I do think of, that I need to scratch my own itch - I can rationalize them. So if I need to build that new little tool for something to help my dayjob, I'll go and do that on the clock, not for fun after work. I'll do other things after work, and play Minecraft, or something. But it really kind of changes your -- I think I was ready for it, I think I got kind of burnt out on just kind of working all day, and then working at night the open source stuff.
 
-\[00:20:00.17\] I think it works for me... It may not work for others, but... You can do it. I'd recommend giving it a shot if you can find a company who's invested in especially a community-owned open source project... Like, I don't know, Kubernetes, or something like that.
+\[20:00\] I think it works for me... It may not work for others, but... You can do it. I'd recommend giving it a shot if you can find a company who's invested in especially a community-owned open source project... Like, I don't know, Kubernetes, or something like that.
 
 **Josh Goldberg:** It's awesome that you've found that and had it for so long that there is a company out there that's willing to spend so much because they've recognized the value of open source. It really is super-valuable; incredibly, almost immeasurably valuable to have sustainably-funded, popular open source projects like what I'm imagining you're working on.
 
@@ -182,7 +182,7 @@ So I haven't had that experience of having my boss actually be on the open sourc
 
 We're gonna take a break now, but when we come back, we will dig into more about Josh has been working on.
 
-**Break:** \[00:23:46.08\] to \[00:25:43.26\]
+**Break:** \[23:46\] to \[25:43\]
 
 **Nick Nisi:** Alright, Josh, so you mentioned that you contribute to a project, TypeScript ESLint. Do you wanna tell us -- start off by telling us what that is.
 
@@ -198,7 +198,7 @@ And then we also are a parser, which allows ESLint to parse in TypeScript syntax
 
 TSLint - yes, it was the linter for TypeScript. It took a very different strategy from TS ESLint. Instead of working on top of ESLint, which allows it to reuse a lot of the infrastructure and rules such as the React Hooks rules that are very good and popular, it is a complete reimplementation, a separate project specifically for TypeScript. I should say "was", because it was archived in 2019, or some similar year.
 
-\[00:28:10.14\] I actually was a maintainer on TSLint when it was killed. I helped kill it. I wrote TSLint to ESLint config, which converts your TSLint config to ESLint... And actually, I felt a lot of joy in killing my old -- the first major project that I'd maintained.
+\[28:10\] I actually was a maintainer on TSLint when it was killed. I helped kill it. I wrote TSLint to ESLint config, which converts your TSLint config to ESLint... And actually, I felt a lot of joy in killing my old -- the first major project that I'd maintained.
 
 Two issues with Palantir being the corporate sponsor of the project... Although they did a good job of not pushing any corporate interests or whatnot, the name Palantir has a lot of negative associations, especially since 2016, Trump got elected and Palantir was what many believe to be the wrong side of history. And there was a great moment where - I'm not gonna name names, but some well-known JavaScript community member started posting "TSLint, brought to you by fascists" on the GitHub issues page... Which was weird for me, since I have never associated with Palantir. Anyway...
 
@@ -234,7 +234,7 @@ The other thing is performance. The single biggest reason why people haven't mov
 
 **Nick Nisi:** What kind of things are you doing with that? Why would the linter need to look at other files?
 
-**Josh Goldberg:** \[00:32:04.28\] I'll give you two examples. The common use case of just running ESLint on the command line, and then also the editor use case. Because those are two of the most common ways that you would run ESLint, and also therefore would run \[unintelligible 00:32:13.21\]
+**Josh Goldberg:** \[32:04\] I'll give you two examples. The common use case of just running ESLint on the command line, and then also the editor use case. Because those are two of the most common ways that you would run ESLint, and also therefore would run \[unintelligible 00:32:13.21\]
 
 On the command line you need to have the full information of the TypeScript type checker in order to use type system, type API informed rules.
 
@@ -256,7 +256,7 @@ So an ESLint rule might not be able to work on the TypeScript AST. It might be l
 
 So really, there are three ASTs - there's the TypeScript AST, ESLint AST, and then the TypeScript ESLint AST, which aligns to the ESLint AST and adds in TypeScript features. And this is why when someone asks me what TypeScript ESLint is, I start with the "Oh, it adds rules" explanation, because it gets kind of hard to keep track on the inside.
 
-**Christopher Hiller:** \[00:36:04.00\] So it's essentially just like an adapter between TypeScript and ESLint, right?
+**Christopher Hiller:** \[36:04\] So it's essentially just like an adapter between TypeScript and ESLint, right?
 
 **Josh Goldberg:** It's a very good way of putting it, that I will steal. Thank yo.
 
@@ -290,7 +290,7 @@ To be clear, we are very mature. You have been able to use us stably for years. 
 
 **Josh Goldberg:** I'm pleased. It's nice. The ecosystem can move forward, because we don't have two linters to maintain, and the React team isn't gonna keep getting pestered by people to write TSLint rules of hooks the way they used to.
 
-**Nick Nisi:** \[00:40:00.01\] Yeah. There's some really cool rules out there, that are extremely helpful. You mentioned the React ones... I'm thinking specifically of like the -- I don't know the actual names of the rules, but the one that tells me if I'm missing dependencies in my use memo or use effect hooks. Those are really cool, being able to analyze the code down to that... Because it really does help me just make sure that I keep that list up to date, or keep that together.
+**Nick Nisi:** \[40:00\] Yeah. There's some really cool rules out there, that are extremely helpful. You mentioned the React ones... I'm thinking specifically of like the -- I don't know the actual names of the rules, but the one that tells me if I'm missing dependencies in my use memo or use effect hooks. Those are really cool, being able to analyze the code down to that... Because it really does help me just make sure that I keep that list up to date, or keep that together.
 
 And then you mentioned a couple of your favorite rules; the no floating promises one is a good one. I do really like the no explicit any... I love those, because whenever I foolishly want to use any, I have to disable that with ESLint, disable next line, and then usually I give a reason as to why, so it's called out, "This is why I'm doing it."
 
@@ -310,7 +310,7 @@ The worst is some products like Create React App would block your local developm
 
 **Josh Goldberg:** I love it. I wanna speak in probabilities of certainty now. TypeScript will give you an error if it is, let's say, 99.9% certain you're wrong. If you, let's say, declare a variable to be a string, and then give it a number - there are code cases where that's reasonable, or the number might coincidentally work, but the vast majority of the time, TypeScript's bar of 99.9% is correct.
 
-\[00:43:55.27\] I consider lint rules to be ones that you should give the angry squiggles on... Depending on the project and the team familiarity with JavaScript or TypeScript and the linter, maybe you'd wanna say "Turn on things that are 80% or 90% certain" as like "You should probably do this." Even though TypeScript has a flag for this, we recommend people use our lint rule \[unintelligible 00:44:15.19\] It's more configurable. The vast majority of the time unused variable is just a sign that you should remove it to simplify your code. Or maybe that you're forgetting to pass something somewhere.
+\[43:55\] I consider lint rules to be ones that you should give the angry squiggles on... Depending on the project and the team familiarity with JavaScript or TypeScript and the linter, maybe you'd wanna say "Turn on things that are 80% or 90% certain" as like "You should probably do this." Even though TypeScript has a flag for this, we recommend people use our lint rule \[unintelligible 00:44:15.19\] It's more configurable. The vast majority of the time unused variable is just a sign that you should remove it to simplify your code. Or maybe that you're forgetting to pass something somewhere.
 
 So for stylistic rules, things like naming - I'm not huge that you should really go gung-ho on this. Some people even like sorting object properties; I personally do it, but I've never been on a team where I would think that politically appropriate. I don't think it's worth the effort, the pain, for many.
 
@@ -334,7 +334,7 @@ One idea that I've had, as not necessarily an ESLint or TypeScript ESLint extens
 
 And yeah, I actually really like that idea, giving you like a scorecard of "Hey, no-shadow - maybe you should turn that off."
 
-**Nick Nisi:** \[00:48:14.08\] Yeah.
+**Nick Nisi:** \[48:14\] Yeah.
 
 **Josh Goldberg:** I really like that. So file a feature request.
 
@@ -364,7 +364,7 @@ So I also added the option to the VS Code ESLint extension to downgrade all warn
 
 **Josh Goldberg:** That is useful.
 
-**Break:** \[00:50:39.01\]
+**Break:** \[50:39\]
 
 **Nick Nisi:** Alright, so Josh, we talked about your book, and kind of Learning TypeScript in the first section, and then we talked about code that learns about your code, sort of, in the second section about TypeScript ESLint... Let's take a step back from that and tie them together, talking about how you can actually teach in a way that's a good way for actually learning things. I don't know if I could have said that any worse, but... \[laughs\] Take it away.
 
@@ -376,7 +376,7 @@ Clarity is really key, and something that a lot of lint rules have struggled wit
 
 **Nick Nisi:** That's so much more helpful.
 
-**Josh Goldberg:** \[00:54:01.05\] Yeah. And that really helps with the everyone hating on ESLint for giving you useless spew. Most of the time, if you have a well-configured ESLint config, you might be wrong. And actually, TypeScript as a language also has put a lot of work in, the team has put a lot of work in to improving the error messages there. Some of the most popular things for external contributors, like \[unintelligible 00:54:19.23\]
+**Josh Goldberg:** \[54:01\] Yeah. And that really helps with the everyone hating on ESLint for giving you useless spew. Most of the time, if you have a well-configured ESLint config, you might be wrong. And actually, TypeScript as a language also has put a lot of work in, the team has put a lot of work in to improving the error messages there. Some of the most popular things for external contributors, like \[unintelligible 00:54:19.23\]
 
 The thing that I've really come to appreciate and love about teaching code is using kind of a mathematical basis for how you introduce topics. We've already talked about trees, so we might as well talk about graph theory. How do you figure out what order to teach things in? Well, you can represent each topic as a circle or a node \[unintelligible 00:54:39.05\] would call it, and then you make lines between those circles called edges, and then you do a graph search to figure out what comes first. You can't teach interfaces in TypeScript before you teach the concept of what is a type annotation, what is a shape. And for those things to be taught, you have to explain why are type annotations, why are types important in JavaScript. Well, you see, someone in '94 or whatever took ten days to design the thing etc.
 
@@ -394,7 +394,7 @@ So I've really come to love using graph theory and flow kind of analysis, how mu
 
 But also, that's kind of where interactive examples or assignments - that's where they really come in to be valuable too, because they're just another perspective on it, and they're the more hands-on, applicable one, that you can then take and build on from there.
 
-**Josh Goldberg:** \[00:58:04.17\] I think that's one of the biggest issues with the book format, speaking as someone who just made a book. The book is inherently hard to do an interactive example on, especially for a computer-based thing. In the Learning TypeScript book I gave up on that. There are no interactive projects in the book itself, just links to learnigtypescript.com, which has most of those projects filled out, and is pending for a couple chapters that I will have done soon.
+**Josh Goldberg:** \[58:04\] I think that's one of the biggest issues with the book format, speaking as someone who just made a book. The book is inherently hard to do an interactive example on, especially for a computer-based thing. In the Learning TypeScript book I gave up on that. There are no interactive projects in the book itself, just links to learnigtypescript.com, which has most of those projects filled out, and is pending for a couple chapters that I will have done soon.
 
 I really love Execute Program for that, which is a great website; I wanna say Gary Bernhardt makes it... It's just all these really fantastic, hands-on examples and projects, which are, I think, one of the best ways to learn.
 
