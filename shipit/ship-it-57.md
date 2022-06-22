@@ -16,7 +16,7 @@ And Kemal - he wrote two blog posts on various topics, which... There's lots of 
 
 Yeah, I think it's cool that you started with the Erlang bit, because that's where we left off last, and it's entirely random that just yesterday that RabbitMQ blog post \[unintelligible 00:03:58.27\] was published, showing what we were trying to do last time is properly supported by Erlang.
 
-**Gerhard Lazu:** \[00:04:10.23\] You know, when things are meant to happen, they just happen... So sit back and just let them happen. Just going with the flow. Big fan of that. And seeing things come together this way - we're definitely on the right track with this.
+**Gerhard Lazu:** \[04:10\] You know, when things are meant to happen, they just happen... So sit back and just let them happen. Just going with the flow. Big fan of that. And seeing things come together this way - we're definitely on the right track with this.
 
 So I know that Kemal Akkoyun was with you back in December... He wrote two blog posts, amazing blog posts, on this topic. Fantastic Symbols and Where to Find Them, Part 1 and 2. We'll drop them in the show notes. They explain a lot more of the issues that we're seeing, and issues we're specifically symbolizing stack traces - Kemal did an amazing job explaining it in great detail. There's some screenshots there... David covers a lot of this in his blog post, the recent blog post... So it's a really deep dive into this topic, and I really enjoy these fantastic people spending a lot of time just to explain in very detailed terms what the problem is, why it's important, how it works... Big fan of that, too.
 
@@ -30,7 +30,7 @@ So that was really important, so that we can do analysis of an entire infrastruc
 
 So that's exciting... And kind of as a bonus, every Rust binary out there is a position-independent executable. So that means that just by doing all of this work we now support Rust, even better than we did before.
 
-**Gerhard Lazu:** \[00:08:04.26\] That's amazing. That's amazing. The one thing -- so thank you for slowing me down, because you're right, this is important; to talk about those two blog posts, the Fantastic Symbols and Where To Find Them... The first one, the ELF Linux executable walkthrough - that picture I think is worth a thousand words in this case. It explains so well how this breaks down, how the ELF binary breaks down, what it is... Sorry, the ELF format. And there's so much to that. And then in part two, where we talk about JIT and Node is given as an example, how does it actually work in practice. It's really nice to see that and to basically connect those dots, because as you mentioned, the problem space is huge, and if you're missing those fundamentals it's very difficult to understand how the pieces fit together, and what are you even looking at.
+**Gerhard Lazu:** \[08:04\] That's amazing. That's amazing. The one thing -- so thank you for slowing me down, because you're right, this is important; to talk about those two blog posts, the Fantastic Symbols and Where To Find Them... The first one, the ELF Linux executable walkthrough - that picture I think is worth a thousand words in this case. It explains so well how this breaks down, how the ELF binary breaks down, what it is... Sorry, the ELF format. And there's so much to that. And then in part two, where we talk about JIT and Node is given as an example, how does it actually work in practice. It's really nice to see that and to basically connect those dots, because as you mentioned, the problem space is huge, and if you're missing those fundamentals it's very difficult to understand how the pieces fit together, and what are you even looking at.
 
 Why is this important? David, he wrote it in the Improving RabbitMQ Performance blog post. He showed the importance of understanding what is happening at a very low level when it comes to reasoning about performance, when it comes to improving performance in whatever you're running. So where is the time spent, what is least efficient. And because these things are so complicated, can we have a universal language, please, to understand what is happening? And I think, to a great extent, eBPF allows us to do things that were not possible before, or were very hard before, and only a handful of people were able to pull this one off. And even then, spend a lot of time. Brendan Gregg comes to mind. He did so much for the Flame Graph, understanding CPU sampling, CPU profiling, all that.
 
@@ -42,7 +42,7 @@ That's what I'm kind of trying to say - we learned also about Erlang; that's kin
 
 And having an open source project that makes this really, really easy - that's what just got me excited the first time I heard about Parca... Because I knew how difficult it is to get it right. And I think everyone that's spent a bit of time with pprof and - which is the other one? DBG? No, GDB... Oh, my goodness me. Oh, wow. That's like another tool which is so difficult to use. And I had to spend a bit of time there, and I almost always forgot my steps. There's so many. So unless you do this all day, every day, it's really hard stuff. And Parca makes it simple, and I love that story.
 
-**Frederic Branczyk:** \[00:12:00.26\] It's funny that you phrase it in that way, because a couple of weeks ago I was talking to a high-frequency trading company, and as I think everybody can imagine, shaving off a single CPU cycle is a competitive advantage to them. And even in those kinds of environments, they were telling us that -- like, they love how we're going the extra mile, and doing continuous profiling... But they would already be happy with profiling products that just made it easier to do profiling. So we're kind of doing multiple things there. We're doing exactly that, like you already said, and then we're also going that extra step of actually giving them performance data of all of time, not just a single point in time.
+**Frederic Branczyk:** \[12:00\] It's funny that you phrase it in that way, because a couple of weeks ago I was talking to a high-frequency trading company, and as I think everybody can imagine, shaving off a single CPU cycle is a competitive advantage to them. And even in those kinds of environments, they were telling us that -- like, they love how we're going the extra mile, and doing continuous profiling... But they would already be happy with profiling products that just made it easier to do profiling. So we're kind of doing multiple things there. We're doing exactly that, like you already said, and then we're also going that extra step of actually giving them performance data of all of time, not just a single point in time.
 
 **Gerhard Lazu:** Yeah. And just as we've shown in episode 33, there's even like a pull request that goes with it. Anyone can take this; if you have Kubernetes, it's super-simple. One command and you have it. That's all it takes. And it's open source; you're free to look at it, contribute to it, make it your own... Whatever you wanna do with it, because it's such an important piece of technology, I think.
 
@@ -64,7 +64,7 @@ And having an open source project that makes this really, really easy - that's w
 
 **Frederic Branczyk:** So that was a cool collaboration that I think unless you ask about it, you don't really find out... But aside from the website, they actually also influenced the way that Parca looks today.
 
-**Gerhard Lazu:** \[00:16:05.05\] So I'm really glad that you mentioned that, because when I looked at the new website and I've seen the Flame Graphs, my first thought was "Hang on... They didn't look like this. Is this real? Has this actually happened?" I ran the update, checked the new Flame Graphs, and they're exactly the same. And I remember that we talked about this around episode 33, and I was thinking, "Hm... That's one thing which could do with some improving, because it's a bit difficult to understand certain things..." Still, huge improvement over what we had before, but not as easy as it could be. And it was great to see... That's one of the first things which I've noticed.
+**Gerhard Lazu:** \[16:05\] So I'm really glad that you mentioned that, because when I looked at the new website and I've seen the Flame Graphs, my first thought was "Hang on... They didn't look like this. Is this real? Has this actually happened?" I ran the update, checked the new Flame Graphs, and they're exactly the same. And I remember that we talked about this around episode 33, and I was thinking, "Hm... That's one thing which could do with some improving, because it's a bit difficult to understand certain things..." Still, huge improvement over what we had before, but not as easy as it could be. And it was great to see... That's one of the first things which I've noticed.
 
 The other thing which I noticed is your favorite Easter Egg. Can you tell us a bit about it?
 
@@ -76,7 +76,7 @@ The other thing which I noticed is your favorite Easter Egg. Can you tell us a b
 
 **Gerhard Lazu:** That's how I think of Easter Eggs.
 
-**Break:** \[00:17:46.09\]
+**Break:** \[17:46\]
 
 **Gerhard Lazu:** So I think that you can almost anticipate this question, because I think I asked it last time... Do you use profile Parca.dev?
 
@@ -86,7 +86,7 @@ The other thing which I noticed is your favorite Easter Egg. Can you tell us a b
 
 **Frederic Branczyk:** All the time, yes. Specifically, our demo cluster - so if you go to demo.parca.dev, that's Parca profiling itself, but also the Parca Agent profiling itself; so it's all super-meta... And actually, we have like a Prometheus setup that is monitoring it as well. So all of this we're kind of using to do improvements all the time, and to figure out whether the improvements that we're doing actually make sense and have the desired effect.
 
-**Gerhard Lazu:** \[00:20:10.21\] I think that's so important. Dogfooding your own product, and the thing that you're working on, in this case, like your open source -- would you call it a product? Would you say Parca is a product, or a project?
+**Gerhard Lazu:** \[20:10\] I think that's so important. Dogfooding your own product, and the thing that you're working on, in this case, like your open source -- would you call it a product? Would you say Parca is a product, or a project?
 
 **Frederic Branczyk:** Parca is the project, and then Polar Signals Cloud is the product.
 
@@ -124,7 +124,7 @@ So the other thing which I - you know, just reading around and doing a bit of re
 
 **Gerhard Lazu:** Okay.
 
-**Frederic Branczyk:** \[00:23:45.28\] We just do -- so previously, we did most of our caching through Docker layers, but we ran into a couple of issues with that where I wasn't... I don't remember exactly anymore what the problem was, but there were some permission issues and we couldn't figure out why that was happening, and the saving and loading of Docker caches was actually taking longer than running the builds... So we decided we're not gonna do the actual build within the Docker files anymore. Because we have 100% statically-linked Go binaries - that's all that Polar Signals Cloud is made up of - so we're building the statically-linked binaries before, and then we just put those into containers.
+**Frederic Branczyk:** \[23:45\] We just do -- so previously, we did most of our caching through Docker layers, but we ran into a couple of issues with that where I wasn't... I don't remember exactly anymore what the problem was, but there were some permission issues and we couldn't figure out why that was happening, and the saving and loading of Docker caches was actually taking longer than running the builds... So we decided we're not gonna do the actual build within the Docker files anymore. Because we have 100% statically-linked Go binaries - that's all that Polar Signals Cloud is made up of - so we're building the statically-linked binaries before, and then we just put those into containers.
 
 **Gerhard Lazu:** Okay.
 
@@ -152,7 +152,7 @@ Have you ever found yourself in a situation where you have to roll back? A chang
 
 **Frederic Branczyk:** Absolutely. That's where another really cool piece comes into play... One of my colleagues - I think you mentioned Matthias already... He built a really cool tool called Pyrra, which is for planning, but also maintaining and tracking SLOs. And all of our APIs have SLOs through Pyrra. So when we have a genuine user impact through a merge and we get notified within a couple of mintues, then we can easily roll back the change, and at worst, we have the time that it took to alert us, which is usually somewhere between five to ten minutes, if there's a really drastic problem, and then we roll back. So turnaround, 16 to 20 minutes until we would have rolled back a severe change.
 
-**Gerhard Lazu:** \[00:27:50.14\] That sounds like a very nice setup. Very, very nice. I bet it must be so nice working with all this tooling, that you mostly built, and you understand how everything fits together, and you have like a very nice and efficient system of getting changes out... And if something -- I don't wanna say breaks; if something behaves unexpectedly, you can go back and you can see when it happens.
+**Gerhard Lazu:** \[27:50\] That sounds like a very nice setup. Very, very nice. I bet it must be so nice working with all this tooling, that you mostly built, and you understand how everything fits together, and you have like a very nice and efficient system of getting changes out... And if something -- I don't wanna say breaks; if something behaves unexpectedly, you can go back and you can see when it happens.
 
 **Frederic Branczyk:** Yeah.
 
@@ -172,7 +172,7 @@ So multi-error burn rates essentially calculate how quickly are we burning our e
 
 This is something -- you know, you have those projects that people get like ideas they are very excited about for a few months, and then they stop being as excited, and then it becomes abandonware... This doesn't seem to be that. And I really like that a lot of interest is on this; you're using it, you're seeing the benefits of it longer-term, more than a few months... And I'm very curious to see where this goes. I think this has some great potential, and I like how Matthias is thinking about it, for sure, so that' one's coming up. Thank you, Frederic, for mentioning that.
 
-**Frederic Branczyk:** \[00:32:14.28\] Yeah. I'm sure he'll be happy to do an episode with you.
+**Frederic Branczyk:** \[32:14\] Yeah. I'm sure he'll be happy to do an episode with you.
 
 **Gerhard Lazu:** Amazing. So I'd like us to take this like a half-point, so I'd like us to do like a conversation cleanser... But I would like to talk about the orange farm. I'd like you to tell us more about that orange farm, Frederic... \[laughter\] What is this orange farm?
 
@@ -202,7 +202,7 @@ One of the drawbacks is that you don't get to spend in-person time, quality time
 
 **Gerhard Lazu:** Okay.
 
-**Break:** \[00:35:40.13\]
+**Break:** \[35:40\]
 
 **Gerhard Lazu:** So there's another huge thing that happened just before KubeCon EU... You introduced ArcticDB, and that's what I would like us to talk about next. So what is ArcticDB and why does the world need something like ArcticDB?
 
@@ -210,7 +210,7 @@ One of the drawbacks is that you don't get to spend in-person time, quality time
 
 ArcticDB is a columnar database. As opposed to many other databases, where let's say in SQLite, for example, typically the data is stored in rows, if you insert a new row into your SQLite database, physically, on-disk, all of the data that belongs to the same row are physically collocated. That's a row-based database. And then a columnar database - we store all of the values of an entire column collocated. And that's really useful when you wanna do analytics of the data. So if you wanna scan an entire column, and then say you wanna aggregate it, you wanna sum all of the values in there. Or you want to do comparisons of strings, or something like that; it just turns out that the way that computers work, that's much more efficient to do than doing kind of random access on disk, and loading individual pieces off of this to do those things.
 
-\[00:39:55.03\] So that's why we for Parca needed a columnar database. We kind of realized that pretty early on. And I have some kind of prior experience with the Prometheus TSDB, which if you squint a lot, is also a columnar database, but highly, highly optimized for the Prometheus use case.
+\[39:55\] So that's why we for Parca needed a columnar database. We kind of realized that pretty early on. And I have some kind of prior experience with the Prometheus TSDB, which if you squint a lot, is also a columnar database, but highly, highly optimized for the Prometheus use case.
 
 The one thing that is additionally kind of different in ArcticDB, that really there's no other database out there that allows you to do something like this, which is - we have semi-flexible schemas. So you can define a schema, and you can say "These columns must always be there" if you insert a new row, but then we also have something that we call dynamic columns. And this is specifically useful for label-style data, similar to what Prometheus has. We wanna be able to attach labels to specific data points, so that we can then slice and dice data by random infrastructure labels. It can be the region of our data center, it can be the name of our data center, it can be our namespace in our Kubernetes cluster, it can be our pod, it can be our container, it can be our process ID.
 
@@ -224,7 +224,7 @@ Essentially, the way it's done in ArcticDB is that every time we see a new label
 
 **Gerhard Lazu:** Of course. Okay.
 
-**Frederic Branczyk:** \[00:43:41.27\] But the characteristics of paying for cardinality are dramatically different. In Prometheus we want to keep series of data alive for as long as possible, because that improves compression, and that's ultimately one of the pieces that make Prometheus as efficient as it is. Again, that's why I keep going back to - this is a good design for Prometheus, because it allows Prometheus to exploit several pieces of that equation to be able to serve things like the super-low latency queries like Prometheus does.
+**Frederic Branczyk:** \[43:41\] But the characteristics of paying for cardinality are dramatically different. In Prometheus we want to keep series of data alive for as long as possible, because that improves compression, and that's ultimately one of the pieces that make Prometheus as efficient as it is. Again, that's why I keep going back to - this is a good design for Prometheus, because it allows Prometheus to exploit several pieces of that equation to be able to serve things like the super-low latency queries like Prometheus does.
 
 In ArcticDB we're not paying per series, we're basically paying per row that we're inserting. And the point is we're kind of bringing the cost of inserting a row down so much that we don't care anymore how many columns we have in that row. Basically, our cost is at the row level, as opposed to the cardinality level.
 
@@ -246,11 +246,11 @@ Now, this only does work if you actually have application-level instrumentation 
 
 **Gerhard Lazu:** Okay. Nice.
 
-**Frederic Branczyk:** \[00:47:55.06\] Yeah. You could absolutely use ArcticDB to store distributed tracing data, or log data. It's not something that we're focusing on ourselves right now, just because it's important for us to stay focused on continuous profiling...
+**Frederic Branczyk:** \[47:55\] Yeah. You could absolutely use ArcticDB to store distributed tracing data, or log data. It's not something that we're focusing on ourselves right now, just because it's important for us to stay focused on continuous profiling...
 
 **Gerhard Lazu:** Of course.
 
-**Frederic Branczyk:** But I think the possibilities are exciting. One of the first comments that we got when we open-sourced ArcticDB was "Can we use this instead of Prometheus TSDB, to solve some of the cardinality issues?" and definitely this is a possibility, but also we need to take it with a grain of salt. ArcticDB - we open-sourced it the moment it started working, and Prometheus TSDB has had seven years of performance optimizations.
+**Frederic Branczyk:** But I think the possibilities are exciting. One of the first comments that we got when we open sourced ArcticDB was "Can we use this instead of Prometheus TSDB, to solve some of the cardinality issues?" and definitely this is a possibility, but also we need to take it with a grain of salt. ArcticDB - we open sourced it the moment it started working, and Prometheus TSDB has had seven years of performance optimizations.
 
 I think there is a possibility in the future to explore that path further, but it's definitely gonna take a while to get any sort of similar performance characteristics. And like I said, Prometheus was specifically designed for those super-low-latency queries, so the fundamental setup does mean that Prometheus should always outperform ArcticDB... But ArcticDB I think can get pretty close because of the couple of tricks that we're doing with the data.
 
@@ -264,7 +264,7 @@ I think there is a possibility in the future to explore that path further, but i
 
 **Gerhard Lazu:** Does it have any primitives when it comes to clustering? Does it understand the cluster of processes that have ArcticDB embedded?
 
-**Frederic Branczyk:** So that's something that we're building for Polar Signals Cloud right now, and it's possible that we'll open-source this in the future. The reality is we're a business, we need to at some point start making some money, right?
+**Frederic Branczyk:** So that's something that we're building for Polar Signals Cloud right now, and it's possible that we'll open source this in the future. The reality is we're a business, we need to at some point start making some money, right?
 
 **Gerhard Lazu:** Of course, of course.
 
@@ -286,7 +286,7 @@ I think there is a possibility in the future to explore that path further, but i
 
 **Frederic Branczyk:** Yeah. Let's start with Tyler, actually. So I've known Tyler for six years, seven years almost... He actually rented a desk from us at CoreOS times, in the CoreOS Berlin office... And he was already -- he had some history at Mesosphere, working on Zookeeper as well... And yeah, just any crazy distributed system or high-performance databases that you can think of, he's had his hands in somehow.
 
-\[00:52:12.18\] I'm also friends with Tyler, I like to go for a coffee with him or something, and we just have common interests. I was talking to him that we're thinking about building this new database, with these kinds of characteristics, and I'm not sure about our model for transactions. So we just spent kind of several hours together, discussing various isolation and consistency mechanisms... And ultimately, what we ended up implementing is 100% his idea.
+\[52:12\] I'm also friends with Tyler, I like to go for a coffee with him or something, and we just have common interests. I was talking to him that we're thinking about building this new database, with these kinds of characteristics, and I'm not sure about our model for transactions. So we just spent kind of several hours together, discussing various isolation and consistency mechanisms... And ultimately, what we ended up implementing is 100% his idea.
 
 **Gerhard Lazu:** Wow...
 
@@ -300,7 +300,7 @@ I guess the next one we definitely need to mention are Paul Dix and Andrew Lamb 
 
 **Gerhard Lazu:** That was another shout-out. And Julien Pivotto from the Prometheus team.
 
-**Frederic Branczyk:** Yeah, so I've never actually spoken to him in-person, but I've spoken to other people at Segment. I think it's pronounced Achille. So Achille is an incredible engineer. He's put together most of the Parquet Go library that we're using under the hood. And it was kind of a collaboration... In January I was doing research of which Parquet libraries are out there, and I wanna say I might have tweeted it, or something like that, and then Achille was like "I've got something for you." At that point the library was actually still closed source. Just Segment was working on it by themselves. Then they kind of open-sourced it, and we've had a super-tight collaboration. I wanna say I've done 20 pull requests myself against this library by now, and they're just -- it's a very, very fine piece of engineering. Huge shout-out. The APIs are just super-thought-through. The performance is just incredible. ArcticDB would be nowhere if it wasn't for that work. Listeners, don't take away anything else from this conversation; just check out that library. I'm a huge fan.
+**Frederic Branczyk:** Yeah, so I've never actually spoken to him in-person, but I've spoken to other people at Segment. I think it's pronounced Achille. So Achille is an incredible engineer. He's put together most of the Parquet Go library that we're using under the hood. And it was kind of a collaboration... In January I was doing research of which Parquet libraries are out there, and I wanna say I might have tweeted it, or something like that, and then Achille was like "I've got something for you." At that point the library was actually still closed source. Just Segment was working on it by themselves. Then they kind of open sourced it, and we've had a super-tight collaboration. I wanna say I've done 20 pull requests myself against this library by now, and they're just -- it's a very, very fine piece of engineering. Huge shout-out. The APIs are just super-thought-through. The performance is just incredible. ArcticDB would be nowhere if it wasn't for that work. Listeners, don't take away anything else from this conversation; just check out that library. I'm a huge fan.
 
 **Gerhard Lazu:** Right. We'll put it in the show notes, because that sounds like a very important one. Okay, okay.
 
@@ -312,7 +312,7 @@ I guess the next one we definitely need to mention are Paul Dix and Andrew Lamb 
 
 **Gerhard Lazu:** Okay.
 
-**Frederic Branczyk:** \[00:56:09.16\] Basically, it's kind of the classic SaaS model. You wanna reap all of the benefits of continuous profiling, you understand that it's useful, but you don't wanna have to maintain the backend system, the APIs, uptimes, storage efficiency and all of that... Running a distributed database... All of those things. So basically, the entire experience of Polar Signals Cloud is you just deploy the Parca Agent on your Kubernetes cluster, you point it at Polar Signals Cloud, and you're automatically profiling your entire infrastructure, just like that. There's nothing else that you need to do. So yeah, that's the product that we're currently working on. It's not generally available yet; we trialing it with a couple of early beta customers... But yeah, if there are any listeners that think that they'd be a particularly good case study for us, please reach out. You can sign up on our website; we'll get an email that you've signed up, and we can chat and figure out if it makes sense.
+**Frederic Branczyk:** \[56:09\] Basically, it's kind of the classic SaaS model. You wanna reap all of the benefits of continuous profiling, you understand that it's useful, but you don't wanna have to maintain the backend system, the APIs, uptimes, storage efficiency and all of that... Running a distributed database... All of those things. So basically, the entire experience of Polar Signals Cloud is you just deploy the Parca Agent on your Kubernetes cluster, you point it at Polar Signals Cloud, and you're automatically profiling your entire infrastructure, just like that. There's nothing else that you need to do. So yeah, that's the product that we're currently working on. It's not generally available yet; we trialing it with a couple of early beta customers... But yeah, if there are any listeners that think that they'd be a particularly good case study for us, please reach out. You can sign up on our website; we'll get an email that you've signed up, and we can chat and figure out if it makes sense.
 
 **Gerhard Lazu:** Yeah. I really like that simplicity of just setting up the Agent, and you have it all. I remember from when I used to set up Prometheus and Grafana on Kubernetes, and managing them, the upgrades and all that... It's not difficult, but it's an extra thing that you have to do. And sometimes there's higher-value things that you may want to do instead. Different use cases, different setups...
 
@@ -326,7 +326,7 @@ Every six months, or every few months, actually - it hasn't been that long - whe
 
 **Frederic Branczyk:** Yeah.
 
-**Gerhard Lazu:** \[00:59:54.11\] So what about your key take-away for the audience? You mentioned about the people a little bit, but ArcticDB \[unintelligible 00:59:58.10\] but maybe first, what are you thinking in the next six months? Where are you going with the Polar Signals Cloud, what do you expect to happen next...? Just a few things that you can share.
+**Gerhard Lazu:** \[59:54\] So what about your key take-away for the audience? You mentioned about the people a little bit, but ArcticDB \[unintelligible 00:59:58.10\] but maybe first, what are you thinking in the next six months? Where are you going with the Polar Signals Cloud, what do you expect to happen next...? Just a few things that you can share.
 
 **Frederic Branczyk:** Yeah, we want to GA the product. We wanna make it as accessible to anyone who wants to, as much as we can. Like you said, it'll really only take deploying the agent and you're automatically profiling your entire infrastructure.
 
