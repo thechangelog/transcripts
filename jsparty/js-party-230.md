@@ -104,11 +104,11 @@
 
 **Nick Nisi:** That's the real benefit. It's just a tool to give you all of these extra features, so that your editor knows more about how to help you correctly... And you're getting that, so we're all in the same family here.
 
-**Christopher Hiller:** And as part of the build step, or whatever, the CI, the build -- there is no real build, but I just run tsc \[unintelligible 00:09:06.09\] and if it fails, then I screwed up some types somewhere. Maybe I wanna emit declarations, or something, but... That's what I like. And I hear it's getting more popular, I hear...
+**Christopher Hiller:** And as part of the build step, or whatever, the CI, the build -- there is no real build, but I just run tsc with no emit and if it fails, then I screwed up some types somewhere. Maybe I wanna emit declarations, or something, but... That's what I like. And I hear it's getting more popular, I hear...
 
 **Kevin Ball:** This is an important context for anytime we talk about how b0neskull hits TypeScript - like, except for the types. Types are great.
 
-**Nick Nisi:** \[laughs\] He doesn't wanna run a compiler, except for when he's running tsc \[unintelligible 00:09:30.20\]
+**Nick Nisi:** \[laughs\] He doesn't wanna run a compiler, except for when he's running tsc with no emit.
 
 **Christopher Hiller:** Mm-hm. So what I really want... Some months ago I popped into the issues on TypeScript ESLint, and it was like "Hey, can this work with JavaScript files?" in the comments, and it was like "No." I don't know if that was you that responded to me, Josh, but someone was like "No." And I was like, "Oh, well, I guess that's too bad, because that's what I really want." I wanna use TypeScript as a linter. I don't wanna use it as a compiler, I just want to lint the types, and sometimes like TypeScript ESLint - maybe there's some way to make it work, I don't know, but... That's what I want.
 
@@ -118,13 +118,13 @@
 
 **Kevin Ball:** If only we knew a full-time open source developer...
 
-**Josh Goldberg:** Yeah, especially one who's well-funded. \[unintelligible 00:11:11.21\]
+**Josh Goldberg:** Yeah, especially one who's well-funded. Paid well.   
 
 **Christopher Hiller:** Yeah. And familiar with ASTs and linting... Anyhow.
 
 **Kevin Ball:** That does get into an interesting area. I don't know if we wanna stay on the book in TypeScript or meander a little bit, but you mentioned you shifted to being full-time open source. I know that's something a lot of people are kind of interested in as a model... How is that working for you? How are you funding yourself, and how's that going?
 
-**Josh Goldberg:** You know, you just made a very key assumption (perhaps mistake) that a lot of people do. You assume that I'm sufficiently funding myself, which is not a correct assumption. I'm making very little money from this open source thing. But that's okay. I have a wife who has great health insurance, that I can \[unintelligible 00:11:49.20\] off of. But I am getting funded.
+**Josh Goldberg:** You know, you just made a very key assumption (perhaps mistake) that a lot of people do. You assume that I'm sufficiently funding myself, which is not a correct assumption. I'm making very little money from this open source thing. But that's okay. I have a wife who has great health insurance, that I can bum off of. But I am getting funded.
 
 \[11:54\] I think a lot of people just wanna dive into open source just because they love it, but you need to prepare, you need to plan. I planned and prepared by getting active in a lot of open source projects, whether it's just contributing to TypeScript or other things, or actually taking on maintenance for TypeScript ESLint... You need to kind of justify yourself if people are gonna pay you money. You have to do a lot of work, kind of like an influencer, but I hope with less of a negative connotation. You need to convince people that you've got good things going on, you've gotta showcase your work and explain yourself.
 
@@ -132,7 +132,7 @@ So now that I've gotten used to just constantly spamming Twitter with links to m
 
 **Nick Nisi:** It really seems like you're scratching your own itch, which is always the true definition of happiness, or the exciting thing that I would love to -- when I think about open source, it's because I want to contribute to the things that are helping me a lot, and scratch my own itch. It's the software I'm using, and it helps me more, which I like a lot.
 
-**Josh Goldberg:** Yeah. And if you will permit me to go a little meta here, I love watching the industry and seeing these trends of how things are evolving over time. I think one thing that y'all were debating recently was single-page apps, a.k.a. \[unintelligible 00:13:29.08\] whether that's good or bad... And you see all these really fun advancements that go sideways, or forward, or even backwards sometimes in the industry... But the overriding theme is that people are getting better and better at writing more code, more rapidly, with fewer bugs. So to be able to take part in that, to write a rule in TypeScript ESLint that can catch bugs for people - that means that I feel like I'm helping advance the state of the industry. And even if I'm doing just this teeny little percentage, there are enough people impacted by my work that I can justify it as a positive effect on society. That's just a weird, good feeling. I like it. I wanna do more of that.
+**Josh Goldberg:** Yeah. And if you will permit me to go a little meta here, I love watching the industry and seeing these trends of how things are evolving over time. I think one thing that y'all were debating recently was single-page apps, a.k.a. day SPAs. Whether that's good or bad... And you see all these really fun advancements that go sideways, or forward, or even backwards sometimes in the industry... But the overriding theme is that people are getting better and better at writing more code, more rapidly, with fewer bugs. So to be able to take part in that, to write a rule in TypeScript ESLint that can catch bugs for people - that means that I feel like I'm helping advance the state of the industry. And even if I'm doing just this teeny little percentage, there are enough people impacted by my work that I can justify it as a positive effect on society. That's just a weird, good feeling. I like it. I wanna do more of that.
 
 **Kevin Ball:** So you said you are not currently sustainably funding yourself on this... And I have gone back and forth and spent times where I thought "Oh, this would be great, to be a full-time open source developer", or whatever. So I'm self-support curious. But it sounds a lot like being an entrepreneur, where you're like "I have this cool idea, I wanna go do it", and then you find you're spending a lot of your time churning in money, which most engineers don't like doing. So I'm kind of curious, are you envisioning this as like -- is this a time-boxed thing in your life? Is this something where you would like to figure out how to make this sustainable indefinitely? Is this an exploration with no goals?
 
@@ -146,7 +146,7 @@ For reference here - if you look at the salary of a software engineer... Let's s
 
 Yeah, I think - to speak to the last point, the company sponsorship full-time is very interesting and appealing, and if Vercel or someone wants to talk to me about it, just pay me to do my open source. I'd love to hear it; happy to promote your company. But one of the reasons why I love doing open source full-time is that I get to work on the projects that I get to work on. If there's some cool little thing that I wanna do... If let's say I wanna work on a game engine specifically dedicated to ripping off old Nintendo games - which I plan on continuing later this year - I don't think Vercel is gonna be too thrilled to be paying me a wage for that... So we'll see.
 
-**Nick Nisi:** That was a very specific example \[unintelligible 00:17:51.22\] pulled from your past. You've talked about that in conference talks before... That's wonderful, getting -- what was it? I don't know if Cease and Desist is the right terminology, but...
+**Nick Nisi:** That was a very specific example, I know pulled from your past. You've talked about that in conference talks before... That's wonderful, getting -- what was it? I don't know if Cease and Desist is the right terminology, but...
 
 **Josh Goldberg:** That is.
 
@@ -170,11 +170,11 @@ Usually, the things that I do think of, that I need to scratch my own itch - I c
 
 **Kevin Ball:** Maybe they'd pay you to build that reverse compilation, so that they could run linting on it.
 
-**Christopher Hiller:** Right. But Josh, if you came into the project and wanted to do that, I would say no, because I don't want that. So I would block any sort of PR. So that's the challenge, you can't be a company -- and companies can be kind of \[unintelligible 00:21:36.13\] about it, and feel like "Well, what's the point, if we don't have total control over this thing?" And it's how you have to work. You have to put your people on it and trust that your people can work with others and get done what needs to get done.
+**Christopher Hiller:** Right. But Josh, if you came into the project and wanted to do that, I would say no, because I don't want that. So I would block any sort of PR. So that's the challenge, you can't be a company -- and companies can be kind of--can be kind of weird about it, and feel like "Well, what's the point, if we don't have total control over this thing?" And it's how you have to work. You have to put your people on it and trust that your people can work with others and get done what needs to get done.
 
 **Josh Goldberg:** I came at you with a troll and you countered with a very savvy, insightful comment on the mechanisms of companies sponsoring open source that I strongly agree with... That it needs to be a community-run project to be called a community-run project. The joy and a lot of the benefit is that you have a large group of people contributing and coming to decisions by consensus, not from some dictation by a company sponsor. That's really important.
 
-**Christopher Hiller:** Yeah, yeah. I don't really have that other experience. I never worked for Microsoft on TypeScript, for example, so I don't know what it's like to have an -- I'm sure there's some sort of \[unintelligible 00:22:32.00\] the product owner, or something; he kind of decides what happens, right?
+**Christopher Hiller:** Yeah, yeah. I don't really have that other experience. I never worked for Microsoft on TypeScript, for example, so I don't know what it's like to have an -- I'm sure there's some sort of Daniel is the product owner, or something; he kind of decides what happens, right?
 
 So I haven't had that experience of having my boss actually be on the open source project. Actually, that's probably gonna change. But anyhow, I think it's a different dynamic, especially if you have total copyright ownership of the project.
 
@@ -246,7 +246,7 @@ Also, if you have an editor and you want real-time feedback, we need to be able 
 
 **Nick Nisi:** One question I have is kind of around what you were saying, where you build on top of ESLint to allow it to understand TypeScript files. I guess what I'm trying to ask is what -- you mentioned that you allow for TypeScript, the analyzation of TypeScript... Is that by changing out what abstract syntax tree ESLint is actually using? Is that how it works, or...? Can you explain that?
 
-**Josh Goldberg:** So I like to start ASTs (abstract syntax trees) explanations with "What is AST?" Because that acronym I think inspires fear more than most other acronyms in people. It's a representation of your code. It's saying you have a file, and in the file there are these (whatever) statements, declarations, let's say functions. And let's say you have a function that has a name, and so on... So the AST is a representation of that structure. It's abstract, meaning it could have white space and move it around; it's not the actual code itself. Syntax - \[unintelligible 00:34:34.06\] And tree, in that parts of it have children; a function has, let's say, a body, and a name, and a parameter list... Like a tree.
+**Josh Goldberg:** So I like to start ASTs (abstract syntax trees) explanations with "What is AST?" Because that acronym I think inspires fear more than most other acronyms in people. It's a representation of your code. It's saying you have a file, and in the file there are these (whatever) statements, declarations, let's say functions. And let's say you have a function that has a name, and so on... So the AST is a representation of that structure. It's abstract, meaning it could have white space and move it around; it's not the actual code itself. Syntax - descript and use syntax. And tree, in that parts of it have children; a function has, let's say, a body, and a name, and a parameter list... Like a tree.
 
 So ESLint natively - I always forget which one it uses, if it's ESTree, or some other similar name... There is a parser that comes with ESLint which takes in your text, be it JavaScript file, or in-memory string, or whatever, and then generates a tree. And now this is where TypeScript's famous marketing slogan, "TypeScript, a super-set of JavaScript" comes into play. TypeScript adds new syntax.
 
@@ -274,13 +274,13 @@ I think another thing we're trying to figure out is how do we show ourselves as 
 
 We also have a set of rules around any's, the TypeScript type that lets you just YOLO it, which is not good for type safety... We have a bunch of rules around misusing any, letting that creep in... But there are very few rules on that line that you can really point to and say "This will find issues in your code. We strongly recommend you enable it, otherwise you're not as good of a project", or maybe some more friendly welcoming term than that.
 
-Once we've got the documentation down, I think the performance and the banner \[unintelligible 00:38:31.18\] rules are really two things that I want us to really nail down before we can really consider ourselves a fully "happy where we are in the world" project.
+Once we've got the documentation down, I think the performance and the banner headline rules are really two things that I want us to really nail down before we can really consider ourselves a fully "happy where we are in the world" project.
 
 To be clear, we are very mature. You have been able to use us stably for years. It is not like the project is some newcomer. It's established, it works well... There are very few crashes in production, and most of those are caused by external dependencies. In fact, most of our issues for bugs are people who use some other plugin, and then the call stack includes us, and then they complain to us that we send them somewhere else, which is great.
 
 **Christopher Hiller:** Speaking about other plugins, you mentioned that certain ESLint rules or rules in plugins may not work with the TypeScript ESLint parser. Is that right?
 
-**Josh Goldberg:** Oh, I'm sorry, I did not mean to say or imply that. They would not work if you tried to use the TypeScript AST natively, but because you are instead meant to use TypeScript ESLint's parser, they do work. So any plugin you would use - my favorites are the accessibility JSX one, JSX \[unintelligible 00:39:33.04\] that all works with TypeScript code because of TypeScript ESLint.
+**Josh Goldberg:** Oh, I'm sorry, I did not mean to say or imply that. They would not work if you tried to use the TypeScript AST natively, but because you are instead meant to use TypeScript ESLint's parser, they do work. So any plugin you would use - my favorites are the accessibility JSX one, JSX ALNY that all works with TypeScript code because of TypeScript ESLint.
 
 **Christopher Hiller:** Well, that's pretty cool...
 
@@ -296,7 +296,7 @@ And then you mentioned a couple of your favorite rules; the no floating promises
 
 But there are also some rules that are annoying to me... I think that they're probably more stylistic rules. I'm curious if you have any rules that you don't like.
 
-**Josh Goldberg:** Oh, man. I'm so glad you brought this up. There's such a good discussion to be had. I promise I will answer your question as asked - are there rules I don't like \[unintelligible 00:41:02.17\] but first, I will say I'm commanding the audience/listeners, do not use ESLint for formatting. That is not what it has been built for. None of the maintenance teams of linters - at least in the JavaScript space that I know of - want you to use ESLint for formatting. The ESLint team has stopped adding new formatting rules, and they recommend you use a separate tool such as Prettier. By formatting I mean just white space. Rules that only care about white space. Putting things on a new line, versus the same. Having a space before/after parentheses or not, stuff like that. And the reason why is ESLint is, again, not architecturally built for that. ESLint is made to detect styles issues, likely bugs etc. But something like Prettier, which is specifically tailored to massaging your white space, is much faster and much more reliable. It'll catch many more edge cases and have far fewer bugs in white space formatting. So I highly recommend you use Prettier.
+**Josh Goldberg:** Oh, man. I'm so glad you brought this up. There's such a good discussion to be had. I promise I will answer your question as asked - are there rules I don't like / opinions unstylistic. But first, I will say I'm commanding the audience/listeners, do not use ESLint for formatting. That is not what it has been built for. None of the maintenance teams of linters - at least in the JavaScript space that I know of - want you to use ESLint for formatting. The ESLint team has stopped adding new formatting rules, and they recommend you use a separate tool such as Prettier. By formatting I mean just white space. Rules that only care about white space. Putting things on a new line, versus the same. Having a space before/after parentheses or not, stuff like that. And the reason why is ESLint is, again, not architecturally built for that. ESLint is made to detect styles issues, likely bugs etc. But something like Prettier, which is specifically tailored to massaging your white space, is much faster and much more reliable. It'll catch many more edge cases and have far fewer bugs in white space formatting. So I highly recommend you use Prettier.
 
 I don't even recommend people use their plugins that let you run Prettier as ESLint rules. It's just slower that way. I highly recommend keeping them separate. So that's one classification of rules to just shove off; don't. And then you have these annoying rules that, honestly, gave ESLint and other linters a bad name. It's why a lot of people don't like ESLint. "Why is it yelling at me? Why is my code not building?"
 
@@ -310,7 +310,7 @@ The worst is some products like Create React App would block your local developm
 
 **Josh Goldberg:** I love it. I wanna speak in probabilities of certainty now. TypeScript will give you an error if it is, let's say, 99.9% certain you're wrong. If you, let's say, declare a variable to be a string, and then give it a number - there are code cases where that's reasonable, or the number might coincidentally work, but the vast majority of the time, TypeScript's bar of 99.9% is correct.
 
-\[43:55\] I consider lint rules to be ones that you should give the angry squiggles on... Depending on the project and the team familiarity with JavaScript or TypeScript and the linter, maybe you'd wanna say "Turn on things that are 80% or 90% certain" as like "You should probably do this." Even though TypeScript has a flag for this, we recommend people use our lint rule \[unintelligible 00:44:15.19\] It's more configurable. The vast majority of the time unused variable is just a sign that you should remove it to simplify your code. Or maybe that you're forgetting to pass something somewhere.
+\[43:55\] I consider lint rules to be ones that you should give the angry squiggles on... Depending on the project and the team familiarity with JavaScript or TypeScript and the linter, maybe you'd wanna say "Turn on things that are 80% or 90% certain" as like "You should probably do this." Even though TypeScript has a flag for this, we recommend people use our lint rule for no unused variables. It's more configurable. The vast majority of the time unused variable is just a sign that you should remove it to simplify your code. Or maybe that you're forgetting to pass something somewhere.
 
 So for stylistic rules, things like naming - I'm not huge that you should really go gung-ho on this. Some people even like sorting object properties; I personally do it, but I've never been on a team where I would think that politically appropriate. I don't think it's worth the effort, the pain, for many.
 
@@ -330,7 +330,7 @@ One idea that I've had, as not necessarily an ESLint or TypeScript ESLint extens
 
 **Nick Nisi:** Maybe an ESLint Lint.
 
-**Josh Goldberg:** So there is actually an ESLint rule that requires that you provide an explanation for rules. There's also a TypeScript ESLint rule that prevents you -- we shouldn't say "prevent". I shouldn't say "prevent", because nothing is completely preventable. You can always disable these disable rules. But flags issues of using TypeScript \[unintelligible 00:47:58.07\]
+**Josh Goldberg:** So there is actually an ESLint rule that requires that you provide an explanation for rules. There's also a TypeScript ESLint rule that prevents you -- we shouldn't say "prevent". I shouldn't say "prevent", because nothing is completely preventable. You can always disable these disable rules. But flags issues of using TypeScript Pragmas or surpression comments.
 
 And yeah, I actually really like that idea, giving you like a scorecard of "Hey, no-shadow - maybe you should turn that off."
 
@@ -354,7 +354,7 @@ And yeah, I actually really like that idea, giving you like a scorecard of "Hey,
 
 **Christopher Hiller:** I will check that out, because that would be very useful, because I've got a ton of those things... But you know, instead of a disable, there's TS ignore, there's TS expect error... If those ESLint disabling comments were more like TS expect error - that seems like that would work a little better... Because I always use TS expect error whenever I can. I pretty much never use TS ignore. That's a great idea, I'm glad I had it. Somebody else probably did, too.
 
-**Josh Goldberg:** Yeah. I report \[unintelligible 00:49:23.28\] I just looked it up. So I actually feel like an ego moment for myself is coming on here... I implemented TypeScript's TS expect error directive because I think that - why would you want to leave @ts-ignore in? There's no need if it doesn't. And there are some edge cases if you're running with different TypeScript versions, or something... But for the most part, you should really just not let yourself ignore things unnecessarily. And yeah, I have strong opinions that we should have as few angry, annoying, ugly disable comments as possible.
+**Josh Goldberg:** Yeah. I report unused disabled directives. I just looked it up. So I actually feel like an ego moment for myself is coming on here... I implemented TypeScript's TS expect error directive because I think that - why would you want to leave @ts-ignore in? There's no need if it doesn't. And there are some edge cases if you're running with different TypeScript versions, or something... But for the most part, you should really just not let yourself ignore things unnecessarily. And yeah, I have strong opinions that we should have as few angry, annoying, ugly disable comments as possible.
 
 I am also of the opinion that VS Code and other editors should default to showing ESLint's squigglies and complaints in a noticeably different way than compiler complaints; the difference between a compiler and a linter here. Because I've seen so many people get confused and angry at TypeScript for no-shadow, or something, or they think that TypeScript is blocking their builds because they have an unused variable or the wrong variable name, or something. Very much not TypeScript's fault there, because both of them have red squiggles by default.
 
