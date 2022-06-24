@@ -8,7 +8,7 @@
 
 So sentiment analysis sort of gave way to this entire world of how do we look at an emotion that a human being has. And we share our emotions in lots of ways. We share it with our voice, the quality, the tone. We share it with our facial expressions. We share it with our body language. So our emotions are out there for people to read. Just this data on any subject is out there for the computers to read, and we're starting to take that information in and to collate it and figure out things about... The classic - when you lie to someone, you look down in a certain direction. Those kinds of things you can pick up on. And as we monitor facial expressions and that data starts to be fed in, we can start to look at, using artificial intelligence, how we could respond.
 
-\[00:04:32.04\] A classic example for this might be if we had a digital human who was interfacing with a customer in a kiosk at an airport, for example, and you could see that the emotion of the person interacting was confused; then the digital human could say, "Let me explain what you might be able to do at this kiosk." So there are lots of ways that you can begin to apply this emotional AI capability.
+\[04:32\] A classic example for this might be if we had a digital human who was interfacing with a customer in a kiosk at an airport, for example, and you could see that the emotion of the person interacting was confused; then the digital human could say, "Let me explain what you might be able to do at this kiosk." So there are lots of ways that you can begin to apply this emotional AI capability.
 
 **Daniel Whitenack:** That's super-interesting. I'm really intrigued by this side of things, even digital humans in a physical environment that you're in and how people might interact with that. That's interesting in and of itself, and I think we could come back to that in a bit. Before we do, I'm wondering - one of the things that comes to my mind is just how fluid and complex emotion is. I think you've already alluded to the fact that you have multiple modalities that represent emotion, whether that be something captured on video, or imagery, or something written down in text, or something spoken, facial expression, gesture, all sorts of things... So you have this range of modalities, but then you also have maybe a confusing set of fluid, emotional... How do you navigate even just defining the various things that you're wanting to detect?
 
@@ -18,7 +18,7 @@ Now, there are classic examples of bots misinterpreting information that comes a
 
 So it just depends upon what the use of -- what is the problem you're trying to solve, and how AI is used in that problem. In fact, the use of AI is always the issue. How are we actually going to apply it? And that's why we're so excited about talking to you, because you guys have this Practical AI, and in my world, that's what makes sense. Not the fact that we're exploring all these different -- because we've got to do that, but we also have to get it down to something that's practical, so that we can actually do something with it. As always, every side of technology comes with a yin and a yang; there's good things and there are bad things, and you can determine how this works based upon how you go forward with your artificial applications, AI applications.
 
-**Daniel Whitenack:** \[00:07:59.03\] Yeah. I love how you stress that, because one feeling that I have talking about this is that my emotions are a very personal thing, and there's a whole diversity of the way that people express their emotions differently from one person to another. So I imagine that navigating that is part of the difficulty in that you can see-- like the kiosk example you mentioned, there's a real clear benefit to the user there, potentially. But then in other cases, I could imagine if I'm on a video interview for a job, and something is detecting whether I'm confused in that situation, right?
+**Daniel Whitenack:** \[07:59\] Yeah. I love how you stress that, because one feeling that I have talking about this is that my emotions are a very personal thing, and there's a whole diversity of the way that people express their emotions differently from one person to another. So I imagine that navigating that is part of the difficulty in that you can see-- like the kiosk example you mentioned, there's a real clear benefit to the user there, potentially. But then in other cases, I could imagine if I'm on a video interview for a job, and something is detecting whether I'm confused in that situation, right?
 
 **Theresa Kushner:** Yes.
 
@@ -38,7 +38,7 @@ So there are all kinds of implications, all of which have to be managed in this 
 
 But again, this is really new for people, and those people that are in industries or with companies where this might be prevalent have not really thought about how they can use their existing data.
 
-\[00:12:02.14\] For example, one of the things that has to happen if we're going to use transactional data, let's just say -- I'm not going to tell you customer names, but let's say we have a customer who wants to use this in a store environment and they want the avatar or the on-screen AI application to actually help them solve their billing problems. So that means you've got to have access to all the billing information on this customer, and it has to be done pretty quickly, which is something that we've not necessarily had to move data that quickly to an individual to answer an on-screen problem.
+\[12:02\] For example, one of the things that has to happen if we're going to use transactional data, let's just say -- I'm not going to tell you customer names, but let's say we have a customer who wants to use this in a store environment and they want the avatar or the on-screen AI application to actually help them solve their billing problems. So that means you've got to have access to all the billing information on this customer, and it has to be done pretty quickly, which is something that we've not necessarily had to move data that quickly to an individual to answer an on-screen problem.
 
 So those kinds of things we have to watch. In addition, data nowadays streams from a lot of different places. So even if I have the transaction for that customer, what additional information should I have in that transaction that the avatar needs to have? And where's it going to come from? Is it going to stream in automatically, or is it going to be something that I've previously captured, now I'm just making sure as part of the AI algorithm. Those are a lot of data concerns about how you manage this. And that's sort of the practical side of this, where you have to get down, find out where is that data and what are we doing with it?
 
@@ -50,7 +50,7 @@ So those kinds of things we have to watch. In addition, data nowadays streams fr
 
 **Theresa Kushner:** And responses. Yeah, exactly. And again, I just sort of go back to-- this is one of the things I tell all clients when we start AI practices, is we really have to be very clear as to what you're going to use AI for. If you don't have that clearly in your mind, then we will go off on a wild fancies every which way, and we won't solve the problem that we're trying to solve. So from an AI perspective in the AI, whether it's an avatar, or whether it's just ordinary predictive analysis, you need to know specifically what you're trying to accomplish.
 
-**Break:** \[00:15:00.21\]
+**Break:** \[15:00\]
 
 **Daniel Whitenack:** So Theresa, I think you kind of alluded to some of these things a little bit earlier when you brought up the ethical things around this... I'm wondering if you could speak to your current thinking around both the ethical aspects of emotional AI, and maybe the privacy-related things, too.
 
@@ -62,7 +62,7 @@ So those kinds of things we have to watch. In addition, data nowadays streams fr
 
 **Daniel Whitenack:** Exactly. Exactly. So I guess on the practical side, how do you see these things popping up and what is your current thinking in terms of the real lines that you're trying to draw, and the ways you're trying to practice emotional AI specifically?
 
-**Theresa Kushner:** \[00:16:16.19\] That is such a good question, and I just finished a training session with our sales team on trustworthy AI and what that means to have a trustworthy AI application or instance in your company. And it sort of boils down - and I hate to be so simple, but it boils down to the golden rule... Do unto others, as you would have them do one unto you. And in artificial intelligence, we don't need to do things that push the line, because quite frankly, some of the stuff that we are doing with avatars can be fairly creepy. I've seen things where we're actually using artificial intelligence to reproduce Kamala Harris, or some of the other-- you can actually do sort of deep fakes that have all of the instances of this around it.
+**Theresa Kushner:** \[16:16\] That is such a good question, and I just finished a training session with our sales team on trustworthy AI and what that means to have a trustworthy AI application or instance in your company. And it sort of boils down - and I hate to be so simple, but it boils down to the golden rule... Do unto others, as you would have them do one unto you. And in artificial intelligence, we don't need to do things that push the line, because quite frankly, some of the stuff that we are doing with avatars can be fairly creepy. I've seen things where we're actually using artificial intelligence to reproduce Kamala Harris, or some of the other-- you can actually do sort of deep fakes that have all of the instances of this around it.
 
 So where does that line get drawn? And again, I think that line gets drawn with making sure that people understand how you're using the information you're collecting from them. Not only have you given them permission-- I mean, we've all got these "Accept this cookie" thing everywhere in our life nowadays, but how many people have ever stopped to read all of the legal language underneath that permission?
 
@@ -82,7 +82,7 @@ So where does that line get drawn? And again, I think that line gets drawn with 
 
 **Theresa Kushner:** And in that application, there's an avatar of sorts. It's a comic little thing, but that avatar actually looks at the child that is engaged in the reading exercise, and can tell when they stumble, when they're getting tired, when they're not paying attention, and recall, and have an action for the child. So it actually says, "Hey, I see you're sort of lagging there. Would you like to read a story?" Or "Can you do this? No, you missed that particular word. Can we go back and -- oh, I see, you're not just totally engaged."
 
-\[00:20:09.29\] So those are the places where I think that emotional AI plays the best part, because it gives something back to the experience. And I think that's another keyword. We are all very excited about digital experience and customer experience. That means it's a two-way street. We have got to actually have the customer be engaged and excited about engaging with us, or with an avatar, or with some sort of application. That experience has got to be something that's positive for the customer, no matter what. And quite frankly, I've read statistics that some of our avatars are better received than human beings on phone lines.
+\[20:09\] So those are the places where I think that emotional AI plays the best part, because it gives something back to the experience. And I think that's another keyword. We are all very excited about digital experience and customer experience. That means it's a two-way street. We have got to actually have the customer be engaged and excited about engaging with us, or with an avatar, or with some sort of application. That experience has got to be something that's positive for the customer, no matter what. And quite frankly, I've read statistics that some of our avatars are better received than human beings on phone lines.
 
 **Daniel Whitenack:** Yeah, that's super-interesting. I know that I've had a similar experience with chatbots, especially internationally; we've done a bunch of chatbot-related things in my own work, and yeah, it's amazing what people will open up to a bot about--
 
@@ -104,7 +104,7 @@ So where does that line get drawn? And again, I think that line gets drawn with 
 
 **Theresa Kushner:** Yeah, exactly. This one, actually, it's a little avatar. It's a guy, a cartoon guy who sits in the corner of the screen and actually talks like a teacher would to the student, so that the student hears what they're saying and then tries to do whatever they're acting. And because it can hear what the student says, it understands they're not saying the word right, or they've mispronounced it, or they didn't read it right. So there's all of that interaction that goes on with this particular application, that wasn't in Reader Rabbit, for sure.
 
-**Daniel Whitenack:** \[00:24:02.26\] Yeah. And it sounds like that's something that kids could engage with and kind of spur on curiosity towards--
+**Daniel Whitenack:** \[24:02\] Yeah. And it sounds like that's something that kids could engage with and kind of spur on curiosity towards--
 
 **Theresa Kushner:** Yeah.
 
@@ -130,7 +130,7 @@ So where does that line get drawn? And again, I think that line gets drawn with 
 
 So there is testing going on. With everything that we put out there is testing - how do customers respond to it? How do children respond to it? What kinds of things are we doing? Because let's face it too, artificial intelligence has this ability to make changes in our life. And we've seen, just as the internet did -- you know, the internet can be used for good or for evil. And we want to make sure that when we unleash something like this, that we are doing it for the good part of society, not for something that would have unintended consequences.
 
-**Break:** \[00:28:00.10\]
+**Break:** \[28:00\]
 
 **Daniel Whitenack:** Well, Theresa, I have so many questions. It's hard for me to think of where to go, but I think the one thing that I wanted to follow up on was some of what you talked about, these sort of digital humans. I know you even mentioned the way in which you create avatars or digital representations of humans can go a whole variety of directions. I know there's-- I forget the famous study where it's like the more human-like avatar looks, the more creepy it--
 
@@ -152,7 +152,7 @@ Now, one of the things that we would love to be able to do, and we're looking at
 
 **Daniel Whitenack:** Personalized and dynamic.
 
-**Theresa Kushner:** \[00:32:02.25\] Exactly. And so with the avatar, you can identify the points that are most important to collect and have conversations. And that creates for you an entirely different customer experience than you would have otherwise.
+**Theresa Kushner:** \[32:02\] Exactly. And so with the avatar, you can identify the points that are most important to collect and have conversations. And that creates for you an entirely different customer experience than you would have otherwise.
 
 **Daniel Whitenack:** Yeah. I guess, in certain ways, if I went up to a booth at the airport that was Kia-related, I could sign up for something and maybe they would put me in some type of system and then they'd know me when I come to the dealership. I'm sure there is privacy concerns and other things you have to navigate--
 
@@ -182,7 +182,7 @@ Now, one of the things that we would love to be able to do, and we're looking at
 
 **Theresa Kushner:** That's a great question. In fact, that was one of the very first questions that one of our customers asked after we had finished the demo. It was the fact we had knew we sort of hooked them when they asked that question. It's because those avatars are very easily changed. Now what we have to do is get the artificial intelligence behind it to be able to say, "Okay, I need to look like that person." In other words, "I need to mimic whoever is in front of me, in some way." The technology isn't quite there yet, but our team in Denmark is working on it.
 
-**Daniel Whitenack:** \[00:36:07.15\] Yeah, very interesting. And I think the reading example is really interesting, because I was just at ACL a couple weeks ago in Dublin, and they were talking-- I sat in a lot of talks about indigenous languages and language learning--
+**Daniel Whitenack:** \[36:07\] Yeah, very interesting. And I think the reading example is really interesting, because I was just at ACL a couple weeks ago in Dublin, and they were talking-- I sat in a lot of talks about indigenous languages and language learning--
 
 **Theresa Kushner:** Oh, yeah.
 
