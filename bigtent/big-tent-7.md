@@ -78,7 +78,7 @@
 
 **Ward Becker:** That is right, that is right. So I'm cheating a little bit... I'm a little bit below Amsterdam, but nobody knows that city, so I'm just saying Amsterdam for the geographically-challenged audience out there.
 
-**Mat Ryer:** \[00:04:13.22\] And by below you mean South, not like underground. It's not like a secret bunker underneath the streets of Amsterdam.
+**Mat Ryer:** \[04:13\] And by below you mean South, not like underground. It's not like a secret bunker underneath the streets of Amsterdam.
 
 **Ward Becker:** I cannot comment on that, but it's indeed a little bit South of Amsterdam, yeah.
 
@@ -120,7 +120,7 @@ A lot of times you see hackathons that have a theme, or a specific objective... 
 
 **Ash Mazhari:** They do, especially at a company like Grafana Labs, where we have a pretty cool open source mantra, and a lot of interesting projects that people are excited about, passionate about... But in general, there's always that mandate of some broader mission that relates to the company objectives. The great thing about the hackathons is it takes all of that away. So forget about whatever priorities there might be from customers and whatnot, and go do what you've always thought is exciting and interesting.
 
-**Ryan McKinley:** \[00:07:39.18\] Yeah, to me this is giving me new kind of hope and optimism as we grow. I joined Grafana as a very small company, where everything was really engineering-led; we were building stuff that we use, we know exactly what we want... Engineers - we're building stuff for ourselves. As we're getting bigger, we're putting in new infrastructure, new systems, new teams that kind of help manage that and make it less chaotic, which is great, and required to be mature and stable and all those things, but we don't wanna lose what made us interesting. We don't wanna lose why I work here. I work here because I wanna build stuff; I can't articulate it really without building some of it. I think that's true for a lot of us. So it's been great, because I think it's devoting real time for everyone to express themselves the way we have from the beginning.
+**Ryan McKinley:** \[07:39\] Yeah, to me this is giving me new kind of hope and optimism as we grow. I joined Grafana as a very small company, where everything was really engineering-led; we were building stuff that we use, we know exactly what we want... Engineers - we're building stuff for ourselves. As we're getting bigger, we're putting in new infrastructure, new systems, new teams that kind of help manage that and make it less chaotic, which is great, and required to be mature and stable and all those things, but we don't wanna lose what made us interesting. We don't wanna lose why I work here. I work here because I wanna build stuff; I can't articulate it really without building some of it. I think that's true for a lot of us. So it's been great, because I think it's devoting real time for everyone to express themselves the way we have from the beginning.
 
 **Mat Ryer:** Yeah, and it has this other benefit as well... When people join from companies where they don't have a very kind of engineering-empowered culture, they'll often have practices that are much more controlled; it's not so free. And there is that thing -- when I joined Grafana, I got the sense that there is this history and empowerment thing going on for engineers... And so you really want to give people a chance to flex those muscles and take part in that, and I think the hackathon does that quite well.
 
@@ -132,7 +132,7 @@ A lot of times you see hackathons that have a theme, or a specific objective... 
 
 **Ash Mazhari:** Yeah, for sure. And I think what's really cool is that, especially here at Grafana Labs, I've noticed people are just so talented and creative. When you give people that space to go and do something that they're passionate about, the kinds of things people have done so far have just blown me away. Just the fact that they can do a really cool project like that in a week's time just speaks to the people here as well.
 
-**Ryan McKinley:** \[00:11:37.04\] Yeah. Interestingly, the week is a great kind of metric there. Because if it were a day, what you'd do is much smaller, and inconsequential. Probably still useful; there's a lot of things that a day of focus would help. But a week is actually long enough to rethink and reframe some bigger problems into something that's achievable, but meaningful. So I think it's phenomenal... And it also can help structure how we think about new projects going forward, how we think about different approaches... It's a chance to ignore existing systems, ignore existing approaches, and try something new.
+**Ryan McKinley:** \[11:37\] Yeah. Interestingly, the week is a great kind of metric there. Because if it were a day, what you'd do is much smaller, and inconsequential. Probably still useful; there's a lot of things that a day of focus would help. But a week is actually long enough to rethink and reframe some bigger problems into something that's achievable, but meaningful. So I think it's phenomenal... And it also can help structure how we think about new projects going forward, how we think about different approaches... It's a chance to ignore existing systems, ignore existing approaches, and try something new.
 
 **Tom Wilkie:** Yeah. So we've done three hackathons now at Grafana Labs over the past nine months or so... What did we learn from the first one? What did we do wrong, and how did we change the way we run the hackathons?
 
@@ -162,7 +162,7 @@ If you have the whole company just going through the motions as they normally do
 
 **Tom Wilkie:** Ash, I think you mentioned earlier that we judge the hackathons, right? We pick a winner and we've kind of tried to gamify it... Why did we do that?
 
-**Ash Mazhari:** \[00:15:53.21\] Yeah, so I think that aspect is - you know, obviously, you wanna have a competitive spirit to these things. I think engineers by their nature are maybe somewhat competitive, and...
+**Ash Mazhari:** \[15:53\] Yeah, so I think that aspect is - you know, obviously, you wanna have a competitive spirit to these things. I think engineers by their nature are maybe somewhat competitive, and...
 
 **Tom Wilkie:** I mean, not just engineers, but humans, really.
 
@@ -174,7 +174,7 @@ If you have the whole company just going through the motions as they normally do
 
 **Tom Wilkie:** Ward, what was your opinion of the judging aspect of this? Would you have done the hackathon even if it weren't kind of gamified?
 
-**Ward Becker:** That is a great question. I think yes, because for me initially it was just an opportunity to get something I wanted in Grafana for a long time already. \[laughter\] So for the folks that might not know, the project that we worked on was called "Stonks and Crypto", and one of the key parts of it was a new visualization in Grafana, to actually visualize stocks. Because I was working on a pet project, creating a foundation of algorithmic trading, and I was like "Okay, let's send the data to Loki, and then visualize it in a candlestick diagram", which is quite standard in the stonks and crypto world, and there wasn't any. So it was like, "Oh, help...! I want to make sure that this is there." So I'm like "Okay, well, we have the hackathon. Let's create something of a pitch and see who's gonna help out with creating such a candlestick diagram", and that kind of stuff.
+**Ward Becker:** That is a great question. I think yes, because for me initially it was just an opportunity to get something I wanted in Grafana for a long time already. \[laughter\] So for the folks that might not know, the project that we worked on was called "Stonks and Crypto", and one of the key parts of it was a new visualization in Grafana, to actually visualize stocks. Because I was working on a pet project, creating a foundation of algorithmic trading, and I was like "Okay, let's send the data to Loki, and then visualize it in a candlestick diagram", which is quite STDIN the stonks and crypto world, and there wasn't any. So it was like, "Oh, help...! I want to make sure that this is there." So I'm like "Okay, well, we have the hackathon. Let's create something of a pitch and see who's gonna help out with creating such a candlestick diagram", and that kind of stuff.
 
 So that was the initial one. But overall, I did like it that it was judged, and that we got multiple rounds, and you just felt excitement... And overall, it was always good to be able to win; that's really nice, to see the validation of your idea. But yeah, it really started with just wanting to do some cool stuff, and that was really valuable for me.
 
@@ -184,7 +184,7 @@ So that was the initial one. But overall, I did like it that it was judged, and 
 
 Yeah, it was just very exciting; the pitch, the presentation, the people that presented were very smart, and... Yeah, it's a really exciting thing. I also think that it brings together the company on those all-hands calls, when we have the final voting. You really have a nice group/team feeling there. I really like it. I feel very energized, and also very positive about the future of Grafana Labs, because there are some things that we see maybe there first, before it's actually added at some point maybe to the roadmap. You never know.
 
-**Mat Ryer:** \[00:20:04.17\] It's funny - for me, the competitive side of it wasn't an appeal. But it's very much more about the collaboration and being able to -- we're almost working together to build cool things. In the last hackathon somebody built something into the Grafana Incident Tool, which my squad builds... And we took time out of our day to help them do that. We wanted that to be a successful project as well, even if it competes with something that we're doing.
+**Mat Ryer:** \[20:04\] It's funny - for me, the competitive side of it wasn't an appeal. But it's very much more about the collaboration and being able to -- we're almost working together to build cool things. In the last hackathon somebody built something into the Grafana Incident Tool, which my squad builds... And we took time out of our day to help them do that. We wanted that to be a successful project as well, even if it competes with something that we're doing.
 
 So although it's got this competitive kind of edge to it, I think the spirit in which everyone engages in it is very positive. There's no sabotage, is there? Now that I've said it, there will be. I've just thought of it, so I'll have to, next time. \[laughter\] But you know what I mean? There's no sabotage -- it's not really like aggressively competitive; it has a really nice feel about it, I agree.
 
@@ -230,7 +230,7 @@ Honestly, Mat, the same could be \[unintelligible 00:22:24.14\] One of the reaso
 
 **Mat Ryer:** No, I'm not trying to do that. It just comes up. Prolific...
 
-**Ryan McKinley:** \[00:23:55.06\] Going back to your question of whether the competition is what drives it... I'd say it's nice, it's good that it sort of puts real stakes on the table, but I don't think it's the main motivator for most people. I really think the main motivator is that we have -- everyone we're working with has ideas, has stuff they wanna do, and the competition sort of helps with visibility, helps give it some weight. So far, it's felt very successful to me.
+**Ryan McKinley:** \[23:55\] Going back to your question of whether the competition is what drives it... I'd say it's nice, it's good that it sort of puts real stakes on the table, but I don't think it's the main motivator for most people. I really think the main motivator is that we have -- everyone we're working with has ideas, has stuff they wanna do, and the competition sort of helps with visibility, helps give it some weight. So far, it's felt very successful to me.
 
 **Tom Wilkie:** So here's another controversial opinion - part of what we do at Grafana Labs is we also give out prize money for the winning team. I mean, it's quite a lot; I don't actually know how much it is, but it's thousands of dollars.
 
@@ -290,7 +290,7 @@ Honestly, Mat, the same could be \[unintelligible 00:22:24.14\] One of the reaso
 
 So I and our team actually opted to do a recording, but all the other teams didn't. And I think because of that we were able to better relay our message, and have a better pitch... And also because we needed to do it multiple times, that was just also easier for me.
 
-**Tom Wilkie:** \[00:27:53.26\] And now we say everyone must do a recording, right? It also stops -- we had some presentations go slightly over their five minutes; that wasn't necessarily a fair use of time, so we now make everyone submit a video presentation, and it makes it much fairer, because you're gonna be judged through multiple stages, and you don't have the opportunity to change your presentation and work on it some more, which was also happening in the first go. So if you're gonna run a hackathon, maybe we'd encourage you to do video presentations at the end, instead of live ones.
+**Tom Wilkie:** \[27:53\] And now we say everyone must do a recording, right? It also stops -- we had some presentations go slightly over their five minutes; that wasn't necessarily a fair use of time, so we now make everyone submit a video presentation, and it makes it much fairer, because you're gonna be judged through multiple stages, and you don't have the opportunity to change your presentation and work on it some more, which was also happening in the first go. So if you're gonna run a hackathon, maybe we'd encourage you to do video presentations at the end, instead of live ones.
 
 **Mat Ryer:** Hm. And some people did just do slides and record the screen and talk, didn't they? I mean, the last one, Ryan's video was like -- I can't believe that. Like, I think that might be too good that it's ruined it now. I think it may have ruined it.
 
@@ -338,7 +338,7 @@ I don't want it to be a distraction from the actual work, and make it seem like 
 
 **Ryan McKinley:** Yes. We went into it knowing that, but I believe some of it is like, again, the value of the... I mean, maybe it's worth just saying what the project was, because then you're like "What are you talking about?!"
 
-**Tom Wilkie:** \[00:32:12.15\] Yeah, the audience are very frustrated right now, talking about this project...
+**Tom Wilkie:** \[32:12\] Yeah, the audience are very frustrated right now, talking about this project...
 
 **Ryan McKinley:** So in the last project, you know, anyone who's worked with Grafana for a while has always \[unintelligible 00:32:19.07\] "Hey, what's your story with GitOps? How do I actually manage what goes in, and do version control?" And you know, we've tried many awkward approaches in the past, so as a hackathon we sort of started over and just took a new approach to how to do GitOps, and make it first-class, dashboards, read and write from Git. There's some hand-waving in between... So you know, that alone, that idea - people were like "Great, let's finally do it. You've talked about it forever." So it's been a week prototyping it, showing how we could do it... Some of it was throwing out projects that are in the works, and things that people are really dedicated to, saying "Ah, do we really need to do that approach?" And it's been really interesting to watch then how things change as you get the visibility company-wide to say "This is important, and it's important to do it soon."
 
@@ -380,7 +380,7 @@ I don't want it to be a distraction from the actual work, and make it seem like 
 
 **Ward Becker:** We don't need the vote. But yeah, one of the other things is that -- so one thing is of course to create a visualization, but the other thing is also to create something that people can see externally. "How do we use this candlestick diagram of visualization?" And that's something we're currently working on, or I'm working on together with some folks, to build up demo dashboards; maybe a few YouTube videos around it, so that people get a little bit of sense of how they can combine it with maybe some of the external APIs that are available...
 
-\[00:36:14.13\] Because there's a lot of Stonks and Crypto information that you can get for free, where you just need to provide an API key and a REST endpoint and you're good to go. And that's actually very easy to do, and that's something I'm currently building kind of a demo video for, so that people know how to go about that.
+\[36:14\] Because there's a lot of Stonks and Crypto information that you can get for free, where you just need to provide an API key and a REST endpoint and you're good to go. And that's actually very easy to do, and that's something I'm currently building kind of a demo video for, so that people know how to go about that.
 
 **Tom Wilkie:** And I know the other project that I think came second in your hackathon was a cool project to accelerate PromQL queries and shard them...
 
@@ -414,7 +414,7 @@ Last question from me, Ryan - and this is probably what any Grafana used in the 
 
 **Ash Mazhari:** Yeah, but it's also a function of the volume of participation. We've had over 150 projects in less than a year, so it's a lot to sort through for our relative size, but it's also a good problem to have.
 
-**Ryan McKinley:** \[00:39:51.05\] Yeah, totally. And importantly, projects -- you brought this up before, of like... You know, one hackathon project was just picking up the last one and doing it again. I think that's great, personally... And in a real way, coming to a hackathon saying "We're gonna work on a Git workflow" and Petros shows up with documentation that we wrote two years ago on why this is a good idea... You know, is that cheating? Maybe. But do I care? No.
+**Ryan McKinley:** \[39:51\] Yeah, totally. And importantly, projects -- you brought this up before, of like... You know, one hackathon project was just picking up the last one and doing it again. I think that's great, personally... And in a real way, coming to a hackathon saying "We're gonna work on a Git workflow" and Petros shows up with documentation that we wrote two years ago on why this is a good idea... You know, is that cheating? Maybe. But do I care? No.
 
 **Ash Mazhari:** No, I think that should be encouraged, picking up where others left off. I think one of the ones around the racing and video game integration with Grafana also originated that way.
 
@@ -454,7 +454,7 @@ Last question from me, Ryan - and this is probably what any Grafana used in the 
 
 **Mat Ryer:** Yeah, I think that's a very good point. Alight, so we won't release them just yet... But hopefully, they will see the light of day one day. Well, unfortunately, that's is all the time we have for today. Thank you very much, Tom Wilkie, and to our special guests, Ward, Ryan and Ash. I'm Mat Ryer, and thank you very much for listening. We'll see you next time on this big, old tent of ours.
 
-**Outro:** \[00:43:34.20\]
+**Outro:** \[43:34\]
 
 **Mat Ryer:** Hello, and welcome to Grafana's Big Tent. I'm Mat Ryer, and -- I've said that wrong. This is not going well... \[laughter\]
 
