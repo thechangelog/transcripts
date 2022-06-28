@@ -160,7 +160,7 @@ And I do understand that sentiment. I think I agree with Bill there, and I am ha
 
 \[32:07\] But I think the thing I was trying to point out here is that this is like an actual trade-off that happens, at the end of the day, and big companies have a habit of doing this sort of thing and harming underrepresented communities by doing this sort of thing. And if we just keep going on thanking them for everything they do, we don't necessarily resolve that problem at the end of the day... Which is obviously a tough thing to talk about, because once again, this is not a topic that people usually consider to be polite conversation, or things like that. But no, they are doing a good service, so it's like we should appreciate that... But at the end of the day, as someone from a plethora of marginalized backgrounds, it's tough for me when I see other people that are not thought of as marginalized, other people that don't get the spotlight as much are suffering, and they don't get necessarily the same amount of recognition; they just kind of have to put up and deal with it.
 
-**Natalie Pistunovich:** And \[unintelligible 00:32:57.03\] Thank you, Bill, for being a member of this conversation in some way. This is interesting.
+**Natalie Pistunovich:** And it's more, responsive. Thank you, Bill, for being a member of this conversation in some way. This is interesting.
 
 **Ian Lopshire:** Bill does bring up something nice. It's a small team, very little runway... That probably is something we forget. Even behind these big companies are just people on teams.
 
@@ -200,7 +200,7 @@ Ian Lopshire:: Personally, I am a fan.
 
 **Natalie Pistunovich:** Yes. And mention - thanks to Bill's feedback - that this is an old feature request that recently resurfaced. Yeah.
 
-**Kris Brandow:** Yes. So basically, Robert Griesemer, in this issue, which we'll have linked, brought up this idea of having basically a more concise way to define functions. Similar to the fat arrow syntax that is in JavaScript, he basically gave us like two different examples of how to do this... Mostly either \[unintelligible 00:37:21.04\] the func keyword and having a fat arrow, or keeping the func keyword and removing parentheses around the arguments. And then also as a secondary part that's not something you have to do as part of this, but is related, is removing return, or not having to specify return, if there's a single value that's being returned from one of these more compact functions.
+**Kris Brandow:** Yes. So basically, Robert Griesemer, in this issue, which we'll have linked, brought up this idea of having basically a more concise way to define functions. Similar to the fat arrow syntax that is in JavaScript, he basically gave us like two different examples of how to do this... Mostly either a lot in the func keyword and having a fat arrow, or keeping the func keyword and removing parentheses around the arguments. And then also as a secondary part that's not something you have to do as part of this, but is related, is removing return, or not having to specify return, if there's a single value that's being returned from one of these more compact functions.
 
 **Ian Lopshire:** I am 100% against ever having implicit returns. There should never be a return without the return keyword, even in these small, anonymous functions. I would say no to this proposal all the way, just on that single point.
 
