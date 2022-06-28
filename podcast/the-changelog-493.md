@@ -372,11 +372,11 @@ If I can trust Lee to be someone who wants to help me... Maybe you should make t
 
 **Jerod Santo:** What are the traits? I assume some sort of technical writing skills... Give us some of the basics of like "Well, you would be a good DevRel if..."
 
-**Adam Stacoviak:** Yeah, I like that \[unintelligible 00:56:00.07\] "You might be a DevRel if..."
+**Adam Stacoviak:** Yeah, I like that Jeff Foxworthy "You might be a DevRel if..."
 
 **Jerod Santo:** There you go.
 
-**Lee Robinson:** Yeah. You mentioned technical writing, and I would rank that up there as one of the most important things, close to empathy. Specifically, it's writing and communication, because so much of our role is interfacing virtually and in-person through written communication, that the more succinctly, the more clear you can deliver your message, the better off you're gonna be. And that's just in the \[unintelligible 00:56:31.01\] that's not even talking about the educational material.
+**Lee Robinson:** Yeah. You mentioned technical writing, and I would rank that up there as one of the most important things, close to empathy. Specifically, it's writing and communication, because so much of our role is interfacing virtually and in-person through written communication, that the more succinctly, the more clear you can deliver your message, the better off you're gonna be. And that's just in the comms, that's not even talking about the educational material.
 
 If you're creating educational material - of course, it's blog posts, video scripts, any of this stuff. The more well-written and polished and clear that can be, the better your content is gonna be. So the written element is extremely important, because great writing usually comes from great thinking and good, refined thoughts, and working through the drafts that maybe weren't as good. So that's something I definitely look for a lot.
 
@@ -428,7 +428,7 @@ The separation of audiences there is really important on what makes the content 
 
 Then there's also the press release, announcement-style material, and I think where DevRel can play a role in that is making sure you're doing justice to your community. So let's say you're announcing a new feature for your product. In how you talk about this feature, you should try to tie it back to the actual customers using it, the community involved around it... Maybe they have surfaced some feedback that's helped make it successful. Maybe you've actually surfaced this with them ahead of time, so you can get feedback on the announcement or on the feature that you're launching.
 
-And I think the DevRel persona can help bring the lens of \[unintelligible 01:06:56.29\] Maybe this is somebody really advanced. How do we make sure that this content lands with all of the developers in our community?
+And I think the DevRel persona can help bring the lens of maybe this is a first-time viewer of the product, maybe this is somebody really advanced. How do we make sure that this content lands with all of the developers in our community?
 
 **Jerod Santo:** I'm curious about specific social platforms and what y'all are investing in. Is Instagram -- we have them, they are all stealing each other's features...
 
