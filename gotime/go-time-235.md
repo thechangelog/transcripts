@@ -52,7 +52,7 @@
 
 **Ron Evans:** Well, this is the reason why I'm making this call. I'm using all of the battery energy that I've saved for several years in order to make this transmission, to send you a warning from the future. You see, I am the last Go programmer alive in 2053.
 
-**Natalie Pistunovich:** \[00:04:25.13\] Whaat?! No, don't say that...
+**Natalie Pistunovich:** \[04:25\] Whaat?! No, don't say that...
 
 **Ron Evans:** And it's terrible. All I do is maintenance programming. I haven't added a new feature in over 20 years.
 
@@ -132,13 +132,13 @@
 
 **Ron Evans:** Alright, so ask me questions, because I don't know how much longer these batteries are gonna last.
 
-**Mat Ryer:** Yeah. Okay, let's do it. Well, Jonathan Barry actually mentioned Web Assembly support, specifically the ability to include Web Assembly in WASI models in your Go apps. What do you think of that? What happened with that, Ron?
+**Mat Ryer:** Yeah. Okay, let's do it. Well, Jonathan Barry actually mentioned WebAssembly support, specifically the ability to include WebAssembly in WASI models in your Go apps. What do you think of that? What happened with that, Ron?
 
 **Ron Evans:** Ahh, if we had only done that...! If we'd only done that... When all the brain-computer interfaces became all the rage in the 2030s, and all of a sudden everybody needed to upgrade their brain interfaces all at the same time... And of course, the containers were just too big.
 
 **Mat Ryer:** Yeah...
 
-**Ron Evans:** \[00:08:00.03\] It just took too long to -- I mean, if something went wrong during your brain-computer interface upload, you could break yourself. So naturally, if there had only been something like TinyGo... If TinyGo had been around, or if Go had actually gone themselves and created this whole Web Assembly thing for running on servers and small devices, and they dealt with the size of containers, then they would have been able to do that brain-computer interface upgrade, and they wouldn't have gotten left behind by Cobol, which is the language they ended up using.
+**Ron Evans:** \[08:00\] It just took too long to -- I mean, if something went wrong during your brain-computer interface upload, you could break yourself. So naturally, if there had only been something like TinyGo... If TinyGo had been around, or if Go had actually gone themselves and created this whole WebAssembly thing for running on servers and small devices, and they dealt with the size of containers, then they would have been able to do that brain-computer interface upgrade, and they wouldn't have gotten left behind by Cobol, which is the language they ended up using.
 
 **Mat Ryer:** I see... By the way, I have the very early prototype of that technology. It's just floppy disk drives in my back. That's the price you pay for being an early adopter.
 
@@ -146,7 +146,7 @@
 
 **Mat Ryer:** Oh, that'd be so much cooler... Well, we'll find out what will happen to that, too.
 
-**Ron Evans:** But yeah, Web Assembly - they should have done that, but they didn't do it.
+**Ron Evans:** But yeah, WebAssembly - they should have done that, but they didn't do it.
 
 **Mat Ryer:** So what do we need to do to make that work then? Is TinyGo the answer to that, do you think?
 
@@ -166,7 +166,7 @@
 
 **Ron Evans:** We just set the benchmarks to whatever we need, and the client's always happy. That's what the AI said to do, so we trusted it.
 
-**Mat Ryer:** Okay, so TinyGo, there we go. I mean, I think Web Assembly -- we've still got a chance to do that, Ron, don't forget; we're in the present...
+**Mat Ryer:** Okay, so TinyGo, there we go. I mean, I think WebAssembly -- we've still got a chance to do that, Ron, don't forget; we're in the present...
 
 **Ron Evans:** Oh, right...
 
@@ -214,7 +214,7 @@
 
 **Ron Evans:** They're probably right out of the frontlines of that -- I don't know if they were a tabber or a spacer; I don't care. From this side of the history it doesn't matter. We were all on the same side, the human side.
 
-**Mat Ryer:** \[00:12:02.17\] Yeah. Could you google us and see what happens to us? I mean, Natalie. What happens to us in the future?
+**Mat Ryer:** \[12:02\] Yeah. Could you google us and see what happens to us? I mean, Natalie. What happens to us in the future?
 
 **Ron Evans:** Oh, no, that's not allowed.
 
@@ -266,7 +266,7 @@
 
 **Mat Ryer:** You do, yeah. I was thinking that...
 
-**Break:** \[00:15:28.25\]
+**Break:** \[15:28\]
 
 **Mat Ryer:** What about tabs versus spaces then? What happened with that?
 
@@ -308,7 +308,7 @@
 
 **Natalie Pistunovich:** Crusty Crab.
 
-**Ron Evans:** \[00:19:59.01\] I haven't been there, but the Google Campus that they've just opened, the beachfront campus on top of Mount \[unintelligible 00:20:03.28\] They have an amazing seaweed bar, I've heard. I have to get there; I'm not sure -- it could be quite a journey by hydrofoil from here. I don't think I can get a permit for an electric plane.
+**Ron Evans:** \[19:59\] I haven't been there, but the Google Campus that they've just opened, the beachfront campus on top of Mount \[unintelligible 00:20:03.28\] They have an amazing seaweed bar, I've heard. I have to get there; I'm not sure -- it could be quite a journey by hydrofoil from here. I don't think I can get a permit for an electric plane.
 
 **Mat Ryer:** Okay. Assan Habib on Twitter said that we should increase our community engagement. They say Go has many fantastic features, toolings that many people are not aware of; through media like YouTube experts can take lessons on tooling... You know, you can do things like that, but... Can we do more of that? Would that help?
 
@@ -354,7 +354,7 @@ It'd be really great if it was more than just kind of a free-for-all. If at some
 
 **Ron Evans:** That was a really sad thing... You had this company Google that had Android, and that was the operating system that everybody was using. Not everybody, but lots and lots of people were using Android on all these devices, and it came from this company... Google. They used to exist back in those days...
 
-**Mat Ryer:** \[00:24:15.29\] Yeah, I remember them.
+**Mat Ryer:** \[24:15\] Yeah, I remember them.
 
 **Ron Evans:** Yeah, Google was really something. They had Android, and they had Go, and yet nobody at Google ever actually worked on the Android stuff for Go. And the people who did try to work on it, they were just sort of like "Yeah, you know, we should use the new language, Kotlin..." So the people who actually wanted to do it, who actually spent a lot of time doing it, they suddenly felt a little abandoned, a little sad, so they stopped working on it. They went to go work for Apple Exxon Mobile... And they were doing really well; there was all kinds of IoT options there, too. I mean, of course, they all ran on iouOS, which was the OS that ended up being the last OS they ever shipped. You have iouOS on all of the devices. That was another thing... Go could have been so great on these devices. I mean, when the break system on the airplane you're on needs to reboot six times a day - who wants to fly anymore...? Go was so good at that, writing really bulletproof software, really solid stuff. But that was another one - there was all these people using TinyGo for that back before the big one.
 
@@ -426,7 +426,7 @@ It'd be really great if it was more than just kind of a free-for-all. If at some
 
 **Ron Evans:** Oh. Well, if Google had not disbanded the actual official Go development team in 2023 and stopped working on it, I'm sure they would have completed their generics implementation and all that type safety. Basically, everyone just said "Oh, we should start using Rust", and then after they used Rust, they're like "No, we're gonna switch back to Erlang." So strangely enough, because Erlang was really popular, telecommunications companies, all the big companies jumped in... Next thing you know everything's being written in assembly language again.
 
-**Mat Ryer:** \[00:28:19.29\] Oh, yeah. That sounds amazing though, to be fair... Okay, so you think then that we wanna keep with the Go team, we want to see the Go team carry on. You think that's what we should do then instead.
+**Mat Ryer:** \[28:19\] Oh, yeah. That sounds amazing though, to be fair... Okay, so you think then that we wanna keep with the Go team, we want to see the Go team carry on. You think that's what we should do then instead.
 
 **Ron Evans:** Oh, they never should have disbanded the project. They should have kept the band together.
 
@@ -504,7 +504,7 @@ It'd be really great if it was more than just kind of a free-for-all. If at some
 
 **Mat Ryer:** Oh, I thought there was money. There was money earlier. Is \[unintelligible 00:32:01.19\]
 
-**Ron Evans:** \[00:32:03.23\] Oh, well, I used to get my blood transfusions...
+**Ron Evans:** \[32:03\] Oh, well, I used to get my blood transfusions...
 
 **Mat Ryer:** Yeah, that's right. That's alright.
 
@@ -580,7 +580,7 @@ But back then, when humans were being protected by other humans, occasionally, G
 
 **Ron Evans:** Yeah, it's beautiful.
 
-**Break:** \[00:35:22.05\]
+**Break:** \[35:22\]
 
 **Mat Ryer:** RageCage talked about wanting more module features. They're really like workspaces that came in 1.18... But what about that? Do you think Go is doing alright with modules? Do you think we need to do better? Are there things in particular we should look at?
 
@@ -616,7 +616,7 @@ But back then, when humans were being protected by other humans, occasionally, G
 
 **Ron Evans:** It's going back to that semantic warfare against the concepts of the Go programming language. We don't promise you, okay? We GO DO IT.
 
-**Mat Ryer:** \[00:40:08.24\] \[laughs\]
+**Mat Ryer:** \[40:08\] \[laughs\]
 
 **Natalie Pistunovich:** Is that a new keyword?
 
@@ -638,7 +638,7 @@ But back then, when humans were being protected by other humans, occasionally, G
 
 **Mat Ryer:** \[unintelligible 00:40:32.06\] is amazing, by the way. I know it's not good for podcasts, but we just want people to know at home the effort that Ron has gone to. We're gonna have to post some pictures of this on our GoTimeFM Twitter channel, because you won't believe it.
 
-\[unintelligible 00:40:46.03\] on Twitter says "The language is fine. I'd go for more automated tooling and docs around the majority use cases, like APIs and things." Go kind of -- you know, a lot of the benefits we had, with gofmt and just having a few ways of doing things meant we could kind of cooperate much easier. Should we have done also for common things like JSON APIs? Because they are very common still, and why not have a standard way to do them as well?
+\[unintelligible 00:40:46.03\] on Twitter says "The language is fine. I'd go for more automated tooling and docs around the majority use cases, like APIs and things." Go kind of -- you know, a lot of the benefits we had, with `go fmt` and just having a few ways of doing things meant we could kind of cooperate much easier. Should we have done also for common things like JSON APIs? Because they are very common still, and why not have a standard way to do them as well?
 
 Aaand we've lost him... Sorry, everybody, if you're watching live... We are just experiencing some technical difficulties because Ron is broadcasting from 30 years in the future... I think he said 2053. Just a normal Go Time episode apart from that, isn't it?
 
@@ -646,7 +646,7 @@ Aaand we've lost him... Sorry, everybody, if you're watching live... We are just
 
 **Mat Ryer:** Well, because a lot of people have JSON APIs, but there's loads of ways to do it; you just build it yourself. So you can use like the JSON marshaling, you can use the HTTP handlers, and things... But there's lots of other stuff in there, like dealing with responses... That's quite common, those kinds of things.
 
-Some languages like Ruby, obviously, and there are really frameworks that do it - they do solve that problem, and everyone then writes the same code, and it looks the same. In the same way gofmt gives us that in Go.
+Some languages like Ruby, obviously, and there are really frameworks that do it - they do solve that problem, and everyone then writes the same code, and it looks the same. In the same way `go fmt` gives us that in Go.
 
 **Natalie Pistunovich:** Yeah.
 
@@ -686,7 +686,7 @@ I wonder if we can now reconnect Ron...
 
 **Ron Evans:** It's because you didn't ask "Please" when you turned it on. It's very complicated.
 
-**Natalie Pistunovich:** \[00:44:16.01\] Wait, is this a reference to gopls? Is that still working?
+**Natalie Pistunovich:** \[44:16\] Wait, is this a reference to gopls? Is that still working?
 
 **Ron Evans:** Oh, no. That never worked. I don't know what that is.
 
@@ -700,7 +700,7 @@ I wonder if we can now reconnect Ron...
 
 **Mat Ryer:** Well, whatever timeline you're in, or indeed, any point in space, it's time for Unpopular Opinions!
 
-**Jingle:** \[00:44:46.22\] to \[00:45:04.10\]
+**Jingle:** \[44:46\] to \[45:04\]
 
 **Mat Ryer:** Okay, this is gonna be very interesting, hearing from the future... Ron, do you have an unpopular opinion for us today?
 
@@ -808,7 +808,7 @@ I wonder if we can now reconnect Ron...
 
 **Ron Evans:** Well, there actually was an RFC for the CoffeePot Protocol.
 
-**Mat Ryer:** \[00:48:10.17\] Was there? Oh, yes...
+**Mat Ryer:** \[48:10\] Was there? Oh, yes...
 
 **Ron Evans:** And I believe at some point the AI's discovered that, and they thought "Well, humans really must care about coffee if they've made a whole internet protocol just about it."
 
