@@ -78,7 +78,7 @@
 
 **Mat Ryer:** Yeah, I think that gets around the loophole of the physics of that... So I think we're good, yeah.
 
-**Natalie Pistunovich:** Yeah, it's all \[unintelligible 00:05:45.07\] right now, right? Messaging...
+**Natalie Pistunovich:** Yeah, it's all Square and Twitter and birds right now, right? Messaging...
 
 **Mat Ryer:** Yeah.
 
@@ -110,7 +110,7 @@
 
 **Mat Ryer:** Glitched again.
 
-**Natalie Pistunovich:** He's \[unintelligible 00:06:46.12\]
+**Natalie Pistunovich:** He's nudging
 
 **Mat Ryer:** Oh, he's back.
 
@@ -228,7 +228,7 @@
 
 **Natalie Pistunovich:** It's a very logical one.
 
-**Mat Ryer:** \[unintelligible 00:12:20.13\] on Twitter wants to see more immutability and enums. Enums is one that I hear quite a lot, actually; people actually want enums. Did enums/lack of enums hold us back, Ron?
+**Mat Ryer:** DFL on Twitter wants to see more immutability and enums. Enums is one that I hear quite a lot, actually; people actually want enums. Did enums/lack of enums hold us back, Ron?
 
 **Ron Evans:** Oh, so much... You don't realize... If you just can't figure out if it's this, or that, or the other thing, or something else yet again... You know, for us developers, we could figure that out, but then all of a sudden these people started making programs using things like no code, with no code and no rules and no enums, and they were just making up their own, like three-and-a-half, and sixteen-and-three-quarters, and then suddenly they were bringing back imperial units, so they were making up new units that no one had ever heard of... Moon units, and stuff like that... If only they had enums, then probably those would have held things in place and that would have prevented the Silicon Virus of 2027... Which actually - that was an actual silicon virus; the chips were passing it to each other.
 
@@ -240,7 +240,7 @@
 
 **Ron Evans:** I can't say... But just remember what might happen if you don't.
 
-**Natalie Pistunovich:** Why stop there? How about tooling and third-party libraries for things like image library \[unintelligible 00:13:46.02\]
+**Natalie Pistunovich:** Why stop there? How about tooling and third-party libraries for things like image library in Go like the \[unintelligible 00:13:46.02\] is recommended
 
 **Ron Evans:** Oh. Well, that is a really big thing. The standard library - at some point it went from code to suddenly like a whole belief system. \[laughter\] We'd never even seen anything like it. There were standard library purists, and then there were not... There were the heretics that were thrown out of the community, that went on to all these other languages, like Lisp... So it was all simply because of not being able to accept ideas that came from other places that were totally valid, and that deserved their own little niche in the ecosystem, and they didn't get fed and watered... And eventually, they migrated to another island, I guess. I don't know. Maybe another space station. I can't really get transmissions through to those stations. They cut me off.
 
@@ -292,7 +292,7 @@
 
 **Ron Evans:** Alright, next question.
 
-**Mat Ryer:** Yeah, \[unintelligible 00:18:07.16\] on Twitter says "Better out-of-the-box error support." And remember we had the try proposal; I don't know if you remember way back then, Ron... And there were some other \[unintelligible 00:18:16.02\] Do you think there's more work to be done on error handling? Do you wish we'd done that back now?
+**Mat Ryer:** Yeah, \[unintelligible 00:18:07.16\] on Twitter says "Better out-of-the-box error support." And remember we had the try proposal; I don't know if you remember way back then, Ron... And there were some other Nate the Finch has a proposal too, there's some other ideas around. Do you think there's more work to be done on error handling? Do you wish we'd done that back now?
 
 **Ron Evans:** Well, I will tell you, the basic, original philosophy of Go was to handle things. Not to try; do or do not. There is no try. All of a sudden, the semantics of try started to infiltrate the brain space of the community. Next thing you know they're starting to talk about variable lifetimes, and ownership of things... Suddenly, it was all about ownership again. Web 15 was all about ownership of variables. It literally came down to the variable level. So I don't know... For me, it all went too far when even the bio companies wouldn't touch it. And believe me, they'll touch anything. They deal with biomass.
 
@@ -410,9 +410,9 @@ It'd be really great if it was more than just kind of a free-for-all. If at some
 
 **Ron Evans:** Okay, okay.
 
-**Mat Ryer:** \[unintelligible 00:26:45.26\]
+**Mat Ryer:** Blake Bork
 
-**Ron Evans:** But yeah, if we've had a lot more software support for this kind of industrial side of computing \[unintelligible 00:26:53.07\]
+**Ron Evans:** But yeah, if we've had a lot more software support for this kind of industrial side of computing from Go...
 
 **Natalie Pistunovich:** Oh, somebody's really into cans right now, opening all of them at once.
 
@@ -422,7 +422,7 @@ It'd be really great if it was more than just kind of a free-for-all. If at some
 
 **Ron Evans:** The anti-gravity belts would have had Go installed.
 
-**Mat Ryer:** Ron, \[unintelligible 00:27:28.16\] on Twitter - one of the things that they think we should focus on a bit is generic thread-safe containers like the sync.Map, other types like that that are -- you know, hard problems that would be nice to get solved, especially if we have generics to kind of allow them to work with any types... What do you think of something like that? Would that have helped?
+**Mat Ryer:** Ron, Blake Bork on Twitter - one of the things that they think we should focus on a bit is generic thread-safe containers like the sync.Map, other types like that that are -- you know, hard problems that would be nice to get solved, especially if we have generics to kind of allow them to work with any types... What do you think of something like that? Would that have helped?
 
 **Ron Evans:** Oh. Well, if Google had not disbanded the actual official Go development team in 2023 and stopped working on it, I'm sure they would have completed their generics implementation and all that type safety. Basically, everyone just said "Oh, we should start using Rust", and then after they used Rust, they're like "No, we're gonna switch back to Erlang." So strangely enough, because Erlang was really popular, telecommunications companies, all the big companies jumped in... Next thing you know everything's being written in assembly language again.
 
@@ -502,7 +502,7 @@ It'd be really great if it was more than just kind of a free-for-all. If at some
 
 **Ron Evans:** There's no money. There's just canned tuna.
 
-**Mat Ryer:** Oh, I thought there was money. There was money earlier. Is \[unintelligible 00:32:01.19\]
+**Mat Ryer:** Oh, I thought there was money. There was money earlier. Is that cannon?
 
 **Ron Evans:** \[32:03\] Oh, well, I used to get my blood transfusions...
 
@@ -560,7 +560,7 @@ But back then, when humans were being protected by other humans, occasionally, G
 
 **Mat Ryer:** Oh, thank goodness. I don't know what I'd do without it.
 
-**Ron Evans:** I use Minder... You know, it's where \[unintelligible 00:35:00.04\] dump your actual mind directly...
+**Ron Evans:** I use Minder... You know, it's where you dump your actual mind directly...
 
 **Mat Ryer:** That's cool.
 
@@ -568,7 +568,7 @@ But back then, when humans were being protected by other humans, occasionally, G
 
 **Ron Evans:** It's more like a feeling.
 
-**Mat Ryer:** It's just \[unintelligible 00:35:06.28\]
+**Mat Ryer:** It's just Hex
 
 **Ron Evans:** Remember the feeling you used to get when there was somebody being wrong on the internet? It's like that all the time.
 
@@ -662,7 +662,7 @@ I wonder if we can now reconnect Ron...
 
 **Natalie Pistunovich:** You're back!
 
-**Mat Ryer:** Yeah, you're back. We're \[unintelligible 00:42:59.05\] live and clear again.
+**Mat Ryer:** Yeah, you're back. Receiving you live and clear again.
 
 **Ron Evans:** There were some drones at the door... I wasn't sure if it was a delivery, or they were trying to kill me.
 
@@ -746,7 +746,7 @@ I wonder if we can now reconnect Ron...
 
 **Natalie Pistunovich:** Yes. I think even when I started drinking coffee, for a very short period I would drink it sweet, but just... There's different types of coffee. I don't know, Ron, if you remember...
 
-**Ron Evans:** Well, the thing that \[unintelligible 00:46:14.25\] amazing is you keep talking about sugar. They burned all the sugar when they did Sugarcoin...
+**Ron Evans:** Well, the thing that's amazing is you keep talking about sugar. They burned all the sugar when they did Sugarcoin...
 
 **Mat Ryer:** It must have smelled delicious.
 
@@ -772,7 +772,7 @@ I wonder if we can now reconnect Ron...
 
 **Ron Evans:** It's genius.
 
-**Mat Ryer:** \[unintelligible 00:46:57.10\]
+**Mat Ryer:** Well do you have the memory you just put in?
 
 **Natalie Pistunovich:** Is this what stands behind all those "Buy me coffee" buttons?
 
@@ -804,7 +804,7 @@ I wonder if we can now reconnect Ron...
 
 **Natalie Pistunovich:** Coffeum, right.
 
-**Mat Ryer:** Just as an attachment. What's the \[unintelligible 00:48:01.17\] type for that?
+**Mat Ryer:** Just as an attachment. What's the mime type for that?
 
 **Ron Evans:** Well, there actually was an RFC for the CoffeePot Protocol.
 
@@ -870,7 +870,7 @@ I wonder if we can now reconnect Ron...
 
 **Ron Evans:** I think that some of those humans downloaded themselves into those first robotic DJs, just so they would have the stamina to reach that level of dance floor completion.
 
-**Mat Ryer:** I've often wondered that about human DJs anyway... Like, you're making the robots do it now. They're just playing stuff on their laptop. I don't know what they're doing... I never understood it, but -- you know, I don't wanna have a go at DJs. I'm sure \[unintelligible 00:50:57.21\] Please don't write in.
+**Mat Ryer:** I've often wondered that about human DJs anyway... Like, you're making the robots do it now. They're just playing stuff on their laptop. I don't know what they're doing... I never understood it, but -- you know, I don't wanna have a go at DJs. I'm sure it is very skilled. Please don't write in.
 
 **Ron Evans:** Oh, no, no, that was the only music left. If you don't play at least five different songs at the same time in the future, people can't even hear the music. It's just too boring.
 
