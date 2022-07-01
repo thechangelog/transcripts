@@ -18,7 +18,7 @@
 
 **Nick Nisi:** Me neither.
 
-**Jerod Santo:** \[00:04:08.28\] I figured you would just figure it out when you get there. I hope you did. I hope you figured it out.
+**Jerod Santo:** \[04:08\] I figured you would just figure it out when you get there. I hope you did. I hope you figured it out.
 
 **Nick Nisi:** I hope so. Yeah. \[laughs\] It was a lot of fun, and... Yeah, we just kind of put it together... I was kind of just pacing back and forth in the hallway, talking to myself for hours...
 
@@ -74,7 +74,7 @@
 
 **Nick Nisi:** None of that. And I was very worried. I was like, I should have gone a day earlier, because if one thing goes wrong, I'm just gonna miss the conference. I got there a whole day ahead of time, but it was also like -- time's weird, right? We lost eight hours going there, or seven hours going there, and then got there... I was up for a full 24 hours, and basically dropped my stuff off at the hotel, successfully made it, got all of the packages there and everything, including a giant, amazing JS Party sign, which was awesome, and not super-fun to carry from like the airport onto a train, then carrying around Amsterdam to get onto a metro, and then...
 
-**Jerod Santo:** \[00:08:15.11\] I warned you... \[laughter\] So the previous - was it Friday? No, it was like Monday or Tuesday. I can't remember. You left on Tuesday, so it was Monday; the day before.
+**Jerod Santo:** \[08:15\] I warned you... \[laughter\] So the previous - was it Friday? No, it was like Monday or Tuesday. I can't remember. You left on Tuesday, so it was Monday; the day before.
 
 **Nick Nisi:** Yeah.
 
@@ -142,7 +142,7 @@
 
 **Nick Nisi:** Yeah, it was so great. I mean, this was just like a fantastically well put together set of conferences. I have nothing but good things to say about the organizing team, and everything that they did. But it also - it just hit different, because it was the first time going to a conference. And I don't think anybody would disagree, it is so much better than an online conference... Because you get to actually--
 
-**Jerod Santo:** \[00:12:01.10\] Yeah. There's no comparison.
+**Jerod Santo:** \[12:01\] Yeah. There's no comparison.
 
 **Nick Nisi:** Yeah. Yeah, absolutely.
 
@@ -186,7 +186,7 @@ So a couple of cool talks... You were in the hallway track most of the time, and
 
 **Nick Nisi:** I think so, yeah. I didn't actually get to see it. I didn't get to see it yet, but I think it will be on YouTube later, so I'll definitely go check it out... But yeah, I didn't really know what to expect until I got there, and kind of talking with the organizers and with the video team about what to do.
 
-\[00:15:41.07\] They gave me a wireless mic that we decorated for each day. So like the JS Nation day I had the JS Nation logo on the mic, and the React Summit day I had their logo... And the way that they did the conference was like, you know, the conference started in the morning, Amsterdam time, for all of the live attendees. And then for the online attendees, they didn't join until the afternoon. It's just to fit better with American time zones. I think that was the idea, at least. But what I did was, leading up to that live stream starting, I recorded kind of a walkthrough to give the online attendees an idea of what it was like live and in-person at the conference. So you can maybe think of it as a little bit of an ad for what to expect at a conference like JS Nation and React Summit, and also just like give them an idea of the vibe that's there, which was really, really awesome, really something else.
+\[15:41\] They gave me a wireless mic that we decorated for each day. So like the JS Nation day I had the JS Nation logo on the mic, and the React Summit day I had their logo... And the way that they did the conference was like, you know, the conference started in the morning, Amsterdam time, for all of the live attendees. And then for the online attendees, they didn't join until the afternoon. It's just to fit better with American time zones. I think that was the idea, at least. But what I did was, leading up to that live stream starting, I recorded kind of a walkthrough to give the online attendees an idea of what it was like live and in-person at the conference. So you can maybe think of it as a little bit of an ad for what to expect at a conference like JS Nation and React Summit, and also just like give them an idea of the vibe that's there, which was really, really awesome, really something else.
 
 **Jerod Santo:** So were there interviews, were you telling jokes? Did you stand on your head? Did you juggle? Sing songs, karaoke?
 
@@ -210,7 +210,7 @@ There was also a big tie-in to the online portion, because after each of the spe
 
 And then - yeah, so kind of walked through, touched on a little bit of the sponsors, I got to randomly talk to some attendees, ask them some random questions on, you know, is this their first conference after the pandemic, or since the pandemic started... And you know, ask them random questions like "What's your favorite hook?" or things like that, just to get some, some fun, random responses.
 
-\[00:20:04.00\] And then I kind of showed the main conference hall, where all of the main level tracks were happening. A really cool setup that they had. I was just so blown away by how well put together everything was. But I did it the second time, got it closer to nine minutes, which was really good...
+\[20:04\] And then I kind of showed the main conference hall, where all of the main level tracks were happening. A really cool setup that they had. I was just so blown away by how well put together everything was. But I did it the second time, got it closer to nine minutes, which was really good...
 
 **Jerod Santo:** Yeah, now you're well-practiced at this point. You've done it a few times.
 
@@ -235,7 +235,7 @@ They're not without their problems, because it's a very old city, and several of
 
 **Nick Nisi:** Well, yeah. The night before, or I guess over the weekend, we were kind of like in our hotel room at night, we turned on the news, and they were just talking about how worldwide this was like the busiest weekend for airports yet in 2022. We're like, "Oh, great. It's probably not going to be any better at the Amsterdam airport." And it wasn't; it was awful when we got there. But we took the metro, and then took a train there, got to the airport, and just had a heck of a time trying to find where to go with things. You know, it's all in Dutch; all the signage and everything is in Dutch, so we were trying to figure out where to go... And asking people. Everyone there, super-polite, by the way. But they showed us where to go, they like told us what check in process to go through, and we found that, but we couldn't -- like, it was packed. It was just completely packed. And we ended up -- we couldn't even find how to get in, because there were just so many people going back and forth, and covering up the entrances, and things like that.
 
-\[00:24:22.01\] So I just asked a security guard, I'm like, "Where do I go for this line?" And he's like, "Oh, I think it's over there." And I'm like, "I was just over there. I don't see anything." And he's like, "You know, just got under." And somehow we just got right in to check our bags and stuff.
+\[24:22\] So I just asked a security guard, I'm like, "Where do I go for this line?" And he's like, "Oh, I think it's over there." And I'm like, "I was just over there. I don't see anything." And he's like, "You know, just got under." And somehow we just got right in to check our bags and stuff.
 
 **Jerod Santo:** Nice.
 
@@ -277,7 +277,7 @@ They're not without their problems, because it's a very old city, and several of
 
 **Nick Nisi:** ...so as soon as we landed in Omaha, I checked it, and I could see that it was just sitting in the Detroit airport, and I was like "Well..." I just went immediately to the counter and was like, "Yeah, the bag is here. I can see it."
 
-**Jerod Santo:** \[00:28:13.01\] Yeah, exactly. "I can see it in Detroit." Here's a pro tip - I put one of those in each of my young children's shoes when we go to places like the zoo and the College World Series, because it's a little peace of mind. You know, the huge crowds... Actually, my wife told me they're starting to make wristbands now that holds an AirTag, so like other people are having that idea... Because in the shoe it works especially if you're gonna get kidnapped or whatever, because they won't know it's in there... That's like the worst-case scenario. Whereas a wristband, if you're gonna if you're gonna grab a kid, you see the AirTag; hopefully you're smart enough, although most people who are kidnapping are not smart humans. But in the shoe is a safe place in that case to tail down a kidnapper or two.
+**Jerod Santo:** \[28:13\] Yeah, exactly. "I can see it in Detroit." Here's a pro tip - I put one of those in each of my young children's shoes when we go to places like the zoo and the College World Series, because it's a little peace of mind. You know, the huge crowds... Actually, my wife told me they're starting to make wristbands now that holds an AirTag, so like other people are having that idea... Because in the shoe it works especially if you're gonna get kidnapped or whatever, because they won't know it's in there... That's like the worst-case scenario. Whereas a wristband, if you're gonna if you're gonna grab a kid, you see the AirTag; hopefully you're smart enough, although most people who are kidnapping are not smart humans. But in the shoe is a safe place in that case to tail down a kidnapper or two.
 
 **Nick Nisi:** Yeah, that's a fantastic idea. I love that. And it's not like a watch, so there's not like an interactive thing that the kid is gonna get distracted by, or anything like that.
 
@@ -309,7 +309,7 @@ They're not without their problems, because it's a very old city, and several of
 
 **Nick Nisi:** Yeah, for sure. And yeah, it was just kind of, you know, being able to talk about how we try and have fun, we talk about a lot of really cool projects. We have a lot of, you know, the thought leaders from around JavaScript, React, all of that on the show... And yeah, we just like to have a lot of fun. That was really cool.
 
-**Jerod Santo:** \[00:32:16.21\] Well, if you were at JS Nation and/or react Summit and you said hi to Nick, shout out to you. I was emailing with Omar from \[unintelligible 00:32:25.12\] who runs the React Brussels Conference, and he happened to be at JS Nation at the time that we were emailing. He's like, "I just saw Nick at the event." So that was kind of cool.
+**Jerod Santo:** \[32:16\] Well, if you were at JS Nation and/or react Summit and you said hi to Nick, shout out to you. I was emailing with Omar from \[unintelligible 00:32:25.12\] who runs the React Brussels Conference, and he happened to be at JS Nation at the time that we were emailing. He's like, "I just saw Nick at the event." So that was kind of cool.
 
 **Nick Nisi:** Yeah. That's awesome.
 
@@ -333,11 +333,11 @@ They're not without their problems, because it's a very old city, and several of
 
 **Nick Nisi:** Well, this made me realize how much I have missed in-person events, because it was so much fun, and I really want to do more. And I'm just so excited that the world is opening up again for things like this, because it's been a long winter without that. And so yeah, coming up - I don't really have anything confirmed yet. We're still kind of looking at our options for TSConf and what the future of that will be. We definitely want it to be back, but it's still, like, this event went super-well. I've seen other events go super-well. It's still like a strange post COVID, or continuing COVID world... Yeah, it's tough to say exactly what's happening next, or I can't say anything yet... So be on the lookout for exciting announcements.
 
-**Jerod Santo:** \[00:36:29.03\] There you go. Stay tuned to this channel for exciting announcements. If you organize an event and you'd like to have JS Party be involved, we do enjoy doing that, so reach out to us, jsparty@changelog.com, or you can hit up any of the individual hosts or co-hosts on their Twitter, or wherever. But if you want to reach the organizing team, jsparty@changelog.com, let us know. We would love to work with you, we like to promote people's events, and we'd love to go to them, once again.
+**Jerod Santo:** \[36:29\] There you go. Stay tuned to this channel for exciting announcements. If you organize an event and you'd like to have JS Party be involved, we do enjoy doing that, so reach out to us, jsparty@changelog.com, or you can hit up any of the individual hosts or co-hosts on their Twitter, or wherever. But if you want to reach the organizing team, jsparty@changelog.com, let us know. We would love to work with you, we like to promote people's events, and we'd love to go to them, once again.
 
 Well, this episode isn't entirely comprised of Nick and I chit-chatting; we have two awesome interviews lined up as well. Hung Nguyen, who won an OS award for most exciting use of tech with JestPreview, and Raman Lally, who gave a talk on Apollo cache right after this.
 
-**Break:** \[00:37:17.24\]
+**Break:** \[37:17\]
 
 **Nick Nisi:** Alright, so I am here with Hung. Hung, how's it going?
 
@@ -367,7 +367,7 @@ So let's talk about your project. You did mention that it was nominated for The 
 
 **Hung Nguyen:** And it bugged me for years. For now, I am a full-time open source contributor, but before that, I was a lead frontend engineer for almost five years. It's not just my problem, because it slowed down my team's productivity. So I need to have some kind of solution to boost the productivity of my team.
 
-\[00:42:05.10\] So I asked myself a question that when I run screen.debug(), I can see the whole HTML, but can I put that HTML into the browser? It's just my idea, but I tried to make it happen, and it turns out it's possible, and it helped me a lot. The first version and the current version of Jest Preview is very different; they are completely two different libraries. But because I am using my own package, so I can improve it and add more features to it over time. And because you have the ability to "see" your application UI in the browser, so you can save a lot of time when testing a web application.
+\[42:05\] So I asked myself a question that when I run screen.debug(), I can see the whole HTML, but can I put that HTML into the browser? It's just my idea, but I tried to make it happen, and it turns out it's possible, and it helped me a lot. The first version and the current version of Jest Preview is very different; they are completely two different libraries. But because I am using my own package, so I can improve it and add more features to it over time. And because you have the ability to "see" your application UI in the browser, so you can save a lot of time when testing a web application.
 
 In the past, sometimes you'd try to click on a button, but nothing happened, because of a loading spinner. Now you can see the loading spinner before you can write the test code to click that button. So it's going to save you time. It makes your life easier, and it improves the quality of web applications in general by encouraging you to write more tests.
 
@@ -391,7 +391,7 @@ But looking at this, it looks like what you do is you just import a preview from
 
 **Nick Nisi:** That is incredible, because it just makes it so much easier, and you don't even have to modify the test. I'm thinking to myself, like, could I test this out without getting buy-in from the rest of my team and just use it kind of on my own, locally, to get started? And it seems like I could, if I just could install it globally and then set up a config file and then start running it.
 
-\[00:46:20.06\] And so when it's running, it's opening up a browser, and in your example here you're finding an element in the component, like a button, or finding get by text with screen, and then clicking it, and you can see that it's clicking every time. You can see exactly what it's doing in the browser. And so it gives you that kind of visual debugging experience that is very much lacking from writing component tests with Jest.
+\[46:20\] And so when it's running, it's opening up a browser, and in your example here you're finding an element in the component, like a button, or finding get by text with screen, and then clicking it, and you can see that it's clicking every time. You can see exactly what it's doing in the browser. And so it gives you that kind of visual debugging experience that is very much lacking from writing component tests with Jest.
 
 **Hung Nguyen:** Actually, in the documentation there is some kind of best practice. I haven't had time to write how to use it properly. Actually, I can think of two use cases you would like to use Jest Preview. The first one is you debug an existing test when you just plug the debug command whenever you want, so you can see the exact UI in the browser.
 
@@ -423,7 +423,7 @@ I just do a very simple thing, like console.log(document.body.outerHTML) and I s
 
 **Nick Nisi:** Okay, awesome.
 
-**Hung Nguyen:** \[00:50:03.07\] The most difficult thing when I work with Jest Preview is related to the CSS. Because if we just bring the HTML to the browser, it's very easy. But to support CSS, it takes about 90% of my time working with Jest Preview, because there are a lot of CSS strategies and standards to write them. Like vanilla CSS. Some techniques require PostCSS, like TailwindCSS, CSS Modules. Some use CSS-in-JS, like styled-component, Emotion, Stitch, and the one that Airbnb just adopts recently, Linaria... Proceeding each one is very different to each other. So I spent a lot of time writing Jest code transformations to transform the CSS, so you can display the style in the Jest Preview Dashboard.
+**Hung Nguyen:** \[50:03\] The most difficult thing when I work with Jest Preview is related to the CSS. Because if we just bring the HTML to the browser, it's very easy. But to support CSS, it takes about 90% of my time working with Jest Preview, because there are a lot of CSS strategies and standards to write them. Like vanilla CSS. Some techniques require PostCSS, like TailwindCSS, CSS Modules. Some use CSS-in-JS, like styled-component, Emotion, Stitch, and the one that Airbnb just adopts recently, Linaria... Proceeding each one is very different to each other. So I spent a lot of time writing Jest code transformations to transform the CSS, so you can display the style in the Jest Preview Dashboard.
 
 **Nick Nisi:** Nice.
 
@@ -439,7 +439,7 @@ So yeah, definitely check out Jest Preview. We'll have a link in the show notes.
 
 **Hung Nguyen:** Yes, thank you very much, Nick.
 
-**Break:** \[00:52:40.17\]
+**Break:** \[52:40\]
 
 **Nick Nisi:** Alright, I'm here with Raman Lally. Raman, how's it going?
 
@@ -471,7 +471,7 @@ So yeah, definitely check out Jest Preview. We'll have a link in the show notes.
 
 **Nick Nisi:** Yeah, super-interesting. I do use Graph QL, although I wouldn't say that I'm much of an expert on it. Just kind of make a query and it works. I haven't thought about it too much. I would like to, because I'm sure that I could be doing things a lot better. But when you say like client two and three, you're talking about like Apollo Client?
 
-**Raman Lally:** \[00:58:03.26\] Mm-hm. Yeah, the versioning. The move to client three was like a lot of changes, the way the cache worked, type of thing... And it brought in like a whole bunch of new features. You could do a lot of local state management just with Apollo now. You don't need to quite do the whole "Oh, I'll copy data to Redux, and then I'll pull it back out from Redux, type of thing... And that's where my state management will happen... But then I'll kind of deal with the cash from Apollo, but I can't really interact with it too well..." But with Apollo Client three it was very different. You could do it all in one. Not that you'd have to, but yeah, you'd definitely be able to.
+**Raman Lally:** \[58:03\] Mm-hm. Yeah, the versioning. The move to client three was like a lot of changes, the way the cache worked, type of thing... And it brought in like a whole bunch of new features. You could do a lot of local state management just with Apollo now. You don't need to quite do the whole "Oh, I'll copy data to Redux, and then I'll pull it back out from Redux, type of thing... And that's where my state management will happen... But then I'll kind of deal with the cash from Apollo, but I can't really interact with it too well..." But with Apollo Client three it was very different. You could do it all in one. Not that you'd have to, but yeah, you'd definitely be able to.
 
 **Nick Nisi:** Cool. So let me ask another probably silly question to ground myself a little bit more in that... I guess when I interact with making queries and mutations, I'm doing it through React Query, and that is using, internally -- or not internally, but we use inside of there... I think it's GraphQL Request to do that, and then we use like GQL for the tagged template for the query itself... So I'm like throwing out my vague knowledge of my stack and what we do, and what seems to work... But basically, would Apollo Client replace all of that and just simplify it, or...?
 
