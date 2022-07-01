@@ -40,7 +40,7 @@
 
 **Jerod Santo:** That's the hope, yeah.
 
-**Jerod Santo:** \[00:04:12.13\] You've got fat stacks.
+**Jerod Santo:** \[04:12\] You've got fat stacks.
 
 **Adam Stacoviak:** I'll take it, yeah. Whatever the stack I'm stacking, it'll be fat.
 
@@ -100,7 +100,7 @@ I like to give that caveat, because it's hard to give a singular definition of w
 
 I talk to a lot of startup founders, early-stage companies who are talking to me about "When should I hire a DevRel? When should I hire these people to build our communities or to help educate developers" And it gets tricky, because not all companies are the same. It requires a little bit of nuance to dive into there.
 
-\[00:07:54.17\] So to reel it just a little bit back to the three pillars I talked about, of education, community and product - I can dive into each one of those independently. Let's start with the first one, of education.
+\[07:54\] So to reel it just a little bit back to the three pillars I talked about, of education, community and product - I can dive into each one of those independently. Let's start with the first one, of education.
 
 Vercel is a company that's like a frontend platform; you can deploy your code, build and deploy code, host it around the world. And because of that, we also have frameworks like Next.js, that allow you to write your code. So the nature of the products requires education. We have to teach developers how to use these tools. It's not always immediately obvious how you would build a global application. Maybe you need some guidance along the way. And I think that education for developers is deeply rooted in basically everything we do.
 
@@ -120,7 +120,7 @@ And then the third, in just a quick summary... The third one is really how it al
 
 **Adam Stacoviak:** And I think in particular - because we kind of know Vercel's story, and we should also say we have Vercel as a sponsor of JS Party... Not a sponsor of this show in particular; that's not why you're on this show. We truly are deeply -- I've know Guillermo for many years... Guillermo. I've been recently told that's exactly how you say his name, but I've been calling him Guillermo for many years, incorrectly of course... Now I'm just gonna say Guillermo every single time.
 
-\[00:12:09.10\] But I've known him many years... Jerod, you and I met up with him in San Francisco years ago when we went out to just meet up, and we shared the early days of our website, and the direction... So he's been in the community forever, for a very long time, and I've been tracking his career, and we have, as an organization... But when you have the inertia of Vercel being "Make the web faster", that's the direction of your product. So you're gonna kind of pull community, because you're trying to innovate and iterate the literal web, and the way you do it is with your platform, and the way you also do it is with your software, that enables a platform... And the community that wants to build for the web.
+\[12:09\] But I've known him many years... Jerod, you and I met up with him in San Francisco years ago when we went out to just meet up, and we shared the early days of our website, and the direction... So he's been in the community forever, for a very long time, and I've been tracking his career, and we have, as an organization... But when you have the inertia of Vercel being "Make the web faster", that's the direction of your product. So you're gonna kind of pull community, because you're trying to innovate and iterate the literal web, and the way you do it is with your platform, and the way you also do it is with your software, that enables a platform... And the community that wants to build for the web.
 
 The point I'm trying to make though is just that it's pretty interesting how you have to have this dance, and this empathy, and this sort of middle ground people that care, to enable that feedback loop; it's necessary. What gets challenging is when -- and in your case, the organization is set up right. The way you're directing is right. What gets sort of like hard to believe or hard to trust is when there's KPIs, and OKRs, and sort of like salesy things attached to that organization. Where do you sit with that? What has been your experience with other DevRels that have these ambiguous, weird attachments, like OKRs, and KPIs, and sales-related goals attached to that feedback loop that's so necessary for a dev-focused organization like Vercel?
 
@@ -134,7 +134,7 @@ When I see people struggling with the product, I genuinely wanna know what we ca
 
 My view is that I'm not a big fan of the vanity metrics, like "This got 10,000 blog post views." Or "This got 200 retweets." Those are a by-product of making a good product and fostering a good community. So if you invest in listening to your customers and where they're succeeding and maybe where they're not, taking that negative feedback and incorporating it into building another product and a better experience for those developers - the by-product of that is the attribution towards more blog post views, more tweets, more engagement on Facebook, or LinkedIn, or whatever social platform you want.
 
-\[00:16:01.09\] So personally, I don't think it makes as much sense for me as the North Star of the metrics to look towards those traditional marketing-focused KPIs, I guess. I do think it is interesting to think about some of the sales goals, because at the end of the day, you're building a community of developers who are excited about a product. And that product is probably something that you pay for, and I don't think that you should be too abstracted from the reality of "This is a product that people pay for."
+\[16:01\] So personally, I don't think it makes as much sense for me as the North Star of the metrics to look towards those traditional marketing-focused KPIs, I guess. I do think it is interesting to think about some of the sales goals, because at the end of the day, you're building a community of developers who are excited about a product. And that product is probably something that you pay for, and I don't think that you should be too abstracted from the reality of "This is a product that people pay for."
 
 I think if you go too far in the other direction, you're actually doing a disservice to your community, because you're almost being disingenuous about the reality of what makes the business sustainable.
 
@@ -156,7 +156,7 @@ And for the first good chunk of my career I was really focused on just becoming 
 
 So I had seen some examples of how it doesn't work well, when the development team is so siloed away from the other parts of the business. I get a lot of enjoyment out of the intersection between development, and marketing, and sales, and product, and all of these pieces that actually enable an end-to-end great experience.
 
-\[00:20:04.18\] So that's some of my history that's led to me exploring what was DevRel before I knew it was DevRel. Because of my enjoyment of the intersection between these things, and just a general enjoyment of helping teach others, whether that was writing, or in-person, helping pair with other developers - I started to kind of just create content and put it out there as my own person, as LeeRob. I put out content online to help developers succeed with React, or frontend CSS, Next.js, whatever they wanted to use.
+\[20:04\] So that's some of my history that's led to me exploring what was DevRel before I knew it was DevRel. Because of my enjoyment of the intersection between these things, and just a general enjoyment of helping teach others, whether that was writing, or in-person, helping pair with other developers - I started to kind of just create content and put it out there as my own person, as LeeRob. I put out content online to help developers succeed with React, or frontend CSS, Next.js, whatever they wanted to use.
 
 And it was towards the relative beginning of Next.js... I think Next.js was created in 2016, and in about 2018 is when I was starting to use Next.js at my previous company to help them build out their e-commerce experience. And at the time - you know, with any new tool there's just not that much information out there, or educational material to help developers succeed... And I thought "Well, I enjoy doing this stuff. I like writing. I like teaching developers how to succeed with this stuff. If this content isn't out there, why don't I just make it?"
 
@@ -188,13 +188,13 @@ And then also - and that might be the sort of community content piece of it... B
 
 **Lee Robinson:** Yeah, absolutely.
 
-**Break:** \[00:24:32.19\]
+**Break:** \[24:32\]
 
 **Adam Stacoviak:** Let's go back a bit and talk about how this role has evolved... So not Wikipedia, 19-whatever; I can't go back that far personally. But we've been around as an organization since 2009. Changelog began around then, we've been doing this 13+ years, so our lens is around 13(ish) years or more; not 25 or more. So I would say early DevRels that I'm aware of, the earliest might be - and this is by no means an exhaustive list. These are just closer friends. Steve Klabnik was part of the Changelog way back in the day. He used to be a host, he used to be a contributor to the blog. The same with Kenneth Reitz, who was also a contributor, a host on the show etc. And my experience with those two in particular was this level of burnout, because the role kind of -- it did what you said, but it also kind of required a lot of speaking, a lot of real direct IRL engagement; that meant flying, that meant international flying in lots of cases...
 
 And then when JS Party came around, we had Rachel White on the show, @ohhoe, as she's called on Twitter. She's also a DevRel. I don't know if she still is anymore; I haven't caught up with her in a bit... But similar - this sentiment of burnout, like always going kind of thing. Let's kind of go back and maybe share what your experience might be with this role and how it's evolved. It seems to have matured, and maybe thanks in a spiteful way to Covid, that now we don't travel as much; we're kind of getting back to travel. This role sort of calmed down a bit, and maybe even had a chance to even reshuffle. What is your experience of old days DevRel, to current, modern-day DevRel, and how has it changed?
 
-**Lee Robinson:** \[00:28:01.08\] Yeah, so to first set the stage, I have been officially, by my job, doing DevRel now for two years, and then unofficially probably since 2016, I guess. But if we go back to 2011, 2012 -- so I started to learn how to code in 2011. And at the time, the DevRel that I really remember was from the new API companies. It felt like a generational change, or a big enough shift in the industry that it required education and awareness to tell people about a different way of doing things. And from my eyes, that was like 2011 to 2015. I feel like there was a massive rise in the number of API companies, or companies providing things as a service. And to do that, they had these members of their community, whether it was called DevRel or not at the time, actually go out, go to in-person conferences, go to meetups, go to anywhere around the world and tell people about how the product works, how the thing works, do a workshop on how to actually use the thing.
+**Lee Robinson:** \[28:01\] Yeah, so to first set the stage, I have been officially, by my job, doing DevRel now for two years, and then unofficially probably since 2016, I guess. But if we go back to 2011, 2012 -- so I started to learn how to code in 2011. And at the time, the DevRel that I really remember was from the new API companies. It felt like a generational change, or a big enough shift in the industry that it required education and awareness to tell people about a different way of doing things. And from my eyes, that was like 2011 to 2015. I feel like there was a massive rise in the number of API companies, or companies providing things as a service. And to do that, they had these members of their community, whether it was called DevRel or not at the time, actually go out, go to in-person conferences, go to meetups, go to anywhere around the world and tell people about how the product works, how the thing works, do a workshop on how to actually use the thing.
 
 And at the time too, another thing I've realized in talking to a lot of teams is a lot of DevRel actually came from founders back in the day. The early employees that companies were essentially doing the majority of the product and community side of DevRel. And then eventually, it scales to a point where they have a full-time job to do that.
 
@@ -206,7 +206,7 @@ I'll give you an example of where maybe people are a little burnt out about onli
 
 And also, you mentioned burnout, I guess, of developer advocates or people who were traveling for their job - it could definitely be a strenuous position to have to basically just go around all year, living on the road, giving conference talks, going to meetups, interacting with the community... Especially -- a lot of those people too, maybe that was a viable thing for them to do at that point in their life, in the 2012 era... I think a lot of the original DevRellians, the DevRel folk have kind of evolved into something else.
 
-\[00:32:00.18\] A good example - somebody that I look up to a lot is Kelsey Hightower. I think that he has a very interesting role now, where he is kind of like -- he's evolved from DevRel, and he had obviously done a lot of stuff before doing DevRel, too... But to somebody who really holistically thinks about an incredible product experience. And I think if you look around the industry, some of the other people who were well-known in DevRel - a lot of them have transitioned to do other related things, still in the same arena, but with a little bit more focus.
+\[32:00\] A good example - somebody that I look up to a lot is Kelsey Hightower. I think that he has a very interesting role now, where he is kind of like -- he's evolved from DevRel, and he had obviously done a lot of stuff before doing DevRel, too... But to somebody who really holistically thinks about an incredible product experience. And I think if you look around the industry, some of the other people who were well-known in DevRel - a lot of them have transitioned to do other related things, still in the same arena, but with a little bit more focus.
 
 So the summary of all this is that when I look at DevRel in 2022, you don't necessarily have to fly to every conference in the world, you don't necessarily have to do a hundred meetups. You can be a little bit more strategic about when and where you want to do those things, but as we start to now get back to doing in-person events, which I've now spoke at (I think) four this year so far, and I have a few more coming up here in the next couple months... So it's definitely picking up.
 
@@ -222,7 +222,7 @@ So I guess my philosophy and where I'm kind of taking our DevRel team is that I 
 
 Because I think that's what really burned out a lot of folks in the beforetimes, was this desire to be at everything, and speak at everything, and blog all the time, and there was just no end, in their mind, of the workload.
 
-**Lee Robinson:** \[00:36:01.06\] I think also too a tricky conversation to understand in the world of DevRel is the distinction between the individuals and the companies.
+**Lee Robinson:** \[36:01\] I think also too a tricky conversation to understand in the world of DevRel is the distinction between the individuals and the companies.
 
 **Jerod Santo:** Yes.
 
@@ -256,7 +256,7 @@ What I love most about Kelsey is his ability just to look, like you said, holist
 
 **Jerod Santo:** Because some of us are out there, coding for a healthcare company, and it's like, "I care about my work, I'm a craftsperson etc. I'm a software developer, I do my 8-to-5, or maybe I work harder, or whatever it is... And I care about my work, and I take pride in it, but at the end of the day it's like a healthcare company, I want it to do well, but it's not my identity." And I think as a DevRel almost necessarily it gets tied up in your identity, because you are promoting this thing...
 
-**Lee Robinson:** \[00:40:07.16\] Yes!
+**Lee Robinson:** \[40:07\] Yes!
 
 **Jerod Santo:** ...or representing, I should say, maybe more so than promoting... And so like you said, it's very gray lines, and I wonder if you struggle, like "Where does Lee end and the director of DevRel at Vercel begin?"
 
@@ -286,7 +286,7 @@ Now, as business owners we also own the business, and so in that sense -- I mean
 
 But to your point - yeah, it would be harder, in my opinion, to do DevRel, to be a DevRel leader at a company where you didn't have a stake in its success. That's one of the nice things about a startup and getting alignment in that regard. Granted - sure, you could have a lot of stock in a public company, but it feels like you have a little bit more say in the startup ownership.
 
-\[00:44:04.19\] But you make a valid point, which is it doesn't always have to be like that for individuals in DevRel. So maybe not a DevRel leader, but to somebody who is doing advocacy work, they maybe can not think about it as much, because they're not defining direction for how we talk about our products.
+\[44:04\] But you make a valid point, which is it doesn't always have to be like that for individuals in DevRel. So maybe not a DevRel leader, but to somebody who is doing advocacy work, they maybe can not think about it as much, because they're not defining direction for how we talk about our products.
 
 **Jerod Santo:** Right. I've been thinking about your athlete technology, because this definitely lines up, to a certain extent... Where it starts to break down, especially with like an NBA player, is a lot of the places where they play - okay, there's contractual agreements and stuff, but it's kind of over their head; it's like, "Well, I landed here. I play here. I'm gonna speak well of the place, maybe." But it's just like "This is where I play now. I'm gonna go play my best game." Whereas as contracted, self-governed entities humans that we are, it's like, you're there because you wanna be there 100% etc.
 
@@ -302,7 +302,7 @@ My point there is I think the mobility for a DevRel is even more fraught than it
 
 **Lee Robinson:** Yeah.
 
-**Break:** \[00:46:27.10\]
+**Break:** \[46:27\]
 
 **Adam Stacoviak:** So Lee, obviously, it's been a journey for the role, it's been a journey for you... And I think one thing that we're very keyed in on is listeners-first. So listeners - hey, we love you, by the way... But we do this show because we know our listeners have a curiosity for certain aspects of the process of creating software, the direction it goes in the future, how to innovate, how to iterate... But we also have to adopt great tooling. And as part of that, we have to listen to certain people a.k.a. DevRels and folks like you. The question it becomes is how do we trust those people? How do we trust who we're hearing from? I don't even know what question to really ask you, but more like just the layer of trust - how do we trust folks like you? How does that work?
 
@@ -314,7 +314,7 @@ My point there is I think the mobility for a DevRel is even more fraught than it
 
 **Lee Robinson:** Yeah, there's an observed pattern of someone in DevRel where you can kind of get an understanding of "Is this somebody that I can trust?" And I think it comes back to "Are you willing to admit when you're wrong, publicly? Are you willing to admit when your product might not be the best case for something? And are you willing to advocate for something else, if necessary?"
 
-\[00:50:24.29\] And that last one is painful. It's painful for a company to think that you would hire somebody that might not always preach for your product. But great DevRel teams with great founders, who have trust in their DevRel teams, understand that the best product should win. If our product isn't better, I don't want somebody selling me snake oil for something that's supposed to solve all of my problems. That's disingenuous to the company itself and to the product itself.
+\[50:24\] And that last one is painful. It's painful for a company to think that you would hire somebody that might not always preach for your product. But great DevRel teams with great founders, who have trust in their DevRel teams, understand that the best product should win. If our product isn't better, I don't want somebody selling me snake oil for something that's supposed to solve all of my problems. That's disingenuous to the company itself and to the product itself.
 
 Something that I've noticed really great DevRel leaders and teams do is they are very aware of when you should use the product, and they can also give just as compelling of a pitch of when you should not use the product. Because so much of software evaluation and purchasing comes down to knowing what trade-offs you're making and knowing the constraints of how you're building your system. And if you arm developers with the confidence to know when it's the right tool and when it's not the right tool, you're passing along the knowledge they need to advocate for your tool.
 
@@ -356,7 +356,7 @@ I think Guillermo is a great example of someone who has done the role by necessi
 
 **Adam Stacoviak:** That word "success" keeps coming up, and I think that's kind of core, because you said the reason why you got into it was because you saw lack of documentation, lack of education to enable developers to have success on the frontend. And that obviously is just sort of part of it, but this word success means like you care. And this role is very similar in nature to sales. If sales is done right, it's to help.
 
-**Lee Robinson:** \[00:54:06.03\] Yes.
+**Lee Robinson:** \[54:06\] Yes.
 
 **Adam Stacoviak:** One of the things I get to do here in our organization is I get to really help us partner with the right brands. That means selling ads, basically, at the very basic premise, but really, it's like choosing the right horses to attach ourselves to. It's maybe a bad analogy; Jerod, help me out if I'm butchering this... But you know, there's certain brands you wanna work with, and there's certain brands we don't, because we see where they're trying to go, what they're trying to do for developers, the kind of future they care about, the way they involve themselves in the community... And we do choose. We say no often. And it's back to that "I can trust a DevRel if they know when to tell me it's the right thing to use or not." But this idea of success really is rooted at desiring to help people, which is crucial to having trust.
 
@@ -384,7 +384,7 @@ An up-and-coming one is people who are great with video. I think in the past vid
 
 I think with engineering and with being a developer it's a desire to want to learn and explore new tools that is a good fit for developers, and wanting to dive in just a little bit further than just the surface level. You try out some new tool... "Wow, this seems really interesting. But why did they make this choice? Why is it set up in this way?" Going a step further, so that you have enough understanding that you can relay back the value to others who are curious, more than just the tagline, more than just the boilerplate. Like, tell me really why it matters. Those are a couple things I look for.
 
-**Jerod Santo:** \[00:58:07.20\] As you've been talking about this, I was reminded of our conversation with Jessica Kerr, who's DevRel now at Honeycomb... And she was mentioning some pitfalls or blind spots DevRels have. Specifically one that she mentioned - I'm curious if this resonates with you, and I wonder if you have others as well - is that they rarely go through, for instance, the purchasing process of their product or service, because they have staff accounts. And a lot of times your first run experience actually is "How do I actually onboard? My onboard experience is my experience first time on." Unless we have free trial etc. Even that's part of it. And she said people who work in this domain - they should put their credit card into the website and just purchase an account, because now they have empathy with the people how to do that; whereas you're used to having this staff account that kind of goes through these other subsections.
+**Jerod Santo:** \[58:07\] As you've been talking about this, I was reminded of our conversation with Jessica Kerr, who's DevRel now at Honeycomb... And she was mentioning some pitfalls or blind spots DevRels have. Specifically one that she mentioned - I'm curious if this resonates with you, and I wonder if you have others as well - is that they rarely go through, for instance, the purchasing process of their product or service, because they have staff accounts. And a lot of times your first run experience actually is "How do I actually onboard? My onboard experience is my experience first time on." Unless we have free trial etc. Even that's part of it. And she said people who work in this domain - they should put their credit card into the website and just purchase an account, because now they have empathy with the people how to do that; whereas you're used to having this staff account that kind of goes through these other subsections.
 
 That was one that she mentioned. The other one that I think happens - I'm not doing it, but I would imagine it happens - is like you spend most of your time building toy apps, experiments, examples, and you can live in that land of like throw-away things, versus big products that would be built with a tool.
 
