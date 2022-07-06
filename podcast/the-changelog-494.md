@@ -1,495 +1,521 @@
-**Jerod Santo:** Alright, we have Lee Robinson here from Next.js, from Vercel...
+**Jerod Santo:** So Ken, you've done a lot of audits... Why don't you tell us what that audit process looks like? What's the step-by-step of an audit?
 
-**Lee Robinson:** Hey.
-
-**Jerod Santo:** What's up, Lee?
-
-**Lee Robinson:** Thanks for having me. I'm really excited to come on and chat.
-
-**Jerod Santo:** We're excited to have you. Now, I only ever have known you online as @leeerob, which is a bunch of e's... And I'm curious if Leerob is just your online handle, or has it trickled into the real world?
-
-**Lee Robinson:** \[laughs\] It's really funny, the first time I heard someone call me Leerob in real life was kind of funny. The breakdown of your online persona into your real persona actually happened...
-
-**Adam Stacoviak:** True.
-
-**Lee Robinson:** The context there is, you know, my name is Lee Robinson, LeeRob is the combination of first and last name. I tried to find some kind of online handle that was unique, and it also related back to the domain name I was trying to grab. I have leerob.io. My friends call me Lee, my co-workers all call me LeeRob, but it really doesn't matter ot me.
-
-**Jerod Santo:** It doesn't matter. So Adam, do people call you AdamStack?
-
-**Adam Stacoviak:** I think there's a few, yeah...
-
-**Jerod Santo:** I think I've called you that before probably...
-
-**Adam Stacoviak:** Yeah. They don't often call me AdamStack, they'll call me like Stack; something with Stack. My nickname will either be Stack, or Stacks... In the military it was Stacks.
-
-**Jerod Santo:** Does anybody call you Daddy Fat Stacks?
-
-**Adam Stacoviak:** Um, no...
-
-**Jerod Santo:** \[laughs\]
-
-**Adam Stacoviak:** I might like that thought.
-
-**Jerod Santo:** That's kind of a cool nickname, I think.
-
-**Adam Stacoviak:** Daddy Fat Stacks...
-
-**Jerod Santo:** I might start calling you that.
-
-**Adam Stacoviak:** Does that mean I've got mad money, or what?
-
-**Jerod Santo:** That's the hope, yeah.
-
-**Jerod Santo:** \[04:12\] You've got fat stacks.
-
-**Adam Stacoviak:** I'll take it, yeah. Whatever the stack I'm stacking, it'll be fat.
-
-**Jerod Santo:** Well, we'll just leave that right there, where it sits...
-
-**Adam Stacoviak:** So LeeeRob is with three e's, is that right? That's your Twitter handle, at least. LeeRob.io is not three e's, it's just two e's.
-
-**Jerod Santo:** Oh...
-
-**Lee Robinson:** Yeah... Somebody on Twitter scooped up the --
-
-**Jerod Santo:** There's a chink in the armor.
-
-**Lee Robinson:** Yeah. That's the only one that I don't have it. And the person who has it with two e's, the account is suspended too, so I can't even...
-
-**Jerod Santo:** You can't even get it.
-
-**Adam Stacoviak:** You could petition for that, I'm sure.
-
-**Lee Robinson:** Maybe there's a way.
-
-**Adam Stacoviak:** If you get that blue checkmark, you could do whatever you want.
-
-**Jerod Santo:** That's right.
-
-**Lee Robinson:** Yeah... I don't know. We'll see.
-
-**Jerod Santo:** You're on your way. Listen up, if you're a Twitter employee, hook up Lee. Let's get rid of that third e. It's just --
-
-**Lee Robinson:** It's cleaner.
-
-**Jerod Santo:** Let's compress that thing.
-
-**Adam Stacoviak:** That's right. It's like dropping the "the". We've been there before.
-
-**Jerod Santo:** Why we have you here today - we should mention that you are not just a DevRel at Vercel, you're director of DevRel, which I assume is even cooler... And we wanna talk about DevRel. We had a listener write in - now, I believe his name is Gustav \[unintelligible 00:05:13.22\], but I'm gonna give Gustav a little bit of a hard time, because on our form where you request a show we have another section for on-air credit, where you can actually put the pronunciation of your name. And Gustav just put his name twice, so... \[laughter\]
-
-**Adam Stacoviak:** "They'll get it. They'll get it, don't worry."
-
-**Jerod Santo:** So I'll usually apologize for mispronunciations... I'm not gonna apologize this time, Gustav. You had an opportunity to help me out, but you didn't. Nonetheless, he asked to have you on the show; he wanted us to talk about DevRel. We talk to DevRels a lot; we talk around DevRel a lot. We never talked about developer relations as a thing... So that's why you're here, Lee.
-
-**Adam Stacoviak:** Ever.
-
-**Jerod Santo:** No.
-
-**Adam Stacoviak:** I mean, ever. 13 years of history. Zero discussion of the actual title/anything. I mean, nothing.
-
-**Jerod Santo:** Right.
-
-**Adam Stacoviak:** Really.
-
-**Jerod Santo:** So we'll ask you, and you can open it up - what even is a DevRel?
-
-**Lee Robinson:** Yeah, the meta conversation of what is DevRel, yeah. So the way that I run my developer relations team focuses on three different things. The first is around education, the second is around community, and the third is around the product. Now, the way DevRel teams or organizations are structured at companies kind of depends on where it falls in that company's priorities... So for a developer tooling company, where their bread and butter, their main focus is talking to developers, it's probably gonna have an elevated position in the company, because it's incredibly important to their business and to their community. Maybe if the company is just -- like, they have an API as part of their products, but that's not the main thing they do, they might have a developer relations team who's helping with the adoption of that API, and ensuring that people are successful with it... But it's not the main thing.
-
-I like to give that caveat, because it's hard to give a singular definition of what DevRel is, but there's multiple flavors we can be inspired from for teams who are trying to figure out "Okay, how do I wanna get into this space, or how do I wanna structure my organization to support developer communities?"
-
-I talk to a lot of startup founders, early-stage companies who are talking to me about "When should I hire a DevRel? When should I hire these people to build our communities or to help educate developers" And it gets tricky, because not all companies are the same. It requires a little bit of nuance to dive into there.
-
-\[07:54\] So to reel it just a little bit back to the three pillars I talked about, of education, community and product - I can dive into each one of those independently. Let's start with the first one, of education.
-
-Vercel is a company that's like a frontend platform; you can deploy your code, build and deploy code, host it around the world. And because of that, we also have frameworks like Next.js, that allow you to write your code. So the nature of the products requires education. We have to teach developers how to use these tools. It's not always immediately obvious how you would build a global application. Maybe you need some guidance along the way. And I think that education for developers is deeply rooted in basically everything we do.
-
-As we got started learning how to code, education was important, and being a lifelong learner or a continual learner is so rooted in the development journey, especially for web developers, where the types of technology go through cycles, and you're learning new things over the years, and kind of iterating on your knowledge and learning new techniques...
-
-So it's important that you're helping guide developers along the journey, and teaching them the tools and the tricks that they need to be successful with the product.
-
-The second pillar I think a lot about is community, because it's harder to replicate a community. You can purchase a product, you can acquire an audience, but that doesn't automatically mean you have a community. Community-building requires dedicated effort and attention, and I think it's one of the highest-leveraged things a developer-focused company can have.
-
-If you have a community of developers who love your product, they kind of do the job for you. They advocate for your product for you. They're your outsourced DevRel team at that point; they're talking to the community about "Wow, this product is amazing. You should be using it." And they love it so much that maybe they go talk to other developers about it. And being very intentional about growing that community is a very important part of what a lot of DevRel teams focus on.
-
-And then the third, in just a quick summary... The third one is really how it all relates back to the product. And I think it's important that developer relations roles, or developer experience, or developer advocate - there's multiple titles; we can get into that nuance... All of these roles play some part in giving feedback on what works well, and maybe what's not very good on the product. And I think it's important to get that feedback internally before you hear it from your customers. For example, if we're releasing a new product or a new feature, I would rather have some engineers internally who have this critical eye for what a good developer experience looks like walk through the product, try to figure out how things could be broken, where beginners might struggle, where advanced people might struggle, and get that feedback before we release it to everybody. And there's this continuous feedback loop of community pain point, how do we solve it, and the product. Community struggle - how do we better create educational material to help prevent that from happening in the future?
-
-**Adam Stacoviak:** Mm-hm. In a lot of ways it's a very nuanced dance between how to innovate and iterate, and how to literally educate, but then also take that feedback. Because that feedback assumes, and sort of requires this person or many people to have empathy for the direction the community is trying to go.
-
-**Lee Robinson:** Yeah.
-
-**Adam Stacoviak:** And I think in particular - because we kind of know Vercel's story, and we should also say we have Vercel as a sponsor of JS Party... Not a sponsor of this show in particular; that's not why you're on this show. We truly are deeply -- I've know Guillermo for many years... Guillermo. I've been recently told that's exactly how you say his name, but I've been calling him Guillermo for many years, incorrectly of course... Now I'm just gonna say Guillermo every single time.
-
-\[12:09\] But I've known him many years... Jerod, you and I met up with him in San Francisco years ago when we went out to just meet up, and we shared the early days of our website, and the direction... So he's been in the community forever, for a very long time, and I've been tracking his career, and we have, as an organization... But when you have the inertia of Vercel being "Make the web faster", that's the direction of your product. So you're gonna kind of pull community, because you're trying to innovate and iterate the literal web, and the way you do it is with your platform, and the way you also do it is with your software, that enables a platform... And the community that wants to build for the web.
-
-The point I'm trying to make though is just that it's pretty interesting how you have to have this dance, and this empathy, and this sort of middle ground people that care, to enable that feedback loop; it's necessary. What gets challenging is when -- and in your case, the organization is set up right. The way you're directing is right. What gets sort of like hard to believe or hard to trust is when there's KPIs, and OKRs, and sort of like salesy things attached to that organization. Where do you sit with that? What has been your experience with other DevRels that have these ambiguous, weird attachments, like OKRs, and KPIs, and sales-related goals attached to that feedback loop that's so necessary for a dev-focused organization like Vercel?
-
-**Lee Robinson:** Yeah, going back to the first part of your question, around empathy - that's actually one of the most critical things that I look for when I'm trying to hire people... And I think it's what separates great developer relations teams from maybe those who are just okay... Is that you have to really care about the product that you're advocating for, and the community that you're a part of.
-
-When I see people struggling with the product, I genuinely wanna know what we can do better and how we could take that feedback and use it to provide a better experience. And you have to address that with an empathetic, beginner's mindset, because not everybody has the context that you might have on years of using the product, or years of being a frontend developer or a backend developer. You have to embrace that "This is my first time learning how to code. Somebody told me I needed to learn Next.js. Now I'm reading the docs. What is this thing? I've never heard this term before?" And trying to solve for that case as well, too.
-
-**Adam Stacoviak:** Mm-hm.
-
-**Lee Robinson:** But then coming back to your question about how do you define and measure success for developer relations - there's a few good resources out there right now that I'm fond of, and I think part of this question ties back to the organizational structure that sets up a DevRel team for success. For example, if a DevRel team is under product, if they're under marketing, if they're under sales, if they're under their own organization, those KPIs and metrics might all be a little bit dfferent. I think Swyx has a good blog post about measuring developer relations, taht I recommend checking out for those listening in.
-
-My view is that I'm not a big fan of the vanity metrics, like "This got 10,000 blog post views." Or "This got 200 retweets." Those are a by-product of making a good product and fostering a good community. So if you invest in listening to your customers and where they're succeeding and maybe where they're not, taking that negative feedback and incorporating it into building another product and a better experience for those developers - the by-product of that is the attribution towards more blog post views, more tweets, more engagement on Facebook, or LinkedIn, or whatever social platform you want.
-
-\[16:01\] So personally, I don't think it makes as much sense for me as the North Star of the metrics to look towards those traditional marketing-focused KPIs, I guess. I do think it is interesting to think about some of the sales goals, because at the end of the day, you're building a community of developers who are excited about a product. And that product is probably something that you pay for, and I don't think that you should be too abstracted from the reality of "This is a product that people pay for."
-
-I think if you go too far in the other direction, you're actually doing a disservice to your community, because you're almost being disingenuous about the reality of what makes the business sustainable.
-
-So in the content of like a Vercel or a hosting platform, we have a free tier. There's always a free tier. It's always gonna enable developers to get started, build applications, and be able to put content basically online, around the globe, really fast. And that works really great for many, many developers.
-
-But then there's also a part of our business that's catering to teams that pay, whether that's customers on like our pro tier, or enterprise customers. And I think you're also enabling those developers, because they're also part of your community. Just because they're on an enterprise deal doesn't mean that they're not deeply embedded and care a lot about the community's success.
-
-**Jerod Santo:** It's interesting to see this role formalized, so much so that you have a director of the role, and so you have a fleet of DevRels. I'm sure Vercel is not the only organization that has multiple DevRels, fleets of DevRels.
-
-**Lee Robinson:** Yeah.
-
-**Jerod Santo:** It feels like a new(ish) thing. I went to Wikipedia, did some reading, and it turns out no; Apple invented this back in the '80s. They called them software evangelists back then, and it was kind of this thing that's evolved and changed over time, and become more formal, become more obviously valuable for organizations to employ this type of a role or this set of roles, which really is, like you said, community, education and product, three distinct things that all work together.
-
-I'm curious of your history though... How did you get into DevRel, and what made you attracted to this kind of a role, and then also good at it? Why would you get moved up to director of DevRel unless you were good at it? ...so I assume you are.
-
-**Lee Robinson:** Yeah, so what got me into DevRel was actually a long journey. Prior to joining DevRel I had been working as a product engineer for many years, and primarily focused on the frontend. And I've always really loved frontend development. When I Was learning how to code in college or university, I didn't really enjoy it until we started to use web development, and that was when I had this light bulb moment of "I can put code online and share it with anybody behind this URL." I looked at mobile apps and I was like "Wow, this process is overly complex, versus just deploying and getting a URL and having it out there."
-
-And for the first good chunk of my career I was really focused on just becoming the best frontend developer I could possibly be. So that was going from individual contributor, to leading a team of developers working on an e-commerce site... And at the same time, I've always really enjoyed the intersection between development and everything else that needs to happen at the company... Which is ironic, because I haven't worked at a startup until I worked at Vercel.
-
-So I had seen some examples of how it doesn't work well, when the development team is so siloed away from the other parts of the business. I get a lot of enjoyment out of the intersection between development, and marketing, and sales, and product, and all of these pieces that actually enable an end-to-end great experience.
-
-\[20:04\] So that's some of my history that's led to me exploring what was DevRel before I knew it was DevRel. Because of my enjoyment of the intersection between these things, and just a general enjoyment of helping teach others, whether that was writing, or in-person, helping pair with other developers - I started to kind of just create content and put it out there as my own person, as LeeRob. I put out content online to help developers succeed with React, or frontend CSS, Next.js, whatever they wanted to use.
-
-And it was towards the relative beginning of Next.js... I think Next.js was created in 2016, and in about 2018 is when I was starting to use Next.js at my previous company to help them build out their e-commerce experience. And at the time - you know, with any new tool there's just not that much information out there, or educational material to help developers succeed... And I thought "Well, I enjoy doing this stuff. I like writing. I like teaching developers how to succeed with this stuff. If this content isn't out there, why don't I just make it?"
-
-That's the great thing about the internet, is that it's permissionless. I can publish that blog post if I want to. I can create that resource. So I did. I started making content, YouTube videos, blog posts, all sorts of stuff, courses to enable developers to really succeed... And eventually, that wound its way towards me getting a job at Vercel to kind of further continue that goal.
-
-**Adam Stacoviak:** Mm-hm. A keyword you've said there a couple times is "succeed", which I think is kind of critical to defining that DevRel role well, because -- like you had said, you can't hide the metrics of let's say a sales goal, or something like that. Maybe that's where it can get a little bit tricky, but being able to succeed in terms of helping the developers succeed. That's kind of key, right?
-
-**Lee Robinson:** Yeah.
-
-**Adam Stacoviak:** Which is naturally gonna lead to a business success. Succeed again. Because that's a natural feedback loop to positive outcomes. That's kind of critical to the role.
-
-**Lee Robinson:** If you think about it like this - it doesn't matter if you spend millions of dollars on marketing; if the developer goes to the blog post and they say "Alright, click here to try it out", and they go try out the product and it just doesn't work, then what are we doing here? What was the point of all this?
-
-**Adam Stacoviak:** Precisely.
-
-**Lee Robinson:** What was the point of all this work? It has to be in service of the success of the developer. And that's a very nuanced thing too, because it's not always just "Was I able to get X thing done?" It also might be "Did I understand what I'm doing? Do I understand the context of this? Am I actually using it for the right thing? Am I providing the right resources to help this developer succeed with what they're trying to get done?"
-
-**Adam Stacoviak:** It kind of reminds me too of this inspiration of curiosity. There's times I'll have this really cool tool - I'll be ambiguous in this case - and I have no idea what to do with it. I know it has lots of capabilities, but I've got my own use cases, but I'm sort of like siloed and minimized by my own dreams, I suppose. And I almost need somebody else to help me dream bigger about the possibility. "Oh, did you know this, this and this could enable THAT?"
-
-**Lee Robinson:** Yeah.
-
-**Adam Stacoviak:** So you're almost like a curiosity inspirer, and I almost think of it like -- a good analogy might be a box of Lego. You can get a box of Lego and you can watch Lego masters on TV, and what they do with Lego may be way different than what you would do with the same box.
-
-**Lee Robinson:** Yeah.
-
-**Adam Stacoviak:** And it might be that rel person, the DevRel, or the LegoRel, or somebody Relling in there, this inspiration, this curiosity. "Here's the possibility, what you could do with this thing."
-
-And then also - and that might be the sort of community content piece of it... But also, how do we learn from what you've done with it and hit those roadblocks, or hit those anti-successes, those failures, and how can we improve the flow, so that you don't have that hurdle, that roadblock anymore your next try?"
-
-**Lee Robinson:** Yeah, absolutely.
-
-**Break:** \[24:32\]
-
-**Adam Stacoviak:** Let's go back a bit and talk about how this role has evolved... So not Wikipedia, 19-whatever; I can't go back that far personally. But we've been around as an organization since 2009. Changelog began around then, we've been doing this 13+ years, so our lens is around 13(ish) years or more; not 25 or more. So I would say early DevRels that I'm aware of, the earliest might be - and this is by no means an exhaustive list. These are just closer friends. Steve Klabnik was part of the Changelog way back in the day. He used to be a host, he used to be a contributor to the blog. The same with Kenneth Reitz, who was also a contributor, a host on the show etc. And my experience with those two in particular was this level of burnout, because the role kind of -- it did what you said, but it also kind of required a lot of speaking, a lot of real direct IRL engagement; that meant flying, that meant international flying in lots of cases...
-
-And then when JS Party came around, we had Rachel White on the show, @ohhoe, as she's called on Twitter. She's also a DevRel. I don't know if she still is anymore; I haven't caught up with her in a bit... But similar - this sentiment of burnout, like always going kind of thing. Let's kind of go back and maybe share what your experience might be with this role and how it's evolved. It seems to have matured, and maybe thanks in a spiteful way to Covid, that now we don't travel as much; we're kind of getting back to travel. This role sort of calmed down a bit, and maybe even had a chance to even reshuffle. What is your experience of old days DevRel, to current, modern-day DevRel, and how has it changed?
-
-**Lee Robinson:** \[28:01\] Yeah, so to first set the stage, I have been officially, by my job, doing DevRel now for two years, and then unofficially probably since 2016, I guess. But if we go back to 2011, 2012 -- so I started to learn how to code in 2011. And at the time, the DevRel that I really remember was from the new API companies. It felt like a generational change, or a big enough shift in the industry that it required education and awareness to tell people about a different way of doing things. And from my eyes, that was like 2011 to 2015. I feel like there was a massive rise in the number of API companies, or companies providing things as a service. And to do that, they had these members of their community, whether it was called DevRel or not at the time, actually go out, go to in-person conferences, go to meetups, go to anywhere around the world and tell people about how the product works, how the thing works, do a workshop on how to actually use the thing.
-
-And at the time too, another thing I've realized in talking to a lot of teams is a lot of DevRel actually came from founders back in the day. The early employees that companies were essentially doing the majority of the product and community side of DevRel. And then eventually, it scales to a point where they have a full-time job to do that.
-
-At some companies that actually turns into the product org; the PMs are just very good about that outreach, and then at some developer-focused companies they really lean into DevRel for that stuff.
-
-So if we fast-forward a little bit and get closer to today, I think the thing that's been really interested kind of pre-Covid/post-Covid that I've seen was the community understanding that virtual or online has a place, if done right. And I think the distinction there is it has to be done tasteful and respectful of people's time.
-
-I'll give you an example of where maybe people are a little burnt out about online... Of course, everyone was sick of going to many virtual events, many conferences online in the past few years, and if you were going to do any sort of developer outreach or socializing with your community, it had to be something unique to make them feel like it was not just another Zoom call. And an interesting side effect of this, looking at purely from the viewership or the amount of traffic that you got, a lot of teams realized "Wow, we can actually get more traffic by doing this online. We have a global community. Instead of doing just this one event in New York, or San Francisco, or London, we can actually broadcast this everywhere and be inclusive of our entire global community. We don't necessarily need to do 57 meetups to get this community activated and engaged."
-
-And also, you mentioned burnout, I guess, of developer advocates or people who were traveling for their job - it could definitely be a strenuous position to have to basically just go around all year, living on the road, giving conference talks, going to meetups, interacting with the community... Especially -- a lot of those people too, maybe that was a viable thing for them to do at that point in their life, in the 2012 era... I think a lot of the original DevRellians, the DevRel folk have kind of evolved into something else.
-
-\[32:00\] A good example - somebody that I look up to a lot is Kelsey Hightower. I think that he has a very interesting role now, where he is kind of like -- he's evolved from DevRel, and he had obviously done a lot of stuff before doing DevRel, too... But to somebody who really holistically thinks about an incredible product experience. And I think if you look around the industry, some of the other people who were well-known in DevRel - a lot of them have transitioned to do other related things, still in the same arena, but with a little bit more focus.
-
-So the summary of all this is that when I look at DevRel in 2022, you don't necessarily have to fly to every conference in the world, you don't necessarily have to do a hundred meetups. You can be a little bit more strategic about when and where you want to do those things, but as we start to now get back to doing in-person events, which I've now spoke at (I think) four this year so far, and I have a few more coming up here in the next couple months... So it's definitely picking up.
-
-There is a reappreciation of just getting people in a room together too, that 1) I think people just missed because of not being around others, in a setting, for some time... But also, there's something to be said about getting together and just having a casual chat about development stuff. Just talking about tech, talking about development. Sometimes it's hard to recreate that spontaneity when you're in an online event.
-
-So I guess my philosophy and where I'm kind of taking our DevRel team is that I wanna do both. I still think there's a place for -- you know, when we have a global community of developers, it's not feasible for me or others on my team to be flying around the world all the time, to go to a bunch of events. And I know that some really large DevRel teams solved this by having lots of employees all around the world. We're not there yet. But I think there's still a place for in-person as well, too. So we can have online, and we can also still go to some events and conferences.
-
-**Jerod Santo:** My experience with the online events - and I only took part in a handful of them throughout the two years starting at lockdown - was you get big numbers, you get big sign-ups, you might even get big numbers in the actual room... But the level of attention and engagement, even for myself personally; I'm in the room, I'm signed up, I'm there... It's just another tab in my browser, or it's just another Zoom window... I'm also playing Wordle or something... I just don't feel any connection, really. Even less so than this three-person call right here. Because I don't have to participate, or maybe I can, I can raise a hand... I don't know. It was very superficial. But obviously, it was necessary. And the point you spoke to with the accessibility of everybody - the lower barrier of entry for people who live halfway around the world from where a real-life event would be help, or whatever reason; the timing, their lives... It allowed everybody to come, which was awesome, but once we were all there, for me it was kind of like "Meh..."
-
-**Adam Stacoviak:** It fell flat.
-
-**Jerod Santo:** So I'm very excited about getting back out. And obviously, I think what we learned is hybrid is awesome moving forward; trying to find the best from both circumstances to bring them together for better events... And then I liked your idea of like "Hey, make it when you can. Don't kill yourself to be there at every conference", right?
-
-Because I think that's what really burned out a lot of folks in the beforetimes, was this desire to be at everything, and speak at everything, and blog all the time, and there was just no end, in their mind, of the workload.
-
-**Lee Robinson:** \[36:01\] I think also too a tricky conversation to understand in the world of DevRel is the distinction between the individuals and the companies.
-
-**Jerod Santo:** Yes.
-
-**Lee Robinson:** And we can really go in-depth on this. The way I think DevRel is evolving is the people who are taking these roles are almost like knowledge athletes. I've heard these analogies made in other places. I don't really have the best way to describe it, but basically, they have their own thing going. They have their own brand, or whatever you wanna call that, of their own community, of people who care about what they say and how they act. And part of that affiliation is also representing a company sometimes.
-
-So if you give a sports analogy - maybe I am a professional basketball player who happens to play for the Atlanta team right now. But then maybe in the future I get drafted by, or I change teams to New York. That happens. That's just the nature of how people change jobs.
-
-And I think it's interesting when you think about DevRel, because the role is so public-facing. These are people who are advocating for your company. They're out talking on podcasts, they're out interacting with communities. So for that person to be kind of like a professional athlete for a company, it requires a little bit of nuance in how you work.
-
-**Adam Stacoviak:** Because you kind of care about their opinion, right?
-
-**Lee Robinson:** Yeah.
-
-**Adam Stacoviak:** Like, they're good at what they do because they can curate the possibility and whittle it down to a point of focus... And that's kind of the employment. The employment is sort of the point of focus. "I care so much about the future of the web that I decide to put my focus and my attention on the Vercel platform", as your direct example. In Kelsey's case maybe it's Google with GCP, or the direction of Kubernetes... And as you had said, he kind of transcended, and I think he has as well.
-
-What I love most about Kelsey is his ability just to look, like you said, holistically at the scenario, and not think like "Should you buy Google or should you buy a direction?"
-
-**Lee Robinson:** Exactly.
-
-**Adam Stacoviak:** "Here's how software is evolving, here's the way I think it makes sense for you to use it, and we happen to be putting products in place that help you use it that way", kind of thing.
-
-**Lee Robinson:** Yeah. And I think what's important about that is when you start to get in situations where -- like, people will ask me my opinion on something because of my experience with the frontend. And sometimes that answer is Vercel, because it is the best choice for what they wanna use. And sometimes it's not, and it's disingenuous if I were to not give that response to people.
-
-**Jerod Santo:** Right...
-
-**Lee Robinson:** But I think it's hard for some companies to realize that's the type of role that this position is. It's not necessarily a paid spokesperson that's gonna advocate only good things for the company. I'm very well aware of what's great about our product, and what needs improvement. And I hear that feedback from the community, and I take that and I try to translate that into making the best product. But if somebody asks me "What's the best way to do this, this or this?" I try to be as honest as I can, because that's how you build trust with the community.
-
-**Jerod Santo:** Do you personally struggle or wrestle with that relationship where your work is so much tied up into your identity or your personal brand, so to speak?
-
-**Lee Robinson:** Yeah.
-
-**Jerod Santo:** Because some of us are out there, coding for a healthcare company, and it's like, "I care about my work, I'm a craftsperson etc. I'm a software developer, I do my 8-to-5, or maybe I work harder, or whatever it is... And I care about my work, and I take pride in it, but at the end of the day it's like a healthcare company, I want it to do well, but it's not my identity." And I think as a DevRel almost necessarily it gets tied up in your identity, because you are promoting this thing...
-
-**Lee Robinson:** \[40:07\] Yes!
-
-**Jerod Santo:** ...or representing, I should say, maybe more so than promoting... And so like you said, it's very gray lines, and I wonder if you struggle, like "Where does Lee end and the director of DevRel at Vercel begin?"
-
-**Lee Robinson:** Yeah, I think that this is why DevRel requires a very specific type of person, and why I also would recommend for anybody listening thinking about wanting to get into DevRel - you should be picky about the thing that you wanna advocate for. I don't think that people wanting to get into DevRel will be satisfied trying to advocate for something they don't genuinely care about. Or for a space that they're not really interested in.
-
-If I went and did developer relations work for some other kind of unrelated part of the development workflow, I could probably do it, but I wouldn't have as much enjoyment out of it, and I wouldn't feel as aligned with the frontend. I just love the frontend, that's what I've always enjoyed doing - the intersection between frontend and design.
-
-But to your point about the barrier or the line between Lee as a person and Lee as a representative of the company - it can be tricky when people will send me a tweet asking for something... "Hey, why does this Vercel feature not work?" or "Why does this Next.js thing happen? Can you help me figure that out?" It can be tricky to --
-
-**Jerod Santo:** You're like, "I'm watching Stranger Things, y'know? I'm trying to take my dog for a walk", or these other things, right?
-
-**Lee Robinson:** Yeah. Especially when I talk -- my wife comes home from work, and just never thinks about it again. I'm like, "That's awesome." Sometimes I'm thinking about something, maybe before I go to bed, I'm thinking about "Hm... You know, I wonder if we could do this thing better." It makes it a little harder to turn off, so that I have to be very intentional about how I do turn off. I have to make sure that I take time to step away and to close the laptop, close the tweets, and just have separation, too. Because you have to be intentional about it, so that you don't burn out.
-
-**Jerod Santo:** Right.
-
-**Lee Robinson:** Because having that healthy breakdown is important.
-
-**Jerod Santo:** What you sound like right now, Lee, is you sound like a business owner. Because as a person who's owned businesses - Adam, you can speak to this... The turning it off part is the part that we all as business owners struggle with... Just because you're not 9-to-5 doesn't mean you're not thinking about the business. And that's very much what you're talking about.
-
-Now, as business owners we also own the business, and so in that sense -- I mean, I'm sure you have access to/part ownership in these companies, but it sounds like maybe that leads to some of the burnout, because there's a lot of the downsides of being attached, first and foremost or in the front of an entity, without some of the perks of the ownership... Which we could also speak to as well. But you definitely sound like a business owner when you're talking about this.
-
-**Lee Robinson:** That's why I think that the best DevRel for early-stage companies has to start with the founder. It has to start there.
-
-**Jerod Santo:** Totally.
-
-**Lee Robinson:** They have to learn -- whether they do consulting or they learn themselves, they have to figure out how to be that person first, before they replicate themselves with somebody else.
-
-But to your point - yeah, it would be harder, in my opinion, to do DevRel, to be a DevRel leader at a company where you didn't have a stake in its success. That's one of the nice things about a startup and getting alignment in that regard. Granted - sure, you could have a lot of stock in a public company, but it feels like you have a little bit more say in the startup ownership.
-
-\[44:04\] But you make a valid point, which is it doesn't always have to be like that for individuals in DevRel. So maybe not a DevRel leader, but to somebody who is doing advocacy work, they maybe can not think about it as much, because they're not defining direction for how we talk about our products.
-
-**Jerod Santo:** Right. I've been thinking about your athlete technology, because this definitely lines up, to a certain extent... Where it starts to break down, especially with like an NBA player, is a lot of the places where they play - okay, there's contractual agreements and stuff, but it's kind of over their head; it's like, "Well, I landed here. I play here. I'm gonna speak well of the place, maybe." But it's just like "This is where I play now. I'm gonna go play my best game." Whereas as contracted, self-governed entities humans that we are, it's like, you're there because you wanna be there 100% etc.
-
-My point there is I think the mobility for a DevRel is even more fraught than it would be for a professional athlete, whose job is to play the game. Because your job is not just to play the game, it's actually to pick what's good and represent what's good. People trust your opinion, your taste, your curation, your focus... And so I think the mobility is troublesome, because like if Lee was at five different businesses in five years... It's like, "Well, are these all amazing, or is it just tough to hold a spot, or...?" We know that in software the best way to move up oftentimes is to not go vertically in your same org, but actually switch companies. You're gonna get more money, more benefits etc. It's the smarter play. But for DevRels maybe that backfires.
-
-**Lee Robinson:** Well, there's two things there. One, because DevRel is such a public role -- it's kind of hilarious, I didn't really think about it until I was actually involved with it... But it's "How would you discretely talk about your job hiring process?" I've talked to a bunch of people in DevRel - it's really hard to do. A lot of these companies talk to each other, too. So they're gonna know if you're interviewing at another company for the public spokesperson of that role.
-
-**Jerod Santo:** Right. Yeah, good point.
-
-**Lee Robinson:** It's kind of obvious at that point. So it does make it tricky, I think, for DevRel leaders who are looking to move around, depending on what level they're at at the company...
-
-**Adam Stacoviak:** It's a challenge.
-
-**Lee Robinson:** Yeah.
-
-**Break:** \[46:27\]
-
-**Adam Stacoviak:** So Lee, obviously, it's been a journey for the role, it's been a journey for you... And I think one thing that we're very keyed in on is listeners-first. So listeners - hey, we love you, by the way... But we do this show because we know our listeners have a curiosity for certain aspects of the process of creating software, the direction it goes in the future, how to innovate, how to iterate... But we also have to adopt great tooling. And as part of that, we have to listen to certain people a.k.a. DevRels and folks like you. The question it becomes is how do we trust those people? How do we trust who we're hearing from? I don't even know what question to really ask you, but more like just the layer of trust - how do we trust folks like you? How does that work?
-
-**Jerod Santo:** Well, when you're hired to say a thing, and then you say the thing, and then it's like "Well, are you just saying that because you're hired, or not?"
-
-**Adam Stacoviak:** Precisely.
-
-**Jerod Santo:** And I think good DevRels - they earn trust, and other ones we're like "I don't know if I trust this person." So your angle into that, Lee. Let us know what you're thinking.
-
-**Lee Robinson:** Yeah, there's an observed pattern of someone in DevRel where you can kind of get an understanding of "Is this somebody that I can trust?" And I think it comes back to "Are you willing to admit when you're wrong, publicly? Are you willing to admit when your product might not be the best case for something? And are you willing to advocate for something else, if necessary?"
-
-\[50:24\] And that last one is painful. It's painful for a company to think that you would hire somebody that might not always preach for your product. But great DevRel teams with great founders, who have trust in their DevRel teams, understand that the best product should win. If our product isn't better, I don't want somebody selling me snake oil for something that's supposed to solve all of my problems. That's disingenuous to the company itself and to the product itself.
-
-Something that I've noticed really great DevRel leaders and teams do is they are very aware of when you should use the product, and they can also give just as compelling of a pitch of when you should not use the product. Because so much of software evaluation and purchasing comes down to knowing what trade-offs you're making and knowing the constraints of how you're building your system. And if you arm developers with the confidence to know when it's the right tool and when it's not the right tool, you're passing along the knowledge they need to advocate for your tool.
-
-**Adam Stacoviak:** This has been observed with Guillermo in particular. He's been on Founders Talk, he's been on this show before, he's been on JS Party before...
+**Ken Kantzer:** Yeah, sure. The process kind of evolved over time, as we did more of them, so I'll kind of focus on where we ended up, as the most evolved form of the audit. You know, at first, getting access to source control is really important. Making sure that we had all the repos within scope of the audit was super-important. Usually, our first step in the audit was... If you've ever seen Lord of the Rings, you know the scene in Helm's Deep, where they have that guy who kind of catapults over the wall, like the Berserker guy.
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** ...and we've had many conversations with him way before it was even Vercel. Before it was even ZEIT. Like LearnBoost days, back in the day. Early tools for Guillermo, for example.
+**Ken Kantzer:** So we'd always nominate one person on \[unintelligible 00:02:41.27\] to be the Berserker. And their job was to get a local dev environment running as quickly as possible for whatever code we were testing. And rather than have everyone kind of simultaneously struggle through that, we'd have one person do it, write up instructions... A lot of these companies that we were auditing were, like I said, series A to C. They didn't have good processes in place a lot of times, and so we'd have that berserker come up with a local environment... We actually started having them build it within a VM, like VirtualBox or something, so that they can kind of share it with us and we could skip that part. And then at that point, I think the first step was just to run some very basic reps on the codebases, just to see what type of thing we're dealing with. Like, is this going to be a pretty messy code audit, is this going to be pretty clean? And once we had that general context, we'd usually meet with the lead engineers on the project, get them to walk us through the structure and architecture of the codebase - the big moving pieces, the big third-party services that were being used. And then after that, we were pretty hands-off with them, with the engineering team. We usually tried to avoid getting too much into their daily cycles, letting them focus.
 
-**Jerod Santo:** Mongoose, right?
+\[00:03:59.13\] At that point, our job was basically "Let's cover the OWASP top 10 as quickly as possible, and then learn as much as we can about this codebase, and start finding bugs." And you never really could know what to expect. We didn't focus on any particular frameworks, so a lot of where our research went was led by simply what framework we were dealing with. We kind of rolled the punches at that point.
 
-**Adam Stacoviak:** Yeah, just lots of different history with Guillermo.
+**Adam Stacoviak:** What was the purpose of the audit itself? Was it security-focused? Was it contextual-focused? Was it how fast could you get the dev environments -- like, what was some of the main points you were trying to gather from the audit? What was, I suppose, the deliverable, so to speak? Was it like "Here's your ten facts about your codebase"? What was the --
 
-**Jerod Santo:** HyperTerminal.
+**Ken Kantzer:** Yeah, so all our audits were focused on the security side. The output for the audit was a report, typical to what you'd see in like a pen test report. I would say as we went along, more and more people asked us for kind of just like our independent assessment on things outside of security as well. So that's when things got really interesting. We usually would produce a security-focused report, and then usually a report -- just general observations, like "Hey, you guys are doing this really well. That seems awesome." Or like, "Hey, I noticed you're using CKEditor, and it's a complete disaster for you in terms of security. This is like what we'd recommend there." It would get more into like kind of the consulting/consultative side. I think people were just interested in our thoughts after having looked at the whole codebase.
 
-**Adam Stacoviak:** HyperTerminal... Yeah, that was ZEIT days.
+**Adam Stacoviak:** It's about perspective too, right? The perspective changes, because you've got the team that produced the codebase - some there still, some not there still; early stage of the company. And their focus is on direction of product, not so much like overall holistic health of the codebase at large. And the perspective you all bring as a third party is like, all this contextual knowledge about security, but then also best practices, because security kind of comes from best practices, depending upon the argument you might be in or not. But that perspective is like -- it's a different perspective. It's like, "I'm too close to the problem. I can't see the problem" and you're more like, "I'm further away, so I can see all the problem, and I can give you a more detail-oriented (as you said) output to what's actually going on."
 
-**Lee Robinson:** Still around. It's still being used.
+**Ken Kantzer:** Yeah, absolutely. I would say the other thing is, there's a lot of insecurity that we saw in early-stage startups. And that is kind of the genesis of some of the observations that I made. A lot of people were like, "Oh, we have a pretty small team. Is that a second to be okay for us?" Or like, "Oh, microservices are really hot right now. We're like this kind of boring monolith on like a pretty boring tech. Should I be doing something else?" So a lot of it was actually that kind of concern. And yeah, that was kind of the genesis of some of the observations, of just man seeing that in practice, and being like "No, actually you're on a monolith and this is awesome. You guys should keep doing this forever, because this is a great product."
 
-**Jerod Santo:** It's still out there?
-
-**Lee Robinson:** Yeah.
-
-**Jerod Santo:** I thought that might have been pre-ZEIT, but okay. Fair enough.
-
-**Adam Stacoviak:** Yeah. It was early days of ZEIT. I think maybe even early Next days even, too. It was a while back. The point is, I think he's a great example of a founder who has done the role, just by nature. He wasn't even DevRel, he was just founder. He was just idea creator, inspirer, "Follow me, this is the way to go. I believe in this way", that kind of thing. And many people have obviously followed him through to make Vercel the success that it is today, to employ you and many others to do the role you do; a lot of engineers making Vercel what it is today.
-
-I think Guillermo is a great example of someone who has done the role by necessity, and then also being able to pass that trust on to you all... That's challenging. It's not like you get that every day. But Guillermo began as developer, turned CEO, which is also (I guess) more common these days... But I would say that Guillermo is more of a unique individual, let's just say.
-
-**Lee Robinson:** Yeah.
-
-**Adam Stacoviak:** Very unique, because he's so capable, and so well-spoken as well.
-
-**Lee Robinson:** A developer to CEO, but also a developer who really understands how to build a great product. And the core theme of DevRel I talked about, of being empathetic - I think he exemplifies that as well, too.
-
-**Adam Stacoviak:** Totally.
-
-**Lee Robinson:** You'll see him in the trenches, talking to customers. "How can we make this better? We wanna know your feedback on how we can make this product the best it possibly can be." I think that transcends throughout the entire company. We want our entire company to be thinking customer-first. How do we do everything at Vercel in the service of our customers being successful?
-
-**Adam Stacoviak:** That word "success" keeps coming up, and I think that's kind of core, because you said the reason why you got into it was because you saw lack of documentation, lack of education to enable developers to have success on the frontend. And that obviously is just sort of part of it, but this word success means like you care. And this role is very similar in nature to sales. If sales is done right, it's to help.
-
-**Lee Robinson:** \[54:06\] Yes.
-
-**Adam Stacoviak:** One of the things I get to do here in our organization is I get to really help us partner with the right brands. That means selling ads, basically, at the very basic premise, but really, it's like choosing the right horses to attach ourselves to. It's maybe a bad analogy; Jerod, help me out if I'm butchering this... But you know, there's certain brands you wanna work with, and there's certain brands we don't, because we see where they're trying to go, what they're trying to do for developers, the kind of future they care about, the way they involve themselves in the community... And we do choose. We say no often. And it's back to that "I can trust a DevRel if they know when to tell me it's the right thing to use or not." But this idea of success really is rooted at desiring to help people, which is crucial to having trust.
-
-If I can trust Lee to be someone who wants to help me... Maybe you should make that a shirt, "Lee can help me..." \[laughter\] You know, just truly want to help me. Because that's what it comes down to. In our business, when I speak to the different folks who wanna partner with our brand, and do what we do, and share their brand with our audience and whatnot, it comes down to "Can we actually help them? Do we wanna help them? Do they speak the right way? Can we actually truly help them?" And really, it's like, if we can help them, I want to help them. And I didn't say "Sell them", I said "Help them." If we can help them, I wanna help them. The word "help" and success kind of go hand in hand there.
-
-**Jerod Santo:** Yeah. Help them succeed.
-
-**Adam Stacoviak:** Yeah.
-
-**Jerod Santo:** So obviously, this empathetic desire to help others succeed in a specific domain is key here to being a good DevRel. What are other things you look for now that you're probably hiring DevRels? If a listener is out there thinking "This sounds like a pretty cool thing to do, lots of fame and fortune to be had, maybe I could be a DevRel."
-
-**Adam Stacoviak:** True.
-
-**Jerod Santo:** What are the traits? I assume some sort of technical writing skills... Give us some of the basics of like "Well, you would be a good DevRel if..."
-
-**Adam Stacoviak:** Yeah, I like that \[unintelligible 00:56:00.07\] "You might be a DevRel if..."
-
-**Jerod Santo:** There you go.
-
-**Lee Robinson:** Yeah. You mentioned technical writing, and I would rank that up there as one of the most important things, close to empathy. Specifically, it's writing and communication, because so much of our role is interfacing virtually and in-person through written communication, that the more succinctly, the more clear you can deliver your message, the better off you're gonna be. And that's just in the \[unintelligible 00:56:31.01\] that's not even talking about the educational material.
-
-If you're creating educational material - of course, it's blog posts, video scripts, any of this stuff. The more well-written and polished and clear that can be, the better your content is gonna be. So the written element is extremely important, because great writing usually comes from great thinking and good, refined thoughts, and working through the drafts that maybe weren't as good. So that's something I definitely look for a lot.
-
-An up-and-coming one is people who are great with video. I think in the past video didn't play as much of a role in DevRel positions, but video is so important to how the world works today that those who have been involved with some aspect of video succeed pretty well. It's definitely something that can be learned, but it's something to look for as well, too.
-
-I think with engineering and with being a developer it's a desire to want to learn and explore new tools that is a good fit for developers, and wanting to dive in just a little bit further than just the surface level. You try out some new tool... "Wow, this seems really interesting. But why did they make this choice? Why is it set up in this way?" Going a step further, so that you have enough understanding that you can relay back the value to others who are curious, more than just the tagline, more than just the boilerplate. Like, tell me really why it matters. Those are a couple things I look for.
-
-**Jerod Santo:** \[58:07\] As you've been talking about this, I was reminded of our conversation with Jessica Kerr, who's DevRel now at Honeycomb... And she was mentioning some pitfalls or blind spots DevRels have. Specifically one that she mentioned - I'm curious if this resonates with you, and I wonder if you have others as well - is that they rarely go through, for instance, the purchasing process of their product or service, because they have staff accounts. And a lot of times your first run experience actually is "How do I actually onboard? My onboard experience is my experience first time on." Unless we have free trial etc. Even that's part of it. And she said people who work in this domain - they should put their credit card into the website and just purchase an account, because now they have empathy with the people how to do that; whereas you're used to having this staff account that kind of goes through these other subsections.
-
-That was one that she mentioned. The other one that I think happens - I'm not doing it, but I would imagine it happens - is like you spend most of your time building toy apps, experiments, examples, and you can live in that land of like throw-away things, versus big products that would be built with a tool.
-
-So those are two that I thought of... First of all, do those resonate? And then secondly, are there other areas where DevRels can be blinded to what their customers are actually doing?
-
-**Lee Robinson:** Yeah, I love this topic... And that first one on billing is so accurate. You just reminded that after this I'm gonna go spin up a new Vercel account and throw my credit card on there.
-
-**Jerod Santo:** \[laughs\] There you go.
-
-**Lee Robinson:** Because yeah, it's the little errors you might get with the billing message that can really, really destroy customer trust.
-
-**Jerod Santo:** Yeah. Or stop them dead in their tracks.
+**Jerod Santo:** Sometimes you need somebody else to give you that confidence boost, just to reaffirm like, "Yeah, you're doing alright." Because you're so in the weeds, and you're all internal-focused, and it's like, "Am I doing this right? I don't know. I'm just trying to keep heading West." And having somebody else tell you, affirm your decisions, or tell you "That was a terrible decision. Let's change it." That's very helpful.
 
 **Adam Stacoviak:** Right.
 
-**Lee Robinson:** Yes, yes. That's a great one. I love that one. I think that -- to combat your point about maybe some developer advocates are building a lot of Hello World, starter applications, not really getting into the larger applications... A good way to offset this, I've found, is I try to make a point of spending time talking to our largest customers. And these are people who are building really large applications. Their needs and pains are quite different than the rest of the customers on our platform. They're an order of magnitude in difference in how they construct their app. They might have an order of magnitude more engineers as well, too. And you just uncover different insights that might be rooted back in fundamental product deficiencies elsewhere.
+**Jerod Santo:** How do you guys know when you're done? Do you just set like a maximum number of labor hours you're going to spend, or when you have a trickle of new findings versus a lot of new findings? How do you know when an audit is finished?
 
-For example, maybe one of your really large customers is struggling with a specific way of how they wanna organize their codebase. And what you realize in really digging into this customer feedback and getting involved in the actual product experience when you're out in the field, talking to these people, is that there's a common thread between all of this other feedback you've been hearing about the getting started experience. But because you weren't paying attention to the day 500 experience, and you were only looking at the day 2 experience, you might have missed that along the journey.
+**Ken Kantzer:** Yeah, we sold the audit in blocks of hours. 40.
 
-So you can't take for granted or lose track of those customers who have grown with you and been around for a while. And part of that is a good relationship between the developer relations team, and then what a customer success team or whatever you wanna call that in an organization. But the team responsible for interfacing with the actual customers, the accounts that they manage.
+**Jerod Santo:** Gotcha.
 
-**Adam Stacoviak:** \[01:01:47.25\] Jerod, something that you had said there reminded me of something else that we talked about with Jessica. And then Lee, in the first segment you mentioned DevRel teams and which org they're under. Something that Jessica talked about was that her org is under marketing. And in the first segment you mentioned how that can kind of play a role in how they are successful, I assume, to some degree, with their roles or their mission for the brand. It seems like you know what you're talking about, basically; you know how to operate an organization, you know how to direct an organization that's doing DevRel for a Vercel or a large organization like that... When it comes to setting up a DevRel organization, whether it's one person or many - and let's just say tech-focused brands, because obviously, healthcare might be different. What are the right ways to organize the hierarchy? Do you put it under marketing, do you put it under sales? How do you attach OKRs and KPIs? We talked about metrics a little bit, but how do you set it up right, so that listeners of this show do trust them, and products can get adopted, and be useful, and enable success, and help, and all these fun things we're talking about? How does that work, how do you make it work?
+**Ken Kantzer:** So you could choose minimum 40, all the way up. Probably no one really went above 120. What we found was at that point it's really diminishing returns. But somewhere between 40 and 120.
 
-**Lee Robinson:** Yeah, I wish there was a great, simple answer for this... Unfortunately, there's not really... Because I think my next question following up to this would be "How large is the company? What's the current focus?" Is the current focus they're just getting started with product-market fit? Is the current focus they're just getting into enterprise sales? Are they already at a hundred million ARR and now they're trying to move into the next phase of the company? All of those different phases of the company's lifespan might require different outreach.
+**Jerod Santo:** So you wrote up this awesome article on your observations, your findings. As you said, you've done a bunch of these; always, startups. It's been seven, eight years since you've done a lot of these, and now it's like a time to reflect and look back, and these are your lessons learned. You shared a bunch of lessons; we're going to talk through as many of them as we can, we'll see how it goes. And I would love to just dive right in.
 
-For context, when I joined Vercel, I was employee 34, and we were a much different company than we are today. And the type of outreach I was doing is a little bit different today than it was at the start, but the core values are all the way.
+\[00:08:10.13\] So the first thing that you talked about, your number one finding - and I believe these are in somewhat of an order; not like best or worst, but maybe highest level to lowest level, and maybe sensational to less sensational. We'll just work vertically down. Listeners can check the show notes if they want to read along.
 
-So if you hire the right people, which - that's kind of handwavy, right? But if you hire people that are empathetic, that are great writers, that are passionate about tech, then a lot of that can translate back to "Well, it doesn't really matter what org or what KPI", because they're going to thrive in whatever environment or what stage the company is at.
+"You don't need hundreds of engineers to build a great product", which you've also wrote about this. But I'm sure you had a lot of startups that had a bunch of engineers, and you probably had some that had a handful. And it wasn't like -- you couldn't draw that correlation. Is that what you're saying?
 
-**Jerod Santo:** So that's some of the things that organizations can think about with regards to successful DevRel. What about the content specifically? If you were gonna define what's a good piece of promotional content... Surely, you've had lots of wins, lots of losses, things that have blown up, things that have been ignored...
+**Ken Kantzer:** Yeah, exactly. There was no correlation between the number of developers working on a product and almost anything about the product in terms of quality and features. I might even go so far to say that maybe, if anything - and there was a slight correlation; again, this is not statistical - but it would be that the smaller teams were really punching above their weight. And I was kind of surprised by that.
 
-**Lee Robinson:** Yeah.
+I think there's probably an organizational aspect to this one too, which is -- I don't know if you guys feel this, but especially with just the crazy startup scene in the last maybe ten years, I think a lot of engineering organizations really felt very pressured to grow rapidly. They felt like if you didn't have a big engineering team, you weren't successful, like a priori. And I think that was something we came across pretty often. And that's also kind of what I'm trying to speak to in this first observation.
 
-**Jerod Santo:** Are there attributes of good content that DevRel people can create, that's sticky, or interesting, or viral, that you've found is reproducible?
+**Jerod Santo:** There's also - the more people involved, there's more of an opportunity for let's just call it low-quality contributors to kind of slip through the cracks, and not have to perform at a level that they would have to if there was less people on the team, just out of pure necessity. Now, maybe those people also end up burning out, because they're working too hard and etc. There's a lot of different factors, but I can see where in large engineering teams you'll have certain contributors who carry maybe the whole team, maybe a few people on their team. Whereas if there's just less people around, you can't really -- that just doesn't work.
 
-**Lee Robinson:** Yeah, I'll segment this into two buckets of content, because I've seen DevRel get involved in both buckets. Let's say on one hand it's the traditional marketing content. This is like the press release, this is the announcement of the thing... It's more targeted towards a larger audience. And then there's the engineering developer-focused content. This is targeted directly at the individual developers, whether some kind of how-to, or tutorial, or guide, or some kind of explainer on how something works.
+**Ken Kantzer:** Yeah, less places to hide.
 
-The separation of audiences there is really important on what makes the content great, because if we start talking with the engineering content, developers don't want you to skimp on the details. They wanna know behind the scenes what is making this thing work. Otherwise, it feels like a sales pitch, it feels like a marketing pitch. Like, "You're telling me about this thing but you're not giving me any of the underworkings of how the system works. Now I have questions. Now I don't feel like you're being truthful with me. This seems too good to be true." If you read something and it's like "Hm... This feels like a silver bullet. This feels like there were no trade-offs discussed at all." It's only good, but it's probably not a very good engineering blog post.
+**Adam Stacoviak:** So in this output you put back to them as part of the audit completion... So this is a learning for you, in retrospect... How would this point permeate into the report? Would you tell them, "Hey, you have way too many engineers" or "You have these security issues or these concerns because you just have too many--" Like, how would this learning permeate back into a report, for example?
 
-\[01:05:58.20\] Some of the best engineering blog posts actually document "Here's what worked, here's what didn't work, and why it didn't work, and here's what we learned from it and actually improved on that." And that's how you can do engineering content really well, focused for individual developers.
+**Ken Kantzer:** Yes, so it wouldn't. And this is an example of something that now that I'm observing -- now that it's been seven or eight years since a lot of these audits were done... I don't know if, during the time I was auditing, I would have come up with this one, honestly. I think it was something that at the time, I was like, "Oh, like--" Like, maybe it was like scratching the back of the mind, but I certainly didn't feel confident enough to be going to the CTO and being like "You have 50% too many engineers." It's just probably out of scope for -- like, that's a cataclysmic observation to be making. I think it's really retrospect that's, at least for that one, making me reach that observation.
 
-Then there's also the press release, announcement-style material, and I think where DevRel can play a role in that is making sure you're doing justice to your community. So let's say you're announcing a new feature for your product. In how you talk about this feature, you should try to tie it back to the actual customers using it, the community involved around it... Maybe they have surfaced some feedback that's helped make it successful. Maybe you've actually surfaced this with them ahead of time, so you can get feedback on the announcement or on the feature that you're launching.
+**Jerod Santo:** And it seems like that retrospect can look back and see which companies were successful and which ones weren't. Are you talking about the current state of the product when you audited it?
 
-And I think the DevRel persona can help bring the lens of \[unintelligible 01:06:56.29\] Maybe this is somebody really advanced. How do we make sure that this content lands with all of the developers in our community?
+**Ken Kantzer:** No, you're totally right. A lot of it's like -- now that seven or eight years later these companies have kind of evolved, some of them have faded away, some have been acquired, some are now very successful...
 
-**Jerod Santo:** I'm curious about specific social platforms and what y'all are investing in. Is Instagram -- we have them, they are all stealing each other's features...
+**Jerod Santo:** Gotcha.
 
-**Lee Robinson:** So many. \[laughs\]
+**Adam Stacoviak:** Can we clarify the distance too in time from the last audit? You say "Some of them were seven to eight years ago." Not all of them. So what's the closest in distance and what's the furthest distance? Just to give a clarification on time distance from when these took place.
 
-**Jerod Santo:** Are you going heavy into TikTok, are you ignoring this? What as a team do you guys look at and say "Here's where we're gonna reach our people." Because you've gotta reach them.
+**Ken Kantzer:** Yeah, so we started doing code audits in 2014. The furthest out we are from these companies would be eight years. And I left PKC for my current role two and a half years ago. So I would say probably three to seven years later, for the majority of these audits.
 
-**Lee Robinson:** Yeah, one hundred percent. I feel like we're involved in almost all the major social platforms. And I'll say that I do think that video is just continuing to get more and more popular, which I think is why TikTok is so popular. It's interesting though, the type of content that does well on different platforms is quite different. People don't wanna see the YouTube video, just copy-paste it and repost it on TikTok. It needs to feel like it's built for that platform.
+**Adam Stacoviak:** \[00:12:25.01\] Okay.
 
-And strangely enough - I don't know if this is a generational thing, but some of the content that does best on platforms like TikTok, it feels like it was just shot on your iPhone. It's actually better when it was just shot on your iPhone, and it's not super-professional. They don't wanna see the super-polished press release style announcement keynote video. They wanna see Lee doing a dance to a song. \[laughs\]
+**Jerod Santo:** Now, could you draw a correlation on team size to product surface area? Like, maybe not like lines of code count, but maybe like number of microservices, or maybe in the case of a monolith lines of code. Is it bigger team bigger product surface area? Or does that not even correlate, in your experience?
 
-**Jerod Santo:** Are you doing that stuff?
+**Ken Kantzer:** It sometimes did, but you would think it would always. It didn't always. I'm still kind of scratching my head a little bit on -- sometimes we'd start the audit and there were like a lot of developers, and then we'd look at the code and be a little bit surprised... We're just like, "There's not that much code here. Like, a little bit... What are these people doing?"
 
-**Lee Robinson:** Um, no. \[laughter\]
+**Jerod Santo:** \[laughs\]
 
-**Adam Stacoviak:** "They wanna see it, but I'm not giving it to them."
+**Ken Kantzer:** You didn't want to ask that obvious of a question. I think we had maybe even, if anything, a little bit of too much respect for what was going on. We were like, "I'm sure there's a good justification here. There's gotta be", because developers are expensive. It's not like it's easy to have a lot and not notice, or something. So I would say -- I mean, almost going back to your point earlier, Adam, when you have more developers, it's more likely that you have microservices, for example, because there's some extent to which choosing your architecture is informed by your actual engineering organization. The larger teams you have, the more microservices and the overhead that that requires begins to make sense. So maybe there was a little bit of correlation with like complexity of infrastructure, more so than code.
 
-**Jerod Santo:** Well, I'd like to see that as well. \[laughs\]
+**Adam Stacoviak:** I almost wonder if there's wasteful hiring too, because when you're in a startup -- like, in your series A, series B, there's a mantra, "Always be hiring", right? Like, you're always hiring, and so maybe you're hiring too much. And there could be this aspect of wasteful hiring. And these types of audits, while they may be security focused in origination, maybe it's a wisdom practice for some of these startups to consider this as like a "Must do it after every series, like series A, or series B", or every raise, to sort of like get a glimpse, a holistic approach of what's happening, because this is a retrospective learning in your part; I guess you didn't uncover it in the process of the audit, but you can say, "Well, you might have too many engineers, or you might have too much of this or too much of that" because that's a learning you've kind of examined from this... But I'm just wondering if there's like a wasteful hiring aspect of this. Because, I mean, always be hiring - it can't always be good.
 
-**Lee Robinson:** Nobody wants to see me do dances. I have seen some people do it well; some people who use TikTok as an educational tool. And I think that's what it comes back down to - find your audience, whether they're on TikTok, or LinkedIn, or on Facebook, the black hole of developers... There's so many developers on Facebook; they're just waiting for you to talk to them, but a lot of people don't engage with those groups.
+**Jerod Santo:** It seems like that's the kind of assessment that not a InfoSec specialist would make. Like, maybe they could try, but it's like, that seems like the kind of consultant, that would be doing other things, at maybe a higher or more organizational level, and could use the data from an audit to help inform that. But I don't know... Isn't there even a law about shipping your org chart, which is what you were referring to there, Ken, with microservices?
 
-And as long as you make educational resources, they will listen. Because all developers are always trying to learn something new. And even experts wanna hear something explained like a beginner can understand it.
+**Ken Kantzer:** Conway's Law?
 
-**Jerod Santo:** Well, said.
+**Jerod Santo:** Yeah, that Conway's Law. Yeah. The propensity for your product to basically be an outgrowth of the shape of your business, which is just a kind of a weird phenomenon that seems to hold true... Or at least it sounds like it. Is that what you've found?
 
-**Adam Stacoviak:** There's somebody out there that's thinking "I'm a DevRel. I've got my singular org, or I wanna evolve my organization... I want the business side to help me evolve it..." Where do you get -- what resources do you look to? ...blog posts, YouTubes, whatever it might be. Talks... What resources do you use to become wise? I think you're pretty wise... Where do you get your wisdom, where can you point some of the folks who might wanna evolve or upgrade their DevRel organizations to become a bit more like yours, or just have some of the attributes you've been talking about today?
+**Ken Kantzer:** \[00:15:42.08\] Yeah, I think that Conway's Law is a really a really deep statement about how organizations and technology kind of interact with each other. And it's definitely very informative. I think you also get really interesting organizational dynamics, like maybe between two teams, two engineering teams, frontend/backend, two different services that may have a lot of overlap that they need to resolve... And you can see, kind of, almost by looking at the architecture and how the codebases are laid out, who's worked on what. You get a little bit of the history of the organization, as well as just the straight-up technical situation at the present time.
 
-**Lee Robinson:** Yeah, I'm very fortunate to have people on the Vercel team who've helped our organization grow and provide a lot of good feedback. I think outside of the Vercel team I try to connect with other folks leading DevRel at developer-focused companies.
+**Jerod Santo:** We'll link up Conway's Law in the notes. I just found the Wikipedia, and - first coined in 1967. To me, it's just amazing that he could have that insight and it could hold true for so long. Most of my insights don't hold true for more than 30/45 seconds. But Conway sure drilled that one.
 
-\[01:10:07.10\] So my recommendation for people wanting to get kind of a pulse on how DevRel is going is to connect with the individuals. It's more about the people than it is the brand or the company, because that's where you're gonna gain insights on how their worldview is shaping, how they interface with their communities.
+**Adam Stacoviak:** Yeah... If we're trying to get through all 16 of those, we're doing a poor job, because we're at one so far... \[laughter\]
 
-So I would find some of the tools that you're interested in, maybe the tools that you use, that help make your life easier, and see who those developers are who are leading the communities there, and DM them. They might be more open to your outreach than you might imagine.
+**Jerod Santo:** Yeah. Let's move on. Let's move on.
 
-**Adam Stacoviak:** There you go. Are your DMs open?
+**Adam Stacoviak:** Not trying to rush, good conversation, but we're on one.
 
-**Lee Robinson:** They are, yeah.
+**Jerod Santo:** Okay, so two - "Simple outperformed smart." Counterintuitive. Probably an ego check for many of us... But tell us about this. Even yourself, as you call yourself a self-admitted elitist. It turns out smart - maybe that aligns with clever, which tends to bite us... Tell us about this finding.
 
-**Adam Stacoviak:** There you go.
+**Ken Kantzer:** Yeah. So this one's interesting, because I think reading through some of the comments on this blog post, I think this one was actually a little bit misunderstood. I got a lot of comments that were like, "Oh yeah, Keep It Simple, Stupid. KISS. Totally right. Yeah, let's just go with that."
 
-**Lee Robinson:** I have people DM me about all different types of stuff. I believe it's helpful; I acknowledge it can be difficult for certain people to have DMs open, just due to the way the internet is, so it doesn't work for everyone, but... Yeah, it's a good venue for feedback sometimes.
+**Jerod Santo:** Right.
 
-**Adam Stacoviak:** Gotcha. What about things unsaid? I'm sure we've talked a lot about the process, the history, the do's and don'ts, codesmells, for a lack of better terms, of good and bad organizations/individuals you can trust or not trust, and reasons you can... Is there anything we haven't asked you that you're like "Man, I really wish I could talk about this" before we close out the show?
+**Ken Kantzer:** I was saying something that I thought would get a little bit more controversial, which is - I was actually talking about engineering cultures. So like, not just like an engineering principle, but cultures that valued simplicity. And maybe, to put it really bluntly, like kind of scorned and had a little bit of like a chip on their shoulder for things that were complicated were better than organizations that I think valued what I'll call it rigor... Which is -- this should be controversial, because rigor is like, you want a rigorous engineering culture, don't you? Like, why would you not want a rigorous engineering culture? Wouldn't you want people who are very careful and who are planning ahead?
 
-**Lee Robinson:** Um, I think you all have done a great job. This has been really fun. Lots of thought-provoking questions. I don't usually get to talk about DevRel in the meta sense, so it's been interesting to reflect on why we do the things we do.
+So that's kind of my current formulation of it. And I think that is like -- I think we can all agree that Keep It Simple, Stupid is a great principle, but I think it's less clear that you want a culture of simplicity over a culture of rigor. I think that might rub people the wrong way, to put it that way. But that's what I've found. That's why it was so surprising. And as an elitist who likes working with smart people, likes and is drawn to really complex problems, that's where I'm like, "Ugh, I don't like that." But the truth is sometimes not exactly what you like.
 
-**Adam Stacoviak:** There you go. Well said.
+**Jerod Santo:** Yeah. I don't naturally draw those as antithesis though, simple and rigor. I think simple and complex. Rigor to me is like applied strictness, or thorough. I think you can be simple and thorough. So maybe that's my disconnect from what you're saying.
 
-**Jerod Santo:** One thing we didn't talk about, which we wanna talk about, but we'll probably have to do it on JS Party, is I wanna talk more about Next.js, where it's at, where it's headed... We completely sidelined that. That's a big part of what you do. And so we'll have to have you on JS Party where you're gonna hit the audience right on the head.
+I do know that simplicity is difficult. And so we think "Keep It Simple, Stupid." But it's actually a lot harder; you actually have to maybe rigorously keep it simple, in certain ways... Because moving fast, as startups do, and changing a lot, as startups do... Right? You're trying to find that product-market fit. Those things are like against simplicity, right? They're against fast-moving, changing often switching directions. And that usually leaves a wake of either complexity, or impedance mismatches, or bad API designs that never got deleted, or whatever it is that end up being complex. So just kind of a stream of consciousness there, but I'm not sure if I think of rigor and simple as against each other necessarily.
 
-**Lee Robinson:** Oh, yeah.
+**Adam Stacoviak:** \[00:19:58.03\] Definition alone though agrees with you, Jerod, that rigor is not the opposite of that. It says the quality of being extremely thorough, exhaustive or accurate. So being extremely thorough is, as you said, Ken, a great quality for an engineering department. Simple I think is not the same as rigor.
 
-**Jerod Santo:** Don't actually hit our audience on the head, but you know, metaphorically, the nail and the hammer.
+**Jerod Santo:** Or not the opposite.
 
-**Adam Stacoviak:** The nail head. He's the hammer.
+**Adam Stacoviak:** Yeah, exactly. It's not the same, it's the opposite.
 
-**Jerod Santo:** So we'll have to bring you on JS Party to talk about that, so we can give its full time. Sound good?
+**Jerod Santo:** They can be \[unintelligible 00:20:20.15\]
 
-**Lee Robinson:** Yeah, that'd be great. I think it'd be fun.
+**Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** Cool.
+**Jerod Santo:** So maybe then we're getting hung up on a semantic debate about a word, Ken, but that's what we do here. Welcome to the Changelog. \[laughter\]
 
-**Adam Stacoviak:** Cool. Well, Lee, thank you so much for your time, your leadership, your wisdom, and just showing up here and just being real. We really appreciate that. thank you so much.
+**Adam Stacoviak:** We do that often.
 
-**Lee Robinson:** Yeah, thank you. This has been fun.
+**Jerod Santo:** But I definitely understand the desire for smart, clever and complex architectures. Maybe the what makes you feel like you're being rigorous, perhaps. It's like, "We must do it right the first time", to which usually I as a simpleton will say TAGNI on that most of the time. Maybe I'm not an elitist, but I've just been down that path so many times, and it's like "We're designing this microservices architecture", which is the example you put in the blog post, which I think is a good one, with regard to this topic, and "How do we know if we're ever going to need these things?" We're being too rigorous. Now maybe I'm coming around to your word... When we could just start with a simple thing.
+
+Adam, you and I were just kind of debating this on our weekly meeting today about what we do here... And one of my other sayings - which I don't make up any saying, I just repeat other people's - is "Perfect is the enemy of good." And we desire to be perfect. We desire to have it all thought out and planned out and no mistakes and sweat the details. And sometimes that just paralyzes us from making progress.
+
+**Adam Stacoviak:** Yeah.
+
+**Jerod Santo:** And so I have to tell us that sometimes, like "Well, let's just ship a thing and see what happens."
+
+**Adam Stacoviak:** Well, momentum creates the motion, right? So it's exact word. So if you get a little bit of momentum, sometimes you can start moving and you start to see the promise of the possibility. And the details you sweated was just like "Yeah, that didn't matter so much." It's better to just get it out there. It's better to get it out there, even imperfect. Because I think perfection actually is thoroughly unachievable. There is no such thing as perfection, because the moment you achieve it, somebody else has done something more, better. So it's always a moving target. So to pursue perfection for perfection's sake is just -- it's a fool's errand. It's not going to happen. So "Just ship it" is almost kind of smart.
+
+**Jerod Santo:** Yeah, for sure. One thing you say in that post, Ken, is that the people that really impressed you as smart engineers - either that opinion changed over the course of the audit, or over the course of time now they haven't succeeded. Maybe their startups failed or have languished. And so that's part of this, too... Actually, the ones that correlate with success are the ones that were more hyper-focused on simplicity, and less, perhaps, I guess, intellectually impressive. Is that true?
+
+**Ken Kantzer:** Yeah, it is. And that bothers me a lot. And that's not to say that on the teams that really focused on simplicity as kind of a core engineering principle - that's not to say that they didn't also have smart people. But those smart people were very disciplined about their smartness, and didn't view engineering as like purely an intellectual exercise. Like, I forget -- Adam, you mentioned wisdom. I think a lot of engineering decision-making is as much about wisdom as it is about intellect. And so maybe that's also what I'm getting at there. The value of simplicity is a wisdom thing, too. Knowing when to stop, knowing when to be like, "Okay, I've gotten really deep into this problem. It's time to pull back out and look for the plugin that does this in three lines of code instead of the 200 lines I've started to write so far."
+
+**Break:** \[00:23:50.01\]
+
+**Jerod Santo:** Number three was that your highest impact findings would always come within the first and last few hours of an audit. I think that's probably an interesting tidbit for those who are interested in doing audits, or those who are doing audits. And I think probably kind of a fact of how things often work. But not too much meat on the bones there for us. Let's go to number four, which I think is very interesting. "Writing secure software has gotten remarkably easier in the last ten years." What has contributed to that, do you think? That's a good sign, first of all.
+
+**Ken Kantzer:** Yeah, yeah. I was surprised that more people didn't pick up on this one too, and kind of challenge it. I don't know if this one is true, but it really feels like when we audited older codebases, let's say before 2012 - it's kind of an arbitrary date, but I had to put something in there - we just would find tons of problems, a lot of very basic cross-site scripting, SQL injection... Really weird, homegrown authentication and authorization code... And it seemed like at some point -- I think two things happened. One is open source really started to become heavily used in these startups; I'll put it that way maybe. I mean, open source has been used for a really long time, but for example, I think people started to be like, "Oh, instead of writing my own authorization/authentication logic, I'm going to use like the device plugin for Ruby on Rails", for example. And so frameworks took off, people started fixing bugs in frameworks, and then when all the thousand startups that used that framework upgraded, suddenly this class of vulnerability disappeared for them.
+
+I think the second thing is developers started knowing a little bit more about security. And we've found that older developers tend to not think as much about security as maybe the younger generation, just because the new cycle really -- I think in 2010-2011 security as like just a new cycle that entered our public consciousness really picked up. We had things like Stuxnet early on, which was the whole Russian -- or I guess not Russian; Iranian centrifuge bug thing that got a lot of public attention. Snowden happened... People just started thinking about security more and got more interested in it.
+
+**Jerod Santo:** Yeah, I think those are both insightful. I think for sure the proliferation of libraries that implement best practices for you, whether it's inside a framework or out, has saved a bunch of us from a lot of the very common mistakes. I'm thinking specifically of things like SQL injection, where we used to rely upon ourselves to concatenate together strings in order to put SQL statements together. Most good database libraries that you would use nowadays - that's a salt problem; they are built in such a way that you cannot possibly get that wrong.
+
+And then in addition, I do agree that I think younger developers, maybe more modern developers have grown up in an age where it's like crystal-clear that this is a problem, and one that we've maybe been trying to educate ourselves in order to not fall into that problem... where I think the previous guard, so to speak, lived in a simpler time, and more of an innocent age, so less concerned things.
+
+**Adam Stacoviak:** Which is kind of interesting to think back to the more recent show we did with Schneier. Bruce - he was like, "Hey, open source doesn't mean that it's more secure." I severely remember him saying that like on the show, because I was like -- you know, I wanted to go a little deeper on that, but he was just like "Well, the more eyeballs and proprietary code etc, etc. You can pay somebody, Microsoft could pay somebody (he had said) to audit their code", or whatever.
+
+**Jerod Santo:** Bruce talks very fast, so it's hard to go deep on things, because he's already on to the next subject.
+
+**Adam Stacoviak:** \[00:30:15.15\] We had an agenda, and that one wasn't worth going deeper on... But it's kind of against that. So if this is your finding Ken, then his finding was -- or at least opinion, maybe it wasn't a finding; it was an opinion based upon findings, who knows... Was that open source doesn't necessarily mean it's more secure. I disagree, for the reasons you've stated. Like, this may be anecdotal, because you said you don't have any evidence to back this up, but your anecdotal evidence, which is the more proliferation of open source being used, more people seeing it, more people leveraging existing frameworks and building upon wisdom, rather than like everybody recreating the wheel - it totally makes a lot more sense to me. And what that means for the world in the last decade is like "Wow, we can actually go into these years with a more security mindset." And I think leveling up devs on these security aspects - that comes from open source. Because you may be solving one problem, which is build a web app; not necessarily trying to build authentication. You're like, "Well, I've learned about security because of what \[unintelligible 00:31:11.22\] does, and how it works", and these - things you sort of by osmosis learn about security. And in many ways, large part is because of the proliferation of open source.
+
+**Ken Kantzer:** Yeah, I don't know if I agree with Bruce Schneier on this. I think, if I was to maybe -- I think open source can be not very secure. I think maybe what I would say is not all open source is created equally. If you're using an open source package that doesn't really get maintained, and kind of falls into abandonment, then yeah, you're probably maybe even a little bit worse off than if you had built something in-house. Because now, this thing that you haven't really looked at or scrutinized from a security perspective, or any other perspective for that matter, is now code that essentially you own, whether you think you do or not.
+
+But certainly for the big open source projects, I would 1,000 times over recommend people stick with them from a security perspective, than try to write their own. There's a lot of scars, especially on stuff like Rails, the JVM authentication plugins... And a lot of times we look at those scars and we're like, "Oh, they're insecure", but each one of those is an example of a mistake you probably could have or would have made had you coded it yourself, that you got to get for free, essentially, by not coding it yourself.
+
+**Adam Stacoviak:** I just think about how many apps - GitHub being one of them, Twitter being one of them - were built on Rails, sold for billions, worth billions, been bought for billions, however you want to shake it up... That built on top of Rails, that solved the security problems once and for all, or at least exposed a lot of them. And somebody didn't have to recreate that wheel. And that happened for Twitter, that happened for GitHub, and many others have used Rails. Shopify, for example, even. These are IPO-ed billion-dollar companies, or acquisitioned for billion-dollar companies, and they never had to really learn those mistakes. They got to borrow them, essentially, or inherit them, the learnings from them. That's such a blessing to the world, really.
+
+\[00:33:32.15\] Yeah, you're absolutely right. I think one of the big challenges that I see with the Node JavaScript community in general is how difficult it's been for them to kind of standardize in the same way that a Rails has, for example. And I think maybe when we started moving a lot of stuff to Node in JavaScript, we may have underestimated how much water was under the bridge for things like Rails and Django, and how much tremendous amount of work had gone into solving some of the foundational problems. Maybe we took it for granted, in some ways.
+
+**Jerod Santo:** So to play devil's advocate a bit on this point about the shared Ruby on Rails framework across all these startups turned large tech companies... Doesn't that also then create a shared attack surface? Doesn't that make Ruby on Rails itself the focus of attackers where they can get one exploit and go after all these high-value companies? Versus had GitHub rolled their own internal proprietary framework for web apps - then they could get a Ruby on Rails vulnerability and everybody would be vulnerable except for GitHub, because they've got their own thing over here. Maybe that's an argument for security through obscurity, and therefore not a great argument... But there's something there, isn't there?
+
+**Ken Kantzer:** Yeah, I think that's kind of the defining question of the whole move to the cloud too, isn't it? Like, the big question that everyone had was "Are the things you're talking about, Jerod, going to outweigh the better security of those things from having more people and more resources scrutinizing them and looking at them?
+
+**Jerod Santo:** Right.
+
+**Ken Kantzer:** And I guess this kind of goes along with the point about security getting better. I feel like that question -- it feels like it's been definitively answered that yes, the trade-off is definitely in favor of centralization on these large platforms. I think the place where it's less obvious is for maybe like those mid-tier things that aren't like Ruby on Rails, or like AWS, and whatever Linux distribution they choose to centralize on. And it's kind of like those second-tier things where maybe they don't get quite as much attention, but they're still pretty heavily used by some large players. I'm trying to think of a --maybe Log4j could be a good example of that, where it's like, how many Log4j libraries are there out there where they're foundational to certain things, but they just aren't high-profile enough to get a ton of people looking at them constantly? And so like, you kind of break that trade-off there.
+
+**Jerod Santo:** Yeah. Which is sort of the tragedy of the commons in that case. It's like, there's certain open source projects that kind of break out of the tragedy of the commons, and they get the resources and the attention - and Ruby on Rails is a great example of that. And then there's a lot of them which still are foundational, infrastructural things that we require, and share. And then one guy in Nebraska is maintaining it, as the XKCD. comic. So - well pointed out. So yeah, interesting. Interesting trade-offs.
+
+**Adam Stacoviak:** Well, trade-offs, pros and cons, right?
+
+**Jerod Santo:** Totally.
+
+**Adam Stacoviak:** The other argument to play devil's advocate one layer deeper before we go on to point five and six, is would GitHub be GitHub if GitHub didn't use Rails? Because maybe they would have made their own thing, didn't move as fast, didn't innovate, maybe they burnt out their best players early, maybe they focused on the wrong thing and GitHub would be a framework creator, versus the place that open source lives, because they got defocused on their priority, which was the main thing. Jerod, you know this... The main thing, the main thing. Maybe they made Rails X their priority, versus just leveraging Rails.
+
+**Jerod Santo:** Yeah, but now you've moved on to a productivity conversation and not a security conversation. So I agree with you wholeheartedly there; like, open source for the win. I'm with you. But I think on the security front, I can see how, in certain circumstances, there are drawbacks, and there are trade-offs.
+
+Okay, let's plow forward, because we're never gonna make it. We're never gonna make it.
+
+**Adam Stacoviak:** Too many layers.
+
+**Jerod Santo:** Okay, so point six we're going to skip, because we've covered it. "Secure by default features and frameworks and infrastructure massively improve security." You covered that one. Let's hop back to point five, because it's somewhat cool... "All the really bad security vulnerabilities were obvious", which is kind of obvious once you say it, but also it's probably not very obvious when you find it. But like, there's some really bad stuff out there. Basically, the low-hanging fruit \[unintelligible 00:38:11.08\] found it fast, and it's like, holy cow... Is that what you're saying?
+
+**Ken Kantzer:** \[00:38:19.20\] Yeah. I think that -- what do I want to say here on this one...? I think there's like this myth amongst maybe securities, but also probably devs as well, that like "Oh a hacker is like this brilliant mind, and comes up with like this crazy hack that no one could have anticipated." And there's some evidence, there's some examples to back this up. Heartbleed is a good example... Or that one where it's like -- I forget what it's called, but basically they figured out how branching prediction worked on Intel processors, and then...
+
+**Jerod Santo:** Yeah, and then broke all Intel-based things...
+
+**Ken Kantzer:** Yeah, I don't remember what that's called. But I think most people have this conception of security research as always producing that kind of like 400 IQ problem. But the reality is most security researchers and most hackers are looking for the lowest-hanging fruit. They want to find the easiest things to exploit, and so those are the things that are going to pop up in practice when you actually do get hacked. It's going to be the cross-site scripting vulnerability that would have picked up on a scanner, but you didn't run scans. And I think that's something we've found in practice, too. There were a few things that we discovered that I would say were like more tricky, but they didn't end up seeming like the really high-impact ones. It was more like "Oh, your password reset response..." This was something that every dev should immediately check on their thing, because it's way more common than it should be. Make sure in your password reset response you don't include the token in that response. That, for some reason, tends to be a very simple gotcha, a very obvious one... But talk about high-impact, having anyone be able to reset anyone's password - it's gotta be at the top of the list.
+
+**Jerod Santo:** Did you guys perform physical security audits at all?
+
+**Ken Kantzer:** We did one, and it was very interesting. Can't talk too much about it in terms of what exactly we did, but we mostly focused on the code side of things. Physical security is its own unique gem.
+
+**Jerod Santo:** Well, the reason why I ask is because if we go all the way back to like the Kevin Mitnick days, we're talking about obvious and easy and low-hanging fruit. it seems like probably to this day just asking somebody for the thing still probably works way too often... And I wonder how much that stuff is audited.
+
+I know there are firms that do physical security, like on-premise things. I wonder how many call into help centers and stuff and try it to see if that works. But I mean, you're just one untrained help center employee away from the keys to the kingdom, in many cases.
+
+**Adam Stacoviak:** Yeah. And people bow down to authority too, so if you seem authoritative and you ask for particular information, you may give it up. Or you may get duped into giving it up. It's happened.
+
+**Jerod Santo:** That reminds me of this awesome social engineering thing which people actually tried... Do you want to know how to get into any event for free? Whether it's a movie theater, or a concert. It's simple. You walk in with a ladder. It works best with two people carrying a nice 10-foot ladder. And they'll just let you -- because everybody assumes if you're carrying a ladder that you're there to fix something, or hang a thing... They'll let you right in. There's actually some videos on - whether it's Instagram or TikTok, I don't know, of people trying that, and it works flawlessly. Like, they'll just let you right in, because you're carrying a ladder. And so it's a little bit of that assumed authority, right? Assumed "Everything's okay here."
+
+**Adam Stacoviak:** \[00:41:59.11\] You belong here.
+
+**Jerod Santo:** Clearly. "They're carrying a ladder, they must be working."
+
+**Adam Stacoviak:** It's the same with like in Tenet, that character was wearing that vest, that particular vest. It's like, you wear it in an airport, because you're directing, the planes or whatever. Like, you must be authoritative if you've got this vest on. I forget what the name of the vest is called, so that's why I'm not being specific; I can't recall the vest is called, but it's this vest that's orange, it's flashy... Yeah. If you seem authoritative, then you don't get questioned. Or if you get asked for certain information, you might just give it up, because like you said, Jerod, untrained person working, just trying to do their job... It's like, "Well, this seemingly authoritative person just asked me for my password, so I gave it to them. I hope it goes well."
+
+**Jerod Santo:** By the way, I looked up that Intel x86 hack... Meltdown and Spectre. Now it probably rings a bell. Spectre and Meltdown, if you all recall those. All the best, all the most non obvious high IQ hacks have cool names. There's no cool name for the one where you forgot to not send the token back on the password reset form. That one doesn't get a name, but it happens probably way more often.
+
+Alright, let's move forward here... Number seven, "Monorepos are easier to audit." That one seems like -- I don't know, that one seems obvious when you think about it, because like, well, everything's in one place. But is there more to it than just that?
+
+**Ken Kantzer:** Yeah, I mean - I'm curious on your guys' thoughts on this, but this is... There is like a more generalized and non security angle to this too, where - I just feel like developer ergonomics on a monorepo are easier. Like, anytime I would audit a microservices multi-repo setup, it's just -- I'm talking about like literally downloading all the repos to your local environment; like, now you've got to write a script that like -- we would write scripts that like scraped the GitHub page, and pulled down the repos that way. Maybe I'm missing something, maybe there's a clever button in GitHub where it's like "Download everything." But just stuff like that... It's just extra-overhead. And sometimes I wonder -- there's the debate about monorepo versus not is very intense. And I think there's good points being made all around. But I wonder if stuff like simple, every day ergonomics sometimes wins the day.
+
+If I want to search for something and I'm in my IDE - yes, you can have multiple folders open... But searching across a lot of different repos is tough. If you want to find -- you lose the ability to control right-click on like a function, and get that nice little sweet pop-up of all the places it's been used... Because a lot of times your IDE isn't smart enough to know there's like ten different projects... Just simple stuff like that.
+
+Sometimes there becomes so much of it that's like you wake up one day and you're like, "Oh man, the overhead here is high."
+
+**Jerod Santo:** Right.
+
+**Adam Stacoviak:** I'd say from a simple human perspective, it's visibility into things that aren't your problem, right? Not my code, not my problem, kind of thing. Maybe you care about the org or whatever, but it's easy to not care, because it's not in your visibility. And it's easy to just like forget about it, because it's so many services or so many things you can manage. I mean, that's not my problem. So you almost don't pay attention or can't pay attention, because productivity means you're focused on your problems and the things you can control, and so therefore everything that's outside that view becomes not a concern. So if your people, if your engineers are the ones that are sort of the visibility into the health of your code, the holistic health of your code, and if they're not viewing it all, then it's kind of hard to secure it or be concerned about security practices. Now, that may be a \[unintelligible 00:45:46.24\] job or somebody up higher; maybe not an IC, as that's not their "job", but I think if you have a lot of Lego. It might be challenging to manage where they go. Bring the Lego back in, Jerod.
+
+**Jerod Santo:** \[00:46:01.05\] Yeah. I mean, I'm a monorepo guy, but I'm always on small projects, small teams, so I feel like I don't have the perspective of somebody who would make the other side of the argument. We've never fully prosecuted that debate on the show or on any of our shows, that I know of...
+
+**Adam Stacoviak:** Well, we went there and back again with Segment, right? Microservices--
+
+**Jerod Santo:** Yeah, but that was that was more monolith, even more than just monorepo, which is like related, but not identical. I'm also a mono -- I'm just mono. So I get all the monorepo arguments, and I'm with you on them, I just don't have -- I can't represent well the other argument, besides separation of concerns perhaps, or some of the stuff Adam's been talking about. So yeah, I don't know... It makes sense that they're easy to audit. Everything's in one place.
+
+**Ken Kantzer:** One of the benefits of not having a monorepo is you don't have to deal with high volumes of commits to any branch, or weird branching strategies. It's a smaller team, they can adopt something very simple...
+
+A lot of the really large monoliths start running into -- like, if you're... I forget if it's Google that still had a monolith and have like millions of lines of code in it... But you really run into some problems with Git itself at that point. Like, they started a whole \[unintelligible 00:47:17.13\] I think it was Google - to basically improve the performance of Git. But you just run into, like, what happens if there's 30 commits an hour? And each time you want to rebase. Like, how does that work? How do conflicts work when you're just streaming a lot of commits through one mono repo? I think that's where people are like, "Ooh, I don't know if that's a good idea."
+
+**Jerod Santo:** Yeah, I can totally see that as well, which is I why I said I don't have that perspective to represent. But I can see where that could become, at scale, way more cumbersome than splitting things out and letting separate teams work separately.
+
+**Adam Stacoviak:** Which is not a Series A through C -- you know, a Series A through Series C company that's being audited by Ken and his team is likely not going to be at that scale. Now, there's obviously some series C companies that are pretty scaled. But at that point, maybe the monorepo versus - I guess multi repo? What's the opposite of monorepo? It's probably just less of an issue, the scale problem. Like, you're not Google scale at series C.
+
+**Jerod Santo:** Let's move on to number eight... We're never going to get to the end. And this is a big one, I think... "You could easily spend an entire audit going down the rabbit trail of vulnerable dependency libraries." This is a big problem; supply chain security is a hot topic. And especially in the JavaScript world, or we'll maybe just call it the frontend world, because no matter what your backend is, most of us are running Npm-based frontends. We have so many dependencies, and auditing the main thing is a lot of work. And what you're saying, Ken, is like going down that Node modules folder, or whatever your Deps folder is, if you're not in the frontend world... It's just like, there's no end. Like, how could you possibly audit all those things?
+
+**Ken Kantzer:** Right, yeah. So part of it is like, usually, what we security researchers do is we just decide to limit the scope to code written within that company. But if you think about it, in some ways that's not correct, right? Like, why? Why is that? Like, why is it that a function that I imported is out of scope, but a function I didn't import is in scope? It's all code that gets run in the runtime environment... That's something that honestly I haven't fully processed. It just kind of worries me. Maybe if there's a counterpoint to the above observation, that security has generally improved, the counterpoint would be "Well, we just are running a lot more code now than probably ever before, and because of how easy it is to go out there and find an open source library, there's a lot of code running that hasn't been looked at very carefully." And that's the rabbit hole that if you go down it gets kind of scary.
+
+**Jerod Santo:** \[00:50:08.05\] It's a hard problem, because how do you solve it? It's like a network-wide problem. Like, no single individual -- unless you just go completely Not Invented Here syndrome, and you're like, "We're only going to use code that we wrote internally, that fits inside of Ken's scope of work. We're gonna have zero dependencies." Like, that's the only real way. And that's not realistic, I don't think, or wise even, when we talk about productivity versus security trade-offs; it's just not wise to do that. So we actually have to kind of solve that at like a network-wide level.
+
+And one thing you brought up that's helped is Dependabot, and systems like this, because they kind of have been -- well, at least in the sense of a particular organization... I don't know, as far as they can pass the buck, or have somebody else look over a certain area of their code, the known vulnerabilities that Dependabot will alert you of kind of keep you upgrading and keep you current, at least; not keep you secure, but have helped move the needle a little bit towards more secure.
+
+**Ken Kantzer:** Yeah. The interesting thing is, I think Dependabot gives you a very concrete target as a developer to aim towards. It's like, "Okay, very black and white. These are the packages I need to look at; these are the things I need to upgrade." But there's a lot of false positives there, and it's incredibly hard to know, as a developer... Like, say there's a -- I don't know; like a JSON parsing Npm package that you use, and there's a vulnerability in it, and it's critical. As a developer, one path you could go down is just to blindly fix it. And that's probably 90% of the time the right path. But say you try to upgrade and it breaks something. Now how do you figure out whether the way that your code uses that library is impacted? That is a problem that Dependabot does not solve. I don't think anyone solves that problem. And if someone wants a great startup idea, that would be a great one to do... Because I think that problem is really hard.
+
+**Adam Stacoviak:** The closest we came so far to the solution really is what Feross and team is doing with Socket. I don't know if you've heard of this yet or not, but... The antithesis essentially is that the CVE is like too late. If it's a CVE, which essentially is what Dependabot does, right? It's CVE related. It's sort of like documented known issues, but they take a more proactive look at it when they look at the supply chain issue, which is like, "Have install scripts been added to the repo? Is there native code? Is there \[unintelligible 00:52:42.02\] script confusion?" I'm just reading the list, by the way... "Is there file system access? Is there network access for things that shouldn't have network access? Is there shell access, debug access?" All these different things that could be in a dependency that wasn't there before, that could have been a source of social engineering; "Hey, let me find a way to get your GitHub repo keys, change a thing on NPM, millions of people download it, and now I've got bin access, or I've got a shell access, or network access to this thing that never had it before. Now I'm in your cloud, or wherever I'm at, and I'm doing my thing."
+
+They're taking a more proactive look at it, which I think is pretty interesting. It's the most interesting thing I've seen thus far in the supply chain attack issue. The only issue I see really is that they're only focused on JavaScript right now. So there's some things we talked about Feross with on this show, in that episode. I think once they get past JavaScript and they do open source at large, Or Rust, Go etc, that things get more interesting. But JavaScript is a big footprint, but it's not all of it.
+
+**Jerod Santo:** Small steps in good directions.
+
+**Ken Kantzer:** I've not heard of that. That sounds fascinating.
+
+**Jerod Santo:** \[00:53:51.08\] Yeah. They're still retroactive. It's more proactive, but it's still going to miss stuff. They're trying to provide a holistic view of your dependencies, and provide a score, and there's like -- it's going to get more sophisticated as they continue to advance their algorithms, but it's still going to miss a lot of things.
+
+**Adam Stacoviak:** Well, anything that gives you more visibility into it. You can miss a lot of things if you get a lot of things, too. I mean, if you can prevent 20% of attacks, it's better than zero.
+
+**Jerod Santo:** It is. The challenge with security is it just takes that one hole. It's so much harder on the defensive side, because the offensive actor only needs one way in, and you have to secure all the ways. Ken knows this very well as a pen tester; really, all you need is the one. Like, you may report on your audit, "Here's the 17 things we've found." But only one of those -- I mean, okay, there are better and worse hacks, some things will not allow you to escalate privileges etc. So it's not like they're all created equally. But generally speaking, once you get your foot in the door, that's pretty much all you need. So it's really a hard problem from the offensive angle. It's such a hard problem.
+
+**Ken Kantzer:** I think one of the things we can do is try to limit the surface area as much as possible. I'm curious what you guys think about this, but sometimes I feel like we get Node-module-happy, especially on the Node JavaScript side. Sometimes I wonder if we should find the thing that works, like the Node module we want to import, and then just take the function you want. Like, the one function you went down the path to get it. It's almost like, "Don't abstract prematurely." Like, "Don't use the open source prematurely." If you can only use that one function, maybe like the ten lines you need to, just do that, and you kind of avoid the massive amount of code that you would import otherwise.
+
+**Jerod Santo:** Yeah, absolutely. Especially for the simple ones. I know a lot of companies would not have gone offline had they just copied Leftpad into their codebase, versus depending upon it. Because when it disappeared, they would not have their builds broken. That's one example. That being said, a lot of your dependencies aren't so simple as copy-pasting a single function.
+
+But I agree, if you can copy and paste a couple of functions, or even just take the thought there and rewrite it for your specific needs and own it that way, then at least when Ken's company comes by, they've got to audit it for you. They can't just say "Uh-oh, it's a dependency. Off limits."
+
+Well, speaking of limiting surface area, number nine is about untrusted data. It seems like a common thing, especially in the PHP world, is people kind of willy-nilly deserializing stuff that they shouldn't. It sounds like this is a way that you get a lot of compromises.
+
+**Ken Kantzer:** Yeah, we saw a lot of this on the PHP side. I don't know why PHP developers like serializing and deserializing objects, and storing serialized objects in databases and then using them. There must be something that's difficult otherwise. But the problem is that when you allow a user to have any control whatsoever about that, the contents of that serialized object, you suddenly basically give them the equivalent of like remote code execution. And I think it's not quite as obvious in the case of serializing and deserializing, and some of these other things like prototype pollution, that you're really giving them that much control... Because a lot of times the path to getting controls is a little -- you use weird features of a language.
+
+I know there's some weird prototype pollution like thing in Rails, but the way to exploit it is like, you have to know that Rails objects have some pretty weird functions that get inherited; and they are like pretty powerful functions. You wouldn't see these functions in your everyday use of Rails as a normal developer. And so maybe that's why it's so prevalent.
+
+**Jerod Santo:** Yes. Well, Ruby is highly dynamic, and so any language that is that dynamic and has features, not just reflection, introspection, but also things like method missing... Where, you know, in Ruby if you call a method on an object that's missing, there's a special function or a special method called method missing, where it can still execute other things... Which is very handy when you're creating DSLs and doing all sorts of cool metaprogramming, but it's not super-handy when you're trying to build a locked down, secure system.
+
+\[00:58:25.09\] Now, it seems like this PHP problem or this deserialization problem probably would also be a situation where if you're using some sort of a library that people have worked on in order to handle the edge cases of this problem, you might be better off, or -- hey, just use JSON, right? Just use JSON and reconstruct those objects on your own.
+
+**Ken Kantzer:** So PHP I think has like several attempts of this in the standard library, to like successively solve the problem. They keep on trying to fix it...
+
+**Jerod Santo:** Once and for all?
+
+**Ken Kantzer:** Yeah, exactly. That's why we eventually just started -- it got complicated to recommend something there, and so that's where we ended up with our recommendation being "I know it's a little bit more work... Use JSON, pass user data as JSON, in your own code do the right checks and construct the object on your side." It's a little bit more work, but it gets very hairy otherwise.
+
+**Jerod Santo:** Number ten, "Business logic flaws were rare, but when we found them, they tended to be epically bad."
+
+**Ken Kantzer:** Yeah.
+
+**Jerod Santo:** You probably can't speak in specifics here. Name names...
+
+**Ken Kantzer:** Yeah.
+
+**Adam Stacoviak:** I think free accounts, man... Free accounts.
+
+**Jerod Santo:** \[laughs\]
+
+**Adam Stacoviak:** We've just experienced this. Like, free for a little bit because of a business logic issue, probably...
+
+**Jerod Santo:** Oh, yeah. We had a free account from one of our service providers for a while, because bad business logic put us into some weird state where we were both trialing... It's like, we were half-enterprise, half-trialing, and things were working that shouldn't have been, and they weren't billing us, and we had to like actually contact them multiple times and be like, "Will you please bill us? Because we're not paying for this thing because of business logic flaws." We won't name names either. But if you want to, Ken, we're not gonna stop you.
+
+**Ken Kantzer:** I'll just give the classic example you pick up in security trainings, which is banks that would accept negative deposits. Or negative withdrawals maybe. I forget which one it is. But that's like the classic canonical "Business logic leads to people literally being able to create money for themselves." And the funny thing is a lot of these -- I do not profess to be a Web 3 or smart contracts expert. We never did any smart contracts auditing. But I have been following with this mix of fascination and horror some of these smart contract heists that are happening... And really, what it boils down to is that exact bank scenario. Maybe a little bit more complicated these days, but people find -- it turns out that code could be perfectly correct, but can still be exploited and manipulated. It's just been fascinating to see those take off.
+
+Yeah, I would say the handful of times where we like called up clients and let them know that something was horribly, horribly wrong, it tended to be a business logic thing, rather than an exploit in some weird function that they had.
+
+**Adam Stacoviak:** In the smart contract case, what happened? What made the exploit happen? Was it poorly written code in the smart contract, or was it the person, the human error didn't pay attention to the details? What was the true flaw?
+
+**Ken Kantzer:** \[01:01:47.11\] So the one that happened the most recently, that I think I linked to in the article, is related to DeFi. Essentially, the smart contract had logic in it for being able to almost like index a lot of different cryptocurrencies and autobalance them. And so what the guy did was he found a way to inject a lot of like a very cheap cryptocurrency into the pool that was used for calculating the balance of the index, and through everything that was completely legal within the smart contract, was able to extract tons of money from the system. And maybe it's similar to how the stock market gets manipulated sometimes, like pumping and dumping stocks. It felt a lot like that. It was legal, perfectly legal within the system, but it just was not the original intention of the developers.
+
+**Jerod Santo:** It's kind of like when you test a system, and the tests prove that the system works as specified, but the system is not designed correctly. And so the test is actually not helping you at all. It's just telling you that it's it works as it's written. So 100% test coverage does not mean that your bank is not going to let a negative deposit add to an account.
+
+Well, when it comes to auditing, I think smart contract auditors are probably making pretty good money these days. They're well-employed, aren't they, Ken? You probably have a better view into that world than we do in terms of the auditing side. That's good business right now?
+
+**Ken Kantzer:** Oh, yeah. Auditing, and also just bug bounties. I think I read somewhere that someone found a bug in Ethereum, and the bounty was like $10 million, which is -- that's a lot of money. It definitely dwarfs -- the interesting thing is it dwarfs a lot of the bug bounty money in like traditional software. I think Apple three or four years ago made huge news in that they upped their like top bounty, if you find a vulnerability in iOS or something to like a million, and that was huge news, because it was like 10 times more than anyone else was giving out. And now you have the smart contracts, where there's tons of money flowing through, and the bounties are even higher.
+
+**Break:** \[01:04:09.03\]
+
+**Jerod Santo:** Alright, we've gotta move on. You know I'm a completionist, Adam. Are we gonna make it? What do you think?
+
+**Adam Stacoviak:** Five more to go...
+
+**Jerod Santo:** Okay, number eleven... "Custom fuzzing is surprisingly effective." Can you first describe what custom fuzzing is for us and our listeners? And then why is it a surprise that it's effective?
+
+**Ken Kantzer:** Sure. So fuzzing is when you programmatically send random or pseudo-random inputs into the code that you're testing. And you have some mechanism on the other end to kind of judge whether that random input produced an unexpected result. So that's what fuzzing is.
+
+The thing that we would do for custom fuzzing is usually against APIs. So we would go into a company, we'd have a limited time to audit, and we'd have like 400 API routes that we wanted to cover. And rather than painstakingly review each single one completely thoroughly, what we would first do to kind of target our assessment is we would send bad input to all those APIs.
+
+A really great example of that is we'd send an authorized request, and an unauthorized request. And if our authorized request got a 200, and our unauthorized request also got to a 200, that would probably be a bad sign. You don't want two hundreds for requests that should be authorized. They should be getting like a 403. And so it really was as simple as that... It's like, look at status codes that come back and see if there's anything that was weird. And then those are the areas you could focus on later on in the audit. And that was surprisingly effective.
+
+**Jerod Santo:** Are there any toolkits or auditing things that you would use regularly? I'm sure you'd take that suite of custom fuzzers and probably run it against the next audit You'd kind of build up a cache of things that you run all the time, because why not; once you've written it once, why not run it against the next endpoint. But were there like common tools that you just recommend all auditors put in their toolbox?
+
+**Ken Kantzer:** Yeah, so I know Burp Suite does custom fuzzing, but to be honest with you, actually, we would build it custom each time.
+
+**Jerod Santo:** Oh, yeah?
+
+**Ken Kantzer:** \[01:09:40.12\] In retrospect, maybe there is something we could have done... But I think the reason why we did that was because there were just a ton of different authorization methods, and we just never found a tool that was like -- it turns out every app in some ways is its own unique gem - pun intended - and... You wanted to write custom code and it turned out to not be super-hard to do that... And it worked for us, at least on the scale of like 20 audits. If you think about it, like -- look, I mean, 20 audits was enough to start forming interesting observations, but if you're a full-time pen tester or code auditor, there are companies that do hundreds a year, so I'm sure it would make sense for them at that scale to write and support a home framework on this.
+
+**Jerod Santo:** Number twelve, "Acquisitions complicated security quite a bit." That's a common thing in startup land, is to acquire and be acquired. And surely, that complicates codebases and org structures and everything. How does it complicate an audit?
+
+**Ken Kantzer:** I think it starts being -- as soon as you do an acquisition, you start thinking about integration, and how to integrate. There's so many different ways you could do it. You could just literally dump data from one side to the other, and keep it straightforward. You can integrate via API... And it was really hard to scope things. So like, we'd get in and a company would be like, "Oh, well we just want you to audit this app" and then we'd get in and find out there were significant integrations with another product that they had... And that's what made it difficult. The boundaries, as soon as you do the acquisition, they start blurring. And that's really where it gets really tricky. It also gets more expensive.
+
+Doing an audit of three products is not unsurprisingly more expensive than just doing the audit of one product. I think a lot of startups didn't anticipate the increase in costs from this perspective. They were like, "Oh, can't we just have you do your normal 100-hour block and just look at three or four more products?" And it's like, "Well, actually, that's more code, and they interact, and so it's more money." That was surprising, I think, to a lot of the startups.
+
+**Adam Stacoviak:** What's interesting is how you spend that time, really. I've been thinking about this during this conversation, because I'm thinking, like, when you get awarded this block, let's say, to audit one product - how do you discern how to spend that time? Does your client/customer tell you? How do you prioritize? That's just gotta be interesting. Because like you were saying, you build your own software... That's gonna spend at least an hour or two. I mean, you've probably done it 20 times; maybe you're getting more efficient every time you write the script, because you handroll it every time, but... Prioritizing how you spend those hours is interesting. And it's gotta be interesting to also get them to buy another block. Not that you're trying to sell more, \[unintelligible 01:12:35.04\] use this 40-hour block pretty easily, because you've got issues, okay? We've gotta do more." I don't know, I've just been thinking about that as we've been talking, how you prioritize your time.
+
+**Ken Kantzer:** Yeah. It's tough. And the honest truth is the block size is arbitrary, in a sense. It's super-standard amongst auditors to do this, because if you think about it, any other way, you can never really predict it. We had a list of hotspots, like a checklist for every app; we would look at authentication, authorization logic. Like, how were they determining who could get access to what. We would look at validation, so how are they validating that the parameters on an API request were in fact, what they were expecting. There was a whole handful of those. And then honestly, we would also ask the devs, we would say like, "Where in the code keeps you up at night?" We wouldn't treat that as God's truth, but... You know, developers have a surprisingly good sense, even without security knowledge, of what parts of the code are scary, and they're kind of worried about. They definitely have blind spots. That's definitely true. But in terms of like -- when we're talking about business logic, a lot of times they'll be like, "Yeah, this part is super gnarly. There's a ton of logic here, and it kind of works, but it also breaks a decent amount, and it's an important functionality for the app, so please check that out." So those two things really help to prioritize.
+
+**Adam Stacoviak:** \[01:14:08.21\] That scary intuition reminds me of Severance, honestly. It's like, "Well, I can easily spot the scary numbers here."
+
+**Jerod Santo:** \[laughs\]
+
+**Adam Stacoviak:** This next one's actually quite interesting, because - I'll read this one if you don't mind, Jerod... Number 13, "There's always at least one closet security enthusiast among the software engineers."
+
+**Jerod Santo:** I love that.
+
+**Adam Stacoviak:** And one thing you say in there is that there you're always surprised, because they never know it's them. It's like "There's somebody..." So our listeners, look left, look right on your team. One of you is a security enthusiast and you don't even know it.
+
+**Jerod Santo:** \[laughs\] How would they find out?
+
+**Adam Stacoviak:** They get told by the auditors.
+
+**Ken Kantzer:** Yeah, we would let their managers know and let them know as well, a lot of times. So yeah, I love this one, and it makes me so happy that this is the case... But even in my current role I've had some of my engineers come up to me chatting with them for like 20 minutes, and then they casually drop this cryptography concept into the conversation and I'm like, "Oh. Hm... Tell me what you know about crypto." And they're like--
+
+**Adam Stacoviak:** "What newsletters are you reading?!"
+
+**Ken Kantzer:** Yeah, and they're like, "Oh, well, like, blah-blah..." and I'm like, "Oh my God, you know a ton about security. That's awesome." I think developers don't really think of it as like a viable career path, in some ways, because they think of security in terms of IT security, which is not unexpected. And so they're like, "Oh, you can spend all of your time focusing on like software security? People will pay you to do that? I just thought I would do that on my own, because it's kind of fun and interesting." So I think that's part of it.
+
+But yeah, it was always fun working and kind of like having that a-ha moment with someone where they made a comment, you kind of dig a little deeper, and it turns out they're super into security and do you stuff on their own time on it.
+
+**Adam Stacoviak:** One thing you say is having these folks be reliably identified... So what will be the feedback to the manager team, company, etc. to like how could they better leverage this individual and their passion/knowledge?
+
+**Ken Kantzer:** Yeah, I think one way is a lot of times for like a secure software development lifecycle there's a step in it where the reality is if the developer is making a particular pull request or commit - it's their job to kind of alert someone on the security team that this is a potentially sensitive commit, and we want someone on the security team to review it. And these people who are secret security enthusiast are great people to pick up on that. They're oftentimes very curious, and naturally, when they see a given piece of code, think like, "Oh, I wonder how this would be exploitable." And so for a manager, they can be like, "Hey, when you think, don't just think to yourself. Flag the security team."
+
+**Jerod Santo:** If you see a piece of software and you think, "What's the weirdest way I could use this?" you might be a security enthusiast. \[laughter\] Certain people can just break stuff. Maybe even on accident. But they just don't use things the way the rest of us -- I mean, there is no such thing as the rest of us, but the way a developer might think you would use it; they're just gonna use it in this weird way, and they can just have a knack for breaking things. And then if you pair that with the enthusiasm and the interest - well, then you might have magic on your hands there.
+
+Number 14, "Quick turnarounds on fixing vulnerabilities usually correlated with general engineering, operational excellence." So if you leave a list of to do's and you come back later and they're not done yet, especially when it's like high, high-risk security vulnerabilities, that's not excellent. Is that what you're saying? That's not very good?
+
+**Ken Kantzer:** \[01:17:58.12\] Yeah.
+
+**Jerod Santo:** Does that happen a lot?
+
+**Ken Kantzer:** Yeah, yeah, definitely. I think a lot of it has to do with classical DevOpsy things... Like, okay, it becomes a lot harder to fix security issues if you don't have an automated test suite. It becomes a lot harder to fix security issues if you deploy once a quarter. The traditional DevOps things apply directly to this; I think that's a big chunk of it. So like maybe a more refined way of saying this one is like, the ability to turn around quick security vulnerability fixes is correlated to good CI/CD, good DevOps.
+
+**Jerod Santo:** Right. So if we can go back to number one, tie this one together, and I realize you're just doing this based on intuition, or whatever. Can you correlate operational excellence to startup success? Or there's no correlation there either.
+
+**Ken Kantzer:** That's a really good question. I think you can correlate it with operational success, but there's so many different axes of operational success. Like, are we really good at hiring? Are we really good at coming up with good Scrum patterns for our teams that they buy into? I think operational success - maybe that matters for being tied to like product success. There was just like a ton of discipline on product development. I don't know if you guys have looked -- so Basecamp writes like a bunch of stuff on remote, but one of their earliest things was actually on like software development and how they do product... And they have this amazing observation, which is like -- one of the chapters is called "It doesn't matter. It just doesn't matter." And their point is like, a lot of times you get into these product and feature discussions, and the answer is like, "It just doesn't matter. It doesn't matter if the button is on the right or on the left." Maybe it matters like a smidgen, but it won't matter for the success of your product.
+
+I've just found that a lot of the startups that I looked back on are worth like a half a billion dollars, and when we audited them they had like four developers, and I was like, "I don't know if they're gonna make it." And now I'm like, "Ah, I'm so pleased." They were just really disciplined about that. They were just very focused. And that's a form of operational excellence. They may not have had -- like, they may have been messy in other ways, but they were really disciplined where it counted.
+
+**Jerod Santo:** Where it really mattered. Yeah.
+
+**Adam Stacoviak:** What about the ones where you say -- you said the best cases were clients who asked us to just give them a constant feed of anything you'd found, and they'd fix it right away. What about those ones? Like, those ones who like, yearn for "Where are the bugs, where the issues? We want them to be squashed and fixed right now." Versus like, \[unintelligible 01:20:41.05\] Scrum better, or can hire better. Like, specifically, this engineering practice where security in these vulnerabilities you showcased - like, correlate that to success, if you can think back.
+
+**Ken Kantzer:** Yeah... So the most obvious correlation is that those same people who asked us to give them a steady feed were very agile and informal in their processes, and had a bias towards. That that's the closest I'll be able to say it, which maybe in some definitions of operational excellence isn't. But they were very informal. They're like, "Yeah, we'll just give you access to our GitHub repo, and just make an issue there. Don't give me a spreadsheet. I don't want have to convert a spreadsheet to our JIRA board, and then convert the JIRA board ticket to an issue and PR in GitHub."
+
+**Adam Stacoviak:** Yeah, less red tape.
+
+**Ken Kantzer:** Yeah, exactly. And they sometimes went a step further, like "Make a PR. Would you be willing to make a PR?" And those were like, "Ah, this is great." Like, there's high trust there that we wouldn't screw things up. And I know, it felt good, it felt very productive to be on those teams, and I'm sure the engineers on those teams felt the same way.
+
+**Adam Stacoviak:** \[01:22:01.09\] The analogy I would probably bring in here would be -- and I think this might be the actual analogy, so correct me if it's not... But there's this saying that says "The car doesn't make the driver, the driver makes the car." And so if the product/company were trying to gauge the possibility of success based upon the ability of the thing that gets them there, which is the software, the product, the vehicle, so to speak - you know, just because the software and the team and everything is secure and amazing doesn't mean that the product would actually win. So it does take an adequate product to make it in the marketplace... Assuming no one's gonna work on something that isn't worthwhile, but you know... That's my point. It's almost like if you've got good tires on your car, does that mean you can corner? Maybe...
+
+**Jerod Santo:** Maybe...
+
+**Adam Stacoviak:** You might be the kind of driver that can do it. Somebody else can drift, and maybe you can't. That depends on the tires and it depends on the driver. So something in there is probably my assumption based on what I'm hearing from you.
+
+**Jerod Santo:** Lots of factors, lots of factors. It sounds like JWT is hard. JSON Web Tokens. Not to change the subject, but... Number 15, "People get JWT wrong. People get WebHooks wrong." These were common areas of vulnerabilities. What's the lesson learned there? Just don't use JWT, or...?
+
+**Ken Kantzer:** Yeah, I think you could say don't use JWT, but --
+
+**Jerod Santo:** "If you're using JWT, double-check your implementation."
+
+**Ken Kantzer:** Yeah...
+
+**Jerod Santo:** "Put the podcast down and go check it right now."
+
+**Ken Kantzer:** I think it's just they're a good intersection of things that devs don't understand super-well. So both JWT and WebHooks fall in that category. They're not like a super-common thing that you come across every day, and things where security does actually matter quite a bit. With WebHooks, it's pretty simple. Essentially, when you have a WebHook, you have an open receiver to someone else's -- that you're allowing a third party to like hit kind of arbitrarily...
+
+**Jerod Santo:** Right.
+
+**Ken Kantzer:** And the big problem there is, you know, I may be setting up a WebHook with Stripe to receive sign-up requests from them in real time... But there's nothing that says that Stripe is the only person who can hit that endpoint. It sounds simple when I say it like that, but a lot of times we tell devs that and you just see their eyes widen slowly... And then you'll always see the guy who like leans in, he's like very clearly going to the repo and trying some stuff...
+
+**Jerod Santo:** Right.
+
+**Ken Kantzer:** So it's not super-clever. It's just one of those things where--
+
+**Jerod Santo:** They just forget to set up the authentication part to authenticate third party.
+
+**Ken Kantzer:** Exactly. There are some WebHook implementations by relatively large third parties (that I won't name) that don't allow for authentication. That's a whole separate issue. That is really bad. But yeah, generally it's like "Oh, I didn't read the part of the document, that red box in the documentation that said, "By the way, you should also include this authentication token with the request in WebHooks."
+
+**Jerod Santo:** So if you don't do that, someone could denial-of-service you, somebody could fill up your database with just garbled data... What other stuff can they do if they can hit your WebHook endpoint? I guess it depends on what it does.
+
+**Ken Kantzer:** Yeah, yeah. A lot of times, it's pretty bad. Maybe you're an eCommerce site and the WebHook allows you to process returns from like a third-party service used for returns, and so now all of a sudden you get a lot of fake returns.
+
+Stripe was a really common one, where - you know, now you're dealing with money, so that's pretty bad, in general. Or subscriptions... Yeah. So usually, it goes back to the business logic thing. A lot of times these were also -- you have the WebHook there for it to perform some pretty important business logic function.
+
+**Jerod Santo:** \[01:26:02.29\] Yeah, so one example -- Adam and I were just talking about a Stripe WebHook today, about setting one up for our Changelog++ members. When they sign up for Changelog++, it goes through Stripe, and we could set up a WebHook so that we receive notice of that and then generate them a coupon code for a free sticker pack on our merch shop.
+
+And if we just let anybody hit that endpoint at any time, then they could just generate a whole bunch of coupon codes that are junk, or send them out to their friends, or whatever.
+
+So JWT, it sounds like you said not only do people get it wrong if you're implementing it yourself, but also a lot of libraries have vulnerabilities as well. So it's pretty fraught, it sounds like.
+
+**Ken Kantzer:** Yeah. There was a pretty bad class break maybe five years ago with almost every single JWT library out there, where in a JWT token one of the fields specifies the algorithm that's supposed to be used, and for some insane reason that I still don't understand, you can literally set that field to the word "none", or like no algo. And when you do that, the intention is like -- okay, this is a JWT token that's probably coming from an internal system, and I don't need to like validate that the token is actually signed. But it turns out that almost every JWT library out there didn't do some sort of check when there was no algo included to see if the signature field was blank... And so an attacker just set no algo, and then the signature field would never be validated, and it totally broke JWT.
+
+So that's an example where even the people writing the open source code got it wrong... But hey, it was also fixed. So the flipside of it is like no one ever did better than those libraries. Every single time people decided to \[unintelligible 01:27:57.25\] JWT, they did something wrong... Because signature validation or JWT is complicated. It's a crypto thing, and it turns out crypto is hard. So yeah, I think that's an example where even though the open source stuff had vulnerabilities, I would still highly, highly recommend everyone use the open source stuff, rather than rolling their own.
+
+**Jerod Santo:** Don't roll your own crypto. Don't roll your own JWT, don't use MD5 anymore. Your last point, number 16. We've made it, friends. We've made it to the end. There's a lot of MD5 out there still.
+
+**Adam Stacoviak:** Ooh, what a marathon.
+
+**Jerod Santo:** Yeah. It's been a good one though. But it sounds like most of the MD5 out there isn't really doing anything that's damaging.
+
+**Ken Kantzer:** Yeah, I feel like most people know now that MD5 hashing is not the right hashing algorithm to use. You should be using SHA-3 now, or something. And there's been a lot of publicity on that front. But we're now getting at the bottom of the list - this one is just kind of like a quirky, hipster observation. Actually, because everyone knows this, I'm gonna say that it doesn't matter, actually.
+
+We've just found that especially -- I don't know, we've never found a case where someone was using MD5 to hash for example like a password. That's what you don't want, right? You don't want people to use it as hashing algorithm for passwords.
+
+**Jerod Santo:** Totally.
+
+**Ken Kantzer:** But it turns out people still use MD5 for other reasons that are good. Like, it's pretty fast... I think someone in my blog pointed out that SHA-1 is faster, because there's a lot of hardware optimizations for it. They leverage some special hardware modules... But it's fast -- I don't know, it turns out people use MD5 for things other than super-secure things. So that was just kind of a quirky observation.
+
+**Adam Stacoviak:** Yeah. And for those who may not know - so it may be bad to use it, but why? What happened with MD5? What's the why for that?
+
+**Ken Kantzer:** \[01:29:54.08\] Yeah. So if anyone wants to learn about crypto, hashes are a really great place to start. And basically, the idea with a hash is you take some arbitrary-sized input, and it will map it down to another -- like, usually, in the case of hashing algorithms, it will match it out to like a Base64-looking string. And the way security with hashing works is you don't want what's called collision. You don't want two inputs that are completely different to map to the same Base64(ish) string. The reason why is because usually the exact reason why you use a hashing algorithm, is because you believe that collisions are...
+
+**Adam Stacoviak:** Unique, yeah.
+
+**Ken Kantzer:** ...yeah, almost never happened. And so MD5, it turns out, over the last 20 or 30 years, people have gotten more and more clever about identifying collisions... To the point where now like it's pretty arbitrarily simple, given almost any input, to find another input that's a collision. And there's a lot of clever math that goes into that that I don't know... But that's
+
+generally how it works. \[laughter\]
+
+**Adam Stacoviak:** Yeah. Are you a fan -- sorry, Jerod, I have to do this... Are you a fan of Silicon Valley, the TV show?
+
+**Ken Kantzer:** Silicon Valley?
+
+**Adam Stacoviak:** The TV show, yeah.
+
+**Ken Kantzer:** Yeah. Funny story about that - I think it was the first or second year at PKC, so this was like 2014-2015. I think it had been out for a while, maybe... But we were actually in the middle of building a product. So we built an end-to-end encrypted alternative to Slack called Balboa. Awesome experience. We decided to build it in Clojure, which is probably not the best choice ever... But it's a great language, and it's a lot of fun. So we were in kind of like the middle of building a product, and thinking about VC funding, and so we started watching the show with the original three founders... And halfway through the show, I look over, I'm like, "Wait, Dan's missing." One of the founders. We're like "Where the hell is Dan?"
+
+We go into like this bedroom, and he's on the floor in like a fetal position... And we're like, "Are you okay?" He's like, "I can't, I can't take it. It's too much."
+
+**Jerod Santo:** \[laughs\]
+
+**Ken Kantzer:** So like, that's my view on Silicon Valley. It's an awesome show, but if you're actually going through--
+
+**Adam Stacoviak:** It was too close to home.
+
+**Ken Kantzer:** Yeah. If you're actually going through that, it's some of the most painful TV to watch, because it's just so true. It's great.
+
+**Adam Stacoviak:** Okay. Well, thank you for that story. Season six, the very last season - I don't want to spoil the show for anybody, but essentially, they had built an AI that could predictably undo an algorithm like this. They could undo a hash; so they had broken MD5, they had broken SHA-1, they'd broken through all these different encryption algorithms, essentially... That's why I brought it up. I was just curious if you had known that, because that's part of the show, and it's pretty interesting to see like that at some point AI can be so smart to defy our security protocols by reverse-engineering the algorithms that protect us and our privacy.
+
+**Ken Kantzer:** I have not seen that. That sounds incredibly scary though...
+
+**Adam Stacoviak:** Yeah. You should watch -- well, if season one scared the crap out of your co-founder, maybe you shouldn't watch season six, because that is the ending...
+
+**Jerod Santo:** You're not gonna make it at six seasons...
+
+**Adam Stacoviak:** Very good though. But that's an interesting thought pattern... Like, we're producing such powerful computers, and while collisions may be the issue with MD5, which is basically an implementation flaw of the encryption algorithm... You know, at some point, can we develop such technology that we can break these encryption algorithms? Otherwise, through AI or through learnings, that's an interesting thought pattern. So I thought maybe someone like you might have watched that and could entertain me a bit.
+
+**Ken Kantzer:** Yeah. No, in some ways, hashing is like a great use case for AI, because you can generate inputs, right? A lot of times, coming up with effective machine learning requires you to have a very large sample size, and you can't like just make it up. But in crypto, it turns out you can. It's called the oracle, right? I ask the MD5 oracle, and I get a response. I can do that a million times, and then hand the output to a machine learning algorithm, and say "Hey, are you able to correlate one to the other?"
+
+**Adam Stacoviak:** \[01:34:23.23\] Right.
+
+**Ken Kantzer:** Like, "I just gave you 5 billion inputs. You should be able to." And I liked that idea a lot.
+
+**Adam Stacoviak:** Yeah. Well, that's the scary future. That's what had one of the stars say -- he said, "How should I feel right now?" He said "For you, abject terror." And that's all I'm gonna say. It was just hilarious. Phenomenal lines in the show. I mean, you're missing out. If you've heard me mention Silicon Valley and Jerod rolls his eyes, which you don't get to see, because it's an audio podcast, you're missing out. Watch it even if you curl up into a ball in season one. Persevere.
+
+**Jerod Santo:** Curl up into a ball on your couch and watch some Silicon Valley. Long-time listeners of this show have already been spoiled multiple times, as Adam brings it up pretty much weekly, but...
+
+**Adam Stacoviak:** I have to.
+
+**Jerod Santo:** ...it's so relevant.
+
+**Adam Stacoviak:** There's such correlation. There's such correlation. It really is.
+
+**Jerod Santo:** Well, Ken, we've reached the end of your learnings... And it's been a long one. It's been a good one. I appreciate you joining us and talking through all this. First of all, I appreciate you writing it all down, so folks can learn alongside you. There's definitely a lot to be learned from people's experience, especially being like an outsider, getting to see the inside of so many startups and how they do what they do, what they're good at, what they're bad at, what correlates and what does not correlate in the startup success... Interesting stuff, for sure.
+
+**Ken Kantzer:** Yeah, yeah. Thanks, guys, for having me. It's been a pleasure.
+
+**Jerod Santo:** Is there anything we didn't cover, any ground left fertile that you want to talk about before we call it a show?
+
+**Ken Kantzer:** You know, I was very surprised that the article was so popular. I got over 300,000 views on my blog as a result of this... And I don't know how much you guys are following, like, the market, and the tech scene market... I think it's like, it's on a lot of--
+
+**Adam Stacoviak:** Very closely.
+
+**Ken Kantzer:** ...devs minds... Yeah, it's important, right? Especially if you work at a start-up and you're in engineering. And I don't know, just my meta observations - I think maybe one of the reasons why this type of article was more interesting is like a lot of devs are asking questions about what has been considered maybe like standard startup truth. For example, if we aren't growing our engineering organization, we aren't growing as a company. The first point kind of speaks to that. And I think it struck a chord, because people are starting to question a lot of dogma within the engineering world, as a result of some of the market changing and forcing us to ask really hard questions of ourselves.
+
+**Jerod Santo:** Well said
+
+**Adam Stacoviak:** It's been good hearing your wisdom, both on this show and reading it as well. Thank you, for as Jared said, for putting this out. I mean, if we don't have folks like you go down hard roads and do a retrospective for us to learn from, what would the world be? We need more people like you, Ken. So thank you for going down that hard road, thank you for sharing that wisdom. We appreciate your time here today.
+
+**Ken Kantzer:** Yeah, thanks, guys.
