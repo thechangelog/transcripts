@@ -222,7 +222,7 @@ And by the way, that kind of work is also very easy to measure and then be able 
 
 **Mat Ryer:** Good startup idea.
 
-**Jerod Santo:** I think, doesn't Github have a have an X/Y visualization where it shows what quadrant you're spending more of your commits, or your project time, or whatever... And I don't think it's super-useful in the GitHub context, but maybe more so -- I mean, I guess in a team context perhaps, showing that visually, the progress you're making on these different key aspects of your system would be pretty cool.
+**Jerod Santo:** I think, doesn't GitHub have a have an X/Y visualization where it shows what quadrant you're spending more of your commits, or your project time, or whatever... And I don't think it's super-useful in the GitHub context, but maybe more so -- I mean, I guess in a team context perhaps, showing that visually, the progress you're making on these different key aspects of your system would be pretty cool.
 
 **Mat Ryer:** Yeah. That would be cool. I'd like to see that also gamified, so it looks like you're unlocking something as you go as well.
 
