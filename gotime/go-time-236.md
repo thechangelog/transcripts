@@ -106,7 +106,7 @@ So update a URL - that's definitely a one, because that's the simplest task you 
 
 **Jerod Santo:** I thought it was a number one URL, but it's actually an eight.
 
-**Mat Ryer:** Yeah, because it's made up \[unintelligible 00:14:43.07\] this stuff from the database, we've got these environment variables that contribute to parts of the URL...
+**Mat Ryer:** Yeah, because it's made up from, we pull this stuff from the database, we've got these environment variables that contribute to parts of the URL...
 
 **Jerod Santo:** Right. We Base64-encode it based on the position of the sun at that particular moment... \[laughter\] Stuff like that, right?
 
@@ -202,7 +202,7 @@ And by the way, that kind of work is also very easy to measure and then be able 
 
 **Mat Ryer:** I know. We're having a tough time lately...
 
-**Jerod Santo:** So we actually did drive overnight... So we drove the entire night. In basically Kansas, Backwoods - there's no woods there. \[unintelligible 00:22:47.28\] small roads, and we were lost, and we had to pull over and ask a gas station attendant which way to go... It was spooky. There were some deer on the road...
+**Jerod Santo:** So we actually did drive overnight... So we drove the entire night. In basically Kansas, Backwoods - there's no woods there. Back prairie, small roads, and we were lost, and we had to pull over and ask a gas station attendant which way to go... It was spooky. There were some deer on the road...
 
 **Mat Ryer:** Oh, no... They're in on it. They were always in on it!
 
@@ -222,13 +222,13 @@ And by the way, that kind of work is also very easy to measure and then be able 
 
 **Mat Ryer:** Good startup idea.
 
-**Jerod Santo:** \[unintelligible 00:24:36.00\] get have a have an X/Y visualization where it shows what quadrant you're spending more of your commits, or your project time, or whatever... And I don't think it's super-useful in the GitHub context, but maybe more so -- I mean, I guess in a team context perhaps, showing that visually, the progress you're making on these different key aspects of your system would be pretty cool.
+**Jerod Santo:** I think, doesn't Github have a have an X/Y visualization where it shows what quadrant you're spending more of your commits, or your project time, or whatever... And I don't think it's super-useful in the GitHub context, but maybe more so -- I mean, I guess in a team context perhaps, showing that visually, the progress you're making on these different key aspects of your system would be pretty cool.
 
 **Mat Ryer:** Yeah. That would be cool. I'd like to see that also gamified, so it looks like you're unlocking something as you go as well.
 
 **Jerod Santo:** What would you unlock? Like new badges?
 
-**Mat Ryer:** Yeah, it could be. Maybe even like get more tools in the -- you get more features \[unintelligible 00:25:15.06\]
+**Mat Ryer:** Yeah, it could be. Maybe even like get more tools in the -- you get more features you get unlocked in the tool.
 
 **Natalie Pistunovich:** Your graph becomes from 2D to 3D, your progress graph.
 
@@ -256,7 +256,7 @@ And by the way, that kind of work is also very easy to measure and then be able 
 
 **Jerod Santo:** Choo-choo...! I think it's going to be $10 a month, or something like this, soon.
 
-**Natalie Pistunovich:** It's worth mentioning that in addition to Copilot... Quick explanation of what's happening there - Copilot is built on top of an engine that belongs to OpenAI that's called Codex. Codex is available for many people in general, and then you can kind of build your own little Copilot alternative on top of that, and you don't have to pay GitHub/Microsoft those $10 if you don't want to. And there's many other companies, like 70 companies or so that are building their dev tools on top of this exact engine. And they're just doing like the fine-tuning, the final \[unintelligible 00:28:12.06\] training that's specific to them.
+**Natalie Pistunovich:** It's worth mentioning that in addition to Copilot... Quick explanation of what's happening there - Copilot is built on top of an engine that belongs to OpenAI that's called Codex. Codex is available for many people in general, and then you can kind of build your own little Copilot alternative on top of that, and you don't have to pay GitHub/Microsoft those $10 if you don't want to. And there's many other companies, like 70 companies or so that are building their dev tools on top of this exact engine. And they're just doing like the fine-tuning, the final little bit of training that's specific to them.
 
 **Jerod Santo:** Yeah, that is good to know. So lots of alternatives will be popping up hopefully, using the same engine, same knowledge base.
 
@@ -358,7 +358,7 @@ So I own this part, I kind of explained why I think I will disagree, and we will
 
 **Jerod Santo:** I thought you were maybe doing a--
 
-**Natalie Pistunovich:** \[unintelligible 00:37:40.02\]
+**Natalie Pistunovich:** Attention span right?
 
 **Jerod Santo:** I thought you were playing Excitebike, or some other NES game...
 
@@ -736,7 +736,7 @@ It's most interesting when someone's way off as an outlier, and it's the convers
 
 **Jerod Santo:** Yeah.
 
-**Mat Ryer:** \[unintelligible 01:06:11.21\]
+**Mat Ryer:** Go listen to the ads twice!
 
 **Natalie Pistunovich:** And answer the poll.
 
@@ -750,7 +750,7 @@ So my unpopular opinion - this is a huge setup; we're going to cut this part out
 
 If you're a developer, and you go doing all the things that a developer is going to do - plan, make decisions, test things, estimate some points wrongly, whatever you're gonna do, and then you go to write the software, I think it's inappropriate to say that the coding part of a developer's job is akin to the typing part of a writer's job. Because typing and coding are different. It's the writing part. So a writer writes, okay? Typing is just a thing that goes mechanically between you and a machine. But a coder codes; a developer codes. And so there's more -- coding is much more than just typing. I think it belittles it to compare it to typing.
 
-**Mat Ryer:** Yes, I know exactly what you mean. When I first read that, I thought they were saying that coding is really just the act of getting it into the editor. And the programming is happening outside of that, and it's the bigger thing. But you're right, definitely between typing and coding -- I mean, you have to type in order to get coding to happen as well. So I think yeah, that is interesting that they \[unintelligible 01:08:22.27\] but I'm surprised coder just got 3%.
+**Mat Ryer:** Yes, I know exactly what you mean. When I first read that, I thought they were saying that coding is really just the act of getting it into the editor. And the programming is happening outside of that, and it's the bigger thing. But you're right, definitely between typing and coding -- I mean, you have to type in order to get coding to happen as well. So I think yeah, that is interesting that they these - but I'm surprised coder just got 3%.
 
 **Jerod Santo:** Nobody wants to be a coder.
 
