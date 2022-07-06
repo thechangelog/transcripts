@@ -30,7 +30,7 @@
 
 **Mat Ryer:** Yeah, that's a good question. I suppose really it's about generally how quickly as a dev team you're delivering things. But obviously, there's been attempts to measure and then use that to predict, and I think there's been some work better than others, but I think it's definitely an interesting subject, and it's not so simple as "You should just do this every time", I don't think.
 
-**Jerod Santo:** \[00:04:11.20\] There's lots of ways that people have tried to measure this right? And predict it even.
+**Jerod Santo:** \[04:11\] There's lots of ways that people have tried to measure this right? And predict it even.
 
 **Mat Ryer:** Yeah.
 
@@ -54,7 +54,7 @@ So it's a terrible time to try and guess how long something's gonna take, isn't 
 
 **Mat Ryer:** Yeah. It's much easier at the end, when you've done it.
 
-**Jerod Santo:** \[00:07:51.03\] Right. So retrospectives are nice. But the pointing sessions for me is the Achilles heel of this entire concept, because it's never right. And not only is it always wrong, but it's inconsistently wrong. Now, this has been my experience. I've heard it back to me as well, so I'm not the only one... Even my own point scores over time changed based on... The wind? I don't know. I couldn't even stay consistent -- because you're like, well, as long as the points are relative, the actual numbers don't matter. But they've gotta explain a range that's relative to other ranges, and they've just been so inconsistent for me that it makes, in my experience, the numbers that come out of the tools that give you your velocity, meaningless. And we all know they're meaningless, but we look at them and we still try to use them to use them to make decisions.
+**Jerod Santo:** \[07:51\] Right. So retrospectives are nice. But the pointing sessions for me is the Achilles heel of this entire concept, because it's never right. And not only is it always wrong, but it's inconsistently wrong. Now, this has been my experience. I've heard it back to me as well, so I'm not the only one... Even my own point scores over time changed based on... The wind? I don't know. I couldn't even stay consistent -- because you're like, well, as long as the points are relative, the actual numbers don't matter. But they've gotta explain a range that's relative to other ranges, and they've just been so inconsistent for me that it makes, in my experience, the numbers that come out of the tools that give you your velocity, meaningless. And we all know they're meaningless, but we look at them and we still try to use them to use them to make decisions.
 
 So I'm kind of -- I get frustrated, because I feel like the numbering is so fraught.
 
@@ -86,7 +86,7 @@ So Noise is a new concept that they are introducing, let's say, that - yes, ther
 
 You know that research that they did, that judges on average would give easier sentences when it's the beginning of the day and after lunch, and harsher sentences right before lunch. This is an example of external noise. Things you cannot measure, you cannot predict. It's not always the same, it's inconsistent and so on.
 
-\[00:12:21.27\] And it's very interesting to think of all this planning and all this velocity in the light of noise. Like, do you always do your sprint meetings at the same time? Does everybody come after lunch? Or if you have a team around the world, then you'll be right before lunch, I'll be right before dinner, dying to call this a day already, so we'll have different reactions to this, right?
+\[12:21\] And it's very interesting to think of all this planning and all this velocity in the light of noise. Like, do you always do your sprint meetings at the same time? Does everybody come after lunch? Or if you have a team around the world, then you'll be right before lunch, I'll be right before dinner, dying to call this a day already, so we'll have different reactions to this, right?
 
 **Jerod Santo:** Yeah. I mean, that might be a good thing, because you won't have consistent bias, or consistent noise. You'd have people in different states of life... I think the judge example is --
 
@@ -132,7 +132,7 @@ So update a URL - that's definitely a one, because that's the simplest task you 
 
 **Mat Ryer:** Yeah.
 
-**Jerod Santo:** \[00:16:15.13\] Now you're in the Hard bucket. And that actually - it's beneficial to take that and split it into easies and mediums. But even that system had its own problems.
+**Jerod Santo:** \[16:15\] Now you're in the Hard bucket. And that actually - it's beneficial to take that and split it into easies and mediums. But even that system had its own problems.
 
 **Natalie Pistunovich:** That's similar to what -- I know it was an approach that if it's eight, it means eight working hours, means it's one day, means that it probably can be broken down into something simpler and smaller. So 13 is a large number. I think most of the methods that I know won't actually accept the 13, but will say "Just break it down into a five and a three.
 
@@ -160,7 +160,7 @@ So I wonder if that tool is calculating your kind of recent velocity and then gi
 
 And by the way, that kind of work is also very easy to measure and then be able to predict on. That's why I think some teams will benefit more from that kind of approach, because just the nature of the work they're doing may be easily sized, and then easily predicted.
 
-**Jerod Santo:** \[00:20:15.24\] Yeah.
+**Jerod Santo:** \[20:15\] Yeah.
 
 **Natalie Pistunovich:** It's also interesting to think about the word velocity. Not in all languages velocity is different from speed. And in physics you use velocity, you don't use speed. And in physics, it makes sense, right? You want to know which way... Because this is the difference between velocity and speed. You have a direction. So physics, it makes sense. But why does this make sense for software, and specifically for Agile?
 
@@ -216,7 +216,7 @@ And by the way, that kind of work is also very easy to measure and then be able 
 
 **Mat Ryer:** I think that's a nice idea. I mean, you could do it by tagging work, and then you'd be able to kind of -- but representing it like that could be really cool; sort of representing that in a 3d way. Because you really are sometimes making the choice of "What are we going to invest in? What's the most important next thing we need?" And if you can visually see that "Well, look, we said that this new public API was very important to us, but we haven't put much time into it over these last--" and you can see that visually, I think that would be very useful.
 
-**Natalie Pistunovich:** \[00:24:29.05\] This wouldn't even make sense of the word velocity. This would be very exciting.
+**Natalie Pistunovich:** \[24:29\] This wouldn't even make sense of the word velocity. This would be very exciting.
 
 **Jerod Santo:** Yeah, it would. It'd be consistent.
 
@@ -248,7 +248,7 @@ And by the way, that kind of work is also very easy to measure and then be able 
 
 **Mat Ryer:** They're gonna have it, yeah. I was gonna say.
 
-**Break:** \[00:25:44.11\]
+**Break:** \[25:44\]
 
 **Jerod Santo:** Did you guys know that the free Copilot train is leaving the station? Did you guys know that? Are you sufficiently hooked ?
 
@@ -308,7 +308,7 @@ And by the way, that kind of work is also very easy to measure and then be able 
 
 **Jerod Santo:** Alright, sorry to derail. Thanks for answering for me. We can go back to velocity now. I've killed the velocity of this conversation...
 
-**Mat Ryer:** \[00:30:15.14\] Velocity...!
+**Mat Ryer:** \[30:15\] Velocity...!
 
 **Jerod Santo:** Let's pick it back up.
 
@@ -332,7 +332,7 @@ One of the things I like is that as things naturally take over and become bigger
 
 **Jerod Santo:** Yeah. How do you convince people of that case, that what we need to flex on is scope? Because the business side of many organizations - they want to flex on anything but that. They kind of want all three - they want quality, speed and scope. But I think given what I've seen, and I think given a lot of people, if you're a manager and you're "Well, what we're going to go ahead and sacrifice is quality, kind of implicitly, because we've got to get it done, and we have to have this feature in, and it's got to be done on time", and so what you're sacrificing is quality, but how do you convince people that's not the best solution? Because that's a hard sell.
 
-**Mat Ryer:** \[00:33:50.24\] It's difficult. And what you're really fighting against, or one of the things you're fighting against is that the sales organization are selling the roadmap very often. So it's already sold. As soon as it hits a roadmap, as soon as there's a hint of an idea. Even if it's next year, they will be talking about it, because they're selling the future, they're selling the roadmap. And that's where things become then a problem, because suddenly then customers sometimes will buy now with an expectation of a feature at a particular time... Fair enough, because they've just been told that. And so then you end up tied like this. So it is a cultural thing that has to be there across the entire organization. I don't believe you can have just an engineering department that is a sort of agile department, but the rest of the organization isn't. I just don't see how that possibly works, because it's all about resources and delivery and sales. The whole thing is wrapped up in each other.
+**Mat Ryer:** \[33:50\] It's difficult. And what you're really fighting against, or one of the things you're fighting against is that the sales organization are selling the roadmap very often. So it's already sold. As soon as it hits a roadmap, as soon as there's a hint of an idea. Even if it's next year, they will be talking about it, because they're selling the future, they're selling the roadmap. And that's where things become then a problem, because suddenly then customers sometimes will buy now with an expectation of a feature at a particular time... Fair enough, because they've just been told that. And so then you end up tied like this. So it is a cultural thing that has to be there across the entire organization. I don't believe you can have just an engineering department that is a sort of agile department, but the rest of the organization isn't. I just don't see how that possibly works, because it's all about resources and delivery and sales. The whole thing is wrapped up in each other.
 
 **Jerod Santo:** Mm-hm. Natalie, have you ever had to have these conversations around cost, time, scope and quality with regards to demands on your work?
 
@@ -364,7 +364,7 @@ So I own this part, I kind of explained why I think I will disagree, and we will
 
 **Mat Ryer:** It sounded like -- there used to be a bleep test thing at school where you'd have to run across the hall, and then just as you reached the other side in time for the next beep. But then the beeps just got faster and faster. So eventually--
 
-**Natalie Pistunovich:** \[00:38:03.09\] Oh, so like Fibonacci. It all comes back to that. It makes a lot of sense.
+**Natalie Pistunovich:** \[38:03\] Oh, so like Fibonacci. It all comes back to that. It makes a lot of sense.
 
 **Mat Ryer:** Yeah. That just took me back to that... Horrible memory.
 
@@ -408,7 +408,7 @@ So I think that approach basically gets you better results, and you can still co
 
 **Mat Ryer:** The set of features, the set of things we're going to do. Like, we're going to add comments to our tool. So it's going to have comments, and reactions and people's profile pictures in there... Now, if as we get underway and we realize we're running out of time, maybe we'll drop the profile pictures; maybe we'll just focus on getting the core functionality. We'll prioritize the most useful stuff first, so that at least gets done. And then now we've released less than what we wanted to, but what we've released still works, and then the next time we do the profile pics. It's really that.
 
-\[00:42:08.05\] But see... So if though you'd said from the beginning we're going to release this and it's going to have your profile pictures on it, and suddenly people are sold on that idea - that's where you have then a difference in the expectations of what people are going to get. That's a silly case, with the profile pictures, but there are real examples where things will fall out of scope, naturally, along the way... And communicating that becomes important, for sure.
+\[42:08\] But see... So if though you'd said from the beginning we're going to release this and it's going to have your profile pictures on it, and suddenly people are sold on that idea - that's where you have then a difference in the expectations of what people are going to get. That's a silly case, with the profile pictures, but there are real examples where things will fall out of scope, naturally, along the way... And communicating that becomes important, for sure.
 
 **Natalie Pistunovich:** So in the scope you define also importance, like priority?
 
@@ -438,9 +438,9 @@ And as long as you can keep the negotiation around that, and both sides understa
 
 **Jerod Santo:** That's where it gets to be -- it can be stressful for both sides, because it's their money, their time.
 
-**Mat Ryer:** \[00:45:49.26\] Yeah, this is why you need that trust. Honestly, if you don't trust the people you're working with, then you just probably shouldn't work with them, basically. The amount of extra work and the constraints you'd have to put in place to make it work... And you end up micromanaging, and... Building software is really hard. It's way more complicated than we even realize. That's why we're always surprised by the nonsense these computers are doing in response to what is perfectly reasonable requests from us poor programmers.
+**Mat Ryer:** \[45:49\] Yeah, this is why you need that trust. Honestly, if you don't trust the people you're working with, then you just probably shouldn't work with them, basically. The amount of extra work and the constraints you'd have to put in place to make it work... And you end up micromanaging, and... Building software is really hard. It's way more complicated than we even realize. That's why we're always surprised by the nonsense these computers are doing in response to what is perfectly reasonable requests from us poor programmers.
 
-Chris James messaged into the show... A friend of the show, Chris James. And Chris James says we should check out \[00:46:29.23\] which shows that you don't actually have to trade speed and quality; they're correlated. And that actually building high-quality software is the route to getting a good feedback, speed of feedback loop, and using great engineering really to achieve those two things. And this is kind of true, right? Like, do less, but do it really well. I think that as a rule has definitely served me well in my career. Not adding all the features everybody wants. If you have space and a bit of spare time in the team built in to just let things happen creatively, the little delightful things that people will build into the software makes it such a joy to use, compared to just boring software. It really makes a difference to people, and your software will be more effective because of that, as well as being more liked, more popular, and hopefully - yeah, they're gonna tweet about it and say, "Oh, look at this feature. It's good, isn't it?"
+Chris James messaged into the show... A friend of the show, Chris James. And Chris James says we should check out \[46:29\] which shows that you don't actually have to trade speed and quality; they're correlated. And that actually building high-quality software is the route to getting a good feedback, speed of feedback loop, and using great engineering really to achieve those two things. And this is kind of true, right? Like, do less, but do it really well. I think that as a rule has definitely served me well in my career. Not adding all the features everybody wants. If you have space and a bit of spare time in the team built in to just let things happen creatively, the little delightful things that people will build into the software makes it such a joy to use, compared to just boring software. It really makes a difference to people, and your software will be more effective because of that, as well as being more liked, more popular, and hopefully - yeah, they're gonna tweet about it and say, "Oh, look at this feature. It's good, isn't it?"
 
 **Jerod Santo:** Is that how you read every tweet in your head?
 
@@ -450,7 +450,7 @@ Chris James messaged into the show... A friend of the show, Chris James. And Chr
 
 **Mat Ryer:** Yeah, I think that's a very good point... You should learn where to spend the time.
 
-**Break:** \[00:48:30.11\]
+**Break:** \[48:30\]
 
 **Mat Ryer:** There's times to go slowly, and that's what experience brings. These are ideas that need to percolate a while; we need to let them settle down and keep thinking about them in the context of what else we're doing, before we just jump into it. And you do learn to them future-proof designs. One example I always use is a boolean field - if you've got like a "is active" field, and it's a boolean true or false, consider what you might achieve in the future, potentially, by replacing that with a status field that's a string, that has active or inactive in there. So yes, it's less efficient, right? Because now it's a string and not a number. But suddenly, you have more options there in the future.
 
@@ -486,7 +486,7 @@ So I tend to kind of be quite future-proof in my designs, because I like to give
 
 **Jerod Santo:** There was a rule I heard, a way of making decisions... Because that's really what this is, like "Do I invest more time here to get it right, or do I do the quick and dirty thing to move on?" or whatever. And he says their team categorizes decisions into two buckets: easy to reverse, and hard to reverse. And if it's easily reversible, well then you just pick a choice and move on. But if it's actually a thing where it's like "If we have to back out of this, it's gonna be a lot of pain. Now let's slow down and spend the extra time." I think that's a useful, scientific way of thinking about it, versus just mere intuition. Natalie, did you have any thoughts?
 
-**Natalie Pistunovich:** \[00:54:16.08\] I think I know what you described as the one-way door or two-way door, the way Jeff Bezos introduced it.
+**Natalie Pistunovich:** \[54:16\] I think I know what you described as the one-way door or two-way door, the way Jeff Bezos introduced it.
 
 **Jerod Santo:** Okay, that's who it was. It was my friend, Jeff Bezos. \[laughter\]
 
@@ -520,7 +520,7 @@ It's most interesting when someone's way off as an outlier, and it's the convers
 
 **Mat Ryer:** Oh, yeah. Should we do it?
 
-**Jingle:** \[00:58:02.25\] to \[00:58:19.00\]
+**Jingle:** \[58:02\] to \[58:19\]
 
 **Mat Ryer:** My unpopular opinion is we should keep estimation sessions, but throw away the estimations. The sessions themselves are great. They're so useful to talk through all the work, get all our ideas out, see where the interest lies, of who's going to maybe do the work, but the estimations are useless, pretty much...
 
