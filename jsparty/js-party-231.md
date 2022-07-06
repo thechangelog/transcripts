@@ -180,7 +180,7 @@ So it was a lot of JavaScript talks... I'm trying to think of the different talk
 
 **Nick Nisi:** That's it, yes.
 
-**Jerod Santo:** Awesome. Yulia was on the show. It would have probably been 18 months ago now. I was super-impressed. I remember emailing afterwards and saying, "You should come back on." She was all about it. And then sometimes these things just never come back together, so maybe that's the prompt that we need to get \[unintelligible 00:15:02.06\] back on the show. She actually works for Mozilla.
+**Jerod Santo:** Awesome. Yulia was on the show. It would have probably been 18 months ago now. I was super-impressed. I remember emailing afterwards and saying, "You should come back on." She was all about it. And then sometimes these things just never come back together, so maybe that's the prompt that we need to get Yulia back on the show. She actually works for Mozilla.
 
 So a couple of cool talks... You were in the hallway track most of the time, and also you were doing this pre show. So tell us about it. What did it turn into? And was it cool? Would you do it again? Was it a was it a flop? Was it stressful, was it amazing? What happened? Did people watch it?
 
@@ -309,11 +309,11 @@ They're not without their problems, because it's a very old city, and several of
 
 **Nick Nisi:** Yeah, for sure. And yeah, it was just kind of, you know, being able to talk about how we try and have fun, we talk about a lot of really cool projects. We have a lot of, you know, the thought leaders from around JavaScript, React, all of that on the show... And yeah, we just like to have a lot of fun. That was really cool.
 
-**Jerod Santo:** \[32:16\] Well, if you were at JS Nation and/or react Summit and you said hi to Nick, shout out to you. I was emailing with Omar from \[unintelligible 00:32:25.12\] who runs the React Brussels Conference, and he happened to be at JS Nation at the time that we were emailing. He's like, "I just saw Nick at the event." So that was kind of cool.
+**Jerod Santo:** \[32:16\] Well, if you were at JS Nation and/or react Summit and you said hi to Nick, shout out to you. I was emailing with Omar from BEJS who runs the React Brussels Conference, and he happened to be at JS Nation at the time that we were emailing. He's like, "I just saw Nick at the event." So that was kind of cool.
 
 **Nick Nisi:** Yeah. That's awesome.
 
-**Jerod Santo:** \[unintelligible 00:32:39.01\] glad you got to see Nick, and I think we'll be working with him as well on some of the stuff that they're up to. So that's cool. \[unintelligible 00:32:46.12\] I think we kind of talked about the travel home... Anything else happened that is like, we could have passed on that? Did you can get food sick, did you know, eat any bad mushrooms or anything? Something poisonous?
+**Jerod Santo:** So what is up Omar? Glad you got to see Nick, and I think we'll be working with him as well on some of the stuff that they're up to. So that's cool. Low lights I think we kind of talked about the travel home... Anything else happened that is like, we could have passed on that? Did you can get food sick, did you know, eat any bad mushrooms or anything? Something poisonous?
 
 **Nick Nisi:** \[laughs\] No, surprisingly, I didn't. I was worried, you know, not having really--
 
@@ -467,7 +467,7 @@ So yeah, definitely check out Jest Preview. We'll have a link in the show notes.
 
 **Nick Nisi:** No, no, you're included in that, for sure. Yeah, I've organized a few conferences, and I was commenting to one of the organizers of React Summit that just like the LED wall that they had for like the TV in the main area - I was like, I think that that's my entire conference budget right there... \[laughter\] So yeah, it was a fantastically put together conference. And as we keep saying, you spoke at it. What did you speak about?
 
-**Raman Lally:** So I was speaking about Apollo Caching, and befriending it. So just like getting a little deeper... You know, things that people get tripped up on, and stuff. It kind of spawned from like - we're moving over to \[unintelligible 00:57:16.07\] Shopify right now. So from client two, which - that was like... You know, client three came out a while ago, like a couple of years ago. But it's pretty mature now, like we're swapping over... But it brings some new features, or whatever. But the conversation came up with like bugs and stuff people ran into. So that's what really got me thinking about it. I was like, "Oh, like, I know a decent bit about this. I'm sure I can help people not run into these things."
+**Raman Lally:** So I was speaking about Apollo Caching, and befriending it. So just like getting a little deeper... You know, things that people get tripped up on, and stuff. It kind of spawned from like - we're moving over to client three Shopify right now. So from client two, which - that was like... You know, client three came out a while ago, like a couple of years ago. But it's pretty mature now, like we're swapping over... But it brings some new features, or whatever. But the conversation came up with like bugs and stuff people ran into. So that's what really got me thinking about it. I was like, "Oh, like, I know a decent bit about this. I'm sure I can help people not run into these things."
 
 **Nick Nisi:** Yeah, super-interesting. I do use Graph QL, although I wouldn't say that I'm much of an expert on it. Just kind of make a query and it works. I haven't thought about it too much. I would like to, because I'm sure that I could be doing things a lot better. But when you say like client two and three, you're talking about like Apollo Client?
 
@@ -483,7 +483,7 @@ So yeah, definitely check out Jest Preview. We'll have a link in the show notes.
 
 **Nick Nisi:** Yeah.
 
-**Raman Lally:** But yeah, I guess it would essentially replace that whole -- like, React Query would instead use a client. But it's more of a lift. I feel like React Query is really light. \[unintelligible 01:00:16.19\] use it wherever you need to. With Client, it's like, you have the context, and it has \[unintelligible 01:00:20.21\] and then you build around it a little bit more, I think.
+**Raman Lally:** But yeah, I guess it would essentially replace that whole -- like, React Query would instead use a client. But it's more of a lift. I feel like React Query is really light. I'm sure you use it wherever you need to. With Client, it's like, you have the context, and it has to wrap your whole app and then you build around it a little bit more, I think.
 
 **Nick Nisi:** Yeah. Okay, one follow-up question... Do you do just one query per file then?
 
