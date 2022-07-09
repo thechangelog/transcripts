@@ -12,7 +12,7 @@
 
 **Jerod Santo:** Here we go.
 
-**Jingle:** \[00:03:48.12\] to \[00:04:02.11\]
+**Jingle:** \[03:48\] to \[04:02\]
 
 **Jerod Santo:** Just when you think that jingle's over, there's a little coup de grâce... Story of the Week. This is where we share various news stories, discuss them, and then rank them by best to worst, or -- I just made that last part up. We just move on after we're done. We don't do the ranking part. Nonetheless, we shall judge your submissions, even if I may have collected the most of these, and just handed them out to people to talk about. So Nick, what did I hand you to talk about today?
 
@@ -56,7 +56,7 @@
 
 **Jerod Santo:** Right. So you just install all the dependencies first, and then ship those to them as one big blob.
 
-**Nick Nisi:** \[00:08:03.00\] Yeah.
+**Nick Nisi:** \[08:03\] Yeah.
 
 **Ali Spittel:** Yeah. I think it says a lot that the Twitter hype cycle doesn't really mirror everything, right?
 
@@ -82,7 +82,7 @@ I think this is interesting in making waves on the internet, because it's basica
 
 So I think in general, I'm a very big proponent of like charging for developer tools, because I think people get locked into this like free open source model, and then it becomes that -- open source is just something that people do on nights and weekends... But there are actually a lot of companies doing this. But then on the other hand, there's this kind of ethical, weird, gray area of -- it's basically just a model trained on everybody else's code, and they're charging for it.
 
-**Jerod Santo:** \[00:11:58.01\] Yeah. Well, I think you probably win this time, because I think this has been the story, as we record, June 23 - this has been the biggest story of this week, with everybody commenting and sounding off their thoughts, whether or not they think it's worth the money, whether or not they think it's ethical of what GitHub/Microsoft have done here etc. Nick, where do you stand?
+**Jerod Santo:** \[11:58\] Yeah. Well, I think you probably win this time, because I think this has been the story, as we record, June 23 - this has been the biggest story of this week, with everybody commenting and sounding off their thoughts, whether or not they think it's worth the money, whether or not they think it's ethical of what GitHub/Microsoft have done here etc. Nick, where do you stand?
 
 **Nick Nisi:** Yeah, it is also kind of an interesting place, because this is a tool that is -- it's not really behind the scenes at all for a developer. It's right there, in your face, all the time, suggesting things to you once you get it set up. So they've been pretty much auto-approving everyone who wants to join the beta... And I think that it's free until August, sometime, as well. It's the classic like drug model - you get a free taste, and it's right there...
 
@@ -130,7 +130,7 @@ I've worked at companies that have had like GitHub Enterprise, or a professional
 
 **Ali Spittel:** Yeah. And I'm also very removed. This is the first time I'm hearing about it too, so...
 
-**Jerod Santo:** \[00:16:08.25\] So you've just found out about it on this show. \[laughs\] You didn't get the memo, okay. So Nick, is this using a OpenAI Codex as well?
+**Jerod Santo:** \[16:08\] So you've just found out about it on this show. \[laughs\] You didn't get the memo, okay. So Nick, is this using a OpenAI Codex as well?
 
 **Nick Nisi:** I don't know. I didn't see that as I was scamming --
 
@@ -166,7 +166,7 @@ There's another one that focuses in on tech blocks. There's one called One Case 
 
 And so all these different ways that you can tweak and change the results, and then save those \[unintelligible 00:20:08.02\] like bookmarks, to kind of invent your own little search engine each time... Which I thought was kind of interesting. What do you think about that?
 
-**Ali Spittel:** \[00:20:17.11\] Yeah, that's really cool.
+**Ali Spittel:** \[20:17\] Yeah, that's really cool.
 
 **Nick Nisi:** Yeah. I have solved this in many ways, not like by tweaking what it returns, but just by hiding what gets returned in other search engines, with like extensions and such. I don't want to name any websites, I guess, that start with W, or 3, or a combination of that...
 
@@ -194,17 +194,17 @@ Okay. Should we do one more? Let's do one more. Ali, close us out here.
 
 **Jerod Santo:** Yeah. Super-innovative, leading the way, especially in like browser, or web tech-based native tools, and the fact that it gained a lot of interest... It was used by many people. I used it for a little while. It was never quite as fast as Sublime Text, just like VS Code isn't either. So it never stuck, but I super-appreciated all the work there. And I agree with you, Nick, as soon as we knew that Microsoft owned GitHub and VS Code was so, so dominant in terms of developer interest, it just didn't really make sense to continue both.
 
-**Nick Nisi:** \[00:23:57.29\] Yeah. But it does look like the team behind Atom have started a new editor written around Rust, and it's called Zed.
+**Nick Nisi:** \[23:57\] Yeah. But it does look like the team behind Atom have started a new editor written around Rust, and it's called Zed.
 
 **Jerod Santo:** Yes. Zed is not dead, despite what hope fiction might tell you... It's also not ready for primetime yet. We had Nathan Sobo on the Changelog years ago talking about Adam, and he's agreed to come back on to talk about Zed when he's ready. And he says Zed is not quite ready yet, so... That'll happen, but we're always interested for people who are innovating in the editor space, because even if you don't use it, that innovation ends up pushing other people to change, adapt, improve their editor, so it will be interesting to watch.
 
-**Break:** \[00:24:43.01\] to \[00:26:23.04\]
+**Break:** \[24:43\] to \[26:23\]
 
 **Jerod Santo:** Alright, we're back. Ali had to hop off during the break because she wasn't feeling well, so feel better, Ali. I hope you're not too sick, and if you can shoot Ali some kind words, she's @aspittle on Twitter. See how she's doing.
 
 Nick and I are going to power through and we're going to share things that we've learned.
 
-**Jingle:** \[00:26:41.06\] to \[00:26:54.27\]
+**Jingle:** \[26:41\] to \[26:54\]
 
 **Jerod Santo:** Do you wanna go first, or do you want me to go first?
 
@@ -218,7 +218,7 @@ And so it goes and makes all the tables in memory, and stuff... And I don't know
 
 So Simon found that out, it's super-cool. I'll share the actual link in the show notes, so you can see the one-liner itself, but... It's one of these things where I was like "Dang, I wish I knew that before." I'm glad I know that now.
 
-**Nick Nisi:** \[00:28:16.17\] Yeah, that's awesome.
+**Nick Nisi:** \[28:16\] Yeah, that's awesome.
 
 **Jerod Santo:** One thing I do often for -- is it JS Danger? No, it's for Frontend Feud, is we get all of the responses in via Typeform. And then Typeform allows you to export to CSV, or .xlsx, or whatever. Actually, I think it is a CSV. And then I'll open that up with numbers, and I will clean it up and normalize... Because we're trying to aggregate - in the case of a survey like that for Frontend Feud, we're trying to aggregate the top answers. But it's always a text field. It has to be. Like if we say, "Where do you go to code when you're not at home?" we can't provide dropdowns. It has to be free text. And so we get back ridiculous differences. So there's like this normalization step, where it's like maybe you said, "I go to the beach" and then somebody else just wrote "beach." It's like, well, those are both beach. But one of them said, "I go to the beach", and the other one said "Beach", right?
 
@@ -260,7 +260,7 @@ So there's like this data cleansing process that I go through and just kind of l
 
 **Jerod Santo:** But if you take the contents of your file, like \[unintelligible 00:32:06.21\] file and send that to fzf, now you're searching word for word, or whatever.
 
-**Nick Nisi:** \[00:32:14.09\] Yeah, exactly. I do do that through -- I use a tool called ripgrep to find things. It's like a Rust based, you know, ack, or Silver Searcher, or one of those variants; like a beyond grep, not better than grip. And you just pipe the results.
+**Nick Nisi:** \[32:14\] Yeah, exactly. I do do that through -- I use a tool called ripgrep to find things. It's like a Rust based, you know, ack, or Silver Searcher, or one of those variants; like a beyond grep, not better than grip. And you just pipe the results.
 
 **Jerod Santo:** Well, they're trying to be better than grep though, right? Otherwise what's the point.
 
@@ -312,7 +312,7 @@ So there's like this data cleansing process that I go through and just kind of l
 
 **Jerod Santo:** The answer to the question is angry. He's angry.
 
-**Nick Nisi:** \[00:36:16.07\] Yeah. \[laughs\]
+**Nick Nisi:** \[36:16\] Yeah. \[laughs\]
 
 **Jerod Santo:** Because you like TypeScript, but you don't have a healthy relationship with Java.
 
@@ -344,7 +344,7 @@ Okay, so that's your hot take, it makes you a little angry. But you thought that
 
 **Nick Nisi:** Alright, you've acquitted yourself quite well. Take that, Mikeal Rogers. They're different, okay? Nick Nisi says so. Alright, let's take the next break. We'll be right back.
 
-**Break:** \[00:38:49.17\] to \[00:40:25.23\]
+**Break:** \[38:49\] to \[40:25\]
 
 **Jerod Santo:** Alright, we're gonna close up this conversation with a fun little segment where we just share things that excite us currently. So we call this "I'm excited about X", where X is literally anything. Nick, what are you excited about these days?
 
@@ -392,7 +392,7 @@ Okay, so that's your hot take, it makes you a little angry. But you thought that
 
 **Jerod Santo:** Okay.
 
-**Nick Nisi:** \[00:44:05.28\] But they also have one that's like the story of CD Projekt, Red, or a Half-Life documentary... And it's not just like them documenting themselves playing a game... For the Doom one, they went to id Software, and they interviewed John Romero, and talked about what went into it. And they talked to the composer of the music. I think Mick Gordon is his name. And just talked about what went into that.
+**Nick Nisi:** \[44:05\] But they also have one that's like the story of CD Projekt, Red, or a Half-Life documentary... And it's not just like them documenting themselves playing a game... For the Doom one, they went to id Software, and they interviewed John Romero, and talked about what went into it. And they talked to the composer of the music. I think Mick Gordon is his name. And just talked about what went into that.
 
 And as I've been playing games, because I'm very late to the video game scene, I've been watching these Noclip documentaries for these games that have been out for years that I'm just now getting around to, and it's just a fun supplemental to it. And I'm just fascinated by the stories that go into how those games get made, how they get the voice actors that they want...
 
@@ -432,7 +432,7 @@ And so Kan Jam - we'll link up the main website, if you haven't heard of it. It'
 
 **Jerod Santo:** So if you are into LoFi music while you're coding or while you're writing or while you're studying, or whatever you're doing, there's always playlists on Spotify, and there's YouTube channels that are just like 12 hours of LoFi, right? Well, lofi.co is an in-browser experience where you can set up different circumstances... So it's like a cool coffee shop, and it's all hand-drawn and kind of animated, or it's like a street corner... And you can play LoFi music, as well as like turn on rain, and traffic, and people typing... And just right there in a browser tab craft your own environment for productive work in the browser. You can also upgrade for like 20 more scenes, and sign up, and blah, blah, blah... I haven't done any of that. I just load up lofi.co, hit Play, turn on the rain, and forget about it. Very exciting.
 
-\[00:48:25.08\] I think potentially they can turn this into a money-making endeavor. Pretty cheap, it's like three bucks a month, or $100 for lifetime access. It gets you like wallpapers, a Pomodoro timer, a notepad... Stuff that I don't really care about, but like cool add-ons to support their work. And it's just a really cool in-browser little web app that plays LoFi music for you.
+\[48:25\] I think potentially they can turn this into a money-making endeavor. Pretty cheap, it's like three bucks a month, or $100 for lifetime access. It gets you like wallpapers, a Pomodoro timer, a notepad... Stuff that I don't really care about, but like cool add-ons to support their work. And it's just a really cool in-browser little web app that plays LoFi music for you.
 
 **Nick Nisi:** Yeah, that's really cool. I have never really coded to LoFi music...
 
@@ -486,7 +486,7 @@ And so Kan Jam - we'll link up the main website, if you haven't heard of it. It'
 
 **Jerod Santo:** That's kind of interesting. A little weird, I'm not gonna lie, a little bit weird... But you know, whatever floats your boat, whatever gets you productive, I guess.
 
-**Nick Nisi:** \[00:52:01.04\] That's the thing though. I love that there's so many different ways to, like...
+**Nick Nisi:** \[52:01\] That's the thing though. I love that there's so many different ways to, like...
 
 **Jerod Santo:** Cope?
 
