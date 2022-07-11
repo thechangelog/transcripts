@@ -32,12 +32,8 @@ I tell people this all the time when they ask me for business advice. I'll still
 
 That's the news for now... Do you dig it? Do you hate it? Let us know in the comments, or tweet at Changelog.
 
-**David Starsky:**
+**David Starsky:** [Seriously, do it. Do it!](https://www.youtube.com/watch?v=K4eScf6TMaM)
 
-[Seriously, do it. Do it!](https://www.youtube.com/watch?v=K4eScf6TMaM)
-
-**Jerod Santo:**
-
-You'll hear from us again on Friday, when Adam and I talk to James Long about his journey building Actual, a personal finance system as a business for four years before deciding to make it 100% free and open source forever.
+**Jerod Santo:** You'll hear from us again on Friday, when Adam and I talk to James Long about his journey building Actual, a personal finance system as a business for four years before deciding to make it 100% free and open source forever.
 
 Talk to you then!
