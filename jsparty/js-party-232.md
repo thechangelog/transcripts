@@ -70,7 +70,7 @@ What was interesting to me is like in this tech scene, which you all talked abou
 
 **Ali Spittel:** Yeah. There's a pretty good chance, I would say. Normally, these announcements come after they get all the legal approvals and all that, and it was already on paper quite a few months ago. At least that's been my experience working at different startups, is that you hear about these things way after they happen internally.
 
-**Jerod Santo:** Which is great timing for the team, and it hopefully gives them a good runway to continue to build new stuff... Because they are consistently putting stuff out, and so \[unintelligible 00:10:30.06\]
+**Jerod Santo:** Which is great timing for the team, and it hopefully gives them a good runway to continue to build new stuff... Because they are consistently putting stuff out, and so this'll probably carry them through.
 
 Alright, there you have it, Deno raising money, building cool stuff, and time will tell. Are you using Deno? Are you checking it out? Holler at us, @JSPartyFM on Twitter, or reply in the comments. We'd love to hear from people who are actually using it. Maybe they've left Node, and now they just reach for Deno every time. We'd love to hear from you.
 
@@ -152,7 +152,7 @@ I've worked at companies that have had like GitHub Enterprise, or a professional
 
 **Ali Spittel:** Bad code.
 
-**Nick Nisi:** \[unintelligible 00:17:28.11\] I was writing a shell script just two days ago, and in the shell script I wrote a comment like "Now I'm going to clean up the home directory", with like all of the extra files added in there, and it suggested a function that was literally \[unintelligible 00:17:42.06\] So there's lots of bad code out there.
+**Nick Nisi:** I prompted, I was writing a shell script just two days ago, and in the shell script I wrote a comment like "Now I'm going to clean up the home directory", with like all of the extra files added in there, and it suggested a function that was literally rm/rf$home So there's lots of bad code out there.
 
 **Jerod Santo:** So you ran that, and then what happened?
 
@@ -164,7 +164,7 @@ Alright, moving on... We have our third story. This one I thought was kind of co
 
 There's another one that focuses in on tech blocks. There's one called One Case Short, where instead of showing like the 1000 biggest sites that it hits, it shows you the 1000 smallest sites.
 
-And so all these different ways that you can tweak and change the results, and then save those \[unintelligible 00:20:08.02\] like bookmarks, to kind of invent your own little search engine each time... Which I thought was kind of interesting. What do you think about that?
+And so all these different ways that you can tweak and change the results, and then save those off as sort of like bookmarks, to kind of invent your own little search engine each time... Which I thought was kind of interesting. What do you think about that?
 
 **Ali Spittel:** \[20:17\] Yeah, that's really cool.
 
@@ -258,7 +258,7 @@ So there's like this data cleansing process that I go through and just kind of l
 
 **Nick Nisi:** Yeah, exactly.
 
-**Jerod Santo:** But if you take the contents of your file, like \[unintelligible 00:32:06.21\] file and send that to fzf, now you're searching word for word, or whatever.
+**Jerod Santo:** But if you take the contents of your file, like if you cat a .ts file and send that to fzf, now you're searching word for word, or whatever.
 
 **Nick Nisi:** \[32:14\] Yeah, exactly. I do do that through -- I use a tool called ripgrep to find things. It's like a Rust based, you know, ack, or Silver Searcher, or one of those variants; like a beyond grep, not better than grip. And you just pipe the results.
 
@@ -316,7 +316,7 @@ So there's like this data cleansing process that I go through and just kind of l
 
 **Jerod Santo:** Because you like TypeScript, but you don't have a healthy relationship with Java.
 
-**Nick Nisi:** Yeah. My only Java experience is working on a \[unintelligible 00:36:23.27\] application, which was not fun. I quickly went over to the JavaScript side, because I didn't want to -- I just did not like it at all.
+**Nick Nisi:** Yeah. My only Java experience is working on a struts 1 application, which was not fun. I quickly went over to the JavaScript side, because I didn't want to -- I just did not like it at all.
 
 **Jerod Santo:** I used Java just enough to know that I never want to use this language again, and I quickly went to other things, and stayed elsewhere, and have managed to avoid it my entire career since that point. And so that's also my tactic with TypeScript... \[laughter\]
 
@@ -326,7 +326,7 @@ Okay, so that's your hot take, it makes you a little angry. But you thought that
 
 **Jerod Santo:** Okay, so there's your hot take. He doesn't know. He's angry, he doesn't know.
 
-**Nick Nisi:** You get the benefits of -- like, to write TypeScript, what do I have to know? I have to know how to use Node a lot. I have to know JavaScript. It's not going to save you from learning JavaScript. You know what I don't have to know? I don't have to know Maven, I don't have to know Gradle. I don't have to \[unintelligible 00:37:32.29\] string array... I don't have to know any of that. I just start writing a script, and if I want to add some types to it, I add some types, and it makes it better for me when I come back to it, for sure... But all of those bad things aren't there, so... I've come around; I also think that TypeScript has gotten a lot better with its tooling. It was pretty rough in the 1.0 days, for sure.
+**Nick Nisi:** You get the benefits of -- like, to write TypeScript, what do I have to know? I have to know how to use Node a lot. I have to know JavaScript. It's not going to save you from learning JavaScript. You know what I don't have to know? I don't have to know Maven, I don't have to know Gradle. I don't have to public static void main, args string array... I don't have to know any of that. I just start writing a script, and if I want to add some types to it, I add some types, and it makes it better for me when I come back to it, for sure... But all of those bad things aren't there, so... I've come around; I also think that TypeScript has gotten a lot better with its tooling. It was pretty rough in the 1.0 days, for sure.
 
 **Jerod Santo:** Can you tell me what you'd have to type in TypeScript in order to export a default function that has a certain return value, or something? What would that be?
 
@@ -364,7 +364,7 @@ Okay, so that's your hot take, it makes you a little angry. But you thought that
 
 **Jerod Santo:** So they are practiced at this. It's like a professional video team. This is like a documentary, right? I mean, you could throw it on Netflix. Netflix for programmers... which is basically YouTube, I guess. \[laughs\]
 
-**Nick Nisi:** And they go like all over the world for these, to put these together. As far as YouTube videos go, it's a high budget YouTube video. They went and interviewed \[unintelligible 00:42:23.19\] formerly of the TypeScript team, and they interviewed him in his office at home, and you could see how he works, you could see how other folks in their offices work, and it's just a really high-quality documentary.
+**Nick Nisi:** And they go like all over the world for these, to put these together. As far as YouTube videos go, it's a high budget YouTube video. They went and interviewed Orta Therox, formerly of the TypeScript team, and they interviewed him in his office at home, and you could see how he works, you could see how other folks in their offices work, and it's just a really high-quality documentary.
 
 **Jerod Santo:** And they take a long time to produce as well. I know when we had Rich Harris on the show last, which I'm just frantically searching to find out when it was... Back in December, episode 205, "So much Svelty goodness", Amelia and Amal were on that episode. And when we were recording it, Amelia had already been interviewed for this.
 
