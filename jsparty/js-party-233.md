@@ -6,7 +6,7 @@
 
 **Jessica Sachs:** What's up?! Glad to join the party.
 
-**Jerod Santo:** Happy to have you at the party, and shout-out to our new friend, \[unintelligible 00:02:30.12\] Pretty cool. Jess, you are a staff engineer at Cypress, you lead the development of Cy Component Test Runner, you're a Vue team member, you're a maintainer of Faker.js, you're doing all sorts of cool stuff. Where should we start with you?
+**Jerod Santo:** Happy to have you at the party, and shout-out to our new friend, Hung Win for connecting us. Thanks Hung. Pretty cool. Jess, you are a staff engineer at Cypress, you lead the development of Cy Component Test Runner, you're a Vue team member, you're a maintainer of Faker.js, you're doing all sorts of cool stuff. Where should we start with you?
 
 **Jessica Sachs:** Let's start at Faker.
 
@@ -90,7 +90,7 @@ So Faker is in very good hands it sounds. I mean, the core team has like nine pe
 
 **Jerod Santo:** ...and it's not like you think about it constantly, like "Ah, I need keep this thing up to date", unless there's like some sort of fake data you wish you could generate, that you can't, and you're like "Well, I wish I had this feature" and then you're like "Well, I'll go check the updates." And then you're like "Wait a second, this thing hasn't updated for nine months." And then you maybe google it, find the new one etc. So it makes sense that a lot of people are probably still on that old npm package.
 
-**Jessica Sachs:** Yeah. I have a lot of old example repositories that are using the Faker just as one word. I yesterday installed the old version \[unintelligible 00:15:29.19\] It is what it is. I mean, over time we think the downloads will drop off. The fact that we have documentation is probably a big draw for people to use it...
+**Jessica Sachs:** Yeah. I have a lot of old example repositories that are using the Faker just as one word. I yesterday installed the old version accidentally. It is what it is. I mean, over time we think the downloads will drop off. The fact that we have documentation is probably a big draw for people to use it...
 
 **Jerod Santo:** \[laughs\] I think that's a nice feature to have.
 
@@ -226,7 +226,7 @@ Sometimes - like, let's take a data table where you have to use a particular row
 
 **Jessica Sachs:** One of the things you have to be good at when you're building test runners that are like mainly browser-based is exploits of the web. And in particular iFrames. You have to really know yourself with iFrames. And before working at Cypress, I worked at that ad tech company, and I've done some very bad things on the web to make pop-ups happen. Some very morally questionable things.
 
-**Jerod Santo:** Ooh... And \[unintelligible 00:37:43.09\] you for so long. \[laughs\]
+**Jerod Santo:** Ooh... And here I liked you for so long. \[laughs\]
 
 **Jessica Sachs:** I mean, I don't work there anymore. And the company's gone, so...
 
@@ -268,7 +268,7 @@ So instead of having this very domain-coupled environment... Like, your applicat
 
 **Jerod Santo:** You mentioned Histoire... And I just stop on that word and I just think, "Histoire..." What is this? Help us understand.
 
-**Jessica Sachs:** Yeah, Histoire... It's the French word for story. And it was built by one of the Vue core team members \[unintelligible 00:42:39.09\] is his name on GitHub and on Twitter. Basically, we wanted to make a Vite-based Storybook alternative that embraced single-file components, and gave a very natural DSL for building out stories. So instead of having the normal storybook API that you might be used to, it allows you to define multiple variants and stories by using components inside of your single-file component.
+**Jessica Sachs:** Yeah, Histoire... It's the French word for story. And it was built by one of the Vue core team members Guillaume or Akryum is his name on GitHub and on Twitter. Basically, we wanted to make a Vite-based Storybook alternative that embraced single-file components, and gave a very natural DSL for building out stories. So instead of having the normal storybook API that you might be used to, it allows you to define multiple variants and stories by using components inside of your single-file component.
 
 In Vue, for example you have let's say three different sections. You have a template, which defines markup, you have a script, which defines business logic and runtime code, and you have a style block. And you would also now have the ability to now have a story tag, for example. And so Histoire was very friendly towards Vue users - it was written by a Vue core team member - and Svelte users, for example. So the DSL I think will be very natural for those kinds of users, that don't use JSX all the time.
 
@@ -380,7 +380,7 @@ I would also say that remote workshops and stuff - I think I would like to do mo
 
 **Jerod Santo:** Well, we'll have the links to Jessica's Twitter account, as well as her website, and not her email... But everything else will be in your show notes, as well as all of the things discussed on this particular episode. So check the notes for links to Histoire, to some stuff with Marak, to the JS Party 210, to component-driven user interfaces... All the things. Svelte Summit as well...
 
-**Jessica Sachs:** Put the Neopets HTML \[unintelligible 00:55:09.25\]
+**Jessica Sachs:** Put the Neopets HTML guide there too
 
 **Jerod Santo:** Yeah, hook us up with the link to that guy. There it is, it's coming into the chat. We'll put that in the show notes, for sure. On behalf of Kball, I'm Jerod, and this has been JS Party. Thanks again, Jess. You're welcome back anytime. That's our show for this week. We'll talk to you all next time.
 
