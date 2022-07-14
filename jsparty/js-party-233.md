@@ -22,7 +22,7 @@
 
 **Jessica Sachs:** There was a hoopla.
 
-**Jerod Santo:** \[00:04:07.15\] ...back in, I think, January?
+**Jerod Santo:** \[04:07\] ...back in, I think, January?
 
 **Jessica Sachs:** Yeah, January... Was it 4th? Yeah, I think it was January 4. It wasn't January 6th; that day would be cursed. But yeah, I had just taken a break from Cypress, where I worked full-time; I kind of burned out for a minute... And I opened up my laptop and it was like somebody DMed me. He goes by Shini -- Shinigami. He DMed me and was "Hey, did you hear about this?" And Marak had deleted the repository of my favorite library. I used Faker all the time, and I was "Oh, no. What am I going to do with all this free time I have? I guess I could be part of this effort to make sure this package doesn't die, so my workflow can live." So I went ahead and got involved with the community maintainership that surrounded Faker. I don't know how deep -- where do we want to go with this? It ended up being on top of Hacker News, which is crazy.
 
@@ -42,7 +42,7 @@ I was responsible for all of the public communication, and reaching out to Open 
 
 **Jessica Sachs:** I don't know. It's a very interesting philosophical question. It's like, the people that were doing that were generally in the payer/maintainers camp. When I say payer/maintainers camp, they believe in open source. And here are this team of eight really accomplished open source developers - like, I'd been professionally writing open source code for an open source company, for Cypress, for two years at that point. And I had a Vite core team member with me, and then two other team members at the time... And everybody had experience in open source. Somebody would say something like "Inexperienced, random people just come in and take over the project." And I was like "If anything, we're not inexperienced in open source. This is our job. The reason we're interested in this package is it's our primary... We use it day to day. I teach Faker when I give workshops. Like, I teach this. I have a vested interest in making sure it goes well." I don't know why people who care about open source were very much against it. That was always confusing to me.
 
-**Jerod Santo:** \[00:08:21.12\] So I'm very much -- I'm pro open source. I'm for that continuing to exist, and I have been; my career has very much been built around and on open source technology, working with open source people... And so these are very much my people. And I feel like I understand a lot of that dynamic. I think maybe where I'll be like "Okay, where could they potentially be rubbed the wrong way?" and maybe it was just like -- maybe the name not changing, or something like maybe "Why don't you just have a new name, or something?"
+**Jerod Santo:** \[08:21\] So I'm very much -- I'm pro open source. I'm for that continuing to exist, and I have been; my career has very much been built around and on open source technology, working with open source people... And so these are very much my people. And I feel like I understand a lot of that dynamic. I think maybe where I'll be like "Okay, where could they potentially be rubbed the wrong way?" and maybe it was just like -- maybe the name not changing, or something like maybe "Why don't you just have a new name, or something?"
 
 **Jessica Sachs:** Exactly.
 
@@ -62,13 +62,13 @@ We kept the name, because that's the name of the concept, not the name of -- and
 
 It's very difficult... You guys are actually very learned on this topic, before coming on the podcast. Most people don't know. I was running Vue Boston yesterday, and I talk about Faker whenever I talk about component-driven development. And most people were not with it; they hadn't followed it, as the saga unfolded.
 
-**Jerod Santo:** \[00:12:10.22\] Right. Well, we did do a show on it back in the time... I think it was called "What's in your package.json?" And we didn't specifically -- we kind of avoided some of the nitty-gritty details of Marak and Faker itself, and used that as a launching point for a larger conversation with Tobie Langel, who's an open source strategist. Chris was on that show, Feross, and Amal... So that's a good one to go back for people who maybe missed it and wanted to hear not just the details of the drama, or the saga, but also some of the struggles that we have as a community, open source writ-large, and some of the ideas around how we can work together and work with corporates and work with the community to maybe bridge some of these gaps that are in our ecosystem, mostly around sustainability. So that's episode 210. We'll just put that in the show notes for folks who want a little deeper dive. Of course, we didn't have anybody from the community maintainer team there that day, but we have you here today.
+**Jerod Santo:** \[12:10\] Right. Well, we did do a show on it back in the time... I think it was called "What's in your package.json?" And we didn't specifically -- we kind of avoided some of the nitty-gritty details of Marak and Faker itself, and used that as a launching point for a larger conversation with Tobie Langel, who's an open source strategist. Chris was on that show, Feross, and Amal... So that's a good one to go back for people who maybe missed it and wanted to hear not just the details of the drama, or the saga, but also some of the struggles that we have as a community, open source writ-large, and some of the ideas around how we can work together and work with corporates and work with the community to maybe bridge some of these gaps that are in our ecosystem, mostly around sustainability. So that's episode 210. We'll just put that in the show notes for folks who want a little deeper dive. Of course, we didn't have anybody from the community maintainer team there that day, but we have you here today.
 
 So Faker is in very good hands it sounds. I mean, the core team has like nine people maintaining it... That's great.
 
 **Jessica Sachs:** Yeah.
 
-**Jerod Santo:** And it's been actively maintained, documented, rearchitected... Was there any sort of mechanical change for users of Faker? Like, did you just have the Npm repo takeover, or did you have to say, "Hey, update your package.json and point to the new Faker?" How about people that were using it at the time? Was there a hiccup at all?
+**Jerod Santo:** And it's been actively maintained, documented, rearchitected... Was there any sort of mechanical change for users of Faker? Like, did you just have the npm repo takeover, or did you have to say, "Hey, update your package.json and point to the new Faker?" How about people that were using it at the time? Was there a hiccup at all?
 
 **Jessica Sachs:** We had a major version bump where we changed how you import it. So we supported named exports all of a sudden, instead of just CJS. So there was that... And then previously, the way the bundle was exported, like - as was the fashion when Marak wrote it, we would build a browser bundle that you could just import from a CDN. But that isn't how most people use it. Most people use it as like a require time Node side package. So we changed some of those things, on how you just import it to start. That was the only big, big breaking change, and then all the types are now bundled, so you got to delete a line from your package.json, which I always find satisfying.
 
@@ -76,7 +76,7 @@ So Faker is in very good hands it sounds. I mean, the core team has like nine pe
 
 **Jessica Sachs:** Yeah.
 
-**Kevin Ball:** I was noticing... It looks like Marak's package is still on Npm somewhere...
+**Kevin Ball:** I was noticing... It looks like Marak's package is still on npm somewhere...
 
 **Jessica Sachs:** Yeah.
 
@@ -88,7 +88,7 @@ So Faker is in very good hands it sounds. I mean, the core team has like nine pe
 
 **Kevin Ball:** And you don't update.
 
-**Jerod Santo:** ...and it's not like you think about it constantly, like "Ah, I need keep this thing up to date", unless there's like some sort of fake data you wish you could generate, that you can't, and you're like "Well, I wish I had this feature" and then you're like "Well, I'll go check the updates." And then you're like "Wait a second, this thing hasn't updated for nine months." And then you maybe google it, find the new one etc. So it makes sense that a lot of people are probably still on that old Npm package.
+**Jerod Santo:** ...and it's not like you think about it constantly, like "Ah, I need keep this thing up to date", unless there's like some sort of fake data you wish you could generate, that you can't, and you're like "Well, I wish I had this feature" and then you're like "Well, I'll go check the updates." And then you're like "Wait a second, this thing hasn't updated for nine months." And then you maybe google it, find the new one etc. So it makes sense that a lot of people are probably still on that old npm package.
 
 **Jessica Sachs:** Yeah. I have a lot of old example repositories that are using the Faker just as one word. I yesterday installed the old version \[unintelligible 00:15:29.19\] It is what it is. I mean, over time we think the downloads will drop off. The fact that we have documentation is probably a big draw for people to use it...
 
@@ -100,7 +100,7 @@ So Faker is in very good hands it sounds. I mean, the core team has like nine pe
 
 **Jessica Sachs:** During the transfer, I've been kind of like searching through to make sure I get this person's name right... I would like to say that Indeed is our biggest sponsor by far, and they were with us the whole time when we did the Open Collective transfer. And you were talking about the previous episode, and the problems that open source has as a community, and the Open Collective was probably the biggest point of tension, and making sure we transferred all of the outstanding balance to Marak. That was really hairy. We were a little bit afraid of getting that wrong. And I wanted to say that Indeed themselves, really, they were the biggest sponsor, and they were like "Two thumbs up. We're very glad that you're doing this." I was very happy for that.
 
-**Break:** \[00:16:38.05\]
+**Break:** \[16:38\]
 
 **Jerod Santo:** It seems like what you're most passionate about these days is testing, specifically component testing, or I think you said pre-show component-driven testing, or component testing driven development; I don't know what you said, but it was something to do with being driven. So drive us down the road a bit about component testing...
 
@@ -120,7 +120,7 @@ So Faker is in very good hands it sounds. I mean, the core team has like nine pe
 
 **Jessica Sachs:** Yeah. I don't like testing, but I also am in it for the satisfaction. So there's something called component-driven development. If you go to component-driven.org, you'll see a website that defines an open standard called CSF, the Components Story Format, and it talks about this world in which you can drive your development starting at the smallest little buttons and inputs and stuff, all the way up to a page. And you build in isolation these components, and then when you stitch them all together, you end up with the website, in theory. And that was championed by mostly the Storybook team, that opens standard. And that is what I get excited for. And in particular, the fact that Cypress or a browser-based test runner gives you the ability to mount this component in this little sandbox, and drive its development to completion, and then it's accidentally testable. That's what I like. It's like, after you finish your work, or maybe you scaffold out the blocks, the little tests, but you don't really do anything in them - after you finish all the CSS and whatever in your sandbox, you can just add .click, .get, and build out this test almost immediately. That feels really good, that I have to do so little work to get test coverage... And it's so satisfying to like see it, click and tap and move. That's what gets me. That's what I like about component-driven development, and then component testing in the modern age.
 
-**Kevin Ball:** \[00:22:32.09\] Can you explain a little bit more what you mean by "accidentally testable"?
+**Kevin Ball:** \[22:32\] Can you explain a little bit more what you mean by "accidentally testable"?
 
 **Jessica Sachs:** Accidentally testable - it surprises you how little work it takes to test after you get it mounted. I like to break down component testing into three phases. It's get the thing on the page, mounted; that's phase one, is like get it on the page. Interact with it - click it, get it, get different elements, buttons, whatever, and then assert that it looks the way it's supposed to. Like, make sure that the overlay is closed when you hit the X button. So those are the three phases. So mounting it is the hardest part, and getting it and interacting with it, and then asserting on it - that's the easy stuff. But mounting it is the hardest part; making sure that it's like rendering properly, with all the props, events, whatever you want your components API to be. That's the hard part that everybody struggles with. Once it's mounted, once it's built, everything else is like cake, and it's accidental almost how easy it is to do. That makes me happy.
 
@@ -138,7 +138,7 @@ So Faker is in very good hands it sounds. I mean, the core team has like nine pe
 
 **Jessica Sachs:** You could, in theory, do unit-testy things in that environment. But the component test runner in Cypress was built for component development. And the things that are coming down the pipeline are built for component library authors. So things like changing right to left, or left to right. You know, I work with Wikimedia on occasion, because they switched to Vue, and I do component development stuff... So I get a ping every once in a while, and they show me what they're doing with their component workflow... And so I was like "Here's Cypress. Let me help you out."
 
-\[00:25:59.03\] Because naturally, your intuition is to build a harness -- as a developer, when you're trying to build a component library, your intuition is to build a harness that allows you to play with your components in certain ways. And that's what Wikimedia did, you know, without any of my opinions. They built a website that allows you to play with your components, and change languages, change the flow of the page from left to right, to right to left, change into dark mode, stuff like that. And that's the stuff that I hope is coming down the pipeline at Cypress over time. And these are things that Storybook already has support for via plugins. It's a shared problem, I think.
+\[25:59\] Because naturally, your intuition is to build a harness -- as a developer, when you're trying to build a component library, your intuition is to build a harness that allows you to play with your components in certain ways. And that's what Wikimedia did, you know, without any of my opinions. They built a website that allows you to play with your components, and change languages, change the flow of the page from left to right, to right to left, change into dark mode, stuff like that. And that's the stuff that I hope is coming down the pipeline at Cypress over time. And these are things that Storybook already has support for via plugins. It's a shared problem, I think.
 
 **Jerod Santo:** So if component testing is at least conceptually akin to unit testing, where you're isolating... You're isolating a single; in this case, your unit is your component, right? So you're isolating, and then you have end-to-end testing, which is like, you know, fire up the whole page, and drive at everything... Is there an in-between land where you're maybe doing like a multiple-component integration? Are these things so isolated that you don't have to do that? Or do you still need to test the interaction between multiple components? Because I imagine they're nested, right? I don't just imagine, I know in many cases they're nested. And so this one is affected by its parent, or by its children, etc.
 
@@ -154,7 +154,7 @@ Sometimes - like, let's take a data table where you have to use a particular row
 
 **Jessica Sachs:** Yeah... So the first thing is that when I write component tests, I barely look at the source code. So I look at what the user sees, where the user, if it's a very technical, like if it's a -- where the user is first, the end user. So I pretend that I'm not a developer; I pretend that I'm completely non-technical, and I look literally at the screen, at the component. And I might look at the network tab as the ins and outs of it. If we have, let's say, a product list that infinitely loads products when you scroll to the bottom - let's take that - I would use my eyes, look at the page, and say I get a page worth of data, and then I scroll to the bottom, it should show a spinner when I get to the bottom of the page. That's a test. After, it should eventually resolve, and then it should make a network request. I don't test that it should make a network request, I set up the environment such that the network request will return. Cypress has the ability to do this, so does Mock Service Worker, if you're not using Cypress. I make sure the server will respond - the fake server, basically - and then eventually I should get another list of products, if I have stubbed out the environment. That's generally the kind of test I write.
 
-\[00:30:07.28\] So I'm not thinking about how the code is written... You can actually -- you can barely tell the difference between a Vue component test and a React component test that I've written, which is another good way to think of it - it's a complete blackbox. I view that as a very healthy sign.
+\[30:07\] So I'm not thinking about how the code is written... You can actually -- you can barely tell the difference between a Vue component test and a React component test that I've written, which is another good way to think of it - it's a complete blackbox. I view that as a very healthy sign.
 
 **Jerod Santo:** Yeah, implementation details are just the details, right? What you're testing is the functionality, or the way that it looks, and works. And if you write your tests against the innards, then you're writing brittle tests, and you're gonna rewrite those tests when you decide to swap out those implementation details. So that's very wise.
 
@@ -200,7 +200,7 @@ Sometimes - like, let's take a data table where you have to use a particular row
 
 **Jessica Sachs:** It was like 2000-2001. It was all Flash games... Kids like me...
 
-**Break:** \[00:34:12.01\] to \[00:36:18.09\]
+**Break:** \[34:12\] to \[36:18\]
 
 **Jessica Sachs:** My favorite thing about the Neopets HTML guide was the audio segment. It's like, you could do so many annoying things... And cursors. Custom cursors and audio - those are the tags that I miss the most. You would have a shop... You could make your own little shopkeeper, and theme it with backgrounds and stuff... I very much miss the ability to put obnoxious things on the web
 
@@ -232,7 +232,7 @@ Sometimes - like, let's take a data table where you have to use a particular row
 
 **Jerod Santo:** Okay... So all is well that ends well, I guess. But what are some of the iFrame gotchas? Or do you currently have any zero days you want to share? \[laughter\]
 
-**Jessica Sachs:** \[00:38:01.25\] You want a release...? No, there was one guy like - bless him for fighting back, because I was such a junior developer; I had no morals, I did not have a seat at the table at the time in my career... And it was a very important time. But the worst thing I did - and there's this Chrome guy that kept patching all of it, so we're good; like, none of us a zero day. But we did a pop-under technique, which is like when you close your window, it's behind, and we did pop-under technique that utilized alerts in PDFs. So you would click on the browser, it would attempt to open a PDF, and refocus using alert. It was a terrible thing... But some very nice guy on the Chromium team was patching all of, so... He kept me employed, and then also, I don't feel that bad about it.
+**Jessica Sachs:** \[38:01\] You want a release...? No, there was one guy like - bless him for fighting back, because I was such a junior developer; I had no morals, I did not have a seat at the table at the time in my career... And it was a very important time. But the worst thing I did - and there's this Chrome guy that kept patching all of it, so we're good; like, none of us a zero day. But we did a pop-under technique, which is like when you close your window, it's behind, and we did pop-under technique that utilized alerts in PDFs. So you would click on the browser, it would attempt to open a PDF, and refocus using alert. It was a terrible thing... But some very nice guy on the Chromium team was patching all of, so... He kept me employed, and then also, I don't feel that bad about it.
 
 **Jerod Santo:** The old cat and mouse game.
 
@@ -262,7 +262,7 @@ Sometimes - like, let's take a data table where you have to use a particular row
 
 So instead of having this very domain-coupled environment... Like, your application probably hydrates itself with some network requests. And so if you're building in your application, you may pull from those network requests on window. Or if you have some sort of local storage that always has the data available for you, you might be pulling from that. And so you wind up with a very coupled component, if you were to only develop in the website, in your eventual web application... Versus if you're developing in your sandbox, you're providing all of the data via props, or a component hierarchy if you're using a lot of providers, for example. It just leads to a better API design and a better component, more pure; you're giving it all of the information it needs, versus it being very easy to just break outside of your sandbox and grab things from wherever you need them.
 
-**Kevin Ball:** \[00:41:57.24\] I've definitely noticed when working in an environment with Storybook or something like it, the design of components just shifts, and people get much more rigorous about thinking about data flow, and not just pulling in API calls everywhere... It becomes much, much cleaner.
+**Kevin Ball:** \[41:57\] I've definitely noticed when working in an environment with Storybook or something like it, the design of components just shifts, and people get much more rigorous about thinking about data flow, and not just pulling in API calls everywhere... It becomes much, much cleaner.
 
 **Jessica Sachs:** And it becomes testable, right? Because you know the ins and outs of the component, and you don't need to fixture an entire application to get your component into the state that it was expected to be in when you built it.
 
@@ -302,7 +302,7 @@ In Vue, for example you have let's say three different sections. You have a temp
 
 **Jerod Santo:** You know, everything is peaks and valleys. And so we're peaking there, and then there's going to be a rebellion, and we'll move in a different direction. And it just takes the -- there's these process. When you're around long enough, you see things move across... And yes, I think it's true today, but I think it's going to be less true ten years from now; that's just my own prognostication.
 
-\[00:46:04.18\] Now, speaking to this - this is an interesting point about the fragmentation inside the JavaScript "community", because we have another show called Go Time, which is like for the gophers. And JS Party and Go Time are very much in the same image, but they're in different communities. And I'm involved in both of the shows, and so one of the things that I think we've struggled with JS Party, and we would love to crack this nut, is we wanted to create a show for like everybody who has anything to do with like JavaScript and the web. And that's proven to be difficult.
+\[46:04\] Now, speaking to this - this is an interesting point about the fragmentation inside the JavaScript "community", because we have another show called Go Time, which is like for the gophers. And JS Party and Go Time are very much in the same image, but they're in different communities. And I'm involved in both of the shows, and so one of the things that I think we've struggled with JS Party, and we would love to crack this nut, is we wanted to create a show for like everybody who has anything to do with like JavaScript and the web. And that's proven to be difficult.
 
 On the Go Time side, Go Time gophers - they have more of like this milieu, this - maybe just more tight-knit. They have more of a common community, or ethos, whereas in the JavaScript world there's so many little "camps", or just areas of interest. And you have like -- you know, people think that we don't talk about CSS; well, we could definitely talk about it more, but we do. But it's not in our name, but yet we want to create a place where everybody can hang out together. And that's proven to be difficult, I think because of what you're talking about there, Jess, where there's just kind of like -- first of all, there's a lot... I mean, darn near everybody who does web has some sort of angle into JavaScript, and like they're completely different people, in different situations. Kball doesn't think anybody uses Angular, people at large corporation X think nobody uses Vue, or something. Right? So it's weird.
 
@@ -336,7 +336,7 @@ On the Go Time side, Go Time gophers - they have more of like this milieu, this 
 
 **Kevin Ball:** There's people doing ML in JS. It's not as common as doing web development or something else, but it's everywhere. And so it creates this like big, fractious environment. It's like the United States. The United States has people from everywhere, and we can't get along, because we all have such very different backgrounds and priorities, and other things... Whereas a smaller country, with less diverse population often seems more cohesive, even though, you know, they may not be accepting of outsiders; but because there aren't that many, it works fine.
 
-**Jerod Santo:** \[00:50:18.22\] Right. Good analogy.
+**Jerod Santo:** \[50:18\] Right. Good analogy.
 
 **Jessica Sachs:** What I got was JavaScript is like the United States. \[laughs\]
 
@@ -384,7 +384,7 @@ I would also say that remote workshops and stuff - I think I would like to do mo
 
 **Jerod Santo:** Yeah, hook us up with the link to that guy. There it is, it's coming into the chat. We'll put that in the show notes, for sure. On behalf of Kball, I'm Jerod, and this has been JS Party. Thanks again, Jess. You're welcome back anytime. That's our show for this week. We'll talk to you all next time.
 
-Outro: \[00:55:34.04\]
+Outro: \[55:34\]
 
 **Jerod Santo:** Let's break right here, natural break. We can pick up -- actually, I want to pick up on the Neopets on the other side, I don't know.
 
