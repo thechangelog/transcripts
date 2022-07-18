@@ -38,7 +38,7 @@ Armin was not happy with how the Python Package Index declared his package "crit
 
 Side note: Reaction blogs, remember these? So cool, so fun.
 
-James has a lot to say on the matter, so I'll just include one snippet to whet your appetite: "If you believe nobody has the right to ”demand” an open-source maintainer do something or abide by some policy or restriction, then that ends the argument in more ways than people are appreciating. If you just want to say “nobody can demand I do this”, then OK, but you also can’t demand PyPI — which is an open-source project, too — do any particular thing or abide by any particular policy you’d like, which more or less removes any grounds you might have had to criticize their account security approach. They don’t owe you anything and don’t have to do what you want them to do, the end."
+James has a lot to say on the matter, so I'll just include one snippet to whet your appetite: "If you believe nobody has the right to ”demand” an open source maintainer do something or abide by some policy or restriction, then that ends the argument in more ways than people are appreciating. If you just want to say “nobody can demand I do this”, then OK, but you also can’t demand PyPI — which is an open source project, too — do any particular thing or abide by any particular policy you’d like, which more or less removes any grounds you might have had to criticize their account security approach. They don’t owe you anything and don’t have to do what you want them to do, the end."
 
 Follow the link in the show notes to read his full argument.
 
@@ -48,7 +48,7 @@ Follow the link in the show notes to read his full argument.
 
 **Bill and Ted:** [Excellent!](https://www.youtube.com/watch?v=-Dc6Pre77AY)
 
-**Jerod Santo:** The repo's intro paragraphs says, "Large data-hungry corporations dominate the digital world but with little, or no respect for your privacy. Migrating to open-source applications with a strong emphasis on security will help stop corporations, governments, and hackers from logging, storing or selling your personal data."
+**Jerod Santo:** The repo's intro paragraphs says, "Large data-hungry corporations dominate the digital world but with little, or no respect for your privacy. Migrating to open source applications with a strong emphasis on security will help stop corporations, governments, and hackers from logging, storing or selling your personal data."
 
 **Rodney Dangerfield:** [That's the story of my life. No respect!](https://www.youtube.com/watch?v=Tx2dzYz2F8g)
 
