@@ -18,7 +18,7 @@ One of the people that came your way is Jason. So Jason, tell us, how did that h
 
 **Jason Pearl:** I lived in Chicago for like a dozen years. I've known Jon for a good portion of that. We actually wound up working out of the same office for a little bit. When myself and a couple of friends were working on a video game that we were supporting, Jon started working out of our office, and then Jon started working at Cards Against Humanity... At some point we wound down the video game project, and I took a job with Jon at a Card. And I worked there about a year or so, and then I wound up moving from Chicago to Cleveland, sunny Cleveland, Ohio. So we stayed in touch since then, and I had a job in the interim... And we'd been talking, sort of as Jon and Justin got Transistor really going, and it sounded really interesting to me... And I found myself looking for something. I was like contemplating looking for like a big tech job, and I was doing the interview prep, and delete coding, and all that nonsense... And Jon and my friend Mike came to visit me in Cleveland, and we were talking about a project they work on and he jokingly said, "Hey, do you want to come work on it?" I'm like, "Actually, that does sound pretty awesome." So I wound up taking a job at Transistor as the first non-Jon engineer.
 
-**Gerhard Lazu:** \[00:08:24.24\] Non-Jon engineer, okay.
+**Gerhard Lazu:** \[08:24\] Non-Jon engineer, okay.
 
 **Jon Buda:** That was like, almost a year ago, right?
 
@@ -60,7 +60,7 @@ So I know that you launched a really big thing recently, and that's what got me 
 
 **Gerhard Lazu:** No, no, no, for like the whole feature to get it out - what impact did it have on your Transistor.fm infrastructure? Was there like any work, was there lots of coding? What did that look like from your perspective, the ones that were building it and then shipping that new feature?
 
-**Jon Buda:** \[00:12:09.23\] Yeah, I mean, there was a lot of lead-up to the launch. I wouldn't say the launch itself impacted us much, as far as like any problems with traffic, or spiking of CPU or database or anything like that... But leading up to it - it's funny, because we actually did a bunch of infrastructure work the weeks before the launch, upgrading various parts of our infrastructure that we use... That was mostly Jason, yeah.
+**Jon Buda:** \[12:09\] Yeah, I mean, there was a lot of lead-up to the launch. I wouldn't say the launch itself impacted us much, as far as like any problems with traffic, or spiking of CPU or database or anything like that... But leading up to it - it's funny, because we actually did a bunch of infrastructure work the weeks before the launch, upgrading various parts of our infrastructure that we use... That was mostly Jason, yeah.
 
 **Gerhard Lazu:** Who did that work, was it Jason? What did you have to upgrade, Jason? Tell us about it.
 
@@ -108,7 +108,7 @@ So I know that you launched a really big thing recently, and that's what got me 
 
 **Gerhard Lazu:** What made you upgrade from all these versions at once? You were just about to launch... What prompted you to upgrade those things? Because you would think that the closer you get to a launch, you want to go with a system that you've been running for a while, and you weren't happy with it, you've done some load testing, whatever, whatever... Or at least you are confident in what you run. What prompted the upgrades? And I'm sure it wasn't just the Amazon emails; there must have been other things.
 
-**Jon Buda:** \[00:15:43.22\] It had just been in the back of our minds for such a long time that we had finished the new websites feature - it was done, and it was actually live, we just hadn't launched it yet... I think Justin was working on all the marketing pieces for Product Hunt and everything else, and we had a week or so to kind of mess around with some new stuff... I forget what it was; it was like we wanted to upgrade Rails, but we couldn't, because we were on Ruby 2.6, which wasn't supported by Rails 7, so we had to upgrade anyway... But you couldn't upgrade the old version of Elastic Beanstalk to Ruby 3 without upgrading the entire platform version... So we did that, and then you know, it was like, "Well, if Caddy 1 is old, we might as well upgrade that." Yeah, I don't know, maybe it wasn't the smartest idea, but it came together.
+**Jon Buda:** \[15:43\] It had just been in the back of our minds for such a long time that we had finished the new websites feature - it was done, and it was actually live, we just hadn't launched it yet... I think Justin was working on all the marketing pieces for Product Hunt and everything else, and we had a week or so to kind of mess around with some new stuff... I forget what it was; it was like we wanted to upgrade Rails, but we couldn't, because we were on Ruby 2.6, which wasn't supported by Rails 7, so we had to upgrade anyway... But you couldn't upgrade the old version of Elastic Beanstalk to Ruby 3 without upgrading the entire platform version... So we did that, and then you know, it was like, "Well, if Caddy 1 is old, we might as well upgrade that." Yeah, I don't know, maybe it wasn't the smartest idea, but it came together.
 
 **Gerhard Lazu:** You did it like -- it was like one big push and you got them all upgraded, and everything is the latest, I'm assuming now, and fully supported, right?
 
@@ -154,7 +154,7 @@ So I know that you launched a really big thing recently, and that's what got me 
 
 **Gerhard Lazu:** Okay.
 
-**Break:** \[00:18:57.18\]
+**Break:** \[18:57\]
 
 **Gerhard Lazu:** So how long have you been running the single Rails app?
 
@@ -196,7 +196,7 @@ So I know that you launched a really big thing recently, and that's what got me 
 
 **Jon Buda:** I don't know. Personally, I think it works pretty well. We use Sidekiq on top of Redis as like a queuing system, which - I think Sidekiq is still pretty much the go-to for that. I know there's other ones that have come along or have been improved, but... I think when I first discovered the background workers, I was like "Oh yeah, this is a big improvement." Because you know, Ruby can get slow, and Rails can get kind of slow, and... Yeah, we have a lot of workers running. And we have scheduled jobs that run -- basically like cron jobs that run in Sidekiq as well, that run every hour, or ten minutes, or five minutes, or once a day...
 
-\[00:24:10.12\] All of our audio processing happens in a background job... API submissions to different podcast directories, uploading to YouTube and all that... And emails are all background jobs... So I think it's pretty seamless. I don't know when it got easier, necessarily. Maybe Rails 4 or 5, or something. Certainly when Sidekiq came out.
+\[24:10\] All of our audio processing happens in a background job... API submissions to different podcast directories, uploading to YouTube and all that... And emails are all background jobs... So I think it's pretty seamless. I don't know when it got easier, necessarily. Maybe Rails 4 or 5, or something. Certainly when Sidekiq came out.
 
 **Gerhard Lazu:** I think the big announcement was Rails 3 and Ruby 2 when I was doing it. I think Ruby 1.8, that's the one which I had most experience in. 1.9, and then 2.0 came along, and wow, everything was so much better. But still, it had its own challenges. And the green threads - I still remember those green threads. Oh, my goodness me. Like, don't get me started. And then you have like multi, like these monoliths running, because they couldn't use all the CPUs that were available... And then a bunch of weird stuff was happening. And then you had like supervisors, and then you had --
 
@@ -236,7 +236,7 @@ Okay. So are there any ops, or infrastructure stories worth telling from last ye
 
 The most annoying part is when it gets like to 80%, and then it goes dog slow. And it can take, as you mentioned, 30 minutes. What? For like 100 megabytes?
 
-**Jon Buda:** \[00:28:11.24\] There were some times where it was -- it was pretty bad, where people just couldn't upload. So customers were getting annoyed, we were getting annoyed... It had something to do with like the pod we were on within their infrastructure; something was degraded, and...
+**Jon Buda:** \[28:11\] There were some times where it was -- it was pretty bad, where people just couldn't upload. So customers were getting annoyed, we were getting annoyed... It had something to do with like the pod we were on within their infrastructure; something was degraded, and...
 
 **Gerhard Lazu:** The storage pod. We have a lot of Kubernetes listeners; this is not a Kubernetes pod. It's a storage pod. A Backblaze storage pod, just to clarify.
 
@@ -304,7 +304,7 @@ I mean, early on - this was before Jason - we had an issue with Caddy where it w
 
 **Gerhard Lazu:** I have also seen CloudFlare, especially for your median CDN. How does that fit in the whole picture? Because I'm assuming that's what serving -- well, I'm not assuming; I checked. CDN Transistor.fm, it's advertising itself as Cloudflare. Where does that come in the mix?
 
-**Jon Buda:** \[00:32:12.00\] That's our main audio and media CDN. So audio files and most of the images are being served from Cloudflare by way of Backblaze. Backblaze and Cloudflare are part of the -- I think it's called the Bandwidth Initiative...
+**Jon Buda:** \[32:12\] That's our main audio and media CDN. So audio files and most of the images are being served from Cloudflare by way of Backblaze. Backblaze and Cloudflare are part of the -- I think it's called the Bandwidth Initiative...
 
 **Gerhard Lazu:** Yeah, I remember that. I love when they announced it.
 
@@ -344,7 +344,7 @@ I mean, early on - this was before Jason - we had an issue with Caddy where it w
 
 **Gerhard Lazu:** Yeah. Moving on... How much traffic do you serve in a month through Cloudflare? And I wouldn't ask you this if I wasn't prepared to trade you our numbers, the changelog.com numbers.
 
-**Jon Buda:** \[00:36:13.23\] Let's see, on average, I think it's like --
+**Jon Buda:** \[36:13\] Let's see, on average, I think it's like --
 
 **Gerhard Lazu:** In total. So in a month -- like, for example, in the month of May, how much traffic did Cloudflare serve?
 
@@ -394,7 +394,7 @@ I mean, early on - this was before Jason - we had an issue with Caddy where it w
 
 **Jon Buda:** One that Jason worked on a little while ago was improving our importing process for a podcast. So when you sign up for Transistor and you're coming from a different provider, you can drop in your RSS feed and it'll import the entire podcast for you into Transistor. Previously that was happening synchronous, like all at once; it was basically just like a background job was running and importing everything, all at once. Sometimes that took a couple of minutes for a small podcast, sometimes it took an hour for a big podcast, and it was just something running in Sidekiq for an hour. Jason split that up so that it basically did everything asynchronously. So it'll import all the information from the feed, but then processing the episode would just happen in a queue, so that you could actually process multiple episodes at once, for an import, and it would finish -- it finished probably like ten times faster, at least.
 
-**Jason Pearl:** \[00:40:15.16\] This is probably one of the things you were alluding to when you were talking about background processing... Like, even with Sidekiq, running, running something for an hour is not great. And then you kind of have to look and see what's running before you deploy, so you don't squash it, and then not get the job back. So this is nice; everything runs in under a minute or two.
+**Jason Pearl:** \[40:15\] This is probably one of the things you were alluding to when you were talking about background processing... Like, even with Sidekiq, running, running something for an hour is not great. And then you kind of have to look and see what's running before you deploy, so you don't squash it, and then not get the job back. So this is nice; everything runs in under a minute or two.
 
 **Jon Buda:** Yeah, things can fail better, you can pick up where they left off... Previously, it was like import or fail, and it would sort of just like -- it would let us know, but it would be stuck in a weird state.
 
@@ -432,7 +432,7 @@ So we're flirting with the idea of, in the future, letting folks build their own
 
 **Jon Buda:** It can be a matter of minutes, really. I mean, we deploy multiple times a day sometimes. I think what Jason was alluding to was the upgrade we made on AWS. When we upgraded our Elastic Beanstalk version, we switched load balancer types, and for some reason, when we deploy to production now, it takes like 15 minutes or more to finish the deployment. And all of it is due to the deregistration/registration of the instances behind the load balancer is just slow as hell with two instances. On one instance, on staging, it's fine; it takes like a minute.
 
-**Jason Pearl:** \[00:44:00.17\] Network load balancer registration is slow.
+**Jason Pearl:** \[44:00\] Network load balancer registration is slow.
 
 **Jon Buda:** For whatever reason there's like a bunch of configuration that is supposed to work and doesn't.
 
@@ -490,7 +490,7 @@ So we're flirting with the idea of, in the future, letting folks build their own
 
 **Gerhard Lazu:** Exactly. Nanoseconds even in some cases... Exactly. It's like, it's there. Okay.
 
-**Break:** \[00:46:54.29\]
+**Break:** \[46:54\]
 
 **Gerhard Lazu:** Is there a service that you couldn't live without? Like, in your stack, something that you use, that you could not do without.
 
@@ -512,7 +512,7 @@ So we're flirting with the idea of, in the future, letting folks build their own
 
 **Gerhard Lazu:** Well, I'm glad that you mentioned FFmpeg, because there's something that we've been working on for a while, and Jerod and Lars, they have all the details... I think we're very close to stop using FFmpeg, and rewrite everything that we need in Elixir as a library; like an ID3 for the tagging, and... We actually even have an episode where we talk about it, what the plan is. But we're not far off from actually --
 
-**Jason Pearl:** \[00:54:04.27\] You'll have to point us to that episode, or put it in the show notes, because we're looking at tagging, which is challenging.
+**Jason Pearl:** \[54:04\] You'll have to point us to that episode, or put it in the show notes, because we're looking at tagging, which is challenging.
 
 **Gerhard Lazu:** Oh yeah. Now, you will need to switch to Elixir, from Ruby. Phoenix.
 
@@ -552,7 +552,7 @@ And we mention it in episode 50, and I think we're going to mention it again in 
 
 **Gerhard Lazu:** It's very convenient, especially if you have YouTube premium. I know that Elon Musk doesn't have YouTube premium. That was a very interesting tweet, and it came out a few few weeks ago. I've been using it for a few years now. I used to have YouTube Music as well.... And I can either watch any conference talk on YouTube, and when you have premium, you just put it in the background, and you listen to it. And then if you do that, and you're already subscribed to like a bunch of channels which do conferences - it's usually conference channels - then you can subscribe to podcast channels as well, because it's all there. And then because the background listening works, you don't have to have it running. Music as well, you can have video and audio... And then it does that nice switch between quality... So it is a go-to destination, and it's like all in single place. And it's convenient. So if you pay for YouTube Premium, why wouldn't you use it for podcasts as well? And if you want to see their faces, you can do that. I think it's a good idea. Their reactions, and the emotions behind people talking...
 
-\[00:58:26.09\] I think it is becoming an increasingly important element, especially since, you know, in the last few years everything changed. It's not that common to work with all the people in the same place. And Zoom, and Discord, and Slack... It's the norm these days. We end up being in the browser, or you know, an app.
+\[58:26\] I think it is becoming an increasingly important element, especially since, you know, in the last few years everything changed. It's not that common to work with all the people in the same place. And Zoom, and Discord, and Slack... It's the norm these days. We end up being in the browser, or you know, an app.
 
 **Jon Buda:** Yeah. I mean, that's how we operate.
 
