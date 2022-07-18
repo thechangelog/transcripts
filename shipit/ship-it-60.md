@@ -24,7 +24,7 @@
 
 **Gerhard Lazu:** Not as close as Swordfish. Yeah, exactly.
 
-**Jerod Santo:** \[00:03:59.22\] But not that intimate.
+**Jerod Santo:** \[03:59\] But not that intimate.
 
 **Gerhard Lazu:** Not too intimate.
 
@@ -90,7 +90,7 @@
 
 **Jerod Santo:** Yeah, we've got money... Though not that much money.
 
-**Gerhard Lazu:** \[00:07:53.19\] Exactly, yeah. We're not millionaires, yet. When we will be, we can pay you more if you want. Or even better, if Ship It makes many millions, we don't mind. But for now, let's just be reasonable. Shipit.fm would be cool. Ship.it would also be cool, but it was a bit more complicated. Actually, we didn't get any replies.
+**Gerhard Lazu:** \[07:53\] Exactly, yeah. We're not millionaires, yet. When we will be, we can pay you more if you want. Or even better, if Ship It makes many millions, we don't mind. But for now, let's just be reasonable. Shipit.fm would be cool. Ship.it would also be cool, but it was a bit more complicated. Actually, we didn't get any replies.
 
 **Jerod Santo:** Super-short...
 
@@ -142,9 +142,9 @@ So I think there's just something -- it used to work. Somewhere along the line, 
 
 **Gerhard Lazu:** Ah, yes.
 
-**Jerod Santo:** \[00:12:00.23\] So like Shipit.show/apple will get you to the Apple podcast URL, which is much longer. So this is like a classic shortener. /spotify. /android. /merch if you wanna get to our merch shop. These are just nice ways to just have it in your mind when you're like talking to a friend and you're like "How do you listen? On Apple?" "Yeah." "Shipit.show/apple" will get you to the right spot, and you don't have to know that. So we have like 10-15 of those, which are pretty cool, I think. I use them quite often. And we link to them on YouTube, and in our Twitter pinned tweets, and stuff. Just clean.
+**Jerod Santo:** \[12:00\] So like Shipit.show/apple will get you to the Apple podcast URL, which is much longer. So this is like a classic shortener. /spotify. /android. /merch if you wanna get to our merch shop. These are just nice ways to just have it in your mind when you're like talking to a friend and you're like "How do you listen? On Apple?" "Yeah." "Shipit.show/apple" will get you to the right spot, and you don't have to know that. So we have like 10-15 of those, which are pretty cool, I think. I use them quite often. And we link to them on YouTube, and in our Twitter pinned tweets, and stuff. Just clean.
 
-**Gerhard Lazu:** One URL which reminded me of something that one of our listeners gave feedback on is Shipit.show/request, which people can use to request an episode, or propose an episode. It works the same way. So this was - and I'm trying to find it - \[00:12:51.13\] He said "Why on Earth would I possibly want to create a Changelog.com account just to send you guys a little tip, pointer, suggestion for an episode? There's simply no point in not letting people come up with suggestions easily, without having to go through hoops for it." So what do we think about that?
+**Gerhard Lazu:** One URL which reminded me of something that one of our listeners gave feedback on is Shipit.show/request, which people can use to request an episode, or propose an episode. It works the same way. So this was - and I'm trying to find it - \[12:51\] He said "Why on Earth would I possibly want to create a Changelog.com account just to send you guys a little tip, pointer, suggestion for an episode? There's simply no point in not letting people come up with suggestions easily, without having to go through hoops for it." So what do we think about that?
 
 **Jerod Santo:** Well, I have two responses. The first one to Leo is "How did you submit this feedback?"
 
@@ -166,7 +166,7 @@ And if you go via the website, and if you do create an account, it helps us to k
 
 I like to see those nice "requested" tags on them. I find that helpful. And the last one which we had - and it just shows how well I remember it - was the Docker Swarm request. I forget who exactly requested it, I forgot the name, but it's very easy to go and see that... But that's the last one that was requested, and it's just a nice flow.
 
-**Jerod Santo:** \[00:16:23.20\] Yeah, it's really nice. And sometimes people will email in, like for the Changelog specifically, and have an idea... And they'll actually say "This is a good idea. Can you go open up a request on the website?" Because that way it actually sits in our queue of ideas, right there in the admin, with everything else. It just has a much higher likelihood of becoming real, versus on Twitter or versus an email. But those are still avenues for starting a conversation.
+**Jerod Santo:** \[16:23\] Yeah, it's really nice. And sometimes people will email in, like for the Changelog specifically, and have an idea... And they'll actually say "This is a good idea. Can you go open up a request on the website?" Because that way it actually sits in our queue of ideas, right there in the admin, with everything else. It just has a much higher likelihood of becoming real, versus on Twitter or versus an email. But those are still avenues for starting a conversation.
 
 So Leo, you don't have to create an account. You can try those other ways. But that's there for reasons, but for our workflow, and also just as a little bit of a bump in the road for people who would spam us otherwise. If it was just completely open, we'd get hundreds a day, versus - now we're getting hundreds a month.
 
@@ -226,7 +226,7 @@ So related - again, this is the episode which hasn't come out yet as we record t
 
 **Gerhard Lazu:** So yeah, we can move on.
 
-**Break:** \[00:20:26.07\]
+**Break:** \[20:26\]
 
 **Gerhard Lazu:** Speaking of moving on, one thing that we definitely moved from is our LKE, our managed Kubernetes. Because 30 days after the migration I deleted -- I won't say everything; I definitely deleted the deployment, and everything that we were running on it... And one thing which I wanna mention is the importance of keeping things around just in case.
 
@@ -276,7 +276,7 @@ So I knew that I had to migrate the certificate somewhere, and what I did - I ju
 
 **Jerod Santo:** Right.
 
-**Gerhard Lazu:** \[00:26:25.00\] But when we migrated to Fly, the easiest thing was to let Fly manage the certificates for the vanity domains. So shipit.show, for example, to configure it was super-easy. Really, really easy. And the wildcard ones - I can't remember why we don't do it. Oh, yes --
+**Gerhard Lazu:** \[26:25\] But when we migrated to Fly, the easiest thing was to let Fly manage the certificates for the vanity domains. So shipit.show, for example, to configure it was super-easy. Really, really easy. And the wildcard ones - I can't remember why we don't do it. Oh, yes --
 
 **Jerod Santo:** Because you have to upload it, right?
 
@@ -360,7 +360,7 @@ So I knew that I had to migrate the certificate somewhere, and what I did - I ju
 
 **Jerod Santo:** It's getting hot in here.
 
-**Gerhard Lazu:** \[00:30:04.09\] So 2021 - there's one thing that we still need there... So while I did delete the infrastructure, the directory is still there, how we did the config. I just found myself referencing something for James Haar. So James Haar was following up on episode 58, the one where we talk about how to keep a secret with Rosemary and Rob, the Vault episode... And I gave him an example in the 2021 directory of how we integrate LastPass, secrets in LastPass, with Kubernetes. Or how we used to do that. So it was helpful for that reference.
+**Gerhard Lazu:** \[30:04\] So 2021 - there's one thing that we still need there... So while I did delete the infrastructure, the directory is still there, how we did the config. I just found myself referencing something for James Haar. So James Haar was following up on episode 58, the one where we talk about how to keep a secret with Rosemary and Rob, the Vault episode... And I gave him an example in the 2021 directory of how we integrate LastPass, secrets in LastPass, with Kubernetes. Or how we used to do that. So it was helpful for that reference.
 
 **Jerod Santo:** Gotcha.
 
@@ -406,7 +406,7 @@ Another thing which happened in the 2022 Fly directory - I've added the Docker E
 
 **Jerod Santo:** Here I thought it was all of our cozy talk...
 
-**Gerhard Lazu:** \[00:33:56.27\] Yeah. \[laughs\] It's that fanless server. So anyways... It was connecting via Tailscale to that host. The problem with Tailscale is that when you generate an auth key for the GitHub Actions runners, the maximum TTL is 90 days.
+**Gerhard Lazu:** \[33:56\] Yeah. \[laughs\] It's that fanless server. So anyways... It was connecting via Tailscale to that host. The problem with Tailscale is that when you generate an auth key for the GitHub Actions runners, the maximum TTL is 90 days.
 
 **Jerod Santo:** Oh yeah, this one bit me. I was trying to deploy some stuff --
 
@@ -446,7 +446,7 @@ So in our 2021 Fly directory we have the config that we used to deploy the Docke
 
 **Gerhard Lazu:** Yeah, exactly. And that's for the caching, and everything. And there's something really cool. There's this really cool -- again, we are mentioning all these things because I'm excited about them, and I haven't tried it out yet, but I can hardly wait to try it out.
 
-\[00:38:00.00\] So Fly introduced Machines, which can spin up in milliseconds. So imagine VMs that start really, really fast. So if you think about our Docker Engine, the one that's there for the CI, we're using it less than 1% of the time. So 99% of the time it's running, it's using those --
+\[38:00\] So Fly introduced Machines, which can spin up in milliseconds. So imagine VMs that start really, really fast. So if you think about our Docker Engine, the one that's there for the CI, we're using it less than 1% of the time. So 99% of the time it's running, it's using those --
 
 **Jerod Santo:** For no reason.
 
@@ -524,7 +524,7 @@ So because Dagger manages its own BuildKit, I was constantly upgrading the Build
 
 **Jerod Santo:** Alright, I'll stop prodding...
 
-**Gerhard Lazu:** \[00:42:11.06\] So yeah, there was the BuildKit issue. And the other issue - and this was like the most recent issue - was where I had a PostgreSQL container binding on the same TCP port, and then the Changelog \[00:42:27.14\] PostgreSQL container was failing to start. So while BuildKit was okay, the Tailscale key was okay, there was a collision on the TCP port, so CI couldn't run. And that was basically the last thing for me. The straw that broke Gerhard's mind. I said "Table flip. I'm fixing this." So that's why I fixed the Docker Engine and I migrated to Fly.
+**Gerhard Lazu:** \[42:11\] So yeah, there was the BuildKit issue. And the other issue - and this was like the most recent issue - was where I had a PostgreSQL container binding on the same TCP port, and then the Changelog \[42:27\] PostgreSQL container was failing to start. So while BuildKit was okay, the Tailscale key was okay, there was a collision on the TCP port, so CI couldn't run. And that was basically the last thing for me. The straw that broke Gerhard's mind. I said "Table flip. I'm fixing this." So that's why I fixed the Docker Engine and I migrated to Fly.
 
 **Jerod Santo:** Once and for all.
 
@@ -586,13 +586,13 @@ So because Dagger manages its own BuildKit, I was constantly upgrading the Build
 
 **Gerhard Lazu:** It's that lack of clustering... So looking at the Fly docs, how to integrate that looks really, really simple, but I haven't done it yet. So I would really want to do that. I mentioned two and a half months ago I'll do it. Maybe now I'll do it. I don't know, we'll see. It's summer, lots of holidays coming up, but still, I will get to do that.
 
-**Jerod Santo:** \[00:45:54.06\] Yeah. That's something also I could maybe take a crack at, but I also have other things which I'm working on in the application space that are probably higher priority than that... Which we'd love to have ready for episode 70, which we haven't teased at all yet... But maybe now we take an opportunity to say we are working with our friend, Lars Wikman, on chapter support for our podcast episodes. And it's in-progress; no promises. We would love to have it by 70. And if we do have it by 70, we'll talk through all the details, hopefully get Lars on the show and make a big deal out of it. But that's what I've been focusing my efforts on. I probably won't get around to this...
+**Jerod Santo:** \[45:54\] Yeah. That's something also I could maybe take a crack at, but I also have other things which I'm working on in the application space that are probably higher priority than that... Which we'd love to have ready for episode 70, which we haven't teased at all yet... But maybe now we take an opportunity to say we are working with our friend, Lars Wikman, on chapter support for our podcast episodes. And it's in-progress; no promises. We would love to have it by 70. And if we do have it by 70, we'll talk through all the details, hopefully get Lars on the show and make a big deal out of it. But that's what I've been focusing my efforts on. I probably won't get around to this...
 
 But I read that doc and I was like, "I could probably do this as well in the app, to get clustering set up." So it does look pretty straightforward. I think it'd be a good step for us to do.
 
 **Gerhard Lazu:** Oh, yes.
 
-**Break:** \[00:46:44.09\]
+**Break:** \[46:44\]
 
 **Gerhard Lazu:** Just to continue with the teasing theme, episode 61, when it comes out, which is right after this one, we are talking to John and Jason from Transistor.fm.
 
@@ -628,7 +628,7 @@ Yeah, that's cool... I'm a big fan of Transistor, and excited for that episode. 
 
 **Jerod Santo:** Yeah.
 
-**Gerhard Lazu:** \[00:52:12.17\] ...where we talked about block storage, and local volumes, and this came up in the context of some of the issues that you had to overcome to migrate from a local volume to object storage, to S3, for assets, for mp3s.
+**Gerhard Lazu:** \[52:12\] ...where we talked about block storage, and local volumes, and this came up in the context of some of the issues that you had to overcome to migrate from a local volume to object storage, to S3, for assets, for mp3s.
 
 **Jerod Santo:** Yeah. And now everything's out of the way, and we are getting the one last thing blocking us from good chapter support; we're getting that taken care of, and then we will be good to go.
 
@@ -668,7 +668,7 @@ So I don't know exactly what magic that is, because I know that the speed of lig
 
 **Jerod Santo:** The proxy is just caching maybe?
 
-**Gerhard Lazu:** \[00:55:57.03\] Must do. Because otherwise I can't explain --
+**Gerhard Lazu:** \[55:57\] Must do. Because otherwise I can't explain --
 
 **Jerod Santo:** How else would it know the answer?
 
@@ -730,7 +730,7 @@ The other thing which is on my mind - and this is episode 58; I blame Rosemary a
 
 **Jerod Santo:** It is. It's nice.
 
-**Gerhard Lazu:** \[00:59:51.18\] And let's see, do we have -- ah, we don't have the transcript.
+**Gerhard Lazu:** \[59:51\] And let's see, do we have -- ah, we don't have the transcript.
 
 **Jerod Santo:** Not yet, it just came out.
 
@@ -746,7 +746,7 @@ The other thing which is on my mind - and this is episode 58; I blame Rosemary a
 
 **Jerod Santo:** Yeah. Magic.
 
-**Gerhard Lazu:** So Maikel Vlasman - he was a guest for episode 56, we had him on. "Dev Ops teams with shared responsibilities." He mentioned that he's using Sealed Secrets, but a lot of the statements that we make in that episode, in episode 58, he agrees with them. You can see it in Slack. James Hart, he was asking how we do the LastPass integration with Kubernetes... So I referenced the link, it's there.
+**Gerhard Lazu:** So Maikel Vlasman - he was a guest for episode 56, we had him on. "DevOps teams with shared responsibilities." He mentioned that he's using Sealed Secrets, but a lot of the statements that we make in that episode, in episode 58, he agrees with them. You can see it in Slack. James Hart, he was asking how we do the LastPass integration with Kubernetes... So I referenced the link, it's there.
 
 But the one which was really interesting is Owen Valentine - thank you very much for sharing the link which shows HashiCorp Vault plugin that integrates with 1Password. That was interesting. So 1Password is not too dissimilar from LastPass.
 
