@@ -96,7 +96,7 @@ It's exciting to hear -- one of my favorite parts of honestly working at Coqui i
 
 **Josh Meyer:** Yeah. I mean, I think you have that clip, if you want to play it, of kind of what it sounds like.
 
-**Daniel Whitenack:** Yeah, this was \[unintelligible 00:29:17.10\] One of the interesting things about this clip, I think, is it's one of the out of domain clips. So we tried synthesizing some voices because the voices are out of audio Bibles, and we tried some Bible-related synthesis, but this is actually out of domain. So this is like a news article, but using the same voice. \[audio 00:29:38.10\]
+**Daniel Whitenack:** Yeah, this was Howza clip. One of the interesting things about this clip, I think, is it's one of the out of domain clips. So we tried synthesizing some voices because the voices are out of audio Bibles, and we tried some Bible-related synthesis, but this is actually out of domain. So this is like a news article, but using the same voice. \[audio 00:29:38.10\]
 
 **Break:** \[29:44\]
 
@@ -118,7 +118,7 @@ Did those open source things - were those things that you were working on person
 
 For example, we had hackathon... Wow, was it this year? \[laughs\] I feel like it was earlier this year... Where a team put together a voice-activated 3D chess board, that you could -- well, you can; it's open source, it's out there. They got it working for English, for Turkish, I think maybe Hindi... And right now, there's some people who are adapting it for Korean.
 
-**Daniel Whitenack:** And that's \[unintelligible 00:35:22.06\] I'm not a chess player, but I know the sort of things I hear on Harry Potter, or whatever.
+**Daniel Whitenack:** And that's like, move Han, whatever to, not a chess player, but I know the sort of things I hear on Harry Potter, or whatever.
 
 **Josh Meyer:** Yes. Yeah, it's exactly that. There was a huge discussion on how to do that well. So now, after that, I know how to move pieces in chess, but before I did not know how to say it out loud.
 
