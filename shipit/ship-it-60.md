@@ -6,7 +6,7 @@
 
 **Jerod Santo:** Ooh...
 
-**Gerhard Lazu:** So Lars told us, feedback, in our Slack channel, that episode 50 was a very cozy Kaizen. Nice conversation, collapsing into laughter, and lots of \[unintelligible 00:03:09.18\] So I'm thinking more laughter this time, because we don't have serious Adam, so we can go crazy... There's no one to stop us.
+**Gerhard Lazu:** So Lars told us, feedback, in our Slack channel, that episode 50 was a very cozy Kaizen. Nice conversation, collapsing into laughter, and lots of assorted TikToks. So I'm thinking more laughter this time, because we don't have serious Adam, so we can go crazy... There's no one to stop us.
 
 **Jerod Santo:** Right. We can go crazy. He'll never try to bring us back to center.
 
@@ -16,7 +16,7 @@
 
 **Gerhard Lazu:** I didn't ask him, but I think he may have been referring to that Swordfish scene... \[laughter\] I don't know. Lars, can you clarify for us, please, in the comments below, what do you mean by cozy?
 
-**Jerod Santo:** Yes. \[unintelligible 00:03:53.25\]
+**Jerod Santo:** Yes. Just how cozy is this getting?
 
 **Gerhard Lazu:** But I think just like getting closer. Like, closer.
 
@@ -110,7 +110,7 @@
 
 **Jerod Santo:** So I was digging into that a little bit... It's like we're serving the 404 header response. But for some reason we're not serving the content correctly, the actual template... So that's in the app. I thought it maybe was like a way that Fastly was not doing it right, but I took Fastly out of the equation and it still happens.
 
-So I think there's just something -- it used to work. Somewhere along the line, the way we serve the 404 HTML just doesn't... Like, it tries to download as a -- maybe the \[unintelligible 00:10:14.23\] type is wrong. I don't know, I have to look into it. But that's really what it is. It's not the vanity domain that's a problem, it's not Fly, it's not Fastly. It's just like the app serves the 404, but can't serve the content for a 404. So it just tells you something went wrong.
+So I think there's just something -- it used to work. Somewhere along the line, the way we serve the 404 HTML just doesn't... Like, it tries to download as a -- maybe the mine type is wrong. I don't know, I have to look into it. But that's really what it is. It's not the vanity domain that's a problem, it's not Fly, it's not Fastly. It's just like the app serves the 404, but can't serve the content for a 404. So it just tells you something went wrong.
 
 **Gerhard Lazu:** I always thought that was an improvement that we were waiting someone from the community to do. It wasn't really an Easter Egg. We knew about this for a while; at least I knew for at least one year. I've seen it before. But I always thought that someone will pick up on it and will want to improve it. It's a great small improvement. It hasn't happened... So at what point do we improve it ourselves?
 
@@ -204,7 +204,7 @@ So Leo, you don't have to create an account. You can try those other ways. But t
 
 **Gerhard Lazu:** Yeah, I remember that coming out like as a special -- I've seen it.
 
-**Jerod Santo:** Yeah. \[unintelligible 00:19:10.06\]
+**Jerod Santo:** Yeah. I put that out as a clip.
 
 **Gerhard Lazu:** That's how I know that you listen to parts of it, because there's a clip appearing on Twitter, and I know that that's something that resonated with Jerod, and he thought it was good enough to share. That's how that works.
 
@@ -264,7 +264,7 @@ So a month before, as we were standing up Fly, we were still running on the old 
 
 **Gerhard Lazu:** Exactly. And I think people kind of know when it's been long enough. So for some, it may be seven days, for others it may be a month. Others still may need more, a longer period. And that's okay. All those options are valid.
 
-In our case, it \[unintelligible 00:24:20.06\] arbitrary, I have to say. 30 days - it just so happened, it was roughly 30 days. Maybe it would have been 31, 32. I can't remember exactly the time.
+In our case, it is   arbitrary, I have to say. 30 days - it just so happened, it was roughly 30 days. Maybe it would have been 31, 32. I can't remember exactly the time.
 
 **Jerod Santo:** Sure.
 
@@ -272,7 +272,7 @@ In our case, it \[unintelligible 00:24:20.06\] arbitrary, I have to say. 30 days
 
 So in my case, I kept it around just in case we may need to go back, just in case we discover something that we didn't know, until we switched across. And for me, after 30 days it was just a reminder, because I was thinking about the Kaizen, and what to do next... And this is actually linked to our TSL certs. So we had cert-manager running in LKE, and cert-manager was syncing -- actually, first of all renewing the certificate for the wildcard one for changelog.com. But also we had -- I wanna say the job... Was it the job? Yes, it was the job which was keeping it in sync with Fastly.
 
-So I knew that I had to migrate the certificate somewhere, and what I did - I just delegated the management to Fastly for the wildcard Changelog.com certificate. There's a limitation in that only one provider can manage the wildcard certificate, because in DNS you end up creating CNAME records, and it can't have multiple; it can only have one. So there's that limit. We \[unintelligible 00:26:01.23\] just a limitation of how that's implemented. So we cannot use cert-manager or Certbot and Fastly. We could only have one. In our case we had cert-manager, because we were managing all our certificates in LKE, using cert-manager, for all the vanity domains.
+So I knew that I had to migrate the certificate somewhere, and what I did - I just delegated the management to Fastly for the wildcard Changelog.com certificate. There's a limitation in that only one provider can manage the wildcard certificate, because in DNS you end up creating CNAME records, and it can't have multiple; it can only have one. So there's that limit. We'd have happy with text records but there you go it's just a limitation of how that's implemented. So we cannot use cert-manager or Certbot and Fastly. We could only have one. In our case we had cert-manager, because we were managing all our certificates in LKE, using cert-manager, for all the vanity domains.
 
 **Jerod Santo:** Right.
 
@@ -290,7 +290,7 @@ So I knew that I had to migrate the certificate somewhere, and what I did - I ju
 
 **Gerhard Lazu:** Exactly.
 
-**Jerod Santo:** So we have \[unintelligible 00:26:53.24\] is on Fastly, and everything else we do, which is mostly the vanity domains, is on Fly, in terms of DNS -- or not in terms of DNS; in terms of certs.
+**Jerod Santo:** So we have *.changelog.com is on Fastly, and everything else we do, which is mostly the vanity domains, is on Fly, in terms of DNS -- or not in terms of DNS; in terms of certs.
 
 **Gerhard Lazu:** Yeah, correct.
 
@@ -340,7 +340,7 @@ So I knew that I had to migrate the certificate somewhere, and what I did - I ju
 
 **Jerod Santo:** Yes, yes. Podcasts should just always keep going. You have two directories - 2021, 2022, and there's like a 2022.fly... And then there's others, Junk, going on... \[laughter\] And I just wonder --
 
-**Gerhard Lazu:** \[unintelligible 00:29:00.15\]
+**Gerhard Lazu:** Don't call it junk
 
 **Jerod Santo:** Okay, one man's treasure is another man's trash... Or I can't remember how that saying goes. But for me, the only reason why this bugs me is because I need to copy the fly.toml into the root directory, unless I wanna have another tmux session in the subdirectory... And I don't. I don't want another tmux session. So I'm wondering why we need to have those years anymore. I feel like we're kind of beyond that. I'm just curious when is that whole thing gonna get cleaned up.
 
@@ -402,7 +402,7 @@ Another thing which happened in the 2022 Fly directory - I've added the Docker E
 
 **Jerod Santo:** \[laughs\] I thought maybe you were going super -- no cooling.
 
-**Gerhard Lazu:** \[unintelligible 00:33:47.12\] That's actually what makes me hot in this room. \[laughter\]
+**Gerhard Lazu:** Not 2S--though, that's actually what makes me hot in this room. \[laughter\]
 
 **Jerod Santo:** Here I thought it was all of our cozy talk...
 
@@ -416,7 +416,7 @@ Another thing which happened in the 2022 Fly directory - I've added the Docker E
 
 **Gerhard Lazu:** Tell us about it.
 
-**Jerod Santo:** I had to go "Gerhard...!" Well, I'll tell you what happened - it wouldn't deploy, because Tailscale couldn't log in, or something... Or couldn't connect, I don't know. It would fail on the Tailscale, and you would \[unintelligible 00:34:27.02\] either TLS, or SSL, or who knows; some sort of error right there. And I said "Gerhard...! I know this is running in your house! Help me!"
+**Jerod Santo:** I had to go "Gerhard...!" Well, I'll tell you what happened - it wouldn't deploy, because Tailscale couldn't log in, or something... Or couldn't connect, I don't know. It would fail on the Tailscale, and you would, you would see either TLS, or SSL, or who knows; some sort of error right there. And I said "Gerhard...! I know this is running in your house! Help me!"
 
 **Gerhard Lazu:** Yeah, "Fix it!" \[laughter\] Exactly.
 
@@ -470,7 +470,7 @@ So in our 2021 Fly directory we have the config that we used to deploy the Docke
 
 **Jerod Santo:** Wait, are you telling me this is your dev box?
 
-**Gerhard Lazu:** Yes, \[unintelligible 00:39:36.07\]
+**Gerhard Lazu:** Yes, it doubles up as my dev box
 
 **Jerod Santo:** Your dev box was part of our critical infrastructure for months... \[laughs\]
 
@@ -486,7 +486,7 @@ So in our 2021 Fly directory we have the config that we used to deploy the Docke
 
 **Jerod Santo:** Yeah, three is better than two.
 
-**Gerhard Lazu:** I have a MacBook Pro, \[unintelligible 00:39:59.20\] and the NixOS. Exactly, yeah. \[laughs\] Yeah, and it's running a bunch of other things. The point being that sometimes when I would develop -- so I don't run Docker on my Mac.
+**Gerhard Lazu:** I have a MacBook Pro, an iMax and the NixOS. Exactly, yeah. \[laughs\] Yeah, and it's running a bunch of other things. The point being that sometimes when I would develop -- so I don't run Docker on my Mac.
 
 **Jerod Santo:** Too slow.
 
@@ -504,7 +504,7 @@ So because Dagger manages its own BuildKit, I was constantly upgrading the Build
 
 **Jerod Santo:** Now, are we still vendoring Dagger in our source code?
 
-**Gerhard Lazu:** We're not vendoring Dagger \[unintelligible 00:41:17.00\]
+**Gerhard Lazu:** We're not vendoring Dagger as the packages...
 
 **Jerod Santo:** The Dagger packages. Is that common practice, or is that because we're on edge, or bleeding?
 
@@ -612,7 +612,7 @@ But I read that doc and I was like, "I could probably do this as well in the app
 
 **Gerhard Lazu:** Memory-hungry.
 
-**Jerod Santo:** I mean, not Ruby in general, but at this particular style \[unintelligible 00:51:14.28\] I think it might be... Because these are large files that you're reading in the memory and modifying... I don't know, Lars can speak better to it. But now we're getting too far into the weeds on it.
+**Jerod Santo:** I mean, not Ruby in general, but at this particular style pack I think it might be... Because these are large files that you're reading in the memory and modifying... I don't know, Lars can speak better to it. But now we're getting too far into the weeds on it.
 
 Yeah, that's cool... I'm a big fan of Transistor, and excited for that episode. And yeah, hopefully what we do can at least be looked at by them and integrated. Because we are gonna be editing our chapters in the CMS, and having it syndicated into the mp3 files and into the podcast feeds themselves, because the new podcasting spec has chapters built into it...
 
@@ -654,13 +654,13 @@ So speaking of that, one thing which I still want to do is to figure out cluster
 
 **Jerod Santo:** So one there, one in Singapore, one in Sydney, one in Toronto... Where else? I mean, once we're clustered, right? One in India... We're huge in Germany. Probably we'll put one there.
 
-**Gerhard Lazu:** I think we should put one on every continent, to be honest... And we can use Honeycomb to see which data centers get the most traffic, which \[unintelligible 00:54:37.03\]
+**Gerhard Lazu:** I think we should put one on every continent, to be honest... And we can use Honeycomb to see which data centers get the most traffic, which by consensus would be the most traffic
 
 **Jerod Santo:** That's a good idea.
 
 **Gerhard Lazu:** And then based on that, we can put one in each region. And this is like a small step towards maybe one day using SQLite. I mean, that's a crazy idea...
 
-**Jerod Santo:** Yeah, because now we have \[unintelligible 00:54:50.10\] and let Litestream do its deal... Or whatever they're cooking up next over there.
+**Jerod Santo:** Yeah, because now we have, just use a better datastream in each region, right there with the app, and let Litestream do its deal... Or whatever they're cooking up next over there.
 
 **Gerhard Lazu:** Yeah, pretty much. But for now, we can just basically have dynamic requests responding much quicker. One thing which I've noticed today is -- do you remember those vanity domains, and the redirects which we have, like Shipit.show, for example? So that one used to take more than 200 milliseconds for me when the request had to travel from the U.K, from London, all the way to Virginia, and back. But now, they only take 23 milliseconds. And the reason why they take so little is because there's a Fly proxy. And the Fly proxy is distributed.
 
@@ -672,17 +672,17 @@ So I don't know exactly what magic that is, because I know that the speed of lig
 
 **Jerod Santo:** How else would it know the answer?
 
-**Gerhard Lazu:** Exactly. That fast. Because it must hit the app. And I can see the Fly.io IP address. Now, I didn't run an MTR to see where it is. 16 milliseconds. Somewhere in London. NTT.net. And then it's hitting the internal network, and then all I'm getting is this IP. So that's the firewall, basically. So it's my \[unintelligible 00:56:20.01\] So that is the entrypoint to the datacenter wherever this is running. And there's three more hops, which is through the actual datacenter and eventually it hits the proxy IP address. And that's \[unintelligible 00:56:40.27\] Maybe that's one for Kurt. But anyways, it was really cool to see those redirects working so quickly, because if you remember, we were saying at some point "Why don't we set up those redirects on the CDN, so they respond quicker?"
+**Gerhard Lazu:** Exactly. That fast. Because it must hit the app. And I can see the Fly.io IP address. Now, I didn't run an MTR to see where it is. 16 milliseconds. Somewhere in London. NTT.net. And then it's hitting the internal network, and then all I'm getting is this IP. So that's the firewall, basically. So it's my IPE, cw.net, I'm not sure who runs that, lns ltw, but it's all London12.uk.bbg.ge.entity.net. So that is the entrypoint to the datacenter wherever this is running. And there's three more hops, which is through the actual datacenter and eventually it hits the proxy IP address. And that's 6651126203. Maybe that's one for Kurt. But anyways, it was really cool to see those redirects working so quickly, because if you remember, we were saying at some point "Why don't we set up those redirects on the CDN, so they respond quicker?"
 
 **Jerod Santo:** Right.
 
 **Gerhard Lazu:** We don't have to do that anymore. Isn't it amazing? An improvement that you don't make, and you just find out that it's just happened?
 
-**Jerod Santo:** \[unintelligible 00:57:00.15\]
+**Jerod Santo:** Those are the best kind.
 
 **Gerhard Lazu:** That's the best one.
 
-**Jerod Santo:** Procrastinating for the win. You know, just sit around and let somebody else figure it out by happenstance. What else should we not do? What else should we strategically not do, so that other people get it done for us? Maybe that 404 thing, should I \[unintelligible 00:57:15.02\]
+**Jerod Santo:** Procrastinating for the win. You know, just sit around and let somebody else figure it out by happenstance. What else should we not do? What else should we strategically not do, so that other people get it done for us? Maybe that 404 thing, should I...
 
 **Gerhard Lazu:** I don't know, I think we need to ask Kurt. Hey Kurt, what's your roadmap? Tell us what's coming. \[laughter\] But seriously, the whole Litestream thing, the way Ben talks about it - again, I'm just teasing what's coming in... Actually, no - what came, sorry. Episode 59. So that's already out by the time --
 
@@ -714,7 +714,7 @@ So I don't know exactly what magic that is, because I know that the speed of lig
 
 **Gerhard Lazu:** Feature request.
 
-**Jerod Santo:** \[laughter\] \[unintelligible 00:58:44.21\]
+**Jerod Santo:** \[laughter\] Get 'em in early!
 
 **Gerhard Lazu:** Exactly.
 
@@ -750,7 +750,7 @@ The other thing which is on my mind - and this is episode 58; I blame Rosemary a
 
 But the one which was really interesting is Owen Valentine - thank you very much for sharing the link which shows HashiCorp Vault plugin that integrates with 1Password. That was interesting. So 1Password is not too dissimilar from LastPass.
 
-By the way, \[unintelligible 01:01:08.17\] he had an amazing input... "People store application secrets in LastPass?" Yes, we do.
+By the way, Omry Gabi, he had an amazing input... "People store application secrets in LastPass?" Yes, we do.
 
 **Jerod Santo:** Yes, they do.
 
