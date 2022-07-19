@@ -130,7 +130,7 @@ So I know that you launched a really big thing recently, and that's what got me 
 
 **Jon Buda:** Nice, yeah.
 
-**Gerhard Lazu:** It just work so easy. It's just so easy. Why did you pick one app? \[unintelligible 00:17:29.03\] told you that? Why did you pick a single-app approach, Jon? Because I think it was your decision, right? To have a single app.
+**Gerhard Lazu:** It just work so easy. It's just so easy. Why did you pick one app? Ok I shouldn't have told you that? Why did you pick a single-app approach, Jon? Because I think it was your decision, right? To have a single app.
 
 **Jon Buda:** Well, it was just me working on it... \[laughs\]
 
@@ -290,7 +290,7 @@ I mean, early on - this was before Jason - we had an issue with Caddy where it w
 
 **Jon Buda:** We have our customer support channel through Crisp, and if something went wrong, people would start messaging us immediately. Or posting on Twitter.
 
-**Jason Pearl:** We've got some monitoring with \[unintelligible 00:31:32.08\]
+**Jason Pearl:** We've got some monitoring with--
 
 **Jon Buda:** Yeah, we have some basic downtime monitoring, or uptime.
 
@@ -382,7 +382,7 @@ I mean, early on - this was before Jason - we had an issue with Caddy where it w
 
 **Jon Buda:** Yeah, I mean, not unless it made sense. I mean, if we wanted something to be running on CloudFlare that didn't require our Rails app to be up, then possibly. But I don't think we necessarily have any ideas yet.
 
-**Jason Pearl:** There's definitely things that can make sense to run isolated. Things I think about it on that side is just like an audio processing service. So you just like ship it to metadata, and it has access to the files; that would be interesting. Yeah, it works out \[unintelligible 00:38:21.27\]
+**Jason Pearl:** There's definitely things that can make sense to run isolated. Things I think about it on that side is just like an audio processing service. So you just like ship it to metadata, and it has access to the files; that would be interesting. Yeah, it works out as is now.
 
 **Gerhard Lazu:** So if you were to do one improvement -- no. Actually, no, no, because I'm sure there are few improvements are already in flight. Can you tell us the thing that you are improving, that you're excited about? Whether it's the infrastructure, whether it's the app, whether it's the deployment, the pipeline, the tests... Anything, really.
 
@@ -450,7 +450,7 @@ So we're flirting with the idea of, in the future, letting folks build their own
 
 **Gerhard Lazu:** 30 seconds. Okay. Are these integration tests, or is it just unit tests? What type of tests do you have?
 
-**Jason Pearl:** It's all unit? That's a good question. I don't know how many we have. I wanna say like \[unintelligible 00:45:08.02\]
+**Jason Pearl:** It's all unit? That's a good question. I don't know how many we have. I wanna say like--yeah something like that.
 
 **Gerhard Lazu:** Okay. Yeah, we have something like that. Up to 1000, roughly. The last time I looked, 600 and something it was for us. Okay.
 
@@ -468,7 +468,7 @@ So we're flirting with the idea of, in the future, letting folks build their own
 
 **Gerhard Lazu:** In a better way?
 
-**Jason Pearl:** I think so. There's like a lot of \[unintelligible 00:45:56.26\] stuff quite some time ago, but now they've gotten rid of that. Less magic.
+**Jason Pearl:** I think so. There's like a lot of .should stuff quite some time ago, but now they've gotten rid of that. Less magic.
 
 **Gerhard Lazu:** How long does the app take to boot? Because Rails was known for slow boot times for a long time. This was a decade ago. Maybe it sped up. Maybe Ruby 3 sped up.
 
