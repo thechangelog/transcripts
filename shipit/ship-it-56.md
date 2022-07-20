@@ -338,7 +338,7 @@ So the readme is the first step to read, and that implies fetching credentials [
 
 **Maikel:** But you still have to make manual action when you install your project.
 
-**Gerhard Lazu:** Yes. So there&#39;s something to run, exactly, to set up. And it basically generates the .END file. So in our case, it&#39;s make.env, and then that file gets generated from LastPass. And if you were to delete it, and if you were to re-generate it again, it will just get the latest values from LastPass. That&#39;s how that works.
+**Gerhard Lazu:** Yes. So there&#39;s something to run, exactly, to set up. And it basically generates the .env file. So in our case, it&#39;s make.env, and then that file gets generated from LastPass. And if you were to delete it, and if you were to re-generate it again, it will just get the latest values from LastPass. That&#39;s how that works.
 
 **Maikel:** So you want to be able to use Vault.
 
