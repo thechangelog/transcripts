@@ -359,6 +359,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   <tr>
     <td align="center"><a href="https://github.com/camiaei"><img src="https://avatars.githubusercontent.com/u/79164595?v=4?s=100" width="100px;" alt=""/><br /><sub><b>camiaei</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=camiaei" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/lenneavy"><img src="https://avatars.githubusercontent.com/u/33298249?v=4?s=100" width="100px;" alt=""/><br /><sub><b>lenneavy</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=lenneavy" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://github.com/jeffutter"><img src="https://avatars.githubusercontent.com/u/570037?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeffery Utter</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=jeffutter" title="Documentation">📖</a></td>
   </tr>
 </table>
 

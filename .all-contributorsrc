@@ -2294,6 +2294,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "jeffutter",
+      "name": "Jeffery Utter",
+      "avatar_url": "https://avatars.githubusercontent.com/u/570037?v=4",
+      "profile": "https://github.com/jeffutter",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
