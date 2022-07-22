@@ -44,7 +44,7 @@
 
 **Jerod Santo:** I like the lemon-based icon as well. Cool stuff... A new web framework for Deno, from Deno. It's like an official Deno project. Y'all are building it and supporting it into the future. Awesome. What was the idea? Why? What was the impetus or the reason you decided to build this?
 
-**Luca Casonato:** \[00:04:03.06\] The original idea was not to build a framework. The idea was to just have a tech demo to showcase a bunch of cool features in Deno, and how you can use them together to make websites, essentially. Over time, this turned into "Oh, wait, this is actually really nice to use." We started building utilities all over the place, which were nice to use... And it turned out that we could integrate this all together into some sort of cohesive bundle. We started using that for some internal projects, the team internally really liked it, so we decided to put more effort into it and open-source it.
+**Luca Casonato:** \[04:03\] The original idea was not to build a framework. The idea was to just have a tech demo to showcase a bunch of cool features in Deno, and how you can use them together to make websites, essentially. Over time, this turned into "Oh, wait, this is actually really nice to use." We started building utilities all over the place, which were nice to use... And it turned out that we could integrate this all together into some sort of cohesive bundle. We started using that for some internal projects, the team internally really liked it, so we decided to put more effort into it and open source it.
 
 **Jerod Santo:** I like how the JS community - and I guess the TS community as well; what we call ourselves nowadays, the web, web devs -are starting to embrace just even the term framework. We're starting to see frameworks come out, and a long time it was like libraries, and routers, and packages... And it was very much a build-your-own-thing out of these smaller things. But I think at this point frameworks are back again, or they're here for the first time perhaps. I think we're starting to be like "You know what - it's nice to have a lot of things all in one place, maintained by a group... And I wonder - was that something you all thought about? Even the word "framework" for this thing.
 
@@ -66,7 +66,7 @@ It's very nice that we managed to also extend this to this web framework now, be
 
 What I found myself was like piece-mealing together Sinatra plus all these other components to basically be my own ad-hoc Ruby on Rails... But it was just mine. It wasn't along with the big group of people working on it. I had all these 17 different plugins in order to recreate that.
 
-\[00:08:14.02\] I think something about that gravity of a bunch of people all putting their work on this one thing, especially when it's supported by the runtime creators and maintainers, is pretty attractive, even though at first it kind of offends your sensibilities of like "Hey, I'd rather pick each part." Eventually you start to see why that's attractive. So it's pretty cool that I think we're starting to see a lot of people step up and say "Let's go batteries-included and see how that turns out."
+\[08:14\] I think something about that gravity of a bunch of people all putting their work on this one thing, especially when it's supported by the runtime creators and maintainers, is pretty attractive, even though at first it kind of offends your sensibilities of like "Hey, I'd rather pick each part." Eventually you start to see why that's attractive. So it's pretty cool that I think we're starting to see a lot of people step up and say "Let's go batteries-included and see how that turns out."
 
 So Fresh has its own view of the world; every framework does. Otherwise why create a new one, right? Just to contribute to one that currently exists... Tell us the perspective of the Deno team and the Fresh team on what a web framework in 2022 should look like.
 
@@ -78,7 +78,7 @@ So Fresh really tries to not reinvent the wheel, pretty much anywhere. It tries 
 
 **Luca Casonato:** Yeah, exactly. So there's no client-side routing at all. It's all completely server-side routed. And there's obviously downsides to this. There's upsides and downsides. These are trade-offs that you have to make. If you want to have a very great offline experience, that's not something you can do. You need to do more in the client. But most pages are things like blogs, or marketing sites, or even eCommerce sites; they're applications, there's a lot of interaction that goes on there, but you don't want them to -- imagine to buy something you'd have to open your app store, search for the store that you're trying to buy something from, download their app, and then start using that. That's how we're building a lot of sites right now, except you don't go to the app store, but instead you type in the URL and you have to wait like 6 or 7 seconds on your 3G connection, or 20 seconds for all the JavaScript to download before you see anything that's interactive. That's really not a great development. We wanna push back on that and try to do as much server-side as possible, and really only ship things to the browser that's absolutely necessary to be in the browser. Things that require sub-hundred-millisecond response times, like changing the color of an input field as you type; input validation, that kind of stuff.
 
-**Break:** \[00:11:45.12\]
+**Break:** \[11:45\]
 
 **Jerod Santo:** What were some heuristics around that decision of client-side routing versus server-side routing? Because it really seems like there are cases where each one has its strengths. And I think my view of the world is that server-side rendering - and routing, as a consequence of that - is probably like the 80. I think it's on the 80 side of websites and web apps, whereas client-side is probably more on the 20. And if it was me, it's probably like 90/10, but that's just my view of the world. But I think it's hard to make that call. Have you ever had to decide "Do I do SPA, do I do client-side routing, do I do server-side?" and what are the tipping points that would push you in one direction or the other in terms of what you're trying to build?
 
@@ -88,7 +88,7 @@ So it's cool that fresh is -- I really like that you get to write your app in a 
 
 **Luca Casonato:** Yeah. I always like the example of Figma, \[unintelligible 00:15:49.01\] Figma is very obviously something that you need to do client-side rendering for. This is something that's impossible to do with server-side. There's just too much interaction. But something like your blog - this probably does not require client-side rendering at all. It can be fully server-side rendered.
 
-\[00:16:09.05\] And it's really difficult to figure out at what point -- is an eCommerce site something you need to SPA, NPA? I think it really depends, as Feross said, on exactly what you want to be doing. If there are things that you require an SPA for, then you sort of have to use an SPA. But I think you should try to default to an NPA and then only go the SPA route if you really have to. If there's no other way around it.
+\[16:09\] And it's really difficult to figure out at what point -- is an eCommerce site something you need to SPA, NPA? I think it really depends, as Feross said, on exactly what you want to be doing. If there are things that you require an SPA for, then you sort of have to use an SPA. But I think you should try to default to an NPA and then only go the SPA route if you really have to. If there's no other way around it.
 
 **Jerod Santo:** Yeah, I would agree with that.
 
@@ -132,7 +132,7 @@ So on a typical NPA, server-side rendered, if I had seven comments on my blog po
 
 But if you want to render some scaffold on the server that's in your component, you can conditionally check "If I'm on the server, return a scaffold", right?
 
-**Jerod Santo:** \[00:20:21.15\] Yeah. Or if you want it crawled. Maybe I want my comments section crawled, so I'm gonna server-side-render it.
+**Jerod Santo:** \[20:21\] Yeah. Or if you want it crawled. Maybe I want my comments section crawled, so I'm gonna server-side-render it.
 
 **Luca Casonato:** Yeah.
 
@@ -186,7 +186,7 @@ But if you want to render some scaffold on the server that's in your component, 
 
 **Feross Aboukhadijeh:** I also wonder if you're gonna wanna have more flexibility down the line in terms of how you deal with an island... Because you might want to have certain ones where there's not even a server-side render at all, and it's 100% client-side... Or maybe you want some where it blocks the page. Like, this island is super-important, so you wanna send it pretty urgently down... I can imagine somebody would say "Don't even load the code for this until they scroll it into view, because this is like a really low-priority island, so just save on that JS if they don't even scroll to the comments section... Don't even send it."
 
-**Luca Casonato:** \[00:24:08.15\] Yeah.
+**Luca Casonato:** \[24:08\] Yeah.
 
 **Feross Aboukhadijeh:** I wonder if you're going to add more options and more flags there, and then the islands folder won't be enough, because you need like islands, and then like three others types of islands... \[laughter\]
 
@@ -220,7 +220,7 @@ The routes folder is really -- you have one file per \[unintelligible 00:26:23.1
 
 **Luca Casonato:** So the idea with Fresh his still that you would have -- you always have a server running. It's really built to deploy to the edge, to deploy to things like deploying Cloudflare workers, where you server-side render really close to your users. The cost of doing that is very low. So if you wanna do something like that, what you would probably do is you would put a CDN in front of the origin, and use cache response headers to tell the CDN to cache pages for a given amount of time.
 
-**Jerod Santo:** \[00:28:07.02\] Which is what we do with Changelog.com, and it works great. I think it's actually a really great strategy, to just server-side render it, but then just cache it for as long as you want at your CDN. Now, that assumes that you have a CDN, of course... But what about the data then? So if I have my Denos running on all these different Cloudflare workers, or Deno Deploy edges, and I'm server-side rendering a response, but let's say I've got a Postgres database that lives in LaGuardia, or something. Do they all just connect back to that, or is there a way of making that sucker live close to the edges? It's kind of a loaded question, because I know this is something that lots of people are working on... But I wanna hear what your thoughts are on it.
+**Jerod Santo:** \[28:07\] Which is what we do with Changelog.com, and it works great. I think it's actually a really great strategy, to just server-side render it, but then just cache it for as long as you want at your CDN. Now, that assumes that you have a CDN, of course... But what about the data then? So if I have my Denos running on all these different Cloudflare workers, or Deno Deploy edges, and I'm server-side rendering a response, but let's say I've got a Postgres database that lives in LaGuardia, or something. Do they all just connect back to that, or is there a way of making that sucker live close to the edges? It's kind of a loaded question, because I know this is something that lots of people are working on... But I wanna hear what your thoughts are on it.
 
 **Luca Casonato:** It really depends... As always, it depends.
 
@@ -244,7 +244,7 @@ For example, for users that are in the EU, you'd have their data live in Frankfu
 
 **Jerod Santo:** At that point your edge executions - they're kind of moot, aren't they?
 
-**Luca Casonato:** \[00:31:48.12\] Exactly. You need to have your data distributed as well. If you only have your compute distributed, but not your data, then that's not great. And things like CockroachDB - which is Postgres-compatible, by the way - does allow you to do this. It allows you to spread data across the world to where your users are, so you can have really fast read and write access to your data. And if you don't care about write access so much, you can have global replicas. And global replicas will allow you to do really fast reads from anywhere, at the cost of slightly slower writes, because you need to talk to some central database for the writes.
+**Luca Casonato:** \[31:48\] Exactly. You need to have your data distributed as well. If you only have your compute distributed, but not your data, then that's not great. And things like CockroachDB - which is Postgres-compatible, by the way - does allow you to do this. It allows you to spread data across the world to where your users are, so you can have really fast read and write access to your data. And if you don't care about write access so much, you can have global replicas. And global replicas will allow you to do really fast reads from anywhere, at the cost of slightly slower writes, because you need to talk to some central database for the writes.
 
 This really goes hand-in-hand with having some robust story on global distributed data... And I think that is actually something that currently we're really lacking. We don't really have a lot of good options for that. I don't wanna leak too much stuff, but this is something we are working on for Deno Deploy, to have really awesome globally-distributed data, where you don't have to think of these trade-offs as much. It'll just figure it out for you, so you can have fast read access anywhere to your data.
 
@@ -252,13 +252,13 @@ This really goes hand-in-hand with having some robust story on global distribute
 
 Do you wanna tell us more? I mean, you don't wanna say too much, but you could say more. But I don't want to get you in trouble. You're just smiling at me now... No comment. \[laughter\] Let's take a break right here. We'll tease them. We'll have a cliffhanger.
 
-**Break:** \[00:33:35.26\]
+**Break:** \[33:35\]
 
 **Feross Aboukhadijeh:** So Luca, who should use Fresh? And who shouldn't? Maybe that's the more important question. Who is Fresh not for today?
 
 **Luca Casonato:** Yeah, so if you're Figma, then don't use Fresh, because you've already built an awesome product and you should not be using Fresh. If you're an established large company and you have an established, great, very performant website, then what's the point of switching? You've already put in all the effort. If you personally thought "Oh, I was gonna start a podcast. I still need a website for my podcast." And obviously, the difficult problem with doing a podcast is not the podcast itself, but it's writing the website for the podcast, right? Obviously...
 
-\[00:36:08.00\] So that's something you can totally do... Do your blog, marketing pages, eCommerce sites, anything greenfield like that - that's something great you can use Fresh for right now.
+\[36:08\] So that's something you can totally do... Do your blog, marketing pages, eCommerce sites, anything greenfield like that - that's something great you can use Fresh for right now.
 
 If you have something which is really highly interactive and it requires client-side rendering, then Fresh isn't what you're looking for. Then you want something which is better suited to doing a lot of client-side rendering, like Remix for example. But most pages - that 80/20 rule thing that we were talking about earlier - that are mostly static, or have little islets of interactivity, you can use Fresh for.
 
@@ -294,7 +294,7 @@ So those are like the three big things that are coming up pretty quickly here. A
 
 **Jerod Santo:** Well, we've been running them for so many years now... You kind of feel naked without a build step. You're like "Wait a second... I'm just gonna ship this code as it is to production...?!"
 
-**Luca Casonato:** \[00:40:00.23\] Yeah. It's been really fantastic not having a build step. Because originally, this started out as we just wanted to have so fast deploys that anything to do with a build step would just be too slow for the deploys (for Deno Deploy, this is). So we just originally didn't have any support for doing any sort of build step. We had to get very creative in how we do certain things to be able to support these modern use cases that people have without a build step. And I think it's been pretty successful so far.
+**Luca Casonato:** \[40:00\] Yeah. It's been really fantastic not having a build step. Because originally, this started out as we just wanted to have so fast deploys that anything to do with a build step would just be too slow for the deploys (for Deno Deploy, this is). So we just originally didn't have any support for doing any sort of build step. We had to get very creative in how we do certain things to be able to support these modern use cases that people have without a build step. And I think it's been pretty successful so far.
 
 We have a way to do build steps right now using GitHub Actions if you want to, but it's really nice to not have a build step. It's insanely fast. None of our internal sites use build steps, because -- I don't know, I like pushing code in them and immediately having my production... Or preview deployment, I guess.
 
@@ -342,7 +342,7 @@ We have a way to do build steps right now using GitHub Actions if you want to, b
 
 **Feross Aboukhadijeh:** My objection is usually around just the amount of overhead it takes to get going, which I think Deno solves...
 
-**Jerod Santo:** \[00:43:09.28\] Exactly. That's why I had to just say this, because this does solve it. Getting started \[unintelligible 00:43:12.02\] Okay, so that's stuff that's missing. We talked about who should use it, who should not use it... What about the community? It's very much a Deno company kind of building this thing, but is it like hands-off, Deno is building this thing? Or is it like "Hey, come contribute. We wanna form a community around it"? Is there a governance model? Etc.
+**Jerod Santo:** \[43:09\] Exactly. That's why I had to just say this, because this does solve it. Getting started \[unintelligible 00:43:12.02\] Okay, so that's stuff that's missing. We talked about who should use it, who should not use it... What about the community? It's very much a Deno company kind of building this thing, but is it like hands-off, Deno is building this thing? Or is it like "Hey, come contribute. We wanna form a community around it"? Is there a governance model? Etc.
 
 **Luca Casonato:** Yeah, so it's open source, anyone can contribute. Just to give you a frame of reference of what the interactivity here is from the community... Every day I wake up -- today I have like (I don't know) 20, 25, 30 open PRs, and 30 new issues on the repo to deal with. And then I spend the first five hours of my day merging community PRs, and replying to issues, and GitHub discussions, and whatever. So there's a lot of community interest here, and people are actively contributing. And actually, one of the people that is working on Fresh - he does not work at the Deno team at all - he just liked the project and started contributing to it.
 
