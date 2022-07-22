@@ -8,7 +8,7 @@ So as a preparation for this episode, we were figuring out how each of us pronou
 
 **Natalie Pistunovich:** OOP? Well, I guess it's two versus one, Ian. You pronounce this the same.
 
-**Ian Lopshire:** \[00:04:13.21\] Yeah, OOP.
+**Ian Lopshire:** \[04:13\] Yeah, OOP.
 
 **Ronna Steinberg:** I have to say, for the past month or so I've been writing OO a lot, and it looks like "Uh-oh..." the emoji. \[laughs\] And it feels very symbolic to the state of object-oriented.
 
@@ -40,7 +40,7 @@ So it's more about how to use the tools that you have with the language properly
 
 To explain why I think it's an object-oriented language, I should probably explain why I think it's definitely more object-oriented, for instance, than other languages that are considered object-oriented... And I'm looking at you, Java. And here's my case. Listen up. \[laughs\] Java - yes, sure, it has inheritance, but you can only inherit once. So that means that if you want to express that idea that class A or an object of type A is also an object of type B, or a class B, you can only do that once. And if you have a case C, that A is also C, you cannot express that in Java.
 
-\[00:08:19.14\] Now, I came from C++, so I kind of had this multiple inheritance. I used to be very expressive with inheritance, and when I look at Java, when I look at Ruby - Pythonistas, I'm sorry, I'm not familiar enough with your language to make a case... But when I look at Java and when I look at Ruby I see that you can't really express A is C if you already expressed that A is B, unless you use interfaces or generics.
+\[08:19\] Now, I came from C++, so I kind of had this multiple inheritance. I used to be very expressive with inheritance, and when I look at Java, when I look at Ruby - Pythonistas, I'm sorry, I'm not familiar enough with your language to make a case... But when I look at Java and when I look at Ruby I see that you can't really express A is C if you already expressed that A is B, unless you use interfaces or generics.
 
 Now, interfaces are -- Go has this dramatic effect that interfaces are implicit in Java, and a class has to be aware, to be able to instantiate A as type interface I, A has to be aware of I at the time of writing. So that means that to plug A as I, you have to do something. It could be generics, it could be some sort of a proxy class that we'll implement and derive from... So there are some ways.
 
@@ -68,7 +68,7 @@ So that's where I am... I am curious though if we're getting any remarks from ou
 
 **Ronna Steinberg:** Hopefully. One can only hope.
 
-**Natalie Pistunovich:** \[00:12:11.12\] I'd be curious to hear what are some of the feedback that you've got over email, like what are the pros -- the people who agreed or disagreed. You said that they were all backing their claims, which is wonderful; it means you have generally a great discussion...
+**Natalie Pistunovich:** \[12:11\] I'd be curious to hear what are some of the feedback that you've got over email, like what are the pros -- the people who agreed or disagreed. You said that they were all backing their claims, which is wonderful; it means you have generally a great discussion...
 
 **Ronna Steinberg:** Well, \[unintelligible 00:12:25.00\]
 
@@ -90,13 +90,13 @@ I also think that there is a lot of room for people to decide within their teams
 
 You asked me about quotes that I got... Somebody quoted Rob Pike to me. I tried, but I couldn't find the quote... But somebody quoted Rob Pike to me, so apparently Rob Pike did say something about object-oriented \[unintelligible 00:16:06.22\] or something of this sort... But yeah, I didn't get to the source.
 
-\[00:16:17.09\] What I do see is a lot of people -- this is where I think this is coming from... How people write APIs, how people write their handlers - it's all pretty much functional programming. And the way that this is designed, most people don't actually use an interface in these situations, and even if they do, they kind of don't use object, they use the functions as an interface... Which you can do. You can infer. So they're not used to actually working with objects. Or not objects. Let's say structs. Let's just use the word "structs", with fields and actual -- the classic way of doing things.
+\[16:17\] What I do see is a lot of people -- this is where I think this is coming from... How people write APIs, how people write their handlers - it's all pretty much functional programming. And the way that this is designed, most people don't actually use an interface in these situations, and even if they do, they kind of don't use object, they use the functions as an interface... Which you can do. You can infer. So they're not used to actually working with objects. Or not objects. Let's say structs. Let's just use the word "structs", with fields and actual -- the classic way of doing things.
 
 I think that's where it's coming from, because it became a language that is so strong in that space. And in that space you really don't need a lot of \[unintelligible 00:17:06.21\] objects. Whatever objects you have are probably going to die soon anyways. And if we think also, those APIs - it sounds funny, but objects don't live long in APIs, unless they live the entire lifetime of the application... Like the server, for instance - that could be an object.
 
 Their structs are limited to fields, like configurations, and they don't have many methods. But then if you look for instance at how they set up their repositories, or how they set up their models, or how they set up these things, because we didn't have generics up until very recently, they don't really use objects there. Or they generate a lot of code, but they don't actually know what's in it, or care so much about it, just to save store, or whatever. But with generics, you can actually store any kind of model into any kind of database or repository. So we are that much stronger in that sense. Maybe now that people are actually going to write code for themselves, they're actually going to spend more time thinking about what they want to express, and how... Hopefully.
 
-**Break:** \[00:18:21.14\] to \[00:20:13.04\]
+**Break:** \[18:21\] to \[20:13\]
 
 **Ian Lopshire:** So you going through that, what you've just said, made me think maybe my idea of what OOP is is pretty heavily influenced and biased by writing Go. I haven't written anything but Go in a long time. Probably two or three years at this point.
 
@@ -136,7 +136,7 @@ This is the insight (which goes all the way back to SmallTalk) on which the obje
 
 **Ian Lopshire:** Yeah, I think going to what you were saying, where Go is almost a more pure version of object-orientation, I think that's what leads to it; the idea that -- I don't know, I'd have to really sit down and think about it, but that's where my mind is going.
 
-**Ronna Steinberg:** \[00:27:57.04\] I think that I've found something that a person that wrote me about Go not being an object-oriented language might be related to... So I searched for Rob Pike and object-oriented and I've found Wikipedia. On Wikipedia he is criticizing object-oriented. So it's possible that that was what that quote was about.
+**Ronna Steinberg:** \[27:57\] I think that I've found something that a person that wrote me about Go not being an object-oriented language might be related to... So I searched for Rob Pike and object-oriented and I've found Wikipedia. On Wikipedia he is criticizing object-oriented. So it's possible that that was what that quote was about.
 
 **Natalie Pistunovich:** Do you want to read this out and share this later in our show notes, so everybody can go back to this, too?
 
@@ -158,7 +158,7 @@ By the way, something that I really love is we don't have enumerators, but we do
 
 Let's start with the very basics - if somebody tells me that they have worked with MySQL, then I will test them heavily on MySQL until I reach something that either they don't know, or... To get a sense of how far into the rabbit hole they went. Or any other topic. This one is kind of normal.
 
-\[00:32:05.07\] But it all depends on their profile. It really all depends on their profile. We said earlier that I am the sum of the opportunities that were given to me... And I don't think I'm a bad developer. We all want to hire somebody who cannot do what we can't do. \[laughs\] Essentially, I feel like we are raising the bar constantly to a level that people cannot actually meet. And not because they are not good enough.
+\[32:05\] But it all depends on their profile. It really all depends on their profile. We said earlier that I am the sum of the opportunities that were given to me... And I don't think I'm a bad developer. We all want to hire somebody who cannot do what we can't do. \[laughs\] Essentially, I feel like we are raising the bar constantly to a level that people cannot actually meet. And not because they are not good enough.
 
 For instance, if I can't do something and I am going to search for somebody who's going to be able to do it, that's a little bit unfair. And I feel like we are doing this all the time; we're sort of like raising the bar, raising the bar, raising the bar, to essentially maybe make up for our own disadvantages.
 
@@ -172,7 +172,7 @@ Even now, if I go for a job interview, I am never going to apply for something t
 
 I am very, very similar to a complete beginner, because we all have to go around and essentially convince people to give us a chance to prove that we can do something that we have not shown before that we can do. It's so obvious to people that "Okay, Ronna after 20 years is going to be able to do this." But it shouldn't be. I mean, at the end of the day, it really shouldn't be. I fail just as much as everyone else. So that's what I go with. It's a very long answer to your question, Natalie.
 
-**Break:** \[00:35:23.09\] to \[00:38:26.23\]
+**Break:** \[35:23\] to \[38:26\]
 
 **Natalie Pistunovich:** You mentioned briefly about your background, starting with C++, and also a little bit on how you've come to the idea of doing this workshop. Do you want to elaborate a little bit on giving the context of what brought you on the shorter-term and on the longer-term to this idea?
 
@@ -182,7 +182,7 @@ I am very, very similar to a complete beginner, because we all have to go around
 
 **Ronna Steinberg:** Because that's what they do, and I actually don't think that those patterns that they are using serve my team very well. Actually, it's not really my team, it's my former team, because since about a month ago we reorganized... We \[unintelligible 00:39:26.05\] in a way that was not really working well for us. I mean, I'm not saying that there is no way to make it work, but the way that we did this was not really working well for us... And I was trying to show different approaches to maybe redesign a portion of the code that I felt would just be easier to understand with classic object-oriented... Because that is how we used to see the world.
 
-\[00:40:01.15\] We understand delegation. For instance, if I tell you, Natalie, to breathe in, you don't have to think about operating your lungs. You just breathe in. And if I tell you to breathe deeply, then you will breathe deeply, and if I tell you to stop breathing, you will until you panic. \[laughter\]
+\[40:01\] We understand delegation. For instance, if I tell you, Natalie, to breathe in, you don't have to think about operating your lungs. You just breathe in. And if I tell you to breathe deeply, then you will breathe deeply, and if I tell you to stop breathing, you will until you panic. \[laughter\]
 
 **Natalie Pistunovich:** Defer. Breathe out.
 
@@ -230,7 +230,7 @@ So back to C++, it has a million features that you're never gonna use. JavaScrip
 
 **Ronna Steinberg:** So the quote that Rob Pike, that whomever sent me the message was basing it on - he said that (I don't know) a professor used multiple classes to perform something that was a simple look-up. And I think this is it. And I also understood why it happened... But again, it's not Go, actually.
 
-\[00:44:09.27\] So again, when we go back to Java - you are not able to say that A is B, unless A is aware of B, and knows that it implements B. So you can't really say that A is B. And then in those languages you really have to work extra-hard to express the idea "A is B." And that could create those intermediate layers between code. It's just a proxy; it just invokes more code, it invokes more code, it invokes more code. And then at the end of the day, if you want to perform a simple look-up, it can look like something that will create this very chaotic codebase, for something very simple. But then in Go -- I always say that everything is explicit in Go, except for the things that aren't... And what I mean by the things that aren't, are like stringers, for instance, where we invoke some functionality by performing some type assertion that nobody is aware of somewhere.
+\[44:09\] So again, when we go back to Java - you are not able to say that A is B, unless A is aware of B, and knows that it implements B. So you can't really say that A is B. And then in those languages you really have to work extra-hard to express the idea "A is B." And that could create those intermediate layers between code. It's just a proxy; it just invokes more code, it invokes more code, it invokes more code. And then at the end of the day, if you want to perform a simple look-up, it can look like something that will create this very chaotic codebase, for something very simple. But then in Go -- I always say that everything is explicit in Go, except for the things that aren't... And what I mean by the things that aren't, are like stringers, for instance, where we invoke some functionality by performing some type assertion that nobody is aware of somewhere.
 
 But yeah, generally speaking, Go is explicit. If you have a package, and it's well-written, then it should meet the open/close principles, and then you should be able to wrap this type or extend the functionality of whatever it is that you want. I understand why people struggle with that. I think the biggest issue is how we don't write packages very well.
 
@@ -244,7 +244,7 @@ So obviously, I fixed it, but generally, it's a different type of language. A pa
 
 And then in Go you don't have to do it, but then you can write very easily an unusable package, or an unextendable package. So how to write it well, by the way, is something that I still don't know that we are very good at teaching. I'm trying to sort of figure that out as well, as I go. And how do I define that a package is good?
 
-\[00:48:00.20\] I love that when people explain the open-close, they always talk about curl command. Nobody is going to rewrite curl. It doesn't require redesigning. Well, why? Why is it so good? What makes it so good? And what makes a good package? It's a very, very difficult question. Regardless, by the way, if you have object-oriented or not; even if it's just a bunch of functions, it is very difficult to define when you're done, to know exactly when you're done.
+\[48:00\] I love that when people explain the open-close, they always talk about curl command. Nobody is going to rewrite curl. It doesn't require redesigning. Well, why? Why is it so good? What makes it so good? And what makes a good package? It's a very, very difficult question. Regardless, by the way, if you have object-oriented or not; even if it's just a bunch of functions, it is very difficult to define when you're done, to know exactly when you're done.
 
 **Natalie Pistunovich:** One last question before we switch to the fun unpopular opinion, which we were missing so much throughout this entire episode... You've been kind of giving us sprinkles of information on the workshop. So other than this is being on object-oriented programming in Go, what else can you tell us about it?
 
@@ -272,7 +272,7 @@ I thought it was a very good way of exploring object-oriented. And I like to tak
 
 **Natalie Pistunovich:** Yeah, we'll pull some from your emails. A thought that came to mind throughout this episode... Let's see if I can make this into a sort of an unpopular opinion... Probably not, so I'm not gonna make the tune just yet. But thinking of AI-generated tools, they get inspired from existing code, right? And we can have this conversation if there's features of OOP in Go or not, but if there's not a lot of examples out there, the different models that generate code will not be creating this a lot. So assuming that the trend of code is not just a human writing it, but more like a human guiding it, it means that it will - at least the way I see it, it means that a lot of the code or the language will kind of fall deeper into their template, or into their niche, or little box, rather than spreading out of it, like you did. So this can be a fun thing to think about as a person who's researching AI and code.
 
-**Ronna Steinberg:** \[00:52:14.11\] Wow, I love it. You know, a few days ago I had that thought, AI is not going to write code OOP maybe, because they don't really understand the world like we do, and they don't have that restriction. A bot doesn't tell a person to breathe, you know what I mean? They don't need to. They can go as deeply into the mechanics of how to breathe, so their understanding is going to be very different, of those models.
+**Ronna Steinberg:** \[52:14\] Wow, I love it. You know, a few days ago I had that thought, AI is not going to write code OOP maybe, because they don't really understand the world like we do, and they don't have that restriction. A bot doesn't tell a person to breathe, you know what I mean? They don't need to. They can go as deeply into the mechanics of how to breathe, so their understanding is going to be very different, of those models.
 
 **Natalie Pistunovich:** Yeah. But maybe there'll be some way of doing this guided, and then we're saved from those boxes.
 
@@ -284,7 +284,7 @@ I thought it was a very good way of exploring object-oriented. And I like to tak
 
 **Natalie Pistunovich:** Yeah, that definitely is a fun conversation to have... And if anybody wants to chat about this, we are on the Go Time Slack channel, in the Gophers Slack, so reach out and maybe this will be some future episode. But until then, let's do the tune for the Unpopular Opinion.
 
-**Jingle:** \[00:53:25.24\] to \[00:53:42.12\]
+**Jingle:** \[53:25\] to \[53:42\]
 
 **Natalie Pistunovich:** And now it's time for the unpopular opinion. Ronna, what do you have for us?
 
