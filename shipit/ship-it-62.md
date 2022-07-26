@@ -2,13 +2,13 @@
 
 **Gary Bernhardt:** Thanks. I'm happy to be here.
 
-**Gerhard Lazu:** So this, I want to say, it's been a long time coming. And it has, but in unexpected ways. Because I have been a huge fan and a follower since \[00:03:29.27\] the one that really opened my eyes was Ruby - I forget which Ruby Conf... 2012, I think... 2011.
+**Gerhard Lazu:** So this, I want to say, it's been a long time coming. And it has, but in unexpected ways. Because I have been a huge fan and a follower since \[03:29\] the one that really opened my eyes was Ruby - I forget which Ruby Conf... 2012, I think... 2011.
 
 **Gary Bernhardt:** I think it was 2012, yeah.
 
 **Gerhard Lazu:** And that was an amazing talk. Now, nothing beats, in my mind, Destroy All Software. You call them the classics; I still have them, I still watch them every now and then, when I feel like doing something different... And I think there is an art to approaching software the way you do. What's the secret?
 
-**Gary Bernhardt:** \[00:04:01.22\] Well, thank you for that. I don't know what the secret is. Being extremely easily frustrated maybe? I don't know. I think probably if we really found it, it would be some personality trait that's generally considered undesirable. But I definitely don't have any magic. I don't know. I just -- I do it what I do.
+**Gary Bernhardt:** \[04:01\] Well, thank you for that. I don't know what the secret is. Being extremely easily frustrated maybe? I don't know. I think probably if we really found it, it would be some personality trait that's generally considered undesirable. But I definitely don't have any magic. I don't know. I just -- I do it what I do.
 
 **Gerhard Lazu:** I think there's something to it. Knowing what you're like, knowing who you are, this is what works for me... And apparently, it works for other people, too. It definitely worked for me, that approach to simplicity. I mean, hearing you talk about how use Vim with little plugins - I thought it was me that likes to develop in production, where Vim has no plugins... But apparently, it's you as well. \[laughter\] And what I mean by that is Vim with no plugins. Is it a matter of keeping things simple because of all the weird ways in which stuff breaks? Or is there something more to it?
 
@@ -30,7 +30,7 @@
 
 **Gerhard Lazu:** So before I actually describe all this stuff, let me say upfront. Big opinions stated upfront. Most systems are far more operationally complex than what's needed, at least small to the bottom end of medium-sized systems. I have no opinion about large systems, because I just don't work on them.
 
-**Gerhard Lazu:** \[00:08:13.15\] When you say operational complexity, what do you mean by that?
+**Gerhard Lazu:** \[08:13\] When you say operational complexity, what do you mean by that?
 
 **Gary Bernhardt:** Everyone means something different when they say complexity, right? So let me say what I mean by operational complexity specifically. When we say that a function is complex, we mean that it has a complex structure, which is there's no time element, right? It's complex now, and if we look at it a year later, it'll be equally complex. But when we say a production system is complex, or a deployment is complex, that's operational complexity. It's about running it over time. It's about how it evolves and how it's maintained. So it's an active thing, versus a passive thing.
 
@@ -48,7 +48,7 @@ They also have the wrinkle that as the code is executing, they're putting tracin
 
 So it's Postgres, a single backend, workers with a queue, Stripe WebHooks coming in, and executor VMs. That's basically the architecture... Which I think is like -- this is pretty normal, I would say. Well, the executor VMs are weird, because it's a specific property of our problem space. But I think this design is pretty normal and not particularly complex.
 
-**Gerhard Lazu:** \[00:12:06.18\] So I'm wondering, how much of this simplicity is down to you being the sole architect, implementer and debugger of this architecture?
+**Gerhard Lazu:** \[12:06\] So I'm wondering, how much of this simplicity is down to you being the sole architect, implementer and debugger of this architecture?
 
 **Gary Bernhardt:** Certainly, that's a factor. I mean, I'm not the sole person working on it, although it is definitely fair to say I've made all of the sort of architectural decisions. And I do like to keep things simple. I also sometimes lie in public to make a point, which I have done here... I'm sorry, I lied to you. You knew I was gonna lie, but you didn't know what I was gonna lie about
 
@@ -62,7 +62,7 @@ So it's Postgres, a single backend, workers with a queue, Stripe WebHooks coming
 
 **Gerhard Lazu:** Okay.
 
-**Break:** \[00:12:54.14\]
+**Break:** \[12:54\]
 
 **Gerhard Lazu:** So I'm wondering, if you were part of a team where there was like two three of you, and each have strong opinions, and especially the K opinion, "We shouldn't use Kubernetes, because why not? It's really important." And someone else says, "No, not Kubernetes. Let's use maybe Knative." At that point, there are three opinions. Which one do you go for? And each of these are strongly held.
 
@@ -70,7 +70,7 @@ So it's Postgres, a single backend, workers with a queue, Stripe WebHooks coming
 
 **Gerhard Lazu:** Oh, yes.
 
-**Gary Bernhardt:** \[00:16:15.02\] You could do that. And you could push every deploy to each of them and see "What happens over time, how does it feel?" So I might consider something like that, but like I said, this is outside my area of expertise.
+**Gary Bernhardt:** \[16:15\] You could do that. And you could push every deploy to each of them and see "What happens over time, how does it feel?" So I might consider something like that, but like I said, this is outside my area of expertise.
 
 **Gerhard Lazu:** I'm amazed that you settled on this setup, single-person, and I settled on Kubernetes single-person. I had other reasons for it, okay... So it wasn't just like, "Let's just use Kubernetes." It was also for the content. It was also for a couple of things that I thought we needed to do... And then I realized, "Actually, you know what - we can delegate them to some other third parties, so like software as a service." Now, with that case, we have to manage those, so it's a bit less obvious where all these things are, rather than having everything in a single place. For example, managing DNS, managing certs is not all in one place. And when you have a platform as a service like Heroku, a lot of those concerns, like certificates, for example - they're just managed. It's there, you don't have to worry about it.
 
@@ -110,7 +110,7 @@ And this evolution - so we started with Docker, we went to Kubernetes, and now w
 
 So here are the things that are actually different. Everything else is different. There is no queue. There's exactly -- there is a worker process. There's exactly one worker process. Never zero, never two. I mean, it could handle -- it wouldn't be bad if there were zero or two, but there's just always one, just by convention, I guess. So no auto-scaling or manual scaling on that. No queue, I think I said that...
 
-\[00:19:55.27\] So the way that the worker works is that every hour it wakes up, and it sends some reminder emails and does a little bit of housekeeping related to building stuff... And then it just sleeps; it just sleeps for an hour, and then an hour later wakes up and does it again. So what that means though is that a lot of things that are often put into queues, things like sending an email, or anything you wouldn't want to block the request flow - we just let those block.
+\[19:55\] So the way that the worker works is that every hour it wakes up, and it sends some reminder emails and does a little bit of housekeeping related to building stuff... And then it just sleeps; it just sleeps for an hour, and then an hour later wakes up and does it again. So what that means though is that a lot of things that are often put into queues, things like sending an email, or anything you wouldn't want to block the request flow - we just let those block.
 
 For example, when you register an account, you don't see a success message until the API backend has sent the confirmation email to our email provider. And it's fine. Like, nothing bad happens. And this means we avoid all the problems with queues, like operations getting split into pieces, the before queue and after queue part, backpressure management, and migration problems where you change the data format of a queue entry, but there are potentially queue entries live in prod when you make that change... None of that stuff exists.
 
@@ -146,7 +146,7 @@ And I don't ever want to find myself asking, "Is our billing code broken, or is 
 
 So how do we handle that situation where someone subscribes with a credit card, and then the credit card eventually expires? The answer is one of the things that the worker does when it wakes up is it just -- it hits Stripe with a fairly subtle query that gets all the subscriptions that might have expired recently, and it just processes all of those all the way through. And you know, it's never going to be very many, because this is an uncommon thing. And it was kind of tricky to write, but it's less tricky than having flaky WebHooks. So the trade-offs here.
 
-\[00:24:02.26\] The bad trade-off that would have led me to use WebHooks would be if I thought we cannot have the users have free access to the product for like even an hour after their credit card expires. We must process cancellations immediately via WebHooks, even though it complicates dev, it complicates CI, it complicates prod, and it's flaky. And the good trade-off is we don't care if the user has free access for an hour. Or a month, frankly. If they like the product, they're gonna re-subscribe whenever the thing gets actually canceled. So it's a gift to them, and the operational simplicity is a gift to us ourselves, and everybody is better for it.
+\[24:02\] The bad trade-off that would have led me to use WebHooks would be if I thought we cannot have the users have free access to the product for like even an hour after their credit card expires. We must process cancellations immediately via WebHooks, even though it complicates dev, it complicates CI, it complicates prod, and it's flaky. And the good trade-off is we don't care if the user has free access for an hour. Or a month, frankly. If they like the product, they're gonna re-subscribe whenever the thing gets actually canceled. So it's a gift to them, and the operational simplicity is a gift to us ourselves, and everybody is better for it.
 
 By using those WebHooks we would be building a real solution to an imagined problem, because it's not actually a problem. Okay, so that's the WebHooks.
 
@@ -172,7 +172,7 @@ So the queue doesn't exist, the WebHooks don't exist, the executor VMs don't exi
 
 I know it's a really tough problem to solve, and there's so many considerations. So it sounds almost like too easy to remove them... Because it's a hard decision, I suppose, and business is involved, and product is involved... And I think it requires almost like a special type of perspective, because you need to hold all perspectives, and you need to have the authority to make the call, and not argue amongst yourselves why this and why that. And I think that's like a privilege. But I really like what you said, that it's a gift. It's a gift to your users, it's a gift to your business, it's a gift to everyone that works at Execute Program... Because it just makes things so simple.
 
-\[00:28:21.13\] So you were able to observe this long-term, like a decade, give or take a few years... Because Execute Program - it's been going on for three years, but Destroy All Software has been going on even before that, and I'm sure that some of these simple, pragmatic choices have been present in Destroy All Software, too.
+\[28:21\] So you were able to observe this long-term, like a decade, give or take a few years... Because Execute Program - it's been going on for three years, but Destroy All Software has been going on even before that, and I'm sure that some of these simple, pragmatic choices have been present in Destroy All Software, too.
 
 **Gary Bernhardt:** They have, but it's a much simpler system. It doesn't have any of this stuff. I mean, certainly, you know, there's no queue... Basically, honestly, it's about the same architecture. Single worker process, Postgres backend servers. But you know, when I was building that, I never would have wanted to express opinions based on it in public, because it is so simple. But Execute Program is -- I mean, it's not the most complex app in the world or anything, but it is certainly a non-trivial system. And so the fact that it sounds plausible for it to be complex, but it is simple, is I think a good illustration of that gap.
 
@@ -204,7 +204,7 @@ And just to really drive it home - I didn't even claim that it was serverless. I
 
 **Gerhard Lazu:** TypeScript? Okay...
 
-**Gary Bernhardt:** \[00:31:53.15\] Frontend and backend, yeah. 100% TypeScript. The backend is Node. In fact, I didn't mention this when we were talking about architecture, but one of the major benefits of all the simplicity, in addition to all the operational stuff - it also makes local dev really easy. All you need is Node and Postgres. And even if your Postgres is a couple of major versions behind, it'll work. And CI definitely runs the right version, so it'll get checked to there. And so you need you do need the right version of Node, it won't even boot without that. And you need roughly a Postgres from within the last few years. And then I guess you need a Stripe key. And that's all you need to run to run it locally.
+**Gary Bernhardt:** \[31:53\] Frontend and backend, yeah. 100% TypeScript. The backend is Node. In fact, I didn't mention this when we were talking about architecture, but one of the major benefits of all the simplicity, in addition to all the operational stuff - it also makes local dev really easy. All you need is Node and Postgres. And even if your Postgres is a couple of major versions behind, it'll work. And CI definitely runs the right version, so it'll get checked to there. And so you need you do need the right version of Node, it won't even boot without that. And you need roughly a Postgres from within the last few years. And then I guess you need a Stripe key. And that's all you need to run to run it locally.
 
 **Gerhard Lazu:** So when you're saying Node, do you mean Deno? No, Node. Which Node version?
 
@@ -234,7 +234,7 @@ The CI though, I have spent -- about every six months there's like a CI apocalyp
 
 **Gerhard Lazu:** That is a lot.
 
-**Gary Bernhardt:** \[00:36:12.17\] Actually, I take that back. It's 79, because sometimes the deploy from the previous CI run is still going... Because CI actually pushes to Heroku, that's the way I've structured it. And so it has to be 79, so that it doesn't have to wait for the previous one. \[laughs\]
+**Gary Bernhardt:** \[36:12\] Actually, I take that back. It's 79, because sometimes the deploy from the previous CI run is still going... Because CI actually pushes to Heroku, that's the way I've structured it. And so it has to be 79, so that it doesn't have to wait for the previous one. \[laughs\]
 
 **Gerhard Lazu:** Wow, okay. That's a very interesting fact. 79 VMs, okay.
 
@@ -262,7 +262,7 @@ The CI though, I have spent -- about every six months there's like a CI apocalyp
 
 **Gerhard Lazu:** Yeah, that's a good one. That's a good one. Okay, okay.
 
-**Break:** \[00:38:48.03\]
+**Break:** \[38:48\]
 
 **Gerhard Lazu:** So I'd like us to switch gears and talk about how Execute Program came to be, and what made you change or switch gears. Let's use that again, from screencasts to a more interactive format.
 
@@ -274,7 +274,7 @@ And then the third one is video is a much more like kind of personal medium. I m
 
 **Gerhard Lazu:** Okay. So when it comes to how people interacted with Destroy All Software, and now with Execute Program, how did their behavior change?
 
-**Gary Bernhardt:** \[00:44:07.00\] I think Destroy All Software is much more likely to be sort of -- it's closer to entertainment, in a sense... Which was intentional; you know, it was designed to be fun to watch. Execute Program is much more motivated by the satisfaction of coming back the next day, getting a review for the thing you just learned, and finding that you actually remembered it and are able to complete those review code examples. And that feels better to me personally. I mean, both of these things are fine, but it feels really nice to have that sort of very material feedback for people and for us, that they're actually retaining information. And you can't get that without an interactive medium.
+**Gary Bernhardt:** \[44:07\] I think Destroy All Software is much more likely to be sort of -- it's closer to entertainment, in a sense... Which was intentional; you know, it was designed to be fun to watch. Execute Program is much more motivated by the satisfaction of coming back the next day, getting a review for the thing you just learned, and finding that you actually remembered it and are able to complete those review code examples. And that feels better to me personally. I mean, both of these things are fine, but it feels really nice to have that sort of very material feedback for people and for us, that they're actually retaining information. And you can't get that without an interactive medium.
 
 **Gerhard Lazu:** Yeah, that's right. I can definitely see that... Like, being able to try things out, seeing what you think you know, or what you think you understand is so valuable, beyond just like a small exercise in a book, or you try it out and see how you can continue this code, or whatever you do in a video. I think that's lot better.
 
@@ -290,7 +290,7 @@ So I do realize the challenge that that is, but have I haven't done it myself, s
 
 **Gary Bernhardt:** Yeah, it's a very difficult problem... Especially in a world where someone can write an automated tool that registers accounts, even maybe pays for them to get unlimited access, because the ROI on it is actually positive.
 
-**Gerhard Lazu:** \[00:47:56.19\] Yeah, exactly. Okay. So what do you see for Execute Program, for example, for like the next half of this year, but also beginning of next year? Do you have anything interesting coming up, anything that you're excited about maybe?
+**Gerhard Lazu:** \[47:56\] Yeah, exactly. Okay. So what do you see for Execute Program, for example, for like the next half of this year, but also beginning of next year? Do you have anything interesting coming up, anything that you're excited about maybe?
 
 **Gary Bernhardt:** I do. A lot of it is not really code, or production-related. A lot of it is just sort of -- honestly, I guess it's marketing, although not in traditional senses. My big focus, in addition to just marketing stuff... Everyone turns into a marketer in the long-term, I find... \[laughs\] Some way or another. But one of my focuses right now is to grow the team with people who are around in the long-term. In the past I've been sort of the one constant throughout the life of Execute Program; other people have worked on it, but they've been contractors, and kind of doing specific things here and there... And I really want to grow it into something where there's a team of people who -- you know, if I, let's say, get sick, or want to go on vacation for a month, or want to retire, eventually, I want to have a team that can that can run it without me. And I certainly don't have that right now. So that's, that's my big goal. It's organizational.
 
@@ -302,7 +302,7 @@ So when it comes to organizational complexity, when it comes to how you get your
 
 And a lot of times what I hear from friends who do work in larger organizations is that other parts of the business are basically setting constraints that the software teams then have to implement, and that can lead to tremendous inefficiencies, when you end up building things that don't really matter. So you have the vertical component of a specialty, you have the horizontal component of all the different specialties that you want to be able to work across, and then you have time, which I guess in this analogy is depth, although it starts to get weird to think about... But all of these things evolve over time. and the thing that really matters is you want like the integral of complexity over time; you want to minimize the total complexity over a period, a long period, like ten years, and most of that complexity is not going to be in the first six months, it's going to be in the maintenance. And many times, most of that complexity is not going to be in the code.
 
-\[00:52:03.17\] One example I really like to trot out here, because it's so horizontal, is suppose you're building a billing system, and you're using third-party to process credit cards. It has two modes. One mode is every single time a charge is run, we make a deposit to your bank account. We deposit the money immediately. The other mode is every day we do a deposit of all of the day's transactions. You might not have any preference, or there might be some reason that the per transaction thing is preferable to you first from a software perspective. But what does the bookkeeper think about this? The bookkeeper wants one transaction; they do not want 5,000 transactions a day. And you know, it's an easy to understand example, because even if you're not a bookkeeper, it's clear what it means. Obviously, it's more difficult to do that in more subtle cases, but that kind of thinking, being able to think across domains other than your own area of expertise is so, so valuable. And it's very valuable to an employer, if they're smart, if they see what they're getting.
+\[52:03\] One example I really like to trot out here, because it's so horizontal, is suppose you're building a billing system, and you're using third-party to process credit cards. It has two modes. One mode is every single time a charge is run, we make a deposit to your bank account. We deposit the money immediately. The other mode is every day we do a deposit of all of the day's transactions. You might not have any preference, or there might be some reason that the per transaction thing is preferable to you first from a software perspective. But what does the bookkeeper think about this? The bookkeeper wants one transaction; they do not want 5,000 transactions a day. And you know, it's an easy to understand example, because even if you're not a bookkeeper, it's clear what it means. Obviously, it's more difficult to do that in more subtle cases, but that kind of thinking, being able to think across domains other than your own area of expertise is so, so valuable. And it's very valuable to an employer, if they're smart, if they see what they're getting.
 
 **Gerhard Lazu:** I think this is a great, great takeaway. I was going to ask you for one takeaway to wrap our conversation today, but this is it to me. We are so comfortable in the areas that we operate in, and it sometimes hurts our brains to think about how money flows around the business, or what constraints is marketing setting for us. And those are some very good reasons we know why certain things need to happen by certain date, for example. Black Friday comes to mind; you know, the election time, things like that. Christmas. You either make it, or you miss it. I mean, there is no in between. And sometimes we have to do things in software, in operations, that sounds unreasonable. But the unreasonable part doesn't come from some of the requirements, it comes from the fact that our systems are so complex; they cannot adapt to these realities, which - that's exactly what they are, and it will happen, whether you like it or not. You'll either make it or you'll miss it. And then what can you do? Wish them away? No. You can keep things simple. You can optimize for all the things that you're not going to do, all those cues that you're not going to have... \[laughter\] Okay, and make it a reality, don't make it a lie, because you may not just need it, and you may not need Kubernetes. And I know this is big coming from me, but I'm coming around... You know, I'm starting to realize when you don't need it, and when you do. So it just goes both ways. Some of the trade-offs - just be more deliberate and have like a wider, horizontal perspective, rather than the vertical one. I really like that.
 
