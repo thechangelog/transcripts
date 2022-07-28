@@ -10,7 +10,7 @@
 
 **Dave Rupert:** We have the carry. I feel real good about today. To all the Shoptalk maniacs out there, we're doing this for you! \[laughter\]
 
-**Chris Coyier:** \[00:03:55.21\] We're basically the Ken Jennings of feuding about web technology.
+**Chris Coyier:** \[03:55\] We're basically the Ken Jennings of feuding about web technology.
 
 **Jerod Santo:** There you go. Well played. Notice what we did not hear is team Syntax, the losers; no offense, Syntax, but... \[laughter\] Not invited back. In their place, the contender this week are friends from the CSS Podcast, Una and Adam. What's up?!
 
@@ -52,7 +52,7 @@ When you steal, you can confer with your team. You can all decide on what you're
 
 After six rounds, the team with the most points wins. Any questions?
 
-**Una Kravets:** \[00:06:18.21\] Is there a buzzer? Can we buzz in?
+**Una Kravets:** \[06:18\] Is there a buzzer? Can we buzz in?
 
 **Jerod Santo:** There will not be a buzzer. We will take turns instead, just because real-time issues... And so even when we do the face-off, we will let one team guess first, and then the other team guess second, and we'll just rotate teams each round, so it's fair.
 
@@ -152,7 +152,7 @@ After six rounds, the team with the most points wins. Any questions?
 
 **Amelia Wattenberger:** That's a good one.
 
-**Dave Rupert:** \[00:10:02.28\] Oh, sorry. I had other ones, I could give you that one...
+**Dave Rupert:** \[10:02\] Oh, sorry. I had other ones, I could give you that one...
 
 **Jerod Santo:** A very targeted answer, at our targeted audience... Does it pay off? \[win alert\] Yes, it does.
 
@@ -294,7 +294,7 @@ After six rounds, the team with the most points wins. Any questions?
 
 **Jerod Santo:** A couple of honorable mentions - two people mentioned SQL, so there you go, Adam... And one person said "That's the only other language I know." One person said "I don't know any other languages." One person said CoffeeScript, which was just...
 
-**Adam Argyle:** \[00:14:01.15\] Yeahh-- I mean, what? \[laughter\]
+**Adam Argyle:** \[14:01\] Yeahh-- I mean, what? \[laughter\]
 
 **Jerod Santo:** And one person said jQuery, which... Yeah, a little bit out there... But one person loves jQuery.
 
@@ -412,7 +412,7 @@ Adam, back to you. You have one strike, and you have three answers left, slots t
 
 **Dave Rupert:** So we've got to keep going, team. What have you got?!
 
-**Jerod Santo:** \[00:18:04.27\] Yup, keep going. So we're back to Una. You have to get that number four and five slot. There's two left on the board, and you have one strike left.
+**Jerod Santo:** \[18:04\] Yup, keep going. So we're back to Una. You have to get that number four and five slot. There's two left on the board, and you have one strike left.
 
 **Una Kravets:** Alright, I'm gonna go with someone who I've definitely learned a lot from... Sarah Drasner.
 
@@ -506,7 +506,7 @@ Guess another one. We'll give you one more guess.
 
 **Jerod Santo:** But don't worry, there's more rounds to play. We head to round three, and we face off Amelia versus Nick. Step right up.
 
-**Break:** \[00:21:19.15\] to \[00:22:26.00\]
+**Break:** \[21:19\] to \[22:26\]
 
 **Jerod Santo:** The question for this round - which emoji do you use most often in commit messages? \[laughter\] We're back to team Shoptalk.
 
@@ -574,7 +574,7 @@ Guess another one. We'll give you one more guess.
 
 **Jerod Santo:** Professionals... In fact, one person said "I don't use emoji commit messages, you heathens." \[laughter\] So they were not just saying "None", they were mad about it.
 
-**Dave Rupert:** \[00:24:10.23\] 42 people were like "I reject the premise of this entire question." \[laughter\]
+**Dave Rupert:** \[24:10\] 42 people were like "I reject the premise of this entire question." \[laughter\]
 
 **Una Kravets:** Which is almost half.
 
@@ -722,7 +722,7 @@ Guess another one. We'll give you one more guess.
 
 **Amelia Wattenberger:** What are these answers?!
 
-**Jerod Santo:** \[00:28:08.11\] This was a tough round.
+**Jerod Santo:** \[28:08\] This was a tough round.
 
 **Dave Rupert:** Aliens answered this one.
 
@@ -868,7 +868,7 @@ So there are six answers on the board, and the statement that we had them respon
 
 **Dave Rupert:** Out of the box, Jurassic Park pick. \[laughter\]
 
-**Una Kravets:** \[00:32:01.14\] Yeah.
+**Una Kravets:** \[32:01\] Yeah.
 
 **Jerod Santo:** Do developers hang out on Twitter?
 
@@ -992,15 +992,15 @@ So there are six answers on the board, and the statement that we had them respon
 
 **Dave Rupert:** It's Space Jam and Alibaba. I think those are kind of the last ones...
 
-**Nick Nisi:** Let's see... There is one that's very obvious... I'm going to say Npm.
+**Nick Nisi:** Let's see... There is one that's very obvious... I'm going to say npm.
 
-**Jerod Santo:** Hm... Do JS Party listeners frequent Npm? \[fail alert\]
+**Jerod Santo:** Hm... Do JS Party listeners frequent npm? \[fail alert\]
 
 **Una Kravets:** That was a good answer though.
 
 **Jerod Santo:** Good answer, good answer. Tough, tough to match what people are thinking. We're gonna go back over to Dave on Shoptalk.
 
-**Dave Rupert:** \[00:36:07.27\] Oh, my gosh... Okay. We've got Stack Overflow, we've got MDN, we've got GitHub, and then people do other stuff, not YouTube, and then they do Twitter. I'm gonna just do like Amazon.com, I don't know... I don't know.
+**Dave Rupert:** \[36:07\] Oh, my gosh... Okay. We've got Stack Overflow, we've got MDN, we've got GitHub, and then people do other stuff, not YouTube, and then they do Twitter. I'm gonna just do like Amazon.com, I don't know... I don't know.
 
 **Chris Coyier:** Something Amazon-related.
 
@@ -1058,7 +1058,7 @@ So there are six answers on the board, and the statement that we had them respon
 
 **Jerod Santo:** Okay, that brings us to the end of the inverted round. That's round four. There's two rounds left, and after four rounds the CSS Podcast leads with 265 points, Shoptalk now - hey, you're cooking. You've got 50, so you're on the board and you're ready to play round five. Here we go!
 
-**Break:** \[00:38:20.17\] to \[00:38:29.10\]
+**Break:** \[38:20\] to \[38:29\]
 
 **Jerod Santo:** We will have a face-off. I think we're back to Dave and Una facing off. We asked developers to name a place outside of your house where you like to code/work. There are six answers on the board. We'll start with Una this time.
 
@@ -1114,7 +1114,7 @@ So there are six answers on the board, and the statement that we had them respon
 
 **Jerod Santo:** Oh, at your office. I thought you were just throwing the question back at me. "Where do I like to work? Work!" The office. Do people like to work at their offices? \[win alert\] Yes, they do. That is answer number three. I'm treading very slowly now on my flips...
 
-**Una Kravets:** \[00:40:13.18\] Nice.
+**Una Kravets:** \[40:13\] Nice.
 
 **Jerod Santo:** So the office had 21 responses. Good answer. So that's number three. One and three are gone, two, four five and six still remain. You have one strike against you, so we're back to Una, and you have two potential strikes before the steal.
 
@@ -1250,7 +1250,7 @@ So there are six answers on the board, and the statement that we had them respon
 
 **Amelia Wattenberger:** We don't wanna mess this one up.
 
-**Jerod Santo:** \[00:44:28.14\] You don't wanna mess this one up.
+**Jerod Santo:** \[44:28\] You don't wanna mess this one up.
 
 **Dave Rupert:** Okay.
 
@@ -1358,7 +1358,7 @@ So there are six answers on the board, and the statement that we had them respon
 
 **Una Kravets:** Okay. I'm gonna say "Sketch it out." Make a plan, sketch it out.
 
-**Jerod Santo:** \[00:48:08.06\] Sketch it out. Do people sketch out their new project ideas? \[win alert\] Yes, they do. Number five answer - draw, whiteboard, or prototype.
+**Jerod Santo:** \[48:08\] Sketch it out. Do people sketch out their new project ideas? \[win alert\] Yes, they do. Number five answer - draw, whiteboard, or prototype.
 
 **Nick Nisi:** Nice.
 
@@ -1462,7 +1462,7 @@ So there are six answers on the board, and the statement that we had them respon
 
 **Adam Argyle:** Okay, I've got a final guess... This is a little more personal, I guess, because I have a lot of ideas, and when you have a lot of ideas, they tend to go in the backlog, so the first thing I do is I take this idea and I put it in the list of all the other ideas that I have.
 
-**Una Kravets:** \[00:51:58.28\] Oh, that's a great answer, Adam.
+**Una Kravets:** \[51:58\] Oh, that's a great answer, Adam.
 
 **Jerod Santo:** Show us "Add it to the list." \[win alert\] Number one answer.
 
