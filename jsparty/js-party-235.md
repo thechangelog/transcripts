@@ -472,7 +472,7 @@ Guess another one. We'll give you one more guess.
 
 **Jerod Santo:** Well, now I feel terrible.
 
-**Dave Rupert:** I mean, Josh might be \[unintelligible 00:20:12.11\]
+**Dave Rupert:** I mean, Josh might be--
 
 **Chris Coyier:** Let's just do it.
 
@@ -494,7 +494,7 @@ Guess another one. We'll give you one more guess.
 
 **Jerod Santo:** Someone who helps many people. FreeCodeCamp/Quincy Larson. Six votes.
 
-**Adam Argyle:** We're heading for a \[unintelligible 00:20:44.28\] here?
+**Adam Argyle:** We're heading for a shutout here?
 
 **Jerod Santo:** Well, it's a text field, so whatever they type in... And the last one, number five, Brad Traversy, the popular YouTuber.
 
@@ -614,7 +614,7 @@ Guess another one. We'll give you one more guess.
 
 **Jerod Santo:** Yeah. Good job, very nice. So now number one and number six are taken. We go to Adam.
 
-**Adam Argyle:** Nice. So the celebrations are definitely -- you know, after your 20th commit, trying to get your GitHub Action to finally do the thing, you're like \[unintelligible 00:25:28.29\] It works!"
+**Adam Argyle:** Nice. So the celebrations are definitely -- you know, after your 20th commit, trying to get your GitHub Action to finally do the thing, you're like "Huzzah! It works!"
 
 **Jerod Santo:** \[laughs\] "It works! Finally!"
 
@@ -690,7 +690,7 @@ Guess another one. We'll give you one more guess.
 
 **Amelia Wattenberger:** I like the nail polish.
 
-**Chris Coyier:** Or the wrench, when the tool -- for fixes, \[unintelligible 00:27:30.21\]
+**Chris Coyier:** Or the wrench, when the tool -- for fixes, is what I was thinking
 
 **Dave Rupert:** Oh, yeah, yeah.
 
@@ -760,7 +760,7 @@ Guess another one. We'll give you one more guess.
 
 **Una Kravets:** I was thinking the ship as another...
 
-**Jerod Santo:** And then the classic, age-old thumbs up. \[unintelligible 00:28:46.06\]
+**Jerod Santo:** And then the classic, age-old thumbs up. You just got the thumbs up.
 
 **Una Kravets:** Oh...
 
@@ -848,7 +848,7 @@ So there are six answers on the board, and the statement that we had them respon
 
 **Jerod Santo:** Now it's to Chris.
 
-**Chris Coyier:** I'm just going to pick something safe. We'll just say Stack Overflow. It's gonna be on \[unintelligible 00:31:33.19\]
+**Chris Coyier:** I'm just going to pick something safe. We'll just say Stack Overflow. It's gonna be on the six
 
 **Una Kravets:** Oh, yeah.
 
@@ -1004,7 +1004,7 @@ So there are six answers on the board, and the statement that we had them respon
 
 **Chris Coyier:** Something Amazon-related.
 
-**Dave Rupert:** Let's see if the big ones, the big \[unintelligible 00:36:26.10\] This is my Jurassic Park answer.
+**Dave Rupert:** Let's see if the big ones, the big obvas. This is my Jurassic Park answer.
 
 **Jerod Santo:** So Amazon, final answer?
 
@@ -1150,11 +1150,11 @@ So there are six answers on the board, and the statement that we had them respon
 
 **Jerod Santo:** Do people like to code at the bar? \[win alert\] Yes, they do. Six points for that one. That's number five, so two, four and six remain.
 
-**Chris Coyier:** \[unintelligible 00:41:39.01\] suck at drinking. I need to focus. \[laughter\]
+**Chris Coyier:** I suck at drinking. I need to focus. \[laughter\]
 
 **Jerod Santo:** Get focused.
 
-**Dave Rupert:** \[unintelligible 00:41:45.07\] get yourself to one task at a time.
+**Dave Rupert:** Dedicate yourself yourself to one task at a time.
 
 **Nick Nisi:** I'm gonna say the park/outdoors.
 
@@ -1298,7 +1298,7 @@ So there are six answers on the board, and the statement that we had them respon
 
 **Dave Rupert:** Can we take points away from the people who answered that? Can they lose points?
 
-**Jerod Santo:** \[laughs\] You're gonna have to find \[unintelligible 00:45:37.12\] and go take their points away.
+**Jerod Santo:** \[laughs\] You're gonna have to find them and de-anonymize them and go take their points away.
 
 **Dave Rupert:** Perfect.
 
@@ -1384,7 +1384,7 @@ So there are six answers on the board, and the statement that we had them respon
 
 **Dave Rupert:** Everyone gets infinity guesses, I guess... \[laughter\]
 
-**Jerod Santo:** \[unintelligible 00:48:53.27\]
+**Jerod Santo:** What are you gonna say next, tell someone?
 
 **Adam Argyle:** The database isn't letting me insert my value, so that means my turn isn't up yet, so I get to keep trying, right?
 
