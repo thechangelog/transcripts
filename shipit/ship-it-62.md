@@ -106,7 +106,7 @@ And this evolution - so we started with Docker, we went to Kubernetes, and now w
 
 **Gerhard Lazu:** 75% correct. \[laughter\]
 
-**Gary Bernhardt:** So going through those same things in order... The primary database is Postgres. I do love Postgres. It's great. The backend servers are at Heroku, and they are a single-process, monolithic, one repo, one service. Fix number of \[unintelligible 00:19:28.26\] We don't bother with auto-scaling; we just have a bunch of headroom. The thing is quite efficient. It doesn't need to auto-scale.
+**Gary Bernhardt:** So going through those same things in order... The primary database is Postgres. I do love Postgres. It's great. The backend servers are at Heroku, and they are a single-process, monolithic, one repo, one service. Fix number of dinos though. We don't bother with auto-scaling; we just have a bunch of headroom. The thing is quite efficient. It doesn't need to auto-scale.
 
 So here are the things that are actually different. Everything else is different. There is no queue. There's exactly -- there is a worker process. There's exactly one worker process. Never zero, never two. I mean, it could handle -- it wouldn't be bad if there were zero or two, but there's just always one, just by convention, I guess. So no auto-scaling or manual scaling on that. No queue, I think I said that...
 
@@ -132,7 +132,7 @@ So whenever I explain one of these lies, I want to show the trade-offs that we c
 
 **Gary Bernhardt:** When I have a good one, I'll come back for a 45 second podcast, and I'll be like, "X is good."
 
-**Gerhard Lazu:** Well, \[unintelligible 00:22:17.11\] lie first, then the real thing. I'm sure we can make it at least 90 seconds long. \[laughs\]
+**Gerhard Lazu:** Well, if you embrace the lie first, then the real thing. I'm sure we can make it at least 90 seconds long. \[laughs\]
 
 **Gary Bernhardt:** Yes. "You should write your own SMTP client." \[laughs\]
 
@@ -156,7 +156,7 @@ But suppose we want to make a course on Node, which we can't really run on the b
 
 So the queue doesn't exist, the WebHooks don't exist, the executor VMs don't exist. The actual architecture is just Postgres, monolithic backend, a single worker process that wakes up once per hour, and that's basically it.
 
-**Gerhard Lazu:** So in conclusion, I think it's safe to say that you optimized for \[unintelligible 00:26:33.06\] Anything above zero, not so good. Is that what happened here?
+**Gerhard Lazu:** So in conclusion, I think it's safe to say that you optimized for no Wats. Zero Wats is good. Anything above zero, not so good. Is that what happened here?
 
 **Gary Bernhardt:** True. I mean, I don't know if I achieved zero, but certainly, we're trying to limit those as much as possible. \[laughter\]
 
@@ -168,7 +168,7 @@ So the queue doesn't exist, the WebHooks don't exist, the executor VMs don't exi
 
 **Gary Bernhardt:** I think somebody else did, yeah.
 
-**Gerhard Lazu:** Right. I'm sure the equivalent of that in infrastructure exists. I just don't know about it yet. So if someone that listens to this knows that, infrastructure \[unintelligible 00:27:22.12\] whether it's Kubernetes, whether it's something else, whether it's queues, whether it's all those executor VMs that that run... I don't know, Play With Node, Play With something else maybe, I don't know...
+**Gerhard Lazu:** Right. I'm sure the equivalent of that in infrastructure exists. I just don't know about it yet. So if someone that listens to this knows that, infrastructure Wats whether it's Kubernetes, whether it's something else, whether it's queues, whether it's all those executor VMs that that run... I don't know, Play With Node, Play With something else maybe, I don't know...
 
 I know it's a really tough problem to solve, and there's so many considerations. So it sounds almost like too easy to remove them... Because it's a hard decision, I suppose, and business is involved, and product is involved... And I think it requires almost like a special type of perspective, because you need to hold all perspectives, and you need to have the authority to make the call, and not argue amongst yourselves why this and why that. And I think that's like a privilege. But I really like what you said, that it's a gift. It's a gift to your users, it's a gift to your business, it's a gift to everyone that works at Execute Program... Because it just makes things so simple.
 
