@@ -10,7 +10,7 @@ I think both you and I sort of cringe when--
 
 **Daniel Whitenack:** Yeah, I don't know about you, but it's almost how did we get here? what is this state that we're in that people are calling these AI models sentient? How did we get to this state? Was it unexpected? Was it expected? What was the path that led us here? All of those kinds of questions come up in my mind. What's your thought?
 
-**Chris Benson:** You know, a little bit of both, I guess. I guess any of our longtime listeners know that at the end of the day we are very practical and pragmatic in terms of how we look at these things. And we have been doing this long enough to where we've seen quite a lot of evolution in the field. And certainly, acknowledging that the goalposts kind of keep moving on various levels of kind of performance evaluation, if you will, for different models... But we've kind of come to a point this year where we're seeing some models with new, more expensive capabilities than the narrow \[unintelligible 00:04:11.19\] of the past. And so maybe this is a logical moment for people to kind of reevaluate and apply some labels to it.
+**Chris Benson:** You know, a little bit of both, I guess. I guess any of our longtime listeners know that at the end of the day we are very practical and pragmatic in terms of how we look at these things. And we have been doing this long enough to where we've seen quite a lot of evolution in the field. And certainly, acknowledging that the goalposts kind of keep moving on various levels of kind of performance evaluation, if you will, for different models... But we've kind of come to a point this year where we're seeing some models with new, more expensive capabilities than the narrow ones of the past. And so maybe this is a logical moment for people to kind of reevaluate and apply some labels to it.
 
 \[04:21\] When people talk about models having sentience today, I'm really struggling with that... But I think it's probably every time we're hitting kind of a major set of milestones, we'll probably have these conversations.
 
@@ -144,7 +144,7 @@ What I think's interesting and that the \[unintelligible 00:35:09.06\] paper kin
 
 **Daniel Whitenack:** This is a totally off-the-wall idea and train of thought, that has nothing to do with anything, but Chris, I know all that you do with animals... My wife is giving me a bit of a hard time, because I'm kind of geeking out over this... In our patio, she moved some house plants out there, and we have a bird that established a home in one of the pots out there, and has laid a couple of eggs so far, and so I'm trying to determine what is the appropriate live stream camera that I can set up to observe this, and then what -- there has to be some type of like alert that I can do that's AI-driven, that tells me when an egg has hatched, or when there's feeding going on, or something. Yeah, this has consumed my thoughts for the past few days.
 
-**Chris Benson:** I'm not surprised at all... Although I was too lazy -- we just stuck a live feed camera in there and watched it. And if there was daylight, there was always stuff going on between mom and dad \[unintelligible 00:38:30.23\]
+**Chris Benson:** I'm not surprised at all... Although I was too lazy -- we just stuck a live feed camera in there and watched it. And if there was daylight, there was always stuff going on between mom and dad taking care of the eggs.
 
 **Daniel Whitenack:** Okay. Interesting.
 
