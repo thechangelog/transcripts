@@ -128,7 +128,7 @@ That's one of the reasons why I love the Go Playground, because I'm glad they th
 
 **Carmen Andoh:** Yeah, this is a good thing that I kind of was wondering... Like, how much is setup a part of learning Go versus other languages? And you mentioned PHP and Java, and if it's different. What are some of the setup gotchas in addition, or you think are gonna be the gotchas, or the learning gotchas? And maybe we can ask for audience participation on the \#GoTimeFm Slack channel.
 
-**Ashley Willis:** Well, some of these \[unintelligible 00:28:29.05\] are saying that GOPATH made perfect sense to them, so... Good job, guys! Good job.
+**Ashley Willis:** Well, some of these showoffs are saying that GOPATH made perfect sense to them, so... Good job, guys! Good job.
 
 **Jon Calhoun:** I think the problem with it was it either made sense to you, or it made no sense to you. There was no middle ground.
 
@@ -180,7 +180,7 @@ For me, when I learn a new programming language - I am not ashamed by this, I do
 
 **Jon Calhoun:** \[33:56\] I hope you have a good artist, because I feel like that'd be my biggest limitation; if I was drawing it, it would like a five-year-old drew the whole thing.
 
-**David Valentine:** Oh, \[unintelligible 00:34:01.26\] I'd be full up on the red, green and blue colors. It would look horrific, so... Yeah, I need -- any artists, shout it out and I could probably use some folks to collaborate with on this, no doubt.
+**David Valentine:** Oh, I am a coder art scheme. I'd be full up on the red, green and blue colors. It would look horrific, so... Yeah, I need -- any artists, shout it out and I could probably use some folks to collaborate with on this, no doubt.
 
 **Ashley Willis:** I'm here, I'm taking note... \[laughs\]
 
