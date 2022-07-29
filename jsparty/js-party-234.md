@@ -86,7 +86,7 @@ So Fresh really tries to not reinvent the wheel, pretty much anywhere. It tries 
 
 So it's cool that fresh is -- I really like that you get to write your app in a modern way, and get this sort of like one-way data flow that React and Preact and all that stuff gives you, while still getting all the advantages of a multi-page app. So I think this is actually gonna be a really nice sweet spot for folks.
 
-**Luca Casonato:** Yeah. I always like the example of Figma, \[unintelligible 00:15:49.01\] Figma is very obviously something that you need to do client-side rendering for. This is something that's impossible to do with server-side. There's just too much interaction. But something like your blog - this probably does not require client-side rendering at all. It can be fully server-side rendered.
+**Luca Casonato:** Yeah. I always like the example of Figma, and your blog page right? Figma is very obviously something that you need to do client-side rendering for. This is something that's impossible to do with server-side. There's just too much interaction. But something like your blog - this probably does not require client-side rendering at all. It can be fully server-side rendered.
 
 \[16:09\] And it's really difficult to figure out at what point -- is an eCommerce site something you need to SPA, NPA? I think it really depends, as Feross said, on exactly what you want to be doing. If there are things that you require an SPA for, then you sort of have to use an SPA. But I think you should try to default to an NPA and then only go the SPA route if you really have to. If there's no other way around it.
 
@@ -106,7 +106,7 @@ So it's cool that fresh is -- I really like that you get to write your app in a 
 
 **Feross Aboukhadijeh:** But we had to create a new word. So is island something like that? Could you explain what an island is for us?
 
-**Luca Casonato:** Yeah, islands is like progressive hydration, essentially. Well, it's not quite progressive hydration; it kind of depends on how you define progressive hydration. The idea of islands is that you do server-side rendering, and you enhance \[unintelligible 00:17:18.19\] only some components of the page on the client. For example, you have a blog page with a comment section; you want the comment section to be highly interactive and client-side rendered, but you want the markdown itself of the blog to be completely server-side rendered.
+**Luca Casonato:** Yeah, islands is like progressive hydration, essentially. Well, it's not quite progressive hydration; it kind of depends on how you define progressive hydration. The idea of islands is that you do server-side rendering, and you enhance with client-interaction only some components of the page on the client. For example, you have a blog page with a comment section; you want the comment section to be highly interactive and client-side rendered, but you want the markdown itself of the blog to be completely server-side rendered.
 
 The idea is that that comment section can be an island, which is like client-side rendered - the JavaScript for that is shipped to the client - but the surrounding scaffold does not need to be shipped to the client at all. Only the markup itself, the HTML needs to be shipped to the client.
 
@@ -128,7 +128,7 @@ And Jason Miller came up with this concept of island architectures like two year
 
 So on a typical NPA, server-side rendered, if I had seven comments on my blog post and I hit Cmd+R to refresh, my server is gonna render the HTML for those seven comments. Now, does that still happen, but now you hydrate the interactivity, or you're actually just dynamically loading the HTML, JSON, whatever it is, that gets hydrated?
 
-**Luca Casonato:** You could do either. By default, what will happen is that it will render the HTML on both the client and the server. So the Fresh homepage has this counter-example right on the homepage \[unintelligible 00:19:53.27\] server-side rendered, but the server-side render has the buttons disabled, for example. So when the client hydrates, it enables the buttons. So you still have the shell there, you don't get a layout jump, but it's not interactive yet, and it shows that it isn't interactive until the JavaScript is there on the client to deal with it.
+**Luca Casonato:** You could do either. By default, what will happen is that it will render the HTML on both the client and the server. So the Fresh homepage has this counter-example right on the homepage, that counts your server-side rendered, but the server-side render has the buttons disabled, for example. So when the client hydrates, it enables the buttons. So you still have the shell there, you don't get a layout jump, but it's not interactive yet, and it shows that it isn't interactive until the JavaScript is there on the client to deal with it.
 
 But if you want to render some scaffold on the server that's in your component, you can conditionally check "If I'm on the server, return a scaffold", right?
 
@@ -198,11 +198,11 @@ So the other restriction is that you have to have one island per file in the isl
 
 **Jerod Santo:** So the islands folder... Then the routes folder. Tell us about routing and how it works.
 
-**Luca Casonato:** Yeah, so the routes folder is actually very much inspired by Next.js. This is one of these things which -- like, Next.js did an awesome job originally with how their routing worked; it still does, I think. And yeah, it pretty much works the same way; it's one file per route. You can have dynamic routes where you specify the \[unintelligible 00:25:27.02\] yourself if you need to do something really advanced... But yeah, it's one file per route, and the route can have a component that it renders, and it can have a handler. And that handler can do things like data loading... Handlers are really just like async functions which take in a request and return a response; web request and web response.
+**Luca Casonato:** Yeah, so the routes folder is actually very much inspired by Next.js. This is one of these things which -- like, Next.js did an awesome job originally with how their routing worked; it still does, I think. And yeah, it pretty much works the same way; it's one file per route. You can have dynamic routes where you specify the match here yourself if you need to do something really advanced... But yeah, it's one file per route, and the route can have a component that it renders, and it can have a handler. And that handler can do things like data loading... Handlers are really just like async functions which take in a request and return a response; web request and web response.
 
 So you can do anything you want in there, and at any point in time you can call the render function. This might not make much sense if you haven't seen the code, but it's right in the documentation if you wanna look at it. And you can call that render function that will render out the component into a response. And by default, you don't need to specify this; the default for the handler is that it just renders out your component. If you wanna do data loading, you can do that in there. Or if you want to do like a redirect, you can also do that in there. You can do anything you want in it; it's just an HTTP handler. And you can have different HTTP handlers for POST methods, and GET methods, so you can handle form submissions that way as well...
 
-The routes folder is really -- you have one file per \[unintelligible 00:26:23.14\] and inside of there you can declare both the component to render for that page, and the handlers for each of the HTTP methods that you want to handle.
+The routes folder is really -- you have one file per pass you want to match, and inside of there you can declare both the component to render for that page, and the handlers for each of the HTTP methods that you want to handle.
 
 **Feross Aboukhadijeh:** This is really cool. I like it a lot. It's really elegant.
 
@@ -236,7 +236,7 @@ For example, for users that are in the EU, you'd have their data live in Frankfu
 
 **Jerod Santo:** So that breaks a lot of caching in many places, and you're like "Well, I have to render the whole page dynamically, because it's different for Luca than it is for Feross." And I can have one that's for everybody who's logged out, but once you're logged in, it breaks. But I think maybe with islands, if you had certain areas of your site that are personalized, you could potentially have a static version of the HTML "server-side rendered", but it's the same every time, or whatever, cached... And then maybe hydrate just the dynamic, personalized portions, if you could have an island by itself just be rendered. Is that something people are doing?
 
-**Luca Casonato:** Yeah, so that's possible... One problem with that is you would essentially send back an empty shell to users if they're signed in, and you would then fill in that shell using client-side rendering... We much prefer the model where for stuff like this you just render the page on every request dynamically. We have these edges nowadays -- like, Deno Deploy is like 34 regions across the world. You can get a 15 millisecond response time from anywhere. \[unintelligible 00:31:20.09\]
+**Luca Casonato:** Yeah, so that's possible... One problem with that is you would essentially send back an empty shell to users if they're signed in, and you would then fill in that shell using client-side rendering... We much prefer the model where for stuff like this you just render the page on every request dynamically. We have these edges nowadays -- like, Deno Deploy is like 34 regions across the world. You can get a 15 millisecond response time from anywhere. Not if you're in Australia
 
 **Jerod Santo:** Yeah, but not if I'm going back to LaGuardia for my data. Like, if you think about an app like Facebook, which I honestly don't know how it works, because I haven't used Facebook since like 2008... But I know it has Messenger, I know it's got your list of friends, it's got your news... And all these things are highly personalized to who you are. All that data needs to get fetched from some database somewhere.
 
@@ -278,7 +278,7 @@ If you have something which is really highly interactive and it requires client-
 
 **Luca Casonato:** If anyone else does, I won't though. \[laughter\] No, it's 1.0. We went 1.0. I'm not planning to do a 2.0 tomorrow. Nor am I planning to do a 2.0 in the next three months, or six months, or nine months probably even. Deno has been out for two years now, it's still in the 1.x release branch; we're at 1.24 right now... And the reason we've managed to do that is because we really thought long and hard about the API stability before we release 1.0. And we did the same with Fresh. So we're hoping that the API is gonna be strong enough to have real people using it and not break. And if there are things that will change, they'll change in a backwards-compatible way, so as to not break your applications.
 
-**Jerod Santo:** What kind of stuff is missing? When I think of batteries included, I think of things like testing harnesses, deployment stories, form builders, I think of things like CSRF protection and various things that generally are the kind of smaller batteries that get added later when the thing is more mature. But at 1.0, what is some major stuff that's missing? If I do pick it up for my blog, or my eCommerce site, or to rewrite Bitmidi for Feross, what \[unintelligible 00:38:37.18\] have to go out and find or build my own?
+**Jerod Santo:** What kind of stuff is missing? When I think of batteries included, I think of things like testing harnesses, deployment stories, form builders, I think of things like CSRF protection and various things that generally are the kind of smaller batteries that get added later when the thing is more mature. But at 1.0, what is some major stuff that's missing? If I do pick it up for my blog, or my eCommerce site, or to rewrite Bitmidi for Feross, what about stuff I'm gonna have to go out and find or build my own?
 
 **Luca Casonato:** Yeah, so the things that are really included right now is routing, templating and data handling. What is not included right now is anything related to data persistence, so that's something that we're gonna be working on. The story around styling, around CSS - it works, but it's not great yet. There's definitely gonna be improvements there. And the story around being able to talk between islands, so client-side rendered code and the server, dynamically, to do like data fetching from the server dynamically - that's also gonna be improved in the future very much.
 
@@ -308,7 +308,7 @@ We have a way to do build steps right now using GitHub Actions if you want to, b
 
 **Jerod Santo:** I noticed it does generate .ts files. Can I turn that off?
 
-**Luca Casonato:** You can't actually in the Fresh \[unintelligible 00:41:20.15\] but you can manually rename all your files to JavaScript if you want to... \[laughter\]
+**Luca Casonato:** You can't actually in the Fresh -- but you can manually rename all your files to JavaScript if you want to... \[laughter\]
 
 **Jerod Santo:** Actually, that might be kind of satisfying, just to go in there and like "Just JavaScript, please."
 
@@ -342,7 +342,7 @@ We have a way to do build steps right now using GitHub Actions if you want to, b
 
 **Feross Aboukhadijeh:** My objection is usually around just the amount of overhead it takes to get going, which I think Deno solves...
 
-**Jerod Santo:** \[43:09\] Exactly. That's why I had to just say this, because this does solve it. Getting started \[unintelligible 00:43:12.02\] Okay, so that's stuff that's missing. We talked about who should use it, who should not use it... What about the community? It's very much a Deno company kind of building this thing, but is it like hands-off, Deno is building this thing? Or is it like "Hey, come contribute. We wanna form a community around it"? Is there a governance model? Etc.
+**Jerod Santo:** \[43:09\] Exactly. That's why I had to just say this, because this does solve it. Getting started was, and getting all rigged up. Okay, so that's stuff that's missing. We talked about who should use it, who should not use it... What about the community? It's very much a Deno company kind of building this thing, but is it like hands-off, Deno is building this thing? Or is it like "Hey, come contribute. We wanna form a community around it"? Is there a governance model? Etc.
 
 **Luca Casonato:** Yeah, so it's open source, anyone can contribute. Just to give you a frame of reference of what the interactivity here is from the community... Every day I wake up -- today I have like (I don't know) 20, 25, 30 open PRs, and 30 new issues on the repo to deal with. And then I spend the first five hours of my day merging community PRs, and replying to issues, and GitHub discussions, and whatever. So there's a lot of community interest here, and people are actively contributing. And actually, one of the people that is working on Fresh - he does not work at the Deno team at all - he just liked the project and started contributing to it.
 
