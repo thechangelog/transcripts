@@ -24,7 +24,7 @@
 
 **On Freund:** That's a good question. \[laughter\] Actually, now that you're saying it, maybe we invented the word, maybe we didn't, but we thought it existed. But I think what really differentiates upskilling from learning is that learning is usually focused on theory, whereas upskilling is more about the skills and bringing them up. It's how you take your skills and take them to the next level, rather than learn some new theory.
 
-**Jerod Santo:** \[00:06:02.17\] Yeah. I guess it also kind of implies there's some sort of skills in the first place, and you're going up from where they are... Whereas sometimes learning can be like from a complete scratch, complete baseline.
+**Jerod Santo:** \[06:02\] Yeah. I guess it also kind of implies there's some sort of skills in the first place, and you're going up from where they are... Whereas sometimes learning can be like from a complete scratch, complete baseline.
 
 **On Freund:** Correct, yup.
 
@@ -86,7 +86,7 @@ So just managing that scale, managing that model - nothing like that ever existe
 
 **Adam Stacoviak:** I wouldn't put it like that, but I get what you mean.
 
-**Jerod Santo:** \[00:14:09.17\] So one of the things that WeCrashed show portrayed, which I love your take on - in light of some of the things that you're talking about, the things that you worked on while you were there... Of course, you were not doing nothing for six years; you built a lot of things. And there was this plotline where it was like "Adam Neumann had to continue raising more money, and he had a harder time raising money around a co-working real estate company than he did around like a software startup company... Because of course, VCs want to invest in things with like huge margins, right? And so he had like this whole -- it's like, it's a tech company, it's a software company... And the insinuation from my take of watching the show was like "But he was kind of making all that up, and it never really was." And I'm wondering if in light of what you've been telling us - like, does that sentiment offend you, or do you think it's like made up whole cloth, or what are your thoughts on that?
+**Jerod Santo:** \[14:09\] So one of the things that WeCrashed show portrayed, which I love your take on - in light of some of the things that you're talking about, the things that you worked on while you were there... Of course, you were not doing nothing for six years; you built a lot of things. And there was this plotline where it was like "Adam Neumann had to continue raising more money, and he had a harder time raising money around a co-working real estate company than he did around like a software startup company... Because of course, VCs want to invest in things with like huge margins, right? And so he had like this whole -- it's like, it's a tech company, it's a software company... And the insinuation from my take of watching the show was like "But he was kind of making all that up, and it never really was." And I'm wondering if in light of what you've been telling us - like, does that sentiment offend you, or do you think it's like made up whole cloth, or what are your thoughts on that?
 
 **On Freund:** It does, because it's close to home, and it's one of the most inaccurate parts of the show.
 
@@ -150,7 +150,7 @@ So just managing that scale, managing that model - nothing like that ever existe
 
 **Jerod Santo:** So we found on WeWork Technologies' blog, Matt Star went through the history of WeWork.com. This was written back in 2017, and I think you're thanked for helping contribute or something to this post. And that's a nice kind of run through of -- that's just the .com. The technology behind that started off as WordPress, and there was a new WordPress theme, then Ruby on Rails, then there was like "We're rewriting the whole thing" and it was like now it's Node.js, and then it's a static site generator... Like, this thing was iterated on, almost just like thrown out and started over, it sounded like. I'm sure you had something to do with that as well. Was this part of your job there?
 
-**On Freund:** \[00:18:19.26\] Yeah. I mean, obviously, when you make it sound like that, it sounds like all we did was just rewrite the website, but...
+**On Freund:** \[18:19\] Yeah. I mean, obviously, when you make it sound like that, it sounds like all we did was just rewrite the website, but...
 
 **Jerod Santo:** No, not all you did, but like somebody was doing that work, for sure. Right?
 
@@ -180,7 +180,7 @@ So just managing that scale, managing that model - nothing like that ever existe
 
 **Jerod Santo:** So the scale is obviously a huge factor, but in addition to that, or beyond it, I guess, what were some of the biggest challenges that you faced in your tenure at WeWork in terms of engineering?
 
-**On Freund:** \[00:21:57.26\] Well, I had to explain why WeWork needs an engineering department about ten times a day. That was one of my biggest challenges.
+**On Freund:** \[21:57\] Well, I had to explain why WeWork needs an engineering department about ten times a day. That was one of my biggest challenges.
 
 **Jerod Santo:** \[laughs\] Who did you have to explain it to?
 
@@ -224,7 +224,7 @@ It's like if you ever moved into a house that you were involved in in the constr
 
 **On Freund:** I think we had an offensive line at some point, back in 2008 or something.
 
-**Jerod Santo:** \[00:26:02.01\] Yeah, that's tough. Some roles, they're just like -- there's no glory there. And it sounds like running the software team for a co-working company, regardless of the scale of like one building to 1,000, people don't give you any respect; they just think that's like just an easy thing to get done.
+**Jerod Santo:** \[26:02\] Yeah, that's tough. Some roles, they're just like -- there's no glory there. And it sounds like running the software team for a co-working company, regardless of the scale of like one building to 1,000, people don't give you any respect; they just think that's like just an easy thing to get done.
 
 **On Freund:** That's why you go ahead and you start a pure software company afterwards, because then people are gonna --
 
@@ -236,7 +236,7 @@ It's like if you ever moved into a house that you were involved in in the constr
 
 **On Freund: "**Never stop developing", yeah. Which also works for real estate, by the way... Never stop developing.
 
-**Break:** \[00:26:48.17\]
+**Break:** \[26:48\]
 
 **Jerod Santo:** So now you are here with a software startup that's right in your face, no more transparency behind the scenes... Wilco, "Never stop developing." You've raised some money, you released a product, number one on Product Hunt for the week, and I think it was like number three for the month, which is a great launch by darn near any measure... Tell us what you're up to, what are you working on? Gamifying upskilling is what I would call it, but what would you call it?
 
@@ -244,7 +244,7 @@ It's like if you ever moved into a house that you were involved in in the constr
 
 b) It's very error-prone. I'm sure you first-hand witnessed many production outages, deleted database tables, etc. And c) it doesn't provide equal opportunity, because you and I could be starting at the same company, same time, both of you are way more talented than me, but I get to a team where I get better access to production, or better mentors... And I'll very quickly open up a gap that's going to be really hard for you to close. And if we're talking about groups that traditionally are underrepresented in tech, they already have an experience gap, and they tend to get to teams that don't actually allow them to close it.
 
-\[00:30:23.07\] So you have this problem with gaining experience, but everyone in the world is trying to teach you the theory of writing code... But who cares about that? Like, why is writing code that important? you start your first day on the job, your manager is not coming up to you and saying, "Hey, write me some code. Here's a function. Do something with it." Your team lead is probably going to say, "Hey, get yourself acquainted with the team, first of all." But guess what - nothing has actually prepared you for working on a team if you went to college, or a bootcamp, or definitely not an online course. And they're going to say "Get acquainted with the build system, and with the architecture of our product", and then you're left kind of speechless on like, "Wait, where's all the stuff I learned in college? Where's the list I'm supposed to reverse?"
+\[30:23\] So you have this problem with gaining experience, but everyone in the world is trying to teach you the theory of writing code... But who cares about that? Like, why is writing code that important? you start your first day on the job, your manager is not coming up to you and saying, "Hey, write me some code. Here's a function. Do something with it." Your team lead is probably going to say, "Hey, get yourself acquainted with the team, first of all." But guess what - nothing has actually prepared you for working on a team if you went to college, or a bootcamp, or definitely not an online course. And they're going to say "Get acquainted with the build system, and with the architecture of our product", and then you're left kind of speechless on like, "Wait, where's all the stuff I learned in college? Where's the list I'm supposed to reverse?"
 
 **Jerod Santo:** \[unintelligible 00:31:15.26\]
 
@@ -264,7 +264,7 @@ And then everyone's so obsessed, like I said, with writing code, and a friend of
 
 **On Freund:** a captain's call - you had to train on the simulator to do that. And we said, "Alright, let's do the flight simulator for software developers." And then we came up with this idea of joining Fantasy Company. But we really wanted all of the complexity of real life in it, so that Fantasy Company has a production-like system, with logging and monitoring and analytics and load balancing... And it has a real dataset, not just five records in a single table. And it has the biggest mess of all, which is other people.
 
-\[00:34:04.09\] So you have your team lead, and the DevOps person, and colleagues, and product managers, and all of that, and now you need to figure out how to work at that company, and run through all sorts of scenarios that we call quests. So a quest could be -- we have a performance problem in production; figure out what happened, what's the root cause, what's the extent of the damage, fix it, and communicate it to stakeholders. Now, you might have learned how to fix it in college or at a bootcamp, but how do you even know that something's wrong in production? What do you do to investigate it? When do you go for a quick and dirty fix? When you go for something more meaningful? How do you ensure that lessons are learned and implemented? All of these things... These are the things that you can only really get by playing around and making mistakes.
+\[34:04\] So you have your team lead, and the DevOps person, and colleagues, and product managers, and all of that, and now you need to figure out how to work at that company, and run through all sorts of scenarios that we call quests. So a quest could be -- we have a performance problem in production; figure out what happened, what's the root cause, what's the extent of the damage, fix it, and communicate it to stakeholders. Now, you might have learned how to fix it in college or at a bootcamp, but how do you even know that something's wrong in production? What do you do to investigate it? When do you go for a quick and dirty fix? When you go for something more meaningful? How do you ensure that lessons are learned and implemented? All of these things... These are the things that you can only really get by playing around and making mistakes.
 
 **Adam Stacoviak:** Learn by doing is the old adage, right? Like you had said before, you learn on the job, that's learn by doing, in many ways. Either you're gonna pick up a side project, a thing for you to play with while you also work, to gain that experience. You might play with a brand new framework, just to see how it works, whatever... But you have to learn by doing, and I guess that simulation is that doing, in probably the most comfortable way possible - joining an actual company, or a fictitious actual company, which is sort of an oxymoron there... But you've got Vanessa, also known as Ness, awkward if you call her mom, you've got Navi, you've got Ben... These are some characters you find. And maybe I'm jumping the gun a little bit, but the first thing you do really is you get invited into Snack, which is a play on Slack, I'm assuming...
 
@@ -280,7 +280,7 @@ And then everyone's so obsessed, like I said, with writing code, and a friend of
 
 I contribute to open source a lot, but there's no production instance that I have to take care of. It's usually things that other people run on their computers, or maybe it's libraries that people use, but it's not an actual system I have to maintain. And there is no team in the traditional sense. And all of these things are what we really wanted to make sure that you get exposure to with Wilco.
 
-**Jerod Santo:** \[00:38:02.19\] So I've also met Vanessa, aka Ness, and Adam and I have gone through the first-run experience with Wilco. I love the concept, I love what you're doing. A lot of the reasons that Adam also explained resonate with me. Snack is very clever. I wonder how much --
+**Jerod Santo:** \[38:02\] So I've also met Vanessa, aka Ness, and Adam and I have gone through the first-run experience with Wilco. I love the concept, I love what you're doing. A lot of the reasons that Adam also explained resonate with me. Snack is very clever. I wonder how much --
 
 **On Freund:** It's completely original. I don't know what you're talking about. It has nothing to do --
 
@@ -308,7 +308,7 @@ So here's a scenario from real life - you're rewriting a legacy component, and t
 
 **Adam Stacoviak:** You used the term AI bot - is that accurate, or is it a misnomer at this current state? Is it truly an AI bot, or is it a complicated if-else statement?
 
-**On Freund:** \[00:42:05.19\] It's on the spectrum between a very simplified, automated canned responses, and a full-blown AI bot. And it's getting better, by the way, all the time. So we've picked up on quite a few things...
+**On Freund:** \[42:05\] It's on the spectrum between a very simplified, automated canned responses, and a full-blown AI bot. And it's getting better, by the way, all the time. So we've picked up on quite a few things...
 
 **Jerod Santo:** Well, talk about transparent - that's the kind of feature that could get better now that you have the framework in place. All you're doing is modifying the responses; everything else is there.
 
@@ -346,7 +346,7 @@ We brought in an amazing game designer, and we brought in amazing graphic design
 
 **Jerod Santo:** Totally.
 
-**On Freund:** \[00:46:02.07\] I'm not a big fan of just going and lifting weights for the sake of lifting weights, I'm more of a fan of going and being active, riding my bike, or doing different things. That's where I exercise better, and that's because fun's a component of it
+**On Freund:** \[46:02\] I'm not a big fan of just going and lifting weights for the sake of lifting weights, I'm more of a fan of going and being active, riding my bike, or doing different things. That's where I exercise better, and that's because fun's a component of it
 
 **On Freund:** Exactly. And that's why we sort of have two brands, which is - Wilco is the fun brand, and it happens in between the quests. And then when you're in a quest, you're in Anythink, the Fantasy Company, and that is trying to be more real. And it's kind of like, if you play a first-person shooter, then between encounters it doesn't feel very real; like, you're never preparing for an encounter, you're never having to deal with defects in your gun, or anything like that. But when you're in an encounter, everything is real, and they try to mimic reality as closely as possible. And you have to get aiming to work right, and you have to get the action of the gun, and all of that... The worst metaphor ever, sorry. But that's kind of what we went for. When you're in a quest, it has to be very realistic; you're talking to your colleagues on an actual chat product, you're using your IDE, you're using your command line. But then in between quests, you have that fun, Wilco brand and design that ties everything together.
 
@@ -362,7 +362,7 @@ I know, before the show you mentioned you're a film buff, so I guess somewhere i
 
 And our graphic designer is a big game buff. She actually writes for an Israeli publication about gaming, so she knows what are the right graphic elements to make a game work. And even though it's not your typical game, and you can't really put it in any genre of game per se, but the mechanics, like you said, need to work. And having the right people who've built these types of things obviously helps a lot.
 
-**Break:** \[00:50:07.18\]
+**Break:** \[50:07\]
 
 **Adam Stacoviak:** So you said this is a software company though... So far we've been talking more about games.
 
@@ -378,7 +378,7 @@ So that is, I would say, our main piece of technology. And eventually, we'll hav
 
 **On Freund:** Or this could also be a company that is reaching out to developers or catering to developers. A lot of these companies are already spending a lot of time and money on advocacy; it's blog posts, and it's videos, and it's conference talks, and manuals, and references, and you name it... But we give them something that actually allows them to give their third-party developers actual practical hands-on experience with their product.
 
-**Adam Stacoviak:** \[00:54:18.23\] That's really interesting, to go from this upskilling opportunity to a not just upskilling, but also great-fit opportunity. Like, I might be able to, in the future, simulate what it might be like to work at XYZ. WeWork for example - they may eventually be a client, which would be so cool, honestly...
+**Adam Stacoviak:** \[54:18\] That's really interesting, to go from this upskilling opportunity to a not just upskilling, but also great-fit opportunity. Like, I might be able to, in the future, simulate what it might be like to work at XYZ. WeWork for example - they may eventually be a client, which would be so cool, honestly...
 
 **On Freund:** Exactly.
 
@@ -420,7 +420,7 @@ So that is, I would say, our main piece of technology. And eventually, we'll hav
 
 **Jerod Santo:** Or you can have people who have the technologies. Imagine a brand new startup technology like Deno, for instance... And they're like, "Oh, there's a Node.js track. We want people to have "real-world experience" with Deno. Deno is brand new, nobody has that yet... We have now a motivation to go ahead and create a Deno stack that you can plug into this game." And now you can say, "Yeah, I went through Wilco, this quest in Deno, and I have six months experience" or whatever that would equate to.
 
-**Adam Stacoviak:** \[00:58:19.10\] That's true.
+**Adam Stacoviak:** \[58:19\] That's true.
 
 **Jerod Santo:** That'd be kind of cool.
 
