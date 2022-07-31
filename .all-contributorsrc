@@ -2303,6 +2303,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "sbdchd",
+      "name": "Steve Dignam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7340772?v=4",
+      "profile": "https://steve.dignam.xyz",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
