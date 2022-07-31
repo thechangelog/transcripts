@@ -28,7 +28,7 @@
 
 **Gerhard Lazu:** Permission to change my mind granted. Go for it! \[laughter\] Okay...
 
-**Gerhard Lazu:** So before I actually describe all this stuff, let me say upfront. Big opinions stated upfront. Most systems are far more operationally complex than what's needed, at least small to the bottom end of medium-sized systems. I have no opinion about large systems, because I just don't work on them.
+**Gary Bernhardt:** So before I actually describe all this stuff, let me say upfront. Big opinions stated upfront. Most systems are far more operationally complex than what's needed, at least small to the bottom end of medium-sized systems. I have no opinion about large systems, because I just don't work on them.
 
 **Gerhard Lazu:** \[08:13\] When you say operational complexity, what do you mean by that?
 
