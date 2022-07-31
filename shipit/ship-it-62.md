@@ -106,7 +106,7 @@ And this evolution - so we started with Docker, we went to Kubernetes, and now w
 
 **Gerhard Lazu:** 75% correct. \[laughter\]
 
-**Gary Bernhardt:** So going through those same things in order... The primary database is Postgres. I do love Postgres. It's great. The backend servers are at Heroku, and they are a single-process, monolithic, one repo, one service. Fix number of dinos though. We don't bother with auto-scaling; we just have a bunch of headroom. The thing is quite efficient. It doesn't need to auto-scale.
+**Gary Bernhardt:** So going through those same things in order... The primary database is Postgres. I do love Postgres. It's great. The backend servers are at Heroku, and they are a single-process, monolithic, one repo, one service. Fix number of dynos though. We don't bother with auto-scaling; we just have a bunch of headroom. The thing is quite efficient. It doesn't need to auto-scale.
 
 So here are the things that are actually different. Everything else is different. There is no queue. There's exactly -- there is a worker process. There's exactly one worker process. Never zero, never two. I mean, it could handle -- it wouldn't be bad if there were zero or two, but there's just always one, just by convention, I guess. So no auto-scaling or manual scaling on that. No queue, I think I said that...
 
