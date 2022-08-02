@@ -150,7 +150,7 @@ I'm not saying that we're there at this moment, but what I'm saying is, I can ce
 
 **Daniel Whitenack:** Yeah.
 
-**Chris Benson:** So I don't know, you have a point there, but I don't know if that point will survive very long is kind of what I'm getting at, in terms of \[unintelligible 00:39:06.13\] And I love programming, I think it's a wonderful thing for human to do, which is why I've stuck with it off and on for all these years. But it also won't surprise me when there's no utility for a human to be there anymore.
+**Chris Benson:** So I don't know, you have a point there, but I don't know if that point will survive very long is kind of what I'm getting at, in terms of the require -- And I love programming, I think it's a wonderful thing for human to do, which is why I've stuck with it off and on for all these years. But it also won't surprise me when there's no utility for a human to be there anymore.
 
 **Daniel Whitenack:** I think it's one of those things that the domains in which we operate continually evolve as well. So as soon as I'm writing code to do a thing on Mars that I already wrote code for to do the thing on Earth, it seems to me that there will be sort of out of domain issues that are unexpected, and will need human input over time. And so I think part of what you're saying is the adaptations that we're able to handle now are kind of fine-tuning adjustments for a domain. And the generalist models that are able to switch between different domains - the switching will probably become easier over time, but also the domains that we're exploring are becoming increasingly different and big over time. So the question will be "How do both of those trends evolve over time?" That's a really interesting question, I think.
 
