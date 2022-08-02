@@ -74,7 +74,7 @@ Okay, so today I'm joined by my usual co-hosts. It's only Matt Toback... Hello, 
 
 **Tom Wilkie:** Yeah, we're gonna come to you very, very soon. So the first question - and this is for all of you... How does it feel, guys?
 
-**Raj Dutt:** \[00:04:04.24\] Overwhelming. I mean, seriously... I think intellectually everyone knows that we've grown a lot as a company, and it just feels both long overdue and overwhelming, and just generally awesome to be here and meet everyone who's helped us get to this point.
+**Raj Dutt:** \[04:04\] Overwhelming. I mean, seriously... I think intellectually everyone knows that we've grown a lot as a company, and it just feels both long overdue and overwhelming, and just generally awesome to be here and meet everyone who's helped us get to this point.
 
 On a personal level, I was in a hotel room in Singapore for two years, and during those two years the company grew so much. We raised hundreds of millions of dollars, we hired hundreds of people, we launched lots of products, we acquired companies, we got new investors, we got new board members, without meeting a single person. And that was really frustrating, you know? Ordering a bottle of champagne to celebrate a series D to my room, and to drink it by myself at 9 o'clock in the morning was... \[laughter\] Not so cool. So to answer your question, this feels (pardon my French) f\*\*\*\*\*g awesome. \[applause\]
 
@@ -130,7 +130,7 @@ But it's so great to be here, seeing everybody in-person... It really is just mi
 
 **Mat Ryer:** Yeah.
 
-**Matt Toback:** \[00:08:04.10\] Do we have anyone that wants to raise a hand and we'll get a runner over there?
+**Matt Toback:** \[08:04\] Do we have anyone that wants to raise a hand and we'll get a runner over there?
 
 **Tom Wilkie:** Yeah, we've got one over in the back.
 
@@ -182,7 +182,7 @@ But it's so great to be here, seeing everybody in-person... It really is just mi
 
 **Anthony Woods:** Do you remember right at the beginning, the first summer, Torkel was like "Oh, and I'm gonna be on vacation in July." And I was like "Oh, when?" He's like "July." \[laughter\] "And a little bit of June, and the first bit of August."
 
-**Mat Ryer:** \[00:12:15.17\] Good question. Thanks, Jenn. Okay, what about over on this side? Anyone? And if you asked one on GitHub as well, we want you to ask it in-person too, please. That'd be great.
+**Mat Ryer:** \[12:15\] Good question. Thanks, Jenn. Okay, what about over on this side? Anyone? And if you asked one on GitHub as well, we want you to ask it in-person too, please. That'd be great.
 
 **Audience Member:** Hey. My name is \[unintelligible 00:12:25.12\] I was just curious what you guys think the most impactful technology of the 2010s was.
 
@@ -238,7 +238,7 @@ But it was also just seeing -- when we started using Grafana, every team started
 
 **Torkel Ödegaard:** Yeah, it was very quick. I think three months after or something like that I released the open source project, I sort of handed my resignation.
 
-**Mat Ryer:** \[00:16:13.28\] Wow.
+**Mat Ryer:** \[16:13\] Wow.
 
 **Matt Toback:** Did you rage-quit? \[laughter\]
 
@@ -272,7 +272,7 @@ Also, there are areas where Grafana can innovate. Where we have still unsolved -
 
 **Raj Dutt:** \[unintelligible 00:19:48.18\] my last company we were selling hosting, and data center services, and cloud services, and we watched how open source completely commoditized the whole infrastructure space. And we saw that, we were a part of that, but we kind of got swept away in that.
 
-\[00:20:11.01\] And one of the things that motivates me about Grafana Labs is we think that that same commoditization within observability is happening. Open source is gonna win in observability... But instead of getting swept up in that, we have the opportunity to be on the tip of the spear on that, on the crest of the wave on that. Literally, making that happen. We have the opportunity to literally be the dominant company that changes the entire industry as it moves in the same way as the infrastructure industry, as open source and open standards take over. And that's really exciting, for one.
+\[20:11\] And one of the things that motivates me about Grafana Labs is we think that that same commoditization within observability is happening. Open source is gonna win in observability... But instead of getting swept up in that, we have the opportunity to be on the tip of the spear on that, on the crest of the wave on that. Literally, making that happen. We have the opportunity to literally be the dominant company that changes the entire industry as it moves in the same way as the infrastructure industry, as open source and open standards take over. And that's really exciting, for one.
 
 And for me, the other thing is just seeing people scale... Like, regardless of what happens in the future - I hope it's positive, whether it's a long-term, dominant company in the future, or an IPO, an acquisition, who knows - I really hope that the relationships that we all build for the people here and the people that are gonna join us are gonna continue on to our next thing, and wherever we go. That's something that's been personally a big part of who I am. I mean, that's why this guys is here, that's why so many of the ex Voxel crew are investors in this company, and that's what really motivates me. Regardless of what we do together, I hope that everyone here kind of has that, because that's so powerful. And of course, money, but that's the third. Honestly, the first two are what really gets me out of bed every day.
 
@@ -296,7 +296,7 @@ Because if we got into a situation where we tried everything and it wasn't worki
 
 **Raj Dutt:** Okay. Thanks. \[laughter\] The interesting thing to me that's -- there's so many ways to answer this question, but one interesting thing to me is sort of how the definition of observability is widening, in some ways... And you see this happening across the industry, it's not just us... Everything we're doing, like whatever you wanna call it, shift-left, shift-right, shift-up, shift-down, earlier in the software development lifecycle, later in the software development lifecycle... Observability isn't necessarily its own thing, it's just part of a continuum of how we build and run software. And I think that some of the moves that we've made, some of our upcoming strategies around stuff that Tom, Rob and others are talking about and defining, things like Grafana Ops, things like our new APM strategy... It's just an exciting time to be in observability.
 
-**Torkel Ödegaard:** \[00:23:54.29\] One trend that I could see coming is increasing standardization of development platforms, application platforms, where we can have -- the observability experiences are gonna be so much more pre-made, out-of-the-box, because you're using some standardized application development frameworks, where all the metrics are already in place, and the experience in Grafana is gonna be already made for you. I can see that -- I'm \[unintelligible 00:24:18.06\] more manually built dashboards if you use more standardized development platforms.
+**Torkel Ödegaard:** \[23:54\] One trend that I could see coming is increasing standardization of development platforms, application platforms, where we can have -- the observability experiences are gonna be so much more pre-made, out-of-the-box, because you're using some standardized application development frameworks, where all the metrics are already in place, and the experience in Grafana is gonna be already made for you. I can see that -- I'm \[unintelligible 00:24:18.06\] more manually built dashboards if you use more standardized development platforms.
 
 **Mat Ryer:** Very cool. We have another question in the back from Dia. Oh, no, sorry, we're going into the middle first. Who's got a mic? Middle, there we go.
 
@@ -334,7 +334,7 @@ So a whole bunch of assumptions about the company turned out to be completely in
 
 **Raj Dutt:** Yeah, we used to have offices. We used to be a remote-friendly company, rather than a remote-first company. Even though we started as a remote-first company.
 
-**Matt Toback:** \[00:28:02.20\] Do you remember any hesitation on -- like when you knew it was wrong, but you still wanted to push... And finally that moment when you go "Oh no, I'm fighting against the stream, going the wrong direction." Has anything come to mind, where you're like "We're gonna do this, we're gonna do this. Oh, no, maybe that's a good idea."
+**Matt Toback:** \[28:02\] Do you remember any hesitation on -- like when you knew it was wrong, but you still wanted to push... And finally that moment when you go "Oh no, I'm fighting against the stream, going the wrong direction." Has anything come to mind, where you're like "We're gonna do this, we're gonna do this. Oh, no, maybe that's a good idea."
 
 **Anthony Woods:** I think for us the Graphite versus Prometheus - I think that was like... We really invested in Graphite; we thought "Hey, this is great." And I think one of the reasons we did is because of the usability, the user experience. It was so much easier to build dashboards in Grafana, with Graphite, because it was just point and click. Prometheus is "Wait, I need to learn PromQL." But we could see what was happening, and we could see how popular Prometheus was getting; we knew we had to make a change.
 
@@ -364,7 +364,7 @@ GrafanaFest '23, '24 - TBD, but I'd say that the headcount levels isn't somethin
 
 We've always been a remote-first company; that has its advantages. We don't have to pay for office space... But we've always understood that that means that we need to invest more in travel and getting people to meet up.
 
-**Mat Ryer:** \[00:31:58.01\] By the way, up here, for some reason, it smells like new floppy disks, doesn't it?
+**Mat Ryer:** \[31:58\] By the way, up here, for some reason, it smells like new floppy disks, doesn't it?
 
 **Tom Wilkie:** New floppy what?
 
@@ -450,7 +450,7 @@ So that was part of the first version of Grafana for Graphite, and that kind of 
 
 **Anthony Woods:** Yeah, I thought it was really good, because -- I was actually talking to \[unintelligible 00:35:44.21\] "Hey, there's been some support issues that have gone unnoticed, and weren't assigned to anyone, because they were missing a label, or something." I'm like, "Oh, we can alert on that really easily." So I just quickly threw it together.
 
-**Tom Wilkie:** \[00:35:59.28\] And for the next 15 minutes I want you to talk exclusively about this, just you, on your own. See how much of this voice we can -- thumbs down emoji... \[laughter\]
+**Tom Wilkie:** \[35:59\] And for the next 15 minutes I want you to talk exclusively about this, just you, on your own. See how much of this voice we can -- thumbs down emoji... \[laughter\]
 
 **Raj Dutt:** Tom, you mentioned the non-IT use case, and people building dashboards... What's been really cool to see, I've been thinking, in the last few quarters is to see people at the company creating all these Grafana dashboards; people in the finance team, in the go-to-market teams... And I felt like I was being a little bit of a jerk, honestly, when I kind of asked or strongly requested that people used Grafana instead of Tableau or PowerBI or something like that... And I'm actually really impressed, and I think that maybe it's frustrating for these teams, I don't know - we should come and talk about it later - but it's really cool to see even the non-observability use cases within the company, like from finance, from go-to-market, using Grafana. That's really cool. And I know there's been a lot of work on the BigQuery data source, and things like that... But dogfooding is such an important part of our culture, and it's really cool to see other teams other than our R&D teams being part of that dogfooding DNA.
 
@@ -480,7 +480,7 @@ So that was part of the first version of Grafana for Graphite, and that kind of 
 
 So yeah, stretching is okay, but consistent stretching over time, or a culture where you're just overworked - that's what we really wanna avoid. \[applause\]
 
-**Tom Wilkie:** \[00:40:15.21\] That deserves a round of applause, yeah. A question from the GitHub, from the listeners. We took questions on GitHub as well. A question for you, Torkel - what are some other tech companies and open source projects that you admire?
+**Tom Wilkie:** \[40:15\] That deserves a round of applause, yeah. A question from the GitHub, from the listeners. We took questions on GitHub as well. A question for you, Torkel - what are some other tech companies and open source projects that you admire?
 
 **Torkel Ödegaard:** At the start it was obviously Kibana, which is where Grafana started, the UI for Elasticsearch. When we started using that internally at the company I worked when I created Grafana, I saw just an amazing open source project that had a simple UI to explore logs in Elasticsearch. Contrary to almost all other alternative dashboards for Graphite at the time, Kibana had a UI for building dashboards. Because back then, the alternative \[unintelligible 00:41:04.14\] So that was the norm for some of the dashboarding tools. But Kibana had a great UI to do it. But also -- yeah, we took that and tried to push it even further in terms of the UI accessibility.
 
@@ -506,7 +506,7 @@ But more -- I mean, I think on the company side I was always kind of impressed w
 
 **Anthony Woods:** Yeah, Red Hat is definitely -- that's the key one for me... A big focus on open source, and the fact that it is a viable business model. Certainly, when we started it wasn't as popular. It's certainly a lot more popular now; the open core model and starting with open source is how you get things done. It's very difficult to get into the market with a closed source product, because people can just go and use an open source option. And having that open source, where people can -- 1) it gives them access to it, where they can start using it, they don't need to pay for it, but also, something we really leveraged a lot is getting that community feedback; finding out where things are going, and letting the community kind of drive the product development.
 
-**Matt Toback:** \[00:44:02.23\] Should we take --
+**Matt Toback:** \[44:02\] Should we take --
 
 **Tom Wilkie:** One last question from the audience. Over on the right here, I think.
 
