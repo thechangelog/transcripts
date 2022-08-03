@@ -6,7 +6,7 @@
 
 **Johann Gyger:** Well, I remembered when we talked about it at Valencia, and I think at first you didn't believe me that I cycled from Switzerland to Valencia... Now, the story is I was planning my trip to KubeCon, and flying wasn't an option, so I checked train options, and other options, and - well, then I came up with the idea "Well, I could cycle to Valencia. It would be a great trip." I checked it with my wife, with my family, if that was okay, being absent for ten more days, and they said "Yeah, it's okay", and here you go. So I went, I cycled to Valencia.
 
-**Gerhard Lazu:** \[00:04:22.06\] I think that's it, right? The family has to sign off on this idea, and others have to support you. In what way did others support you, which are like outside of your family? Like, from your job for example, or the people that depend on you outside of family - what did they say when you told them "You know what - I'm going to be away for like eight days, plus the conference." Like two weeks.
+**Gerhard Lazu:** \[04:22\] I think that's it, right? The family has to sign off on this idea, and others have to support you. In what way did others support you, which are like outside of your family? Like, from your job for example, or the people that depend on you outside of family - what did they say when you told them "You know what - I'm going to be away for like eight days, plus the conference." Like two weeks.
 
 **Johann Gyger:** I just said I'm being on vacation for two weeks. I didn't do that much noise on social media. I considered it, but it was also some sort of self time. You know, I'm this type of engineer which is a bit introvert, and I don't have a problem with being alone... It was still some time to being on a trip alone, so I recognize that as well. But there was some pretty good feedback. I got some gifts for the journey from some close colleagues... And some guys I also think they didn't believe me that I'm really going to cycle to Valencia. And some colleagues I just informed after the trip, and they said "Wow, that's stunning."
 
@@ -30,7 +30,7 @@ So I know that this is important to you, again, based on what we were talking at
 
 **Gerhard Lazu:** Three to four bikes. Wow. Okay...
 
-**Johann Gyger:** \[00:07:58.16\] I decided not to drive anymore, because if you don't have a car, you can also have a huge impact on the Carbon footprint. I know pretty much everybody loves his car, but if you look on the streets - it's been crazy. For a cyclist, you notice that there's a lot of traffic going on, there are a lot of congestions and a lot of traffic jams... And we are paying a high price for our mobility. We have to solve that somehow, and if you don't even own a car - and I know this is not possible for some places on Earth, but in Switzerland it's quite possible, because we have a good infrastructure. So it only goes with a good infrastructure. We have good train infrastructure, public transport to near everywhere... So there it's possible. And that's why we decided to go without a car.
+**Johann Gyger:** \[07:58\] I decided not to drive anymore, because if you don't have a car, you can also have a huge impact on the Carbon footprint. I know pretty much everybody loves his car, but if you look on the streets - it's been crazy. For a cyclist, you notice that there's a lot of traffic going on, there are a lot of congestions and a lot of traffic jams... And we are paying a high price for our mobility. We have to solve that somehow, and if you don't even own a car - and I know this is not possible for some places on Earth, but in Switzerland it's quite possible, because we have a good infrastructure. So it only goes with a good infrastructure. We have good train infrastructure, public transport to near everywhere... So there it's possible. And that's why we decided to go without a car.
 
 **Gerhard Lazu:** Okay, okay. The thing which I like most about this is that you show initiative in how you're going to handle this problem, that by the way, affects us all. The initiative is you showing us how you are solving it. A responsible person would ask "Hey, how can I help solve this?" and an optimist would say "We can solve this." They are very optimistic about what they're going to do, but they may not have initiative.
 
@@ -44,7 +44,7 @@ Obviously, the pessimists and the cynics - I think they're like the lower ones i
 
 **Gerhard Lazu:** Okay, I already know what I want for Christmas. But that's another conversation, with someone else... \[laughs\] Alright, so thank you for indulging me, especially to the listeners... We talked for about ten minutes about this subject, so I would like us to switch gears and go into the cloud-native landscape, CNCF... Because I know that you're a CNCF ambassador. So first of all, how did that happen? How long have you been a CNCF ambassador, and how are you finding that?
 
-**Johann Gyger:** \[00:11:45.05\] So the short answer is I was somewhat lucky to become an ambassador... But I can start with the longer version, which goes back to 2015, and it started actually with containers. Let me tell you that story, when a colleague of mine demonstrated to me how Docker works. He just ran a container, some command, and it was so fast I was blown away. After that, I talked -- at the time I was working for an insurance company, and there were some ops people, or infra people, and they immediately jumped on this train, like "Yeah, let's do that. Let's go with containers as the universal format for production as well." After that, the discussion came up, "If you have containers, how do you orchestrate those?"
+**Johann Gyger:** \[11:45\] So the short answer is I was somewhat lucky to become an ambassador... But I can start with the longer version, which goes back to 2015, and it started actually with containers. Let me tell you that story, when a colleague of mine demonstrated to me how Docker works. He just ran a container, some command, and it was so fast I was blown away. After that, I talked -- at the time I was working for an insurance company, and there were some ops people, or infra people, and they immediately jumped on this train, like "Yeah, let's do that. Let's go with containers as the universal format for production as well." After that, the discussion came up, "If you have containers, how do you orchestrate those?"
 
 So there was a discussion whether it should be Docker Swarm, Kubernetes, or OpenShift. Finally, we decided to go with vanilla Kubernetes, which was pretty young... It was already there, but it was still a pretty young project... And to decide to go with Kubernetes at this time for an insurance company was a bold move. So that was between 2015 and 2018, and then in 2018 we thought "Well, there's not only Kubernetes. There's a whole ecosystem that's going on."
 
@@ -58,7 +58,7 @@ As you mentioned, Bern is a small place. Beautiful, beautiful place, but a small
 
 **Gerhard Lazu:** Well, hang on, this podcast hasn't gone live yet. Let's see what happens. \[laughter\]
 
-**Johann Gyger:** \[00:15:50.10\] No, I mean, my motivation to do that is -- it's actually fun to bring people together, get engineers to talk to each other... And we also started this thing, Swiss Cloud-Native Day, which emerged out of the meetups, when we thought "Well, we could invite some famous people to Switzerland, to Bern, so that engineers don't have to go to conferences in the United States. They can just watch them on Mount Gurten, which is the location where Cloud-Native Day is taking place. They can just come there; it's pretty local, so in a way it's also sustainable, even though speakers are flying to Switzerland... But yeah, you can see it in life, in your own city, so...
+**Johann Gyger:** \[15:50\] No, I mean, my motivation to do that is -- it's actually fun to bring people together, get engineers to talk to each other... And we also started this thing, Swiss Cloud-Native Day, which emerged out of the meetups, when we thought "Well, we could invite some famous people to Switzerland, to Bern, so that engineers don't have to go to conferences in the United States. They can just watch them on Mount Gurten, which is the location where Cloud-Native Day is taking place. They can just come there; it's pretty local, so in a way it's also sustainable, even though speakers are flying to Switzerland... But yeah, you can see it in life, in your own city, so...
 
 **Gerhard Lazu:** I really like how your values and principles are aligned, and they're all coming together - sustainability, the long-term vision, sustained efforts... A lot of things coming together there.
 
@@ -84,7 +84,7 @@ There are variants coming up, and it might be possible that we have to do a mask
 
 So I am curious to tell that story, and we will come back to that story in another episode, when we look at the facts, when people are maybe less in the heat of the moment... You know, things are being said, and things are being pooled all together... So we will go there, at the right time... But for now, I think it's important to emphasize that if, for example, your region where you are doesn't require this; like, there's no regulation to require this. It's very difficult to force people to wear them... Because that's what effectively you're doing. And some people may not be okay with that. And then I think you will fall on one side or the other, and then what do you do? It's a very tough decision to make.
 
-\[00:20:26.12\] So if you comply with your local laws, I think that's a good first step, I think it's a good default... And then making sure that everyone is comfortable with that decision, and giving them enough time to express their concerns, to go through those conversations so that people are not surprised... Which is why I'm asking you now, which is at least a month, maybe even more before the conference, depending on when this airs, just so that people know what is happening, why this is happening... And I know that you have on your website - I think here's something where you mention this, like on the CloudNativeDay.ch. And again, obviously, this can change, so that's like another thing. But right now, you're just complying with local regulations, masks are not required, they are voluntary, everyone can wear them, or anyone can wear them... But that's where we stand on this. Okay.
+\[20:26\] So if you comply with your local laws, I think that's a good first step, I think it's a good default... And then making sure that everyone is comfortable with that decision, and giving them enough time to express their concerns, to go through those conversations so that people are not surprised... Which is why I'm asking you now, which is at least a month, maybe even more before the conference, depending on when this airs, just so that people know what is happening, why this is happening... And I know that you have on your website - I think here's something where you mention this, like on the CloudNativeDay.ch. And again, obviously, this can change, so that's like another thing. But right now, you're just complying with local regulations, masks are not required, they are voluntary, everyone can wear them, or anyone can wear them... But that's where we stand on this. Okay.
 
 **Johann Gyger:** Yeah, absolutely. And we will only add a mask mandate, but we won't remove it, like it happened at KubeCon, where they planned to remove it and then re-added it because of the feedback. We wanted to be an inclusive event, and it's a pretty hard job. I think this is one of the toughest decisions at the moment as an organizer, whether you're requiring masks or not.
 
@@ -104,7 +104,7 @@ And the other colleagues are also from different companies around Bern. So when 
 
 Engineers like to talk about technology, to be honest... So the group of organizers grew, and we thought "Well, we need representants from the major companies in Switzerland", so we reached out to SBB, which is this federal transportation system, or Swisscom, which is one of the major telco providers in Switzerland... So we formed a group that major companies are being on the committee.
 
-**Break:** \[00:24:38.06\]
+**Break:** \[24:38\]
 
 **Gerhard Lazu:** So you mentioned that you're an engineer at heart... What does that mean to you? What does it mean to be an engineer?
 
@@ -120,7 +120,7 @@ Engineers like to talk about technology, to be honest... So the group of organiz
 
 The difficulty is there are quite some libraries, like Go content registry, and then there's \[unintelligible 00:27:42.08\] Sigstore, and they are kind of difficult to handle. So you have to dig your way through a solution. Everything was working, I started -- I mean, I tried to do test-driven development, which is not that easy if you really try to practice it... And I wrote my unit tests, everything was okay, they were green, I was happy, I did some refactoring, it was still green, and then I tested it in production and boom, it failed because I didn't consider the authentication of the registry, so I'm not done with it yet.
 
-**Gerhard Lazu:** \[00:28:21.08\] Okay. I know what you mean. When things come together you keep digging and think "Oh, I have it. Oh dang it, no! I forgot about this one thing." And then the deeper you go, the more you start appreciating how all those elements come together. And when you have that moment, when everything's clear, you see the whole picture; it's almost like seeing the matrix. You see how things combine, you have that mental image of how everything interacts, you have an image of all the potential failures that can happen, and you don't have to obviously cater for every single one of them, but let it fail, let it crash, whatever the case may be... Be very deliberate about what you will handle, and what you won't handle... And again, the happy path, keep focusing on that, while making the failures very clear when they happen again.
+**Gerhard Lazu:** \[28:21\] Okay. I know what you mean. When things come together you keep digging and think "Oh, I have it. Oh dang it, no! I forgot about this one thing." And then the deeper you go, the more you start appreciating how all those elements come together. And when you have that moment, when everything's clear, you see the whole picture; it's almost like seeing the matrix. You see how things combine, you have that mental image of how everything interacts, you have an image of all the potential failures that can happen, and you don't have to obviously cater for every single one of them, but let it fail, let it crash, whatever the case may be... Be very deliberate about what you will handle, and what you won't handle... And again, the happy path, keep focusing on that, while making the failures very clear when they happen again.
 
 So the engineering - how do you build good systems? How do you build something that's reliable, something that will keep doing what it's supposed to do, in the simplest way possible, forever? I really like that moment, I really, really do.
 
@@ -146,7 +146,7 @@ So the engineering - how do you build good systems? How do you build something t
 
 **Johann Gyger:** So I would say -- or maybe it was a tweet from Chris, when he tweeted 2022 is like the year of the SBOM. And it's all about supply chain security; we had these attacks... And quite some companies emerged, and they are trying to tackle this problem. One thing I especially like is specifications, and there's like the Salsa specification, which is an amazing point to start to harden your pipelines, essentially. So it gives you a framework, it gives you levels, it gives you instructions, what to do... And if you start doing that, you will soon find out that Sigstore is the underlying technology which enables all those recommendations.
 
-**Gerhard Lazu:** \[00:32:24.00\] Yeah. And how do you use it day-to-day? How do you use Sigstore and SBOMs in your day-to-day? Where do they fit in?
+**Gerhard Lazu:** \[32:24\] Yeah. And how do you use it day-to-day? How do you use Sigstore and SBOMs in your day-to-day? Where do they fit in?
 
 **Johann Gyger:** So we started to harden the pipelines. And a colleague of mine and me tackled this problem, and we thought about "Well, we're already building containers... Let's create those attestations, those manifests, sign them, and put them into a content registry as well", and that's what we did.
 
@@ -172,7 +172,7 @@ So what is a deployment pipeline? Jez Humble says it's -- I don't know if I can 
 
 **Johann Gyger:** Yeah, 5 to 10 years ago it was more like continuous delivery, because -- yeah, change, and bringing that change into enterprises... And now I'm striving for continuous deployment, because I think it's one of the best ways to ship software.
 
-**Gerhard Lazu:** \[00:36:14.25\] Yeah, pretty much. And do you go to staging environments or other environments before you go to production, or do you go straight into production?
+**Gerhard Lazu:** \[36:14\] Yeah, pretty much. And do you go to staging environments or other environments before you go to production, or do you go straight into production?
 
 **Johann Gyger:** No, it's with -- I mean, I'm talking now about enterprise customers I'm working for, and it always has staging environments. It's a requirement to have those in between, and to do some quality work in between.
 
@@ -188,7 +188,7 @@ Because whenever there's like another environment, now you have to keep it in sy
 
 I think having a production which spans more than one system, so that you can basically take one of ten - or one of two, whatever they case may be - down, update it... So this is like the canary deployment - I prefer those approaches, because you're always checking; whatever you're doing, you're checking your assumptions (because that's what they are) against the real thing. Not something which is pretending to be the real thing. There is a lot of hidden work, in staging or in other types of environments, where if you invest all the time into making sure that you're changing \[unintelligible 00:40:10.11\] out into production, the blast radius is as small as possible... That's my preference, let's put it that way.
 
-\[00:40:19.04\] It's not what I think is better, it's what I prefer; and I've always had good success with it. So I know that most enterprises will not go for that. They say "No, no, we can't do that. We can't sign off whatever regulation we need to sign off on. We need to have this other environment."
+\[40:19\] It's not what I think is better, it's what I prefer; and I've always had good success with it. So I know that most enterprises will not go for that. They say "No, no, we can't do that. We can't sign off whatever regulation we need to sign off on. We need to have this other environment."
 
 But then the question is "So how much is that environment costing you?" And I don't mean to run it, I mean to operate with these two things, or maybe even more things. So what do you think about that, Johann?
 
@@ -212,7 +212,7 @@ So why shouldn't a system that is like a well-engineered system - because we're 
 
 **Johann Gyger:** So we can inspire ourselves from biology, it's always a good thing. You mentioned it, application architecture - how do you design a redundant system? How do you architect it? It has some costs, but I think we should do it nevertheless. Architects should be able to design those systems. There are good guidances, like The Twelve-Factor App, which tells you how to design your system, keeping it stateless, and so on. Handling state is always the hard part.
 
-**Gerhard Lazu:** \[00:44:26.26\] Yes, for sure.
+**Gerhard Lazu:** \[44:26\] Yes, for sure.
 
 **Johann Gyger:** Writing stateless systems is one thing, and you can scale them horizontally, that's not a problem... But handling state is a huge challenge, I would say.
 
@@ -232,11 +232,11 @@ And apart from containers and Kubernetes, I'm working a lot with TerraForm. I th
 
 I think in 2019, something like that, maybe 2018, we used to do this. I remember that. And I was thinking "Hm... I wish this was not as difficult." But also because you had like two sets of changes most often, you had a lot of unrelated changes when it comes to TerraForm reading the state from the resources it was managing...
 
-\[00:48:07.01\] But the thing about TerraForm which always got me was the plugins. Oh, my goodness me. The amount of pain that I had upgrading plugins, and they stopped working, and \[unintelligible 00:48:14.11\] correctly, and "Oh, now I have to change my config..." That was painful for me. Or the API that the plugin is using has changed, so you have to upgrade the plugin... That was the one thing which was a pain point for me. But tell us more about you, because it is about you.
+\[48:07\] But the thing about TerraForm which always got me was the plugins. Oh, my goodness me. The amount of pain that I had upgrading plugins, and they stopped working, and \[unintelligible 00:48:14.11\] correctly, and "Oh, now I have to change my config..." That was painful for me. Or the API that the plugin is using has changed, so you have to upgrade the plugin... That was the one thing which was a pain point for me. But tell us more about you, because it is about you.
 
 **Johann Gyger:** Yeah, absolutely. I mean, the problem with changing APIs - you're using some provider, typically for like a public cloud, and the public cloud \[unintelligible 00:48:42.06\] is changing APIs, and you run into some problems. This can happen pretty often... But it's not the problem of TerraForm, it's actually more a problem of the provider of the APIs, and this makes it hard to handle.
 
-**Break:** \[00:49:00.19\]
+**Break:** \[49:00\]
 
 **Gerhard Lazu:** So TerraForm... What else is in your toolbox, in your favorite cloud-native toolbox?
 
@@ -248,7 +248,7 @@ I think in 2019, something like that, maybe 2018, we used to do this. I remember
 
 **Gerhard Lazu:** Yeah. Do you use something day-to-day which is not in the cloud-native landscape? Something that is dependable, something that works for you? And I don't mean like your code editor, or anything like that. Something for your applications, when you run them, for your stateful services... Is there something which is outside of this space?
 
-**Johann Gyger:** \[00:54:27.04\] Maybe my development environment. I'm doing Go development, and previously I was like a Java developer and got some proficiency there... But I'm still using the JetBrains IDE, and I think it's still the best one available. I see so many people using Visual Studio Code, and it's nice. It's really nice. But if you know the possibilities and the power of a JetBrains IDE, it's just a different level.
+**Johann Gyger:** \[54:27\] Maybe my development environment. I'm doing Go development, and previously I was like a Java developer and got some proficiency there... But I'm still using the JetBrains IDE, and I think it's still the best one available. I see so many people using Visual Studio Code, and it's nice. It's really nice. But if you know the possibilities and the power of a JetBrains IDE, it's just a different level.
 
 **Gerhard Lazu:** You still haven't changed my mind, I'm not giving up my Vim. \[laughter\] Not now, not ever. I think where we start in our careers - like you mentioned, Java - and if you spend a significant amount of time in a specific community, I think to some extent that determines your development environment... Because you become familiar with something, and you like it, and you just find ways that work for you... And then after 5-10 years later, the chances of you switching are slim, because you already -- like, you do things automatically, you don't even think about it, and if someone asks you, "Hey, how did you do that?" "I don't know, I just did it. It's magic. My editor did it for me." And it's actually you doing things, maybe hitting some keys, some shortcuts, clicking some buttons, whatever the case may be.
 
@@ -264,7 +264,7 @@ I used to be more like in one camp versus the other, but not anymore... Because 
 
 Okay, so switching gears - what are you most excited about in the cloud-native landscape this year? Is there something coming, or something new? I mean, we already mentioned supply chain, we already mentioned SBOMs... Is there something else besides those that you are excited about?
 
-**Johann Gyger:** \[00:58:14.29\] Yeah, so besides supply chain tools, I already mentioned Sigstore, which is really amazing work. It still has some rough edges, I have to say, but it's getting there. And I think Cilium is doing a pretty good job as well. They are starting to solve the service mesh problem from a different perspective, which might be another game changer... Because services meshes - they have been around; there are quite some solutions, like Linkerd, and Istio, and Consul from HashiCorp, but they're not being widely adopted, in my opinion. I might be wrong, but I think they add another layer of complexity onto Kubernetes, for instance.
+**Johann Gyger:** \[58:14\] Yeah, so besides supply chain tools, I already mentioned Sigstore, which is really amazing work. It still has some rough edges, I have to say, but it's getting there. And I think Cilium is doing a pretty good job as well. They are starting to solve the service mesh problem from a different perspective, which might be another game changer... Because services meshes - they have been around; there are quite some solutions, like Linkerd, and Istio, and Consul from HashiCorp, but they're not being widely adopted, in my opinion. I might be wrong, but I think they add another layer of complexity onto Kubernetes, for instance.
 
 Cilium solves this at the kernel level. They're replacing the \[unintelligible 00:59:06.07\] that's going on with eBPF, which is a lot more flexible, and they have a lot of -- how do I put it...? New possibilities are opening up to solve problems.
 
