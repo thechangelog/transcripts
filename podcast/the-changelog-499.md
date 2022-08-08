@@ -16,7 +16,7 @@
 
 **Adam Stacoviak:** Yeah, I would say that's a podcasting thing... Because we talk to people a lot, and then we don't talk to them again for potentially a year, or more, in this case...
 
-**Jerod Santo:** \[00:04:02.03\] Yeah.
+**Jerod Santo:** \[04:02\] Yeah.
 
 **Adam Stacoviak:** New long-time listeners will know that we recently have begun to say for be-backs like Ben - we call them be-backs, people who come back to the show.
 
@@ -82,7 +82,7 @@
 
 **Adam Stacoviak:** ...despite my love for it, I still can't find a way to truly reap the benefits, I suppose. And I would say that's an \[unintelligible 00:07:43.25\] issue, like "What should I follow?" Because I'm following things that are overwhelming. Axios, Crunchbase News... I'm just pulling some out there. Daring Fireball is in there. Forbes Innovation... So not Forbes at large, but Forbes Innovation, so what's happening in tech...
 
-**Jerod Santo:** \[00:08:02.29\]Right.
+**Jerod Santo:** \[08:02\]Right.
 
 **Adam Stacoviak:** Hacker News, some stuff from Indeed's engineering blog, Kottke, I think that's just in there by happenstance... The Mozilla Blog...
 
@@ -142,7 +142,7 @@ So anything that publishes news or aggregates news is probably not worth putting
 
 So maintaining the signal to noise ratio is, I think, a big part of what makes an RSS reader's experience good or bad. And Ben, one thing -- I mean, I do not want algorithmic timelines in Feedbin. If you switch to that, I'd probably finally stop paying you money... \[laughter\] Adam wouldn't probably quit using it, and still pay you money, but...
 
-**Adam Stacoviak:** \[00:12:08.12\] I'd still pay you...
+**Adam Stacoviak:** \[12:08\] I'd still pay you...
 
 **Jerod Santo:** Yeah, which is nice... But what might be a feature, if you're thinking - and I'm curious if you put thought into like... I haven't been a first-time user for years; like that first run, like getting started... Because a lot of the problem is like "Who do I subscribe to? What do I see when I first sign up? I've got an empty feed here. What do I do about it?" I'm sure you've put some thought into those things... But I'm curious, if you could have nudges in the UI or in the app that says "Oh, you've just subscribed to this publication. It publishes 12 times a day. Are you sure you wanna do this?" And you can say "Yes, I'm sure", and then you just go ahead and let that happen.
 
@@ -168,7 +168,7 @@ There's other things out there like Substack and folks who are obviously pushing
 
 There's certain things about the experience of using RSS, whether you're someone like me, who's well aware what it is, how the technology even works, one. And two, we're podcasters, so we actually leverage the technology as part of our business, deeply. These are things that can on-ramp folks into the RSS experience. Even discovery, your own index of like "Hey, of all the people that use Feedbin, in this category here's the top five links of this week." Things that get people into the world of consuming content, which is powered by RSS.
 
-\[00:16:16.13\] So they don't really have to care about RSS theoretically. They have to care about how -- you know, subscribing to content is really what they're asking for, which really is RSS, right? But is it enough for you to kind of keep evolving? I didn't know it was your full-time job. I wasn't aware. Which is awesome, because that makes me really happy, because I want you to do well.
+\[16:16\] So they don't really have to care about RSS theoretically. They have to care about how -- you know, subscribing to content is really what they're asking for, which really is RSS, right? But is it enough for you to kind of keep evolving? I didn't know it was your full-time job. I wasn't aware. Which is awesome, because that makes me really happy, because I want you to do well.
 
 **Ben Ubois:** Yeah. It's been almost ten years now. It'll be ten years next March.
 
@@ -212,7 +212,7 @@ It's never really made sense to grow it beyond me and the designer I work with, 
 
 **Ben Ubois:** Yeah, and people do things -- you can have like a paid feed, but that's a lot of overhead to manage. You can post excerpts, and then you have to click through to read the full thing... I think that can be a good experience for the right content... But yeah, business incentives is something I don't think about at all, because I think there's enough interesting content out there from individuals that have more to gain in terms of creating a personal brand, or that just wanna share what they're working on.
 
-**Adam Stacoviak:** \[00:20:26.04\] My pushback on that business incentives not aligning would be "Well, these businesses use Twitter." And Twitter is essentially an excerpt of whatever they're putting out there. It's awareness about the content or the idea being shared. So if these businesses are willing to use Twitter, then they should be willing to use RSS in a similar fashion. That is if RSS has a fluid user interface that's reliable, that's well-known. A scalable place to go, similar to the way Twitter is a scalable place to go to consume the future news or what's happening today.
+**Adam Stacoviak:** \[20:26\] My pushback on that business incentives not aligning would be "Well, these businesses use Twitter." And Twitter is essentially an excerpt of whatever they're putting out there. It's awareness about the content or the idea being shared. So if these businesses are willing to use Twitter, then they should be willing to use RSS in a similar fashion. That is if RSS has a fluid user interface that's reliable, that's well-known. A scalable place to go, similar to the way Twitter is a scalable place to go to consume the future news or what's happening today.
 
 **Ben Ubois:** Yeah. Well, that's something else that I think about, and one of my goals with Feedbin is to make it omnivorous. So if people only wanna post on Twitter, that's great, because Feedbin can pull in tweets. You can subscribe to your home timeline, individual accounts, safe searches, all that stuff. So wherever the content is, I want Feedbin to be able to go and get it, and put it in one place for you.
 
@@ -240,7 +240,7 @@ And a couple of things that came to mind immediately were like "Oh, okay, we can
 
 One of my favorite ways to use Twitter was always about people that posted a lot of good links. Getting recommendations from somebody whose taste you like is one of the best things that you can use Twitter for. And one of the things that Feedbin does with the space available is if there's a link, it can just go and fetch the text to that article and display it alongside the tweet, so you can read the whole thing without ever leaving Feedbin.
 
-**Jerod Santo:** \[00:24:07.16\] Right. That's all cool stuff, I think, as a reader. If we focus back in on the creation side for businesses, for even individual creators, the attraction of Twitter from a creator's perspective is the opportunity to have viral spread; the instant feedback loop of likes and replies. It's the network. You're not gonna get that with RSS feeds. So much so -- I mean, you're not even gonna get subscriber counts. Twitter will tell you how many people are following you, and that's a nice metric, right? It's a simplified metric. Maybe not the most useful metric, but it's easy to follow, and it feels good when it goes up.
+**Jerod Santo:** \[24:07\] Right. That's all cool stuff, I think, as a reader. If we focus back in on the creation side for businesses, for even individual creators, the attraction of Twitter from a creator's perspective is the opportunity to have viral spread; the instant feedback loop of likes and replies. It's the network. You're not gonna get that with RSS feeds. So much so -- I mean, you're not even gonna get subscriber counts. Twitter will tell you how many people are following you, and that's a nice metric, right? It's a simplified metric. Maybe not the most useful metric, but it's easy to follow, and it feels good when it goes up.
 
 RSS doesn't have those kinds of things because of the nature of the way it works, so much so that FeedBurner came along years ago, and even -- I mean, the reason why everybody used FeedBurner wasn't because they couldn't publish their own feeds; it was because FeedBurner would give you a \[unintelligible 00:25:06.22\] subscriber count. That's pretty much why people liked FeedBurner. Because they could point their RSS feed through FeedBurner and FeedBurner would give them that subscriber count, which they could then use that to attract advertisers, to feel good about themselves, to compare themselves to other people... Whatever we do with our subscriber counts, right? That ended up being kind of a black hole, because FeedBurner then got bought by Google, and it quit getting worked on... I think it still works today, but there's always these -- what if it just completely stopped doing things, your redirects all break, and now your feeds are broken... But I bring it up because it's the tractor-beam that is a little bit of analytics, a little bit of knowledge of "Who's reading my stuff?" That's what creators want.
 
@@ -264,7 +264,7 @@ RSS doesn't have those kinds of things because of the nature of the way it works
 
 **Adam Stacoviak:** Right.
 
-**Ben Ubois:** \[00:27:58.21\] But I consider this just like an RSS reader best practice. Feedbin and many other readers actually do report subscriber counts, and the way it's typically done - the way Feedbin does it - is just in the requests header. If you look at your server logs, you'll see an X Feedbin subscriber count thing with the actual number. Now, you've gotta parse server logs like it's 1999, but it is there.
+**Ben Ubois:** \[27:58\] But I consider this just like an RSS reader best practice. Feedbin and many other readers actually do report subscriber counts, and the way it's typically done - the way Feedbin does it - is just in the requests header. If you look at your server logs, you'll see an X Feedbin subscriber count thing with the actual number. Now, you've gotta parse server logs like it's 1999, but it is there.
 
 And there was a company that was trying to do this as a service almost as a FeedBurner competitor, where they would aggregate all of those RSS subscriber headers for you... I don't know if they exist anymore, but there's been attempts that have been made. Like, people who wanna attract the bigger fish to it.
 
@@ -292,7 +292,7 @@ Same thing with Twitter - right now I'm kind of overwhelmed with them algorithmi
 
 **Ben Ubois:** It is a conflict. I think to a fault I come down on the side of going with my opinion on the thing, even if it is probably not the best business idea... Mostly just because of how Feedbin got started just kind of accidentally being in the right place, at the right time, with Google Reader shutting down two days after the launch. And instead of immediately trying to figure out what the thing to do is to capitalize on that, I just doubled down on making the thing that I wanna use. That's always my first choice... And it just felt like the right thing to do, and still does.
 
-**Adam Stacoviak:** \[00:32:11.22\] I agree. I mean, we make podcasts that we think people will like, but also it begins with us liking the content.
+**Adam Stacoviak:** \[32:11\] I agree. I mean, we make podcasts that we think people will like, but also it begins with us liking the content.
 
 **Jerod Santo:** Right. We could probably make podcasts that more people listen to.
 
@@ -308,7 +308,7 @@ Same thing with Twitter - right now I'm kind of overwhelmed with them algorithmi
 
 **Ben Ubois:** Yeah. The way I always thought about it is if I am going to work on somebody else's dream, then I could just go get a job somewhere. So this thing is my dream, and I get to decide what goes into it.
 
-**Break:** \[00:32:55.18\]
+**Break:** \[32:55\]
 
 **Jerod Santo:** So the beauty of RSS and the open web, which RSS is a part of, is that Feedbin is not RSS. It's not the RSS experience. You just happen to be the one that's on our show right now, so of course we're grilling you on ideas and changes and stuff... But there's tons of people that are doing RSS readers.
 
@@ -320,7 +320,7 @@ Same thing with Twitter - right now I'm kind of overwhelmed with them algorithmi
 
 **Jerod Santo:** My point is -- of course, we're not saying you have to do all these things, or should do all these things, or like "RSS depends on you, Ben Ubois. Otherwise it's gonna continue as-is." I think we enjoy when we try to talk about ways we can make this technology and this ecosystem better for all of us, so that we can have an alternative to what we currently have, which is siloed, big-tech, algorithm-driven, ad-driven social experiences on the web. And RSS as a technology we all know is the underpinnings of lots of things. But as a reader, as a social network, it is not. It could be a social network. It could be your personally curated, chronologically-timelined, beautiful, "safe" social network. It could be all \[unintelligible 00:38:15.24\] and it's not quite that. And every time we get mad at all of the social networks that be, we say "Why can't we just all use RSS? Like, we have one. It's right there."
 
-\[00:38:26.02\] And so then the next step is like "Well, it's lacking some stuff though. Here's what it's missing." And some of what it's missing is what makes it beautiful, but some of what it's missing is what makes it suck, right? Not be sticky.
+\[38:26\] And so then the next step is like "Well, it's lacking some stuff though. Here's what it's missing." And some of what it's missing is what makes it beautiful, but some of what it's missing is what makes it suck, right? Not be sticky.
 
 **Adam Stacoviak:** Jerod, that's a great way to put it. Everything he just said is what I've been trying to say all along. \[laughter\] Seriously.
 
@@ -350,7 +350,7 @@ Same thing with Twitter - right now I'm kind of overwhelmed with them algorithmi
 
 That doesn't mean they're actually doing all that well... I think good discovery comes from your friends. It comes from your already existing social network. So even with podcasts, to this day, I personally learn about podcasts from people who listen to podcasts and talk about them to me. And most people who find us, they say "Yeah, my colleague at work sent me a link to the show, and I gave it a listen." So a lot of the discovery I think that's the best is personally curated by people that know you... So that's why I think that social network of other people who are like-minded - like you said, Ben, you like to follow people on Twitter who are good link-finders, right? They're gonna find good content and they're gonna curate content; they're gonna find the stuff that you like better than the current algorithms that be.
 
-\[00:42:02.29\] So maybe the answer for a Feedbin or for the RSS ecosystem isn't necessarily like "Who has the best algorithm? What algorithm could Ben come up with to suggest content?" but it's more like "How can we better cross the networks that we have, the personal social networks that we currently already have, in order for us to share?"
+\[42:02\] So maybe the answer for a Feedbin or for the RSS ecosystem isn't necessarily like "Who has the best algorithm? What algorithm could Ben come up with to suggest content?" but it's more like "How can we better cross the networks that we have, the personal social networks that we currently already have, in order for us to share?"
 
 Adam and I were talking yesterday... He likes my Feedbin, because I just tell him like -- isn't that what you said? I wish I had some of your subscriptions.
 
@@ -398,7 +398,7 @@ Adam and I were talking yesterday... He likes my Feedbin, because I just tell hi
 
 **Jerod Santo:** Right. Because even if it wasn't like -- okay, so one problem is if it was a free service, it may have 10x, maybe 100x the users, and so the likelihood of my friends or my colleagues or people that I already have a social graph with being on there would be much higher. So a paid service like Feedbin - much smaller; okay, so maybe then the small play, whatever the user base is, is what if I could just see the most starred stuff by everybody? That might be a place where like "Okay, I can go trawling through there." It doesn't have to be people I know, but because it's not that big, maybe it's just like "Hey, this article was starred by 75 people." That's a signal, to a certain extent.
 
-\[00:46:15.24\] Now, you do have privacy implications there, but now you can start to show me things... And I wouldn't say necessarily like "Insert that then into my Feedbin feed", but maybe there's another subsection called "Most starred in the feeds list" that I could go check when I was interested.
+\[46:15\] Now, you do have privacy implications there, but now you can start to show me things... And I wouldn't say necessarily like "Insert that then into my Feedbin feed", but maybe there's another subsection called "Most starred in the feeds list" that I could go check when I was interested.
 
 **Ben Ubois:** Yeah. But again, I think there's like a scale and diversity problem really, which is like, if you do look at the numbers of something that has a lot of stars, it's like, it's not really a surprise. It's like, "What's the latest thing on Daring Fireball?" or something, or another big blog that everybody's already subscribed to anyway. So I think there needs to be a way to find the less obvious stories somehow.
 
@@ -430,7 +430,7 @@ So I think that's good for discovery, personally. I mean, there's some sort of o
 
 So it's been everywhere in between, and it is the protocol that will never die, because it hasn't yet. It's been resilient. And everything at that is the epicenter of what you're building. So it's just a matter of "How do I get people to subscribe to content that is outside the over-algorithmed, over-engineered, over-privacy, anti-privacy social networks that just don't ultimately pay out." They may be a good mechanism for discovering new people, TikTok, YouTube, Twitter etc. I use all those platforms; they're all great in their own right. However, I think there's room in there for RSS to improve, and I think it begins with folks like you.
 
-**Jerod Santo:** \[00:50:31.15\] It begins with you, Ben.
+**Jerod Santo:** \[50:31\] It begins with you, Ben.
 
 **Adam Stacoviak:** You and people like you.
 
@@ -450,7 +450,7 @@ So one thing that could be cool about podcasting is following a person around, p
 
 **Ben Ubois:** I like that. Yeah, that's interesting.
 
-**Jerod Santo:** \[00:54:03.16\] Maybe Tim Ferriss. Maybe you already listened to all of the Tim Ferriss shows, but also he's a guest on other shows; well, can I subscribe to Tim Ferriss in my podcast app? Well, with podcasting 2.0...
+**Jerod Santo:** \[54:03\] Maybe Tim Ferriss. Maybe you already listened to all of the Tim Ferriss shows, but also he's a guest on other shows; well, can I subscribe to Tim Ferriss in my podcast app? Well, with podcasting 2.0...
 
 **Adam Stacoviak:** Do you know how much time I was \[unintelligible 00:54:13.17\] I will spend days, weeks, months, just scrolling YouTube forever, waiting for the next thing of this person I'm paying attention to currently.
 
@@ -478,7 +478,7 @@ I guess the point is there's a lot of people trying to make podcasting better. A
 
 **Ben Ubois:** It has been fairly stagnant for a long time. The biggest thing that I think hasn't really taken of was an attempt to kind of redefine RSS, which is an XML-based format, as JSON. And I really like that Feedbin supports it; it did from pretty much the beginning... Just because XML is hard. It's hard to read, it's hard to parse, and it can be really complex with the namespace thing especially, if you wanna do that in a valid way, or following a document definition... Whereas JSON - anything can parse JSON.
 
-**Jerod Santo:** \[00:58:20.03\] Right. Is it the jsonfeed.org? Is that what that is?
+**Jerod Santo:** \[58:20\] Right. Is it the jsonfeed.org? Is that what that is?
 
 **Ben Ubois:** Jsonfeed.org, yeah. By Manton Reece and Brent Simmons.
 
