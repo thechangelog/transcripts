@@ -30,7 +30,7 @@ First up, it's the [PiBox](https://pibox.io). Designed for hackers, tinkerers, a
 
 They call it the most versatile personal server ever. It's powered by KubeSail, which works on any Linux OS that can run Kubernetes. KubeSail looks sorta open source? There's lots of open repos on their GitHub org, but there is a KubeSail.com control panel and other private parts, as far as I can tell. However, since it's all about self hosting, they aren't running your apps as a service.
 
-Entry level pricing is $159 with the plug n play maxed out offering at $529. Batch 1 of the PiBoxes are shipping now, but they're taking pre-orders for batch 2, which is expected to ship in October.
+Entry level pricing is $159 with the plug N play maxed out offering at $529. Batch 1 of the PiBoxes are shipping now, but they're taking pre-orders for batch 2, which is expected to ship in October.
 
 **Break:**
 
