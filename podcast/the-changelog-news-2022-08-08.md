@@ -40,11 +40,15 @@ Speaking of hosting, Nima Badizadegan
 
 **Heisenberg:** [Say my name.](https://www.youtube.com/watch?v=5eZOOEkrf6Q)
 
+**Jerod Santo:**
+
 I tried, I really tried. Nima writes on the advantages of using one big server over a distributed system architecture. Nima says, "We have all gotten so familiar with virtualization and abstractions between our software and the servers that run it. These days, “serverless” computing is all the rage, and even “bare metal” is a class of virtual machine. However, every piece of software runs on a server. Since we now live in a world of virtualization, most of these servers are a lot bigger and a lot cheaper than we actually think."
 
 The article covers the capabilities of one server, what it'll cost you, how scaling up is easier than scaling out, and rebuts a bunch of common objections to the One Big Server approach.
 
 **Break:**
+
+**Jerod Santo:**
 
 Gergely Orosz has a two-part series about how the software industry approaches oncall. Part 1 covers [healthy oncall practices](https://newsletter.pragmaticengineer.com/p/healthy-oncall-practices) and part 2 dives into oncall compensation for software engineers.
 
@@ -59,7 +63,6 @@ A valuable resource, for sure, if and when you're job shopping.
 **Break:**
 
 **Jerod Santo:**
-
 
 Are you always swamped with work? Greg Kogan says that's normal and not impressive. Ouch.
 
@@ -110,7 +113,6 @@ We like lots of languages, and we come from backgrounds where we – I was a Clo
 **Jerod Santo:**
 
 But it's super cool to see Toby and the team bringing their CLI tools to the broader community.
-
 
 **Break:**
 
