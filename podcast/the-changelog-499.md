@@ -80,7 +80,7 @@
 
 **Jerod Santo:** Right.
 
-**Adam Stacoviak:** ...despite my love for it, I still can't find a way to truly reap the benefits, I suppose. And I would say that's an \[unintelligible 00:07:43.25\] issue, like "What should I follow?" Because I'm following things that are overwhelming. Axios, Crunchbase News... I'm just pulling some out there. Daring Fireball is in there. Forbes Innovation... So not Forbes at large, but Forbes Innovation, so what's happening in tech...
+**Adam Stacoviak:** ...despite my love for it, I still can't find a way to truly reap the benefits, I suppose. And I would say that's an aggregation issue, like "What should I follow?" Because I'm following things that are overwhelming. Axios, Crunchbase News... I'm just pulling some out there. Daring Fireball is in there. Forbes Innovation... So not Forbes at large, but Forbes Innovation, so what's happening in tech...
 
 **Jerod Santo:** \[08:02\]Right.
 
@@ -120,7 +120,7 @@
 
 And now that I think about it, there is a feature that could help you in Feedbin. If you go to your subscriptions page, you could sort by post volume and then just unsubscribe from the top 50%. Cut your list in half just immediately.
 
-**Adam Stacoviak:** \[unintelligible 00:10:29.28\]
+**Adam Stacoviak:** Should I tell who's on the chopping block?
 
 **Ben Ubois:** Yeah. \[laughs\] I mean, I already know it's Hacker News...
 
@@ -158,7 +158,7 @@ But yeah, as far as getting started, definitely low-volume is great. But also ju
 
 **Ben Ubois:** But just, you know, the stuff you actually do already love.
 
-**Adam Stacoviak:** I guess, since you mentioned business, what is the state of this application to your focus? I wouldn't say importance, but your focus. Because we may suggest during this show you do things that you're just unwilling, and I think this might be the larger problem, or thinking \[unintelligible 00:14:11.28\] which is "Is there enough enterprise incentive?" And I don't even wanna use the word "enterprise". Just business incentive for someone, if it's not you, Ben, if it's someone to focus their efforts on iterating this user experience to give RSS a chance. And I think you have put the best foot forward of an indie dev.
+**Adam Stacoviak:** I guess, since you mentioned business, what is the state of this application to your focus? I wouldn't say importance, but your focus. Because we may suggest during this show you do things that you're just unwilling, and I think this might be the larger problem, we're thinking of with RSS, which is "Is there enough enterprise incentive?" And I don't even wanna use the word "enterprise". Just business incentive for someone, if it's not you, Ben, if it's someone to focus their efforts on iterating this user experience to give RSS a chance. And I think you have put the best foot forward of an indie dev.
 
 There's other things out there like Substack and folks who are obviously pushing the creator and email and RSS ball forward, but is this worth enough in terms of a business to put this effort in? Like, what's the state of the business for you, the application for you? Is it enough of a livelihood for you to even give more effort to?
 
@@ -242,7 +242,7 @@ One of my favorite ways to use Twitter was always about people that posted a lot
 
 **Jerod Santo:** \[24:07\] Right. That's all cool stuff, I think, as a reader. If we focus back in on the creation side for businesses, for even individual creators, the attraction of Twitter from a creator's perspective is the opportunity to have viral spread; the instant feedback loop of likes and replies. It's the network. You're not gonna get that with RSS feeds. So much so -- I mean, you're not even gonna get subscriber counts. Twitter will tell you how many people are following you, and that's a nice metric, right? It's a simplified metric. Maybe not the most useful metric, but it's easy to follow, and it feels good when it goes up.
 
-RSS doesn't have those kinds of things because of the nature of the way it works, so much so that FeedBurner came along years ago, and even -- I mean, the reason why everybody used FeedBurner wasn't because they couldn't publish their own feeds; it was because FeedBurner would give you a \[unintelligible 00:25:06.22\] subscriber count. That's pretty much why people liked FeedBurner. Because they could point their RSS feed through FeedBurner and FeedBurner would give them that subscriber count, which they could then use that to attract advertisers, to feel good about themselves, to compare themselves to other people... Whatever we do with our subscriber counts, right? That ended up being kind of a black hole, because FeedBurner then got bought by Google, and it quit getting worked on... I think it still works today, but there's always these -- what if it just completely stopped doing things, your redirects all break, and now your feeds are broken... But I bring it up because it's the tractor-beam that is a little bit of analytics, a little bit of knowledge of "Who's reading my stuff?" That's what creators want.
+RSS doesn't have those kinds of things because of the nature of the way it works, so much so that FeedBurner came along years ago, and even -- I mean, the reason why everybody used FeedBurner wasn't because they couldn't publish their own feeds; it was because FeedBurner would give you a stinking subscriber count. That's pretty much why people liked FeedBurner. Because they could point their RSS feed through FeedBurner and FeedBurner would give them that subscriber count, which they could then use that to attract advertisers, to feel good about themselves, to compare themselves to other people... Whatever we do with our subscriber counts, right? That ended up being kind of a black hole, because FeedBurner then got bought by Google, and it quit getting worked on... I think it still works today, but there's always these -- what if it just completely stopped doing things, your redirects all break, and now your feeds are broken... But I bring it up because it's the tractor-beam that is a little bit of analytics, a little bit of knowledge of "Who's reading my stuff?" That's what creators want.
 
 **Adam Stacoviak:** Yeah.
 
@@ -318,7 +318,7 @@ Same thing with Twitter - right now I'm kind of overwhelmed with them algorithmi
 
 **Ben Ubois:** Yeah, I think there is a long tail, for sure.
 
-**Jerod Santo:** My point is -- of course, we're not saying you have to do all these things, or should do all these things, or like "RSS depends on you, Ben Ubois. Otherwise it's gonna continue as-is." I think we enjoy when we try to talk about ways we can make this technology and this ecosystem better for all of us, so that we can have an alternative to what we currently have, which is siloed, big-tech, algorithm-driven, ad-driven social experiences on the web. And RSS as a technology we all know is the underpinnings of lots of things. But as a reader, as a social network, it is not. It could be a social network. It could be your personally curated, chronologically-timelined, beautiful, "safe" social network. It could be all \[unintelligible 00:38:15.24\] and it's not quite that. And every time we get mad at all of the social networks that be, we say "Why can't we just all use RSS? Like, we have one. It's right there."
+**Jerod Santo:** My point is -- of course, we're not saying you have to do all these things, or should do all these things, or like "RSS depends on you, Ben Ubois. Otherwise it's gonna continue as-is." I think we enjoy when we try to talk about ways we can make this technology and this ecosystem better for all of us, so that we can have an alternative to what we currently have, which is siloed, big-tech, algorithm-driven, ad-driven social experiences on the web. And RSS as a technology we all know is the underpinnings of lots of things. But as a reader, as a social network, it is not. It could be a social network. It could be your personally curated, chronologically-timelined, beautiful, "safe" social network. It could be all of ours, and it's not quite that. And every time we get mad at all of the social networks that be, we say "Why can't we just all use RSS? Like, we have one. It's right there."
 
 \[38:26\] And so then the next step is like "Well, it's lacking some stuff though. Here's what it's missing." And some of what it's missing is what makes it beautiful, but some of what it's missing is what makes it suck, right? Not be sticky.
 
@@ -326,7 +326,7 @@ Same thing with Twitter - right now I'm kind of overwhelmed with them algorithmi
 
 **Jerod Santo:** That's why we're a team.
 
-**Adam Stacoviak:** Yeah, that's exactly it. What is missing... You know -- say it again, Jerod. What it's missing is its downfall, but what it's also missing \[unintelligible 00:38:50.29\]
+**Adam Stacoviak:** Yeah, that's exactly it. What is missing... You know -- say it again, Jerod. What it's missing is its downfall, but what it's also missing is it's ‘Suck’ 
 
 **Jerod Santo:** It can be. It can be. There's certain aspects of it... Like the discovering. Discoverability is a big problem. Like I said, you're on Twitter because you wanna go viral. Well, when you go viral, somebody puts your content in front of somebody else, and they also enjoy that content, right?
 
@@ -426,7 +426,7 @@ Adam and I were talking yesterday... He likes my Feedbin, because I just tell hi
 
 **Adam Stacoviak:** It could be better. Oh, wait, there it is. I'm just kidding. I'm just kidding. But I do see what I would consider relevant podcasts that I would either a) listen to, or at least recommend if somebody wanted to listen to it. I may not listen to a person; I can say "Hey, this show, X, Y or Z, from whomever - yeah, it's great. It's out there. I don't listen to it, but if you want that content, it's probably a good piece of content that you can check out or pay attention to."
 
-So I think that's good for discovery, personally. I mean, there's some sort of overlap there, which is "How do you discover through your user base what is signal, and how do you as a platform partner with those creators and give them exposure?" Because what you want is more good content creators out there who get value from platforms like yours, so that more people enjoy products \[unintelligible 00:49:33.12\]? And without that, your growth metric may stagnate or decline. And it's not like "Hey, Ben, save your job", but more like RSS has stood the test of time. It's died, it's lived, it's had a resurgence, it's had a re-resurgence again... You know what I mean?
+So I think that's good for discovery, personally. I mean, there's some sort of overlap there, which is "How do you discover through your user base what is signal, and how do you as a platform partner with those creators and give them exposure?" Because what you want is more good content creators out there who get value from platforms like yours, so that more people enjoy products that you create? And without that, your growth metric may stagnate or decline. And it's not like "Hey, Ben, save your job", but more like RSS has stood the test of time. It's died, it's lived, it's had a resurgence, it's had a re-resurgence again... You know what I mean?
 
 So it's been everywhere in between, and it is the protocol that will never die, because it hasn't yet. It's been resilient. And everything at that is the epicenter of what you're building. So it's just a matter of "How do I get people to subscribe to content that is outside the over-algorithmed, over-engineered, over-privacy, anti-privacy social networks that just don't ultimately pay out." They may be a good mechanism for discovering new people, TikTok, YouTube, Twitter etc. I use all those platforms; they're all great in their own right. However, I think there's room in there for RSS to improve, and I think it begins with folks like you.
 
@@ -452,7 +452,7 @@ So one thing that could be cool about podcasting is following a person around, p
 
 **Jerod Santo:** \[54:03\] Maybe Tim Ferriss. Maybe you already listened to all of the Tim Ferriss shows, but also he's a guest on other shows; well, can I subscribe to Tim Ferriss in my podcast app? Well, with podcasting 2.0...
 
-**Adam Stacoviak:** Do you know how much time I was \[unintelligible 00:54:13.17\] I will spend days, weeks, months, just scrolling YouTube forever, waiting for the next thing of this person I'm paying attention to currently.
+**Adam Stacoviak:** Do you know how much time I was saving on Youtube? I will spend days, weeks, months, just scrolling YouTube forever, waiting for the next thing of this person I'm paying attention to currently.
 
 **Jerod Santo:** Of your favorite creator, yeah.
 
@@ -808,11 +808,11 @@ Our plan as we add chapters to our podcasts is to put them in both places. It's 
 
 **Jerod Santo:** So that's a small thing in comparison.
 
-**Ben Ubois:** Maybe it's just a \[unintelligible 01:26:39.28\] with the way they've chosen to implement it, because that's something that could be improved. It's like, I'm already downloading this one thing, so let's get all that data right now.
+**Ben Ubois:** Maybe it's just equitable with the way they've chosen to implement it, because that's something that could be improved. It's like, I'm already downloading this one thing, so let's get all that data right now.
 
 **Jerod Santo:** Yeah. I think authorship was the major concern.
 
-**Ben Ubois:** Yeah. And now that I think about it, there might already be an XML spec for chapters. \[unintelligible 01:27:00.01\] this Podlove thing...
+**Ben Ubois:** Yeah. And now that I think about it, there might already be an XML spec for chapters. Have you ever heard of this Podlove thing...
 
 **Jerod Santo:** I think the Podlove people are involved in this.
 
@@ -836,7 +836,7 @@ Our plan as we add chapters to our podcasts is to put them in both places. It's 
 
 **Adam Stacoviak:** And I haven't finalized my case, I'm just thinking like "Okay, what are all the pros and cons?" Because resilience to me says there's already a spec, like Ben's saying, but also, it lives with the file; no matter where the file goes...
 
-**Jerod Santo:** Yeah, but \[unintelligible 01:28:42.00\] lives with the file as well, but we also put it in the feed, so... Why do we do that?
+**Jerod Santo:** Yeah, but the album art lives with the file as well, but we also put it in the feed, so... Why do we do that?
 
 **Adam Stacoviak:** So you're saying the spec should say to put it in the feed and the mp3 in perpetuity? Or at some point the file would be bifurcated from it?
 
