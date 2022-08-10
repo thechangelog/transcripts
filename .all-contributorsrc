@@ -2312,6 +2312,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "groves",
+      "name": "Charlie Groves",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12270?v=4",
+      "profile": "https://github.com/groves",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
