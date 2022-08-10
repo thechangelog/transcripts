@@ -1,6 +1,6 @@
 **Mat Ryer:** Hello! Welcome to Go Time, a very special edition, live from GopherCon EU 2022 in Berlin. Say hello, everyone! \[applause\] Okay, so the purpose of the game is -- what we've done is we've asked a hundred gophers lots of questions, and the two teams here have to guess the top answers that were given. So any answer that received five or more responses will appear on the board, and you get that many points as how many people answered. So some of them will be worth a lot more, the more popular ones.
 
-\[00:04:11.11\] We're gonna take turns, we'll do a face-off to start with, and this is where a team captain from each team will have a guess, and the one that gets the best answer takes control of the board. We will then round robin through the team, and they'll have the opportunity to guess the answers. But be warned... You only have three lives. If you lose the three lives as a team, the other team gets the chance to steal. Stealing is essentially you just have to get one correct answer, and that's it, you can take all of the points. So stealing is key to the success in this game.
+\[04:11\] We're gonna take turns, we'll do a face-off to start with, and this is where a team captain from each team will have a guess, and the one that gets the best answer takes control of the board. We will then round robin through the team, and they'll have the opportunity to guess the answers. But be warned... You only have three lives. If you lose the three lives as a team, the other team gets the chance to steal. Stealing is essentially you just have to get one correct answer, and that's it, you can take all of the points. So stealing is key to the success in this game.
 
 Now, throughout the game there's no conferring, unless you're working as a team to steal. So it's important that you answer independently. We haven't got time to meet the team, but... You know, just look at them.
 
@@ -60,7 +60,7 @@ And... Mat Ryer. He's also there. Back to you, Mat...
 
 **V Körbes:** So we need to confer... We're conferring now, excuse me.
 
-**Mat Ryer:** \[00:08:13.23\] Confer then. Don't tell me you're conferring. Confer. \[laughter\] Put the microphone up to your conferring, please. Confer into the mic, please.
+**Mat Ryer:** \[08:13\] Confer then. Don't tell me you're conferring. Confer. \[laughter\] Put the microphone up to your conferring, please. Confer into the mic, please.
 
 **V Körbes:** Oh, okay, sorry. We're conferring into the mic now... \[laughter\]
 
@@ -130,7 +130,7 @@ So now we need two different captains. Robert and Tamir, you're gonna be captain
 
 **Konrad Reiche:** I can think of a negative word, but this is GopherCon, so I will go with "complete".
 
-**Mat Ryer:** \[00:12:03.23\] Complete. Very interesting. Gophers say... \[fail alert\] No. And that means Team Zero has a chance to steal. That's three lives down... 42 points on the board here. You'll have to confer...
+**Mat Ryer:** \[12:03\] Complete. Very interesting. Gophers say... \[fail alert\] No. And that means Team Zero has a chance to steal. That's three lives down... 42 points on the board here. You'll have to confer...
 
 **Robert Burke:** Confer into the mic... Confer into the mic... \[laughter\]
 
@@ -172,7 +172,7 @@ So now we need two different captains. Robert and Tamir, you're gonna be captain
 
 **Mat Ryer:** Twelve points. A round of applause as we go into round three! \[applause\]
 
-**Break:** \[00:13:40.10\]
+**Break:** \[13:40\]
 
 **Mat Ryer:** Okay, this is a very interesting question, I would say, and yet, we've got lots of answers. The question was "Name an animal that reminds you of a gopher." Name an animal that reminds you of a gopher. So Ronna and Konrad are gonna be facing off now on these, to try and get this. Ronna, you go first...
 
@@ -184,7 +184,7 @@ So now we need two different captains. Robert and Tamir, you're gonna be captain
 
 **Mat Ryer:** A gopher. Sounds crazy. Let's see. Gophers say... \[win alert\] Yes, and it's the top answer. \[applause\] Excellent. Tamir, your team now controls the board...
 
-**Tamir Bahar:** \[00:16:19.04\] So an animal that reminds me of a gopher -- that reminds you of a gopher; so not me. You. \[laughter\] I'll go with a bear...
+**Tamir Bahar:** \[16:19\] So an animal that reminds me of a gopher -- that reminds you of a gopher; so not me. You. \[laughter\] I'll go with a bear...
 
 **Mat Ryer:** You're gonna go with a bill. A bear, okay. I'm sorry --
 
@@ -252,7 +252,7 @@ Okay, you still have two lives left. Konrad, it's your turn again to have a gues
 
 **V Körbes:** Capibara.
 
-**Mat Ryer:** \[00:20:11.21\] No, they didn't. We had rat, prairie dog, squirrel, Noodles the cat from Reddit, and one person said Mat Ryer. \[laughter\] So... That's not great for me. Round of applause as we go into the next round. \[applause\] Yes. Now, this is Go Time, and we've got a very special round. This is the unpopular round. So now we're looking for the least popular answers. So you get more points the least popular answers there are. And there's no face-off, we're just gonna go around, starting with Natalie. Which day of the week do you get the most coding done? Which day of the week do you get the most coding done? Natalie.
+**Mat Ryer:** \[20:11\] No, they didn't. We had rat, prairie dog, squirrel, Noodles the cat from Reddit, and one person said Mat Ryer. \[laughter\] So... That's not great for me. Round of applause as we go into the next round. \[applause\] Yes. Now, this is Go Time, and we've got a very special round. This is the unpopular round. So now we're looking for the least popular answers. So you get more points the least popular answers there are. And there's no face-off, we're just gonna go around, starting with Natalie. Which day of the week do you get the most coding done? Which day of the week do you get the most coding done? Natalie.
 
 **Natalie Pistunovich:** Monday.
 
@@ -298,7 +298,7 @@ Okay, you still have two lives left. Konrad, it's your turn again to have a gues
 
 **Mat Ryer:** Oh, Saturday. Let's see. Gophers say... \[fail alert\] No, I'm afraid not.
 
-**Tamir Bahar:** \[00:24:11.17\] Wait, so it's not Sunday and not Saturday?
+**Tamir Bahar:** \[24:11\] Wait, so it's not Sunday and not Saturday?
 
 **Mat Ryer:** Hang on, let's check your lives here... Yeah, but bear in mind, we asked this question, and they gave as answers -- we didn't give them an enum, we don't have them in Go. \[laughter\] This is string field.
 
@@ -346,7 +346,7 @@ Okay... Now the final round coming up, and this is -- you're gonna be excited. Y
 
 **Ronna Steinberg:** Well, to me, GopherCon Europe is Natalie, but I am going to go with "amazing".
 
-**Mat Ryer:** \[00:28:00.09\] Amazing. That's a great answer. Let's see. Gophers say... \[fail alert\] No, they didn't say amazing. But don't worry, you still have another life. Natalie, don't lose the life, essentially.
+**Mat Ryer:** \[28:00\] Amazing. That's a great answer. Let's see. Gophers say... \[fail alert\] No, they didn't say amazing. But don't worry, you still have another life. Natalie, don't lose the life, essentially.
 
 **Natalie Pistunovich:** Educational.
 
@@ -422,7 +422,7 @@ And some other answers there... There were some quite -- well, let's have a look
 
 **Mat Ryer:** Yes... Well, let's look at the final points. Team Zero - Natalie, Robert an Ronna - you did brilliantly. You got 117 points. Very respectable, indeed. Congratulations. \[applause\] But slightly more respectable, Team One, you nailed it. You got 210 points. Well done, Tamir, V and Konrad. \[applause\] Thank you so much for joining us for this live episode of Go Time and Gophers Say. Tune in next time. Tell your friends about the podcast... If you've got any. I have. Why are you looking at me like that?
 
-**Break:** \[00:31:54.20\]
+**Break:** \[31:54\]
 
 **Mat Ryer:** Thank you so much, everyone... Tamir, V, Konrad, Ronna, Robert... Please go away. Thank you so much though. A round of applause, everyone. \[applause\]
 
@@ -458,7 +458,7 @@ So we're really kind of focused on a lot of community efforts, specifically arou
 
 **Natalie Pistunovich:** German Marks.
 
-**Mat Ryer:** \[00:36:05.23\] Deutsche Mark, yeah. Okay, Euros will do. Five euros though... Do I see a bid? I do see a bid of five. Do I see 10? I see 10 down here, gentleman there with his hand up. He's got 10. Do I see 15? I see 15 in the back. Do I see 20? 20 down here, 20 euros. Do I see 25 euros anywhere? Yes, there's 25 euros, someone that's actually taken the effort to find a piece of card to hold up, which is great.
+**Mat Ryer:** \[36:05\] Deutsche Mark, yeah. Okay, Euros will do. Five euros though... Do I see a bid? I do see a bid of five. Do I see 10? I see 10 down here, gentleman there with his hand up. He's got 10. Do I see 15? I see 15 in the back. Do I see 20? 20 down here, 20 euros. Do I see 25 euros anywhere? Yes, there's 25 euros, someone that's actually taken the effort to find a piece of card to hold up, which is great.
 
 **Natalie Pistunovich:** Your badge can be the card, yeah.
 
