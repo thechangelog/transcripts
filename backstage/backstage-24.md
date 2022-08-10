@@ -100,7 +100,7 @@
 
 **Jerod Santo:** Right. You were just praising Notion I think the last time we had a Backstage... \[laughs\]
 
-**Adam Stacoviak:** \[00:04:01.27\] Hey, you know, I'm gonna praise it again; I'm gonna go zig-zag here, because I was just using it today, and it's just so fast.
+**Adam Stacoviak:** \[04:01\] Hey, you know, I'm gonna praise it again; I'm gonna go zig-zag here, because I was just using it today, and it's just so fast.
 
 **Jerod Santo:** Notion?
 
@@ -192,7 +192,7 @@ We're joined by myself, Andrew Thorp, Steve Klabnik, Kenneth Reitz and Jerod San
 
 **Adam Stacoviak:** I'd probably say of the 85, I was probably involved on the frontend for at least half. Maybe 40%. Behind the scenes, totally a part of... Which is just interesting how things work out. Early days, man... Early days.
 
-**Old Changelog Intro:** \[00:08:14.28\]
+**Old Changelog Intro:** \[08:14\]
 
 **Adam Stacoviak:** This is Changelog Spotlight 0.0.3. We spoke with Rob Pike of Google. He's one of the principal engineers at Google and also one of the leads behind their open source language called Go. I'm Adam Stacoviak...
 
@@ -206,7 +206,7 @@ We're joined by myself, Andrew Thorp, Steve Klabnik, Kenneth Reitz and Jerod San
 
 **Jerod Santo:** Even going back to episode in the hundreds... One I listened to the other day - I think it was the Chris McCord episode. I've been asked to do a talk at an Elixir meetup in San Francisco. I'm just gonna do it remotely... And that had me thinking about -- they asked me something about how I picked Elixir, and stuff... And I happened to be on the website when I was talking with them, and I have found the episode almost by happenstance. I think 147, maybe... When Chris McCord first came on. And I was just listening to the intro, and I'm like "Gosh..." Even that, which is like, you're 147 episodes in; I'm just like "It sounds so much better now." \[laughs\]
 
-**Old Changelog Intro:** \[00:09:38.06\]
+**Old Changelog Intro:** \[09:38\]
 
 **Adam Stacoviak:** Welcome back, everyone. This is The Changelog and I'm your host, Adam Stacoviak. This is episode 147, and today Jerod and I are talking to Chris McCord, talking about Elixir on top of Erlang, Phoenix, the web framework... Definitely got me and Jerod thinking about concurrency in Elixir for an upcoming project... Phoenix sounds really cool. You're gonna love this conversation with Chris...
 
@@ -244,7 +244,7 @@ And I did not have any whatsoever sound baffling on the walls. I had hard walls,
 
 **Adam Stacoviak:** So over time we were able to improve because finances improved, and we were able to get the proper gear, and take the proper steps to make things good, all that good stuff. For example, where I live now, we built this house. So when we built this house, we put sound absorption in the walls too, to minimize outside noises coming into the room. And then on the inside of the room, you have sound absorption to minimize ricochets and whatnot. So, some treatment... And the room has carpeting, so it sounds good. Plus, fine-tuned the DBX 286s, and added the aural exciter as another device in the flow which adds that bass... Do you wanna hear something cool? Watch this...
 
-**Jerod Santo:** \[00:12:14.24\] Aural exciter...? It sounds weird.
+**Jerod Santo:** \[12:14\] Aural exciter...? It sounds weird.
 
 **Adam Stacoviak:** It's aural, a-u-r-a-l, I believe.
 
@@ -324,7 +324,7 @@ And I did not have any whatsoever sound baffling on the walls. I had hard walls,
 
 **Adam Stacoviak:** I don't know, I'll have to go back and scroll through... What was it exactly?
 
-**Jerod Santo:** I was talking about the Hacker News post that had a whole bunch of comments, and I put in that part where Jeff Goldblum walks up to the dinosaur doodoo, and he says \[00:15:50.28\] "That is one great pile of s\*\*t."
+**Jerod Santo:** I was talking about the Hacker News post that had a whole bunch of comments, and I put in that part where Jeff Goldblum walks up to the dinosaur doodoo, and he says \[15:50\] "That is one great pile of s\*\*t."
 
 **Adam Stacoviak:** Oh, okay.
 
@@ -378,7 +378,7 @@ We didn't just arrive here being this good, I suppose. I mean, I'm not even tryi
 
 **Adam Stacoviak:** Once I was in the groove, it was like any other thing, ever.
 
-**Jerod Santo:** \[00:18:11.05\] I think it's more like less people -- I mean, I think I would also be nervous talking to Jack Dorsey, probably. I think it's less that people intimidate now, and it's more like lines of questioning... Similar to the WeWork one with On Freund. It's kind of like "How much is he willing to talk, and how comfortable is he?" and making that awesome, and not be weird... Those kind of things still make me a little bit anxious... You know, like, "Can I say this and not ruin it? I don't wanna ruin the show."
+**Jerod Santo:** \[18:11\] I think it's more like less people -- I mean, I think I would also be nervous talking to Jack Dorsey, probably. I think it's less that people intimidate now, and it's more like lines of questioning... Similar to the WeWork one with On Freund. It's kind of like "How much is he willing to talk, and how comfortable is he?" and making that awesome, and not be weird... Those kind of things still make me a little bit anxious... You know, like, "Can I say this and not ruin it? I don't wanna ruin the show."
 
 **Adam Stacoviak:** Right.
 
@@ -428,7 +428,7 @@ We didn't just arrive here being this good, I suppose. I mean, I'm not even tryi
 
 **Jerod Santo:** It was well acted, so we're like "Okay", and we got into it. But I think probably less people have seen that than Silicon Valley, just because you've got long-running --
 
-**Adam Stacoviak:** \[00:20:59.29\] Yeah. I'm waiting... I still haven't watched all of WeCrash. I think I'm like halfway through episode two... And I want to, it's just I don't have the attention to give it right now. And I wanna give it enough attention where I can watch it all in like a few weeks... And I know I can't right now. I watched episode one on a plane.
+**Adam Stacoviak:** \[20:59\] Yeah. I'm waiting... I still haven't watched all of WeCrash. I think I'm like halfway through episode two... And I want to, it's just I don't have the attention to give it right now. And I wanna give it enough attention where I can watch it all in like a few weeks... And I know I can't right now. I watched episode one on a plane.
 
 **Jerod Santo:** Oh, yeah.
 
