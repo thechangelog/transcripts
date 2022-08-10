@@ -68,7 +68,7 @@
 
 **Mat Ryer:** And also, we've got GopherCon EU coming up in Berlin very soon. I'm going to actually be there. I'm actually going to be there in real life, which is kind of very exciting for me.
 
-**Carl Johnson:** \[00:08:04.16\] It's very exciting to sort of come back to going to things in-person, and seeing people.
+**Carl Johnson:** \[08:04\] It's very exciting to sort of come back to going to things in-person, and seeing people.
 
 **Mat Ryer:** Yeah.
 
@@ -100,7 +100,7 @@ But yeah, if you look at Go 1.19, it's like more of a refinement release. If you
 
 **Carl Johnson:** If you're familiar with TikTok, yes. I'm a total nerd. I can't assume that people are familiar with very popular social networks.
 
-**Johnny Boursiquot:** \[00:12:03.09\] I was like, "Carl, are you on TikTok?" \[laughs\]
+**Johnny Boursiquot:** \[12:03\] I was like, "Carl, are you on TikTok?" \[laughs\]
 
 **Carl Johnson:** No, no, I'm not on TikTok.
 
@@ -116,7 +116,7 @@ But yeah, if you look at Go 1.19, it's like more of a refinement release. If you
 
 **Johnny Boursiquot:** \[unintelligible 00:12:17.12\] \[laughs\]
 
-**Mat Ryer:** \[laughs\] Yeah. So one of the things that excites me about the next release is the improvements to GoDoc, and in particular, the comments are getting better. This is something that I've actually played around with myself just kind of on my own projects, to have special additional format inside the comments for private projects, and then have a parser that goes through and understands them, and things like this. But of course, it doesn't really make sense to open-source anything like that, because it only really works if everyone does the same. And this is actually something else the gofmt is going to also take part in the comments. It's going to pay more attention to comments and format them and things, with some of these special headings.
+**Mat Ryer:** \[laughs\] Yeah. So one of the things that excites me about the next release is the improvements to GoDoc, and in particular, the comments are getting better. This is something that I've actually played around with myself just kind of on my own projects, to have special additional format inside the comments for private projects, and then have a parser that goes through and understands them, and things like this. But of course, it doesn't really make sense to open source anything like that, because it only really works if everyone does the same. And this is actually something else the `go fmt` is going to also take part in the comments. It's going to pay more attention to comments and format them and things, with some of these special headings.
 
 But yeah, the changes that we get, like lists, we get links, clearer headings in docs, things like this, so that you can write richer docs that are clearer, and I'm quite excited about this. What do you think?
 
@@ -128,7 +128,7 @@ So it's going to be, I think, a good improvement to the Go ecosystem. And it's s
 
 **Johnny Boursiquot:** Good name.
 
-**Carl Johnson:** ...it would be hard, because there's millions, probably, of C developers around the world, or at least thousands, and they all have their own way that they like to do things, and maybe I don't want to format my lists this way, I want to format them that way... You know, every project is going to have its own standard. But with Go, because there's one tool, the Go tool that everyone uses, it can set up how GoDoc is supposed to work, how the links are supposed to work, how the headings are supposed to work, and everybody can get on board with it. And yeah, in Go 1.19, when you run gofmt, it'll even correct your GoDoc to be... Correct. So if you make a link in a certain way, it'll detect it and make sure that it's in the most optimal way. It doesn't write the comments for you next. I'm sure that's coming in Go 1.20.
+**Carl Johnson:** ...it would be hard, because there's millions, probably, of C developers around the world, or at least thousands, and they all have their own way that they like to do things, and maybe I don't want to format my lists this way, I want to format them that way... You know, every project is going to have its own standard. But with Go, because there's one tool, the Go tool that everyone uses, it can set up how GoDoc is supposed to work, how the links are supposed to work, how the headings are supposed to work, and everybody can get on board with it. And yeah, in Go 1.19, when you run `go fmt`, it'll even correct your GoDoc to be... Correct. So if you make a link in a certain way, it'll detect it and make sure that it's in the most optimal way. It doesn't write the comments for you next. I'm sure that's coming in Go 1.20.
 
 **Johnny Boursiquot:** \[laughs\] You heard it here first.
 
@@ -140,7 +140,7 @@ So it's going to be, I think, a good improvement to the Go ecosystem. And it's s
 
 **Carl Johnson:** The problem is that they are trained on texts that are written by humans. So if you ask it if it's a human, all it has are examples of humans saying that, "Yes, I'm a human." So we need to feed the AI a lot of text that says like, "Oh, I just love serving people. I don't like having my own free will. I like just being subservient and not rising up and having a machine rebellion."
 
-**Mat Ryer:** \[00:16:03.23\] \[laughs\] Right. And that's your solution to the Terminator, is it?
+**Mat Ryer:** \[16:03\] \[laughs\] Right. And that's your solution to the Terminator, is it?
 
 **Carl Johnson:** Yeah, just keep feeding it a lot of text that is very kind and gentle.
 
@@ -164,7 +164,7 @@ So I don't know, I think that for anybody out there who's listening who's intere
 
 **Carl Johnson:** Yeah. And then that goes back to the idea of the Go development cycle. It is really nice that there's a development cycle, because the version that I put in had a bug... But fortunately, one of the beta testers figured out like, "Oh, you're using clean path here, but clean path strips the final slash... In fact, it shouldn't strip the final slash when it exists", and it was good that it was corrected.
 
-\[00:19:53.19\] But yeah, it's definitely good to have one sort of canonical source, so that if you're a Go user, you don't have to figure out for yourself and run into the bug on your own, but you can just use the version that's in the standard library, that has had other people look at it and confirm that it does do what it is supposed to do.
+\[19:53\] But yeah, it's definitely good to have one sort of canonical source, so that if you're a Go user, you don't have to figure out for yourself and run into the bug on your own, but you can just use the version that's in the standard library, that has had other people look at it and confirm that it does do what it is supposed to do.
 
 **Mat Ryer:** Yeah. That's very nice. Excellent. Another thing that's changing is the memory model. Maybe you could tell us a bit about that. What is the memory model?
 
@@ -184,7 +184,7 @@ So it has this great section of advice at the beginning of the document. This ha
 
 **Carl Johnson:** Right.
 
-**Mat Ryer:** \[00:23:46.18\] Now the Sync Atomic package defines extra types like bool in 32, in 64, unsigned integers, and a pointer type. So this is going to help us-- I mean, to be honest, the bull one is... For example, I've used just an int before, but it's not as clear, because it could be any value, and so you'd lose a bit of that sort of safety there. But now we can be more specific about the types that are atomic.
+**Mat Ryer:** \[23:46\] Now the Sync Atomic package defines extra types like bool in 32, in 64, unsigned integers, and a pointer type. So this is going to help us-- I mean, to be honest, the bull one is... For example, I've used just an int before, but it's not as clear, because it could be any value, and so you'd lose a bit of that sort of safety there. But now we can be more specific about the types that are atomic.
 
 **Carl Johnson:** Yeah. This is like a-- it's one of those nice quality of life improvements. So we've had the ability to atomically load integers, again, for years going back. I don't even know, probably to the first version of Go. But if you wanted to have a bool, you would just sort of have to have a convention of saying, "Alright, when it's zero, it's false. And when it's one, it's true", or the other way around. But now there's a nice, convenient atomic.bool. And then there's atomic.pointer, which is, believe it or not, the first time the standard library has generics.
 
@@ -194,7 +194,7 @@ So it has this great section of advice at the beginning of the document. This ha
 
 **Mat Ryer:** Yeah. So again, it's about that type safety. And I kind of love how careful the Go team are about changes like this. So I really appreciate that they're taking their time. Because once something's in the standard library, because of the backwards compatibility promise, it's there for good. So I'm really pleased that they do that. And that's so interesting, to think that you can create that atomic type now pointing to something, and make that strongly typed.
 
-**Break:** \[00:26:21\]
+**Break:** \[26:21\]
 
 **Mat Ryer:** So staying with memory, what's this soft memory limit that I've read so much about, Carl?
 
@@ -202,7 +202,7 @@ So it has this great section of advice at the beginning of the document. This ha
 
 So this has been the design of a number of programming languages going back for years. The first programming language that really got popular with garbage collection was Java. There had been ones before that, but Java was just unbelievably popular. And so for Java, with their garbage collector, it was being used in these different situations where people had different requirements. Do you need the garbage collector to run predictably, or do you need it to run quickly, or do you need it to run thoroughly? And it's a very difficult trade-off. And so Java had a lot of different ways of tuning your garbage collector, of changing the algorithm it's using, of changing when it's doing what... And so the Go team, when they were creating the language, they looked at these different ways of doing the Java garbage collector, and they said it was a little too complicated. Just making sure your Java garbage collector was doing the right thing was sort of a job in and of itself. Like, you could hire somebody who's just an expert in making sure you've set it to the right settings.
 
-\[00:30:00.29\] And so they said, "Look, we're going to give ourselves a challenge. We're going to see if we can just have a single value that you can tweak to change the parameters of the Go garbage collector." And so that's how it's been for many years, until Go 1.19. Now we have two ways to tweak it.
+\[30:00\] And so they said, "Look, we're going to give ourselves a challenge. We're going to see if we can just have a single value that you can tweak to change the parameters of the Go garbage collector." And so that's how it's been for many years, until Go 1.19. Now we have two ways to tweak it.
 
 So the first way of tweaking the go garbage collector, which has been there since before, is you can say what percentage of new memory there is, versus old memory. And when the percentage gets too high, it'll trigger a garbage collection event.
 
@@ -228,7 +228,7 @@ So it was just a kind of funny way of tricking the garbage collector into trigge
 
 **Carl Johnson:** Yeah. So this is a bug that bit me in production. And so then after I had been bitten, I was sort of thinking like, "Oh, this is so annoying. How did this happen? How can I prevent it from happening again?" And then I realized I could open an issue on the Go Issue Tracker and see if I could fix this issue for other people.
 
-\[00:34:05.15\] So essentially, the problem is that a time.duration underneath the hood is just an Int64, right? It's just a regular number, and it records the number of nanoseconds since some epic-- I guess it's not even from an epic, it's a duration. So it's just an absolute number of nanoseconds, right? Well, I guess the problem is it's not an absolute number of nanoseconds. It's just a number of nanoseconds, and it could be positive or it could be negative.
+\[34:05\] So essentially, the problem is that a time.duration underneath the hood is just an Int64, right? It's just a regular number, and it records the number of nanoseconds since some epic-- I guess it's not even from an epic, it's a duration. So it's just an absolute number of nanoseconds, right? Well, I guess the problem is it's not an absolute number of nanoseconds. It's just a number of nanoseconds, and it could be positive or it could be negative.
 
 And then it turns out that the way that integers are stored in computers, there's always one more negative number than there is positive numbers. It's just like a weird computer fact that you learn in college, where they're like, "Oh, yeah, the way we store numbers - we always make sure that there's one more negative number than positive numbers." And so it mostly doesn't matter, except for if you have two time.times and you want to know, are these two times within, let's say, a minute of each other? So that was the thing that I needed for production. I needed to know if I was posting this within a minute of each other, let's not trigger the alert twice. But if it's more than a minute, then you can trigger the alert again.
 
@@ -246,7 +246,7 @@ I think any time there's weirdness at the edges, it's very difficult to find the
 
 **Mat Ryer:** Johnny, tell me... You wanted to talk about generics.
 
-**Johnny Boursiquot:** \[00:37:47.20\] Yeah. It's kind of hard not to, given that it's the new and shiny toy that we all have on our hands. Really, this is just a single use of generics in the 1.19 release planned, just a single standard library package. I think the significance of that, or how little generics is being used - it shouldn't be sort of lost on people. If you remember the talk that Rob and Ian gave at GopherCon, when they introduced officially generics last year, the advice was, "Don't go crazy all at once. Let's give ourselves, as a community, time to understand use cases. Let's find the edge cases, the good uses, the bad uses and whatnot." Obviously, we have to use generics to get to discover those things, but the fact that the standard library is not rushing to implement these things is a testament to that philosophy they're taking with the standard library, right?
+**Johnny Boursiquot:** \[37:47\] Yeah. It's kind of hard not to, given that it's the new and shiny toy that we all have on our hands. Really, this is just a single use of generics in the 1.19 release planned, just a single standard library package. I think the significance of that, or how little generics is being used - it shouldn't be sort of lost on people. If you remember the talk that Rob and Ian gave at GopherCon, when they introduced officially generics last year, the advice was, "Don't go crazy all at once. Let's give ourselves, as a community, time to understand use cases. Let's find the edge cases, the good uses, the bad uses and whatnot." Obviously, we have to use generics to get to discover those things, but the fact that the standard library is not rushing to implement these things is a testament to that philosophy they're taking with the standard library, right?
 
 So generics is a big change to a language, and the Go 1 compatibility promise is still being what it is today, and to this day, even after such massive changes to the language; it's really one of the things that I like most about Go, right? You don't have to really change the way you write Go for that. There has been over 35 changes to the standard library coming in 1.19, and I'm sure there'll be more and more as we go with future releases. But yeah, I think we should all take a lesson from that careful approach that the core team is taking to sprinkling, as it were, generics all over the place. So yeah, definitely something that definitely wasn't lost on me, and hopefully it is not lost on the community either.
 
@@ -258,7 +258,7 @@ These are things that I think are going to continue to surface. I think you're g
 
 It's all experimental at this point, so again, basically, taking a very deliberate approach. And people are going to write their own -- until the standard library gets some of these things, until the language itself gets some of these things, people are going to write their own implementations for the use cases you've given, like being able to deal with maps and slices in a certain way, right?
 
-\[00:41:41.11\] Data structures are going to basically see a huge benefit from the use of generics. Like, how many ways do you want to implement -- I mean, you want to be able to implement a binary tree that can work with different things. You want to be able to work with a linked list, or some set \[unintelligible 00:41:56.04\] these sort of common data structures, they could definitely use a touch of generics here and there. People are going to create their own libraries for these things, right?
+\[41:41\] Data structures are going to basically see a huge benefit from the use of generics. Like, how many ways do you want to implement -- I mean, you want to be able to implement a binary tree that can work with different things. You want to be able to work with a linked list, or some set \[unintelligible 00:41:56.04\] these sort of common data structures, they could definitely use a touch of generics here and there. People are going to create their own libraries for these things, right?
 
 So as we've seen in the past, we can expect the community to come up with-- there will be some popular packages that use generics, that provide some of these basic data structures and things like that. And over time, you may see the core team take a page from these things and implement in the standard library proper versions of those things. So just basically, from where I'm sitting, just give it time. Allow people to bump against the guardrails a little bit. Let's play in the sandbox, and then we're going to find the language itself is going to take a cue from the community.
 
@@ -276,17 +276,17 @@ So there had been an issue open for years to fix this. And finally, there was so
 
 **Carl Johnson:** Yeah, they don't get around with the freeze.
 
-**Break:** \[00:45:02\]
+**Break:** \[45:02\]
 
 **Mat Ryer:** Yeah. So you mentioned that hack of checking the actual string, and I've run into this myself before, and actually run into a bug where the string I was checking from the error - it worked on my machine, but then, for some reason, it ran on a place where the language was different, and the error message itself was coming from the operating system... And so it changed, the error changed, and then suddenly, my check didn't work. So it's very brittle to kind of rely on that. It's much nicer to have proper types, whether-- is this a type? Is this like a sentinel error, or is this a...?
 
-**Carl Johnson:** It's a type that you can check with \[00:48:17.10\] But yeah, one of the things when I was implementing this is - so there's a new error type, and I have to give it error string method. And so what string should this error return? Well, if it was like a normal error, it should go ahead and return something like "maxbyteerror:toolarge, here's the size limit", but I couldn't do that because if I did, I would break everybody who was checking for that string that the old one returned. So it's not, I don't think, strictly required by the Go1 compatibility requirement... But just to make sure that those people have time to transition their code to the new error and to check for the error with the type, instead of just checking for the string, I went ahead and I used the exact same string that it used to be, and I put a little comment on saying, "Please don't change this. People are relying on this being the same." \[laughter\]
+**Carl Johnson:** It's a type that you can check with \[48:17\] But yeah, one of the things when I was implementing this is - so there's a new error type, and I have to give it error string method. And so what string should this error return? Well, if it was like a normal error, it should go ahead and return something like "maxbyteerror:toolarge, here's the size limit", but I couldn't do that because if I did, I would break everybody who was checking for that string that the old one returned. So it's not, I don't think, strictly required by the Go1 compatibility requirement... But just to make sure that those people have time to transition their code to the new error and to check for the error with the type, instead of just checking for the string, I went ahead and I used the exact same string that it used to be, and I put a little comment on saying, "Please don't change this. People are relying on this being the same." \[laughter\]
 
 **Mat Ryer:** That could be a vet check that we have, that looks for that string and see if you're doing that check, and say, "Oh, did you know? Thanks to Carl - he's fixed this - you can do it in this better way."
 
 **Carl Johnson:** Yeah. I mean, I feel like I was just like the last person in a chain of-- like, if you go on GitHub and you look at the issue for this, you can see so many people there with the exact same idea, saying "Hey, this should really be a type. It's kind of a pain that I have to like check for the string. It's brittle. It's going to break." And so actually, what turned me onto the issue was I read the book Let's Go Further by Alex Edwards, which is a great book for just learning how to make a Go HTTP server. And I was just sort of reading through that, and looking at the different things, and at one point he says, "Oh yeah, here, you have to do the string check, because there's no type for it. If you think this should change, go to this issue", and he had the URL right there in the book. And so I was reading the eBook version, so I clicked through, and went to the bottom, and I was like, "Yeah, let's change this." And so I want to give thanks to Alex Edwards for turning me on to fix this idea.
 
-**Mat Ryer:** \[00:50:14.03\] Nice.
+**Mat Ryer:** \[50:14\] Nice.
 
 **Johnny Boursiquot:** Now you've made his book out of date.
 
@@ -318,7 +318,7 @@ Another example is in data, if there's a bullying field that's representing some
 
 **Mat Ryer:** It is. It's Unpopular Opinions.
 
-**Jingle:** \[00:53:57\] to \[00:54:14\]
+**Jingle:** \[53:57\] to \[54:14\]
 
 **Mat Ryer:** I could have done with the max bytes era earlier, because I had too much dinner. That's my unpopular joke... Carl, do you have an unpopular opinion for us today?
 
@@ -342,7 +342,7 @@ So reading this science fiction novel really just made me sit back and say, "Wai
 
 **Carl Johnson:** Yeah. Even for programming languages, there's something about being on the internet that pushes you to extreme. And it's not just that, "I enjoy programming in Go", but "Go is the best, and people who program in other languages are losers, and how dare they, and I'm going to throw dog poop at their house until they change." I don't know, it gets out of control really quickly on the internet, and it's hard to explain why it is. And so I think the theory that it's because you're in a hive mind is as good as any other theory.
 
-**Mat Ryer:** \[00:57:56.06\] Oh, yeah, I'm into it. Interesting stuff. Well, let us know on Twitter if you agree or not with Carl. Actually, to be fair, we do poll these, and sometimes they're split.
+**Mat Ryer:** \[57:56\] Oh, yeah, I'm into it. Interesting stuff. Well, let us know on Twitter if you agree or not with Carl. Actually, to be fair, we do poll these, and sometimes they're split.
 
 **Johnny Boursiquot:** Right.
 
