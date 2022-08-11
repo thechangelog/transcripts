@@ -6,7 +6,7 @@
 
 **Alex Suraci:** It's a good question, because there was already a lot of like CI/CD systems out there. And there's even more every day, it seems like... But what really drove it was, we were trying to use Jenkins, and we were trying to use that to automate all of Cloud Foundry, which was like a massive pipeline. We were gluing together plugins and trying to keep that thing running, and it was kind of its own separate job, just keeping Jenkins in check. And meanwhile, we were building out this platform that was driven by like declarative YAML. You'd just say what you want, and then you'd tell it to go, the system figures it out... And the thing that we were using to drive that was very much the opposite. So I wanted to try and take what we learned from that and apply it to CI/CD.
 
-\[00:05:59.17\] I think the main motivation was having just clarity in how the whole system works, and being able to trust it, and not worrying about if that VM gets struck by lightning and dies, we have to like spend another week just getting everything -- like, clicking the right buttons, getting it up once again. So that's what brought Concourse to the world, really... Myself and Chris Brown raging at Jenkins.
+\[05:59\] I think the main motivation was having just clarity in how the whole system works, and being able to trust it, and not worrying about if that VM gets struck by lightning and dies, we have to like spend another week just getting everything -- like, clicking the right buttons, getting it up once again. So that's what brought Concourse to the world, really... Myself and Chris Brown raging at Jenkins.
 
 **Gerhard Lazu:** Chris Brown... We actually worked together; we were in the London office, and we were also struggling with Jenkins big time, and GoCD as well. We tried a couple, we went through a phase where we'd been trying different CI's, and none of them were quite cutting it. We have the problem of the data services, Cassandra and MySQL, and Redis and Rabbit MQ... How do you package them in a way that platform teams can use them to enable developer teams to just get on with application code and just provision services? So how do you package that, how do you upgrade? And you obviously have to test all the things. How to get CVEs out quickly enough? And a bunch of concerns like that. How do you scale, how do you degrade gracefully? It was such a pain. And interestingly, Jenkins was one of those services.
 
@@ -36,7 +36,7 @@ The first stage was actually just using Graphviz and just like feeding it like a
 
 **Gerhard Lazu:** Yeah. You're right. You're actually right. You mentioned the collection of pipelines - that was added later on. I remember it for like many years, like back in the time like when it first came out... It was just a pipeline view and that kept improving. I've really liked like the small, incremental improvements. I really liked the GrooveBox-like initial design, because then it changed and became a bit more brighter.
 
-**Alex Suraci:** \[00:10:11.00\] Oh, I see what you mean. The colors.
+**Alex Suraci:** \[10:11\] Oh, I see what you mean. The colors.
 
 **Gerhard Lazu:** Yes, the colors, exactly. I really liked those. It was a bit rough, but it was just the right amount of rough, and it was very memorable. And you could see it everywhere, in all the offices, in all the Pivotal offices, because there was like so much stuff that we were building. And there were monitors everywhere, and you could just take a look and see exactly what the problem was. And I think the problem was like that we had too many pipelines. So I think that's where the view came from, right? The one with --
 
@@ -58,7 +58,7 @@ The first stage was actually just using Graphviz and just like feeding it like a
 
 **Alex Suraci:** I always kind of thought of it as a way to codify your entire dependency chain and automation process. Kind of like if this, then that, but more generally, what are all the things that people would be manually doing within your organization, or imagining you're like one person trying to drive an entire startup. That's kind of where I imagine Concourse being very useful, because then you just can empower yourself to get more done, because you just have something else doing it all for you, whether that's like automated testing, or automated, periodic longevity tests that run every hour, and just make sure your tests didn't suddenly get more flaky... Or like testing infrastructure reliability, or just anything that you need to do continuously, Concourse was your guy. That was the idea.
 
-**Gerhard Lazu:** \[00:14:19.05\] I always saw it as automation with a nice UI. I mean, that's what it was. And you were able to do things - as you mentioned, checks... And at a glance, you could see, are they passing or are they failing? And what is the failure ratio? There were so many interesting things there. The logs... The pipeline view was so important, like the state of resources, for example... It had some very simple primitives, but it was very versatile. It was so much more than a CI/CD system. I think that's what people saw in it. At some point I know it was like the distribution mechanism for the Pivotal software, because pretty much everyone that was running all these large clusters, whether it was Cloud Foundry, where it was like all the stateful services - how do you keep everything up to date, nevermind the applications? So you needed to provide automation that shows you the health, at a glance, of what is happening. You had to have notifications, all that thing. And also, when there's a problem, you had to go and debug it quickly.
+**Gerhard Lazu:** \[14:19\] I always saw it as automation with a nice UI. I mean, that's what it was. And you were able to do things - as you mentioned, checks... And at a glance, you could see, are they passing or are they failing? And what is the failure ratio? There were so many interesting things there. The logs... The pipeline view was so important, like the state of resources, for example... It had some very simple primitives, but it was very versatile. It was so much more than a CI/CD system. I think that's what people saw in it. At some point I know it was like the distribution mechanism for the Pivotal software, because pretty much everyone that was running all these large clusters, whether it was Cloud Foundry, where it was like all the stateful services - how do you keep everything up to date, nevermind the applications? So you needed to provide automation that shows you the health, at a glance, of what is happening. You had to have notifications, all that thing. And also, when there's a problem, you had to go and debug it quickly.
 
 **Alex Suraci:** Yeah, it kind of acted as like the central plane; it was like the source of truth for what's the status of the whole system... Which is kind of interesting, because when COVID hit and everyone started working from home, suddenly we didn't have like the central dashboard TV that everyone looked at. It became much harder to keep tabs on CI/CD and metrics and things like that. So that got me thinking more about notifications, or something that like keeps it more in your face, but... I don't have anything deep there.
 
@@ -80,7 +80,7 @@ The first stage was actually just using Graphviz and just like feeding it like a
 
 **Gerhard Lazu:** Really? Do tell. That's very interesting.
 
-**Alex Suraci:** \[00:17:56.12\] But yeah, with the YAML part, it's really just like not having a real language at your disposal. You're kind of inventing like a language within it. We like to say that Concourse pipelines were a declarative schema, but really, it was declaring a set of jobs that then had like an imperative plan within them, and the more bespoke we made that DSL, we got into things like scoping, like what's the scope of this value that's being bound within the build plan... Largely with the across step is where this came up. The across step is one of the most recently introduced ones, where it's like, across all these values, do this step. So you end up like wanting to bind an asset to a value, but then it's like, does that binding escape to later steps? And then it's like, why are we just not implementing a language where like doing across is just a for loop? So that's kind of where I am with YAML. It's just not very well suited, I think, to actually expressing something... And that's why so many people end up templating it, and then you just have like two problems. Now you're like thinking at like a template level, and a YAML level... Now you need to manage that pipeline feeding into the system... So yeah, it just makes things way more complicated, I think.
+**Alex Suraci:** \[17:56\] But yeah, with the YAML part, it's really just like not having a real language at your disposal. You're kind of inventing like a language within it. We like to say that Concourse pipelines were a declarative schema, but really, it was declaring a set of jobs that then had like an imperative plan within them, and the more bespoke we made that DSL, we got into things like scoping, like what's the scope of this value that's being bound within the build plan... Largely with the across step is where this came up. The across step is one of the most recently introduced ones, where it's like, across all these values, do this step. So you end up like wanting to bind an asset to a value, but then it's like, does that binding escape to later steps? And then it's like, why are we just not implementing a language where like doing across is just a for loop? So that's kind of where I am with YAML. It's just not very well suited, I think, to actually expressing something... And that's why so many people end up templating it, and then you just have like two problems. Now you're like thinking at like a template level, and a YAML level... Now you need to manage that pipeline feeding into the system... So yeah, it just makes things way more complicated, I think.
 
 **Gerhard Lazu:** Okay. So when it comes to the declarative part - I'm still stuck on that, because I wasn't expecting it, to be honest... And I'm surprised, and I'm just curious - what could be better than declarative?
 
@@ -94,9 +94,9 @@ The problem I see with declarative wrapping systems for that is that someone has
 
 All that being said, commands aren't necessarily the best interface to expose. It's just what people already know. I think if you are able to express something as just a declarative thing, and it works, and it's like low enough maintenance... And maybe you get bells and whistles like static typing, or easy to verify schemas, and things like that - then I think it is possible for the value trade-off to be there. But I guess, from my current perspective of trying to build Bass as like a side thing, not expend too much effort, it would be a lot of effort for me to have to invent these mappings for everything, as opposed to just being like "Hey, it runs commands." So maybe that's my bias right now.
 
-**Gerhard Lazu:** \[00:21:57.25\] Yeah. So when you say commands, are you thinking more like -- rather than having this mapping between a declarative thing and a command, you're thinking just in terms of commands? So when I hear that, I'm thinking about the functional paradigm, where you have a function, there's an input and an output, and then the focus is on the function, not on the mappings. Are you thinking along the same lines, or is there something else?
+**Gerhard Lazu:** \[21:57\] Yeah. So when you say commands, are you thinking more like -- rather than having this mapping between a declarative thing and a command, you're thinking just in terms of commands? So when I hear that, I'm thinking about the functional paradigm, where you have a function, there's an input and an output, and then the focus is on the function, not on the mappings. Are you thinking along the same lines, or is there something else?
 
-**Alex Suraci:** Kind of. I mean, a lot of commands really are just you're running a function, and you're expecting some output. I'd venture like 99% of the time that output is either like a file on disk, or something that it wrote to stdout, maybe a JSON stream, or something like that. So you don't really control whether the commands are idempotent, or like pure, or anything, like in a functional sense, but they do very much feel like a functional interface.
+**Alex Suraci:** Kind of. I mean, a lot of commands really are just you're running a function, and you're expecting some output. I'd venture like 99% of the time that output is either like a file on disk, or something that it wrote to STDOUT, maybe a JSON stream, or something like that. So you don't really control whether the commands are idempotent, or like pure, or anything, like in a functional sense, but they do very much feel like a functional interface.
 
 And there are exceptions there, where some CLIs have like sub-commands, and different syntax for it, but it ultimately boils down to like you're identifying a function call, passing it parameters, and it's giving you outputs. So yeah, I guess I do kind of see command lines as a very functional interface, and being able to pass results from those commands to another - I think that's really where the special sauce is from Bass. Because if you try to just script things running commands in Bash, you have to deal with those files; you have to put them somewhere, pass them to this other thing, clean them up after... So I'm trying to build something that makes -- I guess something that treats commands like functions that you can easily use.
 
@@ -146,7 +146,7 @@ So I'm wondering -- because the Bass language, bass-lang... Dot com is it?
 
 **Alex Suraci:** Oh, they're all good too, but Dawn is the light mode.
 
-**Gerhard Lazu:** \[00:25:52.28\] Oh, I see. Interesting. Rose pine Dawn. Okay. Yeah, go check it out. Ah, yes, rose pine -- that's like the dawn, that's like the light one, and the moon is the dark one. Very nice. Okay. So you have all these concepts, you have like the bassics... And I love that; it's not a typo. There are double s'es. The bassics. Is the thunk -- I'm looking for a thunk. Is that what would the function equivalent be in Bass?
+**Gerhard Lazu:** \[25:52\] Oh, I see. Interesting. Rose pine Dawn. Okay. Yeah, go check it out. Ah, yes, rose pine -- that's like the dawn, that's like the light one, and the moon is the dark one. Very nice. Okay. So you have all these concepts, you have like the bassics... And I love that; it's not a typo. There are double s'es. The bassics. Is the thunk -- I'm looking for a thunk. Is that what would the function equivalent be in Bass?
 
 **Alex Suraci:** Thunks are named that way because they kind of mirror zero arity function calls. But they represent commands. So that's the distinction. Bass is a functional language, but it represents commands as like a lazily-evaluated data structure called a thunk. And it's also just called thunk, because it sounds funny and semi-musical.
 
@@ -172,7 +172,7 @@ So I'm wondering -- because the Bass language, bass-lang... Dot com is it?
 
 But there's actually kind of an interesting story behind the specific flavor of Lisp that's behind Bass... It's actually based on kind of lesser-known one called Kernel. Kernel's whole thing was, you know, Scheme was six abstractions, Kernel was five, because it took one and made it more generic.
 
-\[00:29:59.22\] So you know how lisps - they're known for having macros, right? Like, compile-time macro expansion. Kernel, instead of having macros, it had something called an operative, which is something that deferred the evaluation of its arguments. So when you called an operative, you would get the unevaluated forms and the colors scope, and then you could selectively evaluate them in the colors scope. I think IO actually is kind of similar to this.
+\[29:59\] So you know how lisps - they're known for having macros, right? Like, compile-time macro expansion. Kernel, instead of having macros, it had something called an operative, which is something that deferred the evaluation of its arguments. So when you called an operative, you would get the unevaluated forms and the colors scope, and then you could selectively evaluate them in the colors scope. I think IO actually is kind of similar to this.
 
 So yeah, a long time ago, I tried implementing that. I implemented one in Haskell. It's called Hummus. I implemented one in RPython called Pumis, and one in my own language, called Cletus. Guess which one was the fastest?
 
@@ -192,7 +192,7 @@ So yeah, a long time ago, I tried implementing that. I implemented one in Haskel
 
 **Alex Suraci:** Very interesting, but the trouble with Kernel is it's hard to optimize, because there's literally an eval after every corner. But that doesn't matter in a language like Bass, because the bottleneck is going to be running containers; the runtime interpreter is probably not going to be slower than that.
 
-**Break:** \[00:32:10.22\]
+**Break:** \[32:10\]
 
 **Gerhard Lazu:** One of the Bass components is this, as you mentioned, the runtime compiler. Is that what you've said? Runtime...
 
@@ -206,7 +206,7 @@ So yeah, a long time ago, I tried implementing that. I implemented one in Haskel
 
 **Alex Suraci:** So it gets just parsed into a syntax tree of -- at that point, it's just forms. You know, as with Lisp, there's no difference between like a form and a value. It's just whether it's been evaluated or not. So that gets fed into Go, it walks over each of the forms and calls eval on them.
 
-\[00:34:16.21\] The tricky thing is everything is implemented in continuation passing style, which is a way of implementing tail recursion, essentially. So languages that are implemented on like a non-tail call optimizing platform usually do that, because otherwise there's no way to do infinite loops... Which would be bad for a continuous system, because its point is to be an infinite loop. So if I didn't have continuation passing style, then probably eventually Bass servers would die, if anyone was using it for CI/CD.
+\[34:16\] The tricky thing is everything is implemented in continuation passing style, which is a way of implementing tail recursion, essentially. So languages that are implemented on like a non-tail call optimizing platform usually do that, because otherwise there's no way to do infinite loops... Which would be bad for a continuous system, because its point is to be an infinite loop. So if I didn't have continuation passing style, then probably eventually Bass servers would die, if anyone was using it for CI/CD.
 
 **Gerhard Lazu:** Yeah, that's a good one. I'm pretty sure that Erlang is optimized for that, because it just like -- it has to be able to deal with like infinite loops. And yeah, it's optim-- okay, okay. So yeah, that makes sense. The list comprehensions, and all that - it can just keep recursing, and you won't blow any memory or any stack or anything like that. Okay.
 
@@ -226,7 +226,7 @@ So what I wanted to do with Bass loop is have a server that I just run, that rec
 
 **Alex Suraci:** The runner is someone running bass--runner, and then github.bass-lang.org. What that essentially does is -- if anyone's familiar with how Concourse Workers ran, it's very similar, where Concourse had like an SSH gateway called the TSA. You'd connect to it, it would forward some connections, and then when the ATC needed to use that worker, it would actually talk to a local forwarded address through SSH. The runner is doing basically the same thing, where it exposes the local runtimes as a gRPC service, so then when a WebHook comes into Bass loop, it connects to the forwarded address and then uses that runner. So that way, I can actually use my AMD massive developer machine, instead of being, you know, stuck with whatever the free tier is on GitHub Actions.
 
-**Gerhard Lazu:** \[00:38:26.19\] Interesting. What about registering your own GitHub runner? Have you considered that?
+**Gerhard Lazu:** \[38:26\] Interesting. What about registering your own GitHub runner? Have you considered that?
 
 **Alex Suraci:** I don't know what those words mean.
 
@@ -266,7 +266,7 @@ So kind of the neat thing that I want to be able to do with Bass is like not onl
 
 **Alex Suraci:** It accounts for every input that might change its result, is kind of how I sum it up. So if you have like a hermetic data structure and you run it like today, and you run it tomorrow - assuming the inputs are still available, granted, but the point is, yeah, you should get the same result, no matter where you run it... Which is kind of a fundamental building block, I think, for CI/CD. It was something Concourse tried to enforce, but I think that's also where a lot of people ran into pain with it, was Concourse being a little too overbearing.
 
-**Gerhard Lazu:** \[00:42:21.00\] No, I think that's really important, especially like supply chain security is more and more in our minds... And for that, you need to have this property; without this property, it's very difficult to achieve that. You should be able to build the same thing, compare it bit for bit, and make sure, again, given these inputs, this is the output. And if you can trust the inputs, and you can verify the inputs, and you can, again, access the same inputs, the output should be identical. And if he's not identical, you have a problem somewhere.
+**Gerhard Lazu:** \[42:21\] No, I think that's really important, especially like supply chain security is more and more in our minds... And for that, you need to have this property; without this property, it's very difficult to achieve that. You should be able to build the same thing, compare it bit for bit, and make sure, again, given these inputs, this is the output. And if you can trust the inputs, and you can verify the inputs, and you can, again, access the same inputs, the output should be identical. And if he's not identical, you have a problem somewhere.
 
 **Alex Suraci:** And you also have to trust the thing that's building it, I guess, but...
 
@@ -308,7 +308,7 @@ So kind of the neat thing that I want to be able to do with Bass is like not onl
 
 **Gerhard Lazu:** Oh, wow...! No way...
 
-**Alex Suraci:** \[00:46:09.23\] So this was actually quite an adventure. It took like four days to implement this thing. And this is four days of vacation, not just like four days after hours... Because it syncs with the Spotify API. So like each beat that you're seeing there is not only synced to like BPM, it's actually literally rendering the beats in the song.
+**Alex Suraci:** \[46:09\] So this was actually quite an adventure. It took like four days to implement this thing. And this is four days of vacation, not just like four days after hours... Because it syncs with the Spotify API. So like each beat that you're seeing there is not only synced to like BPM, it's actually literally rendering the beats in the song.
 
 **Gerhard Lazu:** No way, man. No way.
 
@@ -332,7 +332,7 @@ So kind of the neat thing that I want to be able to do with Bass is like not onl
 
 **Gerhard Lazu:** Upx, okay.
 
-**Alex Suraci:** That's for compressing the binaries. So like Bass has to -- when it calls into BuildKit, it has to run thunks like through a little shim to like meet the interfaces that it needs, like supporting standard in, for example. But those binaries are too large to pass over gRPC, so I have to compress them and then bundle them, and that's what Upx is for.
+**Alex Suraci:** That's for compressing the binaries. So like Bass has to -- when it calls into BuildKit, it has to run thunks like through a little shim to like meet the interfaces that it needs, like supporting STDIN, for example. But those binaries are too large to pass over gRPC, so I have to compress them and then bundle them, and that's what Upx is for.
 
 **Gerhard Lazu:** Interesting. Okay, so I have Git, I have Go, I have Upx. Okay. Git clone, \[unintelligible 00:47:35.10\]
 
@@ -384,7 +384,7 @@ So kind of the neat thing that I want to be able to do with Bass is like not onl
 
 **Gerhard Lazu:** R. Yup. Okay.
 
-**Alex Suraci:** \[00:50:01.15\] That should open a browser.
+**Alex Suraci:** \[50:01\] That should open a browser.
 
 **Gerhard Lazu:** It did, but you don't see it, because that's like on a separate one... Okay, yes.
 
@@ -484,7 +484,7 @@ So kind of the neat thing that I want to be able to do with Bass is like not onl
 
 **Alex Suraci:** Usually, when I'm working on something, I'm listening to music at the same time, so it's just kind of fun to see like a spinner sync up to it.
 
-**Gerhard Lazu:** \[00:53:58.11\] This is amazing! I have to take a screenshot of all this. I'm going to move some windows around for us to see this. I'm going to stop sharing my screen, so that I can take a proper screenshot. I'm going to adjust some lighting, and this one is going in the show notes. All this. Because this is unbelievable. Alright... This is the screenshot that will make it in the show notes. Not the one that we've taken early on; this one, that shows this amazingness that we've just done.
+**Gerhard Lazu:** \[53:58\] This is amazing! I have to take a screenshot of all this. I'm going to move some windows around for us to see this. I'm going to stop sharing my screen, so that I can take a proper screenshot. I'm going to adjust some lighting, and this one is going in the show notes. All this. Because this is unbelievable. Alright... This is the screenshot that will make it in the show notes. Not the one that we've taken early on; this one, that shows this amazingness that we've just done.
 
 Okay. So step one is done. Step two - shipping it, right? Because we confirmed it works.
 
@@ -500,7 +500,7 @@ Okay. So step one is done. Step two - shipping it, right? Because we confirmed i
 
 **Gerhard Lazu:** Anytime.
 
-**Break:** \[00:55:07.13\]
+**Break:** \[55:07\]
 
 **Gerhard Lazu:** So do you want to ship it or not today?
 
