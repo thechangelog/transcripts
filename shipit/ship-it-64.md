@@ -90,7 +90,7 @@ The first stage was actually just using Graphviz and just like feeding it like a
 
 **Alex Suraci:** I appreciate it. The problem I see with declarative approaches to CI/CD is the system they're building around is not declarative... The system being developers just running commands. Most people - they'll go to CI/CD, they'll know what commands they want to run... Like, "I want to run go test", "I want to run RSpec", or whatever their build process is. Commands are already the foundation that we're really building everything upon. Even Docker and BuildKit kind of like build on that abstraction, because they're all about just running commands in containers.
 
-The problem I see with declarative wrapping systems for that is that someone has to implement the mapping between declaring what you want, and having that boil down to commands. And we saw this with Concourse, where the Git resource started off as just like a perfect example of just a tiny little Concourse resource. It does like git clone, git fetch, git push... And that's it. But the reality was that everyone uses Git differently. So if you look at /ops, /resource, \[unintelligible 00:20:45.22\] it's like a 100-line Bash file handling a bunch of different use cases; tagged versioning, things like that. And you have to kind of distill that up to \[unintelligible 00:20:57.14\] But in any case, somewhere there's like a declarative config that maps to commands running... And it just like kind of adds an extra level of indirection between what the developer knows they want to run, and how they know it's actually going to run. And there's like the added toil of someone managing that mapping interface.
+The problem I see with declarative wrapping systems for that is that someone has to implement the mapping between declaring what you want, and having that boil down to commands. And we saw this with Concourse, where the Git resource started off as just like a perfect example of just a tiny little Concourse resource. It does like git clone, git fetch, git push... And that's it. But the reality was that everyone uses Git differently. So if you look at /ops, /resource, /inscript it's like a 100-line Bash file handling a bunch of different use cases; tagged versioning, things like that. And you have to kind of distill that up to what in concourse is YAML. Resource doesn't care it's just JSON. But in any case, somewhere there's like a declarative config that maps to commands running... And it just like kind of adds an extra level of indirection between what the developer knows they want to run, and how they know it's actually going to run. And there's like the added toil of someone managing that mapping interface.
 
 All that being said, commands aren't necessarily the best interface to expose. It's just what people already know. I think if you are able to express something as just a declarative thing, and it works, and it's like low enough maintenance... And maybe you get bells and whistles like static typing, or easy to verify schemas, and things like that - then I think it is possible for the value trade-off to be there. But I guess, from my current perspective of trying to build Bass as like a side thing, not expend too much effort, it would be a lot of effort for me to have to invent these mappings for everything, as opposed to just being like "Hey, it runs commands." So maybe that's my bias right now.
 
@@ -322,7 +322,7 @@ So kind of the neat thing that I want to be able to do with Bass is like not onl
 
 **Alex Suraci:** But it integrates with Spotify. So I don't know if you use Spotify.
 
-**Gerhard Lazu:** This recording just got derailed... \[laughs\] So I don't know whether \[unintelligible 00:46:54.07\] I don't know what's happening anymore, but I know it's really cool and I want to try it out right now.
+**Gerhard Lazu:** This recording just got derailed... \[laughs\] So I don't know whether we're in meta mode, I don't know what's happening anymore, but I know it's really cool and I want to try it out right now.
 
 **Alex Suraci:** You can probably just go install it, actually. I don't think you need anything like that. If you brew install Upx...
 
@@ -510,7 +510,7 @@ Okay. So step one is done. Step two - shipping it, right? Because we confirmed i
 
 **Alex Suraci:** I will try though... I'll try to do it just on this machine... And it'll take a while. because it has to like build the world.
 
-**Gerhard Lazu:** By the way, it's using more than one core... Okay, I don't see it anymore, because I'm not sharing my screen... But let me do this... Let me share this window. And if I do \[unintelligible 00:58:56.04\] There we go. Actually, you're right; it's 132%, so it's not quite that much.
+**Gerhard Lazu:** By the way, it's using more than one core... Okay, I don't see it anymore, because I'm not sharing my screen... But let me do this... Let me share this window. And if I do hstop. If I sort by, process no I don't want a tree view. There we go. Actually, you're right; it's 132%, so it's not quite that much.
 
 **Alex Suraci:** The rest is probably just re-rendering the UI, because of the spinner.
 
@@ -522,7 +522,7 @@ Okay. So step one is done. Step two - shipping it, right? Because we confirmed i
 
 **Alex Suraci:** There's a lot of magical shell escape sequences going on to render that...
 
-**Gerhard Lazu:** This is amazing. Wow... We had like something similar with \[unintelligible 00:59:27.06\] on Dagger happening just like this week, and... Oh, wow. Some people will have some questions for you. How did you accomplish this magical feat? And guess what - Bass is open source, so anyone can go and check it out, including you, dear listener. Have a look at Bass... Vito/Bass on GitHub?
+**Gerhard Lazu:** This is amazing. Wow... We had like something similar with TTY2 and TTY on Dagger happening just like this week, and... Oh, wow. Some people will have some questions for you. How did you accomplish this magical feat? And guess what - Bass is open source, so anyone can go and check it out, including you, dear listener. Have a look at Bass... Vito/Bass on GitHub?
 
 **Alex Suraci:** Yup.
 
@@ -538,7 +538,7 @@ Okay. So step one is done. Step two - shipping it, right? Because we confirmed i
 
 **Alex Suraci:** Yeah. So this is shipping Bass 0.9. It's gonna take a long time, because it has to build the Nix image for shipping Bass, which has a bunch of dependencies... Not a thing that's even started yet. Yeah, it's showing the music visualization there... There's no way to tell, but I'm sure it's out of sync.
 
-Yeah, this visualizer, the colors on the website, the Space Invaders, the little Bass \[unintelligible 01:00:51.19\] that show up next to paragraphs to give you a deep link - these are really all efforts to keep Bass fun for me as a maintainer, and also make it obvious that this is a tool built for fun... And if you want to have fun, come hang out and contribute.
+Yeah, this visualizer, the colors on the website, the Space Invaders, the little Bass cleffs that show up next to paragraphs to give you a deep link - these are really all efforts to keep Bass fun for me as a maintainer, and also make it obvious that this is a tool built for fun... And if you want to have fun, come hang out and contribute.
 
 Because I think that was one of the things that went kind of wrong with Concourse, was it was -- no matter how much we tried to inject fun into it, really the user base was like serious business; people trying to do like very serious things, like ship software, run CI for their organization.
 
@@ -636,7 +636,7 @@ So if you, for example, take like a JSON scope, like a scope that was like parse
 
 **Gerhard Lazu:** Oh, I see. So when you SSH into it, it doesn't work, if you were to SSH...
 
-**Alex Suraci:** I don't think I have SSH set up. I was just switching the display. I have like a \[unintelligible 01:18:30.16\] button... But I forgot that everything else is also flowing through it, so...
+**Alex Suraci:** I don't think I have SSH set up. I was just switching the display. I have like a KBM button... But I forgot that everything else is also flowing through it, so...
 
 **Gerhard Lazu:** Oh, I see what you mean. I see, I see, I see. Okay. Repology.org. Wow, that is impressive. Number of packages in repository, number of fresh packages... I see what you mean. I see what you mean. \[unintelligible 01:18:50.29\] I'm looking for the number of packages, number of freshness, and I can't find -- in that graph, I can't find Nix. And I don't think I can search, because it's generated. This is rendered.
 
@@ -682,7 +682,7 @@ So Bass just sees Nix as another command to run. I'm just running Nix build, and
 
 **Gerhard Lazu:** Right.
 
-**Alex Suraci:** One other thing I've been experimenting with though is because Nix is so good for just like pulling in packages as dependencies, and a lot of images that people build for CI are just - I need Ruby installed, or I need... But I don't need just Ruby, I need like Ruby, plus Git, plus Upx, or like whatever toolchain I use... Because it's pretty rare that you can just use Ruby off the shelf, like the library Ruby image, and have that provide everything you need... So one thing I'm planning to experiment with is having Bass - just like it starts BuildKit, have it start a Nixery host, and then you can just do like \[unintelligible 01:23:36.28\] and it'll just build an image on the fly, with all those dependencies.
+**Alex Suraci:** One other thing I've been experimenting with though is because Nix is so good for just like pulling in packages as dependencies, and a lot of images that people build for CI are just - I need Ruby installed, or I need... But I don't need just Ruby, I need like Ruby, plus Git, plus Upx, or like whatever toolchain I use... Because it's pretty rare that you can just use Ruby off the shelf, like the library Ruby image, and have that provide everything you need... So one thing I'm planning to experiment with is having Bass - just like it starts BuildKit, have it start a Nixery host, and then you can just do like from Nix/gh/ruby/go and it'll just build an image on the fly, with all those dependencies.
 
 **Gerhard Lazu:** I want that. That is so cool. Oh, wow. That would be so cool.
 
