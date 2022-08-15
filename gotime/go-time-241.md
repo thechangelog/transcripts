@@ -44,7 +44,7 @@ And... Mat Ryer. He's also there. Back to you, Mat...
 
 **Natalie Pistunovich:** Reddit.
 
-**Mat Ryer:** I just should say, Go.dev specifically was the answer, not the general one that I gave you. \[unintelligible 00:07:43.07\] but what's your answer?
+**Mat Ryer:** I just should say, Go.dev specifically was the answer, not the general one that I gave you. It's not a clue but what's your answer?
 
 **Natalie Pistunovich:** Reddit.
 
@@ -188,7 +188,7 @@ So now we need two different captains. Robert and Tamir, you're gonna be captain
 
 **Mat Ryer:** You're gonna go with a bill. A bear, okay. I'm sorry --
 
-**Tamir Bahar:** Don't \[unintelligible 00:16:34.20\] on my accent.
+**Tamir Bahar:** Don't kill me on my accent.
 
 **Mat Ryer:** Sorry. No, no, no. I thought you were insulting Bill Kennedy. \[laughter\] Okay, a bear. Let's see. Gophers say... \[fail alert\] No one said bear. Okay. Never mind... V.
 
@@ -224,7 +224,7 @@ Okay, you still have two lives left. Konrad, it's your turn again to have a gues
 
 **Natalie Pistunovich:** Or mole? Sometimes when I'm googling for gopher pictures I see how to get rid of moles and gophers... It's very sad.
 
-**Robert Burke:** \[unintelligible 00:18:53.11\]
+**Robert Burke:** Like not too many big claws.
 
 **Natalie Pistunovich:** Get rid of moles and gophers.
 
@@ -356,7 +356,7 @@ Okay... Now the final round coming up, and this is -- you're gonna be excited. Y
 
 **Mat Ryer:** Okay. Gophers say... \[fail alert\] No, they didn't say educational. I actually don't think anyone said that, which is an insult to all of us. Although, to be fair to them, this is happening right now, so they're on to something there... The other team now get a chance to steal... So you can confer into the microphone.
 
-**V Körbes:** Okay, confer into the mic. \[unintelligible 00:28:46.12\]
+**V Körbes:** Okay, confer into the mic. Confirm this.
 
 **Mat Ryer:** Nothing. Just says nothing.
 
@@ -378,7 +378,7 @@ Okay... Now the final round coming up, and this is -- you're gonna be excited. Y
 
 **Konrad Reiche:** We can... \[laughter\]
 
-**Robert Burke:** This has been sent around when? One, two days ago? \[unintelligible 00:29:30.01\]
+**Robert Burke:** This has been sent around when? One, two days ago? People are not partying yet.
 
 **Natalie Pistunovich:** This was sent on Monday.
 
@@ -446,7 +446,7 @@ So we're really kind of focused on a lot of community efforts, specifically arou
 
 **Natalie Pistunovich:** So you can run an auction house.
 
-**Mat Ryer:** Yes, I can \[unintelligible 00:35:27.16\] talk really fast like this. If you put that on half speed... That's how some people listen to the podcast, by the way, on 2x speed. It's like that. It's like me just going on and talking about everything really fast.
+**Mat Ryer:** Yes, I can \*gibberish\* I can talk really fast like this. If you put that on half speed... That's how some people listen to the podcast, by the way, on 2x speed. It's like that. It's like me just going on and talking about everything really fast.
 
 **Natalie Pistunovich:** Whatever he said, yes... So we would like to bid this gopher for a donation to GoBridge. So if you would like to take this plushie from this conference, and you would like to make a donation to GoBridge, please raise your hand and tell us how much would you like to donate, and Mat will be managing this auction. Please start.
 
