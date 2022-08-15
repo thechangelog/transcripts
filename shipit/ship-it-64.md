@@ -10,7 +10,7 @@
 
 **Gerhard Lazu:** Chris Brown... We actually worked together; we were in the London office, and we were also struggling with Jenkins big time, and GoCD as well. We tried a couple, we went through a phase where we'd been trying different CI's, and none of them were quite cutting it. We have the problem of the data services, Cassandra and MySQL, and Redis and Rabbit MQ... How do you package them in a way that platform teams can use them to enable developer teams to just get on with application code and just provision services? So how do you package that, how do you upgrade? And you obviously have to test all the things. How to get CVEs out quickly enough? And a bunch of concerns like that. How do you scale, how do you degrade gracefully? It was such a pain. And interestingly, Jenkins was one of those services.
 
-And I remember Tamar at the time, he was who he was the PM on the Pivotal side, and he was saying, "Hey, if the product that we're packaging doesn't work, let's not try and work around these shortcomings by automation." I remember that very clearly.
+And I remember Tammer at the time, he was who he was the PM on the Pivotal side, and he was saying, "Hey, if the product that we're packaging doesn't work, let's not try and work around these shortcomings by automation." I remember that very clearly.
 
 So Jenkins, we were very intimate of how it worked, because we ourselves had to do it for other customers, and we were using it, we were like dogfooding it, and it was failing in so many weird and wonderful ways. And then Concourse came along... Hm, nice. Chris Brown... Yeah, I haven't talked to him in years. How is he these days? Do you know about him? Hey, Chris, if you're listening, I'm saying hi. I hope you are.
 
