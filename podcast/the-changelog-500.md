@@ -40,7 +40,7 @@
 
 **Chris Coyier:** Yeah. But you know, there's no shame in it. People quit doing crap all the time, you know? You just let it flitter away... But I tend not to, you know? Maybe that's some part of my DNA.
 
-**Jerod Santo:** \[00:04:33.26\] You tend to keep things going.
+**Jerod Santo:** \[04:33\] You tend to keep things going.
 
 **Chris Coyier:** Yeah, I do. I do. For better or worse, you know? But I feel like people just -- this is an abstract thought, sorry to get deep on here right away, but... I feel like people give up a little too early, generally. They're "Oh, this startup isn't working. I'll throw it into the dumpster and do another one." Which can be smart, because I think there is probably a point at which you're like -- you realize you haven't hit product-market fit, and you need to do a thing. And that's smart. why would you, you know, grind and hustle away on something that you have some evidence isn't working? But do you...? You didn't work on it hard enough. Whereas I'm the opposite. I'm "I will never throw this away. I will grind on this thing forever, until everybody knows it."
 
@@ -62,7 +62,7 @@
 
 **Chris Coyier:** I know what you're talking about, but it's not in there anywhere...
 
-**Jerod Santo:** \[00:08:03.02\] He gets spoofed on Saturday Night Live, and stuff... Famous interview. We don't do it like that. So I guess we don't really think of it much like an interview show. It's more like "Hey, let's find interesting people and talk to them." I don't think that ever gets old. So has it played out? I mean, it is kind of a standardized format... But it's good. It can be good.
+**Jerod Santo:** \[08:03\] He gets spoofed on Saturday Night Live, and stuff... Famous interview. We don't do it like that. So I guess we don't really think of it much like an interview show. It's more like "Hey, let's find interesting people and talk to them." I don't think that ever gets old. So has it played out? I mean, it is kind of a standardized format... But it's good. It can be good.
 
 **Chris Coyier:** Yeah, I know what you mean. I think that off the cuff thing is fun, because then it gives you this vibe that you're driving around in your car and you're just a part of the conversation too almost, because it's so off the cuff; it much feels like you're just sitting -- you're all on freakin' barstools, or whatever. That's pleasant, it's heart-warming.
 
@@ -106,7 +106,7 @@ So what I think about it is because are you missing out then on some like level 
 
 **Chris Coyier:** No. I just wanna -- you know, you can't help but think about... Like a product release - a product has a release; you do a new feature, and then you go "I'm gonna market the new feature!"
 
-**Jerod Santo:** \[00:12:23.07\] Well, we just added something new. We added a Monday news brief, which is like four to eight minutes... It's just me, it's scripted, it's got audio stuff coming in... And we're just like talking about the news, what's going on, and we just get in, get out...
+**Jerod Santo:** \[12:23\] Well, we just added something new. We added a Monday news brief, which is like four to eight minutes... It's just me, it's scripted, it's got audio stuff coming in... And we're just like talking about the news, what's going on, and we just get in, get out...
 
 **Chris Coyier:** You're a network, so you get to benefit from that. Like, "We have a new show on the network", which - that's pretty cool.
 
@@ -142,7 +142,7 @@ So what I think about it is because are you missing out then on some like level 
 
 **Chris Coyier:** Yeah. Like if I were to -- you know, I mean, CSS-Tricks has sold to DigitalOcean, so there's new people at the helm running it, although Jeff Graham is there, went to DigitalOcean at the time of the sale. He was the lead editor for me, and he's the lead editor now. So it has some of the same lineage and stuff, which is pretty cool. But it's a WordPress website. If I were to go in there and say, "New screencasts!" and put all the little data in, and stuff - this is so old. Like that time that you're talking about... Like, when I first started it, YouTube probably existed, but I for whatever reason didn't seem like I would just go all-in on YouTube. It just didn't feel like that was what people did. So I'd shoot the video and get some lmp4 or something, and then find somewhere to host it, which unbelievably to me, I was able to figure out S3...
 
-**Jerod Santo:** \[00:16:06.24\] Nice.
+**Jerod Santo:** \[16:06\] Nice.
 
 **Chris Coyier:** I'd get the freakin' video on S3. And so when I post it from WordPress, there's like custom fields in WordPress... And not like cool, advanced custom fields. I just use the old-school, like built into WordPress, like little dropdown menu thing, and made one of them for that S3 URL. I named it "URL to video" or something, and then I pasted that in there. And then when you visit a Screencast page -- and there's other metadata too, like how long is it etc. Then I made another custom post type of thing in CSS-Tricks that would create an RSS feed just from screencasts, and then it would grab all that extra metadata stuff that was basically defined by like whatever iTunes wanted... You know, like when you craft a feed for Apple, it has to have all that extra crap, and the XML... And I just put it all in there, and then submitted it to Apple, and they took it, and it's still on there to this day. So if I publish a new screencast, it updates that RSS feed and it goes to Apple. People don't really -- it's just not a thing anymore. Like, how did video -- video podcasts just died.
 
@@ -184,7 +184,7 @@ Anyway, we got off the rails there, but yeah, CSS-Tricks had screencasts... I'm 
 
 **Chris Coyier:** In a nice studio.
 
-**Adam Stacoviak:** \[00:20:02.11\] Very, very committed to quality.
+**Adam Stacoviak:** \[20:02\] Very, very committed to quality.
 
 **Jerod Santo:** And he later admitted that whole deal was probably not worth it. But now he's probably happy he did, because he's kind of gone full circle, and video is important again.
 
@@ -246,7 +246,7 @@ Anyway, we got off the rails there, but yeah, CSS-Tricks had screencasts... I'm 
 
 **Adam Stacoviak:** This began as a personal blog, right? It was a personal blog. It was never like a network of many authors, and...
 
-**Chris Coyier:** \[00:24:06.18\] No, and it could have stayed that way. I would always write very personally; you know, even in the later years when there was other authors, and stuff... I write whatever the hell I want on there. And I wanted to keep that spirit. I wanted to do that on purpose, so it felt like a blog.
+**Chris Coyier:** \[24:06\] No, and it could have stayed that way. I would always write very personally; you know, even in the later years when there was other authors, and stuff... I write whatever the hell I want on there. And I wanted to keep that spirit. I wanted to do that on purpose, so it felt like a blog.
 
 **Adam Stacoviak:** That, I believe, is the beauty of it, though, was that you could explore... So I'd say "I don't know you that well. I know of you." We've met in-person one time. I've never seen you on video or done a podcast with you, so my knowledge of Chris Coyier really is mostly, you know, through just knowing of you, really. But I would always say that you're an explorer; you're a curious explorer, willing to go to the ends to eke out the finite things of beauty in web design and web development. And then CSS-Tricks is a manifestation of you sharing that. That's how I would describe you and what you've done with it.
 
@@ -280,7 +280,7 @@ Anyway, we got off the rails there, but yeah, CSS-Tricks had screencasts... I'm 
 
 **Chris Coyier:** Yeah, you would just be out. I don't care what you do after that. After I already know you're a jerk... And I hold spite like that. I still do. If you said something jerky to me, you are off the list. \[laughs\]
 
-**Adam Stacoviak:** \[00:28:09.12\] Yeah. It is interesting to think though, that -- well, as you had said in your own words, all of it can be pinned back to the road you took, the journey you took with CSS-Tricks. I mean, that's -- congratulations. I mean, for putting in all the work... I mean, we talked about quitting early, you'd said that, and the grind... I mean, this is -- how many years of CSS-Tricks...? What's the addition? When did you begin it? What year? What's the combination of years? How much dedication did it take?
+**Adam Stacoviak:** \[28:09\] Yeah. It is interesting to think though, that -- well, as you had said in your own words, all of it can be pinned back to the road you took, the journey you took with CSS-Tricks. I mean, that's -- congratulations. I mean, for putting in all the work... I mean, we talked about quitting early, you'd said that, and the grind... I mean, this is -- how many years of CSS-Tricks...? What's the addition? When did you begin it? What year? What's the combination of years? How much dedication did it take?
 
 **Chris Coyier:** '07 was the first, so five years older than -- you know, it's 15 years instead of 10. You know, just a little bit of extra there. And those first five years were so small, though, that by the time 2012 rounds around, CSS-Tricks was already - not big, but like big enough to matter. I was already definitely getting invited to speak at conferences quite a bit, and stuff, which would have definitely never happened without CSS-Tricks. And then conferences have their own kind of little snowball effect to them, or at least they did. Things are --
 
@@ -302,7 +302,7 @@ Anyway, we got off the rails there, but yeah, CSS-Tricks had screencasts... I'm 
 
 **Chris Coyier:** Yeah, yeah. But that opens other doors. Like, if you were to do consulting or whatever - I didn't, but I could have... You know, because people know who you are then, and all that. So I've never had a professional door open to me that wasn't opened essentially by CSS-Tricks.
 
-**Break:** \[00:30:07.00\]
+**Break:** \[30:07\]
 
 **Jerod Santo:** So 15 years and then you sold it... Were there any moments along the way where you were considering either selling it, or stopping, or taking an extended hiatus? We were talking about \[unintelligible 00:32:16.04\] and he's been doing it for like 20+ years... And I was curious -- I would love to hear the motivation, but also...
 
@@ -328,7 +328,7 @@ Anyway, we got off the rails there, but yeah, CSS-Tricks had screencasts... I'm 
 
 **Chris Coyier:** I generally had some perspective, you know... It was mostly fun. And I feel like people have written a lot of good stuff about burnout... Like Sophie Shepherd's "The Road to Burnout is paved by context-switching", and stuff like that... That would sometimes get at me, like I'm doing too many different things... But I've always kind of thrived on that. That one doesn't bug me that much. I'm kind of a multitasker because I want to be...
 
-\[00:34:04.23\] But the burnout - I think more comes from working super-hard and not affecting any change; like, not shipping, or not having any control, or feeling like you're spinning your wheels on stuff... And since I've always been the guy steering the ship, I just didn't -- it never felt that way. If I want something to change, I change it, and I kind of embraced that.
+\[34:04\] But the burnout - I think more comes from working super-hard and not affecting any change; like, not shipping, or not having any control, or feeling like you're spinning your wheels on stuff... And since I've always been the guy steering the ship, I just didn't -- it never felt that way. If I want something to change, I change it, and I kind of embraced that.
 
 So I never really did feel burnout, although I think I was getting tired. In the end -- I mean, if we're driving to the point of "Then why did you sell it?" it was just... You know, the offer was negotiated well, I thought the buying company was going to do a good job with it, and they seem to be doing fine with it... So it just was kind of like -- it's not like I'm committed to everything for life.
 
@@ -342,7 +342,7 @@ But yeah, the bottom line though is CodePen. That's a bigger company, that I'm a
 
 **Jerod Santo:** Hm... Focus.
 
-**Chris Coyier:** Yeah. Because you know, CSS-Tricks - I wasn't just some silent owner. I didn't \[00:36:08.21\]
+**Chris Coyier:** Yeah. Because you know, CSS-Tricks - I wasn't just some silent owner. I didn't \[36:08\]
 
 **Jerod Santo:** You were the main voice.
 
@@ -366,7 +366,7 @@ It's different too if CSS-Tricks has a longer life possibility than what you can
 
 **Chris Coyier:** Absolutely. I think that'd be kind of cool. Another version of it is let's say I'm just like "You know what - I'm gonna effectively sell it. I wanna step away all the way", where I'd literally basically don't even have a say anymore. What you need then is just like a product owner, or something, that you really trust. And I would totally have trusted Jeff to do it, but it just didn't come to that point where I had to have that conversation with him, like "Do you want this?" And then "What can I offer you to make it worth it?" And then still, you still own it. So if something were to happen to Jeff, or whatever, guess who's right back at the helm?
 
-**Adam Stacoviak:** \[00:38:24.03\] It's a burden.
+**Adam Stacoviak:** \[38:24\] It's a burden.
 
 **Chris Coyier:** So it's kind of like -- I don't know... It felt a little better to walk away a little bit. And the buying company was DigitalOcean, known for -- obviously, they're a web host, but they have made their business model content. So it's like "Oh, they want to buy more content. Doesn't that make sense?"
 
@@ -410,7 +410,7 @@ Because they did this thing, which I think is smart - probably pretty commonplac
 
 **Chris Coyier:** Yeah, we did all that. I mean, first you formulate a plan. You have to have it all really spelled out, because there's the moment in which you literally get a wire transfer... Because I'm not transferring no DNS without the money first, you know?
 
-**Jerod Santo:** \[00:42:05.29\] Totally.
+**Jerod Santo:** \[42:05\] Totally.
 
 **Chris Coyier:** So you get the wire transfer, but then you own their properties. You have to go in a rapid-fire mode and start clicking all those buttons and doing all the transfer, that hour. It has to happen right now. So that was kind of fun... More than happy to do that once it goes down.
 
@@ -440,7 +440,7 @@ But yeah, that was kind of my favorite stuff to write too, because like y'all, I
 
 **Chris Coyier:** And possibly \[unintelligible 00:46:01.01\]
 
-**Jerod Santo:** \[00:46:08.26\] No, you're just writing, you know...
+**Jerod Santo:** \[46:08\] No, you're just writing, you know...
 
 **Chris Coyier:** \[laughs\] I wanted to weigh in.
 
@@ -478,7 +478,7 @@ So when you say "This is a sell-out", Jerod, I know literally it is... But this 
 
 **Chris Coyier:** Yeah. I hope that plays out. It's still relatively new...
 
-**Jerod Santo:** \[00:50:04.08\] Right.
+**Jerod Santo:** \[50:04\] Right.
 
 **Chris Coyier:** And I have no inside information about what they're gonna do. They've been publishing content, Jeff's at the helm... I'm even still on the repo. I can see commits to the site, and stuff like that. I'm sure they have plans for it and whatnot, but I just am not privy to it anymore... Because that was the big question, it was like "Well, are you still around? Are you still running it?" Because that can happen too, an acquisition in which just now you work there, you're still involved. And this was not that. I haven't written for it since the day, yet.
 
@@ -534,7 +534,7 @@ So when you say "This is a sell-out", Jerod, I know literally it is... But this 
 
 **Chris Coyier:** \[laughs\]
 
-**Jerod Santo:** \[00:54:01.05\] Throw it in.
+**Jerod Santo:** \[54:01\] Throw it in.
 
 **Chris Coyier:** Yeah, we didn't really piecemeal it out. It was early enough that it was just like "Yeah, yeah, yeah..." Giving away those things is almost a reduction in my mental technical debt anyway...
 
@@ -588,7 +588,7 @@ Unfortunately, this is so niche... I mean, it's called @css. So the person who's
 
 **Jerod Santo:** Right. This was like a small microcosm. Of course, I'm imagining the worst, but that's a stupid hypothetical that probably will never happen, so... Why worry about it?
 
-**Chris Coyier:** \[00:58:00.26\] Yeah. Well, and here's the other thing that happened when they tweeted this... And it was something about how you set font size or something, and related to REMs, or something... And it got hundreds of comments...!
+**Chris Coyier:** \[58:00\] Yeah. Well, and here's the other thing that happened when they tweeted this... And it was something about how you set font size or something, and related to REMs, or something... And it got hundreds of comments...!
 
 **Jerod Santo:** Ha-ha! It worked.
 
@@ -672,7 +672,7 @@ Processors kind of come and go... And there's no reason not to support the small
 
 **Adam Stacoviak:** Is it mainly for demonstration of these things? Is it ever a production thing, the artifact? I mean, production-ish, like if it's --
 
-**Chris Coyier:** Only very rarely... Because we have a product called CodePen Projects, which is different than Pens on CodePen, although Pens are much more heavily used. Projects looks a little bit more like VS Code - you go to that and you actually see a sidebar, with files and folders in it. Pens were limited to like - you see these three panels, you write HTML and CSS and JavaScript in those panels; you cannot add an additional HTML file. You cannot add an additional CSS file. You can link them up and point to them, but you can't -- in the same way that you're used to local development, or run a processor over the whole file system, like you would expect, or like Npm installs whatever you want, that kind of thing. But the project manager did have a more proper file system.
+**Chris Coyier:** Only very rarely... Because we have a product called CodePen Projects, which is different than Pens on CodePen, although Pens are much more heavily used. Projects looks a little bit more like VS Code - you go to that and you actually see a sidebar, with files and folders in it. Pens were limited to like - you see these three panels, you write HTML and CSS and JavaScript in those panels; you cannot add an additional HTML file. You cannot add an additional CSS file. You can link them up and point to them, but you can't -- in the same way that you're used to local development, or run a processor over the whole file system, like you would expect, or like npm installs whatever you want, that kind of thing. But the project manager did have a more proper file system.
 
 And one of the features then we built into it is the ability to just deploy it very simply on CodePen itself, meaning you hit a deploy button and we put the stuff in a bucket and point a URL at the bucket for you, and you have a static website. It wouldn't even run a static site generator. I mean, we're talking about using just HTML files, and then a little bit of -- we support a language called Pug, for example, and you can have multiple Pug files that import each other. So you could kind of hack together your own little pretty basic static site generator, just from the nature of having includes in languages like that, and Nunjucks... And then you could CNAME a DNS at that deploy website.
 
