@@ -14,7 +14,7 @@
 
 **Tammer Saleh:** A lot of things are new and good. I mean, from a business point of view things have been just going wonderfully, which is - fingers-crossed, knock on wood, we were very worried about the economic downturn, but we haven't seen any signs of it. So that's been great. And also, just watching some of the technologies that have been evolving in the cloud-native ecosystem has been a lot of fun as well. I mean, one of the things that a lot of our engineers are really excited about, for example, is Sigstore, and the work that's been going on there. A lot of activity there. It's been very interesting.
 
-\[00:04:18.21\] In terms of what technologies I'm still very excited about... I think I'm a bit of an outlier, because for me there's a lot of interesting stuff going on in the cloud-native world, but the two technologies that I tend to get most excited about are actually the eBPF stuff, all the different tools that are focusing on eBPF, and WASM, which is almost like a non-cloud-native thing to say, right? It's almost like "Oh, we don't talk about WASM in Kubernetes, because it's not really containers and such." But those two technologies have a lot of potential to open up a lot of interesting doors, a lot of different directions that both those technologies can go.
+\[04:18\] In terms of what technologies I'm still very excited about... I think I'm a bit of an outlier, because for me there's a lot of interesting stuff going on in the cloud-native world, but the two technologies that I tend to get most excited about are actually the eBPF stuff, all the different tools that are focusing on eBPF, and WASM, which is almost like a non-cloud-native thing to say, right? It's almost like "Oh, we don't talk about WASM in Kubernetes, because it's not really containers and such." But those two technologies have a lot of potential to open up a lot of interesting doors, a lot of different directions that both those technologies can go.
 
 **Gerhard Lazu:** Right. So it's very interesting that you mentioned those two technologies, because in the recording schedule -- I mean you're listening to this I think at least a month after it was recorded... So tomorrow, Liz Rice and Thomas Graf, eBPF...
 
@@ -42,7 +42,7 @@ I like to think about Nix, for example. You know Nix OS, Nix?
 
 **Tammer Saleh:** Yeah.
 
-**Gerhard Lazu:** \[00:08:09.25\] Off of that, I talked to Vincent. We have the Nixert.dev episode. Vincent Ambo from TVL. I switched my Linux workstation to Nix OS, and I love it. Homebrew - it didn't make it to my new Mac, it was Nix.
+**Gerhard Lazu:** \[08:09\] Off of that, I talked to Vincent. We have the Nixert.dev episode. Vincent Ambo from TVL. I switched my Linux workstation to Nix OS, and I love it. Homebrew - it didn't make it to my new Mac, it was Nix.
 
 **Tammer Saleh:** I actually have that as a to-do item on my list, to get rid of Homebrew and move over to Nix for my local development experience.
 
@@ -88,7 +88,7 @@ Based on some recent conversations - you know, WASM and eBPF... I think you may 
 
 **Tammer Saleh:** Yes, please.
 
-**Gerhard Lazu:** \[00:12:06.16\] We're very, very interested to tell that story. Okay. Switching gears, back to Kubernetes... Do you think that it still needs a platform? Because that's what we were trying to answer in episode 51? Is Kubernetes a platform? And if you think it still needs a platform, have you tried any, and anything good out there that works as a platform?
+**Gerhard Lazu:** \[12:06\] We're very, very interested to tell that story. Okay. Switching gears, back to Kubernetes... Do you think that it still needs a platform? Because that's what we were trying to answer in episode 51? Is Kubernetes a platform? And if you think it still needs a platform, have you tried any, and anything good out there that works as a platform?
 
 **Tammer Saleh:** I do still think that Kubernetes needs a platform, even more than I felt that way before. I think I see a bunch of interesting platform services out there. So I saw that Changelog - I think you all migrated to Fly.io, right?
 
@@ -110,7 +110,7 @@ But the thing is, both Fly and Render - they've got great mission statements, th
 
 I mean, I think a lot of these teams are starting to realize that building an internal platform for their development team is not the same as maintaining it. So you might think, "Oh, we'll throw together a platform team, we'll put four people together, they'll build this thing, and then we can devolve that team and move them on to other projects." No, that team is going to stay, if not grow, because your platform has to evolve with the fast-moving cloud-native landscape. It's just a thing.
 
-\[00:16:18.19\] And so I think that there's a lot of potential for a platform... And by the way, as a little sidebar - platform doesn't mean dashboard. I've seen a lot of products out there that just give a UI exposing Kubernetes API primitives... That's not useful. That's not a platform. That's just point and click because I'm afraid to use the command line. And every dev that I know who uses Kubernetes would rather use some command line tool, right? Even if it's K9s, they'd rather use some command line tool for that.
+\[16:18\] And so I think that there's a lot of potential for a platform... And by the way, as a little sidebar - platform doesn't mean dashboard. I've seen a lot of products out there that just give a UI exposing Kubernetes API primitives... That's not useful. That's not a platform. That's just point and click because I'm afraid to use the command line. And every dev that I know who uses Kubernetes would rather use some command line tool, right? Even if it's K9s, they'd rather use some command line tool for that.
 
 **Gerhard Lazu:** Yep.
 
@@ -126,7 +126,7 @@ I mean, I think a lot of these teams are starting to realize that building an in
 
 **Gerhard Lazu:** But you can. I mean, we did... It wasn't great, but it worked. Now, doing the same with Cloud Foundry - I don't think it was possible. And then I was starting to see those similarities between what Bosch was doing... It was the tool that was like laying down everything, paving, repaving... Just basically managing all the infrastructure, all the software that was running... And it had some great things, but again, I was starting to see those commonalities between Bosch, Cloud Foundry, and to some extent, Concourse. And then, Kubernetes came along and it just changed everything, and I don't think anyone was expecting that. Very, very quickly as well. It was like a sweeping tide that took everything. That was a very interesting one. Now, one of the recent blog posts on SuperOrbital... I think they're calling it a journal, "Zero to GitOps", by Sean Kane...
 
-**Tammer Saleh:** \[00:20:20.21\] Yup.
+**Tammer Saleh:** \[20:20\] Yup.
 
 **Gerhard Lazu:** "Flipping the bits on the internet since I was eight." You can go and check the blog post. Since I was eight. Me, Gerhard was eight, just to make it clear... \[laughter\] So you can go and check it out to see how long has Shawn been flipping bits. It has a Quickstart repository, basic walkthrough in the article... It's looking really good. I mean, you can get a lot done on AWS EKS, with ArgoCD, with Terraform, which is interesting, but you're only using Terraform to bootstrap things.
 
@@ -144,7 +144,7 @@ I mean, I think a lot of these teams are starting to realize that building an in
 
 **Tammer Saleh:** I like that. I like that. That's a good way of thinking about it. Yeah. But it's also -- I mean, Terraform... The way that Terraform is developed by HashiCorp is very different than the way that the core team develops Kubernetes. I mean, Terraform has a ton of bugs, right? I mean, let's be honest. They had to call GitHub issue bankruptcy a while back. What was that, like three months ago, where they just started saying, "I'm sorry, we don't have enough engineers, even though we doubled in size from 500 to 1000... But we don't have enough engineers to deal with all the Terraform issues, so we're just going to put a pause on it." I can't believe they did that. It's always had so many rough edges, right? And you look at the Kubernetes core team and how they move - it's very different. I mean, no major features have come out of Kubernetes in the last two years.
 
-\[00:24:18.18\] I mean, it's a very mature product already, and part of that is because the core team has been very smart about exposing the right APIs, so that third-party in the cloud-native landscape, like other utilities can implement those more interesting features, those more innovative features on top of the platform. And the core team said "Look, Kubernetes as a platform needs to focus on polish and maturity." I mean, I think release 1.18 was called something like "the fit and finish release." And that was a while ago. In fact, they've even been removing features, sometimes a little too aggressively for my taste... Like when they removed security policies before they had a solution... But they always had another solution, which was the validating admission WebHooks. You could always do something. And so I think HashiCorp attempted to take on too much with Terraform, and they should have instead focused on just making it work correctly in all scenarios, and pushed all the innovation into a plugin system, or something, the way that Kubernetes does.
+\[24:18\] I mean, it's a very mature product already, and part of that is because the core team has been very smart about exposing the right APIs, so that third-party in the cloud-native landscape, like other utilities can implement those more interesting features, those more innovative features on top of the platform. And the core team said "Look, Kubernetes as a platform needs to focus on polish and maturity." I mean, I think release 1.18 was called something like "the fit and finish release." And that was a while ago. In fact, they've even been removing features, sometimes a little too aggressively for my taste... Like when they removed security policies before they had a solution... But they always had another solution, which was the validating admission WebHooks. You could always do something. And so I think HashiCorp attempted to take on too much with Terraform, and they should have instead focused on just making it work correctly in all scenarios, and pushed all the innovation into a plugin system, or something, the way that Kubernetes does.
 
 **Gerhard Lazu:** You just gave me another idea. I had it for a while, but you just gave me another one. I think I want to talk to James. James Bayer. That's who I'm thinking about. I said hi to him when I was talking to Rosemary and Rob from HashiCorp about Vault... But I think -- this just reminds me that there's something there. There's something to look in Terraform, because I know that many people, as like riddled with shortcomings as it is - they have a good problem. Lots of users demanding fixes, and demanding things... And it's -- it's just there's. It's like Bash this point, I think...
 
@@ -176,7 +176,7 @@ I mean, I think a lot of these teams are starting to realize that building an in
 
 **Tammer Saleh:** Yeah. The thing which I like about it, that has just enough information - it's making steady progress. As I was reading it, I just wanted to read more and more, and it didn't keep me waiting. So there was always something -- I loved how it was unfolding. There's links to GitHub pull requests, because dang it, I want to see the code... Right? Otherwise, it's just like words; it doesn't matter how amazing they are, I just want to see the code. And it's a really good one. Like Cillium, eBPF... It's all there. Observability, diagrams... Even for architects, you will like that. I think you will. Now, I have a question to you, Tammer. How can \[unintelligible 00:28:14.29\]
 
-**Tammer Saleh:** \[00:28:18.06\] Wait, I hold on, hold on... Are you going to ask me a deep question about Cillium? I'm not your man, alright? \[laughs\]
+**Tammer Saleh:** \[28:18\] Wait, I hold on, hold on... Are you going to ask me a deep question about Cillium? I'm not your man, alright? \[laughs\]
 
 **Gerhard Lazu:** No... James, can you join us, please? \[laughter\]
 
@@ -218,7 +218,7 @@ I mean, I think a lot of these teams are starting to realize that building an in
 
 **Tammer Saleh:** No, no. It's a static site. It's just got so much other stuff in there... Sometimes it's got, for example, workshops that we're still working on and we don't want to mention publicly yet... But that's a silly reason. We should just put it on there.
 
-**Break:** \[00:30:44.17\]
+**Break:** \[30:44\]
 
 **Gerhard Lazu:** Now have you used -- because we talked about Sigstore; a really cool thing, supply chain. Have you used any of the CLIs like \[unintelligible 00:32:38.29\]
 
@@ -242,7 +242,7 @@ I mean, I think a lot of these teams are starting to realize that building an in
 
 **Gerhard Lazu:** Exactly. That is the second meeting. When I've seen you lead the meeting, I thought "This guy's crazy in all the right ways..."
 
-**Tammer Saleh:** \[00:33:59.15\] I need to get out of here... I actually taught my six-year-old daughter the two thumbs thing. She saw the movie and she's like "What is that?" I'm like, "Well, do \[unintelligible 00:34:05.12\] two thumbs, right? And then you point to yourself, and you say something..." Yeah.
+**Tammer Saleh:** \[33:59\] I need to get out of here... I actually taught my six-year-old daughter the two thumbs thing. She saw the movie and she's like "What is that?" I'm like, "Well, do \[unintelligible 00:34:05.12\] two thumbs, right? And then you point to yourself, and you say something..." Yeah.
 
 **Gerhard Lazu:** Ah, that was a good one. That was a good one. Do you still do that? \[laughter\]
 
@@ -260,7 +260,7 @@ It turns out that the students that struggle the most in our workshops are the s
 
 I also thought -- I mean, I've gotta be honest with you, I kind of feel like it's an indication of the bit of a step backwards that happened with Docker and Kubernetes, right? I mean, Docker in particular was a huge benefit to the development community, because it allowed us to package up our software in a very repeatable way, right? To deliver that one package of software. It's like what Java did with JARs and WARs, but applied to any runtime, right? We all know this. But at the same time, crafting a Docker file - like, really, as an application developer, I need to know how the esoteric command line flags to apt-get install, and I need to understand like -- you used to have to remove the apt-get cache between layers in order... I mean, the stuff you have to do - it's making every developer a DevOp. And that is just reflected in the fact that we require our students to understand how to work with Bash, what Linux is, how the kernel works, how networking works... All that stuff.
 
-\[00:38:02.15\] In many ways, Kubernetes and Docker are just thin wrappers over that stuff, and they should be -- you know, we're just getting right back to the platform conversation; there should be a higher-level abstraction. Developers should not have to be completely full-stack all the way from frontend down to operations. That is too much to ask.
+\[38:02\] In many ways, Kubernetes and Docker are just thin wrappers over that stuff, and they should be -- you know, we're just getting right back to the platform conversation; there should be a higher-level abstraction. Developers should not have to be completely full-stack all the way from frontend down to operations. That is too much to ask.
 
 **Gerhard Lazu:** Yeah. So what do you think that would look like? Like, I think build packs were going in that direction, in that you didn't need to know how to package your code in the context of Cloud Foundry; that would just happen behind the scenes. I know that build packs are still around... I don't know who's using them in the context of Kubernetes, but I know they're there.
 
@@ -280,7 +280,7 @@ You mentioned that build packs are still happening - they are. The Open Build Pa
 
 **Tammer Saleh:** It's pretty interesting stuff... If only it was adopted, right? But again, still, build packs have the same problem we just talked about - they're great for the 80%, bad for the 20%. But this is exactly where I think something like Nix has a lot of potential. Like, Nix could have made Docker irrelevant, and could have abstracted away the things that we think of in a production Docker file. You could have just listed your dependencies in a manifest and your application would run within there. Maybe there would be a stronger contract about how your application runs, because build packs were that way; build packs were 12-factor, right? Could have had that same 12-factor contract, but allowing you to very easily specify all the dependencies that you might need. It could have been really interesting. But, I mean, in reality, nobody is doing anything other than Docker. Right? There's no significant competing technology than crafting a Docker file by hand.
 
-**Gerhard Lazu:** \[00:41:46.00\] Yeah. Well, publicly, no... \[laughter\] Behind closed doors, yes, and I think that's slowly changing. So I have so many thoughts running through my head right now... I see the potential in Nix. And this is slightly awkward, because this episode - we are recording it before another one, which will come out early... So I'll have to tell you something that hasn't happened yet... \[laughter\] So let's imagine that --
+**Gerhard Lazu:** \[41:46\] Yeah. Well, publicly, no... \[laughter\] Behind closed doors, yes, and I think that's slowly changing. So I have so many thoughts running through my head right now... I see the potential in Nix. And this is slightly awkward, because this episode - we are recording it before another one, which will come out early... So I'll have to tell you something that hasn't happened yet... \[laughter\] So let's imagine that --
 
 **Tammer Saleh:** Can you just mute the microphone and just tell me? Can you do that?
 
@@ -310,7 +310,7 @@ So it's a bit of build packs, a bit of Dockerfile, a bit of CI/CD, add an amazin
 
 **Tammer Saleh:** So actually James McShane, who was the author of that blog post that you talked about before - he was a contributor to Tekton for a long time. I think he's still active in the Tekton community. And I view Tekton as the spiritual successor to Concourse. For those of you who don't know - we've mentioned Concourse a few times, right? Concourse came out of Alex Suraci's work with Cloud Foundry, and it was very focused on solving a problem for our relatively large number of application development teams, right? We were building, essentially, a microservice architecture that would ship in a box in Concourse, which I like to call now like a workflow engine, as opposed to a CI/CD system, because it really just takes action on any trigger, and then it can produce new things on the other side. And the cool thing about that is --
 
-**Gerhard Lazu:** \[00:45:56.28\] You just said the engine word. Unbelievable. Dagger is an engine from the future. And it is -- like, wow... I cannot make this up. You said it, and I cannot believe it, because like -- conversations with different people are coming together in ways... Again, this is like -- you're listening to this a month after it was recorded, at least a month, by the way. You will have heard the Alex interview, which hasn't happened yet... \[laughter\] And it's amazing how these things are coming together in ways... Not to mention the conversations which we're having with Solomon, and Andrea, and Sam... The Docker founders, the Dagger founders... I mean, it's just crazy. It's crazy. But please, continue.
+**Gerhard Lazu:** \[45:56\] You just said the engine word. Unbelievable. Dagger is an engine from the future. And it is -- like, wow... I cannot make this up. You said it, and I cannot believe it, because like -- conversations with different people are coming together in ways... Again, this is like -- you're listening to this a month after it was recorded, at least a month, by the way. You will have heard the Alex interview, which hasn't happened yet... \[laughter\] And it's amazing how these things are coming together in ways... Not to mention the conversations which we're having with Solomon, and Andrea, and Sam... The Docker founders, the Dagger founders... I mean, it's just crazy. It's crazy. But please, continue.
 
 **Tammer Saleh:** I love Alex. I think he's one of the top three developers I've ever met in my life. He is just phenomenal. He's a very empathetic person. He's just a wonderful person, a wonderful human in general, right? And Concourse was visionary; the way that Concourse was designed, his ability to cut right through a problem and get to the fundamentals, and build essentially a toolkit that had so much more potential than anything we would have built by committee, right? It was really beautiful.
 
@@ -344,7 +344,7 @@ The problem is that Concourse - it's totally showing its age. It's not Kubernete
 
 **Tammer Saleh:** One of these days, Nix will win.
 
-**Gerhard Lazu:** \[00:50:10.08\] Well, Nix is in the mix, in a very unexpected way... But it is there, it is there. And I really like what you mentioned about Alex, because I see the same - there is an element of genius. There's no other way that I can put this.
+**Gerhard Lazu:** \[50:10\] Well, Nix is in the mix, in a very unexpected way... But it is there, it is there. And I really like what you mentioned about Alex, because I see the same - there is an element of genius. There's no other way that I can put this.
 
 **Tammer Saleh:** Yes.
 
@@ -384,7 +384,7 @@ The problem is that Concourse - it's totally showing its age. It's not Kubernete
 
 **Tammer Saleh:** It could be anyone. It could be you, dear reader, dear listener.
 
-**Gerhard Lazu:** \[00:53:53.23\] Dear listener, yes. It could be you. If you worked with Tammer, it could be you.
+**Gerhard Lazu:** \[53:53\] Dear listener, yes. It could be you. If you worked with Tammer, it could be you.
 
 **Tammer Saleh:** If you've worked with me, it probably is you. You're number three, of course.
 
@@ -396,7 +396,7 @@ The problem is that Concourse - it's totally showing its age. It's not Kubernete
 
 **Tammer Saleh:** It could be all of us. Oh, my next one-on-ones... They're gonna be so difficult. \[laughter\]
 
-**Break:** \[00:54:19.28\]
+**Break:** \[54:19\]
 
 **Gerhard Lazu:** So we talked about this idea of the Cool Wall of cloud-native before the episode. For those that don't know, I love Top Gear. My son, he's 12 years old. He loves Top Gear. He grew up with Top Gear. Top Gear is a TV car show presented by Jeremy Clarkson, Richard Hammond and James May. Now we are watching it on Amazon Prime, we know it as Grand Tour. We still watch it 10 years later, and it's still amazing... Thereabouts. Whatever. Like, almost a decade. And they have this concept of the Cool Wall, where they go through some cars -- it was introduced in season one; Top Gear season one. They go through some cars and they decide in which four categories does the car go? Is it a seriously uncool car, is it an uncool car, cool, or sub-zero cool. And I'm thinking, how about we pick a few projects from the CNCF landscape, and figure out which of the four categories they fit in.
 
