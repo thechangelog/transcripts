@@ -70,7 +70,7 @@ I think the Big Tent thing, in a way, is awesome, because it is huge, and everyt
 
 **Tom Wilkie:** I mean, it's still early, but it's definitely -- I know Polar Signals, Frederic's company, has made a huge amount of progress. Quite a big hit at KubeCon a few months ago... Yeah, we're using it internally... It's definitely helpful for some of the problems we've got.
 
-**Matt Toback:** \[00:04:15.29\] Do you have to convince people internally here to use it?
+**Matt Toback:** \[04:15\] Do you have to convince people internally here to use it?
 
 **Tom Wilkie:** I mean --
 
@@ -124,7 +124,7 @@ If you're told "You have to now use this tool", then of course they're gonna jus
 
 **Mat Ryer:** Yeah, but it's so true... I mean, in natural conversation, you talk over each other, and you sometimes step on each other's toes, or you start talking at the same time about something, and they try and make the same point... And it takes quite a good amount of work to stitch it together properly, so that you get this sort of seamless experience for the listener. But it is that, they're very obsessed with that -- it's basically a user experience thing. They want that to be as smooth as it can be, and we get the benefit of that.
 
-**Matt Toback:** \[00:08:03.18\] You know, the other thing is banter... If you're at the pub, or if you're just hanging out, or even before we hit Record, it's like "Oh, it's all easy." Then you hit Record and you're like "Ah, s\*\*t..."
+**Matt Toback:** \[08:03\] You know, the other thing is banter... If you're at the pub, or if you're just hanging out, or even before we hit Record, it's like "Oh, it's all easy." Then you hit Record and you're like "Ah, s\*\*t..."
 
 **Mat Ryer:** \[laughs\] We'll bleep that out, for example...
 
@@ -180,7 +180,7 @@ I think it's fine to log JSON; I'm not gonna say don't log JSON, because it's ub
 
 **Tom Wilkie:** He says cuddle, yeah. It's kind of cute, isn't it? \[laughter\]
 
-**Mat Ryer:** \[00:12:06.05\] For someone with so many t's in their name, you say a surprisingly few amount of t's.
+**Mat Ryer:** \[12:06\] For someone with so many t's in their name, you say a surprisingly few amount of t's.
 
 **Tom Wilkie:** His name is \[unintelligible 00:12:11.02\]
 
@@ -220,7 +220,7 @@ So there are some uses to that, but yeah, the general "Oh, we've had --" We've h
 
 **Mat Ryer:** Yeah, we wanna see him get riled up... \[laughter\]
 
-**Tom Wilkie:** \[00:15:58.28\] How do you measure uptime? We operate a SaaS service. Response to requests. If you don't send a request in a given unit of time, was it up or not? Does it even matter? Tree falls in the woods type thing.
+**Tom Wilkie:** \[15:58\] How do you measure uptime? We operate a SaaS service. Response to requests. If you don't send a request in a given unit of time, was it up or not? Does it even matter? Tree falls in the woods type thing.
 
 So we try and offer customers a request-based SLA. Like, "We will respond to this proportion of requests successfully." We feel like we're doing the customer-friendly thing. We feel like we're giving them something that's measurable, and impactful, and meaningful, and customers come back and say "Can we have an uptime SLA, please?" I'm like, "But it doesn't mean anything." An uptime SLA can be defined in terms of a request-response SLA. You can say "Five-minute windows, you must respond to a certain number of requests successfully, and then a new count is up." That's why we just wanna give you a request-based SLA. But I feel like, to a certain extent, you can't tell people what they should care about. You just have to meet them where they are.
 
@@ -256,7 +256,7 @@ But I don't know, it's tricky. I know what you mean. If you're the one taking on
 
 **Matt Toback:** Oh.
 
-**Tom Wilkie:** \[00:20:06.07\] It stops the sun or the rain from falling on your skin. Or in Mat and I's situation, falling on our massively-receding hairlines.
+**Tom Wilkie:** \[20:06\] It stops the sun or the rain from falling on your skin. Or in Mat and I's situation, falling on our massively-receding hairlines.
 
 **Mat Ryer:** I can't argue with that. But what I lack in hair, I more than make up for in forehead. \[laughter\]
 
@@ -290,7 +290,7 @@ It's a bit artificial that you have this monthly boundary, but sometimes that's 
 
 **Mat Ryer:** Yeah, I think that's really -- oh, hang on; ah, I didn't press Record... I haven't been recording this.
 
-**Tom Wilkie:** \[00:24:04.14\] You're sh\*\*\*\*\*g us, right?
+**Tom Wilkie:** \[24:04\] You're sh\*\*\*\*\*g us, right?
 
 **Mat Ryer:** Yeah, I'm joking... \[laughter\]
 
@@ -348,7 +348,7 @@ It's a bit artificial that you have this monthly boundary, but sometimes that's 
 
 **Mat Ryer:** Yeah, that's the thing I like about the hackathons. There's one coming up, there's another hackathon coming up at Grafana... And they're like "This is a spreadsheet of ideas." Anyone can just put any idea in, and then others just add their names if they're interested. So you get this kind of --
 
-**Matt Toback:** \[00:28:11.07\] I thought you were gonna say "Others just add their names next to it", and it's like stealing the joke. So one person does all the work, and you just go and you're like "Oh, that one. I want that one."
+**Matt Toback:** \[28:11\] I thought you were gonna say "Others just add their names next to it", and it's like stealing the joke. So one person does all the work, and you just go and you're like "Oh, that one. I want that one."
 
 **Mat Ryer:** Yeah, you can't do that, probably... Should I do that on one and see what happens?
 
@@ -370,7 +370,7 @@ And one of the quotes I've often used is being kind to your future self. How can
 
 **Matt Toback:** And what I loved about this episode in particular - and that's such a great quote; it feels like something you could repeat and remember when you're making almost any decision; any good software advice is probably a good life advice, too... But Nayana was different than a lot of the other practitioners because she's a practitioner, so she's the one that's taking and consuming all these things that we're talking about, and figuring out how to adopt it, how to reconcile it with all the other stuff that exists on the platform, how to push these groups forward... Those set of challenges I think are also massive, and I'm glad that she came on to share her perspective there. But I just loved distilling it down to the "Be kind to your future self" and just thinking like "How is that gonna work?" \[laughs\] What are you gonna think of that?
 
-**Tom Wilkie:** \[00:32:07.25\] I think it's great. We talk about it in terms of technical debt, as software engineers. We say "Oh, you're adding a piece of technical debt here", and "debt" is the keyword there. You have to pay it back in the future, so you're kind of incurring a cost in the future, which is not being kind to yourself.
+**Tom Wilkie:** \[32:07\] I think it's great. We talk about it in terms of technical debt, as software engineers. We say "Oh, you're adding a piece of technical debt here", and "debt" is the keyword there. You have to pay it back in the future, so you're kind of incurring a cost in the future, which is not being kind to yourself.
 
 So I think that we internally have a term called organizational debt as well, when we do something repeatedly, the manual, hard way, and like "Oh, we probably should have a process for this." That's organizational debt. But I'd rather have a little bit of technical debt and a little bit of organizational debt than over-design and over-engineer everything upfront, and then waste time and effort. So it's kind of a balance, right?
 
@@ -418,7 +418,7 @@ So I think that brings us kind of to the final topic, right? What's coming next,
 
 **Tom Wilkie:** Yeah. I agree. I wanna also get more Grafanistas on. I want both. So how do we get more external guests, and more Grafanistas, and have it not just be the three white men that it is presenting the panel all the time?
 
-**Mat Ryer:** \[00:36:14.15\] Yeah, it's true. The most diverse thing on the panel here is that one of us is called Tom. \[laughter\]
+**Mat Ryer:** \[36:14\] Yeah, it's true. The most diverse thing on the panel here is that one of us is called Tom. \[laughter\]
 
 **Tom Wilkie:** Nailed it. I'm not laughing at the joke, I'm laughing that I've heard the joke five times... \[laughter\]
 
@@ -510,7 +510,7 @@ You know, when you met people in-person, on the off-sites, or in the on-sites, o
 
 **Tom Wilkie:** While we're looking at him... \[laughter\]
 
-**Mat Ryer:** \[00:40:04.14\] Yeah. Then email bigtent@grafana.com. They can probably do it on Twitter as well, right?
+**Mat Ryer:** \[40:04\] Yeah. Then email bigtent@grafana.com. They can probably do it on Twitter as well, right?
 
 **Tom Wilkie:** Yeah.
 
@@ -544,7 +544,7 @@ Well, that's it. That's the wrap for season one. Congratulations. It's been good
 
 **Tom Wilkie:** Bye!
 
-**Break:** \[00:41:28.04\]
+**Break:** \[41:28\]
 
 **Tom Wilkie:** This is the longest talk show ever, Mat... \[laughter\] You know I said realy nice things about the editors...
 
@@ -610,10 +610,10 @@ Well, that's it. That's the wrap for season one. Congratulations. It's been good
 
 **Mat Ryer:** They're each audio track separately, so that it's easier for mixes and things to chop up and edit.
 
-**Matt Toback:** When I was listening to the recaps, or when I was listening back to the episodes for this episodes, I did it at 2X... And listening to theme song at 2X is really fun, because it's like \[00:43:59.01\] It gets pretty rock'n'roll quick.
+**Matt Toback:** When I was listening to the recaps, or when I was listening back to the episodes for this episodes, I did it at 2X... And listening to theme song at 2X is really fun, because it's like \[43:59\] It gets pretty rock'n'roll quick.
 
 **Mat Ryer:** It doesn't change the pitch, it's just faster, is that right?
 
 **Matt Toback:** Um, it changes the pitch too, yeah.
 
-**Mat Ryer:** Oh, it does? \[00:44:09.13\]
+**Mat Ryer:** Oh, it does? \[44:09\]
