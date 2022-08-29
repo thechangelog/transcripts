@@ -14,7 +14,7 @@
 
 **Nick Nisi:** Are you talking about JavaScript?
 
-**Amal Hussein:** \[00:03:56.04\] No, no, I'm talking about tech interviews. So that's the topic. We are gonna be talking about the good, the bad, the ugly, we're gonna share our thoughts on why they're bad, and we're gonna talk about our experiences, which are very varied on this panel... And then also what we think we can do to make it better. Like, what would a perfect world look like.
+**Amal Hussein:** \[03:56\] No, no, I'm talking about tech interviews. So that's the topic. We are gonna be talking about the good, the bad, the ugly, we're gonna share our thoughts on why they're bad, and we're gonna talk about our experiences, which are very varied on this panel... And then also what we think we can do to make it better. Like, what would a perfect world look like.
 
 We have three packed segments, so without further ado, let's get into it, y'all. What sucks? Why they broken? Please explain, in little English, please... Little person English. Why is it bad?
 
@@ -52,7 +52,7 @@ We have three packed segments, so without further ado, let's get into it, y'all.
 
 **Amal Hussein:** That's a good point, yeah. There is the actual tech -- so I think there's like umbrella tech interview, and the tech interview overall is the steps and hoops that we need to jump through. That is not limited typically to just your technical skills. There's a cultural portion, business fit portion, depending on your level of leadership portion, depending on your role, a writing portion... Right? There's a whole bunch of portions. Even like a portfolio review could be part of your job interview process... It's like a whole bunch of portions. I'd consider it like a family of Lego blocks, which can be put together in any combination and permutation... And then it's like N number of complexity in terms of like the ceiling. These interviews can be as complex as possible, they can be as Lo-Fi as possible, they can be really complex in some areas, and easy-peasy in other areas.
 
-\[00:08:13.15\] And also, your own skills and your own experience brings its own layer and color to that, right? Because you yourself have your own strengths and weaknesses, and you have your own cryptonites...
+\[08:13\] And also, your own skills and your own experience brings its own layer and color to that, right? Because you yourself have your own strengths and weaknesses, and you have your own cryptonites...
 
 It's kind of really stressful, but like humbling experience... I think for me, being on both sides of that, as an interviewer and as an interviewee, it's very interesting.
 
@@ -78,7 +78,7 @@ And then we're doing this to experienced engineers, we're doing this to parents,
 
 **Amal Hussein:** It's always a scary proposition, yeah. It's always like, you never know what to expect on the other side. And there's no guarantee that if every single person has a great experience, you're going to either. Like, you could just also be the one woman of color candidate that's interviewed for the role, and you're getting some bias thrown your way because of it, and therefore getting harder, more curveball, less room for error... Everybody else can pass at this standard, but you have to pass at this other standard, like the invisible standard that we set for people that are different.
 
-\[00:11:51.17\] Real talk, there's a lot of things at play here, including how old you look. That's been coming up with a few of my friends lately, where people are feeling -- or people in my circle... You know, "Oh, I've gotta dye my hair before this job interview, and I've gotta make sure I look good on camera, because I don't wanna get discriminated against because of looking older", you know? I was like, "What the hell? What planet are we living in?" You are worth your weight in gold as an experienced software engineer, and do not let anyone ever tell you otherwise.
+\[11:51\] Real talk, there's a lot of things at play here, including how old you look. That's been coming up with a few of my friends lately, where people are feeling -- or people in my circle... You know, "Oh, I've gotta dye my hair before this job interview, and I've gotta make sure I look good on camera, because I don't wanna get discriminated against because of looking older", you know? I was like, "What the hell? What planet are we living in?" You are worth your weight in gold as an experienced software engineer, and do not let anyone ever tell you otherwise.
 
 To be very clear, if you have managed to keep up with your skills and stay in this industry for 10+ years, 15+ years, 20+ years, however many plus years, or even if you've joined later in life and you're older, you still bring a lot of soft skills to the table, and that's super-important for teams. We need that diversity in some many layers. Age is just one of them. It's an important one. And part of the cultural problems that we have, that are systemic to us, actually start with our interview process being so self-selecting.
 
@@ -104,7 +104,7 @@ This design systems engineer isn't going to be thinking about algorithmic comple
 
 **Nick Nisi:** Yeah, I believe so. \[laughter\]
 
-**Amal Hussein:** \[00:15:42.21\] Really? Oh, that's interesting. That's a hot take. I think what's gotten better is our acknowledgment of the problem, but I don't think anyone -- I've been at companies where they've tried to offer different types of interviews... Like, they give the candidate a few different options, which I think is great. I've seen companies that give people take-home options, I've seen people also give people take-home options that are paid gigs, where they're like "We're gonna pay you to do your interview actually, because we acknowledge that this is time--" You know... There's definitely ways people try their best, but the reality is interviewing is a skill, and even the best of interviews can be gamed, to some degree. So you never really know what you're getting with a candidate until they land anyway... And even then, like if a candidate isn't happy, or they hate their job, they're not even gonna be performing well. So you do need to give it 6-8 months, ideally a year, for an engineer to really adequately judge them.
+**Amal Hussein:** \[15:42\] Really? Oh, that's interesting. That's a hot take. I think what's gotten better is our acknowledgment of the problem, but I don't think anyone -- I've been at companies where they've tried to offer different types of interviews... Like, they give the candidate a few different options, which I think is great. I've seen companies that give people take-home options, I've seen people also give people take-home options that are paid gigs, where they're like "We're gonna pay you to do your interview actually, because we acknowledge that this is time--" You know... There's definitely ways people try their best, but the reality is interviewing is a skill, and even the best of interviews can be gamed, to some degree. So you never really know what you're getting with a candidate until they land anyway... And even then, like if a candidate isn't happy, or they hate their job, they're not even gonna be performing well. So you do need to give it 6-8 months, ideally a year, for an engineer to really adequately judge them.
 
 And should we be focusing more on cultural fits, and should we have more of like an institutional thing as an industry, that's like "Yeah, in your first three months you can leave", or they can let you go without any feelings hurt... But that means the cost of that though is you can bypass having to do technical interviews, based on your recent experience, your portfolio, whatever... "Your ability to have stayed employed as a software engineer for a number of years - we're gonna trust that you know how to do this very similar job." Because if there's such a hiring crisis, it's just like -- you have to learn everything for your job, at your job, anyway. Even if the stacks are 100% the same, the business logic is never a hundred percent. Every company is its own snowflake in terms of software, so everyone has to go through that same thing where they're learning everything anyway... So just putting it out there.
 
@@ -118,7 +118,7 @@ And should we be focusing more on cultural fits, and should we have more of like
 
 Anyways, we're also gonna talk about more of the future and what we wanna fix, so stay tuned for all this and more. We'll be right back...
 
-**Break:** \[00:19:17.06\]
+**Break:** \[19:17\]
 
 **Nick Nisi:** So what is it like interviewing, and being an interviewer? I think we wanna dig into that, and kind of dig into more personal anecdotes about what that is... But as Amal said, not throwing --
 
@@ -132,7 +132,7 @@ Anyways, we're also gonna talk about more of the future and what we wanna fix, s
 
 And then one of the last interviews was like - they had this app that they used, and they were like "You have to log on", and then it'll ask you questions, like a quiz type thing, but it's timed... And the quiz questions were like what you do at the DMV, but worse. They were like "Did this CSS property come out in CSS 3? What version of CSS did border radius come out in?" It's like, I have absolutely no idea.
 
-**Amal Hussein:** \[00:24:10.05\] Oh, my God, are you kidding me? How is that part of your job?
+**Amal Hussein:** \[24:10\] Oh, my God, are you kidding me? How is that part of your job?
 
 **Nick Nisi:** Why would you need to know that?
 
@@ -182,7 +182,7 @@ And then one of the last interviews was like - they had this app that they used,
 
 **Amelia Wattenberger:** That's what I think.
 
-**Amal Hussein:** \[00:28:00.11\] Okay, that's what we're sticking with. We've calibrated. We are on the same page, that's all that matters. Consistency, not being right. So what are some crazy experiences that you've had as an interviewee? Because we're gonna talk about being an interviewer next, but not now. Hold those thoughts.
+**Amal Hussein:** \[28:00\] Okay, that's what we're sticking with. We've calibrated. We are on the same page, that's all that matters. Consistency, not being right. So what are some crazy experiences that you've had as an interviewee? Because we're gonna talk about being an interviewer next, but not now. Hold those thoughts.
 
 **Nick Nisi:** I don't have a lot of experience, as I mentioned, interviewing, or being the interviewee...
 
@@ -220,7 +220,7 @@ And then they were like "How would you make all of these divs the same height ac
 
 I think the themes are for me - so far we're seeing a lot of not being asked questions relevant to your job, not working under realistic circumstances... It's a superficial, artificial constraint, and artificial environment. You would never actually work this way.
 
-\[00:31:58.25\] I wonder, is the art of interviewing just to see how well a candidate also does under stress? Because really, it's quite a stressful experience all around. And I think, from my understanding, part of the reason why the bar is as high as it is for FAANG is it's a self-selecting process. It's very much self-selecting. And they want people of that caliber who are going to grind.
+\[31:58\] I wonder, is the art of interviewing just to see how well a candidate also does under stress? Because really, it's quite a stressful experience all around. And I think, from my understanding, part of the reason why the bar is as high as it is for FAANG is it's a self-selecting process. It's very much self-selecting. And they want people of that caliber who are going to grind.
 
 It's so funny, at Google there's this thing that's like, for every person at Google there's seven people, any random seven other googlers that they interviewed with, that they wouldn't get the job. There's definitely a luck factor. A lot of googlers have interviewed two, three times before they get a job. It's very common to not get in your first time, and get in your second, perhaps, maybe even your third... So this idea of also just like this mythical person that just shows up and knows it all, and just zooms through interviews, is kind of also -- it's like a fake person. This person doesn't exist. There's always some permutation of any hiring committee where that person would just not get that job. So yeah, it's a little wild...
 
@@ -246,7 +246,7 @@ I had a really close friend of mine just leave the Cambridge office this year. H
 
 **Amal Hussein:** Yeah.
 
-**Amelia Wattenberger:** \[00:35:56.22\] Were none of those competitive like this, or were they good interviews?
+**Amelia Wattenberger:** \[35:56\] Were none of those competitive like this, or were they good interviews?
 
 **Amal Hussein:** For me, my experiences -- like, my job searches are very targeted... Like, I'm being poached for a role, or I very intentionally wanna go to a place, and go to that specific job. And this past round was very interesting for me, because I actually really focused on one particular place, which is the place that I landed. And along the way, people got word of "Oh my God, you're open?" Before you knew it, I was also interviewing at 3-4 other places at the same time. And I was like, "How did this happen? Dang it!"
 
@@ -264,11 +264,11 @@ So had I done a little bit more research and also just looked at like "Okay, wha
 
 But anyways, this is my personal experience. People literally could have had a complete opposite experience, or opinions. This is my personal one. I have the right to have it. So yeah...
 
-**Amelia Wattenberger:** \[00:40:33.00\] That's interesting too, because I feel like of the different interviews I've had, a lot of them give me that feeling of like "What am I doing here? Do I really know anything? I didn't know that question, I feel like an idiot." And then some of them made me feel very qualified for the role. I would sit down and talk \[unintelligible 00:40:50.14\] just have a conversation, and it would be fun, and they'd actually listen to me about things I've done in the past, and it was almost like a therapy session sometimes, where you come out feeling really good.
+**Amelia Wattenberger:** \[40:33\] That's interesting too, because I feel like of the different interviews I've had, a lot of them give me that feeling of like "What am I doing here? Do I really know anything? I didn't know that question, I feel like an idiot." And then some of them made me feel very qualified for the role. I would sit down and talk \[unintelligible 00:40:50.14\] just have a conversation, and it would be fun, and they'd actually listen to me about things I've done in the past, and it was almost like a therapy session sometimes, where you come out feeling really good.
 
 **Amal Hussein:** That's a really good point. Well, we're gonna talk about that next. We're gonna talk about what it's gonna take to be creating a better experience where you're on the other side of that. So we'll get into that in our next segment. Lots to discuss... And yeah, I had only two rants so far. This is great. I'm doing great, y'all. This is great.
 
-**Break:** \[00:41:25.14\]
+**Break:** \[41:25\]
 
 **Amal Hussein:** There's so much to discuss and unpack here... We're gonna try to switch this navigational direction of this conversation to be more positive, hopefully anyways... So I'd love to hear about your experiences - and I'll share mine as well - being on the other side of that interview, where you're the one interviewing. I'm curious what are some experiences - you know, good, bad and ugly; you can share the bad stuff, too. We have to keep it a little spicy, y'all. Come on. But I'm curious to hear about that, and I'm also curious about what have your past or present companies done to make that experience better, so that you are being a more inclusive and engaged interviewer.
 
@@ -304,7 +304,7 @@ But it would start off with some simple questions, and it was mostly like "Tell 
 
 **Nick Nisi:** We'd have you do that, and then assuming you passed that - and we were looking at things like just general code quality. If it ran, that was a good thing, but if it didn't, how far did you get? You wouldn't necessarily be disqualified from that. Then you would go on to a half-hour - and it was capped at a half hour - of another kind of technical question, where we were... We were using JSFiddle back then, because you could do collaboration, and do that in there... But it was just a half-hour "Here's a problem. Let's solve it, and while you're solving it, specifically verbalize your thought process. So tell me what you're thinking, tell me all of that", but also "Do you wanna use Google? You're gonna use Google when you're doing your job. We totally get it. Just not even a problem. Just let us know what you're googling, what you're thinking, the thought process as you're going, so we kind of get that mindset."
 
-\[00:48:37.25\] And then from there, it was just another half hour with different team members, and they were just asking you more kind of team-fit, culture questions. I'm trying to remember any specific ones, but they were kind of like "Describe things that you did well, problems that you had, that you overcame..." More like that. How you work well with a team... Sometimes it would get into details on like -- if we really saw you were proficient with Git or something, we'd be asking you questions and kind of taking notes on that...
+\[48:37\] And then from there, it was just another half hour with different team members, and they were just asking you more kind of team-fit, culture questions. I'm trying to remember any specific ones, but they were kind of like "Describe things that you did well, problems that you had, that you overcame..." More like that. How you work well with a team... Sometimes it would get into details on like -- if we really saw you were proficient with Git or something, we'd be asking you questions and kind of taking notes on that...
 
 But that was really it, and I felt that it gave us a good idea of what a person was like, without making them spend hours and hours specifically on a call with us. They might have spent a lot of time preparing and such, but we really tried to respect their time and boil it down to as little as we felt we needed to make an evaluation... Also kind of knowing that when they hire on, it's kind of a probationary period almost in the beginning to kind of get a feel for them as well. We were very open about that as well.
 
@@ -322,7 +322,7 @@ I think the best interviews I've had are when you're just sitting - kind of like
 
 **Amal Hussein:** Right.
 
-**Amelia Wattenberger:** \[00:52:06.19\] But you get to see the end process. You're not sitting there, watching them code, which doesn't happen at work, so why would you test for it?
+**Amelia Wattenberger:** \[52:06\] But you get to see the end process. You're not sitting there, watching them code, which doesn't happen at work, so why would you test for it?
 
 **Amal Hussein:** Totally.
 
@@ -352,7 +352,7 @@ My personal experiences have really been generally good as an interviewer. I've 
 
 **Amelia Wattenberger:** I kind of like the idea of reviewing old pull requests, because then it's not like -- like, you can perform for an interview, but this is what it's actually like to work with them.
 
-**Amal Hussein:** \[00:56:03.21\] It was a real pull request, but an old one, that had lots of mistakes, from a contractor, I think. So they literally used that exact pull request, and we're like "Here. \[laughs\] This is from our actual codebase, seven months ago." So I think that's cool.
+**Amal Hussein:** \[56:03\] It was a real pull request, but an old one, that had lots of mistakes, from a contractor, I think. So they literally used that exact pull request, and we're like "Here. \[laughs\] This is from our actual codebase, seven months ago." So I think that's cool.
 
 Other general positive experiences have been interview committees having an objective group of people from even different parts of the company come together and interview. I think it's cool to do that, because then somebody's interviewing for a role, not a job... And you're interviewing for the role of software engineer. And "Oh, here's the wide pool of different people who can give you this interview." And it doesn't matter which combination of those people; you're hired generically to be a software engineer at this company, and then getting to pick your team after that is a pretty cool thing, having teams compete for you; it's been nice.
 
@@ -370,7 +370,7 @@ But overall, the process is still way to difficult, and we can talk about that f
 
 **Amal Hussein:** What should we stop, what should we start?
 
-**Amelia Wattenberger:** \[00:59:33.00\] I think there's just a theme of like -- you can't scale an interview process and have it still be good. You can't have some way to weed out the bad people, and that you can do with hundreds of people.
+**Amelia Wattenberger:** \[59:33\] I think there's just a theme of like -- you can't scale an interview process and have it still be good. You can't have some way to weed out the bad people, and that you can do with hundreds of people.
 
 I also think having the team that's gonna work with them to interview them, and not just have people who do all the interviews for the company... Like, these things just don't scale. You just have to give people the time to be themselves, get to know them, get to know how they think about problems, and solve them, and then figure out if it's gonna be a good fit for your team. That's just something that's really hard to do with hundreds of people. So maybe have like an initial weeding-out process, and then just take people at face value and take it slowly.
 
