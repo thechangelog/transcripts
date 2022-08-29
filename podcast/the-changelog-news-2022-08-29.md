@@ -22,6 +22,8 @@ Apologies in advance to Lars and other fans of HBO's Silicon Valley. Reaching 10
 
 [Do you find me sadistic? You know, Kiddo, I'd like to believe that you're aware enough even now to know that there's nothing sadistic in my actions. t this moment, this is me at my most... masochistic.](https://www.youtube.com/watch?v=qwg2bvY3_Ek)
 
+**Jerod Santo:**
+
 Did you catch that one? It's from one of my favorite Quentin Tarantino films: Kill Bill. It's not his best film, that's Pulp Fiction. but if I could watch just one Tarantino flick for the rest of my days, I'm pretty sure I'd pick Kill Bill.
 
 But that's niether here nor there. Let's get into the news.
