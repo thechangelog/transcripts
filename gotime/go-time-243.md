@@ -30,11 +30,11 @@ So we're gonna start with the very basics - what is a PR, and why do we even do 
 
 **Jeff Hernandez:** I mean, coming from, at the Times at least, I'm an associate software level, so I'm kind of like the entry-level... So it's a great way to get feedback from my senior engineers, and basically get a lot of kind of feedback from them in terms of I can be doing better, or code structure, how that could be improved... Or even tiny, little optimizations... Or maybe there's a certain way that, for instance, Go likes to do things, because as we all know, Go is very opinionated... So it's like a way to tap into that resource from our senior engineers.
 
-\[00:08:01.02\] I feel like it's a great tool, especially for someone that's coming into a new team, kind of getting the lay of the land, getting the norms that you typically might not get in through other forms of documentation.
+\[08:01\] I feel like it's a great tool, especially for someone that's coming into a new team, kind of getting the lay of the land, getting the norms that you typically might not get in through other forms of documentation.
 
 **Natalie Pistunovich:** For sure. And in terms of assessing PRs, is there such thing as a good PR review? Is there such thing as a bad PR review? I would love to hear how you assess going about either putting in a PR, or reviewing a PR. Maybe Natasha - when you're putting in a PR, how do you decide whether it's time to go, or whether you need to wait and do some more work... At what point do you feel like "No, this is ready to be reviewed by my peers"?
 
-**Natasha Dykes:** I think for me it's helpful when I review a ticket - usually, it's for a feature or something that I'm working towards... I review it to see if the work that I've done actually meets the requirements, and at that point I can either say "Okay, it's ready to go." I've cleaned up any notes for myself, or made sure I did gofmt, all of those small things... And then I'll open up a PR. But I would say you can even open up the PR before you're ready to merge. Sometimes it's good to just get that early feedback... So it really depends on the work that I'm doing.
+**Natasha Dykes:** I think for me it's helpful when I review a ticket - usually, it's for a feature or something that I'm working towards... I review it to see if the work that I've done actually meets the requirements, and at that point I can either say "Okay, it's ready to go." I've cleaned up any notes for myself, or made sure I did `go fmt`, all of those small things... And then I'll open up a PR. But I would say you can even open up the PR before you're ready to merge. Sometimes it's good to just get that early feedback... So it really depends on the work that I'm doing.
 
 **Natalie Pistunovich:** And Natalie, I see your intake of breath... Do you have something you'd like to add?
 
@@ -48,7 +48,7 @@ So we're gonna start with the very basics - what is a PR, and why do we even do 
 
 **Angelica Hill:** Yeah, it is interesting, right? You have this project -- I think most of us use Git in some way; GitHub, GitLab, or... I don't know too many other personal variations, but I'm sure that exists as well. So we all kind of eventually are used to the concept of having a main branch, and then branching your changes from that, and then asking to merge that back, whether frequent, or not frequent... And yeah, we all say PR. I've been always saying PR, but then recently I had to work with this ticketing system that is called "Click up." And there they said that the label was code as in CR. And that was kind of interesting. Probably the first time I remember, let's say, encountering \[unintelligible 00:12:00.17\] so I wanted to dive a little into the semantics of that. Then there's also merge request, which kind of makes sense, but actually also not really in use.
 
-**Natasha Dykes:** \[00:12:12.00\] I've also heard it called a changelog, or CL... So there's a lot of different terms for it.
+**Natasha Dykes:** \[12:12\] I've also heard it called a changelog, or CL... So there's a lot of different terms for it.
 
 **Angelica Hill:** What are you familiar -- what do you know changelog to be?
 
@@ -78,7 +78,7 @@ So I think it's about thinking about how you can best set up your reviewers to g
 
 **Jeff Hernandez:** Yeah, I think it's totally depending on what you're working on at the current moment. So if you're building a new API from the ground up, setting up the handling for the JSON, the payload, maybe that can be a PR. And then the actual business logic can be a separate thing. You're building up as you go. That's something that I've learned from other people on the team... Because I have been guilty of the extremely large PRs, where the ticket is done, but it's all in one PR, and no one wants to review it, so you're gonna maybe get a review by next week if you keep pinging people and bothering them... But otherwise, no one's gonna wanna touch that.
 
-\[00:16:04.12\] And then you don't ever wanna get in a situation where you have to offer to go step by step with the reviewers... Like, "I've made this change because of this reason", on a call. I feel like that's the worst-case scenario, where you have to actually walk them through it. Sometimes it's necessary, but it's something I would avoid. It's kind of like a walk of shame. You have to go through the whole thing with them, but... They can definitely be too big.
+\[16:04\] And then you don't ever wanna get in a situation where you have to offer to go step by step with the reviewers... Like, "I've made this change because of this reason", on a call. I feel like that's the worst-case scenario, where you have to actually walk them through it. Sometimes it's necessary, but it's something I would avoid. It's kind of like a walk of shame. You have to go through the whole thing with them, but... They can definitely be too big.
 
 **Natalie Pistunovich:** A walk of shame where you can walk through the glory of your coding... \[laughter\]
 
@@ -110,7 +110,7 @@ Awesome! So we talked a little bit about -- well, actually you alluded to this, 
 
 **Sarah Duncan:** Yeah, I definitely think files are a good initial indicator... And sometimes that can be misleading, because you could have a bunch of files only have one line change, or you moved a folder into a subfolder, and that changed a bunch of files, and you can just check all those off as okay... But I think that it's a good question, because I think it's a hard thing to actually measure well...
 
-\[00:19:57.22\] The analogy I try to use and that I recently used at the New York Times to kind of explain how to break down your PRs - it ties into your question, Angelica, about the number of reviewers... My analogy is that if my ticket is to bake a cake, and let's say it's chocolate cake, we've got some butter cream frosting, a little raspberry layer in there, it's a nice cake - if I go and bake the cake and come back... And Angelica, you're a frosting expert, and Jeff, you're a cake expert, and Natasha, you are the absolute queen of fillings - it's harder, I have to get all of you in a room and cut a slice of cake, and you have to pick it apart and be an expert on your piece, and it takes more work to give feedback... And it takes more work for me to go fix something.
+\[19:57\] The analogy I try to use and that I recently used at the New York Times to kind of explain how to break down your PRs - it ties into your question, Angelica, about the number of reviewers... My analogy is that if my ticket is to bake a cake, and let's say it's chocolate cake, we've got some butter cream frosting, a little raspberry layer in there, it's a nice cake - if I go and bake the cake and come back... And Angelica, you're a frosting expert, and Jeff, you're a cake expert, and Natasha, you are the absolute queen of fillings - it's harder, I have to get all of you in a room and cut a slice of cake, and you have to pick it apart and be an expert on your piece, and it takes more work to give feedback... And it takes more work for me to go fix something.
 
 So if I'm trying to perfect the chocolate cake, and Jeff, you're like "This cake is too dry.", You have to go back and make it less dry", that is so much more work for me to reconstruct that cake all over again... But if I break that down and first I make my chocolate sponge, Jeff, you taste that and you give me feedback on it, I make my filling that I'm gonna use, and Natasha, I get your input on that... Angelica, I ask you for your input on the frosting, and kind of perfect those individual pieces, and then I assemble - that final assembled cake is gonna be a lot more successful.
 
@@ -158,7 +158,7 @@ So I think it's a hard thing to measure, because even just that "Oh, one subject
 
 **Sarah Duncan:** The ultimate taste testing... \[laughter\]
 
-**Break:** \[00:24:00.12\]
+**Break:** \[24:00\]
 
 **Natalie Pistunovich:** Great! So you are going to review a PR... What are the almost unspoken rules of PR review? Are there actual rules of PR review? I'd love to hear how do you approach reviewing your colleagues' PRs.
 
@@ -168,7 +168,7 @@ So I think it's a hard thing to measure, because even just that "Oh, one subject
 
 For example, instead of saying "Oh, you should use this other function. It already does what you're doing here", asking "Oh, can we use this other function here? Is there something that we can reuse?" And that gives the opportunity -- because you could be wrong. I'm a staff engineer, and I'm wrong all the time... So if I'm just coming into a code review and saying "Oh, you should have done this" and "You should have done that", that not only is not giving feedback in a way that will be easily received, but it's really assuming that I always know the answer, and I always know what's best.
 
-\[00:28:13.01\] I think remembering that the person who's coming in with the pull request has spent so much time, presumably, on this problem, that - yes, the fresh pair of eyes is really helpful, and you might see something that they didn't, but also giving acknowledgment to the work that they've put in on this pull request, and that they might have thought through that problem, and that there might be something that you're missing, because you haven't spent as much time thinking about the solution. So that empathy is really important.
+\[28:13\] I think remembering that the person who's coming in with the pull request has spent so much time, presumably, on this problem, that - yes, the fresh pair of eyes is really helpful, and you might see something that they didn't, but also giving acknowledgment to the work that they've put in on this pull request, and that they might have thought through that problem, and that there might be something that you're missing, because you haven't spent as much time thinking about the solution. So that empathy is really important.
 
 **Jeff Hernandez:** Yeah.
 
@@ -186,7 +186,7 @@ For example, instead of saying "Oh, you should use this other function. It alrea
 
 That's where I think having a set of norms on your team that you regularly revisit when somebody new joins, when you have a new repo you're working in... Those norms will help smooth that conversation, because if you have all already agreed, like "Oh, we're gonna make sure we follow DRY practices", or whatever - those kinds of agreements make it a lot easier to have that code review conversation, because that's like a shared expectation that you have. And it's the same thing for giving interpersonal feedback. If you have a shared expectation and a shared goal, then you can easily use that as a reference point and be like "Hey, since this is something that we've agreed on as a team, I'm noticing this here. Do you think that we could reshape this so that it follows this practice that we have agreed to use for this repo?" That's a much easier conversation to have than "Oh, I don't like how this is styled. I think we should do it this way instead", and kind of like bringing your perspective into it. It's a lot easier to bring a team norm that you've already all agreed on, that's like the team's perspective on this, and the team's perspective on how to move forward.
 
-**Jeff Hernandez:** \[00:31:58.00\] It's really important having that team understanding. At least in my previous company we had shared standards as to how things -- we had pillars in everything, we had a standards committee that we were trying to... For code style, and stuff like that.
+**Jeff Hernandez:** \[31:58\] It's really important having that team understanding. At least in my previous company we had shared standards as to how things -- we had pillars in everything, we had a standards committee that we were trying to... For code style, and stuff like that.
 
 But on the other side of the coin, I'm kind of -- sometimes if I see a spelling mistake, I will point that out in the PR, just because it's... Like, if it's already committed and I see it, I wish someone had called it out in the PR. In my PR I will fix it...
 
@@ -208,7 +208,7 @@ The reason I ask is that - maybe this is a leading question... Say you're a staf
 
 **Jeff Hernandez:** Exactly. Usually, when I do "Oh, you should try it this way", I usually have links to support what I'm saying, just to be like "See, these other people are doing it this way as well. It's not just me."
 
-**Sarah Duncan:** \[00:35:52.14\] Yeah, and I think the value of a fresh perspective also is in challenging assumptions. I'm a staff engineer, but there are definitely things that, to your point, Angelica, I've gotten used to, or I've gotten into the habit of, and sometimes that does lead me to make assumptions, and I work to check myself. But having teammates being able to ask questions and check assumptions I think leads to really valuable conversation, because maybe that will lead us in a different direction, maybe I can explain more about something that I've done in my work...
+**Sarah Duncan:** \[35:52\] Yeah, and I think the value of a fresh perspective also is in challenging assumptions. I'm a staff engineer, but there are definitely things that, to your point, Angelica, I've gotten used to, or I've gotten into the habit of, and sometimes that does lead me to make assumptions, and I work to check myself. But having teammates being able to ask questions and check assumptions I think leads to really valuable conversation, because maybe that will lead us in a different direction, maybe I can explain more about something that I've done in my work...
 
 But I actually think when I'm approaching reviews and when I'm asking to be reviewed, I think of it more as like the subject matter expertise in a codebase, because I recently switched teams and I'm coming onto my new team and I have a lot of wealth of knowledge in terms of architecture, and some of the things that I'm bringing from my past team... But I'm actually learning some of these languages for the first time. So even though I have a big-picture idea around our architecture, and I'm doing a lot of things as the tech lead for my team... So my teammates actually know these languages, and the language patterns that come with these repos better than I do... So I actively look for them to be critical of the code that I'm putting forth... Because that allows me to learn the same way that if they were putting in a PR in Python, and I'm more experienced in Python, I would wanna teach them some of the things that I have picked up about Python along the way.
 
@@ -226,7 +226,7 @@ So in those situations it's easier for me to give empathy to that person when th
 
 I think it's easier when you're working with somebody you know. If English isn't their first language, I always have an easier time being like "Oh, they didn't mean it in a way that hurts my feelings." \[laughs\] Sometimes that's harder for me to get to that point; if it's somebody who isn't a native English speaker and it's one of those things I think is easy to make assumptions around, which is why I brought up working with somebody who is neurodivergent, it's just like... That's not always something you can tell right away. It's easier to tell English isn't somebody's first language, but I try to take that empathy that I learned working with those colleagues and bring it to all my other colleagues as well.
 
-**Angelica Hill:** \[00:40:25.05\] It's also interesting to think of -- I mean, yes, English is not the native language, so that's a very good differentiator... And also, different cultures have different relationships with feedback, or even saying to somebody "You did something wrong."
+**Angelica Hill:** \[40:25\] It's also interesting to think of -- I mean, yes, English is not the native language, so that's a very good differentiator... And also, different cultures have different relationships with feedback, or even saying to somebody "You did something wrong."
 
 **Sarah Duncan:** Yeah. That was a good point.
 
@@ -256,7 +256,7 @@ Do emojis help with that? I find it really difficult to communicate through my w
 
 Is it appropriate to add many emojis to your PR? I know you can add the emoji reactions, but within it, is that a useful tool that in fact can be used to try and alleviate that risk of being misconstrued via just written word?
 
-**Angelica Hill:** \[00:44:37.23\] You mean the pull request description, or actually each commit?
+**Angelica Hill:** \[44:37\] You mean the pull request description, or actually each commit?
 
 **Natalie Pistunovich:** I'm open to views on either.
 
@@ -276,7 +276,7 @@ So I just think it's helpful, even if you are formally blocking the pull request
 
 **Sarah Duncan:** Don't worry, we all do stuff wrong in our pull requests all the time. It is part of being an engineer. \[laughs\]
 
-**Break:** \[00:48:49.08\]
+**Break:** \[48:49\]
 
 **Natalie Pistunovich:** So I just have one more question, because we are running out of time, regrettably... But my question is "Can you teach people how to do a good PR, how to review PRs?" Is there truly an art to reviewing a PR, or is it really just us all bumbling through, learning as we go, trying to do the best we can, and really, you're never the kind of PR pro; you're always gonna have more to learn about how to create a PR better, review a PR better. Are you ever gonna be like "Right, I'm done. I am the PR pro. Amazing"?
 
@@ -284,13 +284,13 @@ So I just think it's helpful, even if you are formally blocking the pull request
 
 But also, you kind of have to balance that with the time. You still have to get things done. It's a big balancing act of how much -- like, is this critical that this needs to get changed, even though it's like a stylistic thing that goes against our team norms, but it's imperative that this gets through?" Or maybe they've already spent a lot of time on it, so it's definitely the art of juggling or balancing, so...
 
-**Natasha Dykes:** \[00:54:14.09\] I think just experience goes a long way. Learn by doing. You can kind of experience a lot of things that you wanna emulate, or things that you're like "Wow, that didn't leave me feeling really good about myself, so I know not to do this in the future." But also, just getting more experienced in whatever language that you're working on to then make those suggestions that can make the code better, and more performant. That's like another layer of doing a PR review... But it's still something that comes with more time.
+**Natasha Dykes:** \[54:14\] I think just experience goes a long way. Learn by doing. You can kind of experience a lot of things that you wanna emulate, or things that you're like "Wow, that didn't leave me feeling really good about myself, so I know not to do this in the future." But also, just getting more experienced in whatever language that you're working on to then make those suggestions that can make the code better, and more performant. That's like another layer of doing a PR review... But it's still something that comes with more time.
 
 **Sarah Duncan:** Yeah, and I think from the perspective of authoring a PR and asking for a review, that's also something that is like a skill that can be honed and taught and improved at any level... Because figuring out when a PR is done, how big it is, but also in some situations maybe you're introducing a change, and maybe you have to write up why you think that change is the right path to move forward, and there's always room to improve on making a concise argument. I think that's something that we can always improve on, is how to make a concise, clear argument for the change that you're introducing, or how to best walk your reviewer through the pull request just based on your PR ask. There's a lot of skills that can be honed in this whole process, on both sides.
 
 **Natalie Pistunovich:** Well, thank you. Regrettably, we've babbled all our time away, so we are going to move into our Unpopular Opinion time.
 
-**Jingle:** \[00:55:49.00\] to \[00:56:04.02\]
+**Jingle:** \[55:49\] to \[56:04\]
 
 **Natalie Pistunovich:** Right, so get ready, guests, we're gonna jump right on in. Jeff, what is your unpopular opinion?
 
@@ -324,7 +324,7 @@ But also, you kind of have to balance that with the time. You still have to get 
 
 **Sarah Duncan:** Yeah, I think a lot about being a successful software engineer is kind of this ability to be able to make a concise argument, be able to understand other arguments and perspectives, and incorporate it, and use that to kind of revise your opinion and put forth another concise argument. We see this in architecture documents all the time; I was on the architecture review board at the Times for a long time, and I chaired it for a while... I know Natasha has been on the contributor board as well, and we see so many long, long documents that could be half the size they are, and I think a lot of engineers don't use the theory classes that they took in college, or -- assuming that if you are studying computer science in college, I think a lot of those classes are not put to use as a practical software engineer... But the area where I see a lot of software engineers kind of having to improve on the job is in their ability to make a concise argument.
 
-\[00:58:16.07\] My sister is getting her Ph.D. in English, so I'm maybe a little biased, because I see how much work she has put into this skill... And I myself was -- my major was in the philosophy department, even though it was a logic and computer science interdisciplinary degree... So I use the skills that I got from my humanities classes more than a number of the computer science theory classes that I had to take in college.
+\[58:16\] My sister is getting her Ph.D. in English, so I'm maybe a little biased, because I see how much work she has put into this skill... And I myself was -- my major was in the philosophy department, even though it was a logic and computer science interdisciplinary degree... So I use the skills that I got from my humanities classes more than a number of the computer science theory classes that I had to take in college.
 
 **Natalie Pistunovich:** Hm. Okay. Jeff... I didn't know you renamed yourself Natasha, Jeff... \[laughter\]
 
