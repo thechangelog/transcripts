@@ -244,7 +244,7 @@ The crazy part about community though is that no matter how much you give to it,
 
 Talking about mentors also, as you said, I'd say that I've had hundreds of mentors across my life working on these projects, without any of them knowing they were mentoring me. It started with one Twitter DM, and before you know, they were helping me out, full-on, with solving issues one after the other.
 
-\[01:03:16.08\] I think being on both sides of the board at this point (fairly recently also), what I realize is that as long as you're making progress, as you said, the mentors don't care how slow you are. If you're mowing, no matter how slow you are mowing, you're doing great. And as I just said, especially when it comes to open source, you're already ahead of 85%-90% of other people if you just show up... Because most people would never even show up.
+\[01:03:16.08\] I think being on both sides of the board at this point (fairly recently also), what I realize is that as long as you're making progress, as you said, the mentors don't care how slow you are. If you're moving, no matter how slow you are moving, you're doing great. And as I just said, especially when it comes to open source, you're already ahead of 85%-90% of other people if you just show up... Because most people would never even show up.
 
 **Kevin Ball:** Alright. I think that's probably a good time to wrap. Any closing thoughts either of you wanna leave us with?
 
