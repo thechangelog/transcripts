@@ -58,7 +58,7 @@
 
 **Adam Stacoviak:** I think conversation, really. We've -- it always has been interview, but I feel like it's never like "Let's ask a question", and it's never really been a volley kind of interview scenario for us. It's bit more of varied conversationally. And then in a lot of cases we'll meander through certain topics and whatnot. So I think --
 
-**Jerod Santo:** We didn't tell you this during the pre-show, but we often tell our guests we don't have a set of index cards with questions written on them. Like, we don't prepare an interview like you might if you're working for 60 minutes, or \[unintelligible 00:07:44.09\] or whatever they do in the professional interview world. Who's that guy for the Actor's Studio, where they ask the same questions at the end? Like, "If you showed up in heaven, what would you say to God?" What's that guy's name? James...
+**Jerod Santo:** We didn't tell you this during the pre-show, but we often tell our guests we don't have a set of index cards with questions written on them. Like, we don't prepare an interview like you might if you're working for 60 minutes, or 20-20 or whatever they do in the professional interview world. Who's that guy for the Actor's Studio, where they ask the same questions at the end? Like, "If you showed up in heaven, what would you say to God?" What's that guy's name? James...
 
 **Chris Coyier:** I know what you're talking about, but it's not in there anywhere...
 
@@ -162,7 +162,7 @@ So what I think about it is because are you missing out then on some like level 
 
 **Adam Stacoviak:** Yeah, I do, too. I've got many a playlists, many a subscriptions, many of hobbies are in. If you wanted to know who I am, you'd probably watch my YouTube history, more than any other search.
 
-**Chris Coyier:** Yeah, there you go. Because it shows my \[unintelligible 00:18:20.06\] don't you go on little benders? Like, I'll get excited about some channel or something and watch like a lot of it, and then I'm off it. I'm like "Oh, that was a weird phase."
+**Chris Coyier:** Yeah, there you go. Because it shows my -- don't you go on little benders? Like, I'll get excited about some channel or something and watch like a lot of it, and then I'm off it. I'm like "Oh, that was a weird phase."
 
 **Adam Stacoviak:** Yeah. I'm like "Get out of my feed." Because then the algorithm will get you...
 
@@ -232,7 +232,7 @@ Anyway, we got off the rails there, but yeah, CSS-Tricks had screencasts... I'm 
 
 **Chris Coyier:** Yeah, he was for a while... I don't know if he was or still is. He could be. I don't know what Kevin's doing, I haven't talked to him in a long time.
 
-**Adam Stacoviak:** I don't know what \[unintelligible 00:23:07.16\] necessarily, but he's in there. He's in the mix. I see him on their YouTube channel, I see him advising startups and entrepreneurs and founders etc. I still pay attention to Kevin.
+**Adam Stacoviak:** I don't know what partner designates necessarily, but he's in there. He's in the mix. I see him on their YouTube channel, I see him advising startups and entrepreneurs and founders etc. I still pay attention to Kevin.
 
 **Chris Coyier:** Yeah, he was always good at that stuff.
 
@@ -348,7 +348,7 @@ But yeah, the bottom line though is CodePen. That's a bigger company, that I'm a
 
 **Chris Coyier:** Yeah, I wrote for it, I approved everything, I ran all the advertising... I mean, I did a lot. In the end, the thing that got outsourced the most to Jeff was just like "What's gonna run and when?" and make sure the posts are all polished on the way out. That was just a ton of work. But that I was able to outsource, thank God; otherwise it really would have been too much.
 
-But then in the end it just felt like too much, because -- even stuff like advertising. Y'all know \[unintelligible 00:36:31.26\] All these back-and-forth emails, and approvals, and...
+But then in the end it just felt like too much, because -- even stuff like advertising. Y'all know what work for these advertisers. All these back-and-forth emails, and approvals, and...
 
 **Adam Stacoviak:** A lot of details.
 
@@ -438,7 +438,7 @@ But yeah, that was kind of my favorite stuff to write too, because like y'all, I
 
 **Jerod Santo:** Right.
 
-**Chris Coyier:** And possibly \[unintelligible 00:46:01.01\]
+**Chris Coyier:** And possibly lighten up on the opinion. Whereas I didn't want to! I didn't want to lighten up.
 
 **Jerod Santo:** \[46:08\] No, you're just writing, you know...
 
@@ -636,7 +636,7 @@ Unfortunately, this is so niche... I mean, it's called @css. So the person who's
 
 **Jerod Santo:** Well, when you're learning anything new, it's gonna be slower.
 
-**Chris Coyier:** Yeah. Then it smoothes out, you know... And there's something about the language, how it's typed... The chances of you shipping something that's broken in a really small, nuanced way is not -- it either works or it doesn't, for the most part. I'm sure there's little bugs you could write, but it feels less -- it feels more sturdy, in a way. There's less magic that can go wrong. There's a lot of typing. My PR today is like \[unintelligible 01:02:43.03\] What?! It's just a very type-y language, I feel like... Anyway... That was a side-quest, huh?
+**Chris Coyier:** Yeah. Then it smoothes out, you know... And there's something about the language, how it's typed... The chances of you shipping something that's broken in a really small, nuanced way is not -- it either works or it doesn't, for the most part. I'm sure there's little bugs you could write, but it feels less -- it feels more sturdy, in a way. There's less magic that can go wrong. There's a lot of typing. My PR today is like what is that? 1500 lines? What?! It's just a very type-y language, I feel like... Anyway... That was a side-quest, huh?
 
 **Jerod Santo:** Well, I'm happy to have a new Go Time listener. Maybe at some phase you will face that imposter syndrome, come on Go Time and talk about that CodePen transition. It might be a cool show.
 
@@ -702,11 +702,11 @@ So there's some people that in some cases use CodePen for their production websi
 
 **Chris Coyier:** And then we kind of felt like "Well, because we have a little more time and runway here, why don't we build one that is ready for the thing that we don't even know about yet?"
 
-**Jerod Santo:** The classic mistake, man... The classic mistake. The super-generic one, that can handle any circumstance that ever \[unintelligible 01:14:11.17\]
+**Jerod Santo:** The classic mistake, man... The classic mistake. The super-generic one, that can handle any circumstance that ever comes.
 
 **Chris Coyier:** Yeah... And maybe we're idiots. Maybe we'll look back on this podcast and be like "Remember that thing you never shipped?"
 
-**Jerod Santo:** If you pull it off, it's great. But then you're like, "Maybe we should have just done the one that does Eleventy and \[unintelligible 01:14:23.00\] That's the hardest decision in software.
+**Jerod Santo:** If you pull it off, it's great. But then you're like, "Maybe we should have just done the one that does Eleventy and then done this one. That's the hardest decision in software.
 
 **Chris Coyier:** Maybe. I can't promise, but I think we're on the right track, and it's just been a really long haul, and the people that are working on it have been really dedicated to it, and loyal, and I appreciate that, and they seem to think it's a good idea too, and...
 
@@ -746,13 +746,13 @@ So there's some people that in some cases use CodePen for their production websi
 
 **Chris Coyier:** That's cool.
 
-**Adam Stacoviak:** It's very much like "What do developers really care about -- about Sourcegraph, for example. I see -- there's one of them; it's a \[unintelligible 01:17:34.18\] as well.
+**Adam Stacoviak:** It's very much like "What do developers really care about -- about Sourcegraph, for example. I see -- there's one of them; it's a sponsor of ours as well.
 
 **Jerod Santo:** Right.
 
 **Adam Stacoviak:** How do they cross over? How can we really help them? Like you said before, connect with our audience.
 
-**Chris Coyier:** That's better than what we do, frankly. I think that's cool, and I wish we did more of that... And I hate to say this, because I love all those companies, too... Because they \[unintelligible 01:17:49.25\] through me. I approve these companies, so I like what they're doing. But I'm not giving them a lot back, other than just clicks, and stuff... And very honestly, if we did markedly better on Pro plans, I would very much want to - and this is not my decision alone, so I would have to... You know, this would be a company decision that we would talk about... I'd just get rid of them, you know?
+**Chris Coyier:** That's better than what we do, frankly. I think that's cool, and I wish we did more of that... And I hate to say this, because I love all those companies, too... Because they hand-come through me. I approve these companies, so I like what they're doing. But I'm not giving them a lot back, other than just clicks, and stuff... And very honestly, if we did markedly better on Pro plans, I would very much want to - and this is not my decision alone, so I would have to... You know, this would be a company decision that we would talk about... I'd just get rid of them, you know?
 
 **Jerod Santo:** Yeah.
 
@@ -808,7 +808,7 @@ And then there's this thing called style queries, which very few people are talk
 
 **Chris Coyier:** So it's a way to express something in CSS about what's happening style-wise in my container. And I think that might really change how CSS is approached, because in a way, it's almost antithetical to how you should write CSS; because you should just be very emphatic about what you're setting, and not leave it up to render chance. But now that that's happening, I wonder if that will end up being rethought...
 
-And then there's scoping that's dropping, and cascade layers, which are ways to affect the strength of CSS that you're applying, in a way that they're kind of an answer plus to what happened with CSS-in-JS for so long. That's gonna change everything. Just the nature of CSS is getting wild. All of a sudden it has just \[unintelligible 01:22:56.28\] and you'd be like "Oh, does this div contain elements that \[unintelligible 01:23:03.22\]
+And then there's scoping that's dropping, and cascade layers, which are ways to affect the strength of CSS that you're applying, in a way that they're kind of an answer plus to what happened with CSS-in-JS for so long. That's gonna change everything. Just the nature of CSS is getting wild. All of a sudden it has just dropped. Has is like a parent query like you can say `div has p` and you'd be like "Oh, does this div contain elements that have p's in them?"
 
 **Jerod Santo:** Right...
 
@@ -848,7 +848,7 @@ I don't know how long it lasted, but I was so pleased to have been able to reall
 
 **Jerod Santo:** \[01:28:05.29\] To do more later.
 
-**Chris Coyier:** ...to do stuff, yeah. So it's almost begging for it now. This current design has been iterated on enough times that it would be tempting to do a teardown design again. That's one of the \[unintelligible 01:28:16.10\] not like there's no ads on CSS-Tricks now, but that helped me make the decision to sell it, because I pined for the day that I could design CSS-Tricks without ads on it. Despite being an ad lover, I always thought "Wouldn't that be fun to design a site with this much content on it and devote almost none of the screen real estate to ads?" Just as an experiment.
+**Chris Coyier:** ...to do stuff, yeah. So it's almost begging for it now. This current design has been iterated on enough times that it would be tempting to do a teardown design again. That's one of the -- it's not like there's no ads on CSS-Tricks now, but that helped me make the decision to sell it, because I pined for the day that I could design CSS-Tricks without ads on it. Despite being an ad lover, I always thought "Wouldn't that be fun to design a site with this much content on it and devote almost none of the screen real estate to ads?" Just as an experiment.
 
 **Adam Stacoviak:** Yeah. Maybe a tangent to Jerod's question is what is your process? When you say "tear down" - for each new iteration, do you start with site.css and it's completely blank? How do you--
 
@@ -904,7 +904,7 @@ There's certain things that the skeleton of the site just are -- they're choices
 
 **Adam Stacoviak:** Yeah, for sure.
 
-**Chris Coyier:** I mean, not drag this out, because I've really gotta go, but when it's freakin' half the internet or whatever it is, why wouldn't you say "WordPress works great on DigitalOcean"? Or whatever hosting company is trying to \[unintelligible 01:32:57.29\] And many of them do.
+**Chris Coyier:** I mean, not drag this out, because I've really gotta go, but when it's freakin' half the internet or whatever it is, why wouldn't you say "WordPress works great on DigitalOcean"? Or whatever hosting company is trying to -- and many of them do.
 
 **Adam Stacoviak:** Well, Chris, thank you for the journey, man. Thank you for sharing episode 500 with us, and congratulations to you on selling your baby, man.
 
