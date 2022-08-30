@@ -40,7 +40,7 @@ So yeah, it's I think it's pretty cool, and it's an approachable way to get into
 
 **Chris Benson:** As we're looking at things like Truss and recognizing that most of our community here is mainly Python-oriented for the development stuff, do you think that anytime soon we will start expanding some of the development and then deployment and packaging tools into other languages? Do you think that's likely? Or do you think we have a way to go before we get to something where we're starting to look at kind of a multi-language community, rather than the Jupyter focus we've had for so many years?
 
-**Daniel Whitenack:** Yeah, it's an interesting question... I think there's certain sets of tooling... I know that there's tooling now in Go where you can import like Hugging Face transformers models and such... And so there's more interoperability. There's certainly a lot of ways to run models in various other systems, or languages, like JavaScript, or Go, or Rust, or other things... But that kind of like \[unintelligible 00:10:26.06\] workflow...
+**Daniel Whitenack:** Yeah, it's an interesting question... I think there's certain sets of tooling... I know that there's tooling now in Go where you can import like Hugging Face transformers models and such... And so there's more interoperability. There's certainly a lot of ways to run models in various other systems, or languages, like JavaScript, or Go, or Rust, or other things... But that kind of like model-velopement workflow...
 
 **Chris Benson:** I think so.
 
