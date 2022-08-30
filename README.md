@@ -362,6 +362,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     <td align="center"><a href="https://github.com/jeffutter"><img src="https://avatars.githubusercontent.com/u/570037?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Jeffery Utter</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=jeffutter" title="Documentation">📖</a></td>
     <td align="center"><a href="https://steve.dignam.xyz"><img src="https://avatars.githubusercontent.com/u/7340772?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Steve Dignam</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=sbdchd" title="Documentation">📖</a></td>
     <td align="center"><a href="https://github.com/groves"><img src="https://avatars.githubusercontent.com/u/12270?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Charlie Groves</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=groves" title="Documentation">📖</a></td>
+    <td align="center"><a href="https://www.linkedin.com/in/shelarsaurabh/"><img src="https://avatars.githubusercontent.com/u/51042360?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Saurabh Shelar</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=iShelar" title="Documentation">📖</a></td>
   </tr>
 </table>
 
