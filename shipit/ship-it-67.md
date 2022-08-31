@@ -80,7 +80,7 @@ path?
 
 So eBPF - it's less about solving every single problem in eBPF. That's not the goal at all of the eBPF ecosystem in general. It's about we want to use the pieces that we have, that we want, that are well-proven and working, cut out the pieces that maybe are no longer efficient or no longer needed, and find the best possible, shortest path for users to gain value out of that. And if we look at this from this perspective, it actually becomes often less important whether every single problem can be solved in eBPF itself.
 
-**Break:** \[00:29:47.16\]
+**Break:** \[29:47\]
 
 **Gerhard Lazu:** So I would like to talk about the demo next that shows how all these things come together. I'm thinking Lizzie's demo from KubeCon, but if you know a better one or a newer one, we can talk about that as well. Which way are we going?
 
@@ -168,7 +168,7 @@ So this is probably going to be the next level of observability that will be cre
 
 Again, thanks to eBPF, all of this runs in the kernel, very close to where the actual action is going on, compared to prior solutions, which primarily used a very small kernel level probe or sensor that just exposes visibility to user space, and then does the intelligence in user space. So it's moving more logic into the kernel, where it is more efficient, less costly, and when it is less costly, it means that our users are able to actually enforce better, more finer-grained visibility or enforcement rules, because it costs them less. That, in a nutshell, is Tetragon.
 
-**Break:** \[00:48:08.20\]
+**Break:** \[48:08\]
 
 **Gerhard Lazu:** Hearing you talk about this, Thomas, I remember that there is a book that two off I think the Isovalent folks co-authored, I think... Did you remember the title?
 
