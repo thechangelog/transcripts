@@ -18,7 +18,7 @@ I feel like you've always really been bold, and I feel like you've always tried 
 
 **Amal Hussein:** But it's true.
 
-**Fred K. Schott:** Yeah, the last episode I was on actually Jerod was just telling me it was me pitching ES Modules, which now three years later, it's "Oh, yeah, that's \[unintelligible 00:05:09.00\] Vite is like the thing people are using now. That's all happened, so...
+**Fred K. Schott:** Yeah, the last episode I was on actually Jerod was just telling me it was me pitching ES Modules, which now three years later, it's "Oh, yeah, that's -- Vite is like the thing people are using now. That's all happened, so...
 
 **Amal Hussein:** Right. Yeah.
 
@@ -74,7 +74,7 @@ So I think -- yeah, I mean, I've said this before on the show, I'll say it again
 
 But it's that idea of "The DX was so good, but then we just took that path and ten years later we've found ourselves where we keep adding complexity and adding more code to solve a problem that is inherently too much code."
 
-That's our take on it, that it's not that React's \[unintelligible 00:13:29.10\] it's that we've way over-indexed on how much is powered by React or Vue or Svelte. At the end of the day, the more code you're asking the user to run, you're just fighting physics at that point; that's code that has to run on your user's device, and that's going to slow it down.
+That's our take on it, that it's not that React's wrong it's that we've way over-indexed on how much is powered by React or Vue or Svelte. At the end of the day, the more code you're asking the user to run, you're just fighting physics at that point; that's code that has to run on your user's device, and that's going to slow it down.
 
 **Amal Hussein:** Yeah, that makes a ton of sense. And again, it just goes back to like the intentionality of what we're doing and how often we're all working under such constraints and such cow paths that also the community has paved... There's best practices, there's tools like CRA (Create React App) that make things so easy, and just one button... Right? If we're not careful about the complexities that we're abstracting... If we're abstracting away things like that are, okay, generally best practices and good decisions - great. But the risk of mass adoption and abstracting away some of those things - you're making bad decisions that you didn't even make... The tool made it for you, right?
 
@@ -90,7 +90,7 @@ So it's like we've hidden complexity for so long... What I love about this kind 
 
 **Amal Hussein:** Right.
 
-**Fred K. Schott:** We really like this term, all-in-one, and I think it's a larger trend. I think Deno kind of falls into this... \[unintelligible 00:16:40.03\] if you've seen that... I think people are starting to feel more comfortable presenting something as a full, complete platform, and not a collection of 2,000 different packages, all hopefully working together.
+**Fred K. Schott:** We really like this term, all-in-one, and I think it's a larger trend. I think Deno kind of falls into this... Bun if you've seen that... I think people are starting to feel more comfortable presenting something as a full, complete platform, and not a collection of 2,000 different packages, all hopefully working together.
 
 **Amal Hussein:** Because it's hard to maintain.
 
@@ -116,7 +116,7 @@ So the way that we see it is that we are very server-first. The templating langu
 
 **Fred K. Schott:** That's the problem that Astro like exists to solve for, which - the uncanny valley is a result of the fact that, okay, we're going to server-side render your JavaScript application in one of these other frameworks, and then we're going to send the whole page down as a full application. And nothing's going to be interactive until all of it is. That's really a uniquely SPA kind of problem. That's really a uniquely kind of that model problem, that we just don't have.
 
-You still do need to make sure that your components can handle what happens \[unintelligible 00:21:57.09\] but the nice thing about when we can kind of hydrate in different components - we're doing that in isolation, in parallel. So where large JavaScript applications suffer from the problem of everything has to load before anything can be interactive, there's this really nice model where we can actually treat every component on the page differently. So for example, if it's not visible, we're not going to run it. Until the user scrolls down to it, that's when we'll hydrate it. That's a really cool, uniquely Astro feature, because we're treating that component isolated from everything else on the page.
+You still do need to make sure that your components can handle what happens if they, can they fall back on nice behaviors? But the nice thing about when we can kind of hydrate in different components - we're doing that in isolation, in parallel. So where large JavaScript applications suffer from the problem of everything has to load before anything can be interactive, there's this really nice model where we can actually treat every component on the page differently. So for example, if it's not visible, we're not going to run it. Until the user scrolls down to it, that's when we'll hydrate it. That's a really cool, uniquely Astro feature, because we're treating that component isolated from everything else on the page.
 
 And the other being like if something's really high-priority, you can bump up how quickly it loads, and you can also load that without worrying that something really big and heavy is going to block it. So your big, heavy image carousel lower on the page - that's not going to block the Buy button that's somewhere in the middle of the page from becoming interactive and loading. So it's much more decoupled, and by result, things that are like really essential can load much faster, because we let you control what loads when and how high priority it is.
 
@@ -136,7 +136,7 @@ And the other being like if something's really high-priority, you can bump up ho
 
 **Fred K. Schott:** I will call out that what you're reading is kind of like our aspirations. Like, we want Astro to be easy to use, and we make design decisions for that goal, over maybe something else, like a really complex feature that's really hard to use. We'll avoid that, even if maybe there's some reason to do it, other than -- it's something that we really value, is we want to always be easy to use when we design Astro as a language, as a framework, as a platform, all these things.
 
-So I agree, \[unintelligible 00:26:11.12\] "Why use this?" "Oh, it's easy to use" - everyone says that, but it's our aspiration; we really value that over other things that other frameworks might value over ease of use.
+So I agree, like "Why use this?" "Oh, it's easy to use" - everyone says that, but it's our aspiration; we really value that over other things that other frameworks might value over ease of use.
 
 **Amal Hussein:** Okay, that makes sense. And so can you give me an example of like an easy to use API in the library? Like, something that's uniquely easy to use in Astro than some other framework that whoever might be using.
 
@@ -258,7 +258,7 @@ Netflix has a world-class engineering team, they throw lots and lots of resource
 
 **Fred K. Schott:** Maybe you should use React, but I don't know...
 
-**Amal Hussein:** Oh no, \[unintelligible 00:47:19.20\] it's okay, these hot takes... I feel like I should be drinking, or something, but yeah, okay...
+**Amal Hussein:** Oh no, those are fighting words, we're at the end of the podcast it's okay, these hot takes... I feel like I should be drinking, or something, but yeah, okay...
 
 **Fred K. Schott:** \[laughs\]
 
@@ -300,7 +300,7 @@ So we can't end this show without talking about the MPA versus SPA debate. So ca
 
 **Fred K. Schott:** Yeah, exactly.
 
-**Amal Hussein:** It's like, what is this thing again? What are we coining? When did we \[unintelligible 00:50:12.10\] major version again? I missed this. Okay, so...
+**Amal Hussein:** It's like, what is this thing again? What are we coining? When did we rev the web a major version again? I missed this. Okay, so...
 
 **Fred K. Schott:** So you can think of MPA as just - it's not a JavaScript app that you're shipping to the client to run your website.
 
