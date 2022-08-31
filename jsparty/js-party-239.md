@@ -136,7 +136,7 @@ And then one of the last interviews was like - they had this app that they used,
 
 **Nick Nisi:** Why would you need to know that?
 
-**Amelia Wattenberger:** \[unintelligible 00:24:12.21\]
+**Amelia Wattenberger:** It's not--
 
 **Amal Hussein:** Oh yeah, and "What was the name of the president of ECMA at the time that that property was introduced - what was the name of his brother's cousin, who went to that wedding...?"
 
@@ -190,7 +190,7 @@ And then one of the last interviews was like - they had this app that they used,
 
 **Nick Nisi:** How'd you know?!
 
-**Amal Hussein:** \[unintelligible 00:28:46.19\] It's like so cool! He's like the best office mate ever..." No? Okay.
+**Amal Hussein:** When you listen to the greatful debt all day it's like so cool! He's like the best office mate ever... No? Okay.
 
 **Nick Nisi:** I've been in the industry about 13 years, I think... Yeah, 13 years. And the longest time I worked at a single place was seven years. I kind of left for three months in between, and then just came back within three months, so... I think I'd just count that as one, working there for seven straight years.
 
@@ -264,7 +264,7 @@ So had I done a little bit more research and also just looked at like "Okay, wha
 
 But anyways, this is my personal experience. People literally could have had a complete opposite experience, or opinions. This is my personal one. I have the right to have it. So yeah...
 
-**Amelia Wattenberger:** \[40:33\] That's interesting too, because I feel like of the different interviews I've had, a lot of them give me that feeling of like "What am I doing here? Do I really know anything? I didn't know that question, I feel like an idiot." And then some of them made me feel very qualified for the role. I would sit down and talk \[unintelligible 00:40:50.14\] just have a conversation, and it would be fun, and they'd actually listen to me about things I've done in the past, and it was almost like a therapy session sometimes, where you come out feeling really good.
+**Amelia Wattenberger:** \[40:33\] That's interesting too, because I feel like of the different interviews I've had, a lot of them give me that feeling of like "What am I doing here? Do I really know anything? I didn't know that question, I feel like an idiot." And then some of them made me feel very qualified for the role. I would sit down and talk to my interviewers and just have a conversation, and it would be fun, and they'd actually listen to me about things I've done in the past, and it was almost like a therapy session sometimes, where you come out feeling really good.
 
 **Amal Hussein:** That's a really good point. Well, we're gonna talk about that next. We're gonna talk about what it's gonna take to be creating a better experience where you're on the other side of that. So we'll get into that in our next segment. Lots to discuss... And yeah, I had only two rants so far. This is great. I'm doing great, y'all. This is great.
 
@@ -282,7 +282,7 @@ But anyways, this is my personal experience. People literally could have had a c
 
 **Nick Nisi:** The interviewer.
 
-**Amal Hussein:** Yes, thank you. \[unintelligible 00:46:30.03\]
+**Amal Hussein:** Yes, thank you.
 
 **Nick Nisi:** There was a lot of things that they did right, I think... And it kind of started with just getting buy-in and accepting feedback from current employees who wanted to be involved in the interview process, and wanted to help shape the company. No one's opinion was invalid, or less than any others. They were all taken into consideration to kind of help that, and it was constantly evolving too, as we were kind of getting better about it.
 
