@@ -50,7 +50,7 @@ I like to think about Nix, for example. You know Nix OS, Nix?
 
 **Tammer Saleh:** Yes, on a Mac.
 
-**Gerhard Lazu:** Exactly. Now, that was good... I mean, there was like some weird issues around -- for example, I always have to reinstall it for some reason, whenever I reboot. So just basically don't reboot your Mac \[unintelligible 00:08:44.21\]
+**Gerhard Lazu:** Exactly. Now, that was good... I mean, there was like some weird issues around -- for example, I always have to reinstall it for some reason, whenever I reboot. So just basically don't reboot your Mac maybe I'm doing something wrong?
 
 **Tammer Saleh:** Small issues. I mean, it's fine.
 
@@ -174,7 +174,7 @@ I mean, I think a lot of these teams are starting to realize that building an in
 
 **Tammer Saleh:** I love James' blog posts, because James goes so deep; it's crazy, it's beautiful how deep he goes, when he's debugging these things on client engagements, but also when he writes about them on our blog. It's like, if you see that the blog post was written by James, then you've got to set it aside, grab half an hour to really dig into what he's doing, because it's fun stuff.
 
-**Tammer Saleh:** Yeah. The thing which I like about it, that has just enough information - it's making steady progress. As I was reading it, I just wanted to read more and more, and it didn't keep me waiting. So there was always something -- I loved how it was unfolding. There's links to GitHub pull requests, because dang it, I want to see the code... Right? Otherwise, it's just like words; it doesn't matter how amazing they are, I just want to see the code. And it's a really good one. Like Cillium, eBPF... It's all there. Observability, diagrams... Even for architects, you will like that. I think you will. Now, I have a question to you, Tammer. How can \[unintelligible 00:28:14.29\]
+**Gerhard Lazu:** Yeah. The thing which I like about it, that has just enough information - it's making steady progress. As I was reading it, I just wanted to read more and more, and it didn't keep me waiting. So there was always something -- I loved how it was unfolding. There's links to GitHub pull requests, because dang it, I want to see the code... Right? Otherwise, it's just like words; it doesn't matter how amazing they are, I just want to see the code. And it's a really good one. Like Cillium, eBPF... It's all there. Observability, diagrams... Even for architects, you will like that. I think you will. Now, I have a question to you, Tammer. How can \[unintelligible 00:28:14.29\] fix this because...
 
 **Tammer Saleh:** \[28:18\] Wait, I hold on, hold on... Are you going to ask me a deep question about Cillium? I'm not your man, alright? \[laughs\]
 
@@ -220,7 +220,7 @@ I mean, I think a lot of these teams are starting to realize that building an in
 
 **Break:** \[30:44\]
 
-**Gerhard Lazu:** Now have you used -- because we talked about Sigstore; a really cool thing, supply chain. Have you used any of the CLIs like \[unintelligible 00:32:38.29\]
+**Gerhard Lazu:** Now have you used -- because we talked about Sigstore; a really cool thing, supply chain. Have you used any of the CLIs like Bom, Recore
 
 **Tammer Saleh:** James and a couple of our other engineers are really deep into Sigstore. James has actually been participating in the community meetings, and things like that. I'll be frank - myself, I get very little chance nowadays to play with anything. Like, if I can find an hour on the weekends to hack, I'm tweaking my Vim config or whatnot.
 
@@ -242,7 +242,7 @@ I mean, I think a lot of these teams are starting to realize that building an in
 
 **Gerhard Lazu:** Exactly. That is the second meeting. When I've seen you lead the meeting, I thought "This guy's crazy in all the right ways..."
 
-**Tammer Saleh:** \[33:59\] I need to get out of here... I actually taught my six-year-old daughter the two thumbs thing. She saw the movie and she's like "What is that?" I'm like, "Well, do \[unintelligible 00:34:05.12\] two thumbs, right? And then you point to yourself, and you say something..." Yeah.
+**Tammer Saleh:** \[33:59\] I need to get out of here... I actually taught my six-year-old daughter the two thumbs thing. She saw the movie and she's like "What is that?" I'm like, "Well, do have two thumbs, right? And then you point to yourself, and you say something..." Yeah.
 
 **Gerhard Lazu:** Ah, that was a good one. That was a good one. Do you still do that? \[laughter\]
 
