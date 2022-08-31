@@ -46,7 +46,7 @@ So we're gonna start with the very basics - what is a PR, and why do we even do 
 
 **Natalie Pistunovich:** So I was super-cheeky and I did google it just now... And it says that the name "pull request" comes from the idea that you're requesting the project to pull changes from your fork. That might not encompass all ways that we now use it in our language, but that's what Google's telling me on the top line...
 
-**Angelica Hill:** Yeah, it is interesting, right? You have this project -- I think most of us use Git in some way; GitHub, GitLab, or... I don't know too many other personal variations, but I'm sure that exists as well. So we all kind of eventually are used to the concept of having a main branch, and then branching your changes from that, and then asking to merge that back, whether frequent, or not frequent... And yeah, we all say PR. I've been always saying PR, but then recently I had to work with this ticketing system that is called "Click up." And there they said that the label was code as in CR. And that was kind of interesting. Probably the first time I remember, let's say, encountering \[unintelligible 00:12:00.17\] so I wanted to dive a little into the semantics of that. Then there's also merge request, which kind of makes sense, but actually also not really in use.
+**Angelica Hill:** Yeah, it is interesting, right? You have this project -- I think most of us use Git in some way; GitHub, GitLab, or... I don't know too many other personal variations, but I'm sure that exists as well. So we all kind of eventually are used to the concept of having a main branch, and then branching your changes from that, and then asking to merge that back, whether frequent, or not frequent... And yeah, we all say PR. I've been always saying PR, but then recently I had to work with this ticketing system that is called "Click up." And there they said that the label was code as in CR. And that was kind of interesting. Probably the first time I remember, let's say, encountering this style. So I wanted to dive a little into the semantics of that. Then there's also merge request, which kind of makes sense, but actually also not really in use.
 
 **Natasha Dykes:** \[12:12\] I've also heard it called a changelog, or CL... So there's a lot of different terms for it.
 
@@ -98,7 +98,7 @@ Awesome! So we talked a little bit about -- well, actually you alluded to this, 
 
 **Angelica Hill:** So when you say too long or too short, what do we measure? Number of lines? Number of commits? Number of files? It can be -- depending on many things, the answers can vary in the same PR. It can be one PR where you removed one file, but that's like many lines... Is that long, is that short? This is my thought now. But whoever listens doesn't know that Angelica can see me thinking out loud like that, so... I'm guessing there's a question coming up, so you have to trust her psychic abilities as a product manager to kind of look at the engineers in front of her and like "You want to say something. Speak." That's the secret superpower of product managers.
 
-**Natalie Pistunovich:** Yeah, I can see it. Also, I'm learning, now, actually just as a Go Time host, every time I ask a question I should pause and defer to Natalie, and be like "Do you have a follow-up question?" \[laughs\] That is a great question, I'm very glad that you answered-- asked it... That definitely \[unintelligible 00:18:21.25\] asked it... I'm already babbling. Do you have a view on that?
+**Natalie Pistunovich:** Yeah, I can see it. Also, I'm learning, now, actually just as a Go Time host, every time I ask a question I should pause and defer to Natalie, and be like "Do you have a follow-up question?" \[laughs\] That is a great question, I'm very glad that you answered-- asked it... That definitely said asked it... I'm already babbling. Do you have a view on that?
 
 **Angelica Hill:** Yes...
 
@@ -152,7 +152,7 @@ So I think it's a hard thing to measure, because even just that "Oh, one subject
 
 **Angelica Hill:** A Strudel... This is Austrian.
 
-**Natalie Pistunovich:** Natalie will be the final -- like, once the beautiful cake has been constructed, she is the ultimate \[unintelligible 00:23:51.03\]
+**Natalie Pistunovich:** Natalie will be the final -- like, once the beautiful cake has been constructed, she is the ultimate SMA
 
 **Angelica Hill:** Wait, did you use sugar or salt?
 
@@ -178,7 +178,7 @@ For example, instead of saying "Oh, you should use this other function. It alrea
 
 **Sarah Duncan:** It's really great.
 
-**Natalie Pistunovich:** I'll make sure I put it in the episode notes. And it is a great article... So when you're thinking about reviewing, are you predominantly reviewing for the functionality, and like "Does this thing work?" or are you also commenting \[unintelligible 00:29:48.13\] rules around commenting on style? Like, how the code is being written, the stylistic choices that have been made.
+**Natalie Pistunovich:** I'll make sure I put it in the episode notes. And it is a great article... So when you're thinking about reviewing, are you predominantly reviewing for the functionality, and like "Does this thing work?" or are you also commenting what are the I guess rules around commenting on style? Like, how the code is being written, the stylistic choices that have been made.
 
 **Natasha Dykes:** I think a bit of both...
 
@@ -190,7 +190,7 @@ That's where I think having a set of norms on your team that you regularly revis
 
 But on the other side of the coin, I'm kind of -- sometimes if I see a spelling mistake, I will point that out in the PR, just because it's... Like, if it's already committed and I see it, I wish someone had called it out in the PR. In my PR I will fix it...
 
-So it's just like those little tiny things that kind of add to your personality as a reviewer. You might \[unintelligible 00:32:34.20\] that calls out your grammar mistakes, which I feel like I used to be, and I'm not as much these days... But when I see it, I will sometimes call it out.
+So it's just like those little tiny things that kind of add to your personality as a reviewer. You might be known as that person that calls out your grammar mistakes, which I feel like I used to be, and I'm not as much these days... But when I see it, I will sometimes call it out.
 
 **Natasha Dykes:** I think I've gotten that feedback on my review from you, so... \[laughter\] So I can attest.
 
@@ -240,7 +240,7 @@ I think it's easier when you're working with somebody you know. If English isn't
 
 And I think in the beginning I used to have some kind of misunderstandings exactly, because what was said, understanding empathy, understanding they did not mean that, they meant this... Coming across myself sometimes as a bit more "Why don't you say that in a nicer way?" and so on.
 
-So definitely, there's all sorts of balance there to strike, and it's very interesting to hear how people cope with that, and it's obviously written \[unintelligible 00:42:08.19\] written communication in comparison to spoken communication. And even in spoken you can easily get lost, and so on, and intonations mean different things...
+So definitely, there's all sorts of balance there to strike, and it's very interesting to hear how people cope with that, and it's obviously written is even less easy to understand, like written communication in comparison to spoken communication. And even in spoken you can easily get lost, and so on, and intonations mean different things...
 
 The thing about the culture is let's say that sometimes it's kind of impolite either to correct, or even to just say no to someone. So I had to learn and actively practice that when I propose some idea, I have to start with something like "Feel free to reject that", or "There might be better alternatives, but..." And sometimes still, depending on the context, it sounds sort of foreign, but I think it's fine that it sounds foreign, because it's kind of like a standard across all the different cultures you'll get to work with, that this is "Be nicer" over being not nice enough.
 
@@ -272,7 +272,7 @@ So I think it helps to categorize the intention, to your point, Angelica, around
 
 So I just think it's helpful, even if you are formally blocking the pull request, to communicate what things you expect to be changed before you think that it could be merged.
 
-**Jeff Hernandez:** Gotcha. I don't know if I was just projecting my own fears saying that... \[laughter\] Like the email where it says "Changes have been requested", and "Oh no, what did I do wrong?" \[unintelligible 00:48:40.04\]
+**Jeff Hernandez:** Gotcha. I don't know if I was just projecting my own fears saying that... \[laughter\] Like the email where it says "Changes have been requested", and "Oh no, what did I do wrong?" I need to do it.
 
 **Sarah Duncan:** Don't worry, we all do stuff wrong in our pull requests all the time. It is part of being an engineer. \[laughs\]
 
@@ -300,7 +300,7 @@ But also, you kind of have to balance that with the time. You still have to get 
 
 **Jeff Hernandez:** So it'll be the unpopular opinion in this group, but... I have three dogs, and...
 
-**Natasha Dykes:** Okay... \[unintelligible 00:56:37.27\]
+**Natasha Dykes:** Okay... Those are fighting words.
 
 **Sarah Duncan:** \[unintelligible 00:56:38.03\]
 
@@ -336,7 +336,7 @@ But also, you kind of have to balance that with the time. You still have to get 
 
 **Natasha Dykes:** My unpopular opinion I think might be accepted in a computer science, like this kind of circle, but who knows...? I feel like the world doesn't need another superhero movie. There's too many of them already. I'm done with it. There's so many other stories we could tell... So yeah, \[unintelligible 00:59:39.06\] At least take a break for a couple of years.
 
-**Natalie Pistunovich:** There are so many more bugs that need to be superheroes. We've gotta have Beetleman, Ladybird Lady, Catterpillar \[unintelligible 00:59:53.20\] There's so many opportunities.
+**Natalie Pistunovich:** There are so many more bugs that need to be superheroes. We've gotta have Beetleman, Ladybird Lady, Catterpillar Kazam! There's so many opportunities.
 
 **Natasha Dykes:** They could do something with the gopher... Like Gopherman, or something...
 
