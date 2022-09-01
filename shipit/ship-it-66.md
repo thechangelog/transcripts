@@ -16,7 +16,7 @@ So that was something interesting for me, because I didn't know how that worked.
 
 **Rob Mee:** Right. Yeah. And I'm trying to think if I need help on anything either, and I don't have any help to ask for at the moment. How about you?
 
-**Gerhard Lazu:** Or if you're blocked on anything. If you're blocked on anything. Well, I would like to ask Andrea for some help. There's a PR which is blocked on him. And another one on Tongi. So Andrea and Tongi, if you're listening to this, obviously in the future, I'm sure there'll be a PR that's blocked on one of you... So can you help me unblock them, please? Because there's nothing else I can do.
+**Gerhard Lazu:** Or if you're blocked on anything. If you're blocked on anything. Well, I would like to ask Andrea for some help. There's a PR which is blocked on him. And another one on Tanguy. So Andrea and Tanguy, if you're listening to this, obviously in the future, I'm sure there'll be a PR that's blocked on one of you... So can you help me unblock them, please? Because there's nothing else I can do.
 
 Also, I'm going on holiday, so everyone, please continue looking after the PRs and issues while I'm away. because maintainer duty has been on my mind. So when I'm back, hopefully there won't be tens and tens of them which haven't been closed. But if we've done this maintainer duty correctly, then the load will have been spread. It won't be just me. So let's see. This is a test, how well does it work in practice.
 
