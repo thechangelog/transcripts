@@ -40,7 +40,7 @@
 
 **Angelica Hill:** I mean, I prefer Edinburgh to Glasgow - unpopular opinion...
 
-**Anderson Queiroz:** \[00:03:59.23\] Yeah, true...
+**Anderson Queiroz:** \[03:59\] Yeah, true...
 
 **Angelica Hill:** I mean, Edinburgh Castle is so incredible.
 
@@ -116,7 +116,7 @@ I did a lot of workshops, and teaching and mentoring, and it involved -- a lot o
 
 **Anderson Queiroz:** I think the more you are senior, you're gonna look for more things. So because you're gonna be able to evaluate -- if you're good in the language, you can evaluate the language and the conventions, you can evaluate the general software architecture. When you're in a role that as a senior you are also a mentor, there's a lot of meeting juniors in the team; I think you are reading a lot, because you have this responsibility of the team, of the product. But if you're in a company where everyone's senior-senior... In Berlin definitely the titles are inflated. So you know, perhaps everyone doesn't need this level of attention in mentoring or teaching; that happens a lot through PRs.
 
-**Natalie Pistunovich:** \[00:08:21.24\] That's an interesting question, yeah... Because sometimes in Go they have this graph of contributions that is no longer just the squares, but also what type to bring more - to you make more issues, do you review, and so on.
+**Natalie Pistunovich:** \[08:21\] That's an interesting question, yeah... Because sometimes in Go they have this graph of contributions that is no longer just the squares, but also what type to bring more - to you make more issues, do you review, and so on.
 
 **Anderson Queiroz:** Oh, yeah...!
 
@@ -146,7 +146,7 @@ Suggestion is exactly that - I believe it can be better. If I were writing this 
 
 I think nowadays at Elastic, because we are distributed, it's a lot more through Slack, rather than really a call... But sometimes - yeah, I've jumped on a call, for small things.
 
-**Natalie Pistunovich:** \[00:12:18.00\] And how do you decide when it's better to do this and when it's better to not? Do you have a thumb rule, or is it all just feeling?
+**Natalie Pistunovich:** \[12:18\] And how do you decide when it's better to do this and when it's better to not? Do you have a thumb rule, or is it all just feeling?
 
 **Anderson Queiroz:** If there is a lot of back-and-forth, it's easier to jump on a call. Or if it's something that I really want to understand... But most of the times I always \[unintelligible 00:12:32.13\] on the chat. Now, Elastic is a distributed company, so we write a lot more. So it's a lot more common just to write than jump on a call.
 
@@ -176,7 +176,7 @@ At the end of the day, you're looking for problems in issues to prevent things b
 
 **Anderson Queiroz:** It's a really slow process, because you write the code and then you submit the PR. And then someone else - sometimes more than one person - they have to stop and read it. And how do you synchronize that? And then I think it's gonna depend a lot how companies do... I've been working for different processes. Some processes, they ensure that the pull request will be reviewed, some not so often...
 
-\[00:16:04.26\] Now I'm definitely overwhelmed by GitHub notifications, so sometimes it just slips through, some PRs, and days later someone tags me, "Anderson, can you give a review?" Like, "Oh my God, sorry."
+\[16:04\] Now I'm definitely overwhelmed by GitHub notifications, so sometimes it just slips through, some PRs, and days later someone tags me, "Anderson, can you give a review?" Like, "Oh my God, sorry."
 
 **Natalie Pistunovich:** Because it's something that -- kind of a bit of a ping pong, or does it happen more with new pull request?
 
@@ -208,11 +208,11 @@ I think that's another thing... Pull requests are great, great to learn language
 
 **Angelica Hill:** I mean, taking kind of one step more granular, are there things that are more important for Go when you're reviewing, i.e. stylistic choices, almost principles that you might adhere to more closely than you would in other languages?
 
-**Anderson Queiroz:** I mean, Go is opinionated. You have to gofmt. You have to format the code properly. Even though we still have some space to discuss about how to format... But I think that's the first thing. I usually would like to be super-strict about how the imports are sorted, but I am not. If the wrapper is consistent, I think it's a lot easier to enforce this thing. If it isn't, not so much. And in other languages they don't have so much, so it's gonna be more about team conventions, rather than the language. And in Go you get a lot from the language.
+**Anderson Queiroz:** I mean, Go is opinionated. You have to `go fmt`. You have to format the code properly. Even though we still have some space to discuss about how to format... But I think that's the first thing. I usually would like to be super-strict about how the imports are sorted, but I am not. If the wrapper is consistent, I think it's a lot easier to enforce this thing. If it isn't, not so much. And in other languages they don't have so much, so it's gonna be more about team conventions, rather than the language. And in Go you get a lot from the language.
 
 I haven't seen so much, but because Go is so focused, let's say, in concurrency, sometimes people try to either sneak in concurrency when they shouldn't, or they are not using the right tools... Also because, you know, "Oh, concurrency! Let's use channels!" No. Channels are for something. A mutex - they are for other things. Waitgroups are for other things, right?
 
-\[00:20:08.13\] So this is another thing that I would say, "Okay, no. Perhaps we can do different, or we can do better." Or "This is too complex to understand if you use \[unintelligible 00:20:16.17\] If you remove this channel and put a waitgroup, it's a lot easier. \[unintelligible 00:20:20.02\] Channels - probably not. So I think of these things.
+\[20:08\] So this is another thing that I would say, "Okay, no. Perhaps we can do different, or we can do better." Or "This is too complex to understand if you use \[unintelligible 00:20:16.17\] If you remove this channel and put a waitgroup, it's a lot easier. \[unintelligible 00:20:20.02\] Channels - probably not. So I think of these things.
 
 **Angelica Hill:** When there are new features and new things released in Go, do we see an uptick in people using those in PRs? Like, you just get over-excited, like "Oh, generics...! Every PR now has generics." \[laughs\]
 
@@ -240,7 +240,7 @@ On that topic, have you folks started to use any, instead of the empty interface
 
 **Anderson Queiroz:** Yeah... He was asking everyone to have Go 1.18 because of that. He was like "Okay, you're gonna use any, so please..."
 
-**Break:** \[00:22:27.17\]
+**Break:** \[22:27\]
 
 **Natalie Pistunovich:** What do you do when you have very large pull requests? Lots of files, lots of commits, lots of lines.
 
@@ -266,7 +266,7 @@ So either it's something really simple and I'm 100% sure that it works, or I'm g
 
 **Natalie Pistunovich:** Maybe even a few steps back... When you go to review a pull request, do you start by reading the issue? So the first thing you do is read the issue.
 
-**Anderson Queiroz:** \[00:26:13.23\] Yeah. I have to understand what's happening there.
+**Anderson Queiroz:** \[26:13\] Yeah. I have to understand what's happening there.
 
 **Natalie Pistunovich:** Then do you review the diff on GitHub, or in your IDE?
 
@@ -330,7 +330,7 @@ But this was pretty much in either greenfield projects - you know, when you star
 
 **Angelica Hill:** Okay. And does the length of the PR or the scope of the change change that opinion?
 
-**Anderson Queiroz:** \[00:30:06.26\] Yeah...
+**Anderson Queiroz:** \[30:06\] Yeah...
 
 **Angelica Hill:** Okay.
 
@@ -392,7 +392,7 @@ So in extended reviews I think there's the extra consistency in code conventions
 
 **Natalie Pistunovich:** Goroutines, if you suddenly have to split into that... Yeah.
 
-**Anderson Queiroz:** \[00:34:04.15\] Talking about teaching Go in unusual ways... I was thinking today someone should write a Go program that simulates how the queue for the food works here, and then make a proper Go concurrent, good program for that... Because the queues are necessary here. You have a lot of contingence. I was like "You know, you can make better concurrency here."
+**Anderson Queiroz:** \[34:04\] Talking about teaching Go in unusual ways... I was thinking today someone should write a Go program that simulates how the queue for the food works here, and then make a proper Go concurrent, good program for that... Because the queues are necessary here. You have a lot of contingence. I was like "You know, you can make better concurrency here."
 
 **Natalie Pistunovich:** Because you have lots of food stations that people miss?
 
@@ -442,7 +442,7 @@ My take is if I believe it's compromising their understanding, I'm gonna probabl
 
 Usually, in an interview you don't have so much time... So I would go for "Oh yeah, this name is not ideal. The effective goal - there is a section on name conventions that explains why it should be like that. So as it's in Go, it's better to be like that."
 
-\[00:38:03.09\] So try always to bring something to support your views. And when it's an opinion - and that's something that I really do in pull requests; when it's my opinion, I say "Look, this is my opinion. I believe that's better, because this, this and this. It's up to you, because I don't see a flaw here. I just think it can be better." \[unintelligible 00:38:18.17\]
+\[38:03\] So try always to bring something to support your views. And when it's an opinion - and that's something that I really do in pull requests; when it's my opinion, I say "Look, this is my opinion. I believe that's better, because this, this and this. It's up to you, because I don't see a flaw here. I just think it can be better." \[unintelligible 00:38:18.17\]
 
 **Angelica Hill:** If you were interviewing someone and their task was to review a PR, what would be things that they did that would maybe have you like "Oh, no... I don't know about that..."
 
@@ -462,7 +462,7 @@ I think if you interview people, you know some people don't know what they're do
 
 **Angelica Hill:** Anderson will not be having that.
 
-**Break:** \[00:39:34.03\]
+**Break:** \[39:34\]
 
 **Angelica Hill:** Okay, so we have touched on this a little earlier in the episode, but I wanna dig a little bit deeper... In fact, I will ask you a question first. Are you engaged in any kind of open source projects? I know you said that you contribute to Go \[unintelligible 00:42:19.15\] Is that a world in which you feel like you have engaged and put PRs in?
 
@@ -480,7 +480,7 @@ I think if you interview people, you know some people don't know what they're do
 
 **Anderson Queiroz:** I think to me what's always difficult is to find something meaningful to work. You don't know what you can do... There is a tag, "First good issue" and so on, but I think that's the point - we're lost, and we don't have someone to go "Oh, please help me." Or "I tried that." Or "Shall I do that?" Because my \[unintelligible 00:43:55.17\] to go and do a refactor. If it's a completely external project that I don't know anyone there, or anything, I'm gonna be afraid. And sometimes you're not even able to run the project.
 
-\[00:44:12.07\] So I think that's a lot of \[unintelligible 00:44:12.29\] if you would have something -- not necessarily a mentor, but perhaps \[unintelligible 00:44:17.01\] ask questions. And even say "Oh, I wanna take this issue." Because sometimes the good first issues - they opened one year ago. And it's like, "Dude, I don't know if it's worth to fix that or not." And then you open the pull request everything, and no one reviews it. And then you ping "No one reviews." That thing got stale, you got demotivated.
+\[44:12\] So I think that's a lot of \[unintelligible 00:44:12.29\] if you would have something -- not necessarily a mentor, but perhaps \[unintelligible 00:44:17.01\] ask questions. And even say "Oh, I wanna take this issue." Because sometimes the good first issues - they opened one year ago. And it's like, "Dude, I don't know if it's worth to fix that or not." And then you open the pull request everything, and no one reviews it. And then you ping "No one reviews." That thing got stale, you got demotivated.
 
 **Angelica Hill:** Yeah. Fair enough. And do you think there's a higher bar as to what you're willing to put in as a PR for an open source project? I speak about this from my own personal experience... When I was trying to get into like "Okay, I wanna contribute to open source." "Oh, you should just go in and do like a little change." But I was like, "Yeah, but I feel like I'm contributing it to an open source library where everyone can see." And they're like, "Oh, Angelica made like a one-line change... Or changed that one function name."
 
@@ -512,7 +512,7 @@ I was trying to submit pull requests for the Kubernetes code, just fixing lintin
 
 **Anderson Queiroz:** I feel like a typewriter that goes from side to side. So it's hard to read, because we don't read in landscape, we read in portrait. The second thing is not everyone has got a screen as big as yours. There are people coding in 14, in 13 inches. They want to have two tabs open, perhaps. So if you go much more than 100, it's gonna be bad for some people, and I believe for everyone too long is hard to read. So that's my unpopular opinion.
 
-**Natalie Pistunovich:** \[00:48:14.16\] I want to disappoint you that I think I agree with you, and I even take this into writing emails. I try to keep it -- I don't know how many characters that is, but I sometimes break lines. Like, one sentence into 3-4 lines, just so it stays, so you don't have to scroll in case images, logos, whatever happens in somebody's signature that it suddenly gets stretched.
+**Natalie Pistunovich:** \[48:14\] I want to disappoint you that I think I agree with you, and I even take this into writing emails. I try to keep it -- I don't know how many characters that is, but I sometimes break lines. Like, one sentence into 3-4 lines, just so it stays, so you don't have to scroll in case images, logos, whatever happens in somebody's signature that it suddenly gets stretched.
 
 **Angelica Hill:** I think you're unfortunately preaching to the choir with me and Natalie. We're both like, "Yes. Please! My neck will hurt."
 
