@@ -106,7 +106,7 @@ I did a lot of workshops, and teaching and mentoring, and it involved -- a lot o
 
 **Angelica Hill:** And then now you've moved to somewhere where Go is bigger, so therefore you don't have to play such a big kind of a reviewer role.
 
-**Anderson Queiroz:** Exactly. Now I am a software engineer, as a senior, but there I was a tech lead. I think when you go above senior \[unintelligible 00:07:10.03\] you start coding less, reading more, writing more... Right?
+**Anderson Queiroz:** Exactly. Now I am a software engineer, as a senior, but there I was a tech lead. I think when you go above senior in the tech lead and stuff you start coding less, reading more, writing more... Right?
 
 **Angelica Hill:** Okay...
 
@@ -136,9 +136,9 @@ I did a lot of workshops, and teaching and mentoring, and it involved -- a lot o
 
 **Angelica Hill:** So you say you try to give feedback, you don't wanna overwhelm the person... How do you do that? Is it that you limit yourself to "Okay, I'm only gonna put six comments"? Is it the way in which you phrase your review? How do you make sure that you're not overwhelming?
 
-**Anderson Queiroz:** Yeah, I learned to experience in feedback. I put tags. So I start a PR with suggestions, or sometimes I put questions... But a question is a question, right? So it feels a bit redundant, but I put. And then I have blocker... And sometimes the suggestion is \[unintelligible 00:10:18.25\] Go convention. Or depending on the wrapper, blocker \[unintelligible 00:10:25.29\] Go convention. So I try to categorize in suggestion, question, and blocker. I put blocker \[unintelligible 00:10:32.20\] So basically, the blocker is either I see there is a problem in the code, so it needs a change, or I believe there is a problem, or I don't believe that this implementation is good... So at least you need to answer that. You can say \[unintelligible 00:10:47.28\] that's fine, but I need an explanation. So these are the blockers.
+**Anderson Queiroz:** Yeah, I learned to experience in feedback. I put tags. So I start a PR with suggestions, or sometimes I put questions... But a question is a question, right? So it feels a bit redundant, but I put. And then I have blocker... And sometimes the suggestion is less Go convention. Or depending on the wrapper, blocker \[unintelligible 00:10:25.29\] Go convention. So I try to categorize in suggestion, question, and blocker. I put blocker \[unintelligible 00:10:32.20\] So basically, the blocker is either I see there is a problem in the code, so it needs a change, or I believe there is a problem, or I don't believe that this implementation is good... So at least you need to answer that. You can say \[unintelligible 00:10:47.28\] that's fine, but I need an explanation. So these are the blockers.
 
-Suggestion is exactly that - I believe it can be better. If I were writing this code, I would do it different, but you don't have to take it. Sometimes I put like init. It could be just "Erase this blank line between the function call and the error handling." This is init. Or a typo... So these things. And then if I've never reviewed a PR from this person, or perhaps I see there is a lot of comments, I go to the person, or even in the PR, I put "Look, there is these three categories. The only thing that's really important are the blockers. So the blockers, please comment or change. The suggestions are suggestions, and as always, you are free to \[unintelligible 00:11:33.11\] Just answer the blockers and talk to me." That's how I do.
+Suggestion is exactly that - I believe it can be better. If I were writing this code, I would do it different, but you don't have to take it. Sometimes I put like init. It could be just "Erase this blank line between the function call and the error handling." This is init. Or a typo... So these things. And then if I've never reviewed a PR from this person, or perhaps I see there is a lot of comments, I go to the person, or even in the PR, I put "Look, there is these three categories. The only thing that's really important are the blockers. So the blockers, please comment or change. The suggestions are suggestions, and as always, you are free to \[unintelligible 00:11:33.11\] 100%. Just answer the blockers and talk to me." That's how I do.
 
 **Natalie Pistunovich:** So you say that in some situations it kind of makes sense to just speak in person instead of writing a lot, for example.
 
@@ -154,7 +154,7 @@ I think jumping on a call is more personal, so if I'm close to someone, it's eas
 
 **Natalie Pistunovich:** So you say there's actually three types of giving feedback. One, writing in the pull request, two, writing on Slack, and three, hopping on a call.
 
-**Anderson Queiroz:** Yeah. On Slack - I use it more to clarify. Because if it's specific about the code, I'd rather have it in the pull request. I kind of document it anyway, right? I try also to explain why what I'm saying... As I said, in my past company I was really with this job to teach, to mentor in Go; I would link a lot of references. Also because I learned in another company -- I remember my colleague and I, we were reviewing a pull request, \[unintelligible 00:13:38.06\] "Oh yeah, this function is too long. This function is too complex." This happens. And the guy was like "Why?!"
+**Anderson Queiroz:** Yeah. On Slack - I use it more to clarify. Because if it's specific about the code, I'd rather have it in the pull request. I kind of document it anyway, right? I try also to explain why what I'm saying... As I said, in my past company I was really with this job to teach, to mentor in Go; I would link a lot of references. Also because I learned in another company -- I remember my colleague and I, we were reviewing a pull request, of a new joiner, and I would say "Oh yeah, this function is too long. This function is too complex." This happens. And the guy was like "Why?!"
 
 **Natalie Pistunovich:** "Why did you butcher my pull request?"
 
@@ -186,7 +186,7 @@ At the end of the day, you're looking for problems in issues to prevent things b
 
 **Anderson Queiroz:** So to get the proper ping, it's hard. And the other thing that -- at least on GitHub... I've used a bit of BitBucket as well. I've submitted one, perhaps two PRs to the Go wrapper, with Gerrit. But on GitHub it's really hard, when you do the first review, you're asking for changes, and then people do changes, to see exactly what changed. To be like "Okay, I'm gonna review just the changes."
 
-**Natalie Pistunovich:** Isn't this a new \[unintelligible 00:16:57.18\]
+**Natalie Pistunovich:** Isn't this a new commit?
 
 **Anderson Queiroz:** If someone just forced --
 
@@ -216,7 +216,7 @@ I haven't seen so much, but because Go is so focused, let's say, in concurrency,
 
 **Angelica Hill:** When there are new features and new things released in Go, do we see an uptick in people using those in PRs? Like, you just get over-excited, like "Oh, generics...! Every PR now has generics." \[laughs\]
 
-**Anderson Queiroz:** I always wanted to push the new things and use the new, as soon as possible. I think in general if you're working with microservices, it's a lot easier, because you can just update the version and redeploy, and even if something breaks, you can roll it back a lot easier. Now at Elastic \[unintelligible 00:20:59.00\] that is gonna go to I don't know how many clients in the whole world... So we have a release cycle, so we have to choose "Okay, let's change the version."
+**Anderson Queiroz:** I always wanted to push the new things and use the new, as soon as possible. I think in general if you're working with microservices, it's a lot easier, because you can just update the version and redeploy, and even if something breaks, you can roll it back a lot easier. Now at Elastic \[unintelligible 00:20:59.00\] distributed bineries that is gonna go to I don't know how many clients in the whole world... So we have a release cycle, so we have to choose "Okay, let's change the version."
 
 We have several wrappers that use Go, and you try to keep everyone in the same version. So it's a slower process. But as much as I can, and as much as I know what's coming up, I try to incorporate, if I can.
 
@@ -252,7 +252,7 @@ On that topic, have you folks started to use any, instead of the empty interface
 
 **Natalie Pistunovich:** Do you review everything on a high level? You know, see the list of the commits, if they tell some story, or maybe look at the list of files, or do you just dive into the first one, and one by one, until it starts making sense?
 
-**Anderson Queiroz:** I never look at the commits. I don't know if because when I'm coding and committing -- like, I'm gonna squash everything \[unintelligible 00:24:51.27\] First things first. So to me, the commits themselves - they don't matter so much. I try to put in a way - if I need to revert something, I do. But at the end of the day, there's a good chance that I'm gonna just do one commit. So I never look at the -- neither the wrapper commit history. Only if I need to understand why it happened. But in a pull request, I never look at the commit history. I just look at the diff, and it's always on GitHub.
+**Anderson Queiroz:** I never look at the commits. I don't know if because when I'm coding and committing -- like, I'm gonna squash everything before morning. First things first. So to me, the commits themselves - they don't matter so much. I try to put in a way - if I need to revert something, I do. But at the end of the day, there's a good chance that I'm gonna just do one commit. So I never look at the -- neither the wrapper commit history. Only if I need to understand why it happened. But in a pull request, I never look at the commit history. I just look at the diff, and it's always on GitHub.
 
 **Natalie Pistunovich:** And look at the files by the name, basically.
 
@@ -274,7 +274,7 @@ So either it's something really simple and I'm 100% sure that it works, or I'm g
 
 **Natalie Pistunovich:** So you go kind of file by file on GitHub.
 
-**Anderson Queiroz:** \[unintelligible 00:26:23.08\]
+**Anderson Queiroz:** Well you know...
 
 **Natalie Pistunovich:** \[laughs\] Philosophical questions...
 
@@ -368,7 +368,7 @@ So in extended reviews I think there's the extra consistency in code conventions
 
 **Natalie Pistunovich:** \[laughs\] Yeah.
 
-**Angelica Hill:** And then I'm gonna have to be the bad girl who comes into Slack and someone's like "Oh, I'm ready to put my PR in this \[unintelligible 00:33:22.14\] and I'm like "You're not allowed to..."
+**Angelica Hill:** And then I'm gonna have to be the bad girl who comes into Slack and someone's like "Oh, I'm ready to put my PR in this big new feature and I'm like "You're not allowed to..."
 
 **Natalie Pistunovich:** \[unintelligible 00:33:24.15\]
 
@@ -402,7 +402,7 @@ So in extended reviews I think there's the extra consistency in code conventions
 
 **Anderson Queiroz:** They didn't read the docs, exactly.
 
-**Natalie Pistunovich:** Everything can be explained with \[unintelligible 00:34:44.20\]
+**Natalie Pistunovich:** Everything can be explained with tech
 
 **Angelica Hill:** Lesson learned. Always read the docs first... And if they're bad docs, then...
 
@@ -414,7 +414,7 @@ So in extended reviews I think there's the extra consistency in code conventions
 
 **Angelica Hill:** Yes. \[laughs\]
 
-**Anderson Queiroz:** That's something that I love... If I'm reading documentation and it's easy to open a pull request, \[unintelligible 00:35:02.03\] or inconsistent something, I open a pull request. I think it's such a valuable contribution, and it's so easy most of the times... I love these docs that have the button Edit, and then you go direct to GitHub to create the pull request. That's fantastic.
+**Anderson Queiroz:** That's something that I love... If I'm reading documentation and it's easy to open a pull request, \[unintelligible 00:35:02.03\] fail or inconsistent something, I open a pull request. I think it's such a valuable contribution, and it's so easy most of the times... I love these docs that have the button Edit, and then you go direct to GitHub to create the pull request. That's fantastic.
 
 **Natalie Pistunovich:** Yeah.
 
@@ -426,7 +426,7 @@ So in extended reviews I think there's the extra consistency in code conventions
 
 **Anderson Queiroz:** I think that's so hard... For me, as a non-native speaker, sometimes I don't think this sentence is correct. I think it's missing a comma, I think it's missing an article. And it was like, "Honestly, you don't know English so much. I don't even know if you could do that in proper Portuguese, like proper grammar." But I think it's important.
 
-My take is if I believe it's compromising their understanding, I'm gonna probably suggest something. And also, sometimes when the comment is there for a long time, I just make that change and suggest \[unintelligible 00:36:15.19\]
+My take is if I believe it's compromising their understanding, I'm gonna probably suggest something. And also, sometimes when the comment is there for a long time, I just make that change and suggest someone is gonna review it
 
 **Natalie Pistunovich:** I sometimes put into some AI, if I don't understand something, and I read it 2-3 times, and I keep staring at it... I'm like, "Just explain that to me in other words", and that helps.
 
@@ -442,11 +442,11 @@ My take is if I believe it's compromising their understanding, I'm gonna probabl
 
 Usually, in an interview you don't have so much time... So I would go for "Oh yeah, this name is not ideal. The effective goal - there is a section on name conventions that explains why it should be like that. So as it's in Go, it's better to be like that."
 
-\[38:03\] So try always to bring something to support your views. And when it's an opinion - and that's something that I really do in pull requests; when it's my opinion, I say "Look, this is my opinion. I believe that's better, because this, this and this. It's up to you, because I don't see a flaw here. I just think it can be better." \[unintelligible 00:38:18.17\]
+\[38:03\] So try always to bring something to support your views. And when it's an opinion - and that's something that I really do in pull requests; when it's my opinion, I say "Look, this is my opinion. I believe that's better, because this, this and this. It's up to you, because I don't see a flaw here. I just think it can be better," but in my opinion.
 
 **Angelica Hill:** If you were interviewing someone and their task was to review a PR, what would be things that they did that would maybe have you like "Oh, no... I don't know about that..."
 
-**Anderson Queiroz:** A thing would be to be aggressive, and impolite. To just diminish the code and say the code is bad, or something... An \[unintelligible 00:38:41.01\] they show that they don't know what they're doing.
+**Anderson Queiroz:** A thing would be to be aggressive, and impolite. To just diminish the code and say the code is bad, or something... An even if they show that they don't know what they're doing.
 
 I think if you interview people, you know some people don't know what they're doing, or they're just trying to fool you. If it's such \[unintelligible 00:38:53.17\]
 
@@ -464,13 +464,13 @@ I think if you interview people, you know some people don't know what they're do
 
 **Break:** \[39:34\]
 
-**Angelica Hill:** Okay, so we have touched on this a little earlier in the episode, but I wanna dig a little bit deeper... In fact, I will ask you a question first. Are you engaged in any kind of open source projects? I know you said that you contribute to Go \[unintelligible 00:42:19.15\] Is that a world in which you feel like you have engaged and put PRs in?
+**Angelica Hill:** Okay, so we have touched on this a little earlier in the episode, but I wanna dig a little bit deeper... In fact, I will ask you a question first. Are you engaged in any kind of open source projects? I know you said that you contribute to Go a little, is that a world in which you feel like you have engaged and put PRs in?
 
 **Anderson Queiroz:** So I can cheat my answer, right?
 
 **Angelica Hill:** Okay.
 
-**Anderson Queiroz:** Yes, I'm involved in open source, because I work at Elastic, and the majority of the wrappers are open source, right? But as a 100% open source contribution that I'm not working for the company, no. It's something that I always wanted. As I said, I managed to get a commit too in Go, but I haven't fully got to participate in a project. I'm still trying. Oh no, I think I got one in Kubernetes, too. See, it's one of my goals... You know, there's plans, things you wanna do, so \[unintelligible 00:43:01.26\] back and forth... At GopherCon, again, perhaps the flame is just lighting up again.
+**Anderson Queiroz:** Yes, I'm involved in open source, because I work at Elastic, and the majority of the wrappers are open source, right? But as a 100% open source contribution that I'm not working for the company, no. It's something that I always wanted. As I said, I managed to get a commit too in Go, but I haven't fully got to participate in a project. I'm still trying. Oh no, I think I got one in Kubernetes, too. See, it's one of my goals... You know, there's plans, things you wanna do, so try a bit and it goes back and forth... At GopherCon, again, perhaps the flame is just lighting up again.
 
 **Angelica Hill:** Reignite that passion.
 
@@ -478,13 +478,13 @@ I think if you interview people, you know some people don't know what they're do
 
 **Angelica Hill:** And when you have done it, is part of the reason why you think it's difficult to engage fully - is anything to do with the difficult or the different process to put in a PR when it is an open source project, as opposed to internal, like within work PR reviews and submission?
 
-**Anderson Queiroz:** I think to me what's always difficult is to find something meaningful to work. You don't know what you can do... There is a tag, "First good issue" and so on, but I think that's the point - we're lost, and we don't have someone to go "Oh, please help me." Or "I tried that." Or "Shall I do that?" Because my \[unintelligible 00:43:55.17\] to go and do a refactor. If it's a completely external project that I don't know anyone there, or anything, I'm gonna be afraid. And sometimes you're not even able to run the project.
+**Anderson Queiroz:** I think to me what's always difficult is to find something meaningful to work. You don't know what you can do... There is a tag, "First good issue" and so on, but I think that's the point - we're lost, and we don't have someone to go "Oh, please help me." Or "I tried that." Or "Shall I do that?" Because my pros and my teammates \[unintelligible 00:43:55.17\] to go and do a refactor. If it's a completely external project that I don't know anyone there, or anything, I'm gonna be afraid. And sometimes you're not even able to run the project.
 
-\[44:12\] So I think that's a lot of \[unintelligible 00:44:12.29\] if you would have something -- not necessarily a mentor, but perhaps \[unintelligible 00:44:17.01\] ask questions. And even say "Oh, I wanna take this issue." Because sometimes the good first issues - they opened one year ago. And it's like, "Dude, I don't know if it's worth to fix that or not." And then you open the pull request everything, and no one reviews it. And then you ping "No one reviews." That thing got stale, you got demotivated.
+\[44:12\] So I think that's a lot of \[unintelligible 00:44:12.29\] if you would have something -- not necessarily a mentor, but perhaps a channel to ask questions. And even say "Oh, I wanna take this issue." Because sometimes the good first issues - they opened one year ago. And it's like, "Dude, I don't know if it's worth to fix that or not." And then you open the pull request everything, and no one reviews it. And then you ping "No one reviews." That thing got stale, you got demotivated.
 
 **Angelica Hill:** Yeah. Fair enough. And do you think there's a higher bar as to what you're willing to put in as a PR for an open source project? I speak about this from my own personal experience... When I was trying to get into like "Okay, I wanna contribute to open source." "Oh, you should just go in and do like a little change." But I was like, "Yeah, but I feel like I'm contributing it to an open source library where everyone can see." And they're like, "Oh, Angelica made like a one-line change... Or changed that one function name."
 
-**Anderson Queiroz:** \[unintelligible 00:45:06.28\] I always had the feeling to contribute to open source projects the bar is super-high. You have to be an expert developer, and everything... And the reality is no. The issue is there, the problem exists... I think this is the best advice I can do to any junior developer - just go for it. The no, you already have, right? So your change is not there, the bug is not fixed. The documentation is not improved, the feature is not there. So this is not gonna change; if your change didn't get there, you learned something. You played with a new technology.
+**Anderson Queiroz:** I think -- and I talk for myself -- I always had the feeling to contribute to open source projects the bar is super-high. You have to be an expert developer, and everything... And the reality is no. The issue is there, the problem exists... I think this is the best advice I can do to any junior developer - just go for it. The no, you already have, right? So your change is not there, the bug is not fixed. The documentation is not improved, the feature is not there. So this is not gonna change; if your change didn't get there, you learned something. You played with a new technology.
 
 I was trying to submit pull requests for the Kubernetes code, just fixing linting issues. I understand a bit how that piece of code worked. And it was like "Oh, how they structured that. And look at the packages", because I had to read through the packages to fix linting issues. I think one PR got merged, the other ones got stale... That's life. It happens. And I learned something. So that's right, go for it. Let the other one say no. It's not your job to say no for you. It's their job.
 
@@ -506,7 +506,7 @@ I was trying to submit pull requests for the Kubernetes code, just fixing lintin
 
 **Natalie Pistunovich:** From width.
 
-**Anderson Queiroz:** Yeah. First things - there's no magical number \[unintelligible 00:47:09.00\] I would say 110 is okay, when it's really bad to cut. 120 is almost a hard limit; don't really go over that. Why? First things first. Do you read books on landscape? No. Right? Come on, I think everyone had that; we got this email, you're like on your 4K or whatever monitor, and that thing goes from side to side, and you're reading -- for the listeners, I'm moving my head, as, you know, reading from one side to the other.
+**Anderson Queiroz:** Yeah. First things - there's no magical number like 100 cut. I would say 110 is okay, when it's really bad to cut. 120 is almost a hard limit; don't really go over that. Why? First things first. Do you read books on landscape? No. Right? Come on, I think everyone had that; we got this email, you're like on your 4K or whatever monitor, and that thing goes from side to side, and you're reading -- for the listeners, I'm moving my head, as, you know, reading from one side to the other.
 
 **Angelica Hill:** Like you're watching tennis.
 
@@ -540,9 +540,9 @@ I was trying to submit pull requests for the Kubernetes code, just fixing lintin
 
 **Angelica Hill:** Okay...
 
-**Anderson Queiroz:** I mean, I see a lot happening, so perhaps an unpopular... \[unintelligible 00:49:18.00\] is wrong. Period. You have to wrap the errors and add more context. Always. I cannot count how many times I had to go through the code and dig deep and deep and deep to discover where this error came from. You know, it's like when you try to write to the disk and you get an error. You get something like... I got one. "Too many colons in the address." You're like, "This is a valid address. How there is too many colons?" And then you have to understand where this address was gonna be used, which method it was, and then "Oh yeah, on this context there are too many colons." But they didn't have this information.
+**Anderson Queiroz:** I mean, I see a lot happening, so perhaps an unpopular... Return new is wrong. Period. You have to wrap the errors and add more context. Always. I cannot count how many times I had to go through the code and dig deep and deep and deep to discover where this error came from. You know, it's like when you try to write to the disk and you get an error. You get something like... I got one. "Too many colons in the address." You're like, "This is a valid address. How there is too many colons?" And then you have to understand where this address was gonna be used, which method it was, and then "Oh yeah, on this context there are too many colons." But they didn't have this information.
 
-So \[unintelligible 00:49:56.01\] you have to wrap your errors. Now you don't have an excuse. You have error wrapping in the standard library.
+So return new is wrong, you have to wrap your errors. Now you don't have an excuse. You have error wrapping in the standard library.
 
 **Natalie Pistunovich:** So you think wrapping errors will be an unpopular opinion.
 
@@ -556,7 +556,7 @@ So \[unintelligible 00:49:56.01\] you have to wrap your errors. Now you don't ha
 
 **Natalie Pistunovich:** Interesting.
 
-**Anderson Queiroz:** That's one of the things that I look in pull requests. Everyone's like "Dude, could you wrap that?" And then it goes back on that. If it's my wrapper, my code, I might say "No." Now, when I say "my", please, my team's, right? I don't have this possessive. I think code must be owned by a group, and it must be a consensus in the group... But yeah, this is a thing that I'm gonna point. And usually if it's an external adding code, even more important. Like, your wrapper, your rules, our wrapper, our rules. \[unintelligible 00:50:44.12\] I play by your rules.
+**Anderson Queiroz:** That's one of the things that I look in pull requests. Everyone's like "Dude, could you wrap that?" And then it goes back on that. If it's my repo, my code, I might say "No." Now, when I say "my", please, my team's, right? I don't have this possessive. I think code must be owned by a group, and it must be a consensus in the group... But yeah, this is a thing that I'm gonna point. And usually if it's an external adding code, even more important. Like, your repo, your rules, our repo, our rules. Here we wrap till died. If I'm on your repo, I play by your rules.
 
 **Angelica Hill:** I like that one. I'm also having so many more ideas. This always happens when me and you have an episode, Natalie. I'm like "So many more episode ideas..."
 
@@ -620,7 +620,7 @@ So \[unintelligible 00:49:56.01\] you have to wrap your errors. Now you don't ha
 
 **Anderson Queiroz:** Yeah, I would love it.
 
-**Natalie Pistunovich:** It's a plan. And everybody \[unintelligible 00:53:23.22\] thanks for joining us this time.
+**Natalie Pistunovich:** It's a plan. And everybody I hope you will also join us, and thanks for joining us this time.
 
 **Angelica Hill:** Bwye!
 
