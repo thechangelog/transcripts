@@ -18,7 +18,7 @@
 
 **Jerod Santo:** And we do, we're gonna continue to vibe... Let's start off with the React Brussels vibe. So last week we gave a holla to React Brussels. This week we have a speaker from React Brussels. Remember, that's the event happening in Brussels on October the 14th. And last week I gave you some of the details, but I forgot one big part. The part that I forgot is that Omar from the organizing team gave us a couple of things to help bring people out to the event. So the first thing is a coupon code, JSPARTYTIME. All caps. I don't know if the caps matter, but go ahead and, QA test that form, see if you can go all-caps, or if they have a case-insensitive matcher... And you save 30% off when you buy a ticket.
 
-\[00:04:11.17\] We also have a free IRL ticket, and five online tickets to give away. So we will be doing that. We don't have a plan yet. Follow us on Twitter, @jspartyFM, so we'll let you know exactly how you can enter; it'll be pretty easy. And we will give out some tickets so we can get people out to the event. Tejas, are you excited about this conference?
+\[04:11\] We also have a free IRL ticket, and five online tickets to give away. So we will be doing that. We don't have a plan yet. Follow us on Twitter, @jspartyFM, so we'll let you know exactly how you can enter; it'll be pretty easy. And we will give out some tickets so we can get people out to the event. Tejas, are you excited about this conference?
 
 **Tejas Kumar:** I'm so excited! Dude, this conference is like -- it's special. It's family style. It's very communal. It's a tiny team, and a small conference. It feels like it's just a bunch of friends hanging out, talking about React. It's the first time ever I think they do this, in-person anyway... But they did a -- it was like a JS Brussels conference. Brussels.js, I wanna say... It's the same team, and it's just the best -- and the thing that I like the most right is that they want to really highlight Brussels for you. They want to give you a tour, and "Hey, this is Belgium. let's go to cities and eat waffles" and... It's very proud of where it is. I like that.
 
@@ -66,7 +66,7 @@ And we do that controversial thing where we throw promises... And React caught s
 
 **Jerod Santo:** Just because you can doesn't mean you should, kind of a thing...
 
-**Kevin Ball:** \[00:08:10.15\] Yeah... Well, and -- I don't know. So I'm kind of curious, as someone who started digging in and using it, how did it feel once you crossed that WTF boundary?
+**Kevin Ball:** \[08:10\] Yeah... Well, and -- I don't know. So I'm kind of curious, as someone who started digging in and using it, how did it feel once you crossed that WTF boundary?
 
 **Tejas Kumar:** I didn't even have the WTF boundary...
 
@@ -90,7 +90,7 @@ And we do that controversial thing where we throw promises... And React caught s
 
 Now, as I have not yet played around with this idea of throwing promises. So it may be that in practice that is not as much of an issue. But certainly, in considering it, it feels "Okay, this is going to maybe work when I follow the golden path, and anytime anything breaks, it's going to be a nightmare to figure out what's going on."
 
-**Tejas Kumar:** Yeah... That's because the error constructor gives you a stack trace, right? That's the whole point of throwing even the constructed errors. I see that. Yeah. Although -- I understand your perspective, absolutely... But from the React perspective as well, the reason they even do this is because the component tree can be super-deep, and they essentially want to recreate -- like, Suspense is basically error boundaries. You catch something that's data-fetching some levels deep in your tree, and don't render the DOM until it's ready. So conceptually, throwing a promise is kind of just like throwing to something above that's going to catch, and be "Okay, spinner here, if the delay is too long." That's kind of why I think they even went for that concept... Because as far as I know, in JavaScript there's nothing that works quite like that, where you can throw from n levels deep and respond to it. Maybe event emitters probably work that way... But yeah, I can understand how.
+**Tejas Kumar:** Yeah... That's because the error constructor gives you a stack trace, right? That's the whole point of throwing even the constructed errors. I see that. Yeah. Although -- I understand your perspective, absolutely... But from the React perspective as well, the reason they even do this is because the component tree can be super-deep, and they essentially want to recreate -- like, Suspense is basically error boundaries. You catch something that's data-fetching some levels deep in your tree, and don't render the DOM until it's ready. So conceptually, throwing a promise is kind of just like throwing to something above that's going to catch, and be "Okay, spinner here, if the delay is too long." That's kind of why I think they even went for that concept... Because as far as I know, in JavaScript there's nothing that works quite like that, where you can throw from N levels deep and respond to it. Maybe event emitters probably work that way... But yeah, I can understand how.
 
 **Kevin Ball:** Now, what happens if the promise isn't taught?
 
@@ -100,7 +100,7 @@ Now, as I have not yet played around with this idea of throwing promises. So it 
 
 **Tejas Kumar:** I think it warns you in the console. I don't know what happens on the screen, but I think it warns you in the console, like "Hey, just so you know, this thing suspended, but there was no fallback." Usually, there's a fallback prop that you give to it, which is like a loading spinner or something... But in the absence of a fallback, that's actually a good -- actually, I don't know how that responds. It would be fun to try.
 
-**Kevin Ball:** \[00:11:57.23\] I hear the problem that we're solving here, and it is a real problem, but I think it's also... Once again, you're depending on how that's handled, which I don't have a sense, but it's essentially eliminating the possibility of containment for that component. Right? That component cannot function necessarily in isolation. The parents have to understand that it's going to throw something, and I need to handle that.
+**Kevin Ball:** \[11:57\] I hear the problem that we're solving here, and it is a real problem, but I think it's also... Once again, you're depending on how that's handled, which I don't have a sense, but it's essentially eliminating the possibility of containment for that component. Right? That component cannot function necessarily in isolation. The parents have to understand that it's going to throw something, and I need to handle that.
 
 **Tejas Kumar:** Yes.
 
@@ -142,7 +142,7 @@ It does give you a containment problem, I hear that, and it also gives you like 
 
 **Tejas Kumar:** Exactly. And we did that over 45 minutes, and by the end, we implemented React to render our hooks, and we kind of also inadvertently understood why the rules of hooks apply... Like, why can't you have conditional use states, and so on. It was fun. That was like my best, most well-received presentation ever, and it was a complete fluke.
 
-**Kevin Ball:** \[00:16:04.15\] That's awesome.
+**Kevin Ball:** \[16:04\] That's awesome.
 
 **Jerod Santo:** Did it get recorded?
 
@@ -180,7 +180,7 @@ It does give you a containment problem, I hear that, and it also gives you like 
 
 **Jerod Santo:** Then you ask them not to record it, and move on with your life. \[unintelligible 00:17:42.11\] post it on YouTube. \[laughter\]
 
-**Break:** \[00:17:48.10\]
+**Break:** \[17:48\]
 
 **Jerod Santo:** So we wanted to talk about this thing you wrote recently on your website, "The pillars of impact for web engineers." Interesting, it started off as "This is gonna be a text message", and then I guess you realized you had a lot to say about it, so you turned it into a nice, big, long blog post, and then I assume you just texted the link to the blog post. That's very much a Scott Hanselman move...
 
@@ -194,7 +194,7 @@ It does give you a containment problem, I hear that, and it also gives you like 
 
 **Tejas Kumar:** Sometimes there's people who are like "I'm so smart", and who are like -- you know, there's an energy, there's a tech bro energy that is not conducive to good vibes. It's very much a - if I ask you a question, I already know you're just going to paste me a Google result link to some abstract results, that I could do myself. But you just want to show me how busy you are, or whatever. And I think we have missed the mark on what we consider smart historically, where we think smart is somebody who can write like a one-line MapReduce; whereas I think we've kind of missed prioritizing emotional intelligence as highly as we ought, personally.
 
-\[00:22:07.01\] That's kind of some of the thinking that went in here, because in these pillars of impact, as I've written - there's four of them, because you know, like legs on a table; four pillars usually lead to something standing. Only one of them, the last one is technical impact... Because we're in a day and age, y'all, where I think pretty much anyone who has the resources and means can learn how to code. freeCodeCamp, Quincy Larson, like that stuff... I think there's like 3,000 hours of courses where you could just learn stuff.
+\[22:07\] That's kind of some of the thinking that went in here, because in these pillars of impact, as I've written - there's four of them, because you know, like legs on a table; four pillars usually lead to something standing. Only one of them, the last one is technical impact... Because we're in a day and age, y'all, where I think pretty much anyone who has the resources and means can learn how to code. freeCodeCamp, Quincy Larson, like that stuff... I think there's like 3,000 hours of courses where you could just learn stuff.
 
 So writing code and being able to google and stack-overflow internals of React or Elasticsearch or whatever it may be - I don't believe this is as valuable, for example, as recognizing when your teammate is either burnt out and then covering for them. Or recognizing when somebody really cares about documentation, and if you're in a position to do so, saying, "Hey, why don't you lead that? I would love to follow you here" and kind of let them take the lead and pioneer some stuff. Those things - we even call them soft skills, and I have a problem with this, because I feel like calling them --
 
@@ -214,7 +214,7 @@ So writing code and being able to google and stack-overflow internals of React o
 
 **Jerod Santo:** Let me hop on for a second, because I think there's a strong sales pitch for this for people that might kind of roll their eyes, or kind of say, "Here we go again, talking human skills..." When you talk about investing in yourself, like what you're going to get better at, what you're going to improve, as engineers we think about scalability, right? Like, how something scales horizontally, vertically etc. And our technical skills - they can't scale very far; in fact if you pick the wrong technology, you can invest in skills that will be dead in six months. Or maybe four years, or whatever. My jQuery skills today don't really mean much anymore, even though I still have them. Like, is nobody hiring jQuery today? I would love to... But the communication stuff specifically - and a lot of these things, but specifically things like communication, as you improve and you put effort into improving your communication, this is not just helping you in the world of your career and your business. This is your entire life. Like, this scales horizontally across all your relationships, all of your interactions with other people... There's real scale to investing in these human skills... And not necessarily instead of technical skills, but also, in addition to your technical skills. And they are, as -- I'm going to agree with you, Kball... They are the things that level you up beyond landing that job and staying in the industry as an employed person; like, getting to that next phase - it's almost always human stuff.
 
-**Tejas Kumar:** \[00:26:06.16\] Yeah. It's interesting, because I'm a great example of this. Honestly, when I started my career, I was not very competent technically. Some would say today I'm not very competent technically. I mean, I throw promises, for goodness sake, you know what I'm saying?
+**Tejas Kumar:** \[26:06\] Yeah. It's interesting, because I'm a great example of this. Honestly, when I started my career, I was not very competent technically. Some would say today I'm not very competent technically. I mean, I throw promises, for goodness sake, you know what I'm saying?
 
 **Jerod Santo:** You throw promises, man... Come on!
 
@@ -254,7 +254,7 @@ I also read a study where they kind of found that after earning a certain amount
 
 3:Exactly. And this goes so much deeper even, because... Like, I recently read a book, I'll talk about it in the shout-out section if we get to it... But essentially, the author highlights how what made us the apex predator at the top of the food chain, and human beings superior above animals and all this - it's not that we were the smartest necessarily, but that we were the most collaborative. Human connection, by and large, is the whole deal, man. So when we work together in a team where we feel at home, amazing things happen.
 
-\[00:30:12.24\] So yeah, I think the interpersonal vibe - you could just summarize and call it a vibe, right? But like the interpersonal energy is so key. And honestly, where I work today - look, there's sometimes drama, and there's communication issues with the people and so on... But my immediate team, the dev rel team, these people - dude, I'd be comfortable going to war with them on my side, so to speak. They have my back. I know it. And even if there's times where I'm looking around and I'm like "Oh, my friend Hussein at Google wants to hire me there", and if the job market looks attractive, I'm like "But these people here... These are my people, man."
+\[30:12\] So yeah, I think the interpersonal vibe - you could just summarize and call it a vibe, right? But like the interpersonal energy is so key. And honestly, where I work today - look, there's sometimes drama, and there's communication issues with the people and so on... But my immediate team, the dev rel team, these people - dude, I'd be comfortable going to war with them on my side, so to speak. They have my back. I know it. And even if there's times where I'm looking around and I'm like "Oh, my friend Hussein at Google wants to hire me there", and if the job market looks attractive, I'm like "But these people here... These are my people, man."
 
 **Jerod Santo:** It says a lot for retention.
 
@@ -268,17 +268,17 @@ And I don't know what kind of society y'all were raised in... I was raised with 
 
 Organically - and I've, in the past, had managers who tell me "Oh, just assume good intent." But telling someone to do that isn't enough. And from what I've seen, being in community makes assuming good intent more accessible. So that's kind of what I do, is now I have destigmatized in myself loneliness. I started to recognize, Hey, I feel super-lonely right now." Thankfully, I have a wife, so I go to her and I'm like "Listen, I'm super-lonely right now. Could you spend like five minutes with me so I get back to reality?" And she does this, and then I come back and read a pull request that once seemed hostile, and now I'm like "Oh man, this is fine." Either this is fine, or I have even like empathy for the person. I'm like "Oh, they must be having a hard day, or something." So that yeah, that's kind of what I'm doing to bring the vibe, and it seems to be working.
 
-**Kevin Ball:** \[00:34:25.06\] I love some of the things you're talking about there, and I want to combine two of them. A practice I've been doing for a while, and encouraging my reports now that I'm a manager to do, which is - if you get a PR review or a ticket or something from someone that you don't have already a personal connection to, set up a 30-minute one-on-one that is purely about creating a social connection. Doing that just helped tremendously, so much in like getting the level of malicious intent feeling of like "Why are they doing this? Why are they asking this mean thing?", whatever.
+**Kevin Ball:** \[34:25\] I love some of the things you're talking about there, and I want to combine two of them. A practice I've been doing for a while, and encouraging my reports now that I'm a manager to do, which is - if you get a PR review or a ticket or something from someone that you don't have already a personal connection to, set up a 30-minute one-on-one that is purely about creating a social connection. Doing that just helped tremendously, so much in like getting the level of malicious intent feeling of like "Why are they doing this? Why are they asking this mean thing?", whatever.
 
 It's even bigger across engineering, right? Set that up with the customer success rep who keeps filing tickets that you have to solve. Because the more they understand that you are a human being, and you understand that they're a human being, implicitly... Like, we know that in our heads, but you feel that, because you know "Hey, Brian's not filing this ticket to make me mad. He's filing this because he's got this thing, and I know he's cool, and we'd vibe over music and whatever." It just makes such a world of difference in all this world of interaction that's so text-based, to make that social connection, once you start having any of that coming through.
 
 **Jerod Santo:** All good. The blog post "Pillars of impact for web engineers" - it's in your show notes. Obviously, we're not going to cover it word for word, so if you like what Tejas is saying, and you'd like to hear more, go give that one a read.
 
-**Break:** \[00:35:46.03\]
+**Break:** \[35:46\]
 
 **Jerod Santo:** Alright, guess what time it is. It's time for story of the week.
 
-**Jingle:** \[00:39:57.08\]
+**Jingle:** \[39:57\]
 
 **Tejas Kumar:** Wow, man... Jerod, that's an amazing singing voice you have.
 
@@ -296,17 +296,17 @@ It's even bigger across engineering, right? Set that up with the customer succes
 
 So I will kick us off with what is I guess not something that's happened, but something that's talked about going to happen, which is that Deno has announced on their blog some big changes ahead. So this is future stuff for Deno. Interesting, anytime that you see a company announcing things that are going to happen, you think, "Are they reacting to something that's been going on? It seems like they feel like they have to say something." And I think they are reacting to some of the excitement and the buzz around Bun, the new JS runtime, which is blazing fast, and is very much a competitor to Deno and Node.js, the up and comer... Which got a bunch of people's ears perking up in the recent weeks because of the speed.
 
-So Deno has a couple of announcements... Two big ones here that I'll focus in on; they actually announced a few more things that are going to happen. The first one is that they've been working on some updates that will allow Deno to easily import NPM packages, which will make the vast majority of NPM packages work in Deno within the next three months. So as I often say, no self-respecting software developer gives an ETA when they don't have to, but they've locked themselves into a 90-day cycle on this feature. They must be pretty close to having it finished.
+So Deno has a couple of announcements... Two big ones here that I'll focus in on; they actually announced a few more things that are going to happen. The first one is that they've been working on some updates that will allow Deno to easily import npm packages, which will make the vast majority of npm packages work in Deno within the next three months. So as I often say, no self-respecting software developer gives an ETA when they don't have to, but they've locked themselves into a 90-day cycle on this feature. They must be pretty close to having it finished.
 
-**Kevin Ball:** \[00:42:12.21\] Maybe they listened to JS Party back when Deno was initially announced and we were ragging on them for not having package support.
+**Kevin Ball:** \[42:12\] Maybe they listened to JS Party back when Deno was initially announced and we were ragging on them for not having package support.
 
-**Jerod Santo:** And we were like "You've gotta support Npm." Yeah, totally. Although I think strategically, this is somewhat of an obvious need. Now, I guess the technical requirements to get them there were probably not straightforward, so that's why it's taken a while. But I think anytime you start something brand new, you want to have an ecosystem that exists, and you're ignoring the largest package ecosystem in the world; not the wisest move. So they're working on that.
+**Jerod Santo:** And we were like "You've gotta support npm." Yeah, totally. Although I think strategically, this is somewhat of an obvious need. Now, I guess the technical requirements to get them there were probably not straightforward, so that's why it's taken a while. But I think anytime you start something brand new, you want to have an ecosystem that exists, and you're ignoring the largest package ecosystem in the world; not the wisest move. So they're working on that.
 
 And the second one is their goal is to make Deno the fastest JS runtime. This is why I said I think they're reacting very much to a lot of the excitement around Bun... And they said for starters, the next release of Deno will include a new HTTP server. It's the fastest JS web server ever built.
 
 So I'm sure you two saw this announcement... A lot of people talking about Deno's big changes coming soon. Curious your hot takes, or maybe it's been a few days, maybe you have some warmed down takes... What do you think about this? What's going on?
 
-**Tejas Kumar:** I think it's really nice that Deno's having some type of interop with Npm, because that's been a deterrent for me like going full-on on Deno so far. I wonder how this is going to be received. But it kind of reminds me of the author of Homebrew wanting to like recreate Homebrew, but using the blockchain... Have you heard of this? It's called Tea, and it's basically brew, but--
+**Tejas Kumar:** I think it's really nice that Deno's having some type of interop with npm, because that's been a deterrent for me like going full-on on Deno so far. I wonder how this is going to be received. But it kind of reminds me of the author of Homebrew wanting to like recreate Homebrew, but using the blockchain... Have you heard of this? It's called Tea, and it's basically brew, but--
 
 **Jerod Santo:** Yeah, Max Howell, the original creator of Homebrew. I did hear about this. I heard the initial announcement and I haven't heard anything since, but I'm sure they're working on it.
 
@@ -334,7 +334,7 @@ Like, just all sorts of layers of this that just did not feel like they were aim
 
 "We own all our stuff. We're gonna write all our own code anyway. We don't care." But Deno is coming from the outside.
 
-**Jerod Santo:** \[00:45:57.01\] Right, that's what I'm saying. It seems like they would have learned -- and even Go has had serious ramifications from that decision amongst the community, and it seems like Deno starting maybe eight years into Go's lifespan would have looked over and said, "I like the purity of -- well, just another Universal Resource Locator; just give us that and we can resolve and download." It's very webby, but it's actually lacking in many significant ways.
+**Jerod Santo:** \[45:57\] Right, that's what I'm saying. It seems like they would have learned -- and even Go has had serious ramifications from that decision amongst the community, and it seems like Deno starting maybe eight years into Go's lifespan would have looked over and said, "I like the purity of -- well, just another Universal Resource Locator; just give us that and we can resolve and download." It's very webby, but it's actually lacking in many significant ways.
 
 What about the runtime speed stuff? I mean, even in their expansion, they say "There's been a lot of chatter recently about runtime speed." I mean, they seem like they're pretty intimidated here by what Bun is up to.
 
@@ -348,7 +348,7 @@ What about the runtime speed stuff? I mean, even in their expansion, they say "T
 
 **Kevin Ball:** So there's an interesting separation there between execution time and boot time. We had a conversation -- was it with CloudFlare, or someone like that, on a previous episode... I can look it up. Where they were basically compiling the entire Node runtime to WebAssembly, because then they didn't have to boot the Node process for the serverless thing. And so if they're -- and I haven't dug deep into what Deno's promising or what Bun is doing, but if they are dramatically improving the boot time for running it, as compared to the sort of execution time once the thread is booted - that could have a serious impact on serverless environments.
 
-**Jerod Santo:** Alright, so that's Deno's big changes. A lot of talk; they still have to deliver. Hopefully, they are. This is definitely a good direction, especially with the Npm stuff, for them to get people using it actually out there in the real world. I'd love to see the competition, too. Like, the fact that Bun comes out makes these benchmarks blow everybody's mind, and it's like -- now the Deno team is like "Hey, we've got to get faster." That - everybody wins. So that's super-cool. Alright, let's move on... Kball, what is your story the week?
+**Jerod Santo:** Alright, so that's Deno's big changes. A lot of talk; they still have to deliver. Hopefully, they are. This is definitely a good direction, especially with the npm stuff, for them to get people using it actually out there in the real world. I'd love to see the competition, too. Like, the fact that Bun comes out makes these benchmarks blow everybody's mind, and it's like -- now the Deno team is like "Hey, we've got to get faster." That - everybody wins. So that's super-cool. Alright, let's move on... Kball, what is your story the week?
 
 **Kevin Ball:** Yeah, so I saw that Chrome, in their next mainline release, is going to have container queries.
 
@@ -366,7 +366,7 @@ What about the runtime speed stuff? I mean, even in their expansion, they say "T
 
 **Jerod Santo:** Okay. So right around the corner. Less than two weeks away, right? Or not -- is a two-week cycle or a six-week cycle? I can never remember. And neither can you. None of us work on the Chrome team. I don't know; just hit your update function and see if it's there. 1.05...
 
-**Kevin Ball:** \[00:50:09.04\] I think it's six weeks.
+**Kevin Ball:** \[50:09\] I think it's six weeks.
 
 **Jerod Santo:** Just reboot your own Chrome. Six weeks sounds like it makes more sense.
 
@@ -406,7 +406,7 @@ What about the runtime speed stuff? I mean, even in their expansion, they say "T
 
 **Jerod Santo:** So help every else be convinced.
 
-**Tejas Kumar:** \[00:53:44.25\] So I first of all need to say I have no vested interest in this book. I'm not gonna get money or anything if you buy it. I'm not an affiliate, or whatever, but I genuinely believe in it. It has helped every relationship I have, and all of the strained ones that I have had - many of us have difficult relationships - have recovered gracefully. It's really -- I've seen the results. This book is called "Plays well with others" by Eric Barker. And I love the concept even, because how it works is the book explores maxims that we hear growing up. Maxims like "Just be yourself" and maxims is like "When in Rome, do as the Romans do." And then you ask yourself, "Okay, but which one? Both of these conflict? Do I be myself, or do I do as the Romans do?" And what Eric does is he takes these sayings and examines them through the lens of science, citing research from leading research bodies. And the cool thing about this book is I read it on my iPhone, so the screen size is a bit small, but on my device, the last 200 pages were all footnotes and citations. And you can go read the research for yourself. It's fascinating stuff.
+**Tejas Kumar:** \[53:44\] So I first of all need to say I have no vested interest in this book. I'm not gonna get money or anything if you buy it. I'm not an affiliate, or whatever, but I genuinely believe in it. It has helped every relationship I have, and all of the strained ones that I have had - many of us have difficult relationships - have recovered gracefully. It's really -- I've seen the results. This book is called "Plays well with others" by Eric Barker. And I love the concept even, because how it works is the book explores maxims that we hear growing up. Maxims like "Just be yourself" and maxims is like "When in Rome, do as the Romans do." And then you ask yourself, "Okay, but which one? Both of these conflict? Do I be myself, or do I do as the Romans do?" And what Eric does is he takes these sayings and examines them through the lens of science, citing research from leading research bodies. And the cool thing about this book is I read it on my iPhone, so the screen size is a bit small, but on my device, the last 200 pages were all footnotes and citations. And you can go read the research for yourself. It's fascinating stuff.
 
 So the book looks at questions like "Can you judge a book by its cover?" meaning can you read people's intentions or not? Is no man an island? Do opposites actually attract? And it's got amazing takeaways for interpersonal relationships, work relationships, marriages... Every relationship you can think of. So yeah, huge shout-out from me, and I would recommend it to literally everyone.
 
