@@ -2339,6 +2339,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "doggy8088",
+      "name": "Will 保哥",
+      "avatar_url": "https://avatars.githubusercontent.com/u/88981?v=4",
+      "profile": "http://blog.miniasp.com/",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",

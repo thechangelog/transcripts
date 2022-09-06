@@ -366,6 +366,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/dolanor"><img src="https://avatars.githubusercontent.com/u/928722?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Tanguy ⧓ Herrmann</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=dolanor" title="Documentation">📖</a></td>
+    <td align="center"><a href="http://blog.miniasp.com/"><img src="https://avatars.githubusercontent.com/u/88981?v=4?s=100" width="100px;" alt=""/><br /><sub><b>Will 保哥</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=doggy8088" title="Documentation">📖</a></td>
   </tr>
 </table>
 
