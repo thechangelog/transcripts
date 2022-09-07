@@ -26,7 +26,7 @@
 
 **Alex MacCaw:** Yes. So to give you some history, in the middle of COVID I was "You know what - it's time. I've always wanted to do this. I've always wanted to go sailing around the world." So I basically bought a boat, and in January I picked it up in South Africa, where they've been building it. They're well known for building catamarans out there. And in January, I sailed it across the Atlantic. It took me a whole month, 30 days at sea, from Cape Town, all the way up to Grenada. And then I spent the summer basically sailing between all the Caribbean islands, one by one, up and down, up to the British Virgin Islands, and down again to Grenada. And I've been walking from the boat. That's been quite an interesting experience, trying to build a software company from a boat.
 
-**Adam Stacoviak:** \[00:06:26.13\] Yeah. Did you sail before? Have you ever sailed that far?
+**Adam Stacoviak:** \[06:26\] Yeah. Did you sail before? Have you ever sailed that far?
 
 **Alex MacCaw:** I've never sailed that far, and I got a captain to help me sail across the Atlantic. Otherwise, we probably would not be talking...
 
@@ -68,7 +68,7 @@ I wanted to get a boat that actually could sail. Not a sort of slow -- not a mot
 
 **Alex MacCaw:** That's what we do. That's what the desalinator does. It basically forces saltwater through a membrane, a very fine membrane, with a giant piston, and then comes out clean water.
 
-**Adam Stacoviak:** \[00:10:08.00\] Does it taste good, or has it got a different taste?
+**Adam Stacoviak:** \[10:08\] Does it taste good, or has it got a different taste?
 
 **Alex MacCaw:** In the middle of the ocean it tastes great... Because that water is so, so pure. On one of the days where we didn't have any wind, we actually went swimming, right in the middle of the Atlantic.
 
@@ -104,7 +104,7 @@ I wanted to get a boat that actually could sail. Not a sort of slow -- not a mot
 
 **Adam Stacoviak:** Because you're all by yourself, your resources are basically none... You've got finite resources, that are potentially tapping out if you don't have this water reclamation or whatever the process is for it.
 
-**Alex MacCaw:** \[00:13:56.04\] Yes, that's right. The other thing we have to think about is power usage as well. And recently, that has got so much better since the advent of lithium batteries. Those changed everything. Back in the day, you would have to start up your engine to boil up your kettle. And now you can boil the kettle off a lithium battery. So we have four or five of these big lithium batteries, and then we have about 3,200 watts of solar on the coach deck. And that is enough for most of our needs. Certainly cooking and fridges and things, pretty much...
+**Alex MacCaw:** \[13:56\] Yes, that's right. The other thing we have to think about is power usage as well. And recently, that has got so much better since the advent of lithium batteries. Those changed everything. Back in the day, you would have to start up your engine to boil up your kettle. And now you can boil the kettle off a lithium battery. So we have four or five of these big lithium batteries, and then we have about 3,200 watts of solar on the coach deck. And that is enough for most of our needs. Certainly cooking and fridges and things, pretty much...
 
 **Adam Stacoviak:** The music...
 
@@ -180,7 +180,7 @@ I wanted to get a boat that actually could sail. Not a sort of slow -- not a mot
 
 **Adam Stacoviak:** Having a captain is like the wisest -- it's like having a pilot. If you're on a plane, you can probably fly it, but if you have a pilot who knows what they're doing, knows the ship, knows the aircraft, knows the engine knows all the checklists... It's like Sully all over again, right? I just watched that movie again recently, Jerod. I watched Sully recently for... But we were talking to Nora about Sully, and checklists, and how it goes back to incident management and resolution, and what you learn from incidents, essentially... And Sully came up in that conversation. But yeah, having a captain is like -- you need it.
 
-**Alex MacCaw:** \[00:18:12.11\] So a captain is key, because you can imagine that everything's under strain the whole time, and the boat's moving, and stuff is \[unintelligible 00:18:21.08\] And the captain is -- once the boat is set on a course, maybe you would change the sails every hour or so... But that's pretty much set. But then it's a question of listening, and being observant, and basically looking for these tear signs.
+**Alex MacCaw:** \[18:12\] So a captain is key, because you can imagine that everything's under strain the whole time, and the boat's moving, and stuff is \[unintelligible 00:18:21.08\] And the captain is -- once the boat is set on a course, maybe you would change the sails every hour or so... But that's pretty much set. But then it's a question of listening, and being observant, and basically looking for these tear signs.
 
 **Adam Stacoviak:** Observability. Even on a boat. Wow.
 
@@ -210,7 +210,7 @@ So you get to learn a lot about electricity with a boat, because there's maybe 1
 
 **Alex MacCaw:** Yeah. And then once we got to the Caribbean, then I started living on it for real, you know? Living and working on it. And that was quite interesting, because, a lot of the day is dedicated to the boat. So you have to balance that and your other work. And the boat always comes first. So if your anchor is not set correctly and you're floating away, you need to fix that before you know comment on that pull request.
 
-**Adam Stacoviak:** \[00:22:20.07\] That's right. \[laughs\]
+**Adam Stacoviak:** \[22:20\] That's right. \[laughs\]
 
 **Jerod Santo:** Right.
 
@@ -266,7 +266,7 @@ So my experience -- I hope you have a better experience, but my experience with 
 
 **Jerod Santo:** What about for the boat, Alex? Because what I've seen is like Starlink for yachts, and I think maybe they just know yacht people have money, so they're gonna charge more... But is it the same stuff?
 
-**Alex MacCaw:** \[00:25:59.14\] Yeah... I'm not sure they know what they're doing.
+**Alex MacCaw:** \[25:59\] Yeah... I'm not sure they know what they're doing.
 
 **Jerod Santo:** \[laughs\]
 
@@ -314,7 +314,7 @@ So my experience -- I hope you have a better experience, but my experience with 
 
 **Alex MacCaw:** I'm constantly turning it off and on, and smacking it, and cursing... \[laughter\] Yeah, but that's just boat life, you know... At any one point in time something is broken.
 
-**Break:** \[00:29:41.20\]
+**Break:** \[29:41\]
 
 **Jerod Santo:** So we have the practical stuff, like batteries, electricity and connectivity... But there's probably other things when you're talking about -- you know, the people that you're collaborating with on software, they're not living on a sailboat. So you're connecting, having these sailboat issues... I'm just wondering, is it any different than any other kind of remote work, where you have special concerns or things that you have to get over because you're on a sailboat, in order to collaborate with people who may be in New York City, maybe they're in San Francisco, maybe they're in London?
 
@@ -328,7 +328,7 @@ So with Reflect, my new company, we have an engineer in Slovakia and an engineer
 
 **Jerod Santo:** So you want to keep a small team. Previously, Clearbit was your business... Tell us the difference between Clearbit and Reflect in terms of - you know, it seems like you had a change of mind about things, or at least the way you want to live your life.
 
-**Alex MacCaw:** \[00:33:46.23\] Yeah. So you're really kind of at the mercy of your business model when you when you start a company, and I think you realize this probably as a second-time founder. As a first-time founder, you kind of stumble into some kind of businesses working, and then scale from there, and you have to deal with it regardless of what \[unintelligible 00:34:08.18\].
+**Alex MacCaw:** \[33:46\] Yeah. So you're really kind of at the mercy of your business model when you when you start a company, and I think you realize this probably as a second-time founder. As a first-time founder, you kind of stumble into some kind of businesses working, and then scale from there, and you have to deal with it regardless of what \[unintelligible 00:34:08.18\].
 
 But Clearbit, my last company - that company required a b2b sale. So the company -- we sold business data, and licenses started at $12,000. So as soon as that happens, that means you have to have a sales team, and then you have to have all the support for the sales team, and then you have to have a marketing team... And basically, the more revenue that the business makes, the bigger the team you need to have. It's just the classic b2b business.
 
@@ -350,7 +350,7 @@ So we actually found another CEO to run the business, and I wish we did it when 
 
 **Alex MacCaw:** I'm the kind of guy that's like 100% in, or not. Having said that, I am on the board and I'm still quite involved in the kind of long-term prospects of the company, and the vision-setting, and what have you... But the day-to-day operations - I'm completely removed. And I've set that expectation at Reflect - if Reflect grows to more than 20 people, I will replace myself, and we will have a new CEO.
 
-**Adam Stacoviak:** \[00:37:53.04\] What's it like, I guess, hiring a CEO? What's involved in that process? There's maybe somebody listening to show that like "For now, and in the moment, I'm a future one-man band", a future Alex, for example. And at some point, they may grow a company and have to hire a CEO. What is involved in that? Do you have to hire a headhunter? Do you have to interview a bunch of people? Are you personally involved? How do you remove your ego? There's a lot of questions, but it seems so challenging to be in your shoes and your position, and hire CEO.
+**Adam Stacoviak:** \[37:53\] What's it like, I guess, hiring a CEO? What's involved in that process? There's maybe somebody listening to show that like "For now, and in the moment, I'm a future one-man band", a future Alex, for example. And at some point, they may grow a company and have to hire a CEO. What is involved in that? Do you have to hire a headhunter? Do you have to interview a bunch of people? Are you personally involved? How do you remove your ego? There's a lot of questions, but it seems so challenging to be in your shoes and your position, and hire CEO.
 
 **Alex MacCaw:** Yes, it's incredibly difficult. The ideal situation is if you've got someone internally who you think could be a CEO, and everyone else thinks could be CEO as well. So it's not a nepotistic move, turning them into -- promoting them into a CEO, as long as they've \[unintelligible 00:38:45.10\] and everyone else around them views them as a CEO, then that can work out really well. And they already have the context of the business, and that's a very smooth transition. So that should be your first plan.
 
@@ -370,7 +370,7 @@ And then there's other ways of doing it. So you can go and buy companies and mak
 
 So you put together these systems, and... Actually, one of the parts of the book that I wrote on management, called "The manager's handbook", that I'm most proud of - and it's free online, if you want to search for it - is the section on hiring. And it will take you through how to create a hiring system. One of those things is putting together a scorecard, and all the attributes that you're looking for, and then you can score all the candidates that go through the system, as objectively as possible at least, against these attributes.
 
-**Jerod Santo:** \[00:42:00.01\] Nice. So you've moved on from Clearbit, you've decided to start Reflect, you're going to be a one-man band, but not really, because you're gonna have a band behind you... You have employees, or you have -- I don't know if they're co-founders, or whatever you have; you're gonna describe the team. How did you find this group of musicians? Did you just pull out the managers handbook and read what you had written? Or are these friends of yours? Just curious, when you're starting fresh, all the way over, what do you do?
+**Jerod Santo:** \[42:00\] Nice. So you've moved on from Clearbit, you've decided to start Reflect, you're going to be a one-man band, but not really, because you're gonna have a band behind you... You have employees, or you have -- I don't know if they're co-founders, or whatever you have; you're gonna describe the team. How did you find this group of musicians? Did you just pull out the managers handbook and read what you had written? Or are these friends of yours? Just curious, when you're starting fresh, all the way over, what do you do?
 
 **Alex MacCaw:** Well, you're right, I have an amazing supporting team. It's tiny, there's just three of us, but they are just incredible engineers that I work with. And we just code day in, day out on the product, and we do all the support as well. So how did I find these engineers? Well, I've found one of them through Twitter, just by tweeting, and he reached out to me. One of the nice things about being in the note-taking space is that there are a lot of engineers who are really interested in it, and they have little hobby projects on the side where they make notes apps... So when you go out and hire engineers, often it's quite interesting problems; you're dealing with end-to-end encryption, and real-time sync, and dealing with sync conflicts. Some people really enjoy that stuff.
 
@@ -386,7 +386,7 @@ So those are two ways that I hire people. I often will just keep tabs on open so
 
 **Alex MacCaw:** But I think I think software engineers like working with other good engineers. So if you've got a good team, and also if you're a good engineer as well, I think that helps. It's unusual, I think, for a highly technical SEO to be reaching out personally, and working with people in the trenches together. So I think all that helps. But also, maybe it's just luck of the draw... I don't know. It could be. All I know is I got incredibly fortunate to work with some amazing people, and I owe almost all my success to those people.
 
-**Adam Stacoviak:** \[00:45:58.05\] Who is Reflect for? I know that you say on the site thinkers... And I think -- and I take a lot of lists, so I'm a big Things user... And I said before the call, I know of Reflect; I haven't used it yet, but I've been paying attention to your journey. I remember when it was just a landing page. It was early, early ideas, and I was surprised to go back recently and see end-to-end encryption. That was super-cool. And it's always been fast. But I remember the early days, like "I don't even know where this thing is gonna go." I just had this idea, I wanted a place to put my notes, and nothing really fits... I'm paraphrasing months and months of me paying attention to your moves.. But who is this app for? Who should use it? If I'm a Things user, which is basically just tasks... And tasks to me are kind of like notes, but not writing. What should I do? What direction should I go? And in some cases, I can take notes within it. But if you're a Things user who's getting things done like that, or a thinker, in this case, who is this app for?
+**Adam Stacoviak:** \[45:58\] Who is Reflect for? I know that you say on the site thinkers... And I think -- and I take a lot of lists, so I'm a big Things user... And I said before the call, I know of Reflect; I haven't used it yet, but I've been paying attention to your journey. I remember when it was just a landing page. It was early, early ideas, and I was surprised to go back recently and see end-to-end encryption. That was super-cool. And it's always been fast. But I remember the early days, like "I don't even know where this thing is gonna go." I just had this idea, I wanted a place to put my notes, and nothing really fits... I'm paraphrasing months and months of me paying attention to your moves.. But who is this app for? Who should use it? If I'm a Things user, which is basically just tasks... And tasks to me are kind of like notes, but not writing. What should I do? What direction should I go? And in some cases, I can take notes within it. But if you're a Things user who's getting things done like that, or a thinker, in this case, who is this app for?
 
 **Alex MacCaw:** It's for me, honestly. I'm trying to basically make the perfect Notes app for me. It's just my passion project. And I'm hoping there are enough people out there that are similar to me, that people will pay for it. And we've got just over 1,000 customers now, so it seems to be working... But to answer your question in a slightly more expanded way, I think the type of people who like Reflect are generally the ones who are moving off Apple Notes.
 
@@ -412,7 +412,7 @@ So if you are a note-taker and you love writing Markdown, and you like customizi
 
 **Alex MacCaw:** Whenever you search, you'll see those notes. But I really care about design. I really, really care about design, I care about speed, and I care about simplicity. We actually have published our product values, and we run every single thing that we build \[unintelligible 00:49:55.23\] One of our most important values is speed. And if we're gonna build a feature and it's not gonna be fast, we won't build that feature. I also just want to strip out features, because there's no code faster than no code. I love having these guiding principles.
 
-\[00:50:16.23\] And then security is something I really care about. When I was setting out to build a notes app, I was thinking to myself, "What are the worst-case scenarios?" And I was like "Man, what if one day this thing gets hacked, and all your friends' notes published all across the internet?" That would probably be the worst-case scenario. And I don't know if you'd have any friends left. So... I don't know, this is how I think. It might be a little crazy, but... So from day one, we put end-to-end encryption in the app, so none of the data sees our servers; at least not in any plain text form. And I can tell you, it makes it about ten times as complicated, because you have to start running data migrations on the client. And that is so difficult to get right. But I still would do it, I still would do it. I think it's so important, and there's very few notes apps out there that actually have that kind of security.
+\[50:16\] And then security is something I really care about. When I was setting out to build a notes app, I was thinking to myself, "What are the worst-case scenarios?" And I was like "Man, what if one day this thing gets hacked, and all your friends' notes published all across the internet?" That would probably be the worst-case scenario. And I don't know if you'd have any friends left. So... I don't know, this is how I think. It might be a little crazy, but... So from day one, we put end-to-end encryption in the app, so none of the data sees our servers; at least not in any plain text form. And I can tell you, it makes it about ten times as complicated, because you have to start running data migrations on the client. And that is so difficult to get right. But I still would do it, I still would do it. I think it's so important, and there's very few notes apps out there that actually have that kind of security.
 
 **Adam Stacoviak:** Yeah. There was one - I think it's called Slight, if I recall correctly, that has end-to-end encryption. It's either Slight or something else that's similar. It's like network docs for teams... But at some point with note-taking, you're either with the individual, or you get to a point where it's like -- even with Things, for example, for me, I kind of like want to have a team in there to some degree, but then I'm like "No, keep it simple." At some point with notes you have to push back on the complexity, because you want to now have a team of notes.
 
@@ -430,7 +430,7 @@ So if you are a note-taker and you love writing Markdown, and you like customizi
 
 **Alex MacCaw:** And the way that you grow, grow, grow is you add team features. And if you look at Notion's history, they have gone from the single player application to the multiplayer application. And there's a much larger business, it's a lot more successful... But the single player always suffers in that scenario. And they just -- I see it happen time, and time, and time again. And the thing about Reflect is we do not have traditional venture funding, and we don't intend to raise traditional venture. I think maybe a crowdfunding round could be in our future, but I want to pay dividends; I don't want to grow, grow, grow. I don't want to do round after round after round, because that's what I did at my previous company. I've done that, and I don't need to do that again. And when you change the incentives like that, it actually changes everything, right down to the way the product works.
 
-**Adam Stacoviak:** \[00:54:12.18\] Yeah, because it can stay more in line with the user that you intended, versus the original user that kind of gets left behind, in some cases. I mean, some products can get it right, and go team, and still -- like, I use Notion as an individual, and maybe because I use it in our business too, as a team, I understand its shortcomings and drawbacks, so to speak. I still thrive instead of Notion, personally. It's not for everybody personally, it's certainly not a great note-taking app, because it can do it, but it's not -- it's just good enough, basically.
+**Adam Stacoviak:** \[54:12\] Yeah, because it can stay more in line with the user that you intended, versus the original user that kind of gets left behind, in some cases. I mean, some products can get it right, and go team, and still -- like, I use Notion as an individual, and maybe because I use it in our business too, as a team, I understand its shortcomings and drawbacks, so to speak. I still thrive instead of Notion, personally. It's not for everybody personally, it's certainly not a great note-taking app, because it can do it, but it's not -- it's just good enough, basically.
 
 **Jerod Santo:** It's too heavy for that.
 
@@ -460,7 +460,7 @@ But we talked to him about this as well, this incentive for him... I really like
 
 **Adam Stacoviak:** It should be.
 
-**Jerod Santo:** \[00:57:59.25\] ...but great Apple engineers can't seem to get right. But you have an advantage. You have a web-based tool, right? So you're already doing web. Have you considered -- I mean, I know you don't want to go teams, because that's like not incentivized for you. But have you thought about sharing? Because sharing is a pretty big deal.
+**Jerod Santo:** \[57:59\] ...but great Apple engineers can't seem to get right. But you have an advantage. You have a web-based tool, right? So you're already doing web. Have you considered -- I mean, I know you don't want to go teams, because that's like not incentivized for you. But have you thought about sharing? Because sharing is a pretty big deal.
 
 **Alex MacCaw:** So we do publishing notes. So if you want to publish your notes, you can do that. And as soon as you click Publish, we decrypt the note and stick it on our servers, and then anyone with a secret URL can get to it. But yeah, I just don't wanna add that stuff... Hey, if you want to collaborate on a note, use Google Docs; it's great for that.
 
@@ -496,7 +496,7 @@ But we talked to him about this as well, this incentive for him... I really like
 
 **Adam Stacoviak:** That's right.
 
-**Break:** \[00:59:57.24\]
+**Break:** \[59:57\]
 
 **Adam Stacoviak:** It must be refreshing though to be in this position, having been down that road and determine that being a CEO is not what you personally want to do, and having the courage to go through the process of dropping your ego. As you said before, your ego held you back from doing it at 20 count, versus whenever you did it in the outcome... To now be doing something that is totally focused on your specific desires, with note-taking. And then even pushing back on Jerod saying "No, no, no... If you want to share a doc or collaborate, use Google Docs."
 
