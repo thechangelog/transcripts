@@ -14,7 +14,7 @@
 
 **Jerod Santo:** Well, we could do a catch-up, but how do you catch up for a decade of time? There's just way too many life events to even do that. So let's start with where you are now. You're not on a sailboat, it doesn't look but you are on a sailboat, I guess, metaphorically, or I guess generally speaking, but not specifically right now. Tell us what you're up to in life.
 
-**Alex MacCaw:** Well, I would be on a sailboat, except for one reason, and it's hurricane season right now. So between July and November, \[unintelligible 00:04:40.22\] through the Caribbean, and my insurance actually says that I can't be around the Caribbean.
+**Alex MacCaw:** Well, I would be on a sailboat, except for one reason, and it's hurricane season right now. So between July and November, the hurricanes roll through the Caribbean, and my insurance actually says that I can't be around the Caribbean.
 
 **Jerod Santo:** Okay...
 
@@ -32,7 +32,7 @@
 
 **Adam Stacoviak:** Now it's making more sense. I was like "Wow, he is bold!"
 
-**Jerod Santo:** \[unintelligible 00:06:41.20\] because that is crazy.
+**Jerod Santo:** I know I was like "fill in some gaps for us" because that is crazy.
 
 **Alex MacCaw:** \[laughs\] Yeah... But I do grow up sailing. My family had the boat, and we were on the water all the summer holidays, and I absolutely love it. I think for some people, it's just in their bones, and I'm definitely one of those people. And so I've always had it in me. When I was in San Francisco, I did a little sailing on the bay in San Francisco, I did some amazing sailing there... And then recently I got my own boat, and started sailing for real.
 
@@ -126,7 +126,7 @@ I wanted to get a boat that actually could sail. Not a sort of slow -- not a mot
 
 **Alex MacCaw:** Yeah, there could be an iceberg. \[laughter\] Who knows...?
 
-**Adam Stacoviak:** \[unintelligible 00:15:59.15\] You said you averaged nine knots. Was that correct?
+**Adam Stacoviak:** You wouldn't really get that because it's so cold, but there could be an iceberg. You said you averaged nine knots. Was that correct?
 
 **Alex MacCaw:** Yeah.
 
@@ -180,7 +180,7 @@ I wanted to get a boat that actually could sail. Not a sort of slow -- not a mot
 
 **Adam Stacoviak:** Having a captain is like the wisest -- it's like having a pilot. If you're on a plane, you can probably fly it, but if you have a pilot who knows what they're doing, knows the ship, knows the aircraft, knows the engine knows all the checklists... It's like Sully all over again, right? I just watched that movie again recently, Jerod. I watched Sully recently for... But we were talking to Nora about Sully, and checklists, and how it goes back to incident management and resolution, and what you learn from incidents, essentially... And Sully came up in that conversation. But yeah, having a captain is like -- you need it.
 
-**Alex MacCaw:** \[18:12\] So a captain is key, because you can imagine that everything's under strain the whole time, and the boat's moving, and stuff is \[unintelligible 00:18:21.08\] And the captain is -- once the boat is set on a course, maybe you would change the sails every hour or so... But that's pretty much set. But then it's a question of listening, and being observant, and basically looking for these tear signs.
+**Alex MacCaw:** \[18:12\] So a captain is key, because you can imagine that everything's under strain the whole time, and the boat's moving, and stuff is chafing And the captain is -- once the boat is set on a course, maybe you would change the sails every hour or so... But that's pretty much set. But then it's a question of listening, and being observant, and basically looking for these tear signs.
 
 **Adam Stacoviak:** Observability. Even on a boat. Wow.
 
@@ -188,7 +188,7 @@ I wanted to get a boat that actually could sail. Not a sort of slow -- not a mot
 
 **Jerod Santo:** This is your SRE or your network administrator...
 
-**Alex MacCaw:** But can imagine... you might interview someone for your team at your company, right? And the stakes are maybe you make a bad hire, and you are slow to ship your product. Well, in this case, I was interviewing all these captains, and there's a lot at stake. This is potentially quite life-threatening. So yeah, I was extremely lucky to get a South African guy called Pete to help us across, and then I had a few other people - my brother, a close friend who is really good at sailing, and this other guy who started MakerBot, and he was like our \[unintelligible 00:19:30.03\] on the trip. So he was our mechanical engineer. He was just fixing little things.
+**Alex MacCaw:** But can imagine... you might interview someone for your team at your company, right? And the stakes are maybe you make a bad hire, and you are slow to ship your product. Well, in this case, I was interviewing all these captains, and there's a lot at stake. This is potentially quite life-threatening. So yeah, I was extremely lucky to get a South African guy called Pete to help us across, and then I had a few other people - my brother, a close friend who is really good at sailing, and this other guy who started MakerBot, and he was like our Scotty on the trip. So he was our mechanical engineer. He was just fixing little things.
 
 **Adam Stacoviak:** Nice. Take us to the lithium batteries, man... You were talking about solar before the call, and I'm like enamored by solar. I have an RV, so this the closest I get to a boat, is I have a bumper pull travel trailer RV. We call it an RV, and I specify travel trailer, because you think motorhome when you think RV. At least you do because you watched the Robin Williams movie, or something like that, called RV. But I've got solar, I've got a battery, I can decouple from the grid... Talk about, what it takes to do that at sea.
 
@@ -224,7 +224,7 @@ So you get to learn a lot about electricity with a boat, because there's maybe 1
 
 **Jerod Santo:** Right... Do they GPS-locate you, or just based on what you're connecting they know where you are?
 
-**Alex MacCaw:** Yeah, what cell towers you're connecting to... And then I have actually a device that turns my mast into a \[unintelligible 00:23:24.04\] aerial, and that's quite useful for data as well.
+**Alex MacCaw:** Yeah, what cell towers you're connecting to... And then I have actually a device that turns my mast into a giant aerial, and that's quite useful for data as well.
 
 **Jerod Santo:** Oh, that's cool.
 
@@ -280,7 +280,7 @@ So my experience -- I hope you have a better experience, but my experience with 
 
 **Alex MacCaw:** Yeah.
 
-**Adam Stacoviak:** I mean, essentially, you have a satellite, a cable coming from the satellite, that plugs in... It's basically a USB-C plug from the satellite. Actually, it's built into the satellite itself. And then the other end is a USB-C that goes into the modem, or whatever you would call the actual Starlink device. I think even their industrial design on the modem could have been better. It could have been a different shape. It's like this -- I don't know, like a trophy. it's big... I don't know if it's on purpose big, but it's not even a nice shape. You can't rack-mount it. You can't tuck it away. It's kind of -- I would even say you can't even like adhere it to the wall via screws, or something like that. It's kind of like "Really? Does it need to be that shape?" I mean, I love the idea \[unintelligible 00:27:12.25\] stuff, and it's got celestial-looking design on the front of it, but I'm like, "Can't you just give it to me where I can hide it? I just want to tuck it away. I don't want to see the thing ever."
+**Adam Stacoviak:** I mean, essentially, you have a satellite, a cable coming from the satellite, that plugs in... It's basically a USB-C plug from the satellite. Actually, it's built into the satellite itself. And then the other end is a USB-C that goes into the modem, or whatever you would call the actual Starlink device. I think even their industrial design on the modem could have been better. It could have been a different shape. It's like this -- I don't know, like a trophy. it's big... I don't know if it's on purpose big, but it's not even a nice shape. You can't rack-mount it. You can't tuck it away. It's kind of -- I would even say you can't even like adhere it to the wall via screws, or something like that. It's kind of like "Really? Does it need to be that shape?" I mean, I love the idea of it looking cool and stuff, and it's got celestial-looking design on the front of it, but I'm like, "Can't you just give it to me where I can hide it? I just want to tuck it away. I don't want to see the thing ever."
 
 **Jerod Santo:** Well, on a sailboat I don't think hiding it matters all that much. But I think on an RV, if you're driving down the road...
 
@@ -302,7 +302,7 @@ So my experience -- I hope you have a better experience, but my experience with 
 
 **Adam Stacoviak:** Unify? What's your system?
 
-**Alex MacCaw:** Yeah, we have a little router, and it's actually kind of a crazy system, because the thing that hands out IP addresses is right at the top of the mast. So if you want an IP address, it's coming from the top of the mast, which is kind of bizarre. But yeah, we have the whole -- the whole boat is bathed in Wi-Fi, and then that system connects to the \[unintelligible 00:28:23.04\] networks via a little SIM card.
+**Alex MacCaw:** Yeah, we have a little router, and it's actually kind of a crazy system, because the thing that hands out IP addresses is right at the top of the mast. So if you want an IP address, it's coming from the top of the mast, which is kind of bizarre. But yeah, we have the whole -- the whole boat is bathed in Wi-Fi, and then that system connects to the phone networks via a little SIM card.
 
 **Adam Stacoviak:** Yeah.
 
@@ -320,7 +320,7 @@ So my experience -- I hope you have a better experience, but my experience with 
 
 **Alex MacCaw:** Yeah. Well, I'm very fortunate in the way that my company is designed is that it's totally asynchronous, and I don't think the way I do it, certainly, it would be possible if it wasn't asynchronous. You never know when you might be traveling between anchorages, or cell/reception might drop out, or what have you... So having any kind of Zoom calls or anything just doesn't work.
 
-So with Reflect, my new company, we have an engineer in Slovakia and an engineer in China. So our timezones \[unintelligible 00:32:54.28\] so the company has to be asynchronous.
+So with Reflect, my new company, we have an engineer in Slovakia and an engineer in China. So our timezones are bananas so the company has to be asynchronous.
 
 **Jerod Santo:** Right. No pair programming.
 
@@ -328,7 +328,7 @@ So with Reflect, my new company, we have an engineer in Slovakia and an engineer
 
 **Jerod Santo:** So you want to keep a small team. Previously, Clearbit was your business... Tell us the difference between Clearbit and Reflect in terms of - you know, it seems like you had a change of mind about things, or at least the way you want to live your life.
 
-**Alex MacCaw:** \[33:46\] Yeah. So you're really kind of at the mercy of your business model when you when you start a company, and I think you realize this probably as a second-time founder. As a first-time founder, you kind of stumble into some kind of businesses working, and then scale from there, and you have to deal with it regardless of what \[unintelligible 00:34:08.18\].
+**Alex MacCaw:** \[33:46\] Yeah. So you're really kind of at the mercy of your business model when you when you start a company, and I think you realize this probably as a second-time founder. As a first-time founder, you kind of stumble into some kind of businesses working, and then scale from there, and you have to deal with it regardless of what you'd rather.
 
 But Clearbit, my last company - that company required a b2b sale. So the company -- we sold business data, and licenses started at $12,000. So as soon as that happens, that means you have to have a sales team, and then you have to have all the support for the sales team, and then you have to have a marketing team... And basically, the more revenue that the business makes, the bigger the team you need to have. It's just the classic b2b business.
 
@@ -374,13 +374,13 @@ So you put together these systems, and... Actually, one of the parts of the book
 
 **Alex MacCaw:** Well, you're right, I have an amazing supporting team. It's tiny, there's just three of us, but they are just incredible engineers that I work with. And we just code day in, day out on the product, and we do all the support as well. So how did I find these engineers? Well, I've found one of them through Twitter, just by tweeting, and he reached out to me. One of the nice things about being in the note-taking space is that there are a lot of engineers who are really interested in it, and they have little hobby projects on the side where they make notes apps... So when you go out and hire engineers, often it's quite interesting problems; you're dealing with end-to-end encryption, and real-time sync, and dealing with sync conflicts. Some people really enjoy that stuff.
 
-Obviously, the downside of that is that you get a lot of competitors, started by similar engineers. But there are \[unintelligible 00:43:26.16\] So that's one engineer. And then the other engineer I've found through an open source project that we heavily relied on. So if you think about a notes app, which Reflect is - I'm not sure if we've elaborated on that, but yes, it's a little note-taking application... The biggest part of it is the rich text editor. So making sure that you pick the right library is incredibly important. And we had a few full starts, but eventually we picked a project called Remirror, and I noticed there was an incredible committer to Remirror, who was just pushing really, really good code. And so I reached out to him and hired him.
+Obviously, the downside of that is that you get a lot of competitors, started by similar engineers. But there are upsides So that's one engineer. And then the other engineer I've found through an open source project that we heavily relied on. So if you think about a notes app, which Reflect is - I'm not sure if we've elaborated on that, but yes, it's a little note-taking application... The biggest part of it is the rich text editor. So making sure that you pick the right library is incredibly important. And we had a few full starts, but eventually we picked a project called Remirror, and I noticed there was an incredible committer to Remirror, who was just pushing really, really good code. And so I reached out to him and hired him.
 
 So those are two ways that I hire people. I often will just keep tabs on open source projects that I really admire, and see who's pushing really good stuff to them. And then I also just keep a list of people that I want to work with. I've been creating this lifts for years; it has engineers on there, and designers. And whenever I have a project, I will reach out to people on that list. And I honestly have near 100% success rate of working with those people. I'm very, very fortunate.
 
 **Jerod Santo:** How do you do that? How do you get 100% success rate? How do you approach somebody and say -- are you telling them you've got a sailboat? "Come on. I've got a sailboat." \[laughter\]
 
-**Alex MacCaw:** I just take them sailing... \[unintelligible 00:44:57.21\] Well... Yeah, I would say part of it is the project, part of it is the sell... It's unique each time; you've got to figure out what someone wants, and if what you're offering fits in with their life plans, essentially...
+**Alex MacCaw:** I just take them sailing... Yeah you-- here's the implication Well... Yeah, I would say part of it is the project, part of it is the sell... It's unique each time; you've got to figure out what someone wants, and if what you're offering fits in with their life plans, essentially...
 
 **Jerod Santo:** Sure.
 
@@ -400,7 +400,7 @@ So if you are a note-taker and you love writing Markdown, and you like customizi
 
 **Adam Stacoviak:** Die-hard Kindle user at that point...
 
-**Jerod Santo:** That's how you fake-write a book, you know? \[unintelligible 00:49:18.23\]
+**Jerod Santo:** That's how you fake-write a book, you know? Write some notes, get it on the Kindle
 
 **Alex MacCaw:** That's right... \[laughs\]
 
@@ -410,7 +410,7 @@ So if you are a note-taker and you love writing Markdown, and you like customizi
 
 **Jerod Santo:** Gotcha. Yeah, that's a cool feature.
 
-**Alex MacCaw:** Whenever you search, you'll see those notes. But I really care about design. I really, really care about design, I care about speed, and I care about simplicity. We actually have published our product values, and we run every single thing that we build \[unintelligible 00:49:55.23\] One of our most important values is speed. And if we're gonna build a feature and it's not gonna be fast, we won't build that feature. I also just want to strip out features, because there's no code faster than no code. I love having these guiding principles.
+**Alex MacCaw:** Whenever you search, you'll see those notes. But I really care about design. I really, really care about design, I care about speed, and I care about simplicity. We actually have published our product values, and we run every single thing that we build by the values first. One of our most important values is speed. And if we're gonna build a feature and it's not gonna be fast, we won't build that feature. I also just want to strip out features, because there's no code faster than no code. I love having these guiding principles.
 
 \[50:16\] And then security is something I really care about. When I was setting out to build a notes app, I was thinking to myself, "What are the worst-case scenarios?" And I was like "Man, what if one day this thing gets hacked, and all your friends' notes published all across the internet?" That would probably be the worst-case scenario. And I don't know if you'd have any friends left. So... I don't know, this is how I think. It might be a little crazy, but... So from day one, we put end-to-end encryption in the app, so none of the data sees our servers; at least not in any plain text form. And I can tell you, it makes it about ten times as complicated, because you have to start running data migrations on the client. And that is so difficult to get right. But I still would do it, I still would do it. I think it's so important, and there's very few notes apps out there that actually have that kind of security.
 
@@ -488,7 +488,7 @@ But we talked to him about this as well, this incentive for him... I really like
 
 **Alex MacCaw:** Yeah.
 
-**Jerod Santo:** I didn't follow you there. I didn't have my \[unintelligible 00:59:31.16\] Gotcha. Yeah, we have to do our own merge conflicts, because there is AGI. I'm with you.
+**Jerod Santo:** I didn't follow you there. I didn't have my AGI there Gotcha. Yeah, we have to do our own merge conflicts, because there is AGI. I'm with you.
 
 **Alex MacCaw:** Exactly. Yeah. But yeah, that's the one thing I'm looking forward to with the AGI. Forget all the living forever and so on getting. Git conflict merging. \[laughter\]
 
@@ -528,7 +528,7 @@ But we talked to him about this as well, this incentive for him... I really like
 
 **Adam Stacoviak:** So having them in a different engine, and they're the same notes, and I can use them - that to me is a really interesting feature.
 
-**Alex MacCaw:** Yeah, it is honestly great being able to export those. It's a shame they have no API. I had to do some heinous things to get that working, I can tell you... But yeah, we basically have kind of hacked together an API \[unintelligible 01:11:29.09\] they provide... But it's really nice being able to pull all of that out.
+**Alex MacCaw:** Yeah, it is honestly great being able to export those. It's a shame they have no API. I had to do some heinous things to get that working, I can tell you... But yeah, we basically have kind of hacked together an API for what they provide... But it's really nice being able to pull all of that out.
 
 In fact, I've been thinking about this idea, and you know, when you search for a book, what's the first result? It's an Amazon page, right? That's kind of crazy. It should be a Wikipedia page, it should be a wiki page with the synopsis of the book, and links to other relevant material or other things the book has pulled on; maybe a few reviews in there. But we needed something better. I'm mulling over this idea in my head, and maybe one of your listeners wants to try and create this company... But I really think we need something better here.
 
@@ -578,7 +578,7 @@ In fact, I've been thinking about this idea, and you know, when you search for a
 
 **Jerod Santo:** But this is cool, I like this idea. So Blinkist does that. They'll give you the 15-minute synopsis in audio, 10 to 15, of all the high points of the book, without you having to read it. And if you want the full book, then go from there. But even that's audio... I like this; you could just scan this real quick and decide if it's worth a read or not. Yeah, cool idea. Is this open source, or anything, like the way you're building it?
 
-**Alex MacCaw:** Yeah, it's all open source. And also, a lot of the ideas \[unintelligible 01:15:41.23\] of course, not just the book contents... But the structure, the UI... It's all in the About section.
+**Alex MacCaw:** Yeah, it's all open source. And also, a lot of the ideas were stolen of course, not just the book contents... But the structure, the UI... It's all in the About section.
 
 **Jerod Santo:** Yeah, that's why I'm asking, because if anybody wants to kind of take this idea and run with it, this is a great starting point, right?
 
@@ -606,9 +606,9 @@ or a...
 
 **Jerod Santo:** Not a trip across the Atlantic.
 
-**Alex MacCaw:** Not a trip across the Atlantic. Yes... Maybe I should have made it offline-first... You do get a lot of benefits though from the sync, and having it all on all your devices... And I've found that people \[unintelligible 01:18:36.17\] Often, it doesn't work quite as well. We actually used Firebase for our storage, but we had to have a lot of things on top of it to get it performant, and to get all the merge conflict thing working, and what have you.
+**Alex MacCaw:** Not a trip across the Atlantic. Yes... Maybe I should have made it offline-first... You do get a lot of benefits though from the sync, and having it all on all your devices... And I've found that people tack that sync on "Later." Often, it doesn't work quite as well. We actually used Firebase for our storage, but we had to have a lot of things on top of it to get it performant, and to get all the merge conflict thing working, and what have you.
 
-You know, there are some really interesting ideas out there right now. There's a library -- well, a company called Replicache, that is trying to solve this exact problem. And I do think this is going to be the next wave of internet applications, especially ones that are kind of pseudo-desktop-web, they're kind of riding that line, where you expect that desktop performance, the instant access, and so on... And \[unintelligible 01:19:27.20\] Replicache, we may end up using it at Reflect, honestly, because they do all the merge conflicting, and syncing, and all that jazz. They do it all. And it would be nice to outsource that.
+You know, there are some really interesting ideas out there right now. There's a library -- well, a company called Replicache, that is trying to solve this exact problem. And I do think this is going to be the next wave of internet applications, especially ones that are kind of pseudo-desktop-web, they're kind of riding that line, where you expect that desktop performance, the instant access, and so on... And check out Replicache, we may end up using it at Reflect, honestly, because they do all the merge conflicting, and syncing, and all that jazz. They do it all. And it would be nice to outsource that.
 
 I think a Firebase built today would be offline first, and deal with all that. And what would be amazing is if I could just power the UI, my react UI, off a local SQLite database, or maybe something a bit more object-orientated, but basically a local database, and do all my writes and reads from that database, and have it reactive. So whenever that database changes, my UI automatically updates. And then something deals with all of the synchronization. And that would be amazing. And I think that is the direction that we're going in.
 
