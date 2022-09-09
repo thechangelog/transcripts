@@ -178,7 +178,7 @@ It does give you a containment problem, I hear that, and it also gives you like 
 
 **Kevin Ball:** Yeah. Yeah.
 
-**Jerod Santo:** Then you ask them not to record it, and move on with your life. \[unintelligible 00:17:42.11\] post it on YouTube. \[laughter\]
+**Jerod Santo:** Then you ask them not to record it, and move on with your life. You can post it on YouTube. \[laughter\]
 
 **Break:** \[17:48\]
 
@@ -220,7 +220,7 @@ So writing code and being able to google and stack-overflow internals of React o
 
 **Kevin Ball:** But you did reimplement React... In 45 minutes.
 
-**Tejas Kumar:** That was a cheap clone. But yeah, I hear what you're saying. Thank you, by the way. No, but the only reason I've seen the success that I've seen, which I consider to be a significant amount given my background, is because I tend to be good interpersonally with people. I've put in the work to create a likable, amicable, friendly personality. And this, I believe, pays dividends. Conversely, I've seen a lot of people, especially in this industry, where supply and demand are so heavily in favor of me, of the individual. People don't last long in jobs. I especially think about my friend \[unintelligible 00:26:59.18\] who - like, he'll finish like a year somewhere, and then go get a new job. And this is not like an exception. This is common. In this industry I don't know people stay at jobs for --
+**Tejas Kumar:** That was a cheap clone. But yeah, I hear what you're saying. Thank you, by the way. No, but the only reason I've seen the success that I've seen, which I consider to be a significant amount given my background, is because I tend to be good interpersonally with people. I've put in the work to create a likable, amicable, friendly personality. And this, I believe, pays dividends. Conversely, I've seen a lot of people, especially in this industry, where supply and demand are so heavily in favor of me, of the individual. People don't last long in jobs. I especially think about my friend Nader Dabit who - like, he'll finish like a year somewhere, and then go get a new job. And this is not like an exception. This is common. In this industry I don't know people stay at jobs for --
 
 **Jerod Santo:** No, that's common.
 
@@ -344,7 +344,7 @@ What about the runtime speed stuff? I mean, even in their expansion, they say "T
 
 **Kevin Ball:** Yeah, I think there are probably a subset of people for which that's important... I've found that anytime I'm running server-side code, the limiting factor is almost never the code itself, and it's network access and database access... So I don't have any use cases where the speed of that thing is going to make that big of a difference.
 
-**Jerod Santo:** I think in the somewhat distant, or maybe near future, like where everyone's building with these serverless platforms, and the edge processing - that boot time, that speed of just like from the point that you invoke this remote function to the point that it's finished, has become very important for the Lambdas of the world, for the Vercels, for the Netlify Function, the CloudFlares etc. In your dev box, in your local machine, \[unintelligible 00:47:34.27\] long-running server process - like, who cares, right? Node's plenty fast for that kind of stuff, as long as you're not blocking or something.
+**Jerod Santo:** I think in the somewhat distant, or maybe near future, like where everyone's building with these serverless platforms, and the edge processing - that boot time, that speed of just like from the point that you invoke this remote function to the point that it's finished, has become very important for the Lambdas of the world, for the Vercels, for the Netlify Function, the CloudFlares etc. In your dev box, in your local machine, your persist-like long-running server process - like, who cares, right? Node's plenty fast for that kind of stuff, as long as you're not blocking or something.
 
 **Kevin Ball:** So there's an interesting separation there between execution time and boot time. We had a conversation -- was it with CloudFlare, or someone like that, on a previous episode... I can look it up. Where they were basically compiling the entire Node runtime to WebAssembly, because then they didn't have to boot the Node process for the serverless thing. And so if they're -- and I haven't dug deep into what Deno's promising or what Bun is doing, but if they are dramatically improving the boot time for running it, as compared to the sort of execution time once the thread is booted - that could have a serious impact on serverless environments.
 
