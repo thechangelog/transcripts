@@ -48,17 +48,17 @@
 
 **Amal Hussein:** I'm like, "Thank you, friends!" No, but you're really kind of this really incredible person in our community, who has been such an expert for so long. Also, you've really been so generous with your time and knowledge. All of your slides, everything is available on your website, you have an awesome blog that's been going for years... I refer to your old blog posts and I send them to more junior engineers that I know, where I'm like "Here, this is a great place to learn about this concept, or that concept..."
 
-\[00:06:19.02\] One thing that came up recently was negative testing. I used one of your blog posts about negative tests, negative assertions... So you're awesome; I love you, Gleb. You're also a good friend of mine; just on a personal level, lots of love from me... But in your own words, can you tell us a little bit about yourself? Oh, of course, and then Cypress, right? One of the lead maintainers and contributors to Cypress. You're not doing that full-time anymore, but you're gonna tell us a little bit about yourself now, so... The floor is yours, Gleb.
+\[06:19\] One thing that came up recently was negative testing. I used one of your blog posts about negative tests, negative assertions... So you're awesome; I love you, Gleb. You're also a good friend of mine; just on a personal level, lots of love from me... But in your own words, can you tell us a little bit about yourself? Oh, of course, and then Cypress, right? One of the lead maintainers and contributors to Cypress. You're not doing that full-time anymore, but you're gonna tell us a little bit about yourself now, so... The floor is yours, Gleb.
 
 **Gleb Bahmutov:** Thank you, Amal. It's good to be here, and you are way too kind to me.
 
 **Amal Hussein:** It's true.
 
-**Gleb Bahmutov:** You know who's a Superman? Superman. Not me. I don't want the job. Honestly, everything that I have achieved - the blog, open source - is because I was just looking around and I was like "No one has this utility. I should write it for myself." And all we do right now is putting it out there, so we don't have to pay for hosting, we don't have to care about private repos, and subscribe to a continuous integration service, private source control... Because we have tools like GitHub, and JavaScript, and the Npm ecosystem. And I used to be working on C++ projects, where you have five libraries that you use, and if you wanna add a sixth one - well, guess what? The first two now don't compile, or don't link properly. Or if you upgrade a version - well, you're probably out of luck, because this version is incompatible.
+**Gleb Bahmutov:** You know who's a Superman? Superman. Not me. I don't want the job. Honestly, everything that I have achieved - the blog, open source - is because I was just looking around and I was like "No one has this utility. I should write it for myself." And all we do right now is putting it out there, so we don't have to pay for hosting, we don't have to care about private repos, and subscribe to a continuous integration service, private source control... Because we have tools like GitHub, and JavaScript, and the npm ecosystem. And I used to be working on C++ projects, where you have five libraries that you use, and if you wanna add a sixth one - well, guess what? The first two now don't compile, or don't link properly. Or if you upgrade a version - well, you're probably out of luck, because this version is incompatible.
 
 So as soon as I moved to Node and I started working with JavaScript, I was like "This is so good. I can just grab something off the shelf, use it, and add something else, and they still work. And then add ten more dependencies and they'll still work." And people complain about JavaScript and how fast it's evolving, and it's like "Well, you might as well try other language environments, and then you'll complain when nothing is getting done..." Like, there are no changes. There's a change every couple of years, but there's no user-driven systems, tooling, all the jazz that we love, honestly.
 
-So that's all I've been doing, and I've been doing it for a while - just open-sourcing my work, reusing it at my dayjob, and kind of supporting users that use it for their dayjobs. That's it.
+So that's all I've been doing, and I've been doing it for a while - just open sourcing my work, reusing it at my dayjob, and kind of supporting users that use it for their dayjobs. That's it.
 
 And I will add one more thing - I'm not generous with my time, honestly. I'm not. And I'll tell you how to not be generous. So let's say I have a repo, and you're using it, and you have a question. Now, you'll find my email and you email me directly. And I get these emails every day. "Oh, I'm using this. I have a question... How do you do this?" I will actually reply with a blurb of text that I have, a template in my inbox that says "Sorry, I cannot answer private support questions. It doesn't scale, because ten other users will have the same question. Open a repo issue, ask it in a public Discord/whatever channel, and I'll answer there." And I probably know the answer already. I'll just find it and send a link. But you need to do it publicly. So then, ten other users will find it, will benefit...
 
@@ -68,9 +68,9 @@ I cannot be generous with my private time. It just doesn't work. So the system i
 
 **Gleb Bahmutov:** Stingy with your private, generous with your public work.
 
-**Amal Hussein:** \[00:10:09.20\] Yeah. That's a really cool paradigm, for sure, and I think it requires a certain amount of vulnerability as well, which is hugely important... But yeah, so I think the goal today is there's so much to unpack with you... I wanna hear about your back-story, I wanna hear about your story with Cypress... Especially now, kind of being in a position where you can look back. I wanna hear about you and I, and how we have a story together about Cypress, which is kind of actually key, which is why I feel like I'm like maybe a secret hero of the internet, because I helped make this connection or something, and we improved our testing infrastructure as a result... Anyways, it's fine. I'm trying to take too much credit. But I also wanna get into Cypress.
+**Amal Hussein:** \[10:09\] Yeah. That's a really cool paradigm, for sure, and I think it requires a certain amount of vulnerability as well, which is hugely important... But yeah, so I think the goal today is there's so much to unpack with you... I wanna hear about your back-story, I wanna hear about your story with Cypress... Especially now, kind of being in a position where you can look back. I wanna hear about you and I, and how we have a story together about Cypress, which is kind of actually key, which is why I feel like I'm like maybe a secret hero of the internet, because I helped make this connection or something, and we improved our testing infrastructure as a result... Anyways, it's fine. I'm trying to take too much credit. But I also wanna get into Cypress.
 
-So we'll be getting into kind of a lot here in our three segments, so let's maybe start with some of the Gleb questions. So can you tell us about how you got involved with Cypress? Because I think a lot of you were pretty prolific before Cypress, but I think being a part of Cypress and then also being part of scaling it and open-sourcing it - I feel like you kind of rode a different level of hockey stick fame in the open source community... So tell us a little bit about that.
+So we'll be getting into kind of a lot here in our three segments, so let's maybe start with some of the Gleb questions. So can you tell us about how you got involved with Cypress? Because I think a lot of you were pretty prolific before Cypress, but I think being a part of Cypress and then also being part of scaling it and open sourcing it - I feel like you kind of rode a different level of hockey stick fame in the open source community... So tell us a little bit about that.
 
 **Gleb Bahmutov:** I'll preface it with a thing... I did not write Cypress, right? Cypress was a child of Brian Mann, who is still leading Cypress, the company, who's absolutely hardcore developer, genius with respect to testing tools, knows everything in and out... I just came to Cypress very early. And I came there because I used Cypress for a year while it was still private beta. I had a need for it because we needed to test a web application back at some startup where I worked... And we looked around, and we used all sorts of tools, like PhantomJS, Karma... You name it. And nothing was reliable.
 
@@ -88,33 +88,33 @@ So a year later, Cypress the company raised some money, invited me... You know, 
 
 **Gleb Bahmutov:** Testing always has the smallest budget, right? If you think about the marketing department versus testing, the marketing department is huge. The testing department is small. And I always joke about this, because the marketing department sells you dreams, and the testing department crashes them, like internally; it just kills them.
 
-\[00:14:08.24\] So when people realize how much money they waste by a bug, affecting the production, affecting their reputation... All of a sudden, they're like "Wait, we have to invest in better tooling. We have to invest in training." It becomes a very logical decision. It's no longer like "Move fast and break things." It's more like "What are the best tools that you can use so that you move fast while not breaking things in obvious ways?"
+\[14:08\] So when people realize how much money they waste by a bug, affecting the production, affecting their reputation... All of a sudden, they're like "Wait, we have to invest in better tooling. We have to invest in training." It becomes a very logical decision. It's no longer like "Move fast and break things." It's more like "What are the best tools that you can use so that you move fast while not breaking things in obvious ways?"
 
 **Amal Hussein:** Right.
 
-**Gleb Bahmutov:** And then, immediately we had to figure out how to survive, and we decided to open-source Cypress itself, because no one would write tests using a tool that can just disappear, right? The startup fails, and the tool is gone, and then all your tests are gone. Poof. Or the startup decides to charge you ten time more money for the license, and you're like "Why?"
+**Gleb Bahmutov:** And then, immediately we had to figure out how to survive, and we decided to open source Cypress itself, because no one would write tests using a tool that can just disappear, right? The startup fails, and the tool is gone, and then all your tests are gone. Poof. Or the startup decides to charge you ten time more money for the license, and you're like "Why?"
 
-So we open-sourced Cypress, we figured out we're gonna make money off additional services, like recording the test artifacts, like videos, screenshots, test results. Maybe running tests in parallel. That was my first big project at Cypress, making parallelization happen.
+So we open sourced Cypress, we figured out we're gonna make money off additional services, like recording the test artifacts, like videos, screenshots, test results. Maybe running tests in parallel. That was my first big project at Cypress, making parallelization happen.
 
 And so Cypress is doing that. We're doing it pretty well, I wanna say... Obviously, I don't know the numbers for the last year; I left Cypress. But they seem to be doing very well. I joined a much larger corporation now, and I'm using Cypress from the other side. I used to work on Cypress itself, on the dashboard integrations; now I'm the head of automation department, we write hundreds of tasks, we maintain them, and I see Cypress and the dashboard as a user 100%. So I'm very happy with Cypress, I'm very happy with my automation team...
 
 And now we can talk about everyone's career, because I know everyone who's listening is probably thinking "Okay, it's all good... How do we find a better job? How can open source help my career?" Should we talk about this, Amal?
 
-**Amal Hussein:** We can definitely talk about this, but I also wanna make sure we talk about the open-sourcing journey for the project... Because you did open-source it, and that was, I think, a huge... It was kind of a monumental thing for the project, because by open-sourcing it, all of a sudden it wasn't this private tool that some random startup was saying like "Trust us!" It was like, "Okay, here, take the core. You have the core, it's open source. Here's a bunch of other services that you can buy if you wanna support this company, if you wanna have a better integration suite." But I thought that was really, really cool.
+**Amal Hussein:** We can definitely talk about this, but I also wanna make sure we talk about the open sourcing journey for the project... Because you did open source it, and that was, I think, a huge... It was kind of a monumental thing for the project, because by open sourcing it, all of a sudden it wasn't this private tool that some random startup was saying like "Trust us!" It was like, "Okay, here, take the core. You have the core, it's open source. Here's a bunch of other services that you can buy if you wanna support this company, if you wanna have a better integration suite." But I thought that was really, really cool.
 
-**Gleb Bahmutov:** A huge part was is Brian Mann just convincing the company. Once you raise some money, you are no longer owning the thing. No matter what people say. Investors will own a huge chunk, and will actually determine where it's going, honestly. You cannot just say "Oh, we're gonna open-source the thing." Right?
+**Gleb Bahmutov:** A huge part was is Brian Mann just convincing the company. Once you raise some money, you are no longer owning the thing. No matter what people say. Investors will own a huge chunk, and will actually determine where it's going, honestly. You cannot just say "Oh, we're gonna open source the thing." Right?
 
 **Amal Hussein:** Oh, I know. It's run by the board.
 
-**Gleb Bahmutov:** It's run by the board, and... You know, Brian convinced people that open-sourcing is a great decision, because otherwise there's this risk and nobody is gonna use you as a tool. From a technical perspective, open-sourcing means a bunch of things. Everything from making sure that whatever you open source only has all the licenses squared up. You're not using third-party dependencies with private licenses... Everything -- you have to have a licensing contribution agreement for everyone who contributes. You have to clean up the repo and make sure that anyone who wants to submit a pull request can actually do that.
+**Gleb Bahmutov:** It's run by the board, and... You know, Brian convinced people that open sourcing is a great decision, because otherwise there's this risk and nobody is gonna use you as a tool. From a technical perspective, open sourcing means a bunch of things. Everything from making sure that whatever you open source only has all the licenses squared up. You're not using third-party dependencies with private licenses... Everything -- you have to have a licensing contribution agreement for everyone who contributes. You have to clean up the repo and make sure that anyone who wants to submit a pull request can actually do that.
 
-To me, open-sourcing is almost like -- you know, imagine you have a car, and you wanna bring it to a car show, and you wanna pop the hood so that other people can look into it, right? Well, you probably need to make sure that under the hood things are in order, and look good, and you can be proud of it.
+To me, open sourcing is almost like -- you know, imagine you have a car, and you wanna bring it to a car show, and you wanna pop the hood so that other people can look into it, right? Well, you probably need to make sure that under the hood things are in order, and look good, and you can be proud of it.
 
 **Amal Hussein:** Yeah, that makes sense.
 
 **Gleb Bahmutov:** So we've done, for a couple of months -- just cleaning up things, organizing them, putting them all in one place, so it's not like ten different repos...
 
-**Amal Hussein:** \[00:18:05.04\] Okay. I have a burning question for you on open source, and then I wanna hear from Divya and Chris, because I've been super-chatty \[unintelligible 00:18:09.02\] here... But I always wondered, when you open-source a repo, what do you do with your Git tree? Specifically, if you're removing stuff when you're cleaning it up to be open source, the ref log is gonna not be your friend here, because people could in theory go back. So what do you do? Do you start a new Git tree? If so, what about all that fidelity that you are losing? So I'm just curious...
+**Amal Hussein:** \[18:05\] Okay. I have a burning question for you on open source, and then I wanna hear from Divya and Chris, because I've been super-chatty \[unintelligible 00:18:09.02\] here... But I always wondered, when you open source a repo, what do you do with your Git tree? Specifically, if you're removing stuff when you're cleaning it up to be open source, the ref log is gonna not be your friend here, because people could in theory go back. So what do you do? Do you start a new Git tree? If so, what about all that fidelity that you are losing? So I'm just curious...
 
 **Christopher Hiller:** So what I've seen happen is people just zap it. Maybe if they need that, the old info, they keep it in the archive somewhere... It would be interesting to know what Cypress did there, because I have no idea. I could imagine I would be the kind of person who'd wanna go and massage the history and spend a week just fixing up change sets, and reordering things like a crazy person... Which is a thing I like to do.
 
@@ -142,7 +142,7 @@ To me, open-sourcing is almost like -- you know, imagine you have a car, and you
 
 **Amal Hussein:** And it was like several different languages, right? It was like CoffeeScript, \[unintelligible 00:19:59.20\] ThisScript, ThatScript, NancyScript... Like, all the scripts. How many languages was in the --
 
-**Gleb Bahmutov:** \[00:20:07.05\] It was just CoffeeScript, because it started, let's say, probably like seven years ago, when ES6 was not a thing, and the only language you could use with modules and sane semantics was CoffeeScript. And I have to say, CoffeeScript was my bridge, because I used to be a C++, then C\# developer, and I could never program in JavaScript. To me it was like a bowl of spaghetti code all the time. And then I discovered CoffeeScript and it made sense. And when I saw Cypress, I was like "Oh, it's written in CoffeeScript." I was like, "Gotcha!"
+**Gleb Bahmutov:** \[20:07\] It was just CoffeeScript, because it started, let's say, probably like seven years ago, when ES6 was not a thing, and the only language you could use with modules and sane semantics was CoffeeScript. And I have to say, CoffeeScript was my bridge, because I used to be a C++, then C\# developer, and I could never program in JavaScript. To me it was like a bowl of spaghetti code all the time. And then I discovered CoffeeScript and it made sense. And when I saw Cypress, I was like "Oh, it's written in CoffeeScript." I was like, "Gotcha!"
 
 And not only the tool was written itself in CoffeeScript, you could write the tests -- you can probably still write it (I don't know) in CoffeeScript. Like, your spec files could be CoffeeScript. And it's like super-clean syntax... It actually looks very nice.
 
@@ -168,15 +168,15 @@ So pragmatic TypeScript is basically just timebox yourself on TypeScript... And 
 
 **Amal Hussein:** We can do that.
 
-**Gleb Bahmutov:** Okay. So if you start open-sourcing things, then first of all, you have a record of your work that anyone can look up. So next time you get to a company and you go to interview at a company, you can point and say "Okay, this is what I read and write. We can discuss that. This is why I've done it." But it's no longer "Oh, I've done this thing, but I cannot show anything, because it was private to my company." So now, all of a sudden, discussions are concrete. And they can pretty much replace the whiteboard coding interviews, because - like, why? Why would you -- like, I would never give someone a whiteboard coding interview right now \[unintelligible 00:23:01.28\] "Here's my open source project. This is what I contributed, this is my commit, and we can discuss it." It makes a lot more sense.
+**Gleb Bahmutov:** Okay. So if you start open sourcing things, then first of all, you have a record of your work that anyone can look up. So next time you get to a company and you go to interview at a company, you can point and say "Okay, this is what I read and write. We can discuss that. This is why I've done it." But it's no longer "Oh, I've done this thing, but I cannot show anything, because it was private to my company." So now, all of a sudden, discussions are concrete. And they can pretty much replace the whiteboard coding interviews, because - like, why? Why would you -- like, I would never give someone a whiteboard coding interview right now \[unintelligible 00:23:01.28\] "Here's my open source project. This is what I contributed, this is my commit, and we can discuss it." It makes a lot more sense.
 
 So this is the great part - it removes this whole problem with interviewing, this whole nervousness, this whole on-the-spot thing. Okay. So that's great. But another thing that will super-charge you after a couple of years probably if you keep it up, is that you're gonna be invited to join the companies just based on your open source work. People will email you a LinkedIn, or whatever... Just talk to you and say "Hey, why don't you come on board? You know this tool, you've done this awesome job right here... Why don't you join us?" It's this huge change. And you just have to keep it up with the open source work. Will it happen on the clock? Probably not. But it probably will happen.
 
 But there is another, I would say complementary work to just programming. Programming is great. Coding is great. But you have to write. You have to write blog posts, you have to write presentations, you have to promote your work, you have to explain it. And you'll benefit yourself from doing it, and other people will understand what you're doing. The number of people who are gonna look at your source code is probably single-digits; maybe someone reviews your pull request, maybe someone digs into how the library works... Very small. But if you write a blog post saying "This is how you do" (let's say, in my case) unit testing, or testing a Node program, or testing a CLI program, or testing a website." The number of people who will read it could be thousands.
 
-**Break:** \[00:24:42.11\]
+**Break:** \[24:42\]
 
-**Christopher Hiller:** So moving from open source careers and kind of back to this open-sourcing Cypress question... Cypress is - last time I checked - permissively licensed, and I was curious how Cypress arrived at that... Because a lot of companies in similar VC-funded situations will choose essentially anything but a permissive license, because they don't want some competitor to go and take the source code and run with it. So how did you get to -- I believe it's even MIT. How did you get to MIT, and how has that worked out?
+**Christopher Hiller:** So moving from open source careers and kind of back to this open sourcing Cypress question... Cypress is - last time I checked - permissively licensed, and I was curious how Cypress arrived at that... Because a lot of companies in similar VC-funded situations will choose essentially anything but a permissive license, because they don't want some competitor to go and take the source code and run with it. So how did you get to -- I believe it's even MIT. How did you get to MIT, and how has that worked out?
 
 **Gleb Bahmutov:** Yeah. Excellent question. So yes, Chris, Cypress the test runner itself is licensed under MIT license, just like all the plugins that Cypress does. All the integrations with particular tooling that it has. All the reporters, and CI integrations, and all that. It's all MIT-licensed. One reason is because I'm in Cambridge, Massachusetts, down the street from the MIT University. So that's obvious; that's one answer. No, but the serious thing --
 
@@ -184,7 +184,7 @@ But there is another, I would say complementary work to just programming. Progra
 
 **Gleb Bahmutov:** The MIT University has nothing to do with it. Cypress as a company was founded in Atlanta, Georgia, right next to Georgia Tech University. So MIT would not play a role.
 
-\[00:28:05.10\] But yes, for two reasons... One, it's the most permissive license where the companies that are gonna use it are not gonna be afraid of using it. They're not gonna say "Oh, can we use it just for our open source, or public website, or internal tooling?" No. So the wide adoption was the goal, and the MIT license allowed the widest adoption, we felt.
+\[28:05\] But yes, for two reasons... One, it's the most permissive license where the companies that are gonna use it are not gonna be afraid of using it. They're not gonna say "Oh, can we use it just for our open source, or public website, or internal tooling?" No. So the wide adoption was the goal, and the MIT license allowed the widest adoption, we felt.
 
 Another thing, speaking about competitors - Cypress the test runner is now used by Cypress the dashboard competitors. If you go to BrowserStack, you can run Cypress, and the results will be written on the dashboard. If you use AWS Amplify, you use the test runner, and they will show you results on their dashboard. \[unintelligible 00:28:47.17\] same thing.
 
@@ -222,9 +222,9 @@ So I myself envision this giant pie; and only a thin slice of the pie is eaten b
 
 **Gleb Bahmutov:** It was wide adoption, and even if some market share of test runs results will be captured by a competitor to Cypress the company, that's fine. No big deal.
 
-**Amal Hussein:** Right. And that's because Cypress - for those who might be wondering, Cypress is an open source project, the core is open source, there's lots of modules and plugins that are also open source, some maintained by Cypress, some maintained by the community... And the company itself makes its money off of its dashboard subscriptions. That's what we're talking about here. And basically, because they've open-sourced everything, it's also enabled other competitors like AWS Amplify, for one, for example, to show those results, right?
+**Amal Hussein:** Right. And that's because Cypress - for those who might be wondering, Cypress is an open source project, the core is open source, there's lots of modules and plugins that are also open source, some maintained by Cypress, some maintained by the community... And the company itself makes its money off of its dashboard subscriptions. That's what we're talking about here. And basically, because they've open sourced everything, it's also enabled other competitors like AWS Amplify, for one, for example, to show those results, right?
 
-**Gleb Bahmutov:** \[00:32:08.15\] Exactly.
+**Gleb Bahmutov:** \[32:08\] Exactly.
 
 **Amal Hussein:** And to kind of compete with their dashboard product. But I think they've taken a really strategic bet around scale, and so I think that's really, really smart. And I think when developers are the ones who are advocating, you've done something right. And I think for me that was -- what I've found most interesting about Cypress was just it really solved a big need that we had in our community, and we had a lot of pain doing similar things... But then also just mass adoption, across the board. Startups, Fortune 500's, Fortune 50, Fortune 10 companies... I mean, it's kind of wild.
 
@@ -246,7 +246,7 @@ So right now, I work at Mercari U.S, which is this online marketplace. You can s
 
 **Amal Hussein:** Okay, got it. I was like, "Wait, wait a second... What's going on?" Okay, yes.
 
-**Gleb Bahmutov:** \[00:36:02.09\] Imagine you buying furniture from someone else, some other person or store. And you have to pick it, make payment... From multiple providers. You can find a delivery service... Another company will go and deliver, and so on. So imagine how many systems actually work together to make it happen, and when you have thousands of users every minute. So imagine how you test that. We have, let's say, probably like 600 end-to-end tests in our dev environment.
+**Gleb Bahmutov:** \[36:02\] Imagine you buying furniture from someone else, some other person or store. And you have to pick it, make payment... From multiple providers. You can find a delivery service... Another company will go and deliver, and so on. So imagine how many systems actually work together to make it happen, and when you have thousands of users every minute. So imagine how you test that. We have, let's say, probably like 600 end-to-end tests in our dev environment.
 
 **Amal Hussein:** True end-to-end.
 
@@ -268,7 +268,7 @@ So I was impressed myself, and I hope the users who tried it are also impressed.
 
 **Gleb Bahmutov:** Yeah. And it still is in progress. And I'll tell you an example. So it used to be that Cypress would only do end-to-end testing. You visit the URL, you find a button, you click on it, and then the website would contact the backend, and then show results. Excellent. So now, Cypress released something called component testing. So imagine you're a developer and you work on a date picker that fetched available date intervals, when you can schedule something, like a pick-up. Okay. Well, how would you test that? It used to be that you would use something that runs in Node, like Mocha, Jest, AVA, and so on, that would emulate the browser, that would render your component in this DOM emulation, and then you would have to know specific framework things for --
 
-**Amal Hussein:** \[00:40:19.14\] The secret handshakes, I call them...
+**Amal Hussein:** \[40:19\] The secret handshakes, I call them...
 
 **Gleb Bahmutov:** The secret handshakes with that framework, and the testing tool \[unintelligible 00:40:24.16\] say "Fire a click event, and then turn the wheel, so that the framework does its processing, and then renders results in this thing that you don't see, because it runs in complete DOM emulation."
 
@@ -300,7 +300,7 @@ This version of Cypress has support for React, Angular and Vue. I'm super-happy 
 
 **Amal Hussein:** Jsdom, thank you. Yes. Jsdom, right? I'm like, come on, people. We are reinventing the wheel. Let's just use Node tools for Node testing, and let's use browser tools for browser testing. Like, how do you know your images are rendering? How do you know your CSS is working? It always speaks to that JavaScript hungry-hungry-hippo phase that we're going through as a community... Like, anything that can be done with JavaScript, will be done with JavaScript, regardless of whether it's a good idea or not... So anywhoo... I'm ranting now.
 
-**Christopher Hiller:** \[00:44:13.01\] I feel like those headless browsers, like your Phantom, they really filled this niche, because it was a need...
+**Christopher Hiller:** \[44:13\] I feel like those headless browsers, like your Phantom, they really filled this niche, because it was a need...
 
 **Amal Hussein:** There was a need. There was a need. But we've evolved past it now though. We have better tools.
 
@@ -322,7 +322,7 @@ So to me, it's like, think about the speed you're optimizing for, because it mig
 
 **Amal Hussein:** Yeah, I get that. There's so much to unpack here... To kind of summarize, Cypress has really pushed the needle for our ability to have good DX, and maintain our tests, and also be able to test more things with it, not just integration and end-to-end tests, but actually component tests, right? And that's really exciting.
 
-**Break:** \[00:47:50.19\]
+**Break:** \[47:50\]
 
 **Divya:** So we talked a little bit about Cypress and the various testing frameworks, the history of that and how it came to be, but what is upcoming, or what are the innovations that are sort of on the horizon for Cypress?
 
@@ -330,7 +330,7 @@ So to me, it's like, think about the speed you're optimizing for, because it mig
 
 I personally was always against that tool, because it's hard just to record a good test by interacting. Because you only can record actions on the page, rather than actions and assertions, which is a big part of a test. Anyway, that thing aside, Chrome the browser team has created a recorder. If you open in Chrome the dev tools, there is a new panel. It's experimental, but it's there by default, called Recorder, where you can click a button and record the interaction with your site, and then export it as a JSON or as a Puppeteer, which is another test runner tool from Google. Okay... Cypress has released --
 
-**Jingle:** \[00:53:32.20\]
+**Jingle:** \[53:32\]
 
 **Amal Hussein:** I'm having a lot of fun with soundbites. I've never touched this button today. I was hoping this would be a very quick TIL, but it was like a dramatic one...
 
@@ -342,7 +342,7 @@ I personally was always against that tool, because it's hard just to record a go
 
 **Amal Hussein:** Resume, please...
 
-**Gleb Bahmutov:** \[00:53:54.24\] So the Cypress team has just released Cypress Chrome Recorder Extension. You install it in your Chrome browser, then you go back to the recorder panel, you record the test by interacting with the site, clicking, typing and so on, and then at the end you can export it as a Cypress test, and it has all the Cypress commands. You just edit it, you add maybe assertions of what you expect for each step, or at the end to have on the page, and it's done.
+**Gleb Bahmutov:** \[53:54\] So the Cypress team has just released Cypress Chrome Recorder Extension. You install it in your Chrome browser, then you go back to the recorder panel, you record the test by interacting with the site, clicking, typing and so on, and then at the end you can export it as a Cypress test, and it has all the Cypress commands. You just edit it, you add maybe assertions of what you expect for each step, or at the end to have on the page, and it's done.
 
 So Cypress Studio is gone, but they replaced it with this Chrome extension... Which actually might make more sense, because you might be already on a site -- let's say you see a bug, right? Right there in the browser you just start recording it, go all the way to the bug, export as a test and say "This is a reproduction for the bug. Now make it as a small regression test."So I'm really excited about that.
 
@@ -370,7 +370,7 @@ But I have to say that I don't like all aspects of online conferences as a speak
 
 What I want to encourage everyone in the community to take advantage of are not just online conferences, because usually they have like a free track, or they publish talks afterwards... It's a lot more professional now than in-person conferences. But take advantage of workshops. So during Covid, you had to do workshops online, so a lot of people actually stepped up their game. They are better prepared, they know what to do, they know more specifically how to interact with each person... But online workshops are much better than they used to be before Covid, because you had to improve.
 
-\[00:58:05.01\] But I wanna take an issue with some conference organizers... Not only they invite me to do online talks, which is fine; they want to invite me to do online workshops, for free. Usually, it's like, "Oh, can you do it for 2-3 hours?" I'm like, "2-3 hours is a huge chunk of preparation."
+\[58:05\] But I wanna take an issue with some conference organizers... Not only they invite me to do online talks, which is fine; they want to invite me to do online workshops, for free. Usually, it's like, "Oh, can you do it for 2-3 hours?" I'm like, "2-3 hours is a huge chunk of preparation."
 
 So it's fine, I've done it a couple times, I encourage everyone to attend online workshops if it's available. I'll do one for Testing For Good, which will be in October, organized by Sauce Labs. 2-3 hours about testing using Cypress, end-to-end and component...
 
