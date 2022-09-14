@@ -88,7 +88,7 @@ And so instead of going that route, I went for the Electron quick-start app, whi
 
 **Jessica Lord:** I mean, I think that there was a need for this, in the way that there's always a need to simplify your tasks, right? Engineers always want to simplify things, have less to maintain. Electron lets you do more with fewer people, with fewer codebases. And I think it empowers people, too. I think web developers and designers who maybe didn't think this was within their reach, all of a sudden, they have a new creative outlet. So I think for more experienced teams, it reduces the work and streamlines things. And then I think for more people, it's a creative outlet and it empowers them to make more.
 
-**Adam Stacoviak:** In particular, recently, I had a conversation with Simon Wilson, who is the steward of many open source projects, but one, in particular, is Datasette, as in cassette, but Datasette.
+**Adam Stacoviak:** In particular, recently, I had a conversation with Simon Willison, who is the steward of many open source projects, but one, in particular, is Datasette, as in cassette, but Datasette.
 
 **Jessica Lord:** So Python.
 
