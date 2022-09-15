@@ -22,7 +22,7 @@
 
 **Roger Peppe:** It's always the morning on the internet. Good morning! \[laughter\]
 
-**Mat Ryer:** \[00:04:00.01\] It's always the morning somewhere on the internet. Well, people do terrible things in the morning then, in that case... Okay. Well, before we get going, Egon, I was interested, what have you been working on lately? Anything interesting?
+**Mat Ryer:** \[04:00\] It's always the morning somewhere on the internet. Well, people do terrible things in the morning then, in that case... Okay. Well, before we get going, Egon, I was interested, what have you been working on lately? Anything interesting?
 
 **Egon Elbre:** One of the recent things I finished was a project called \[unintelligible 00:04:13.10\] which allows you to browse source code, and to compile the assembly side by side, and see how Go translates into assembly, essentially, and do this interactively. a nice way to visualize it when you're optimizing things.
 
@@ -94,7 +94,7 @@
 
 **Mat Ryer:** Yeah. Well, I know that's a binary format, so that sounds small... A billion. \[laughs\] I've learned my lesson.
 
-**Roger Peppe:** \[00:08:06.18\] gRPC is -- well, that includes all the protobuf too, right?
+**Roger Peppe:** \[08:06\] gRPC is -- well, that includes all the protobuf too, right?
 
 **Egon Elbre:** Yes.
 
@@ -160,7 +160,7 @@
 
 **Roger Peppe:** Yeah, I have to say that I don't personally review all our dependencies, because I don't have the time... But if I take on a dependency, I look at the dependencies of the dependencies often. I'm always more concerned about that. If something just depends on the standard library, I feel that I've got a handle on it. But if it's depending on other projects, then that's a bit more problematic. So in projects that I maintain, I try to keep the amount of dependencies, particularly when it's a library that some people are going to use, like the few I maintain, I just try to keep the dependencies absolutely minimal, if possible.
 
-**Mat Ryer:** \[00:12:23.16\] Yeah. So how do you do that? Do you have to manually go and look at all the projects?
+**Mat Ryer:** \[12:23\] Yeah. So how do you do that? Do you have to manually go and look at all the projects?
 
 **Roger Peppe:** I look at go.mod, actually, and I'm like "Why have I got that dependency? Do I need that dependency? How can I strip it out?" And I was doing that a while ago with some fairly large codebase, "Why have we got this --" And I came across -- that was actually probably what ended up with me on this call actually, because I came across Egon's tool, Goda, which is a fantastic way to try and visualize to see why you are using a particular dependency, and how you might be able to hack it out.
 
@@ -176,7 +176,7 @@
 
 **Roger Peppe:** The other thing that the Goda tool is really useful for, I've found, is trying to sort of -- a code bloat which we haven't really talked about is code bloat in your own codebase. So when your code base gets really big, and you've done some changes, and you've made some big migrations, but you've still got some old bits of code, and just trying to make sense of this tangle of dependencies, that you end up with something... If you have more or less a monorepo, then you can have a very tangled set of dependencies, and it's really quite hard to make sense of them somehow, to try and work out "Okay, we want to factor these things out into their own thing", but you don't know where everything's coming into it, what's coming out of it... And I found that incredibly helpful when I was making some changes, particularly in my previous job at Influx Data... Trying to do some big, big code changes, and it was quite hard to work out the dependency relationship.
 
-\[00:16:21.17\] Of course, Go is fantastic because of a great rule that it has - you can have no cyclic dependencies. That is amazing, actually. That rule, just in itself, has contributed hugely, I believe, to the maintainability of larger Go codebases. Because without it, you tend to get in a situation where something at the very bottom of the dependency tree tends to point something quite near the top, and then you have this big ball of mud, which is like a Gordian knot, and you can't cut it. \[laughter\]
+\[16:21\] Of course, Go is fantastic because of a great rule that it has - you can have no cyclic dependencies. That is amazing, actually. That rule, just in itself, has contributed hugely, I believe, to the maintainability of larger Go codebases. Because without it, you tend to get in a situation where something at the very bottom of the dependency tree tends to point something quite near the top, and then you have this big ball of mud, which is like a Gordian knot, and you can't cut it. \[laughter\]
 
 **Mat Ryer:** Yeah. So for people that don't know, this is where you'll have, say, three packages. A imports B, B imports C; that'd be fine. But it's when then C imports A, and you get this strange circle, right? Is that right?
 
@@ -200,7 +200,7 @@ I quite like it when the structure emerges, rather than is imagined... Because s
 
 **Egon Elbre:** I think you now need to explain the modem as well.
 
-**Mat Ryer:** \[00:19:56.13\] Yeah... This is it. No, it's all changed so much... And by the way, I started young. I'm not old. I just want to make that clear. But why do we care about binaries now? Because we can get away with great, big binaries, can't we? What's the big deal? They upload in no time, they move around the web pretty quickly... Do we care about big binaries?
+**Mat Ryer:** \[19:56\] Yeah... This is it. No, it's all changed so much... And by the way, I started young. I'm not old. I just want to make that clear. But why do we care about binaries now? Because we can get away with great, big binaries, can't we? What's the big deal? They upload in no time, they move around the web pretty quickly... Do we care about big binaries?
 
 **Egon Elbre:** I think mostly we don't. If we did, we already would have done something significant about it. But there are definitely cases where we do care.
 
@@ -240,7 +240,7 @@ I quite like it when the structure emerges, rather than is imagined... Because s
 
 **Mat Ryer:** Well, then you did a fine job. \[laughs\]
 
-**Break:** \[00:22:11.01\]
+**Break:** \[22:11\]
 
 **Mat Ryer:** Okay, so small devices - and this is where TinyGo comes in, because this is the problem that TinyGo is trying to address, is so that you can still use what is essentially the standard library, but it's much smaller; it's deliberately designed to be cut down and simpler.
 
@@ -262,7 +262,7 @@ I quite like it when the structure emerges, rather than is imagined... Because s
 
 **Egon Elbre:** Yeah, it worked pretty well, and it was really nice.
 
-**Mat Ryer:** \[00:26:13.04\] Yeah, I liked it.
+**Mat Ryer:** \[26:13\] Yeah, I liked it.
 
 **Egon Elbre:** I did get some embedded device noise on it, so some of the buttons didn't work as they were supposed to, but it still did things, I guess...
 
@@ -296,7 +296,7 @@ I think that's interesting future there with WASM, and I think therefore TinyGo 
 
 **Roger Peppe:** Yes, it's really cool. An interesting observation is that in the smaller Go programs, one of the main contributors to binary bloat is the Fmt package... Because that actually is quite big, and so many things have it as a dependency.
 
-**Mat Ryer:** \[00:30:02.10\] Yeah. And it feels something that's just baked into the standard library, and therefore it's just around and you can just always use it... But if you think about all the things -- when you use the verbs, all the different things you can do, the reflection, and everything... You can see why it ended up having lots of dependencies.
+**Mat Ryer:** \[30:02\] Yeah. And it feels something that's just baked into the standard library, and therefore it's just around and you can just always use it... But if you think about all the things -- when you use the verbs, all the different things you can do, the reflection, and everything... You can see why it ended up having lots of dependencies.
 
 **Roger Peppe:** I mean, it hasn't itself got lots of dependencies, but it is itself quite a large amount of code; it does a lot of reflection code... It's quite a lot of code.
 
@@ -352,7 +352,7 @@ I think that's interesting future there with WASM, and I think therefore TinyGo 
 
 **Mat Ryer:** Yeah. I think whenever you end up with bits of the system that you just don't touch, like "No, don't go and touch this. Be scared of this", I think... I've had that situation before. And even in projects where I've been the only one working on it, I'd just managed to get something right, and I don't have the context... And it's messy; I never cleaned it up, and then I just don't want to even touch it. And with Go, I find that I do less of that, particularly because testing is such a big, first-class concern in Go. And I tend to write TDD... So I will, at the end of writing and solving a problem, I can just go back and just very boldly hack away at it, change it, make big changes,= with the confidence that as long as the tests are passing, then all the promises I've made are being still true.
 
-**Roger Peppe:** \[00:34:13.20\] That's great until you find that all the tests that you've written using mocking, and that you're changing some of the things that they depend on, and so all your tests are now invalid, right? Because this is can be very hard...
+**Roger Peppe:** \[34:13\] That's great until you find that all the tests that you've written using mocking, and that you're changing some of the things that they depend on, and so all your tests are now invalid, right? Because this is can be very hard...
 
 **Mat Ryer:** Yeah. I think strategies like when you keep the interface near where you're going to use it - that as a rule I quite like. Some packages will have - they'll expose interfaces, and I the idea... Like, if I'm going to use the SendGrid API, if I have a sender interface that just has the single method that I'm going to use in there, this to me - it's not really solving anything to do with code bloat, but I'm really explaining there that this is what I care about, this piece. And then if there's any mocking or anything that, then it's much smaller. But yeah... I tend not to do much mocking. I tend to do a lot more integration testing.
 
@@ -386,7 +386,7 @@ I think that's interesting future there with WASM, and I think therefore TinyGo 
 
 **Egon Elbre:** At some point I was thinking about technical debt, trying to give a rigorous answer, like what is it... What I ended up is that -- let's say there's some effort that you put into maintaining a codebase. It doesn't need to be maintaining, but maybe there are other aspects. And then there's the ideal state of how much effort you need to put into that codebase to maintain it, right? So the difference between those ideal state and your current state is going to be the technical depth, right?
 
-**Mat Ryer:** \[00:37:57.00\] Sounds reasonable.
+**Mat Ryer:** \[37:57\] Sounds reasonable.
 
 **Egon Elbre:** Yeah. But there's one funny thing there... Let's say there's an innovation in the technology, right? When React came up, the idea of maintainability or the effort to maintain got lower, which means that your technical debt goes high up if there's an innovation. So...
 
@@ -412,7 +412,7 @@ I think a lot of people are like "We shouldn't do any design upfront." I really 
 
 **Roger Peppe:** That sort of leads through to one of the things where I think is sort of key to avoiding code bloat, is just designing the right abstractions. If you get the abstractions right up front... There's this feeling when you're wrestling with the wrong abstraction, you just feel the code is piling up. You're just writing all this code, because you've got the wrong abstraction, because you're doing things the wrong way. If you get it right, maybe you change your abstraction and start to do things differently, and suddenly you can be like "Oh, gosh, I can delete that entire package. I can delete that entire directory." You can delete hundreds of thousands of lines of code sometimes because you've changed the way it's working in a very subtle -- in what was initially maybe not a very obvious way.
 
-**Egon Elbre:** \[00:41:52.00\] I remember a talk about designing things for deletability, so that it's easy to delete features, rather than to extend... Because if it's easy to delete, then it's probably easy to replace.
+**Egon Elbre:** \[41:52\] I remember a talk about designing things for deletability, so that it's easy to delete features, rather than to extend... Because if it's easy to delete, then it's probably easy to replace.
 
 **Roger Peppe:** Yep.
 
@@ -450,7 +450,7 @@ So that's the other thing, it is very important, and practicing designing abstra
 
 **Mat Ryer:** Yeah. Pedantic. But the last question was -- it just said, "Design or explain how you would regulate the temperature in a swimming pool." And I wrote the BASIC code; because I used to write BASIC at home. So I wrote this little BASIC program that did that... And I don't know, it was just like -- we didn't learn any of that at school, so of course, they were surprised, to say the least... But I did alright.
 
-**Break:** \[00:45:15.07\]
+**Break:** \[45:15\]
 
 **Mat Ryer:** Egon, you made a point earlier about features... Because I think that is another way to avoid bloat. And a feature, when you imagine it, say, in a website, and it shows up - it just seems like a logical thing to have. But sometimes that feature adds quite a lot of complexity to the system.
 
@@ -478,7 +478,7 @@ So that's the other thing, it is very important, and practicing designing abstra
 
 **Mat Ryer:** Well, it's that time... It's that time that -- we always have a time on Go Time, and it's this time... It's unpopular opinions time. It's time also for the theme tune.
 
-**Jingle:** \[00:50:26.23\] to \[00:50:46.05\]
+**Jingle:** \[50:26\] to \[50:46\]
 
 **Mat Ryer:** Roger, would you record a fiddle accompaniment to that, so that we can play it next time?
 
@@ -506,7 +506,7 @@ So that's the other thing, it is very important, and practicing designing abstra
 
 **Mat Ryer:** Sometimes there are packages out there and they maybe have a couple of stars, they're not really used by anybody... But there are clues, there are signals to look for for packages that are sort of a bit meatier and a bit more stable. Is it our responsibility?
 
-**Roger Peppe:** \[00:52:06.06\] I have to say that I don't do that. What I do tend to do is when I look at a dependency, I look through the code and say, "Does this look what I would expect to find in a package that is implementing that functionality? Does it generally look good, feel about right? Is this too big for what it should be?" And I quite often say, "No, no, let's not that have that. This is horrible."
+**Roger Peppe:** \[52:06\] I have to say that I don't do that. What I do tend to do is when I look at a dependency, I look through the code and say, "Does this look what I would expect to find in a package that is implementing that functionality? Does it generally look good, feel about right? Is this too big for what it should be?" And I quite often say, "No, no, let's not that have that. This is horrible."
 
 **Mat Ryer:** Yeah. "Does it have tests?" That's a quick check...
 
@@ -556,7 +556,7 @@ Of course, when I say you review them with the same standard, you don't worry ab
 
 **Mat Ryer:** What do you think of that, Egon?
 
-**Egon Elbre:** \[00:55:58.09\] I do think it's nice. I occasionally go to coffee shops to program there, and it does give you a bit more focus.
+**Egon Elbre:** \[55:58\] I do think it's nice. I occasionally go to coffee shops to program there, and it does give you a bit more focus.
 
 **Mat Ryer:** Yeah. I also wonder, Roger, if it's because most of your time has been spent there, rather than -- if you think about in the past, you didn't have all this tech and tease monitors and this desk that moved up and down.
 
@@ -620,7 +620,7 @@ Of course, when I say you review them with the same standard, you don't worry ab
 
 **Mat Ryer:** Fair enough. That's pretty cool. Yeah, I always wonder about these people that are amazing on the keyboards. I always look up to them, but maybe it is just that they're rubbish with a mouse. Like, they just can't do it. It could be that.
 
-**Roger Peppe:** \[00:59:10.18\] I actually quite the touchpoint thing. So I don't use the touchpad; when I do use my laptop, I don't use the touchpad, I use this touchpoint thing, which is only on Lenovos.
+**Roger Peppe:** \[59:10\] I actually quite the touchpoint thing. So I don't use the touchpad; when I do use my laptop, I don't use the touchpad, I use this touchpoint thing, which is only on Lenovos.
 
 **Mat Ryer:** Why is that?
 
