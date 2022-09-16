@@ -74,7 +74,7 @@ So it's not a unique thing, I don't think... It's not a unique thing even for th
 
 **Gerhard Lazu:** Fascinating! \[laughs\]
 
-**Ganeshkumar Ashokavardhanan:** That one was pretty funny... \[unintelligible 00:14:39.05\]
+**Ganeshkumar Ashokavardhanan:** That one was pretty funny... I like how he did the RCA
 
 **Brendan Burns:** I had some fun with it, I have to admit.
 
@@ -124,7 +124,7 @@ But I also would say I let people bring their own agenda. I'm always really clea
 
 **Ganeshkumar Ashokavardhanan:** I heard Brendan has records for running, and he challenges people in his org to read it...
 
-**Brendan Burns:** I do. We have a giving campaign every year, which is one of the things -- you talked about Microsoft and the culture... One of the things that I really value in addition to empowering everyone to do more is that sense of Microsoft as a member of the community. And Microsoft \[unintelligible 00:23:03.26\] every year is a focus on philanthropy and giving back. And I think that is huge, and it just resonates so well with me personally. But as part of that, there's a charity 5k. And so there is a standing offer within the org than anyone who runs faster than me in that 5k, I will donate a significant amount of money to the charity if they were to beat me. And actually, one person did. So there was a guy -- he's no longer in the org...
+**Brendan Burns:** I do. We have a giving campaign every year, which is one of the things -- you talked about Microsoft and the culture... One of the things that I really value in addition to empowering everyone to do more is that sense of Microsoft as a member of the community. And Microsoft Give every year is a focus on philanthropy and giving back. And I think that is huge, and it just resonates so well with me personally. But as part of that, there's a charity 5k. And so there is a standing offer within the org than anyone who runs faster than me in that 5k, I will donate a significant amount of money to the charity if they were to beat me. And actually, one person did. So there was a guy -- he's no longer in the org...
 
 **Gerhard Lazu:** That's why he's no longer in the org. \[laughter\] He beat you. He beat Brendan. "You're out, sir."
 
@@ -240,7 +240,7 @@ I think it's much more of the like, "Well, if you're gonna run tens of thousands
 
 We even had this internal call with a customer, and I was able to ask them if they had seen any surprises with API changes because of new Kubernetes versions, and he had mentioned that he had not experienced it. I think that goes to speak about AKS itself handling those issues for them.
 
-And I think that also goes back to the initial point, where I was talking about how we are improving productivity for many users who run on AKS by working on these changes by ourselves. Because if you were to be running your own Kubernetes clusters, I think you'd have to worry more about these feature flag changes... Kubelet had these flag deprecations in \[unintelligible 00:47:27.17\] so you had to think about all of that... Versus if you are in AKS, you don't have to think about that ideally, because we'll handle it for you.
+And I think that also goes back to the initial point, where I was talking about how we are improving productivity for many users who run on AKS by working on these changes by ourselves. Because if you were to be running your own Kubernetes clusters, I think you'd have to worry more about these feature flag changes... Kubelet had these flag deprecations in K8 1.24 so you had to think about all of that... Versus if you are in AKS, you don't have to think about that ideally, because we'll handle it for you.
 
 And because so many users use ASK, I think the net impact of us handling it also saves them a lot of time, which is quite satisfying to know. And it's also cool to see people tweet about it, new Kubernetes versions being supported in AKS... Or supporting new Kubernetes versions really fast, soon after its release upstream. So that's nice.
 
@@ -306,7 +306,7 @@ I think the thing is because we've built an open ecosystem, and a vendor-neutral
 
 **Gerhard Lazu:** Yeah. I definitely do see Kubernetes becoming that basically tide that lifted all the boats. It became the sea, the tide. So - well, you can replace it, good luck, but that's a lot of effort. It's a lot of time, it's a lot of investment... And why do that?
 
-**Brendan Burns:** Yeah, and I think it's a lot of stuff that -- I mean, people would rather be working on the next thing. They'd rather be building their exciting application, rather than worrying about the infrastructure. And I think that's great. I do think it's really important to know that it really was the ecosystem. I think people say, "Oh, you created this thing, and it was so successful", and all this stuff, and I really always \[unintelligible 01:01:45.21\] to say and to be clear about the fact that we sort of started the ball rolling, but it was this community that did it, and it is the broader ecosystem that did it. It's the Prometheuses of the world, and all of the Cloud-Native Compute Foundation projects that created the actual thing that people use. Kubernetes is a part of it, but it's the breadth of the ecosystem that is the thing that I think really delivered the staying power and the motivation, and differentiated it, frankly, from all of the other equivalent things at the time.
+**Brendan Burns:** Yeah, and I think it's a lot of stuff that -- I mean, people would rather be working on the next thing. They'd rather be building their exciting application, rather than worrying about the infrastructure. And I think that's great. I do think it's really important to know that it really was the ecosystem. I think people say, "Oh, you created this thing, and it was so successful", and all this stuff, and I really always wanna -- I want to say and to be clear about the fact that we sort of started the ball rolling, but it was this community that did it, and it is the broader ecosystem that did it. It's the Prometheuses of the world, and all of the Cloud-Native Compute Foundation projects that created the actual thing that people use. Kubernetes is a part of it, but it's the breadth of the ecosystem that is the thing that I think really delivered the staying power and the motivation, and differentiated it, frankly, from all of the other equivalent things at the time.
 
 **Gerhard Lazu:** \[01:02:18.01\] Yeah. So continuing to think about the ecosystem and about all the other projects that are in this ecosystem - Kubernetes is an important one, but by no means the only one - what are the other projects that you're using, paying close attention to, finding interesting? I'm wondering about you, Ganesh, right now... What is it?
 
