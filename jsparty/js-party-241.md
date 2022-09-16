@@ -62,7 +62,7 @@ So that's all I've been doing, and I've been doing it for a while - just open so
 
 And I will add one more thing - I'm not generous with my time, honestly. I'm not. And I'll tell you how to not be generous. So let's say I have a repo, and you're using it, and you have a question. Now, you'll find my email and you email me directly. And I get these emails every day. "Oh, I'm using this. I have a question... How do you do this?" I will actually reply with a blurb of text that I have, a template in my inbox that says "Sorry, I cannot answer private support questions. It doesn't scale, because ten other users will have the same question. Open a repo issue, ask it in a public Discord/whatever channel, and I'll answer there." And I probably know the answer already. I'll just find it and send a link. But you need to do it publicly. So then, ten other users will find it, will benefit...
 
-I cannot be generous with my private time. It just doesn't work. So the system is to do everything in public. And a lot of people now swear by it. They do work in public, where even with your dayjob you do something, or you prep it, you're trying to kind of \[unintelligible 00:09:47.25\] the field... You do it in public, and then you do your dayjob in private. And I'm really amazed by people that do that, because it's so -- I wanna say beneficial with your time; you get so many benefits from this... I wanna be like that, right?
+I cannot be generous with my private time. It just doesn't work. So the system is to do everything in public. And a lot of people now swear by it. They do work in public, where even with your dayjob you do something, or you prep it, you're trying to kind of survey the field... You do it in public, and then you do your dayjob in private. And I'm really amazed by people that do that, because it's so -- I wanna say beneficial with your time; you get so many benefits from this... I wanna be like that, right?
 
 **Amal Hussein:** Yeah.
 
@@ -114,7 +114,7 @@ To me, open sourcing is almost like -- you know, imagine you have a car, and you
 
 **Gleb Bahmutov:** So we've done, for a couple of months -- just cleaning up things, organizing them, putting them all in one place, so it's not like ten different repos...
 
-**Amal Hussein:** \[18:05\] Okay. I have a burning question for you on open source, and then I wanna hear from Divya and Chris, because I've been super-chatty \[unintelligible 00:18:09.02\] here... But I always wondered, when you open source a repo, what do you do with your Git tree? Specifically, if you're removing stuff when you're cleaning it up to be open source, the ref log is gonna not be your friend here, because people could in theory go back. So what do you do? Do you start a new Git tree? If so, what about all that fidelity that you are losing? So I'm just curious...
+**Amal Hussein:** \[18:05\] Okay. I have a burning question for you on open source, and then I wanna hear from Divya and Chris, because I've been super-chatty nelly here... But I always wondered, when you open source a repo, what do you do with your Git tree? Specifically, if you're removing stuff when you're cleaning it up to be open source, the ref log is gonna not be your friend here, because people could in theory go back. So what do you do? Do you start a new Git tree? If so, what about all that fidelity that you are losing? So I'm just curious...
 
 **Christopher Hiller:** So what I've seen happen is people just zap it. Maybe if they need that, the old info, they keep it in the archive somewhere... It would be interesting to know what Cypress did there, because I have no idea. I could imagine I would be the kind of person who'd wanna go and massage the history and spend a week just fixing up change sets, and reordering things like a crazy person... Which is a thing I like to do.
 
@@ -140,7 +140,7 @@ To me, open sourcing is almost like -- you know, imagine you have a car, and you
 
 **Gleb Bahmutov:** I know, I know. You can find it. And the first commit was something funny... I've done it before, I swear. It was something like -- Brian, like "Okay, first commit is gonna be great..." Kind of like starting with a testing tool.
 
-**Amal Hussein:** And it was like several different languages, right? It was like CoffeeScript, \[unintelligible 00:19:59.20\] ThisScript, ThatScript, NancyScript... Like, all the scripts. How many languages was in the --
+**Amal Hussein:** And it was like several different languages, right? It was like CoffeeScript, UNLScript ThisScript, ThatScript, NancyScript... Like, all the scripts. How many languages was in the --
 
 **Gleb Bahmutov:** \[20:07\] It was just CoffeeScript, because it started, let's say, probably like seven years ago, when ES6 was not a thing, and the only language you could use with modules and sane semantics was CoffeeScript. And I have to say, CoffeeScript was my bridge, because I used to be a C++, then C\# developer, and I could never program in JavaScript. To me it was like a bowl of spaghetti code all the time. And then I discovered CoffeeScript and it made sense. And when I saw Cypress, I was like "Oh, it's written in CoffeeScript." I was like, "Gotcha!"
 
@@ -156,7 +156,7 @@ So CoffeeScript was the way to go, and slowly moved to ES6, and then to TypeScri
 
 **Gleb Bahmutov:** All I wanna say is ts-ignore is my favorite comment. I'm not gonna fight you, I'm just "@ts-ignore next line", whatever... \[laughter\]
 
-**Amal Hussein:** Do you have a hotkey in your keyboard and just go \[unintelligible 00:21:22.18\] "Just shut up, TypeScript compiler! Take that!" That's the thing... I'm very angry at that TSC. I'm just angry at it a lot, and I always just timebox myself. So I'm a fan of pragmatic TypeScript, which is definitely a philosophy... We'll put a link in the show notes to a blog post from Mark Erikson on this which I love.
+**Amal Hussein:** Do you have a hotkey in your keyboard and just go pow, copy-paste! "Just shut up, TypeScript compiler! Take that!" That's the thing... I'm very angry at that TSC. I'm just angry at it a lot, and I always just timebox myself. So I'm a fan of pragmatic TypeScript, which is definitely a philosophy... We'll put a link in the show notes to a blog post from Mark Erikson on this which I love.
 
 So pragmatic TypeScript is basically just timebox yourself on TypeScript... And know that you are trying to make a completely dynamic language static, and sometimes the two things -- they just don't happen, okay? It doesn't. And sometimes you spend way too much time making complex generics when you just need to just do an ignore or an any. And a key example of that is expressive things like Lodash; trying to type that - it's like, forget about it, you know?
 
@@ -186,7 +186,7 @@ But there is another, I would say complementary work to just programming. Progra
 
 \[28:05\] But yes, for two reasons... One, it's the most permissive license where the companies that are gonna use it are not gonna be afraid of using it. They're not gonna say "Oh, can we use it just for our open source, or public website, or internal tooling?" No. So the wide adoption was the goal, and the MIT license allowed the widest adoption, we felt.
 
-Another thing, speaking about competitors - Cypress the test runner is now used by Cypress the dashboard competitors. If you go to BrowserStack, you can run Cypress, and the results will be written on the dashboard. If you use AWS Amplify, you use the test runner, and they will show you results on their dashboard. \[unintelligible 00:28:47.17\] same thing.
+Another thing, speaking about competitors - Cypress the test runner is now used by Cypress the dashboard competitors. If you go to BrowserStack, you can run Cypress, and the results will be written on the dashboard. If you use AWS Amplify, you use the test runner, and they will show you results on their dashboard. Pefecto. Same thing.
 
 And Cypress the company is okay with competitors just like showing the results of the test runs, and kind of competing. The goal was to get as many developers as possible using the tool.
 
@@ -228,7 +228,7 @@ So I myself envision this giant pie; and only a thin slice of the pie is eaten b
 
 **Amal Hussein:** And to kind of compete with their dashboard product. But I think they've taken a really strategic bet around scale, and so I think that's really, really smart. And I think when developers are the ones who are advocating, you've done something right. And I think for me that was -- what I've found most interesting about Cypress was just it really solved a big need that we had in our community, and we had a lot of pain doing similar things... But then also just mass adoption, across the board. Startups, Fortune 500's, Fortune 50, Fortune 10 companies... I mean, it's kind of wild.
 
-And I think for me what's really interesting about all this is I think it shifted the needle on where we are right now for -- like, our testing philosophy has shifted, I would say, from where we were five years ago, from where we were ten years ago. And I think for me Cypress has been a key part of that shift. And we have a lot of frontend engineers who listen to us, and I'm teaching this to my own engineers that I lead at work as well, that really, when people think about integration tests, for me, I think of that as like anything within your own repo boundaries. So if you have a frontend repo, or if you have a source directory with all your frontend code, everything in that is your boundary. Everything. So making sure all of that is harmoniously working together - that is an integration test. And a true end-to-end test is actually going outside the bounds of your repo, launching something for real, not mocking or \[unintelligible 00:33:35.29\] anything... And those are really expensive tests to maintain.
+And I think for me what's really interesting about all this is I think it shifted the needle on where we are right now for -- like, our testing philosophy has shifted, I would say, from where we were five years ago, from where we were ten years ago. And I think for me Cypress has been a key part of that shift. And we have a lot of frontend engineers who listen to us, and I'm teaching this to my own engineers that I lead at work as well, that really, when people think about integration tests, for me, I think of that as like anything within your own repo boundaries. So if you have a frontend repo, or if you have a source directory with all your frontend code, everything in that is your boundary. Everything. So making sure all of that is harmoniously working together - that is an integration test. And a true end-to-end test is actually going outside the bounds of your repo, launching something for real, not mocking or stopping anything... And those are really expensive tests to maintain.
 
 So end-to-end tests I feel like they get this bad rep because I think more people don't focus enough on integration tests. And really, you wanna have a \*bleep\*. Oh, sorry. You wanna have a whole load of integration tests, and you wanna have a handful of end-to-end tests, that act as smokes. It's a smoke test; it's just to make sure everything is working. Because in theory, if everybody's taking care of their little house, if they're taking care of their boundaries, then the kind of testing that the connection points are still working is all you really need to deal with the true end-to-end test.
 
@@ -270,7 +270,7 @@ So I was impressed myself, and I hope the users who tried it are also impressed.
 
 **Amal Hussein:** \[40:19\] The secret handshakes, I call them...
 
-**Gleb Bahmutov:** The secret handshakes with that framework, and the testing tool \[unintelligible 00:40:24.16\] say "Fire a click event, and then turn the wheel, so that the framework does its processing, and then renders results in this thing that you don't see, because it runs in complete DOM emulation."
+**Gleb Bahmutov:** The secret handshakes with that framework, and the testing tool integrate and say "Fire a click event, and then turn the wheel, so that the framework does its processing, and then renders results in this thing that you don't see, because it runs in complete DOM emulation."
 
 **Amal Hussein:** Don't forget to hold your breath either. You have to hold your breath, and then touch your nose, and wiggle your toe three times...
 
@@ -352,7 +352,7 @@ So Cypress Studio is gone, but they replaced it with this Chrome extension... Wh
 
 **Gleb Bahmutov:** That's how I dance... That's the only way to dance!
 
-**Amal Hussein:** I'm thinking about like \[unintelligible 00:55:03.10\] Anyway... Chris, you've been giving me so many disapproving looks... Every two minutes you're just like nodding in disapproval. Like, what's up with that, dude? Don't hate the player, hate the game, okay?
+**Amal Hussein:** I'm thinking about like Maple summer anyway... Chris, you've been giving me so many disapproving looks... Every two minutes you're just like nodding in disapproval. Like, what's up with that, dude? Don't hate the player, hate the game, okay?
 
 **Christopher Hiller:** You're sensitive...
 
@@ -428,7 +428,7 @@ You have a lovely wife and kids who you also spend a lot of time with, so I know
 
 Oh, wait, we didn't tell people the story of me, you and Cypress... What the hell? How did --
 
-**Divya:** \[unintelligible 01:06:20.19\] extra credits...
+**Divya:** Give me extra credits...
 
 **Amal Hussein:** Yes... Well, I'll say it really quickly. I invited Gleb to a podcast on Cypress - this is maybe six years ago now, five years ago? I don't know. Some long time ago... On Web Platform Podcast, which is where I've been podcasting since 2012. The project is kind of actually kicking back up again. We paused for a few years... It's been a long-running, pretty successful podcast on the Web platform. We'll put a link to the episode. But I invited Brian and Gleb. So that was Gleb's first introduction to Brian, and I invited Gleb as a guest panelist with us, to interview Brian, because of how much Gleb loved Cypress. And I was like, "Hey, Gleb, now is your chance. Come meet Brian." And shortly after that he ended up working with them full-time.
 
