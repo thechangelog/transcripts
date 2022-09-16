@@ -120,7 +120,7 @@
 
 **Mat Ryer:** So would you have to import that to use it in a project? Or is that just like the toolchain needs that?
 
-**Egon Elbre:** \[unintelligible 00:09:13.17\] the code that you import, and the compiler has to parse through, essentially.
+**Egon Elbre:** No the code that you import, and the compiler has to parse through, essentially.
 
 **Mat Ryer:** Hm... Well, you just don't notice, because Go's build times are so -- they're so fast. Maybe we're spoiled by that a little bit.
 
@@ -224,7 +224,7 @@ I quite like it when the structure emerges, rather than is imagined... Because s
 
 **Mat Ryer:** Yeah. I'm just going to put them on the wall. Plug them in, but just have them on the wall.
 
-**Roger Peppe:** \[unintelligible 00:21:46.16\] Acorn Archimedes again. That was my first ever computer that I owned.
+**Roger Peppe:** I should get an Acorn Archimedes again. That was my first ever computer that I owned.
 
 **Mat Ryer:** Did you? That's cool.
 
@@ -244,7 +244,7 @@ I quite like it when the structure emerges, rather than is imagined... Because s
 
 **Mat Ryer:** Okay, so small devices - and this is where TinyGo comes in, because this is the problem that TinyGo is trying to address, is so that you can still use what is essentially the standard library, but it's much smaller; it's deliberately designed to be cut down and simpler.
 
-**Roger Peppe:** Yeah. I love TinyGo. I use TinyGo a bit gratuitously, a friend once said. I wanted to build a doorbell with hanging -- not tubes; what do you call them? Maybe you call them tubes... \[unintelligible 00:24:41.27\]
+**Roger Peppe:** Yeah. I love TinyGo. I use TinyGo a bit gratuitously, a friend once said. I wanted to build a doorbell with hanging -- not tubes; what do you call them? Maybe you call them tubes... I would think knockers...
 
 **Mat Ryer:** Stick with tubes.
 
@@ -266,13 +266,13 @@ I quite like it when the structure emerges, rather than is imagined... Because s
 
 **Egon Elbre:** I did get some embedded device noise on it, so some of the buttons didn't work as they were supposed to, but it still did things, I guess...
 
-**Mat Ryer:** Yeah, it was going \[unintelligible 00:26:26.26\] which I think is good. It's not as good as Roger on the fiddle...
+**Mat Ryer:** Yeah, it was going *DONG DOING DING* which I think is good. It's not as good as Roger on the fiddle...
 
 **Roger Peppe:** \[unintelligible 00:26:30.20\] I'm afraid... It was actually great using Go with TinyGo, because you could have this debouncing code, which totally didn't care about any of the other code. It would just sleep for a bit, wait for debounce... And that was independent of all the other logic waiting for buttons, and stuff.
 
 **Mat Ryer:** What was that doing them, the debounce? Literally stopping if you got noise coming through from buttons, or something?
 
-**Roger Peppe:** Yeah, so if you press a button, then it's not a clean thing that you have pressed this button. It makes contact, and then bounces, and comes down again, and bounces, and comes down again... It eventually ends up either down or up, right? But you don't know when that initial contact is made, which way it's going to end up. You don't want it to go \[unintelligible 00:27:15.29\]
+**Roger Peppe:** Yeah, so if you press a button, then it's not a clean thing that you have pressed this button. It makes contact, and then bounces, and comes down again, and bounces, and comes down again... It eventually ends up either down or up, right? But you don't know when that initial contact is made, which way it's going to end up. You don't want it to go *blublolblubblu*
 
 **Mat Ryer:** Yeah. You would stress the butler out.
 
@@ -340,7 +340,7 @@ I think that's interesting future there with WASM, and I think therefore TinyGo 
 
 **Mat Ryer:** Is it?
 
-**Roger Peppe:** Well, because in Rust the formatting stuff is \[unintelligible 00:31:57.20\] So it kind of expands out at compile time.
+**Roger Peppe:** Well, because in Rust the formatting stuff is macro \[unintelligible 00:31:57.20\] So it kind of expands out at compile time.
 
 **Mat Ryer:** Oh, yeah. That's cool.
 
@@ -420,7 +420,7 @@ I think a lot of people are like "We shouldn't do any design upfront." I really 
 
 So that's the other thing, it is very important, and practicing designing abstractions, and honestly, getting it wrong; practicing, and making those mistakes, and living with the pain, and then you learn from that. And I think there is an element of takes -- it takes a lot of experience. I don't think any of these general rules apply in every case.
 
-**Roger Peppe:** If anyone wants a good exercise for practicing abstractions - people I mentor, I usually give these exercises. You need to write \[unintelligible 00:43:09.26\] conversion code. But now you need to write it in 20 different places, and they have to be conceptually different design-wise, and the different properties that they optimize for. For safety, for flexibility, for ease of maintainability, for prototyping, and all these aspects. \[unintelligible 00:43:31.27\] may become easier, then it starts to become more and more difficult every single step of the way, but it makes you think of these different ways how you can implement things.
+**Roger Peppe:** If anyone wants a good exercise for practicing abstractions - people I mentor, I usually give these exercises. You need to write temperature conversion code. But now you need to write it in 20 different places, and they have to be conceptually different design-wise, and the different properties that they optimize for. For safety, for flexibility, for ease of maintainability, for prototyping, and all these aspects. The first five may become easier, then it starts to become more and more difficult every single step of the way, but it makes you think of these different ways how you can implement things.
 
 **Mat Ryer:** That'd be a good talk...
 
@@ -440,7 +440,7 @@ So that's the other thing, it is very important, and practicing designing abstra
 
 **Roger Peppe:** Oh, you can only play one? Oh, okay.
 
-**Mat Ryer:** \[unintelligible 00:44:35.24\] feel my pain.
+**Mat Ryer:** Oh my, feel my pain.
 
 **Roger Peppe:** Oh, no...
 
@@ -600,17 +600,17 @@ Of course, when I say you review them with the same standard, you don't worry ab
 
 **Mat Ryer:** Not even two hands. Single finger, one hand. It's just how we learned... And I've no idea why that happened.
 
-**Roger Peppe:** I \[unintelligible 00:58:10.07\] three fingers, maybe four, because one for the Shift key. The little finger for the Shift key.
+**Roger Peppe:** I got three fingers, maybe four, because one for the Shift key. The little finger for the Shift key.
 
 **Mat Ryer:** Oh, I assumed it was two if it's someone else... Like, two fingers for you to type, and then you've got two to spare, if you want to help out someone else's...
 
-**Roger Peppe:** So I think the mouse is great. I don't \[unintelligible 00:58:26.24\] keyboard shortcuts in general. They get in my way.
+**Roger Peppe:** So I think the mouse is great. I don't like keyboard shortcuts in general. They get in my way.
 
-**Mat Ryer:** Egon, \[unintelligible 00:58:29.14\]
+**Mat Ryer:** Egon, what sort of editor are you into, Mate?
 
 **Egon Elbre:** Oh, I use three different ones.
 
-**Mat Ryer:** Okay. \[unintelligible 00:58:35.27\]
+**Mat Ryer:** Okay. Thought it might.
 
 **Egon Elbre:** So I use Sublime...
 
@@ -660,7 +660,7 @@ Of course, when I say you review them with the same standard, you don't worry ab
 
 **Mat Ryer:** No, although I realize that that is very similar. I don't have loads of hair...
 
-**Roger Peppe:** I have to say that I have recently \[unintelligible 01:00:52.26\] in the last couple of years changed to using bar soap for the shampoo. You can get these shampoo bar soaps, and it works really well. So you don't have that bottle which you have to throw away, so less plastic, it lasts for ages... It actually works really well.
+**Roger Peppe:** I have to say that I have recently, like in the last couple of years changed to using bar soap for the shampoo. You can get these shampoo bar soaps, and it works really well. So you don't have that bottle which you have to throw away, so less plastic, it lasts for ages... It actually works really well.
 
 **Mat Ryer:** Sold.
 
@@ -670,7 +670,7 @@ Of course, when I say you review them with the same standard, you don't worry ab
 
 **Roger Peppe:** You're putting it on during the shower, not afterwards, right?
 
-**Mat Ryer:** \[laughs\] To be fair, I have not read the label. \[unintelligible 01:01:29.04\] but I just don't get it. I just don't like it. I like a nice, rough bar of soap; something that's rugged, and... You know what I mean? I'm not one of those really manly people.
+**Mat Ryer:** \[laughs\] To be fair, I have not read the label. I maybe use an error, but I just don't get it. I just don't like it. I like a nice, rough bar of soap; something that's rugged, and... You know what I mean? I'm not one of those really manly people.
 
 **Egon Elbre:** Steel wool.
 
@@ -682,4 +682,8 @@ Of course, when I say you review them with the same standard, you don't worry ab
 
 **Roger Peppe:** It was a pleasure.
 
-**Mat Ryer:** Yeah. And Egon Elbre, \[unintelligible 01:02:17.13\] It's been great to have you. We'll see you next time!
+**Mat Ryer:** Yeah. And Egon Elbre...
+
+**Egon Elbre:** Áeah it's been emotional.
+
+**Mat Ryer:** Good. It's been great to have you. We'll see you next time!
