@@ -38,13 +38,13 @@
 
 **Jerod Santo:** There you go. Well, if I had a nickel for every time I bombed an intro, I'd have one more nickel than I did this morning, because we're going nowhere. Let's get into the show. Hey, friends. We have an awesome show for you today. We're gonna go ahead and get started with it. The first thing we're going to do is we are going to Holla.
 
-**Jingle:** \[00:03:34.25\]
+**Jingle:** \[03:34\]
 
 **Jerod Santo:** Today's Holla segment is holla-ing at React India. This is India's biggest React conference, it's back again, and this time, it's going to be bigger, better and hybrid, which is definitely a growing trend. If you haven't heard of the event, React India is an international conference that provides a platform for developers to share and discuss their insights and experiences with React. It provides developers from India an opportunity to meet, listen and network with React developers and open source contributors from all around the world.
 
 This year the event is held on September 22nd to September 24th. Like I said, it's hybrid, and so it will be live in Goa, India, and also online. They have some great speakers, names you'll probably recognize. Tejas Kumar - he's been on the show recently; Josh Goldberg, Lidia Halley and many more... So definitely attend React India, if you're in the area. If you're not, don't worry about it. It's hybrid. Hop online, meet some folks, learn some cool things. So we'll have a link in the show notes to that. Like I said, it's just a few weeks away... So check it out, React India. This has been Holla.
 
-**Jingle:** \[00:04:51.14\]
+**Jingle:** \[04:51\]
 
 **Jerod Santo:** Now, we have some other awesome segments for you as well. The first one we're going to do is "I'm excited about X", where X is literally anything. However, we do not have a theme song for this, and I was not gonna go sing a theme song, because the last time I did that, Kball ridiculed me endlessly.
 
@@ -52,7 +52,7 @@ This year the event is held on September 22nd to September 24th. Like I said, it
 
 **Jerod Santo:** And the last time Nick did that, I ridiculed him endlessly. So instead, I went out and talked to our good friend, Horse JS, and I asked HorseJS if they would sing an "Excited about X" jingle. This is what they came up with.
 
-**Jingle:** \[00:05:26.16\]
+**Jingle:** \[05:26\]
 
 **Jerod Santo:** Thank you, HorseJS, for that spectacular jingle. We'll be sure to use that every single time.
 
@@ -74,7 +74,7 @@ But then there's other questions, of like "Does it make sense to have a componen
 
 **Kevin Ball:** Good question. So first off, you're probably familiar with media queries in CSS. But if you're not, I'll highlight - these are queries that you can write in your CSS that let you change the way something is styled based on some attribute of the viewing browser. Traditionally, these were mostly around size of the browser window. Now, there are also media queries around capabilities and other different things that you can do there.
 
-\[00:07:59.13\] But if we scope this to size, because that's what's relevant for container queries, traditionally you'd have to say, "Okay, how wide is my browser? If it's smaller than some amount, do this thing; if it's larger than some amount do this other thing." And this was how we are able to make responsive websites using purely CSS. Container queries take this and say, "Okay, instead of having that only be based on the browser width, we're going to pick an element in our page and call that a container, and we can then use queries within it to change the way that things are styled based on the size of that container."
+\[07:59\] But if we scope this to size, because that's what's relevant for container queries, traditionally you'd have to say, "Okay, how wide is my browser? If it's smaller than some amount, do this thing; if it's larger than some amount do this other thing." And this was how we are able to make responsive websites using purely CSS. Container queries take this and say, "Okay, instead of having that only be based on the browser width, we're going to pick an element in our page and call that a container, and we can then use queries within it to change the way that things are styled based on the size of that container."
 
 So suddenly, you can have a component that understands how to resize itself or be responsive to size based purely on where it's located in your page, and how much space is available to it. This is a feature that CSS developers have been asking for as long as I have been in web development, I believe. I remember looking it up -- like, it was in the early 2000s when there were the first requests for this. For a very long time everyone said it's impossible. You can't do it. It's impossible. Nobody will ever be able to do it. And then at some point, somebody figured out, "Oh, wait... We do have a way to do this." And now all the browsers are working on it, and Chrome is the first one shipping it.
 
@@ -130,7 +130,7 @@ So let's just imagine that you have an application that you want to use containe
 
 **Nick Nisi:** Honestly, it depends on the use case I have and the stability of the polyfill.
 
-**Jerod Santo:** \[00:12:09.20\] Let's say there's no polyfill.
+**Jerod Santo:** \[12:09\] Let's say there's no polyfill.
 
 **Nick Nisi:** Oh. Then no.
 
@@ -168,7 +168,7 @@ So let's just imagine that you have an application that you want to use containe
 
 **Nick Nisi:** Yeah. Not sure if that's what they actually do.
 
-**Break:** \[00:14:15.23\] to \[00:16:16.16\]
+**Break:** \[14:15\] to \[16:16\]
 
 **Jerod Santo:** Nick, what has you excited these days?
 
@@ -184,7 +184,7 @@ So let's just imagine that you have an application that you want to use containe
 
 **Jerod Santo:** That's neat.
 
-**Kevin Ball:** \[00:18:05.19\] Is it seamless to sync notes across devices?
+**Kevin Ball:** \[18:05\] Is it seamless to sync notes across devices?
 
 **Nick Nisi:** It can be...
 
@@ -240,7 +240,7 @@ But the really cool thing also is that they have a like a WYSIWYG style editor. 
 
 **Jerod Santo:** And I do want to check this one out as well. I can go round and round talking about note-taking, but we're gonna move on so we can have other topics in this show... But you're speaking my love language as well, so... Maybe I will finally try it, even though I'm just stuck in my ways.
 
-\[00:21:48.16\] Alright, what I'm excited about - Stable Diffusion. You all heard this, you all know this term... This is blowing up in interest and popularity right now. This is an open model based off of what we see with OpenAI's closed - well, proprietary; OpenAI's proprietary... Anyways, DALL-E. And it's a text-to-image diffusion model. The best roundup that I've read is Simon Wilson, who I think I've referenced him probably a few weeks ago, with his Curl and with his SQLite tip. So he's been writing lots of good stuff lately. He has a great blog post about Stable Diffusion, he calls it a really big deal. He says "If you haven't been paying attention to it, you really should be."
+\[21:48\] Alright, what I'm excited about - Stable Diffusion. You all heard this, you all know this term... This is blowing up in interest and popularity right now. This is an open model based off of what we see with OpenAI's closed - well, proprietary; OpenAI's proprietary... Anyways, DALL-E. And it's a text-to-image diffusion model. The best roundup that I've read is Simon Wilson, who I think I've referenced him probably a few weeks ago, with his Curl and with his SQLite tip. So he's been writing lots of good stuff lately. He has a great blog post about Stable Diffusion, he calls it a really big deal. He says "If you haven't been paying attention to it, you really should be."
 
 It was released just recently, like August 22nd, by a company called Stability.ai. And like I said, it's a lot like OpenAI's DALL-E, but they released the entire thing. So anybody can use it, anybody can build on it... It's very permissively licensed, and available to create new things. And because of that, there's been like this big explosion of people building things around it.
 
@@ -263,7 +263,7 @@ People are creating Photoshop plugins where you can just like highlight a sectio
 **Kevin Ball:** Like, start with that, download it, add some text, or what have you...
 
 **Jerod Santo:** So Peter Cooper of JavaScript Weekly, and all those weekly newsletters - he has started to use this; he might be using actual DALL-E, he might be using Stable Diffusion. I'm not sure. DALL-E is like a sign up, paid-for service, there's a free plan etc, that you have to use there. But Stable Diffusions is like, anybody can download this and use these things, and so people are really starting to do cool stuff with it... But he's done that a few times at the top of his newsletters, and it has some super-cool results.
-\[00:26:10.10\] I subscribe to his Postgres Weekly, and the Postgres mascot is an elephant, and he just has this really cool, artistic, painted elephant at the top, and he's wearing a spectacle... And the topic was like "Looking inside of Postgres..." I don't know, it was like on-point for the topic. It was like, "That's a really cool way to add some flair to your content." I'll put the link there in the chat if you guys want to check out the result of that thing I explained. It's so cool.
+\[26:10\] I subscribe to his Postgres Weekly, and the Postgres mascot is an elephant, and he just has this really cool, artistic, painted elephant at the top, and he's wearing a spectacle... And the topic was like "Looking inside of Postgres..." I don't know, it was like on-point for the topic. It was like, "That's a really cool way to add some flair to your content." I'll put the link there in the chat if you guys want to check out the result of that thing I explained. It's so cool.
 
 **Kevin Ball:** Yeah... Some things -- I'm tinkering around with it. It's pretty hit or miss. But when it hits, it's really freaking cool.
 
@@ -301,7 +301,7 @@ Alright, I'll quit ranting... This has been "Things that we're excited about", a
 
 **Jerod Santo:** Okay, fine.
 
-**Jingle:** \[00:30:26.04\]
+**Jingle:** \[30:26\]
 
 **Kevin Ball:** Did you use Stable Diffusion to create that?
 
@@ -309,7 +309,7 @@ Alright, I'll quit ranting... This has been "Things that we're excited about", a
 
 **Kevin Ball:** Next time.
 
-**Break:** \[00:30:50.07\]
+**Break:** \[30:50\]
 
 **Jerod Santo:** Alright, next up we are going to discuss a topic that has been forming in the mind of Kball. It's not fully formed, but he's been forming it. I guess he wants some help, to ping-pong it off a few of us, maybe off of you, the listener... You can tell us what you think afterwards, and maybe this will become a profitable discussion. So I'm gonna pass it to Kball to describe. I could read his blurb, but I won't do that to all of us. I'll let him blurb out loud. Kball, what will we be talking about?
 
@@ -321,7 +321,7 @@ Alright, I'll quit ranting... This has been "Things that we're excited about", a
 
 For an example, as a junior dev, you might work primarily on tasks that are a single ticket, that might have a timeline of hours, maybe days; you have rapid iteration loops, you get quick feedback on whether you're in the right direction or not... As you get into more senior roles, maybe you start planning full features, larger projects; they might take weeks or months, and consist of many of those smaller tasks, and you have to think about "How do I build up to this? What are the early signs that we might not be hitting our \[unintelligible 00:36:06.27\] things like that.
 
-\[00:36:10.16\] And then continuing moving up, as you become a manager, or a staff plus engineer, things like that, some projects might take years to pay off. I'm working on a cultural initiative at work that I started trying to seed things of two years ago, and it's still going, and it might take another six months or a year before it actually pays off in terms of fruition.
+\[36:10\] And then continuing moving up, as you become a manager, or a staff plus engineer, things like that, some projects might take years to pay off. I'm working on a cultural initiative at work that I started trying to seed things of two years ago, and it's still going, and it might take another six months or a year before it actually pays off in terms of fruition.
 
 So I feel like the thing I'm trying to think about or get more of a sense of is like, how do I think about the interactions between these different levels of timelines, and how do I better identify, "Okay, this project - this is going to be a six-month project, so I should be thinking about it this way... Whereas this is a tight loop; this is going to be done in a week. We gotta narrow it down"?
 
@@ -353,7 +353,7 @@ But I think you're one of the things I've been working with this report on is, i
 
 **Jerod Santo:** And for me, then I start thinking, "How do you eat an elephant one bite at a time?" So the thing is like, "Okay, this is a huge project, it's going to be at least six months, according to Kball... It could be two years, we don't know. How do I actually attack such a large thing?" And the answer goes to "Well, first of all you try to break it down into the tasks that you're talking about." Maybe the linter is the first one.
 
-\[00:39:52.22\] Then you actually target some sort of a sample group for that first thing. It's like, "Okay, we're gonna build a linter and we're gonna release it to my immediate team, and see if we use it for a while. And then start thinking about..." So it's chunking and breaking things down, and that helps you think about the timeline, because the timeline becomes smaller for those individual parts. I don't know... Nick, you're nodding along, but you haven't said much. What are your thoughts on this?
+\[39:52\] Then you actually target some sort of a sample group for that first thing. It's like, "Okay, we're gonna build a linter and we're gonna release it to my immediate team, and see if we use it for a while. And then start thinking about..." So it's chunking and breaking things down, and that helps you think about the timeline, because the timeline becomes smaller for those individual parts. I don't know... Nick, you're nodding along, but you haven't said much. What are your thoughts on this?
 
 **Nick Nisi:** First off, I'm just wondering why do you think that at a higher scale estimates would be any use, when they're not useful at the low end? \[laughs\]
 
@@ -417,7 +417,7 @@ I just bring that up because it was a very similar concept, but for some reason 
 
 **Jerod Santo:** Yeah, it's a quote tweet. I'm going to find Seth Godin's and validate me stepping all over you... But yes, we're talking about the exact same thing. I'm sorry.
 
-**Kevin Ball:** \[00:43:43.06\] So definitely my logical mind is like, "Okay, I start -- this is big. I need to break it down." \[unintelligible 00:43:48.10\] Where I start to wonder, or where I feel like I'm still not totally clear is... I feel like, one, when you start talking about influence and stuff like that, it doesn't break cleanly, right? It's not like, "Okay, here's a set of serialized projects that I can take on." It's like, "Here's a set of almost campaigns that I need to be running continuously, and that are going to gradually build momentum." But yeah, then there's also this question of like, if I know this is a large project, what are the signs that I can look for on those shorter terms that tell me, "Is this going the right direction? Or do I need to course-correct?" I'm not sure if it's as simple as watching the progress of my broken-down micro projects. Maybe it is, but that's kind of where I'm stewing.
+**Kevin Ball:** \[43:43\] So definitely my logical mind is like, "Okay, I start -- this is big. I need to break it down." \[unintelligible 00:43:48.10\] Where I start to wonder, or where I feel like I'm still not totally clear is... I feel like, one, when you start talking about influence and stuff like that, it doesn't break cleanly, right? It's not like, "Okay, here's a set of serialized projects that I can take on." It's like, "Here's a set of almost campaigns that I need to be running continuously, and that are going to gradually build momentum." But yeah, then there's also this question of like, if I know this is a large project, what are the signs that I can look for on those shorter terms that tell me, "Is this going the right direction? Or do I need to course-correct?" I'm not sure if it's as simple as watching the progress of my broken-down micro projects. Maybe it is, but that's kind of where I'm stewing.
 
 **Jerod Santo:** Sorry, Kball, I've been googling Seth Godin this whole time... \[laughter\]
 
@@ -513,7 +513,7 @@ I just bring that up because it was a very similar concept, but for some reason 
 
 **Jerod Santo:** Well, should we keep going or should we give up here?
 
-**Kevin Ball:** \[00:47:53.06\] \[laughs\] So I think dancing guy is an interesting example in some ways, because he's not explicitly asking people to come out and dance. He's out there, leading by example, purely. I think if you're trying to lead change in an organization, an important piece is you should be actively seeking out those followers, and kind of trying to get a sense of like "What is important to you? How can I tie what's important to you into this thing that I'm trying to achieve, so that you become my first follower, second follower, or crowd that creates a movement?"
+**Kevin Ball:** \[47:53\] \[laughs\] So I think dancing guy is an interesting example in some ways, because he's not explicitly asking people to come out and dance. He's out there, leading by example, purely. I think if you're trying to lead change in an organization, an important piece is you should be actively seeking out those followers, and kind of trying to get a sense of like "What is important to you? How can I tie what's important to you into this thing that I'm trying to achieve, so that you become my first follower, second follower, or crowd that creates a movement?"
 
 **Jerod Santo:** Yeah, it's more like a wedding party, where it's more intentional... Similar problem at a wedding; maybe you're at a wedding reception after the ceremony is over, and you'd like to have dancing at your ceremony, but everyone's kind of sitting around, they're not dancing... And so of course, you start with the married couple, and then you bring in the parents, perhaps. So there's a few special dances. But then a good strategy to get people dancing is to have the people who are on the floor go out into the crowd, and convince somebody to come with them. So it's way more intentional. And if you can get that going, a similar effect happens. But you have to actually convince somebody like "This is a good idea" and it's always hardest to convince the first couple of people. But once you have the movement, it's easy to follow the crowd. So maybe that's a better alignment with what you're talking about here, where it's actually like, "How do I persuade to get this thing going inside of this organization, and actually affect change, versus just being out here dancing all by myself?"
 
@@ -533,7 +533,7 @@ So if you're interested in this topic, maybe not on the timeline side, but on li
 
 **Nick Nisi:** Isn't that sad? The more senior you get, the less direct influence you have? Not necessarily, but the less code influence you have. You have more influence, potentially, but...
 
-**Jerod Santo:** \[00:52:17.00\] There's more leverage at the higher levels.
+**Jerod Santo:** \[52:17\] There's more leverage at the higher levels.
 
 **Nick Nisi:** Yeah.
 
