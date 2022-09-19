@@ -470,7 +470,7 @@ But we talked to him about this as well, this incentive for him... I really like
 
 **Jerod Santo:** So different tools for different jobs maybe...
 
-**Alex MacCaw:** Yeah, I think so. And I can understand why Apple is struggling. CRDC's, which is a technical term - it basically means the data structure that you use for conflict resolution... This is extremely, extremely difficult. I was chatting to the author of YGS; it's a famous library in the CRDC world... And he was telling me that in order to get perfect merging of merge conflicts, you actually need an AGI.
+**Alex MacCaw:** Yeah, I think so. And I can understand why Apple is struggling. CRDTs, which is a technical term - it basically means the data structure that you use for conflict resolution... This is extremely, extremely difficult. I was chatting to the author of YGS; it's a famous library in the CRDT world... And he was telling me that in order to get perfect merging of merge conflicts, you actually need an AGI.
 
 **Jerod Santo:** Oh, really?
 
