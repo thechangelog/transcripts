@@ -74,7 +74,7 @@
 
 **Gerhard Lazu:** Exactly. If they will get a surname, he will be on the episode. He will be on Ship It. Otherwise I'm not going to mention it... Just in case it doesn't happen, right? So no one I will get upset. So Lars, we attempted in the past to introduce you briefly, myself and Jerod, and I don't think we did the best job we could. Now that you're here, do you want to tell us a few words about yourself? Or a few sentences, up to you.
 
-**Lars Wikman:** \[00:06:03.09\] Yeah, so I can start with the pronunciation of my name, so Jerod can just cut in in the future...
+**Lars Wikman:** \[06:03\] Yeah, so I can start with the pronunciation of my name, so Jerod can just cut in in the future...
 
 **Jerod Santo:** Please do.
 
@@ -152,7 +152,7 @@
 
 And because our onsite player is already deep-linkable with timestamps and stuff, we could make those clickable and jump around to the different areas of the episode on the website. That's not the end goal, that was just the easiest place to get them.
 
-\[00:10:06.03\] Once I had them there, we then also decided, "Well, let's put them in our new episode notification email", because why not? Because sometimes a chapter will actually entice you to give it a listen. Like, "Oh, they talked about this? Cool. I'll click on that directly." So maybe you're getting a notification email, you don't have much time, you see the chapters, and are interested. So I put them there as well.
+\[10:06\] Once I had them there, we then also decided, "Well, let's put them in our new episode notification email", because why not? Because sometimes a chapter will actually entice you to give it a listen. Like, "Oh, they talked about this? Cool. I'll click on that directly." So maybe you're getting a notification email, you don't have much time, you see the chapters, and are interested. So I put them there as well.
 
 And then the third place we put them is in our RSS feeds, using the new podcasting 2.0 namespace. So we have RSS-based chaptering, as well. But that's somewhat insignificant, because barely anybody is using that tag in their apps, except for the brand new, shiny podcasting 2.0 apps.
 
@@ -186,7 +186,7 @@ And the final place we put them, and the big one, and the hardest one, was actua
 
 **Lars Wikman:** So the ID3 standard -- like, if you've done anything with mp3 since like the '90s, or whenever those showed up, you've probably modified an ID3 tag at some point, because the title or the artist was wrong. And that was started with ID3 -- well, it was just ID3, and then they released the version two, so that became ID3 version one. And ID3 version two is a fairly flexible metadata format, and it can be used for other things than mp3s. It can be used for essentially any file, and you just prefix it to the file, and as long as the file parser doesn't choke on having some random binary data in front, you can use it. So it's a tight binary format, and that means you have to follow a spec very closely... And that's sort of what turns it into a project. It's not your average JSON parsing thing, where it's like, "Oh, it's gonna be some JSON in there, I throw it into a JSON parser, and I get out structured data." But rather it's incredibly specific. So you have this little header, you have a number of frames, that they call them... So for example, Title One, Title Two, and Title Three are all frames; Album is a frame. Publisher, I believe is a frame. There are a ton of frames. Very few of them are actually used. And then, at some point, someone released a specification for chapters in ID3. And chapters are frames which can contain frames... Because with a chapter, you might want to include title, link, images...
 
-\[00:14:11.25\] The chapter spec isn't much more complicated than anything else in ID3. And the ID3 spec isn't all that complicated. One of the most challenging bits about it is that it's sometimes not that precise. Sometimes it's a bit vague., and sometimes the clients are very particular, which we discovered as we were trying things. But Elixir is pretty well suited to mangling binary data, so much of the part that can be annoying was pretty easily solved. Then it was a matter of implementing a ton of frames, and making sure it actually worked, which was the harder part.
+\[14:11\] The chapter spec isn't much more complicated than anything else in ID3. And the ID3 spec isn't all that complicated. One of the most challenging bits about it is that it's sometimes not that precise. Sometimes it's a bit vague., and sometimes the clients are very particular, which we discovered as we were trying things. But Elixir is pretty well suited to mangling binary data, so much of the part that can be annoying was pretty easily solved. Then it was a matter of implementing a ton of frames, and making sure it actually worked, which was the harder part.
 
 **Gerhard Lazu:** So what you're telling me, or at least what I'm hearing, is that shipping it was difficult. Because once you ship it, that's when the actual complications start, when you realize, "Hang on... My understanding of this thing is different than some of the players." So which ones were particularly difficult to deal with? Do you remember? I know you do.
 
@@ -202,7 +202,7 @@ And then we started looking at FFmpeg, because that can actually parse chapter f
 
 **Lars Wikman:** Yeah, the loop wasn't very tight there. Because with FFmpeg - I mean, it can be annoying to install sometimes, but it's no problem to shell out to it and check the output to see if you wrote a correct file. But when you're doing it with Overcast or Pocket Casts, which were the ones we had to get working first, and once those were working, everything else has worked. But both of those, thankfully, have a way of loading files, sort of side-loading them, manually loading files in, and they do parse the ID3 tags when you do that. But I mean, getting a file, an mp3 file to an iPhone, to actually test, is not very convenient. And that whole process... And figuring out what the actual issue is. Thankfully, for this sort of mainstream chapter support, there are podcasts that we know have chapters that work. So in the end, I think we used accidental tech podcasts a fair bit, and at some point, I was pulling their data, pulling their entire file, parsing the entire file with our library, and then writing the entire file with our library... And checking, "Oh, the chapters don't have links, for some reason. Why don't they have links? Because they used to." And then compare binary, byte by byte, until you find the difference.
 
-**Jerod Santo:** \[00:17:53.05\] The fun stuff.
+**Jerod Santo:** \[17:53\] The fun stuff.
 
 **Lars Wikman:** And in that particular case, they only accepted comments that were in ISO 88591 encoding. That's not the spec... But that's what they did. So we had to comply with that. We had to default to that. And in Pocket Cast's case, there was an extra-trailing, or there was a trailing null missing in the table of contents, and that tripped us up, and the chapters just didn't show up at all. So those were probably two of the more challenging ones. But it's cool. I haven't had reason to sort of dig through binary, byte by byte, in this way, very often.
 
@@ -250,7 +250,7 @@ And then we started looking at FFmpeg, because that can actually parse chapter f
 
 **Jerod Santo:** The first thing that surprised me, I believe, was that we were using a function, an Elixir function that existed in my local version, that did not exist in prod... Which was we had a development production mismatch - all too common - where the Map module got some nice, new functions in Elixir 1.13, and I was using them in our new chaptering code, specifically using them in the RSS feed generation code, not in the actual tagging code, where I was only including the values in the JSON feed of the chapters that had data. And so I was rejecting a bunch of key-value pairs. And that doesn't exist in Elixir 1.12, which was what was running in production. So we had -- all the tests passed... CI failed, I think. I think CI also had 1.12, so it didn't roll out. I think it wouldn't roll out... Which is nice. Better than it rolling out and not working. But it still wouldn't work, because I pushed the code and it wouldn't do things... So then I was like, "Hey, Gerhard, remind me - how do we do this thing where...?"
 
-\[00:22:14.15\] What I would love to have is just like one place in the code where I change a 12 to a 13, and then commit that and push it out... But almost as good as having a nice documentation on how to do it. So we had to upgrade Elixir, which had another ramification, by the way, which I will tell you if you want to know about after you respond to this. Because this was something that you upgraded all the things in response.
+\[22:14\] What I would love to have is just like one place in the code where I change a 12 to a 13, and then commit that and push it out... But almost as good as having a nice documentation on how to do it. So we had to upgrade Elixir, which had another ramification, by the way, which I will tell you if you want to know about after you respond to this. Because this was something that you upgraded all the things in response.
 
 **Gerhard Lazu:** Let's see... This was pull request \#423. You mentioned something very important, Jerod. This was like in our Slack messages. This is in dev. So you basically do just-in-time development, and that's exactly what I did with this. So I was thinking a couple of months back, "Shall I upgrade these things?" I said, "No, no. You know, it's not important enough. I don't want to be doing busy work. When it's important, I will know about it." So I did. Jerod told me, "Hey, we need this upgrade." And we had a make target that was showing, and it was like an interactive, step-by-step what to do... But that wasn't the most convenient place. So now it's in the readme, and you can check it out. It's already been merged, pull request \#423.
 
@@ -290,13 +290,13 @@ So the image that we used - because it goes out as a container - it's the hexpm/
 
 **Jerod Santo:** Right. So Elixir is using Erlang's SSL module, and on this latest version there's something with TLS certs, and certain HTTPS requests fail; they error out, whereas they previously weren't. And you can turn it off at some weird compatibility check or something. I don't even totally understand it. But it caused a few things that we would fetch to fail, one of which is the transcripts from GitHub. They were not fetching. And the other one is when we would go and download stuff in order to put it into the ID3 tags.
 
-\[00:26:20.03\] So one of the things we had to do is add the cover art in the ID3 tag to each episode. And so to do that, we'd just fetch it off of Fastly, and shove it in there. But our requests to Fastly were failing, and our requests to GitHub were failing, because of the way they implement HTTPS.
+\[26:20\] So one of the things we had to do is add the cover art in the ID3 tag to each episode. And so to do that, we'd just fetch it off of Fastly, and shove it in there. But our requests to Fastly were failing, and our requests to GitHub were failing, because of the way they implement HTTPS.
 
 Now, it's not every domain. It's like, it's dependent upon whatever they've configured their TLS environment to do on the server side. So it's not like all of our requests were failing, but just those two. And so, you know, you start furiously "I have to push some code up right now to fix the GitHub one, because the transcripts are not pulling in right now.."
 
 This is the second time this has happened with OTP specifically, and the SSL stuff, where it's like, maybe we do better to stay a little bit behind the curve on Erlang... I don't know. I feel like I'm gonna put a smoke test in that just says, "We can make HTTPS requests and actually hit Fastly in our test suite." Because that would be a thing that would fail if we upgrade Erlang and that breaks it, and it would cause us not to deploy, or something. Because I wouldn't have known about it if I didn't notice the side effects. I want to know about it immediately, not when they're symptoms. But I found out via symptoms this time.
 
-**Break:** \[00:27:35.08\]
+**Break:** \[27:35\]
 
 **Gerhard Lazu:** So after all my years on the RabbitMQ team, I can tell you that SSL is one of the hardest things in Erlang. The hardest. Not just when it comes to outbound connections, but also when it comes to internode. Internode communication can be very, very difficult because of SSL. And it has to do with the protocols, with the ciphers, sometimes with what is on the host... It's a neverending pool of problems. Angela, she's been on the OTP team...
 
@@ -338,7 +338,7 @@ This is the second time this has happened with OTP specifically, and the SSL stu
 
 **Adam Stacoviak:** Yes. So far back, we almost hired Jose Valim to help us with this Elixir ID3 VX, which - thank you so much, Lars, for all your hard work on this... But like, this goes back so far, right?
 
-**Jerod Santo:** \[00:34:08.10\] Jose I said "You have to talk to Lars Wikman." I'm just kidding...
+**Jerod Santo:** \[34:08\] Jose I said "You have to talk to Lars Wikman." I'm just kidding...
 
 **Gerhard Lazu:** That's what he said.
 
@@ -378,7 +378,7 @@ But I think that's just such an interesting -- like, the back-story to a feature
 
 **Gerhard Lazu:** ...however, we can give you chapters.
 
-**Jerod Santo:** \[00:37:59.07\] Yeah. I think chapters is one of those features that you don't think about much until you have them... And once you do, especially if you have shows where you're interested in a lot of what they talk about, but not everything they talk about... And hey, we're realistic; we realize maybe you're not interested in chapters. Maybe you skipped this whole episode, because you're like, "Oh, is this the chapter one? Don't care."
+**Jerod Santo:** \[37:59\] Yeah. I think chapters is one of those features that you don't think about much until you have them... And once you do, especially if you have shows where you're interested in a lot of what they talk about, but not everything they talk about... And hey, we're realistic; we realize maybe you're not interested in chapters. Maybe you skipped this whole episode, because you're like, "Oh, is this the chapter one? Don't care."
 
 **Gerhard Lazu:** Only the Lars part. Only the Lars part. Everything else you don't listen to... \[laughs\]
 
@@ -418,7 +418,7 @@ But I think that's just such an interesting -- like, the back-story to a feature
 
 **Jerod Santo:** Castro's is pretty cool, because it puts the name of the current chapter right there in the middle. And if you click on that name, it pulls up the whole deal. So it's kind of a little bit more front and center. They all have their different decisions they make, you know...
 
-**Gerhard Lazu:** \[00:41:56.03\] We're still at pull request \#423, if you're still following along... And in that pull request the other very interesting thing which happened is that even though everything worked - this was the upgrade; remember, Elixir, Erlang, the base image, a couple of other things... For some reason, the builds in CircleCI stopped working; the container image specifically was failing to build. Now, pick your battles... I keep getting reminded this, or this week in particular I was reminded a couple of times... And the easiest thing was just to remove it. So what that means is that we're no longer building in CircleCI; it's just GitHub Actions via Dagger. And while they do exactly the same thing, it just goes to show that one works, the other one doesn't, even though not much has changed.
+**Gerhard Lazu:** \[41:56\] We're still at pull request \#423, if you're still following along... And in that pull request the other very interesting thing which happened is that even though everything worked - this was the upgrade; remember, Elixir, Erlang, the base image, a couple of other things... For some reason, the builds in CircleCI stopped working; the container image specifically was failing to build. Now, pick your battles... I keep getting reminded this, or this week in particular I was reminded a couple of times... And the easiest thing was just to remove it. So what that means is that we're no longer building in CircleCI; it's just GitHub Actions via Dagger. And while they do exactly the same thing, it just goes to show that one works, the other one doesn't, even though not much has changed.
 
 I'm going to drop the link in the show notes in case anyone's interested to have a look at that. But for us, again, the easiest thing was just to remove the CircleCI integration, so now we have lost our CI redundancy.
 
@@ -498,7 +498,7 @@ But talking of Fly and all these integrations, another thing which stopped worki
 
 **Adam Stacoviak:** Well, we now have Fastly, and we now have Fly. Those are our two primary infrastructure partners. Very excited. Fastly loves us. And we do some fun stuff with Fly. In fact, I just had a conversation yesterday with Brad Gessler. He's in charge of the Rails and Ruby parts -- or not in charge of, but leading a lot of the stuff happening on the Rails and Ruby front for Fly. A lot of fun stuff.
 
-\[00:45:55.10\] I had a conversation recently with Chris McCord, talking about just the fact that you could put your application anywhere in the world... Brad called it, he said, "You'd have to have a Ph.D. to put your application in regions before. You'd have to have a Ph.D. in ops. Whereas we make it a one-liner, and we do all the hard work for you behind the scenes." I just love that.
+\[45:55\] I had a conversation recently with Chris McCord, talking about just the fact that you could put your application anywhere in the world... Brad called it, he said, "You'd have to have a Ph.D. to put your application in regions before. You'd have to have a Ph.D. in ops. Whereas we make it a one-liner, and we do all the hard work for you behind the scenes." I just love that.
 
 And then even back to Lars, with your conversation with him on episode seven, and this argument, so to speak, on like Kubernetes... Just, again, to justify this - we never used Kubernetes because we needed it; it was because we want to play and have fun and learn, and share that knowledge. So I think that that whole roundabout, and those two partners are pretty core for us. So... Kind of fun to really see Fly come to fruition as we've watching it, and then actually become a user of it, and how it's benefitted us. So it's been nice.
 
@@ -542,7 +542,7 @@ So I'm also cool with people leaving if they're not interested in this topic. Li
 
 **Adam Stacoviak:** I was gonna say, I kind of appreciate that, to some degree. I mean, it is verbose, but if you're in there, your commits are so readable, even at length... Whereas like if you are curious, we have it all there. You don't have to click through to it. So if you wanted to sort of see some of your logic... But I can also see the flip side, where it's like, "You know what - if it's just a bunch of bots, I'm not going to be here." But Jerod's sentiment is fine as well. Like, if that channel isn't for somebody, they shouldn't hang in there, and that's cool, too.
 
-**Jerod Santo:** \[00:50:03.17\] I think the balanced move is like let the bot put the content in. But you know, the first line of a commit message is the summary. And then you skip a line and go into the details, right? Like, that's the convention for good commit messages. So what we really want to know is something just got deployed, and the high-level of what it is, and then click through for the details. So I think the move is just do the first line, truncate the rest. Obviously, the commit already has a link to it, so people who are interested and they want to read Gerhard's full story...
+**Jerod Santo:** \[50:03\] I think the balanced move is like let the bot put the content in. But you know, the first line of a commit message is the summary. And then you skip a line and go into the details, right? Like, that's the convention for good commit messages. So what we really want to know is something just got deployed, and the high-level of what it is, and then click through for the details. So I think the move is just do the first line, truncate the rest. Obviously, the commit already has a link to it, so people who are interested and they want to read Gerhard's full story...
 
 **Gerhard Lazu:** Book. Mm-hm.
 
@@ -550,7 +550,7 @@ So I'm also cool with people leaving if they're not interested in this topic. Li
 
 **Gerhard Lazu:** I think that's a good improvement. The integration which we chose, it's from the GitHub Marketplace. I don't think it has that option when I checked. But I'm going to go look again. And by the way, that has to improve regardless, because I can't run it locally... And for me, it's a big deal. I wish I could be able to run a deploy locally, check that everything works, including the Slack integration, and all that stuff. Right now I have to commit and push to GitHub to see how it works in practice. That is not great, but that is a topic for another day.
 
-**Break:** \[00:51:17.08\] to \[00:53:39.22\]
+**Break:** \[51:17\] to \[53:39\]
 
 **Adam Stacoviak:** Let me ask you a question on this front there real quick...
 
@@ -564,7 +564,7 @@ So I'm also cool with people leaving if they're not interested in this topic. Li
 
 **Gerhard Lazu:** Right. So the messages only appear when the commit has gone out in production. The last line even says "Shipped to changelog.com." So that commit is live. We only publish a commit --
 
-**Jerod Santo:** \[00:54:20.21\] It's a shipment notification.
+**Jerod Santo:** \[54:20\] It's a shipment notification.
 
 **Gerhard Lazu:** Exactly... When the code, when the change is live in production. It doesn't happen before.
 
@@ -606,7 +606,7 @@ So part of this commit, what I did - I switched to signing my Git commits with S
 
 **Jerod Santo:** I do remember that. Yeah, I remember that. I rotate my SSH key every time I pair-program with you, which is once every few years... I'm with Lars on this one; I just haven't cared. I'm happy to be convinced. Sometimes it's a convenience versus benefit analysis, and it's always been like I've looked at it and I'm like, "Hm, that's a lot of work." So if this makes it super-simple and you can like toggle a switch, I already have my public private key on my computer, I do all my coding right here on this computer... So there's nothing else. Like, I just turn it on, and my commits are signed - I will happily do that. But I probably won't do much more than that, because I don't work on mission-critical systems that require such things.
 
-**Gerhard Lazu:** \[00:58:15.26\] So what are we thinking for the next Kaizen? Because it's going to be episode 80, and it's going to be the last Kaizen for this year. What are we thinking? What would we like to improve?
+**Gerhard Lazu:** \[58:15\] So what are we thinking for the next Kaizen? Because it's going to be episode 80, and it's going to be the last Kaizen for this year. What are we thinking? What would we like to improve?
 
 **Jerod Santo:** This is the hard one...
 
