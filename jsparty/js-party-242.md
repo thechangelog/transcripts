@@ -154,7 +154,7 @@ So let's just imagine that you have an application that you want to use containe
 
 **Jerod Santo:** Very cool. You are excited about this... But we have to move on. I'm excited as well; I'll be I'd be more excited with better browser support. But those things happen over time. What I don't understand with Can I Use, which is just like a Can I Use complaint, is like - when I see Edge doesn't support, it doesn't tell me like... I would love to have like their official stance. If they've said they're going to support it, even if they back down on it later, or like, they're never gonna -- sometimes it's like, "Yeah, they're never gonna do this. They've said it." Other times it's like "We're waiting." And sometimes I would love to have that information, without having to go dig it myself. That's just a caniuse.com feature request... But I digress.
 
-**Kevin Ball:** They're downstream of Chromium, right? \[unintelligible 00:13:52.12\] Chromium?
+**Kevin Ball:** They're downstream of Chromium, right? \[unintelligible 00:13:52.12\] Show Chromium?
 
 **Jerod Santo:** I don't think so.
 
@@ -220,7 +220,7 @@ But the really cool thing also is that they have a like a WYSIWYG style editor. 
 
 **Kevin Ball:** It sounds a lot like Roam, except it's local markdown files, rather than on there.
 
-**Nick Nisi:** It's local markdown. But then there are some really popular plugins. There's one called DataView, that lets me write code blocks, fence code blocks... And for the language, I just put \[unintelligible 00:20:37.05\] if I want to intermix JavaScript with that. And that is basically like an SQL language for my markdown files. So I can say, "Create a table based on every note that has this tab..."
+**Nick Nisi:** It's local markdown. But then there are some really popular plugins. There's one called DataView, that lets me write code blocks, fence code blocks... And for the language, I just put Dataview. Or I could put DataviewJS if I want to intermix JavaScript with that. And that is basically like an SQL language for my markdown files. So I can say, "Create a table based on every note that has this tab..."
 
 **Kevin Ball:** That's cool...! Okay, you might have just sold me. \[laughs\]
 
@@ -267,7 +267,7 @@ People are creating Photoshop plugins where you can just like highlight a sectio
 
 **Kevin Ball:** Yeah... Some things -- I'm tinkering around with it. It's pretty hit or miss. But when it hits, it's really freaking cool.
 
-**Jerod Santo:** Yeah. There are ones that aren't as good. If you click through, if you're on the \[unintelligible 00:26:44.07\] I think is like the one that's the hosted that's paid for, and it gives you some free credits to start... They have an actual thing where they'll teach you how to prompt it better. And once you read through that, you'll get much better results.
+**Jerod Santo:** Yeah. There are ones that aren't as good. If you click through, if you're on the stream studio.ai I think is like the one that's the hosted that's paid for, and it gives you some free credits to start... They have an actual thing where they'll teach you how to prompt it better. And once you read through that, you'll get much better results.
 
 The main thing is you actually have to tell it what kind of style you're looking for. You can tell it specific artists; you can like, "Like Rembrandt", and it's going to do it in the style of Rembrandt etc.
 
@@ -417,7 +417,7 @@ I just bring that up because it was a very similar concept, but for some reason 
 
 **Jerod Santo:** Yeah, it's a quote tweet. I'm going to find Seth Godin's and validate me stepping all over you... But yes, we're talking about the exact same thing. I'm sorry.
 
-**Kevin Ball:** \[43:43\] So definitely my logical mind is like, "Okay, I start -- this is big. I need to break it down." \[unintelligible 00:43:48.10\] Where I start to wonder, or where I feel like I'm still not totally clear is... I feel like, one, when you start talking about influence and stuff like that, it doesn't break cleanly, right? It's not like, "Okay, here's a set of serialized projects that I can take on." It's like, "Here's a set of almost campaigns that I need to be running continuously, and that are going to gradually build momentum." But yeah, then there's also this question of like, if I know this is a large project, what are the signs that I can look for on those shorter terms that tell me, "Is this going the right direction? Or do I need to course-correct?" I'm not sure if it's as simple as watching the progress of my broken-down micro projects. Maybe it is, but that's kind of where I'm stewing.
+**Kevin Ball:** \[43:43\] So definitely my logical mind is like, "Okay, I start -- this is big. I need to break it down." Kind of go things there. Where I start to wonder, or where I feel like I'm still not totally clear is... I feel like, one, when you start talking about influence and stuff like that, it doesn't break cleanly, right? It's not like, "Okay, here's a set of serialized projects that I can take on." It's like, "Here's a set of almost campaigns that I need to be running continuously, and that are going to gradually build momentum." But yeah, then there's also this question of like, if I know this is a large project, what are the signs that I can look for on those shorter terms that tell me, "Is this going the right direction? Or do I need to course-correct?" I'm not sure if it's as simple as watching the progress of my broken-down micro projects. Maybe it is, but that's kind of where I'm stewing.
 
 **Jerod Santo:** Sorry, Kball, I've been googling Seth Godin this whole time... \[laughter\]
 
