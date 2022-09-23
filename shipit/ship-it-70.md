@@ -68,7 +68,7 @@
 
 **Jerod Santo:** Okay... \[laughs\]
 
-**Gerhard Lazu:** I'm really surprised, because there was something else connecting to this... I'm blown away there's something else connecting to this, but I don't want to spoil the surprise. I'm just gonna mention the first name. I'm just gonna mention \[unintelligible 00:05:26.27\] And I'll mention the surname in a few episodes, maybe. We'll see.
+**Gerhard Lazu:** I'm really surprised, because there was something else connecting to this... I'm blown away there's something else connecting to this, but I don't want to spoil the surprise. I'm just gonna mention the first name. I'm just gonna mention Odin. And I'll mention the surname in a few episodes, maybe. We'll see.
 
 **Jerod Santo:** That's a big teaser. \[laughs\] "Stick around for a few episodes, you might get the surname of the person that connects somehow..."
 
@@ -258,7 +258,7 @@ So the image that we used - because it goes out as a container - it's the hexpm/
 
 **Lars Wikman:** Probably Alex.
 
-**Gerhard Lazu:** Okay, because then I left the comment. So one of you recommended, "Hey, why are you using this base image and not the other one?" So we switched. So once you pick Elixir, you also have to pick a version of Erlang. So I thought "Well, that was 24. Let's go to the latest Erlang version." And I was thinking "Well, hang on, this was using Ubuntu \[unintelligible 00:23:44.22\]
+**Gerhard Lazu:** Okay, because then I left the comment. So one of you recommended, "Hey, why are you using this base image and not the other one?" So we switched. So once you pick Elixir, you also have to pick a version of Erlang. So I thought "Well, that was 24. Let's go to the latest Erlang version." And I was thinking "Well, hang on, this was using Ubuntu trustee
 
 **Jerod Santo:** Whoops...
 
@@ -282,7 +282,7 @@ So the image that we used - because it goes out as a container - it's the hexpm/
 
 **Jerod Santo:** Oh, okay, you commented on that one. Cool.
 
-**Gerhard Lazu:** Yeah. \[unintelligible 00:24:53.01\] was kind enough five hours ago to solve it and mark it for... Yeah, so this will be out in 24.3.4.5. I checked Majtech, because he's the one that reported it... "Hey, Majtech, did the fix work for you?" Vojtech Mach, that's what I meant by Majtech. And 30 minutes ago, as we are recording this, he confirmed the fix works. So this is a live "Thank you very much, Vojtech." And as soon as there is an image that we can use, we will get it straight into prod.
+**Gerhard Lazu:** Yeah. Angella was kind enough five hours ago to solve it and mark it for... Yeah, so this will be out in 24.3.4.5. I checked Majtech, because he's the one that reported it... "Hey, Majtech, did the fix work for you?" Vojtech Mach, that's what I meant by Majtech. And 30 minutes ago, as we are recording this, he confirmed the fix works. So this is a live "Thank you very much, Vojtech." And as soon as there is an image that we can use, we will get it straight into prod.
 
 **Jerod Santo:** Right. Right now, I implemented a workaround, not sufficiently enough. So the problem happening is that TLS bug in the SSL... What do you call it in Erlang, Lars? Are they packages? It's like the colon SSL namespace... I don't know, modules maybe?
 
@@ -326,7 +326,7 @@ This is the second time this has happened with OTP specifically, and the SSL stu
 
 **Lars Wikman:** Well, OpenSSL hasn't exactly been without fail in other regards along the way... And OpenSSL is a super-tricky dependency overall. It causes a lot of install problems, which are not runtime problems...
 
-**Gerhard Lazu:** I can tell you that we were using it \[unintelligible 00:33:02.06\] I remember that was like one of the very important dependencies to get right. You don't have to use it, but then that just like opens up a whole set of other problems. So just to wrap this whole chapter up, it's a hard problem. It's amazing, Jerod, that you've found it, and yes, we need those smoke tests. Very important. Because regressions - sometimes they are introduced; there's a couple of major Erlang versions that are being actively maintained at any given point in time... And sometimes new specs get introduced, and new code gets introduced, and sometimes things just misbehave, and you need to run this stuff in production to see. It's not obvious.
+**Gerhard Lazu:** I can tell you that we were using it in there with RabbitMQ and Erlang. I remember that was like one of the very important dependencies to get right. You don't have to use it, but then that just like opens up a whole set of other problems. So just to wrap this whole chapter up, it's a hard problem. It's amazing, Jerod, that you've found it, and yes, we need those smoke tests. Very important. Because regressions - sometimes they are introduced; there's a couple of major Erlang versions that are being actively maintained at any given point in time... And sometimes new specs get introduced, and new code gets introduced, and sometimes things just misbehave, and you need to run this stuff in production to see. It's not obvious.
 
 **Adam Stacoviak:** I want to bring up a back-story to this... Do you remember, Jerod, how long we've wanted this feature?
 
@@ -354,7 +354,7 @@ Then we reached out to Plataformatec, back when Jose was with them, or back befo
 
 **Jerod Santo:** You were the next. You were the replacement for Jose.
 
-**Adam Stacoviak:** It's just interesting when you ship a feature like this how much story is behind it. There's a desire for a certain feature. Obviously, we've been in podcasting for a very long time, so chapters are pretty important... Client support wasn't always there... So the thrust was there for our desire, but it wasn't there in support, in \[unintelligible 00:35:42.11\] So I think Apple Podcasts may have begun support about a year or so ago, maybe... But like the major player supporting was Marcos at Overcast. That was like the main one I saw have support for it, really.
+**Adam Stacoviak:** It's just interesting when you ship a feature like this how much story is behind it. There's a desire for a certain feature. Obviously, we've been in podcasting for a very long time, so chapters are pretty important... Client support wasn't always there... So the thrust was there for our desire, but it wasn't there in support, in ending clients. So I think Apple Podcasts may have begun support about a year or so ago, maybe... But like the major player supporting was Marcos at Overcast. That was like the main one I saw have support for it, really.
 
 **Jerod Santo:** Yeah. For a long time, that was like the main one. And it's kind of like not worth it for just that one; even though it was the app that I used, and so I wanted it... I've wanted this feature for so long. There's also a whole production workflow side of this that we're not talking about, about actually getting the chapters in there...
 
@@ -390,7 +390,7 @@ But I think that's just such an interesting -- like, the back-story to a feature
 
 **Jerod Santo:** Right.
 
-**Gerhard Lazu:** My heart is filling up now, because I have a history of holding things wrong... And I thought "I'm the only one that can't find it, dang it. What is going on here?" \[laughter\] \[unintelligible 00:39:24.28\] So you confirming it, Lars... That was exactly my thought, like "Where is the chapter support? I know we have it, because Lars and Jerod says we do... But where is it?" \[laughs\]
+**Gerhard Lazu:** My heart is filling up now, because I have a history of holding things wrong... And I thought "I'm the only one that can't find it, dang it. What is going on here?" \[laughter\]  So you confirming it, Lars... That was exactly my thought, like "Where is the chapter support? I know we have it, because Lars and Jerod says we do... But where is it?" \[laughs\]
 
 **Lars Wikman:** It's in Pocket Casts...
 
@@ -398,7 +398,7 @@ But I think that's just such an interesting -- like, the back-story to a feature
 
 **Adam Stacoviak:** Okay...
 
-**Gerhard Lazu:** Can you tell that I'm not using Tinder? \[laughter\] \[unintelligible 00:39:54.22\] big business and how it works. I don't know how to go left or right. It's just straight ahead, that's it.
+**Gerhard Lazu:** Can you tell that I'm not using Tinder? \[laughter\] I don't know why I think business and how it works. I don't know how to go left or right. It's just straight ahead, that's it.
 
 **Jerod Santo:** Straight ahead. \[laughs\]
 
@@ -688,7 +688,7 @@ Lars, thank you very much for joining us today. It was our pleasure.
 
 **Adam Stacoviak:** Thank you so much.
 
-**Gerhard Lazu:** ...we are back, because we -- Adam missed last time. \[unintelligible 01:05:52.28\]
+**Gerhard Lazu:** ...we are back, because we -- Adam missed last time.
 
 **Jerod Santo:** We went from our smallest Kaizen ever to our biggest Kaizen ever.
 
