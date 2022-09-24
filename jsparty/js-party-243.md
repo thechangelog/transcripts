@@ -38,7 +38,7 @@
 
 **Austin Gil:** Yeah, my name is Austin Gil. I have been building websites for - I don't know, like ten years... And I started in agency work, which was a lot of fun doing WordPress stuff, which I always advise to people, to do a little bit of everything. The agency work is really cool, because you can really hone the process of doing the same sort of projects over and over, and just like get it better and better... And it's fun to do that.
 
-\[00:06:11.23\] And then I also did some product work for several years, and that's interesting, because you kind of get to go into a more vertical direction, and the problems never go away. They just get harder and harder. But then you also have to deal with like technical debt a little bit more, and stuff that gets swept under the rugs.
+\[06:11\] And then I also did some product work for several years, and that's interesting, because you kind of get to go into a more vertical direction, and the problems never go away. They just get harder and harder. But then you also have to deal with like technical debt a little bit more, and stuff that gets swept under the rugs.
 
 All throughout that time I've been kind of doing open source work, and writing blogs, and creating content out there, and I don't know why it took me so long, but I realized that I might actually get paid to do it by doing developer advocacy... So I am doing that now for Akamai, which is an excellent company. And we recently acquired Linode, which has been a lot of fun for my work.
 
@@ -58,7 +58,7 @@ So it was very guerilla style, like no formalities, I just ran things and found 
 
 **Austin Gil:** Yeah, yeah, so... Shout-out to SDJS. And honestly, I could go on and on. I know this is not the topic that we were going to discuss, but the community stuff and meetups and organizing - it's so cool, because it was so instrumental in my career early on as just an attendee; a great place to -- if you want to build your network, or potentially get hired, going to meetups and talking and networking, and making friends... It's awesome. And I wish that we could come up with a good template for other meetup organizers, because I think that San Diego JS just had something really special in that.
 
-\[00:10:04.08\] Before the pandemic, it was the largest tech meetup in San Diego, which is a large city. And we had, I think, eight events a month. So every week, there was two events going on. And I think that just the way that that grew, like you said, was with people stepping up and wanting to say, "Hey, there's no Vue-specific meetup in San Diego, and we would like to do that." And as organizers, we were like, "Cool, do you want to do that? You're in charge." And really just the community stepping up and owning that sort of leadership, and making it happen... And sometimes things fell out and whatever, but it was a good way that you could sort of scale up the organization and give people what they want, and give back to the community... And it was great. I loved it.
+\[10:04\] Before the pandemic, it was the largest tech meetup in San Diego, which is a large city. And we had, I think, eight events a month. So every week, there was two events going on. And I think that just the way that that grew, like you said, was with people stepping up and wanting to say, "Hey, there's no Vue-specific meetup in San Diego, and we would like to do that." And as organizers, we were like, "Cool, do you want to do that? You're in charge." And really just the community stepping up and owning that sort of leadership, and making it happen... And sometimes things fell out and whatever, but it was a good way that you could sort of scale up the organization and give people what they want, and give back to the community... And it was great. I loved it.
 
 **Nick Nisi:** That's awesome. I haven't been involved with a tiny meetup like SDJS, but I have run Nebraska JS... And, I'm sure we're much, much bigger...
 
@@ -80,7 +80,7 @@ And most engineers -- like, if you just say abstractly, "Do you want to give a t
 
 And of course, the after -- I mean, this has pros and cons as well, but the after-meetup go out for pizza and beer or whatever it might be was another just great way to connect as human beings, and network, and build those networks.
 
-**Nick Nisi:** \[00:14:19.27\] Yeah. I mean, I think the networking term, or the term networking kind of has like a negative connotation to it, but there's just -- it's professional networking and it's also social networking. I've made so many friends that would just come and hang out at my house and play board games, and stuff... And in the larger scheme of this potential loneliness pandemic that people are facing, just getting out and doing things that you're interested in with other people that are interested in the same things - it's great.
+**Nick Nisi:** \[14:19\] Yeah. I mean, I think the networking term, or the term networking kind of has like a negative connotation to it, but there's just -- it's professional networking and it's also social networking. I've made so many friends that would just come and hang out at my house and play board games, and stuff... And in the larger scheme of this potential loneliness pandemic that people are facing, just getting out and doing things that you're interested in with other people that are interested in the same things - it's great.
 
 **Kevin Ball:** Totally. I used to have this big barrier. I was like, "Networking? I'm no good at it. I don't like it. What is it?" But then I changed my mind around, when I realized that networking just means talking to people. And talking to people who are interested in the same type of stuff you're interested in. That's it.
 
@@ -100,7 +100,7 @@ I think that some people don't like to be in the spotlight, but for those of you
 
 And the livestreaming stuff - it's really weird, because you go from, "I want to--" I don't know. Like, if you go from creating scripted content, or even like blog posts, written content, there's a formula to honing it and crafting it, and then coming up with a final product that is coherent. And with livestreaming, a lot of the times it's just like, off the cuff, nothing's prepared... I mean, it's, if you ever see someone that livestreams a presentation, and they upgraded their dependencies the night before, or the Wi-Fi goes down and they're just scrambling, think of that, but over the course of the entire time. You're just like, "I don't know what I'm doing." There's people that are on the show, or like in the chat that are correcting me, and it's stressful... And it's so weird, because livestreaming, almost -- it becomes less about the content and more about the performance, or the community that you're building. So it's really strange, but it's also rewarding, because as transitioning into developer advocacy, they don't tell you how little you actually code. And I got into coding because I love it, so it's been hard to see that shift in the time and focus... But it's fun. I like it.
 
-**Nick Nisi:** \[00:18:13.09\] Yeah. No, it seems fun. I've tried it once, without telling anyone, just like, "Could I set this up on Twitch and get it going?" And I didn't have anybody actually listening or participating, but I was thinking about that, and I just feel like, how could you possibly be trying to do something while paying attention to the chat, and interacting with them while you're googling the parameters to reduce for the 400th time? Like, that's how I would be. It'd just be so difficult to focus on one thing, or any thing.
+**Nick Nisi:** \[18:13\] Yeah. No, it seems fun. I've tried it once, without telling anyone, just like, "Could I set this up on Twitch and get it going?" And I didn't have anybody actually listening or participating, but I was thinking about that, and I just feel like, how could you possibly be trying to do something while paying attention to the chat, and interacting with them while you're googling the parameters to reduce for the 400th time? Like, that's how I would be. It'd just be so difficult to focus on one thing, or any thing.
 
 **Austin Gil:** Yeah. It's not a conducive environment for getting actual work done... \[laughs\]
 
@@ -124,9 +124,9 @@ So I don't know... I think either option works. What it comes down to is that fo
 
 **Nick Nisi:** They are amazing.
 
-**Break:** \[00:21:08.22\]
+**Break:** \[21:08\]
 
-**Jingle:** \[00:23:47.35\]
+**Jingle:** \[23:47\]
 
 **Nick Nisi:** I love that so much.
 
@@ -146,7 +146,7 @@ I've gotten the pieces all together, but nothing tangible as in "It's doing exac
 
 **Nick Nisi:** Proceed with caution. \[laughs\]
 
-**Kevin Ball:** \[00:25:56.15\] Yeah. I still haven't looked. The last episode we talked about it, and it might be the thing that pulls me off of Roam Research, which is a similar type of app, but it's not extensible in the same way. So I still haven't had time to dig in, but... The next time I actually have a day where I'm not having to work or deal with kids stuff.
+**Kevin Ball:** \[25:56\] Yeah. I still haven't looked. The last episode we talked about it, and it might be the thing that pulls me off of Roam Research, which is a similar type of app, but it's not extensible in the same way. So I still haven't had time to dig in, but... The next time I actually have a day where I'm not having to work or deal with kids stuff.
 
 **Nick Nisi:** Yeah, this is my ongoing theme for the show, is every time I'm on with Kball, I'm just gonna be like "Obsidian did this really cool thing..." Yeah, just keep prodding at that.
 
@@ -168,7 +168,7 @@ And yeah, that's about all I got. It's just kind of this -- it's still a little 
 
 **Austin Gil:** So does it give you a framework around time to make decisions, or act, like time within to act, and then you kind of do your how to step away and actually get perspective from which to observe? Because it sounds like a course correction technique that as humans we kind of do... But it sounds like this might provide better tools to take yourself out of the human, error-prone side of things...
 
-**Kevin Ball:** \[00:29:57.07\] Yeah, so there's a couple of pieces from where I've gotten to right now. So first off, if you think about it in a competitive scenario, which doesn't really necessarily apply in like engineering process world, but like -- they're talking about military. He was originally developing this related to like fighter jets, and fighting each other. One, there's advantages to shortening the length of the cycle. Like, if you can make it around that cycle faster, you can learn faster, you can adjust faster. And many folks have taken that as being the primary thing, of like, "Oh, you have to have your OODA Loop be faster than your opponent's OODA Loop."
+**Kevin Ball:** \[29:57\] Yeah, so there's a couple of pieces from where I've gotten to right now. So first off, if you think about it in a competitive scenario, which doesn't really necessarily apply in like engineering process world, but like -- they're talking about military. He was originally developing this related to like fighter jets, and fighting each other. One, there's advantages to shortening the length of the cycle. Like, if you can make it around that cycle faster, you can learn faster, you can adjust faster. And many folks have taken that as being the primary thing, of like, "Oh, you have to have your OODA Loop be faster than your opponent's OODA Loop."
 
 But there's also some interesting things about depending on where -- if you start to observe where in the cycle different types of things can happen, and then you can intervene or act in ways, where there's like a rhythm to it... So if you recognize, "Oh, my opponent seems to be working on this cycle, or they're doing these things." If I can find the right times when, "Okay, I'm going to get in something that's going to change the situation between their decision and their act loop, if I can time that perfectly, I'm going to eff them up, because they've made a decision, they've committed, they haven't seen the results of that action yet. and suddenly, I'm changing the scenario out from under them." And so starting to think about the rhythms of when do you do things.
 
@@ -192,7 +192,7 @@ So I suspect there's mappings to like the different type of work you want to do 
 
 **Austin Gil:** It's so bad... \[laughter\] As someone that really loves puns, that was... Ooomph.
 
-**Nick Nisi:** \[00:34:13.27\] Yeah. That's what I do, yeah... \[laughs\]
+**Nick Nisi:** \[34:13\] Yeah. That's what I do, yeah... \[laughs\]
 
 **Kevin Ball:** Nice.
 
@@ -216,7 +216,7 @@ So if you go to a website, and the website uses - like what we're on right now t
 
 So it was interesting and fascinating, I wrote about it, and... Yeah, it kind of like took off and just getting a lot of attention, both "Hey, this is cool!" and "Whoa, this is scary." So, yeah...
 
-**Kevin Ball:** \[00:38:06.15\] So once that file is there, the website would have access to it?
+**Kevin Ball:** \[38:06\] So once that file is there, the website would have access to it?
 
 **Austin Gil:** Yes. But that's not really any different, or more dangerous, or whatever, than if you just have a regular file input, and it pops up the file picker UI, and then the user selects that file, then the website has access to that file. So it still requires user interaction, and like a high level of user awareness to what's going on, and decision-making.
 
@@ -240,7 +240,7 @@ As developers working on browsers, I'm sure there's a lot more that goes into th
 
 **Kevin Ball:** Does clicking on it with JavaScript work? That would concern me more from a security standpoint, because if I thought I was going somewhere and I ended up and I'm on the camera, I might forget how I got to that camera, and then take a picture, and suddenly this potentially malicious website has access without me realizing what's going on.
 
-**Austin Gil:** \[00:41:50.02\] Yeah, so that is a good question... That is not something that I tested, but it was something that kind of came up, or I came across that same idea. It could be you trigger it with JavaScript, or it could be you could even visually hide an input and display it as something else, and kind of trick a user into clicking something, like a cute kitty photo, or something, and all of a sudden, without being prompted, "Hey, this website is trying to access your camera. Is that okay?", they just go straight into the camera. And even then, the security concern - there is a path where you leak some sensitive information, right? Or I guess a developer, a hacker can get to sensitive information. And that is maybe somehow hiding the fact that there's a file input there with the camera, and then somehow getting the user to actively click that input, or maybe trigger it with JavaScript... And then the camera's going to open and take up the entire screen. So a user has to notice that, or not notice it, or either notice it and like click the Capture button...
+**Austin Gil:** \[41:50\] Yeah, so that is a good question... That is not something that I tested, but it was something that kind of came up, or I came across that same idea. It could be you trigger it with JavaScript, or it could be you could even visually hide an input and display it as something else, and kind of trick a user into clicking something, like a cute kitty photo, or something, and all of a sudden, without being prompted, "Hey, this website is trying to access your camera. Is that okay?", they just go straight into the camera. And even then, the security concern - there is a path where you leak some sensitive information, right? Or I guess a developer, a hacker can get to sensitive information. And that is maybe somehow hiding the fact that there's a file input there with the camera, and then somehow getting the user to actively click that input, or maybe trigger it with JavaScript... And then the camera's going to open and take up the entire screen. So a user has to notice that, or not notice it, or either notice it and like click the Capture button...
 
 **Kevin Ball:** The key is do they have to make an action, right?
 
@@ -276,7 +276,7 @@ So I think if you're going to be on the side of the fence that says, "This is a 
 
 **Nick Nisi:** That's me.
 
-**Kevin Ball:** \[00:46:13.19\] "Wait, I have my camera open. Great! Let me take a picture of something."
+**Kevin Ball:** \[46:13\] "Wait, I have my camera open. Great! Let me take a picture of something."
 
 **Nick Nisi:** But also, the iPhones at least have a feature where you can set like an accessibility thing where if I double tap on the back of my phone, it opens the camera app. All the time I'm accidentally opening my camera app.
 
@@ -306,7 +306,7 @@ So I think if you're going to be on the side of the fence that says, "This is a 
 
 So it may be something that can happen in the future, but I think that just on mobile devices it's a lot more prepared for that sort of behavior. And it'd be great to talk to someone at Chrome or Firefox or Safari to get some idea, or even the working group, and see what the idea is on moving forward on that.
 
-**Break:** \[00:49:13.04\]
+**Break:** \[49:13\]
 
 **Nick Nisi:** Right, so Austin, in the last segment we talked about that awesome TIL that you had about capturing video or images or microphone just from HTML... I do think it's really cool, and as a user, I really want that convenience, without having a bunch of extra pop-ups... But yeah, it remains to be seen whether it could be exploited in some weird way. I'm sure Feross is already working on figuring out a way to do that... But as you mentioned, this went viral, it went to the top of Hacker News, and has gotten a lot of attention, so I thought in the last section that we could talk about what that's like, like having something, a cool TIL like that that you learned and wrote about go viral on big sites across the internet. What's it like?
 
@@ -318,7 +318,7 @@ So it may be something that can happen in the future, but I think that just on m
 
 And then from that tweet -- so on the Akamai dev channel we're trying to give back a lot of what we like to call community karma, and really invest into developer education... And yeah, just giving back to the community. So I took this, and every week - or every other week, I think - I have a video series called WebDev Office Hours, where I just talk about stuff like this; they're like five-minute-long videos, a little bit more produced than live streams, but things that I learned, or little tips and tricks and stuff. So I threw this on there, that became a video, and then I also decided to write a blog post about it. And I put it out there and I thought it was interesting, but it's funny that this -- actually, I'm used to writing like very long-form content, with 3,000 words, and this was something that I was like, "Cool, let me copy the YouTube captions and just throw it into a blog post, fix it up, and do whatever." Very low level of effort. But I think it was just sort of the right combination of being kind of fascinating and practical to people... And also, I did work on the title a little bit.
 
-\[00:56:03.14\] There's a certain sort of balance of being slightly intriguing, but not giving it all the way up front, but also not being clickbaity, because you don't want to promise something and not deliver. I call this something like "TIL - you can access the user's camera with HTML", which itself sounds pretty interesting, right? Like, I would click on that. But also, I really hate those clickbaity, like "Bet you didn't know what it is" or whatever.
+\[56:03\] There's a certain sort of balance of being slightly intriguing, but not giving it all the way up front, but also not being clickbaity, because you don't want to promise something and not deliver. I call this something like "TIL - you can access the user's camera with HTML", which itself sounds pretty interesting, right? Like, I would click on that. But also, I really hate those clickbaity, like "Bet you didn't know what it is" or whatever.
 
 So yeah, I wrote that, it was relatively short... It's got the video, and it kind of just runs through what it is, and how it works, and what I learned. And then I actually submitted that to Changelog news, and Jerod accepted it. And I think at that point Feross ended up posting it to Hacker News, and then it just took off, and it ended up on the front page somehow... Which is weird, because I had posted it to Hacker News as well, and no one paid attention... \[laughs\]
 
