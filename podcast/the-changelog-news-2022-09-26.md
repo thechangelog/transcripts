@@ -32,7 +32,7 @@ Maybe this is just the boost it needs to remain relevant and fight back against 
 
 **Jerod Santo:**
 
-Nabeel Suleiman thinks NATS is great and recommends you check it out if you're running any kind of microservices architecture. What is NATS, exactly? Nabeel describes it as a light-weight, easy to deploy service that provides pub-sub functionality with very little fuss. It is a tiny application, written in Go, that listens on a port for connections from clients.
+Nabeel Sulieman thinks NATS is great and recommends you check it out if you're running any kind of microservices architecture. What is NATS, exactly? Nabeel describes it as a light-weight, easy to deploy service that provides pub-sub functionality with very little fuss. It is a tiny application, written in Go, that listens on a port for connections from clients.
 
 His blog post on NATS started a nice discussion Changelog News where Dwayne Bradley agreed that more people should investigate NATS. He says there are so many things you can remove from your infrastucture by using it. Things like load balancers, firewalls, VPNs, traffic shapers, services meshes, Kubernetes, and more.
 
