@@ -82,7 +82,7 @@ Stable Diffusion recently launched their 1.5 model, and they actually had a peri
 
 **Jerod Santo:** Yeah. One concrete example there - I was trying to get very much a sci-fi lookout, and I couldn't quite get it to do what I wanted... And I was trying to think of a science fiction author, but I didn't really know any science fiction artists, like who draws the stuff for this particular book... So I went to William Gibson's Neuromancer, and I realized if I put Neuromancer in, a very specific style -- even though that's a book; I'm sure there's arts that is tagged to that, or something... Maybe there is an artist... But I was getting very specific, William Gibson-esque results all of a sudden. It's like I found a keyword, or something.
 
-**Simon Willison:** That's \[unintelligible 00:20:21.03\] All of this stuff, it comes down to it... When you're working with this, you're not a programmer anymore. You're a wizard, You're a wizard. You're learning spells.
+**Simon Willison:** That's-- you found a new spell, right? All of this stuff, it comes down to it... When you're working with this, you're not a programmer anymore. You're a wizard, You're a wizard. You're learning spells.
 
 **Jerod Santo:** I always wanted to be a wizard.
 
