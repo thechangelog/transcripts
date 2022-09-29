@@ -80,7 +80,7 @@ And then I think the other primary thing that I'll just echo is evaluation crite
 
 **Jonas:** Yeah, I would agree that -- yeah, ability to learn I think is pretty important in any role, because of the nature of tech... But yeah, really as you start to go more senior, it's where that ability to really lead and provide that expertise from experience to lead and guide a team - that becomes really important. And it's really where I think the depth of knowledge starts to become more important; like, you should have gained a lot more depth in that area, depending on the role, and that's what I would tend to be expecting more. And then add ability to really speak to different trade-offs, and still be able to admit that you don't know everything... I mean, obviously, we're always like -- even at the most seniors, like you know that, but like, you're able to really understand where your limits are even, and speak to that, but then also show a lot of depth in other areas. I think that can show a lot of maturity and that's really great.
 
-**Natalie Pistunovich:** Definitely. I very agree with you both also that you should probably not apply to a job where you mean 100% of requirements \[unintelligible 00:19:58.19\] bored.
+**Natalie Pistunovich:** Definitely. I very agree with you both also that you should probably not apply to a job where you mean 100% of requirements or you'll just be bored.
 
 **Jonas:** Yeah.
 
@@ -104,7 +104,7 @@ And then I think the other primary thing that I'll just echo is evaluation crite
 
 **Emma Draper:** I think that there's a difference between how long the job search takes, and then the interview process. So I would delineate between those two things. If you think that you've hit a ceiling at your existing company or in your existing role and you want to start exploring, I would give yourself a lot of time to find that right fit, right? Because there's this really unique balance of finding people that you're inspired by, as well as the mission that you're aligned with... And that doesn't happen overnight. And oftentimes, it's applying to a lot of companies and hearing back from a really small margin and fraction of those. And then, in my experience, once the interview process has kicked off, it can take anywhere from - at the small startups it was a week, or a week and a half, two weeks; it was really accelerated... Versus at The New York Times when conversations started, and it probably took in total four months, or five months. So it's just about what that role's opening is, and what their timeline looks as a company to fill that position.
 
-**Jonas:** Yeah, I think that's right. It can definitely range on the type of company and what their goals are for the hiring, and their process. I mean, I think in terms of the overall time you spend interviewing, I think it's about six to eight hours of actual interviews; that feels about the norm. But yeah, there can definitely be gaps, like between where those different gates are... And because -- and especially at an enterprise \[unintelligible 00:25:47.06\] there might be, "We need to do so many candidates before we can move to another gate." Like, some of those checks and balances that are just not even in your control. I think sometimes as a candidate you can feel like "Oh, no...!" but having then been on the other side, it's also like some of it is just there are certain processes in place, and they have to go through the wait sometimes between your final interview and an offer... There can be so much happening in the background sometimes. So that's just something to consider, especially I think at larger organizations; startups, or smaller, they can move a little faster. So yeah, I think be ready for that; sometimes it might take longer than you hope.
+**Jonas:** Yeah, I think that's right. It can definitely range on the type of company and what their goals are for the hiring, and their process. I mean, I think in terms of the overall time you spend interviewing, I think it's about six to eight hours of actual interviews; that feels about the norm. But yeah, there can definitely be gaps, like between where those different gates are... And because -- and especially at an enterprise New York Times or something there might be, "We need to do so many candidates before we can move to another gate." Like, some of those checks and balances that are just not even in your control. I think sometimes as a candidate you can feel like "Oh, no...!" but having then been on the other side, it's also like some of it is just there are certain processes in place, and they have to go through the wait sometimes between your final interview and an offer... There can be so much happening in the background sometimes. So that's just something to consider, especially I think at larger organizations; startups, or smaller, they can move a little faster. So yeah, I think be ready for that; sometimes it might take longer than you hope.
 
 **Emma Draper:** Yeah. And I would say lean on your recruiter, or the hiring team that has brought you on, and just ask. I was really lucky to have an over-communicative recruiter, that was just telling me "Nothing's gonna happen for about a month. Don't have anything for you, again." That's also fine. But I think it's nice to know where you're at, and that the company is still thinking of you and considering you, right? So I would just say you can ask. Ask questions.
 
@@ -116,13 +116,13 @@ And then I think the other primary thing that I'll just echo is evaluation crite
 
 **Natalie Pistunovich:** So zooming in on that duration of the process... How long should a coding assignment take if you do it at home, versus if you do it on-site, on Zoom, or whatever the equivalent is? Please don't say eight hours. \[laughs\]
 
-**Jonas:** No, I was gonna say -- I mean, I think there's like what happens in reality versus my advice... I prefer to keep them roughly the same. I've definitely seen some where it's like \[unintelligible 00:28:03.08\] "Yeah, it's been four hours", and that's kind of absurd to me, because you're interviewing at a ton of places, and you would never ask someone to sit in an office for four hours... I mean, hopefully you wouldn't; maybe someone would. But I just don't think that's realistic. But I've interviewed and had like, "Here's a take-home. It's four hours", and I was just like "Oh, my God..." It was not a great experience.
+**Jonas:** No, I was gonna say -- I mean, I think there's like what happens in reality versus my advice... I prefer to keep them roughly the same. I've definitely seen some where it's like this take-home exercise "Yeah, it's been four hours", and that's kind of absurd to me, because you're interviewing at a ton of places, and you would never ask someone to sit in an office for four hours... I mean, hopefully you wouldn't; maybe someone would. But I just don't think that's realistic. But I've interviewed and had like, "Here's a take-home. It's four hours", and I was just like "Oh, my God..." It was not a great experience.
 
 \[28:27\] I think take-homes can be a nice option, but you should treat it the same as you would an in-person one, and try to keep it around an hour, maybe 90 minutes, depending what it is... But I just think after that point, you're just exhausting people. I don't know if you're gonna get much better signal... Unless you actually expect your engineers to sit at their computers working on one thing for four hours...
 
 **Natalie Pistunovich:** When you do this specifically, do you say like "Start a timer, and 90 minutes - whatever, you're done. Even if you didn't finish, just submit what you had." Or do you say like "It should take 90 minutes, and this is what you should do", and then it ends up in people sometimes taking longer, sometimes less? Which of the two approaches do you prefer?
 
-**Jonas:** \[unintelligible 00:29:09.06\] honestly, I feel like I'd rather just give them the recommended time, because the idea of a timer feels stressful to me... \[unintelligible 00:29:17.14\] with a timer.
+**Jonas:** I feel a little torn on this honestly, I feel like I'd rather just give them the recommended time, because the idea of a timer feels stressful to me... when I've done it with a with a timer--
 
 **Natalie Pistunovich:** Not a real timer, but in the sense of "Don't do over 90 minutes" is what I meant.
 
@@ -144,7 +144,7 @@ When I have crafted or helped craft, what those take-homes look like - it is ver
 
 **Angelica Hill:** You talked a lot about the many, many different parts that make up the full interview process, and the fact that it could be spread over many months, it could be one day of intense interviews... I've certainly experienced and done that... So how do you prepare for all this? How do you get yourself ready to do all these many different interviews?
 
-**Jonas:** Yeah. I mean, ultimately, practicing. And I think I even saw a study that basically said people are more successful the more they practice... Which isn't surprising, but it just shows you that, unfortunately, I think for the most part, interviewing is a skill, and you have to practice to develop it. There's a whole other conversation we could have on how to actually assess juniors \[unintelligible 00:34:32.09\] So I think for the world we're in, and what you're gonna face, you have to practice and just like set aside time every day, every week... Understand your schedule and plan around that, and know how much prep you think you're going to need to be comfortable... Because we can dig into different tips there, but the main thing is try to have a learning plan and prioritize it.
+**Jonas:** Yeah. I mean, ultimately, practicing. And I think I even saw a study that basically said people are more successful the more they practice... Which isn't surprising, but it just shows you that, unfortunately, I think for the most part, interviewing is a skill, and you have to practice to develop it. There's a whole other conversation we could have on how to actually assess juniors maybe that's like another day. So I think for the world we're in, and what you're gonna face, you have to practice and just like set aside time every day, every week... Understand your schedule and plan around that, and know how much prep you think you're going to need to be comfortable... Because we can dig into different tips there, but the main thing is try to have a learning plan and prioritize it.
 
 I feel like I definitely didn't do that well earlier on, and so then you just go in like a wormhole of answering like coder challenges, and then suddenly you're like "Oh, but that actually isn't what I need to practice." You know, you can just get really stuck in one thing. So try to actually step back and be like "Okay, these are the types of companies, these are the types of roles, so I should like focus on this thing with API design", or whatever you know your weaknesses are where you need to really practice and have a plan for it... Because otherwise, you could spend a lot of time studying stuff that won't be relevant, and that really is rough.
 
@@ -158,7 +158,7 @@ I feel like I definitely didn't do that well earlier on, and so then you just go
 
 **Angelica Hill:** And what is your fun, little story that demonstrates you've done this thing, whether made up or real?
 
-**Jonas:** \[laughs\] Oh, and just read your resume, and then remind yourself what's in there... Because sometimes you write it, and then you just send it out there... And then practice talking through those examples; because to your point, it's crazy how you just forget everything you've ever done when someone asks you about it suddenly. \[unintelligible 00:37:25.03\]
+**Jonas:** \[laughs\] Oh, and just read your resume, and then remind yourself what's in there... Because sometimes you write it, and then you just send it out there... And then practice talking through those examples; because to your point, it's crazy how you just forget everything you've ever done when someone asks you about it suddenly. Right? Like you have to kind of -- like I was practicing...
 
 **Natalie Pistunovich:** "Tell me about yourself."
 
@@ -166,7 +166,7 @@ I feel like I definitely didn't do that well earlier on, and so then you just go
 
 **Angelica Hill:** So when you're asked to talk about like a challenge you faced, or tell us about a time you like failed, how honest should you be about that? Like, "Hey, I once took down the production DB..." True story. \[laughter\] Like, how honest should you be with those stories? Or how do you frame it as a win?
 
-**Jonas:** Yeah, the weird thing about those - and it's helpful \[unintelligible 00:38:12.25\] but think about what the interviewer is trying to learn from it. Generally, those questions are trying to get at your ability to learn, your ability to have empathy, your ability to recognize mistakes... To me, it's not so much about how honest, it's more about how well do you craft that story, so that it comes off like "I brought down a production database", right? You can say that, because I think most people accept that engineers make mistakes... But it's more about like how you say it, right? Can you speak to the fact of like "This was the mistake I realized. Here's what we did to improve, and I got this from it." That's really more what you're trying to get at.
+**Jonas:** Yeah, the weird thing about those - and it's helpful because I now have interviewed but think about what the interviewer is trying to learn from it. Generally, those questions are trying to get at your ability to learn, your ability to have empathy, your ability to recognize mistakes... To me, it's not so much about how honest, it's more about how well do you craft that story, so that it comes off like "I brought down a production database", right? You can say that, because I think most people accept that engineers make mistakes... But it's more about like how you say it, right? Can you speak to the fact of like "This was the mistake I realized. Here's what we did to improve, and I got this from it." That's really more what you're trying to get at.
 
 Again, I think you want to be careful about treading into weird waters of, I don't know, maybe really weird interpersonal conflicts or something, because that could just start sounding a bit like "Ooh, I don't know..." For the most part, you want to just think about what the takeaway from that story is, and that's really what counts, and make sure that comes through.
 
@@ -178,7 +178,7 @@ Again, I think you want to be careful about treading into weird waters of, I don
 
 **Natalie Pistunovich:** That was me at my very first job interview... \[laughter\]
 
-**Jonas:** \[unintelligible 00:41:08.23\]
+**Jonas:** Sometimes it can be interesting!
 
 **Natalie Pistunovich:** "I studied in high school..."
 
@@ -222,7 +222,7 @@ And just generally anyone that shows just a really strong empathy for others, an
 
 **Emma Draper:** Good. So I think being able to pull from being concise, but being able to grab the interviewer's attention with the examples that you're giving... I really appreciate it when candidates pause before answering; it shows a thoughtfulness to understanding the question before -- again, it's that, like, jump to solution before you really understand. I think that it's totally appropriate and okay, and kind of preferred if you say, "I'm gonna take a minute to make sure, just to answer your question thoughtfully." I think that that's great.
 
-I really appreciate it and love when a candidate comes into the interview and has researched anything they can about the company, about the mission, about what language \[unintelligible 00:51:15.29\] probed for the recruiter to say "What language does this team program? What problems are they solving for?" Like, you can ask... I think it speaks volumes when a candidate has done that initial research and legwork to just show interest in, and initiative, when taking the interview.
+I really appreciate it and love when a candidate comes into the interview and has researched anything they can about the company, about the mission, about what language has probed for the recruiter to say "What language does this team program? What problems are they solving for?" Like, you can ask... I think it speaks volumes when a candidate has done that initial research and legwork to just show interest in, and initiative, when taking the interview.
 
 And then the last one I would say is - perhaps a little bit antiquated, but I really love it when there's like a thank you. And that could be in any way, but if I get an email from a candidate that says thank you, or I get a LinkedIn message... And I've done this myself after all interviews. I just think recognizing that people have taken time to jump on a call with you... It just shows that connection, right? Like, "Hey, I really enjoyed..." and what you perhaps enjoyed from the interview; what you took away. I think that that is not done enough, and it's like a green light. Alright, red flags... \[laughter\]
 
@@ -276,7 +276,7 @@ And trying to think through what else... I think not being able to bring strong 
 
 **Emma Draper:** Yup.
 
-**Jonas:** \[unintelligible 00:56:40.22\] But hot dogs. So hot dog...? Burgers...?
+**Jonas:** No a pretzel makes sense. But hot dogs. So hot dog...? Burgers...?
 
 **Emma Draper:** Yup. Teeny-tiny little, like, pigs in a blanket? 100%, all the time, and mustard.
 
@@ -288,7 +288,7 @@ And trying to think through what else... I think not being able to bring strong 
 
 **Emma Draper:** You wouldn't ask me what ketchup I prefer... Like, it's just ketchup.
 
-**Angelica Hill:** I wouldn't. I would \[unintelligible 00:57:04.11\]
+**Angelica Hill:** I wouldn't. I would ask what kind of ketchup.
 
 **Natalie Pistunovich:** The red one.
 
@@ -298,7 +298,7 @@ And trying to think through what else... I think not being able to bring strong 
 
 **Angelica Hill:** Inside the ketchup battle. \[laughter\]
 
-**Natalie Pistunovich:** In some countries Heinz is not a ketchup, because like percents of tomatoes... Same as Pringles. \[unintelligible 00:57:26.17\]
+**Natalie Pistunovich:** In some countries Heinz is not a ketchup, because like percents of tomatoes... Same as Pringles. Not exactly chips and all those...
 
 **Jonas:** \[laughs\] True.
 
