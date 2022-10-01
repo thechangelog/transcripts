@@ -28,7 +28,7 @@
 
 Recently, I wrote a post about React, that was just a collection of some thoughts I had at the time, and I definitely didn't expect to get any kind of popular, but it's kind of prompted us all to be here today, in a way... So this will be interesting, and I too am hoping not to make too many enemies after today.
 
-**Nick Nisi:** \[00:04:05.27\] \[laughs\] Well, yes, it is a very interesting article. I was very excited to read it. It's called "The self-fulfilling prophecy of React." We'll have a link to that in the show notes. So that is kind of the premise that we have here. For those of you that are new to this format of episode, what this is - it's a debate episode; we call it Yep/Nope. Kind of based on the Alex Sexton Yep/Nope kind of feature detection library for JavaScript... And the premise of today's show is going to be "Is React only great at being popular?"
+**Nick Nisi:** \[04:05\] \[laughs\] Well, yes, it is a very interesting article. I was very excited to read it. It's called "The self-fulfilling prophecy of React." We'll have a link to that in the show notes. So that is kind of the premise that we have here. For those of you that are new to this format of episode, what this is - it's a debate episode; we call it Yep/Nope. Kind of based on the Alex Sexton Yep/Nope kind of feature detection library for JavaScript... And the premise of today's show is going to be "Is React only great at being popular?"
 
 Debating that very loaded premise, we're going to have team Yep, which is going to be Josh and Amal, and then debating against that is going to be team Nope, Amelia and Kball. And I'm just in the middle, moderating this... My first time moderating, so I immediately lose...
 
@@ -100,7 +100,7 @@ Debating that very loaded premise, we're going to have team Yep, which is going 
 
 **Nick Nisi:** Alright. Yeah, I'll make some sounds up as we go, and I'm sure Jerod can fix it in post. \[beep\]
 
-**Josh Collinsworth:** \[00:08:02.10\] So we've kind of reached this point in tech where React is more or less the default choice for any given project. It's reached that critical mass where it feels like the safe default for everything... But there's any number of criteria, from performance, to bundle size, to onboarding, to just complexity, dev experience... All of these things are areas in which React doesn't really win on its own, generally speaking, in which there are better options. And when you kind of zoom out and look at the big picture, you kind of realize React is pretty mediocre at just about every given category, and the only category it really excels in is just being the thing. Just being the popular thing. The one that we all know, and the one that people hire for, because it's what they teach, because it's what they hire for.
+**Josh Collinsworth:** \[08:02\] So we've kind of reached this point in tech where React is more or less the default choice for any given project. It's reached that critical mass where it feels like the safe default for everything... But there's any number of criteria, from performance, to bundle size, to onboarding, to just complexity, dev experience... All of these things are areas in which React doesn't really win on its own, generally speaking, in which there are better options. And when you kind of zoom out and look at the big picture, you kind of realize React is pretty mediocre at just about every given category, and the only category it really excels in is just being the thing. Just being the popular thing. The one that we all know, and the one that people hire for, because it's what they teach, because it's what they hire for.
 
 So whether it's performance, React is not coming out on top. Bundle size - probably not. It is certainly far more complex to use, it has a lot more gotchas to learn than the other frameworks do... Some people point to the unopinionated nature of it as a benefit, and that's a little more subjective, I guess. For me, that leads to a lot of fragmentation, and spending a lot of time looking for a solution, when I just wish "Man, there should just be a solution. It should just be handled for me already. I shouldn't be spending my afternoon looking at ten different libraries and reading comments on the internet. Don't make me read comments on the internet to choose things. I don't like doing that. I do enough shopping online..."
 
@@ -120,7 +120,7 @@ I would like to highlight a couple of things... In your article you looked at St
 
 Now, I'm gonna highlight a couple particular features. So hooks are one. Hooks are genuinely great. And sure, most frameworks now have hooks, or hook-like features; I love the Composition API in Vue, don't get me wrong... But let's be honest, none of that would have happened without the React team paving the way. Hooks was still first, and the implementation in React is still pretty amazing.
 
-\[00:12:04.05\] There's also the factor of stability guarantees. So other than possibly Ember, which... \[wut?\] What?! I'm like a third of the way done. Okay... We're gonna have another couple of rounds of this going on, so...
+\[12:04\] There's also the factor of stability guarantees. So other than possibly Ember, which... \[wut?\] What?! I'm like a third of the way done. Okay... We're gonna have another couple of rounds of this going on, so...
 
 **Nick Nisi:** Oh, yeah.
 
@@ -158,7 +158,7 @@ So when you're thinking about your API design, you have to be intentional, and a
 
 **Amelia Wattenberger:** Yes. So first of all, Nope. Second of all - so we always talk about how React is super-unopinionated. And as a veteran of the framework wars of 2015, I just wanna say we don't want to go back there. It was exhausting having a new framework every single week. Life is much better under the benevolent monarchy of React. Like, isn't it nice to have one framework that works pretty much everywhere? And there's a library... Hey, I want a library that has a 3D rotating globe with lines on it. You know what? You jsut google it, it's there. You pull it in. Pretty easy. Life is good. Do we really wanna go back to life before React?
 
-\[00:15:52.21\] Another argument is if we're gonna have one ruling framework, don't we want it to be unopinionated? So React is really nice, because it's basically just a rendering library with a minimal state management solution. There's so many other things that build on React, that kind of make it equivalent to other frameworks. So even if you think about meta-frameworks, there have been so many popular ones. I think when it came out, there wasn't one, and then there was Create React App, and Next, and Remix... And there are ways to have a more opinionated React ecosystem, but you're not really forced into any of them. So if, say, Svelte or Vue or Angular were the benevolent kind, would that really be better?
+\[15:52\] Another argument is if we're gonna have one ruling framework, don't we want it to be unopinionated? So React is really nice, because it's basically just a rendering library with a minimal state management solution. There's so many other things that build on React, that kind of make it equivalent to other frameworks. So even if you think about meta-frameworks, there have been so many popular ones. I think when it came out, there wasn't one, and then there was Create React App, and Next, and Remix... And there are ways to have a more opinionated React ecosystem, but you're not really forced into any of them. So if, say, Svelte or Vue or Angular were the benevolent kind, would that really be better?
 
 And then the other thing I wanna say is if you look at the State of JS, the chart we keep mentioning, I think the X axis is satisfaction, and the Y axis is popularity \[unintelligible 00:16:51.15\] \[wut?\] Dang it! I'll get back to that...
 
@@ -178,7 +178,7 @@ And then the other thing I wanna say is if you look at the State of JS, the char
 
 **Nick Nisi:** \[laughs\] He wins every one of these, and so we have to continue that... \[laughs\] Alright, we'll see you in the next round for more rapid-fire discussion.
 
-**Break:** \[00:18:08.03\]
+**Break:** \[18:08\]
 
 **Nick Nisi:** Alright, so we've heard the opening arguments of each of our contestants. We've made our preliminary decisions about who's right in this premise, "Is React only great at being popular?" What do you think, audience? Be sure to write us and let us know. Stop right here, write in. Don't wait till the end of the episode to come to a conclusion. We want your hot take right now. Speaking of hot takes...
 
@@ -204,7 +204,7 @@ And sure, if you don't need that function now, use something that doesn't deal w
 
 **Amal Hussein:** I object! \[laughter\] Okay, I'm gonna go -- and I want a bonus 30 seconds, because... Okay? Bonus 30 seconds starts now... Kball, I appreciate that rebuttal. So I have to remind you, that innovation should not be happening in JavaScript land. We need to push browser engines and JavaScript engines and rendering engines to be better. However, we also need to curb our enthusiasm for JavaScript. I don't know, we're shipping tons of JavaScript. I know, let's just use JavaScript to manage JavaScript. No. Like, how about we just ship less JavaScript? ...which is where all of the thought leaders within JavaScript are pushing us towards. Astro, Svelte, Vue.
 
-\[00:24:15.01\] Secondly, I wanna go to Amelia's point from earlier... Amelia, you said "Oh, I really love this land where I have interoperability, and things just work..." And yes, I get it, we're in the golden age of not having to change our framework every week. That's exciting. But guess what - you also just don't have to change your framework every week if you use web primitives. I don't know... Like, Web Components. Maybe all of our reusable things... Maybe that button, and that dropdown list, and that calendar icon, or calendar date picker thing that we have to reinvent every time there's a new framework - maybe that should just be written in the base primitive.
+\[24:15\] Secondly, I wanna go to Amelia's point from earlier... Amelia, you said "Oh, I really love this land where I have interoperability, and things just work..." And yes, I get it, we're in the golden age of not having to change our framework every week. That's exciting. But guess what - you also just don't have to change your framework every week if you use web primitives. I don't know... Like, Web Components. Maybe all of our reusable things... Maybe that button, and that dropdown list, and that calendar icon, or calendar date picker thing that we have to reinvent every time there's a new framework - maybe that should just be written in the base primitive.
 
 So I think we need to rethink the way our APIs are shaped. We need to rethink about what's reusable, what's composable, what's something that I should write once, for real, only once... And we need to rethink what is it that we're using our JavaScript frameworks for. \[wut?\] And frankly, React is just a confusing API now. It's lost its luster, and for me it's just way too much complication, and I can get more bang for my buck anywhere else.
 
@@ -248,7 +248,7 @@ So I think we need to rethink the way our APIs are shaped. We need to rethink ab
 
 **Kevin Ball:** Preach.
 
-**Nick Nisi:** \[00:28:07.03\] Very well said. We have one more guest to get their hot take on... So Josh, do you wanna...?
+**Nick Nisi:** \[28:07\] Very well said. We have one more guest to get their hot take on... So Josh, do you wanna...?
 
 **Josh Collinsworth:** Alright, I'm gonna go all-in on this one.
 
@@ -302,7 +302,7 @@ I also wanna call out the "We don't need to go back to whatever bad time before.
 
 **Amal Hussein:** You know what my favorite - and when I say "favorite", I mean favorite-not - feature of JSX is? \[singing\] Dangerously set inner HTML... What's so dangerous about HTML's inner parts? I don't know... \[laughter\] But they're dangerous on the internet... Of React. React's internet, of course.
 
-**Kevin Ball:** \[00:32:09.02\] Because clearly, injecting unsanitized data is not dangerous to anyone...
+**Kevin Ball:** \[32:09\] Because clearly, injecting unsanitized data is not dangerous to anyone...
 
 **Amal Hussein:** Well, you know what? I don't really think SQL injection or whatever else is what's happening most of the time here.
 
@@ -368,7 +368,7 @@ I also wanna call out the "We don't need to go back to whatever bad time before.
 
 **Amelia Wattenberger:** I just wanna highlight how good of a point it is that in your article, Josh, you talk about the learning curve for React. And there is quite a learning curve. But at the heart of it, if you know JavaScript, you know pretty much all of React. Like, if we're using JavaScript instead of a templating language with JSX, you don't have to look up like "Oh, is it \[unintelligible 00:35:29.27\] If you know JavaScript, you know how to conditionally render some HTML, or loop over something. You're not going back and forth to the docs and to your text editor... I'm a little bit afraid of the looks you're giving me. \[laughs\]
 
-**Amal Hussein:** \[00:35:51.26\] Yeah, that was always my argument for React over Angular. I remember thinking "Wow, I don't have to learn about all these pipes and filters, and all these mystical things that are very domain-specific to Angular, for example. JavaScript and React - they are one and the same", right? That part was awesome. You kind of have to squinch your eyes a little bit at JSX. It's like, "I don't know what the hell is going on there", right? And then for me, the hooks -- I mean, I actually really don't mind JSX, but the hooks API is really where I... For me, that was the beginning of the end for me. It's just a very clunky API. I feel like it's difficult to use. People think they know it, but they really don't.
+**Amal Hussein:** \[35:51\] Yeah, that was always my argument for React over Angular. I remember thinking "Wow, I don't have to learn about all these pipes and filters, and all these mystical things that are very domain-specific to Angular, for example. JavaScript and React - they are one and the same", right? That part was awesome. You kind of have to squinch your eyes a little bit at JSX. It's like, "I don't know what the hell is going on there", right? And then for me, the hooks -- I mean, I actually really don't mind JSX, but the hooks API is really where I... For me, that was the beginning of the end for me. It's just a very clunky API. I feel like it's difficult to use. People think they know it, but they really don't.
 
 And for me, this really ties into your point earlier, Amelia and Kball, around learning React. I think Amelia especially... So the reason why hooks is a thing - or one of the main reasons - is because people were really confused about this, and the this keyword in JavaScript with React. That was a huge driving factor, because there was constantly community support questions about "Why is this not working?" So binding, and managing the this pointer... Classes just were a little confusing for folks. And for me, I wish we could have just kind of really redirected folks towards good fundamentals courses, because I think -- it's one of those things where like, yeah, I really do... I have a hard time saying this, because it feels a little gatekeepy, but I do really think it's important for you to understand the fundamentals of a language, especially if you're gonna be using it every day... I think hooks kind of bypassed the need for that.
 
@@ -386,7 +386,7 @@ And yeah, you've got a lot of other powerful things too, but I don't know... I'm
 
 **Nick Nisi:** ...controlled very well. Sorry, Jerod... \[laughter\] So I think that we've all made great points... I don't even know where we're at anymore with that... But to get us back on track, and now that I've sufficiently filled the quota for time on this segment, let's go ahead and do a quick 30-second closing statement from each of you, and then we'll move on to the next round, where we can speak freely. Josh, you were about to say something... Do you wanna kick us off with a closing statement?
 
-**Josh Collinsworth:** Sure. I'll just say, the argument was made it's easier for beginners to get into this, because it's JavaScript, whatsoever... I think that's a little bit of a stretch maybe. If I see those double n percents, or that map instead of a loop, I don't know if that necessarily intuitively makes sense to me as a beginner... But I also wanna point out, we should be careful how much we assign to a beginner's perspective, and we should be talking to the actual beginners. And in a lot of cases, the beginners do find that that templating is much more intuitive for them, and much more simple and delightful to use, dare I use the word... \[wut?\]
+**Josh Collinsworth:** Sure. I'll just say, the argument was made it's easier for beginners to get into this, because it's JavaScript, whatsoever... I think that's a little bit of a stretch maybe. If I see those double N percents, or that map instead of a loop, I don't know if that necessarily intuitively makes sense to me as a beginner... But I also wanna point out, we should be careful how much we assign to a beginner's perspective, and we should be talking to the actual beginners. And in a lot of cases, the beginners do find that that templating is much more intuitive for them, and much more simple and delightful to use, dare I use the word... \[wut?\]
 
 **Nick Nisi:** Very well said. Kball, do you wanna give your closing statement?
 
@@ -394,7 +394,7 @@ And yeah, you've got a lot of other powerful things too, but I don't know... I'm
 
 **Nick Nisi:** Well said. Alright, Amelia.
 
-**Amelia Wattenberger:** \[00:39:49.15\] Alright, so I just wanna point out that I feel like the Yep team has kind of tied themselves in circles and a little bit contradicted themselves... And I think that's just due to the tough position that they've been placed in, where React is unopinionated, but also it's hard to use, or... I think the fact that it's unopinionated makes it a really, really good majority used framework, where we've been building on it, it's iterated... This was really confusing early on, and so they moved to a more functional component type of solution. So we're not using this and getting confused about it anymore... So I just wanna say that React is a benevolent dictator; I guess it's changed from a monarchy, but it's okay.
+**Amelia Wattenberger:** \[39:49\] Alright, so I just wanna point out that I feel like the Yep team has kind of tied themselves in circles and a little bit contradicted themselves... And I think that's just due to the tough position that they've been placed in, where React is unopinionated, but also it's hard to use, or... I think the fact that it's unopinionated makes it a really, really good majority used framework, where we've been building on it, it's iterated... This was really confusing early on, and so they moved to a more functional component type of solution. So we're not using this and getting confused about it anymore... So I just wanna say that React is a benevolent dictator; I guess it's changed from a monarchy, but it's okay.
 
 **Nick Nisi:** And on that, we will end this segment - well, this debate. I'm really not sure who won... Jerod did, again. Congratulations for not participating... And yes, I think that we will all show how we, by our own admission, when we all pretty much go back to our dayjobs of writing React, we'll figure out who won. So yeah, stick with us through the break, and we'll talk about real thoughts on this.
 
@@ -406,7 +406,7 @@ And yeah, you've got a lot of other powerful things too, but I don't know... I'm
 
 **Nick Nisi:** Yeah.
 
-**Break:** \[00:41:13.17\]
+**Break:** \[41:13\]
 
 **Nick Nisi:** So that was our debate, Yep/Nope on React only being good at being popular. And of course, as we mentioned in the beginning, Josh and Amal were assigned to team Yep, and even though Josh wrote the article that this whole is based off of, he might have different thoughts on that... And then on the other side, team Nope, Amelia and Kball were arguing that no, that's not all that React is popular at. So where do y'all really stand on this?
 
@@ -440,13 +440,13 @@ And yeah, you've got a lot of other powerful things too, but I don't know... I'm
 
 **Kevin Ball:** I will say that TypeScript support is another driving factor for moving to functional models for state handling... And I have gone from being a place where I was a little skeptical of that level of typing, to I don't know how I ever lived without it, so...
 
-**Nick Nisi:** \[00:47:35.15\] Sorry... \[laughter\]
+**Nick Nisi:** \[47:35\] Sorry... \[laughter\]
 
 **Amelia Wattenberger:** Nick's the only winner today.
 
 **Amal Hussein:** Yeah. To go back to that point though, Kball - from my understanding, that was a huge driver for hooks. Like, people just didn't -- the this context was hard. And then there was also the boilerplate problem, right? Lots of boilerplate. So it's like, okay, how do we take that and allow for more reuse? And so the hooks API was born. But for me, it's a clunky API. I'm sorry. There's too many leaky abstractions. There's too many implementation details. I'm like, "Why are you exposing this to end users?" I feel like I have to really have a deep understanding of the framework internals in order to really not footgun with hooks. And that's saying something, right? That's saying something about your API.
 
-**Nick Nisi:** \[00:48:21.09\] Yeah.
+**Nick Nisi:** \[48:21\] Yeah.
 
 **Amal Hussein:** And I'm a seasoned user of React. I've been using it since 2013, early days; very early adopter. So if I'm coming here and saying "This feels weird. This is unnatural and unintuitive..." For a very long time I felt like the only person in the room that felt that way. And it's hard, you know? It was very hard to be that person. And it's getting less hard.
 
@@ -480,7 +480,7 @@ You were highlighting the this conflict again, and I feel like there's more than
 
 **Amelia Wattenberger:** I was just gonna say, a hundred percent to Kball's argument, and also to what you've just said, Josh. I feel like I'm still jetlagged from the Svelte Summit, which was a wonderful conference. I personally really, really love Svelte; for side projects I will 100% use Svelte. It's just so much fun. There's way less boilerplate. Reactivity is so, so nice, and they have built in animations...
 
-**Nick Nisi:** \[00:52:14.02\] That just means there's way more magic, right?
+**Nick Nisi:** \[52:14\] That just means there's way more magic, right?
 
 **Josh Collinsworth:** Magic's not a bad thing, Nick...
 
@@ -502,7 +502,7 @@ You were highlighting the this conflict again, and I feel like there's more than
 
 **Kevin Ball:** I think it's worth thinking a little bit also about the organizational structure that results in these frameworks. Many of both the places where React excels and some of the places where we're running into friction with it are tied to the fact that it is built still by Facebook, and the focus and optimization choices that they're making are for solving the problems that Facebook has. And those problems have a reasonable match with the problems that many corporations have when they're building JavaScript applications, but they are definitely off on one hand. And actually, I think you run into some of the same things with Angular. Angular is still primarily driven by what Google wants and what Google needs. So I think that if Angular hit this level -- well, early Angular kind of was really popular, and then went through a lot of this. Now, if you look at the satisfaction, people are deeply dissatisfied with Angular, even though there's a lot of people using it. React has that...
 
-\[00:56:11.11\] Vue feels at this point much more community-driven. I get the impression Svelte is going that way as well, even the both of those started with a benevolent dictator approach. They've both kind of embraced a broader community, rather than sort of going along the needs of a single corporation... So if they were to get there, they might do better. That being said, that may also make it harder for them to get there.
+\[56:11\] Vue feels at this point much more community-driven. I get the impression Svelte is going that way as well, even the both of those started with a benevolent dictator approach. They've both kind of embraced a broader community, rather than sort of going along the needs of a single corporation... So if they were to get there, they might do better. That being said, that may also make it harder for them to get there.
 
 Going back, old-school frameworks -- like, Ember was one of the first ones here, and they did so many things so well, and were also not backed by a single corporation, and they never got much adoption relatively speaking. They've stayed very, very niche.
 
@@ -512,7 +512,7 @@ Going back, old-school frameworks -- like, Ember was one of the first ones here,
 
 This is something that we've talked about on the show even recently, Amelia and Nick, in our tech interview discussion we had a few weeks ago... I brought this up, around how these ideas and tools and problems within big tech are kind of proliferated throughout our community, where it's like people don't contextualize it. It's like, okay, the problems that Netflix engineers have, and the reason why they've created this library - they have problems that are unique to Netflix. Netflix in particular is a company that -- you know, before the Disney Pluses of the world, they were a very unique kind of streaming service that was operating at this scale. They were very alone in that bubble. Lots of people have joined them now, but they were solving problems that are unique to Netflix. Facebook - the same thing, when Facebook was scaling in that way. I mean, come on; it's like the biggest website outside of Google.com. And Google.com is one input box and a list view. Facebook was so -- you know, all these interactive elements, and really a fantastic place. If you look -- I don't know, for me anyway, I have to close my eyes on the product; if I don't think about what they're doing, like, it'd be a fantastic place to work as a frontend engineer, to work at that scale, and have to think about all of those elements... It's a huge website.
 
-\[00:58:35.00\] So I think we just really don't contextualize that enough, and I think for me a bigger concern that I have is the corporatization of all of our open source projects that we love and care about. Quite frankly, everything is coming supported by Microsoft now, or Google, or Meta, or Netflix, or Airbnb... You name it. And these community-driven grassroots projects, like Vue, and Svelte, Astro - they're just kind of fewer and in between these days. I just wanted to point that out as just the kind of general smell that I see, that's happening within our community right now.
+\[58:35\] So I think we just really don't contextualize that enough, and I think for me a bigger concern that I have is the corporatization of all of our open source projects that we love and care about. Quite frankly, everything is coming supported by Microsoft now, or Google, or Meta, or Netflix, or Airbnb... You name it. And these community-driven grassroots projects, like Vue, and Svelte, Astro - they're just kind of fewer and in between these days. I just wanted to point that out as just the kind of general smell that I see, that's happening within our community right now.
 
 I don't know, corporate projects are great. They're stable, they usually have less bugs, lots of upsides, but at the same time, we don't really have open governance around the roadmap, at any point they can drop it and stop caring about it... All kinds of reasons why I like community-driven open source; it's usually a better bet. But of course, that also has its trade-offs, right? So I don't know, it feel like we're stuck between decisions that it's like "Here's a bad decision, and here's a less bad decision." Where's the good decisions right now? It's hard to really make that, I think, for frontend... Seriously...
 
