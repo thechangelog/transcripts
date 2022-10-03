@@ -62,7 +62,7 @@ So kick us into this post. Of course, we're not gonna have time to cover all the
 
 So what I do during those blog posts is basically monitor the system as this queue that I mentioned, and then if you plot on a graph where the X axis is time, and the Y axis is basically the quantity of tests that you're either getting done, or that are entering the system, you can see that the difference starts to increase the larger the difference between the rate of things coming in, and the rate of things coming out. So the greater that difference, the longer the queue is going to be, and the longer the approximate average cycle time of things is going to be.
 
-So once you start looking at those, when you started looking at throughput, which is the way things come out, and also the way that things come in, and you match those, they are always going to have the same distance between the two bands, and you're going to have more uniform cycle times, because you're not going to allow queues to form too quickly. And when queues form - sure, then you can \[unintelligible 00:11:29.20\] Because otherwise, that difference is gonna accumulate, and queues are gonna get longer and longer and longer. And then the longer the queues get, the more terrible cycle times get, and you get even less predictable... Because if you imagine that things are queuing up, and then everything takes increasingly longer, you're not predictable, because everything's going to take longer and longer. Whilst if the rates match, cycle times tend to be uniform... As long as you're finishing what you start; that's a very important assumption.
+So once you start looking at those, when you started looking at throughput, which is the way things come out, and also the way that things come in, and you match those, they are always going to have the same distance between the two bands, and you're going to have more uniform cycle times, because you're not going to allow queues to form too quickly. And when queues form - sure, then you can, you know, rally the troops and get everyone to actually gather the time down. Because otherwise, that difference is gonna accumulate, and queues are gonna get longer and longer and longer. And then the longer the queues get, the more terrible cycle times get, and you get even less predictable... Because if you imagine that things are queuing up, and then everything takes increasingly longer, you're not predictable, because everything's going to take longer and longer. Whilst if the rates match, cycle times tend to be uniform... As long as you're finishing what you start; that's a very important assumption.
 
 **Jerod Santo:** \[laughs\] Finishing what you start is important. Unfortunately, it doesn't always work that way. Adam, did you track everything he said there? Because I was with him like 80%, but I'm wondering...
 
@@ -516,7 +516,7 @@ And then we go back to Scrum. I'm not saying Scrum is bad; Scrum works. But like
 
 **Lucas Fernandes da Costa:** Yeah. Or not even be shipped.
 
-**Adam Stacoviak:** Bringing \[unintelligible 01:23:54.23\] to customers, retaining customers, attracting customers, giving marketing something to talk about, sales something to pitch... All these things.
+**Adam Stacoviak:** Bringing a delight to customers, retaining customers, attracting customers, giving marketing something to talk about, sales something to pitch... All these things.
 
 **Lucas Fernandes da Costa:** Yeah. Or just sitting in a GitHub repo. \[laughter\]
 
