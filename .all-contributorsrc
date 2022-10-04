@@ -2366,6 +2366,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "a-poor",
+      "name": "Austin Poor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/45295232?v=4",
+      "profile": "http://austinpoor.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
