@@ -24,7 +24,7 @@
 
 **Mat Ryer:** \[04:00\] It's always the morning somewhere on the internet. Well, people do terrible things in the morning then, in that case... Okay. Well, before we get going, Egon, I was interested, what have you been working on lately? Anything interesting?
 
-**Egon Elbre:** One of the recent things I finished was a project called \[unintelligible 00:04:13.10\] which allows you to browse source code, and to compile the assembly side by side, and see how Go translates into assembly, essentially, and do this interactively. a nice way to visualize it when you're optimizing things.
+**Egon Elbre:** One of the recent things I finished was a project called Lensm which allows you to browse source code, and to compile the assembly side by side, and see how Go translates into assembly, essentially, and do this interactively. a nice way to visualize it when you're optimizing things.
 
 **Mat Ryer:** Yeah, very cool. Because it's funny, a lot of people, I think, stay at the code level and don't really dig into that, and it's quite apt for this conversation about avoiding bloat, understanding what's actually this turning into.
 
@@ -268,7 +268,7 @@ I quite like it when the structure emerges, rather than is imagined... Because s
 
 **Mat Ryer:** Yeah, it was going *DONG DOING DING* which I think is good. It's not as good as Roger on the fiddle...
 
-**Roger Peppe:** \[unintelligible 00:26:30.20\] I'm afraid... It was actually great using Go with TinyGo, because you could have this debouncing code, which totally didn't care about any of the other code. It would just sleep for a bit, wait for debounce... And that was independent of all the other logic waiting for buttons, and stuff.
+**Roger Peppe:** Not so nice on that I'm afraid... It was actually great using Go with TinyGo, because you could have this debouncing code, which totally didn't care about any of the other code. It would just sleep for a bit, wait for debounce... And that was independent of all the other logic waiting for buttons, and stuff.
 
 **Mat Ryer:** What was that doing them, the debounce? Literally stopping if you got noise coming through from buttons, or something?
 
@@ -312,9 +312,9 @@ I think that's interesting future there with WASM, and I think therefore TinyGo 
 
 **Roger Peppe:** \[laughs\]
 
-**Mat Ryer:** \[unintelligible 00:30:59.07\]
+**Mat Ryer:** Could have gotten Egon back.
 
-**Roger Peppe:** I mean, maybe \[unintelligible 00:31:01.19\] I don't know. I'm not sure that Fmt itself needs those Unicode tables. Maybe it does.
+**Roger Peppe:** I mean, maybe Scanf I don't know. I'm not sure that Fmt itself needs those Unicode tables. Maybe it does.
 
 **Egon Elbre:** Maybe that's changed, but...
 
@@ -340,7 +340,7 @@ I think that's interesting future there with WASM, and I think therefore TinyGo 
 
 **Mat Ryer:** Is it?
 
-**Roger Peppe:** Well, because in Rust the formatting stuff is macro \[unintelligible 00:31:57.20\] So it kind of expands out at compile time.
+**Roger Peppe:** Well, because in Rust the formatting stuff is macro processing so it kind of expands out at compile time.
 
 **Mat Ryer:** Oh, yeah. That's cool.
 
@@ -568,7 +568,7 @@ Of course, when I say you review them with the same standard, you don't worry ab
 
 **Mat Ryer:** By the way, instead of those desks that go up and down - it's a bit more expensive, but you can actually just have your entire floor move, and same effect; have your desk fixed, and then you just move with the floor.
 
-**Roger Peppe:** It's funny, because I've got this rising desk, which technically has four saved positions in there... And I actually never use it anymore. I just stand. I started off \[unintelligible 00:56:51.26\] I might as well just get a desk of that height.
+**Roger Peppe:** It's funny, because I've got this rising desk, which technically has four saved positions in there... And I actually never use it anymore. I just stand. I started off and I'd stand and I'd sit and now I just, I might as well just get a desk of that height.
 
 **Mat Ryer:** Oh yeah, yeah.
 
