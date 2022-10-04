@@ -160,11 +160,11 @@ So when you're thinking about your API design, you have to be intentional, and a
 
 \[15:52\] Another argument is if we're gonna have one ruling framework, don't we want it to be unopinionated? So React is really nice, because it's basically just a rendering library with a minimal state management solution. There's so many other things that build on React, that kind of make it equivalent to other frameworks. So even if you think about meta-frameworks, there have been so many popular ones. I think when it came out, there wasn't one, and then there was Create React App, and Next, and Remix... And there are ways to have a more opinionated React ecosystem, but you're not really forced into any of them. So if, say, Svelte or Vue or Angular were the benevolent kind, would that really be better?
 
-And then the other thing I wanna say is if you look at the State of JS, the chart we keep mentioning, I think the X axis is satisfaction, and the Y axis is popularity \[unintelligible 00:16:51.15\] \[wut?\] Dang it! I'll get back to that...
+And then the other thing I wanna say is if you look at the State of JS, the chart we keep mentioning, I think the X axis is satisfaction, and the Y axis is popularity or their ver- \[wut?\] Dang it! I'll get back to that...
 
 **Amal Hussein:** That's kind of like the remix to that song "I can't get no... Doo-doo-doo..." You know... I thought that there was gonna be like a remix of that... But anyways, that's fine.
 
-**Nick Nisi:** \[unintelligible 00:17:07.21\]
+**Nick Nisi:** Satis-wut-ctions...
 
 **Amelia Wattenberger:** Next time.
 
@@ -262,13 +262,13 @@ So I think we need to rethink the way our APIs are shaped. We need to rethink ab
 
 I also wanna call out the "We don't need to go back to whatever bad time before..." We don't want to go back. Nobody says we're going back. That's the opposite of what we want. We want to move forward. React is firmly entrenched in the past. All of those decisions that were made nearly a decade ago are still in place, they are still having reverberations, and we have moved long since past then at this point. We don't need JSX for anything, let's just be honest.
 
-**Amal Hussein:** \[singing\] We don't need JSX when we've got HTML... Or \[unintelligible 00:29:15.17\]
+**Amal Hussein:** \[singing\] We don't need JSX when we've got HTML... Or string templates in JavaScript!
 
 **Kevin Ball:** Give me a chance to rebut this one, please...
 
 **Amal Hussein:** Go for it.
 
-**Josh Collinsworth:** It is a kludge. It is clumsy... It is just a way to shoehorn HTML somewhere that HTML should not be \[unintelligible 00:29:29.16\]
+**Josh Collinsworth:** It is a kludge. It is clumsy... It is just a way to shoehorn HTML somewhere that HTML should not be
 
 **Amal Hussein:** Label four...
 
@@ -366,7 +366,7 @@ I also wanna call out the "We don't need to go back to whatever bad time before.
 
 **Kevin Ball:** Yeah, the JustDoIt.
 
-**Amelia Wattenberger:** I just wanna highlight how good of a point it is that in your article, Josh, you talk about the learning curve for React. And there is quite a learning curve. But at the heart of it, if you know JavaScript, you know pretty much all of React. Like, if we're using JavaScript instead of a templating language with JSX, you don't have to look up like "Oh, is it \[unintelligible 00:35:29.27\] If you know JavaScript, you know how to conditionally render some HTML, or loop over something. You're not going back and forth to the docs and to your text editor... I'm a little bit afraid of the looks you're giving me. \[laughs\]
+**Amelia Wattenberger:** I just wanna highlight how good of a point it is that in your article, Josh, you talk about the learning curve for React. And there is quite a learning curve. But at the heart of it, if you know JavaScript, you know pretty much all of React. Like, if we're using JavaScript instead of a templating language with JSX, you don't have to look up like "Oh, is it 'If#If or ngIf' If you know JavaScript, you know how to conditionally render some HTML, or loop over something. You're not going back and forth to the docs and to your text editor... I'm a little bit afraid of the looks you're giving me. \[laughs\]
 
 **Amal Hussein:** \[35:51\] Yeah, that was always my argument for React over Angular. I remember thinking "Wow, I don't have to learn about all these pipes and filters, and all these mystical things that are very domain-specific to Angular, for example. JavaScript and React - they are one and the same", right? That part was awesome. You kind of have to squinch your eyes a little bit at JSX. It's like, "I don't know what the hell is going on there", right? And then for me, the hooks -- I mean, I actually really don't mind JSX, but the hooks API is really where I... For me, that was the beginning of the end for me. It's just a very clunky API. I feel like it's difficult to use. People think they know it, but they really don't.
 
@@ -450,7 +450,7 @@ And yeah, you've got a lot of other powerful things too, but I don't know... I'm
 
 **Amal Hussein:** And I'm a seasoned user of React. I've been using it since 2013, early days; very early adopter. So if I'm coming here and saying "This feels weird. This is unnatural and unintuitive..." For a very long time I felt like the only person in the room that felt that way. And it's hard, you know? It was very hard to be that person. And it's getting less hard.
 
-**Nick Nisi:** I will say that I agree with that. It took a long time to wrap my head around hooks. I like them now. I feel like they're powerful, and you can do a lot with them... But also, I've never used Svelte, for anything, but I have looked at the Svelte homepage, and they just say \[unintelligible 00:48:58.29\] to specifically set that... I like that, but also that kind of scares me, because it's magic.
+**Nick Nisi:** I will say that I agree with that. It took a long time to wrap my head around hooks. I like them now. I feel like they're powerful, and you can do a lot with them... But also, I've never used Svelte, for anything, but I have looked at the Svelte homepage, and they just say 'let counter=1,' and then they say 'counter=counter+1' later on and they're not doing a 'useState' and then calling a setter to specifically set that... I like that, but also that kind of scares me, because it's magic.
 
 **Amal Hussein:** And have a magical callback array, and...
 
