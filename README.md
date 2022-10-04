@@ -370,6 +370,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
       <td align="center"><a href="http://blog.miniasp.com/"><img src="https://avatars.githubusercontent.com/u/88981?v=4?s=100" width="100px;" alt="Will 保哥"/><br /><sub><b>Will 保哥</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=doggy8088" title="Documentation">📖</a></td>
       <td align="center"><a href="https://simonwillison.net/"><img src="https://avatars.githubusercontent.com/u/9599?v=4?s=100" width="100px;" alt="Simon Willison"/><br /><sub><b>Simon Willison</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=simonw" title="Documentation">📖</a></td>
       <td align="center"><a href="https://github.com/JamesWalden97"><img src="https://avatars.githubusercontent.com/u/67411690?v=4?s=100" width="100px;" alt="James Walden"/><br /><sub><b>James Walden</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=JamesWalden97" title="Documentation">📖</a></td>
+      <td align="center"><a href="http://austinpoor.com"><img src="https://avatars.githubusercontent.com/u/45295232?v=4?s=100" width="100px;" alt="Austin Poor"/><br /><sub><b>Austin Poor</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=a-poor" title="Documentation">📖</a></td>
     </tr>
   </tbody>
   <tfoot>
