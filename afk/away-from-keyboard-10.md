@@ -140,7 +140,7 @@ And just recognizing, like, we're all gonna do the best that we can... And I do 
 
 **Break:** \[23:08\]
 
-**Tim Smith:** Before we go, Maria told me this funny story about the night she met Saint Paul's mayor at a MiniDemo.
+**Tim Smith:** Before we go, Maria told me this funny story about the night she met Saint Paul's mayor at a MinneDemo.
 
 **Maria Boland Ploessl:** So it was at the Artway which is a little bit fancier, and we had the mayor of Saint Paul, which was super-nice and awesome... And right as I'm, of course, going to meet mayor Carter, and I'm just super-excited, my shoe breaks... I don't know why I decided that being pregnant and wearing heels was gonna be a great idea. It was terrible... \[laughter\] But it was just one of those "How can I artfully hide the fact that I am standing on one leg and saying hi to you?" \[laughs\]
 
