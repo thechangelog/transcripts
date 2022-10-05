@@ -88,13 +88,13 @@ You can't do that with HTTP/1, but because of the multiplexing and the communica
 
 HPACK, which is the staple Header Compression protocol in HTTP/2 uses this state table that's maintained at both ends. There is actually two in each direction: the center has two, the receiver has two. The receiver gets to say how much state is actually stored, the center gets to say what's actually stored in that table.
 
-But for the entire life of the connection of that socket, however long that socket is kept open, you have to maintain the state, and that doesn't exist in HTTP/1 today. HTTP/1 is a completely stateless protocol, and HTTP/2 switches that and makes it where you have to maintain state. You have to maintain this server affinity over a long-lived connection. Even though you're multiplexing multiple requests \[unintelligible 00:18:18.28\] at the same time, you have to process those headers sequentially, and serialize the access to those things, because if that state tablet gets out of sync at any point, you just tear down the connection, you can't do anything else on it.
+But for the entire life of the connection of that socket, however long that socket is kept open, you have to maintain the state, and that doesn't exist in HTTP/1 today. HTTP/1 is a completely stateless protocol, and HTTP/2 switches that and makes it where you have to maintain state. You have to maintain this server affinity over a long-lived connection. Even though you're multiplexing multiple requests in flight at the same time, you have to process those headers sequentially, and serialize the access to those things, because if that state tablet gets out of sync at any point, you just tear down the connection, you can't do anything else on it.
 
 Even over multiplexed requests, all of those requests and responses share the same state tables. It adds an additional layer of complexity that just didn't exist previously. Personally, I don't think it was needed; I think that there are other ways...
 
 **Adam Stacoviak:** What would you have done differently?
 
-**James Snell:** I actually worked on the spec as one of the co-authors and I had a proposal for just using a more efficient binary coding of certain \[unintelligible 00:19:09.04\] Instead of representing numbers as text, representing them as binary, right? The compression ratios work as good, but you could transmit that data without incurring the cost of managing the state. So it would be just like what HTTP/1 has today, where you're still sending it every time, but you're sending less every time.
+**James Snell:** I actually worked on the spec as one of the co-authors and I had a proposal for just using a more efficient binary coding of certain header \[unintelligible 00:19:09.04\] Instead of representing numbers as text, representing them as binary, right? The compression ratios work as good, but you could transmit that data without incurring the cost of managing the state. So it would be just like what HTTP/1 has today, where you're still sending it every time, but you're sending less every time.
 
 **Adam Stacoviak:** Right. It makes sense to shrink it, rather than... \[cross-talk 00:21:46.08\] I kind of agree with you on the state, because it seems like it's adding this extra layer of -- it's almost like somebody shakes your hand and doesn't let it go.
 
@@ -162,7 +162,7 @@ One simple example is the fact that the status message in HTTP/1 - you know how 
 
 **Adam Stacoviak:** No one's gonna wanna climb that. It's less enjoyable, or less likely, or whatever. People do it...
 
-**James Snell:** We have lots of people that say they really want this. They really want HTTP/2, and we have a lot of people that are talking about it not necessarily for user-facing - \[unintelligible 00:28:40.13\] anyone can access - they wanna put it in their data center, and have server-to-server communication be much more efficient, which is a huge use case for HTTP/2, especially since that is within protected environments and you have more control over the client and the server.
+**James Snell:** We have lots of people that say they really want this. They really want HTTP/2, and we have a lot of people that are talking about it not necessarily for user-facing - putting up webesites anyone can access - they wanna put it in their data center, and have server-to-server communication be much more efficient, which is a huge use case for HTTP/2, especially since that is within protected environments and you have more control over the client and the server.
 
 There's opportunities there where you don't have to necessarily worry about the TLS; you could do a plaintext connection and you'll get a far greater performance out of it. But again, it has to be a very deliberate choice.
 
