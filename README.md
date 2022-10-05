@@ -373,6 +373,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
       <td align="center"><a href="http://austinpoor.com"><img src="https://avatars.githubusercontent.com/u/45295232?v=4?s=100" width="100px;" alt="Austin Poor"/><br /><sub><b>Austin Poor</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=a-poor" title="Documentation">📖</a></td>
       <td align="center"><a href="https://devnetstack.com"><img src="https://avatars.githubusercontent.com/u/17993401?v=4?s=100" width="100px;" alt="michael saenz"/><br /><sub><b>michael saenz</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=michaelc0n" title="Documentation">📖</a></td>
     </tr>
+    <tr>
+      <td align="center"><a href="http://waunbroderick.me"><img src="https://avatars.githubusercontent.com/u/16090669?v=4?s=100" width="100px;" alt="Waun Broderick"/><br /><sub><b>Waun Broderick</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=WaunBroderick" title="Documentation">📖</a></td>
+    </tr>
   </tbody>
   <tfoot>
     
