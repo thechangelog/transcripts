@@ -375,6 +375,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     </tr>
     <tr>
       <td align="center"><a href="http://waunbroderick.me"><img src="https://avatars.githubusercontent.com/u/16090669?v=4?s=100" width="100px;" alt="Waun Broderick"/><br /><sub><b>Waun Broderick</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=WaunBroderick" title="Documentation">📖</a></td>
+      <td align="center"><a href="http://www.jordonr.com"><img src="https://avatars.githubusercontent.com/u/3421651?v=4?s=100" width="100px;" alt="Jordon Replogle"/><br /><sub><b>Jordon Replogle</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=jordonr" title="Documentation">📖</a></td>
     </tr>
   </tbody>
   <tfoot>
