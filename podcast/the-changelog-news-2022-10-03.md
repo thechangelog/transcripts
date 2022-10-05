@@ -84,7 +84,7 @@ Side note: perhaps server-rendering and pre-rendering HTML are good ideas after 
 
 Turns out storing multiple terabytes of prerendered web page contents in this way on a 3rd party server is hugely expensive. Not only that: but traffic costs add up too.
 
-Moving off AWS and on to internally owned storage and saved Prerender big, but they state the major savings was on the outbound traffic cost. "“The true hidden price for AWS is coming from the traffic cost, they sell a reasonably priced storage, and it’s even free to upload it. But when you get it out, you pay an enormous cost."
+Moving off AWS and on to internally owned storage and saved Prerender big, but they state the major savings was on the outbound traffic cost. "The true hidden price for AWS is coming from the traffic cost, they sell a reasonably priced storage, and it’s even free to upload it. But when you get it out, you pay an enormous cost."
 
 I wonder what a switch to Cloudflare's R2 would've done to their costs? Outbound traffic on R2 is completely free and it would probably be a much faster and easier migration that might yield them most of those same savings.
 
