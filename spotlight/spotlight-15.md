@@ -362,7 +362,7 @@ And I don't think -- we don't really need to upgrade to a this newest version of
 
 **Jerod Santo:** \[laughs\] "That's kind of terrible..."
 
-**Adam Stacoviak:** \[39:58\] I mean, the difference on the starting price is kind of terrible. \[unintelligible 00:39:57.21\]
+**Adam Stacoviak:** \[39:58\] I mean, the difference on the starting price is kind of terrible... on that front.
 
 **Tim Smith:** No no no, $499 is the price that it is right now though. The old generation is $499. When it was new, it didn't start at $499.
 

@@ -112,7 +112,7 @@ But suddenly if we pull out URL from Node Core, we're gonna get a lot of modules
 
 **Thomas Watson:** I would hope to get to that stage. I think if Node lives long enough and is successful long enough, that eventually a significant part of the ecosystem will shift over to a good version of URL, the one that's on npm. I would hope to see that shift happen.
 
-It could be that it never happens, and if it never happens, that's still okay because we still won't change or accept bug reports on the URL library... Unless it's a \[unintelligible 00:17:45.13\]
+It could be that it never happens, and if it never happens, that's still okay because we still won't change or accept bug reports on the URL library... Unless it's a segfault...
 
 **Sam Roberts:** Security thing, right?
 
@@ -156,7 +156,7 @@ In theory, npmjs could organize a build farm and they could do it, but they'd al
 
 **Thomas Watson:** But there are significant performance problems. TLS is famously poor performance in Node. Anybody who's not absolutely required to do end-to-end encryption is terminating their HTTPS at NGINX or something reasonable. You can get two or three times speedups by doing that. And part of the reason it's slow is because of the structure of Node internally. It could be erased by moving a lot of the code deeper down into libuv and C++ code. It's difficult to do it in a backwards-compatible way, but...
 
-Given that Node already has HTTP, I think HTTP/2 is going to become more and more popular and it's going to be stranger and stranger that we have HTTP/1 and not HTTP/2. The build requirements for HTTP/2 will be terrible. I'm pretty sure the implementation uses lots of calls into V8. It would probably be hard to wrap with \[unintelligible 00:25:25.18\] and also what people want is for the HTTP API in Node to do the right thing - be either 1 or 2 as is possible, and that's hard to arrange unless you just force them out of using the Node HTTP API and go off into userland, which is not terrible.
+Given that Node already has HTTP, I think HTTP/2 is going to become more and more popular and it's going to be stranger and stranger that we have HTTP/1 and not HTTP/2. The build requirements for HTTP/2 will be terrible. I'm pretty sure the implementation uses lots of calls into V8. It would probably be hard to wrap with Nan and also what people want is for the HTTP API in Node to do the right thing - be either 1 or 2 as is possible, and that's hard to arrange unless you just force them out of using the Node HTTP API and go off into userland, which is not terrible.
 
 **Sam Roberts:** But then you would have an API that you can't really change because now you're stuck with that; you have the same problem.
 
