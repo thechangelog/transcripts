@@ -110,7 +110,7 @@ If I could find them, somehow, someway, I would be like "Thank you so much for s
 
 **Adam Stacoviak:** If we had to facet my skillset, one of my biggest skillsets is sales, and just relationships and partnerships; I love that kind of stuff... And I'd mentioned Reese Brothers and doing telemarketing - well, I'd always like to help people. I think sales is really just trying to help people solve their problems. It's not about getting Jerod to buy something he doesn't wanna buy, with money he doesn't have... It's about he has a problem, I can help solve that problem - that's sales to me.
 
-It's kind of a long story, but I'll make it really short - I had a friend who was trying to be a DJ... And we were at a club, early in the day, kind of like seven o'clock... \[unintelligible 00:17:27.08\] It's not the time you wanna be a DJ. So we were there, I see him talking to this guy at the bar, I see him go back and do his thing... And I go over and introduce myself, because I'm like "If you're a friend of my friend, you're a friend of mine" kind of person. So I went over and I introduced myself and said "Hey, I saw you talking to my buddy Donald. My name is Adam etc."
+It's kind of a long story, but I'll make it really short - I had a friend who was trying to be a DJ... And we were at a club, early in the day, kind of like seven o'clock... time it's borning at the club. It's not the time you wanna be a DJ. So we were there, I see him talking to this guy at the bar, I see him go back and do his thing... And I go over and introduce myself, because I'm like "If you're a friend of my friend, you're a friend of mine" kind of person. So I went over and I introduced myself and said "Hey, I saw you talking to my buddy Donald. My name is Adam etc."
 
 And long story short, this person's name was Sean Hughes; another person that I would love to see again and thank... Because that day I was at the crossroads of like what I was doing, which was basically nothing. I had no real ambition at the time. I was like "Well, I'm really hating what I'm doing now, and I'm thinking about getting into car sales." So car sales, right...? I love selling, people need cars... I can help you solve your problem by getting a great car, whatever. But car sales is generally not the most fun sales job. It's got just a lot of eekiness to it, so to speak. It doesn't have a great reputation for being a great job. You can make a lot of money, but it may not be the best job for you.
 
@@ -162,7 +162,7 @@ If you haven't heard of Muzak, if you've been into, say Old Navy, or a Banana Re
 
 **Adam Stacoviak:** Everybody smelled.
 
-**Jerod Santo:** I was gonna ask you \[unintelligible 00:22:18.15\] it's bad for a while, but eventually you just kind of get used to it and it goes back to normal.
+**Jerod Santo:** I was gonna ask you if it wraps around if it's bad for a while, but eventually you just kind of get used to it and it goes back to normal.
 
 **Adam Stacoviak:** Yeah, after a while it just sort of normalizes. I will say though, when the field problem was over and we all got back to the barracks, the first few in that immediately went and showered came out from the shower, and then everybody else that's still coming in, you're like "Oh my gosh, you guys smell so bad." It was pretty bad. At that point you can smell the difference.
 
@@ -268,7 +268,7 @@ Now you have to deliver a show that sounds really good. We used to get away with
 
 **Quincy Larson:** Wynn Netherland?
 
-**Adam Stacoviak:** Wynn Netherland. Kind of like the Netherlands, but Netherland. I think he used to say that, too. He goes by @Pengwynn on Twitter, so look him up... But he was in an interesting space because he ran a consultancy called \[unintelligible 00:35:24.05\] Now, Wynn's got some really interesting, witty humor, so it was called \[unintelligible 00:35:29.02\] because he liked to clean things and make things nice... And their brand was a lot like you might imagine a cleaning products brand. Kind of like sheeny and shiny... It was really interesting. I love that aspect about him.
+**Adam Stacoviak:** Wynn Netherland. Kind of like the Netherlands, but Netherland. I think he used to say that, too. He goes by @Pengwynn on Twitter, so look him up... But he was in an interesting space because he ran a consultancy called Squeejee. Now, Wynn's got some really interesting, witty humor, so it was called Squeejee because he liked to clean things and make things nice... And their brand was a lot like you might imagine a cleaning products brand. Kind of like sheeny and shiny... It was really interesting. I love that aspect about him.
 
 But he was in this crossroads because he had just decided to leave his consultancy and go a new direction, and so did I. So we were both in this sort of like "Let's establish our name for ourselves. Let's etch out some new territory." And obviously, I had a background in at least doing something with podcasting, so talking about things...
 
@@ -756,7 +756,7 @@ You could be talking about knitting, you could be talking about software, you co
 
 **Adam Stacoviak:** No, it's not.
 
-**Jerod Santo:** The three C's - it's nice to remember them, and it is somewhat easy to say, even though it's really Q in there, and \[unintelligible 01:17:24.18\]
+**Jerod Santo:** The three C's - it's nice to remember them, and it is somewhat easy to say, even though it's really Q in there, it might mess you up.
 
 **Adam Stacoviak:** That's right.
 
@@ -772,7 +772,7 @@ You could be talking about knitting, you could be talking about software, you co
 
 **Adam Stacoviak:** I would say for me I think the harder thing is community... Because it's not like Field of Dreams, build it and they come; you've gotta be there, you've gotta show up every day, you've gotta be invitational...
 
-**Jerod Santo:** \[unintelligible 01:18:18.11\] consistency... With the community?
+**Jerod Santo:** So you're saying the consistency... With the community?
 
 **Adam Stacoviak:** That's right, that's right.
 
@@ -820,7 +820,7 @@ Now, the early version was like no sponsors, members-only kind of thing... And i
 
 **Adam Stacoviak:** It was just five bucks...
 
-**Quincy Larson:** It's hard to get people \[unintelligible 01:24:30.00\]
+**Quincy Larson:** It's hard to get people to pull out their wallet.
 
 **Jerod Santo:** It was a hard sell back then. Maybe it's easier now, but... I don't know.
 
@@ -862,7 +862,7 @@ There's a lot of opportunity on the table. There's so many businesses out there 
 
 **Quincy Larson:** \[unintelligible 01:26:53.14\]
 
-**Adam Stacoviak:** But then \[unintelligible 01:26:53.21\] was one of their core partners... I'm like "So if I wanna build a business around this, we've gotta find some..." I even remember talking to you about this; I'm like "Do you think we can get somebody to do this and give us money every month?" And other people advised us that's probably not possible, good luck... But we did it. And find ways to support our business in ways that just -- I'm astounded, honestly. We're really fortunate; we've done a great job forging not just sponsorships... That's sort of the industry term that's known, "We're interested in sponsorship etc.", but we look at it more like partnerships. We thrive, our business, even personally - we thrive on relationships, so we wanna work with brands that know who we are, know what we're trying to do, wanna support that, but then also get paid a dividend by being able to in authentic ways speak to the global audience we've been able to cultivate over these years.
+**Adam Stacoviak:** But then CacheFly was one of their core partners... I'm like "So if I wanna build a business around this, we've gotta find some..." I even remember talking to you about this; I'm like "Do you think we can get somebody to do this and give us money every month?" And other people advised us that's probably not possible, good luck... But we did it. And find ways to support our business in ways that just -- I'm astounded, honestly. We're really fortunate; we've done a great job forging not just sponsorships... That's sort of the industry term that's known, "We're interested in sponsorship etc.", but we look at it more like partnerships. We thrive, our business, even personally - we thrive on relationships, so we wanna work with brands that know who we are, know what we're trying to do, wanna support that, but then also get paid a dividend by being able to in authentic ways speak to the global audience we've been able to cultivate over these years.
 
 **Quincy Larson:** Right.
 
@@ -948,7 +948,7 @@ So we just sort of fell in love with the Go community. They're really different 
 
 \[01:36:02.11\] In addition to just the Go thing happening, we have with The Changelog one opportunity a week to spotlight something... And it's very polyglot, as you know as a listener. Open source is kind of the crux of the matter, but we even go beyond that and we've even changed the word to software development in terms of the things that we talk about, because even though open source basically permeates all of software development, it's bigger than just open source even now, just because our interests have grown over the years... That being said -- I mean, that's 50 shows a year, if you take a couple weeks off... And there's so much more things to talk about, there's so much more things to spotlight, and we had a lot of listeners who were like "Hey, I love The Changelog. I would love to hear more, but more about this topic... Or more about that topic."
 
-**Adam Stacoviak:** Yeah, because if we covered Go or a specific language even for four weeks straight, it'd be like "Well, did this turn into a Go podcast, or are you still multi-faceted, like you say you are?" So you have to -- there's one way you can diversify. You can either diversify and add more shows to that particular podcast, and just diversify by multiplication... \[laughter\] \[unintelligible 01:37:07.07\]
+**Adam Stacoviak:** Yeah, because if we covered Go or a specific language even for four weeks straight, it'd be like "Well, did this turn into a Go podcast, or are you still multi-faceted, like you say you are?" So you have to -- there's one way you can diversify. You can either diversify and add more shows to that particular podcast, and just diversify by multiplication... \[laughter\] just picking some words here ya'll.
 
 **Jerod Santo:** So we could ship more shows a week on the Changelog feed, but then we would have to have series, and people do seasons... There's lots of different ways of slicing it. But what we thought would be a lot cooler is instead of the two of us doing more shows, because you hear our voices all the time anyways, and we're here to spotlight the guest - we want more voices. That's what we've always been about, when we had the opportunities. More voices, more people, different voices than ours. So let's extend our network and our production skills and the tastes that we have and the interests that we have to other people... And let's enable them to do shows. So that's what really became the portfolio right now.
 
@@ -1064,7 +1064,7 @@ But so easy to work with, so not even like -- what often happens with creatives 
 
 **Quincy Larson:** \[laughs\] Make it pop.
 
-**Jerod Santo:** Yeah. Exactly. So when you're trying to give feedback, I can imagine from the other side, they're like "Who are these fools?" You know, like "I don't like that \[unintelligible 01:44:55.19\] at eight seconds", or whatever... Like, how do you -- we're always like "Yeah, it's not groovin' enough. Make it a little more poppy", like the stuff you're saying. It's very difficult, so... They have extreme grace.
+**Jerod Santo:** Yeah. Exactly. So when you're trying to give feedback, I can imagine from the other side, they're like "Who are these fools?" You know, like "I don't like that hi-hat at eight seconds", or whatever... Like, how do you -- we're always like "Yeah, it's not groovin' enough. Make it a little more poppy", like the stuff you're saying. It's very difficult, so... They have extreme grace.
 
 **Adam Stacoviak:** And they're talking like timecode, and maybe even majors or minors, or what key it's in...
 
@@ -1168,7 +1168,7 @@ The point is we don't then adopt all of the stuff that we talk about. That would
 
 **Adam Stacoviak:** Yes. I guess since we first rolled out the site in 2016 on Linode, wasn't it?
 
-**Jerod Santo:** Yeah, exactly. I didn't really know how to roll out an Elixir app in a way that was old school... I'm very old school, like SSH into the box and run \[unintelligible 01:55:31.04\] by hand... And that just isn't really the smart way to do things, if you can do them better... So Gerhard has really helped us pave the way, with smart ways of rolling out our infrastructure over the years... And he's gonna be representing us at KubeCon, which is very cool, so thanks to Gerhard.
+**Jerod Santo:** Yeah, exactly. I didn't really know how to roll out an Elixir app in a way that was old school... I'm very old school, like SSH into the box and run start apache by hand... And that just isn't really the smart way to do things, if you can do them better... So Gerhard has really helped us pave the way, with smart ways of rolling out our infrastructure over the years... And he's gonna be representing us at KubeCon, which is very cool, so thanks to Gerhard.
 
 \[01:55:52.11\] And then, as you said, we have more than just our one show now. We have a couple shows which are panel shows, and we love the variety there. JS Party, which is all about JavaScript and the web, has nine regular panelists, myself being one of them. Any particular episode has three or four people on it, sometimes there's a guest... So we just kind of like mix and match, really borrowing from the Cheers model, as I call it. Remember the show Cheers, where you just wanna go where everybody knows your name?
 
@@ -1422,7 +1422,7 @@ So if you're going to go, and you're going to put in the effort and the money an
 
 **Adam Stacoviak:** I'll give you the short version... There's a whole podcast about it; we'll point back to -- we'll add more links to the show notes, but... Eric Holscher was a big fan of inviting people and including people. And if you can imagine being at an after-party, or in the hallway track, whatever it might be, and you've got a circle of people, and there's no openings, you don't feel invited to come in, right? You don't get invited to come into that space. So if you leave that wedge there, that PacMan shape, well there's room for one or two more. And the circle will get bigger and bigger, but you'll always have that gap in there to invite people in. He gave talks about it, he wrote a blog post about it, we had a podcast about the talks and the blogs... You know, Inception overload, but...
 
-**Jerod Santo:** \[02:16:02.13\] Now you're having a podcast about the podcast about \[unintelligible 02:16:02.03\]
+**Jerod Santo:** \[02:16:02.13\] Now you're having a podcast about the podcast about the podcast.
 
 **Adam Stacoviak:** That's right, that's right. \[laughter\] But the point is if you're at a conference, describing Jerod's scenarios, one more layer to that is always leave space to invite one more into the crowd.
 
@@ -1472,7 +1472,7 @@ So if you're going to go, and you're going to put in the effort and the money an
 
 **Quincy Larson:** ...and you're heading into a new decade, a new era of the Changelog... And it looks like the field is very open, and you've got a lot of possible things you could do with the next ten years... What are some wild ambitions, or areas that you wanna explore? Or courses that you've already charted, that you're planning to head in, and that you can share with us.
 
-**Adam Stacoviak:** I'm usually more visionary and have some sort of \[unintelligible 02:18:22.01\] but I feel like we're doing what we need to be doing right now... And for me that's okay. Because I think we do a lot, and I've got a growing family... So personally right now I feel like I'm a little short-sighted on my vision. I like what we're doing. I think there's a lot of things we can improve on.
+**Adam Stacoviak:** I'm usually more visionary and have some sort of cast, but I feel like we're doing what we need to be doing right now... And for me that's okay. Because I think we do a lot, and I've got a growing family... So personally right now I feel like I'm a little short-sighted on my vision. I like what we're doing. I think there's a lot of things we can improve on.
 
 We mentioned the fact that our codebase is open source. Every year we like to participate in Hacktoberfest, we like to invite people in to contribute... There's always room for more shows, but we're also not trying to grow our podcast count tremendously. I think over the next several years we might grow by one, maybe two shows a year, or basically as topics or interests come to fruition. I would like to maybe do a bit more on the membership side...
 
