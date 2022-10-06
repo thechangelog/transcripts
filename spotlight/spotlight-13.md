@@ -62,7 +62,7 @@ For those out there though who may be listening to this that aren't very familia
 
 **Adam Stacoviak:** It was about a year ago, I believe, when Chakra was open sourced - is that right?
 
-**Arunesh Chandra:** Yes, ChakraCore is open source, ChakraCore is cross-platform. Chakra, on the other hand, was open-sourced in Jan 2016 - about a year ago.
+**Arunesh Chandra:** Yes, ChakraCore is open source, ChakraCore is cross-platform. Chakra, on the other hand, was open sourced in Jan 2016 - about a year ago.
 
 **Adam Stacoviak:** Gotcha, okay. How important was it for the development of Chakra to open source it? Obviously, we're seeing a new Microsoft in terms of embracing open source, but why open source? How has that helped the overall mission of the Edge browser being more any developer, any device, being more open - this neutrality, so to speak, generally across developers? How has open sourcing it made a big deal for the development of it?
 
