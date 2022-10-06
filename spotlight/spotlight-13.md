@@ -14,7 +14,7 @@ Let's start out with "Why Node inside of Microsoft?" Why is Node important to Mi
 
 In terms of the platform, you can imagine the platform also constitutes the operating system; it's the app stack that people are using, so it's the app platform. So it's both of them, in a way.
 
-**Gaurav Seth:** High-level \[unintelligible 00:03:06.11\] was that Node is a really fast-growing application framework, and from the history, Microsoft is always about developers' productivity. There's a huge growth in the developer interest in Node and that's what has us excited about this platform, as well. We're going where the developers are.
+**Gaurav Seth:** High-level bit, I think what he mentioned as well was that Node is a really fast-growing application framework, and from the history, Microsoft is always about developers' productivity. There's a huge growth in the developer interest in Node and that's what has us excited about this platform, as well. We're going where the developers are.
 
 **Adam Stacoviak:** That makes sense. That brings us over to the next topic, which is VM neutrality. To go where the developers are, you have to have neutrality, you have to be able to take it beyond V8. I think it was roughly nine months to a year ago, if my memory serves me correctly - you guys forked Node and did something with ChakraCore where you were able to speed it up, and you had your own fork and that was sort of like the way you even got back into -- it might have even opened the door for Node involvement with Microsoft... If I remember that correctly.
 
@@ -62,7 +62,7 @@ For those out there though who may be listening to this that aren't very familia
 
 **Adam Stacoviak:** It was about a year ago, I believe, when Chakra was open sourced - is that right?
 
-**Arunesh Chandra:** Yes, ChakraCore is open source, ChakraCore is cross-platform. Chakra, on the other hand, is \[unintelligible 00:10:47.12\]
+**Arunesh Chandra:** Yes, ChakraCore is open source, ChakraCore is cross-platform. Chakra, on the other hand, was open-sourced in Jan 2016 - about a year ago.
 
 **Adam Stacoviak:** Gotcha, okay. How important was it for the development of Chakra to open source it? Obviously, we're seeing a new Microsoft in terms of embracing open source, but why open source? How has that helped the overall mission of the Edge browser being more any developer, any device, being more open - this neutrality, so to speak, generally across developers? How has open sourcing it made a big deal for the development of it?
 
@@ -80,7 +80,7 @@ It comes both ways: we get to benefit from really organic discussions and PRs an
 
 **Gaurav Seth:** I think it was neither -- I mean, it was a pretty flat thing... It was neither top-down or bottom-up. But I would say it was more bottom-up than top-down. I think as we were working on things, it was all about figuring out where the people are, where the momentum is, what is the next set of things we should be doing.
 
-The point when we went open source - there were things where Chakra was already leading in terms of the language support it had. It was already leading in some of the \[unintelligible 00:14:12.02\] benchmarks that we saw. Chakra has an amazing architecture which is a dual pipeline of having an interpreter and a JIT compiler, both traded together in place.
+The point when we went open source - there were things where Chakra was already leading in terms of the language support it had. It was already leading in some of the perf(ormance) benchmarks that we saw. Chakra has an amazing architecture which is a dual pipeline of having an interpreter and a JIT compiler, both traded together in place.
 
 **Adam Stacoviak:** When you say JIT you mean Just In Time, right?
 

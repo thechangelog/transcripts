@@ -166,7 +166,7 @@ So for people like us, or people that aspire to be like us, to have that kind of
 
 **Adam Stacoviak:** Okay. And then you've got Bing - good job, Microsoft! What other search options do you have?
 
-**Shiya Lou:** There's this company called 360 Search, this company called \[unintelligible 00:19:20.00\], and there's a bunch of companies making their own search solutions. My personal experience is that they never really compare to Google \[unintelligible 00:19:28.22\], maybe because once Google went out of China there wasn't enough competition for people to be forced to...
+**Shiya Lou:** There's this company called 360 Search, this company called \[unintelligible 00:19:20.00\], and there's a bunch of companies making their own search solutions. My personal experience is that they never really compare to Google, no matter how good they are, maybe because once Google went out of China there wasn't enough competition for people to be forced to...
 
 **Adam Stacoviak:** To make it better. That's a good example of having a really good user experience (I'm air quoting); I think Google has a good user experience, but I think that there obviously are some biases where if you compare the results from other engines that you might like those better, but I've always, in a blind taste test so to speak, I've always preferred Google's results, without any styles; not even looking at the page, but just in general, the results I get back seem to be more relevant to me.
 
