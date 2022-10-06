@@ -2402,6 +2402,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "runningdeveloper",
+      "name": "Geoffrey Hunt",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5277142?v=4",
+      "profile": "https://runningdeveloper.com",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
