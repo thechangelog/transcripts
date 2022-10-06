@@ -377,11 +377,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
       <td align="center"><a href="http://waunbroderick.me"><img src="https://avatars.githubusercontent.com/u/16090669?v=4?s=100" width="100px;" alt="Waun Broderick"/><br /><sub><b>Waun Broderick</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=WaunBroderick" title="Documentation">📖</a></td>
       <td align="center"><a href="http://www.jordonr.com"><img src="https://avatars.githubusercontent.com/u/3421651?v=4?s=100" width="100px;" alt="Jordon Replogle"/><br /><sub><b>Jordon Replogle</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=jordonr" title="Documentation">📖</a></td>
       <td align="center"><a href="https://runningdeveloper.com"><img src="https://avatars.githubusercontent.com/u/5277142?v=4?s=100" width="100px;" alt="Geoffrey Hunt"/><br /><sub><b>Geoffrey Hunt</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=runningdeveloper" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://github.com/pkdyn"><img src="https://avatars.githubusercontent.com/u/72981484?v=4?s=100" width="100px;" alt="pkdyn"/><br /><sub><b>pkdyn</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=pkdyn" title="Documentation">📖</a></td>
     </tr>
   </tbody>
-  <tfoot>
-    
-  </tfoot>
 </table>
 
 <!-- markdownlint-restore -->
