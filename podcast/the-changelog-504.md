@@ -70,7 +70,7 @@ My sense is that there are two fundamental ways in which we can think about main
 
 Similarly, when something is failing in one of its operational characteristics, I wanna know as closely as possible where to look, where to go. So I think there's a common principle there in terms of the way that we should be approaching making -- and that's mostly on the bug fixing side. Mostly, I think, at the bug fixing side.
 
-But maybe where the paths meet in the woods of the two approaches - the bug fixing and the feature adding - is the extent to which your tests and your telemetry and whatever systems you have set up for consuming your operational information are able to tell you when the thing that you were adding over here broke some stuff over there, and \[unintelligible 00:13:45.07\] Because ultimately, what we're talking about here is like "Does the software continue to be correct or not, and how can you tell?"
+But maybe where the paths meet in the woods of the two approaches - the bug fixing and the feature adding - is the extent to which your tests and your telemetry and whatever systems you have set up for consuming your operational information are able to tell you when the thing that you were adding over here broke some stuff over there, and guides you to the same thing, because ultimately, what we're talking about here is like "Does the software continue to be correct or not, and how can you tell?"
 
 But I apologize though, because like I said, it kind of took off like a thing you said at the beginning, and I feel like I missed the tail end of it, which is why I was thinking about biding my time... But then Kris called on me, so... I'm sorry. \[laughter\]
 
@@ -80,7 +80,7 @@ But I apologize though, because like I said, it kind of took off like a thing yo
 
 **Ian Lopshire:** Yeah, so this idea of locality I think is important for maintainability as well. I feel like if we minimize the amount of unrelated changes that have to happen to make a desirable change that is maintainable.
 
-**Johnny Boursiquot:** So because maintainability has all these facets, perhaps we can sort of come at it from the other way around. What would we call unmaintainable software? How do we define that? I think that's something we perhaps all might agree on as these are the sets of things in practice that make a piece of software unmaintainable, and I'm sure \[unintelligible 00:14:45.15\] careers we've probably seen a few, right?
+**Johnny Boursiquot:** So because maintainability has all these facets, perhaps we can sort of come at it from the other way around. What would we call unmaintainable software? How do we define that? I think that's something we perhaps all might agree on as these are the sets of things in practice that make a piece of software unmaintainable, and I'm sure if we would've question within our individual careers we've probably seen a few, right?
 
 **Sam Boyer:** I mean, you could start with anything you can lint for, right? Especially in Go, where there isn't a lot of disagreement about what should go into linters... That's a lot more common in other languages. But if you can lint for it, then yeah... Put basic docs on your functions and your exported members. Maybe don't have insanely short variable names for literally everything that you do... There's the minimum bar, right? And I feel like we can almost just put a checkmark on the list and say "Okay, if you can lint for it, maybe just do that from the start." Actually, I would loop back to the earlier question - even in a new codebase, throw the linters in as soon as you can. Maybe you can ignore and just write some dumb one-liners for your function docs, but don't make things harder for yourself. Just start from that and get yourself a nice little foundational baseline going of the basics.
 
@@ -102,11 +102,11 @@ If people have different concepts of what a specific codebase or a specific pack
 
 **Sam Boyer:** Right.
 
-**Kris Brandow:** \[17:58\] I feel like there's that cyclical testing that people tend to get into with unit testing as well, where they test at the wrong level... And it's like, "Well, that thing is tested." You've tested it. It does the thing that you thought it was supposed to do, but the thing you thought it was supposed to do is not the thing that you actually want it to do. I think that's the difference there, as well... You as an individual, if you write the function and then you write the test, then I hope that the tests that you wrote have now confirmed that that function does what you want... But if you, Sam, and I, have two completely different ideas about what this function is supposed to be doing, we can both write tests, and those tests can both pass, but that doesn't solve that initial problem of scoping. This function itself is still not well defined. So I do think that they are divergent paths \[unintelligible 00:18:43.11\] one encapsulates the other. If you have untestable code, then you've most definitely probably scoped it wrong... But scoping it wrong doesn't necessarily mean that it's untestable.
+**Kris Brandow:** \[17:58\] I feel like there's that cyclical testing that people tend to get into with unit testing as well, where they test at the wrong level... And it's like, "Well, that thing is tested." You've tested it. It does the thing that you thought it was supposed to do, but the thing you thought it was supposed to do is not the thing that you actually want it to do. I think that's the difference there, as well... You as an individual, if you write the function and then you write the test, then I hope that the tests that you wrote have now confirmed that that function does what you want... But if you, Sam, and I, have two completely different ideas about what this function is supposed to be doing, we can both write tests, and those tests can both pass, but that doesn't solve that initial problem of scoping. This function itself is still not well defined. So I do think that they are divergent paths or maybe one encapsulates the other. If you have untestable code, then you've most definitely probably scoped it wrong... But scoping it wrong doesn't necessarily mean that it's untestable.
 
 **Sam Boyer:** Yeah, that certainly is the case. I agree, I do think there's a difference between these things, but I think that it's worth asking that question, because having a clear sense of what it is that this code is supposed to do, the boundaries within which it's supposed to exist is astonishingly important to actually trying to maintain a code... Especially as a codebase gets larger - should this function go in this package? Should it be a new package? Why? What's the logic by which we are grouping these things? Is there some broader theme that we can use to decide that this is how we actually organize our code? This is where we ought to look for something.
 
-As your codebase grows larger, you can't just kind of \[unintelligible 00:19:39.11\] your way through finding things inside of it; having larger patterns for why code gets grouped in different ways, having larger structural patterns, whether those are something formally defined by type-checkable interface contracts, less formally defined in terms of naming convention patterns, or really informally defined, but still very important in terms of general patterns and responsibilities, and like "We're gonna put a collection of packages under a single tree that are servicy-shaped, or something like that."
+As your codebase grows larger, you can't just kind of oomph your way through finding things inside of it; having larger patterns for why code gets grouped in different ways, having larger structural patterns, whether those are something formally defined by type-checkable interface contracts, less formally defined in terms of naming convention patterns, or really informally defined, but still very important in terms of general patterns and responsibilities, and like "We're gonna put a collection of packages under a single tree that are servicy-shaped, or something like that."
 
 As your codebase gets larger - and take note for that intro bit, where I'm currently thinking about and mostly learning a 250,000-line codebase at the moment... And having patterns and structures like this I think do an enormous amount to orienting the maintainer, who inevitably, given a large enough codebase, you just have to assume that every maintainer is basically naive at some level about what's in some code... They do a lot to orient the maintainer towards intent, which is the first step towards being able to figure out what should be tested, which is the next step on the path to figuring out whether the thing does what it's supposed to do in the first place.
 
@@ -118,7 +118,7 @@ As your codebase gets larger - and take note for that intro bit, where I'm curre
 
 **Sam Boyer:** If you don't have debt, you haven't done anything great.
 
-**Johnny Boursiquot:** Exactly. Yeah, literally. Technical debt is part of the currency that you have to trade for things... Basically, to pay an upfront cost for a certain feature, and then to come back and actually fix the things that really make it maintainable in the long term. So when you don't address your technical debt, you start to creep towards that unmaintainability, to the point where it's like, "Oh, man..." I'm looking at a codebase which has been out for a couple of years, and there's three different ways to do the same thing, with a slightly different parameterization. This one accepts an empty interface here, because somebody wanted to make it super-flexible, but they didn't understand enough about the problem domain, and now you end up having to create another one, with more specific -- you can see those sprinkles of just different people trying to solve the same problem in different ways, and not basically saying "Okay, we've done enough damage. We have an understanding of what it is that this thing is supposed to do now. Can we just take a minute, take a step back, take all the different ways \[unintelligible 00:22:29.17\] refactor for maintainability", as opposed to somebody coming in next week and saying "Now I need a slightly different version of this thing." Now you have four ways of doing the same thing.
+**Johnny Boursiquot:** Exactly. Yeah, literally. Technical debt is part of the currency that you have to trade for things... Basically, to pay an upfront cost for a certain feature, and then to come back and actually fix the things that really make it maintainable in the long term. So when you don't address your technical debt, you start to creep towards that unmaintainability, to the point where it's like, "Oh, man..." I'm looking at a codebase which has been out for a couple of years, and there's three different ways to do the same thing, with a slightly different parameterization. This one accepts an empty interface here, because somebody wanted to make it super-flexible, but they didn't understand enough about the problem domain, and now you end up having to create another one, with more specific -- you can see those sprinkles of just different people trying to solve the same problem in different ways, and not basically saying "Okay, we've done enough damage. We have an understanding of what it is that this thing is supposed to do now. Can we just take a minute, take a step back, take all the different ways we were doing the same thing and refactor for maintainability", as opposed to somebody coming in next week and saying "Now I need a slightly different version of this thing." Now you have four ways of doing the same thing.
 
 \[22:41\] So you start that march towards increasingly unmaintainable software... But is any software truly unmaintainable? That would mean that you can never do anything else to it... Unless you're basically on a code freeze... That's it, it's done; you're never touching it again. As long as software is delivering value for the business, you have to maintain it. So if you don't do the things you're supposed to be doing towards making something maintainable for the long term, you're gonna increasingly creep towards that unmaintainable -- like, increasing the unmaintainable state.
 
@@ -128,7 +128,7 @@ As your codebase gets larger - and take note for that intro bit, where I'm curre
 
 So it is fundamentally contextual to the environment that you are operating in, in the same way that like "Is the code performant?" is actually a question about what the appetite of the organization is for accepting latency or whatever, along this particular path. There is no objective standard here for it, which is why, as you say, Johnny, it's this risk of the creep towards you can continually add things that might make it more maintainable, but maybe it would never necessarily reach there, or exogenous factors might change, like how many things are relying on that code that will suddenly have it be in that unmaintainable state, whereas before it seemed fine...
 
-**Johnny Boursiquot:** I think you have a good call-out there, because I think the business is also on the hook for ensuring that there is enough, space, time, resources for keeping the software maintainable... Because if you don't - and as I'm sure we've all either experienced or heard, if you're never making room for improving your codebase... Not adding new features, not fixing bugs alone, but really improving the codebase to make it easier to work in, eventually your shipment of features is gonna come to a crawl... And everybody's scratching their heads, wondering "Why does it take 3-4 sprints of two weeks a pop to add just this one feature?" Everybody ends up scratching their heads, asking that same question, and the answer is always the same thing - well, we keep wanting to go back and fix these other things, but we never get the time, there's always a demand to ship this next thing, this is important, \[unintelligible 00:27:00.27\] Basically, the business is not caring about what it takes -- behind the things; it's things that they can't see. We're the engineers, we need to make the case for the time, the resources, the space to improve the codebase. If we don't do that, the business is not gonna do that for us automatically.
+**Johnny Boursiquot:** I think you have a good call-out there, because I think the business is also on the hook for ensuring that there is enough, space, time, resources for keeping the software maintainable... Because if you don't - and as I'm sure we've all either experienced or heard, if you're never making room for improving your codebase... Not adding new features, not fixing bugs alone, but really improving the codebase to make it easier to work in, eventually your shipment of features is gonna come to a crawl... And everybody's scratching their heads, wondering "Why does it take 3-4 sprints of two weeks a pop to add just this one feature?" Everybody ends up scratching their heads, asking that same question, and the answer is always the same thing - well, we keep wanting to go back and fix these other things, but we never get the time, there's always a demand to ship this next thing, this is important, whatever it is.  Basically, the business is not caring about what it takes -- behind the things; it's things that they can't see. We're the engineers, we need to make the case for the time, the resources, the space to improve the codebase. If we don't do that, the business is not gonna do that for us automatically.
 
 To them it's like "Hey, can I get this?" and you deliver. Then "Here's what's next. Can I get this?" Because they have pressures from customers, from stakeholders... As long as you keep giving them stuff, they're gonna keep asking for more stuff. If you don't fight for the space and time to make your codebase maintainable, easier to keep adding things to, that's how you get in trouble.
 
@@ -160,7 +160,7 @@ But I'm wondering if that's something we should be pushing for, or if there's an
 
 So I think this is something that every engineer should feel responsible for basically contributing to the health of a piece of codebase, or however many you have in case you have microservices, or whatever.
 
-**Kris Brandow:** I would question though if that's actually a good idea... Because here's what where I'm coming -- I always pull analogies from other things... I gave a talk at GopherCon where I basically talked about how we're similar to the publishing industry. And when I hear "Everybody needs to do a rotation on this team to help clean up the codebase", I hear "Everybody needs to become a copy editor", and I don't like that idea. I feel like this is a higher form of engineering, in a way, than even just like product or feature engineering. I feel like feature or product engineering - that's like \[unintelligible 00:34:01.21\] it's like "Here's the requirements, here's the scope. Go make a design." It feels like this more structured thing... Whereas when you're trying to do gardening or doing maintenance of a codebase - I know that's still kind of \[unintelligible 00:34:14.26\] but when you're trying to do this, it's like trying to pull out value when you don't necessarily have that level of structure, especially within organizations, to make that happen.
+**Kris Brandow:** I would question though if that's actually a good idea... Because here's what where I'm coming -- I always pull analogies from other things... I gave a talk at GopherCon where I basically talked about how we're similar to the publishing industry. And when I hear "Everybody needs to do a rotation on this team to help clean up the codebase", I hear "Everybody needs to become a copy editor", and I don't like that idea. I feel like this is a higher form of engineering, in a way, than even just like product or feature engineering. I feel like feature or product engineering - that's like "Here's the requirements", it's like "Here's the requirements, here's the scope. Go make a design." It feels like this more structured thing... Whereas when you're trying to do gardening or doing maintenance of a codebase - I know that's still kind of an inept word right now, but when you're trying to do this, it's like trying to pull out value when you don't necessarily have that level of structure, especially within organizations, to make that happen.
 
 And the thing I worry about is making bad trade-offs when it comes to trying to garden your codebases... Because just like we have to make trade-offs when it comes to product features, we have to make trade-offs when it comes to gardening. There's a thousand papercuts that are happening here... We have to decide which ones are at a part of your body that's just annoying and which ones are like slicing an artery that is going to make you bleed out.
 
@@ -214,7 +214,7 @@ One thing that jumps out to me clearly is how I've internalized that belief that
 
 **Johnny Boursiquot:** \[laughs\] Why, you've never come across an iterable?
 
-**Kris Brandow:** \[44:00\] You've never come across some \[unintelligible 00:44:00.22\] in your Go codebases?
+**Kris Brandow:** \[44:00\] You've never come across some factory factories in your Go codebases?
 
 **Sam Boyer:** Oh, okay, wait... I thought this is like an actual thing... Like a Java person wrote Go -- like, I was about to google "Goava Go", or something...
 
@@ -236,7 +236,7 @@ I do think in that case the reason we're saying it's bad code is because you're 
 
 **Sam Boyer:** ...but there's certainly a degree of subjectivity to it. But that's actually part of the thing too, right? It is personal, it is subjective, so is a given codebase maintainable in the hands of one team, but you swap out different people, or a different team dynamic, and it's not maintainable anymore?
 
-**Johnny Boursiquot:** I think if you're using Go it's a bit more so than it would be otherwise... And I'm speaking completely from my own experience here. Because Go was sort of designed with that in mind. It was designed with the ability -- I mean, linters, they all follow a similar approach. go fmt, to remove everybody's pet peeves around formatting. "I want my braces on this line. I want \[unintelligible 00:46:31.24\]", these kinds of things. So our entire ecosystem prides itself on the ability of anyone finding a Go codebase - you might not understand a problem domain that you're reading about, you can read Go code, and the code itself will be readable to you as somebody who's completely new to that codebase. And since you're going through a 250,000-line codebase right now, you can attest to that probably, right?
+**Johnny Boursiquot:** I think if you're using Go it's a bit more so than it would be otherwise... And I'm speaking completely from my own experience here. Because Go was sort of designed with that in mind. It was designed with the ability -- I mean, linters, they all follow a similar approach. go fmt, to remove everybody's pet peeves around formatting. "I want my braces on this line. I want mine here", these kinds of things. So our entire ecosystem prides itself on the ability of anyone finding a Go codebase - you might not understand a problem domain that you're reading about, you can read Go code, and the code itself will be readable to you as somebody who's completely new to that codebase. And since you're going through a 250,000-line codebase right now, you can attest to that probably, right?
 
 So to me, that's the thing - the technology that we use can help in the maintainability of software. So if we add that sort of lens to it, I think the technology plays a huge role in that as well, not just the people.
 
@@ -256,13 +256,13 @@ If we add a new thing to our definition of maintenance, then something that was 
 
 **Johnny Boursiquot:** Yup... I mean, you learn -- you get that gut feeling that Kris is talking about, where you say, "Yes, based on my experience, based on what I've been through, this feels good." And when you start to lose that grip, and when you can no longer hold in your head all the different strands that you've had to pull to understand one single feature in a codebase, once you've lost that, then you kind of "Ugh... This could be better." But is there a more scientific method?
 
-I remember back in my Ruby days, Ruby relied quite a bit on things like code climate and what not to measure complexity and repetition, all these kinds of things... Some heuristics, and trying to figure out "Okay, based on a common set of agreed-upon don't-do's (in this case for the Ruby community), these are the things that you should avoid doing in your codebase." So you get that feedback almost immediately. You open up a PR and then boom, you've got some feedback from a machine... Not from another human, from a machine, telling you "Hey, we ran some linters and this is what we've found." RuboCop yelling at you -- I mean, I remember I'd be finding RuboCop every day, on every PR, and I'd be like "Okay, fine. I'll have to go and fix that." But you're paying that cost and you have a machine helping you to identify these things... And all in the hope that you will not get to a point where you've got so many of these -- the accumulation of these minor papercuts, I would call them, that the codebase becomes sort of "Uhh..." Everytime you're in there it kind of feels yucky... That feeling that you're talking about, Kris, like "Oh, man... We've got too many \[unintelligible 00:51:15.04\]" kind of thing. Is there such a thing in Go? Obviously, we have our linters... We can have that sort of immediate feedback mechanism, but do we all agree on patterns and best practices and things? The stuff that we sort of usually thought of as idiomatic Go - is that our common set of patterns? Is that as scientific as we get?
+I remember back in my Ruby days, Ruby relied quite a bit on things like code climate and what not to measure complexity and repetition, all these kinds of things... Some heuristics, and trying to figure out "Okay, based on a common set of agreed-upon don't-do's (in this case for the Ruby community), these are the things that you should avoid doing in your codebase." So you get that feedback almost immediately. You open up a PR and then boom, you've got some feedback from a machine... Not from another human, from a machine, telling you "Hey, we ran some linters and this is what we've found." RuboCop yelling at you -- I mean, I remember I'd be finding RuboCop every day, on every PR, and I'd be like "Okay, fine. I'll have to go and fix that." But you're paying that cost and you have a machine helping you to identify these things... And all in the hope that you will not get to a point where you've got so many of these -- the accumulation of these minor papercuts, I would call them, that the codebase becomes sort of "Uhh..." Everytime you're in there it kind of feels yucky... That feeling that you're talking about, Kris, like "Oh, man... We've got too many digital pinpricks here" kind of thing. Is there such a thing in Go? Obviously, we have our linters... We can have that sort of immediate feedback mechanism, but do we all agree on patterns and best practices and things? The stuff that we sort of usually thought of as idiomatic Go - is that our common set of patterns? Is that as scientific as we get?
 
 **Kris Brandow:** I feel like for Go we could probably get at least part of the way there... Once again, I'm always thinking about writing, because I'm a writer... But another thing is like manuals of style, and how -- when you have a manual of style it has a lot of very strong opinions about "This is how you do things." \[laughter\]
 
 **Johnny Boursiquot:** For those wondering what we're laughing about, Sam just pulled up a book on style...
 
-**Kris Brandow:** Yeah, \[unintelligible 00:52:02.18\] a classic.
+**Kris Brandow:** Yeah, William Strunk and White, a classic.
 
 **Sam Boyer:** \[52:06\] THE book on style, in fact. Yes.
 
@@ -282,7 +282,7 @@ I remember back in my Ruby days, Ruby relied quite a bit on things like code cli
 
 But I think for us, especially if you take a wider angle of it, not just Go, I don't think so. I think a lot about, you know, once again, writing - what's good in a romance novel, or one of those trashy airport romance novels, versus what's good in the New York Times, is going to be very different. And neither is wrong, and you probably wouldn't wanna label either one as wrong. I feel like code is the same way. What is good in Go is not the same with what is good in Java. And I think even within Go codebases, what's good in some Go codebases is probably not good in others. I think of the use of the unsafe package, or the use of the sync package; some teams in some organizations - that's a good decision, that's a good thing to use. You have the engineers with the experience. Other teams probably shouldn't be doing that. Someone's gonna blow off their foot with that. Man, gruesome analogies today... \[laughter\]
 
-**Sam Boyer:** Seriously, it's just -- and also, I don't know about you, but I start every main package with a \[unintelligible 00:53:45.05\]because that's just how I roll...
+**Sam Boyer:** Seriously, it's just -- and also, I don't know about you, but I start every main package with a compare and swap, because that's just how I roll...
 
 **Kris Brandow:** Why use mutexes when you can use atomics? Come on... \[laughter\]
 
@@ -292,7 +292,7 @@ But I think for us, especially if you take a wider angle of it, not just Go, I d
 
 **Johnny Boursiquot:** The important parts...
 
-**Kris Brandow:** They appeared over time. Okay, I have problems \[unintelligible 00:54:29.09\]
+**Kris Brandow:** They appeared over time. Okay, I have problems Strunk and White
 
 **Johnny Boursiquot:** Style, the good parts... \[laughs\]
 
@@ -378,7 +378,7 @@ Oh, I would add Rust. That's what I would add... \[laughter\] I would really lik
 
 **Kris Brandow:** \[laughs\]
 
-**Ian Lopshire:** Let me hear some other ones and I'll \[unintelligible 01:02:38.28\]
+**Ian Lopshire:** Let me hear some other ones and I'll see if something pops in my mind
 
 **Johnny Boursiquot:** Get the wheels turning... \[laughter\]
 
@@ -398,7 +398,7 @@ Oh, I would add Rust. That's what I would add... \[laughter\] I would really lik
 
 **Johnny Boursiquot:** Oh, okay. That's nuanced. Yeah.
 
-**Kris Brandow:** I feel like that's not unpopular though \[unintelligible 01:03:15.01\]
+**Kris Brandow:** I feel like that's not unpopular though, gRPC
 
 **Sam Boyer:** Right. That's the problem... All of my opinions are right and popular, and so how am I supposed to -- \[laughter\]
 
@@ -434,7 +434,7 @@ So play a role in each layer of that, and trust me, this is not a punishment. Th
 
 **Kris Brandow:** You know, a little bit lower. But no, I think you're right though. I've been doing a bunch of security engineering-related work at work, and I'm like, more people need to understand security; not to implement it themselves... Please don't go roll your own crypto... But I think from an actually getting in and understanding how public key infrastructure, how certs work, how public/private key pairs work, how cryptography in general works - I think enough people don't get exposed to that, because security is in a specialized area. I think reliability is the same sort of thing, where it's like "Oh, there is the SRE team. They tackle stuff."
 
-So I am in general agreement with you. I think software engineers need to be taking more on as far as what their \[unintelligible 01:06:50.23\] is. It shouldn't just be "Go build some products. Go write some code."
+So I am in general agreement with you. I think software engineers need to be taking more on as far as what their rement is. It shouldn't just be "Go build some products. Go write some code."
 
 **Johnny Boursiquot:** Kris is like "I agree, except when it applies to me." \[laughs\]
 
@@ -446,7 +446,7 @@ So I am in general agreement with you. I think software engineers need to be tak
 
 **Johnny Boursiquot:** Oh, that's the trick.
 
-**Sam Boyer:** Or only crashes. \[unintelligible 01:07:17.26\] which is a real thing, that's a great thing. Ian, I have another -- I do have one, if you want another minute to think... Otherwise, go.
+**Sam Boyer:** Or only crashes.  Crashes all software which is a real thing, that's a great thing. Ian, I have another -- I do have one, if you want another minute to think... Otherwise, go.
 
 **Ian Lopshire:** You can go ahead.
 
@@ -474,7 +474,7 @@ So I am in general agreement with you. I think software engineers need to be tak
 
 **Johnny Boursiquot:** I was gonna say, depending on how -- there's gonna be a whole swathe of new Go developers who have no idea of the back-story for all of this... And there's gonna be a bunch of people who are like, "Yeah, yeah, I get what you mean."
 
-**Kris Brandow:** \[unintelligible 01:08:27.07\]
+**Kris Brandow:** "We get when you put it down"
 
 **Sam Boyer:** You know, I think it's a statement that stands on its own though, independent of any history.
 
@@ -488,7 +488,7 @@ So I am in general agreement with you. I think software engineers need to be tak
 
 **Kris Brandow:** You wind up with that function that is like "It means different things to different people", and then it has 14 parameters.
 
-**Sam Boyer:** And they still don't describe the entire possible space... Because thus far we've been talking mostly about maintenance as though it's something which is kind of confined to a single team... Which kind of isn't true when you've got a blast radius that is as large as your \[unintelligible 01:09:25.25\]
+**Sam Boyer:** And they still don't describe the entire possible space... Because thus far we've been talking mostly about maintenance as though it's something which is kind of confined to a single team... Which kind of isn't true when you've got a blast radius that is as large as your depender's space.
 
 **Kris Brandow:** This is why this is a series and not an episode. \[laughter\]
 
