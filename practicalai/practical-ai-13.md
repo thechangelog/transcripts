@@ -50,7 +50,7 @@ What excited me about AI is actually pretty simple - the adoption of it. How qui
 
 **Daniel Whitenack:** Stop, yeah.
 
-**David Ojika:** This is the point I was alluding to... A few years ago, researchers were working so hard to develop models that would meet 97% and 98%. But what's next after that? \[unintelligible 00:07:03.17\] productionize machine learning models, and it's very exciting to see startups that are coming up almost every day with a workflow to let you take machine learning models and put them into production in a more scalable fashion. I really think that's the next phase of ML and AI - it's how do you put it into production at the edge, or some IoT device.
+**David Ojika:** This is the point I was alluding to... A few years ago, researchers were working so hard to develop models that would meet 97% and 98%. But what's next after that? We're trying to productionize machine learning models, and it's very exciting to see startups that are coming up almost every day with a workflow to let you take machine learning models and put them into production in a more scalable fashion. I really think that's the next phase of ML and AI - it's how do you put it into production at the edge, or some IoT device.
 
 **Daniel Whitenack:** To follow up on that - what's different about production or utilizing a model after you've trained it to get a particular valuation metric that you might be after?
 
@@ -108,7 +108,7 @@ I would caution those "Don't not innovate, and don't not jump into it..." Absolu
 
 **Daniel Whitenack:** I definitely don't, so I think the math is important, like you guys have said, and people will get into it, but you don't have to feel like if you don't have a math Ph.D. then you can't get into AI and start innovating.
 
-**David Ojika:** One quick point I wanna make - a question you also have to ask yourself as a developer is where in the software stack do you see yourself? The machine learning software stack is pretty complex and deep. You can look at the analogy of, say, an assembly language developer or a Java developer - where in that stack do you wanna be? Do you wanna be writing drivers? Do you wanna assemble language programming? Because very soon, AI is really gonna be a box, essentially, just \[unintelligible 00:19:02.02\] APIs. So do you wanna be writing applications for this box, or do you wanna actually build the box? That's one question the developer has to answer himself.
+**David Ojika:** One quick point I wanna make - a question you also have to ask yourself as a developer is where in the software stack do you see yourself? The machine learning software stack is pretty complex and deep. You can look at the analogy of, say, an assembly language developer or a Java developer - where in that stack do you wanna be? Do you wanna be writing drivers? Do you wanna assemble language programming? Because very soon, AI is really gonna be a box, essentially, just gonna be APIs. So do you wanna be writing applications for this box, or do you wanna actually build the box? That's one question the developer has to answer himself.
 
 **Daniel Whitenack:** Great point.
 
@@ -118,7 +118,7 @@ I would caution those "Don't not innovate, and don't not jump into it..." Absolu
 
 **Peter Ma:** \[19:44\] Very dumb. \[laughter\] AI right now - because everything is called AI now, because of the buzz, as I explained earlier... But right now it mostly consists of inferencing. That's what I consider -- deep learning; that's what spawned the entire industry. It becomes a sensor, rather than intelligence itself. Because a computer doesn't know what a cat is before 2012. And the whole point that right now the computer said "This is a cat, and this is a dog", that's what the intelligence -- and this is all it can do.
 
-But with all the other programming of human intelligence that we have combined with the so-called deep learning and artificial intelligence - this is \[unintelligible 00:20:18.12\] that real intelligence is... And that can go into a dangerous field. If you think about not just how it can benefit a human being, but what technology can do, it gets into very, very dark sides of humans, as well as dark sides of a machine itself.
+But with all the other programming of human intelligence that we have combined with the so-called deep learning and artificial intelligence - this is worth creating what real intelligence is... And that can go into a dangerous field. If you think about not just how it can benefit a human being, but what technology can do, it gets into very, very dark sides of humans, as well as dark sides of a machine itself.
 
 For example, you can easily target people using dropping bombs. That's just something -- so as we developed AI, I think this is a thing we have to consider; right now, everything is dictated by human intelligence, so we have to decide whether we want to build something that can just drop bombs because it sees humans. Because at the end of the day, if you train that model just detecting humans, you have to have something to say "You cannot use this to drop bombs."
 
@@ -160,7 +160,7 @@ That's how the eyes work, actually; there's multiple layers of filtration that h
 
 **David Ojika:** I think Wes was gonna say something about it...?
 
-**Wes Jensen:** You know what - I was actually gonna say, these questions are so presumptuous. Again, they're human questions about a non-human platform, and they're presumptuous. Peter - you mentioned about how neurons \[unintelligible 00:30:15.17\] perceptrons, and how those impact the whole model, right? And now we're only focusing on maybe two elements of our brains - storage, and potentially some reasoning. Yes, and decision-making, but the fact is maybe AI will evolve even past that, to where it will define that maybe our brain isn't connected the way it's most optimal in a compute environment.
+**Wes Jensen:** You know what - I was actually gonna say, these questions are so presumptuous. Again, they're human questions about a non-human platform, and they're presumptuous. Peter - you mentioned about how neurons or all these perceptrons, and how those impact the whole model, right? And now we're only focusing on maybe two elements of our brains - storage, and potentially some reasoning. Yes, and decision-making, but the fact is maybe AI will evolve even past that, to where it will define that maybe our brain isn't connected the way it's most optimal in a compute environment.
 
 So the questions are presumptuous... And when we answer some of these questions, we have to answer based on unknowns. The easiest analogy I like to use is when you say "Oh, that planet can't support life." Who are you to define what life is, and what another life form requires to exist? How would you even perceive to know that? So some of these questions - they have to be open-ended, and you have to keep your mind open to what is a much larger picture than what we can even think can exist.
 
@@ -208,7 +208,7 @@ I basically chose the easiest route that I was able to train my model. This is t
 
 **Daniel Whitenack:** Awesome. Are any of those wrappers and that tooling - is that available to the public?
 
-**David Ojika:** Typically, no. Because these are very low-level driver API stuff. \[unintelligible 00:38:42.15\] Right, exactly. I don't even think the users would be interested in knowing what goes in at that level, so Python is the way to go, I would say.
+**David Ojika:** Typically, no. Because these are very low-level driver API stuff. I don't even think the users would be interested in knowing what goes in at that level, so Python is the way to go, I would say.
 
 **Daniel Whitenack:** Awesome, yeah. And is any of that stuff that you've done public, where people could take a look?
 

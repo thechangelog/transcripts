@@ -16,7 +16,7 @@
 
 **Daniel Whitenack:** So a liquid handling robot - a robot that handles hazardous chemicals? Is that the idea?
 
-**Chris Benson:** Well, it didn't handle hazardous chemicals. It essentially was a \[unintelligible 00:03:40.08\] and could execute protocol on larger scale. It could replicate a single experiment more efficiently.
+**Chris Benson:** Well, it didn't handle hazardous chemicals. It essentially was a micropipette and could execute protocol on larger scale. It could replicate a single experiment more efficiently.
 
 **Daniel Whitenack:** Yeah, so it was more like an automation thing, versus -- first when you were talking about that I had those OpenAI robot hands in mind, carrying test tubes around, or something.
 

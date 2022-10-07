@@ -26,7 +26,7 @@ Since SageMaker are now at Google, I've been really focused on how it is that we
 
 **Daniel Whitenack:** So then is your background more on the -- did you do software engineering before that, or is your background more in science, in terms of how you got into working on Supply Chain stuff on Amazon and all that?
 
-**Craig Wiley:** \[04:02\] Yeah, so I was a philosophy major who believes deeply that the world can be \[unintelligible 00:04:07.10\]. If you had all the information, then I think you could predict anything... So you kind of follow that sense, and as I joined Amazon, I've found myself at a data-driven company increasingly trying to answer the questions deeply with that... And the next thing I knew, I was leading the team of machine learning engineers trying to do this at a scale that I had never imagined.
+**Craig Wiley:** \[04:02\] Yeah, so I was a philosophy major who believes deeply that the world can be regressed. If you had all the information, then I think you could predict anything... So you kind of follow that sense, and as I joined Amazon, I've found myself at a data-driven company increasingly trying to answer the questions deeply with that... And the next thing I knew, I was leading the team of machine learning engineers trying to do this at a scale that I had never imagined.
 
 **Daniel Whitenack:** So does your philosophy major - do you feel like that gives you a unique perspective on AI-related things, or do you feel like you're pretty much in the weeds of the technical stuff and you're not thinking about philosophy too much?
 

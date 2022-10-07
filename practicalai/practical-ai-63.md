@@ -44,7 +44,7 @@
 
 **Daniel Whitenack:** Not "Common" at all, to give a pun...
 
-**Michael Malyuk:** Oh, yeah... The only one who I can actually remember is a person called \[unintelligible 00:06:23.25\] who has won a number of AI competitions. I think those were organized by Google. He wrote all his programs in Common Lisp. He was very interested to study and to explore how he would approach things.
+**Michael Malyuk:** Oh, yeah... The only one who I can actually remember is a person called Gabor Melis who has won a number of AI competitions. I think those were organized by Google. He wrote all his programs in Common Lisp. He was very interested to study and to explore how he would approach things.
 
 **Daniel Whitenack:** Yeah, that's cool. So you started out there... How did you end up coming to the point where you started thinking about founding your own thing that would impact the AI community?
 
@@ -104,7 +104,7 @@ I also like to think about it in way that sometimes when you get the datasets or
 
 **Michael Malyuk:** \[12:06\] Sure. I would say the most common ones are images, of course. So when you are placing a bounding box on the image when you are doing semantic segmentation on the image, you can also think about even classifying images as a data labeling problem. So you're basically assigning a class to the entire image; what you see on the image. Is it for example an image of a fruit, or an image of a person?
 
-Then text... So you can be classifying text, for example, for sentiment. You can be doing named entity recognition. Audio - you can be doing speaker separation, you can be classifying audio for number of classes, so doing the multi-class classification... Those are the most common ones. Then you have, of course, time series. Now you also have 3D spaces, with all \[unintelligible 00:13:04.03\] data is coming from autonomous vehicles... And videos.
+Then text... So you can be classifying text, for example, for sentiment. You can be doing named entity recognition. Audio - you can be doing speaker separation, you can be classifying audio for number of classes, so doing the multi-class classification... Those are the most common ones. Then you have, of course, time series. Now you also have 3D spaces, with all the LIDAR sensors and this data is coming from autonomous vehicles... And videos.
 
 I would say these six data types are the most common ones. Inside each data type you can have different types of labeling or annotations that you can apply to this particular data type. That usually depends on what you're looking to achieve in the end... And as you have said you can also mix those.
 

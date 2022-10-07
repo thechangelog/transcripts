@@ -42,7 +42,7 @@ I think you've probably mentioned a couple times on the podcast things related t
 
 **Daniel Whitenack:** So that's kind of a pie slice complication, too. Then you've got all of this other stuff that's happening in places like Hong Kong, especially Hong Kong, where there's been these pro-democracy protests going on forever. Of course, facial recognition and surveillance has been a topic in that as well. I've seen pictures of protesters taking down these surveillance poles or posts that have cameras on them... So there's a pro-democracy protest element going on there, tied in with China, but also an AI component as well.
 
-**Chris Benson:** \[12:04\] There is. Even yesterday I was reading an article that Apple \[unintelligible 00:12:08.13\] had removed an app that told protesters where police were, and the Hong Kong government - their position was "You're putting police lives in danger." I sense though that the reality is quite the opposite in terms of who is actually in danger.
+**Chris Benson:** \[12:04\] There is. Even yesterday I was reading an article that Apple and the App Store had removed an app that told protesters where police were, and the Hong Kong government - their position was "You're putting police lives in danger." I sense though that the reality is quite the opposite in terms of who is actually in danger.
 
 **Daniel Whitenack:** Yeah, there's really a lot of elements of this. There's even the NBA, the basketball association - which I'm not a sportsperson, but the NBA is huge in China, I do know that... So they're involved in this now, because of some of the things that a coach or a manager had said. The TV show South Park - they're kind of embroiled in this... So there's all of these different elements where the U.S. and China and AI and tech and trade are all sort of coalescing into this weirdness, I guess.
 
@@ -78,7 +78,7 @@ So that's kind of the sense that I get, that they're really leading in machine v
 
 **Chris Benson:** Gotcha. So while you were doing that, I googled and got a Bloomberg article called - and I'm probably gonna butcher the name, too - "China's Hikvision has probably filmed you", is what the article title is. It starts with a couple of bullets that say "Cameras are installed at army bases, airports and schools", and then a second bullet says "Trump administration concerned about Chinese spying tactics."
 
-As I scanned down through this article while you were talking, there was one paragraph that kind of jumped out. It says "Hikvision, which is controlled by the Chinese government and \[unintelligible 00:20:48.17\] are leaders in the market for surveillance technology, with cameras that can produce sharp, full-color images in fog and near-total darkness. They also use artificial intelligence to--"
+As I scanned down through this article while you were talking, there was one paragraph that kind of jumped out. It says "Hikvision, which is controlled by the Chinese government and Dahua are leaders in the market for surveillance technology, with cameras that can produce sharp, full-color images in fog and near-total darkness. They also use artificial intelligence to--"
 
 **Daniel Whitenack:** Oh, wow... I mean, that's pretty cool.
 

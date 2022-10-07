@@ -134,7 +134,7 @@ One more thing that is coming up is effectively you will have a command, which i
 
 **Pieter Cailliau:** I think that makes perfect sense to me. This is effectively what we want to do. And it can even be more beautiful. You mentioned, for example, you would fetch your knowledge graph as a tensor - if your knowledge graph is changing over time, you could effectively host that knowledge graph inside RedisGraph. Then it's there, it's living as a database, and you can effectively let it evolve over time.
 
-It might be, for example, that you wanna add scoring; you could say on given searches you wanna \[unintelligible 00:29:27.21\] certain notes or certain relevancies. Or you might wanna make custom queries you wanna use as an input for your graph, if you wanna make something very tailor-made. Then effectively Gears could also be including all of these things together... But your script could - not at this moment in time, but it's something we plan to do - consult RedisGraph and fetch that data for you.
+It might be, for example, that you wanna add scoring; you could say on given searches you may wanna bump for certain notes or certain relevancies. Or you might wanna make custom queries you wanna use as an input for your graph, if you wanna make something very tailor-made. Then effectively Gears could also be including all of these things together... But your script could - not at this moment in time, but it's something we plan to do - consult RedisGraph and fetch that data for you.
 
 **Daniel Whitenack:** Okay, so there could be routing logic that routes between all of these different scripts and the graphs, and the scripts could call the graphs, so the scripts could get data from the tensors, and all of that. Is that right?
 
