@@ -10,7 +10,7 @@ Maikel, I&#39;m very happy to welcome you here today on Ship It. Welcome!
 
 **Gerhard Lazu:** Wow...
 
-**Maikel:** I listened to other podcasts in that network, so I also came across this one. At the time I was really busy with Docker, and in 2013 there was a talk from Solomon Hykes in the Twitter meeting, [unintelligible 00:04:42.02] Docker. So that was my inspiration to go full-on web development.
+**Maikel:** I listened to other podcasts in that network, so I also came across this one. At the time I was really busy with Docker, and in 2013 there was a talk from Solomon Hykes in the Twitter meeting, where I learned about Docker. So that was my inspiration to go full-on web development.
 
 **Gerhard Lazu:** So the tweet from Solomon inspired you to go into web development full-time?
 
@@ -92,7 +92,7 @@ The next year I had an internship at a company where I introduced Docker, and th
 
 **Gerhard Lazu:** That&#39;s very interesting. I mean, if Argo manages itself, what happens if it&#39;s upgrading itself and it&#39;s still running? Will the run fail?
 
-**Maikel:** Well, in the end it can fail, if there&#39;s a missing chart value, for example. But we wanna set up the Prometheus monitoring tool to lock that, and then it notifies us that it&#39;s failed. But if you&#39;re operating Argo through the latest release, [unintelligible 00:13:00.10] on the UI so you see that it fails.
+**Maikel:** Well, in the end it can fail, if there&#39;s a missing chart value, for example. But we wanna set up the Prometheus monitoring tool to lock that, and then it notifies us that it&#39;s failed. But if you&#39;re operating Argo through the latest release, what you face on the UI...so...you see that it fails.
 
 **Gerhard Lazu:** But what I&#39;m wondering is if Argo is upgrading itself, Argo is running while it&#39;s upgrading, the upgrade gets applied, which means that the run will have to be stopped, because it just needs to basically restart with a new version. And when that happens, how does it continue the upgrade? Because the upgrade failed, because it was updated. Do you see what I mean?
 
@@ -206,7 +206,7 @@ And also, GitLab has a once-a-month release, with a lot of features every month 
 
 **Gerhard Lazu:** Okay. And where does Azure DevOps fit with GitLab? How do the two work? Because you have three - you have Azure DevOps, GitLab, and Argo CD. How do the three work together? Plus obviously Terraform, but that&#39;s for something else.
 
-**Maikel:** So it all starts with Azure DevOps in our setup, and that one is responsible for applying the TerraForm [unintelligible 00:26:29.06] in those repositories there are references to GitLab, where the other code is hosted.
+**Maikel:** So it all starts with Azure DevOps in our setup, and that one is responsible for applying the TerraForm infrastructure as code in those repositories there are references to GitLab, where the other code is hosted.
 
 **Gerhard Lazu:** Okay.
 
@@ -230,7 +230,7 @@ I know what you mean when you say that Argo CD is managing the deployment curren
 
 **Maikel:** The upside of using a GitOps push model with GitLab CI to deploy your application is that in your logs of GitLab CI you see what&#39;s eventually or what&#39;s potentially going wrong. You see a failed state.
 
-**Gerhard Lazu:** Right. So GitLab is showing you when a deployment fails, versus Argo CD showing you [unintelligible 00:29:24.14] failed.
+**Gerhard Lazu:** Right. So GitLab is showing you when a deployment fails, versus Argo CD showing you when a (basically) apply failed.
 
 **Maikel:** So if you use an automated task to release your application, it creates just a commit. But that&#39;s not showing you if the deployment fails. So that&#39;s a challenge we have to accommodate for.
 
@@ -296,7 +296,7 @@ I know what you mean when you say that Argo CD is managing the deployment curren
 
 **Gerhard Lazu:** So I know that via your message, because when we talked on Slack there were quite a few things we&#39;ve exchanged... You told me that your goal in life is to make things easier for people. Tell me a little bit more about that. We mentioned Kubernetes, we mentioned workshops, we mentioned self-hosted services... How does making things easier for people work out in practice, with all these tools and technologies? And the people, let&#39;s not forget them.
 
-**Maikel:** So in my study, I studied Informatica, which is computer science in America, and with a specialty in human-centered design. So human-centered design is about [unintelligible 00:38:37.00] and make it easy for the user. And I get the [unintelligible 00:38:44.01] infrastructure side of things, because I was very interested in that. So I applied some principles into the infrastructure side of things.
+**Maikel:** So in my study, I studied Informatica, which is computer science in America, and with a specialty in human-centered design. So human-centered design is about user experience design and make it easy for the user. And I got thrown into infrastructure side of things, because I was very interested in that. So I applied some principles into the infrastructure side of things.
 
 So I think that getting started must be fast, you have to just clone a repository and the readme should guide you as fast as possible to get started and to get to your goal. I would say it should be possible to contribute to a project on your first day of work.
 
@@ -308,7 +308,7 @@ For example, your Prettier formatter should be usable in all circumstances, but 
 
 **Maikel:** \[40:13\] We started with multiple repositories, but we&#39;re now migrating to a monorepo. So code sharing between the applications is easy.
 
-So the readme is the first step to read, and that implies fetching credentials [unintelligible 00:40:30.11] credentials.
+So the readme is the first step to read, and that implies fetching credentials - a way to get credentials.
 
 **Gerhard Lazu:** Where do they get credentials from? That&#39;s an interesting one... Because there&#39;s so many answers to that. Everyone does it differently.
 
@@ -352,7 +352,7 @@ So the readme is the first step to read, and that implies fetching credentials [
 
 **Gerhard Lazu:** \[44:11\] Yeah. And then as you know, you should always have a back-up. That&#39;s something that if you had to recreate things, they should be fairly easy to recreate. Again, I don&#39;t know how we would encrypt that, because we need to somehow encrypt it... That&#39;s something to think about, for sure. With a GPG, or...
 
-**Maikel:** Yeah. For now, we also use, of course, TLS certificates. [unintelligible 00:44:30.20] because the certificates are just with our own CI from the company. So the way it was fixed previously was they were using GitLab CI variables. Previously, they were using encrypted secrets in Git, and with [unintelligible 00:44:53.26] But I came across the Sealed Secrets operator from Bitnami. You heard about it...
+**Maikel:** Yeah. For now, we also use, of course, TLS certificates. And we are not using a [Let&#39;s Encrypt](https://letsencrypt.org/) system like [cert-manager](https://cert-manager.io/) because the certificates are just with our own CI from the company. So the way it was fixed previously was they were using GitLab CI variables. Previously, they were using encrypted secrets in Git, and with [SOPS](https://github.com/mozilla/sops), the Mozilla tool. But I came across the Sealed Secrets operator from Bitnami. You heard about it...
 
 **Gerhard Lazu:** Yes.
 
