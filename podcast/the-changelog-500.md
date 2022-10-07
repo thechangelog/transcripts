@@ -120,7 +120,7 @@ So what I think about it is because are you missing out then on some like level 
 
 **Jerod Santo:** Yeah, we have that across our own shows. We don't have different properties... Ours are, I guess, more tightly aligned in brand than yours are, even though you are kind of the brand that ties all three of those together.
 
-**Chris Coyier:** Yeah, you still get to say "\[unintelligible 00:13:45.06\] across multiple shows." I'm sure it doesn't hurt.
+**Chris Coyier:** Yeah, you still get to say vie across multiple shows." I'm sure it doesn't hurt.
 
 **Jerod Santo:** Well, I wanted to go way back, because I like discovered you as just a guy on the internet a long, long time ago.
 
@@ -304,7 +304,7 @@ Anyway, we got off the rails there, but yeah, CSS-Tricks had screencasts... I'm 
 
 **Break:** \[30:07\]
 
-**Jerod Santo:** So 15 years and then you sold it... Were there any moments along the way where you were considering either selling it, or stopping, or taking an extended hiatus? We were talking about \[unintelligible 00:32:16.04\] and he's been doing it for like 20+ years... And I was curious -- I would love to hear the motivation, but also...
+**Jerod Santo:** So 15 years and then you sold it... Were there any moments along the way where you were considering either selling it, or stopping, or taking an extended hiatus? We were talking about Jason Kottke just took an extended hiatus recently from kottke.org, and he's been doing it for like 20+ years... And I was curious -- I would love to hear the motivation, but also...
 
 **Chris Coyier:** I wonder how he did it. He never had ads, or nothing. How do you make that work?
 
@@ -896,7 +896,7 @@ There's certain things that the skeleton of the site just are -- they're choices
 
 **Adam Stacoviak:** It's not a trivial change, really. It's just more like hosting rights, is more what it's about, right?
 
-**Chris Coyier:** Yeah. I mean, then you can put "This site is hosted by DigitalOcean" \[unintelligible 01:32:36.17\]
+**Chris Coyier:** Yeah. I mean, then you can put "This site is hosted by DigitalOcean" and not even mean it. 
 
 **Adam Stacoviak:** "Not only is it owned by us, but we host it, too... Okay?! We can host WordPress here!"
 
