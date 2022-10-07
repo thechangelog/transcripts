@@ -150,7 +150,7 @@ I wanted to dig into one more piece - you mentioned Magic Leap and machine learn
 
 **Daniel Whitenack:** That's awesome. Have you seen the stuff coming out of -- I think it's project Magenta...
 
-**Himani Agrawal:** Yeah, that's a very cool project. I was particularly impressed with this project called \[unintelligible 00:24:48.15\] in which the random notes played by the user on their interface are turned into a beautiful melody. That was a very cool project that came out of Magenta.
+**Himani Agrawal:** Yeah, that's a very cool project. I was particularly impressed with this project called AI Duet in which the random notes played by the user on their interface are turned into a beautiful melody. That was a very cool project that came out of Magenta.
 
 **Daniel Whitenack:** Oh, that's amazing. Do you ever see yourself in the future devoting more of your time to music and AI?
 
@@ -162,7 +162,7 @@ I wanted to dig into one more piece - you mentioned Magic Leap and machine learn
 
 **Daniel Whitenack:** Sounds great. I had another question about your current work... You mentioned that you're an AI engineer, and I know that there's a lot of different labels that people are putting on those in industry doing AI and machine learning; sometimes they're called data scientists, or analysts, or machine learning engineers, or AI engineers... I was wondering, from your perspective, is there a difference in those things? Do you work with data scientists as well, or how does engineering fit into AI?
 
-**Himani Agrawal:** That's a great question. My formal position is that of data scientist, but I do apply machine learning, I do use deep learning, and I solve challenging problems in this area, which is the concept of AI. \[unintelligible 00:26:18.10\] machines can see, machines can hear, and the machines can be creative, so I apply all of that in my role... So that's how I see myself as an AI engineer.
+**Himani Agrawal:** That's a great question. My formal position is that of data scientist, but I do apply machine learning, I do use deep learning, and I solve challenging problems in this area, which is the concept of AI. AI is the concept that machines can see, machines can hear, and the machines can be creative, so I apply all of that in my role... So that's how I see myself as an AI engineer.
 
 I believe that although there are a lot of titles that have come up recently, they are one and the same in my opinion, because as my job in this whole realm I have to use all the tools and technologies in multiple domains. So even though different terms have come up, a data scientist or a machine learning engineer has to be well-equipped with multiple skills.
 

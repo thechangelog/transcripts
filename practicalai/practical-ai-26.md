@@ -52,7 +52,7 @@ I suspect you and me and a lot of other people in this field are gonna continue 
 
 **Daniel Whitenack:** Yes, the year of the GDPR. It's very exciting, depending on your perspective, I guess...
 
-**Chris Benson:** And for those who don't know, that's the European (in the EU) General Data Protection Regulation, which is the first large-scale regulation of data in AI technologies out there. It's certainly \[unintelligible 00:10:33.22\] It has people for and against not only it as a whole, but different aspects of it, but we're now in a world where regulation in AI is something to think about and consider, and maybe a reality. That definitely rocked a lot of people on their heels this year.
+**Chris Benson:** And for those who don't know, that's the European (in the EU) General Data Protection Regulation, which is the first large-scale regulation of data in AI technologies out there. It's certainly imperfect. It has people for and against not only it as a whole, but different aspects of it, but we're now in a world where regulation in AI is something to think about and consider, and maybe a reality. That definitely rocked a lot of people on their heels this year.
 
 **Daniel Whitenack:** Yeah. There's definitely implications for machine learning and AI practitioners based on the GDPR around explainability of your models and what that exactly means... Some of the finer points and the details of that we discussed in episode \#4 with some individuals from the company Immuta. I think that was really instructive, and I learned a lot of what I should expect, at least in the near future, as far as GDPR, from that conversation. It made me consider that it's a serious thing, but maybe it tempered a few of my fears, I guess.
 

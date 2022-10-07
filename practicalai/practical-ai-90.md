@@ -140,7 +140,7 @@ I'm stepping way beyond my bounds into computer science land, where I don't dese
 
 **Chris Benson:** Yeah. I'm looking at their inference and I know they're saying it's a 7X speed-up on inference. So it's substantial in that case.
 
-**Daniel Whitenack:** They say this card, this A100 accelerator - they bring up this idea of... What do they call it? I don't know if you say \[unintelligible 00:21:29.24\] I'm thinking of like the fighter jet... But the multi-instance GPU, which is a really intriguing idea.
+**Daniel Whitenack:** They say this card, this A100 accelerator - they bring up this idea of... What do they call it? I don't know if you say MIG - I'm thinking of like the fighter jet... But the multi-instance GPU, which is a really intriguing idea.
 
 **Chris Benson:** Do you work for us now, in that way?
 
@@ -278,7 +278,7 @@ But as industry really gets serious about pushing inference out to the edge, and
 
 So you've got the malicious actor side of thing, but you've also got the fact that "Oh, if I buy a cool thing to strap on my manufacturing machine", that has one of these GPUs in it, and it's doing something sophisticated - well, if they're giving me the model in this product that I'm buying, why don't I just unscrew the hatch and plug my computer in and just take the model off of it and now I don't have to pay them for that product anymore?
 
-So we've gotten to a point where the actual AI model is a piece of IP and is extremely valuable, so you wouldn't want your client or your competitor especially to just be able to buy one of your products, unscrew the thing and copy \[unintelligible 00:43:24.12\] from the machine over to their machine, and then they've rid themselves of their need for buying your product.
+So we've gotten to a point where the actual AI model is a piece of IP and is extremely valuable, so you wouldn't want your client or your competitor especially to just be able to buy one of your products, unscrew the thing and copy - cp mymodel.pb - from the machine over to their machine, and then they've rid themselves of their need for buying your product.
 
 **Chris Benson:** I was just gonna say, it's funny - I've noticed this a lot lately, when we talk about the fact that you're now seeing models being deployed to the edge, just in massively parallel, deeply-pervasive in whatever your business is... As you know, I have a daughter who's young; we just went through her birthday, and the toys that you can buy these days are now incorporating this stuff in.
 
