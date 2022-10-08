@@ -2420,9 +2420,19 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "russtaylor",
+      "name": "Russ Taylor",
+      "avatar_url": "https://avatars.githubusercontent.com/u/729694?v=4",
+      "profile": "https://russt.me",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
   "repoHost": "https://github.com",
-  "skipCi": true
+  "skipCi": true,
+  "commitConvention": "angular"
 }
