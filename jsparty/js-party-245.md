@@ -30,7 +30,7 @@
 
 **Amal Hussein:** Hi. Hi, welcome. We're so excited to have you both today. So Matteo - this is so funny; I have not talked to you since the last time you were on this show... And so today's show is going to be a mix of me catching up with what's been going on in Matteo's life, because a lot seems to have changed since he was last on the show... And we're also going to learn about his new project. And what's really great is Luca is someone who as well is in my wider friends circle. We have a lot of very close mutual friends, and Luca and I have had this friendship that was supposed to get started a few years ago, and it never happened... So now, this is hopefully the beginning of that friendship. So hopefully informal show, we're learning about their new projects, and before we get into Platformatic, Matteo, can you tell us a little bit about yourself? And the same thing for you Luca.
 
-**Matteo Collina:** \[00:04:10.20\] I don't know where to start... Let's remember what I said last time in the show... So the previous part - it's on the previous show. So you go and watch and listen to that one. No, I'm joking... I have been coding for more than 30 years. I have been doing Node since 2010-2011, putting Node in production since then. Part of the Node Collaborators group since 2015; after a few years got into the Node.js Technical Steering Committee... Kept working, maintaining Node.js.
+**Matteo Collina:** \[04:10\] I don't know where to start... Let's remember what I said last time in the show... So the previous part - it's on the previous show. So you go and watch and listen to that one. No, I'm joking... I have been coding for more than 30 years. I have been doing Node since 2010-2011, putting Node in production since then. Part of the Node Collaborators group since 2015; after a few years got into the Node.js Technical Steering Committee... Kept working, maintaining Node.js.
 
 Meanwhile I started on a new project called Fastify, which we talked about maybe in one of the shows at some point probably... Which is a web framework for Node that is getting some traction lately. So it's great, it works very well, it's super battle-tested for high-production usage of Node.js.
 
@@ -50,7 +50,7 @@ And then Luca, I had no idea that you went to NearForm. I missed that. That's so
 
 **Luca Maraschi:** Yeah, I also started very early coding... I still remember the first time... But I come from a family of entrepreneurs, and so I blended my passion for computers with the passion for building businesses and making impactful progress. I started when I was very young, at 12 years old, and I built along the way a few companies that I was able to sell... And I went through this cycle of learning something new and applying to business.
 
-\[00:07:57.06\] In 2014, something like that, I met Matteo. Or '15. I met Matteo in the backstage of Node Summit. And yeah, basically, in 2016, I was in front of a big decision to switch from moving to a large company or joining NearForm. And I still remember Cian in the castle, in Ireland, convincing me to join the NearForm. So it took just a few months and I joined NearForm, mostly because I was excited to work with people like Matteo. I had a very close friend, Dave, at the time, Peter... So I was very excited about all these people as well; it was a great opportunity.
+\[07:57\] In 2014, something like that, I met Matteo. Or '15. I met Matteo in the backstage of Node Summit. And yeah, basically, in 2016, I was in front of a big decision to switch from moving to a large company or joining NearForm. And I still remember Cian in the castle, in Ireland, convincing me to join the NearForm. So it took just a few months and I joined NearForm, mostly because I was excited to work with people like Matteo. I had a very close friend, Dave, at the time, Peter... So I was very excited about all these people as well; it was a great opportunity.
 
 So Matteo and I started traveling a little bit around the world for a couple of years, and in 2017 I moved to Canada. Well, not I moved to Canada, sorry. I visited Canada and then I decided to stay in Canada, where I moved in.
 
@@ -92,7 +92,7 @@ So Matteo and I started traveling a little bit around the world for a couple of 
 
 **Matteo Collina:** Right... And then, when I became a consultant, I helped teams deliver software and building backend systems, and I saw all the problems that they were facing. And this is what has prompted me to create Fastify, and create a lot of the libraries that a lot of people now are using to build those systems.
 
-\[00:11:50.02\] The next step for me was - I started thinking, "Well, how can I increase my impact? How can I help more people? How can I improve more?" and it seemed natural to build a company around this dream. It seemed the next step mainly because after being so much in consulting, I really wanted to build a product now, and use what I've learned to build something new. That was essentially the gist of why Platformatic, and why now. Why now is because of other things, but yeah. Go for it.
+\[11:50\] The next step for me was - I started thinking, "Well, how can I increase my impact? How can I help more people? How can I improve more?" and it seemed natural to build a company around this dream. It seemed the next step mainly because after being so much in consulting, I really wanted to build a product now, and use what I've learned to build something new. That was essentially the gist of why Platformatic, and why now. Why now is because of other things, but yeah. Go for it.
 
 **Amal Hussein:** Yeah. No, that makes sense. So I just want to share something really insightful here... Actually, one of our other mutual friends, Jory Burson, is the person who I heard this from. Her and I were having a conversation about this... So I worked at a place called Bocoup a long time ago, that's this famous web platform consultancy; other experts in JavaScript. But we were more everything above the API more so. We did a lot of stuff full-stack as well with Node, and Electron, but I would say that a lot of what Bocoup is famous for is deep expertise of the web platform. And so interesting echo to NearForm, just on the other side of the spectrum.
 
@@ -106,7 +106,7 @@ And so when we spoke on the ideal world, what we were looking on the market, we 
 
 For example, today we just released this first bit - how can we actually commoditize building APIs on top of databases? How many times I've been going through my \[unintelligible 00:15:56.25\] and my tool box to look "Which library should I use to connect to Postgres? And how can I actually structure that?" And so on and so forth.
 
-\[00:16:08.11\] And transforming all this repetitive task; not really mechanical task, because that would still imply a lot of work, but in something that would basically be an out-of-the-box experience for people. And so we imagined this ecosystem, the digital platform work to be a puzzle, to be -- as you can see there, I'm very passionate about Lego. And luckily, you don't see that side, but I am completely bought into the Lego mentality, right? We have all these pre-made \[unintelligible 00:16:34.21\] but you can -- fantasy is just the only limit that you have. And so the same thing is for Platformatic - we want to give the tools and the building blocks to build whatever people want to build, but having the constraints of four by two blocks, right? The most famous \[unintelligible 00:16:48.08\]
+\[16:08\] And transforming all this repetitive task; not really mechanical task, because that would still imply a lot of work, but in something that would basically be an out-of-the-box experience for people. And so we imagined this ecosystem, the digital platform work to be a puzzle, to be -- as you can see there, I'm very passionate about Lego. And luckily, you don't see that side, but I am completely bought into the Lego mentality, right? We have all these pre-made \[unintelligible 00:16:34.21\] but you can -- fantasy is just the only limit that you have. And so the same thing is for Platformatic - we want to give the tools and the building blocks to build whatever people want to build, but having the constraints of four by two blocks, right? The most famous \[unintelligible 00:16:48.08\]
 
 **Amal Hussein:** Yeah, I think that is so cool. I love this idea of you're not interested in just building the rails, because I definitely think you're absolutely right; that has been the focus for us for a long time. Everyone's focused on, "Let's build the rails, let's build the rails, and everybody builds their own train." But guess what - trains are 95% the same; you need an engine, you need a core, you need this, you need seats etc. So I love this idea of "Okay, what innovation can come out of people having more time to focus on the business logic and the interesting parts of their applications?" All this other stuff is busywork, and I couldn't agree with you more.
 
@@ -120,7 +120,7 @@ And so we actually felt that especially in the Node space, Matteo extensively - 
 
 **Luca Maraschi:** You know, so the best value of open source, so the best value that we are generating in the century, that is the community work, the collective work, into a space where we actually create an harmonized way to distribute those best practices into some sort of predefined starter kits, predefined libraries... And we give you actually the space - not to start a contention or a discussion around the same topics, but an evolution-based discussion, and say "How can you make it better?" In music you give the first note to set the tone, and the same we are giving with Platformatic. We want to set the stage and say "This is how we from our expertise and the community we see this particular problem being resolved and being commoditized in a set of tools."
 
-**Amal Hussein:** \[00:20:01.07\] Yeah, yeah.
+**Amal Hussein:** \[20:01\] Yeah, yeah.
 
 **Luca Maraschi:** Now if you want to contribute - it's all open. Please, help us make it better.
 
@@ -152,7 +152,7 @@ On top of that, it has a few more interesting things. It has a development envir
 
 **Amal Hussein:** Yes, yes, yes! I'm like, "Matteo, Matteo, let's save this for the second segment!" I want to dig into all this and more. This is so cool, though. Oh, my God, oh, my god. Alright, so I'm gonna just I need a minute to even just contain my excitement... But we will be right back, y'all.
 
-**Break:** \[00:23:48.27\]
+**Break:** \[23:48\]
 
 **Amal Hussein:** Okay, everyone... So I had a minute to kind of freak out offline. We're back, and this is amazing... So Matteo, I'm eager to hear about all of this, and I love this concept of like boilerplate is popular because boilerplate lets you take the custom code which is the hot path for most people, but then it lets you edit that code to customize it. And you're like,
 
@@ -170,7 +170,7 @@ So the idea is that you can completely customize how that server is running. As 
 
 **Matteo Collina:** It's completely seamless. You just load it up and it will just --
 
-**Amal Hussein:** How about if I add different packages from different NPM libs...
+**Amal Hussein:** How about if I add different packages from different npm libs...
 
 **Matteo Collina:** It's fine.
 
@@ -192,7 +192,7 @@ So the idea is that you can completely customize how that server is running. As 
 
 **Amal Hussein:** She's so humble... She's so incredibly humble. I've been trying to get her come on the show for a while.
 
-**Matteo Collina:** \[00:28:06.20\] Yeah. Well, insist. She's amazing.
+**Matteo Collina:** \[28:06\] Yeah. Well, insist. She's amazing.
 
 **Amal Hussein:** She's brilliant, yeah. I love you, Anna, if you're listening...
 
@@ -254,7 +254,7 @@ So Luca, I'm curious - before we get more into the specifics of the functionalit
 
 **Amal Hussein:** So you're building the business, basically, and he's focusing on the tech. It's a good partnership.
 
-**Luca Maraschi:** \[00:32:00.13\] Yeah. We both like to design the product and design the different features... Like I said, the product itself came out from the experience that we share together, and sharing architecture, and ideas around that. So the product is very organically designed. But that's how we split. I'm more focusing on getting the engine to always have oil in, and smoothly work and operate...
+**Luca Maraschi:** \[32:00\] Yeah. We both like to design the product and design the different features... Like I said, the product itself came out from the experience that we share together, and sharing architecture, and ideas around that. So the product is very organically designed. But that's how we split. I'm more focusing on getting the engine to always have oil in, and smoothly work and operate...
 
 **Amal Hussein:** Yeah, yeah. No, that's so cool. Okay, we'll have to talk about the business later. So back to the tech now... So Matteo, what else can this thing do? So we have crazy, awesome, hot module reloading, that's instantaneous, basically, which is incredible... It's leveraging under-the-hood black magic via V8...
 
@@ -294,7 +294,7 @@ So Luca, I'm curious - before we get more into the specifics of the functionalit
 
 In fact, internally, we use another project from another phenomenal developer that you should probably invite here... It's called AtDatabases, and it's from Forbes Lindesay.
 
-**Amal Hussein:** \[00:36:01.19\] AtDatabases, like \[unintelligible 00:36:02.05\] Is that like a Twitter handle, or what is that?
+**Amal Hussein:** \[36:01\] AtDatabases, like \[unintelligible 00:36:02.05\] Is that like a Twitter handle, or what is that?
 
 **Matteo Collina:** Yeah, I'm posting a couple of links now...
 
@@ -320,7 +320,7 @@ In fact, internally, we use another project from another phenomenal developer th
 
 **Amal Hussein:** Okay. Got it. The person.
 
-**Matteo Collina:** It's Forbes Lindesay. It's one of the most -- it's a very old Node.js author, NPM author out there. And it's a great project. It supports all the databases that I mentioned, and more.
+**Matteo Collina:** It's Forbes Lindesay. It's one of the most -- it's a very old Node.js author, npm author out there. And it's a great project. It supports all the databases that I mentioned, and more.
 
 **Amal Hussein:** Nice, yeah. atdatabases.org. We'll put the link in our show notes as well
 
@@ -358,7 +358,7 @@ In fact, internally, we use another project from another phenomenal developer th
 
 **Matteo Collina:** Oh, it's everywhere. Everybody messes this up.
 
-**Amal Hussein:** \[00:40:08.10\] It's like -- yeah... Geez. In the UI AND in the API. Both implementations are always messed up.
+**Amal Hussein:** \[40:08\] It's like -- yeah... Geez. In the UI AND in the API. Both implementations are always messed up.
 
 **Matteo Collina:** We are not talking about the UI.
 
@@ -414,9 +414,9 @@ In fact, internally, we use another project from another phenomenal developer th
 
 **Matteo Collina:** Giving away T-shirts... You see, we have T-shirts. That's the important part. We have T-shirts, we have stickers. You see, I have stickers. I have nice swag.
 
-**Amal Hussein:** Priorities are all correct for Platformatic DB, honestly. Yeah, who needs API features when you have cool stickers...? But anyway, so we're gonna get into all this stuff and more - the business, the open-sourcing strategy, roadmap of what's next... All that, in our last segment. We'll be right back, y'all...
+**Amal Hussein:** Priorities are all correct for Platformatic DB, honestly. Yeah, who needs API features when you have cool stickers...? But anyway, so we're gonna get into all this stuff and more - the business, the open sourcing strategy, roadmap of what's next... All that, in our last segment. We'll be right back, y'all...
 
-**Break:** \[00:43:49.05\]
+**Break:** \[43:49\]
 
 **Christopher Hiller:** Luca, so can you tell us more about Platformatic the business? What's coming next? How do you plan to actually make your money?
 
@@ -436,7 +436,7 @@ We try to reverse it, we try to let them run as fast as they can, then walk and 
 
 **Luca Maraschi:** Yeah.
 
-**Amal Hussein:** In summary, yeah. That's the Vercel strategy, right? Open-source the core...
+**Amal Hussein:** In summary, yeah. That's the Vercel strategy, right? Open source the core...
 
 **Luca Maraschi:** Correct.
 
@@ -448,7 +448,7 @@ We try to reverse it, we try to let them run as fast as they can, then walk and 
 
 **Luca Maraschi:** Yeah. Until you land into the enterprise proposition, which --
 
-**Amal Hussein:** \[00:48:15.02\] Oh, enterprise is hard to please though. Enterprise - they always want bespoke solutions. It doesn't matter.
+**Amal Hussein:** \[48:15\] Oh, enterprise is hard to please though. Enterprise - they always want bespoke solutions. It doesn't matter.
 
 **Luca Maraschi:** Correct.
 
@@ -496,7 +496,7 @@ We try to reverse it, we try to let them run as fast as they can, then walk and 
 
 **Luca Maraschi:** So one thing that we actually are going to accomplish with Platformatic, without revealing the secret ingredients - we actually want to try to abstract away the operational side of building APIs, and also the complexity of, for example, managing the team that builds APIs. So we actually are focusing mostly on how can we actually make sure that people focus only on that business logic. And the rest - it's out of the box. It is a given. Matteo and I always use this term, it's a given; it's there. Just use it. Don't question it too much. But make it still composable, right? Because it has to be composable for the different environments.
 
-**Christopher Hiller:** \[00:52:12.28\] So you're planning to build stuff out like, I don't know, load balancing, orchestration, and all that junk that people want?
+**Christopher Hiller:** \[52:12\] So you're planning to build stuff out like, I don't know, load balancing, orchestration, and all that junk that people want?
 
 **Luca Maraschi:** Yeah, kind of... I've been personally very vocal at the time about service mash, when it was just the beginning of exploding... And I always then started calling it a little bit of a lie to developers, because it's a great story for operators, but developers - they don't get any direct benefit out of that. So we actually want to bring that equation back to be favorable for developers. So we are actually trying to build -- our vision there is to build some sort of... Let's call it a runtime, that is some sort of like a kernel to these applications... And then start to replicate itself, in the different distributed applications, distributed teams... We actually imagine that the ultimate abstraction is something that will be able to run this business logic more than produce the business logic.
 
@@ -538,7 +538,7 @@ We try to reverse it, we try to let them run as fast as they can, then walk and 
 
 **Matteo Collina:** There is a big need for this kind of stuff. So we are happy to receive all the feedback and incorporate all the feedback into our product. But that's me. Luca will tell you that he's all-in for the clients.
 
-**Luca Maraschi:** \[00:55:59.14\] Just to add, right? For us it's very important that we are taking out of context the problem, and we go back to your point, Amal, that was before, right? We are looking at problems in a very abstracted and lateral way. We actually believe that the context in which this problem is going to be operated changes certain variables of that operation, but shouldn't change the solution, right? Authentication/authorization are exactly the same for a startup with two people running whatever application, to a hundred-thousand-people organizations. The problem is that -- and I go back to my best friend, Einstein... It's the observation point, right? Where you observe this problem from. That's what changes the equation of that solution. And for us, we actually want to try to change that total misconception and say, "Well, authentication and authorization are exactly the same. It's just that you need different types of scales and different \[unintelligible 00:56:59.02\] requirements. But the holistic problem is exactly the same."
+**Luca Maraschi:** \[55:59\] Just to add, right? For us it's very important that we are taking out of context the problem, and we go back to your point, Amal, that was before, right? We are looking at problems in a very abstracted and lateral way. We actually believe that the context in which this problem is going to be operated changes certain variables of that operation, but shouldn't change the solution, right? Authentication/authorization are exactly the same for a startup with two people running whatever application, to a hundred-thousand-people organizations. The problem is that -- and I go back to my best friend, Einstein... It's the observation point, right? Where you observe this problem from. That's what changes the equation of that solution. And for us, we actually want to try to change that total misconception and say, "Well, authentication and authorization are exactly the same. It's just that you need different types of scales and different \[unintelligible 00:56:59.02\] requirements. But the holistic problem is exactly the same."
 
 **Amal Hussein:** Yeah.
 
