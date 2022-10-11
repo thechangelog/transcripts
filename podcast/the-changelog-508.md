@@ -28,7 +28,7 @@
 
 **Adam Stacoviak:** So we tasked Lars -- Lars... With -- since I'm having to say his name correctly, since I'm American; we get lazy. We say Lars, instead of Lars... But ID3v2, what could have been; but before this task, you had not looked into the spec. Had you messed with audio at all, really? I mean, I know you've done some stuff behind the scenes with Sonic Pi, and stuff like that... But at this level, messing with a file, writing its metadata - had you like looked into ID3 at all, ever, before this task?
 
-**Lars Wikman:** \[00:05:48.06\] So I was familiar with the format, because growing up in the '90s and 2000s, it's like "Oh, this mp3 file doesn't show the right artist title." So I'd try to go into Properties in Winamp or whatever, and it's like this ID3... But I can set artist, and the title, and if I set those, they will be shown instead of whatever's in the file name. That was sort of where I started with ID3. And after a while, Winamp started to support more fields in two different tabs. That was ID3v2.
+**Lars Wikman:** \[05:48\] So I was familiar with the format, because growing up in the '90s and 2000s, it's like "Oh, this mp3 file doesn't show the right artist title." So I'd try to go into Properties in Winamp or whatever, and it's like this ID3... But I can set artist, and the title, and if I set those, they will be shown instead of whatever's in the file name. That was sort of where I started with ID3. And after a while, Winamp started to support more fields in two different tabs. That was ID3v2.
 
 **Jerod Santo:** Yeah, it got complicated.
 
@@ -62,7 +62,7 @@
 
 **Lars Wikman:** But it also takes away the possibility of having a correct music collection, because Spotify will not give you the correct thing. It's like, "Oh, this is a great playlist I used to play." And now that I play it, they have a weird live cover of this entire band, instead of the original songs, because they lost them. Oh, Spotify doesn't have this track anymore. They'll just substitute something...
 
-**Adam Stacoviak:** \[00:09:52.08\] A small tangent on that note... How interesting is it that we could be having a conversation here, we can remember a song from back in our heritage, our young years, or whatever, 20 years ago, and for the most part, we can probably pull up Spotify or some version of Spotify out there, iTunes Music etc. and we can probably play that song in a matter of seconds. Like, you would have to go out and own that music, which isn't like bad or good for the artists, but you'd have to have owned the thing, maybe have to go traverse and find the disc, put it into the disk player you don't own anymore, using old RCA cables, plug... Like, now it's all digital. It's HDMI, it's optical, digital etc. to plug these components in together... In a moment's notice, we can play Offspring from back in the day, right now.
+**Adam Stacoviak:** \[09:52\] A small tangent on that note... How interesting is it that we could be having a conversation here, we can remember a song from back in our heritage, our young years, or whatever, 20 years ago, and for the most part, we can probably pull up Spotify or some version of Spotify out there, iTunes Music etc. and we can probably play that song in a matter of seconds. Like, you would have to go out and own that music, which isn't like bad or good for the artists, but you'd have to have owned the thing, maybe have to go traverse and find the disc, put it into the disk player you don't own anymore, using old RCA cables, plug... Like, now it's all digital. It's HDMI, it's optical, digital etc. to plug these components in together... In a moment's notice, we can play Offspring from back in the day, right now.
 
 **Jerod Santo:** That's hilarious, because that's the exact band I thought of when you said that... I was like, "You could play an Offspring track" and you just went to the exact same place.
 
@@ -120,7 +120,7 @@
 
 **Lars Wikman:** I'm pretty sure that was done to avoid tripping the MPEG parsers. I recall having seen something about why it was there, but I don't recall -- yeah, okay, Wikipedia tells me... Some players would play a small burst of static when \[unintelligible 00:13:55.03\] So yeah, probably not have it at the start.
 
-**Jerod Santo:** \[00:14:02.09\] So the first second of your song is like \[static 00:14:02.23\] and you're like, "Whaat?!" and then it starts.
+**Jerod Santo:** \[14:02\] So the first second of your song is like \[static 00:14:02.23\] and you're like, "Whaat?!" and then it starts.
 
 **Adam Stacoviak:** It's not an ideal listening experience, that's for sure.
 
@@ -158,7 +158,7 @@ But part of this was like me saying, "Well, our specific needs are important her
 
 **Jerod Santo:** It does. And then your library overwrites theirs on the v2, but it'll let the v1 be a dangling 128 bytes...
 
-**Lars Wikman:** \[00:17:59.15\] Yeah. And the library can overwrite both the 2.2 and 2.4, because it's very easy to parse the parts that are required, to sort of capture the tag and strip it out. But there's a bit more nuance when you start parsing version 2.4, and then what's in -- since you didn't need it, it wasn't worth putting the time in. Welcome contribution though, since it's open source.
+**Lars Wikman:** \[17:59\] Yeah. And the library can overwrite both the 2.2 and 2.4, because it's very easy to parse the parts that are required, to sort of capture the tag and strip it out. But there's a bit more nuance when you start parsing version 2.4, and then what's in -- since you didn't need it, it wasn't worth putting the time in. Welcome contribution though, since it's open source.
 
 **Jerod Santo:** It is open source. You can go out and you can install it in your mix file, and it's out there on hex.pm, and it's also out there on GitHub for the source code... So I encourage people to use it.
 
@@ -204,7 +204,7 @@ And then I was like "You know, what we need is everything and the kitchen sink."
 
 **Jerod Santo:** Like a whole concert from the Grateful Dead... I don't know, just guessing.
 
-**Lars Wikman:** \[00:21:54.02\] Yeah. But the play counter frame is a very, very short frame. It has the identifier that is the play counter, and then it has a number. And the idea was that the player you use to play your file would increment that with one, when you've started playing the song... Changing the file forever.
+**Lars Wikman:** \[21:54\] Yeah. But the play counter frame is a very, very short frame. It has the identifier that is the play counter, and then it has a number. And the idea was that the player you use to play your file would increment that with one, when you've started playing the song... Changing the file forever.
 
 **Jerod Santo:** Changing the file forever. Yeah, so this is like when you almost feel violated; like, "This thing changed me." Shouldn't a audio player be like read-only on a file? I just feel like that's just classy; talk about keeping it classy... It's just weird; like, you're gonna change the actual thing that you're --
 
@@ -252,7 +252,7 @@ And then I was like "You know, what we need is everything and the kitchen sink."
 
 **Jerod Santo:** Right. My favorite part about this whole thing is it relies upon this concept, I guess -- like, if this was going to finally make its way back around to the record label, or the artist, it assumes that it had some sort of mechanism by which they could collect all of these mp3 files, right?
 
-**Lars Wikman:** \[00:26:14.13\] So I don't think this is signal back. I don't think this is feedback. I can only imagine it being a sort of trading thing, where files are passed around.
+**Lars Wikman:** \[26:14\] So I don't think this is signal back. I don't think this is feedback. I can only imagine it being a sort of trading thing, where files are passed around.
 
 **Jerod Santo:** Yeah, but you can just write whatever you want into the -- you can just download Lars' open source Elixir library and just change the values.
 
@@ -290,7 +290,7 @@ And then I was like "You know, what we need is everything and the kitchen sink."
 
 **Lars Wikman:** Yeah, so it's not new. So it is really predating a lot of our conceptions of what an audio file should act like, I think.
 
-**Break:** \[00:28:56.09\]
+**Break:** \[28:56\]
 
 **Adam Stacoviak:** So the correlation to a well-known exchange of mp3 platform was June 1st, 1999. So timeframes were pretty close; maybe they were both speculating on where this file format could go/would go. I don't know.
 
@@ -354,7 +354,7 @@ For example, the commercial frame -- and this should be interesting to you. Mone
 
 **Jerod Santo:** Right. All you want to do is get to the part that you're interested in, right? That's a parser.
 
-**Lars Wikman:** \[00:34:10.10\] Yeah. And you read the fixed -- so when you're parsing these frames, you look for a frame header. And in that frame header, you have "Oh, what kind of frame is this? How big is this frame?" So if it's a frame you don't understand, you can just skip that number of bytes from the frame header, and then you're at the next frame, you can read that instead.
+**Lars Wikman:** \[34:10\] Yeah. And you read the fixed -- so when you're parsing these frames, you look for a frame header. And in that frame header, you have "Oh, what kind of frame is this? How big is this frame?" So if it's a frame you don't understand, you can just skip that number of bytes from the frame header, and then you're at the next frame, you can read that instead.
 
 **Jerod Santo:** Gotcha. You can get to the next one.
 
@@ -390,7 +390,7 @@ For example, the commercial frame -- and this should be interesting to you. Mone
 
 **Jerod Santo:** Ogg Vorbis... Many of our listeners probably exclusively listen to Ogg Vorbis-based podcasts. I guess -- that can't be true, because they're listening to this one here. So that's a bad speculation. But point being is we've kind of -- at least when it comes to audio, to a certain extent, culturally, we've kind of transcended the file paradigm.
 
-**Adam Stacoviak:** \[00:37:54.22\] Isn't that the case for most things though, really? I mean, you take pictures all day long on your phone, and you don't think of them as files necessarily. You think of them as an image. You upload it to whatever platform you prefer, or share it via iMessage, or AirDrop, or whatever... You don't think of it as a file, really. I think the file paradigm really is like becoming erased.
+**Adam Stacoviak:** \[37:54\] Isn't that the case for most things though, really? I mean, you take pictures all day long on your phone, and you don't think of them as files necessarily. You think of them as an image. You upload it to whatever platform you prefer, or share it via iMessage, or AirDrop, or whatever... You don't think of it as a file, really. I think the file paradigm really is like becoming erased.
 
 **Lars Wikman:** I think files exist for PDFs.
 
@@ -426,7 +426,7 @@ For example, the commercial frame -- and this should be interesting to you. Mone
 
 **Jerod Santo:** We could make you the owner of that particular mp3.
 
-**Lars Wikman:** \[00:42:04.01\] Yeah. You could even ship a user frame, which is the Terms of Use...
+**Lars Wikman:** \[42:04\] Yeah. You could even ship a user frame, which is the Terms of Use...
 
 **Jerod Santo:** Hah! A EULA. Do you have to sign it before it'll play? "Before you listen to this podcast, please click you agree to these terms in the..." There's a terms frame... Okay. Owner frame is kind of cool. Like, what if we do that, just because?
 
@@ -482,7 +482,7 @@ For example, the commercial frame -- and this should be interesting to you. Mone
 
 **Lars Wikman:** ...it could be backed by mp3 files that are only on the server. And this mp3 would be the database for ratings, for play counts... So you get this single source of truth. And it would, of course, be able to show the commercial options, so you can monetize this player.
 
-**Jerod Santo:** \[00:45:57.09\] Okay...
+**Jerod Santo:** \[45:57\] Okay...
 
 **Lars Wikman:** And you could even add -- so there are audio events. So there are ways to embed cues in the metadata like this; for example, "Fire the fireworks here" effects... I think that might be used in certain types of staged productions. I'm not sure. The capability is there, at least.
 
@@ -538,7 +538,7 @@ For example, the commercial frame -- and this should be interesting to you. Mone
 
 **Adam Stacoviak:** So is this a combination of just failed dreams on the ID3 spec writers? Like, they had a lot of vision for where it could go, and they were just way off? The usefulness of these features is just not there?
 
-**Lars Wikman:** \[00:50:07.02\] Many of the frames are perfectly useful. So the absolute majority of frames are text frames, which is just a general -- like, this can be a string, and from ID3 version 2.4 it can be multiple strings. So if for some reason you suddenly support multiple titles, which is either great or terrible... Any number of titles.
+**Lars Wikman:** \[50:07\] Many of the frames are perfectly useful. So the absolute majority of frames are text frames, which is just a general -- like, this can be a string, and from ID3 version 2.4 it can be multiple strings. So if for some reason you suddenly support multiple titles, which is either great or terrible... Any number of titles.
 
 **Adam Stacoviak:** "We really couldn't choose the right title, so we just gave it two." I can see us doing that one time, Jerod... Or you could A/B test it, which one gets played more.
 
@@ -572,7 +572,7 @@ For example, the commercial frame -- and this should be interesting to you. Mone
 
 **Jerod Santo:** Those are the easiest ones to find, right? The one stray null byte. At least it's easy to see... How would you go about finding one straight null byte? What were you actually -- were you going frame by frame? Were you reading -- was it like The Matrix, where everything merges into one to you now?
 
-**Lars Wikman:** \[00:54:01.16\] Yeah, so I just look at the hex and just feel it. No...
+**Lars Wikman:** \[54:01\] Yeah, so I just look at the hex and just feel it. No...
 
 **Jerod Santo:** Yeah, just kind of feel where the -- like in Severance, you can just feel where the bad ones are.
 
@@ -590,7 +590,7 @@ There's a lot of drilling down and just figuring out "Oh, this is the problem fr
 
 **Jerod Santo:** Or if you do build that cross-platform Tauri-based mp3 player app, that'd be a great reference, because you're gonna implement all these features. Maybe if it has like a command line, we can shell out to it. And also have a command line, please.
 
-**Break:** \[00:57:17.09\]
+**Break:** \[57:17\]
 
 **Adam Stacoviak:** How does any of this change, as we look at like podcasting 2.0 initiatives - does any of this current or future stuff play into that?
 
