@@ -22,7 +22,7 @@
 
 **Jerod Santo:** It ended up being three trilogies. But I'm not sure what you'd call that either... Ninetology, that's what I'd call it. It's kind of like Scientology, only different.
 
-**Adam Stacoviak:** Let's \[unintelligible 00:04:41.12\] But hey, ID3 is this, I guess, interesting and non-interesting thing that has very unique takes... You wrote a blog post titled "What ID3v2 could have been." Very good deep dive. We tasked you with running this library, so that we can finally have chapters, which - Jerod, you've got a blog post pending. I don't know if it's gonna go out before or with this episode; we don't know. But check the show notes there, there might be a link there. Worst-case, follow --
+**Adam Stacoviak:** Let's not all do that. But hey, ID3 is this, I guess, interesting and non-interesting thing that has very unique takes... You wrote a blog post titled "What ID3v2 could have been." Very good deep dive. We tasked you with running this library, so that we can finally have chapters, which - Jerod, you've got a blog post pending. I don't know if it's gonna go out before or with this episode; we don't know. But check the show notes there, there might be a link there. Worst-case, follow --
 
 **Jerod Santo:** It should be out by the time this goes out, unless something goes terribly wrong.
 
@@ -34,13 +34,13 @@
 
 **Lars Wikman:** And that was probably the extent of my use of it. I didn't really spend any time with the binaries of it up until this point, really.
 
-**Adam Stacoviak:** I had a similar path too, with Winamp, and then also iTunes. I've done a lot of futzing with -- back in the day, when we used to have iTunes, and actually have mp3, or potentially actual wav files that you've... I would rip my own CDs \[unintelligible 00:06:53.27\] so I can listen to them anywhere. This is when you had your own CDs, basically, that you would swap out like -- I don't even know what I'd call myself then, but like this manual process. Who wants to do that, right? To have this digital file and take it anywhere with you.
+**Adam Stacoviak:** I had a similar path too, with Winamp, and then also iTunes. I've done a lot of futzing with -- back in the day, when we used to have iTunes, and actually have mp3, or potentially actual wav files that you've... I would rip my own CDs to digital so I can listen to them anywhere. This is when you had your own CDs, basically, that you would swap out like -- I don't even know what I'd call myself then, but like this manual process. Who wants to do that, right? To have this digital file and take it anywhere with you.
 
 **Jerod Santo:** To be clear, ripping our own CDs that we purchased legally is the only way that any of us ever acquired any sort of audio files back in the 90s.
 
 **Adam Stacoviak:** Truth. Truth.
 
-**Lars Wikman:** Yes, because there was not a widely spread practice of carrying computers to other people's houses and downloading \[unintelligible 00:07:23.17\] that for some reason had disproportionate amounts of Enya in it.
+**Lars Wikman:** Yes, because there was not a widely spread practice of carrying computers to other people's houses and downloading a sort of wandering MP3 collection, that for some reason had disproportionate amounts of Enya in it.
 
 **Jerod Santo:** \[laughs\] Everybody loves Enya. You've gotta love Enya. Here's what was interesting about that for me... I had the exact same introduction to ID3 tags, through wanting a more pristine music library, but having gathered said library from the four winds...
 
@@ -82,7 +82,7 @@
 
 **Adam Stacoviak:** Exactly. And you'd have like a little bit of the previous song, the DJ, some sort of bit, and then the song. Wow...
 
-**Jerod Santo:** \[unintelligible 00:11:35.04\] looping back to Star Wars - it was the same thing. When I was a kid, to see Star Wars we had to wait for it to come on. Or we had to have a friend who had like a -- not even a DVD. They had a...
+**Jerod Santo:** Same -- Now looping back to Star Wars - it was the same thing. When I was a kid, to see Star Wars we had to wait for it to come on. Or we had to have a friend who had like a -- not even a DVD. They had a...
 
 **Adam Stacoviak:** Laser disc?
 
@@ -118,7 +118,7 @@
 
 **Jerod Santo:** Total sadness. So there's obvious limitations. That being said, pretty cool how simple it is. Lars, maybe you remember, or you know why it's at the end of the file, though. It's like 128 bytes at the end of the mp3 file.
 
-**Lars Wikman:** I'm pretty sure that was done to avoid tripping the MPEG parsers. I recall having seen something about why it was there, but I don't recall -- yeah, okay, Wikipedia tells me... Some players would play a small burst of static when \[unintelligible 00:13:55.03\] So yeah, probably not have it at the start.
+**Lars Wikman:** I'm pretty sure that was done to avoid tripping the MPEG parsers. I recall having seen something about why it was there, but I don't recall -- yeah, okay, [Wikipedia tells me](https://en.wikipedia.org/wiki/ID3#ID3v1)... "Some players would play a small burst of static when they read the tag". So yeah, probably not have it at the start.
 
 **Jerod Santo:** \[14:02\] So the first second of your song is like \[static 00:14:02.23\] and you're like, "Whaat?!" and then it starts.
 
@@ -174,7 +174,7 @@ But part of this was like me saying, "Well, our specific needs are important her
 
 **Jerod Santo:** True.
 
-**Lars Wikman:** ID3v1 only had that, and some genre, and a comment of 30 bytes, I guess... But ID3v2 added so much more. And a bunch of the things are just very reasonable things like "Oh, the year it was released and published, and who the publisher was, and who the composer, and the writer, and the lyrics \[unintelligible 00:19:51.28\] sort of things... So just more metadata that you could add, that were simple text fields. But then you start getting things like artwork; you can bring some artwork in there. Pictures, URLs... But as you go into implementing this stuff, you find the fun and weird tags. And that's sort of what prompted this blog post. Because it's absolutely fabulous stuff in there.
+**Lars Wikman:** ID3v1 only had that, and some genre, and a comment of 30 bytes, I guess... But ID3v2 added so much more. And a bunch of the things are just very reasonable things like "Oh, the year it was released and published, and who the publisher was, and who the composer, and the writer, and the lyrics by... sort of things... So just more metadata that you could add, that were simple text fields. But then you start getting things like artwork; you can bring some artwork in there. Pictures, URLs... But as you go into implementing this stuff, you find the fun and weird tags. And that's sort of what prompted this blog post. Because it's absolutely fabulous stuff in there.
 
 **Jerod Santo:** Yeah, there is fabulously interesting stuff in there. And I wish we were like a fly on the wall of the meetings of the spec writers... Because it seems like to me, as I read your posts, I'm like, "This seems like almost like maybe ID3v1 was just written maybe in a weekend, by some enthusiasts, and then like serious business people came along." And I'm just completely making this up. I don't know the history.
 
@@ -222,7 +222,7 @@ And then I was like "You know, what we need is everything and the kitchen sink."
 
 **Lars Wikman:** Yeah.
 
-**Jerod Santo:** It \[unintelligible 00:24:19.24\] once and bounced. Accidentally had it on repeat.
+**Jerod Santo:** They listened to it once and bounced. Accidentally had it on repeat.
 
 **Lars Wikman:** It definitely feels like sort of like a silly frame. But then we have one that is actually used when reading songs. I think Windows File Explorer preview can actually show the popularitymeter stars.
 
@@ -454,7 +454,7 @@ For example, the commercial frame -- and this should be interesting to you. Mone
 
 **Adam Stacoviak:** Yeah.
 
-**Lars Wikman:** I think you could probably \[unintelligible 00:44:11.13\] probably want to use both... But yeah, I'm not sure anyone uses these.
+**Lars Wikman:** I think you could probably use synchronized then. You probably want to use both... But yeah, I'm not sure anyone uses these.
 
 **Adam Stacoviak:** But there is room then in there for a transcription?
 
@@ -462,9 +462,9 @@ For example, the commercial frame -- and this should be interesting to you. Mone
 
 **Jerod Santo:** Oh, yeah. \[laughs\] That's just text. There's plenty of room.
 
-**Lars Wikman:** Yeah. I think there's an extension spec that covers more accessibility features, and I think that one has specifically captions. So maybe that's what you'd want to go for. Chapters is an extension chapters. Chapters and table of contents - those belong together. And those are an extension of the ID3v2 \[unintelligible 00:44:46.22\]
+**Lars Wikman:** Yeah. I think there's an extension spec that covers more accessibility features, and I think that one has specifically captions. So maybe that's what you'd want to go for. Chapters is an extension chapters. Chapters and table of contents - those belong together. And those are an extension of the ID3v2 series of specs.
 
-**Adam Stacoviak:** But all this assumes there's a client, or a parser or library, something out there that can consume it. Like, it's one thing to put it in there, but it's another thing to make it useful by having software that can render it, use it... You know, make \[unintelligible 00:45:00.17\]
+**Adam Stacoviak:** But all this assumes there's a client, or a parser or library, something out there that can consume it. Like, it's one thing to put it in there, but it's another thing to make it useful by having software that can render it, use it... You know, make smarts around it.
 
 **Lars Wikman:** Yeah. Almost all these frames are dead in the water.
 
@@ -608,9 +608,9 @@ So having this in our -- I personally have enjoyed it tremendously. And the one 
 
 **Jerod Santo:** Mm-hm.
 
-**Adam Stacoviak:** In at least Overcast, I like the visual of knowing how long a chapter is. I don't know, is that a byproduct of the \[unintelligible 01:01:44.11\] or is it just assuming that based on the start of every chapter? What do you know about that?
+**Adam Stacoviak:** In at least Overcast, I like the visual of knowing how long a chapter is. I don't know, is that a byproduct of the start and end or is it just assuming that based on the start of every chapter? What do you know about that?
 
-**Jerod Santo:** \[01:01:54.01\] I haven't actually tested it. I assume it's there every time. So start times to chapters are required, end times are not required... Which makes sense. We include both. And I would assume, if I was writing that app, I would say, "Okay, if I have the metadata that shows me the start and the end time, I'm going to use that for my calculations. But if I don't, I'm going to use the start time, and I'm going to use the start time for the next chapter, and use that for my calculation." So I would use the \[unintelligible 01:02:21.17\] and fall back.
+**Jerod Santo:** \[01:01:54.01\] I haven't actually tested it. I assume it's there every time. So start times to chapters are required, end times are not required... Which makes sense. We include both. And I would assume, if I was writing that app, I would say, "Okay, if I have the metadata that shows me the start and the end time, I'm going to use that for my calculations. But if I don't, I'm going to use the start time, and I'm going to use the start time for the next chapter, and use that for my calculation." So I would use the end time if it was there and fall back.
 
 **Adam Stacoviak:** Yeah.
 
@@ -672,7 +672,7 @@ So if you want to deeplink to a chapter - like, you really liked this conversati
 
 **Jerod Santo:** Yeah, which was fine. That's my luxury, that's my prerogative as the customer, is to be less concerned with your time and more concerned with mine... Even though I don't want to be like that. But I think the only feedback I gave you code-wise was at one point I said, "I would like this to be a little bit higher-level API." That was pretty much all I ever said in terms of the end product. And then obviously, I tried to use it and it was like "Hey, how do I use this? It's not working." I'd say stuff like that. But I tried to provide as much information as I could, as like a good technical client.
 
-**Lars Wikman:** Yeah. I think once you were available, and actually trying to use the thing - which took a little bit, but I think we were both quite busy \[unintelligible 01:12:08.26\] not to get too much feedback too early, because I had a one-month-old kid then, and it was easier when he was two.
+**Lars Wikman:** Yeah. I think once you were available, and actually trying to use the thing - which took a little bit, but I think we were both quite busy so I was happy not to get too much feedback too early, because I had a one-month-old kid then, and it was easier when he was two.
 
 **Jerod Santo:** Yeah. So you got the bulk of the work done by mid-July, maybe early July, and I literally didn't touch it until the first or second week in August. I just was like "Cool, I'll take a look", and I just never took a look. And I was building out the backend, too. I really wanted to be able to have the data in there, so we can start capturing it... And we actually captured the chapter data for a month and a half or so before we had the feature, so that we could go back and just like retrofit... Which I've done now, Adam; that's all those old mp3... Old as in going back to June. They all have chapters in them.
 
