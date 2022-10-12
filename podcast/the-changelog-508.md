@@ -554,7 +554,7 @@ For example, the commercial frame -- and this should be interesting to you. Mone
 
 **Lars Wikman:** Well, there is a comment you can add, and then there's probably also one for the tool. I don't remember. But I bet there is.
 
-**Jerod Santo:** I think we're doing that one, if I recall... Let me pop open the code \[unintelligible 00:51:35.17\]
+**Jerod Santo:** I think we're doing that one, if I recall... Let me pop open the code to confirm
 
 **Lars Wikman:** Software, hardware and settings used for encoding would be one.
 
