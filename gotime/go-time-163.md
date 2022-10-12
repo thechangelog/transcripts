@@ -178,7 +178,7 @@ Now, you know it's about the same person, so one of them must be wrong, right? S
 
 **Mat Ryer:** That's a very good sign, isn't it, when you actually just use it because it's working for you. You're not using it for the sake of it.
 
-**Roger Peppe:** \[unintelligible 00:39:06.20\] just using it as like pseudo-code almost. I'm like "Oh, what is this thing? Oh, I'll just write it out as CUE, because it just feels totally natural." It doesn't feel like it gets in the way; it totally just enables.
+**Roger Peppe:** I often end up just using it as like pseudo-code almost. I'm like "Oh, what is this thing? Oh, I'll just write it out as CUE, because it just feels totally natural." It doesn't feel like it gets in the way; it totally just enables.
 
 **Mat Ryer:** That's great. We mentioned earlier that you can drop the quotes in the keys, or in the field names, or something... So what happens if you "cue fmt" that? What's cue fmt's opinion on quotes and things?
 
@@ -304,7 +304,7 @@ Maybe that's a tenuous connection; but I've spent too much time dealing with s\*
 
 **Mat Ryer:** I don't get it yet, but I'm going to learn CUE, and then I'm gonna come back and listen, and I'm gonna be loving that. Okay, well that is all the time we have for today, but thank you so much, gentlemen, for coming on and telling us about this. It's definitely got me excited about CUE; I can already think of a few different use cases where it really, I think, is perfect. So I'll be one of those contributors trying things out.
 
-All that leaves me now is to say "You boy, down there, listen - is that prized turkey still in the window? Right. Go and get it then, and I'll give you a tuppence." For these Victorian orphans, what are we gonna do with them, Roger? \[unintelligible 00:57:50.16\]
+All that leaves me now is to say "You boy, down there, listen - is that prized turkey still in the window? Right. Go and get it then, and I'll give you a tuppence." For these Victorian orphans, what are we gonna do with them, Roger? Pop 'em in the work house - is what you were saying earlier, innit?
 
 **Roger Peppe:** Basically...
 
