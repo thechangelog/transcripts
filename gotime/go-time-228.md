@@ -248,6 +248,6 @@ One guy asks me "The Docker doesn't work on my machine." I'm like, "What?!" So I
 
 **Johnny Boursiquot:** Right, exactly.
 
-**Valery Piashchynski:** Okay, you have a sqrt like n sqrt algorithm or n factorial algorithm. So you shouldn't do it. \[laughs\]
+**Valery Piashchynski:** Okay, you have a sqrt like N sqrt algorithm or N factorial algorithm. So you shouldn't do it. \[laughs\]
 
 **Johnny Boursiquot:** Awesome, awesome. Thank you guys so much for coming on the show and talking about really what piqued my curiosity when it showed up on my desk, my virtual desk... You know, PHP in Go, and how these two things complement each other. It's been awesome having you all... And I will now play our outro song... And we will try to wrap this up. Right on time, too!
