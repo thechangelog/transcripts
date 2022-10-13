@@ -24,7 +24,7 @@ First, I thought it'd be fun to talk about some personal news, like what have we
 
 **Kevin Ball:** I did a similar migration beginning of this year, last year, something like that... And we have not a Create React application, but we were using WebPack and all these things, and we migrated to Vite... And there was like a week that I was focused on it, and then there was trickle on work, fitting it in around the edges for a couple of weeks after that before we finally got it switched over.
 
-**Nick Nisi:** \[00:05:53.12\] Oh, yeah. We had to really start lower-level, because we were on older versions of everything. We had Node 14, so we had to get up to Node 16 at least to continue with that... But then we had to upgrade the version of Storybook we were using, and then we used the Storybook Builder Vite to replace its WebPack build with a Vite build... And honestly, that was the most startling of changes, because Storybook would take over 90 seconds to start up, and when I switched it over to Vite, three seconds, tops.
+**Nick Nisi:** \[05:53\] Oh, yeah. We had to really start lower-level, because we were on older versions of everything. We had Node 14, so we had to get up to Node 16 at least to continue with that... But then we had to upgrade the version of Storybook we were using, and then we used the Storybook Builder Vite to replace its WebPack build with a Vite build... And honestly, that was the most startling of changes, because Storybook would take over 90 seconds to start up, and when I switched it over to Vite, three seconds, tops.
 
 **Jerod Santo:** Nice.
 
@@ -80,7 +80,7 @@ First, I thought it'd be fun to talk about some personal news, like what have we
 
 **Jerod Santo:** Yeah. When it boils down, I was trying to think of the episode - I think it was the Deno Fresh episode, where Luca Casonato pinned me to the table because I was just giving him a hard time about TypeScript, because Nick wasn't there, and I had to give somebody a hard time. And he eventually pinned me down and started talking about all these benefits to this stuff, and I said, "At the end of the day, it's just solving problems that I don't have, as a solo dev." I just don't have those problems. And so for me, it's just additional tooling, additional things. Now, it's getting to be where it's like built more and more in, but I just don't have these problems. Now, working on teams, I can totally see those upsides, and I'm sure they outweigh the downs.
 
-**Kevin Ball:** \[00:10:04.25\] Well, and honestly, that's the type of optimization we should all be making, right? Going back to the React debate episode, right? Like, if you're working on a relatively static site, why the heck are you using React? It's solving problems you don't have.
+**Kevin Ball:** \[10:04\] Well, and honestly, that's the type of optimization we should all be making, right? Going back to the React debate episode, right? Like, if you're working on a relatively static site, why the heck are you using React? It's solving problems you don't have.
 
 **Jerod Santo:** Totally. In fact, I was just talking to somebody the other day who was telling me that our entire website should be on Next.js. And I was like, "I don't know, it's pretty good... Like, it works pretty well as is. It's an Elixir backend, JavaScript sprinkles, frontend server-side rendered HTML..." And I just asked them, I said, "What do I gain by rewriting my entire website in Next.js, besides being able to say it's on Nest.js?" And I said it's cached all around the world, really fast, and I'm sure there are some games... But what a huge undertaking. And so it's really like --
 
@@ -98,7 +98,7 @@ Now, when it comes time to do a redesign or something, we're going to revisit wh
 
 **Jerod Santo:** Yeah, because there's so many features. But one feature it does not have is the ability to write ID3v2 chapters, which is like this special addendum to the v2 spec... And the FFmpeg folks are not interested in it, because it's very much an audio thing, and that's more of a video tool, generally speaking.
 
-So we needed a way of writing those tags in Elixir, so we worked with our friend Lars Wikman, who wrote an ID3v2 Elixir library for us, which we open-sourced... And then I took that, integrated it into our stack, and we are now chaptering all of our shows, which feels really cool. I've been talking about it a lot. I'll put some blog posts into the show notes for people who are interested in the details of that... But I'm about done talking about it; we've covered it. And happy to have it out there; we're just gonna keep chaptering our shows.
+So we needed a way of writing those tags in Elixir, so we worked with our friend Lars Wikman, who wrote an ID3v2 Elixir library for us, which we open sourced... And then I took that, integrated it into our stack, and we are now chaptering all of our shows, which feels really cool. I've been talking about it a lot. I'll put some blog posts into the show notes for people who are interested in the details of that... But I'm about done talking about it; we've covered it. And happy to have it out there; we're just gonna keep chaptering our shows.
 
 So if you're listening in a podcast app that supports chapters, unlike Spotify, then check it out. It's right there. You're in a chapter right now, you can see what's coming up next, you can skip to cooler parts of the show, or whatever you want to do. That's probably the biggest thing we've shipped in terms of a technical change to our podcasts since we added transcripts.
 
@@ -112,7 +112,7 @@ So if you're listening in a podcast app that supports chapters, unlike Spotify, 
 
 **Kevin Ball:** \[laughs\] What's your fourth kid's name, Jerod?
 
-**Jerod Santo:** \[00:14:05.23\] Sorry, Nora... No, she's five. Ezra... Sorry, Ezra. I threw you under the bus. Kball, what are you been working on lately? I don't see anything in the doc.
+**Jerod Santo:** \[14:05\] Sorry, Nora... No, she's five. Ezra... Sorry, Ezra. I threw you under the bus. Kball, what are you been working on lately? I don't see anything in the doc.
 
 **Kevin Ball:** Yeah, well - so that's the fun thing about being a manager, is it's really hard to like point to something concrete that I did.
 
@@ -146,7 +146,7 @@ And so you know, realities being what they are, in many teams you don't have som
 
 **Jerod Santo:** Right.
 
-**Kevin Ball:** \[00:18:00.21\] Many other places - certainly the way my team is handling it - a tech lead is a transient thing related to a project. You are tech-leading this project. And it's a set of things that are part of being an engineer, and you do them in the context of a project. So it's not like a different role, a different title, or anything like that durable.
+**Kevin Ball:** \[18:00\] Many other places - certainly the way my team is handling it - a tech lead is a transient thing related to a project. You are tech-leading this project. And it's a set of things that are part of being an engineer, and you do them in the context of a project. So it's not like a different role, a different title, or anything like that durable.
 
 **Jerod Santo:** Right. Is it rotational then, or is it based on -- like, some people lead better than others, they're practiced in that, so it seems like it could be a skill thing; but is it rotational, or is it certain people are always kind of leaders and they rotate around?
 
@@ -166,7 +166,7 @@ So right now, I have kind of two folks who are more regularly tech-leading, and 
 
 **Jerod Santo:** Keep that oil flowing. Well, we want to keep the oil flowing around here as well, so we're gonna take a break. That's been our personal news. Nick shipped Vite, I shipped some chapters, Kball shipped seven pounds of stuff in a five-pound bag... We'll be right back and we'll talk industry news right after this.
 
-**Break:** \[00:20:24.13\] to \[00:21:45.01\]
+**Break:** \[20:24\] to \[21:45\]
 
 **Jerod Santo:** Alright, we have a group of stories and links and things going on around the web development world... First one up is Cloudflare has made a few announcements this week. I think it's like their birthday week, or something. This is a new trend I'm seeing, where companies will launch a bunch of stuff in a row, and really try to make a splash. I know Supabase has done that, they call it Launch Week, where they launch five days in a row, one thing a day; kind of a cool way of going out. And Cloudflare has announced a bunch of stuff this week.
 
@@ -202,7 +202,7 @@ But the one that I actually was more excited about - and honestly, I've already 
 
 **Jerod Santo:** So Google does have their -- of course, most Captchas, reCAPTCHA, Google reCAPTCHA, the one that's on our website, is Google based... And at the end of the day, Google is a large ad company, so you're putting their trackers on your website, and requiring people to identify themselves to Google to prove they're not robots... So there's that angle as well.
 
-\[00:24:15.04\] There's other alternatives. We tried hCaptcha for a while, which didn't work as well as reCAPTCHA, so we just use reCAPTCHA in anger... This is a cool alternative, and it's interesting because they're not requiring any human interaction, but they are doing a whole bunch of device challenges... Like, they're trying to identify you as a human based on different aspects of your web browser, the JavaScript runtime... Kind of some stuff that we don't really know exactly all that's going on, which might be a little creepy as well...
+\[24:15\] There's other alternatives. We tried hCaptcha for a while, which didn't work as well as reCAPTCHA, so we just use reCAPTCHA in anger... This is a cool alternative, and it's interesting because they're not requiring any human interaction, but they are doing a whole bunch of device challenges... Like, they're trying to identify you as a human based on different aspects of your web browser, the JavaScript runtime... Kind of some stuff that we don't really know exactly all that's going on, which might be a little creepy as well...
 
 **Nick Nisi:** You mean browser fingerprinting?
 
@@ -250,7 +250,7 @@ But the one that I actually was more excited about - and honestly, I've already 
 
 **Nick Nisi:** I think that that is a good point, though. I hate doing those stupid, Captcha things. So this is like a trade-off of comfort versus security, and I will pick that every time. But I am overly paranoid, and like half the time I have to reload Safari without content blockers to even get the Captcha to show up, because they're trying to block whatever creepy thing that the Captcha is adding to the page to begin with.
 
-**Kevin Ball:** \[00:28:03.09\] I wonder if that'll impact this...
+**Kevin Ball:** \[28:03\] I wonder if that'll impact this...
 
 **Nick Nisi:** It's true.
 
@@ -283,7 +283,7 @@ So it says that this is like -- there's prior art in potentially Rust and Scala.
 
 **Kevin Ball:** Yeah, I think that's what I'm seeing here. It's doing some sort of more complicated logic as you destructure, and some of that might even be like the -- I'm looking right now at what the Rust example is... Like, being able to match for more complicated structures than just like a very simple object, right?
 
-\[00:32:14.13\] So "Okay, destructure into this, but only if A and B both exist, and have this relationship to each other", or something like that. Kind of pattern matching as a way to do branches in functions, or things like that; it's a pattern that has not shown up in JavaScript that I'm aware of before, but it's something that is, I think, pretty widely used in functional languages as a way to--
+\[32:14\] So "Okay, destructure into this, but only if A and B both exist, and have this relationship to each other", or something like that. Kind of pattern matching as a way to do branches in functions, or things like that; it's a pattern that has not shown up in JavaScript that I'm aware of before, but it's something that is, I think, pretty widely used in functional languages as a way to--
 
 **Jerod Santo:** Yes. But isn't pattern matching also making its way through TC 39?
 
@@ -351,7 +351,7 @@ So it says that this is like -- there's prior art in potentially Rust and Scala.
 
 **Nick Nisi:** Yeah, stage three would be it's getting implementations in browser engines, and it's relatively stable at that point. It's very unlikely that the syntax will change at this point.
 
-**Jerod Santo:** \[00:36:05.18\] Gotcha. It hasn't made its way in the canIuse yet, unless I'm spelling it wrong, or something. Alright, so those are some notes, those are some updates from the 92nd TC 39 meeting. You know what would be fun? We should maybe figure out when the 100th TC 39 meeting is, and everybody crash it, you know? Wouldn't that be kind of cool?
+**Jerod Santo:** \[36:05\] Gotcha. It hasn't made its way in the canIuse yet, unless I'm spelling it wrong, or something. Alright, so those are some notes, those are some updates from the 92nd TC 39 meeting. You know what would be fun? We should maybe figure out when the 100th TC 39 meeting is, and everybody crash it, you know? Wouldn't that be kind of cool?
 
 **Nick Nisi:** Yes.
 
@@ -385,7 +385,7 @@ This is the kind of thing that we all kind of unit-test -- like, it's a nice, us
 
 **Jerod Santo:** That's neat.
 
-**Kevin Ball:** \[00:39:47.24\] Yeah, it looks like - I'm looking through it - it's very configurable. So you can kind of look for a match against different types of domains, or different -- you know, if you have like a @ mentions, you can decide "Does that go into GitHub, or Twitter?" Or maybe you do a little bit of checking in some way, you could probably add your own stuff... So yeah, this looks neat.
+**Kevin Ball:** \[39:47\] Yeah, it looks like - I'm looking through it - it's very configurable. So you can kind of look for a match against different types of domains, or different -- you know, if you have like a @ mentions, you can decide "Does that go into GitHub, or Twitter?" Or maybe you do a little bit of checking in some way, you could probably add your own stuff... So yeah, this looks neat.
 
 **Jerod Santo:** Yeah. And they have this test function as well. They've obviously built up this huge matcher library of different strings and regular expressions. I'm not sure how it's implemented under the hood. Maybe there's like a AST down in there, a string AST, that that has all tests. So you can actually even use it with linkify.test, pass it a string and you can -- is it a valid email? Is it a valid domain? These things that we end up implementing ourselves - you can rely on that in your test suite.
 
@@ -419,7 +419,7 @@ This is the kind of thing that we all kind of unit-test -- like, it's a nice, us
 
 **Kevin Ball:** It's definitely more robust than just a set of regexes. Yeah, it's doing kind of a robust -- it has a state machine-based parser going through, so... This is better than you're gonna write on your own.
 
-**Break:** \[00:41:55.05\] to \[00:46:47.27\]
+**Break:** \[41:55\] to \[46:47\]
 
 **Jerod Santo:** Alright, well, in big news, sort of old news at this point, but big splash was the Adobe acquisition of Figma for 20 bills. No, that's not $20, it's $20 billion. A large price tag. One of the largest tech acquisitions, I think, of all time. I know Slack, I think, was 27 billion... But these are huge numbers. And for me, it was a total surprise. I don't know if you guys saw this one coming. I mean, I think the acquire in retrospect is obvious, but I just didn't think we'd see a big acquisition, especially with the state of the market. So what was your guys' initial reactions to the Figma acquisition?
 
@@ -437,7 +437,7 @@ This is the kind of thing that we all kind of unit-test -- like, it's a nice, us
 
 **Kevin Ball:** I'm less concerned about the future of the core design tool. I think Adobe actually, for all that their stuff gets pretty complex, they care deeply about the core design tools; they've done a reasonably good job on historic tools. I think they're going to invest in it, because Figma is a really good thing that fits well into their wheelhouse. What I'm more concerned about is -- you know, FigJam, and a range of things like that.
 
-\[00:48:13.07\] So I love FigJam. It's built on the Figma engine, but it's just this very simplified UI, and it's for like brainstorming and other types of things. It's like an infinitely better version of whatever Google's Jamboard thing is, right? It is like 1,000 times better than Jamboard. And I use it all the time. I use it for myself, for organizing thinking, I use it to run different types of meetings and conversations... For a distributed team, it's a phenomenal tool. And I don't know that it fits in Adobe's wheelhouse. I don't know that it's something they're gonna care about, keep investing in, or anything.
+\[48:13\] So I love FigJam. It's built on the Figma engine, but it's just this very simplified UI, and it's for like brainstorming and other types of things. It's like an infinitely better version of whatever Google's Jamboard thing is, right? It is like 1,000 times better than Jamboard. And I use it all the time. I use it for myself, for organizing thinking, I use it to run different types of meetings and conversations... For a distributed team, it's a phenomenal tool. And I don't know that it fits in Adobe's wheelhouse. I don't know that it's something they're gonna care about, keep investing in, or anything.
 
 I also had a conversation with some folks at Figma the last time I was kind of looking around for possible other jobs, which I ended up deciding, "No, I like it where I am", but they were looking at all sorts of other takes, like that of "Where can we take this core engine of Figma and apply it in sort of a limited or specialized way to a particular problem domain?" Which I think is a really, really, really cool area, and not something that feels like Adobe's approach. And so I think we may end up missing out on a lot of potentially cool innovation that could have happened around that... And I'm terrified that we're going to lose FigJam, because I love that tool.
 
@@ -475,7 +475,7 @@ I also had a conversation with some folks at Figma the last time I was kind of l
 
 But I guess tying into this news is there's now this other thing, Penpot, which raised a big round of funding... I know that about it. I don't know much about Penpot, but I did see an announcement of funding in the wake of the Figma acquisition. So somebody tell us about Penpot and how this plays into the conversation.
 
-**Nick Nisi:** \[00:51:58.19\] Yeah, I saw this probably on Hacker News, or somewhere, on the same day that the Figma news was released. In a lot of ways, that was probably a reaction to this, to that news... But it looks very similar, to my non-design eyes, as Figma. But it is more SVG-based. So it's built more on open standards.
+**Nick Nisi:** \[51:58\] Yeah, I saw this probably on Hacker News, or somewhere, on the same day that the Figma news was released. In a lot of ways, that was probably a reaction to this, to that news... But it looks very similar, to my non-design eyes, as Figma. But it is more SVG-based. So it's built more on open standards.
 
 **Jerod Santo:** ProductHunt, over 1,000 upvotes on Product Hunt, they raised a series A, designed freedom for teams... They're calling it "The first open source design and prototyping platform meant for cross-domain teams. Web-based, and it works with open standards SVG." Kball, what do you know about Penpot?
 
@@ -509,7 +509,7 @@ Alright, that's what's new and noteworthy. Any last links you guys just have to 
 
 **Jerod Santo:** Oh, yeah, that's interesting.
 
-**Kevin Ball:** \[00:55:45.03\] California just signed, or created, passed -- what's the word I'm looking for? ...passed a new law, that California companies for California jobs have to post -- all the job postings have to include pay ranges. We've already seen -- before this most recent like mini-bust that's going on, we saw the kind of distributed world salaries skyrocketing in a lot of different places, as more and more companies based in these high-paying locations were hiring... But I think there's still probably a whole large amount of the tech world that does not realize how bloody much money Silicon Valley companies throw at developers. It goes around periodically... If you work for big tech, and you're even a few years out of college, you're fully loaded, probably making half a mil.
+**Kevin Ball:** \[55:45\] California just signed, or created, passed -- what's the word I'm looking for? ...passed a new law, that California companies for California jobs have to post -- all the job postings have to include pay ranges. We've already seen -- before this most recent like mini-bust that's going on, we saw the kind of distributed world salaries skyrocketing in a lot of different places, as more and more companies based in these high-paying locations were hiring... But I think there's still probably a whole large amount of the tech world that does not realize how bloody much money Silicon Valley companies throw at developers. It goes around periodically... If you work for big tech, and you're even a few years out of college, you're fully loaded, probably making half a mil.
 
 **Jerod Santo:** I was gonna say, 300k to 500k is pretty typical, right?
 
