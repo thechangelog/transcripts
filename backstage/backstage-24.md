@@ -4,13 +4,17 @@
 
 **Jerod Santo:** 300 more than 200.
 
-**Adam Stacoviak:** Yeah, it's true. That's true. I had to do the real basic math in my brain.
+**Adam Stacoviak:** Yeah, it's true.yeah that's true. I had to do the real basic math in my brain.
 
-**Jerod Santo:** What's it mean to me? It means if we're gonna celebrate a milestone, there won't be a bigger one until 1,000.
+**Jerod Santo:** What's it mean to me? It means if we're gonna celebrate a milestone, there won't be a bigger one until a thousand.
 
-**Adam Stacoviak:** It's true, yeah... Unless you're a real big fan of 600, for some reason...
+**Adam Stacoviak:** It's true, yeah... Unless you're a real big fan of 600,.. 
 
-**Jerod Santo:** Yeah, but whose -- Why...? When? Where? Why would you be a fan of 600? We could go binary; 512 would be cool...
+**Jerod Santo:** Yeah, but whose 
+
+**Adam Stacoviak:** for some reason...
+
+**Jerod Santo:** Why...? When? Where? Why would you be a fan of 600? We could go binary; 512 would be cool...
 
 **Adam Stacoviak:** Yeah, I guess 512... 511... 512...
 
@@ -38,7 +42,7 @@
 
 **Adam Stacoviak:** That's true, yeah.
 
-**Jerod Santo:** If we do more than 50, then yeah, less than a decade. If we do less than 50, it's more than a decade. So when we celebrate episode 1,000, assuming nothing changes, which is a huge assumption, it's gonna be -- I mean, we're gonna be in our 50's, man...
+**Jerod Santo:** Well, If we do more than 50, then yeah, less than a decade. If we do less than 50, it's more than a decade. So when we celebrate episode 1,000, assuming nothing changes, which is a huge assumption, it's gonna be -- I mean, we're gonna be in our 50's, man...
 
 **Adam Stacoviak:** Gosh... \[laughter\]
 
