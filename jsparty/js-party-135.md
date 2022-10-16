@@ -156,7 +156,7 @@ I might be wrong in explaining this completely... It's just that this is very co
 
 **Kevin Ball:** I was gonna say that once you beat the borrow checker, you're pretty confident it's actually gonna work, which is kind of the opposite of JavaScript. \[laughter\]
 
-**Divya:** Fair. That is fair. Although \[unintelligible 00:26:31.29\] JavaScript or TypeScript, because the compiler will yell at you for -- like, lately I've been frustrated with TypeScript, because I was using the Monaco editor in one of my components, and I didn't have the types for it, and so I just used \[unintelligible 00:26:46.06\] and even if I tried to turn it, I ended up turning it off in my tsconfig... But I felt really bad, because it felt like I wasn't really using TypeScript. I was cheating my way around it. \[laughs\]
+**Divya:** Fair. That is fair. Although their is some kink with JavaScript or TypeScript, because the compiler will yell at you for -- like, lately I've been frustrated with TypeScript, because I was using the Monaco editor in one of my components, and I didn't have the types for it, and so I just used the any and TypeScript yelled at me, they are like do not use the any and even if I tried to turn it, I ended up turning it off in my tsconfig... But I felt really bad, because it felt like I wasn't really using TypeScript. I was cheating my way around it. \[laughs\]
 
 **Kevin Ball:** So after fighting with Rust, when you come back to TypeScript, is it like "Oh, you're like the gentle abuser"?
 
@@ -228,7 +228,7 @@ That has been phenomenal for me, because I don't have to look at the documentati
 
 So honestly, this is a huge shout-out to people who write playgrounds. I believe the Rust one is written by the Integer 32 team. There's probably someone specifically there that I'm forgetting, but that is phenomenal, and I think really useful for my learning. I have no idea who wrote the TypeScript Playground, but it's great. And I actually like the current version of the playground, not the future version. I think there's a v3 of it. I really dislike the v3. It's very unclear and confusing. I find the v2 one, which is the current version one, way clearer, personally. But regardless, people who write playgrounds are great, because it's a really great way to get people to get comfortable with it.
 
-I think similar in that vein is when Sass was first introduced as like a \[unintelligible 00:41:24.16\], so you can run functions and variables, and then get that to compile to CSS. So it's a really quick way of just prototyping without having to read docs. So yeah, that's my shout-out.
+I think similar in that vein is when Sass was first introduced as like a try Sass, so you can run functions and variables, and then get that to compile to CSS. So it's a really quick way of just prototyping without having to read docs. So yeah, that's my shout-out.
 
 **Nick Nisi:** That's really cool. Yeah, I will agree with you on that. I've been mostly using the v2 playground... But the one thing that I really do like in v3 - and it's an experimental feature - is it will show you the AST of whatever you type in there.
 
