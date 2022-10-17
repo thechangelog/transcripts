@@ -46,7 +46,7 @@ Back to the question - I think a very important value that Apache offers is the 
 
 For example, we need to provide complete and detailed documents and tutorials to help others understand how to use it. But a more challenging job for us is to build a healthy community, where people with different levels of knowledge can all get help from it. That's one of the primary considerations when we decided to join Apache... Because at that time we only had less than five people maintaining the project as day job... And most of us are not doing it full-time.
 
-On the other hand, we have 200,000 downloads \[unintelligible 00:10:23.18\] weekly. I think we could be proud of this ratio, but potentially it is a very dangerous thing though. This means that if one or two of us don't maintain the project because of personal reasons or job changes, that will probably be the end of the project. So by joining Apache, we wish to learn more about how to encourage the community to contribute and make it healthier.
+On the other hand, we have 200,000 of downloads on NPM weekly. I think we could be proud of this ratio, but potentially it is a very dangerous thing though. This means that if one or two of us don't maintain the project because of personal reasons or job changes, that will probably be the end of the project. So by joining Apache, we wish to learn more about how to encourage the community to contribute and make it healthier.
 
 I can't say that we've done well enough, but we are having progress on this. After joining Apache, we have voted and accepted about six new committers, and definitely have more pull requests from the community after we turned to be more open and provide more proper ways to guide the community to help.
 
@@ -68,7 +68,7 @@ This could be a problem, because we have so many users and the product is rather
 
 **Ovilia:** I am a committer of it, and I do fix bugs, and I do feature requests for it, along with community building. I will ask the community to vote for the new committers, and to see how we can help more people contribute to the project.
 
-For the code part, I'm doing some tools like \[unintelligible 00:14:19.13\] which helps the user set the charts themes in GUI and export it to be used in ECharts. I've made a cheatsheet to help users understand the terminology of components, because in the documents, components are named like "legend" or "access pointer" or "visual map", so new users may find it hard to locate the document. I created a chart with frequently used components, and when the mouse is focused on the component, it will show the names of that component and the link to the document.
+For the code part, I'm doing some tools like Seam editor which helps the user set the charts themes in GUI and export it to be used in ECharts. I've made a cheatsheet to help users understand the terminology of components, because in the documents, components are named like "legend" or "access pointer" or "visual map", so new users may find it hard to locate the document. I created a chart with frequently used components, and when the mouse is focused on the component, it will show the names of that component and the link to the document.
 
 I've also created some new types of charts, like liquid fill charts for percentage \[unintelligible 00:15:14.23\] tree structure... But our regular work is about fixing bugs and producing new features for all parts of the code.
 
@@ -90,7 +90,7 @@ Isolation and arrogance can only take one backward. As a famous Chinese saying g
 
 **Adam Stacoviak:** Let's talk about Polyvia... Is that how we pronounce it, Polyvia \[Poly Via\]?
 
-**Ovilia:** Yeah, I would call it Polyvia \[Polyvia\], but that's okay, because you don't have to pronounce it \[unintelligible 00:19:17.11\]
+**Ovilia:** Yeah, I would call it Polyvia \[Polyvia\], but that's okay, because you don't have to pronounce it as I sought it.
 
 **Adam Stacoviak:** Well, sorry about that. Polyvia. Low-poly image and video processing... Let's talk about this. This is a project you started... Tell me about the background of this project.
 
