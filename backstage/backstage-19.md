@@ -52,9 +52,9 @@
 
 **Adam Stacoviak:** And you said "Negative", so clearly, we're talking to a soldier here, because...
 
-**Jerome Hardaway:** \[unintelligible 00:03:42.04\] but that's okay...
+**Jerome Hardaway:** airman but that's okay...
 
-**Adam Stacoviak:** Negative \[unintelligible 00:03:44.04\]
+**Adam Stacoviak:** Negative ghost rider the pattern is full. That's a mix of airforce though, but in a movie.
 
 **Jerome Hardaway:** What movie is that?
 
@@ -64,13 +64,13 @@
 
 **Adam Stacoviak:** That's Tom Cruise at his finest. OG Tom Cruise.
 
-**Jerome Hardaway:** Oh, and they were lying to us about his height... \[unintelligible 00:04:02.29\]
+**Jerome Hardaway:** Oh, and they were lying to us about his height... like is he actually look 5' 4" in the movie?
 
 **Adam Stacoviak:** Yeah... Well, he was next to Goose, and I think -- what was that? I think that guy has actually passed away now, the guy who played Goose. What was his name? Man, he was in the movie Nerds, too. I can't remember his name. What a bummer.
 
 **Jerome Hardaway:** \[04:18\] I'm thinking Val Kilmer, or something like that...
 
-**Adam Stacoviak:** Well, Val Kilmer was one of them. He was Ice. And Goose was his side-by-side... And I'm gonna look it up right now on IMDb. I'm a big fan of IMDb. com, by the way. Not the actual website, but the app is better; but the website itself is so good.
+**Adam Stacoviak:** Well, Val Kilmer was one of them. He was Ice. And Goose was his side-by-side... And I'm gonna look it up right now on IMDb. I'm a big fan of IMDb.com, by the way. Not the actual website, but the app is better; but the website itself is so good.
 
 **Jerome Hardaway:** I have a website -- my favorite website that has nothing to do with tech... Serious Eats.
 
@@ -92,7 +92,7 @@
 
 **Adam Stacoviak:** I don't think you did... But that's okay.
 
-**Jerome Hardaway:** You need to go ahead and shoot me \[unintelligible 00:06:20.14\] What is wrong with you?
+**Jerome Hardaway:** You need to go ahead and shoot me an addy so I can get you a hashflag coin, like, what is wrong with you?
 
 **Adam Stacoviak:** Oh, man. I would love that. I would love that. I would rep it, man. I've got a drill sergeant's coin, I think I've got a coin from being in Bosnia, a couple other things... I've obviously got my stations coin, I was in Fort Drum, I was in 10th Mountain Division, aviation unit there, 10th Aviation... I worked on what they call FARP - forward area refueling point. I worked with helicopters. I pumped gas for a living, bro', in the military. I was a glorified gas man, basically...
 
@@ -104,7 +104,7 @@
 
 **Adam Stacoviak:** I ETS-ed in 2001, right before 9/11, man...
 
-**Jerome Hardaway:** 2001 I was in tenth grade. I was like, "Yo, this is wild." Man, how did that feel? Did it make you wanna get back into the fight? I feel like if I was \[unintelligible 00:07:47.21\] right before 9/11 and everything went down, I'd be like "Okay, pull me back in, coach." But at the same time, I'm like "Maybe --" You'd be like "Okay, I know I want to do this bad, but I also know that I have a greater purpose and I don't want to squander the things that I have planned." Because you know, Changelog impacts a lot of people now, right?
+**Jerome Hardaway:** 2001 I was in tenth grade. I was like, "Yo, this is wild." Man, how did that feel? Did it make you wanna get back into the fight? I feel like if I was one of those people that ETS right before 9/11 and everything went down, I'd be like "Okay, pull me back in, coach." But at the same time, I'm like "Maybe --" You'd be like "Okay, I know I want to do this bad, but I also know that I have a greater purpose and I don't want to squander the things that I have planned." Because you know, Changelog impacts a lot of people now, right?
 
 **Adam Stacoviak:** \[08:15\] Yeah.
 
