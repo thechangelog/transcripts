@@ -46,7 +46,7 @@ Back to the question - I think a very important value that Apache offers is the 
 
 For example, we need to provide complete and detailed documents and tutorials to help others understand how to use it. But a more challenging job for us is to build a healthy community, where people with different levels of knowledge can all get help from it. That's one of the primary considerations when we decided to join Apache... Because at that time we only had less than five people maintaining the project as day job... And most of us are not doing it full-time.
 
-On the other hand, we have 200,000 of downloads on NPM weekly. I think we could be proud of this ratio, but potentially it is a very dangerous thing though. This means that if one or two of us don't maintain the project because of personal reasons or job changes, that will probably be the end of the project. So by joining Apache, we wish to learn more about how to encourage the community to contribute and make it healthier.
+On the other hand, we have 200,000 of downloads on npm weekly. I think we could be proud of this ratio, but potentially it is a very dangerous thing though. This means that if one or two of us don't maintain the project because of personal reasons or job changes, that will probably be the end of the project. So by joining Apache, we wish to learn more about how to encourage the community to contribute and make it healthier.
 
 I can't say that we've done well enough, but we are having progress on this. After joining Apache, we have voted and accepted about six new committers, and definitely have more pull requests from the community after we turned to be more open and provide more proper ways to guide the community to help.
 
