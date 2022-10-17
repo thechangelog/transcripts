@@ -4,11 +4,11 @@ Okay, I've just arrived at the airport... Yeah, the drive was okay. I wouldn't s
 
 Okay, through security... Didn't even get checked, didn't even pat me down, or anything, so going to the gym was a waste of time again... And now I'm gonna find my gate. Ah, I think I'm on time. I might just make this.
 
-\[00:06:06.03\] Somebody was just a little bit lax on the old escalator etiquette there, leaving her bag way behind her as she stalled at the top... And it was inevitable I was gonna run into it, because you know, the stairs are moving... So I did fell a little bit. Being British, I apologized, even though we both know it's 100% her fault...
+\[06:06\] Somebody was just a little bit lax on the old escalator etiquette there, leaving her bag way behind her as she stalled at the top... And it was inevitable I was gonna run into it, because you know, the stairs are moving... So I did fell a little bit. Being British, I apologized, even though we both know it's 100% her fault...
 
 All boarded now, ready for take-off. \[unintelligible 00:06:40.29\]
 
-\[flight attendant making an announcement\] \[00:07:03.01\]
+\[flight attendant making an announcement\] \[07:03\]
 
 A bit bumpy landing, but I wasn't even scared. My tummy went funny a bit on the way down, but I didn't even cry. I definitely didn't cry.
 
@@ -48,7 +48,7 @@ Here I am at the Go Contributors Summit, and there's a lot of gophers assembling
 
 **Egon Elbre:** Yeah, okay.
 
-**Jingle:** \[00:09:56.01\]
+**Jingle:** \[09:56\]
 
 **Mat Ryer:** Alejandra is here... Aren't you?
 
@@ -98,7 +98,7 @@ Here I am at the Go Contributors Summit, and there's a lot of gophers assembling
 
 **Ale Kennedy:** Bye!
 
-**Jingle:** \[00:12:45.07\]
+**Jingle:** \[12:45\]
 
 **Mat Ryer:** I've just tracked down Ole Bulbuk. Ole, hello.
 
@@ -116,7 +116,7 @@ Here I am at the Go Contributors Summit, and there's a lot of gophers assembling
 
 **Ole Bulbuk:** For example, no circular dependencies between packages, which in the long run is really great, even if it hurts sometimes in the short run... And yeah, I think it's a rather pragmatic and simplistic way to work with code, that you say "Simple is better", and so on. This is really great and helpful.
 
-**Mat Ryer:** \[00:14:15.13\] Yeah. It pays dividends over time especially, doesn't it? I know what you mean. And what about the backwards-compatibility promise? That must be a big part of this, too.
+**Mat Ryer:** \[14:15\] Yeah. It pays dividends over time especially, doesn't it? I know what you mean. And what about the backwards-compatibility promise? That must be a big part of this, too.
 
 **Ole Bulbuk:** Yeah, of course. If you have a language that evolves really quickly, every year an incompatible version - well, then you either stick with a very old version, that has security problems after a while, or you are constantly evolving the whole thing, and always -- or you are still doing it like two weeks before, and you should really catch up now, and so on.
 
@@ -128,9 +128,9 @@ Here I am at the Go Contributors Summit, and there's a lot of gophers assembling
 
 **Ole Bulbuk:** Thank you!
 
-**Jingle:** \[00:15:31.16\]
+**Jingle:** \[15:31\]
 
-**Break:** \[00:15:46.00\]
+**Break:** \[15:46\]
 
 **Mat Ryer:** I'm here with Christen -- Christian... Oh, okay, let me say that again...
 
@@ -168,7 +168,7 @@ Here I am at the Go Contributors Summit, and there's a lot of gophers assembling
 
 **Christian Haas:** Essentially, the code structure, almost... The question was "Do we manually assert?" Like, in \[unintelligible 00:17:57.20\] Testify, or any other of the assertion libraries that are out there.
 
-**Mat Ryer:** \[00:18:09.22\] Yeah, that's interesting. I mean, at one time Testify as a cert package was the most imported package in Go... And when we made it, we kind of were used to writing tests like that, and we just found the three lines to be verbose and repetitive, because you still wanna print out what the values are, and things. But it has, of course, the benefit of -- you know, it's very readable, and you don't have to learn anything new. So that's kind of the trade-off, isn't it?
+**Mat Ryer:** \[18:09\] Yeah, that's interesting. I mean, at one time Testify as a cert package was the most imported package in Go... And when we made it, we kind of were used to writing tests like that, and we just found the three lines to be verbose and repetitive, because you still wanna print out what the values are, and things. But it has, of course, the benefit of -- you know, it's very readable, and you don't have to learn anything new. So that's kind of the trade-off, isn't it?
 
 **Christian Haas:** That's the trade-off. And the question, or at least the curiosity that came now to this question was "What are the reasons that people would still choose such an assertion library?" Because it can go back and forth. Yes, you have just laid out the reasons - you want to have it readable, some say they don't want to learn a new library... Yet my question is "Okay, what kind of reasons do the people have that do use an assertion library?" And I would also like to bring in the four rules of simple design - are we breaking them, or are we actually adhering them if we use either or the other?
 
@@ -204,7 +204,7 @@ Here I am at the Go Contributors Summit, and there's a lot of gophers assembling
 
 **Christian Haas:** Alright, thank you.
 
-**Jingle:** \[00:21:11.06\]
+**Jingle:** \[21:11\]
 
 **Mat Ryer:** Oh no, I can't believe it... Bill Kennedy is here. Hi, Bill...
 
@@ -238,7 +238,7 @@ Here I am at the Go Contributors Summit, and there's a lot of gophers assembling
 
 **Bill Kennedy:** I imagine Brian and Erik still have that website... That's interesting, because I've never looked at the -- I did a cool little video with the Gopher in \[unintelligible 00:22:05.26\] shopping stuff, and I've played that first, and everybody laughed...
 
-**Mat Ryer:** \[00:22:12.23\] Yes, I remember it.
+**Mat Ryer:** \[22:12\] Yes, I remember it.
 
 **Bill Kennedy:** I've gotta find that video. I don't think I have the video itself anymore, but it will be part of the talk somewhere.
 
@@ -280,7 +280,7 @@ So I was teaching C++ at the time, because that's what I was coding in. And when
 
 **Bill Kennedy:** And I think the same thing -- I say this all the time for the stage talks. If you're giving a talk about tech X, and I'm using tech X, and I don't walk away from that talk knowing something that I can practically use... People like academic talks.
 
-**Mat Ryer:** \[00:25:57.03\] Yeah, I know, they do. I know, they do. And there's value in it. I quite like the academic ones, but there's nothing like that being able to actually do something with what you've learned. For me, learning in the context of some real problem that you have is the way I learn... And I did my book -- the Blueprints book was about building real little projects. And some people complained "Oh, it didn't go into all the depth of all the concepts and stuff first", and it's like, "Yeah, I didn't." I deliberately didn't.
+**Mat Ryer:** \[25:57\] Yeah, I know, they do. I know, they do. And there's value in it. I quite like the academic ones, but there's nothing like that being able to actually do something with what you've learned. For me, learning in the context of some real problem that you have is the way I learn... And I did my book -- the Blueprints book was about building real little projects. And some people complained "Oh, it didn't go into all the depth of all the concepts and stuff first", and it's like, "Yeah, I didn't." I deliberately didn't.
 
 **Bill Kennedy:** No, but that would be a 10-volume book too, which people don't understand. You have maybe 20 pages, 25 pages to explain something in a book, and you have to really decide what level... Or you go off to tangents. But how cool is it in a conference -- I've been in really good talks, when the person in front of me opens up their laptop, brings up the code and they start... Like, for me --
 
@@ -316,7 +316,7 @@ And then the other thing which is critical, if you're in a room -- it's a long d
 
 **Mat Ryer:** Yeah...
 
-**Bill Kennedy:** \[00:29:48.06\] And I think that's good. The interesting thing though is Go has not really changed in ten years. Okay, we added generics, and there's been mass improvements in some internal runtimes. But when people say "Bill, your ultimate Go is on video. It's like two years old, it's gotta be outdated", I laugh. It's not. The semantics haven't changed, we've got backwards compatibility, promises... And I threw generics in the book, and I'm not gonna teach it, because 1) I don't have time, and 2) I don't want you to really use it, unless... Right?
+**Bill Kennedy:** \[29:48\] And I think that's good. The interesting thing though is Go has not really changed in ten years. Okay, we added generics, and there's been mass improvements in some internal runtimes. But when people say "Bill, your ultimate Go is on video. It's like two years old, it's gotta be outdated", I laugh. It's not. The semantics haven't changed, we've got backwards compatibility, promises... And I threw generics in the book, and I'm not gonna teach it, because 1) I don't have time, and 2) I don't want you to really use it, unless... Right?
 
 **Mat Ryer:** Yeah.
 
@@ -354,7 +354,7 @@ My big problem with video is I'm gonna be more expensive than you going to Udemy
 
 **Bill Kennedy:** At least I have that belief system. So I don't mind the sales team trying to sell three or four sets of videos for -- I don't even know what they sell it for. Maybe $800. But I don't honestly know how many times we actually sell \[unintelligible 00:34:05.00\] \[laughter\] I'm constantly being told that "Bill, this isn't a charity. This is a business."
 
-**Mat Ryer:** \[00:34:14.10\] \[laughs\] Yeah. That's why you need those businesspeople, isn't it?
+**Mat Ryer:** \[34:14\] \[laughs\] Yeah. That's why you need those businesspeople, isn't it?
 
 **Bill Kennedy:** Yeah, that's why I need Ed, and Miguel, and all those guys. But I also didn't do it for it sit on a shelf... So if you want material that I have, all you ever have to do is reach out and we'll figure it out.
 
@@ -384,7 +384,7 @@ So I think as a teacher there, it's -- I don't know, I'm always fighting to make
 
 **Mat Ryer:** Yeah. But can people learn -- I feel like you'd be able to learn the macro stuff. You have to sort of be okay with not having the complete picture down to that detail, but you can still learn concepts, and retrofit that. Or do you find that you do need that foundation to build on? Is it more that way around?
 
-**Bill Kennedy:** \[00:37:56.23\] I think with Go we've already learned that within three weeks you can build just about anything you want, and it will run, and it will run pretty dang good. And if you wanna leave it like that, you can. We've learned that already. So what comes down to you is what level engineer do you wanna be? You just wanna be somebody who's programming, and does the bare minimum? And that's fair...
+**Bill Kennedy:** \[37:56\] I think with Go we've already learned that within three weeks you can build just about anything you want, and it will run, and it will run pretty dang good. And if you wanna leave it like that, you can. We've learned that already. So what comes down to you is what level engineer do you wanna be? You just wanna be somebody who's programming, and does the bare minimum? And that's fair...
 
 **Mat Ryer:** Yeah, sometimes that's appropriate. Like, if you just have to solve a problem that just you have right now, you wanna process these files and change them, or... And that's great.
 
@@ -402,7 +402,7 @@ So I think as a teacher there, it's -- I don't know, I'm always fighting to make
 
 **Bill Kennedy:** Yeah. And you don't wanna know... On all of my teams, when I start a new project, I tell everybody "I don't wanna know who wrote any line of code when I'm looking at it. If I know who wrote this, we've got a problem."
 
-**Mat Ryer:** That's interesting, yeah. That's funny, because with gofmt and the fact that there isn't lots of different ways to do things in Go - there tends not to be - you do get sometimes this effect where you look at some code and it feels like you've written it. And that's such a --
+**Mat Ryer:** That's interesting, yeah. That's funny, because with `go fmt` and the fact that there isn't lots of different ways to do things in Go - there tends not to be - you do get sometimes this effect where you look at some code and it feels like you've written it. And that's such a --
 
 **Bill Kennedy:** It is. But let's talk about where that can go wrong. Variable declarations.
 
@@ -438,7 +438,7 @@ The other thing is I hate the else clause. I hate it. Use a switch. Use the nake
 
 **Mat Ryer:** Yeah, I did a talk at Gotham Go in New York City called "Things in Go I don't use", or "Things in Go I never use", or something. Else is one of them, and I make that same point, of like -- you know, you sort of hide the happy path in this indentation, and things like this...
 
-\[00:42:02.01\] So yeah, I agree. Anything we can do... It's really thinking about the usability, the user experience of your code. Because that's why you get away with a lot when you're the only one that's going to be working on it. As soon as you've got more people that are gonna be maintaining this code, then you've gotta think about them.
+\[42:02\] So yeah, I agree. Anything we can do... It's really thinking about the usability, the user experience of your code. Because that's why you get away with a lot when you're the only one that's going to be working on it. As soon as you've got more people that are gonna be maintaining this code, then you've gotta think about them.
 
 **Bill Kennedy:** But it's bigger than that... Because look, here's the reality - I've been in this industry for 30-something years. To date, that I know of, I've got three projects still in production. One that's over 20 years old, one that's over 10 years old, and one that's a couple of years old. So what I don't want for people is when they finally finish and they retire -- their legacy is that nothing they've done over the last 30 years is still adding value on the planet. This is not what you want. At least that's not what I want.
 
@@ -462,7 +462,7 @@ The other thing is I hate the else clause. I hate it. Use a switch. Use the nake
 
 **Bill Kennedy:** And that's for anybody, because again, everybody's an educator at the end of the day, whether you're doing in front of people or you're just doing it at work. You're constantly educating.
 
-\[00:45:46.15\] I think one of the big jobs that are missing in the industry, and we can't have it because there's no way to measure it, is that every company should have the tech lead who's a floater. This is what I want; if I ever sold Ardan, I wanna work at different companies for like a month to three months. I have no responsibility for product, but I would -- let's say I went to Grafana, I sat down with you and your team, and every day I pair-programmed with somebody different, for a couple of days, to help them learn how to refactor, look at the code, think about it, and make everybody a better - at least based on my design philosophies and guidelines... But try to make everybody better on that team, and get everybody rowing the boat in the same direction. And then move on to the next team, without having any responsibility for it. But the problem with that role is after you do that for a year, you don't have a single commit, right?
+\[45:46\] I think one of the big jobs that are missing in the industry, and we can't have it because there's no way to measure it, is that every company should have the tech lead who's a floater. This is what I want; if I ever sold Ardan, I wanna work at different companies for like a month to three months. I have no responsibility for product, but I would -- let's say I went to Grafana, I sat down with you and your team, and every day I pair-programmed with somebody different, for a couple of days, to help them learn how to refactor, look at the code, think about it, and make everybody a better - at least based on my design philosophies and guidelines... But try to make everybody better on that team, and get everybody rowing the boat in the same direction. And then move on to the next team, without having any responsibility for it. But the problem with that role is after you do that for a year, you don't have a single commit, right?
 
 **Mat Ryer:** Yeah.
 
@@ -524,7 +524,7 @@ And then -- okay, we didn't document the handbook, but I've taught the handbook 
 
 **Mat Ryer:** Bill, thank you so much. It was so great to talk to you, and I'm excited for your talk. You're actually gonna be speaking now, unexpectedly, at this conference, right?
 
-**Bill Kennedy:** \[00:50:11.19\] Yeah, it tends to happen most of the time when a speaker can't make it to the conference.
+**Bill Kennedy:** \[50:11\] Yeah, it tends to happen most of the time when a speaker can't make it to the conference.
 
 **Mat Ryer:** Yeah. \[unintelligible 00:50:15.14\] unfortunately is not able to make it here... But you've stepped in. What are you gonna be talking about?
 
@@ -568,9 +568,9 @@ And then -- okay, we didn't document the handbook, but I've taught the handbook 
 
 **Mat Ryer:** Thanks, Bill.
 
-**Jingle:** \[00:52:18.18\]
+**Jingle:** \[52:18\]
 
-**Break:** \[00:52:38.02\]
+**Break:** \[52:38\]
 
 **Mat Ryer:** Well, that beautiful sound there was just created by Egon. How have you done that?
 
@@ -582,7 +582,7 @@ And then -- okay, we didn't document the handbook, but I've taught the handbook 
 
 **Mat Ryer:** It's got three switches. Can you explain what these components are here?
 
-**Egon Elbre:** \[00:54:00.21\] Yeah, it's an Arduino Nano RP-something... And then it's got three buttons connected to it. And yeah, then there's some magic to map the three buttons to some midi note.
+**Egon Elbre:** \[54:00\] Yeah, it's an Arduino Nano RP-something... And then it's got three buttons connected to it. And yeah, then there's some magic to map the three buttons to some midi note.
 
 **Mat Ryer:** Ah, so you've got Go code that's running on there...
 
@@ -622,7 +622,7 @@ And then -- okay, we didn't document the handbook, but I've taught the handbook 
 
 **Mat Ryer:** Exactly. I'm sold... But thanks, Egon... Enjoy. Maybe you can play a bit more for us...
 
-**Egon Elbre:** Sure. \[00:56:32.15\] Okay?
+**Egon Elbre:** Sure. \[56:32\] Okay?
 
 **Mat Ryer:** Nice.
 
@@ -652,7 +652,7 @@ And then -- okay, we didn't document the handbook, but I've taught the handbook 
 
 **Mat Ryer:** I know... I can't believe this.
 
-**Ron Evans:** \[00:58:05.28\] We've got those photos that we took a few minutes ago, that you'll have to share... Because honestly, we look better in those helmets than we've ever looked.
+**Ron Evans:** \[58:05\] We've got those photos that we took a few minutes ago, that you'll have to share... Because honestly, we look better in those helmets than we've ever looked.
 
 **Mat Ryer:** I know... To be fair - yeah, I feel like it's sort of like Daft Punk, but imagine Daft Punk was struck by lightning.
 
