@@ -342,7 +342,7 @@ We're also actually thinking hard about what SolidJS does. They have signals, an
 
 **Jerod Santo:** So what's the practical difference then? What you're offering with Qwik - let's say the DX is relatively the same as using React; you put some dollar signs at the end of things, and there's a few more rules, or different rules. What's the practical difference? Is it an order of magnitude, in a complicated application? We're talking about your apps can be 10x faster, 100x? Like, what happens when I use Qwik instead of React?
 
-**Miško Hevery:** Yeah. So we have our homepage, Builder IO homepage, and we actually have -- that home page originally was a Next.js React homepage... And we've just switched it over to Qwik, and actually, we have the ability to run both pages simultaneously. So if you go to \[unintelligible 01:00:58.25\] render = next, you get the Next.js one, if you just do without anything, you get the Qwik one.
+**Miško Hevery:** Yeah. So we have our homepage, Builder.io homepage, and we actually have -- that home page originally was a Next.js React homepage... And we've just switched it over to Qwik, and actually, we have the ability to run both pages simultaneously. So if you go to Builder.io? render = next, you get the Next.js one, if you just do without anything, you get the Qwik one.
 
 If you open up in Google Page Speed, we get -- I think around 40 our score is on Google Page Speed on Next.js, and about 95 in Qwik. Now, I'm not picking up on Next.js. We could have done this in any other framework, and I think the numbers will be about the same, because they all fundamentally have hydration that's happening. And what you're really paying for is the hydration here, right?
 
