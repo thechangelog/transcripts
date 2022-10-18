@@ -26,11 +26,11 @@ So if we extrapolate that to computers, I think a lot of interesting things flow
 
 **Charity Majors:** I feel like we're seeing a bit of a divergence. I think that monitoring tools, things that are metrics-based, are the right tool for the job when it comes to understanding your infrastructure. If you're reflective of the service, "Is this service healthy?" But that's a very different question from "Is my code working? Is this user happy? Is this kind of request executed from end to end?" That's the observability tool.
 
-Now, I do think that the observability, from the perspective of your code - I think there are a couple of metrics that are probably useful to software engineers. You do wanna know if you just shipped a change and your memory usage tripled. You do wanna know if you just shipped a change and your CPU suddenly saturated. But there's only like three or four of those that are really useful most of the time. The rest of those metrics tend to be everything under \[unintelligible 00:07:50.01\] or all of the IPv6 counters, and statistics, and stuff... And that should not be in the purview of software engineers who are trying to write code and understand it in production.
+Now, I do think that the observability, from the perspective of your code - I think there are a couple of metrics that are probably useful to software engineers. You do wanna know if you just shipped a change and your memory usage tripled. You do wanna know if you just shipped a change and your CPU suddenly saturated. But there's only like three or four of those that are really useful most of the time. The rest of those metrics tend to be everything under /proc or all of the IPv6 counters, and statistics, and stuff... And that should not be in the purview of software engineers who are trying to write code and understand it in production.
 
 **Gerhard Lazu:** So the way I hear it, it's almost like the end user experience, what makes them happy, what makes them sad.
 
-**Charity Majors:** \[08:10\] It's a radical perspective shift from the perspective of the service, to the perspective of the user. Another way to think of this is "Well, we blew up the monolith..." It used to be you had a monolith, \[unintelligible 00:08:19.28\] and you could just step through it, right? Well, then we blew up the monolith and suddenly the request is hopping the network all over the place, and now you can't step through it. So part of the way that we focus on instrumenting is gathering up all of that information around the perspectives of the request, so that we're almost like passing it along with the request as as it hops the network from step to step.
+**Charity Majors:** \[08:10\] It's a radical perspective shift from the perspective of the service, to the perspective of the user. Another way to think of this is "Well, we blew up the monolith..." It used to be you had a monolith, and if all else failed you could attach GDB and you could just step through it, right? Well, then we blew up the monolith and suddenly the request is hopping the network all over the place, and now you can't step through it. So part of the way that we focus on instrumenting is gathering up all of that information around the perspectives of the request, so that we're almost like passing it along with the request as as it hops the network from step to step.
 
 **Gerhard Lazu:** So that to me sounds a lot like what the microservice architecture would advocate for. You have lots of microservices, you have--
 
@@ -64,7 +64,7 @@ So observability isn't a magical fairy solution in and of itself. There are othe
 
 When you're merging your changes and you're pretty sure that at some point in the next 12 to 72 hours your changes and anywhere from 0 to 15 other people's changes are going to be shipped, nobody's gonna look at it. So you've severed that tight, virtuous feedback loop of ownership.
 
-I'd also like to point -- you know, Facebook did some great research earlier this year that showed from the moment when you're writing code and you write a bug, the amount of cost and time and pain etc. goes up exponentially when it comes to fixing that bug, the longer it gets. \[unintelligible 00:13:22.10\] The longer it gets, the more expensive it gets, the more painful it gets, the harder it gets. Once it's been a month or two, it probably won't even be you that's finding and fixing the bug. It'll be some other poor fool who has no context.
+I'd also like to point -- you know, Facebook did some great research earlier this year that showed from the moment when you're writing code and you write a bug, the amount of cost and time and pain etc. goes up exponentially when it comes to fixing that bug, the longer it gets. You've written it, you can backspace and it's the easiest it's ever going to be. The longer it gets, the more expensive it gets, the more painful it gets, the harder it gets. Once it's been a month or two, it probably won't even be you that's finding and fixing the bug. It'll be some other poor fool who has no context.
 
 So observability is what allows you to take your microscope out and compare at the level of the pull request, what is different about the request? I have this build ID, with these changes, with this instrumentation... And once you can see it, it's so easy to fix. Fixing bugs is not hard; finding the bugs is hard, right?
 
@@ -78,7 +78,7 @@ So observability is what allows you to take your microscope out and compare at t
 
 **Gerhard Lazu:** It is now, right? Not when you started, right?
 
-**Charity Majors:** \[unintelligible 00:14:41.24\]
+**Charity Majors:** I planted my flag on it! That was my word.
 
 **Gerhard Lazu:** You had quite a bit of time to think about it, and I really like the alternatives that you came up with, which - I think they all mean observability. One that really stood out to me is being curious in production. What happens in your production? How do yo know what is going on? And obviously, production is a metaphor for a system that really matters... Because you maybe work on a software that gets shipped to other users that get to use it in their production, and it's not your production, it's their production; so you're removed from it. But still, understanding how that software behaves in production, someone else's, is also important. So how can you be curious in production? What does that even look like? And I think what you've just described captures it well. Reducing that time between introducing the bug and seeing how the system behaves at scale - because that's what production typically means; lots and lots of requests, lots of weird paths being taken through your codebase... The heisenbugs, right? One in a million. They only happen in production.
 
@@ -90,11 +90,11 @@ So observability is what allows you to take your microscope out and compare at t
 
 **Gerhard Lazu:** I love that. I love that. And I think that's why you should push directly to production... On a Friday. The day doesn't matter really. It's just a day. What if it's Saturday? Does it matter?
 
-**Charity Majors:** Well, if you're using feature flags, then it shouldn't matter... Right? If you're using a feature flag... Like, decoupling deploys from releases is one of the most powerful things you can do for reliability. I love the phrase that the Intercom folks came up with, which is that shipping is the heartbeat of your company. If you're \[unintelligible 00:16:43.01\] shipping should be as regular, as minor, as uneventful, as boring, as tedious, as pedestrian as a heartbeat, right? Because that's how you deliver value to users; it shouldn't be something that you have to get all worked up about. It should just work, it should happen many, many, many times a day. Predictably, etc.
+**Charity Majors:** Well, if you're using feature flags, then it shouldn't matter... Right? If you're using a feature flag... Like, decoupling deploys from releases is one of the most powerful things you can do for reliability. I love the phrase that the Intercom folks came up with, which is that shipping is the heartbeat of your company. If you're a software co, shipping should be as regular, as minor, as uneventful, as boring, as tedious, as pedestrian as a heartbeat, right? Because that's how you deliver value to users; it shouldn't be something that you have to get all worked up about. It should just work, it should happen many, many, many times a day. Predictably, etc.
 
 **Gerhard Lazu:** Any day, every day, it doesn't really matter. As long as you're shipping...
 
-**Charity Majors:** Right? A lot of people get worked up about the phrase "testing in production", but in fact they all do it. The only question is "Do you admit you do it?" and "Do you try to build guardrails so that you do it safely or not?" Because I agree, testing in production, if you don't have tests, if you don't whatever - it's a terrible idea. But that's not what we're talking about. We're talking about doing it well. Because it's the only way you can test these things.
+**Charity Majors:** Right? A lot of people get worked up about the phrase "testing in production", but in fact we all do it. The only question is "Do you admit you do it?" and "Do you try to build guardrails so that you do it safely or not?" Because I agree, testing in production, if you don't have tests, if you don't whatever - it's a terrible idea. But that's not what we're talking about. We're talking about doing it well. Because it's the only way you can test these things.
 
 **Gerhard Lazu:** That's right.
 
@@ -102,7 +102,7 @@ So observability is what allows you to take your microscope out and compare at t
 
 **Gerhard Lazu:** So I think we're both agreeing that shipping into production is very important. Anything before that - you can do it, sure. Why? Ask yourself. If you have--
 
-**Charity Majors:** \[unintelligible 00:19:43.29\] It doesn't matter, it doesn't exist.
+**Charity Majors:** Code that isn't in production is dead code. It doesn't matter, it doesn't exist.
 
 **Gerhard Lazu:** Right. So that's the first one. The second one is you want that time to be as short as possible. I think anything under 15 minutes is good, but what I'm wondering is why 15 minutes.
 
@@ -110,7 +110,7 @@ So observability is what allows you to take your microscope out and compare at t
 
 **Gerhard Lazu:** Right.
 
-**Charity Majors:** \[20:01\] Just the longer it gets, the more pathologies start to creep in; you're entering this sort of death spiral of \[unintelligible 00:20:09.14\] code review takes longer, you start to ship multiple changes from multiple people at a time, so you decouple-- you know, it's just badness. And these numbers I've also pulled out of my ass, but they also seem to be true. If you ship within 15 minutes, that takes you X number of engineers to build, maintain this codebase. If it takes you in the order of an hour or more, you need twice as many engineers. And if it takes you in the order of a day, you need twice as many again. And if it takes you a week, twice as many again. And I'm definitely not exaggerating it; if anything, I am being too conservative and underestimating it.
+**Charity Majors:** \[20:01\] Just the longer it gets, the more pathologies start to creep in; you're entering this sort of death spiral of it takes longer, so you need bigger diffs, so code review takes longer, you start to ship multiple changes from multiple people at a time, so you decouple-- you know, it's just badness. And these numbers I've also pulled out of my ass, but they also seem to be true. If you ship within 15 minutes, that takes you X number of engineers to build, maintain this codebase. If it takes you in the order of an hour or more, you need twice as many engineers. And if it takes you in the order of a day, you need twice as many again. And if it takes you a week, twice as many again. And I'm definitely not exaggerating it; if anything, I am being too conservative and underestimating it.
 
 **Gerhard Lazu:** Right.
 
@@ -140,7 +140,7 @@ I think Intercom - again, they're some of my favorite people, but they ship in 1
 
 **Gerhard Lazu:** Okay. So that was just like one step - install it, and that's it. I like that. That sounds really good. That's super-simple. Very interesting. And how would we visualize the data? So our app starts emitting those events... What happens next?
 
-**Charity Majors:** You go to Honeycomb.io, and your landing page will be familiar to you if you've \[unintelligible 00:25:00.02\] It will have errors, and latency, and request rate etc. But you can start playing around with it. If you're trying to diagnose the problem, or if you're -- one of my favorite things about Honeycomb that we've done is BubbleUp, which is this cool thing where if you see a graph and there's a spike or something and you're like "Ahh, this is bad. I wanna know more about this", you can just draw a little bubble around that spike, and then we will pre-compute for all the dimensions, outside and inside of the bubble, and diff them, sort them, and we'll tell you exactly what is different about the thing that you said you cared about, whether that's one thing or five things.
+**Charity Majors:** You go to Honeycomb.io, and your landing page will be familiar to you if you've used APM tools before. It will have errors, and latency, and request rate etc. But you can start playing around with it. If you're trying to diagnose the problem, or if you're -- one of my favorite things about Honeycomb that we've done is BubbleUp, which is this cool thing where if you see a graph and there's a spike or something and you're like "Ahh, this is bad. I wanna know more about this", you can just draw a little bubble around that spike, and then we will pre-compute for all the dimensions, outside and inside of the bubble, and diff them, sort them, and we'll tell you exactly what is different about the thing that you said you cared about, whether that's one thing or five things.
 
 So you might go "Ah, I care about this", and we'll go "Oh, these errors could be maybe the export endpoint, all from this region of Amazon, all for this particular user ID, all for this particular language pack", and it's really clear, you just immediately see "Ah, this is what's different about the thing that I care about."
 
@@ -170,7 +170,7 @@ So you might go "Ah, I care about this", and we'll go "Oh, these errors could be
 
 **Gerhard Lazu:** Right, okay...
 
-**Charity Majors:** It's a \[unintelligible 00:27:04.12\] so it gets consumed by a pair of retriever nodes, and pretty swiftly it also gets aged out to S3. Then when you're issuing requests via the Honeycomb UI, the queries are actually run by Lambda jobs, which will then fan out to a \[unintelligible 00:27:21.02\] So we merge the data and return it to you in the browser.
+**Charity Majors:** It's a \[unintelligible 00:27:04.12\] store so it gets consumed by a pair of retriever nodes, and pretty swiftly it also gets aged out to S3. Then when you're issuing requests via the Honeycomb UI, the queries are actually run by Lambda jobs, which will then fan out to a full table scan. So we merge the data and return it to you in the browser.
 
 **Gerhard Lazu:** That's interesting. So I hear S3, I hear Lambda... The API - you're not using API Gateway or anything like that from Amazon?
 
@@ -194,7 +194,7 @@ So you might go "Ah, I care about this", and we'll go "Oh, these errors could be
 
 **Gerhard Lazu:** Okay, so it's a Kinesis limitation that was there in the past, and it doesn't matter whether it's there now... Obviously, you have Kafka, it's running well, I'm assuming...
 
-**Charity Majors:** Honestly, ideologically, while I do believe in outsourcing, making it someone else's problem whenever possible, given that Kafka is basically functioning as part of our \[unintelligible 00:28:42.13\] which is a very integral part to Honeycomb; it is one of things that I think is better for us to have in-house expertise and run ourselves.
+**Charity Majors:** Honestly, ideologically, while I do believe in outsourcing, making it someone else's problem whenever possible, given that Kafka is basically functioning as part of our database which is a very integral part to Honeycomb; it is one of things that I think is better for us to have in-house expertise and run ourselves.
 
 **Gerhard Lazu:** Okay. So that answers my next question, which is if it's a managed service or if it's something that you install, you manage, you update...
 
@@ -212,7 +212,7 @@ So you might go "Ah, I care about this", and we'll go "Oh, these errors could be
 
 **Charity Majors:** For the first few hours... It depends. It's dynamic based on your write throughput etc. But it gets written out to SSDs first, and then it gets aged from there into S3. So yeah, it's reading from some combination of the local SSDs and S3.
 
-It was interesting - when we moved from using SSDs for everything to age things out to S3, we really thought there would be a severe performance hit... It turns out no. The performance characteristics are different, but -- and speed is incredibly important to us, because we really want people to be in \[unintelligible 00:30:14.10\] and tweak it, and tweak it... So for our 95th percentile we target one second for those queries.
+It was interesting - when we moved from using SSDs for everything to age things out to S3, we really thought there would be a severe performance hit... It turns out no. The performance characteristics are different, but -- and speed is incredibly important to us, because we really want people to be in the zone, just try this and this, add this question and tweak it, and tweak it... So for our 95th percentile we target one second for those queries.
 
 **Gerhard Lazu:** Right. Okay.
 
@@ -232,11 +232,11 @@ It was interesting - when we moved from using SSDs for everything to age things 
 
 **Gerhard Lazu:** Right. So does the dogfood cluster run a different version of Honeycomb?
 
-**Charity Majors:** Well, it's interesting you bring this up. We are deployed from cron, like every ten minutes. And it first deploys to kibble, and then it waits some amount of time, and if everything is okay, then it promotes to dogfood, then it waits \[unintelligible 00:31:39.07\] promotes to production. And all that happens automatically. So it runs a different version for some amount of time until catch-up.
+**Charity Majors:** Well, it's interesting you bring this up. We are deployed from cron, like every ten minutes. And it first deploys to kibble, and then it waits some amount of time, and if everything is okay, then it promotes to dogfood, then it waits and then it eventually promotes to production. And all that happens automatically. So it runs a different version for some amount of time until catch-up.
 
 **Gerhard Lazu:** So how long does it take for that to make it to production?
 
-**Charity Majors:** About an hour \[unintelligible 00:31:50.27\]
+**Charity Majors:** About an hour, three tops.
 
 **Gerhard Lazu:** So that means you don't deploy to production first. You go to kibble first, and then dogfood, and then production.
 
@@ -264,7 +264,7 @@ It was interesting - when we moved from using SSDs for everything to age things 
 
 **Gerhard Lazu:** Everybody makes mistakes, but we fix them so quickly you don't even know. And we don't let them -- I think this is propagated everywhere. We trust the system, and the system has all these gates built-in.
 
-**Charity Majors:** \[unintelligible 00:32:51.09\]
+**Charity Majors:** We never trust \[unintelligible 00:32:51.09\]
 
 **Gerhard Lazu:** Right. Or engineers.
 
@@ -324,7 +324,7 @@ I feel like there's a lot of passivity on the part of a lot of engineering leade
 
 **Gerhard Lazu:** \[44:14\] So how would you measure what is important on a team? Money is not it, right? That's a short-term goal which has many negatives associated with it. It's important, of course, but it shouldn't be the sole driver.
 
-**Charity Majors:** No. It depends, to some extent... Here's one thing. I think every manager should be -- so I do think every engineer who builds a 24/7 highly-available service should be on call for their work. I also think that getting woken up two or three times a year for your service is reasonable. I think more than that veers close to abusive. And I think it's an engineering manager's job to track this, to make sure that it doesn't get out of hand, to take assertive, active measures when it starts to get really noisy, to carve out time for it. Because sleep - sleep is an important thing, which leads to retention of engineers, which leads to job satisfaction, and all other intangibles... But that's one pretty solid thing that I can put my finger on. People's ability to spend their time focusing and not being \[unintelligible 00:45:21.08\] not being woken up, not being firefighting all the time.
+**Charity Majors:** No. It depends, to some extent... Here's one thing. I think every manager should be -- so I do think every engineer who builds a 24/7 highly-available service should be on call for their work. I also think that getting woken up two or three times a year for your service is reasonable. I think more than that veers close to abusive. And I think it's an engineering manager's job to track this, to make sure that it doesn't get out of hand, to take assertive, active measures when it starts to get really noisy, to carve out time for it. Because sleep - sleep is an important thing, which leads to retention of engineers, which leads to job satisfaction, and all other intangibles... But that's one pretty solid thing that I can put my finger on. People's ability to spend their time focusing and not being interrupt driven, not being woken up, not being firefighting all the time.
 
 Every engineering team has two constituents. There's your customers and there's your engineers. Neither one is more important than the other.
 
@@ -340,7 +340,7 @@ You can also look at top-level metrics like attrition... But honestly, I'm a big
 
 **Gerhard Lazu:** \[47:03\] I really like the way you think about the human element. I really like the way you see us, the engineers, as people, at the end of the day. They're not machines; they have to talk to machines, but it doesn't make them one.
 
-**Charity Majors:** Engineers are not fungible. You asked about the socio-technical systems, and like -- there's a thought experiment that I use sometimes... Imagine the New York Times; you've got a socio-technical system, it's comprised of people, the tools, the systems etc. If you took all the people away and replaced them with equally-powerful engineers, equally-experienced etc. and you send all of your \[unintelligible 00:47:38.00\] engineers off to the Bahamas... How long would it take them to figure out how to fix even a small problem? So much of the system lives in your head, right?
+**Charity Majors:** Engineers are not fungible. You asked about the socio-technical systems, and like -- there's a thought experiment that I use sometimes... Imagine the New York Times; you've got a socio-technical system, it's comprised of people, the tools, the systems etc. If you took all the people away and replaced them with equally-powerful engineers, equally-experienced etc. and you send all of your New York Times engineers off to the Bahamas... How long would it take them to figure out how to fix even a small problem? So much of the system lives in your head, right?
 
 **Gerhard Lazu:** Context, yes.
 
