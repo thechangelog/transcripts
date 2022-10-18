@@ -6,7 +6,7 @@ Okay, through security... Didn't even get checked, didn't even pat me down, or a
 
 \[06:06\] Somebody was just a little bit lax on the old escalator etiquette there, leaving her bag way behind her as she stalled at the top... And it was inevitable I was gonna run into it, because you know, the stairs are moving... So I did fell a little bit. Being British, I apologized, even though we both know it's 100% her fault...
 
-All boarded now, ready for take-off. \[unintelligible 00:06:40.29\]
+All boarded now, ready for take-off. 
 
 \[flight attendant making an announcement\] \[07:03\]
 
@@ -38,7 +38,7 @@ Here I am at the Go Contributors Summit, and there's a lot of gophers assembling
 
 **Mat Ryer:** And what are you gonna be speaking about?
 
-**Egon Elbre:** I'm not sure which table I'm going to attend. The static analysis one seems enticing, and \[unintelligible 00:09:38.00\] wondering what it's about.
+**Egon Elbre:** I'm not sure which table I'm going to attend. The static analysis one seems enticing, and yeah, the Factory Automation I'm like, wondering what it's about.
 
 **Mat Ryer:** Yeah, I don't think it's got anything to do with Java factories. I don't think you need to worry about that.
 
@@ -156,9 +156,9 @@ Here I am at the Go Contributors Summit, and there's a lot of gophers assembling
 
 **Christian Haas:** It could have been, yes, and a totally different discussion would have come out of it.
 
-**Mat Ryer:** Yeah. That would be a very different Terminator. I don't think Terminator was written using test-driven development... Otherwise it may be \[unintelligible 00:17:31.07\]
+**Mat Ryer:** Yeah. That would be a very different Terminator. I don't think Terminator was written using test-driven development... Otherwise it may be a little more out there 
 
-**Christian Haas:** Well, he shoots first, and \[unintelligible 00:17:33.01\]
+**Christian Haas:** Well, he shoots first, and I know he asked first "Have you seen John Conner" and then shoots
 
 **Mat Ryer:** That's true, yeah.
 
@@ -182,7 +182,7 @@ Here I am at the Go Contributors Summit, and there's a lot of gophers assembling
 
 **Mat Ryer:** ...and other people like to just have one failing thing at a time.
 
-**Christian Haas:** Right. So this is then the question "Do you want a checker on properties as a whole, as a group \[unintelligible 00:19:34.13\] consists of several smaller things that I would not expect, or do we want to require this particular thing not \[unintelligible 00:19:43.13\]
+**Christian Haas:** Right. So this is then the question "Do you want a checker on properties as a whole, as a group we have the property that I'm going to test consists of several smaller things that I would not expect, or do we want to require this particular thing not \[unintelligible 00:19:43.13\]
 
 **Mat Ryer:** Yeah, right. Exactly. And when we designed is, it actually returns booleans, so that you can write them inside if statements. You can say like "If this is not nil, basically, then..." And then that will fail if it is, but otherwise it returns true and you carry on into that block, and stuff. But yeah, I quite like the abort early style myself, because I love the fact that you get like a to-do list from your tests, and you just get the next thing that you have to fix.
 
