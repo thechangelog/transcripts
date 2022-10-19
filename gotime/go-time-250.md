@@ -166,7 +166,7 @@ Here I am at the Go Contributors Summit, and there's a lot of gophers assembling
 
 **Mat Ryer:** You're talking about then testing in Go, and specifically about the assertions; are you talking about the code structure, and things like that?
 
-**Christian Haas:** Essentially, the code structure, almost... The question was "Do we manually assert?" Like, in \[unintelligible 00:17:57.20\] Testify, or any other of the assertion libraries that are out there.
+**Christian Haas:** Essentially, the code structure, almost... The question was "Do we manually assert?" Like, in an if my got values equals the want value compared to do it right in assert library, whatever is A B and or Testify, or any other of the assertion libraries that are out there.
 
 **Mat Ryer:** \[18:09\] Yeah, that's interesting. I mean, at one time Testify as a cert package was the most imported package in Go... And when we made it, we kind of were used to writing tests like that, and we just found the three lines to be verbose and repetitive, because you still wanna print out what the values are, and things. But it has, of course, the benefit of -- you know, it's very readable, and you don't have to learn anything new. So that's kind of the trade-off, isn't it?
 
@@ -182,7 +182,7 @@ Here I am at the Go Contributors Summit, and there's a lot of gophers assembling
 
 **Mat Ryer:** ...and other people like to just have one failing thing at a time.
 
-**Christian Haas:** Right. So this is then the question "Do you want a checker on properties as a whole, as a group we have the property that I'm going to test consists of several smaller things that I would not expect, or do we want to require this particular thing not \[unintelligible 00:19:43.13\]
+**Christian Haas:** Right. So this is then the question "Do you want a checker on properties as a whole, as a group we have the property that I'm going to test consists of several smaller things that I would not expect, or do we want to require this particular thing not to be nil because if I would continue then it would be lost anyway 
 
 **Mat Ryer:** Yeah, right. Exactly. And when we designed is, it actually returns booleans, so that you can write them inside if statements. You can say like "If this is not nil, basically, then..." And then that will fail if it is, but otherwise it returns true and you carry on into that block, and stuff. But yeah, I quite like the abort early style myself, because I love the fact that you get like a to-do list from your tests, and you just get the next thing that you have to fix.
 
@@ -236,7 +236,7 @@ Here I am at the Go Contributors Summit, and there's a lot of gophers assembling
 
 **Mat Ryer:** Is it on YouTube still?
 
-**Bill Kennedy:** I imagine Brian and Erik still have that website... That's interesting, because I've never looked at the -- I did a cool little video with the Gopher in \[unintelligible 00:22:05.26\] shopping stuff, and I've played that first, and everybody laughed...
+**Bill Kennedy:** I imagine Brian and Erik still have that website... That's interesting, because I've never looked at the -- I did a cool little video with the Gopher in Walmar-- shopping stuff, and I've played that first, and everybody laughed...
 
 **Mat Ryer:** \[22:12\] Yes, I remember it.
 
@@ -330,7 +330,7 @@ And then the other thing which is critical, if you're in a room -- it's a long d
 
 **Bill Kennedy:** That's right. You've got it. So on the new book, what I did is I self-published, so I can update it when it's absolutely necessary. Because once you go to print, you're kind of locked in.
 
-**Mat Ryer:** What do you do - go around to people's houses and give them new pages to \[unintelligible 00:31:39.15\]
+**Mat Ryer:** What do you do - go around to people's houses and give them new pages to sell a tape in
 
 **Bill Kennedy:** Well, they can always download the PDF new, which is good...
 
@@ -342,9 +342,9 @@ And then the other thing which is critical, if you're in a room -- it's a long d
 
 **Bill Kennedy:** No. Somebody I know is giving this talk, and I wanted to see it... Or maybe a handful of times... But I don't have patience for video. I love reading, because I can read very, very fast... The video, I have to put on 2x, and try to parse it.
 
-So video for conference talks for me are not where I go. And I've been asking people where they've been getting, and mostly it's been books, and then searching online. So you've got the books, I think they're valuable, I'd love to see a whole other set. Video - I do video, because \[unintelligible 00:32:55.26\] But I've never looked at Udemy, I've never looked at Pluralsight, I've never seen anything negative about them, so then it ends up becoming a cost, I think.
+So video for conference talks for me are not where I go. And I've been asking people where they've been getting, and mostly it's been books, and then searching online. So you've got the books, I think they're valuable, I'd love to see a whole other set. Video - I do video, because-- And I think that stuff is in. But I've never looked at Udemy, I've never looked at Pluralsight, I've never seen anything negative about them, so then it ends up becoming a cost, I think.
 
-My big problem with video is I'm gonna be more expensive than you going to Udemy. Even though I give away a ton of video for free o scholarships... People don't really know that they can just ask me, and I will give them discounts. I do it all day.
+My big problem with video is I'm gonna be more expensive than you going to Udemy. Even though I give away a ton of video for free on scholarships... People don't really know that they can just ask me, and I will give them discounts. I do it all day.
 
 **Mat Ryer:** I hear stories all the time though, that they saved -- "Oh yeah, Bill just gave me this thing, because I'm a student, I couldn't afford it", and they got in touch, and...
 
@@ -352,7 +352,7 @@ My big problem with video is I'm gonna be more expensive than you going to Udemy
 
 **Mat Ryer:** That's why you do it, right?
 
-**Bill Kennedy:** At least I have that belief system. So I don't mind the sales team trying to sell three or four sets of videos for -- I don't even know what they sell it for. Maybe $800. But I don't honestly know how many times we actually sell \[unintelligible 00:34:05.00\] \[laughter\] I'm constantly being told that "Bill, this isn't a charity. This is a business."
+**Bill Kennedy:** At least I have that belief system. So I don't mind the sales team trying to sell three or four sets of videos for -- I don't even know what they sell it for. Maybe $800. But I don't honestly know how many times we actually sell that free \[laughter\] I'm constantly being told that "Bill, this isn't a charity. This is a business."
 
 **Mat Ryer:** \[34:14\] \[laughs\] Yeah. That's why you need those businesspeople, isn't it?
 
@@ -366,7 +366,7 @@ My big problem with video is I'm gonna be more expensive than you going to Udemy
 
 **Bill Kennedy:** I break up my training in two parts. I call it a micro-level understanding and a macro-level understanding. So the micro-level understanding is when we get down to lines of code. That's the readability, the simplicity, the syntax, the idioms. And you need that. If you really wanna engineer -- there's programming and there's engineering. And I tell people that are working with me, "Do some programming right now. Just give me code that works. I couldn't care less if I didn't see a single error, if. I'm not looking for that right now. Once we've got code that works, now we'll talk about engineering. We'll engineer."
 
-So at a micro-level, it's critically important to have those idioms and understand what it means for something to be readable. And then learn how to refactor for simplicity. But after a week of Ultimate Go, I don't think you have the ability to go back and be as productive as you could. It's not necessarily a practical -- I almost call it an academic-level class... But you need it, because it sets the stage for the next \[unintelligible 00:36:03.05\] which I'm teaching here, which is your macro-level.
+So at a micro-level, it's critically important to have those idioms and understand what it means for something to be readable. And then learn how to refactor for simplicity. But after a week of Ultimate Go, I don't think you have the ability to go back and be as productive as you could. It's not necessarily a practical -- I almost call it an academic-level class... But you need it, because it sets the stage for the next Ultimate service which I'm teaching here, which is your macro-level.
 
 **Mat Ryer:** Right.
 
@@ -378,7 +378,7 @@ So at a micro-level, it's critically important to have those idioms and understa
 
 **Mat Ryer:** Yeah.
 
-**Bill Kennedy:** I don't think people understand how much they get out of the micro-level class until their product's in production, and now they start hitting the tooling a little bit, and now all the little things I said... Because I've gotten that fever. \[unintelligible 00:37:11.17\] and then we started having problems in production, and like your voice just started flying all over my head.
+**Bill Kennedy:** I don't think people understand how much they get out of the micro-level class until their product's in production, and now they start hitting the tooling a little bit, and now all the little things I said... Because I've gotten that fever. You know, data class and then we started having problems in production, and like your voice just started flying all over my head.
 
 So I think as a teacher there, it's -- I don't know, I'm always fighting to make sure I'm giving the person what they need... And the struggles are just different. Everybody's struggling with different...
 
@@ -408,11 +408,11 @@ So I think as a teacher there, it's -- I don't know, I'm always fighting to make
 
 **Mat Ryer:** Okay, yeah.
 
-**Bill Kennedy:** Right? So I'm teaching all the time, var for zero value construction. I don't wanna see short variable declaration \[unintelligible 00:39:55.17\] I don't wanna see empty literals unless we're on returns, right? So there I can pick out that "This is it."
+**Bill Kennedy:** Right? So I'm teaching all the time, var for zero value construction. I don't wanna see short variable declaration operators, I don't wanna see empty literals unless we're on returns, right? So there I can pick out that "This is it."
 
 **Mat Ryer:** Yeah. Because there's multiple ways to do it, that's why... Isn't it?
 
-**Bill Kennedy:** To me, it was a necessary war to keep the compiler simple, but there's a \[unintelligible 00:40:09.20\] It's one of the first things I teach in the micro - I don't care what you do here, but have a plan.
+**Bill Kennedy:** To me, it was a necessary war to keep the compiler simple, but there's a war there. It's one of the first things I teach in the micro - I don't care what you do here, but have a plan.
 
 The other thing is I hate the else clause. I hate it. Use a switch. Use the naked switch. It's much more readable. So the moment I see an else clause in a piece of code, I freeze, actually. It's horrible. I get stressed out... Like, "This has gotta go."
 
@@ -420,7 +420,7 @@ The other thing is I hate the else clause. I hate it. Use a switch. Use the nake
 
 **Bill Kennedy:** No, because the static check linter is really good, and everybody should be supporting Dominic on that project. We do at Ardan with the GitHub contributions.
 
-**Mat Ryer:** \[unintelligible 00:40:47.22\]
+**Mat Ryer:** Ah yeah, sponsors.
 
 **Bill Kennedy:** Yeah. Everybody who's using that tool should be giving them something every month, because what he's doing is amazing. Now, I did start writing what we were calling the Ardan Playbook...
 
@@ -552,7 +552,7 @@ And then -- okay, we didn't document the handbook, but I've taught the handbook 
 
 **Mat Ryer:** Right.
 
-**Bill Kennedy:** And I only have 30 minutes here. So what I decided is to take a small bit of Ultimate Go that I've done and just show in a practical way how you can use benchmarking for profiling, \[unintelligible 00:51:30.18\] to find non-productive allocations, and fix them, and do all live coding, and...
+**Bill Kennedy:** And I only have 30 minutes here. So what I decided is to take a small bit of Ultimate Go that I've done and just show in a practical way how you can use benchmarking for profiling, in some compiler switches, to find non-productive allocations, and fix them, and do all live coding, and...
 
 **Mat Ryer:** Ah, again very practical stuff that people will be able to use immediately.
 
@@ -574,7 +574,7 @@ And then -- okay, we didn't document the handbook, but I've taught the handbook 
 
 **Mat Ryer:** Well, that beautiful sound there was just created by Egon. How have you done that?
 
-**Egon Elbre:** Well, I came here and did a TinyGo workshop, and I took some buttons and mapped them to a trumpet \[unintelligible 00:53:44.26\]
+**Egon Elbre:** Well, I came here and did a TinyGo workshop, and I took some buttons and mapped them to a trumpet \[unintelligible 00:53:44.26\] then control it with Ableton
 
 **Mat Ryer:** Yeah. So you had to assemble this yourself on the breadboard.
 
@@ -588,7 +588,7 @@ And then -- okay, we didn't document the handbook, but I've taught the handbook 
 
 **Egon Elbre:** Yeah, exactly.
 
-**Mat Ryer:** ...and that is translating into the midi notes, which is then played out through \[unintelligible 00:54:26.25\]
+**Mat Ryer:** ...and that is translating into the midi notes, which is then played out through Ableton
 
 **Egon Elbre:** Yes, exactly.
 
@@ -636,15 +636,15 @@ And then -- okay, we didn't document the handbook, but I've taught the handbook 
 
 **Mat Ryer:** Amazing.
 
-**Ron Evans:** We brought all sorts of hardware from our secret lair, for people to check out \[unintelligible 00:57:03.23\] And then using that, they can hack on hardware, fly drones, program gopherbots, program IoT controllers, and even our TinyGo music jam.
+**Ron Evans:** We brought all sorts of hardware from our secret lair, for people to check out lending library style And then using that, they can hack on hardware, fly drones, program gopherbots, program IoT controllers, and even our TinyGo music jam.
 
-**Mat Ryer:** Oh, that I can't wait for. I was talking to \[unintelligible 00:57:15.23\] He was making a drone fly around, before someone nearly squashed it.
+**Mat Ryer:** Oh, that I can't wait for. I was talking to BuBu earlier He was making a drone fly around, before someone nearly squashed it.
 
 **Ron Evans:** Well, he's actually been consuming the batteries for the drones at a very rapid pace, and... He's definitely getting his drone pilot license after this, I'm telling you.
 
 **Mat Ryer:** Yeah. \[laughs\] So let's have a quick look at some of the stuff you've got here then. I mean, obviously, it's a podcast, so people can't see it. We're gonna have to describe it... But there's these cool pins, and stuff.
 
-**Ron Evans:** Oh, these are really awesome TinyGo pins made by \[unintelligible 00:57:41.01\] my awesome collaborator and colleague. He makes wonderful toys of all different kinds... So he 3D-printed these cool, little, tiny gophers, which - you've gotta take one, in your appropriate color...
+**Ron Evans:** Oh, these are really awesome TinyGo pins made by ConejoNinja my awesome collaborator and colleague. He makes wonderful toys of all different kinds... So he 3D-printed these cool, little, tiny gophers, which - you've gotta take one, in your appropriate color...
 
 **Mat Ryer:** Adorable... Yes...
 
@@ -662,7 +662,7 @@ And then -- okay, we didn't document the handbook, but I've taught the handbook 
 
 **Ron Evans:** GopherPunk.
 
-**Mat Ryer:** Yeah. \[unintelligible 00:58:22.21\] Yeah, they're just so great. And then there's lots of components and things for people to build...
+**Mat Ryer:** Yeah. Yeah, they're just so great. And then there's lots of components and things for people to build...
 
 **Ron Evans:** Yes, we have fully assembled gopherbots for the people who want to explore the software side of hardware... And then we have all these IoT sensor kits, with individual sensors for people who actually want to touch metal. They want to plug in cables that control individual LEDs. We've got that for you as well.
 
@@ -718,7 +718,11 @@ And then -- okay, we didn't document the handbook, but I've taught the handbook 
 
 **conejoninja**: Yes.
 
-**Mat Ryer:** Yeah, a little bit... \[unintelligible 01:02:44.10\] Yeah, that's the plan, isn't it? \[laughs\] Well, this is it. I look forward to these. Because this is gonna be like The Terminator, but they're adorable... Yeah, so... In a way, be nice.
+**Mat Ryer:** Yeah, a little bit... 
+
+**conejoninja**: \[unintelligible 01:02:44.10\]
+
+**Mat Ryer:**Yeah, that's the plan, isn't it? \[laughs\] Well, this is it. I look forward to these. Because this is gonna be like The Terminator, but they're adorable... Yeah, so... In a way, be nice.
 
 **Ron Evans:** We're all gopherbots now.
 
