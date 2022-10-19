@@ -248,13 +248,13 @@ He then came back home, he learned how to code... He wanted to learn how to code
 
 **Adam Stacoviak:** So did he have a ruck on? Do you know much about the story then? Did he have a rucksack on?
 
-**Jerome Hardaway:** Yeah, he said he had a ruck... \[unintelligible 00:37:27.10\] all this stuff.
+**Jerome Hardaway:** Yeah, he said he had a ruck... like he says, unpredictable weather, brutal terrain, straining health, fractured mind all this stuff.
 
 **Adam Stacoviak:** I bet you that's probably the most free he's been in his whole life though... Despite the PTSD -- I can imagine that's a struggle for him, but that's the time when you're free, when you're in the elements, on your own. This is an opt-in. This isn't like "I'm stranded." This is like "I wanna do it on purpose." Probably planned for months, or not... At least a day.
 
 **Jerome Hardaway:** You don't know if he's a thinker or a psycho, right?
 
-**Adam Stacoviak:** Well, I just imagine, \[unintelligible 00:38:02.28\] It reminds me of that movie with Reese Whitherspoon. It was a Pacific North-West thing, where it's common to hike this particular trail... And she did it as a journey. It reminds me of that story.
+**Adam Stacoviak:** Well, I just imagine, what a free... It reminds me of that movie with Reese Whitherspoon. It was a Pacific North-West thing, where it's common to hike this particular trail... And she did it as a journey. It reminds me of that story.
 
 **Jerome Hardaway:** It's his crucible, right? That is what it was; it was his crucible for clarity, to get to the next level.
 
@@ -300,15 +300,15 @@ So for me, that's amazing, because all the negative stereotypes we have as veter
 
 **Adam Stacoviak:** And he was such a calm-spirited person, too.
 
-**Jerome Hardaway:** Yeah, but he was a \[unintelligible 00:42:23.08\] instructor. That's what they don't tell you.
+**Jerome Hardaway:** Yeah, but he was a drill sergeant. That's what they don't tell you.
 
 **Adam Stacoviak:** Is that right?
 
-**Jerome Hardaway:** Yes, he was a \[unintelligible 00:42:28.03\] instructor at one point.
+**Jerome Hardaway:** Yes, he was a drill sergeant at one point.
 
 **Adam Stacoviak:** I didn't know if his military -- I watched the Netflix thing on him recently, but I don't know a ton about Bob Ross' actual past. I didn't even know he was in the military.
 
-**Jerome Hardaway:** Yeah, he was Air Force, his last base was \[unintelligible 00:42:40.22\] saw the mountains and he was like, "Peace out. I'm gonna draw these for the rest of my life." \[laughter\] \[unintelligible 00:42:47.25\] Steve Ditko was a coast guard, Stan Lee was U.S. Army, you have Jack Kirby, who was also U.S. Army... These world creators, these people who -- you know, they were multipliers. They showed a different side of us as veterans, as veteran culture, that isn't the thing that puts dollars on a lot of people's plates, unless you're the anomaly, right? And they showed this other side of the world. And especially in tech, where I don't feel like we need to be trying to push this grunt-style black rifle coffee look with veterans in tech... Because they don't even think about those guys being -- you know, Stan Lee, Bob Ross, Steve Ditko, Jack Kirby being veterans - they don't even know that veterans have already influenced so much of their life, right? You know, the only veteran that they think about really is Chuck Norris, right? Because of all the jokes. He's Air Force, Security Forces, Defensive \[unintelligible 00:43:58.18\] So that's where this award comes from, and that's why I'm so happy to give it to Nathan, because I'm like --
+**Jerome Hardaway:** Yeah, he was Air Force, his last base was \[unintelligible 00:42:40.22\] saw the mountains and he was like, "Peace out. I'm gonna draw these for the rest of my life." \[laughter\] \[unintelligible 00:42:47.25\] Steve Ditko was a coast guard, Stan Lee was U.S. Army, you have Jack Kirby, who was also U.S. Army... These world creators, these people who -- you know, they were multipliers. They showed a different side of us as veterans, as veteran culture, that isn't the thing that puts dollars on a lot of people's plates, unless you're the anomaly, right? And they showed this other side of the world. And especially in tech, where I don't feel like we need to be trying to push this grunt-style black rifle coffee look with veterans in tech... Because they don't even think about those guys being -- you know, Stan Lee, Bob Ross, Steve Ditko, Jack Kirby being veterans - they don't even know that veterans have already influenced so much of their life, right? You know, the only veteran that they think about really is Chuck Norris, right? Because of all the jokes. He's Air Force, Security Forces, Defensive Forces in these streets. So that's where this award comes from, and that's why I'm so happy to give it to Nathan, because I'm like --
 
 **Adam Stacoviak:** \[44:07\] Excelsior.
 
@@ -336,7 +336,7 @@ So that's another thing that we're working on... Like I said, we're working on a
 
 **Adam Stacoviak:** You're busy, man... Y'all are busy.
 
-**Jerome Hardaway:** We are. Absolutely. I think people don't understand how busy I am, because I'm doing this -- like, the first seven years of Vets Who Code was great; we \[unintelligible 00:48:46.22\] and everything else... But now, over the course of the next five years, I want to be the creator, the distributor. I wanna be able to come to people \[unintelligible 00:48:55.23\] here's what we've been doing in our codebases... Here's what we've been doing, this is how we use AWS, this is how we use Netlify, this is how we use all this stuff", and you're like, "Wow, you're creating an entire ecosystem." That's what we wanna do. That's what I wanna do. I wanna be like Jack Kirby, a world creator.
+**Jerome Hardaway:** We are. Absolutely. I think people don't understand how busy I am, because I'm doing this -- like, the first seven years of Vets Who Code was great; we got media and everything else... But now, over the course of the next five years, I want to be the creator, the distributor. I wanna be able to come to people \[unintelligible 00:48:55.23\] here's what we've been doing in our codebases... Here's what we've been doing, this is how we use AWS, this is how we use Netlify, this is how we use all this stuff", and you're like, "Wow, you're creating an entire ecosystem." That's what we wanna do. That's what I wanna do. I wanna be like Jack Kirby, a world creator.
 
 **Adam Stacoviak:** So you work at Microsoft though, right?
 
