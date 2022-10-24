@@ -30,7 +30,7 @@ Documentation is not the most sexy kind of work that everybody dreams of working
 
 **Sébastien Lorber:** Yeah.
 
-**Amal Hussein:** \[00:07:55.12\] ...but also just the credibility that it lends you, right? So I love that. The story is such a web 2.0 job story... "I saw a tweet, learned about this, did some open source work, proved that I could do the job, and then got the job." I love this. I would love to hear that kind of story more often.
+**Amal Hussein:** \[07:55\] ...but also just the credibility that it lends you, right? So I love that. The story is such a web 2.0 job story... "I saw a tweet, learned about this, did some open source work, proved that I could do the job, and then got the job." I love this. I would love to hear that kind of story more often.
 
 **Sébastien Lorber:** This is exactly my inspiration, because I read maybe the "Build in public" -- no, it's not "Build in public", it's "Learn in public."
 
@@ -48,7 +48,7 @@ Documentation is not the most sexy kind of work that everybody dreams of working
 
 So basically, it's me executing the project and reviewing the progress of the community, and organizing the open source work around the project, but I'm backed by the Meta employees that review sometimes my work, and give me advice, and things like that.
 
-**Jerod Santo:** \[00:11:57.05\] Yeah. So I'm gonna ask a question, and if you don't want to answer it, I'll ask for forgiveness, okay?
+**Jerod Santo:** \[11:57\] Yeah. So I'm gonna ask a question, and if you don't want to answer it, I'll ask for forgiveness, okay?
 
 **Amal Hussein:** Touché!
 
@@ -62,7 +62,7 @@ This is something I've always been clear about it, is that I won't be able to wo
 
 **Sébastien Lorber:** Yes.
 
-**Amal Hussein:** So what's it like managing that? And more so, can you tell us a little bit about the story of this project? Was it always open source? Did Facebook open-source it at some point? And what was the problem that it was solving for Facebook as well? So I asked you three questions in one question... Go!
+**Amal Hussein:** So what's it like managing that? And more so, can you tell us a little bit about the story of this project? Was it always open source? Did Facebook open source it at some point? And what was the problem that it was solving for Facebook as well? So I asked you three questions in one question... Go!
 
 **Jerod Santo:** \[laughs\]
 
@@ -82,11 +82,11 @@ This is something I've always been clear about it, is that I won't be able to wo
 
 **Sébastien Lorber:** Yeah... I don't know. I've never used Jekyll, so I can't tell you...
 
-**Amal Hussein:** \[00:16:02.23\] Yeah, we're sidetracking. It's fine. So back to your story.
+**Amal Hussein:** \[16:02\] Yeah, we're sidetracking. It's fine. So back to your story.
 
-**Sébastien Lorber:** So they tried to create some kind of Jekyll boilerplate, but they copied -- for each new documentation website, but it was not very scalable either, because if they want to add a new user experience to the template, then you had to copy-paste the change to all the documentation websites... So it was easy to get started, but once you want to end the existing sites, you had to port the change manually to each site, so the maintenance was not very scalable this time. So what they did is they had the idea of a React static site generator that would actually just focus on the documentation, and they created Docusaurus version one maybe five or six years ago; it was open-sourced.
+**Sébastien Lorber:** So they tried to create some kind of Jekyll boilerplate, but they copied -- for each new documentation website, but it was not very scalable either, because if they want to add a new user experience to the template, then you had to copy-paste the change to all the documentation websites... So it was easy to get started, but once you want to end the existing sites, you had to port the change manually to each site, so the maintenance was not very scalable this time. So what they did is they had the idea of a React static site generator that would actually just focus on the documentation, and they created Docusaurus version one maybe five or six years ago; it was open sourced.
 
-I don't know if it was created before being open-sourced, or the opposite. I think it started internally maybe six months before being open source. I don't know exactly when it started internally, but it was open source maybe five years ago, I think.
+I don't know if it was created before being open sourced, or the opposite. I think it started internally maybe six months before being open source. I don't know exactly when it started internally, but it was open source maybe five years ago, I think.
 
 **Amal Hussein:** Okay.
 
@@ -114,7 +114,7 @@ So now maybe you wonder why there is Docusaurus 2. It was released maybe four ye
 
 **Amal Hussein:** So then Docusaurus comes back with v2, and it's like, "Bam! I'm here!" So can you tell us about that?
 
-**Sébastien Lorber:** \[00:20:06.28\] Yeah. Somehow there were some problems with version one - it was not very flexible. I think the main difference that you would notice is that it was not very flexible; you couldn't really add good branding to your documentation website. So all the documentation websites in v1 kind of looked like each others. It's just that you could change the logo, the footer, the nav bar items, and colors, but not much more than that. You could customize your CSS by providing custom CSS, but you know, it's not very flexible. If you can't change the markup behind, you are a bit limited.
+**Sébastien Lorber:** \[20:06\] Yeah. Somehow there were some problems with version one - it was not very flexible. I think the main difference that you would notice is that it was not very flexible; you couldn't really add good branding to your documentation website. So all the documentation websites in v1 kind of looked like each others. It's just that you could change the logo, the footer, the nav bar items, and colors, but not much more than that. You could customize your CSS by providing custom CSS, but you know, it's not very flexible. If you can't change the markup behind, you are a bit limited.
 
 And also, a big difference in a technical perspective is that it used React at that time, but only on the server side. So React was never loaded on the client side, and it was a multi-page application, not a single-page application, so... It's like you did React, but only server-side. You used React as --
 
@@ -152,7 +152,7 @@ And also, a big difference in a technical perspective is that it used React at t
 
 **Jerod Santo:** Smell that... Spicy, hot takes...
 
-**Break:** \[00:22:34.09\]
+**Break:** \[22:34\]
 
 **Jerod Santo:** So 2.0 has arrived... It looks great. I mean, the website looks great, the list of things it does looks great... So congratulations, first of all, on shipping a big rewrite. I'm sure that was a lot of effort, and took a lot of time...
 
@@ -200,7 +200,7 @@ I think this gives a great experience, and also, there are new features in React
 
 **Amal Hussein:** Yeah, and avoid using JavaScript, and just have it be static, and whatever else. No, actually -- so first of all, this is cool. I think it's interesting. You're leveraging precaching, and prefetching, and whatever else, so this optimistic kind of architecture... Which is great, but for me, all of that needs to be -- like, you need to be a little conservative with that, because your users might be on a mobile device. Are they on Wi-Fi? Are they on 3G? Are you prefetching a bunch of things on their data plan? Are you making their machine do more than it needs to right now, because they're low on battery? So you want to be conservative with that. It's a superpower...
 
-**Sébastien Lorber:** \[00:28:12.16\] Yeah, I agree. So first, I want to mention that we don't do the prefetching if there is low bandwidth, or data saving, or whatever. We can prevent that. And then it will only fetch the components once the user clicks. So it's possible. Somehow, I think, yeah, for sure, it's a trade-off, because you can -- for example, even pre-rendering, I said that you can start to render out the next component of the next page, but maybe the user has a very bad CPU and wants to preserve the battery, so why don't you want to --
+**Sébastien Lorber:** \[28:12\] Yeah, I agree. So first, I want to mention that we don't do the prefetching if there is low bandwidth, or data saving, or whatever. We can prevent that. And then it will only fetch the components once the user clicks. So it's possible. Somehow, I think, yeah, for sure, it's a trade-off, because you can -- for example, even pre-rendering, I said that you can start to render out the next component of the next page, but maybe the user has a very bad CPU and wants to preserve the battery, so why don't you want to --
 
 **Amal Hussein:** Correct.
 
@@ -230,9 +230,9 @@ I think this gives a great experience, and also, there are new features in React
 
 **Sébastien Lorber:** Yeah, it's exactly like Next.js or Gatsby. So you render the page on the server, we render it statically, because we don't have any server-side rendering, so it's build time that we render all the pages, like a classic static site generator, and then the browser loads the HTML page, and then we load React on top of that page to enhance it with the single-page application.
 
-\[00:31:50.04\] But I agree that this may seem overkill for a documentation website, and we'll actually take care of making it -- I mean, I care a lot about progressive enhancement, so for me, the idea is that almost all these documentation sites should work without JavaScript enabled. So you should be able to navigate across the pages to be able to navigate inside the documentation sidebar that permits to navigate inside your content... And you should be able to do many things; maybe there are some things that don't work, like being able to search or to toggle the dark mode. Those are not too critical, and you can consume the content without JavaScript.
+\[31:50\] But I agree that this may seem overkill for a documentation website, and we'll actually take care of making it -- I mean, I care a lot about progressive enhancement, so for me, the idea is that almost all these documentation sites should work without JavaScript enabled. So you should be able to navigate across the pages to be able to navigate inside the documentation sidebar that permits to navigate inside your content... And you should be able to do many things; maybe there are some things that don't work, like being able to search or to toggle the dark mode. Those are not too critical, and you can consume the content without JavaScript.
 
-**Amal Hussein:** Yeah. I'm really glad you said that, because I was gonna bring up this point about Curl, especially for content sites... Especially for developer documentation sites. Like, if I'm in my terminal and I just want to look up something, one of the things I really like about NPM, like NPM, the entire API catalog, similar to native built-ins from Unix - you just go to the man pages, right? So manuals; man short for manual, not man, like person-man.
+**Amal Hussein:** Yeah. I'm really glad you said that, because I was gonna bring up this point about Curl, especially for content sites... Especially for developer documentation sites. Like, if I'm in my terminal and I just want to look up something, one of the things I really like about npm, like npm, the entire API catalog, similar to native built-ins from Unix - you just go to the man pages, right? So manuals; man short for manual, not man, like person-man.
 
 **Jerod Santo:** That's the patriarchy, that name, though... Isn't it?
 
@@ -248,7 +248,7 @@ I think this gives a great experience, and also, there are new features in React
 
 **Jerod Santo:** \[laughs\]
 
-**Amal Hussein:** So the NPM CLI - all the documentation is available to you right there; you never have to go to a browser. Same thing for being able to curl a website's documentation would be nice too, because I can just curl, pipe into whatever, and just -- I can do all my searching and grepping very efficiently from my terminal window. And so for me, it's like, I'm glad to learn that the SPA is like a shim layer, and there is a core HTML that's still generated... That's awesome. However, I guess for me it still feels like overkill, but it's okay; we can agree to disagree. I'm not gonna love every single thing about this project.
+**Amal Hussein:** So the npm CLI - all the documentation is available to you right there; you never have to go to a browser. Same thing for being able to curl a website's documentation would be nice too, because I can just curl, pipe into whatever, and just -- I can do all my searching and grepping very efficiently from my terminal window. And so for me, it's like, I'm glad to learn that the SPA is like a shim layer, and there is a core HTML that's still generated... That's awesome. However, I guess for me it still feels like overkill, but it's okay; we can agree to disagree. I'm not gonna love every single thing about this project.
 
 **Sébastien Lorber:** Yeah. Actually, this is not something that exists today, but what I really like is that there is a mode of Docusaurus that works 100% without any JavaScript.
 
@@ -274,7 +274,7 @@ I think this gives a great experience, and also, there are new features in React
 
 **Sébastien Lorber:** So we felt the idea was to be feature-complete with version one, so what we did is to have the advanced features like versioning. So if you want to manage multiple versions of your documentation, you can just create a snapshot copy of the current documentation, and then have two versions in parallel in the same Git branch. This is a bit different from other projects that use one version per Git target branch for the documentation, and I think it's interesting to be able to do both on a case-by-case basis, which is possible with Docusaurus.
 
-\[00:36:00.05\] So for example, if you have two or three versions of your project in parallel, in the same Git branch, the thing is that you can port the change in your project to three versions of the documentation in a single pull request... So this is really easier to manage. For example, if you implement a feature in version two, and then backport it to version one for a reason or another, you can just submit one doc's pull request, and then you will be able to update version one and version two documentation in a single pass. So this is easier for maintenance.
+\[36:00\] So for example, if you have two or three versions of your project in parallel, in the same Git branch, the thing is that you can port the change in your project to three versions of the documentation in a single pull request... So this is really easier to manage. For example, if you implement a feature in version two, and then backport it to version one for a reason or another, you can just submit one doc's pull request, and then you will be able to update version one and version two documentation in a single pass. So this is easier for maintenance.
 
 And although we have support for a theme to be able to translate your website, it was also possible with the version one. How it works is that you can just adopt a file system convention so that you can put the translation files, the Markdown translated files in a specific folder, and then they will somehow override the content in English, if it's your main language... And you can run your website with a \[unintelligible 00:37:05.19\] on which you want to build the site, so that you can deploy, for example, the French site, or the English site, depending on your CI, or whatever you want. So these are some features of Docusaurus 1, but still are in Docusaurus 2.
 
@@ -292,7 +292,7 @@ So the idea of Docusaurus 2 for me is to really great-looking documentation webs
 
 **Jerod Santo:** \[unintelligible 00:40:09.11\] for the effort, you know? The 20 bills... I'll take one. Just give me one bill.
 
-**Amal Hussein:** \[00:40:13.21\] \[laughs\] Okay, so first of all - wow, a lot to unpack there. So let's just take it from the top. Document versioning - so that's huge. When I heard about that, I was like "Oh, my God." Like, wow... Talk about solving a really big pain point for maintainers. This is something where -- unfortunately, it's one of those things where it's felt by the maintainer community, not so much the broader developer community... But it is a real problem. Maintaining versions of your documentation within the same repo, getting the npm publish to show that correctly, yadda-yadda-yadda, for every major version patch and minor version of whatever that you're supporting - it's like a huge undertaking to keep those docks in sync as well. So first of all, amazing, amazing feature.
+**Amal Hussein:** \[40:13\] \[laughs\] Okay, so first of all - wow, a lot to unpack there. So let's just take it from the top. Document versioning - so that's huge. When I heard about that, I was like "Oh, my God." Like, wow... Talk about solving a really big pain point for maintainers. This is something where -- unfortunately, it's one of those things where it's felt by the maintainer community, not so much the broader developer community... But it is a real problem. Maintaining versions of your documentation within the same repo, getting the npm publish to show that correctly, yadda-yadda-yadda, for every major version patch and minor version of whatever that you're supporting - it's like a huge undertaking to keep those docks in sync as well. So first of all, amazing, amazing feature.
 
 And then like the translations piece that you're talking about - the internationalization support. So that's not necessarily new, but it seems like you have some enhancements that you've made to the core functionality in v2 - that itself is huge, too. Being able to kind of -- I love this idea of "What are all the things that you need to do to maintain documentation sites?" You need to maintain it in different versions, you need to possibly get it translated, people are gonna want to search it, so you have the search functionality as well... So it's like all of these things that everybody's doing manually in different ways, and poorly, you all have kind of abstracted and created these clean interfaces for the community to leverage, especially the maintainer community, because these are the folks that are doing the heroes work already... So anything we can do to make their lives easier is just a huge win. I'm so glad to hear about all the success and adoption. Looking at the website today, I'm seeing Mark Erickson, our beloved Mark Erickson talking about this, \[unintelligible 00:42:01.07\] from the Angular community, Supabase, Kent C. Dodds, you name it. All these people. Debbie O'Brien... So lots of folks kind of singing praises for this project... So kudos. Pretty good stuff. So what's the feedback that you've been getting about v2, in terms of kind of missing functionality, or things that could be improved? Can we talk about the part of the retro that's like what to improve?
 
@@ -300,7 +300,7 @@ And then like the translations piece that you're talking about - the internation
 
 **Amal Hussein:** Yeah, this is all fantastic stuff. So we're going to talk about the plugin architecture, which is kind of the secret sauce for how all these big companies like Figma, Supabase were able to kind of create these Docusaurus sites without even folks like Sébastien knowing, right? So we're gonna talk about that, we're gonna talk about the community, we're gonna talk about the marketing, we're gonna talk about the roadmap... I'm super-interested to go back to the governance thing that I brought up earlier... So all this and more. We'll be right back.
 
-**Break:** \[00:44:17.22\] to \[00:49:09.19\]
+**Break:** \[44:17\] to \[49:09\]
 
 **Jerod Santo:** So it sounds like one of the things that makes Docusaurus 2 so usable in all these different contexts is that plugin architecture. Sébastien, can you give us some examples? You mentioned theming, so that one, I guess, immediately resonates in my brain. But what are some other things that you can do with plugins? And then we'll get into the actual way that you do them.
 
@@ -318,7 +318,7 @@ We provide also a theme which implements the UI for the three content plugins th
 
 **Sébastien Lorber:** ...you can create your own components to implement your own theme, that works with our plugins, if you want. Or you can just take the existing theme and say, "Yeah, I don't like the footer of this theme, but everything else is fine, so I will just override the footer and implement something."
 
-**Amal Hussein:** \[00:52:07.03\] Oh, nice. So that's the modularity piece, where everything is replaceable... So if I understood you correctly, you're saying that we have a core architecture that supports kind of smart defaults, and there's a turnkey experience, but all aspects of the core defaults can be overwritten, like down to the footer level, right? Which is kind of cool, yeah.
+**Amal Hussein:** \[52:07\] Oh, nice. So that's the modularity piece, where everything is replaceable... So if I understood you correctly, you're saying that we have a core architecture that supports kind of smart defaults, and there's a turnkey experience, but all aspects of the core defaults can be overwritten, like down to the footer level, right? Which is kind of cool, yeah.
 
 **Sébastien Lorber:** Yeah. It's not just the footer, you can actually override any file in the theme. So this is powerful, but at the same time, this is dangerous, because it creates an implicit API surface for Docusaurus, where for example if you decide to override a component and then in the next version of Docusaurus we decide to rename it, then your app will lose the customizations, so you will have to figure out why we decided to rename this component. So now, what we started to do recently is that we mark the components as safe to override or dangerous, and then the maintainer of the site decide for himself if he really wants to do something dangerous or not. I mean, it's not very dangerous in the end. Maybe the word is not correct. But if you upgrade Docusaurus, you have a risk that something will break.
 
@@ -340,9 +340,9 @@ I have seen a lot of customer footers too, because companies like to have their 
 
 **Sébastien Lorber:** We have a page on the website which is called the site showcase. And you can take a look, there are maybe 200 sites there, and you can sort them by -- for example, we have added tags to each site. For example, if a site has a grid design, we marked it with a design tag, so that you can easily get some inspiration from great open source websites, and eventually \[unintelligible 00:55:45.04\] if you want to replicate what they did. So this is quite useful for the community, to--
 
-**Jerod Santo:** Yeah, that showcase is great. It's very fun to just scroll through, and very impressive, all of the sites that are being built with this. I assume that the plugins are distributed just via Npm, if you're going to actually get that out there to the public...? Or how do you -- if I wanted to share it outside of my org...
+**Jerod Santo:** Yeah, that showcase is great. It's very fun to just scroll through, and very impressive, all of the sites that are being built with this. I assume that the plugins are distributed just via npm, if you're going to actually get that out there to the public...? Or how do you -- if I wanted to share it outside of my org...
 
-**Sébastien Lorber:** \[00:56:09.24\] So for Docusaurus core plugins - they are all in the monorepo with the Docusaurus code. So the free plugins that we maintain are officially distributed on Npm and the Docusaurus org. Community plugins are published on Npm, like any other Npm package. So you can just npm-install them and install them. And also, we have seen some quite interesting plugins, for example for local search... For example, we use Algolia by default, which is a solution that we maintain officially... Algolia DocSearch, which is free for open source technical documentations and things like that, I think. But if you can't choose Algolia for various reasons - if you don't want to pay, or if you don't want your data to be owned by Algolia, you can install a local search plugin. And I think there are a few options, based on the value. So local search libraries, like \[unintelligible 00:57:03.19\] and things like that. There are a lot of different client-side browser search libraries implementing tokenization, and things like that...
+**Sébastien Lorber:** \[56:09\] So for Docusaurus core plugins - they are all in the monorepo with the Docusaurus code. So the free plugins that we maintain are officially distributed on npm and the Docusaurus org. Community plugins are published on npm, like any other npm package. So you can just npm-install them and install them. And also, we have seen some quite interesting plugins, for example for local search... For example, we use Algolia by default, which is a solution that we maintain officially... Algolia DocSearch, which is free for open source technical documentations and things like that, I think. But if you can't choose Algolia for various reasons - if you don't want to pay, or if you don't want your data to be owned by Algolia, you can install a local search plugin. And I think there are a few options, based on the value. So local search libraries, like \[unintelligible 00:57:03.19\] and things like that. There are a lot of different client-side browser search libraries implementing tokenization, and things like that...
 
 So I think we have three popular local search plugins today. And also, for example, many websites want to document an API, and today I think we have two open API plugins to document your API, if you want to add this to your documentation website. And there is also Redoc plugin with Docusaurus, which permits also to use Redoc, which permits to document an API inside Docusaurus.
 
@@ -360,7 +360,7 @@ So I think we have three popular local search plugins today. And also, for examp
 
 So the Discord is very active, and I think we don't have a very clear roadmap because -- I mean, open source, it's complicated. There is also a new important bug that gets opened and steals the priority of something less priority, but more important... So I try to implement the important features, like supporting the next version of React and things like that progressively, when I have time. And once there is enough progress, then I will release it.
 
-\[00:59:50.03\] Sometimes we discuss a bit about what kind of new features we want soon in Docusaurus, and when we release a new version, we mark some goals that we have for future versions of Docusaurus... But we don't commit to releasing, for example, a list of features in the next version of Docusaurus. I think what we want to do is maybe release three or four times a major version per year, and try to have at least a few major features in each major version.
+\[59:50\] Sometimes we discuss a bit about what kind of new features we want soon in Docusaurus, and when we release a new version, we mark some goals that we have for future versions of Docusaurus... But we don't commit to releasing, for example, a list of features in the next version of Docusaurus. I think what we want to do is maybe release three or four times a major version per year, and try to have at least a few major features in each major version.
 
 The idea is that we don't block a release because a feature is not implemented, because you know, sometimes you decide three months before that you want to have this feature, and then you find out that it's not possible at that time because there are some blockers...
 
