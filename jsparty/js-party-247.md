@@ -24,7 +24,7 @@ We'd love to hear your relationship to the project and how you got involved. I s
 
 **Sébastien Lorber:** This was \[unintelligible 00:06:03.13\] from Facebook, that tweeted something "We are looking for a contractor to work on Docusaurus... I didn't even know what Docusaurus was at this time, but it took a look and it looked interesting. I didn't know the project, so before consolidating, I tried it a bit, to be able to understand what it was about.
 
-Documentation is not the most sexy kind of work that everybody dreams of working. It was not something I planned to work on at that time, but I thought the project was still interesting, so I wanted to get involved, and now I think I like the idea of creating nice documentation websites, and I see the value of having good documentation tools to create a greater developer experience... So I think \[unintelligible 00:06:55.07\] to get the job is that I had like maybe six years of React experience at that time, and also, I sent a few little pull requests with good test coverage and everything, really nicely done, so that maybe the others will be able to see that I'm able to contribute to his project... So now I did the job before having the job, so that I can get it officially.
+Documentation is not the most sexy kind of work that everybody dreams of working. It was not something I planned to work on at that time, but I thought the project was still interesting, so I wanted to get involved, and now I think I like the idea of creating nice documentation websites, and I see the value of having good documentation tools to create a greater developer experience... So I think what helped to get the job is that I had like maybe six years of React experience at that time, and also, I sent a few little pull requests with good test coverage and everything, really nicely done, so that maybe the others will be able to see that I'm able to contribute to his project... So now I did the job before having the job, so that I can get it officially.
 
 **Amal Hussein:** That is so cool. So we've been talking on the show a lot about working in the open... Lately we had the famous, legendary Dr. Gleb Bahmutov on the show again recently, talking about his open source work... And Swyx has been on the show a few times, and he's a proponent of this as well, this idea of working in the open and all the wonderful benefits that it gives you; not in terms of just being able to showcase your work and being able to take your work with you regardless of who's paying your paycheck, right?
 
@@ -192,7 +192,7 @@ I think this gives a great experience, and also, there are new features in React
 
 **Sébastien Lorber:** There is a project called Guess.js, and it uses Google Analytics data to predict the next page that you are most likely to visit... And there is a Gatsby plugin for that.
 
-**Jerod Santo:** I would you say it's fascinating, but man, that's just a whole lot of engineering...
+**Jerod Santo:** I would just say it's fascinating, but man, that's just a whole lot of engineering...
 
 **Sébastien Lorber:** Yeah...
 
@@ -208,7 +208,7 @@ I think this gives a great experience, and also, there are new features in React
 
 **Amal Hussein:** It also comes down to the environment, right? We need to start talking as a community more broadly around digital trash, and compute power. Like, there's still trees and resources being used too, so there's also an element of needing to be environmentally-conscious. But anyway, so back to v2. So you made this migration and this shift to use React, and it was an intentional decision to not use server-side rendering, and whatnot... Can you talk to us a little bit about what were the driving forces behind that decision?
 
-**Sébastien Lorber:** I wasn't that at the time, so I can't really say... I think maybe the decision to create Docusaurus v2 was decided maybe two years before I joined the project, so I don't know exactly all the context... But it's a Meta product, so they wanted, of course, to use React, because this is their \[unintelligible 00:29:40.12\]
+**Sébastien Lorber:** I wasn't that at the time, so I can't really say... I think maybe the decision to create Docusaurus v2 was decided maybe two years before I joined the project, so I don't know exactly all the context... But it's a Meta product, so they wanted, of course, to use React, because this is their framework
 
 **Jerod Santo:** Unify...
 
