@@ -180,7 +180,7 @@ I guess you wouldn't know that you're using an Apple Card unless you're using th
 
 **Adam Stacoviak:** Like, if you were deep enough into credit card theft hackerism, could you get my card if you were skilled enough and extract information from the chip?
 
-**Jerod Santo:** I think you could. I don't think you could extract all the information that is on the card, but I think you could -- I mean, there has to be devices that can read the chip, right? That's what all these devices are. So you would have your own hardware that would be able to read whatever the chip is there to display. Now, I know there's \[unintelligible 00:27:13.27\] and there's one-time use codes that happen with these transactions, so... I'm not sure exactly how much you could get off, if you could replay it, those kinds of things; I know that they're way more secure than they used to be, than the swipe... Because the swipe was really just an obfuscated number, basically... Whereas these chips - there is a live communication back and forth on the payment network, with unique, one-time use strings and whatnot... Which is why they were slow at first, because it's like, "Well, you're at a Kwik-E-Mart, with a dial-up connection to a thing, and it's gotta go back and forth five times..." They've started to make that process much faster. I don't know the technology behind it, but I'm pretty sure if you have hardware access to it, plus your own -- like, you're a cracker who has means and you have your own hardware, I think you could probably get at whatever information is necessary.
+**Jerod Santo:** I think you could. I don't think you could extract all the information that is on the card, but I think you could -- I mean, there has to be devices that can read the chip, right? That's what all these devices are. So you would have your own hardware that would be able to read whatever the chip is there to display. Now, I know there's nonces and there's one-time use codes that happen with these transactions, so... I'm not sure exactly how much you could get off, if you could replay it, those kinds of things; I know that they're way more secure than they used to be, than the swipe... Because the swipe was really just an obfuscated number, basically... Whereas these chips - there is a live communication back and forth on the payment network, with unique, one-time use strings and whatnot... Which is why they were slow at first, because it's like, "Well, you're at a Kwik-E-Mart, with a dial-up connection to a thing, and it's gotta go back and forth five times..." They've started to make that process much faster. I don't know the technology behind it, but I'm pretty sure if you have hardware access to it, plus your own -- like, you're a cracker who has means and you have your own hardware, I think you could probably get at whatever information is necessary.
 
 **Adam Stacoviak:** \[28:08\] I guess the good thing though is that it is just that one thing on the card, aside from your name. So your name plus that chip is the only thing that sort of identifies this Apple Card as different from yours and mine. The difference is the name and the chip...
 
@@ -212,7 +212,7 @@ I guess you wouldn't know that you're using an Apple Card unless you're using th
 
 **Adam Stacoviak:** So you'd mentioned how you just used Apple Pay for the first time recently.
 
-**Jerod Santo:** I have, yeah. At \[unintelligible 00:29:51.29\]
+**Jerod Santo:** I have, yeah. At the IV.
 
 **Adam Stacoviak:** I would put you in the early adopter camp, right? Or the early majority, at least.
 
