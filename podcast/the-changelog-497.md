@@ -272,7 +272,7 @@ I think once you start down a path -- that's kind of where we what we mean with 
 
 **Jerod Santo:** Nice.
 
-**Daniel Thompson:** We've been waiting until the 1.0 landed in order to bring them kind of more to the forefront. The place where they exist is in one of those three libraries that we talked about, \[unintelligible 00:58:51.10\] So we can do windowing, we can communicate with them, and now we have to raise them up to the Tauri layer, where they then interact with the APIs that you need, like the file system, the camera, the Bluetooth... And then also create the final APK, or Apple blob, and get those on the app stores. So it's very early days for that...
+**Daniel Thompson:** We've been waiting until the 1.0 landed in order to bring them kind of more to the forefront. The place where they exist is in one of those three libraries that we talked about, in TAO and WRY. So we can do windowing, we can communicate with them, and now we have to raise them up to the Tauri layer, where they then interact with the APIs that you need, like the file system, the camera, the Bluetooth... And then also create the final APK, or Apple blob, and get those on the app stores. So it's very early days for that...
 
 We're also interested in getting the apps on other devices. I remember when -- gosh, when was it? This was a year or two ago, when one of SpaceX's rockets went up, and somebody mentioned "That window - isn't that Electron?" And it turns out that we're using Electron on the rocket ship.
 
