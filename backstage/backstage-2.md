@@ -134,7 +134,7 @@ So I've always just eventually bought my favorites to rewatch again, or not see 
 
 **Jerod Santo:** How awesome am I at movies?
 
-**Adam Stacoviak:** Well, or \[unintelligible 00:10:02.15\] \[laughter\] Or not.
+**Adam Stacoviak:** Well, or not \[laughter\] Or not.
 
 **Jerod Santo:** I'm looking at my old DVD collection, because it's getting dust all over it over there in the bookcase...
 
@@ -852,7 +852,7 @@ The web shows is actually pretty cool. If you really enjoy the Plex experience o
 
 **Adam Stacoviak:** So it's no longer available as of a few weeks from now, November 30th, 2018.
 
-**Jerod Santo:** "We've made the difficult decision to shut down the Plex Cloud service. As you may know, we haven't allowed any new Plex client servers since February..." So it's been a long time coming. Let's see why... "After a lot of investigation, we felt we haven't found a solution capable of delivering a truly first-class Plex experience to Plex Cloud users at a reasonable cost." Alright, we shouldn't try it. We shouldn't try it. It's gonna cost \[unintelligible 01:19:58.15\]
+**Jerod Santo:** "We've made the difficult decision to shut down the Plex Cloud service. As you may know, we haven't allowed any new Plex client servers since February..." So it's been a long time coming. Let's see why... "After a lot of investigation, we felt we haven't found a solution capable of delivering a truly first-class Plex experience to Plex Cloud users at a reasonable cost." Alright, we shouldn't try it. We shouldn't try it. It's gonna cost too much \[unintelligible 01:19:58.15\]
 
 **Adam Stacoviak:** \[01:20:01.25\] So here's the reasons why I felt like it worked for me... Because I already wanted to have a large -- I need large-scale storage... 1) For all of our content. So this is like a -- one, it was already sitting there, for the most part, to back up all of the podcast stuff and video stuff we do. That's part of it, too. So this 32 TB is not just for Plex, it's for this - for photos we take, for conferences, and stuff like that... For Heather to use as a part of the things she does as well... So it's sitting there, doing several jobs.
 
