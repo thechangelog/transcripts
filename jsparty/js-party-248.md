@@ -4,7 +4,7 @@
 
 **Jerod Santo:** It's going great. Friday afternoon... Again, off schedule for us, but it turned out pretty well last time, I thought... So we'll try it again and we'll see if we can do a JS Party on a Friday. \[jingle 00:02:47.16\] Amal's also here... A quarter tank Amal today.
 
-**Amal Hussein:** Hi! Yes, it's \[00:02:54.26\] Rebecca Murphy Amal. It's Friday, Friday, gotta get -- " No, it's not. Actually I'm --
+**Amal Hussein:** Hi! Yes, it's \[02:54\] Rebecca Murphy Amal. It's Friday, Friday, gotta get -- " No, it's not. Actually I'm --
 
 **Jerod Santo:** Oh, Rebecca Black. That's Rebecca Black.
 
@@ -16,7 +16,7 @@
 
 **Jerod Santo:** We're gonna do it segment style... If you're a regular listener, you know we have some recurring segments that we enjoy participating in. Today we're doing Story of the Week, the world-renowned and award-worthy Headlies segment... It's not award-winning, but it is award-worthy. That's what they're saying. That's what they're saying out there on the street. I heard it said just a few moments ago... And we're playing Pro Tip Time, if we have time for some pro tips. So we will start the show with Story of the Week.
 
-**Jingle:** \[00:03:59.22\]
+**Jingle:** \[03:59\]
 
 **Jerod Santo:** Story of the Week, of course, is our opportunity to talk about some of the goings on around the JavaScript and web dev community, and then, maybe argue if you want about which one's more important, better, or which one of us is smarter or better-looking. So I will start, because why not, right?
 
@@ -40,7 +40,7 @@
 
 **Jerod Santo:** Okay, well let me explain this one first. So this is a post on deno.com, so disclaimer alert, they may have vested interest in making this be true, as they are one of these edge providers... But it's a post by Andy Jiang. I'll go ahead and just guess the pronunciation of your last name there, Andy... All about his thoughts on this trend that we are seeing, towards moving more and more of our compute, and maybe eventually our storage, to edge nodes. The CDN is no longer for static, it's now for dynamic... And this is a transition that he's watching, he's being a part of, and he wants to see more of. There are some problems, there are some things to get over, but his post goes into the details of why things are headed in this direction.
 
-\[00:06:06.20\] You may take a look at this or have opinions on whether or not Andy's on track here... Are we actually moving the future of the web to the edge, or is this kind of one of those trends that's gonna come and go? What are your thoughts? Serve users? Does it serve developers? Is it just here to serve a few vendors who have these vested interests? Anybody? Literally, anybody can talk.
+\[06:06\] You may take a look at this or have opinions on whether or not Andy's on track here... Are we actually moving the future of the web to the edge, or is this kind of one of those trends that's gonna come and go? What are your thoughts? Serve users? Does it serve developers? Is it just here to serve a few vendors who have these vested interests? Anybody? Literally, anybody can talk.
 
 **Amelia Wattenberger:** My favorite thing about this is that I don't have to think about it... Right? you have all these systems where, as a web developer, I can just act as if they didn't exist, and then the user experience is better.
 
@@ -64,7 +64,7 @@
 
 **Amal Hussein:** It's just cool, new technology.
 
-**Jerod Santo:** \[00:09:45.29\] Yeah, exactly. But it's like VMs, or it's like containers. It's like a runtime that you can run an entire web app inside of. But some of these things are just like streamlined, slimmed-down functions, and they have these functional architectures that require you to constantly be thinking about, "Does this run in Cloudflare Workers, or will it work on Lambda?" etc. So maybe we're just kind of like at the beginning of it, where it's going to happen underneath us, and that will be grand. Or maybe not.
+**Jerod Santo:** \[09:45\] Yeah, exactly. But it's like VMs, or it's like containers. It's like a runtime that you can run an entire web app inside of. But some of these things are just like streamlined, slimmed-down functions, and they have these functional architectures that require you to constantly be thinking about, "Does this run in Cloudflare Workers, or will it work on Lambda?" etc. So maybe we're just kind of like at the beginning of it, where it's going to happen underneath us, and that will be grand. Or maybe not.
 
 **Amal Hussein:** Yeah.
 
@@ -78,7 +78,7 @@ That's one of the things Andy did in this post, is he talked about the performan
 
 One of the founders of Brave is Brendan Eich, who is the person who also created JavaScript, ECMAScript. And love Brendan, hate Brendan, it doesn't matter. I'm just stating he's one of the people involved with this project. He's been a little controversial in our community lately... And Brendan -- I was excited about this project, I still am, but there's a crypto elements to this, which I have just always ignored... But there is something called the BAT, Basic Attention Token, and so the idea is your attention is time, and we could potentially show you ads in a private way, and you can earn and get BAT credits, and whatever else. I don't really do anything with that personally, so I can't speak to that... But for me, it's just the best browser in terms of limiting your tracking footprint.
 
-\[00:13:53.19\] And so what Brave came out with is this a bit like -- they're letting you now, just through the browser, opt out of those annoying cookie banners, right? ...which are getting like infinitely more complex, right? Because it just went from Accept or Not Accept, to now it's Accept or See the Options, that will bring a confusing menu that's worded --
+\[13:53\] And so what Brave came out with is this a bit like -- they're letting you now, just through the browser, opt out of those annoying cookie banners, right? ...which are getting like infinitely more complex, right? Because it just went from Accept or Not Accept, to now it's Accept or See the Options, that will bring a confusing menu that's worded --
 
 **Jerod Santo:** We have six kinds of cookies, you know?
 
@@ -146,7 +146,7 @@ One of the founders of Brave is Brendan Eich, who is the person who also created
 
 **Nick Nisi:** Except in Firefox.
 
-**Amelia Wattenberger:** \[00:18:00.14\] Yeah, yeah.
+**Amelia Wattenberger:** \[18:00\] Yeah, yeah.
 
 **Jerod Santo:** Yeah. Works best in Chrome...
 
@@ -192,7 +192,7 @@ And so the idea is -- you know, the web was built to be open, we need to keep it
 
 **Jerod Santo:** They're both gonna defer. Okay, Amelia, we'll do yours.
 
-**Amelia Wattenberger:** \[00:22:10.28\] Okay, so mine isn't news, but it's a happening... So yesterday, I think Linear, which is some task tracking app, their marketing website got DDoS-ed... And so they shared a Figma file, which was their design doc for their rewrite of the marketing site... And I just thought that was really interesting. You could see everyone's cursors in there, there were like hundreds of people poking around in a Figma file... And they had like a whole Q&A; apparently, Figma also has spaces, so they were giving tours of "This is how we designed it..."
+**Amelia Wattenberger:** \[22:10\] Okay, so mine isn't news, but it's a happening... So yesterday, I think Linear, which is some task tracking app, their marketing website got DDoS-ed... And so they shared a Figma file, which was their design doc for their rewrite of the marketing site... And I just thought that was really interesting. You could see everyone's cursors in there, there were like hundreds of people poking around in a Figma file... And they had like a whole Q&A; apparently, Figma also has spaces, so they were giving tours of "This is how we designed it..."
 
 So I think some of the really interesting things there are like for a marketing site, how much are you getting that's not just like the static designs, right? As long as you can read the text and see the pretty pictures, that's pretty much all you need. And then I think they ended up like way in the positive; they got way more attention than they would have if they hadn't had their website go down... So that was cool.
 
@@ -266,7 +266,7 @@ So I think some of the really interesting things there are like for a marketing 
 
 **Jerod Santo:** Yes. We're gonna start a flame war with that one. Alright, we've got to stop. We'll be back. Those are your headlines. We'll be back with some headlies (see what I did there?) right after this...
 
-**Break:** \[00:25:51.28\]
+**Break:** \[25:51\]
 
 **Jerod Santo:** Alight, it is time for Headlies, the award-worthy segment, which did have a theme song, but Kball laughed at it so much that I had to delete the file and never play it again... So no jingle for Headlies, but it is a game - and this is the first time we're going to have the game with multiple players. It's always been a one-player game. I played it against Nick, and then I played it against Kball... Here we have three participants.
 
@@ -280,7 +280,7 @@ Each of you will guess separately. So you're playing against each other, and we 
 
 **Amal Hussein:** Oh. But am I going to be like in a different room when Nick is giving his answers?
 
-**Jerod Santo:** \[00:30:16.09\] No. Each of you will go in turn, but I'll vary the turns, so that you can't just go after Nick each time.
+**Jerod Santo:** \[30:16\] No. Each of you will go in turn, but I'll vary the turns, so that you can't just go after Nick each time.
 
 **Amal Hussein:** Ah, dang it. There goes my plan. \[laughter\]
 
@@ -366,7 +366,7 @@ I'm gonna say false... I think the government would be - especially this close t
 
 **Nick Nisi:** Yes, absolutely. That's Oracle's bread and butter.
 
-**Amal Hussein:** \[00:34:10.19\] Yeah. Okay, so I will say no. I have faith in our government's ability to somewhat use our money a little more responsibly... But I could be wrong. Please don't prove me wrong.
+**Amal Hussein:** \[34:10\] Yeah. Okay, so I will say no. I have faith in our government's ability to somewhat use our money a little more responsibly... But I could be wrong. Please don't prove me wrong.
 
 **Jerod Santo:** Please don't prove me wrong. So the headline," The US Department of Veteran Affairs postpones rollout of electronic health record systems developed by Oracle under a $50 billion contract until the year 2030" is not real. That is a false headline.
 
@@ -444,7 +444,7 @@ I'm gonna say false... I think the government would be - especially this close t
 
 **Amal Hussein:** And then maybe we can reassess. Can we have a bonus round if we want to change our minds?
 
-**Jerod Santo:** \[00:38:01.08\] Okay, I'm liking this. Let's change the rules as we go. Here's my paragraph. This is a good one, folks... "After offering them for over a decade, Heroku announced in August that it will eliminate all of its free services starting November 28th. However, multiple sources inside Salesforce have told TechCrunch that Heroku GM Bob Wise will soon announce a course correction that keeps free plans available for accounts under certain conditions. The details of those conditions are still unknown."
+**Jerod Santo:** \[38:01\] Okay, I'm liking this. Let's change the rules as we go. Here's my paragraph. This is a good one, folks... "After offering them for over a decade, Heroku announced in August that it will eliminate all of its free services starting November 28th. However, multiple sources inside Salesforce have told TechCrunch that Heroku GM Bob Wise will soon announce a course correction that keeps free plans available for accounts under certain conditions. The details of those conditions are still unknown."
 
 **Amal Hussein:** Yes, yeah. I'm gonna stick with my same answer. I think it's true...
 
@@ -546,7 +546,7 @@ That is your details. Now we go back to Amelia. What do you think, true or false
 
 **Amal Hussein:** \[unintelligible 00:42:10.23\] I was talking about his final score. His final score is zero... \[laughs\] I'm sorry, this is just so funny...
 
-**Jerod Santo:** \[00:42:24.16\] Well, you're at negative one, so I'm not sure --
+**Jerod Santo:** \[42:24\] Well, you're at negative one, so I'm not sure --
 
 **Amal Hussein:** It's like he never played. \[laughter\]
 
@@ -656,7 +656,7 @@ That is your details. Now we go back to Amelia. What do you think, true or false
 
 **Amal Hussein:** Yeah, fake it till you make it. \[laughter\] Yeah, literally. It gives me a lot of faith...
 
-**Nick Nisi:** \[00:46:03.15\] They got dragged when they had like the horrible avatars come out a few weeks ago, or a few months ago, or whatever... And then how do you just go up and say "This whole thing that we pivoted to - yeah, we faked it." How do
+**Nick Nisi:** \[46:03\] They got dragged when they had like the horrible avatars come out a few weeks ago, or a few months ago, or whatever... And then how do you just go up and say "This whole thing that we pivoted to - yeah, we faked it." How do
 
 you do that?
 
@@ -678,9 +678,9 @@ you do that?
 
 **Jerod Santo:** And we'll be right back for some Pro Tip Time.
 
-**Break:** \[00:47:00.06\]
+**Break:** \[47:00\]
 
-**Jingle:** \[00:49:41.23\]
+**Jingle:** \[49:41\]
 
 **Jerod Santo:** The award-worthy jingle...
 
@@ -692,7 +692,7 @@ you do that?
 
 **Nick Nisi:** Accurate.
 
-**Jerod Santo:** \[00:50:00.29\] It's kind of like that Steve Buscemi "Hello, fellow kids."
+**Jerod Santo:** \[50:00\] It's kind of like that Steve Buscemi "Hello, fellow kids."
 
 **Amal Hussein:** Not that you would particularly dance like that, Nick. I just meant the beats; the beats remind me of that. But anyways...
 
@@ -786,7 +786,7 @@ you do that?
 
 And then I've started to do a little bit of -- I haven't done a good job of this yet, and I want to try to get better at it, but set like high-level goals, like "Okay, what are three things I absolutely have to get done today?" And then at the beginning of the week, "What are three things I absolutely want to get done this week?" So "By the end of this week, I want to do X", and "By the end of this day, I want to do X." That helps me prioritize, because I have a very big appetite for problems and doing things, and I think it helps me... I need to do a daily prioritization exercise, because I'm gonna always want to do it all.
 
-**Amelia Wattenberger:** \[00:54:21.06\] Here's a question about your journal. I feel like I would have one and never read it, but probably the benefit is really in just writing it down...
+**Amelia Wattenberger:** \[54:21\] Here's a question about your journal. I feel like I would have one and never read it, but probably the benefit is really in just writing it down...
 
 **Amal Hussein:** Agreed. 70% of the benefit is writing it down. And then there's a huge benefit for me, just like "What did I do? Where do I pick up?"
 
