@@ -4,7 +4,7 @@
 
 **Jerod Santo:** It's going great. Friday afternoon... Again, off schedule for us, but it turned out pretty well last time, I thought... So we'll try it again and we'll see if we can do a JS Party on a Friday. \[jingle 00:02:47.16\] Amal's also here... A quarter tank Amal today.
 
-**Amal Hussein:** Hi! Yes, it's \[02:54\] Rebecca Murphy Amal. It's Friday, Friday, gotta get -- " No, it's not. Actually I'm --
+**Amal Hussein:** Hi! Yes, it's Rebecca Murphy Amal. It's Friday, Friday, gotta get -- " No, it's not. Actually I'm --
 
 **Jerod Santo:** Oh, Rebecca Black. That's Rebecca Black.
 
