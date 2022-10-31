@@ -10,7 +10,7 @@ Terminals can do 16.7 million colors, they've got lots of Unicode characters, wh
 
 **Jerod Santo:** When did you have this realization? How long have you been working on this stuff?
 
-**Will McGugan:** \[00:06:05.18\] Well, I started working on a library called Rich; that was nearly three years, about two and a half years ago now... And it started off -- you know, first principles; I just wanted to get colored text on the screen. And then I kept adding various other types of data and formats where I could display, I could render tables, and progress bars... And I started tinkering with various other ways of rendering more sophisticated content than you're used to in the terminal. So it kind of built up from there; I realized that there's lots more you can do in the terminal, but it does require a bit of work upfront. It's not like a browser where you can just say, "Give me a table, a browser-rendered table." You've got to build it up from all the individual characters. But once the tools are there, you can do so much more with the terminal.
+**Will McGugan:** \[06:05\] Well, I started working on a library called Rich; that was nearly three years, about two and a half years ago now... And it started off -- you know, first principles; I just wanted to get colored text on the screen. And then I kept adding various other types of data and formats where I could display, I could render tables, and progress bars... And I started tinkering with various other ways of rendering more sophisticated content than you're used to in the terminal. So it kind of built up from there; I realized that there's lots more you can do in the terminal, but it does require a bit of work upfront. It's not like a browser where you can just say, "Give me a table, a browser-rendered table." You've got to build it up from all the individual characters. But once the tools are there, you can do so much more with the terminal.
 
 **Adam Stacoviak:** When you talk about these rich applications, for the web, in the browser, you have HTML, you've got CSS, and you've got JavaScript. What is behind the scenes of Rich and Textual that is similar? Is there a similarity in terms of like a markup language, a style language, and some sort of like smarts, like JavaScript is?
 
@@ -22,7 +22,7 @@ And we've also built in CSS, because that's one thing that I don't think you can
 
 **Will McGugan:** Yeah. So eventually, the first stage is just to build a framework where they can build these applications. Initially, people probably distribute them, and like to do other Python libraries, so through PyPy, or possibly on Brew, etc. But pretty soon, we want to build this web technology where you can serve up a Textual application from another box. So it's just like typing a URL; there'll be some sort of command , textual run, you give it a URL, or a URL-like string, and then it would serve up the application. So you can have access to all these applications that run within the terminal, as if they were locally installed, but they would be actually running somewhere else.
 
-**Adam Stacoviak:** \[00:09:54.28\] Right. Are you there yet, though? are you still at the building stage, or are you at the "how do you get access to them" stage?
+**Adam Stacoviak:** \[09:54\] Right. Are you there yet, though? are you still at the building stage, or are you at the "how do you get access to them" stage?
 
 **Will McGugan:** Yeah, we're still at the building Textual stage. We've got a release coming up in a couple of weeks, 24th of October, and...
 
@@ -64,7 +64,7 @@ So there's all sorts of other kinds of animations you can do. You can do blendin
 
 **Will McGugan:** I think you're in a kind of a context where you have all this power at your fingertips, and it's very focused; there's no extraneous details you've gotta worry about, like the browser. I mean, I love the browser, I love the desktop; I come from a web development background. But I don't think that switching and moving windows about, and hunting for things to click is always the most productive. But in the terminal, everything's there, at your fingertips. When you get good at it, you can power everything with the keyboard, which is what we want to do with Textual. So even though it can look a lot like a web application, which makes it kind of accessible and explorable, and you can find things.
 
-\[00:14:13.06\] Ultimately, I want these applications to be keyboard-powered. So you could be in the terminal, stay in the terminal, but launch this app, operate it with a keyboard, and then return back to the terminal... And you never have to context-switch. I think you can be more productive doing it like that.
+\[14:13\] Ultimately, I want these applications to be keyboard-powered. So you could be in the terminal, stay in the terminal, but launch this app, operate it with a keyboard, and then return back to the terminal... And you never have to context-switch. I think you can be more productive doing it like that.
 
 **Jerod Santo:** No distractions of Twitter, or Hacker News, or Reddit...
 
@@ -96,7 +96,7 @@ So there's all sorts of other kinds of animations you can do. You can do blendin
 
 **Adam Stacoviak:** You know, there's a lot of explosion happening in home labs. I think the Raspberry Pi's really helped this, Arduino has helped this... People that have not typically been curious on a developer, or terminal, or kind of like geekery that software developers tend to be in; people who are not typically a software developer, are tinkering and being more and more curious. Do you see how this kind of platform can aid in, say, Pi-hole, for example; rather than go into Pi-hole on the web, or Pi-hole.lan, or whatever it might be, going to some sort of SSH application to tinker with Pi-hole, or do different things that home-labbers tend to do; mess with home automation, for example. Rather than a crappy browser, maybe a more powerful terminal GUI.
 
-**Will McGugan:** \[00:18:15.18\] Yeah, so it can serve up a nice GUI that you can explore. They tend to be more accessible to people who aren't experts... I mean, we all use a bunch of command line apps where we've used it a lot, and then we can become very proficient in them. But it takes quite a while to get there. But a good Textual user interface, you can explore it quite easily. So yeah, you could run it on a Raspberry Pi. We test on that, and it runs very well, actually, because it's a low, low footprint type of thing, so you can serve up a nice GUI from a tiny little Raspberry Pi, to do whatever you want it to do.
+**Will McGugan:** \[18:15\] Yeah, so it can serve up a nice GUI that you can explore. They tend to be more accessible to people who aren't experts... I mean, we all use a bunch of command line apps where we've used it a lot, and then we can become very proficient in them. But it takes quite a while to get there. But a good Textual user interface, you can explore it quite easily. So yeah, you could run it on a Raspberry Pi. We test on that, and it runs very well, actually, because it's a low, low footprint type of thing, so you can serve up a nice GUI from a tiny little Raspberry Pi, to do whatever you want it to do.
 
 **Adam Stacoviak:** What about forms? Are forms easy to do in Textual? For example, a password change, for example. If I wanted to do profile stuff... I'm just thinking rather than some of these things like Portainer, or different things that home-labbers tend to kind of mess with, with virtual machines, or Docker, or whatever - rather than going to a web application, could you do these things in Textual, in a TUI - change your password, do different things, like security-related stuff, 2FA stuff even? Can you render a QR code, for example, in Textual?
 
@@ -106,7 +106,7 @@ So there's all sorts of other kinds of animations you can do. You can do blendin
 
 **Will McGugan:** Yeah, I think that's a very good use case for it, because you can run it -- you can run Textual apps anywhere, and be kind of quite sophisticated. And for things like an admin portal, it can do almost anything you would need. You can even do some kind of graphs; you'd have like spark lines, and some basic plots... The only thing that I think TUIs can't do fairly well is images, or video. But for most admin interfaces, you don't need glossy images, or videos; you want text inputs, you want text, you might have sparklines, and checkboxes, other kinds of things. That could cover 99% of what you need. You have that software running on a router, or a tiny, tiny box, or a Raspberry Pi...
 
-**Break:** \[00:22:33.03\]
+**Break:** \[22:33\]
 
 **Adam Stacoviak:** So Will, you've got my attention, but what's step one? Let's say I'm on the Pi-hole team, right? I don't mind the web admin, maybe I don't like it, maybe I like it, whatever... What's step one? If I'm just using it as an example, what will be step one for someone like them to take up Textual, to build a TUI or an admin for Pi-hole? How does it work?
 
@@ -114,7 +114,7 @@ So there's all sorts of other kinds of animations you can do. You can do blendin
 
 And then you create a style sheet. And that stylesheet applies styles to these individual widgets. And that works just the same way as the web does. It's kind of like a simplified dialect of CSS. So you can create quite really beautiful-looking interfaces with maybe a page or two of CSS, so that'll create something which looks very nice, looks like an app...
 
-\[00:25:58.24\] And then you write event handlers. Event handling, again, is quite similar to JavaScript, because I do come from a web background... So you write these event handlers for things like clicking for text input, and you can update the state of the app accordingly. So the code to generate a fairly complicated app, I think, is very readable, and it's also -- it's quite terse. I don't know if you've ever written any Cursus applications, but they're quite verbose, and somewhat technical. But Textual is quite high-level. You kind of stand back and you just say what you want on screen, what you want it to look, and then you connect up buttons, and things. There's plenty of docs. We've been working quite hard on the docs for the last few months. So if you do want to get started, all the information is up there.
+\[25:58\] And then you write event handlers. Event handling, again, is quite similar to JavaScript, because I do come from a web background... So you write these event handlers for things like clicking for text input, and you can update the state of the app accordingly. So the code to generate a fairly complicated app, I think, is very readable, and it's also -- it's quite terse. I don't know if you've ever written any Cursus applications, but they're quite verbose, and somewhat technical. But Textual is quite high-level. You kind of stand back and you just say what you want on screen, what you want it to look, and then you connect up buttons, and things. There's plenty of docs. We've been working quite hard on the docs for the last few months. So if you do want to get started, all the information is up there.
 
 **Jerod Santo:** So you've got to know Python, or you've gotta be willing to write some Python. And I think that's a great choice of a language in terms of trying to reach more people. You mentioned earlier in the show that there's a lot of people who know some Python, but aren't like capital S, software, capital D, developer, on their job titles. But I'm just curious about Python as a choice, both for yourself personally, in your work, and then also for Textual. We don't talk Python too much here on the podcast, so talk some Python to us, Will. Why Python?
 
@@ -134,7 +134,7 @@ And then you create a style sheet. And that stylesheet applies styles to these i
 
 And one of the things you want to look at is that model of distribution where you can bundle things up and just send one executable; something like -- I've forgotten the name of it... The popular app framework where you can bundle JavaScript apps with a browser...
 
-**Jerod Santo:** \[00:30:13.26\] Are you talking about WebPack, are you talking about bundling JavaScript for the browser...?
+**Jerod Santo:** \[30:13\] Are you talking about WebPack, are you talking about bundling JavaScript for the browser...?
 
 **Will McGugan:** For browser-based applications. I forget what the framework is called.
 
@@ -176,7 +176,7 @@ And one of the things you want to look at is that model of distribution where yo
 
 **Adam Stacoviak:** Right. you've got a route for a website, for example, and then /new is creating a new user. /signin is sign in, /admin is the admin, for example... Is there a path interface, so to speak, to a Textual application? How does it work?
 
-**Will McGugan:** \[00:33:47.06\] There isn't that kind of similar concept to the Textual application; it's more like a mobile app. So you might have like modal dialogues, where you can go back, and possibly forward... But there's no URL layer yet, because they're not truly web applications. They're stateful, so they don't have a URL as such. But when we have the version, which does run in the browser, maybe we would want to respect the URL, so you could pop in the URL and return to a particular state. It's more like one-page applications, Vue and React, in that respect.
+**Will McGugan:** \[33:47\] There isn't that kind of similar concept to the Textual application; it's more like a mobile app. So you might have like modal dialogues, where you can go back, and possibly forward... But there's no URL layer yet, because they're not truly web applications. They're stateful, so they don't have a URL as such. But when we have the version, which does run in the browser, maybe we would want to respect the URL, so you could pop in the URL and return to a particular state. It's more like one-page applications, Vue and React, in that respect.
 
 **Jerod Santo:** Right. So does Textual have its own state management tooling for you?
 
@@ -198,7 +198,7 @@ On the other side of that is well, the vendor, in your case Textual, just provid
 
 **Jerod Santo:** Well, if you look at desktop apps - so we just focus in on macOS, because that's just the platform that I know the best... You have the core frameworks, and they provide their own layers, like Core Data, for instance; I'm sure there's newer ones that Apple provides... And then they're also "...and you can just have a SQLite database." And so then you can just manage it yourself, like "Plug this one, and plug that one in. This one provides two-way data binding", or whatever. "This is the Textual way of doing it." But of course, it's in the spirit of open, and open source, and stuff. Making it batteries-included, but like swap those batteries if you want, or "Here's a different place to come in", I think is a nice balance, where it's like you don't have to bring your own, but you can bring your own if you are just disgusted by what Will and this team has come up with. \[laughter\]
 
-**Will McGugan:** \[00:38:07.21\] Yeah. Well, I mean, it is a Python application, and you do have all these Python libraries at your disposal...
+**Will McGugan:** \[38:07\] Yeah. Well, I mean, it is a Python application, and you do have all these Python libraries at your disposal...
 
 **Jerod Santo:** Oh, yeah, there's just a huge community.
 
@@ -224,7 +224,7 @@ On the other side of that is well, the vendor, in your case Textual, just provid
 
 **Will McGugan:** Yeah. Familiar to Python devs, certainly. And hopefully, in the future we'll have an answer to a much simpler way of getting access to all these apps that doesn't require you to like go into the repo and read the instructions, and doesn't require you to have the right version of Python, and dependencies, and all that.
 
-**Jerod Santo:** \[00:41:57.07\] Right. It'd be cool to have some sort of universal packaged binary in this way that you talk about that could be that Textual platform, similar to Homebrew, where it's once I have Homebrew, it unlocks for me a whole list of other things I can do, right? So the first step is you get Textual, and then Textual is a TUI, which is a way of discovering and installing other TUI apps. That'd be beautiful.
+**Jerod Santo:** \[41:57\] Right. It'd be cool to have some sort of universal packaged binary in this way that you talk about that could be that Textual platform, similar to Homebrew, where it's once I have Homebrew, it unlocks for me a whole list of other things I can do, right? So the first step is you get Textual, and then Textual is a TUI, which is a way of discovering and installing other TUI apps. That'd be beautiful.
 
 Now, you could also side-load... I don't know, maybe we'll get that into the business model. "There's no side-loading...?" No. You can also sideload and just install them with Pip, or whatever, but that would be a really cool way of providing that right there in your terminal... So people would just say, "Oh, do you have Textual installed?" "Yes." Well, then just pop it open and find TipTop.
 
@@ -268,13 +268,13 @@ Now, you could also side-load... I don't know, maybe we'll get that into the bus
 
 **Jerod Santo:** We're just trying to come up with business models for you. No, it's 30%, Will. It's 30%. Come on, you have to be an oil baron, an app baron.
 
-**Break:** \[00:45:57.25\]
+**Break:** \[45:57\]
 
 **Jerod Santo:** So Will, I've been pitching your business ideas... Or just one. I've just been re-pitching you an app store idea over and over again, until you launch it... But we are curious, because you have raised money, you're making a real go at this thing... And whenever you convince somebody to part with their hard-earned money, they have some sort of an idea of what that money could turn in the future, which is more than what it is. So surely, you've put some thought into what Textual could be, not just as an open source platform, or framework, whatever you're calling it, for building these TUIs, but also so much more. So can you give us some version of that pitch? Like, what's the big-picture idea?
 
 **Will McGugan:** Sure. Yeah, okay. So I'm in the business of what you call open core. It's where you've got an open source project, and then you have a commercial add-on to it. So Textual will always be open source, and you use it like you would any other open source project. But then we're building this web interface where you can flick a switch, and then you can take those applications which you'd built for the terminal, and all of a sudden they're web applications. And from there, you can send a URL around, and people that are not particularly technical could use it, and they might not even know that's a terminal application.
 
-\[00:49:56.02\] So once we have this service, there'll be like a very generous free tier, but if you're an organization, you might want to have authentication built on top of that, and that would be a service that we could charge for. And also, if you have a lot of users, at some point, you'd be using up a lot of bandwidth, and then that would go into a tier where we could charge you.
+\[49:56\] So once we have this service, there'll be like a very generous free tier, but if you're an organization, you might want to have authentication built on top of that, and that would be a service that we could charge for. And also, if you have a lot of users, at some point, you'd be using up a lot of bandwidth, and then that would go into a tier where we could charge you.
 
 And there'll be like additional services on top of that... Payment gateways, files serving... Anything -- the kind of services which web developers will pay money for. We'll carve out this little niche where we're building these TUIs, and other people are building these TUIs, and we provide various services which they will need if they want to use their apps for some kind of like critical infrastructure. They might want to install it on older servers for some sort of web application, and then they can use a TUI to configure and monitor it. So there's a fairly broad market there for people that want an interface, they want to build it quickly, and then they want for us to take over the managing, that kind of thing.
 
@@ -290,7 +290,7 @@ And there'll be like additional services on top of that... Payment gateways, fil
 
 **Will McGugan:** Yeah. So you can build an application, distribute it through PyPy, or brew. That's fine. If that's all you want, that's terrific. We're doing a lot work with that. But you can serve it, so that it runs in the browser, and you can distribute it to other people. And they won't even know that it's a terminal-based application. I think it'll look so good. Now, you might notice it's a bit retro; they do have a distinctive look about them... But in general, they've got scroll bars, buttons, checkboxes... If you're not a developer, you could be forgiven for thinking it just actually was a web application.
 
-**Jerod Santo:** \[00:54:17.20\] So you're letting developers who know Python build terminal apps, and then later, you're gonna say "This is also a web app. Surprise!"
+**Jerod Santo:** \[54:17\] So you're letting developers who know Python build terminal apps, and then later, you're gonna say "This is also a web app. Surprise!"
 
 **Will McGugan:** Yeah, pretty much. But we're talking about it now, so hopefully, people will know that in the future.
 
@@ -330,7 +330,7 @@ And there'll be like additional services on top of that... Payment gateways, fil
 
 **Jerod Santo:** So if you're enabling developers to build user interfaces with Python, and not have to deal with the difficulty of web app development, but then you're building in CSS... Like, wouldn't they also have to know web app development then? Or is it just like some basic CSS stuff, it's not that much?
 
-**Will McGugan:** \[00:58:02.23\] It's a much reduced dialect of CSS. I mean, CSS and the web is enormous; you have to have a lot of skill to wield it. It's much more reduced, because the rules are much simpler. You've got color, and border, and some other styles, Link colors etc. So it's much easier to learn than \[unintelligible 00:58:20.26\]
+**Will McGugan:** \[58:02\] It's a much reduced dialect of CSS. I mean, CSS and the web is enormous; you have to have a lot of skill to wield it. It's much more reduced, because the rules are much simpler. You've got color, and border, and some other styles, Link colors etc. So it's much easier to learn than \[unintelligible 00:58:20.26\]
 
 **Adam Stacoviak:** There's a lot to be embraced, I would say, from the web platform, and even what it uses to get built. I know that you said widgets and containers - or I can't recall the exact terminology you used - were similar to divs, and you have CSS and whatnot... There's a lot of frontend web developers out there that know HTML, CSS and JavaScript and can build full-featured web applications, but would also love to build TUIs... And now they have to essentially abandon a lot of that direct skill set and learn Python, and unlearn web, to build TUIs in Textual's world.
 
@@ -344,7 +344,7 @@ And there'll be like additional services on top of that... Payment gateways, fil
 
 **Jerod Santo:** I wrote Python for about six months a decade ago, and I had never written any before... And it took six to 12 hours of just like dinking around to where I could do some basic -- having already know how to program, right? Like, I was a Ruby programmer. Moving from JavaScript over to Python is not a leap. Of course, Python has this huge breadth of things you can do, but we're talking about just core functionality. I don't think it'd be a big leap for somebody if they wanted to make that leap. But like I said, you probably don't have to; there's probably JavaScript tooling for this exact kind of thing. But to get into the Textual world, if you wanted to, Python is a very -- Will was talking about it earlier on, it's a very approachable programming language, which is kind of a weird, ironic thing with it not being approachable from a distribution perspective historically...
 
-So I don't think Python is going to hold them back... Yeah, getting people interested in text applications in general is probably a bigger selling point. How long do you have, Will? Do you have a runway calculated out with your current burn rate? You know, startup stuff... "We can work on this for n years, or n months before I need to have some sort of an income."
+So I don't think Python is going to hold them back... Yeah, getting people interested in text applications in general is probably a bigger selling point. How long do you have, Will? Do you have a runway calculated out with your current burn rate? You know, startup stuff... "We can work on this for N years, or N months before I need to have some sort of an income."
 
 **Will McGugan:** \[01:02:03.07\] So we've got five employees, including myself, and assuming that level of staffing, we can keep going for 3+ years, which is great.
 
