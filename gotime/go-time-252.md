@@ -60,7 +60,7 @@ Lawyers like to say that Fair Use is simply the right to get sued... It's ambigu
 
 **Angelica Hill:** I wanna ask one step back, and when we talk about code ownership, what exactly does it mean I own the code? ...whether I am an individual, a company or anything - does it mean I'm allowed to make money off it? Does it mean I can print it and hang it at home? Does it mean something else?
 
-**Luis Villa:** Well, I'm gonna give you my lawyer answer to that. Those of you whose GitHub accounts do things other than commit to other licenses - which is pretty much all I do these days \[unintelligible 00:19:22.06\] will have better notions of code ownership as a cultural practice among programmers, like who's responsible... I do want to talk a little bit about that one, but let me put a pin in that and come back to it.
+**Luis Villa:** Well, I'm gonna give you my lawyer answer to that. Those of you whose GitHub accounts do things other than commit to other licenses - which is pretty much all I do these days with my GitHub account. We'll have better notions of code ownership as a cultural practice among programmers, like who's responsible... I do want to talk a little bit about that one, but let me put a pin in that and come back to it.
 
 The basic system since at least the '60s in the US - I'm not sure exactly the timeline in the EU, but I would imagine similar - is that... Well, actually, let me go back even further. Copyright is intended to protect creative works. So what do you have to do to get copyright in a thing? And I'll explain what copyright is in a second, but let me start with what you have to do. And what you have to do is you have to write down something that's creative. "Write down" can be broad, right? It can be sculpting, or -- but you have to take it out of your head and put it out into the real world in some way. That can be typing it in a computer, it can be, like I said, sculpting it into a sculpture; sculptures can get copyright. It can be a work of art, so it can be an oil painting, or whatever; it can be a Vim poster... Honestly, these days my development environment is Word, but I used to be an Emacs guy...
 
@@ -104,9 +104,9 @@ I think the European Union has published in the past year - including one last w
 
 Yeah, Angelica, I've actually got a British person on this podcast, I believe... So why am I not asking you the proper terms here?
 
-**Angelica Hill:** Yeah. \[unintelligible 00:30:51.23\] fault.
+**Angelica Hill:** Yeah. footman's fault.
 
-**Luis Villa:** Exactly. It's \[unintelligible 00:30:53.14\] fault. So I think what we're seeing is both an exciting and a terrifying time for lawyers; we are in the midst of one of these very rare technological changes. I think AI in particular is going to be that new train. Nobody really understands, nobody wants to take responsibility, for - Kris, as you say - super-good reasons. This stuff is literally the most complicated systems ever built by humankind. We even in the best case have only the vaguest sense of how it works... And good luck explaining it to a judge.
+**Luis Villa:** Exactly. It's the footman's fault. So I think what we're seeing is both an exciting and a terrifying time for lawyers; we are in the midst of one of these very rare technological changes. I think AI in particular is going to be that new train. Nobody really understands, nobody wants to take responsibility, for - Kris, as you say - super-good reasons. This stuff is literally the most complicated systems ever built by humankind. We even in the best case have only the vaguest sense of how it works... And good luck explaining it to a judge.
 
 I had a conversation with some lawyer friends last week that was like "How would you explain...?" And these are fairly sophisticated -- most either are programmers, or one of them is married to a programmer... And we've been doing tech law all for cumulatively many decades. How would you explain machine learning to a judge? And we all just sort of stuttered in horror at that thought... Because it's a really -- again, even the programmers who haven't thought about it, it can be really hard, unintuitive; the vocabulary is changing all the time, the technology is changing all the time... And to try to explain it to Congress, or to a judge, is a scary proposition.
 
@@ -190,7 +190,7 @@ Microsoft has done a lot of amazing things for the open source community, which 
 
 **Luis Villa:** It's been too long since I worked at Wikipedia, but... I mean, here's this thing, it's this amazing cultural treasure, and anyone can go and graffiti on it at any time. And something like 1 in 1,000 edits are spam. Think about what that says as -- to exactly your point, Kris... Actually, most of the time, most people - we all want to make this work, right? And open source, open data are very much, I think, like, genuinely amazing... That's why I enjoy doing it. There are a lot more lucrative things probably all of us could be doing with our lives. But yeah, it's human and humane in a great way.
 
-**Angelica Hill:** \[unintelligible 00:58:52.23\] We're gonna have to get you back for a part two, for sure. But before we let you go, we're gonna be doing a little bit of unpopular opinions.
+**Angelica Hill:** Lovely not to end the episode on, we're gonna have to get you back for a part two, for sure. But before we let you go, we're gonna be doing a little bit of unpopular opinions.
 
 **Jingle:** \[59:03\]
 
@@ -228,7 +228,7 @@ But yeah, I think most of the time, we as technologists are just like, "No, no, 
 
 **Luis Villa:** The Times published a book review yesterday, of a book on the history of indexes, which apparently has like three separate indexes, this book on indexes... So it looks really interesting.
 
-**Angelica Hill:** And I promise I did not tee that up. It's not \[unintelligible 01:03:58.26\] Yeah, The New York Times actually does some really good work... \[laughs\]
+**Angelica Hill:** And I promise I did not tee that up. It's not an overt company ad. Yeah, The New York Times actually does some really good work... \[laughs\]
 
 **Luis Villa:** I genuinely forgot that there.
 
