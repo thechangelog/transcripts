@@ -86,7 +86,7 @@ One of the founders of Brave is Brendan Eich, who is the person who also created
 
 **Jerod Santo:** Right, because you've interacted with the consent banner itself, and so they're using that to track you. And there are a lot of extensions that go through and they'll click that for you. It's like a browser extension, which is a nice user experience, but it's not saving you from that privacy-tracking moment.
 
-**Amal Hussein:** Exactly. That's exactly right. And so what Brave is able to do because they are building this into the browser and it's not a third-party extension or whatever else - they're just leveraging the \[unintelligible 00:15:23.04\] origin, they're like going deep, a layer down to not only like hide and disable the banners, any scrolling, limited scrolling, or anything to do with that, but they are also making sure that the cookies trackers themselves are not tracking you, which is awesome. And I was like "Yes!" Before I say more, I'm waiting to hear like cheers and excitement from all of you. You all are very mellow about this news... \[applause 00:15:53.15\]
+**Amal Hussein:** Exactly. That's exactly right. And so what Brave is able to do because they are building this into the browser and it's not a third-party extension or whatever else - they're just leveraging the Block u Origin, they're like going deep, a layer down to not only like hide and disable the banners, any scrolling, limited scrolling, or anything to do with that, but they are also making sure that the cookies trackers themselves are not tracking you, which is awesome. And I was like "Yes!" Before I say more, I'm waiting to hear like cheers and excitement from all of you. You all are very mellow about this news... \[applause 00:15:53.15\]
 
 **Jerod Santo:** Sorry, that goes on for like 45 seconds.
 
@@ -120,7 +120,7 @@ One of the founders of Brave is Brendan Eich, who is the person who also created
 
 **Amelia Wattenberger:** I am. I keep trying to switch, but it's like, you know, you've been using it for so long...
 
-**Amal Hussein:** Yeah. Chrome feels like \[unintelligible 00:16:58.03\] Baby Gap.
+**Amal Hussein:** Yeah. Chrome feels like Baby Gap.
 
 **Jerod Santo:** What's that mean?
 
@@ -128,7 +128,7 @@ One of the founders of Brave is Brendan Eich, who is the person who also created
 
 **Jerod Santo:** What's that mean?!
 
-**Amal Hussein:** I mean, it's like Gap. It's like, Gap - like, everyone can walk in, all body shapes, sizes, whatever... Like, you can walk out with something, and so Gap is the lowest common denominator for many Americans in terms of like \[unintelligible 00:17:17.03\] But also, it's Baby Gap because it's noncontroversial and cute, but also just kind of like problematic...
+**Amal Hussein:** I mean, it's like Gap. It's like, Gap - like, everyone can walk in, all body shapes, sizes, whatever... Like, you can walk out with something, and so Gap is the lowest common denominator for many Americans in terms of like okay some people could. But also, it's Baby Gap because it's noncontroversial and cute, but also just kind of like problematic...
 
 **Jerod Santo:** Why is Baby Gap problematic? I don't understand... \[laughter\]
 
@@ -434,7 +434,7 @@ I'm gonna say false... I think the government would be - especially this close t
 
 **Jerod Santo:** Okay. Amelia.
 
-**Amelia Wattenberger:** I agree with Nick. I feel like \[unintelligible 00:37:37.12\] so false.
+**Amelia Wattenberger:** I agree with Nick. I feel like I would've heard so false.
 
 **Jerod Santo:** False. Okay, so on Heroku reversing course we have Amal true, Nick false, Amelia false. Nobody wants to hear the paragraph that I painstakingly typed out as I made this story up...
 
@@ -782,7 +782,7 @@ you do that?
 
 **Nick Nisi:** I do know the song...
 
-**Amal Hussein:** \[unintelligible 00:53:21.13\] Anyways, back to the pro tip... So daily journal is a really great way for me to decompress and detach from work. I just kind of really block out time at the end of my day to just get my thoughts down, and it's just really helpful. Then I can pick up the next day, and just start off where I left off, and I don't have to think about it.
+**Amal Hussein:** *I wear some tight music--* I don't even know, I wear tight music. Anyways, back to the pro tip... So daily journal is a really great way for me to decompress and detach from work. I just kind of really block out time at the end of my day to just get my thoughts down, and it's just really helpful. Then I can pick up the next day, and just start off where I left off, and I don't have to think about it.
 
 And then I've started to do a little bit of -- I haven't done a good job of this yet, and I want to try to get better at it, but set like high-level goals, like "Okay, what are three things I absolutely have to get done today?" And then at the beginning of the week, "What are three things I absolutely want to get done this week?" So "By the end of this week, I want to do X", and "By the end of this day, I want to do X." That helps me prioritize, because I have a very big appetite for problems and doing things, and I think it helps me... I need to do a daily prioritization exercise, because I'm gonna always want to do it all.
 
