@@ -824,7 +824,7 @@ And then I've started to do a little bit of -- I haven't done a good job of this
 
 **Nick Nisi:** So a pro tip - you can actually go further...
 
-**Jerod Santo:** \[unintelligible 00:55:53.01\]
+**Jerod Santo:** What brought this about?
 
 **Nick Nisi:** Yeah, exactly.
 
@@ -872,7 +872,7 @@ And then I've started to do a little bit of -- I haven't done a good job of this
 
 **Amal Hussein:** Yeah. He won't respond to the name, Nick, because he has a karaoke name...
 
-**Jerod Santo:** Yeah. \[unintelligible 00:58:44.20\]
+**Jerod Santo:** Yeah. Call me Richard Nisi
 
 **Amal Hussein:** Yes...! \[laughs\] "I'm not Nick, I'm Nicolas..."
 
