@@ -30,7 +30,7 @@ So I felt that it was time to revisit some home automation, and really put the p
 
 **Mike Riley:** Right. And in fact, that's the reason I also selected Python for the book, was because of the fact that it is so easy to get up to speed. As you commented earlier, there are literally thousands of actually pretty good tutorials on YouTube and various other sources on the web that teach you the basics of Python. And once you've got the basics down, you can pretty much put together a lot of this capability with just a few lines of code. And that's what I really stuck with the book, was to make it as simple and painless as possible.
 
-The other thing I also stuck with was particularly on the hardware side - you know, the first book that I did had a lot of wiring diagrams, because you're actually putting the \[unintelligible 00:09:37.21\] wiring certain servos and other electronic products together to make certain things work. Well, again, now, ten years later, a lot of that stuff has been made relatively simple and straightforward. So for me, I was really trying my hardest to make sure that there was not going to be a breadboard or a wiring diagram anywhere in the book, and I think I've succeeded with that. Because most of the products are off-the-shelf, and you just plug it in and you're able to talk to the device.
+The other thing I also stuck with was particularly on the hardware side - you know, the first book that I did had a lot of wiring diagrams, because you're actually putting the breadboards, and you're putting... wiring certain servos and other electronic products together to make certain things work. Well, again, now, ten years later, a lot of that stuff has been made relatively simple and straightforward. So for me, I was really trying my hardest to make sure that there was not going to be a breadboard or a wiring diagram anywhere in the book, and I think I've succeeded with that. Because most of the products are off-the-shelf, and you just plug it in and you're able to talk to the device.
 
 **Jerod Santo:** Yeah. I think that's important, because on the hardware side, for me at least, and probably some other people as well, as soon as I see soldering, or diagrams, I'm pretty much just out. I'm just like, "Yeah, that's for other people that aren't me." I'm not an electrical engineer, I don't really have that tinkerer's spirit. I know lots of people do, and they love that kind of stuff... But I need a little bit higher up on the hardware side, and it seems like what the Pi has done is kind of brought that stuff to more people...
 
@@ -138,7 +138,7 @@ For one of the projects in the book, which I've actually got in the back - that 
 
 **Adam Stacoviak:** Cool. What's the connectivity from the Pi Zero 2 to the TV? Is that Ethernet? What's the connection?
 
-**Mike Riley:** No, it's Wi-Fi. And then the transceiver, the USB transceiver is \[unintelligible 00:21:17.18\]
+**Mike Riley:** No, it's Wi-Fi. And then on the transceiver, the USB transceiver is sending the IR commands.
 
 **Adam Stacoviak:** Okay.
 
@@ -270,7 +270,7 @@ All to all though, by the end of the day, when you've got all those pieces of ex
 
 **Jerod Santo:** I would love that.
 
-**Mike Riley:** Yeah, that's coming to the fore. Again, without having that Ethernet connection now, I suppose the other possibility is you could set up like a Pixie emulator and then plug into the Pi Zero's USB port, like a Ethernet adapter, and then plug that into your network. But whether or not that actually is gonna be existing on the Pi Zero firmware is another question. Whether it \[unintelligible 00:38:10.28\] which I doubt they probably would have put on the Pi Zero, just because it doesn't have any Ethernet port.
+**Mike Riley:** Yeah, that's coming to the 4. Again, without having that Ethernet connection now, I suppose the other possibility is you could set up like a Pixie emulator and then plug into the Pi Zero's USB port, like a Ethernet adapter, and then plug that into your network. But whether or not that actually is gonna be existing on the Pi Zero firmware is another question. So whether, you know, and it's up to the Pi Foundation which I doubt they probably would have put on the Pi Zero, just because it doesn't have any Ethernet port.
 
 **Jerod Santo:** Right. Okay, so you've got SSH access, you have VS Code's fancy connect somehow and edit files remotely. You have it on your network... Then what do you do?
 
