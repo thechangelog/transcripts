@@ -28,7 +28,7 @@ And then the user can either read it for learning the CSS techniques and apply t
 
 **Amelia Wattenberger:** So I love the idea of little projects. Is the audience for your book supposed to be people who are totally new to CSS, or people who are looking more for reference material, who are more intermediate or advanced?
 
-**Michael Gearon:** \[00:05:46.25\] Yeah, so we're saying that those readers are even new to CSS, or may have done it as like a request, that they don't normally code and CSS, but they like have to go out the way to cover a gap... So the idea behind it is lowering the barrier to say, "Anyone can pick up this book and learn about CSS." So yeah, it's like for the beginners who just have that interest, may have heard about it, and want to get stuck into a project.
+**Michael Gearon:** \[05:46\] Yeah, so we're saying that those readers are even new to CSS, or may have done it as like a request, that they don't normally code and CSS, but they like have to go out the way to cover a gap... So the idea behind it is lowering the barrier to say, "Anyone can pick up this book and learn about CSS." So yeah, it's like for the beginners who just have that interest, may have heard about it, and want to get stuck into a project.
 
 **Martine Dowden:** The other thing we did is the chapters build on each other. So like the first chapter is going over the real basics, and then as you move on through the book, the concepts get a little bit more complicated and a little bit more involved, and we start tying them together. So it can be for somebody who's never touched CSS, who's been forced to touch CSS against their will - because nobody's ever had to do that - could definitely work their way from the start up. Or if it's somebody that already knows CSS, or already knows some, could totally use it as a reference for "How would I do that one thing that I can't remember how to do, or that little trick that's obnoxious, and I can never remember?" There's always those little things. So it really just depends on where you are on the spectrum. But it's totally usable for both crowds.
 
@@ -56,7 +56,7 @@ Chapter four looks at a multi-column CSS module, and creating like a multi-colum
 
 **Amelia Wattenberger:** Yeah. Like, building a strong foundation that other people can then go on to build on top of.
 
-**Martine Dowden:** \[00:10:03.29\] Exactly.
+**Martine Dowden:** \[10:03\] Exactly.
 
 **Michael Gearon:** Yeah, I think that people learn CSS through frameworks, and don't learn what CSS is, but they learn "Oh, add this framework and you can magically add classes", and then you've got this webpage that's complete and looks fine, but you might not actually understand what's going on behind the scenes. So it's a conscious decision to not talk about frameworks, or naming structures too much. It's more about just learning the basics and getting that right. And then when you do want to go out and experiment with the frameworks and those sort of things, you actually know what's going on.
 
@@ -76,7 +76,7 @@ Chapter four looks at a multi-column CSS module, and creating like a multi-colum
 
 I think like the first four, five chapters -- except for the first one, which goes over how to just do properties and classes and stuff, I think three or four chapters after that are pretty much the core focus is layout.
 
-**Michael Gearon:** \[00:14:10.22\] Yeah, it definitely does take center stage, layout, in some sort of way... And you know, we do go through that confusion between when to use Flexbox and when to use grid. I don't think that's always clear, the differences between the two... And they can be used interchangeably, but there's clear differences between grid and Flexbox, and it's definitely something we explore.
+**Michael Gearon:** \[14:10\] Yeah, it definitely does take center stage, layout, in some sort of way... And you know, we do go through that confusion between when to use Flexbox and when to use grid. I don't think that's always clear, the differences between the two... And they can be used interchangeably, but there's clear differences between grid and Flexbox, and it's definitely something we explore.
 
 **Martine Dowden:** I feel like those two are the new hammer... Like, float used to be the hammer, and now I feel like those two have become the new hammer.
 
@@ -104,7 +104,7 @@ I think like the first four, five chapters -- except for the first one, which go
 
 **Nick Nisi:** That really is much worse.
 
-**Break:** \[00:16:41.25\] to \[00:17:54.03\]
+**Break:** \[16:41\] to \[17:54\]
 
 **Nick Nisi:** So in the last section we mentioned that IE 11 had a non-standard grid implementation... But maybe let's dive deeper and talk about standard grid implementations... Specifically a chapter that's covered in your book, all about laying out with CSS grids. So why don't you tell us about what we can expect to learn in that chapter?
 
@@ -124,7 +124,7 @@ And then in terms of the right way, we tried to pick for implementations that re
 
 But basically, trying to keep for what is going to show clear code, and for any given chapter, would there be a more efficient way of writing it sometimes? Are there things that maybe in the real world we would have done slightly differently? Probably, just because we're trying to show a concept, or we're trying to show a particular technique. Generally speaking, those things are called out when that happens, but at some point, you have to make a decision to be able to show the code, right? But CSS is no different than any other language; there's always seven ways till Sunday to lay something out or to do something; there's very few times where it's like, "Nope, this is the one and only way to do this."
 
-**Nick Nisi:** \[00:22:05.12\] So you're saying you could use flex here? I'm trying to make a joke... \[laughs\]
+**Nick Nisi:** \[22:05\] So you're saying you could use flex here? I'm trying to make a joke... \[laughs\]
 
 **Martine Dowden:** In the grid chapter, you could... You'd end up with a lot of extra divs and a lot of extra code, but you technically could achieve that layout with the flex, yes.
 
@@ -180,7 +180,7 @@ I think one of the nice things with writing for Manning is that we've got this p
 
 **Nick Nisi:** That's super-interesting to me, as someone who doesn't know grid...
 
-**Martine Dowden:** \[00:25:58.02\] I personally prefer that to doing the numbers, because I can name my areas. And especially -- I mean, I know it's very ASCII-art-ish, but when you're laying it out in the code, you end up with your "Here's what I have on my first row, here's what I have on my second little row", and it's all named. So from an understanding where my stuff's gonna end up, I find that that is visually a lot nicer to comprehend. Now, obviously, not all use cases you're going to be able to use that technique. But if possible, that's the one I tend to lean towards and prefer, because it's so much easier to process, at a glance, "This is what my layout is" in one place.
+**Martine Dowden:** \[25:58\] I personally prefer that to doing the numbers, because I can name my areas. And especially -- I mean, I know it's very ASCII-art-ish, but when you're laying it out in the code, you end up with your "Here's what I have on my first row, here's what I have on my second little row", and it's all named. So from an understanding where my stuff's gonna end up, I find that that is visually a lot nicer to comprehend. Now, obviously, not all use cases you're going to be able to use that technique. But if possible, that's the one I tend to lean towards and prefer, because it's so much easier to process, at a glance, "This is what my layout is" in one place.
 
 **Nick Nisi:** So is that going to, then with any -- like, the one that says author, for example, in this, that has it over to the right and the second row, all the way to the right... Is that saying that any DOM element that you give a grid -- I forgot what it's called... A grid area called author - it's just going to put it there, it's always going to exist over there? Is that how that works?
 
@@ -204,7 +204,7 @@ But then it comes back to the point around accessibility, that if you change the
 
 **Martine Dowden:** In the DOM order. And it's true with flex too, especially when you're dealing with reversing, and those sorts of things. Whatever the DOM order is, that's what's gonna get read; or even -- the easy way, if you're not a screen reader user, to see is if you're tabbing through links in a project, you want that tab order to be logical from top left... Like, at least for English speaking, from top left to bottom right. And so if your grid now magically has this element that in the HTML \[unintelligible 00:29:58.00\] at the bottom, but you've placed it at the top, your tab order's going to go all sorts of which way inside of your grid, while your screen reader is going to read it in the DOM order as well.
 
-\[00:30:11.02\] So there's a misconception that only blind users use screen readers. That's not exactly the case, right? You might be using a screen reader as a support for helping you understand what's on the screen, in which case you're looking at the screen and listening to the screen reader, and so you really want that DOM order in that layout to make sense, so you can follow along, if that makes sense.
+\[30:11\] So there's a misconception that only blind users use screen readers. That's not exactly the case, right? You might be using a screen reader as a support for helping you understand what's on the screen, in which case you're looking at the screen and listening to the screen reader, and so you really want that DOM order in that layout to make sense, so you can follow along, if that makes sense.
 
 **Nick Nisi:** Mm-hm. In terms of accessibility for grids, is there anything beyond layout that you need to be aware of?
 
@@ -214,11 +214,11 @@ But then it comes back to the point around accessibility, that if you change the
 
 **Martine Dowden:** It's that thing we do in production -- what? No... \[laughter\] It's not the thing users do in production?
 
-**Break:** \[00:31:12.29\]
+**Break:** \[31:12\]
 
 **Nick Nisi:** Okay, so another chapter that we wanted to touch on from your book, Tiny CSS Projects, is the sixth chapter, which is about creating a profile card. So this one does a lot in terms of like the overall CSS that you'll use, and I just got really excited. We talked about this in the first section, like, this is such a cool, contained component, that has so much in it, and it's something that I have totally written before, and will write again, in little pieces of it... And so why don't we dig into it and talk a little bit about what it is and what we're going to learn?
 
-**Martine Dowden:** \[00:34:11.20\] So basically, I mean, whether it's a social media thing, whether it's an account thing, whether it's a manager, personal preferences thing, inevitably, most applications at some point have some kind of profile. And so this is kind of that stereotypical profile card where we have the picture of the person, or an avatar for the person, and then their name, and then what they do... We ended up putting things like their profession, and stuff like that, but depending on the application, it could be anything. The point isn't necessarily the content at that point; it's to show how you would display the information for that person. And that very stereotypical avatar info may be some links, right?
+**Martine Dowden:** \[34:11\] So basically, I mean, whether it's a social media thing, whether it's an account thing, whether it's a manager, personal preferences thing, inevitably, most applications at some point have some kind of profile. And so this is kind of that stereotypical profile card where we have the picture of the person, or an avatar for the person, and then their name, and then what they do... We ended up putting things like their profession, and stuff like that, but depending on the application, it could be anything. The point isn't necessarily the content at that point; it's to show how you would display the information for that person. And that very stereotypical avatar info may be some links, right?
 
 **Amelia Wattenberger:** I like this chapter, to talk about the chapter after we talked about the last one, because it seems like this is the one in which it introduces Flexbox, right?
 
@@ -240,7 +240,7 @@ But then it comes back to the point around accessibility, that if you change the
 
 which one of those.
 
-**Michael Gearon:** \[00:37:42.05\] One of the other interesting things we cover in chapter six is around custom properties. So custom properties - again, fairly new, and definitely a hot topic... So custom properties is a way of setting variables in your CSS. So you can say in your body element, "Here's like my primary color, here's my font", and you can kind of set up all these variables and then in your CSS you can kind of reference those variables. What that means is is in terms of maintainability, you can make that change once, and then it can have that effect then for the rest of your CSS, which is really powerful, and I think it's just a really super-interesting property that we've got now.
+**Michael Gearon:** \[37:42\] One of the other interesting things we cover in chapter six is around custom properties. So custom properties - again, fairly new, and definitely a hot topic... So custom properties is a way of setting variables in your CSS. So you can say in your body element, "Here's like my primary color, here's my font", and you can kind of set up all these variables and then in your CSS you can kind of reference those variables. What that means is is in terms of maintainability, you can make that change once, and then it can have that effect then for the rest of your CSS, which is really powerful, and I think it's just a really super-interesting property that we've got now.
 
 **Amelia Wattenberger:** I think those, along with like calc, and min/max, and all of the math CSS functions, CSS methods - I don't know what they're called - are so powerful. I've used those greatly, all the time.
 
@@ -266,7 +266,7 @@ For the most part, the core concepts I think we already both pretty well knew it
 
 **Michael Gearon:** I was 100% gonna say the same thing, container queries. \[laughter\] But you know, that kind of took off like halfway through writing this. That's just the situation. But yeah, container queries, 100%. I would have loved to have covered that.
 
-**Martine Dowden:** \[00:41:50.26\] I think user invalid as well, for me... Just for forms. Because we already have - like, you can check that input is invalid, but user invalid bridges that gap to somebody having interacted with the property. And so now you can have "has user invalid show my error message", which completely changes the game and means that you can show error messaging using CSS. Well, you still have to handle the accessibility side of it, but in terms of the show/hide and everything else, you're down to a CSS solution, without having to do -- and then for animations and stuff, it becomes a lot nicer, and things like that.
+**Martine Dowden:** \[41:50\] I think user invalid as well, for me... Just for forms. Because we already have - like, you can check that input is invalid, but user invalid bridges that gap to somebody having interacted with the property. And so now you can have "has user invalid show my error message", which completely changes the game and means that you can show error messaging using CSS. Well, you still have to handle the accessibility side of it, but in terms of the show/hide and everything else, you're down to a CSS solution, without having to do -- and then for animations and stuff, it becomes a lot nicer, and things like that.
 
 So the user invalid for being able to not yell at the user the instant they load the page, because the thing is invalid, would be really nice. But I think only one browser supports it at the moment. I'd have to double-check.
 
@@ -280,7 +280,7 @@ So the user invalid for being able to not yell at the user the instant they load
 
 **Nick Nisi:** Yeah.
 
-**Martine Dowden:** Npm install. It's the solution to everything -- no, no.
+**Martine Dowden:** npm install. It's the solution to everything -- no, no.
 
 **Amelia Wattenberger:** Is there any chapter here, or concepts where you feel like it would have really saved you a ton of time and effort when you were learning CSS? Like, "Oh, if only I had been told X five years ago..."?
 
@@ -310,7 +310,7 @@ So the user invalid for being able to not yell at the user the instant they load
 
 **Martine Dowden:** Actually, that's one thing I wish I had been told early on in my development career, is "Don't bother trying to read the specs cover to cover. Go find the piece you need out of the spec, when you need it."
 
-\[00:46:09.26\] Trying to read specs cover to cover before you start coding the language is a fool's errand. Like, I wish I'd been told that. Because the nerd in me went straight for "Oh, you're gonna learn the WCAG specification. Good. Let's go read the spec." And I tried to do that with XSLT, and... Yeah, no. No.
+\[46:09\] Trying to read specs cover to cover before you start coding the language is a fool's errand. Like, I wish I'd been told that. Because the nerd in me went straight for "Oh, you're gonna learn the WCAG specification. Good. Let's go read the spec." And I tried to do that with XSLT, and... Yeah, no. No.
 
 **Amelia Wattenberger:** It's ambitious.
 
