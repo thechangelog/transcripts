@@ -104,7 +104,7 @@ I think like the first four, five chapters -- except for the first one, which go
 
 **Nick Nisi:** That really is much worse.
 
-**Break:** \[16:41\] to \[17:54\]
+**Break:** \[16:41\] 
 
 **Nick Nisi:** So in the last section we mentioned that IE 11 had a non-standard grid implementation... But maybe let's dive deeper and talk about standard grid implementations... Specifically a chapter that's covered in your book, all about laying out with CSS grids. So why don't you tell us about what we can expect to learn in that chapter?
 
