@@ -52,7 +52,7 @@
 
 **Mat Ryer:** I also don't really like horror films, especially if there's any kind of contradiction in it. I can't deal with that. Like, if there's an invisible thing that can grab you, first of all, it's invisible, it would be blind; we've covered this. But also, if it can grab you, you can grab it, you can hurt it... Like, it's not fair. It's like when the physics don't apply generally; then I'm just out. And I just tell everyone in the cinema, I'm like, "Sorry, everyone. I can't stay. I've got to go because of the inconsistencies of the physics." And I just go and get some popcorn and go.
 
-**Natalie Pistunovich:** \[00:06:10.01\] Do you get sweet or salty popcorn?
+**Natalie Pistunovich:** \[06:10\] Do you get sweet or salty popcorn?
 
 **Mat Ryer:** Salty.
 
@@ -98,7 +98,7 @@
 
 **Dee Kitchen:** Yeah, there's no way of defining what makes a good HTML sanitizer. Everyone's got a different rule, depending on their use case. But the Java OWASP, Open Web Application Security thing - \[unintelligible 00:09:43.05\] to find this really beautiful interface for sort of going, "I want to allow images, but I don't want to allow these images that end in .gif." And I copied their API, and then extended it for my own use. So yeah, it's a really good way of doing it.
 
-**Mat Ryer:** \[00:09:58.29\] Nice. Okay, well, I'm gonna tell you about a horror story in tech of mine, that happened quite recently... I have this project which interacts with Twitter, and it interacts with the Twitter API... And so it polls results and then compares them, and stuff. And that's just one of the things it does at a regular interval. And then what happened recently was something happened where the API key changed, and that request failed. And because of the way I was doing it in GCP, it meant essentially that it would retry. And because it was scheduled, it kept compounding. And this ran up a $1,000 bill for me, for yours truly... $1,000 given, paid, gone... So that's a bit of a tech horror story. And the advice for me --
+**Mat Ryer:** \[09:58\] Nice. Okay, well, I'm gonna tell you about a horror story in tech of mine, that happened quite recently... I have this project which interacts with Twitter, and it interacts with the Twitter API... And so it polls results and then compares them, and stuff. And that's just one of the things it does at a regular interval. And then what happened recently was something happened where the API key changed, and that request failed. And because of the way I was doing it in GCP, it meant essentially that it would retry. And because it was scheduled, it kept compounding. And this ran up a $1,000 bill for me, for yours truly... $1,000 given, paid, gone... So that's a bit of a tech horror story. And the advice for me --
 
 **Dee Kitchen:** Is it tax-deductible? \[laughter\]
 
@@ -166,7 +166,7 @@
 
 **Dee Kitchen:** \[unintelligible 00:13:56.02\] that's the opposite of what we're doing. No, we were trying to protect, and they have a system... They've got all these 200 POPs (points of presence), and thousands and thousands of servers... And every single one of these is protecting some of the traffic; each machine can do like 20,000 requests per second.
 
-\[00:14:15.19\] And yet, they need to be able to actually show the value back to the customer, and make these sort of decisions centrally. So you send all the logs somewhere, and they're all been sent to one data center. So what you end up with is like, if you're doing globally 10 million requests per second, you get 10 million log lines per second in one place.
+\[14:15\] And yet, they need to be able to actually show the value back to the customer, and make these sort of decisions centrally. So you send all the logs somewhere, and they're all been sent to one data center. So what you end up with is like, if you're doing globally 10 million requests per second, you get 10 million log lines per second in one place.
 
 **Johnny Boursiquot:** Nice...!
 
@@ -212,7 +212,7 @@ So wherever this rule was applied - and we had shipped it globally to every sing
 
 **Dee Kitchen:** Everything was affected. We knocked out a lot. DNS, TLS, HTTP, everything. It was one of those nightmare scenarios. And you sit there as a company, you sit there and you sort of go, "What are these meteorites?" the dinosaurs went extinct by a meteorite. "As a company or product service offering, what's the meteorite that's going to hit us?" At that company, we were hit by every meteorite we predicted. It survived, but still, on the days when they hit, it lays waste to everything.
 
-\[00:18:15.06\] And everyone has them. The thing that you've got to realize is when you're there, you've got to sympathize with -- you can accidentally see another company go through this... They're having a bad day, and you've got to sympathize, because one of those meteorites is gonna hit you one day.
+\[18:15\] And everyone has them. The thing that you've got to realize is when you're there, you've got to sympathize with -- you can accidentally see another company go through this... They're having a bad day, and you've got to sympathize, because one of those meteorites is gonna hit you one day.
 
 **Mat Ryer:** Yeah, we see the \[unintelligible 00:18:25.11\] goes around often on social media, and things, of people sending their support in those difficult times...
 
@@ -256,7 +256,7 @@ And then some of the colleagues that were there tried to see where it comes from
 
 **Natalie Pistunovich:** ...be reasonable about your expectations.
 
-**Mat Ryer:** \[00:22:01.09\] Nice.
+**Mat Ryer:** \[22:01\] Nice.
 
 **Johnny Boursiquot:** I'm curious if you have a way -- like, now that you're older and wiser, and you've been through the experience, and it was a great teacher... I'm wondering, do you have strategies now for doing things that are scary, that could break things? Like, do you have a strategy for tackling that now?
 
@@ -290,7 +290,7 @@ Now, one could say that's sort of extreme... I mean, again, if there was a playb
 
 **Dee Kitchen:** I think that's important though, that they're taking steps, because it helps with something else... It helps people admit that they've possibly done something. Who in their early career has got the courage to say, "I've \[unintelligible 00:25:31.27\] up", right? "I potentially have lost you money, or time." Most people are terrified; and you're terrified legitimately, because you've got no experience in the industry, you're brand new, you're finally being paid to do something, and you think you're not very good. We're long in our career, and we probably think we're not very good. So early career, you're crushed. And that ability to turn around and go, "That might have been me. I think I did that. I pressed this button, and then it broke." That's tough.
 
-**Mat Ryer:** \[00:26:01.02\] Yeah. Well, I think that speaks to like the blameless culture that's important. It's important to reach the point where your people aren't punished for these mistakes... Because the last thing you want is people - like you say, they bury it, they try and hide it, or just don't tell anybody, which could make the problem much worse. So yeah, I think that culture plays a big part, doesn't it?
+**Mat Ryer:** \[26:01\] Yeah. Well, I think that speaks to like the blameless culture that's important. It's important to reach the point where your people aren't punished for these mistakes... Because the last thing you want is people - like you say, they bury it, they try and hide it, or just don't tell anybody, which could make the problem much worse. So yeah, I think that culture plays a big part, doesn't it?
 
 **Kris Brandow:** Yeah. You should always blame systems and not people. If something went wrong, it's not the person's fault, it's why did the system allow the person to do that?
 
@@ -302,7 +302,7 @@ Now, one could say that's sort of extreme... I mean, again, if there was a playb
 
 **Mat Ryer:** Yeah, it feels like it sometimes...
 
-**Break:** \[00:26:51.00\]
+**Break:** \[26:51\]
 
 **Mat Ryer:** Have we got any more horror stories? Oh, by the way, this campfire's warm isn't it? We can probably put an effect of a campfire over the top; let's pretend we're all gathered around a campfire. Oh, what do you think of the campfire, Johnny?
 
@@ -336,7 +336,7 @@ Now, one could say that's sort of extreme... I mean, again, if there was a playb
 
 1:Yeah. I mean, make sure you do go through proper passport control. Don't just fly in at any point, because that's illegal. But yeah, otherwise do, please visit; we'd love to have you.
 
-\[00:29:57.26\] Yeah, I remember talking about hot CPUs... The CPU Hot program that I used to have on an Amiga, and basically run it, and it made the CPU hot. And that was a program that you could have -- it was on like a front of a magazine, for some reason... "What's that doing...?"
+\[29:57\] Yeah, I remember talking about hot CPUs... The CPU Hot program that I used to have on an Amiga, and basically run it, and it made the CPU hot. And that was a program that you could have -- it was on like a front of a magazine, for some reason... "What's that doing...?"
 
 **Dee Kitchen:** Someone wrote another infinite loop...
 
@@ -388,7 +388,7 @@ And I wrote a script for the registry on one of the cloned Exchange Server machi
 
 **Mat Ryer:** Active Directory. Never heard of it, mate. Never heard of him. \[unintelligible 00:33:55.26\] man's name... Active Directory. That's a weird name for a man. I think that's a man, just really selling that you know it, just to get the job... Oh, just a tip there for people that want to get into that. Like I said, I'm jet-lagged. And this is a spooky Halloween party special... How are those marshmallows looking, Kris?
 
-**Kris Brandow:** \[00:34:15.10\] They're toasty, and brown, and delicious.
+**Kris Brandow:** \[34:15\] They're toasty, and brown, and delicious.
 
 **Mat Ryer:** Oh, perfect. Well done. Are you gonna share, or...?
 
@@ -420,7 +420,7 @@ So within a matter of about an hour and a half or so, while students are waiting
 
 So after that incident, I was never again, like, "What do I need to do? What do I need to learn? Who do I need to talk to?" Like, it was -- I had to level up. And any point in my career - I can't remember a single incident that has driven me to level up as much as this one, because the impact was so real. It was so in my face. Just undeniable. I thought that was scary...
 
-**Natalie Pistunovich:** \[00:38:11.13\] That is the $1,001 bill.
+**Natalie Pistunovich:** \[38:11\] That is the $1,001 bill.
 
 **Mat Ryer:** Yeah.
 
@@ -450,7 +450,7 @@ I feel like the number of times I've been at companies that -- I've worked at ba
 
 **Mat Ryer:** I haven't done that for weeks. I don't know why you're bringing it up. \[laughter\] It's spooky, ain't it? It's a spooky show.
 
-**Break:** \[00:41:59.11\]
+**Break:** \[41:59\]
 
 **Kris Brandow:** I have a spooky story, I think... It feels spooky. So I'd recently joined this company, and of course, because it's the modern day, they're using Kubernetes.
 
@@ -492,7 +492,7 @@ I think the total amount of time that the door was just open was about nine mont
 
 And what we realized - the debugging for this went wild; it went really low. And we were down at Wireshark and we're watching what's going on, and we're watching what's going on inside the kernel, but we were turning on contract connection tracking. And this is in TCP, it's got little tables, state tables in there to keep track of the sort of TCP connections. But you can overflow these tables; we were turning them off, and every time we turned them on and off, we were toggling which IP firewall rules were actually matching or not.
 
-\[00:46:16.09\] So we were taking existing connections and then just randomly dropping them every time we flipped these things... But we could never observe it, and we were just there the whole time, just going "We've lost it again. There goes the connection."
+\[46:16\] So we were taking existing connections and then just randomly dropping them every time we flipped these things... But we could never observe it, and we were just there the whole time, just going "We've lost it again. There goes the connection."
 
 And it took us weeks of just poking around, going "What's going on? I can't see it. Ghost in the machine." Yeah, too secure is a problem. Honestly.
 
@@ -568,7 +568,7 @@ And it took us weeks of just poking around, going "What's going on? I can't see 
 
 **Johnny Boursiquot:** As silent as your hairline? \[laughter\]
 
-**Mat Ryer:** \[00:50:13.05\] I mean, it's getting very poetic, and slightly unusual banter there...
+**Mat Ryer:** \[50:13\] I mean, it's getting very poetic, and slightly unusual banter there...
 
 **Johnny Boursiquot:** You asked for it. I mean, you did ask for it.
 
@@ -582,7 +582,7 @@ And it took us weeks of just poking around, going "What's going on? I can't see 
 
 **Mat Ryer:** Oh, there we go... That was a good one... That was a good one, yeah. Good point. Okay, well... That sound of Johnny talking tells us it's time for... Unpopular Opinions!
 
-**Jingle:** \[00:51:16.25\]
+**Jingle:** \[51:16\]
 
 **Mat Ryer:** Okay... Who's gonna kick us off with the first popular opinion? Dee! You've been chosen.
 
@@ -626,7 +626,7 @@ For me, the number one thing people should do is sanitize inputs. And it's not b
 
 **Johnny Boursiquot:** Take a stab at Matt... \[laughs\]
 
-**Mat Ryer:** \[00:54:10.12\] I'm like a pinata. I'm like a really rubbish pinata. Imagine buying a pinata for kids and it's me. \[laughter\] You'd take it back, wouldn't you? You'd be like "No, we'll probably go for the unicon instead, on second thought... I should have guessed that, really..." Okay, yeah. Fine. Thanks, Kris. It's a Halloween special, you're allowed to do that...
+**Mat Ryer:** \[54:10\] I'm like a pinata. I'm like a really rubbish pinata. Imagine buying a pinata for kids and it's me. \[laughter\] You'd take it back, wouldn't you? You'd be like "No, we'll probably go for the unicon instead, on second thought... I should have guessed that, really..." Okay, yeah. Fine. Thanks, Kris. It's a Halloween special, you're allowed to do that...
 
 **Natalie Pistunovich:** Spooky pinata.
 
