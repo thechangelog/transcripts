@@ -214,7 +214,7 @@ So wherever this rule was applied - and we had shipped it globally to every sing
 
 \[18:15\] And everyone has them. The thing that you've got to realize is when you're there, you've got to sympathize with -- you can accidentally see another company go through this... They're having a bad day, and you've got to sympathize, because one of those meteorites is gonna hit you one day.
 
-**Mat Ryer:** Yeah, we see the \[unintelligible 00:18:25.11\] goes around often on social media, and things, of people sending their support in those difficult times...
+**Mat Ryer:** Yeah, we see the HugOps goes around often on social media, and things, of people sending their support in those difficult times...
 
 **Dee Kitchen:** Yeah, there's a good tradition of sending cakes to each other to sort of go "Thinking of you..."
 
@@ -264,7 +264,7 @@ And then some of the colleagues that were there tried to see where it comes from
 
 **Mat Ryer:** What were you having for lunch?
 
-**Natalie Pistunovich:** I don't think I had lunch that day. I mean, I was like \[unintelligible 00:22:44.22\] stuff, but I don't think I had a lunch-lunch.
+**Natalie Pistunovich:** I don't think I had lunch that day. I mean, I was like nudging stuff, but I don't think I had a lunch-lunch.
 
 **Mat Ryer:** Yeah, there's another theme emerging here... One of the main reasons to write good code is so you can just have lunch... For a good reason.
 
@@ -288,7 +288,7 @@ Now, one could say that's sort of extreme... I mean, again, if there was a playb
 
 **Mat Ryer:** Exactly. Yeah. You shouldn't be able to do that, really. If you can do that...
 
-**Dee Kitchen:** I think that's important though, that they're taking steps, because it helps with something else... It helps people admit that they've possibly done something. Who in their early career has got the courage to say, "I've \[unintelligible 00:25:31.27\] up", right? "I potentially have lost you money, or time." Most people are terrified; and you're terrified legitimately, because you've got no experience in the industry, you're brand new, you're finally being paid to do something, and you think you're not very good. We're long in our career, and we probably think we're not very good. So early career, you're crushed. And that ability to turn around and go, "That might have been me. I think I did that. I pressed this button, and then it broke." That's tough.
+**Dee Kitchen:** I think that's important though, that they're taking steps, because it helps with something else... It helps people admit that they've possibly done something. Who in their early career has got the courage to say, "I've mucked up", right? "I potentially have lost you money, or time." Most people are terrified; and you're terrified legitimately, because you've got no experience in the industry, you're brand new, you're finally being paid to do something, and you think you're not very good. We're long in our career, and we probably think we're not very good. So early career, you're crushed. And that ability to turn around and go, "That might have been me. I think I did that. I pressed this button, and then it broke." That's tough.
 
 **Mat Ryer:** \[26:01\] Yeah. Well, I think that speaks to like the blameless culture that's important. It's important to reach the point where your people aren't punished for these mistakes... Because the last thing you want is people - like you say, they bury it, they try and hide it, or just don't tell anybody, which could make the problem much worse. So yeah, I think that culture plays a big part, doesn't it?
 
@@ -324,7 +324,7 @@ Now, one could say that's sort of extreme... I mean, again, if there was a playb
 
 **Dee Kitchen:** It's basically my GPU overheating. \[laughter\]
 
-**Natalie Pistunovich:** It's the \[unintelligible 00:29:24.02\]
+**Natalie Pistunovich:** It's the sound of my computer
 
 **Dee Kitchen:** The money fire... My electric bill...
 
@@ -364,9 +364,9 @@ And I wrote a script for the registry on one of the cloned Exchange Server machi
 
 **Dee Kitchen:** That was my day's work done. I left. I have no idea whether that worked... \[laughter\] It appeared to work.
 
-**Johnny Boursiquot:** "Why \[unintelligible 00:32:41.22\] notice exactly after this project ended?" "Oh, I don't know. I don't wanna know." \[laughter\]
+**Johnny Boursiquot:** "Why is your two-week notice exactly after this project ended?" "Oh, I don't know. I don't wanna know." \[laughter\]
 
-**Dee Kitchen:** \[unintelligible 00:32:48.02\] contractors, that's what you get.
+**Dee Kitchen:** Anyway, contractors, that's what you get.
 
 **Mat Ryer:** Wow... That could have just worked though. But you know, I never trust code that works first time. That's why I like a failing test before...
 
@@ -386,7 +386,7 @@ And I wrote a script for the registry on one of the cloned Exchange Server machi
 
 **Dee Kitchen:** Maybe that's the thing though... When you see people late in their career, and you're just like "What do you know about this?" and you think they're doing the "I've forgotten more than you'll ever learn", but no, they're actually going "I don't want to do this..." \[laughter\]
 
-**Mat Ryer:** Active Directory. Never heard of it, mate. Never heard of him. \[unintelligible 00:33:55.26\] man's name... Active Directory. That's a weird name for a man. I think that's a man, just really selling that you know it, just to get the job... Oh, just a tip there for people that want to get into that. Like I said, I'm jet-lagged. And this is a spooky Halloween party special... How are those marshmallows looking, Kris?
+**Mat Ryer:** Active Directory. Never heard of it, mate. Never heard of him. Thinks it's someone man's name... Active Directory. That's a weird name for a man. I think that's a man, just really selling that you know it, just to get the job... Oh, just a tip there for people that want to get into that. Like I said, I'm jet-lagged. And this is a spooky Halloween party special... How are those marshmallows looking, Kris?
 
 **Kris Brandow:** \[34:15\] They're toasty, and brown, and delicious.
 
@@ -456,7 +456,7 @@ I feel like the number of times I've been at companies that -- I've worked at ba
 
 **Mat Ryer:** Classic.
 
-**Kris Brandow:** And of course, they're using all the shiny things with Kubernetes, so \[unintelligible 00:42:16.28\] Istio. No one actually knows how any of this works. It's just like, "Oh, this is what we're supposed to be using." So we have this big ol' cluster, and it's running, and our DevOps people are pulling their hair, because they hate all of this... And I start like reading through the codebase and looking at things, and I'm like, "Okay, these auth policies look a little funky." And then I go talk to people, and they're like, "We don't really have any auth policies. Everything's just kind of open right now. Like, everything in the backend can just talk to each other. There's no auth policies." And I'm like, "Are you sure? Because I see these auth policies in the codebase." And they're like, "Yeah, but we don't think they're being used for anything." I'm like, "Okay..." So I just kind of like let it go, and go about my business... And then I have like a few more of these conversations, and I'm like, "This feels weird. But you know, all these people know more than I do."
+**Kris Brandow:** And of course, they're using all the shiny things with Kubernetes, so that's using Istio. No one actually knows how any of this works. It's just like, "Oh, this is what we're supposed to be using." So we have this big ol' cluster, and it's running, and our DevOps people are pulling their hair, because they hate all of this... And I start like reading through the codebase and looking at things, and I'm like, "Okay, these auth policies look a little funky." And then I go talk to people, and they're like, "We don't really have any auth policies. Everything's just kind of open right now. Like, everything in the backend can just talk to each other. There's no auth policies." And I'm like, "Are you sure? Because I see these auth policies in the codebase." And they're like, "Yeah, but we don't think they're being used for anything." I'm like, "Okay..." So I just kind of like let it go, and go about my business... And then I have like a few more of these conversations, and I'm like, "This feels weird. But you know, all these people know more than I do."
 
 And then months and months later, someone stumbles across this one auth policy that has no labels, and no access rules, which in Istio language means that it applies to literally everything, and allows all traffic in. So this one policy had just opened our entire API, including the public API, to the entire internet, for anybody to do anything without needing any authorization. You just needed like a JSON web token that you could easily get from anywhere. And I was just like -- so it caused all these problems, everybody's freaking out, and then they just rip that policy out and they're like, "Okay, well, without this policy, we'll be fine." But then all of those auth policies that had been sitting there, that I was like, "These look funky", all those took over, and all of those were broken. So then it broke all the APIs. So then they had to put the other policy back, and then go through, and like, go find every single auth policy within Istio, and then fix all of those auth policies, and then they could finally remove that one policy that was opening everything to the world.
 
@@ -540,7 +540,7 @@ And it took us weeks of just poking around, going "What's going on? I can't see 
 
 **Johnny Boursiquot:** And that's why you work inside of transaction blocks, kids. \[laughs\]
 
-**Dee Kitchen:** That's why that's advisable, but it was not what I was doing that day. The real \[unintelligible 00:49:00.24\] was actually sort of going "How can we restore this when our database backup was like 12 hours ago, and there's 12 hours of changes in other tables since then?"
+**Dee Kitchen:** That's why that's advisable, but it was not what I was doing that day. The real mess though was actually sort of going "How can we restore this when our database backup was like 12 hours ago, and there's 12 hours of changes in other tables since then?"
 
 **Johnny Boursiquot:** Ouch...
 
@@ -596,7 +596,7 @@ And it took us weeks of just poking around, going "What's going on? I can't see 
 
 **Dee Kitchen:** Mine comes from the last Go Time. One of the guests said that Go is brilliant, you don't have to worry about security; it does everything for you. You don't have to worry about the memory management. Everything's super cool. And I think it actually has made Go more insecure, because people are so -- they put so much trust and safety in the actual sort of language, that a lot of the basics are dropping by the wayside.
 
-For me, the number one thing people should do is sanitize inputs. And it's not because I wrote \[unintelligible 00:52:35.20\] but they should do it on everything. And I just don't think I see anyone doing it anywhere. There's just great, big holes in everything, but people are still there going "But we've got memory safety." Memory safety saves you from yourself, not from others.
+For me, the number one thing people should do is sanitize inputs. And it's not because I wrote bluemonday but they should do it on everything. And I just don't think I see anyone doing it anywhere. There's just great, big holes in everything, but people are still there going "But we've got memory safety." Memory safety saves you from yourself, not from others.
 
 **Mat Ryer:** Hm... What do we think? Is that popular, or unpopular...?
 
@@ -612,7 +612,7 @@ For me, the number one thing people should do is sanitize inputs. And it's not b
 
 **Dee Kitchen:** Why are you afraid of your reflection? Are you a vampire?
 
-**Mat Ryer:** Well, it's because I am DraCool -- \[unintelligible 00:53:54.11\]
+**Mat Ryer:** Well, it's because I am DraCool -- Yeah because you know, that's my... Russian accent there.
 
 **Kris Brandow:** Because he doesn't want to see that hairline, obviously...
 
@@ -638,7 +638,7 @@ For me, the number one thing people should do is sanitize inputs. And it's not b
 
 **Natalie Pistunovich:** Some of the training that you should be taking occasionally throughout your career, even annually, should not be about things that are in the future, like new things, like new technologies coming and so on, but also a little bit about the back. A little bit of Assembly every now and then. It might be useful accidentally at some point in your life, because you did it, and even if not, it might -- like, you'll see patterns, because it's all the same things, with just more and more abstractions. But it's still the same things. Just seeing how it's done, and how things were solved, and how problems worked... It might help you figure out the future when you rely on the past.
 
-And it's unpopular -- I know, you will \[unintelligible 00:55:23.11\] I also did not do that, and don't allocate time or budget for that.
+And it's unpopular -- I know, you all will not agree with me, it's unpopular. I also did not do that, and don't allocate time or budget for that.
 
 **Mat Ryer:** Hmm... I do know what you mean. I actually have this book called, "But how do we know?" I got it off the Amazon website. And basically, it talks about computing from the very bare beginnings, like literally logic gates, and then how you make a bit out of two NAND gates, just showing how the logic works... And then building up everything in a computer like that. And it is amazing. But yeah, that was like, not something I need.
 
