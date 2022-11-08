@@ -126,7 +126,7 @@
 
 **Johnny Boursiquot:** I'd call you and say "Hey, you've got a grand? I hear you're loaded... And just wasting $1,000 here, $1,000 there, on your bugs, and stuff..."
 
-**Mat Ryer:** Honestly, when I found out about it, I wanted to just karate-chop the air. That was the kind of spooky reaction I had to it. Just like **Whoosh** in the air. Angry. But yeah, it's a good lesson though. Like, set budgets and stuff on your things.
+**Mat Ryer:** Honestly, when I found out about it, I wanted to just karate-chop the air. That was the kind of spooky reaction I had to it. Just like \[Whew\] in the air. Angry. But yeah, it's a good lesson though. Like, set budgets and stuff on your things.
 
 **Johnny Boursiquot:** Do set an alarm, yeah. Budget alarms.
 
