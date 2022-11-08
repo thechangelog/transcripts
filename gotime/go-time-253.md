@@ -58,7 +58,7 @@
 
 **Natalie Pistunovich:** Do you have a choice? Or is it always salty?
 
-**Mat Ryer:** No, you have a choice. \[laughter\] Don't you have a choice? Yeah... What do you mean? Like, the police are going around saying "Hey, \[unintelligible 00:06:22.25\] salty? What are you doing?"
+**Mat Ryer:** No, you have a choice. \[laughter\] Don't you have a choice? Yeah... What do you mean? Like, the police are going around saying "Hey, are you only having salty? What are you doing?"
 
 **Natalie Pistunovich:** I only discovered in my late 20s that some other countries sell popcorn that is not just salty in the cinema.
 
@@ -96,7 +96,7 @@
 
 **Mat Ryer:** Okay, fair enough. Well, I have done that, but... Good to know. I genuinely have used it though, quite a few times, so... I like it, because it's like you opt into what you want to support. You explicitly say the things that you want to allow.
 
-**Dee Kitchen:** Yeah, there's no way of defining what makes a good HTML sanitizer. Everyone's got a different rule, depending on their use case. But the Java OWASP, Open Web Application Security thing - \[unintelligible 00:09:43.05\] to find this really beautiful interface for sort of going, "I want to allow images, but I don't want to allow these images that end in .gif." And I copied their API, and then extended it for my own use. So yeah, it's a really good way of doing it.
+**Dee Kitchen:** Yeah, there's no way of defining what makes a good HTML sanitizer. Everyone's got a different rule, depending on their use case. But the Java OWASP, Open Web Application Security thing - There sanitize it to find this really beautiful interface for sort of going, "I want to allow images, but I don't want to allow these images that end in .gif." And I copied their API, and then extended it for my own use. So yeah, it's a really good way of doing it.
 
 **Mat Ryer:** \[09:58\] Nice. Okay, well, I'm gonna tell you about a horror story in tech of mine, that happened quite recently... I have this project which interacts with Twitter, and it interacts with the Twitter API... And so it polls results and then compares them, and stuff. And that's just one of the things it does at a regular interval. And then what happened recently was something happened where the API key changed, and that request failed. And because of the way I was doing it in GCP, it meant essentially that it would retry. And because it was scheduled, it kept compounding. And this ran up a $1,000 bill for me, for yours truly... $1,000 given, paid, gone... So that's a bit of a tech horror story. And the advice for me --
 
@@ -126,7 +126,7 @@
 
 **Johnny Boursiquot:** I'd call you and say "Hey, you've got a grand? I hear you're loaded... And just wasting $1,000 here, $1,000 there, on your bugs, and stuff..."
 
-**Mat Ryer:** Honestly, when I found out about it, I wanted to just karate-chop the air. That was the kind of spooky reaction I had to it. Just like \[unintelligible 00:11:38.17\] in the air. Angry. But yeah, it's a good lesson though. Like, set budgets and stuff on your things.
+**Mat Ryer:** Honestly, when I found out about it, I wanted to just karate-chop the air. That was the kind of spooky reaction I had to it. Just like **Whoosh** in the air. Angry. But yeah, it's a good lesson though. Like, set budgets and stuff on your things.
 
 **Johnny Boursiquot:** Do set an alarm, yeah. Budget alarms.
 
