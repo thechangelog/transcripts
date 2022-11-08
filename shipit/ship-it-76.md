@@ -14,7 +14,7 @@ Ultimately, what I did is I started building a prototype distribution that becam
 
 **Gerhard Lazu:** Right. So the apk package manager - that comes from Alpine. How is that different from apko? What is the difference between apl and apko.
 
-**Ariadne Conill:** So apk is a package manager. It originally was started by Alpine. There's been multiple versions of apk over the years. The first one was a bunch of shell scripts, and it kind of operated on something similar to like Solaris; you know, UNIX System V tarball packages. The second generation largely inspired by apt and Pacman; also Canary, in terms of user experience... And it's used by multiple distributions now. It's used by Alpine, it's used by one named \[unintelligible 00:07:48.10\] and now also Wolfi. And there are a few others that I have neglected to mention, mostly because I've just forgotten the names of them, because they're small.
+**Ariadne Conill:** So apk is a package manager. It originally was started by Alpine. There's been multiple versions of apk over the years. The first one was a bunch of shell scripts, and it kind of operated on something similar to like Solaris; you know, UNIX System V tarball packages. The second generation largely inspired by apt and Pacman; also Canary, in terms of user experience... And it's used by multiple distributions now. It's used by Alpine, it's used by one named Gamera,it's used by one named Adélie and now also Wolfi. And there are a few others that I have neglected to mention, mostly because I've just forgotten the names of them, because they're small.
 
 **Gerhard Lazu:** Yeah. How do you know all those Linux distributions? I've never heard of those. How come you know them?
 
@@ -44,7 +44,7 @@ various configuration files behind, so that you can then take a scanner and see 
 
 **Ariadne Conill:** So the Debian build system is basically - you have a Debian directory, and then there's a file in there named rules. And that is a makefile. And you have to spell out all of the steps needed to build a .deb file, using that rules file. There are things like Debhelper, but it's not like they're an integrated build system; it's a huge mess that you have to deal with.
 
-In apk there are multiple build systems that you can choose from. There is the classical abuild, which is used by Alpine and \[unintelligible 00:12:43.16\] It is much simpler than the Debian way; it uses a shell script called an apkbuild. There's some variables in there that describe what the package is, and then there are some steps that it goes through to actually build the package, and that's it. Really clean, self-contained... You can go to get.alpinelinux.org/aports and see a whole bunch of apk builds.
+In apk there are multiple build systems that you can choose from. There is the classical abuild, which is used by Alpine and Adélie. It is much simpler than the Debian way; it uses a shell script called an apkbuild. There's some variables in there that describe what the package is, and then there are some steps that it goes through to actually build the package, and that's it. Really clean, self-contained... You can go to get.alpinelinux.org/aports and see a whole bunch of apk builds.
 
 Wolfi uses a system called Melange, which - it takes kind of the same approach, but instead of being a shell script, we have YAML. And because we have YAML, we can do all sorts of structured data stuff, like tracking individual files and their copyright information, we can express more types of relationships between things...
 
@@ -118,7 +118,7 @@ But the takeaway is Wolfi OS doesn't make a choice. It lets users choose whether
 
 **Gerhard Lazu:** \[34:22\] Okay. So when you say "we", it implies that you're part of the musl development team, is that right?
 
-**Ariadne Conill:** I am a contributor to musl. There's only one person that has commit access to the canonical musl \[unintelligible 00:34:37.10\] But I have many patches in musl. I've worked on many function implementations in musl such as fopencookie, and a few others over the years. So yeah... I also maintain a lot of the add-ons, like \[unintelligible 00:34:56.18\], and so on.
+**Ariadne Conill:** I am a contributor to musl. There's only one person that has commit access to the canonical musl tree, and that is Rich Felker. But I have many patches in musl. I've worked on many function implementations in musl such as fopencookie, and a few others over the years. So yeah... I also maintain a lot of the add-ons, like glib viewContext, and so on.
 
 **Gerhard Lazu:** Interesting. Okay, so we started talking about Chainguard Images, and then we ended up here. Great detour, I really enjoyed it. Now, what is the kernel that the Chainguard images are using?
 
@@ -144,7 +144,7 @@ I know a lot of people who write C. Nobody really enjoys writing C. Nobody wakes
 
 **Gerhard Lazu:** \[42:27\] Some would say that's a necessity for infrastructure. You want boring for infrastructure. Things that you need to depend on must be boring, I would say. So what are your thoughts on Rust shipping in the Linux Kernel?
 
-**Ariadne Conill:** Well, for me right now, the worst case is that it's an annoyance. The best case is that, because now the Linux Kernel is using it, there's no choice but to talk about standardization. Also, because Linux is using Rust, or Linux is going to be using Rust, that enables a lot of possibilities in terms of, you know, this model-driven development for writing drivers. Like, we see \[unintelligible 00:43:17.28\] They modeled out how the GPU drivers should work, and now they are coding against that model to create an actual Linux Kernel driver. And that is a really powerful thing. Because when you go all-in with that approach to writing programs of Rust - they call it "correct by construction" - you can build programs much faster, because you can have the confidence that what you're doing is right.
+**Ariadne Conill:** Well, for me right now, the worst case is that it's an annoyance. The best case is that, because now the Linux Kernel is using it, there's no choice but to talk about standardization. Also, because Linux is using Rust, or Linux is going to be using Rust, that enables a lot of possibilities in terms of, you know, this model-driven development for writing drivers. Like, we see that with Asahi. They modeled out how the GPU drivers should work, and now they are coding against that model to create an actual Linux Kernel driver. And that is a really powerful thing. Because when you go all-in with that approach to writing programs of Rust - they call it "correct by construction" - you can build programs much faster, because you can have the confidence that what you're doing is right.
 
 So overall, I'm optimistic, but at the same time, do I see Rust being used in like the variations of the Linux kernel that Alpine ships in the next 6 to 12 months? Probably not. Because right now we're still working on ensuring that Rust is production-ready in Alpine. And until we are confident that it is, we're not going to have the kernel depend on it.
 
