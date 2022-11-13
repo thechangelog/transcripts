@@ -381,6 +381,9 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
       <td align="center"><a href="https://russt.me"><img src="https://avatars.githubusercontent.com/u/729694?v=4?s=100" width="100px;" alt="Russ Taylor"/><br /><sub><b>Russ Taylor</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=russtaylor" title="Documentation">📖</a></td>
       <td align="center"><a href="https://blueheronlabs.net"><img src="https://avatars.githubusercontent.com/u/1742341?v=4?s=100" width="100px;" alt="Phill Zarfos"/><br /><sub><b>Phill Zarfos</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=pzarfos" title="Documentation">📖</a></td>
     </tr>
+    <tr>
+      <td align="center"><a href="https://zmoazeni.github.io/gitspective/#/timeline/waldyrious"><img src="https://avatars.githubusercontent.com/u/478237?v=4?s=100" width="100px;" alt="Waldir Pimenta"/><br /><sub><b>Waldir Pimenta</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=waldyrious" title="Documentation">📖</a></td>
+    </tr>
   </tbody>
 </table>
 
