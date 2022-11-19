@@ -30,7 +30,7 @@ And then my full-time job is working for Open Web Docs. So Open Web Docs is a no
 
 **Amal Hussein:** Yeah.
 
-**Estelle Weyl:** \[00:06:02.19\] But we have four full-time and one part-time, and we do 63% of the code reviews, and we do 11% of the PRs... So 89 -- I can do math. 89% come from other people, but those are people who find typos, which we love the fact that they're doing that, but we're the ones who do the major changes. Like, if the side navbar has changed, and the layer has changed, and there's now page types...
+**Estelle Weyl:** \[06:02\] But we have four full-time and one part-time, and we do 63% of the code reviews, and we do 11% of the PRs... So 89 -- I can do math. 89% come from other people, but those are people who find typos, which we love the fact that they're doing that, but we're the ones who do the major changes. Like, if the side navbar has changed, and the layer has changed, and there's now page types...
 
 One of the recent projects was changing every occurrence of VaR as a keyword in JavaScript to const or let...
 
@@ -52,7 +52,7 @@ I'm curious, before we get into like the meat of the show - so we invited you he
 
 **Estelle Weyl:** Yeah, very forgiving. So these two camps divided, and then everyone basically said "No one wants to write XHTML anyway, because it's really ridiculously hard..." So everyone went with the WHATWG, but it's still included, all of the features of XHTML, basically, just being less, I guess, pedantic, or less strict. So there's a doctype. The doctype -- it's not called doctype anymore. I can't remember what the word is... Because someone corrected me when I said doctype. They're "No, it's a document --"
 
-**Amal Hussein:** \[00:10:08.07\] It's not doctype anymore? This is like news to me. Oh, it's a document type? \[laughs\]
+**Amal Hussein:** \[10:08\] It's not doctype anymore? This is like news to me. Oh, it's a document type? \[laughs\]
 
 **Estelle Weyl:** Yeah, something like that.
 
@@ -118,7 +118,7 @@ I'm curious, before we get into like the meat of the show - so we invited you he
 
 **Amal Hussein:** Wow...
 
-**Estelle Weyl:** \[00:14:11.25\] And CSS is also a living standard. I don't think they call it that, but if you look at certain things... Like, CSS Flexbox has CSS flexible modules one, and then it has two. And Grids has one, and then two. I believe Subgrid is in two. Colors - I think we are at... 4 is a candidate recommendation, which means it's been approved, but they're working on -- I can actually look... So if you look up -- you know, get your browser to have MDN as your default...
+**Estelle Weyl:** \[14:11\] And CSS is also a living standard. I don't think they call it that, but if you look at certain things... Like, CSS Flexbox has CSS flexible modules one, and then it has two. And Grids has one, and then two. I believe Subgrid is in two. Colors - I think we are at... 4 is a candidate recommendation, which means it's been approved, but they're working on -- I can actually look... So if you look up -- you know, get your browser to have MDN as your default...
 
 **Amal Hussein:** Search engine.
 
@@ -146,7 +146,7 @@ I'm curious, before we get into like the meat of the show - so we invited you he
 
 **Amal Hussein:** So how does CSS play nicely with something that's so -- so there's a big permutations list, which is really fascinating to even think about... But yeah, I get that. So we're gonna dig into some of the new CSS features in the next segment. We're gonna try not to like nerd out too much, because this is a Pandora's Box topic, right? Because it is literally going into like rendering engines, and browser engines, and it can get complex... So I'm gonna try my best to reel it in, but no guarantees.
 
-**Estelle Weyl:** \[00:18:06.26\] I just want to add one more thing before we cut off, because this is actually really interesting... Remember how we were talking about what WHATWG is, and how that is the HTML living spec...?
+**Estelle Weyl:** \[18:06\] I just want to add one more thing before we cut off, because this is actually really interesting... Remember how we were talking about what WHATWG is, and how that is the HTML living spec...?
 
 **Amal Hussein:** Yeah.
 
@@ -162,7 +162,7 @@ I'm curious, before we get into like the meat of the show - so we invited you he
 
 **Amal Hussein:** Yeah. It's just going into the deep bowels of the web. It's like the 80/20 rule. It's not even 80/20 in this case, because it's -- the web has to work for everyone... And so we have to consider every type of use case, because the internet is a utility, it is an important utility. It's part of how people communicate, and do business. And so not having support for Mongolian is not an option, because there's an entire nation of Mongolia, and they matter, they count, right? So it's fascinating. So anyways, we'll be right back, everyone. See you after these short messages.
 
-**Break:** \[00:19:43.13\]
+**Break:** \[19:43\]
 
 **Amal Hussein:** Okay, Estelle... So you left us on a cliffhanger. Where did we end up on that "Does this work on the web?" question?
 
@@ -178,7 +178,7 @@ So to add to that, if you want some HTML trivia, the value attribute goes on the
 
 **Estelle Weyl:** If you go back to that import discussion, import was in the standard track many years ago, and I actually gave a talk on how to write custom elements, or web components using HTML import. I gave the talk at a conference, and then they dropped the spec, because they could not -- I don't know if it's that example that I gave, not knowing which file would use foo... But it was some type of issue like that, where it couldn't be resolved, so they came up with a completely different spec. And you'll see -- like, if everyone remembers App Cache, that went by the wayside. So it was a spec that came out, it wasn't tested out enough, it wasn't tried by enough engineers... Engineers, everyone probably knows Jake Archibald's article "App Cache is a douche", which basically killed App Cache. I can now see you googling... \[laughs\]
 
-**Amal Hussein:** \[00:26:19.00\] Oh, yeah. I am. It's fine. I'm not gonna google though...
+**Amal Hussein:** \[26:19\] Oh, yeah. I am. It's fine. I'm not gonna google though...
 
 **Estelle Weyl:** Yeah
 
@@ -198,13 +198,13 @@ So to add to that, if you want some HTML trivia, the value attribute goes on the
 
 **Estelle Weyl:** Very deep.
 
-**Amal Hussein:** But anyway, so new CSS features... So there's so much that's been going on, and I wanted to just intro this discussion with an overview of this initiative that's been going on, that's now been rebranded as Interop 2022. But there was Interop -- I don't know, I feel like there were so many Interop efforts going on. I was even involved in some of these many years ago, when I was working at Bocoup, working on very important interop issues, and fixing, and helping browser engines work more uniformly across the board... And there's projects like Test262, which is maintained by the TC39, which I've contributed to, which help essentially test Javascript's implementation of JavaScript... In JavaScript... It's so meta.
+**Amal Hussein:** But anyway, so new CSS features... So there's so much that's been going on, and I wanted to just intro this discussion with an overview of this initiative that's been going on, that's now been rebranded as Interop 2022. But there was Interop -- I don't know, I feel like there were so many Interop efforts going on. I was even involved in some of these many years ago, when I was working at Bocoup, working on very important interop issues, and fixing, and helping browser engines work more uniformly across the board... And there's projects like Test262, which is maintained by the TC39, which I've contributed to, which help essentially test JavaScript's implementation of JavaScript... In JavaScript... It's so meta.
 
 So you're writing tests in JavaScript that are run by engineers writing C++ engine code; the JavaScript tests are written to test new JavaScript features... So interoperability is super-important, and there's many ways that we can achieve interoperability. One of those on the web platform is project called WPT, Web Platform Tests, another project that I've also been involved with in the past. So Web Platform Tests is an incredible project that helps browsers run tests. And is this blue? Is this red? I don't know; is your blue the same as my blue? I don't know. Like, how do we surface that? We can use robots, and machines, and screenshots, and all kinds of fancy tooling to ensure that a blue in Chrome is the same blue in Firefox, right? And it's not just blue. Blue is a small example. It goes deeper than that; like, the list views... CSS list - do those work correctly? It's pretty much every single web API is testable. And those tests are actually written in HTML, CSS and JavaScript. And so if you're actually interested in contributing to those projects, they are open source, open for contributors; you're welcome to go make the web platform better, help find bugs between browsers... And you can also look at interoperability ratings.
 
 **Estelle Weyl:** I'm looking at the Interop right now, and when we started the Interop 2022 in January, Safari was the lowest, at 58%, and Firefox was the highest, at just around 70... Yep, 70.1. And Safari was at 59. And now the range is 85.8 to 90.7.
 
-**Amal Hussein:** \[00:30:09.13\] Wow.
+**Amal Hussein:** \[30:09\] Wow.
 
 **Estelle Weyl:** So we still have two months left of the year, but they're really moving forward. Cascade layers is at 100% interoperability. Viewport units, web compatibility - I don't know exactly what that stands for... Viewport units is 100% across the board... Firefox is still at 96% for cascade layers, so I'm not sure which single test is failing, but I could click on it right now if there wasn't a cat on my arm...
 
@@ -226,7 +226,7 @@ I can be pretty confident that the dialogue element is somewhat accessible, and 
 
 So getting into some of the things that you find really exciting, that's new to CSS - do you want to walk us through, for example, the :has() selector feature, that's pretty new?
 
-**Estelle Weyl:** \[00:34:08.10\] Okay. So the :has() selector - we've been talking about a parent selector since forever... And so now the :has() - let me see if it's on the interop... I know it's in the interop, I just don't know where it is in the interop. So I'm not seeing it, but... Oh, but I could just go to MDN and look at browser compatibility, and see that it is everywhere. It still says a flag in Firefox, but I know that I tested it in Firefox, and it worked perfectly fine. So it must be some edge case where it's -- because I know I didn't enable this feature.
+**Estelle Weyl:** \[34:08\] Okay. So the :has() selector - we've been talking about a parent selector since forever... And so now the :has() - let me see if it's on the interop... I know it's in the interop, I just don't know where it is in the interop. So I'm not seeing it, but... Oh, but I could just go to MDN and look at browser compatibility, and see that it is everywhere. It still says a flag in Firefox, but I know that I tested it in Firefox, and it worked perfectly fine. So it must be some edge case where it's -- because I know I didn't enable this feature.
 
 So maybe the BCD needs to be updated, or maybe I am not fully with it... But the :has() is not actually a parent selector. It's called a relative selector, because it chooses things other than parents. So you could, with CSS, say, "if this h2 has three sibling H2's after it, then style it this way." So you could, before, by doing \[unintelligible 00:35:18.14\] So it would do like the third from the last one, the fourth from the last one, and the fifth from the last one will be styled a certain way. But it could only be if it was all the same type. So all H2's.
 
@@ -248,7 +248,7 @@ The relative selectors, which is the :has(), which is known as the parent select
 
 **Estelle Weyl:** It's a forgiving list, and it says, "If we don't understand something, we're just going to skip it. We're not going to fail everything." So the IS and the were was super-useful, once they were supported, to test new features, because if you have a new pseudo-element, or pseudo-class, or a browser-specific pseudo-element, like let's say \[unintelligible 00:37:46.08\] I don't know if that's an actual element, I just made that up... But the thumb of a scroll bar, or the thumb of a range, WebKit will have a WebKit in front of it, because they all have different, basically shadow DOM to create these widgets... You can style those, but if you put that in a selector list, and the browser doesn't recognize it, and it's invalid, it ignores the entire selector block.
 
-\[00:38:18.26\] So that's why in the past, we used to - you'll find in all codebases they'll have the exact same style repeated over and over and over again, because each one has a different selector, targeting a different browser in front of it. Now you can do \[unintelligible 00:38:31.01\] and the Webkit prefix together, so you can style the thumbs the same way in one block, because of this forgiving selector list.
+\[38:18\] So that's why in the past, we used to - you'll find in all codebases they'll have the exact same style repeated over and over and over again, because each one has a different selector, targeting a different browser in front of it. Now you can do \[unintelligible 00:38:31.01\] and the Webkit prefix together, so you can style the thumbs the same way in one block, because of this forgiving selector list.
 
 So that's what a forgiving selector list is. So :has() takes a forgiving selector list. You can include stuff that doesn't exist in a specific browser in that list, it'll be fine. But a relative selector list is one that starts with combinator. So in CSS, your combinators are like a space, a greater than sign, a tilde and a plus, right now... Those are called combinators, and basically, the :has() assumes -- if you don't have a combinator, it assumes that there's a space in front of the selector in the :has(). So it assumes you mean child by default... Unless you put a plus, which means a JSON sibling, or a tilde, which means any sibling coming after it, not just the next one.
 
@@ -260,7 +260,7 @@ So that's how it :has() works. So :has() does more than just parents. So just re
 
 So on William Sonoma, when you are in one of the navigation bars, and your focus -- you've tabbed into there, the dropdown menu will be open. So focus within is like a parent selector saying "If the parent of the the ancestor -- I'm an ancestor of something that has focus. Make me visible, or do whatever you want to me." Similarly, has says "If I am the parent or the ancestor of this thing that's happening (and it's not just limited to focus), if there's a child that's invalid", like let's say there's a form control, and you want to show that form control, because there's something invalid, you can do it that way.
 
-\[00:41:42.02\] Or we have the target pseudo-class, which is super-cool... But that's limited to just target; you can use it for similar things to target, as saying when you're focused on this, when the page has gone down to this section, scroll down to the section on purpose, do this thing with it, but if you continue scrolling down... So you can do a combination of many, many things... But the example on MDN is, "Is h1, h2 or h3." So if an element has an h1, h2 or h3, and it has as a next sibling an h2, h3 or h4, then give it some extra margin.
+\[41:42\] Or we have the target pseudo-class, which is super-cool... But that's limited to just target; you can use it for similar things to target, as saying when you're focused on this, when the page has gone down to this section, scroll down to the section on purpose, do this thing with it, but if you continue scrolling down... So you can do a combination of many, many things... But the example on MDN is, "Is h1, h2 or h3." So if an element has an h1, h2 or h3, and it has as a next sibling an h2, h3 or h4, then give it some extra margin.
 
 So basically, it's combining what you would -- normally, you would do SaaS, you'd say h1, h2, h3, and then nest inside the plus h2, plus h3, plus h4... How'd you get to that parent though? Like, you wanted to give the margin to the previous sibling. You wanted to give the margin to the previous sibling. So you could h2, like I said before, if you use \[unintelligible 00:42:44.27\] type, you can go back up the tree. But if it's a different type, you can't. So here it's like a byline; you'll have a byline that has an h1 followed immediately by a paragraph. But if you want to style that h1, based on the fact that it has a paragraph after it. How'd you do that?
 
@@ -270,7 +270,7 @@ So basically, it's combining what you would -- normally, you would do SaaS, you'
 
 **Amal Hussein:** I see. Oh, fascinating. Okay, alright... Well, we have cascade layers, there's some new stuff with HTML... We're gonna take a quick break and then dig into those topics. So we'll be right back, everyone.
 
-**Break:** \[00:43:22.01\]
+**Break:** \[43:22\]
 
 **Amal Hussein:** Alright, Estelle... So wow, that was super-deep, and... Oh my gosh, there's just so much complexity. I'm just still mind-blown at how deep the rabbit hole goes. It really goes deep. We've been talking about this for a while, but it gets pretty deep. Another maybe really cool feature that I've been hearing about, but I don't really know much about yet is cascade layers. And you mentioned in the break that once you learn about cascade layers, you're never going to use bang important again. And I'm telling you, bang important is like my saving grace when I'm really frustrated and I'm working on a big application and I'm like "I just want this to work", and I'm too lazy to go figure out why this isn't working; bang important saves the day for me. So can you tell us, what are cascade layers, and why do they make bang important irrelevant?
 
@@ -280,7 +280,7 @@ So basically, it's combining what you would -- normally, you would do SaaS, you'
 
 **Estelle Weyl:** So I think people understand selectors, and that the more specific a selector is, whichever selector is most specific, every property can only have one value. So if you say the color of the text is blue, and then the text of the color is red, which one does it pick? It picks the one with the most specificity. However, if you don't style anything at all, the color is going to be black. And where does that come from? That comes from the user agent stylesheet.
 
-So there's three sources of style sheets. There's the user agent, the user, and the author, which is you, the developer. \[00:46:05.01\] So you're really only concerned with the developer, because for some reason, everything always overwrites what the browser is saying it wants. So you can have your own stylesheet. Very few people do. I don't really worry about it much because of the cascade.
+So there's three sources of style sheets. There's the user agent, the user, and the author, which is you, the developer. \[46:05\] So you're really only concerned with the developer, because for some reason, everything always overwrites what the browser is saying it wants. So you can have your own stylesheet. Very few people do. I don't really worry about it much because of the cascade.
 
 **Amal Hussein:** Okay.
 
@@ -318,7 +318,7 @@ Let's say you have a bootstrap, and you have things that are reliant on Bootstra
 
 The thing is, if they put an important in their cascade layer, then just like user important is more important than author important, and the user agent is more important than the user and the author important, the earlier cascade layer is more important is more important than the other important.
 
-**Amal Hussein:** \[00:50:15.12\] Yeah.
+**Amal Hussein:** \[50:15\] Yeah.
 
 **Estelle Weyl:** So a useless piece of trivia is that important... Important is actually a flag. Most people think it's a keyword, but it's a flag.
 
@@ -362,13 +362,13 @@ The order of the cascade layers is the order in which they're declared. So we've
 
 **Estelle Weyl:** So the way I actually tested it when I was originally testing it, is I like to do this thing where I style my style... So I make my style visible...
 
-**Amal Hussein:** \[00:54:09.04\] Okay, so I didn't even know you could style your style. So I think Wes Boss had this recent viral tweet about this, and you're like "I've been styling my styles since 1999, kids. What are you all excited about?" What is the styling of the style? Explain, please.
+**Amal Hussein:** \[54:09\] Okay, so I didn't even know you could style your style. So I think Wes Boss had this recent viral tweet about this, and you're like "I've been styling my styles since 1999, kids. What are you all excited about?" What is the styling of the style? Explain, please.
 
 **Estelle Weyl:** So I did a CSS workshop for Frontend Masters. It's since been archived, but it's still available if you search for my name. But I did another version of it, and it was 1,400 slides that were -- about 700 were interactive. And because it was a 34-hour workshop, they never actually edited it, so it never went live. But the slides are available if you go to estelle.github.io/css. Just remember my name, Estelle...
 
 **Amal Hussein:** Yeah, we'll put a link in the notes. Yeah.
 
-**Estelle Weyl:** Github.io/css. It's from 2018 or 2019, I think. So it's a little bit dated, but it's still super -- most of it is still super-useful. But all of those slides, the way I made them interactive is I just put a style in the document. I said, "Display the header block, the head of my HTML display block, then display none on everything other than the style that has content editable attribute on it."
+**Estelle Weyl:** github.io/css. It's from 2018 or 2019, I think. So it's a little bit dated, but it's still super -- most of it is still super-useful. But all of those slides, the way I made them interactive is I just put a style in the document. I said, "Display the header block, the head of my HTML display block, then display none on everything other than the style that has content editable attribute on it."
 
 **Amal Hussein:** Ah, okay...
 
@@ -394,7 +394,7 @@ The thing with when you add content editable - normally you need to add a tab in
 
 And then when I was diving into this, the thing that I've discovered is that content editable is an enumerated attribute. So there's a difference... Most people think that content editable is boolean, and with boolean attributes, if the attribute is present, it doesn't matter what the value is. What is a boolean..? Hidden I thought was a boolean, but it's not.
 
-**Amal Hussein:** \[00:58:07.10\] Is it a string? It's a string, because it's an HTML attribute...? I don't know...
+**Amal Hussein:** \[58:07\] Is it a string? It's a string, because it's an HTML attribute...? I don't know...
 
 **Estelle Weyl:** No, no. So the difference between boolean and enumerated is boolean is either true or false. So its presence means that it will be true, its absence means that it's false. With XHTML, when we were -- way back, it feels like three hours ago, but it was probably 15 minutes ago in our conversation, we were talking about XHTML and how it was strict. So when we were doing XHTML style, you had to put a value in for a boolean attribute. You don't have to put an attribute in for boolean attribute; just its presence makes it -- oh, a good one is required. Something is either required or it's not required. There's no other options. So required on an input is a boolean value. If you put required = required - yep, it's true. But if you put required = false, it's also true. If you put required = 27, it's also true; it's still required. So people think that they can put required = false and it'll be false, but no. You actually have to remove a boolean attribute for it to be false.
 
