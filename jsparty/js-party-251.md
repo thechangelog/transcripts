@@ -228,13 +228,13 @@ So getting into some of the things that you find really exciting, that's new to 
 
 **Estelle Weyl:** \[34:08\] Okay. So the :has() selector - we've been talking about a parent selector since forever... And so now the :has() - let me see if it's on the interop... I know it's in the interop, I just don't know where it is in the interop. So I'm not seeing it, but... Oh, but I could just go to MDN and look at browser compatibility, and see that it is everywhere. It still says a flag in Firefox, but I know that I tested it in Firefox, and it worked perfectly fine. So it must be some edge case where it's -- because I know I didn't enable this feature.
 
-So maybe the BCD needs to be updated, or maybe I am not fully with it... But the :has() is not actually a parent selector. It's called a relative selector, because it chooses things other than parents. So you could, with CSS, say, "if this h2 has three sibling H2's after it, then style it this way." So you could, before, by doing \[unintelligible 00:35:18.14\] So it would do like the third from the last one, the fourth from the last one, and the fifth from the last one will be styled a certain way. But it could only be if it was all the same type. So all H2's.
+So maybe the BCD needs to be updated, or maybe I am not fully with it... But the :has() is not actually a parent selector. It's called a relative selector, because it chooses things other than parents. So you could, with CSS, say, "if this h2 has three sibling H2's after it, then style it this way." So you could, before, by doing 'H2 nth last of type 3n+1 that would basically say nth last of type n + 3'. So it would do like the third from the last one, the fourth from the last one, and the fifth from the last one will be styled a certain way. But it could only be if it was all the same type. So all H2's.
 
 The relative selectors, which is the :has(), which is known as the parent selector, and that's what people are thinking it is, can do that, too. So it's not just "Does it have this as a child, or a grandchild, or as a descendant?", but it's also "Does it have this following it, that is of a different type?" So the :has() is colon has, open parentheses, close parentheses. Inside those parentheses - basically, it's a functional selector. It takes a forgiving list of relative selectors. So let me first go over what a forgiving list is...
 
 **Amal Hussein:** Okay.
 
-**Estelle Weyl:** When you include a list of selectors... So let's say it's just regular selectors, and you have a \[unintelligible 00:36:23.17\] if it has nothing in --
+**Estelle Weyl:** When you include a list of selectors... So let's say it's just regular selectors, and you have a p, H2, foo bar  no comma if it has nothing in --
 
 **Amal Hussein:** And foo bar is like a class here, or what is foo bar?
 
@@ -246,9 +246,9 @@ The relative selectors, which is the :has(), which is known as the parent select
 
 **Amal Hussein:** Is it like an or statement?
 
-**Estelle Weyl:** It's a forgiving list, and it says, "If we don't understand something, we're just going to skip it. We're not going to fail everything." So the IS and the were was super-useful, once they were supported, to test new features, because if you have a new pseudo-element, or pseudo-class, or a browser-specific pseudo-element, like let's say \[unintelligible 00:37:46.08\] I don't know if that's an actual element, I just made that up... But the thumb of a scroll bar, or the thumb of a range, WebKit will have a WebKit in front of it, because they all have different, basically shadow DOM to create these widgets... You can style those, but if you put that in a selector list, and the browser doesn't recognize it, and it's invalid, it ignores the entire selector block.
+**Estelle Weyl:** It's a forgiving list, and it says, "If we don't understand something, we're just going to skip it. We're not going to fail everything." So the IS and the were was super-useful, once they were supported, to test new features, because if you have a new pseudo-element, or pseudo-class, or a browser-specific pseudo-element, like let's say '::/maz/scroll/thumb' I don't know if that's an actual element, I just made that up... But the thumb of a scroll bar, or the thumb of a range, WebKit will have a WebKit in front of it, because they all have different, basically shadow DOM to create these widgets... You can style those, but if you put that in a selector list, and the browser doesn't recognize it, and it's invalid, it ignores the entire selector block.
 
-\[38:18\] So that's why in the past, we used to - you'll find in all codebases they'll have the exact same style repeated over and over and over again, because each one has a different selector, targeting a different browser in front of it. Now you can do \[unintelligible 00:38:31.01\] and the Webkit prefix together, so you can style the thumbs the same way in one block, because of this forgiving selector list.
+\[38:18\] So that's why in the past, we used to - you'll find in all codebases they'll have the exact same style repeated over and over and over again, because each one has a different selector, targeting a different browser in front of it. Now you can do is: and put the maz and the Webkit prefix together, so you can style the thumbs the same way in one block, because of this forgiving selector list.
 
 So that's what a forgiving selector list is. So :has() takes a forgiving selector list. You can include stuff that doesn't exist in a specific browser in that list, it'll be fine. But a relative selector list is one that starts with combinator. So in CSS, your combinators are like a space, a greater than sign, a tilde and a plus, right now... Those are called combinators, and basically, the :has() assumes -- if you don't have a combinator, it assumes that there's a space in front of the selector in the :has(). So it assumes you mean child by default... Unless you put a plus, which means a JSON sibling, or a tilde, which means any sibling coming after it, not just the next one.
 
@@ -256,13 +256,13 @@ So that's how it :has() works. So :has() does more than just parents. So just re
 
 **Amal Hussein:** So Estelle, that's a really interesting explanation of the technical constraints of how to use it and whatnot... So can you give us an example of why someone would want to use the :has() selector? Like, what's an actual practical use case for it?
 
-**Estelle Weyl:** So an actual practical use case for it is - there is one other thing that acts like the has, which is focus within; is something inside focused. But you don't want it to necessarily have focus. So focus within was super-powerful; you can open up -- I created the navigation for William Sonoma for all six brands and their navbar originally; I don't know if they've changed it back, because I don't know if they understood what I did... When you tab into a navigation bar - so if you go to the web.dev Learn section right now, and you Tab into the navigation bar on a narrow screen, you don't see where the mouse is, because it's going through all the links, but it's not showing up, because you never opened up the widget. And the thing is, you can open up with JavaScript, but you need to know that the person tabbed in there. But you can just do that with CSS; you can do \[unintelligible 00:40:53.00\] the name of my sidebar, focus within, make it visible.
+**Estelle Weyl:** So an actual practical use case for it is - there is one other thing that acts like the has, which is focus within; is something inside focused. But you don't want it to necessarily have focus. So focus within was super-powerful; you can open up -- I created the navigation for William Sonoma for all six brands and their navbar originally; I don't know if they've changed it back, because I don't know if they understood what I did... When you tab into a navigation bar - so if you go to the web.dev Learn section right now, and you Tab into the navigation bar on a narrow screen, you don't see where the mouse is, because it's going through all the links, but it's not showing up, because you never opened up the widget. And the thing is, you can open up with JavaScript, but you need to know that the person tabbed in there. But you can just do that with CSS; you can do 'LI:' the name of my sidebar, focus within, make it visible.
 
 So on William Sonoma, when you are in one of the navigation bars, and your focus -- you've tabbed into there, the dropdown menu will be open. So focus within is like a parent selector saying "If the parent of the the ancestor -- I'm an ancestor of something that has focus. Make me visible, or do whatever you want to me." Similarly, has says "If I am the parent or the ancestor of this thing that's happening (and it's not just limited to focus), if there's a child that's invalid", like let's say there's a form control, and you want to show that form control, because there's something invalid, you can do it that way.
 
 \[41:42\] Or we have the target pseudo-class, which is super-cool... But that's limited to just target; you can use it for similar things to target, as saying when you're focused on this, when the page has gone down to this section, scroll down to the section on purpose, do this thing with it, but if you continue scrolling down... So you can do a combination of many, many things... But the example on MDN is, "Is h1, h2 or h3." So if an element has an h1, h2 or h3, and it has as a next sibling an h2, h3 or h4, then give it some extra margin.
 
-So basically, it's combining what you would -- normally, you would do SaaS, you'd say h1, h2, h3, and then nest inside the plus h2, plus h3, plus h4... How'd you get to that parent though? Like, you wanted to give the margin to the previous sibling. You wanted to give the margin to the previous sibling. So you could h2, like I said before, if you use \[unintelligible 00:42:44.27\] type, you can go back up the tree. But if it's a different type, you can't. So here it's like a byline; you'll have a byline that has an h1 followed immediately by a paragraph. But if you want to style that h1, based on the fact that it has a paragraph after it. How'd you do that?
+So basically, it's combining what you would -- normally, you would do SaaS, you'd say h1, h2, h3, and then nest inside the plus h2, plus h3, plus h4... How'd you get to that parent though? Like, you wanted to give the margin to the previous sibling. You wanted to give the margin to the previous sibling. So you could h2, like I said before, if you use 'nth last of type', you can go back up the tree. But if it's a different type, you can't. So here it's like a byline; you'll have a byline that has an h1 followed immediately by a paragraph. But if you want to style that h1, based on the fact that it has a paragraph after it. How'd you do that?
 
 **Amal Hussein:** That's like a conditional...
 
@@ -308,13 +308,13 @@ So there's three sources of style sheets. There's the user agent, the user, and 
 
 So you can have exactly how you have the cascade layers between user agent, user and developer, you can have the same type of cascade order within the developer layer, or author layer, of Bootstrap, Component x, and your own styles.
 
-So what happens with the cascade is if the user had put \[unintelligible 00:48:30.02\] if you had put input background color blue, yours went out. Even though the specificity of theirs is higher than yours, it doesn't matter because they're in a different cascade layer; they're in the user layer.
+So what happens with the cascade is if the user had put '#main#container#foobarInput backgroundColor red' if you had put 'input backgroundColor blue', yours went out. Even though the specificity of theirs is higher than yours, it doesn't matter because they're in a different cascade layer; they're in the user layer.
 
 Let's say you have a bootstrap, and you have things that are reliant on Bootstrap, but you want to override it. You can actually put it in the first layer, and then your new styles will override it, and you don't have to worry about what the classes are... Because everything you just did, just overrode everything there.
 
 **Amal Hussein:** Right.
 
-**Estelle Weyl:** Because if they put \[unintelligible 00:49:08.16\] which is the specificity of 300, your 001 will override theirs, because your cascade layer came later. That's why you don't need to use important, because if you just stick the cruft, or this third-party widget which is giving you cruft, into cascade layer, whatever CSS you write, if you're targeting that element, it will be more -- you know, there's still inheritance. If it's inheriting, you have to actually target the element. If they're targeting the element and you were just hoping it would inherit; but you don't have to use important, you just put it in a cascade and you don't have to fight that specificity war. Specificity wars with cascade layers are a thing of the past.
+**Estelle Weyl:** Because if they put '###' which is the specificity of 300, your 001 will override theirs, because your cascade layer came later. That's why you don't need to use important, because if you just stick the cruft, or this third-party widget which is giving you cruft, into cascade layer, whatever CSS you write, if you're targeting that element, it will be more -- you know, there's still inheritance. If it's inheriting, you have to actually target the element. If they're targeting the element and you were just hoping it would inherit; but you don't have to use important, you just put it in a cascade and you don't have to fight that specificity war. Specificity wars with cascade layers are a thing of the past.
 
 The thing is, if they put an important in their cascade layer, then just like user important is more important than author important, and the user agent is more important than the user and the author important, the earlier cascade layer is more important is more important than the other important.
 
@@ -548,9 +548,9 @@ So the one thing that people didn't know is what the name attribute does. Rememb
 
 **Estelle Weyl:** We have Edge and Google funding us.
 
-**Amal Hussein:** I figured it was all the browsers, because \[unintelligible 01:15:12.27\]
+**Amal Hussein:** I figured it was all the browsers, because people--
 
-**Estelle Weyl:** Not...
+**Estelle Weyl:** It's not...
 
 **Amal Hussein:** Oh, that's sad...
 
@@ -592,11 +592,11 @@ And the thing is, I probably used to know that and I just don't remember it righ
 
 **Amal Hussein:** Yeah, I've experienced websites that have this exact same problem. It's like, the clickable area, and the link, and you're trying to click something that's a link, and you're trying to open... I feel like I've seen this on government websites, where you're trying to click on something that should open a modal, or a new tab, and it's selecting an input checkbox. Or like airline checkout screens... But anyways, so that's something people commonly get wrong. Anything else on the CSS side, like what's confusing people?
 
-**Estelle Weyl:** I think on CSS people do not understand specificity, and they don't know the selectors. So when I develop content, I very rarely use class names, because I've discovered that class names is added cruft. If I'm going to style everything that's in Spanish, and make it italic, I should base it on the language when I say "Everything else is English, but this section is Spanish." So instead of doing \[unintelligible 01:21:56.23\] whatever the language; I'm totally blanking on languages right now...
+**Estelle Weyl:** I think on CSS people do not understand specificity, and they don't know the selectors. So when I develop content, I very rarely use class names, because I've discovered that class names is added cruft. If I'm going to style everything that's in Spanish, and make it italic, I should base it on the language when I say "Everything else is English, but this section is Spanish." So instead of doing 'SpanClassTranslate this LanguageSP.' whatever the language; I'm totally blanking on languages right now...
 
 **Amal Hussein:** It's okay.
 
-**Estelle Weyl:** \[01:22:08.14\] I can use the language selector, which is \[unintelligible 01:22:09.26\] or I can use the attribute selector, and then I don't need to add a class, and then if something else gets translated, no one else has to remember that they need to add a class.
+**Estelle Weyl:** \[01:22:08.14\] I can use the language selector, which is ':Lang()' or I can use the attribute selector, and then I don't need to add a class, and then if something else gets translated, no one else has to remember that they need to add a class.
 
 **Amal Hussein:** That's true.
 
@@ -604,7 +604,7 @@ And the thing is, I probably used to know that and I just don't remember it righ
 
 **Amal Hussein:** Yeah. You're designing it to be extensible and scalable. That makes sense.
 
-**Estelle Weyl:** Yeah. What I think people get wrong \[unintelligible 01:22:40.22\] not necessarily get wrong, but if you really learn all these selectors - and I do have, it's on YouTube, there's a selector workshop; I gave a three-hour selector workshop at SF HTML5, which is SanFranciscohtml5.org. So their YouTube channel has - I guess it's two and a half hours, because they cut some parts out, like the breaks... It's long, but it's actually worth it, and that's the most recent one I gave, because I gave that one right before the pandemic. It does not have has in it, but it has almost everything else.
+**Estelle Weyl:** Yeah. What I think people get wrong-- it's not necessarily get wrong, but if you really learn all these selectors - and I do have, it's on YouTube, there's a selector workshop; I gave a three-hour selector workshop at SF HTML5, which is SanFranciscohtml5.org. So their YouTube channel has - I guess it's two and a half hours, because they cut some parts out, like the breaks... It's long, but it's actually worth it, and that's the most recent one I gave, because I gave that one right before the pandemic. It does not have has in it, but it has almost everything else.
 
 **Amal Hussein:** Oh, nice. Yeah, we'll link to that in our show notes, as well as a bunch of other great resources Estelle generally has... But yeah.
 
@@ -614,7 +614,7 @@ And the thing is, I probably used to know that and I just don't remember it righ
 
 **Estelle Weyl:** So that's a little bit outdated, but... You know, it doesn't have, has, is, or where, but it has everything else in there.
 
-**Amal Hussein:** Yeah, it's got the majority of the stuff. Yeah, that's super-cool. And container queries - this another feature that we're not going to have time to get into today... I think that's really -- it's going to be its own discussion in the future, that's \[unintelligible 01:23:49.14\]. And I want to just give a shout-out to one of our listeners, Jarvis Yang, who put a link in our Slack channel recently about a new project that just -- like, it's a simple web app that showcases Pokémon cards, and all these cool CSS features... It's mind-boggling to think that somebody developed these Pokémon cards with just CSS and HTML, because it looks like some 3D gaming rendering engine. It's wild.
+**Amal Hussein:** Yeah, it's got the majority of the stuff. Yeah, that's super-cool. And container queries - this another feature that we're not going to have time to get into today... I think that's really -- it's going to be its own discussion in the future, that's landed. And I want to just give a shout-out to one of our listeners, Jarvis Yang, who put a link in our Slack channel recently about a new project that just -- like, it's a simple web app that showcases Pokémon cards, and all these cool CSS features... It's mind-boggling to think that somebody developed these Pokémon cards with just CSS and HTML, because it looks like some 3D gaming rendering engine. It's wild.
 
 **Estelle Weyl:** I took a look at that. I'd highly recommend looking at it.
 
