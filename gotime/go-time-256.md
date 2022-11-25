@@ -24,7 +24,7 @@
 
 Google was running into this in the early 2000s. At the time, XML was really in vogue, and they were looking for something that was simpler, that was more productive for programmers, and as an important concern for Google, but maybe not so much for the rest of us, something that was more efficient for computers... And so they invented protocol buffers.
 
-**Jon Calhoun:** \[00:06:12.27\] So I guess I'm thinking of this, if it's something Google invented for Google scale, is this one of those technologies that is only a good fit if you're a Google? Or what types of applications does this fit well for?
+**Jon Calhoun:** \[06:12\] So I guess I'm thinking of this, if it's something Google invented for Google scale, is this one of those technologies that is only a good fit if you're a Google? Or what types of applications does this fit well for?
 
 **Akshay Shah:** Yeah, it's certainly compelling if you're at Google scale; I mean, clearly, they're still protobuf from top to bottom... And most other large -- if you look at a lot of these large tech companies, they have some equivalent protocol buffers. Sometimes it's actually a protobuf, sometimes it's a very similar system, that took a bunch of inspiration from protobuf.
 
@@ -42,7 +42,7 @@ You have to deal with the protobuf toolchain, which often has some rough edges..
 
 **Jon Calhoun:** When you mentioned the trade-off of not being able to have the more flexible API, I guess, I also view that as a win. It's kind of a trade-off, but also a win, because I've also worked with APIs where trying to write a library in Go that works with it is very challenging, because you can tell the API was written in Python, where a certain field can be one of six types... And it's really annoying to parse, because it's like, I've got to figure out which one it is before I even try to parse it.
 
-**Akshay Shah:** \[00:10:07.17\] That's right. Yeah. One of my co-workers often describes protobuf as static typing for data. And it has basically the same trade-offs as static typing for programming languages. You have to declare your types upfront, changing them can be a little bit harder - you have to think about forward and backward compatibility - but you get APIs that are self-documenting in a nice way. Often, it's easier for your IDE to do work for you, it's easier for tools to catch errors... So I think this is a familiar debate, and in general, in 2022, it seems like big parts of the industry are moving back towards static typing. Right? TypeScript is super-popular, Python is growing \[unintelligible 00:10:48.22\] Ruby is growing gradual typing via a bunch of Stripe stuff... And Rust is taking type systems into areas that many other languages have avoided.
+**Akshay Shah:** \[10:07\] That's right. Yeah. One of my co-workers often describes protobuf as static typing for data. And it has basically the same trade-offs as static typing for programming languages. You have to declare your types upfront, changing them can be a little bit harder - you have to think about forward and backward compatibility - but you get APIs that are self-documenting in a nice way. Often, it's easier for your IDE to do work for you, it's easier for tools to catch errors... So I think this is a familiar debate, and in general, in 2022, it seems like big parts of the industry are moving back towards static typing. Right? TypeScript is super-popular, Python is growing \[unintelligible 00:10:48.22\] Ruby is growing gradual typing via a bunch of Stripe stuff... And Rust is taking type systems into areas that many other languages have avoided.
 
 **Jon Calhoun:** This kind of reminds me of -- there's a couple of tools around JSON APIs where you basically define a schema and it helps generate libraries for various languages... I think - was Swagger one of those?
 
@@ -58,7 +58,7 @@ You have to deal with the protobuf toolchain, which often has some rough edges..
 
 **Johnny Boursiquot:** See, now I have to buy another tool, and learn how to use that tool, and maybe it has its own quirks... So yeah, for vendors it's great. They're like "Yeah, we'll sell you something to do all this for you." But yeah, now I have another dependency.
 
-**Akshay Shah:** \[00:14:01.16\] Exactly. And if you look at the specification, there are parts of this language that 0 I understand why in a really loosely federated world of the web, some of these things make sense. But if you're a company or a person publishing a schema, they're a little off-putting to me as a Go programmer. They're like "Oh, I can include a reference to another schema, on a different server, and just transclude it into my schema." There's a whole separate part of the spec about meta schemas. So there's some form of metaprogramming in this schema language. There's a special call-out when you're implementing codegen for these things, especially at runtime, that schemas can mutually reference each other. So you have to take special care to break cycles and avoid infinite recursion. These are just not the kind of problems that I want to think about when I'm defining a struct. I want this whole class of problems to be impossible. Generally, I want this world to be as simple and predictable as it can be.
+**Akshay Shah:** \[14:01\] Exactly. And if you look at the specification, there are parts of this language that 0 I understand why in a really loosely federated world of the web, some of these things make sense. But if you're a company or a person publishing a schema, they're a little off-putting to me as a Go programmer. They're like "Oh, I can include a reference to another schema, on a different server, and just transclude it into my schema." There's a whole separate part of the spec about meta schemas. So there's some form of metaprogramming in this schema language. There's a special call-out when you're implementing codegen for these things, especially at runtime, that schemas can mutually reference each other. So you have to take special care to break cycles and avoid infinite recursion. These are just not the kind of problems that I want to think about when I'm defining a struct. I want this whole class of problems to be impossible. Generally, I want this world to be as simple and predictable as it can be.
 
 Protobuf is much more on that side of the world... Part of why I think that's so appealing in Go is that protocol buffers in Go share a lot of DNA from Google. A protobuf message looks a lot a Go struct. And so if you are a Go developer and you're thinking, "Which of these should I do?", the amount of effort it takes to write a protobuf schema is about what you would spend on a Go struct anyways. You get a rich type system; there's sized ints, fixed size, variable size, bytes, strings, objects that are well-known types that get shared across the whole ecosystem, for like durations, dates... There are a bunch of escape hatches if you need them for loosely-typed data.
 
@@ -72,11 +72,11 @@ So John, for the situation you are describing, you can say, "This field is one o
 
 **Akshay Shah:** I think they are, with one caveat. I think protobuf is simple, especially if you use protobuf schemas to accept and send JSON. This is really easy for other people to use, because they don't really have to know about the protobuf part at all. If they would to continue handwriting classes to generate JSON, they're more than welcome to do so. But they have this kind of efficient binary protocol available to them. Usually, when you talk about exposing protobuf APIs, you're talking about gRPC. Right? Because protobuf the language is really just about data. It doesn't have anything like an interface, or a function, say like "My API does something" without gRPC.
 
-The one caveat is that historically, the tools to work with protocol buffers are kind of rough. They're open-sourced kind of directly from the way Google uses them... And within Google, they're part of this really sophisticated, unified build system, and monorepo, and all this other stuff. So the protobuf tools are this really low-level component in a very complicated stack.
+The one caveat is that historically, the tools to work with protocol buffers are kind of rough. They're open sourced kind of directly from the way Google uses them... And within Google, they're part of this really sophisticated, unified build system, and monorepo, and all this other stuff. So the protobuf tools are this really low-level component in a very complicated stack.
 
-\[00:17:49.23\] Outside of Google - well, we just have the protobuf piece, but not the rest of the stack. And so if you're building an external-facing API, and you're working in Go, and you've got all this protobuf stuff figured out, but your client is like a Node client, and you go to them and say, "Well, step one is you need to write a makefile, and you need to call protoc in the following ways", they look at you like you're crazy. Like, "What? A makefile? What, are we living in 1986? What are you talking about?"
+\[17:49\] Outside of Google - well, we just have the protobuf piece, but not the rest of the stack. And so if you're building an external-facing API, and you're working in Go, and you've got all this protobuf stuff figured out, but your client is like a Node client, and you go to them and say, "Well, step one is you need to write a makefile, and you need to call protoc in the following ways", they look at you like you're crazy. Like, "What? A makefile? What, are we living in 1986? What are you talking about?"
 
-So I think there's a lot of space to build tools that make that easier and more approachable. There's no reason why, given a protobuf schema, your instructions to the client can't be "Hey, don't worry about any of the protobuf stuff. From your perspective, I handwrote a client for you, and it's an Npm package. Just download that." And on your end, you're like "Yeah, I autogenerated the package, and I uploaded, and I didn't handwrite anything." But to your colors, it should look like they're just getting a package.
+So I think there's a lot of space to build tools that make that easier and more approachable. There's no reason why, given a protobuf schema, your instructions to the client can't be "Hey, don't worry about any of the protobuf stuff. From your perspective, I handwrote a client for you, and it's an npm package. Just download that." And on your end, you're like "Yeah, I autogenerated the package, and I uploaded, and I didn't handwrite anything." But to your colors, it should look like they're just getting a package.
 
 **Johnny Boursiquot:** So we've talked about the efficiency of not having to hand-wrangle all these things, but we haven't talked really about -- we've mentioned it, but never really talked about sort of the efficiency of transport, right? Basically, when you have that binary format; can you sort of clarify what the major gains of the binary format are over traditional means?
 
@@ -96,7 +96,7 @@ So I think once you're using a protobuf schema, you have this binary format at y
 
 **Johnny Boursiquot:** Let's talk about the Gob package. Why is it that we're not all using Gob? Is it that we're not all Go developers? \[laughs\]
 
-**Akshay Shah:** \[00:21:57.29\] I mean, that's partly it, right? But the Gob package - my recollection, at least, is that the Gob package makes some very important -- there's some very important caveats in the package docs for Gob. One of them is that - this is just my recollection; I can check real quick, but... From what I remember, the binary Gob representation is not guaranteed to be stable across Go versions. So forget interop with JavaScript, if you're on Go 1.19, interop with 1.17 might be busted, too. I think it is also not specifically optimized for speed, or size. It's just not that widely used, right? But just by the nature of the business buff does, we spend a lot of time with protocol buffers, and talking to various people deep in protobuf at Google... At least what I've been told is that there's so much protobuf from top to bottom in Google's internal stack that relatively modest perf improvements to protobuf can change Google's overall CPU use by 3% or 4%.
+**Akshay Shah:** \[21:57\] I mean, that's partly it, right? But the Gob package - my recollection, at least, is that the Gob package makes some very important -- there's some very important caveats in the package docs for Gob. One of them is that - this is just my recollection; I can check real quick, but... From what I remember, the binary Gob representation is not guaranteed to be stable across Go versions. So forget interop with JavaScript, if you're on Go 1.19, interop with 1.17 might be busted, too. I think it is also not specifically optimized for speed, or size. It's just not that widely used, right? But just by the nature of the business buff does, we spend a lot of time with protocol buffers, and talking to various people deep in protobuf at Google... At least what I've been told is that there's so much protobuf from top to bottom in Google's internal stack that relatively modest perf improvements to protobuf can change Google's overall CPU use by 3% or 4%.
 
 Protobuf is language-agnostic, it has a specification that's public, and it has just like a tremendous number of miles put on it. And I don't think you get any of that from Gob.
 
@@ -124,7 +124,7 @@ Protobuf is language-agnostic, it has a specification that's public, and it has 
 
 **Akshay Shah:** That's right. And you can get -- I mean, to be fair, as the author of \[unintelligible 00:25:12.06\] custom JSON encoder... \[laughter\] It's not that hard to encode JSON much, much faster. Zap, the logging packager, part of why it's faster is that it has its own JSON encoder. And that's pretty easy, because JSON is a really simple string format. So even if you want to make JSON really fast, you can do that by just biting off half the problem. If you make encoding super-fast, and decoding is still not that fast - that's 50% of the win for 10% of the effort.
 
-**Break:** \[00:25:52.04\]
+**Break:** \[25:52\]
 
 **Jon Calhoun:** So we've been talking about protocol buffers, which are how we're going to format the data. Generally, when this conversation comes up, you don't hear about protocol buffers on their own, you hear about protocol buffers and gRPC. So what is the gRPC part of this?
 
@@ -140,7 +140,7 @@ As a user, I think, especially a Go programmer, protobuf feels really familiar. 
 
 **Johnny Boursiquot:** Are there alternative runtimes other than gRPC?
 
-**Akshay Shah:** \[00:32:03.06\] Yes. Actually, from the episode on bloat, from a couple of months ago, Egon's company, Storj, it sounds like from their public blog post that they were using gRPC, and they were dissatisfied with a bunch of things about it... And so they wrote an alternate RPC runtime. It's called dRPC, and it basically operates at a lower level in the networking stack. But to a programmer, it's very similar. You write some protobuf definitions, you generate some code, you implement an interface, and then you hand that interface over to a networking package to serve traffic. It's incompatible with gRPC \[unintelligible 00:32:41.22\] complicated, but it's operating directly at a TCP level. So it's not serving you HTTP traffic. But again, it's a program that looks pretty similar. Twitch has a similar thing called Twirp. Thrift is very similar to protocol buffers, and it has its own wire format. There's Dubbo, from I think Alibaba, just similar in principle.
+**Akshay Shah:** \[32:03\] Yes. Actually, from the episode on bloat, from a couple of months ago, Egon's company, Storj, it sounds like from their public blog post that they were using gRPC, and they were dissatisfied with a bunch of things about it... And so they wrote an alternate RPC runtime. It's called dRPC, and it basically operates at a lower level in the networking stack. But to a programmer, it's very similar. You write some protobuf definitions, you generate some code, you implement an interface, and then you hand that interface over to a networking package to serve traffic. It's incompatible with gRPC \[unintelligible 00:32:41.22\] complicated, but it's operating directly at a TCP level. So it's not serving you HTTP traffic. But again, it's a program that looks pretty similar. Twitch has a similar thing called Twirp. Thrift is very similar to protocol buffers, and it has its own wire format. There's Dubbo, from I think Alibaba, just similar in principle.
 
 **Johnny Boursiquot:** Okay.
 
@@ -172,7 +172,7 @@ As a user, I think, especially a Go programmer, protobuf feels really familiar. 
 
 **Johnny Boursiquot:** You're accusing Mat of being a marketer... \[laughs\] And not a developer...
 
-**Akshay Shah:** \[00:36:06.04\] Let's not wave that brush around too wildly, okay...?
+**Akshay Shah:** \[36:06\] Let's not wave that brush around too wildly, okay...?
 
 **Jon Calhoun:** I mean, whether or not Mat was trying to, I can say for certain that he knows how to market to a degree, because his blog posts, whenever he starts a new company and things that, are all great marketing tools to help build a business. You have to do those things. If you just build something in isolation, and nobody knows about it, then it's really hard to find those users.
 
@@ -190,7 +190,7 @@ I think just like you look around and like you're building an app, a CLI, and at
 
 **Johnny Boursiquot:** It does the job, right?
 
-**Akshay Shah:** \[00:40:15.27\] It does the job, and I it's small, and I kind of learned it once, and then I just decided that I didn't really care that much about this problem anymore. The same thing is true of Go. There's a Go specification, there's the standard Go compiler toolchain, but there's also Gccgo, and there's TinyGo, and they make different trade-offs that are useful to people. There's HTTP, which has a bunch of RFCs to define the spec. It's a big, complicated spec. And there are a bunch of implementations, right? There's NGINX, there's Apache, there's net HTTP in Go... But there's also Fast HTTP, which makes different trade-offs, and there's implementations in other languages too, right?
+**Akshay Shah:** \[40:15\] It does the job, and I it's small, and I kind of learned it once, and then I just decided that I didn't really care that much about this problem anymore. The same thing is true of Go. There's a Go specification, there's the standard Go compiler toolchain, but there's also Gccgo, and there's TinyGo, and they make different trade-offs that are useful to people. There's HTTP, which has a bunch of RFCs to define the spec. It's a big, complicated spec. And there are a bunch of implementations, right? There's NGINX, there's Apache, there's net HTTP in Go... But there's also Fast HTTP, which makes different trade-offs, and there's implementations in other languages too, right?
 
 We didn't write NGINX and then just say "I don't know, everyone else just FFI into nghttp. Good luck." There's space for a gRPC implementation that maybe meets people who are writing rest APIs today where they are, instead of making trade-offs that are appropriate for a Google maybe, but not so appropriate for Pace.
 
@@ -204,7 +204,7 @@ That's the business, is selling the schema registry. Our view is that, like you 
 
 So at Buf we work on this thing called Connect. It's a drop-in gRPC replacement. It's wire-compatible, works with every gRPC client, and it's all net HTTP. It generates HTTP dot handlers, clients use HTTP dot client, and it works with any mux, or any middleware package that works with net HTTP. So I think, to a Go programmer, it feels a lot more like, rather than a whole different world, where all of a sudden it doesn't even really feel HTTP anymore, it feels more like someone generated the boring REST code for you, but if slots into the same ecosystem you're familiar with. If you know net HTTP, if you know middleware that you like, like some gzipping handler, or something else, if you have a router that you really like, like you're into Chai, or...
 
-**Johnny Boursiquot:** \[00:44:40.21\] Gin...
+**Johnny Boursiquot:** \[44:40\] Gin...
 
 **Akshay Shah:** ...Julien Schmidt's HttpRouter, Gin or whatever.
 
@@ -238,7 +238,7 @@ We do the same thing for TypeScript, and we're working on a similar runtime for 
 
 **Akshay Shah:** I don't know. Johnny, what do you think? I have my opinions, but...
 
-**Johnny Boursiquot:** \[00:47:53.21\] I think people will go with what they know best to get a job done, and will only sort of step outside -- well, let's just say there are two classes of developers out there. There are those who go with what they know, and try to get the job done as quickly as possible, and there are those who look for opportunities to bring in new things, even when it's not necessarily a requirement to solve the problem itself. I've been on either side over the years. I'm not sure -- Jon sounds more like he's the "I'm gonna go with what I know, because I have a job to do, and I need to get paid, and move on to the next thing."
+**Johnny Boursiquot:** \[47:53\] I think people will go with what they know best to get a job done, and will only sort of step outside -- well, let's just say there are two classes of developers out there. There are those who go with what they know, and try to get the job done as quickly as possible, and there are those who look for opportunities to bring in new things, even when it's not necessarily a requirement to solve the problem itself. I've been on either side over the years. I'm not sure -- Jon sounds more like he's the "I'm gonna go with what I know, because I have a job to do, and I need to get paid, and move on to the next thing."
 
 **Jon Calhoun:** Yeah, but when you're self-employed, I feel like that...
 
@@ -262,7 +262,7 @@ We do the same thing for TypeScript, and we're working on a similar runtime for 
 
 **Akshay Shah:** I mean, even if you're not building a web application, right? You're building an API... Browsers are really convenient. The Network tab is really nice, it's a convenient debugging environment, it's got this real programming language \[unintelligible 00:51:41.24\] for you to plan... It's the most widely deployed HTTP client in the world... Why wouldn't your HTTP protocol support it? It's a historical misstep in the gRPC protocol.
 
-\[00:51:55.01\] I think gRPC uses this little-known corner of HTTP called trailers. They're just headers that come after the body. They're useful for a bunch of reasons, like having some way to send metadata after the body is really helpful. They chose to send them as HTTP trailers. At the time they were making these decisions, it looked browsers were gonna support trailers, so they kind of decided that they were going to probably do it, but hadn't actually done it yet. And then as soon as any browser vendor got involved, they all said, "Absolutely not, we're never doing this", and a bunch of other HTTP software never supported trailers. They've been around since the late '90s, and basically nothing ever supported them. So if you have a Rails app, you're not serving up trailers any day soon...
+\[51:55\] I think gRPC uses this little-known corner of HTTP called trailers. They're just headers that come after the body. They're useful for a bunch of reasons, like having some way to send metadata after the body is really helpful. They chose to send them as HTTP trailers. At the time they were making these decisions, it looked browsers were gonna support trailers, so they kind of decided that they were going to probably do it, but hadn't actually done it yet. And then as soon as any browser vendor got involved, they all said, "Absolutely not, we're never doing this", and a bunch of other HTTP software never supported trailers. They've been around since the late '90s, and basically nothing ever supported them. So if you have a Rails app, you're not serving up trailers any day soon...
 
 So that's kind of really made gRPC hard to adopt for external APIs. But that's not an intrinsic problem with protocol buffers, it just means you need a little translation layer, or you need a different library. Those libraries are pretty small; Connect does all of gRPC and this other thing in less than 10,000 lines of Go. It's like 20x smaller than gRPC Go. This is all totally doable if you're just optimizing for something different. So in short - yeah, I would say that you should use protocol buffers for your external APIs.
 
@@ -298,7 +298,7 @@ So that's kind of really made gRPC hard to adopt for external APIs. But that's n
 
 **Akshay Shah:** I had that in an O'Reilly book, and there was like a snake woodcut on the cover, or something... Oh, my God.
 
-**Break:** \[00:56:25.20\]
+**Break:** \[56:25\]
 
 **Akshay Shah:** I think in 2022, the way the industry is today, protobuf is a good middleground for exactly that role... You write a little schema, your server-side implementation gets easier. It's a little easier to wrangle. And you can just hand your clients fully-generated, ready-to-go client code. And whatever is happening in between - it's reasonable, but it's not artisanally handcrafted hypertext as the engine of application state. This is not Roy Fielding's thesis brought to life. It's just workaday code that gets the job done, and is pragmatic, and pretty reasonable, and is ultimately just some boring plumbing.
 
@@ -306,7 +306,7 @@ We've all got jobs to do... Your server is supposed to be doing something, and w
 
 **Jon Calhoun:** So I think we're getting near the end of the episode... We're gonna move into the Unpopular Opinion.
 
-**Jingle:** \[00:58:56.12\]
+**Jingle:** \[58:56\]
 
 **Jon Calhoun:** Akshay, do you have an unpopular opinion for us?
 
