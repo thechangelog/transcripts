@@ -100,7 +100,7 @@ All that being said, commands aren't necessarily the best interface to expose. I
 
 And there are exceptions there, where some CLIs have like sub-commands, and different syntax for it, but it ultimately boils down to like you're identifying a function call, passing it parameters, and it's giving you outputs. So yeah, I guess I do kind of see command lines as a very functional interface, and being able to pass results from those commands to another - I think that's really where the special sauce is from Bass. Because if you try to just script things running commands in Bash, you have to deal with those files; you have to put them somewhere, pass them to this other thing, clean them up after... So I'm trying to build something that makes -- I guess something that treats commands like functions that you can easily use.
 
-**Gerhard Lazu:** Some team members had this joke on the RabbitMQ team, which - RabbitMQ uses Erlang, which is a highly, highly functional language... And the joke was that if you're an experienced enough programmer, you're most likely a functional programmer. Like, basically it all boils down to a function somewhere. And once you come to accept that, your world will be better. Obviously, that's not always true. We had Gary Bernhardt a few episodes back, and if you haven't heard his \[unintelligible 00:23:57.23\] talk, you should, because it's a very good one. He explains why functional is just weird, and why object-oriented has its own shortcomings... But \[unintelligible 00:24:07.26\] is a thing, and I really like it. Anyways, we can put the link in the show notes.
+**Gerhard Lazu:** Some team members had this joke on the RabbitMQ team, which - RabbitMQ uses Erlang, which is a highly, highly functional language... And the joke was that if you're an experienced enough programmer, you're most likely a functional programmer. Like, basically it all boils down to a function somewhere. And once you come to accept that, your world will be better. Obviously, that's not always true. We had Gary Bernhardt a few episodes back, and if you haven't heard his [Faux-O talk](https://www.destroyallsoftware.com/talks/boundaries), you should, because it's a very good one. He explains why functional is just weird, and why object-oriented has its own shortcomings... But Faux-O is a thing, and I really like it. Anyways, we can put the link in the show notes.
 
 So I'm wondering -- because the Bass language, bass-lang... Dot com is it?
 
@@ -312,7 +312,7 @@ So kind of the neat thing that I want to be able to do with Bass is like not onl
 
 **Gerhard Lazu:** No way, man. No way.
 
-**Alex Suraci:** So if you try to play -- if you listen to like \[unintelligible 00:46:28.19\] which has like changing time -- I forget what it's called. But it'll actually like speed up and slow down to certain parts.
+**Alex Suraci:** So if you try to play -- if you listen to like Lateralus by Tool which has like changing time -- I forget what it's called. But it'll actually like speed up and slow down to certain parts.
 
 **Gerhard Lazu:** Okay, this is too cool. This is too cool. So how can I try this? How can I test this?
 
@@ -334,7 +334,7 @@ So kind of the neat thing that I want to be able to do with Bass is like not onl
 
 **Alex Suraci:** That's for compressing the binaries. So like Bass has to -- when it calls into BuildKit, it has to run thunks like through a little shim to like meet the interfaces that it needs, like supporting STDIN, for example. But those binaries are too large to pass over gRPC, so I have to compress them and then bundle them, and that's what Upx is for.
 
-**Gerhard Lazu:** Interesting. Okay, so I have Git, I have Go, I have Upx. Okay. Git clone, \[unintelligible 00:47:35.10\]
+**Gerhard Lazu:** Interesting. Okay, so I have Git, I have Go, I have Upx. Okay. Git clone, cd in, make install
 
 **Alex Suraci:** Yup. That should do it.
 
@@ -638,7 +638,7 @@ So if you, for example, take like a JSON scope, like a scope that was like parse
 
 **Alex Suraci:** I don't think I have SSH set up. I was just switching the display. I have like a KBM button... But I forgot that everything else is also flowing through it, so...
 
-**Gerhard Lazu:** Oh, I see what you mean. I see, I see, I see. Okay. Repology.org. Wow, that is impressive. Number of packages in repository, number of fresh packages... I see what you mean. I see what you mean. \[unintelligible 01:18:50.29\] I'm looking for the number of packages, number of freshness, and I can't find -- in that graph, I can't find Nix. And I don't think I can search, because it's generated. This is rendered.
+**Gerhard Lazu:** Oh, I see what you mean. I see, I see, I see. Okay. [Repology.org](https://repology.org/). Wow, that is impressive. Number of packages in repository, number of fresh packages... I see what you mean. I see what you mean. \[unintelligible 01:18:50.29\] I'm looking for the number of packages, number of freshness, and I can't find -- in that graph, I can't find Nix. And I don't think I can search, because it's generated. This is rendered.
 
 **Alex Suraci:** Oh. It should be very top right, on the first graph. You'll see Nix packages unstable.
 
@@ -688,7 +688,7 @@ So Bass just sees Nix as another command to run. I'm just running Nix build, and
 
 **Alex Suraci:** Yeah. No more like building throwaway images.
 
-**Gerhard Lazu:** \[01:23:55.03\] Yeah, especially -- I use Nixery.dev often, especially in demos. So if I'm trying to put together a bunch of tools - ad hoc, arbitrary, I don't know what they are - I get this Nixery.dev image, which has all the tools that I need, and that's my starting point. I've done that often, and it works so well. It's like, why don't more people do this? But again, Nixery.dev is like \[unintelligible 01:24:19.13\] Vincent, we have to talk again. And I think that you need to talk to Alex too, because there's something really cool about this. And if you can run it locally - because that's what I'm hearing from you... If you can run Nixery.dev locally, via Bass - oh, my goodness me, I want that.
+**Gerhard Lazu:** \[01:23:55.03\] Yeah, especially -- I use [Nixery.dev](https://nixery.dev/) often, especially in demos. So if I'm trying to put together a bunch of tools - ad hoc, arbitrary, I don't know what they are - I get this [Nixery.dev](https://nixery.dev/) image, which has all the tools that I need, and that's my starting point. I've done that often, and it works so well. It's like, why don't more people do this? But again, [Nixery.dev](https://nixery.dev/) is like best-effort \[unintelligible 01:24:19.13\] Vincent, we have to talk again. And I think that you need to talk to Alex too, because there's something really cool about this. And if you can run it locally - because that's what I'm hearing from you... If you can run [Nixery.dev](https://nixery.dev/) locally, via Bass - oh, my goodness me, I want that.
 
 **Alex Suraci:** Yeah. Because what keeps biting me is the frickin' Docker Hub rate limits. They're so low now.
 
@@ -698,7 +698,7 @@ So Bass just sees Nix as another command to run. I'm just running Nix build, and
 
 **Gerhard Lazu:** Okay. Okay... So by the way, dear listener, all this time, we have been waiting for a Bass build at a Bass release 0.9.0. And we've been filling time, and I'm so glad we did, because we talked about so many interesting things. So let us not get distracted by the release, and please continue, because this is super-interesting.
 
-**Alex Suraci:** Oh, yeah. So Docker Hub and the rate limits - it keeps making my tests fail, because my tests run - like, they don't have any authentication setup, so it's always just using the anonymous rate limit, which is like 100 calls per six hours, or something... Which sounds like a lot, but it's really not when you're running tests that hit Docker Hub, and you're quickly iterating. So it would be great to use Nixery.dev, but then yeah, I don't want to burden Vincent -- Vincent, right? Vincent?
+**Alex Suraci:** Oh, yeah. So Docker Hub and the rate limits - it keeps making my tests fail, because my tests run - like, they don't have any authentication setup, so it's always just using the anonymous rate limit, which is like 100 calls per six hours, or something... Which sounds like a lot, but it's really not when you're running tests that hit Docker Hub, and you're quickly iterating. So it would be great to use [Nixery.dev](https://nixery.dev/), but then yeah, I don't want to burden Vincent -- Vincent, right? Vincent?
 
 **Gerhard Lazu:** Yeah, Vincent Ambo.
 
