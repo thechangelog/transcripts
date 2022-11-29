@@ -42,7 +42,7 @@ You have to deal with the protobuf toolchain, which often has some rough edges..
 
 **Jon Calhoun:** When you mentioned the trade-off of not being able to have the more flexible API, I guess, I also view that as a win. It's kind of a trade-off, but also a win, because I've also worked with APIs where trying to write a library in Go that works with it is very challenging, because you can tell the API was written in Python, where a certain field can be one of six types... And it's really annoying to parse, because it's like, I've got to figure out which one it is before I even try to parse it.
 
-**Akshay Shah:** \[10:07\] That's right. Yeah. One of my co-workers often describes protobuf as static typing for data. And it has basically the same trade-offs as static typing for programming languages. You have to declare your types upfront, changing them can be a little bit harder - you have to think about forward and backward compatibility - but you get APIs that are self-documenting in a nice way. Often, it's easier for your IDE to do work for you, it's easier for tools to catch errors... So I think this is a familiar debate, and in general, in 2022, it seems like big parts of the industry are moving back towards static typing. Right? TypeScript is super-popular, Python is growing \[unintelligible 00:10:48.22\] Ruby is growing gradual typing via a bunch of Stripe stuff... And Rust is taking type systems into areas that many other languages have avoided.
+**Akshay Shah:** \[10:07\] That's right. Yeah. One of my co-workers often describes protobuf as static typing for data. And it has basically the same trade-offs as static typing for programming languages. You have to declare your types upfront, changing them can be a little bit harder - you have to think about forward and backward compatibility - but you get APIs that are self-documenting in a nice way. Often, it's easier for your IDE to do work for you, it's easier for tools to catch errors... So I think this is a familiar debate, and in general, in 2022, it seems like big parts of the industry are moving back towards static typing. Right? TypeScript is super-popular, Python is growing Type Hints. Ruby is growing gradual typing via a bunch of Stripe stuff... And Rust is taking type systems into areas that many other languages have avoided.
 
 **Jon Calhoun:** This kind of reminds me of -- there's a couple of tools around JSON APIs where you basically define a schema and it helps generate libraries for various languages... I think - was Swagger one of those?
 
@@ -122,7 +122,7 @@ Protobuf is language-agnostic, it has a specification that's public, and it has 
 
 **Jon Calhoun:** I'd have to go back and check though... But as a result, it means that it's not like the most optimal parser, whereas like when you mentioned the binary format, it's just assuming this is valid data, "We're gonna go ahead and use it." But it's worth noting that for most people that optimization isn't so important that they've replaced the standard library with a custom JSON parser of some sort.
 
-**Akshay Shah:** That's right. And you can get -- I mean, to be fair, as the author of \[unintelligible 00:25:12.06\] custom JSON encoder... \[laughter\] It's not that hard to encode JSON much, much faster. Zap, the logging packager, part of why it's faster is that it has its own JSON encoder. And that's pretty easy, because JSON is a really simple string format. So even if you want to make JSON really fast, you can do that by just biting off half the problem. If you make encoding super-fast, and decoding is still not that fast - that's 50% of the win for 10% of the effort.
+**Akshay Shah:** That's right. And you can get -- I mean, to be fair, as the author of a bizzaro custom JSON encoder... \[laughter\] It's not that hard to encode JSON much, much faster. Zap, the logging packager, part of why it's faster is that it has its own JSON encoder. And that's pretty easy, because JSON is a really simple string format. So even if you want to make JSON really fast, you can do that by just biting off half the problem. If you make encoding super-fast, and decoding is still not that fast - that's 50% of the win for 10% of the effort.
 
 **Break:** \[25:52\]
 
@@ -140,7 +140,7 @@ As a user, I think, especially a Go programmer, protobuf feels really familiar. 
 
 **Johnny Boursiquot:** Are there alternative runtimes other than gRPC?
 
-**Akshay Shah:** \[32:03\] Yes. Actually, from the episode on bloat, from a couple of months ago, Egon's company, Storj, it sounds like from their public blog post that they were using gRPC, and they were dissatisfied with a bunch of things about it... And so they wrote an alternate RPC runtime. It's called dRPC, and it basically operates at a lower level in the networking stack. But to a programmer, it's very similar. You write some protobuf definitions, you generate some code, you implement an interface, and then you hand that interface over to a networking package to serve traffic. It's incompatible with gRPC \[unintelligible 00:32:41.22\] complicated, but it's operating directly at a TCP level. So it's not serving you HTTP traffic. But again, it's a program that looks pretty similar. Twitch has a similar thing called Twirp. Thrift is very similar to protocol buffers, and it has its own wire format. There's Dubbo, from I think Alibaba, just similar in principle.
+**Akshay Shah:** \[32:03\] Yes. Actually, from the episode on bloat, from a couple of months ago, Egon's company, Storj, it sounds like from their public blog post that they were using gRPC, and they were dissatisfied with a bunch of things about it... And so they wrote an alternate RPC runtime. It's called dRPC, and it basically operates at a lower level in the networking stack. But to a programmer, it's very similar. You write some protobuf definitions, you generate some code, you implement an interface, and then you hand that interface over to a networking package to serve traffic. It's incompatible with gRPC... ish, it's a little complicated, but it's operating directly at a TCP level. So it's not serving you HTTP traffic. But again, it's a program that looks pretty similar. Twitch has a similar thing called Twirp. Thrift is very similar to protocol buffers, and it has its own wire format. There's Dubbo, from I think Alibaba, just similar in principle.
 
 **Johnny Boursiquot:** Okay.
 
@@ -208,7 +208,7 @@ So at Buf we work on this thing called Connect. It's a drop-in gRPC replacement.
 
 **Akshay Shah:** ...Julien Schmidt's HttpRouter, Gin or whatever.
 
-**Johnny Boursiquot:** \[unintelligible 00:44:43.17\]
+**Johnny Boursiquot:** gorilla/mux right?
 
 **Akshay Shah:** Yeah, any of those things, right? This just slots right in there. So your gRPC handlers plug in right alongside all your other ones. I think there's space for that, and I think it's nice. It's a tiny bit slower, just because it supports much more of HTTP than the gRPC stuff does. I don't think most of us look at net HTTP and we're like "Oh, that code's for chumps. So slow! Unusable in production!"
 
@@ -282,7 +282,7 @@ So that's kind of really made gRPC hard to adopt for external APIs. But that's n
 
 **Jon Calhoun:** Johnny, I've used way more XML in my life than I really care to. \[laughter\]
 
-**Akshay Shah:** That's right. Oh, man. At one job... We're doing a bunch of work, enterprise integration work with \[unintelligible 00:55:03.20\] companies, and I was praying for XML. There were all these weirdo, handrolled binary formats... It was like "Back in the day, we thought these ints were going to be 32 bits... So if this flag is set, jump to the end of the file and look for where we added another 32 bits for the top bits, because the numbers got too big", or something.
+**Akshay Shah:** That's right. Oh, man. At one job... We're doing a bunch of work, enterprise integration work with ThinServe companies, and I was praying for XML. There were all these weirdo, handrolled binary formats... It was like "Back in the day, we thought these ints were going to be 32 bits... So if this flag is set, jump to the end of the file and look for where we added another 32 bits for the top bits, because the numbers got too big", or something.
 
 **Johnny Boursiquot:** Wow.
 
@@ -290,7 +290,7 @@ So that's kind of really made gRPC hard to adopt for external APIs. But that's n
 
 **Jon Calhoun:** I was never excited about XML. It was just one of those things that - I started a company where we interacted with a lot of shipping APIs, and a lot of them were using XML, so I just got very familiar with it... And at the end of the day, I just came to the conclusion that I don't actually care what your API uses, as long as there's a good way, a good library or something to communicate with it, and as long as it gets simplified in that sense. And I think most developers have that same viewpoint of "If you give me a good library, I never look to see what you're even using behind the scenes, because it doesn't matter to me." But if there's not a library, then clearly I have to look and see what you're using, and then if it's XML, I'm going to be like "What is your problem?"
 
-**Johnny Boursiquot:** \[laughs\] No, that's when you dust off the old \[unintelligible 00:56:08.27\]
+**Johnny Boursiquot:** \[laughs\] No, that's when you dust off the old XSLT book.
 
 **Akshay Shah:** That's right. \[laughs\]
 
