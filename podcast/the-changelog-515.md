@@ -44,7 +44,7 @@
 
 **Jerod Santo:** Wow.
 
-**Arun Gupta:** \[00:06:02.15\] Over 19,000 software engineers. And OSPO is part of my team. So one of the teams I have is open source program office. I've actually built and ran OSPOs at Amazon and Apple... So I've built my career over the last 20 years exclusively on open source. So I kind of have been around for a while. And here honestly, the part that gets me most excited is Intel has done so much in the open source world. When I was given an offer to join Intel, I was "What does Intel do in open source?"
+**Arun Gupta:** \[06:02\] Over 19,000 software engineers. And OSPO is part of my team. So one of the teams I have is open source program office. I've actually built and ran OSPOs at Amazon and Apple... So I've built my career over the last 20 years exclusively on open source. So I kind of have been around for a while. And here honestly, the part that gets me most excited is Intel has done so much in the open source world. When I was given an offer to join Intel, I was "What does Intel do in open source?"
 
 **Jerod Santo:** That's what I was thinking.
 
@@ -80,7 +80,7 @@
 
 **Adam Stacoviak:** Because you're so prolific and you're so embedded, you personally, and I wonder if like a lot of the gain and benefit is - not so much just you, but you bring a lot to the table, right? You bring a lot of skin in the game, a lot of trust from past experience and how you've personally been in the trenches for so long... I just wonder if they're aligned; if your experience and what you bring, and what Intel brings - obviously is they're big, but do they align well? Maybe that's why you took the job.
 
-**Arun Gupta:** \[00:10:15.23\] No, they do. They do. They very well do, actually. And throughout my career, I've always -- like, I'm a runner, okay? So as a runner, I like doing uphill runs. I don't like downhill runs. And they are required, because --
+**Arun Gupta:** \[10:15\] No, they do. They do. They very well do, actually. And throughout my career, I've always -- like, I'm a runner, okay? So as a runner, I like doing uphill runs. I don't like downhill runs. And they are required, because --
 
 **Jerod Santo:** How about flat? \[laughs\]
 
@@ -114,7 +114,7 @@ So I think internally - there always going to be naysayers, so you have to kind 
 
 **Jerod Santo:** Alright, belabored segue here... You're talking about telling Intel's story; that's the communication skill. Communication skills are non- technical skills... You just gave a keynote about non-technical skills and how important they are... Let's talk about that.
 
-**Arun Gupta:** \[00:14:15.27\] Sure. Well, as I said in the keynote, non-technical skills are really a force multiplier to technical skills. And an open source community which is so globally diverse, so inclusive - these non technical skills are really your differentiator.
+**Arun Gupta:** \[14:15\] Sure. Well, as I said in the keynote, non-technical skills are really a force multiplier to technical skills. And an open source community which is so globally diverse, so inclusive - these non technical skills are really your differentiator.
 
 **Jerod Santo:** Right.
 
@@ -134,7 +134,7 @@ I think that's a very simple act of kindness - helping somebody, let's say perso
 
 Then I also listen to a podcast by Adam Grant. He's an organizational psychologist at Wharton's, and he wrote the book "Rethink." I listen to a lot of his podcasts. And pretty much the theory and the concepts behind these podcasts is what gets me excited, that -- it truly is. When you start reading the study behind it, that it actually releases those hormones, that makes it so much better... It's very exciting. And it's very -- as they say, it's a very eureka moment, that "Oh, I didn't realize that it's so simple."
 
-**Jerod Santo:** \[00:18:12.21\] Right.
+**Jerod Santo:** \[18:12\] Right.
 
 **Adam Stacoviak:** There's a true connection. People forget they have a brain, right? We're so human, we forget that we have a brain. The brain is the most powerful organism that we have in our body. If it didn't do what it does, we would not do what we do.
 
@@ -154,7 +154,7 @@ Mindfulness is such an important thing... We don't realize it. We are always eit
 
 **Adam Stacoviak:** We have a podcast in our network called Brain Science. And my co-host - it's on a hiatus right now, but we're actually in talks of bringing it back... Shout-out to Mireille... She's a doctor in clinical psychology, and so I'm the layman, basically; I'm the non-neuroscience graduate, and she is the doctor, and one thing we say on that show is "Be your own scientist." And I think what happened with you, and maybe part of your shift, was self-awareness. A lot of this question you asked, Jerod, and this change in who you are, the first step to changing who you are is being self-aware of who you are. Right? If you don't know who you are, you can't understand why you are who you are, and what you're doing, and stuff like that.
 
-\[00:21:45.15\] So as you become more aware, or self-aware of the things that perplex you, or upset you about who you are, or things you want to change - you can only change what you measure, and you can only change that if you're aware that it exists, or whatnot. So I would say that maybe part of your change was the fact that you became more aware of knowledge and more self-aware of your mirror image from that knowledge. "This is what neuroscience says I am from a brain perspective, from a personality perspective. This is the knowledge out there, and this is who I think I am." And through that, you're like "Well, this is who I want to be." And maybe through your running, and self-awareness... You probably have tons of time to think when you're running, right? So while you're running, you're listening, you're reflecting, you're retrospectiving... And all these things.
+\[21:45\] So as you become more aware, or self-aware of the things that perplex you, or upset you about who you are, or things you want to change - you can only change what you measure, and you can only change that if you're aware that it exists, or whatnot. So I would say that maybe part of your change was the fact that you became more aware of knowledge and more self-aware of your mirror image from that knowledge. "This is what neuroscience says I am from a brain perspective, from a personality perspective. This is the knowledge out there, and this is who I think I am." And through that, you're like "Well, this is who I want to be." And maybe through your running, and self-awareness... You probably have tons of time to think when you're running, right? So while you're running, you're listening, you're reflecting, you're retrospectiving... And all these things.
 
 **Jerod Santo:** How long do you run, generally?
 
@@ -218,7 +218,7 @@ If you don't have this idea of curiosity, and this ability to say -- the be-your
 
 **Arun Gupta:** And less about task conflict. But as you go towards more advanced stages, personality conflict goes away, and it's all become task conflict, and that's what makes your team performing. That's what allows you to be more productive... Because I am able to look through you as a person and say, "You know what - the problem is in the task, not in the person." So I think that's a very important element about differentiating between task conflict and personality conflict. So that's what I'm going to talk about in that particular one.
 
-\[00:26:14.04\] On the adaptability side, they talk about the survival of the fittest. That's the Darwinian theory. But if the last three years have taught anything, it's survival of the most adaptable. And there have been studies done... Again, I think there's a talk by one of the doctors on TEDx... She talks about studying 10,000 living organisms; one thing that keeps them alive - and this is not humans; living organisms, like plants, trees, etc.
+\[26:14\] On the adaptability side, they talk about the survival of the fittest. That's the Darwinian theory. But if the last three years have taught anything, it's survival of the most adaptable. And there have been studies done... Again, I think there's a talk by one of the doctors on TEDx... She talks about studying 10,000 living organisms; one thing that keeps them alive - and this is not humans; living organisms, like plants, trees, etc.
 
 **Jerod Santo:** Adapt...
 
@@ -300,7 +300,7 @@ If you don't have this idea of curiosity, and this ability to say -- the be-your
 
 **Adam Stacoviak:** In everyday conversation you're not on the microphone, it's not recorded and played back to thousands and thousands of people all over the world, so you don't have that pressure... But in our case specifically, we do have that pressure. So we do want our shows to be well received, and liked, and a good narrative, a good story arc to the thing, too. We have an agenda of sorts we have to maintain.
 
-**Arun Gupta:** \[00:30:09.20\] No, I agree. I completely agree. Imagine somebody is talking for 45 seconds. You listen to the first 15 seconds, and then the question is lingering in your mind... You have not paid any attention for the next 30 seconds. That's not mindful talking or reflective listening.
+**Arun Gupta:** \[30:09\] No, I agree. I completely agree. Imagine somebody is talking for 45 seconds. You listen to the first 15 seconds, and then the question is lingering in your mind... You have not paid any attention for the next 30 seconds. That's not mindful talking or reflective listening.
 
 **Jerod Santo:** It's hard to hold on to that question, but still continue forward, and go with them...
 
@@ -378,7 +378,7 @@ If you don't have this idea of curiosity, and this ability to say -- the be-your
 
 **Jerod Santo:** His message there would have probably been much better received personally... Because it's important, right? And he picked the wrong medium for communication. And that delivered his - I don't know - lack of care... It itself was a message; the fact that it was a text message. And so that's such a struggle sometimes, knowing "When do I put the texting down and pick up the phone?" Or "When do I hop off the phone and drive over to their house?" The Wright brothers had two things going - they were brothers, which means they had a connection, but also, they were sitting with each other. Difficult for us in the digital age, like you said.
 
-**Arun Gupta:** \[00:34:14.28\] Well, I think one thing I would recommend is put yourself in the recipient's shoe.
+**Arun Gupta:** \[34:14\] Well, I think one thing I would recommend is put yourself in the recipient's shoe.
 
 **Adam Stacoviak:** Empathy.
 
@@ -414,7 +414,7 @@ If you don't have this idea of curiosity, and this ability to say -- the be-your
 
 **Arun Gupta:** Thank you for having me.
 
-**Break:** \[00:35:41.18\]
+**Break:** \[35:41\]
 
 **Adam Stacoviak:** So Chad, it's been a while, man.
 
@@ -462,7 +462,7 @@ If you don't have this idea of curiosity, and this ability to say -- the be-your
 
 **Adam Stacoviak:** That's fair...
 
-**Chad Whitacre:** \[00:38:15.03\] But that was like five years ago.
+**Chad Whitacre:** \[38:15\] But that was like five years ago.
 
 **Jerod Santo:** Maybe more. 2016 was the new brand.
 
@@ -570,7 +570,7 @@ If you don't have this idea of curiosity, and this ability to say -- the be-your
 
 **Chad Whitacre:** So that was pretty early...
 
-**Jerod Santo:** \[00:42:06.14\] Yeah. We were the only open source Phoenix app for a while that you could actually like look at and see how to build one, kind of soup to nuts, that was in production. Now there's a handful of them. Plausible is a good one.
+**Jerod Santo:** \[42:06\] Yeah. We were the only open source Phoenix app for a while that you could actually like look at and see how to build one, kind of soup to nuts, that was in production. Now there's a handful of them. Plausible is a good one.
 
 **Chad Whitacre:** Plausible.
 
@@ -622,7 +622,7 @@ And then... What -- let me fast-forward. 2012 commercialized, 2015 raised funds,
 
 **Adam Stacoviak:** \[unintelligible 00:45:51.02\] I don't blame you...
 
-**Chad Whitacre:** \[00:45:57.27\] But shout-out to \[unintelligible 00:45:59.21\] who is still running Liberapay. Do you guys remember this? Forked Gratipay... When Gratipay went down he forked it, like the business and the code... Because it was an open company, right? So he forked it, and is still running with it. Liberapay. So it's still out there. You can still fund some free software folks on Liberapay, keeping the dream alive...
+**Chad Whitacre:** \[45:57\] But shout-out to \[unintelligible 00:45:59.21\] who is still running Liberapay. Do you guys remember this? Forked Gratipay... When Gratipay went down he forked it, like the business and the code... Because it was an open company, right? So he forked it, and is still running with it. Liberapay. So it's still out there. You can still fund some free software folks on Liberapay, keeping the dream alive...
 
 **Jerod Santo:** That's cool... Liberapay. I didn't know that.
 
@@ -682,7 +682,7 @@ But really, when we look at -- like, a lot of people say impact in funding, and 
 
 The number I came up with at the time, that Sentry has picked up with, is $2,000 per year, per developer employed at Sentry. Let me unpack that. That was a lot right there, right?
 
-**Jerod Santo:** \[00:50:33.21\] Yeah, please say that again, or something.
+**Jerod Santo:** \[50:33\] Yeah, please say that again, or something.
 
 **Chad Whitacre:** Yeah. So $2,000 a year... And the thinking is -- alright, how do we value this? There's a few different ways to value it. Here's how we're gonna think about it. What we're doing is making our developers more productive. Because if that open source software didn't exist, what would we have to do?
 
@@ -710,7 +710,7 @@ Now, you can argue that, you can differ, but the point is, let's have that conve
 
 So we do our foundations, like direct payments to Python Software Foundation and Open Source Initiative... But then we use these four platforms to give out these donations to kind of the long tail, right? Anywhere from six, seven dollars for the year, down to like 100 bucks for the year, right? The long tail. Again, going back to that depth and that breadth. And what enables that is these platforms.
 
-\[00:54:00.02\] So Open Collective and GitHub Sponsors are kind of that -- I want to call it the first generation, and maybe Gitip was like the zero generation, or something. There's even older ones, too, right? \[unintelligible 00:54:07.11\] Remember that one? They were integrated into GitHub.
+\[54:00\] So Open Collective and GitHub Sponsors are kind of that -- I want to call it the first generation, and maybe Gitip was like the zero generation, or something. There's even older ones, too, right? \[unintelligible 00:54:07.11\] Remember that one? They were integrated into GitHub.
 
 **Jerod Santo:** That's right.
 
@@ -726,7 +726,7 @@ So we do our foundations, like direct payments to Python Software Foundation and
 
 **Adam Stacoviak:** We were.
 
-**Jerod Santo:** GitHub.com/explore. Was it /explore or /trending?
+**Jerod Santo:** github.com/explore. Was it /explore or /trending?
 
 **Adam Stacoviak:** /explore.
 
@@ -788,7 +788,7 @@ So we do our foundations, like direct payments to Python Software Foundation and
 
 **Chad Whitacre:** Yeah, man, let's do it. 1k, 2k...
 
-**Adam Stacoviak:** \[00:58:07.16\] What would happen? Have you ever quantified that number?
+**Adam Stacoviak:** \[58:07\] What would happen? Have you ever quantified that number?
 
 **Chad Whitacre:** I mean, in the sense that I started from that to get to the 2k, to be like "Well, here's the value, and here's the number of..." Again this is a few years ago I wrote this thing, but here's the size of the tech industry worldwide, and here's the 22 million software developers in the world, or whatever. And do that division. So from that point of view, starting there... But yeah, bottom up, every year we just need -- like, Spotify just put out a program. Did you have them on? Did you talk to \[unintelligible 00:58:39.09\] from Spotify?
 
