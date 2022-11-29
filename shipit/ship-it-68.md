@@ -1,4 +1,4 @@
-**Gerhard Lazu:** \[unintelligible 00:02:39.18\] and I hope I pronounced that right - one of our listeners, he mentioned that he would very much be interested to "hear from the builders who made things happen and established big enterprise companies." And I'm quoting Son. So we have two guests today, which I think can help with that. Welcome, Ganesh, and welcome, Brendan.
+**Gerhard Lazu:** Son Luong Ngoc, and I hope I pronounced that right - one of our listeners, he mentioned that he would very much be interested to "hear from the builders who made things happen and established big enterprise companies." And I'm quoting Son. So we have two guests today, which I think can help with that. Welcome, Ganesh, and welcome, Brendan.
 
 **Ganeshkumar Ashokavardhanan:** Thank you for having us. Really excited for the conversation today.
 
