@@ -30,7 +30,7 @@
 
 **Jerod Santo:** I like that.
 
-**Arun Gupta:** Helping them build that understanding that funnel is very important, because all along - over the 20 years, open source has only grown. And it is sort of the primary way -- open source developers are the new decision-makers. You no longer go to CIO and they say "You know what - \[unintelligible 00:04:59.29\]"
+**Arun Gupta:** Helping them build that understanding that funnel is very important, because all along - over the 20 years, open source has only grown. And it is sort of the primary way -- open source developers are the new decision-makers. You no longer go to CIO and they say "You know what - sign a bill"
 
 **Jerod Santo:** Right.
 
@@ -86,13 +86,13 @@
 
 **Arun Gupta:** Well, flat is okay. Flat is boring. I'm an uphill runner.
 
-**Adam Stacoviak:** \[unintelligible 00:10:31.05\]
+**Adam Stacoviak:** A 10% grade.
 
 **Jerod Santo:** I'm not much of a runner though...
 
 **Arun Gupta:** Yeah, I love uphill runs. So I really see this as an uphill run, and I'm really enjoying it. If you hear Pat and Greg Lavender, our CTO, talk about their strategy as the company is pivoting towards a software-first narrative, open ecosystem is front and center of the strategy. So having that top corporate alignment across the company, having a leader like Pat and Greg at the top, with such a strong conviction - actually, you don't have to do much. You just have to kind of rally up people, build a strategy and say, "This is what we're going to focus on for the next year."
 
-So I think internally - there always going to be naysayers, so you have to kind of work them along, nudge them along... And \[unintelligible 00:11:14.18\] companies like Amazon and Apple build open source narrative over there, so I'm not at all afraid in that sense... But I think it's a lot gonna be how do we make ourselves accessible, available, transparent to the open source community, so that they start believing us. Because as they say, the first person to stop fooling is yourself. But we believe in this very strongly, and we hope that passion comes across clearly to the open source community.
+So I think internally - there always going to be naysayers, so you have to kind of work them along, nudge them along... And I worked at companies like Amazon and Apple build open source narrative over there, so I'm not at all afraid in that sense... But I think it's a lot gonna be how do we make ourselves accessible, available, transparent to the open source community, so that they start believing us. Because as they say, the first person to stop fooling is yourself. But we believe in this very strongly, and we hope that passion comes across clearly to the open source community.
 
 **Jerod Santo:** Yeah. So you've talked a couple of ways that you're supporting open source developers; one is direct committing to the projects. That's the best form of support, is "We actually submit code to the Linux Kernel." The other one is sponsoring events and conferences like this one... What are some other ways that Intel can support the community?
 
@@ -194,7 +194,7 @@ If you don't have this idea of curiosity, and this ability to say -- the be-your
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** So you mentioned the \[unintelligible 00:24:41.22\] so no one listening to this show right now is here at this conference, so they can't go at 11:45 and listen to your talk... But you mentioned conflict resolution, which I think is key, and adaptability. Can you kind of unpack just a little tease to what you're gonna talk about?
+**Adam Stacoviak:** So you mentioned the tea is for later, so no one listening to this show right now is here at this conference, so they can't go at 11:45 and listen to your talk... But you mentioned conflict resolution, which I think is key, and adaptability. Can you kind of unpack just a little tease to what you're gonna talk about?
 
 **Arun Gupta:** Absolutely. When you think about conflict resolution, I think one of the biggest things in conflict resolution is how do you separate task conflict versus personality conflict? We're all aware of the Peter Druckman's model of forming, storming, norming, performing...
 
@@ -366,7 +366,7 @@ If you don't have this idea of curiosity, and this ability to say -- the be-your
 
 **Adam Stacoviak:** Face to face.
 
-**Arun Gupta:** \[unintelligible 00:33:25.22\]
+**Arun Gupta:** Pissed off. Conflict.
 
 **Adam Stacoviak:** Of course, yes.
 
@@ -534,7 +534,7 @@ If you don't have this idea of curiosity, and this ability to say -- the be-your
 
 **Adam Stacoviak:** So it's like, how do you choose where to put your community real-time messaging, basically? We want to be more open source-aligned, we want to be more community-focus-aligned, but it's hard to make that switch when we're so embedded.
 
-**Chad Whitacre:** \[unintelligible 00:41:04.06\]
+**Chad Whitacre:** That's true yeah. unintelligible
 
 **Adam Stacoviak:** It's almost worth just paying for, really. We would entertain a community partner who would be like "We're sponsoring the community Slack", or the community, wherever that might be, and find a way to do that... And that way, it's like x per month, and then maybe we profit a little bit... Maybe just kind of surplus more or less to cover like higher months... Because Slack will go up or down based upon usage.
 
@@ -558,7 +558,7 @@ If you don't have this idea of curiosity, and this ability to say -- the be-your
 
 **Jerod Santo:** Yeah. I use it a couple of times a week.
 
-**Chad Whitacre:** \[unintelligible 00:41:35.21\]
+**Chad Whitacre:** What's your stack?
 
 **Jerod Santo:** Elixir, Phoenix...
 
@@ -616,13 +616,13 @@ And then... What -- let me fast-forward. 2012 commercialized, 2015 raised funds,
 
 **Jerod Santo:** That's cool.
 
-**Chad Whitacre:** It's great. So funding is a big part of it. But at Sentry, our whole product is open, so a lot of what I'm working on now is helping our engineering culture scale to still have those conversations on GitHub, still have those discussions... Because when you've got 100+ engineers it's really about helping Sentry engage with our user base, with the open source community, with the developer community on those open source channels, primarily Gitip. \[unintelligible 00:45:46.13\] Primarily GitHub... You know what I'm saying.
+**Chad Whitacre:** It's great. So funding is a big part of it. But at Sentry, our whole product is open, so a lot of what I'm working on now is helping our engineering culture scale to still have those conversations on GitHub, still have those discussions... Because when you've got 100+ engineers it's really about helping Sentry engage with our user base, with the open source community, with the developer community on those open source channels, primarily Gitip. Excuse me, listen to me 'Gitip'. Primarily GitHub... You know what I'm saying.
 
 **Jerod Santo:** \[laughs\]
 
-**Adam Stacoviak:** \[unintelligible 00:45:51.02\] I don't blame you...
+**Adam Stacoviak:** Well you know, when you say 'Git' you think 'tip', you know what I'm saying? I don't blame you...
 
-**Chad Whitacre:** \[45:57\] But shout-out to \[unintelligible 00:45:59.21\] who is still running Liberapay. Do you guys remember this? Forked Gratipay... When Gratipay went down he forked it, like the business and the code... Because it was an open company, right? So he forked it, and is still running with it. Liberapay. So it's still out there. You can still fund some free software folks on Liberapay, keeping the dream alive...
+**Chad Whitacre:** \[45:57\] But shout-out to Charly Changaco who is still running Liberapay. Do you guys remember this? Forked Gratipay... When Gratipay went down he forked it, like the business and the code... Because it was an open company, right? So he forked it, and is still running with it. Liberapay. So it's still out there. You can still fund some free software folks on Liberapay, keeping the dream alive...
 
 **Jerod Santo:** That's cool... Liberapay. I didn't know that.
 
@@ -696,7 +696,7 @@ The number I came up with at the time, that Sentry has picked up with, is $2,000
 
 Now, you can argue that, you can differ, but the point is, let's have that conversation to say, first principles, like what is fair? So let's start from that. And so we did 155k last year... So last year was like "Alright, we've got 75 devs. We've got 2000 bucks a pop. 150k is our budget." Now we figure out how to spend it as a separate thing. And so this year - we set the budget a while ago, but yeah, we put it at 260k, so it's roughly in line with our growth as a company. But it's pegged to $2,000 per engineer on staff. Does that answer your question?
 
-**Adam Stacoviak:** Yeah, it does. Because a lot of what's happening with OSPOs is burgeoning. It's new. So organizations are taking this more seriously, taking the principles of giving back to open source more seriously... And as you see more and more folks like you guys be examples to follow, you've gotta think "What's the science? How do I determine my number? Is it per the money we make? Is it revenue? Is it a \[unintelligible 00:52:15.16\] Is it 10%? How do we quantify the dollar amount...?" And I think it's a good number, because you do base it on engineers... Obviously, I can't think of one engineer who would develop anything and not use open source. So obviously, there's a touch point there...
+**Adam Stacoviak:** Yeah, it does. Because a lot of what's happening with OSPOs is burgeoning. It's new. So organizations are taking this more seriously, taking the principles of giving back to open source more seriously... And as you see more and more folks like you guys be examples to follow, you've gotta think "What's the science? How do I determine my number? Is it per the money we make? Is it revenue? Is it a tithe? Is it 10%? How do we quantify the dollar amount...?" And I think it's a good number, because you do base it on engineers... Obviously, I can't think of one engineer who would develop anything and not use open source. So obviously, there's a touch point there...
 
 **Chad Whitacre:** Yeah, it's everywhere now, yeah.
 
@@ -738,7 +738,7 @@ So we do our foundations, like direct payments to Python Software Foundation and
 
 **Adam Stacoviak:** GitHub. They changed, you know...
 
-**Chad Whitacre:** Microsoft \[unintelligible 00:54:44.10\]
+**Chad Whitacre:** Microsoft bought em...
 
 **Adam Stacoviak:** It was before Microsoft days, but...
 
@@ -940,7 +940,7 @@ A good one from a guy out of Australia, Ian McKay - he created this open source 
 
 **Ricardo Sueiras:** Yeah. So it's tools like that, that every week -- I'm amazed, right? Because I do a weekly newsletter, and I feature these in my weekly newsletter, and I'm always blown away by the creativity, the passion that these people have.
 
-**Adam Stacoviak:** Well, you do what we do, basically, but you do it for AWS. We do it for open source at large. Or I guess software at large, right? But there is no \[unintelligible 01:08:02.27\]
+**Adam Stacoviak:** Well, you do what we do, basically, but you do it for AWS. We do it for open source at large. Or I guess software at large, right? But there is no \[unintelligible 01:08:02.27\] on digging.
 
 **Jerod Santo:** You can do it and put it out there.
 
