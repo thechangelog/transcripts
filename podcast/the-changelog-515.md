@@ -108,7 +108,7 @@ So I think internally - there always going to be naysayers, so you have to kind 
 
 **Adam Stacoviak:** What does your team look like? What do you break down? Like the OSPO, and other things that are involved under your role - what is that like? How many people are involved?
 
-**Arun Gupta:** We don't share the number of people usually, but I have an OSPO team that is for all typical OSPO-related functions. I have a community and a dev rel team, that maintains open.intel.com. That's our public-facing website; blogs etc. over there. And I have a team that is all focused on internal strategy and alignment, where we work across multiple BUs to bring them on the same page or understand what the strategy is. So a lot of internal alignment.
+**Arun Gupta:** We don't share the number of people usually, but I have an OSPO team that is for all typical OSPO-related functions. I have a community and a dev rel team, that maintains [open.intel.com](https://open.intel.com/). That's our public-facing website; blogs etc. over there. And I have a team that is all focused on internal strategy and alignment, where we work across multiple BUs to bring them on the same page or understand what the strategy is. So a lot of internal alignment.
 
 **Adam Stacoviak:** Gotcha.
 
@@ -710,7 +710,7 @@ Now, you can argue that, you can differ, but the point is, let's have that conve
 
 So we do our foundations, like direct payments to Python Software Foundation and Open Source Initiative... But then we use these four platforms to give out these donations to kind of the long tail, right? Anywhere from six, seven dollars for the year, down to like 100 bucks for the year, right? The long tail. Again, going back to that depth and that breadth. And what enables that is these platforms.
 
-\[54:00\] So Open Collective and GitHub Sponsors are kind of that -- I want to call it the first generation, and maybe Gitip was like the zero generation, or something. There's even older ones, too, right? \[unintelligible 00:54:07.11\] Remember that one? They were integrated into GitHub.
+\[54:00\] So Open Collective and GitHub Sponsors are kind of that -- I want to call it the first generation, and maybe Gitip was like the zero generation, or something. There's even older ones, too, right? Pledgie. Shout out to Pledgie. Remember that one? They were integrated into GitHub.
 
 **Jerod Santo:** That's right.
 
