@@ -34,7 +34,7 @@ So yeah, it was a lot of fun... Very involved in the frontend... When I worked a
 
 **Debbie O'Brien:** And we want more. So if you haven't starred us, star us, because we love stars; we live by stars. If we don't get stars, we don't get paid, so make sure you give us stars. \[laughs\]
 
-**Amal Hussein:** \[00:06:01.02\] They get paid in stars. You heard it here first.
+**Amal Hussein:** \[06:01\] They get paid in stars. You heard it here first.
 
 **Debbie O'Brien:** We get paid in stars, yes. \[laughs\]
 
@@ -74,9 +74,9 @@ Then playwright is the person who writes the plays, and the player uses the pupp
 
 **Nick Nisi:** Yeah, I really like that.
 
-**Amal Hussein:** \[00:09:43.23\] Yeah. So I have to ask, because I know our listeners are also curious about this as well... This project was forked from Puppeteer... So what was the driving factor for that, or -- versus just contributing to the same open source project? Because I think one of the things we hear often about open source is like the benefit is you can carry your resume around with you, right? And then you can continue to work on stuff, regardless of where you're working. So was it like "Hey, we want to add certain features, and we want to take the project in a different direction"? Was that the driving factor?
+**Amal Hussein:** \[09:43\] Yeah. So I have to ask, because I know our listeners are also curious about this as well... This project was forked from Puppeteer... So what was the driving factor for that, or -- versus just contributing to the same open source project? Because I think one of the things we hear often about open source is like the benefit is you can carry your resume around with you, right? And then you can continue to work on stuff, regardless of where you're working. So was it like "Hey, we want to add certain features, and we want to take the project in a different direction"? Was that the driving factor?
 
-**Debbie O'Brien:** Yeah, I don't have all the details, because I wasn't part of the team at the time... But at the time, the team were in Google, working on Puppeteer, and Puppeteer was open-sourced... But Puppeteer was made for what Puppeteer was made for, right? And Microsoft wanted to invest in testing, and they needed a team to help build something, because of -- we have a problem in the industry when it comes to testing; we don't have a lot of amazing solutions out there, so it made sense to find amazing people who already have experience in automation, right? But now you've got to start with something, so you start with a fork of Puppeteer. But Puppeteer wasn't made for testing, right? So that's why it has some problems if you're going to do testing. But because the person who created Puppeteer is working on Playwyou take that fork, you know the code, it's your code, you built it, so it's easy to modify it to do what you want it to do, to build on it... Which is how Playwright has grown so fast, because it has that --
+**Debbie O'Brien:** Yeah, I don't have all the details, because I wasn't part of the team at the time... But at the time, the team were in Google, working on Puppeteer, and Puppeteer was open sourced... But Puppeteer was made for what Puppeteer was made for, right? And Microsoft wanted to invest in testing, and they needed a team to help build something, because of -- we have a problem in the industry when it comes to testing; we don't have a lot of amazing solutions out there, so it made sense to find amazing people who already have experience in automation, right? But now you've got to start with something, so you start with a fork of Puppeteer. But Puppeteer wasn't made for testing, right? So that's why it has some problems if you're going to do testing. But because the person who created Puppeteer is working on Playwyou take that fork, you know the code, it's your code, you built it, so it's easy to modify it to do what you want it to do, to build on it... Which is how Playwright has grown so fast, because it has that --
 
 **Amal Hussein:** Strong core.
 
@@ -108,7 +108,7 @@ Then you've got tests running in parallel, which means it's super-fast. And we d
 
 **Debbie O'Brien:** Yeah...
 
-**Amal Hussein:** \[00:14:03.27\] So the fact that -- it's so cool to parallelize and force that kind of sandboxing... But I think what a cool problem to solve for browser tests, because I think that's like a very unique feature; in order to run things in parallel like that, you need to have a bunch of very fancy setup in your CI, and it just feels like Playwright kind of smoothed it...
+**Amal Hussein:** \[14:03\] So the fact that -- it's so cool to parallelize and force that kind of sandboxing... But I think what a cool problem to solve for browser tests, because I think that's like a very unique feature; in order to run things in parallel like that, you need to have a bunch of very fancy setup in your CI, and it just feels like Playwright kind of smoothed it...
 
 **Debbie O'Brien:** I'm going to jump in here and say the word "test isolation."
 
@@ -152,7 +152,7 @@ Then you've got tests running in parallel, which means it's super-fast. And we d
 
 **Debbie O'Brien:** It's doing something different. It's using the Chrome protocol. I don't know too much about it; I couldn't go too deep into that. But yeah, it's not using WebDriver \[unintelligible 00:18:09.09\] protocol instead. If you know about those, you'll know the difference...
 
-**Nick Nisi:** \[00:18:16.29\] I don't... So it's okay... \[laughter\] Like, it does support more than just Chromium browsers too, that's an important thing to highlight.
+**Nick Nisi:** \[18:16\] I don't... So it's okay... \[laughter\] Like, it does support more than just Chromium browsers too, that's an important thing to highlight.
 
 **Debbie O'Brien:** Exactly. So all browsers, WebKit, Chromium, and even Opera etc. So it can run on all browsers, which is basically what you want to do. So yeah, it uses the Chrome protocol to be able to do that, if that makes sense.
 
@@ -162,7 +162,7 @@ Then you've got tests running in parallel, which means it's super-fast. And we d
 
 **Amal Hussein:** Yeah. Well, we're gonna get into all this other good stuff, with features, and I'm super-eager to kind of -- you just drop a big bombshell, Debbie, which is like multi-browser support... We can't open that can of worms without going deep, so I want to just leave that for the second segment. We'll be right back, everyone...
 
-**Break:** \[00:19:09.13\]
+**Break:** \[19:09\]
 
 **Nick Nisi:** Do Debbie, you mentioned that Playwright supports multiple browsers. I thought that'd be a good place to dive right in, in the new segment... So do you want to talk about that a little bit?
 
@@ -180,7 +180,7 @@ So yeah, as well as mobile. You can test across mobile responsiveness, make sure
 
 **Nick Nisi:** So is there like a way to be like "In Safari--" or "Skip these tests if Safari", or something like that?
 
-**Debbie O'Brien:** \[00:22:11.29\] So there actually is, believe it or not.
+**Debbie O'Brien:** \[22:11\] So there actually is, believe it or not.
 
 **Nick Nisi:** Nice.
 
@@ -234,7 +234,7 @@ So once we know what you're using, what device etc. then you can kind of test it
 
 **Debbie O'Brien:** Let's not resurrect the dead... \[laughs\]
 
-**Amal Hussein:** \[00:25:51.22\] I know... But you know, you'd be surprised; government people just have to support governments; believe it or not, the testing surface is still a little wider... But that being said, this is a really powerful superpower. Being able to easily test across multiple browsers, and having that parallelization set up kind of turnkey, out of the box... That's really solving a huge pain point for developers, Debbie. It's tremendously exciting.
+**Amal Hussein:** \[25:51\] I know... But you know, you'd be surprised; government people just have to support governments; believe it or not, the testing surface is still a little wider... But that being said, this is a really powerful superpower. Being able to easily test across multiple browsers, and having that parallelization set up kind of turnkey, out of the box... That's really solving a huge pain point for developers, Debbie. It's tremendously exciting.
 
 **Debbie O'Brien:** And you don't have to have those browsers downloaded on your computer.
 
@@ -264,7 +264,7 @@ But yeah, you can also use the terminal, and you can use the debug commands as w
 
 **Debbie O'Brien:** It's a little bit different to actually a real click happening and a kind of fake, environmental kind of emulated click. So they can behave a little bit different.
 
-**Nick Nisi:** \[00:30:13.09\] Precisely.
+**Nick Nisi:** \[30:13\] Precisely.
 
 **Debbie O'Brien:** One thing you also mentioned there was Testing Library, right?
 
@@ -306,7 +306,7 @@ And then if you get one that says "Get by roll" -- and maybe it's a CSS selector
 
 **Amal Hussein:** So that's really cool... And I'm curious, this kind of multi-browser support, this forced accessibility, sanity checks, making sure that by your code being accessible to the tests, it's also accessible to a user that may be using a screen reading device... So that's incredibly awesome. What are your other favorite bits of magic, Debbie? Because it seems like, from listening to you for the past however many minutes, it really does seem like Playwright has taken some of those very common problems that developers face when writing browser tests, and really -- how do we smooth over that pain? You mentioned some VS Code integration, and some other things... So can you talk about some of your favorite things? I know there's too many to cover in this podcast, but we'll just pick your favorites.
 
-**Debbie O'Brien:** \[00:34:10.00\] Yeah. Okay, I want to speak about two. And then I'll put it in half, and then you're gonna go "Tell me about the next one!" Right?
+**Debbie O'Brien:** \[34:10\] Yeah. Okay, I want to speak about two. And then I'll put it in half, and then you're gonna go "Tell me about the next one!" Right?
 
 **Amal Hussein:** Okay, okay. Yes.
 
@@ -336,7 +336,7 @@ Now, you will have to go and change a little bit of code, because you don't have
 
 **Amal Hussein:** I love that experience as well, because you would think a feature like this would be used by people who maybe aren't developers. But actually, this is assistive to developers that just want to get a foundation that they can modify, right? So you're like "Where do I start? How do I structure this test? What's the user flow? Here's a rudimentary version that you can then improve." I love that workflow, Debbie; that's a really cool workflow, especially like - you know, if it's a Friday afternoon, and I'm three hours before the weekend, and I've gotta write this test... Sometimes you just need a little bit of a push, or a little bit of a cheat, right? But this is a cheat in a good way.
 
-**Debbie O'Brien:** \[00:38:06.12\] Yeah. I literally say to people, it's gonna take you five minutes to install Playwright and write your first test and have it running. And this is not even me telling you the second feature, this is me just jumping ahead --
+**Debbie O'Brien:** \[38:06\] Yeah. I literally say to people, it's gonna take you five minutes to install Playwright and write your first test and have it running. And this is not even me telling you the second feature, this is me just jumping ahead --
 
 **Amal Hussein:** Oh my God, I know, I know...
 
@@ -354,13 +354,13 @@ Now, you will have to go and change a little bit of code, because you don't have
 
 **Amal Hussein:** Also, I've got to ask about Cypress. Our listeners are going to be like "Well, what about Cypress?" and so we will have to ask you to kind of summarize for us what Playwright has that Cypress doesn't, so that folks can wrap their head around the delta a little easier... Yeah, so we'll get into all of that and more after these short messages.
 
-**Break:** \[00:39:49.00\]
+**Break:** \[39:49\]
 
 **Amal Hussein:** Okay, Debbie, that was quite the cliffhanger that you left us with. We were running through your list of favorite things, and there's too many to cover in this podcast, so we're letting you drive, drive us down your list... So let's get back into it. We talked about multi-browsers support, we talked about approved selectors, accessibility, improvements that usher good decision-making... All these kind of cool, new features. Can you tell us about more of your favorite things?
 
 **Debbie O'Brien:** Okay, so let me give you an example, right? So you run your test on continuous integration with GitHub Actions, or whatever -- I'm saying GitHub Actions, but actually, it integrates with everything else. You just have to add that config file yourself. GitHub Actions is out of the box, but it runs on every other CI as well. So you're running a test in CI, and it fails in CI, it runs locally, it fails in CI, so now you're like stuck. What do you do? What would you do in this instant? How would you fix that test?
 
-**Amal Hussein:** \[00:42:21.25\] I mean, I'd have to find the test locally; I'd have to run it, do a lot of grepping...
+**Amal Hussein:** \[42:21\] I mean, I'd have to find the test locally; I'd have to run it, do a lot of grepping...
 
 **Debbie O'Brien:** But it works locally?
 
@@ -388,7 +388,7 @@ So that's the trace viewer. It runs, as I said, on CI, on the first retry, but y
 
 **Amal Hussein:** That's super-cool. I was going to just ask them, "Does it do this for every test?" But no, there's a flag that you have to turn on. But that's great, because then you get that extra richness only when you need it.
 
-**Debbie O'Brien:** \[00:46:05.21\] Yeah... Because you only want it if your test fails.
+**Debbie O'Brien:** \[46:05\] Yeah... Because you only want it if your test fails.
 
 **Amal Hussein:** Yeah. And do you know if the things line up visually, so that it shows you "Here's the traces that we're collecting, and here's the assertions", and so you know that everything is green until you get to these sets of traces where things start to go haywire? Do those things line up? Is there there like a timeline where you can see?
 
@@ -416,7 +416,7 @@ So there's not really like "We recommend this", or... I mean, yeah, we recommend
 
 **Amal Hussein:** Yeah, there's room for everybody. That's really cool. So we have to kind of bring up the elephant in the room, but I really didn't want to make this show about how Playwright is not Cypress. So we're towards the end of the show... I want to ask if you can give us a summary highlight of how Playwright is different than Cypress... For many folks like myself, who I've been longtime Cypress user, and it's a tool that I know, it's a tool that I've used at multiple companies etc. And so what's the kind of -- folks who are curious about Playwright, why should they be more curious? And more specifically, what does Playwright have that Cypress doesn't, that will make things easier for users?
 
-**Debbie O'Brien:** \[00:50:22.28\] Okay. So yeah, Cypress is great. I used to use Cypress for many years, so I come from that world as well. We are newer, so therefore the community is smaller, which is my job, to grow the community. So Playwright's been around for about two-and-a-half years now, so obviously, we do not have as much workshops out there, and examples, and videos, and stuff, which we are working on and we will have, and thanks to our ambassador page, you'll be able to find more content there, if that's what you're looking for.
+**Debbie O'Brien:** \[50:22\] Okay. So yeah, Cypress is great. I used to use Cypress for many years, so I come from that world as well. We are newer, so therefore the community is smaller, which is my job, to grow the community. So Playwright's been around for about two-and-a-half years now, so obviously, we do not have as much workshops out there, and examples, and videos, and stuff, which we are working on and we will have, and thanks to our ambassador page, you'll be able to find more content there, if that's what you're looking for.
 
 When it comes to differences, I guess browser support - now, I know that Cypress has recently added WebKit support, because they're using the Playwright WebKit to be able to get that... So they're kind of a little bit on par, I guess, when it comes to the browser testing thanks to our open source work, of course...
 
@@ -434,7 +434,7 @@ And then obviously, parallelism for free; so you don't have to pay for anything,
 
 And then let me think... Obviously, the trace view, or the tooling around it, which just means if you're using things like say VS Code, that all the integration that goes on makes a very good developer experience, but then you've got the trace viewer for when you're having problems, and trying to debug etc. And I don't even know any of -- there could be other differences out there, but I would say maybe if you're having problems testing across multiple domains, testing across iFrames... If your tests are running slow, or you have flaky tests because of test cleanup, etc. then Playwright's just solved all those problems for you... Because it just works, right? I like to say "Playwright just works." You don't have to do anything, it just works.
 
-**Amal Hussein:** \[00:54:09.07\] That's really great. And that was a really great summary and rundown, Debbie; thank you so much for that. Disclaimer for the open source projects, or the non-mega-corp-supported projects - parallelization being something that maybe companies like Cypress charge for. Obviously, a lot of the work that Playwright does is subsidized by quite a large corporation, and so for smaller companies, that is their one path to getting funding and/or supporting their staff. So open source projects by large companies are great, but they do subsidize a lot of really great things, and we all get to benefit from that subsidization, obviously, as a community... But I just wanted to say that no shame in Cypress'es game, right?
+**Amal Hussein:** \[54:09\] That's really great. And that was a really great summary and rundown, Debbie; thank you so much for that. Disclaimer for the open source projects, or the non-mega-corp-supported projects - parallelization being something that maybe companies like Cypress charge for. Obviously, a lot of the work that Playwright does is subsidized by quite a large corporation, and so for smaller companies, that is their one path to getting funding and/or supporting their staff. So open source projects by large companies are great, but they do subsidize a lot of really great things, and we all get to benefit from that subsidization, obviously, as a community... But I just wanted to say that no shame in Cypress'es game, right?
 
 **Debbie O'Brien:** No, for sure. For sure.
 
@@ -472,7 +472,7 @@ And then let me think... Obviously, the trace view, or the tooling around it, wh
 
 **Debbie O'Brien:** And star us on GitHub.
 
-**Amal Hussein:** \[00:58:01.26\] Right, right. So if people do want to get involved and learn more about the project and learn about you, what are some good resources for them? And then also, are there any workshops online, or any free videos? What's the best way for someone to just get started and start learning?
+**Amal Hussein:** \[58:01\] Right, right. So if people do want to get involved and learn more about the project and learn about you, what are some good resources for them? And then also, are there any workshops online, or any free videos? What's the best way for someone to just get started and start learning?
 
 **Debbie O'Brien:** Yeah, so Playwright.dev is the website, and it's got the Get Started section, which will take you to writing your tests in five minutes; you'll have everything up and running. Then if you want to know more, there's a whole community page, you can go there, and it will tell you about contributing, it will also give you videos, the released videos I was talking about, there's a section of released videos... There's conference talks; if you want to just listen to me all day long, you could totally do that, talking about Playwright... So there's loads of videos there, and then there's some live streams that are in there as well. We will be building more kind of upcoming, like not workshop, but like small, "learn how to do this" kind of thing; that will be coming, so follow the YouTube channel for that. Follow Twitter. I know there's a bit going on these days, but yeah... Follow Twitter for any new release information that's coming out, or LinkedIn; we're on there as well.
 
