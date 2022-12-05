@@ -18,7 +18,7 @@
 
 **Audun Fauchald Strand:** Well, we used to have that when we started. The first iteration of NAIS was basically running on-prem. We have a strategy where we go quite slowly, both going from our old legacy systems, to NAIS, the Kubernetes platform, but at the same time also going quite slowly from on-prem to cloud. We don't want to do lift and shift, we want to modernize our applications and to get the full value, both of using Kubernetes, but also using the cloud, because we don't see -- well, there's not that much value to gain from just moving old stuff to new infrastructure. You need to modernize the applications and make better applications. We always say, none of the users of NAV care about our application platform. We're not here to make better application platforms, we're here to make better services. And better services come from better applications. And then the platform can of course help with that, but that's not why NAV is NAV, to make application platforms... Although that would have been quite cool, actually... \[laughs\]
 
-**Gerhard Lazu:** \[00:08:25.25\] Hm... So what is the difference between NAV and NAIS.io?
+**Gerhard Lazu:** \[08:25\] Hm... So what is the difference between NAV and NAIS.io?
 
 **Audun Fauchald Strand:** Well, NAV is the biggest governmental agency in Norway. As you mentioned, we pay out about a third of the federal budget in Norway. We have everything from age-related pensions, to parental benefits, to sickness benefits, and we also have the responsibility of helping people get back into work and kind of have the whole working system working as good as possible. So that's NAV. And we used to be many different organizations, and then we had a big merger in 2006, where the politicians thought that if they'd just put all these different organizations into one organization, then everybody will start to cooperate, and data will flow between the different systems, and everything. It turns out that wasn't as easy as just putting them into the same organization; there's still monolithic software causing problems. Three monoliths are necessarily better than one monolith. So we still have that.
 
@@ -30,7 +30,7 @@ And so that's NAV... And NAIS is basically our open source platform that we star
 
 But the other side which has taken me a bit by surprise is the fact that we have this platform, which has very -- you can say it has quite tight entry conditions... It's only Docker containers, but we say you have to be stateless so we can deploy, because Kubernetes can move your application.
 
-\[00:12:00.25\] And we do log collection this way, and metrics this way, and alerts this way. It's quite unifying. We tried to do what Spotify called kind of making a golden path, to make it easy to do it the right way. And that works almost too well. Almost all the teams do almost everything the same way. So although we say there's no real guardrails on programming language, for instance, or stuff like that, people copy from each other and learn from each other, so it's quite unified how we do development. And we have a limited number of external services that are available to NAIS; we have Postgres and Kafka. And that means that Postgres and Kafka are basically the two most important architectural \[unintelligible 00:12:47.12\] That drives the technology development in a quite clear direction, I would say.
+\[12:00\] And we do log collection this way, and metrics this way, and alerts this way. It's quite unifying. We tried to do what Spotify called kind of making a golden path, to make it easy to do it the right way. And that works almost too well. Almost all the teams do almost everything the same way. So although we say there's no real guardrails on programming language, for instance, or stuff like that, people copy from each other and learn from each other, so it's quite unified how we do development. And we have a limited number of external services that are available to NAIS; we have Postgres and Kafka. And that means that Postgres and Kafka are basically the two most important architectural \[unintelligible 00:12:47.12\] That drives the technology development in a quite clear direction, I would say.
 
 So we have a quite consistent architecture, and I thought that almost the opposite would happen, because you can do whatever programming language you want. The organization is so big, and there's so many different problems to solve, I thought the diversity would almost be bigger. But it turns out it's quite unified, our architecture. And I think that's a good thing, although I'm always a bit scared of what that means. I don't want us to relax either, I want us to be able to see when there's new, interesting stuff happening that we need to use.
 
@@ -40,7 +40,7 @@ So we have a quite consistent architecture, and I thought that almost the opposi
 
 When I started to make applications platforms - I think it's 2014 - Mesos was the thing. So we used Mesos and Marathon. I can't even remember all the things we used, but it was kind of a completely different platform. And then we had the problems of -- they weren't really cooperating well. There was just a bunch of open source projects, and we had to spend a lot of time just updating everything and figuring out how to use them. And then, at that time, I think 0.8 or something Kubernetes was released, and someone in our team knew someone from Google and said, "Well, this is good." So we looked at it, and it did all the things good that the Mesos universe did badly. Everything was one big package. You just had to figure out how this worked, and then it solved everything. So after that, it feels like Kubernetes basically won that space. And then all the cloud vendors came running, or offered that as a service as well.
 
-\[00:15:56.28\] So I think the main -- there doesn't seem to be that many alternatives that are... As open source, you could go all the way to some kind of serverless thing, and then be more cloud-dependent, but I'm not sure I see that as a good move, at least not for organizations of our size.
+\[15:56\] So I think the main -- there doesn't seem to be that many alternatives that are... As open source, you could go all the way to some kind of serverless thing, and then be more cloud-dependent, but I'm not sure I see that as a good move, at least not for organizations of our size.
 
 **Gerhard Lazu:** Yeah, yeah. That's right. Okay. So I'm looking at NAIS.io and I see a lot of great components there. Grafana, InfluxDB, Linkerd... A few that I do not recognize. There's Kollide, OSquery, Unleash... How close are you to those components?
 
@@ -66,7 +66,7 @@ Whenever I -- at least when I was an application developer, whenever I didn't kn
 
 **Audun Fauchald Strand:** The reason for that name - at least my version of the history of the reason for that name - is that we didn't want the platform to own the data. Because traditionally, the data warehouse is a central team, and the data warehouse team owns both the platform and the data. But we wanted to do the same thing with NAIS, because NAIS doesn't own the applications running on them, and we wanted a data platform that's a platform; and the teams should own the data. The application teams should own the data. So basically, the Nada name is -- also, it's NAV Data, of course... But we wanted it to be clear that the platform is a platform, and the teams own the data.
 
-**Gerhard Lazu:** \[00:20:25.02\] Okay. That's a good one. So I know that's you run other services, other components, as you call them, which are not listed on the NAIS.io website. There is a tweet which I noticed three hours ago, very recent... "Do you know what's cool? Keeping your Kubernetes cluster secure. At NAV.no we use Kyverno to ensure no pod runs unchecked. And the question is, what is your best tip securing Kubernetes clusters? We want to hear." I'll put a link in the tweet. I mean, when this comes out, if you want to answer, it will be a few weeks later, but still, it will be around... What do you think about Kyverno, and how do you think about securing things? ...because this must be a very important topic, considering the data and the transactions, and what is happening in your applications.
+**Gerhard Lazu:** \[20:25\] Okay. That's a good one. So I know that's you run other services, other components, as you call them, which are not listed on the NAIS.io website. There is a tweet which I noticed three hours ago, very recent... "Do you know what's cool? Keeping your Kubernetes cluster secure. At NAV.no we use Kyverno to ensure no pod runs unchecked. And the question is, what is your best tip securing Kubernetes clusters? We want to hear." I'll put a link in the tweet. I mean, when this comes out, if you want to answer, it will be a few weeks later, but still, it will be around... What do you think about Kyverno, and how do you think about securing things? ...because this must be a very important topic, considering the data and the transactions, and what is happening in your applications.
 
 **Audun Fauchald Strand:** I would say, answering that question from more of a top-down perspective, first, I think the main thing with security... When you're making an application platform and you want to help the team secure your applications, it's really important to understand the needs of the developers, to make sure that any security feature you add is usable. Because in my experience, there's been loads of security people that are so into security that they make this principle that is almost impossible to adhere to.
 
@@ -76,7 +76,7 @@ For instance, we used service mesh before we used to have these network \[uninte
 
 So the teams - and it's a part of the configuration of the application, what applications can talk to you and what applications do you need to talk to. So instead of a central firewall, and some kind of person in the middle that always has too much to do, you make it a team's responsibility to configure this, and then everything works better.
 
-**Break:** \[00:23:18.14\]
+**Break:** \[23:18\]
 
 **Gerhard Lazu:** What about the data? How do you secure the stateful data that is persisted at REST, PostgreSQL for example, or anything else that you use for persistence? Flat files maybe, you have those as well... I don't know.
 
@@ -88,7 +88,7 @@ So the teams - and it's a part of the configuration of the application, what app
 
 **Gerhard Lazu:** That's interesting. It's great that using a platform that promotes open source, and has a very rich ecosystem - it allows you without too much investment to be able to go from one provider to another, from one solution to another, which by the way, there's the open source versions software you can try out, there's paid-for versions... So it's nice that you can switch between these things. How did that work out for you in practice? How did it work out for you going from Istio to Linkerd? Was that, would you say, a seamless migration or transition, or were there complications that you couldn't foresee?
 
-**Audun Fauchald Strand:** \[00:28:15.26\] First of all, I just wanted to say we blogged about that; there's a blog which I presume you can put in the show notes after... I wasn't the main part of that process, but as far as I can tell, it wasn't that difficult. It took some time, because you had to change something in all the applications... But we have a really good dev environment that we can do these things in. And as far as I remember, it was something you did in approximately one day, moving all the several hundred applications from one to another... But yeah.
+**Audun Fauchald Strand:** \[28:15\] First of all, I just wanted to say we blogged about that; there's a blog which I presume you can put in the show notes after... I wasn't the main part of that process, but as far as I can tell, it wasn't that difficult. It took some time, because you had to change something in all the applications... But we have a really good dev environment that we can do these things in. And as far as I remember, it was something you did in approximately one day, moving all the several hundred applications from one to another... But yeah.
 
 **Gerhard Lazu:** That's impressive.
 
@@ -110,7 +110,7 @@ So before we change subjects, there's something that I wanted to ask you since t
 
 **Audun Fauchald Strand:** Well, I used to be a Java developer. I had really identified as a Java developer... And a bit by chance, I got the role as a lead developer for the infrastructure and operations team at one company, and then I realized I could use all the experience I had as a frustrated backend developer to make applications platforms. And basically, I've been doing a lot of that since then, just figuring out, doing all the things I learned, or I couldn't do easily before, trying to make that possible.
 
-\[00:32:07.23\] And then for last few years, it's been more and more about making everything fit together, not just the application platform, but making the management understand what's important, and why making software is completely different from doing other things that the Norwegian government doesn't finance, for instance.
+\[32:07\] And then for last few years, it's been more and more about making everything fit together, not just the application platform, but making the management understand what's important, and why making software is completely different from doing other things that the Norwegian government doesn't finance, for instance.
 
 **Gerhard Lazu:** Yeah, yeah, that's right. So if you were to write an application today, would you still pick Java?
 
@@ -134,7 +134,7 @@ So before we change subjects, there's something that I wanted to ask you since t
 
 But that wasn't the most difficult thing that happened during the pandemic... Because of this order from the Prime Minister, we had a lot of -- and I think the English word here is "furloughed." We had a lot of workers in Norway - not at NAV, but in Norway, furloughed. And according to the rules of Norway, then you're supposed to get the benefit. I think normally there's around 1,000 of those applications a day, and now we have like several hundred thousand furloughed people in a week or so.
 
-\[00:35:57.13\] We were still early in our transformation, and so most of those applications would normally be handled by manual caseworkers. So our estimates was this is going to take a year, for the current systems to handle all of these applications before everybody gets their money. And people needed money.
+\[35:57\] We were still early in our transformation, and so most of those applications would normally be handled by manual caseworkers. So our estimates was this is going to take a year, for the current systems to handle all of these applications before everybody gets their money. And people needed money.
 
 So the government in Norway tried to make some alternative ways of handling this. So they had a list of 12 different things, I think, and me, and the team, and Truls, and others started working on one of them, where wanted to kind of have a... At the same time, we wanted to make the laws describing this benefit as basically an advance of the normal unemployment benefit. So we had to make the law, and then we had to make a system that implemented that law. And we had to do it really quickly.
 
@@ -170,7 +170,7 @@ So basically, you used the calculator as an API. So we kind of grabbed things fr
 
 **Audun Fauchald Strand:** Well, of course, when we built it, we said, "Well, this isn't going to last long", and I think we turned it off a few months ago.
 
-**Gerhard Lazu:** \[00:40:09.24\] Okay. It served its purpose. It served its purpose. Wow. Okay. Sometimes it's just like you have to make it work, and that's all the time that you have. So it's not like "We'll ship it next week." It's not an option. Especially if like the Prime Minister says, "Okay, a week from now those payments will start going out." You have to deliver. Wow, that's amazing. Do you imagine that being a success story, if you didn't have the platform that you had at the time? Can you imagine like making it work without it?
+**Gerhard Lazu:** \[40:09\] Okay. It served its purpose. It served its purpose. Wow. Okay. Sometimes it's just like you have to make it work, and that's all the time that you have. So it's not like "We'll ship it next week." It's not an option. Especially if like the Prime Minister says, "Okay, a week from now those payments will start going out." You have to deliver. Wow, that's amazing. Do you imagine that being a success story, if you didn't have the platform that you had at the time? Can you imagine like making it work without it?
 
 **Audun Fauchald Strand:** Not in that timeframe, and maybe not as secure, because we could probably make something like that to work quickly, but then we'd have to build even more stuff. And in that timeframe, the less you have to build, the better, because you're bound to make mistakes and cut corners and everything when you have to do things that quickly... So the more things you could use that are hardened, and works, the better. So I think the security part is probably what we got from using the platform.
 
@@ -202,7 +202,7 @@ So basically, you used the calculator as an API. So we kind of grabbed things fr
 
 **Audun Fauchald Strand:** Well, of course, we do divide it; so we have namespaces for each teams, and stuff. The question is probably "Do you want to have more separation?" But I find that it's easier to manage one cluster, although lately, we've been working more on making it possible to make more clusters, because we're experimenting with providing NAIS clusters to other governmental agencies as well in Norway. And to be able to do that, we have to mean automate, or making it more robust and more automated, the process of making new clusters, because we want different other companies to have their own clusters, and other setups.
 
-**Gerhard Lazu:** \[00:44:09.17\] One thing which I remember when we were using Kubernetes - again, the scale was very different, but upgrades sometimes wouldn't go as smoothly. And then what do you do? What do you do if you have a single cluster that you do an in-place upgrade, that doesn't go out too smoothly? You know, know some component doesn't interact well with other components... What do you do then? Did you have any such problems in the past?
+**Gerhard Lazu:** \[44:09\] One thing which I remember when we were using Kubernetes - again, the scale was very different, but upgrades sometimes wouldn't go as smoothly. And then what do you do? What do you do if you have a single cluster that you do an in-place upgrade, that doesn't go out too smoothly? You know, know some component doesn't interact well with other components... What do you do then? Did you have any such problems in the past?
 
 **Audun Fauchald Strand:** We had more problems -- or maybe not problems... It was more work when it was on-prem. But this, I think, is one of the good things of the managed service. Google does everything for us. So either we decide when to do it manually, which is probably for major upgrades; and for minor upgrades, it's just a maintenance window, and it kind of happens.
 
@@ -212,7 +212,7 @@ One of the reasons it's important for us to modernize the applications before we
 
 **Audun Fauchald Strand:** No different to a deployment, or whatever. So I think that's one of the -- again, the value for this, for our sake, is better applications. That's the core value of doing all of this.
 
-**Break:** \[00:45:51.16\]
+**Break:** \[45:51\]
 
 **Gerhard Lazu:** So you've been using GCP for a few years now... How was it like in practice to use them?
 
@@ -228,7 +228,7 @@ One of the reasons it's important for us to modernize the applications before we
 
 So I'm not really sure... We could probably get -- Kafka, for instance, we're buying from a different vendor; we're running it on GCP, but we're buying it from a company called Aiven, which is a Finnish company hosting open source databases. So yeah. That's really a problem, but we're quite conservative in the technologies we use, so I'm not really sure I can answer what I need, other than more open source... Well, Elastic, and Kafka, and everything. But Aiven gives us that.
 
-**Gerhard Lazu:** \[00:48:07.29\] I think that's a good strategy, right? The boring technology is what you would want to have, considering the stability that you require, right? You don't want to be on the cutting edge, you don't be trying things out; you want to go with a proven, tested, reliable software, that is open source preferably, so that if you want to or if you need to make a change, you can contribute that... And something that you can trust that will be around for the next 10-20 years, ideally, at least.
+**Gerhard Lazu:** \[48:07\] I think that's a good strategy, right? The boring technology is what you would want to have, considering the stability that you require, right? You don't want to be on the cutting edge, you don't be trying things out; you want to go with a proven, tested, reliable software, that is open source preferably, so that if you want to or if you need to make a change, you can contribute that... And something that you can trust that will be around for the next 10-20 years, ideally, at least.
 
 **Audun Fauchald Strand:** Yeah. Because we're no startup, and basically, we're not in a competitive marketplace. We're part of the nation. So we have systems, not running on NAIS, but mainframe systems that are 40 years old. I'm not necessarily sure that the code we write now will run for 40 years, but the problem we're solving is going to be needed to be solved for many, many decades to come. So it's better to spend some more time doing it properly now, than trying to redo everything every fifth year because we hurried when we started.
 
@@ -248,7 +248,7 @@ So I'm not really sure... We could probably get -- Kafka, for instance, we're bu
 
 **Audun Fauchald Strand:** Yeah, that's a really good question. \[laughs\] I had a really good summer holiday... The funniest thing in the world is to code. But then again, whenever I'm coding, I realize, at least most of the time, there's bigger problems that need to be solved to make it fun to code. I spend a lot of my time trying to fix the big problems, and then hoping at some point we can code again.
 
-\[00:52:06.18\] But of course, it's also important to code, so I try to -- or me and Truls and a few other people, we try to code a bit every week. And then the important thing is to find the things you can make that are important. That's valuable, but not important, because sometimes we haven't got the time to deliver... We can't promise when anything will be finished, but it's fun to make things that people like.
+\[52:06\] But of course, it's also important to code, so I try to -- or me and Truls and a few other people, we try to code a bit every week. And then the important thing is to find the things you can make that are important. That's valuable, but not important, because sometimes we haven't got the time to deliver... We can't promise when anything will be finished, but it's fun to make things that people like.
 
 So trying to find kind of the small things... Right now we are working on trying to take the application configuration in NAIS, the NAIS YAML file, which basically says "What applications do you need access to, and what applications have access to you, and what Kafka topics do you need to write the \[unintelligible 00:52:50.29\] to?" And take this information out of the cluster and make a visualization of all the applications and who talks to who. And that's fun, and I think it's going to be useful, but no one's asked for it, so no one no one can tell us we're late.
 
@@ -258,7 +258,7 @@ So trying to find kind of the small things... Right now we are working on trying
 
 **Gerhard Lazu:** Yeah, for sure. So talking about frameworks, I know that you mentioned security few times... I've seen a blog post about SLSA... Where do you stand on the whole supply chain security, the SLSA model, things like that?
 
-**Audun Fauchald Strand:** Well, I think at least for us it was an important next step. You're kind of building blocks from kind of the basic stuff, and then you go further up, and you realize there's always more problems to solve. When we open-source, and when we trust the teams as much as we do, it's important to make the systems that can basically prove that the trust we've given them was okay; that we can say, "Well, we can see that this happened from that team", and we know that this is okay.
+**Audun Fauchald Strand:** Well, I think at least for us it was an important next step. You're kind of building blocks from kind of the basic stuff, and then you go further up, and you realize there's always more problems to solve. When we open source, and when we trust the teams as much as we do, it's important to make the systems that can basically prove that the trust we've given them was okay; that we can say, "Well, we can see that this happened from that team", and we know that this is okay.
 
 For instance, when Log4Shell came, and although we've managed to get a handle on it, it was obvious that we could have responded even quicker by saying, "Well, what applications are affected by this?" and to automate that. This kind of feels like the next big thing, or the next thing, at least. One of the next things; there's always multiple things.
 
@@ -268,13 +268,13 @@ For instance, when Log4Shell came, and although we've managed to get a handle on
 
 I know the UK had something similar with go.uk. They had this platform-as-a-service, I think they had almost 30 different organizations running on this central platform...
 
-**Gerhard Lazu:** \[00:56:01.20\] Yes, that's right. Alpha Gov, I remember that. Yeah, I haven't checked it recently to see where they are at now, but I remember that. That was a very interesting model. I know that the US government was doing something similar, and that was a reference at the time. It was many years ago - five, six, maybe more. Okay. Was that by any chance an inspiration for NAV?
+**Gerhard Lazu:** \[56:01\] Yes, that's right. Alpha Gov, I remember that. Yeah, I haven't checked it recently to see where they are at now, but I remember that. That was a very interesting model. I know that the US government was doing something similar, and that was a reference at the time. It was many years ago - five, six, maybe more. Okay. Was that by any chance an inspiration for NAV?
 
 **Audun Fauchald Strand:** Well, it's something -- one thing we really learned from gov.uk was the open sourcing. I remember reading their principles on open sourcing from gob.uk, and basically... Well, we started to translate, and then realized we could just link to it, and say, "We agree totally with this."
 
 **Gerhard Lazu:** Yeah.
 
-**Audun Fauchald Strand:** And basically, because of that, we open-source almost all the code we write; not just the application platform, but everything we write at NAV, almost everything is open source, except for fraud detection, and some experiments with the laws that aren't finished yet... And of course, some security aspects, like passwords, and everything. Most of the code we write now is open source.
+**Audun Fauchald Strand:** And basically, because of that, we open source almost all the code we write; not just the application platform, but everything we write at NAV, almost everything is open source, except for fraud detection, and some experiments with the laws that aren't finished yet... And of course, some security aspects, like passwords, and everything. Most of the code we write now is open source.
 
 **Gerhard Lazu:** Do you find that other people contribute to that, or comment? What is the interaction with that open source code from the public?
 
