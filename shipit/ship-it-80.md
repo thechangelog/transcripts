@@ -48,7 +48,7 @@
 
 **Adam Stacoviak:** Should we dig into that a little bit? How would you do that then? What would be the experience for that? Because wouldn't branches be the most logical way to natively get -- you know, in the Git realm, not the GitHub realm... Separate your main branch, your master branch, or whatever, from other code. Just to give it its own lane, so to speak. How else would you group commits?
 
-**Gerhard Lazu:** \[00:06:13.00\] Well, if you could attach a commit with some metadata to a pull request, which is just a virtual object, and you're done, the pull request is finished, when maybe you flip a feature flag. And by flipping the feature flag, that feature is live. Everyone has access to it. But you keep shipping into production, you don't enable it for everyone, and when it feels like it's done, you're done. If there are still bugs - well, guess what? You can do follow-up commits, attach it to the same pull request, and it's still like the same logical grouping. I think that would make more sense.
+**Gerhard Lazu:** \[06:13\] Well, if you could attach a commit with some metadata to a pull request, which is just a virtual object, and you're done, the pull request is finished, when maybe you flip a feature flag. And by flipping the feature flag, that feature is live. Everyone has access to it. But you keep shipping into production, you don't enable it for everyone, and when it feels like it's done, you're done. If there are still bugs - well, guess what? You can do follow-up commits, attach it to the same pull request, and it's still like the same logical grouping. I think that would make more sense.
 
 **Adam Stacoviak:** But it still lives in the master and main branch, basically.
 
@@ -96,7 +96,7 @@
 
 So all that chapter-related stuff... I also did some kind of one-off things that I've been waiting to do. All of our Medium posts go to Scribe now, which is just a quality of life improvement for our readers when we link to Medium... Because Scribe is basically -- remember InstaPaper, where you would take a URL and then get the InstaPaper view? Now built into mini-browsers; Safari has the reader view... A lot of them have that... Scribe is kind of like that for Medium posts, where you can just take the post, direct it to Scribe instead, and it gives it a nice reading experience without all the Medium cruft that we don't like so much... Because - gosh, I hated linking to Medium because the reader experience sucks, in my opinion. But there was so much good content there that it was compelling. And I didn't wanna turn people away just because they're on Medium, but we used to a little bit; I'd email them and say "Hey, write this on your own domain and I'll link to it."
 
-\[00:10:18.00\] Now, this is a much better answer. If the context is good, we wanna be able to link to it, and now we have just a better reading experience. So that was one that I'd been waiting to do, and once chapters was done, I kind of had no excuse not to...
+\[10:18\] Now, this is a much better answer. If the context is good, we wanna be able to link to it, and now we have just a better reading experience. So that was one that I'd been waiting to do, and once chapters was done, I kind of had no excuse not to...
 
 Notably, we switched to -- or we didn't switch to, but we started to integrate the Open Podcast Prefix Project, OP3.dev. We had a whole show of our Backstage podcast talking to John Spurlock all about that project, and we told him at the end of that show "Yeah, we'll give it a shot. We'll send you our data." And so I did that pretty easy change, but hopefully a profound one... And then just a bunch of cleanup; things that we didn't need.
 
@@ -128,7 +128,7 @@ Now, he was asking whether he can get a Kaizen T-shirt, and at the time we didn'
 
 **Gerhard Lazu:** We have his email. We can spam him. Okay, so Pep, you'll be spammed...
 
-**Jerod Santo:** \[00:13:53.28\] This is the kind of spam you wanna get, you know?
+**Jerod Santo:** \[13:53\] This is the kind of spam you wanna get, you know?
 
 **Gerhard Lazu:** Oh, yes. That's amazing. Okay. Cool. Now, someone else that I wish we could send a Kaizen T-shirt to is Noah \[unintelligible 00:14:03.00\] He has two pull requests. Pull request 428, we got it merged, where Elixir was bumped from 1.13 to 1.14.
 
@@ -162,7 +162,7 @@ So to fix that, to improve that situation, I've configured a Docker engine on Fl
 
 So not only our CI is using it, we are using it too, but again, we have to be careful with that, because we can create issues if we share the same Docker engine. So that's something to improve further, for sure.
 
-**Jerod Santo:** \[00:17:50.08\] Well, it's a cool hack, and I will say, it's a better hack than the previous one, which was to run it from your shelf. You know, we're pretty open here, and open to criticism, open to ridicule... You know, our code has always been open, our infrastructure has always been open... We don't get easily embarrassed; that one is like darn near -- like, seriously, guys? You're running your production business websites and stuff with a --
+**Jerod Santo:** \[17:50\] Well, it's a cool hack, and I will say, it's a better hack than the previous one, which was to run it from your shelf. You know, we're pretty open here, and open to criticism, open to ridicule... You know, our code has always been open, our infrastructure has always been open... We don't get easily embarrassed; that one is like darn near -- like, seriously, guys? You're running your production business websites and stuff with a --
 
 **Gerhard Lazu:** Just a CI. It's okay. \[laughs\]
 
@@ -200,7 +200,7 @@ An even bigger improvement from Noah that is waiting to be reviewed and merged i
 
 **Jerod Santo:** Yeah.
 
-**Break:** \[00:22:00.28\]
+**Break:** \[22:00\]
 
 **Jerod Santo:** So I've been dabbling into our Spotify... This is a bit upstream from where we were, but... You know, Spotify has a lot of people who never discovered us before, so like, you wanna be there, you wanna be visible... You know, new people listening to your stuff is cool... So they have playlists inside of Spotify, and I've been over there creating certain playlists. Like, it'd be cool to have a Kaizen playlist in Spotify, but I don't wanna go into Spotify and create a Kaizen playlist, and manage it... It'd be cool -- this is never gonna happen, but a Spotify robot is what we need to basically mirror our topic feeds into different indexes... And then you could have -- for instance, our dev game shows is a manual playlist I created over there for our Frontend Feud episodes and our Go Panic episodes... And it exists over there because I go over there -- we do them infrequently enough that I go add them. I'm like "Here it is. It's dev game shows." Well, that should be a topic on our platform that then just gets syndicated into places, and then we'd be cooking with gas... A Kaizen feed on-site is awesome, but if that could be mirrored into Spotify...
 
@@ -226,7 +226,7 @@ An even bigger improvement from Noah that is waiting to be reviewed and merged i
 
 **Gerhard Lazu:** Pretty much. \[unintelligible 00:25:56.09\] \[laughter\] Well, by the way, you can also buy them. You know, this is a free one, just to make it clear... How many do we have on the store, Adam? What's our stock level like? Do we still have any left, by the way?
 
-**Adam Stacoviak:** \[00:26:09.20\] We do... It's not massive, but it's enough.
+**Adam Stacoviak:** \[26:09\] We do... It's not massive, but it's enough.
 
 **Gerhard Lazu:** Okay.
 
@@ -272,7 +272,7 @@ So I've actually been digging into my own dotfiles and automation and stuff like
 
 **Gerhard Lazu:** You know what - I'm going to add you as a reviewer on this pull request. See? Pull requests are really useful. Super-useful for stuff like this... To get people to look at it, try it out, see what works... Like have that conversation, which is around a specific issue.
 
-\[00:30:05.00\] To be honest, I would have liked this to be already in; I would have preferred that... Because if something is not right, that's okay; we can just iterate in the final place. We don't have to keep it on the side, because it's just the inventory.
+\[30:05\] To be honest, I would have liked this to be already in; I would have preferred that... Because if something is not right, that's okay; we can just iterate in the final place. We don't have to keep it on the side, because it's just the inventory.
 
 **Jerod Santo:** Yeah, we can merge it, and then if you find changes, follow up.
 
@@ -340,7 +340,7 @@ A question on the DCO... Is that in line with or similar to being verified, like
 
 **Adam Stacoviak:** Tell me if this is overboard... So the one thing I don't like about 1Password currently is that if you create the SSH key within it, it doesn't let you create a password, which I think is super-weird. I like creating pass phrases for mine, but the user experience makes you put it in all the time. But I like to generate a 100-character passphrase for my SSH key... Because who's ever gonna crack a 100-character passphrase? It's probably just impossible. But is that what you do, Gerhard? How do you deal with these little things like these? Do you passphrase every SSH key? Of course, right? That's the best security. Because if not, you only have the keys themselves to authenticate; if you don't have a passphrase, it's just -- pair them up.
 
-**Gerhard Lazu:** \[00:34:03.28\] So I used to have my YubiKey part with the whole SSH, and the YubiKey would use to generate the same passphrase... So my passphrase from my SSH keys used to be something that I knew, joined with what my YubiKey was generating.
+**Gerhard Lazu:** \[34:03\] So I used to have my YubiKey part with the whole SSH, and the YubiKey would use to generate the same passphrase... So my passphrase from my SSH keys used to be something that I knew, joined with what my YubiKey was generating.
 
 **Adam Stacoviak:** I see. So something memorable.
 
@@ -408,7 +408,7 @@ A question on the DCO... Is that in line with or similar to being verified, like
 
 **Gerhard Lazu:** Yeah. Let's share them post-show. But you definitely want -- because as you mentioned, if you upgrade your phone... If something goes wrong, your phone gets stolen, what do you do then?
 
-**Jerod Santo:** \[00:38:01.15\] Yeah, you're totally locked out. You don't regularly back up your UI Verify, do you, Adam? If you don't, you're gonna be in the same boat I'm in when I forgot to and upgraded. And I'm like "Dang it, there's all the serious things... I can't get into the most important things."
+**Jerod Santo:** \[38:01\] Yeah, you're totally locked out. You don't regularly back up your UI Verify, do you, Adam? If you don't, you're gonna be in the same boat I'm in when I forgot to and upgraded. And I'm like "Dang it, there's all the serious things... I can't get into the most important things."
 
 **Adam Stacoviak:** That's true. If I lost my phone and I wouldn't be able to move the data over... You know, I'll have to test that theory. But for me, my most recent phone upgrade, I just moved the data from one phone to the other. I didn't do it through the cloud, I went from phone to phone, waited three hours, was patient... Because I feel like that's the best way to get everything.
 
@@ -446,7 +446,7 @@ A question on the DCO... Is that in line with or similar to being verified, like
 
 **Gerhard Lazu:** ...the vaults would get corrupted. All the local vaults.
 
-**Adam Stacoviak:** \[00:41:59.20\] I think you're knocking on the door of an episode on Ship It with them, because I think -- I've got questions for them. If you wouldn't mind, I'd join you on that show, if you were open to a guest host, or whatever... Because I've got questions. There's some things around the SSH authentication stuff, I've got questions about improvements... I'm just curious about where they're going with it, because I think it's great how it is currently; but if there is improvement (Kaizen), then I'm just curious how we leverage it in our infrastructure, and then also individually as users.
+**Adam Stacoviak:** \[41:59\] I think you're knocking on the door of an episode on Ship It with them, because I think -- I've got questions for them. If you wouldn't mind, I'd join you on that show, if you were open to a guest host, or whatever... Because I've got questions. There's some things around the SSH authentication stuff, I've got questions about improvements... I'm just curious about where they're going with it, because I think it's great how it is currently; but if there is improvement (Kaizen), then I'm just curious how we leverage it in our infrastructure, and then also individually as users.
 
 **Gerhard Lazu:** I like it. Definitely. So that's coming up in PR form, and also in Ship It episode form.
 
@@ -466,7 +466,7 @@ A question on the DCO... Is that in line with or similar to being verified, like
 
 **Gerhard Lazu:** "What is SSH?"
 
-**Break:** \[00:42:52.16\]
+**Break:** \[42:52\]
 
 **Gerhard Lazu:** One thing which I haven't mentioned, and I wanted to; I was convinced that we'd start the episode with this - it was the GitHub discussion 433. A lot of things to be talked about, and other things are in that GitHub discussion. This is the first one of the kind. It's on our GitHub, and it contains all the links, all the references, all the comments for what we talked about in this episode.
 
@@ -482,7 +482,7 @@ Now, I must mention the diagram... But before I do so, does anyone want to menti
 
 **Gerhard Lazu:** Badges. That's it. Thank you. It's the badges that usually people put in readmes, on GitHub you see them in repositories... So that's a badge, and it's like of a certain style. It's like a traffic lights system, so it's red when it's work in progress, a Stop sort of thing; we are very heavily working on it. Orange - get ready; almost there. We're recording it, or we are very close to recording it. And green, once the episode ships. So that's what I'm thinking.
 
-**Adam Stacoviak:** \[00:48:18.14\] Isn't there labels in there and stuff like that too, though? Couldn't you do that with labels? Because that's like static in the --
+**Adam Stacoviak:** \[48:18\] Isn't there labels in there and stuff like that too, though? Couldn't you do that with labels? Because that's like static in the --
 
 **Gerhard Lazu:** Yeah, I could.
 
@@ -518,7 +518,7 @@ The text is complicated, man... How did you learn to write this? Or did somethin
 
 **Gerhard Lazu:** No. Nothing.
 
-**Adam Stacoviak:** \[00:52:15.20\] Well, if you consider your editor a GUI...
+**Adam Stacoviak:** \[52:15\] Well, if you consider your editor a GUI...
 
 **Gerhard Lazu:** So on one monitor I had Mermaid-js.github.io open, which is a reference for all things Mermaid. I had my flowchart open and I saw examples there... And on the other monitor I had Mermaid.live, which was split in half. The left-hand-side half was the diagram, which I was writing; the actual code, if you wish, the Mermaid DSL. And on the right-hand-side I could see a live representation of every single character press. It's really nice. So I had instant live preview.
 
@@ -560,7 +560,7 @@ Mermaid.live has some extra features. So if you copy our Mermaid from this discu
 
 **Gerhard Lazu:** Yeah, I think it disables autosync. So you need to enable autosync, which is the toggle just above the code...
 
-**Jerod Santo:** \[00:56:04.10\] I did.
+**Jerod Santo:** \[56:04\] I did.
 
 **Gerhard Lazu:** ...and then you refresh.
 
