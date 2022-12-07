@@ -36,7 +36,7 @@ I couldn't have dreamed in a million years that I would be on the keynote stage.
 
 **Mauricio Salatino:** Yeah, but the preparation and the presentation guide, the main change, at least in my head, was to realize that when you do a keynote, you do it for the entire audience of the conference... Which is not the same as when you're doing kind of like \[unintelligible 00:07:38.17\] where you can just target more the advanced, or the intermediate spectators. And in this case, it needed to be an encompassing, a very wide topic, covering from the high level, and for me that was definitely the challenge there. But we practiced a lot with Whitney, and I think that actually made a difference.
 
-**Gerhard Lazu:** \[00:07:59.10\] Nice. What was the feedback like after people watched your talk?
+**Gerhard Lazu:** \[07:59\] Nice. What was the feedback like after people watched your talk?
 
 **Whitney Lee:** I can't even tell you what talk came after us, because as soon as we got finished, we went straight backstage, and then we just both looked at our phones and scrolled through Twitter, and we were just like "Oh, my goodness..." I've never had such an experience of immediate feedback, and such positive feedback, and such warmth and happiness... It made my heart three times bigger.
 
@@ -64,7 +64,7 @@ The problem is that most of the time, having that maturity to make sure that you
 
 **Whitney Lee:** And then when you're trying to push to production, the question becomes too, like "Whose concern is that?" We're talking about the developer experience in terms of pushing to production, but that's not really what we want to developer or be concerned with at all. We want the developer to focus on application coding, push it to wherever, but they don't even need to think about that part, because it's someone else's job to get it the rest of the way to production.
 
-**Mauricio Salatino:** \[00:12:04.18\] And most of the time it's about bringing business value, right? So it's more like a business and company-related decision of when to release this stuff. I'm really happy to see more and more automation and tools around feature flagging for cloud-native applications. It's really nice to see standards popping up in that space, because that's going to give you -- you know, you can just keep deploying, but then enabling features as you go, and turning things off if they are not working correctly.
+**Mauricio Salatino:** \[12:04\] And most of the time it's about bringing business value, right? So it's more like a business and company-related decision of when to release this stuff. I'm really happy to see more and more automation and tools around feature flagging for cloud-native applications. It's really nice to see standards popping up in that space, because that's going to give you -- you know, you can just keep deploying, but then enabling features as you go, and turning things off if they are not working correctly.
 
 **Gerhard Lazu:** So if I was to ask you, Whitney, what does the ideal push to production look like, what does that look like to you?
 
@@ -92,7 +92,7 @@ So there's like the long game to consider... Production doesn't start and end wi
 
 **Whitney Lee:** \[laughs\] I mean, if you could find another way for them to get their sense of importance, and have some ownership over maybe doing that piece... But I suppose it depends on the individual. That's above my pay grade.
 
-**Mauricio Salatino:** \[00:16:04.04\] I think that you can also promise them back their weekends... Because if they have everything encoded and automated, they just don't need to work on weekends, when things will probably go wrong.
+**Mauricio Salatino:** \[16:04\] I think that you can also promise them back their weekends... Because if they have everything encoded and automated, they just don't need to work on weekends, when things will probably go wrong.
 
 **Gerhard Lazu:** Yeah, or they don't need to use the pager, by the way. If all of these things are resilient enough and everyone understands how it works, it's not your problem...
 
@@ -108,7 +108,7 @@ On top of that, of course, you can start building your more company-specific set
 
 **Mauricio Salatino:** In general, for startups, that's not one concern that they would have, because they need to get business value out; they need to build something fast. And for that, it's fine to pay that vendor lock-in. When you go a little bit bigger, when you start going, that's when you start thinking about this kind of concerns, and that's where Kubernetes becomes a good investment... Because you start breaking out of some of these lock-ins that you have if you jump in a cloud provider. But that's for a little bit larger companies, that I would say can invest a little bit more and have their own teams just to build and maintain that stuff.
 
-**Break:** \[00:18:29.00\]
+**Break:** \[18:29\]
 
 **Gerhard Lazu:** So when you're a small team, would you recommend starting with Kubernetes, or would you recommend elsewhere?
 
@@ -142,7 +142,7 @@ It's really also up to what kind of business... If you are in the software provi
 
 **Mauricio Salatino:** Yeah, I guess in our keynote we tried to show that experience, just trying to build that kind of experience, where developers should be focused on writing code, and for that we used Knative Functions, which basically allows you to quickly bootstrap a project using different programming languages, and then they provide the functionality to just deploy into a Kubernetes cluster without knowing anything about Kubernetes or writing dockerfiles to containerize the application, or Yaml files to do the deployments.
 
-\[00:24:00.27\] This is like a very small command line tool, but it's focused in this space of functions-as-a-service platforms, and I think that that's something that the more companies get more mature with the use of Kubernetes, they will start looking into these.
+\[24:00\] This is like a very small command line tool, but it's focused in this space of functions-as-a-service platforms, and I think that that's something that the more companies get more mature with the use of Kubernetes, they will start looking into these.
 
 We keep hearing companies that have a lot of developers that they need to provide these more high-level programming languages, so they can allow developers to focus on coding features, instead of creating Yaml files, and just figuring out how to containerize their applications.
 
@@ -174,7 +174,7 @@ I think that we tried to create a demo that people can run, because we see that 
 
 **Whitney Lee:** I think a spider is literally the opposite of a rainbow. I can't think of any characteristic they have in common. So I think in terms of just making a silly story where we have an important company that ships rainbow-as-a-service, they're staying on the cutting-edge of technology, and then the cutting-edge surprisingly is... Spiders. The rainbows connoisseurs - all of a sudden they wanna see spiders. Just to keep you on your toes.
 
-**Gerhard Lazu:** \[00:28:13.01\] For me, rainbows-as-a-service is Twitter.
+**Gerhard Lazu:** \[28:13\] For me, rainbows-as-a-service is Twitter.
 
 **Whitney Lee:** You said that before, yeah.
 
@@ -208,7 +208,7 @@ I think that we tried to create a demo that people can run, because we see that 
 
 Tekton has been around for a while, but it's a pipeline to help you automate pretty much whatever you want. So you define your tasks, and they run in a certain order, and it works with Kubernetes APIs.
 
-**Mauricio Salatino:** \[00:32:09.17\] And it also promotes that idea of sharing constructs, right? Like, the idea of enabling platform teams to say "I have my collection of things that we just reviewed, and we know that they work", so we can give developers these pipelines or these blocks that they can use. And I think that that's a pretty powerful message when you're talking about platforms and platform teams.
+**Mauricio Salatino:** \[32:09\] And it also promotes that idea of sharing constructs, right? Like, the idea of enabling platform teams to say "I have my collection of things that we just reviewed, and we know that they work", so we can give developers these pipelines or these blocks that they can use. And I think that that's a pretty powerful message when you're talking about platforms and platform teams.
 
 **Gerhard Lazu:** I'm wondering, is there something in the observability space, something that shows you what is actually happening in production in terms of SLOs, SLIs, anything that you would pick, or anything that you liked in your research?
 
@@ -238,7 +238,7 @@ Tekton has been around for a while, but it's a pipeline to help you automate pre
 
 **Gerhard Lazu:** That's very interesting... So there's something which I'm only just connecting now. What was the experience like for you, Whitney, coming into this industry, with all those nerds that assume that everyone knows what they're talking about? And you're like "No, hang on, hang on..." And the question, even though it may seem naive, there's a lot of importance to them, right? Because people make so many assumptions, and when you have this fresh pair of eyes perspective, it can be so Enlightning. So what was it like for you? What was your experience like, Whitney?
 
-**Whitney Lee:** \[00:36:10.16\] It was absolutely overwhelming to try to untangle even the basics. I remember first learning Kubernetes, and I didn't understand that a box and a VM and a machine are all the same thing; and a node... They all are the same thing, and they all just mean a computer. Like, why can't we just say computer? All the different words we use for one thing...
+**Whitney Lee:** \[36:10\] It was absolutely overwhelming to try to untangle even the basics. I remember first learning Kubernetes, and I didn't understand that a box and a VM and a machine are all the same thing; and a node... They all are the same thing, and they all just mean a computer. Like, why can't we just say computer? All the different words we use for one thing...
 
 Additionally, if you talk about manifest files, or configuration files, or definition files - like, they're also all the same thing, but we use these words interchangeably... And now it's almost like learning a whole new language. And now I speak the language, but I try to not -- like, on the show, if anyone ever says an acronym, even if it feels like a really obvious acronym to me at this point, I always take the time to say what it means. I do my best not to get so deep that I forget my roots and start to make those assumptions myself. But it's overwhelming to jump into this space, for sure.
 
@@ -278,7 +278,7 @@ Additionally, if you talk about manifest files, or configuration files, or defin
 
 **Gerhard Lazu:** The skydiving looked a lot of fun. A lot of fun.
 
-**Whitney Lee:** \[00:39:59.14\] It was very fun.
+**Whitney Lee:** \[39:59\] It was very fun.
 
 **Gerhard Lazu:** Mauricio, when are we doing skydiving? Because I want to do it, after seeing that short video...
 
@@ -318,7 +318,7 @@ Additionally, if you talk about manifest files, or configuration files, or defin
 
 **Gerhard Lazu:** Yeah, that's a good one.
 
-**Break:** \[00:43:32.08\]
+**Break:** \[43:32\]
 
 **Gerhard Lazu:** As I mentioned at the beginning, I was not able to join KubeCon North America this time, this edition... What was that like for you? What was the experience like? How was it different from other KubeCons, from other conferences?
 
@@ -346,7 +346,7 @@ The thing about the Cloud Native Buildpacks episode is Cloud Native Buildpacks a
 
 **Whitney Lee:** I'd choose Argo CD up at the top.
 
-**Gerhard Lazu:** \[00:48:08.12\] Okay, excellent. That will be the first one that I'll list in the show notes. Cool. Mauricio, we talked earlier this year about continuous delivery for Kubernetes, the book that you're writing, the Manning book that you're writing. How is that coming along?
+**Gerhard Lazu:** \[48:08\] Okay, excellent. That will be the first one that I'll list in the show notes. Cool. Mauricio, we talked earlier this year about continuous delivery for Kubernetes, the book that you're writing, the Manning book that you're writing. How is that coming along?
 
 **Mauricio Salatino:** That's coming along pretty well. I'm writing the last --
 
@@ -404,7 +404,7 @@ The thing about the Cloud Native Buildpacks episode is Cloud Native Buildpacks a
 
 **Whitney Lee:** Yeah. And I'll be talking about Knative Serving at that. I'll be doing a Knative Serving talk with no slides. So I'll switch back and forth from diagramming how it works, to going to the terminal and actually deploying an application and showing the experience.
 
-**Gerhard Lazu:** \[00:52:06.24\] What about you, Mauricio? I know that you have so many things you don't even remember them, right? You have to check your calendar. So hopefully, we've given you enough time to do that... What's coming up?
+**Gerhard Lazu:** \[52:06\] What about you, Mauricio? I know that you have so many things you don't even remember them, right? You have to check your calendar. So hopefully, we've given you enough time to do that... What's coming up?
 
 **Mauricio Salatino:** No, no, 100%... I'm really hyped, because I'm going to do a KubeDay Japan, in Tokyo, on the 7th of December.
 
@@ -446,7 +446,7 @@ The thing about the Cloud Native Buildpacks episode is Cloud Native Buildpacks a
 
 **Mauricio Salatino:** Yeah, so it was pretty wild... So you know that I'm always like submitting proposals for different conferences, and there's this conference that I've been doing for the last eight years or something, which is JBCNonf in Barcelona. I have my parents living in Barcelona, so for me that conference is a good excuse to go to Barcelona, and also to meet with the Java space there in Barcelona. Because they started in the early 2010s with the conference, they have been growing a lot, and they have been building a lot of expertise about building these events, and creating a community, which is really nice. I've seen kind of like that progression, so it's always good to go and sync back with them, and see what they're up to.
 
-\[00:56:21.24\] So I was about to submit my presentation, my Knative presentation, I started working with the Knative project, I made some contributions, and I had some very interesting topic to discuss there... So I was about to submit my proposal when I noticed that there was someone already talking about Knative, and that was Whitney, who had submitted a presentation to the conference. And I said, you know, okay, where does she work? She worked for the same company that I was working for. So I said "Okay, let's go to Slack and reach out" and say, "Hey, let's collaborate in the future, because we are talking about the same things, so we should be doing things together." And that's when I reached out via Slack, and said hi, and introduced myself, and we started talking because it actually made a lot of sense to start collaborating. And at that point, I think that I received the invitation for Enlightning, because you were starting with that, and you were looking for new speakers on people to cover different topics.
+\[56:21\] So I was about to submit my presentation, my Knative presentation, I started working with the Knative project, I made some contributions, and I had some very interesting topic to discuss there... So I was about to submit my proposal when I noticed that there was someone already talking about Knative, and that was Whitney, who had submitted a presentation to the conference. And I said, you know, okay, where does she work? She worked for the same company that I was working for. So I said "Okay, let's go to Slack and reach out" and say, "Hey, let's collaborate in the future, because we are talking about the same things, so we should be doing things together." And that's when I reached out via Slack, and said hi, and introduced myself, and we started talking because it actually made a lot of sense to start collaborating. And at that point, I think that I received the invitation for Enlightning, because you were starting with that, and you were looking for new speakers on people to cover different topics.
 
 **Whitney Lee:** It was great. He reached out to me, and to him, I was like -- yeah, some person at his company talking about a technology he's a maintainer on. And he's like, "Who the heck is this person?" But I didn't even realize -- I was so green, I didn't even realize how much I was putting myself out there, or representing the company, or like needing to interact with the community as part of being in the public eye.
 
