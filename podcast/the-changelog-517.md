@@ -1,4 +1,4 @@
-**Jerod Santo:** We're here to talk about server side Web Assembly, right?
+**Jerod Santo:** We're here to talk about server side WebAssembly, right?
 
 **Shivay Lamba:** Yes, yes.
 
@@ -10,53 +10,53 @@
 
 **Adam Stacoviak:** It's right there.
 
-**Jerod Santo:** So much so that I don't really understand it. \[laughter\] So inform us, school us, first of all why, but then - I think the how for me is also confusing. So yeah, why Web Assembly on the server?
+**Jerod Santo:** So much so that I don't really understand it. \[laughter\] So inform us, school us, first of all why, but then - I think the how for me is also confusing. So yeah, why WebAssembly on the server?
 
-**Shivay Lamba:** So let's kind of go back and explain very briefly what Web Assembly is. So Web Assembly is this bytecode, and it's a compilation target for a lot of the various powerful languages like Rust, C++. So it started as a browser technology, to kind of \[unintelligible 00:04:28.06\] some of the issues that come with JavaScript...
+**Shivay Lamba:** So let's kind of go back and explain very briefly what WebAssembly is. So WebAssembly is this bytecode, and it's a compilation target for a lot of the various powerful languages like Rust, C++. So it started as a browser technology, to kind of \[unintelligible 00:04:28.06\] some of the issues that come with JavaScript...
 
 **Jerod Santo:** Right.
 
-**Shivay Lamba:** ...and because of the performance \[unintelligible 00:04:32.03\] of JavaScript, you could run other programming languages directly on the browser, with the help of Web Assembly, because browsers natively only support JavaScript. So you could compile other programming languages and functions in those languages, like C++ or Rust, and do these Web Assembly bytecodes... And you can run these Web Assembly bytecodes with JavaScript, to be able to run some more highly-performant functions.
+**Shivay Lamba:** ...and because of the performance \[unintelligible 00:04:32.03\] of JavaScript, you could run other programming languages directly on the browser, with the help of WebAssembly, because browsers natively only support JavaScript. So you could compile other programming languages and functions in those languages, like C++ or Rust, and do these WebAssembly bytecodes... And you can run these WebAssembly bytecodes with JavaScript, to be able to run some more highly-performant functions.
 
-But we saw that the uses of Web Assembly was not just limited to the browser, and we saw that because of some of the benefits that come with Web Assembly, and - those are primarily three of them. The first one is the portability. Web Assembly bytecodes are very small in nature; they have a very small blueprint, and very small size.
+But we saw that the uses of WebAssembly was not just limited to the browser, and we saw that because of some of the benefits that come with WebAssembly, and - those are primarily three of them. The first one is the portability. WebAssembly bytecodes are very small in nature; they have a very small blueprint, and very small size.
 
-Now, the second one is the security sandbox model of Web Assembly. What that means is that the Web Assembly itself, the \[unintelligible 00:05:18.03\] bytecode cannot do anything on its own. So it's very -- I mean, it's not susceptible to attacks from viruses, or some third-party attacks. You use some other technologies such as WASI, which is Web Assembly System Interface, to be able to make API calls or interact with (let's say) the file system.
+Now, the second one is the security sandbox model of WebAssembly. What that means is that the WebAssembly itself, the \[unintelligible 00:05:18.03\] bytecode cannot do anything on its own. So it's very -- I mean, it's not susceptible to attacks from viruses, or some third-party attacks. You use some other technologies such as WASI, which is WebAssembly System Interface, to be able to make API calls or interact with (let's say) the file system.
 
-So it's a very secure sandbox model that is followed within Web Assembly. And these are primarily the biggest reasons why Web Assembly 3 is also being used on the server side.
+So it's a very secure sandbox model that is followed within WebAssembly. And these are primarily the biggest reasons why WebAssembly 3 is also being used on the server side.
 
-One of the biggest areas where you see it being used is with the help of containers. If you take a look at the standard Linux containers, the Linux containers are usually very big in size, so they are large, and they also have a very large boot-up time. So if you are willing to spin up a container, it will take a lot of time to spin up. But Web Assembly containers, on the other hand, are much more smaller, and they spin up a lot more faster. So anywhere from 10x to 100x in terms of being smaller in size, and also in terms of the boot time.
+One of the biggest areas where you see it being used is with the help of containers. If you take a look at the standard Linux containers, the Linux containers are usually very big in size, so they are large, and they also have a very large boot-up time. So if you are willing to spin up a container, it will take a lot of time to spin up. But WebAssembly containers, on the other hand, are much more smaller, and they spin up a lot more faster. So anywhere from 10x to 100x in terms of being smaller in size, and also in terms of the boot time.
 
-So if you're having a lot of applications on the edge, on the server side, that are mainly resource-constrained, you're able to run these applications very quickly with the help of a Web Assembly container.
+So if you're having a lot of applications on the edge, on the server side, that are mainly resource-constrained, you're able to run these applications very quickly with the help of a WebAssembly container.
 
-So these are some of the biggest reasons why we're seeing now Web Assembly not just on the browser side, but also picking up a lot on the server side.
+So these are some of the biggest reasons why we're seeing now WebAssembly not just on the browser side, but also picking up a lot on the server side.
 
-**Jerod Santo:** Okay, so what technology is underneath the Web Assembly? Do you still need V8, or something? How is it running inside of the Linux operating system, or whatever it's running on?
+**Jerod Santo:** Okay, so what technology is underneath the WebAssembly? Do you still need V8, or something? How is it running inside of the Linux operating system, or whatever it's running on?
 
-**Shivay Lamba:** Yeah. So the best part about Web Assembly is that there's no underlying technology as such.
+**Shivay Lamba:** Yeah. So the best part about WebAssembly is that there's no underlying technology as such.
 
 **Jerod Santo:** There's none.
 
-**Shivay Lamba:** So Web Assembly itself is a dedicated technology in itself.
+**Shivay Lamba:** So WebAssembly itself is a dedicated technology in itself.
 
 **Jerod Santo:** Okay...
 
-**Shivay Lamba:** So the idea is that the bytecode that we generate, the Web Assembly bytecode - that is independent. It is portable. That means that it's not dependent on a particular system. So the same bytecode, you could technically run it on a Linux system, or you could run it on the browser. So the bytecode itself is independent.
+**Shivay Lamba:** So the idea is that the bytecode that we generate, the WebAssembly bytecode - that is independent. It is portable. That means that it's not dependent on a particular system. So the same bytecode, you could technically run it on a Linux system, or you could run it on the browser. So the bytecode itself is independent.
 
-Now, of course, it's a compilation target... So you take a particular function and you compile it. And again, it's a polyglot environment. That means you could use either \[unintelligible 00:07:34.14\] or even your scripting languages, like PHP, JavaScript, Python to basically compile it into the Web Assembly bytecode.
+Now, of course, it's a compilation target... So you take a particular function and you compile it. And again, it's a polyglot environment. That means you could use either \[unintelligible 00:07:34.14\] or even your scripting languages, like PHP, JavaScript, Python to basically compile it into the WebAssembly bytecode.
 
-**Jerod Santo:** Weren't the initial implementations though inside of browsers? I think the browser vendors were the first ones to basically implement Web Assembly bytecode execution inside of their browsers.
+**Jerod Santo:** Weren't the initial implementations though inside of browsers? I think the browser vendors were the first ones to basically implement WebAssembly bytecode execution inside of their browsers.
 
 **Shivay Lamba:** Yeah.
 
 **Jerod Santo:** So then was there like an effort outside of the browsers to bring it to Linux or something, or how did that work?
 
-**Shivay Lamba:** \[00:08:03.25\] Yeah. So just to kind of recap on the entire history, and I'll be very brief in that... So Web Assembly standards basically started with Assembly.js. So there's an alliance called the Bytecode Alliance, which basically started with Assembly.js, and this is primarily, again, focused on bringing some of the capabilities that you find with Assembly language, and being able to port that over to the JavaScript landscape.
+**Shivay Lamba:** \[08:03\] Yeah. So just to kind of recap on the entire history, and I'll be very brief in that... So WebAssembly standards basically started with Assembly.js. So there's an alliance called the Bytecode Alliance, which basically started with Assembly.js, and this is primarily, again, focused on bringing some of the capabilities that you find with Assembly language, and being able to port that over to the JavaScript landscape.
 
 But the Assembly focus, or people who are working on Assembly.js, they wanted to work on maintaining Assembly.js, but also ensure that it met with the W3C standards, with the standard web standards.
 
 **Jerod Santo:** Okay.
 
-**Shivay Lamba:** So that kind of led to the growth of Web Assembly as a tool. And there's of course a funny story why the name was kept as Web Assembly... Generally, it's not limited to web, or like the Web Assembly itself format is not very similar to Assembly.
+**Shivay Lamba:** So that kind of led to the growth of WebAssembly as a tool. And there's of course a funny story why the name was kept as WebAssembly... Generally, it's not limited to web, or like the WebAssembly itself format is not very similar to Assembly.
 
 **Jerod Santo:** It's neither web, nor Assembly.
 
@@ -70,27 +70,27 @@ But the Assembly focus, or people who are working on Assembly.js, they wanted to
 
 **Shivay Lamba:** Yes, exactly.
 
-**Jerod Santo:** Right. Because then like "What's WASM mean?" You're like "Well, it's short for Web Assembly." \[laughs\]
+**Jerod Santo:** Right. Because then like "What's WASM mean?" You're like "Well, it's short for WebAssembly." \[laughs\]
 
-**Shivay Lamba:** Because I think that's the number one preconceived notion that people carry with Web Assembly, is that it's related to web. So I was just last week at KubeCon, which is one of the largest developer conferences for Kubernetes and cloud-native technologies. And I would just say that Web Assembly was the central talking point in every conversation that I went. There were a number of companies that are today working on Web Assembly, and specifically server side Web Assembly. So I also gave a couple of talks on Web Assembly at KubeCon, and also over here at All Things Open.
+**Shivay Lamba:** Because I think that's the number one preconceived notion that people carry with WebAssembly, is that it's related to web. So I was just last week at KubeCon, which is one of the largest developer conferences for Kubernetes and cloud-native technologies. And I would just say that WebAssembly was the central talking point in every conversation that I went. There were a number of companies that are today working on WebAssembly, and specifically server side WebAssembly. So I also gave a couple of talks on WebAssembly at KubeCon, and also over here at All Things Open.
 
 **Jerod Santo:** Okay.
 
-**Shivay Lamba:** And it's just there. It's growing. You're having uses of Web Assembly, server side Web Assembly in running databases, it's being used to run within Kubernetes, it's also running alongside Docker containers... Docker recently just announced their partnership of being able to run Docker with Web Assembly... So all of this is just showing that people are really appreciating and adopting Web Assembly in their day-to-day usage within the server side.
+**Shivay Lamba:** And it's just there. It's growing. You're having uses of WebAssembly, server side WebAssembly in running databases, it's being used to run within Kubernetes, it's also running alongside Docker containers... Docker recently just announced their partnership of being able to run Docker with WebAssembly... So all of this is just showing that people are really appreciating and adopting WebAssembly in their day-to-day usage within the server side.
 
 **Jerod Santo:** Okay. It's portable, it's secure, and it's fast; boot time fast.
 
 **Shivay Lamba:** Yes.
 
-**Jerod Santo:** So those are obviously huge advantages... Where would it fit in, or where would you say a use case of server side Web Assembly, or even with Docker -- like, what would a Docker-powered WASM thing look like?
+**Jerod Santo:** So those are obviously huge advantages... Where would it fit in, or where would you say a use case of server side WebAssembly, or even with Docker -- like, what would a Docker-powered WASM thing look like?
 
-**Shivay Lamba:** That's a really great question. Primarily, you could think of it in this way... Let's say if you are working with an IoT device - the IoT device will have very limited storage, and very limited compute power. Now, if you were to run a standard Docker container on that environment, again, as I mentioned, Docker containers will have a very long load time; they will spin up in a very long time. And what you want is a small blueprint, like for your runtime to be small... So that's where you could basically use a Web Assembly container. This Web Assembly container will be small, it will be fast to boot, and you could do your main inference - for example, it could be machine learning inference, or any type of inference, on the actual Web Assembly container... Whereas your standard Docker containers would still be able to handle anything related to your standard input/output, for example file management, or anything that you want. So all the network capabilities could still be managed with the help of your Docker containers.
+**Shivay Lamba:** That's a really great question. Primarily, you could think of it in this way... Let's say if you are working with an IoT device - the IoT device will have very limited storage, and very limited compute power. Now, if you were to run a standard Docker container on that environment, again, as I mentioned, Docker containers will have a very long load time; they will spin up in a very long time. And what you want is a small blueprint, like for your runtime to be small... So that's where you could basically use a WebAssembly container. This WebAssembly container will be small, it will be fast to boot, and you could do your main inference - for example, it could be machine learning inference, or any type of inference, on the actual WebAssembly container... Whereas your standard Docker containers would still be able to handle anything related to your standard input/output, for example file management, or anything that you want. So all the network capabilities could still be managed with the help of your Docker containers.
 
-So \[unintelligible 00:11:43.23\] looking at is that you're not -- basically, the idea is that you're not replacing your Docker containers with Web Assembly, but they are meant to basically run side by side.
+So \[unintelligible 00:11:43.23\] looking at is that you're not -- basically, the idea is that you're not replacing your Docker containers with WebAssembly, but they are meant to basically run side by side.
 
 **Jerod Santo:** Interact with each other.
 
-**Shivay Lamba:** \[00:11:56.10\] Yeah. Where they basically help and work well together with each other. Your fast boot times, especially for running specific functions, are being handled with Web Assembly, and your Docker containers are doing all the standard operations that you'll typically have in such kind of a system.
+**Shivay Lamba:** \[11:56\] Yeah. Where they basically help and work well together with each other. Your fast boot times, especially for running specific functions, are being handled with WebAssembly, and your Docker containers are doing all the standard operations that you'll typically have in such kind of a system.
 
 **Jerod Santo:** Yeah. So we see a lot of people talking about this in the edge compute space... We know Vercel is talking about it, we know that Deno, for example - you know, Ryan Dahl has written about... I can't remember what his post was, but it was basically like web containers, or something; it was the same concept. So that's an obvious place, where the fast boot time is very important for them...
 
@@ -102,49 +102,49 @@ So \[unintelligible 00:11:43.23\] looking at is that you're not -- basically, th
 
 **Jerod Santo:** So they're getting gains there...
 
-**Shivay Lamba:** Yeah. And one of the examples that you mentioned was recently announced, Vercel Edge Functions, which again, use the Vercel Edge Runtime. And that's mainly powered by V8 and Web Assembly. And again, the main idea is the small blueprint of Web Assembly.
+**Shivay Lamba:** Yeah. And one of the examples that you mentioned was recently announced, Vercel Edge Functions, which again, use the Vercel Edge Runtime. And that's mainly powered by V8 and WebAssembly. And again, the main idea is the small blueprint of WebAssembly.
 
 One of the other areas that we also see, especially on the serverless function side, is that typically if you're having, let's say, a serverless function, you might use AWS Lambda, Netlify Functions, or even Vercel Functions; there typically you'll have your programming languages like Python or JavaScript that you're writing your serverless functions in.
 
 **Jerod Santo:** Yeah.
 
-**Shivay Lamba:** But if you're writing your functions in Web Assembly, again, one of the biggest benefits that you get is the portability. You're not dependent on a particular environment's dependencies that will make your serverless functions have to change based on their dependencies. Very similar to how the VMs and container concept came into the picture.
+**Shivay Lamba:** But if you're writing your functions in WebAssembly, again, one of the biggest benefits that you get is the portability. You're not dependent on a particular environment's dependencies that will make your serverless functions have to change based on their dependencies. Very similar to how the VMs and container concept came into the picture.
 
-So that's where Web Assembly's serverless functions will also play a role. And of course, you get the other benefit of the Web Assembly security sandbox model, that helps you to secure these functions.
+So that's where WebAssembly's serverless functions will also play a role. And of course, you get the other benefit of the WebAssembly security sandbox model, that helps you to secure these functions.
 
-So you just create one function, and you can deploy it anywhere that you want. And that's how the Vercel Edge Functions also work - you have these edge locations, and whichever is closest to your area, dynamically, those Edge functions will spin up in that particular area, whichever is nearest to you. And you are using the power of Web Assembly to do that compute quickly.
+So you just create one function, and you can deploy it anywhere that you want. And that's how the Vercel Edge Functions also work - you have these edge locations, and whichever is closest to your area, dynamically, those Edge functions will spin up in that particular area, whichever is nearest to you. And you are using the power of WebAssembly to do that compute quickly.
 
 **Jerod Santo:** Yeah. It's super-fascinating that this technology that began in the web browser might actually be more relevant outside of it. Like I said, this is the beginning of this phase; huge excitement at KubeCon, so the builders are starting to build things... We'll see downstream applications here coming up; Vercel Edge Functions is a good example.
 
-Web Assembly in the browser though - has it ever really delivered on those promises? You know, Figma really knocked it out of the park...
+WebAssembly in the browser though - has it ever really delivered on those promises? You know, Figma really knocked it out of the park...
 
 **Shivay Lamba:** Definitely.
 
-**Jerod Santo:** ...but where was the Figma-inspired followers of that technology? It seemed like Figma was kind of a standalone of like "Here's a really rich -- you know, the Holy Grail of a Photoshop-esque thing in the browser, that works really well...", and they did it with Web Assembly, right? And then like -- what else was going on in the Web Assembly space in the browser? Cool stuff?
+**Jerod Santo:** ...but where was the Figma-inspired followers of that technology? It seemed like Figma was kind of a standalone of like "Here's a really rich -- you know, the Holy Grail of a Photoshop-esque thing in the browser, that works really well...", and they did it with WebAssembly, right? And then like -- what else was going on in the WebAssembly space in the browser? Cool stuff?
 
 **Shivay Lamba:** A lot of cool stuff. Actually, one of the talks that I gave at ATO was also around TensorFlow JS, which is a machine learning library for the web. And one of the great ways that you can actually use TensorFlow JS is doing the machine learning inference on the web browser.
 
-There are a number of different backends that are supported, and what I mean by these backends is not like \[unintelligible 00:15:12.07\] but what you can use is things like WebGL, and Web Assembly itself. So TensorFlow JS has a Web Assembly support, so what you can use is - if you use the Web Assembly backend, you could use the CPU or the GPU resources of your own system, and do those machine learning inferences much more quicker in the web browser.
+There are a number of different backends that are supported, and what I mean by these backends is not like \[unintelligible 00:15:12.07\] but what you can use is things like WebGL, and WebAssembly itself. So TensorFlow JS has a WebAssembly support, so what you can use is - if you use the WebAssembly backend, you could use the CPU or the GPU resources of your own system, and do those machine learning inferences much more quicker in the web browser.
 
-So that's probably the biggest areas where Web Assembly on the browser side is being used. Apart from that, there are a number of different companies, like Adobe, which uses it on the Photoshop on the web browser Microsoft Flight Simulator... And then there are a bunch of online video editors that use Web Assembly for doing very quick rendering of the videos.
+So that's probably the biggest areas where WebAssembly on the browser side is being used. Apart from that, there are a number of different companies, like Adobe, which uses it on the Photoshop on the web browser Microsoft Flight Simulator... And then there are a bunch of online video editors that use WebAssembly for doing very quick rendering of the videos.
 
-\[00:15:57.07\] So those are just some of the examples... But one thing that I like to touch upon is... So the CNCF, which is the Cloud Native Computing Foundation - they conducted a micro-survey a few months back on the state of Web Assembly. And to be honest, the results just came out just before KubeCon. And you could say that in terms of the percentage of the usage of Web Assembly inside the browser and outside the browser, today more people are using Web Assembly outside the browser than inside the browser.
+\[15:57\] So those are just some of the examples... But one thing that I like to touch upon is... So the CNCF, which is the Cloud Native Computing Foundation - they conducted a micro-survey a few months back on the state of WebAssembly. And to be honest, the results just came out just before KubeCon. And you could say that in terms of the percentage of the usage of WebAssembly inside the browser and outside the browser, today more people are using WebAssembly outside the browser than inside the browser.
 
-I'm not entirely sure if the exact metrics... Again, you can probably go and check out the CNCF Web Assembly forum, and you'll be able to find those metrics. But it's definitely true that Web Assembly has grown a lot more than just being a web technology, and now as a full-stack technology probably... Because you see it across various spectrums, not just like frontend, backend, and even databases.
+I'm not entirely sure if the exact metrics... Again, you can probably go and check out the CNCF WebAssembly forum, and you'll be able to find those metrics. But it's definitely true that WebAssembly has grown a lot more than just being a web technology, and now as a full-stack technology probably... Because you see it across various spectrums, not just like frontend, backend, and even databases.
 
 **Jerod Santo:** Very cool stuff. Well, where can people go to learn more?
 
-**Shivay Lamba:** Okay, so there are a bunch of different links that I'd like to share. So the first one is definitely visit the WASM.io. That's kind of the landing page for everything if you want to get started with Web Assembly. Then we have the Bytecode Alliance, which is primarily the governing body that determines and comes up with new proposals for Web Assembly. So if you can, join the weekly meetings that go on there.
+**Shivay Lamba:** Okay, so there are a bunch of different links that I'd like to share. So the first one is definitely visit the WASM.io. That's kind of the landing page for everything if you want to get started with WebAssembly. Then we have the Bytecode Alliance, which is primarily the governing body that determines and comes up with new proposals for WebAssembly. So if you can, join the weekly meetings that go on there.
 
-Now, specifically if you're looking to get into the Web Assembly on the server side, on the cloud native side, there are a number of channels in the CNCF Slack, which is the Cloud Native Computing Foundation's Slack. So if you are more interested on the server side and on the cloud-native side, then you can definitely join those.
+Now, specifically if you're looking to get into the WebAssembly on the server side, on the cloud native side, there are a number of channels in the CNCF Slack, which is the Cloud Native Computing Foundation's Slack. So if you are more interested on the server side and on the cloud-native side, then you can definitely join those.
 
-And apart from that, there are a number of different \[unintelligible 00:17:39.29\] courses that are free of cost, that you can definitely take a look at in order to understand what exactly is Web Assembly.
+And apart from that, there are a number of different \[unintelligible 00:17:39.29\] courses that are free of cost, that you can definitely take a look at in order to understand what exactly is WebAssembly.
 
-I think one of the biggest developer experience issues that people usually find is they don't understand the Web Assembly format. So again, you'll find it very similar to Assembly language, but the thing is that you don't have to write the code in Web Assembly format. It's mainly served as a compilation target. So that means - just know the basics of how Assembly language works, internally how operating systems work. If you have that decent amount of knowledge about those, then you'll be able to capture the essence of how Web Assembly basically works a lot better.
+I think one of the biggest developer experience issues that people usually find is they don't understand the WebAssembly format. So again, you'll find it very similar to Assembly language, but the thing is that you don't have to write the code in WebAssembly format. It's mainly served as a compilation target. So that means - just know the basics of how Assembly language works, internally how operating systems work. If you have that decent amount of knowledge about those, then you'll be able to capture the essence of how WebAssembly basically works a lot better.
 
-So I definitely recommend to have at least basic knowledge about these concepts before getting started with Web Assembly.
+So I definitely recommend to have at least basic knowledge about these concepts before getting started with WebAssembly.
 
-**Break:** \[00:18:27.14\]
+**Break:** \[18:27\]
 
 **Jerod Santo:** Alright, we've got Yishai Beeri here from LinearB. And Dev Interrupted...
 
@@ -200,7 +200,7 @@ So I definitely recommend to have at least basic knowledge about these concepts 
 
 So it's like a rule file that you put in the repo, some GitHub Actions on top of that to automate the work... And then you stop doing the reviews that you should not be doing, and you have time to focus on the reviews that matter.
 
-**Adam Stacoviak:** \[00:24:10.07\] Well, that's the question... What's the point of a code review?
+**Adam Stacoviak:** \[24:10\] Well, that's the question... What's the point of a code review?
 
 **Yishai Beeri:** There's... Yeah, keeping with --
 
@@ -236,7 +236,7 @@ We have a team that's using this to -- if a developer is using a deprecated API 
 
 **Yishai Beeri:** So we look at code reviews, there's like two types of problems. One is the queuing, and waiting on humans, waiting on a process, which we solve for directly... And typically, developers move on to other code, open another branch and do another feature, or another bug... So they're not blocked, but their work is blocked.
 
-\[00:28:11.09\] This PR that I just opened may need to wait for a few days; I can still move on with other stuff, but my work is now delayed, and I'm not learning, and there is a context switch which is going to be expensive. If I get the review back in three days - oh, my mind is already elsewhere. I need to reload all that. So that is something we solve for directly.
+\[28:11\] This PR that I just opened may need to wait for a few days; I can still move on with other stuff, but my work is now delayed, and I'm not learning, and there is a context switch which is going to be expensive. If I get the review back in three days - oh, my mind is already elsewhere. I need to reload all that. So that is something we solve for directly.
 
 The other kind of problem is those accumulated merge conflicts... So all these solutions around stacking those, like merge queues, now GitHub is playing in that area as well... So that's not something we solve for directly. This is more on managing the order in which things get merged, and the complexity of merging multiple changes. We're more focused on the human problem, not the technical, like diff problem.
 
@@ -294,7 +294,7 @@ The other kind of problem is those accumulated merge conflicts... So all these s
 
 **Adam Stacoviak:** "You're out of here!" \[laughter\]
 
-**Yishai Beeri:** \[00:31:57.00\] Once you have humans involved, there's also a lot of smart automation or semi-automation that you can do. "I found you the best reviewer based on the code changes, and I assigned a PR to that person." What if they're not responding quick enough, or they're out? Maybe they're on vacation a couple days. So today, as the PR owner, you have to manage and chase people, and if a system, a scheduler took that away from you and said, "Okay, he's not responding. I have the next one lined up. Their review queue is pretty shallow. I can get them to respond", this person is busy, and has 10 reviews lined up... I'm not going to bother him. That kind of management is something humans suck at. Only code and automation can be really good at that.
+**Yishai Beeri:** \[31:57\] Once you have humans involved, there's also a lot of smart automation or semi-automation that you can do. "I found you the best reviewer based on the code changes, and I assigned a PR to that person." What if they're not responding quick enough, or they're out? Maybe they're on vacation a couple days. So today, as the PR owner, you have to manage and chase people, and if a system, a scheduler took that away from you and said, "Okay, he's not responding. I have the next one lined up. Their review queue is pretty shallow. I can get them to respond", this person is busy, and has 10 reviews lined up... I'm not going to bother him. That kind of management is something humans suck at. Only code and automation can be really good at that.
 
 **Jerod Santo:** Automation, yeah. That's cool stuff, for sure. What about when it's actually on the code reviewer's desk? And they're ready to work on it? Is there anything we can do for them, like in their work, while they're actually reviewing, to help them be more efficient, more effective, get it done faster etc.?
 
@@ -334,7 +334,7 @@ The other kind of problem is those accumulated merge conflicts... So all these s
 
 **Adam Stacoviak:** How would you summarize what you do then? Is this fair to say -- would you say, as LinearB, "We help humans successfully review and merge code efficiently"?
 
-**Yishai Beeri:** \[00:36:06.23\] Yes. I mean, we help developers, which is a type of human mostly... Usually...
+**Yishai Beeri:** \[36:06\] Yes. I mean, we help developers, which is a type of human mostly... Usually...
 
 **Adam Stacoviak:** Well, you said humans... I'm back onto humans, because we were talking about robots versus humans; so I guess at that basic level...
 
@@ -398,7 +398,7 @@ Another critical thing that can help the team is knowing when to go sync for a c
 
 **Jerod Santo:** Yeah.
 
-**Yishai Beeri:** \[00:39:53.26\] That's not going to be going away. More than half of your workforce will be juniors, for any foreseeable future. So code reviews and pull requests - you know, that started as an open source thing for very, very loosely-coupled, distributed teams, but it became the gold standard, or the commonly-accepted standard for any team doing software development, except for the very, very high-end teams that are "Okay, I'm good enough to work without it."
+**Yishai Beeri:** \[39:53\] That's not going to be going away. More than half of your workforce will be juniors, for any foreseeable future. So code reviews and pull requests - you know, that started as an open source thing for very, very loosely-coupled, distributed teams, but it became the gold standard, or the commonly-accepted standard for any team doing software development, except for the very, very high-end teams that are "Okay, I'm good enough to work without it."
 
 So losing pull requests - that's not going to happen. They're here to stay. But starting to pull out those pull requests that can go into that mode, and be shipped first, asked later - there's a Ship/Show/Ask model, there's a bunch of options... And it's gonna be a fraction of your PRs; not everything. And now the smart thing is "How can I be intelligent about which fraction and which PR gets to go into the fast lane, and which PR gets to go through--"
 
@@ -416,7 +416,7 @@ So losing pull requests - that's not going to happen. They're here to stay. But 
 
 **Adam Stacoviak:** And happier.
 
-**Break:** \[00:41:23.12\]
+**Break:** \[41:23\]
 
 **Guy Martin:** So I saw the GitLab person doing this, so I've gotta take selfies with you guys, too.
 
@@ -452,7 +452,7 @@ So losing pull requests - that's not going to happen. They're here to stay. But 
 
 **Adam Stacoviak:** And it's permissively licensed.
 
-**Guy Martin:** Yeah, permissively licensed, so an open source project... And they built it and open-sourced it because they needed a way to describe 3D worlds for visual effects, right? You need to describe the scene, the materials in it, objects, all that stuff. And I guess about 2017-2018 NVIDIA started looking at this and said, "Hey, we have this thing..." This is long before I joined. I've been there eight months. And they had this thing that you need to say, "Hey, we have a simulation engine, right? We want to be able to define a full 3D representation of a factory, or something in the real world, and USD is this great way to do this. Right? So let's not reinvent the wheel, let's go use this thing..." And then since that time - you know, I've been hired, I've been there eight months, and I'm helping them kind of understand... I have a background in open source, open standards, used to run an open standards body called Oasis Open for a couple of years... And so I was hired to kind of figure out how we do a better job of understanding how to work with USD, right? We're doing a bunch of work contributing it back, but then there's conversations around "What does USD look like, and how do you potentially make it the HTML of the 3D web, or 3D world?" We all know HTML, HTML makes total sense, it's a standard that everyone can agree upon, it doesn't matter what the browser is... USD can be the equivalent to that. And I think that from an open source and open standards perspective, there's a lot of value in beginning to understand what this looks like.
+**Guy Martin:** Yeah, permissively licensed, so an open source project... And they built it and open sourced it because they needed a way to describe 3D worlds for visual effects, right? You need to describe the scene, the materials in it, objects, all that stuff. And I guess about 2017-2018 NVIDIA started looking at this and said, "Hey, we have this thing..." This is long before I joined. I've been there eight months. And they had this thing that you need to say, "Hey, we have a simulation engine, right? We want to be able to define a full 3D representation of a factory, or something in the real world, and USD is this great way to do this. Right? So let's not reinvent the wheel, let's go use this thing..." And then since that time - you know, I've been hired, I've been there eight months, and I'm helping them kind of understand... I have a background in open source, open standards, used to run an open standards body called Oasis Open for a couple of years... And so I was hired to kind of figure out how we do a better job of understanding how to work with USD, right? We're doing a bunch of work contributing it back, but then there's conversations around "What does USD look like, and how do you potentially make it the HTML of the 3D web, or 3D world?" We all know HTML, HTML makes total sense, it's a standard that everyone can agree upon, it doesn't matter what the browser is... USD can be the equivalent to that. And I think that from an open source and open standards perspective, there's a lot of value in beginning to understand what this looks like.
 
 **Jerod Santo:** So at this time, is NVIDIA the only organization using USD?
 
@@ -468,7 +468,7 @@ So losing pull requests - that's not going to happen. They're here to stay. But 
 
 **Adam Stacoviak:** But you said it was challenging though. It was one of the challenges.
 
-**Guy Martin:** \[00:45:58.19\] Well, it's an open source project, and you need to make sure you balance the needs of all the companies involved. And I think that's kind of where from an open source perspective we need to think about what is standardization and what is open source -- how do you marry the best of open source and open standards? It's a lot of what I spent my time on at Oasis, is understanding the intersection between open source and open standards... And I was telling Todd the other day, our organizer, Todd Lewis here, "Hey, we should be thinking more about this maybe for 2023 for ATO, what is the good intersection of open source and open standards?" Because we've sort of -- as an industry, a lot of us go and say "Open source is great, and... Oh, gosh, standards... Ugh, I've gotta go through the long process of getting something standardized." And frankly, having been involved in the standards side, I can totally see both perspectives of how open source people go "Oh, standards isn't fast enough." The standards people go, "Yeah, open source people - you have no staying power. You don't kind of understand that you've got to be in it for the long haul, and you've got to be making decisions that are going to live for decades", right? So I think finding that balance is going to be interesting.
+**Guy Martin:** \[45:58\] Well, it's an open source project, and you need to make sure you balance the needs of all the companies involved. And I think that's kind of where from an open source perspective we need to think about what is standardization and what is open source -- how do you marry the best of open source and open standards? It's a lot of what I spent my time on at Oasis, is understanding the intersection between open source and open standards... And I was telling Todd the other day, our organizer, Todd Lewis here, "Hey, we should be thinking more about this maybe for 2023 for ATO, what is the good intersection of open source and open standards?" Because we've sort of -- as an industry, a lot of us go and say "Open source is great, and... Oh, gosh, standards... Ugh, I've gotta go through the long process of getting something standardized." And frankly, having been involved in the standards side, I can totally see both perspectives of how open source people go "Oh, standards isn't fast enough." The standards people go, "Yeah, open source people - you have no staying power. You don't kind of understand that you've got to be in it for the long haul, and you've got to be making decisions that are going to live for decades", right? So I think finding that balance is going to be interesting.
 
 **Jerod Santo:** So what is USD in its essence? Is it a language? Is it a specification? Is it a file format?
 
@@ -502,7 +502,7 @@ The other thing we talk about with Omniverse is it kind of gives you the superpo
 
 **Jerod Santo:** Right. When the sun's coming out right over the horizon...
 
-**Guy Martin:** \[00:50:06.13\] Right. And really, the only way to do something like that is what we call synthetic data generation. So it's actually having a computer generate all these conditions, and be able to test AIs...
+**Guy Martin:** \[50:06\] Right. And really, the only way to do something like that is what we call synthetic data generation. So it's actually having a computer generate all these conditions, and be able to test AIs...
 
 **Jerod Santo:** Yeah.
 
