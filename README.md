@@ -383,6 +383,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     </tr>
     <tr>
       <td align="center"><a href="https://zmoazeni.github.io/gitspective/#/timeline/waldyrious"><img src="https://avatars.githubusercontent.com/u/478237?v=4?s=100" width="100px;" alt="Waldir Pimenta"/><br /><sub><b>Waldir Pimenta</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=waldyrious" title="Documentation">📖</a></td>
+      <td align="center"><a href="https://dtaskai.me/"><img src="https://avatars.githubusercontent.com/u/44241326?v=4?s=100" width="100px;" alt="Táskai Dominik"/><br /><sub><b>Táskai Dominik</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=dtaskai" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
