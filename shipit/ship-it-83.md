@@ -34,7 +34,7 @@
 
 **Alex Sims:** Exactly. We have two applications, one called \[unintelligible 00:07:48.12\] which is our sort of internal tool where we capture orders, and pick and pack them and dispatch them, and then we have the \[unintelligible 00:07:56.24\] which is what our clients use, which is their sort of portal into what's going on inside the warehouse, without all of the extra information they don't really care about.
 
-**Gerhard Lazu:** \[00:08:08.20\] Okay. And where do these services -- I say services; I mean, where do these applications run? Because as you mentioned, there's multiple services behind them. So these two applications, where do they run?
+**Gerhard Lazu:** \[08:08\] Okay. And where do these services -- I say services; I mean, where do these applications run? Because as you mentioned, there's multiple services behind them. So these two applications, where do they run?
 
 **Alex Sims:** Yeah, so they run in AWS, on some EC2 instances, but we have recently created an EKS cluster for all of our new services, and we're slowly trying to think about how we can transition our old legacy application into the cluster, and start spinning down some of these old EC2 instances.
 
@@ -62,7 +62,7 @@ I started getting pinged on WhatsApp, and they're saying "Everything in Pick's b
 
 **Gerhard Lazu:** And then things like this... "Ah... Okay." That sounds like a gun to your foot. What could possibly happen? \[laughs\] Okay, wow...
 
-**Alex Sims:** \[00:12:10.03\] It was really nice to have an escape hatch, though. So we deployed everything behind LaunchDarkly. So we have feature flags in there. And literally, what I did is I switched off the -- scaled the rollout down to 0%, everyone fell back to the old system, and it was only the cached state that was poisoned. So their actual state of what they picked had all been committed to the database. So as soon as I scaled that down to zero, they fell back to the old system, and were able to continue, and I think we only really had like 10 minutes of downtime. So it was really nice to have that back \[unintelligible 00:12:42.22\].
+**Alex Sims:** \[12:10\] It was really nice to have an escape hatch, though. So we deployed everything behind LaunchDarkly. So we have feature flags in there. And literally, what I did is I switched off the -- scaled the rollout down to 0%, everyone fell back to the old system, and it was only the cached state that was poisoned. So their actual state of what they picked had all been committed to the database. So as soon as I scaled that down to zero, they fell back to the old system, and were able to continue, and I think we only really had like 10 minutes of downtime. So it was really nice to have that back \[unintelligible 00:12:42.22\].
 
 **Gerhard Lazu:** Yeah... But you say downtime - to me, that sounds like degradation, right? 30% of requests were degraded. I mean, they behaved in a way that was not expected. So did -- again, I'm assuming... Did the majority of users have a good experience?
 
@@ -90,7 +90,7 @@ I started getting pinged on WhatsApp, and they're saying "Everything in Pick's b
 
 **Gerhard Lazu:** Really?
 
-**Alex Sims:** \[00:15:46.29\] Because I found in the old system it did two saves, and we use change data capture to basically analyze the changes on the record as they happen in real time with Kafka. And it ultimately did two saves. It did one to change the status of a trolley from a picking state to an end shift state, and one change to divorce the relationship with the operator from that trolley. And in the application that consumes it, it checks for the presence of the operator ID that needs to be on the trolley, and the status needs to change in that row. If that case wasn't satisfied, it would skip it, and that trolley would never be released, which means the report would never be generated.
+**Alex Sims:** \[15:46\] Because I found in the old system it did two saves, and we use change data capture to basically analyze the changes on the record as they happen in real time with Kafka. And it ultimately did two saves. It did one to change the status of a trolley from a picking state to an end shift state, and one change to divorce the relationship with the operator from that trolley. And in the application that consumes it, it checks for the presence of the operator ID that needs to be on the trolley, and the status needs to change in that row. If that case wasn't satisfied, it would skip it, and that trolley would never be released, which means the report would never be generated.
 
 And what ended up happening is I saw that old code and went "Why would I want to do two saves back to back, when I can just bundle it all up into one and be like micro-efficient?"
 
@@ -112,7 +112,7 @@ And what ended up happening is I saw that old code and went "Why would I want to
 
 So at the time that you finished packing all the stuff in the box, you've got a label ready to go. But what we didn't realize is that AJAX request wasn't getting fired just once; it was getting fired multiple times. And that would lead to requests taking upwards of like sometimes 30 or 40 seconds to print a label... If you have tens of these requests going off, and we've got 80 packing desks, that's a lot of requests that the system's making, and it really started to slow down other areas of the system. So we ended up putting some SLOs in, which would basically tell us if a request takes longer than eight seconds to fire, we'll burn some of the error budget. And we said "Oh, we want 96% of all of our labels to be printed within eight seconds." And I think within an hour, we burned all of our budget, and we were like, "What's going on? How is this happening?" And it was only when we realized that the AJAX request was getting fired multiple times that we changed it. And as soon as that fix went out, the graph was like up here, and it just took a nosedive down, everything was sort of printing within eight or nine seconds, and the system seemed to be a lot more stable.
 
-\[00:20:24.11\] There's also a few pages that are used for reporting, they're like our internal KPIs to see how many units and orders we've picked, and operator level, by day, week, month... And they're used a lot by shift managers in the FC. And historically, they're a bit slow... But in peak, when we're doing a lot more queries than normal, we're going really slow. I think -- what was happening? I'm not sure how much technical detail you want to go into...
+\[20:24\] There's also a few pages that are used for reporting, they're like our internal KPIs to see how many units and orders we've picked, and operator level, by day, week, month... And they're used a lot by shift managers in the FC. And historically, they're a bit slow... But in peak, when we're doing a lot more queries than normal, we're going really slow. I think -- what was happening? I'm not sure how much technical detail you want to go into...
 
 **Gerhard Lazu:** Go for it.
 
@@ -148,7 +148,7 @@ And luckily, these things all started happening just ahead of Black Friday, so t
 
 I'm wondering, how did you figure out that it was the database, it was like this buffer pool, and it was the disks? What did it look like from "We have a problem" to "We have a solution. The solution works"? What did that journey look like for you?
 
-**Alex Sims:** \[00:24:12.20\] Yeah, so I'm not sure how much of this was sort of attributed to luck... But we sort of \[unintelligible 00:24:16.21\]
+**Alex Sims:** \[24:12\] Yeah, so I'm not sure how much of this was sort of attributed to luck... But we sort of \[unintelligible 00:24:16.21\]
 
 **Gerhard Lazu:** There's no coincidence. There's no coincidence, I'm convinced of that. Everything happens for a reason. \[laughs\]
 
@@ -160,7 +160,7 @@ I'm wondering, how did you figure out that it was the database, it was like this
 
 **Gerhard Lazu:** Okay. So before we killed them, we sort of copied the contents of that query, pasted it back in, and put an "explained" before, and just sort of had a look at the execution plan... And then saw how many rows it was considering, saw the breadth of the columns that are being used by that query, and then when we tried to run it again, it gives you sort of status updates of what the query is doing. And when it's just like copying to temp table for about over two minutes, you're like "That's probably running in disk and not in memory." So there's a bit of an educated assumption there of -- we weren't 100% confident, that's what was happening, but based on what the database was telling us it's doing, we were probably assuming that's what was happening. Now, none of us are DBAs, I just want to sort of clear that up... But that was our best educated guess, correlated with what we could find online.
 
-**Break:** \[00:25:33.06\]
+**Break:** \[25:33\]
 
 **Gerhard Lazu:** Is there something that you think you could have in place, or are thinking of putting in place to make this sort of troubleshooting easier? ...to make, first of all figuring out there is a problem and the problem is most likely the database?
 
@@ -190,7 +190,7 @@ I tend to -- I think it's muscle memory, and... Over the past five years, when w
 
 So that's something that at least one person would care about full-time, and spent full-time, and like they know it outside in, or inside out, however you wanna look at it; it doesn't really matter... But they understand, and they share it with everyone, so that people know where to go, and they go "That's the entry point. Follow this. If it doesn't work, let us know how we can improve it", so on and so forth. But that sounds -- it's like that shared knowledge, which is so important.
 
-**Alex Sims:** \[00:32:17.09\] It's a bit of an interesting place, because we have a wiki on our GitHub, and in that wiki there are some play-by-plays of common issues that occur. I think we've got playbooks for like six or seven of them, and when the alarm goes off in Datadog, there's a reference to that wiki document.
+**Alex Sims:** \[32:17\] It's a bit of an interesting place, because we have a wiki on our GitHub, and in that wiki there are some play-by-plays of common issues that occur. I think we've got playbooks for like six or seven of them, and when the alarm goes off in Datadog, there's a reference to that wiki document.
 
 So for those six or seven things, anybody can respond to that alarm and confidently solve the issue. But we haven't continued to do that, because there aren't that many common issues that frequently occur, that we've actually then gone and applied a permanent fix for you. We've got a few of these alarms that have been going off for years, and it's just like, "Hey, when this happens, go and do these steps", and you can resolve it. And as a solutions architect, one of my things that I really want to tackle next year is providing more documentation over the entire platform, to sort of give people a resource of "Something's happened in production. How do I start tracing the root cause of that, and then verifying that what I've done has fixed it for any service that sort of talks about that?" But yeah, we're not there yet. Hopefully, in our next call we touch on that documentation.
 
@@ -210,7 +210,7 @@ that?
 
 **Alex Sims:** Exactly. We haven't yet decided on SLIs. We've got a chat next week with George, and we're going to sit down and think what components make up this SLO that can sort of give us an indication before it starts triggering that we've burned too much of our budget. So we've both got like a shared interest in SRE, and we're trying to translate that into James & James... But yeah, that's still very much amateur, and just experimenting as we go, but it's nice to see at the peak this year that the SLA that we did create gave us some real value back... Whereas previously, we would have just let it silently fail in the background, and be none the wiser.
 
-**Gerhard Lazu:** \[00:36:14.10\] Yeah, that's amazing. It is just like another tool in your toolbox, I suppose... I don't think you want too many. They're not supposed to be used like alarms. Right? Especially when, \[unintelligible 00:36:22.10\] thousands and thousands of engineers... By the way, how many are you now in the engineering department?
+**Gerhard Lazu:** \[36:14\] Yeah, that's amazing. It is just like another tool in your toolbox, I suppose... I don't think you want too many. They're not supposed to be used like alarms. Right? Especially when, \[unintelligible 00:36:22.10\] thousands and thousands of engineers... By the way, how many are you now in the engineering department?
 
 **Alex Sims:** I think we're eight permanent and four contract, I believe.
 
@@ -232,7 +232,7 @@ Okay. Okay. So these past few weeks have been really interesting for you, becaus
 
 **Gerhard Lazu:** Wow... Okay. Lots, lots of socks; too many socks. \[laughter\] I don't want to see another pair of socks for a while. But yeah, it was really nice to sort of get down there and involved with everybody, and sort of going around and talking to operators, and then sort of saying parts of the system they liked, but also parts they didn't like, and parts they felt slowed them down, versus what the old one did... And it got some really, really useful feedback on what we could then put into the system going into 2023. And we try and do -- we have like two or three \[unintelligible 00:39:41.06\] days a year where we will all go down into the FC and we'll do some picking and packing, or looking in, just so we can get a feel for what's going on down there, and how well the systems are behaving.
 
-\[00:39:54.04\] But at the peak, when it's our most busy time of the year, it's sort of like, everybody, all hands-on deck, we'll get down there, all muddle in, DJ plays some music in the warehouse, and we've got doughnuts and stuff going around, so... It's a nice time of the year; everybody sort of gets together and muddles in and makes sure that we get all the orders out in time. I did some statistics earlier, and out of the 300,000 orders that left our UK warehouse, we processed them all within a day.
+\[39:54\] But at the peak, when it's our most busy time of the year, it's sort of like, everybody, all hands-on deck, we'll get down there, all muddle in, DJ plays some music in the warehouse, and we've got doughnuts and stuff going around, so... It's a nice time of the year; everybody sort of gets together and muddles in and makes sure that we get all the orders out in time. I did some statistics earlier, and out of the 300,000 orders that left our UK warehouse, we processed them all within a day.
 
 **Gerhard Lazu:** Wow...
 
@@ -250,7 +250,7 @@ Okay. Okay. So these past few weeks have been really interesting for you, becaus
 
 **Alex Sims:** And we're and we're still quite small in the e-commerce space. It's gonna be interesting to see where we are this time next year.
 
-**Break:** \[00:41:05.05\]
+**Break:** \[41:05\]
 
 **Gerhard Lazu:** Six months ago, you were thinking of starting to use Kubernetes. You have some services now running; you even got to experience what the end users see... What are you thinking in terms of improvements? What is on your list?
 
@@ -268,7 +268,7 @@ One of the real benefits that we've got working here is deployment in terms of p
 
 **Alex Sims:** Yeah, that would be really nice if we could get that in place. I think our deployment pipeline for legacy at the moment is just - they push these new changes to these twelve nodes, and do it all in one go. And then flush the cache on the last node that you deploy to. It's very basic. Whereas the newer services do have like all the bells and whistles of blue/green, and integration, unit tests that run against it to give us that confidence.
 
-**Gerhard Lazu:** \[00:44:13.16\] Would migrating the legacy app to Kubernetes be an option?
+**Gerhard Lazu:** \[44:13\] Would migrating the legacy app to Kubernetes be an option?
 
 **Alex Sims:** We're thinking about it. So only one issue that I've run up to so far... So I've Dockerized the application, it runs locally, but there's one annoying thing where it can't request assets. And this is probably some gap in my knowledge in Docker, is it runs all in its Docker network, and then when it tries to go out to fetch assets, it's referencing the Docker container name, where it should actually be referencing something else, which would be like outside of that Docker network... And that causes assets to load. So once I fix that, we'll be able to move into production. But that's a pretty big deal-breaker at the moment.
 
@@ -288,7 +288,7 @@ One of the real benefits that we've got working here is deployment in terms of p
 
 **Alex Sims:** Yeah. So I think the biggest thing that's been really our biggest success in this year is that whole rewrite of the Pick application. The fact we went from no services -- I just sort of want to be clear as well, when I talk about services, how we're planning to structure the application, we're not going like true microservice, like hundreds of services under each domain part of the system. What we're really striving to do is say - we have this specific part of domain knowledge in our system; say like Pick, for example. We also have Pack, and maybe GoodsIn. And we want to split those like three core services out into their own applications, and as we scale the team, we've then got the ability to say, "Team X looks after Pick. Team Y looks after Pack." And they're discrete and standalone, so we could just manage them as their own separate applications.
 
-**Gerhard Lazu:** \[00:48:25.08\] Is there a Poc? I had to ask that... There's Pick, this Pack... There has to be a Poc. \[laughter\] Those are so great names.
+**Gerhard Lazu:** \[48:25\] Is there a Poc? I had to ask that... There's Pick, this Pack... There has to be a Poc. \[laughter\] Those are so great names.
 
 **Alex Sims:** Yeah, no Poc...
 
@@ -314,7 +314,7 @@ And also to not have that many catastrophic failures on something so big. It is 
 
 Okay... So we talked about the status page, we talked about... What else did we talk about? Things that you would like to improve.
 
-**Alex Sims:** \[00:52:34.18\] Yeah. SLIs, SLOs...
+**Alex Sims:** \[52:34\] Yeah. SLIs, SLOs...
 
 **Gerhard Lazu:** Yup, that's right.
 
@@ -332,7 +332,7 @@ So I think the plan is we'll probably get an independent contractor to come in a
 
 **Alex Sims:** See, one of the really interesting parts about our company is everything, end-to-end, is bespoke; from like order ingest, to order being dispatched from the warehouse - we control everything in that pipeline.
 
-\[00:56:01.01\] The only things we depend on is buying labels from carriers. I mean, we spoke at some point about managing our own price matrixes in real time of the carriers, and doing our own quoting and printing our own labels... Maybe one day we'll go in that direction, but it's a lot of work. And there's companies out there that are dedicated to doing that, so we have those as partners for now. But apart from that, pretty much everything out in the FC is completely bespoke.
+\[56:01\] The only things we depend on is buying labels from carriers. I mean, we spoke at some point about managing our own price matrixes in real time of the carriers, and doing our own quoting and printing our own labels... Maybe one day we'll go in that direction, but it's a lot of work. And there's companies out there that are dedicated to doing that, so we have those as partners for now. But apart from that, pretty much everything out in the FC is completely bespoke.
 
 **Gerhard Lazu:** You mentioned FC a couple of times... Fulfillment center.
 
