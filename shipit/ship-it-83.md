@@ -2,7 +2,7 @@
 
 **Alex Sims:** Yeah, it's great to be back. It doesn't feel that long since our last chat.
 
-**Gerhard Lazu:** No, it wasn't. It was episode \#49, April(ish)... Six months, actually; six, seven months.
+**Gerhard Lazu:** No, it wasn't. It was [episode \#49](https://changelog.com/shipit/49), April(ish)... Six months, actually; six, seven months.
 
 **Alex Sims:** So much has changed...
 
@@ -22,7 +22,7 @@
 
 **Alex Sims:** Funny story on that... I'd love to imagine it was just me, sat there, counting orders as they go out the door, but we've actually got a big LED sign that's mounted to the wall, and every time an order dispatches, it ticks up. It's a nice bit of fun. There's one in the office and there's one mounted on the wall in the fulfillment center, and it's quite interesting to see that ticking up, especially this time of year, when the numbers really start to move.
 
-**Gerhard Lazu:** Yeah. Okay, okay. So for the listeners that haven't listened to episode 49 yet, and the keyword is "yet", right? That's a nudge; go and check it out... What is it that you do?
+**Gerhard Lazu:** Yeah. Okay, okay. So for the listeners that haven't listened to [episode \#49](https://changelog.com/shipit/49) yet, and the keyword is "yet", right? That's a nudge; go and check it out... What is it that you do?
 
 **Alex Sims:** Yeah, so I mischaracterized myself last time as a 4PL; we're actually a 3PL. I was corrected. And essentially, we act on behalf of our clients. So imagine you're somebody that sells socks, and you have a Shopify account, and you come to us and we connect to your Shopify account, we ingest your orders, and we send them out to your customers via the cheapest shipping method, whether that be like Royal Mail in the UK, or even like FedEx, going international \[unintelligible 00:05:58.17\] We handle all of that. And then we provide tracking information back to your customers, and give you insights on your stock management, and -- yeah, there's tons of moving parts outside of just the fulfillment part. It's all about how much information can we provide you on your stock, to help you inform decisions on when you restock with us.
 
@@ -32,13 +32,13 @@
 
 **Gerhard Lazu:** Yeah. When you say end users, this is both your staff and your customers, right?
 
-**Alex Sims:** Exactly. We have two applications, one called \[unintelligible 00:07:48.12\] which is our sort of internal tool where we capture orders, and pick and pack them and dispatch them, and then we have the \[unintelligible 00:07:56.24\] which is what our clients use, which is their sort of portal into what's going on inside the warehouse, without all of the extra information they don't really care about.
+**Alex Sims:** Exactly. We have two applications, one called CommandPort which is our sort of internal tool where we capture orders, and pick and pack them and dispatch them, and then we have the ControlPort which is what our clients use, which is their sort of portal into what's going on inside the warehouse, without all of the extra information they don't really care about.
 
 **Gerhard Lazu:** \[08:08\] Okay. And where do these services -- I say services; I mean, where do these applications run? Because as you mentioned, there's multiple services behind them. So these two applications, where do they run?
 
 **Alex Sims:** Yeah, so they run in AWS, on some EC2 instances, but we have recently created an EKS cluster for all of our new services, and we're slowly trying to think about how we can transition our old legacy application into the cluster, and start spinning down some of these old EC2 instances.
 
-**Gerhard Lazu:** Okay. I remember in episode 49 that's what we started talking about, right? Like, the very early steps towards the Kubernetes architecture, or like Kubernetes-based architecture, to see what makes sense, what should you pick, why would you pick one thing over another thing... That's been six months ago. How did it work in practice, that migration, that transition?
+**Gerhard Lazu:** Okay. I remember in [episode \#49](https://changelog.com/shipit/49) that's what we started talking about, right? Like, the very early steps towards the Kubernetes architecture, or like Kubernetes-based architecture, to see what makes sense, what should you pick, why would you pick one thing over another thing... That's been six months ago. How did it work in practice, that migration, that transition?
 
 **Alex Sims:** Yeah, so it worked pretty well. So one of our biggest projects over these last six months has been to rewrite Pick, which is one of our largest parts of our operation, into a new application. So what we ended up doing - we created a Remix application, which is a React framework, and that's deployed on the edge using Lambda, just so you get pretty much fast response times from wherever you're requesting it from... So that sits outside the cluster. And then we have a new Pick API, which is built using Laravel; that's deployed inside of EKS, and also a new auth service, which is deployed inside of EKS as well.
 
@@ -50,7 +50,7 @@ So currently, the shape of our cluster is two services running inside of EKS, an
 
 And earlier that day, I was speaking with one of our ops engineers, and I said, "It's really bugging me that we only have one node in our cluster. It doesn't really make much sense. Could we scale it to three nodes, and then also do blue/green deploy on that?" He was like, "Yes, sure. No worries." We added two more nodes to the cluster, we deployed the app over those three nodes. He sort of looked at the state of Kubernetes, and he was like, "Yeah, it's great. I can see all three instances running, I can see traffic going to all of them... Yeah, no worries. Call it a day."
 
-I started getting pinged on WhatsApp, and they're saying "Everything in Pick's broken. If we refresh the page, it takes us back to the start of our Pick \[unintelligible 00:11:14.03\] We're having to rescan all the items again... Someone's got a trolley with 100 stops on it, and they're having to go to the start..." And I'm like "What the f is going on?" And it turned out that in the environment variables that we'd set for the application, that we'd set the cache driver to be filed instead of Redis.
+I started getting pinged on WhatsApp, and they're saying "Everything in Pick's broken. If we refresh the page, it takes us back to the start of our Pick route. We're having to rescan all the items again... Someone's got a trolley with 100 stops on it, and they're having to go to the start..." And I'm like "What the f is going on?" And it turned out that in the environment variables that we'd set for the application, that we'd set the cache driver to be filed instead of Redis.
 
 **Gerhard Lazu:** Ahh... Okay.
 
@@ -74,7 +74,7 @@ I started getting pinged on WhatsApp, and they're saying "Everything in Pick's b
 
 **Gerhard Lazu:** Yeah. So the majority was okay. Okay... Well, feature flags for the win, right?
 
-**Alex Sims:** Yeah, it was really nice, because this is the first time we've deployed a new service like this, and it was the first time trying feature flags. And even though we had an incident, it was really nice to have that graceful backout, and be confident that we could still roll forward. And in the WhatsApp chat with our operations manager, we were just sending emojis... \[unintelligible 00:13:39.00\] rolling panda down a hill. He was just like "Yeah, no worries..."
+**Alex Sims:** Yeah, it was really nice, because this is the first time we've deployed a new service like this, and it was the first time trying feature flags. And even though we had an incident, it was really nice to have that graceful backout, and be confident that we could still roll forward. And in the WhatsApp chat with our operations manager, we were just sending emojis... roll forward, and it's like, rolling panda down a hill. He was just like "Yeah, no worries..."
 
 **Gerhard Lazu:** \[laughs\] That's what you want. That's it. That's the mindset, right? That's like the mindset of trying something new. You think it's going to work, but you can never be too confident. The more confident you are, the more -- I don't know, the more painful, I think, the failure... Like, if you're 100% confident it's going to work and it doesn't, what then? Versus "I think it's going to work. Let's try it. I mean, if it won't, this is the blast radius... I'm very aware of the worst possible scenario, and I'm okay with that risk", especially comes to production, especially when it comes to systems that cost money when they're down. So imagine if this would have happened to 100% of the stuff. I mean, you'd be basically stopped for like 10 minutes, and that is very costly.
 
@@ -148,7 +148,7 @@ And luckily, these things all started happening just ahead of Black Friday, so t
 
 I'm wondering, how did you figure out that it was the database, it was like this buffer pool, and it was the disks? What did it look like from "We have a problem" to "We have a solution. The solution works"? What did that journey look like for you?
 
-**Alex Sims:** \[24:12\] Yeah, so I'm not sure how much of this was sort of attributed to luck... But we sort of \[unintelligible 00:24:16.21\]
+**Alex Sims:** \[24:12\] Yeah, so I'm not sure how much of this was sort of attributed to luck... But we sort of dived straight into the database.
 
 **Gerhard Lazu:** There's no coincidence. There's no coincidence, I'm convinced of that. Everything happens for a reason. \[laughs\]
 
@@ -196,9 +196,7 @@ So for those six or seven things, anybody can respond to that alarm and confiden
 
 **Gerhard Lazu:** Yeah, of course. The only thing that matters is that you keep improving. I mean, to be honest, everything else, any incidents that come your way, any issues - opportunities to learn. That's it. Have you improved, having had that opportunity to learn? And if you have, that's great. There'll be many others; they just keep coming at you. All you have to do is just be ready for them. That's it. And have an open mind.
 
-And I'm wondering... So I know that the play-by-plays and playbooks are only so useful, because almost every new issue is like a new one. Right? You haven't seen that before. Would it help if you're able to isolate which part of the system is the problem? The database versus the CDN (if you have such a thing), network, firewall, things like
-
-that?
+And I'm wondering... So I know that the play-by-plays and playbooks are only so useful, because almost every new issue is like a new one. Right? You haven't seen that before. Would it help if you're able to isolate which part of the system is the problem? The database versus the CDN (if you have such a thing), network, firewall, things like that?
 
 **Alex Sims:** Yeah, it would be really useful. And one thing we're trying to do to help us catalog all of these is anytime we have an incident. We've not gone \[unintelligible 00:34:19.25\] We were looking at incident.io. We haven't sprang for it yet. We just have an incidence channel inside of Slack, and we essentially start a topic there, and we record all of the steps that happened throughout that incident inside of that log. So if we ever need to go back and revisit it, we can see exactly what caused the issue, and also what services or pieces of infrastructure were affected... Because Slack search is pretty nice. You can start jumping into that incidence channel, something's gone wrong, you do a search and you can normally find something that might point you in the right direction of where you need to steer your investigation. We know it's not the most perfect solution, but it's worked so far.
 
@@ -210,7 +208,7 @@ that?
 
 **Alex Sims:** Exactly. We haven't yet decided on SLIs. We've got a chat next week with George, and we're going to sit down and think what components make up this SLO that can sort of give us an indication before it starts triggering that we've burned too much of our budget. So we've both got like a shared interest in SRE, and we're trying to translate that into James & James... But yeah, that's still very much amateur, and just experimenting as we go, but it's nice to see at the peak this year that the SLA that we did create gave us some real value back... Whereas previously, we would have just let it silently fail in the background, and be none the wiser.
 
-**Gerhard Lazu:** \[36:14\] Yeah, that's amazing. It is just like another tool in your toolbox, I suppose... I don't think you want too many. They're not supposed to be used like alarms. Right? Especially when, \[unintelligible 00:36:22.10\] thousands and thousands of engineers... By the way, how many are you now in the engineering department?
+**Gerhard Lazu:** \[36:14\] Yeah, that's amazing. It is just like another tool in your toolbox, I suppose... I don't think you want too many. They're not supposed to be used like alarms. Right? Especially when, you know you're like thousands and thousands of engineers... By the way, how many are you now in the engineering department?
 
 **Alex Sims:** I think we're eight permanent and four contract, I believe.
 
@@ -322,9 +320,9 @@ Okay... So we talked about the status page, we talked about... What else did we 
 
 **Gerhard Lazu:** Ah, yes. That was the one. How could I forget that? A deployment pipeline. Okay, cool. So these seem very specific things, very -- almost like it's easy to imagine, easy to work with... What about some higher-level things that you have planned for 2023? The year will be long, for sure.
 
-**Alex Sims:** Yeah. So we've sort of had a big change this year, \[unintelligible 00:53:02.09\] We've got changes to Pick, and we're changing Pack next year... But we're trying to think from like an operational perspective how can we gain more efficiency out of our packers. And right now, when you've finished picking a trolley, you put it in like a drop zone, and then someone could -- they're called a water spider. They come in, they grab the trolley, they shimmy it off to the packing desk, and then the packer puts it into a bin, and that water spider comes back and takes the bin that's full of orders over to a dispatch desk. And what we want to do is start automating that last bit of the journey, from the pack station to dispatch and labeling. Essentially, what we'll do then is an operator will finish packing their order, they will put it onto a conveyor belt, and that conveyor belt will have a bunch of like sensors on it, which will sort of do weighing as the order is like conveyancing from the pack desk to the outbound desk. And if the order is not within like a valid tolerance that we're happy with, we will kick it back into a "problem order" bin, which will be like reweighed and relabeled. Because I said earlier, we got rid of the weighing step, and there's a certain variance that our carriers will tolerate, and say "Yep, that's fine. \[unintelligible 00:54:22.12\] It's even like X amount of grams we'll still process it." But if we go like too much under or too much over, we can get chargebacks from the carrier, to say "Hey, you sent us this order, and it didn't have the correct weight." So we want to start handling those in-house.
+**Alex Sims:** Yeah. So we've sort of had a big change this year, \[unintelligible 00:53:02.09\] We've got changes to Pick, and we're changing Pack next year... But we're trying to think from like an operational perspective how can we gain more efficiency out of our packers. And right now, when you've finished picking a trolley, you put it in like a drop zone, and then someone could -- they're called a water spider. They come in, they grab the trolley, they shimmy it off to the packing desk, and then the packer puts it into a bin, and that water spider comes back and takes the bin that's full of orders over to a dispatch desk. And what we want to do is start automating that last bit of the journey, from the pack station to dispatch and labeling. Essentially, what we'll do then is an operator will finish packing their order, they will put it onto a conveyor belt, and that conveyor belt will have a bunch of like sensors on it, which will sort of do weighing as the order is like conveyancing from the pack desk to the outbound desk. And if the order is not within like a valid tolerance that we're happy with, we will kick it back into a "problem order" bin, which will be like reweighed and relabeled. Because I said earlier, we got rid of the weighing step, and there's a certain variance that our carriers will tolerate, and say "Yep, that's fine. It should have been like X amount of grams we'll still process it." But if we go like too much under or too much over, we can get chargebacks from the carrier, to say "Hey, you sent us this order, and it didn't have the correct weight." So we want to start handling those in-house.
 
-And what's gonna be really interesting is building the SLOs and SLIs around that. Like, how many orders are we weighing \[unintelligible 00:54:44.16\] putting it on the conveyancing system and how many orders are we kicking out? And have like an error budget on that, and seeing like how accurate our product weights are in the system, how accurate our packaging weights are... It's gonna be really interesting to see that in operation next year.
+And what's gonna be really interesting is building the SLOs and SLIs around that. Like, how many orders are we weighing at Pack, we're skipping and weighing at Pack, and putting it on the conveyancing system and how many orders are we kicking out? And have like an error budget on that, and seeing like how accurate our product weights are in the system, how accurate our packaging weights are... It's gonna be really interesting to see that in operation next year.
 
 So I think the plan is we'll probably get an independent contractor to come in and set up the conveyancing. But then we want our own bespoke software running in that pipeline that we can hook into, and start pulling data out of that. And I'm really, really excited to start working on some of those automation pieces.
 
