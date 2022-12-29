@@ -20,7 +20,7 @@ So yeah, prompt engineering \[unintelligible 00:04:23.23\] is not my opinion. I'
 
 Since then, we actually now know why "Let's think step by step" is a magic keyword, by the way, because -- and this is part of transformer architecture, which is that the neural network has a very limited working memory, and if you ask a question that requires too many steps to calculate the end result, it doesn't have the working memory to store the result, therefore it makes one up. But if you give it the working memory, which is to ask for a longer answer, the longer answer stores the intermediate steps, therefore giving you the correct result.
 
-**Jerod Santo:** \[00:06:00.07\] Talk about implementation detail, right?
+**Jerod Santo:** \[06:00\] Talk about implementation detail, right?
 
 **Shawn Wang:** It's yeah, it's leaking implementation detail, it's not great, and that's why a lot of the thought leaders - I think I quoted Andrej Karpathy, who was head of AI at Tesla, and now he's a YouTuber... \[laughter\] And Sam Altman, who is the CEO of -- yeah, he quit Tesla to essentially pursue an independent creator lifestyle, and now he's a YouTuber.
 
@@ -42,7 +42,7 @@ We talk about AI a lot, and you hear about this alignment problem, which is basi
 
 **Jerod Santo:** Well, I went from -- so I was super-excited about prompting after talking with Simon a few months back, and I was super-excited about Stable Diffusion. And I went from like giddy schoolboy who's just like "Gonna learn all the spells" very quickly to like aggravated end user who's like "Nah, I don't want to go to this other website and copy and paste this paragraph of esoterica in order to get a result that I like." And so I wonder what's so exciting about the whole prompt engineering thing to us nerds, and I think maybe there's like a remnant of "Well, I still get to have esoteric knowledge" or "I still get to be special somehow if I can learn this skill..."
 
-\[00:09:46.22\] But in reality, what we're learning, I think, by all the people using ChatGPT - the ease of use of it, as opposed to the difficulty of getting an image out of Stable Diffusion 1.0 at least, is quite a bit different. And it goes from aggravating and insider baseball kind of terms, keywords, spells, to plain English, explain what you want, and maybe modify that with a follow-up, which we'll get into ChatGPT, but we don't necessarily have to go into the depths of that right now... But I changed very quickly, even though I still thought prompt engineering was pretty rad... And then when you explain to me how Stable Diffusion 2 completely broke all the prompts, I'm like, "Oh yeah, this is a smell. This doesn't work. You can't just completely change the way it works on people..." That doesn't scale.
+\[09:46\] But in reality, what we're learning, I think, by all the people using ChatGPT - the ease of use of it, as opposed to the difficulty of getting an image out of Stable Diffusion 1.0 at least, is quite a bit different. And it goes from aggravating and insider baseball kind of terms, keywords, spells, to plain English, explain what you want, and maybe modify that with a follow-up, which we'll get into ChatGPT, but we don't necessarily have to go into the depths of that right now... But I changed very quickly, even though I still thought prompt engineering was pretty rad... And then when you explain to me how Stable Diffusion 2 completely broke all the prompts, I'm like, "Oh yeah, this is a smell. This doesn't work. You can't just completely change the way it works on people..." That doesn't scale.
 
 **Shawn Wang:** Yeah. And then think about all the businesses that have been built already. There haven't been any huge businesses built on Stable Diffusion, but GPT-3 has internal models as well. So Jasper recently raised like a 1.5 billion valuation, and then ChatGPT came out, basically validating Jasper... So all the people who bought stock are probably not feeling so great right now. \[laughs\]
 
@@ -58,7 +58,7 @@ So the training of the models ranges between -- and let's just put some bounds f
 
 **Shawn Wang:** I went through his stuff, and I was like, "Yeah, okay, this is on the high end." I came in between like one to three as well. It's fine. And then for training the thing - so it's widely known or widely reported that Stable Diffusion cost 600k for a single run. People think the full thing, including R&D and stuff, was on the order of 10 million. And GPT-3 also costs something on the order of tens of millions. So I think that is the cost, but then also that is training; that is mostly like GPU compute. We're not talking about data collection, which is a whole other thing, right?
 
-\[00:13:46.21\] And I think, basically, there's a towering stack of open source contributions to this data collective pool that we have made over time. I think the official numbers are like 100,000 gigabytes of data that was trained for Stable Diffusion... And it's basically pooled from like Flickr, from Wikipedia, from like all the publicly-available commons of photos. And that is obviously extremely valuable, because -- and another result that came out recently that has revolutionized AI thinking is the concept of Chinchilla Laws. Have you guys covered that on the show, or do I need to explain that?
+\[13:46\] And I think, basically, there's a towering stack of open source contributions to this data collective pool that we have made over time. I think the official numbers are like 100,000 gigabytes of data that was trained for Stable Diffusion... And it's basically pooled from like Flickr, from Wikipedia, from like all the publicly-available commons of photos. And that is obviously extremely valuable, because -- and another result that came out recently that has revolutionized AI thinking is the concept of Chinchilla Laws. Have you guys covered that on the show, or do I need to explain that?
 
 **Adam Stacoviak:** Chinchilla Laws misses the mark for me. Please tell. I like the idea though; it sounds cool, so please...
 
@@ -102,7 +102,7 @@ So in the sort of classical understanding of machine learning, you would have a 
 
 **Shawn Wang:** Because the way that you experience Midjourney is you put in a prompt, it gives you four images, and you pick the ones that you like for enhancing. So the process of using Midjourney generates proprietary data for Midjourney to improve Midjourney. So from v3 to v4 of Midjourney they improved so much that they have carved out a permanent space for their kind of visual AI-driven art, that is so much better than everyone else because they have data that no one else has.
 
-**Jerod Santo:** \[00:17:55.10\] That's really cool.
+**Jerod Santo:** \[17:55\] That's really cool.
 
 **Adam Stacoviak:** And that's relevance, or is it like quality takes? What is the data they actually get?
 
@@ -166,7 +166,7 @@ So in the sort of classical understanding of machine learning, you would have a 
 
 **Shawn Wang:** But yeah, ChatGPT turns it from a one-off zero-shot experience where you prompt the thing, and then you get the result, and it's good or bad, that's about the end of the story - now it's an interactive conversation between you and the bot, and you can shape it to whatever you want... Which is a whole different experience.
 
-**Break:** \[00:22:31.07\]
+**Break:** \[22:31\]
 
 **Adam Stacoviak:** "Complete the sentence" has been a hack for me to use, particularly with ChatGPT. "Complete the sentence" is a great way to easily say "Just give me somebody long, given these certain constraints."
 
@@ -186,7 +186,7 @@ So in the sort of classical understanding of machine learning, you would have a 
 
 **Jerod Santo:** They're like "Come on, these guys have been dead for a long time."
 
-**Adam Stacoviak:** \[00:26:05.25\] Let them go. Give them their RIP. \[laughter\]
+**Adam Stacoviak:** \[26:05\] Let them go. Give them their RIP. \[laughter\]
 
 **Shawn Wang:** Which is poetic and nice. Yeah.
 
@@ -224,7 +224,7 @@ So in the sort of classical understanding of machine learning, you would have a 
 
 **Shawn Wang:** Exactly. \[laughter\]
 
-**Jerod Santo:** \[00:30:10.11\] Just so much confidence, but wrong most of the time. \[laughs\]
+**Jerod Santo:** \[30:10\] Just so much confidence, but wrong most of the time. \[laughs\]
 
 **Shawn Wang:** Exactly. Which happens to Galactica, which is this sort of science LLM from Meta, where Yann LeCun, who is one of the big names in tech, was like "This thing will generate papers for you." And within three days, the internet tore it apart, and they had to take it down. It was a very, very dramatic failure, this kind of tech... Because you're talking about biology, and science, and medicine, and you can't just make stuff up like that. \[laughs\]
 
@@ -250,7 +250,7 @@ So in the sort of classical understanding of machine learning, you would have a 
 
 There's so many places to go with this stuff... Okay, there's one law that I love, which is Brandolini's Law. I have this tracking list of eponymous laws... Brandolini's law is people's ability to create bulls\*\*t far exceeds the ability of people to refute it. Basically, if all of these results of this AI stuff is that we create better bulls\*\*\*t engines, it's not great. And what you're talking about, the stuff with like the 90% correct, 95% correct - that is actually a topic of discussion. It's pretty interesting to have the SRE type conversation of "How many nines do you need for your use case, and where are we at right now?" Because the number of nines will actually improve. We are working on -- sorry, "we" as in the collective human we, not me personally...
 
-**Adam Stacoviak:** \[00:34:32.07\] The royal we, yes.
+**Adam Stacoviak:** \[34:32\] The royal we, yes.
 
 **Shawn Wang:** The role royal we... Like, humanity is working on ways to improve, to get that up. It's not that great right now, so that's why it's good for creativity and not so much for precision, but it will get better. One of the most viral posts on Hacker News is something that you featured, which is the ability to simulate virtual machines instead of ChatGPT-3, where people literally opened -- I mean, I don't know how crazy you have to be, but open ChatGPT-3, type in LS, and it gives you a file system. \[laughter\]
 
@@ -274,7 +274,7 @@ There's so many places to go with this stuff... Okay, there's one law that I lov
 
 **Adam Stacoviak:** You know, it's the ultimate -- if you're creative enough, it's almost back to the quote that Sam had said, that you liked... Well, I'm gonna try and go back to it; he says "At the end, because they were just able to articulate it with a creative eye that I don't have." So that to me is like insight, creativity; it's not skill, right? It's the ability to dream, which is the ultimate human skill, which is - since the beginning of time, we've been dreamers.
 
-**Shawn Wang:** \[00:38:01.25\] This is a new brush. Some artists are learning to draw with it. There'll be new kinds of artists created.
+**Shawn Wang:** \[38:01\] This is a new brush. Some artists are learning to draw with it. There'll be new kinds of artists created.
 
 **Adam Stacoviak:** Provided that people keep making the brush, though. It's a new brush...
 
@@ -310,7 +310,7 @@ So I think that's super-interesting to me, because then you get to have it both 
 
 **Adam Stacoviak:** Yeah. 17 steps back, it makes me think about when I talk to my watch, and I say "Text my wife", and I think about like who is using this to their betterment? And I'm thinking like, we're only talking about adults, for the most part. My kid, my son, Eli - he talks to Siri as if like she knows everything, right? But here's me using my watch to say "Text my wife." I say it, it puts it into the phone... And the last thing it does for me, which I think is super-interesting for the future, as like this AI assistant, is "Send it" is the final prompt back to me as the human; should I send this? And if I say no, Siri doesn't send it. But if I say "Send it", guess what she does? She sends it. But I love this idea of the future, like maybe some sort of smarter AI assistant like that. I mean, to me, that's a dream. I'd love that.
 
-**Shawn Wang:** \[00:42:21.10\] Yeah, I was watching this clip of the first Iron Man, when Robert Downey Jr. is kind of working with his bot to work on his first suit... And he's just talking to the bot, like "Here's what I want you to do." Sometimes it gets it wrong and he slaps it on the ahead... But more often than not, he gets it right. And this is why I've been -- you know, Wes Boss recently tweeted -- this is actually really scary. "Should we be afraid as engineers, like this is going to come for our jobs?" And I'm like, "No. All of us just got a personal junior developer." That should excite you.
+**Shawn Wang:** \[42:21\] Yeah, I was watching this clip of the first Iron Man, when Robert Downey Jr. is kind of working with his bot to work on his first suit... And he's just talking to the bot, like "Here's what I want you to do." Sometimes it gets it wrong and he slaps it on the ahead... But more often than not, he gets it right. And this is why I've been -- you know, Wes Boss recently tweeted -- this is actually really scary. "Should we be afraid as engineers, like this is going to come for our jobs?" And I'm like, "No. All of us just got a personal junior developer." That should excite you.
 
 **Jerod Santo:** Yeah. And it seems like it's particularly good at software development answers. You'd think it's because there's lots of available text... I mean, think about like things that it's good at; it seems like it knows a lot about programming.
 
@@ -342,7 +342,7 @@ Refactoring code from Elixir to PHP is another one that has been has been done..
 
 **Shawn Wang:** Yeah. So I think the way I phrased it was -- do you know about this trade offer meme that is going around? So it's "Trade offer - you receive better debugging, code explanation, install instructions, better documentation, elimination of your breaking of flow from copy and pasting in Stack Overflow - you receive all these benefits, in exchange for more code review." There is a cost, which is code review. You have to review the code that your junior programmer just gave you. But hey, that's better and easier than writing code yourself.
 
-**Jerod Santo:** \[00:46:04.25\] Yeah, because you've got a free junior programmer working for you now. \[laughter\]
+**Jerod Santo:** \[46:04\] Yeah, because you've got a free junior programmer working for you now. \[laughter\]
 
 **Shawn Wang:** There's a guy that says, "I haven't done a single Google search or consulted any external documentation for the past few days, and I was able to progress faster than I ever had when delivering a new thing." I mean, it's just... It's amazing, and Google should be worried.
 
@@ -368,7 +368,7 @@ So that's one insider's take on where Google stands. Obviously, Google has tons 
 
 **Shawn Wang:** But yeah, it is just like better at some things, and worse at other things, and that is the nature of all new technology. It just has to be better at one thing, that you cannot get anywhere else, and it has a permanent hold in your mind. Whenever you need that thing done, you will turn to ChatGPT-3, or any other new technology.
 
-\[00:49:53.11\] I love this sort of meta philosophy about technology adoption, because all new toys just generally are worse than the things that they replace, except in one area, and that's the area needs to matter. And if it does matter, it will win, because they will fix the bugs.
+\[49:53\] I love this sort of meta philosophy about technology adoption, because all new toys just generally are worse than the things that they replace, except in one area, and that's the area needs to matter. And if it does matter, it will win, because they will fix the bugs.
 
 **Jerod Santo:** Yeah, oftentimes with disruption, that area is cost; like acquisition cost. Sometimes it's convenience, and maybe I guess sometimes it's accuracy. There's different metrics, but it's got to be the one that matters. If it's marginally better at things that don't matter, you're not going to disrupt. But if it's a lot better at one thing that matters a lot, even if everything else sucks, you'll use that thing.
 
@@ -410,7 +410,7 @@ So that's one insider's take on where Google stands. Obviously, Google has tons 
 
 **Jerod Santo:** Yeah, totally.
 
-**Adam Stacoviak:** \[00:53:58.22\] Well, if you're listening, or you know the person, this is an open invite; we'd love to have that conversation.
+**Adam Stacoviak:** \[53:58\] Well, if you're listening, or you know the person, this is an open invite; we'd love to have that conversation.
 
 **Shawn Wang:** Yeah. I've seen the profile of the guy that claimed to \[unintelligible 00:54:04.00\] so that he would know... But I don't know who would be responsible for that. That is one of the most interesting cloud stories probably of the year. And Azure should be all over this. Azure should be going like, "Look, they handled it no problem. This is most successful consumer product of all time come at us", right?
 
@@ -438,7 +438,7 @@ So that's one insider's take on where Google stands. Obviously, Google has tons 
 
 **Shawn Wang:** ...they probably cut them a lot of favorable deals for training, and stuff... So it's more about like being associated with one of the top AI names. Like, this is the play that Microsoft has been doing for a long time, so it's finally paying off... So I'm actually pretty happy for that. But then they have to convert into like getting people who are not \[unintelligible 00:55:21.00\] onto this thing.
 
-**Break:** \[00:55:26.05\]
+**Break:** \[55:26\]
 
 **Adam Stacoviak:** What's the long-term play here though? I mean, if Microsoft invested that kind of money, and we're using ChatGPT right now, we're willing to give it extra seconds, potentially even a minute if the answer is that important to you, that you wouldn't afford to Google... Like, what's the play for them? Will they turn this into a product? How do you make billions from this? Do you eventually just get absorbed by the FAANGs of the world, and next thing you know now this incredible future asset to humanity is now owned by essentially folks we try to like host our own services for? Like, we're hosting Nextcloud locally, so we can get off the Google Drives and whatnot... And all this sort of anti-whatever. I mean, what's the endgame here?
 
@@ -450,7 +450,7 @@ So that's one insider's take on where Google stands. Obviously, Google has tons 
 
 **Shawn Wang:** That is a short-term business model, yeah. I bet they have much more up their sleeves... I don't actually know. But they did just hire their first developer advocate, which is interesting, because I think you'll start to hear a lot more from them.
 
-\[00:58:12.00\] Well, there's two things I will offer for you. One, it's a very common view or perception that AI is a centralizing force, right? Which is, Adam, what you're talking about, which is, "Does this just mean that the big always get bigger?" Because the big have the scale and size and data advantage. And one of the more interesting blog posts - sorry, I can't remember who I read this from - was that actually one of the lessons from this year is that it's not necessarily true, because AI might be a more decentralized force, because it's more amenable to open source... And crypto, instead of being decentralized, turned out to be more centralized than people thought.
+\[58:12\] Well, there's two things I will offer for you. One, it's a very common view or perception that AI is a centralizing force, right? Which is, Adam, what you're talking about, which is, "Does this just mean that the big always get bigger?" Because the big have the scale and size and data advantage. And one of the more interesting blog posts - sorry, I can't remember who I read this from - was that actually one of the lessons from this year is that it's not necessarily true, because AI might be a more decentralized force, because it's more amenable to open source... And crypto, instead of being decentralized, turned out to be more centralized than people thought.
 
 So the two directions of centralized versus decentralized - the common perception is that AI is very centralized, and crypto very decentralized. The reality was that it's actually the opposite, which is fascinating to me as a thesis. Like, is that the end game, that AI eventually gets more decentralized, because people want this so badly that there are enough researchers who go to NeurIPS to present their research papers and tweet out all this stuff, that diffuses these techniques all over the place? And we're seeing that happen, helped in large probably by Stability AI. The proof that Stability as an independent, outsider company, like not a ton of connections in the AI field, did this humongous achievement I think is just a remarkable encouragement that anyone could do it... And that's a really encouraging thing for those people who are not FAANG and trying to make some extra headroom in this world. So that's one way to think about the future.
 
@@ -468,7 +468,7 @@ So I'll introduce those concepts to you... I don't know what specifically that m
 
 **Adam Stacoviak:** I believe that's what makes things win, it's just, you know, how... And do we end up getting a version that's sellable, versus a version that's usable? And maybe that's the same, but maybe it's not.
 
-**Jerod Santo:** Well, if this new thesis is correct, it's not actually a centralizing force. Perhaps the open source side of things will step up to the plate, it's so valuable that other people can do it in the small... Maybe we'll learn new techniques where you don't have to have all the world's data to get good results. I mean, we don't know exactly how this thing is going to play out, but it's possible that we will see even large organizations, like OpenAI is going to become, has an open source Whisper thing, which we can all run on our machines... I mean, Swyx, they have a devious reason for it to open-source that sucker... A capitalistic reason for open-sourcing that sucker...
+**Jerod Santo:** Well, if this new thesis is correct, it's not actually a centralizing force. Perhaps the open source side of things will step up to the plate, it's so valuable that other people can do it in the small... Maybe we'll learn new techniques where you don't have to have all the world's data to get good results. I mean, we don't know exactly how this thing is going to play out, but it's possible that we will see even large organizations, like OpenAI is going to become, has an open source Whisper thing, which we can all run on our machines... I mean, Swyx, they have a devious reason for it to open source that sucker... A capitalistic reason for open sourcing that sucker...
 
 **Shawn Wang:** Yeah, it's not devious.
 
@@ -482,7 +482,7 @@ So I'll introduce those concepts to you... I don't know what specifically that m
 
 **Jerod Santo:** It's like, why would you do this? It's like, "Well, we're not going to tell you, so you assume it's altruistic." \[laughs\] Anyways, regardless of their intentions, my point is that we do have open source things that are happening, and perhaps they will continue to thrive, and we'll have alternatives, as we have had historically.
 
-**Shawn Wang:** Well, okay, we have to figure out licensing. This is a huge point of discussion. Because the code - like, MIT-licensing the code doesn't matter. It's the data that needs licensing, and the model weights that needs licensing, and we don't have a legal framework for that. So OpenRail is the current form, but even there, there's been like five different variations of OpenRail right now, and there's a lot of back and forth about what responsible AI open-sourcing is, and it's super-interesting to follow along. If you're interested, look out for Yannic Kilcher, who has been, I think, one of the best sources of getting up to speed on AI on YouTube that I've found. He's kind of like a weird personality, but he made a real impact, because he made his own license, and Stability adopted it for Stability v2... Which is huge; like, a random YouTuber who's just like making up his own license, and Stability going like, "Yeah, that looks good." \[laughs\] It's fantastic.
+**Shawn Wang:** Well, okay, we have to figure out licensing. This is a huge point of discussion. Because the code - like, MIT-licensing the code doesn't matter. It's the data that needs licensing, and the model weights that needs licensing, and we don't have a legal framework for that. So OpenRail is the current form, but even there, there's been like five different variations of OpenRail right now, and there's a lot of back and forth about what responsible AI open sourcing is, and it's super-interesting to follow along. If you're interested, look out for Yannic Kilcher, who has been, I think, one of the best sources of getting up to speed on AI on YouTube that I've found. He's kind of like a weird personality, but he made a real impact, because he made his own license, and Stability adopted it for Stability v2... Which is huge; like, a random YouTuber who's just like making up his own license, and Stability going like, "Yeah, that looks good." \[laughs\] It's fantastic.
 
 And then, of course, all the open source originalists, the fundamentalists going like "This isn't open source. It's not OSI-approved." I'm like, "OSI is relevant now, because the value of the work just moved from the code layer to the weights and data layer."
 
@@ -556,6 +556,6 @@ So basically, keep on top of the high-level trends, like listen to podcasts like
 
 **Adam Stacoviak:** Honestly, I mean, just from the conversation, the thing that stands out to me most is resilience and a creative mind, in this future. Like, if you have a creative mind, and not just a skill set - maybe that's something you develop - and then resilience; the ability just to keep pushing beyond, and persevere. I think those are two skills that anybody can have, but specifically in this area, that's what comes to mind from our conversation today... Because you don't have to have the skill, you just have to have the creativity and the ability to wield these future techs to do all the magic.
 
-Swyx, thank you so much. We appreciate you. We'll link up everything we can. Swyx will get our gaps on the links... Hey, by the way, check the show notes if you're listening to this; there's probably going to be tons in there. I say probably because we haven't written them yet. My hope is that they will be complete. But we also open-source our show notes. So if there's something missing, if your name isn't Shawn Swyx Wang, you're just a listener, you can contribute too, and we actually love that so much. So head to the show notes if it's not there and it needs to be linked up, fork it on GitHub, contribute it back; it's an easy win for you in open source. But Shawn, thank you so much. We appreciate you.
+Swyx, thank you so much. We appreciate you. We'll link up everything we can. Swyx will get our gaps on the links... Hey, by the way, check the show notes if you're listening to this; there's probably going to be tons in there. I say probably because we haven't written them yet. My hope is that they will be complete. But we also open source our show notes. So if there's something missing, if your name isn't Shawn Swyx Wang, you're just a listener, you can contribute too, and we actually love that so much. So head to the show notes if it's not there and it needs to be linked up, fork it on GitHub, contribute it back; it's an easy win for you in open source. But Shawn, thank you so much. We appreciate you.
 
 **Shawn Wang:** Thanks for having me.
