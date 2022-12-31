@@ -2456,6 +2456,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "ehmenzala",
+      "name": "Esteban",
+      "avatar_url": "https://avatars.githubusercontent.com/u/81888762?v=4",
+      "profile": "https://www.frontendmentor.io/profile/ehmenzala",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
