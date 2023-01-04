@@ -1,12 +1,12 @@
-**Gerhard Lazu:** So in Changelog episode 450 we talked about why we love Vim. And in this episode, we will talk about why we love to keep things simple. Starting with a simple development setup, a simple code editor config, very important, and the simple production. It gives me great pleasure to invite the person that cemented my love for Vim. Gary Bernhardt, welcome to Ship It!
+**Gerhard Lazu:** So in Changelog [episode 450](https://changelog.com/podcast/450) we talked about why we love Vim. And in this episode, we will talk about why we love to keep things simple. Starting with a simple development setup, a simple code editor config, very important, and the simple production. It gives me great pleasure to invite the person that cemented my love for Vim. Gary Bernhardt, welcome to Ship It!
 
 **Gary Bernhardt:** Thanks. I'm happy to be here.
 
-**Gerhard Lazu:** So this, I want to say, it's been a long time coming. And it has, but in unexpected ways. Because I have been a huge fan and a follower since \[03:29\] the one that really opened my eyes was Ruby - I forget which Ruby Conf... 2012, I think... 2011.
+**Gerhard Lazu:** So this, I want to say, it's been a long time coming. And it has, but in unexpected ways. Because I have been a huge fan and a follower since [Boundries](https://www.youtube.com/watch?v=yTkzNHF6rMs) is the one that really opened my eyes was Ruby - I forget which Ruby Conf... 2012, I think... 2011.
 
 **Gary Bernhardt:** I think it was 2012, yeah.
 
-**Gerhard Lazu:** And that was an amazing talk. Now, nothing beats, in my mind, Destroy All Software. You call them the classics; I still have them, I still watch them every now and then, when I feel like doing something different... And I think there is an art to approaching software the way you do. What's the secret?
+**Gerhard Lazu:** And that was an amazing talk. Now, nothing beats, in my mind, [Destroy All Software](https://www.destroyallsoftware.com/). You call them the classics; I still have them, I still watch them every now and then, when I feel like doing something different... And I think there is an art to approaching software the way you do. What's the secret?
 
 **Gary Bernhardt:** \[04:01\] Well, thank you for that. I don't know what the secret is. Being extremely easily frustrated maybe? I don't know. I think probably if we really found it, it would be some personality trait that's generally considered undesirable. But I definitely don't have any magic. I don't know. I just -- I do it what I do.
 
@@ -188,7 +188,7 @@ And just to really drive it home - I didn't even claim that it was serverless. I
 
 **Gerhard Lazu:** So I think in the big scheme of things, keeping customers happy and keeping your sanity is far more valuable than the money that you could have made, and didn't. I think that's okay. So imagine all the support tickets, all the frantic "What is going on?" The stress of debugging something that makes no sense, because these systems are really complicated... And despite our best efforts, things will fail. And if we think that we will write perfect code, and we'll architect and build perfect systems - I haven't seen it happen, and I don't think it will.
 
-**Gary Bernhardt:** No... I think the sort of culture of software development has gotten much better at acknowledging this, at least since I started... Because I remember, in the old times people would be like, "Oh, you're having problems manually managing memory in C, with \[unintelligible 00:30:57.01\] Well, you just need to learn how to do it better." And like, "No..." \[laughter\]
+**Gary Bernhardt:** No... I think the sort of culture of software development has gotten much better at acknowledging this, at least since I started... Because I remember, in the old times people would be like, "Oh, you're having problems manually managing memory in C, with malloc and free? Well, you just need to learn how to do it better." And like, "No..." \[laughter\]
 
 **Gerhard Lazu:** "That's your opinion, and I disagree."
 
