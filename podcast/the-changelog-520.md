@@ -46,7 +46,7 @@ These first two, which I'll play somewhat back-to-back, didn't listen very close
 
 **Jerod Santo:** Getting on another train... He had a lot of stuff of him just getting there, and then some conversations while he was there, and then it was just over. So he just like took all of these audio clips and he handed them to me after he got back from GopherCon, and he's like, "Can you do something with this?" And I was like, "I'll do my best..." I appreciate the call-in, Puneet, because Mat asked me later - we put the show out, I did my best, I thought it was decent... But we had some new music, because Mat had written the theme song for GopherCon EU, so we used that music instead... \[sample 00:06:05.05\]
 
-\[00:06:05.22\] So it was kind of like the least Go Time episode Go Time ever. And Mat asked me later, he's like, "I listened to it, I liked it..." He's like, "Did anybody else like it?" And I was like, "I don't know. No one said a word." There was no feedback, there was nobody talking about it on Twitter, no one said it sucked, no one said it was great... We had zero feedback. So I'm like, "Sorry, man. I don't know. I don't know if they liked it or not." So I'm happy to hear somebody liked it.
+\[06:05\] So it was kind of like the least Go Time episode Go Time ever. And Mat asked me later, he's like, "I listened to it, I liked it..." He's like, "Did anybody else like it?" And I was like, "I don't know. No one said a word." There was no feedback, there was nobody talking about it on Twitter, no one said it sucked, no one said it was great... We had zero feedback. So I'm like, "Sorry, man. I don't know. I don't know if they liked it or not." So I'm happy to hear somebody liked it.
 
 **Adam Stacoviak:** Puneet closed the circle for us all. Thank you, Puneet.
 
@@ -124,7 +124,7 @@ These first two, which I'll play somewhat back-to-back, didn't listen very close
 
 **Eli:** Hey, Jerod and Adam. How are you guys doing? I wanted to share one of my favorite episodes from Changelog. I've used the Master feed to kind of browse through things... The news is certainly a good one. But I've gotta say that my highlight is the series - basically the Ship It series with Gerhard. And while Kaizen has been awesome, the one that comes to mind as like the tip of the top, so to speak, is "Fundamentals" with Kelsey Hightower. That episode was amazing, just in the sense of how much knowledge Kelsey threw out there, and I have to say, I have to re-listen and look at the transcripts, which is unusual for me... But it was really good. It was really good. And I really like how Gerhard focused in and came back over and over again to different things that Kelsey said, and tried really hard to crystallize in terms of a real example what Kelsey was saying...
 
-\[00:10:15.26\] But it was a super-dense episode, that was like really enjoyable... Like peanut butter -- or no, almond butter and dark chocolate mixed together, and slowly trying to eat that thing. It was just astounding. So well done, and certainly well done with all your other shows... But that was definitely a highlight. And thank you so much for that.
+\[10:15\] But it was a super-dense episode, that was like really enjoyable... Like peanut butter -- or no, almond butter and dark chocolate mixed together, and slowly trying to eat that thing. It was just astounding. So well done, and certainly well done with all your other shows... But that was definitely a highlight. And thank you so much for that.
 
 **Adam Stacoviak:** Well, it's a one-word podcast, which to me just screams amazing, right? Like, when you can ship a show with just one word as a title...
 
@@ -142,7 +142,7 @@ These first two, which I'll play somewhat back-to-back, didn't listen very close
 
 **Jerod Santo:** And we were only joking about liking Ship It and Go Time better than our podcast, because we love them as well. My favorite from 2022 from Ship It was "Operational simplicity is a gift to you" with Gary Bernhardt. That's episode 62. Gary's all like Kelsey, and he's a kind of a must-listen kind of guy. Everything he says is - if you don't agree with it, it's at least well reasoned, and interesting, and thought-provoking. So that was a surprise for me... I didn't expect to see Gary Bernhardt on an ops/infra Ship It episode, because I think of him so much in like the crafting software development world... But he did a really good job of highlighting really the way he tries to keep things simple, and how that's important with operations. I'll shout that one out as well.
 
-\[00:14:14.09\] Alright, listener number three... This is Jordi. Jordi hangs out on our Slack, so shout-out to Jordi; always happy to see you in our community.
+\[14:14\] Alright, listener number three... This is Jordi. Jordi hangs out on our Slack, so shout-out to Jordi; always happy to see you in our community.
 
 **Jordi:** As one of the hosts of the podcast Software Engineering Daily, I can only speak in awe, with a fair bit of envy about The Changelog. Its episodes are brilliantly researched, well-executed and thoroughly edited. Even swear words are edited out. I would be the editor's nightmare was I a suitable guest in the first place; which I am not. As an individual, the only reason I'm not a Changelog++ subscriber is because my creator budget is limited and already allocated. But this decision creeps up my moral judgment machine every now and then, sending regret waves that are increasingly difficult to hold against. In essence, The Changelog and all its subsidiaries is a bloody good podcast that anyone in the software industry should listen to.
 
@@ -172,7 +172,7 @@ Now, things slip through here or here. You might find a wanker here, a wanker th
 
 **Adam Stacoviak:** You know what I mean? Just to sort of make this a safe place for everybody to hang their hat; you can listen to our show wherever you're at, by yourself, while you're running, or doing dishes, or in the car with your family, or even your mom. Like, what if you were in the car with your mom, she didn't mind you listening to your favorite podcast, and you're like "I'm listening..." Mom's like, "What are you listening to? They're talking about wankers here", or something like that. Hopefully that's not really a negative word, because we said it like 16 times, and we're gonna have to bleep ourselves if it's bad.
 
-**Jerod Santo:** \[00:18:01.15\] We're gonna have to put a warning on this particular episode.
+**Jerod Santo:** \[18:01\] We're gonna have to put a warning on this particular episode.
 
 **Adam Stacoviak:** Yeah, geez. Anyways, as a side note here, I love whenever - and this is sort of a nod to you, Jerod. So this is more me talking to you, and also the audience hearing...
 
@@ -214,7 +214,7 @@ Well, let's get back to listener call-ins. Here's a guy that we know... Brett Ca
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** \[00:21:58.03\] And one thing I thought was funny about this... So one thing you experience as a podcaster is that everybody listens at their own rate, at their own timing, at their own pace... And oftentimes, somebody will listen to an episode that you record a long time ago and then want to come and talk to you about it. And you're like, "Dude, I can't remember anything." Then you go read the transcript, or... Or they'll ask you a specific question, like "Why did you say this?" or "Why do you ask that?" and the context for us is just gone. We ship a show, we expect everybody to listen to it like that day.
+**Jerod Santo:** \[21:58\] And one thing I thought was funny about this... So one thing you experience as a podcaster is that everybody listens at their own rate, at their own timing, at their own pace... And oftentimes, somebody will listen to an episode that you record a long time ago and then want to come and talk to you about it. And you're like, "Dude, I can't remember anything." Then you go read the transcript, or... Or they'll ask you a specific question, like "Why did you say this?" or "Why do you ask that?" and the context for us is just gone. We ship a show, we expect everybody to listen to it like that day.
 
 **Adam Stacoviak:** That's right.
 
@@ -270,7 +270,7 @@ I've been a web developer for 25 years, basically doing the same job, if you can
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** \[00:26:05.24\] I appreciate the hard work, but that is a unique skill set that he has culminated from years in the trenches, at Uber and other places, and whatnot... And I just think that he's got that special knack for it; one, to enjoy the work, which I think sometimes that's very detailed work and challenging to many... But he really thrives at, one, producing it, and then really shedding the right kind of light in the right kind of areas to bring that knowledge to a lot of people. So he's done a great job doing that, and we're happy to have him back on another year, for sure.
+**Adam Stacoviak:** \[26:05\] I appreciate the hard work, but that is a unique skill set that he has culminated from years in the trenches, at Uber and other places, and whatnot... And I just think that he's got that special knack for it; one, to enjoy the work, which I think sometimes that's very detailed work and challenging to many... But he really thrives at, one, producing it, and then really shedding the right kind of light in the right kind of areas to bring that knowledge to a lot of people. So he's done a great job doing that, and we're happy to have him back on another year, for sure.
 
 **Jerod Santo:** Following up to Rory is another familiar name around our Slack... It's Jarvis Yang. He also --
 
@@ -314,7 +314,7 @@ So yeah, Jarvis has been culminating in a relationship via Wordle for months now
 
 **Adam Stacoviak:** Will you be doing this through the Christmas holiday?
 
-**Jerod Santo:** \[00:30:06.20\] I will definitely be playing, because I'm a completionist, and there's a streak, I've got a streak going... So I'll play -- I play daily. And will I be posting during there? Maybe I will; it just kind of depends... Like, do I want to hop in Slack or not? If somebody else is sharing, maybe I'll share mine. I'll definitely be playing through the holiday. Will I be sharing my results? Time will tell. It just depends on how much I want to disconnect from everything. But yeah, probably. Probably.
+**Jerod Santo:** \[30:06\] I will definitely be playing, because I'm a completionist, and there's a streak, I've got a streak going... So I'll play -- I play daily. And will I be posting during there? Maybe I will; it just kind of depends... Like, do I want to hop in Slack or not? If somebody else is sharing, maybe I'll share mine. I'll definitely be playing through the holiday. Will I be sharing my results? Time will tell. It just depends on how much I want to disconnect from everything. But yeah, probably. Probably.
 
 **Adam Stacoviak:** Now this - one more layer. Is there a syntax? Because I noticed, this is not an image, right? You just Wordle, and then the numbers you've done, and then Slack does it for you? How does this work?
 
@@ -360,7 +360,7 @@ Alright, let's move on... Here we have another return caller, Rusty Glue, who ca
 
 **Jerod Santo:** It is tough.
 
-**Adam Stacoviak:** \[00:33:55.05\] ...and they each are first-class citizens in terms of desired listen... Like, we want to listen to the Linux part of it, and then the retro gaming part is sort of Linux-ish, but it's not really, so it's its own topic.
+**Adam Stacoviak:** \[33:55\] ...and they each are first-class citizens in terms of desired listen... Like, we want to listen to the Linux part of it, and then the retro gaming part is sort of Linux-ish, but it's not really, so it's its own topic.
 
 **Jerod Santo:** Well, good for us, I guess... I can't find any other bad ones as I go down... So we've done pretty well this year. I guess "From WeWork to upskilling at Wilco" is okay; it's fine.
 
@@ -404,7 +404,7 @@ A lot of the stuff we come across, we don't necessarily use, or adopt... But jus
 
 **Adam Stacoviak:** I'm glad you said that too, because that was the challenge with that show, because it wasn't meant to be like "This is the way." It was more like Annie defined a way, shared it through the Render blog, it impacted a lot of people, and it made you think differently about the, I guess amount of effort you put into each individual commit message, you know? Because in her case, she mentioned she's got ADHD, and her thinking process - it actually distracts her from creating better, more useful code, because she's got to stop, and it cuts her flow... And she's learned this, and this is also an example of sharing what you learned too, despite the uncomfortability of expressing something about yourself that may be different or uncomfortable, or whatever. She shared this information, and I think it really impacted her and impacted others, too. You may not adopt the process, but it informs you on how to define your own, which I think is cool.
 
-**Jerod Santo:** \[00:38:00.21\] Absolutely. Here comes our next listener voicemail.
+**Jerod Santo:** \[38:00\] Absolutely. Here comes our next listener voicemail.
 
 **Sean:** Hey, everyone. I love The Changelog, and thanks for all the work you put into it. I listen to it all the time driving in to work. There were so many great episodes this year, from "Making the command line glamorous with Charm", to the future of building servers with Oxide and Bryan... That said, my favorite episode from this year has to be the lessons learned from auditing startups with Ken from PKC Security. There's so much there to apply within the startup that I'm helping to build... And it was awesome to learn from the patterns of successful and less successful startups that they worked with over the years. Thanks again.
 
@@ -438,7 +438,7 @@ A lot of the stuff we come across, we don't necessarily use, or adopt... But jus
 
 **Jerod Santo:** So there's a whole bunch of them, and we went like one through the next... So it'd be easy to chapter that, because you'd just chapter it based on the topic. Maybe somebody should go back and do that.
 
-**Adam Stacoviak:** Open-source those chapters...
+**Adam Stacoviak:** Open source those chapters...
 
 **Jerod Santo:** Maybe you should go back and do... \[laughter\] Put that on your to-do list, Adam. Go back and chapter that for me.
 
@@ -454,7 +454,7 @@ So thank you so much, guys, for the work and the continual efforts. I'm still a 
 
 **Jerod Santo:** Yeah. I just want to say thanks for leaving that voicemail... Because that's the kind of impact that is super-meaningful for me, especially somebody just getting started. I sometimes wonder how valuable we are for people taking their first steps... Because so many of the conversations that we have are not beginner-oriented necessarily. It doesn't mean you can't come to them as a beginner... But having been in the industry for so long - I don't have beginner's eyes anymore, and so I wonder if it helps people who are at the beginning of their path... And so I just really appreciate hearing from somebody who's there, still student, still getting started, rockin' Neovim now, and benefited from our work. For me, that's just like the best.
 
-**Adam Stacoviak:** \[00:42:05.08\] It makes it worth it. It really does. I mean, aside from this annual feedback loop for State of the 'Log, we don't get a lot of feedback. Now, that's not saying we necessarily are asking for it, but it is challenging when you feel alone on the road, in some cases; like, you don't see your impact until later. And that is challenging, because there are ups and downs throughout every person's life, in every year; there's always new challenges. This year I made a major move with my family; it's been a challenging year family-wise, just with that move, a lot of change in that. And so life is hard enough without major change.
+**Adam Stacoviak:** \[42:05\] It makes it worth it. It really does. I mean, aside from this annual feedback loop for State of the 'Log, we don't get a lot of feedback. Now, that's not saying we necessarily are asking for it, but it is challenging when you feel alone on the road, in some cases; like, you don't see your impact until later. And that is challenging, because there are ups and downs throughout every person's life, in every year; there's always new challenges. This year I made a major move with my family; it's been a challenging year family-wise, just with that move, a lot of change in that. And so life is hard enough without major change.
 
 And whenever you don't have that feedback loop, it's easy to sort of let the "dark voice" take over to some degree, or have higher importance... And then you hear someone like this, like Tillman - thank you. And don't apologize for being a student and only being a student and not contributing in some way, shape or form. Like, we don't desire that. If anything, we want people who subscribe to Plus Plus, or buy T-shirts, or in some way, shape or form to support us because they truly want to, to get closer to that metal, to get those bonus clips, or whatever else we're going to do with Plus Plus.
 
@@ -494,7 +494,7 @@ We don't want people to feel bad about not being able to do that, by any means. 
 
 **Jerod Santo:** It was guest Paul Orlando from Unintended Consequences Blog, episode 474. It's called "Complex systems and second-order effects." I love this episode, I can go back and listen to it... These are just the kinds of things that I enjoy thinking about... And Paul is a guy who writes about it. And so he's already thought about these things way deeper than I have. I think about them at this shallow level, but to have somebody who thinks about the unintended consequences of complex systems, which are the systems that we work on, and things that happen despite our best efforts, or because we overlooked something, or as perhaps some sort of oddity in the world, what actually takes place. And it's so important for us, as software developers; we have so much leverage in our work, right? We can make small changes that have huge consequences, and... Well, those are just enjoyable conversations, to have the what-ifs, and the why's, and the how these things happen.
 
-**Paul Orlando:** \[00:46:14.28\] the story behind the Cobra Effect is something that, as far as we know, never happened; but the story is during colonial India, so when the British were in India, some British administrator decided that they wanted to reduce or eliminate the number of cobras. Maybe this is in Delhi; I’m not sure where.
+**Paul Orlando:** \[46:14\] the story behind the Cobra Effect is something that, as far as we know, never happened; but the story is during colonial India, so when the British were in India, some British administrator decided that they wanted to reduce or eliminate the number of cobras. Maybe this is in Delhi; I’m not sure where.
 
 So to try to achieve that goal, they put up a bounty, and they say “Okay, I’m gonna pay a bounty if you show up with a cobra skin.” And that’s gonna get rid of the cobras, right? Then the story, of course, is - well, people discovered “Oh, so I should just raise cobras, and turn them in for the bounty, and raise more cobras, and turn them in…” And then the British realized what’s happening, they eliminate the bounty, and everybody releases the cobras, and so you have a worse problem than you had before.
 
@@ -538,7 +538,7 @@ So to try to achieve that goal, they put up a bounty, and they say “Okay, I’
 
 **Adam Stacoviak:** Oh, yes. We'll keep it all in, because I had to look it up. It's a challenging last name - James Lindenbaum, and Orion Henry. So those are the two fellas he created Heroku with... And I just appreciate his relationship with them. I appreciate all the thought it seems they put into Heroku, and in many ways, the somewhat accident. Like, they obviously had a direction to go towards, but like Heroku was almost ahead of its time, and just hearing that story from Adam's perspective... And he also said he'd never done a podcast like this, and he said he would never come back to this topic, but he broke that rule for us, and gave us an exclusive, which I love... Not just the exclusive, but just the breaking that rule, because I think that there's a lot of people who care deeply about the story of Heroku. And I wanted to make sure we can get that out there.
 
-\[00:49:44.16\] Obviously, there's been some change with Heroku this year, with their free tier, and a lot of -- I don't know how many times for you, Jerod, but I've gone to like links that I've had of old, or from old blog posts, and I'm researching things, or whatever, and it links to a Heroku site that is now dead because of this change... Which I think is part of that unintended consequence, right? ...to go back to your favorite. That is an unintended consequence by Heroku. I'm sure there's a lot of resources that are out there that are not there anymore. And just that whole story arc of Heroku I think was something that I desired for many years to tell, and finally got to, so that's why it's -- recency bias, but also true bias.
+\[49:44\] Obviously, there's been some change with Heroku this year, with their free tier, and a lot of -- I don't know how many times for you, Jerod, but I've gone to like links that I've had of old, or from old blog posts, and I'm researching things, or whatever, and it links to a Heroku site that is now dead because of this change... Which I think is part of that unintended consequence, right? ...to go back to your favorite. That is an unintended consequence by Heroku. I'm sure there's a lot of resources that are out there that are not there anymore. And just that whole story arc of Heroku I think was something that I desired for many years to tell, and finally got to, so that's why it's -- recency bias, but also true bias.
 
 **Jerod Santo:** True bias...
 
@@ -650,7 +650,7 @@ So welcome to the club.
 
 We would love to hear your story someday.
 
-**Jerod Santo:** \[00:54:51.16\] What else you got?
+**Jerod Santo:** \[54:51\] What else you got?
 
 **Adam Stacoviak:** Well, I'm going to concur with Brett Cannon, because... You know, I'm a fan of ZFS, I've been thinking a lot about my Linux story arc too, because I've dove deeper into Linux this year... I want to say, thanks to 45Drives, we have some more coming up in 2023 with them. I'm a big fan of 45drives.com and all the hardware they put out there; amazing, amazing. I mean, you can go build any one of their machines... That's what I love about their stuff, is that you can go build a 45Drive system on your own if you wanted to, but it's just best just to buy, because they built it.
 
@@ -670,7 +670,7 @@ Alright back to me... Let's go for another crossover here, because I'm now looki
 
 **Adam Stacoviak:** Come on now...
 
-**Jerod Santo:** \[00:58:04.01\] I didn't have access to your list until you pasted it into the shared doc... But now I can see both of our lists, so I can see that we both have "Wisdom from 50+ years in software" with Brian Kernaghan, episode 484. And if I was absolutely forced to just pick one episode from this year, that's the one that I would have picked.
+**Jerod Santo:** \[58:04\] I didn't have access to your list until you pasted it into the shared doc... But now I can see both of our lists, so I can see that we both have "Wisdom from 50+ years in software" with Brian Kernaghan, episode 484. And if I was absolutely forced to just pick one episode from this year, that's the one that I would have picked.
 
 **Adam Stacoviak:** Hmm...
 
