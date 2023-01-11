@@ -18,7 +18,7 @@
 
 **Mat Ryer:** Well then, danke. \[laughter\] Yeah, danke.
 
-**Natalie Pistunovich:** Bitte. And we are joined by two guests today. We have Chris James, who wrote the book on testing with Go, "Learn Go with tests", specifically... And you are now an engineering manager at \[unintelligible 00:05:16.16\] Hi, Chris.
+**Natalie Pistunovich:** Bitte. And we are joined by two guests today. We have Chris James, who wrote the book on testing with Go, "Learn Go with tests", specifically... And you are now an engineering manager at SolPay Hi, Chris.
 
 **Chris James:** Hey. How's it going?
 
@@ -66,11 +66,11 @@ So based on what layer you're in, we're already kind of thinking about what the 
 
 **Mat Ryer:** Yeah. But you are still using that API; just because you then make assertions about it... You're still using the API, aren't you?
 
-**Bill Kennedy:** For me, I don't have the visual connection to it, because I'm not seeing the if there. I'm not seeing the fact that I might want to wrap the error inside \[unintelligible 00:11:20.24\] and what is that gonna caus... There are things that you miss, I think, when you try to make the testing easier. I've seen some really nice testing frameworks, and they produce a lot of nice output, and I get it... But I feel like you're missing a part of -- your user's not using the API that way \[unintelligible 00:11:40.23\] You know my big thing, "Don't make things easy to do. Make things easy to understand." So if your user's not using it that way, why are you using it that way, at a critical moment in time where you're the first person actually being the user for that API that you're designing?
+**Bill Kennedy:** For me, I don't have the visual connection to it, because I'm not seeing the 'if' there. I'm not seeing the fact that I might want to wrap the error inside the 'if' or I can't wrap the error inside 'if' and what is that gonna cause... There are things that you miss, I think, when you try to make the testing easier. I've seen some really nice testing frameworks, and they produce a lot of nice output, and I get it... But I feel like you're missing a part of -- your user's not using the API that way so why is the test-- You know my big thing, "Don't make things easy to do. Make things easy to understand." So if your user's not using it that way, why are you using it that way, at a critical moment in time where you're the first person actually being the user for that API that you're designing?
 
 **Mat Ryer:** \[12:00\] Yeah, I think that is the benefit, really, of TDD, the one you've just described, is you get to be the first user. By the way, you know I've made Testify, don't you? You just talk about these assert packages, like "Oh, you know..." But you know full well I made Testify, mate... Well, yeah, so the process you describe of that prototyping thing is kind of how I do it as well. It's just that I do it with the test there. It evolves a lot, and it changes, and often it's wrong. It's not like I've written the test and got it right the first time. That is that kind of process still. And I love the idea that you say putting the tests in a package with \_test. In Go you can do that, even though normally we have, for anyone that doesn't know, normally a folder, all the Go files inside the folder have to be the same package. That's what makes a package. But you are allowed for test files to use a different package. And then you import the other package. And that, like you say, Bill, I love that, because you literally in your test code, you're using the package name as well. So you catch things like jarring, and little usability things like that.
 
-**Bill Kennedy:** \[unintelligible 00:13:08.27\] and all the other little things that you wouldn't catch otherwise. I'm not writing a single function that has the word "test" in it until I feel like that API and my team feels like the API is where we want. I don't want to go back and redo test code because I didn't get the API right.
+**Bill Kennedy:** Like stuttering and all the other little things that you wouldn't catch otherwise. I'm not writing a single function that has the word "test" in it until I feel like that API and my team feels like the API is where we want. I don't want to go back and redo test code because I didn't get the API right.
 
 **Mat Ryer:** But how do you know until you've used it?
 
@@ -170,7 +170,7 @@ And then yeah, you go about implementing it, making that test pass... And you so
 
 **Mat Ryer:** Inside JSON? Or just pure XML.
 
-**Bill Kennedy:** Pure XML, not inside JSON. Apparently, they were fronting an XML service instead of rewriting it; they were transcribing XML, and I found a call that bypassed the \[unintelligible 00:37:14.03\] \[laughs\] But you understand what I'm saying... Consumer is everything. And I call them the user. The user is everything. And if you're not the user, then you're really guessing.
+**Bill Kennedy:** Pure XML, not inside JSON. Apparently, they were fronting an XML service instead of rewriting it; they were transcribing XML, and I found a call that bypassed the trans-- \[laughs\] But you understand what I'm saying... Consumer is everything. And I call them the user. The user is everything. And if you're not the user, then you're really guessing.
 
 **Mat Ryer:** Fair enough.
 
@@ -196,7 +196,7 @@ I have a person on my team that likes to start the business layer. Doesn't want 
 
 **Mat Ryer:** Yeah, I love that. I mean, that is literally how I like to work as well. So I think I'm with you there. While you're implementing it, do you then ever say, "Oh, hang on... I've just learned something. I can't give you it like that. It's going to have to be like this"? Do you have that handshake? Or will you just take it like as law that what they've asked for is what they'll get?
 
-**Bill Kennedy:** I try to keep the application model exactly the way they want. And then at the business layer we define our own models that are going to work better for \[unintelligible 00:42:49.11\] But there are times, obviously, where we've gotta negotiate... Time is a great example. Time is a nightmare. How do you want to deliver time down to JSON? And sometimes we just pick a format, an RFC format, sometimes we'll do some other things... So if we were to negotiate anything with the frontend, after looking at a data model they've put together, probably time is always the sticking point; bringing time back and forth.
+**Bill Kennedy:** I try to keep the application model exactly the way they want. And then at the business layer we define our own models that are going to work better for \[unintelligible 00:42:49.11\] Right? But there are times, obviously, where we've gotta negotiate... Time is a great example. Time is a nightmare. How do you want to deliver time down to JSON? And sometimes we just pick a format, an RFC format, sometimes we'll do some other things... So if we were to negotiate anything with the frontend, after looking at a data model they've put together, probably time is always the sticking point; bringing time back and forth.
 
 **Natalie Pistunovich:** I also want to answer your question, Mat, although it was for Bill...
 
@@ -214,7 +214,7 @@ And I feel like often whenever someone on Twitter, or whichever platform is now 
 
 But the other thing is the big one, where it's this idea that if your test hits a database, it's not allowed to be a unit. So let me just tell you what I think a unit test is, and then I'd love to get Chris's opinion. See, what I love about Go is it's already defined what a unit of code is. We don't build monolithic codebases. The unit test is a test that tests that package's API in and of itself, right? Not any other interactions of other packages; just every interaction that that API has to make. And if that API is talking to a database, then I don't know why, personally, I can't spin up a database and write a unit test that makes sure that that API's queries and calls work. To me, that's still a unit test. It just happens to be hitting a database to run that unit of code. So Chris, I'd love to hear your opinion on that.
 
-**Chris James:** I wish I could bring in some \[unintelligible 00:48:34.18\], but I basically completely agree. I think there's been a big misrepresentation in tech about what a unit test is... Or it could only be a particular function, or whatever. I wouldn't describe it as a unit test; to me, this is an integration test. But that distinction isn't that important in the grand scheme of things. Like, you're testing your code integrates with Postgres, or whatever database, right? So basically, I agree. And I do the same thing. I will have some kind of package that is in charge of doing whatever I need to do with Postgres, and I'll write -- I have to use test containers most of the time to spin up a Postgres Docker, and I run my tests... And yeah, they're not as fast as unit tests, they take a few seconds, but - big deal. Still a wonderful feedback loop in the grand scheme of things.
+**Chris James:** I wish I could bring in some controversy, but I basically completely agree. I think there's been a big misrepresentation in tech about what a unit test is... Or it could only be a particular function, or whatever. I wouldn't describe it as a unit test; to me, this is an integration test. But that distinction isn't that important in the grand scheme of things. Like, you're testing your code integrates with Postgres, or whatever database, right? So basically, I agree. And I do the same thing. I will have some kind of package that is in charge of doing whatever I need to do with Postgres, and I'll write -- I have to use test containers most of the time to spin up a Postgres Docker, and I run my tests... And yeah, they're not as fast as unit tests, they take a few seconds, but - big deal. Still a wonderful feedback loop in the grand scheme of things.
 
 Yes, I'm afraid to say, I basically completely agree. I think mocking the database is really clunky and difficult to do, and you still don't really have particularly useful tests, because you can prove that like your SQL string equals select star from users, but does that do what you need it to do? I don't know... It just doesn't prove anything, in my view.
 
@@ -232,7 +232,7 @@ And you should have loads of unit tests, to a point. You can get to a point wher
 
 **Bill Kennedy:** I have a question for everybody here... NASA did a study and they said roughly every 20 lines of code you write, there's a bug in your code, whether you like it or not. Now, this was off of their codebases that are written in C, so maybe we get some better numbers out of Go.
 
-**Mat Ryer:** \[unintelligible 00:52:58.20\]
+**Mat Ryer:** Who's this NASA?
 
 **Chris James:** That's boring, ain't it?
 
@@ -240,7 +240,7 @@ And you should have loads of unit tests, to a point. You can get to a point wher
 
 **Bill Kennedy:** There we go, man... It was a lot of testing.
 
-**Mat Ryer:** \[unintelligible 00:53:06.03\]
+**Mat Ryer:** Confidence.
 
 **Bill Kennedy:** But here's the question.. I get asked this, so I'm curious, everybody here... At some point, you have to be done. You have to be done writing tests at some point. So one, what is your definition of "We're done writing tests", and if that answer has to do with some sort of level of code coverage, then what is your code coverage number to say "We're done. We're moving on." Because you're not going to get to 100%. It doesn't mean anything. So I'm curious about what your done answer is for when you're done writing tests for that package, and if there's a number, what the number is.
 
@@ -264,13 +264,13 @@ So if your test suite is in that state, I would say you're done. But as I said, 
 
 **Bill Kennedy:** How many times have you seen a module out there where the author said, "I'm not working on this anymore"? I consider those done. The PQ driver for Postgres - I still use it. Everybody's like "Why are you using it?" Because it's done, and it's stable, and why should I go to PGX, where they're still doing active development on it? ...and this is done. We get scared of done sometimes, and I don't know why. It may not be complete, but it's done. You know, Dave Cheney taught me that...
 
-**Mat Ryer:** Yeah. Well, I think -- I look at code coverage, because I'm interested if there's any blocks that I've missed. And I don't test every error -- like, if error return; I don't test those. I sort of trust myself that I get those right. And sometimes that bites me, because there'll be some strange little thing where I've \[unintelligible 00:57:46.11\] or something like this, and there is a bug in there. So I only test error things like that if it's part of the API. Like, it's returning a special error in a certain case, and that's part of the API; I'll make sure that's covered in the test. But it's just if the thing is... If it's done. Um... \[laughter\]
+**Mat Ryer:** Yeah. Well, I think -- I look at code coverage, because I'm interested if there's any blocks that I've missed. And I don't test every error -- like, if error return; I don't test those. I sort of trust myself that I get those right. And sometimes that bites me, because there'll be some strange little thing where I've shattered the arrow or something like this, and there is a bug in there. So I only test error things like that if it's part of the API. Like, it's returning a special error in a certain case, and that's part of the API; I'll make sure that's covered in the test. But it's just if the thing is... If it's done. Um... \[laughter\]
 
 **Chris James:** \[58:07\] It's done when it's done, right?
 
-**Bill Kennedy:** \[unintelligible 00:58:11.05\]
+**Bill Kennedy:** Yeah, Chris \[unintelligible 00:58:11.05\]
 
-**Chris James:** I mean, I can only describe what my team does. And I \[unintelligible 00:58:15.27\] BDD, behavior-driven development, right? That's another thing that people throw around.
+**Chris James:** I mean, I can only describe what my team does. And I tried to bring up another TLE but, BDD, behavior-driven development, right? That's another thing that people throw around.
 
 **Mat Ryer:** It's another DD...
 
@@ -316,7 +316,7 @@ And in my case, with the test suite I talked about, by the way - I can actually 
 
 **Chris James:** Sorry... \[laughs\]
 
-**Natalie Pistunovich:** And then came time for all the loading tests and so on, and the \[unintelligible 01:07:36.13\] and start breaking things. So I have a question for you all...
+**Natalie Pistunovich:** And then came time for all the loading tests and so on, and the chaos and start breaking things. So I have a question for you all...
 
 **Jingle:** \[01:07:42.25\]
 
@@ -344,7 +344,7 @@ And in my case, with the test suite I talked about, by the way - I can actually 
 
 **Natalie Pistunovich:** I am interested in seeing how that goes...
 
-**Bill Kennedy:** There we go, \[unintelligible 01:09:14.18\]
+**Bill Kennedy:** There we go, everybody is quiet! \[laughs\]
 
 **Natalie Pistunovich:** That is an interesting one.
 
@@ -382,7 +382,7 @@ And in my case, with the test suite I talked about, by the way - I can actually 
 
 **Natalie Pistunovich:** Not the egg.
 
-**Mat Ryer:** But is that an egg? Because they're not very careful with it, if that's like a, like an egg... Do you know what I mean? They're proper just kicking -- they throw it around \[unintelligible 01:10:28.09\]
+**Mat Ryer:** But is that an egg? Because they're not very careful with it, if that's like a, like an egg... Do you know what I mean? They're proper just kicking -- they throw it around all sorts...
 
 **Natalie Pistunovich:** It's a spiky one.
 
@@ -394,7 +394,7 @@ And in my case, with the test suite I talked about, by the way - I can actually 
 
 **Natalie Pistunovich:** It's just building up for the next episode. I see where this is going...
 
-**Chris James:** \[unintelligible 01:10:52.01\]
+**Chris James:** It's a great story.
 
 **Mat Ryer:** But then I thought, "I should write it down", but then I still didn't. I can't remember.
 
