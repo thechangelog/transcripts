@@ -198,7 +198,7 @@ So talking about batteries, towards the end of 2022 there was a kind of major br
 
 **Jon Calhoun:** I thought you've got limitations on the guy who can just mentally connect to Wi-Fi.
 
-**Mat Ryer:** Yeah \[unintelligible 00:20:05.25\] can not just connect, but you effectively use it, right? I assume. I don't know.
+**Mat Ryer:** Yeah I supposed you can not just connect, but you effectively use it, right? I assume. I don't know.
 
 **Kris Brandow:** I mean, the writers of TV shows never know how any of this technology works, so we can't dig too much into it.
 
@@ -276,7 +276,7 @@ So it's just like, a lot of the fears around nuclear stuff is unfounded, but I f
 
 **Ian Lopshire:** That's what I'd be excited about.
 
-**Mat Ryer:** Yeah. There's other health ones I think as well. I would get like loads of fridge freezers, and have them at the Arctic... You know, there's big ones that have ice machines on the front. Jam the front, so that ice constantly is just coming out whenever it's ready, and just leave them running. And get loads of them, like a whole warehouse full, and you \[unintelligible 00:25:42.18\]
+**Mat Ryer:** Yeah. There's other health ones I think as well. I would get like loads of fridge freezers, and have them at the Arctic... You know, there's big ones that have ice machines on the front. Jam the front, so that ice constantly is just coming out whenever it's ready, and just leave them running. And get loads of them, like a whole warehouse full, and you starting to replenish the ice.
 
 **Jon Calhoun:** I literally think there's a startup that is working on big lasers that beam heat into space in the Arctic to cool it back down... Like, the real thing.
 
@@ -286,7 +286,7 @@ So it's just like, a lot of the fears around nuclear stuff is unfounded, but I f
 
 **Jon Calhoun:** I mean, I also think about places like Africa, where there's just no infrastructure -- like, even if we had fusion energy, I don't think it would really help them at this point... So there's a lot of other logistical issues that come into play.
 
-**Mat Ryer:** Yeah, but it's definitely like, a lot of the energy transfer is wasteful, I guess... So we can afford that waste, maybe, for a bit. So it might give us an advantage. I don't know if -- how good is this wireless power thing? Because I feel myself like being like my uncle that's skeptical of new technology now. The idea that as long as a device can just see your phone, \[unintelligible 00:27:00.26\] on it and fires energy at it to charge it.
+**Mat Ryer:** Yeah, but it's definitely like, a lot of the energy transfer is wasteful, I guess... So we can afford that waste, maybe, for a bit. So it might give us an advantage. I don't know if -- how good is this wireless power thing? Because I feel myself like being like my uncle that's skeptical of new technology now. The idea that as long as a device can just see your phone, it sort of beam forms on it and fires energy at it to charge it.
 
 **Ian Lopshire:** I mean, I don't think we can get past the inverse square law, right? So...
 
@@ -338,7 +338,7 @@ What about drones, though? Drones, I think, could be for transport, when we've g
 
 **Jon Calhoun:** Alright... I think we need like a recap at the end of January, when you're back to realistic mode. You'll be like "No, none of that will work."
 
-**Mat Ryer:** I'm gonna be miserable like you, going "No, that's not gonna happen. Forget it." \[unintelligible 00:30:44.27\] It's supposed to be New Year's.
+**Mat Ryer:** I'm gonna be miserable like you, going "No, that's not gonna happen. Forget it." I wrote it down, it's supposed to be New Year's.
 
 **Jon Calhoun:** I think we'll see some awesome stuff, I just -- I'm looking at more incremental things, I guess.
 
@@ -356,7 +356,7 @@ What about drones, though? Drones, I think, could be for transport, when we've g
 
 **Jon Calhoun:** Yeah, just a little bit. Maybe I'll take your left side, and you'll take my left side...
 
-**Mat Ryer:** There you go. We probably could do that... If only we \[unintelligible 00:31:47.13\] less safe about our nuclear strategy. We could relax the nuclear safety rules and roll the dice and see what happens. I think you could get some stuff like that. It'd be great.
+**Mat Ryer:** There you go. We probably could do that... If only we'd been less safe about our nuclear strategy. We could relax the nuclear safety rules and roll the dice and see what happens. I think you could get some stuff like that. It'd be great.
 
 **Jon Calhoun:** So what do you read now, Mat?
 
@@ -452,7 +452,7 @@ What about drones, though? Drones, I think, could be for transport, when we've g
 
 **Kris Brandow:** They're gonna put blades...?
 
-**Mat Ryer:** What do you think they're clearing out the space for? You'd hope battery, but not so far... Actually, that's one thing when you get a new device like that - the battery just seems like it lasts forever. Those first few weeks, when you're not used to it, and it probably just is peak performance. They just last forever. When I got my last phone, it was like two days that I hadn't charged it and it was still fine. \[unintelligible 00:37:53.07\] believe it.
+**Mat Ryer:** What do you think they're clearing out the space for? You'd hope battery, but not so far... Actually, that's one thing when you get a new device like that - the battery just seems like it lasts forever. Those first few weeks, when you're not used to it, and it probably just is peak performance. They just last forever. When I got my last phone, it was like two days that I hadn't charged it and it was still fine. You wouldn't believe it.
 
 **Jon Calhoun:** Do you have all your apps installed?
 
@@ -518,7 +518,7 @@ What about drones, though? Drones, I think, could be for transport, when we've g
 
 **Kris Brandow:** And seven Chrome tabs. It would be great.
 
-**Jon Calhoun:** Starting to feel like this is an intervention \[unintelligible 00:44:18.06\] you cannot keep using that Intel Mac. It's not okay.
+**Jon Calhoun:** Starting to feel like this is an intervention like Jon you cannot keep using that Intel Mac. It's not okay.
 
 **Kris Brandow:** I mean, if you're doing like video and audio editing... I remember watching the reviews and it was like "Oh yeah, we did this compile. It was faster, which was cool, but it used 3% battery on the MacBook on the M1, and it used like 80% or 90% battery on the Intel." So it's like "Okay, well that's different."
 
@@ -568,7 +568,7 @@ Also if you're using Pro Res, the M1 Max and M1 Pro are just kind of like - you 
 
 **Kris Brandow:** Yeah. When they invented deep links, I was like "Okay, this has gone too far. You're just reinventing browsers... What are you doing?"
 
-**Mat Ryer:** Yeah, that reminds me, Kris, what you're saying... In the UK, we have the Royal Mint, and we have the national debt. And this is a very kind of interesting example of "You can't have the good and not the bad." The Royals \[unintelligible 00:48:40.27\] We've got a new king though; I don't want to say anything wrong, because I think legally he can just cut my head off, if he wants to. So that's still an old law that applies. So fingers crossed that doesn't happen.
+**Mat Ryer:** Yeah, that reminds me, Kris, what you're saying... In the UK, we have the Royal Mint, and we have the national debt. And this is a very kind of interesting example of "You can't have the good and not the bad." The Royals, cheeky. We've got a new king though; I don't want to say anything wrong, because I think legally he can just cut my head off, if he wants to. So that's still an old law that applies. So fingers crossed that doesn't happen.
 
 **Jon Calhoun:** He's got to make an example of somebody.
 
@@ -582,7 +582,7 @@ Also if you're using Pro Res, the M1 Max and M1 Pro are just kind of like - you 
 
 **Mat Ryer:** At least you chose your lunatic.
 
-**Kris Brandow:** I mean, comparatively, the UK is not the shining example to pick as the \[unintelligible 00:49:13.15\] much better than the US. They've had a little bit of trouble there, just like we have.
+**Kris Brandow:** I mean, comparatively, the UK is not the shining example to pick as the -- the much better than the US. They've had a little bit of trouble there, just like we have.
 
 **Mat Ryer:** Yeah. A little bit...
 
@@ -596,7 +596,7 @@ Also if you're using Pro Res, the M1 Max and M1 Pro are just kind of like - you 
 
 **Kris Brandow:** I mean, they're still like a Commonwealth country, so yeah, they still have a monarch... So now they technically have a king...
 
-**Mat Ryer:** Yeah. I don't know if he's allowed to cut their heads off, but you know, fingers crossed, just for the equality of it. I don't wish any ill of Canadians, but if he can slice my head off with no trouble, I sure as heck hope he can also slice your heads off \[unintelligible 00:49:48.07\] how polite you are.
+**Mat Ryer:** Yeah. I don't know if he's allowed to cut their heads off, but you know, fingers crossed, just for the equality of it. I don't wish any ill of Canadians, but if he can slice my head off with no trouble, I sure as heck hope he can also slice your heads off I don't care how polite you are.
 
 **Kris Brandow:** Yeah... I don't know if a king can actually slice your head off.
 
@@ -628,7 +628,7 @@ little bit of a benefit there.
 
 **Mat Ryer:** Is this the pointer type? The atomic pointer that's typed with generics?
 
-**Kris Brandow:** I think so... I don't know. Well, I think it's like in part of Tailscale's codebase, where we just have a sync package that has these nice typed atomic values, so you don't have to do typecasting when you \[unintelligible 00:51:03.15\] It's just very nice. I'm just like "I like this. This is pleasant."
+**Kris Brandow:** I think so... I don't know. Well, I think it's like in part of Tailscale's codebase, where we just have a sync package that has these nice typed atomic values, so you don't have to do typecasting when you get the value. It's just very nice. I'm just like "I like this. This is pleasant."
 
 **Jon Calhoun:** I mean, generics were 2022, so I think it's a good time to look back and... They released in 2022, right? Am I losing it?
 
@@ -664,7 +664,7 @@ And then the pointer thing lets you basically point to any object, and you speci
 
 **Mat Ryer:** Yeah.
 
-**Jon Calhoun:** I would imagine part of this stems from the fact that most other languages have a way to say \[unintelligible 00:54:50.18\] iteratable thing... And like because of that, when they come to Go from another language, it's not like -- historically, when I first started programming, I swear that type of syntax wasn't common. A for loop with an i=0, i&lt;length, and i++ was like the way you iterated over stuff. And then as more languages have introduced this, I feel like it's kind of tricky in the sense that people switching from another language just aren't used to that syntax... So what is clear and readable to me might not be clear and readable to somebody who learned to program in like the last couple years.
+**Jon Calhoun:** I would imagine part of this stems from the fact that most other languages have a way to say for, thing, like iteratable thing... And like because of that, when they come to Go from another language, it's not like -- historically, when I first started programming, I swear that type of syntax wasn't common. A for loop with an i=0, i&lt;length, and i++ was like the way you iterated over stuff. And then as more languages have introduced this, I feel like it's kind of tricky in the sense that people switching from another language just aren't used to that syntax... So what is clear and readable to me might not be clear and readable to somebody who learned to program in like the last couple years.
 
 **Mat Ryer:** Yeah, you're right; the higher-level languages have let you do this for a while. And again, when it's used properly, it's kind of perfect. The cases we do have to watch out for is where it gets abused, or where we ended up hiding things that are happening. But I think as long as we're careful, then yeah, I'm all for it.
 
