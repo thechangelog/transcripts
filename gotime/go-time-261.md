@@ -32,7 +32,7 @@ And listen in the distance, birdsong. They're fading as the winter sun sets acro
 
 **Mat Ryer:** I think it's an honorable pursuit, really; the simpler stuff is easier to maintain. You'll get benefits from having stuff simpler. And HTMX has the advantage of -- like, you wouldn't have a JavaScript framework at all running in the browser. So it's still just partial updates, from what I can tell. So you still only ask for bits of HTML, to update bits of the page. But that's kind of done in a declarative way. So you still get that Ajaxy kind of feel, but it's obviously much easier than writing all that stuff manually.
 
-**Jon Calhoun:** \[00:06:02.18\] Alright. Mat, what are you excited about?
+**Jon Calhoun:** \[06:02\] Alright. Mat, what are you excited about?
 
 **Mat Ryer:** Well, how could we not mention ChatGPT? I mean, I am quite excited about where AI will take us, at least just from the sort of thinking of features and capabilities that could be delivered, and the sort of interactions you have could be so much more natural. It obviously has flaws, but have you tried chatting with it, anyone?
 
@@ -76,7 +76,7 @@ And listen in the distance, birdsong. They're fading as the winter sun sets acro
 
 **Jon Calhoun:** It like forces you to use the least environmentally friendly gas?
 
-**Mat Ryer:** \[00:10:10.17\] Yeah, exactly, because it's paid for by Big Oil.
+**Mat Ryer:** \[10:10\] Yeah, exactly, because it's paid for by Big Oil.
 
 **Jon Calhoun:** It's like "I'm gonna kill all these humans..."
 
@@ -128,7 +128,7 @@ And listen in the distance, birdsong. They're fading as the winter sun sets acro
 
 **Kris Brandow:** I think electric cars are one of those interesting places where it's like, I think we got the innovation slightly wrong by trying to like go all-in, with like "Let's put giant batteries in cars." And I feel like the -- what was it, like the Chevy Bolt, or Volt, whichever one was like the hybrid, but it was like "Oh, we have like a small gas engine, and then we have a bunch of batteries, and the batteries will get you like 60 to 80 miles", or whatever, and then you have the gas engine for if you want to go further - that's like the perfect model for like so many people, and it would have just like limited gas for so many people... It feels like that type of hybrid model would have gotten us further faster. Instead, we're just trying to be like "No, we're gonna build things that don't have gas at all", and then it's just very tricky to actually make those things work. I feel like we do that a lot in tech as well, so it's not just like...
 
-**Jon Calhoun:** \[00:14:20.23\] Yeah. The one upside though to like going all-in the way they did is I feel like it really forced the infrastructure for charging stations to really quickly come along. So that's an upside to going the way we did. But I agree with you that going with the hybrid approach for a lot of things is a much easier way to get people in, especially when it's like not something drastically new. They can still go to a gas station. It's not like a change of what they're used to. And then there's also all the -- I guess I'm kind of waiting to see what the technology does for things like weed eaters and lawn equipment, essentially... Because we've all probably lived somewhere where you hear people going around running this equipment, and they run like terrible gas, that's like half oil, it' burning into the environment all day long, just burning it up... And I'm sure that's got to contribute a lot to pollution, and that sort of stuff. And those things seem like things that you could pretty easily replace with batteries, where they could have a truck with like a couple extra batteries on there and just swap out at every different job site.
+**Jon Calhoun:** \[14:20\] Yeah. The one upside though to like going all-in the way they did is I feel like it really forced the infrastructure for charging stations to really quickly come along. So that's an upside to going the way we did. But I agree with you that going with the hybrid approach for a lot of things is a much easier way to get people in, especially when it's like not something drastically new. They can still go to a gas station. It's not like a change of what they're used to. And then there's also all the -- I guess I'm kind of waiting to see what the technology does for things like weed eaters and lawn equipment, essentially... Because we've all probably lived somewhere where you hear people going around running this equipment, and they run like terrible gas, that's like half oil, it' burning into the environment all day long, just burning it up... And I'm sure that's got to contribute a lot to pollution, and that sort of stuff. And those things seem like things that you could pretty easily replace with batteries, where they could have a truck with like a couple extra batteries on there and just swap out at every different job site.
 
 **Kris Brandow:** Yeah. Battery-powered lawn equipment is a really cool space, especially even just like at a human level. Leaf blowers are terrible for your hearing, because they are so loud... And just having ones that don't need to be loud, because it's just like a battery-powered thing would be good from a humanitarian perspective as well.
 
@@ -164,7 +164,7 @@ And listen in the distance, birdsong. They're fading as the winter sun sets acro
 
 So talking about batteries, towards the end of 2022 there was a kind of major breakthrough in fusion energy... And this is something that I'm very excited about, because for the first time, they were able to get out more energy than they put in. So they put a lot of energy in to sort of spark it and initiate it, and there's a tiny bit of fuel, and then that fuel, essentially through the reaction, ends up releasing now more energy. I think 50% more than what was put in. So it's kind of viable. It turns out science has nailed it again. What do you think of this? Are you excited?
 
-**Ian Lopshire:** \[00:18:02.25\] I mean, that was only at the reaction level. Right? They didn't generate more energy than they put in. They didn't capture that, right?
+**Ian Lopshire:** \[18:02\] I mean, that was only at the reaction level. Right? They didn't generate more energy than they put in. They didn't capture that, right?
 
 **Mat Ryer:** Right. But they got out, they saw that was at least possible for the first time. I guess that was the breakthrough. Right? You sound skeptical, Ian. You're not into this. You don't work for big oil, you don't work for Shell, do you?
 
@@ -220,7 +220,7 @@ I was watching some interesting stuff on nuclear fission generation, and people 
 
 So it's just like, a lot of the fears around nuclear stuff is unfounded, but I feel like nuclear fusion could head down the same path, where people could be really scared of the downsides of like uncontrollable things, whether they can actually happen or not...
 
-\[00:22:04.29\] So I feel like we have to figure out how to solve that problem before we can kind of move forward... Because yeah, people like what they already have, even if what we have is already super-dangerous, right? Same thing with like flying, where people are like "I'm going to drive instead", and it's like "You are much more likely to die while driving than die while flying."
+\[22:04\] So I feel like we have to figure out how to solve that problem before we can kind of move forward... Because yeah, people like what they already have, even if what we have is already super-dangerous, right? Same thing with like flying, where people are like "I'm going to drive instead", and it's like "You are much more likely to die while driving than die while flying."
 
 **Ian Lopshire:** Driving is terrifying.
 
@@ -282,7 +282,7 @@ So it's just like, a lot of the fears around nuclear stuff is unfounded, but I f
 
 **Mat Ryer:** Oh, really? Oh, wow. That's good. A lot of science does get invented on Go Time. I mean, it's jokes to us, but they don't know that.
 
-**Kris Brandow:** \[00:26:04.10\] I don't know, I'm gonna be contrarian again... Some of our problem isn't even power generation, it's like our electrical infrastructure. We can generate more power than we can actually transmit. I think it was like in Vermont, they wanted to build another -- I think it was a solar farm, and they were basically like "No, because we don't have the transmission lines to do anything with this electricity. It would just go nowhere."
+**Kris Brandow:** \[26:04\] I don't know, I'm gonna be contrarian again... Some of our problem isn't even power generation, it's like our electrical infrastructure. We can generate more power than we can actually transmit. I think it was like in Vermont, they wanted to build another -- I think it was a solar farm, and they were basically like "No, because we don't have the transmission lines to do anything with this electricity. It would just go nowhere."
 
 **Jon Calhoun:** I mean, I also think about places like Africa, where there's just no infrastructure -- like, even if we had fusion energy, I don't think it would really help them at this point... So there's a lot of other logistical issues that come into play.
 
@@ -332,7 +332,7 @@ What about drones, though? Drones, I think, could be for transport, when we've g
 
 **Mat Ryer:** Yeah. It could go on a train; like, they could fly from your house, or pick you up nearby. Some people have balconies, in the cities... They could just climb out on the balcony and just climb onto it up some steps; do it safely, obviously... Then you're straight on the drone. Off you go. Maybe it could put us on a sleeper train. It's more efficient. But you're just in this capsule that's just like screens. So as far as you're concerned, you could be underground, listen to -- You could be underwater. Listen to this sound. We're underwater now... You can hear that... And I don't know, we've whooshed out of the ocean, and now we're whooshing, and you can hear the wind blowing as we fly through the air... Excellent work there by the sound crew.
 
-**Jon Calhoun:** \[00:30:15.21\] So when you said that you believe -- like, for the first of January to like the 10th, you believe you can do anything with your code, or with anything... You weren't joking, were you? \[laughter\]
+**Jon Calhoun:** \[30:15\] So when you said that you believe -- like, for the first of January to like the 10th, you believe you can do anything with your code, or with anything... You weren't joking, were you? \[laughter\]
 
 **Mat Ryer:** Yeah. I felt I could write software for this... Just as an open source project; just mock out the hardware. It's a very common practice.
 
@@ -394,7 +394,7 @@ What about drones, though? Drones, I think, could be for transport, when we've g
 
 **Ian Lopshire:** Okay, if someone was like "Yes, new iPhone for $1", I would fail. I'm sorry. It would happen.
 
-**Mat Ryer:** \[00:34:05.04\] But what if it had little helicopter blades on the back, and you could say like "Phone, come here", and then it's like little helicopter blades come on this -- listen to them now; you can hear them switching on, like a little drone... Up the phone flies, comes over to you, and it lands in your hand, and you never lose your phone again.
+**Mat Ryer:** \[34:05\] But what if it had little helicopter blades on the back, and you could say like "Phone, come here", and then it's like little helicopter blades come on this -- listen to them now; you can hear them switching on, like a little drone... Up the phone flies, comes over to you, and it lands in your hand, and you never lose your phone again.
 
 **Ian Lopshire:** I think I might pay to get rid of that one, actually.
 
@@ -456,7 +456,7 @@ What about drones, though? Drones, I think, could be for transport, when we've g
 
 **Jon Calhoun:** Do you have all your apps installed?
 
-**Mat Ryer:** \[00:37:57.14\] No, you can't use it; it drains the battery. You can't use it at all if you want it to last two days.
+**Mat Ryer:** \[37:57\] No, you can't use it; it drains the battery. You can't use it at all if you want it to last two days.
 
 **Jon Calhoun:** Whenever you get a new phone, do you transfer all your apps over, or do you like start fresh and install them as you need them?
 
@@ -478,7 +478,7 @@ What about drones, though? Drones, I think, could be for transport, when we've g
 
 **Ian Lopshire:** Yeah, it took me a full week when we all upgraded to M1 Max, just to get everything running. It was a nightmare.
 
-**Break:** \[00:39:36.18\]
+**Break:** \[39:36\]
 
 **Jon Calhoun:** I still don't have an M1 Mac. When you were talking about upgrading, that was the one that almost got me, and then I thought about it, and I'm like "The few things that this would speed up aren't things that I can't just do overnight, like video processing, or something. I can just do it overnight and come back the next day and it really doesn't make a difference."
 
@@ -486,7 +486,7 @@ What about drones, though? Drones, I think, could be for transport, when we've g
 
 **Ian Lopshire:** I think Go compiles a little bit faster, I don't know...
 
-**Kris Brandow:** \[00:41:45.27\] I mean, I don't care about any of the compiling or anything. The thing I like about the M1 and the M2 Max is that they have instant awake. So you just open it and it's just on. What I hated about Intel MacBooks is that you hadn't turned it on in a couple days, like over the weekend, and you open it, and then it just takes like 10 minutes before it's like "Okay, I'm gonna work now." And the fans come on, and they're blowing all this heat out, and it's killing your battery... It's just an unpleasant experience. But with the Apple silicon, you just kind of open the thing, and it's like "Oh, hello. You can use me now." I feel like that's a huge productivity boost.
+**Kris Brandow:** \[41:45\] I mean, I don't care about any of the compiling or anything. The thing I like about the M1 and the M2 Max is that they have instant awake. So you just open it and it's just on. What I hated about Intel MacBooks is that you hadn't turned it on in a couple days, like over the weekend, and you open it, and then it just takes like 10 minutes before it's like "Okay, I'm gonna work now." And the fans come on, and they're blowing all this heat out, and it's killing your battery... It's just an unpleasant experience. But with the Apple silicon, you just kind of open the thing, and it's like "Oh, hello. You can use me now." I feel like that's a huge productivity boost.
 
 **Mat Ryer:** Yes, I agree.
 
@@ -540,7 +540,7 @@ Also if you're using Pro Res, the M1 Max and M1 Pro are just kind of like - you 
 
 **Mat Ryer:** Yeah. They should at least sell Ian that iPhone for $1, after all this talk... Does anyone want to, just for balance, say something horrible about Apple? Chris, you live in a litigious country...
 
-**Kris Brandow:** \[00:46:10.05\] I'm not mad at Apple right now. I don't have anything bad to say about them.
+**Kris Brandow:** \[46:10\] I'm not mad at Apple right now. I don't have anything bad to say about them.
 
 **Jon Calhoun:** You can just be like "That darn 30%", then move on.
 
@@ -614,7 +614,7 @@ Also if you're using Pro Res, the M1 Max and M1 Pro are just kind of like - you 
 
 **Mat Ryer:** Is there anything in Go that we're looking forward to? This is kind of a New Year's chat...
 
-**Jon Calhoun:** \[00:50:18.06\] I mean, when we talked about HTMX it was kind of related, because you can use it with Go... In my mind, there's a
+**Jon Calhoun:** \[50:18\] I mean, when we talked about HTMX it was kind of related, because you can use it with Go... In my mind, there's a
 
 little bit of a benefit there.
 
@@ -658,7 +658,7 @@ And then the pointer thing lets you basically point to any object, and you speci
 
 **Ian Lopshire:** Yeah, exactly. And they're defining kind of two types. Like a push and a pull iterator. I couldn't tell you the fine details, but it covers all of the use cases in the standard library right now, which I think is pretty cool.
 
-**Mat Ryer:** \[00:53:30.25\] Well, we'll try and dig that out and put a link in the show notes for anyone interested in the iterators. One of the things I like about the way that it works today is there's nothing magic going on when you arrange over something; because you can only arrange over those native types, those built-in types, so you know what's happening. Whereas as soon as you have your own iterator, you could be doing expensive operations in there, and that would be hidden. For example, if you're iterating over some data, and once you reach the end of the page, or as you're approaching the end of the page, it fires off another request to get the next page - how is that surfaced, and how do you handle failures in that code? I think that's one of the challenges that people will have. There must be some kind of error handling in this API, I guess.
+**Mat Ryer:** \[53:30\] Well, we'll try and dig that out and put a link in the show notes for anyone interested in the iterators. One of the things I like about the way that it works today is there's nothing magic going on when you arrange over something; because you can only arrange over those native types, those built-in types, so you know what's happening. Whereas as soon as you have your own iterator, you could be doing expensive operations in there, and that would be hidden. For example, if you're iterating over some data, and once you reach the end of the page, or as you're approaching the end of the page, it fires off another request to get the next page - how is that surfaced, and how do you handle failures in that code? I think that's one of the challenges that people will have. There must be some kind of error handling in this API, I guess.
 
 **Ian Lopshire:** Yeah, I think the function can return an error... Which is interesting. I agree that it's a little bit weird that it's using the range operator to do things like that... But I think it outweighs -- like, there's so many different ways things do iteration now, and I think it's unclear all the times how it works. I think there's a swath of errors or programming mistakes that we can just eliminate.
 
