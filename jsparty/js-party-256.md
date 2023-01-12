@@ -28,7 +28,7 @@ So yeah, the compatibility layer has been under construction for about a year no
 
 **Jerod Santo:** Right.
 
-**Ryan Dahl:** What we do with this npm feature in Deno is you do \[unintelligible 00:09:00.20\] say, if you want version 5 of Express. What happens internally is the built-in npm client will go out and download Express and all of its dependencies from the npm registry. It does this not into a local Node modules folder, but into a global Node modules folder that's hidden in some cache directory. And obviously, it only does this on the first request; subsequent requests don't need to go download that.
+**Ryan Dahl:** What we do with this npm feature in Deno is you do import npm : express@5 say, if you want version 5 of Express. What happens internally is the built-in npm client will go out and download Express and all of its dependencies from the npm registry. It does this not into a local Node modules folder, but into a global Node modules folder that's hidden in some cache directory. And obviously, it only does this on the first request; subsequent requests don't need to go download that.
 
 \[09:35\] The security mechanisms in Deno - so as a reminder, Node unconditionally allows access to the file system and network. In Deno, because JavaScript is a secure sandbox, we wanted to give users the ability to conditionally not allow access to the file system, not allow access to the network, not allow access to environment variables. And that's the same -- you know, when you're importing an npm package, that still remains, right? It's not that npm, your Express now has unfettered access to open internet connections. In Deno the --allow-net flag still applies there. So this mitigates the problem that we've seen in the npm ecosystem, these attacks where people upload malicious packages, or somehow compromise a popular package and insert some nefarious code in there.
 
@@ -246,7 +246,7 @@ And then, of course, npm support in Deno Deploy, so that you can really pull in 
 
 **Ryan Dahl:** Yeah. We'll have to wait for ChatGPT 4.
 
-**Jerod Santo:** Yeah, exactly. \[laughs\] "I'm sorry, but I'm not allowed to do that." Was that \[unintelligible 00:53:36.07\] "I'm sorry, but I can't do that." Michael David.
+**Jerod Santo:** Yeah, exactly. \[laughs\] "I'm sorry, but I'm not allowed to do that." Was that War Games? "I'm sorry, but I can't do that." Michael David.
 
 **Ryan Dahl:** No, that was not War Games, that's HAL... That's Space Odyssey.
 
