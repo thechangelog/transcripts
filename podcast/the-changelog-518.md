@@ -56,7 +56,7 @@ And then that ended up merging into me getting a job at Mashable, which is a web
 
 **Christina Warren:** Yeah, it was. We had offices in London and in Australia, and we had an operation for Mashable Asia out of Singapore. And our base was in New York City, but we also had a San Francisco office and a Los Angeles office. And yeah, it was a real company, and we had a real dev team, and real stuff. It started out as a WordPress blog, one of the largest actually, that migrated to our own stack, and had our own kind of product team and all that stuff... But when I started there, it was small and I got to kind of see the rise of everything, but I was lucky that I got in at kind of the right time, and then kind of rode the wave... And then I wrote about pop culture, because that's what I liked. But I always tried to write about -- my favorite thing to write about was always the intersection between digital and entertainment... Which wound up, honestly -- I don't often like to give myself too much credit, because predictions were often wrong, and we remember the times we were right, but I have to also remind myself of the many, many times I was wrong. But in 2011, when I started the entertainment section at Mashable, I have to say I was dead on, because what would become one of the biggest stories of that decade was, I think, was streaming media and the intersection of technology and entertainment, and how those two worlds would collide... And I knew it. I knew that that was going to be a thing, and I really wanted us to be the place that would be the definitive site for that. We were not, to be very clear. It didn't work out that way. But we tried and, and it was a lot of fun.
 
-**Adam Stacoviak:** Those were \[unintelligible 00:13:29.21\] I mean, from the outside, I would say you were. To me, Mashable was the place. My wife's homepage was Mashable. she would send me links all the time. And my wife is also in tech too, and it was just funny... that was a different day. From the outside it seemed like you very much were. I know BuzzFeed eventually came around, but...
+**Adam Stacoviak:** Those were all the fun days. That kind of journey is fun. I mean, from the outside, I would say you were. To me, Mashable was the place. My wife's homepage was Mashable. she would send me links all the time. And my wife is also in tech too, and it was just funny... that was a different day. From the outside it seemed like you very much were. I know BuzzFeed eventually came around, but...
 
 **Christina Warren:** \[13:52\] Totally. No, at our peak we definitely were. I just mean like in terms of where things went, and obviously, everybody else caught up. I remember having a conversation - I think it was in 2011 - with some of my colleagues at Mashable, and realizing "We need to become The New York Times before The New York Times becomes us." And I actually -- I know I said this, because it's quoted someplace... And I have to give The New York Times credit, they became us better. It's interesting... I don't want to go on too much of like a digression on this, but when I think about company pivot stories and transformation stories, Apple is obviously the gold standard, and one of the best examples. But I have to say, from 2014, where The New York Times was then, and what they are now, and how they completely pivoted their business and became digital-first, and actually now are an incredibly strong tech company... A lot of what they do really is tech; a lot of their stuff is product focused, as well as being fantastic journalism. I have nothing but respect and admiration for that, because it's rare for large companies to make those sorts of pivots, let alone like the biggest, and to do it so well that you wind up not only succeeding, but beating all of the digital-first companies that were nipping on their heels, right? Vice, BuzzFeed, Mashable, Business Insider, Huffington Post, Vox Media... All these really big, high-investment things are smaller than the New York Times. And the New York Times has managed to actually also be profitable.
 
@@ -152,7 +152,7 @@ But the challenge, obviously, is that the content budgets have blown up so much 
 
 **Jerod Santo:** There was nobody using it back then. I mean...
 
-**Adam Stacoviak:** Yeah... We said "Federation is here", \[unintelligible 00:23:40.05\]
+**Adam Stacoviak:** Yeah... We said "Federation is here", something awaits, Macedon awaits. It was--
 
 **Jerod Santo:** "Join the Federation?" And then no. The answer was no.
 
@@ -258,7 +258,7 @@ And when I would step off of sage, and kind of go mingle in between setups to a 
 
 **Christina Warren:** Yes. Yeah, that's definitely the goal. That's definitely the goal.
 
-**Jerod Santo:** I'm curious about the technical side, Christina, because we've had a lot of conversations over the years, and there's been two refrains that we hear a lot, and they both are basically imposter syndrome. But one of them is "I'm not really a developer." And usually, you find out that person has this amazing thing they built, and they just don't consider themselves a developer, because they're not, I don't know, a big name, or whatever... \[unintelligible 00:46:11.04\] I'm not really a maintainer.
+**Jerod Santo:** I'm curious about the technical side, Christina, because we've had a lot of conversations over the years, and there's been two refrains that we hear a lot, and they both are basically imposter syndrome. But one of them is "I'm not really a developer." And usually, you find out that person has this amazing thing they built, and they just don't consider themselves a developer, because they're not, I don't know, a big name, or whatever... And the other ones I'm not really a maintainer.
 
 **Christina Warren:** \[46:14\] It's not the stereotype.
 
@@ -366,7 +366,7 @@ We also open sourced some fonts. So as a font geek, that was really great. So ou
 
 **Adam Stacoviak:** Mona Mono, for sure.
 
-**Jerod Santo:** We'll just assign that to some design \[unintelligible 01:00:40.20\]
+**Jerod Santo:** We'll just assign that to some design, yeah--
 
 **Christina Warren:** File a PR, Mona Mono, and... Yeah, maybe next year, but yeah...
 
@@ -428,7 +428,7 @@ So if I'm somebody who's in South America, and I want to contribute but my machi
 
 And for the -- what is it called...? The supply chain, the open source supply chain, whatever that is... The security of that to me - if GitHub can enable that to become more of a thing that is available for open source repositories, or whatever - I think that has a benefit, a net benefit for the future of security for open source software.
 
-**Christina Warren:** \[01:10:02.24\] No, I think you're exactly right. I think you're exactly right. Because like you said, you can use -- and also, you can now sign your SSH commits with GitHub, using various password partners, like 1Password; if you use 1Password, you can use that to sign your SSH commits to GitHub. You can use other services, too. But I think, to your point, that really does make things more secure... And I think it also if you have kind of a base where you know everybody is working off of -- or maybe you don't know everybody, but you can say that for a new person coming in, you're giving them a base, a codebase \[unintelligible 01:10:34.16\] setup image to work off of, that's going to eliminate some potential security vectors.
+**Christina Warren:** \[01:10:02.24\] No, I think you're exactly right. I think you're exactly right. Because like you said, you can use -- and also, you can now sign your SSH commits with GitHub, using various password partners, like 1Password; if you use 1Password, you can use that to sign your SSH commits to GitHub. You can use other services, too. But I think, to your point, that really does make things more secure... And I think it also if you have kind of a base where you know everybody is working off of -- or maybe you don't know everybody, but you can say that for a new person coming in, you're giving them a base, a codebase base setup image to work off of, that's going to eliminate some potential security vectors.
 
 For instance, if they're trying to build something and maybe they don't have -- some of their libraries aren't up to date, and whatnot; maybe they introduce another problem... I think you're right; I think that it can do a lot for security.
 
