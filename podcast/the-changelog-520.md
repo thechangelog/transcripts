@@ -52,7 +52,7 @@ These first two, which I'll play somewhat back-to-back, didn't listen very close
 
 **Jerod Santo:** Yes. And I have to -- I was giving Mat a hard time. There was definitely some witty banter. There was this common occurrence... He was going to Berlin, and they kept calling him a wanker, which is like a slur over there... I mean, it's not a nice thing to call people.
 
-**Adam Stacoviak:** \[unintelligible 00:06:39.17\] isn't it?
+**Adam Stacoviak:** It's a slur here too isn't it?
 
 **Jerod Santo:** Is it? I don't know.
 
@@ -508,7 +508,7 @@ So to try to achieve that goal, they put up a bounty, and they say “Okay, I’
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** I'm blaming COVID \[unintelligible 00:47:40.06\]
+**Adam Stacoviak:** I'm blaming COVID, as he's blaming COVID right?
 
 **Jerod Santo:** Okay. Yeah. COVID is causing all our problems... Fair enough. So that would be one of my top five, was the Unintended Consequences, episode 474. Your turn.
 
@@ -744,7 +744,7 @@ So to answer your question in general, the answer is “Assume everything can fa
 
 as it could have...
 
-**Adam Stacoviak:** He had to have an earphone in, and it kind of rubbed \[unintelligible 01:04:49.10\]
+**Adam Stacoviak:** He had to have an earphone in, and it kind of rubbed his shirt I believe.
 
 **Jerod Santo:** Oh, that's right, yeah. So we had a couple of different setups that might have worked, and we ended up with him with earbuds, air buds; like the wired ones.
 
@@ -796,9 +796,9 @@ as it could have...
 
 **Jerod Santo:** OSCON.
 
-**Adam Stacoviak:** It was OSCON. That's right. We met in 2017 way back there, and I got his card. I took a picture of it recently and I shared it with him... Like, "Did I get your card from like so many years ago?" It's just cool how things work out. Anyways... \[unintelligible 01:08:41.19\] like "You know what - we've gotta get jack on Founders Talk at some point. Let's make that happen." And obviously, Jack is an A-list type, if you want to A, B, C-list folks, which I don't necessarily do, but just to give... Jack is a major player in tech, from Twitter, to Square, to now Block, and cryptocurrency, and decentralized thinking... Like, he's a big thinker, and the moves he often makes are larger moves, with large waves. And so Jack Dorsey - sat down with him for the main stage at Square Unboxed, because my friends at Square helped make that happen. He's like, "Hey, you know what? We can make a fireside chat happen at Square Unboxed."
+**Adam Stacoviak:** It was OSCON. That's right. We met in 2017 way back there, and I got his card. I took a picture of it recently and I shared it with him... Like, "Did I get your card from like so many years ago?" It's just cool how things work out. Anyways... I even asked him like "You know what - we've gotta get jack on Founders Talk at some point. Let's make that happen." And obviously, Jack is an A-list type, if you want to A, B, C-list folks, which I don't necessarily do, but just to give... Jack is a major player in tech, from Twitter, to Square, to now Block, and cryptocurrency, and decentralized thinking... Like, he's a big thinker, and the moves he often makes are larger moves, with large waves. And so Jack Dorsey - sat down with him for the main stage at Square Unboxed, because my friends at Square helped make that happen. He's like, "Hey, you know what? We can make a fireside chat happen at Square Unboxed."
 
-And so we took that conversation knowing that that was meant to be for Square Unboxed, but also for Founders Talk... So this is like three \[unintelligible 01:09:23.01\] later. Then it also appeared on the Changelog, which is where this list goes from, right? And got even more listens. I mean, it was great, so that's one of my favorites; just as a bucket list kind of thing. Like, it was a great conversation... I didn't get to ask Jack every single thing I wanted to, because it was kind of bridled, in the fact that it was meant for the main stage of Square Unboxed, so it had its guardrails, so to speak, of the direction of topic. If Jack is listening, or anybody else from Square Block, I want to get him back on Founders Talk, so we'll have a different conversation, a deeper conversation... Although the conversation did open up with his hacker heart, which I think was super-interesting.
+And so we took that conversation knowing that that was meant to be for Square Unboxed, but also for Founders Talk... So this is like three layers later. Then it also appeared on the Changelog, which is where this list goes from, right? And got even more listens. I mean, it was great, so that's one of my favorites; just as a bucket list kind of thing. Like, it was a great conversation... I didn't get to ask Jack every single thing I wanted to, because it was kind of bridled, in the fact that it was meant for the main stage of Square Unboxed, so it had its guardrails, so to speak, of the direction of topic. If Jack is listening, or anybody else from Square Block, I want to get him back on Founders Talk, so we'll have a different conversation, a deeper conversation... Although the conversation did open up with his hacker heart, which I think was super-interesting.
 
 \[01:10:03.18\] Just because, you know, when you get to that level, you often get removed from the code, and get often removed from the things that matter. Maybe he shouldn't be writing production code, but at the same time, he still tinkers with Rust, and fun things around crypto wallets and whatnot, hardware wallets, and fun things like that. So that was one of my favorites, just because - Jack Dorsey.
 
