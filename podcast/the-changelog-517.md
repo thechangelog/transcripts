@@ -12,11 +12,11 @@
 
 **Jerod Santo:** So much so that I don't really understand it. \[laughter\] So inform us, school us, first of all why, but then - I think the how for me is also confusing. So yeah, why WebAssembly on the server?
 
-**Shivay Lamba:** So let's kind of go back and explain very briefly what WebAssembly is. So WebAssembly is this bytecode, and it's a compilation target for a lot of the various powerful languages like Rust, C++. So it started as a browser technology, to kind of \[unintelligible 00:04:28.06\] some of the issues that come with JavaScript...
+**Shivay Lamba:** So let's kind of go back and explain very briefly what WebAssembly is. So WebAssembly is this bytecode, and it's a compilation target for a lot of the various powerful languages like Rust, C++. So it started as a browser technology, to kind of circumvent some of the issues that come with JavaScript...
 
 **Jerod Santo:** Right.
 
-**Shivay Lamba:** ...and because of the performance \[unintelligible 00:04:32.03\] of JavaScript, you could run other programming languages directly on the browser, with the help of WebAssembly, because browsers natively only support JavaScript. So you could compile other programming languages and functions in those languages, like C++ or Rust, and do these WebAssembly bytecodes... And you can run these WebAssembly bytecodes with JavaScript, to be able to run some more highly-performant functions.
+**Shivay Lamba:** ...and because of the performance limitations of JavaScript, you could run other programming languages directly on the browser, with the help of WebAssembly, because browsers natively only support JavaScript. So you could compile other programming languages and functions in those languages, like C++ or Rust, and do these WebAssembly bytecodes... And you can run these WebAssembly bytecodes with JavaScript, to be able to run some more highly-performant functions.
 
 But we saw that the uses of WebAssembly was not just limited to the browser, and we saw that because of some of the benefits that come with WebAssembly, and - those are primarily three of them. The first one is the portability. WebAssembly bytecodes are very small in nature; they have a very small blueprint, and very small size.
 
@@ -42,7 +42,7 @@ So these are some of the biggest reasons why we're seeing now WebAssembly not ju
 
 **Shivay Lamba:** So the idea is that the bytecode that we generate, the WebAssembly bytecode - that is independent. It is portable. That means that it's not dependent on a particular system. So the same bytecode, you could technically run it on a Linux system, or you could run it on the browser. So the bytecode itself is independent.
 
-Now, of course, it's a compilation target... So you take a particular function and you compile it. And again, it's a polyglot environment. That means you could use either \[unintelligible 00:07:34.14\] or even your scripting languages, like PHP, JavaScript, Python to basically compile it into the WebAssembly bytecode.
+Now, of course, it's a compilation target... So you take a particular function and you compile it. And again, it's a polyglot environment. That means you could use either let's say functional languages or even your scripting languages, like PHP, JavaScript, Python to basically compile it into the WebAssembly bytecode.
 
 **Jerod Santo:** Weren't the initial implementations though inside of browsers? I think the browser vendors were the first ones to basically implement WebAssembly bytecode execution inside of their browsers.
 
@@ -86,7 +86,7 @@ But the Assembly focus, or people who are working on Assembly.js, they wanted to
 
 **Shivay Lamba:** That's a really great question. Primarily, you could think of it in this way... Let's say if you are working with an IoT device - the IoT device will have very limited storage, and very limited compute power. Now, if you were to run a standard Docker container on that environment, again, as I mentioned, Docker containers will have a very long load time; they will spin up in a very long time. And what you want is a small blueprint, like for your runtime to be small... So that's where you could basically use a WebAssembly container. This WebAssembly container will be small, it will be fast to boot, and you could do your main inference - for example, it could be machine learning inference, or any type of inference, on the actual WebAssembly container... Whereas your standard Docker containers would still be able to handle anything related to your standard input/output, for example file management, or anything that you want. So all the network capabilities could still be managed with the help of your Docker containers.
 
-So \[unintelligible 00:11:43.23\] looking at is that you're not -- basically, the idea is that you're not replacing your Docker containers with WebAssembly, but they are meant to basically run side by side.
+So the \[unintelligible 00:11:43.23\] looking at is that you're not -- basically, the idea is that you're not replacing your Docker containers with WebAssembly, but they are meant to basically run side by side.
 
 **Jerod Santo:** Interact with each other.
 
@@ -124,7 +124,7 @@ WebAssembly in the browser though - has it ever really delivered on those promis
 
 **Shivay Lamba:** A lot of cool stuff. Actually, one of the talks that I gave at ATO was also around TensorFlow JS, which is a machine learning library for the web. And one of the great ways that you can actually use TensorFlow JS is doing the machine learning inference on the web browser.
 
-There are a number of different backends that are supported, and what I mean by these backends is not like \[unintelligible 00:15:12.07\] but what you can use is things like WebGL, and WebAssembly itself. So TensorFlow JS has a WebAssembly support, so what you can use is - if you use the WebAssembly backend, you could use the CPU or the GPU resources of your own system, and do those machine learning inferences much more quicker in the web browser.
+There are a number of different backends that are supported, and what I mean by these backends is not like you're a service \[unintelligible 00:15:12.07\] but what you can use is things like WebGL, and WebAssembly itself. So TensorFlow JS has a WebAssembly support, so what you can use is - if you use the WebAssembly backend, you could use the CPU or the GPU resources of your own system, and do those machine learning inferences much more quicker in the web browser.
 
 So that's probably the biggest areas where WebAssembly on the browser side is being used. Apart from that, there are a number of different companies, like Adobe, which uses it on the Photoshop on the web browser Microsoft Flight Simulator... And then there are a bunch of online video editors that use WebAssembly for doing very quick rendering of the videos.
 
@@ -196,7 +196,7 @@ So I definitely recommend to have at least basic knowledge about these concepts 
 
 **Jerod Santo:** Oh, totally.
 
-**Yishai Beeri:** And they're not always aware of the queue. So they're not efficiently working in the queue, but also, today, in most organizations, there's like a single queue. All PRs look the same, they all get the same treatment. Even if it's a one-liner change to your documentation, or a complete refactor of a sensitive system, it's gonna get the same treatment. Someone has to review, \[unintelligible 00:23:21.06\] principal, or something, and then the queue becomes stupid. So one of the things that we're pushing is a system called GitStream, which is about automating and providing some routing and automation for your PRs. So as a team, you can decide which PRs are automatically approved... So ship it, and then tell the team or show the team, maybe someone wants to take a look... Maybe some PRs need three reviewers, because they're touching sensitive areas.
+**Yishai Beeri:** And they're not always aware of the queue. So they're not efficiently working in the queue, but also, today, in most organizations, there's like a single queue. All PRs look the same, they all get the same treatment. Even if it's a one-liner change to your documentation, or a complete refactor of a sensitive system, it's gonna get the same treatment. Someone has to review, for a principal, or something, and then the queue becomes stupid. So one of the things that we're pushing is a system called GitStream, which is about automating and providing some routing and automation for your PRs. So as a team, you can decide which PRs are automatically approved... So ship it, and then tell the team or show the team, maybe someone wants to take a look... Maybe some PRs need three reviewers, because they're touching sensitive areas.
 
 So it's like a rule file that you put in the repo, some GitHub Actions on top of that to automate the work... And then you stop doing the reviews that you should not be doing, and you have time to focus on the reviews that matter.
 
@@ -206,7 +206,7 @@ So it's like a rule file that you put in the repo, some GitHub Actions on top of
 
 **Adam Stacoviak:** I mean, I obviously know what the point is. I mean, I'm not naive. But what's the point as an organization?
 
-**Jerod Santo:** \[unintelligible 00:24:18.05\] particular code review.
+**Jerod Santo:** Of that particular code review.
 
 **Adam Stacoviak:** Right. Why do organizations go through the process of code review? What's the ending goal of that exercise, to review the code, obviously?
 
@@ -274,7 +274,7 @@ The other kind of problem is those accumulated merge conflicts... So all these s
 
 **Adam Stacoviak:** "This is bad code."
 
-**Jerod Santo:** So now you're just \[unintelligible 00:30:58.22\]
+**Jerod Santo:** So now you're just not blocking that code review, but eventually, you gotta get back to it.
 
 **Yishai Beeri:** I think eventually the divide between your local code and the PR can go away, right? There's no real difference between a pre-commit hook and tests-running on a GitHub Action once you have created a PR. I look at this as a continuum, and it's about how long does the test take to run. Is it something that can run as I type in the IDE? But it has the same purpose, right? The same meaning.
 
@@ -284,7 +284,7 @@ The other kind of problem is those accumulated merge conflicts... So all these s
 
 **Jerod Santo:** Yeah, exactly.
 
-**Yishai Beeri:** ...you've got to automate stuff. And you know, you probably should not be reviewing code that does not pass the tests, and is failing on the \[unintelligible 00:31:45.15\] Because you want to be --
+**Yishai Beeri:** ...you've got to automate stuff. And you know, you probably should not be reviewing code that does not pass the tests, and is failing on the \[unintelligible 00:31:45.15\] stuff. Because you want to be --
 
 **Jerod Santo:** Right. You're kicked to the curb for doing that.
 
@@ -528,7 +528,7 @@ The other thing we talk about with Omniverse is it kind of gives you the superpo
 
 **Guy Martin:** Well, no... I mean, that's right -- Metaverse is a hype term, right? Metaverse is a hype term. We all know this.
 
-**Jerod Santo:** Omniverse is like the \[unintelligible 00:51:06.10\]
+**Jerod Santo:** Omniverse is like the Metaverse but you can use--
 
 **Adam Stacoviak:** What did you call it, the universal Metaverse?
 
