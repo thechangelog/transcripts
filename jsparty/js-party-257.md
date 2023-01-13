@@ -76,7 +76,7 @@ So I dutifully went back and I forced myself to listen to our own podcast from l
 
 **Jerod Santo:** Yeah. Last year's show he actually tried on this show. Go back and listen to that episode, it's pretty hilarious.
 
-**Kevin Ball:** \[00:05:48.27\] Yeah. I'll say one this year. But no, I mean, I think -- I was doing my annual review process... I do a personal annual review every year... And this year was pretty good, honestly. Especially when you compare to the dumpster fires that were 2020 and 2021... Like, yeah, back to positivity. I had like four things I was trying to grow on, and three out of the four, solid wins. I did a bunch of writing; got published in some new industry publications. Like, I feel good about it.
+**Kevin Ball:** \[05:48\] Yeah. I'll say one this year. But no, I mean, I think -- I was doing my annual review process... I do a personal annual review every year... And this year was pretty good, honestly. Especially when you compare to the dumpster fires that were 2020 and 2021... Like, yeah, back to positivity. I had like four things I was trying to grow on, and three out of the four, solid wins. I did a bunch of writing; got published in some new industry publications. Like, I feel good about it.
 
 **Jerod Santo:** Awesome. Happy to hear that, and I'm excited to hear what you're up to in this new year. Divya, you kind of had similar sentiments last year; it was kind of like you want to get back to thriving... You wanted to get excited again. You were kind of burnt out on technology. You had just started a new job at Fly, and you were excited about that, but you wanted to learn, grow, develop, and then do something that's completely outside of your comfort zone. So do you feel like -- here we are, looking back... Do you feel like you got that done?
 
@@ -144,7 +144,7 @@ So I dutifully went back and I forced myself to listen to our own podcast from l
 
 **Jerod Santo:** So setting aside, I guess, ecosystem, or frameworks, or all that; like, pure language semantics and capabilities... You're getting experience with Ruby, Elixir, Go, a little bit of Rust, you obviously know JavaScript very well... Which of those new ones has spoken to you as like something that you enjoy? Just the language.
 
-**Divya:** \[00:10:09.19\] I actually like writing Go a lot. That's the one language out of all the ones you've mentioned that I have had the most experience doing... And I did that last year as well. I was writing JavaScript and Go, which I think sort of complements quite nicely. And so working within Go now is -- I like the type systems and stuff, which is really nice. I hate generics. I still hate generics in Go. TypeScript generics are way nicer. Go generics are so ugly and hard to read. And just - yeah, in general, terrible.
+**Divya:** \[10:09\] I actually like writing Go a lot. That's the one language out of all the ones you've mentioned that I have had the most experience doing... And I did that last year as well. I was writing JavaScript and Go, which I think sort of complements quite nicely. And so working within Go now is -- I like the type systems and stuff, which is really nice. I hate generics. I still hate generics in Go. TypeScript generics are way nicer. Go generics are so ugly and hard to read. And just - yeah, in general, terrible.
 
 I think I'm biased, because part of it has to do with the competency piece, and I get frustrated when I'm working with a language that I'm not competent in. It's kind of like when you go to a country where you don't speak that language, and then you have that frustration where you're like "I'm trying to express myself. Why does no one understand me? I'm an intelligent human being." And yet, I'm just being like "Donde esta el biblioteca?", or whatever...
 
@@ -210,7 +210,7 @@ I think I'm biased, because part of it has to do with the competency piece, and 
 
 **Nick Nisi:** Yeah. But I helpfully stopped that, and it was like a choice. It wasn't like I would have been devastated if it was like "I missed it." But I went on a vacation where I was fishing in the middle of nowhere, in the middle of Canada, and I was on a boat for 12 hours. There was just no way I was going to be able to do it, and that was okay in my head. So ending that trend. And I've gotten right back on it, and I'm going strong still... But ending that in a non-devastating way was important, and I did it.
 
-**Jerod Santo:** \[00:14:16.07\] That's cool.
+**Jerod Santo:** \[14:16\] That's cool.
 
 **Feross Aboukhadijeh:** That's cool, yeah. I've seen one of my friends just like pacing back and forth like at 11:30, trying to get the last few steps in, or like jumping up and down... And I don't think that's--
 
@@ -264,7 +264,7 @@ The funny thing was, it told me things after I already knew it. So back before I
 
 **Jerod Santo:** Right. "I didn't need you to know that."
 
-**Kevin Ball:** \[00:17:59.19\] Exactly. I was aware of that, actually. There's some stressful stuff going on. But I guess it does validate that it will catch that type of thing if you're not aware.
+**Kevin Ball:** \[17:59\] Exactly. I was aware of that, actually. There's some stressful stuff going on. But I guess it does validate that it will catch that type of thing if you're not aware.
 
 **Jerod Santo:** Yeah. And the benefit for me - I speak about my freedom now, but when I first did get the watch, and the closing of the rings, I was more latent prior to that, and it motivated me to get moving, and to develop good habits... And what I found out was once I had the habits, I didn't need the tracker anymore. And that's why I was like "Freedom!" And I still continue to this day working out three to five times a week, habitually, without any tracking, and I'm fine. But it was motivation, and it was actually - for me, it helped me get going again. So there's definitely value there. Divya, what were you gonna say?
 
@@ -298,7 +298,7 @@ The funny thing was, it told me things after I already knew it. So back before I
 
 **Nick Nisi:** I care much less about the data now. I'd still track everything, but I'm mostly doing like strength training, so I'm mostly tracking progress and how much I'm lifting, and things like that. So it's not nearly as much about the rings as it once was.
 
-**Break:** \[00:21:52.28\]
+**Break:** \[21:52\]
 
 **Jerod Santo:** Alright, well let's move on to reviewing last year's predictions. I see Feross wrote in the doc "No resolutions", so...
 
@@ -360,11 +360,11 @@ And then the last one was kind of a silly one... I just wanted to try jujitsu, b
 
 **Divya:** Yeah.
 
-**Jerod Santo:** \[00:25:57.21\] So definitely a lot of excitement around Svelte, Astro... A lot of excitement around Astro... If we're looking at non-Next.js things, Deno's out with their fresh framework... There was definitely a lot of new frameworks entering the scene. I mean, that's always a trend, I guess. Miško Hevery from Angular is back with a new, quick library... All of which we've covered on the podcast.
+**Jerod Santo:** \[25:57\] So definitely a lot of excitement around Svelte, Astro... A lot of excitement around Astro... If we're looking at non-Next.js things, Deno's out with their fresh framework... There was definitely a lot of new frameworks entering the scene. I mean, that's always a trend, I guess. Miško Hevery from Angular is back with a new, quick library... All of which we've covered on the podcast.
 
 So there's definitely a lot of diversity, but I definitely think that React and Next.js continued to grow and thrive in 22. So... Better luck this year.
 
-**Divya:** Yeah. You need to have like \[00:26:30.12\]
+**Divya:** Yeah. You need to have like \[26:30\]
 
 **Jerod Santo:** \[laughs\]
 
@@ -402,7 +402,7 @@ December of last year was pretty much the top. I think November -- you know, glo
 
 **Jerod Santo:** I just spoke with Mikeal a couple of weeks back; I can't remember when it was. He's very much working on protocols, decentralized protocols, Web3.storage, I think, he's still into that... Still bullish on the technology.
 
-**Kevin Ball:** \[00:30:08.18\] He was always very pragmatic about his approach to Web 3.
+**Kevin Ball:** \[30:08\] He was always very pragmatic about his approach to Web 3.
 
 **Jerod Santo:** Yes. He was always focused on the tech, was my experience with Mikeal. I think he still is. Feross, you're friends with Mikeal...
 
@@ -420,7 +420,7 @@ And then now, if you kind of look at "Okay, what has all this accomplished?" I m
 
 I don't know, it's just -- my hope for this whole thing is that it ends up actually doing useful things for real people at some point. That's the real letdown for me so far.
 
-**Jerod Santo:** \[00:34:07.28\] Yeah. And you just wonder, like, how long do we have to wait? Because for a long time, it's like "Well, it's young technology." And now it's like "Well, it's like 15 years old." I don't know, eventually it should manifest... And it has in small ways. I mean, DAOs are interesting. Like, the fact that you can do that is interesting. It never could be done before. But it hasn't really shown much value for many people. It's not like the web, which is what the comparison always is, which obviously was like hugely valuable to a global audience, and has provided a lot of people --
+**Jerod Santo:** \[34:07\] Yeah. And you just wonder, like, how long do we have to wait? Because for a long time, it's like "Well, it's young technology." And now it's like "Well, it's like 15 years old." I don't know, eventually it should manifest... And it has in small ways. I mean, DAOs are interesting. Like, the fact that you can do that is interesting. It never could be done before. But it hasn't really shown much value for many people. It's not like the web, which is what the comparison always is, which obviously was like hugely valuable to a global audience, and has provided a lot of people --
 
 **Kevin Ball:** I'm gonna pick a bone with "never could have been done before."
 
@@ -464,7 +464,7 @@ I don't know, it's just -- my hope for this whole thing is that it ends up actua
 
 **Feross Aboukhadijeh:** Sometimes there's stuff that you just want a machine to do, though, or I could see it being useful... Like, knowing that if I'm interacting with a smart contract, and it's going to do what the code says, and there's no risk that that person will not keep up their end of the bargain - that can be kind of useful. The other part of that that's cool to me is that it's like it is actually kind of like a new computer science primitive, in a sense; like, you have this new thing that you can do, that wasn't possible before... I just would like to see people doing more interesting things with it.
 
-\[00:38:05.05\] And I think the part where it seems to fall down today is related to what you're saying, Kball, which is anytime it needs to touch the real world... Like this DAO store, for example - probably it was coordinated through a contract, and there were these rules and stuff, but at the end of the day, somebody has to go and like make the store work; open the store up. And then at that point, you're just sort of - like, what are they doing? There's no way to validate that they're doing -- as soon as it connects to the real world, it just falls apart, right? There's no way to make sure that that happens, and that all involves like trust, and humans, and stuff like that. And so yeah, that's the problem I see.
+\[38:05\] And I think the part where it seems to fall down today is related to what you're saying, Kball, which is anytime it needs to touch the real world... Like this DAO store, for example - probably it was coordinated through a contract, and there were these rules and stuff, but at the end of the day, somebody has to go and like make the store work; open the store up. And then at that point, you're just sort of - like, what are they doing? There's no way to validate that they're doing -- as soon as it connects to the real world, it just falls apart, right? There's no way to make sure that that happens, and that all involves like trust, and humans, and stuff like that. And so yeah, that's the problem I see.
 
 **Kevin Ball:** Or conditions change, right? We set up a contract under one base of assumption... I mean, you're doing a startup, right? How often have you changed your understanding of the problem and had to update your software?
 
@@ -494,13 +494,13 @@ Well, we're far upstream... I've learned something... I thought that sucker boug
 
 **Jerod Santo:** Okay, so maybe that'll be a prediction for next year, or a wishlist item.
 
-**Break:** \[00:43:00.01\]
+**Break:** \[43:00\]
 
 **Jerod Santo:** Let's move now to '23 and looking forward, and talk about what we hope happens, what we think will happen, ideas, bold predictions, complete guesses... Where do we see things heading? I think TypeScript is going to finally disappear this year... Just kidding. Let's go to Kball. What have you got? 2023.
 
 **Kevin Ball:** Yeah... So my prediction, which makes me really sad, is I predict that Twitter's gonna go into bankruptcy. I don't think it's necessarily going to be a massive tech failure; early on into the Elon massacre and laying off of everyone, everyone's was like "Oh, the system's going to completely fall apart." It hasn't yet. There's a lot of holes around the edges. I don't know. But I think their ability to save it - they've completely torched their advertising base; mostly Elon has completely torched their advertising base, because nobody wants to get close to that dumpster fire. And they're on a crash course for tons of lawsuits; lawsuits in the EU around how they were trying to lay people off against the local laws, lawsuits around privacy, and all these different things. They're trying to get away from employee contracts in California, there's going to be lawsuits here, and there... The dude is like "Oh, nobody can constrain me", and he's going to find out that actually, governments do have a lot of say on different things, and you can be fined a heck ton of money... And they don't have that much money. So I think they're gonna go bankrupt. It's anyone's guess as to what's going to happen after that point.
 
-\[00:46:14.20\] I mean, I loved Twitter as a service, I still am on it, despite all of the different things... I do think it's gotten a lot worse in the last few months; there's a lot more trolling... I got like porn images in threads that I have never seen that... They used to actually have reasonable content moderation; it was not great, but that all got laid off I think, too.
+\[46:14\] I mean, I loved Twitter as a service, I still am on it, despite all of the different things... I do think it's gotten a lot worse in the last few months; there's a lot more trolling... I got like porn images in threads that I have never seen that... They used to actually have reasonable content moderation; it was not great, but that all got laid off I think, too.
 
 So I guess my ideal outcome would be it goes bankrupt, they sell the service to somebody who actually gives an F about it... Because it's not clear that Elon does, other than just like stroking his own ego.
 
@@ -532,7 +532,7 @@ So I guess my ideal outcome would be it goes bankrupt, they sell the service to 
 
 **Jerod Santo:** Yeah... The engagement is at an all-time low. I talked about this on some other show, but... Go Time does those unpopular opinion polls, and we post the polls on Twitter. We always have. We put the opinion out, and then the poll as the second tweet on the thread. And now Go Time's on Mastodon, so we are on changelog.social, and so now I'm just posting to both places when we do those threads. And Go Time's Macedon has 1/40 of the followers, and they get more votes on the polls. 10,000 people follow Go Time on Twitter, and we get 20 votes on the polls. And these are like people who are ostensibly interested in having conversations around these topics... There's just no -- no one's there, actually. That's what I've noticed on Twitter. Feross, you were gonna respond...
 
-**Feross Aboukhadijeh:** \[00:50:33.17\] Oh, I mean, I guess I agree with a lot of the feelings about how Twitter's a little bit less fun to use, and folks aren't using it as much... I've definitely seen that, too. I would take the opposite side of that bet though, that they'll be bankrupt next year. I feel like the advertisers will -- I mean, I could be wrong on this, but I feel like they'll probably come back. I mean, I think with all the layoffs, they're probably profitable at this point, so that might give them a lot of time.
+**Feross Aboukhadijeh:** \[50:33\] Oh, I mean, I guess I agree with a lot of the feelings about how Twitter's a little bit less fun to use, and folks aren't using it as much... I've definitely seen that, too. I would take the opposite side of that bet though, that they'll be bankrupt next year. I feel like the advertisers will -- I mean, I could be wrong on this, but I feel like they'll probably come back. I mean, I think with all the layoffs, they're probably profitable at this point, so that might give them a lot of time.
 
 **Jerod Santo:** Yeah, it's a skeleton crew.
 
@@ -582,7 +582,7 @@ So I guess my ideal outcome would be it goes bankrupt, they sell the service to 
 
 **Jerod Santo:** What if we wrote on our own websites, and just like did the web?
 
-**Kevin Ball:** \[00:54:18.27\] Old school tech.
+**Kevin Ball:** \[54:18\] Old school tech.
 
 **Jerod Santo:** It's cool!
 
@@ -656,17 +656,17 @@ So I guess my ideal outcome would be it goes bankrupt, they sell the service to 
 
 **Jerod Santo:** And a lot of cool stuff with SQLite in the browser via Wasm, versus what it used to be, which was like via Absurd SQL, which was a crazy, absurd library, that had multiple layers on top of IndexDB. So very cool stuff; SQLite folks are putting work in to -- I wouldn't say modernize, but like add new ways of using it, that didn't previously exist. Alright, let's go to Feross. Forecast for us. What's going to happen this year?
 
-**Feross Aboukhadijeh:** \[00:58:00.09\] So I have two predictions for 2023. So the first is - and this is really just kind of the continuation of a trend... I guess both of mine are really like continuations of trends that are already happening, I think. The first is that all the biggest open source projects seem to be backed by companies these days. I have mixed feelings about that, because I love independent open source, published by just like random individuals, just doing it out of the love... But it's kind of unavoidable. If you look around at all the projects that we use, they're usually all backed by companies, and that's actually kind of a good thing in some ways, because they get a lot of support, and they get a lot of money and stuff put into documentation, and all this other stuff... So yeah, I just think about the stuff I use... I mean, Next.js, React, VS Code - all that stuff has big companies behind it, and so I just predict that trend will continue.
+**Feross Aboukhadijeh:** \[58:00\] So I have two predictions for 2023. So the first is - and this is really just kind of the continuation of a trend... I guess both of mine are really like continuations of trends that are already happening, I think. The first is that all the biggest open source projects seem to be backed by companies these days. I have mixed feelings about that, because I love independent open source, published by just like random individuals, just doing it out of the love... But it's kind of unavoidable. If you look around at all the projects that we use, they're usually all backed by companies, and that's actually kind of a good thing in some ways, because they get a lot of support, and they get a lot of money and stuff put into documentation, and all this other stuff... So yeah, I just think about the stuff I use... I mean, Next.js, React, VS Code - all that stuff has big companies behind it, and so I just predict that trend will continue.
 
-The other prediction is - if you look at 2022, there was several headline-grabbing supply chain attacks involving NPM packages... The two big ones that come to my mind are Colors.js, where the maintainer sabotaged the code, decided he wanted to kind of put like infinite loops, and weird print statements and stuff into his package, and that affected a whole bunch of folks. And then the other one was the peacenotwar package, where the maintainer of that wanted to protest the war, and did that by deleting people's hard drives if their IP address appeared to be coming from Russia. And so those are the ones that stuck in my mind.
+The other prediction is - if you look at 2022, there was several headline-grabbing supply chain attacks involving npm packages... The two big ones that come to my mind are Colors.js, where the maintainer sabotaged the code, decided he wanted to kind of put like infinite loops, and weird print statements and stuff into his package, and that affected a whole bunch of folks. And then the other one was the peacenotwar package, where the maintainer of that wanted to protest the war, and did that by deleting people's hard drives if their IP address appeared to be coming from Russia. And so those are the ones that stuck in my mind.
 
-So I just predict there's going to be more of this stuff. I know that NPM has done some good stuff on the security side with mandating 2FA for popular packages, and stuff like that, but I just feel like there's still so many ways that the maintainer themselves can go rogue, sabotage their code, or can add a new maintainer who turns out to be an attacker in disguise, or just biding their time, and then they turn evil at some point... So I just feel like despite the progress we've made, 2023 is going to have several more of these headline-grabbing attacks in packages with millions of downloads. Yeah, just stay on the alert, and do what you can to avoid it.
+So I just predict there's going to be more of this stuff. I know that npm has done some good stuff on the security side with mandating 2FA for popular packages, and stuff like that, but I just feel like there's still so many ways that the maintainer themselves can go rogue, sabotage their code, or can add a new maintainer who turns out to be an attacker in disguise, or just biding their time, and then they turn evil at some point... So I just feel like despite the progress we've made, 2023 is going to have several more of these headline-grabbing attacks in packages with millions of downloads. Yeah, just stay on the alert, and do what you can to avoid it.
 
 **Jerod Santo:** Well said. We will see, we will see if you are right this time next year. Nick, do you have any wishlist items or predictions for '23?
 
 **Nick Nisi:** Yeah. Predictions-wise, I think that -- like, we've had the framework wars, and that's very tired, and I think that in '23 and going forward... Like, it started in '22, and it's really going to take off more in '23, is the -- we're just moving that a layer deeper with engines for running JavaScript. So we have Bun, we have Deno, we have Node... I think my prediction would be that they end up making Node better, rather than one of them supplanting node... But the competition is great.
 
-And then almost at the same level, I guess, we have NPM, we have PNPM, we have yarn... And PNPM is a joy to use, and I think that it will also bolster probably NPM, and make it much more of a joy to use. But they've added a lot of good features, too. I don't know how recent the Workspaces stuff is, but the Workspaces stuff in NPM is fantastic. It's really good in PNPM too, and the competition is going that layer deeper and pushing everything forward, which I'm really excited about. And I think that the ability to use most NPM packages within Deno really makes it a bigger contender, too.
+And then almost at the same level, I guess, we have npm, we have Pnpm, we have yarn... And Pnpm is a joy to use, and I think that it will also bolster probably npm, and make it much more of a joy to use. But they've added a lot of good features, too. I don't know how recent the Workspaces stuff is, but the Workspaces stuff in npm is fantastic. It's really good in Pnpm too, and the competition is going that layer deeper and pushing everything forward, which I'm really excited about. And I think that the ability to use most npm packages within Deno really makes it a bigger contender, too.
 
 **Jerod Santo:** I agree with that one. Okay, so real quick for me... I'm going to go in the AI space, and I'm going to predict a change. So we've had different winters and summers of AI. We're in a bit of a summer right now; we've had a lot of big, ground-shaking things, from Stable Diffusion, to ChatGPT... A lot of excitement, and we've seen some real-world uses, GitHub Copilot etc. I think we're going to continue to see that trend for probably like the next three to six months, and then I think we're going to hit a plateau again, and we're going to have -- like, GPT-4 is going to come out, and it will be slightly better, but we've already kind of seen what it can do... Stable Diffusion too already was -- people were like "Um, it's better in certain ways, but it's not like mind-blowingly better. In fact, in other ways, it makes worse images." And then people were like "Well, how do you define better and worse? We're getting subjective."
 
