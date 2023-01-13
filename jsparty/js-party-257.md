@@ -12,7 +12,7 @@
 
 **Jerod Santo:** Do you want to sing the song from Aladdin?
 
-**Nick Nisi:** I do... \[unintelligible 00:02:06.29\] down the lyrics, and... \[laughs\]
+**Nick Nisi:** I do... you can just tune down the lyrics, and... \[laughs\]
 
 **Jerod Santo:** Okay.
 
@@ -106,7 +106,7 @@ So I dutifully went back and I forced myself to listen to our own podcast from l
 
 **Divya:** I miss being competent at a language... \[laughter\] Because now, I bounce between so many languages, and I'm terrible at most of them... I think Go being the one I'm most used to, but yeah. So I do miss that. Also, just like how fast it is to write JavaScript, because things just run; you don't need like an interpreter. And everything else is just like slower, so...
 
-**Kevin Ball:** It's fast to write it, but then when you run those Go programs, you're "Holy smokes, \[unintelligible 00:08:27.27\]
+**Kevin Ball:** It's fast to write it, but then when you run those Go programs, you're "Holy smokes, they're smoking!"
 
 **Divya:** Yeah, it takes forever, and the compile system takes a while, and like some of the codebases I work on, you have to build it in Linux, and I write my code on Mac... So it's a very frustrating build process for me. So yeah...
 
@@ -228,11 +228,11 @@ And I'm a completionist, so I was on the train of closing the rings, and what ha
 
 **Nick Nisi:** I don't know what that's like. I still wear it every day.
 
-**Jerod Santo:** Well, you had freedom for 12 hours, on the boat \[unintelligible 00:15:49.07\]
+**Jerod Santo:** Well, you had freedom for 12 hours, on the boat, Nick!
 
 **Nick Nisi:** Ah, yeah.
 
-**Divya:** it's very similar to like \[unintelligible 00:15:55.18\]
+**Divya:** it's very similar to like Jinns and Genies where they have those shackles on them
 
 **Nick Nisi:** Yes...
 
@@ -390,7 +390,7 @@ So there's definitely a lot of diversity, but I definitely think that React and 
 
 **Nick Nisi:** For me personally, this is the trend that I saw as I moved into a developer tooling/experience role focused internally within the company, just making tools better... And that's been going really well, and it's a lot of fun.
 
-**Jerod Santo:** So good job, Ali. \[unintelligible 00:28:30.06\] that one.
+**Jerod Santo:** So good job, Ali. Drilled that one.
 
 **Divya:** Yeah.
 
@@ -406,7 +406,7 @@ December of last year was pretty much the top. I think November -- you know, glo
 
 **Jerod Santo:** Yes. He was always focused on the tech, was my experience with Mikeal. I think he still is. Feross, you're friends with Mikeal...
 
-**Feross Aboukhadijeh:** Yeah. I mean, he's really into the protocols, and into the true vision of decentralization, and like making that happen with new primitives, and like building new stuff... So I'm sure this isn't good for protocol \[unintelligible 00:30:30.03\] You know, the market's down, and everyone is skeptical... But I think he's just thinking about it longer-term than that, so it's not gonna stop what he's doing.
+**Feross Aboukhadijeh:** Yeah. I mean, he's really into the protocols, and into the true vision of decentralization, and like making that happen with new primitives, and like building new stuff... So I'm sure this isn't good for protocol apps. You know, the market's down, and everyone is skeptical... But I think he's just thinking about it longer-term than that, so it's not gonna stop what he's doing.
 
 **Jerod Santo:** Right. Whenever you talk to or read from the real builders, the ones who are there for principles and for technology and not for gains, and ponzis, and like quick things - which many people just come for that - they like the down markets, because all of the hype and all of the noise and all the scammers kind of just go away, and they can just put their head down and build cool stuff... Which is what they were doing the whole time anyways. But all of this stuff surrounded them. And so they tend to like times like this, because they say "Okay, we can just quit explaining it to everybody, quit talking about it, and we can build, build, build", and eventually, show us to the Promised Land.
 
@@ -478,7 +478,7 @@ I don't know, it's just -- my hope for this whole thing is that it ends up actua
 
 **Feross Aboukhadijeh:** Yeah. With BitTorrent stuff, I was always like -- I loved that it was just people deciding to contribute their bandwidth and just be part of it... So when the crypto stuff started happening, there were all these people that would say, "Wouldn't it be cool if you could pay a fraction of a cent for every megabyte that you're getting from the peers in the system? Wouldn't it be cool if we could pay people for their bandwidth, and stuff?" And I was like "Actually, it's kind of cool that everyone just shows up here in BitTorrent land and just kind of shares with each other... And I didn't get the fascination with that myself. I was like "It's actually cool that we have this social system that people just share", and I don't think it's actually an improvement to financialize it in any way. But yeah, that was just me, I think, because a lot of people were really excited by that.
 
-**Jerod Santo:** And do you think that's cool? I think you have a lot of situations where people don't share, and so there's less content, less value, and so if there was a financial reason to share... So I have seeded torrents before, and then eventually I'm like "I'm gonna turn it off now." Or I find ones where it's like there aren't any. Like, here's the contents \[unintelligible 00:41:11.16\] I don't know how it works, Feross. You do. There's a tracker for this thing, and there was people doing it, and no one's doing it anymore. And I'm like "Well, that sucks. I can't download it." And it would be cool if that thing was still out there, and maybe if somebody was making money for seeding or whatever, then it would still be out there. So I think there's some value there, but I definitely understand and agree with you that people just out of the goodness of their hearts share stuff, because they received some value from somebody else, and so they're going to also allow you to download it from them for a while. It is cool, and it is maybe as cool, and maybe cooler in certain ways, but then maybe not as cool in other ways.
+**Jerod Santo:** And do you think that's cool? I think you have a lot of situations where people don't share, and so there's less content, less value, and so if there was a financial reason to share... So I have seeded torrents before, and then eventually I'm like "I'm gonna turn it off now." Or I find ones where it's like there aren't any. Like, here's the contents \[unintelligible 00:41:11.16\] tracker. I don't know how it works, Feross. You do. There's a tracker for this thing, and there was people doing it, and no one's doing it anymore. And I'm like "Well, that sucks. I can't download it." And it would be cool if that thing was still out there, and maybe if somebody was making money for seeding or whatever, then it would still be out there. So I think there's some value there, but I definitely understand and agree with you that people just out of the goodness of their hearts share stuff, because they received some value from somebody else, and so they're going to also allow you to download it from them for a while. It is cool, and it is maybe as cool, and maybe cooler in certain ways, but then maybe not as cool in other ways.
 
 Well, we're far upstream... I've learned something... I thought that sucker bought the Constitution, man. That sucks. DAOs, what are they good for, after all? I thought they could at least buy stuff at auctions. Okay, one last prediction was that more people were going to start to use Temporal. And I think this one also is not true, because it looks like it's still not done yet. Is it out in any browsers today? I think we all want to be using it... These are the new fancy API for working with dates in JavaScript... And I think it's just like still in development pretty much.
 
@@ -564,7 +564,7 @@ So I guess my ideal outcome would be it goes bankrupt, they sell the service to 
 
 **Jerod Santo:** Yeah, the shattered one.
 
-**Nick Nisi:** I think it's important talking about this though briefly, as brief as possible, just because tech Twitter has been such a big thing. Like, that's where you go to hear about things, like all of the big frameworks and everything, and all of the tech people that are the Rich Harris'es, and the -- everyone's on there talking, and you get like a live feed into their stuff, and then you can reply to them, and they reply back. And there's a good dialogue that has been there for so long. So that's why it's like so important to us... Whereas otherwise, it's just like this \[unintelligible 00:53:14.08\] social network that nobody uses outside of tech and politics, really. And I think that it doesn't matter if it's bankrupt or not, because I think that they've lost -- they're going to lose that. I don't think that it's going to be the place for tech anymore...
+**Nick Nisi:** I think it's important talking about this though briefly, as brief as possible, just because tech Twitter has been such a big thing. Like, that's where you go to hear about things, like all of the big frameworks and everything, and all of the tech people that are the Rich Harris'es, and the -- everyone's on there talking, and you get like a live feed into their stuff, and then you can reply to them, and they reply back. And there's a good dialogue that has been there for so long. So that's why it's like so important to us... Whereas otherwise, it's just like this meddling social network that nobody uses outside of tech and politics, really. And I think that it doesn't matter if it's bankrupt or not, because I think that they've lost -- they're going to lose that. I don't think that it's going to be the place for tech anymore...
 
 **Jerod Santo:** Right.
 
