@@ -170,9 +170,9 @@ So I think the observation here is -- and we've talked about this on the show wi
 
 **Daniel Whitenack:** On the note of things being useful to humans and humans getting involved, we did want to leave you with a few learning resources to explore things related to ChatGPT... Of course, play around with ChatGPT; you can go on the website and interact with it, we'll provide the link. But also, I would really highly recommend that you look at this Hugging Face blog about reinforcement learning from human feedback. There's actually a bunch of links in there as well to other things that you can kind of spin off and look at, like the PPO algorithm and other things in there.
 
-Also, there's good reference. I always love looking back at \[unintelligible 00:42:39.16\] descriptions of how certain language models work. He has one on GPT-3 and other GPT -- actually, a number on GPT from different perspectives...
+Also, there's good reference. I always love looking back at Jay Alammar's descriptions of how certain language models work. He has one on GPT-3 and other GPT -- actually, a number on GPT from different perspectives...
 
-And then there's an interesting article on "GPT-3 architecture on a napkin" from a blog \[unintelligible 00:42:59.17\] I've found it quite interesting how they describe some of the things there.
+And then there's an interesting article on "GPT-3 architecture on a napkin" from a blog [Dugas.ch] (https://dugas.ch/artificial_curiosity/GPT_architecture.html) I've found it quite interesting how they describe some of the things there.
 
 **Chris Benson:** I like that one as well.
 
