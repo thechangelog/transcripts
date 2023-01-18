@@ -156,7 +156,7 @@ So we put you through the narrowest part of the funnel up top, right? So you sig
 
 **Mat Ryer:** Much easier tech. That's a good reason to do, if no other.
 
-**Paul Smith:** \[28:11\] And I have to say, I personally believe we should have affordable, universal healthcare coverage in this country. I think it's a right. I'm really proud of the Affordable Care Act for moving us closer to that goal; it expanded coverage tremendously. That's what was so important to us, and why it was critical that we worked so hard to turn it around, was because we didn't want to go backwards, right? We didn't want to lose 20 million people have covered with healthcare. We wanted to lock that in. Although now it's \[unintelligible 00:28:40.09\]
+**Paul Smith:** \[28:11\] And I have to say, I personally believe we should have affordable, universal healthcare coverage in this country. I think it's a right. I'm really proud of the Affordable Care Act for moving us closer to that goal; it expanded coverage tremendously. That's what was so important to us, and why it was critical that we worked so hard to turn it around, was because we didn't want to go backwards, right? We didn't want to lose 20 million people have covered with healthcare. We wanted to lock that in. Although now it's up for--
 
 **Mat Ryer:** So it had a kind of political imperative for you, along with the thing that we all have about wanting to make the tech work.
 
@@ -376,7 +376,7 @@ So it depends on where you're coming from; you're gonna have a sort of a differe
 
 **Johnny Boursiquot:** \[55:11\] Wow...!
 
-**Mat Ryer:** Oh, that was quite the pitch. It was the first time an unpopular opinion has been used to advertise things. \[laughter\] Johnny, have you got any products you want to push during your unpopular opinion? Oh, my book's really unpopular; let me just \[unintelligible 00:55:26.21\] \[laughter\]
+**Mat Ryer:** Oh, that was quite the pitch. It was the first time an unpopular opinion has been used to advertise things. \[laughter\] Johnny, have you got any products you want to push during your unpopular opinion? Oh, my book's really unpopular; let me just get a copy and show you all. \[laughter\]
 
 **Johnny Boursiquot:** Wow...!
 
@@ -410,7 +410,7 @@ So it depends on where you're coming from; you're gonna have a sort of a differe
 
 **Johnny Boursiquot:** ...have Mat do a little dance, or something. I don't know.
 
-**Mat Ryer:** Yeah. On a podcast. And we could all pretend it was good. No one would \[unintelligible 00:56:23.26\]
+**Mat Ryer:** Yeah. On a podcast. And we could all pretend it was good. No one would be ano of the wiser.
 
 **Jerod Santo:** Mat does do impressions. We've gotta get those going.
 
