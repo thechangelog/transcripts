@@ -58,7 +58,7 @@
 
 **Gerhard Lazu:** Okay...
 
-**Andrew Rynhard:** \[00:05:53.19\] So I was competing in mixed martial arts. I was training in San Jose, California. That's what I thought I was going to do. And long story short, I ended up deciding that I'm going to go back to school, and I got into UCSB for physics. And so that's what actually brought me out here to Santa Barbara. And I didn't do jujitsu for some time, I was kind of out of Mixed Martial Arts, and it was still very much a big part of me. I started dealing with a bit of depression, because your identity as a fighter - it's a big thing. You see a lot of fighters when they actually decide to not do it anymore, they don't know who they are. I felt that way a little bit. And so I've found a gym called Paragon out here in Goleta. It's a really world-class and renowned, well-known gym, and there was this tall, lanky, really strong Australian guy...
+**Andrew Rynhard:** \[05:53\] So I was competing in mixed martial arts. I was training in San Jose, California. That's what I thought I was going to do. And long story short, I ended up deciding that I'm going to go back to school, and I got into UCSB for physics. And so that's what actually brought me out here to Santa Barbara. And I didn't do jujitsu for some time, I was kind of out of Mixed Martial Arts, and it was still very much a big part of me. I started dealing with a bit of depression, because your identity as a fighter - it's a big thing. You see a lot of fighters when they actually decide to not do it anymore, they don't know who they are. I felt that way a little bit. And so I've found a gym called Paragon out here in Goleta. It's a really world-class and renowned, well-known gym, and there was this tall, lanky, really strong Australian guy...
 
 **Gerhard Lazu:** Called Steve?
 
@@ -92,7 +92,7 @@
 
 **Andrew Rynhard:** Yes, there you go, Frezbo. \[laughs\]
 
-**Gerhard Lazu:** \[00:09:55.01\] Alright, so his surname is Frezbo. So Noel, thank you very much for all your help in the Slack. I mean, some of those answers were spot on. And of course, Andrey Smirnov, because he's everywhere, right? So Andrey is everywhere. So thanks, guys. I really appreciate it.
+**Gerhard Lazu:** \[09:55\] Alright, so his surname is Frezbo. So Noel, thank you very much for all your help in the Slack. I mean, some of those answers were spot on. And of course, Andrey Smirnov, because he's everywhere, right? So Andrey is everywhere. So thanks, guys. I really appreciate it.
 
 **Steve Francis:** I mean, all our staff are amazing. We have an amazing team. They're all really good. But yeah, Andre is -- I don't know how he does all the engineering work he does, because he is also extremely helpful in the community Slack.
 
@@ -148,7 +148,7 @@
 
 **Andrew Rynhard:** Yeah. Well, I guess the question is "Where do I start?" Where we're at today has really been the vision for me personally, where I wanted Kubernetes to be. It was a lot of fun learning Kubernetes using kubeadm, doing Kubernetes the hard way; it was fun. But that fun very quickly dies, and never returns when you're doing this in production. And so the goal has always been to make it that simple. But along the way, we've had to make a lot of big decisions.
 
-\[00:13:57.23\] We started off with kubeadm, but kubeadm just fundamentally wasn't designed with the idea of a Linux distribution that is purely API and configuration-driven. So there was some weirdness in trying to shoehorn that into our paradigm.
+\[13:57\] We started off with kubeadm, but kubeadm just fundamentally wasn't designed with the idea of a Linux distribution that is purely API and configuration-driven. So there was some weirdness in trying to shoehorn that into our paradigm.
 
 So then we decided to go down to a project called \[unintelligible 00:14:13.13\], which was formerly a CoreOS project. It was self-hosted Kubernetes. So it would spin up a temporary control plane using static pods, and then using that temporary control plane you'd actually apply your control plane, which would be backed and stored within etcd. Then you'd tear down the old pods and then you have Kubernetes sort of managing itself. And that's as scary as it sounds. I thought it was really cool, but in practice, it was very much a pain, and so we decided to go away from that entirely.
 
@@ -174,7 +174,7 @@ I mean, being able to talk to your operating system through CLI only... Okay, it
 
 **Gerhard Lazu:** Exactly, yeah. And you just throw away so much complexity; even when it comes to networking, there's so much stuff happening just in that stack, never mind everything else - storage, securing whatever boots... It's just like, it's never-ending. And good luck configuring all of that. It doesn't matter what configuration management system you use. There is a lot of complexity there. Okay...
 
-**Andrew Rynhard:** \[00:17:52.24\] Yeah. It's ten different files, and depending on which distro, it's network manager, or it's just good old \[unintelligible 00:17:59.20\] files... To your point, I think at that layer of operating -- like, the operating system layer, like you said, this is a 20, 30-year old way of managing this. If we're going to get beyond things like climate change, and these types of things, fix real problems, we can't be sitting here worrying about building RPMs and doing package managers. The Linux distributions and the fundamental way we run technology needs to be just forgotten about; it needs to be "That's the way it is." And the best way to do that, in my opinion, is to make it so simple that it doesn't even matter. It doesn't really -- it's not really a thing.
+**Andrew Rynhard:** \[17:52\] Yeah. It's ten different files, and depending on which distro, it's network manager, or it's just good old \[unintelligible 00:17:59.20\] files... To your point, I think at that layer of operating -- like, the operating system layer, like you said, this is a 20, 30-year old way of managing this. If we're going to get beyond things like climate change, and these types of things, fix real problems, we can't be sitting here worrying about building RPMs and doing package managers. The Linux distributions and the fundamental way we run technology needs to be just forgotten about; it needs to be "That's the way it is." And the best way to do that, in my opinion, is to make it so simple that it doesn't even matter. It doesn't really -- it's not really a thing.
 
 But when you allow a human to get onto a machine, we have a tendency to love everything that we can interact with. We want to make these servers special, and name them after Lord of the Rings characters... But by just simply getting humans off of the box, we've already kind of cut that emotional tie, and it allows us to start thinking about the next layer of things that we really need to solve, to really do things at the scale we need to land on Mars, or something like that. I don't know.
 
@@ -198,7 +198,7 @@ But when you allow a human to get onto a machine, we have a tendency to love eve
 
 **Andrew Rynhard:** But yeah, the operating system really is just the PID 1, and a Linux kernel. There's some magic you've got to do with the initial init that the kernel loads, and then you switch route after setting up base pseudo file systems like dev, and proc, and whatnot. But to your point earlier about networking being a big part of how you manage Linux - honestly, that's where most of the complexity within Talos exists. Otherwise, it's pretty simple.
 
-\[00:22:18.22\] It's funny, because a big reason why Talos Linux exists today is because I was learning Linux from a project called Linux From Scratch. Basically, it's exactly what it sounds like - you build a Linux distribution from scratch. And in that process, I learned that Linux is actually very, very simple, at the end of the day; it's very, very simple. But Linux distributions have made it complex, and they've made it sort of tribal by having a love for a certain package manager. And that's really the only difference between any two Linux distributions. So really, Talos throws all that out. And so it's just as close to the Linux kernel as we can get as possible. And the init system just gives you mechanisms or knobs and buttons that you can turn and push in order to configure the kernel, ultimately - because that's what Linux is - but in a well structured way, instead of free-handed, and between any two files you have tabs, or spaces, or comma delimited... This is a nice, structured way of doing it.
+\[22:18\] It's funny, because a big reason why Talos Linux exists today is because I was learning Linux from a project called Linux From Scratch. Basically, it's exactly what it sounds like - you build a Linux distribution from scratch. And in that process, I learned that Linux is actually very, very simple, at the end of the day; it's very, very simple. But Linux distributions have made it complex, and they've made it sort of tribal by having a love for a certain package manager. And that's really the only difference between any two Linux distributions. So really, Talos throws all that out. And so it's just as close to the Linux kernel as we can get as possible. And the init system just gives you mechanisms or knobs and buttons that you can turn and push in order to configure the kernel, ultimately - because that's what Linux is - but in a well structured way, instead of free-handed, and between any two files you have tabs, or spaces, or comma delimited... This is a nice, structured way of doing it.
 
 So that is Talos Linux, that is our operating system, is just putting some structure in front of Linux with an API, and a more complex networking stack, that's interpreted, or at least directed by the configuration file. And that's the bulk of Talos. And of course, there's some operational knowledge too baked within Talos, like protecting you against doing stupid things with etcd. So imagine you're trying to upgrade two of your control planes at once, and that means -- well, let's assume you have three; that means etcd is going to be down because it doesn't have quorum... It will stop you from doing silly things like that. So there's some operational knowledge baked into it as well, that makes it a little bit unique, but it's simple at the end of the day, really. It just took a lot of work to get here.
 
@@ -208,7 +208,7 @@ So that is Talos Linux, that is our operating system, is just putting some struc
 
 **Steve Francis:** That's true. So they're duplicates. A typical Ubuntu install has like over 3,500 binaries, executables installed. So that's a lot more things that can attack, and be misconfigured, and need to be secured. Just things to go wrong. The less code there is, the less to go wrong.
 
-**Break:** \[00:24:39.17\]
+**Break:** \[24:39\]
 
 **Gerhard Lazu:** We talked about simplicity, we talked about networking, and this surprised me in the best possible way... Not initially. Initially it was like a WTF moment for me... But I was thinking "How the hell do I cluster these things?" And, okay, Omni has something to do with it, and we will leave this for slightly later... But Talos has KubeSpan. And KubeSpan just blew my -- I didn't realize it was that simple. I was like "What am I missing? This can't be it..." And it's a piece of technology... Spoiler alert, it's WireGuard behind the scenes, which I love... Like, having dealt with OpenVPN, and IPsec, and a bunch of other things, I was like "Oh yes, please, let it be WireGuard." So it was like a Christmas wish for me. Like, if I have to deal with it, just let it be WireGuard. And the way nodes cluster is incredibly simple. I wasn't expecting it to be that simple... So I was like "I must be missing something."
 
@@ -256,7 +256,7 @@ So KubeSpan just really is orchestration for how do nodes discover other nodes, 
 
 **Andrew Rynhard:** Okay.
 
-**Gerhard Lazu:** \[00:31:40.20\] Ask me about my NixOS afterwards. I have another completely fanless system, AMD build, crazy NVMe drives, whatnot... Anyways, that's another story. And that is one of my Talos nodes. The other one is, again, a bare metal host, running in a data center... And I'm still missing a third one, to create my quorum... Which is where a lot of my issues started, because I was starting with a single node, which was a control plane that had to schedule workloads. And that's where a lot of the help came... And "Yeah, you can do this, you can do that", and there's like a few gotchas... For example, you have to boot... So you have to apply the config to the control plane first, if you want to configure it to run workloads. Because once you apply it, and then you apply it again, it won't fully do it. Again, it's like me doing things that were not anticipated. But it's possible; like, all of those things I worked out, and whatnot... So that was really, really good.
+**Gerhard Lazu:** \[31:40\] Ask me about my NixOS afterwards. I have another completely fanless system, AMD build, crazy NVMe drives, whatnot... Anyways, that's another story. And that is one of my Talos nodes. The other one is, again, a bare metal host, running in a data center... And I'm still missing a third one, to create my quorum... Which is where a lot of my issues started, because I was starting with a single node, which was a control plane that had to schedule workloads. And that's where a lot of the help came... And "Yeah, you can do this, you can do that", and there's like a few gotchas... For example, you have to boot... So you have to apply the config to the control plane first, if you want to configure it to run workloads. Because once you apply it, and then you apply it again, it won't fully do it. Again, it's like me doing things that were not anticipated. But it's possible; like, all of those things I worked out, and whatnot... So that was really, really good.
 
 Now, some people use Raspberry Pi's for this. I don't think many people use bare metal hosts. But what do you see the typical workload where Talos shines?
 
@@ -284,7 +284,7 @@ Now, some people use Raspberry Pi's for this. I don't think many people use bare
 
 **Andrew Rynhard:** So something like a Raspberry -- yeah, fanless... And Raspberry Pi's are really, really great for that. And it's just kind of fun knowing that this small little board is running... Like, for me in particular too, just knowing it's running Talos Linux, a single Go binary and a kernel, and it's spinning up Kubernetes, and it's just on this little thing that's in the palm of my hand... It's really, really fun. People build these cool little stacks, you stack them on top of each other and stuff like that, and put fancy LEDs and whatnot... So yeah, I think there's an element of fun, and it used to be more affordable as well, for sure.
 
-**Gerhard Lazu:** \[00:36:11.08\] Yeah. I mean now, if you want to get like a decent one, they're crazy expensive, by the time you add all the things.
+**Gerhard Lazu:** \[36:11\] Yeah. I mean now, if you want to get like a decent one, they're crazy expensive, by the time you add all the things.
 
 **Andrew Rynhard:** Yeah.
 
@@ -316,7 +316,7 @@ And so there are some of them that do make these assumptions, that there's Bash,
 
 **Andrew Rynhard:** Yeah, exactly. Yeah.
 
-**Gerhard Lazu:** \[00:40:04.05\] I know that security is a big deal in Talos... Can you tell us a bit more about that, Steve?
+**Gerhard Lazu:** \[40:04\] I know that security is a big deal in Talos... Can you tell us a bit more about that, Steve?
 
 **Steve Francis:** No. But Andrew can. \[laughter\]
 
@@ -354,7 +354,7 @@ We are thinking about having more native integrations in the future, but it's no
 
 **Gerhard Lazu:** That is a great starting point. And again, everything that I've tried so far, it worked really well. And I wasn't expecting it to be that simple and straightforward. Now, there's a lot of blanks to be filled... And that's on purpose, right? Because you can't know what CNIs people will choose. And if anything, you maybe mention "Hey, this person or this use case, we are aware of this being used." Again, I think it's usage, people talking about it... That's something which I'm hoping to do a bit more as I'm continuing on my Talos journey, sharing how did I change my CNI, and why did I pick one versus the other... Because it's a real production, with real needs, that the majority will have. What about MetalLB? How did that work, and what does it look like in practice? So are there things that you typically see your customers install on Talos? ...like some common, common things.
 
-**Andrew Rynhard:** \[00:44:14.09\] Yeah, definitely. We've kind of touched on them already. MetalLB is definitely common. Rook CEPH is definitely common. What are some other ones? Definitely ingress controllers, obviously. The NGINX one is great. That's the one I've used. It works very, very well.
+**Andrew Rynhard:** \[44:14\] Yeah, definitely. We've kind of touched on them already. MetalLB is definitely common. Rook CEPH is definitely common. What are some other ones? Definitely ingress controllers, obviously. The NGINX one is great. That's the one I've used. It works very, very well.
 
 **Steve Francis:** The usual monitoring and logging...
 
@@ -372,7 +372,7 @@ And then, all you do is you go into your web portal, if you want to make a new c
 
 And WireGuard gets deployed, KubeSpan is configured, Talos is installed, Kubernetes is installed, the cluster is bootstrapped... But that all happens automatically; you get a nice management GUI where you can see performance, and nodes, you can run upgrades... It's really simple, really slick.
 
-**Gerhard Lazu:** \[00:48:01.13\] Yeah. That is the one thing which, again, I was expecting... Because I started with the open source one, and I was expecting there to be more things to do... But once I realized that "Hang on, the image which I downloaded, that is mine, was generated for my own account", and as soon as that image boots, it's ready to go. It will show up in the UI. It's all configured, it's ready to literally just set it up. And I was expecting the Talos CTL port, the 50,00 to be open... Nope, no such thing.
+**Gerhard Lazu:** \[48:01\] Yeah. That is the one thing which, again, I was expecting... Because I started with the open source one, and I was expecting there to be more things to do... But once I realized that "Hang on, the image which I downloaded, that is mine, was generated for my own account", and as soon as that image boots, it's ready to go. It will show up in the UI. It's all configured, it's ready to literally just set it up. And I was expecting the Talos CTL port, the 50,00 to be open... Nope, no such thing.
 
 **Steve Francis:** No, because all the authentication is done through the SaaS account. So it ties into your authentication provider, Google, or GitHub, or whatever. So you can have multiple users going in. And if someone leaves your company, you don't have to lock down all your Kubernetes clusters and take away their tokens. It's just like they can no longer authenticate through the account, and they can't connect directly to the machines... So we're good to go. Security is kind of paramount in this design.
 
@@ -390,7 +390,7 @@ And WireGuard gets deployed, KubeSpan is configured, Talos is installed, Kuberne
 
 **Andrew Rynhard:** Yeah, we wanted to make it -- you can still debug, of course, with Talos CTL; that's still really, really important. But when you're managing Talos nodes with just Talos CTL, you're forced to think about them as individual nodes still, where with Omni, it gets us a centralized place to think about these things in more broad strokes. So you could just say, "upgrade my cluster to this version of Talos", and we have the logic to roll that out in the same way, instead of you rolling that yourself and writing Ansible playbooks, or whatever your poison of choice is.
 
-**Break:** \[00:50:55.17\]
+**Break:** \[50:55\]
 
 **Gerhard Lazu:** So there was KubeSpan in 2021, there was Omni in 2022... By the time this comes out, it'll be 2023; the first episode for 2023. What can you tell us about the things that you're thinking about for 2023?
 
@@ -418,7 +418,7 @@ So I would say just security in general is always a thing that's on our list. St
 
 **Andrew Rynhard:** Yeah. Right, exactly. I was just gonna add that it does open up some interesting opportunities as well for our users, where you could build controllers that Talos could load up very early on in the boot process, and they contain business-specific logic, and almost like CRDs, you can have a configuration file that that controller knows how to take care of, and you just submit it to Talos... Talos doesn't necessarily -- core Talos doesn't need to know how to handle it; that controller that you've embedded into your custom version of Talos could. And that could be whatever you imagine you want that to be. A controller for your BGP configuration... Who knows?
 
-**Gerhard Lazu:** \[00:55:52.26\] Yeah. Okay. Now, the one thing which I should say is that I did manage to upgrade from 1.27 to 1.30. And again, there's like a theme here, because I didn't realize just how simple the whole process was going to be. The only gotcha was that I had a single node. And there's a safety feature to prevent a single-node etcd from going down. That was it. Like, once I had that part figured out, it just nicely rolled through.
+**Gerhard Lazu:** \[55:52\] Yeah. Okay. Now, the one thing which I should say is that I did manage to upgrade from 1.27 to 1.30. And again, there's like a theme here, because I didn't realize just how simple the whole process was going to be. The only gotcha was that I had a single node. And there's a safety feature to prevent a single-node etcd from going down. That was it. Like, once I had that part figured out, it just nicely rolled through.
 
 So upgrades, which tends to be a very complicated thing, was fairly simple now. I didn't have many workloads, so maybe when there's more workloads... But you have like a nice, graceful shutdown, I could see all the steps it was going through... It's really well thought through; it's as if you've been doing this for more than two or three years. \[laughter\] Okay...
 
@@ -448,7 +448,7 @@ So upgrades, which tends to be a very complicated thing, was fairly simple now. 
 
 **Gerhard Lazu:** Yeah, exactly. There will be a follow-up, okay? That's a promise. That's a promise. Okay. Okay. What would you like from your community? What would you like to see from your users? Is there anything that you want to share with them, for those that are listening?
 
-**Andrew Rynhard:** \[00:58:36.24\] I mean, first of all, I just want to say thank you. I vividly recall - and this is a big thing to say this, because I don't remember yesterday... I think from getting punched in the head for all those years, my memory is not great. But I vividly recall the day that I decided I was gonna put Talos out into the world. I was sitting at my old house, on the couch, it was a Thursday night, I think it might even have been like Valentine's Day, and it's probably not what I should have been doing on Valentine's Day, coding on a Linux distribution... I have a wife...
+**Andrew Rynhard:** \[58:36\] I mean, first of all, I just want to say thank you. I vividly recall - and this is a big thing to say this, because I don't remember yesterday... I think from getting punched in the head for all those years, my memory is not great. But I vividly recall the day that I decided I was gonna put Talos out into the world. I was sitting at my old house, on the couch, it was a Thursday night, I think it might even have been like Valentine's Day, and it's probably not what I should have been doing on Valentine's Day, coding on a Linux distribution... I have a wife...
 
 **Gerhard Lazu:** You had to get it out there. You had to get it out of your system so you could focus on other things.
 
