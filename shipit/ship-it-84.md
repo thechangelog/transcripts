@@ -1,589 +1,477 @@
-**Gerhard Lazu:** One of my favorite talks from KubeCon in May, the European one, was Overview and State of Linkerd, and you all did a fabulous job... But I have to say, between you and Matei, I'm not sure who was the better one. I think it was a great, great talk. No, seriously, how is Matei doing?
+**Gerhard Lazu:** I think that a new year is a natural time for new beginnings... And as our listeners know, we used to run all of changelog.com on Kubernetes until April 2022, when we move to something simpler; something that's all our team can be comfortable with. What I'm most comfortable with is bare metal hosts. I'm also comfortable with Kubernetes, and it just so happens that I have some bunch of droplets lying around, \[unintelligible 00:01:36.19\] with various workloads, mostly PHP and MySQL, that are due a refresh. \[unintelligible 00:01:42.21\] the five years are coming up, and I wanted to try something else. So given a bunch of bare metal hosts with fast, local SSD disks, how would I convert them to a production setup running Kubernetes? That was my starting point. And I've been preparing for this since episode 25, October 2021. Andrew, welcome back to Ship It.
 
-**William Morgan:** He is doing great. He is doing really fantastic. He's kind of a rising start in the CNCF. He was a Community Bridge participant as a student, just (I think) a year ago... And then he has already risen to the levels of Linkerd maintainer. So yeah, he's really fantastic.
+**Andrew Rynhard:** Thank you. I'm glad to be here again.
 
-**Gerhard Lazu:** I really love that story, like him shipping code... Going from nothing to shipping code for Linkerd - that was amazing to see. And the enthusiasm, and the fresh perspective - all that's been great.
+**Gerhard Lazu:** How are you?
 
-So in May we heard many good things, many great things about Linkerd 2.10. I know that Linkerd 2.11 is out, so what is new, in the new version?
+**Andrew Rynhard:** I'm doing well. It's been -- wow, that was a year ago? It feels like five years ago.
 
-**William Morgan:** Yeah, great question. So 2.10 was a big step, and 2.11 is even bigger. This is the first time where we have introduced policy into Linkerd, which means that you can now control which services are allowed to connect in to communicate with each other. Prior to 2.11, whenever you told Linkerd "Hey, I'm service A, and I wanna talk to service B", Linkerd has done its best to make that happen. It'll do retries if there's a transient failure, it'll do load balancing, it'll do all this stuff. And now with 2.11, for the first time you can say "No, A is not allowed to talk to B, unless these conditions are met."
+**Gerhard Lazu:** Lots of things happened, yeah...
 
-**Gerhard Lazu:** \[04:20\] Okay.
+**Andrew Rynhard:** A lot has happened since then. But yeah, I can't say all of them were bad. Most of them were good, so... Yeah.
 
-**William Morgan:** So that's a big -- you know, for anyone who's in the security world, this is the idea of micro-segmentation, and this sort of thing becomes very important.
+**Gerhard Lazu:** Okay. Well, we will dig into that. I won't press too hard right now, we're just getting started, but we'll dig into that. Steve, thank you for making the time to join us.
 
-**Gerhard Lazu:** How do you declare that? Do you have a UI, do you have a configuration? How does that work?
+**Steve Francis:** Yeah, my pleasure. Good to be here.
 
-**William Morgan:** Yeah, so a lot of our design principles in Linkerd are to allow you to do powerful things with as little configuration as possible. And the way we do that typically is by sticking as close as we can to Kubernetes primitives. So rather than inventing some new version of a service - well, we just use regular Kubernetes services; rather than inventing an abstraction layer on top of these other things - we just give you those Kubernetes objects directly.
+**Gerhard Lazu:** I really appreciate all your help in the Talos community Slack. I had so many questions, and you answered some of them so well; it was super-helpful. Thank you.
 
-So we've tried to avoid introducing CRDs, and I think prior to 2.11 we had two CRDs I think in total, from two years of development, or five years of development, or however you wanna count it. But with 2.11 we introduced two new CRDs.
+**Steve Francis:** Yeah. My pleasure. It's actually fairly unusual that I get to answer the technical questions, because --
 
-The way that it works is you express policy by using a set of annotations that you can set at the cluster level, at the namespace level, at the workload level... Or, in addition to that, you can add these CRDs that basically specify the types of traffic that are allowed. And that combination together is really elegant, because it means you can express a wide variety of things, from either a very open cluster that only has certain exceptions, like this sensitive service - you can only talk to it under these conditions, all the way to "Everything's locked down, and the only traffic that can happen is traffic that I've explicitly allowed to happen", and everything kind of in between.
+**Gerhard Lazu:** I know, right?
 
-**Gerhard Lazu:** Yeah. Okay. That makes perfect sense, especially from the Kubernetes' primitives side; I really like how you're thinking about that. But one thing which I really loved about Linkerd was the visual element - the dashboards, the graphs, all that stuff. That was amazing. So I'm wondering, from that perspective, do you also allow some customization via the UI, which then gets translated to those native Kubernetes primitives?
+**Steve Francis:** ...I'm not really the technical person in the company... \[laughs\]
 
-**William Morgan:** Yeah, so one thing we've never done, and probably never will, is allow you to create those objects through the UI. So we've always wanted the UI to be a read-only tool that allows you to understand the state of the system. But once you get into like -- you know, you're dragging a slider, or you're pressing buttons to implement YAML... It just gets very hairy very quickly. And the security concerns, and permissions, and all that stuff. So we've kept the UI totally read-only.
+**Gerhard Lazu:** So what is your role within Talos, by the way? Because our listeners don't know.
 
-**Gerhard Lazu:** That sounds great to me. That is a very wise decision, and I'm sure we'll come back to this later, another time, not today... But that sounds great. So which is your Linkerd top-of-the-mind item? And this can be something that you will be working on, or something that is like a hard problem that you've been working for some time, or something that you're excited about Linkerd, which is outside of this release or outside of the features... Which is your top of your mind?
+**Steve Francis:** Yeah, so I'm the CEO. I've been with the company about two years. Before this, I founded logicmonitor.com, a SaaS-based data center monitoring service, which is where I've worked with Andrew before.
 
-**William Morgan:** Yeah, so for me I think it's a theme more than anything else... And it's a theme that we didn't really expect when we were first starting to developer Linkerd, but it's one around security, around especially security of the traffic in your cluster.
+**Gerhard Lazu:** Okay. And now you're full-time with Talos.
 
-So we came into Linkerd in the early days of the project very reliability-focused. Our background was at Twitter, and Twitter was constantly down, at least at the time... So our vision for what we were doing was we were gonna have load balancing, and retries, and blue-green deploys, and all these reliability techniques. And what we learned early on was that a lot of the use -- I mean, some people love that stuff, but a lot of the use of Linkerd was for Mutual TLS. Why? Because people wanted to encrypt the traffic in transit. Why? Because either they had these regulatory concerns - "Oh, we work with financial data, and the government basically says we have to do this", or they just have security concerns. "We're running in the cloud. We don't have any control over the network. The best practice is we should maintain confidentiality."
+**Steve Francis:** Full-time with Talos. I was one of the initial seed investors in Andrew's company, and it's just because I -- before LogicMonitor I used to run data centers myself,; I ran data centers for Citrix Online, and ValueClick, and some other big companies... So what Andrew is doing with Talos, Linux, I think is the most innovative thing I've seen in operating systems in the 25 years I've been doing it.
 
-\[08:09\] So that was like our foray into the world of security, and that theme has continued to develop through the policy features, the micro-segmentation, and onto other features, more types of policies... You know, there's a lot more we can do in this area of "How do you secure the traffic in your cluster?" And it's a blossoming area, because everyone I think is becoming a little more comfortable with Kubernetes, so the operational concerns are -- I wouldn't say they're taken care of, but they're understood. And now they're in the world of "Oh, crap... Now I can run it, but how do I secure it? How do I make sure that if one node gets hacked, that everything doesn't fall apart?" Or more likely, if someone deploys a mistake, it can't accidentally delete our users, or expose sensitive information to the outside world.
+**Gerhard Lazu:** Wow. Okay. I'm sure it was more than just the tech that attracted you to Talos?
 
-So that theme has been just developing for us over the past couple of releases, and it's gratifying not just because things like that are cool, but because people are using it, and they're getting a lot of value out of it, which is kind of like the end goal of Linkerd; if no one's using it -- I don't know, to me that's a little unsatisfying.
+**Steve Francis:** Yes. Yes. I mean, Andrew, when I started, basically the company was Andrew and Spencer, who was basically the co-founder... And Andrew had just started. He was the lead engineer. So it was a very small company. But yeah, it was working with Andrew, and the innovation that he's bringing, and the approach.
 
-**Gerhard Lazu:** Yeah. I know that that is a very big, complicated, meaty problem to tackle, which you're not going to solve in a patch release, maybe not even in a major release. It'll take many, many cycles to get it right... And it's changing as well, with all the new rules and regulations. I know that this is something which you are passionate about, because I've seen your blog post. I've only skimmed it, the one about MTLS in Kubernetes. I intend to go back and read it properly. That's a good one, so thank you for that. There's a lot there.
+**Gerhard Lazu:** So what was the hook, Andrew, from your perspective? What is your side of the story?
 
-My top-of-mind is "Can Linkerd 2.11 still do linkerd install | kubectl apply -f?" Because that was amazing. You can install Linkerd in your Kubernetes with Linkerd? That just blew my mind when I first saw it, and I'm wondering, does it still work?
+**Andrew Rynhard:** I don't know... I mean, I think Steve is just a nice person. \[laughter\] I thought the idea was crazy. It's a brand new Linux distribution, no Bash, no SSH... So really, Steve introduced me to another one of our angel investors, Saïd Ziouani. He was the CEO of Ansible...?
 
-**William Morgan:** Yup, that still works. We've maintained that. That's not typically the production deployment, because people are moving into repeatable deployments, and Helm charts, and config-as-code... But yes, that still works. I think that's still really important, because a lot of people -- believe it or not, Linkerd has been around for six years at this point, or something... It was the first service mesh project ever. But people are still coming into it fresh face, like "Never heard of a service mesh before, I'm trying to understand this thing, I've just learned Kubernetes..." So there's a big audience to Linkerd every day, where you're not ready to like Helm it up; you're just trying to play around with this thing and understand it... So yeah, that still works.
+**Steve Francis:** He was founder and CEO of Ansible. Now he's the founder and CEO of Anchore.
 
-**Gerhard Lazu:** How would you recommend someone that installs Linkerd in production? So this is a very nice getting started, which I find very valuable, especially when I'm trying things... I love when tools are really easy to use, and this is in my perspective one of the ways in which Linkerd is super-easy to get started with... But how would you recommend that someone installs Linkerd in production?
+**Andrew Rynhard:** That's right.
 
-**William Morgan:** Yeah, so what we've seen basically is people using Helm, or Terraform, or tools that allow you to do it in a programmatic and repeatable way... And I think that's probably the best practice for production. You wanna be able to - especially if you're in the world of spinning up multiple clusters, or starting to treat your clusters as cattle and not as pets, you want those deploys to be repeatable, and you wanna know exactly how things were set up when you come back to it three years later. So you don't want it to be in someone's terminal window, and they closed their laptop three years ago, and then they left the company, and now you're like "Hm, I wonder how this \[unintelligible 00:11:37.11\]" So that's the best practice.
+**Gerhard Lazu:** Wow. Okay.
 
-**Gerhard Lazu:** Okay. One of the things which I've seen and I quite liked, especially when it comes to some projects which can be a bit more involved to set up, is there's an operator which is just meant to install things, and then you apply a thing, and the operator knows how to install itself... Because then the thinking goes the operator can also automate upgrades, which I think is an interesting proposition.
+**Andrew Rynhard:** So Steve put me in touch with him, and Sayid - he knows his stuff when it comes to open source; super-smart guy. And everyone just said "Okay, Sayid thinks this is a good idea", and Steve is a friend of mine, so he gave me that opportunity to talk to these people. He could have said, "No, you're just a gym rat jujitsu guy, and I don't want to put you in front of my friends." \[laughs\] But he did that, and so... Yeah. Now, I'm fortunate enough to say I'm the CTO of a company.
 
-**William Morgan:** \[12:02\] Yeah.
+**Gerhard Lazu:** Okay. So just to make it clear, this was not the jujitsu winner joins, or winner -- it wasn't one of those things, like whoever wins...? \[laughter\]
 
-**Gerhard Lazu:** So does Linkerd have something like that, or is Linkerd thinking about something like that?
+**Steve Francis:** It was a challenge match, but I lost, so I got to be CEO. \[laughter\]
 
-**William Morgan:** It's certainly something we've discussed in the past, and I don't think there's a reason why we wouldn't do it. Easing upgrades especially is something I'd love to do. The upgrade to 2.11 is actually pretty easy, but going from 2.9 to 2.10 was painful. Some of the configs changed, and stuff like that. I don't know that that would have been 100% automatable, but it would have been something we could assist, at least. And there's other operations too, that I think an operator would be helpful with. So yeah, we're open to it. PRs welcome.
+**Andrew Rynhard:** Yeah, loser is CEO. \[laughs\]
 
-**Gerhard Lazu:** Nice. Very smooth, very smooth. Okay. So the upgrade from 2.10 to 2.11 - is it just apply the Helm upgrade? Is that all it takes?
+**Gerhard Lazu:** Okay. So I don't remember exactly where I've seen this, but apparently you, Andrew, have something in common with MMA. Is that true, or are those just rumors?
 
-**William Morgan:** That really should be it. We didn't change -- there was one or two breaking changes around the mechanics of some of the multi-cluster stuff, but the majority of 2.11 is really additive... Which, again, is a theme that we try and stick to with Linkerd. So all of the policy stuff, which was a new feature - that's all built on top of all the MTLS stuff. And all the MTLS stuff is built on top of the Kubernetes primitives of service accounts, and mutating WebHooks, and whatever else. It just kind of compounds, and you get these very nice situations where the moment you install Linkerd - I mean, it's awesome that you can install it really quickly, but what's even more awesome to me is that when you install it and you mesh your pods, you actually have MTLS working out of the box there, without doing any config.
+**Andrew Rynhard:** Oh, yeah, that's true.
 
-If you read that long, long MTLS guide that you talked about - the vast majority of that is complicated stuff, and at the end I'm like "But you don't have to do any of that, because you can just install Linkerd and it does all that stuff for you." And that means that all the policy stuff can then be built on top of the identities that MTLS provides, that are cryptographically-secure identities, and it's all done in this zero-trust fashion, where the enforcement point is at the pod granularity, it's not at the firewall or the edge of the cluster... So all this nice stuff happens.
+**Gerhard Lazu:** Okay...
 
-**Gerhard Lazu:** Okay. Do you have any dependency on something like cert manager, or maybe a specific Kubernetes version? What does that look like?
+**Andrew Rynhard:** \[00:05:53.19\] So I was competing in mixed martial arts. I was training in San Jose, California. That's what I thought I was going to do. And long story short, I ended up deciding that I'm going to go back to school, and I got into UCSB for physics. And so that's what actually brought me out here to Santa Barbara. And I didn't do jujitsu for some time, I was kind of out of Mixed Martial Arts, and it was still very much a big part of me. I started dealing with a bit of depression, because your identity as a fighter - it's a big thing. You see a lot of fighters when they actually decide to not do it anymore, they don't know who they are. I felt that way a little bit. And so I've found a gym called Paragon out here in Goleta. It's a really world-class and renowned, well-known gym, and there was this tall, lanky, really strong Australian guy...
 
-**William Morgan:** So for Kubernetes versions we basically try and support the most recent three Kubernetes versions... And often we'll have support for earlier ones, but it's not -- really the policy is like "Okay, the most recent three." Now, if you really have to do something with an older release, maybe we can make that work.
+**Gerhard Lazu:** Called Steve?
 
-In terms of dependencies on cert manager - there's not an explicit dependency, but one thing you do have to figure out when you're running Linkerd is the certificate rotation, not of the pods themselves, but of the cluster-level issuer certificate. We have some docs on how to have that automated with a cert manager... Or you can just remember to do it. But by default, if you run that Linkerd install command, that generates a certificate that's only valid for a year. So you have a year then to figure "Okay, here's how I'm gonna rotate it."
+**Andrew Rynhard:** Steve. Yes. Called Steve. \[laughter\]
 
-**Gerhard Lazu:** Right. That's a good one. Yeah, that actually catches quite a few people.
+**Gerhard Lazu:** Wow... Okay, I just guessed it. I've only seen the head, by the way. Nothing else. Wow, okay...
 
-**William Morgan:** It does.
+**Andrew Rynhard:** And so -- yeah, from there, I kind of got away from mixed martial arts, just because I thought that if I'm going to do things like with technology and whatnot, getting hit in the head probably isn't a good thing. In fact, in college I did a study on it. That was one of my reports, or whatever... And believe it or not, getting punched in the head over and over again can have long-term serious health effects.
 
-**Gerhard Lazu:** They don't think about that.
+**Gerhard Lazu:** Right. Who would have thought that?
 
-**William Morgan:** Yeah.
+**Andrew Rynhard:** Yeah, I don't know. I don't know. So I decided I wasn't going to necessarily compete ever again in mixed martial arts. I have three kids... It doesn't make sense. It's probably not responsible of me. I still do very much love the sport, and I still very much train for it, but... Yeah, competition days are well past.
 
-**Gerhard Lazu:** But maybe if you upgrade, does it get rotated part of the upgrade? Because that would solve the problem... No, it doesn't.
+**Gerhard Lazu:** I see. Okay. Okay. So tech it is. That sounds like a very sensible choice to me. Okay. So I'm just wondering, when there's an argument, do you ever settle it by jujitsu, I mean between the two of you, ever? Has it ever happened? \[laughter\]
 
-**William Morgan:** No, it doesn't, because -- I don't believe it does. Actually, I'm gonna try.
+**Andrew Rynhard:** It would be fun to say yes, but actually, we've never really had an argument, to be honest. I'm not even lying here. we get along very well. Again, going back - jujitsu, it teaches you a lot. I think martial arts in general teaches you a lot. It teaches you how to be confident, how to avoid confrontation... And Steve's a brown belt, I'm a brown belt... Getting a brown belt in Brazilian jujitsu is no easy task. It's very, very difficult, and along that path, you learn a lot of human social skills, or at least you're supposed to, in my opinion. And so yeah, that has helped us sort of navigate how to be friends, and also run a business together. And I think we do a pretty good job of keeping the two separate, and not letting one interfere with the other.
+
+**Steve Francis:** Yeah. I mean, I would summarize the thing that jujitsu teaches you in a short term is you respect everyone but you're intimidated by no one. Whether they're above you in a hierarchy, in a business sense, you can respect them, but you don't get intimidated. You still speak your mind, or whatever. And that's what we want to embody in the company.
+
+**Andrew Rynhard:** Yeah. That's great. I've never been able to -- Steve is like my translator oftentimes. He's much better with words. That's perfect. Exactly.
+
+**Gerhard Lazu:** Okay. Well, I find it's fascinating how from jujitsu sparring partners, or sharing the same gym, you know...
+
+**Andrew Rynhard:** Yeah, you could call it sparring partners. Yeah.
+
+**Gerhard Lazu:** Very nice. Okay. Now, speaking about partners, I want to give a shout-out to two people that helped me navigate Talos OS. When it was ready, they were there. And this has been, as I mentioned, years in the making. Now, Georgie... How do you pronounce his surname? I'm not sure.
+
+**Andrew Rynhard:** That is a great question. I'm not sure I ever said it out loud... \[laughter\]
+
+**Gerhard Lazu:** Alright... Frezbo! Frezbo!
+
+**Andrew Rynhard:** Yes, there you go, Frezbo. \[laughs\]
+
+**Gerhard Lazu:** \[00:09:55.01\] Alright, so his surname is Frezbo. So Noel, thank you very much for all your help in the Slack. I mean, some of those answers were spot on. And of course, Andrey Smirnov, because he's everywhere, right? So Andrey is everywhere. So thanks, guys. I really appreciate it.
+
+**Steve Francis:** I mean, all our staff are amazing. We have an amazing team. They're all really good. But yeah, Andre is -- I don't know how he does all the engineering work he does, because he is also extremely helpful in the community Slack.
+
+**Gerhard Lazu:** Yeah. I think it really helps to feed that... Being close to your users, it helps you figure out what is missing. I mean, that's such a great approach. Okay.
+
+**Andrew Rynhard:** Yeah. And it's just about being genuine too, I think. if you're gonna do open source, you should have, you should be genuinely concerned about the people that are using your product. Otherwise, open source becomes theatrics, in my opinion.
+
+**Gerhard Lazu:** That's right.
+
+**Andrew Rynhard:** We do open source because we want to be helpful. Of course, as a business we want to also make money...
+
+**Steve Francis:** \[laughs\] Which is not really Andrey's view from a few years ago. A few years ago Andrey was like "No, we're pure open source. We're never gonna charge for anything."
+
+**Gerhard Lazu:** I have noticed that, by the way. I have noticed that. That was very interesting.
+
+**Andrew Rynhard:** Yeah. There has been a bit of a transition there, of course... But yeah, it's just about being genuine, and I think those two -- to Steve's point, our whole team is really good about that... But those two in particular seem to be more public about it. We're all genuinely wanting to make a really great product for all of our users, and to your point, it's about being there for them. So, yeah...
+
+**Gerhard Lazu:** So back to my conundrum - again, first-hand experience; this was not set up... "One day I decided I'll go for this, and I'll see what happens next", which is one of my favorite approaches. So given a few bare metal hosts, with fast local SSD storage, the quickest way for me to get Kubernetes was Talos. I tried a few other things, but there is nothing simpler than booting the right image and running three commands. I'll start with the first one. Let's see how tech-savvy we are among the three of us. The first one, talosctl gen config. What happens next?
+
+**Andrew Rynhard:** What does that do, is that the question?
+
+**Gerhard Lazu:** No, what is the next one? There's three commands to run to get a node after it has booted to have Kubernetes on it. The first one is to gen the config. The second one is...
+
+**Andrew Rynhard:** Apply config.
+
+**Gerhard Lazu:** Correct.
+
+**Steve Francis:** --insecure.
+
+**Gerhard Lazu:** Yes, always. \[laughter\] Why? Why is it insecure? That's a very interesting point.
+
+**Andrew Rynhard:** Well, at that point, we have no PKI.
+
+**Gerhard Lazu:** Hmm, okay.
+
+**Andrew Rynhard:** We have no certs on them. The configuration files that you just generated - they are not present on Talos, so we don't know how to secure the API yet. And so it's just sitting there, saying, "Hey, give me a configuration file. And once you give it to me, I'll secure myself on these ports."
+
+**Gerhard Lazu:** Okay. That's a great one. The last command. It starts with a B.
+
+**Steve Francis:** Bootstrap.
+
+**Gerhard Lazu:** That's the one. That's it. Three commands.
+
+**Steve Francis:** Bootstrap etcd. That's it, yeah.
+
+**Gerhard Lazu:** Apply config bootstrap. And that's it. That's all it takes to get Kubernetes on a bare metal node. And by the way, this is open source. There's nothing to pay. Anyone can do this. I was so impressed, like --
+
+**Steve Francis:** A lot of people do. \[laughs\]
+
+**Gerhard Lazu:** And a lot of people do, exactly. So as simple as this sounds, I'm sure there's like a big story behind it to get to this simplicity. Who would like to start?
+
+**Steve Francis:** Well, this is Andrew's story.
+
+**Andrew Rynhard:** Yeah. Well, I guess the question is "Where do I start?" Where we're at today has really been the vision for me personally, where I wanted Kubernetes to be. It was a lot of fun learning Kubernetes using kubeadm, doing Kubernetes the hard way; it was fun. But that fun very quickly dies, and never returns when you're doing this in production. And so the goal has always been to make it that simple. But along the way, we've had to make a lot of big decisions.
+
+\[00:13:57.23\] We started off with kubeadm, but kubeadm just fundamentally wasn't designed with the idea of a Linux distribution that is purely API and configuration-driven. So there was some weirdness in trying to shoehorn that into our paradigm.
+
+So then we decided to go down to a project called \[unintelligible 00:14:13.13\], which was formerly a CoreOS project. It was self-hosted Kubernetes. So it would spin up a temporary control plane using static pods, and then using that temporary control plane you'd actually apply your control plane, which would be backed and stored within etcd. Then you'd tear down the old pods and then you have Kubernetes sort of managing itself. And that's as scary as it sounds. I thought it was really cool, but in practice, it was very much a pain, and so we decided to go away from that entirely.
+
+We just really embraced the fact that Talos - yes, it is a Linux distribution, but really, at its core, it is a Kubernetes bootstrapping or whatever kubeadm and bootkube qualify themselves as. That's what we are. And so we just said, "Okay, we tried to be good citizens within the open source world, but the paradigm shift that we've made - it is pretty drastic, and we think for the better... But it also means that existing tooling doesn't work very well with us." And so we rewrote everything from the ground up. PID 1 is rewritten completely in Go, it is specifically built for this purpose. It's got the whole controller pattern within it, very much like Kubernetes read-only file system...
+
+So it's been a long road to kind of get to where we're at today. Like you said, there's a lot going on under the hood to make it that simple. In fact, in our demos that we do for potential customers, we have to feel bad about how good and fast the demos go, because it's like - yeah, you've got a Kubernetes cluster on bare metal right now, running BGP with VIP for HA control plane... Okay, cool. You just did that in like three minutes. But that's the beauty of it.
+
+**Gerhard Lazu:** Where's the rest? \[laughter\]
+
+**Steve Francis:** Yeah, exactly. Unless they know how Kubernetes works and how complicated that is to achieve, if they're new to Kubernetes, they're like "Alright, well, this looks pretty simple..."
+
+**Andrew Rynhard:** Yeah, exactly. They don't really know what they're looking at. So we're kind of -- yeah, it just puts us in a weird place. My demos are literally like "I know that's short, but that's the magic of it."
+
+**Gerhard Lazu:** You've made it too good, Andrew. That's the problem. You've made it too good. Steve comes along, "What the hell? This is just too simple." \[laughter\] No, no, seriously, seriously... I mean, that is exactly where you need to start, because there's so much more that needs to lay on top of it. And you need some very solid fundamentals on which to build. And having the operating system redesigned from scratch to be Kubernetes... I mean, there is a separation, obviously, between Kubernetes and the operating system... But that is so nice and clean that you almost don't even see it.
+
+I mean, being able to talk to your operating system through CLI only... Okay, it has an API - sure, you can talk to an API. But the CLI is there to talk to that API... That's it. I think that's what everyone -- like, why package managers? Seriously.
+
+**Andrew Rynhard:** Exactly.
+
+**Gerhard Lazu:** I mean, that's what we used to do 20-30 years ago; surely we have moved on since then, right? \[laughs\]
+
+**Steve Francis:** We don't... We just want to build out VMs for everything. \[laughter\]
+
+**Gerhard Lazu:** Exactly, yeah. And you just throw away so much complexity; even when it comes to networking, there's so much stuff happening just in that stack, never mind everything else - storage, securing whatever boots... It's just like, it's never-ending. And good luck configuring all of that. It doesn't matter what configuration management system you use. There is a lot of complexity there. Okay...
+
+**Andrew Rynhard:** \[00:17:52.24\] Yeah. It's ten different files, and depending on which distro, it's network manager, or it's just good old \[unintelligible 00:17:59.20\] files... To your point, I think at that layer of operating -- like, the operating system layer, like you said, this is a 20, 30-year old way of managing this. If we're going to get beyond things like climate change, and these types of things, fix real problems, we can't be sitting here worrying about building RPMs and doing package managers. The Linux distributions and the fundamental way we run technology needs to be just forgotten about; it needs to be "That's the way it is." And the best way to do that, in my opinion, is to make it so simple that it doesn't even matter. It doesn't really -- it's not really a thing.
+
+But when you allow a human to get onto a machine, we have a tendency to love everything that we can interact with. We want to make these servers special, and name them after Lord of the Rings characters... But by just simply getting humans off of the box, we've already kind of cut that emotional tie, and it allows us to start thinking about the next layer of things that we really need to solve, to really do things at the scale we need to land on Mars, or something like that. I don't know.
+
+**Gerhard Lazu:** What is your perspective, Steve? ...because you've seen data centers from every which angle. How does this fit in that world?
+
+**Steve Francis:** Oh, this is the way it should be. I mean, I started with configuration management tools way back in the day of CFEngine, when it was a small open source project, and I've been through all the Chef and Puppet and everything. One of our large enterprise customers who has many fleets of servers - I'm always asking them, "Why run on Talos?" and his answer was basically this; it was because even when you run a configuration management tool, and you have set everything you want in a Linux server, it's controlling Result.com, \[unintelligible 00:19:56.07\] and everything else, there's always going to be something that you haven't thought of to control, that some sysadmin is going to come through and change, that is going to superficially work and then break on the next upgrade. So in his case, they were talking about the fact that they have one particular cluster, and someone came through and set the RAID controller to caching mode. And it wasn't supposed to be, because it was supposed to be a highly available system, with redundancy, and they wanted the data to persist on the disk. But that wasn't managed by their configuration system. And so that caused an outage, and they lost data, and bad things happened. So that was one of the systems that they've moved on to Talos/Kubernetes. And now it's like "Oh, you want to change the caching controller, you kind of SSH into the box and use the RAID admin tool." So that whole avenue of people making things special snowflakes is just cut off... But it improves their system reliability a lot y basically keeping humans out of the equation. Humans are the ones that mostly break things.
+
+**Gerhard Lazu:** Yeah. And at least you should have a trail, like "Why did we do this change?" Can we track it via version control in a way that everyone sees, everyone understands? Can we maybe add some pictures to the thing? That's like the human side of things, rather than an admin changing something somewhere, not telling anyone, and his job is secure, because only he knows how the thing works...
+
+**Andrew Rynhard:** \[laughs\] Yeah. Right.
+
+**Gerhard Lazu:** Okay... So what is part of the operating system? Because the operating system is really, really small.
+
+**Steve Francis:** Well, our operating system is really, really small. Talos Linux is.
+
+**Gerhard Lazu:** Talos is really small, yes.
+
+**Steve Francis:** A generic Linux... Systemd is basically an operating system. \[laughs\]
+
+**Gerhard Lazu:** Oh, my goodness me. Oh, that was like one of the things. I think it's the second thing. The first thing was SSH. Not having SSH is such a good thing. You don't even have to worry about securing something that doesn't exist. Like, that's just the best. Okay.
+
+**Andrew Rynhard:** But yeah, the operating system really is just the PID 1, and a Linux kernel. There's some magic you've got to do with the initial init that the kernel loads, and then you switch route after setting up base pseudo file systems like dev, and proc, and whatnot. But to your point earlier about networking being a big part of how you manage Linux - honestly, that's where most of the complexity within Talos exists. Otherwise, it's pretty simple.
+
+\[00:22:18.22\] It's funny, because a big reason why Talos Linux exists today is because I was learning Linux from a project called Linux From Scratch. Basically, it's exactly what it sounds like - you build a Linux distribution from scratch. And in that process, I learned that Linux is actually very, very simple, at the end of the day; it's very, very simple. But Linux distributions have made it complex, and they've made it sort of tribal by having a love for a certain package manager. And that's really the only difference between any two Linux distributions. So really, Talos throws all that out. And so it's just as close to the Linux kernel as we can get as possible. And the init system just gives you mechanisms or knobs and buttons that you can turn and push in order to configure the kernel, ultimately - because that's what Linux is - but in a well structured way, instead of free-handed, and between any two files you have tabs, or spaces, or comma delimited... This is a nice, structured way of doing it.
+
+So that is Talos Linux, that is our operating system, is just putting some structure in front of Linux with an API, and a more complex networking stack, that's interpreted, or at least directed by the configuration file. And that's the bulk of Talos. And of course, there's some operational knowledge too baked within Talos, like protecting you against doing stupid things with etcd. So imagine you're trying to upgrade two of your control planes at once, and that means -- well, let's assume you have three; that means etcd is going to be down because it doesn't have quorum... It will stop you from doing silly things like that. So there's some operational knowledge baked into it as well, that makes it a little bit unique, but it's simple at the end of the day, really. It just took a lot of work to get here.
+
+**Steve Francis:** Yeah, very minimal. One thing I like to throw out there is Talos Linux I think on it has something like 32 binaries installed on the whole operating system, most of them to deal with file management, loading file systems...
+
+**Andrew Rynhard:** A lot of them hard links, too.
+
+**Steve Francis:** That's true. So they're duplicates. A typical Ubuntu install has like over 3,500 binaries, executables installed. So that's a lot more things that can attack, and be misconfigured, and need to be secured. Just things to go wrong. The less code there is, the less to go wrong.
+
+**Break:** \[00:24:39.17\]
+
+**Gerhard Lazu:** We talked about simplicity, we talked about networking, and this surprised me in the best possible way... Not initially. Initially it was like a WTF moment for me... But I was thinking "How the hell do I cluster these things?" And, okay, Omni has something to do with it, and we will leave this for slightly later... But Talos has KubeSpan. And KubeSpan just blew my -- I didn't realize it was that simple. I was like "What am I missing? This can't be it..." And it's a piece of technology... Spoiler alert, it's WireGuard behind the scenes, which I love... Like, having dealt with OpenVPN, and IPsec, and a bunch of other things, I was like "Oh yes, please, let it be WireGuard." So it was like a Christmas wish for me. Like, if I have to deal with it, just let it be WireGuard. And the way nodes cluster is incredibly simple. I wasn't expecting it to be that simple... So I was like "I must be missing something."
+
+So when you first mentioned it to me, Andrew - this was, again, October 2021. You only had just released it; it was like a new thing.
+
+**Andrew Rynhard:** Yeah, that was really new.
+
+**Gerhard Lazu:** Yeah. And I was like "Wow, this is amazing." And now, having it experienced via Omni, that felt like magic. It just didn't feel real. So do you want to tell us a little bit about KubeSpan now? Can you expand on what you told us in October? Because I'm sure you remember what you told us a year ago... \[laughs\]
+
+**Andrew Rynhard:** I'm sure, I'm absolutely certain that I don't. But let's see if I do. Let's see if I can be accurate. So yeah, KubeSpan, as you've already said, is really built on top of WireGuard. But the harder part of WireGuard is just doing like key distribution, and making other nodes aware of other nodes, and really orchestration. But WireGuard is incredibly fast, secure... It's really, really great.
+
+So KubeSpan just really is orchestration for how do nodes discover other nodes, and how do we automatically configure WireGuard, and how do we do key exchanges? And so there's this lightweight discovery service that we run, where Talos will actually encrypt a blob of data, which ultimately just teaches other machines about itself, and they all sort of send their information there, congregate there, get information about each other from there, decrypt it using their keys, and now they know all the IP addresses of those machines, and they can go and communicate with them using WireGuard. It's actually really, really simple. It's just really taking WireGuard and trying to make that simplified for people. But WireGuard really is the magic, and it's literally just a boolean flag within Talos. It's no "Generate this key, and put this in etcd, and then run this daemon." It's just KubeSpan enabled = true. And then you're done. It's really great. It does feel like magic.
+
+**Steve Francis:** Works across networks, behind firewalls... It's pretty slick.
+
+**Gerhard Lazu:** That's in itself a piece of magic. WireGuard in itself is not as complicated as OpenVPN or IPsec to configure, but it still has its complexity. But KubeSpan - I mean, as Andrew says it, it's just a boolean. I mean, I was thinking "Surely, there must be more to this." There wasn't. I was like "Where's the rest, damn it? The docs don't have anything... I don't know. Does it work?" And everything just worked. So that was a very nice surprise.
+
+**Steve Francis:** Were you running in multiple locations that you needed KubeSpan?
+
+**Gerhard Lazu:** Yeah. So this is it. So I told you before we started recording that we have four guests here... This is the moment.
+
+**Andrew Rynhard:** Alright.
+
+**Gerhard Lazu:** Alright, everybody...
+
+**Andrew Rynhard:** Wow. Wow, that looks like some hardware right there... What is that? I mean, it's a computer, I think... \[laughs\]
+
+**Gerhard Lazu:** It is. Okay... So one of my Christmas presents - or shall I say two of my Christmas presents - were an open bench table...
+
+**Andrew Rynhard:** To yourself, right?
+
+**Gerhard Lazu:** To myself, of course... No. My wife got it for me. She knew exactly the color to get. Black. \[laughter\] Okay, so open bench table, fanless Sea Sonic PSU. Is that the right way up? It is.
+
+**Andrew Rynhard:** It is.
+
+**Gerhard Lazu:** Fanless \[unintelligible 00:30:38.13\] A very old EVO 870... No, this way. SSD. That's for storage. There's an SD card... And this motherboard - it's one of my first supermicros. I'll have it forever. It's an X9SCA-F. It's 11 years old. Well, it will be 12 years old by the time this episode comes out. It was also a Christmas present, by the way. It was one of the first Xeons, the E3s, 1230... Max it out, 32 gigs of RAM... And this baby got Talos.
+
+**Andrew Rynhard:** Nice!
+
+**Gerhard Lazu:** So this is one of the Talos hosts. Three network cards. An IPMI, and two 1 gigabit ones. It's a beauty. So yeah, I'm a proper hardware nerd, as you can see... And I have it for a long, long time. So that's one of the hosts. Let me just put it down.
+
+**Andrew Rynhard:** Is that for your home's use cases?
+
+**Gerhard Lazu:** That is, yeah.
+
+**Andrew Rynhard:** Okay.
+
+**Gerhard Lazu:** \[00:31:40.20\] Ask me about my NixOS afterwards. I have another completely fanless system, AMD build, crazy NVMe drives, whatnot... Anyways, that's another story. And that is one of my Talos nodes. The other one is, again, a bare metal host, running in a data center... And I'm still missing a third one, to create my quorum... Which is where a lot of my issues started, because I was starting with a single node, which was a control plane that had to schedule workloads. And that's where a lot of the help came... And "Yeah, you can do this, you can do that", and there's like a few gotchas... For example, you have to boot... So you have to apply the config to the control plane first, if you want to configure it to run workloads. Because once you apply it, and then you apply it again, it won't fully do it. Again, it's like me doing things that were not anticipated. But it's possible; like, all of those things I worked out, and whatnot... So that was really, really good.
+
+Now, some people use Raspberry Pi's for this. I don't think many people use bare metal hosts. But what do you see the typical workload where Talos shines?
+
+**Andrew Rynhard:** It's certainly bare metal, and fast becoming edge. You've already spoken about Omni, and I'm sure we'll get into that at some point... But in particular, Talos in combination with Omni, edge is starting to become really, really powerful. And in fact, I think Talos, in those two use cases, bare metal or on-prem, I would - say not necessarily bare metal; that could be VMs - and edge, and in combination with KubeSpan, there are some architecture designs that simply people would never have thought of doing before, because of the complexity and potential things that go wrong. But with Talos Linux, it's just there. It's possible. And so it starts exposing limitations in other projects out there in the world, but we can get into that later. But certainly, I would say bare metal, on-prem VMs, and edge. Which is a shame, because Talos works just as well in the cloud. I mean, it's literally the same image; you can get the same exact benefits of Talos within the cloud, but it's just -- it's not quite as popular as the aforementioned places that Talos is really popular.
+
+3:Yeah. I mean, there's not so much of a compelling use case. If you're running in the cloud, you're probably running on EKS, or something like that. We certainly do have customers that say, "Alright, I'm in all the clouds, and I want to unify my management across them, and so I'm going to use Talos." But most people that are in the cloud, they just use their native cloud provider, which is usually the right thing to do.
+
+**Andrew Rynhard:** Yeah, it makes sense.
+
+**Steve Francis:** But the other thing - you alluded to this before - Raspberry Pi's, we have lots of people in the Kubernetes at home community that run Talos on Raspberry Pi's, and other small SBCs.
+
+**Andrew Rynhard:** And they're a great community, too. They're a really great community; they give us great feedback all the time... I'm in their Discord; they're probably like "Oh, great. Why is this guy watching over everything? We can't talk about it..." I hope they do talk about it; that's where I get a lot of inspiration. But yeah, the Kubernetes at home users are a really great group of people.
+
+**Gerhard Lazu:** Why do you think they use Raspberry Pi? Why is that so popular?
+
+**Steve Francis:** Well, it used to be cheap... \[laughs\]
+
+**Andrew Rynhard:** Yeah, exactly what I was gonna say. I would say affordability, some small footprint... They're not noisy... I have a supermicro in my closet, and I can't sleep with that thing on it. It's loud.
+
+**Gerhard Lazu:** I know what you mean.
+
+**Andrew Rynhard:** I love having the power, and it's fun, but I also like my sleep.
+
+**Gerhard Lazu:** Yeah. Fanless.
+
+**Andrew Rynhard:** So something like a Raspberry -- yeah, fanless... And Raspberry Pi's are really, really great for that. And it's just kind of fun knowing that this small little board is running... Like, for me in particular too, just knowing it's running Talos Linux, a single Go binary and a kernel, and it's spinning up Kubernetes, and it's just on this little thing that's in the palm of my hand... It's really, really fun. People build these cool little stacks, you stack them on top of each other and stuff like that, and put fancy LEDs and whatnot... So yeah, I think there's an element of fun, and it used to be more affordable as well, for sure.
+
+**Gerhard Lazu:** \[00:36:11.08\] Yeah. I mean now, if you want to get like a decent one, they're crazy expensive, by the time you add all the things.
+
+**Andrew Rynhard:** Yeah.
+
+**Gerhard Lazu:** I mean, it was cheaper for me to get like a fanless PSU, and an openbench, that to get all like the Raspberry Pi equivalent... And this thing aged really well. Again, it's going on 12 years, and it can still run pretty much anything.
+
+**Andrew Rynhard:** That's awesome.
+
+**Gerhard Lazu:** You know, eight cores... Okay, they're hyper-threaded. 32 gigs of RAM... Okay, it's DDR3, slightly slower, but put a fast SSD on it and you have two one-gigabit cards... I mean, there's no Raspberry Pi that has two -- so you can use two networks at the same time, which of course I would have, because... You know, you want two fully redundant networks in your house, of course; and two fiber lines, and all that. All that to run Talos... \[laughs\] No, no, I have big plans for it. But anyways, let's see how it goes.
+
+I mean, the beginning was important for me. The beginning was taking something that was meaningful to me, and taking it into production, like my production, which right now, as I said, it's like nine Digital Ocean droplets. All of those can be collapsed in a single bare metal host. But you can't have just one, right? You need to have another one, which acts as a backup. And this brings me to the next point. What is the CSI that you typically see being used with Talos? What is the storage interface, and how is storage exposed to Talos?
+
+**Andrew Rynhard:** Yeah, so the typical one that we recommend is Rook CEPH, largely because it's battle-tested, and we have some familiarity with it as well. We also recommend a couple of projects from OpenEBS, their Mayastor project, and their Jiva...
+
+**Steve Francis:** I pronounce it Jiva, but...
+
+**Andrew Rynhard:** Okay.
+
+**Gerhard Lazu:** Like JIRA. JIRA, but there's like a V instead of an R. Yeah, JIRA.
+
+**Andrew Rynhard:** It's definitely Jiva for me now.
+
+**Gerhard Lazu:** Okay, great. \[laughs\] I'm glad we settled that one.
+
+**Andrew Rynhard:** Anyways, those three in particular, but probably in that order, I would say. Actually, Jiva is probably becoming more popular than their Mayastor. So yeah, Rook CEPH... And there is a lot of people that think that because of the way Talos is designed, and its restrictions and whatnot, that storage is just not going to work. But at the end of the day, our goal is to get out of the way to allow you to do the things that you need to do, and storage is obviously one of the most important things that you need to do. And so if you can run a CSI within standard -- I don't want to say standard Kubernetes, but non-Talos Kubernetes, by and large you can run that within Talos. But there is one place where it's a bit of a caveat, and there's a couple of \[unintelligible 00:39:00.16\] CSIs that just simply won't work with Talos, because they make some really big assumptions about what they can do. And in my opinion, really bad practices. They assume that they can actually escape out of their container, literally NS entering into PID 1's namespace, and going so far as figuring out what operating system am I running on, so they can figure out what package manager to use... And doing a yum, or dnf, or apt install to install whatever they need in order to use their CNI. That's just a big gaping hole in security that I'm not comfortable with...
+
+And so there are some of them that do make these assumptions, that there's Bash, they can break out of their containers, but we're working to stop those, and we will never support those, in my opinion. So yeah, again, our goal is to get out of the way, and by and large, the CSIs will work.
+
+**Steve Francis:** Out of the way, but not to sacrifice security.
+
+**Andrew Rynhard:** Yeah, exactly. Yeah.
+
+**Gerhard Lazu:** \[00:40:04.05\] I know that security is a big deal in Talos... Can you tell us a bit more about that, Steve?
+
+**Steve Francis:** No. But Andrew can. \[laughter\]
+
+**Gerhard Lazu:** Okay, alright. That's great. Okay, so no, hang on, we have to find --
+
+**Steve Francis:** I mean, Andrew can tell you all the drivers and parameters and everything, and when it comes to me, I can tell you it's very secure. \[laughter\]
+
+**Gerhard Lazu:** Correct. Okay. So it's a very high-level -- it's very compressed; that's great, right? Because when you talk to other CEOs, that's what they want to know. "Is it secure?" "Yes." "Great! Next point..." \[laughter\] Alright. Okay, so Andrew, you had a slip there, and I'm glad that you did... You mentioned CNI in the context of CSI. Let's talk about CNI.
+
+**Andrew Rynhard:** Oh. I did. Sorry.
+
+**Gerhard Lazu:** So Flannel, as far as I know, is the default CNI in Talos. Why have you chosen Flannel?
+
+**Andrew Rynhard:** Really, it's simple. I mean, it's gonna have the most coverage out of the box. It's just kind of works, and it doesn't have a lot of bells and whistles, and that's a good thing for the standard or default experience with Talos. Cyllium is also a very, very popular combination with Talos. If you're the type of person who finds Talos interesting, you're kind of naturally going to be the person who finds Cyllium interesting, because it's --
+
+**Gerhard Lazu:** Absolutely. "How do I replace Flannel with Cyllium?" is my next question... \[laughs\] Let's skip to that part.
+
+**Andrew Rynhard:** We can. Yeah, that's simple. I mean, really, you just teach Talos "Hey, don't install Flannel, and instead use this URL to install the CNI, at the point in which CNI is required to be installed." And so you just host your manifest somewhere, Talos will pull them, install them, and basically replace Flannel that way.
+
+We are thinking about having more native integrations in the future, but it's not on the near-term roadmap... Cyllium being a high, sort of a really interesting CNI that we could hopefully partner with even, but offer a native, out-of-the-box experience and just have it say "CNI = cyllium". And we have baked in manifests to do that.
+
+**Gerhard Lazu:** Okay, that's a great question. What about -- again, still specifics, but we are very close to going high-level again... What about Metal LB? What about the load balancer? Because that's typically used in the context of bare metal. So what are your thoughts there?
+
+**Andrew Rynhard:** We recommend that all the time. I think MetalLB is a really great project. I love it. It's simple, it's well built, well designed, and we recommend it all the time with Talos.
 
 **Gerhard Lazu:** Okay.
 
-**William Morgan:** But \[unintelligible 00:15:09.12\] which definitely doesn't get rotated as part of an upgrade... And that also has a one-year expiration. So you know, it is easy to install and it's easy to make things work, but like with any sophisticated piece of technology, as you push it into production, there's stuff that you need to be aware of. We actually wrote a production runbook for Linkerd on Buoyant.io. So if you want our advice as the company that has installed Linkerd and helped people operate Linkerd in a lot of different places - and in fact, we operated it ourselves - if you want our best advice for how to install it, you can read through the runbook; we talk about certificate rotation, and some other things you wanna be aware of.
+**Andrew Rynhard:** Yeah, we talk about it all the time; I have nothing bad to say about it. It's just "Use it. It's great."
 
-**Gerhard Lazu:** That's a good one. Okay, I didn't know about that. Thank you, that's a great, great tip.
+**Gerhard Lazu:** Just go for it. That's very nice. Okay.
 
-**William Morgan:** \[15:55\] You've gotta make sure you don't have clock skew between the nodes, because all these TLS certificates - you don't have time components, and if you've got a big clock skew, then things are not gonna be able to connect, even though they should. There's details. It turns out computers are complicated; as much as we try to simplify them, there's details.
+**Andrew Rynhard:** Yeah.
 
-**Gerhard Lazu:** So I'm wondering, what are you looking forward to the most when it comes to KubeCon? This KubeCon which is --
+**Steve Francis:** Talos delivers vanilla Kubernetes at the end of the day, so you can run whatever your choice is of any of these capabilities. We will probably have easy defaults, so it's like the default install; unless you say otherwise, we'll install MetalLB on bare metal, and maybe let you configure a different CNI that includes storage... But right now, it's just vanilla Kubernetes, done really simple, really securely.
 
-**William Morgan:** Oh, for me that's easy, and it's actually not really project -- well, it's kind of project-related... It's just being there in person with other human beings. For me, that's so gratifying. I think open source can be a little isolating, because a lot of your interactions with people are. They come into the -- you know, in our case, the Slack channel, they're like "Hey, I have this problem", and then you help them fix it, and they're like "Thanks" and they leave. And then the next person comes and presents you with another problem, and you develop this kind of transactional relationship. And what you don't see in that, which you do see in person, what you don't see on Slack, is people then go off and they deploy Linkerd and they're really successful, and their company is thankful, and everything is working well... They don't come back to the Slack to say -- well, sometimes they do... But usually, they're like "Okay, cool! Now I can do the rest of my job."
+**Gerhard Lazu:** That is a great starting point. And again, everything that I've tried so far, it worked really well. And I wasn't expecting it to be that simple and straightforward. Now, there's a lot of blanks to be filled... And that's on purpose, right? Because you can't know what CNIs people will choose. And if anything, you maybe mention "Hey, this person or this use case, we are aware of this being used." Again, I think it's usage, people talking about it... That's something which I'm hoping to do a bit more as I'm continuing on my Talos journey, sharing how did I change my CNI, and why did I pick one versus the other... Because it's a real production, with real needs, that the majority will have. What about MetalLB? How did that work, and what does it look like in practice? So are there things that you typically see your customers install on Talos? ...like some common, common things.
 
-But in-person, when you talk to these people, you realize there actually are a ton of people who are running Linkerd, it's solving big problems for them, and now they have an opportunity to come up and tell you about that. So that aspect has always been really amazing for me. And the virtual conferences, as much as I like the convenience of not having to hop on an airplane, they don't quite have those same things. So... That's a long answer to a short question. I'm looking forward to the human interaction...
+**Andrew Rynhard:** \[00:44:14.09\] Yeah, definitely. We've kind of touched on them already. MetalLB is definitely common. Rook CEPH is definitely common. What are some other ones? Definitely ingress controllers, obviously. The NGINX one is great. That's the one I've used. It works very, very well.
 
-**Gerhard Lazu:** Oh, yes. Don't we all. Don't we all. I wish there wasn't a screen today, yeah. \[laughs\]
+**Steve Francis:** The usual monitoring and logging...
 
-**William Morgan:** \[unintelligible 00:17:34.27\]
+**Andrew Rynhard:** Yeah. Prometheus, Loki, Grafana... Sort of the cool crowd of all those day two operations tools. Those work just fine on Talos, and they're definitely popular with Talos.
 
-**Gerhard Lazu:** Another human that's not part of my family! Isn't that nice?! \[laughs\]
+**Gerhard Lazu:** Okay. So again, continuing on this high-level trend... What use cases is Talos known to work very well for? And if you have a couple of specifics, go for it. Steve, maybe this is something that you can share with us, some use cases that you know, that are okay to be public, maybe...
 
-**William Morgan:** \[unintelligible 00:17:39.27\]
+**Steve Francis:** Yeah. Bare metal... So people like bare metal often for either latency of performance, or geographic latency. So Talos is extremely low \[unintelligible 00:45:14.17\] because it's such a small operating system, it itself uses very minimal resources, and leaves the rest for the workload... So we have some video game companies running on top of Talos, because they want the most performance they can, and they want to run it on bare metal; we have some defense work going on for similar reasons... The military has lots of money, but a lot of their compute resources are running on things older than the board you introduced us to... \[laughter\] So they need to run modern software on old hardware, because their procurement times and deployment times are so long... So they want the most effective use of the resources they do have. And edge deployment has become quite big, approximately in the last six months; that's really taken off. A lot of that's due to Omni, but also a lot of it is just people running Talos on very small form factors, very simple... It's got to be kind of appliance-like running on an edge, where they don't have skilled IT resources to go and do whatever... And it's got to be, I'd say, in a hostile location, kind of, so they want to keep it secure, and just "Alright, if something goes wrong, turn it off and turn it on. We guarantee it will be back to the state it was before." So those are kind of the big ones.
 
-**Gerhard Lazu:** Right. Okay. So if someone's listening to this, and you are using Linkerd, and especially if it works, and you don't think you need to get back to William and the Buoyant team and the Linkerd community - that's actually wrong. Go and show a sign of gratitude. Say "Hey, thank you. This is great." Share your use case, share what you like about it. Even if everything is perfect, sharing that is worth it. People will appreciate it. And you've heard this from William, so... Do as William says, that's what I say.
+**Gerhard Lazu:** Okay. Okay. We've mentioned Omni a couple of times... I think now it's the moment to talk about it. Steve, do you want to continue?
 
-**William Morgan:** Yeah. At a minimum, swing by -- if you're at KubeCon, swing by and say hi.
+**Steve Francis:** Yeah. Well, so Talos does make setting up a Kubernetes cluster really simple. Omni makes it next-level simple, where it's really -- so Omni is our SaaS service for the installation of Kubernetes. So the way it works is you log into your Omni account, your SaaS portal, you download the installation media for a Raspberry Pi, or an ISO for a bare metal, that you can put onto a USB or whatever, or an AMI for Amazon, or Google, or Oracle, or wherever you want to run your compute resources... So basically, you boot your machine wherever it is off that image, and that's basically it. So that image that you've downloaded has built-in WireGuard endpoints, and joint tokens, so as soon as the machine boots, it registers with your Omni account, and it shows up as an unallocated machine in your web portal.
 
-**Gerhard Lazu:** Yeah, that as well. That as well. I wish I could swing by, but I can't. Next one.
+And then, all you do is you go into your web portal, if you want to make a new cluster, you go to your unallocated machines and say "This one's a control plane. This one's a control plane. This one's a control plane. Worker, worker, worker, worker, worker. Go. Create cluster", and that's it.
 
-**William Morgan:** Next one.
+And WireGuard gets deployed, KubeSpan is configured, Talos is installed, Kubernetes is installed, the cluster is bootstrapped... But that all happens automatically; you get a nice management GUI where you can see performance, and nodes, you can run upgrades... It's really simple, really slick.
 
-**Gerhard Lazu:** If you come to Europe... Because that's where the next one will be. So anyways... For the people that can't attend KubeCon, like myself, and they'll be catching up on videos - any advice that you have for those people? How can they make the most out of it, even though they can't be there in person, and some of them are just catching up on the videos. What can they do?
+**Gerhard Lazu:** \[00:48:01.13\] Yeah. That is the one thing which, again, I was expecting... Because I started with the open source one, and I was expecting there to be more things to do... But once I realized that "Hang on, the image which I downloaded, that is mine, was generated for my own account", and as soon as that image boots, it's ready to go. It will show up in the UI. It's all configured, it's ready to literally just set it up. And I was expecting the Talos CTL port, the 50,00 to be open... Nope, no such thing.
 
-**William Morgan:** Yeah. So you know, I don't know if I have great advice. My relationship with virtual conferences is not a great one... It's just a different experience. I don't know, I think like many of us, I sit in front of a screen all day, and it's really hard to wanna keep doing that in any other form... But I will say, we have a Buoyant virtual booth, and we're trying to make that as fun and as interesting as possible. I'll be hanging out there... You know, even though I'm in-person at the event, I'll also be spending time on the virtual booth. We've got the runbook, and a bunch of other Linkerd stuff... We've got an opportunity for you to get -- I think we're raffling off Linkerd swag... So if you visit us, you've got a chance that we'll actually ship you a hat and some shirts, and stuff.
+**Steve Francis:** No, because all the authentication is done through the SaaS account. So it ties into your authentication provider, Google, or GitHub, or whatever. So you can have multiple users going in. And if someone leaves your company, you don't have to lock down all your Kubernetes clusters and take away their tokens. It's just like they can no longer authenticate through the account, and they can't connect directly to the machines... So we're good to go. Security is kind of paramount in this design.
 
-So I don't know about the rest of the conference, but I think the Linkerd booth at least will be interesting.
+**Gerhard Lazu:** Yeah. That was the first thing which got me. I was thinking "Why does my Kube CTL not work? Why does my Talos CTL not work?" And for the Kube CTL, it was like really simple. Just a matter of \[unintelligible 00:49:09.18\] install the plugin, and off you go. Because it needs to authenticate with Omni. And that was like a small gotcha for me there. But once I figured that out, it was very easy. Okay, so are you supposed to manage those nodes with Talos CTL? ...once Omni manages them. How does that work?
 
-**Gerhard Lazu:** Okay. Did you have time to check the talk schedule? Anything interesting, any talks that you're looking forward to?
+**Steve Francis:** In general, no. Because Omni is going to be the source of truth, so it's going to reconcile the state of machines to the state that it knows about. But if you do something kind of out of band using Talos CTL and change the configuration of the machine, Omni is going to reconcile it differently, and override, which is why we don't allow that level of direct access to machines through Talos CTL.
 
-**William Morgan:** Well, now I'm gonna seem like a bad person, because I only looked at the Linkerd talks.
+**Gerhard Lazu:** So you're the second person telling me that. It is definitely true, because Andre told me exactly the same thing. I was like "Hey, Andre, what's going on here?" And he said, "Yeah, I mean... Omni manages that." So yeah... Even when you specify a node, like -n, you need to figure out which one to specify, and then certain commands don't work... So that was by design.
 
-**Gerhard Lazu:** That's okay, that's fine. That's perfectly fine.
+**Steve Francis:** Yeah.
 
-**William Morgan:** Yeah, we have one --
+**Gerhard Lazu:** Okay.
 
-**Gerhard Lazu:** \[unintelligible 00:19:40.05\] also the best, you know what I mean? \[laughs\]
+**Steve Francis:** But you can get all the information from your nodes, for sure.
 
-**William Morgan:** \[19:43\] So there are two talks at KubeCon that I'm particularly excited about... Actually, one of them is gonna be a ServiceMeshCon, which is a day zero event, which I have mixed feelings about as a conference... But there is a really cool talk there from the folks at \[unintelligible 00:19:54.14\] which is the largest retailer in the Nordics... And it's like a multi-billion-dollar business that everyone in that region knows about, about how they use Linkerd and Kubernetes to replatform their entire company. So that one's really cool... That's Frederic, who is also a Linkerd ambassador, and is heavily involved with the project, so it's really awesome to see him be able to talk about what he did with it.
+**Andrew Rynhard:** Yeah, we wanted to make it -- you can still debug, of course, with Talos CTL; that's still really, really important. But when you're managing Talos nodes with just Talos CTL, you're forced to think about them as individual nodes still, where with Omni, it gets us a centralized place to think about these things in more broad strokes. So you could just say, "upgrade my cluster to this version of Talos", and we have the logic to roll that out in the same way, instead of you rolling that yourself and writing Ansible playbooks, or whatever your poison of choice is.
 
-And then the other one that I'm really excited about is from (I guess) the other part of the world, which is the folks from Maintain Australia; they have this amazing story where they basically 10x their throughput using Linkerd, their entire system. They have a really big deployment through combination load balancing and some other stuff. So again, they talk about that at KubeCon proper. I think that's on Friday.
+**Break:** \[00:50:55.17\]
 
-So those two things I'm really excited about, because I've been talking to these people, to both of them, for a long time, and... Yeah, I'm just really excited to get their story out there. They're both really exciting stories.
+**Gerhard Lazu:** So there was KubeSpan in 2021, there was Omni in 2022... By the time this comes out, it'll be 2023; the first episode for 2023. What can you tell us about the things that you're thinking about for 2023?
 
-**Gerhard Lazu:** Okay. I will make sure to check them out as well. I will put them in the show notes for people to check them out if they'll be available... But that's great, thank you for sharing that.
+**Andrew Rynhard:** Wow. We literally just had a meeting about this this morning; like, that was literally 20 minutes before this.
 
-When it comes to the people that you're most looking forward to meeting - anyone in particular that you wanna shout out?
+**Gerhard Lazu:** So timely! So timely. Great timing. It's meant to happen.
 
-**William Morgan:** Oh, boy... Actually, I'm meeting a ton of people there... But is there any one I wanna shout out? No, I don't think so. \[laughs\]
+**Andrew Rynhard:** I don't know if I've had enough time to really digest what I should say publicly... But I definitely think things like making Talos even more secure is high on our priority list, secure boot being one of them; looking at things like integrity measurement architecture, where we can actually remotely attest to every single file that is Talos... And you can cryptographically attest that this is this version of Talos, and there's no way it can be otherwise. And having like a way to attest to that in Omni, and having a green little checkbox, and when you click Download Isolation Media, it's all encrypted with the key that's unique to your account... And just securing it all the way up through the workload. Workloads are obviously another -- they're another beast entirely, because we don't have control over those types of things... But we want to give people the ability to extend it to their workloads as well.
 
-**Gerhard Lazu:** That's good. It's too many. Let's pretend it's so many - like, no particular name comes to your mind. That's okay. That works, too.
+So I would say just security in general is always a thing that's on our list. Steve, I don't know if you have anything that stuck out to you in that list?
 
-**William Morgan:** You know, one thing that's weird is I'm gonna be meeting people who have worked on Linkerd for a long time, who I've never actually met in-person. That part is exciting. I'm gonna be meeting people who work at Buoyant who I've never actually met in-person... Even though I'm the CEO, I've never actually met them in-person, so I'm gonna meet them for the first time at KubeCon. I mean, that's just a sign of the crazy times we live in.
+**Steve Francis:** No. I mean, security is the main thing, including \[unintelligible 00:52:38.06\] now, but it's not as smooth as we want it to be, or some of our customers want it to be... But in general, Omni will certainly be our focus for the next six months. It's still in beta right now. It'll be GA hopefully by the end of this month. Yeah, there's some features to roll out into \[unintelligible 00:52:59.17\] a new product there's always going to be a whole bunch of new things we'll be adding on in the short term, as we find new use cases and customer requests... But it's going really well. I mean, it's still in beta, we've already got a couple of contracts for it... So we're very pleased; it's been very well received.
 
-**Gerhard Lazu:** Well, I hope everybody shows up, and everybody will be just as excited as you to meet them.
+**Andrew Rynhard:** Yeah, Omni is definitely in the 2023 list. I'll just add one more thing that I think is exciting for our users, for our old-school users... And that is that we're going to be looking at breaking up the Talos config into multi-doc YAML. So if you need to configure an interface, it will be of kind interface, or something to that effect, and you can push that to Talos and manage those independently of each other; have it completely be reactive, being able to do some of those things while still in maintenance mode, like configuring network, so that you can even start to think about how to join a cluster... So making the configuration management story easier, stronger, better, faster, is something that I'm personally really excited about, and that's something I think we'll definitely do in 2023.
 
-**William Morgan:** I hope so.
+**Gerhard Lazu:** Wow, that is super exciting. That's the one thing which I was wishing for, but there's like a couple of other things... Because you're right, they're like individual components; it's starting with desks. So you don't always have to apply the whole machine config just to modify the disk. That makes so much sense. And even though it's great to just have YAML to work with, and you can see the diffs and whatnot, being able to target only a subset of your system is super-powerful. And then if you do make a mistake, it's only within that specific thing; it's not like everything.
 
-**Gerhard Lazu:** And happy afterwards. Like, they all want to do it again.
+**Andrew Rynhard:** Exactly.
 
-**William Morgan:** Yeah. Everyone will be smiling behind their mask...
+**Gerhard Lazu:** If there's a failure in here, and was it applied... So yeah, it's a lot more atomic, and that makes a lot of sense.
 
-**Gerhard Lazu:** Exactly, yeah. You can't see it. So yeah, if they're frowning -- well, actually, if they're frowning, you can see. But anyways, anyways... Anything interesting happening in the next six months for Linkerd that you want to share? Anything coming up?
+**Steve Francis:** Yeah, you said it's great to work in YAML with a straight face. So that was -- \[laughter\]
 
-**William Morgan:** Oh, boy. Gosh, I feel like we've just had all the interesting things happen at once. We had graduation happen just like a few months ago, 2.11... And now we're planning 2.12, and 2.13... Do we have anything specific beyond some really cool releases coming up? I don't know... A lot of what I've been focusing on recently has actually been on Buoyant Cloud, which is our SaaS kind of complement to Linkerd... And there's a free tier, so you can check it out and you can use it without having to actually swipe your credit card, at least at small scales... And there, a lot of the exciting stuff we've been working on is how do we take all the cool stuff that's in Linkerd and actually extend that out, so that - you know, yes, you're getting metrics, but can we just post those metrics for you? Yes, you're getting data about which services are talking to which ones, can we draw that in a nice topology math for you? Yes, you're getting MTLS... Can we break down that traffic into these different categories? So there's a lot of cool stuff happening on the Buoyant Cloud side.
+**Gerhard Lazu:** Yes. Now, now, now... I have a love/hate relationship going back about 10 years... So I've been through all the cycles. So I've been down there, I've been like in a ditch, in the hole, and I'm back up again, and like through the plateau of disillusionment, and all of that... So I'm where I need to be; it's just YAML at this point; it's like Bash.
 
-But yeah, I think from Linkerd - you know, a couple more releases... We're gonna keep going down the path of policy... The other big thing we wanna focus on is a mesh expansion, which means running the data plane, the proxies themselves, which are these ultra-light Rust proxies - running them outside of Kubernetes... Control plane is still gonna be in Kubernetes, but that way you can extend your mesh out to a VM, certain non-Kubernetes environments. Apparently, people run code outside of Kubernetes, so I hear...
+**Andrew Rynhard:** Yeah. Right, exactly. I was just gonna add that it does open up some interesting opportunities as well for our users, where you could build controllers that Talos could load up very early on in the boot process, and they contain business-specific logic, and almost like CRDs, you can have a configuration file that that controller knows how to take care of, and you just submit it to Talos... Talos doesn't necessarily -- core Talos doesn't need to know how to handle it; that controller that you've embedded into your custom version of Talos could. And that could be whatever you imagine you want that to be. A controller for your BGP configuration... Who knows?
 
-**Gerhard Lazu:** Mm-hm. There is a world outside of Kubernetes. Sometimes for me it's hard to believe as well.
+**Gerhard Lazu:** \[00:55:52.26\] Yeah. Okay. Now, the one thing which I should say is that I did manage to upgrade from 1.27 to 1.30. And again, there's like a theme here, because I didn't realize just how simple the whole process was going to be. The only gotcha was that I had a single node. And there's a safety feature to prevent a single-node etcd from going down. That was it. Like, once I had that part figured out, it just nicely rolled through.
 
-**William Morgan:** It's scary.
+So upgrades, which tends to be a very complicated thing, was fairly simple now. I didn't have many workloads, so maybe when there's more workloads... But you have like a nice, graceful shutdown, I could see all the steps it was going through... It's really well thought through; it's as if you've been doing this for more than two or three years. \[laughter\] Okay...
 
-**Gerhard Lazu:** William, this has been everything I imagined it would be. Thank you very much for making the time. It's been my pleasure, thank you.
-
-**William Morgan:** It's been an absolute pleasure to be here, and thank you for having me.
-
-**Break:** \[23:32\]
-
-**Gerhard Lazu:** So the first time and the last time that we spoke it was two KubeCons ago; that's how I measure it. And when I say KubeCons, I mean KubeCon North America. That was Changelog episode 375; we had a discussion with the Prometheus core maintainers, and you were one of them... And that was 2019, as I mentioned. So what is new with you, Frederic, since then?
-
-**Frederic Branczyk:** So yeah, actually, since 2019, a lot has happened. I guess I can go chronologically from that point on. So in 2019 I actually did give a keynote at KubeCon in Barcelona - so that was the other KubeCon that was happening that year - about the future of observability. That was together with Tom, who I believe you spoke to at the same KubeCon as well.
-
-**Gerhard Lazu:** Yes.
-
-**Frederic Branczyk:** So we were talking about a couple of predictions that we felt like were going to happen to the observability space, and one of my predictions was that I felt like continuous profiling was going to establish itself as an area within observability. And for that keynote I had put together a proof of concept that I very creatively called ConProf (you know, continuous profiling). It got some traction, but I never really had enough time to work on it beyond the proof of concept. Yeah, I guess at some point the pandemic probably had some part in it... Half a year into the pandemic I felt like there still wasn't enough being done in that space, I felt... So I thought to myself it's kind of now or never, and I end of last year decided to make it my full-time job, and I founded Polar Signals.
-
-I guess because of the history of when I worked at CoreOS, and we got acquired by Red Hat, I had quite a lot of interest from investors pretty much immediately... But at the same time, I didn't feel like we had explored the space enough to take on VC money immediately, and raise money that we wouldn't know what to do with. I guess it's just me personally, the kind of person I am. I wanted to understand what I would do with money if we raised it, so...
-
-**Gerhard Lazu:** I would like to stop you there, because this is really important, and I don't think listeners know this... Having looked at what you're about, it's not enough to observe, you have to understand. I think this understanding runs very deep for you, and I can see the connection to "You have to undersatnd. You have to really know what you're doing", and I would like to connect these two dots, because they're important, and they will keep coming back. But please, carry on.
-
-**Frederic Branczyk:** Yeah. Thank you for making that point. I think I know where you're going. So we started the company, and a really good friend from CoreOS times, \[unintelligible 00:27:25.14\] many years ago at a GopherCon he told me "If you ever start a company, I wanna be the first person to work with you. And he kept his word. In November 2020 he joined Polar Signals. Since then, a couple more people have joined, and in February of this year we launched a private invite-only beta of our product for continuous profiling... And I guess we should talk a little bit about what continuous profiling is.
-
-\[27:56\] Essentially, profiling itself has been around ever since programming has. When we did our research, we found it had gone back at least to the '60s and '70s, because everybody, as soon as they started programming, needed to understand what was happening with the code that they had been writing. What was using the CPU time. And especially in the '60s and '70s it was so much more precious to have CPU time. So profiling has been around for a while. There had been two problems with it - one was for the longest time profiling was incredibly expensive to do in production. You would only do it to specific processes, on-demand, because you didn't wanna create too much additional overhead.
-
-There was one thing that kind of led to us being able to do this in production and always on, and one of those things is what we call sampling profiling. So instead of tracing exactly absolutely everything a process does, we only a hundred times per second look at what the program does at that particular moment in time, and capture the stack trace of what it does... Because essentially, the stack trace represents what the program is doing, right?
-
-So for some hyperscalers this was already enough to build continuous profiling tools for them to consume internally, because they could do it always-on in production now.
-
-Now, as it goes with so much cloud-native technology and developments, that wasn't necessarily accessible to everyone... And one of the really amazing things that also have happened somewhat recently has been eBPF. eBPF allows us to capture this data at an even lower overhead, because we can already capture it in the form that we are going to consume it afterwards. We don't need to use some pre-baked format that may have a ton of information that we don't need, a ton of detail we don't need. We can produce exactly the data that we want, and make that exportable to user space, and then ingest it into our storage.
-
-So that was definitely also a really big part of what created a movement... But this doesn't really have to do with overhead. There's also another aspect, which is just kind of Kubernetes unifying the observability space, in a way. And I think we might have talked about this in our last session, actually... The way that Prometheus also, and Kubernetes have kind of standardized a lot of terms in our industry. It just makes us all speak the same language.
-
-This is super-powerful, because all of a sudden, when I say pod, and you say pod, we immediately know what we're talking about. So this is much more cultural than it is technological, but it means that our knowledge is transferable. So this is incredibly powerful... And then the last piece is putting all of this together, eBPF with Kubernetes now allows us to automatically discover all of the containers that are running in our infrastructure, and be able to look at all the CPU time that is being consumed in our infrastructure at once. And the reason why this is so powerful is because all of a sudden we can now say "This stack trace in this binary is what's causing 20% of our CPU time." If we optimize this stack trace away, we're now saving 20% of CPU time in our infrastructure. That's huge. Think of the banks, automotive companies, any company that has a large cloud bill - they can save millions of dollars with these kinds of measurements. It's just, the reality is they can do these measurements today.
-
-**Gerhard Lazu:** \[31:38\] And it doesn't really matter what language you're using, right? Because everything runs as a pod. It doesn't matter whether it's Java, whether it's Go, whether it's Erlang... It really doesn't matter. The point being is, you run this agent on your Kubernetes worker node, where all these pods are being scheduled, and you can see out of the pods which are being scheduled, out of the containers which are running within those pods, which are the ones that consume the most CPU. And I imagine this goes beyond CPU. It goes to memory, disk operations, network operations, \[unintelligible 00:32:08.29\] all that nice, important stuff that the kernel knows about, and it presents to you via eBPF in a way that makes sense to you, and it doesn't matter what language is making that call... Whether you have serverless frameworks... It really doesn't matter. It's really powerful.
-
-I like the way you're thinking about this. I was going to ask you, Parca.dev is the thing that you're opening up to the world at this KubeCon, and I was going to ask you why do you Parca. But I think the answer is "To cost-optimize." But maybe there's something more to it...
-
-**Frederic Branczyk:** First of all, I think -- and we said this in our announcement as well... I think just the people that we are and the company that we are building - I think we needed to have an open source piece to be ourselves. So even if there wasn't anything else, that would probably would have already been enough of an argument for us... But I think more importantly, continuous profiling is - even though there are now several vendors, several projects out there - in the only one year that Polar Signals has existed, right? There are several companies that have sprung up, several vendors that have created products... But it's still a really young space, and it's still not very well understood. So in a way, the open source project is also about democratizing this for the community and educating the community about continuous profiling, so that when we talk about continuous profiling hopefully in a year or two everyone understands it, like when I say distributed tracing.
-
-**Gerhard Lazu:** So if I understand correctly, it's your need to understand what the system does, and the itch that you're scratching is you wanting to understand what is happening on those nodes. So that's why you did it. As simple as that.
-
-**Frederic Branczyk:** Absolutely.
-
-**Gerhard Lazu:** I love that. I love that.
-
-**Frederic Branczyk:** The back-story actually goes a little bit further than where I started. The reason why I even went into putting together that proof of concept with ConProf was because I read a paper by Google where they described these methodologies, how they used these kinds of methods to cut down on infrastructure costs every quarter by multiple percentage points. And I was just amazed by that for several reasons. One, I just wanted to have this tool while I was working on Prometheus. And the other one was I had worked on Prometheus - at least I thought to myself, "I think I know a thing or two about working with data over time." So I think that's kind of what ultimately created the circumstances of me wanting to create a tool like this.
-
-**Gerhard Lazu:** So I got the tool up and running in seconds. That just shows easy it is to get started. This was just local. I didn't want to venture in our production Kubernetes cluster, because I have something else in mind for that... But in a few seconds, I could access the UI, I could see the CPU time, and the UI - what surprised me is it's better than the first Prometheus one that I remember. And I think the secret to this is your coffee machine. \[laughter\] Let me explain, okay? Let me explain. \[laughs\] So this \[unintelligible 00:35:14.20\]
-
-When I first heard of Parca a few weeks back, I checked it out, and it was looking good, but it wasn't as polished as it is today. Just in a matter of a few weeks, I was astounded by how fast you're iterating on it. And I think that it's your new coffee machine. Is that it? What's the secret?
-
-**Frederic Branczyk:** I would say it has a part in it... \[laughter\]
-
-**Gerhard Lazu:** Okay...
-
-**Frederic Branczyk:** \[35:41\] I think the UI is actually an evolution of several attempts at it. The very first one was actually within our closed source beta product, where... You know, when we launched it in February this year, we used this to work really closely with a couple of early users to understand what is it that they -- beyond the UI even, what is it that they want from an experience from a tool like this... But then also, of course, with ourselves using this software, like how do we wanna use it.
-
-I think there's so much dogfooding that was going on from basically day one, because this is a tool that we've built for ourselves. We wanted to put that work into it.
-
-**Gerhard Lazu:** What do you use the tool for? This is really interesting. I love this story. I mean, there's a theme here... Every great product dogfoods itself. And the developers, and the product, and the entire team that works on it, uses it on a daily basis, understands the shortcomings, and fixes them, maybe even before users see those problems. I think there's a theme here. But how do you use Parca for Parca? This question, and the answer, fascinates me.
-
-**Frederic Branczyk:** Yeah, so actually, this is a cool topic that I think we even wanna run blog post series about, because I think there are just so many aspects to this that I would love to talk about...
-
-**Gerhard Lazu:** Can we have a short answer? Because this is a short piece... But it's obvious that we need a much longer one.
-
-**Frederic Branczyk:** Yeah. Basically, boiled down, Parca itself is a really performance-sensitive software. It has a specifically designed storage and query engine, so that we can actually do all these amazing things with continuous profiling. So we use Parca to optimize Parca... This is kind of a vicious cycle, because we keep creating this more and more performant software to create more and more performant software, to do even more powerful things, to optimize it even further.
-
-**Gerhard Lazu:** Oh, yeah.
-
-**Frederic Branczyk:** So it's really addicting almost.
-
-**Gerhard Lazu:** I love that. I love that. We do the same thing; I'm a big fan of that. That's it. That loop is one of my favorite loops. Amazing. So just to switch gears a little bit, and think about the KubeCon and what's going to happen this week... What are you looking forward the most at this KubeCon? Is there something you're looking forward to?
-
-**Frederic Branczyk:** I think - of course, this probably reflects my own interests quite a lot, and what we do with Parca as well... But I'm really excited about how the eBPF space is evolving into more of a production-ready state, if that makes sense. I feel like it's very similar to the first hype wave of service mesh that we had, where everybody was talking about it, but no one was using it... And then one or two KubeCons after that, suddenly there were all of these great stories about how people were actually running it and using it in really useful ways.
-
-And so I feel like we're kind of at a turning point with eBPF as well, where so many people have gotten their hands on it that we're suddenly seeing all these really incredible applications for it. So I'm really looking forward to a bunch of the eBPF talks that are coming out.
-
-**Gerhard Lazu:** Any specific talks?
-
-**Frederic Branczyk:** There's one by Derek Parker who works on the Delve debugger, which is kind of the de facto debugger in the Go community. I think he's doing some really interesting things. There's even some integrations into the debugger with eBPF. I find that really interesting... But the really cool thing about eBPF is almost its unpredictability of what you can do with it. Because it allows us to do such wild things anywhere in the kernel, attached to any kind of event, people have come up with super-innovative things that we were able to do in the past with kernel modules, but let's be honest, nobody really enjoyed the user experience of that. And now, all of these things are being productionized, and I'm just really excited about all the possibilities.
-
-**Gerhard Lazu:** Hm. That sounds interesting. So anything eBPF-related, that's where your interest is... You and Derek Parker, did you say?
-
-**Frederic Branczyk:** Yeah.
-
-**Gerhard Lazu:** \[39:51\] Okay. I've heard Derek Parca... Derek Parker, okay... \[laughter\] That's a good one. Park- everywhere, right?
-
-**Frederic Branczyk:** That was completely unintentional... \[laughs\]
-
-**Gerhard Lazu:** Yeah, that's what happens... And I'm imagining that you're not going to attend the conference in-person, right?
-
-**Frederic Branczyk:** Yeah... Unfortunately, as much as I would have wanted to, and unfortunately, travel restrictions are still in place for Europe to travel to the U.S. But you know, there's always another KubeCon.
-
-**Gerhard Lazu:** Yeah, it was the same for me. You're right. I really wanted to be there in person. So what advice do you have for those who couldn't attend, and will be attending virtually, and some will be catching up on the videos, because they won't be able to attend virtually because of the time difference.
-
-**Frederic Branczyk:** Yeah, I mean - look, it's like, half of the world that's not able to attend this KubeCon, so you're not alone... I know there are several folks that are doing just local meetups, or local virtual meetups, or just going for lunch or something, find your local group... Or if not, just watch the recordings. The platforms have become so much better since the first time we've done these virtual conferences. Just try to be a part of it as much as you can, given the circumstances...
-
-You know, we've got KubeCon EU coming up next year, it's at the end of the winter, so no matter what happens, that's the time when Covid cases went down anyways. I feel like the next KubeCon in EU is gonna be great. A lot of us are gonna be able to attend that one, if not this one.
-
-**Gerhard Lazu:** Those are some great tips. Is there anything interesting happening in the next six months for Parca that you want to share?
-
-**Frederic Branczyk:** I think in a way a lot what we're -- we shared it really early intentionally, to understand what the community also wants from a project like this. We intentionally did not immediately release multiple types of visualizations, or we didn't immediately go all-in on a query language, or stuff like that. We do think these things are on the horizon, but it's just so much -- you're gonna create something so much better when you work with a community and talk to a lot of people. It's just like creating any product... But we just feel like we owe it to the open source community, because really, the open source community has made us who we are today... So if we can give back a little bit of that, then we've achieved our goal.
-
-**Gerhard Lazu:** Wow. That's amazing. I wish everybody thought like that... And I think most people think like that in the CNCF space, and it just goes to show... That's it - this right here is the reason why the CNCF is as successful; because people think like you do. It's amazing to see that.
-
-The one thing which I would like to do as we are wrapping this up is I want to congratulate you on the hiring page, which I think is a baseline for others to follow. It's simple, it's to the point, it's inviting... It makes me want to find out more, and that is saying a lot. So I would like to congratulate you once again... Like, well done for striking such a great balance... And I'm sure that it's so simple because a lot of thinking went into it, and a lot of refinement... And again, I'm seeing a trend here, which I really like; that's been great to see. Thank you.
-
-**Frederic Branczyk:** Thank you.
-
-**Break:** \[43:00\]
-
-**Gerhard Lazu:** So the first time that I've heard about COSI was at KubeCon EU in May... And in that COSI talk, Andrew and Steven did an amazing job. My concluding thought was that it made me reconsider the operating system that I want for Changelog.com... And I do have to say that while I didn't get there, I'm really glad that we have this opportunity to talk with your amazing microphone, Andrew.
-
-**Andrew Rynhard:** Yeah, I have since upgraded, since KubeCon EU. I think that was with my \[unintelligible 00:44:53.23\] This one is made for like voiceover, so... Yeah, I'm loving it.
-
-**Gerhard Lazu:** It's an amazing sound, I have to say, and there's also something natural there, so I really like it. You know, listening to that talk, and seeing the visuals that Steven produced - they were amazing. That was a great one.
-
-**Andrew Rynhard:** Awesome.
-
-**Gerhard Lazu:** So since KubeCon EU, which is about five months now, what is new in the world of COSI?
-
-**Andrew Rynhard:** So COSI proper, as far as what it is, and the GitHub org, and outside of Talos, not much has looked like it has changed. But in Talos itself, we've been implementing a lot of the ideas, and kind of using that as a proving grounds, if you will, for the idea. And it's actually working out phenomenally well. We have since rewritten our entire networking stack of Talos on top of the concepts of COSI, and it's really, really cool -- I mean, where do I even start... When you submit your configuration to Talos, the controllers just pick it up, they know when to set up bonding, they know the order in which you should set up the interfaces to get bonding going, validation on whether or not the particular combination of options for an interface, say, just won't work... Tons of validation around things.
-
-We've since launched a product called KubeSpan, which we could probably get into more later, but it's basically a way to do automated WireGuard. And in Talos, all you really do is you set up two little configuration, you set them enabled true, or something to that effect, and, then all of a sudden, all these nodes know how to reconfigure themselves reactively... And this is all really because of the ideas around cozy. Otherwise, we're gonna be stuck with SSH, and going in and manually executing classic UNIX utilities... And sure, it would work, but it would not feel clean; it would feel very hacky. So I'm pretty proud of what the team has been doing.
-
-**Gerhard Lazu:** First of all, when I looked at Talos, it looked really interesting. The getting started part - I struggled a little bit. And you know, Sidero came along, and that made some things easier... COSI was really interesting, because the concepts - they were not specific to an implementation, but they were like a standard that you were trying to build, and I really liked that.
-
-I do have to say, since trying Sidero - the first one I think was 0.1, when I struggled... I haven't tried it since. I know it's 0.3... So even though I would love to start with this, how would I start? Where would I go with Talos? Which is the first thing that I would do? What would you recommend?
-
-**Andrew Rynhard:** Yeah, so we have the ability to basically spin up Kubernetes clusters right there on your laptop, built into our CLI. I'd say that that's the easiest way. If you wanna get a feel for what it's like to interact with an operating system that's API-driven and has a CLI, and doesn't have SSH, and all these things, that is the easiest way - you just do a simple command. \[unintelligible 00:47:53.12\]
-
-\[47:55\] The good news is this kind of translates really well into, say, running it on bare metal. You could literally grab that configuration file, maybe modify the networking section a little bit, turn on a machine with an ISO file, and submit the configuration file that you had running from your mock environment... By the way, which runs in Docker or Qemu. Those are probably the two easiest ways. One has a benefit of being more developer-friendly... Let's say that you're developing an application and you want something to represent your testing or production environments closely; that's when \[unintelligible 00:48:33.13\] is really nice, because you could just spin up a Kubernetes cluster, you've got one a minute or two later, and it matches, at least API-wise, everything that you're gonna run in production. And then getting that to work in actual bare metal - that's another story. Typically, that just involves networking, and that's where 90% of all the problems happen.
-
-So at that point, it's really just crafting the networking section, as we just talked about. COSI is gonna roll those out for you; well, Talos using COSI... The easiest way to get started on bare metal, I would say, is using the ISO. After that, PXE booting. PXE booting is a whole other level, and that's where we have our Sidero product, which aims to streamline that whole process and really own it for you... But that's the natural progression that I would go towards. Of course, you have the cloud in there somewhere, and right after you -- you know, that's where they diverge, right when you're talking about using the ISO or not.
-
-In the cloud it's a little bit different. You have to have some image that's been uploaded, and all of our documentation goes through how to upload the image. In our releases we have the assets already prepared for you. You follow the documentation to upload the image into your particular cloud, and all you do really is turn it on with the correct user data.
-
-So what I'm getting at really at the end of the day is - it just really boils down to "How do I get Talos just simply installed, or running somewhere?", whether that's a VM, or containers, or bare metal... And then it's just knowing the configuration file. In the same way that with Kubernetes I know that I have Kubernetes; do I really care where it's running? I know that I can describe my application and how it should run using declarative Yaml. We're bringing that same experience into the operating system.
-
-So getting started - it's really just grasping the idea that you just need to turn Talos on, however that may be and wherever that may be, and get comfortable with the configuration file and being able to submit and update the system.
-
-**Gerhard Lazu:** I can see where I've been going wrong, because I usually start in the cloud, and I usually start with PXE booting. And I think that is possibly the hardest way... So if you start there without knowing the lay of the land, you went in extreme mode, so good luck trying to figure all those things out. I think this was actually even before COSI, like six months ago, nine months ago, somewhere around there. And I know that you've made strides since then, and things are clear, things are better, as you would expect. So I think that I know what I'm going to do next, and for someone that doesn't ever run Docker locally, I just like everything in the cloud, because if it's on my machine - well, how do I know it will run in the cloud? But I know that Talos makes it slightly different; even though most things it runs locally, but it will not work the same in the cloud, and that's always a friction.
-
-**Andrew Rynhard:** I wanna touch on that, because I actually think that that's really important to point out, and that's actually a huge motivating factor around Talos, was because I was managing Kubernetes clusters, and the first place that I was doing this we were debating, "Should we do this with bare metal? Can we run CoreOS?" Well, typically we ran CentOS, but we're also running this up in AWS... And I wanted this consistency story. And then we also had our developers that were saying "Hey, I wanna be able to actually spin this up on my local laptop and not depend on anything that you guys have set up." Even though we went to great length to give them testing environments, they still ended up just creating their own.
-
-\[52:02\] So Talos is really beautiful in that sense, because it's literally the same image. The same image that runs right there on your laptop can be rolled out to anywhere - Raspberry Pi's, the cloud, bare metal... Anywhere that you can imagine. And the experience is going to be consistent, more or less. Obviously, when you're running in containers, you have the element of a kernel being the host operating system's kernel, and networking, and stuff like that... But that's minor. Those are things that you can kind of craft after the fact.
-
-**Gerhard Lazu:** I feel that you've shared a secret with us, or at least with me... And now I know what I need to do next, so thank you very much for that.
-
-**Andrew Rynhard:** Of course.
-
-**Gerhard Lazu:** The next thing which I'm thinking about is why would someone want to pick Talos over, let's say, Debian or Ubuntu? What would you say to them?
-
-**Andrew Rynhard:** Yeah, so this is a question we usually get. One of the main reasons that you really would consider Talos over, like you said, something like Debian, is because these things simply come with way too much at the end of the day. They come with package managers, they come with an extra set of packages that you simply don't need if all you're concerned with is running Kubernetes. In some cases you even have to do upgrades of the nodes for things completely unrelated for the purposes of running Kubernetes. And this is just unnecessary, to put it simply.
-
-So the first point is the minimalism that you're gonna get with Talos. It's only about 15 MB. At the end of the day, you're gonna get something extremely small comparative to everything else out there. You're gonna get no package manager. We don't even have SSH or Bash. And the reason why we did things like that - or why we removed those - was because if you've ever operated Kubernetes at any scale, you've found yourself constantly duplicating work. You had to manage users, you had to manage hardening, you had to manage automation... But at two different layers. You had Kubernetes itself that you had to worry about, and then at the operating system itself.
-
-So the whole goal with Talos is to just remove that Node element entirely, so that you can focus on just the cluster. We like to tell people that we want them to look at the cluster as one giant machine; adding nodes simply adds more compute to that. So it's just more CPU and RAM to a bigger machine. We can't really look at it like that if we have to concern ourselves with who's logging on there, what if they changed permissions, automating it... This overhead simply should go away. And that's first and foremost one of the reasons why you should consider Talos.
-
-And secondly, we have a really strong security emphasis. We recently just went through a whole exercise of actually securing our supply chain. So now everything's completely reproducible, you can get all of the checksums and make sure that you're actually running the intended version of Talos. The file system is read-only. As I mentioned, Talos is only 15 MB; what I didn't mention is that it's delivered as a SquashFS, which is only read-only, and there is no other way to run it. It is also completely ephemeral.
-
-Now, Kubernetes of course needs places to write things, and there's only one place in Talos that's writeable; it's /var. At least writeable in the sense that it's going to be persisted across reboots. Of course, we have /temp and things like that, but that is completely ephemeral and only Talos uses those places.
-
-So you're gonna get a much more hardened experience. You're gonna get people that can't -- you're gonna completely eliminate the possibility of people going on there and making a node a snowflake. It's really just Kubernetes that can change. So that's a huge benefit when you're talking about running anything more than ten nodes.
-
-**Gerhard Lazu:** I know that everybody's thinking about security chain attacks, and security of everything - software, developers, signing... Can you sign everything, from your commit to the release, to the artifact, to what it runs, when it runs, so that you can trace it all the way back to the origin of the code being written? That's really, really important. I really like this minimalist story, not just from a security perspective, but that you only run what you absolutely need, and you run it with the least privileges; that is very powerful, and I think it somehow has been forgotten in the age of containers and Docker, because it was like the Wild Wild West for a long time... And I'm really glad these concerns are now coming back, because I know how important they were 10-15 years ago. So I can see the cycle; we're back where we started.
-
-\[56:28\] So from that perspective, I know that these minimalist systems, one of the things that they replace - and I wonder if Talos does the same thing - they replace glibc for something like musl. And what then tends to happen is glibc is a lot more hardened, battle-hardened, battle-tested, so the performance on glibc of anything tends to be better. So what I've seen is weird crashes, weird degradations, weird IO performance when you don't run glibc. So what does Talos use?
-
-**Andrew Rynhard:** We actually use Musl, and we haven't seen that at all. And I think that may largely be due to the fact that the only reason that we run musl - let's see... We only have a handful really on the rootfs. We have Containerd, and we have xfsprogs, and maybe some LVM tooling, and then Talos itself. So the actual C libraries that are running in Talos are practically negligible; it's practically zero. We don't even have systemd. In fact, our init system is a new init system that we're building for the purposes of these style of operating systems, API-driven operating systems. So that is written in Go. Practically, everything that we do is in Go.
-
-So I think maybe that can be contributed to the fact that we are running musl, but we haven't run into any issues. And then, Kubernetes itself, since it's delivered in containers, those containers have glibc. So the role that musl really plays in our ecosystem is very small.
-
-**Gerhard Lazu:** Yeah. I always had it different. Usually, the host would run glibc, and the container would run musl. And then that combination, from that direction, always seemed to create problems. This was about two years ago I remember, when we were looking at RabbitMQ the image, in the context of running it at performance, at scale, what's the most you can get, and then you have the Erlang VM, so it's slightly different... But I do remember the Alpine-based images had all sorts of weird issues that the Ubuntu ones never had. But now again, this is the container image, this is not the host. So I'm really curious to try it out for myself and see what is different. Who knows, performance could even be better. Which kernel version are you using, by the way?
-
-**Andrew Rynhard:** We are on the latest LTS. I think it's \[unintelligible 00:58:40.05\]
-
-**Gerhard Lazu:** Nice. Okay, okay.
-
-**Andrew Rynhard:** We used to run the latest Linux kernel, and we still kind of go back and forth on what we should do... And I think we're now leaning more towards LTS, because the changes that Linux introduces sometimes just cause us more headaches, especially when you're on the bleeding edge versions of it. But the latest LTS so far has been really great for us. We've been playing with the idea of maybe having LTS-style releases of Talos, which are pinned to LTS versions of the Linux kernel, and then having more edge versions, which are running the latest stable LTS. But today, we're still playing with the overall strategy that we wanna take long-term, and we just kind of settled on LTS for now, because that's kind of a safe play.
-
-**Gerhard Lazu:** So speaking about LTS' strategy and roadmaps - anything interesting coming in the next six months? So between this KubeCon and the next one for Talos and COSI?
-
-**Andrew Rynhard:** Yeah, I'd say the biggest one is this week we're announcing KubeSpan, which is -- I mean, I'm just super-excited about this idea, and I haven't even explained it yet...
-
-**Gerhard Lazu:** Okay... Yes, please... That sounds very interesting. Please.
-
-**Andrew Rynhard:** \[59:50\] Yes... The idea is that, since Talos can run practically anywhere, we're finding people want to bridge, say, bare metal clusters with instances running in the cloud. And so far, there hasn't been any good solutions for this. With Talos we're kind of uniquely-positioned; since it's API-driven, we own the whole stack, we've got COSI managing the network... And so what we did is we went ahead and we actually wrote a tooling to basically automate the key distribution and the peer discovery of WireGuard VPN. So I can spin up a cluster right here in my closet that's running on Raspberry Pi's, and extend that out to AWS really simply, really easily... And the latency is somewhere like -- I think the latency that WireGuard adds is somewhere around a millisecond... So it's negligible. But you get this consistent experience network-wise, regardless of where you're running that particular node. Even the pod traffic can be routed over it. Kubernetes can actually be configured to purely talk over the WireGuard network.
-
-So the idea with this long-term, the vision is that we're gonna have users/customers running in the data center, bare metal, which is a large part of our user base - all of a sudden they have an influx in traffic, and they need to expand the cluster. But they don't have the resources. Okay, fine. Let's just expand out to AWS momentarily, and when things calm down, we'll scale it back down to our core infrastructure. Or even another data center, spill it over to another data center.
-
-Now, a completely different use case, but very similar, is maybe the edge. I have some Raspberry Pi's that I actually wanna join up to a cluster at the core, which is hosted in AWS. But maybe these Raspberry Pi's are running in shipping trucks, and they have intermittent network connectivity. That's kind of troublesome when you're talking about running the Kubernetes control plane... But a worker - you know, it can kind of go in and out, and I think the story there could be better on the Kubernetes side... But at least using WireGuard, as soon as they get any kind of networking, whether it's some WiFi when they pull up to a store, or mobile data - they can join the cluster with WireGuard, and everything just seems as if they're right there, on the same network.
-
-**Gerhard Lazu:** That's really interesting... So let me see if I understood this correctly. You're saying that you can scale out your Kubernetes clusters on-demand, wherever, whether it's your closet, or whether it's on the data center, or the cloud... You can maintain the same privacy of the network, everything is encrypted, the data on those workers - you think it's ephemeral data, so that you don't store any state there, so that you can scale back in... And KubeSpan makes this seamless. Is that what you're saying?
-
-**Andrew Rynhard:** That's exactly what I'm saying. Of course, there's little caveats, like -- the way WireGuard roughly works is you need at least one direction of communications. So in the case of, say, my private cluster running right here in my closet, it needs to be able to at least reach the workers. The workers don't necessarily need to reach it. It can establish the channel that way.
-
-So there are some limitations within the system that you can find in the documentation stuff; over my head when it comes to networking. Something around Cones and NATs, and stuff...
-
-**Gerhard Lazu:** Is it IPv4, or IPv6? What network does it lay down? Or dual stack?
-
-**Andrew Rynhard:** Either.
-
-**Gerhard Lazu:** Wow. Okay, I wanna try it out.
-
-**Andrew Rynhard:** Yeah, you should.
-
-**Gerhard Lazu:** I wanna try out how it all actually works.
-
-**Andrew Rynhard:** It's pretty neat. In fact, one of our engineers - he just created a video of him just spinning up Talos right there \[unintelligible 01:03:29.11\] right there on his laptop, and then joined an AWS Graviton instance to it.
-
-**Gerhard Lazu:** Wow, okay.
-
-**Andrew Rynhard:** So it's pretty neat. I'm super-excited about it.
-
-**Gerhard Lazu:** I will put that link in the show notes, because that sounds like something which I would want to try out. That sounds amazing. Okay, okay... So - shifting focus a little bit towards KubeCon and what's happening this week. First of all, will you be attending in person?
-
-**Andrew Rynhard:** I will, I can't wait.
-
-**Gerhard Lazu:** You will. Okay. Amazing. What are you most looking forward to? Meeting people, let me guess...
-
-**Andrew Rynhard:** \[01:03:56.07\] I just wanna see another human. That's exactly what it comes down to. No, actually - that is true, but more specifically, the thing that I'm really looking forward to is meeting everybody that works at Sidero Labs. We've been fully remote for two years now. I think I've only met a couple of people that are currently at the company, and I just can't wait for us all to get together and just have a dinner, go to the bar, whatever. Just have a good time and actually not have to worry about seeing each other over pixelated streams and audio issues. So just seeing another human is gonna be really nice, and especially meeting everybody that's a part of the company.
-
-**Gerhard Lazu:** Wow. So this is two out of three people -- actually, both people that go to KubeCon in person, you and William Morgan... You're both looking forward to the same thing. William Morgan from Linkerd, from Buoyant - he was saying the same think. Meeting the rest of his company, meeting the community, and meeting another human being. He's really looking forward to that.
-
-Okay, I think everybody's on the same page... And I have to say, those that couldn't make it in-person, myself including, we wish we could be there... But by the time EU comes along, I'm sure things will be easier, and then next year, for the next KubeCon North America, I hope to be there in-person, and meet all the great people that -- you know, KubeCon is so big; you can never meet everybody that you want to, but at least there will be fewer people this year, so it'll be a bit better for meeting in-person.
-
-**Andrew Rynhard:** Yeah. And speaking of EU, we will be there as well, too... So maybe we could see each other then.
-
-**Gerhard Lazu:** Amazing. Okay, yes. Tick! So what advice do you have for the people that can't attend the conference in-person? Anything that you recommend to them?
-
-**Andrew Rynhard:** You know, nothing that you're not gonna get from the CNCF as far as their recommendations go. Attend their virtual booths... I would say join the CNCF Slack. That was really when I did KubeCon EU; just talking to people, and all kinds of random channels... That was a blast. It did a decent job of giving me that camaraderie that you're looking for when you go to KubeCon. So I'd say that you should sign up for that immediately.
-
-**Gerhard Lazu:** Okay. And then what about the people that want to do catch-up videos? Because for example, it may be too late in the night for them and they can't be up all hours... Anything you would tell them?
-
-**Andrew Rynhard:** Set aside enough time, because there are a lot of really cool things... And just try to prioritize. Because you're not gonna get through all of them; figure out the ones that probably are most applicable to you, things you're most excited about, and just have fun watching them.
-
-**Gerhard Lazu:** Speaking about that - which talks are you excited about? Anything in particular?
-
-**Andrew Rynhard:** I've noticed my taste has changed ever since I've become into a role where I'm playing more of a management role and business role. I do get hands-on technically, but less and less over time... So I'm finding myself gravitating more towards things like building community... There's a particular talk on how to make contributors maintainers... Building your brand, stuff like that.
-
-Technical stuff - there is one on supply chain that I wanna go look at... But I am reserving a lot of time for just talking to people as well. So I'll maybe grab a few, but they're gonna be less technical.
-
-**Gerhard Lazu:** Okay. Well, Andrew, this has been a pleasure. I'm really glad that we had this opportunity. KubeCon EU just flew by and I didn't have time, but now I'm so glad that we had this time together. I'm really looking forward to trying Talos, to trying Sidero, and seeing KubeSpan, how well does it work in practice. Thank you very much for sharing all these amazing things with us.
-
-**Andrew Rynhard:** Yeah, thank you for having me. It was a blast.
-
-**Break:** \[01:07:29.11\]
-
-**Gerhard Lazu:** So KubeCon is my favorite time to catch up with the cloud-native community, with the people, with the events, new features, new products... It's such an eventful time, KubeCon. I love it. But also new beginnings. So we only spoke -- was it like a month ago? It wasn't that long... Episode \#18.
-
-**David Flanagan:** Yes, it was around 4-5 weeks ago I think it was...
-
-**Gerhard Lazu:** And you have been really busy in this one month, right? So tell us about it. What happened in the last month?
-
-**David Flanagan:** Well, we brought a new person into this world, which has been rather time-consuming...
-
-**Gerhard Lazu:** Okay...
-
-**David Flanagan:** I can't remember if we spoke about this during the last one...
-
-**Gerhard Lazu:** We didn't.
-
-**David Flanagan:** My wife was pregnant, and now we have a beautiful baby boy who's entered this world. His name is Caleb; he is two weeks and five days old... And because that wasn't enough change in a short period of time for me, I also decided "You know what - let's change jobs as well." So the last time we spoke, I was working at Equinix Metal, and I am now a developer advocate for Pulumi.
-
-**Gerhard Lazu:** So I think that this is going to be my favorite announcement from this KubeCon, which is the newest and youngest member of the cloud-native community, Caleb. He's - what, two weeks? Three weeks?
-
-**David Flanagan:** Two weeks and five days, yeah.
-
-**Gerhard Lazu:** Well, I don't think there is a younger member of the cloud-native community. So two weeks and five days, you said... That's just crazy. Okay...
-
-**David Flanagan:** Well, he will be watching some of the KubeCon festivities and talks remotely with me, as obviously in the U.K. we are travel-banned until November 1st... So I will be participating as much as I can through my laptop and through the video material... And I'm sure Caleb will be throwing up on me for a good few of those sessions.
-
-**Gerhard Lazu:** \[laughs\] Or falling asleep, I would like to think... Like, during those boring sessions... Boring to him, obviously. Like, "Kubernetes what?!" He'll just fall asleep \[unintelligible 01:10:16.22\] Anyways... I just thought about this - this is maybe the best strategy to shift your body clock to the West Coast timezone without actually traveling, right? Because a new baby will keep you awake through the night, so you can watch all the talks; you'll be awake. I hadn't thought about this, but this is genius, David.
-
-**David Flanagan:** Yeah. \[unintelligible 01:10:43.00\] so why not spend some of those times awake, catching up with some great cloud-native material, and stuff like that. It'll be good. And of course, it's KubeCon; it's been remote for the last four editions. I think this is the fourth remote one since the pandemic.
-
-**Gerhard Lazu:** Yeah.
-
-**David Flanagan:** So you know, the hallway track on Slack, and Discords, and Twitter... Twitter is always very active, so there's always something to keep you company during those late nights.
-
-**Gerhard Lazu:** So which is your process of joining remote KubeCons? Tell me about it. And then I can share with you my process and see how it compares to yours. How do you do it?
-
-**David Flanagan:** Well, I wish I could say I was really methodological about it, and I knew exactly what talks I was gonna watch each day, but I don't. I really just kind of show up and log into the platform and see what's happening then and there. I definitely watched a lot of it after KubeCon, so that I could do the 2x on YouTube; I'm very guilty of 2x-ing a lot of these sessions and slowing down as required... But I do try to catch a few things live as much as possible, and it's really just -- especially with having a young one right now, my method is gonna be slightly different from previous KubeCons. So I'm really just taking it day by day. We're \[unintelligible 01:11:49.01\] I'm logging on, I'm going "Okay, I've got 40 minutes. What can I catch right now?" and just try to do as much as I can in the moment. But it's not as well-planned as I would expect. I'm sure you've got it down to the letter, right? You must know exactly every session you're gonna check out.
-
-**Gerhard Lazu:** \[01:12:05.17\] Yeah, something like that... Actually, I try to drop in on all of them. I'm making use of three monitors, plus an iPad... I have a picture from the last KubeCon that I attended... And then I just like watch three sessions and I mute, and I just pick one, listen for a minute, then switch to another one, switch to another one... And that's how I just like consume three at the same time. And then when something is -- I mean, it's interesting, but maybe there's something more interesting, I just switch to another one. But I can consume three, that's my max. I think four will be a bit challenging.
-
-When it comes to the sessions, I don't pick them ahead of time, because the titles and the descriptions can be misleading. I try to drop in on them as you would do, and then I just pick and choose. But I try to drop on all three of them, which is impossible if you're in-person... So I think this is the best way to do it virtually when it comes to consuming the talks. But what about interacting with the KubeCon, the rest of the attendees? How do you do that? Or do you even do that?
-
-**David Flanagan:** Yeah, I do try and remain active. I'll go back to the schedule first, actually, just a little bit on that... So you're not the first person I've heard who has multiple talks running at the same time. There's that community member \[unintelligible 01:13:10.08\] who does four or five talks at the same time as well, and Slacking between them. I don't know how yous do it. I'm a complete single-tasker. I don't have the focus or attention span to do multiples, so - mad respect there. But I'm always following the operations track mostly this KubeCon, as I was the chair of that track. I helped select all of the talks that you're going to see.
-
-**Gerhard Lazu:** Oh, wow. I didn't know that...
-
-**David Flanagan:** Yeah, I don't think I've actually told anyone. I didn't really talk about it on Twitter either, but I did chair that...
-
-**Gerhard Lazu:** That's amazing. Wow...
-
-**David Flanagan:** I helped pick all the talks. If you don't like them, it's sadly my fault, and one other person... But it should be a pretty good KubeCon.
-
-**Gerhard Lazu:** Right. Okay... Well, then that means that you know all the talks that are -- well, not all the talks... Like, you have a good idea of the talks that are coming, the themes, the speakers... That's amazing. Anything that you would recommend in particular? Something that resonated with you from that track?
-
-**David Flanagan:** Yeah, I think my bias definitely helped \[unintelligible 01:14:03.14\] I've got an affinity for GitOps and infrastructure as code, so there's a lot of really good sessions that feature using Argo for deployment... You know, we've talked a bit about that last time; I think we're both fans of the project... And we're just seeing more and more sessions submitted on Argo every single year, and it's just because of the demand. People wanna be able to do this automated GitOps \[unintelligible 01:14:23.13\] deployment. So you'll see a lot of sessions there.
-
-A lot of sessions on infrastructure as code, with TerraForm and Crossplane really popular this year... We've seen a lot of submissions talking about Crossplane...
-
-**Gerhard Lazu:** Interesting.
-
-**David Flanagan:** ...which is great to see. And of course, there's a few preliminary sessions on there from some of my new teammates from Pulumi as well.
-
-**Gerhard Lazu:** I see, okay. So when it comes to GitOps, Flux or Argo? What do you think?
-
-**David Flanagan:** Oh, I'm so on the fence... I actually use both. I really love the simplicity of Flux; it just seems to work. But I love the Argo UI, and I wish I could merge them together sometimes. Previously I mentioned that Flux are working on the UI; it's still super-early. I don't recommend people use it yet. There are many, many bugs. But I do tend to use Flux, but I'm getting more familiar and comfortable using Argo.
-
-I think the challenge with Argo is the custom resources are slightly more complicated, especially when you have to adopt the App of Apps model, which is an app to deploy an app, which has sub-apps... And I haven't really got my head around that completely; I'm not as fluent with it as I am with Flux, but I definitely think both tools are really great. I don't think you can go wrong with using either. I think it comes down to just whichever one you've used first, whichever one you're comfortable with. They're both great projects.
-
-**Gerhard Lazu:** Yeah. So it's a matter of trying them, I suppose, and seeing what works for you. That's one of my favorites.
-
-**David Flanagan:** Well, we got this announcement - was it two years ago? Maybe you'll remember... But the team -- was it Intuit who were the original creators of Argo, and Flux \[unintelligible 01:15:50.03\] and they had this big joint announcement where they said "We're gonna consolidate both of the tools to get this one GitOps tool to rule them all", and it was gonna be called GitOps Toolkit... It never really happened, and now we're back to this divergence data, where we have multiple tools kind of trying to fulfill the same thing.
-
-**Gerhard Lazu:** \[01:16:07.02\] Yeah, 2019... I was actually there, at that KubeCon, and I was so excited. That was also the North America one. And I would like to dig more into that to see why that happened. I didn't get a chance to speak to the Flux team. They're on my list, they really are... But it's like -- you know, too many things happening. But the day will come. There's a GitOps Days, I think; there's like a summit coming, like next week, I believe...
-
-**David Flanagan:** Maybe. I can't remember exactly.
-
-**Gerhard Lazu:** Yeah, something like that. It's happening as well, and that will be an interesting one to watch. But I would really like to understand what happened there with Flux and Argo, and what are the strengths and the weaknesses of one versus the other. The UI - that's like a good one.
-
-I do have to say, even though I have tried Argo, I haven't tried Flux. So this GitOps summit which is coming, I'm hoping, I'll be able to try it out in that context. I'm looking forward to that. Okay...
-
-**David Flanagan:** I think the Flux chain is a bit better when it comes to being a bit more agnostic on the tools you wanna use to actually generate the Yaml. You know, not all of our GitOps repositories are straight Yaml manifests; we're using tools to customize \[unintelligible 01:17:06.02\] There's so much choice there. Decision fatigue is real, especially in the cloud-native landscape...
-
-Flux makes it a lot easier to say "I wanna use a tool to generate the manifest before we do the apply stage." With Argo I think it's a little bit more convoluted. There has to be a concept of a provider, if I remember correctly... And they're not all supported. But that could have changed since the last time--
-
-**Gerhard Lazu:** Cool. I definitely have to follow up on it, so thank you for that. Thank you, I really appreciate it. In the context of KubeCon, coming back - so there's the operations track. Any other track that you're excited about?
-
-**David Flanagan:** All of them, I think. I'm in a really unfortunate position, which you probably are as well - we need to really stay on top of a lot of this, as well as our day jobs... And we have our extra-curricular activities where we need to be knowledgeable on a lot of these domains. So I really am watching all of the tracks as much as possible, and 2x-ing all the talks on YouTube. But anything to do with continuous integration and delivery is something that I'm really keen on following, talks about infrastructure as code, of course... I definitely love tools that are doing this.
-
-One of the reasons I joined Pulumi is just because \[unintelligible 01:18:12.28\] is everything I love doing with platforms, which is taking the primitive tools that we have, like Flux, and Argo, and Kubernetes, and cloud providers, and being able to give developers a platform to deploy their application. My interest and Pulumi's interest are just the same there. Infrastructure as code, continuous integration, continuous delivery - those are the main things I wanna see from KubeCon this year.
-
-**Gerhard Lazu:** I would like to dig into that a bit more, because that's like the other big thing that changed in the last month for you, the new job with Pulumi. I think Kat Cosgrove - is she there as well, at Pulumi, I believe?
-
-**David Flanagan:** Yes. Matt Stratton, Kat Cosgrove and Laura Santamaria - they are my teammates. They're the developer advocacy team at Pulumi, and I'm joining in with some great people there, definitely.
-
-**Gerhard Lazu:** Yeah, a big shout-out to them. That was the first thing which I wanted to do. And the second thing is ask you, as I asked you before, "Why Pulumi specifically?" Why Pulumi? Could you see this one coming? Let's be honest, did you see this one coming?
-
-**David Flanagan:** Of course, of course.
-
-**Gerhard Lazu:** Okay. \[laughs\]
-
-**David Flanagan:** I always look back at my career, and I've always worked for relatively small shops. Every time I write a line of code, I've always been responsible for the deployment to production. And I've never had that throw over the wall scenario.
-
-So infrastructure as code and continuous integration and deployment - these are just things that I've always had to do. I've never been able to dodge that bullet, unfortunately. I think I cut my teeth like the rest of us using TerraForm and HCL, and I think -- TerraForm is a fantastic tool. No one's ever gonna say otherwise. But it has some really rough edges when it comes to programmatically defining some elements... Like, nodes in the cluster are doing loops or conditionals... These things get a little bit tricky because of the constraints of the HCL language.
-
-\[01:19:54.29\] Now, I know with TerraForm 0.10 they started to bring in some of these primitives, but these primitives already exist in high-level programming languages, which is where Pulumi shines. It comes down and it says "Well, you can just define your resource graph using the language that you're familiar with." I'm a big fan of Go, I'm a big fan of TypeScript; they're both options available to me... But Pulumi also supports any of the .NET languages, it supports Python, and I'm sure there's other things coming, and there's some really cool announcements that I managed \[unintelligible 01:20:19.25\] coming to KubeCon...
-
-So there's all these languages that already have loops, conditionals, the ability to provide a \[unintelligible 01:20:28.09\] That's my favorite thing on Pulumi. So I'm \[unintelligible 01:20:31.07\] I want a Kubernetes cluster on GCP, and I want different node pools that look like this. And I want a load balancer, and I want some applications deployed to that cluster as part of the bootstrap process. Now, I could do that as a HCL TerraForm module, but as a TypeScript Pulumi application, I can actually make that a function call, publish it to npm, and then anyone can pull that out. You can literally do npm install \[unintelligible 01:20:55.11\] Kubernetes cluster package, call that function as many times as you want, get all these clusters with everything encapsulated in that way... And I just think that is a super-power. And I think once you see that and you start to use that approach, looking at more abstractions like HCL or Yaml, you're just like "Why? Why am I constraining myself to the opinions and the subjective nature of other people that think that that's the best way to do it, when my experience may be slightly different... And programming languages are the best way to encapsulate that knowledge.
-
-**Gerhard Lazu:** So this is really interesting, from multiple perspectives. I see a couple of products, tools, however you wanna call them, enter this space in recent months... One which is top of my mind, which is, by the way, an episode that's going to ship, I think, this week. I mean, by the time you're listening, it'll be like a few weeks back... Dagger. And I really like how they're making use of CUE and BuildKit. So CUE as a language to define these things sounds really interesting... So I'm wondering, how does CUE compare to HCL and Pulumi? Pulumi in the case of Pulumi being the actual programming language... Versus something like Crossplane, which is supposed to be your control cluster, which then you define your compositions and your -- there's something else \[unintelligible 01:22:11.12\] Compositions, and - it's not an abstraction... Do you remember what it is? There's a composition in Crossplane...
-
-**David Flanagan:** Yeah, the XRDs. So you can actually have a single resource, but then create multiple sub-resources below it. I think they're called compositions, or XRDs.
-
-**Gerhard Lazu:** Yeah. And there's like another name... So it's two things. The compositions are the things that you can bind them in... But they have these providers, they interact with all the \[unintelligible 01:22:33.08\] you can declare you Yaml, so you declare you GK cluster in Google, and it just makes it happen, and all the other things that you want are within that \[unintelligible 01:22:43.03\] So I'm wondering, how does Pulumi compare with Crossplane? Let's start with that. And how does Pulumi compare with Dagger, which is using CUE, rather than a programming language.
-
-And CUE - I mean, it is kind of a programming language, but it's more like a data language; that's the way I see it. And I know that you know a bit more about CUE with Brian Ketelsen. You have CUE Blocks?
-
-**David Flanagan:** Yeah, Brian Ketelsen and I are the creators and maintainers of CUE Blocks. We're both huge fans of CUE. We think it's just a great language for defining schema, applying constraints, and even doing some basic comprehensions and mathematics with them.
-
-So it's not a Turing-complete programming language, but they are starting to add more query APIs and other things to bring it in line with some of that.
-
-So I really like Dagger... I have done an episode with Solomon on Rawkode Live, where we dug into Dagger and we did some deployments. I think it's a really good tool, and I love seeing CUE used in this way. It's very similar to TerraForm, in the regards of that you have to have something that understands the abstract form. The HCL, the Yaml, or even the \[unintelligible 01:23:45.21\] just compiling down to Yaml at the end of the day anyway.
-
-\[unintelligible 01:23:49.01\] in that you can't do a lot of conditional logic. Loop logic does exist in CUE, and you can do some things like that... But then modifying things within the loop gets a bit difficult, because you've only got access to that \[unintelligible 01:24:00.12\] So it depends on your use case. But I think Dagger is great, and that they're moving beyond, into like where Boundary is as well. I'm not sure if you're familiar with HashiCorp's Boundary...
-
-**Gerhard Lazu:** \[01:24:12.25\] No.
-
-**David Flanagan:** But I think that second step is like "Okay, we provide the platform or the infrastructure, but what about the applications that then belong and live on that application?" And that's where Boundary comes in, fulfilling the continuous delivery component of your application. And Dagger kind of moves right into that and provides like a single interface to all of it, which I think is really cool. But the constraints are still there, very similar to HCL.
-
-Crossplane things get really interesting. Crossplane still has defined -- you're still constrained by Yaml. You can only see so much that is not programming, but you're not gonna be able to provide a function that does a thing, but you can provide a composite resource that does a thing.
-
-What I really love about Crossplane is that continuous reconciliation. That's something Pulumi doesn't do yet, as well \[unintelligible 01:24:51.26\] and I'm gonna be like "We need to get into this space."
-
-**Gerhard Lazu:** Oh, yes.
-
-**David Flanagan:** We have to control the actual reconciliation, and not just the client-side reconciliation. So I think Crossplane is killing it there. I don't think any other product is as good as Crossplane in that regard. The fact that I can have that controller running on my Kubernetes cluster, if I delete an S3 bucket, it's gonna be recreated. Of course, there are things that can happen there that are bad; it could be \[unintelligible 01:25:15.05\] S3 and we have to build workflows onto it to restore it from a backup... These are not things that really happen yet. Crossplane is \[unintelligible 01:25:21.24\] and they're gonna be really happy with that approach. I want to see Pulumi do more of that, control the execution of Pulumi, and not just have a client-side.
-
-And Dagger is great. Solomon and the team are fantastic. It's still not a programming language, but you can still do some really cool things with CUE. I think where Dagger is going to excel is that if something is difficult to do with TerraForm, and even difficult to do with Crossplane, you have to have the provider first. Dagger has made it really easy to provide really superficial providers by just taking \[unintelligible 01:25:58.21\] a very small amount of Go, there's not a lot of boilerplate, and I think we'll see a lot of adoption because of that... But hopefully, Pulumi is now a well-positioned place to try and help on both of those fronts as well.
-
-**Gerhard Lazu:** The other tool that I've seen take a similar approach is CDK from Amazon, where you get to declare your infrastructure using a higher-level language. TypeScript - I know that's something which is pushed at Amazon, which makes sense, with CDK... I've used it briefly; it was okay. Way better than using the Yaml alternative. That was like the most horrible Yaml I've seen in my life, where you get to do like "inc", which is the function, and then get two arguments which are defined like in an array, and then you get an operation, you capture the result, and then you reuse that result as a variable. That was horrible, and all defined in the Yaml. That was crazy. That was the craziest Yaml I've seen. CDK was better in that respect, so I can see some similarities there.
-
-It's interesting that you run it client-side. And when you say client-side, I imagine the CI could run it as well if it has all the secrets, but still, it's not built into the product. So that's interesting. Maybe there's a Pulumi cloud? I don't know. I don't know enough about Pulumi is what I'm getting at; and also, what I'm getting at is I would like to find out more... So you know what the follow-up is, right?
-
-**David Flanagan:** Yeah. CDK is a really cool tool, and it's very similar to Pulumi. It doesn't have the provider support, and it doesn't support the TerraForm providers out of the box... You know, like what Pulumi tries to do with their generators.
-
-The CDK is awesome, and I think what really excels here is that Pulumi and CDKs shine when you're using TypeScript. I think it's such a great language for infrastructure as code, because it's strictly-typed. You can have interfaces that you can define for the different properties, you need to go out to expose \[unintelligible 01:27:44.05\] All of these things just -- TypeScript is just great. I think if you haven't tried to do any infrastructure as code using TypeScript, or CDK, or Pulumi, you should just go try it. It's so cool.
-
-\[01:27:56.28\] And the way that the Node ecosystem and TypeScript allows you to pass functions around, or \[unintelligible 01:28:00.20\] they can be exported, they can be renamed, they can be bound, there can be higher order, you can pass functions in functions... The flexibility there is phenomenal, so I encourage everyone to try TypeScript first, before going to any of the other languages.
-
-**Gerhard Lazu:** But not you. You're Go, right?
-
-**David Flanagan:** I do most of my Pulumi in TypeScript.
+**Steve Francis:** Andrew's been working with Kubernetes for a long time. At LogicMonitor, he was the one that spearheaded our move onto Kubernetes...
 
 **Gerhard Lazu:** Really?
 
-**David Flanagan:** I have started doing it in Go, and I just -- it's not as nice. Error checking all of the time is still very present in Pulumi Go, so I just stick to TypeScript, actually. When I was working at Equinix Metal, I handled all of the Tinkerbell CI/CD infrastructure using Pulumi with Go, and it was super-painful.
+**Steve Francis:** ...so that was probably what Kubernetes 1.10, or something like that...?
 
-**Gerhard Lazu:** Oh, interesting.
+**Andrew Rynhard:** That was 1.7... And I think that was like my first official job in software, even though I was like studying software on my own for 10 years before that...
 
-**David Flanagan:** I actually opened an issue going "Please let me do this in TypeScript."
+**Gerhard Lazu:** Wow...
 
-**Gerhard Lazu:** Okay... And how did that go? Is it still open, the issue?
+**Andrew Rynhard:** I just loved Linux, and I think I was like six months into my journey there... And so for better or worse, I was put in charge of Kubernetes there. But it ended up actually working out really well.
 
-**David Flanagan:** We closed the issue and left it in Go just because the work was done, but TypeScript \[unintelligible 01:28:46.23\] support higher order functions, being able to pass them around, being able to publish it to npm... There's just so many convenience factors there. That ecosystem is great. Dependencies in Go - does anyone love them? Probably not.
+**Steve Francis:** And you got hooked.
 
-**Gerhard Lazu:** Yeah, I know... Things are better now. I mean, I still have nightmares from 6-7 years ago. Early Go, when it was just released. It was amazing as a language, but oh my goodness, the whole dependencies... I keep forgetting, there were all these tools which were being invented, which were like half-working, and mostly not working. I even forget the names of those tools, and they were so annoying. They were trying to be helpful, they were trying to address the pain, but I think they were causing more pain in the process. So I remember that, and that's actually a good point.
+**Andrew Rynhard:** Yeah.
 
-**David Flanagan:** Yeah, we used to vendor everything and commit them to our own Git repositories, which was terrible. And then we had that semi-official Dep, which just magically disappeared, because GoMod came out, with 1.10, or 1.11... 1.11 I think it was. And it's been better, I've gotta say. Since more projects are now running GoMod, my life is easier, but it's still definitely challenging.
+**Gerhard Lazu:** Wow. Can you imagine not using it? Can you imagine not using Kubernetes, using something else?
 
-**Gerhard Lazu:** Okay. So as we are getting close to wrapping this up, I have one more thought which I wanna share with you... And it's more like a question, really. What happens with Rawkode?
+**Andrew Rynhard:** I can, yeah. Absolutely. I think it's dangerous when you start to put anything in life as the ultimate answer to everything. I think Kubernetes certainly has its pitfalls and downsides to it... I do think it's the best thing we have today. I also don't think it's for every use case out there. That being said, I don't live by that, and I definitely just use Kubernetes anyways, because it's what I'm familiar with... Again, going back to humans doing what they love, and avoiding all reason and logic because they love it... But yeah, I could definitely see a place without Kubernetes, and dare I say a Talos version without Kubernetes... I don't know. We'll see.
 
-**David Flanagan:** Oh, that's not stopping. I've been taking a nice break, spending time with my family for the last couple of weeks... But Rawkode Live will be back in anger in November, with just more -- you know, the cloud-native ecosystem is not standing still. There are so many projects out there. I think what we will see changing in Rawkode is I'll probably move away from just high-level introductions to all these tools.
+**Gerhard Lazu:** Yes, that's exactly where I was going with this. Okay. Okay. Okay. So let's talk about this after we stop recording. And listeners go "Noooo...!! Keep that in!"
 
-It's great having \[unintelligible 01:30:23.13\] but I really wanna get into use case-specific stuff. I've been talking to more people in the community and going "Why are you actually doing with this tool? What problem is it solving for you?" So I think we can show people not just the Getting Started guides from all these projects, but "Here's a real use case that this organization has, and here's what they're doing with this tool", to give people a bit more inspiration, and hopefully to remove some of that cognitive -- what did I call it there...? Fatigue. Decision fatigue. We wanna try \[unintelligible 01:30:49.26\] If you're standing there and you're like "What GitOps tool do I use?" or "Which CI do I use?" Like, okay - what is your use case? Is it similar to this organization, or this one? Here's the one they use, and how they're going about it and what they're doing. So yeah, you'll see more use case-driven stuff in the next few months.
+**Andrew Rynhard:** That's how you're gonna keep them hooked for the next episode.
 
-**Gerhard Lazu:** That's really exciting, because I'm thinking exactly the same way. I mean, it's great to have all these conversations to get people interested, and to get people steered into what resonates with them, so that they know what's out there... And there's so much out there, as you mentioned. But once you do that, you kind of start -- I don't know, you feel which way you'd want to go, which way gets you most excited, and then the next natural step is to explore that space. You don't want to stay shallow all the time. I mean, breadth is very important; there comes a point you wanna go a bit deeper than the first hour or the first two hours, which is just the very early beginning of any tool, really.
+**Gerhard Lazu:** Yeah, exactly. There will be a follow-up, okay? That's a promise. That's a promise. Okay. Okay. What would you like from your community? What would you like to see from your users? Is there anything that you want to share with them, for those that are listening?
 
-**David Flanagan:** Yeah. Everything we do is difficult. Software development is not easy, it doesn't matter how long you've been doing it. In fact, it probably gets harder the longer you've been in it. But I think having that breadth of knowledge of what the tools are, when to use them and roughly what they do is really important for everyone. But at some point, you do need to go down and actually use it in anger. You have to be able to solve real problems with the tool. You might even actually be a consultant, and you can jump from company to company and just say "Oh, use this tool, and use that", and then move on and never actually have them implemented. But at some point, you do need to use these tools in a real use case-driven fashion... So yeah, I wanna tackle that and make that easier for everyone.
+**Andrew Rynhard:** \[00:58:36.24\] I mean, first of all, I just want to say thank you. I vividly recall - and this is a big thing to say this, because I don't remember yesterday... I think from getting punched in the head for all those years, my memory is not great. But I vividly recall the day that I decided I was gonna put Talos out into the world. I was sitting at my old house, on the couch, it was a Thursday night, I think it might even have been like Valentine's Day, and it's probably not what I should have been doing on Valentine's Day, coding on a Linux distribution... I have a wife...
 
-**Gerhard Lazu:** Well, I'm really looking forward to the new and better Rawkode Live, and I'm looking forward to what you do next... But I encourage you taking these couple of weeks, months, however long it's going to be, to make sure everything is nice and smooth, the transition in the new job is smooth... The onboarding is very important, and very often it's skipped. You just get thrown straight in the middle of it. And that can be okay; it's not always bad. But sometimes it's better to just go slower, go smoother, take the lay of the land and enjoy it... Because we keep moving too fast through things, I feel... It's like an acceleration of the next thing, the next thing, and it's not enough time on enjoying or appreciating the present.
+**Gerhard Lazu:** You had to get it out there. You had to get it out of your system so you could focus on other things.
 
-**David Flanagan:** I couldn't agree more. I've definitely taken another couple of weeks just to spend time with the family, and then I'll come back in November, hopefully do some Rawkode stuff. I've got big plans for Klustered, big plans for Rawkode Live, and with Pulumi being my new role, I think it's the first time in a long time that my particular interests in technology are directly aligned with the work that I'll be doing. So again, lots of great stuff.
+**Andrew Rynhard:** Exactly. Exactly.
 
-**Gerhard Lazu:** And we're looking forward to that, David. Thank you very much for joining us. This was great, thank you.
+**Gerhard Lazu:** That's a legit reason.
 
-**David Flanagan:** Thank you for having me, it's a pleasure.
+**Andrew Rynhard:** There you go. Thank you. And so I made a Reddit post, and I went to bed, and the next day I wake up with all kinds of notifications. It's on the front page of Hacker News, and it's just like "Wow!" I genuinely thought people were gonna say, "This guy is out of his mind. Why would he create this? This is the stupidest thing I've heard of." And then literally, two months later I'm founding a company. So first of all, thank you to the people who -- we actually dove into what makes us kind of, I guess, special, and we paid someone to help us with this, and they found out that it is, by and large, the philosophy and just the way of thinking behind Talos that our users identify with. And it really, really resonates with them.
+
+So first of all, just thank you to everybody for making that happen. And also, our community has been really great on Slack. I think I've only had to kick one person out, ever. And that was relatively recently, and we've had the community going well for four years now. Everyone's helpful, they want to help each other... It's just a really -- it's a fun little community to be in, and so I'm just really appreciative of that. And I think that's really what it's about. I don't know, Steve, if you have anything you'd want to add?
+
+**Steve Francis:** No, I'm super-appreciative of the community. We seem to have reached the point where there's enough of a community now - there's 1,400 people on Slack, or whatever, and they help each other out. They give really good, detailed answers, and they take the time, and there's a lot of people that have done a lot of use cases that we haven't tried. Someone was asking about \[unintelligible 01:00:53.23\] running on Talos. And someone else answered, and said what they did, and what issues they ran into, and how they got around them... And it's just like, we've never even looked at that. So the community is coming along really good. They should just tell their friends to spread the word.
+
+**Andrew Rynhard:** Yes.
+
+**Gerhard Lazu:** Yeah. Well, that was part of the reason why we're doing this, because I thought you were onto something... And it took me awhile to make time to dig into it, and then take my time to properly look into Omni, go through my \[unintelligible 01:01:27.23\] a few nights. That was really hard. On macOS Monterey, and... Oh, my goodness me. And NixOS... Anyways, I go through, I now have my cluster, and it's bare metal, and it's glorious, and I can hardly wait to add more workloads to it... And then share it with everyone else. Like, why did what I did, why I did it, and see if it's helpful to anyone. I love that game. I really do.
+
+**Andrew Rynhard:** Yeah. We appreciate that.
+
+**Gerhard Lazu:** Thank you, Andrew, thank you, Steve, for taking the time, for sharing the philosophy of Talos, some of the stories, what is coming next... And I cannot wait, I cannot wait to see the next 6 months, the next 12 months, and just to see how far my own bare metal cluster running Talos gets. Thank you.
+
+**Andrew Rynhard:** I'm looking forward to it. Thank you.
+
+**Steve Francis:** Hopefully, it'll last as long as your board does. \[laughter\]
+
+**Gerhard Lazu:** Yeah. Well, we will tell the story. Let's see what happens. Thank you both. Have a great start to the new year, because it is the new year when this comes out... I mean, this is -- we're actually recording this before Christmas... A little bit like backstage info. Merry Christmas to everyone, but again, by the time -- I mean to Andrew and Steve, definitely. But to everyone else, have a great new year. Alright, thank you all
