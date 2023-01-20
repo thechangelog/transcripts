@@ -40,7 +40,7 @@ So should we dive into what I actually think is coming next, or do we want to ma
 
 **Chris Ferdinandi:** Yeah, for sure. So my thesis here is that large client-side UI libraries have really come to dominate. We have over the last few years started to see some pushback, because -- I make fun of React; it does do a thing that it sets out to do particularly well. I think it potentially has like a lot of trade-offs that we don't always effectively evaluate, like the performance impacts of loading all of that client-side JavaScript, and the fragility that that introduces.
 
-\[00:05:57.28\] And so over the last year or so we've seen people try to address some of these shortcomings in a few different ways. You've got the smaller versions that do kind of the same thing. So you've got like SolidJS use similar patterns to React, but is a lot smaller. Preact is probably the most popular of this kind of genre, which is almost a verbatim copy of the React API, but a 10th of the size. And as a result of that, and having fewer abstractions under the hood, it also actually like renders the UI a lot faster... So in many ways, it is a superior React to React. And kind of this trend has caught on so much that Evan You, who created Vue, was inspired by Alpine.js, which aimed to be like the Preact of the Vue world, and ended up creating his own little mini Vue called Petite Vue, which is a six-kilobyte spin-off that has a more narrowly-focused use case.
+\[05:57\] And so over the last year or so we've seen people try to address some of these shortcomings in a few different ways. You've got the smaller versions that do kind of the same thing. So you've got like SolidJS use similar patterns to React, but is a lot smaller. Preact is probably the most popular of this kind of genre, which is almost a verbatim copy of the React API, but a 10th of the size. And as a result of that, and having fewer abstractions under the hood, it also actually like renders the UI a lot faster... So in many ways, it is a superior React to React. And kind of this trend has caught on so much that Evan You, who created Vue, was inspired by Alpine.js, which aimed to be like the Preact of the Vue world, and ended up creating his own little mini Vue called Petite Vue, which is a six-kilobyte spin-off that has a more narrowly-focused use case.
 
 So on one hand, you've got that. On the other hand, you've got the folks who have been trying to pigeonhole client-side rendering into these UI libraries. So you've got something like Next.js, for example, or Nuxt for Vue. And they're interesting, but they do this like hybrid thing where they'll render the initial view in the UI, and then they'll ship the entirety of the library anyways, and do some kind of like handoff in the browser once that happens. So you're eliminating one problem, but you're not really kind of addressing that core issue, which is too much JS. And I say this as someone who teaches JS for a living. We just -- we use too much JS. So we've kind of been circling around this idea, and then in the last year, I want to say, we've seen things shift from this idea of "Okay, what if we let JavaScript run in real time and do all these things?" to "What if we built some compilers that let you author the way you want, but cut out all that code and ship something that's more like old school DOM manipulation, which has a lot of benefits for a lot of reasons?"
 
@@ -50,7 +50,7 @@ And then in this same genre, we more recently have Astro, which works a lot like
 
 Jason Lengstorf from the Netlify developer relations team did an experiment where he took a Next project and ported it over to Astro using almost all of the same code. He just had to make a couple tweaks to make it fit. And the code that got compiled by Astro used -- I think it was 90% less JavaScript, and loaded and ran three times as fast, with almost no changes on his end.
 
-\[00:09:50.12\] So for me, I'm kind of in this place where I don't know if these tools are the next thing, or they're transitional to whatever the next big thing actually is. And so to give this a little context - Kball, you've been around for a while... Do you remember when -- you're not as old as me; you still have hair, which is nice, but...
+\[09:50\] So for me, I'm kind of in this place where I don't know if these tools are the next thing, or they're transitional to whatever the next big thing actually is. And so to give this a little context - Kball, you've been around for a while... Do you remember when -- you're not as old as me; you still have hair, which is nice, but...
 
 **Kevin Ball:** Oh, good genetics. My hair is just going gray. \[laughs\]
 
@@ -72,13 +72,13 @@ So that developer experience and mental model is one piece of this. Then there's
 
 So what I want to kind of get a sense of is, is your take here that -- like, these mental models may be sticking around, but we're getting better at the optimization problem, and we're starting to care about it? Or is your take that actually the sort of developer experience mental model piece is shifting as well?
 
-**Chris Ferdinandi:** \[00:13:56.09\] Yeah, so I'm not sure, to be honest... I think the thing that's most clear to me is the optimization piece. People are finally kind of latching onto this idea that "more HTML good", "more JavaScript bad." Or it's better to -- if you can reduce the amount of JS you're shipping, that's better for you, and for the kind of business goals of the thing that you're creating.
+**Chris Ferdinandi:** \[13:56\] Yeah, so I'm not sure, to be honest... I think the thing that's most clear to me is the optimization piece. People are finally kind of latching onto this idea that "more HTML good", "more JavaScript bad." Or it's better to -- if you can reduce the amount of JS you're shipping, that's better for you, and for the kind of business goals of the thing that you're creating.
 
 The developer experience piece is tough, because on one hand, I know very seasoned developers often really like the ergonomics of state-based UI libraries. And there are times where they absolutely make things easier. I think where that falls apart a little bit is like the barrier to entry for beginners, from people who are not specialists in JavaScript, but are in related disciplines within frontend development... So accessibility experts, for example - like, the barrier to entry for them to be able to participate in processes that use these tools goes way up. And so yeah, I'm not sure if the mental model itself will go away or not.
 
 I think where state-based UI potentially gets a lot easier - some beautiful future state - is where diffing the DOM is as easy as passing a string into like the inner HTML property is today. That obviously doesn't diff the DOM; it clobbers the UI. But it would be really nice if there was some sort of browser-native way to say, "Here's the element I want to render stuff into. Here's the stuff I want to render as a string, or elements, or whatever. Please change just the things that need changing in the least destructive way possible." Because these tools do have... Like, just the process of getting set up with React, and understanding kind of the -- the mental models themselves are not super-complicated, but working with the tool sometimes is, especially if you're someone who's not particularly experienced, or the command line is a terrifying thing for you... Sorry, it's a long-winded way of saying "I don't know if the mental model will change." I think state-based UI can be a very great thing, and I think thinking about things as components can be really useful in certain use cases... So that probably -- I guess I'm talking myself into it here; that probably won't go away, but I do hope that the way we ship these things and the way that we're actually delivering the things we build - I do see that changing. And when I say JavaScript is the new PHP, I don't mean that in a mean way; I mean that like maybe moving JavaScript more and more to the backend, and ironically, in the process, reinventing a lot of stuff PHP did for us a decade or two ago.
 
-**Break:** \[00:16:34.22\]
+**Break:** \[16:34\]
 
 **Kevin Ball:** So I want to dig in to then this transition, of JavaScript as a -- you said it as a server-side language; I might almost think of it as "This is something that we're using to describe our application, and then it gets compiled away, in some way."
 
@@ -102,7 +102,7 @@ I think where state-based UI potentially gets a lot easier - some beautiful futu
 
 But one of the other things that makes Preact a bit smaller is it was created a few years later, and so it uses some kind of native browser tech under the hood that didn't exist when React was created, and that they at the time wrote some abstractions, or some helpers, just for Reasons of if "It's working, don't -- don't break it by trying to fix it" remain in React, that don't in Preact. I believe React may also have slightly deeper backwards compatibility as a result of some of that.
 
-**Kevin Ball:** \[00:20:12.12\] Well, and that is honestly one of the benefits that came up in that episode about React, is that they care more than possibly any other framework out there - except Ember, which is basically a non-competitor anymore - about backwards compatibility. And so you're not going to lose your job betting on React because when you have to update because of whatever it is, XSS bug, or whatever, your application may just work.
+**Kevin Ball:** \[20:12\] Well, and that is honestly one of the benefits that came up in that episode about React, is that they care more than possibly any other framework out there - except Ember, which is basically a non-competitor anymore - about backwards compatibility. And so you're not going to lose your job betting on React because when you have to update because of whatever it is, XSS bug, or whatever, your application may just work.
 
 **Chris Ferdinandi:** Yeah, totally fair. So you asked what are these incremental steps... So there's a few different layers, depending on what you're trying to do. On one hand, dropping in Preact for React is a pretty easy one. Or if you're starting greenfield, choosing one of the smaller alternatives might serve you well.
 
@@ -120,7 +120,7 @@ So yeah, again, it really feels like we're coming full circle to these old WordP
 
 **Chris Ferdinandi:** Oh, I did not know...
 
-**Kevin Ball:** \[00:23:49.23\] Kent C. Dodds was on there. Why am I blanking on the name of this framework? Remix. Remix. There it is. They do a similar type of thing to what you're describing. They'll have the form, and they'll optimistically do it via Ajax, but the fallback is just a server-side action. And they really leaned into that, "Oh, let's actually take advantage of all the things the web does for us." And it turns out that HTTP, the web, all these different things were well-designed.
+**Kevin Ball:** \[23:49\] Kent C. Dodds was on there. Why am I blanking on the name of this framework? Remix. Remix. There it is. They do a similar type of thing to what you're describing. They'll have the form, and they'll optimistically do it via Ajax, but the fallback is just a server-side action. And they really leaned into that, "Oh, let's actually take advantage of all the things the web does for us." And it turns out that HTTP, the web, all these different things were well-designed.
 
 **Chris Ferdinandi:** Yeah, right? It's almost like they are the really smart folks who did all that, and kind of knew what they were doing.
 
@@ -158,7 +158,7 @@ One of the other things I always hear is like "Well, why isn't JSX in the browse
 
 **Chris Ferdinandi:** Yeah.
 
-**Kevin Ball:** \[00:28:10.17\] As you highlight, jQuery is still hanging on... It took -- React was growing and jQuery was still at 90% of the world's web for years and years and years. So what timeframe are you seeing this play out on?
+**Kevin Ball:** \[28:10\] As you highlight, jQuery is still hanging on... It took -- React was growing and jQuery was still at 90% of the world's web for years and years and years. So what timeframe are you seeing this play out on?
 
 **Chris Ferdinandi:** Yeah, so... Multiple years. So just thinking back historically... Well, so it's interesting, right? I want to say in five years' time we'll still see a lot of React sites on the web. But React still represents a relatively small amount of like the web; it feels like it's a majority of the web, because it's like the very popular thing that we use now, and so many job descriptions have it, and it gets talked about a lot at conferences, and it's kind of like the standard now. But still, just as a percentage of the web itself, it's still actually a relatively small amount. Like, something like PHP and WordPress still vastly dominate over--
 
@@ -180,7 +180,7 @@ So yeah, I guess that's really for me, the big kind of fundamental unknown, is "
 
 **Chris Ferdinandi:** That's interesting. Yeah, to be fair, I'm not very familiar with WASM, so I don't --
 
-**Kevin Ball:** \[00:31:58.07\] From a performance standpoint, you can think about it similar to image sizes, right?
+**Kevin Ball:** \[31:58\] From a performance standpoint, you can think about it similar to image sizes, right?
 
 **Chris Ferdinandi:** Okay.
 
@@ -200,7 +200,7 @@ One of the things we didn't mention, just in kind of this same vein of the web a
 
 **Chris Ferdinandi:** Yeah, for sure. And there was a -- just a quick shout-out, my friend Steph Eckles did like a "12 Days of the Web" series a couple weeks ago, around the holiday season, and one of the articles was specifically around this. I'll see if I can dig that up and drop that in for everybody.
 
-**Break:** \[00:35:58.21\]
+**Break:** \[35:58\]
 
 **Kevin Ball:** So you've been on this "Less JS. Ship less to the browser" -- I think we did an episode like a year or two ago that was "JavaScript is the Carbon Dioxide of the web", or something like that. Like, this has been a long time thing for you.
 
@@ -230,7 +230,7 @@ I don't know if we just hit a tipping point where we started to ship so much tha
 
 **Chris Ferdinandi:** So one thing I take for granted -- I have fiber at home; fiber optic. And it is just consistently the speed I pay, for all day, every day, regardless of how many people on my street are also using internet. I've kind of forgotten that when you have coaxial internet, which a lot of our countries still does, and a lot of other places in the world still do, or satellite, or DSL, or something that the weather can really mess with, your speeds can be really variable, depending on how many other people are also using it at the same time.
 
-\[00:39:52.00\] The analogy I've heard used - that maybe not 100%, but I like - is the idea that if you have like a hose, or like a pipe with water, and you open four or five spigots, the water is going to come out of each one slower than if you just open one. So it's like a similar kind of concept. So with the pandemic, if you've got everybody working from home, even if you were previously a remote employee, now when all your neighbors are also home, using the internet all day on video calls, which are very bandwidth-intensive, suddenly that internet speed is going to drop for everybody. Yeah, that's a really interesting idea, that I had not considered. So maybe that's it; a good thing to come out of COVID.
+\[39:52\] The analogy I've heard used - that maybe not 100%, but I like - is the idea that if you have like a hose, or like a pipe with water, and you open four or five spigots, the water is going to come out of each one slower than if you just open one. So it's like a similar kind of concept. So with the pandemic, if you've got everybody working from home, even if you were previously a remote employee, now when all your neighbors are also home, using the internet all day on video calls, which are very bandwidth-intensive, suddenly that internet speed is going to drop for everybody. Yeah, that's a really interesting idea, that I had not considered. So maybe that's it; a good thing to come out of COVID.
 
 **Kevin Ball:** I mean, we're looking for every silver lining we can find. Right?
 
@@ -254,7 +254,7 @@ I don't know if we just hit a tipping point where we started to ship so much tha
 
 **Kevin Ball:** \[laughs\] Yeah. I mean, I think -- it's hard. As you highlight. There's so many things to learn. You've got to pick and choose, especially early on in your career... And React is a pretty safe bet, right? You're looking for jobs, pretty much -- a very, very large swath of them have React in the job description.
 
-**Chris Ferdinandi:** \[00:43:49.29\] Yeah. It catches people by surprise, because I'm so vocally against libraries... But whenever I get asked, "So what should I learn if I really want to like make sure I can get that job?" I'm like "Honestly, just learn React." And they're like "But you said no--" "No, no." I want us to use last React. It's great to know how to get by without it. But it is kind of the -- I don't wanna say the gold standard, but the industry standard now. It just is what it is. Hopefully not forever, though...
+**Chris Ferdinandi:** \[43:49\] Yeah. It catches people by surprise, because I'm so vocally against libraries... But whenever I get asked, "So what should I learn if I really want to like make sure I can get that job?" I'm like "Honestly, just learn React." And they're like "But you said no--" "No, no." I want us to use last React. It's great to know how to get by without it. But it is kind of the -- I don't wanna say the gold standard, but the industry standard now. It just is what it is. Hopefully not forever, though...
 
 **Kevin Ball:** \[laughs\]
 
@@ -310,7 +310,7 @@ I don't know if we just hit a tipping point where we started to ship so much tha
 
 **Kevin Ball:** Awesome. Anything else about this trend you want to highlight before we wrap things up?
 
-**Chris Ferdinandi:** \[00:48:08.01\] No, just - if anybody kind of wants to dig into this more, over at gomakethings.com/jsparty - I've cobbled together a bunch of kind of articles, and thoughts, and other conversations I've had around this, if anybody wants to explore the idea more.
+**Chris Ferdinandi:** \[48:08\] No, just - if anybody kind of wants to dig into this more, over at gomakethings.com/jsparty - I've cobbled together a bunch of kind of articles, and thoughts, and other conversations I've had around this, if anybody wants to explore the idea more.
 
 **Kevin Ball:** Awesome.
 
