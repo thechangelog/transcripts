@@ -1,4 +1,3 @@
-
 **Jerod Santo:**
 
 What up fellow nerds, I'm Jerod and this is Changelog News for the week of Monday, January 23rd 2023.
@@ -31,7 +30,7 @@ One of our favorite episodes of 2020 was with Jon Thornton from Squarespace talk
 
 **Tech Debt Clip:**
 
-[The Changelog #379]()https://changelog.fm/379
+[The Changelog #379](https://changelog.fm/379)
 
 **Jerod Santo:**
 
