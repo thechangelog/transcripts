@@ -76,7 +76,7 @@
 
 So I think it's important to take where things are headed, and where things are actually headed, and kind of compare them... But it's very interesting.
 
-**Kevin Ball:** \[00:06:13.03\] I mean, interest - it says, "Want to learn, divided by want to learn and not interested." How many people haven't learned React yet?
+**Kevin Ball:** \[06:13\] I mean, interest - it says, "Want to learn, divided by want to learn and not interested." How many people haven't learned React yet?
 
 **Nick Nisi:** It's true.
 
@@ -118,7 +118,7 @@ So I think it's important to take where things are headed, and where things are 
 
 **Jerod Santo:** Another interesting tidbit with surveys in general is like survey fatigue... So one thing that was interesting to see - they have actually completion percentages. As a completionist, I respect that 90% of people got to the end, or... What was the number? No, that's not right. It was like 73% of people made it 90% of the way through, which is less impressive, but I think more accurate than what I said the first time... But pretty good. But what I notice with myself with surveys -it's like, I start off all gung-ho and like "I'm gonna answer all these", and then eventually, I either stop taking it, or the little demon inside me comes out and I'm like "I'm going to start just hitting C for everything." You know, like we used to do in school back in the day. And there's a lot of people out there that just want to see the world burn... And I think at 40,000, you're pretty safe that like those people are fringed out and don't really matter, but I know as a person who goes through all of our Frontend Feud surveys, there's always a few that answer every question incorrectly on purpose.
 
-\[00:10:14.19\] So there's so many little things around the edges of surveys, such as that distinction you pointed out, Chris, which is a really big one when you think about... It like "How do I interpret this question and answer it?" On top of that, the people who are just trolling and lying; on top of that, the demographic problems.
+\[10:14\] So there's so many little things around the edges of surveys, such as that distinction you pointed out, Chris, which is a really big one when you think about... It like "How do I interpret this question and answer it?" On top of that, the people who are just trolling and lying; on top of that, the demographic problems.
 
 Like, it's fun and interesting, but there's so many problems with them that what can we really -- like, Kball, when you look at these... I know you enjoy the analysis and the dissecting, but do they affect your life? Do they help you make decisions? Do they help you - what?
 
@@ -166,7 +166,7 @@ So it's easy to be looking too far in the future, to be constantly thinking abou
 
 **Jerod Santo:** What is it...?
 
-**Christopher Hiller:** \[00:14:08.27\] It's a browser automation framework. That's all it does. If you're "using Selenium", you're using some other client code, whether that's written in Python or Java... You're using -- God help you if you're trying to use it directly, but you're using some other framework. Maybe that's like WebDriver IO, maybe that's water in Ruby, or something like that... But Selenium is just a server. It just sits there. It provides a way for you to automate a browser. There's nothing about testing in Selenium. There's no test organization, there's no reporting, there's no assertions... It's just a browser automation framework. And that's the thing that I think, obviously, people still don't really understand.
+**Christopher Hiller:** \[14:08\] It's a browser automation framework. That's all it does. If you're "using Selenium", you're using some other client code, whether that's written in Python or Java... You're using -- God help you if you're trying to use it directly, but you're using some other framework. Maybe that's like WebDriver IO, maybe that's water in Ruby, or something like that... But Selenium is just a server. It just sits there. It provides a way for you to automate a browser. There's nothing about testing in Selenium. There's no test organization, there's no reporting, there's no assertions... It's just a browser automation framework. And that's the thing that I think, obviously, people still don't really understand.
 
 On one hand, it seems a bit unfair to lump Selenium in with all these other ones, because it doesn't do that. It's not Cypress; it doesn't have assertions, or whatever. It doesn't work out of the box like that, and give you everything you need. So anyway, that's my Selenium rant, but... I don't think it belongs in this survey.
 
@@ -210,7 +210,7 @@ On one hand, it seems a bit unfair to lump Selenium in with all these other ones
 
 **Christopher Hiller:** Yeah. I throw them away. \[laughs\]
 
-**Jerod Santo:** \[00:18:02.08\] Do you? I still run them. I still use them.
+**Jerod Santo:** \[18:02\] Do you? I still run them. I still use them.
 
 **Christopher Hiller:** I actually -- I spent quite a while pulling Gulp out of Appium. It was using Go, but no. It's just odd to me that like if you go and you look at the most dependent-upon dev dependencies, number one, I think, is ESLint, but number two is TypeScript now. So then why is Gulp higher than TypeScript? I don't know...
 
@@ -316,7 +316,7 @@ On one hand, it seems a bit unfair to lump Selenium in with all these other ones
 
 **Christopher Hiller:** Yeah. And it's like you have to log in and pay for a subscription, or something. I don't know...
 
-**Break:** \[00:22:19.06\]
+**Break:** \[22:19\]
 
 **Jerod Santo:** Alright, we are back for the award-winning podcast to play its potentially award-winning game, Headlines. This is a game in which I have scoured the interwebs and I have found headlines. I have also fabricated some headlies. It is your guys' job to figure out which is which. So here's how the game works. I will read a headline, at which point each person has the opportunity to stake a claim - is that true or false? Is it a real headline, or is it a false headline? If you guessed right away, you can potentially win two points. Or you can wait for more information. I also have the first paragraph from the news stories that I will read. You can hear the first paragraph, which will give you much more information, and you can then decide whether it's true or false, at which point you score one point if you're correct, and zero if you're incorrect.
 
@@ -384,7 +384,7 @@ For longtime listeners who are wondering why I'm not punitive anymore, and subtr
 
 **Kevin Ball:** Another one bites the dust...! Another one bites the dust...!
 
-**Jerod Santo:** \[00:25:55.27\] You guys all win on that one. A dance troupe flashmobbed a funeral with a performance of Queens, "Another One Bites the Dust" at the request of a woman who wanted her send-off to be memorable, but not sad. So that actually happened. Congratulations. Everybody has two points. I'm gonna keep a running tally this time, so that I do not do what I did last time.
+**Jerod Santo:** \[25:55\] You guys all win on that one. A dance troupe flashmobbed a funeral with a performance of Queens, "Another One Bites the Dust" at the request of a woman who wanted her send-off to be memorable, but not sad. So that actually happened. Congratulations. Everybody has two points. I'm gonna keep a running tally this time, so that I do not do what I did last time.
 
 Alright, headline number two: "Roomba testers feel misled after intimate images ended up on Facebook." I'll read it one more time, "Roomba testers feel misled after intimate images ended up on Facebook." Kball, we go to you first...
 
@@ -468,7 +468,7 @@ Alright, headline number two: "Roomba testers feel misled after intimate images 
 
 **Christopher Hiller:** Yeah, I'm gonna go false.
 
-**Jerod Santo:** \[00:29:46.15\] So we have three falses, but Chris waited for the paragraph. Is that correct? And the winner of this round is \[Win, win, win, win. We all win.\] You all win. Kball was correct. He was also incorrect. It was Microsoft. The difference is that I flipped the bit... Microsoft actually did not get approved. The combat goggles falter as Congress says no to buying more this year. So Congress actually did not approve this contract.
+**Jerod Santo:** \[29:46\] So we have three falses, but Chris waited for the paragraph. Is that correct? And the winner of this round is \[Win, win, win, win. We all win.\] You all win. Kball was correct. He was also incorrect. It was Microsoft. The difference is that I flipped the bit... Microsoft actually did not get approved. The combat goggles falter as Congress says no to buying more this year. So Congress actually did not approve this contract.
 
 **Kevin Ball:** But Microsoft legit sells combat goggles... Interesting.
 
@@ -546,7 +546,7 @@ Our fifth headline and final is "Boston Dynamics in talks with OpenAI to bring G
 
 **Christopher Hiller:** Okay... Well, I'll go -- and Kball... What did Kball do?
 
-**Kevin Ball:** \[00:34:15.03\] I said true, even though this also sounds like something that --
+**Kevin Ball:** \[34:15\] I said true, even though this also sounds like something that --
 
 **Christopher Hiller:** Okay, I'm gonna go false.
 
@@ -672,11 +672,11 @@ Our fifth headline and final is "Boston Dynamics in talks with OpenAI to bring G
 
 **Jerod Santo:** I like that mechanic. Very good.
 
-**Break:** \[00:38:17.02\]
+**Break:** \[38:17\]
 
 **Jerod Santo:** Alright, after that excellently thought out game of Headlies, it's now time for Pro Tip time.
 
-**Jingle:** \[00:38:36.09\]
+**Jingle:** \[38:36\]
 
 **Nick Nisi:** Why...? Why is it still a thing?
 
@@ -716,7 +716,7 @@ Another one is it tells me that I'm using over 30 PPM. I don't actually know yet
 
 **Nick Nisi:** It is. And so yeah, it's a linter/LSP. I mean, it's not an LSP. It's a linter in that case. But I'm thinking more in terms of these plugins that theoretically are editor-agnostic at least... And so it's just really cool being able to play with them and see what they give you. So my pro tip is go explore what LSPs you can install to yell at you more, because you're not being yelled at enough by your tools.
 
-**Jerod Santo:** \[00:42:16.02\] I like it. LSPs, LSPs everywhere. Kball, how about you?
+**Jerod Santo:** \[42:16\] I like it. LSPs, LSPs everywhere. Kball, how about you?
 
 **Kevin Ball:** Yeah, mine is \[unintelligible 00:42:20.13\] a human thing, not a technical thing... But since we're in January, everybody's focusing on New Year's resolutions, and goals for the year, and things like that... And I want to share the pro tip that at least for me, it works a lot better to focus on habits rather than goals. So instead of saying "I want to write 12 blog posts this year", I'm going to develop the habit of "I'm gonna write every day." I'm going to focus on 500 words every day, or something like that... But the goal is the habit of what I'm doing there. Or similarly for fitness. I think we've talked about this before, but it's not like "I'm gonna deadlift 300 pounds." It's "I'm gonna work out three or four times a week", and build a habit there. So that is my pro tip.
 
@@ -732,7 +732,7 @@ So that's a cool way of having persistent storage that's persisted not in a cook
 
 There's other people that do this. He mentions Mermaid JS. I'm not sure if you've seen mermaid.live; it's a very cool diagramming tool inside of Markdown, that GitHub supports now. They do it. So people do this, and it seems like it works... And so that's something that you can do.
 
-\[00:46:01.25\] I really liked the side effect of having no sign in, no local storage. Copy and paste the URL, and you can just like refresh and rehydrate application state just using that. So check it out. I'll link to that in the show notes, his blog post, "How to store your app's entire state in the URL." So that's my pro tip. Chris, did you think of one?
+\[46:01\] I really liked the side effect of having no sign in, no local storage. Copy and paste the URL, and you can just like refresh and rehydrate application state just using that. So check it out. I'll link to that in the show notes, his blog post, "How to store your app's entire state in the URL." So that's my pro tip. Chris, did you think of one?
 
 **Christopher Hiller:** Yeah. So I don't think I've mentioned this, but I may have mentioned it before... It's a thing called Graphite. It's like an app -- it's like an SaaS and a CLI, and it integrates with GitHub. Graph.dev is the site.
 
