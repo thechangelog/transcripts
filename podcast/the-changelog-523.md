@@ -24,7 +24,7 @@ We talked a couple years ago, it's like "Oh, we're at peak Postgres maybe." It's
 
 **Craig Kerstiens:** How did you guys come to Postgres?
 
-**Jerod Santo:** \[00:06:05.22\] Pretty much Heroku. So I was on Ruby on Rails, and the default database in test mode was - and probably still is - SQLite. And the default database in prod back then was MySQL. And so I was a MySQL user, and I never really had problems with it, but I read a lot of blog posts that would point out it's data corruption things, or... Maybe it's not corruption, but coalescing - what's the word...? Sometimes it would be too lax, and it would take things, and instead of reporting, it would just turn it into something else, and you wouldn't find out till much later. And that always scared me a little bit. I don't think I ever actually got bit by it myself... So I was a relatively happy MySQL user, but I was a happier Heroku user, and I saw the happy path on Heroku was Postgres. And the nice thing about Rails, even though I kind of decry this whole idea of like "You can just swap out your database" thing, but especially when you're first getting started, you really could pretty much just change the adaptor... As long as you put in all your logic in your Rails code, and not in your database layer - which I don't necessarily advocate for, but I was doing - it was pretty easy just to switch. And so when Heroku had Postgres, I just switched to Postgres, and I started using it, and I just liked it a lot. In fact, I never went back. I didn't have a reason to. So that was my switching story.
+**Jerod Santo:** \[06:05\] Pretty much Heroku. So I was on Ruby on Rails, and the default database in test mode was - and probably still is - SQLite. And the default database in prod back then was MySQL. And so I was a MySQL user, and I never really had problems with it, but I read a lot of blog posts that would point out it's data corruption things, or... Maybe it's not corruption, but coalescing - what's the word...? Sometimes it would be too lax, and it would take things, and instead of reporting, it would just turn it into something else, and you wouldn't find out till much later. And that always scared me a little bit. I don't think I ever actually got bit by it myself... So I was a relatively happy MySQL user, but I was a happier Heroku user, and I saw the happy path on Heroku was Postgres. And the nice thing about Rails, even though I kind of decry this whole idea of like "You can just swap out your database" thing, but especially when you're first getting started, you really could pretty much just change the adaptor... As long as you put in all your logic in your Rails code, and not in your database layer - which I don't necessarily advocate for, but I was doing - it was pretty easy just to switch. And so when Heroku had Postgres, I just switched to Postgres, and I started using it, and I just liked it a lot. In fact, I never went back. I didn't have a reason to. So that was my switching story.
 
 **Craig Kerstiens:** Yeah, I think it's a lot of folks'. Like, the popularity of Rails, that Heroku made it the default... The Python and Django community kind of always recommended Postgres. I don't know why. They just did. So I think those two communities really, really helped to give the rise to it.
 
@@ -50,7 +50,7 @@ So its name came from Post Ingress. At the time when it was first released, it d
 
 **Craig Kerstiens:** But it came out of U.C. Berkeley, and one of the core ideas that at the time was like heresy was this extensibility of the database. And now we see Postgres extensions like wildfire, but that was a core idea and philosophy that I don't see in any of the databases, that I only see in Postgres.
 
-\[00:09:58.08\] But yeah, it was open-sourced out of U.C. Berkeley, and it kind of was just there, and good, and worked for a while. And then fast-forward 20-25 years and it's really taken off, but it was just kind of their good, out-of-Academia thing for a long time.
+\[09:58\] But yeah, it was open sourced out of U.C. Berkeley, and it kind of was just there, and good, and worked for a while. And then fast-forward 20-25 years and it's really taken off, but it was just kind of their good, out-of-Academia thing for a long time.
 
 **Adam Stacoviak:** Are you involved in the core team at all, or the core development, or the steering of anything around that, or are you just sort of ancillary to the Postgres world?
 
@@ -94,7 +94,7 @@ I'm not going anywhere from Crunchy Data, running Crunchy Bridge anytime soon. W
 
 **Craig Kerstiens:** Yeah. There was a big a-ha moment to me - I don't know if this was a year or two ago - where... It's a good time to be a developer, right? And you can go to college for interior design, got to a bootcamp, and then get a job as a software engineer. A good job, well-paying... Hopefully it's interesting work, right? And you've gotta go to a six-week or a three-month or a six-month bootcamp, but there's this weird hole where the number of DBAs in the world is not really increasing. The number of people that are experts at databases, it's not -- there's more app developers in the world by a huge margin than there were two years ago, and then there were ten years ago. And it's easy to become an application developer, but DBAs - I don't know where you go to become a DBA. There's no bootcamps for that.
 
-\[00:13:50.25\] We're at an interesting inflection point where as an app developer probably your ratio of access to a DBA is less and less and less. So we're going to be looking for more like services and providers and tools to bridge that gap, right? I guess, pardon the Crunchy Bridge pun there, but it's that idea, that gap - how do we close that gap? It's super near and dear to my heart, because I think of myself as more of a developer than a Postgres person, but also I can look at and explain plainly and understand it, and I don't know if the average developer can.
+\[13:50\] We're at an interesting inflection point where as an app developer probably your ratio of access to a DBA is less and less and less. So we're going to be looking for more like services and providers and tools to bridge that gap, right? I guess, pardon the Crunchy Bridge pun there, but it's that idea, that gap - how do we close that gap? It's super near and dear to my heart, because I think of myself as more of a developer than a Postgres person, but also I can look at and explain plainly and understand it, and I don't know if the average developer can.
 
 You don't wanna be dealing with your database, right? You wanna focus on like "Hey, I'm launching this new feature for customers... And yeah, I need to put data in there, and I want it to stay, and I want it to be retrieved fast", but I don't see either of you probably volunteering and being like "Hey, I'm gonna go write some SQL today. It's gonna be a great day!", right?
 
@@ -114,7 +114,7 @@ But I do like Postgres mostly because I don't have to think about it very often,
 
 So that's great... Then Postgres kind of continued to rise, and when you look at it -- there's other people that are like "Okay, Postgres is good, but we need more. We need to add on our special sauce." I think the major cloud providers started doing this first. Like, if you look at every major cloud provider and they had their flavor of "Postgres-compatible" thing... And I don't have a lot of love lost for them, because it's not Postgres-compatible. There is no spec for Postgres-compatible. There is no "Here is the doc."
 
-\[00:18:09.00\] I have conversations with people every week where they're like "Well, they told me it was Postgres-compatible, and I migrated to it, and six months in I tried to do this thing, and they're like "Well, no, that's in Postgres." Well, what does compatibility mean then?
+\[18:09\] I have conversations with people every week where they're like "Well, they told me it was Postgres-compatible, and I migrated to it, and six months in I tried to do this thing, and they're like "Well, no, that's in Postgres." Well, what does compatibility mean then?
 
 So I think we pushed these boundaries on like "Hey, here's this shiny special thing", and it stalled us out a little bit. They're like "Oh, now Postgres --" You know, "Hey, I wanna take this \[unintelligible 00:18:33.21\] and that's what it is. And there was kind of this -- it feels to me that there's this regression back to just Postgres, and "Actually, I just want this thing that is truly open source, that I know what it is."
 
@@ -140,7 +140,7 @@ I've had people migrate over from one of those, cloud Postgres-compatible things
 
 Some kudos to Planet Scale. I take different views on -- like, there's technical decisions, but constraints are important and valuable, and I wouldn't want a database without them. We had them in sharded, distributed Citus and Postgres, so I think they can work. But I have a lot of friends over there. So I have contrasting views, but what they've done for excitement for databases is awesome. And most people aren't like "Craig, let's talk about this reliable database that doesn't lose your database, and just has the functions I want. Let's talk about Postgres." Most people are like "Yeah, I just want--" Jerod, to your point, "I want my database to work. I don't want to think about it. Why do I need to talk about it or think about it? It just should work", and it's a stalwart at that.
 
-**Break:** \[00:22:52.00\]
+**Break:** \[22:52\]
 
 **Jerod Santo:** So we talk about building things that are presents-as or compatible... It brings me back to the point that you made about the extensions. So there's lots of different ways that you can extend Postgres and change the way that it works, and it is amazing how many extensions there are. I was just reading -- there was a post on Postgres Weekly of like what happened in Postgres land in 2022... And they went through and just listed out like "Here's some extensions that were born this year." And there was like 18 of them, all doing different things, and it probably was not a comprehensive list...
 
@@ -156,7 +156,7 @@ Under the covers, there's like deep low-level hooks that gets exposed in Postgre
 
 Changing the storage layer is a large effort. That's a non-trivial effort. An extension that I want is an email data type. That's one of those things that I've thought about for years. We talked about it way back in Heroku, like "Why isn't there an email data type that can validate emails?" How do you know if it's valid, right? Like, is a plus okay, or a dot, or...
 
-**Jerod Santo:** \[00:28:10.06\] What's the answer, Craig? Why isn't there an email data type?
+**Jerod Santo:** \[28:10\] What's the answer, Craig? Why isn't there an email data type?
 
 **Craig Kerstiens:** Apparently, the spec for what is a valid email is way more complicated than you would ever think. We've thought about writing it, and it was like "Whoa, this is actually -- yeah, pluggable storage seems easier than that, maybe."
 
@@ -184,7 +184,7 @@ So I think that's a little bit of a framework of -- and I love the small ones. W
 
 **Adam Stacoviak:** One of the most popular, yeah.
 
-**Craig Kerstiens:** \[00:32:01.07\] People think of them as the same ecosystem, and it's interesting, because the PostGIS folks know the Postgres core folks really well, and vice versa. But they're kind of two parallel ecosystems. They interact and talk together, but PostGIS is its own thing, and its own core developers and committers... And it's massive; it is easily the most advanced, massive, extension that exists for Postgres. And it definitely had some bumpy years around upgrades. I lived through some of those... It's gotten a lot better, but it's his whole own massive ecosystem, and a great example of a huge kind of value -- it makes Postgres with PostGIS the most advanced open source geospatial database, and it might be the most advanced, right? I think it beats out Oracle. You might argue -- like, Esri has some stuff that's very enterprise proprietary. But you look for open source, or relational database core kind of geospatial, and it pushes it really to that extreme.
+**Craig Kerstiens:** \[32:01\] People think of them as the same ecosystem, and it's interesting, because the PostGIS folks know the Postgres core folks really well, and vice versa. But they're kind of two parallel ecosystems. They interact and talk together, but PostGIS is its own thing, and its own core developers and committers... And it's massive; it is easily the most advanced, massive, extension that exists for Postgres. And it definitely had some bumpy years around upgrades. I lived through some of those... It's gotten a lot better, but it's his whole own massive ecosystem, and a great example of a huge kind of value -- it makes Postgres with PostGIS the most advanced open source geospatial database, and it might be the most advanced, right? I think it beats out Oracle. You might argue -- like, Esri has some stuff that's very enterprise proprietary. But you look for open source, or relational database core kind of geospatial, and it pushes it really to that extreme.
 
 **Adam Stacoviak:** Is there any opportunities in the extension space to build a business around Postgres?
 
@@ -218,7 +218,7 @@ So I have some good faith, I think they're doing that, but... Yeah, it's a littl
 
 Postgres doesn't have a great kind of graphing vector capability. That's an interesting one where it's got time series... It's got time series like in native Postgres, and Timescale. Sharding - you can do with the Postgres FTW natively, or you could do it in Citus with an extension. It doesn't have an amazing graph story...
 
-\[00:36:02.22\] So that's the one area I could see right off; more columnar stuff. Like, columnar compression is great, instead of kind of a row-based kind of sorting, it's columnar; you get good storage compression for certain workloads really, really amazing. When the data warehousing kind of stuff comes in, or you've got a lot of time series data - it wouldn't surprise me if there's companies focused on just that.
+\[36:02\] So that's the one area I could see right off; more columnar stuff. Like, columnar compression is great, instead of kind of a row-based kind of sorting, it's columnar; you get good storage compression for certain workloads really, really amazing. When the data warehousing kind of stuff comes in, or you've got a lot of time series data - it wouldn't surprise me if there's companies focused on just that.
 
 **Jerod Santo:** You mentioned big players coming in with their large patches, and saying "Please accept our code", and that's not necessarily how it works. How does it work? How would you describe Postgres governance, or the core team? What's the size? Who are the people? How do they make decisions, and how does stuff actually get in? Is it out there on GitHub with pull requests, and stuff, or is there a different process? How does it all run?
 
@@ -234,7 +234,7 @@ So commit fests happen every few months. That's an open window where patches are
 
 I can dig up, there's a couple presentations that were given, that we could link in show notes, to like "Here's how to contribute to Postgres." The best way is just reading the PGSQL Hackers mailing list. You want to become a -- people ask me a lot of times "How do I become like a really senior developer? How do I get good at C? How do I become an advanced, advanced developer?" Just read the hackers mailing list. It's fascinating how the conversation -- it's not a cordial... I mean, it's cordial enough, but it's not always friendly. As a beginner, you show up there and ask a question, like "Alright, where's the patch to repro this?" and the sample test case, and all that... But it's an amazing quality development that happens right there.
 
-\[00:39:50.15\] So patches get submitted, pulled in during the commit fest... People sign up to review patches... Once enough review happens and people feel good, a committer picks it up and says "Alright, I'm gonna commit this." Even if they didn't author it; they'll give it a run-through, they'll see the reviews of it, and then they commit it.
+\[39:50\] So patches get submitted, pulled in during the commit fest... People sign up to review patches... Once enough review happens and people feel good, a committer picks it up and says "Alright, I'm gonna commit this." Even if they didn't author it; they'll give it a run-through, they'll see the reviews of it, and then they commit it.
 
 **Adam Stacoviak:** So there's a review process essentially community-wise, that sort of layers on some desire for it to be Postgres-native.
 
@@ -264,7 +264,7 @@ I can dig up, there's a couple presentations that were given, that we could link
 
 **Craig Kerstiens:** Yeah, I mean we hit on a lot of it with extensions. I think extensions are -- going forward, we're gonna talk about extensions as much as we talked about core Postgres. And I don't think it's a bad thing. I think it's just that that line of how much of it goes crazy with Postgres, versus is simpler... And I don't think going crazy is bad. I think we'll see a lot of innovation there.
 
-\[00:44:10.19\] I do think core Postgres keeps just getting better and better. I think it was -- I think it was 14 when we had refresh materialized view. So like if you're using materialized views, like, how do you refresh them? How do you reload the data? I want this snapshot of a materialized view, and I want to refresh it... It may have been that it was refreshed concurrently. I forget. But it's like, great. This is a nice, just simple thing that I had to work around before, right?
+\[44:10\] I do think core Postgres keeps just getting better and better. I think it was -- I think it was 14 when we had refresh materialized view. So like if you're using materialized views, like, how do you refresh them? How do you reload the data? I want this snapshot of a materialized view, and I want to refresh it... It may have been that it was refreshed concurrently. I forget. But it's like, great. This is a nice, just simple thing that I had to work around before, right?
 
 Logical replication we got a number of years ago; now you can actually filter... Logical replication used to be the whole database. Now you can apply like a "I want a logical stream of just these five tables." So way easier to kind of move data around from an ETL's perspective. To me, that was a huge one, that was small, and usability that just, when you need it, it's there.
 
@@ -306,7 +306,7 @@ Let's see... I'm trying to think of the other ones. A lot is performance. JSON s
 
 **Jerod Santo:** Oh, it's a compatibility thing.
 
-**Craig Kerstiens:** \[00:48:00.20\] It's like, okay, to be SQL standard and complete... And it was with some caveats. I think it's one of those things... I should go back and see how much contention there was among core developers and committers of like "Should this actually be in or not?" It took a few years to make it in. So it wasn't one of those runaway things... But it's like "Cool, now we have complete compatibility with MySQL from that SQL perspective."
+**Craig Kerstiens:** \[48:00\] It's like, okay, to be SQL standard and complete... And it was with some caveats. I think it's one of those things... I should go back and see how much contention there was among core developers and committers of like "Should this actually be in or not?" It took a few years to make it in. So it wasn't one of those runaway things... But it's like "Cool, now we have complete compatibility with MySQL from that SQL perspective."
 
 **Jerod Santo:** Gotcha.
 
@@ -344,11 +344,11 @@ So I think his book is really good for both the application developer stuff, "He
 
 **Adam Stacoviak:** I think it was in the geo stuff though. It was mainly around the geo. The other stuff seemed like -- I'm trying to recall that conversation. I'm not trying to defend, I'm just trying to clarify... And I think their intention is to be as Postgres as possible. Now, obviously, "presents as" and "Postgres-compatible" sounds very similar to that, but it sounds like they're trying to be Postgres, and they want that to be given to the community... I think so much so that, Jerod, you're like "Can we run Neon on our own?" And Nikita was like "Yeah, you can. You can take our patches and recompile Postgres yourself, and get to the same Neon we're at today, and do it yourself." That's what I recall from that conversation.
 
-**Craig Kerstiens:** \[00:52:04.05\] I think it's a big step forward from -- I would describe Neon as an open source Aurora.
+**Craig Kerstiens:** \[52:04\] I think it's a big step forward from -- I would describe Neon as an open source Aurora.
 
 **Jerod Santo:** I think that's fair.
 
-**Craig Kerstiens:** If you talk to Amazon -- I think you could ask Nikita. That's probably a fair assessment, right? And you could talk to Amazon and say "Well, why haven't you open-sourced Aurora?" And they're like "Well, it has all these Amazon-specific things, and it wouldn't be good to community..." So I think this is definitely a step in the right direction. But Postgres at its core - you put that in there and it breaks something, or it has this edge case, and then the whole set of community... A lot of volunteer on their nights and weekends developers - some of them are paid full-time time for this - are now supporting this thing for a company that supports their mission.
+**Craig Kerstiens:** If you talk to Amazon -- I think you could ask Nikita. That's probably a fair assessment, right? And you could talk to Amazon and say "Well, why haven't you open sourced Aurora?" And they're like "Well, it has all these Amazon-specific things, and it wouldn't be good to community..." So I think this is definitely a step in the right direction. But Postgres at its core - you put that in there and it breaks something, or it has this edge case, and then the whole set of community... A lot of volunteer on their nights and weekends developers - some of them are paid full-time time for this - are now supporting this thing for a company that supports their mission.
 
 So at the core, you want a database to just work and not lose your data, and Postgres hold that bar really high. Not every database actually does. Some play fast and loose there. So it's a thing that, if you want that, you've got to take that trade-off of "It's going slow, and things get deprecated slowly, because they made it in, because we thought the quality was there." It's a little slow and steady, but it's the tortoise that's won the race so far.
 
@@ -360,7 +360,7 @@ So \[unintelligible 00:55:07.03\] over there, like "You want managed Postgres? R
 
 **Jerod Santo:** Well, that's cool...
 
-**Adam Stacoviak:** \[00:55:46.07\] Well, the one difference, I think, is probably it's not managed, and it's not serverless. Right? There's two kind of key parts there, which is part of the Neon story... Because you've got to manage yourself, and it doesn't spin down to zero.
+**Adam Stacoviak:** \[55:46\] Well, the one difference, I think, is probably it's not managed, and it's not serverless. Right? There's two kind of key parts there, which is part of the Neon story... Because you've got to manage yourself, and it doesn't spin down to zero.
 
 **Craig Kerstiens:** Yeah, I think that spin down to zero is a fair one. And, that's a great question. To me, I usually think of serverless as more of a business thing... Like, "Do you actually care that it spins down to zero, or you just don't want to pay for it when it's not in use?" I think you even look at that spin down to zero, and look at it in Aurora - there is no like zero-cost Aurora anymore. It's now a minimum, like "Hey, we'll idle it, but still, there's a minimum budget account for your database."
 
