@@ -78,7 +78,7 @@ The other thing that I really recommend is -- well, here's just a side note. Alm
 
 **Daniel Whitenack:** And then they send you to like Excel sheets, and you're like "Okay, I can do that in one minute." So you do it, but then you get this increasing number of tasks, and then you just do that all the time. And the second scenario is "Okay, I'm going to try to build out this roadmap, and like this project plan", but things get shaken up all the time in small companies, and it's like "Okay, I had this plan to optimize my pricing model over the next six months using these A/B tests", or whatever I was doing, right? And then the CEO is lik "Oh, we're not meeting revenue this month. We need to just change our pricing structure entirely." Does that spark anything in your mind in terms of -- like, the level at which you can do product or project planning within a small company while still managing that sort of flexibility and random tasks that come up - any recommendations there?
 
-**Kirsten Lum:** Yeah. It's funny, because you've sparked a whole bunch of memories \[unintelligible 00:24:10.06\] I feel like that's a universal experience. Once you know how to use data, people will not let you do anything with data. Yeah.
+**Kirsten Lum:** Yeah. It's funny, because you've sparked a whole bunch of memories too of doing that. I feel like that's a universal experience. Once you know how to use data, people will not let you do anything with data. Yeah.
 
 **Daniel Whitenack:** Right.
 
@@ -116,7 +116,7 @@ And so as much as we like to talk about code, and "If it was just faster, if it 
 
 **Kirsten Lum:** It's a fantastic question as well. You're hitting on all of the things, all the pitfalls of working in a very small organization...
 
-**Daniel Whitenack:** It's only because I've hit the \[unintelligible 00:33:10.20\] \[laughter\]
+**Daniel Whitenack:** It's only because I've hit the mines. \[laughter\]
 
 **Kirsten Lum:** That's exactly right. Yeah. The thing that comes to mind with that is really the understanding that success in a project - you can do as well as you want in a project; your product itself can be super-good. But at the end of the day, that product won't be able to make it to your end customer without passing through a few more hands. And when you really tie your project success not to the trained model, but to the deployed model that is in front of your customer, your end customer, it starts to really raise the priority of understanding what happens downstream of the output of your workflow. So the output of our workflow is like this trained model; even like a pipeline of inference, an inference pipeline for this trained model - that's the output. But that pipeline has to connect somewhere, and there's got to be someone who's doing that connection. And that is one of the tricks that I used to really raise in my own mind the priority of having good relationships with people up and downstream of me.
 
