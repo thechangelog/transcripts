@@ -30,7 +30,7 @@
 
 **Jerod Santo:** Yeah, so we will have the epic debate... Chris does have opinions on what is and what is not a testing framework. What is Selenium and why is it a testing framework?
 
-**Nick Nisi:** \[unintelligible 00:02:24.11\]
+**Nick Nisi:** Show title.
 
 **Jerod Santo:** Survey results, 2022, State of JS. It's out, it's done, it's in the bag... Congrats to Sasha and the whole team. This is an epic effort each year; lots of adjustments, they've built out a lot of software to run this thing... I thought it was pretty cool - they say in the opener that this year they received almost 40,000 responses, which is about double of last year's amount. So we're starting to hit, I hope, at a certain point, critical mass. They've been working on getting more people from more places, and more areas, and more identities and stuff into this mix... We can talk about that as well.
 
@@ -94,7 +94,7 @@ So I think it's important to take where things are headed, and where things are 
 
 **Kevin Ball:** Next week.
 
-**Nick Nisi:** Yeah, I think that's great. This kind of healthy competitiveness between the frameworks... Like, they're all pushing each other forward, which is exactly what you want. You don't want things to stagnate. And there's a lot of good ideas across all of these frameworks, and they do things a little bit differently, and there's a flavor that suits you probably; if not, there will be next year when you \[unintelligible 00:07:14.21\] But there's a lot of cool ideas, and nobody is sitting still, which is great.
+**Nick Nisi:** Yeah, I think that's great. This kind of healthy competitiveness between the frameworks... Like, they're all pushing each other forward, which is exactly what you want. You don't want things to stagnate. And there's a lot of good ideas across all of these frameworks, and they do things a little bit differently, and there's a flavor that suits you probably; if not, there will be next year when you write it. But there's a lot of cool ideas, and nobody is sitting still, which is great.
 
 **Kevin Ball:** Well, and one of the things I talked with Chris Ferdinandi about last week, I think, and that is showing up a little bit in this, but it'll be interesting to see how it plays out over the next couple of years, is more and more adopting of these frameworks that try to pre-compile away a large amount, and sort of ship a minimal runtime, ship smaller amounts of JavaScript. There's more sensitivity about how much JS is going over the wire.
 
@@ -224,7 +224,7 @@ On one hand, it seems a bit unfair to lump Selenium in with all these other ones
 
 **Jerod Santo:** I need to check out Vite, because I also don't do anything with TypeScript but ignore it.
 
-**Kevin Ball:** \[unintelligible 00:19:29.02\]
+**Kevin Ball:** You'll get alone.
 
 **Nick Nisi:** Not for long, Jerod.
 
@@ -582,7 +582,7 @@ Our fifth headline and final is "Boston Dynamics in talks with OpenAI to bring G
 
 **Nick Nisi:** Okay. Okay. So is that telling me to go with false?
 
-**Kevin Ball:** You can clearly not choose the \[unintelligible 00:35:14.23\] in front of me.
+**Kevin Ball:** You can clearly not choose the wine in front of me.
 
 **Jerod Santo:** I think your best strategy is to be correct.
 
@@ -718,7 +718,7 @@ Another one is it tells me that I'm using over 30 PPM. I don't actually know yet
 
 **Jerod Santo:** \[42:16\] I like it. LSPs, LSPs everywhere. Kball, how about you?
 
-**Kevin Ball:** Yeah, mine is \[unintelligible 00:42:20.13\] a human thing, not a technical thing... But since we're in January, everybody's focusing on New Year's resolutions, and goals for the year, and things like that... And I want to share the pro tip that at least for me, it works a lot better to focus on habits rather than goals. So instead of saying "I want to write 12 blog posts this year", I'm going to develop the habit of "I'm gonna write every day." I'm going to focus on 500 words every day, or something like that... But the goal is the habit of what I'm doing there. Or similarly for fitness. I think we've talked about this before, but it's not like "I'm gonna deadlift 300 pounds." It's "I'm gonna work out three or four times a week", and build a habit there. So that is my pro tip.
+**Kevin Ball:** Yeah, mine is, as is my want, a human thing, not a technical thing... But since we're in January, everybody's focusing on New Year's resolutions, and goals for the year, and things like that... And I want to share the pro tip that at least for me, it works a lot better to focus on habits rather than goals. So instead of saying "I want to write 12 blog posts this year", I'm going to develop the habit of "I'm gonna write every day." I'm going to focus on 500 words every day, or something like that... But the goal is the habit of what I'm doing there. Or similarly for fitness. I think we've talked about this before, but it's not like "I'm gonna deadlift 300 pounds." It's "I'm gonna work out three or four times a week", and build a habit there. So that is my pro tip.
 
 And there's some thinking behind this, right? So the thing with a goal, especially if you do -- like, the sexy thing is, "Oh, we're gonna make a SMART goal, and we're gonna have it be specific, and measurable", and all these different things, and time-bound. But the problem is, if you do that, what happens if you don't hit your goal? So like "Oh, I was very specific. I'm going to do this. I can measure it, I know how I'm measuring it, and I'm going to do it by this time. And that time has passed, and my specific measurement has not happened. What is my incentive to keep going and start again?" But in the real world, it's going to be a lot better if you keep going, and you accomplish that a week or two later. And if you focused, instead of "What am I specifically doing?" or whatever, you're saying, "I'm gonna build a habit of working towards this direction." You're gonna get there, and that's what's gonna keep you going and moving in the right direction, far more than your SMART goal.
 
