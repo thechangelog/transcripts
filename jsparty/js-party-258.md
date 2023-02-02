@@ -32,7 +32,7 @@
 
 **Kevin Ball:** I mean, you could scope that down to jQuery is solving very different problems than what React is solving.
 
-**Chris Ferdinandi:** Oh, yeah. I specifically mean not just jQuery \[unintelligible 00:03:40.07\] in the absolute sense, although I also mean that. But I think for the problems that it aims to solve, jQuery does a better job of that than React does. But yeah, the jQuery thing is really relevant, because most of what jQuery does has been replaced, or can be done with the same level of ease using platform-native technology now. Sometimes a little bit more verbose, and the documentation for platform-native stuff is garbage compared to jQuery's documentation... But jQuery doesn't need to exist. It just -- it persists nonetheless, mostly through kind of inertia and good documentation. And I suspect that tools like React and Vue will continue on that same trajectory, even though kind of like the new hot way that we build for the web will potentially -- I don't even wanna say leave it behind, but will kind of evolve past it.
+**Chris Ferdinandi:** Oh, yeah. I specifically mean not just jQuery better in the absolute sense, although I also mean that. But I think for the problems that it aims to solve, jQuery does a better job of that than React does. But yeah, the jQuery thing is really relevant, because most of what jQuery does has been replaced, or can be done with the same level of ease using platform-native technology now. Sometimes a little bit more verbose, and the documentation for platform-native stuff is garbage compared to jQuery's documentation... But jQuery doesn't need to exist. It just -- it persists nonetheless, mostly through kind of inertia and good documentation. And I suspect that tools like React and Vue will continue on that same trajectory, even though kind of like the new hot way that we build for the web will potentially -- I don't even wanna say leave it behind, but will kind of evolve past it.
 
 So should we dive into what I actually think is coming next, or do we want to make fun of React some more? Because I can do either. I'm totally happy with--
 
@@ -280,7 +280,7 @@ I don't know if we just hit a tipping point where we started to ship so much tha
 
 **Chris Ferdinandi:** I'm just giving you a hard time. Caps Lock is a nuisance key. That's a clever hack, I like that.
 
-**Kevin Ball:** I am not the old man shouting at the cloud, I'm the old man hitting \[unintelligible 00:45:56.24\]
+**Kevin Ball:** I am not the old man shouting at the cloud, I'm the old man hitting esc:q to get out of my editor
 
 **Chris Ferdinandi:** \[laughs\] Do you really still do everything in Vim? That's amazing.
 
