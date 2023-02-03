@@ -34,7 +34,7 @@
 
 **Ole Bulbuk:** So I started with Perl, I learned Java in the university, and then took Ruby as the next language... I played around with a lot of languages, and at Zalando I had to learn Python, so I used a lot of Python, and took over also the first monitoring system, also written in Python, written by a colleague... So I maintained this also for some years... And yeah, then we have a new company layout; we wanted to scale much more, and we had radical agility to move. And then we could basically change our idea of what we want to use. Then we picked Go. And since then, I've stuck to Go. I think it's six years now, so...
 
-**Natalie Pistunovich:** \[00:04:29.06\] So you both have been doing Go for a while, you've been both maintaining code, especially in Go, but not only, for a while... So we briefly discussed before beginning the show about the concept of the Ship of Theseus. And for those who are not familiar with this term or concept, it's a thought experiment that if you have a boat and you keep rebuilding it and refreshing it and changing parts, and at some point not even one part is the same as it was in the original ship, is it still the same ship? And then we started kind of discussing into how this applies to our world of context... So what is your perspective on this?
+**Natalie Pistunovich:** \[04:29\] So you both have been doing Go for a while, you've been both maintaining code, especially in Go, but not only, for a while... So we briefly discussed before beginning the show about the concept of the Ship of Theseus. And for those who are not familiar with this term or concept, it's a thought experiment that if you have a boat and you keep rebuilding it and refreshing it and changing parts, and at some point not even one part is the same as it was in the original ship, is it still the same ship? And then we started kind of discussing into how this applies to our world of context... So what is your perspective on this?
 
 **Sandor Szücs:** I'm still thinking I'm the same person, even though all atoms in my body have changed by now, since I have a baby, or whatever...
 
@@ -56,7 +56,7 @@
 
 **Ole Bulbuk:** Yeah. In my case, I do a lot of open source, and the most important projects are open source... And we get pull requests, and we want to enable everyone to do whatever they want to do with the software, of course... And of course, we cannot have the quality in the pull requests normally; it's very hard to get a new contributor up to the quality level that we ourselves want to have, and then we have to get better, of course, over the time... And I had an initiative to have 80% test coverage. This is my goal, it's not yet finished, but... Like, I have the last module that has only 30% of test coverage, that we actually don't use, but I want to make it so good that everything is good, and then also switch to this function if you need. Because what I see is we get some pull request, and we think "Hm, maybe we don't need it", but normally, in the normal case, it's in one or two years later and "Ah, we need exactly this."
 
-\[00:08:15.18\] This is what's so great about open source. I think it's also my \[unintelligible 00:08:17.21\] how I work, and how I can work, and for what tools I work with in infrastructure, it's open source... At that scale, I have the time to plan the changes greatly. If I do an error here and fail in production, everything is good. I cannot do the fast change always. Sometimes I do fast changes, but it's always tested good enough. I think there are other codebases, other jobs where it's more problematic.
+\[08:15\] This is what's so great about open source. I think it's also my \[unintelligible 00:08:17.21\] how I work, and how I can work, and for what tools I work with in infrastructure, it's open source... At that scale, I have the time to plan the changes greatly. If I do an error here and fail in production, everything is good. I cannot do the fast change always. Sometimes I do fast changes, but it's always tested good enough. I think there are other codebases, other jobs where it's more problematic.
 
 **Natalie Pistunovich:** Ole, you were mentioning before, in our pre-show - or actually, beginning of the show - that you had to maintain a very old codebase, and you did that for maybe 3-4 years, but the code was there for many years; so it is an older codebase, and that was not always a good experience. So what's interesting for me to ask you about, and to ask Sandor about - Sandor, did you start everything from scratch there, or did you also inherit code? And if you did inherit, was it also for a while around and not that efficient, or was it just, you know, three log lines in some testing infrastructure? Or how are your experiences of that?
 
@@ -72,7 +72,7 @@ In Python there was one very good engineer, \[unintelligible 00:10:26.23\] He wr
 
 I've never maintained a codebase where somebody has been before and thought "Oh, this is exactly how I think", or something. And there are so many ways to twist things, and do things differently... These programming languages, you can do anything with them, and you can do most things in completely different ways. This is quite interesting, and leaves a lot of freedom, but this also makes the maintenance quite challenging. And I think, my personal view, a bit more structure will be good in the long run. I think when software engineering evolves, I hope we will get a bit more structured, that we understand better how to write software better, and make it easier to maintain long-term.
 
-**Sandor Szücs:** \[00:12:36.20\] A colleague says \[unintelligible 00:12:37.02\] the code should look like this, that if you come back to it two months later and you need to fix a bug as fast as possible, then it should be written like this. It should be obvious. If you do it smart, it's always so complex, even for you, right? To debug a problem, it's like 2x as hard as writing. So if you think it's a smart hack, then maybe you are not smart enough to debug, and you should always keep in mind... So for your future self, it's better make the fool, to make it as simple as possible.
+**Sandor Szücs:** \[12:36\] A colleague says \[unintelligible 00:12:37.02\] the code should look like this, that if you come back to it two months later and you need to fix a bug as fast as possible, then it should be written like this. It should be obvious. If you do it smart, it's always so complex, even for you, right? To debug a problem, it's like 2x as hard as writing. So if you think it's a smart hack, then maybe you are not smart enough to debug, and you should always keep in mind... So for your future self, it's better make the fool, to make it as simple as possible.
 
 **Ole Bulbuk:** Absolutely. As fool-proof as possible. Definitely. And obvious. This is, I think, one of the most important things, to make things obvious... Because people don't have much time, and they do what's most obvious and natural to them, at that time when they are under pressure, and can't think about things for a longer time... And then just something happens that does the trick somehow.
 
@@ -98,7 +98,7 @@ And then the next one doesn't understand it, and the next one misunderstands som
 
 **Ole Bulbuk:** I've been working with them for a while, yeah.
 
-**Natalie Pistunovich:** \[00:15:53.18\] And we recently had an episode with Bill on yes or no TDD, and then - this is very similar to Bill's philosophy, how he introduced the data, to avoid kind of this conflict, exactly as you say, between the ideation part and the implementation part, and so on. So he's not a fan of TDD. He's -- how did he call that? PDD, I wanna say; like, product-driven development. He said "First write the API, have everybody agree on that, and then go ahead and implement that." And I can see how this is kind of a very interesting perspective, that is not -- you know, when you think about code development methods, you do think of TDD as one of the first ones, and not necessarily of what you say, but it is actually true; that is a big problem. So it's a very interesting listen... We will include a link to that in the show notes as well.
+**Natalie Pistunovich:** \[15:53\] And we recently had an episode with Bill on yes or no TDD, and then - this is very similar to Bill's philosophy, how he introduced the data, to avoid kind of this conflict, exactly as you say, between the ideation part and the implementation part, and so on. So he's not a fan of TDD. He's -- how did he call that? PDD, I wanna say; like, product-driven development. He said "First write the API, have everybody agree on that, and then go ahead and implement that." And I can see how this is kind of a very interesting perspective, that is not -- you know, when you think about code development methods, you do think of TDD as one of the first ones, and not necessarily of what you say, but it is actually true; that is a big problem. So it's a very interesting listen... We will include a link to that in the show notes as well.
 
 **Sandor Szücs:** Yeah, I think this is the right choice. API-driven... For example, I built a new Kubernetes \[unintelligible 00:16:51.24\] And this is an interface for the developers to use it. And if we change that, we have to stick to it; you cannot easily change it again and again and again. Nobody wants to migrate from one version to the other. It's \[unintelligible 00:17:11.21\] The work can take one year at least, and we don't want to maintain two versions, or three... You don't want this.
 
@@ -108,7 +108,7 @@ And we are very strict at this point, but in other parts we are not very strict.
 
 **Ole Bulbuk:** Right. I'm more from a business software perspective, since I've been working like 90% on business software in my life... And there you don't have this. Even the API to the clients, like HTTP -- so JavaScript client usually nowadays, you can change it. You just talk to the frontend developer and say "Come on, this was stupid. Let's change this." And this makes everything easier, of course, but also nobody takes time to think about the interfaces a lot. So you just make it work, and you can make it nice and pretty later. This is one of the factors, that things grow and get out of bounds sometimes.
 
-**Sandor Szücs:** \[00:20:03.04\] Do you think that actually you saw "Oh, this is not nice", and everybody agrees it's not nice, and "Yeah, let's change it, and make it nice", with your service?
+**Sandor Szücs:** \[20:03\] Do you think that actually you saw "Oh, this is not nice", and everybody agrees it's not nice, and "Yeah, let's change it, and make it nice", with your service?
 
 **Ole Bulbuk:** Sometimes yes. It's not that often. There are different ways of people think it's nice also. Sometimes you have a team that is split up into two halves, and they are fighting a little bit... And two or three developers that like clever patterns, and read a lot of things, articles, how to implement something in a very performant way, and whatever; then other people who think "Well, we don't have those performance needs. We don't need this thing. We just want something straightforward, that does the trick. Please don't add more complexity." Yeah, and others are so inspired by articles from Google, or whatever, great companies that solve great problems, that most people don't have, but maybe some engineers would like to have, since they are good enough to solve those problems too, and they would like to show it... So I see some pressure sometimes, this over-engineering, or CV-driven development, or whatever.
 
@@ -124,7 +124,7 @@ And we are very strict at this point, but in other parts we are not very strict.
 
 **Ole Bulbuk:** Yeah, I think this is very good. So if you do something that is meaningful, tests that are meaningful for the product side too, this is usually very good. And they tend to be much more stable than when you do this just test-driven development, where for each line that you want to add to a test case first, and then you sometimes have tests and implementation tightly-knit afterwards, where you can't change a single line in the resulting codebase in the implementation without having to change tests, too. And this can be quite awkward. So I love that you have tests that are meaningful to the product owner. And even on detailed stuff. So it can be really down, a little function that is doing something very detailed, but hopefully it's still explainable what this function is doing to someone who knows the product side.
 
-\[00:24:06.20\] This is really great, if you can do that; I've found this very helpful, because then you have enough meaningful tests, and when things change, you can explain what to change, and how to change, and you can talk to the product side, and don't have this gap between product and implementation so deep.
+\[24:06\] This is really great, if you can do that; I've found this very helpful, because then you have enough meaningful tests, and when things change, you can explain what to change, and how to change, and you can talk to the product side, and don't have this gap between product and implementation so deep.
 
 **Natalie Pistunovich:** So another question to you both... When you adopt a project, and you kind of lay out your plan on how to start working with it, what are the steps and what are the important things that you lay out first for the purpose of long-term maintainability?
 
@@ -140,7 +140,7 @@ For example, I took over a codebase, and then \[unintelligible 00:26:24.15\] The
 
 So I start from the outer level and go more inside. So first is how services are cut and working together, and then the next step is packages within services. So I have a tool for analyzing the package structure, a spaghetti-analyzer \[unintelligible 00:27:47.20\] sometimes you have spaghetti code that you have to analyze, and it's interesting, of course... And with that I can see the package structure in a table view, and see dependencies, what package is using the other packages, and so on.
 
-\[00:28:12.15\] Then I can get some statistics out; this interesting package, how many packages is it using, which ones, how often is it used, by which other packages, and so on... So I can find out how things relate to each other, without having to read endless lines of code. This is for me quite good to get an overview as a start. Then I can work on that, and get it into a good shape. And if I have done that -- yeah, do you want to add something?
+\[28:12\] Then I can get some statistics out; this interesting package, how many packages is it using, which ones, how often is it used, by which other packages, and so on... So I can find out how things relate to each other, without having to read endless lines of code. This is for me quite good to get an overview as a start. Then I can work on that, and get it into a good shape. And if I have done that -- yeah, do you want to add something?
 
 **Sandor Szücs:** Yeah, I want to add something... So I am not reading line by line.
 
@@ -168,7 +168,7 @@ The last step would be another tool or something to document, to make it obvious
 
 **Sandor Szücs:** For me, after reading and creating a little functionality here and there, I try to grasp the full architecture. And then I start to document. If it's not documented, I start to document. And this helped me a lot. I did this several times now, and I think it's a good approach. Very sophisticated, I have to say... This is really good.
 
-**Ole Bulbuk:** \[00:32:17.06\] Yeah, if you don't understand the big picture, you have no chance to understand the details.
+**Ole Bulbuk:** \[32:17\] Yeah, if you don't understand the big picture, you have no chance to understand the details.
 
 **Natalie Pistunovich:** So you both shared an interesting answer to the question "How do you start when you get a new codebase?" Like, how do you get to grasp it, to understand it, and so on. And maybe the last part of the documentation is kind of the first step of how to act. So what do you do, not as a receiving, but as making changes, when you start maintaining code? So you've improved the documentation a bit. Do you have some other pattern or checklist or good practice that you do when you go ahead and develop, or improve or maintain the code that you have inherited, once you've understood it and improved the documentation?
 
@@ -190,7 +190,7 @@ The last step would be another tool or something to document, to make it obvious
 
 I see so often in open source they have documentation, how to install the software, and then it has some features, but I don't know the architecture. They have no picture of the architecture. And then I say "Hey, I have now ten components installed in some Kubernetes cluster, with some templating foo that created a lot of things I have no clue about... I don't want to start like this. I have not the time to look at your codebase to understand how this works together. If you don't add this, I will never touch your code, and also not use this." I have not the time. I can build it myself faster than to get this... At least the functionality I need. I think this is very important.
 
-**Natalie Pistunovich:** \[00:36:25.11\] I can absolutely imagine some AI tool that's coming up that will be just reading all the code and then creating for you the architecture. Just another one add-on in the GitHub Marketplace.
+**Natalie Pistunovich:** \[36:25\] I can absolutely imagine some AI tool that's coming up that will be just reading all the code and then creating for you the architecture. Just another one add-on in the GitHub Marketplace.
 
 **Sandor Szücs:** Yeah, maybe. This is a good one.
 
@@ -200,7 +200,7 @@ I see so often in open source they have documentation, how to install the softwa
 
 Yeah, the AI coding world is a little bit conflicting these days. Some people like it, some people not... And there are all sorts of opinions around that. Some are unpopular.
 
-**Jingle:** \[00:37:25.22\]
+**Jingle:** \[37:25\]
 
 **Natalie Pistunovich:** So now comes the fun part, where I'm asking you both if you have an unpopular opinion, what is your unpopular opinion, and then we go and paste it on the social medias, and run a poll - is it actually popular or unpopular? So who would like to start?
 
@@ -218,7 +218,7 @@ Yeah, the AI coding world is a little bit conflicting these days. Some people li
 
 **Sandor Szücs:** The question is "What is better?" Right?
 
-**Natalie Pistunovich:** \[00:39:14.19\] Yeah, interesting. It's a good one.
+**Natalie Pistunovich:** \[39:14\] Yeah, interesting. It's a good one.
 
 **Ole Bulbuk:** For who it's better?
 
