@@ -155,7 +155,7 @@ We do need to implement a more complex example, which I think would be to run mu
 
 The differences come out when you start doing if statements and loops, where we've simplified the syntax of the POSIX; it's not following the POSIX specification. So scripts that do need to follow that can use Bash. And I've been thinking about maybe implementing a compliant mode in Ion where it can act as Bash and it can run POSIX syntax scripts, or Bash syntax, which is slightly different.
 
-**Jerod Santo:** I guess that's a point -- we haven't really pointed a finger at this very closely but it's -- Redox is Unix-like, but it's not POSIX-compliant, and it doesn't want to be.
+**Jerod Santo:** I guess that's a point -- we haven't really pointed a finger at this very closely, but it's -- Redox is Unix-like, but it's not POSIX-compliant, and it doesn't want to be.
 
 **Jeremy Soller:** Right.
 
