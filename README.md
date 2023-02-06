@@ -387,6 +387,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
       <td align="center" valign="top" width="16.66%"><a href="https://www.frontendmentor.io/profile/ehmenzala"><img src="https://avatars.githubusercontent.com/u/81888762?v=4?s=100" width="100px;" alt="Esteban"/><br /><sub><b>Esteban</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=ehmenzala" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/jseidman30"><img src="https://avatars.githubusercontent.com/u/77669838?v=4?s=100" width="100px;" alt="jseidman30"/><br /><sub><b>jseidman30</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=jseidman30" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/dimlev"><img src="https://avatars.githubusercontent.com/u/1188269?v=4?s=100" width="100px;" alt="dimlev"/><br /><sub><b>dimlev</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=dimlev" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/kojq"><img src="https://avatars.githubusercontent.com/u/106934605?v=4?s=100" width="100px;" alt="kojq"/><br /><sub><b>kojq</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=kojq" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
