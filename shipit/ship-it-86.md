@@ -92,7 +92,7 @@ But yeah, something pretty static that you can just ship over to the machine - I
 
 **Gerhard Lazu:** Oh, yes. I remember.
 
-**Lars Wikman:** No, it would vary... And right now, I don't ship a ton of things to my own servers, but generally, it's just SCP when I do. The things I run for myself, for low-scale production, that's just \[unintelligible 00:15:49.09\] And as I mentioned, for clients, I'm currently doing Fly, some Fly deploy command, which does ship containers...
+**Lars Wikman:** No, it would vary... And right now, I don't ship a ton of things to my own servers, but generally, it's just SCP when I do. The things I run for myself, for low-scale production, that's just SCP over  And as I mentioned, for clients, I'm currently doing Fly, some Fly deploy command, which does ship containers...
 
 **Gerhard Lazu:** Yep. I was thinking about that. So do you build a container with Fly, or do you let the Fly CLI just figure it all out? Use build packs, and...
 
@@ -134,9 +134,9 @@ But I haven't been thrilled with Grafana. I think my best sort of APM-ish experi
 
 \[21:43\] Now, if you're on a dedicated server, how do you do a nice blue/green deploy, a rolling deploy? It gets a little bit more tricky then. And if you have two dedicated servers, like - okay, yeah, then you can do blue/green in sort of a traditional way. Something I want to explore is how to do a nice blue/green deploy on a single machine, minimally; and ideally, the application itself knows how to wrangle it. And I think I have two approaches that I'd like to explore, that I have not yet... One is straight up that the application tells IP tables "No, no. Route that port to me now." And if it fails sufficiently, it will hand it back, or the other app will sort of see error rates and hand it back, or steal it back, I guess... Or just manually, I can switch it back by telling the app "No, you're the boss. That one failed." It depends on how sort of automated you want to be about it, but the point being, you have multiple versions of the application on the server, so you don't overwrite your previous one; that seems unnecessary. Being able to stand up an entirely new one, let it settle in, and then let it start taking on traffic, and maybe even taking on a subset of traffic.
 
-Another one, which is even sort of moving it one step further, is that I believe there are some good options you can use to share a socket...
+Another one, which is even sort of moving it one step further, is that I believe there are socket options you can use to share a socket...
 
-**Gerhard Lazu:** \[unintelligible 00:23:16.11\] that's the one, yeah.
+**Gerhard Lazu:** Yep. 'REUSEPORT'-- 'SO_REUSEPORT' that's the one, yeah.
 
 **Lars Wikman:** So the new one will simply start getting the traffic, and the old one can be faded back into the background.
 
@@ -252,7 +252,7 @@ So YAML - great for declaring a state of the world, but then there's all sorts o
 
 **Lars Wikman:** And if my job was managing a complex system day in, day out, and not mostly developing the system, if I could spend most of my time on the operations part, then Kubernetes might also make more sense, because then that's a tool that gives me a lot of capabilities, and I can spend my time learning to be very proficient in that. And eventually, I might run into a project where it makes sense for me to just learn Kubernetes. And after that, I might be one of those people that just, like, "Oh, I need to set up a static page blog. I'll do that with Kubernetes. Home Lab! Here we go!" But for now, I really like --
 
-**Gerhard Lazu:** \[unintelligible 00:46:15.23\]
+**Gerhard Lazu:** UCP.
 
 **Lars Wikman:** \[46:19\] It all boils down to what I'm comfortable with. Like, I've done Linux since I was a teenager, so I know how to do Linux.
 
@@ -280,7 +280,7 @@ So YAML - great for declaring a state of the world, but then there's all sorts o
 
 **Lars Wikman:** Have you poked around with other non-Linux operating systems, like the BSDs, and things?
 
-**Gerhard Lazu:** Yeah... I used to run FreeBSD for the best part of the last decade. It's interesting. Jails were interesting. Solaris zones - I only worked on a project for maybe three or six months that was using it. They seemed very complex, solaris zones, like from the outside. There was like a lot of stuff that was like "Why do we need to do this?" And then containers came along, and that just basically solved a lot of those issues \[unintelligible 00:48:03.17\] Linux. Cgroups, and containers, and then obviously Kubernetes, so scheduling...
+**Gerhard Lazu:** Yeah... I used to run FreeBSD for the best part of the last decade. It's interesting. Jails were interesting. Solaris zones - I only worked on a project for maybe three or six months that was using it. They seemed very complex, solaris zones, like from the outside. There was like a lot of stuff that was like "Why do we need to do this?" And then containers came along, and that just basically solved a lot of those issues \[unintelligible 00:48:03.17\] in Linux. Cgroups, and containers, and then obviously Kubernetes, so scheduling...
 
 To be honest, I understand the appeal of using something that you're comfortable with. Something that you're like on a trajectory, and you've been on that trajectory for a really long time. You mentioned Linux - it does most of what you need. Of course, some parts are not perfect, and you're not happy with, but is there any system that you're completely happy with? Not really. There's always like little things which are annoying. But with time, you get to live with them, and then everything is okay. So why would you change something that's working well for you?
 
