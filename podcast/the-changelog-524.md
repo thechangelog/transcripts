@@ -32,7 +32,7 @@
 
 Now, with the advent of the PC and the kind of elimination of a lot of those companies, all of them but IBM - so the term mainframe really means IBM System Z. That's what it means today. IBM System Z. That's a very specific technology, a very specific, proprietary technology. But the term mainframe used to be a broad definition.
 
-**Jerod Santo:** \[00:06:04.26\] So System Z - is it a hardware, is it a software, is it both?
+**Jerod Santo:** \[06:04\] So System Z - is it a hardware, is it a software, is it both?
 
 **Cameron Seay:** When you use the term Z, you're speaking about an architecture. And as some of your listeners may not know - I'm sure you gentlemen know - when you talk about architecture, you're not really talking about a real thing. You're talking about an idea, a gameplan, a plan, a blueprint. But it applies to both the hardware and the software. So System Z, mainframe, IBM mainframe, software. All proprietary. But we're starting to use a lot of open source stuff. We can talk about that. But that's what we mean when we say IBM System Z. That's what we mean, the architecture.
 
@@ -52,7 +52,7 @@ So those applications on the mainframe are the mission-critical applications of 
 
 Now, let's think about the nature of transactions. They can't be done in parallel, right? Because you can never get the scheduling so precise, so that you can guarantee transaction B is always gonna come after transaction A. You may get close, but you're gonna mess up sometimes. And you can't afford to do that in banking, or insurance, or hospitalization. You've got to have those transactions done in sequence, on a single thread. That's the key. The stuff has to be done on a single thread.
 
-\[00:09:57.20\] Now, you can use multiple threads if you're clever and you're tricky, but you just can't throw the workload on AWS and say "Process Bank of America's transactions." It's not going to work, because there's no infrastructure that can process a million transactions a second, except the mainframe. And if you need a million transactions a second to process, as do Walmart, as do Bank of America, as do Mastercard and Visa, then you need a mainframe. There's nothing else that does it. Nothing can even think about it. It can't even contemplate doing that, because the architecture will not support it.
+\[09:57\] Now, you can use multiple threads if you're clever and you're tricky, but you just can't throw the workload on AWS and say "Process Bank of America's transactions." It's not going to work, because there's no infrastructure that can process a million transactions a second, except the mainframe. And if you need a million transactions a second to process, as do Walmart, as do Bank of America, as do Mastercard and Visa, then you need a mainframe. There's nothing else that does it. Nothing can even think about it. It can't even contemplate doing that, because the architecture will not support it.
 
 **Adam Stacoviak:** I wanna throw TicketMaster into that mix too, because I tried to get my T. Swift tickets and I just could not do it. Come on...! Anyways...
 
@@ -76,7 +76,7 @@ Now, the mainframe's key to success is that it offloads as much of the workload 
 
 DB2, the database, is a subsystem. I don't know if I used the term subsystem, but that's what these things are, subsystems that run below the general processor, while that general processor is doing its work. So it is very, very efficient, and you use close to 100% of the instruction cycles. Whereas on a PC, on an Intel -- and you know, my lectures never disparage any technology that's not mainframe. This is not a competition, it's not a comparison. Each technology does what it does well. But from a processing instructions standpoint, AMD and Intel are very inefficient. Now, they don't see themselves inefficient. They see themselves as efficient as they need to be, because they get the job done. But mainframe people are like "Okay, you're wasting 80% of your cycles? Are you crazy?" Mainframes don't waste 5% of their cycles. So it's very, very efficient technology, and everything built in.
 
-\[00:14:04.27\] Now, storage is always a separate issue. That refrigerator box that we call the mainframe - your storage is never physically on that box. You RAM is, your local storage is, but your long-term storage disk is somewhere else. Usually connected via fiber. Always connected via fiber. So that's what a mainframe is, is just a processor --
+\[14:04\] Now, storage is always a separate issue. That refrigerator box that we call the mainframe - your storage is never physically on that box. You RAM is, your local storage is, but your long-term storage disk is somewhere else. Usually connected via fiber. Always connected via fiber. So that's what a mainframe is, is just a processor --
 
 **Adam Stacoviak:** A big 'ol processor. Wow.
 
@@ -104,7 +104,7 @@ DB2, the database, is a subsystem. I don't know if I used the term subsystem, bu
 
 To acquire the machine, at least -- I mean you can trick it out... I don't think you can have any serious implementation for less than two million. I could be wrong about that... But now, understand what you're doing. You've got to weigh the total cost of what it is you're trying to do, against another way to do it.
 
-\[00:18:02.20\] So while a rack of servers might be a lot cheaper than a mainframe - well, how many racks do you need? I tell people all the time - I can move an inventory of goods from Durham, North Carolina to Los Angeles, California in my SUV. How many trips would it take me? Is my SUV cheaper than a Peterbilt? Absolutely it is. How many trips will it take me? A lot of trips. How much time would it take me? ...where I can take everything in a Peterbilt. So it depends. But to give you a number - so five million was the value of what we were using, and we were just using generic stuff; we weren't using anything sophisticated. And probably two million to get in from a hardware standpoint.
+\[18:02\] So while a rack of servers might be a lot cheaper than a mainframe - well, how many racks do you need? I tell people all the time - I can move an inventory of goods from Durham, North Carolina to Los Angeles, California in my SUV. How many trips would it take me? Is my SUV cheaper than a Peterbilt? Absolutely it is. How many trips will it take me? A lot of trips. How much time would it take me? ...where I can take everything in a Peterbilt. So it depends. But to give you a number - so five million was the value of what we were using, and we were just using generic stuff; we weren't using anything sophisticated. And probably two million to get in from a hardware standpoint.
 
 But IBM - they have variety, they have an infinite number of plans... We're talking millions, we're not talking hundred thousands. We're talking millions.
 
@@ -126,7 +126,7 @@ From a software side, what's interesting to me is - like, you have 75 students t
 
 **Cameron Seay:** Yes, they are. They keep the global economy running. And the companies are seeing it now, but they just aren't depending on the universities to fill that gap, and I don't blame them. My students all get jobs; they all get great jobs. But there's not enough of them to go around. So companies are looking at alternate methods, and there's some pretty successful methods that they're employing... But the need is there, Adam. And companies are aware of it now; they're feeling it. IRS - they want us to train 600 people, yesterday. So they need a lot of people.
 
-**Break:** \[00:22:43.14\]
+**Break:** \[22:43\]
 
 **Jerod Santo:** So let's say, hypothetically, on this point, if I'm a working developer - let's say I'm a Java developer, I work in enterprise, I make my 80k to 150k a year, I've been doing it for a while... Is there a reason for me to go out, maybe take some night classes, pick up COBOL? Would I be able to increase my salary potentially, or like really upgrade by adding this skill? Or is it kind of like "Well, you're already making that much. You're gonna make about that much"? What do you think? I know it's different in different areas...
 
@@ -150,7 +150,7 @@ I'm not saying -- look, if you have an application that's gonna run fine on a ch
 
 **Adam Stacoviak:** What's the API, I suppose? Does the enterprise often own their own mainframe, or are they borrowing time? You mentioned before the amount IBM charges per cycle, I believe... Am I essentially renting time, or am I buying the full thing? What's the common path? And is it simply an API call to run the workload there, and then data out and ingest somewhere else? How does it work?
 
-**Cameron Seay:** \[00:28:08.23\] Both... I see probably many more leasing machines than I do actually buying them outright. But companies do buy them outright. I don't know the cost figures well. Now, exactly what are you looking for in terms of API? Do you mean to get to the machine, to run the application on the machine, is that what you mean?
+**Cameron Seay:** \[28:08\] Both... I see probably many more leasing machines than I do actually buying them outright. But companies do buy them outright. I don't know the cost figures well. Now, exactly what are you looking for in terms of API? Do you mean to get to the machine, to run the application on the machine, is that what you mean?
 
 **Adam Stacoviak:** How do you put your workload on the machine, essentially? What's the -- I guess API is the common term, but I specifically mean how do you interface with the mainframe to make the workload go?
 
@@ -164,7 +164,7 @@ We connect to the machine usually with a 3270. 3270 is a monitor type. We have a
 
 And by the way, just so you know... You guys don't know this, but by far -- both of you are familiar with the concept of a hypervisor. IBM's hypervisor, z/VM, is by far the most powerful hypervisor on the planet. There is nothing close to it in terms of performance, in terms of security. Now, I don't say that to malign VMware. VMware is a nice product. But the comparison is worse than comparing Windows to Linux. It's that great. z/VM can do things that VMware can't even dream of doing. In the mainframe world they call them guests. They don't call it virtual machines, they call them guests. One guest is never gonna bring down another guest. That's never going to happen. The guest is completely isolated. Now, I know that's an issue in the VMware world; it has been improved upon later, but I remember that used to be a big issue. One virtual machine could take down a whole sector. So that doesn't happen in the mainframe space. Not at all.
 
-**Jerod Santo:** \[00:31:53.10\] You mentioned IBM names their prices, and that's obviously just because of the circumstances; they are the king, and you serve at the honor of the kind, so to speak... Has that ship sailed? Is there an opportunity? Because all you would need is one competitor. You'd need Pepsi to their Coke to really keep IBM in check, and maybe make this stuff more economical in general... Or is that just never gonna happen? These companies tried and they failed, and IBM is just gonna have that little monopoly, and sit on it? What do you think?
+**Jerod Santo:** \[31:53\] You mentioned IBM names their prices, and that's obviously just because of the circumstances; they are the king, and you serve at the honor of the kind, so to speak... Has that ship sailed? Is there an opportunity? Because all you would need is one competitor. You'd need Pepsi to their Coke to really keep IBM in check, and maybe make this stuff more economical in general... Or is that just never gonna happen? These companies tried and they failed, and IBM is just gonna have that little monopoly, and sit on it? What do you think?
 
 **Cameron Seay:** I'm a tech guy like you, I don't use the term "never". I don't know. I can tell you what I can foresee. I don't foresee any competition from a technology standpoint, because it would take hundreds of billions of dollars in R&D to do something like what the mainframe does, in my opinion. What I do see in competition is competing solutions. Everybody's always trying to figure out how to do these transactions, and there is a company called LzLabs that swear to God they've figured it out. Now, they're in court right now with IBM; I was part of the case. The case may have been resolved. I don't know. They're in court with IBM right now, because IBM says "No, you're telling lies." But to answer your question, Jerod, I don't really see a competing technology. I see competing solutions. That's what I see.
 
@@ -192,7 +192,7 @@ My favorite one is Ubuntu, because I like Ubuntu. Ubuntu runs exactly the same. 
 
 **Cameron Seay:** Yeah, 12% of their revenue. I knew the guy who was over there, Brad Hinson. They had a huge mainframe -- IBM used to give them mainframes so they could run stuff on it. So yeah, they've been in -- and I don't know if they still are... And that was part of IBM's willingness to buy them, because Red Hat worked more closely with IBM than Suse did. Suse in the business of mainframe computing - which is a thing; business mainframe computing on Linux is a thing... Suse is a top dog. But Red Hat had courted IBM more carefully. So that's why there's a port for Red Hat. And that contributed to IBM's 34 billion dollar \[unintelligible 00:36:03.02\] because they felt they knew enough about Red Hat to make it -- that's not the only reason; I know there's a lot of reasons, but that was involved. I had a conversation with both ends.
 
-**Jerod Santo:** \[00:36:12.11\] Yeah. Smart by Red Hat. So you mentioned earlier the Open Mainframe Project. It seems like we're talking open right now... Can you dive into that and tell us what that is?
+**Jerod Santo:** \[36:12\] Yeah. Smart by Red Hat. So you mentioned earlier the Open Mainframe Project. It seems like we're talking open right now... Can you dive into that and tell us what that is?
 
 **Cameron Seay:** Absolutely. It started I think in 2016, with several large companies using mainframe. IBM was one of them, CA Technologies at the time, before they've been bought out... ADP, and a couple of other companies. My university, North Carolina A&T was involved... So it was just an attempt - or it is an attempt - to promote and report on the use of open source software in the mainframe space.
 
@@ -224,7 +224,7 @@ Also, its procedural nature makes it very efficient to process raw data. So if I
 
 The object model - people ask "Why don't you rewrite everything in Java?" Well, that's not gonna gain you anything, because the object model doesn't bring anything to the dance in terms of the nature of the data that COBOL processes. There's nothing to adding classes, or the modularity that Java brings to that; it's not gonna add anything, it's just gonna increase the complexity of it. COBOL is very terse, and very simple, and it's a very easy language to follow. So it became by far the language of choice for the entire world for about a 30-year run before Java.
 
-**Jerod Santo:** \[00:40:10.09\] So I do have a friend of mine who works at a large credit card processing company, that still runs on mainframes, and probably always will... And feeding into this whole like there's this underground demand for COBOL developers or mainframe developers, he says that there's a handful of people - and this is like a Fortune 1,000, maybe Fortune 500 (I'm not sure) company... He's like "There's a handful of people here who understand this system." And it's not COBOL the language, it's like the actual nuts and bolts of how this business runs through the mainframes. And he's like "Maybe there's a half a dozen; that might be gracious. Maybe there's three people in this company of thousands of people that actually know this thing. And if they're not available, or they're gone, or whatever, we can't do our jobs lots of times." He's a programmer there that works on internal tooling; he's not a mainframe guy. Is that the case at a lot of these big orgs, where it's like -- gosh, it's the domain knowledge that seems so valuable. Of course, you could pick up COBOL, and you can learn how to talk to a mainframe, but is it the domain knowledge that's like so gnarly and so ingrained, and so many lines of code of it at these large orgs, that are gonna keep you busy for years, but also might -- maybe the knowledge of how they work might disappear with a bus factor of one.
+**Jerod Santo:** \[40:10\] So I do have a friend of mine who works at a large credit card processing company, that still runs on mainframes, and probably always will... And feeding into this whole like there's this underground demand for COBOL developers or mainframe developers, he says that there's a handful of people - and this is like a Fortune 1,000, maybe Fortune 500 (I'm not sure) company... He's like "There's a handful of people here who understand this system." And it's not COBOL the language, it's like the actual nuts and bolts of how this business runs through the mainframes. And he's like "Maybe there's a half a dozen; that might be gracious. Maybe there's three people in this company of thousands of people that actually know this thing. And if they're not available, or they're gone, or whatever, we can't do our jobs lots of times." He's a programmer there that works on internal tooling; he's not a mainframe guy. Is that the case at a lot of these big orgs, where it's like -- gosh, it's the domain knowledge that seems so valuable. Of course, you could pick up COBOL, and you can learn how to talk to a mainframe, but is it the domain knowledge that's like so gnarly and so ingrained, and so many lines of code of it at these large orgs, that are gonna keep you busy for years, but also might -- maybe the knowledge of how they work might disappear with a bus factor of one.
 
 **Cameron Seay:** That's my fear. And you guys are really good. Both of you guys ask really, really good questions.
 
@@ -252,7 +252,7 @@ So we need to retain \[unintelligible 00:42:24.18\] Because the transition may n
 
 Now, most of my students now are not African-American, and I don't care. If you're one of my students, I don't care who you are, I don't care where you come from. I don't care what you look like. All I care about is you're in my class, and I'm gonna do the best I can for you. But that type of attitude, plus I'm focused on them getting jobs. I'm obsessed with it. That's how I keep score. I keep score on how many of my students are leaving my class and going to work. That's how I keep score. And I don't know a lot of professors that keep score that way, and they should. They should. Especially in the tech space.
 
-\[00:44:09.15\] So students know that about me, they know I'm about nothing but them getting a job, or furthering their career... And look, I don't care whether you work in mainframe or not; I want you to have a good job in tech, because tech can be a rewarding career, and it's not for everybody.
+\[44:09\] So students know that about me, they know I'm about nothing but them getting a job, or furthering their career... And look, I don't care whether you work in mainframe or not; I want you to have a good job in tech, because tech can be a rewarding career, and it's not for everybody.
 
 But no, so I don't have problems getting students. Why other people do, I don't know, because this stuff is compelling. If you tell them "Look, you're gonna get to work on the most sophisticated business technology in the world, and you're gonna get to make a lot of money" - that pretty much is all it takes.
 
@@ -284,7 +284,7 @@ For this undergraduate course I just needed them to build some simple chops in t
 
 **Cameron Seay:** Okay, so let's talk about the one that -- the most successful one we had was this summer, and I use it as a template model, because I think this model is optimal... So we had ten students - we lost two, but we had ten students for 12 weeks, starting in (I think) the end of June, going into early September. So there were ten weeks, six hours a day in class, five days a week. It sounds like a lot, but we broke it up: three hours of lecture in the morning, three hours of lab in the afternoon, so the students didn't get burned out.
 
-\[00:48:03.20\] A mix of people, some of them were college grads, some of them had not been to college at all. And the first three weeks were ZOS essentials... Because we were contracted by a bank to prepare these people to join teams after 12 weeks, so we took that challenge. And then after that, six or seven weeks of COBOL, and then a two-week project. And that worked very nicely.
+\[48:03\] A mix of people, some of them were college grads, some of them had not been to college at all. And the first three weeks were ZOS essentials... Because we were contracted by a bank to prepare these people to join teams after 12 weeks, so we took that challenge. And then after that, six or seven weeks of COBOL, and then a two-week project. And that worked very nicely.
 
 So they'd come in at nine in the morning, and go through twelve, take an hour for lunch, and come and have lab in the afternoon. And the labs are open; it's not tedious. The lectures can be a bit tedious, but you've gotta have lectures. But to me, that's the best model.
 
@@ -316,7 +316,7 @@ So is there a world where I get skilled enough, or a business can be propped up 
 
 Another guy, my friend Barton Robinson, he buys his own machines and he runs kind of hosting services on them.
 
-\[00:52:07.07\] So there is a business model. I don't know how standardized it is, Adam, but Sunny Gupta seems to be doing exactly what you said. He has machines all over the place, and he'll train you, he does a lot of training too, he does a lot of contracting for training, and he'll host your application. So yeah, it is done.
+\[52:07\] So there is a business model. I don't know how standardized it is, Adam, but Sunny Gupta seems to be doing exactly what you said. He has machines all over the place, and he'll train you, he does a lot of training too, he does a lot of contracting for training, and he'll host your application. So yeah, it is done.
 
 **Adam Stacoviak:** So if I'm an enterprise buying in the mainframe, I'm probably buying from IBM. I'm not buying from these folks you've mentioned. This seems to be sort of a side thing, not the main business of mainframe.
 
@@ -346,7 +346,7 @@ But to get prepared for it, self-study. You can do self-study. You're gonna need
 
 So that program is to get the mentors, but they're going to be working with mentees that are part of the mentorship program, and they get paid. So they have projects, companies submit projects, and they work on the projects for a certain period of time, ten weeks or whatever. It's really cool. A couple of actual distros have actually come out of that program. Linux distros for the mainframe, one called Alpine.
 
-**Adam Stacoviak:** \[00:56:12.15\] Is that right?
+**Adam Stacoviak:** \[56:12\] Is that right?
 
 **Jerod Santo:** Alpine Linux...
 
@@ -386,7 +386,7 @@ So that program is to get the mentors, but they're going to be working with ment
 
 **Cameron Seay:** For them, 80k is pretty sweet for them. It's pretty sweet. For us, we know it's not rich. 80k is not what it was 20 years ago.
 
-**Jerod Santo:** \[00:59:08.08\] That's right.
+**Jerod Santo:** \[59:08\] That's right.
 
 **Cameron Seay:** I used to tell people, I was making six figures when six figures were real money. It ain't real money anymore. But yeah, and that's why I went into this also, Adam - when I went into mainframe, not into teaching. I was at North Carolina Central University in January of 2005. I will never forget. And IBM came there and made a presentation about mainframe. Now, I had been in IT, I knew what a mainframe was, but I had never worked on one. I didn't know anything about it. But I said "Man, this is something my students could use", because we were having trouble getting interviews, because people just don't like to hire from \[unintelligible 00:59:39.15\] a lot of superstars. So it's been nothing wrong with my students, but I don't know what the drawback is. But we needed something, and I said "This is it." And I've taught this at four \[unintelligible 00:59:53.25\] and it's always been the same way. If you get through this course and you understand, you will get a job. That's just the way it is.
 
