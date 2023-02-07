@@ -16,7 +16,7 @@
 
 **Jerod Santo:** Okay.
 
-**Cameron Seay:** That was based on some projections that I had four sections planned, only three of them materialized, so I actually have 75 students. My colleague, Geoffrey Decker, who's a good friend of mine, he asked 88 in Northern Illinois, so he's got the title this year. But I wanna keep the record straight; I don't wanna \[unintelligible 00:04:04.14\] but I'm very happy to have 75. And usually I have over 100, so that's not an unrealistic number. And that's a lot in the U.S.
+**Cameron Seay:** That was based on some projections that I had four sections planned, only three of them materialized, so I actually have 75 students. My colleague, Geoffrey Decker, who's a good friend of mine, he asked 88 in Northern Illinois, so he's got the title this year. But I wanna keep the record straight; I don't want em' claiming-- but I'm very happy to have 75. And usually I have over 100, so that's not an unrealistic number. And that's a lot in the U.S.
 
 **Adam Stacoviak:** Well, either way, a contention for the title is enough for me. I feel like mainframes will be the last thing on the list to try to contend for a title.
 
@@ -42,7 +42,7 @@ Now, with the advent of the PC and the kind of elimination of a lot of those com
 
 So yeah, those machines are -- they're new; those machines are being stood up now. But the thing is that there is this existing suite of applications. What most people don't know is that probably 90% of business transactions globally go through a mainframe. Somewhere, they go through a mainframe. 90%, 95% of all credit card transactions globally go through a mainframe. It is the core and the foundation of the global economy. That's just a fact. And most of those programs are in COBOL. And that's not gonna change any time soon.
 
-So these companies have to -- when you use the term "legacy", yes, it's legacy, but it's actually the core applications of their businesses. You're talking about Bank of America, you're talking about Wells Fargo, you're talking about a Home Depot etc. If a company runs a mainframe, the mainframe applications are the core of the company's business, because the company is using the mainframe because it has to. The nature \[unintelligible 00:08:16.29\] use a mainframe.
+So these companies have to -- when you use the term "legacy", yes, it's legacy, but it's actually the core applications of their businesses. You're talking about Bank of America, you're talking about Wells Fargo, you're talking about a Home Depot etc. If a company runs a mainframe, the mainframe applications are the core of the company's business, because the company is using the mainframe because it has to. The nature is insistant you use a mainframe.
 
 So those applications on the mainframe are the mission-critical applications of the business. That's a true statement, and most people don't know that.
 
@@ -96,7 +96,7 @@ DB2, the database, is a subsystem. I don't know if I used the term subsystem, bu
 
 **Adam Stacoviak:** So how is the mainframe world then different or the same as high-performance computing? HPC seems very similar in terms of like availability, and time sharing, and cost... And even form factor, in terms of like being the size of a rack. They're very similar based on the description.
 
-**Cameron Seay:** Yeah. That's a common thinking, that there's some synonimity between mainframes and a supercomputer. But they do different things. What a supercomputer does - it takes problems down and then breaks them into digestible pieces that it can work in parallel. A mainframe doesn't do that. A mainframe runs on a single thread or a few threads. So parallel is gonna use as many threads as it needs to get the job done, and the \[unintelligible 00:16:28.01\] So you put the pieces together on the other end, but they don't necessarily have to be in sequence. I mean, if you're doing some type of imaging, they don't have to be in sequence until they get to the destination. Then you can assemble them. But with a mainframe, you have to do everything in sequence. So they have different workloads. Their intentions are different.
+**Cameron Seay:** Yeah. That's a common thinking, that there's some synonimity between mainframes and a supercomputer. But they do different things. What a supercomputer does - it takes problems down and then breaks them into digestible pieces that it can work in parallel. A mainframe doesn't do that. A mainframe runs on a single thread or a few threads. So parallel is gonna use as many threads as it needs to get the job done, and the scheduling is done on the backplane. So you put the pieces together on the other end, but they don't necessarily have to be in sequence. I mean, if you're doing some type of imaging, they don't have to be in sequence until they get to the destination. Then you can assemble them. But with a mainframe, you have to do everything in sequence. So they have different workloads. Their intentions are different.
 
 **Jerod Santo:** So ballpark for us... We say it's very expensive. Ballpark for us what it would cost today for IBM's latest mainframe, to acquire and operate one of those for a year. Are we talking hundreds of thousands, millions, 50 bucks? What's the ballpark?
 
@@ -116,7 +116,7 @@ From a software side, what's interesting to me is - like, you have 75 students t
 
 **Jerod Santo:** Right.
 
-**Cameron Seay:** There's 17 campuses in the UNC system, ECU is the only school teaching COBOL. And my colleague, Geoffrey Decker, who has more students \[unintelligible 00:20:13.18\] Other than him, there's just a few of us. I don't know anybody teaching COBOL. I don't know anybody teaching it.
+**Cameron Seay:** There's 17 campuses in the UNC system, ECU is the only school teaching COBOL. And my colleague, Geoffrey Decker, who has more students -- I'm going to say he has more students than I do. Other than him, there's just a few of us. I don't know anybody teaching COBOL. I don't know anybody teaching it.
 
 **Jerod Santo:** Yeah. I don't know anybody learning it, until speaking with you and seeing your students. So is COBOL the only player in the game though? Are there other ways of communicating with mainframes that isn't learning COBOL? Can we have like a translation layer between JavaScript and mainframes, or something that everybody else is learning already?
 
@@ -172,7 +172,7 @@ And by the way, just so you know... You guys don't know this, but by far -- both
 
 **Adam Stacoviak:** Well, I asked that question earlier about how do you interface with the mainframe itself to consider maybe AWS mainframe being a thing at some point. I mean, AWS loves to compete with everybody, and eat everybody's lunches, so I've gotta imagine at some point they will just give out some sort of interface to a developer, or to a team.
 
-**Cameron Seay:** Oh, wait a minute, I didn't wanna imply -- I mean, AWS is involved with several hybrid solutions involving a mainframe. It's just not a textbook solution. It's just not the standard. A good friend of mine was a senior vice-president at AWS \[unintelligible 00:33:41.26\] They're not jokers. Those guys are great. So they are working on a solution where people can -- and AWS is not trying to do what the mainframe does, but they're trying to provide pipes. This thing is not necessarily about what you're running on, it's about where it's running. Is it on-prem? Is it remote? How secure is it? How reliable is it?
+**Cameron Seay:** Oh, wait a minute, I didn't wanna imply -- I mean, AWS is involved with several hybrid solutions involving a mainframe. It's just not a textbook solution. It's just not the standard. A good friend of mine was a senior vice-president at AWS \[unintelligible 00:33:41.26\] She said,"Those guys are great, they're not jokers." Those guys are great. So they are working on a solution where people can -- and AWS is not trying to do what the mainframe does, but they're trying to provide pipes. This thing is not necessarily about what you're running on, it's about where it's running. Is it on-prem? Is it remote? How secure is it? How reliable is it?
 
 So yeah, I do see people coming up -- it's not that AWS is not in the game, or Azure is not in the game. They're not Johnny Come Latelies; they're working on this stuff, and they might find something that takes the mainframe out. I don't see it, but it could happen. That's why I don't say never.
 
@@ -230,7 +230,7 @@ The object model - people ask "Why don't you rewrite everything in Java?" Well, 
 
 **Jerod Santo:** Well, thank you.
 
-**Cameron Seay:** I'm very impressed with the nature of the questions. I see Adam shaking his head... Dude, don't \[unintelligible 00:41:34.05\]
+**Cameron Seay:** I'm very impressed with the nature of the questions. I see Adam shaking his head... Dude, don't blow smoke up my butt.
 
 **Adam Stacoviak:** I love it.
 
@@ -238,9 +238,9 @@ The object model - people ask "Why don't you rewrite everything in Java?" Well, 
 
 **Adam Stacoviak:** It's like three times this time, Cam. You're like our best friend now, man. You're invited back every week.
 
-**Cameron Seay:** Yeah. \[unintelligible 00:41:42.17\] somebody's programs have been around for 30 years, and they've not been static for 30 years. We've changed some business rules, changed the program. The logic of the business is intertwined in the code, right? It's intertwined in the code. And you're absolutely right, there's only a handful of people. That's my concern now, is I wanna produce a managerial class that understands this stuff. And look, I'm not emotionally attached to the mainframe. I've had a great career because of it, I'm pretty well known because of it... But if it goes away tomorrow, if it's replaced by something better, I'm good with that. I just don't want it replaced with something that's not better.
+**Cameron Seay:** Yeah. \[unintelligible 00:41:42.17\] see that code, some of these programs have been around for 30 years, and they've not been static for 30 years. We've changed some business rules, changed the program. The logic of the business is intertwined in the code, right? It's intertwined in the code. And you're absolutely right, there's only a handful of people. That's my concern now, is I wanna produce a managerial class that understands this stuff. And look, I'm not emotionally attached to the mainframe. I've had a great career because of it, I'm pretty well known because of it... But if it goes away tomorrow, if it's replaced by something better, I'm good with that. I just don't want it replaced with something that's not better.
 
-So we need to retain \[unintelligible 00:42:24.18\] Because the transition may not be from one generation of mainframe to another; it may be from one generation of mainframe to something else. But that business logic has to be incorporated into that transition, or it's going to be very messy, and very ugly.
+So we need to retain this institution, and see what a graceful tranfer looks like. Because the transition may not be from one generation of mainframe to another; it may be from one generation of mainframe to something else. But that business logic has to be incorporated into that transition, or it's going to be very messy, and very ugly.
 
 **Adam Stacoviak:** So how then do you attract developers into this world then? What is some of your personal mission and what do you think could be the mission of others to bring more folks into this fold?
 
@@ -268,7 +268,7 @@ I had a woman who had a degree in social work. She had never written a line of c
 
 **Jerod Santo:** You said you wanna train a managerial class... What exactly do you mean by that, and then what's your strategy to train the managers?
 
-**Cameron Seay:** That's a good question, Jerod. I don't have a strategy to do that, because of the nature of the courses that I teach. Now, I used to teach a graduate-level course in mainframe at A&T, and the \[unintelligible 00:46:44.05\] was a little different. We looked at case studies, we looked at strategy, we looked at other things other than just getting the skills.
+**Cameron Seay:** That's a good question, Jerod. I don't have a strategy to do that, because of the nature of the courses that I teach. Now, I used to teach a graduate-level course in mainframe at A&T, and the focus was a little different. We looked at case studies, we looked at strategy, we looked at other things other than just getting the skills.
 
 For this undergraduate course I just needed them to build some simple chops in the space. So I'm not gonna get into the managerial conversation, but it's gonna be part of -- and to answer your question, I don't really know how I'm gonna do that now; I do know that some of the students, a certain portion of them are moving into management... So that's what I want to happen, because as they ascend up the ladder, then they take this understanding with them. But how I'm gonna do that from my chair right now, when I don't teach graduate courses, I don't know; I don't have an answer. I want to. But if I teach a graduate course, that's perspective -- I'd take a strategic perspective when I teach a graduate course.
 
@@ -312,7 +312,7 @@ But I don't know, I mean -- there's another one of me, Herb Daly, a Brit in the 
 
 So is there a world where I get skilled enough, or a business can be propped up where I buy a bunch of these mainframes and I host them for people? Is there any other business opportunities around the mainframe that isn't IBM selling the mainframe, or me being an IC in the world?
 
-**Cameron Seay:** What are you talking about? Are you talking about a small universe? That is a very small universe. But I know a couple of \[unintelligible 00:51:22.21\] that figured out exactly what you said, years ago. There's this one guy, Sunny Gupta. Sunny does this stuff globally. He buys old Z9s; now, it may be a newer machine now, but Z now is like an old machine, back in the day. This is an old machine. But a mainframe is still a mainframe. So he does hosting, he does training, and he'll charge you $500 to use his machine. And it's not costing him anything, because Z9 is just a glorified electronic \[unintelligible 00:51:51.02\] A Z9 has no commercial value whatsoever. But he's making money on it.
+**Cameron Seay:** What are you talking about? Are you talking about a small universe? That is a very small universe. But I know a couple of \[unintelligible 00:51:22.21\] that figured out exactly what you said, years ago. There's this one guy, Sunny Gupta. Sunny does this stuff globally. He buys old Z9s; now, it may be a newer machine now, but Z now is like an old machine, back in the day. This is an old machine. But a mainframe is still a mainframe. So he does hosting, he does training, and he'll charge you $500 to use his machine. And it's not costing him anything, because Z9 is just a glorified electronic paperweight, A Z9 has no commercial value whatsoever. But he's making money on it.
 
 Another guy, my friend Barton Robinson, he buys his own machines and he runs kind of hosting services on them.
 
@@ -332,7 +332,7 @@ The business model is very intricate, and it's a lot of nuance to it, and a lot 
 
 **Jerod Santo:** What does it look like to get into this industry? I'm going back to the indie dev, the person who's like "You know what? I'm gonna take this up." Do you have to move to Carolina and take your course? Do you have to be in a city where these large orgs are, like Bank of America, like where the headquarters are? Is there remote work? Are there trainings online? How accessible is it to get in, and what would my steps be if I wanted to get in?
 
-**Cameron Seay:** So the last - there are three women that I know, none of them \[unintelligible 00:53:51.06\] and they all came in the backdoor, and they all came in different ways. Self-study is a lot of it; there's a lot of self-study. You might try to get picked up with an apprenticeship. The apprenticeship model is pretty hot, because you come in at like 60%, 70% of the salary, but you have benefits from day one... And it's almost like guaranteed. Unless you step on it, you are gonna get hired. So I see that model.
+**Cameron Seay:** So the last - there are three women that I know, none of them were--are degreed and they all came in the backdoor, and they all came in different ways. Self-study is a lot of it; there's a lot of self-study. You might try to get picked up with an apprenticeship. The apprenticeship model is pretty hot, because you come in at like 60%, 70% of the salary, but you have benefits from day one... And it's almost like guaranteed. Unless you step on it, you are gonna get hired. So I see that model.
 
 But to get prepared for it, self-study. You can do self-study. You're gonna need mentoring. It is best -- you're best off if you can take one of my classes, so you have somebody like me to walk you through this space, introduce you to this space for a semester. But I'm not necessary. There's a whole lot of people that get started in this game without me. I'm meeting them after they get into the game. I've met these ladies after they were already set up. So there's ways to do it, but it's gonna take some tenacity.
 
@@ -388,7 +388,7 @@ So that program is to get the mentors, but they're going to be working with ment
 
 **Jerod Santo:** \[59:08\] That's right.
 
-**Cameron Seay:** I used to tell people, I was making six figures when six figures were real money. It ain't real money anymore. But yeah, and that's why I went into this also, Adam - when I went into mainframe, not into teaching. I was at North Carolina Central University in January of 2005. I will never forget. And IBM came there and made a presentation about mainframe. Now, I had been in IT, I knew what a mainframe was, but I had never worked on one. I didn't know anything about it. But I said "Man, this is something my students could use", because we were having trouble getting interviews, because people just don't like to hire from \[unintelligible 00:59:39.15\] a lot of superstars. So it's been nothing wrong with my students, but I don't know what the drawback is. But we needed something, and I said "This is it." And I've taught this at four \[unintelligible 00:59:53.25\] and it's always been the same way. If you get through this course and you understand, you will get a job. That's just the way it is.
+**Cameron Seay:** I used to tell people, I was making six figures when six figures were real money. It ain't real money anymore. But yeah, and that's why I went into this also, Adam - when I went into mainframe, not into teaching. I was at North Carolina Central University in January of 2005. I will never forget. And IBM came there and made a presentation about mainframe. Now, I had been in IT, I knew what a mainframe was, but I had never worked on one. I didn't know anything about it. But I said "Man, this is something my students could use", because we were having trouble getting interviews, because people just don't like to hire from HBCUs, I don't know what is, but they don't like to hire from HBCUs. Every HBCU I've been at has had a lot of superstars. So it's been nothing wrong with my students, but I don't know what the drawback is. But we needed something, and I said "This is it." And I've taught this at four HBCUs and it's always been the same way. If you get through this course and you understand, you will get a job. That's just the way it is.
 
 I've seen kids -- this has changed lives. Some of these kids, when they get this job, they make more money than anybody in their family has ever made, than they'd ever thought about making.
 
