@@ -16,7 +16,7 @@ We talked a couple years ago, it's like "Oh, we're at peak Postgres maybe." It's
 
 **Craig Kerstiens:** RDS didn't even exist back then, right? So it wasn't like "Oh--" If RDS had existed, we would have just wrapped that, and given customers that. But it didn't exist, and we had all these Rails developers asking for a database, and thought "How hard could this be?" It turns out it was a lot more work than we expected. But it was a pretty inconsequential "Yeah, it has a good track record with security. It doesn't corrupt data. Alright, let's go with it."
 
-**Adam Stacoviak:** How do you think Heroky had an impact on Postgres over time though? I know that the team got more formalized \[unintelligible 00:05:26.05\] I know a lot of your career was built on Postgres and Heroku then... What do you think Heroku did for Postgres, just as much as Postgres did for Heroku?
+**Adam Stacoviak:** How do you think Heroku had an impact on Postgres over time though? I know that the team got more formalized \[unintelligible 00:05:26.05\] I know a lot of your career was built on Postgres and Heroku then... What do you think Heroku did for Postgres, just as much as Postgres did for Heroku?
 
 **Craig Kerstiens:** I mean, I had the email somewhere from the team of RDS saying "You're the reason we shipped --" Like, we kept getting requests from RDS customers for Postgres. Heroku was the reason RDS added support. And it was a couple of years after they wanted -- I mean, I don't know if I can dig that email up... I don't know that it's public to share, but you know... I think Heroku helped put it on the map, and then once there was RDS, it just cascaded. I mean, you two have used Heroku...
 
@@ -36,7 +36,7 @@ Back in Heroku days we also did a lot of investment on the JSON stuff, and JSONB
 
 **Adam Stacoviak:** For those that don't go and read the PDF book you'd mentioned earlier, the origins of - what's the origin story of Postgres? How did it become, what was the landscape around that time? Can you recall?
 
-**Craig Kerstiens:** Man, I've gotta see how accurate I can get it. Postgres - its name is Post Ingress. Ingress was one of the first two databases way back. So if you look at all major databases, they're one of two roots. SQL Server - I forget if SQL Server has a base of "Hey, this came from that Postgress/Ingress roots." I think so. I think SQL Server has an Ingress base. Oracle does not. But it's kind of like, you look at major databases and they're one of two roots. \[unintelligible 00:08:58.22\] I believe was Ingress-based.
+**Craig Kerstiens:** Man, I've gotta see how accurate I can get it. Postgres - its name is Post Ingress. Ingress was one of the first two databases way back. So if you look at all major databases, they're one of two roots. SQL Server - I forget if SQL Server has a base of "Hey, this came from that Postgress/Ingress roots." I think so. I think SQL Server has an Ingress base. Oracle does not. But it's kind of like, you look at major databases and they're one of two roots. TB2 I believe was Ingress-based.
 
 So its name came from Post Ingress. At the time when it was first released, it didn't have SQL support. That got added back a few years, and it was this big deal, and they changed the name to PostgreSQL, which is now still lamented as one of the worst decisions they've ever made, because no one knows how to pronounce it or spell it. It's like, how do you capitalize the SQL as in PostgreSQL? I joke with the community developers, "I'm just gonna call it Postgray until they change the name." And it drives people crazy, but I keep trying, to see if it'll take off.
 
@@ -116,13 +116,13 @@ So that's great... Then Postgres kind of continued to rise, and when you look at
 
 \[18:09\] I have conversations with people every week where they're like "Well, they told me it was Postgres-compatible, and I migrated to it, and six months in I tried to do this thing, and they're like "Well, no, that's in Postgres." Well, what does compatibility mean then?
 
-So I think we pushed these boundaries on like "Hey, here's this shiny special thing", and it stalled us out a little bit. They're like "Oh, now Postgres --" You know, "Hey, I wanna take this \[unintelligible 00:18:33.21\] and that's what it is. And there was kind of this -- it feels to me that there's this regression back to just Postgres, and "Actually, I just want this thing that is truly open source, that I know what it is."
+So I think we pushed these boundaries on like "Hey, here's this shiny special thing", and it stalled us out a little bit. They're like "Oh, now Postgres --" You know, "Hey, I wanna take this \[unintelligible 00:18:33.21\] proprietary and that's what it is. And there was kind of this -- it feels to me that there's this regression back to just Postgres, and "Actually, I just want this thing that is truly open source, that I know what it is."
 
 No one's running a Ruby on Rails massive fork that some consultancy has shipped for a 3x performance improvement, right? Like, why did we do that with databases?
 
 So now we're seeing these things that were closed source and proprietary - companies start to take a shot of creating open source versions of it. You look at Planet Scale, it's essentially Vitess. You look at Neon, it is an open source version of Aurora. And those type of things take 5 to 10 things to mature. Like, a database that's well-regarded as a database typically takes ten years to mature. Starting off with a Postgres base, you cut that in half. That's why most people started a data warehouse thing off that Postgres format.
 
-So I think we had a data warehousing phase - like, it was Greenplum, Astrodata and Netezza, and then it's like "Man, this is expensive. This takes five years to build a business and a company. We don't wanna do that. We can go and do a food delivery service in six months, and that's a lot easier." But then we had a \[unintelligible 00:19:50.18\] So I think people are taking another shot.
+So I think we had a data warehousing phase - like, it was Greenplum, Astrodata and Netezza, and then it's like "Man, this is expensive. This takes five years to build a business and a company. We don't wanna do that. We can go and do a food delivery service in six months, and that's a lot easier." But then we had a drought of them. So I think people are taking another shot.
 
 I guess I'm the old curmudgeon, I'm just like "Just Postgres." Guess what - it's really good, and it just works... And I don't know a lot of people doing that. I see people now coming back to extending Postgres, and I think we're gonna have exciting things come out of it. But I think for every five we have, one or two survive. You don't have to look at the long-term picture view to see that.
 
@@ -164,7 +164,7 @@ Changing the storage layer is a large effort. That's a non-trivial effort. An ex
 
 **Craig Kerstiens:** Someone looked at the spec and was like "Ha-ha, that's funny."
 
-**Jerod Santo:** Well, I actually penned a post years ago, after years and years of trying to do the best regex to get all email to have every edge case accounted for... And my post was, "There's only one way to validate an email address, and the way to do it is you send them an email, and you make them click on a thing." Because there's no actual other way. I mean, it's just darn near impossible. It's like \[unintelligible 00:28:47.09\] I don't know. It's ridiculous.
+**Jerod Santo:** Well, I actually penned a post years ago, after years and years of trying to do the best regex to get all email to have every edge case accounted for... And my post was, "There's only one way to validate an email address, and the way to do it is you send them an email, and you make them click on a thing." Because there's no actual other way. I mean, it's just darn near impossible. It's like \[unintelligible 00:28:47.09\] NP-Hard I don't know. It's ridiculous.
 
 **Craig Kerstiens:** Yeah... It was funny, because logically, in my simple brain, this makes sense, and then it's like, you start to drill into how it actually works... So foreign data wrappers are an interesting one. They're kind of a type of extension, but a special class that lets you connect from Postgres to something else.
 
@@ -178,7 +178,7 @@ So I think that's a little bit of a framework of -- and I love the small ones. W
 
 **Adam Stacoviak:** Yeah. It's interesting.
 
-**Jerod Santo:** Yeah, I've always used like the \[unintelligible 00:31:11.13\] small ones. I think the most, I would guess, lines of code sized extension I've ever used was the PostGIS, where it's adding the geospatial queries... And it worked as advertised; it ended up being a maintenance burden when it came to like upgrading Postgres and data stuff. I ran into troubles, because I'm very much not a DBA. I'm an application developer who does what he needs to do to keep the site running, and make the queries fast. That one was -- it got to be where it was more work than I think was worth it, just because of my lack of touch. I don't want to necessarily harp on the devs of that particular -- I think it's a pretty popular extension, isn't it? The GIS stuff?
+**Jerod Santo:** Yeah, I've always used like the minus small ones. I think the most, I would guess, lines of code sized extension I've ever used was the PostGIS, where it's adding the geospatial queries... And it worked as advertised; it ended up being a maintenance burden when it came to like upgrading Postgres and data stuff. I ran into troubles, because I'm very much not a DBA. I'm an application developer who does what he needs to do to keep the site running, and make the queries fast. That one was -- it got to be where it was more work than I think was worth it, just because of my lack of touch. I don't want to necessarily harp on the devs of that particular -- I think it's a pretty popular extension, isn't it? The GIS stuff?
 
 **Craig Kerstiens:** Massive. It's --
 
@@ -202,7 +202,7 @@ So I think that's a little bit of a framework of -- and I love the small ones. W
 
 **Craig Kerstiens:** Yeah, I can have some drinks with Nikita and we can debate how stock-ish or not...
 
-**Adam Stacoviak:** \[unintelligible 00:34:46.01\]
+**Adam Stacoviak:** So let me ask this question so--
 
 **Craig Kerstiens:** They have some core developers and they are working --
 
@@ -250,7 +250,7 @@ I can dig up, there's a couple presentations that were given, that we could link
 
 **Jerod Santo:** Is that like written into the rules there? Do they say that's the case?
 
-**Craig Kerstiens:** I believe that is -- you know, I don't know if it's in the core. I don't know if I've read the core \[unintelligible 00:42:07.19\] but it is at least a very unspoken rule. So when one recent acquisition happened, the core team grew from seven to nine to add two new people.
+**Craig Kerstiens:** I believe that is -- you know, I don't know if it's in the core. I don't know if I've read the core bylaws but it is at least a very unspoken rule. So when one recent acquisition happened, the core team grew from seven to nine to add two new people.
 
 **Jerod Santo:** I see.
 
@@ -356,7 +356,7 @@ So at the core, you want a database to just work and not lose your data, and Pos
 
 **Craig Kerstiens:** I think more the latter, and I would say Postgres probably does better with all that shiny stuff than people realize. I've got a customer that looked at -- like, they were on Heroku and thinking, "Okay, I'm thinking about what I'd do after Heroku", and ran this app that benchmarked on all these providers... And I'll send the link, so that we can post it in the show notes... Like, this is their benchmark. And Crunchy has like geo-replicas today, and connected their fly.io app, which - Fly is all about "Run the app on the edge, everywhere." And this is vanilla Postgres. There is no special proprietary anything. Vanilla Postgres, just running geo-replicas... Like, we're faster than Fly-native things.
 
-So \[unintelligible 00:55:07.03\] over there, like "You want managed Postgres? Run on Crunchy Bridge." And guess what - Postgres is really good. And it doesn't get talked about, because it is boring and stodgy, and not shiny, new "We did this advanced thing." But guess what? Vanilla Postgres, geo-replicated - really fast, and works really well. I was kind of surprised. I was surprised that \[unintelligible 00:55:27.26\] Fly-native ones. Like, "Wait, huh? How are we faster than Fly, when we're not even on Fly?" This is an AWS instance, geo-replicated, and AWS or Azure or GCP, not on Fly hardware, and it's actually better performance latency time.
+So \[unintelligible 00:55:07.03\] over there, like "You want managed Postgres? Run on Crunchy Bridge." And guess what - Postgres is really good. And it doesn't get talked about, because it is boring and stodgy, and not shiny, new "We did this advanced thing." But guess what? Vanilla Postgres, geo-replicated - really fast, and works really well. I was kind of surprised. I was surprised that we beat Fly-native ones. Like, "Wait, huh? How are we faster than Fly, when we're not even on Fly?" This is an AWS instance, geo-replicated, and AWS or Azure or GCP, not on Fly hardware, and it's actually better performance latency time.
 
 **Jerod Santo:** Well, that's cool...
 
@@ -390,7 +390,7 @@ We actually found this person - I think enough time has elapsed now - their Git 
 
 **Adam Stacoviak:** It's true. Good one, Jerod.
 
-**Craig Kerstiens:** That or \[unintelligible 01:00:17.25\] I don't know which.
+**Craig Kerstiens:** That or broke some kneecaps I don't know which.
 
 **Jerod Santo:** I was gonna say, he woke up with a horse head in his bed or something, right?
 
@@ -470,7 +470,7 @@ I don't know if you guys saw, we shipped Postgres in the browser, but it's a who
 
 **Jerod Santo:** "Yeah, I don't really like that guy..."
 
-**Craig Kerstiens:** \[unintelligible 01:09:00.26\]
+**Craig Kerstiens:** I met him ten years ago an--
 
 **Jerod Santo:** "He's got a terrible barbecue."
 
