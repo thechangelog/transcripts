@@ -236,7 +236,7 @@ Yeah, the AI coding world is a little bit conflicting these days. Some people li
 
 **Natalie Pistunovich:** So your unpopular opinion is that this greenfield is not a thing, almost ever.
 
-**Ole Bulbuk:** It is kind of a thing, and it's possible, but almost nobody achieves it. It's a technical possibility that some people have given up \[unintelligible 00:40:35.16\] and others say "Yeah, we might do this next year", and others don't have an idea where to look for it, even when they have the feeling that it could be a lot better. I think this is the first step that you need to know what you want to achieve. You want to have everything cleaner? Okay. And you can have clean code, which is a lot about details... But there's still something missing, even if you have everything technically according to the Clean Code book.
+**Ole Bulbuk:** It is kind of a thing, and it's possible, but almost nobody achieves it. It's a technical possibility that some people have given up to strive for and others say "Yeah, we might do this next year", and others don't have an idea where to look for it, even when they have the feeling that it could be a lot better. I think this is the first step that you need to know what you want to achieve. You want to have everything cleaner? Okay. And you can have clean code, which is a lot about details... But there's still something missing, even if you have everything technically according to the Clean Code book.
 
 **Natalie Pistunovich:** So if you have to put that into a tweet, how would you phrase it?
 
