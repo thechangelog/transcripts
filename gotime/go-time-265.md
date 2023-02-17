@@ -58,7 +58,7 @@
 
 **Johnny Boursiquot:** I'm Johnny. I'm Golang Johnny. Don't you know?
 
-**Angelica Hill:** Oh, okay... No, I'm sorry \[unintelligible 00:04:23.21\]
+**Angelica Hill:** Oh, okay... No, I'm sorry, I must just be out of sync.
 
 **Johnny Boursiquot:** Let me see... I've been involved in submitting, reviewing, organizing conferences since 2013. And I know that because I went looking at my archive, like "When was the first thing I was involved in?" It was like in 2013. So yeah, the better part of 10 years; I guess this is a 10th year I'll be involved in some capacity with all things conferences, and talks, and creating programs for conferences, and things... So yeah, I've seen quite a bit of proposals in my day, I've written a few of myself, and given talks, and seen talks that I've helped select, you know, go on stage, and everything... So yeah, basically, I've seen it from all the angles, I guess.
 
@@ -144,7 +144,7 @@ New people coming in, or experts, they would be able to follow it and get someth
 
 Yeah, and I really liked it, and one insight from me also from your feedback is that structuring your talk really helps me in thinking about "Can I deliver a talk in the timeframe?" And also, it seems that it helped you to make an assumption about it.
 
-And one thing I realized sitting in review committees also really helped me - writing it down, because I knew what I as a reviewer want to see in a proposal, and so I could draft it easily to have at least the for me important aspects included. And the proposal we are talking about was actually my GopherCon EU talk last year, which was also my first in-person conference talk in the Go community... So I think it's really one of my favorite ones, of the few. \[unintelligible 00:12:49.28\] because the conference was really cool. And also it was the first talk I really enjoyed more or less completely.
+And one thing I realized sitting in review committees also really helped me - writing it down, because I knew what I as a reviewer want to see in a proposal, and so I could draft it easily to have at least the for me important aspects included. And the proposal we are talking about was actually my GopherCon EU talk last year, which was also my first in-person conference talk in the Go community... So I think it's really one of my favorite ones, of the few. \[unintelligible 00:12:49.28\] submission because the conference was really cool. And also it was the first talk I really enjoyed more or less completely.
 
 **Natalie Pistunovich:** We'll add the link to that in the show notes, if you can share what was the name, or what was it about. Or if you want to tell us in a second... In two words...
 
@@ -182,7 +182,7 @@ I have friends who hate this. So our friend Rona, for example, she was like crit
 
 **Johnny Boursiquot:** In a world of bits and bytes... \[laughs\]
 
-**Natalie Pistunovich:** As you were saying this structure of what you would do there, it reminded me the recommendation of how to introduce yourself - always follow the Inigo Montoya. Say "Hello." Say something nice. "My name is..." Introduce yourself. "You killed my father." That's the relation, or that's what happens, or that's kind of the problem. "Prepare to die. Let's go on \[unintelligible 00:24:53.06\] adventure." This thing goes everywhere. It's such an amazing, short, four-lines meme to remember.
+**Natalie Pistunovich:** As you were saying this structure of what you would do there, it reminded me the recommendation of how to introduce yourself - always follow the Inigo Montoya. Say "Hello." Say something nice. "My name is..." Introduce yourself. "You killed my father." That's the relation, or that's what happens, or that's kind of the problem. "Prepare to die." Let's go on that ticket adventure. This thing goes everywhere. It's such an amazing, short, four-lines meme to remember.
 
 **Johnny Boursiquot:** And for those who didn't get the reference, look up Princess Bride. \[laughs\]
 
@@ -198,7 +198,7 @@ I think a lot of people - they get too much into poetry when it comes to writing
 
 So if your writing skills are terrible, just give me a really interesting problem. I don't care if you're really bad at writing that problem down, but just give me an interesting problem. A problem I haven't seen before, or a situation... Like, maybe it's a silly problem that everybody faces it, but you're facing that problem in a very unique situation. That makes it interesting. So it's always the story. And the first thing Johnny said 10 minutes ago was "Well, it starts with a story." And yes, it's always the story.
 
-**Angelica Hill:** So I would agree that the story is definitely like first and foremost, but I would say do check your proposal for like spelling issues \[unintelligible 00:29:00.20\] grammar. It doesn't have to be poetry, it does not have to be incredibly beautifully written... But do do the due diligence to check for typos. Check that if you've referenced a certain technology, you've spelled it right. Because although it's definitely not the most important part, if as a reviewer you see a proposal that's riddled with typos, riddled with spelling mistakes, it doesn't instill confidence that you're going to be able to have like a slide deck that doesn't have typos, and misprints, and all this kind of thing. So I think yes, absolutely, story is first, but do take that second, when you're happy with the story, when you feel confident, when you're excited, ready to submit, stop for a moment, reread it and just do that once over, to make sure that -- it doesn't have to be beautifully written, but it needs to be understandable, so that those reading it will understand that story that you're trying to get across.
+**Angelica Hill:** So I would agree that the story is definitely like first and foremost, but I would say do check your proposal for like spelling issues, slight grammar. It doesn't have to be poetry, it does not have to be incredibly beautifully written... But do do the due diligence to check for typos. Check that if you've referenced a certain technology, you've spelled it right. Because although it's definitely not the most important part, if as a reviewer you see a proposal that's riddled with typos, riddled with spelling mistakes, it doesn't instill confidence that you're going to be able to have like a slide deck that doesn't have typos, and misprints, and all this kind of thing. So I think yes, absolutely, story is first, but do take that second, when you're happy with the story, when you feel confident, when you're excited, ready to submit, stop for a moment, reread it and just do that once over, to make sure that -- it doesn't have to be beautifully written, but it needs to be understandable, so that those reading it will understand that story that you're trying to get across.
 
 **V Körbes:** Just rephrase what I said... What I'm saying is don't rewrite the same sentence 20 times. We don't need that. But yes, you should write properly.
 
@@ -278,7 +278,7 @@ So don't be trying to mute yourself, or being like "Oh, I've seen people do talk
 
 **Natalie Pistunovich:** Anna, do you have any last tip?
 
-**Anna-Katharina Wickert:** Any last tip... I'd say for slides - slides are, in my opinion, only there to support what you're saying, all the things we've mentioned before - being authentic, and everything, is more important than having perfectly over-revised slides up there. And for me, being aware of that helped me focusing more on practicing what I want to say than revising slides. And also on slides - for me, that also helps me to make bullet points. One slide, one key message. When I \[unintelligible 00:48:08.00\] talk the first time, I only have one key message per slide, and I'm trying it, and I have to restructure it multiple times probably, but I haven't invested time on slides; I only invest times on speaking. And that's the one thing which probably motivates or delivers the message better than my slides, in the end. And I'm not saying that your slides shouldn't look good, or supported, but prioritize on what you want to say, and going step by step.
+**Anna-Katharina Wickert:** Any last tip... I'd say for slides - slides are, in my opinion, only there to support what you're saying, all the things we've mentioned before - being authentic, and everything, is more important than having perfectly over-revised slides up there. And for me, being aware of that helped me focusing more on practicing what I want to say than revising slides. And also on slides - for me, that also helps me to make bullet points. One slide, one key message. When I try the talk the first time, I only have one key message per slide, and I'm trying it, and I have to restructure it multiple times probably, but I haven't invested time on slides; I only invest times on speaking. And that's the one thing which probably motivates or delivers the message better than my slides, in the end. And I'm not saying that your slides shouldn't look good, or supported, but prioritize on what you want to say, and going step by step.
 
 **Natalie Pistunovich:** I will share something that I'm using quite a lot... I think it's from Dave Cheney. Know the first and the last sentences of your talk.
 
@@ -392,7 +392,7 @@ But at the same time, if you look at Brazil, for example, there was this big pol
 
 So I think Johnny's right, and there's like basic economics advice that is given fairly widely. So you need an emergency fund; assume you're going to be fired at all times. "Oh, but I live in Europe. I'm never gonna get fired." Have an emergency fund anyway; maybe not that big, but have an emergency fund. That emergency fund needs to cover all your expenses for X number of months, depending on your risk profile. You need that. "Oh, I'm expecting my bonus. I'm gonna pay my credit card debt with the bonus at the end of the year." Maybe you're gonna get fired the day before you get the bonus. So don't count on the bonus before it hits your bank account.
 
-**Johnny Boursiquot:** \[unintelligible 01:02:05.18\]
+**Johnny Boursiquot:** Get it.
 
 **V Körbes:** So it's like, aim for the utopia, but plan for the dystopia. You need to be conservative when it comes to your finances. Even if you think you have rights, and if you are in a union etc. you need to have some planning as an individual, because you often can't count on the collective to help you.
 
@@ -437,7 +437,7 @@ So I think Johnny's right, and there's like basic economics advice that is given
 
 **Natalie Pistunovich:** Classes are hard. I'm there with you.
 
-**Anna-Katharina Wickert:** But the advantage of online classes is there's nobody except the people in your flat, where you breathe, which can be \[unintelligible 01:05:33.28\] in this situation...
+**Anna-Katharina Wickert:** But the advantage of online classes is there's nobody except the people in your flat, where you breathe, which can be good I think, in this situation...
 
 **Natalie Pistunovich:** Yeah.
 
