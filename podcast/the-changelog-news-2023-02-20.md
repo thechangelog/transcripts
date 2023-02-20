@@ -86,7 +86,7 @@ This post pairs nicely with last week's conversation with Rachel Potvin on scali
 
 **Jerod Santo:**
 
-Listener Ryuno-Ki wrote to me about Denis Pushkarev, the creator and maintainer of core-js, one of those invisible libraries that make up the roads and bridges of the internet's infrastructure. Denis has fallen on hard times and is ready to abandon the project, but he wrote up a long post about all his troubles and asks for the community's support. He says "I could stop working on this silently, but I want to give open-source one last chance."
+Listener Ryuno-Ki wrote to me about Denis Pushkarev, the creator and maintainer of core-js, one of those invisible libraries that make up the roads and bridges of the internet's infrastructure. Denis has fallen on hard times and is ready to abandon the project, but he wrote up a long post about all his troubles and asks for the community's support. He says "I could stop working on this silently, but I want to give open source one last chance."
 
 Ryuno's message to me about Denis and core-js: "I would like to see the JavaScript community raise to the challenge of helping him helping all of us. Would you be so kind and feature it in JS Party or at least Changelog News?"
 
