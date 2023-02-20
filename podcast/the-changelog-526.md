@@ -74,7 +74,7 @@
 
 **Mat Ryer:** Daily or weekly.
 
-**Jerod Santo:** \[00:05:59.01\] \[laughs\] Well, this is interesting, because you haven't been coding this much lately. This is a change for you.
+**Jerod Santo:** \[05:59\] \[laughs\] Well, this is interesting, because you haven't been coding this much lately. This is a change for you.
 
 **Adam Stacoviak:** Don't out him, Jerod...
 
@@ -108,7 +108,7 @@ So let's dive into it a little bit... Let's look at the first one, which - it's 
 
 **Adam Stacoviak:** Well, it says you can choose the hue that you want the chart to use for highlighting. \[unintelligible 00:09:23.27\] maybe the activity, maybe this is something you can actually fine-tune what it actually is representing... I find tools like this are like "How do you use them? What makes them insightful? Is it an individual using it? Is it an engineering manager sort of looking at, to sort of get--" Because they're less in the code. Maybe you can speak to this, Mat, because you're less into code lately... You're less in the details, and so maybe you use something like this as a way to sort of like grok the bigger picture. Or maybe this is great for a presentation to the Linux Kernel, for example, and you're at LinuxConf. I don't even know if it's a real thing or not, but like, some sort of conference focused on Linux. Like, how fast is Linux moving? What is changing within the Linux Kernel? Who's doing it? etc.
 
-**Mat Ryer:** \[00:10:10.18\] Yeah, I can't imagine the amount of stress that goes in trying to do the presentations at LinuxConf, though... Like, trying to just connect to the projectors with Linux machines... No, thanks.
+**Mat Ryer:** \[10:10\] Yeah, I can't imagine the amount of stress that goes in trying to do the presentations at LinuxConf, though... Like, trying to just connect to the projectors with Linux machines... No, thanks.
 
 **Adam Stacoviak:** Yeah, it's an absolute shame. Well, you have to use the non-free packages or whatnot to do that. So that may be against the rules to the conference, even. Somebody that's like a super free software person, they're like "No way, man. Not gonna use it."
 
@@ -132,7 +132,7 @@ I know I've also done like CLOC, count the lines of code... And that will spit o
 
 **Mat Ryer:** Yeah, it's definitely cool. I also like doing that with Daisy Disk. In fact, I've found lots of big audio files, which were -- when we record these podcasts, we record our own audio locally. So I have lots of audio files of just my side of the conversation. Unfortunately, they also somehow make it into my iTunes, and so sometimes when I'm shuffling music... Like, I might be in the bath and I've got music on, and then it's playing music, and then it comes to one of these tracks...
 
-**Jerod Santo:** \[00:14:12.27\] Right.
+**Jerod Santo:** \[14:12\] Right.
 
 **Mat Ryer:** ...and it's just my side of a conversation. And I just have to --
 
@@ -178,7 +178,7 @@ I know I've also done like CLOC, count the lines of code... And that will spit o
 
 **Jerod Santo:** Yeah, maybe.
 
-**Mat Ryer:** \[00:17:53.19\] But I kind of love that it's play. It's like, we play a lot, and then sometimes there's opportunities that come out of that play. And this is the thing a lot of software teams forget about, I think. They get very serious, and you forget that actually, you've got to be able to be creative, and just try things, and do things because you want to, or you just think it's cool. Just thinking something's cool is a great reason. If someone on one of my teams comes and says, "I've got this idea. I don't know where it fits, or anything, I just think it's cool", that's really compelling for me, especially because they're so motivated to actually do it.
+**Mat Ryer:** \[17:53\] But I kind of love that it's play. It's like, we play a lot, and then sometimes there's opportunities that come out of that play. And this is the thing a lot of software teams forget about, I think. They get very serious, and you forget that actually, you've got to be able to be creative, and just try things, and do things because you want to, or you just think it's cool. Just thinking something's cool is a great reason. If someone on one of my teams comes and says, "I've got this idea. I don't know where it fits, or anything, I just think it's cool", that's really compelling for me, especially because they're so motivated to actually do it.
 
 **Jerod Santo:** Right... It's harder than the other way around, you going to them and saying, "You know what would be cool?" and then you telling them, and they're "Okay, I'll do it, because Mat wants me to, but..."
 
@@ -258,7 +258,7 @@ I know I've also done like CLOC, count the lines of code... And that will spit o
 
 **Adam Stacoviak:** Let's go with the flag I'm gonna mention here, okay? So when you Rsync, especially if you're going to delete, you're moving data to or fro, from a place, and it's like "Well, I can use -n and just kind of see what it might do." And it will go and do that whole thing. And that's my favorite thing; especially with that kind of like dangerous tool, you need sort of a simulation zone, so that you can simulate.
 
-**Mat Ryer:** \[00:22:15.04\] Yeah. So this is interesting... Could you have this tool, but for real as well?
+**Mat Ryer:** \[22:15\] Yeah. So this is interesting... Could you have this tool, but for real as well?
 
 **Jerod Santo:** Well, once you do the tool, then you do it for real.
 
@@ -336,7 +336,7 @@ said --
 
 **Mat Ryer:** Yeah...
 
-**Jerod Santo:** \[00:25:53.14\] This one - I absolutely love this concept. So Git Bug, written by Michael... Mure. I think that's how you pronounce his name.
+**Jerod Santo:** \[25:53\] This one - I absolutely love this concept. So Git Bug, written by Michael... Mure. I think that's how you pronounce his name.
 
 **Mat Ryer:** Good name.
 
@@ -396,7 +396,7 @@ said --
 
 **Jerod Santo:** Neither of either. Okay.
 
-**Mat Ryer:** \[00:29:58.29\] Yeah. And like, okay, sure; it's almost like you don't really know what you're talking about, frankly, if that's your position. And so in the real world, errors happen all the time, and you're allowed a certain level, a certain budget that you can spend. And that means you can be creative and flexible, and do things, and make mistakes. So you have the flexibility to, within the SLOs --
+**Mat Ryer:** \[29:58\] Yeah. And like, okay, sure; it's almost like you don't really know what you're talking about, frankly, if that's your position. And so in the real world, errors happen all the time, and you're allowed a certain level, a certain budget that you can spend. And that means you can be creative and flexible, and do things, and make mistakes. So you have the flexibility to, within the SLOs --
 
 **Jerod Santo:** Thresholds... Exactly.
 
@@ -486,7 +486,7 @@ said --
 
 **Jerod Santo:** Well - it may not be relevant, Mat.
 
-**Mat Ryer:** \[00:33:55.23\] But it may be...
+**Mat Ryer:** \[33:55\] But it may be...
 
 **Jerod Santo:** "Two. Stupid, contemptible and despicable. Simple. Take your pick from the dictionary of slang. Three. Global Information Tracker." So it could be an acronym. "You're in a good mood, and it actually works for you. Angels sing, and a light suddenly fills the room." And the fourth one - oh, I can't actually say the fourth one. We'll have to bleep it out like crazy.
 
@@ -592,7 +592,7 @@ said --
 
 **Mat Ryer:** "I do most of my git work in a terminal, but I frequently found myself using git GUIs for some use-cases like: index, commit, diff, stash, blame and log. Unfortunately, popular Git GUIs all fail on giant repositories or become unresponsive--" I've lost the accent. It went a bit French.
 
-**Jerod Santo:** \[00:38:13.26\] It did. It also sounds like -- the way you do it sounds very condescending as well, as if the person's like a complete idiot who's saying it.
+**Jerod Santo:** \[38:13\] It did. It also sounds like -- the way you do it sounds very condescending as well, as if the person's like a complete idiot who's saying it.
 
 **Adam Stacoviak:** Like you're definitely making fun.
 
@@ -628,7 +628,7 @@ said --
 
 **Mat Ryer:** No, no.
 
-**Break:** \[00:40:44.26\]
+**Break:** \[40:44\]
 
 **Jerod Santo:** So the sub-topic then... So language support, or languages these tools are written in, and therefore distributed in - we have two in Python. That was the Heat Map and the Git Sim. This Git Bug is written in Go. GitUI, written in Rust. The next one we're going to talk about, if we get to it, Git Branchless, also written in Rust... And that got me thinking --
 
@@ -678,7 +678,7 @@ said --
 
 **Jerod Santo:** Right.
 
-**Mat Ryer:** \[00:46:13.01\] Yeah. If it's a data tool that's going to be used mostly in Python, then I think you also can get away with it, although you still have version issues. But yeah, you can't -- I mean, just a single binary, I love it.
+**Mat Ryer:** \[46:13\] Yeah. If it's a data tool that's going to be used mostly in Python, then I think you also can get away with it, although you still have version issues. But yeah, you can't -- I mean, just a single binary, I love it.
 
 **Jerod Santo:** General-purpose tooling that wants to be used by people that are outside your particular ecosystem, ideally, should be packaged in a way that we can just isolate it, install it, drop it in our path and execute it.
 
@@ -746,7 +746,7 @@ said --
 
 **Jerod Santo:** Alright, so quickly, Mat, respond to my second question, which was "As a gopher, as a representative of the Go community, do you feel like Rust is encroaching on your previously standalone domain of like these command line installable tools?" Like, there's a lot of new tooling, whereas Go was like THE thing for a little while, where it's like "And it's written in Rust." Does that make you feel intimidated or encroached upon?
 
-**Mat Ryer:** \[00:49:53.19\] No, no, I remember when Go was becoming that, and I would always say at the time "Write it in whatever you want. Whatever is the right tool for the job." So that attitude - I don't really deviate from that. I don't think Rust will just defeat Go, because it's really hard to learn, and that's the trade-off you make. It's much harder to learn, much harder to write Rust, but the trade-off is you get much more secure, much safer execution... And I guess if it compiles, you've got a high chance it's going to be correct. So there's benefits there. But Go - I don't know if it's just... Like, we'll see how that trends happen. Definitely there'll be trendy sort of things going around, but I don't know. I think they'll coexist, basically, forever, these two.
+**Mat Ryer:** \[49:53\] No, no, I remember when Go was becoming that, and I would always say at the time "Write it in whatever you want. Whatever is the right tool for the job." So that attitude - I don't really deviate from that. I don't think Rust will just defeat Go, because it's really hard to learn, and that's the trade-off you make. It's much harder to learn, much harder to write Rust, but the trade-off is you get much more secure, much safer execution... And I guess if it compiles, you've got a high chance it's going to be correct. So there's benefits there. But Go - I don't know if it's just... Like, we'll see how that trends happen. Definitely there'll be trendy sort of things going around, but I don't know. I think they'll coexist, basically, forever, these two.
 
 **Jerod Santo:** Fair enough. I was hoping for a less reasonable and nuanced position, but you know, I can only expect so much...
 
@@ -776,7 +776,7 @@ said --
 
 **Jerod Santo:** It has to go in.
 
-**Mat Ryer:** \[00:51:42.27\]
+**Mat Ryer:** \[51:42\]
 
 Hey baby, what're your typing in...
 
@@ -824,7 +824,7 @@ Rust Away. Mat Ryer.
 
 **Mat Ryer:** ...yeah, it just didn't happen. I'm sure if Dan-tan had done it, he would have done a much better job, because I know he's particularly good at songs.
 
-**Adam Stacoviak:** \[00:53:44.20\] Dan-tan! So one quick hat nod to the GitUI project is that it seems to be easily installable, regardless of originating language, which is super-awesome. Great song, Mat. Thank you for sharing that with us. It was awesome.
+**Adam Stacoviak:** \[53:44\] Dan-tan! So one quick hat nod to the GitUI project is that it seems to be easily installable, regardless of originating language, which is super-awesome. Great song, Mat. Thank you for sharing that with us. It was awesome.
 
 **Jerod Santo:** I was going to hop in and start singing with you, but my skills are a bit rusty, so...
 
@@ -879,7 +879,7 @@ way to do it.
 
 **Adam Stacoviak:** We almost need like a health meter, or something like that, like built into GitHub, or an external socket; like, they do a lot of security stuff externally from the repository, regardless of its origin, whether it's GitLab, GitHub, or whatever. We almost need like a health meter, or at least a democratized version of it that's like "Okay, this may have had a commit two years ago, but it's still -- it's being used." Like the downloads are still way up, for example, or this release is getting pulled constantly into other things. There has to be a different metric than just simply last commit.
 
-**Jerod Santo:** \[00:57:49.10\] GitHub does have that Pulse page, which they've kind of hidden that... But the Pulse, which is kind of that, but it's kind of like what's been going on on this project recently... And you can at least go there and see, "Well, there's been 17 new issues and no response." To me, that's probably abandoned, because it's generating issues for people, but not even being responded to... Generally, finished software's at least -- I mean, there's still going to be things that come up over time, but kind of less bugs per response... And then there's like PRs merged recently... It'll just show you like what's been going on. It's not exactly health, though; it's more like recent activity, which can be a proxy for health, but not always.
+**Jerod Santo:** \[57:49\] GitHub does have that Pulse page, which they've kind of hidden that... But the Pulse, which is kind of that, but it's kind of like what's been going on on this project recently... And you can at least go there and see, "Well, there's been 17 new issues and no response." To me, that's probably abandoned, because it's generating issues for people, but not even being responded to... Generally, finished software's at least -- I mean, there's still going to be things that come up over time, but kind of less bugs per response... And then there's like PRs merged recently... It'll just show you like what's been going on. It's not exactly health, though; it's more like recent activity, which can be a proxy for health, but not always.
 
 **Adam Stacoviak:** Well, I have good news for you, Jerod.
 
