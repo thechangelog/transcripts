@@ -500,7 +500,7 @@ said --
 
 **Mat Ryer:** Huh... I wonder what "dan-tan" would think of that. \[laughter\]
 
-**Adam Stacoviak:** Dan-tan \[unintelligible 00:34:43.01\]
+**Adam Stacoviak:** Dan-tan
 
 **Mat Ryer:** "Hey, Dan, have you seen thies? You gon' love it!" You know, for example...
 
@@ -574,7 +574,7 @@ said --
 
 **Jerod Santo:** Oh, it's so bad that they don't even know.
 
-**Mat Ryer:** Yeah. Whereas everyone else is like "Oh, that's a good German accent." So I just think it's \[unintelligible 00:37:27.28\]
+**Mat Ryer:** Yeah. Whereas everyone else is like "Oh, that's a good German accent." So I just think it's not
 
 **Jerod Santo:** I was about to give it a compliment, because I don't know...
 
@@ -704,7 +704,7 @@ said --
 
 **Mat Ryer:** I know, not entirely. Yeah.
 
-**Adam Stacoviak:** I think with the M1 there's more \[unintelligible 00:47:27.18\] Homebrew move to the opt directory, I believe...
+**Adam Stacoviak:** I think with the M1 there's more change like didn't Homebrew move to the opt directory, I believe...
 
 **Jerod Santo:** Oh, yeah. Yup, Homebrew installs into opt now, versus usr/local. And I can't recall why that was, but that was a new change in order to --
 
@@ -728,7 +728,7 @@ said --
 
 **Adam Stacoviak:** Another culprit is installing something to .local, in your root directory - or your home I guess - and not removing it, or putting it in like a hidden folder? I mean, obviously, I'm going to do an LL, or L, depending upon what your flavor of --
 
-**Mat Ryer:** How \[unintelligible 00:49:12.28\]
+**Mat Ryer:** How Welsh you are
 
 **Adam Stacoviak:** ...LS you use... I mean, if you've got an alias or whatnot - which I do, because I use Ohmyzsh...
 
@@ -808,7 +808,7 @@ Rust Away. Mat Ryer.
 
 **Mat Ryer:** Yeah, I don't know enough to do that. I was thinking that. I was going to mainly focus on like --
 
-**Adam Stacoviak:** You could have mentioned \[unintelligible 00:53:06.05\] or anything. I mean, really anything.
+**Adam Stacoviak:** You could have mentioned Cargo or anything. I mean, really anything.
 
 **Mat Ryer:** Yeah, but my knowledge is really limited. I was gonna focus on like --
 
@@ -816,7 +816,7 @@ Rust Away. Mat Ryer.
 
 **Mat Ryer:** Yeah. I was gonna focus on like vulcanizing things, and actually -- you know, to prevent Rust. Like they use painting, and stuff, to protect the metals, so they don't rust.
 
-**Adam Stacoviak:** \[unintelligible 00:53:29.01\]
+**Adam Stacoviak:** Right. Anodized
 
 **Mat Ryer:** Rusting metal, why would you want that? Red iron oxide... There's lots of ideas, but...
 
@@ -889,7 +889,7 @@ way to do it.
 
 **Jerod Santo:** So you've gotta pick which one it is?
 
-**Adam Stacoviak:** \[unintelligible 00:58:39.00\] Done, or perfect.
+**Adam Stacoviak:** Not Dunder Mifflin Done, or perfect.
 
 **Jerod Santo:** So I don't understand. I guess you're gonna mark your project as done, or perfect?
 
@@ -1173,7 +1173,7 @@ Because I'm a keyboard wizard...
 
 **Mat Ryer:** Of course I can do Ringo. He's very bouncy when he talks, you know... That's Ringo. And he sounds like he doesn't know what he saying... But he does, you know. And Paul McCartney is a bit like that too, bounces around, but
 
-he's a bit more upbeat, and also, he seems to know what he's doing... John Lennon was always very wiry in his voice, you know, when he talks. So it's very different. And then you've got George, who's my favorite, because George doesn't really sound like he's all there, but \[unintelligible 01:14:01.09\] Did you know that?
+he's a bit more upbeat, and also, he seems to know what he's doing... John Lennon was always very wiry in his voice, you know, when he talks. So it's very different. And then you've got George, who's my favorite, because George doesn't really sound like he's all there, but \[unintelligible 01:14:01.09\] here comes the sun, you know? Did you know that?
 
 **Jerod Santo:** Right... Pretty good.
 
@@ -1189,7 +1189,7 @@ he's a bit more upbeat, and also, he seems to know what he's doing... John Lenno
 
 **Mat Ryer:** For fishing, or something. Or just eating.
 
-**Adam Stacoviak:** For sure. You can literally get them, and you can figuratively get the version that's a simulation, or not really the can of worms. You could buy the one for \[unintelligible 01:14:37.14\] like the prop.
+**Adam Stacoviak:** For sure. You can literally get them, and you can figuratively get the version that's a simulation, or not really the can of worms. You could buy the one for kid like the prop.
 
 **Mat Ryer:** Oh yeah, when a big snake flies out when you open it.
 
@@ -1293,7 +1293,7 @@ The thing I think I question though is less the tool itself, and more like Steve
 
 **Mat Ryer:** Great. You'd go to that gig, wouldn't you?
 
-**Jerod Santo:** Well, you have one more chance here, because we're going to do a lightning round of your brainchild on Go Time, Unpopular Opinions... And surely, you can \[unintelligible 01:22:30.21\] out the theme song for the jingle for Unpopular Opinions... Can you not? Otherwise we'll have to splice it...
+**Jerod Santo:** Well, you have one more chance here, because we're going to do a lightning round of your brainchild on Go Time, Unpopular Opinions... And surely, you can strum us out the theme song for the jingle for Unpopular Opinions... Can you not? Otherwise we'll have to splice it...
 
 **Mat Ryer:** It's hard.
 
@@ -1312,6 +1312,7 @@ The thing I think I question though is less the tool itself, and more like Steve
 **Jingle:** \[01:22:59.20\]
 
 **Jerod Santo:** So for those who don't listen to Go Time, Unpopular Opinions is a regular segment where people share opinions that they think or hope or expect to be unpopular with the listening audience... And then we put those opinions out on the social medias to see if it's actually unpopular or not. Now, what we've found over time is that most unpopular opinions are actually popular when it comes polling time. But there's been a few people who have been somewhat unpopular, and a few who've managed to be incredibly unpopular with their opinions. I'm actually in the top five most unpopular opinions of all time...
+
 **Mat Ryer:** What was it?
 
 **Jerod Santo:** That JS Party is a better podcast than Go Time.
@@ -1336,7 +1337,7 @@ The thing I think I question though is less the tool itself, and more like Steve
 
 **Jerod Santo:** Right.
 
-**Adam Stacoviak:** Like, if you learn the inner secrets \[unintelligible 01:24:37.08\] secret, basically... So you have habits, right? Let's say you make coffee. This is my example for me, a really simple example. I make coffee once a day when I'm at work at least, maybe twice, and I wear glasses, like you, Mat. I wear glasses. And as a glasses wearer, you must be upset or get upset when they're dirty.
+**Adam Stacoviak:** Like, if you learn the inner secrets of this dark secret, basically... So you have habits, right? Let's say you make coffee. This is my example for me, a really simple example. I make coffee once a day when I'm at work at least, maybe twice, and I wear glasses, like you, Mat. I wear glasses. And as a glasses wearer, you must be upset or get upset when they're dirty.
 
 **Mat Ryer:** Yeah. I get furious.
 
@@ -1360,7 +1361,7 @@ The thing I think I question though is less the tool itself, and more like Steve
 
 **Jerod Santo:** Right. Okay...
 
-**Adam Stacoviak:** It's a superpower. If you learn to do that in different ways, let's say more productively... Let's say - I don't know, whenever you're running tests, and you've got a minute or two, and you have like three emails you can rapid-fire off, then you could do them. Stack up a habit of like you need to return these emails, but you've got that minute, minute-and-a-half, or maybe you've got a couple \[unintelligible 01:26:00.09\] just stacking up, or something that can happen in that three minutes. Stack a habit of good communication could be the habit. And the way you execute is a few simple emails, maybe a returned Slack message, maybe it's a PR review, or a one-liner, or whatever it might be... Maybe a quick chat with ChatGPT... Who knows? I mean, just do something. Yeah.
+**Adam Stacoviak:** It's a superpower. If you learn to do that in different ways, let's say more productively... Let's say - I don't know, whenever you're running tests, and you've got a minute or two, and you have like three emails you can rapid-fire off, then you could do them. Stack up a habit of like you need to return these emails, but you've got that minute, minute-and-a-half, or maybe you've got a couple slack messages stacking up, or something that can happen in that three minutes. Stack a habit of good communication could be the habit. And the way you execute is a few simple emails, maybe a returned Slack message, maybe it's a PR review, or a one-liner, or whatever it might be... Maybe a quick chat with ChatGPT... Who knows? I mean, just do something. Yeah.
 
 **Jerod Santo:** \[01:26:24.09\] Is this just multitasking, or is this more than multitasking? Because it sounds like you're just talking about multitasking. Because am I in the habit of --
 
@@ -1414,7 +1415,7 @@ The thing I think I question though is less the tool itself, and more like Steve
 
 **Adam Stacoviak:** Well, I mean, it would work if you canceled it out. Let's say you did a bad habit, and you're like "Well, since I'm bad here, I should be good over here."
 
-**Mat Ryer:** Yeah, that's what I was thinking. I was trying to do that, and I thought \[unintelligible 01:28:09.17\]
+**Mat Ryer:** Yeah, that's what I was thinking. I was trying to do that, and I thought deodorant
 
 **Adam Stacoviak:** Yeah. Like actually double up on deodorant, or something like that.
 
@@ -1551,7 +1552,7 @@ So I think we often focus on the wrong things, and we're just building the wrong
 
 **Adam Stacoviak:** And I almost said something. I almost stopped the show.
 
-**Mat Ryer:** \[unintelligible 01:35:29.26\] Absolutely. I mean, I celebrate different accents. I really love them, and so yeah, impersonating accents is like a fun hobby...
+**Mat Ryer:** You should if you feel like that. Absolutely. I mean, I celebrate different accents. I really love them, and so yeah, impersonating accents is like a fun hobby...
 
 **Adam Stacoviak:** I was so close, man... My white towel was like --
 
@@ -1563,7 +1564,7 @@ So I think we often focus on the wrong things, and we're just building the wrong
 
 **Jerod Santo:** I don't... I can't.
 
-**Mat Ryer:** \[unintelligible 01:35:55.27\] because I've heard you do it.
+**Mat Ryer:** Like, you have Jerod because I've heard you do it.
 
 **Jerod Santo:** \[laughs\] I try not to, because I'm not good at it.
 
@@ -1595,7 +1596,7 @@ So I think we often focus on the wrong things, and we're just building the wrong
 **Adam Stacoviak:** It's over now...
 **Jerod Santo:** Thanks for joining us for your final episode.
 
-**Adam Stacoviak:** Well, you know what we could do, Jerod? We can play that song, "It's closing time." \[unintelligible 01:37:00.05\]
+**Adam Stacoviak:** Well, you know what we could do, Jerod? We can play that song, "It's closing time." Tell me you remember this.
 
 **Jerod Santo:** Hm... Semisonic.
 
@@ -1613,11 +1614,11 @@ So I think we often focus on the wrong things, and we're just building the wrong
 
 **Adam Stacoviak:** ...when we were trying to do Beyond Code the first season, in that bar... We're like "We're trying to wrap up the last two interviews here. Come on, people."
 
-**Jerod Santo:** Yeah. So we were at an after party at a conference, Mat... And this was a \[unintelligible 01:37:21.22\] maybe?
+**Jerod Santo:** Yeah. So we were at an after party at a conference, Mat... And this was a Keep Ruby Weird maybe?
 
-**Adam Stacoviak:** \[unintelligible 01:37:24.22\] yeah.
+**Adam Stacoviak:** Keep Ruby Weird yeah.
 
-**Jerod Santo:** \[unintelligible 01:37:26.08\]
+**Jerod Santo:** Keep Ruby Weird.
 
 **Adam Stacoviak:** 2014.
 
