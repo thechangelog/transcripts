@@ -54,7 +54,7 @@
 
 **Mat Ryer:** A train with a face is brilliant. Yeah, Ringo Starr used to do it, because he was like "And then Thomas came into the station." And it's just like a Beatle reading your bedtime story. It's just the perfect way to send yourself off. That's number two on the "How to get more sleep", it's "Need to have Ringo Starr read..."
 
-**Carl Johnson:** \[00:04:07.03\] Yeah, just read anything to me. Yeah.
+**Carl Johnson:** \[04:07\] Yeah, just read anything to me. Yeah.
 
 **Mat Ryer:** Yeah. And tell you train adventures. Nice. I'm glad they love that. Okay, brilliant. Carl, we should do introductions, I think... Because people know who you are by now, but tell us - who are you, and where do you work, please.
 
@@ -126,7 +126,7 @@
 
 **Mat Ryer:** Like, they say caffeine shampoo is meant to help... It might just be nonsense. I just get granules and just rub it into my head. I just go straight to the source.
 
-**Johnny Boursiquot:** \[00:08:01.23\] Caffeine shampoo... Dang, that's a thing?
+**Johnny Boursiquot:** \[08:01\] Caffeine shampoo... Dang, that's a thing?
 
 **Carl Johnson:** They have that. They have like the tea shampoo, or something... This is one of those things I only know from when I'm a guest at somebody else's house...
 
@@ -180,7 +180,7 @@
 
 **Carl Johnson:** You're allowed to listen to old episodes.
 
-**Mat Ryer:** \[00:12:08.13\] You are allowed to. And in 2091, when this is the biggest entertainment show in the world, because of the Event, and this is all that survives, we should tell people, like, the year is 2023 right now. Not to age myself... It doesn't, does it...?
+**Mat Ryer:** \[12:08\] You are allowed to. And in 2091, when this is the biggest entertainment show in the world, because of the Event, and this is all that survives, we should tell people, like, the year is 2023 right now. Not to age myself... It doesn't, does it...?
 
 **Carl Johnson:** Well, I think people will be able to remember the year though, because what happened in 2023, February 1st of 2023, is the release of Go 1.20.
 
@@ -234,7 +234,7 @@
 
 **Carl Johnson:** ...so that's nine years ago that people have been making multi errors. So maybe just to take a step back... So in Go, errors or values, right? They're not anything special in terms of the language; there's nothing in the language that designates errors as being a particular thing that have to be returned in a special way. It's just the same way that you would return an int, or you could return a string, or you could return a floating point, or a struct, you can return an error. And an error is just an interface, and the only requirement of that interface is that you have a method called error that returns a string, and by convention, that string explains something about what went wrong.
 
-\[00:16:18.02\] And so apparently, all the way back in 2014, HashiCorp released a multi error thing where all it did is it just took a slice, so basically a variable length array of errors, and it gave it an error method, and so now you can have a bunch of errors and collect them into one. And so if there's something that needs to just return an error, it can actually pack in multiple errors in one spot.
+\[16:18\] And so apparently, all the way back in 2014, HashiCorp released a multi error thing where all it did is it just took a slice, so basically a variable length array of errors, and it gave it an error method, and so now you can have a bunch of errors and collect them into one. And so if there's something that needs to just return an error, it can actually pack in multiple errors in one spot.
 
 So this is something that people in the community have been doing forever, but in Go 1.20 it was finally made part of the actual language itself. And there had been proposals to add it to the standard library for a long time... Again, I was interested in what one of the older proposals was, and I've found a proposal from 2017 to add it to the standard library... So I guess that's about four years ago, somebody proposed adding it to the standard library. Is that right? No. How many years -- 23 minus 17. What is that? That's more than 4. Anyway...
 
@@ -280,7 +280,7 @@ When you said like error of trees, it made me think of like I have a tree, I was
 
 **Mat Ryer:** Yeah, I did. That was just one error though, I suppose... So I could have just used a normal one for that.
 
-**Carl Johnson:** \[00:20:00.18\] You could have just used a single error for that. Well, one place where this is nice is if in your application you use errors.is to create like some sort of a hierarchy... So let's say you have a database error, and it can't find a row. But then you want to turn that into like a 404 in your HTTP handler somewhere else. So something that you might do for your application is to say, "In my application, if this database error represents a 404, I'm going to say that this error is http.notfound, or something. http.errornotfound, or something. So you can make up your own little domain of "These are the errors that I know about, and when I get these errors, then I'm going to do this particular kind of response."
+**Carl Johnson:** \[20:00\] You could have just used a single error for that. Well, one place where this is nice is if in your application you use errors.is to create like some sort of a hierarchy... So let's say you have a database error, and it can't find a row. But then you want to turn that into like a 404 in your HTTP handler somewhere else. So something that you might do for your application is to say, "In my application, if this database error represents a 404, I'm going to say that this error is http.notfound, or something. http.errornotfound, or something. So you can make up your own little domain of "These are the errors that I know about, and when I get these errors, then I'm going to do this particular kind of response."
 
 Traditionally, that's been a little bit of plumbing to make it work, but now you can do it very easily, because when you do fmt.errorf, so the format package, the FMT package - before, you could only include one error in your format string with %w, but now you can do multiple %w's. So you can just say, "I'm going to create this error, and I'll include my notfound error, and I'll include the database error." And so then those two can be smashed together just very quickly and easily, without having to like create your own type, and have it respond to both, selectors and stuff... You just use the built-in standard library stuff and you don't have to go and write your own type, or use a third party package to make it happen.
 
@@ -314,7 +314,7 @@ Traditionally, that's been a little bit of plumbing to make it work, but now you
 
 **Mat Ryer:** Nice. Wow, that's cool.
 
-**Break:** \[00:23:34.21\]
+**Break:** \[23:34\]
 
 **Johnny Boursiquot:** So we had some changes for relating to generics as well, didn't we? What's the deal with the comparable and the interfaces, and compile time versus runtime...? Can you clear that up as well, or better than you just did for the multi errors?
 
@@ -330,7 +330,7 @@ So anyway, just to get rid of the ambiguity, you're just not allowed to compare 
 
 So that's sort of just all background for -- when generics were introduced, generics have a keyword called comparable. I think it's maybe technically not a keyword; it might be like a pre declared identifier. But whatever, it's essentially a keyword. So comparable - when you're doing a generic, you have to be able to say what you want the types to be. So if you want to do a generic over a map, you can say "I want there to be this type k, and it should be comparable (which means it's usable as a key and a map), and I want this type v, and it can just be any type, because it's the value of the map, and I don't care what the value is."
 
-\[00:27:47.09\] So for a while, the problem was that in Go, even with generics, you couldn't write a generic function for a map that used interfaces as the key type, because they weren't considered to be generically comparable. Because there was that risk of it blowing up at runtime, of it panicking at runtime, the Go team were trying to be very conservative and say, "Let's just leave that out of generics, at least for now, so that if we decide later that we want to make it more expansive", which is what they did, "nobody's going to have their code broken. But if we decide later that we want to make it more narrow, well, then people will have their code broken." So they started off with just a very narrow definition of what a generically comparable thing was, and now they've expanded it to include interfaces as well, even though it runs that runtime risk of having a panic.
+\[27:47\] So for a while, the problem was that in Go, even with generics, you couldn't write a generic function for a map that used interfaces as the key type, because they weren't considered to be generically comparable. Because there was that risk of it blowing up at runtime, of it panicking at runtime, the Go team were trying to be very conservative and say, "Let's just leave that out of generics, at least for now, so that if we decide later that we want to make it more expansive", which is what they did, "nobody's going to have their code broken. But if we decide later that we want to make it more narrow, well, then people will have their code broken." So they started off with just a very narrow definition of what a generically comparable thing was, and now they've expanded it to include interfaces as well, even though it runs that runtime risk of having a panic.
 
 **Mat Ryer:** Gotcha. I really like that approach that they took with the design there, which is like "We can make progress. Let's not over-commit." Yeah, that's interesting.
 
@@ -350,7 +350,7 @@ And so yeah, the same thing for this comparable part of generics. They're adding
 
 **Johnny Boursiquot:** So one of the tricks or engineering hacks that I like to use is when I'm creating a decision record for one approach or another, or choosing a technology over another, or a library over another, whenever there's contention around, "Well, some people think that we should do this, and some people think we should do that", I whip out a good old decision record that says, "Okay, we're gonna go this way, because reasons XYZ." One of the things I've started doing is also include in there, "When will this solution no longer be applicable or required? When do we deprecate this? What must be true in order for this to no longer be needed or wanted?"
 
-\[00:32:00.23\] Because if you're gonna make compromises, if you're gonna make a trade-off, when you no longer need to, it'd be nice if you can remove that, because if you leave it there, it just becomes technical debt; somebody now -- perhaps you in the future, or perhaps a brand new sort of engineer that you're onboarding, is now going to have to pay a price for understanding why something is the way it is... And heck, maybe they don't even come across your decision records, so they have no context for why this is the way it is. It just looks weird, and perhaps not efficient, perhaps... If you've ever looked at a codebase and you're like "Why did they do it like that? Like, what were they thinking? Stupid idiots..." Right? \[laughter\] If you've ever had that reaction, there's probably a decision record somewhere, hopefully, or some decision made by somebody, given some constraints that they had at the time, that may actually no longer be applicable now.
+\[32:00\] Because if you're gonna make compromises, if you're gonna make a trade-off, when you no longer need to, it'd be nice if you can remove that, because if you leave it there, it just becomes technical debt; somebody now -- perhaps you in the future, or perhaps a brand new sort of engineer that you're onboarding, is now going to have to pay a price for understanding why something is the way it is... And heck, maybe they don't even come across your decision records, so they have no context for why this is the way it is. It just looks weird, and perhaps not efficient, perhaps... If you've ever looked at a codebase and you're like "Why did they do it like that? Like, what were they thinking? Stupid idiots..." Right? \[laughter\] If you've ever had that reaction, there's probably a decision record somewhere, hopefully, or some decision made by somebody, given some constraints that they had at the time, that may actually no longer be applicable now.
 
 So having something that says "This is when we should take this out", whether or not you do, but this is having some understanding that says "Okay, everybody, we understand that this is supposed to be temporary", although that doesn't need to happen very often... "This is supposed to be temporary; when these conditions are true, we can then remove this."
 
@@ -384,7 +384,7 @@ So I find that to be a very sort of -- it provides a very balanced sort of appro
 
 So Go has what are called slices, which are these dynamic length arrays, but there are also arrays, just plain arrays in Go, and those have a fixed length. So it's always terrible to try to talk about syntax on air, but let's give it a shot... So if you have a square bracket, and then a number, and then another square bracket, and then a type, that is an array, and it will say exactly how many items in it. So you could have like a four int array, and you can say, "Look, I've got an array. It always has exactly four ints in it, and it's a four-int array."
 
-\[00:35:55.09\] So to turn an array into a slice, there has always been in Go this little thing where you just put the slice operator after it, you just square brackets and a colon, and then it turns into a slice. And so because slices are variable length arrays, it's always been very easy to turn an array into a slice anytime you need to do that. But in the last few versions of Go, they've been adding a feature to Go in the other direction. So if you have a slice, and it's long enough to become a particular kind of array, now you can just convert it.
+\[35:55\] So to turn an array into a slice, there has always been in Go this little thing where you just put the slice operator after it, you just square brackets and a colon, and then it turns into a slice. And so because slices are variable length arrays, it's always been very easy to turn an array into a slice anytime you need to do that. But in the last few versions of Go, they've been adding a feature to Go in the other direction. So if you have a slice, and it's long enough to become a particular kind of array, now you can just convert it.
 
 So in Go 1.20, you could -- let's say you're working with a hash, and your hash is always exactly, let's say, 32 bytes, or something like that. So you could just start out with a slice, and then you could say, \[unintelligible 00:36:39.16\] and you could turn your slice into an array just by calling it like that.
 
@@ -462,7 +462,7 @@ Subtle.
 
 **Mat Ryer:** Well, yeah, three and a bit. Sorry. I didn't do the math...
 
-**Johnny Boursiquot:** \[00:39:57.12\] You didn't shampoo this morning, Mat.
+**Johnny Boursiquot:** \[39:57\] You didn't shampoo this morning, Mat.
 
 **Mat Ryer:** No, obviously...
 
@@ -532,7 +532,7 @@ And so the workaround to keep from breaking people's code is they just added a n
 
 **Carl Johnson:** So Go, as you guys are well aware, is a memory-managed language, or a garbage-collected language. So when you use variables, when they go in scope, when they go out of scope, the language has a runtime, the runtime can detect that these variables have gone in and out of scope, and it will automatically deallocate them... And you don't get those things that you get in like traditional C, or C++ programming, where you have to do memory manual allocation, and if you make a mistake, you could accidentally have a use-after-free bug, or you could have a using an uninitialized memory bug... You don't have those problems in Go. Well, what if we did? \[laughter\]
 
-**Johnny Boursiquot:** \[00:44:07.27\] What if you wanted to reintroduce allocation in free?
+**Johnny Boursiquot:** \[44:07\] What if you wanted to reintroduce allocation in free?
 
 **Carl Johnson:** What if we wanted this? So this is an experimental feature. And in fact, it's so experimental that originally they had it in the release notes for Go 1.20 in the draft version of the release notes, but right before publication of Go 1.20 they were like "Let's just delete it from the release notes, because we really don't want people to use this." But it is there, it's an experimental feature, and what it is, is it's called a memory arena. And the basic idea of a memory arena is that a lot of times when you allocate memory, you do it sort of in a batch. So let's say you have a web server, a request comes in, you allocate a lot of memory to deal with that request, and then the request is over, and you can just go ahead and free any of the new memory that you made for that particular request. Or if you have a game, you might say you're allocating memory for a particular level of a game, and you play the level, and you get to the end of the level, and now you can just free all the memory from that level.
 
@@ -560,7 +560,7 @@ So it is an interesting feature, but it also is a very dangerous feature, becaus
 
 **Carl Johnson:** You're just gonna write an impromptu song about memory management, just to get people to karate-chop the Like button...?
 
-**Mat Ryer:** \[00:48:09.12\] Yeah, yeah.
+**Mat Ryer:** \[48:09\] Yeah, yeah.
 
 \[starts playing the guitar\]
 
@@ -614,7 +614,7 @@ So in the HTTP package, there have always been these sort of extended methods on
 
 What else is there...? There's a push method, which is kind of deprecated now, because that was part of HTTP/2, but then people decided they didn't like it, and it was kind of taken out of HTTP/2. And there's a couple other ones. But the issue with these methods is it makes it really complicated if you want to write your own HTTP response writer interface, because now you have to like stub out all of these methods. And if you're wrapping something else, you have to not just create your own versions of those methods, but you have to figure out, "Okay, first, which ones does the thing that I'm wrapping implement? And then I'm going to match it up with a version that only has those particular methods, so that when people look at me, they're only going to see the methods that my underlying thing has."
 
-\[00:52:17.04\] And it's always been sort of a mess. It's been one of those things where it's like a good thing that Go has this ability to do extended interfaces, but in practice, it ended up being a mess, and people said, "Please don't use it, because it just has these problems."
+\[52:17\] And it's always been sort of a mess. It's been one of those things where it's like a good thing that Go has this ability to do extended interfaces, but in practice, it ended up being a mess, and people said, "Please don't use it, because it just has these problems."
 
 So the response controller is a way of trying to get this, so to speak, under control. And what it lets you do is now you can add on your implementation of HTTP response writer an unwrap method, and with that, you can just pass through to the underlying type that you're wrapping. And so instead of you having to have all of the extended methods, you can just say, "Alright, well, really, I'm just wrapping this other thing, so go check with them and see if they can do it."
 
@@ -654,7 +654,7 @@ Where this comes up a lot is people will write middleware, and they'll want to k
 
 **Mat Ryer:** We should jump into - you guessed it; it's your favorite part of the show... It's time for Unpopular Opinions!
 
-**Jingle:** \[00:54:37.24\]
+**Jingle:** \[54:37\]
 
 **Mat Ryer:** Okay, who has an unpopular opinion today?
 
@@ -682,7 +682,7 @@ Where this comes up a lot is people will write middleware, and they'll want to k
 
 **Mat Ryer:** ...for now.
 
-**Carl Johnson:** \[00:55:56.19\] ...at the present moment... Yeah. You know, I support Hawaiian independence. And that's not a joke opinion, although, I guess it is unpopular... But they use chopsticks all the time, too. And I was like "Oh my God, these guys are right. We should just be using chopsticks for salad, because using a fork for salad is barbaric." The little red tomato, those little baby cherry tomatoes - they just roll away. They're immune to forks. They're like born with this tough outer hard skin that cannot be pierced by any fork in the world...
+**Carl Johnson:** \[55:56\] ...at the present moment... Yeah. You know, I support Hawaiian independence. And that's not a joke opinion, although, I guess it is unpopular... But they use chopsticks all the time, too. And I was like "Oh my God, these guys are right. We should just be using chopsticks for salad, because using a fork for salad is barbaric." The little red tomato, those little baby cherry tomatoes - they just roll away. They're immune to forks. They're like born with this tough outer hard skin that cannot be pierced by any fork in the world...
 
 **Mat Ryer:** It's like "Fork off", is essentially the --
 
