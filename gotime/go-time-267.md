@@ -286,7 +286,7 @@ Traditionally, that's been a little bit of plumbing to make it work, but now you
 
 **Mat Ryer:** So when you do error is on a multi-error, if there are multiple errors in there, does it just check if any of them -- how does it behave?
 
-**Johnny Boursiquot:** Yeah. So in this case... A fact about me is that I have a PhD in philosophy. And so one of the things about is is that there are multiple meanings... This is also -- American president Bill Clinton once said, "What is the definition of the word is? It depends on what the meaning of the word is, is..." So there's multiple meanings of is. And so sometimes when you say is... Like in Python, if you say "x is none", it means that x is identical to none. But in this case, when we say errors.is, whatever, we don't mean that they're identical, we mean that they are -- to use the philosophy term, they're predicating. So one error can is any of the errors inside of the multi error, right? So if the multi error has 10 different things in it, then it is all of those 10 different things, even though you would think because it's is, it's -- maybe it should be errors.are, because it's plural.
+**Carl Johnson:** Yeah. So in this case... A fact about me is that I have a PhD in philosophy. And so one of the things about is is that there are multiple meanings... This is also -- American president Bill Clinton once said, "What is the definition of the word is? It depends on what the meaning of the word is, is..." So there's multiple meanings of is. And so sometimes when you say is... Like in Python, if you say "x is none", it means that x is identical to none. But in this case, when we say errors.is, whatever, we don't mean that they're identical, we mean that they are -- to use the philosophy term, they're predicating. So one error can is any of the errors inside of the multi error, right? So if the multi error has 10 different things in it, then it is all of those 10 different things, even though you would think because it's is, it's -- maybe it should be errors.are, because it's plural.
 
 **Mat Ryer:** That's cleared it up.
 
@@ -300,13 +300,13 @@ Traditionally, that's been a little bit of plumbing to make it work, but now you
 
 **Carl Johnson:** Yes, it was absolutely part of the scandal, as he was being deposed by a lawyer...
 
-**Mat Ryer:** \[unintelligible 00:22:55.23\] "What is is?"
+**Mat Ryer:** He's like "Well, what is is?"
 
 **Carl Johnson:** Yeah, he's like "What is it when you have an affair? Who's to say what the affair is?"
 
 **Mat Ryer:** Yeah, he's not even questioning that though... It's just like "Well, what is is? Let's get to the bottom of that first, and then we can--"
 
-**Johnny Boursiquot:** \[unintelligible 00:23:09.22\] and then I'll tell you about what may or may not have gone on...
+**Carl Johnson:** \[unintelligible 00:23:09.22\] and then I'll tell you about what may or may not have gone on...
 
 **Mat Ryer:** Yeah... Well, if you liked that very clear explanation from Carl, don't forget to smash the subscribe button... The harder you smash it, the harder we'll try to actually make sense from now on.
 
@@ -386,7 +386,7 @@ So Go has what are called slices, which are these dynamic length arrays, but the
 
 \[35:55\] So to turn an array into a slice, there has always been in Go this little thing where you just put the slice operator after it, you just square brackets and a colon, and then it turns into a slice. And so because slices are variable length arrays, it's always been very easy to turn an array into a slice anytime you need to do that. But in the last few versions of Go, they've been adding a feature to Go in the other direction. So if you have a slice, and it's long enough to become a particular kind of array, now you can just convert it.
 
-So in Go 1.20, you could -- let's say you're working with a hash, and your hash is always exactly, let's say, 32 bytes, or something like that. So you could just start out with a slice, and then you could say, \[unintelligible 00:36:39.16\] and you could turn your slice into an array just by calling it like that.
+So in Go 1.20, you could -- let's say you're working with a hash, and your hash is always exactly, let's say, 32 bytes, or something like that. So you could just start out with a slice, and then you could say, 'bracket 32 byte parentheses' and you could turn your slice into an array just by calling it like that.
 
 **Mat Ryer:** Hmm...
 
@@ -452,7 +452,7 @@ Subtle.
 
 **Johnny Boursiquot:** Oh yeah, no more of that. I mean, if you've got 100 bucks, you can still do that...
 
-**Carl Johnson:** Alright, not a big deal... That's \[unintelligible 00:39:44.16\]
+**Carl Johnson:** Alright, not a big deal... That's worth a hondred dollars for that joke \[Laughing\]
 
 **Mat Ryer:** You just need to do jury duty two and a half times...
 
@@ -510,11 +510,11 @@ And so the workaround to keep from breaking people's code is they just added a n
 
 **Mat Ryer:** It's not a good sign when the guest interrupts me to--
 
-**Carl Johnson:** The guest is starting to do the transitions because \[unintelligible 00:43:04.15\]
+**Carl Johnson:** The guest is starting to do the transitions because I'm afraid...
 
-**Mat Ryer:** \[unintelligible 00:43:04.26\] because I've been unprofessional.
+**Mat Ryer:** Yeah, because I'm being unprofessional.
 
-**Carl Johnson:** ...and you'll play the pipe organ if I let you do it. You'll be like Phantom of the Opera; you like come down on your rope with a cape, and...
+**Carl Johnson:** ...that you'll play the pipe organ if I let you do it. You'll be like Phantom of the Opera; you like come down on your rope with a cape, and...
 
 **Mat Ryer:** Yeah, definitely.
 
@@ -526,7 +526,7 @@ And so the workaround to keep from breaking people's code is they just added a n
 
 **Mat Ryer:** Good hair phantom. He's got good hair.
 
-**Carl Johnson:** \[unintelligible 00:43:20.07\]
+**Carl Johnson:** Memory Arena.
 
 **Johnny Boursiquot:** Yeah, good memories.
 
@@ -592,7 +592,7 @@ I'm trying to think of some words.
 
 **Johnny Boursiquot:** If I could only free allocated memory... On an experiment...
 
-**Mat Ryer:** Yeah...! Okay, I think \[unintelligible 00:49:29.15\]
+**Mat Ryer:** Yeah...! Okay, I think we've-- I've moved on. this is the future, a glimpse of the future. 
 
 **Johnny Boursiquot:** Oh, wow. Yeah, this is episode is gonna be a special one, I think. Yeah, so should we --
 
@@ -600,7 +600,7 @@ I'm trying to think of some words.
 
 **Johnny Boursiquot:** \[laughs\] Yes.
 
-**Mat Ryer:** You wanted me to do something specific though, didn't you, in that response? Because I just \[unintelligible 00:49:46.21\]
+**Mat Ryer:** You wanted me to do something specific though, didn't you, in that response? Because I just did-- I was just doing anything.
 
 **Johnny Boursiquot:** Well... \[laughs\] There was something about an HTTP response controller. Maybe Carl can quickly address that for us, before we start to wrap things up... What do you think?
 
@@ -624,7 +624,7 @@ Where this comes up a lot is people will write middleware, and they'll want to k
 
 **Carl Johnson:** Yeah, but when you do that, then suddenly you get stuck into "Okay, but now do I also have to implement flush? Do I have to implement all the other methods?" And the response controller just sort of is a backwards-compatible way of sort of putting that all into a junk drawer and saying, "Okay, just unwrap and then see what the other person is doing", and as long as the unwrap works correctly, you don't have to add all those methods yourself.
 
-**Mat Ryer:** Yeah. Okay. Nice. Great. Okay, well, we are running out of time, but thank you so much, Carl. That was really good. And that type sounds very useful. There is another one on the list which I'm vetoing; it says changes to math rand. The numbers \[unintelligible 00:53:49.10\]
+**Mat Ryer:** Yeah. Okay. Nice. Great. Okay, well, we are running out of time, but thank you so much, Carl. That was really good. And that type sounds very useful. There is another one on the list which I'm vetoing; it says changes to math rand. The numbers of random call we're not going to notice--
 
 **Carl Johnson:** Yeah, they're just random.
 
@@ -758,9 +758,9 @@ Where this comes up a lot is people will write middleware, and they'll want to k
 
 **Carl Johnson:** You use it for Cheetos? You use it for Cheetos but not salad? \[laughter\]
 
-**Mat Ryer:** \[unintelligible 00:58:56.10\]
+**Mat Ryer:** Johnny you had it go in for salad!
 
-**Carl Johnson:** Johnny, you're even more civilized than I am. That's like eating the Cheeto with your pinky \[unintelligible 00:59:01.14\]
+**Carl Johnson:** Johnny, you're even more civilized than I am. That's like eating the Cheeto with your pinky out.
 
 **Johnny Boursiquot:** I mean, you can't put your greasy fingers back on your keyboard, man... I mean, what am I, a barbarian?
 
@@ -776,13 +776,13 @@ Where this comes up a lot is people will write middleware, and they'll want to k
 
 **Johnny Boursiquot:** Anything, yeah.
 
-**Mat Ryer:** I did once try -- kind of half joking, but I picked up my drink with chopsticks. And I thought -- it was hard \[unintelligible 00:59:30.21\]
+**Mat Ryer:** I did once try -- kind of half joking, but I picked up my drink with chopsticks. And I thought -- it was hard but...
 
 **Johnny Boursiquot:** Like your coffee cup, and stuff?
 
 **Carl Johnson:** You drink coffee with chopsticks? That'd be impressive.
 
-**Mat Ryer:** No, it was like a beer. \[unintelligible 00:59:37.18\]
+**Mat Ryer:** No, it was like a beer. No just fast like-- Cause if you go fast you can do it.
 
 **Carl Johnson:** I've seen enough anime where I'm sure they do that...
 
@@ -790,7 +790,7 @@ Where this comes up a lot is people will write middleware, and they'll want to k
 
 **Carl Johnson:** Are you not allowed in that bar anymore? You're not allowed in that bar anymore.
 
-**Mat Ryer:** \[01:00:03.13\] I just don't go in because of the embarrassment. They were like "Oh, here comes that chopsticks guy again." And I'm like "Yeah, that's me." \[unintelligible 01:00:10.06\] Johnny, you've really surprised me. You're like "That is insane. You can't do that. That's ridiculous." And then "Let me just have a Cheeto..."
+**Mat Ryer:** \[01:00:03.13\] I just don't go in because of the embarrassment. They were like "Oh, here comes that chopsticks guy again." And I'm like "Yeah, that's me." But i didn't have metal ones. Johnny, you've really surprised me. You're like "That is insane. You can't do that. That's ridiculous." And then "Let me just have a Cheeto..."
 
 **Carl Johnson:** "Let me use these metal chopsticks that I use for Cheetos... They're not for salad, they're for Cheetos. Come on, man...!" \[laughter\]
 
@@ -920,11 +920,11 @@ Where this comes up a lot is people will write middleware, and they'll want to k
 
 **Johnny Boursiquot:** To see what works.
 
-**Mat Ryer:** \[unintelligible 01:08:52.08\]
+**Mat Ryer:** \[unintelligible 01:08:52.08\] on top.
 
 **Carl Johnson:** They just wanna get higher. I don't know... I don't know what it's gonna take, but I'm going to try Z index 60,000, 50 million." You know, as long as it's bigger...
 
-**Mat Ryer:** As long as they also set their clothes Z index the same. Otherwise, they'd just be naked, because \[unintelligible 01:09:08.26\] be on top, always. That's CSS for you...
+**Mat Ryer:** As long as they also set their clothes Z index the same. Otherwise, they'd just be naked, because it'd be on top, always. That's CSS for you...
 
 **Carl Johnson:** But you could do that with the monarchy. You could be like James the 5 millionth. You'd be like "I don't know how many James'es were there before me. I'm James the 5 millionth."
 
