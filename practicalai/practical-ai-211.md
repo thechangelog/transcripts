@@ -98,7 +98,7 @@ So you're modifying a function within that, that is the inference function; it t
 
 So some Python expertise in order to write the code in the first place. It's an HTTP server, so you write that... You wrap it around, say, a Hugging Face model; you don't need to fine-tune it, you could use the standard models, and then learn fine-tuning later. And ideally, you do have some knowledge of Docker. Ultimately, what is deployed to Banana is a Docker file. If you build within our template, generally, you don't need to do things that are too custom, unless you choose to. But a little bit of knowledge of Docker helps. So Python, Hugging Face, Docker - that's effectively all you need in order to get something deployed onto Banana.
 
-**Daniel Whitenack:** I'm just on the site now and kind of looking through some of your community templates, which are pretty cool... I mean, you have all sorts of things - \[unintelligible 00:22:02.20\] all sorts of things with a sort of one-click Deploy button to get them up and going.
+**Daniel Whitenack:** I'm just on the site now and kind of looking through some of your community templates, which are pretty cool... I mean, you have all sorts of things - Codegen, T5, Santacoder, all sorts of things with a sort of one-click Deploy button to get them up and going.
 
 One question I had - when I deploy... Because it looks like based on your docs I can call it with like the model ID from Python, for example. So I could like integrate this directly in a Python app. Can I also call it sort of like as a REST endpoint, or something like that? Or is the primary use case a client integration?
 
@@ -152,7 +152,7 @@ I can see the opposite end of that is like certain industries would probably be 
 
 **Erik Dunteman:** ...it's gonna be a long time. Yeah, it's very complicated. And one of the things that we see with serverless is the fact that we have economies of scale sharing everyone as tenants within our cloud, because that allows us to do more efficient bin packing, and make it so that when you're not using a server, like when the server containers shut down, you're not charged. If you're running on your own cloud, you still need to have the underlying resources running.
 
-\[32:04\] We're \[unintelligible 00:32:02.10\] business, we want to hit that million-dollar annual revenue, ideally. Or sorry, not million-dollar, a hundred-million-dollar annual revenue; ideally more. And I think getting into that, we're eventually going to have to start thinking about how do more traditional enterprises integrate this... Though choosing our niche right now, we see significant pull that could get us to $10 million annual just from these new teams who aren't bound by such constraints of needing to run in their own cloud.
+\[32:04\] We're a venture scaled business, we want to hit that million-dollar annual revenue, ideally. Or sorry, not million-dollar, a hundred-million-dollar annual revenue; ideally more. And I think getting into that, we're eventually going to have to start thinking about how do more traditional enterprises integrate this... Though choosing our niche right now, we see significant pull that could get us to $10 million annual just from these new teams who aren't bound by such constraints of needing to run in their own cloud.
 
 So long answer, restated, we'll get to it eventually. And I'm sure it'll be a necessary part of the product, but it loses out on a lot of the magic that we're currently providing. So we'd rather just focus on these new and upcoming startups that are running on us.
 
