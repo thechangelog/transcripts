@@ -38,7 +38,7 @@ So definitely starting, and with time, finding your own voice, and finding your 
 
 To me, it's always useful to sort of - yeah, emulate your heroes. What kind of content do you consume? What kind of content did you find helpful? What exactly about it was helpful to you? So in my case, coming into machine learning, I can identify a few writers and bloggers, whose code or articles really were helpful to me. So Andrej Karpathy, for example, had this article about RNNs, The Unreasonable Effectiveness of RNN - that was one of the first times where text generation really clicked for me, and that it's finally really possible for software to generate text that is somewhat coherent.
 
-I learned a lot from just the styles of \[unintelligible 00:11:47.29\] Andrew Trask, and sort of writing a neural network tutorial with just 13 lines of Python. And that was really one of the first times where machine learning sort of really clicked for me.
+I learned a lot from just the styles of Chris Olah, from Andrew Trask, and sort of writing a neural network tutorial with just 13 lines of Python. And that was really one of the first times where machine learning sort of really clicked for me.
 
 \[12:01\] So yeah, that would be, I think, the second one - see the sense of what connects with you; try maybe to emulate it. Don't be shy of stealing. The Beatles spent years and years just doing covers until they were comfortable with their own sort of sound. And so that would be the second one. But it really comes down to just create, put out there, get some feedback, continue creating, and just move the cycle.
 
