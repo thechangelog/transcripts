@@ -54,7 +54,7 @@ Now, there's no conferring between you and your teammate during the regular roun
 
 **Shaw:** When does Steve Harvey get here? \[laughter\]
 
-**Jerod Santo:** \[00:06:01.03\] You're looking at him. I'm your Steve Harvey today. I apologize in advance... This is as good as it's going to get. Alright, first up in our interface-off, it is David vs. Una. Step right up.
+**Jerod Santo:** \[06:01\] You're looking at him. I'm your Steve Harvey today. I apologize in advance... This is as good as it's going to get. Alright, first up in our interface-off, it is David vs. Una. Step right up.
 
 **Una Kravets:** Woo-hoo!
 
@@ -122,7 +122,7 @@ I shall say, in order to make it on the board, an answer must have at least five
 
 **Una Kravets:** What about Adam? Adam is my friend...
 
-**Jerod Santo:** \[00:10:07.22\] Well, you can get one wrong and it'll be back to him. He gets another chance. So you can just guess whatever you like... Remember, it's what they said, it's not what is correct.
+**Jerod Santo:** \[10:07\] Well, you can get one wrong and it'll be back to him. He gets another chance. So you can just guess whatever you like... Remember, it's what they said, it's not what is correct.
 
 **Una Kravets:** That's true... I'll guess Express, but I just know that's probably not it. Unless it is...
 
@@ -152,13 +152,13 @@ I shall say, in order to make it on the board, an answer must have at least five
 
 **David Khourshid:** I mean, I was also thinking Cloudflare Workers... But there has to be something else obvious that we're not thinking of.
 
-**Shaw:** Web Assembly is the only thing that's coming to mind for me...
+**Shaw:** WebAssembly is the only thing that's coming to mind for me...
 
 **David Khourshid:** You know what - yeah. I think that's a -- let's go for it. That's a good guess.
 
-**Shaw:** Web Assembly, final answer.
+**Shaw:** WebAssembly, final answer.
 
-**Jerod Santo:** For the steal, Web Assembly. \[fail alert\] I'm sorry, but it was not Web Assembly... Which means CSS Podcast is awarded 80 points.
+**Jerod Santo:** For the steal, WebAssembly. \[fail alert\] I'm sorry, but it was not WebAssembly... Which means CSS Podcast is awarded 80 points.
 
 **Una Kravets:** See, this is the luck aspect...
 
@@ -204,7 +204,7 @@ I shall say, in order to make it on the board, an answer must have at least five
 
 **Jerod Santo:** Show us Apple. \[win alert\] You are correct, and it is the number one answer, with 21 respondents choosing Apple, which means, Keyframers, you get to play this round, and we go to David for Another guess.
 
-**David Khourshid:** \[00:14:04.08\] Awesome. Well, running through the FAANG, MANGA, whatever we wanna call it, I would say another one would be - I just came from Microsoft, so... I don't know if that's the obvious one though. Oh, oh, um -- man, is OpenAI a big...? You know what - let's go with the obvious first. Microsoft.
+**David Khourshid:** \[14:04\] Awesome. Well, running through the FAANG, MANGA, whatever we wanna call it, I would say another one would be - I just came from Microsoft, so... I don't know if that's the obvious one though. Oh, oh, um -- man, is OpenAI a big...? You know what - let's go with the obvious first. Microsoft.
 
 **Jerod Santo:** Show us Microsoft. \[win alert\] Number two answer, with 18. Very nice. Back to you, Shaw. We are now rolling in round two.
 
@@ -280,7 +280,7 @@ I shall say, in order to make it on the board, an answer must have at least five
 
 **Una Kravets:** Alright, Adam, you pick.
 
-**Adam Argyle:** \[00:18:05.17\] I'm gonna say Shopify based on the stats of who went where... I don't know.
+**Adam Argyle:** \[18:05\] I'm gonna say Shopify based on the stats of who went where... I don't know.
 
 **Jerod Santo:** Okay. For the steal and 61 additional points to add to your score - is Shopify number four? \[fail alert\] It is not... So we will award the 61 points to the Keyframers...
 
@@ -302,7 +302,7 @@ I shall say, in order to make it on the board, an answer must have at least five
 
 **Jerod Santo:** All the Ruby answers are coming in by one person. Alright, so after two rounds, it's a tight game... CSS Podcast with 80, Keyframers with 61, and we move now to round three.
 
-**Break:** \[00:19:23.29\]
+**Break:** \[19:23\]
 
 **Jerod Santo:** Now, this round is a little bit different. We call this the Inverted Round. So we're just gonna take turns, team by team, guessing responses, but the points at the bottom of the board are higher than the points at the top. So while you're trying to match the board, you're actually trying to match the least popular answer to get more points.
 
@@ -354,7 +354,7 @@ Okay, so at the beginning of round four we have Keyframers with 76, CSS Podcast 
 
 We asked 100 JS Party listeners to finish this sentence: "I couldn't code without..." What? Without \*blank\*. We'll now have an interface-off. We're back to David and Una facing off. So Una went first the first time, and we'll have David go first this time. David, there are six answers on the board. What couldn't people code without? I will say, on this round and a few others, the responses vary, but kind of mean the same thing, so we're grouping the categories. So if you hit a very specific thing that's in a category, I'll let you know, and we won't count it as a guess.
 
-**David Khourshid:** \[00:25:53.23\] Okay. Well, I know that I can't code without coffee. I turn coffee into code, so...
+**David Khourshid:** \[25:53\] Okay. Well, I know that I can't code without coffee. I turn coffee into code, so...
 
 **Jerod Santo:** Okay, show us coffee. \[win alert\] It's on the board. Where is it on the board? It's at number four, with eleven responses. So Una does have a chance to match higher than that. What is something else that people can't code without?
 
@@ -418,7 +418,7 @@ We asked 100 JS Party listeners to finish this sentence: "I couldn't code withou
 
 **Una Kravets:** You could be your own user...
 
-**Adam Argyle:** \[00:29:47.08\] I could be my own user... I'm gonna go with the only other thing on my list that maybe makes sense, which is funding. Money. You have to give me stuff to do this. I'm not gonna do this for free, ish...
+**Adam Argyle:** \[29:47\] I could be my own user... I'm gonna go with the only other thing on my list that maybe makes sense, which is funding. Money. You have to give me stuff to do this. I'm not gonna do this for free, ish...
 
 **Una Kravets:** That's a good answer.
 
@@ -456,7 +456,7 @@ We asked 100 JS Party listeners to finish this sentence: "I couldn't code withou
 
 **David Khourshid:** That's true...
 
-**Shaw:** But a more realistic answer is probably like source control, like Git, that kind of thing... Or open source, like Npm, and...
+**Shaw:** But a more realistic answer is probably like source control, like Git, that kind of thing... Or open source, like npm, and...
 
 **Jerod Santo:** So we've got AI on one hand, and open source...
 
@@ -500,7 +500,7 @@ We asked 100 JS Party listeners to finish this sentence: "I couldn't code withou
 
 **Jerod Santo:** And there was no Ruby on Rails. So while it was a good guess, they probably got sick of answering that particular thing. After four rounds, we've got CSS Podcast pulling away a little bit; it's still in play, but it's 191 to 76. Let's move to round five.
 
-\[00:34:00.16\] Alright -- oh, and it turns out... I forgot this, but round five is also inverted. So this will be just like round three, where we go back and forth. You're trying to match the bottom of the board, and the phrase they're matching against is "My primary web browser is \_\_\_\_\_\_." Let's start with the Keyframers this time. David.
+\[34:00\] Alright -- oh, and it turns out... I forgot this, but round five is also inverted. So this will be just like round three, where we go back and forth. You're trying to match the bottom of the board, and the phrase they're matching against is "My primary web browser is \_\_\_\_\_\_." Let's start with the Keyframers this time. David.
 
 **David Khourshid:** Alright, the hot new one is Arc. I feel like there's a couple of people who've answered that...
 
@@ -568,7 +568,7 @@ We asked 100 JS Party listeners to finish this sentence: "I couldn't code withou
 
 **David Khourshid:** Aww...
 
-**Break:** \[00:37:07.23\]
+**Break:** \[37:07\]
 
 **Jerod Santo:** We now go to our final round, and this one has twice as many points on the board.
 
@@ -634,7 +634,7 @@ We asked 100 JS Party listeners to finish this sentence: "I couldn't code withou
 
 **Jerod Santo:** Show us automation. \[fail alert\] There were a couple that agreed with you, but not enough to make the board. So there's your first strike... It's getting pressure-filled at this point. You need three more to take the game. So, Shaw.
 
-**Shaw:** \[00:41:53.04\] Ah, geez... So it's one word; that makes things tricky... To help? Like helping others? That's two words, but...
+**Shaw:** \[41:53\] Ah, geez... So it's one word; that makes things tricky... To help? Like helping others? That's two words, but...
 
 **Jerod Santo:** \[fail alert\] I'm sorry, but help is not on there. Now we're down to two strikes. We have one more guess, three on the board, so your back's up against it... But you can still do this. David, what do you think?
 
@@ -712,7 +712,7 @@ Number five, curiosity and interest. Again, somewhat related to problem-solving 
 
 **Adam Argyle:** Alright... It's cool...
 
-**Jerod Santo:** \[00:46:01.02\] So you were close. Two people said passion, which maybe you could put in with love and make a category, but I didn't... Two people love the magic...
+**Jerod Santo:** \[46:01\] So you were close. Two people said passion, which maybe you could put in with love and make a category, but I didn't... Two people love the magic...
 
 **Una Kravets:** That all feels like it goes together...
 
