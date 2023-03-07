@@ -38,9 +38,9 @@ So I went to bat for Alexey, I said -- I remember being in a meeting with ElOrg'
 
 So from there -- they were going to give us 20%, and we were going to give them 20%. We were very far apart. A year later, we came together, in fact in Moscow, and we ended up negotiating seriously, and we came up with the Tetris Company.
 
-The deal for me was that the all of the copyright and trademark registrations in I don't know how many countries were in the name of Electronorg Technica, which would mean that I'd have to go country by country and fight for the rights to get these trademarks, and get the copyrights back. And that was their deal with Nintendo, by the way. When they did a deal with Nintendo, they said "Nintendo has to, in their name, register the copyright and trademark in all these countries", which they did. So I was kind of in a quarter, but we got a pretty decent deal.
+The deal for me was that the all of the copyright and trademark registrations in I don't know how many countries were in the name of Elektronorgtechnica, which would mean that I'd have to go country by country and fight for the rights to get these trademarks, and get the copyrights back. And that was their deal with Nintendo, by the way. When they did a deal with Nintendo, they said "Nintendo has to, in their name, register the copyright and trademark in all these countries", which they did. So I was kind of in a quarter, but we got a pretty decent deal.
 
-So the Tetris Company at that time was a 50/50 company between Blue Planet Software, and Electronorg Technica, ElOrg, and Blue Planet Software became the exclusive agent of the Tetris Company. So we did all the work, which - I mean, those guys in Moscow, they had no idea, so they couldn't do any of the work anyway.
+So the Tetris Company at that time was a 50/50 company between Blue Planet Software, and Elektronorgtechnica, ElOrg, and Blue Planet Software became the exclusive agent of the Tetris Company. So we did all the work, which - I mean, those guys in Moscow, they had no idea, so they couldn't do any of the work anyway.
 
 **Adam Stacoviak:** What was the concern at that point? That they just want the rights to the game because they cared about it so much, or was it just a financial battle for them?
 
