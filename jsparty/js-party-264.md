@@ -36,7 +36,7 @@ So Una, do you remember the first time you rode a bike without training wheels?
 
 **David Khourshid:** I do.
 
-**Jerod Santo:** Where do you think \[unintelligible 00:04:16.08\] gets those fancy outfits he wears on stage?
+**Jerod Santo:** Where do you think Elton John gets those fancy outfits he wears on stage?
 
 **David Khourshid:** Oh, I don't know... He probably coordinates with Billy Joel. I have no idea.
 
@@ -370,7 +370,7 @@ We asked 100 JS Party listeners to finish this sentence: "I couldn't code withou
 
 **Jerod Santo:** We grouped all those together, and that's 23 people. So CSS Podcast, you are playing this round. Adam, we go to you. There's still four slots open. What else can people not code without?
 
-**Adam Argyle:** Nice, we've crossed \[unintelligible 00:26:48.10\] Does second monitor -- is that in hardware? I kind of assume it would be...
+**Adam Argyle:** Nice, we've crossed off a lot of my-- Does second monitor -- is that in hardware? I kind of assume it would be...
 
 **Jerod Santo:** Second monitor - yeah. Any sort of hardware is in there. Even no monitor is in there, I suppose.
 
@@ -756,7 +756,7 @@ Number five, curiosity and interest. Again, somewhat related to problem-solving 
 
 **Una Kravets:** Well, I've gotta say, it's a team effort; I wanted to make sure my teammate had a platform, was able to get out what's on his mind... And honestly, I was a little silly in that moment. But here we are... All that matters is we made it in the end. We made it in the end, my friend. We ended up on top! \[laughter\]
 
-**David Khourshid:** \[unintelligible 00:48:14.12\]
+**David Khourshid:** CSS Pod!
 
 **Una Kravets:** I'm on a chair, I can't run. \[laughs\]
 
