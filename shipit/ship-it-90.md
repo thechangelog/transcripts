@@ -30,7 +30,7 @@ I remember episode 33, Merry Shipmas; recorded with the Upbound folks, recorded 
 
 **Jerod Santo:** Right. We would call it a grand finale, and you would sail off into the sunset. Well, for me, I am a little -- of course, embrace the change. I'm a little bit sad. I know we have a lot of listeners who truly love this show. It's a unique show in our catalog, in Changelog's catalog. You talk about things that we don't talk about elsewhere, in ways that we can't talk about... And so, of course, we will miss it. For me, selfishly perhaps, my favorite episodes are divisible by 10. I like the Kaizens, maybe because I get to listen to myself... No, that's just a joke. I just enjoy catching up with you, and...
 
-**Gerhard Lazu:** \[00:06:28.23\] Not a joke. \[laughs\]
+**Gerhard Lazu:** \[06:28\] Not a joke. \[laughs\]
 
 **Jerod Santo:** No, I do like it. I'm starting to like it.
 
@@ -62,7 +62,7 @@ I remember episode 33, Merry Shipmas; recorded with the Upbound folks, recorded 
 
 **Adam Stacoviak:** I am a little too sad, honestly. I was having trouble coming up with words, because you know, ending is always challenging. I guess pausing is a little easier. But it's bittersweet for me, because there's a lot to like about it, obviously, and there's a lot that came from our deeper relationship, and everything... But I'm also about quitting when it makes sense. The Dip from Seth Godin was, by far, one of my favorite books in terms of like self-development. And that book isn't really about quitting necessarily (I guess it might be), it's about knowing the right time to quit, I suppose; or pause even something. And that's a challenge, because too often we'll push ourselves beyond our limits, and things break. Sometimes those things that break are really important to us, and that's called regret. And so none of us want to live with regret. I don't want you to live with regret. I want to do great things together, but not at the expense of the things that are important to you and to us. And I think from a listenership, I would love the listeners to come to this and say, "That's really awesome, to know when to pause."
 
-\[00:10:38.01\] I mean, for a while there I had to pause Founders Talk, and other things that were way back in the day, to make sure that we can focus on the Changelog podcast. A couple years back Mireille and I paused Brain Science because it was just too fast of a clip for us; we were both really busy... We're still in the midst of bringing that show back, but we have great ambition and great plans... But you have to look at what you're capable of, and what you want to achieve, and kind of pair the two up, and say, "Is this sustainable?" And if it's not, be wise and put your no down. Because too often do we say yes when we should just say no.
+\[10:38\] I mean, for a while there I had to pause Founders Talk, and other things that were way back in the day, to make sure that we can focus on the Changelog podcast. A couple years back Mireille and I paused Brain Science because it was just too fast of a clip for us; we were both really busy... We're still in the midst of bringing that show back, but we have great ambition and great plans... But you have to look at what you're capable of, and what you want to achieve, and kind of pair the two up, and say, "Is this sustainable?" And if it's not, be wise and put your no down. Because too often do we say yes when we should just say no.
 
 **Gerhard Lazu:** 100%.
 
@@ -82,7 +82,7 @@ However, even like on today's topic, like DHH, and cloud, that conversation out 
 
 **Jerod Santo:** There you go. So that's the big news. That's probably a surprise to most, if not all, in terms of Ship It subscribers. A lot of these people are like - they listen to Ship It every week, and they just heard this, and they're like "Well, that sucks for me." Touchpoints - like, we're talking about potential experimentation; how can they stay plugged in with you, what you're doing, and maybe with the future of the show... Obviously, don't unsubscribe from your feed reader, unless you're a super clean freak, because there might be new things getting published into the feed. Just go ahead and let it go inactive, and if we ever publish here again, you'll just automatically get them. So I'll say that much myself, subscribe to the Changelog; it probably would be a good idea. But I'll just throw that in there as a shameless self promotion. But for you, Gerhard, how can people who want to stay connected with you personally, beyond Ship It, where should they go?
 
-**Gerhard Lazu:** \[00:14:14.23\] Yeah. So I'm still on Twitter. It's still a thing. I'm on Changelog.social, even though I haven't tweeted anything yet, if that's a thing to do it...
+**Gerhard Lazu:** \[14:14\] Yeah. So I'm still on Twitter. It's still a thing. I'm on Changelog.social, even though I haven't tweeted anything yet, if that's a thing to do it...
 
 **Adam Stacoviak:** Tooted.
 
@@ -112,13 +112,13 @@ However, even like on today's topic, like DHH, and cloud, that conversation out 
 
 **Adam Stacoviak:** Well, maybe less than once a year, but back to the blueprint of you're still working with us on our infrastructure; that's not changing. We're gonna still keep improving that; that's not changing. We'll keep developing partnerships. One of the ones we've just formed recently was Typesense. Behind the scenes Jerod and Jason Bosco are like hammering out some cool stuff with Typesense for our search, and that's so cool. But these things are gonna keep continuing, we're gonna pause the podcast, essentially. The extra is changing, and we're regressing back to the normality, essentially. The opportunity to put your explorer hat back on, put a smile back on your face, and leverage your time so wisely.
 
-**Gerhard Lazu:** \[00:17:49.20\] Exactly. That's exactly right. And in a way, we are kind of going back to the beginning from the shipping side of things, because we have a huge improvement that went out in the last two and a half months... And there's even more amazing stuff coming out in the next two and a half months, so on like the next Kaizen, in the time period. And it means that I will have more time to do a better job of that; focus more, do more... And obviously, that means for me CI/CD as code. So we are going back to the initial idea of like "Hey, how do we get Changelog out there? How do we use --" for example, back in the days it was Docker, for deploying on Docker Swarm, running on Linode, set up with TerraForm. Or was it Ansible? I think it was Ansible.
+**Gerhard Lazu:** \[17:49\] Exactly. That's exactly right. And in a way, we are kind of going back to the beginning from the shipping side of things, because we have a huge improvement that went out in the last two and a half months... And there's even more amazing stuff coming out in the next two and a half months, so on like the next Kaizen, in the time period. And it means that I will have more time to do a better job of that; focus more, do more... And obviously, that means for me CI/CD as code. So we are going back to the initial idea of like "Hey, how do we get Changelog out there? How do we use --" for example, back in the days it was Docker, for deploying on Docker Swarm, running on Linode, set up with TerraForm. Or was it Ansible? I think it was Ansible.
 
 **Jerod Santo:** It was Ansible and Concourse CI.
 
 **Gerhard Lazu:** There we go. Concourse CI. Exactly. So in a way, we are back there, right? It's the continuation of Concourse CI, it's the continuation of that... There is a PaaS now, which is Fly... But again, it's going to be a lot more. Integration with services... And I know that Jerod is missing certain things... And stuff is coming, but for that, we need more time.
 
-**Break:** \[00:18:59.02\]
+**Break:** \[18:59\]
 
 **Jerod Santo:** So describe to us this big update, this big improvement that you did over the last two and a half months. I think we touched on it in Kaizen 8, but it wasn't finished... Now, this was a Dagger version 0.3, I believe... First of all, explain what the improvement is, and then you can get into what you had to do to pull this off, and where it's going from there.
 
@@ -126,7 +126,7 @@ However, even like on today's topic, like DHH, and cloud, that conversation out 
 
 Beginning of 2022 I joined Dagger. We did a lot of improvements, and end of last year, which was just a few months ago, we released SDKs, which means that you can write your CI/CD system, your pipelines, in code. Whether it's Python, whether it's Go, whether it's Node.js, it's no more YAML, it's no more weird things, weird configuration languages, that some perceive weird... It's the code that you know and love. So what that means is that now you can write proper code, that declares your pipeline, like all the things...
 
-\[00:21:56.16\] And I say "declares" because it's lots of function calls. Sort of like lazy chaining, which eventually gets translated into a dag, hence Dagger, the name. And then, everything gets materialized behind the scenes. Some things are cached, naturally, other things aren't.
+\[21:56\] And I say "declares" because it's lots of function calls. Sort of like lazy chaining, which eventually gets translated into a dag, hence Dagger, the name. And then, everything gets materialized behind the scenes. Some things are cached, naturally, other things aren't.
 
 So that means that right now we are in the phase where, from Dagger 0.1, which is using CUE, we now have Go in our codebase. And I want to know how do you feel about that, Jerod? How do you feel about having your Elixir spoiled (hopefully not) by some Go code?
 
@@ -192,7 +192,7 @@ So we have image is a namespace runtime. So we can now build the runtime image u
 
 **Jerod Santo:** When you run it locally, are you running it inside Dagger? What's the terminology here?
 
-**Gerhard Lazu:** \[00:26:04.16\] Okay, so you're running it -- so it runs Go on the outside, it provisions a Dagger engine inside Docker... Because if you have Docker, it needs to provision like the brains, if you wish, of where things will run... So by default, if you have Docker, it knows how to provision itself. When the Dagger engine spins up, all the operations run inside Dagger engine. The really cool thing is, if anything has been cached, it won't run it again. So imagine our image, when you pull down our image... So when we build this runtime image, obviously we have to pull down the base one, which is based on the hexpm image, and that's from Docker Hub, then it needs to install like a bunch of dependencies... And by the way, all that stuff - I mean, if you look at... I have to show you the code. This is too cool, Jerod. Check this out. So if you go to the pull request 450, and if you look at image files, image, image.go, look at line 50 to 61.
+**Gerhard Lazu:** \[26:04\] Okay, so you're running it -- so it runs Go on the outside, it provisions a Dagger engine inside Docker... Because if you have Docker, it needs to provision like the brains, if you wish, of where things will run... So by default, if you have Docker, it knows how to provision itself. When the Dagger engine spins up, all the operations run inside Dagger engine. The really cool thing is, if anything has been cached, it won't run it again. So imagine our image, when you pull down our image... So when we build this runtime image, obviously we have to pull down the base one, which is based on the hexpm image, and that's from Docker Hub, then it needs to install like a bunch of dependencies... And by the way, all that stuff - I mean, if you look at... I have to show you the code. This is too cool, Jerod. Check this out. So if you go to the pull request 450, and if you look at image files, image, image.go, look at line 50 to 61.
 
 **Jerod Santo:** \[unintelligible 00:27:01.29\] So this is like a chain of function calls that you've named nicely...
 
@@ -232,7 +232,7 @@ So we have image is a namespace runtime. So we can now build the runtime image u
 
 **Jerod Santo:** That doesn't sound smart, but it just would be interesting.
 
-**Gerhard Lazu:** \[00:29:45.17\] Yeah, no. You want it to be in code. You want it in code. And not to mention that when it's in code, by the way, we can have -- again, we still need to figure this part out, I suppose... But we could have things that automatically bump it. When a new version comes out, it bumps it in code, the pipeline bumps it everywhere... And because the pipeline runs, it checks if the new version works.
+**Gerhard Lazu:** \[29:45\] Yeah, no. You want it to be in code. You want it in code. And not to mention that when it's in code, by the way, we can have -- again, we still need to figure this part out, I suppose... But we could have things that automatically bump it. When a new version comes out, it bumps it in code, the pipeline bumps it everywhere... And because the pipeline runs, it checks if the new version works.
 
 **Jerod Santo:** And then opens up PR and then we can just merge?
 
@@ -278,7 +278,7 @@ For example, last Friday - it was just a few days ago - we shipped services supp
 
 **Jerod Santo:** And what are the ramifications of that?
 
-**Gerhard Lazu:** \[00:33:57.06\] Well, you spin up containers in code. Just as you write your code, you can say, "Spin me up a PostgreSQL container", and when it's spun up, connect it to this other container where the test will run. You can have the waiting -- I mean, we used to do nc, netcat, for heaven's sake, to wait for the PostgreSQL container to be available. There's like services support, there's like ugly YAML... All sorts of weird things.
+**Gerhard Lazu:** \[33:57\] Well, you spin up containers in code. Just as you write your code, you can say, "Spin me up a PostgreSQL container", and when it's spun up, connect it to this other container where the test will run. You can have the waiting -- I mean, we used to do nc, netcat, for heaven's sake, to wait for the PostgreSQL container to be available. There's like services support, there's like ugly YAML... All sorts of weird things.
 
 **Jerod Santo:** Let's not knock on netcat, Gerhard. Come on. Sweet tool.
 
@@ -324,7 +324,7 @@ We could run a very lightweight version of the Changelog in the context of the C
 
 **Jerod Santo:** You're blowing my mind, Gerhard. I'm not even --
 
-**Gerhard Lazu:** \[00:38:00.02\] That's a crazy idea, right? No one has thought about that before. \[laughs\]
+**Gerhard Lazu:** \[38:00\] That's a crazy idea, right? No one has thought about that before. \[laughs\]
 
 **Jerod Santo:** Alright...
 
@@ -364,7 +364,7 @@ So I updated our Campaign Monitor API key inside of our app, and in Campaign Mon
 
 **Gerhard Lazu:** Issue 442 for anyone that wants to see all the things we have to go through. We had 79 tasks to complete. And some of the work quick, but just like untangling all that... We cleaned up a lot of stuff, and again, it was like almost like a spring clean; even though it was January, it was definitely like a spring clean for secrets.
 
-**Jerod Santo:** \[00:42:13.07\] Yeah. You don't realize just how many service integrations you have until you go to rotate all your secrets. And then it's like "Holy cow. Slack. Campaign Monitor. GitHub. Fastly AWS. GitHub."
+**Jerod Santo:** \[42:13\] Yeah. You don't realize just how many service integrations you have until you go to rotate all your secrets. And then it's like "Holy cow. Slack. Campaign Monitor. GitHub. Fastly AWS. GitHub."
 
 **Gerhard Lazu:** Notion.
 
@@ -386,7 +386,7 @@ And then the third thing is trying to rejigger the way that our feeds are genera
 
 So I started thinking about different ways of pre-computing and storing files on S3, and fronting that... And there's just lots of concerns with publishing immediately; we like to publish fast. And we even had a problem - thanks to a listener who pointed it out - with our Overcast ping, because Overcast as a specific app allows you to ping it immediately on publish, and they'll just push notify, and people will get their things immediately... Which some people really like that. I'm always surprised - there's some listeners who listen like right when it drops, and there's others who listen like six months later. And that's all well and good, but for the ones who want it now - it's cool, we add the Overcast Bing. Well, there's an issue there, because Overcast pings, but we're caching our feeds for a few minutes, maybe just a minute. And so Overcast says there's a new episode, and so you click on it, and you go there, and there isn't a new episode. And then you refresh, it's not there, then you refresh, it's not there, then you refresh it and it is there, and it was like 60 seconds... Because we're caching.
 
-\[00:46:14.27\] So I just turned that thing off and thought, "Well, people can just wait for Overcast to crawl us again, for now, but I would love to solve that problem..." And so then I started thinking, you know, we already have a place where we store data, that's a single instance, but is a service, so to speak, and it's called Postgres. And instead of adding like a memcached, or Redis, or figuring out these caching issues inside of the Erlang system, which was not trivial in my research, I was like "What if we just precompute and throw stuff into Postgres?" And I did a test run of that, the feeds; just the feeds. And just turn off all other caching, because I don't think we actually need any other caching. It's just like, I already had caching setup, so I cached a few popular pages... But what if I just did it on the feeds? And every time you publish, you just blow it away, rerun it, and put it in Postgres. And you just serve it as static content out of Postgres.
+\[46:14\] So I just turned that thing off and thought, "Well, people can just wait for Overcast to crawl us again, for now, but I would love to solve that problem..." And so then I started thinking, you know, we already have a place where we store data, that's a single instance, but is a service, so to speak, and it's called Postgres. And instead of adding like a memcached, or Redis, or figuring out these caching issues inside of the Erlang system, which was not trivial in my research, I was like "What if we just precompute and throw stuff into Postgres?" And I did a test run of that, the feeds; just the feeds. And just turn off all other caching, because I don't think we actually need any other caching. It's just like, I already had caching setup, so I cached a few popular pages... But what if I just did it on the feeds? And every time you publish, you just blow it away, rerun it, and put it in Postgres. And you just serve it as static content out of Postgres.
 
 I did some initial testing on that locally, and it's like consistently 50-millisecond responses with like Apache Bench, it was not a problem. It's never super-fast, like what you get with Erlang, where it's like microseconds... Which I always like to see those stats. But that's not what we need, right? Consistently 50 milliseconds is great.
 
@@ -418,7 +418,7 @@ So I want to test that sort of in production, I kind of want to roll it out and 
 
 **Jerod Santo:** I spiked it out on a branch, and then it was just like "Okay, this is certainly feasible" And then I did some rudimentary benchmarking of that branch, just to make sure it's not crazy dumb... And then I'm like "Okay, this is feasible, and I know how to bring this into official code." I can definitely transition what I coded, or even just rewrite it in a way that's maintainable if we decide to do it. But I'd really like to know if it's gonna be really dumb, or just kind of dumb. I feel like it's just dumb enough that it just might work... And be so simple, and solve a problem in a way that's just awesomely dumb. But I don't want it to be so dumb that it's not gonna work... \[laughs\]
 
-**Gerhard Lazu:** \[00:50:10.05\] That's the real spirit of Ship It. We literally have to get it out to see if it works. Like, what happens.
+**Gerhard Lazu:** \[50:10\] That's the real spirit of Ship It. We literally have to get it out to see if it works. Like, what happens.
 
 **Jerod Santo:** And then I was like "Well, what I lack is metrics." So I can observe it for a few hours, get some confidence, leave it in, or be like "Holy cow. It worked great in dev, but it's not going to work with a real load."
 
@@ -486,7 +486,7 @@ We do have a new sponsor coming on board, DevCycle, which is in the feature fly 
 
 **Gerhard Lazu:** So tell me the commit where this was introduced, so that I can understand my mistake. Seriously.
 
-**Jerod Santo:** \[00:54:00.23\] So the code that fixes it is in commit f19c9cf, where I basically changed the application file to basically turn the logger back on. So I think you were overly aggressive when you were -- you were removing a few things... We removed PromEx, because we're not really using Grafana anymore... And you just deleted too much code. And the code that you deleted would, if we're not in iEX, turn on the default logger. But you deleted it, so there wasn't a default logger, and so it wouldn't log anything in prod at all...
+**Jerod Santo:** \[54:00\] So the code that fixes it is in commit f19c9cf, where I basically changed the application file to basically turn the logger back on. So I think you were overly aggressive when you were -- you were removing a few things... We removed PromEx, because we're not really using Grafana anymore... And you just deleted too much code. And the code that you deleted would, if we're not in iEX, turn on the default logger. But you deleted it, so there wasn't a default logger, and so it wouldn't log anything in prod at all...
 
 **Gerhard Lazu:** I see.
 
@@ -564,7 +564,7 @@ We do have a new sponsor coming on board, DevCycle, which is in the feature fly 
 
 **Jerod Santo:** So what happens is every single request that goes to one of our feeds will be served live from Postgres, from what I call like a feeds cache inside our Postgres instance. So it's effectively -- it's as if it was reading off disk, but we don't have a disk, because we're in Fly land... But it's just on disk inside of Postgres. And so it goes out of Postgres, goes out live, so every request is immediate... And then every time that we change something that's going to change the feeds, we blow that one away, and we rewrite it, and so we recompute the feed. It's basically a cache inside of Postgres, because that's already our single source of data. Whereas if we did it anywhere else, we'd have to have a shared data source etc.
 
-**Gerhard Lazu:** \[00:58:03.29\] I think what's more important is that this enables us to run more than one instance of Changelog.
+**Gerhard Lazu:** \[58:03\] I think what's more important is that this enables us to run more than one instance of Changelog.
 
 **Jerod Santo:** Exactly.
 
@@ -574,7 +574,7 @@ We do have a new sponsor coming on board, DevCycle, which is in the feature fly 
 
 Well, we could just serve from using this system. We could have two different versions of the feed, both put into Postgres, use the request header to identify Spotify, because it has a standard request, and serve a slightly different feed to Spotify than we serve to everybody else, and give them those timestamps. So you get the chapters over there, but you don't clutter up your feeds for everybody else. And you can't do that very well with caching, because it's like "Well, we've got a cached version", right? And the requests never hit our server; they're just Fastly. And maybe you can put that logic inside of Fastly, but now you have to point it to different places, and manage that whole deal...
 
-And so this also enables that, where you can basically have n caches per request, and serve the right one dynamically, but still have it precomputed. So it's kind of the best of both worlds. By the way, to our listener, I realized this is kind of a dumb way of doing it. If it's super-dumb, and you have reasons why, please, tell me, because I'm about to roll it out... \[laughs\]
+And so this also enables that, where you can basically have N caches per request, and serve the right one dynamically, but still have it precomputed. So it's kind of the best of both worlds. By the way, to our listener, I realized this is kind of a dumb way of doing it. If it's super-dumb, and you have reasons why, please, tell me, because I'm about to roll it out... \[laughs\]
 
 **Adam Stacoviak:** "I'm about to roll it out...!"
 
