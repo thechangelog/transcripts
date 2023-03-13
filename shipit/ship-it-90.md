@@ -94,7 +94,7 @@ However, even like on today's topic, like DHH, and cloud, that conversation out 
 
 **Adam Stacoviak:** No one wants to be up to date with that word.
 
-**Gerhard Lazu:** Yeah. I'm still very much on the Changelog Slack, on the Changelog GitHub... That's where I intend to spend more time, since this whole Kaizen thing behind the scenes for Changelog is not going to stop. We'll still be improving things, there's pull requests, there's issues, there's all sorts of things happening there... Maybe even discussions. I mean, we had this second GitHub discussion, where everyone is welcome to participate, where we're talking specifically about what we are going to improve about Changelog. So I'm not sure how Chris Eggert knew how to jump in and help out, and do that improvement, or \[unintelligible 00:15:07.12\] And there's a couple of others. Or Noah... How Noah Betson knew how to do this, and a couple of others. But this is still going on. We are still on GitHub; we're still doing things. We're still on Slack, on the Changelog Slack. So we're still there, it's just like the show, the cadence, the weekly cadence - we are pausing that until we figure out, or I figure out what comes next... Which would be still like with listeners, with people, as like -- I really like Adam's idea. It's closer to what I had in mind a couple of years back. And I'm craving for experimenting more, and only putting an episode out there maybe in a different format, when it's ready. It doesn't mean once a year, but it means less than once a week. So between once a week and once a year, that's somewhere the sweet spot, which I have yet to discover.
+**Gerhard Lazu:** Yeah. I'm still very much on the Changelog Slack, on the Changelog GitHub... That's where I intend to spend more time, since this whole Kaizen thing behind the scenes for Changelog is not going to stop. We'll still be improving things, there's pull requests, there's issues, there's all sorts of things happening there... Maybe even discussions. I mean, we had this second GitHub discussion, where everyone is welcome to participate, where we're talking specifically about what we are going to improve about Changelog. So I'm not sure how Chris Eggert knew how to jump in and help out, and do that improvement, or Jarvis Yang, and there's a couple of others. Or Noah... How Noah Betson knew how to do this, and a couple of others. But this is still going on. We are still on GitHub; we're still doing things. We're still on Slack, on the Changelog Slack. So we're still there, it's just like the show, the cadence, the weekly cadence - we are pausing that until we figure out, or I figure out what comes next... Which would be still like with listeners, with people, as like -- I really like Adam's idea. It's closer to what I had in mind a couple of years back. And I'm craving for experimenting more, and only putting an episode out there maybe in a different format, when it's ready. It doesn't mean once a year, but it means less than once a week. So between once a week and once a year, that's somewhere the sweet spot, which I have yet to discover.
 
 **Jerod Santo:** There you go. So not continuous delivery, but some sort of delivery...
 
@@ -194,7 +194,7 @@ So we have image is a namespace runtime. So we can now build the runtime image u
 
 **Gerhard Lazu:** \[26:04\] Okay, so you're running it -- so it runs Go on the outside, it provisions a Dagger engine inside Docker... Because if you have Docker, it needs to provision like the brains, if you wish, of where things will run... So by default, if you have Docker, it knows how to provision itself. When the Dagger engine spins up, all the operations run inside Dagger engine. The really cool thing is, if anything has been cached, it won't run it again. So imagine our image, when you pull down our image... So when we build this runtime image, obviously we have to pull down the base one, which is based on the hexpm image, and that's from Docker Hub, then it needs to install like a bunch of dependencies... And by the way, all that stuff - I mean, if you look at... I have to show you the code. This is too cool, Jerod. Check this out. So if you go to the pull request 450, and if you look at image files, image, image.go, look at line 50 to 61.
 
-**Jerod Santo:** \[unintelligible 00:27:01.29\] So this is like a chain of function calls that you've named nicely...
+**Jerod Santo:** 'build. Elixir(). WithAptPackages(). WithGit(). WithImagemagick().' So this is like a chain of function calls that you've named nicely...
 
 **Gerhard Lazu:** That's it. And you can mix and match them in whichever way you want. So when, for example, we convert the rest of our pipeline to Dagger 0.3, we'll do build, we'll take Elixir, with packages, and whatever else we want. And when we want to publish the image, we can chain, again, the function calls however we want. For example, we do not want with Node.js when we publish our image, but we do want with Node.js when we build or compile our assets. So this way, we can chain all the functions, get all the bits from the various containers, various layers, assemble it, and make sure that all dependencies will be the same. Because with Node.js knows exactly which Node.js version we do; and it doesn't matter where you call it from. And because all the operations are cached, they won't rerun. Some of these can take a really long time, by the way... Anyway, so I'm super-excited about this. So this is -- and by the way, Noah, if you're listening to this, I'm very curious to know how much easier it is to bump our dependencies with the new approach.
 
@@ -370,7 +370,7 @@ So I updated our Campaign Monitor API key inside of our app, and in Campaign Mon
 
 **Jerod Santo:** Mastodon.
 
-**Gerhard Lazu:** Yeah. GitHub twice, by the way. You said GitHub twice, because GitHub is used twice \[unintelligible 00:42:30.06\]
+**Gerhard Lazu:** Yeah. GitHub twice, by the way. You said GitHub twice, because GitHub is used twice you have NPI token \[unintelligible 00:42:30.06\]
 
 **Jerod Santo:** Same thing with Slack. There's like two different Slack APIs that we use. One's for the invites, which is like this old legacy thing that was never an official API, how you actually generate an invite. And then everything else is like for logbot, which is our Slack bot that does a few things. Yeah, there's just so many of them. And then it's just like -- it's just an arduous process. So this is why my personal private key is years old at this point, embarrassingly.
 
@@ -486,7 +486,7 @@ We do have a new sponsor coming on board, DevCycle, which is in the feature fly 
 
 **Gerhard Lazu:** So tell me the commit where this was introduced, so that I can understand my mistake. Seriously.
 
-**Jerod Santo:** \[54:00\] So the code that fixes it is in commit f19c9cf, where I basically changed the application file to basically turn the logger back on. So I think you were overly aggressive when you were -- you were removing a few things... We removed PromEx, because we're not really using Grafana anymore... And you just deleted too much code. And the code that you deleted would, if we're not in iEX, turn on the default logger. But you deleted it, so there wasn't a default logger, and so it wouldn't log anything in prod at all...
+**Jerod Santo:** \[54:00\] So the code that fixes it is in commit f19c9cf, where I basically changed the application file to basically turn the logger back on. So I think you were overly aggressive when you were -- you were removing a few things... We removed PromEx, because we're not really using Grafana anymore... And you just deleted too much code. And the code that you deleted would, if we're not in IEx, turn on the default logger. But you deleted it, so there wasn't a default logger, and so it wouldn't log anything in prod at all...
 
 **Gerhard Lazu:** I see.
 
@@ -496,7 +496,7 @@ We do have a new sponsor coming on board, DevCycle, which is in the feature fly 
 
 **Jerod Santo:** And I didn't notice, and so I just thought, "Well, I'll just go see what's going on in production", and there was no logs there. So I actually just put that code back in, that you had deleted, is all.
 
-**Gerhard Lazu:** Right. So hang on, let me try and understand this code... That's what's happening right now. I'm trying to understand \[unintelligible 00:54:48.28\] code live, as we are recording this... I'm looking at the application EX, line 32, on \[unintelligible 00:54:54.04\] Which of those two lines disables logging? The 33 or the 35 one? Oban telemetry attach default logger?
+**Gerhard Lazu:** Right. So hang on, let me try and understand this code... That's what's happening right now. I'm trying to understand some Elixer code live, as we are recording this... I'm looking at the application.ex, line 32, 'unless Code.ensure_loaded?(IEx) && IEx.started?() do' Which of those two lines disables logging? The 33 or the 35 one? Oban telemetry attach default logger?
 
 **Jerod Santo:** No, that's not the line. Look at endpoint.ex line 60. Plug.telemetry. That's the line where you basically remove the telemetry plug.
 
@@ -590,7 +590,7 @@ And so this also enables that, where you can basically have N caches per request
 
 **Gerhard Lazu:** And Fly really makes it less necessary to run a CDN, or maybe completely unnecessary, depending on the case. If we want to depend less on the CDN, which I think is a good idea, and if we distributed our apps around the world, that means that we can rely less on the CDN - which by the way, had like all sorts of issues which we are yet to solve - and serve directly from our app... So basically, we are reverting back, putting changelog.com behind the CDN. And we had to do that, because we had a single instance, we had all sorts of issues related to that... But now, if we have multiple instances, one per continent - again, depending on where our users are - we no longer need to depend on the CDN as much as we did before.
 
-\[01:02:12.28\] And by the way, Fly itself, it has a proxy, it has a global proxy, which means that depending on where you are, those edge instances, they will connect to the app instance which is closest to the edge. So then we are pulling more of that stuff in our app, which makes us be able to code more things, as Jerod mentioned, pull more of that smarts in code, rather than in CDN configuration or other things... Which are very difficult to understand, very difficult to troubleshoot... I mean, we've had so many hair-pulling moments. That's why we have so little hair \[unintelligible 01:02:46.00\] going like "Why the hell? How does this varnish even work, because it doesn't make any sense?"
+\[01:02:12.28\] And by the way, Fly itself, it has a proxy, it has a global proxy, which means that depending on where you are, those edge instances, they will connect to the app instance which is closest to the edge. So then we are pulling more of that stuff in our app, which makes us be able to code more things, as Jerod mentioned, pull more of that smarts in code, rather than in CDN configuration or other things... Which are very difficult to understand, very difficult to troubleshoot... I mean, we've had so many hair-pulling moments. That's why we have so little hair \[unintelligible 01:02:46.00\] sections, going like "Why the hell? How does this varnish even work, because it doesn't make any sense?"
 
 **Jerod Santo:** Right. And we built our own little version control inside of Fastly, between Gerhard and I, by adding a comment and putting whose name it is at Last Edited, which we would love to just have our actual programming tooling.
 
@@ -622,7 +622,7 @@ The other option is to put this on a static file server like S3, and then manage
 
 **Jerod Santo:** Right.
 
-**Adam Stacoviak:** \[01:06:06.04\] ...because it's better... But I'm a Master feed subscriber in that regard, and \[unintelligible 01:06:09.09\] refresh, and it does take a bit for the new episodes to get there, for me at least. So I'm not like I ship it and 30 seconds or a minute later it's in Overcast. It takes longer than I've counted, let's just say. I haven't actually sat there and counted. It's like "Oh, it's not there. I'll come back later", and come back and it's there.
+**Adam Stacoviak:** \[01:06:06.04\] ...because it's better... But I'm a Master feed subscriber in that regard, and pull to refresh, and it does take a bit for the new episodes to get there, for me at least. So I'm not like I ship it and 30 seconds or a minute later it's in Overcast. It takes longer than I've counted, let's just say. I haven't actually sat there and counted. It's like "Oh, it's not there. I'll come back later", and come back and it's there.
 
 **Gerhard Lazu:** The one thing about this which gets me really excited is that we will double down on PostgreSQL. So we talked about this for a while... Crunchy Data is what I'm thinking. But it's not the only way.
 
@@ -770,7 +770,7 @@ So I think that's a really cool idea... So I really like where 1Password is, and
 
 **Adam Stacoviak:** Jerod sings...!
 
-**Jerod Santo:** Happy \[unintelligible 01:14:31.24\] to you...
+**Jerod Santo:** Happy Trails to you...
 
 **Adam Stacoviak:** See? Told ya.
 
