@@ -66,9 +66,9 @@
 
 **Jerod Santo:** ...which was groundbreaking in many ways, and paved the way for CS Code, and Electron-based browser tech editors, is that fair to say?
 
-**Nathan Sobo:** Yeah, it is. I mean, I remember Chris and Cory, they were a few weeks in at the time I joined, and they had this WebKit, the old WebKit framework that you could pull into Mac apps, to let you kind of drop down into Objective C... And so Cory had wired up these IO APIs, but one of the challenges we ran into is we didn't have access to the Npm ecosystem. And so from pretty early on, I was on this mission to figure out how to get Node integration, so that we could access all the Npm libraries... And I thought, "Oh, it would be cool if we just had kind of Node smashed into Chrome", because Chrome uses V8...
+**Nathan Sobo:** Yeah, it is. I mean, I remember Chris and Cory, they were a few weeks in at the time I joined, and they had this WebKit, the old WebKit framework that you could pull into Mac apps, to let you kind of drop down into Objective C... And so Cory had wired up these IO APIs, but one of the challenges we ran into is we didn't have access to the npm ecosystem. And so from pretty early on, I was on this mission to figure out how to get Node integration, so that we could access all the npm libraries... And I thought, "Oh, it would be cool if we just had kind of Node smashed into Chrome", because Chrome uses V8...
 
-\[00:06:02.19\] We were trying to figure out how to do it, and - I don't know if you want the full story, but we ended up... I think I told the story in the last podcast, of finding Chang, barely able to communicate through this language barrier, but enough to be like "Here's what we want - Node and Chrome having a baby." And that became Electron, and the rest is history.
+\[06:02\] We were trying to figure out how to do it, and - I don't know if you want the full story, but we ended up... I think I told the story in the last podcast, of finding Chang, barely able to communicate through this language barrier, but enough to be like "Here's what we want - Node and Chrome having a baby." And that became Electron, and the rest is history.
 
 But yeah, the story of Zed is kind of funny, because having sort of brought about the advent of Electron, we became really frustrated with the limitations of working that way. And that's a big part of why we started on the path that has become Zed.
 
@@ -98,7 +98,7 @@ But yeah, the story of Zed is kind of funny, because having sort of brought abou
 
 I came out of Pivotal Labs... That was a culture where we literally sat and coded together for 40 hours a week. I don't really want to work that way anymore, but it really did indoctrinate me into the value of just having conversations about code. And that's always been a big part of my toolkit. But it's always felt like a big gap for me in the tooling that was available. If you want to write a bunch of code by yourself, push it up, and then have a conversation just about the changes you're introducing to main or whatnot, then pull requests work really well. But there's all kinds of conversations that I think could be facilitated around code, that just really aren't. And so that was kind of what I pitched Chris on when I joined GitHub, is this idea of a social code editor.
 
-\[00:10:01.22\] The tagline of GitHub was "Social coding", and I just thought we could take it much further. But I think what I didn't necessarily bargain for was just the sheer difficulty of building a good code editor at all, and then taking on the crazy level of extensibility that -- that was really what Chris was excited about more than anything, is just making this thing crazy extensible, like a modern Emacs. And I took that and ran with it as hard as I could as well, creating Electron, and embracing Npm, and all that.
+\[10:01\] The tagline of GitHub was "Social coding", and I just thought we could take it much further. But I think what I didn't necessarily bargain for was just the sheer difficulty of building a good code editor at all, and then taking on the crazy level of extensibility that -- that was really what Chris was excited about more than anything, is just making this thing crazy extensible, like a modern Emacs. And I took that and ran with it as hard as I could as well, creating Electron, and embracing npm, and all that.
 
 But by the time we just got through learning everything we needed to know to build an excellent editor, and then investing all that time into extensibility, it wasn't until I think after our interview that we really sunk our teeth into "Okay, how can we help people talk about code in this tool?" And I think it was spring of the following year, the year following our podcast - so that was 2017 - we decided to build what became Teletype, which was the collaborative coding package for Atom.
 
@@ -116,7 +116,7 @@ So we called it Xray, which is kind of like what you get upon the splitting of t
 
 We stood in front of the whole Atom team in like January of 2018, in Boulder, and I remember giving this presentation about the kind of responsiveness that we really wanted to achieve, that we thought would be what felt amazing in an editor, and all these other architectural details of what we thought made sense. And I don't know - yeah, it was pretty shocking to the team at the time, sitting up there and saying this... But yeah, we started in and we would -- I remember writing these notes in the repo that were just kind of intended for product managers and people at GitHub, just so that they could maintain awareness of what we were doing. But it was all open source, and at some point, some people found these notes, and we got this little following of people that would just read these random notes I would toss off at the end of each week.
 
-\[00:14:00.20\] And yeah, but then... I don't know, we kind of got batted around by different political winds inside of GitHub, and at some point it became clear that there wasn't really an appetite for an Atom 2.0 within the company. I left for the birth of my second daughter, and when I got back, Microsoft had acquired the company and it was clear that it was really gonna happen.
+\[14:00\] And yeah, but then... I don't know, we kind of got batted around by different political winds inside of GitHub, and at some point it became clear that there wasn't really an appetite for an Atom 2.0 within the company. I left for the birth of my second daughter, and when I got back, Microsoft had acquired the company and it was clear that it was really gonna happen.
 
 **Adam Stacoviak:** Oh, wow...
 
@@ -152,11 +152,11 @@ We stood in front of the whole Atom team in like January of 2018, in Boulder, an
 
 **Adam Stacoviak:** So you think like, okay, where were you when GitHub was acquired? And then two, "Well, why did VS Code win and Atom lose when you had the same underpinnings?"
 
-**Nathan Sobo:** So my understanding of this situation - and it's basically like we created Electron and came up with this innovative model of doing an editor in web technology... And there was this team in Switzerland at Microsoft that was doing Monaco, and doing like Visual Studio Online; like a browser-based version of the editor. That team included like Erich Gamma, who worked on Eclipse etc. But when they saw us doing Electron and we open-sourced Electron, that was this opportunity to like "Oh, we see Atom taking off... Let's sort of take this tech that we're building on the web and fuse it with" what was at the time called Atom Shell. I don't think we'd renamed it to Electron yet. And yeah, that kind of gave them this head-start.
+**Nathan Sobo:** So my understanding of this situation - and it's basically like we created Electron and came up with this innovative model of doing an editor in web technology... And there was this team in Switzerland at Microsoft that was doing Monaco, and doing like Visual Studio Online; like a browser-based version of the editor. That team included like Erich Gamma, who worked on Eclipse etc. But when they saw us doing Electron and we open sourced Electron, that was this opportunity to like "Oh, we see Atom taking off... Let's sort of take this tech that we're building on the web and fuse it with" what was at the time called Atom Shell. I don't think we'd renamed it to Electron yet. And yeah, that kind of gave them this head-start.
 
 So I think there was a big advantage of coming with some existing tech, some existing experience, and then having us sort of taken all the arrows figuring out how to get Electron done... It was like a pretty good flanking maneuver. But then I think a lot of Atom's wounds, honestly, were like self-inflicted on a number of levels. I made some mistakes... And I think one part of it was just never having clear leadership.
 
-\[00:18:05.07\] I had been there from the beginning to almost the end. I was the longest-serving member of the team, but I never had any official authority on the team... Yeah, so that was part of it. But there was also just having started the Dark Ages - like, we started in CoffeeScript. It took us too long to switch to JavaScript; we should have gone straight to TypeScript. So just using inferior tools... And it's never the right time to like take a step back and be like "We should level up our tools. We should pause, do what we need to do to switch, we're going to take a short-term hit, and move forward." We never really pulled the trigger on that, so that was a mistake.
+\[18:05\] I had been there from the beginning to almost the end. I was the longest-serving member of the team, but I never had any official authority on the team... Yeah, so that was part of it. But there was also just having started the Dark Ages - like, we started in CoffeeScript. It took us too long to switch to JavaScript; we should have gone straight to TypeScript. So just using inferior tools... And it's never the right time to like take a step back and be like "We should level up our tools. We should pause, do what we need to do to switch, we're going to take a short-term hit, and move forward." We never really pulled the trigger on that, so that was a mistake.
 
 And then we just focused so much on this very broad definition of extensibility, of like "You could come in, run your JavaScript on the main thread, and you could do anything." And I think Microsoft's approach was a lot more conservative, and a lot more focused... But of course, they were coming from the position of working on IDEs, working on the TypeScript's tooling... And so I just think, from their perspective, the language server protocol, and focusing in a more pinpoint way, precision way on the specific types of extensibility that would matter, gave them a big advantage... Because it's hard to maintain all that surface area; it takes a lot of time and energy and resources. And then early decisions we had made that weren't the most performant were sort of sealed in concrete by these API contracts we had made...
 
@@ -168,7 +168,7 @@ So from a structure perspective, that was one thing. But then I just felt like w
 
 And then there was just like making sure that we had a solid core product, that met a lot of people's needs right out of the box in terms of the languages they wanted to work with, interacting with the language server protocol... Just having all the pieces in place, and fast and polished and dialed in before we even worried about extensibility at all.
 
-\[00:22:08.25\] When the iPhone came out, it did a couple of things. It made calls, and you could browse the web. And it wasn't until a little bit later that they launched extensibility. And so that's the strategy we're taking as well. I mean, I am one of the creators of Atom; obviously, I love extensibility. That's a huge value of life. But Zed, as it comes out in this initial beta launch, really, it's not extensible. That's something we'll add. But we want to make sure that we get that core experience right, so that when we start opening up any of those contracts, which we're going to be much more judicious about, we know that the core is solid, and we don't need to go back and change anything and violate those APIs.
+\[22:08\] When the iPhone came out, it did a couple of things. It made calls, and you could browse the web. And it wasn't until a little bit later that they launched extensibility. And so that's the strategy we're taking as well. I mean, I am one of the creators of Atom; obviously, I love extensibility. That's a huge value of life. But Zed, as it comes out in this initial beta launch, really, it's not extensible. That's something we'll add. But we want to make sure that we get that core experience right, so that when we start opening up any of those contracts, which we're going to be much more judicious about, we know that the core is solid, and we don't need to go back and change anything and violate those APIs.
 
 **Jerod Santo:** Well, I think you're spot on there with regards to like the order of precedence of things that you need to get right. I mean, as a user, if I took those three things - performance, extensibility and collaboration - and I said, "Which order do you want them in?", that's the exact order that I want them in. And so many tools -- to this day, I'm a Sublime Text user, because for me, I use Vim in the command line, but for text editing in Sublime Text, because it's just faster; it's faster than VS Code. It's faster than Atom used to be.
 
@@ -176,7 +176,7 @@ I liked the ideas behind Atom, I love the extensibility, and just the whole -- i
 
 I'm curious, though... So this Xray work that you did, one of the things about Zed and this breakthrough performance that it has - according to the website; I've only used it for 15 minutes, and it does feel fast... But it has built like a video game thing, so like you're doing this whole -- because it's like "Well, how do we actually make it fast?" And you could say Rust, but okay... That's not going to get you all the way there. It's going to get you to be faster than v8 maybe in some context... But this 2D rendering GPU thing - ha that that come out of your work on Xray? Is that a brand new thing you guys built for Zed? So in other words, is it just like a spiritual successor, or is there actually code that you built on this version of Atom 2.0, which was called Xray, that made it into Zed?
 
-**Nathan Sobo:** There's a tiny bit of code. It was all open-sourced, so...
+**Nathan Sobo:** There's a tiny bit of code. It was all open sourced, so...
 
 **Adam Stacoviak:** Super-clear there.
 
@@ -186,7 +186,7 @@ So a big thing that Antonio and I did in those first several months, nights and 
 
 So like that was the first big problem we needed to solve, is like "How do we do UI?" And so initially, the foundation of GPUI, we thought, "Well, maybe what we could do is still have Electron do the rendering for us." Like, just that last little bit. And so the core of Zed was actually -- we tried a couple different approaches. One was embedded into Electron as a library, and then the other was actually running as a separate process... And the views would render JSON, which would then be consumed by React on the frontend, and would render the UI.
 
-\[00:26:21.01\] And so we put all this work into the core of the system written in Rust, with painstaking attention to our algorithmic bounds, and etc. And then the JSON would get to the JavaScript, and we'd just throw it all away immediately... Starting with parsing that data, and then recalculating styles, reflowing the DOM... Like, no matter what we did, we just couldn't achieve the performance that we wanted, even starting from zero, and doing as much as we could of Rust.
+\[26:21\] And so we put all this work into the core of the system written in Rust, with painstaking attention to our algorithmic bounds, and etc. And then the JSON would get to the JavaScript, and we'd just throw it all away immediately... Starting with parsing that data, and then recalculating styles, reflowing the DOM... Like, no matter what we did, we just couldn't achieve the performance that we wanted, even starting from zero, and doing as much as we could of Rust.
 
 And so at some point we were just like -- I don't know, I was afraid of doing our own UI, honestly, to some extent, because it just seemed daunting. It just didn't even seem like a reasonable thing to try, to me. But at some point, it was just like "Well, there's no point in doing this if it isn't super-fast... And this is not fast." And so finally, it was just like "We have to abandon Electron. We have to do the graphics ourselves." And I'd never really done any graphics programming. We played with it a little bit during Xray, like doing WebGL stuff... So yeah, we started with this Rust crate called Pathfinder, which is - Patrick Walton wrote it; really cool ideas in there about doing like a Bézier curve, 2D rendering on the GPU... But that was too slow. And so finally, we just boiled it down to "Well, what do we actually need to draw? What is a 2d UI?" And it boils down to some rounded corner boxes, with borders, and padding... Drop shadows... We need to get glyphs and icons on the screen... You know, there's like a pretty limited vocabulary that we knew we'd need to have, and so we ended up just like writing our own shader code. And to this day, we have like maybe 600 lines of shader code.
 
@@ -194,7 +194,7 @@ The UI library is pretty large, but in terms of the actual code that needs to ru
 
 A lot of the innovation I think is like code that runs on the CPU, that kind of gets that data into the GPU's memory. But yeah, that was the path of just relentlessly saying, "Until this is fast, we haven't solved the problem, and we're going to do whatever we need to do to get there."
 
-**Break:** \[00:28:59.15\] to \[00:32:17.28\]
+**Break:** \[28:59\] to \[32:17\]
 
 **Adam Stacoviak:** This GPUI thing is a brand new thing. Is this something you all invented? Can you kind of like --
 
@@ -212,7 +212,7 @@ So that's a big part of GPUI, is sort of how do you structure the application lo
 
 So a big part of GPUI is just like a scheme for modeling bi-directional data relationships between these big views and models in the app. And then there's another big piece of it, which is, "Okay, once we have updated the state of a view, how do we represent that view on screen?" So there's this concept of a tree of elements, which is kind of inspired by React, but the difference is that in React you have the virtual DOM, and they're diffing it with the underlying DOM, and then that produces some mutations to this retained mode representation of the state of the UI, and then a bunch of other stuff etc. Like, there's this big chain that occurs... Where instead, anytime any view you updates its state, we basically rerender the entire window. So we build this tree of elements, and we do a pass from the top that lays everything down. And this is inspired by Flutter, which we found via the writings of \[unintelligible 00:36:04.16\] Levine.
 
-\[00:36:07.17\] So yeah, we do this layout pass-down that says the constraints, how big or small anything can be, then everything passes, it sizes up. So there's one linear layout pass, and then one linear paint that populates this cross-platform scene representation. Then we go straight into GPU memory and draw it.
+\[36:07\] So yeah, we do this layout pass-down that says the constraints, how big or small anything can be, then everything passes, it sizes up. So there's one linear layout pass, and then one linear paint that populates this cross-platform scene representation. Then we go straight into GPU memory and draw it.
 
 And so we bypass all this nonsense that occurs on the web. I mean, this model of the web vastly predates the availability of GPUs, and introduces a lot of complexity that's not relevant to the problem we face, of like keystroke to pixels. I get a keystroke, I want pixels on the screen on the next frame. And so yeah, GPUI is the system that we built, that kind of aligned with our intuitions, and everything we've learned about doing UI... And I'm sure there's many ways to do it, but this one's ours, and it's worked pretty well for us.
 
@@ -232,7 +232,7 @@ And so success to them. That's all good. But now here comes Zed... And I'm think
 
 **Nathan Sobo:** Right.
 
-**Jerod Santo:** \[00:40:09.24\] Maybe help share your mindset around what Zed's trying to become, the landscape, and how you set yourself apart against VS Code now, to carve out your own user base that's big enough to support a growing company with debt, so to speak.
+**Jerod Santo:** \[40:09\] Maybe help share your mindset around what Zed's trying to become, the landscape, and how you set yourself apart against VS Code now, to carve out your own user base that's big enough to support a growing company with debt, so to speak.
 
 **Nathan Sobo:** Yeah, absolutely. Well, we raised equity, for what that's worth, but...
 
@@ -260,7 +260,7 @@ Now, you'll have to talk to our investors for their particular motivations, but 
 
 And for me, the opportunity is really about how we all communicate around code. I mean, I worked at GitHub for nine years. I love GitHub, but I also don't feel like there's been substantial innovation, since pull requests came out all those many years ago. And I think it made sense at the time to kind of hang this social layer on top of the version control artifacts. I just think we can take it much further. I mean, that's what I pitched Chris on, to kind of get hired at GitHub, and we didn't manage to pull it off... But now I think, based on everything we've learned, we're actually positioned to do that.
 
-\[00:44:00.21\] And so what I really want is a world in which having a conversation about any line of code, whether it was written a couple of years ago, or I just wrote it and I haven't even hit Save, is something that just feels like at my fingertips; I can @ mention a teammate, pull them in, and start a conversation, so that conversation is really growing over the entire codebase. Because again, you want to introduce a new feature - that probably interacts with some other layer of the system that you may not understand. Already, you need to start having a conversation. But do you do that on a pull request? You haven't even written one line of code yet. You're just trying to understand what's going on.
+\[44:00\] And so what I really want is a world in which having a conversation about any line of code, whether it was written a couple of years ago, or I just wrote it and I haven't even hit Save, is something that just feels like at my fingertips; I can @ mention a teammate, pull them in, and start a conversation, so that conversation is really growing over the entire codebase. Because again, you want to introduce a new feature - that probably interacts with some other layer of the system that you may not understand. Already, you need to start having a conversation. But do you do that on a pull request? You haven't even written one line of code yet. You're just trying to understand what's going on.
 
 And so there's just so many things like that, where it would be a great idea to have a tool that really facilitates interaction around code, and it just doesn't exist. Like, I don't know what we did; we'd like paste code into Slack, or like \[unintelligible 00:44:51.28\] You're talking about code that isn't even there, and then it scrolls off the screen, and it's gone forever when someone else comes to the code and has the same exact question that you had. Or are you hopping on a Zoom call and now one person's like dictating through the screen, like "Oh, no, no, no. Okay, open this file; okay, now go to this function..." Whereas already in Zed we've tackled the real-time piece of it.
 
@@ -276,7 +276,7 @@ If you want to use it by yourself, I want you to do that and do it without payin
 
 **Nathan Sobo:** Oh, yeah.
 
-**Adam Stacoviak:** \[00:47:59.06\] Some of the greatest minds working on it, working in it. We just had a conversation around dev containers which is built right into VS Code. It can be built into Zed as well pretty easily, I'm sure, because it's open source, and the CLI is there and the APIs are there... But that's a task. The business model seems sound, and we've definitely heard the teams aspect before. And it's nice that you want to give the editor away, as you said, "for free", to anyone who wants to use it in perpetuity, because you want to build a better code editor; something that when you click a button or push a key, that the very next frame - it's there. And that's that's amazing.
+**Adam Stacoviak:** \[47:59\] Some of the greatest minds working on it, working in it. We just had a conversation around dev containers which is built right into VS Code. It can be built into Zed as well pretty easily, I'm sure, because it's open source, and the CLI is there and the APIs are there... But that's a task. The business model seems sound, and we've definitely heard the teams aspect before. And it's nice that you want to give the editor away, as you said, "for free", to anyone who wants to use it in perpetuity, because you want to build a better code editor; something that when you click a button or push a key, that the very next frame - it's there. And that's that's amazing.
 
 I do want to mention though, because you mentioned Chris's name... Chris, if you're listening, it's been since episode 10. Come back on. Okay?
 
@@ -347,7 +347,7 @@ I do want to mention though, because you mentioned Chris's name... Chris, if you
 
 **Nathan Sobo:** Yeah, the last editor... I'm pretty sure this is the last editor I'm gonna build...
 
-**Jerod Santo:** \[00:51:56.10\] It's at least Nathan's last editor... \[laughter\] It's not THE last editor...
+**Jerod Santo:** \[51:56\] It's at least Nathan's last editor... \[laughter\] It's not THE last editor...
 
 **Nathan Sobo:** Swinging for the fences on this one.
 
@@ -397,7 +397,7 @@ I do want to mention though, because you mentioned Chris's name... Chris, if you
 
 **Nathan Sobo:** Exactly. So yeah, we are trying to build the business. But we're also developers as well, and know what we would want... And so we're trying to be respectful of that.
 
-**Jerod Santo:** \[00:56:03.06\] Yeah. Well, I think the open core, the open source aspect, when you get there, helps people with adoption, with regards to those kinds of things. It's like, I'm not hardcore on everything I use has to be open source. Obviously, I'm a Sublime Text user; it's not an open source product.
+**Jerod Santo:** \[56:03\] Yeah. Well, I think the open core, the open source aspect, when you get there, helps people with adoption, with regards to those kinds of things. It's like, I'm not hardcore on everything I use has to be open source. Obviously, I'm a Sublime Text user; it's not an open source product.
 
 **Nathan Sobo:** Right.
 
@@ -429,7 +429,7 @@ So in terms of the exact -- yeah, my gut tells me right now it's going to be a s
 
 **Nathan Sobo:** And we learned a lot from Atom around -- you know, just because you make something open source doesn't mean you're making the most of that community. And so I think that's part of what we're focused on now, is just like first get the freakin' thing out there, and get our ducks in a row so that we're -- I mean, we're not going to do a perfect job, but we're well positioned to do as good a job as we can, like channeling the energy of people that want to participate, and being clear on what kinds of contributions we're interested in and not...
 
-\[01:00:08.16\] And yeah, I mean, really, we may go sooner, but I would really very much like to open-source Zed on Zed, meaning use some of the capabilities I'm talking about developing as a part of the open source, the experience of contributing to Zed. Like, you have a question about the code as you're trying to contribute? Being able to engage with us in Zed, on the code.
+\[01:00:08.16\] And yeah, I mean, really, we may go sooner, but I would really very much like to open source Zed on Zed, meaning use some of the capabilities I'm talking about developing as a part of the open source, the experience of contributing to Zed. Like, you have a question about the code as you're trying to contribute? Being able to engage with us in Zed, on the code.
 
 **Jerod Santo:** That would be cool.
 
@@ -437,7 +437,7 @@ So in terms of the exact -- yeah, my gut tells me right now it's going to be a s
 
 **Adam Stacoviak:** Okay.
 
-**Jerod Santo:** So, okay, I'm starting to see a little bit more of your picture here... Because now all of a sudden who needs GitHub? Open-source it on Zed.
+**Jerod Santo:** So, okay, I'm starting to see a little bit more of your picture here... Because now all of a sudden who needs GitHub? Open source it on Zed.
 
 **Nathan Sobo:** I mean, I don't mean this necessarily like go Git hosting...
 
