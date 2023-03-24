@@ -64,7 +64,7 @@ So yeah, I'm really looking forward to like robots who can't use contractions, a
 
 **Carl Johnson:** Oh, yeah. It's super-literal.
 
-**Mat Ryer:** \[00:05:50.09\] Yeah. And they're like -- you need a lawyer. You need to have a lawyer with you if you ever come across a genie. Because they will get you. You'll be like "I want to have a million dollars", and then it'll crush you with a million dollars, or something.
+**Mat Ryer:** \[05:50\] Yeah. And they're like -- you need a lawyer. You need to have a lawyer with you if you ever come across a genie. Because they will get you. You'll be like "I want to have a million dollars", and then it'll crush you with a million dollars, or something.
 
 **Carl Johnson:** Yeah, they'll put a million pennies around your head. My thought for the genie is you use your first two wishes to like set up your third. So like your first wish is like "I wish to know what the perfect wish is", and then like your second wish is like "I wish to say the perfect wish, without messing it up somehow, or getting tongue-tied, or ruining it..." And then finally you do it, you know? But you've gotta -- you can't just jump straight to the perfect wish. You've kind of got to tee it up with the first two.
 
@@ -112,7 +112,7 @@ So anyway, I feel like this genie stuff is important, because now ChatGPT is goi
 
 **Jon Calhoun:** I don't know what fax machines have a wheel you turn. I'm so confused right now.
 
-**Mat Ryer:** \[00:09:42.21\] I can't remember them, really. I've not done any research. Carl, I've got another icebreaker for you. ICEBREAKER! Patent lawsuits possibly pending, because we think that might already be a thing... But assuming not, Carl, your icebreaker. You are in a cave, dark, \[unintelligible 00:09:58.28\] cave, it stinks... There's a little lamp on the floor. It's got an apple logo on it. So you rub it, and it's like "Oh, what's this?" Bloody Tim Cook Genie pops out and says "Right, you can have three wishes." What do you want for your next iPhone, or your next phone feature? You can have any features you want; you get to pick the next three. Or you can just pick one. What's your top feature you want for your phone?
+**Mat Ryer:** \[09:42\] I can't remember them, really. I've not done any research. Carl, I've got another icebreaker for you. ICEBREAKER! Patent lawsuits possibly pending, because we think that might already be a thing... But assuming not, Carl, your icebreaker. You are in a cave, dark, \[unintelligible 00:09:58.28\] cave, it stinks... There's a little lamp on the floor. It's got an apple logo on it. So you rub it, and it's like "Oh, what's this?" Bloody Tim Cook Genie pops out and says "Right, you can have three wishes." What do you want for your next iPhone, or your next phone feature? You can have any features you want; you get to pick the next three. Or you can just pick one. What's your top feature you want for your phone?
 
 **Carl Johnson:** I think the top feature would be to bring back the headphone jack on the iPhone 7 shape. I guess iPhone SE. Yeah, just bring back that iPhone SE, but put on a real headphone jack. I'm still mad at them for taking it away.
 
@@ -130,7 +130,7 @@ So it's always about being very explicit and clear, so that when I come back lat
 
 So in generic Go - so as of the last year, Go has had generics. One of the kind of issues which I hope that they fixed sometime is that there's no good way to say "return the zero value of whatever type I'm dealing with", right? So inside of a generic code statement you might say like "my type is t, and I just want you to return whatever the zero value of t is." And so there's a couple of ways you can get around it. And the way that I think most people get around it is they end up typing, "var x, or whatever, t", so then now you've got an x, which is of type t, and it's the zero value, and then you just say return x. Or var zero t return zero. That's what most people do.
 
-\[00:14:33.02\] But another thing you can do, which is hard to talk about on a podcast, because talking about syntax on a podcast is always death, is you can do return star new parentheses t parentheses. And so it's like the winking newt, the star newt. And if you say that, that will return the zero value of whatever t is.
+\[14:33\] But another thing you can do, which is hard to talk about on a podcast, because talking about syntax on a podcast is always death, is you can do return star new parentheses t parentheses. And so it's like the winking newt, the star newt. And if you say that, that will return the zero value of whatever t is.
 
 So if you think about it logically, what it's doing is it uses new t to create a pointer to t, and then the star means dereference the pointer to t. And since you had just created it, it's the zero value. And so it's like this weird little idiom that's popping up in generic Go code. And that's basically the only time I use new, is in that particular construct. And really, I'm just doing it because it's kind of cheeky, that it's a little newt.
 
@@ -160,7 +160,7 @@ And then the use case that I also really want it for is for comparison. In the l
 
 **Jon Calhoun:** Yeah. So I've seen cases where it's useful. I'm not trying to say "This definitely shouldn't exist in the language." But I don't ever use it, because in my mind, most people have never seen it in their life. So if you put it in code, the first time they see it, they're gonna be like "What is going on right now?" And I don't tend to like things like that, where people are going to see it and just have no idea what's going on, unless there's a really good reason for it.
 
-**Carl Johnson:** \[00:18:11.09\] Yeah. And I think a lot of people are going to see it and they would -- just naively, you would assume that, "Oh, there's a third thing in there. Maybe the third thing is like the stride." Right? So the idea of like you're skipping, or you're doing something... I don't know, I would guess it would be like maybe this makes it go backwards through the slice, or reverses it, or something... I don't know. I wouldn't just like naively guess "Oh, this is what controls the capacity." You really have to look it up, or be told it before you see it.
+**Carl Johnson:** \[18:11\] Yeah. And I think a lot of people are going to see it and they would -- just naively, you would assume that, "Oh, there's a third thing in there. Maybe the third thing is like the stride." Right? So the idea of like you're skipping, or you're doing something... I don't know, I would guess it would be like maybe this makes it go backwards through the slice, or reverses it, or something... I don't know. I wouldn't just like naively guess "Oh, this is what controls the capacity." You really have to look it up, or be told it before you see it.
 
 **Mat Ryer:** Yeah, the only clue to that is in the make, because you get the extra arguments. But that's so different to this. Yeah, I don't know, it looks like you're saying - yeah, 1 to 3, definitely 3. I promise. Like, you're just being very clear again, setting that variable twice. But yeah, it does look quite weird. I genuinely had forgotten that was even there, Jon.
 
@@ -180,7 +180,7 @@ And then the use case that I also really want it for is for comparison. In the l
 
 Remove bear return... So in Go, there's this idea of named returns, right? So a named return - what you can do is in the same way that you name your arguments that go into the function, you can name the arguments that come out of the function, especially when there's more than one... But you could also do it if there's just one. So with bare return, what you do is you could only use it when your function arguments are named, you can instead of like saying "return x, y", just say "return", and since it knows that x and y are the return values, it'll just automatically return x and y.
 
-\[00:22:02.29\] So I think that having named returns is really nice. Like, you can set it up, it's part of the documentation, it helps for cases where you need to where you want to overwrite the return value in a defer, it's good for that... But then the naked return --
+\[22:02\] So I think that having named returns is really nice. Like, you can set it up, it's part of the documentation, it helps for cases where you need to where you want to overwrite the return value in a defer, it's good for that... But then the naked return --
 
 **Mat Ryer:** It's nice in interfaces sometimes to describe the outcoming arguments.
 
@@ -220,7 +220,7 @@ Remove bear return... So in Go, there's this idea of named returns, right? So a 
 
 **Jon Calhoun:** The only thing I'll do is, with comments - like, if I want them to have like a max 80 character width, or something, you can set up like an extension in VS Code or whatever to just sort of break it up for you.
 
-**Mat Ryer:** \[00:25:59.02\] Oh, that's nice.
+**Mat Ryer:** \[25:59\] Oh, that's nice.
 
 **Jon Calhoun:** So I know that shortcut in my in VS Code for the extension that I have. But that's the only one. And I don't care as much -- like, if I'm reading somebody else's code and they have a really long comment, I just have word wrap on, so it doesn't make a difference to me... But it's whenever I'm recording videos that other people are going to watch, or doing other things like that, for whatever reason I'm kind of anal about that, I guess; I just want it to be broken up. But I don't do like any other fancy stuff, because like you said, anytime you want to change anything, which to me feels like all the time, it's just obnoxious to do.
 
@@ -242,7 +242,7 @@ In the standard library there's regex.must, and template.must. There's a couple 
 
 But if you're calling a method and it's gonna panic because it could be nil, something in there could be nil, I might check if it's nil, and if it is a panic... Because it's gonna panic anyway. Because sometimes it's nice to avoid having that second error argument; you can build more composable things sometimes. So yeah, okay, I probably still won't panic though much...
 
-**Jon Calhoun:** \[00:30:18.29\] I feel like if you see a case where a panic is okay - it's rare, but I feel like when you see it and discuss it, it's a little bit easier to be like "Okay, that makes sense in that one case. But don't make a habit of it."
+**Jon Calhoun:** \[30:18\] I feel like if you see a case where a panic is okay - it's rare, but I feel like when you see it and discuss it, it's a little bit easier to be like "Okay, that makes sense in that one case. But don't make a habit of it."
 
 **Carl Johnson:** I've seen some things where people are really opposed to panics, and they want there to be errors on things like slice out of bounds, and whatnot... And I just feel like that's too far. If every single time you used a slice, you had to say \[unintelligible 00:30:45.09\] that'd be too much.
 
@@ -258,7 +258,7 @@ And having everything you need, even like sometimes request/response objects ins
 
 **Carl Johnson:** Yeah. I think a lot of times in an application you can end up with -- like, you could just do it with global state, right? There's no reason that you couldn't just say "Alright, I'll have all my variables at the package level, as global state, because it's just a single application, and it's not a big deal..." But it's better to use them as struct variables, just because it puts them in one place, and then you can see them. And it just conceptually makes it a lot easier to deal with if it's like app.database versus database, right? If database is just floating around at the package level, you're like "Where did that come from? What does that mean?" Versus if it's app.database, you're like "Oh, it came from the app." Even if there's only ever going to be one app, and you couldn't have two at the same time.
 
-**Mat Ryer:** \[00:34:20.20\] Yeah, I completely agree. I would actually do away with global state altogether. I get it for like -- if you're writing quick little scripts... That's I think where it came from; it's just very easy to start doing things. But if you just -- just by being explicit about everything makes the code so much more readable. And think about testing. If you've just got one thing in global state, your test code often -- if you're going to try and sort of mock it or something, it'll interfere with it in weird ways. And it's sort of a bit too magic.
+**Mat Ryer:** \[34:20\] Yeah, I completely agree. I would actually do away with global state altogether. I get it for like -- if you're writing quick little scripts... That's I think where it came from; it's just very easy to start doing things. But if you just -- just by being explicit about everything makes the code so much more readable. And think about testing. If you've just got one thing in global state, your test code often -- if you're going to try and sort of mock it or something, it'll interfere with it in weird ways. And it's sort of a bit too magic.
 
 So yeah, I would say avoid global state altogether, and just have -- I mean, obviously, variables and constants and stuff like that, but not state that's like -- errors, I would probably keep there, if they're part of the package level, if it's part of the API design. But other stuff, I'd probably pop it somewhere else.
 
@@ -274,7 +274,7 @@ So yeah, I would say avoid global state altogether, and just have -- I mean, obv
 
 **Carl Johnson:** There was a really interesting proposal by this guy \[unintelligible 00:37:18.14\] Have you guys ever run into him online? He's a super-genius about programming languages. Like, he's this German, maybe Swiss-German guy who - he just understands the Go type system in this really intensely intricate way. And he had one blog post where he said "What we should do about package-level state is to have dynamic variables." And ever since then, I've always like looked at it and thought "It should be a dynamic variable. Yeah."
 
-\[00:37:46.29\] So the way dynamic variables work - it was in some older languages, like Bash, and I think maybe in Perl if you don't use the my keyword, it ends up being a dynamic variable... But basically, no programming languages that are around anymore use dynamic variables, because they stink. They're totally unusable, except for this one use case. And the way that it works is when you call a function, and then you look at the global, what you see depends on who called it, and it's like, it would paste over the value with the new value... Anyway, it's this really crazy idea. If you google for it, I think you can find it; or we can put it in the show notes. But it's -- yeah, it's this really crazy idea. And if there's ever like a Go 2, I would be really interested to see an idea like that make it into the language. But definitely, it's not something that's going to change anytime soon.
+\[37:46\] So the way dynamic variables work - it was in some older languages, like Bash, and I think maybe in Perl if you don't use the my keyword, it ends up being a dynamic variable... But basically, no programming languages that are around anymore use dynamic variables, because they stink. They're totally unusable, except for this one use case. And the way that it works is when you call a function, and then you look at the global, what you see depends on who called it, and it's like, it would paste over the value with the new value... Anyway, it's this really crazy idea. If you google for it, I think you can find it; or we can put it in the show notes. But it's -- yeah, it's this really crazy idea. And if there's ever like a Go 2, I would be really interested to see an idea like that make it into the language. But definitely, it's not something that's going to change anytime soon.
 
 **Jon Calhoun:** So I think it was Dave Cheney that wrote the blog post about it, about making errors that are constants, but you have to basically make strings, and then... You essentially make a type that's really a string underneath the hood, and then you add the error function to it. Do you guys find yourselves actually using that a lot in code, like to actually make sure it's a constant error versus a variable error?
 
@@ -334,7 +334,7 @@ So yeah, I would say avoid global state altogether, and just have -- I mean, obv
 
 **Carl Johnson:** I think that's the most important thing I learned at my first job, was -- you know, I came to work every day and I just ate my lunch at my desk, and at the end of the year my laptop was completely filthy. It was just disgusting. And what I learned from that is never ever, ever, under any circumstances, eat in front of a keyboard, no matter what; even if there's like a hostage situation, never. Just don't do it.
 
-**Jon Calhoun:** \[00:42:09.08\] I just like move my keyboard off to the side, so I'm like "Alright, this is all my eating space."
+**Jon Calhoun:** \[42:09\] I just like move my keyboard off to the side, so I'm like "Alright, this is all my eating space."
 
 **Mat Ryer:** Hang on... Carl, have you ever read the news, and they said "Oh, there's a hostage situation, and the gunman has made people eat their lunch in front of our keyboards. People are livid." I've never heard that... I don't know.
 
@@ -376,7 +376,7 @@ So useless uses of generics - this is a thing that I see a lot recently, where p
 
 **Jon Calhoun:** So are you referring to cases where they're like passing data in to turn it into JSON, and they're not actually getting anything back?
 
-**Carl Johnson:** \[00:45:53.00\] Yeah. Or somebody will be writing like an API handler, and they'll say, "Okay, given type t, that I'm gonna call this data, and turn it into JSON, and send it over HTTP..." And it's like, okay, but as soon as you take the data and you turn it into JSON, you've lost all the type safety. So you could just say - take the any type, and you don't need generics for this. This is just like regular code that would have worked without generics.
+**Carl Johnson:** \[45:53\] Yeah. Or somebody will be writing like an API handler, and they'll say, "Okay, given type t, that I'm gonna call this data, and turn it into JSON, and send it over HTTP..." And it's like, okay, but as soon as you take the data and you turn it into JSON, you've lost all the type safety. So you could just say - take the any type, and you don't need generics for this. This is just like regular code that would have worked without generics.
 
 **Jon Calhoun:** Okay, so you're not referring to cases -- like, in my head, I'm thinking I could write a wrapper around sync.map that uses generics. And now all of a sudden I can like actually create a typed sync.map wrapper, essentially, that actually gives me back the types that are already in that type, and I don't have to go through all those hoops of converting from any back to my type. But I feel like that's very different than what you're explaining.
 
@@ -392,7 +392,7 @@ So useless uses of generics - this is a thing that I see a lot recently, where p
 
 **Mat Ryer:** Yeah. Carl, do you use them in your day to day?
 
-**Carl Johnson:** Yeah... Basically, everything I do, I open-source, unless there's some reason I really can't open-source it. And so for that, I do like to use the internal just sort of to mark like "This is the boundary of stuff that you can look at, and this is the boundary of stuff you can't look at." Like, I have a requests packages, and inside of that there's an internal that does the testing stuff... And it's like, okay, I don't want you to start relying on requests.test; just use requests, and don't mess with the tests stuff in there. But other than that, yeah...
+**Carl Johnson:** Yeah... Basically, everything I do, I open source, unless there's some reason I really can't open source it. And so for that, I do like to use the internal just sort of to mark like "This is the boundary of stuff that you can look at, and this is the boundary of stuff you can't look at." Like, I have a requests packages, and inside of that there's an internal that does the testing stuff... And it's like, okay, I don't want you to start relying on requests.test; just use requests, and don't mess with the tests stuff in there. But other than that, yeah...
 
 **Jon Calhoun:** So are you doing it so that you can still export the stuff and use it throughout your code, but you are basically telling anybody who's going to consume that API or that library that, "Hey, you shouldn't rely on this to stay constant, because it's something that I might change"?
 
@@ -410,7 +410,7 @@ So useless uses of generics - this is a thing that I see a lot recently, where p
 
 **Mat Ryer:** I was expecting you to know the exact error message.
 
-**Carl Johnson:** \[00:50:11.27\] Yeah, I should have memorized it before the show, but you guys told me at the last minute, so I didn't go down my list of things.
+**Carl Johnson:** \[50:11\] Yeah, I should have memorized it before the show, but you guys told me at the last minute, so I didn't go down my list of things.
 
 **Mat Ryer:** Otherwise, you would have definitely checked.
 
@@ -424,7 +424,7 @@ could see that. But if it's me and one other person working on a small open sour
 
 **Mat Ryer:** Yeah, you get a lot for free by having small little teams... Like, when you scale and have more people collaborating, it's just the nature of it - it's trade-offs, things are different. You do extra work to protect things like that, probably. I think you're right. Yeah, okay... Well, it's that time, dear listener... It's your favorite time... It's everyone's favorite time... It's time for Unpopular Opinions!
 
-**Jingle:** \[00:51:27.03\]
+**Jingle:** \[51:27\]
 
 **Mat Ryer:** Do you use browsers to remember your passwords, fellas?
 
@@ -446,7 +446,7 @@ No, I'm thinking like - browsers, sometimes it'll say... Well, I use a password 
 
 **Mat Ryer:** It's different than how anyone unexpected...
 
-**Jon Calhoun:** \[00:53:56.02\] I will say that what you're describing is exactly why I don't store any passwords in Chrome anymore. I just felt like it got so annoying that it would constantly have the wrong password for different things... So I just use one external tool that I can have on all my devices. And it actually frustrates me when Chrome tries to suggest something, because I'm like "I don't use your password thing anymore. I thought I disabled this... Stop trying to do stuff."
+**Jon Calhoun:** \[53:56\] I will say that what you're describing is exactly why I don't store any passwords in Chrome anymore. I just felt like it got so annoying that it would constantly have the wrong password for different things... So I just use one external tool that I can have on all my devices. And it actually frustrates me when Chrome tries to suggest something, because I'm like "I don't use your password thing anymore. I thought I disabled this... Stop trying to do stuff."
 
 **Mat Ryer:** Yeah. But why don't you just use one password instead. Then it would remember it right, won't it?
 
