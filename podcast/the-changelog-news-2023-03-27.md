@@ -91,7 +91,7 @@ Ok let's finish up with a quick lightning round, shall we? These projects were a
 
 First up: Logto is an open source alternative to Auth0. It offers a seamless developer experience and is well-suited for individuals and growing companies.
 
-Basaran is an open source alternative to the OpenAI text completion API. According to its creators, the open source community will eventually witness the Stable Diffusion moment for LLMs, and Basaran allows you to replace OpenAI's service with the latest open-source model to power your application without modifying a single line of code.
+Basaran is an open source alternative to the OpenAI text completion API. According to its creators, the open source community will eventually witness the Stable Diffusion moment for LLMs, and Basaran allows you to replace OpenAI's service with the latest open source model to power your application without modifying a single line of code.
 
 Last one: llama-cli is a straightforward Go CLI interface for llama.cpp, providing a simple API and a command line interface that allows text generation using a GPT-based model like llama directly from the terminal.
 
