@@ -18,7 +18,7 @@ So I was just curious, when you started Whisper.cpp, why did you decide to code 
 
 **Georgi Gerganov:** Yeah, I'd be happy to tell you a little bit the story about how it came together... But as you mentioned - yes, the big corporations are producing and holding most of the interesting models currently, and being able to run them on consumer hardware is something that sounds definitely interesting.
 
-\[00:07:37.26\] Okay, so Whisper.cpp was kind of a little bit of luck and good timing... Actually, most of the stuff has been this way... \[laughter\] How it started - so Whisper was released in the end of September last year, and by that time I was basically a non-believer, a non-AI-believer; I didn't really believe much in the neural network stuff... I don't know, a more conservative point of view. I was wondering, usually, why are these people wasting so much effort on this stuff. But I had a totally ignorant point of view; I wasn't really familiar with the details, and stuff like this.
+\[07:37\] Okay, so Whisper.cpp was kind of a little bit of luck and good timing... Actually, most of the stuff has been this way... \[laughter\] How it started - so Whisper was released in the end of September last year, and by that time I was basically a non-believer, a non-AI-believer; I didn't really believe much in the neural network stuff... I don't know, a more conservative point of view. I was wondering, usually, why are these people wasting so much effort on this stuff. But I had a totally ignorant point of view; I wasn't really familiar with the details, and stuff like this.
 
 But when Whisper came out, I happened to be working on a smaller library... It was kind of a hobby project. Basically, this is the ggml library, which is at the core of Whisper.cpp, and it's a very \[unintelligible 00:08:39.10\] project, implementing some Tensor algebra. I was doing this for some machine learning task, work-related stuff also. But I usually hacked quite a lot of projects in my free time, like side projects, trying to find some cool and interesting ideas, and stuff like this... And usually, I do this in C++, but I was looking to change it a little bit, so ggml was an attempt to write something in C, like real men do... \[laughter\]
 
@@ -32,7 +32,7 @@ The next day, or the day after that, Whisper came out... And I opened the repo, 
 
 So I figured "Okay, I can easily port this. It might be interesting to have it running on a CPU. I know that everybody's running it on GPUs, so probably it will not be efficient, it will not be very useful, but let's give it a try." And that's basically how it came. And yeah, it slowly started getting some traction.
 
-**Jerod Santo:** \[00:12:01.08\] So Whisper was interesting to me immediately for a couple of reasons. First of all, we obviously have audio that needs transcribed, and we always are trying to improve the way that we do everything... And so automated transcriptions are very much becoming a thing, more and more people are doing them... So first, I was like, "Okay, a Whisper implementation that's pretty straightforward to use on our own." Obviously, you called it a hobby project, "Do not use it for your production thing, do not trust it", but it's proven to be pretty trustworthy. And then the second thing that was really cool about it was just how simple it was, insofar as the entire implementation of the models containing two source files. So you have it broken up into the Tensor operations and the transformer inference. One's in C, the other is in C++... And just as a person that doesn't write C++, and doesn't understand a lot of this stuff, it still makes it approachable to me, where it's like "Okay, this isn't quite as scary." And for people who do know C and C++, but maybe not know all of the modeling side and everything else involved there - very approachable.
+**Jerod Santo:** \[12:01\] So Whisper was interesting to me immediately for a couple of reasons. First of all, we obviously have audio that needs transcribed, and we always are trying to improve the way that we do everything... And so automated transcriptions are very much becoming a thing, more and more people are doing them... So first, I was like, "Okay, a Whisper implementation that's pretty straightforward to use on our own." Obviously, you called it a hobby project, "Do not use it for your production thing, do not trust it", but it's proven to be pretty trustworthy. And then the second thing that was really cool about it was just how simple it was, insofar as the entire implementation of the models containing two source files. So you have it broken up into the Tensor operations and the transformer inference. One's in C, the other is in C++... And just as a person that doesn't write C++, and doesn't understand a lot of this stuff, it still makes it approachable to me, where it's like "Okay, this isn't quite as scary." And for people who do know C and C++, but maybe not know all of the modeling side and everything else involved there - very approachable.
 
 So a) you can run it on your own stuff, CPU-based. b) You can actually understand what's going on here if you give these two files a read... Or at least high-level. So I think that was two things about Whisper that were attractive to me. Do you think that's what got people the most interested in it?
 
@@ -44,7 +44,7 @@ Yeah, another thing that generated interest was the speed, and it's a bit tricky
 
 Okay, so you run it on an M1... The Python is not really fast, and it was surprising when I ran it with my port, it was quite efficient, because for the very big matrix multiplications which are like the heavy operations during the computation, I was in the encoder part of the transformer, and learning those operations with the Apple Accelerate framework... Which is like an interface that somehow gives you extra processing power compared to just running it on the CPU. So yeah, it was efficient running Whisper.cpp. I think people appreciated that.
 
-\[00:16:07.26\] There was -- I said it was a bit tricky, because there was this thing with the text decoding mode... So yeah, I'll try not to get into super-much details, but there were basically two modes of decoding the text, like generating the transcription; they call it the greedy approach, and beam search. Beam search is much heavier to process in terms of computational power compared to the greedy approach. I just had the greedy approach implemented, and it was running by default, while on the Python repo it's the beam search running by default... And I tried to clarify this in the instructions. I don't think a lot of people really...
+\[16:07\] There was -- I said it was a bit tricky, because there was this thing with the text decoding mode... So yeah, I'll try not to get into super-much details, but there were basically two modes of decoding the text, like generating the transcription; they call it the greedy approach, and beam search. Beam search is much heavier to process in terms of computational power compared to the greedy approach. I just had the greedy approach implemented, and it was running by default, while on the Python repo it's the beam search running by default... And I tried to clarify this in the instructions. I don't think a lot of people really...
 
 **Jerod Santo:** Noticed the difference?
 
@@ -78,7 +78,7 @@ So you remember at that time, Adam, we were talking about like "Well, we could s
 
 **Adam Stacoviak:** Wow.
 
-**Jerod Santo:** \[00:19:49.18\] Now, I could have been doing it wrong... I'm sure there's ways of optimizing it... But just that difference was "Okay, I installed it much faster", I didn't have to have any of the Python stuff, which I'm scared off... And, at least in the most basic way of using each tool, it was just super-fast in comparison. And that was just exciting. I'm like "Oh, wow, this is actually approachable", I could understand it if I needed to, and it seems like, at least on an M1 Mac, it performs a whole lot better, with pretty much the same results. Because, like Georgi said, it's the same models. Like, you're using the same models, you're just not using all the tooling that they wrote around those models in order to run the inference, and stuff.
+**Jerod Santo:** \[19:49\] Now, I could have been doing it wrong... I'm sure there's ways of optimizing it... But just that difference was "Okay, I installed it much faster", I didn't have to have any of the Python stuff, which I'm scared off... And, at least in the most basic way of using each tool, it was just super-fast in comparison. And that was just exciting. I'm like "Oh, wow, this is actually approachable", I could understand it if I needed to, and it seems like, at least on an M1 Mac, it performs a whole lot better, with pretty much the same results. Because, like Georgi said, it's the same models. Like, you're using the same models, you're just not using all the tooling that they wrote around those models in order to run the inference, and stuff.
 
 **Adam Stacoviak:** And you're speaking to the main directory in the examples folder for Whisper.cpp. There's a readme in there that sort of describes how we use the main file, and pass a few options, pass a few .wav files, for example, and out comes a transcript, \[unintelligible 00:20:46.10\] flags you can pass to the main.cpp C++ file, essentially, to do that.
 
@@ -88,7 +88,7 @@ So you remember at that time, Adam, we were talking about like "Well, we could s
 
 **Georgi Gerganov:** Yeah, exactly. There are extra options, you can fine-tune some parameters of the transcription and the processing... By the way, it's not just -- okay, the main is like the main demonstration, with the main functionality for transcribing .wav files... But there are also additionally a lot of examples, like -- that's one of the interesting things also about Whisper.cpp... I try to provide very different ways to use this model; and they're mostly just basic hacks, and some ideas from people wanting some particular functionality, like doing some voice commands, like Siri, Alexa, and stuff like this. So there are a lot of examples there, and people can look and get ideas for projects.
 
-**Break:** \[00:22:45.03\]
+**Break:** \[22:45\]
 
 **Adam Stacoviak:** Going one layer deeper, maybe not even necessarily for everyone else, but for you and I, Jerod, maybe this is more pertinent - limited to 16-bit .wav files. Why is the limit to 16-bit? We often -- at least I record in 32-bit. So when I'm recording this, I'm tracking this here in Audition, my .wav files are in 32-bit, because that gives a lot more information, you can really do a lot in post-production with effects, and stuff like that, or decreasing or increasing semblances, and just different stuff in audio to kind of give you more data... And I guess in this case you're constrained by 16-bit .wav files. Why is that?
 
@@ -110,21 +110,21 @@ So you remember at that time, Adam, we were talking about like "Well, we could s
 
 **Georgi Gerganov:** Yeah, this is definitely one of the cool parts of the project. I rewrite the contributions, and people using it, and giving feedback, and all this stuff... Yeah, there are definitely quite a few projects already running. There are people making iOS applications, macOS applications, there are companies with bigger products integrating it into their -- I'm not sure we should say names, but it's definitely being applied in different places.
 
-I guess another interesting application is at some point we got it even running on a web page... And one of the examples was exactly that - basically, with Web Assembly you can load the model in a web page in your browser. And basically, you don't even have to install the repo or compile it; you just open the browser and you start transcribing. You still have to load the model, which is not very small... But it's amazing it can run even in a web page. I think there are a few web services that popped up using this idea, to offer you free transcription.
+I guess another interesting application is at some point we got it even running on a web page... And one of the examples was exactly that - basically, with WebAssembly you can load the model in a web page in your browser. And basically, you don't even have to install the repo or compile it; you just open the browser and you start transcribing. You still have to load the model, which is not very small... But it's amazing it can run even in a web page. I think there are a few web services that popped up using this idea, to offer you free transcription.
 
 **Adam Stacoviak:** Kind of obvious, but could you deploy that or distribute that through Docker, a Docker container, for example? That way you could just essentially docker compose up, and boom, you've got maybe a web service on your Local Area Network, if you wanted to, just to use or play with.
 
 **Georgi Gerganov:** Yeah, I'm not familiar with the Docker environment, but I think you should be able to do it. I see people are already using it for the Llama, and I guess there's no reason to not be able to. I don't know the details.
 
-**Adam Stacoviak:** \[00:29:53.25\] Of course, you can do it as a web service, but sometimes you want no dependence on anybody's cloud, whether it's literally a virtual private server that you've spun up as your service, or simply "Hey, I wanna use this locally in Docker", or something like that. Essentially, you've built the server in there, you've got whatever flavor of Linux you want, you've got Whisper.cpp already in there, and you've got a browser or a web server running it, just \[unintelligible 00:30:22.08\] you can name the service whisper.lan, for example.
+**Adam Stacoviak:** \[29:53\] Of course, you can do it as a web service, but sometimes you want no dependence on anybody's cloud, whether it's literally a virtual private server that you've spun up as your service, or simply "Hey, I wanna use this locally in Docker", or something like that. Essentially, you've built the server in there, you've got whatever flavor of Linux you want, you've got Whisper.cpp already in there, and you've got a browser or a web server running it, just \[unintelligible 00:30:22.08\] you can name the service whisper.lan, for example.
 
 **Georgi Gerganov:** Yeah.
 
-**Jerod Santo:** You can totally get that done, I think. So you brought up the fact that people are running this in the browser, in Web Assembly... Opportunistically, I'd like to get on the air my corollary to Atwood's Law that I posted last week on the socials... Do you guys know Atwood's Law? Any application that can be written in JavaScript, eventually will be written in JavaScript. Well, my corollary, which - I'm not gonna call it Santo's corollary, because that would be presumptuous... I'm not gonna call it that. I don't have a name for it yet. But it is any application that can be compiled in Web Assembly, and run in a browser, eventually will be compiled to Web Assembly and run in the browser, because it's just too much fun, right? The most recent example will be this one... But prior to that, do you know they're running WordPress in the browser now? Not like the rendered HTML of a WordPress site in your browser; the backend, in your frontend, in your browser...
+**Jerod Santo:** You can totally get that done, I think. So you brought up the fact that people are running this in the browser, in WebAssembly... Opportunistically, I'd like to get on the air my corollary to Atwood's Law that I posted last week on the socials... Do you guys know Atwood's Law? Any application that can be written in JavaScript, eventually will be written in JavaScript. Well, my corollary, which - I'm not gonna call it Santo's corollary, because that would be presumptuous... I'm not gonna call it that. I don't have a name for it yet. But it is any application that can be compiled in WebAssembly, and run in a browser, eventually will be compiled to WebAssembly and run in the browser, because it's just too much fun, right? The most recent example will be this one... But prior to that, do you know they're running WordPress in the browser now? Not like the rendered HTML of a WordPress site in your browser; the backend, in your frontend, in your browser...
 
 **Adam Stacoviak:** Wow.
 
-**Jerod Santo:** ...because Web Assembly. We just love it, and we're gonna love everything in it.
+**Jerod Santo:** ...because WebAssembly. We just love it, and we're gonna love everything in it.
 
 **Adam Stacoviak:** Why would you do that?
 
@@ -136,7 +136,7 @@ I guess another interesting application is at some point we got it even running 
 
 **Adam Stacoviak:** "Look, mom. I can do this."
 
-**Jerod Santo:** I'm sure there's other reasons, but that was pretty much what their blog post was, the folks who did it. I think it's the WASMLabs.dev folks put WordPress into the browser with Web Assembly... Because we can do it now, and so we're going to.
+**Jerod Santo:** I'm sure there's other reasons, but that was pretty much what their blog post was, the folks who did it. I think it's the WASMLabs.dev folks put WordPress into the browser with WebAssembly... Because we can do it now, and so we're going to.
 
 **Georgi Gerganov:** Yeah.
 
@@ -152,7 +152,7 @@ I guess another interesting application is at some point we got it even running 
 
 **Georgi Gerganov:** This feature is super-interesting from what I get from the responses... Basically being able to separate the speakers. You're right, so it's not out-of-the-box supported by the model, and there are third-party tools, and they are themselves, those tools are other networks, doing some additional processing... And again, I basically have almost absolutely no idea or expertise with this kind of stuff, and what works, and what doesn't work... Basically zero.
 
-\[00:34:18.00\] There were a few ideas popping around using Whisper in a not traditional way to achieve some sort of diarization... And it boils down to trying to extract some of the internal results of the computation, and try to classify based on some, let's say, features, or... I don't know, I'm not sure really how to properly explain it, but...
+\[34:18\] There were a few ideas popping around using Whisper in a not traditional way to achieve some sort of diarization... And it boils down to trying to extract some of the internal results of the computation, and try to classify based on some, let's say, features, or... I don't know, I'm not sure really how to properly explain it, but...
 
 So I tried a few things... I know people are also trying to do this... I guess it's not working out. So I don't know. This \[unintelligible 00:34:57.10\] at least from my point of view. Maybe if someone figures it out and it really works, we could probably have it someday... But for now it seems unlikely.
 
@@ -178,7 +178,7 @@ He actually came from GitHub and they had this thing called GitHub TV when he wo
 
 **Adam Stacoviak:** I know...
 
-**Jerod Santo:** \[00:38:02.14\] I think Whisper -- maybe Whisper 2 will just support this feature, and then we will all be happy, right? Like, you'll just upgrade your models and you'll just check it off your roadmap. But if not for something like that, I think it is probably a difficult thing to accomplish, just because the models aren't set up to do that particular task. They're just set up for speech recognition, not for speaker classification, or whatever you call it.
+**Jerod Santo:** \[38:02\] I think Whisper -- maybe Whisper 2 will just support this feature, and then we will all be happy, right? Like, you'll just upgrade your models and you'll just check it off your roadmap. But if not for something like that, I think it is probably a difficult thing to accomplish, just because the models aren't set up to do that particular task. They're just set up for speech recognition, not for speaker classification, or whatever you call it.
 
 **Georgi Gerganov:** Yeah, with the way things are going lately, I suppose by the end of the month OpenAI will probably release a new model which supports it...
 
@@ -218,7 +218,7 @@ He actually came from GitHub and they had this thing called GitHub TV when he wo
 
 So yeah, ARM NEON is helping for the CPU processing, and then there's this extra Apple framework, which I'm not really sure which part of the hardware it utilizes. Basically, this is the Apple Accelerate framework; it has a linear algebra API, so you can say "Okay, multiply these matrices", so it's really fast. I think it's running on something that is called AMX coprocessor, but it's not super-clear to me. I don't really care, it's just fast, so... \[laughter\] So why not use it?
 
-**Jerod Santo:** \[00:42:23.14\] Right.
+**Jerod Santo:** \[42:23\] Right.
 
 **Georgi Gerganov:** \[unintelligible 00:42:22.01\] optimizations.
 
@@ -240,7 +240,7 @@ So yeah, I guess using Accelerate is not really something new. It's probably not
 
 **Jerod Santo:** Oh, nice.
 
-**Georgi Gerganov:** \[00:46:00.27\] And this will kind of speed up the processing even further.
+**Georgi Gerganov:** \[46:00\] And this will kind of speed up the processing even further.
 
 **Jerod Santo:** Have you been able to run any benchmarks against your prototype, or have you gotten to that phase where you're actually seeing how much gains you're getting?
 
@@ -278,7 +278,7 @@ I tried to make it so they're kind of able to get into it, like create some entr
 
 **Jerod Santo:** European alpha coder. I thought that was a funny way of casting it by somebody on Twitter...
 
-**Georgi Gerganov:** \[00:50:12.07\] Yeah, I really like this meme. It originated on Twitter, someone calling me an alpha male European, or something. I don't know. It's kind of funny...
+**Georgi Gerganov:** \[50:12\] Yeah, I really like this meme. It originated on Twitter, someone calling me an alpha male European, or something. I don't know. It's kind of funny...
 
 **Jerod Santo:** So you did hack this together in an evening... Is that lore, or is that true?
 
@@ -318,7 +318,7 @@ And yeah, it just was a matter of time to find some free time to try it, and... 
 
 **Georgi Gerganov:** Yeah, I'm also wondering... I don't have a good answer. I guess it's the ChatGPT hype, doing inference locally, hearing your chat assistant on your device, and stuff like this... I don't know, I personally just try to kind of keep it real. As I told you, I was a non-believer a few months ago. Now it's hard to ignore...
 
-**Jerod Santo:** \[00:54:14.10\] It is.
+**Jerod Santo:** \[54:14\] It is.
 
 **Georgi Gerganov:** It seems to be working.
 
@@ -372,7 +372,7 @@ And yeah, it just was a matter of time to find some free time to try it, and... 
 
 **Georgi Gerganov:** Yeah, I'm doing this basically in the free time... And - I don't know, for the moment I just plan to try to make it a bit more accessible. Maybe attract some people to start contributing and help out, because there are quite a lot of requests already popping up... And my personal interests are just try to do some other fun, cool demos, and tools, and examples, and stuff like this. I don't know, from one point of view I don't really want to spend super-much time into these projects. I prefer to get them hopefully into a state where other people are helping out, so I can do other stuff.
 
-**Adam Stacoviak:** \[00:58:21.16\] So in terms of extensibility - you said by way of allowing others to come into the project, contribute code, help you move it along... I assume part of that is desires for other integrations with popular C++ libraries or frameworks... Our good friend, ChatGPT-4, as a matter of fact - that's the model I'm using to get this request - something like OpenCV, or I believe it's called Eigen, and potential other advantages for integrations. Are you thinking about stuff like that, where other C++ applications or libraries can leverage this work, to sort of take it to the next level or do other things with it? To give an example, OpenCV is a real-time automized computer vision library; it offers different tools. And Eigen, I believe, is something similar, where it's more around linear algebra, matrices, vectors, numerical solvers etc. related to algorithms. Have you thought about that kind of other angle, where it's not so much just you, but leverage of this in C++ land?
+**Adam Stacoviak:** \[58:21\] So in terms of extensibility - you said by way of allowing others to come into the project, contribute code, help you move it along... I assume part of that is desires for other integrations with popular C++ libraries or frameworks... Our good friend, ChatGPT-4, as a matter of fact - that's the model I'm using to get this request - something like OpenCV, or I believe it's called Eigen, and potential other advantages for integrations. Are you thinking about stuff like that, where other C++ applications or libraries can leverage this work, to sort of take it to the next level or do other things with it? To give an example, OpenCV is a real-time automized computer vision library; it offers different tools. And Eigen, I believe, is something similar, where it's more around linear algebra, matrices, vectors, numerical solvers etc. related to algorithms. Have you thought about that kind of other angle, where it's not so much just you, but leverage of this in C++ land?
 
 **Georgi Gerganov:** Yeah, my point of view for these projects - I prefer things to be super-minimal and without any third-party dependencies. I just prefer to apply it this way - keep things simple and don't rely on other stuff. If you ask the other way around, could other projects use ggml...
 
