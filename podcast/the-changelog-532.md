@@ -20,7 +20,7 @@ So I was just curious, when you started Whisper.cpp, why did you decide to code 
 
 \[07:37\] Okay, so Whisper.cpp was kind of a little bit of luck and good timing... Actually, most of the stuff has been this way... \[laughter\] How it started - so Whisper was released in the end of September last year, and by that time I was basically a non-believer, a non-AI-believer; I didn't really believe much in the neural network stuff... I don't know, a more conservative point of view. I was wondering, usually, why are these people wasting so much effort on this stuff. But I had a totally ignorant point of view; I wasn't really familiar with the details, and stuff like this.
 
-But when Whisper came out, I happened to be working on a smaller library... It was kind of a hobby project. Basically, this is the ggml library, which is at the core of Whisper.cpp, and it's a very \[unintelligible 00:08:39.10\] project, implementing some Tensor algebra. I was doing this for some machine learning task, work-related stuff also. But I usually hacked quite a lot of projects in my free time, like side projects, trying to find some cool and interesting ideas, and stuff like this... And usually, I do this in C++, but I was looking to change it a little bit, so ggml was an attempt to write something in C, like real men do... \[laughter\]
+But when Whisper came out, I happened to be working on a smaller library... It was kind of a hobby project. Basically, this is the ggml library, which is at the core of Whisper.cpp, and it's a very tight project, implementing some Tensor algebra. I was doing this for some machine learning task, work-related stuff also. But I usually hacked quite a lot of projects in my free time, like side projects, trying to find some cool and interesting ideas, and stuff like this... And usually, I do this in C++, but I was looking to change it a little bit, so ggml was an attempt to write something in C, like real men do... \[laughter\]
 
 **Adam Stacoviak:** For sure.
 
@@ -56,7 +56,7 @@ Okay, so you run it on an M1... The Python is not really fast, and it was surpri
 
 **Adam Stacoviak:** I'm curious what it takes to make a port. What exactly is a port? Can you describe that? So obviously, Whisper was out from OpenAI. That was released. What exactly is a port? How did you sort of assemble the pieces to create a port?
 
-**Georgi Gerganov:** Yeah, I think "port" is not a super-correct word, but I don't know, usually you port some software - you can port if from some certain architecture running on a PC, and then you port it there, implement it and \[unintelligible 00:17:38.03\] Playstation, or whatever... This kind of makes more sense to call it port. Here it's just maybe a reimplementation, it's more correct to say... But basically, the idea is to implement these computational steps.
+**Georgi Gerganov:** Yeah, I think "port" is not a super-correct word, but I don't know, usually you port some software - you can port if from some certain architecture running on a PC, and then you port it there, implement it and starts running on a Playstation, or whatever... This kind of makes more sense to call it port. Here it's just maybe a reimplementation, it's more correct to say... But basically, the idea is to implement these computational steps.
 
 The input data, the model, the weights that were released by OpenAI - they are absolutely the same. You just load it, and instead of computing all the operations in Python, I'm computing them with C. And that's it.
 
@@ -80,7 +80,7 @@ So you remember at that time, Adam, we were talking about like "Well, we could s
 
 **Jerod Santo:** \[19:49\] Now, I could have been doing it wrong... I'm sure there's ways of optimizing it... But just that difference was "Okay, I installed it much faster", I didn't have to have any of the Python stuff, which I'm scared off... And, at least in the most basic way of using each tool, it was just super-fast in comparison. And that was just exciting. I'm like "Oh, wow, this is actually approachable", I could understand it if I needed to, and it seems like, at least on an M1 Mac, it performs a whole lot better, with pretty much the same results. Because, like Georgi said, it's the same models. Like, you're using the same models, you're just not using all the tooling that they wrote around those models in order to run the inference, and stuff.
 
-**Adam Stacoviak:** And you're speaking to the main directory in the examples folder for Whisper.cpp. There's a readme in there that sort of describes how we use the main file, and pass a few options, pass a few .wav files, for example, and out comes a transcript, \[unintelligible 00:20:46.10\] flags you can pass to the main.cpp C++ file, essentially, to do that.
+**Adam Stacoviak:** And you're speaking to the main directory in the examples folder for Whisper.cpp. There's a readme in there that sort of describes how we use the main file, and pass a few options, pass a few .wav files, for example, and out comes a transcript, wherever using different flags you can pass to the main.cpp C++ file, essentially, to do that.
 
 **Georgi Gerganov:** Yeah, so -- yeah, regarding the repo and how it is structured, I kind of have an experience with... I know what people appreciate about such type of open source project. It should be very simple. Every extra step that you add, it will push people away. So I wanted to make something like you clone the repo, you type make, and you get going. That's how it currently works, and the readme - there are instructions how to use it.
 
@@ -96,15 +96,15 @@ So you remember at that time, Adam, we were talking about like "Well, we could s
 
 **Adam Stacoviak:** 16-bit .wav files is in your readme, so I'm going based on that.
 
-**Georgi Gerganov:** It's probably a mistake... Ah, okay... Yeah, it's 16-bit PCM. Okay, it's -- yes, integers, not floats. Yeah, okay, so it's 16-bit an it's also 16 kHz. But yeah, technically, you can \[unintelligible 00:26:26.28\] and convert any kind of audio, whatever sample to 16.
+**Georgi Gerganov:** It's probably a mistake... Ah, okay... Yeah, it's 16-bit PCM. Okay, it's -- yes, integers, not floats. Yeah, okay, so it's 16-bit an it's also 16 kHz. But yeah, technically, you can resample and convert any kind of audio, whatever sample to 16.
 
 **Adam Stacoviak:** For sure.
 
-**Georgi Gerganov:** And would you get better results if the model was able to process a higher \[unintelligible 00:26:40.29\]
+**Georgi Gerganov:** And would you get better results if the model was able to process a higher sample rate or--
 
 **Adam Stacoviak:** It's just one less step, really, because -- you know, you've got the ffmpeg here, now you've got... So you have one more dependency really in the chain of -- if we were leveraging, say, this on a daily basis for production flows to get transcripts, or most of the way for transcripts... So that's just one more step, really. It's not really an issue necessarily, it's just one more thing in the toolchain.
 
-**Georgi Gerganov:** Yeah, that's the drawbacks of C, and this environment; you don't have Python, you just pip-install whatever, and \[unintelligible 00:27:08.29\] Here it's more difficult, and you have to stick to the basics.
+**Georgi Gerganov:** Yeah, that's the drawbacks of C, and this environment; you don't have Python, you just pip-install whatever, and you can have 3rd-party. Here it's more difficult, and you have to stick to the basics.
 
 **Jerod Santo:** So your examples have a lot of cool stuff: karaoke style, movie generation, which is experimental... You can tweak the timestamping and the output formats kind of to the hilt to get exactly what you're looking for... And then also you have a cool real-time audio input example, where it's basically streaming the audio right off the device into the thing, and saying what you're saying, while you're saying it, or right after you say it... I hear the next version it's gonna actually do it before you say it, which will be groundbreaking... \[laughter\] But what are some other cool things that people have been building? Because the community has really kind of bubbled around this program. Do you have any examples of people using Whisper.cpp in the wild, or experimentally, that are cool?
 
@@ -116,7 +116,7 @@ I guess another interesting application is at some point we got it even running 
 
 **Georgi Gerganov:** Yeah, I'm not familiar with the Docker environment, but I think you should be able to do it. I see people are already using it for the Llama, and I guess there's no reason to not be able to. I don't know the details.
 
-**Adam Stacoviak:** \[29:53\] Of course, you can do it as a web service, but sometimes you want no dependence on anybody's cloud, whether it's literally a virtual private server that you've spun up as your service, or simply "Hey, I wanna use this locally in Docker", or something like that. Essentially, you've built the server in there, you've got whatever flavor of Linux you want, you've got Whisper.cpp already in there, and you've got a browser or a web server running it, just \[unintelligible 00:30:22.08\] you can name the service whisper.lan, for example.
+**Adam Stacoviak:** \[29:53\] Of course, you can do it as a web service, but sometimes you want no dependence on anybody's cloud, whether it's literally a virtual private server that you've spun up as your service, or simply "Hey, I wanna use this locally in Docker", or something like that. Essentially, you've built the server in there, you've got whatever flavor of Linux you want, you've got Whisper.cpp already in there, and you've got a browser or a web server running it, just a ping for a local area network, it can be... you can name the service whisper.lan, for example.
 
 **Georgi Gerganov:** Yeah.
 
@@ -154,7 +154,7 @@ I guess another interesting application is at some point we got it even running 
 
 \[34:18\] There were a few ideas popping around using Whisper in a not traditional way to achieve some sort of diarization... And it boils down to trying to extract some of the internal results of the computation, and try to classify based on some, let's say, features, or... I don't know, I'm not sure really how to properly explain it, but...
 
-So I tried a few things... I know people are also trying to do this... I guess it's not working out. So I don't know. This \[unintelligible 00:34:57.10\] at least from my point of view. Maybe if someone figures it out and it really works, we could probably have it someday... But for now it seems unlikely.
+So I tried a few things... I know people are also trying to do this... I guess it's not working out. So I don't know. This low, unlikely at least from my point of view. Maybe if someone figures it out and it really works, we could probably have it someday... But for now it seems unlikely.
 
 **Jerod Santo:** It's a pipe dream.
 
@@ -162,7 +162,7 @@ So I tried a few things... I know people are also trying to do this... I guess i
 
 He actually came from GitHub and they had this thing called GitHub TV when he worked there, and Connor's a designer, and long story short, they had this thing, and so he really wanted the transcription feature, and they have transcripts that are pretty amazing, and they have this diarization - I don't know if that's what they call it, but they have Jerod, Adam, whomever else, labeled. Why is it possible there and why is it such a hard thing here?
 
-**Georgi Gerganov:** Yeah, I think the explanation is basically Whisper wasn't designed for this task, and I guess most likely they're using something that was designed for this task; some other models that were trained to do diarization. And yeah, you can always pull in some third-party project and \[unintelligible 00:36:55.16\] to do this extra step. It would be cool being able to do it with a single model, but for now it's not possible.
+**Georgi Gerganov:** Yeah, I think the explanation is basically Whisper wasn't designed for this task, and I guess most likely they're using something that was designed for this task; some other models that were trained to do diarization. And yeah, you can always pull in some third-party project and \[unintelligible 00:36:55.16\] network, to do this extra step. It would be cool being able to do it with a single model, but for now it's not possible.
 
 **Adam Stacoviak:** Is it kind of like converting your .wav file to 16-bit first, before using the model? It's like one more step in the mix, basically?
 
@@ -220,7 +220,7 @@ So yeah, ARM NEON is helping for the CPU processing, and then there's this extra
 
 **Jerod Santo:** \[42:23\] Right.
 
-**Georgi Gerganov:** \[unintelligible 00:42:22.01\] optimizations.
+**Georgi Gerganov:** Atleast one of the optimizations.
 
 **Adam Stacoviak:** What I've found interesting when I was kind of researching this a little further to prepare for this call was that this is a "secret" code processor; it's called the Apple Matrix coprocessor. AMX is what they call it. And it's a little -- it's not very well known, and so as this Apple silicon is only a couple years old, it's not that old, so even examining or building new software technology on top of it... But this is -- I think we have to look at one of the many reasons that Apple chose to abandon Intel and go their own route... And obviously, a lot of the work they did in their mobile devices, from an iPhone to an iPad, and all the things happening in their processors led them to this direction... But even this, the accelerated coprocessor that is there secretively, essentially just waiting to be tapped into is kind of interesting, just because it does what it does.
 
@@ -244,7 +244,7 @@ So yeah, I guess using Accelerate is not really something new. It's probably not
 
 **Jerod Santo:** Have you been able to run any benchmarks against your prototype, or have you gotten to that phase where you're actually seeing how much gains you're getting?
 
-**Georgi Gerganov:** Yeah, actually this one's a super-cool contribution. Basically, I read about Core ML, I decided I'm probably not going to invest time in learning all this complex stuff, but certainly one day \[unintelligible 00:46:22.21\] you should see the link in the repo - how to do it, which was super-great... And he demonstrated that it's possible. We initially observed a three-times speed-up, I think...
+**Georgi Gerganov:** Yeah, actually this one's a super-cool contribution. Basically, I read about Core ML, I decided I'm probably not going to invest time in learning all this complex stuff, but certainly one day a contributor, you should see the link in the repo - how to do it, which was super-great... And he demonstrated that it's possible. We initially observed a three-times speed-up, I think...
 
 **Jerod Santo:** Nice.
 
@@ -252,7 +252,7 @@ So yeah, I guess using Accelerate is not really something new. It's probably not
 
 **Jerod Santo:** You've gotta love that moment with an open source project where you start to get significant contributions. Not drive-by readme fixes, or docs - which are helpful, but not like... Like, this is a significant contribution of a new way of doing something, or a proof of concept. That's pretty exciting. It seems like your two projects now, especially Whisper, because it's been around a lot longer, has had a lot of very smart coder types not afraid of hopping in and really helping out. Did you do anything to cultivate that, or was it just the nature of the project, that it brings a certain kind of contributor?
 
-**Georgi Gerganov:** Yeah, I'm also wondering about this and really enjoyed it... So my previous projects - they didn't have a lot of contributions involved, and now with Whisper and LLaMA that is getting attention. Did I do anything specific? Not really... I guess just people find it -- maybe, first of all, they find it useful and they start suggesting ideas for making it even more useful. And then people eventually start \[unintelligible 00:48:08.27\] make code improvements, and stuff like this... And there is, I think -- I don't know, from my perspective it's a relatively big momentum currently. People are very interested in supporting this.
+**Georgi Gerganov:** Yeah, I'm also wondering about this and really enjoyed it... So my previous projects - they didn't have a lot of contributions involved, and now with Whisper and LLaMA that is getting attention. Did I do anything specific? Not really... I guess just people find it -- maybe, first of all, they find it useful and they start suggesting ideas for making it even more useful. And then people eventually start turning to make code improvements, and stuff like this... And there is, I think -- I don't know, from my perspective it's a relatively big momentum currently. People are very interested in supporting this.
 
 I tried to make it so they're kind of able to get into it, like create some entry-level docs and things that people can get involved... Currently, there are so many requests and issues and all this stuff, that it's kind of very difficult to handle by my own. So it would be nice to have more people involved.
 
@@ -286,9 +286,9 @@ I tried to make it so they're kind of able to get into it, like create some entr
 
 **Jerod Santo:** Right.
 
-**Georgi Gerganov:** Basically, we had \[unintelligible 00:50:36.29\] stuff for the Whisper, just an idea working, where you basically take the model, you compress it down to 4 bits, you lose some accuracy, but it's smaller, it's faster... So we had that in ggml, and it was available.. So a few days later comes out the LLaMA, I do some calculations and I figure out "Okay, 65 billion parameters. You probably need about 40 gigs of RAM, with 4-bit quantization. So this can run on a MacBook. Why not do it?"
+**Georgi Gerganov:** Basically, we had to forbid quantization stuff for the Whisper, just an idea working, where you basically take the model, you compress it down to 4 bits, you lose some accuracy, but it's smaller, it's faster... So we had that in ggml, and it was available.. So a few days later comes out the LLaMA, I do some calculations and I figure out "Okay, 65 billion parameters. You probably need about 40 gigs of RAM, with 4-bit quantization. So this can run on a MacBook. Why not do it?"
 
-And yeah, it just was a matter of time to find some free time to try it, and... Yeah, last Friday, I came after work home, had \[unintelligible 00:51:26.13\] Why I was able to do it so quickly - basically, for all that I saw it's pretty much GPT \[unintelligible 00:51:34.20\] architecture with some modifications, like some extra memorization layers. It's minor changes. Basically, again, the existing code for the GPT \[unintelligible 00:51:47.08\] It happened pretty quickly.
+And yeah, it just was a matter of time to find some free time to try it, and... Yeah, last Friday, I came after work home, had \[unintelligible 00:51:26.13\] Why I was able to do it so quickly - basically, for all that I saw it's pretty much GPT-J architecture with some modifications, like some extra memorization layers. It's minor changes. Basically, again, the existing code for the GPT-J, I just simply modified it there, it happened pretty quickly.
 
 **Adam Stacoviak:** You had a leg up. Prior art helped you, that you created.
 
