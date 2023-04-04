@@ -52,11 +52,11 @@ And then you have the Blue Teamers who might be doing network defense, and -- I 
 
 **Natalie Pistunovich:** Self-DDoS.
 
-**Johnny Boursiquot:** \[unintelligible 00:07:00.06\]
+**Johnny Boursiquot:** It's a bad program. \[laughs\]
 
 **Juan Andrés Guerrero-Saade:** Yeah.
 
-**Ivan Kwiatkowski:** I actually would tend to second that observation, in the sense that I've rarely seen actual good samples of Golang malware. The kind of stuff that we tend to see are existing groups that have their established malware \[unintelligible 00:07:17.11\] that they are still using to this day, but what they wanna do is have droppers or first-stage type malware that they can throw away on many computers, and then if that machine is interesting, then they will drag their actual piece of important malware there.
+**Ivan Kwiatkowski:** I actually would tend to second that observation, in the sense that I've rarely seen actual good samples of Golang malware. The kind of stuff that we tend to see are existing groups that have their established malware family that they are still using to this day, but what they wanna do is have droppers or first-stage type malware that they can throw away on many computers, and then if that machine is interesting, then they will drag their actual piece of important malware there.
 
 But those first-stage malware, those droppers as we call them, they tend to be kind of throwable. They write one of them in a week, in Go language, they write another one later in Rust, and then when they arrive on a machine, they start typing commands, they try to deploy something. If it works, great. If it doesn't work, then -- because maybe the antivirus is blocking the attempt, and they just pull another one from the shelf, and so on. So they try to create many, many different ones, as many as they can and in as many different languages as they can, and they do not master any single one of those languages. They just read some -- they piece together maybe some Stack Overflow questions until they get something working, and at the end of the day they add some piece of software that does something, but if you were to look at it from an engineering standpoint, probably you would be appalled.
 
@@ -70,7 +70,7 @@ But those first-stage malware, those droppers as we call them, they tend to be k
 
 **Juan Andrés Guerrero-Saade:** So GPT-4 unlocked - what, 20 minutes before we got on this call? And I'm just like asking it a bunch of rapid-fire questions just to see "Are you doing better?" Like, it did some impressive things... But it does allow for peak laziness. It's just like "Okay, write me a deployment script for an entire Elasticsearch cluster in Bash. Go." And you're just like "I mean, I hope it works... We'll see if it works..." But on another level, as far as like lazy DevOps, there's something there.
 
-**Natalie Pistunovich:** Well, the next thing in that set of actions is \[unintelligible 00:09:40.04\] "What's missing here? What's the pitfall? Improve that."
+**Natalie Pistunovich:** Well, the next thing in that set of actions is throw'That's Great' and say "What's missing here? What's the pitfall? Improve that."
 
 **Ivan Kwiatkowski:** Just ask it "Does your script work?" Maybe it knows... \[laughter\]
 
@@ -106,7 +106,7 @@ I think it's few teams that are really adopting Go from the perspective of estab
 
 Now we see Russian ops picking up with like Kubernetes and stuff, and you're like "Okay, those are not the same old dudes that I've been dealing with for the past 15 years." \[laughter\]
 
-**Ivan Kwiatkowski:** \[13:57\] I'll go even further there... I would say that when we see those new droppers that \[unintelligible 00:14:02.04\] every other week, it really feels like this is some sort of interval hazing for all the interns that are coming in. They arrive, they don't have the clearance or ability to work on the serious stuff yet, so probably they are tasked with writing some quick dropper in whatever language they'd been learning recently, and this is what they do. And then maybe in six months, or when they are finally hired or so on, then they move to other stuff. But it really feels like this is the kind of, I would say, internal circuit that they are going through. Like, for a new hire, \[unintelligible 00:14:34.11\] then maybe if you did a good job, you can go and handle their actual operations.
+**Ivan Kwiatkowski:** \[13:57\] I'll go even further there... I would say that when we see those new droppers that I've churned out every other week, it really feels like this is some sort of interval hazing for all the interns that are coming in. They arrive, they don't have the clearance or ability to work on the serious stuff yet, so probably they are tasked with writing some quick dropper in whatever language they'd been learning recently, and this is what they do. And then maybe in six months, or when they are finally hired or so on, then they move to other stuff. But it really feels like this is the kind of, I would say, internal circuit that they are going through. Like, for a new hire, then you rack the dropper, then maybe if you did a good job, you can go and handle their actual operations.
 
 **Juan Andrés Guerrero-Saade:** They're being hazed by Go.
 
@@ -162,7 +162,7 @@ So my first unpopular opinion on this show was, software devs may have some of t
 
 **Juan Andrés Guerrero-Saade:** I think that it creates a central point of failure in some ways, but it isn't one that I think is bad, right? I think Go is in a much better situation because of what you're describing, sort of conservatively. There's still a way to get to it, but I think we'd be unfair to the Go users to equate it with something like PyPI. PyPI - it's true a \*bleep\* show. Sorry. And then -- it's really bad, and you have a ton of name/typosquatting, and like people stealing developer accounts, and then replacing well-known packages with trojanized packages... We actually discovered similar -- well, we worked on a similar supply chain attack for the Rust crates.io, and they were super-responsive, super-nice, like really engaged... But essentially, somebody created a fake developer profile that squatted on a known developer, and changed the Rust Decimal package in the hopes that people would, accidentally install that, it would pull a second-stage piece of malware that was designed to be on CI/CD pipelines. So it's like, you're trying to hit a production pipeline specifically for the purposes of hitting downstream customers eventually. It's wild, man... It's getting crazy.
 
-**Ivan Kwiatkowski:** It is. I would say it doesn't have to be black and white though, right? Indeed, we have Python, where everyone can create an account and upload libraries. Actually, a former coworker \[unintelligible 00:23:48.08\] now working at a French company called Sequoia - he did some research recently where he found on GitHub some project that automatically backdoors a copy of an existing library and uploads it on Pip. It's automated; you can create hundreds per day if you want to. There's this, and at the other end of the spectrum you have something like Go, where I'm getting that there are too many outside libraries, or at least you are discouraged to use them, because it's all batteries-included. Like, maybe there is some middleground there we could reach, where you can get some trusted, or curated package or repository of libraries where people could download stuff without one pulling the whole planet with every LeftPadding, or something...
+**Ivan Kwiatkowski:** It is. I would say it doesn't have to be black and white though, right? Indeed, we have Python, where everyone can create an account and upload libraries. Actually, a former coworker Felix \[unintelligible 00:23:48.08\] now working at a French company called Sequoia - he did some research recently where he found on GitHub some project that automatically backdoors a copy of an existing library and uploads it on Pip. It's automated; you can create hundreds per day if you want to. There's this, and at the other end of the spectrum you have something like Go, where I'm getting that there are too many outside libraries, or at least you are discouraged to use them, because it's all batteries-included. Like, maybe there is some middleground there we could reach, where you can get some trusted, or curated package or repository of libraries where people could download stuff without one pulling the whole planet with every LeftPadding, or something...
 
 **Johnny Boursiquot:** \[laughs\] That never gets old.
 
@@ -182,7 +182,7 @@ So my first unpopular opinion on this show was, software devs may have some of t
 
 **Juan Andrés Guerrero-Saade:** Yeah. Well, that's how I think about the Google repo though... They do seem to have some more standardized sort of packaging there, and things are relatively well maintained... But I don't know; we can't really trust any of it. I think, to Natalie's point, it's cool that folks tend to rely mostly on the standard libraries; it's already packaged there. But there's some inevitability to it when you start like pushing GitHub repos, and everybody -- everybody pulls someone else's project at some point. I just think that it's - -I don't know, Go is not the prime target, I'll just put it that way. Go is not the prime target precisely because of what you're describing.
 
-\[26:07\] That said, it's super-useful. And since we started the conversation with GPT-4, I think it's the best language to have ML-generated, because it's so fascistic, to \[unintelligible 00:26:18.02\] expression, sort of fascist Python, that it's perfect for an LLM. It's super-standard, right? You have the things sort of shaped the same way, the conventions are the same way... You don't need as much of a style guide, because there's not a lot of room for deviation, and you have standard patterns for concurrency, standard patterns for a bunch of things.
+\[26:07\] That said, it's super-useful. And since we started the conversation with GPT-4, I think it's the best language to have ML-generated, because it's so fascistic, to borrow Ivan's expression, sort of fascist Python, that it's perfect for an LLM. It's super-standard, right? You have the things sort of shaped the same way, the conventions are the same way... You don't need as much of a style guide, because there's not a lot of room for deviation, and you have standard patterns for concurrency, standard patterns for a bunch of things.
 
 So personally, I find that GPT-generated Go code is, for me, most of the time compilable out of the box. Is it perfect? Is it doing what I want it to do? Not necessarily. In many cases, no. But it compiles, right? Which is more than you can say for a lot of Python, a lot of other code... At least up to GPT 3.5. GPT-4 I don't know yet, right? We've gotta go test; it's been alive for 40 minutes, but...
 
@@ -246,7 +246,7 @@ So the idea is if an AV or whatever, an antivirus decides to check the malware, 
 
 **Natalie Pistunovich:** So Ivan, the tool that you wrote, Gepetto, which is in the show notes - you said that you recently used it for comparison of Go code with and without generics.
 
-**Ivan Kwiatkowski:** So I did not use it in this specific case, because - well, first of all, I didn't really try to look at the code generated by the Go compiler under Gepetto, because I didn't have the chance yet... And I'm not sure how it's going to react, because again, the outputs of \[unintelligible 00:37:22.23\] compiler when it comes to Go code can tend to be a little bit broken, or extremely broken, depending on the Go version. So I did not try that too much. I'm not sure it's going to work very well. But in any case - yes, I was expecting that you would be asking me a question about generics, because this is something that you tend to do every time I show up on the podcast with you. \[laughter\] So this time, I came prepared.
+**Ivan Kwiatkowski:** So I did not use it in this specific case, because - well, first of all, I didn't really try to look at the code generated by the Go compiler under Gepetto, because I didn't have the chance yet... And I'm not sure how it's going to react, because again, the outputs of IDA decompiler when it comes to Go code can tend to be a little bit broken, or extremely broken, depending on the Go version. So I did not try that too much. I'm not sure it's going to work very well. But in any case - yes, I was expecting that you would be asking me a question about generics, because this is something that you tend to do every time I show up on the podcast with you. \[laughter\] So this time, I came prepared.
 
 **Johnny Boursiquot:** Wow...
 
@@ -262,7 +262,7 @@ So in effect, it's doing exactly the same thing as C++, which is it creates the 
 
 **Juan Andrés Guerrero-Saade:** Yeah. It's funny, our tooling breaks really easily. There's a lot of things that are already rudimentary to the development community, that when it comes to the reverse-engineering community it's not great. Like, we don't have a lot of good maintenance of our tools. For example, Ivan mentioned IDA Pro, which is like the decompiler/disassembler that most reverse-engineers use. When it tries to handle Go, it just kind of breaks and doesn't do very well. It's because of really simple stuff - like, they never envisioned having to have multiple return arguments. Super-stupid. It cannot handle the multiple return things, so it has to do these function prologues, and just trying to handle how you're going to store this stuff, and... Yeah, you would think that it would be easier for us to patch our tooling... It really isn't.
 
-**Ivan Kwiatkowski:** I think a more fundamental problem is that in this specific case of IDA, and I think also \[unintelligible 00:40:47.20\] the compiler is that they see some code and they try to decompile it as C. And they can only generate C code. And the thing is, it turns out that not everything can be expressed in C, especially Go programs. And so when they tried to go up one level, but they try to create the corresponding C code, then of course there is no way that they're ever going to be able to create some meaningful C representation of whatever they're seeing. And so of course, stuff ends up missing, or they create variables that don't exist... It just breaks down, because the assumption initially is just -- it turns out to be wrong.
+**Ivan Kwiatkowski:** I think a more fundamental problem is that in this specific case of IDA, and I think also Ghidra decompiler is that they see some code and they try to decompile it as C. And they can only generate C code. And the thing is, it turns out that not everything can be expressed in C, especially Go programs. And so when they tried to go up one level, but they try to create the corresponding C code, then of course there is no way that they're ever going to be able to create some meaningful C representation of whatever they're seeing. And so of course, stuff ends up missing, or they create variables that don't exist... It just breaks down, because the assumption initially is just -- it turns out to be wrong.
 
 **Natalie Pistunovich:** If anyone listening to this show is building a reverse-engineering tool in Go, please reach out. We want to talk with you on the next episode.
 
@@ -388,7 +388,7 @@ So in effect, it's doing exactly the same thing as C++, which is it creates the 
 
 **Juan Andrés Guerrero-Saade:** This is what security does to people. \[laughter\]
 
-**Ivan Kwiatkowski:** Also, Java \[unintelligible 00:51:13.23\]
+**Ivan Kwiatkowski:** Also, JavaScript.
 
 **Johnny Boursiquot:** Oh, wow. \[laughs\] He's like "Here's this other bomb I'm gonna drop..."
 
@@ -446,7 +446,7 @@ And then this year's entry is a -- it's a good band, it's a nice band, I did kno
 
 **Juan Andrés Guerrero-Saade:** You can basically do whatever you want on Twitter now. The rules are out... They can't use the API, but for $8 you could probably take a tour of the data center at this point.
 
-**Natalie Pistunovich:** \[unintelligible 00:58:48.16\] an apology next episode?
+**Natalie Pistunovich:** I hear an apology next episode?
 
 **Juan Andrés Guerrero-Saade:** No, no. This one's fine. We're okay with this one. We don't know if Twitter will still be here for the next episode, so...
 
