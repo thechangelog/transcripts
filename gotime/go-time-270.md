@@ -32,7 +32,7 @@ And then you have the Blue Teamers who might be doing network defense, and -- I 
 
 **Juan Andrés Guerrero-Saade:** Yeah. It keeps things fun. It also means you kind of get to judge everyone else's use of Go, which is, I think, nicer than having to write it ourselves in some ways... I actually love Go, but I won't pretend to be a competent developer. Go makes me feel a little bit better about what I output. But I'm a genius compared to some of the malware that you see floating out in Go. Especially, a lot of the Chinese groups have been picking up Go, or like during the invasion in Ukraine we saw a fake ransomware called PartyTicket that was written in Go...
 
-**Natalie Pistunovich:** Hey, what's a fake ransomware?
+**Natalie Pistunovich:** Wait, what's a fake ransomware?
 
 **Juan Andrés Guerrero-Saade:** Well, so during the invasion in Ukraine there were a ton of pieces of wiper malware that were used, so just like --
 
