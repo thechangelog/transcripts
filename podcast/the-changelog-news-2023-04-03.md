@@ -38,13 +38,14 @@ Big fat guy, I'm talking like orca fat.
 
 **Jerod Santo:**
 
-Oh my, I just had an idea. Maybe we can repurpose all those "yo momma so fat" jokes for large language models and they'll still be funny without hurting anyboyd's mommas feelings. Hey ChatGPT, write me 3 funny "yo LLM so large" jokes pronto:
+Oh my, I just had an idea. Maybe we can repurpose all those "yo momma so fat" jokes for large language models and they'll still be funny without hurting anybody's momma's feelings. Hey ChatGPT, write me 3 funny "yo LLM so large" jokes pronto:
 
 1. Yo LLM so fat, it needs a search engine just to find its own information.
+    > Not bad…
 2. Yo LLM so fat, it can't even fit in the cloud; it needs its own weather system.
-3. Yo LLM so fat, it's the reason for global warming.
-
-That's just depressing.
+    > Not _good_…
+4. Yo LLM so fat, it's the reason for global warming.
+    > That's just depressing.
 
 **Break:**
 
@@ -56,35 +57,41 @@ Auto-GPT is an autonomous GPT-4 experiment. You provide a name, role, and up to 
 
 **Jerod Santo:**
 
-Speaking of LLMs, Simon Willison will be back on the podcast this Wednesday. We chatted with Simon for a full two hours and honestly I think this episode's even better than the Stable Diffusion discussion we ad with him in September.
+Speaking of LLMs, Simon Willison will be back on the podcast this Wednesday. Adam and I chatted with Simon for a full two hours and honestly I think this episode's even better than the Stable Diffusion discussion we had back in September.
 
 After our chat, Simon wrote up his thoughts on how we should be thinking about LLMs. He calls them "calculators for words", saying "This is reflected in their name: a “language model” implies that they are tools for working with language. That’s what they’ve been trained to do, and it’s language manipulation where they truly excel."
 
-This makes LLMs very good at a specific set of things, including: summarization, question answering, fact extraction, rewrites, and suggesting titles.
+This makes large language models very good at a specific set of things, including: summarization, question answering, fact extraction, rewrites, and suggesting titles.
 
 **Break:**
 
 **Jerod Santo:**
 
-Eric Elliot recently wrote about and released SudoLang: a powerful pseudocode programing language for LLMs. He didn't write it himself, though, because that would be so passé.
+Eric Elliot recently wrote about and released SudoLang: a powerful pseudocode programming language for LLMs. He didn't write it himself, though, because that would be so passé.
 
 **Fergie:**
 
-I'm so 3008. You're so 2000 and late.
+I'm so 3008. You so 2000 and late.
 
 **Jerod Santo:**
 
-SudoLang has commands, modifiers, and arguments. The spec is available on GitHub. All you have to do is paste it into ChatGPT with GPT-4+ running and you’ll be off to the races. About the project Eric says, "AI turns everyone into a conjurer, and we have only witnessed the tip of the iceberg."
+With GPT-4's help, Eric invented SudoLang, which has commands, modifiers, and arguments. The spec for the language [available on GitHub](https://github.com/paralleldrive/sudolang-llm-support/blob/main/sudolang.sudo.md). All you have to do is paste it into ChatGPT with GPT-4+ running and you’ll be off to the races. About the project Eric says, "AI turns everyone into a conjurer, and we have only witnessed the tip of the iceberg."
 
 **Break:**
 
 **Jerod Santo:**
 
-Have you heard people use the term "schostic parrot" when describing LLMs? I heard it a few times on our Practical AI podcast and didn't really know what it meant, so I looked it up so you don't have to. When people use this term in reference to a language model, they're referring to the limitation of the model's understanding of the words it is spitting out.
+Have you heard people use the term "stochastic parrot"? I heard it a few times on our _Practical AI_ podcast and didn't really know what it meant, so I looked it up so you don't have to. When people use this term in reference to a language model, they're referring to the limitation of the model's understanding of the words it is spitting out.
 
-"stochastic" refers to the random element in generating responses, and "parrot" highlights the notion that these models merely repeat what they have seen during training, like parrots do when you teach them to speak words.
+"Stochastic" refers to the random element in generating responses, and "parrot" highlights the notion that these models merely repeat what they have seen during training, like parrots do when you teach them to speak words. Here's [Daniel](https://changelog.com/person/dwhitena) saying just as much on _Practical AI_:
 
-The term comes from a 2021 paper called: On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?
+**Daniel Whitenack:**
+
+The model has no clue what it's saying, and nor does it have any sort of […] morality[…]. It's just producing coherent output, the same whether it's a text-to-image model, or it's a language model[…]. It's auto-completing text, right? [A]t the end of the day […] that's a vast over-simplification, and you can not like that, but […] ultimately, you're giving a prompt, and it is producing output that is seeded by that prompt[…]. [I]t's just trying to produce this coherent output that's consistent with both the data that it's seeing and maybe some type of extra mechanism like the human feedback or something that it's seeing. But ultimately it's just producing output that seems coherent and probable. […]
+
+**Jerod Santo:**
+
+The term comes from a 2021 paper called: "On the Dangers of Stochastic Parrots: Can Language Models Be Too Big?"
 
 Dr. Jo on Quora summarizes it as: "a stochastic parrot has form but no underlying model. We ourselves create the illusion of an underlying mind."
 
@@ -92,4 +99,4 @@ Dr. Jo on Quora summarizes it as: "a stochastic parrot has form but no underlyin
 
 **Jerod Santo:**
 
-That is the news for now. We'll be back in your ear holes on Wednesday with our conversation with Simon Willison, it's a good one. Have a great week, share Changelog News with your friends if you dig it, and we'll talk to you again next time.
+That is the news for now. We'll be back in your ear holes on Wednesday with our conversation with Simon Willison. Have a great week, share Changelog News with your friends if you dig it, and we'll talk to you again real soon.
