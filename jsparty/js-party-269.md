@@ -64,7 +64,7 @@ First of all, anybody here a daily Copilot user even previous to this announceme
 
 **Jerod Santo:** Okay. For your new website, and stuff. That makes sense. So up until now, Copilot has basically been like autocomplete on steroids. You give it some instructions, you tell it to do its thing, it's gonna spit out some code... This new version very much is integrating what came out after Copilot and took the world by storm last November, which is ChatGPT. That was 3.5, now GPT-4 has come out, better, stronger, faster, bigger... And Copilot now with Copilot X (which is gonna give it to ya'), a new AI-powered developer experience. They put a ChatGPT-like thing right inside the editor. This seems like a logical next step.
 
-\[00:06:05.00\] For me, I don't use Copilot, but I do hop over to GPT to say "Hey, how do I do this thing?" Because it tends to be faster than googling if it gets it right the first time, slower than googling if you have to correct it a couple of times. But I'm starting to use that as kind of a -- before I go google it, I will ask ChatGPT "How do I do this regular expression?" and it gets it right once or twice. But it is still that context switch. So having it right there in your editor I think would be a pretty big win, especially since it's gonna be GPT4, and probably like prompt-engineered in order to give you better answers than what you do yourself.
+\[06:05\] For me, I don't use Copilot, but I do hop over to GPT to say "Hey, how do I do this thing?" Because it tends to be faster than googling if it gets it right the first time, slower than googling if you have to correct it a couple of times. But I'm starting to use that as kind of a -- before I go google it, I will ask ChatGPT "How do I do this regular expression?" and it gets it right once or twice. But it is still that context switch. So having it right there in your editor I think would be a pretty big win, especially since it's gonna be GPT4, and probably like prompt-engineered in order to give you better answers than what you do yourself.
 
 **Nick Nisi:** I think it also flips the model of how we go about solving these problems, or have in the past at least... Because if you -- let's say you're running into a coding problem, you're getting this weird error, or something... You have to try and take a piece of that problem that you're getting and genericize it enough to search for it, hoping that you might find someone who has also been in a similar-ish situation. Where with ChatGPT you can write out paragraphs of "I'm doing this, with this version of this product, and this together, and I think the two of them coming together..." You can be very specific, or add as much context to your specific problem, knowing that no one's actually reading it, but - like, you're describing it...
 
@@ -80,7 +80,7 @@ I think the other thing that was really exciting is the pull requests - being ab
 
 **Jerod Santo:** Right. Yeah, so Copilot - just to summarize this... Copilot isn't really one thing; it's kind of a suite of tools that GitHub's building into various aspects of their products. So the ChatGPT in your editor - that's obviously a VS Code thing. And also Visual Studio. So it's GitHub-provided if you're using VS Code or Virtual Studio. If you're using Neovim, obviously you might have other GPT tools, but they're not gonna be GitHub's etc.
 
-**Nick Nisi:** \[00:10:11.20\] But the one I use is GitHub's.
+**Nick Nisi:** \[10:11\] But the one I use is GitHub's.
 
 **Jerod Santo:** It is GitHub's. So that's GitHub's Copilot but doesn't have the new chat stuff in it?
 
@@ -100,7 +100,7 @@ I think the other thing that was really exciting is the pull requests - being ab
 
 **Nick Nisi:** Um, probably not.
 
-**Jerod Santo:** It's probably brand new and moving very quickly. Wouldn't GitHub Copilot just document itself? Then there's what Amal said, which is the pull request thing. Now, this is built into GitHub.com, right? This is now built into the service. And like you said, Amal, really cool stuff; summaries, other ways that they're making pull requests better.
+**Jerod Santo:** It's probably brand new and moving very quickly. Wouldn't GitHub Copilot just document itself? Then there's what Amal said, which is the pull request thing. Now, this is built into github.com, right? This is now built into the service. And like you said, Amal, really cool stuff; summaries, other ways that they're making pull requests better.
 
 And then the third thing that they talked about as part of this is AI-generated docs, which could be game-changing. The other thing that I noticed is GPT-4 specifically has such a big memory space; you can insert so many tokens into that thing, that it can keep contextually aware, that you can actually paste in like an entire project's documentation and get answers about it. So for docs that aren't that great, or docs that didn't previously exist, obviously having some help is gonna help... Right, Kball?
 
@@ -140,7 +140,7 @@ So this will always be -- I mean, I'm not gonna say "always", because that's a l
 
 **Nick Nisi:** It becomes sentient, between tabs, and spaces, and then...
 
-**Jerod Santo:** \[00:14:10.14\] A bot would be really easy for me, because I just put LGTM on everything and hit the Merge button. \[laughter\]
+**Jerod Santo:** \[14:10\] A bot would be really easy for me, because I just put LGTM on everything and hit the Merge button. \[laughter\]
 
 **Kevin Ball:** Jerod style. "Looks good to me. Did it pass CI? No. Oh, well..."
 
@@ -172,7 +172,7 @@ Bringing the context of what you're working on to where you're working on it at,
 
 **Amal Hussein:** This idea of Copilot as a brand - very genius on Microsoft's part to start to use Copilot as almost like a verb, and a noun... Like the way Google became googling. So it's like genius, but also -- the idea that you can now just democratize assistive learning, and you can immediately kind of "scale up" your organization's productivity... I mean, that's a very smart business sell, and so I'm really eager to see from companies that start adopting this what's it gonna be like for them. Because I do think it will be really nice to actually see feedback from the wild on this, specifically around how has this actually really impacted your business... And hopefully, for the better.
 
-**Kevin Ball:** \[00:18:23.21\] Well, we're in this rapid explosion of possibilities here... And we're seeing it in the code space, Copilot... I think both for code, and then for macros in Excel, and things like that. I saw that Sourcegraph is doing something similar. But I wonder - to your point about the business intelligence; all of these companies that maintain corpuses of docs for companies... Like, Google has Google Docs for anybody who's paying for the Google Suite. They've got all the docs in one place. Feed that into an LLM, and can I query against it in sort of an ad-hoc way? Any company selling business wikis, or things like that. Who else is containing all of business knowledge?
+**Kevin Ball:** \[18:23\] Well, we're in this rapid explosion of possibilities here... And we're seeing it in the code space, Copilot... I think both for code, and then for macros in Excel, and things like that. I saw that Sourcegraph is doing something similar. But I wonder - to your point about the business intelligence; all of these companies that maintain corpuses of docs for companies... Like, Google has Google Docs for anybody who's paying for the Google Suite. They've got all the docs in one place. Feed that into an LLM, and can I query against it in sort of an ad-hoc way? Any company selling business wikis, or things like that. Who else is containing all of business knowledge?
 
 Or going back to your example, Nick, of books; it got me thinking - Amazon has the text of all these books... Between Kindle and their search inside the book feature, they have scanned all of these books. They could set up these models to be like "I want to ask this book a question."
 
@@ -192,11 +192,11 @@ That got me thinking about the next release of GitHub Copilot. Because they alre
 
 **Jerod Santo:** See you later, humans...
 
-**Amal Hussein:** Speaking of that, Jerod... For those of us who may be worried about like "Hey, I don't want my code being used to make this thing smarter", or whatever - Salesforce has taken a codegen model and done a bunch of training on it, and open-sourced it, and you can put together this thing called FauxPilot, where you run basically a Copilot-like thing on your own stack, on your own servers, and you basically can own the stack and own the integration. That does exist, and that was kind of like a thing that people were talking about on Hacker News earlier this week.
+**Amal Hussein:** Speaking of that, Jerod... For those of us who may be worried about like "Hey, I don't want my code being used to make this thing smarter", or whatever - Salesforce has taken a codegen model and done a bunch of training on it, and open sourced it, and you can put together this thing called FauxPilot, where you run basically a Copilot-like thing on your own stack, on your own servers, and you basically can own the stack and own the integration. That does exist, and that was kind of like a thing that people were talking about on Hacker News earlier this week.
 
 And similarly, we talked a lot about Microsoft - Google's very much in this space now as well. Last week, last Tuesday, March14th, they announced GSuite and AI are gonna have a baby, and it's coming to you. So - eager to see them compete in this domain as well.
 
-**Jerod Santo:** \[00:21:46.09\] Right. Well, speaking to that point... So big tech, they're all making moves now. And Nick talks about this future where everything is silo-ed; that's kind of the big tech model. Open source is striking back, though. Mozilla announced, maybe just today, maybe yesterday, Mozilla.ai, which is a startup and community building trustworthy and open source AI. There are efforts in order to democratize the technology. We had on the Changelog a fella named Georgi Gerganov, who took Whisper, which was OpenAI's Whisper, and Llama, which is Facebook's Llama model, and he wrote C and C++ programs that take the models and allow you to run inference on the edge, on commodity hardware, on CPUs, really letting you to run it on your own stuff.
+**Jerod Santo:** \[21:46\] Right. Well, speaking to that point... So big tech, they're all making moves now. And Nick talks about this future where everything is silo-ed; that's kind of the big tech model. Open source is striking back, though. Mozilla announced, maybe just today, maybe yesterday, Mozilla.ai, which is a startup and community building trustworthy and open source AI. There are efforts in order to democratize the technology. We had on the Changelog a fella named Georgi Gerganov, who took Whisper, which was OpenAI's Whisper, and Llama, which is Facebook's Llama model, and he wrote C and C++ programs that take the models and allow you to run inference on the edge, on commodity hardware, on CPUs, really letting you to run it on your own stuff.
 
 So there are cool things going on in addition to, or maybe against the big players, who are of course making big moves - Microsoft, Google, Facebook/Meta, Salesforce etc. So there's so much going on in this space; it is hard to track.
 
@@ -244,7 +244,7 @@ So there are cool things going on in addition to, or maybe against the big playe
 
 **Kevin Ball:** Well, and as you mentioned, you can run Llama CPP on a MacBook. So imagine now they release a way to have a very tuned version of that, that you're accessing the GPUs, and they lean into -- like, their chips are now the dominant chips out there.
 
-**Amal Hussein:** \[00:25:50.08\] Yeah. Well, speaking of chips - so NVIDIA is another company that's taking this really sharp pivot from like "We don't wanna be this company that just supports fancy gaming and graphics. We wanna power the AI revolution", and they've really heavily invested in all these new chips that are gonna be used in different capacities, to power the new revolution... And I'm curious where Apple -- you know, Apple being this closed system, like, where do they fit into that spectrum? Is it like developer machines, or is it like everyday machines are gonna require that level of compute power, because everyone's gonna be running like seven different pieces of software that have all these different things happening? I don't know, it'll be very interesting to see where they land on that. But yeah, NVIDIA's gotten really serious about this space as well.
+**Amal Hussein:** \[25:50\] Yeah. Well, speaking of chips - so NVIDIA is another company that's taking this really sharp pivot from like "We don't wanna be this company that just supports fancy gaming and graphics. We wanna power the AI revolution", and they've really heavily invested in all these new chips that are gonna be used in different capacities, to power the new revolution... And I'm curious where Apple -- you know, Apple being this closed system, like, where do they fit into that spectrum? Is it like developer machines, or is it like everyday machines are gonna require that level of compute power, because everyone's gonna be running like seven different pieces of software that have all these different things happening? I don't know, it'll be very interesting to see where they land on that. But yeah, NVIDIA's gotten really serious about this space as well.
 
 **Jerod Santo:** Everybody's interested. Adobe as well is doing some cool stuff. Kball, you linked into the doc Firefly. Do you wanna tell us about that?
 
@@ -268,7 +268,7 @@ Should we switch gears, or should we stick -- do we have anymore to say on the A
 
 **Nick Nisi:** Regurgitate.
 
-**Amal Hussein:** \[00:29:59.06\] ...retain and memorize information? So get the job done, or not? I mean, there's a balance, there's a fine line... I think it's important to understand what your Copilot is spitting out, and also being able to debug it, and scale it, and modify it etc. So I think this is just one of those things we're gonna have to learn the hard way where we find that balance and where we draw that line. I think it's still a little too early to say.
+**Amal Hussein:** \[29:59\] ...retain and memorize information? So get the job done, or not? I mean, there's a balance, there's a fine line... I think it's important to understand what your Copilot is spitting out, and also being able to debug it, and scale it, and modify it etc. So I think this is just one of those things we're gonna have to learn the hard way where we find that balance and where we draw that line. I think it's still a little too early to say.
 
 **Kevin Ball:** I have a different question.. At what point do you fail that interview if you don't use Copilot?
 
@@ -292,7 +292,7 @@ Should we switch gears, or should we stick -- do we have anymore to say on the A
 
 **Amal Hussein:** Honestly though, I think that's like the fancy marketing message. I think this is gonna be a learning curve for all of us. I really do. Because I think it's gonna be like "Oh, well if I don't have to, why should I?" Don't forget developers are -- we are inherently lazy, and it's a good thing; we conserve our mental energy. So you know, where do you draw the line for what you need to know and what you don't need to know? I think that's just where it gets murky, and I think that's where we're gonna have to learn the hard way, I think...
 
-**Break:** \[00:32:52.20\]
+**Break:** \[32:52\]
 
 **Jerod Santo:** It's now time for me to take a bathroom break and for Nick to talk about...
 
@@ -310,7 +310,7 @@ Should we switch gears, or should we stick -- do we have anymore to say on the A
 
 **Nick Nisi:** I know, right?
 
-**Jerod Santo:** \[00:34:10.03\] I can't even defend myself, because I'm in the bathroom, so... \[laughter\] It's not fair. Go ahead, Nick; TypeScript 5.0...
+**Jerod Santo:** \[34:10\] I can't even defend myself, because I'm in the bathroom, so... \[laughter\] It's not fair. Go ahead, Nick; TypeScript 5.0...
 
 **Nick Nisi:** Yeah...! It came out.
 
@@ -362,7 +362,7 @@ Should we switch gears, or should we stick -- do we have anymore to say on the A
 
 **Jerod Santo:** Now that we're alone here in the bathroom... How much did it hurt your heart recently, when you heard two of your programming heroes, Dan Abramov as well as Zach Leatherman, take anti-TypeScript stances right here live on the JS Party podcast? How much did your heart hurt when you heard those things?
 
-\[00:36:30.24\] \[Toni Braxton, Unbreak My Heart\]
+\[36:30\] \[Toni Braxton, Unbreak My Heart\]
 
 **Nick Nisi:** You know, at points in all of our lives we're all misguided... And some people are just misguided at different times than others. No, I totally respect that, and that's fine. It is funny though, because I was just having this conversation today, that when someone says they write JavaScript, it's just assumed to me that they actually mean TypeScript. Is that the case for you all as well?
 
@@ -380,7 +380,7 @@ Should we switch gears, or should we stick -- do we have anymore to say on the A
 
 **Nick Nisi:** Silicon Prairie...
 
-**Kevin Ball:** \[00:37:57.27\] ...if you're in Silicon Prairie, you and all five other developers are probably using TypeScript... But you know, if you're working doing software development in a non-software company, with legacy code that's probably been there for 10 or 15 years, you may or may not have gone through the work to upgrade to TypeScript, because you've got a whole mass of existing JavaScript to deal with.
+**Kevin Ball:** \[37:57\] ...if you're in Silicon Prairie, you and all five other developers are probably using TypeScript... But you know, if you're working doing software development in a non-software company, with legacy code that's probably been there for 10 or 15 years, you may or may not have gone through the work to upgrade to TypeScript, because you've got a whole mass of existing JavaScript to deal with.
 
 **Nick Nisi:** Absolutely. And we should be humbled by that. I go in assuming that when you say you write JavaScript you're actually writing TypeScript, but at the same time I need to remember that still 80% of the top 100,000 sites have jQuery on them.
 
@@ -420,7 +420,7 @@ Of course, there's parts of the legacy software that maybe isn't getting touched
 
 **Jerod Santo:** Tuple and tuple, that's another tough one.
 
-**Kevin Ball:** \[00:42:03.17\] Tuple doesn't sound as weird to me as enum. Enum I'm like "What?!"
+**Kevin Ball:** \[42:03\] Tuple doesn't sound as weird to me as enum. Enum I'm like "What?!"
 
 **Jerod Santo:** Yeah. But enumerator also doesn't sound weird, I guess. But enumerator does.
 
@@ -468,7 +468,7 @@ It's very murky. It's very not clear right now, to me; maybe it's more clear to 
 
 **Nick Nisi:** And they're great. It's finally like a legit non-beta for whatever URL to point developers to to learn modern React.
 
-**Jerod Santo:** \[00:45:55.01\] Yeah, it's super-impressive, even just aesthetically pleasing... But a lot of examples, a lot of guides... There's touchpoints for the API, for quick start... All the things that you'd expect to be there, and more. So that's really cool. But I'm curious what are you guys' thought - I don't know if you guys had a chance, Kball and Amal, to hear the React team on the show, or listen to anything they've been saying on the internets recently, in light of the SPA fatigue and the web development's lost decade episode, Amal, that you did with Alex. How do you think this is going? Where do you think it's going? What are your feels?
+**Jerod Santo:** \[45:55\] Yeah, it's super-impressive, even just aesthetically pleasing... But a lot of examples, a lot of guides... There's touchpoints for the API, for quick start... All the things that you'd expect to be there, and more. So that's really cool. But I'm curious what are you guys' thought - I don't know if you guys had a chance, Kball and Amal, to hear the React team on the show, or listen to anything they've been saying on the internets recently, in light of the SPA fatigue and the web development's lost decade episode, Amal, that you did with Alex. How do you think this is going? Where do you think it's going? What are your feels?
 
 **Amal Hussein:** Yeah, I think the React team is taking the steps that they need to take in order to support shifting needs in the community. And I think the server story for React has just been -- it's not a new thing; we've seen many iterations of this. But I think the missing ingredient has just been making this an important piece of the core library, and investing improvements, and making it really performant... That's what's been missing, which I think is being addressed now.
 
@@ -488,7 +488,7 @@ I think having a path or providing a path for people to easily switch from clien
 
 And so they're trying all of these things to try to address those things, but they cannot change that fundamental architecture because they have such a massive weight of usership and history. And so I think they're gonna continue to do interesting things there, they're gonna continue to try, but there is a huge opening right no,w that we're seeing filled by all these new frameworks. We're seeing tons of innovation in the framework space that we haven't seen for a while, with Astro, with Solid, with Qwik, that are looking at "Can we change some of those fundamental assumptions and break this legacy of so much JavaScript?"
 
-\[00:50:06.28\] So the React team is in a really hard space. This is the classic innovator's dilemma; they have plenty of reasons to keep going down the road that they're going, but honestly, I don't see what they're doing as something that's gonna fundamentally change that trajectory. It will help, it will give some options for people who are locked into the React ecosystem, but I don't think that it's going to make a fundamental shift. I think to do that we're gonna need changes in the way that we think about JavaScript frameworks, and maybe those changes are already out there in one of those frameworks. I forgot to mention Svelte, but Svelte is also doing interesting things in this... Maybe one of those frameworks is the one that breaks this trend and has enough fundamental difference to get us out of this over-JavaScript world... But I don't think it's gonna be React.
+\[50:06\] So the React team is in a really hard space. This is the classic innovator's dilemma; they have plenty of reasons to keep going down the road that they're going, but honestly, I don't see what they're doing as something that's gonna fundamentally change that trajectory. It will help, it will give some options for people who are locked into the React ecosystem, but I don't think that it's going to make a fundamental shift. I think to do that we're gonna need changes in the way that we think about JavaScript frameworks, and maybe those changes are already out there in one of those frameworks. I forgot to mention Svelte, but Svelte is also doing interesting things in this... Maybe one of those frameworks is the one that breaks this trend and has enough fundamental difference to get us out of this over-JavaScript world... But I don't think it's gonna be React.
 
 **Nick Nisi:** But this does set them up on a good trajectory with that, I think... Given their legacy and where they're at right now, they're still pushing forward with all of this, and then Server Components on top of that really adds, again, like a most ablessed route for doing that within the React ecosystem as well. Whereas something like Remix is going a slightly different way to the same goal... But this is what the React team is prescribing, and there's a lot of weight that goes along with that as well.
 
@@ -502,7 +502,7 @@ So I tend to lean with you, Kball; not because of the fault of any individuals, 
 
 There was a whole big debate about should they still be recommending Create React App as the go-to for starting a new React project... So I get that, and it's all like an open standard that anyone else can build onto as well, or choose not to.
 
-**Amal Hussein:** \[00:54:04.03\] I guess what's interesting for me is the problem of React is for me a slightly wider problem, which is like "Do everything with JavaScript." That's the generic, core underlying problem. And so with the birth of React - it was so widely adopted, and so quickly skyrocketed... I think most people just immediately took Facebook as a brand and said "Oh, they know what they're talking about. Let's go ahead and do this, and we'll use this regardless of whether or not it meets our use case for what type of site we're creating."
+**Amal Hussein:** \[54:04\] I guess what's interesting for me is the problem of React is for me a slightly wider problem, which is like "Do everything with JavaScript." That's the generic, core underlying problem. And so with the birth of React - it was so widely adopted, and so quickly skyrocketed... I think most people just immediately took Facebook as a brand and said "Oh, they know what they're talking about. Let's go ahead and do this, and we'll use this regardless of whether or not it meets our use case for what type of site we're creating."
 
 And then fast-forward however many years later, it's so widely adopted, people are having problems scaling it... Because they're like "Wait, maybe this wasn't actually for me." I feel like as a community we kind of gave up -- there was no discernment, there was no evaluation for like "Does this actually meet my needs? Is this the right tool? Is this the right architecture?" And now we're trying to kind of like walk ourselves back from it, and it's really hard to -- as we're seeing, it's really hard to walk back from that kind of a situation. And I feel like we kind of gave up -- like, we chose DX over UX, because it's like "Oh, look how easy it is to use React. Look how fast it is to use React. Look how quickly it is to build."
 
@@ -514,7 +514,7 @@ So it's because of the advent of things like that that we're able to start clawi
 
 **Jerod Santo:** I don't think the DX versus UX dichotomy is as black and white as perhaps it has described, or maybe that you guys think it is... Because a lot of times -- you know, you can't say "Well, we chose DX over UX", because in many cases your ability to actually develop is the thing that creates a user experience in the first place. And how can you say - like, compared to the jQuery spaghetti code, that was just unmaintainable, bug-ridden... Like, just messes that were happening. Like, React comes in and changes the paradigm of building these things with a single-directional dataflow, with components that are composable etc, that are just like way easier to develop things good, and maintain. And that produces a user experience. It's like, "Hey--"
 
-**Kevin Ball:** \[00:58:10.29\] Totally agree.
+**Kevin Ball:** \[58:10\] Totally agree.
 
 **Jerod Santo:** So a lot of times it's like this vs. that... I don't think it's quite so straightforward.
 
