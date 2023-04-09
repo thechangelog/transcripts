@@ -2492,6 +2492,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "ernstki",
+      "name": "Kevin Ernst",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4009681?v=4",
+      "profile": "https://github.com/ernstki",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
