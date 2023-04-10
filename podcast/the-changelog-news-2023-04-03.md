@@ -75,7 +75,7 @@ I'm so 3008. You so 2000 and late.
 
 **Jerod Santo:**
 
-With GPT-4's help, Eric invented SudoLang, which has commands, modifiers, and arguments. The spec for the language [available on GitHub](https://github.com/paralleldrive/sudolang-llm-support/blob/main/sudolang.sudo.md). All you have to do is paste it into ChatGPT with GPT-4+ running and you’ll be off to the races. About the project Eric says, "AI turns everyone into a conjurer, and we have only witnessed the tip of the iceberg."
+With GPT-4's help, Eric invented SudoLang, which has commands, modifiers, and arguments. The spec for the language is [available on GitHub](https://github.com/paralleldrive/sudolang-llm-support/blob/main/sudolang.sudo.md). All you have to do is paste it into ChatGPT with GPT-4+ running and you’ll be off to the races. About the project Eric says, "AI turns everyone into a conjurer, and we have only witnessed the tip of the iceberg."
 
 **Break:**
 
