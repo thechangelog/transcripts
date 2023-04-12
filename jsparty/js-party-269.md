@@ -256,7 +256,7 @@ So that's like brand new, as of -- brand new to us as of two weeks ago, and it's
 
 **Kevin Ball:** Do they have anything for video?
 
-**Jerod Santo:** No. They have a brand new tool that's going to compete with Riverside, and Zencast... It's called Adobe Podcasting -- no, it has a name that's like \[unintelligible 00:28:34.03\] That might not be right, but it's something like that. And it's in private waitlist beta, and it's really slick. It's kind of like Descript. I would say it's closest to Descript, but it seems like it's audio-only, which I think at this phase of the game, I think video to a certain extent is table stakes for a tool like that. Even if podcasters don't care about it, most of them do anyways. So yeah, Adobe is definitely doing some interesting new tools with these tools.
+**Jerod Santo:** No. They have a brand new tool that's going to compete with Riverside, and Zencast... It's called Adobe Podcasting -- no, it has a name that's like (Project) Shasta That might not be right, but it's something like that. And it's in private waitlist beta, and it's really slick. It's kind of like Descript. I would say it's closest to Descript, but it seems like it's audio-only, which I think at this phase of the game, I think video to a certain extent is table stakes for a tool like that. Even if podcasters don't care about it, most of them do anyways. So yeah, Adobe is definitely doing some interesting new tools with these tools.
 
 Should we switch gears, or should we stick -- do we have anymore to say on the AI front, or should we switch to a different story?
 
@@ -278,7 +278,7 @@ Should we switch gears, or should we stick -- do we have anymore to say on the A
 
 **Jerod Santo:** Right?!
 
-**Kevin Ball:** Or a Copilot-like tool; because there's tons of them coming out. Everybody's trying -- right now it might be GitHub Copilot is the way, but... I mean, at this pace we're going, next week there'll be three more. It is very fast. But I think this -- I'm tired of AI. It feels like all the time "AI, AI, AI..." and I'm just like "Ay, ay, ay..." If you say it faster, "Ay-yay-yay! So much AI!" But this has the potential to skyrocket productivity in the software industry, and I think as scary as it is, adapting to that type of rapid change - there's also just tremendous potential there, because there are so many problems... As soon as you get out of the tech world and you go and see what people are doing \[unintelligible 00:31:26.24\] "That could be solved by software. That could be solved by software. That could be solved by software." And they're not attacked -- problems all over the world that are not attacked because we don't have enough software developers. Well, if a software developer is ten times more productive because they can use AI tools to do all the boilerplate and all this and all that, and whatever, how much cooler of a world do we get to?
+**Kevin Ball:** Or a Copilot-like tool; because there's tons of them coming out. Everybody's trying -- right now it might be GitHub Copilot is the way, but... I mean, at this pace we're going, next week there'll be three more. It is very fast. But I think this -- I'm tired of AI. It feels like all the time "AI, AI, AI..." and I'm just like "Ay, ay, ay..." If you say it faster, "Ay-yay-yay! So much AI!" But this has the potential to skyrocket productivity in the software industry, and I think as scary as it is, adapting to that type of rapid change - there's also just tremendous potential there, because there are so many problems... As soon as you get out of the tech world and you go and see what people are doing in the world, you're like "That could be solved by software. That could be solved by software. That could be solved by software." And they're not attacked -- problems all over the world that are not attacked because we don't have enough software developers. Well, if a software developer is ten times more productive because they can use AI tools to do all the boilerplate and all this and all that, and whatever, how much cooler of a world do we get to?
 
 **Nick Nisi:** Let me put it in totally non-controversial terms here; absolutely no controversy here at all.
 
@@ -300,7 +300,7 @@ Should we switch gears, or should we stick -- do we have anymore to say on the A
 
 **Nick Nisi:** Oh, God... \[laughter\]
 
-**Amal Hussein:** \[unintelligible 00:33:51.20\]
+**Amal Hussein:** Good use.
 
 **Jerod Santo:** Nick?
 
@@ -328,7 +328,7 @@ Should we switch gears, or should we stick -- do we have anymore to say on the A
 
 **Kevin Ball:** Decimal notation. You're going out by 0.1 each time.
 
-**Nick Nisi:** Microsoft's 4.10 is like \[unintelligible 00:35:03.21\] They can't count to it, and so they just have to roll over.
+**Nick Nisi:** Microsoft's 4.10 is like Valve's 3, they can't count to it, and so they just have to roll over.
 
 **Jerod Santo:** When are we gonna get TypeScript X? That's what I wanna know.
 
@@ -434,7 +434,7 @@ Of course, there's parts of the legacy software that maybe isn't getting touched
 
 **Amal Hussein:** Enomerators...
 
-**Jerod Santo:** Alright, anything else on TypeScript 5? \[unintelligible 00:42:34.04\] I don't know... I was in the bathroom when you were talking about this. The decorators, \[unintelligible 00:42:40.16\]
+**Jerod Santo:** Alright, anything else on TypeScript 5? \[unintelligible 00:42:34.04\] I don't know... I was in the bathroom when you were talking about this. The decorators, there's like... 5 does it matter?
 
 **Nick Nisi:** Yeah, there's jsut general improvements. It's very exciting, obviously; there's a lot of really cool things. The biggest thing probably in 5 is the decorators support, which is really cool to see. They're keeping up with their stated goal, which is to be a typed superset of JavaScript. And so as these new features get added into the language, they add them as well, and I think that that's a really good way to have like a blessed version of the future of JavaScript that you can start using in a very typed way today.
 
@@ -492,7 +492,7 @@ And so they're trying all of these things to try to address those things, but th
 
 **Nick Nisi:** But this does set them up on a good trajectory with that, I think... Given their legacy and where they're at right now, they're still pushing forward with all of this, and then Server Components on top of that really adds, again, like a most ablessed route for doing that within the React ecosystem as well. Whereas something like Remix is going a slightly different way to the same goal... But this is what the React team is prescribing, and there's a lot of weight that goes along with that as well.
 
-**Jerod Santo:** I will say this... Everybody I've ever met on the React team is like top-notch amazing at what they do. Very smart, and clearly, driven, and doing great work. I feel like they're backed into a corner to a certain degree, because as we move away from client towards server... Like, React - they don't have that part of the stack. It hasn't been that, and they can come up with a spec and a technology and a way of doing things. But when it comes time to providing a solution, they're like "Well, Next.js has it built-in." It's like, "Well, that's not your project." Right? To me, that was one of the things that stuck with me, is how often they would say \[unintelligible 00:52:06.06\] which is a really great project, and all that; I have no problem with it. But that's outside of their control. And to me, that would be shaky ground, to be like "Well, the future of React is in Next." And Next is a great partner project, run by a company that is \[unintelligible 00:52:26.14\] but it seems like they almost need to have more of a holistic solution from React proper, in order, I think, to bridge the gap, ultimately.
+**Jerod Santo:** I will say this... Everybody I've ever met on the React team is like top-notch amazing at what they do. Very smart, and clearly, driven, and doing great work. I feel like they're backed into a corner to a certain degree, because as we move away from client towards server... Like, React - they don't have that part of the stack. It hasn't been that, and they can come up with a spec and a technology and a way of doing things. But when it comes time to providing a solution, they're like "Well, Next.js has it built-in." It's like, "Well, that's not your project." Right? To me, that was one of the things that stuck with me, is how often they would say "And it's built into Next 11" which is a really great project, and all that; I have no problem with it. But that's outside of their control. And to me, that would be shaky ground, to be like "Well, the future of React is in Next." And Next is a great partner project, run by a company that is simpatico, but it seems like they almost need to have more of a holistic solution from React proper, in order, I think, to bridge the gap, ultimately.
 
 So I tend to lean with you, Kball; not because of the fault of any individuals, or their quality of team. I mean, just spectacular. But just because of where it is, and what they don't offer. Because it hasn't historically had to be that. Your thoughts?
 
