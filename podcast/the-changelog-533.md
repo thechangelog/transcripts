@@ -8,7 +8,7 @@
 
 **Jerod Santo:** Right
 
-**Filippo Valsorda:** And it was actually a big relief sending out the blog post and saying "Alright, so this is it. \[unintelligible 00:04:48.04\] it now.
+**Filippo Valsorda:** And it was actually a big relief sending out the blog post and saying "Alright, so this is it. I can share it now.
 
 **Jerod Santo:** Yeah. Very cool. And you're not merely surviving on like a ramen kind of a thing; you said in the post you have six amazing clients at the time, and you're making an amount of money equivalent to your Google's total compensation package, which is - that's a nice package, right? It's not like "I'm just barely surviving."
 
@@ -16,7 +16,7 @@
 
 **Jerod Santo:** \[06:31\] Exactly, exactly... Which is why I do think it's a big deal, that this is a model that you've succeeded at and have written down how you did it, what you're doing... We're gonna dive into the details of exactly the setup that you have. Let's first talk about your open source bonafides, as they say, like your history. I know you from the Go Time podcast, which I produce; you were on there a few times, talking fuzzing, talking security, I know you're on the security angle of things around the Go team, or were... Tell us about the open source projects you've started, or worked on, or have in your portfolio.
 
-**Filippo Valsorda:** Yeah, so I started early on with YouTubeDL, the \[unintelligible 00:07:10.22\] program - not too little these days - that downloads from the various websites.
+**Filippo Valsorda:** Yeah, so I started early on with YouTubeDL, the Python program - not too little these days - that downloads from the various websites.
 
 **Jerod Santo:** Did you start that? Or did you work on it?
 
@@ -46,7 +46,7 @@ By the way, as a tangent - when the RIAA went after YouTubeDL, and GitHub then o
 
 **Jerod Santo:** And very useful.
 
-**Filippo Valsorda:** And that's how I got started in open source. After that, I started working more and more on security, on cryptography, and on Go, which are pretty much what I work on these days. I built the Heartbleed test back in 2014, when the big Open SSL vulnerability came out. I was basically emulating something that Adam Langley did the year before for a different vulnerability, the go to fail one in Apple's verifier... And that one didn't get press \[unintelligible 00:11:17.13\] I did not expect that, let me tell you. And that got very popular. And I wrote that in Go, because it was the simplest TLS stack to modify to make a test out of it. I made it open source, and Amazon comped me a bunch of AWS machines retroactively, which I was very stressed about until that happened...
+**Filippo Valsorda:** And that's how I got started in open source. After that, I started working more and more on security, on cryptography, and on Go, which are pretty much what I work on these days. I built the Heartbleed test back in 2014, when the big Open SSL vulnerability came out. I was basically emulating something that Adam Langley did the year before for a different vulnerability, the go to fail one in Apple's verifier... And that one didn't get press, Heartbleed did. I did not expect that, let me tell you. And that got very popular. And I wrote that in Go, because it was the simplest TLS stack to modify to make a test out of it. I made it open source, and Amazon comped me a bunch of AWS machines retroactively, which I was very stressed about until that happened...
 
 **Jerod Santo:** Oh... Did you have a big bill?
 
@@ -210,7 +210,7 @@ A good example that I enjoyed, that I make all the time - there was this company
 
 **Jerod Santo:** \[38:09\] Do you have a sense of what a top would look like?
 
-**Filippo Valsorda:** At this point, I feel like before growing and starting to hire other people it would probably be between 15 and 20 at various places in the \[unintelligible 00:38:21.20\] just silver, gold platinum...
+**Filippo Valsorda:** At this point, I feel like before growing and starting to hire other people it would probably be between 15 and 20 at various places in the scale just silver, gold platinum...
 
 **Jerod Santo:** Right. And with six you're at a good Google salary, so I mean, you're talking double that, maybe triple it. That's a heck of a good living for open source maintenance, right?
 
@@ -290,7 +290,7 @@ And time will tell. I mean, you're still in your first year as well. So one of t
 
 **Jerod Santo:** ...and so that has some payoffs as well. So yeah, I can see that being an angle, an add-on or an angle that flushes out this idea.
 
-**Filippo Valsorda:** I was just thinking the other day that there are a lot of topics that I would totally read, from every month to every three months digest of everything that happened. The OpenBSD world has sort of that with undeadly, which is just this curated executive summary of all the things that happen in OpenBSD land. And is it even relevant to me? Not really. I guess that Raspberry Pi over there does run OpenBSD, but that is the extent of my exposure to the platform. But still, they do a lot of interesting work, and having somebody surface "Oh, this thing was just committed by \[unintelligible 00:56:52.22\] into the OpenBSD tree" - I would have never learned about it. But now I know about a new security technique that maybe we'll see in Linux in five years.
+**Filippo Valsorda:** I was just thinking the other day that there are a lot of topics that I would totally read, from every month to every three months digest of everything that happened. The OpenBSD world has sort of that with undeadly, which is just this curated executive summary of all the things that happen in OpenBSD land. And is it even relevant to me? Not really. I guess that Raspberry Pi over there does run OpenBSD, but that is the extent of my exposure to the platform. But still, they do a lot of interesting work, and having somebody surface "Oh, this thing was just committed by Theo de Raadt into the OpenBSD tree" - I would have never learned about it. But now I know about a new security technique that maybe we'll see in Linux in five years.
 
 **Jerod Santo:** Right.
 
