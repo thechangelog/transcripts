@@ -62,7 +62,7 @@
 
 **Nick Nisi:** I go the other way, I think... Because if you're looking for longevity, the people who have the perfect form, which the machines will give you the better form, they're going to be at it longer, they're not going to hurt themselves, they're not going to get into a lot of trouble, as I currently am with my non-Tailwind projects... So I think like in a long game, they're gonna come out ahead.
 
-**Kevin Ball:** \[00:06:15.18\] Well, we weren't asking about longevity, we were asking about a fistfight.
+**Kevin Ball:** \[06:15\] Well, we weren't asking about longevity, we were asking about a fistfight.
 
 **Nick Nisi:** That's true. Yep, that's true.
 
@@ -88,7 +88,7 @@ When it comes to non-agile approaches, you often have to write these documents, 
 
 **Thomas Eckert:** That I think is a wonderful solution. But I, like many people, work with fantastic people who do not want to use GitHub, who do not want to learn Git, who feel much more comfortable commenting in a shared environment like Google Docs, Google Drive. What's been your experience around that?
 
-**Nick Nisi:** \[00:10:08.04\] Yeah, this is actually something that we have recently tried to make everyone happy with. And the way that we've done that is through Markdown in GitHub. But there's a plugin, like a GitHub Action that you put some metadata at the top of the Markdown file, and it will sync that as a Confluence document, which can then be in read-only mode there, but you can comment on it there in Confluence. And this is also like - not everyone in the company has access to GitHub, so it's a way to get that out there, but also keep the developers happy, writing their comfy Markdown, like myself...
+**Nick Nisi:** \[10:08\] Yeah, this is actually something that we have recently tried to make everyone happy with. And the way that we've done that is through Markdown in GitHub. But there's a plugin, like a GitHub Action that you put some metadata at the top of the Markdown file, and it will sync that as a Confluence document, which can then be in read-only mode there, but you can comment on it there in Confluence. And this is also like - not everyone in the company has access to GitHub, so it's a way to get that out there, but also keep the developers happy, writing their comfy Markdown, like myself...
 
 **Kevin Ball:** And do comments get synced back from Confluence into something in Git, or GitHub, or how does that coordination work?
 
@@ -106,7 +106,7 @@ When it comes to non-agile approaches, you often have to write these documents, 
 
 If I know it's in the code, ripgrep is my go-to. I go to that repository, and I ripgrep for the closest thing that I can, and I start reading the code. So it depends on -- if I'm looking at "Why did we make this decision?" I'm going to look at the RFCs, which I think is a really powerful thing about the RFC model. I can go back to the very start of the product that I work on and say, "Okay, why is this thing like this? Oh, there was a decision that was made because we needed to ship at this date. Okay, so this is not one of those things that I can never change", right? That's where I would start. How about yourself?
 
-**Kevin Ball:** \[00:13:52.13\] That points to something, and I'm going to detour you off in a different direction... But that points to something that I've been thinking a lot about, which is documenting in decision documents, whether they're RFCs or other forms, or durable decision docs, or whatever model you use, but documenting what are the situations in which this decision might make sense to reopen. Because I find that -- I mean, maybe this is just engineers, but we love to relitigate decisions. And a lot of times, those docs are not perfectly annotating all the things that were considered, or they're opaque enough that people look at them, and then they still want to reopen, even though oftentimes the reason they want to reopen is rehashing something that was a deliberate decision. And so one question I have to you all is, "How do you think about when does it make sense to reopen a document, or a decision? And how is that annotated or indicated?"
+**Kevin Ball:** \[13:52\] That points to something, and I'm going to detour you off in a different direction... But that points to something that I've been thinking a lot about, which is documenting in decision documents, whether they're RFCs or other forms, or durable decision docs, or whatever model you use, but documenting what are the situations in which this decision might make sense to reopen. Because I find that -- I mean, maybe this is just engineers, but we love to relitigate decisions. And a lot of times, those docs are not perfectly annotating all the things that were considered, or they're opaque enough that people look at them, and then they still want to reopen, even though oftentimes the reason they want to reopen is rehashing something that was a deliberate decision. And so one question I have to you all is, "How do you think about when does it make sense to reopen a document, or a decision? And how is that annotated or indicated?"
 
 **Nick Nisi:** It's not, for us... \[laughter\]
 
@@ -128,7 +128,7 @@ So the closer to the code, I think, the better when it comes to making decisions
 
 **Kevin Ball:** And the beauty of this is if it doesn't know, it'll tell you just as confidently... \[laughter\]
 
-**Thomas Eckert:** \[00:18:02.23\] It'll make it up! It'll just make it up. That's the problem; you need at least some kind of source of truth, something that it can point to.
+**Thomas Eckert:** \[18:02\] It'll make it up! It'll just make it up. That's the problem; you need at least some kind of source of truth, something that it can point to.
 
 **Nick Nisi:** That is the big problem. And I feel for us also a lot of this is "not documented" by being documented in Slack history, and you have to go back --
 
@@ -168,7 +168,7 @@ In looking at this - so we had Fred Schott on a few months ago now probably to t
 
 I think one of the frustrating things in Google Docs - I think it exists, but it's not always easy to find, is there's not like a git blame functionality. I can't see what the RFC looked like at all these different points, or see things highlighted, like "This addition was made after this was accepted", right? And I'd love to go back and make notes on it.
 
-\[00:22:16.04\] And I think there's an appropriate window, like maybe one or two months after the RFC that you can go back and add things to that. But - I mean, imagine if I were to go back to one of the original RFCs for Consul that's a couple years old now, and start making changes. That would feel wrong, because I'm disturbing this document that is a record, even though maybe I'd be making it more accurate.
+\[22:16\] And I think there's an appropriate window, like maybe one or two months after the RFC that you can go back and add things to that. But - I mean, imagine if I were to go back to one of the original RFCs for Consul that's a couple years old now, and start making changes. That would feel wrong, because I'm disturbing this document that is a record, even though maybe I'd be making it more accurate.
 
 **Kevin Ball:** I have a couple of immediate reactions. One is this is a big advocate in favor of Git-based RFCs.
 
@@ -200,7 +200,7 @@ And I think one thing I've really enjoyed going back to the idea of these git-ba
 
 **Nick Nisi:** Not sure that we have an answer for that.
 
-**Thomas Eckert:** \[00:26:06.12\] No. But maybe there's somebody listening who can develop that product, and it needs to be usable by engineers; there needs to be vim bindings, there needs to be the ability for multiplayer in comments, complete history, tracking between multiple documents to show that "This RFC affects the decision that was made in this RFC." And then there also needs to be a machine learning model on top of all that to tell us all of the reasoning behind all the decisions. And it needs to be able to not make stuff up. So that's just -- that's the product. I think all you need is a name, and that --
+**Thomas Eckert:** \[26:06\] No. But maybe there's somebody listening who can develop that product, and it needs to be usable by engineers; there needs to be vim bindings, there needs to be the ability for multiplayer in comments, complete history, tracking between multiple documents to show that "This RFC affects the decision that was made in this RFC." And then there also needs to be a machine learning model on top of all that to tell us all of the reasoning behind all the decisions. And it needs to be able to not make stuff up. So that's just -- that's the product. I think all you need is a name, and that --
 
 **Kevin Ball:** Sounds like a weekend project. Right?
 
@@ -214,7 +214,7 @@ So being able to report back and say -- I mean, when you're running code and you
 
 **Kevin Ball:** Evaling code that lives within Yaml... As soon as you said that I got goosebumps. That sounds terrifying.
 
-**Thomas Eckert:** \[00:29:54.06\] This project - at one point we were given the instruction that the user should be able to add or annotate their configuration with comments. And so it was suggested that we write our own Yaml parser that would also read in comments. And I did manage to dissuade the idea that we go and write our own Yaml parser that also includes comments. I was like, "That is a bad idea."
+**Thomas Eckert:** \[29:54\] This project - at one point we were given the instruction that the user should be able to add or annotate their configuration with comments. And so it was suggested that we write our own Yaml parser that would also read in comments. And I did manage to dissuade the idea that we go and write our own Yaml parser that also includes comments. I was like, "That is a bad idea."
 
 **Nick Nisi:** I was trying to think of mine... And I don't fully remember the specifics of it, but it took me probably a good, solid week. And it was something as silly as just animations not working properly, but it was not something that you could test locally. Because it worked every time locally. It was only out in production. But this was in the golden age, I think, of JavaScript, where we were using... This was a Dojo project, and so we would have been using AMD, or asynchronous module definitions, which are effectively the same in production and development. You build by just combining them all together, but otherwise, they're all the same exact thing.
 
@@ -226,7 +226,7 @@ And it ended up being something where it was like a race condition between when 
 
 **Kevin Ball:** Yeah. My debugging horror story is exactly one of those. This took me on the order of a month to debug. And the situation was this. So we were hosting our code on Google App Engine, and at some point in December - this was probably December 2019, or something like that - we started having outages, where once traffic would hit to some certain point, the machines would just start freaking out, swapping out of nowhere, and then we'd have cascading outages. And we could not figure out what was going on. We tried -- like, because it was it was App Engine, everything was Dockerized. We had old bundles, we had old instances, and we could actually recreate -- we had an old instance that would not exhibit, as far as we could tell, the bug. Now, we didn't have a perfect reproduction case, because it was tied to some amount of traffic, so we weren't sure what the situation was. But we had an old bundle that seemed to not reproduce it. However, if we took that snapshot of code, rebuilt it, deployed it, it would reproduce the issue. And so we were able to sort of pinpoint, "Okay, something changed in the environment between X date and Y date." I don't remember what they were. And we were like going back and forth with Google support, and we can't figure things out, and all these different things...
 
-\[00:34:20.16\] I will say a potentially important piece of information - Google App Engine has multiple variants. We had some applications being deployed on App Engine standard, which were not showing this, and some that were deployed on App Engine Flex, which were showing this problem. So we thought, "Okay, maybe it's related to that", but not all of our applications were such that we could move them over to standard; they were using different Docker images, which you could do custom on Flex, and not on the other... So we couldn't just switch out of it.
+\[34:20\] I will say a potentially important piece of information - Google App Engine has multiple variants. We had some applications being deployed on App Engine standard, which were not showing this, and some that were deployed on App Engine Flex, which were showing this problem. So we thought, "Okay, maybe it's related to that", but not all of our applications were such that we could move them over to standard; they were using different Docker images, which you could do custom on Flex, and not on the other... So we couldn't just switch out of it.
 
 We went on and on and on, trying to find different things... And their support was worthless. Absolutely worthless. But after a month of tracking this down, there were a few different things that came up. So one is we were able to see that the leading indicator that seemed to go into this is suddenly we would get lots of disk traffic. And so there would be lots of disk traffic on these instances for reasons we had no idea, including instances that like we weren't writing anything to disk; like, what is going on...? And this disk traffic would start thrashing the IO, which would then thrash everything, and it would cascade down.
 
@@ -236,7 +236,7 @@ And what had happened was Google had changed the location of one of the places t
 
 **Thomas Eckert:** I mean, I get it from their end... It's hard when you have people who are using your product and saying, "Oh, something's wrong", and sometimes it's like, "Well, you are holding it wrong." But no, really, when you can point that out... And I think you have this real perfect storm of a bug there, where not only do you have this environmental aspect where you can't see the real cause... The easiest bugs to fix are ones where you can see all the inputs, you can see all the outputs, you can see each step of how they are transformed... You can go "Oh, okay, I can put a breakpoint here, here, here, here. Ah, okay." But when your bug is dependent on these conditionals, like traffic load... Traffic load itself is such a pain to replicate, especially if you're working on a smaller project. When you're working at scale, you want to have that kind of testing, but... That really does -- ah, man...
 
-**Nick Nisi:** \[00:38:12.25\] So, Kball, your bug kind of leads into another one of Thomas's questions that I want to ask, which is "How much backend should a frontend dev know?"
+**Nick Nisi:** \[38:12\] So, Kball, your bug kind of leads into another one of Thomas's questions that I want to ask, which is "How much backend should a frontend dev know?"
 
 **Thomas Eckert:** Is this for me, or is this for Kball?
 
@@ -276,7 +276,7 @@ That being said, I also think that, like everything we've been talking about, it
 
 **Kevin Ball:** I think another thing to bear in mind here is where you are in your career. Right? Like, if you are early in your career, it is way too easy to spread yourself too thin. Like, this field is so big, and so wide, and changes so fast, that if you're trying to learn everything at once, you're never gonna get anywhere.
 
-\[00:42:06.21\] So if you're early in your career, I would pick one place to focus. And further than that, I wouldn't just focus on frontend. Frontend itself is so massively wide. I would focus on, "Okay, I'm going to learn how to do good web-based frontends using React, or using Vue." Or "I'm going to learn how to build good mobile frontends using --" I'm not a mobile developer, but one particular framework, whether it's Flutter, or it's React Native, or what have you.
+\[42:06\] So if you're early in your career, I would pick one place to focus. And further than that, I wouldn't just focus on frontend. Frontend itself is so massively wide. I would focus on, "Okay, I'm going to learn how to do good web-based frontends using React, or using Vue." Or "I'm going to learn how to build good mobile frontends using --" I'm not a mobile developer, but one particular framework, whether it's Flutter, or it's React Native, or what have you.
 
 After you feel like you can deliver just about anything you need in that space, now you can start to diversify. I mean, you could do it before that, but my sense is you'll be thrashing yourself. It's hard to learn the level of depth when you're trying to do everything at once. And once you do have that level of depth, the other things become easier to learn. Because as broad as this field is, there are a lot of related concepts, and you are going to be able to pick things up faster. So early career - don't even try to do backend as well as frontend. Pick one lane in frontend and specialize there. And once you are really feeling comfortable there and able to deliver just about anything anyone asks you of it, then start to branch out.
 
@@ -286,7 +286,7 @@ After you feel like you can deliver just about anything you need in that space, 
 
 **Thomas Eckert:** "What do you want to know? Start reading the source code..." \[laughter\] No, I actually have been mentoring someone as they've gotten into tech, and we're working on a project together, and I showed him the Chrome Dev Tools, and the networking tools, and I just encouraged him, "Go to different websites. See how does Reddit load its frontpage. How does Netflix stream in a video?" You don't need to understand the details of what's happening on that backend, but what do things look like as they come to you through the network, and what do these different protocols mean?
 
-**Break:** \[00:44:50.08\]
+**Break:** \[44:50\]
 
 **Nick Nisi:** We did get one question -- we asked this question also on Mastodon, and we got one response... And so what is an underrated library or package?
 
@@ -300,7 +300,7 @@ After you feel like you can deliver just about anything you need in that space, 
 
 **Kevin Ball:** I have a package that is extremely widely used, and yet I would still say underrated... And that's ESLint. And the way in which I think it's underrated is just about everyone uses it and a set of linters out of the box. They'll pull down a template from somewhere, or they'll use one of the built-ins. We as developers all develop opinions; our teams develop ways of doing things and ways not of doing things. Writing custom linters and custom configurations in ESLint is something I want to see way more teams doing, because I think the ability to put in those kind of automatic ratchets that check for the types of stylistic things that your team looks for are extremely valuable, and will cut down a lot of people's time where otherwise they'd have to do that in code reviews, and other places. So I think as widely used as ESLint is, it is still extremely underutilized, and therefore underrated.
 
-**Thomas Eckert:** \[00:48:28.10\] Yeah. What do you think is keeping it underrated? Do you think there needs to be more accessibility to writing your own rules? Is that a culture that needs to be created? Why is that not happening?
+**Thomas Eckert:** \[48:28\] Yeah. What do you think is keeping it underrated? Do you think there needs to be more accessibility to writing your own rules? Is that a culture that needs to be created? Why is that not happening?
 
 **Nick Nisi:** I think probably because -- you know, some projects bring it in automatically by default. I just was messing around with Next 13, and it brings in its own ESLint rules, which is great, because it helps you with the server components piece of it. It'll warn you if you're trying to use things that you can't use in a server component, for example. Super-cool stuff. The React rules are great too, because they'll tell you you're not using new state properly, you're not passing the right things to the second argument, the array of values that it has to check...
 
@@ -320,7 +320,7 @@ Where I think it falls down for a lot of people, or it just becomes super-overwh
 
 **Thomas Eckert:** Yeah, I think you're pointing to the right thing around the messiness of humans, and I think one other aspect there is that it's constantly changing. You will add new people to your team, people will leave, people will get promoted... I at one point was working at a company and we had a senior engineer with a lot of tenure come into a project, and we had been working on this JavaScript project, and I don't know why we had made this decision, but we were using two spaces to indent. And all the code was using two spaces to indent. And the first thing this person contributed to the codebase was to change the indentation for the entire codebase to four spaces. Didn't ask; just opened up a pull request and approved their own pull request. They probably shouldn't have been able to. That was probably an oversight. But that does not feel good. And needing to have these difficult conversations around "How do we best write code?" is very difficult.
 
-\[00:52:09.24\] I mean, I can understand some of the hate around Go, but this is something that Go has gotten really right. There are no arguments about what Go should look like. And the nice thing is, regardless of what codebase I go into, I know exactly what's going on. I can read all the code. Whereas even with the C++ that I've written in the past - C++ may as well be a different language in every repository you go into, because different people pull in different libraries, and you have to learn that specific flavor, in a lot of ways.
+\[52:09\] I mean, I can understand some of the hate around Go, but this is something that Go has gotten really right. There are no arguments about what Go should look like. And the nice thing is, regardless of what codebase I go into, I know exactly what's going on. I can read all the code. Whereas even with the C++ that I've written in the past - C++ may as well be a different language in every repository you go into, because different people pull in different libraries, and you have to learn that specific flavor, in a lot of ways.
 
 **Kevin Ball:** It's almost as if -- so you mentioned your example, and you'd made this decision, you weren't sure why, and he came in and changed it... It's almost as if we need some sort of approach, or documents for the decisions we make, and when they need to be reopened or not, and what the criteria were...
 
@@ -362,7 +362,7 @@ Where I think it falls down for a lot of people, or it just becomes super-overwh
 
 **Kevin Ball:** Everything is context-dependent, and you can't get away from humans. The problems that you're solving in tech have to do with humans. When we're talking about decision documents, and what's the right approach, it depends on the people, and you need to have conversations. When we're talking about tabs versus spaces, it depends on the humans, and you have to have conversations with people. If you're talking about Go versus TypeScript, the answer is TypeScript.
 
-**Nick Nisi:** \[00:56:16.28\] Yes, I agree.
+**Nick Nisi:** \[56:16\] Yes, I agree.
 
 **Thomas Eckert:** Yeah. No, I mean, I don't disagree. I love me some TypeScript. Yeah, I think in a similar vein, when you're thinking about people - you're right, that everything boils down to people making decisions, and the interpersonal skills. I think two pieces, two nuggets of wisdom or whatnot, is when you are joining a project, feel empowered to ask the questions of "Why?" and to seek out the answers there, and to take notes around what is a purposefully decided decision? What's an externality?
 
