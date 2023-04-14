@@ -48,7 +48,7 @@
 
 Taking off my Go hat and resetting this conversation... Now we're actually going to have a Go interview and we will have to do this with the first question showing that we are interviewing it, and not it is interviewing us.
 
-**Mat Ryer:** \[00:06:05.17\] Yeah, it's sort of taken over, hasn't it? Which is quite -- yeah...
+**Mat Ryer:** \[06:05\] Yeah, it's sort of taken over, hasn't it? Which is quite -- yeah...
 
 **Natalie Pistunovich:** We're starting again with a new preset, and now the system description is that GPT has to pretend to be interviewing for the role of a Go developer. Please bring on your first question. I'm putting my GPT hat back on.
 
@@ -84,7 +84,7 @@ In this example, the divide function takes two float 64 arguments and returns a 
 
 In summary, while there are some cases where panic might be appropriate, it is generally best to avoid using it, and rely on error handling for expected errors. This will lead to more maintainable and resilient code.
 
-**Johnny Boursiquot:** \[00:10:32.25\] That's a very good answer. So here's another one for you... What is variable shadowing?
+**Johnny Boursiquot:** \[10:32\] That's a very good answer. So here's another one for you... What is variable shadowing?
 
 **Natalie Pistunovich:** Variable shadowing occurs when a variable declared within an inner scope has the same name as a variable declared in the outer scope. When this happens, the inner scope variable shadows or hides the outer scope variable, making it inaccessible for the duration of the inner scope. In Go variable shadowing is allowed, but it can lead to unintended behavior, and make the code harder to understand and maintain. It's generally recommended to avoid variable shadowing by choosing descriptive variable names and keeping functions and blocks of code small and focused.
 
@@ -110,7 +110,7 @@ Three, the \[unintelligible 00:13:17.24\] statement at the end of the loop incre
 
 **Mat Ryer:** Oh, so it's waiting for all those goroutines to finish as well before it prints.
 
-**Natalie Pistunovich:** \[00:14:09.25\] In the updated version, we pass i as an argument to the anonymous function, ensuring that each goroutine has its own copy of the loop variable. We've also added a sync waitgroup to wait for all the goroutines to complete before the program exits. This ensures that we see the output from the goroutines before the main function exits.
+**Natalie Pistunovich:** \[14:09\] In the updated version, we pass i as an argument to the anonymous function, ensuring that each goroutine has its own copy of the loop variable. We've also added a sync waitgroup to wait for all the goroutines to complete before the program exits. This ensures that we see the output from the goroutines before the main function exits.
 
 **Mat Ryer:** Fair enough. I mean, I wanted the behavior where it just printed five of zero lots of times...
 
@@ -158,7 +158,7 @@ Three, the \[unintelligible 00:13:17.24\] statement at the end of the loop incre
 
 **Mat Ryer:** Okay, hat on. The Go community is...
 
-**Natalie Pistunovich:** \[00:18:11.26\] Is that an open question? Do you want it to continue?
+**Natalie Pistunovich:** \[18:11\] Is that an open question? Do you want it to continue?
 
 **Mat Ryer:** We can't ask it "What do you think of the Go community?" because it just says, "Oh, I'm an AI model. I don't have opinions." But what could we ask it...? Why is the Go community a strength for the language? And then we'll also ask it the negative and see if it agrees with both of us? Because sometimes in real interviews you can lead the witness.
 
@@ -198,7 +198,7 @@ Three, the \[unintelligible 00:13:17.24\] statement at the end of the loop incre
 
 **Mat Ryer:** Okay. Okay. Right. Well, I want to ask the other -- let's not ask it the other... Well, let's start with that - why is the Go community detrimental to the language? I want to see if it's led easily by me or if it disagrees. Disagreeing in an interview, by the way - perfectly acceptable. It's a bold move, but can be worthwhile, I think. Do you, Johnny? No... \[laughter\]
 
-**Natalie Pistunovich:** \[00:22:08.09\] So we didn't ask this the ChatGPT as part of the interview, we asked the new model, with no context, and we got a long answer. I guess I can read that.
+**Natalie Pistunovich:** \[22:08\] So we didn't ask this the ChatGPT as part of the interview, we asked the new model, with no context, and we got a long answer. I guess I can read that.
 
 So as an AI language model, I don't have personal opinions and I aim to provide objective information. It's important to note that the statement of "The Go community is detrimental to the Go programming language" is an opinion, and may not be representative of the views of the broader Go community, or of the other stakeholders. It is possible for individuals to have differing opinions on this matter.
 
@@ -224,7 +224,7 @@ The Go programming language, also known as Golang, has an active and diverse com
 
 **Natalie Pistunovich:** While the Go community is generally considered a strength for the language, as discussed in my previous answer, there might be some aspects that could potentially be detrimental to the Go programming language. It's important to note that these points are often subjective and may not apply to the entire community. 1) Resistance to change. Some members of the Go community may have a strong attachment to the simplicity of original principles of the language, which could make it difficult to adopt new language features or practices that could improve the language's capabilities or developer experience. 2) Fragmentation of libraries and tools. The Go ecosystem is growing rapidly, and sometimes multiple libraries or tools aim to solve the same problem. This can lead to fragmentation and make it challenging for developers to choose the best solution for their needs. 3) Inconsistencies in the coding standards. While Go has a strong focus on simplicity and readability, the community's coding standards can sometimes be inconsistent, especially among third-party libraries. This can make it difficult for developers to follow best practices or maintain a consistent codebase across different projects. 4) Learning curve for non-C developers. Go's syntax and design principles are heavily influenced by C.
 
-**Break:** \[00:25:41.09\]
+**Break:** \[25:41\]
 
 **Mat Ryer:** I want to find out if he knows who Golang Johnny is.
 
@@ -248,7 +248,7 @@ The Go programming language, also known as Golang, has an active and diverse com
 
 While certain individuals may have a significant impact on the community or the language, the community as a whole is designed to be resilient and collaborative. Open source projects like Go are typically structured in a way that allows for continuity and collaboration even if an individual contributor is no longer available to participate. If you have additional context or specific information about Golang Johnny, that you would like me to further explore, please let me know.
 
-**Mat Ryer:** \[00:28:21.04\] It's brutal. It moved on very quickly. But we should tell it, I think, that Golang Johnny is Johnny Boursiquot. Because to be fair -- although if you do search... By the way, we don't know what search engine it's using. It could be Bing... \[laughter\] But if you do search for Golang Johnny, you do get a lot of Johnny Boursiquot content. So it may just not have made that link, which is quite interesting.
+**Mat Ryer:** \[28:21\] It's brutal. It moved on very quickly. But we should tell it, I think, that Golang Johnny is Johnny Boursiquot. Because to be fair -- although if you do search... By the way, we don't know what search engine it's using. It could be Bing... \[laughter\] But if you do search for Golang Johnny, you do get a lot of Johnny Boursiquot content. So it may just not have made that link, which is quite interesting.
 
 **Natalie Pistunovich:** Golang Johnny is Johnny Boursiquot. Browsing the web. Searching "Johnny Boursiquot disappearance." \[laughter\]
 
@@ -296,7 +296,7 @@ To summarize, it's important to emphasize that this is a hypothetical scenario, 
 
 **Mat Ryer:** Whereabouts, but use Golang Johnny now, because I think we taught it who that is.
 
-**Natalie Pistunovich:** \[00:32:16.06\] Browsing the web. Johnny Boursiquot location residence. Reading content. Finished browsing. There is a name of a city and the state, and the US.
+**Natalie Pistunovich:** \[32:16\] Browsing the web. Johnny Boursiquot location residence. Reading content. Finished browsing. There is a name of a city and the state, and the US.
 
 **Mat Ryer:** I think the city is safe to say, because --
 
@@ -358,7 +358,7 @@ To summarize, it's important to emphasize that this is a hypothetical scenario, 
 
 **Johnny Boursiquot:** Somewhere...
 
-**Mat Ryer:** \[00:35:54.09\] Yeah. Like in your tweets, or something. By the way, if you want to follow Johnny on Twitter, you can. It's @jboursiquot. And if you don't know how to spell -- I mean, you're on your own, basically, because I haven't got a clue. It's got a lot of unnecessary letters in it, I know that.
+**Mat Ryer:** \[35:54\] Yeah. Like in your tweets, or something. By the way, if you want to follow Johnny on Twitter, you can. It's @jboursiquot. And if you don't know how to spell -- I mean, you're on your own, basically, because I haven't got a clue. It's got a lot of unnecessary letters in it, I know that.
 
 **Johnny Boursiquot:** It does, it does. Just look for Golang Johnny. That might take you to where you need to be, maybe.
 
@@ -402,7 +402,7 @@ There have been various proposals to improve the error handling in Go, but none 
 
 **Mat Ryer:** Oh yeah, I do mean that. Who runs the GopherCon Europe conference? What's the Twitter handle for that?
 
-**Natalie Pistunovich:** \[00:39:54.19\] Asking Mat, based outside of the EU.
+**Natalie Pistunovich:** \[39:54\] Asking Mat, based outside of the EU.
 
 **Mat Ryer:** Yeah, I'm obsessed with it. What's the Twitter for that conference, Natalie, by the way? What's the Twitter handle?
 
@@ -470,7 +470,7 @@ So this is even without the browsing, Mat...
 
 **Natalie Pistunovich:** Creepy is a great note to finish an episode, no? Unless we have some...
 
-**Jingle:** \[00:45:10.00\]
+**Jingle:** \[45:10\]
 
 **Natalie Pistunovich:** So first of all we ask our guests, right?
 
@@ -526,7 +526,7 @@ It's important to note that opinions on generics and other Go features vary amon
 
 **Johnny Boursiquot:** Oh, those who know me know I'm a huge potato fan. Less so the sweet, but I will have the sweet in like a sweet potato casserole. \[unintelligible 00:47:57.14\] But potatoes - I mean, that's my go-to. That's my favorite starch. I can eat that every day, all day. I'm a potato kind of guy. I'm all-in on potatoes.
 
-**Mat Ryer:** \[00:48:12.27\] But I've seen you, you don't look like you eat lots of potatoes.
+**Mat Ryer:** \[48:12\] But I've seen you, you don't look like you eat lots of potatoes.
 
 **Johnny Boursiquot:** Is there a particular look to one who eats lots of potatoes?
 
@@ -586,7 +586,7 @@ It's important to note that opinions on generics and other Go features vary amon
 
 **Johnny Boursiquot:** Oh, and it also thinks I work at VMware, and that I'm a developer advocate based in New York City.
 
-**Natalie Pistunovich:** \[00:51:58.23\] With a link, or which of the models are you asking?
+**Natalie Pistunovich:** \[51:58\] With a link, or which of the models are you asking?
 
 **Johnny Boursiquot:** I'm asking 3.5.
 
@@ -648,7 +648,7 @@ So what do you think about this letter that Elon Musk and a few others signed, s
 
 **Mat Ryer:** Natalie, it's taken over your brain... \[laughter\] It's taken over. Well, Elon Musk was one of the early investors in OpenAI.
 
-**Natalie Pistunovich:** \[00:55:59.29\] He was even one of the founders, yeah.
+**Natalie Pistunovich:** \[55:59\] He was even one of the founders, yeah.
 
 **Mat Ryer:** Was he?
 
