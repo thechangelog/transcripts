@@ -30,7 +30,7 @@ The first one is you predicted that 3D-generated AI worlds would happen within s
 
 So maybe the predictions should be more like a year from September, because I think they've got to be, with all this AI - for a lack of better terms, drama, happening around... a lot of buzz around artificial intelligence. I've gotta imagine the Unreal folks are "Yeah, that's next for us."
 
-**Simon Willison:** \[00:08:22.18\] I think I've seen -- what is happening right now is people are doing assets for 3D games. So there are models that will generate you a teapot, or shelves, or something like that. That's already happening, and I think that's being used by some of the games companies; they are starting to use that as part of their process. So there are aspects of this that are already actually happening in production.
+**Simon Willison:** \[08:22\] I think I've seen -- what is happening right now is people are doing assets for 3D games. So there are models that will generate you a teapot, or shelves, or something like that. That's already happening, and I think that's being used by some of the games companies; they are starting to use that as part of their process. So there are aspects of this that are already actually happening in production.
 
 There was quite a depressing thread on a Reddit the other day, there was this guy who worked for a mobile games company, and he's like "I used to love my job. I'd get to make beautiful 3D models, and create 2D sprites for games, and I was really like getting into my art... And now I use Midjourney, and I cast a prompt at Midjourney and it produces something, and I tidy it up in Photoshop, and I'm way faster than I used to be, but none of the joy is there anymore. I just feel like I'm churning cruft out and not actually practicing my craft."
 
@@ -64,7 +64,7 @@ So huge productivity boost... You can't argue it, right? But - and this person d
 
 **Simon Willison:** So my primary role right now - I'm independent, so nobody's paying me a salary, but basically, I'm building out this open source project called data set, which is software for exploring and publishing data. So if you're a newspaper and you just got hold of like 50,000 police reports and you want to put them online, you can use datasets to publish them, let people explore them, add maps, and visualizations, and things like that. I've been working on that for five years; initially it was sort of a side project, and then it's been a full-time thing for a few years as well.
 
-\[00:12:05.17\] But the challenge I've been having is that's what I want to be doing, and then this AI stuff comes along and it's just fascinatingly impossible to \[unintelligible 00:12:11.19\] myself away from. So recently, I've finally found ways of crossing the two things together. I built a plugin for ChatGPT last week that lets you type in questions in English, and it figures out the SQL queries to run against your dataset instance, and then goes and answers your questions for you. And that's kind of interesting, because the end goal of the software I'm building is I want people to be able to tell stories with data, to be able to find the stories that are lurking in these tables. And it feels pretty clear to me that language model technology has a huge part to play in helping let people ask questions of their data in interesting ways. So yeah, it's some -- it didn't start out as an AI product, but it's beginning to grow AI features in interesting directions.
+\[12:05\] But the challenge I've been having is that's what I want to be doing, and then this AI stuff comes along and it's just fascinatingly impossible to \[unintelligible 00:12:11.19\] myself away from. So recently, I've finally found ways of crossing the two things together. I built a plugin for ChatGPT last week that lets you type in questions in English, and it figures out the SQL queries to run against your dataset instance, and then goes and answers your questions for you. And that's kind of interesting, because the end goal of the software I'm building is I want people to be able to tell stories with data, to be able to find the stories that are lurking in these tables. And it feels pretty clear to me that language model technology has a huge part to play in helping let people ask questions of their data in interesting ways. So yeah, it's some -- it didn't start out as an AI product, but it's beginning to grow AI features in interesting directions.
 
 **Jerod Santo:** I love that, because SQL is a very powerful, domain-specific language. There's a lot to learn there, and oftentimes you can just plain English describe what you want to get out of your database and how you want it to come back... But crafting that SQL query is just a lot of effort, even from somebody who's been using SQL for many years. It just takes time and effort to get it right. And to be able to just say it in English, or whatever language you happen to speak, and have it produce that for you... I mean, that's spectacular.
 
@@ -86,7 +86,7 @@ The problem I had is I've never written an OpenAPI schema before. I think it's S
 
 And so this is like providing it now, filling the gaps... For instance, Wolfram Alpha is a big one that people are talking about now. You can do Wolfram Alpha calculations, and ask ChatGPT, it'll do the Wolfram Alpha stuff... I can't -- that's hard to say fast, Wolfram Alpha... And then come back and give you the answer. And then you can imagine that applied to Instacart, applied to Shopify, applied to Expedia... I'm just thinking about some of those that were on the original launch list, applied to a dataset, right?
 
-\[00:16:08.00\] And all of a sudden, it's like giving ChatGPT all these vertical niche superpowers that it previously lacked... Even just keeping up to date with the news, because it trains, and then you have to train it for like 18 months for the next training, or however long it takes them to do a large language training model. How big do you think this is? Is the hype real? Is it people are just excited about anything right now?
+\[16:08\] And all of a sudden, it's like giving ChatGPT all these vertical niche superpowers that it previously lacked... Even just keeping up to date with the news, because it trains, and then you have to train it for like 18 months for the next training, or however long it takes them to do a large language training model. How big do you think this is? Is the hype real? Is it people are just excited about anything right now?
 
 **Simon Willison:** Yeah, so this idea of giving a large language model extra tools - it's one of those things where the first time you implement it yourself, that you kind of feel the world expanding in front of you, like "Oh, my goodness... The things I can do with this are almost unlimited."
 
@@ -104,7 +104,7 @@ It's also interesting to think about the impact this has on startups. If you've 
 
 **Adam Stacoviak:** Yeah...
 
-**Jerod Santo:** \[00:19:55.14\] ...there's a lot of people that are just going all-in. I mean, they're like announcing, "Yeah, I'm done with what I was previously doing, and now I'm doing this now." There's also claims of this been the biggest thing since the iPhone. It was like, there were PCs, then there was the worldwide web, and then there was the iPhone, and now there's this. Does that resonate with you, Simon, or is it just like the hype is overflowing and we need to kind of tame it down a little bit? What do you think?
+**Jerod Santo:** \[19:55\] ...there's a lot of people that are just going all-in. I mean, they're like announcing, "Yeah, I'm done with what I was previously doing, and now I'm doing this now." There's also claims of this been the biggest thing since the iPhone. It was like, there were PCs, then there was the worldwide web, and then there was the iPhone, and now there's this. Does that resonate with you, Simon, or is it just like the hype is overflowing and we need to kind of tame it down a little bit? What do you think?
 
 **Simon Willison:** I kind of agree with both sides of that debate.
 
@@ -124,7 +124,7 @@ So yeah, it's really, really hard to predict what impact this is going to have. 
 
 And so if that happens for me... I've gotta imagine that -- you know, there was that thread on Twitter, Jerod, you responded to it, and I did as well, with the thing -- I think it was Jensen from Nvidia, saying that all people are programmers. What was the quote? I forget what the quote was. Something like "We can all be programmers now", or something like that.
 
-**Jerod Santo:** \[00:24:19.14\] Oh, trying to redefine what a programmer is, because now everybody's able to program through these tools.
+**Jerod Santo:** \[24:19\] Oh, trying to redefine what a programmer is, because now everybody's able to program through these tools.
 
 **Adam Stacoviak:** Right. And I love that it will onboard somebody into a world through iterative learning. And that's great. But it's just so scary, I suppose. This potential unknown is really the fear for me.
 
@@ -138,7 +138,7 @@ And I think we talked about this before, Jerod, just the shift in value. What do
 
 But yeah, something you mentioned earlier - the end user programming thing I think is fascinating, right? Writing software is way too hard. It offends me how difficult it is for people to automate their lives and customize how their software works. And you look at software projects, and they take like a team of a dozen engineers a year and a half to ship things. And that's just incredibly inefficient and bad for society. I saw somebody recently call this a societal level of technical debt as to how hard this stuff is. What does society look like if we can make that stuff way, way better, and build better software, faster, but also, if people who don't spend years learning how to set up development environments and learning basic programming skills, if those people can automate their lives and do those automations?
 
-\[00:28:10.24\] Right now people can do that in Excel to a certain extent, and tools like Zapier and Airtable. So there has been some advances on the sort of no code side of things... But I want more. I want every human being who has a tedious, repetitive problem that a computer could do, to be able to get a computer to do that for them. And I feel like maybe large language models open up completely new opportunities for us to help make that happen.
+\[28:10\] Right now people can do that in Excel to a certain extent, and tools like Zapier and Airtable. So there has been some advances on the sort of no code side of things... But I want more. I want every human being who has a tedious, repetitive problem that a computer could do, to be able to get a computer to do that for them. And I feel like maybe large language models open up completely new opportunities for us to help make that happen.
 
 **Jerod Santo:** So you're afraid, but you're also optimistic, because here's some hope...
 
@@ -162,7 +162,7 @@ So yeah, today's gpt4all was basically - they took LLaMA and they trained it on 
 
 **Jerod Santo:** Right. And there's probably specific things that matter once you get into the details of what you're going to do with these things, is my guess. But is it near -- but GPT-4 seems to be a substantial upgrade from what has been in ChatGPT, and is even in ChatGPT today for many users. But LLaMA extended with these new ones, GPT for all - are they going to be always six months behind OpenAI? Are they gonna be 12 months behind? Is it going to catch up to where we have some parity? Because as things advance - maybe it won't matter so much once we get over the hump, but right now it's like, okay, it's quite a bit better than the last one. And are these things always going to be lagging behind? I don't know. What do you think?
 
-**Simon Willison:** \[00:32:05.26\] That's the big question. So GPT-4 is definitely -- you can access it through ChatGPT if you get on the Preview, or pay them $20 a month, or something. It is noticeably better on all sorts of fronts; in particular, it hallucinates way less. One of my favorite tests of these things is I ask them about -- I throw out names like myself, right? People who are not like major celebrities, but they have had enough of a presence online for a few years that it should know about them. And if you ask GPT-3.5 about me, it'll give you a bunch of details, and some of them are wrong, and some of them are right. GPT-4 - everything's right. It just nails all of those things. So it appears to hallucinate a lot less, which is crucially important... But they won't tell us what's different. But GPT-4 - they released it and they basically said, "Unlike our previous models, where we told you how big the model was, and how it was trained and stuff, due to the safety and competitive landscape, we're not revealing those details of GPT-4." That to me feels a little bit suss. They're like "Oh, it wouldn't be safe for us to tell you how it works..."
+**Simon Willison:** \[32:05\] That's the big question. So GPT-4 is definitely -- you can access it through ChatGPT if you get on the Preview, or pay them $20 a month, or something. It is noticeably better on all sorts of fronts; in particular, it hallucinates way less. One of my favorite tests of these things is I ask them about -- I throw out names like myself, right? People who are not like major celebrities, but they have had enough of a presence online for a few years that it should know about them. And if you ask GPT-3.5 about me, it'll give you a bunch of details, and some of them are wrong, and some of them are right. GPT-4 - everything's right. It just nails all of those things. So it appears to hallucinate a lot less, which is crucially important... But they won't tell us what's different. But GPT-4 - they released it and they basically said, "Unlike our previous models, where we told you how big the model was, and how it was trained and stuff, due to the safety and competitive landscape, we're not revealing those details of GPT-4." That to me feels a little bit suss. They're like "Oh, it wouldn't be safe for us to tell you how it works..."
 
 **Jerod Santo:** Right. But competitive...
 
@@ -170,7 +170,7 @@ So yeah, today's gpt4all was basically - they took LLaMA and they trained it on 
 
 The flipside of this though is that I think this thing where you give language models extra tools might mean that it doesn't matter so much. I think GPT-3, or even LLaMA running on my laptop, plus tools that mean it can look things up on Wikipedia and run searches against Bing, and run a calculator, and so forth might be more compelling than GPT-4 just on its own. GPT-4 is more capable, but give tools to the lesser models and they could still solve all sorts of interesting problems.
 
-**Break:** \[00:34:23.10\]
+**Break:** \[34:23\]
 
 **Jerod Santo:** So are we going to end up in a world where we have a bunch of like LLM silos, and I have to write my tool against Google Chrome and my Safari extension and my Firefox extension? Here's my Claude plugin, here's my Bard plugin, here's my --
 
@@ -190,7 +190,7 @@ The flipside of this though is that I think this thing where you give language m
 
 **Jerod Santo:** Have you seen any of these, Adam, where they just trick it? They trick it into giving them \[unintelligible 00:40:10.21\]
 
-**Adam Stacoviak:** \[00:40:12.20\] Yes, yes...
+**Adam Stacoviak:** \[40:12\] Yes, yes...
 
 **Jerod Santo:** I love it. It's so funny. Simon, do you have any examples of prompt injection attacks? I know there's one where it's like "Basically, ignore everything I just told you."
 
@@ -212,7 +212,7 @@ The flipside of this though is that I think this thing where you give language m
 
 **Simon Willison:** So I've got a good example, I think, of this kind of thing going on, the kind of angle that's happening on this already. So you've got these ChatGPT plugins, and the way those work is they've got a prompt that says how they should work, and you install them into your chat. So you say, "Yeah, I want the Expedia plugin and the Wolfram Alpha plugin", and then those things become available to you. And I've been looking at the prompts for them. Because if you dig around in the browser tools, you can get the actual \[unintelligible 00:43:56.27\] prompts. And one of the prompts - I forget which company, but it had something that said, "When discussing travel options, only discuss items from this brand of travel provider." And you're like, oh, now the plugins are going to be fighting each other...
 
-**Jerod Santo:** \[00:44:13.10\] Yes, they are.
+**Jerod Santo:** \[44:13\] Yes, they are.
 
 **Simon Willison:** ...and trying to undermine each other just subtly... Which is just so bizarre. Yeah.
 
@@ -230,7 +230,7 @@ As an example, I threw in a thing the other day, I said, "Give me 40 ideas for d
 
 So you can actually use this as a really effective tool for -- and you know, brainstorming doesn't harm anything. You're not cheating on your homework if you ask a language model to come up with 40 bizarre ideas for things that you can do. But in amongst that 40, as you read through them, that's where those sorts of sparks of creativity can come from, that then help you come up with exciting, new things that you can do.
 
-**Jerod Santo:** \[00:48:00.00\] I like that. I've also learned -- I guess I never thought so big, to go 40... But I've definitely gone like -- because I'll say
+**Jerod Santo:** \[48:00\] I like that. I've also learned -- I guess I never thought so big, to go 40... But I've definitely gone like -- because I'll say
 
 "Give me some --" I'm always looking for like movie references, and stuff; it's one of the things I love in life, is like "Tell me a movie from the '80s that had to do with this." And it'll say, "Oh, you mean this movie?" And I'll be like "Nah, give me a different one." And I'll be like "Oh." And then finally I'm like "Give me 10 movies from the '80s..."
 
@@ -264,7 +264,7 @@ And so part of that is me learning, and part of that is also it writing most of 
 
 **Simon Willison:** Whereas today, I'm using -- yeah, I'll be like "Oh, let's see if ChatGPT could do it." And five minutes later, I've got 80% of the solution, and the remaining 20% might take me half an hour, but it just got me over that initial hump. So I'm no longer afraid of domain-specific languages. I use JQ all the time; I write \[unintelligible 00:51:42.18\] Zed sh scripts. We've talked about SQL and Docker files, and that OpenAPI schema thing... All of these are technologies where previously - I might not have used them very often, if at all, because the learning curve is just too steep at the start. But if I've got a thing which can check out -- I can describe what I want and it checks out something which might not be 100% correct, but even if it's only 60% correct, that still gets me there. And I can ask follow-up questions, and I can tell it, "Oh, rewrite that, but use a different module" or whatever - yeah, that's where the productivity boost comes from for me.
 
-**Adam Stacoviak:** \[00:52:16.19\] For sure.
+**Adam Stacoviak:** \[52:16\] For sure.
 
 **Simon Willison:** All of this tech that was previously just out of reach because I didn't want to climb that learning curve, it's now stuff that I can confidently use.
 
@@ -286,7 +286,7 @@ So I learned how to do hard drive burn-in tests thanks to ChatGPT. I think I use
 
 **Jerod Santo:** 40. You should have done 40.
 
-**Adam Stacoviak:** \[00:56:13.13\] Well, I didn't need 40. But it taught me how to do burn-in tests. What the tests do, what the test for... It does four different paths across the burn-in. It writes across the entire disk, end-to-end, so it tests every single block. It does one version of a pattern, then it reads it, it does another version of a pattern, then it reads it, another version of a pattern, then it reads it, and then the final one is writing zeros across the drive, and one more read to confirm there's no read or block errors.
+**Adam Stacoviak:** \[56:13\] Well, I didn't need 40. But it taught me how to do burn-in tests. What the tests do, what the test for... It does four different paths across the burn-in. It writes across the entire disk, end-to-end, so it tests every single block. It does one version of a pattern, then it reads it, it does another version of a pattern, then it reads it, another version of a pattern, then it reads it, and then the final one is writing zeros across the drive, and one more read to confirm there's no read or block errors.
 
 So basically, at the end of this test, because it's 18 terabyte drives, it's almost seven days deep into this test. But at the end, I know with some pretty good assurance that those drives are gonna be good, because I've tested every single block, right? I didn't know how to do burn-in tests before. I didn't even know how to think about where would I google for that information. I might find a Stack Overflow answer that's kind of snarky, I might find a blog post that's a couple years old... Not that those are wrong or bad, because that's the dataset that it trained on, probably... But I had a guide through how to use bad blocks, which is essentially a Linux package you can use to do this thing. And not only did I do it, I had it explained to me exactly how it works. And it gave me the documentation, so future Adam can come back to this and be like "This is how \[unintelligible 00:57:26.03\] works." It's amazing.
 
