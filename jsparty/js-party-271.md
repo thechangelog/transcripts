@@ -36,7 +36,7 @@ I think one of my favorite early networking hacks was a meetup, and hosting a me
 
 **Nick Nisi:** It's probably the people that you connect to in your field, that know -- either you know something about what they're doing, or... I don't know, you connect on a professional level. \[laughs\] I don't think that was helpful at all...
 
-**Kevin Ball:** \[00:05:59.04\] Yeah, that may be part of the challenge here, it's like, what is the definition of this thing that we're trying to talk about here...? I think you're in the right direction. The people who -- well, I guess that's the first thing. It's about people. And it's about people who your relationship, the core way that you think about them or relate with them is professional... Though I feel like there can also be overlap, right? Like, I am friends with a lot of the people that I have worked with, and there are people that I am friends with who are in a similar industry than me, even though our relationship is purely about friendship. So there is a blurry line there.
+**Kevin Ball:** \[05:59\] Yeah, that may be part of the challenge here, it's like, what is the definition of this thing that we're trying to talk about here...? I think you're in the right direction. The people who -- well, I guess that's the first thing. It's about people. And it's about people who your relationship, the core way that you think about them or relate with them is professional... Though I feel like there can also be overlap, right? Like, I am friends with a lot of the people that I have worked with, and there are people that I am friends with who are in a similar industry than me, even though our relationship is purely about friendship. So there is a blurry line there.
 
 **Amelia Wattenberger:** Right, and it doesn't always have to be just with developers, right? People I talk to on the marketing team, or designers - they are also in my network, I assume.
 
@@ -68,7 +68,7 @@ I think one of my favorite early networking hacks was a meetup, and hosting a me
 
 **Nick Nisi:** LinkedIn is a peculiar place for me, I think, just because - yeah, I do connect with everyone, so my feed is just random noise, and I don't go there to really look at the feed... And maybe that's a part of it, but I also don't really interact there much at all. I started posting about my meetup, and stuff, just to get that out there a little bit more... But otherwise I almost never post there. And it's -- I think it's just the nature of LinkedIn; it feels so -- I don't know, to me, this is my perspective of it, and it's probably completely wrong, but I always feel like "Oh, I don't wanna interact too much here", and a lot of times I'm connected to a lot of current co-workers, and if they see my activity spike on LinkedIn, is that some kind of signal that I don't want out there \[unintelligible 00:09:50.14\] And then there's this whole voyeuristic portion of LinkedIn, where you can see who's looking at your profile, and all of that too, which also make it like "Oh, I wanna look at your profile, but I'm not going to, because it's gonna let you know..." \[laughs\]
 
-**Amelia Wattenberger:** \[00:10:05.02\] Oh yeah, that's my least favorite thing. I'll open an incognito window to look at people's LinkedIn profiles... \[laughs\]
+**Amelia Wattenberger:** \[10:05\] Oh yeah, that's my least favorite thing. I'll open an incognito window to look at people's LinkedIn profiles... \[laughs\]
 
 **Kevin Ball:** Totally. Yeah, I've been playing a lot with LinkedIn recently because of the dumpster fire that is Twitter, and because I'm back in this "Run your own business", "Gotta self-promote" etc. It's interesting. Yeah, there's definitely some weird features about it. I have found there are - just like with Twitter there are sub-communities that engage in really interesting conversations, and the depth of the back and forth can be higher, because there's fewer content limits... But it's definitely sub-communities, and there's also parts that have exactly that, a very transactional feel.
 
@@ -90,7 +90,7 @@ I saw an Instagram reel today that was like "People in their 30s have friends ba
 
 **Nick Nisi:** We do have a question in the Slack from long-time listener Jerod Santo... It says "What's the most valuable use of your networking time, most bang for your buck?"
 
-**Amelia Wattenberger:** \[00:13:32.05\] I think my answer, if this counts as networking, is Twitter. It scales infinitely. I'll just try to continuously post things that I find are interesting, or something I'm just working on, and that's been so helpful for me... Just finding people that like the things that I like, or getting interest from people who would be fun to collaborate with. I love that, because it's just infinitely scalable. I post something and any number of people can see it. Whereas like a one-to-one conversation - it doesn't scale so well.
+**Amelia Wattenberger:** \[13:32\] I think my answer, if this counts as networking, is Twitter. It scales infinitely. I'll just try to continuously post things that I find are interesting, or something I'm just working on, and that's been so helpful for me... Just finding people that like the things that I like, or getting interest from people who would be fun to collaborate with. I love that, because it's just infinitely scalable. I post something and any number of people can see it. Whereas like a one-to-one conversation - it doesn't scale so well.
 
 **Kevin Ball:** I feel like it depends a lot on your goals. Are you trying to build a network? Are you trying to achieve something specific through your network, like find a new job, or find something else? And do you think creating something is a great networking hack, whether it's writing, posting things on Twitter, giving talks?
 
@@ -108,7 +108,7 @@ It's going and just like talking to people, and then saying clearly "Okay, I'm l
 
 Because once again, I said I got every job through my network... It's never the first \[unintelligible 00:17:42.08\] connection. It's like, okay, this person's husband was working at a place that was hiring someone. Or this person heard of something over here and they happen to know someone they can introduce you to, or whatever. So even when you're that urgent, you're not asking the people directly in your network for the job. You're sharing as clearly as you can what it is you're looking for, and asking them... But the ask is like "Who else should I talk to about this?"
 
-**Amelia Wattenberger:** \[00:18:10.28\] Yeah. That reframing - it can feel hard, especially if you just got laid off and you're like "I need a job. This is what I need. I'll take whatever I can get." If you reframe it more as like "This is what I bring to the table. Who would be interested in that?" It feels better, I think, for you, and also for the poeple who would be interested. Because companies need employees, right? It's a symbiotic relationship.
+**Amelia Wattenberger:** \[18:10\] Yeah. That reframing - it can feel hard, especially if you just got laid off and you're like "I need a job. This is what I need. I'll take whatever I can get." If you reframe it more as like "This is what I bring to the table. Who would be interested in that?" It feels better, I think, for you, and also for the poeple who would be interested. Because companies need employees, right? It's a symbiotic relationship.
 
 **Kevin Ball:** Totally. I mean, having been a hiring manager, if you introduce me to someone who's a good fit for what I'm looking for - that's incredibly valuable! So it's not a one-to-one, like I'm giving you something... This is a win/win type of situation.
 
@@ -140,7 +140,7 @@ I know a lot of people by their Twitter handles, not their real names, which is 
 
 **Kevin Ball:** Yeah. I'm trying to think if there's a good resource for this... I often will try to move -- if there's somebody that I want to get better connected with, I try to move from a social network conversation to an in-person conversation. And this actually gets a little bit to your question, Amelia, about like networking within a company as well. Like, find some excuse, whether it's a thread they were talking about on Twitter, or you're working at a company and you were both in a meeting together, or you were talking back and forth on a ticket, or something... Or being like "Hey, I realized we're chatting back and forth, and we've never actually met. Could we do a quick call and get to know each other?"
 
-\[00:22:08.12\] I've done that inside companies, I've done that with people I've met on Twitter or LinkedIn, and to me the difference in actually seeing a person and connecting with them, instead of just text, is huge. I really value that a lot, and I feel like I'm able to -- then actually when we're talking in text, I feel like I have a much more three-dimensional picture of who this person is and what's gonna be helpful or resonate with them.
+\[22:08\] I've done that inside companies, I've done that with people I've met on Twitter or LinkedIn, and to me the difference in actually seeing a person and connecting with them, instead of just text, is huge. I really value that a lot, and I feel like I'm able to -- then actually when we're talking in text, I feel like I have a much more three-dimensional picture of who this person is and what's gonna be helpful or resonate with them.
 
 **Amelia Wattenberger:** Yeah, I like that. Now that I'm thinking about it, at GitHub we also have resources, which I'm sure most large companies have like bagels, where they randomly pair people, or there's like a keyboard group, where people talk about keyboards... It feels like if you move away from transactional interactions, where you just take every opportunity you can to meet with people, not thinking forward like "Is this gonna get me anything in the future?" Just like "Hey, this person's interested in things that I'm interested in", or they work at the same company, and taking those opportunities... I feel like it always ends up being beneficial in some way down the road.
 
@@ -150,7 +150,7 @@ I know a lot of people by their Twitter handles, not their real names, which is 
 
 **Kevin Ball:** And the other thing is we're all bad at this, I think... I mean, maybe there's somebody out there who's actually good at this, and they're probably not a software developer; they're probably like a salesperson, or something... But we're all bad at this, so give yourself a little slack, and don't feel like "Oh my gosh, this is gonna be the perfect conversation" or "Oh my gosh, they're gonna think I'm so weird", or whatever... Like, we're just all introverted humans trying to figure out how to talk to people.
 
-**Nick Nisi:** \[00:25:47.20\] And I think a good hack to kind of go along with that is try and listen more than you speak, or try and be engaged in what they're saying more than trying to think about what you're going to say next. That's hard, but it's way more fruitful, and you're way more memorable if you're engaged actively in the conversation, asking follow-up questions, and getting the person to talk about them more than you trying to promote your own stuff... Which also feels kind of weird.
+**Nick Nisi:** \[25:47\] And I think a good hack to kind of go along with that is try and listen more than you speak, or try and be engaged in what they're saying more than trying to think about what you're going to say next. That's hard, but it's way more fruitful, and you're way more memorable if you're engaged actively in the conversation, asking follow-up questions, and getting the person to talk about them more than you trying to promote your own stuff... Which also feels kind of weird.
 
 **Kevin Ball:** Oh my gosh, that reminds me of like the best article I ever saw about good conversations. I'll put a link in the show notes; the title is "Good conversations have lots of doorknobs." And the idea is -- well, there's a couple pieces. So one was around this asking versus telling or talking. And different people have different styles. Some people very naturally just want to ask all the time, and some people very naturally just want to talk all the time. So becoming aware of like "What's my natural style? Okay, what's this person's natural style? Maybe I can adjust to that."
 
@@ -168,7 +168,7 @@ So tech context, it might be like "Hey, I've built an app the other day for the 
 
 **Nick Nisi:** I'm just picturing that meme of -- it's like a cartoon drawing of people dancing, and then there's just like a weird guy in the corner... And you put different things in there, but the one I'm thinking of immediately is like "These people don't even know I use Vim", or something like that. \[laughs\]
 
-**Break**: \[00:28:23.05\]
+**Break**: \[28:23\]
 
 **Kevin Ball:** Okay, so coming back a little bit to networking... I mean, this is all networking, right? We're coming back to what is professional networking - it's relationships with people that there's something professional, and it's just having conversations. Nick, you had mentioned a lot about building your network, and Amelia, you talked about building your network online... Are there other things when you think of like building a professional network? What have you done that's been effective there?
 
@@ -202,7 +202,7 @@ But also, I wouldn't want to reach out to one of you, for example, and then you 
 
 **Kevin Ball:** Yeah...
 
-**Amelia Wattenberger:** \[00:34:07.27\] Yeah, I have a hard time with that, with like - there's someone you've worked with before, you want something from them... I feel like it's controversial. Do you put like the pleasantries in front? You're like "Hey, how are you doing? I wanted to check up on this thing you were working on... By the way... Are you hiring, or do you know anyone who's hiring?" Do you do it that way, or are you just like "Hey, how are you doing? Are you hiring?" and then later you can have the small talk where you're catching up? I don't think there's a good answer...
+**Amelia Wattenberger:** \[34:07\] Yeah, I have a hard time with that, with like - there's someone you've worked with before, you want something from them... I feel like it's controversial. Do you put like the pleasantries in front? You're like "Hey, how are you doing? I wanted to check up on this thing you were working on... By the way... Are you hiring, or do you know anyone who's hiring?" Do you do it that way, or are you just like "Hey, how are you doing? Are you hiring?" and then later you can have the small talk where you're catching up? I don't think there's a good answer...
 
 **Nick Nisi:** Well, one thing that I think Kball brought up earlier, and you just did as well - like, "Do you know anyone who's hiring?" Not necessarily coming to you directly and being like "Can you hire me? Can you use your clout to help me in some way?" It's more like "Oh, do you just happen to know...?" Keeping it casual like that I think is probably really good.
 
@@ -228,7 +228,7 @@ And then, once again, sharing what you're looking for, and asking "Who should I 
 
 Any other networking discomforts or situations or questions y'all wanna talk about, or other hacks you've found?
 
-**Nick Nisi:** \[00:38:07.16\] I don't wanna be the one to bring it up every week...
+**Nick Nisi:** \[38:07\] I don't wanna be the one to bring it up every week...
 
 **Kevin Ball:** Do it...! Is it about TypeScript?
 
@@ -272,7 +272,7 @@ Any other networking discomforts or situations or questions y'all wanna talk abo
 
 **Kevin Ball:** Cool. One thing, Amelia, you brought up was kind of online -- and we talked about that a little bit with Twitter, but internal networking in a remote environment, or remote-first environment. The bagels - assuming those are virtual... But are there other tools, or tactics, or approaches y'all have used in the last three years where we're all just faces behind glass squares.
 
-**Amelia Wattenberger:** \[00:42:06.26\] It's a really tough one. I think the remote companies I've been at - it's just like a concerted effort to not just always talk about work. You have a stand-up on a Monday morning where you kind of talk about "What did you do this weekend?" and maybe that feels a little bit forced, but... I don't know, I find it important to know about my co-workers other than the work that they contribute to the team. I'm curious about you all...
+**Amelia Wattenberger:** \[42:06\] It's a really tough one. I think the remote companies I've been at - it's just like a concerted effort to not just always talk about work. You have a stand-up on a Monday morning where you kind of talk about "What did you do this weekend?" and maybe that feels a little bit forced, but... I don't know, I find it important to know about my co-workers other than the work that they contribute to the team. I'm curious about you all...
 
 **Nick Nisi:** That reminded me of another Instagram reel... I'm not cool enough for TikTok, I guess, but... It's some guy who's answering that question, like "Oh, what did you do this weekend?" and then he breaks away from the scene, and talks to the camera, and he's like "I can't go too deep on what I did, because then I'm just the weird guy. I have to like just give vague pleasantries on that. I can't be like "Oh, it was crap. I had kids yelling all the time, and all of this..." I'll try and find that \[unintelligible 00:43:00.03\] it's pretty funny.
 
@@ -288,7 +288,7 @@ Any other networking discomforts or situations or questions y'all wanna talk abo
 
 **Amelia Wattenberger:** Adversarial?
 
-**Kevin Ball:** \[00:45:04.10\] Adversarial... Adversarial, if you've built a little bit of that relationship, and you have something that you've resonated with each other on... And I've had it be music, travel, books... Whatever it is, but now when you're talking back and forth on this high-stress ticket, or this thing that wasn't specified quite right, or whatever, it's like - once again, there's a three-dimensional person in your head over there, not "God dammit, that idiot!"
+**Kevin Ball:** \[45:04\] Adversarial... Adversarial, if you've built a little bit of that relationship, and you have something that you've resonated with each other on... And I've had it be music, travel, books... Whatever it is, but now when you're talking back and forth on this high-stress ticket, or this thing that wasn't specified quite right, or whatever, it's like - once again, there's a three-dimensional person in your head over there, not "God dammit, that idiot!"
 
 **Nick Nisi:** Yeah. You know, I've worked since 2011 remotely, 100% remote... So I feel like I'm a veteran at remote, where everybody else has only got a couple of years under their belts now. But back in 2013, when I joined this company, we didn't even use -- we used Skype Voice; we didn't use any kind of video chat. So for almost two years I worked without seeing a single person. I'd just hear their voice, I'd kind of know them based on that, from random meetings that we'd have... And we worked fine together.
 
