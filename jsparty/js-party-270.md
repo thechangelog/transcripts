@@ -348,7 +348,7 @@ Where I think it falls down for a lot of people, or it just becomes super-overwh
 
 **Nick Nisi:** We use spaces... I would love to use tabs. I'm not going to open a pull request and merge my own pull request with that. It's a conversation that has to be had, and I might lose, and that's fine. \[laughs\]
 
-**Thomas Eckert:** In Go, in one of the releases recently, they've added a keyword "any" that is syntax sugar for \[unintelligible 00:54:46.16\] right? It's essentially the same as something that when you see interface empty curly braces, what does that mean? It means that can be any type. Do we go back in our codebase and swap all of them out? How do you make that as an argument, "Oh, this is what I'm gonna go spend some dev time on", right? Do you do it piecemeal? It's really complicated, and it's a very sticky, interpersonal thing.
+**Thomas Eckert:** In Go, in one of the releases recently, they've added a keyword "any" that is syntax sugar for 'interface{}' right? It's essentially the same as something that when you see interface empty curly braces, what does that mean? It means that can be any type. Do we go back in our codebase and swap all of them out? How do you make that as an argument, "Oh, this is what I'm gonna go spend some dev time on", right? Do you do it piecemeal? It's really complicated, and it's a very sticky, interpersonal thing.
 
 **Nick Nisi:** Yeah. And I think we might have hit our threshold of Go... So maybe this is --
 
