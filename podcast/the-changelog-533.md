@@ -210,7 +210,7 @@ A good example that I enjoyed, that I make all the time - there was this company
 
 **Jerod Santo:** \[38:09\] Do you have a sense of what a top would look like?
 
-**Filippo Valsorda:** At this point, I feel like before growing and starting to hire other people it would probably be between 15 and 20 at various places in the scale just silver, gold platinum...
+**Filippo Valsorda:** At this point, I feel like before growing and starting to hire other people it would probably be between 15 and 20 at various places in the scale just silver, gold, platinum...
 
 **Jerod Santo:** Right. And with six you're at a good Google salary, so I mean, you're talking double that, maybe triple it. That's a heck of a good living for open source maintenance, right?
 
