@@ -18,7 +18,7 @@
 
 **Natalie Pistunovich:** I'm putting my interviewee hat on, and I will no longer be responding in myself.
 
-**Johnny Boursiquot:** First question, "Are you here to kill us?" \[laughs\] That's \[unintelligible 00:02:09.27\] an interviewee, right?
+**Johnny Boursiquot:** First question, "Are you here to kill us?" \[laughs\] That's something you'd ask an interviewee, right?
 
 **Mat Ryer:** Yeah, that's always my opening question. It's good to just make sure that they're --
 
@@ -68,7 +68,7 @@ Taking off my Go hat and resetting this conversation... Now we're actually going
 
 **Johnny Boursiquot:** Yeah, I'm gonna Yeah, I'm gonna ask it. I'm gonna ask it a question. So, GPT, give me an example of exception handling in Go.
 
-**Natalie Pistunovich:** Thank you for considering me for the Go engineer role at the Mat John Company. Here's a block of code. In Go exceptions handling is done differently than in many other programming languages. Instead of using try-catch blocks, Go uses multiple return values combined with a built-in error type to handle errors. Here's an example. Package main importing errors \[unintelligible 00:07:57.16\] division by zero is not allowed, then otherwise return a divided by b. Then in func main we call this two catches. First time, if error is not nil when we do this by divide four by zero, and one time if we do this divide four by two.
+**Natalie Pistunovich:** Thank you for considering me for the Go engineer role at the Mat John Company. Here's a block of code. In Go exceptions handling is done differently than in many other programming languages. Instead of using try-catch blocks, Go uses multiple return values combined with a built-in error type to handle errors. Here's an example. Package main importing errors in funct. func divide ab float 64, if b is 0 then return 0. And errors new, division by zero is not allowed, then otherwise return a divided by b. Then in func main we call this two catches. First time, if error is not nil when we do this by divide four by zero, and one time if we do this divide four by two.
 
 In this example, the divide function takes two float 64 arguments and returns a float 64 result along with an error. If the divisor, B, is zero, and the error is returned, otherwise the result of the division is returned with a nil error. In the main function we call the divide function and check if the error is nil. If it's not nil, we print the error by printing it. Otherwise, we print the result of the division, and this is a typical way to handle errors in Go.
 
@@ -102,11 +102,11 @@ In this example, the inner X variable inside the block shadows the outer X varia
 
 **Natalie Pistunovich:** This code snippet demonstrates the use of Go's routines to run a function concurrently. The for loop iterates five times, and in each iteration, a new goroutine is started. Each goroutine executes an anonymous function that prints the value of i. Here's the breakdown of the code. One, the for loop initializes i to zero and sets the loop to continue as long as i is less than five. Two, inside the loop, the go keyword is used to start a new goroutine that runs the anonymous function. This function simply prints the value of i.
 
-Three, the \[unintelligible 00:13:17.24\] statement at the end of the loop increments by one. However, there is a caveat in the code. Since the anonymous function references the loop variable i, it's possible that by the time the goroutine starts executing, the value of i might have already changed in the main loop.
+Three, the i++ statement at the end of the loop increments by one. However, there is a caveat in the code. Since the anonymous function references the loop variable i, it's possible that by the time the goroutine starts executing, the value of i might have already changed in the main loop.
 
 **Johnny Boursiquot:** Wow...
 
-**Natalie Pistunovich:** This can lead to an unpredictable output, as the value of i might not be what you expect when they goroutine runs. To fix these issues, you should pass the value of i as an argument to the anonymous function, creating a separate variable for each goroutine. And then in func main it says \[unintelligible 00:13:50.05\]
+**Natalie Pistunovich:** This can lead to an unpredictable output, as the value of i might not be what you expect when they goroutine runs. To fix these issues, you should pass the value of i as an argument to the anonymous function, creating a separate variable for each goroutine. And then in func main it says var wg sync-- Like WaitGroup.sync WaitGroup for i and lower than 5 WaitGroup add 1 go func val int differ WaitGroup done func print the value close brackets and then--
 
 **Mat Ryer:** Oh, so it's waiting for all those goroutines to finish as well before it prints.
 
@@ -126,7 +126,7 @@ Three, the \[unintelligible 00:13:17.24\] statement at the end of the loop incre
 
 **Mat Ryer:** What?! No...
 
-**Natalie Pistunovich:** You are attempting to assign a value to a map key without initializing the map first. This will cause a panic at runtime due to a nil map assignment. To fix this issue, you need to initialize the map using the make function before assigning any value to it. And here's a code snippet: \[unintelligible 00:15:56.06\] m pi gets the value, and then fmt print line, and then it does that. And then the comment - now with the map properly initialized, the value of m pi will be 3.1416.
+**Natalie Pistunovich:** You are attempting to assign a value to a map key without initializing the map first. This will cause a panic at runtime due to a nil map assignment. To fix this issue, you need to initialize the map using the make function before assigning any value to it. And here's a code snippet: var m map string float 64 m make maps from string to float 64 m pi gets the value, and then fmt print line, and then it does that. And then the comment - now with the map properly initialized, the value of m pi will be 3.1416.
 
 **Johnny Boursiquot:** Very good. Goodness.
 
@@ -374,7 +374,7 @@ Oh, question on Slack. We even have two. Wanna pick one?
 
 **Johnny Boursiquot:** \[laughs\] Humans...
 
-**Natalie Pistunovich:** Both method signatures have their use cases. 1) Get ID string object error with \[unintelligible 00:37:19.29\] preferred for performance reasons, and when the object could be large. It's also more idiomatic in Go for databases operations, and this easily indicates a non not found object by returning a null pointer. 2) It's suitable when you want to enforce immutability or when working with small objects. This approach ensures that modifications to the return object won't affect the original one. In most cases, the first option, returning a pointer, is the recommended choice for database operations in Go.
+**Natalie Pistunovich:** Both method signatures have their use cases. 1) Get ID string object error with print@ preferred for performance reasons, and when the object could be large. It's also more idiomatic in Go for databases operations, and this easily indicates a non not found object by returning a null pointer. 2) It's suitable when you want to enforce immutability or when working with small objects. This approach ensures that modifications to the return object won't affect the original one. In most cases, the first option, returning a pointer, is the recommended choice for database operations in Go.
 
 **Mat Ryer:** Lovely.
 
@@ -524,7 +524,7 @@ It's important to note that opinions on generics and other Go features vary amon
 
 **Mat Ryer:** I don't know. What do you think, Johnny? Do you prefer the insides of a potato?
 
-**Johnny Boursiquot:** Oh, those who know me know I'm a huge potato fan. Less so the sweet, but I will have the sweet in like a sweet potato casserole. \[unintelligible 00:47:57.14\] But potatoes - I mean, that's my go-to. That's my favorite starch. I can eat that every day, all day. I'm a potato kind of guy. I'm all-in on potatoes.
+**Johnny Boursiquot:** Oh, those who know me know I'm a huge potato fan. Less so the sweet, but I will have the sweet in like a sweet potato casserole. That's-- I'll work with that. But potatoes - I mean, that's my go-to. That's my favorite starch. I can eat that every day, all day. I'm a potato kind of guy. I'm all-in on potatoes.
 
 **Mat Ryer:** \[48:12\] But I've seen you, you don't look like you eat lots of potatoes.
 
@@ -716,7 +716,7 @@ So what do you think about this letter that Elon Musk and a few others signed, s
 
 **Johnny Boursiquot:** Oh, I was just playing some bball with my kids, and not even trying to be a hero, you know... Since the first snap, I've long since retired from my bball days. And yeah, I was just taking it easy, shooting some hoops with the kids, and... Yeah, the thing is, I've come to realize --
 
-**Mat Ryer:** Just chillin' out, \[unintelligible 01:00:40.05\]
+**Mat Ryer:** Just chillin' out, Max relaxing alcohol
 
 **Johnny Boursiquot:** Yeah, exactly. Exactly. Yeah, but what this has led me to believe is that as we get older, our joints and our tendons and our muscle really just tightens up. So if you don't add some flexibility to your regimen or routine, like maybe some yoga, or whatever it is, whatever along those lines, it's very easy for the body to just become brittle. So yeah, I think I'm gonna start adding that to my routine. Because life after 40s... It's a thing. Things break more easily... Things don't heal as fast anymore... You know, it's a thing.
 
@@ -728,7 +728,7 @@ So what do you think about this letter that Elon Musk and a few others signed, s
 
 **Johnny Boursiquot:** Contort your way out of it.
 
-**Mat Ryer:** Exactly. And they're like "Where has he gone?" \[unintelligible 01:01:39.26\] from X Files, and I'm gone.
+**Mat Ryer:** Exactly. And they're like "Where has he gone?" Like Eugene Tooms from X Files, and I'm gone.
 
 **Johnny Boursiquot:** Right, right, right. So the only weakness is guitar strings then.
 
@@ -738,7 +738,7 @@ So what do you think about this letter that Elon Musk and a few others signed, s
 
 **Mat Ryer:** Yeah.
 
-**Johnny Boursiquot:** \[unintelligible 01:01:56.07\] but okay... We can be clean, we can be clean.
+**Johnny Boursiquot:** There's a couple ways to interpret that but okay... We can be clean, we can be clean.
 
 **Mat Ryer:** Yeah, please. That's a kind of string on a guitar, by the way, for anyone that doesn't know...
 
@@ -756,7 +756,7 @@ So what do you think about this letter that Elon Musk and a few others signed, s
 
 **Johnny Boursiquot:** Yeah, it is.
 
-**Natalie Pistunovich:** Well, \[unintelligible 01:02:21.21\] letters in English, and in other languages.
+**Natalie Pistunovich:** We'll see those letters in English, and in other languages.
 
 **Mat Ryer:** What do you mean?
 
@@ -830,7 +830,7 @@ So what do you think about this letter that Elon Musk and a few others signed, s
 
 **Johnny Boursiquot:** We've transitioned to non-AI language models, to actual human language models.
 
-**Natalie Pistunovich:** I've been trying this entire episode to \[unintelligible 01:04:55.17\] as my human fellows, something-something. Like my kid friends. My kid fellows; what does that mean? My fellow kids?
+**Natalie Pistunovich:** I've been trying this entire episode to plant as my human fellows, something-something. Like my kid friends. My kid fellows; what does that mean? My fellow kids?
 
 **Johnny Boursiquot:** Yeah, that's -- what's the name of the actor? I know what you're talking about, yeah.
 
