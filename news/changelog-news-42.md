@@ -2,7 +2,7 @@
 
 What up, nerds?! I'm Jerod and this is Changelog News for the week of Monday, May 1st. 2023
 
-Adam and I will be in Vancouver next week at [Open Source Summit](https://events.linuxfoundation.org/open-source-summit-north-america/)! We'll be hanging out with our friends at GitHub in (or near) their booth, recording conversations (of course), and connecting with the community. If you're attending, come say hi!
+Adam and I will be in Vancouver next week at [Open Source Summit](https://events.linuxfoundation.org/open source-summit-north-america/)! We'll be hanging out with our friends at GitHub in (or near) their booth, recording conversations (of course), and connecting with the community. If you're attending, come say hi!
 
 Okay, let's get into the news.
 
