@@ -160,9 +160,9 @@ We looked at a few plugin systems on other package managers. npm actually was in
 
 **Bradley Meck Farias:** No, it only needs the metadata information to do version resolution.
 
-**Christopher Hiller:** Right. What is it called, the \[unintelligible 00:28:01.17\]
+**Christopher Hiller:** Right. What is it called, the Packifest? Packument!
 
-**Bradley Meck Farias:** \[unintelligible 00:28:03.08\] is what they normally call it.
+**Bradley Meck Farias:** Packument is what they normally call it.
 
 **Jerod Santo:** Oh, my goodness... Who called it that, and why? I need to speak to the manager... So is there a perceived, or even maybe not tangible, but still there performance hit with running this wrapper? Because it seems like you're doing some dancing before I actually get my commands called.
 
@@ -184,7 +184,7 @@ We looked at a few plugin systems on other package managers. npm actually was in
 
 **Bradley Meck Farias:** Yeah. So we'll still intercept that. We've always intercepted that. But by default, there is no ability from npm to prompt and tell you you're about to install something, so NPX will blindly install it. Normally, it'll prompt you "Oh, do you want to install rimraf?" But if it doesn't have a terminal to prompt you over STDIN, it'll just blindly install, regardless.
 
-**Jerod Santo:** That sounds like a security \[unintelligible 00:32:17.08\] problematic.
+**Jerod Santo:** That sounds like a security impossible problematic point.
 
 **Bradley Meck Farias:** We used to error on it, but this week we pushed an update. We have it on our blog post. We had to like put down an inter-process communication server and synchronize terminals. This isn't too uncommon, and things like VS Code do it... But it was just something that we weren't expecting to do. We thought an error would be enough, but too many people are using NPX, and install scripts even. So yeah...
 
@@ -208,7 +208,7 @@ We looked at a few plugin systems on other package managers. npm actually was in
 
 **Jerod Santo:** Let's take it back to the basics for a moment for those of us who are just thinking about "Well, maybe I would use this", right? "But maybe I'm just a person who uses npm from the command line, and NPX - I don't know very much about them... And I'm thinking what's a wrapper program? How would I -- what would I do in order to make my npm safe with regards to this program?" Just give us like the ABCs of using it.
 
-**Bradley Meck Farias:** Let's see. The first thing you do is install our command line. So it'd be like \[unintelligible 00:36:13.25\]
+**Bradley Meck Farias:** Let's see. The first thing you do is install our command line. So it'd be like 'npm install @socketsecurity/cli'
 
 **Feross Aboukhadijeh:** -g.
 
@@ -216,9 +216,9 @@ We looked at a few plugin systems on other package managers. npm actually was in
 
 **Bradley Meck Farias:** Well, if you want it to be global, yeah.
 
-**Jerod Santo:** Oh, that's what that means? I always thought it was the gangsta flag. \[unintelligible 00:36:25.02\]
+**Jerod Santo:** Oh, that's what that means? I always thought it was the gangsta flag, I always drop the gangsta on there.
 
-**Bradley Meck Farias:** Basically, yeah. \[laughter\] And from there, make sure that the Socket command is in your path. If it's -g, that'll be true. And then you can -- we made sure it works with command aliasing. So you just, if you're in Unix, do \[unintelligible 00:36:43.27\] And then do everything normally. You don't have to update your codebase, or anything.
+**Bradley Meck Farias:** Basically, yeah. \[laughter\] And from there, make sure that the Socket command is in your path. If it's -g, that'll be true. And then you can -- we made sure it works with command aliasing. So you just, if you're in Unix, do 'alias npm = socket npm alias npx = socket npx' And then do everything normally. You don't have to update your codebase, or anything.
 
 **Christopher Hiller:** No API key, or anything like that? Not for the defaults, no. So if you want other things, like org settings, then you're going to need an API key.
 
@@ -244,7 +244,7 @@ We looked at a few plugin systems on other package managers. npm actually was in
 
 **Feross Aboukhadijeh:** But officially, there's three versions that everyone uses, right?
 
-**Bradley Meck Farias:** Kind of... \[laughter\] I'd say five. There's five officially, because you have \[unintelligible 00:38:16.07\] mode, which I would actually separate out.
+**Bradley Meck Farias:** Kind of... \[laughter\] I'd say five. There's five officially, because you have PNP mode, which I would actually separate out.
 
 **Jerod Santo:** Is it worth all that effort, Feross? I mean, you're the business man. Is this worth it for the business?
 
@@ -326,7 +326,7 @@ We looked at a few plugin systems on other package managers. npm actually was in
 
 **Bradley Meck Farias:** I think that's why we haven't had any requests yet.
 
-**Christopher Hiller:** Does it work if you bundle npm with your app? \[laughs\] So if I've got a library or an app, and I've added npm as a dependency, because I want control over what -- because my thing wants to run npm, I want control over what version of npm I'm running. And so how you do that - you depend on a version of npm. Right? Is \[unintelligible 00:48:51.05\] gonna hop in there, or is gonna be like "I don't know about that"?
+**Christopher Hiller:** Does it work if you bundle npm with your app? \[laughs\] So if I've got a library or an app, and I've added npm as a dependency, because I want control over what -- because my thing wants to run npm, I want control over what version of npm I'm running. And so how you do that - you depend on a version of npm. Right? Is safe NBM gonna hop in there, or is gonna be like "I don't know about that"?
 
 **Bradley Meck Farias:** As long as the npm in question is in the path as npm, it should intercept it.
 
@@ -448,7 +448,7 @@ We looked at a few plugin systems on other package managers. npm actually was in
 
 **Bradley Meck Farias:** I mean, they've done a bunch... They have the HTTPS imports, but it's flagged due to nightmare-level security problems of just that security model. We have - the permissions model gets unflagged this month, for all those...
 
-**Feross Aboukhadijeh:** They have web APIs, like the file API, \[unintelligible 00:58:07.15\] and stuff...
+**Feross Aboukhadijeh:** They have web APIs, like the file API, blobs and stuff...
 
 **Bradley Meck Farias:** Yeah, they've got a lot now.
 
