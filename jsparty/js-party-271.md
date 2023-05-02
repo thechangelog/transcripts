@@ -50,7 +50,7 @@ I think one of my favorite early networking hacks was a meetup, and hosting a me
 
 **Nick Nisi:** It's a fantastic question, I think, because I'm very curious about how y'all handle it... But the way I do is if I get a connection request, or whatever they're called on there, I say yes. And then I'll get the follow-up message or email that's like -- a lot of times it's like "Oh, I've got this job", or whatever. I almost never respond to those... I'll connect all day, and then I'm a bad connection, I guess.
 
-**Amelia Wattenberger:** That's so funny, I have the opposite. I'm always like "No, don't dilute my feed", because sometimes maybe I wanna read my feed, and if half of it is people I don't know... And that's also partially because I feel like I have to respond when they ask me questions, and \[unintelligible 00:08:24.29\]
+**Amelia Wattenberger:** That's so funny, I have the opposite. I'm always like "No, don't dilute my feed", because sometimes maybe I wanna read my feed, and if half of it is people I don't know... And that's also partially because I feel like I have to respond when they ask me questions, and... There's a lot of that.
 
 **Kevin Ball:** Yeah... I at some point switched my profile type to be a creator type, so now people can follow me without connecting...
 
@@ -66,7 +66,7 @@ I think one of my favorite early networking hacks was a meetup, and hosting a me
 
 **Kevin Ball:** No, I just have to -- it's the original "fake it before you make it" thing. I have to say that that's what I am... And LinkedIn is like "Alright, sure."
 
-**Nick Nisi:** LinkedIn is a peculiar place for me, I think, just because - yeah, I do connect with everyone, so my feed is just random noise, and I don't go there to really look at the feed... And maybe that's a part of it, but I also don't really interact there much at all. I started posting about my meetup, and stuff, just to get that out there a little bit more... But otherwise I almost never post there. And it's -- I think it's just the nature of LinkedIn; it feels so -- I don't know, to me, this is my perspective of it, and it's probably completely wrong, but I always feel like "Oh, I don't wanna interact too much here", and a lot of times I'm connected to a lot of current co-workers, and if they see my activity spike on LinkedIn, is that some kind of signal that I don't want out there \[unintelligible 00:09:50.14\] And then there's this whole voyeuristic portion of LinkedIn, where you can see who's looking at your profile, and all of that too, which also make it like "Oh, I wanna look at your profile, but I'm not going to, because it's gonna let you know..." \[laughs\]
+**Nick Nisi:** LinkedIn is a peculiar place for me, I think, just because - yeah, I do connect with everyone, so my feed is just random noise, and I don't go there to really look at the feed... And maybe that's a part of it, but I also don't really interact there much at all. I started posting about my meetup, and stuff, just to get that out there a little bit more... But otherwise I almost never post there. And it's -- I think it's just the nature of LinkedIn; it feels so -- I don't know, to me, this is my perspective of it, and it's probably completely wrong, but I always feel like "Oh, I don't wanna interact too much here", and a lot of times I'm connected to a lot of current co-workers, and if they see my activity spike on LinkedIn, is that some kind of signal that I don't want out there? Is it not? And then there's this whole voyeuristic portion of LinkedIn, where you can see who's looking at your profile, and all of that too, which also make it like "Oh, I wanna look at your profile, but I'm not going to, because it's gonna let you know..." \[laughs\]
 
 **Amelia Wattenberger:** \[10:05\] Oh yeah, that's my least favorite thing. I'll open an incognito window to look at people's LinkedIn profiles... \[laughs\]
 
@@ -76,7 +76,7 @@ And actually, getting back to your question, Amelia, with connection requests I 
 
 **Nick Nisi:** Nice.
 
-**Kevin Ball:** So yeah, it depends... There's definitely a lot of that transactional \[unintelligible 00:11:23.08\] And when we talk about professional networking in general, a networking event - like, yuck! What is that about? But going to a meetup where we're talking about tech with cool people - that to me is the interesting networking. Not the transactional "I'm gonna give you my business card" etc.
+**Kevin Ball:** So yeah, it depends... There's definitely a lot of that transactional... Skeevy, yuck.  And I don't like-- Well, I feel like that's-- when we talk about professional networking in general, a networking event - like, yuck! What is that about? But going to a meetup where we're talking about tech with cool people - that to me is the interesting networking. Not the transactional "I'm gonna give you my business card" etc.
 
 **Amelia Wattenberger:** I wonder, is this just a developer thing? Do people in the corporate world who have other types of jobs feel happy when they hear the term "networking event"? Is this just like a euphemism that we need for ourselves, or is this like nobody likes that?
 
@@ -106,7 +106,7 @@ It's going and just like talking to people, and then saying clearly "Okay, I'm l
 
 **Kevin Ball:** I think there's a couple of things... So one piece that I run into is like the clearer you can get on what it is you're looking for, and what value you would bring to that, the better. And practice saying that. Like, "I am looking for a senior engineering job at a startup that is at least series A, but no more than series D, like 20 to 400 people, and I will be especially a good fit for like an infrastructure position", or something like that. Very, very crystal. Not just like "I'm looking for a tech job, right?" So are we all. But "This is the type of company I'm looking for." Maybe I don't care about a vertical, or maybe I do care about a vertical... Here's the type of position where I'm gonna be particularly valuable. Do you know anyone in that space?"
 
-Because once again, I said I got every job through my network... It's never the first \[unintelligible 00:17:42.08\] connection. It's like, okay, this person's husband was working at a place that was hiring someone. Or this person heard of something over here and they happen to know someone they can introduce you to, or whatever. So even when you're that urgent, you're not asking the people directly in your network for the job. You're sharing as clearly as you can what it is you're looking for, and asking them... But the ask is like "Who else should I talk to about this?"
+Because once again, I said I got every job through my network... It's never the first degree connection. It's like, okay, this person's husband was working at a place that was hiring someone. Or this person heard of something over here and they happen to know someone they can introduce you to, or whatever. So even when you're that urgent, you're not asking the people directly in your network for the job. You're sharing as clearly as you can what it is you're looking for, and asking them... But the ask is like "Who else should I talk to about this?"
 
 **Amelia Wattenberger:** \[18:10\] Yeah. That reframing - it can feel hard, especially if you just got laid off and you're like "I need a job. This is what I need. I'll take whatever I can get." If you reframe it more as like "This is what I bring to the table. Who would be interested in that?" It feels better, I think, for you, and also for the poeple who would be interested. Because companies need employees, right? It's a symbiotic relationship.
 
@@ -154,7 +154,7 @@ I know a lot of people by their Twitter handles, not their real names, which is 
 
 **Kevin Ball:** Oh my gosh, that reminds me of like the best article I ever saw about good conversations. I'll put a link in the show notes; the title is "Good conversations have lots of doorknobs." And the idea is -- well, there's a couple pieces. So one was around this asking versus telling or talking. And different people have different styles. Some people very naturally just want to ask all the time, and some people very naturally just want to talk all the time. So becoming aware of like "What's my natural style? Okay, what's this person's natural style? Maybe I can adjust to that."
 
-But the other was this concept of door knobs, which is like "Here's a conversational tidbit, whether it's an interesting question, or it's a bizarre statement, that we can take \[unintelligible 00:26:58.23\] to talk about."
+But the other was this concept of door knobs, which is like "Here's a conversational tidbit, whether it's an interesting question, or it's a bizarre statement, that we can take and open doors to places to talk about."
 
 So tech context, it might be like "Hey, I've built an app the other day for the first time using Next." Alright, that's a doorknob. We can go down this whole conversation, in a couple directions. We can talk about Next, we can talk about the app you built, we could talk about side projects... But yo've just dropped this opening. And they can choose to take it or not. But if you're in a conversation, being aware of this concept of door knobs, looking for them, following them, or dropping them yourself to help make the conversation flow.
 
@@ -236,7 +236,7 @@ Any other networking discomforts or situations or questions y'all wanna talk abo
 
 **Nick Nisi:** No... \[laughter\]
 
-**Kevin Ball:** "How TypeScript will help you with your professional network..." \[laughter\] "When you're strongly-typed, you know what they want, because \[unintelligible 00:38:33.19\]
+**Kevin Ball:** "How TypeScript will help you with your professional network..." \[laughter\] "When you're strongly-typed, you know what they want, because they've...
 
 **Nick Nisi:** Okay, yes, actually -- nah... \[laughter\] This is gonna sound so weird, I guess; or it feels so weird saying it, but you can totally practice these things. I feel like this is a thing that ChatGPT is actually really good at, practicing scenarios like this... And you can ask it to play different roles. It can do that pretty well.
 
