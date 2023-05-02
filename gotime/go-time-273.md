@@ -40,7 +40,7 @@
 
 **Jon Calhoun:** But everybody's used to that.
 
-**Matthew Boyle:** Yeah, that's true, actually. \[unintelligible 00:02:25.07\] Yeah, you're right. There you go. We were ahead of our time, Mat...
+**Matthew Boyle:** Yeah, that's true, actually. If it's a dollar, dollar one, dollar two, dollar three, yeah it does, it starts at one. Yeah, you're right. There you go. We were ahead of our time, Mat...
 
 **Jon Calhoun:** Okay, so today we're going to be talking about domain-driven design... So Matt, having written a book on this, seemed like a good guest to teach us everything we need to know...
 
@@ -156,7 +156,7 @@ But it's also hard, because you were talking about like having a team working on
 
 **Matthew Boyle:** Yeah. I was gonna say, there's actually a really interesting part in -- it's in the Big Red Book, and I included it in my book, too. There's actually something called domain-driven design's scorecard, which may be really helpful to help you think about this stuff... And it kind of gives you a rubric and some thoughts about how you can think about the project you're working on, to see if it makes sense to actually apply DDD to that project. And some people will be surprised to know that DDD book, the original one, will discourage you from picking DDD for certain projects, because it understands that there is an overhead of doing a process like this, and it's not always necessary. If you're hacking on a side project, or if you're building something that only you're ever going to maintain, or you know exactly the purpose of it, I think it's totally okay to do the things you talked about.
 
-And I think the key bit is do you do it consciously, right? If you consciously say "I'm going to \[unintelligible 00:19:48.24\] myself to this package. I know the consequences of that. I'm okay with it." That's slightly different to, "Oh, no, I've ended up in this dependency hell, and they updated it and it's a breaking version, and I can't run my software. I didn't know this could happen." I think there's a slight difference.
+And I think the key bit is do you do it consciously, right? If you consciously say "I'm going to couple myself to this package. I know the consequences of that. I'm okay with it." That's slightly different to, "Oh, no, I've ended up in this dependency hell, and they updated it and it's a breaking version, and I can't run my software. I didn't know this could happen." I think there's a slight difference.
 
 But for projects that have -- the really simple example I can see here is if your application has less than 40 user stories slash business flows, they actually don't really recommend considering DDD for your application. So a lot of solo workers on the small apps - it may be overkill for you.
 
@@ -168,7 +168,7 @@ But for projects that have -- the really simple example I can see here is if you
 
 **Matthew Boyle:** I mean, truthfully, I haven't really spent too much time kind of digging into that. One thing I do always pay attention to whenever I jump into a project is I always look at the package structure, and just see if it makes sense. And a lot of times the way it does make sense to me is if it's kind of split into like domains, if you will...
 
-\[unintelligible 00:22:48.06\] a really good one for this. I always use that as a reference, because it's such a massive Go project... But if you head inside the internal folder there, I think you'll see probably hundreds at this point of different resource types. And if you click into those, you can see all these actions that you can take on these resource types. To me, that's a really sensible way to structure such a large project. As someone who's not massively familiar with Kubernetes, and maybe I'm looking for something specific, or maybe I'm just trying to understand how it works, to me that makes it very, very easy to kind of reason about and jump into. If I was really sort of trying to grade them for domain-driven design, I guess, I'd start looking at that decoupling between sort of libraries and like their own domain models would be something that I would look to... Because I think, for me, they're the really key pieces that make it really, really hard to iterate on a project and to kind of reason about how well maintained I'll find it to get stuck into it if first things aren't kind of done well.
+So the Kubernetes project is a really good one for this. I always use that as a reference, because it's such a massive Go project... But if you head inside the internal folder there, I think you'll see probably hundreds at this point of different resource types. And if you click into those, you can see all these actions that you can take on these resource types. To me, that's a really sensible way to structure such a large project. As someone who's not massively familiar with Kubernetes, and maybe I'm looking for something specific, or maybe I'm just trying to understand how it works, to me that makes it very, very easy to kind of reason about and jump into. If I was really sort of trying to grade them for domain-driven design, I guess, I'd start looking at that decoupling between sort of libraries and like their own domain models would be something that I would look to... Because I think, for me, they're the really key pieces that make it really, really hard to iterate on a project and to kind of reason about how well maintained I'll find it to get stuck into it if first things aren't kind of done well.
 
 One thing I've never really seen, to be honest, especially in the open source world, is an idea of like a ubiquitous language, like a "When we say these words, this is what we mean." I think that would be useful for some projects, honestly, but I've never really seen that in a repo, I don't think.
 
@@ -242,9 +242,9 @@ So that sort of -- domain-driven design has this concept of, as I mentioned, ope
 
 **Mat Ryer:** Well, one of the questions I get all the time is "What's Jon Calhoun's problem?" \[laughter\] But the second most popular question is about this, about the subject of package structure; how should I lay out my projects? So just as a sort of thought experiment, and a bit of an exercise, Matt... Let's imagine we're going to model an online shop, and this is a Go project... And we expect this is going to be big, so we want to follow domain-driven design practices; there's going to be lots of teams, lots of people interacting. What folders do you create? Talk us through a little bit of what this repo looks like.
 
-**Matthew Boyle:** \[laughs\] I feel very on the spot. So truthfully, when I open my IDE, the first thing I always do is I initiate a go mod project. So if you use Go Lands, it does this for you; when you create a new repo, you just point it at your GitHub repo you're eventually gonna have, and now you've got Go modules. So you're already on the right path. I then make a CMD repo, which is kind of -- it isn't really a domain-driven design thing, but I think it really does help, especially if you expect to have more than one binary. So I create my CMD folder, and then I create whatever my project is going to be called. So I'm gonna \[unintelligible 00:40:34.17\] I make sure it runs, I'm in a good spot. So step one, we're all good.
+**Matthew Boyle:** \[laughs\] I feel very on the spot. So truthfully, when I open my IDE, the first thing I always do is I initiate a go mod project. So if you use Go Lands, it does this for you; when you create a new repo, you just point it at your GitHub repo you're eventually gonna have, and now you've got Go modules. So you're already on the right path. I then make a CMD repo, which is kind of -- it isn't really a domain-driven design thing, but I think it really does help, especially if you expect to have more than one binary. So I create my CMD folder, and then I create whatever my project is going to be called. So I'm gonna close on 'Coffee Shop' I make sure it runs, I'm in a good spot. So step one, we're all good.
 
-The next thing I do is always make an internal folder. So I'm actually not sure if this is the latest practice, so please forgive me if this is incorrect, but in the olden days you used to make an internal folder and a PKG folder. The internal folder was -- it was meant to be \[unintelligible 00:40:57.05\] not to import anything from within this project, but if I'm correct, I think Go actually stops you from importing from other projects' internal folders.
+The next thing I do is always make an internal folder. So I'm actually not sure if this is the latest practice, so please forgive me if this is incorrect, but in the olden days you used to make an internal folder and a PKG folder. The internal folder was -- it was meant to be a hint not to import anything from within this project, but if I'm correct, I think Go actually stops you from importing from other projects' internal folders.
 
 **Mat Ryer:** Yeah, they enforce that now, too.
 
@@ -318,7 +318,7 @@ I feel like that's one of the reasons why some people would benefit from working
 
 if you happen to grab Matt's book, definitely leave a review. That helps so much when you're authoring a new book.
 
-**Mat Ryer:** Yeah. Unless you hate it, in which case don't worry about it. Just keep \[unintelligible 00:55:05.06\] to yourself.
+**Mat Ryer:** Yeah. Unless you hate it, in which case don't worry about it. Just keep reviews to yourself.
 
 **Matthew Boyle:** Yeah, let me know on Twitter if you hate it instead.
 
@@ -432,7 +432,7 @@ So I've gone for one which I think is incredibly controversial, because I can't 
 
 **Mat Ryer:** Yeah. Well, so hang on there, Matt... Have you sort of like just passively watched all the major films, but you don't really know what they are?
 
-**Matthew Boyle:** \[01:01:58.02\] Exactly. I could tell you various -- if I just happened to have looked up at the right time, I could tell you some of what will happen in some of these films... But honestly, \[unintelligible 01:02:03.17\] I've watched a film all the way through.
+**Matthew Boyle:** \[01:01:58.02\] Exactly. I could tell you various -- if I just happened to have looked up at the right time, I could tell you some of what will happen in some of these films... But honestly, last time I watched a film all the way through...
 
 **Mat Ryer:** Let's do a new section then, "Glance reviews" by Matt Boyle. Right? Describe the Terminator movie.
 
@@ -492,7 +492,7 @@ getting really good. Don't pop it in a strong metal body, is my advice.
 
 **Matthew Boyle:** I don't think that's the case, no. \[laughs\] My high school teachers would disagree with you on that one, I think.
 
-**Mat Ryer:** Yeah, but sometimes if they're not smart enough, they don't notice; they just think "He just has his laptop open all the time in class \[unintelligible 01:06:45.15\]
+**Mat Ryer:** Yeah, but sometimes if they're not smart enough, they don't notice; they just think "He just has his laptop open all the time in class when he's trying to do P.E.
 
 **Matthew Boyle:** \[laughs\]
 
@@ -502,7 +502,7 @@ getting really good. Don't pop it in a strong metal body, is my advice.
 
 **Matthew Boyle:** Speechless. \[laughs\]
 
-**Mat Ryer:** This is like your movie \[unintelligible 01:07:17.09\] ain't it, Matt?
+**Mat Ryer:** This is like your movie sounds like enough now, ain't it, Matt?
 
 **Matthew Boyle:** Yeah. I must admit, I don't know if I've ever noticed. So I don't know if this is more about me or you, but I just... I use Wikipedia a lot. To be honest, I get quite frustrated with the big banner that shows up when it's time to donate. That's more infuriating than the bullet points. I understand why they do it, of course. But yeah, I've never noticed the bullet points. So I imagined now every time I go on Wikipedia, they're gonna stand out to me really clearly, and it's gonna annoy me now, too... So I appreciate that.
 
