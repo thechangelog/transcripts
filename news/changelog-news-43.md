@@ -47,7 +47,7 @@ Thanks to Sentry for sponsoring this week's Changelog News.
 
 **Jerod Santo:**
 
-I’ve been hopeful about open source LLMs ever since our episode with Simon Willison last month. My hopes continue to wax strong after this (admittedly vaguely sourced) memo that leaked from inside the GOOG: "While our models still hold a slight edge in terms of quality, the gap is closing astonishingly quickly. Open-source models are faster, more customizable, more private, and pound-for-pound more capable. They are doing things with $100 and 13B params that we struggle with at $10M and 540B. And they are doing so in weeks, not months."
+I’ve been hopeful about open source LLMs ever since our episode with Simon Willison last month. My hopes continue to wax strong after this (admittedly vaguely sourced) memo that leaked from inside the GOOG: "While our models still hold a slight edge in terms of quality, the gap is closing astonishingly quickly. Open source models are faster, more customizable, more private, and pound-for-pound more capable. They are doing things with $100 and 13B params that we struggle with at $10M and 540B. And they are doing so in weeks, not months."
 
 The landscape of LLMs is moving crazy fast right now. On a recent episode of Practical AI, Daniel asked Hugging Face engineer Rajiv Shah to describe it to them and his response was very good, but also necessarily lengthy. I'll attach that clip to the end of this episode for those interested.
 
