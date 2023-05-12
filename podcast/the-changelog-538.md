@@ -28,7 +28,7 @@ For example, I think at the very end of last year, one of the big features that 
 
 **José Valim:** No, no, that's really good. Yeah, no, I think - yeah, putting things in perspective, you're right. I think that's pretty good. I mean, the thing that I think about the most is that I am really enjoying working on all those things... And I'm not sure; maybe somebody can correct us later, but I think Elixir was -- so when it comes to Stable Diffusion, for example, Elixir was the second high-level language to implement that; and in Elixir itself.
 
-\[00:08:07.11\] Because everybody could say, "Hey, I'm going to shell out to Python", or "I'm going to shell out to invoke something in C", but we had the model actually implemented in Elixir. And when Whisper came out, I think we had a version like in a week running as well, which speaks really well about the abstractions we've built. And I'm still enjoying it a lot, working on Livebook and thinking about problems differently...
+\[08:07\] Because everybody could say, "Hey, I'm going to shell out to Python", or "I'm going to shell out to invoke something in C", but we had the model actually implemented in Elixir. And when Whisper came out, I think we had a version like in a week running as well, which speaks really well about the abstractions we've built. And I'm still enjoying it a lot, working on Livebook and thinking about problems differently...
 
 So from that perspective, I feel like very validated in the sense that "Hey, I'm working on things that I'm really enjoying. We have a team that I enjoy working with... But yeah, I think generally validated; if it all made sense, we would probably need like a couple years more to say "Hey, that was the absolutely right call." It doesn't feel like it was the wrong call, so you know...
 
@@ -42,7 +42,7 @@ So from that perspective, I feel like very validated in the sense that "Hey, I'm
 
 So I think that's one of the exciting things. And when you say "Oh, we are small", I think it's one of the appeals of just allowing people to play with those ideas, and embed within their apps. And then when trouble comes, if it comes, then you can figure out what is the next step, and you don't have to worry about all those things up front.
 
-**Jerod Santo:** \[00:12:06.14\] Right. Well, I'm definitely watching very interestedly with regards to Whisper. Of course, we have transcripts, we are have been transcribing for years manually... And we're kind of waiting a little bit and watching and seeing how to get speaker identification going on with Whisper, which is kind of a feature that doesn't currently exist. So it's a holding pattern, but I'm ready to integrate Whisper into our little web app, and just like have this new functionality. So that's super-cool.
+**Jerod Santo:** \[12:06\] Right. Well, I'm definitely watching very interestedly with regards to Whisper. Of course, we have transcripts, we are have been transcribing for years manually... And we're kind of waiting a little bit and watching and seeing how to get speaker identification going on with Whisper, which is kind of a feature that doesn't currently exist. So it's a holding pattern, but I'm ready to integrate Whisper into our little web app, and just like have this new functionality. So that's super-cool.
 
 Maybe you can help demystify it to a certain degree, for those of us who are maybe like web developers, or are not really in the whole machine learning world, data science world... When it comes to the models, I hear Hugging Face thrown around, I've been there and downloaded things, I know we're going to talk about how you can deploy do Hugging Face some stuff now... But if I'm going to have a Stable Diffusion up in my Phoenix app, and it's going to run on Fly, when you say like "Run it in a Elixir", are you downloading the model to a local disk, and then running inference against it on the Fly side? Or are you referencing something on Hugging Face? Maybe just clear up what is I guess for me a little bit confusing.
 
@@ -72,7 +72,7 @@ Maybe you can help demystify it to a certain degree, for those of us who are may
 
 **José Valim:** \[unintelligible 00:15:33.14\] they are the Hugging Face for machine learning. So the whole machine learning community industry, like Microsoft, Google, OpenAI - they have the models there on Hugging Face. And what is really cool about Hugging Face is that not only they have the models, but they also invest in research, and they invest in the ecosystem.
 
-\[00:15:57.27\] So if you want to rent -- as I said, for you to run a model -- so what you do is that when you are below the... You can think a model of two things - the code that specifies the model, and the parameters of the model; that's what a model is. So you have those things together, you send -- if you're talking about Whisper, then you are going to give an audio input, you transform it a little bit, give it to the model, the model is going to give the output, which is like the transcribed audio.
+\[15:57\] So if you want to rent -- as I said, for you to run a model -- so what you do is that when you are below the... You can think a model of two things - the code that specifies the model, and the parameters of the model; that's what a model is. So you have those things together, you send -- if you're talking about Whisper, then you are going to give an audio input, you transform it a little bit, give it to the model, the model is going to give the output, which is like the transcribed audio.
 
 And so the model has two parts. So what is stored in Hugging Face is the model's parameters, the model's weights, and then they also have this library called Hugging Face Transformers, which has the implementation of all those models, but for Python. And what we did in Elixir is that we have this version of the library, and that's why it's called BumbleBee, because Transformers, right? So it's like the BumbleBee library, which is our implementation of Elixir.
 
@@ -86,7 +86,7 @@ So they contribute a lot to the Python ecosystem, and they have been helping -- 
 
 **José Valim:** Yeah, excellent question. I'm going to break it into two parts. So one is like how it's architectured internally, and the other one is what is the work when there is a new model. So the way things work - and I've been saying this at this point for like two years, but you have a subset of Elixir that compiles to the GPU. And I've been saying it for two years and it still amazes me; when I say that, I'm like "That sounds very exciting." If somebody told me this 10 years ago, like "Nah, not happening. No chance."
 
-\[00:19:52.27\] So you have a subset of Elixir that compiles to the GPU, and this subset, what it does is that it builds a graph of the computation. So what people realize is that, you know, for these large network models, one of the ways to -- if you're just executing the operations, like if you say "Look, I want to add two tensors, or multiply two tensors" - and tensors are how we are representing multi-dimensional data, right? ...which are part of the neural network. So it's like, if you want to multiply -- if you did that immediately, that could potentially... That's not the most efficient way, because imagine you're using Python, you multiply two things, and now you go back to Python, and then you do the next operation, which is a multiplication... All this back and forth would leave the GPU idle, for example.
+\[19:52\] So you have a subset of Elixir that compiles to the GPU, and this subset, what it does is that it builds a graph of the computation. So what people realize is that, you know, for these large network models, one of the ways to -- if you're just executing the operations, like if you say "Look, I want to add two tensors, or multiply two tensors" - and tensors are how we are representing multi-dimensional data, right? ...which are part of the neural network. So it's like, if you want to multiply -- if you did that immediately, that could potentially... That's not the most efficient way, because imagine you're using Python, you multiply two things, and now you go back to Python, and then you do the next operation, which is a multiplication... All this back and forth would leave the GPU idle, for example.
 
 So they realized what they want to do is that they want to build this graph, which is all the operations that you want to do in this neural network, and then you compile it to run only on the GPU or only on the CPU very efficiently. And it happens that -- so I like to say... I'm going on a tangent here, very quickly. So one of our inspirations is Google JAX, which is a library for machine learning from Google. And it's a Python library, but they have things in the library like when you're writing code in JAX, you should treat your data structures as immutable, because they want to build this graph, right? So you need to express that in Python. And then I'm like "Well, I know a language where everything is immutable by default, right?" And then when you're writing JAX, you need to approach things in a functional style. Because again, if you think about the neural network, it is input, output and computations in the middle, and they want to represent these computations to compile down to the GPU. And then I was like "Okay, this is very exciting", and that was one of the sparks that led Sean Moriarity and Jaco to start working on those ideas.
 
@@ -94,7 +94,7 @@ So that's how it works... So we have like a subset of Elixir that compiles to th
 
 So now you can start to have an idea, because we have different abstraction levels, when you're building -- so let's say... There is Whisper now. So two things happen. One is that models, they usually reuse parts of other models. And they are often going to reuse layers... So it's more like - yeah, we have to assemble things, but a lot of it has already been used in another model... Or if we have to do something, we already have the layers in Axon, so a lot of the work has already been done. So because of the abstractions that we have, it takes some work, but we are building on top of the existing infrastructure, and it's not like "Oh, well, we are starting from scratch every single time."
 
-**Break**: \[00:23:43.25\]
+**Break**: \[23:43\]
 
 **Jerod Santo:** Let's focus in then on Livebook. You've recently had your very first Livebook launch week, which I thought might be inspired by our friends at Supabase, and then I actually saw you reference them in one of your posts explicitly; like, their idea, you liked it. I think it's a really cool idea, especially for people who want to come on podcasts and talk, because it gives us a bunch of stuff to talk about. Like, let's launch one thing a day for five days, and then we can come on to The Changelog and talk about that, which is a lot easier than having one amorphous thing. So launch week - do you want to talk more about the idea and the inspiration, how it went for you? because it was just a week or so back, and now you're in the wake of launch week.
 
@@ -120,7 +120,7 @@ So now you can start to have an idea, because we have different abstraction leve
 
 **José Valim:** Yeah. So Livebook is a code notebook platform for Elixir, but it's rather, let's say -- maybe I should start reworking that, because it's a code platform, it's a data platform, and it's a machine learning platform, and it's in the notebook format. And what that means is that we have a desktop app, but when you install Livebook Desktop, you're going to run it on your machine, open up a browser page, and you can write notebooks, which is a mixture of prose, text, documentation, and code, in a summarized version. That's what is a code notebook.
 
-\[00:30:21.15\] There are a bunch of ideas in Livebook that maybe we should explore soon, but overall, it's a code notebook and you can explore data, explore machine learning. So what I said is like "Well, you can run a machine learning model in Elixir by just clicking three buttons", because that's a workflow that we have in Livebook.
+\[30:21\] There are a bunch of ideas in Livebook that maybe we should explore soon, but overall, it's a code notebook and you can explore data, explore machine learning. So what I said is like "Well, you can run a machine learning model in Elixir by just clicking three buttons", because that's a workflow that we have in Livebook.
 
 And the reason why we're working on this - as I said, when we started this whole Numerical Elixir effort, it felt like we needed to have these, but it took a life completely of its own. So for example today -- so we have Nerves. I think this is a great example. So Nerves is a framework for building embedded software, embedded systems; it runs on top of Elixir. But imagine that you say "Hey, I want to teach somebody how to use Nerves", right? Then they're like "Okay, what I can do is that we can write a small software, I can burn it to an SD card, and then run it on my Raspberry Pi, and then I go back, burn another software in the SD card, put it into device, or maybe figure out a way of doing over the wire updates", which all those things they have, but now with Livebook, for example, they have a Nerves Livebook, which is an introductory way you get people into embedded programming, where you just start a Livebook, you start exploring ideas, you connect to the Wi-Fi, connect to Bluetooth, you make some lights blink... And it's all running Livebook, which originally started thinking about AI, but it's a development environment. And it's a really good development environment, if I have to be honest. You get all the features that you would expect from an IDE, like code completion... We have built-in dependency management, in-line docs... So it's a really nice environment to program and work with.
 
@@ -132,7 +132,7 @@ And the reason why we're working on this - as I said, when we started this whole
 
 **José Valim:** Yes. So we're thinking, we need to find a way that we can make machine learning developers who know their stuff, but they don't know how to write Elixir, how to get them started, and we need to help the Elixir developers as well. So the whole idea of Smart cells is that -- I say it like it's a metaprogramming UI. So what you have is that you have a UI where you can say, "Look, I want to run this model", I think more accessible. It's like "Hey, I want you to connect to a database", for example; have a Smart cell for database connection. And all programming languages, they have libraries for connecting to the database.
 
-**Jerod Santo:** \[00:34:13.10\] Sure.
+**Jerod Santo:** \[34:13\] Sure.
 
 **José Valim:** You have to go check out the documentation, learn how to use it, figure out the exact parameters that you have to pass, \[unintelligible 00:34:18.29\] password, yadda-yadda-yadda, right? And now with Livebook we have then these database connection Smart cell, so when you click it, it's going to appear, "Hey, which database you want to use? What is your password? What is your username?" and then you fill that in, and then it can execute the Smart cell, and it's going to give me a database connection in a variable that I can run queries against it, right?
 
@@ -148,7 +148,7 @@ So the insight with Smart cells is that all they do is that they execute code, a
 
 Let's go meta for a second. So these live cells - how are they implemented? Is this a very complicated React Component? Like actually in Livebook itself, the ones that generate your code for you - is this like a mess of React Components, is it like a Phoenix Live View thing? How do you guys build the live cells inside Livebook?
 
-**José Valim:** \[00:37:55.28\] Yeah. So the way they work is that -- so there are two ways you can make Livebook come to life. So you can think of Livebook as the web application that you are interacting with, and then you have the runtime, which is running your Elixir code.
+**José Valim:** \[37:55\] Yeah. So the way they work is that -- so there are two ways you can make Livebook come to life. So you can think of Livebook as the web application that you are interacting with, and then you have the runtime, which is running your Elixir code.
 
 **Jerod Santo:** Right.
 
@@ -170,7 +170,7 @@ Let's go meta for a second. So these live cells - how are they implemented? Is t
 
 **José Valim:** Yeah.
 
-**Jerod Santo:** \[00:41:53.11\] Alright, so that's how the Smart cells work. Let's hop into the Explorer, bit because we'll regroup and talk about how you can run this machine learning stuff in the cloud, and all the crazy stuff you're doing with GPUs... But I watched the Explorer video at the end, it was your last launch day thing... And this is the one where I'm like "Okay, I could use this today. How do I download Livebook and give this a try?" So I think it's gonna be a nice marketing thing for people who - maybe they've been using Curl, maybe they've been using, I don't know, Jupyter Notebooks or something, they're data scientists, or whatever, they're just mungers... We're all kind of data mungers to a certain extent... And this Explorer tool, I think, is really powerful. Do you wanna tell us about it?
+**Jerod Santo:** \[41:53\] Alright, so that's how the Smart cells work. Let's hop into the Explorer, bit because we'll regroup and talk about how you can run this machine learning stuff in the cloud, and all the crazy stuff you're doing with GPUs... But I watched the Explorer video at the end, it was your last launch day thing... And this is the one where I'm like "Okay, I could use this today. How do I download Livebook and give this a try?" So I think it's gonna be a nice marketing thing for people who - maybe they've been using Curl, maybe they've been using, I don't know, Jupyter Notebooks or something, they're data scientists, or whatever, they're just mungers... We're all kind of data mungers to a certain extent... And this Explorer tool, I think, is really powerful. Do you wanna tell us about it?
 
 **José Valim:** Yeah, so the reaction to Explorer has been very nice, because as I was saying, Supabase - they did those launch weeks, and they never have a dud. And I honestly thought that the Explorer one would be the dud.
 
@@ -188,7 +188,7 @@ So we have been working on this for a while, and I said in the video that we're 
 
 And the next thing that you could do - I didn't show this in the video, I think - is that... Well, now you have that table. As a result, you can create a Smart cell to plot a chart from that table. And from there, only with going to these Smart cells, I can now have a chart that is plotting my filter table, and going for that. Again, I'm not writing any Elixir code at all, and I'm doing all of those things. But if I want to see the code - because actually, that data processing should be part of my application, I can just get the code and bring it. And it's just the beginning of the data journey.
 
-\[00:46:00.07\] So just kind of like a spoiler, we want to have things like -- well, we want to be able for you to drag a CSV, for example, into Livebook, and we automatically detect that and emit the code for parsing that CSV. That would be pretty cool. Right? And it could be easy, but everything that we do, we want to make extensible. So that's the challenge. Because then you can drag and drop whatever you want. Like, if you want to -- like we were saying, maybe you want to do something for audio editing; you could hook into a way where you hook into audio files, and do things specific to them.
+\[46:00\] So just kind of like a spoiler, we want to have things like -- well, we want to be able for you to drag a CSV, for example, into Livebook, and we automatically detect that and emit the code for parsing that CSV. That would be pretty cool. Right? And it could be easy, but everything that we do, we want to make extensible. So that's the challenge. Because then you can drag and drop whatever you want. Like, if you want to -- like we were saying, maybe you want to do something for audio editing; you could hook into a way where you hook into audio files, and do things specific to them.
 
 **Jerod Santo:** Sure.
 
@@ -208,7 +208,7 @@ And the next thing that you could do - I didn't show this in the video, I think 
 
 **Jerod Santo:** Totally. And does Elixir have image manipulation tools? Are you talking about like -- so what I've done historically is like shell out to ImageMagick and then find ImageMagick's magic flags that I have to send in order to center, and gravitate, and crop, and stuff... But does Elixir have image manipulation tooling available natively?
 
-**José Valim:** \[00:50:10.18\] We have OpenCV bindings called evasion. That's a recent fork that has happened after Numerical Elixir. I'm not sure if we have image -- oh, there's also bindings for VIPS, I believe, which is kind of a new one, compared to ImageMagick. So they are here and there. We also have a very small one, which is just about creating the images and putting them into like a tensor format, so you can further do manipulations with it. Sorry, I'm going to go on another tangent here...
+**José Valim:** \[50:10\] We have OpenCV bindings called evasion. That's a recent fork that has happened after Numerical Elixir. I'm not sure if we have image -- oh, there's also bindings for VIPS, I believe, which is kind of a new one, compared to ImageMagick. So they are here and there. We also have a very small one, which is just about creating the images and putting them into like a tensor format, so you can further do manipulations with it. Sorry, I'm going to go on another tangent here...
 
 **Jerod Santo:** Okay, let's hear it.
 
@@ -236,11 +236,11 @@ And the next thing that you could do - I didn't show this in the video, I think 
 
 **Jerod Santo:** Okay.
 
-**José Valim:** And what it is - so for an Elixir developer we define functions using def, and then the function name, the arguments, and the implementation. And a numerical definition is \[unintelligible 00:53:10.02\] So you just put an n in front of it, and that's a numerical definition, and that's something that we guarantee we can compile that subset of Elixir that you have in there to the CPU or the GPU.
+**José Valim:** And what it is - so for an Elixir developer we define functions using def, and then the function name, the arguments, and the implementation. And a numerical definition is \[unintelligible 00:53:10.02\] So you just put an N in front of it, and that's a numerical definition, and that's something that we guarantee we can compile that subset of Elixir that you have in there to the CPU or the GPU.
 
 So when you're going to run something and when you pass this flag somewhere, it's basically saying, "Well, when I see some numerical definition in the future, like I pass this tensor to some numerical definition or something, I want it to run or in the host, or in GPU." And now we build the same graph, regardless if it's host or if it's GPU; we build the same graph, and then we call Google XLA, which is the library that actually compiles the graph to the CPU or GPU. And that's doing like all that hard work; like the real, let's say, magic stuff.
 
-**Jerod Santo:** \[00:54:00.22\] Gotcha.
+**Jerod Santo:** \[54:00\] Gotcha.
 
 **José Valim:** But yeah, but we carry the option forward, so we know where to compile things, and where to run things. But yeah, so it's not trying to be smart to say, "Oh, I figured out that this piece of code would be more efficient in the host or in the GPU." It doesn't do that at that point. You still have to say where it goes.
 
@@ -248,7 +248,7 @@ So when you're going to run something and when you pass this flag somewhere, it'
 
 **José Valim:** Yes, exactly.
 
-**Break**: \[00:54:44.11\]
+**Break**: \[54:44\]
 
 **Jerod Santo:** Alright, let's switch gears now, because you teed up what we call distributed machine learning notebooks with Elixir and Livebook; you teed up this whole ML thing that you thought would take the world by storm and everybody's interested in this data thing, but surely there's a lot of talk about with regards to now running machine learning stuff. We've been talking about it kind of around about, but let's talk specifically about what went into building this, and how it works.
 
