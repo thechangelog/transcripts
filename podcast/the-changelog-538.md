@@ -134,7 +134,7 @@ And the reason why we're working on this - as I said, when we started this whole
 
 **Jerod Santo:** \[34:13\] Sure.
 
-**José Valim:** You have to go check out the documentation, learn how to use it, figure out the exact parameters that you have to pass, \[unintelligible 00:34:18.29\] password, yadda-yadda-yadda, right? And now with Livebook we have then these database connection Smart cell, so when you click it, it's going to appear, "Hey, which database you want to use? What is your password? What is your username?" and then you fill that in, and then it can execute the Smart cell, and it's going to give me a database connection in a variable that I can run queries against it, right?
+**José Valim:** You have to go check out the documentation, learn how to use it, figure out the exact parameters that you have to pass, right? Username, password, yadda-yadda-yadda, right? And now with Livebook we have then these database connection Smart cell, so when you click it, it's going to appear, "Hey, which database you want to use? What is your password? What is your username?" and then you fill that in, and then it can execute the Smart cell, and it's going to give me a database connection in a variable that I can run queries against it, right?
 
 So in a way, it starts looking like low-code or no-code tools, and those tools - they have an issue, which is "But wait... Maybe I am connecting to a database that requires me to pass a special SSL certificate, that I did not add in my UI." And then it's like your tool completely falls apart, because we did not consider that particular use case.
 
@@ -156,7 +156,7 @@ Let's go meta for a second. So these live cells - how are they implemented? Is t
 
 **Jerod Santo:** Okay.
 
-**José Valim:** So the Kino library is what brings Livebook to life. And there are two ways of doing that. \[unintelligible 00:38:30.17\] rich output, it's an output that you can interact with it, or it's with Smart cells, and what they do is to execute code. And what they are is that they are a web page that -- so you're going to render an HTML... We render them inside an iFrame. So we have an iFrame, you render things inside like that, and it communicates with the Elixir code that is at the runtime using JavaScript. Whatever messages you want to send. So you open up a WebSocket between those two things, so you have JavaScript running on the client, and you have Elixir running on the runtime, the actual runtime, where all the code, where if you're saying "Hey, I've downloaded the CSV", so that's the Elixir runtime, and JavaScript running on the client, and you can use whatever you want there. We're just opening a page.
+**José Valim:** So the Kino library is what brings Livebook to life. And there are two ways of doing that. \[unintelligible 00:38:30.17\] is a rich output, it's an output that you can interact with it, or it's with Smart cells, and what they do is to execute code. And what they are is that they are a web page that -- so you're going to render an HTML... We render them inside an iFrame. So we have an iFrame, you render things inside like that, and it communicates with the Elixir code that is at the runtime using JavaScript. Whatever messages you want to send. So you open up a WebSocket between those two things, so you have JavaScript running on the client, and you have Elixir running on the runtime, the actual runtime, where all the code, where if you're saying "Hey, I've downloaded the CSV", so that's the Elixir runtime, and JavaScript running on the client, and you can use whatever you want there. We're just opening a page.
 
 **Jerod Santo:** Gotcha.
 
@@ -176,11 +176,11 @@ Let's go meta for a second. So these live cells - how are they implemented? Is t
 
 **Jerod Santo:** Oh, so you saved it for last, just in case.
 
-**José Valim:** Yeah. So I \[unintelligible 00:42:46.03\] for last, and I was like "I don't think people are going to like it that much." Maybe it's the point of just like -- and I have my theories of why people like it so much, but let me break down what it is, right?
+**José Valim:** Yeah. So I put it for last, and I was like "I don't think people are going to like it that much." Maybe it's the point of just like -- and I have my theories of why people like it so much, but let me break down what it is, right?
 
 **Jerod Santo:** Yeah, please do.
 
-**José Valim:** So we have this tool called Explorer, which brings data frames in series to Elixir. So what are series and data frames? Series - imagine one-dimensional data. So it can be like a huge vector of strings, or numbers, whatever. And data frames - they are two-dimensional data. They are tables; think like Excel, two-dimensional, or a spreadsheet. So Chris Granger, he started working on Explorer for Elixir, tools to work with those abstractions, and it's implemented on top of a library in Rust called Polars. Because we have Pandas in Python, and then we have Polars for Rust, and it finished with \[unintelligible 00:43:41.16\] so it's a nice naming scheme in there. And it's super-fast. When we see the benchmarks on how Polars work, it's super-fast.
+**José Valim:** So we have this tool called Explorer, which brings data frames in series to Elixir. So what are series and data frames? Series - imagine one-dimensional data. So it can be like a huge vector of strings, or numbers, whatever. And data frames - they are two-dimensional data. They are tables; think like Excel, two-dimensional, or a spreadsheet. So Chris Granger, he started working on Explorer for Elixir, tools to work with those abstractions, and it's implemented on top of a library in Rust called Polars. Because we have Pandas in Python, and then we have Polars for Rust, and it finished with the \[unintelligible 00:43:41.16\] extension so it's a nice naming scheme in there. And it's super-fast. When we see the benchmarks on how Polars work, it's super-fast.
 
 And Chris, when he was working on these, he really loves the API that comes from DeployR, from the R community... So it's kind of like this mixture between -- well, it's an Elixir project that has the foundation in Rust, and it's really inspired by R and DeployR. And so we have this project, it's one of the Numerical Elixir efforts, because we want to -- yes, before you put data into a machine learning model, often you have to do a lot of massaging, you have to do joins, you have to do a lot of things with that data... And this is an important project.
 
@@ -334,7 +334,7 @@ So tell me more... What instruments did you guys play? Was it a duet, was it -- 
 
 **Jerod Santo:** Okay. Well, I'm glad we -- okay, book it. We've got it on the calendar. You've just got to get Hugo on board and make this magic happen. That's amazing. Okay, so you covered some of the people involved. There's lots of projects. Each little project has certain people who are involved. What about the Dashbit side? What about the financial side? All this stuff is in the open source world... Are you making money? Are you hoping to make money? Are you raising money? How are you managing this?
 
-**José Valim:** Yeah, so -- yeah, I love those questions. So Dashbit is -- we have a service that has been doing well, and that funds the rest of the work that we \[unintelligible 01:09:04.20\] So there are like three of us, we are working with clients, and everybody else is like full-time on open source, which is really awesome.
+**José Valim:** Yeah, so -- yeah, I love those questions. So Dashbit is -- we have a service that has been doing well, and that funds the rest of the work that are happening. So there are like three of us, we are working with clients, and everybody else is like full-time on open source, which is really awesome.
 
 **Jerod Santo:** Nice.
 
@@ -385,7 +385,7 @@ So when we're thinking about VC, I'm really worried about - like, if we get VC m
 
 **Jerod Santo:** And we're doing manipulation on the mp3 in our app, like adding chapters and stuff, but we're not doing the transcripts. So at that point, you don't have any sort of multitrack information. And you don't want to do it too early, because then the timestamps are all going to change, because we're still going to edit it. So it's like, how does it work in bulk? Because we're shipping five or six shows a week. It has to be like -- it can't add hours and hours of additional steps, and wav files are large, and... Anyways, podcaster problems. But I appreciate all of our listeners who wrote in and and gave us suggestions, it's just, I'm not going to use any of them. I'm just gonna wait. I'm gonna just gonna wait until something pops up. I'm patient, I've been waiting this long, so...
 
-**José Valim:** Yeah. Until it's a smart cell, right? So you can just \[unintelligible 01:19:18.03\]
+**José Valim:** Yeah. Until it's a smart cell, right? So you can just 3 clicks...
 
 **Jerod Santo:** Exactly. I'm just gonna pop it in, drop my wav file into Livebook, and hit a button... Boom. And then copy that Elixir code.
 
