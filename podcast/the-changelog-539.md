@@ -66,7 +66,7 @@ We released the framework as a Creative Commons licensed blueprint. It's been fo
 
 And inspired by the FOSS Contributor Fund work, we started the process of building our own Bloomberg Foss Contributor Fund about a year and a half ago, building a relationship with Open Source Collective and the grant framework internally, with corporate philanthropy, which is a powerful ally and colleague in this work, with the ASBO team.
 
-So we launched our first FOSS Contributor Fund, which runs on like a quarterly schedule, in January, and just about to launch - tomorrow, actually, so this will be May 3rd - our second round of elections and nominations. I was thinking earlier, Chad \[unintelligible 00:13:14.10\] open up questions... one thing that I thought is why companies of all sizes, perspectives, have a place in like the sustainability of open source. I'm thinking a lot about your blog post where you talked about the value of open source, and how each -- I forgot what your actual equation was, but like that each technologist can contribute back X amount of money to the open source that we rely on. Maybe you can speak to that equation that you put down; because I feel like maybe that's a way that we can set where our standard should be, or could be.
+So we launched our first FOSS Contributor Fund, which runs on like a quarterly schedule, in January, and just about to launch - tomorrow, actually, so this will be May 3rd - our second round of elections and nominations. I was thinking earlier, Chad because, when they open up questions... one thing that I thought is why companies of all sizes, perspectives, have a place in like the sustainability of open source. I'm thinking a lot about your blog post where you talked about the value of open source, and how each -- I forgot what your actual equation was, but like that each technologist can contribute back X amount of money to the open source that we rely on. Maybe you can speak to that equation that you put down; because I feel like maybe that's a way that we can set where our standard should be, or could be.
 
 **Chad Whitacre:** I do have a question for you about Bloomberg, but we can come back to it... Or I don't know, Adam, Jerod, where do you gonna go next? The post you're referring to, Alyssa, is I think the one from years ago where I said something like "Every company should be paying $2,000 per person for open source. Your company should be paying $2,000 per person for open source."
 
@@ -167,9 +167,9 @@ Now, to come back to something Jerod was tiptoeing up to earlier, "Is $120,000 o
 
 **Jerod Santo:** Alright, let's get that, and then we'll have the pot stirred.
 
-**Chad Whitacre:** He just opened up ChatGPT and was like "How much is \[unintelligible 00:32:24.17\]
+**Chad Whitacre:** He just opened up ChatGPT and was like "How much is fair?"
 
-**Duane O'Brien:** Yeah, yeah. \[unintelligible 00:32:25.14\] "ChatGPT, how much should I give to open source?"
+**Duane O'Brien:** Yeah, yeah. "Dear ChatGPT, how much should I give to open source?"
 
 **Chad Whitacre:** Bingo. We got ChatGPT off the bingo card.
 
@@ -289,7 +289,7 @@ Adam, when you said earlier "For the people, by the people" - we're the people. 
 
 **Adam Stacoviak:** What's the domain? Tell us.
 
-**Duane O'Brien:** See, if I say, \[unintelligible 00:47:27.08\] gonna go there, and they're gonna expect to be there... So I registered fossfunders.com, either last year or the year before, I don't remember quite what it was.
+**Duane O'Brien:** See, if I say, now people are gonna go there, and they're gonna expect to be there... So I registered fossfunders.com, either last year or the year before, I don't remember quite what it was.
 
 **Chad Whitacre:** And I just checked, and we don't have anything up there right now.
 
@@ -420,7 +420,7 @@ And I'm a firm believer of setting clear expectations. So we can't expect compan
 
 **Duane O'Brien:** I do have some very attractive tote bags that I could put into the mix here...
 
-**Adam Stacoviak:** Where's my AWS \[unintelligible 01:06:41.00\] That was pretty cool. I love that. Anything else? What was left unsaid? What did we not ask? I know we're getting close on time here... What's left unsaid? Anything left to be covered before we call this a Maintainer Month Extravaganza show, and call it done?
+**Adam Stacoviak:** Where's my AWS open coin they gave me? That was pretty cool. I love that. Anything else? What was left unsaid? What did we not ask? I know we're getting close on time here... What's left unsaid? Anything left to be covered before we call this a Maintainer Month Extravaganza show, and call it done?
 
 **Chad Whitacre:** I just love that, like you said earlier, this is an ongoing conversation. We're gonna come back next year and we're gonna see a connection between where we are now, but we're gonna be in a different place. I'm excited to see where we're at next year with this. I love working on this with you all.
 
