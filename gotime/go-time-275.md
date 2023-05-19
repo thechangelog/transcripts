@@ -332,7 +332,7 @@ Maybe even a spicier take would be for - both self-driving and AGI, we will neve
 
 **Jon Calhoun:** I think sometimes -- it's almost they need to experience the benefits to really see them. There was -- I forget what city... I think it was like Tennessee and some other city, they were talking about putting a train that would get you from one to the other in a couple hours... And I'd heard people on a podcast talking about it, and they're like "What's the point in that?" And I'm like "Yeah, it doesn't seem very useful until all of a sudden you can just zip over to another city, and you find yourself doing it way more often than you would have otherwise, because it's so easily available." Whereas if you have to hop in a car and drive eight hours, or you have to fly, and it's going to take everything that's involved with flying, you're not going to do those things all the time. But a train is super-easy most of the time.
 
-**Adam Wootton:** Yeah, I remember it blew my mind when I was visiting London and I realized that I could take a train to Paris in two hours. And I was like "Wait, this trip I was going to visit London, but I can also just go to Paris, and just \[unintelligible 01:12:17.25\] a train to get there." That's crazy.
+**Adam Wootton:** Yeah, I remember it blew my mind when I was visiting London and I realized that I could take a train to Paris in two hours. And I was like "Wait, this trip I was going to visit London, but I can also just go to Paris, and just take a train to get there." That's crazy.
 
 **Jon Calhoun:** Alright, I think that's it. I'm gonna play us out, and then I will stop the recording. Thank you guys for joining. Jonathan, Adam, Brad, thank you guys for joining. And Kris, thank you for helping me host.
 
