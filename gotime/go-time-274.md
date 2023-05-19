@@ -55,7 +55,7 @@
 
 **Ronna Steinberg:** And no explanation necessary. \[laughter\]
 
-**Kaylyn Gibilterra:** Just like a long pause while everyone thinks it over for a bit, and then \[unintelligible 00:04:16.18\]
+**Kaylyn Gibilterra:** Just like a long pause while everyone thinks it over for a bit, and then you get the...
 
 **Ronna Steinberg:** It's amazing.
 
@@ -236,7 +236,7 @@ Anyways... But yeah, I always use the women's survey and data that exists about 
 
 But I think the other part of it is that -- I think this is less of a thing for other communities. I for sure know what to think for the black community. From interactions with other people of color, I think it's a people of color community thing in general, and I think it happens with the queer community as well, where there's kind of chosen leaders, and there is a lot of -- people within the community talk to each other, but they don't talk to anybody outside their community, which makes data collection kind of challenging in that way... Because if you ask the same question, but it's coming from two different people, you will get two different answers.
 
-And this is part of what makes racism so entrenched in tech, is that - you know, I've talked to plenty of people who are white and consider themselves allies, and one of the things that they always say to me is like "I know black people in tech, and I've never heard any of this." And I'm like "Yeah, because the black folk don't talk to white folk about this stuff." Like, one of the things you're told when you're growing up as a black kid in America - and I think for other racial minorities it's similar in other countries - is like "You don't talk to the majority folk about your experience. You just don't. If they ask you something, just go along with it." Especially in America, that's how you stay alive. That's how you keep a career going. That's how you're like "Oh, I can actually exist in these spaces." For a ton of black people, and I've met so many of them over the my career. And it's also what makes me kind of a unicorn, is that I don't do things like code switch. Like, I am me. At work, at home, there's like one version of me. But that is unheard of for most black people. I don't think I've ever met another black person that doesn't code-switch, that doesn't say, "This is who I am at work. Very professional. I talk in this way, I use my English, I have all of these things", and then they go home and it's like \[unintelligible 00:57:50.04\] with my people, I talk about how crazy things are at work, and what this one person did to me, and how kind of racist it was, but it's like I can't do anything about it, because blah, blah, blah..." So I think like the problems with trying to go off of data for this is that I think it becomes too easy for us to kind of massage that data into what we want to hear, instead of just hearing.
+And this is part of what makes racism so entrenched in tech, is that - you know, I've talked to plenty of people who are white and consider themselves allies, and one of the things that they always say to me is like "I know black people in tech, and I've never heard any of this." And I'm like "Yeah, because the black folk don't talk to white folk about this stuff." Like, one of the things you're told when you're growing up as a black kid in America - and I think for other racial minorities it's similar in other countries - is like "You don't talk to the majority folk about your experience. You just don't. If they ask you something, just go along with it." Especially in America, that's how you stay alive. That's how you keep a career going. That's how you're like "Oh, I can actually exist in these spaces." For a ton of black people, and I've met so many of them over the my career. And it's also what makes me kind of a unicorn, is that I don't do things like code switch. Like, I am me. At work, at home, there's like one version of me. But that is unheard of for most black people. I don't think I've ever met another black person that doesn't code-switch, that doesn't say, "This is who I am at work. Very professional. I talk in this way, I use my English, I have all of these things", and then they go home and it's like I'm speaking in AAVE I'm with my people, I talk about how crazy things are at work, and what this one person did to me, and how kind of racist it was, but it's like I can't do anything about it, because blah, blah, blah..." So I think like the problems with trying to go off of data for this is that I think it becomes too easy for us to kind of massage that data into what we want to hear, instead of just hearing.
 
 **Ronna Steinberg:** \[58:16\] No, we don't want to --
 
@@ -289,7 +289,7 @@ So as long as -- you can usually find a talk or two where you're like "I don't k
 
 **Kaylyn Gibilterra:** For a second I really thought you were about to say "Find me." \[laughter\] I was like "Nice..."
 
-**Ronna Steinberg:** \[unintelligible 01:06:54.24\] though I've gotta say that when --
+**Ronna Steinberg:** I can always hang! Though I've gotta say that when --
 
 **Natalie Pistunovich:** I think you're attending less conferences than Ron though...
 
