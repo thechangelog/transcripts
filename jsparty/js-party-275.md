@@ -104,7 +104,7 @@ I work a lot with collaborators... So the SpaceFiller name is kind of -- I think
 
 **Break**: \[18:51\]
 
-**Jerod Santo:** So this Grid World piece that we brought up already is interesting technically to focus in on, because one of the things you mentioned about it is how you \[unintelligible 00:19:53.18\] the use of frameworks. And before the show, Amelia is like "This is where I get shamed, that I use so much JavaScript, and Alex is not going to."
+**Jerod Santo:** So this Grid World piece that we brought up already is interesting technically to focus in on, because one of the things you mentioned about it is how you eschew the use of frameworks. And before the show, Amelia is like "This is where I get shamed, that I use so much JavaScript, and Alex is not going to."
 
 **Amelia Wattenberger:** \[laughs\]
 
