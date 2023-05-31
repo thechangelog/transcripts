@@ -184,11 +184,11 @@ I think like this idea would obviously require a huge amount of logistics, and a
 
 **Ian Lopshire:** My one thought is I've had enough bad conference food that as a conference goer, this sounds amazing.
 
-**Angelica Hill:** I only have two quick thoughts. One was making sure that all dietary requirements are met by the establishments we're partnering with. Secondarily was a call for the environment, that we not have physical plastic cards, and we make \[unintelligible 00:51:47.12\] and perhaps an Apple wallet or an Android wallet... I don't have an Android device, but an Android device-based card thing...
+**Angelica Hill:** I only have two quick thoughts. One was making sure that all dietary requirements are met by the establishments we're partnering with. Secondarily was a call for the environment, that we not have physical plastic cards, and we make them virtual and perhaps an Apple wallet or an Android wallet... I don't have an Android device, but an Android device-based card thing...
 
 **Andy Walker:** Yeah, and -- I mean, you can conceive of it actually being better in terms of dietary restrictions, because then it's kind of like going out to dinner now. You have a friend in your group who's like "I'm sorry, I can't have that." And then you're like "Oh, yeah, okay, well, we'll just ask, and if they don't, we'll go somewhere else." I think there is just as much onus on pretty much your average restaurant in this day and age to be prepared to tell people what is and what is not both vegan, halal, kosher... Really any dietary restriction. So like some of that I do think kind of like you'll be alright with, for the most part, unless you're going to like Bob's House of Meat, or whatever. And then, that's just not considerate to your friends.
 
-**Angelica Hill:** Anything to avoid what happened to me \[unintelligible 00:52:45.16\] at one point, where I was just walking around, searching for something to eat for the whole entire lunch hour, until I gave up and just took like three crackers and was like "Okay, I know I can \[unintelligible 00:52:53.26\]
+**Angelica Hill:** Anything to avoid what happened to me and Chris at one point, where I was just walking around, searching for something to eat for the whole entire lunch hour, until I gave up and just took like three crackers and was like "Okay, I know I can eat these."
 
 **Andy Walker:** No...! \[laughs\] That's terrible.
 
@@ -288,7 +288,7 @@ And with that, it's time for Unpopular Opinions.
 
 **Andy Walker:** Right. Yeah. So the way I've been focusing on it is I'll use bold for like the func keyword... It really acts as kind of a landmark, so that I can kind of go through it real quick... Strings I have, they're kind of like lighter... And then I think I add a dash of color to like print verbs, and stuff like that, because that's something you kind of want to see. Oh yeah, there's the templated part, right? But other than that, very little. Yeah.
 
-**Kris Brandow:** Yeah. I feel like we might have -- a lot of people have added syntax highlighting to also get around having their code be too dense, and having their code not be well structured. So it's like, if you have that syntax highlighting, it's easier to kind of pick things apart; \[unintelligible 01:03:11.13\] a lot more messy before it's like "What is going on here?" Where if you turn that off, and you're just like "Oh no, this amount of complexity is just unbearable."
+**Kris Brandow:** Yeah. I feel like we might have -- a lot of people have added syntax highlighting to also get around having their code be too dense, and having their code not be well structured. So it's like, if you have that syntax highlighting, it's easier to kind of pick things apart; You can let your code get a lot more messy before it's like "What is going on here?" Where if you turn that off, and you're just like "Oh no, this amount of complexity is just unbearable."
 
 **Ian Lopshire:** How do you feel about the code mini-maps that some editors have in the top right?
 
@@ -306,7 +306,7 @@ And with that, it's time for Unpopular Opinions.
 
 **Andy Walker:** \[01:06:10.09\] Yeah. And size, and spacing... I mean, spacing maybe not. I do think we are relatively behooved to a grid-based monospace kind of layout... Although not necessarily; I have seen some fonts make that work. But on the other hand, you can certainly get away with -- you can get a lot out of like bold, and Italic, and underlining, and stuff like that. So yeah, I definitely -- you will find me a surprising closet typography nerd. Like, it's bad.
 
-**Kris Brandow:** Yeah. I think that's the interesting thing, too... Even talking about like the typography of a page - it's like, you might have elements that are \[unintelligible 01:06:44.10\] as I call it, or the line spacing is different for \[unintelligible 01:06:47.22\] or something, but it still is divisible enough that it flows on the page as a whole... And I think we could do that with code as well.
+**Kris Brandow:** Yeah. I think that's the interesting thing, too... Even talking about like the typography of a page - it's like, you might have elements that are the 'letting' as I call it, or the line spacing is different for say a block quote or something, but it still is divisible enough that it flows on the page as a whole... And I think we could do that with code as well.
 
 **Andy Walker:** Well, we do already. I mean, so a lot of the modal stuff that you see in, say, Visual Studio Code - it's very... Like, that's one of the reasons I moved away from Vim. If you want a third unpopular opinion, it's that I stopped using Vim after 30 years, or whatever... But the main reason I stopped was because I started to recognize that there is only so much information density that you can get out of a rigid grid of characters, and that having advanced typography, having float, having that kind of subtle background and/or foreground kind of information conveyance was far more valuable now. Because I use Vim now and I want to see a function definition. Like, I can set up my plugin to do it, but if I'm lucky, I'll get a nice little pop-up. But even still, it's ugly as sin. The whole screen shifts, if you don't even have that, it's - no. So yeah...
 
@@ -330,7 +330,7 @@ And with that, it's time for Unpopular Opinions.
 
 **Kris Brandow:** Oh, Notion?
 
-**Andy Walker:** Yes. Or like -- no, no, no. There's a new one after Notion. I don't remember. I saw \[unintelligible 01:09:52.05\] bookmark a bunch of stuff on it... And every time he bookmarks something, I always do it, too. But like -- oh, God, I can't remember. It doesn't really matter. But anyway, it seems like every month there's a new "This will change your life", and I have like really bad ADD, and like I can barely even attempt a bullet journal. So I'm always -- every time they come up, I'm like "Yes!!" And then I get into it and I look up like a couple of videos of like the guru of that particular app, and they're like "Here's how I do my day", and it's like, "I start with the journal entry", and I'm like "Nope. It's not gonna happen."
+**Andy Walker:** Yes. Or like -- no, no, no. There's a new one after Notion. I don't remember. I saw Filippo bookmark a bunch of stuff on it... And every time he bookmarks something, I always do it, too. But like -- oh, God, I can't remember. It doesn't really matter. But anyway, it seems like every month there's a new "This will change your life", and I have like really bad ADD, and like I can barely even attempt a bullet journal. So I'm always -- every time they come up, I'm like "Yes!!" And then I get into it and I look up like a couple of videos of like the guru of that particular app, and they're like "Here's how I do my day", and it's like, "I start with the journal entry", and I'm like "Nope. It's not gonna happen."
 
 \[01:10:25.26\] And yet, you can see -- this is like the various different scribbles that I was taking during today, and there is some kind of... I feel like there is some connection between that tangible aspect of like writing, and then the navigation map that you form in your head. It just is better.
 
