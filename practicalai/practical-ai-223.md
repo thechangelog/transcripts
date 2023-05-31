@@ -34,7 +34,7 @@ But explaining to someone how it works, and then also explaining the best practi
 
 **Daniel Whitenack:** That's awesome. So you mentioned it being run in a Google Colab notebook, which I think is awesome... And using also a bit of a smaller model to start with, and we've seen a lot of directions towards smaller open models that are accessible to data scientists, with Llama, and other things that... How do you see that trajectory going? And how will that impact day to day practitioners in terms of what they're able to do with this sort of technology?
 
-**Erin Mikail Staples:** I think the biggest thing -- I'm actually going to zoom out to answer this... The biggest thing we need to think about is context. What are you using a model to solve, or AI to solve, or ML to solve? And the more that I've been diving into these conferences and the ecosystem, especially at a conference where it's a blended conference, where you have folks that are not necessarily deep in the field, or an ML practitioner, or they're new to ML, it is so easy. And there's a meme I always point to, that it's like "Oh, we're an AI-backed so and so", and it's like "JK! We're just an AI. We're just calling the API and putting a nice, pretty, shiny frontend on it", which is no shade to anybody who is putting a frontend on a GPT API. There is no shade at all to that. But it's like thing about what you need a model for in the first place, or what you want to use machine learning; that context is so important. I'm currently playing around with a Naked and Afraid dataset, just to play around. There's an open source dataset out there that is \[unintelligible 00:08:55.11\]
+**Erin Mikail Staples:** I think the biggest thing -- I'm actually going to zoom out to answer this... The biggest thing we need to think about is context. What are you using a model to solve, or AI to solve, or ML to solve? And the more that I've been diving into these conferences and the ecosystem, especially at a conference where it's a blended conference, where you have folks that are not necessarily deep in the field, or an ML practitioner, or they're new to ML, it is so easy. And there's a meme I always point to, that it's like "Oh, we're an AI-backed so and so", and it's like "JK! We're just an AI. We're just calling the API and putting a nice, pretty, shiny frontend on it", which is no shade to anybody who is putting a frontend on a GPT API. There is no shade at all to that. But it's like thing about what you need a model for in the first place, or what you want to use machine learning; that context is so important. I'm currently playing around with a Naked and Afraid dataset, just to play around. There's an open source dataset out there that is a...
 
 **Daniel Whitenack:** That's awesome. Like videos, or...?
 
@@ -114,7 +114,7 @@ Let's go to the practical application of this. If you are working in open data, 
 
 **Daniel Whitenack:** Oh, man...
 
-**Erin Mikail Staples:** \[unintelligible 00:20:50.29\] I was like, "Man, I'm gonna go embarrass myself right now, after all that crap I just talked..."
+**Erin Mikail Staples:** My data was all- I was like "You failed Erin." I was like, "Man, I'm gonna go embarrass myself right now, after all that crap I just talked..."
 
 **Daniel Whitenack:** Yeah, yeah. I think that's the other thing... I don't know if you have an encouragement here, but data scientists out there who have not actively participated in the data labeling process... Yeah, that's such a learning experience, because it gives you perspective. Even if in the future you're not part of one of those processes, it gives you good questions to ask. If someone gives you this data set that was labeled, you should probably ask a few follow-up questions about "How did that go? What did you do there?"
 
@@ -126,7 +126,7 @@ Let's go to the practical application of this. If you are working in open data, 
 
 **Daniel Whitenack:** Yeah. Awesome. That's great. And as we close out here, where can people find you online? And also, tell us a little bit about your own podcast, which sounds awesome, and includes pickles.
 
-**Erin Mikail Staples:** Yeah. So I am available online at Erin Mikail on all the platforms, or erin.bio has a link to everything that I'm at. You can also chase me down at Label Studio; so it's Label Studio, but \[unintelligible 00:24:41.23\] Join the community, come hang out with me there. We have an up and coming townhall, and getting into more workshops... So I'm very excited about that.
+**Erin Mikail Staples:** Yeah. So I am available online at Erin Mikail on all the platforms, or erin.bio has a link to everything that I'm at. You can also chase me down at Label Studio; so it's Label Studio, but the last .io is like \[unintelligible 00:24:41.23\] Join the community, come hang out with me there. We have an up and coming townhall, and getting into more workshops... So I'm very excited about that.
 
 I also run the Dev Relish Podcast. It's everything about Dev Rel and -ish. Also, you know, naturally, some people made sourdough bread; I got into fermentation. We've got a fun pickle fact, and cool pickle logos, because you've got to relish the developer moments in open source.
 
