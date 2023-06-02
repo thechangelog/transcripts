@@ -50,7 +50,7 @@
 
 **Adam Stacoviak:** Yeah. Google is a weird thing, because I will search a product, and they think I want to buy it, not research it. So I want to learn about the thing, and those who are teaching about the thing, and how it integrates with other things, not where can I buy it and for how much. So there's zero context there. They're incentivized, it seems, to point you to a place that you can purchase it, not learn how to use it... Which is the opposite of ChatGPT.
 
-**Beyang Liu:** \[00:07:58.14\] Yeah. So there's kind of pluses and minuses to both. With Google, you get results to actual webpages, and you can kind of judge them based on the domain, and it's kind of more primary source material, which is useful... It's also live; you get results from 2023, rather than 2021, whereas ChatGPT --
+**Beyang Liu:** \[07:58\] Yeah. So there's kind of pluses and minuses to both. With Google, you get results to actual webpages, and you can kind of judge them based on the domain, and it's kind of more primary source material, which is useful... It's also live; you get results from 2023, rather than 2021, whereas ChatGPT --
 
 **Adam Stacoviak:** That'll change... It's a temporary thing, right? I mean, the delay will be temporary. Eventually, it'll catch up.
 
@@ -84,7 +84,7 @@ I think one of the inflection points for us was the release of GPT-3, because th
 
 And then of course, when ChatGPT came out, that was also another big inflection point, and that's when we started to think very seriously about kind of like a chat-based interaction that could happen in your editor, and have all the advantages of ChatGPT, but know about the specific context of your code. So for Cody specifically, I think the first commit was December 1st, or something that... And by February, we basically had a version that we were having users and customers try, and then March was when we rolled out to our first enterprise customers. So it's just been this whirlwind of development activity. And I don't know, I cannot remember a time where I've been more excited and just eager to build stuff, because it's -- we're living through interesting times right now.
 
-**Adam Stacoviak:** \[00:12:15.27\] This is the eureka moment that we've all been waiting for, basically. I mean, this is the invention of the internet all over again, potentially the iPhone level invention... I think it's a dramatic paradigm shift in how we think as engineers and software developers... Like, how do we learn, how do we leverage, how do we augment... It's just insane what is available to somebody who doesn't have an understanding to quickly get understanding, and then be performing a certain task or whatever because of the LLMs that are available and how it works. It's so crazy.
+**Adam Stacoviak:** \[12:15\] This is the eureka moment that we've all been waiting for, basically. I mean, this is the invention of the internet all over again, potentially the iPhone level invention... I think it's a dramatic paradigm shift in how we think as engineers and software developers... Like, how do we learn, how do we leverage, how do we augment... It's just insane what is available to somebody who doesn't have an understanding to quickly get understanding, and then be performing a certain task or whatever because of the LLMs that are available and how it works. It's so crazy.
 
 **Beyang Liu:** Yeah.
 
@@ -102,7 +102,7 @@ So we think chat is just the starting point. It's really just like this rich rep
 
 **Beyang Liu:** So the way we think about it is we've spent the past 10 years building the world's most advanced code understanding tool. So we have the best code search, we have the best code graph... So the global reference graph, across all the different languages in the world. We have a large-scale code modification refactoring system, and a system to track high-level insights...
 
-\[00:16:12.19\] So there's all these backend capabilities that are really, really powerful. And what language models have done is given us a really, really nice, beginner-friendly interface to all that power. And I think you're gonna see this across all kinds of software. Historically, building power user tools has been difficult, because the on-ramp to taking full advantage of those tools - it's been a little steep.
+\[16:12\] So there's all these backend capabilities that are really, really powerful. And what language models have done is given us a really, really nice, beginner-friendly interface to all that power. And I think you're gonna see this across all kinds of software. Historically, building power user tools has been difficult, because the on-ramp to taking full advantage of those tools - it's been a little steep.
 
 **Jerod Santo:** It requires education, yeah.
 
@@ -128,7 +128,7 @@ So we think chat is just the starting point. It's really just like this rich rep
 
 **Beyang Liu:** Exactly. They're kind of loosely coupled. We don't believe in strong coupling just for the sake of selling you more software. And I think with Cody, the design philosophy was like look, if you connect it to Sourcegraph, it does get a lot better. It's like, if you gave a really smart person access to Google, they're going to be a lot smarter about answering your questions. But if you don't give them Google, they're still a smart person, and so Cody will still fetch context from kind of your local code, using non-Sourcegraph mechanisms if you're just running it standalone.
 
-**Adam Stacoviak:** \[00:20:13.20\] How does it get this intelligence as an extension? Explain how that works. I've got it on my local repo, it's an extension... How does it get the intelligence from my codebase?
+**Adam Stacoviak:** \[20:13\] How does it get this intelligence as an extension? Explain how that works. I've got it on my local repo, it's an extension... How does it get the intelligence from my codebase?
 
 **Beyang Liu:** Yeah, so it's basically -- I mean, think of the way that you would understand or build a mental model of what's going on in a codebase as a human. You might search for some pieces of functionality, you might read through the readme, click on a couple of search results...
 
@@ -166,7 +166,7 @@ So we think chat is just the starting point. It's really just like this rich rep
 
 **Jerod Santo:** But that's useful for a whole other reason, right?
 
-**Beyang Liu:** \[00:23:51.25\] Yeah. And I think it's important to grant our users and customers control and ownership over that data, because it is your data. And I think with language models - language models 10x the value and the sensitivity of that data. Because now, instead of just feeding into a gen one AI model, or exposing it to some other human, you can feed it into one of these large language models that can kind of memorize everything about you as a person or a programmer. And in some ways, maybe that's good, if you're open to that. If you're willing to share your data, we could potentially train language models that you know emulate some of the best and brightest programmers in existence... But ultimately, we think that should be your personal --
+**Beyang Liu:** \[23:51\] Yeah. And I think it's important to grant our users and customers control and ownership over that data, because it is your data. And I think with language models - language models 10x the value and the sensitivity of that data. Because now, instead of just feeding into a gen one AI model, or exposing it to some other human, you can feed it into one of these large language models that can kind of memorize everything about you as a person or a programmer. And in some ways, maybe that's good, if you're open to that. If you're willing to share your data, we could potentially train language models that you know emulate some of the best and brightest programmers in existence... But ultimately, we think that should be your personal --
 
 **Adam Stacoviak:** Opt-in.
 
@@ -232,7 +232,7 @@ So we think chat is just the starting point. It's really just like this rich rep
 
 **Beyang Liu:** It's not out yet, and if you look at the video, the kind of context switching they're doing, it's basically like your currently open file, explain that. And Cody is already doing much, much more than that. It's reading -- even if you ask it a question about the current file, it will actually go and read other files in your codebase that it thinks are related, and use that to inform your answer.
 
-\[00:27:53.11\] So we think the power of Sourcegraph gives us a bit of a competitive edge there, with the kind of high-level questions, and onboarding, and kind of rubber-ducking use case... And then for completions - I think Copilot is great, but for completions we're essentially doing the same thing. So the completions that Cody generates, it takes into account that same context when it's completing code. So that means it's better able to kind of mimic or emulate the patterns and best practices in your specific codebase. And again, because we're kind of open source and model-agnostic, we are just integrating all the best language models as they come online. So I think Anthropic -- I don't know when this episode's going out, but Anthropic --
+\[27:53\] So we think the power of Sourcegraph gives us a bit of a competitive edge there, with the kind of high-level questions, and onboarding, and kind of rubber-ducking use case... And then for completions - I think Copilot is great, but for completions we're essentially doing the same thing. So the completions that Cody generates, it takes into account that same context when it's completing code. So that means it's better able to kind of mimic or emulate the patterns and best practices in your specific codebase. And again, because we're kind of open source and model-agnostic, we are just integrating all the best language models as they come online. So I think Anthropic -- I don't know when this episode's going out, but Anthropic --
 
 **Adam Stacoviak:** Pretty quick. The 24th.
 
@@ -256,9 +256,9 @@ So we think chat is just the starting point. It's really just like this rich rep
 
 **Jerod Santo:** Yeah. Cool stuff, man. So... Moving fast... What comes next? When are you gonna drop Cody 2? It's probably like a week from now, right?
 
-**Beyang Liu:** Yeah, that's a great question. I mean, we are just kind of firing on all cylinders here. We have a lot of interesting directions to explore. One direction or one dimension that we're expanding in is just integrating more pieces of context. So one of the reasons why we wanted to open-source Cody is because we just want to be able to integrate context from wherever it is, and not be limited by a single code host, or a single platform. There's so much institutional knowledge that's in many different systems. It might be in Slack, it might be in GitHub issues, it might be in your code review tool. It might be in your production logs. And so we want to build integrations into Cody that just pull in all this context, and I think the best way to do that is to make this kind of platform, this orchestrator of sorts open source and accessible to everyone.
+**Beyang Liu:** Yeah, that's a great question. I mean, we are just kind of firing on all cylinders here. We have a lot of interesting directions to explore. One direction or one dimension that we're expanding in is just integrating more pieces of context. So one of the reasons why we wanted to open source Cody is because we just want to be able to integrate context from wherever it is, and not be limited by a single code host, or a single platform. There's so much institutional knowledge that's in many different systems. It might be in Slack, it might be in GitHub issues, it might be in your code review tool. It might be in your production logs. And so we want to build integrations into Cody that just pull in all this context, and I think the best way to do that is to make this kind of platform, this orchestrator of sorts open source and accessible to everyone.
 
-**Jerod Santo:** \[00:32:22.15\] Yeah.
+**Jerod Santo:** \[32:22\] Yeah.
 
 **Beyang Liu:** The other dimension that is very exciting to us is going deeper into the model layer. So we've already started to do this for the embeddings-based code retrieval, but I think we're exploring some models that are related to code generation, and potentially even the chat-based completions at some point. And that's gonna be interesting, because it's going to allow us to incorporate pieces of Sourcegraph into the actual training process, and there's been some research there that shows that incorporating search engines into training language models actually yields very nice properties, in terms of lower latency, but higher quality... And it's also important to a lot of our customers, because a lot of them are large corporations, they deploy on premises, and even the zero retention policy, where the code is forgotten as soon as it's sent back over is not good enough for some of our customers. So they want to completely be able to self-host this, and we plan to serve them as well.
 
@@ -280,7 +280,7 @@ So I was still obviously in the hot seat there, I was still calling the shots, b
 
 **Jerod Santo:** Do you think this is a step change in what we can do, and then we're gonna plateau right here for a while, and refine, and do more stuff, but kind of stay at this level of quote-unquote intelligence? Or do you think just the sky's the limit from here on out? I mean, obviously, just conjecture at this point...
 
-**Adam Stacoviak:** \[00:36:26.22\] Challenging to predict.
+**Adam Stacoviak:** \[36:26\] Challenging to predict.
 
 **Beyang Liu:** I mean, it's very challenging to predict. I might be eating my words in the next six months...But on the spectrum of, you know, "It's just like glorified autocomplete, and it doesn't really know anything", all the way to AGI doomer, "Let's nuke the GPU data centers."
 
@@ -306,7 +306,7 @@ So there'll be a huge spectrum. I think we'll almost think of it in terms of the
 
 **Beyang Liu:** Totally. And that's a fantastic thing. There's that Steve Jobs quote where he said "Computers are amazing because they're like a bicycle for the human mind, and they allow a much more --" I think he was drawing comparisons to how different animals get around. A human walking is very inefficient, but a human on a bicycle is more efficient than the fastest cheetah, or whatever... I think what language models are capable of doing is instead of a bicycle, now we each have a race car, or a rocket ship. We're still in the driver's seat, we're still steering and telling it where to go, but it's just, it's way more leverage for any given individual. So a great thing if you love being creative, you love dreaming up new ideas and ways to solve problems.
 
-**Adam Stacoviak:** \[00:40:23.24\] One more question on the business side of things... How has growth been because of Cody?
+**Adam Stacoviak:** \[40:23\] One more question on the business side of things... How has growth been because of Cody?
 
 **Beyang Liu:** That's a great question. Cody is I -- you almost would not believe it if I described it to you, but Cody is literally the most magical thing to happen to the Sourcegraph go to market or sales motion, since basically when we started the company...
 
@@ -338,7 +338,7 @@ So there'll be a huge spectrum. I think we'll almost think of it in terms of the
 
 **Jerod Santo:** "Forget code search, I don't even read code. Like, why are you reading code, let alone searching it?"
 
-**Beyang Liu:** \[00:44:02.04\] Yeah. This is still very early days, so it's very difficult to predict... But the way I think about it - I think about it in terms of there are different types of computers that can exist in the world. A traditional PC, that's one type of computer. You could maybe say the human brain is another type of computer. And then these language models, I think they're a new type of computer, and they do some things a lot better than the PC type of computer did, and then some things much worse. Like, they're far less precise... I think I saw a tweet the other day where someone repeatedly asked GPT-4 whether four was greater than one. And then at some point GPT-4 got unsure of itself and said, "Oh, no, actually, I was mistaken. One is greater than four."
+**Beyang Liu:** \[44:02\] Yeah. This is still very early days, so it's very difficult to predict... But the way I think about it - I think about it in terms of there are different types of computers that can exist in the world. A traditional PC, that's one type of computer. You could maybe say the human brain is another type of computer. And then these language models, I think they're a new type of computer, and they do some things a lot better than the PC type of computer did, and then some things much worse. Like, they're far less precise... I think I saw a tweet the other day where someone repeatedly asked GPT-4 whether four was greater than one. And then at some point GPT-4 got unsure of itself and said, "Oh, no, actually, I was mistaken. One is greater than four."
 
 **Adam Stacoviak:** "My gosh, I apologize..."
 
@@ -362,7 +362,7 @@ So there'll be a huge spectrum. I think we'll almost think of it in terms of the
 
 **Jerod Santo:** I'm excited for you.
 
-**Break**: \[00:45:51.00\]
+**Break**: \[45:51\]
 
 **Adam Stacoviak:** So now we're fine-tuned here...
 
@@ -434,7 +434,7 @@ So there'll be a huge spectrum. I think we'll almost think of it in terms of the
 
 **Denny Lee:** Exactly. So I had this one time where actually a buddy of mine, Thomas Kaiser, he and I went ahead and did a presentation where -- so he's from Denmark, I'm from Seattle; we're both in -- I don't know where... Some other city, to do the presentation.
 
-**Adam Stacoviak:** \[00:52:00.24\] Somewhere in the world...
+**Adam Stacoviak:** \[52:00\] Somewhere in the world...
 
 **Denny Lee:** Somewhere in the world. So we actually got together, but we realized we actually hadn't done squat on the slides until 30 minutes before the actual session. And guess what - 30 minutes before, put together the slides, bam, we're good to go.
 
@@ -464,7 +464,7 @@ So there'll be a huge spectrum. I think we'll almost think of it in terms of the
 
 **Jerod Santo:** In the days of your...
 
-**Denny Lee:** Yeah, in the days of your four weeks ago. Alright. So one of the things -- and I want to give credit where credit's due. \[00:52:51.12\] is the guy who actually figured it out. Now, we were using a much older particular model, and we were going like "Would this work?" And what it boiled down to is that there was a supposition that could you take an older model, fine-tune it with good data, and still actually end up getting good results? ...with the key point being that, "Hey, we're only going to pay $30 to actually train the data", as opposed to the tens of millions of dollars that you'd have to do. And could you do it? So that was the supposition for Dolly 1.0. And sure enough, we were right. Basically, it was about $30 worth of training time, on what is not considered public data. So that's why it's Dolly 1.0.
+**Denny Lee:** Yeah, in the days of your four weeks ago. Alright. So one of the things -- and I want to give credit where credit's due. \[52:51\] is the guy who actually figured it out. Now, we were using a much older particular model, and we were going like "Would this work?" And what it boiled down to is that there was a supposition that could you take an older model, fine-tune it with good data, and still actually end up getting good results? ...with the key point being that, "Hey, we're only going to pay $30 to actually train the data", as opposed to the tens of millions of dollars that you'd have to do. And could you do it? So that was the supposition for Dolly 1.0. And sure enough, we were right. Basically, it was about $30 worth of training time, on what is not considered public data. So that's why it's Dolly 1.0.
 
 **Jerod Santo:** Okay.
 
@@ -522,7 +522,7 @@ So there'll be a huge spectrum. I think we'll almost think of it in terms of the
 
 **Adam Stacoviak:** Which is fine. That's amazing right there.
 
-**Jerod Santo:** \[00:56:10.12\] Yeah. Let me first just say, as a daily user of ChatGPT, sometimes verbose is not desirable...
+**Jerod Santo:** \[56:10\] Yeah. Let me first just say, as a daily user of ChatGPT, sometimes verbose is not desirable...
 
 **Denny Lee:** Exactly.
 
@@ -830,7 +830,7 @@ In terms of computing resources, it's actually -- like, training these really la
 
 **Stella Biderman:** Yeah. So right now, the largest open source -- well, okay, the second-largest open source English language model in the world is called GPT-NeoX. We trained that. I trained that. My organization. And that cost us about $350,000, or would have, if we weren't given the compute for free. But $350,000 for the second-largest open source language model in the world... At the time we released, it was the largest. Later, someone else trained a bigger model, with sponsorship from the Russian government.
 
-So GPT-3 came out in 2020, and for about two years almost nobody was training and open-sourcing language models. Google was doing it with similar models, but not the same kinds of models that GPT-3 was, and we were doing it. It was really not that expensive. We got into it on compute that we got for free through a Google Research Computing program called the TensorFlow Research Cloud. And with that, we trained a 6-billion-parameter language model, the one that underpins the first version of Dolly, that \[unintelligible 01:20:48.05\] was talking about. That's been extremely widely used, deployed in a whole bunch of different industry and research contexts, and been hugely successful... And it was literally just like compute Google gave us for free. It ran preemptively on their Research Cloud -- basically, the idea of TRC is that they have a research cluster that they don't always use all of. And so other researchers, independent researchers, academics, nonprofits can apply to be able to run preemptable jobs on their research cluster, and just use the compute that they're not using at the time. And using that, we trained this model in two and a half months.
+So GPT-3 came out in 2020, and for about two years almost nobody was training and open sourcing language models. Google was doing it with similar models, but not the same kinds of models that GPT-3 was, and we were doing it. It was really not that expensive. We got into it on compute that we got for free through a Google Research Computing program called the TensorFlow Research Cloud. And with that, we trained a 6-billion-parameter language model, the one that underpins the first version of Dolly, that \[unintelligible 01:20:48.05\] was talking about. That's been extremely widely used, deployed in a whole bunch of different industry and research contexts, and been hugely successful... And it was literally just like compute Google gave us for free. It ran preemptively on their Research Cloud -- basically, the idea of TRC is that they have a research cluster that they don't always use all of. And so other researchers, independent researchers, academics, nonprofits can apply to be able to run preemptable jobs on their research cluster, and just use the compute that they're not using at the time. And using that, we trained this model in two and a half months.
 
 **Adam Stacoviak:** Wow.
 
@@ -844,7 +844,7 @@ The reason we decided to start training these large language models was back in 
 
 So we started building an open source infrastructure for training large language models. We created a dataset called the Pile, which is now kind of the de facto standard for training large language models. We created an evaluation suite for consistently evaluating language models, because everyone runs their evaluations a little differently, and there's huge reproducibility issues... So we built a framework that we could release open source, and run on our own models, run on other people's models, and actually have kind of meaningful apples-to-apples comparisons... And we started training large language models. So we trained a 2.7-billion-parameter model, which is a little bit bigger than GPT-2 was at the time... And then we started training larger models; 6 billion parameters was the largest open source GPT-3-style language model in the world. 20 billion parameters was the largest language model of any sort to be released open source in the world.
 
-Since then, there's been a lot more investment and willingness to train and release models. There's several companies that are now doing it. Mosaic is a company that released a nine, I want to say -- something; a large language model, that seems really excellent, last week. There is Meta, which has been training and releasing sort of models... They'll tell you that they're open-source-releasing models, but that's just not actually correct. They're under non-commercial licenses, and they're not open source, despite their rethoric to the contrary. But there's a whole bunch of companies. Stability AI is training large language models... So now there's a lot more people in this space, and doing it and releasing it. And honestly, from my point of view, we got into training large language mostly because we wanted to \[unintelligible 01:25:20.13\] We wanted to enable people to do essential research on interpretability, ethics, alignment, understanding how these models work, why these models work, and what they're doing, so that we can design better models, and so that we can know what appropriate and inappropriate deployment contexts for them are.
+Since then, there's been a lot more investment and willingness to train and release models. There's several companies that are now doing it. Mosaic is a company that released a nine, I want to say -- something; a large language model, that seems really excellent, last week. There is Meta, which has been training and releasing sort of models... They'll tell you that they're open source-releasing models, but that's just not actually correct. They're under non-commercial licenses, and they're not open source, despite their rethoric to the contrary. But there's a whole bunch of companies. Stability AI is training large language models... So now there's a lot more people in this space, and doing it and releasing it. And honestly, from my point of view, we got into training large language mostly because we wanted to \[unintelligible 01:25:20.13\] We wanted to enable people to do essential research on interpretability, ethics, alignment, understanding how these models work, why these models work, and what they're doing, so that we can design better models, and so that we can know what appropriate and inappropriate deployment contexts for them are.
 
 So now that there's a lot more people working in kind of this open source training space, we're moving more towards doing that kind of scientific research that we've always wanted to do. So in the past six months we've been doing a lot of work in interpreting language models, and kind of understanding why they behave the way they do. My personal kind of area of focus is tracing the behavior of language models back to their actual training data. So the models that Dolly 2.0 is trained on, the Pythia suite - what kind of makes that special is that most language model suites are very ad-hoc constructed.
 
