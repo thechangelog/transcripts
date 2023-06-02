@@ -126,7 +126,7 @@ So let's say you're creating like a button, and you might have like a primary bu
 
 **Nick Nisi:** Correct, yes.
 
-**Jerod Santo:** Right. And allowing you to group them based on some other semantic word that you choose, such as secondary. And secondary can represent these 10,000 Tailwind classes, and primary can represent these other ones. And all you have to do is say primary or secondary, and it gets the right class list, and then you can also have this merging/munging thing, where it seems like there's a tree there \[unintelligible 00:11:31.13\] the data structure itself. And you can kind of have melding of the class lists in order to get the right thing out with another name kind of a thing.
+**Jerod Santo:** Right. And allowing you to group them based on some other semantic word that you choose, such as secondary. And secondary can represent these 10,000 Tailwind classes, and primary can represent these other ones. And all you have to do is say primary or secondary, and it gets the right class list, and then you can also have this merging/munging thing, where it seems like there's a tree there I'm just looking at the data structure itself. And you can kind of have melding of the class lists in order to get the right thing out with another name kind of a thing.
 
 **Nick Nisi:** Yeah, it has this ability to make compounds of that. So you can say when it's a primary of size large, also apply these.
 
@@ -176,7 +176,7 @@ So I think what I'm understanding here is it's kind of taking you that step of -
 
 **Nick Nisi:** It is. But in this case, it's really --
 
-**Jerod Santo:** \[unintelligible 00:19:21.03\] That's what you'll think until you get over there. Okay, the library is called Class Variance Authority. You can call it CVA. That's what the function name is. It's a lot easier to say. @cva.styke, so check it out. It can help you, especially if you're using Tailwind; as Kball says, it'll help fix some of those pain points that Tailwind has introduced. It's like fertilizer for that grass over there. Put some nitrogen into the grass, make it actually greener on the other side of the fence.
+**Jerod Santo:** It actually is over there? That's what you'll think until you get over there. Okay, the library is called Class Variance Authority. You can call it CVA. That's what the function name is. It's a lot easier to say. @cva.styke, so check it out. It can help you, especially if you're using Tailwind; as Kball says, it'll help fix some of those pain points that Tailwind has introduced. It's like fertilizer for that grass over there. Put some nitrogen into the grass, make it actually greener on the other side of the fence.
 
 **Break**: \[19:53\]
 
@@ -310,7 +310,7 @@ And the vision, as I want to make it a little smarter, so it can pull in my cale
 
 **Jerod Santo:** Okay then, so you must have identified which parts are fun then... Like, actually typing into a keyboard?
 
-**Nick Nisi:** Maybe not even that. Configuring my editor is \[unintelligible 00:36:23.28\]
+**Nick Nisi:** Maybe not even that. Configuring my editor is like, \[unintelligible 00:36:23.28\]
 
 **Jerod Santo:** That's where you and I diverge...
 
@@ -332,7 +332,7 @@ And the vision, as I want to make it a little smarter, so it can pull in my cale
 
 **Kevin Ball:** Everything fitting together. If I can get that from the docs and using it, and I don't have to dive into the source code, like that's fine.
 
-**Jerod Santo:** Sure. Fair enough. But \[unintelligible 00:39:07.10\] to just tweak our editor configs like Nick does.
+**Jerod Santo:** Sure. Fair enough. But neither one of you like to just tweak our editor configs like Nick does.
 
 **Kevin Ball:** No, no. It actually pains me every time I have to go and tinker with my editor config. That's why I just pull down from Nick, and the things that aren't working right, I'm kind of like 'Dang it... Alright. Well, dang it... Alright." And I just like kind of let it sit there, because it's more painful to go in and try to figure out what the heck is going on with the editor config.
 
@@ -344,7 +344,7 @@ And the vision, as I want to make it a little smarter, so it can pull in my cale
 
 **Kevin Ball:** I'm probably struggling with the same things you're struggling with, because I am literally using your config.
 
-**Jerod Santo:** Kball, open up an issue on his repo. Come on. Be like "Why does this not work right?" That'll actually probably shamed Nick into working on it. \[unintelligible 00:39:51.02\]
+**Jerod Santo:** Kball, open up an issue on his repo. Come on. Be like "Why does this not work right?" That'll actually probably shamed Nick into working on it. I know him well enough that...
 
 **Nick Nisi:** It will. It will.
 
@@ -370,7 +370,7 @@ And the vision, as I want to make it a little smarter, so it can pull in my cale
 
 **Jerod Santo:** Oooh... That might be too insider Kball... Baseball, I mean. I do like that, "Don't drop the Kball." Like, what's a Kball? The guy who made it. They're like "Oh, why do I care who made it...?"
 
-**Kevin Ball:** Yeah, \[unintelligible 00:40:53.01\]
+**Kevin Ball:** Yeah, no I'm not getting it Nick
 
 **Nick Nisi:** It's like "Don't drop the ball", but "Don't drop the Kball."
 
@@ -408,7 +408,7 @@ So for me, this is something I always do; it's like save a step, right? So I loo
 
 **Kevin Ball:** Don't they already have browser compat on MDN?
 
-**Jerod Santo:** It's on there, but it's always a click away. This is like "Bam! \[unintelligible 00:45:29.11\]
+**Jerod Santo:** It's on there, but it's always a click away. This is like "Bam! Big ol' label"
 
 **Kevin Ball:** Why is it a click away? I think it's in page.
 
@@ -434,13 +434,13 @@ So for me, this is something I always do; it's like save a step, right? So I loo
 
 **Kevin Ball:** So that's cool. I like it.
 
-**Jerod Santo:** Yeah. So I do see it at the top of the \[unintelligible 00:47:03.22\] as well. So it looks like it has rolled out to at least some of the pages.
+**Jerod Santo:** Yeah. So I do see it at the top of the grid now as well. So it looks like it has rolled out to at least some of the pages.
 
 **Nick Nisi:** I mean, I guess it's a new classification, right?
 
 **Jerod Santo:** Yep.
 
-**Nick Nisi:** ...that these are all there. But the data was always there, it seems like. Because you could just go look at the compatibility tables... And they even had examples of like if you look up \[unintelligible 00:47:20.09\] on MDN, it has a big Deprecated banner on that one. It's kind of giving you the same information.
+**Nick Nisi:** ...that these are all there. But the data was always there, it seems like. Because you could just go look at the compatibility tables... And they even had examples of like if you look up Width on MDN, it has a big Deprecated banner on that one. It's kind of giving you the same information.
 
 **Jerod Santo:** Yeah. Fair enough. Well, the compatibility table does -- now I'm looking at the one... It's why I say you always had to click away, is because it just shows the most recent for every browser, right? It shows like what's currently recent. So this is different information... So you had to click through and see -- like, if you had some reds, you have to click through and see and do the whole comparison yourself. That's why I usually do the CanIuse, because it gives you the full grid. Whereas this - they're dedicated to having it always be up to date for the most recent two versions of those; so as the browsers roll, those baseline labels will be accurate. I don't know, it seems like a sweet feature; I was excited about it.
 
@@ -474,7 +474,7 @@ So for me, this is something I always do; it's like save a step, right? So I loo
 
 **Kevin Ball:** Excited! \[laughter\]
 
-**Nick Nisi:** I was excited about this when I used it 10 years ago, and it was called put selector, by \[unintelligible 00:49:51.29\]
+**Nick Nisi:** I was excited about this when I used it 10 years ago, and it was called put-selector, by kriszyp
 
 **Jerod Santo:** Ah, sick burn. Sick burn. Apologies to the Bun team, the Mozilla Developer Network Team, and the Van.js team for --
 
@@ -482,7 +482,7 @@ So for me, this is something I always do; it's like save a step, right? So I loo
 
 **Nick Nisi:** I agree. And this is cool in that it's using a syntax that is familiar, and it's not augmenting the language, like JSX does. And it's not adding in these esoteric, weird things that are really hard to understand with template literals. It's just straight function calls and nested further function calls, which is really cool, because it's so straightforward.
 
-**Jerod Santo:** Yeah. You want a paragraph, you've got a function called p; you want a list item, you have a function called li. And you can nest those suckers, call some sort of deal on them, and bam. \[unintelligible 00:52:06.14\] Cool idea. 1.2 kilobytes, I'll remind you, and TypeScript support. Look at me over here, selling TypeScript as a potential feature.
+**Jerod Santo:** Yeah. You want a paragraph, you've got a function called p; you want a list item, you have a function called li. And you can nest those suckers, call some sort of deal on them, and bam. \[unintelligible 00:52:06.14\] hello. Cool idea. 1.2 kilobytes, I'll remind you, and TypeScript support. Look at me over here, selling TypeScript as a potential feature.
 
 **Nick Nisi:** That's like table stakes at this point.
 
@@ -522,7 +522,7 @@ So for me, this is something I always do; it's like save a step, right? So I loo
 
 **Kevin Ball:** Well, so one thing that Svelte is doing is that they are mucking around with the compile step themselves, and doing other interesting parsing things, and other stuff... And it may be that it's easier to do the kinds of additional magic they want to do, and integrate it cleanly with TypeScript, if the type information is in comments rather than having to deal with the syntactic piece. So I don't know either, I have not seen the rationalization here, but let's --
 
-**Jerod Santo:** \[54:07\] Let me pull in a quote from Rich Harris. Here's the \[unintelligible 00:54:06.02\] entire stance. "My position is types are a fantastic. TypeScript is a bit of a pain. As soon as you use a .ts file, then you have to have the tooling to support that. There's all these points of friction when you use a non-standard language like TypeScript that I have come to believe makes it not worth it. So instead, we have put all our types in JSDoc annotations, and we get all the type safety, but none of the drawbacks, because it is JavaScript. Everything's in comments, you can just run the code. This is what we do in the Svelte codebase, and has worked out fantastically for Svelte 4. We're going to do the same for Svelte, because it's going to enable us to move much more quickly."
+**Jerod Santo:** \[54:07\] Let me pull in a quote from Rich Harris. Here's the pull quote, probably not his entire stance. "My position is types are a fantastic. TypeScript is a bit of a pain. As soon as you use a .ts file, then you have to have the tooling to support that. There's all these points of friction when you use a non-standard language like TypeScript that I have come to believe makes it not worth it. So instead, we have put all our types in JSDoc annotations, and we get all the type safety, but none of the drawbacks, because it is JavaScript. Everything's in comments, you can just run the code. This is what we do in the Svelte codebase, and has worked out fantastically for Svelte 4. We're going to do the same for Svelte, because it's going to enable us to move much more quickly."
 
 So actually, Nick, that doesn't seem to address your particular stance. He just doesn't like it. He'd rather write the JSDoc comments.
 
