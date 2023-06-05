@@ -24,7 +24,7 @@
 
 **Jerod Santo:** Yeah, not a weekly movie discussion, but just like every once in a while, so...
 
-**Adam Stacoviak:** Well, I mean, we wanna get \[unintelligible 00:01:06.20\] on, and that's going to be on & Friends, you know? So internally, we've been calling this & Friends, because it's like too hard to stay, and too long to say Changelog & Friends every single time. We just say & Friends.
+**Adam Stacoviak:** Well, I mean, we wanna get Film Girl on, and that's going to be on & Friends, you know? So internally, we've been calling this & Friends, because it's like too hard to stay, and too long to say Changelog & Friends every single time. We just say & Friends.
 
 **Jerod Santo:** Right. So we have that part figured out, Changelog & Friends. We just call it Friends, or & Friends. Changelog.com/friends, we've got that figured out...
 
