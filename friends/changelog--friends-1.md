@@ -89,7 +89,7 @@ So I guess some of the confidence or some of the, I guess, freedom for us to try
 
 **Jerod Santo:** In terms of the format, for sure. But so many people who liked the Changelog News - it seemed foolish to like totally just break it off into its own thing, and start a brand new feed, brand new podcast... Which was what I was thinking we should do... Was like "Hey, let's just split this out, let it live on its own", and you said "Hold on there, bucko." I'm like "Adam, quit calling me bucko."
 
-**Adam Stacoviak:** \[00:06:11.22\] Come on, bucko...
+**Adam Stacoviak:** \[06:11\] Come on, bucko...
 
 **Jerod Santo:** But I held on, and I thought about it, and I was like "Well, can we have the best of both worlds?" This is a kind of your "Why not both?" philosophy, which you've said to me like umpteen times, is like "When you have to decide, why not both?"
 
@@ -163,7 +163,7 @@ Hello, client? Yeah, it's me, Rails. How's it going? Oh, things are going great 
 
 **Jerod Santo:** That idea was "What if somebody just reads Changelog Weekly to you?" which is our weekly newsletter, which is now called Changelog News; they've been merged.
 
-**Adam Stacoviak:** \[00:10:10.10\] Yeah.
+**Adam Stacoviak:** \[10:10\] Yeah.
 
 **Jerod Santo:** It was Changed Weekly. And the idea was, "What if you just had an audio edition, just read it?" Someone just reads it. Which, that's a thing now. Some people will just read up a newsletter as a podcast companion. Not super-compelling. But then we thought, "But if it's Jason Seifer, who's enigmatic and charismatic, automatic...", really funny guy, really fun to listen to... What if we had him just reading Changelog Weekly, and adding his own little flavors here and there? And that was probably like 5-10 years ago; I don't know what that was. Forever ago.
 
@@ -205,7 +205,7 @@ Hello, client? Yeah, it's me, Rails. How's it going? Oh, things are going great 
 
 **Adam Stacoviak:** Really?
 
-**Jerod Santo:** \[00:13:59.18\] Yeah, he was not happy about it. I like them. But I've also been like "Let's make sure they're super on point." Or let's not overwhelm. Let's make sure they're dressing, or like garland, and not the main show. It's like when you get a new programming tool, or technique, and you're like "Oh, I learned about dependency injection. I'm going to inject my dependencies every time", you know?
+**Jerod Santo:** \[13:59\] Yeah, he was not happy about it. I like them. But I've also been like "Let's make sure they're super on point." Or let's not overwhelm. Let's make sure they're dressing, or like garland, and not the main show. It's like when you get a new programming tool, or technique, and you're like "Oh, I learned about dependency injection. I'm going to inject my dependencies every time", you know?
 
 **Adam Stacoviak:** Yeah.
 
@@ -238,7 +238,7 @@ Hello, client? Yeah, it's me, Rails. How's it going? Oh, things are going great 
 
 **Jerod Santo:** Yeah, that's the other thing, which - News has been really nice for that, because for those who just listen to the Changelog and don't really know how we do it, a lot of times our interviews are delayed. I mean, they're always delayed some. A lot of times they're delayed a while; I mean, we can get a backlog. And of course, your intro and your outro can be fresh, because you're going to record those pretty much the day of shipping, or maybe the day before we ship... And so you can put something fresh in there. But the content itself has been recorded - at this point the minimum is about nine days. Sometimes we'll turn one around fast, just because it has to be turnaround fast, to line up with a launch, or something... But generally, we record on Wednesdays, and we ship the following - has been Friday, and now we're scooting it up to Wednesday. So it's seven days minimum.
 
-\[00:18:23.09\] In the case of OS summit, we recorded 12, 13 things, and that was last week. We were in Vancouver last week, as we recorded this -- today, we're recording this one out of schedule, May 17th. So it'll be a little delayed. But generally speaking, the nice thing about Friends, the way we're designing it is it's going to record and ship the same week. Like Tuesday to Friday. And that allows us to be more a part of the conversation when the conversation's happening, and not after the fact. And News has been nice for that, because every Monday morning we get to talk to our audience, we get to talk to our listeners, and ship it out that same exact day. And so if there's breaking news, or if there's something that we want to say to people, or ask people for feedback and stuff, it's just really nice to have that quick feedback loop, like "Hey, I can ask our listeners a question on Monday", and they start sending us emails that afternoon, or whatever, or tweeting at us, or tooting at us, or...
+\[18:23\] In the case of OS summit, we recorded 12, 13 things, and that was last week. We were in Vancouver last week, as we recorded this -- today, we're recording this one out of schedule, May 17th. So it'll be a little delayed. But generally speaking, the nice thing about Friends, the way we're designing it is it's going to record and ship the same week. Like Tuesday to Friday. And that allows us to be more a part of the conversation when the conversation's happening, and not after the fact. And News has been nice for that, because every Monday morning we get to talk to our audience, we get to talk to our listeners, and ship it out that same exact day. And so if there's breaking news, or if there's something that we want to say to people, or ask people for feedback and stuff, it's just really nice to have that quick feedback loop, like "Hey, I can ask our listeners a question on Monday", and they start sending us emails that afternoon, or whatever, or tweeting at us, or tooting at us, or...
 
 **Adam Stacoviak:** Yeah.
 
@@ -295,7 +295,7 @@ Hello, client? Yeah, it's me, Rails. How's it going? Oh, things are going great 
 
 **Jerod Santo:** We were gonna rename it and split it out entirely.
 
-**Adam Stacoviak:** \[00:21:57.14\] Yeah. We had artwork in motion, we had things in motion. We were trying to buy domains, and stuff...
+**Adam Stacoviak:** \[21:57\] Yeah. We had artwork in motion, we had things in motion. We were trying to buy domains, and stuff...
 
 **Jerod Santo:** We bought a domain.
 
@@ -375,7 +375,7 @@ Hello, client? Yeah, it's me, Rails. How's it going? Oh, things are going great 
 
 So that's the rough economics I wanted to share... Because it might be a bit until we have that sponsor, but we do have Changelog News sponsored. And it's important for us to have that listener-first approach. I mean, every conversation I'm in, "Hey, we're listener-first." "What does that mean?" Well, if our listeners don't like it, or won't like it, then we're not going to do it. That's what that means.
 
-**Jerod Santo:** \[00:26:02.17\] Right. Yeah, so I would love to have feedback on the news sponsorship from our listeners. What do y'all think about how we're going about that? It's right in there, in the mix, it's like another news story, which means it's brief... I try to keep it as similar to the other ones as possible. Of course, it's also in the newsletter as a story, very similar content... But we are experimenting, we are trying new things. We want it to be valuable for everybody. Of course, the Plus Plus people are like "What are you guys talking about? There's a new sponsorship? There's sponsors in Changelog News?" Because they've never heard one before. \[It's better!\]
+**Jerod Santo:** \[26:02\] Right. Yeah, so I would love to have feedback on the news sponsorship from our listeners. What do y'all think about how we're going about that? It's right in there, in the mix, it's like another news story, which means it's brief... I try to keep it as similar to the other ones as possible. Of course, it's also in the newsletter as a story, very similar content... But we are experimenting, we are trying new things. We want it to be valuable for everybody. Of course, the Plus Plus people are like "What are you guys talking about? There's a new sponsorship? There's sponsors in Changelog News?" Because they've never heard one before. \[It's better!\]
 
 **Adam Stacoviak:** That's right. They're like "Liars!"
 
@@ -417,7 +417,7 @@ So that's the rough economics I wanted to share... Because it might be a bit unt
 
 **Jerod Santo:** Absolutely. Debates... It's gonna be good. So let us know what you think. Obviously, you don't know what you think yet, because you haven't heard the show yet... But here's the idea. Changelog & Friends talk show - it's part of the Changelog feed. So this is like a flavor of the Changelog podcast; on Monday you get your news, Wednesday you get your interview, Friday you get your talk... It also will exist, just like News does now, as its own separate podcast, called Changelog & Friends. And so if you just want talk shows from us, have at it.
 
-\[00:30:07.08\] Also, if you hate all this new stuff we've been trying out, and you really like our interviews still, there is a separate feed called Changelog Interviews, which is just our Wednesday interview show. And so if you hate all these new-fangled episode formats we're doing, but you just want to keep the OG interview show in your podcast app, we'll meet you there as well. I think that feed exists, but hasn't been submitted to the indexes yet, so...
+\[30:07\] Also, if you hate all this new stuff we've been trying out, and you really like our interviews still, there is a separate feed called Changelog Interviews, which is just our Wednesday interview show. And so if you hate all these new-fangled episode formats we're doing, but you just want to keep the OG interview show in your podcast app, we'll meet you there as well. I think that feed exists, but hasn't been submitted to the indexes yet, so...
 
 **Adam Stacoviak:** Yeah, it's possible...
 **Jerod Santo:** It's not quite out there, but it'll get out there.
@@ -496,7 +496,7 @@ So that's the rough economics I wanted to share... Because it might be a bit unt
 
 **Adam Stacoviak:** Just skip it... We can't do that. You can't do that. I'll probably spend Saturday, Sunday and Monday, shipping it on Monday.
 
-**Jerod Santo:** \[00:34:14.02\] It's a lot.
+**Jerod Santo:** \[34:14\] It's a lot.
 
 **Adam Stacoviak:** I'm kind of kidding. Yeah, it's a lot.
 
@@ -520,7 +520,7 @@ So that's the rough economics I wanted to share... Because it might be a bit unt
 
 **Adam Stacoviak:** What are you looking forward to most from this, Jerod? Number one thing.
 
-**Jerod Santo:** \[00:38:07.23\] Experimenting... And I just like the idea of having fun with it. I'm going to be mastering this show once we get it up and running, and so just like adding cool extras. \[It's all about put-put-putting on a show\] Pullin' in cool stuff, making it fun to listen to. That's what I'm looking forward to most. What about you?
+**Jerod Santo:** \[38:07\] Experimenting... And I just like the idea of having fun with it. I'm going to be mastering this show once we get it up and running, and so just like adding cool extras. \[It's all about put-put-putting on a show\] Pullin' in cool stuff, making it fun to listen to. That's what I'm looking forward to most. What about you?
 
 **Adam Stacoviak:** I think getting to convene with our friends more often. I think the last time we did the "Git with your friends" episode with Mat Ryer -- you talk to him more often than I do, because you work with the Go Time team more often than I do... Yeah. And I think it had been at least a couple of years since I'd seen him or talked to him.
 
