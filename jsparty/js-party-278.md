@@ -56,13 +56,13 @@ But then I also take advantage of the rprompt, which is the ability to put somet
 
 **Kevin Ball:** Alright. So okay, we're moving up, so now you're in Shell. What different -- you mentioned you install RipGrep... And what other shell commands are core for your configuration?
 
-**Nick Nisi:** Yeah, RipGrep is core, I think, because that's the way that I search for things. And I use that in and out of Vim, and it's just a really nice enhancement to grep, that's very similar to \[unintelligible 00:10:50.03\] or the Silver Surfer... I can't remember what it was called. But anyway, it's very similar to those, where it's like a better grep, that adds in the ability to do specific filtering. I can say, "I want to RipGrep inside of all of the TypeScript files for this string", or whatever. And then I can give it like a path to only this subset of files, or whatever.
+**Nick Nisi:** Yeah, RipGrep is core, I think, because that's the way that I search for things. And I use that in and out of Vim, and it's just a really nice enhancement to grep, that's very similar to ack or the Silver Surfer... I can't remember what it was called. But anyway, it's very similar to those, where it's like a better grep, that adds in the ability to do specific filtering. I can say, "I want to RipGrep inside of all of the TypeScript files for this string", or whatever. And then I can give it like a path to only this subset of files, or whatever.
 
 But you can also do like a -T flag, and I can say, "I want to do all lowercase t tsfiles, and then -T for spec", and that means look for all TypeScript files, but specifically ignore all that end in .spec.tsx. So I don't want to look in tests, I just want to look in source files, and then find this. And I can do a lot of that. And that spec part is not like a standard thing that you can search for, but luckily, RipGrep has a config file that you can create where you can create your own file types in there. So I can say spec equals any file that ends in .spec.ts, .spec.js, .spec.tsx etc. and I can really hone in on what I want to specifically be able to filter on, which is really nice.
 
 Another tool that I use, it's called fzs, or -- it's basically a fuzzy finder. And I don't use it directly, I guess. I have it installed and configured with my shell, so that when I'm typing something, like a command, and I hit Ctrl+T, I can fuzzy-find from there. So if I need to find like from the current directory that I'm in a specific file to give the file path to that, to some command, I can just hit Ctrl+T and it will let me fuzzy-find recursively down the directory structure from where I'm currently at, to find that path... Which is really nice and easy to be able to fill in those paths. And then at the same time, I can hit Ctrl+R to -- I'm doing the math in my head, because I have it mapped to Caps Lock...
 
-**Kevin Ball:** Oh, yeah, yeah, yeah... I also find -- like, my fingers have interpreted things and my brain doesn't even know what it is anymore. So there'll be things where I'm like "What is that? Okay, I've got to actually do it." And then "Oh, that's the key combination \[unintelligible 00:13:06.13\]
+**Kevin Ball:** Oh, yeah, yeah, yeah... I also find -- like, my fingers have interpreted things and my brain doesn't even know what it is anymore. So there'll be things where I'm like "What is that? Okay, I've got to actually do it." And then "Oh, that's the key combination my fingers have learned."
 
 **Nick Nisi:** Yeah. But that is an important thing. The first thing I do on any computer is map Caps Lock to Control, and I just do that through the MacOS settings. But anyway, I'm hitting that, and if I hit Ctrl+R, then that lets me use fzf to fuzzy-find within my terminal history. And so I can go back and find a specific command that I ran... That's super-helpful when I'm running like Docker commands, or other ones, where I just -- it's a long string of stuff and I don't remember exactly, so I'll just fuzzy-find for it and get it.
 
@@ -122,7 +122,7 @@ Another tool that I use, it's called fzs, or -- it's basically a fuzzy finder. A
 
 **Nick Nisi:** It is.
 
-**Kevin Ball:** ...because like, I already had -- my fingers were already pre-programmed with Ctrl+A for other things from Terminal days... So I've remapped it to Ctrl+G \[unintelligible 00:20:39.13\]
+**Kevin Ball:** ...because like, I already had -- my fingers were already pre-programmed with Ctrl+A for other things from Terminal days... So I've remapped it to Ctrl+G that, but--
 
 **Nick Nisi:** Ah, nice. By default, it's Ctrl+B. So that's just a little farther away, especially when you're only using three fingers... So yeah, it's -- Ctrl+A is the prefix that Screen uses, which is another competitor to tmux. And I like that prefix better, so I use the Screen prefix.
 
@@ -188,7 +188,7 @@ Another cool thing about tmux - and this is like one of the best parts. So I gue
 
 **Kevin Ball:** Yeah. Well, I think that's what makes this interesting because as we've been talking about a lot of these - like your zsh setup, your tmux setup; we're probably about to get into your Vim setup... Like, these are general-purpose tools that you can configure to suit you.
 
-So let's talk about vim. Or Neovim. The potential elephant here... You know, the editor \[unintelligible 00:30:26.25\]
+So let's talk about vim. Or Neovim. The potential elephant here... You know, the editor \[unintelligible 00:30:26.25\] whatever.
 
 **Nick Nisi:** Yeah.
 
