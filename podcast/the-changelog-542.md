@@ -44,7 +44,7 @@
 
 **Adam Stacoviak:** It has to begin with the desire. What is GitHub optimizing for when it comes to sponsors? What does GitHub want with Sponsors in general? What are the possibilities?
 
-**Stormy Peters:** \[00:06:11.08\] Our ultimate goal is to make open source software successful. So that means providing ways for maintainers to have time and energy to invest in open source software. But part of that solution is helping companies understand what dependencies they have, and making sure that software is secure and reliable. So companies, some of them know they have dependencies in open source software. They really want to help make sure it's reliable. They need someone to help them if it goes down. And they understand money is part of that solution. So how do we help them provide that, how do we help maintainer say, "Here I am, here's how I can help you"?
+**Stormy Peters:** \[06:11\] Our ultimate goal is to make open source software successful. So that means providing ways for maintainers to have time and energy to invest in open source software. But part of that solution is helping companies understand what dependencies they have, and making sure that software is secure and reliable. So companies, some of them know they have dependencies in open source software. They really want to help make sure it's reliable. They need someone to help them if it goes down. And they understand money is part of that solution. So how do we help them provide that, how do we help maintainer say, "Here I am, here's how I can help you"?
 
 **Jerod Santo:** Right. That sounds like a challenge. So you said it is now available to companies...
 
@@ -92,7 +92,7 @@
 
 **Stormy Peters:** We don't know.
 
-**Adam Stacoviak:** \[00:09:52.25\] The best indicator that has been the FOSS Contributor Fund, to some degree... And we just talked to Chad Witacre - the show's out there - as part of this episode we did with Maintainer Month, and whatnot... And essentially, he did some back-of-the-napkin math, and it was like 2k per engineer to the software that they depend on, essentially. So if they have 50 engineers - this is a round number - 2k. You do the math.
+**Adam Stacoviak:** \[09:52\] The best indicator that has been the FOSS Contributor Fund, to some degree... And we just talked to Chad Witacre - the show's out there - as part of this episode we did with Maintainer Month, and whatnot... And essentially, he did some back-of-the-napkin math, and it was like 2k per engineer to the software that they depend on, essentially. So if they have 50 engineers - this is a round number - 2k. You do the math.
 
 **Stormy Peters:** Yeah, but you can look at it in a number of ways. You could look at how many engineers does your company have, how much soft money do you make off the software you build on it? How many different software projects do you use? You could offer up a whole bunch of formulas, and I think we probably just need to pick one and suggest something.
 
@@ -146,7 +146,7 @@ I talked to someone last night at dinner, and he's like "I have a job, but they'
 
 **Jerod Santo:** Okay.
 
-**Adam Stacoviak:** \[00:14:01.17\] Well, we talked about having Terms of Service, to some degree... Like, if you want to be maintainer, or you are a maintainer, or you want to bring on a contributor, a terms of service... So what you're saying is if you need to leave, or you need to step away, the social construct should be playing for successor; invite a successor, have some sort of plan. Just don't leave your station abandoned.
+**Adam Stacoviak:** \[14:01\] Well, we talked about having Terms of Service, to some degree... Like, if you want to be maintainer, or you are a maintainer, or you want to bring on a contributor, a terms of service... So what you're saying is if you need to leave, or you need to step away, the social construct should be playing for successor; invite a successor, have some sort of plan. Just don't leave your station abandoned.
 
 **Stormy Peters:** And I agree with that. That would be great, \[unintelligible 00:14:25.12\] and especially if other people are using it...
 
@@ -188,7 +188,7 @@ I talked to someone last night at dinner, and he's like "I have a job, but they'
 
 **Stormy Peters:** We also have the GitHub Fund, because it's really hard to get venture capital money when you are writing your company's code in open source. Venture capitalists like to think you have a secret sauce. And so we have the GitHub Fund that actually funds open source software projects, that are companies, startup companies.
 
-**Adam Stacoviak:** \[00:18:17.28\] Interesting.
+**Adam Stacoviak:** \[18:17\] Interesting.
 
 **Jerod Santo:** And that's GitHub proper that funds it, or they're pointing to other people's money? How does it work?
 
@@ -242,7 +242,7 @@ I talked to someone last night at dinner, and he's like "I have a job, but they'
 
 **Jerod Santo:** Well, no, it's money, but maybe you have -- so bug bounties is one idea... Of like "Well, we have issues, we have all these things... Through Sponsors maybe we could also provide funding through bug bounties." And I remember asking Devon about that, and she had her ideas on it, and then I think Jessica had her ideas... But in terms of changing the product dramatically, or like adding to it, you're looking for a new leader. Is that fair?
 
-**Stormy Peters:** \[00:22:07.03\] We're still working on the product, and we're hiring a new leader. And I would hope with things like bug bounties, that what we're doing is making it possible for you to host a bug bounty if you want to, not that you'd have to have a GitHub bug bounties to sign up for.
+**Stormy Peters:** \[22:07\] We're still working on the product, and we're hiring a new leader. And I would hope with things like bug bounties, that what we're doing is making it possible for you to host a bug bounty if you want to, not that you'd have to have a GitHub bug bounties to sign up for.
 
 **Jerod Santo:** Sure. No, I mean, the idea there is like, "Well, you could just build it right into issues." And so you open an issue and say, "Hey, I would love for this issue to be addressed. Here's $1,000."
 
@@ -302,7 +302,7 @@ I talked to someone last night at dinner, and he's like "I have a job, but they'
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** \[00:26:08.03\] There's kind of two sides to an open source project, though. There's the running of it, and the creating the software, and like managing the community, potentially finding contributors, or identifying three-time contributors who may get an opportunity to become a full-time, or core team member, or whatever it might be... And then the sort of the somewhat lesser-known business side of it, where it's not really the business side, but it's not development. It's more admin type stuff. That's what I think this dashboard should maybe have, where it's like "As an admin of this project, what's available to me to sustain this thing." Not only just that, but those things, too.
+**Adam Stacoviak:** \[26:08\] There's kind of two sides to an open source project, though. There's the running of it, and the creating the software, and like managing the community, potentially finding contributors, or identifying three-time contributors who may get an opportunity to become a full-time, or core team member, or whatever it might be... And then the sort of the somewhat lesser-known business side of it, where it's not really the business side, but it's not development. It's more admin type stuff. That's what I think this dashboard should maybe have, where it's like "As an admin of this project, what's available to me to sustain this thing." Not only just that, but those things, too.
 
 **Stormy Peters:** That, and I think we need to make sure developers and maintainers have tools to do their job well, and to get funding, whether it's through Accelerator, or GitHub Fund, or Sponsors, in a way that doesn't require them to become marketing and social media experts. I kind of feel this way about all small businesses, not just software; if you have a really awesome hairdresser, or massage therapist, should they have to become business experts as well? In our current model, they do. Same thing with writing code... Like how do we -- for the open source software developer community, how do we help them be successful businesses, in a sense, without having to go be marketing people?
 
@@ -364,7 +364,7 @@ I talked to someone last night at dinner, and he's like "I have a job, but they'
 
 **Stormy Peters:** Thank you.
 
-**Break**: \[00:30:08.27\]
+**Break**: \[30:08\]
 
 **Jerod Santo:** So we're here with Dawn Foster from VMware. How are you doing?
 
@@ -402,7 +402,7 @@ I talked to someone last night at dinner, and he's like "I have a job, but they'
 
 **Dr. Dawn Foster:** Yeah, exactly. So that's one of the beauties of open source, is that you've got all of the data, because it's all in the public. I mean, now - so I do some work within the CHAOSS project, and outside of the CHAOSS project as well, but I spent a lot of time in the GitHub API, and just pulling out data on open source projects, and looking at what's what, and just trying to get a feel for different aspects of the project.
 
-**Jerod Santo:** \[00:37:58.01\] Poking and prodding. That's so cool.
+**Jerod Santo:** \[37:58\] Poking and prodding. That's so cool.
 
 **Dr. Dawn Foster:** Poking and prodding, yes.
 
@@ -438,7 +438,7 @@ I was talking to a friend at Google, Sophia Vargas, and she does a lot of analys
 
 **Jerod Santo:** So it's a hard job then, I guess, to quantify... And so when you say you like to look at trends, you're basically measuring the health of the project relative to its past health. Why is that beneficial, I guess? Just to see where they're headed, or -- I guess, who... I don't wanna say "Who cares?", but actually... Who cares...?! No, who's the person, or the org, or the entity that says "I care about the future health of this project"? Is it foundations, is it individuals? I would come to it as an individual and think -- this is why I'd want a score, is because my question is "Do I want to get involved in this project? Do I want to use this thing? How's the health of the community?" I look at the GitHub Pulse tab, the insights... Not super-useful, but it's there. Because I'm trying to gauge "Is this a dependency that I'm willing to take on?" perhaps. So that may be one angle into caring about the community health of a project, overall health... And so I would like to see "Well--" I mean, trends would be useful, but if it's starting from a really bad place, and it's trending up, but it's still maybe not the nicest place to hang out... Long-winded question. Who are the users of your information, I guess? Who's the end user?
 
-**Dr. Dawn Foster:** \[00:42:22.19\] Yeah, so it depends. I think all of those people are end users of metrics. So part of the reason that I look at trends is because -- let's talk about from a VMware perspective, from a company perspective...
+**Dr. Dawn Foster:** \[42:22\] Yeah, so it depends. I think all of those people are end users of metrics. So part of the reason that I look at trends is because -- let's talk about from a VMware perspective, from a company perspective...
 
 **Jerod Santo:** Sure.
 
@@ -474,7 +474,7 @@ And then I think when you're new to a community, and you're trying to decide whe
 
 **Dr. Dawn Foster:** So that I think is great for community managers who really want to dig in on their individual project and want to know every little bit about it, because the dashboards have all this stuff already in them, and then you can write custom queries around it. So Augur is more powerful if you want to write like Postgres database queries, and display stuff yourself... Although they are working on the frontend, and it's looking really, really cool. So I don't want to diss the Augur frontend, because there's some awesome stuff happening. And then the other one has like a more robust dashboard, but it's confusing for a lot of people; they don't know how to write those queries, because they're not relational database queries. They're different. So it just kinda depends on what you want.
 
-**Adam Stacoviak:** \[00:46:14.15\] How did you get to those four metrics? Why are those the ones that are important to your team? And where are they? Recount them for us, and then why.
+**Adam Stacoviak:** \[46:14\] How did you get to those four metrics? Why are those the ones that are important to your team? And where are they? Recount them for us, and then why.
 
 **Dr. Dawn Foster:** Yeah, sure. Yeah, so the four metrics are response time, for -- I picked pull requests; response time for pull requests. And so our guideline internally is that if someone submits a pull request, we should have a human respond to it within two business days. So I exclude the bots, and then I look at how many business days it took us to respond. And then I chart that over time.
 
@@ -502,7 +502,7 @@ So I picked those because I thought it was a representative sample of things tha
 
 **Adam Stacoviak:** Yeah. How well is this idea used by other projects? This seems to be like a very good idea... How many people are using CHAOSS and Augur to kind of dig in like you have, to showcase its health?
 
-**Dr. Dawn Foster:** \[00:50:03.19\] So lots of companies, actually... So I think lots of the big companies that have open source program offices have at one time or another used some of the CHAOSS tools. Yeah, I hate to name names, because I can't remember which ones I can talk about and which ones I can't...
+**Dr. Dawn Foster:** \[50:03\] So lots of companies, actually... So I think lots of the big companies that have open source program offices have at one time or another used some of the CHAOSS tools. Yeah, I hate to name names, because I can't remember which ones I can talk about and which ones I can't...
 
 **Adam Stacoviak:** You don't have to name names...
 
@@ -536,7 +536,7 @@ And then we have other projects that are at risk simply because they're very lar
 
 **Adam Stacoviak:** And what do you say? Do you say "We have a core team member slot opening up, because we recognized we have a lack, and we have more space for another team member"? And do you suggest to these adopters, "Hey, we have a slot opening up. Submit a request to fill it", or "Do you have anybody available?" How do you ask specifically? How do you engage specifically?
 
-**Dr. Dawn Foster:** \[00:54:22.15\] Yeah, so I don't really look at it as like a spot opening up. If you have an open source project, you're always looking for contributors, so you're always looking for more people to get involved. And ideally, your governance documentation will give you some guidelines for how you recruit new contributors. So a lot of projects have governance so that the existing maintainers recruit the new maintainers, so they get to decide who gets to come in and maintain the project. So it depends a lot on your governance model, it depends on your project, it depends on what kind of contributions you're looking for.
+**Dr. Dawn Foster:** \[54:22\] Yeah, so I don't really look at it as like a spot opening up. If you have an open source project, you're always looking for contributors, so you're always looking for more people to get involved. And ideally, your governance documentation will give you some guidelines for how you recruit new contributors. So a lot of projects have governance so that the existing maintainers recruit the new maintainers, so they get to decide who gets to come in and maintain the project. So it depends a lot on your governance model, it depends on your project, it depends on what kind of contributions you're looking for.
 
 **Adam Stacoviak:** Are those governance documents different per project, or is it sort of VMware at large, government documents, or governance documents, that's how it works?
 
@@ -556,7 +556,7 @@ And then we have other projects that are at risk simply because they're very lar
 
 **Dr. Dawn Foster:** Yeah, thanks for having me.
 
-**Break:** \[00:56:09.09\]
+**Break:** \[56:09\]
 
 **Adam Stacoviak:** Drupal is still a big deal, right? Is Drupal still a big deal?
 
@@ -798,7 +798,7 @@ And then we have other projects that are at risk simply because they're very lar
 
 **Jerod Santo:** Exactly.
 
-**Angie Byron:** Yeah, so I don't know. I can see all angles on it, but I do think that it's a clever way to make your open-source-enough project, open source-ish product sustainable. Because the financials speak for itself.
+**Angie Byron:** Yeah, so I don't know. I can see all angles on it, but I do think that it's a clever way to make your open source-enough project, open source-ish product sustainable. Because the financials speak for itself.
 
 **Jerod Santo:** Yeah. So you think that OSI needs to either expand the definition to include some of these, or one of these, or come up with some other license or model that is inside of its own definition, but allows for maintainers to thrive under this one circumstance that's really kind of crushing certain maintainers.
 
