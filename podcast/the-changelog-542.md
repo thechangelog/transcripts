@@ -372,7 +372,7 @@ I talked to someone last night at dinner, and he's like "I have a job, but they'
 
 **Jerod Santo:** What do you enjoy about conferences like these? What's your favorite part?
 
-**Dr. Dawn Foster:** Oh my God, it's the people. So you get to run into people that you've known for years, you get to meet new people, and you get to reconnect with people, you get to have interesting conversations... And when we were all virtual, through, the pandemic and lockdowns and things, it just wasn't the same... Because you don't get those serendipitous conversations. \[unintelligible 00:35:06.27\] is not gonna drag me across the room to do this podcast in a virtual environment, right?
+**Dr. Dawn Foster:** Oh my God, it's the people. So you get to run into people that you've known for years, you get to meet new people, and you get to reconnect with people, you get to have interesting conversations... And when we were all virtual, through, the pandemic and lockdowns and things, it just wasn't the same... Because you don't get those serendipitous conversations. You know, \[unintelligible 00:35:06.27\] is not gonna drag me across the room to do this podcast in a virtual environment, right?
 
 **Adam Stacoviak:** Well, maybe not drag... But did she drag you?
 
@@ -704,13 +704,13 @@ And then we have other projects that are at risk simply because they're very lar
 
 **Jerod Santo:** How did that opportunity present itself?
 
-**Angie Byron:** Well, the MongoDB opportunity presented itself because I know a guy named \[unintelligible 01:07:58.06\] who is big in the community leadership space.
+**Angie Byron:** Well, the MongoDB opportunity presented itself because I know a guy named John O'Bacon who is big in the community leadership space.
 
-**Adam Stacoviak:** \[unintelligible 01:08:02.22\]
+**Adam Stacoviak:** John O!
 
 **Angie Byron:** Yeah, he's great.
 
-**Adam Stacoviak:** We know \[unintelligible 01:08:03.29\]
+**Adam Stacoviak:** We know John O
 
 **Angie Byron:** Yeah. And we've kept in touch, and I kind of subtly was like "Hey, I'm not actively looking, but if you know of anything, just pass it along my way." And yeah, he passed it along, and I was like "Wow, this is really cool." And so I got to kind of meet the different leadership at MongoDB, and I was like "These people are awesome. They really believe in this, and the story is amazing, and there's a lot of good I can do here." And I feel like I did do a lot of good there. But it gets into a lot of -- I don't know how much you get into legal... You know, philosophy debates around licensing, and stuff. But MongoDB is not open source. It is SSPL.
 
@@ -760,7 +760,7 @@ And then we have other projects that are at risk simply because they're very lar
 
 **Jerod Santo:** ...which part of the community you're talking about, yeah.
 
-**Adam Stacoviak:** Yeah, but I guess what I mean by that is that it's not like "Oh, you chose that, so therefore you're bad, because you decided to go a route that funded your business, or made your business sustainable." I think the sustainable side more so than the funding side is the part that you have to have empathy on, because particularly Sentry would not be a company and be as profitable as it is if it was not BSL-licensed. It was originally, I believe, Apache \[unintelligible 01:10:56.04\] - I could be wrong... If it was not BSL-licensed, it would not have the funding model it has, nor be giving back to open source. So there's all these positives to that. And they're also very open source-centric, and very giving in a lot of cases out there in the community... There's a lot of good that's done, so...
+**Adam Stacoviak:** Yeah, but I guess what I mean by that is that it's not like "Oh, you chose that, so therefore you're bad, because you decided to go a route that funded your business, or made your business sustainable." I think the sustainable side more so than the funding side is the part that you have to have empathy on, because particularly Sentry would not be a company and be as profitable as it is if it was not BSL-licensed. It was originally, I believe, Apache VL2 - I could be wrong... If it was not BSL-licensed, it would not have the funding model it has, nor be giving back to open source. So there's all these positives to that. And they're also very open source-centric, and very giving in a lot of cases out there in the community... There's a lot of good that's done, so...
 
 **Angie Byron:** Definitely.
 
@@ -768,7 +768,7 @@ And then we have other projects that are at risk simply because they're very lar
 
 **Adam Stacoviak:** But they're not calling themselves open source, necessarily.
 
-**Jerod Santo:** No, they're not. That's where it gets icky. It's like, if you're BSL, okay. Shout it proud. If you're open source, officially, shout it proud. But don't play the game in the middle, because now we're getting \[unintelligible 01:11:33.26\]
+**Jerod Santo:** No, they're not. That's where it gets icky. It's like, if you're BSL, okay. Shout it proud. If you're open source, officially, shout it proud. But don't play the game in the middle, because now we're getting to where it's like, "Eh"
 
 **Angie Byron:** Don't conflate them.
 
@@ -880,7 +880,7 @@ So in the same way we have different variations of Creative Commons, for example
 
 **Angie Byron:** Yeah. I mean, with the caveat I've only been there like weeks, so who knows. But yeah, the OSPO people are amazing, and it reminds me a lot of the work that we did at Acquia around Drupal. It wasn't called an OSPO, but it was very much like "What's the best thing for this project?" That's the thing we have to focus on, whether or not it's good for the business as a whole, because those are separate. Hopefully there's a Venn diagram, but they can be separate and competing concerns.
 
-**Adam Stacoviak:** Yeah. Every OSPO has a level of maturity. What do you think yours is at? Without calling it immature, what level are they \[unintelligible 01:19:49.22\]
+**Adam Stacoviak:** Yeah. Every OSPO has a level of maturity. What do you think yours is at? Without calling it immature, what level are they \[unintelligible 01:19:49.22\] you don't know? Ok.
 
 **Angie Byron:** I don't know if I'm qualified to say that... But I mean, they're in the to-do group, they're a member of the Open SSF, so I feel like they're doing the right things, they're contributing in the right ways.
 
@@ -954,7 +954,7 @@ And then we're talking also about term limits, which means once you've done let'
 
 **Adam Stacoviak:** This is Jerod's MO. Please...
 
-**Angie Byron:** \[unintelligible 01:25:44.01\]
+**Angie Byron:** Tell me the different ways, tell me you're wrong
 
 **Adam Stacoviak:** Come on, Jerod. Let's go. I cannot wait to hear this.
 
@@ -978,7 +978,7 @@ And then we're talking also about term limits, which means once you've done let'
 
 **Adam Stacoviak:** Yeah, you could... The stick might break, eventually.
 
-**Angie Byron:** \[unintelligible 01:26:35.19\] some duct tape and some safety pins...
+**Angie Byron:** Just MacGyver something with some duct tape and some safety pins...
 
 **Adam Stacoviak:** We'll have to actually get Seth to talk us through this, because --
 
@@ -990,7 +990,7 @@ And then we're talking also about term limits, which means once you've done let'
 
 **Adam Stacoviak:** No, he says to be a linchpin.
 
-**Jerod Santo:** Okay. That part I get. But the cog \[unintelligible 01:26:47.20\]
+**Jerod Santo:** Okay. That part I get. But the cog, where does the cog come in?
 
 **Adam Stacoviak:** I said that cog. This is me, I made this up. Like, I love that book, I love the idea of that book, but I don't want to be so focused on my importance that I have to be this linchpin with all this pressure on me.
 
