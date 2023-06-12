@@ -104,7 +104,7 @@ It's this idea of continuously improving. If you just keep focusing on that, and
 
 Alright, let's get into some of the major changes since our last time talking about this. The biggest one, it seems like, was the upgrade of Dagger and the switch from CUE, the configuration language for configuring our pipelines, to Go. And I think we had that last time, but now we're actually using it for more stuff. So obviously, you can tell by the way I'm talking about it that Gerhard should be talking about it, not me. So go ahead.
 
-**Gerhard Lazu:** \[10:08\] So in the last Kaizen - let me go back to the beginning. I think it was November 2021, that's when the story started; this experiment started -- it was a long, long one. And the idea was, "Why are we using YAML for all these pipelines?" And at the time we were using CircleCI; we wanted to migrate to GitHub Actions. We were just trading one YAML for another. So I came across this tool called Dagger, which was - the whole idea was you write CUE, you don't write YAML, and you can run your pipeline locally. And what that means is that you can run the same pipeline written in CUE, whether it's locally on your laptop, whether it's on GitHub Actions, CircleCI - it doesn't matter where you run it, it will always run the same way. It has a container runtime&lt; so all operations run in various containers, you have the caching, you have a lot of nice things. That was, again, November. It was 0.1. Were very courageous, but it worked well, and it was a good improvement. We talked about it plenty, we wrote about it... Where do we write \[unintelligible 00:11:05.19\] pull requests. If you go to our GitHub repo, there's the changelog.com... Even the topics that we're discussing today - there's a discussion, 452, where you can go and see all the various topics. And this is the first one, "Migrate Dagger 0.1, the Dagger Go SDK 0.5." And what that means is that there was a big shift in Dagger, from people that like CUE, to people that wanted to do more. They wanted to do Go, they want to do Python. Why should you write your pipeline in any one language? Why can't it be the language that you love? And for me, it was Go. We didn't have Elixir at the time; by the way, that's changing. We can talk about it later.
+**Gerhard Lazu:** \[10:08\] So in the last Kaizen - let me go back to the beginning. I think it was November 2021, that's when the story started; this experiment started -- it was a long, long one. And the idea was, "Why are we using YAML for all these pipelines?" And at the time we were using CircleCI; we wanted to migrate to GitHub Actions. We were just trading one YAML for another. So I came across this tool called Dagger, which was - the whole idea was you write CUE, you don't write YAML, and you can run your pipeline locally. And what that means is that you can run the same pipeline written in CUE, whether it's locally on your laptop, whether it's on GitHub Actions, CircleCI - it doesn't matter where you run it, it will always run the same way. It has a container runtime&lt; so all operations run in various containers, you have the caching, you have a lot of nice things. That was, again, November. It was 0.1. Were very courageous, but it worked well, and it was a good improvement. We talked about it plenty, we wrote about it... Where do we write on our pull requests. If you go to our GitHub repo, there's the changelog.com... Even the topics that we're discussing today - there's a discussion, 452, where you can go and see all the various topics. And this is the first one, "Migrate Dagger 0.1, the Dagger Go SDK 0.5." And what that means is that there was a big shift in Dagger, from people that like CUE, to people that wanted to do more. They wanted to do Go, they want to do Python. Why should you write your pipeline in any one language? Why can't it be the language that you love? And for me, it was Go. We didn't have Elixir at the time; by the way, that's changing. We can talk about it later.
 
 **Jerod Santo:** Oh yeah, you're getting Elixir support. By the way, you came across Dagger, but then you also went and got a job at Dagger...
 
@@ -134,7 +134,7 @@ Now, I want to show you something really cool. I'm going to share my screen \[un
 
 **Gerhard Lazu:** So what we can see here is we have three pipelines in one. And this is something that starts becoming even crazier. So we are building the runtime image, we are building the production image - which, by the way, makes use of the runtime image - and down here we are also running tests, mixed tests. But because nothing changed, everything is cached, it completes in seven seconds.
 
-So let me go into application EX very quickly, and let me do a \[unintelligible 00:15:18.04\] And I'm going to run the same pipeline again. So now what's going to happen - it will detect the code change, and now it has to resolve the dependencies, compile the app, run the tests, compile the assets. And all this, we have a very nice UI that shows us the different pipelines, how they run and how they combine. I'm really excited about this. I don't know about you. Maybe you're still like trying to process what we're seeing...
+So let me go into application EX very quickly, and let me do a Foo2, just a comment, Foo2. And I'm going to run the same pipeline again. So now what's going to happen - it will detect the code change, and now it has to resolve the dependencies, compile the app, run the tests, compile the assets. And all this, we have a very nice UI that shows us the different pipelines, how they run and how they combine. I'm really excited about this. I don't know about you. Maybe you're still like trying to process what we're seeing...
 
 **Jerod Santo:** Well, I'm still watching it stream by... And obviously, our listener here is imagining this in their mind, in their mind's eye. But it does seem very nice. I like the fact that it's going to cache everything. So let's say I just update an image in my assets folder, I don't touch any Elixir code, and I deploy that out. And with this new code, it's going to run just the mixed Phoenix digest command; it's not going to run compile, and stuff.
 
@@ -376,7 +376,7 @@ So kudos on them for rolling that out quickly... And I think this is just every 
 
 **Gerhard Lazu:** Just the wiring. I guess I could have asked ChatGPT for that...
 
-**Jerod Santo:** \[unintelligible 00:39:27.24\] It depends on when they wrote it, you know? Although the new version is getting browsing, which Bard has... So I've done a little bit of Bard versus ChatGPT, just literally copy-paste the same command. I don't know if you have tried Bard yet.
+**Jerod Santo:** Ah it's cut-off date it was, it's when they wrote it, you know? Although the new version is getting browsing, which Bard has... So I've done a little bit of Bard versus ChatGPT, just literally copy-paste the same command. I don't know if you have tried Bard yet.
 
 **Gerhard Lazu:** Nope.
 
@@ -440,7 +440,7 @@ And the new -- I mean, Open AI will be there briefly, like they have with browsi
 
 **Gerhard Lazu:** I do. Yes.
 
-**Jerod Santo:** \[unintelligible 00:43:25.14\]
+**Jerod Santo:** You're going to leave your baby.
 
 **Gerhard Lazu:** Yup. February 29th. So as long as you don't have to worry about February 29th.
 
@@ -454,7 +454,7 @@ And the new -- I mean, Open AI will be there briefly, like they have with browsi
 
 **Jerod Santo:** Alright. In the meantime, what else have we done during this time period? What else at least is worth talking about?
 
-**Gerhard Lazu:** Well, I would like to give a shout-out to Ken Cost for \[unintelligible 00:44:01.13\] That's pull request 462.
+**Gerhard Lazu:** Well, I would like to give a shout-out to Ken Kost for W3c HTML Validation Fixes, That's pull request 462.
 
 **Jerod Santo:** Oh, yes.
 
@@ -464,7 +464,7 @@ And the new -- I mean, Open AI will be there briefly, like they have with browsi
 
 **Gerhard Lazu:** Pretty much. We're just making this stuff as we go along, yeah...
 
-**Jerod Santo:** I mean, when I see the thing, I do a thing... And I have visions in my head, but I don't write those visions down... Because a lot of those versions aren't ever going to be worked on. So it's tough having contributions. I love that he found a way of contributing. It was awesome. He just went through and fixed all of our HTML \[unintelligible 00:44:39.26\] But I wish we had about our story around contributions.
+**Jerod Santo:** I mean, when I see the thing, I do a thing... And I have visions in my head, but I don't write those visions down... Because a lot of those versions aren't ever going to be worked on. So it's tough having contributions. I love that he found a way of contributing. It was awesome. He just went through and fixed all of our HTML valid, he has an easy merge. But I wish we had about our story around contributions.
 
 **Adam Stacoviak:** Something I want that he might be able to do is the ability to have Tailwind built into the app alongside our current SaaS pipeline, so we can incrementally move away from old design to something that's Tailwind-powered.
 
