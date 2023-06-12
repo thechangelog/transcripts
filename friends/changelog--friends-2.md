@@ -72,7 +72,7 @@ It's this idea of continuously improving. If you just keep focusing on that, and
 
 **Jerod Santo:** So we're obviously fans of this process, and we're putting our money where our mouth is, so to speak, because we're not just talking about our improvements, but we're committing to kaizening every so often. Our new cadence we're going to try is going to be every other month here on Changelog & Friends.
 
-\[00:06:13.06\] We were doing it once every ten episodes, like Gerhard said, which was roughly 2.5 months. Now, we've been a bit on hiatus, because we've lost our groove... We've got our groove back now. So it's been longer than a typical Kaizen time period; it doesn't necessarily mean I accomplished more than I normally do...
+\[06:13\] We were doing it once every ten episodes, like Gerhard said, which was roughly 2.5 months. Now, we've been a bit on hiatus, because we've lost our groove... We've got our groove back now. So it's been longer than a typical Kaizen time period; it doesn't necessarily mean I accomplished more than I normally do...
 
 **Gerhard Lazu:** I think we did, actually.
 
@@ -104,7 +104,7 @@ It's this idea of continuously improving. If you just keep focusing on that, and
 
 Alright, let's get into some of the major changes since our last time talking about this. The biggest one, it seems like, was the upgrade of Dagger and the switch from CUE, the configuration language for configuring our pipelines, to Go. And I think we had that last time, but now we're actually using it for more stuff. So obviously, you can tell by the way I'm talking about it that Gerhard should be talking about it, not me. So go ahead.
 
-**Gerhard Lazu:** \[00:10:08.05\] So in the last Kaizen - let me go back to the beginning. I think it was November 2021, that's when the story started; this experiment started -- it was a long, long one. And the idea was, "Why are we using YAML for all these pipelines?" And at the time we were using CircleCI; we wanted to migrate to GitHub Actions. We were just trading one YAML for another. So I came across this tool called Dagger, which was - the whole idea was you write CUE, you don't write YAML, and you can run your pipeline locally. And what that means is that you can run the same pipeline written in CUE, whether it's locally on your laptop, whether it's on GitHub Actions, CircleCI - it doesn't matter where you run it, it will always run the same way. It has a container runtime&lt; so all operations run in various containers, you have the caching, you have a lot of nice things. That was, again, November. It was 0.1. Were very courageous, but it worked well, and it was a good improvement. We talked about it plenty, we wrote about it... Where do we write \[unintelligible 00:11:05.19\] pull requests. If you go to our GitHub repo, there's the changelog.com... Even the topics that we're discussing today - there's a discussion, 452, where you can go and see all the various topics. And this is the first one, "Migrate Dagger 0.1, the Dagger Go SDK 0.5." And what that means is that there was a big shift in Dagger, from people that like CUE, to people that wanted to do more. They wanted to do Go, they want to do Python. Why should you write your pipeline in any one language? Why can't it be the language that you love? And for me, it was Go. We didn't have Elixir at the time; by the way, that's changing. We can talk about it later.
+**Gerhard Lazu:** \[10:08\] So in the last Kaizen - let me go back to the beginning. I think it was November 2021, that's when the story started; this experiment started -- it was a long, long one. And the idea was, "Why are we using YAML for all these pipelines?" And at the time we were using CircleCI; we wanted to migrate to GitHub Actions. We were just trading one YAML for another. So I came across this tool called Dagger, which was - the whole idea was you write CUE, you don't write YAML, and you can run your pipeline locally. And what that means is that you can run the same pipeline written in CUE, whether it's locally on your laptop, whether it's on GitHub Actions, CircleCI - it doesn't matter where you run it, it will always run the same way. It has a container runtime&lt; so all operations run in various containers, you have the caching, you have a lot of nice things. That was, again, November. It was 0.1. Were very courageous, but it worked well, and it was a good improvement. We talked about it plenty, we wrote about it... Where do we write \[unintelligible 00:11:05.19\] pull requests. If you go to our GitHub repo, there's the changelog.com... Even the topics that we're discussing today - there's a discussion, 452, where you can go and see all the various topics. And this is the first one, "Migrate Dagger 0.1, the Dagger Go SDK 0.5." And what that means is that there was a big shift in Dagger, from people that like CUE, to people that wanted to do more. They wanted to do Go, they want to do Python. Why should you write your pipeline in any one language? Why can't it be the language that you love? And for me, it was Go. We didn't have Elixir at the time; by the way, that's changing. We can talk about it later.
 
 **Jerod Santo:** Oh yeah, you're getting Elixir support. By the way, you came across Dagger, but then you also went and got a job at Dagger...
 
@@ -126,7 +126,7 @@ Alright, let's get into some of the major changes since our last time talking ab
 
 Now, I want to show you something really cool. I'm going to share my screen \[unintelligible 00:13:48.27\] Do you see that? This is a pull request that has not been submitted yet. And this is Dagger Engine on Fly Apps version 2. It's exactly what it says. We're experimenting with Fly Apps version 2, which is the latest implementation of Apps in Fly. We're running Dagger on it. I'm connected here, experimental dagger runner host, via WireGuard tunnel, and I'm running dagger run, the CLI, and I'm wrapping Mage CI. If your mind is blown, that's okay. I think you need to watch this video.
 
-**Jerod Santo:** \[00:14:23.17\] So you're running Mage inside Dagger, inside Fly, on their v2 platform. Or locally.
+**Jerod Santo:** \[14:23\] So you're running Mage inside Dagger, inside Fly, on their v2 platform. Or locally.
 
 **Gerhard Lazu:** I'm wrapping Mage in dagger run; dagger run is just a command; it's a CLI that connects my local command to a remote engine. It gives me this very nice view, which is my pipeline, and it's showing my Dagger pipeline that is running in this Dagger engine on Fly Apps v2, that I'm connecting to via WireGuard tunnel.
 
@@ -168,7 +168,7 @@ There is another one, 464, where we are reading the versions for all the differe
 
 **Jerod Santo:** Yeah.
 
-**Gerhard Lazu:** \[00:18:00.22\] You could use brew to install Elixir, but then which version are you installing?
+**Gerhard Lazu:** \[18:00\] You could use brew to install Elixir, but then which version are you installing?
 
 **Jerod Santo:** It doesn't do versioning very well, right? Having multiple copies or multiple versions of a binary, of a language runtime on your machine, and being able to switch between them is not easy with Homebrew. I think it's maybe possible with Homebrew, but not easy. Or maybe not possible. I'm not sure which one. But with ASDF, it's built specifically for this purpose.
 
@@ -198,7 +198,7 @@ So ASDF is fairly lightweight for what it is and what it does. And we are reusin
 
 **Jerod Santo:** It is. Okay. And what is the syntax, or what is the format of this? It looks like it's just like plain text? Do they have a spec, like "Here's how it works"? Or is it just simple enough that they don't need it?
 
-**Gerhard Lazu:** \[00:21:52.08\] It's very simple. It has like multiple lines. On each line you have the name of the dependency, space, the version of that dependency. So you have Erlang, space, 25.3.2. New line. Elixir, space, 1.14.4, and so on and so forth.
+**Gerhard Lazu:** \[21:52\] It's very simple. It has like multiple lines. On each line you have the name of the dependency, space, the version of that dependency. So you have Erlang, space, 25.3.2. New line. Elixir, space, 1.14.4, and so on and so forth.
 
 **Jerod Santo:** Too simple to even write the spec down. Just look at it, and you can see how it works.
 
@@ -230,7 +230,7 @@ Now, if you, for example, want to switch to PostgreSQL, the same version that we
 
 **Gerhard Lazu:** So currently, the version that we have specified in tools versions is the one that we have deployed in Fly. So with Fly, when you deploy Postgres, you do it via the flyctl, and it's the version that we had at the time of running this command. It is a platform, so you run it, you have a ctl, and you also have a web interface. But in our case, we had flyctl, Postgres, deploy, create the cluster, with a whole clustering setup and everything... And at the time, we had 14.1 deployed.
 
-\[00:25:59.07\] One of the things that are on my list to do is to deploy PostgreSQL again, like have another cluster, using Fly Machines, which is Apps v2, and basically pick whatever the latest 14 version is. I think it was 14.8 or 14.9 when I checked. I'm not sure one or the other. So once we do that, it will be like a data migration, and we will capture this version in our development environment via ASDF, which will automatically be picked by the pipeline, so that when we run any tests in our pipeline, in our GitHub Actions, GitHub Actions will obviously be connected to a Dagger engine, and the correct -- actually, the same PostgreSQL version will be used there as well. So we have dev, test, and production, same version. But the production is what determines the PostgreSQL version. And that happened when we deployed the cluster to begin with.
+\[25:59\] One of the things that are on my list to do is to deploy PostgreSQL again, like have another cluster, using Fly Machines, which is Apps v2, and basically pick whatever the latest 14 version is. I think it was 14.8 or 14.9 when I checked. I'm not sure one or the other. So once we do that, it will be like a data migration, and we will capture this version in our development environment via ASDF, which will automatically be picked by the pipeline, so that when we run any tests in our pipeline, in our GitHub Actions, GitHub Actions will obviously be connected to a Dagger engine, and the correct -- actually, the same PostgreSQL version will be used there as well. So we have dev, test, and production, same version. But the production is what determines the PostgreSQL version. And that happened when we deployed the cluster to begin with.
 
 **Jerod Santo:** I follow. So if I want to upgrade Elixir, it's as easy as changing the version in the tool versions file.
 
@@ -270,7 +270,7 @@ Internally, whenever you run an SDK, it automatically provisions whichever versi
 
 So the last pull request which I merged - there weren't any code changes. It just had to recompile everything, rebuild everything, just make sure everything is fine. It took, I think, about two minutes. There was just like a Markdown file change. So what I'm curious is next time that you run it, Jerod - I think it used to be six to seven minutes for the pipeline to run... I think it will be around four minutes now; maybe even three minutes.
 
-\[00:30:02.18\] The next thing is to switch - and this is the pull request which I haven't submitted yet - to the Fly Apps v2 Dagger Engine, that by the way, we can stop from within GitHub Actions. So because these are very small -- they're Firecracker-based, you can start them within 20 seconds. So you don't have to have this thing running all the time. You spin it up, the state is there, there's a local NVMe volume... And this is all basically managed by the Fly platform. Super-fast. You run your pipeline, the cache is there, the state is there, whatever needs to change changes... A few minutes late - again, in my tests, one minute and 35 seconds to deal with a code change; recompile everything, everything runs in parallel... And the deployment part - that's the one that basically just depends how long it takes for it to be deployed. You can add another few minutes. But within three to four minutes - actually even like three minutes, I think - you can get a code change into production.
+\[30:02\] The next thing is to switch - and this is the pull request which I haven't submitted yet - to the Fly Apps v2 Dagger Engine, that by the way, we can stop from within GitHub Actions. So because these are very small -- they're Firecracker-based, you can start them within 20 seconds. So you don't have to have this thing running all the time. You spin it up, the state is there, there's a local NVMe volume... And this is all basically managed by the Fly platform. Super-fast. You run your pipeline, the cache is there, the state is there, whatever needs to change changes... A few minutes late - again, in my tests, one minute and 35 seconds to deal with a code change; recompile everything, everything runs in parallel... And the deployment part - that's the one that basically just depends how long it takes for it to be deployed. You can add another few minutes. But within three to four minutes - actually even like three minutes, I think - you can get a code change into production.
 
 **Adam Stacoviak:** That's awesome.
 
@@ -316,7 +316,7 @@ To go to Fly machines with our app, we'll definitely need to solve that problem.
 
 **Jerod Santo:** Yes, I did not get around to this. Although to my credit, I stated that I probably will not get around to this during this Kaizen period... Because most of my efforts have been in and around the migration of Changelog News onto its own podcast, and the meta feed, which is our three shows, which are all distinct shows, so they can have their own feeds, their own subscriber base, etc. And then the Changelog show, which is all three of those shows in one show, and the one-time migration of stuff... We had to reimplement how we do our newsletter, and stuff... And so that was what I've been doing the last three months. And it's pretty much finished now. We do have an idea for how we can make Changelog News' web pages better, which I would love to do, because it's quite the upgrade from what it looks like right now, and it simplifies things as well... So that's kind of like what I was thinking about doing before this.
 
-\[00:34:18.13\] But we have Honeycomb tracing now from Phoenix, which we didn't have previously, thanks to you, Gerhard. So I'm now without excuse, because I can monitor the speed changes as I make these caching changes. And I have a prototype from our friend Lars Wikman, who showed me a way of doing a clusterable caching solution which doesn't completely rip out the guts of what we're currently doing, which was my previous plan... So the skids are greased. And the observability is observable. By the way, you guys have seen Honeycomb has their new Open AI integration in there? I just saw it today.
+\[34:18\] But we have Honeycomb tracing now from Phoenix, which we didn't have previously, thanks to you, Gerhard. So I'm now without excuse, because I can monitor the speed changes as I make these caching changes. And I have a prototype from our friend Lars Wikman, who showed me a way of doing a clusterable caching solution which doesn't completely rip out the guts of what we're currently doing, which was my previous plan... So the skids are greased. And the observability is observable. By the way, you guys have seen Honeycomb has their new Open AI integration in there? I just saw it today.
 
 **Adam Stacoviak:** No, I didn't see this.
 
@@ -352,7 +352,7 @@ So kudos on them for rolling that out quickly... And I think this is just every 
 
 **Adam Stacoviak:** That's terrible copy. Rewrite that.
 
-**Jerod Santo:** \[00:37:56.28\] I know. I'm not giving it credit, because I don't have the dashboard open. But it's like "Click on this button, and we will try to determine not just what this error is, but like..." It's kind of like "Let me google that for you", but on steroids. Anyways... I just liked the idea that all these developer tools are just getting these upgrades that make them more usable, at clips that are really fast, and super-useful. So anyways... Side convo.
+**Jerod Santo:** \[37:56\] I know. I'm not giving it credit, because I don't have the dashboard open. But it's like "Click on this button, and we will try to determine not just what this error is, but like..." It's kind of like "Let me google that for you", but on steroids. Anyways... I just liked the idea that all these developer tools are just getting these upgrades that make them more usable, at clips that are really fast, and super-useful. So anyways... Side convo.
 
 **Adam Stacoviak:** Yeah, I concur.
 
@@ -414,7 +414,7 @@ And the new -- I mean, Open AI will be there briefly, like they have with browsi
 
 **Gerhard Lazu:** Nope.
 
-**Jerod Santo:** \[00:42:15.24\] You're like "This point in time, my first commit to Dagger, PR number--" No, just messing with you. But I'm just like a trunk developer. I'm just right there. I just want it to go out.
+**Jerod Santo:** \[42:15\] You're like "This point in time, my first commit to Dagger, PR number--" No, just messing with you. But I'm just like a trunk developer. I'm just right there. I just want it to go out.
 
 **Gerhard Lazu:** Me too. I think this context is perfect. The Changelog - and we developed it from the beginning. Every commit to main, master will go into production. That's it.
 
@@ -486,7 +486,7 @@ And the new -- I mean, Open AI will be there briefly, like they have with browsi
 
 **Jerod Santo:** And we never have, and I don't know if we ever will; it's just a hard problem to solve without having a very clear and specified public roadmap of where we're headed with the website. But we make decisions all the time that changed where we're headed, and they could be like 30 minutes before I code them up. There probably are things that we could have out there, but we just don't... So thank you, Ken, for finding the way.
 
-**Adam Stacoviak:** \[00:46:18.15\] Even this show here - this show was named something else. No, not the show. Changelog News was named something else for a bit there. And up to like the legit 11th hour, was it renamed back to something that was more meaningful, I suppose, to the brand?
+**Adam Stacoviak:** \[46:18\] Even this show here - this show was named something else. No, not the show. Changelog News was named something else for a bit there. And up to like the legit 11th hour, was it renamed back to something that was more meaningful, I suppose, to the brand?
 
 **Jerod Santo:** Yeah. Or more aligned, at least.
 
@@ -522,7 +522,7 @@ And the new -- I mean, Open AI will be there briefly, like they have with browsi
 
 **Gerhard Lazu:** That was the one that I was showing... So we will ignore Changelog Social for now. There's a whole Changelog Social side of our infrastructure that we can ignore. We have three things today important for Changelog that are running on Apps v2. Apps v2 is the Fly.io platform that is based on Nomad scheduling. So there's a couple of limitations with that. Basically, it's the scale that Fly reached... And that basically meant that various things weren't working quite as well. There's a whole thread on Discourse where Kurt was very transparent about some of the issues they encountered with Apps v1 and what they're doing about that. So apps v2 is a complete redesign of the scheduling. The way I understand it, it's like their own proprietary scheduling, which does not use Nomad, does not use Kubernetes, does not use any of the things that you may expect... And as a result, it's a lot more robust, it's built for their scale, for what they need right now, and what it means in practice is for us, it's really, really fast to use and deploy things onto.
 
-\[00:50:14.12\] So it means that you can get very fast, VM-like containers. It's using Firecracker VM, again, my understanding, behind the scenes... And they spin up very quickly, but they have all the security that you would expect from a VM. So spin up time is seconds, really; even less, depending on what you're doing. But obviously, by the time you do health checks and a bunch of other things, it can take, in our case, some things 20 seconds, 30 seconds to come up and be healthy, and for us to be able to use them.
+\[50:14\] So it means that you can get very fast, VM-like containers. It's using Firecracker VM, again, my understanding, behind the scenes... And they spin up very quickly, but they have all the security that you would expect from a VM. So spin up time is seconds, really; even less, depending on what you're doing. But obviously, by the time you do health checks and a bunch of other things, it can take, in our case, some things 20 seconds, 30 seconds to come up and be healthy, and for us to be able to use them.
 
 These Apps v2 - they are pinned to specific machines, hosts, like physical hosts in this case. What that means for us is that we can't run just one. So right now we have a single instance of Changelog running. It's been like that for quite some time, and that's why the clustering is important, so we have more than one. But that's okay, because we have the CDN in front, and we do a bunch of things where even if the app goes down, we are still available. And Jerod did a couple of improvements, which means even the posts, for example - now they continue being available, when you do certain requests against like news items, and whatnot.
 
@@ -558,7 +558,7 @@ So even though they're faster, they're better, they're more self-contained, like
 
 So moving something like for example Dagger Engine, it's okay. Or Docker. Because if that's down, that's okay; it can fall back to whatever is local. And by the way, we do that in our pipeline. If PostgreSQL is down - well, you're already clustering that. You know, we have, again, some sort of redundancy there. In our case, we had one primary and one replica. And by the way, I think we should look into that as well, to see if we can get a proper, managed PostgreSQL service. We keep talking about that. Maybe Crunchy, maybe Supabase, try a few and see what sticks.
 
-\[00:54:12.06\] To continue, we can still run on Fly for the PostgreSQL instance, even though I think they were mentioning at some point they will want to invest in that... So we'll see where that goes. Things may have changed; again, this was on their forum.
+\[54:12\] To continue, we can still run on Fly for the PostgreSQL instance, even though I think they were mentioning at some point they will want to invest in that... So we'll see where that goes. Things may have changed; again, this was on their forum.
 
 So we can move Dagger Engine, Docker, we can move PostgreSQL to Apps v2, to machines, but the app itself, it's a bit more problematic. Not without the clustering part, because of what I explained, like the limitation with hosts. So while it's a modern platform, it's very performant - again, all the tests which are ran, you get like very nice CPUs, the AMD \[unintelligible 00:54:43.23\] they're yours, especially if you get like the performance instances... You get local NVMes, again, very fast... But if the host becomes unavailable, it won't get moved.
 
@@ -598,7 +598,7 @@ And my concept when I built this site - you know, you make certain decisions tha
 
 **Jerod Santo:** Because that was like the foundational, atomic unit of content in the CMS. Like I said, it was good for us for many years, but as we simplify and change now, where we're just publishing -- I write Changelog News in Markdown, which I love. But Changelog Weekly was generated from a list of news items that we published throughout the week. And that's a foundational change to the way that we do content.
 
-\[00:58:04.24\] This one is simpler, and I think more sustainable, and hopefully produces better content over time. But all of our infrastructure is built for that other way, and so there's stuff that we can delete, but there's also stuff that's just gonna be there, because it's like ripping out your circulatory system.
+\[58:04\] This one is simpler, and I think more sustainable, and hopefully produces better content over time. But all of our infrastructure is built for that other way, and so there's stuff that we can delete, but there's also stuff that's just gonna be there, because it's like ripping out your circulatory system.
 
 **Adam Stacoviak:** Well, when you look at, for example, changelog.com/podcast, which is where this show is at right now... The list of things there are news items.
 
