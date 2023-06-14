@@ -62,7 +62,7 @@ So Million kind of makes that block virtual DOM concept accessible to most devel
 
 **Nick Nisi:** Nice. Are there certain types of components or certain use cases where it doesn't work super-well, just maybe because there's so -- it sounds like you need to know more about it at build time, the structure of the actual component... But maybe that for one reason or another might not be set up. So would it just kind of exclude that from it, or include all of the virtual DOM, and not exclude anything? How does that work?
 
-**Aiden Bai:** Right. Initially, what we had was we only allowed stateless components. So essentially, no hooks, no local state. Because what it does - it kind of runs that function, and then you kind of get the view from that. And so essentially, you can't \[unintelligible 00:09:57.12\] because the function doesn't run. But with a compiler, we can kind of bypass that.
+**Aiden Bai:** Right. Initially, what we had was we only allowed stateless components. So essentially, no hooks, no local state. Because what it does - it kind of runs that function, and then you kind of get the view from that. And so essentially, you can't run hooks because the function doesn't run. But with a compiler, we can kind of bypass that.
 
 Essentially, what we can do is we can analyze and see those hooks and dynamic expressions, and split it into two components. One component has all the hooks and data, and then it calls that block, and one component is just for the reference during compilation.
 
@@ -194,7 +194,7 @@ Obviously, there's a lot of technical constraints, like deterministic returns, o
 
 **Nick Nisi:** Yeah, totally. Yeah, I just love that. I remember coming into React and just struggling with it initially... And I was at JSConf when they announced it, and I have a tweet that's like "Oh, this is not gonna work. This is silly." So that was super-fun... But I don't know, I guess what I'm trying to say is I love how I came into the problem, and I was trying to work within the constraints of React. And you come in and you're just like "What if we could just dig through that, and make React faster?" To most, including myself, for the longest time the virtual DOM was just this nebulous black box that I never touch, and it just does the magic. And you're just like "Well, what if we just peer into that and we see exactly what it's doing, and we just change it and make it so much better?" I just love the curiosity of that, and it's just such a highlight of why it's good to be curious about these things.
 
-**Aiden Bai:** Yeah. I don't think I'm the only one either. With things Preact Signals, where we bring literal signals to React, and direct rendering - that's also a cool model. Preact is also doing their own compatibility library in \[unintelligible 00:35:40.29\] If you look at the JS framework benchmark, it's sometimes faster than Solid, which is crazy. It uses a virtual DOM, but it's faster. And so it's really, really cool.
+**Aiden Bai:** Yeah. I don't think I'm the only one either. With things Preact Signals, where we bring literal signals to React, and direct rendering - that's also a cool model. Preact is also doing their own compatibility library Inferno.js is -- If you look at the JS framework benchmark, it's sometimes faster than Solid, which is crazy. It uses a virtual DOM, but it's faster. And so it's really, really cool.
 
 \[35:54\] I think I'm also reflecting -- if you know Ryan Carniato, the creator of Solid.js - his sentiments are... The Solid community has been such an inspiration for us, not only because their technology is super-cool, but also kind of their curiosity; their curiosity to explore very experimental things like signals, and over here we are exploring things like block virtual DOM. And I think Million is one in many of these new things. People are excited about new rendering solutions, and people are tired of dealing with slow React applications. And so it's really, really cool to see a lot of innovation around RFC, around signals, around off-screen rendering, about concurrent rendering, about block virtual DOM... There's so much cool stuff happening, and I'm really, really excited for the future.
 
@@ -204,7 +204,7 @@ Obviously, there's a lot of technical constraints, like deterministic returns, o
 
 **Nick Nisi:** These projects all start out with just finding some fundamental question, or constant, and saying "That doesn't have to be a constant. Let's change it and figure out some different way." So yeah, that's awesome.
 
-**Tobiloba Adedeji:** I mean, one thing I'm looking forward to is having more developers \[unintelligible 00:38:18.25\] work with Million and want to test it out. That might actually help us discover more things we could explore with Million, and maybe add us features, or something. Because it's not that \[unintelligible 00:38:35.00\] It would be nice.
+**Tobiloba Adedeji:** I mean, one thing I'm looking forward to is having more developers \[unintelligible 00:38:18.25\] work with Million and want to test it out. That might actually help us discover more things we could explore with Million, and maybe add us features, or something. Because it's not that young as well it's pretty old \[unintelligible 00:38:35.00\] It would be nice.
 
 **Nick Nisi:** Yeah. So that is one call-out that we can ask of the audience, is to go check it out at -- it's Million.dev, right?
 
@@ -222,7 +222,7 @@ Obviously, there's a lot of technical constraints, like deterministic returns, o
 
 **Aiden Bai:** Yeah, I'm on Twitter at @aidanybai, or just look up Aiden Bai on Google. You'll find me.
 
-**Tobiloba Adedeji:** Yeah, so you can check me out \[unintelligible 00:40:25.18\] and on Twitter. But I'd actually like for you to join - for new developers, or whoever, if you want to help out, join the Discord. You can do documentation work, and do code contributions... And as always -- this is open source anyway, so there's always room for people to join. So that's \[unintelligible 00:40:45.04\]
+**Tobiloba Adedeji:** Yeah, so you can check me out \[unintelligible 00:40:25.18\] and on Twitter. But I'd actually like for you to join - for new developers, or whoever, if you want to help out, join the Discord. You can do documentation work, and do code contributions... And as always -- this is open source anyway, so there's always room for people to join. So that's all from my end, \[unintelligible 00:40:45.04\]
 
 **Nick Nisi:** Awesome. Well, Aiden, Toby, I want to thank you both so much for joining me today, and telling us about Million. Like I said, it's a really cool project. I love the curiosity that obviously went into it, and the solutions that you have coming out of it, and it's definitely something that I'm gonna be playing around with, and adding some blocks to see what mischief I can get into. So thank you both so much for coming on, and we'll catch you next time.
 
