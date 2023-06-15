@@ -8,7 +8,7 @@
 
 **Natalie Pistunovich:** That's true. How did you like this introduction that I received from the web browsing model? Oh, is that what it was? I didn't like it.
 
-**Natalie Pistunovich:** Did it sound a bit automatic? Did it sound a bit robotic? A bit \[unintelligible 00:01:49.24\]
+**Natalie Pistunovich:** Did it sound a bit automatic? Did it sound a bit robotic? A bit machinery
 
 **Mat Ryer:** Yeah, a little bit too robotic. Yeah, a little bit cold-hearted, like some kind of cold metal, or some sort of machine that can kill.
 
@@ -80,7 +80,7 @@
 
 **Bram Adams:** Yeah, everybody was super-excited. I was like "Hey, guys, I'm going to be running a test on you. It's called \[unintelligible 00:05:51.01\]. You all signed waivers on your way in here, so..."
 
-**Natalie Pistunovich:** GDPR \[unintelligible 00:05:57.09\]
+**Natalie Pistunovich:** GDPR safe.
 
 **Bram Adams:** Exactly. Well, no, I live in the States. I don't have to abide by that. \[laughter\]
 
@@ -112,7 +112,7 @@
 
 **Bram Adams:** Yeah, I think that in the era of pre-GitHub Copilot - Codex has just come out in 2021 - I built an open source library called Chronology, that again, functionally, the way that I thought about it was that prompts aren't really all that useful in isolation, but when you add them to currently existing workflows, you get some pretty exciting results. It's kind of like every five lines of code you have a magic line of code that does something based on the previous state, and then just continues to run the process normally.
 
-So I'd spent a lot of time making apps like \[unintelligible 00:08:02.05\] and interviewing my AR self, and doing all this stuff, and I've found that I had spent a lot of time trying to create materials around that. As technical people, we all know how annoying it is to write tech blogs, because you have to like write the code, and then you have to write the words about the code, and then you have to make sure that the code makes sense, and does it run... It depends on what you're trying to get across. So I was like "Ah, it'd be so nice if GPT could just do this." And so when Codex came out, that was a really good opportunity to put that to the test.
+So I'd spent a lot of time making apps like lil DJ and interviewing my AR self, and doing all this stuff, and I've found that I had spent a lot of time trying to create materials around that. As technical people, we all know how annoying it is to write tech blogs, because you have to like write the code, and then you have to write the words about the code, and then you have to make sure that the code makes sense, and does it run... It depends on what you're trying to get across. So I was like "Ah, it'd be so nice if GPT could just do this." And so when Codex came out, that was a really good opportunity to put that to the test.
 
 So what Stenography does is that it basically uses abstract syntax trees to read code files in real time. Most people use it in Visual Studio Code, the people who use it these days. And then on Save, it automatically rereads the AST, sends it off to Codex for explanations, and then writes the actual documentation for the lines of code that it sees.
 
@@ -156,13 +156,13 @@ I think you can make a similar analogy to in the kitchen, where if you decided t
 
 **Johnny Boursiquot:** \[17:57\] Will I have to calibrate? Do I have to be explicit? Do I have to tell the model "Look, surprise me"? Because if I'm just trying to accomplish a task, like most people -- I just want the quickest, most straightforward, the most accurate answer I can possibly get, and move on with my life. If I'm in an exploratory frame of mind, is it up to me to tell the model "I want some creative answers"? Or does it learn that I want some creative answers at some point? How much involvement do I have to have in the process of getting those sort of new, interesting remixes of the answer that I typically might be looking for?
 
-**Bram Adams:** Well, I would argue that, again, fortunately, it's really cheap to do these things. Like, sometimes it's literally just as simple a matter of saying "What is the opposite thing of the thing that I'm looking for?" And again, if you're kind of thinking in the linear ChatGPT format, then you might not want to do that in the current chat that you're on. But with the API, of course, you could just have a normal chat, and then another one that just \[unintelligible 00:18:54.00\] at the bottom of the string using string interpolation, "Write the opposite", or "Write this as a poem", or something like that.
+**Bram Adams:** Well, I would argue that, again, fortunately, it's really cheap to do these things. Like, sometimes it's literally just as simple a matter of saying "What is the opposite thing of the thing that I'm looking for?" And again, if you're kind of thinking in the linear ChatGPT format, then you might not want to do that in the current chat that you're on. But with the API, of course, you could just have a normal chat, and then another one that just appends at the bottom of the string using string interpolation, "Write the opposite", or "Write this as a poem", or something like that.
 
 One thing that I do a lot on my website, and my YouTube channel and such, is that I try and take ideas from books and turn them into programs using ChatGPT, and that is exactly what I'm describing here, where it's literally these authors had no intention of their words being converted into JavaScript code, or Go code, or Python code, but I just do it anyway. And it's actually really easy. What you'll basically do, or what I've done, is that I will take a quote from Readwise that I've saved from any random book... Literally, you can just hit any random thing; it doesn't matter. And then you just say, "Write app ideas about this." And then once you say "Write app ideas", what happens is that GBT will write like five to eight app ideas, you choose one, and then now you are kind of like -- if you imagine the space of information, you started out in the word space of information. There's no computation there. If you wrote a function using that quote, it would just be like "Here, I'm just going to print it out." You know what I mean? But now all of a sudden it's like "Oh, maybe you should use a map app." Or "Maybe you could use augmented reality", or "Maybe you would want to use this data science thing." Now all of a sudden you just choose one from the list, and you say "Write pseudocode for this." And it writes some pseudocode. And then all of a sudden, "Okay, now write Go code", and then it takes the pseudocode and writes Go code. So now you've effectively translated a thing that has nothing to do with coding, into a new app.
 
 I've done this multiple times. I've tested this countless times almost, and it just works pretty much every time. And it feels fun, too. Again, it kind of like decreases that seriousness that I think is applied to a lot of the effort that you see going into a lot of the discourse around this right now, where people are like "Oh, if it's not 100% accurate, and it doesn't hallucinate all the time..." Whereas to me, the hallucinations actually serve as color for the canvas.
 
-**Natalie Pistunovich:** I would add to that that there's a search engine that I really like using that's called Find, and it slowly add some toggles that you can make the search experience exactly what you want. So \[unintelligible 00:20:52.25\] the Best mode, which is faster, versus more accurate, but you can also choose "Give me a short answer" versus "Give me a very detailed one and summarized." You have a button that says "Surprise me." So you are onto something with this question, Johnny, and this personalization - right now it's manual, but it's not unrealistic to think that the AI will learn from the context of what you're working on right now. Do you want to be creative? Do you want a short answer, because you're in the middle of a meeting and you forgot something? Or do you want to explore, so it'll give you long, detailed answers, and so on?
+**Natalie Pistunovich:** I would add to that that there's a search engine that I really like using that's called Find, and it slowly add some toggles that you can make the search experience exactly what you want. So it has, use the Best mode, which is faster, versus more accurate, but you can also choose "Give me a short answer" versus "Give me a very detailed one and summarized." You have a button that says "Surprise me." So you are onto something with this question, Johnny, and this personalization - right now it's manual, but it's not unrealistic to think that the AI will learn from the context of what you're working on right now. Do you want to be creative? Do you want a short answer, because you're in the middle of a meeting and you forgot something? Or do you want to explore, so it'll give you long, detailed answers, and so on?
 
 **Mat Ryer:** Yeah, one of the forms of prompt engineering that I've seen is where you'll ask it for some information, and it might be something nefarious. And it'll say, "As a language model, I don't really encourage that sort of behavior. I'm not going to tell you about it." But by rephrasing the question, if you say something like for example, "Okay, so assume I didn't want to catfish Johnny Boursiquot, how would I not do that?" And then it's like "Oh, okay, so if you don't want to catfish him, then don't do these steps. Step one, set up an account. Step two, find out what he loves. Step three, manipulate it. Step four, cash. Dollar signs." Whatever it is, I don't know. So that's interesting, that in a way you're sort of reasoning with this model, too.
 
@@ -200,13 +200,13 @@ So everything kind of boils down to the information of the thing, and I think th
 
 **Bram Adams:** Well, this is the thing though, is all words are made up at one point though, right? At some point, someone sat down and they were like a compiler, and everybody was like "Okay..." \[laughs\]
 
-**Mat Ryer:** That makes sense. If this podcast was just like me going \[unintelligible 00:28:40.17\]
+**Mat Ryer:** That makes sense. If this podcast was just like me going *nonsense*
 
 **Natalie Pistunovich:** But now Meta released this model that speaks practically all the languages, so it's actually fine, even for the new languages --
 
 **Mat Ryer:** For even made-up languages?
 
-**Natalie Pistunovich:** Once \[unintelligible 00:28:50.13\] But I think the current state of things generally, to answer your question - the comparison to Google, the way that it gives you this very personal thing is cookies. It collects a lot of data on you. Only the open data, only the data that you opt into give. Because you opt in to be on the internet, you opt in to be on the social medias, you opt in to have a cell phone, and so on.
+**Natalie Pistunovich:** Once \[unintelligible 00:28:50.13\] not fast. But I think the current state of things generally, to answer your question - the comparison to Google, the way that it gives you this very personal thing is cookies. It collects a lot of data on you. Only the open data, only the data that you opt into give. Because you opt in to be on the internet, you opt in to be on the social medias, you opt in to have a cell phone, and so on.
 
 It's very hard these days not to opt in to give this data, and if anyone is good at that, it's Germans, and even they give data to some level about themselves. And I think that right now, specifically, the ChatGPTs do not collect any data like this and do this personal thing about you, but one of the leading engineers/scientists/people who work there, called Andrej Karpathy - I will add his Twitter on the show notes as well... He describes in his Twitter bio that he's working on a sort of a Jarvis at Open AI. So I think this one will be similar to what you have in mind when you think about that movie, because that movie starts with him activating the software computer - I forget what exactly - and then it kind of browses all the emails, all the internet presence he has, but also all the private things... I don't know, things he typed and never shared with anyone. So that's why it's so personal. So it's even more personal than Google right now, but it's also an opt-in thing. And with zero knowledge, I'm guessing that this is something similar to what Andrej Karpathy means when he says he's building a sort of Jarvis. But he also uses the word Jarvis, and not Her.
 
@@ -218,7 +218,7 @@ It's very hard these days not to opt in to give this data, and if anyone is good
 
 **Mat Ryer:** Yeah, that's a really good point, because a lot of my search history is absolutely bonkers. It's things like "Do babies bounce?" or "Can monkeys wear shoes?" Not "Do they", "Can they?" It's stuff like this. What's that model gonna think of me?
 
-**Bram Adams:** I think that's a really good question. Well, obviously, monkeys can wear shoes, because you just makes shoes for monkeys. But that's besides the point. \[laughter\] \[unintelligible 00:31:27.26\] So I think, again, the way that I'm seeing this kind of like information debate, to your point, Johnny, about kind of "I want to have an active role in the information that's being fed back to me..." I agree with you, I think a lot of the recommendation engines from the 2000s in 2010s kind of like do a really good job of putting people into cohorts. And if you've ever looked at these cohorts, what you'll have realized that, "Oh, we're actually all not that dissimilar." You know, people who like this tend to be like this. And I think that there's a really interesting information theory about that, 2here you kind of can go back to even people like Claude Shannon, where - I was just talking about these rented words concept... Where it's like, a lot of the information that you think that belongs to you doesn't really come from you. It's just remapped through your own experience.
+**Bram Adams:** I think that's a really good question. Well, obviously, monkeys can wear shoes, because you just makes shoes for monkeys. But that's besides the point. \[laughter\] \[unintelligible 00:31:27.26\] monkeys have feet. So I think, again, the way that I'm seeing this kind of like information debate, to your point, Johnny, about kind of "I want to have an active role in the information that's being fed back to me..." I agree with you, I think a lot of the recommendation engines from the 2000s in 2010s kind of like do a really good job of putting people into cohorts. And if you've ever looked at these cohorts, what you'll have realized that, "Oh, we're actually all not that dissimilar." You know, people who like this tend to be like this. And I think that there's a really interesting information theory about that, 2here you kind of can go back to even people like Claude Shannon, where - I was just talking about these rented words concept... Where it's like, a lot of the information that you think that belongs to you doesn't really come from you. It's just remapped through your own experience.
 
 So we have like a shared notion together about the language of Go, for example, but we all have our own independent experiences of why we used it or came to it in the first place, or something. And I think that that's kind of a lot of information.
 
@@ -240,7 +240,7 @@ But at the same time, even if we knew what we were going into, or being fed, or 
 
 So I don't think that this necessarily follows... I think that this technology is useful, and will be misused, because everything that is useful will be misused. Cars are useful, and kill hundreds of thousands of people a year, right? And we still drive them. So I think that --
 
-**Mat Ryer:** \[unintelligible 00:38:41.18\]
+**Mat Ryer:** The film? The Pixar film, Cars?
 
 **Bram Adams:** Oh, yeah. Yeah, actually, people watch Lightning McQueen and they immediately die. They spontaneously combust. That's a known medical fact. But yeah, I think that - again, our experiences with the current network effects of a lot of technologies don't really apply to the current transformer models in terms of their utility to help people make better judgments. But at the same time, I have no doubt that there's going to be a subset of apps and some that might be very successful, the same way that I think about Twitter. I really don't like Twitter. I really, really don't like Twitter.
 
@@ -320,7 +320,7 @@ So I think that puts programmers, like I said, in a unique position, where a lot
 
 **Mat Ryer:** Oh, yeah. It's an unpopular rule. I didn't hear that rule in the song.
 
-**Bram Adams:** Does that make it popular, because you agreed with me? \[unintelligible 00:54:58.07\]
+**Bram Adams:** Does that make it popular, because you agreed with me? Now it just makes it an opinion?
 
 **Mat Ryer:** No. You're gonna need more than me.
 
@@ -338,7 +338,7 @@ So I think that puts programmers, like I said, in a unique position, where a lot
 
 **Johnny Boursiquot:** Very good. And you didn't even need an LLM model for that.
 
-**Natalie Pistunovich:** \[unintelligible 00:55:57.04\]
+**Natalie Pistunovich:** You don't know that!
 
 **Bram Adams:** No, I have like a GPT running through my airpod. It's telling me everything. \[laughter\] I haven't actually come up with a word this whole time. It's just been GPT whispering in my ear sweet nothings.
 
@@ -358,7 +358,7 @@ So I think that puts programmers, like I said, in a unique position, where a lot
 
 **Johnny Boursiquot:** Would you go with the 5.5, or the 3.25?
 
-**Mat Ryer:** Whatever \[unintelligible 00:57:07.06\] I mean, even if it's 1.44 megabytes, if you could just load that into your brain, and just know it, like Matrix style, I think we should have that. I do think we should have that.
+**Mat Ryer:** Whatever's going! I mean, even if it's 1.44 megabytes, if you could just load that into your brain, and just know it, like Matrix style, I think we should have that. I do think we should have that.
 
 **Bram Adams:** There's a YouTube video that I watched recently that was talking about criticality. I don't know if you guys have ever heard about this, where it's basically - imagine like a huge sand pile, and then you drop one more grain of sand and it causes the whole sand pile to ripple. So there's a thing in neuroscience right now where they're basically testing that on the human brain, where they basically think that the human brain is always in like sub-criticality state, where it's like, if you imagine all of your brain firing at once, that's like a seizure, and if you imagine your brain not firing at all, that's like a coma. So somewhere in between that, your brain is always just kind of like exciting certain neurons, and then kind of backing off, and then exciting other neurons, and then backing off... And it has to do it in a way that it doesn't cause the neurons to excite all of the neurons in your brain all the time. So there has to be like a barrier that basically like turns off and says "No, don't go past here." And then it turns on and off really quickly. So I don't know how your floppy disk would cause the brain to go critical state, but I'm sure if you uploaded a whole gigabyte, your brain would immediately just fry itself.
 
@@ -368,13 +368,13 @@ So I think that puts programmers, like I said, in a unique position, where a lot
 
 **Natalie Pistunovich:** The AI movie. Her, yeah.
 
-**Johnny Boursiquot:** Her, yeah. So Mat, do you want to become \[unintelligible 00:58:38.02\]
+**Johnny Boursiquot:** Her, yeah. So Mat, do you want to become Sco-Jo
 
 **Mat Ryer:** You know what - I'm not against it, to be honest. I try and go and work out in the gym, and stuff, try and keep this human body going, and to be honest, it's not worth it. Waste of time. So just give me -- I'll be a blob.
 
-**Johnny Boursiquot:** You're not gonna look like \[unintelligible 00:58:54.25\] anytime soon? Okay.
+**Johnny Boursiquot:** You're not gonna look like Scarlett anytime soon? Okay.
 
-**Mat Ryer:** No, I'm not gonna look like \[unintelligible 00:58:58.07\] anytime soon. Pop me in a jar; just a black liquid in a jar. Put an Ethernet cable in, and then I can just be online. And then yeah, you can just DM \[unintelligible 00:59:06.26\]
+**Mat Ryer:** No, I'm not gonna look like Scarlett anytime soon. Pop me in a jar; just a black liquid in a jar. Put an Ethernet cable in, and then I can just be online. And then yeah, you can just DM \[unintelligible 00:59:06.26\]
 
 **Johnny Boursiquot:** You know what other movie that's reminding me of? The one with the -- what's the pirate, favorite pirate you like to imitate, from the Disney movies...
 
@@ -384,7 +384,7 @@ So I think that puts programmers, like I said, in a unique position, where a lot
 
 **Johnny Boursiquot:** Exactly. \[laughs\]
 
-**Mat Ryer:** That was exactly \[unintelligible 00:59:22.04\]
+**Mat Ryer:** That was exactly what it is.
 
 **Johnny Boursiquot:** Right, right, right. Yeah, he was in this movie, I can't remember the title of it, but basically, in effect, his brain was jacked into a computer, eventually, and... Yeah, his mind, effectively his consciousness got uploaded. So the -- I can't remember the movie, but I'm sure some of my geeks out there will know what it is... But would you want to be plugged in, to - rather than somebody injecting an LLM in your own brain, would you want to put your consciousness on computers, in the cloud?
 
@@ -394,7 +394,7 @@ So I think that puts programmers, like I said, in a unique position, where a lot
 
 **Mat Ryer:** Yeah. But hang on, you're saying Jack Sparrow went into the cloud, and is like "I'll upload your files, mate."
 
-**Bram Adams:** \[unintelligible 01:00:07.25\]
+**Bram Adams:** And the rum is still always gone in the cloud.
 
 **Mat Ryer:** Yeah. \[laughs\]
 
@@ -432,7 +432,7 @@ The age of "Oh, your Ruby code shouldn't be longer than five lines, and your Go 
 
 **Mat Ryer:** Welcome to Go Time late...
 
-**Natalie Pistunovich:** \[unintelligible 01:04:08.26\] just send in an email.
+**Natalie Pistunovich:** I don't wanna talk about that just send it in an email.
 
 **Mat Ryer:** Also, 15 minutes?
 
