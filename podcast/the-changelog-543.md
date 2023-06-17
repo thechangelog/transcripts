@@ -48,7 +48,7 @@
 
 **Jeffrey Sica:** I joined the foundation, so I don't have to hear those words... \[laughter\]
 
-\[00:07:59.09\]
+\[07:59\]
 
 *What you do within a tech is you take the specifications from the customers, and you bring them down to the software engineers.*
 
@@ -70,7 +70,7 @@
 
 **Adam Stacoviak:** Gotcha. Give us an example. How does that play out for recent, for you?
 
-**Jeffrey Sica:** Recently, when I joined and one of the things that I've been really pushing for is a lot of the processes to grant projects access to cloud resources, that are like group cloud resources under the CNCF, or we have licensed scanning services - we want to give those to the projects, and then step out of the way. "Hey, we don't want to be the bottleneck." But most of the way that we grant that access is still a manual process, even though all of these things have APIs. Well, gee, you look at what Kubernetes has done with their community management... Like, creating a user group in Slack is - memes aside; like, laugh at home... You edit a YAML file. Oh, you're joining a GitHub group or you've become like a SIG chair, you're editing a YAML file. And then once that file is committed, it's just GitOps all the way down. Your access gets granted in GitHub, your access gets granted in Slack, all of that. Why don't we do that for all of these services that the CNCF is hosting? Right now, it's still click ops. That was cool when the foundation was 10 projects or 15 projects. We're at 160.
+**Jeffrey Sica:** Recently, when I joined and one of the things that I've been really pushing for is a lot of the processes to grant projects access to cloud resources, that are like group cloud resources under the CNCF, or we have licensed scanning services - we want to give those to the projects, and then step out of the way. "Hey, we don't want to be the bottleneck." But most of the way that we grant that access is still a manual process, even though all of these things have APIs. Well, gee, you look at what Kubernetes has done with their community management... Like, creating a user group in Slack is - memes aside; like, laugh at home... You edit a YAML file. Oh, you're joining a GitHub group or you've become like a SIG chair, you're editing a YAML file. And then once that file is committed, it's just GitOps all the way down. Your access gets granted in GitHub, your access gets granted in Slack, all of that. Why don't we do that for all of these services that the CNCF is hosting? Right now, it's still ClickOps. That was cool when the foundation was 10 projects or 15 projects. We're at 160.
 
 **Adam Stacoviak:** 160 projects...?!
 
@@ -94,7 +94,7 @@
 
 **Jeffrey Sica:** This is going to be interesting, because if you ask different people in the CNCF, you might get a different answer. And there might be a canned response, and I should know it... My answer is there is - aside from the couple stable patterns, like Kubernetes and the way that it has an API, and like declarative over imperative stuff, everything's stable right now. That pattern is established. What things and what problems, when consuming that pattern, need to be solved? A good example was "Okay, so now we can create all of these containers and orchestrate them in a meaningful way, but now we have a giant distributed system. What do we do in order to monitor that thing?" Well, Prometheus came out of that.
 
-\[00:12:05.26\] So this is a long-winded way of saying we have this foundational technology, at this point we're accepting additional projects to help flesh out what cloud-native actually means. And the definition itself is evolving. We have a bunch of WebAssembly projects. Well, why is that? Because at its core, WebAssembly is - I don't want to say just another container runtime, because that would be bad. But it is another like application runtime. You build it a different way, it has a very different look and feel than a container, but still that idea still fits into the pattern of cloud-native. So that still solves a problem.
+\[12:05\] So this is a long-winded way of saying we have this foundational technology, at this point we're accepting additional projects to help flesh out what cloud-native actually means. And the definition itself is evolving. We have a bunch of WebAssembly projects. Well, why is that? Because at its core, WebAssembly is - I don't want to say just another container runtime, because that would be bad. But it is another like application runtime. You build it a different way, it has a very different look and feel than a container, but still that idea still fits into the pattern of cloud-native. So that still solves a problem.
 
 So - geez, what would I do? TL;DR, we're accepting a bunch of projects because not all of the problems or questions have been answered in what cloud-native is.
 
@@ -106,7 +106,7 @@ So - geez, what would I do? TL;DR, we're accepting a bunch of projects because n
 
 **Jeffrey Sica:** Geez... Honestly, what is next? The definition of cloud-native in a nutshell is really doing distributed computing in a repeatable way. I mean, that's my definition, in my old noggin. But that doesn't mean always use Kubernetes. Sure, right now, hey, Kubernetes is -- I mean, you look at all the stats, adoption's still up and to the right; it's a hockey stick. That doesn't necessarily mean it's gonna be the same thing, or it's going to be THE answer.
 
-So what is the end goal? We don't really have an end goal, aside from if you were doing some sort of distributed computing, like trying to solve or consume or build distributed computing, distributed platforms, how can we do it but make sure that how it's being done is in an open source way? Maybe Kubernetes goes by the wayside, and something else comes up. Maybe there is some new Web Assembly orchestration platform, and then everyone starts adopting that - we want to make sure that that's still possible.
+So what is the end goal? We don't really have an end goal, aside from if you were doing some sort of distributed computing, like trying to solve or consume or build distributed computing, distributed platforms, how can we do it but make sure that how it's being done is in an open source way? Maybe Kubernetes goes by the wayside, and something else comes up. Maybe there is some new WebAssembly orchestration platform, and then everyone starts adopting that - we want to make sure that that's still possible.
 
 Like, the reason why right now Kubernetes is like -- I don't want to say flagship, but the big thing that everyone thinks of with the CNCF is because of its popularity, not because the CNCF is saying "Everyone use Kubernetes." If something else just starts shooting up and to the right, we also want to be there to help enable them and make sure that the lessons we learned from Kubernetes just, again, hockey-sticking up, can be learned over here, so they have an even better experience than Kubernetes had. It had a lot of growing pains, so let's not have another project repeat that.
 
@@ -118,7 +118,7 @@ Like, the reason why right now Kubernetes is like -- I don't want to say flagshi
 
 **Jeffrey Sica:** Support, do all that sort of thing. So I'm coming at this as... "My opinion, man..." \[laughter\]
 
-\[00:15:57.11\] *"Yeah, well, you know, that's just your opinion, man..."*
+\[15:57\] *"Yeah, well, you know, that's just your opinion, man..."*
 
 **Jeffrey Sica:** Honestly, I tangented. I already forgot the original question. \[laughs\]
 
@@ -126,7 +126,7 @@ Like, the reason why right now Kubernetes is like -- I don't want to say flagshi
 
 **Adam Stacoviak:** I could ask it again...
 
-**Jeffrey Sica:** \[00:16:09.27\] Please. I will do The Big Lebowski references for the whole podcast, that's the problem.
+**Jeffrey Sica:** \[16:09\] Please. I will do The Big Lebowski references for the whole podcast, that's the problem.
 
 **Jerod Santo:** \[laughs\]
 
@@ -194,7 +194,7 @@ Like, the reason why right now Kubernetes is like -- I don't want to say flagshi
 
 **Jerod Santo:** Your job is to support the ones that do make it in, however they need support.
 
-**Jeffrey Sica:** \[00:19:52.23\] Yup. And honestly, projects that aren't in the CNCF, but are in the landscape - I'm still like around to support and talk to, because again, I don't think this is necessarily a bad thing to have projects outside. Also projects outside looking in could potentially spawn other projects that do want to come in.
+**Jeffrey Sica:** \[19:52\] Yup. And honestly, projects that aren't in the CNCF, but are in the landscape - I'm still like around to support and talk to, because again, I don't think this is necessarily a bad thing to have projects outside. Also projects outside looking in could potentially spawn other projects that do want to come in.
 
 **Jerod Santo:** Sure. Do you like this job?
 
@@ -206,7 +206,7 @@ Like, the reason why right now Kubernetes is like -- I don't want to say flagshi
 
 **Jerod Santo:** And your path came through contributing to Kubernetes?
 
-**Jeffrey Sica:** Yup. I actually did a little bit of contribution back in ye old days; we're talking 2014, when it was just open-sourced and had to sign a Google CLA to contribute to it... Then my path at the university kind of took me away from it after probably a year, and then I started contributing again in early 2018, and wound up becoming Sig UI Chair. So the Kubernetes dashboard that some people kind of dunk on - they were having leadership issues; they just needed someone that could kind of come in and do more PM work. And also, I had a background in frontend work, so I came in and just helped them out, wound up becoming a Sig Chair for a few years, and then I stepped down after I mentored someone up.
+**Jeffrey Sica:** Yup. I actually did a little bit of contribution back in ye old days; we're talking 2014, when it was just open sourced and had to sign a Google CLA to contribute to it... Then my path at the university kind of took me away from it after probably a year, and then I started contributing again in early 2018, and wound up becoming Sig UI Chair. So the Kubernetes dashboard that some people kind of dunk on - they were having leadership issues; they just needed someone that could kind of come in and do more PM work. And also, I had a background in frontend work, so I came in and just helped them out, wound up becoming a Sig Chair for a few years, and then I stepped down after I mentored someone up.
 
 **Jerod Santo:** Gotcha. It's a Cinderella story.
 
@@ -256,7 +256,7 @@ Like, the reason why right now Kubernetes is like -- I don't want to say flagshi
 
 **Adam Stacoviak:** Well, guess what \[unintelligible 00:24:03.18\]
 
-**Jerod Santo:** \[00:24:06.06\] ...stuff out to you. Do they still do that?
+**Jerod Santo:** \[24:06\] ...stuff out to you. Do they still do that?
 
 **Adam Stacoviak:** Sorry, I spoke too soon. They do it for some. Usually, for senior citizens, and --
 
@@ -342,7 +342,7 @@ Like, the reason why right now Kubernetes is like -- I don't want to say flagshi
 
 **Jerod Santo:** That's cool.
 
-**Jeffrey Sica:** \[00:28:12.13\] We are almost inseparable, except when I get to go to events and he doesn't. Trust me, if he was here, I would have been asking for another microphone, because we just would have done that.
+**Jeffrey Sica:** \[28:12\] We are almost inseparable, except when I get to go to events and he doesn't. Trust me, if he was here, I would have been asking for another microphone, because we just would have done that.
 
 **Jerod Santo:** We have another microphone. We would have got him on.
 
@@ -358,7 +358,7 @@ Like, the reason why right now Kubernetes is like -- I don't want to say flagshi
 
 **Jeffrey Sica:** Thank you all.
 
-**Break**: \[00:28:38.26\]
+**Break**: \[28:38\]
 
 **Adam Stacoviak:** So the Kubernetes API... That's what you work on, right?
 
@@ -484,7 +484,7 @@ Like, the reason why right now Kubernetes is like -- I don't want to say flagshi
 
 **Jerod Santo:** It's somewhat esoteric in my history, but I think having ChatGPT would make it super-easy to accomplish a lot of things.
 
-**Adam Stacoviak:** \[00:36:00.17\] It is. I mean, there's a lot you can -- I mean, you can iterate quite a lot with it, which is a side tangent from crafting a CLI with Go, but...
+**Adam Stacoviak:** \[36:00\] It is. I mean, there's a lot you can -- I mean, you can iterate quite a lot with it, which is a side tangent from crafting a CLI with Go, but...
 
 **Jerod Santo:** Yeah, but even the looping and the conditionals inside of the loops... There's weird times where you use the square brackets, you don't have to, and then there's flags, there's conditional flags inside of the loops, and stuff...
 
@@ -584,7 +584,7 @@ Like, the reason why right now Kubernetes is like -- I don't want to say flagshi
 
 **Jerod Santo:** But this one is yours...
 
-**Eddie Zaneski:** \[00:40:02.05\] Yeah, the project bundles like three of them. One didn't like preserve comments or something in your YAML... So when you're dealing with client-side YAML for users, you want to keep their comments around, and...
+**Eddie Zaneski:** \[40:02\] Yeah, the project bundles like three of them. One didn't like preserve comments or something in your YAML... So when you're dealing with client-side YAML for users, you want to keep their comments around, and...
 
 **Jerod Santo:** Well, that's one of the problems with JSON, is like no comments.
 
@@ -652,7 +652,7 @@ Like, the reason why right now Kubernetes is like -- I don't want to say flagshi
 
 **Eddie Zaneski:** Decisions that were made a while ago, right? And people come in headstrong, really wanting to help out and contribute, and it's like "Well, we tried that, and here's why it didn't work six different times." And that is the hard part, is the context and the history; how do we communicate that to new people.
 
-**Adam Stacoviak:** \[00:43:54.22\] Right. What's the process to become a contributor long-term? You put time into this person, you watch their codebase, and they gave one contribution and never came back. What is the process to have a long-term contribution plan? Is there a term of service? We hear from OSPOs like "Hey, comfort term of service." That means maybe a year, maybe it's six months, maybe it's three years... And then there's repetition in that... How do you all plan that out? Is there a form and function around that?
+**Adam Stacoviak:** \[43:54\] Right. What's the process to become a contributor long-term? You put time into this person, you watch their codebase, and they gave one contribution and never came back. What is the process to have a long-term contribution plan? Is there a term of service? We hear from OSPOs like "Hey, comfort term of service." That means maybe a year, maybe it's six months, maybe it's three years... And then there's repetition in that... How do you all plan that out? Is there a form and function around that?
 
 **Eddie Zaneski:** Do you know Mike McQuaid?
 
@@ -692,7 +692,7 @@ From scratch is an interesting one... The Kubernetes project as a whole - we are
 
 **Adam Stacoviak:** That's right. Is there something to learn from the way Linux is distributed? Like, LTS'es, and versions, and... I mean, every time I do a new Ubuntu installation, it's 18, it's 22, it's 20... And I'm cool with that. There's an LTS, there's a spectrum of risk... It's clear... Is that a possibility with the CLI? I mean, this is a crucial piece. It's like the centerpiece for Kubernetes, for the most part, right? It's the main consumer of the API.
 
-**Eddie Zaneski:** \[00:48:14.25\] It's definitely the first thing you reach for, right?
+**Eddie Zaneski:** \[48:14\] It's definitely the first thing you reach for, right?
 
 **Adam Stacoviak:** Right.
 
@@ -726,7 +726,7 @@ And then the other thing, kubectl is versioned as part of the Kubernetes project
 
 **Eddie Zaneski:** There's nothing stopping us or anyone from doing that. The reality is we are changing the tires on a bus that's moving 1,000 miles an hour down the highway, right?
 
-**Jerod Santo:** Maybe it actually turns into more like a yarn and NPM kind of situation, where it's not you guys that rewrite it, but it's somebody else that comes alongside and says, "Well, we can write our own CLI against the Kubernetes API, and here's seven ways it's better. And hey, who wants to use this?" And I don't know if you can actually just side-install that sucker and use -- maybe it's kubectl with -cuddle, or something.
+**Jerod Santo:** Maybe it actually turns into more like a yarn and npm kind of situation, where it's not you guys that rewrite it, but it's somebody else that comes alongside and says, "Well, we can write our own CLI against the Kubernetes API, and here's seven ways it's better. And hey, who wants to use this?" And I don't know if you can actually just side-install that sucker and use -- maybe it's kubectl with -cuddle, or something.
 
 **Eddie Zaneski:** That's a conference now.
 
@@ -758,9 +758,9 @@ And then the other thing, kubectl is versioned as part of the Kubernetes project
 
 **Eddie Zaneski:** Yeah, I would love one of those.
 
-**Adam Stacoviak:** What I like about this podcast though is we look at things like yarn and Npm, we look at -- we're not only in this cloud-native specific world, and sort of have tunnel vision; we sort of see outside of all of software, "What was done here to solve that problem, and what was wise about that choice that we can apply here?" That's what I love about the conversations I think we get to have, is that Jerod and I have the luxury and the privilege to speak software at large, really.
+**Adam Stacoviak:** What I like about this podcast though is we look at things like yarn and npm, we look at -- we're not only in this cloud-native specific world, and sort of have tunnel vision; we sort of see outside of all of software, "What was done here to solve that problem, and what was wise about that choice that we can apply here?" That's what I love about the conversations I think we get to have, is that Jerod and I have the luxury and the privilege to speak software at large, really.
 
-**Jerod Santo:** \[00:52:18.03\] Right. Plus we get to bike-shed things but not actually be the person that has to go paint the bike-shed...
+**Jerod Santo:** \[52:18\] Right. Plus we get to bike-shed things but not actually be the person that has to go paint the bike-shed...
 
 **Adam Stacoviak:** That's right. We can give you the idea, Eddie. We're like "Godspeed, bro."
 
@@ -836,7 +836,7 @@ And then the other thing, kubectl is versioned as part of the Kubernetes project
 
 **Adam Stacoviak:** What is your day like with issues? How many hours a day, either directly in issues, or procrastinating, do you spend on issues?
 
-**Jerod Santo:** \[00:55:57.01\] Procrastinating... \[laughs\] Wow. What a call-out.
+**Jerod Santo:** \[55:57\] Procrastinating... \[laughs\] Wow. What a call-out.
 
 **Eddie Zaneski:** Yeah. So - surprise, Kubernetes isn't my full-time job.
 
@@ -882,7 +882,7 @@ And then the other thing, kubectl is versioned as part of the Kubernetes project
 
 **Jerod Santo:** That was fun.
 
-**Break**: \[00:57:16.20\]
+**Break**: \[57:16\]
 
 **Adam Stacoviak:** Where should we begin?
 
@@ -898,7 +898,7 @@ And then the other thing, kubectl is versioned as part of the Kubernetes project
 
 **Adam Stacoviak:** Not yet. Okay. Sorry.
 
-**Yaron Schneider:** \[00:59:48.19\] It's incubating. We will graduate at some point, but we're not rushing it. We want to make sure we get the most out of the CNCF incubating stage. We are doing lots of things in the CNCF, integrating with other projects... We really want to make sure we have this core integration with all of the other CNCF projects before we graduate.
+**Yaron Schneider:** \[59:48\] It's incubating. We will graduate at some point, but we're not rushing it. We want to make sure we get the most out of the CNCF incubating stage. We are doing lots of things in the CNCF, integrating with other projects... We really want to make sure we have this core integration with all of the other CNCF projects before we graduate.
 
 **Jerod Santo:** Okay. So yesterday you said you started Dapr at Microsoft...?
 
@@ -948,7 +948,7 @@ And then you have to write state, you have to manage state at scale; you might b
 
 **Jerod Santo:** Or maybe you just left?
 
-**Yaron Schneider:** Yeah, so Dapr was open-sourced first in October 2019. It really picked up. We have a lot of end user adopters today, from IBM, to Microsoft, to Alibaba Cloud, NVIDIA... And NASA is running Dapr in outer space as we speak, by the way.
+**Yaron Schneider:** Yeah, so Dapr was open sourced first in October 2019. It really picked up. We have a lot of end user adopters today, from IBM, to Microsoft, to Alibaba Cloud, NVIDIA... And NASA is running Dapr in outer space as we speak, by the way.
 
 **Jerod Santo:** That's cool.
 
