@@ -102,7 +102,7 @@ So - geez, what would I do? TL;DR, we're accepting a bunch of projects because n
 
 **Jeffrey Sica:** Yeah.
 
-**Adam Stacoviak:** And everything was originally built on Kubernetes, because that's what I guess was the founding project that really kicked off... So we come back from the \[unintelligible 00:13:10.01\] Early CNCF days... Miss you, Dan. But like we were there when it was just two or three projects; a very small CNCF. The original founding days. And as we see it grow and grow over time, a lot of great stuff happened for open source, but you're on the inside, you see what's happening, you are in touch with all these projects. What is the mission? What is the endgame for CNCF?
+**Adam Stacoviak:** And everything was originally built on Kubernetes, because that's what I guess was the founding project that really kicked off... So we come back from the Dan Khon days, early CNCF days... Miss you, Dan. But like we were there when it was just two or three projects; a very small CNCF. The original founding days. And as we see it grow and grow over time, a lot of great stuff happened for open source, but you're on the inside, you see what's happening, you are in touch with all these projects. What is the mission? What is the endgame for CNCF?
 
 **Jeffrey Sica:** Geez... Honestly, what is next? The definition of cloud-native in a nutshell is really doing distributed computing in a repeatable way. I mean, that's my definition, in my old noggin. But that doesn't mean always use Kubernetes. Sure, right now, hey, Kubernetes is -- I mean, you look at all the stats, adoption's still up and to the right; it's a hockey stick. That doesn't necessarily mean it's gonna be the same thing, or it's going to be THE answer.
 
@@ -184,7 +184,7 @@ Like, the reason why right now Kubernetes is like -- I don't want to say flagshi
 
 **Jerod Santo:** Yeah, it makes sense that it has to be like inside the scope.
 
-**Adam Stacoviak:** Those \[unintelligible 00:19:05.00\]
+**Adam Stacoviak:** There's a velvet rope.
 
 **Jeffrey Sica:** So my personal opinion is I don't think that's healthy for the ecosystem.
 
