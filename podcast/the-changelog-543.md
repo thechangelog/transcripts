@@ -254,7 +254,7 @@ Like, the reason why right now Kubernetes is like -- I don't want to say flagshi
 
 **Jerod Santo:** Yeah. You know, in ye old days, supermarkets used to employ people that would walk your --
 
-**Adam Stacoviak:** Well, guess what \[unintelligible 00:24:03.18\]
+**Adam Stacoviak:** Well, guess what \[unintelligible 00:24:03.18\] still does it.
 
 **Jerod Santo:** \[24:06\] ...stuff out to you. Do they still do that?
 
@@ -956,7 +956,7 @@ And then you have to write state, you have to manage state at scale; you might b
 
 **Jerod Santo:** That's gotta feel good, right?
 
-**Yaron Schneider:** Yeah. It's like the ultimate edge deployment, which is nice. And so it really picked up, we saw a lot of community contribution... Then we decided that we're gonna give it to a foundation, because we want to really make sure that it grows and that we bring other vendors in, and other companies. So it arrived in the CNCF, and we were, I think, the first or second project to make it straight into incubating. We skipped the sandbox phase, because we already had a lot of end user adoption, a lot of contributions coming in... And yeah, since then, the project really took off, and at some point VCs basically came up to me and were like "Hey, you know what - \[unintelligible 01:06:13.26\] Microsoft? We think there's gonna be good business here." And I basically told all of them no. So I was focused on my career at Microsoft, and Mark, my co-founder of Dapr and Diagrid also, which is our company, was also busy having Dapr really take off the ground.
+**Yaron Schneider:** Yeah. It's like the ultimate edge deployment, which is nice. And so it really picked up, we saw a lot of community contribution... Then we decided that we're gonna give it to a foundation, because we want to really make sure that it grows and that we bring other vendors in, and other companies. So it arrived in the CNCF, and we were, I think, the first or second project to make it straight into incubating. We skipped the sandbox phase, because we already had a lot of end user adoption, a lot of contributions coming in... And yeah, since then, the project really took off, and at some point VCs basically came up to me and were like "Hey, you know what - how about you \[unintelligible 01:06:13.26\] Microsoft? We think there's gonna be good business here." And I basically told all of them no. So I was focused on my career at Microsoft, and Mark, my co-founder of Dapr and Diagrid also, which is our company, was also busy having Dapr really take off the ground.
 
 And a year later, we were having a hallway conversation, we were like "Look, we think Dapr can have a much broader future, and we have our own vision for distributed systems and where this can go, and this needs to happen outside of Microsoft." So yeah, we basically started Diagrid.
 
