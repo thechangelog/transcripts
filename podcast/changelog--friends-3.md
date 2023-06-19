@@ -32,7 +32,7 @@ So that's what sort of ended up with the two separate locations, and it's worked
 
 **Jerod Santo:** Right.
 
-**Mike McQuaid:** \[00:05:53.18\] But yeah, the other minor one is that some tools don't have /usr/local almost built into their default kind of search paths... But I guess Homebrew is big enough and established enough now that Homebrew, in a lot of cases, has just got added to those default search paths for these other tools, where when it was originally created, that wasn't guaranteed that was ever going to happen.
+**Mike McQuaid:** \[05:53\] But yeah, the other minor one is that some tools don't have /usr/local almost built into their default kind of search paths... But I guess Homebrew is big enough and established enough now that Homebrew, in a lot of cases, has just got added to those default search paths for these other tools, where when it was originally created, that wasn't guaranteed that was ever going to happen.
 
 **Jerod Santo:** Some other installers have been using the home directory. Like, ASDF will have a hidden ASDF folder... A lot of tools now, they are installing things. Have you guys considered that, vs /opt, is just like make it /usr/local to their home directory?
 
@@ -60,21 +60,21 @@ So that's what sort of ended up with the two separate locations, and it's worked
 
 **Jerod Santo:** Yeah, let's not do it. So yesterday - as we record this, this is Tuesday morning for us. As recorded, yesterday was Apple's WWDC keynote, as everybody pretty much knows at this point... And we were watching it live in our Apple Nerds channel, as we do, and just commenting as we go... And about 80 minutes into that keynote, I posted this all-caps message that said, "Show us the VR thing. I'm getting bored." That's kind of what we've been doing so far. Shortly after that, Apple unveiled this Apple Vision Pro new product, but they never actually did show us the VR thing. They said Apple Vision Pro will introduce us to spatial computing.
 
-\[00:08:14.11\] *So in the same way that Mac introduced us to personal computing, and iPhone introduced us to mobile computing, Apple Vision Pro will introduce us to spatial computing.*
+\[08:14\] *So in the same way that Mac introduced us to personal computing, and iPhone introduced us to mobile computing, Apple Vision Pro will introduce us to spatial computing.*
 
 **Jerod Santo:** They said augmented reality is a profound technology.
 
-\[00:08:30.09\] *I believe that augmented reality is a profound technology.*
+\[08:30\] *I believe that augmented reality is a profound technology.*
 
 **Jerod Santo:** And they said it's the first Apple product you look through, not at at.
 
-\[00:08:39.10\] *It's the first Apple product you look through, and not at.*
+\[08:39\] *It's the first Apple product you look through, and not at.*
 
 **Jerod Santo:** I thought that was interesting. They never said VR, they never said Metaverse, that I heard; they didn't even really bring up video games. Or maybe I missed that part. But they're talking about augmented reality. I just love your guys's reaction to that. Because Mike, we were talking about VR in our channel, and you have opinions about VR. But this is not pitched as a VR thing. They never said VR; they said augmented reality. They said you look right through it, which is technically not true, but I guess conceptually they want you to have this idea of looking through these goggles and seeing the world, even though you're seeing a digital representation of the world that's right in front of your face. So what are you guys think about that?
 
 **Mike McQuaid:** Yeah, I thought that was interesting as well. I had a similar realization, kind of, this morning. I guess AR is kind of more social and kind of human, I guess; it was the vibe that they were going for, or at least it felt like from their pitch, where it's a lot more kind of blended with your existing computing. Whereas VR - the thing I kind of love about it, particularly during periods like COVID lockdowns, when we had a three-month-old and a two-year-old who was potty training at home... I find it incredibly relaxing to just shut out the entire world in my VR headset and like go to another place. And you have no peripheral vision, you can't see anything else... You can press a button to get a really sort of janky sort of AR, "Where am I in my room?", just so you don't walk into things sort of view.
 
-\[00:10:14.05\] But this idea that you're completely put into another space... And that was -- I guess I was expecting they were going to go down that route, and that feels like the Metaverse route... And that feels like not at all what they were doing. Like, yeah, I think it's interesting, for sure.
+\[10:14\] But this idea that you're completely put into another space... And that was -- I guess I was expecting they were going to go down that route, and that feels like the Metaverse route... And that feels like not at all what they were doing. Like, yeah, I think it's interesting, for sure.
 
 **Jerod Santo:** Yeah. What do you think, Adam?
 
@@ -112,7 +112,7 @@ You have Safari inside this thing. That's kind of cool. You have your apps in th
 
 **Jerod Santo:** You know, Messages is there... It's like putting some of your apps that you're used to inside of iOS or macOS, right there inside of this thing. I don't honestly know though if I want that as much. Maybe I'm just the guy who's ready to escape sometimes... And I should say, the pitch is augmented, but if you notice, they have this digital crown, which they stole from the watch. They put it on the top of these goggles, and you crank this crown and it changes the size of what is being presented. And you can go full VR mode, it seems like. It's just not what they're talking about. Because a lot of their pitch was entertainment. And it was like "Look at these big movies you can watch right in front of your face", but they're inside this AR, but they're also -- like, they're putting a screen inside of augmented reality, but you can crank that screen up to full size, to where there's nothing else to see. So I think they get there, they're just coming at it from a different angle.
 
-**Mike McQuaid:** \[00:14:28.26\] It reminded me in some ways -- it's funny that you mentioned the Apple Watch. It reminded me of the Apple Watch keynote as well, we're I can't remember what I thought at the time when I saw it, but I definitely remember being somewhat underwhelmed, right? Because they pitched it as a particular type of device that I didn't care about.
+**Mike McQuaid:** \[14:28\] It reminded me in some ways -- it's funny that you mentioned the Apple Watch. It reminded me of the Apple Watch keynote as well, we're I can't remember what I thought at the time when I saw it, but I definitely remember being somewhat underwhelmed, right? Because they pitched it as a particular type of device that I didn't care about.
 
 **Jerod Santo:** Yes. It was a fashion thing. A lot of it was fashion.
 
@@ -132,7 +132,7 @@ But on the flipside, some people thought it was slightly dystopian, but maybe I'
 
 **Jerod Santo:** Camcorder... \[laughs\] It is.
 
-**Adam Stacoviak:** \[00:17:53.22\] You've got the dad with a camcorder, who looks a dufus, basically... But the memory is captured, so you've got that memory... And you sort of sacrifice maybe your ego for the moment... But I don't know if I want to wear that. I want the artifact after, Mike, but I don't want to be the dad wearing this headgear during my kid's birthday. I want them to remember me just as much as us remember that memory.
+**Adam Stacoviak:** \[17:53\] You've got the dad with a camcorder, who looks a dufus, basically... But the memory is captured, so you've got that memory... And you sort of sacrifice maybe your ego for the moment... But I don't know if I want to wear that. I want the artifact after, Mike, but I don't want to be the dad wearing this headgear during my kid's birthday. I want them to remember me just as much as us remember that memory.
 
 **Jerod Santo:** Right. So I think this is temporary. The actual video of the guy -- you know, you're not gonna be like "Hold on, don't move. I'm gonna go put these goggles on." None of us are going to actually do that, unless we're going to be the camcorder dad... Because we can see the future use of it. I think that's temporary. So the recording side - that does look dystopian. I'm looking at this real-world thing through goggles that show me a digital representation of the real-world thing...
 
@@ -146,7 +146,7 @@ But on the flipside, some people thought it was slightly dystopian, but maybe I'
 
 **Adam Stacoviak:** So give me a Rosie. I want a Rosie.
 
-\[00:19:14.10\] *Is there any girl out there who can resist the charms of a solar-powered alloy chassis with turbo-driven schematics and LED eyes? A robotic maid named Rosie changed the Jetsons' --*
+\[19:14\] *Is there any girl out there who can resist the charms of a solar-powered alloy chassis with turbo-driven schematics and LED eyes? A robotic maid named Rosie changed the Jetsons' --*
 
 **Jerod Santo:** Well, speaking of infinite charge... I mean, there's so many indicators that this device is just not -- I mean, the price of course, but the device is not going to be ready for regular consumer usage when it ships. It's going to be for enthusiasts, developers, business people, and that's about it.
 
@@ -158,17 +158,17 @@ But on the flipside, some people thought it was slightly dystopian, but maybe I'
 
 **Jerod Santo:** This is Sarah Deachy, I think; rhymes with peachy. She saw it, and she wore it. A YouTuber. And she said...
 
-\[00:20:10.28\] There is a reason why the battery pack is not on the headset... Because the headset is heavy. It is very heavy. I think a lot of initial report said "Oh, we're gonna put the battery pack, so it's going to be lighter than a Quest, lighter than any headset out there..." They did that because it would just be too heavy if the battery pack was on the headset. So with that out of the way, it is heavy; it will be uncomfortable on your face for probably more than an hour.
+\[20:10\] There is a reason why the battery pack is not on the headset... Because the headset is heavy. It is very heavy. I think a lot of initial report said "Oh, we're gonna put the battery pack, so it's going to be lighter than a Quest, lighter than any headset out there..." They did that because it would just be too heavy if the battery pack was on the headset. So with that out of the way, it is heavy; it will be uncomfortable on your face for probably more than an hour.
 
 **Jerod Santo:** So that was kind of a bummer to hear. But she did say that the actual 4k display - kind of against what you're saying there, Mike; I don't know what's the truth, but she said it's spectacular.
 
-\[00:20:48.05\] *The eye tracking is insane. So you do a setup that takes one or two minutes; the Digital Crown is essentially your Home button, and you have all of your apps on the home screen, and you just look at whatever you want, and then you pinch to select. If you're scrolling through photos or a Safari, you basically pinch and then scroll. And the clarity of, say, a Safari tag, or reading an article is so good. The words are super crisp. And I honestly felt more excited about the productivity elements to it than even the entertainment.*
+\[20:48\] *The eye tracking is insane. So you do a setup that takes one or two minutes; the Digital Crown is essentially your Home button, and you have all of your apps on the home screen, and you just look at whatever you want, and then you pinch to select. If you're scrolling through photos or a Safari, you basically pinch and then scroll. And the clarity of, say, a Safari tag, or reading an article is so good. The words are super crisp. And I honestly felt more excited about the productivity elements to it than even the entertainment.*
 
 **Jerod Santo:** And I think it's three or four times what resolution that the Meta Quest currently has. Maybe that's enough, but she's incredibly impressed with that, and was like "This is the future", but it just -- it's gonna hurt. And that's kind of where a lot of these things are.
 
 **Mike McQuaid:** I think it depends on the content a lot on this stuff. I think for movies and stuff, I think the resolution doesn't -- I mean, a 4k movie looks great. But when we're watching 1080p stuff, it looks pretty. You know, you won't watch the Lord of the Rings in 1080p being like "Ugh! I can see the pixels. Ugh! This phone's ruined." I think it's all relative, and I think video content and gaming experiences, whatever lend themselves to that, kind of blend. But it feels reading text on a non-Retina display now is just "Ugh. Why would I go through that?" And I guess I can't imagine - like, write code, say; spending a long day looking at text for significant periods of time. \[unintelligible 00:22:13.11\]
 
-**Adam Stacoviak:** \[00:22:17.20\] But Mike, what if you weren't writing the code? What if you were--
+**Adam Stacoviak:** \[22:17\] But Mike, what if you weren't writing the code? What if you were--
 
 **Jerod Santo:** Watching-it code.
 
@@ -206,7 +206,7 @@ And it's funny, because on the comfort side, I would agree - you don't want to b
 
 **Jerod Santo:** So they stole that -- or it was an homage?
 
-**Adam Stacoviak:** \[00:25:49.28\] It could be an homage, they could have licensed it... I don't know. I'd love to know the legalities there. But it was exactly like Ready Player One. And Ready Player One is all about escaping, but it's not what Apple went. But the point I'm trying to make is if you've seen that film, these goggles, Vision Pro look almost shape-wise identical, and you can see through them. So there's a lot of inspiration. You've got -- what was the thing called from Star Trek? I'm not a Star Trek fan, unfortunately... That was like the iPhone.
+**Adam Stacoviak:** \[25:49\] It could be an homage, they could have licensed it... I don't know. I'd love to know the legalities there. But it was exactly like Ready Player One. And Ready Player One is all about escaping, but it's not what Apple went. But the point I'm trying to make is if you've seen that film, these goggles, Vision Pro look almost shape-wise identical, and you can see through them. So there's a lot of inspiration. You've got -- what was the thing called from Star Trek? I'm not a Star Trek fan, unfortunately... That was like the iPhone.
 
 **Mike McQuaid:** Yeah, tricorder.
 
@@ -238,7 +238,7 @@ They could have gone "Right, let's stick some really high-end cameras in here, a
 
 **Mike McQuaid:** Exactly. But then on the AR side, if you want to do that, you're gonna have to have a lot more high-end cameras, and you have to be able to maybe do some of the kind of eye-tracking stuff, and things that. I guess that was another interesting thing we've not mentioned as well, it's there's no controllers. That's another distinction between all of the VR kits. It's all hand gestures, eye gestures, all this type of stuff, as opposed to these physical controllers, and stuff that. And that's going to be another thing that's going to be interesting to see how well that goes.
 
-**Adam Stacoviak:** \[00:30:09.10\] Yeah, they didn't show us how you calibrate it. With face ID, you've got to do that weird head motion to teach the thing your face from all angles. So they didn't show you that calibration stuff. It was probably like --
+**Adam Stacoviak:** \[30:09\] Yeah, they didn't show us how you calibrate it. With face ID, you've got to do that weird head motion to teach the thing your face from all angles. So they didn't show you that calibration stuff. It was probably like --
 
 **Jerod Santo:** So Sarah Deachy said there's like a one or two-minute setup. It's like a two-minute eye calibration. She said, the eye tracking is spectacular; you look at the thing and it focuses the context. Like, if you look on this Safari tab, it's gonna switch tabs. Ad she says it works pretty much the way you'd expect it to work; very, very well.
 
@@ -258,7 +258,7 @@ One of the games is one that I have played in VR... I guess it's almost like bei
 
 **Jerod Santo:** 11.
 
-**Adam Stacoviak:** \[00:33:53.28\] 11, sorry. I was going for the baker's dozen. Actually, that's 13, sorry about that... \[laughter\] Either way, I want more... What do you think, Mike? What do you think game developers are thinking? What do you think about this paradigm? Because I'm thinking you could do some really interesting things with it, not in the typical gaming way potentially even. What do you think they're thinking about?
+**Adam Stacoviak:** \[33:53\] 11, sorry. I was going for the baker's dozen. Actually, that's 13, sorry about that... \[laughter\] Either way, I want more... What do you think, Mike? What do you think game developers are thinking? What do you think about this paradigm? Because I'm thinking you could do some really interesting things with it, not in the typical gaming way potentially even. What do you think they're thinking about?
 
 **Mike McQuaid:** I'm friends with some game developers, but I've never worked in that space. But I think the interesting thing there is -- like, even PC VR gaming... The long-running joke about it has been it's kind of a niche within a niche... Because I have, for reasons due to not wanting to reward scalpers, and all this type of thing, I have a one-and-a-half thousand dollars-ish graphics card in my machine, that sounds like a small jet engine in my house. It's ludicrously overpowered. And I have, as I said, all my VRs set up that require me to physically drill things into my walls to mount my VR stations... And I guess the point I'm making is --
 
@@ -286,9 +286,9 @@ One of the games is one that I have played in VR... I guess it's almost like bei
 
 **Adam Stacoviak:** Such a small -- well, maybe not a small market, but such a specific market, where you almost have highly specialized devices, where Apple is not known to be open API, they're not known to be not literally open APIs, in the open API. You get what I'm trying to say... That you can program for it, but you don't have full access, like you do even on a Mac. You have a lot more access to the system. In iOS devices, TV OS, etc. iPad OS, and now Vision OS, I've gotta imagine these highly specialized things require certain APIs that you may not have access to, and you're gonna spend a lot of money to get into that ecosystem... And you sort of have to follow where Apple may allow you to go, because they're in control of the keys, the kingdom. So... Specialized; that's highly specialized spot, for sure.
 
-**Jerod Santo:** \[00:38:30.29\] Well, I do think, Mike, when you held up that controller - that thing screams video games. You have buttons, you have D-pads, you have joysticks etc. And the fact that there is nothing that, it's such a more of an iPhone kind of a thing. It's an Apple thing, to be like "Well, we're gonna have cool new games that we're gonna use your fingers to manipulate the air, and play." And it's like, that's going to create a certain type of game. Just like the iPhone, this single pane of glass created a certain kind of game that was different than other kinds of games. And I feel like they had a huge opportunity, they had so much interest, and still do, of just people using these things to create a gaming platform that just blew everything else out of the water... And they just did kind of what they did to the podcasts for many years, was just ignore it; they just let it go, or they didn't provide the developers what they need to really have different monetization options... So everything went in-app purchase, everything went Candy Crush, and ended up being these very shallow, addictive, but ultimately, I guess unsatisfying games that ended up ruling the iOS platform. And it's probably similar, I would guess, that eventually would rule this thing... Unless they actually get dedicated to it early in order to provide game developers what they need to make better games. And I just don't see Apple ever - like you said, Mike, I just don't think they care about it that much. They're gonna have their 11 games that will all be beautiful, and very handpicked, but ultimately you're like "Well, I get bored of 11. In fact, I only like 3 of the 11, and now what are we gonna do?"
+**Jerod Santo:** \[38:30\] Well, I do think, Mike, when you held up that controller - that thing screams video games. You have buttons, you have D-pads, you have joysticks etc. And the fact that there is nothing that, it's such a more of an iPhone kind of a thing. It's an Apple thing, to be like "Well, we're gonna have cool new games that we're gonna use your fingers to manipulate the air, and play." And it's like, that's going to create a certain type of game. Just like the iPhone, this single pane of glass created a certain kind of game that was different than other kinds of games. And I feel like they had a huge opportunity, they had so much interest, and still do, of just people using these things to create a gaming platform that just blew everything else out of the water... And they just did kind of what they did to the podcasts for many years, was just ignore it; they just let it go, or they didn't provide the developers what they need to really have different monetization options... So everything went in-app purchase, everything went Candy Crush, and ended up being these very shallow, addictive, but ultimately, I guess unsatisfying games that ended up ruling the iOS platform. And it's probably similar, I would guess, that eventually would rule this thing... Unless they actually get dedicated to it early in order to provide game developers what they need to make better games. And I just don't see Apple ever - like you said, Mike, I just don't think they care about it that much. They're gonna have their 11 games that will all be beautiful, and very handpicked, but ultimately you're like "Well, I get bored of 11. In fact, I only like 3 of the 11, and now what are we gonna do?"
 
-**Break:** \[00:40:09.08\]
+**Break:** \[40:09\]
 
 **Adam Stacoviak:** Let me give you a scenario - you're in the doctor's office, right? You're there waiting for your next turn, right? You're just there for a random checkup; you're good to go.
 
@@ -314,7 +314,7 @@ But on the flip side, you have this problem which a small minority of people hav
 
 I guess one of my biggest fears though, of all of this, is that whenever Apple releases some big, visionary product like this, I think of -- do you guys remember the legendary Slashdot comment from CmdrTaco, 2001, about the iPod? No wireless, less space than a Nomad... Lame.
 
-**Adam Stacoviak:** \[00:44:09.12\] Right. Yes.
+**Adam Stacoviak:** \[44:09\] Right. Yes.
 
 **Jerod Santo:** He still \[unintelligible 00:44:08.09\]
 
@@ -366,7 +366,7 @@ I guess one of my biggest fears though, of all of this, is that whenever Apple r
 
 Something that Box founder, Aaron Levie, said - and this kind of goes back to some things you said, Jerod, about Sarah Deachy... He says, "Just go out and try the Apple Vision. Definitely wild. Hand an eye tracking is basically perfect. Instantly understandable UX, the graphics are incredible, and the setup was seconds." So that gives you a good base. Even wherever it could go, it's got an incredible easy setup, it's not kludgy, it's not hard... So all the things you can improve on it over time will only get better; the weight, the size, whatever it might be.
 
-\[00:48:23.16\] Maybe they introduce controllers next year. "Hey, now we have these controllers, and now you're happy. And by the way, we can give you these coin-sized, just slap them on your wall sensors, rather than having to drill; you just tape it, and it's there. And it's infinitely powered by, I don't know, gravity, or something like that." So you've got -- in a year's time or maybe a couple years' time you can have brand new paradigm shifts in this platform, that make it far more appealing.
+\[48:23\] Maybe they introduce controllers next year. "Hey, now we have these controllers, and now you're happy. And by the way, we can give you these coin-sized, just slap them on your wall sensors, rather than having to drill; you just tape it, and it's there. And it's infinitely powered by, I don't know, gravity, or something like that." So you've got -- in a year's time or maybe a couple years' time you can have brand new paradigm shifts in this platform, that make it far more appealing.
 
 **Mike McQuaid:** I think that's interesting. I guess the thing is - I keep forgetting this myself, because I got so over-excited... But my wife has seen me \[unintelligible 00:48:55.03\] Apple product launches, that she was like "Yeah, but didn't you always say that you shouldn't buy the first generation of new Apple stuff, because the second release always fixes all the really big problems?" And I was like "Yeah... Yeah, you're right." That for me is -- that, combined with the price... I think Apple are, again, really lucky with their customer base, because a ton of people are gonna go out and buy this, and give them really great feedback on what the second iteration of the device should be. And when they do make a device that's half the price, a third the price, or whatever, what the mass market needs that device to be.
 
@@ -386,7 +386,7 @@ And the other thing that occurred to me while you were talking, Adam, is just th
 
 **Jerod Santo:** Yeah. And prohibitively expensive for consumers. So three things that they don't normally do; they're definitely changing their playbook slightly. I wonder why they felt like they had to get it out there a year before they're actually ready to ship it. Was it pressure from something? I know the rumor mill had been swirling for years; they said that they've been building the technology for a decade, but I think I heard they've actually had a dedicated team earnestly working on this for seven years. So - I mean, that's a long time to work without ever shipping something. Maybe it was like "We've got to ship something." They're still not shipping, but at least they are showing.
 
-**Adam Stacoviak:** \[00:52:07.16\] That's interesting to think about... Why now? Well, one thing Insider did say, a headline at least, that we can potentially agree on is "Apple sure kicked Meta's butt today." \[laughter\]
+**Adam Stacoviak:** \[52:07\] That's interesting to think about... Why now? Well, one thing Insider did say, a headline at least, that we can potentially agree on is "Apple sure kicked Meta's butt today." \[laughter\]
 
 **Jerod Santo:** That's their headline?
 
@@ -432,7 +432,7 @@ But if Apple gets this right in this augmented space... Like you said before, Mi
 
 **Adam Stacoviak:** Yeah. Where are we all most excited? I've gotten a most-excited myself where I would put down some dollars for this... Not at this price point, but I would put out -- and maybe, I don't know... It would be to combine this kind of thing with what I already have. I was saying in our Apple Nerds chat - by the way, you heard Jerod mention that at the top of the show; we have a Slack, you can join it. Changeong.com/community. It's totally free. Hang with Mike, me, Jerod, and many others whenever WWDC happens, and other things.
 
-\[00:55:59.21\] But I would combine Vision Pro with an existing home theater setup. So if I could take -- I mean, and maybe you already have your screen, and that's super-cool. But if this thing is to be believed, and it is that cool, and I can immerse myself... Imagine if I can watch a movie as if I'm hovering over the Earth, right? The augmented reality around me - you know, my reality sort of is there still yet to some degree if somebody walks in, but I'm hovering above the earth, or I'm kind of hanging out in the universe, and I've got this just massive screen in front of me. And I've got a banging sound system around me, literally there. So I don't have to listen on headphones, or whatever the Vision Pro offers in terms of audibility; I can use existing, high-end, super-awesome audio and this thing to just make the experience different. That might be something that's pretty cool. It is still a niche, because I mean, how many people have banging home theaters? Not many people. But they are people who shell out lots of dollars.
+\[55:59\] But I would combine Vision Pro with an existing home theater setup. So if I could take -- I mean, and maybe you already have your screen, and that's super-cool. But if this thing is to be believed, and it is that cool, and I can immerse myself... Imagine if I can watch a movie as if I'm hovering over the Earth, right? The augmented reality around me - you know, my reality sort of is there still yet to some degree if somebody walks in, but I'm hovering above the earth, or I'm kind of hanging out in the universe, and I've got this just massive screen in front of me. And I've got a banging sound system around me, literally there. So I don't have to listen on headphones, or whatever the Vision Pro offers in terms of audibility; I can use existing, high-end, super-awesome audio and this thing to just make the experience different. That might be something that's pretty cool. It is still a niche, because I mean, how many people have banging home theaters? Not many people. But they are people who shell out lots of dollars.
 
 **Mike McQuaid:** Yup.
 
