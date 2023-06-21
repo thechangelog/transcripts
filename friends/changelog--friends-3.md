@@ -126,7 +126,7 @@ But on the flipside, some people thought it was slightly dystopian, but maybe I'
 
 **Jerod Santo:** A 3D... Yeah.
 
-**Mike McQuaid:** Yeah. Because for me - I buy the new iPhone every year, because I have young children and I want to capture their temporary \[unintelligible 00:17:15.20\] in as high a resolution as I can. Because I look back at those memories, and I love looking back at pictures of my kids.
+**Mike McQuaid:** Yeah. Because for me - I buy the new iPhone every year, because I have young children and I want to capture their temporary likenesses in as high a resolution as I can. Because I look back at those memories, and I love looking back at pictures of my kids.
 
 **Adam Stacoviak:** I'm with you, Mike, on that one for sure. Because for me, I have the -- and I think you do too, Jerod; you have the Photos widget placed somewhere in your phone, and every day I'm getting some memory... And I'm an iCloud believer because I've got my photos in there, and they're doing a great job of reminding me of my life. Now, the thing is though, while that's amazing, this is the ultimate new dad camcorder kind of situation. Remember dads back in the day?
 
@@ -316,7 +316,7 @@ I guess one of my biggest fears though, of all of this, is that whenever Apple r
 
 **Adam Stacoviak:** \[44:09\] Right. Yes.
 
-**Jerod Santo:** He still \[unintelligible 00:44:08.09\]
+**Jerod Santo:** He still isn't living it down.
 
 **Mike McQuaid:** Exactly. And I could just imagine everything we've said in this conversation today brought up in 5 or 10 years, where everyone's just wearing their goggles 24/7, and they're just like "You guys were such fools. You knew nothing of what would come, and how we would all embrace our Apple goggles?"
 
@@ -368,7 +368,7 @@ Something that Box founder, Aaron Levie, said - and this kind of goes back to so
 
 \[48:23\] Maybe they introduce controllers next year. "Hey, now we have these controllers, and now you're happy. And by the way, we can give you these coin-sized, just slap them on your wall sensors, rather than having to drill; you just tape it, and it's there. And it's infinitely powered by, I don't know, gravity, or something like that." So you've got -- in a year's time or maybe a couple years' time you can have brand new paradigm shifts in this platform, that make it far more appealing.
 
-**Mike McQuaid:** I think that's interesting. I guess the thing is - I keep forgetting this myself, because I got so over-excited... But my wife has seen me \[unintelligible 00:48:55.03\] Apple product launches, that she was like "Yeah, but didn't you always say that you shouldn't buy the first generation of new Apple stuff, because the second release always fixes all the really big problems?" And I was like "Yeah... Yeah, you're right." That for me is -- that, combined with the price... I think Apple are, again, really lucky with their customer base, because a ton of people are gonna go out and buy this, and give them really great feedback on what the second iteration of the device should be. And when they do make a device that's half the price, a third the price, or whatever, what the mass market needs that device to be.
+**Mike McQuaid:** I think that's interesting. I guess the thing is - I keep forgetting this myself, because I got so over-excited... But my wife has seen me fawn over enough Apple product launches, that she was like "Yeah, but didn't you always say that you shouldn't buy the first generation of new Apple stuff, because the second release always fixes all the really big problems?" And I was like "Yeah... Yeah, you're right." That for me is -- that, combined with the price... I think Apple are, again, really lucky with their customer base, because a ton of people are gonna go out and buy this, and give them really great feedback on what the second iteration of the device should be. And when they do make a device that's half the price, a third the price, or whatever, what the mass market needs that device to be.
 
 And the other thing that occurred to me while you were talking, Adam, is just the demo they did yesterday. I mean, they're so good at these types of demos. It's kind of absurd. And when you look at the headstart that Meta has had here... I mean, basically, Meta have been gaming at this weird Second Life Metaverse thing, that everyone just literally laughs at. Whereas Apple, before they were even ready to show the headset to anyone, they have 20 integrations in the demo, and they've got a bunch of launch partners on board, and they've got this in the on-board... And they're just -- I mean, obviously, it's an early product, but it's an early Apple product. And the level of polish... I've seen various memes today about how Zuck must be feeling after that keynote yesterday...But yeah, I mean, it's --
 
@@ -422,7 +422,7 @@ But if Apple gets this right in this augmented space... Like you said before, Mi
 
 **Jerod Santo:** Okay. Of course Apple would do that. You can buy lenses for your goggles, or they fit them perfectly. I don't know exactly how it works. But so if you have bad vision, you're paying even more, right? You've gotta have the corrective lenses added to your goggles. So that's interesting...
 
-**Adam Stacoviak:** Yeah. And this one doesn't work with old versions, so now you've gotta get new lenses, and you're trying to sell your exact prescription \[unintelligible 00:55:22.07\]
+**Adam Stacoviak:** Yeah. And this one doesn't work with old versions, so now you've gotta get new lenses, and you're trying to sell your exact prescription on Ebay
 
 **Jerod Santo:** \[unintelligible 00:55:23.28\]
 
@@ -526,7 +526,7 @@ work is not working anymore, and whatever... So yeah, so it's one of those thing
 
 **Adam Stacoviak:** I've just used my first passkey today with Home Depot. I actually enabled Home Depot to have a passkey, to allow it to use the device, the website to use either my thumbprint, which I'm not using, or my face ID. So that's -- first passkey user, literally yesterday.
 
-**Mike McQuaid:** \[01:07:54.19\] Yeah, GitHub's passkey support is pretty good, actually. I think they maybe even shipped after I left, but... Yeah, it works pretty nicely, actually. It's just - whenever you would have been prompted for 2FA, you just get prompted for your biometric information that is synced between all your devices using iCloud. And if you need to log in on a Windows machine, it can't be like your only secondary authentication, or whatever. But yeah, it works pretty nicely for \[unintelligible 01:08:17.06\]
+**Mike McQuaid:** \[01:07:54.19\] Yeah, GitHub's passkey support is pretty good, actually. I think they maybe even shipped after I left, but... Yeah, it works pretty nicely, actually. It's just - whenever you would have been prompted for 2FA, you just get prompted for your biometric information that is synced between all your devices using iCloud. And if you need to log in on a Windows machine, it can't be like your only secondary authentication, or whatever. But yeah, it works pretty nicely for another one.
 
 And yeah, I think I enabled it on my Google account as well. So it will similarly do that, instead of prompting for my 2-FA code, or spamming my YouTube app on my phone...
 
@@ -570,7 +570,7 @@ Okay, Jerod, what about you? What's something that stood out to you for this one
 
 **Jerod Santo:** When did they sell their very last Intel? So as of yesterday, or maybe Sunday, they may have sold the Mac Pro that was Intel.
 
-**Mike McQuaid:** \[01:12:01.09\] With laptops they've not been selling Intel MacBooks for two years plus, probably. It was funny how much of the ecosystem had not woken up to this... I definitely saw a few times where some companies ended up with slightly unpleasant situations, announcing that "Oh, we will support doing this on M1 in a few years", and be like "Everyone who buys a new Apple MacBook today cannot run your stuff anymore." \[unintelligible 01:12:23.03\] one of their internal developers pointed that out to them.
+**Mike McQuaid:** \[01:12:01.09\] With laptops they've not been selling Intel MacBooks for two years plus, probably. It was funny how much of the ecosystem had not woken up to this... I definitely saw a few times where some companies ended up with slightly unpleasant situations, announcing that "Oh, we will support doing this on M1 in a few years", and be like "Everyone who buys a new Apple MacBook today cannot run your stuff anymore." Had a slightly faster turn around once, one of their internal developers pointed that out to them.
 
 **Adam Stacoviak:** But the M2 Ultra, which I heard in the chat was - everyone could say MK Ultra, which is a mind control thing... MK is mind control... Yeah, there's a really good movie, I think it's called Kill Room, if I recall correctly. If you haven't seen that film, and you the idea of MK Ultra, and -- not so much the idea of it, but just storylines around it.
 
@@ -662,7 +662,7 @@ In terms of least wow moments, like when I'm going to go to the bathroom, I don'
 
 **Jerod Santo:** Hah!
 
-**Adam Stacoviak:** And then I think they partnered with Automattic, which just made it a good acquisition, but they're still separate, from what I understand. Owned by Automattic, got the resources, but still very much operating as Bloom Built LLC, if Google's correct. So Paul Mayne is behind that. \[unintelligible 01:20:20.24\] forever, basically.
+**Adam Stacoviak:** And then I think they partnered with Automattic, which just made it a good acquisition, but they're still separate, from what I understand. Owned by Automattic, got the resources, but still very much operating as Bloom Built LLC, if Google's correct. So Paul Mayne is behind that. \[unintelligible 01:20:20.24\] help people take notes is great for forever, basically.
 
 **Jerod Santo:** Alright, let's wrap it right here. These have been our WWDC hot takes. A lot of Vision Pro hot takes. We'll see how well they cool off over time... Hopefully better than Commander Taco on the iPod. We'll see, time will tell. Mike, thanks for hanging out with us and chatting. Always a joy. Where's the best place folks can connect with you on the internet?
 
@@ -684,7 +684,7 @@ In terms of least wow moments, like when I'm going to go to the bathroom, I don'
 
 **Outro:** \[01:21:35.11\]
 
-**Adam Stacoviak:** But this is for like this ultra high end film studios potentially, or somebody who needs extreme IO, or they need an infinite amount of M2 NVMe -- geez, I'm \[unintelligible 01:22:46.21\] my throat. NVMe M2 drives, and that kind of thing, so...
+**Adam Stacoviak:** But this is for like this ultra high end film studios potentially, or somebody who needs extreme IO, or they need an infinite amount of M2 NVMe -- geez, I just got a frog in my throat. NVMe M2 drives, and that kind of thing, so...
 
 **Jerod Santo:** You should say that again, because it sounds like you're crying. Just clear your throat and say it again.
 
