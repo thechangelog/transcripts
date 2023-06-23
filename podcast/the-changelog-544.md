@@ -24,13 +24,13 @@ Then there's also the user experience side, where they're really easy to use for
 
 **Jerod Santo:** Yeah, nothing to lose.
 
-**Anna Pobletts:** \[00:08:04.06\] Exactly. Definitely a little bit of an improvement, but I hate having to change context and go check my email to log into a site. Or if I'm on my phone, or my Apple TV, or something that, and I have to go find a different device... Like, it's just kind of a pain. And so I think passkeys are ultimately solving that UX problem. No one's going to adopt any of this stuff if it's not easy to use.
+**Anna Pobletts:** \[08:04\] Exactly. Definitely a little bit of an improvement, but I hate having to change context and go check my email to log into a site. Or if I'm on my phone, or my Apple TV, or something that, and I have to go find a different device... Like, it's just kind of a pain. And so I think passkeys are ultimately solving that UX problem. No one's going to adopt any of this stuff if it's not easy to use.
 
 **Adam Stacoviak:** It's if you put the -- YouTube, for example, on an Apple TV. If you authenticate with YouTube, you have to open up your phone, or a device that has the YouTube app on it that is not your Apple TV. And that's not bad necessarily, because you probably authenticated to that. It's all about how many hurdles/hoops can I make you jump through to keep you secure. And I think we've kind of bandaided, if that's a word, over time, how to do this... And even OTPs. Like, every time I've got to pull out the Verify app from Unified - which I love. It's a great app, it's secure, I use it for my Unified network, and I that app over others... But every time I have to do it, I'm "Gosh, where's my phone? Let me get that thing out..." And it's biometric, so it's my face opening it up, because I use an iPhone... And that makes me feel secure. But it's -- well, that's what you said, context switching. It's more hoops and more hurdles to jump through, and over.
 
 **Anna Pobletts:** Yeah. Jerod, you said something interesting when you were describing your Magic Link implementation, about how the success rate of sign in and things that, of just like, are people actually getting emails...? So Google announced passkeys on their services a couple of weeks ago. So on your Gmail account, now you can actually add a passkey to sign in. And in their blog announcement, they talked about some really interesting stats, and one of them that I hadn't really thought about before was success on first attempt. So how often does someone succeed to log in the first time they try? And with passwords, that number is actually pretty low. I think it was twice as high when you switched to passkeys, because the first time you're "Okay, crap, I think my password is "password". Or its "Password+Google", or it's "password123".
 
-\[00:10:06.05\]
+\[10:06\]
 
 *My username is password, and my password is password.*
 
@@ -50,7 +50,7 @@ Now, when I say "you", like, the user actually isn't doing anything here. This i
 
 **Adam Stacoviak:** Can I pause there for one second? This sounds a lot SSH keys.
 
-**Jerod Santo:** \[00:12:19.25\] Doesn't it?
+**Jerod Santo:** \[12:19\] Doesn't it?
 
 **Adam Stacoviak:** I mean, it sounds you copy and pasted SSH keys in a way that everyone else can use, basically. Is that kind of what this is?
 
@@ -64,7 +64,7 @@ And so about maybe three years ago, 2019-2020, Google, Microsoft, Apple all kind
 
 **Jerod Santo:** So the hard part about something you know is you might forget it. The hard part about something you are - this is the hardest part - is you can't change it. your fingerprint, right? Once that's out, it's hard to revoke your fingerprint. The hard thing about something you have is when you don't have it anymore... And that's been my biggest struggle with specifically the authenticator devices, right? ...which is the one-time passwords thing. You get that whole deal set up, and you have it on your phone. And then you upgrade your phone, or you lose your phone, or something, and you're just completely out of it. You have to go through an arduous reset process with a lot of these organizations, even so far as scanning your photo ID in order for them to be "This is actually you." Of course, they don't want some imposter to fraudulently claim that they're you. Is that a big problem upcoming with passkeys, where if it's something you have on your device and you don't have your device, you're pretty much - you're out of luck.
 
-**Anna Pobletts:** \[00:16:04.25\] Yeah, it is by far the biggest technical problem with passkeys, I think, is how we manage account recovery. So the first time anyone heard about the term passkey was about a year ago. It was WWDC last year. And before that, this protocol still existed, it was called WebAuthn, and some websites were still implementing this... But it was every single passkey was tied to the TPM of a device, and there was no way to get it off. So if you lost that device, it was just gone. You could never get that passkey back; you had to go through the whole whatever that website deemed was a recovery process, and there wasn't really anything you could do about it.
+**Anna Pobletts:** \[16:04\] Yeah, it is by far the biggest technical problem with passkeys, I think, is how we manage account recovery. So the first time anyone heard about the term passkey was about a year ago. It was WWDC last year. And before that, this protocol still existed, it was called WebAuthn, and some websites were still implementing this... But it was every single passkey was tied to the TPM of a device, and there was no way to get it off. So if you lost that device, it was just gone. You could never get that passkey back; you had to go through the whole whatever that website deemed was a recovery process, and there wasn't really anything you could do about it.
 
 **Jerod Santo:** Right.
 
@@ -76,7 +76,7 @@ You know, it's still not perfect by any means, but it really was almost unusable
 
 **Anna Pobletts:** I think they always thought about it, and we always knew it was going to be a problem... But the goal of WebAuthn and passkeys was phishing-resistant authentication. And so a huge part of that is tying a credential to a device, and also cryptographically tying a device to a domain. And so my facebook.com credential - you can't spoof facebook.com with using a zero instead of an o. That credential will simply not work; it will never be sent to that domain.
 
-So all of these unphishable, really high-security properties are really important. That was the core of WebAuthn and of passkeys. But those are also the things that make it really hard to do account recovery. With a password you have one user, one password on any device. With passkeys or WebAuthn, you have one user and n number of devices or passkeys, depending on their laptop, and their iPad, and their phone, and all the different devices they might use, you have to kind of have a different passkey. So it just sort of comes with the protocol, but it was all kept with security in mind.
+So all of these unphishable, really high-security properties are really important. That was the core of WebAuthn and of passkeys. But those are also the things that make it really hard to do account recovery. With a password you have one user, one password on any device. With passkeys or WebAuthn, you have one user and N number of devices or passkeys, depending on their laptop, and their iPad, and their phone, and all the different devices they might use, you have to kind of have a different passkey. So it just sort of comes with the protocol, but it was all kept with security in mind.
 
 **Adam Stacoviak:** Is passkeys a "doing business as" name, where WebAuthn truly is the LLC or Inc, what you're doing business as passkeys?
 
@@ -92,7 +92,7 @@ So all of these unphishable, really high-security properties are really importan
 
 **Adam Stacoviak:** So who owns passkeys? Is it a branded term? Did Apple come up with this? Is there a copyright to this name, or trademark? Who owns passkeys?
 
-**Anna Pobletts:** \[00:20:20.04\] I'm not actually sure.
+**Anna Pobletts:** \[20:20\] I'm not actually sure.
 
 **Jerod Santo:** She's not a lawyer.
 
@@ -106,7 +106,7 @@ So I don't know that they own any sort of trademark or IP about that, but they a
 
 This is a problem I've personally been thinking about for a while now, and at 1Password we have a product called Passage , that just launched a couple weeks ago, that's designed to help people do this. We're trying to be Twilio or Stripe for passkeys, and make it easy with SDKs and UI elements, things that, to let developers just implement passkeys in their website in a couple days, and move on. You should be able to get this without having to spend all your time, or understand all of the inner workings of passkeys. People shouldn't have to worry about that, they should just be able to kind of use it out of the box and get all the benefits.
 
-**Break**: \[00:23:49.02\]
+**Break**: \[23:49\]
 
 **Jerod Santo:** Is this 1Password's first move into developer services? Because you've always been a business-to-consumer, like "Buy our software" or "Subscribe to our software." But now this is like "We are going to be a Twilio, or we would love to be a Twilio for passkeys." That seems like a change in direction, or maybe just another direction.
 
@@ -142,7 +142,7 @@ So the way we were thinking about it is both Passage and the password manager ar
 
 **Jerod Santo:** Yeah. You might have to ascend up through the \[unintelligible 00:29:57.24\] Keep going.
 
-**Adam Stacoviak:** \[00:30:01.12\] Yeah. Well, the point is that whatever the process is - WebAuthn, passkeys, the DBA for this cool new biz... It's essentially I have to authenticate to my device first, and the device says, "Okay, this is truly Adam, so you can now passkey away." And that's what I love. Even now, being SSH-ing into machines with -- I know I'm not biometrically sending my stuff over there to the machine, but it's authenticating me to my device. "Yes, this is Adam. Trust this process. There you go." That's the future, to prove I'm me in the best way possible, and that's how you do it.
+**Adam Stacoviak:** \[30:01\] Yeah. Well, the point is that whatever the process is - WebAuthn, passkeys, the DBA for this cool new biz... It's essentially I have to authenticate to my device first, and the device says, "Okay, this is truly Adam, so you can now passkey away." And that's what I love. Even now, being SSH-ing into machines with -- I know I'm not biometrically sending my stuff over there to the machine, but it's authenticating me to my device. "Yes, this is Adam. Trust this process. There you go." That's the future, to prove I'm me in the best way possible, and that's how you do it.
 
 **Anna Pobletts:** Totally. And you don't even have to think about it. I think we talk about this idea of password hygiene a lot, and users having to think up passwords, and not reuse them, and all that kind of stuff... Like, people aren't trying to be insecure. It's actually hard. I have well over 200 passwords I'm keeping track of... That's really hard. And so the idea of "I'm just using my finger and I don't have to think about what I'm doing, but I'm just automatically secure, and it's built-in" is just so nice. To not have to put that burden on people.
 
@@ -188,7 +188,7 @@ Now we're at a place with passkeys where you have to think less. There's still s
 
 **Adam Stacoviak:** So I obviously keep my credentials to homedepot.com and 1Password, because I am a tried and trued, many, many, more than a decade now, 1Password user. And so that's great. But every time I go there, I have to use this scanning thing to prove that I was in the military, to get this military discount they offer. And I have to do that every time I make a purchase. So I have to essentially authenticate with their website every time I'm a consumer, whether it's on the web, which is obvious, or literally in-person. I have to scan this code that's only the web, that's generated. It's like a QR code, essentially.
 
-\[00:34:22.26\] So I have to authenticate all the time... And I have been resisting this other way they've said before, because they did not describe it as passkeys, they did not describe it as no password... They said "There's another way that you can log in faster", and I thought it was some sort of gimmick. So what I'm getting at is how do we describe to users in a world that's password-filled, to a passwordlesss world? How do we describe this? Because I spent a couple months resisting this passkeys world with Home Depot offering it to me. And now that I know about passkeys - and here I am, host of the Changelog forever, I should know these things. I do not know much about passkeys, and I resisted it. And the other day, I was like "Jerod, I just created a passkey today." It was three days ago. "And it was with Home Depot!"
+\[34:22\] So I have to authenticate all the time... And I have been resisting this other way they've said before, because they did not describe it as passkeys, they did not describe it as no password... They said "There's another way that you can log in faster", and I thought it was some sort of gimmick. So what I'm getting at is how do we describe to users in a world that's password-filled, to a passwordlesss world? How do we describe this? Because I spent a couple months resisting this passkeys world with Home Depot offering it to me. And now that I know about passkeys - and here I am, host of the Changelog forever, I should know these things. I do not know much about passkeys, and I resisted it. And the other day, I was like "Jerod, I just created a passkey today." It was three days ago. "And it was with Home Depot!"
 
 **Jerod Santo:** \[laughs\]
 
@@ -212,7 +212,7 @@ So I think those things are moving in the right direction. We're doing tons of r
 
 **Adam Stacoviak:** It seemed some sort of benefit from Home Depot directly... And you know, sometimes brands have other motives for making me change my common workflow and pattern. I just was resistant, I'm like "Whatever that is, I know how to log in with 1Password to your site. Leave me alone. I don't understand why you're asking me to do it." And it was a bother, because I'm trying to transact. I'm not trying to deepen my relationship, or become more secure, or become educated about this new-fangled thing. Get off my lawn, let me just do my thing here. So it was not the right time.
 
-**Anna Pobletts:** \[00:38:15.22\] Yeah, I think that's where it can really come from people like Google, who have such a trusted place in people's lives; it's your email that they're protecting, it's not just a shopping site. And so there's a different level of maybe willingness to add MFA to that account, that will make you at least willing to read more about passkeys.
+**Anna Pobletts:** \[38:15\] Yeah, I think that's where it can really come from people like Google, who have such a trusted place in people's lives; it's your email that they're protecting, it's not just a shopping site. And so there's a different level of maybe willingness to add MFA to that account, that will make you at least willing to read more about passkeys.
 
 Like I said before, if you're going through a checkout flow, you're in the middle of trying to do something else, it's probably not the right time to tell you about passkeys. When you're already doing account-related activities. Like if you had to reset your password, that's a great time to offer someone to add a passkey, because you've just had to go through the pain of resetting your password. Letting people know in other ways, and not blocking their flow.
 
@@ -238,7 +238,7 @@ One of the big things we've seen is -- like, I expect eCommerce to be an industr
 
 **Anna Pobletts:** The same is true for 1Password. So even if you store that passkey on a MacBook, in 1Password, and then you go to your Android phone, which also has the 1Password app, you would still have access to your passkey there. And so a big part of this synced passkey initiative is exactly that, to make passkeys available on all the different platforms. In the event that that's not the case, then Passage, or the website, whoever's doing it, will have a backup or a recovery type of option to let you either use a passkey on another device, or to add a passkey to that device... Usually through an email Magic Link, or something along those lines.
 
-**Jerod Santo:** \[00:42:26.29\] I see. So on sign up, you've probably captured my email, and then you can say, "Okay, we don't know who you are. You're on a different device and you're not synced", or something this. I'm sure you'll be that kind in your copy... "Who are you, and what are you doing here?"
+**Jerod Santo:** \[42:26\] I see. So on sign up, you've probably captured my email, and then you can say, "Okay, we don't know who you are. You're on a different device and you're not synced", or something this. I'm sure you'll be that kind in your copy... "Who are you, and what are you doing here?"
 
 And then you'll say, "Okay, well, you don't have a passkey. Would you to generate one using your email address?" or something that, and then you'd go through kind of a Magic Link flow that would then generate a new passkey on my new device, and add it to my list of passkeys for that website.
 
@@ -274,7 +274,7 @@ And then you'll say, "Okay, well, you don't have a passkey. Would you to generat
 
 **Adam Stacoviak:** Yeah, they seem to... And then this other one - let me see if I can get this back up. Oh, now they're making me do it a different way. Now they have defaulted -- since I didn't do it the way they wanted me to, with a passkey, now they're making me verify the code via email again, which is okay, I guess, because I can still get in... My concern was if passkeys fail, am I locked out? Do I now have to only passkey on this device? Apparently, no. But long story short, there was another way to go in, it was scan a QR code... And I think the other one was -- I don't even know what it was. It was like three different options. Do you know what that third option might be?
 
-**Jerod Santo:** \[00:46:08.03\] Mother's maiden name? Your first pet?
+**Jerod Santo:** \[46:08\] Mother's maiden name? Your first pet?
 
 **Anna Pobletts:** Yeah, all your security questions...
 
@@ -282,7 +282,7 @@ And then you'll say, "Okay, well, you don't have a passkey. Would you to generat
 
 **Anna Pobletts:** Yeah... I definitely think most websites - and definitely what I'm seeing is most websites are not implementing passkeys, full stop. There's always some sort of backup. So if you're using Passage, that backup is usually still passwordless. It's magic links or login codes, typically. For people -- just some people don't have devices that support passkeys, so we got to give them an option. For a lot of websites, like Home Depot, that have huge, large user bases, and are just like "I just want to test it out with a small subset", they'll keep their passwords, and then they'll just sort of add this as an option... And so you can always fall back to your password, or to an OTP code, or whatever, all these different options that they have to log in; it looks like they have quite a few. But I'm really seeing it happen as an add-on. You can opt into this feature, but it's not necessarily the default, or even something that they're really heavily forcing on people. It's like "Let's get it out there, let's give people who want it the opportunity to try it out, and then we'll kind of expand and migrate it over time."
 
-**Break**: \[00:47:16.28\]
+**Break**: \[47:16\]
 
 **Jerod Santo:** I just had an idea - only passkey-based sign up as a means of spam prevention. Because I bet the spammers are not on to this yet. They probably don't have the flows in their bots that will do -- because they'll click on a signup links; confirmation emails... They're that sophisticated now. They will get through your Captcha, then they will click on their confirmation email, and then they will spam your website. But I bet they don't have passkey flows all figured out yet, because it's just too new. So if you just require passkeys - I'm just thinking about us in particular; I wouldn't do this if I was Home Depot... Like, then you've got a real person, with a real passkey, and you don't have to deal with spammers as much, Adam. What do you think? Require it.
 
@@ -316,7 +316,7 @@ So I finally got it to give me this prompt back... So I guess my passkey got obl
 
 **Adam Stacoviak:** They did not say bam. They didn't even say "No password." They just said "Faster." They describe what you said before, which was the thing I want, which is ease of use, good user experience, and speed. So that's - closing the loop, thank you.
 
-**Jerod Santo:** \[00:56:11.18\] Thank you for closing that loop...
+**Jerod Santo:** \[56:11\] Thank you for closing that loop...
 
 **Anna Pobletts:** \[laughs\] Yeah. And I think people like -- okay, everyone's logged into an iPhone app with their face ID before, right?
 
@@ -356,7 +356,7 @@ And they also announced some cool work around enterprise passkeys, and being abl
 
 **Anna Pobletts:** Like a mobile device management software. So my MacBook has - I don't know what it's called; we have some sort of software that we run right to manage our devices, and so that way I know it's a corporate device, it's not some random laptop that I've brought, and tried to authenticate with a passkey. I can say "This is an iCloud passkey for this enterprise", and you can kind of attest cryptographically to that.
 
-**Jerod Santo:** \[00:59:56.00\] I assume passkeys has some kind of revocation process, similar to OAuth, where you can say "Kick out all current devices" or can you target a specific device and say "Throw this passkey away"? Is that all part of the spec?
+**Jerod Santo:** \[59:56\] I assume passkeys has some kind of revocation process, similar to OAuth, where you can say "Kick out all current devices" or can you target a specific device and say "Throw this passkey away"? Is that all part of the spec?
 
 **Anna Pobletts:** Yeah, so you can do it either on the client side, that you could delete a passkey from your iCloud account or from your 1Password account, or on a website you could go in, you'll see usually a list of passkeys in your profile, and you can delete them from there as well. So you can kind of have the website forget your passkeys, or you can delete the private key from your device. Either one would work.
 
