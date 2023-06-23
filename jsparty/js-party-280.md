@@ -34,7 +34,7 @@ Something that's digestible, so the smaller, the better... I know sometimes it's
 
 **Amal Hussein:** Right. But some of them might have 17 or greater, and for those projects you've got to have a cap on how many people can do it. And that means for some projects making some hard choices, and maybe changing a bit how power is distributed.
 
-\[00:06:05.11\] But yes, definitely, I've run into both problems, where there aren't enough people to review, and there are way too many people reviewing the code, because the longer a PR stays open, maybe the more people review it, and that's not always good. The more people you have to please, the harder it is to land. So there are concerns, and anybody might raise a valid concern; I'm not discounting that. But I don't know, I feel like that is the hard decision you have to make. That's the hard choice.
+\[06:05\] But yes, definitely, I've run into both problems, where there aren't enough people to review, and there are way too many people reviewing the code, because the longer a PR stays open, maybe the more people review it, and that's not always good. The more people you have to please, the harder it is to land. So there are concerns, and anybody might raise a valid concern; I'm not discounting that. But I don't know, I feel like that is the hard decision you have to make. That's the hard choice.
 
 **Kevin Ball:** Well, there's an interesting question around that, which is "Who merges the PR, and what is the decision point that a PR is ready to merge?"
 
@@ -50,7 +50,7 @@ Something that's digestible, so the smaller, the better... I know sometimes it's
 
 **Christopher Hiller:** I mean, if you're a jerk, that's not very effective... So what I do, not so much with contributors, because I take them for granted... You know, maintainers, I take them for granted. They're there, I know they're gonna keep maintaining; I don't have to be super-nice. So I'm going to -- if you're like a first-time contributor, or you're a new contributor, I'm gonna start with "Thank you." Before anything else, it's "Thank you for this." And then if it's something that I could see potentially getting merged, then I'll go ahead and actually review the code. It might just start with "We're probably not interested in this for reasons." And if we are interested in it, then I can look into the code.
 
-\[00:09:54.08\] And what I do is I ask a lot of questions. It's not so much -- I mean, there are "This should change for this reason." Perhaps that's for consistency... But most of my questions are going to be around intent, just to make sure I really understand what's being added. And I feel like the questions are good. I think where things fall apart, especially with first-time contributors, is that you might not get an answer. And there's a lot of drive-by PRs, where people send the PR, and then they disappear. And even if they see it through, they might disappear. But as a reviewer, I certainly feel like asking questions is always good. And not being a jerk is always good. And actually being excessively polite is always good, if possible. But I guess I'm curious then about how do I respond to a code review? What is a good way to do that? Because -- I don't know, I guess I haven't thought too hard about, when I send a PR, what is effective for me? Any ideas?
+\[09:54\] And what I do is I ask a lot of questions. It's not so much -- I mean, there are "This should change for this reason." Perhaps that's for consistency... But most of my questions are going to be around intent, just to make sure I really understand what's being added. And I feel like the questions are good. I think where things fall apart, especially with first-time contributors, is that you might not get an answer. And there's a lot of drive-by PRs, where people send the PR, and then they disappear. And even if they see it through, they might disappear. But as a reviewer, I certainly feel like asking questions is always good. And not being a jerk is always good. And actually being excessively polite is always good, if possible. But I guess I'm curious then about how do I respond to a code review? What is a good way to do that? Because -- I don't know, I guess I haven't thought too hard about, when I send a PR, what is effective for me? Any ideas?
 
 **Amal Hussein:** I think reviewing your own PR is one. So you'd be surprised at how much you can catch, just like looking at your code in a different context than the one that you wrote it in. So just seeing it in that diff view, in a different context, it really does help. So be your own first reviewer.
 
@@ -66,7 +66,7 @@ Another thing that I've seen called out - sometimes you can completely separate 
 
 **Christopher Hiller:** Okay, a thing that makes that difficult is GitHub. It's easy to look at the PR as a whole in GitHub; it is more difficult if you have -- it's hard to look at it by change set. And so yeah, I don't even know. You need the context too, and it's maybe even an unsolvable problem, because if you're looking at a change set and you see a formatting change in one, it might be necessary to see the actual other change set in the same file, or whatever, that's part of the... Anyway, it's just hard.
 
-\[00:14:01.09\] And there are companies that build on top of GitHub's PR stuff to try to make the process better. I actually use a plugin; it's a company called Graphite, and they do fancy stuff with pull requests and reviews... And it's actually pretty useful. So yeah.
+\[14:01\] And there are companies that build on top of GitHub's PR stuff to try to make the process better. I actually use a plugin; it's a company called Graphite, and they do fancy stuff with pull requests and reviews... And it's actually pretty useful. So yeah.
 
 **Kevin Ball:** Yeah, I've used Reviewable for that purpose as well.
 
@@ -82,7 +82,7 @@ And I can't believe we haven't mentioned this, but the last fun fact I have a PR
 
 **Christopher Hiller:** Yeah, I feel like the three states that a PR can be in on GitHub - it might be insufficient. It's either yes or no, or nothing, essentially. I guess you can abuse labels to do that, and people do, but...
 
-**Kevin Ball:** \[00:18:02.14\] One of the things that we've sort of started to stray into here in some of our conversation is CI, and CI/CD, and kind of this whole area. So one piece of this is "What sets of things belong in a pull request review, versus being checked by your CI?" So what y'all called out stylistic things. Like, you should just let the machine do that, have that all be in a config that CI handles. Are there other things that y'all have seen sometimes handled in PRs, that instead should be handled in a CI system?
+**Kevin Ball:** \[18:02\] One of the things that we've sort of started to stray into here in some of our conversation is CI, and CI/CD, and kind of this whole area. So one piece of this is "What sets of things belong in a pull request review, versus being checked by your CI?" So what y'all called out stylistic things. Like, you should just let the machine do that, have that all be in a config that CI handles. Are there other things that y'all have seen sometimes handled in PRs, that instead should be handled in a CI system?
 
 **Amal Hussein:** Yeah, like asking for missing unit tests... There should just be a threshold there for new code specifically, as well as just in general. So you can kind of automate -- you can't merge this without meeting that threshold, so there's no need to kind of really discuss that synchronously, or async. So that's one.
 
@@ -100,7 +100,7 @@ And I can't believe we haven't mentioned this, but the last fun fact I have a PR
 
 **Kevin Ball:** Humans are human, and we're gonna human... I love that. Is there a point which is too much in your CI system?
 
-**Amal Hussein:** \[00:21:31.21\] I mean, I don't know a team today that isn't struggling with really exceptionally long build times, and how to get around that. That's just a common problem for all kinds of companies. And it's not just like we're compiling TypeScript into JavaScript; it's all of the things. It's the linting, it's all the different unit tests, integration tests, end-to-end tests... It's testing for different screen sizes... You name it; it's this expansive kind of pipeline, and it's just this never-ending compute problem... And so for a lot of folks who may be working in a monorepo, you may especially be feeling that pain, because... Yeah, it's very real. And there's lots of clever things that lots of clever people are working on to optimize, and use computed caches, and you name it, but it's still not perfect. There's nothing worse than having to wait like an hour to get feedback on your build, so...
+**Amal Hussein:** \[21:31\] I mean, I don't know a team today that isn't struggling with really exceptionally long build times, and how to get around that. That's just a common problem for all kinds of companies. And it's not just like we're compiling TypeScript into JavaScript; it's all of the things. It's the linting, it's all the different unit tests, integration tests, end-to-end tests... It's testing for different screen sizes... You name it; it's this expansive kind of pipeline, and it's just this never-ending compute problem... And so for a lot of folks who may be working in a monorepo, you may especially be feeling that pain, because... Yeah, it's very real. And there's lots of clever things that lots of clever people are working on to optimize, and use computed caches, and you name it, but it's still not perfect. There's nothing worse than having to wait like an hour to get feedback on your build, so...
 
 **Christopher Hiller:** And then in my world, most of the time it's just not enough. There's never enough tests, there's never enough -- the build matrix is too small, stuff like that. Another thing that we're running into is maybe we don't have as many tests as we should, but the tests that we do have push up against the resources of the CI agent, or the build agent, or whatever. And so that becomes flaky, and then we need to get a bigger one, and then, of course, now we need to pay for that bigger one... And of course, some people are probably paying a lot for something in CI, and maybe a lot more than they should; I'm not really familiar with that myself, but maybe Amal can speak to it...
 
@@ -110,7 +110,7 @@ And I can't believe we haven't mentioned this, but the last fun fact I have a PR
 
 **Christopher Hiller:** Okay, well, in my land, it is -- in my land... In the projects that I work on, that looks like basically automated releases, which is just like part of the CI process. There are different strategies there. I guess I don't have enough -- I know that automatic releases can be a little dangerous, very dangerous, especially if you're not confident in your code coverage, and that sort of thing. Once your project has been battle-tested enough, and once you feel confident that it is correct, I think that automatic releases is probably a much safer bet. But if it's not, if there are gaps, I think that's not necessarily the greatest idea. But other than that, it's just these automated releases. There's several ways to go about it, but that's all I know. I don't deploy stuff, so...
 
-**Amal Hussein:** \[00:26:00.20\] You just release it to Npm...
+**Amal Hussein:** \[26:00\] You just release it to npm...
 
 **Christopher Hiller:** Mm-hm...
 
@@ -126,7 +126,7 @@ And so I think just decoupling deployment and feature releases is one... And the
 
 **Amal Hussein:** Yeah, sure. So I guess in its simplest form it's really just kind of a glorified boolean check. So it's like "If the thing, then do this. If not, do that." And so you're just kind of -- you're looking at an application property, and ideally, something that's externally managed, so that you can turn these flags on and off without code deployments... But at its simplest form it's really just a boolean check that facilitates a logic branch. And typically, you would use a feature flag to kind of handle that work in progress, to hide work in progress, or to do some beta testing for a new feature, or to -- yeah, because you're just not ready to release this into the world fully. Or maybe it's released and you still want to have control over it, or you want to be able to turn it off. Like, you want to have like an escape. You want a kill switch, basically. All of those things are enabled by using a feature flag.
 
-\[00:30:00.28\] And a feature flag doesn't have to always be used for a feature, it can be used for a bug fix, it can be used for anything. Anything that you want to have a kill switch, or anything that you want to experiment with in the context of when a user is running it. And I would say no, actually, they're not quite feature flags, but the experiments... You know, "Run Node with this experimental flag." So you do have those types of things in even runtimes like Node.
+\[30:00\] And a feature flag doesn't have to always be used for a feature, it can be used for a bug fix, it can be used for anything. Anything that you want to have a kill switch, or anything that you want to experiment with in the context of when a user is running it. And I would say no, actually, they're not quite feature flags, but the experiments... You know, "Run Node with this experimental flag." So you do have those types of things in even runtimes like Node.
 
 **Kevin Ball:** Yeah, I was gonna say, in the web app world typically it's some sort of database-backed service, and it might let you roll -- depending on are you using a third-party service, are you rolling your own, it might be as simple as a boolean across the application, it might be some sort of like gradual rollout... You could do feature flags that vary based on user properties, or other things like that.
 
@@ -154,7 +154,7 @@ I think in the node or CLI kind of world, it's probably like environment variabl
 
 **Amal Hussein:** Yeah. For me, to put it colloquially, when feature flags are very in clutch, they come in clutch when you're working at scale, and you want to do a slow roll-up for a feature; you're like "I don't want to turn on this whole new credit card processing workflow, for example, for every one all at once. I want to have it be on for 5% of traffic, and then I'm going to monitor my error logging, and check to see if nothing is going crazy." And then maybe an hour or two hours or a day later you bump it up to 20%, and so forth. So it lets you do a slow roll-up as well.
 
-\[00:34:04.18\] Kball was talking about monitoring - usually, the thing that you're really looking at is error logs, and you're looking at your observability stack to see "Hey, is everything still okay? Is this thing working as I expect it to?"
+\[34:04\] Kball was talking about monitoring - usually, the thing that you're really looking at is error logs, and you're looking at your observability stack to see "Hey, is everything still okay? Is this thing working as I expect it to?"
 
 **Kevin Ball:** Or if you're an eCommerce, you're looking at purchases, right? Like, "Just turning this on to dramatically reduced the amount of money people are sending our way."
 
@@ -174,7 +174,7 @@ But I think for me, at minimum, as an engineering lead, I like to think about lo
 
 **Christopher Hiller:** Right, yeah. There's Stack Overflow's Minimal Viable Example. I used to copy and paste that URL all the time. It describes how to show a reproducible example, with some code, or something. And that's the gold standard, that is the North Star, as you would say. That's what we want from any bug report, is "Just show me the quickest way, and easiest, and most minimal way to reproduce this, so we can fix it." But that mostly doesn't shake down like that. It runs the gamut from "It doesn't work" to -- in the best case, it's... You know, somebody's just like "Oh, I can't show you the code, because it's proprietary", or "Here's this huge repo that you can check out." That's about the best you can hope for.
 
-**Kevin Ball:** \[00:38:07.14\] Gotta love those bug reports that are just "It doesn't work."
+**Kevin Ball:** \[38:07\] Gotta love those bug reports that are just "It doesn't work."
 
 **Christopher Hiller:** Yeah, it doesn't work...
 
@@ -192,7 +192,7 @@ And in terms of when you're working on something that's like a product feature, 
 
 **Kevin Ball:** Interesting. I'm gonna put a couple more things in there that I've seen or used at different times. So one is for customer reported issues, oftentimes whoever's managing customer support needs to be able to respond back to the customer, and let them know. And so I think the Ready, like "This is ready, we're starting on it", is good, communicating some sort of timeline. But especially for higher-priority or more urgent things, I have found that having some sort of cycle of updates, of just like "I am still working on this. We have not figured it out" or "It is not done yet, but there is progress being made." And your team can agree on what that cadence is, but oftentimes for a very urgent issue it might be once a day. Or for something that's blocking large numbers of your users using it, once an hour. Almost like incident-level updates, but expanding that out into larger timeframes for things that are less intense or incredible... But just like "Hey, this is still in progress. I'm still working on it. It still has attention."
 
-\[00:42:17.20\] Because I've found a lot of times customer support - they get anxious. They're getting bombarded with questions, and it's a black box. They're like "I know that they said they're going to work on this, but I haven't heard anything for three days." I don't know what to say to someone. And so providing just - even if it's that brief update, like "End of the day, we're on target. Planning to have it done by end of week", whatever. "End of the day, still working on this. It's coming" can be really helpful.
+\[42:17\] Because I've found a lot of times customer support - they get anxious. They're getting bombarded with questions, and it's a black box. They're like "I know that they said they're going to work on this, but I haven't heard anything for three days." I don't know what to say to someone. And so providing just - even if it's that brief update, like "End of the day, we're on target. Planning to have it done by end of week", whatever. "End of the day, still working on this. It's coming" can be really helpful.
 
 **Amal Hussein:** Yeah. I mean, in my world, I'm back in enterprise land, and typically we have different severities for bugs. Sev 1, 2, 3, 4, whatever. And so yeah, if you're working on something that requires that level of communication, which, from what you're describing, I would consider to be like a sev 1 or 2 bug - there's definitely, especially for sev 1, there's kind of a war room opened up, and people are pinging you for updates. So that happens whether you like it or not.
 
@@ -212,7 +212,7 @@ The secondary audience is, as you highlight with the draft PRs, it gives people 
 
 The third reason is it gives the opportunity for other people to pick it up, if for some reason something else comes in and takes me off of this. Like, "I'm working on this feature, I'm going on it... Oh my gosh, there's an incident, I'm off on this. Then I got pulled in this other direction. But we still need that to happen, but I'm the best person to be working on this incident... So can someone else pick it up?" Now there's a whole log of the learning and thinking that's already gone into that, that somebody else can take and start running with.
 
-**Amal Hussein:** \[00:46:06.16\] Totes. Totes McGoats. Kball, I feel like I should like "Can I get an Amen?" We need like a little choir for you today. But yes.
+**Amal Hussein:** \[46:06\] Totes. Totes McGoats. Kball, I feel like I should like "Can I get an Amen?" We need like a little choir for you today. But yes.
 
 **Kevin Ball:** Any other things about tickets before we move on?
 
@@ -244,7 +244,7 @@ So I would love to see some of these other best practices that come from industr
 
 **Kevin Ball:** I think that is a great place to wrap us. This is JS Party, I am Kball, and thank you, Amal, thank you, Chris, b0neskull... I never know which to call you, because b0neskull is so good, but it doesn't roll off the tongue. But thank you, and we'll catch you all next week.
 
-**Outro:** \[00:51:31.17\]
+**Outro:** \[51:31\]
 
 **Amal Hussein:** But PRs - you know, it's like the most inefficient form of code re-- sorry, I'm gonna start over. PRs are the most inefficient form of -- ahh, I'll start over. PR reviewing, or code -- I'm gonna start over. Code reviews... Code reviews... Oh, my God. You guys are horrible, you're making me laugh. Alright, so code reviews are --
 
