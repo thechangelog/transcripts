@@ -24,7 +24,7 @@ Ok, let's get into the news.
 
 Just when you think ClosedAI & big tech might dominate our inevitably AI-infused future... open source enthusiasts all around the world rally around each other's work and launch [project](https://gpt4all.io/index.html) after [project](https://falconllm.tii.ae) after [project](https://github.com/bentoml/OpenLLM) offering viable (and sometimes superior) alternatives.
 
-Enter OpenLLM: a platform for operating LLMs in production. With OpenLLM, you can run inference with any open-source large-language models, deploy to the cloud or on-premises, and build powerful AI apps.
+Enter OpenLLM: a platform for operating LLMs in production. With OpenLLM, you can run inference with any open source large-language models, deploy to the cloud or on-premises, and build powerful AI apps.
 
 I've said it before and I'll keep saying it 'til it's not true anymore: always bet on open source.
 
