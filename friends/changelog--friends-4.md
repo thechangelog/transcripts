@@ -8,7 +8,7 @@
 
 **Jerod Santo:** I didn't know this.
 
-**Mat Ryer:** \[unintelligible 00:00:48.03\] I can't believe you haven't heard of the musical.
+**Mat Ryer:** "Great Scott Marty!" I can't believe you haven't heard of the musical.
 
 **Jerod Santo:** I haven't.
 
@@ -78,7 +78,7 @@
 
 **Jerod Santo:** I want one of those.
 
-**Mat Ryer:** \[unintelligible 00:04:18.00\] and we all know what happened there.
+**Mat Ryer:** But then Biff got it, didn't he? And we all know what happened there.
 
 **Jerod Santo:** Yeah, and he got rich.
 
@@ -118,7 +118,7 @@
 
 **Adam Stacoviak:** And now that you say that - I mean, it would be smart of us as a business to do that. But it would be obvious. So no, we don't. But you know...
 
-**Mat Ryer:** \[06:01\] Yeah. You could sell Mat Ryer underwear, and I would \[unintelligible 00:06:03.11\] my likeness of. And sell hundreds and thousands of copies. Not copies, but editions... And I see none of that.
+**Mat Ryer:** \[06:01\] Yeah. You could sell Mat Ryer underwear, and I would have to use my likeness of this. And sell hundreds and thousands of copies. Not copies, but editions... And I see none of that.
 
 **Adam Stacoviak:** Right. Underwear maybe not. I would say diapers. We'll probably put your likeness on diapers.
 
@@ -336,7 +336,7 @@
 
 **Jerod Santo:** Maybe they know that they're not going to have you for number one, but they might get you to that second page, right?
 
-**Mat Ryer:** That's literally it. They're just like "Just stay till number six, and we'll get a bit \[unintelligible 00:13:55.29\]
+**Mat Ryer:** That's literally it. They're just like "Just stay till number six, and we'll get a bit of ad revenue.
 
 **Jerod Santo:** \[13:57\] "We'll be happy. Yeah, we'll get our clicks." You know...
 
@@ -420,7 +420,7 @@
 
 **Jerod Santo:** Do you name names?
 
-**Mat Ryer:** I've just got a \[unintelligible 00:17:11.16\]
+**Mat Ryer:** I've just got a Keychron Q9.
 
 **Jerod Santo:** Oh, it's got a cool, yellow Escape key, and a yellow return key. Or Enter. Oh, it's wired though. It has a wire, Mat... That's not 10x at all. Wires are not 10x. They slow you down.
 
@@ -466,7 +466,7 @@
 
 **Mat Ryer:** I know. Did they not have it then? Maybe they haven't discovered it. Or is it just too strong that even salmonella is like "Yeah, I'm not even taking this guy on..."
 
-**Jerod Santo:** Or he just considers it part of his training, like his body \[unintelligible 00:19:49.15\] to overcome it.
+**Jerod Santo:** Or he just considers it part of his training, like his body just has to overcome it.
 
 **Adam Stacoviak:** I'm sorry, I have to do this prompted. He's back, Jerod. He's got his guitar real close. Do a song, Mat. 10x Developer, right now. Go.
 
@@ -634,7 +634,7 @@
 
 **Mat Ryer:** Thrivalist.
 
-**Jerod Santo:** \[laughs\] \[unintelligible 00:28:02.04\] thrivalist.
+**Jerod Santo:** \[laughs\] I'm always more of a thrivalist.
 
 **Mat Ryer:** Yeah, the thrivalists are the next-level survivalists. They're the ones that are like -- they're not just going out there to survive, they're out there to live.
 
@@ -652,7 +652,7 @@
 
 **Jerod Santo:** Is that thriving, or is that surviving?
 
-**Adam Stacoviak:** I would say so, yeah... I mean, because if you've seen enough of these shows, you see people who are like really \[unintelligible 00:28:33.24\] and they're basically eaten lizards, man.
+**Adam Stacoviak:** I would say so, yeah... I mean, because if you've seen enough of these shows, you see people who are like really sucking wind, and they're basically eaten lizards, man.
 
 **Jerod Santo:** Or worse.
 
@@ -668,7 +668,7 @@
 
 **Mat Ryer:** I think maple syrup could be -- it's not milk, but it's interesting...
 
-**Adam Stacoviak:** That's \[unintelligible 00:29:07.25\]
+**Adam Stacoviak:** That's sap.
 
 **Jerod Santo:** You think it tastes good, or what's your point?
 
@@ -684,7 +684,7 @@
 
 **Jerod Santo:** And number four was water.
 
-**Mat Ryer:** Yeah, just \[unintelligible 00:29:26.19\] I mean...
+**Mat Ryer:** Yeah, just - I had just written down water, I mean...
 
 **Jerod Santo:** \[laughs\] Alright, let's get through this...
 
@@ -850,9 +850,9 @@ It's not to say don't design, and obviously, there's loads of things that you ca
 
 **Adam Stacoviak:** So this one's actually in the works, to some degree, this idea... "Create coding albums/mixes with Breakmaster", which we've done; we're kind of doing that behind the scenes... To put on YouTube. Like, music that people can program to. A 10-hour mix, just a jam session. And have many of them, many tracks. And Breakmaster is working on this... But that wasn't my idea, but we're working on it.
 
-**Mat Ryer:** It could be called \[unintelligible 00:35:32.26\]
+**Mat Ryer:** It could be called Coda
 
-**Adam Stacoviak:** \[unintelligible 00:35:35.04\]
+**Adam Stacoviak:** Coda?
 
 **Mat Ryer:** Yeah, just like the end bit of a song. Well, you know, just one idea. Pop it on the list.
 
@@ -946,7 +946,7 @@ It's not to say don't design, and obviously, there's loads of things that you ca
 
 **Adam Stacoviak:** Oh my gosh, Mat...
 
-**Mat Ryer:** This is a \[unintelligible 00:39:32.27\] quote, but... Being polite to people doesn't cost anything. Being nice, being kind... It's a cliché for a reason. Give you a quick example - recently, I saw a guy outside who was carrying a little bag of poop, but he didn't have a dog around him. I didn't see a dog. So I was still nice to him. I just said "Good morning", and then I just crossed the road and just went a different way.
+**Mat Ryer:** This is a RuPaul quote, but... Being polite to people doesn't cost anything. Being nice, being kind... It's a cliché for a reason. Give you a quick example - recently, I saw a guy outside who was carrying a little bag of poop, but he didn't have a dog around him. I didn't see a dog. So I was still nice to him. I just said "Good morning", and then I just crossed the road and just went a different way.
 
 **Jerod Santo:** \[laughs\]
 
@@ -1048,7 +1048,7 @@ safest.
 
 **Jerod Santo:** I say vitamin, 100%. I don't know how else you could say vitamin. But when I'm referring to vitamins, I say vitamin. But when I'm asked how to say vitamin, I just say vitamin.
 
-**Mat Ryer:** \[unintelligible 00:43:33.13\] walked it back.
+**Mat Ryer:** There we go, he's walked it back.
 
 **Adam Stacoviak:** I'll tell you how we say it here in Texas. "You're taking them vitamins over there...?! Them magic pills...?"
 
@@ -1176,7 +1176,7 @@ So yeah, shout-out to the linters of the world. We love you. You're pedantic, yo
 
 **Jerod Santo:** Hm. Interesting. Never thought about that. I would think gravity would be the answer, but I don't know.
 
-**Mat Ryer:** Yeah. It does rotate down eventually, right? It must, because it's going \[unintelligible 00:52:52.28\]
+**Mat Ryer:** Yeah. It does rotate down eventually, right? It must, because it's going over.
 
 **Adam Stacoviak:** No, no, no. They keep the same heading. The things that change -- the rudders; the rudders that change its altitude and whatnot, don't change to maintain the curvature of the Earth. Logically thinking about it, the reason why they don't is probably because of gravity.
 
@@ -1238,7 +1238,7 @@ The other thing interestingly, is gravity, the word - do you know how we say it 
 
 \[55:27\] *It is tool time... It is tool time...*
 
-**Mat Ryer:** Yeah. \[unintelligible 00:55:52.13\]
+**Mat Ryer:** Yeah. Not all going to be winners are they?
 
 **Jerod Santo:** \[laughs\] We can workshop that one...
 
@@ -1366,7 +1366,7 @@ The other thing interestingly, is gravity, the word - do you know how we say it 
 
 **Adam Stacoviak:** Oh, that's good.
 
-**Mat Ryer:** And then I just wrote down \[unintelligible 01:01:26.03\] I don't think that's appropriate... You might need to bleep that. I know it could be like the Tarantino movie title spelling. Let's say it was that.
+**Mat Ryer:** And then I just wrote down "Pass B*****ds" I don't think that's appropriate... You might need to bleep that. I know it could be like the Tarantino movie title spelling. Let's say it was that.
 
 **Adam Stacoviak:** Mm-hm. Inglorious Passwords. Ooh...
 
@@ -1392,7 +1392,7 @@ The other thing interestingly, is gravity, the word - do you know how we say it 
 
 **Jerod Santo:** Do you want us to have a moment of silence, or what do you want us to do about it?
 
-**Mat Ryer:** Yeah, because I think Adam's done a good \[unintelligible 01:02:09.11\] How often does that happen? Let's celebrate it.
+**Mat Ryer:** Yeah, because I think Adam's done a good sentence hasn't he? How often does that happen? Let's celebrate it.
 
 **Jerod Santo:** Yeah.
 
@@ -1434,7 +1434,7 @@ The other thing interestingly, is gravity, the word - do you know how we say it 
 
 **Adam Stacoviak:** They could double that up when it fails, or if it does fail, because it'd be like "NFT. Why?"
 
-**Jerod Santo:** Isn't there a song like that? \[unintelligible 01:03:20.15\] No, that's a different song.
+**Jerod Santo:** Isn't there a song like that? "N T Y" No? that's a different song.
 
 **Mat Ryer:** Yeah, there isn't any song as well. I'm trying to email these people.
 
@@ -1442,9 +1442,9 @@ The other thing interestingly, is gravity, the word - do you know how we say it 
 
 **Jerod Santo:** What song am I thinking of?
 
-**Adam Stacoviak:** It's an '80s rap song, I believe. \[unintelligible 01:03:31.14\] or something like that...
+**Adam Stacoviak:** It's an '80s rap song, I believe. "U N I E Y" or something like that...
 
-**Jerod Santo:** \[unintelligible 01:03:34.12\] What is that?
+**Jerod Santo:** "U I T T Y"... What is that?
 
 **Adam Stacoviak:** Stop singing it, Jerod. Listen, I was just listening to the tail end of news, and you literally sang "It's a whole new world", and then you just denied singing A Whole New World. I'm like, "You just sang it."
 
@@ -1618,7 +1618,7 @@ And so I just scripted up a thing that just checks their API every half hour, it
 
 **Jerod Santo:** I don't know, there's some sort of like feedback loop they require. IPv6 they don't require, but for some reason they say my network does not support IPv6, which I've found strange, but didn't really care enough to futz with. So I didn't want to do it; you can also do it on the devices. So the cool thing about that is it protects you on cell networks as well. So you can just install like the Next DNS app on your phone; they are not a sponsor, but they darn near should be. And you can run it -- so you're running cell networks, and you're running Next DNS, and so you're having all the same protection. So that's cool. So you can install it on every individual computer, but we have so many devices on our local network.
 
-**Adam Stacoviak:** That's painful. You want \[unintelligible 01:13:13.20\]
+**Adam Stacoviak:** That's painful. You want to do network-wide.
 
 **Jerod Santo:** And they're coming and going... So I just did it that way. And it works great, until it just stops working.
 
@@ -1692,7 +1692,7 @@ Now their better UX, I guess, would be it just doesn't break, ever... But some o
 
 **Mat Ryer:** Who doesn't think that that's a good idea...?
 
-**Jerod Santo:** I know... And on Mastodon it was... Loading slower, because it's federated. 80% popular. Neither \[unintelligible 01:21:42.08\] very many votes, because it's kind of not too controversial, I would say. Just like good advice.
+**Jerod Santo:** I know... And on Mastodon it was... Loading slower, because it's federated. 80% popular. Neither poll pointed very many votes, because it's kind of not too controversial, I would say. Just like good advice.
 
 **Mat Ryer:** This one has stayed with me. I think about this a lot, and I've started doing it --
 
@@ -1750,7 +1750,7 @@ Now their better UX, I guess, would be it just doesn't break, ever... But some o
 
 **Jerod Santo:** You should follow up...
 
-**Mat Ryer:** GitHub? \[unintelligible 01:23:50.23\] about in its database? That's insane. Wow.
+**Mat Ryer:** GitHub? Is he talking about in its database? That's insane. Wow.
 
 **Jerod Santo:** Over on Mastodon, 88% of people agree with you.
 
@@ -1852,7 +1852,7 @@ Now their better UX, I guess, would be it just doesn't break, ever... But some o
 
 **Mat Ryer:** Yeah.
 
-**Adam Stacoviak:** I think there's a lot to be said there. It's like, when you use headphones, you want to go into your own space, with your own private music, and not disrupt others. And that's kind of where Vision Pro is trying to go, from a consumer standpoint. Now, a business application may be way different, of course, but from a consumer standpoint, it's like headphones plus-plus kind of thing. So I'm not excited about the price tag, but I really do want them. I really do want to enjoy what can be done there. Hopefully, the world gets more \[unintelligible 01:28:30.27\] I'm sure it would.
+**Adam Stacoviak:** I think there's a lot to be said there. It's like, when you use headphones, you want to go into your own space, with your own private music, and not disrupt others. And that's kind of where Vision Pro is trying to go, from a consumer standpoint. Now, a business application may be way different, of course, but from a consumer standpoint, it's like headphones plus-plus kind of thing. So I'm not excited about the price tag, but I really do want them. I really do want to enjoy what can be done there. Hopefully, the world gets more vast, I'm sure it would.
 
 **Mat Ryer:** Yeah. I was surprised by the price. But normally, if you've got a 4k TV, that's 4k shared between both eyeballs. In the Apple Vision Pro you get 4k per eyeball. So both eyeballs each get 4k.
 
@@ -1978,7 +1978,7 @@ Now their better UX, I guess, would be it just doesn't break, ever... But some o
 
 **Mat Ryer:** Would you plug it in, or just have it in your pocket, like your phone? Why don't you just use your phone?
 
-**Adam Stacoviak:** Well, it would be for the computer, \[unintelligible 01:34:28.22\]
+**Adam Stacoviak:** Well, it would be for the computer, to biometric to it.
 
 **Mat Ryer:** Yeah, so it'd be USB. Wired or Bluetooth?
 
@@ -2056,7 +2056,7 @@ Now their better UX, I guess, would be it just doesn't break, ever... But some o
 
 **Adam Stacoviak:** Yeah, \[unintelligible 01:37:20.13\]
 
-**Mat Ryer:** \[unintelligible 01:37:21.29\]
+**Mat Ryer:** It sounds like I'm putting it on.
 
 **Jerod Santo:** It sounds like a vitamin. Auto.
 
