@@ -118,7 +118,7 @@
 
 **Adam Stacoviak:** And now that you say that - I mean, it would be smart of us as a business to do that. But it would be obvious. So no, we don't. But you know...
 
-**Mat Ryer:** \[00:06:01.09\] Yeah. You could sell Mat Ryer underwear, and I would \[unintelligible 00:06:03.11\] my likeness of. And sell hundreds and thousands of copies. Not copies, but editions... And I see none of that.
+**Mat Ryer:** \[06:01\] Yeah. You could sell Mat Ryer underwear, and I would \[unintelligible 00:06:03.11\] my likeness of. And sell hundreds and thousands of copies. Not copies, but editions... And I see none of that.
 
 **Adam Stacoviak:** Right. Underwear maybe not. I would say diapers. We'll probably put your likeness on diapers.
 
@@ -220,7 +220,7 @@
 
 **Adam Stacoviak:** Yeah, what's wrong with them? Why are they doing that to us?
 
-**Jerod Santo:** \[00:10:10.03\] So I've been rejecting ever since.
+**Jerod Santo:** \[10:10\] So I've been rejecting ever since.
 
 **Adam Stacoviak:** I've been wondering if this is like an MK Ultra thing...
 
@@ -338,7 +338,7 @@
 
 **Mat Ryer:** That's literally it. They're just like "Just stay till number six, and we'll get a bit \[unintelligible 00:13:55.29\]
 
-**Jerod Santo:** \[00:13:57.15\] "We'll be happy. Yeah, we'll get our clicks." You know...
+**Jerod Santo:** \[13:57\] "We'll be happy. Yeah, we'll get our clicks." You know...
 
 **Mat Ryer:** "And we can justify our existence making these horrible websites."
 
@@ -434,7 +434,7 @@
 
 **Jerod Santo:** How does that possibly make you move faster?
 
-**Mat Ryer:** \[00:18:02.18\] Well, it does for me. I don't know. But genuinely, it's about clarity of thought, and it's about validating things as you go. It's probably like there's a bit more friction, but it's really healthy friction. So maybe there's a bit of -- like, if you just didn't have any tests at all, and just knocking something out as a prototype. In a way, that's kind of different. In that case, I sometimes do do that. But if it's something that I expect to have a life, and it's going to exist properly, I'll TDD it as much as I can, baby... Because I like the things it forces you to think about.
+**Mat Ryer:** \[18:02\] Well, it does for me. I don't know. But genuinely, it's about clarity of thought, and it's about validating things as you go. It's probably like there's a bit more friction, but it's really healthy friction. So maybe there's a bit of -- like, if you just didn't have any tests at all, and just knocking something out as a prototype. In a way, that's kind of different. In that case, I sometimes do do that. But if it's something that I expect to have a life, and it's going to exist properly, I'll TDD it as much as I can, baby... Because I like the things it forces you to think about.
 
 **Jerod Santo:** Have you tried test-only?
 
@@ -474,7 +474,7 @@
 
 **Adam Stacoviak:** And throw Mat Depends on there too somewhere. I'm like Howard Stern right now. That's what Howard Stern does, with his musical guests. He's like "Just go. Give it to me." Go.
 
-**Mat Ryer:** \[00:20:13.17\]
+**Mat Ryer:** \[20:13\]
 
 *If you want your code to really have good legs... You've gotta wake up and drink 10 eggs... Yeah, drink them down, all those eggs; it's gross, I know, it's giving you salmonella... But it's worth it... It is worth it..."*
 
@@ -514,15 +514,15 @@
 
 **Adam Stacoviak:** That's where she was really found and discovered as a great actress.
 
-\[00:21:44.18\] *This is an impression of my boss, Leslie Knope. "Women should do everything. Check out my four-color pen. Hey, everybody, listen up while I talk about some really, really important stuff. Parks, parks, parks, parks, parks.* \[unintelligible 00:21:54.25\]
+\[21:44\] *This is an impression of my boss, Leslie Knope. "Women should do everything. Check out my four-color pen. Hey, everybody, listen up while I talk about some really, really important stuff. Parks, parks, parks, parks, parks.* \[unintelligible 00:21:54.25\]
 
-**Adam Stacoviak:** \[00:22:02.15\] She's a comedian, too. She's very comedic. She's also got a very serious face on her. And so you mentioned oat milk, and as a making fun of everybody who's drinking macadamia nut milk, and oat milk, and...
+**Adam Stacoviak:** \[22:02\] She's a comedian, too. She's very comedic. She's also got a very serious face on her. And so you mentioned oat milk, and as a making fun of everybody who's drinking macadamia nut milk, and oat milk, and...
 
 **Jerod Santo:** Almond milk, and...
 
 **Adam Stacoviak:** ...pick whatever you can get milk out of milk, almond milk, you know... She said that she was revolting and going -- there's all these woods around her; she wanted to get milk from the woods.
 
-\[00:22:25.11\] *Now, let's take a look at how wood milk was born. Not born exactly. More like squished into a slime that's legal to sell.*
+\[22:25\] *Now, let's take a look at how wood milk was born. Not born exactly. More like squished into a slime that's legal to sell.*
 
 **Adam Stacoviak:** And so she would chop down the tree... It's a whole thing. You should check it out on YouTube.
 
@@ -578,7 +578,7 @@
 
 **Mat Ryer:** Play some sad music over this and I think the listeners would get a sense of this.
 
-\[00:24:59.00\] *Dear Diary, today was not an easy day. I'm afraid the compiler complained that I didn't have a semicolon in a really specific place. And... Like, it's the computer. So it knows; it's the one telling me that it needs a semicolon there. Put it there! Diary, it should just put it there itself. I'm livid. I didn't have my coffee this morning, because I was ill-prepared... And I'm worried about my likeness ownership on different streams I've been on. See you later, Diary. Bye!"*
+\[24:59\] *Dear Diary, today was not an easy day. I'm afraid the compiler complained that I didn't have a semicolon in a really specific place. And... Like, it's the computer. So it knows; it's the one telling me that it needs a semicolon there. Put it there! Diary, it should just put it there itself. I'm livid. I didn't have my coffee this morning, because I was ill-prepared... And I'm worried about my likeness ownership on different streams I've been on. See you later, Diary. Bye!"*
 
 **Jerod Santo:** Of all the people to be worried about their likeness, Mat, I just don't think that'd be something that you should be concerned with.
 
@@ -588,7 +588,7 @@
 
 **Adam Stacoviak:** That's right.
 
-**Jerod Santo:** \[00:25:56.25\] That reminds me of the Fly control command line tool. Fly. When you type fly, whatever, whatever, if there's a new version, it says "Update available. To update, type fly version upgrade." And I always wonder, why should I type upgrade if I want to update? Shouldn't I just type update? Inconsistencies... Hold on to that thought, we'll come back to it with developer experience, because that is annoying... Also, just go ahead and upgrade it for me. I'm fine, you know...
+**Jerod Santo:** \[25:56\] That reminds me of the Fly control command line tool. Fly. When you type fly, whatever, whatever, if there's a new version, it says "Update available. To update, type fly version upgrade." And I always wonder, why should I type upgrade if I want to update? Shouldn't I just type update? Inconsistencies... Hold on to that thought, we'll come back to it with developer experience, because that is annoying... Also, just go ahead and upgrade it for me. I'm fine, you know...
 
 **Mat Ryer:** Yeah, but still, it's quite a good experience. Quite a good developer experience, isn't it? ...telling you that, in that moment when you're using it, there's an update? Quite nice.
 
@@ -704,7 +704,7 @@
 
 **Jerod Santo:** He won't reveal his top three. Mat Ryer's top three survival tips...
 
-**Mat Ryer:** \[00:29:54.29\] Okay, it's the top three now. Not survival tips. These are thrivalists, if you want to be an X 10 developer. Number three - keep things simple. Really actually do keep things simple. One of the things that slows us down - this is a real one. One of the things that really slows us down, because things are complicated to do, and we build a lot of that complexity ourselves. So avoid doing it for as long as you can, and take on the hit later of having to go and refactor stuff, because you do it when you're in a position where you really understand it.
+**Mat Ryer:** \[29:54\] Okay, it's the top three now. Not survival tips. These are thrivalists, if you want to be an X 10 developer. Number three - keep things simple. Really actually do keep things simple. One of the things that slows us down - this is a real one. One of the things that really slows us down, because things are complicated to do, and we build a lot of that complexity ourselves. So avoid doing it for as long as you can, and take on the hit later of having to go and refactor stuff, because you do it when you're in a position where you really understand it.
 
 It's not to say don't design, and obviously, there's loads of things that you can move at the speed of light before... But when it comes to actually doing things and building it and making decisions, like about what dependencies you bring in, about what packages you're using, what features you're going after, what problems you're trying to solve - the more complex that is, the harder everything is. So there's a genuine tip for how to do - it's really about focus. Keep things simple. Don't overdo it. Don't let this scope creep. If it's going to creep, creep it smaller, if you can.
 
@@ -822,7 +822,7 @@ It's not to say don't design, and obviously, there's loads of things that you ca
 
 **Adam Stacoviak:** Here's another one I want to do at some point... And this is kind of like - people have done this one though, so I probably wouldn't do it... And I wrote this down probably forever ago, before people were doing this more often. In particular, Network Chuck. He's done this. He's a coffee guy.
 
-**Mat Ryer:** \[00:34:10.03\] Is it gonna be "Something-something-something. That's the tweet"?
+**Mat Ryer:** \[34:10\] Is it gonna be "Something-something-something. That's the tweet"?
 
 **Adam Stacoviak:** No, not at all.
 
@@ -906,7 +906,7 @@ It's not to say don't design, and obviously, there's loads of things that you ca
 
 **Mat Ryer:** Oh, they're amazing. I love those embarrassing ones.
 
-**Jerod Santo:** \[00:37:49.05\] So I will say this... I'm not going to name the podcast, the episode number or the guest, but I will say that we have had an episode of one of our podcasts where a single question asked by the interviewer spawned a response that lasted 18 minutes.
+**Jerod Santo:** \[37:49\] So I will say this... I'm not going to name the podcast, the episode number or the guest, but I will say that we have had an episode of one of our podcasts where a single question asked by the interviewer spawned a response that lasted 18 minutes.
 
 **Adam Stacoviak:** I know the podcast, not the episode number. I've tried to forget it.
 
@@ -1022,7 +1022,7 @@ safest.
 
 **Adam Stacoviak:** No, it's called K2. It's like B12, K2, you know...
 
-**Mat Ryer:** \[00:42:10.15\] But hang on, you're not one of these people that just believes anything, are you? \[laughter\] I don't know how real we should take that. Are you reliable? Just objectively...
+**Mat Ryer:** \[42:10\] But hang on, you're not one of these people that just believes anything, are you? \[laughter\] I don't know how real we should take that. Are you reliable? Just objectively...
 
 **Jerod Santo:** I will just say, blanket statement - we do not have medical advice here on Changelog podcasts. Consult your local doctor.
 
@@ -1074,7 +1074,7 @@ safest.
 
 **Jerod Santo:** I haven't noticed.
 
-**Mat Ryer:** \[00:45:42.26\] Oh, yeah... So I'm quite particular about things. Like, if there's a bit of smell in the code, it bothers me. And this is unusual for such a 10x-er as myself, because normally that's the trade-off, is like, you're just moving really quickly, and what you produce isn't really high-quality. But actually, the opposite. Keep it high-quality. Linters help you do that. A lot of the Go tools tend to be -- they don't have loads of configuration, so you get a lot of kind of defaults that are pretty sensible as well.
+**Mat Ryer:** \[45:42\] Oh, yeah... So I'm quite particular about things. Like, if there's a bit of smell in the code, it bothers me. And this is unusual for such a 10x-er as myself, because normally that's the trade-off, is like, you're just moving really quickly, and what you produce isn't really high-quality. But actually, the opposite. Keep it high-quality. Linters help you do that. A lot of the Go tools tend to be -- they don't have loads of configuration, so you get a lot of kind of defaults that are pretty sensible as well.
 
 **Jerod Santo:** What all do you think should go into a linter? And how does that compare with go fmt? Is that a linter? Is it just a formatter? Are these the same things, are these different?
 
@@ -1140,7 +1140,7 @@ So yeah, shout-out to the linters of the world. We love you. You're pedantic, yo
 
 **Jerod Santo:** There is a linter for Elixir that I set up on our project and I used for a little while, and it just got too annoying, so I turned it off and I moved on.
 
-**Mat Ryer:** \[00:50:14.23\] What kind of things was it saying? Just like "You suck! Why would you do this? Learn this!"
+**Mat Ryer:** \[50:14\] What kind of things was it saying? Just like "You suck! Why would you do this? Learn this!"
 
 **Jerod Santo:** Yeah, mostly those things.
 
@@ -1196,7 +1196,7 @@ So yeah, shout-out to the linters of the world. We love you. You're pedantic, yo
 
 **Mat Ryer:** Well, before we get into that, just - the plane is like in the atmosphere; if it's like a fluid, the plane is bouncing on that fluid. It probably is wobbling all the time. It's probably something like that. And then --
 
-**Jerod Santo:** \[00:53:53.05\] I've been on airplanes, they do wobble quite a bit.
+**Jerod Santo:** \[53:53\] I've been on airplanes, they do wobble quite a bit.
 
 **Adam Stacoviak:** That's true, yeah.
 
@@ -1236,7 +1236,7 @@ The other thing interestingly, is gravity, the word - do you know how we say it 
 
 **Mat Ryer:** Alright.
 
-\[00:55:27.17\] *It is tool time... It is tool time...*
+\[55:27\] *It is tool time... It is tool time...*
 
 **Mat Ryer:** Yeah. \[unintelligible 00:55:52.13\]
 
@@ -1284,7 +1284,7 @@ The other thing interestingly, is gravity, the word - do you know how we say it 
 
 **Adam Stacoviak:** For sure, yeah. I mean, I didn't brand the company, but I assume it's because it takes one password to get into the application 1Password. Now, this week when we're talk about passkeys; or actually next week... When the heck is this going out, Jerod?
 
-**Jerod Santo:** \[00:58:12.10\] This goes out on Friday. So it will go out this Friday; passkeys is already out there in the feed.
+**Jerod Santo:** \[58:12\] This goes out on Friday. So it will go out this Friday; passkeys is already out there in the feed.
 
 **Mat Ryer:** I could be dead then, when this goes out, if I'm not careful.
 
