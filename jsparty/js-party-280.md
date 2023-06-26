@@ -132,7 +132,7 @@ And so I think just decoupling deployment and feature releases is one... And the
 
 I think in the node or CLI kind of world, it's probably like environment variables, or things like that, where you're saying, "Okay, this is the default, but you can override it in this way, so we can experiment in these cases", and then at some point maybe the default flips, but you still have the ability to disable it by passing this environment variable, or something like that.
 
-**Christopher Hiller:** To me, that just sounds -- it's just the option. It's just like \[unintelligible 00:31:13.03\] or something like that. And so is feature flag just like a marketing term then? Because sure, we've always had these things, right?
+**Christopher Hiller:** To me, that just sounds -- it's just the option. It's just like "- pass e to grep" or something like that. And so is feature flag just like a marketing term then? Because sure, we've always had these things, right?
 
 **Kevin Ball:** So one difference in the web world is it's often not controlled by the user. It's not a user option, in some way. it is "This is something that we can, as the controlling engineers, toggle based on conditions that we care about", which might be "Are you a beta user?", which might be "Are you an admin?", which might be "Are we past some date?", which might be "Have we flipped the switch in the database?"
 
@@ -170,7 +170,7 @@ But I think for me, at minimum, as an engineering lead, I like to think about lo
 
 **Amal Hussein:** Like I said, it's subjective, yeah.
 
-**Kevin Ball:** I think one of the keys here is how do you know it's done? And if you can label "This is what done looks like." One way I've seen that is "Acceptance Criteria. These things are happening." Or if the ticket is a bug, it's like, this thing broke - it shouldn't be broken. Right? And there, you do want enough detail to reproduce the bug, for sure. And that's a place I think, Chris, where maybe this is helpful, if you want all the detail necessary to get to a \[unintelligible 00:36:52.23\] Even if the person who's reporting this ticket or issue has no idea how any of the pieces underneath that are going to work. Because that reproduction information - and I know this is maybe an unrealistic ask for most open source users, but that's what gets you to the point where you can just pick this up and run with it.
+**Kevin Ball:** I think one of the keys here is how do you know it's done? And if you can label "This is what done looks like." One way I've seen that is "Acceptance Criteria. These things are happening." Or if the ticket is a bug, it's like, this thing broke - it shouldn't be broken. Right? And there, you do want enough detail to reproduce the bug, for sure. And that's a place I think, Chris, where maybe this is helpful, if you want all the detail necessary to get to a repro. Even if the person who's reporting this ticket or issue has no idea how any of the pieces underneath that are going to work. Because that reproduction information - and I know this is maybe an unrealistic ask for most open source users, but that's what gets you to the point where you can just pick this up and run with it.
 
 **Christopher Hiller:** Right, yeah. There's Stack Overflow's Minimal Viable Example. I used to copy and paste that URL all the time. It describes how to show a reproducible example, with some code, or something. And that's the gold standard, that is the North Star, as you would say. That's what we want from any bug report, is "Just show me the quickest way, and easiest, and most minimal way to reproduce this, so we can fix it." But that mostly doesn't shake down like that. It runs the gamut from "It doesn't work" to -- in the best case, it's... You know, somebody's just like "Oh, I can't show you the code, because it's proprietary", or "Here's this huge repo that you can check out." That's about the best you can hope for.
 
@@ -200,7 +200,7 @@ And in terms of when you're working on something that's like a product feature, 
 
 **Amal Hussein:** For sure.
 
-**Kevin Ball:** So you're not having to be pinged by the five people who care about this. You're \[unintelligible 00:43:24.20\]
+**Kevin Ball:** So you're not having to be pinged by the five people who care about this. You're like "go look at the ticket, it's up to date."
 
 **Amal Hussein:** Yeah, yeah. That's good hygiene period, I think, and I stress that for my team all the time. It's like, any updates that are really noteworthy, whether they're for incidents or not - even for feature tickets - you should put a note, be remote-first, truly, right? Put it in the ticket; put it in an issue ticket. Leave a log of your updates.
 
