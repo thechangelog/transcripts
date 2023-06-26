@@ -84,7 +84,7 @@ So all of these unphishable, really high-security properties are really importan
 
 **Adam Stacoviak:** Yeah, like, how does this work? Is it now passkeys, or is it both?
 
-**Anna Pobletts:** So WebAuthn is the specification from W3C. If you \[unintelligible 00:19:33.07\] a really long read, feel free to go check it out. Passkeys is the user-friendly term. Like, if I were to just go to my mom and talk about WebAuthn credentials, that's not a very approachable term. And so part of renaming them passkeys instead of just sinkable WebAuthn credentials was to make it accessible to people, not make them scared of it, be able to put that on my target.com website and say passkeys and not have people kind of just be really confused.
+**Anna Pobletts:** So WebAuthn is the specification from W3C. If you want a really long read, feel free to go check it out. Passkeys is the user-friendly term. Like, if I were to just go to my mom and talk about WebAuthn credentials, that's not a very approachable term. And so part of renaming them passkeys instead of just sinkable WebAuthn credentials was to make it accessible to people, not make them scared of it, be able to put that on my target.com website and say passkeys and not have people kind of just be really confused.
 
 **Adam Stacoviak:** WebAuthnn is so much cooler -- I'm just kidding, it's not cool.
 
@@ -140,7 +140,7 @@ So the way we were thinking about it is both Passage and the password manager ar
 
 **Adam Stacoviak:** Well, we like that. It's part of it.
 
-**Jerod Santo:** Yeah. You might have to ascend up through the \[unintelligible 00:29:57.24\] Keep going.
+**Jerod Santo:** Yeah. You might have to ascend up through the roof, but -- Keep going.
 
 **Adam Stacoviak:** \[30:01\] Yeah. Well, the point is that whatever the process is - WebAuthn, passkeys, the DBA for this cool new biz... It's essentially I have to authenticate to my device first, and the device says, "Okay, this is truly Adam, so you can now passkey away." And that's what I love. Even now, being SSH-ing into machines with -- I know I'm not biometrically sending my stuff over there to the machine, but it's authenticating me to my device. "Yes, this is Adam. Trust this process. There you go." That's the future, to prove I'm me in the best way possible, and that's how you do it.
 
@@ -182,7 +182,7 @@ Now we're at a place with passkeys where you have to think less. There's still s
 
 **Adam Stacoviak:** Okay, great.
 
-**Anna Pobletts:** \[unintelligible 00:33:40.14\]
+**Anna Pobletts:** Break the tie.
 
 **Adam Stacoviak:** Two to one here. That does not help, Anna. Thanks for nothing.
 
@@ -422,7 +422,7 @@ I would love to see how it works inside of our Elixir and Phoenix framework, to 
 
 **Adam Stacoviak:** It's orange.
 
-**Jerod Santo:** I like \[unintelligible 01:07:47.22\]
+**Jerod Santo:** I like Menards.
 
 **Adam Stacoviak:** Okay...
 
