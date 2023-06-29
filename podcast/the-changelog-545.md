@@ -12,7 +12,7 @@
 
 **Adam Stacoviak:** When you rebuild, do you demolish along the way? Do you obsolete things along the way? And if so, what dies?
 
-**Adam Jacob:** Well - yeah, okay, look... So I suppose we should back up. Maybe I \[unintelligible 00:05:28.14\] straight to incendiary too soon... \[laughter\]
+**Adam Jacob:** Well - yeah, okay, look... So I suppose we should back up. Maybe I went straight to incendiary too soon... \[laughter\]
 
 **Jerod Santo:** wait a few minutes...
 
@@ -353,7 +353,7 @@ But then you're probably going to be like "You know what would be easier than fu
 
 **Jerod Santo:** Yeah, we're aspirational now.
 
-**Adam Jacob:** This is all aspirational. So just so we're clear, I'm not saying you can come do this stuff right now; if you think you can, you're going to be disappointed. But this is what we're building for. And we know it will work, because we've built prototypes where they work this way. So you can say, imagine that you need a DBA, or someone... Let's say I need a DBA and a principal engineer to approve any change that requires rebooting the production database. And so Jerod and Adam, go and whip up a change that requires touching the production database, that's going to require the action rebooting it. So rather than just being able to apply that action immediately, instead of pulling it into a PR, we can just use the data about the impacted objects, and say "In order for this to be applied, you need the real-time permission from these four people." And then they can just log into System Initiative and in real time join your change set and see the screen that says "Hey, Adam and Jerod - this is what they want to do. Here's all the things they said. They want to do it right now. Yes or no?" And it's a little more like submarine captains launching nukes, which is a weird analogy, and I'm sorry I used it, but I don't have a better one, and it feels really evocative, from \[unintelligible 00:47:42.16\]
+**Adam Jacob:** This is all aspirational. So just so we're clear, I'm not saying you can come do this stuff right now; if you think you can, you're going to be disappointed. But this is what we're building for. And we know it will work, because we've built prototypes where they work this way. So you can say, imagine that you need a DBA, or someone... Let's say I need a DBA and a principal engineer to approve any change that requires rebooting the production database. And so Jerod and Adam, go and whip up a change that requires touching the production database, that's going to require the action rebooting it. So rather than just being able to apply that action immediately, instead of pulling it into a PR, we can just use the data about the impacted objects, and say "In order for this to be applied, you need the real-time permission from these four people." And then they can just log into System Initiative and in real time join your change set and see the screen that says "Hey, Adam and Jerod - this is what they want to do. Here's all the things they said. They want to do it right now. Yes or no?" And it's a little more like submarine captains launching nukes, which is a weird analogy, and I'm sorry I used it, but I don't have a better one, and it feels really evocative, from like, one ping and only \[unintelligible 00:47:42.16\]
 
 **Adam Stacoviak:** Requires like two keys, right?
 
@@ -484,7 +484,7 @@ And the hard part is that most people don't actually believe what I just said. I
 
 **Adam Stacoviak:** Does a license matter in this scenario? Like, you choose a particular license to ensure the war for the soul of open source survives this initiative you're on?
 
-**Adam Jacob:** Thank you, \[unintelligible 01:03:50.14\] That was a joke. That was a deep cut.
+**Adam Jacob:** Thank you, \[unintelligible 01:03:50.14\] You know I think -- That was a joke. That was a deep cut.
 
 **Adam Stacoviak:** I didn't catch it.
 
@@ -536,7 +536,7 @@ So I like the Apache License quite a bit for this... I think the MPL would also 
 
 **Jerod Santo:** Well, it's got to get in there somehow, right? Like, that's what ultimately gets deployed, right?
 
-**Adam Jacob:** \[01:10:01.24\] Yeah, so if you think about it as an input though, then you don't have to think so much about "Well, I have to alter my toolchains", or any of those things. It can just be an input that then informs the behavior later on. So rather than thinking about modeling, like writing \[unintelligible 01:10:14.10\] should keep it there, maybe it's more understanding what the outputs of that process are, and then using those as inputs to how the system needs to change when those inputs change.
+**Adam Jacob:** \[01:10:01.24\] Yeah, so if you think about it as an input though, then you don't have to think so much about "Well, I have to alter my toolchains", or any of those things. It can just be an input that then informs the behavior later on. So rather than thinking about modeling, like writing all the source code and system issues to keep it there, maybe it's more understanding what the outputs of that process are, and then using those as inputs to how the system needs to change when those inputs change.
 
 **Jerod Santo:** Cool. So what does it look like today? You've described it tomorrow, we've described it a little bit today, but let's get exactly what you have on offer.
 
@@ -554,7 +554,7 @@ I don't know that it'll be ready -- it'll be a minute before I think it's ready 
 
 **Adam Jacob:** Totally. And I think the work to figure out how to do that bi-directional discovery - it's in flight right now. But the user experience is really the tough part. So thinking about how it works in the underparts, in the graph, is relatively straightforward. Thinking about what the user experience is for letting you choose - that's where the hard stuff is. And we'll do that through lots of user studies, and lots of testing.
 
-**Adam Stacoviak:** So is this a SaaS, essentially? Will somebody go there whenever it's launched today, essentially, to play with it? They have to put a credit card in... Is it \[unintelligible 01:12:54.11\]
+**Adam Stacoviak:** So is this a SaaS, essentially? Will somebody go there whenever it's launched today, essentially, to play with it? They have to put a credit card in... Is it \[unintelligible 01:12:54.11\] growth? Is it PLG?
 
 **Adam Jacob:** So right now it's actually just -- it'll be software you download, and you can run it. Or source code you check out and compile. It will be SaaS software as well. So the first one will probably be like a bring-your-own-cloud kind of SaaS, and then roughly when that discovery work lands is when we'll turn on full multi-tenant show up, bring-a-credit-card kind of SaaS, because the onboarding experience will be dope.
 
@@ -642,7 +642,7 @@ I don't know that it'll be ready -- it'll be a minute before I think it's ready 
 
 **Adam Jacob:** And here we are.
 
-**Jerod Santo:** \[unintelligible 01:16:39.17\] we're gonna do it.
+**Jerod Santo:** Dognabbit we're gonna do it.
 
 **Adam Jacob:** Yeah, let's get it done.
 
