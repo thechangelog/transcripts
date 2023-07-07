@@ -14,7 +14,7 @@
 
 **Taylor Troesh:** And over there I write about humor, software, lots of design stuff... And time. I'm a little bit obsessed with time, so you'll see a lot of posts about time. I am currently doing freelance stuff; you can find more about hiring me on my page; always doing random projects... Just open sourced a time management utility called Nowify. A lot of people have been interested in that. I'm working on a programming language called Scrapscript... I'm just all over the place.
 
-**Jerod Santo:** \[unintelligible 00:05:30.10\] What about time? I mean, why do you obsess with time? Why do you like this concept? Tell me more.
+**Jerod Santo:** You're just doing all sorts of stuff. What about time? I mean, why do you obsess with time? Why do you like this concept? Tell me more.
 
 **Taylor Troesh:** You know, my grandpa growing up, I think it was him. He's like an engine of a human being, and he would always growing up throughout my lifetime talk about how many weekends he thought he had left.
 
@@ -288,7 +288,7 @@ For me, I think Python is one that people mistake for a tool that's in everybody
 
 **Taylor Troesh:** Yeah. It's hard to pick out -- like, in the '60s I think it would have been really hard to pick out which parts were going to be around in another 50 years. Because you can ask them, none of them knew what they were doing. The people in Xerox PARC, they're like "Yeah, this sounds cool. How about a--" And you have Metcalf. He's like "Oh yeah, Ethernet. We just need to plug these things together." You didn't know Ethernet was going to be around, or the defining thing that connects the world together.
 
-**Jerod Santo:** Yeah, that's totally true. I was thinking about that a little bit with TCP and UDP. The new version of H3 and \[unintelligible 00:43:49.25\] and all that stuff, they're building it over UDP.
+**Jerod Santo:** Yeah, that's totally true. I was thinking about that a little bit with TCP and UDP. The new version of H3 and QUIC and all that stuff, they're building it over UDP.
 
 **Taylor Troesh:** It took us a long time to get -- there were a lot of problems with the TCP and HTTP stack. I am glad that we're kind of moving over to this UDP thing. That's an example of a design decision -- I don't think the person or the group that invented TCP really intended this much information being sent over it. Like, if they knew how serious it was going to be, they would have just thought of something different.
 
@@ -423,7 +423,7 @@ And Scrapscript also comes with its own compact byte format. Think of like Messa
 
 And I think this is one of those 50-year problems. We were talking a lot about trying to make software that lasts... I want to make a spec more like JSON, where JSON doesn't need to change. The tooling surrounding it - there's always new tools that use JSON, and I want an evolving ecosystem around Scrapscript. I don't want the spec to change. I don't want new language features. It's more of like a data change format, but you can also code in it.
 
-So I am working on getting a spec out that's coherent. The language itself, you can write a crappy interpreter in a weekend. It's not that complicated. So I'm trying to get the important things done right. So that it last 50 years. 50 years is the \[unintelligible 01:03:06.08\]
+So I am working on getting a spec out that's coherent. The language itself, you can write a crappy interpreter in a weekend. It's not that complicated. So I'm trying to get the important things done right. So that it last 50 years. 50 years is the hope.
 
 **Jerod Santo:** Okay. Well, you do have a website out there, so people who are inspired by the idea, Scrapscript.org. Like you said, there's a news feed people can hook into... That's cool. Is it going to be community? Is it going to be open source? Is it going to be -- what.
 
