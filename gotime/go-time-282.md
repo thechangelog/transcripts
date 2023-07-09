@@ -44,7 +44,7 @@ Then the third part, which I think we don't talk about very often, is the extens
 
 **Natalie Pistunovich:** \[laughs\] That's a fair disclaimer. You mentioned you've been with Kubernetes, or been using it for five, six years or so. And you also mentioned you find comfortable saying that you generally understand it. Would you say that it's the same easiness of understanding it for somebody who steps in now, given that it obviously grew with complexity over the time?
 
-**Abdel Sghiouar:** \[00:05:46.19\] No, definitely not. I think that the problem, or the challenge with Kubernetes, as any technology, is that you need to understand why it exists, to understand what problems it solves. And I'm not advocating here that every single person who \[unintelligible 00:05:58.08\] your students, I'm not advocating that every single person who is trying to come to the tech world and to DevOps, that they should go spend a year racking and stacking servers and writing Bash scripts to feel the pain, so they can fall in love with Kubernetes because it solves these problems.
+**Abdel Sghiouar:** \[05:46\] No, definitely not. I think that the problem, or the challenge with Kubernetes, as any technology, is that you need to understand why it exists, to understand what problems it solves. And I'm not advocating here that every single person who \[unintelligible 00:05:58.08\] your students, I'm not advocating that every single person who is trying to come to the tech world and to DevOps, that they should go spend a year racking and stacking servers and writing Bash scripts to feel the pain, so they can fall in love with Kubernetes because it solves these problems.
 
 **Natalie Pistunovich:** Bootcamp.
 
@@ -62,7 +62,7 @@ Then the third part, which I think we don't talk about very often, is the extens
 
 I wouldn't say it's a lot -- there's a lot of unnecessary configuration. I almost feel like every line in that config is important and does something, and you can just omit those lines, and the defaults are pretty good. So yeah, I would say it's actually a very, very -- it's probably the best infrastructure management system that I've come across, even comparing to what Google does internally. I've really liked Kubernetes, but it takes a while to learn it. And once you learn it, it's fun and you can do stuff. It's just that first hump, and... Yeah.
 
-**Break**: \[00:08:52.27\]
+**Break**: \[08:52\]
 
 **Natalie Pistunovich:** Joe, what is your experience with Kubernetes? Have you worked with it in production? Have you used it for long?
 
@@ -80,7 +80,7 @@ The second thing, which I think is so important... And I'm not tooting on our ow
 
 And you said something very interesting, Joe, that is getting out of your marketing Manchester to work with international customers you realized a lot of people use Kubernetes. I think that that's the unfortunate consequences of the DevOps and Shift Left movement. Because what's happening right now in our industry is that we're just expecting developers to know more. 10-15 years ago you'd go to work, you'd write code, you'd ship a binary and you'd go home. That's it. That's a Java developer. Probably you do some tests, or not... No one expected you to know how to SSH into a server. No one expected you to know how to set up an SSL certificate. That was not even an expectation.
 
-\[00:16:23.11\] But now, I think you're all aware there was this massive thing called full-stack engineering, where we suddenly expect engineers to do everything: frontend, backend, security, storage, databases... Like, when was the last time you heard of a DBA? It was maybe like 15 years ago. They probably still exist, but we don't hear about them that much.
+\[16:23\] But now, I think you're all aware there was this massive thing called full-stack engineering, where we suddenly expect engineers to do everything: frontend, backend, security, storage, databases... Like, when was the last time you heard of a DBA? It was maybe like 15 years ago. They probably still exist, but we don't hear about them that much.
 
 And I think this is the core of probably the -- I wouldn't call it the problem, but the debate... It's like, why do you as a developer feel you need to learn all of Kubernetes? So the core of the problem is, if you think it's complex because you have to learn it, then the question is "Why do you have to learn it?" Are you in the right setup? And what I mean by the right setup, I mean the company, the organization, the team, the way you are structured, that is trying to utilize your time to the maximum, instead of having you waste time doing things you don't need to do.
 
@@ -92,7 +92,7 @@ So I see this to be the power of Cloud Functions, and to me, the thing about Clo
 
 **Joe Davidson:** Yeah. So I guess personally, I've not really felt those constraints. The last project I worked for, we were working for an insurance company, and we were basically having to generate quotes for hundreds of policies, essentially, a second. So it might not be on the scale of a Google application, but we were getting quite a fair amount of throughput, and just kind of using lambdas, using Go... We didn't have to think too much about performance apart from in our actual code. So in any parts where we were fanning out requests and fanning back in, we could use goroutines... But the actual kind of infrastructure - I don't think it was working against us.
 
-\[00:20:19.15\] I suppose that the only kind of constraints that we did have, admittedly, were for hosting frontends. So we were doing server-side-rendered frontends, which I think Cloud Functions aren't too fit for purpose for... So that's when we kind of upgraded a level to a managed container. So we would deploy it just to Fargate, I think it was, which I guess is potentially, on AWS at least, the easiest way to just deploy your container. So we just built the frontend and deployed it there.
+\[20:19\] I suppose that the only kind of constraints that we did have, admittedly, were for hosting frontends. So we were doing server-side-rendered frontends, which I think Cloud Functions aren't too fit for purpose for... So that's when we kind of upgraded a level to a managed container. So we would deploy it just to Fargate, I think it was, which I guess is potentially, on AWS at least, the easiest way to just deploy your container. So we just built the frontend and deployed it there.
 
 I have seen frontends hosted in serverless functions before, but I think the kind of proximity to the user was an issue, especially because we were using its node, so like the cold starts weren't as great as the \[unintelligible 00:21:04.20\] So yeah, in the kind of performance-intensive areas, I'd say yeah, we didn't feel those constraints. And if we wanted to, we could tune the configuration, we could up the memory, set some provision concurrency if you're expecting a certain amount of load... So yeah, I wouldn't say I felt that, but maybe we hadn't reached the kind of throughput that would require a move to Kubernetes.
 
@@ -110,7 +110,7 @@ I would ask Joe, actually -- so I feel like generally cloud databases have reall
 
 **Srdjan Petrovic:** It is, yeah, but you are accessing it from the browser, right? You're accessing a database.
 
-**Abdel Sghiouar:** \[00:24:07.17\] Correct. Yeah. I mean, sure. It's a very interesting conversation... So I'm a developer by education. I never really worked as a software engineer. So there is obviously a part of the kind of mentality that I miss, or I don't always get right, because I don't understand what you're trying to optimize for. I find it interesting that developers would always argue against Cloud in the way that you guys are arguing against it, or you folks are arguing against it. But then you would spend hours debating Go versus C, versus your favorite programming languages, and just kind of bashing the Java developers because you don't like Java, or Java developers bashing the Rust developers because Rust is for kids... It's very fascinating to me.
+**Abdel Sghiouar:** \[24:07\] Correct. Yeah. I mean, sure. It's a very interesting conversation... So I'm a developer by education. I never really worked as a software engineer. So there is obviously a part of the kind of mentality that I miss, or I don't always get right, because I don't understand what you're trying to optimize for. I find it interesting that developers would always argue against Cloud in the way that you guys are arguing against it, or you folks are arguing against it. But then you would spend hours debating Go versus C, versus your favorite programming languages, and just kind of bashing the Java developers because you don't like Java, or Java developers bashing the Rust developers because Rust is for kids... It's very fascinating to me.
 
 I think that the core of this question is what are you trying to optimize for? Are you trying to optimize for engineering cycles? In which case I would agree with both of you, that for each use case there is something that fits. And if your goal is to optimize for time and engineering efforts, then choose the simplest that works for you.
 
@@ -130,7 +130,7 @@ So yeah, so basically, on the spectrum of using the right tool for the right job
 
 **Srdjan Petrovic:** Go run. I mean, with a backing database. So you configure a database somewhere, and instead of running locally -- and that's what we... We're trying to -- I'm not just trying to argue something that we've written, but a simpler way to deploy an app that runs in a container, in the cloud, without I guess a lot of the hooks of... I mean, Kubernetes has so many hooks, which a lot of people find useful, and they are useful, of course... Memory, CPU utilization, what type of machine you're going to run on... But there are developers like Joe that just don't care, I guess. And for them, the overhead of Kubernetes is just a cognitive overhead.
 
-**Abdel Sghiouar:** \[00:27:53.01\] Have you had a chance to look at Google Cloud Run ? ...which is what Fargate is the equivalent of, essentially. Fargate or ECS, I think, is kind of the same.
+**Abdel Sghiouar:** \[27:53\] Have you had a chance to look at Google Cloud Run ? ...which is what Fargate is the equivalent of, essentially. Fargate or ECS, I think, is kind of the same.
 
 **Srdjan Petrovic:** Yeah, that's definitely a step in the right direction for me.
 
@@ -150,13 +150,13 @@ So yeah, so basically, on the spectrum of using the right tool for the right job
 
 **Abdel Sghiouar:** Okay, so what I wanted to mention, and the reason why I asked you about "Have you used Cloud Run ?" is I don't know if you're aware of this, but Cloud Run came actually because of Kubernetes. So two, three years after Kubernetes was released, the community worked together on something called Knative. I don't know if you know what's that. So Knative is a framework for Kubernetes that gives you an abstraction layer on top of Kubernetes so you can write and deploy apps in an easier way. This is kind of the most straightforward way I could explain it.
 
-It is an open source project. It was open-sourced by Google and a bunch of other companies... I think that today, no one runs Knative by themselves, because no one needs to do that... So Cloud Run is Knative under the hood. And actually, the Cloud Run API allows you to deploy your app using the simple way, which is gcloud run/deploy whatever, or you can actually use the Knative API, which is a YAML file. So you can write a Knative YAML file and submit it, and the API would accept it. So it's interesting that we had to go all the way into the extreme, which is Kubernetes, and had people fight and not like it, and then came somewhere in the middle to try to solve the problem with Cloud Run .
+It is an open source project. It was open sourced by Google and a bunch of other companies... I think that today, no one runs Knative by themselves, because no one needs to do that... So Cloud Run is Knative under the hood. And actually, the Cloud Run API allows you to deploy your app using the simple way, which is gcloud run/deploy whatever, or you can actually use the Knative API, which is a YAML file. So you can write a Knative YAML file and submit it, and the API would accept it. So it's interesting that we had to go all the way into the extreme, which is Kubernetes, and had people fight and not like it, and then came somewhere in the middle to try to solve the problem with Cloud Run .
 
 I would say, as Srdjan said, things are converging, in the sense that people are trying to make it easier for the top 70% or 80% of developers who just want to write code and don't have to worry too much about infrastructure.
 
 There are some things I wanted to mention... This is kind of weird and bizarre for me to talk about it, but I was in meetup a couple of weeks ago, and there were some folks from Microsoft talking about their -- I believe it's called Azure Application Containers, or something like that. It's a sort of like in between Fargate and Cloud Run type of thing. So it's the simplicity of Cloud Run, but with the knobs of Fargate, and with some of the knobs of Kubernetes... Because it is still Kubernetes under the hood, and they allow you to do this group applications in like a sort of like container. Not container in the sense of Docker, but container in the sense of their way of structuring the apps; their own kind of like namespace, if you want. Ad then the apps can talk to each other... They use DARP, or DAPR, one of these open source frameworks --
 
-**Srdjan Petrovic:** \[00:32:23.12\] DAPR, yeah.
+**Srdjan Petrovic:** \[32:23\] DAPR, yeah.
 
 **Abdel Sghiouar:** Yeah, DAPR. So these dapr.io for service discovery, and for the gRPC places and all of those things. So if you are building like a complex, multi-microservices application, it's actually -- it looks very darn good. Actually, I was very impressed with it. And the developer experience looks very good. The interface is awesome. So it's on my list of things I want to look at.
 
@@ -178,7 +178,7 @@ I guess you do have to kind of invest a lot in the tracing of information going 
 
 **Srdjan Petrovic:** It's interesting that people thought that even the RPCs themselves are too complex. So yeah, basically, there are people, like Abdel mentioned - and these are valid use cases - where they want infrastructure to get out of the way, and they want the simplest possible way to run code in the cloud, and there a ton of products out there.
 
-**Abdel Sghiouar:** \[00:36:04.02\] Yeah. And I think - back to the conversation, where we started with Knative. My line of thought there was I think that Kubernetes have probably done more good than bad, in the sense that it's allowed people to realize what's possible, and then allowed cloud providers to go and try to solve these things that people care about in a similar way. And that's why I mentioned earlier in the beginning that Kubernetes should today be perceived more as a platform, as something that you build on top of, instead of having to learn, and having to care about, essentially, in a way. I wish we get to a point where it becomes just an infrastructure layer. As Kelsey Hightower has said in one of his tweets, an operating system for the cloud. So it just does orchestration, and we don't have to worry too much about how it works under the hood. I think that's what I had in mind.
+**Abdel Sghiouar:** \[36:04\] Yeah. And I think - back to the conversation, where we started with Knative. My line of thought there was I think that Kubernetes have probably done more good than bad, in the sense that it's allowed people to realize what's possible, and then allowed cloud providers to go and try to solve these things that people care about in a similar way. And that's why I mentioned earlier in the beginning that Kubernetes should today be perceived more as a platform, as something that you build on top of, instead of having to learn, and having to care about, essentially, in a way. I wish we get to a point where it becomes just an infrastructure layer. As Kelsey Hightower has said in one of his tweets, an operating system for the cloud. So it just does orchestration, and we don't have to worry too much about how it works under the hood. I think that's what I had in mind.
 
 **Srdjan Petrovic:** Yeah, I agree. Hopefully, we'll get there. And hopefully, Service Weaver will just connect your services on top of whatever you're running... \[laughter\] If I could plug it again.
 
@@ -190,7 +190,7 @@ So it's interesting that when we got to the stage where people said "We need an 
 
 **Abdel Sghiouar:** Can I have a question for Joe? And then Joe can reply to Abdel as well. Are you concerned about portability? Because with Kubernetes at least, you can go from AWS to Azure to Google, right? GKE. So that's another nice feature of Kubernetes, is that you really aren't locked into the cloud provider. With Cloud Functions - Amazon has lambdas, Google has Cloud Functions... You're kind of locked into that development environment. Is that of any concern to you, personally, or to the people in your circle? Or do you trust that Amazon is going to keep their prices low enough that you don't really care?
 
-**Joe Davidson:** \[00:39:50.26\] No, it's not really a concern. It's a thought, but what we're more worried about is if we want to move into some other way of running the thing. So if, say, there's this thing that comes out that's like Kubernetes, but with more defaults, so it's as easy as Cloud Run, but you can slowly add configuration, then maybe we'd want to switch from --
+**Joe Davidson:** \[39:50\] No, it's not really a concern. It's a thought, but what we're more worried about is if we want to move into some other way of running the thing. So if, say, there's this thing that comes out that's like Kubernetes, but with more defaults, so it's as easy as Cloud Run, but you can slowly add configuration, then maybe we'd want to switch from --
 
 **Srdjan Petrovic:** So cost is not of any concern to you? I'm a little bit surprised, because these things do cost money... So why is it that the cost is of no concern to you? Is it because your workloads are not--
 
@@ -224,7 +224,7 @@ So it's interesting that when we got to the stage where people said "We need an 
 
 **Srdjan Petrovic:** It's Rust, yeah. \[laughter\] Or Java.
 
-**Abdel Sghiouar:** \[00:43:11.20\] So I would be curious to get your opinions - all of you, actually - about WASM, like this new kid's on the street. It's making rounds, it's making a lot of noise, there are conferences being organized around it...
+**Abdel Sghiouar:** \[43:11\] So I would be curious to get your opinions - all of you, actually - about WASM, like this new kid's on the street. It's making rounds, it's making a lot of noise, there are conferences being organized around it...
 
 **Natalie Pistunovich:** It almost sounds like you're proposing our next episode... And I do like this idea. I did find this conversation interesting. I would be interested in chatting with you all, maybe even about that, if you all will be open to this topic.
 
@@ -232,7 +232,7 @@ So it's interesting that when we got to the stage where people said "We need an 
 
 **Natalie Pistunovich:** Okay, Abdel, I am sold. There will be a part two about this topic.
 
-**Srdjan Petrovic:** I don't know much about Web Assembly, other than people have said that we should explore there. Service Weaver might be good for it, but I haven't looked any deeper into that. We're sticking with Go for now. We're riding the Go train.
+**Srdjan Petrovic:** I don't know much about WebAssembly, other than people have said that we should explore there. Service Weaver might be good for it, but I haven't looked any deeper into that. We're sticking with Go for now. We're riding the Go train.
 
 **Natalie Pistunovich:** It's also good, because there will be some time until the next episode, so you will have time to get on board with that. Joe, do you have any last words to say about your feelings about WASM? This will be our round of unpopular opinions for this episode... \[laughs\]
 
