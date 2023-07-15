@@ -44,7 +44,7 @@
 
 **Ben Johnson:** It was kind of a side project, I would say, for maybe a year or two. I was working at Shopify at the time, and we ended up using it internally. So it kind of got a lot of testing and validation from that. I think that kind of helped push it out to the community and people got more comfortable with it.
 
-\[00:06:11.19\] I think there's also just -- there weren't really any other key-value stores at the time; this was 2012-2013. So when you have just a dearth of options out there, people will use anything., it's shocking, honestly, the number of people that used Bolt in the early days... And thank goodness they did, it's better for them, but they're definitely living on the edge. Some people are just fine with using some cutting-edge database, and that's great. I mean, \[unintelligible 00:06:34.10\] people.
+\[06:11\] I think there's also just -- there weren't really any other key-value stores at the time; this was 2012-2013. So when you have just a dearth of options out there, people will use anything., it's shocking, honestly, the number of people that used Bolt in the early days... And thank goodness they did, it's better for them, but they're definitely living on the edge. Some people are just fine with using some cutting-edge database, and that's great. I mean, \[unintelligible 00:06:34.10\] people.
 
 **Ian Lopshire:** Yeah, sorry, to derail your question, Kris...
 
@@ -72,7 +72,7 @@ I think there's a certain level of trust you need to have with contributors as w
 
 **Ian Lopshire:** And how do you communicate that? Do you write documentation? Do you write articles? Just existing around the project?
 
-**Ben Johnson:** \[00:10:06.02\] Yeah, actually, docs is a huge thing. Honestly, if you're gonna start your own project, if you want it to become popular, really write docs. Devote time to docs, because no one else does. It's shocking, the level --, when I wrote Bolt... Honestly, it was always kind of \[unintelligible 00:10:18.25\] an example of really great docs... And I don't think it has amazing docs, but it's really just so many other projects -- basically GoDocs, and you just have the API, but no context around how to use things, or why things are implemented, or the design of it, any of those pieces... So I think people are really super-appreciative of that.
+**Ben Johnson:** \[10:06\] Yeah, actually, docs is a huge thing. Honestly, if you're gonna start your own project, if you want it to become popular, really write docs. Devote time to docs, because no one else does. It's shocking, the level --, when I wrote Bolt... Honestly, it was always kind of \[unintelligible 00:10:18.25\] an example of really great docs... And I don't think it has amazing docs, but it's really just so many other projects -- basically GoDocs, and you just have the API, but no context around how to use things, or why things are implemented, or the design of it, any of those pieces... So I think people are really super-appreciative of that.
 
 Again, I think software in general is kind of a -- there's a lot of trust; you can't read everyone's code all the time, you just have to trust that this thing works. And we go off of other people's use of it in the past, and someone else recommends a tool, and depending on how much we trust them, we might trust that tool as well. So I think anything you can do to kind of build that trust, docs, or writing blog posts, things that. Coming on podcasts... I think that goes a long way to actually just helping people feel more comfortable. At the end of the day, ultimately, it might just break down anyway; maybe it'll break, but hopefully, you can kind of develop trust over time.
 
@@ -90,7 +90,7 @@ From a corporate project side, the main motivation is probably money. So things 
 
 **Kris Brandow:** Yeah, the way I kind of think about it is that solo projects are good if you're not in the corporate environment. I think they're kind of terrible ideas inside of corporate environments for anything that's even remotely important, which is probably most things. If it's not important, then why are you doing it? I think this is probably where I'd make a distinction between a learning project and a solo project. if you're building something to just learn and tinker, and expand your skills, I think that's one thing, and I think those types of projects can absolutely exist within a corporation. I think we should have more of those. People should spend more time tinkering and learning, so they don't tinker on the main thing you're building. But I think as far as projects, you're "Oh, I'd to maintain this for a while, or use it in some useful capacity." Yeah, I think from a business perspective, that's a pretty huge risk. Because if that one person leaves, then what are you going to do? Is someone else going to pick up that project? Does someone else have the bandwidth? Did they, once again, write enough docs, and enough other information around it to actually shore up, so someone actually could come on and just continue the project forward?
 
-\[00:14:00.11\] So it's a lot of open questions. And from having worked in a fair number of companies, people inside companies are even worse about not writing docs than I think people out in the open world. I think there is this kind of minimum amount of docs that you need to have to have a successful project in the open source world, so people can at least run the thing... But the number of codebases I think many of us have run into internally, that are just "Oh, here's a readme that just has the name of the repo, and nothing else." And it's "How do I make this thing work?" It's "Oh, there's a wiki over there", or something.
+\[14:00\] So it's a lot of open questions. And from having worked in a fair number of companies, people inside companies are even worse about not writing docs than I think people out in the open world. I think there is this kind of minimum amount of docs that you need to have to have a successful project in the open source world, so people can at least run the thing... But the number of codebases I think many of us have run into internally, that are just "Oh, here's a readme that just has the name of the repo, and nothing else." And it's "How do I make this thing work?" It's "Oh, there's a wiki over there", or something.
 
 **Ben Johnson:** Yeah. I mean, I think personal projects, open source projects are great; it's almost a training. You really kind of think about your code differently in how you present it when you know other people will read it. So I think being able to take those skills and then bring them into a corporate environment, where you do actually document things you're doing, or include a readme on a repo - I think it really goes a long way.
 
@@ -112,7 +112,7 @@ From a corporate project side, the main motivation is probably money. So things 
 
 **Kris Brandow:** Yeah. Ben, I think you've had a couple of -- you had Bolt... I guess Litestream sort of started off as just you, or maybe it was just you and someone else, I think...
 
-**Ben Johnson:** \[00:18:10.04\] No, it was just me, yeah.
+**Ben Johnson:** \[18:10\] No, it was just me, yeah.
 
 **Kris Brandow:** Just you. And there was kind of a big difference between Bolt and Litestream. I think probably still you had this policy of not accepting contributions... So I figured that's a struggle that you faced in kind of Bolt originally, of taking contributions... Maybe you can talk a little bit more about that, and also other struggles that you have faced around maintaining these kinds of more, I guess production-level solo projects.
 
@@ -132,7 +132,7 @@ Speaking of which, solo projects don't have to remain solo forever... So have yo
 
 **Ben Johnson:** I mean, I've thought about it... I feel my favorite projects out there tend to have the benevolent dictator for life model, where there's one person basically kind of doing a lot of the work on the project, and it has kind of a narrow scope. Think of projects, or even products you just don't, Jira - it does everything, and everyone hates it...
 
-\[00:21:51.27\] So I think there's a certain -- I don't use a word "artistry", I hate that. But you have a certain vision of what you want, and if you can keep it narrow and tight, people really using those kinds of tools. And those are the kinds of tools that I to build.
+\[21:51\] So I think there's a certain -- I don't use a word "artistry", I hate that. But you have a certain vision of what you want, and if you can keep it narrow and tight, people really using those kinds of tools. And those are the kinds of tools that I to build.
 
 So for me personally, I don't necessarily want to run a project that's larger than me, or maybe me and one other person. If you really focus and have a vision on something, I think you can really do a lot with it before you really need to bring on other people. At that point, honestly, you're probably starting to talk about actually maybe building a business around it, if it's actually that scale of tool... That's a different conversation.
 
@@ -140,7 +140,7 @@ So for me personally, I don't necessarily want to run a project that's larger th
 
 **Ben Johnson:** Yeah. I am definitely a hermit, so I'll admit that. I'm probably the worst person to ask about bringing other people on.
 
-**Break**: \[00:23:00.06\]
+**Break**: \[23:00\]
 
 **Kris Brandow:** Ian, you mentioned at work you're doing some solo projects and whatnot, or you kind of work more in isolation... I guess in kind of a similar vein to what I asked Ben, what's it like when you need to bring more people in? Are there certain things that you do? Are there ways that you work when you're operating solo that then you shift, so that you can bring someone else in? Or are you just kind of always operating in the mindset where someone could jump in at any time?
 
@@ -148,7 +148,7 @@ So for me personally, I don't necessarily want to run a project that's larger th
 
 I think a lot of it is around the tooling, too. Maybe not the code itself, but being a good user of Git, a good user of whatever your best practices are for deployments, that sort of thing. There's so much more to working with more than one person than just the code, that's what I'm trying to say there. It's not about the code, it's about the process and about the tooling and about the documentation, and all of that.
 
-**Kris Brandow:** \[00:25:55.26\] Yeah. That's fair. In a corporate context it seems like you should be thinking that someone could jump in \[unintelligible 00:26:00.20\] Mostly because it's like, I don't know, what if you want to go on vacation and now all of a sudden this thing needs to get done, and you don't want to have to be stressing before your vacation, like "I have to do all this knowledge transfer" and whatnot, and it's like, just have it ready to go from the beginning.
+**Kris Brandow:** \[25:55\] Yeah. That's fair. In a corporate context it seems like you should be thinking that someone could jump in \[unintelligible 00:26:00.20\] Mostly because it's like, I don't know, what if you want to go on vacation and now all of a sudden this thing needs to get done, and you don't want to have to be stressing before your vacation, like "I have to do all this knowledge transfer" and whatnot, and it's like, just have it ready to go from the beginning.
 
 **Ian Lopshire:** Yeah. I too live by the "Always have things two-deep" motto. There should be at least two people that at least are somewhat familiar with this thing. I don't want to be on call for something 100% of the time just because I built it, right?
 
@@ -176,7 +176,7 @@ So I think really pushing back and having people kind of own more of that proces
 
 **Ben Johnson:** Yeah. Actually, VCs start reaching out to you as well. That's another interesting one. You just start writing open source projects, and all of a sudden these people just want to have meetings with you. It's weird... It's like "I just sit in my basement and I wrote code. I don't know why you're calling me. Why do you think that I can run a business? I have no idea. I can't."
 
-**Kris Brandow:** \[00:30:07.24\] I feel like there's probably some market for trained business leaders that can effectively help solo developers build products, and run the rest of the business for them, and just be like "Okay, you just keep working on this, and then we'll do all the other things to make it monetizable." I mean, slightly off-topic, but you have a whole VC thing of us taking people who are just like "I just wanna write code, man", and then being like "Here, run an entire company. And here's $150 million, go have fun." It's kind of like "Um..."
+**Kris Brandow:** \[30:07\] I feel like there's probably some market for trained business leaders that can effectively help solo developers build products, and run the rest of the business for them, and just be like "Okay, you just keep working on this, and then we'll do all the other things to make it monetizable." I mean, slightly off-topic, but you have a whole VC thing of us taking people who are just like "I just wanna write code, man", and then being like "Here, run an entire company. And here's $150 million, go have fun." It's kind of like "Um..."
 
 **Ben Johnson:** Yeah. The irony of it too is if you end up taking an open source project and then trying to build a business out of it, and you become CEO, and it becomes successful, you basically stop writing code. CTO is not a coding job, it is a managing people job. I've been in companies like that in the past, where we had open source databases, and the CTO had barely written code in the last five years. So it's a weird curse.
 
@@ -198,7 +198,7 @@ So really, you kind of just like extrapolate it from either GitHub stars, which 
 
 So I think motivation is a big thing, and actually knowing when it's used. So actually, if you are using code, I think just like reaching out to people, and letting them know, "Hey, I use your code. It's great. Thanks for writing this", because they probably don't ever hear that. It's shocking how often we kind of forget about that. So yeah, motivation was one... There was another one I had, that I've forgotten now though.
 
-**Kris Brandow:** \[00:34:03.04\] Yeah, I think that's a good -- you know, for those people who are consuming to remember, to go back and actually... Even if it's just like a "Thank you for building this thing." Like "Hey, I use this, and this was useful for me in that way."That stuff can be really motivating to people that are kind of maintaining these things out by themselves."
+**Kris Brandow:** \[34:03\] Yeah, I think that's a good -- you know, for those people who are consuming to remember, to go back and actually... Even if it's just like a "Thank you for building this thing." Like "Hey, I use this, and this was useful for me in that way."That stuff can be really motivating to people that are kind of maintaining these things out by themselves."
 
 **Ian Lopshire:** Going back to the learning bit, I think when you are doing solo projects like this, that network that you build from it becomes so much more important than other places, right?
 
@@ -216,7 +216,7 @@ I think another interesting thing too, with open source is that since it is such
 
 And also another issue we in our -- not issue, but I'm autistic myself, and I know a lot of software developers tend to be autistic, and we tend to be very direct in the things that we say... So I think there's a lot of that social nuance that can be missed with issues. People just pop open an issue real quick, type something out and send it... So I think from both sides, trying to be a little more accommodating, and also on the receiving end, just knowing that the person is probably not trying to tell you that you're a terrible person about everything. It's okay; they just had an issue, and that was it.
 
-**Kris Brandow:** \[00:38:09.01\] I would assume from -- maybe you can confirm this, but I assume having templates for things where it's just like "Hey, this is the information I'd you to tell me", and maybe having some sort of document that people can read, of like
+**Kris Brandow:** \[38:09\] I would assume from -- maybe you can confirm this, but I assume having templates for things where it's just like "Hey, this is the information I'd you to tell me", and maybe having some sort of document that people can read, of like
 
 "Please, these are good ways to express tone", or whatever. Do those types of things help? Or is it just kind of still --
 
@@ -246,7 +246,7 @@ And also another issue we in our -- not issue, but I'm autistic myself, and I kn
 
 **Kris Brandow:** So I guess even there - it's like, okay, I guess most people do use the built-in flags package. But I think that could be the one place where it'd be like "Yeah, if you want to bring in--" I don't remember what the name of the external flags package, but if you want to bring that in, I can see that. But it's like, if you're gonna spin up a web service, you can bring in a framework, but you don't have to bring in a framework. Or if you want to do parsing of args, or whatever, you don't have to bring it in. If you want to do configuration, you don't have to bring in an external library; the internal JSON one is probably just fine. So I think that probably helps a lot as well, because then, once again, you're not pulling in extra dependencies, and all of that.
 
-**Ben Johnson:** \[00:42:15.18\] Yeah, everybody kind of knows the standard library pretty well. Not everybody, but a lot of gophers, they all just kind of know how to use JSON, or whatnot. It's a lower barrier to entry.
+**Ben Johnson:** \[42:15\] Yeah, everybody kind of knows the standard library pretty well. Not everybody, but a lot of gophers, they all just kind of know how to use JSON, or whatnot. It's a lower barrier to entry.
 
 **Kris Brandow:** Ian, do you have any things you think makes Go good for solo dev?
 
@@ -262,7 +262,7 @@ And also another issue we in our -- not issue, but I'm autistic myself, and I kn
 
 **Kris Brandow:** Alright. Unpopular opinion time.
 
-**Jingle**: \[00:44:22.09\]
+**Jingle**: \[44:22\]
 
 **Kris Brandow:** Alright. Ben, do you have an unpopular opinion?
 
@@ -270,7 +270,7 @@ And also another issue we in our -- not issue, but I'm autistic myself, and I kn
 
 **Kris Brandow:** Hm... I don't think I disagree. \[laughs\] It's a tough truth to swallow, in some way, because it's kind of like open source is clearly the core of how we build software in the modern day. If we were to strip away all of the open source things, not even the largest of tech companies would be able to function. It would just be far too expensive for them to operate. And yet, it's just this kind of -- it's the commons that everybody is getting, and... Yeah, it does feel like there should be a way to monetize it... But yeah, I think I agree with you that there just has to be something else that people get, and the reason why people get into open source can't be money. Interested to see how that will do on Twitter, and see how -- Twitter and Mastodon, Twitter and the Fediverse... \[unintelligible 00:46:19.20\]
 
-**Ian Lopshire:** \[00:46:22.18\] I'm pretty sure we've had the exact opposite opinion before...
+**Ian Lopshire:** \[46:22\] I'm pretty sure we've had the exact opposite opinion before...
 
 **Ben Johnson:** Oh, really? \[laughter\]
 
@@ -336,7 +336,7 @@ And I feel a lot of pedantic people in tech like using words like consistency, a
 
 **Ben Johnson:** Do you have someone in mind you're thinking of? \[laughs\]
 
-**Kris Brandow:** \[00:50:06.27\] I don't have anybody in particular I'm thinking of. I think it's just in general, in our industry, I think people are just --
+**Kris Brandow:** \[50:06\] I don't have anybody in particular I'm thinking of. I think it's just in general, in our industry, I think people are just --
 
 **Ian Lopshire:** It's the vibe.
 
@@ -360,7 +360,7 @@ And I feel a lot of pedantic people in tech like using words like consistency, a
 
 **Ben Johnson:** Yeah, I think we just need less of a moving target in our industry before we can make a standardized exam... But I'd be for it, honestly. I think there's definitely some -- I don't know, I mean, it's weird to think about other engineering professions; like civil engineering - I'm sure bridges have changed over the last 50-100 years, but probably not over the last five that much... I don't know, I'm not a civil engineer, I have no idea. But it's not like the changes in our industry, of computers getting faster, or memory/disk sizes, and stuff like that, and just the trade-offs change so quickly... It's hard -- it's not like the XML was a bad choice before necessarily, it's maybe just different now, or different technologies come up... So yeah, it just feels like we need to have some consistency in our industry before we can standardize, I guess...
 
-**Kris Brandow:** \[00:53:28.14\] Yeah, just more standardization. The whole reason I have this idea is because I started randomly watching CCNA courses on YouTube, and I'm just like "Oh, there's a lot of useful stuff here." And I kind of wish we just had this for a plethora of things in software engineering, that weren't run by companies. I think we do have certifications for those company or technology-specific things... I think there's some Kubernetes certifications you can get, or for somebody's software, I'm sure. AWS has all of their certifications, and all of that. But I don't know if that's the useful kind of certification that I want...
+**Kris Brandow:** \[53:28\] Yeah, just more standardization. The whole reason I have this idea is because I started randomly watching CCNA courses on YouTube, and I'm just like "Oh, there's a lot of useful stuff here." And I kind of wish we just had this for a plethora of things in software engineering, that weren't run by companies. I think we do have certifications for those company or technology-specific things... I think there's some Kubernetes certifications you can get, or for somebody's software, I'm sure. AWS has all of their certifications, and all of that. But I don't know if that's the useful kind of certification that I want...
 
 **Ben Johnson:** I think I'm certified in SQL Server, back in 2001, so...
 
