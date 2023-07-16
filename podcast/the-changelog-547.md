@@ -30,7 +30,7 @@
 
 **Daniel J. Barrett:** I use Ubuntu usually, the Kubuntu flavor of it, with KDE, Plasma... For the most part - I'm ashamed to admit it - the distro doesn't matter a heck of a lot to me. When you're especially working at the command line, the set of commands available to you are mostly the same where you can quickly install them. And as for window managers and so forth, as long as I've got Windows to move around, I can adapt to whatever GUI is available. So I don't have particular allegiances. I think I started off on Red Hat, and I moved over to CentOS for a while, then I used SUSE Linux for a while... But Ubuntu is a perfectly reasonable distro, and fine for use.
 
-**Adam Stacoviak:** \[00:06:39.06\] There's some concerns about snaps, and stuff like that. Do you have those concerns? Like, the snaps packages, and uninstalling snaps... Like, there's a lot of concerns with the direction, I suppose, of Ubuntu and where it might go the next turn, the next major changes for it.
+**Adam Stacoviak:** \[06:39\] There's some concerns about snaps, and stuff like that. Do you have those concerns? Like, the snaps packages, and uninstalling snaps... Like, there's a lot of concerns with the direction, I suppose, of Ubuntu and where it might go the next turn, the next major changes for it.
 
 **Daniel J. Barrett:** Yeah, yeah, that's an interesting point. Snaps - I still feel like Snap is fairly new to me. I haven't used it that much. But I have noticed that some of the packages that I install using Snap are much, much slower as they run than the typical APT installs on Ubuntu... And so that's kind of unsatisfying. At the same time, the process of installation and removal is fairly simple, and you can do it user by user, which is nice. That's very different from the APT package management. So I can see advantages and disadvantages, but generally, if you're running your own Linux machine, you're the sysadmin, I don't see too much reason to use snap over the traditional package managers.
 
@@ -46,7 +46,7 @@
 
 **Jerod Santo:** ...but that resonated with me, because I cut my teeth on SSH-ing into a machine and coding on that machine in Vim, not because I wanted to, but because my teacher in college made us, which I'm appreciative for now... But I remember just being like "I don't even know what -- like, it's just a prompt", and I'm like "I'll learn a few commands, I'll learn how to CD, I'll learn how to nano (back then)." Eventually, he made us use Vim, and I learned Vim, but there was so much I didn't know. And then I realized you could up arrow to old commands and I was like "Okay, now we're talking." And I learned the history command... So then I realized you could take history, which is your history of commands you've typed before, and then you could like pipe it to grep and search for something new... Like, you start to kind of learn these things slowly... But that was back in like the early 2000s. And I'm telling you, just a few months ago I learned about Ctrl+R which, which all nerds already know about, but I just didn't. Somehow I just never knew about it... And you can just like start typing out, and fuzzy-match, and hit Enter... Anyways, my efficiency is up, even after 20 years of doing this stuff; like, in the last year I just doubled. And so I was reading that and I was like "Okay Daniel's on to something here." There's so much efficiency gains you could have if you just have someone tell you "Here's how to do it."
 
-**Daniel J. Barrett:** \[00:10:17.11\] You have totally hit the nail on the head there. I got into efficient command line use largely because of the experiences like the one that you just cited, about the engineer who was quitting the editor and restarting it and wasn't aware of job control, where you can suspend and resume commands. And I should mention that was not at Google, by the way.
+**Daniel J. Barrett:** \[10:17\] You have totally hit the nail on the head there. I got into efficient command line use largely because of the experiences like the one that you just cited, about the engineer who was quitting the editor and restarting it and wasn't aware of job control, where you can suspend and resume commands. And I should mention that was not at Google, by the way.
 
 **Jerod Santo:** Oh, I'm sorry.
 
@@ -66,7 +66,7 @@
 
 And so this is one reason I just find Linux in some way a really joyful user experience, because you're constantly solving puzzles. And who doesn't like puzzles in our community, right? It's fun. But the thing is, it takes a little while to become a good puzzle solver... So when somebody asks you something a little more complicated, like "What's the most common initial in the last names of the users on this system?" There's absolutely no command to find the most popular last initial. But with a pipeline of five or six commands, you can do it. And if you can instantly produce that pipeline, because you've been learning the concepts, and so forth, you can move really quickly and solve fairly complicated-sounding challenges like puzzles, right at the command line. And those are the skills I tried to teach in Efficient Linux at the Command Line. But I do want to get to the question you asked, too.
 
-**Jerod Santo:** \[00:14:04.18\] Yeah, absolutely. I think that's on point. That's kind of the joy of it all, is when you realize that you can actually send this to there, and now you've created this thing that does exactly what you wanted it to do by just like combining these three or four things together in novel ways. It's joyful. It's like you've put in that last piece in the puzzle, so I'm with you.
+**Jerod Santo:** \[14:04\] Yeah, absolutely. I think that's on point. That's kind of the joy of it all, is when you realize that you can actually send this to there, and now you've created this thing that does exactly what you wanted it to do by just like combining these three or four things together in novel ways. It's joyful. It's like you've put in that last piece in the puzzle, so I'm with you.
 
 **Daniel J. Barrett:** Cool. So some of the techniques I've learned that have really made a difference - the first one is called command substitution, and it is a way of taking the output of one command and injecting it into the text of the command that you are typing. So it's not like a pipe where you're sending standard output of command one into standard input of command two. But I'll give you an example.
 
@@ -84,7 +84,7 @@ And then there's another one that has a similar name to command substitution cal
 
 **Jerod Santo:** That's how I would do it. \[laughs\]
 
-**Daniel J. Barrett:** \[00:18:10.17\] Exactly. So process substitution is this brilliant technique that I only learned -- only learned 10 years ago; it doesn't -- I guess with 40 years of Unix, I didn't know it for the first 30... Process substitution allows you to create a sort of pretend file, a pretend disk file that fits right into the command line with you. So you wind up typing the word diff, the first command, that would have produced your first output file, the second command that would have produced your second output file, all in the same command line, but you're surrounding those two commands with a particular syntax that happens to be a less than sign, a left parenthesis, and at the other end a right parenthesis. So it winds up looking like diff, less than paren, first command, close paren, and then a space, and then left less than, left paren, the second command, close paren. And what that says is each of those two commands, when they produce their output, that output will behave as if it were in a disk file that doesn't have a name...
+**Daniel J. Barrett:** \[18:10\] Exactly. So process substitution is this brilliant technique that I only learned -- only learned 10 years ago; it doesn't -- I guess with 40 years of Unix, I didn't know it for the first 30... Process substitution allows you to create a sort of pretend file, a pretend disk file that fits right into the command line with you. So you wind up typing the word diff, the first command, that would have produced your first output file, the second command that would have produced your second output file, all in the same command line, but you're surrounding those two commands with a particular syntax that happens to be a less than sign, a left parenthesis, and at the other end a right parenthesis. So it winds up looking like diff, less than paren, first command, close paren, and then a space, and then left less than, left paren, the second command, close paren. And what that says is each of those two commands, when they produce their output, that output will behave as if it were in a disk file that doesn't have a name...
 
 **Jerod Santo:** Okay.
 
@@ -122,11 +122,11 @@ Okay, so process substitution... Okay, I've got one new thing to go try... Do yo
 
 **Daniel J. Barrett:** So anytime you have a program that works only with disk files, this is a quick way to make it work with files that produce standard output, or commands that produce standard output.
 
-**Jerod Santo:** \[00:21:54.15\] And it would probably make sense with almost every command that follows the source file, destination file syntax. Like, \[unintelligible 00:21:58.21\] give me the source, then give me the destination. Diff - give me the left, and give me the right, or whatever it is.
+**Jerod Santo:** \[21:54\] And it would probably make sense with almost every command that follows the source file, destination file syntax. Like, \[unintelligible 00:21:58.21\] give me the source, then give me the destination. Diff - give me the left, and give me the right, or whatever it is.
 
 **Daniel J. Barrett:** Yeah.
 
-**Jerod Santo:** And I have that two argument default, versus just reading from standard in, or something. Or standard out, excuse me. It'd probably useful for all of those such commands. Alright, awesome. So that's two. We've got command substitution, process substitution...
+**Jerod Santo:** And I have that two argument default, versus just reading from STDIN, or something. Or STDOUT, excuse me. It'd probably useful for all of those such commands. Alright, awesome. So that's two. We've got command substitution, process substitution...
 
 **Adam Stacoviak:** I've got a question for you, Jerod...
 
@@ -174,7 +174,7 @@ Okay, so process substitution... Okay, I've got one new thing to go try... Do yo
 
 **Jerod Santo:** Okay...
 
-**Daniel J. Barrett:** \[00:25:55.23\] It searches a list of directories for a destination that you type. So let's say that you've got a directory that you often visit of your own, somewhere deep in your home directory. Let's say it's your home directory, and then you have a subdirectory called finances, and under that you have a subdirectory called bank. And you often go to the bank subdirectory, because you want to look stuff up about your finances, let's say. So it's home, finances, bank. If you are off somewhere in the file system, doing your work, and you want to get to that deeply-nested directory, you have to type the full path. So CD~/finances/bank, and you can imagine 10 levels deep instead of two levels deep.
+**Daniel J. Barrett:** \[25:55\] It searches a list of directories for a destination that you type. So let's say that you've got a directory that you often visit of your own, somewhere deep in your home directory. Let's say it's your home directory, and then you have a subdirectory called finances, and under that you have a subdirectory called bank. And you often go to the bank subdirectory, because you want to look stuff up about your finances, let's say. So it's home, finances, bank. If you are off somewhere in the file system, doing your work, and you want to get to that deeply-nested directory, you have to type the full path. So CD~/finances/bank, and you can imagine 10 levels deep instead of two levels deep.
 
 The CD path is a shortcut that lets you say, "I've got a collection of directories that I often visit, so I want you to search for the subdirectory I'm looking for in all of those directories till you find the first match, just like you search for a command and find the first match."
 
@@ -200,7 +200,7 @@ So that's cool. So CD path... So you just set that in your environment, and you 
 
 The dot dot example is really helpful. For example, when you're programming, let's say you've got a bin directory, a source directory, a lib directory, an etc directory, all local in your current directory, and you can jump back and forth between them just by typing CD etc, CD bin, CD lib... There's none of this dot dot stuff. It happens for you, because it's in the CD path.
 
-**Break**: \[00:29:44.27\]
+**Break**: \[29:44\]
 
 **Jerod Santo:** I can see that biting me if I have a bunch of code-generated projects. For people who have a lots of projects, especially - like, imagine a Next.js programmer who uses Next.js on every project, they're going to codegen, they're gonna skeleton out that app like seven times. And so maybe they have seven of those lib directories. I'm not sure if Next.js has a lib, but if they do, then you're like "Well, which one am I getting into?" And it's really just the first one you put in your CD path, I guess, but...
 
@@ -244,11 +244,11 @@ The dot dot example is really helpful. For example, when you're programming, let
 
 **Daniel J. Barrett:** Oh yeah, I could keep going all afternoon, but... Another one that was really transformative to me was - it's a little bit inspired by the Lisp community where, you know, in Lisp code and data are fairly equivalent, because you can emit strings and execute them as code, and so forth... You can do similar things on the command line because your shell - I'm going to assume your shell is Bash, just for ease of conversation... Bash reads from standard input. And when you launch it, it's just a regular old command. Linux launches it for you when you log in, so it's kind of hidden in that way. But you can run "bash" and hit Enter, and it will do something; it'll start a shell, and then you hit Ctrl+D and exit, and the shell is done. It's just a plain old command. And if you know this, you can use that command to your advantage.
 
-\[00:36:10.10\] For example, we all know the echo command; it just prints its arguments. So you can echo Hello World, and Hello World prints on the screen. You can also echo ls. Think about that for a minute. You echo ls. All that does is print the word ls on the screen. Not very useful, but you can also say "echo ls pipe bash". What do you think that does?
+\[36:10\] For example, we all know the echo command; it just prints its arguments. So you can echo Hello World, and Hello World prints on the screen. You can also echo ls. Think about that for a minute. You echo ls. All that does is print the word ls on the screen. Not very useful, but you can also say "echo ls pipe bash". What do you think that does?
 
 **Jerod Santo:** It probably tells Bash to execute that command?
 
-**Daniel J. Barrett:** It executes the ls command that it received on standard in. So what this means -- that's a trivial example. What this means is you can use other Linux commands to create sequences of commands that you would like to execute, and ultimately pipe them to Bash for execution.
+**Daniel J. Barrett:** It executes the ls command that it received on STDIN. So what this means -- that's a trivial example. What this means is you can use other Linux commands to create sequences of commands that you would like to execute, and ultimately pipe them to Bash for execution.
 
 Now, you may have seen things like this. There are a few software packages out there that ask you to run a curl command to download them and pipe them into a shell to install, and I always feel it's a little risky when folks do that... But that's an example of sending the output of a Linux command into Bash.
 
@@ -260,7 +260,7 @@ I'll give you a practical example of something you can do on your own, because w
 
 Here's a trivial example: suppose you just wanted to list all the Python files in your current directory. ls star.py. That's what 99.9% of people would write. But if you've got 100 million files in your directory, that ls command is going to choke; actually, the shell is going to choke, because it's got a limited amount of buffer space to hold those file names after it expands that wildcard before it can pass them to ls. What do you do now? Well, you could also just list the files, just ls straight, no wildcards, no anything, and pipe that to grep to find file names that end with .py. That has no length limitations, because now we're talking about lines of text, not one line of text.
 
-\[00:40:28.22\] And so the fact that you know two ways to list the files in your directory means that you can do things when you run into trouble, and one of them doesn't work. It's flexibility, and that's a skill that I try to communicate through a lot of conceptual examples in the book. I actually show, I think, 15 ways to list Python files in your current directory, and some of them are absolutely wacko.
+\[40:28\] And so the fact that you know two ways to list the files in your directory means that you can do things when you run into trouble, and one of them doesn't work. It's flexibility, and that's a skill that I try to communicate through a lot of conceptual examples in the book. I actually show, I think, 15 ways to list Python files in your current directory, and some of them are absolutely wacko.
 
 **Jerod Santo:** Right. You probably would never do this, but here's another one.
 
@@ -276,13 +276,13 @@ Here's a trivial example: suppose you just wanted to list all the Python files i
 
 **Jerod Santo:** Right.
 
-**Adam Stacoviak:** I was actually at the Homebrew site and I was gonna ask you about this... I was gonna say "Unpack exactly what this does for us", since you mentioned -- I think it's pretty straightforward though. It's /bin/bash -c, and then a dollar sign, obviously, open parenthesis and then the curl command, then it's -f, lowercase f, lowercase s, uppercase s, uppercase l, and then obviously, the string which is the URL to the .sh command that's on GitHub. And I suppose, to your credit, it might be gitnubusercontent.com versus githubusercontent.com. They could have hacked the website and redirected where this path might be, or where they just had the website versus the actual repository, potentially. But the point is, unpack that command - like, what does it do? What is that command to install Homebrew doing? ...which is like what most people do. I almost -- I just go there and copy it, and run this. I've trusted it, every single day.
+**Adam Stacoviak:** I was actually at the Homebrew site and I was gonna ask you about this... I was gonna say "Unpack exactly what this does for us", since you mentioned -- I think it's pretty straightforward though. It's /bin/bash -c, and then a dollar sign, obviously, open parenthesis and then the curl command, then it's -f, lowercase f, lowercase s, uppercase s, uppercase l, and then obviously, the string which is the URL to the .sh command that's on GitHub. And I suppose, to your credit, it might be gitnubusercontent.com versus GitHubusercontent.com. They could have hacked the website and redirected where this path might be, or where they just had the website versus the actual repository, potentially. But the point is, unpack that command - like, what does it do? What is that command to install Homebrew doing? ...which is like what most people do. I almost -- I just go there and copy it, and run this. I've trusted it, every single day.
 
 **Daniel J. Barrett:** Sure. I'm so glad you brought up that example, because it has a couple of really nice techniques in it from a command line standpoint. One of them is I'll mention the dollar sign parenthesis that you saw... That is actually also command substitution. But instead of backticks, it's using a Bash-specific syntax of dollar paren. What's nice about the dollar paren syntax is it is nestable. You can have command substitutions within command substitutions, if you want to have a real exciting day command-line-wise.
 
-\[00:44:11.04\] So the inner part of what that command is doing is substituting into the command line the output of some other set of commands. And that string that is being produced by command substitution is being handed as an argument to Bash with the -c option. And bash -c is a very interesting and helpful construction. It tells Bash to execute whatever is in that string as a command. So you could say, as a trivial example, bash -c, in quotes, echo Hello World. And Bash will execute echo Hello World when you say Hello World. Or bash -c ls. That's another way of running the ls command. ls is just a string, it's being handed to Bash with the -c option, meaning "execute me." I'll give it a really great example of using bash -c in a minute that you may recognize, but what that command is doing is saying, "Hello, Homebrew. I'm taking a command that you're providing to me, I'm using a command substitution to insert new text onto a command line, and I'm handing that as a string to Bash to execute." So there's two levels of execution going on there. Within the dollar parentheses there's an execution happening to produce a string. And then that string is being handed to the Bash command explicitly.
+\[44:11\] So the inner part of what that command is doing is substituting into the command line the output of some other set of commands. And that string that is being produced by command substitution is being handed as an argument to Bash with the -c option. And bash -c is a very interesting and helpful construction. It tells Bash to execute whatever is in that string as a command. So you could say, as a trivial example, bash -c, in quotes, echo Hello World. And Bash will execute echo Hello World when you say Hello World. Or bash -c ls. That's another way of running the ls command. ls is just a string, it's being handed to Bash with the -c option, meaning "execute me." I'll give it a really great example of using bash -c in a minute that you may recognize, but what that command is doing is saying, "Hello, Homebrew. I'm taking a command that you're providing to me, I'm using a command substitution to insert new text onto a command line, and I'm handing that as a string to Bash to execute." So there's two levels of execution going on there. Within the dollar parentheses there's an execution happening to produce a string. And then that string is being handed to the Bash command explicitly.
 
-**Adam Stacoviak:** So it's kind of like as if you would curl it, this URL, and it prints it out to standard out. It's as if that. Because at that point it's a string, and this program, or this .sh file, this executable - it's executable in the repository, but you grab it as a string, and you're saying to Bash "Just execute this string." Which is why it's also beautiful, as well as dangerous.
+**Adam Stacoviak:** So it's kind of like as if you would curl it, this URL, and it prints it out to STDOUT. It's as if that. Because at that point it's a string, and this program, or this .sh file, this executable - it's executable in the repository, but you grab it as a string, and you're saying to Bash "Just execute this string." Which is why it's also beautiful, as well as dangerous.
 
 **Daniel J. Barrett:** Yeah. It's "Here, Bash, blindly execute this string I haven't read."
 
@@ -320,7 +320,7 @@ Here's a trivial example: suppose you just wanted to list all the Python files i
 
 **Adam Stacoviak:** Yeah. I dig this though. I'm glad you broke this down, because people do this every day and you have to be like "Okay, which of these options?" You know, if you had to leave one out, could you leave the l out, for example? And maybe you could, if you're like "I don't want to follow redirects. So I know the curl command enough, and it's options enough to say, "Okay, I trust this, but as I copy this from the brew.sh site, and I throw it into my terminal, I then edit that command to remove the l, because I just want to trust this single destination only", right? ...which gives you, to Dan's credit, superpowers. You understand your tools enough, and their options, so that when you do it at runtime, you have choices on how to do it three, four different ways... Or not at all.
 
-**Daniel J. Barrett:** \[00:48:41.24\] Mm-hm. So since you were kind enough to create a curl options puzzle, I'd like to pose a puzzle as well.
+**Daniel J. Barrett:** \[48:41\] Mm-hm. So since you were kind enough to create a curl options puzzle, I'd like to pose a puzzle as well.
 
 **Adam Stacoviak:** Sweet.
 
@@ -346,7 +346,7 @@ Here's a trivial example: suppose you just wanted to list all the Python files i
 
 **Adam Stacoviak:** It's funny that Jerod uses it plenty of times. I didn't know about it at all. However, I've used it every time I've installed Homebrew, so there you go. But he didn't understand why it works. It's the why that's really important. And I really hate to go this far into a show and not mention ChatGPT. ChatGPT has taught me so much about Bash, about the shell, whether it's Zsh or a Bash shell... And that's just a cool thing. Now you can kind of learn. If you were like "Hey, I need to execute something inside of a cron job, and I need to make the whole command use the sudo command." Well, the ChatGPT LLM might tell you exactly what you just did, Dan. But here we are, having to wait to do this show for 14 years and finally get you on to explain why bash -c does that.
 
-**Daniel J. Barrett:** \[00:52:23.13\] I'm glad you brought up ChatGPT, because I've seen a number of articles recently about exactly what you're describing, asking ChatGPT for a Linux command... So you give an English description, a description in whatever your home language is, and it tells you what command to run. And in every single one of the articles that I've seen, there's been at least one fatal, dangerous command produced by ChatGPT that is not noticed by the writer of the article. I'll give you one example.
+**Daniel J. Barrett:** \[52:23\] I'm glad you brought up ChatGPT, because I've seen a number of articles recently about exactly what you're describing, asking ChatGPT for a Linux command... So you give an English description, a description in whatever your home language is, and it tells you what command to run. And in every single one of the articles that I've seen, there's been at least one fatal, dangerous command produced by ChatGPT that is not noticed by the writer of the article. I'll give you one example.
 
 I saw one article where a writer asked, I think, for a chmod command to make all the files in their current directory read-only. I don't remember exactly the way they phrased it to ChatGPT, but what it returned to the person was a recursive command that changes the permissions on all files in the entire tree. And the way the question was phrased, it could have meant either one - just the current directory, or current directory and all subdirectories. And if you are just taking instruction from ChatGPT and don't know what the options mean, you can destroy the permissions on far more files than you meant to change, with no way to restore them.
 
@@ -358,7 +358,7 @@ I saw one article where a writer asked, I think, for a chmod command to make all
 
 **Adam Stacoviak:** I missed it. I haven't listened yet. Spoiler.
 
-**Jerod Santo:** Yeah, this is kind of scary... So there's a team at Vulcan, which is like an InfoSec company, I believe... And they've found a new vulnerability where if you ask Chad GBT - I think it's specifically like in the Npm JavaScript world, mostly - for like libraries or solutions to problems that require you to install a third party library, it will sometimes hallucinate fake libraries that don't actually exist. And so malicious attackers will go out and they'll squat those libraries, and they'll make them exist, and they'll put their own malicious code into. It's called "AI package hallucination vulnerability." That's pretty bad.
+**Jerod Santo:** Yeah, this is kind of scary... So there's a team at Vulcan, which is like an InfoSec company, I believe... And they've found a new vulnerability where if you ask Chad GBT - I think it's specifically like in the npm JavaScript world, mostly - for like libraries or solutions to problems that require you to install a third party library, it will sometimes hallucinate fake libraries that don't actually exist. And so malicious attackers will go out and they'll squat those libraries, and they'll make them exist, and they'll put their own malicious code into. It's called "AI package hallucination vulnerability." That's pretty bad.
 
 **Daniel J. Barrett:** Yeah... Evil, evil, evil.
 
@@ -376,7 +376,7 @@ I saw one article where a writer asked, I think, for a chmod command to make all
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** What question would the Npm world have commonly that I can leverage as an attack vector?
+**Adam Stacoviak:** What question would the npm world have commonly that I can leverage as an attack vector?
 
 **Jerod Santo:** "How would I leftpad a string with a bunch of spaces?"
 
@@ -384,7 +384,7 @@ I saw one article where a writer asked, I think, for a chmod command to make all
 
 **Jerod Santo:** That's a little joke for those of us in the --
 
-**Adam Stacoviak:** \[00:56:08.23\] No, that really is interesting. And to my credit, I do recall listening to that part of it, so do you recall the hallucination part.
+**Adam Stacoviak:** \[56:08\] No, that really is interesting. And to my credit, I do recall listening to that part of it, so do you recall the hallucination part.
 
 **Jerod Santo:** Okay.
 
@@ -424,7 +424,7 @@ But the Linux shells all have a feature called job control, which allows you to 
 
 **Daniel J. Barrett:** Yup, fg. And if you happen to have multiple processes all suspended in the same shell, each of them has an integer job ID associated with it that you can refer to with the FG command. So if you want to resume job number three, it would be fg, space, percent, three. And that would bring job three back into the foreground.
 
-\[00:59:55.17\] Now, jobs and processes are different things. You're familiar with process IDs; you type ps, you see the \[unintelligible 00:59:59.00\] process IDs... And those are known to Linux. Job IDs are only known to your running shell. The Linux operating system doesn't know about them. So within a single shell instance that you're running interactively, every command you launch is a job as well. And if you have a long-running job, and you happen to Ctrl+Z it to suspend it, it will have a job ID that you can access and put it in the foreground, throw it into the background, do what you like.
+\[59:55\] Now, jobs and processes are different things. You're familiar with process IDs; you type ps, you see the \[unintelligible 00:59:59.00\] process IDs... And those are known to Linux. Job IDs are only known to your running shell. The Linux operating system doesn't know about them. So within a single shell instance that you're running interactively, every command you launch is a job as well. And if you have a long-running job, and you happen to Ctrl+Z it to suspend it, it will have a job ID that you can access and put it in the foreground, throw it into the background, do what you like.
 
 **Jerod Santo:** Right. So this isn't useful in the case of losing a connection to a remote server, because that job isn't going to sit around in memory if your connection disappears. Whereas you have tools like GNU Screen, or Tmux, where you can attach and detach those sessions, and they persist between connections. But this is more ephemeral than that. If you lose your shell, you lose your jobs, basically. Is that right?
 
