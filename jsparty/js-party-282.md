@@ -96,7 +96,7 @@ So I think as you have that churn, as you have great people come in, but then le
 
 **Amal Hussein:** \[25:49\] Yeah, yeah. No, I appreciate that. And I guess the last thing I'll say on this is that... I was part of npm, and was part of the group that was part of the layoffs... Maybe you are familiar with this or not, the acquisition was a little bit bloody. A lot of people were put either on contract, or laid off... So it was like -- what was it? "You don't have a job, or you're not going to have a job soon?" That was the kind of stance...
 
-**Darcy Clarke:** \[unintelligible 00:26:09.25\]
+**Darcy Clarke:** Start a new \[unintelligible 00:26:09.25\]
 
 **Amal Hussein:** Yeah. For the majority of folks. Fortunately, Darcy being the face of the community, was one of the few people that didn't have to go through that. Really happy, because --
 
@@ -226,7 +226,7 @@ Other than that -- I mean, we can also recommend probably that people should... 
 
 I also will be speaking at a conference a little bit more about it next month. I think Feross may be there... It's a conference here in Toronto called RefactorDX, so focused on developer experience and developer tools. I believe we both have keynotes there, so that'll be fun; or we both are speaking there... So I'm excited to share more at that conference. And I know that our good friend, Achmed -- I'm not sure how you folks say it...
 
-**Amal Hussein:** Achmed -- you folks? Oh, man... \[unintelligible 00:59:12.11\] That's okay, that's fine. Yes.
+**Amal Hussein:** Achmed -- you folks? Oh, man... That's burn, BURN!     That's okay, that's fine. Yes.
 
 **Darcy Clarke:** Oh, I meant just both of you. I'm not sure how you pronounce his name.
 
