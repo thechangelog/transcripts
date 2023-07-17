@@ -10,7 +10,7 @@ Ok, let's get into the news.
 
 **Jerod Santo:**
 
-On June 21st, IBM's Red Hat [announced](https://www.redhat.com/en/blog/furthering-evolution-centos-stream) they would stop publishing public sources of Red Hat Enterprise Linux (RHEL) because, in summary, they do not want others "repackaging it for their own profit." This change was met with community back lash, no surprise. So, on the 26th Red Hat VP Mike McGrath wrote up [an explainer](https://www.redhat.com/en/blog/red-hats-commitment-open-source-response-gitcentosorg-changes) that didn't seem to help things much. Enter... Oracle?
+On June 21st, IBM's Red Hat [announced](https://www.redhat.com/en/blog/furthering-evolution-centos-stream) they would stop publishing public sources of Red Hat Enterprise Linux (RHEL) because, in summary, they do not want others "repackaging it for their own profit." This change was met with community back lash, no surprise. So, on the 26th Red Hat VP Mike McGrath wrote up [an explainer](https://www.redhat.com/en/blog/red-hats-commitment-open source-response-gitcentosorg-changes) that didn't seem to help things much. Enter... Oracle?
 
 Heads up, this quote has another quote nested in there. It's like a for loop with an i variable and then another one with a j. So bear with me:
 
