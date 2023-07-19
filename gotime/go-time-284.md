@@ -50,7 +50,7 @@ There is no conferring, team, unless you're planning a heist and doing the steal
 
 **Mohammed S. Al Sahaf:** Package?
 
-**Mat Ryer:** \[00:05:47.23\] Package. Oh, surely... Right? Well, let's see. Gophers say... \[fail alert\] No one uses package somehow. Definitely not. Okay, so you've lost two lives... Alice, find a life. You've got three to get.
+**Mat Ryer:** \[05:47\] Package. Oh, surely... Right? Well, let's see. Gophers say... \[fail alert\] No one uses package somehow. Definitely not. Okay, so you've lost two lives... Alice, find a life. You've got three to get.
 
 **Alice Merrick:** Main?
 
@@ -100,7 +100,7 @@ Yeah, some interesting runners up here... Type, defer, test and string, were oth
 
 **Elena Grahovac:** Break?
 
-**Mat Ryer:** \[00:10:03.22\] Break? Gophers say... \[fail alert\] No, they didn't say that, and that is your three lives up... So now, team one get to have a go at guessing. And all you have to do is get one of these remaining answers, and you take away all of the points. You're allowed to confer, because this is a steal.
+**Mat Ryer:** \[10:03\] Break? Gophers say... \[fail alert\] No, they didn't say that, and that is your three lives up... So now, team one get to have a go at guessing. And all you have to do is get one of these remaining answers, and you take away all of the points. You're allowed to confer, because this is a steal.
 
 **Mohammed S. Al Sahaf:** No, we actually have something...
 
@@ -166,13 +166,13 @@ Okay, the question is "Name one thing that most go devs value highly." We have s
 
 **Björn Rabenstein:** We'll never score any points.
 
-**Mat Ryer:** \[00:14:01.29\] So that means that team one gets the points, and it's now team zero, is Elena and Björn. You have zero points I'm afraid. But team one is in the lead with 209 points. \[applause\]
+**Mat Ryer:** \[14:01\] So that means that team one gets the points, and it's now team zero, is Elena and Björn. You have zero points I'm afraid. But team one is in the lead with 209 points. \[applause\]
 
 Okay, we're gonna go into round four. Well, before we do, I'm gonna just give you a quick overview of the board. So we had simplicity at the top, then concurrency, performance and speed, then compatibility, then stability, and then readability and clarity there as well. Good stuff.
 
 Now, the next round is a slight twist on this... It's the Unpopular Opinions round. \[applause\]
 
-**Jingle**: \[00:14:50.13\]
+**Jingle**: \[14:50\]
 
 **Mat Ryer:** Yeah, we've changed the theme tune to be that... \[laughter\] Okay, so now you have to try and get the bottom answers. Still on the board, but you're not looking for the most popular answers, you're looking for the least popular. And the question is, "Which day of the week do you get the least coding done?" There's so many negatives in this, it's amazing. Which day of the week do you get the least coding done? And we're looking for the unpopular answers. So Alice, you're gonna have a guest first.
 
@@ -212,7 +212,7 @@ So you do keep control of the board again. Yes, sorry, in this one we're going t
 
 **Björn Rabenstein:** So kind of Thursday was the best answer... It was so good that it wasn't on the board, right? Okay, now I get it. Okay, what is missing...? \[laughter\] Okay, I'll say Friday.
 
-**Mat Ryer:** \[00:17:56.02\] Björn, plays a lot of games, and yes, he's done well here. That is actually the top answer that people said, but in an unpopular round, of course, that just means you get five points. But yes, Fridays is there at the top. Right. Mohammed, can you get this final one?
+**Mat Ryer:** \[17:56\] Björn, plays a lot of games, and yes, he's done well here. That is actually the top answer that people said, but in an unpopular round, of course, that just means you get five points. But yes, Fridays is there at the top. Right. Mohammed, can you get this final one?
 
 **Mohammed S. Al Sahaf:** Well, Sunday is supposed to be a weekend, and -- but we get our most coding done on those days. And if it's the least coding done, then... I'm gonna say Sunday.
 
