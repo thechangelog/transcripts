@@ -1,4 +1,4 @@
-**Mat Ryer:** Okay, please welcome to the stage our panelists, our game players. Okay, we're gonna meet our players... Okay, so we're gonna play a game called Gophers Say, and I'll explain the rules very quickly... So we surveyed our GopherCon Europe audience, and this is \[unintelligible 00:01:01.29\] and we've got loads of answers, so this is really great. We normally only ask for 100, but we got way more than that... So thank you so much for this.
+**Mat Ryer:** Okay, please welcome to the stage our panelists, our game players. Okay, we're gonna meet our players... Okay, so we're gonna play a game called Gophers Say, and I'll explain the rules very quickly... So we surveyed our GopherCon Europe audience, and this is you lot, and we've got loads of answers, so this is really great. We normally only ask for 100, but we got way more than that... So thank you so much for this.
 
 Our players here are going to try and guess the top answers. So in each round, we're going to ask each team to try and pick the top answer. Whoever gets the highest one takes control of the board; they then get the opportunity to fill in the rest of the answers. If they get one wrong, they lose a life, and they only have three lives in each round. And if they lose all of their lives, the other team has a chance to steal, and they only need to get one of them right to steal all the points. So that's kind of really exciting when that happens, if that happens. We'll see.
 
@@ -12,11 +12,11 @@ There is no conferring, team, unless you're planning a heist and doing the steal
 
 **Mat Ryer:** Thank you very much. Alice, everybody. \[applause\] And we also have Elena here.
 
-**Elena Grahovac:** Hello, hello. So my name is Elena. Just like Mohammed, I've been also writing Go since 2014. I've worked for \[unintelligible 00:03:10.26\] and a fun fact about me is that in 2014 I was also a podcast co-host, and our podcast was also about Go, but it doesn't exist anymore, so thanks to Go Time for that opportunity to be on the podcast again.
+**Elena Grahovac:** Hello, hello. So my name is Elena. Just like Mohammed, I've been also writing Go since 2014. I've worked for FerretDB and a fun fact about me is that in 2014 I was also a podcast co-host, and our podcast was also about Go, but it doesn't exist anymore, so thanks to Go Time for that opportunity to be on the podcast again.
 
 **Mat Ryer:** Pleasure. Yes. Excellent. Elena, everybody. Welcome. \[applause\] And last but not least, Björn.
 
-**Björn Rabenstein:** Hi. I'm Björn. I work for the company known as \[unintelligible 00:03:39.10\] That's the new thing now, right?
+**Björn Rabenstein:** Hi. I'm Björn. I work for the company known as the company Mat Ryer works for. That's the new thing now, right?
 
 **Mat Ryer:** No.
 
