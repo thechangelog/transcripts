@@ -6,7 +6,7 @@
 
 **Adam Stacoviak:** Requested.
 
-**Jerod Santo:** We know it's 100% on point, for at least one person in our listening audience. This one was requested by Max \[unintelligible 00:05:40.25\] who says "Type checking has been a white whale in Ruby for a long time, and very divisive. There's even a built-in attempt in Ruby 3 called RBS that hasn't gained much traction." Sorbet, on the other hand, has been adopted by many organizations, including Stripe, Shopify, Instacart, his company, JustWorks. And he says, "I think it's telling that many large Ruby shops are switching to some sort of type safety on larger Ruby codebases. It would be cool to hear from Jake, who works on Sorbet, at Stripe, around the origin story, what problems it solves there, and how it was like trying to convince pretty curmudgeonly Ruby devs to add type checking into their codebases." So Max, thanks for writing that to us. I agreed. I thought that would be cool, so I reached out, and you're here now, Jake.
+**Jerod Santo:** We know it's 100% on point, for at least one person in our listening audience. This one was requested by Max VelDink who says "Type checking has been a white whale in Ruby for a long time, and very divisive. There's even a built-in attempt in Ruby 3 called RBS that hasn't gained much traction." Sorbet, on the other hand, has been adopted by many organizations, including Stripe, Shopify, Instacart, his company, JustWorks. And he says, "I think it's telling that many large Ruby shops are switching to some sort of type safety on larger Ruby codebases. It would be cool to hear from Jake, who works on Sorbet, at Stripe, around the origin story, what problems it solves there, and how it was like trying to convince pretty curmudgeonly Ruby devs to add type checking into their codebases." So Max, thanks for writing that to us. I agreed. I thought that would be cool, so I reached out, and you're here now, Jake.
 
 **Jake Zimmerman:** That's true. Yeah, I think all of those things he commented on - it's kind of what I've lived and breathed for the past five years of working on Sorbet and type checking Ruby. It's been a wild ride.
 
@@ -56,7 +56,7 @@ And so I was one year out of school, I was working with three really experienced
 
 **Jerod Santo:** Oh, wow.
 
-**Jake Zimmerman:** \[15:49\] Yeah. There's kind of various strictness levels to what it means to have Sorbet turned on. So at the very bottom level it's what we call typed false. And even still, even though it says "typed false", it's still doing some kind of sanity checking, which - it'll make sure that all of the classes and modules and constant references in the codebase resolve, and it will obviously check that your syntax is valid. But then up from that, there's "typed true", and that's the point where Sorbet will start doing actual type inference on method bodies, and tell you if you have any classical type errors, like \[unintelligible 00:16:20.06\] sort of type errors. And then one level up from that is "typed strict". And that typed strict - not only will it do the type inference, but it'll require that you put explicit type annotations on every method in your file.
+**Jake Zimmerman:** \[15:49\] Yeah. There's kind of various strictness levels to what it means to have Sorbet turned on. So at the very bottom level it's what we call typed false. And even still, even though it says "typed false", it's still doing some kind of sanity checking, which - it'll make sure that all of the classes and modules and constant references in the codebase resolve, and it will obviously check that your syntax is valid. But then up from that, there's "typed true", and that's the point where Sorbet will start doing actual type inference on method bodies, and tell you if you have any classical type errors, like "expect integer found string" sort of type errors. And then one level up from that is "typed strict". And that typed strict - not only will it do the type inference, but it'll require that you put explicit type annotations on every method in your file.
 
 I think we even have that typed strict level - so it's like 99% typed true or higher, but at typed strict I think we're somewhere close to like 80%, or something like that. It's the sort of thing where over time people encounter the file that doesn't have type annotations, and encounter the files that do have type annotations, and they find that it's a lot easier to edit, and understand, and refactor the code that has the type annotations. And so they've self-selected to opt their files into these stricter checking levels.
 
@@ -94,13 +94,13 @@ So stuff like that has its place, and Sorbet basically just gives you escape hat
 
 **Break**: \[25:32\]
 
-**Jerod Santo:** So one thing that Max brought up is like first-party, I guess, Ruby official types, which he says \[unintelligible 00:27:44.06\] I don't know much about this. I'm sure you probably know a lot about this, Jake, just from being in the community... Tell us about that, how it relates to Sorbet, are they wildly different? Are they similar? Could they adopt Sorbet if they wanted to? He says it's divisive, so I'm sure there's lots of opinions as well about this topic.
+**Jerod Santo:** So one thing that Max brought up is like first-party, I guess, Ruby official types, which he says in the works -- I don't know much about this. I'm sure you probably know a lot about this, Jake, just from being in the community... Tell us about that, how it relates to Sorbet, are they wildly different? Are they similar? Could they adopt Sorbet if they wanted to? He says it's divisive, so I'm sure there's lots of opinions as well about this topic.
 
 **Jake Zimmerman:** Yeah, I think it's mostly divisive just because typing in generalist is divisive in the Ruby community, mostly.
 
 **Jerod Santo:** Right. Not like a specific implementation. That's going on in the Elixir community right now as well, is they're talking about types for Elixir... And that's divisive, because - same exact reasoning.
 
-**Jake Zimmerman:** Yeah. And so obviously, as someone who works on a type checker and who has been interested in types for a very long time, I'm super-biased in favor of the typing side of this. And I hold the view that types will always win in the long term, but... So you're gonna get the bias view here on the state of typing in Ruby. I don't even think Sorbet was the first attempt at building a type checker for Ruby. There were a number of research projects, specifically I remember a couple by the kind of like research projects out of the University of Maryland... I think there was also one other type checker that was built by a person by the name of \[unintelligible 00:28:53.15\] Matsumoto, out of Japan, and it was called Steep. Then there was one other that was kind of like a very hobby project, built by someone at GitHub, in their personal time.
+**Jake Zimmerman:** Yeah. And so obviously, as someone who works on a type checker and who has been interested in types for a very long time, I'm super-biased in favor of the typing side of this. And I hold the view that types will always win in the long term, but... So you're gonna get the bias view here on the state of typing in Ruby. I don't even think Sorbet was the first attempt at building a type checker for Ruby. There were a number of research projects, specifically I remember a couple by the kind of like research projects out of the University of Maryland... I think there was also one other type checker that was built by a person by the name of Soutaro Matsumoto, out of Japan, and it was called Steep. Then there was one other that was kind of like a very hobby project, built by someone at GitHub, in their personal time.
 
 So Sorbet kind of started as this just one more type checker sort of thing. So it's always been the case that people have noticed that Ruby didn't have types built into it, and kind of decided on various ways to add their own. Eventually, I think that the popularity of Sorbet and the kind of backing of having such a large company like Stripe and Shopify behind it meant that the Ruby Core team was more willing to consider what a first party typing support would look like.
 
@@ -279,6 +279,7 @@ Eventually, the codebase got to the point where that wasn't fast enough, which m
 **Jake Zimmerman:** Scala, and maybe some other languages at this point.
 
 **Adam Stacoviak:** \[unintelligible 00:51:08.14\] too much, I guess...
+
 **Jerod Santo:** Is Stripe bigger than Basecamp? It probably is.
 
 **Jake Zimmerman:** That's one of the ones I don't know of. But again, no one has reached out and told me otherwise, so...
@@ -317,7 +318,7 @@ Eventually, the codebase got to the point where that wasn't fast enough, which m
 
 **Jerod Santo:** Okay.
 
-**Adam Stacoviak:** If \[unintelligible 00:52:39.22\] let's go byte the byte.
+**Adam Stacoviak:** If you're comparative on bytes of code let's go byte the byte.
 
 **Jerod Santo:** Yeah, exactly.
 
