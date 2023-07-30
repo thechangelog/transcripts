@@ -128,7 +128,7 @@ So I finally powered through the end of the season five and season six in the la
 
 **Steve Tuck:** You leave no one happy, yeah.
 
-**Adam Stacoviak:** \[00:06:12.01\] Yeah, for sure.
+**Adam Stacoviak:** \[06:12\] Yeah, for sure.
 
 **Bryan Cantrill:** It's good stuff.
 
@@ -200,7 +200,7 @@ So I finally powered through the end of the season five and season six in the la
 
 **Adam Stacoviak:** Yes. I love hardware, by the way.
 
-**Bryan Cantrill:** \[00:10:18.17\] So they've got the great scene in the data center, where the box is gonna go, and like "The box goes here."
+**Bryan Cantrill:** \[10:18\] So they've got the great scene in the data center, where the box is gonna go, and like "The box goes here."
 
 **Steve Tuck:** Data center operator, you know, that lives in a cave... Yeah.
 
@@ -286,7 +286,7 @@ So I finally powered through the end of the season five and season six in the la
 
 **Jerod Santo:** Who's doing your design work, and how can we get some access to this talent? \[laughs\]
 
-**Bryan Cantrill:** \[00:13:58.00\] The team?
+**Bryan Cantrill:** \[13:58\] The team?
 
 **Jerod Santo:** Yeah, I mean, seriously... Your guys' design is so good.
 
@@ -326,7 +326,7 @@ I don't know if yo've seen the side of the rack, but there's a punchthroughwith 
 
 **Adam Stacoviak:** Okay. Did I read it right, you've got 32 terabytes of nVME? You only do nVME storage in this thing?
 
-**Steve Tuck:** \[00:18:05.17\] Yup.
+**Steve Tuck:** \[18:05\] Yup.
 
 **Adam Stacoviak:** Gosh, these things are expensive. Holy moly. That's good though, right? I mean, for what you're doing in a data center, you want the fastest possible. That is such an expensive buy... I mean, that's not my money. That's somebody else's money... Right?
 
@@ -382,7 +382,7 @@ So to your \[unintelligible 00:21:39.29\] it is definitely expensive for homelab
 
 **Jerod Santo:** Right.
 
-**Bryan Cantrill:** \[00:22:00.01\] And I think that that kind of appeal to that enthusiast demographic is super-important to us, because so many of those enthusiasts that are homelabbers at home - they're the ones that are going back to work and making an IT decision. So we love having that -- and I think that that's always been really important to technology in general, is that playful tinkering that's happening, where people are kind of following their natural curiosity... It's a really important way that technology has developed.
+**Bryan Cantrill:** \[22:00\] And I think that that kind of appeal to that enthusiast demographic is super-important to us, because so many of those enthusiasts that are homelabbers at home - they're the ones that are going back to work and making an IT decision. So we love having that -- and I think that that's always been really important to technology in general, is that playful tinkering that's happening, where people are kind of following their natural curiosity... It's a really important way that technology has developed.
 
 So even though we're never gonna sell to Gerhard and the homelabbers, we love the support, the engagement, the discussion, the enthusiasm. It's not our market, but it's a really important element of who we are... And plenty of folks have come to Oxide out of that enthusiast demographic. One of our engineers came to us because they were starting to do things in Hubris, which is our open source operating system; we talked about it the last time, Jerod...
 
@@ -438,7 +438,7 @@ And also, Adam, I feel like I'm doing the discourtesy of taking the request a li
 
 **Bryan Cantrill:** I know, I know, I know...
 
-**Adam Stacoviak:** \[00:25:55.28\] Okay, well, let's back up one step then. So rather than take what you have, that large rack - which is just phenomenal. I mean, 2048 CPU cores. I mean, I don't need that in my home. So don't give me that scaled down. Give me a version of how you think for homelab cloud. Assume that I want you to consume 4 to 8U on my rack, and you're a simplified system that gives me great power, great networking, maybe great CPU obviously, and then storage, just in one single box that has superfast throughput between all the different services I run. You know, maybe I'm running a Proxmox, maybe I'm running something else... I don't know, that you've all built, something that's Proxmox-like... But give me not a version of what you have, scaled down, but a version that thinks like you think, for home cloud.
+**Adam Stacoviak:** \[25:55\] Okay, well, let's back up one step then. So rather than take what you have, that large rack - which is just phenomenal. I mean, 2048 CPU cores. I mean, I don't need that in my home. So don't give me that scaled down. Give me a version of how you think for homelab cloud. Assume that I want you to consume 4 to 8U on my rack, and you're a simplified system that gives me great power, great networking, maybe great CPU obviously, and then storage, just in one single box that has superfast throughput between all the different services I run. You know, maybe I'm running a Proxmox, maybe I'm running something else... I don't know, that you've all built, something that's Proxmox-like... But give me not a version of what you have, scaled down, but a version that thinks like you think, for home cloud.
 
 **Bryan Cantrill:** Yeah. And I think, again, the challenge there is that we have taken, just from a technical perspective -- ultimately, the reason that Oxide exists is because the machines that we run in the data center are actually closed to the homelab than they are to the hyperscalers. That's actually the problem. It's like, haven't you homelabbers had enough, really? Because what we run in the DC are these 1U/2U boxes that actually are personal computers. And the approach that we've taken is to blow all that up and to take a rack-scale approach. So that scales down to a point, but when you get to something like the switch, it's like actually the integration of the switch with our control plane software. So we've got our own switch, we've got our own switch operating system... Actually, that switch is actually not one switch, it's two switches, because yo've got a high-speed switch, and you've got a management switch. Getting that into a form-factor -- I mean, it's not impossible, in kind of like the arbitrary future...
 
@@ -474,7 +474,7 @@ So given that in the marketplace, if you can collapse some of those things that 
 
 **Jerod Santo:** Good answer.
 
-**Adam Stacoviak:** \[00:29:52.22\] Yeah, I'll put my hat down there, because I for sure agree with extreme focus, so I'll give you that... However, I will also say I began with "If you conquer..."
+**Adam Stacoviak:** \[29:52\] Yeah, I'll put my hat down there, because I for sure agree with extreme focus, so I'll give you that... However, I will also say I began with "If you conquer..."
 
 **Bryan Cantrill:** Okay, well, if we can look forward into the future - yes, absolutely. For sure.
 
@@ -530,7 +530,7 @@ So I think now companies are rightfully asking, "How do we get that same service
 
 Now the long forgotten masses on-prem are trying to figure out what's next... Because you can't -- you know, just like I'm in a hotel room right now, and it's very nice. I didn't have to buy any of this stuff, and if I want, I can order food to the room... And it is pretty cheap, considering I didn't know I was gonna be in this city five weeks ago. But if I were living here five weeks from now, I would be looking at a huge bill, I would have people that can come and go in my room without telling me... You know, there's aspects of hotel living that don't really hold up when you know you're gonna be in a city, in a location for 12 months, 24 months, 36 months.
 
-\[00:34:02.12\] So I think at the core of this for us was how do we extend it so that cloud computing is sort of that ubiquitous foundation. And now companies in the future are able to either rent it from a provider like AWS, Google, Microsoft, for the right use cases, and then own it where they wanna own it. But it doesn't take an army of 500 people to kind of assemble it, and build it, integrate it, and support it. There's really this kind of productized hyperscaler-like infrastructure that everyone should have access to. That's where we started.
+\[34:02\] So I think at the core of this for us was how do we extend it so that cloud computing is sort of that ubiquitous foundation. And now companies in the future are able to either rent it from a provider like AWS, Google, Microsoft, for the right use cases, and then own it where they wanna own it. But it doesn't take an army of 500 people to kind of assemble it, and build it, integrate it, and support it. There's really this kind of productized hyperscaler-like infrastructure that everyone should have access to. That's where we started.
 
 Now, Bryan, I think I can speak for you that we had a good sense that this was gonna take -- this was gonna require taking on a lot, because it's not only a de novo server design, but then we decided early on that we thought we had to do our own switch, that has its own kind of backstory there...
 
@@ -552,7 +552,7 @@ So in order for us to be able to go deliver that hyperscale-class infrastructure
 
 There's a really good podcast where Jim Farley is talking about how Ford outsourced everything in software. And so when they wanted to make a change to like the seat controller mechanism, they had to go to Bosch, and be like "Hey, do you mind updating the software that controls this aspect of the car?" And there were like 500 different examples of this. And this was done to lower costs, to bring the cost of each car manufacture down to like $500. And the realization that he is having, having watched what Tesla has done, and what some of the Chinese manufacturers had done, is like "This is not only costing us more, we are moving slower. We are not competitive." And they kind of had this revelation that they had to bring everything back and start thinking holistically at Ford about what a modern vehicle looks like.
 
-\[00:38:10.29\] And I think as we were kind of peeling back the layers, we had a sense of it, while we were at Joyent... And because of all the issues that we would run into, that were at that hardware/software interface... But when you start peeling back, it's like, "Man, there's some decades-long cruft that are gonna be pretty challenging to rip out and do anew."
+\[38:10\] And I think as we were kind of peeling back the layers, we had a sense of it, while we were at Joyent... And because of all the issues that we would run into, that were at that hardware/software interface... But when you start peeling back, it's like, "Man, there's some decades-long cruft that are gonna be pretty challenging to rip out and do anew."
 
 **Bryan Cantrill:** The saving grace was that at every single one of those layers there were groups of technologists that had come to this same conclusion, of like "No, this layer has gotta get blown up and rethought." And the reason we are where we are is because those technologists came to Oxide, and said "Wait a minute - oh, you're rethinking the switch? Thank God someone's rethinking the switch! I've thought a lot about this problem."
 
@@ -586,7 +586,7 @@ There's a really good podcast where Jim Farley is talking about how Ford outsour
 
 **Jerod Santo:** How different is what you guys are doing? So if I'm a CTO and I have two proposals on my desk, and I have to decide a direction we're gonna go with a new data center we're building out, or whatever... And I can go with Oxide racks, or I can go with whatever's currently there; stack a bunch of Dells and some switches together, and do what I've been doing for the last decade... What kind of switching costs am I looking at, what kind of lock-in is there? Do I have huge risk to pick you guys, or is it like, everything you're doing is so low-level that at a point where I'm gonna care about it as a company who's rolling out some services it's all good? How different is it?
 
-**Bryan Cantrill:** \[00:41:54.20\] So in terms of -- I mean, we would propose in terms of value, and density, and economics, and services, it's very different. In terms of switching costs, I think one of the big benefits, and why the timing was right for Oxide now versus Oxide, say, 5-10 years ago, is that where companies have oriented and really invested a lot of resources is sort of developer-friendly tooling for cloud computing. So by that measure, the switching costs are extraordinarily low, because you're now able to leverage the same kind of Terraform frameworks... Just, the models and workflows that you've become accustomed to are stitching into Oxide. Because you can think about it as kind of another cloud that you now kind of own and operate on-prem. And it's leveraging all that investment you've done over the last five years, getting to more cloud-first type models, and workloads, and development practices, but being able to leverage those on-prem.
+**Bryan Cantrill:** \[41:54\] So in terms of -- I mean, we would propose in terms of value, and density, and economics, and services, it's very different. In terms of switching costs, I think one of the big benefits, and why the timing was right for Oxide now versus Oxide, say, 5-10 years ago, is that where companies have oriented and really invested a lot of resources is sort of developer-friendly tooling for cloud computing. So by that measure, the switching costs are extraordinarily low, because you're now able to leverage the same kind of Terraform frameworks... Just, the models and workflows that you've become accustomed to are stitching into Oxide. Because you can think about it as kind of another cloud that you now kind of own and operate on-prem. And it's leveraging all that investment you've done over the last five years, getting to more cloud-first type models, and workloads, and development practices, but being able to leverage those on-prem.
 
 And then in terms of thinking from a data center operator perspective, where this solution meets the rest of the data center is obviously at the network hand-off. And so we \[unintelligible 00:43:03.08\] We come with gifts to the network operators and engineers, which gives them a whole kind of new world of visibility, so that they can not only be in defense mode, but actually be proactive, and be able to anticipate where there's congestion, and be able to help give users better experiences.
 
@@ -612,7 +612,7 @@ And then we've invested a lot to make sure that that hand-off point where we're 
 
 **Bryan Cantrill:** And it's not what we're aspiring to, it's what we've done. So I'm like, "Steve, can you give us --" It's just like "Look, can we just say a day?" I mean, if it takes hours, it'll be done in a day. I'm like, "They'll definitely be done in a day", but it's actually -- and this is where you get to the real pay-off of having rethought all of this, having designed it holistically... Just like that iPhone unboxing experience is really quick and smooth, that Oxide unboxing experience, de-crating experience, and the reason that it is possible is because this whole thing - we have all the hardware and all the software, and so when we actually do our initial install of the software, we effectively go through our own recovery path.
 
-\[00:45:58.29\] Assume you've got nothing on the rack, and we go from literally nothing on the rack to you can provision within hours. I mean, I think it's standing at like 90 minutes right now... And actually, what we are ultimately bound by is the UART speed inside of the sled when we're transferring the most primordial image, so that it can bootstrap itself up and boot up the network. In order to be able to boot up the network you need to have enough of an image that you can actually go boot... And we are ultimately bound by that UART speed.
+\[45:58\] Assume you've got nothing on the rack, and we go from literally nothing on the rack to you can provision within hours. I mean, I think it's standing at like 90 minutes right now... And actually, what we are ultimately bound by is the UART speed inside of the sled when we're transferring the most primordial image, so that it can bootstrap itself up and boot up the network. In order to be able to boot up the network you need to have enough of an image that you can actually go boot... And we are ultimately bound by that UART speed.
 
 If we had a -- I do love that the install experience around this is just eye-popping... And the folks that have been working on this are not necessarily -- I mean, we've got some folks who have suffered through the pain of Dell, Supermicro and HPE, but a lot that are actually coming jsut from the cloud side of things, and they're like "I don't know, I wanna make this as great as it can be." They don't know -- it's like, "Do you know how far ahead you are of the state of the art?"
 
@@ -654,7 +654,7 @@ Jerod, to go back to your question, if you're that CIO - if you look at what thi
 
 **Steve Tuck:** \[unintelligible 00:49:52.14\]
 
-**Adam Stacoviak:** \[00:49:54.28\] Assuming that's already taken place. We're there -- let's say Jerod and I are there. We're the administrators, the operators, whatever you wanna call us... We've gotta provision this thing. You say it takes a few hours... We slide it in, maybe it takes a small forklift, or several people, or maybe it's got wheels, I have no idea...
+**Adam Stacoviak:** \[49:54\] Assuming that's already taken place. We're there -- let's say Jerod and I are there. We're the administrators, the operators, whatever you wanna call us... We've gotta provision this thing. You say it takes a few hours... We slide it in, maybe it takes a small forklift, or several people, or maybe it's got wheels, I have no idea...
 
 **Bryan Cantrill:** This thing is not short.
 
@@ -708,7 +708,7 @@ We had a demo on Friday of one of our engineers making this thing that is alread
 
 One of the things that kind of fell out of our implementation is you can have many people watching a single serial console and participating in a single serial console.
 
-**Adam Stacoviak:** \[00:54:08.25\] Is that right?
+**Adam Stacoviak:** \[54:08\] Is that right?
 
 **Bryan Cantrill:** So yeah, you can share, effectively... And I think this is gonna be one of these things that our customers are gonna absolutely love, because it is -- when you're dealing with one of these low-level issues that's annoying... It's like, "Oh, I've screwed up cloud init in some way", and it's hitting the wrong thing, or what have you, and no one else can log into it, because that's the problem - the ability to share out a serial console where everyone can log into the same serial console and begin to get this thing debugged... Which is a problem that everybody has. In the public cloud, this is a problem that we have, and I think it's gonna be one of those little touches that we think people are gonna really love... Because it's meaningful. It's not little. It's actually really, really significant, and it's gonna have a material effect on the way people are able to do their jobs.
 
@@ -738,7 +738,7 @@ Now you're the administrator, so what you are doing is setting up a silo, and th
 
 So you, Adam, have like two different departments, and you would have those departments in their own kind of boundary. And then it's as simple as inviting them in, and those users can then come in, just like they're hitting EC2 or AWS; they can set up their credentials and create a project, and they're off and running. They can go deploy instances directly, they can do it via the API CLI...
 
-**Adam Stacoviak:** \[00:58:22.11\] Or the web console.
+**Adam Stacoviak:** \[58:22\] Or the web console.
 
 **Steve Tuck:** Yup, a web console... And off they go.
 
