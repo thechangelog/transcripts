@@ -6,7 +6,7 @@
 
 **Steve Yegge:** Well, so I've gone through a couple of phases in my career where the learning was accelerated for one reason or another... You know, sometimes you go and you're just getting stuff done, but you're not really learning anything. You're just executing. And then you go through these periods where you're just faced with some incredibly impossible challenge, and that's where you learn, You learn when you're being -- like, you're in the fire, and you're screaming, and you're like "I'm learning!"
 
-**Jerod Santo:** \[00:06:13.09\] "I'm learning!" \[laughter\]
+**Jerod Santo:** \[06:13\] "I'm learning!" \[laughter\]
 
 **Steve Yegge:** Right?! I mean, seriously, you can feel it when you're learning. And one of the early -- I mean, it's embarrassing to call it an early one, but it was almost 30 years ago... I was writing a computer game, and I was trying to make it massively multiplayer, I had a big vision for it... And I was trying to do it kind of myself, and that's where you learn a lot. You're a founder, entrepreneur, a startup... And it's where I learned that I needed better dev tools, and it's where I learned that I needed better languages, and better frameworks... And I realized everything was like a dumpster fire. So that's one example. But there are others... I mean, obviously, Amazon was an unbelievable learning experience, working for uncle Jeff...
 
@@ -36,7 +36,7 @@
 
 **Steve Yegge:** Why would you make a perfectly good RPC call, like a high-performance, binary call over some fat text protocol? We had performance drilled into us. Amazon was always the victim of scaling, because we were always growing so fast... So we were always crushed under the load. And it was like "Hey, let's try this slow protocol for RPCs, huh, guys?" And it really kind of went over like a lead balloon, at first. We were like "Huh... That's weird." But as we started to sort of like understand what it was capable of... And that was back during the SOAP versus REST wars, do you remember that?
 
-**Jerod Santo:** \[00:10:02.26\] Oh, I do, yes.
+**Jerod Santo:** \[10:02\] Oh, I do, yes.
 
 **Steve Yegge:** REST was really cool, but everyone's like "No, SOAP, because we were all stuck in our old object-oriented --"
 
@@ -90,7 +90,7 @@
 
 **Steve Yegge:** 100%. I even saw a comment on Hacker News in a discussion about LLMs... It might have been, actually, after my first cheating post... And somebody said, "I can't wait for all this LLM stuff to just go away, so we can all just go back to doing our jobs." I mean, it was almost like -- I couldn't have written a better troll comment if I had tried, right? It was like, what is he -- seriously, there's people who have their heads in the sand, and they're waiting for it to all just go away... Which is pretty funny, because I don't think it's going anywhere.
 
-**Jerod Santo:** \[00:13:58.11\] No... Well, it's going somewhere, but away is not the direction that it's going. Yeah, it's amazing how disparate the reactions are to it. We just had a -- we play a silly game on our JS Party podcast, it's like Family Feud. It's called Frontend Feud. And so we survey the audience and we ask them how they feel about things, and what their favorite and least favorite programming languages are... And we asked them recently - this was back in November, so pretty big change... But it was GitHub Copilot. Like, what are your feels about GitHub Copilot? And the answers are all over the board, from like excited, surprised, can't wait, to like "Terrible. Doomer." Like, it goes so broad. And there's people all along the spectrum in the middle about what we're thinking about this. Not very many technology advancements have, I guess, that drastic of a reaction. I wonder if this AWS stuff inside of Amazon had the spectrum of support that we see for LLMs... You were also around when Kubernetes was first being worked on inside of Google... These major shifts. Like, did AWS have so many different opinions about it inside Amazon? Or was it kind of like "It's weird", but then eventually it's like "Yeah, this is the business."
+**Jerod Santo:** \[13:58\] No... Well, it's going somewhere, but away is not the direction that it's going. Yeah, it's amazing how disparate the reactions are to it. We just had a -- we play a silly game on our JS Party podcast, it's like Family Feud. It's called Frontend Feud. And so we survey the audience and we ask them how they feel about things, and what their favorite and least favorite programming languages are... And we asked them recently - this was back in November, so pretty big change... But it was GitHub Copilot. Like, what are your feels about GitHub Copilot? And the answers are all over the board, from like excited, surprised, can't wait, to like "Terrible. Doomer." Like, it goes so broad. And there's people all along the spectrum in the middle about what we're thinking about this. Not very many technology advancements have, I guess, that drastic of a reaction. I wonder if this AWS stuff inside of Amazon had the spectrum of support that we see for LLMs... You were also around when Kubernetes was first being worked on inside of Google... These major shifts. Like, did AWS have so many different opinions about it inside Amazon? Or was it kind of like "It's weird", but then eventually it's like "Yeah, this is the business."
 
 **Steve Yegge:** Interesting question. Interesting question. You know, I wish that I could answer that, but AWS didn't really get kicked off until sort of when I left Amazon, in 2005. So I'm actually older than AWS...
 
@@ -130,7 +130,7 @@
 
 **Jerod Santo:** Speak when spoken to, yeah.
 
-**Steve Yegge:** \[00:17:38.12\] So we're in this tiny room, in this Transylvania-looking castle building that we were in, the PacMed medical building in Beacon Hill, Seattle... It's big, intimidating-looking... And he's in the top-corner wing, in this corner office... A real small office, the corner window view of the \[unintelligible 00:17:53.06\] And we're sitting in there, at this tiny table, and Jeff's back is to the windows, and we're pitching him on my project, which is one that he asked for. It was what they call a two-pizza team. Jeff came up with these two-pizza teams, these Tiger Teams, basically... And it was for reducing customer contacts. And he wanted fitness functions. Now, this is a great way to run teams, having an objective function. I mean, seriously, if you can find a function that you can drive up and to the right, then it's a great way to run a team. But finding the right objective function is a really challenging problem for some problem domains. But for mine, it was really simple. It was like, "We're trying to reduce customer contact", so our function is customer contacts over time.
+**Steve Yegge:** \[17:38\] So we're in this tiny room, in this Transylvania-looking castle building that we were in, the PacMed medical building in Beacon Hill, Seattle... It's big, intimidating-looking... And he's in the top-corner wing, in this corner office... A real small office, the corner window view of the \[unintelligible 00:17:53.06\] And we're sitting in there, at this tiny table, and Jeff's back is to the windows, and we're pitching him on my project, which is one that he asked for. It was what they call a two-pizza team. Jeff came up with these two-pizza teams, these Tiger Teams, basically... And it was for reducing customer contacts. And he wanted fitness functions. Now, this is a great way to run teams, having an objective function. I mean, seriously, if you can find a function that you can drive up and to the right, then it's a great way to run a team. But finding the right objective function is a really challenging problem for some problem domains. But for mine, it was really simple. It was like, "We're trying to reduce customer contact", so our function is customer contacts over time.
 
 And it was the shortest fitness function that anybody had presented. A lot of people had been presenting Jeff with these really complicated mathematical functions of many, many terms, weighted terms, that are going to be "This is how the team's performance is tracked." And he would argue with them, and throw it out, and curse, and scream, and whatever... Not scream and curse; he was always very quiet. But you would feel him cursing and screaming at you somehow, in your mind... I don't know. It was very intimidating. And it was mostly because he was so smart that he would just pick holes in everything that you showed him. So we knew; we knew that we were going to bring this to him and he wasn't gonna like it. There was gonna be something wrong with it. They're like "Steve, don't talk. Don't talk. Okay? We've got this."
 
@@ -170,7 +170,7 @@ So Jeff listens to the pitch, and he asks one question, and he put them into a s
 
 **Jerod Santo:** Well, congrats on having an answer...
 
-**Adam Stacoviak:** \[00:21:50.09\] Right?
+**Adam Stacoviak:** \[21:50\] Right?
 
 **Jerod Santo:** Not being one of those chickens... But -- I'm so dense. I may not even have followed the yin and the yang. So the yin is that this is really simple, but the yang is like "Well, we can game it." Is that what you're saying? Like, it can be gamed without actually fixing the problem... Is that what you're saying?
 
@@ -206,7 +206,7 @@ So Jeff listens to the pitch, and he asks one question, and he put them into a s
 
 **Adam Stacoviak:** Yin and Yang.
 
-\[00:23:12.17\]
+\[23:12\]
 
 *"A lot of these guys come in here and they can do all the engineering stuff, and they get all hung up on technicalities. They can't just tell you what their vision for the company is. It's like, you need both halves of the brain. The Jobs and the Wozniak. The ying and the yang.*
 
@@ -260,7 +260,7 @@ So Jeff listens to the pitch, and he asks one question, and he put them into a s
 
 **Jerod Santo:** Just to make it harder to read, or...
 
-**Adam Stacoviak:** \[00:26:03.26\] Do you, like, put the blanks there? Is it like "There should have been a paragraph here..."
+**Adam Stacoviak:** \[26:03\] Do you, like, put the blanks there? Is it like "There should have been a paragraph here..."
 
 **Steve Yegge:** No, no. We just like literally skip stuff, and just cut stuff, and let him make the leaps. Franz Liszt - he used to be so good at sight-reading that he would -- only on the first read-through, he would play it correctly, and after that, he'd start embellishing. And Jeff's mind is just -- like, think about it. The dude is smart to begin with, but he also sits in meetings all day long, and basically gets opinions and perspectives... And you do that for a few years and all of a sudden you've got a general's view that nobody else has, and so they can spot things.
 
@@ -280,7 +280,7 @@ So we prepped and prepped and prepped for this stupid presentation... And you kn
 
 And everybody in the room relaxed, and sort of smiling, and clapping me, and clapped me on the back after the meeting, and came up to me going "I've been in a lot of meetings with Jeff, and they never go that well", and whatever. And it was like "Yeah, thanks for the support before he smiled..."
 
-**Break**: \[00:28:18.18\]
+**Break**: \[28:18\]
 
 **Jerod Santo:** How much do you attribute to your career success your ability to think on your feet and respond in the moment? Because it sounds like it was pretty key.
 
@@ -350,7 +350,7 @@ accurate?
 
 **Adam Stacoviak:** This is something Jeff believes in, I believe. I'm pretty sure that was in -- I think it was in the Working Backwards book, potentially... Just like the concept and ability to tell a story. Because that's kind of, I think, what they did with some of the reverse -- the working backwards with the Prime; the Prime membership. It was like, "You've gotta tell a story. You can't just put the press release out there first, kind of aspect. Tell the story, what actually happened, all that good stuff." Because if you just sort of like put some KPIs out there and some goals, and you achieve it, it's like, "Well, did we really do it well? How would this actually be to a customer in the end?" And it always seemed like storytelling is an important thing for that organization, for Amazon. Storytelling.
 
-**Steve Yegge:** \[00:34:21.18\] I mean, it's important. Of course. I mean, every company should be doing it. Your story for your users. It's your user story. And we often make the mistake of putting something out there without a story, but it's like a lot of cool, flashy tech, or this or that. Jeff usually didn't make that mistake. But I will say that Jeff was not always right on his first try. Jeff would often -- like, I've written about this, but it's so important... The difference between Jeff and Google is that Jeff would continue trying after he had failed the first time, and Google never would. Never, ever. Google was like "Ah, it didn't work the first day. Kill it!" Because they were going for basically a shotgun approach, trying to get a billion users.
+**Steve Yegge:** \[34:21\] I mean, it's important. Of course. I mean, every company should be doing it. Your story for your users. It's your user story. And we often make the mistake of putting something out there without a story, but it's like a lot of cool, flashy tech, or this or that. Jeff usually didn't make that mistake. But I will say that Jeff was not always right on his first try. Jeff would often -- like, I've written about this, but it's so important... The difference between Jeff and Google is that Jeff would continue trying after he had failed the first time, and Google never would. Never, ever. Google was like "Ah, it didn't work the first day. Kill it!" Because they were going for basically a shotgun approach, trying to get a billion users.
 
 Eric Schmidt was the CEO when I joined, and he was a good CEO. I really liked working for him. And he was the let 1000 flowers bloom type. He wanted us to \[unintelligible 00:35:11.29\] an innovation factory. Basically, you put a bunch of brains in a jar and see what they come up with. There were problems with that approach. One was that there weren't truly enough of us, and we were also kind of non-representative of the engineering population... So our story was different from the story of the average dev. And so Google wound up building a lot of stuff was really only good for Google as a result.
 
@@ -384,7 +384,7 @@ The other thing that happened was that this guy goes -- I mean, the long story s
 
 **Jerod Santo:** Right. Then they revert it.
 
-**Steve Yegge:** \[00:38:00.27\] And then you don't charge until shipping time. But you auth, and it does actually like freeze up a tiny amount, right? But if you get stuck in a loop -- and the auth at the time was probably more like three bucks, or something. So this guy got like just enough in our loop that -- he was using his debit card. So he bought a book, he got authed a bunch of money that wasn't ever gonna get charged, but it froze up the funds in his bank account, and all his checks started bouncing, and his rent check bounced, and he got evicted.
+**Steve Yegge:** \[38:00\] And then you don't charge until shipping time. But you auth, and it does actually like freeze up a tiny amount, right? But if you get stuck in a loop -- and the auth at the time was probably more like three bucks, or something. So this guy got like just enough in our loop that -- he was using his debit card. So he bought a book, he got authed a bunch of money that wasn't ever gonna get charged, but it froze up the funds in his bank account, and all his checks started bouncing, and his rent check bounced, and he got evicted.
 
 **Jerod Santo:** Okay...
 
@@ -422,7 +422,7 @@ But you know, stepping back, the way Bezos ran the company - I've talked about h
 
 **Jerod Santo:** Right. Yeah, it's tough, because especially when you do it -- if you do it publicly, or in the "town square", you have a lot of... When you speak with nuance, and you speak highly of certain aspects of a person, like you are... You know, like, this was really good for the company; this aspect of him.
 
-\[00:42:04.10\] There's nuance there. Like you said, you're not just with a broad brush saying "Therefore Jeff Bezos is awesome in every way, and I love him, and I want to be just like him in every single way." But it's hard to get that across sometimes, and you can receive criticism as if you're lionizing the man because you're zooming in on something that was net positive, and saying "Let's emulate this." It doesn't mean that you're vouching for every aspect, but so many people will just read it in that binary fashion.
+\[42:04\] There's nuance there. Like you said, you're not just with a broad brush saying "Therefore Jeff Bezos is awesome in every way, and I love him, and I want to be just like him in every single way." But it's hard to get that across sometimes, and you can receive criticism as if you're lionizing the man because you're zooming in on something that was net positive, and saying "Let's emulate this." It doesn't mean that you're vouching for every aspect, but so many people will just read it in that binary fashion.
 
 **Adam Stacoviak:** Yeah, you have to be binary on these decisions, Jerod. That's how it is these days. If somebody's a villain in one way, shape, or form, villain in all the ways. There's no coming back.
 
@@ -478,7 +478,7 @@ But you know, stepping back, the way Bezos ran the company - I've talked about h
 
 **Steve Yegge:** I guess... But I mean, seriously, the word that you used that really resonated with me, Adam, was grounded. They're not grounded, and maybe that's why they've become the way they are. Because of course, over time anybody can become jaded to other people's problems if they're not feeling them.
 
-**Adam Stacoviak:** \[00:45:53.24\] Well, if you have a cadre or a jury near you that's well-seasoned veterans, that only facially express when you facially express, those are yes people. And if you surround yourself in no grounding, and no-no people, people that push back on -- that really know you and can push back against you, then you're not grounded. You're in your own Lala Land that you've made up. And it's easy to skew towards sociopathic, because you don't have that grounding, regard of right or wrong, or someone else is right, because you just are so far removed from somebody else's truth...
+**Adam Stacoviak:** \[45:53\] Well, if you have a cadre or a jury near you that's well-seasoned veterans, that only facially express when you facially express, those are yes people. And if you surround yourself in no grounding, and no-no people, people that push back on -- that really know you and can push back against you, then you're not grounded. You're in your own Lala Land that you've made up. And it's easy to skew towards sociopathic, because you don't have that grounding, regard of right or wrong, or someone else is right, because you just are so far removed from somebody else's truth...
 
 **Steve Yegge:** That's right.
 
@@ -522,7 +522,7 @@ But you know, stepping back, the way Bezos ran the company - I've talked about h
 
 **Adam Stacoviak:** The ones that I'm looking for - like, I search for things, and there's a little video there... I welcome those things. Like, give me a great demo...
 
-**Steve Yegge:** \[00:49:58.01\] If they know what you're looking for...
+**Steve Yegge:** \[49:58\] If they know what you're looking for...
 
 **Adam Stacoviak:** Exactly.
 
@@ -554,7 +554,7 @@ But you know, stepping back, the way Bezos ran the company - I've talked about h
 
 **Adam Stacoviak:** Right. Let me ask more specifically - where do you think Google will be at, given this ad monopoly that you've described? The change that can happen there, the shake-up, the reaction... Give me a five-year. Where will Google be at five years from now? What will we -- will we be looking at the company clawing its way to relevance, remaining relevance? What's going to happen?
 
-**Steve Yegge:** I think they'll be fine. I don't think that we're going to see this search market overturned. I do think that in a 10-year horizon that's gonna look really -- you know the old adage about how we overestimate and underestimate... Five years is pretty soon, but ten years is pretty far. It's a little weird. But in the five-year horizon, I see Google being fine. I don't have any hot takes there. They invented this stuff. And what they did was they immediately stopped publishing. They've been going back and forth on this for many, many -- for decades. "Should we publish papers? Should we share our discoveries with the world? Should we open-source things?"
+**Steve Yegge:** I think they'll be fine. I don't think that we're going to see this search market overturned. I do think that in a 10-year horizon that's gonna look really -- you know the old adage about how we overestimate and underestimate... Five years is pretty soon, but ten years is pretty far. It's a little weird. But in the five-year horizon, I see Google being fine. I don't have any hot takes there. They invented this stuff. And what they did was they immediately stopped publishing. They've been going back and forth on this for many, many -- for decades. "Should we publish papers? Should we share our discoveries with the world? Should we open source things?"
 
 **Jerod Santo:** Yeah.
 
@@ -566,7 +566,7 @@ But you know, stepping back, the way Bezos ran the company - I've talked about h
 
 **Jerod Santo:** Ken Thompson, but that's not this generation. That's the previous generation.
 
-**Steve Yegge:** \[00:54:03.15\] Yeah, exactly. Ken Thompson, Dennis Ritchie... Dennis Ritchie wrote the first Go compiler at Google when he was 72 years old. So yeah, but that was the previous generation. Jeff is a generational talent, and he had to write a memo internally saying "Why we are open-sourcing Google Brain." I remember it was actually called Google Brain, because he said, "Why are we open-sourcing it?", which became TensorFlow. And he had to basically like mandate, sort of by fiat, which he had never done before, that we're going to do this because there was a big resistance to sharing stuff. But Google was falling behind, because you lose thought leadership if -- what happened, what Jeff outlined for us was that we kept inventing stuff, publishing a paper on how cool it was, and how cool we were... And then the open source world would go "Wow, that sounds really good. Thanks for not freakin' giving it to us Google... But thanks for showing us how you did it, so we're gonna build our own." So we had MapReduce, and they had Hadoop, and we had this, and they had that... And all of a sudden, Google was the proprietary assholes for everything, because of our policy of not open-sourcing. And Jeff was like "Done with that", and so we open-sourced TensorFlow and it was very successful.
+**Steve Yegge:** \[54:03\] Yeah, exactly. Ken Thompson, Dennis Ritchie... Dennis Ritchie wrote the first Go compiler at Google when he was 72 years old. So yeah, but that was the previous generation. Jeff is a generational talent, and he had to write a memo internally saying "Why we are open sourcing Google Brain." I remember it was actually called Google Brain, because he said, "Why are we open sourcing it?", which became TensorFlow. And he had to basically like mandate, sort of by fiat, which he had never done before, that we're going to do this because there was a big resistance to sharing stuff. But Google was falling behind, because you lose thought leadership if -- what happened, what Jeff outlined for us was that we kept inventing stuff, publishing a paper on how cool it was, and how cool we were... And then the open source world would go "Wow, that sounds really good. Thanks for not freakin' giving it to us Google... But thanks for showing us how you did it, so we're gonna build our own." So we had MapReduce, and they had Hadoop, and we had this, and they had that... And all of a sudden, Google was the proprietary assholes for everything, because of our policy of not open sourcing. And Jeff was like "Done with that", and so we open sourced TensorFlow and it was very successful.
 
 So the pendulum has swung back now, and it's like "No more papers, no more papers", because they had somehow managed to --
 
@@ -600,7 +600,7 @@ You can count probably on one hand the projects -- the Google graveyard is thous
 
 **Jerod Santo:** Well, and they got penetration; like, into the households. They got in there.
 
-**Adam Stacoviak:** \[00:58:09.07\] Oh, yeah. They just had to give so many away, and...
+**Adam Stacoviak:** \[58:09\] Oh, yeah. They just had to give so many away, and...
 
 **Steve Yegge:** I mean, look, I'll have to imagine that the ML, the sort of step-function improvement in ML - they probably were not using large language models before; they were using their own models, and with LLMs they're probably revisiting and wondering... I mean, Alexa series and the Alexas of the world are probably going to have to take a big... I think they're gonna get dramatically better. If they don't, then there'll be one on your desktop that you can talk to, that's dramatically better. They're gonna get replaced if they don't get better at this point.
 
