@@ -58,7 +58,7 @@
 
 **Jerod Santo:** Oh, my goodness...
 
-**Adam Stacoviak:** You're right \[unintelligible 00:11:14.21\]
+**Adam Stacoviak:** You're right I will.
 
 **Steve Yegge:** Yeah... Which is that text is king.
 
@@ -114,7 +114,7 @@
 
 **Adam Stacoviak:** Not the whole thing, but a version of like this first meeting Jeff, and this figure that we all know so well, but you've met in-person, and got to sort of see that opinion live.
 
-**Steve Yegge:** I'll tell you a story I've never written down before. You guys can get \[unintelligible 00:16:30.12\] How's that?
+**Steve Yegge:** I'll tell you a story I've never written down before. You guys can get the scoop. How's that?
 
 **Jerod Santo:** Oh, nice. Yeah, we'll take it.
 
@@ -122,7 +122,7 @@
 
 **Jerod Santo:** Go read it.
 
-**Steve Yegge:** But there was another meeting with Jeff that -- it's a story I do love to tell, and I've never had the opportunity to write it down... It was my first meeting with Jeff, actually. And I was a technical program manager. It was in my first year at Amazon. So this would have been '99... Because I joined in late '98. And my boss was \[unintelligible 00:16:59.26\] She was the program manager. She's the best program manager on Earth, in history, actually. She taught me the art of being a TPM. And then we had Jeff Wilkie with us, who's one of the best leaders that I've ever worked for. Two amazing leaders, me and Jeff. And they told me to shut up. They were like "Steve, don't say anything at all, unless he addresses you, alright?"
+**Steve Yegge:** But there was another meeting with Jeff that -- it's a story I do love to tell, and I've never had the opportunity to write it down... It was my first meeting with Jeff, actually. And I was a technical program manager. It was in my first year at Amazon. So this would have been '99... Because I joined in late '98. And my boss was Kim Rachmeler She was the program manager. She's the best program manager on Earth, in history, actually. She taught me the art of being a TPM. And then we had Jeff Wilkie with us, who's one of the best leaders that I've ever worked for. Two amazing leaders, me and Jeff. And they told me to shut up. They were like "Steve, don't say anything at all, unless he addresses you, alright?"
 
 **Jerod Santo:** Okay... Scary.
 
@@ -130,7 +130,7 @@
 
 **Jerod Santo:** Speak when spoken to, yeah.
 
-**Steve Yegge:** \[17:38\] So we're in this tiny room, in this Transylvania-looking castle building that we were in, the PacMed medical building in Beacon Hill, Seattle... It's big, intimidating-looking... And he's in the top-corner wing, in this corner office... A real small office, the corner window view of the \[unintelligible 00:17:53.06\] And we're sitting in there, at this tiny table, and Jeff's back is to the windows, and we're pitching him on my project, which is one that he asked for. It was what they call a two-pizza team. Jeff came up with these two-pizza teams, these Tiger Teams, basically... And it was for reducing customer contacts. And he wanted fitness functions. Now, this is a great way to run teams, having an objective function. I mean, seriously, if you can find a function that you can drive up and to the right, then it's a great way to run a team. But finding the right objective function is a really challenging problem for some problem domains. But for mine, it was really simple. It was like, "We're trying to reduce customer contact", so our function is customer contacts over time.
+**Steve Yegge:** \[17:38\] So we're in this tiny room, in this Transylvania-looking castle building that we were in, the PacMed medical building in Beacon Hill, Seattle... It's big, intimidating-looking... And he's in the top-corner wing, in this corner office... A real small office, the corner window view of the sound. And we're sitting in there, at this tiny table, and Jeff's back is to the windows, and we're pitching him on my project, which is one that he asked for. It was what they call a two-pizza team. Jeff came up with these two-pizza teams, these Tiger Teams, basically... And it was for reducing customer contacts. And he wanted fitness functions. Now, this is a great way to run teams, having an objective function. I mean, seriously, if you can find a function that you can drive up and to the right, then it's a great way to run a team. But finding the right objective function is a really challenging problem for some problem domains. But for mine, it was really simple. It was like, "We're trying to reduce customer contact", so our function is customer contacts over time.
 
 And it was the shortest fitness function that anybody had presented. A lot of people had been presenting Jeff with these really complicated mathematical functions of many, many terms, weighted terms, that are going to be "This is how the team's performance is tracked." And he would argue with them, and throw it out, and curse, and scream, and whatever... Not scream and curse; he was always very quiet. But you would feel him cursing and screaming at you somehow, in your mind... I don't know. It was very intimidating. And it was mostly because he was so smart that he would just pick holes in everything that you showed him. So we knew; we knew that we were going to bring this to him and he wasn't gonna like it. There was gonna be something wrong with it. They're like "Steve, don't talk. Don't talk. Okay? We've got this."
 
@@ -138,11 +138,11 @@ So Jeff listens to the pitch, and he asks one question, and he put them into a s
 
 **Adam Stacoviak:** Oh, my gosh... Yes.
 
-**Steve Yegge:** And it thinks it's a snake, and it just freezes... So both of them \[unintelligible 00:19:32.26\]
+**Steve Yegge:** And it thinks it's a snake, and it just freezes... So both of them \[Laughs\] Sorry Jeff and Kim, amazing leaders...
 
 **Jerod Santo:** So you have a chicken analogy here... It's not lost on us.
 
-**Steve Yegge:** They froze, deer in the headlights, because Jeff asked -- he asked something that nobody had ever heard of before. Just out of the blue, he goes "Every fitness function has a yin and a yang. What are they for this one?" And they literally turned to stone. It was the wildest thing I'd ever seen. And I'm looking at him, and I'm looking at Jeff, and all the algorithms don't talk, you know \[unintelligible 00:20:03.15\]
+**Steve Yegge:** They froze, deer in the headlights, because Jeff asked -- he asked something that nobody had ever heard of before. Just out of the blue, he goes "Every fitness function has a yin and a yang. What are they for this one?" And they literally turned to stone. It was the wildest thing I'd ever seen. And I'm looking at him, and I'm looking at Jeff, and all the algorithms don't talk, you know, that kind of a thing.
 
 **Adam Stacoviak:** Oh, gosh, yes...
 
@@ -154,11 +154,11 @@ So Jeff listens to the pitch, and he asks one question, and he put them into a s
 
 **Jerod Santo:** Okay.
 
-**Steve Yegge:** And they all looked at me, and I swear to God, I swear to you, they looked at me like they were drowning, and I had thrown them a life support. \[laughter\] \[unintelligible 00:20:29.29\]
+**Steve Yegge:** And they all looked at me, and I swear to God, I swear to you, they looked at me like they were drowning, and I had thrown them a life preserver. Okay? Like the exact same look in their eyes. Right? \[laughter\] 
 
 **Adam Stacoviak:** "Thank you for saving me..."
 
-**Steve Yegge:** And Jeff, of course, kind of slowly turns to me like "Oh, it talks", right? And now all the pressure is on me. And of course, I had a total of five seconds to assess the situation, parse his question, come frame an answer, and so now I'm on the spot, right? First time I ever talked to Jeff. And I told him, I said, "Look, we could have done some fancy, complicated function here, that was tracking more accurately. The problem with this function is if we just say we're reducing contacts, then we can just route you to an automated system that takes care of your -- "You've got a free replacement issue? We'll replace it for you." Just self service. The contact goes away. It's not counted by finance, because no customer service person ever talks to it. But that would be the wrong thing to do, because we're not fixing the root cause. If we just give them a new sweater, then we haven't fixed the problem upstream, in the distribution center, or the supplier, or whatever, that caused them to get the wrong sweater in the first place. And he started nodding, and he goes, "Yeah, that's it." \[unintelligible 00:21:29.15\]
+**Steve Yegge:** And Jeff, of course, kind of slowly turns to me like "Oh, it talks", right? And now all the pressure is on me. And of course, I had a total of five seconds to assess the situation, parse his question, come frame an answer, and so now I'm on the spot, right? First time I ever talked to Jeff. And I told him, I said, "Look, we could have done some fancy, complicated function here, that was tracking more accurately. The problem with this function is if we just say we're reducing contacts, then we can just route you to an automated system that takes care of your -- "You've got a free replacement issue? We'll replace it for you." Just self service. The contact goes away. It's not counted by finance, because no customer service person ever talks to it. But that would be the wrong thing to do, because we're not fixing the root cause. If we just give them a new sweater, then we haven't fixed the problem upstream, in the distribution center, or the supplier, or whatever, that caused them to get the wrong sweater in the first place. And he started nodding, and he goes, "Yeah, that's it." I said "The yin is the defensible function"
 
 **Adam Stacoviak:** Oh, my gosh...
 
@@ -182,7 +182,7 @@ So Jeff listens to the pitch, and he asks one question, and he put them into a s
 
 **Steve Yegge:** A hundred percent. That was approximately the level of -- I think he might have winged the question...
 
-**Adam Stacoviak:** I don't know \[unintelligible 00:22:17.19\]
+**Adam Stacoviak:** I don't know that...
 
 **Jerod Santo:** \[laughs\] It sounds like a question that's made up.
 
@@ -224,7 +224,7 @@ So Jeff listens to the pitch, and he asks one question, and he put them into a s
 
 **Jerod Santo:** Right... Well, I just want that power to just be able to make people freeze, and crap themselves in their desire to please me with some sort of an answer. I mean, that would be a superpower that I guess would be kind of fun to have. Don't you think, Steve?
 
-**Steve Yegge:** I \[unintelligible 00:24:08.25\] It was wielded frequently. I'll tell you another story... I mean, seriously, every time I met with Jeff, it was kind of an interesting experience. For example, did you know that he had a survival keychain?
+**Steve Yegge:** I certainly saw it wielded a lot, It was wielded frequently. I'll tell you another story... I mean, seriously, every time I met with Jeff, it was kind of an interesting experience. For example, did you know that he had a survival keychain?
 
 **Adam Stacoviak:** No.
 
@@ -330,7 +330,7 @@ accurate?
 
 **Adam Stacoviak:** Complete success.
 
-**Steve Yegge:** ...who had better offers. Yeah. \[unintelligible 00:32:36.08\] And then one day somebody said, "No." This is what happened to Amazon, too.
+**Steve Yegge:** ...who had better offers. Yeah. Batting a thousand. And then one day somebody said, "No." This is what happened to Amazon, too.
 
 **Adam Stacoviak:** Did you just like try and pay them up, like "Listen, I've got a perfect record. You're ruining my perfect record"? What's the situation here?
 
@@ -352,7 +352,7 @@ accurate?
 
 **Steve Yegge:** \[34:21\] I mean, it's important. Of course. I mean, every company should be doing it. Your story for your users. It's your user story. And we often make the mistake of putting something out there without a story, but it's like a lot of cool, flashy tech, or this or that. Jeff usually didn't make that mistake. But I will say that Jeff was not always right on his first try. Jeff would often -- like, I've written about this, but it's so important... The difference between Jeff and Google is that Jeff would continue trying after he had failed the first time, and Google never would. Never, ever. Google was like "Ah, it didn't work the first day. Kill it!" Because they were going for basically a shotgun approach, trying to get a billion users.
 
-Eric Schmidt was the CEO when I joined, and he was a good CEO. I really liked working for him. And he was the let 1000 flowers bloom type. He wanted us to \[unintelligible 00:35:11.29\] an innovation factory. Basically, you put a bunch of brains in a jar and see what they come up with. There were problems with that approach. One was that there weren't truly enough of us, and we were also kind of non-representative of the engineering population... So our story was different from the story of the average dev. And so Google wound up building a lot of stuff was really only good for Google as a result.
+Eric Schmidt was the CEO when I joined, and he was a good CEO. I really liked working for him. And he was the let 1000 flowers bloom type. He wanted us to sort of be an innovation factory. Basically, you put a bunch of brains in a jar and see what they come up with. There were problems with that approach. One was that there weren't truly enough of us, and we were also kind of non-representative of the engineering population... So our story was different from the story of the average dev. And so Google wound up building a lot of stuff was really only good for Google as a result.
 
 Jeff would put stuff out there, and it would be awful. It would be awful. Did you ever read about the time the guy got evicted from his apartment because we shipped him that book?
 
@@ -392,7 +392,7 @@ The other thing that happened was that this guy goes -- I mean, the long story s
 
 **Adam Stacoviak:** Don't say "at gunpoint". You almost said "at gunpoint", didn't you? \[laughter\]
 
-**Jerod Santo:** \[unintelligible 00:38:57.00\]
+**Jerod Santo:** He stopped himself.
 
 **Adam Stacoviak:** So close!
 
@@ -406,17 +406,17 @@ The other thing that happened was that this guy goes -- I mean, the long story s
 
 **Jerod Santo:** Yeah, exactly.
 
-**Steve Yegge:** \[unintelligible 00:39:11.14\] is they did this over and over again, on purpose... Because you'd call Amazon and you'd be like "You guys screwed me, and I'm mad!" And then we would say, "Oh, we are so, so, so sorry." And we had a pyramid of professional ass-kissers to deal with journalists, and stuff, that would get screwed by our bugs... And we would say "We're gonna make it up to you. We're gonna give you a gift certificate. Keep that one, we'll send you another one, and we'll give you a gift certificate, and a direct line to blah-blah-blah." And you come away going, "They were so nice to me. They really get me." And then you've turned this pissed off customer into a brand loyalist for life.
+**Steve Yegge:** But this is the key, is they did this over and over again, on purpose... Because you'd call Amazon and you'd be like "You guys screwed me, and I'm mad!" And then we would say, "Oh, we are so, so, so sorry." And we had a pyramid of professional ass-kissers to deal with journalists, and stuff, that would get screwed by our bugs... And we would say "We're gonna make it up to you. We're gonna give you a gift certificate. Keep that one, we'll send you another one, and we'll give you a gift certificate, and a direct line to blah-blah-blah." And you come away going, "They were so nice to me. They really get me." And then you've turned this pissed off customer into a brand loyalist for life.
 
 **Jerod Santo:** Right.
 
-**Steve Yegge:** And it was because we had no QA. It was like "What was he thinking?" and yet it worked. It was just the most bizarre loyalty creation thing. \[unintelligible 00:39:58.26\] by being customer-first, it meant that if they had a problem, he would fix it. And sometimes the problem was pretty terrible.
+**Steve Yegge:** And it was because we had no QA. It was like "What was he thinking?" and yet it worked. It was just the most bizarre loyalty creation thing. But by being customer-first, it meant that if they had a problem, he would fix it. And sometimes the problem was pretty terrible.
 
 **Jerod Santo:** Yeah, I think getting evicted from your apartment because you bought a book is pretty terrible... That's a bad outcome...
 
 **Adam Stacoviak:** Ants? And frozen accounts? I mean, that's a double-whammy.
 
-**Steve Yegge:** Yeah... I mean, we would do simpler stuff, like -- in the early days, the distribution center was just a big hash table, because you have way more \[unintelligible 00:40:24.13\] than you have space, and so you have random items sitting next to each other on shelves. And so inevitably, statistically, some religious family gets pornography, or whatever, because you just - sleepy, grab the wrong thing... This was in the early days. So a lot of people got the wrong thing, but sometimes you would get the really wrong thing.
+**Steve Yegge:** Yeah... I mean, we would do simpler stuff, like -- in the early days, the distribution center was just a big hash table, because you have way more skews than you have space, and so you have random items sitting next to each other on shelves. And so inevitably, statistically, some religious family gets pornography, or whatever, because you just - sleepy, grab the wrong thing... This was in the early days. So a lot of people got the wrong thing, but sometimes you would get the really wrong thing.
 
 But you know, stepping back, the way Bezos ran the company - I've talked about him over the years... He did so many things right, and then he did so many things that I've found just personally, just morally objectionable. It's nuanced. Same thing with Bill Gates. Bill obviously did a lot of stuff that even the government sued him over, and won. He was naughty. But he spent a lot of time trying to, I guess, maybe sort of make up for it and clear his name, like curing malaria, and stuff... But the way these folks led their companies - you kind of have to look at it and you have to say, "Well, are there parts that we can take, that lead to the success, without being jerks?" And that's honestly been kind of the crux of my leadership struggle... Because leadership is a struggle. Leadership is always hard... And it comes down to "How can I be as effective as Bill and Jeff, without being an asshole, like Bill, or a tyrant, like Jeff?"
 
@@ -484,7 +484,7 @@ But you know, stepping back, the way Bezos ran the company - I've talked about h
 
 **Adam Stacoviak:** ...that you can't empathize or react in that way. So you just naturally hurt them even if you don't want to.
 
-**Steve Yegge:** And this is one of the many reasons that diversity at a company is so important, and getting a diverse set of voices and backgrounds and experiences to help ground it. Because -- I was gonna say, I was talking about Eric Schmidt, and his failing with 1,000 flowers. We weren't representative, because we were all super-homogenous Google engineers. And it was actually a lack of diversity that was holding Google back from innovating, I think, in the early days. We had a few minor wins, like \[unintelligible 00:47:00.18\] but most of Google's successes were actually acquisitions. \[unintelligible 00:47:05.22\] YouTube... I mean, I might be wrong about one or two of those, but a lot of them started -- \[unintelligible 00:47:11.09\] they bought it, it was in C\#, ported it to Java... Spreadsheets, all that stuff.
+**Steve Yegge:** And this is one of the many reasons that diversity at a company is so important, and getting a diverse set of voices and backgrounds and experiences to help ground it. Because -- I was gonna say, I was talking about Eric Schmidt, and his failing with 1,000 flowers. We weren't representative, because we were all super-homogenous Google engineers. And it was actually a lack of diversity that was holding Google back from innovating, I think, in the early days. We had a few minor wins, like ORCID, but most of Google's successes were actually acquisitions. Maps, Mail, YouTube... I mean, I might be wrong about one or two of those, but a lot of them started -- Docs was Writely, they bought it, it was in C\#, ported it to Java... Spreadsheets, all that stuff.
 
 **Jerod Santo:** How long have you been outside of Google?
 
@@ -502,7 +502,7 @@ But you know, stepping back, the way Bezos ran the company - I've talked about h
 
 **Steve Yegge:** And so most of Google's focus forever has been on basically their ads monopoly. And yes, I did say monopoly, and you shouldn't edit it out. I mean, I do not think that Google has a monopoly on most things; having been there, I can see that we're desperately behind in most places cloud, and so on... But anybody can, in theory, write a search engine to compete. But the ads ecosystem is unbreakable, and that is a monopoly. But that meant that they didn't have any pressure to innovate. Amazon always had pressure to innovate, because the margins were so thin. In books, music, video days, they had high margins, but Jeff came to us one day and said "That's all going away, and we're gonna have to sell other stuff because digital. Nobody's gonna buy a CD anymore", he told us in '99. We were all like "What?! We Love CDs." \[laughter\]
 
-**Adam Stacoviak:** \[unintelligible 00:49:03.00\] Holding onto the past.
+**Adam Stacoviak:** See you again, holding onto the past.
 
 **Jerod Santo:** You probably still have your collection. You've got a collection?
 
@@ -534,7 +534,7 @@ But you know, stepping back, the way Bezos ran the company - I've talked about h
 
 **Adam Stacoviak:** A lot of people find things via social and just want to go and buy it... The crater almost misses out on the attribution. It's hard to say, "Hey, use my links and I get a little bit back." But they literally put a Shop button there on the TikTok video, and you can just engage right then and there.
 
-**Steve Yegge:** Easy money. Yup. It's disruptive. And every time we think the giants are done, and they've won, they get disrupted. And Google's getting disrupted right now, and it's by the LLMs that they invented... It's quite ironic and amusing, but I hear from folks that I talk to at Google all the time, that they've pivoted the whole company to AI, and every team is being asked to train models, and deal with AI, and \[unintelligible 00:51:08.28\]
+**Steve Yegge:** Easy money. Yup. It's disruptive. And every time we think the giants are done, and they've won, they get disrupted. And Google's getting disrupted right now, and it's by the LLMs that they invented... It's quite ironic and amusing, but I hear from folks that I talk to at Google all the time, that they've pivoted the whole company to AI, and every team is being asked to train models, and deal with AI, and work into their-- 
 
 **Adam Stacoviak:** Is that right?
 
@@ -562,7 +562,7 @@ But you know, stepping back, the way Bezos ran the company - I've talked about h
 
 **Jerod Santo:** I'm trying to think of somebody here... Yeah.
 
-**Steve Yegge:** Right? That's the thing, it's hard to pick individuals. Things aren't solo efforts anymore. Everything is a team effort. Look at the \[unintelligible 00:53:58.12\]
+**Steve Yegge:** Right? That's the thing, it's hard to pick individuals. Things aren't solo efforts anymore. Everything is a team effort. Look at the paper--
 
 **Jerod Santo:** Ken Thompson, but that's not this generation. That's the previous generation.
 
@@ -572,7 +572,7 @@ So the pendulum has swung back now, and it's like "No more papers, no more paper
 
 **Adam Stacoviak:** "We're giving them our ideas! They're eating us from the outside!"
 
-**Steve Yegge:** Well, Transformers was Google's idea. So was Bert. I mean, most of it -- it was only up until Sam Altman crazily said, "We're just gonna shove it out there and see what happens", because Google was too conservative with it. All the big names \[unintelligible 00:55:29.01\] the users really badly. This is why Sourcegraph has been able to kind of do something cool that's been harder for Microsoft to do. I'm not saying they can't do it, and they very well may, but we went hog wild when the LLMs came out. We said "We're gonna live with the occasional hallucination, and the wrong answer and whatever, because --" Like, if you've got a metal detector that can find rubies, and some of the time it's finding dog poo that you step in, but whatever. You clean it off --
+**Steve Yegge:** Well, Transformers was Google's idea. So was Bert. I mean, most of it -- it was only up until Sam Altman crazily said, "We're just gonna shove it out there and see what happens", because Google was too conservative with it. All the big names they're trying-- But they have to be, they can't put out an offering that's fused the users really badly. This is why Sourcegraph has been able to kind of do something cool that's been harder for Microsoft to do. I'm not saying they can't do it, and they very well may, but we went hog wild when the LLMs came out. We said "We're gonna live with the occasional hallucination, and the wrong answer and whatever, because --" Like, if you've got a metal detector that can find rubies, and some of the time it's finding dog poo that you step in, but whatever. You clean it off --
 
 **Adam Stacoviak:** Calcified dog poo.
 
@@ -642,21 +642,21 @@ You can count probably on one hand the projects -- the Google graveyard is thous
 
 **Steve Yegge:** Right?
 
-**Jerod Santo:** Right? It's like \[unintelligible 01:01:28.15\]
+**Jerod Santo:** Right? It's like "Aww, here's the worlds smallest violin."
 
 **Steve Yegge:** Tied again.
 
 **Adam Stacoviak:** Well, for this call I did not ChatGPT your name, I googled your name, and dug through links, because that's what I wanted. So contextually, I wanted a list of links. I did not want a dissertation of who Steve Yegge was. Because I'm sure they can be --
 
-**Steve Yegge:** \[unintelligible 01:01:47.00\] can give you that.
+**Steve Yegge:** Sure. ChatGPT can give you that.
 
 **Adam Stacoviak:** Right. And ChatGPT isn't gonna give me a bunch of -- I mean, it can maybe give me resources and cite some things, but I've never actually had it give me a link, that I'm aware of. I could be wrong.
 
-**Steve Yegge:** \[01:01:59.14\] Yeah. I mean, the thing to keep in mind here is the models don't know -- I mean, they don't know everything. They've looked at a lot of stuff, and they're very good at pattern detection, and completions, and all the other things, but they don't actually have perfect memory and recollection of everything they've looked at. It's almost like taking a person and letting them read a bunch of books. And they'll remember stuff about the books, but they won't even always be accurate. If you see the Gettysburg Address printed in 100 different books, then they'll eventually memorize the text of the Gettysburg Address. But for the most part, they're just kind of -- so what they need is they need other data stores. And Google's is like the biggest. Google has all of these really bespoke custom fine-tuned backends for every possible knowledge topic... And so it's really just a rejiggering of the form factor for Google. Putting a more AI sort of interaction model in front of what already exists as very mature search infrastructure. That's why I don't think Google has any trouble.
+**Steve Yegge:** \[01:01:59.14\] Yeah. I mean, the thing to keep in mind here is the models don't know -- I mean, they don't know everything. They've looked at a lot of stuff, and they're very good at pattern detection, and completions, and all the other things, but they don't actually have perfect memory and recollection of everything they've looked at. It's almost like taking a person and letting them read a bunch of books. And they'll remember stuff about the books, but they won't even always be accurate. If you see the Gettysburg Address printed in 100 different books, then they'll eventually memorize the text of the Gettysburg Address. But for the most part, they're just kind of -- so what they need is they need other data stores. And Google's is like the biggest. Google has all of these really bespoke custom fine-tuned backends for every possible knowledge topic... And so it's really just a rejiggering of the form factor for Google. Putting a more AI sort of interaction model in front of what already exists as very mature search infrastructure. That's why I don't think Google is in any trouble.
 
 **Adam Stacoviak:** I'll tell you what - I know exactly how they win. If they're listening, they should do this. This is exactly how they remain relevant ten years from now.
 
-**Steve Yegge:** \[unintelligible 01:03:03.06\]
+**Steve Yegge:** Oh, you should get a bonus for this.
 
 **Adam Stacoviak:** Want me to tell you? Their cash cow is the ad monopoly. And the way you win there is with relevance, and quality. When I search, I ignore, because it's not relevant or quality. If they increase that relevance and quality, the way that Amazon has, the way that Instagram has, or even TikTok in some cases - they're not ads, they're just creators being paid on there. They make a living on there, so they're kind of ads... They're kind of like walking ads, or living ads... Relevance and quality. If they become Bezos-obsessed on relevance and quality in their ad department, in every way, shape and form, they can win.
 
@@ -786,11 +786,11 @@ You can count probably on one hand the projects -- the Google graveyard is thous
 
 **Adam Stacoviak:** Literally why, and literally how? How did you get wooed back to the game? The exact story.
 
-**Steve Yegge:** I mean, there wasn't much to it... My buddy -- you know Temporal? Or Cadence? It used to be called -- I think it's Temporal now. Really cool system... The CEO is a buddy of mine; he introduced me to Quinn and Beyang, and we chatted, and found that there was a lot of alignment and overlap and interest. I mean, they just cool. I mean, Sourcegraph is just super-cool. Honestly, once I realized, "Man, I've gotta get out of the house \[unintelligible 01:11:56.02\] and get out of retirement. Mark was right."
+**Steve Yegge:** I mean, there wasn't much to it... My buddy -- you know Temporal? Or Cadence? It used to be called -- I think it's Temporal now. Really cool system... The CEO is a buddy of mine; he introduced me to Quinn and Beyang, and we chatted, and found that there was a lot of alignment and overlap and interest. I mean, they just cool. I mean, Sourcegraph is just super-cool. Honestly, once I realized, "Man, I've gotta get out of the house and get out of retirement. Mark was right."
 
-Then I started talking to companies, and I talked to 21 or 22 different companies. And I'm talking about like interviewed with 21 or 22 different companies, and had the conversations with them, for a bunch of executive positions, and heads, and VPs, and blah-blah. A lot of them were banks, oddly enough, and a lot of them were ads-related, which I really didn't want... I was just trying to find something that I can be passionate about; something that wouldn't be work. You know what I mean? It wouldn't feel like work; it would be work, but it would be rewarding enough. And I don't feel like working at a bank would do that for me, honestly. Even a cool one, like Capital One, because they're very tech-savvy, and easy to \[unintelligible 01:12:36.19\] and whatever.
+Then I started talking to companies, and I talked to 21 or 22 different companies. And I'm talking about like interviewed with 21 or 22 different companies, and had the conversations with them, for a bunch of executive positions, and heads, and VPs, and blah-blah. A lot of them were banks, oddly enough, and a lot of them were ads-related, which I really didn't want... I was just trying to find something that I can be passionate about; something that wouldn't be work. You know what I mean? It wouldn't feel like work; it would be work, but it would be rewarding enough. And I don't feel like working at a bank would do that for me, honestly. Even a cool one, like Capital One, because they're very tech-savvy, and they use AWS and whatever.
 
-So ultimately, I took a look at the options and I was like "Yeah, I mean, they're pre-IPO, series D, they've got money in the bank, they've got an incredible culture, they've got really cool tech..." I looked into their tech, and it had finally reached the point, after ten long years... Because they focused on search first, which is a huge \[unintelligible 01:12:57.25\] problem... And then eventually, they came around to code intelligence, and that's when they started talking to me, when they had that stuff off the ground. And that's the stuff I did at Google. And it dovetailed really nicely. And right after I joined -- I joined in September, did some sort of cultural maneuvering to make sure that everybody knew that we were going to be a high-performance culture going forward, but without the tyranny... And everybody actually wound up being super-excited about that, and we wound up with a really cool, high-functioning team. And then in November, LLMs landed. ChatGPT landed on November 30th. At which point we kind of looked at each other -- because we'd already been working with AI, with natural language code search, and that actually set us up to basically build Cody in a couple of weeks, v1. And so yeah, it was just -- I was lucky. I was lucky. I was unbelievably lucky fit for, I think, all --
+So ultimately, I took a look at the options and I was like "Yeah, I mean, they're pre-IPO, series D, they've got money in the bank, they've got an incredible culture, they've got really cool tech..." I looked into their tech, and it had finally reached the point, after ten long years... Because they focused on search first, which is a huge hard problem... And then eventually, they came around to code intelligence, and that's when they started talking to me, when they had that stuff off the ground. And that's the stuff I did at Google. And it dovetailed really nicely. And right after I joined -- I joined in September, did some sort of cultural maneuvering to make sure that everybody knew that we were going to be a high-performance culture going forward, but without the tyranny... And everybody actually wound up being super-excited about that, and we wound up with a really cool, high-functioning team. And then in November, LLMs landed. ChatGPT landed on November 30th. At which point we kind of looked at each other -- because we'd already been working with AI, with natural language code search, and that actually set us up to basically build Cody in a couple of weeks, v1. And so yeah, it was just -- I was lucky. I was lucky. I was unbelievably lucky fit for, I think, all --
 
 **Adam Stacoviak:** Really?
 
@@ -824,9 +824,9 @@ Because ultimately - look, Cody is great right now if you have a question about 
 
 You would be shocked at how much low-hanging fruit there is. I mean, you look at Cody and it does make a fair number of mistakes, but the ability for us to fix these things is extraordinary. Everything that we've tried has made it better. So in other words, we're starting with kind of the worst possible implementation of Cody. It's OpenAI, generic, sort of Wikipedia embeddings... I don't even think they're code-oriented, you know what I mean? So yeah, it's gonna go out better.
 
-Where are we going with it? I mean, long-term... Look, I want Cody to be your first stop when you're coding. Look, one of the things that I was always jealous of, truly envious, about VPs with executive assistants, as I was going through my career, was that they were always like a team of two people. And they were always incredibly productive, and the VP never had to go to the printer, never had to do any of the expense reports and stuff that engineers are always having to do. The VPs were always freed up. I mean, honestly, that's what Cody should be for a developer. It's like "Oh, man, I've got some stuff I need to get done, that I really \[unintelligible 01:17:32.17\] that I'm struggling with. Let me just have the AI help with it." Honestly, that's where I want to take it. And it's so early days right now. I mean, it's really raw right now. It adds a lot of value if you play with it. But still, I mean, you probably find that it also has a lot of mistakes. But the way I see it - I mean, this is inevitable. This is an inevitability. It's going to happen. It may take a year, it may take five years before we're all using it every 10 minutes... But it's inevitable.
+Where are we going with it? I mean, long-term... Look, I want Cody to be your first stop when you're coding. Look, one of the things that I was always jealous of, truly envious, about VPs with executive assistants, as I was going through my career, was that they were always like a team of two people. And they were always incredibly productive, and the VP never had to go to the printer, never had to do any of the expense reports and stuff that engineers are always having to do. The VPs were always freed up. I mean, honestly, that's what Cody should be for a developer. It's like "Oh, man, I've got some stuff I need to get done, that I really need to get done that I'm struggling with. Let me just have the AI help with it." Honestly, that's where I want to take it. And it's so early days right now. I mean, it's really raw right now. It adds a lot of value if you play with it. But still, I mean, you probably find that it also has a lot of mistakes. But the way I see it - I mean, this is inevitable. This is an inevitability. It's going to happen. It may take a year, it may take five years before we're all using it every 10 minutes... But it's inevitable.
 
-**Adam Stacoviak:** \[unintelligible 01:18:01.01\] you're gonna say it's inevitable. You can't put that word out there and not snap your fingers. "I'm inevitable!"
+**Adam Stacoviak:** You gotta give us a Thanos snap if you're gonna say it's inevitable. You can't put that word out there and not snap your fingers. "I'm inevitable!"
 
 **Steve Yegge:** I forgot about that.
 
@@ -890,7 +890,7 @@ Where are we going with it? I mean, long-term... Look, I want Cody to be your fi
 
 **Steve Yegge:** It totally could. I think somebody should, to be honest... I mean, somebody from ex Amazon. Because there are so many stories that are just going to be lost to the annals of time, that would just be wonderful to share about things that can go wrong, that are just unexpectedly, like, almost emergent bug behaviors... And then how do you clean it up as a business, and then monetize on it? Because Grab didn't learn this lesson. I'm serious. I went to Grab -- we didn't talk about Grab. Grab was an amazing Southeast Asia adventure... It was a lot of fun. And they emulated Amazon, and very successfully. They are kind of the Amazon of Southeast Asia. But they never really got that particular lesson.
 
-**Jerod Santo:** \[01:25:56.16\] We've imagined a podcast of post mortems, where everybody can learn from the mistakes of everybody else after an incident, or after something happens... And it's always kind of been stuck at "Well, who wants to come on the air and like air their dirty laundry of this \[unintelligible 01:26:09.17\]
+**Jerod Santo:** \[01:25:56.16\] We've imagined a podcast of post mortems, where everybody can learn from the mistakes of everybody else after an incident, or after something happens... And it's always kind of been stuck at "Well, who wants to come on the air and like air their dirty laundry of these post mortems.
 
 **Steve Yegge:** They don't. You know what, I tried to do that at Grab when I first got there. They had a horrible outage, because of Etcd. It had a huge meltdown, and it's terrible to restart... And Grab didn't know how their service dependency graph -- they had circular dependencies, and they didn't know how to restart their whole system if it went down. So it's hours and hours... And of course, Grab in Southeast Asia, when the system goes down, people can't get to school, they can't get to work, they can't get to church... And they start throwing rocks. And then the governor calls, and then the president calls, and it's a big deal.
 
@@ -946,7 +946,7 @@ There other people in the space - I don't know, I don't really follow them, but 
 
 **Steve Yegge:** I'm an LLM.
 
-**Adam Stacoviak:** \[unintelligible 01:32:37.27\] Imagine, act as if you're a doctor of programming. You have a piece of paper in front of you, and you're gonna write a prescription for all developers. And from this podcast - they're listening; they're on the edge. They're like "Man, okay... Steve's gonna tell me what to do." This is inevitable. It is the future. You may very well be - you being Cody, and Sourcegraph - a leader in this future. What should developers do today to ensure they follow the letter to this inevitability? ...from this podcast. Is it go play with Cody? Is it go play with everything out there? What's the prescription you can write for the majority of software developers to not be left behind today?
+**Adam Stacoviak:** Imagine, act as if you're a doctor of programming. You have a piece of paper in front of you, and you're gonna write a prescription for all developers. And from this podcast - they're listening; they're on the edge. They're like "Man, okay... Steve's gonna tell me what to do." This is inevitable. It is the future. You may very well be - you being Cody, and Sourcegraph - a leader in this future. What should developers do today to ensure they follow the letter to this inevitability? ...from this podcast. Is it go play with Cody? Is it go play with everything out there? What's the prescription you can write for the majority of software developers to not be left behind today?
 
 **Steve Yegge:** Well, I mean, obviously Cody's the easy button there, because you can just download it and use it, and it's free. But I have written this prescription for several people recently, and I know what the prescription is. The prescription is "It's time. Learn AI." I put it off for my entire career. I learned linear algebra, and a little bit about neural nets way back in the day, and then went for 20-25 years ignoring it, and you can no longer safely ignore it as an engineer. It is going to start overlapping and intruding into your life more and more, and you're not going to be able to separate AI from engineering here pretty soon. Look at what's happening at Google - all the engineers are being told to learn AI. It will happen to kind of everybody at some point. It's like, AI has been mixed into the atmosphere, and there's no getting it out.
 
@@ -956,7 +956,7 @@ There other people in the space - I don't know, I don't really follow them, but 
 
 **Adam Stacoviak:** GraphQL.
 
-**Steve Yegge:** \[unintelligible 01:34:25.08\] GraphQL either. So learning this stuff is easier, but everybody, every engineer needs to familiarize themselves with the foundational concepts that are in play with LLMs today. Because first of all, it will make you more effective; you'll just be better at like pulling off the shelf tools, including the large language models, for your own work. But second, it's just -- I mean, look, the broader form of my prescription is "Learn. Keep learning." I've said this my whole career, and I don't think it's anything new - you should be always reading papers, reading books, catching up... College was not the end of learning. College taught you how to teach yourself. So now everybody should just be continuing to take time to teach themselves. And I took it upon myself to finally -- I told you, I'm 54; my brain ain't exactly as springy as it used to be... And it's been 30 years since I took a linear algebra course. And yet I forced myself to learn as much as possible, and I continue to force myself to learn this stuff, and become an AI guy. Because it's time. It's here. Don't ignore it, or you'll be in last place. That's my prescription.
+**Steve Yegge:** Yeah, you don't have to learn GraphQL either. So learning this stuff is easier, but everybody, every engineer needs to familiarize themselves with the foundational concepts that are in play with LLMs today. Because first of all, it will make you more effective; you'll just be better at like pulling off the shelf tools, including the large language models, for your own work. But second, it's just -- I mean, look, the broader form of my prescription is "Learn. Keep learning." I've said this my whole career, and I don't think it's anything new - you should be always reading papers, reading books, catching up... College was not the end of learning. College taught you how to teach yourself. So now everybody should just be continuing to take time to teach themselves. And I took it upon myself to finally -- I told you, I'm 54; my brain ain't exactly as springy as it used to be... And it's been 30 years since I took a linear algebra course. And yet I forced myself to learn as much as possible, and I continue to force myself to learn this stuff, and become an AI guy. Because it's time. It's here. Don't ignore it, or you'll be in last place. That's my prescription.
 
 **Adam Stacoviak:** Okay. Let's get a second prescription to this then. Once they learn it, what should they do then?
 
@@ -970,7 +970,7 @@ And it's so quantitative that there are leaderboards for it. You guys know Huggi
 
 **Adam Stacoviak:** \[01:38:00.10\] Yeah.
 
-**Steve Yegge:** Literally, it's a giant -- it's like video games. Literally, everybody's like... There are leaderboards. AI has been a big gamified competition for 20 years. And so once you're in AI, you realize how it works, you're like "Okay, this is what we need to do - we need to make our product better in the following ways, we're going to \[unintelligible 01:38:14.12\] experiments, and we're just going to keep picking the one that worked the best." That's it, there's nothing to it. After that it's just learning the tools and the names, and stuff.
+**Steve Yegge:** Literally, it's a giant -- it's like video games. Literally, everybody's like... There are leaderboards. AI has been a big gamified competition for 20 years. And so once you're in AI, you realize how it works, you're like "Okay, this is what we need to do - we need to make our product better in the following ways, we're going to setup the following experiments, and we're just going to keep picking the one that worked the best." That's it, there's nothing to it. After that it's just learning the tools and the names, and stuff.
 
 **Jerod Santo:** Nothing to it but to do it, and the time is now.
 
@@ -992,7 +992,7 @@ And it's so quantitative that there are leaderboards for it. You guys know Huggi
 
 **Jerod Santo:** For sure.
 
-**Adam Stacoviak:** Because one thing that I think Jerod and I both love about this show is we have a diverse set of people on this show, from all sorts of different backgrounds. Young French dudes who make an Oculus Rift open source version of it, like that kind of thing, from folks like you, that have a lot of experience and history... And not just years, but diverse. "I've been here, I've been there, I've been there..." And you've been bold enough to push back, you've been bold enough to get Jeff Bezos to giggle, and then also leave whenever the criteria no longer met your desires. "This no longer innovates. This is too conservative. This is not \[unintelligible 01:39:56.09\] anymore." And I think people need to hear stories like yours, because that's how we all sort of learn. We hear stories - back to the storytelling... That's what's key, and that's what the real magical thing of this show is, is like there's no perfect Steve Yegge episode here, or at least the first one... I'm hoping and sure we'll have you back to share more.
+**Adam Stacoviak:** Because one thing that I think Jerod and I both love about this show is we have a diverse set of people on this show, from all sorts of different backgrounds. Young French dudes who make an Oculus Rift open source version of it, like that kind of thing, from folks like you, that have a lot of experience and history... And not just years, but diverse. "I've been here, I've been there, I've been there..." And you've been bold enough to push back, you've been bold enough to get Jeff Bezos to giggle, and then also leave whenever the criteria no longer met your desires. "This no longer innovates. This is too conservative. This is not that anymore." And I think people need to hear stories like yours, because that's how we all sort of learn. We hear stories - back to the storytelling... That's what's key, and that's what the real magical thing of this show is, is like there's no perfect Steve Yegge episode here, or at least the first one... I'm hoping and sure we'll have you back to share more.
 
 **Steve Yegge:** Thanks for having me. What you're saying is resonating. I really do think that we need to share more. Companies tend to be really closed up, but... We're just people. Let's share more.
 
