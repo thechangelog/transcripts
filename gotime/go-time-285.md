@@ -22,7 +22,7 @@ Alright, so let's just jump right into it. So before we actually get into the ac
 
 **Mat Ryer:** What are you going to do when Reddit goes away?
 
-**Andy Walker:** I don't know, honestly. And I've been thrown for a loop, because I was one of the users of those apps that went under... And so now I'm just kind of like "Aww... Do I capitulate and deal with the--" So I don't know. But yeah, I mean, it's still pretty well indexed by Google, and so... Yeah, that's a good place to look for, like sysadmin, and really, any of the -- if it's a particular programming language tool, \[unintelligible 00:03:51.29\]
+**Andy Walker:** I don't know, honestly. And I've been thrown for a loop, because I was one of the users of those apps that went under... And so now I'm just kind of like "Aww... Do I capitulate and deal with the--" So I don't know. But yeah, I mean, it's still pretty well indexed by Google, and so... Yeah, that's a good place to look for, like sysadmin, and really, any of the -- if it's a particular programming language tool, that programming language's subreddit.
 
 **Mat Ryer:** Yeah. Yeah, I usually wait for there to be a thing I need to do. Or if I notice I'm doing something a lot, I'm like "Hm... I feel there's probably a thing that will help me here." But I find the Go newsletter to be really quite helpful. That often has tools in there written in Go, but they tend to be people solving their own problems, which tend to be the best kind of tools. And so I discover a lot that way. And I don't think that's going to disappear...
 
@@ -106,7 +106,7 @@ Alright, so let's just jump right into it. So before we actually get into the ac
 
 **Kris Brandow:** \[13:50\] I don't know, because I feel Language Server Protocol probably gives us a good base for how to do this sort of thing... I know for me personally, when I first saw Language Server Protocol come out, I was like "That's silly... Why do we need this? We don't need this. We don't need to have this thing." But I recently rebuilt my entire Neovim config, and just having -- Neovim has a language server protocol client built into it. So you just configure all of the bindings for go to definition, and refers, and all of that stuff once, and then you just put a little single line of code in, and then boom, it'll work for any language. It has a Language Server Protocol server for it. And I think that was absolutely fantastic, and that kind of revolutionized things. So I'm like "This is fantastic." So I think we could probably do the same thing if there was a big enough company like Microsoft that actually pushed this kind of protocol or consortium of people. You've got a consortium of editors online to be like "Yes, we will all commit to doing this and kind of making this kind of collaboration underlying thing."
 
-**Andy Walker:** \[unintelligible 00:14:50.28\] just put an LSP, right? Just put it there. We are so lucky that that landed at all, I think. It was a perfect storm. Because I, like you, was waiting for so long... I mean, shoot, the Neovim LSP - it's kind of just barely recently, isn't it? Like, actually, like Solid... I was using COC for a while, and all of those wacky ones that provided bindings that kind of went through VS Code, sort of, kind of... But yeah, I think we're just lucky to have LSP, so just put it in there. Let's just convince them to do that. I mean, that's already part of what it's supposed to do, I guess \[unintelligible 00:15:29.21\]
+**Andy Walker:** You can just put an LSP, right? Just put it there. We are so lucky that that landed at all, I think. It was a perfect storm. Because I, like you, was waiting for so long... I mean, shoot, the Neovim LSP - it's kind of just barely recently, isn't it? Like, actually, like Solid... I was using COC for a while, and all of those wacky ones that provided bindings that kind of went through VS Code, sort of, kind of... But yeah, I think we're just lucky to have LSP, so just put it in there. Let's just convince them to do that. I mean, that's already part of what it's supposed to do, I guess is be a central -- yeah.
 
 **Kris Brandow:** Yeah. Alright... So do we have any other ways we like to find tools?
 
@@ -168,7 +168,7 @@ Oh, and when you were talking about visualizing stuff differently, I swear someb
 
 **Andy Walker:** Definitely.
 
-**Mat Ryer:** Because it makes stuff I say sound really good. But there is a lot -- you know, we've evolved, and I don't want to get into this now... I assume we all agree that we evolved as a species. We have early humans, and before that even, you know, needed to be able to navigate landscapes, we needed to be able to position ourselves and figure out where we were, and stuff... I think syntax highlighting, \[unintelligible 00:24:22.22\] mini map that you get in editors, gives you... I feel like we're using that same kind of software or firmware or slushware... I don't know what it is... Floppyware. What is it? Moistware? It can't be...
+**Mat Ryer:** Because it makes stuff I say sound really good. But there is a lot -- you know, we've evolved, and I don't want to get into this now... I assume we all agree that we evolved as a species. We have early humans, and before that even, you know, needed to be able to navigate landscapes, we needed to be able to position ourselves and figure out where we were, and stuff... I think syntax highlighting, or like the mini map that you get in editors, gives you... I feel like we're using that same kind of software or firmware or slushware... I don't know what it is... Floppyware. What is it? Moistware? It can't be...
 
 **Andy Walker:** Wetware I believe is the --
 
@@ -218,9 +218,9 @@ I always remember in my early days of Go, and how big of a change `go fmt` made 
 
 And I think, to some degree, one of the reasons at least the code that I've written, and a lot of Go code, is that it's very Go-like. And I think because of that formatting, you can tell when Go code is not Go code; when it's like the Java Go, or the C++ Go... It's like "Oh, you're using the same patterns from your other programming language, and you've just imported it into Go."
 
-**Andy Walker:** \[unintelligible 00:31:35.12\]
+**Andy Walker:** Simple.
 
-**Kris Brandow:** Yeah. \[unintelligible 00:31:38.11\] all those wonderful things. I feel like part of the reason we can actually just identify that so easily is because of go fmt. Alright, so I think we've talked a bit about how do we find tools... There was one other topic I wanted to get to before we get into some actual tools, although we have been talking about plenty of actual tools here... When do you decide that you want to write a tool yourself? Not necessarily for other people's consumption, but you're like "This is something I've been doing over and over. I'm just going to write this." And I guess is there a point at which you kind of search for a tool and can't find one? Or is it just like "I can just write this quickly myself?" Does anybody here have a view on this? Do you find yourself doing this?
+**Kris Brandow:** Yeah. Simple, factory, all those wonderful things. I feel like part of the reason we can actually just identify that so easily is because of go fmt. Alright, so I think we've talked a bit about how do we find tools... There was one other topic I wanted to get to before we get into some actual tools, although we have been talking about plenty of actual tools here... When do you decide that you want to write a tool yourself? Not necessarily for other people's consumption, but you're like "This is something I've been doing over and over. I'm just going to write this." And I guess is there a point at which you kind of search for a tool and can't find one? Or is it just like "I can just write this quickly myself?" Does anybody here have a view on this? Do you find yourself doing this?
 
 **Andy Walker:** Too much. My frustration tolerance is very low.
 
@@ -460,7 +460,7 @@ But I think as long as people are thinking about the experience of the tools tha
 
 **Andy Walker:** And it will -- I think it also edits your history as well, in certain cases.
 
-**Mat Ryer:** Well, speaking of editing, I can't wait to see how the editors deal with this. We talked about \[unintelligible 01:01:26.24\]
+**Mat Ryer:** Well, speaking of editing, I can't wait to see how the editors deal with this. We talked about we don't like --
 
 **Jon Calhoun:** I mean, in our defense, we didn't name the tool.
 
@@ -490,7 +490,7 @@ But I think as long as people are thinking about the experience of the tools tha
 
 **Andy Walker:** Bazel scares me a little bit. That's the "Just abandon everything, and we'll just take care of it" tool. But I find myself honestly using test files a little bit recently, just to kind of fill in that gap for repeatable stuff that I would otherwise use a makefile for... Which mostly has amounted recently to combining building with logging into Elastic Container Service or something that. There's always that stupid command that you have to do, and it's like, "I don't want to remember to periodically reissue it, so I'll just put it in the makefile." So make deploy will always just do that. So I'll use task files for stuff that now, but...
 
-**Mat Ryer:** Yeah. I quite like makefiles. They tell a story. There's a storytelling opportunity in a repo as well, because there are common commands that you need to do, and it's a nice way to communicate to other people. I don't get what that whole phony thing is that you do. I still don't know why we do that. They're like "Oh, sometimes you have to write \[unintelligible 01:03:27.02\]
+**Mat Ryer:** Yeah. I quite like makefiles. They tell a story. There's a storytelling opportunity in a repo as well, because there are common commands that you need to do, and it's a nice way to communicate to other people. I don't get what that whole phony thing is that you do. I still don't know why we do that. They're like "Oh, sometimes you have to write "Oh! This is phony."
 
 **Andy Walker:** You only have to do that if there could be a file with that same name. That's basically the only reason.
 
@@ -674,7 +674,7 @@ If you think of like "I want to make a joke about this thing, and this thing", t
 
 **Andy Walker:** Yeah.
 
-**Jon Calhoun:** Yeah. I have a big marker board on my wall that I use all the time. \[unintelligible 01:16:50.12\]
+**Jon Calhoun:** Yeah. I have a big marker board on my wall that I use all the time. So, like a dry-erase board.
 
 **Kris Brandow:** So I have one more tool that I think is -- I like this tool for multiple reasons. It's called Muse. And one of the reasons I like it is because there's kind of a research lab that's behind it... And they're working with people like Martin Kleppmann. So if you've ever read "Designing data-intensive applications", he's the one that wrote that book, pretty famous book. And they're doing a lot of really cool things with distributed systems, and CRDT's and they're kind of baking that into this app, which is just kind of like endless nested whiteboards, basically... And it's kind of an Apple ecosystem only thing. So it's like iPads, and MacOS, and that kind of stuff... And really, it's kind of an iPad-focused thing, iPad plus the Apple Pencil... But I've found it to be just a fantastic, just really high-quality user experience for just kind of mapping things out, or reading things, and going from writing by hand, to typing up notes, and all of that... It's just -- it kind of really is a digital whiteboard in that kind of true sense, where it's just kind of you put things and you drag things around, and all of that. It's really cool. And all the tech underneath it is also pretty awesome.
 
@@ -738,7 +738,7 @@ If you think of like "I want to make a joke about this thing, and this thing", t
 
 **Jon Calhoun:** \[01:21:59.20\] Sure. And I say this in the sense of I don't think most people will ever do it. But I remember, I wrote Java on a -- it wasn't Notepad, it was something similar to that on Linux, that basically had no autocomplete or anything... And Java was awful for it at times, but it definitely helped me understand what was in certain standard libraries, and how it worked, and the tools that I was using for those projects, I really understood well... I definitely did some bad habits of importing an entire -- in Java, you could import an entire star subpackage type thing... So I did import way more than I needed to, but it was still helpful. It's not like I would recommend doing it all the time, but doing it every once in a while was a helpful tool.
 
-**Kris Brandow:** Yeah. I don't know if that's unpopular. Maybe \[unintelligible 01:22:40.07\]
+**Kris Brandow:** Yeah. I don't know if that's unpopular. Maybe people will feel it's unpopular
 
 **Mat Ryer:** I mean, ultimately --
 
@@ -806,7 +806,7 @@ I think there's other spillover too that I think people probably won't like to h
 
 **Andy Walker:** Even academically though, the classic model of memory is wrong. When you're serving cache lines, and - what do they call it? Predictive execution. There's a lot to cover, and I think that it would behoove us to have kind of a leveled indexed approach to diving deep on certain things. So we just don't really -- I don't think we really have.
 
-**Kris Brandow:** \[01:34:03.23\] Yeah. It's a thing where I think we've gotten stuck. \[unintelligible 01:34:05.07\] has this post on his blog from a few years back; it was like eight years ago at this point... From a few years back, where he's basically making a plea to the database community, like "Hey, we need to move forward from this idea of databases being this relational database management system. There's all these other types of database management, or data management that we should be doing, and all these different ways of creating things." And I think in our effort to make things simpler, any place that had okay definitions or okay parameters for things, we just kind of latched on and kept those things. Acid is a big one. I'm reading the Acid paper now, and one of the things about it is it was just a plea to really bring together these disparate terms, because there really wasn't any terms that were kind of bringing everything together. And it was like a \[unintelligible 01:34:53.21\] Acid was like "Here's a goal point. Move past it." Same thing with Cap. It's like "Here's a goal point. Move past it." And I think we've kind of got stuck on all of those things. And I think part of it is ultimately because we wanted to make things simpler, and easier. That was a very long-winded unpopular opinion.
+**Kris Brandow:** \[01:34:03.23\] Yeah. It's a thing where I think we've gotten stuck. Peter Bailis has this post on his blog from a few years back; it was like eight years ago at this point... From a few years back, where he's basically making a plea to the database community, like "Hey, we need to move forward from this idea of databases being this relational database management system. There's all these other types of database management, or data management that we should be doing, and all these different ways of creating things." And I think in our effort to make things simpler, any place that had okay definitions or okay parameters for things, we just kind of latched on and kept those things. Acid is a big one. I'm reading the Acid paper now, and one of the things about it is it was just a plea to really bring together these disparate terms, because there really wasn't any terms that were kind of bringing everything together. And it was like a, we have these terms now, and move forward. Like Acid was like "Here's a goal point. Move past it." Same thing with Cap. It's like "Here's a goal point. Move past it." And I think we've kind of got stuck on all of those things. And I think part of it is ultimately because we wanted to make things simpler, and easier. That was a very long-winded unpopular opinion.
 
 **Andy Walker:** It's gonna be a good one.
 
