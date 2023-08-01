@@ -58,7 +58,7 @@
 
 **Adam Stacoviak:** Yeah. This is blowback for Jerod... \[laughter\]
 
-**Bryan Cantrill:** \[unintelligible 00:02:34.20\]
+**Bryan Cantrill:** Yes, that's what we learned.
 
 **Jerod Santo:** Well, Adam is here, Bryan is here... Do you want to get out of the way? I mean, I'm sure Adam will bring it up...
 
@@ -92,7 +92,7 @@ So I finally powered through the end of the season five and season six in the la
 
 **Jerod Santo:** That's what most people say. And Bryan is the first one who didn't say that. He's like "Oh...!" and he just launched in.
 
-**Bryan Cantrill:** You know, Steve and I actually in a previous life reported \[unintelligible 00:03:57.00\] At one point they get rid of the CEO and everyone's reporting to the chair, and that is the episode... I know a lot of people that can't watch it because of that episode...
+**Bryan Cantrill:** You know, Steve and I actually in a previous life reported to the chair At one point they get rid of the CEO and everyone's reporting to the chair, and that is the episode... I know a lot of people that can't watch it because of that episode...
 
 **Jerod Santo:** Because it happened...
 
@@ -132,15 +132,15 @@ So I finally powered through the end of the season five and season six in the la
 
 **Bryan Cantrill:** It's good stuff.
 
-**Steve Tuck:** It is good stuff. It is good stuff. I mean, the other one that hits home for, I think, a bunch of folks, especially those in enterprise sales, is everything around the box. And then, \[unintelligible 00:06:22.02\] collection of the sales team, where it's like -- see, now I'm gonna fall down, because this was before season five, but... I can't remember his name, but it's like, he's regional vice-president Northwest, and they're all checking in with all the different regional sales reps...
+**Steve Tuck:** It is good stuff. It is good stuff. I mean, the other one that hits home for, I think, a bunch of folks, especially those in enterprise sales, is everything around the box. And then, the like collection of the sales team, where it's like -- see, now I'm gonna fall down, because this was before season five, but... I can't remember his name, but it's like, he's regional vice-president Northwest, and they're all checking in with all the different regional sales reps...
 
 **Adam Stacoviak:** That's right. I shadow him.
 
 **Bryan Cantrill:** I'm Keith. I'm shadowing Bob.
 
-**Adam Stacoviak:** That's right. \[laughter\] \[unintelligible 00:06:41.01\] here again...
+**Adam Stacoviak:** That's right. \[laughter\] Jan the Man here again...
 
-**Steve Tuck:** They call me \[unintelligible 00:06:42.28\] from inside sales...
+**Steve Tuck:** They call me Jan the Man from inside sales...
 
 **Adam Stacoviak:** And it's a woman. So it's like an oxymoron. It's like "Well, okay..."
 
@@ -276,7 +276,7 @@ So I finally powered through the end of the season five and season six in the la
 
 **Steve Tuck:** And just worried about what happened to his ankle...
 
-**Bryan Cantrill:** You actually talked to RFK about this, because I'm like, you know, RFK, one of the burning questions we got on the internet is like "Is this guy a \[unintelligible 00:13:01.13\]? Because it looks like it." And he does actually use -- zoom in on the right foot...
+**Bryan Cantrill:** You actually talked to RFK about this, because I'm like, you know, RFK, one of the burning questions we got on the internet is like "Is this guy about to eat ****? Because it looks like it." And he does actually use -- zoom in on the right foot...
 
 **Jerod Santo:** That's true.
 
@@ -300,7 +300,7 @@ I think, like a bunch of people at Oxide, this particular person spans way beyon
 
 **Bryan Cantrill:** Like, let's colorize this thing, because that's where the operator needs to touch. Or "This is how you indicate health or quality of a particular part of the system", rather than "How do we make this thing just look good for looking good's sake?"
 
-And Ben Leonard is the designer that Steve is referencing. And some of my favorite conversations is getting Ben together with the mechanical engineers to figure out how to make the rack look great, while making it highly manufacturable, while designing for manufacturing, and all these other constraints. And Steve and I are very much students of history... I mean, I think that if you haven't read Steve Job's "The next big thing", absolutely terrific book about the history of Next. And the really actually interesting chapter of Steve Job's life is at Next... Because they made a lot of mistakes. And one of the mistakes they made is he's after this particular black for the Next Cube, and just spends untowards amounts of money... I mean, it's the wrong decision, and we do not want to have the matte black that we are finicky about, that we're not \[unintelligible 00:16:20.19\] So how do we make this thing beautiful without sacrificing its manufacturability? And that requires you to get some mechanical engineers and a designer in the same room... And there's some back and forth, because it's like, "How about this?" "No, no. That's too expensive. Can't do that. Can't do that." But what we landed on I think is really gorgeous.
+And Ben Leonard is the designer that Steve is referencing. And some of my favorite conversations is getting Ben together with the mechanical engineers to figure out how to make the rack look great, while making it highly manufacturable, while designing for manufacturing, and all these other constraints. And Steve and I are very much students of history... I mean, I think that if you haven't read Steve Job's "The next big thing", absolutely terrific book about the history of Next. And the really actually interesting chapter of Steve Job's life is at Next... Because they made a lot of mistakes. And one of the mistakes they made is he's after this particular black for the Next Cube, and just spends untowards amounts of money... I mean, it's the wrong decision, and we do not want to have the matte black that we are finicky about, that we're not designing for manufacturing. So how do we make this thing beautiful without sacrificing its manufacturability? And that requires you to get some mechanical engineers and a designer in the same room... And there's some back and forth, because it's like, "How about this?" "No, no. That's too expensive. Can't do that. Can't do that." But what we landed on I think is really gorgeous.
 
 I don't know if yo've seen the side of the rack, but there's a punchthroughwith the Oxide logo, with that green, that just absolutely pops... And it's good-looking, which is really important to us. I mean, it's important to us to build something that we -- when we set out, we wanted to build something that we would all be proud of; that we'd pull together this kind of team spanning these different domains and disciplines. And Oxide as a result, because we pulled in so many different kinds of folks, from so many different domains, Oxide feels like a heist movie. It feels like a heist movie... I love heist movies, and it's got -- you know, we've got the safecracker, and we've got the helicopter pilot, and we've got the specialists, but then those specialists all pool together, to pull off one last job. \[laughter\]
 
@@ -378,7 +378,7 @@ So you have this kind of overlooked area that is much larger than the public clo
 
 You know, Bryan and I were at a cloud computing company and just realizing how tough it was for those that were not running a cloud computing company to actually get this kind of clean water to their end users, to developers.
 
-So to your \[unintelligible 00:21:39.29\] it is definitely expensive for homelabbers, but the interesting thing that you find is when we're talking to enterprise customers, and they're comparing it to their current stack of putting all that into a rack, it actually becomes really, really attractive, even from an economics perspective.
+So to your comment Adam, it is definitely expensive for homelabbers, but the interesting thing that you find is when we're talking to enterprise customers, and they're comparing it to their current stack of putting all that into a rack, it actually becomes really, really attractive, even from an economics perspective.
 
 **Jerod Santo:** Right.
 
@@ -534,7 +534,7 @@ Now the long forgotten masses on-prem are trying to figure out what's next... Be
 
 Now, Bryan, I think I can speak for you that we had a good sense that this was gonna take -- this was gonna require taking on a lot, because it's not only a de novo server design, but then we decided early on that we thought we had to do our own switch, that has its own kind of backstory there...
 
-**Bryan Cantrill:** The paths had diverged so long ago, is the problem. The problem is that kind of the \[unintelligible 00:34:56.20\] hardware makers are PC companies - Dell, HPE, Supermicro - and they don't actually understand cloud computing. And those folks at those companies that understood cloud computing... Steve grew up at Dell. Steve was at Dell for ten years. And when Steve saw this burgeoning new use case in California for Dell servers - a company called Facebbok. And inside of Dell, they're like "This is a website. We don't see why this is that important. We should be selling to the Chevrons of the world..."
+**Bryan Cantrill:** The paths had diverged so long ago, is the problem. The problem is that kind of the extant hardware makers are PC companies - Dell, HPE, Supermicro - and they don't actually understand cloud computing. And those folks at those companies that understood cloud computing... Steve grew up at Dell. Steve was at Dell for ten years. And when Steve saw this burgeoning new use case in California for Dell servers - a company called Facebbok. And inside of Dell, they're like "This is a website. We don't see why this is that important. We should be selling to the Chevrons of the world..."
 
 **Steve Tuck:** Insurance, and manufacturing, finance... Yeah.
 
@@ -588,7 +588,7 @@ There's a really good podcast where Jim Farley is talking about how Ford outsour
 
 **Bryan Cantrill:** \[41:54\] So in terms of -- I mean, we would propose in terms of value, and density, and economics, and services, it's very different. In terms of switching costs, I think one of the big benefits, and why the timing was right for Oxide now versus Oxide, say, 5-10 years ago, is that where companies have oriented and really invested a lot of resources is sort of developer-friendly tooling for cloud computing. So by that measure, the switching costs are extraordinarily low, because you're now able to leverage the same kind of Terraform frameworks... Just, the models and workflows that you've become accustomed to are stitching into Oxide. Because you can think about it as kind of another cloud that you now kind of own and operate on-prem. And it's leveraging all that investment you've done over the last five years, getting to more cloud-first type models, and workloads, and development practices, but being able to leverage those on-prem.
 
-And then in terms of thinking from a data center operator perspective, where this solution meets the rest of the data center is obviously at the network hand-off. And so we \[unintelligible 00:43:03.08\] We come with gifts to the network operators and engineers, which gives them a whole kind of new world of visibility, so that they can not only be in defense mode, but actually be proactive, and be able to anticipate where there's congestion, and be able to help give users better experiences.
+And then in terms of thinking from a data center operator perspective, where this solution meets the rest of the data center is obviously at the network hand-off. And so we speak PGP to the network. We come with gifts to the network operators and engineers, which gives them a whole kind of new world of visibility, so that they can not only be in defense mode, but actually be proactive, and be able to anticipate where there's congestion, and be able to help give users better experiences.
 
 And then we've invested a lot to make sure that that hand-off point where we're talking BGP to someone's network is clean and pretty straightforward, pretty low.
 
@@ -652,7 +652,7 @@ Jerod, to go back to your question, if you're that CIO - if you look at what thi
 
 **Adam Stacoviak:** Can you walk us through exactly what it's like to boot for the first time this Oxide rack? Assuming the sad data center person's walked us to where it will go, and says "This is where your Oxide server rack will go."
 
-**Steve Tuck:** \[unintelligible 00:49:52.14\]
+**Steve Tuck:** "Watch the box."
 
 **Adam Stacoviak:** \[49:54\] Assuming that's already taken place. We're there -- let's say Jerod and I are there. We're the administrators, the operators, whatever you wanna call us... We've gotta provision this thing. You say it takes a few hours... We slide it in, maybe it takes a small forklift, or several people, or maybe it's got wheels, I have no idea...
 
@@ -734,7 +734,7 @@ Again, one of the big advantages of us being transparent, open source - we want 
 
 **Steve Tuck:** Yeah, your identity provider for auth. So again, in enterprise environments you've got usually a SAML-based auth environment, whether it's Keycloak, or some larger, more unwieldy Microsoft products... And we were not gonna go try to replicate all of that. These are established authentication and identity validation mechanisms... And so integrating into that so that you have kind of a pretty clean workflow for being able to get that stitched together.
 
-Now you're the administrator, so what you are doing is setting up a silo, and that is kind of a boundary for -- because one of the other important aspects of this is being able to operate in multitenancy. I know multitenancy gets thrown around a lot, but the necessities of having both delivering kind of quality of service guarantees to customers while having complete isolation is one of the very complicated and hard elements of running a cloud, and something that has been very difficult for \[unintelligible 00:57:32.26\] systems providers to get right who are selling on-prem. Even some of the kind of hyper-converged folks that entered the market in the last 5-10 years, this notion of multi-tenancy is a pretty tricky one to get right. But in the Oxide system you're basically setting up a silo or a number of silos, depending on your customers that you're serving.
+Now you're the administrator, so what you are doing is setting up a silo, and that is kind of a boundary for -- because one of the other important aspects of this is being able to operate in multitenancy. I know multitenancy gets thrown around a lot, but the necessities of having both delivering kind of quality of service guarantees to customers while having complete isolation is one of the very complicated and hard elements of running a cloud, and something that has been very difficult for extant systems providers to get right who are selling on-prem. Even some of the kind of hyper-converged folks that entered the market in the last 5-10 years, this notion of multi-tenancy is a pretty tricky one to get right. But in the Oxide system you're basically setting up a silo or a number of silos, depending on your customers that you're serving.
 
 So you, Adam, have like two different departments, and you would have those departments in their own kind of boundary. And then it's as simple as inviting them in, and those users can then come in, just like they're hitting EC2 or AWS; they can set up their credentials and create a project, and they're off and running. They can go deploy instances directly, they can do it via the API CLI...
 
@@ -772,7 +772,7 @@ We actually have been pretty transparent about our whole journey. So we've got o
 
 **Adam Stacoviak:** Yes.
 
-**Bryan Cantrill:** We've loved getting the team on there in their own voice... So we've been able to shed a light on some things that really have not had a light upon them. So getting the \[unintelligible 01:01:15.29\] And getting regulatory compliance. So when you have hardware, you can't just ship hardware. You've gotta actually have -- the FCC has to certify that you have not made something that's gonna interfere with all the electronic equipment around it... And that's compliance.
+**Bryan Cantrill:** We've loved getting the team on there in their own voice... So we've been able to shed a light on some things that really have not had a light upon them. So getting the Double E team talking about bring up,\[unintelligible 01:01:15.29\] bring up lab. And getting regulatory compliance. So when you have hardware, you can't just ship hardware. You've gotta actually have -- the FCC has to certify that you have not made something that's gonna interfere with all the electronic equipment around it... And that's compliance.
 
 **Steve Tuck:** And by the way, the FCC has fixated on the state of the art, which are these 1U/2U systems... So it turns out when you're building a rack-level system and you walk in to go get compliance, they are measuring you against these much smaller systems. And if you push back on that, and you're like "Well, wait a minute... There's the density of two racks running inside this one rack. This is the product", they kind of shrug. They're like "I don't know, take it up with the FCC."
 
@@ -798,7 +798,7 @@ So there's something called a ceremony, and this is a technical term in security
 
 **Steve Tuck:** And by the way, software update is enormously difficult. This is very difficult for Amazon - a good example of a company that does it really well. And Tesla is a company that is struggling because they don't do it well. And VW. It has these very, very long shadows if you cannot do a good job of versioning and updating software. And it sounds trivial... I mean, it was THE feature that we had to make sure we had gotten right before shipping. And everything beyond that - well, obviously, there's a huge amount of software that ships in this system. It's more software than hardware... Which is a bit counterintuitive, because we've got a big hardware rack on the website, and it's easy for folks to think about it as a hardware product, which it certainly is... There's a whole bunch of software on there, but update is the fulcrum. I mean, that is the thing that allows for all of the rest of the software to continuously be improved. To go fix things that are wrong.
 
-And we were, again, very fortunate that we were able to attract folks that had been working on this problem for their career, very passionate about this problem, that were front and center on working on that. But as Bryan points out, that's one of a couple of really, really critical things that we had to get through the gates before we knew we were on the path \[unintelligible 01:05:59.02\]
+And we were, again, very fortunate that we were able to attract folks that had been working on this problem for their career, very passionate about this problem, that were front and center on working on that. But as Bryan points out, that's one of a couple of really, really critical things that we had to get through the gates before we knew we were on the path of shipping.
 
 **Bryan Cantrill:** \[01:06:01.06\] And then I think, Adam, important - how do you know... We've got a great luxury at Oxide, namely the product that we're making is one that we ourselves wanna use. So we've got an Oxide rack that runs our software, that we are constantly updating and running on ourselves.
 
@@ -806,7 +806,7 @@ And we were, again, very fortunate that we were able to attract folks that had b
 
 **Bryan Cantrill:** We are the first customer, and this is always essential. You know when you buy a product from someone and it feels like "Are these guys using their own product? Because this thing kind of sucks." And if the engineers were forced to use their own product, I think it'd be a lot better. And we are a big believer - this is something that was instilled in me early in my career at Sun, where a real turning point at Sun... And you talked to Matt Aarons about ZFS. One of the early moments for ZFS was us storing our own home directories on ZFS. And I'm very proud to be in that first batch of - whatever it was, eight people that had all of their data on ZFS. Because we had to go all-in first. And that machine, Zion, was a machine that we all volunteered to be on.
 
-Part of the reason that we've deployed on ZFS at Oxide is because I've been on ZFS for whatever it's been, 20 years. And when you've walked that trail with your own infrastructure, you have a level of competence in it, because you've been using it yourself. So we are using our product ourselves, and there's so many things that have come out of our own use of it, where we have obviously discovered all sorts of issues that needed to be improved, and so on, but it's also given us the confidence to know that what we're building is actually -- and to pull this whole thing together required a hardware rack that was to the point that it could really be used... We needed a lot to be in place to be able to even use our product ourselves. And boy, the first demo day that one of our engineers actually -- and you can kind of see him working himself up to it, and \[unintelligible 01:08:00.22\] to see if we could actually demo the whole rack together... And that moment where all of a sudden we had all Oxide software running on all Oxide hardware, and being able to demo that for the whole company is so catalytic, and was so energizing... To realize every single one of us at this company has been demoed today, and how great is that.
+Part of the reason that we've deployed on ZFS at Oxide is because I've been on ZFS for whatever it's been, 20 years. And when you've walked that trail with your own infrastructure, you have a level of competence in it, because you've been using it yourself. So we are using our product ourselves, and there's so many things that have come out of our own use of it, where we have obviously discovered all sorts of issues that needed to be improved, and so on, but it's also given us the confidence to know that what we're building is actually -- and to pull this whole thing together required a hardware rack that was to the point that it could really be used... We needed a lot to be in place to be able to even use our product ourselves. And boy, the first demo day that one of our engineers actually -- and you can kind of see him working himself up to it, and Steve, I knew you had been DMing Lukeman to see if we could actually demo the whole rack together... And that moment where all of a sudden we had all Oxide software running on all Oxide hardware, and being able to demo that for the whole company is so catalytic, and was so energizing... To realize every single one of us at this company has been demoed today, and how great is that.
 
 **Adam Stacoviak:** When was that demo? How far back was that demo?
 
@@ -892,7 +892,7 @@ It's conversations that are around "How do we grow and go get access to more of 
 
 **Bryan Cantrill:** And that .matrix printer sacrificed itself for the greater good.
 
-**Steve Tuck:** \[unintelligible 01:19:30.05\] wished it had not.
+**Steve Tuck:** Met a Dremel it wished it had not.
 
 **Bryan Cantrill:** It lived a short, but important life.
 
@@ -900,11 +900,11 @@ It's conversations that are around "How do we grow and go get access to more of 
 
 **Bryan Cantrill:** It goes beyond that though. You can't do that.
 
-**Steve Tuck:** Yeah, because \[unintelligible 01:19:40.01\] and we're gonna take it into the field, and we're all gonna --
+**Steve Tuck:** Yeah, because we thought "Oh, this is going to be like PS load letter and we're gonna take it into the field, and we're all gonna --"
 
 **Bryan Cantrill:** Right.
 
-**Steve Tuck:** No, no, no. No, this is gonna be taken apart surgically, and destroyed surgically. So in particular, the \[unintelligible 01:19:54.19\] goes through the microcontroller, because this .matrix printer - why did this .matrix printer have to die? Because it printed out the secret. It saw the secret.
+**Steve Tuck:** No, no, no. No, this is gonna be taken apart surgically, and destroyed surgically. So in particular, the Dremel goes through the microcontroller, because this .matrix printer - why did this .matrix printer have to die? Because it printed out the secret. It saw the secret.
 
 **Jerod Santo:** It saw the secret, yeah.
 
@@ -968,7 +968,7 @@ It's conversations that are around "How do we grow and go get access to more of 
 
 **Bryan Cantrill:** Early Intel.
 
-**Steve Tuck:** Yeah, he was early at Intel back in the day... And Jeff's extraordinary, and he was so generous with his time, and really -- just a terrific conversation with Jeff. That podcast drops, and six hours later I've got someone coming in on LinkedIn, saying "I just listened to the podcast. I am leaving Facebook. We've gotta talk." And that was \[unintelligible 01:25:02.09\] was the first one that was like totally out of network for us... But \[unintelligible 01:25:10.12\] is such an important part of who Oxide is. And we share values with \[unintelligible 01:25:16.04\] because he was attracted by the podcast that we put out there. And he's like "The folks that make this - I wanna talk to these people." And early on, those stories we knew would be attractive to the kind of technologists... Because what we knew - the thing that we knew, that I think investors didn't necessarily know, is that the world, technologists, customers, knew that it was time for this company. And that if we could put the bat signal out there saying "Hey, here's what we're doing. Come join us", we knew that technologists and customers would raise their hand.
+**Steve Tuck:** Yeah, he was early at Intel back in the day... And Jeff's extraordinary, and he was so generous with his time, and really -- just a terrific conversation with Jeff. That podcast drops, and six hours later I've got someone coming in on LinkedIn, saying "I just listened to the podcast. I am leaving Facebook. We've gotta talk." And that was Arjen Roodselaar who is one of our founding engineers, Arjen was the first one that was like totally out of network for us... But Arjen is such an important part of who Oxide is. And we share values with Arjen because he was attracted by the podcast that we put out there. And he's like "The folks that make this - I wanna talk to these people." And early on, those stories we knew would be attractive to the kind of technologists... Because what we knew - the thing that we knew, that I think investors didn't necessarily know, is that the world, technologists, customers, knew that it was time for this company. And that if we could put the bat signal out there saying "Hey, here's what we're doing. Come join us", we knew that technologists and customers would raise their hand.
 
 \[01:25:57.20\] So strategies such as this behind the podcast was it's a way of getting that bad signal out there. By the way, it's doing it in a vector that we just love. We love podcasts, we love listening to them... We think it's a really important vector. So yeah, On the Metal was huge for us.
 
@@ -1022,7 +1022,7 @@ So many people are just not building in the public... And not like literally sha
 
 **Adam Stacoviak:** Oh, is it really?
 
-**Bryan Cantrill:** That's Alex Blumberg, \[unintelligible 01:30:53.24\] This American Life. Always be recording.
+**Bryan Cantrill:** That's Alex Blumberg, That's Ira Glass, This American Life. Always be recording.
 
 **Adam Stacoviak:** I didn't know that. I thought invented that. Geez. This whole time.
 
@@ -1058,7 +1058,7 @@ For me, social audio is not a business, social audio is a part of -- we do what 
 
 **Jerod Santo:** That's right. You can't have another business. 2050, coming to a homelab near you.
 
-**Adam Stacoviak:** \[unintelligible 01:35:00.12\] I don't think I'll be playing with it, so you've gotta do it faster. Can we do it like 2040, 2030? I can do 2040, maybe. But 2030?
+**Adam Stacoviak:** What the heck will I be 2050? -- Doing? I don't think I'll be playing with it, so you've gotta do it faster. Can we do it like 2040, 2030? I can do 2040, maybe. But 2030?
 
 **Bryan Cantrill:** We'll split the difference. 2040. 2040, but that's the last and final offer.
 
@@ -1094,11 +1094,11 @@ For me, social audio is not a business, social audio is a part of -- we do what 
 
 **Jerod Santo:** When's that? Is that in the past?
 
-**Steve Tuck:** \[unintelligible 01:35:55.01\] the whole history of boards kind of laid out...
+**Steve Tuck:** Up to Emeryville, we've got a live running kit. We've got the whole history of boards kind of laid out...
 
 **Jerod Santo:** Oh, that'd be fun.
 
-**Steve Tuck:** It'd be great to have you there.
+**Steve Tuck:** It'd be great to have you up.
 
 **Adam Stacoviak:** Cool.
 
