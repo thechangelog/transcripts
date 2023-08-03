@@ -80,7 +80,7 @@ Now, you had to have an answer repeat five times to actually make the board, so 
 
 **Jerod Santo:** I can't believe this could possibly be the case... Is TypeScript the most popular programming language amongst JS Party listeners? \[win alert\] It absolutely is. Number one spot, TypeScript... Which to me is just proof that Nick Nisi stuffed the ballots, and answered the majority of these responses were all Nick, with different names, like Rick Nisi, Chick Nisi, Flick Nisi... Stuff like that.
 
-\[00:05:56.19\] Nonetheless, the Whatnots have it. So one and two are gone. Chuck and Robbie will be playing this round... And we have three, four and five left on the board. Fellas, you've got to match all three of those, and you take home all of round one's point. Let's go down to Robbie, it's your turn. What is our listeners' most favorite programming language?
+\[05:56\] Nonetheless, the Whatnots have it. So one and two are gone. Chuck and Robbie will be playing this round... And we have three, four and five left on the board. Fellas, you've got to match all three of those, and you take home all of round one's point. Let's go down to Robbie, it's your turn. What is our listeners' most favorite programming language?
 
 **Robbie Wagner:** I'm gonna go with Rust.
 
@@ -150,7 +150,7 @@ This will be Adam versus Robbie in the interface-off. We will start with Robbie.
 
 **Robbie Wagner:** Let's say Java.
 
-**Jerod Santo:** \[00:10:00.28\] Show us Java. \[fail alert\] Number one answer, Java! ...with 22 respondents naming Java their least favorite programming language. So again, Chuck and Robbie get to play, and this is round two. So we go now to Chuck. Two through six still out there - what programming languages do you think our listeners do not like very much?
+**Jerod Santo:** \[10:00\] Show us Java. \[fail alert\] Number one answer, Java! ...with 22 respondents naming Java their least favorite programming language. So again, Chuck and Robbie get to play, and this is round two. So we go now to Chuck. Two through six still out there - what programming languages do you think our listeners do not like very much?
 
 **Chuck Carpenter:** I'm going to pick PHP again.
 
@@ -228,7 +228,7 @@ This will be Adam versus Robbie in the interface-off. We will start with Robbie.
 
 This is back with Una and Chuck facing off. We'll let Chuck go first this time.
 
-\[00:14:06.15\] We asked 100 of our listeners, "How big is your primary computer monitor?" And I will say that the answers were all over the board. So we've grouped by ranges. These are all ranges that match, but you don't have to match the range. Just name a size, and I'll tell you if it fits inside of that range. Alright, Chuck, you're up first. How big do you think people's monitors are, generally?
+\[14:06\] We asked 100 of our listeners, "How big is your primary computer monitor?" And I will say that the answers were all over the board. So we've grouped by ranges. These are all ranges that match, but you don't have to match the range. Just name a size, and I'll tell you if it fits inside of that range. Alright, Chuck, you're up first. How big do you think people's monitors are, generally?
 
 **Robbie Wagner:** 36 inches.
 
@@ -292,7 +292,7 @@ This is back with Una and Chuck facing off. We'll let Chuck go first this time.
 
 **Jerod Santo:** 40 inches. So she's thinking no 36... You have to guess the upper range of that range. This is tough. Is she up to the task? We asked 100 JS Party listeners -- I'm stalling now for dramatic effect. How big is your primary computer monitor? Did more than five of them say 40 inches? \[win alert\] You got it. 40+ inches, seven people...
 
-**Una Kravets:** \[00:18:14.07\] What?!
+**Una Kravets:** \[18:14\] What?!
 
 **Adam Argyle:** Go, Una, go Una, go!
 
@@ -344,11 +344,11 @@ The question that we asked our listeners, "What non-financial work benefit do yo
 
 **Robbie Wagner:** Um, flexibility to work remote?
 
-\[00:21:35.16\]
+\[21:35\]
 
 **Jerod Santo:** *Jerod here in the editing room... I should point out that on a live show, I heard Robbie say "flexibility", but I did not hear him say "to work remote." That may seem like a small distinction right now, but this round is about to go off the rails, and it'll make a lot more sense to you with that little nugget in your pocket. Okay, back to the Feud.*
 
-**Jerod Santo:** \[00:21:55.13\] Good answer. Good answer. Did people appreciate freedom and flexibility? \[win alert\] They sure do. That's the number two response, 18 people, but it is near the top of the board, and this is the inverted round, so you only get 10 points, because it's number two. We'll award those now, and we will go back to CSS Pod. I believe it's Adam's turn...
+**Jerod Santo:** \[21:55\] Good answer. Good answer. Did people appreciate freedom and flexibility? \[win alert\] They sure do. That's the number two response, 18 people, but it is near the top of the board, and this is the inverted round, so you only get 10 points, because it's number two. We'll award those now, and we will go back to CSS Pod. I believe it's Adam's turn...
 
 **Adam Argyle:** What is PTO?
 
@@ -402,7 +402,7 @@ The question that we asked our listeners, "What non-financial work benefit do yo
 
 **Chuck Carpenter:** Alright, I'm gonna try and follow the Reese's Pieces and I'm gonna say job satisfaction.
 
-**Jerod Santo:** \[00:25:53.29\] Job satisfaction. I'm not going to ask you for a synonym; I'm gonna go ahead and say yes, that is one. \[win alert\] And this is the general category of challenge, impact made, and that kind of quality. I think that is job satisfaction, is how much is my impact. Only five people appreciate job satisfaction, which means it's worth a whopping 30 points... So we'll award those now. But strangely, the most popular, the number one, and somewhat overwhelmingly so still hasn't been matched by anybody. So I'm wondering, what's going on with that? Una, back to you.
+**Jerod Santo:** \[25:53\] Job satisfaction. I'm not going to ask you for a synonym; I'm gonna go ahead and say yes, that is one. \[win alert\] And this is the general category of challenge, impact made, and that kind of quality. I think that is job satisfaction, is how much is my impact. Only five people appreciate job satisfaction, which means it's worth a whopping 30 points... So we'll award those now. But strangely, the most popular, the number one, and somewhat overwhelmingly so still hasn't been matched by anybody. So I'm wondering, what's going on with that? Una, back to you.
 
 **Una Kravets:** My initial thought was sort of like working on interesting problems, which I think is the challenge and impact.
 
@@ -516,7 +516,7 @@ The question that we asked our listeners, "What non-financial work benefit do yo
 
 **Jerod Santo:** Okay, let's hear it.
 
-**Una Kravets:** \[00:30:09.19\] My guess is that it is parental leave. It's like work/life balance, but -- it's in that realm, but it's not work/life balance.
+**Una Kravets:** \[30:09\] My guess is that it is parental leave. It's like work/life balance, but -- it's in that realm, but it's not work/life balance.
 
 **Jerod Santo:** Yeah... That's a really tough one. That's actually -- it was categorized previously under like generous paid PTO, like paid time off.
 
@@ -592,7 +592,7 @@ Double point round. Name a SaaS - that's software-as-a-service, not some sort of
 
 **Una Kravets:** I'm gonna say Analytics, maybe Google Analytics...
 
-**Jerod Santo:** \[00:33:53.18\] Show us Google Analytics. \[win alert\] That one is bundled into all kinds of Google things: Google Drive, Google Pay, Google Analytics, Google Maps. These are all software as a service that seven of our listeners can't live without, so it's worth 14 points. That's the number four slot. Two, three and five are still out there, one strike left. Adam, what do you think?
+**Jerod Santo:** \[33:53\] Show us Google Analytics. \[win alert\] That one is bundled into all kinds of Google things: Google Drive, Google Pay, Google Analytics, Google Maps. These are all software as a service that seven of our listeners can't live without, so it's worth 14 points. That's the number four slot. Two, three and five are still out there, one strike left. Adam, what do you think?
 
 **Adam Argyle:** I'm gonna say logging services. So you've got your Sentrys, your LogRockets, your... Yeah.
 
@@ -658,7 +658,7 @@ Speaking of GitHub Copilot... So I will preface this with the contextualization 
 
 **Una Kravets:** This is a very divisive thing. You can go either way here. I will say, as a representative of the CSS Podcast, Copilot is very bad at CSS. Very bad at it. I think it's just the general quality of the web. So I'm gonna say frustrated and annoyed by it. And I think a lot of people probably feel that way, too. If they know their craft and they're getting results, that's unexpected. So I'm gonna go with frustrated/annoyed. It seems like the same thing to me.
 
-**Jerod Santo:** \[00:38:14.24\] Yeah. Show me annoyed. \[win alert\] Yes, they are annoyed. However, it's the number six answer. They're also tired. So this, I think, was more about annoyance of hearing about it, talking about it etc. But I gave it to you because you said annoyed and the word is annoying. Hence the long pause for me to think about "Should she get it or not?" So you get it. However, Chuck's answer was number four, and this was answered number six. So he actually wins the face-off and they play this round. Guys, this is your Big Shot. Here we go. Alright, Robbie, what do you think?
+**Jerod Santo:** \[38:14\] Yeah. Show me annoyed. \[win alert\] Yes, they are annoyed. However, it's the number six answer. They're also tired. So this, I think, was more about annoyance of hearing about it, talking about it etc. But I gave it to you because you said annoyed and the word is annoying. Hence the long pause for me to think about "Should she get it or not?" So you get it. However, Chuck's answer was number four, and this was answered number six. So he actually wins the face-off and they play this round. Guys, this is your Big Shot. Here we go. Alright, Robbie, what do you think?
 
 **Robbie Wagner:** I'm gonna say productive.
 
@@ -724,7 +724,7 @@ Speaking of GitHub Copilot... So I will preface this with the contextualization 
 
 **Jerod Santo:** That is the number three answer. Some people just said it makes them feel poor, like they're gonna be poor... \[laughter\] Because it's gonna make them that way.
 
-**Adam Argyle:** \[00:42:12.18\] Unemployed.
+**Adam Argyle:** \[42:12\] Unemployed.
 
 **Jerod Santo:** Which is 102 points stolen and awarded to CSS Podcast. Let's find out what the other things people feel. So we had number one was empowered and productive; number two - this was the one where I was trying to get you guys to circle the wagon on... They're unimpressed, or they said "Meh." So that's kind of the "It's dumb." Not "I'm dumb", but "It's dumb." So that would have definitely matched. Anxious, concerned, poor, jobless was another thing people said... Exploited, robbed, or icky - that's number four. We got that one. Number five was "Curious about it", they're interested in it, kind of excited, but don't know much about it... And number six, we had as "Tired or annoyed with the entire conversation." So for those people, I apologize we're still talking about it... But what are you gonna do?
 
@@ -770,7 +770,7 @@ Speaking of GitHub Copilot... So I will preface this with the contextualization 
 
 **Jerod Santo:** But I won't do that. Actually, you still would have won. Dang it. Okay, Una. You really came through in the clutch. I mean, you had a couple of big steals, you really carried Adam... He was pretty pathetic the entire game. I think I saw him tearing up at one point... What do you say when your teammates ask you how this day went, and how you performed?
 
-**Una Kravets:** \[00:45:07.21\] Well, as a single tear slowly trickles down my cheek, I want to thank my teammates, I want to thank my mom, I want to thank my family, I think my dog... No, it's all good fun. Thanks for having us.
+**Una Kravets:** \[45:07\] Well, as a single tear slowly trickles down my cheek, I want to thank my teammates, I want to thank my mom, I want to thank my family, I think my dog... No, it's all good fun. Thanks for having us.
 
 **Jerod Santo:** It is all good fun. I always have a blast with this game. And I can tell you, as the person who knows all the answers, it's very frustrating to sit on the side and watch you guys grasp at them. But I empathize. I'm not tired and annoyed. I'm curious and interested, you know? And I'm glad that you guys managed to finally realize how important working from home is for the average software developer; talk about a knowledge gap... Chuck and Robbie, thanks for playing. Anything you'd like to say? Whiskey Web and Whatnot, do you want to tell folks what your podcast is about, what you guys are doing, etc?
 
