@@ -156,11 +156,11 @@ This will be Adam versus Robbie in the interface-off. We will start with Robbie.
 
 **Jerod Santo:** So you picked it on the favorite, and now you're picking it on the least favorite.
 
-**Chuck Carpenter:** I feel like it could have made \[unintelligible 00:10:26.08\]
+**Chuck Carpenter:** I feel like it could have made both.
 
 **Jerod Santo:** Kind of a shotgun approach, or what's the strategy here?
 
-**Chuck Carpenter:** A little bit of that, yeah. I've only got three answers in my head, and I'm just gonna \[unintelligible 00:10:32.22\]
+**Chuck Carpenter:** A little bit of that, yeah. I've only got three answers in my head, and I'm just gonna read them over and over.
 
 **Jerod Santo:** They're the only languages that you know of. \[laughter\] Okay, let's see if PHP made it around this time; I guess because it wasn't on the last board, maybe that's some evidence that it might be here. Is it? \[win alert\] Yes, it is. Number two answer, with 18 people hatin' on PHP. But there's still many left. We go back to Robbie.
 
@@ -332,7 +332,7 @@ The question that we asked our listeners, "What non-financial work benefit do yo
 
 **Chuck Carpenter:** Whaat?!
 
-**Jerod Santo:** Well, you laid the gauntlet, and then you managed to maybe \[unintelligible 00:21:08.19\]
+**Jerod Santo:** Well, you laid the gauntlet, and then you managed to maybe match it.
 
 **Una Kravets:** What obscure benefits are these?
 
@@ -374,7 +374,7 @@ The question that we asked our listeners, "What non-financial work benefit do yo
 
 **Jerod Santo:** That's a good one. \[laughter\]
 
-**Una Kravets:** \[unintelligible 00:23:34.10\]
+**Una Kravets:** That's not on there is it?
 
 **Jerod Santo:** Alright, so maybe it's not so much the end goal, but the friends that we made along the way. Is that an important value that people benefit at work? \[win alert\] Yes, it is. And it's not that important, so it's number five, which means it's worth a lot of points. This covers friendships, team events, networking, hanging out, meeting people. So that covers that whole category. And it's worth 25 points, because only seven people answered that. We'll award those now, and go back over to the other side. Alright, Robbie, we have one, four and six. So far, we have freedom and flexibility of schedule, we have unlimited or generous PTO, and we have friends and team events all answered. What else could people value that are non-financial?
 
@@ -436,7 +436,7 @@ The question that we asked our listeners, "What non-financial work benefit do yo
 
 **Robbie Wagner:** Yeah, no problem. Who needs five points...? Let's say... All of this is like flexibility though I feel like, but not a lot of meetings, so you can get work done, I don't know.
 
-**Jerod Santo:** I will say that's flexibility, so I'd say guess something else. \[unintelligible 00:27:50.08\] last time, so I'll let you guess another one this time. You're being around this bush... We do have a timer though. It's in my head, and it's counting down furiously.
+**Jerod Santo:** I will say that's flexibility, so I'd say guess something else. I ixnayed you last time, so I'll let you guess another one this time. You're being around this bush... We do have a timer though. It's in my head, and it's counting down furiously.
 
 **Robbie Wagner:** Yeah, I don't have anything. I'll pass.
 
@@ -498,7 +498,7 @@ The question that we asked our listeners, "What non-financial work benefit do yo
 
 **Una Kravets:** According to the survey...
 
-**Jerod Santo:** Or is it JavaScript? That'd be a \[unintelligible 00:29:35.02\] answer.
+**Jerod Santo:** Or is it JavaScript? That'd be a an ironic answer.
 
 **Chuck Carpenter:** Survey says... Chuck is dumb. What is like work/life balance, but not those words...?
 
@@ -686,7 +686,7 @@ Speaking of GitHub Copilot... So I will preface this with the contextualization 
 
 **Chuck Carpenter:** Okay. Then pick something else is what you mean. They feel... Nothing.
 
-**Jerod Santo:** Always \[unintelligible 00:39:56.06\] the premise. I appreciate that effort. Unfortunately, they feel something... \[fail alert\] So no, they do not feel nothing. A couple of people did say "Don't care" or "Nothing", but not enough. So chance to steal. Go ahead and confer. Three things to match. One is gone, that's empowered and productive. Four is gone. That's exploited, robbed or icky, creepy. And six is gone. That's tired or annoyed. But two, three and five are left. Adam and Una, a chance to steal and a chance to seal your three-time championship.
+**Jerod Santo:** Always rejecting the premise. I appreciate that effort. Unfortunately, they feel something... \[fail alert\] So no, they do not feel nothing. A couple of people did say "Don't care" or "Nothing", but not enough. So chance to steal. Go ahead and confer. Three things to match. One is gone, that's empowered and productive. Four is gone. That's exploited, robbed or icky, creepy. And six is gone. That's tired or annoyed. But two, three and five are left. Adam and Una, a chance to steal and a chance to seal your three-time championship.
 
 **Una Kravets:** Dang.
 
@@ -752,7 +752,7 @@ Speaking of GitHub Copilot... So I will preface this with the contextualization 
 
 **Jerod Santo:** We will now do our post-game Super Bowl interview. Adam. 30-time championship, unprecedented, no one's ever done this... You managed to win Frontend Feud for the third time. Tell me, right now in this moment, how do you feel?
 
-**Adam Argyle:** I feel like a turkey. I feel like I look like a turkey, I've acted like \[unintelligible 00:44:17.15\]
+**Adam Argyle:** I feel like a turkey. I feel like I look like a turkey, I've acted like turkey--you know three bowling wins, what is a turkey? You don't know what a turkey is?
 
 **Jerod Santo:** You switched games on me. I was thinking football, you're going bowling... Fair enough.
 
