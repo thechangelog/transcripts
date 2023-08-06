@@ -42,7 +42,7 @@ Also, there are a bunch of performance improvements associated with that, becaus
 
 **Bryan Boreham:** And I think a lot of people feared that Go would suffer the way C++ did, because people started writing programs that frankly no one could understand, using templates, which is the same thing, basically, in C++. I feel Go has largely escaped that. I personally have not really come across people overusing generics.
 
-**Roger Peppe:** \[00:06:02.16\] I think it's kind of too early to say, honestly. We're just past the point where people are generally using it, where people \[unintelligible 00:06:08.20\] And I think -- give it a couple of years, two or three years and we'll see, I think, whether things are moving in a dubious direction or not.
+**Roger Peppe:** \[06:02\] I think it's kind of too early to say, honestly. We're just past the point where people are generally using it, where people \[unintelligible 00:06:08.20\] And I think -- give it a couple of years, two or three years and we'll see, I think, whether things are moving in a dubious direction or not.
 
 **Mat Ryer:** Yeah. What do you think about the choice of square brackets? Somebody that was quite new to the language was kind of surprised that it was just using square brackets and not something different, because it was such a different concept. Bryan, you make a good point about maps and slices being kind of the maps...
 
@@ -80,7 +80,7 @@ Also, there are a bunch of performance improvements associated with that, becaus
 
 **Mat Ryer:** Yeah. So that's it. And I think there are those use cases where it's just perfect. And that's why I think that I was quite pleased that they came to the language. We'll talk a bit more about changes in Go 1.21, but I do really like the slices package.
 
-\[00:10:02.29\] So for anyone that doesn't know, this is just -- you know, there's common things you do a lot with slices, and of course, I've had the case where I wanted to search through a slice, and find something based on some function, something like this... And I had to just write that manually for the particular type that I was supporting. I tried doing things with interfaces and things before, but you end up adding a lot of complexity in order to just solve that problem. So I feel like the slices package is going to help us there. Are there any other good use cases we've seen?
+\[10:02\] So for anyone that doesn't know, this is just -- you know, there's common things you do a lot with slices, and of course, I've had the case where I wanted to search through a slice, and find something based on some function, something like this... And I had to just write that manually for the particular type that I was supporting. I tried doing things with interfaces and things before, but you end up adding a lot of complexity in order to just solve that problem. So I feel like the slices package is going to help us there. Are there any other good use cases we've seen?
 
 **Kris Brandow:** I mean, I feel on the slices package this thing, too... I won't have to google the slice tricks document as much, because there's some things that it covers, which I'm very happy about... Because it was always annoying finding that thing, even though it was pretty easy to find. I was like "Okay, I've gotta google this thing." It's nothing like Dash, or anything...
 
@@ -102,7 +102,7 @@ Also, there are a bunch of performance improvements associated with that, becaus
 
 **Roger Peppe:** Yeah, I mean, one of the things that I was interested in - it's kind of a bit of a conflict for performance optimization, because in many languages... Well, in C++ particularly, but also languages like Rust, when you have a generic type, it's all devirtualized, it's all in-lined, so everything is basically expanded out. So one thing I worry about in Go in the future is that people make something generic because of that performance... When actually it would be kind of like a nicer, easier to understand and simpler to use if it was using interfaces. Because the moment you're using generics, you have to pass around that type parameter, although the actual type isn't hidden under the hood, as it were... And things become, I think, quite often harder to use.
 
-\[00:14:05.17\] So there's a kind of tension there, because if people make generics truly efficient like they can be, then you have this pressure to use generic types, and then you start going down the route of "Oh, things become harder to use", and Go maybe starts to get that reputation. So I'm interested in what you think about that, Bryan, actually.
+\[14:05\] So there's a kind of tension there, because if people make generics truly efficient like they can be, then you have this pressure to use generic types, and then you start going down the route of "Oh, things become harder to use", and Go maybe starts to get that reputation. So I'm interested in what you think about that, Bryan, actually.
 
 **Bryan Boreham:** Yeah, it's definitely complicated right now... And there's basically two cases. The case where you have some kind of method in your generic. Basically, if your generic type parameter has an interface, which has some methods on it, that's one case. And then the case where it doesn't have any methods, but you do want to use things like less than and greater than, and it basically has to be one of the underlying types that the compiler handles.
 
@@ -116,7 +116,7 @@ So yeah, we've got something that's a little bit ugly, I would say. I guess most
 
 **Mat Ryer:** Yeah, but I like that message, this thing of "Focus on making the code easy to read, easy to maintain." There are times when -- and if you're lucky, you'll reach the point where performance really matters, where you've got either massive scale, or just you've got things that are being used... It depends on the problem, really. And then it's worth that kind of digging into the details, and maybe even worth a bit of complexity and a little bit of sort of ugliness just for that purpose. And then you're making a trade-off for quite a good reason. But I guess, Bryan, you'd recommend you profile first, you gather data, you wait until you have one of those situations.
 
-**Bryan Boreham:** \[00:18:09.04\] Yeah. I mean, you'll almost always find that your performance problems are in a few small places. So maybe it's okay to make something that was five lines of code into 30 lines, because that's the bulk of your performance problem. But don't do that all over the place.
+**Bryan Boreham:** \[18:09\] Yeah. I mean, you'll almost always find that your performance problems are in a few small places. So maybe it's okay to make something that was five lines of code into 30 lines, because that's the bulk of your performance problem. But don't do that all over the place.
 
 **Mat Ryer:** Yeah. And that is tempting. I remember, I just wanted to just have the fastest possible thing. It was almost like I gamified it for myself, of just like "Do I want the best performance? Of course I do." And I would sometimes trade off the -- you know, I felt like I'm being clever here. I'm doing this... And yeah, it might be complicated; you have to be smart to understand it. I wouldn't go as far as insulting half the community like you did, Bryan...
 
@@ -140,7 +140,7 @@ For example, that sort function can work with less than, because it's got a cons
 
 I gave a talk at GopherCon UK last year, where I talked about using unconstrained types, and how they were kind of strictly more powerful. I didn't talk about performance at all there. And yes, they're definitely less powerful. But the sort vs sortfunc example is an interesting example of that, because you can write one in terms of the other. So you can write sort in terms of sortfunc, but you can't do it the other way around... Which is kind of interesting to me, particularly as sort is more performant as well... Which is a bit of a shame, because we'd like to be able to write the more generic, the more powerful version, rather than the other one, ideally, I think.
 
-\[00:21:59.08\] But that actually made me think of -- so there's one thing we haven't talked about here, which I think just kind of fell out from the design, and I think it's amazingly powerful and quite interesting... It's that of generic interface types, which people don't -- I'm not sure people are aware of quite how useful and powerful they are. So you can have an interface type that actually itself has a type parameter. For example, you could imagine a sorter, a comparer interface type that has a method that takes two parameters, both of type t, for any type, and returns boo. So that's kind of equivalent to a function that takes two \[unintelligible 00:22:35.20\] but you can have multiple methods.
+\[21:59\] But that actually made me think of -- so there's one thing we haven't talked about here, which I think just kind of fell out from the design, and I think it's amazingly powerful and quite interesting... It's that of generic interface types, which people don't -- I'm not sure people are aware of quite how useful and powerful they are. So you can have an interface type that actually itself has a type parameter. For example, you could imagine a sorter, a comparer interface type that has a method that takes two parameters, both of type t, for any type, and returns boo. So that's kind of equivalent to a function that takes two \[unintelligible 00:22:35.20\] but you can have multiple methods.
 
 It's actually a really powerful paradigm. Essentially, you can define a kind of algebra between your methods in terms of this abstract type, in terms of this type we haven't defined yet, which is quite cool. And because it's an interface, you've actually got an underlying value. You're passing this thing of type t into this interface, but you've actually got a value under there, too. So for example, it could know how to sort. And I've used that a few times, and I've found it quite interesting. But the performance implications of it - I have no idea. Bryan, you might know - is it efficient to call a method on a generic interface, or it's about the same as calling it on a normal interface?
 
@@ -154,7 +154,7 @@ I've got a talk at GopherCon in San Diego coming up, where I sort of explain whe
 
 **Roger Peppe:** And it's ironic, because max and min were one of Ian Lance Taylor's kind of red lines. Like, if we can't express max and min with generics, then the generics design isn't good enough, right? But now, "Oh, dang it! We still can't express max and min with generics, and we're putting them in the language."
 
-**Bryan Boreham:** \[00:26:08.07\] Yeah. So harping back to C++... In that language you can write what are called partial template specializations. You can basically say, "Well, if it's a float (you say this to the compiler), I want you to use this version of the code. And then if I don't say anything, just use this other version." And that technique, that language feature would, I think, get us out of this problem. So basically, I do think that's the thing that would help - the ability to put special cases into my generics, and say, "If it's this kind of a thing, then I want you to use this kind of code. And if it's this other kind of thing, then do it totally differently."
+**Bryan Boreham:** \[26:08\] Yeah. So harping back to C++... In that language you can write what are called partial template specializations. You can basically say, "Well, if it's a float (you say this to the compiler), I want you to use this version of the code. And then if I don't say anything, just use this other version." And that technique, that language feature would, I think, get us out of this problem. So basically, I do think that's the thing that would help - the ability to put special cases into my generics, and say, "If it's this kind of a thing, then I want you to use this kind of code. And if it's this other kind of thing, then do it totally differently."
 
 **Roger Peppe:** So this is a proposal that I made a little while ago for type switching on generic types. It's issue \#45380.
 
@@ -186,7 +186,7 @@ I've got a talk at GopherCon in San Diego coming up, where I sort of explain whe
 
 **Mat Ryer:** Yeah. Because Roger -- yeah, aren't you responsible for the error interface?
 
-**Roger Peppe:** \[00:30:05.24\] I did, I did suggest the error interface, and they saw it and said "Ah, yes, this is what we're looking for." Because they were about to propose the error thing -- that it just be a package that you imported everywhere. Everywhere we'd have to import errors, and say \[unintelligible 00:30:17.19\]
+**Roger Peppe:** \[30:05\] I did, I did suggest the error interface, and they saw it and said "Ah, yes, this is what we're looking for." Because they were about to propose the error thing -- that it just be a package that you imported everywhere. Everywhere we'd have to import errors, and say \[unintelligible 00:30:17.19\]
 
 **Mat Ryer:** Well, then it's more popular than Testify at least, until then... Oh, by the way, I've found out at GopherCon -- we did a panel with the Go team. I've found out that Testify, my package, is banned in Google.
 
@@ -224,7 +224,7 @@ I've got a talk at GopherCon in San Diego coming up, where I sort of explain whe
 
 **Roger Peppe:** One of the things that I really, actually, for using that pattern in Go - and it applies to both interfaces and generics, actually, is that you can do that; you can do it for one type. And actually, the changes to make it generic, the changes to make it a user interface tend to be pretty small. You can take that generic code and just like do a global substitution of the type by the type parameter, and - oh, done. Just add a few square brackets here and there and it just works. So I would say that's a good approach, and helped by Go's syntax and semantics.
 
-**Bryan Boreham:** \[00:34:11.06\] I've found it sometimes takes a bit of thought to figure out what is the thing that I should be parameterizing. If I've sort of fundamentally got a slice of thing, do I parameterize on the thing that is the slice, or do I parameterize on the thing inside the slice? I'm not sure yet if there's a rule there, but those kinds of questions take a bit of time sometimes. You've gotta maybe try it two different ways and see what happens, or start out and see where you get blocked.
+**Bryan Boreham:** \[34:11\] I've found it sometimes takes a bit of thought to figure out what is the thing that I should be parameterizing. If I've sort of fundamentally got a slice of thing, do I parameterize on the thing that is the slice, or do I parameterize on the thing inside the slice? I'm not sure yet if there's a rule there, but those kinds of questions take a bit of time sometimes. You've gotta maybe try it two different ways and see what happens, or start out and see where you get blocked.
 
 **Roger Peppe:** Yeah, I've actually found an interesting case for that recently, where I was changing an API, and I wanted to change it in a backward-compatible way. And there were basically two types, both of which were kind of set -- one was type XY. So it was like a new type, but had the same underlying type. The old one was deprecated; the new one was new, but we had this function that took the old type. So of course - oh, well, you know, we want to make it check the new type. And it was taking a \[unintelligible 00:35:06.18\] the type parameter is foo, and it's taking \*foo, and then we'll actually do a type conversion inside the function to the new type... Which technically should have worked; we were saying we're allowing just this old type and just this new type; we could type-convert between them, but you can't do that. But you can do that if you move the pointer out. Say your type parameter is either \*oldtype or \*newtype; then you can do the type conversion. So it's little nickles like that which is like "Oh, that's interesting", where that kind of decision can make a difference.
 
@@ -240,7 +240,7 @@ It kind of reminds me, I've gotta get profile-guided optimization plumbed into o
 
 **Mat Ryer:** What will that do for people?
 
-**Bryan Boreham:** \[00:38:08.11\] Oh, good question. Well, so first of all, the mechanism is basically that you supply the compiler with a profile, in the pprof format; that is a record of what the program was doing when you ran it doing its normal thing. So the compiler can then look at that and say, "Well, I see that 80% of the time in this program was in this one function. So I'm going to change the rules that I apply..." So there are certain rules inside the compiler, for instance when am I going to in-line other functions; and it normally only in-lines really small functions. But if it sees that this one thing is 80% of the whole program at runtime, then it can say "I'm going to inline a bunch more things, and I'm going to really change the rules on this one. I'm going to go all out for performance just in this one place."
+**Bryan Boreham:** \[38:08\] Oh, good question. Well, so first of all, the mechanism is basically that you supply the compiler with a profile, in the pprof format; that is a record of what the program was doing when you ran it doing its normal thing. So the compiler can then look at that and say, "Well, I see that 80% of the time in this program was in this one function. So I'm going to change the rules that I apply..." So there are certain rules inside the compiler, for instance when am I going to in-line other functions; and it normally only in-lines really small functions. But if it sees that this one thing is 80% of the whole program at runtime, then it can say "I'm going to inline a bunch more things, and I'm going to really change the rules on this one. I'm going to go all out for performance just in this one place."
 
 So the Go team themselves said that the PGL, profile-guided optimization gave them a 6% performance improvement on the compiler, and their benchmarks on the Go compiler. So it's obviously case by case, but it's a little bit more work, because you have to come up with some kind of representative profile. Maybe if you only work in one environment, that's pulled from your production environment. If you have a wide range of use cases, you maybe use benchmarks and profile that. So...
 
@@ -272,7 +272,7 @@ So the Go team themselves said that the PGL, profile-guided optimization gave th
 
 **Kris Brandow:** On the performance point, I know it wasn't planned this way, but I kind of feel like having generics have slightly worse performance for that kind of interfacy case might actually be good for us in the long term, because I feel like it will make it so people don't right now jump into just using generics, where they're like "Oh, well, this is so much faster than interfaces, so I'm gonna use this thing instead of what's been there before."
 
-\[00:42:27.07\] So I feel like maybe that in the long term will help us escape the kind of just using this thing because it's faster, just using this thing because it's shiny, and it will keep us solidly rooted in using interfaces, or interfaces that are appropriate, and then "Oh, well, I really do have this use case for generics, so I will use it in this place, even though I know I'm paying a performance penalty now." Even if it might not be true in the future. Like, I assume we're gonna get better with generics, and then they might be faster than interfaces in the future. Or maybe we'll also make interfaces faster in some way.
+\[42:27\] So I feel like maybe that in the long term will help us escape the kind of just using this thing because it's faster, just using this thing because it's shiny, and it will keep us solidly rooted in using interfaces, or interfaces that are appropriate, and then "Oh, well, I really do have this use case for generics, so I will use it in this place, even though I know I'm paying a performance penalty now." Even if it might not be true in the future. Like, I assume we're gonna get better with generics, and then they might be faster than interfaces in the future. Or maybe we'll also make interfaces faster in some way.
 
 **Roger Peppe:** Yeah, that was precisely what I was trying to get at before, actually. I do think that there's this pressure, if it's much faster, to use generics, where it might not be appropriate. I think that's the worry that everyone has, or many people had, about generics just polluting code because "Oh, generics are faster, therefore everything must use generics." You know, you change io.copy, so instead of taking a reader and a writer value, you make it parameterized on the types, which could be faster, right? And it probably would be faster. So why wouldn't you do that? But that means it's actually more complex to use.
 
@@ -296,7 +296,7 @@ So the Go team themselves said that the PGL, profile-guided optimization gave th
 
 **Bryan Boreham:** Yeah...
 
-**Roger Peppe:** \[00:45:38.04\] One thing that I am looking forward to in Go 1.21 is some improvements to generic type inference, actually. So there's one particular -- in Go, a standard idiom is to return concrete types, but use interfaces. So you're returning a concrete type, but you're actually accepting an interface. But this didn't work for generic interfaces. So you could have like an implementation, a concrete implementation, and you pass it to this generic interface, and say, "You can't do that. You have to explicitly mention this type parameter", even though you can clearly see that one implements the other. And now you don't anymore, so that's pretty cool, actually.
+**Roger Peppe:** \[45:38\] One thing that I am looking forward to in Go 1.21 is some improvements to generic type inference, actually. So there's one particular -- in Go, a standard idiom is to return concrete types, but use interfaces. So you're returning a concrete type, but you're actually accepting an interface. But this didn't work for generic interfaces. So you could have like an implementation, a concrete implementation, and you pass it to this generic interface, and say, "You can't do that. You have to explicitly mention this type parameter", even though you can clearly see that one implements the other. And now you don't anymore, so that's pretty cool, actually.
 
 **Mat Ryer:** Yeah, that's an interesting point though, about "You can clearly see", because there's more typing inference that can happen, where actually when you're reading it, you would kind of lose information. And that's probably a line that you wouldn't want to cross.
 
@@ -334,7 +334,7 @@ So the Go team themselves said that the PGL, profile-guided optimization gave th
 
 **Mat Ryer:** Well, speaking of that, it's time for our Unpopular Opinions!
 
-**Jingle**: \[00:49:43.26\]
+**Jingle**: \[49:43\]
 
 **Mat Ryer:** Okay, I'll go first - somebody told me that jingle is too long. Apparently, this has been said a few times; people are like "No, that's way too long, that little jingle." It's nothing.
 
@@ -394,7 +394,7 @@ So the Go team themselves said that the PGL, profile-guided optimization gave th
 
 **Mat Ryer:** Yeah, because the outside air is warmer. That's cool. Do you do any other weird stuff in the shower? \[laughter\] \[unintelligible 00:53:42.27\] No, no, fair enough. I had an idea... This doesn't exist, I don't think, but this should exist. And the idea was a little device you could put on your tap, and it has a blue and a red LED. And then depending on the temperature of the water, it changes, and sort of like shines down. So the water is glowing red if it's hot, and cold if it's blue. I don't know if in every country that they're the two colors that people use for hot and cold. It should be, I feel like. It feels like quite universal, but I wouldn't be surprised. What do you think of that idea? Are you in? Do you want to invest?
 
-**Roger Peppe:** \[00:54:24.23\] What's halfway? What's lukewarm?
+**Roger Peppe:** \[54:24\] What's halfway? What's lukewarm?
 
 **Mat Ryer:** It puts both. It's a kind of purple. Yeah.
 
@@ -470,7 +470,7 @@ So the Go team themselves said that the PGL, profile-guided optimization gave th
 
 **Mat Ryer:** Yeah, they're clever. They're good. I've got one which at the end of its cycle, it opens the door, it pushes the door open...
 
-**Roger Peppe:** \[00:57:54.02\] Ours does that, too. Yes. It's weird when you're in the room and you've forgotten that it's on, and you hear that \[00:57:56.09\].
+**Roger Peppe:** \[57:54\] Ours does that, too. Yes. It's weird when you're in the room and you've forgotten that it's on, and you hear that \[57:56\].
 
 **Mat Ryer:** Yeah. I love that.
 
