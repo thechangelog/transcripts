@@ -104,7 +104,7 @@ So if you are good with people, which often has happened for survival by women o
 
 **Amal Hussein:** Has anybody ever told you that you're good with people? \[laughs\]
 
-**Kevin Ball:** But I had a director, like my skip level, who said to me "Kevin, you're gonna get pushed to be a manager. It would be a shame if you did that before you had the experience of really going deep on technology and shipping products of your own. You should not do that." And I \[unintelligible 00:21:08.04\]
+**Kevin Ball:** But I had a director, like my skip level, who said to me "Kevin, you're gonna get pushed to be a manager. It would be a shame if you did that before you had the experience of really going deep on technology and shipping products of your own. You should not do that." And I wanna echo that out--
 
 **Amal Hussein:** I give that advice to DevRels. I give that to folks thinking about DevRel, folks who are excited about developer relations. I'm like "Spend five years as a software engineer, shipping code to production before you consider DevRel." Because you just being a software engineer and understanding the challenges and the constraints that those software engineers are working in - that's gonna make you a much better DevRel. The more time you have in engineering, the stronger you'll be able to kind of tell that important story that folks in developer relations do.
 
