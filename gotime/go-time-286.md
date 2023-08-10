@@ -4,7 +4,7 @@ Today, we're talking about generics. We're asking "So do we like generics or not
 
 **Kris Brandow:** Hello, Mat. How are you doing?
 
-**Mat Ryer:** I'm not too bad. I've got a bit of a cold, but getting through it. I'm just \[unintelligible 00:01:43.08\] really just been brilliant. How about you?
+**Mat Ryer:** I'm not too bad. I've got a bit of a cold, but getting through it. I'm just soldering on really just been brilliant. How about you?
 
 **Kris Brandow:** Doing great. It's a beautiful morning.
 
@@ -30,7 +30,7 @@ Today, we're talking about generics. We're asking "So do we like generics or not
 
 **Roger Peppe:** \[laughs\] Okay. Yeah, I mean, generics - they basically mean you can pass types to functions and methods, and you can have types that are themselves associated with types. It's all at compile time. In a sense, you don't need generics, but it means that you can have these things which -- where before you might pass a dynamic interface value, and maybe do a type coercion... The classic case, of course, is with containers. So I've made this nice, advanced data structure that holds all my values, and I put a value in, and I know that I'm only going to put integers in there, and I get this thing out, and - oh, it's not an integer anymore. It's the empty interface. So I have to assert that it's an interface, that it's an int, but maybe I didn't actually put it into there, and so my program panics at runtime.
 
-Also, there are a bunch of performance improvements associated with that, because in that particular example, putting an integer in an interface - if it's greater than 256 or something like that, then it's actually going to have an allocation to put that in an interface. So you're actually paying the price of storing that data, where in fact you just actually only need one little integer-sized slot for it, and that can really \[unintelligible 00:04:26.02\] Particularly when you have larger data structures which incorporate types. The safety and the performance aspects, both can add up a lot in larger systems, I think.
+Also, there are a bunch of performance improvements associated with that, because in that particular example, putting an integer in an interface - if it's greater than 256 or something like that, then it's actually going to have an allocation to put that in an interface. So you're actually paying the price of storing that data, where in fact you just actually only need one little integer-sized slot for it, and that can really mount up in terms -- Particularly when you have larger data structures which incorporate types. The safety and the performance aspects, both can add up a lot in larger systems, I think.
 
 **Bryan Boreham:** I think I might want to note that we had some generic types before, since the beginning pretty much; like a map, for instance. Whenever you used a map, you had to put in square brackets what the key type was, and then right after that what the value type was. So map string of string, map int o string, or whatever... And so what changed - was it Go 1.18? What changed is the kind of availability of the programmer to define their own things, their own types and functions.... Which still had those little square brackets bit with a type in the middle. So the power was kind of reserved to the Go compiler beforehand, and now we have the power.
 
@@ -42,7 +42,7 @@ Also, there are a bunch of performance improvements associated with that, becaus
 
 **Bryan Boreham:** And I think a lot of people feared that Go would suffer the way C++ did, because people started writing programs that frankly no one could understand, using templates, which is the same thing, basically, in C++. I feel Go has largely escaped that. I personally have not really come across people overusing generics.
 
-**Roger Peppe:** \[06:02\] I think it's kind of too early to say, honestly. We're just past the point where people are generally using it, where people \[unintelligible 00:06:08.20\] And I think -- give it a couple of years, two or three years and we'll see, I think, whether things are moving in a dubious direction or not.
+**Roger Peppe:** \[06:02\] I think it's kind of too early to say, honestly. We're just past the point where people are generally using it, where people can assume Go 1.18 and everything all they use it Go 1.18. And I think -- give it a couple of years, two or three years and we'll see, I think, whether things are moving in a dubious direction or not.
 
 **Mat Ryer:** Yeah. What do you think about the choice of square brackets? Somebody that was quite new to the language was kind of surprised that it was just using square brackets and not something different, because it was such a different concept. Bryan, you make a good point about maps and slices being kind of the maps...
 
@@ -132,15 +132,15 @@ So yeah, we've got something that's a little bit ugly, I would say. I guess most
 
 **Mat Ryer:** Yeah. So this is where constraints comes in. Sort of part of our generics is we have these quite interesting-looking ways of expressing, like, "This is a constraint of the types that you can pass into this thing." And there are a few built-in ones, aren't there?
 
-**Bryan Boreham:** No, in fact they've gone the other way. In 1.21 there's a new package called \[unintelligible 00:19:55.22\] and I think the main purpose of that is to define an ordered type, which is these things that support less than. So it's in the library, it's not in the language.
+**Bryan Boreham:** No, in fact they've gone the other way. In 1.21 there's a new package called cmp and I think the main purpose of that is to define an ordered type, which is these things that support less than. So it's in the library, it's not in the language.
 
-**Roger Peppe:** I think there's a difference... So there's two kinds of -- you can constrain something in various ways. It looks like an interface type; a constraint is actually an interface type. And it can have methods like any interface type. So that means that you're constrained, that that type is constrained to have those methods. But also, you can name a number of other types and say "This interface must be one of these", and you just say \[unintelligible 00:20:29.15\] or string... And that basically means that that value must be any one of those, and if some operation is supported by all of those, then you're able to use it in your generic function.
+**Roger Peppe:** I think there's a difference... So there's two kinds of -- you can constrain something in various ways. It looks like an interface type; a constraint is actually an interface type. And it can have methods like any interface type. So that means that you're constrained, that that type is constrained to have those methods. But also, you can name a number of other types and say "This interface must be one of these", and you just say int \[unintelligible 00:20:29.15\] or string... And that basically means that that value must be any one of those, and if some operation is supported by all of those, then you're able to use it in your generic function.
 
 For example, that sort function can work with less than, because it's got a constraint that mentions all the possible underlying types in the language, of which there aren't that many; like 10, or 15, or something... All the uint types, all the int types, a few others. And because we've mentioned all of those, it means we can use less than, and we can pass any of our existing types that we can compare less than... Which is - you know, that's pretty cool.
 
 I gave a talk at GopherCon UK last year, where I talked about using unconstrained types, and how they were kind of strictly more powerful. I didn't talk about performance at all there. And yes, they're definitely less powerful. But the sort vs sortfunc example is an interesting example of that, because you can write one in terms of the other. So you can write sort in terms of sortfunc, but you can't do it the other way around... Which is kind of interesting to me, particularly as sort is more performant as well... Which is a bit of a shame, because we'd like to be able to write the more generic, the more powerful version, rather than the other one, ideally, I think.
 
-\[21:59\] But that actually made me think of -- so there's one thing we haven't talked about here, which I think just kind of fell out from the design, and I think it's amazingly powerful and quite interesting... It's that of generic interface types, which people don't -- I'm not sure people are aware of quite how useful and powerful they are. So you can have an interface type that actually itself has a type parameter. For example, you could imagine a sorter, a comparer interface type that has a method that takes two parameters, both of type t, for any type, and returns boo. So that's kind of equivalent to a function that takes two \[unintelligible 00:22:35.20\] but you can have multiple methods.
+\[21:59\] But that actually made me think of -- so there's one thing we haven't talked about here, which I think just kind of fell out from the design, and I think it's amazingly powerful and quite interesting... It's that of generic interface types, which people don't -- I'm not sure people are aware of quite how useful and powerful they are. So you can have an interface type that actually itself has a type parameter. For example, you could imagine a sorter, a comparer interface type that has a method that takes two parameters, both of type t, for any type, and returns boo. So that's kind of equivalent to a function that takes two type -- but you can have multiple methods.
 
 It's actually a really powerful paradigm. Essentially, you can define a kind of algebra between your methods in terms of this abstract type, in terms of this type we haven't defined yet, which is quite cool. And because it's an interface, you've actually got an underlying value. You're passing this thing of type t into this interface, but you've actually got a value under there, too. So for example, it could know how to sort. And I've used that a few times, and I've found it quite interesting. But the performance implications of it - I have no idea. Bryan, you might know - is it efficient to call a method on a generic interface, or it's about the same as calling it on a normal interface?
 
@@ -148,7 +148,7 @@ It's actually a really powerful paradigm. Essentially, you can define a kind of 
 
 I've got a talk at GopherCon in San Diego coming up, where I sort of explain where all this landed, which is with a completely different data structure called a loser tree. So I won't go into the whole explanation of that right now, but anyways... The short version is that it leaves a lot to be desired right now, trying to express a kind of a generic thing which operates as a container on other things.
 
-**Roger Peppe:** Interesting. So do you think that's a fundamental limitation of the current generics design, or something that could be addressed with a language change? Or maybe it's just because it's performant \[unintelligible 00:24:51.10\]
+**Roger Peppe:** Interesting. So do you think that's a fundamental limitation of the current generics design, or something that could be addressed with a language change? Or maybe it's just because it's performant, not \[unintelligible 00:24:51.10\]
 
 **Bryan Boreham:** No. Well, it's a little bit of everything. I mean, kind of borrowing from something we thought we were going to talk about later, there's a function couple of functions, max and min, that have been put into Go 1.21, and I think they form a sort of similar example. So you can write a generic -- in Go you can write a function using generics, which takes a type t, and just basically says "If a less than b, then the minimum is a. Otherwise it's b." You can write that, but it's not the function that you want in the case of floating point numbers. Because in the case of floating point numbers they have this exception which is a nan, not a number; and nan's are never less than or greater than. And this is a sort of annoying anomaly. And where that story ended in 1.21, is these things became built-ins in the language. So they sort of cheated. The Kobayashi Maru for feature development.
 
@@ -186,7 +186,7 @@ I've got a talk at GopherCon in San Diego coming up, where I sort of explain whe
 
 **Mat Ryer:** Yeah. Because Roger -- yeah, aren't you responsible for the error interface?
 
-**Roger Peppe:** \[30:05\] I did, I did suggest the error interface, and they saw it and said "Ah, yes, this is what we're looking for." Because they were about to propose the error thing -- that it just be a package that you imported everywhere. Everywhere we'd have to import errors, and say \[unintelligible 00:30:17.19\]
+**Roger Peppe:** \[30:05\] I did, I did suggest the error interface, and they saw it and said "Ah, yes, this is what we're looking for." Because they were about to propose the error thing -- that it just be a package that you imported everywhere. Everywhere we'd have to import errors, and say error.error
 
 **Mat Ryer:** Well, then it's more popular than Testify at least, until then... Oh, by the way, I've found out at GopherCon -- we did a panel with the Go team. I've found out that Testify, my package, is banned in Google.
 
@@ -206,7 +206,7 @@ I've got a talk at GopherCon in San Diego coming up, where I sort of explain whe
 
 **Mat Ryer:** Yeah, we'll put a link into the show notes for that. Very cool. I was gonna ask -- oh, it's literally qt, the letters?
 
-**Roger Peppe:** It \[unintelligible 00:32:08.16\] fairly small prefix.
+**Roger Peppe:** It saves importing dot. qt. is a fairly small prefix.
 
 **Mat Ryer:** Cool.
 
@@ -226,7 +226,7 @@ I've got a talk at GopherCon in San Diego coming up, where I sort of explain whe
 
 **Bryan Boreham:** \[34:11\] I've found it sometimes takes a bit of thought to figure out what is the thing that I should be parameterizing. If I've sort of fundamentally got a slice of thing, do I parameterize on the thing that is the slice, or do I parameterize on the thing inside the slice? I'm not sure yet if there's a rule there, but those kinds of questions take a bit of time sometimes. You've gotta maybe try it two different ways and see what happens, or start out and see where you get blocked.
 
-**Roger Peppe:** Yeah, I've actually found an interesting case for that recently, where I was changing an API, and I wanted to change it in a backward-compatible way. And there were basically two types, both of which were kind of set -- one was type XY. So it was like a new type, but had the same underlying type. The old one was deprecated; the new one was new, but we had this function that took the old type. So of course - oh, well, you know, we want to make it check the new type. And it was taking a \[unintelligible 00:35:06.18\] the type parameter is foo, and it's taking \*foo, and then we'll actually do a type conversion inside the function to the new type... Which technically should have worked; we were saying we're allowing just this old type and just this new type; we could type-convert between them, but you can't do that. But you can do that if you move the pointer out. Say your type parameter is either \*oldtype or \*newtype; then you can do the type conversion. So it's little nickles like that which is like "Oh, that's interesting", where that kind of decision can make a difference.
+**Roger Peppe:** Yeah, I've actually found an interesting case for that recently, where I was changing an API, and I wanted to change it in a backward-compatible way. And there were basically two types, both of which were kind of set -- one was type XY. So it was like a new type, but had the same underlying type. The old one was deprecated; the new one was new, but we had this function that took the old type. So of course - oh, well, you know, we want to make it check the new type. And it was taking a pointer type so I said, you know the type parameter is foo, and it's taking \*foo, and then we'll actually do a type conversion inside the function to the new type... Which technically should have worked; we were saying we're allowing just this old type and just this new type; we could type-convert between them, but you can't do that. But you can do that if you move the pointer out. Say your type parameter is either \*oldtype or \*newtype; then you can do the type conversion. So it's little nickles like that which is like "Oh, that's interesting", where that kind of decision can make a difference.
 
 **Mat Ryer:** So generally then, Bryan, would you say that you are unhappy with the performance of generics, or do you feel like in most cases --
 
@@ -288,7 +288,7 @@ So the Go team themselves said that the PGL, profile-guided optimization gave th
 
 **Roger Peppe:** I guess it's equivalent to \[unintelligible 00:44:52.19\] in C, right? So yeah, it's very efficient, because you can use essentially an underlying machine instruction, probably one, to just zero it out just like in one thing really efficiently... And that might not be easy if you're using a loop.
 
-**Kris Brandow:** I feel like if \[unintelligible 00:45:09.01\] as well, and you just want to be "I'd like all of these things to be garbage-collected, but I still want to use this slice again." It could be useful for that, just clearing them all out.
+**Kris Brandow:** I feel like if you're able to slice a pointer as well, and you just want to be "I'd like all of these things to be garbage-collected, but I still want to use this slice again." It could be useful for that, just clearing them all out.
 
 **Bryan Boreham:** Yeah, it's very occasionally useful. It's just that the same name does something so different with maps and slices.
 
@@ -300,7 +300,7 @@ So the Go team themselves said that the PGL, profile-guided optimization gave th
 
 **Mat Ryer:** Yeah, that's an interesting point though, about "You can clearly see", because there's more typing inference that can happen, where actually when you're reading it, you would kind of lose information. And that's probably a line that you wouldn't want to cross.
 
-**Roger Peppe:** It's a tricky line to choose, and they said they were conservative initially, and now they're a little bit less conservative. And also, if you have a generic function, it will infer the type of that generic function from where \[unintelligible 00:46:47.17\] So if you've got a generic less function that automatically knows how to compare two comparable types, for example, and you pass that to something that expects another generic function, then you don't have to mention, you don't have to instantiate it; it will infer from where you're assigning it to the type parameter for the function... Which is also quite cool, actually, particularly in the context of things like slices.sortfunc, and that sort of thing.
+**Roger Peppe:** It's a tricky line to choose, and they said they were conservative initially, and now they're a little bit less conservative. And also, if you have a generic function, it will infer the type of that generic function from where you're assigning to. So if you've got a generic less function that automatically knows how to compare two comparable types, for example, and you pass that to something that expects another generic function, then you don't have to mention, you don't have to instantiate it; it will infer from where you're assigning it to the type parameter for the function... Which is also quite cool, actually, particularly in the context of things like slices.sortfunc, and that sort of thing.
 
 **Bryan Boreham:** So we've talked about the slices package quite a lot... There's also a Maps package that sort of matches it. It has two or three functions, like keys - it gets you all the keys that have map values, it gets you all the values out of a map... Those were things you could do before you just write the loop, but those are little generic functions now that are going into the standard library in Go 1.21.
 
@@ -392,7 +392,7 @@ So the Go team themselves said that the PGL, profile-guided optimization gave th
 
 **Roger Peppe:** Your skin texture is colder, I guess, but you feel warmer.
 
-**Mat Ryer:** Yeah, because the outside air is warmer. That's cool. Do you do any other weird stuff in the shower? \[laughter\] \[unintelligible 00:53:42.27\] No, no, fair enough. I had an idea... This doesn't exist, I don't think, but this should exist. And the idea was a little device you could put on your tap, and it has a blue and a red LED. And then depending on the temperature of the water, it changes, and sort of like shines down. So the water is glowing red if it's hot, and cold if it's blue. I don't know if in every country that they're the two colors that people use for hot and cold. It should be, I feel like. It feels like quite universal, but I wouldn't be surprised. What do you think of that idea? Are you in? Do you want to invest?
+**Mat Ryer:** Yeah, because the outside air is warmer. That's cool. Do you do any other weird stuff in the shower? \[laughter\] If that's not too weird a question. No, no, fair enough. I had an idea... This doesn't exist, I don't think, but this should exist. And the idea was a little device you could put on your tap, and it has a blue and a red LED. And then depending on the temperature of the water, it changes, and sort of like shines down. So the water is glowing red if it's hot, and cold if it's blue. I don't know if in every country that they're the two colors that people use for hot and cold. It should be, I feel like. It feels like quite universal, but I wouldn't be surprised. What do you think of that idea? Are you in? Do you want to invest?
 
 **Roger Peppe:** \[54:24\] What's halfway? What's lukewarm?
 
@@ -452,7 +452,7 @@ So the Go team themselves said that the PGL, profile-guided optimization gave th
 
 **Roger Peppe:** I'm not gonna try it either... \[laughter\] If you've got a huge salmon, it's quite difficult to -- you know, it's not gonna fit in your oven, right? So I could see why people might want to do this.
 
-**Mat Ryer:** Yeah. You could take the drawers out... I bet you could cook clothes, and stuff like that. What are we doing? We're wasting our time. \[laughter\] No...? \[unintelligible 00:57:11.17\] Kris. How do you cook salmon, Kris?
+**Mat Ryer:** Yeah. You could take the drawers out... I bet you could cook clothes, and stuff like that. What are we doing? We're wasting our time. \[laughter\] No...? Not having that Kris. How do you cook salmon, Kris?
 
 **Kris Brandow:** I don't actually -- I don't eat seafood, so I don't cook salmon at all.
 
@@ -508,7 +508,7 @@ So the Go team themselves said that the PGL, profile-guided optimization gave th
 
 **Bryan Boreham:** Oh...
 
-**Roger Peppe:** Because that enables you to kind of \[unintelligible 01:00:08.21\] I've got this thing, it returns a slice, and it's sorted, and I can have them all in the same expression, deeply nested, sort, filter, blah, blah, blah...
+**Roger Peppe:** Because that enables you to kind of wrap, you know I've got this thing, it returns a slice, and it's sorted, and I can have them all in the same expression, deeply nested, sort, filter, blah, blah, blah...
 
 **Bryan Boreham:** Yeah... Well, so I guess the implication would be that it should return a different slice. Whereas the one where it doesn't return, the implication is it mutates the one you gave it.
 
@@ -568,7 +568,7 @@ I guess the thing I think it's more akin to is using single-entry accounting for
 
 **Mat Ryer:** How to feel about that? I agree.
 
-**Roger Peppe:** For me, a lot of the tech debt -- I'd say the biggest tech debt things that I've seen in the past have usually often been because you've made a new API, for example. You've made a new API, and you can't remove the old API, because people are using it. So you end up with two versions of the API. And at some point in the future, you realize that no one is using the old API anymore. But removing it -- maybe you've written it in such a way that it's really hard to remove the old one. But you kind of want to, because it's holding you back, because it's using loads of stuff that you want to be able to get rid of. So that's tech debt to me. You're in this situation of being indebted to this thing of the past, which you kind of had to take on this debt, and you kind of have to pay it sometime. That's often the case Like, not just skipping tests. That's an easy -- "Yeah, we're taking on this. We're committing malpractice by deliberately taking on this debt." I suppose. But there's loads of other cases, I think, where it just arises, because \[unintelligible 01:08:29.19\] pragmatism, because you have to do this this way, otherwise you won't make progress.
+**Roger Peppe:** For me, a lot of the tech debt -- I'd say the biggest tech debt things that I've seen in the past have usually often been because you've made a new API, for example. You've made a new API, and you can't remove the old API, because people are using it. So you end up with two versions of the API. And at some point in the future, you realize that no one is using the old API anymore. But removing it -- maybe you've written it in such a way that it's really hard to remove the old one. But you kind of want to, because it's holding you back, because it's using loads of stuff that you want to be able to get rid of. So that's tech debt to me. You're in this situation of being indebted to this thing of the past, which you kind of had to take on this debt, and you kind of have to pay it sometime. That's often the case Like, not just skipping tests. That's an easy -- "Yeah, we're taking on this. We're committing malpractice by deliberately taking on this debt." I suppose. But there's loads of other cases, I think, where it just arises, because, out of -- Yes, Mat said pragmatism, because you have to do this this way, otherwise you won't make progress.
 
 **Kris Brandow:** Yeah. And I think, once again, if you've done a lot of measured analysis of things where you go into it and you're like "Okay, this is why we've taken this on", I think it can be described as a debt. But I think a lot of the times when people are doing it, they're not winding up in those situations because of -- I feel like a lot of times, at least when I've walked into places, it's like we've wound up at those places not because people have thought things through, but because they just rushed to do something. So it's like "Oh, well this thing is hard to maintain, so we're just going to greenfield it." And it's like "Okay, but what's your plan to actually deprecate and dismantle the old thing?" And it's like "Well, we didn't think about that." I'm like "Well, okay, that's not--" Once again, we're back in the realm of - just because you have it... Like, you have it now, and you don't like that you have it. Well, you have it because you didn't plan to actually get rid of a thing, but you knew you had to get rid of the thing. That doesn't feel as much like responsible debt usage to me. That, once again, feels like "No, you should have planned for how you're gonna get rid of it if you knew you were gonna get rid of it."
 Obviously, if you need to build this new API for some reason, and you're like "We don't know how we're gonna get rid of the old one, and we're marking that down as a debt, and we know we're gonna have to deal with it, and it's not gonna be painful" - different situation, right?
@@ -612,13 +612,13 @@ And then this year... This year someone said -- because they're joking; they fee
 
 **Kris Brandow:** The thing you said about the low res reminds me of that "Cute from far, but far from cute" line, which is always like fun... But I don't know how much I disagree with you, because I think in some spaces there is this very large sets -- I think especially within tech companies now, there's a very large sense of "Yes, be nice to everybody, be kind, be civil", all of that.
 
-\[01:14:11.02\] And I think of like the like black or queer spaces that I'm in - like, people are not... Like, that's not how things work there. We're mean to each other all the time. This is not like all people in this community, but a lot of people; it's where the whole like throwing shade comes from, reading people, all of that... It's just like this - yeah, you kind of read people \[unintelligible 01:14:29.09\] sometimes. You're just like "Yeah, you're still my friend, but what you did - I've gotta rip you apart for that."
+\[01:14:11.02\] And I think of like the like black or queer spaces that I'm in - like, people are not... Like, that's not how things work there. We're mean to each other all the time. This is not like all people in this community, but a lot of people; it's where the whole like throwing shade comes from, reading people, all of that... It's just like this - yeah, you kind of read people for filth sometimes. You're just like "Yeah, you're still my friend, but what you did - I've gotta rip you apart for that."
 
 And I think there's also this slight level for me where -- I don't particularly like when environments try to be kind to everybody, be nice to everybody, or "We're welcoming to everybody", because that's like a little bit of a dog whistle for me that it's like "I'm probably not in a safe space." To be blunt, I guess it's like "This is some white people nonsense when that happens." We have to recognize that sometimes people are gonna not be nice, and what are you going to do then? Are you just going to tell them to be nice? That's not how this works. Who determines what is nice? Is it you that determines what's nice? Because what might be nice for you might not be nice for me. So I think there's a lot of complexity in there. But I think overall, Mat, I agree with you slightly.
 
 **Mat Ryer:** Yeah. I mean, those roasts, when they do the comedy roasts of people... I'd love to be doing that. Maybe we could have that as a regular segment. Like, "Today's the roast of Bryan Boreham." \[laughter\]
 
-**Bryan Boreham:** \[unintelligible 01:15:26.06\] the whole episode.
+**Bryan Boreham:** Just do the whole episode.
 
 **Mat Ryer:** Yeah, it'd be a new series, that one. \[laughter\]
 
@@ -626,7 +626,7 @@ And I think there's also this slight level for me where -- I don't particularly 
 
 **Mat Ryer:** Yeah, exactly. Yeah, it was fun. But I think you miss -- if you have this very sterile environment... And I understand why this happens in tech companies; of course, we want to make sure that people aren't -- like, you don't want to upset people. But you miss -- there's a missed opportunity there to build some stronger... It's a little bit like a cut, where you get scar tissue on a cut, and it's stronger. That scar tissue is stronger than the tissue there was before. So these little cuts, these little jibes - I think we need it.
 
-**Kris Brandow:** The more you explain this, the more I'm like "Maybe \[unintelligible 01:16:20.22\] Because I think too part of the issue I have with the "Just be nice to everybody" is like, is that really the biggest problem you think we need to solve right now? It's just like, people are saying mean things, and I'm like "That's not the biggest problem that I have certainly had in a lot of these tech spaces." I would just really like it if people weren't doing racist things all the time. And it's not them saying things, it's like other things. So I think sometimes we focus a little bit too much on the "Oh, just say kind things to each other, please."
+**Kris Brandow:** The more you explain this, the more I'm like "Maybe -- I think -- Because I think too part of the issue I have with the "Just be nice to everybody" is like, is that really the biggest problem you think we need to solve right now? It's just like, people are saying mean things, and I'm like "That's not the biggest problem that I have certainly had in a lot of these tech spaces." I would just really like it if people weren't doing racist things all the time. And it's not them saying things, it's like other things. So I think sometimes we focus a little bit too much on the "Oh, just say kind things to each other, please."
 
 **Mat Ryer:** Right. Yeah. It's almost worse by just "Now at least we've solved this problem, because we're all saying these right things."
 
@@ -666,11 +666,11 @@ And I think there's also this slight level for me where -- I don't particularly 
 
 **Roger Peppe:** Once every five years, yeah.
 
-**Kris Brandow:** \[unintelligible 01:20:58.20\]
+**Kris Brandow:** Yeah it's -- aww, this is...
 
 **Mat Ryer:** But the other thing going around to conferences and stuff I've noticed is that because in a way we're all selected around this language, so we're all kind of in software, a lot of us like building things... So I think there's a certain level of -- I don't know what it is; there's certain level of intelligence you can kind of assume with technical people. Or it's whatever the Go community does that attracts people to it, I don't know. But I find that wherever I go, some jokes just work everywhere. And that was a big surprise to me, because I was very conscious of different kinds of cultures, and different approaches to things. But I do find that you can kind of have -- we just have a lot of fun with people. Anytime I've interacted with groups in the Go community, in tech communities, it tends to be a really high level of kind of really good, quality sort of interacting. Only sometimes -- well, like I said, people make fun of my hair, because I make fun of it on stage, and stuff. But it's fun, it's nice.
 
-**Roger Peppe:** \[01:22:10.15\] So what kinds of jokes do go down well, universally? I'm interested, given that I'm giving a talk at \[unintelligible 01:22:14.14\] in Italy...
+**Roger Peppe:** \[01:22:10.15\] So what kinds of jokes do go down well, universally? I'm interested, given that I'm giving a talk at some point in Italy...
 
 **Mat Ryer:** Yeah. Well, in the conference audiences, a lot of them listen to Go Time. So that's different, because they sort of expect it now. One of the big things I noticed is you have to let people know that it's a joke. You can't just say something that's hilarious, that we might think it's hilarious...
 
