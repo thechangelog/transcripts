@@ -88,7 +88,7 @@ But I guess we've in the past neglected maybe development experience, because we
 
 The episode that Andy was on last time was about tools, and this came up a lot, didn't it, Andy? The actual experience of using the tools often was what made us them.
 
-**Andy Walker:** \[00:06:34.20\] Yeah. One of the primary examples was some of the suite of command line tools from Charm, who pay particular attention to their design. The term that I keep finding myself using is something-ergonomics; developer ergonomics, or visual ergonomics... Things that more than just convey information, but do so in a comfortable, and I guess more importantly intuitive way, and can have ideally some sort of multimodal experience, if at all possible. Yeah, that's really interesting stuff.
+**Andy Walker:** \[06:34\] Yeah. One of the primary examples was some of the suite of command line tools from Charm, who pay particular attention to their design. The term that I keep finding myself using is something-ergonomics; developer ergonomics, or visual ergonomics... Things that more than just convey information, but do so in a comfortable, and I guess more importantly intuitive way, and can have ideally some sort of multimodal experience, if at all possible. Yeah, that's really interesting stuff.
 
 **Mat Ryer:** Yeah, what do you mean multimodal experience?
 
@@ -102,7 +102,7 @@ But I think it also applies in Go when you're writing APIs. That's a developer e
 
 **Kris Brandow:** I think for tools as well, especially tools that developers use a lot, even small changes to the UIs or the API of it can have massive effects that I think also are generally not accounted for by businesses well enough. I think maybe a good example of this is how there's still a huge number of people that use old.reddit.com, for people that are still using Reddit. And it's because they just got so used to the way that everything worked in that flow, that the new one just doesn't work for them. And I think there's lots of little examples of that with tools, where it's like "Oh, we did some research, and here's a new UI that's gonna be this much better." And everybody's like "Oh no, this is actually -- it's gonna mess me up. It's gonna take me a long time to learn this", and the trade-off just isn't as worth it.
 
-**Alice Merrick:** \[00:10:22.00\] Yeah, that's actually an interesting problem that you just brought up called change aversion, which we don't have to go into a lot of detail now... But basically, that is the notion that anytime you change something, people are going to be averse or have negative feelings about it, just because it's different. Even if it is better in some way, they are going to have some negative feelings about that. And it can be hard to tease apart whether or not it was because your design change was actually a poor design choice, or whether it's just like "Well, it's just like this initial change aversion, and eventually people will get over it", or some people will get over it.
+**Alice Merrick:** \[10:22\] Yeah, that's actually an interesting problem that you just brought up called change aversion, which we don't have to go into a lot of detail now... But basically, that is the notion that anytime you change something, people are going to be averse or have negative feelings about it, just because it's different. Even if it is better in some way, they are going to have some negative feelings about that. And it can be hard to tease apart whether or not it was because your design change was actually a poor design choice, or whether it's just like "Well, it's just like this initial change aversion, and eventually people will get over it", or some people will get over it.
 
 **Andy Walker:** Yeah, it has a surprising source sometimes, I think, too. There's a bit of a perverse incentive to keep driving innovation and change for it, especially for software that doesn't have -- like, it's sad, I know, but this is something I heard... My girlfriend works for an architecture software company, and a lot of that world of very niche software, if they don't have a subscription model especially, they often feel compelled to make these big changes so that people will upgrade. And so then you get a lot of these "Oh, we researched this, and it's so streamlined now", and it's just kind of funny to me, because I do believe that there are, or have been some nearly perfect UIs in the past that just got ruined by being rehashed.
 
@@ -118,7 +118,7 @@ But yeah, I mean, is there a gold standard of "Oh, everyone should be able to st
 
 **Andy Walker:** Right. I was just curious if you'd run across anything like that. I would imagine that if you've dealt with these kinds of experience in accessibility changes or overhauls before, there's got to be some measure that -- because it can be very deflating as a software developer to spend a lot of time on something... You know, workshop it even, and then coming out with it and people don't like the new experience. They want the old experience back. Or worse than deflating, it can mean that you lose buy-in, or something like that.
 
-**Alice Merrick:** \[00:14:15.11\] Yeah, there are things you can do to make it a little easier...
+**Alice Merrick:** \[14:15\] Yeah, there are things you can do to make it a little easier...
 
 **Andy Walker:** Yeah. See, that's where we're going with this.
 
@@ -160,7 +160,7 @@ But yeah, I mean, is there a gold standard of "Oh, everyone should be able to st
 
 **Mat Ryer:** But if not, changing your IDE colors is a great way to... It's like a fresh lick of paint in your office.
 
-**Alice Merrick:** \[00:18:05.28\] Yeah. It's kind of like fashion. We wouldn't want to keep wearing the same things we wore in 1998.
+**Alice Merrick:** \[18:05\] Yeah. It's kind of like fashion. We wouldn't want to keep wearing the same things we wore in 1998.
 
 **Mat Ryer:** Yeah, Andy...
 
@@ -188,7 +188,7 @@ But yeah, I mean, is there a gold standard of "Oh, everyone should be able to st
 
 **Mat Ryer:** It is more secure than whatever it is you're doing, Alice, with your secrets.
 
-**Alice Merrick:** \[00:22:00.13\] \[laughs\]
+**Alice Merrick:** \[22:00\] \[laughs\]
 
 **Mat Ryer:** I don't know what you put in them.
 
@@ -232,7 +232,7 @@ The one that winds me up the most is the cookie pop-up; the annoying "Accept my 
 
 **Andy Walker:** I would like to say one more thing about good developer experience, to pivot off what Mat said; it made me think of us. To me - yes, obviously the interface that is 100% intuitive is best. And also related to APIs. With a good IDE, there is a -- combined with good design, there is a kind of API ergonomics that dovetails with documentation. So I know I need to do something with this auth policy here, and so then I just type a dot... I do this all the time. And then if you get a good, intelligent list of completions, you can very quickly make something quite complex that you've never seen before, and understand what it does just by little piecemeal docs, as you kind of go along. To me that is almost perfection. To me it's actually even better than some of the AI autocomplete stuff, because it sticks more. The tiny little steps you have to go through, just looking at documentation really quick, each section - you remember more. It works better.
 
-**Mat Ryer:** \[00:26:27.27\] Yeah. I completely agree with that. I also like documentation that is interactive in some way. And I've built a few of these before myself, where we would teach you about this -- there was a particular product, and it had an API; it was an API. That was the tool; it was in a Docker container. And we would teach you about the API by letting you actually use it. And you'd sort of follow a story. So it was like a story told. And then it's like "Okay, so we're going to try this thing first, this empty box, and it doesn't know anything, and then we're going to teach it something, and then we're going to see that it's learned that." And each of the steps, you get back a payoff. So you invest a bit of time, and the deal was you invest some time and it will pay back with something fun, or interesting. Some kind of progress. And that worked out really well. We found that people would just go through the flow because it was fun and enjoyable.
+**Mat Ryer:** \[26:27\] Yeah. I completely agree with that. I also like documentation that is interactive in some way. And I've built a few of these before myself, where we would teach you about this -- there was a particular product, and it had an API; it was an API. That was the tool; it was in a Docker container. And we would teach you about the API by letting you actually use it. And you'd sort of follow a story. So it was like a story told. And then it's like "Okay, so we're going to try this thing first, this empty box, and it doesn't know anything, and then we're going to teach it something, and then we're going to see that it's learned that." And each of the steps, you get back a payoff. So you invest a bit of time, and the deal was you invest some time and it will pay back with something fun, or interesting. Some kind of progress. And that worked out really well. We found that people would just go through the flow because it was fun and enjoyable.
 
 I think sometimes just tweaking language, like the way that you communicate, and the tone that you communicate with people can sometimes make a big difference. But we're building for an international audience, so it's tough to get that right, probably.
 
@@ -256,13 +256,13 @@ I think sometimes just tweaking language, like the way that you communicate, and
 
 **Andy Walker:** \[laughs\] Yeah, well... Neither can the people that live with me. \[laughter\]
 
-**Mat Ryer:** \[00:30:05.07\] Just imagine Andy just like "Oh, I'm gonna go into this bookshop, and then I'm gonna go into a coffee shop, and just do some normal things." It doesn't compute, for some reason.
+**Mat Ryer:** \[30:05\] Just imagine Andy just like "Oh, I'm gonna go into this bookshop, and then I'm gonna go into a coffee shop, and just do some normal things." It doesn't compute, for some reason.
 
 **Andy Walker:** No, I'm always -- I guess for me there's always this underlying sense that I could be doing better. Or I don't know, I can't stop thinking about both the intersection between the way that we have built the world, and the way that maybe... And all of this stuff that we're hardwired to take in, and how to pay attention to that, and use that heuristic stuff a little bit better. Yeah. It's really interesting to me.
 
 **Mat Ryer:** No, yeah. Well, that's like, using data to make these decisions is an interesting point. And Alice, what are some of the things that you hear the most about Go's user experience and developer experience?
 
-**Alice Merrick:** Well, I mean, lots. Where do I begin? I mean, I could talk about reasons why -- what people like about Go. People say it's very simple, it's easy to learn, it's easy to deploy everywhere... Oh, a single executable, I can put it -- it's just easy. Some people also really are into gofmt, and the fact that "Oh, hey, actually, it's really easy to maintain this, and have a shared codebase with somebody when all our code looks the same."
+**Alice Merrick:** Well, I mean, lots. Where do I begin? I mean, I could talk about reasons why -- what people like about Go. People say it's very simple, it's easy to learn, it's easy to deploy everywhere... Oh, a single executable, I can put it -- it's just easy. Some people also really are into `go fmt`, and the fact that "Oh, hey, actually, it's really easy to maintain this, and have a shared codebase with somebody when all our code looks the same."
 
 So the language, and then also the tooling, those are some of the things that we hear about as far as really good experiences are going. If you have more to gush about on the Go developer experience, I'd love to hear it...
 
@@ -278,7 +278,7 @@ So the language, and then also the tooling, those are some of the things that we
 
 **Andy Walker:** \[laughs\] Yeah. I mean, if you really think about it, it's a completely different experience. It doesn't do any -- I mean, it doesn't bother me, but it doesn't do any syntax highlighting. It's basically Acme; it doesn't do autoindent until you save it or run it... It's just a completely very bare-bones experience. And so I've actively tried to like "Okay, how do I get this? Why do like I this, and how do I get it in a way that's similar to what I'm actually doing?" And I still end up using it for quick one-offs, or if I'm brain-farting about syntax, or whatever, I'll just open the site and type things in. I don't even care that it's not getting indented. I'm like "It'll be fine."
 
-\[00:34:21.07\] But I think you're right, basically the ability to more or less click a button, and then that's it. It will run. And if there's something wrong with it, you'll see it; it's pretty valuable. And of course, the reproducibility too is nice. It's fast, like you say, and it's just there.
+\[34:21\] But I think you're right, basically the ability to more or less click a button, and then that's it. It will run. And if there's something wrong with it, you'll see it; it's pretty valuable. And of course, the reproducibility too is nice. It's fast, like you say, and it's just there.
 
 **Kris Brandow:** I feel like it's the equivalent of a scratchpad. Sometimes you're working on something and you just need a little scratch piece of paper to write something down on, and I feel like if you wanted to do that locally, you would have to commit to a file somewhere. You have to put it someplace. And that just pulls you out of whatever you were just trying to do. You're like "Oh, well, where am I gonna go put this? Oh, I've gotta name it properly. How do I run this thing again?" So you've gotta go run it, especially if you have a folder where do you put all these things; it's like, "I've gotta go run this specific file."
 
@@ -304,7 +304,7 @@ But with the playground, it's just like, no, I just open it up, type play dot wh
 
 **Kris Brandow:** Yeah, I think that's the nice thing about the playground, is that you can, if you want to, save it and put it somewhere. Yeah, I think you hit the nail right on the head there, Alice, because I was just thinking about how it'd be a cool thing to build a tool that's literally called Scratchpad, or whatever, that is this thing, where it's just like "Oh, I want to just get something out real quick", and it lets you do that quick, like, "I'm just roughing out some syntax", or "I'm just trying to figure out what I mean here", but it could also, to I think your point, Andy, make it so you could extend it a little bit further to bring in external packages, and maybe even bring in things that you have locally, so that you can do a little bit more - not getting all the way up to a full IDE or full editor, but kind of fit that space.
 
-\[00:38:13.15\] Because I do think there is a gap that exists right now, where it's like "Well, I want to use this, but I want to import another package." And technically, the playground does support it, but there's there's a lot of limitations around that. So if I could just have that locally, and have this little space be filled, I think that would be great. I think it'd be the equivalent of what Jupyter Notebooks or Python Notebooks gave for a lot of data scientists and people that; or what REPLs gave for a lot of languages, where it's just like "Oh, I can just start roughing things out." So it's a little bit like a REPL for Go, but a little bit more robust.
+\[38:13\] Because I do think there is a gap that exists right now, where it's like "Well, I want to use this, but I want to import another package." And technically, the playground does support it, but there's there's a lot of limitations around that. So if I could just have that locally, and have this little space be filled, I think that would be great. I think it'd be the equivalent of what Jupyter Notebooks or Python Notebooks gave for a lot of data scientists and people that; or what REPLs gave for a lot of languages, where it's just like "Oh, I can just start roughing things out." So it's a little bit like a REPL for Go, but a little bit more robust.
 
 **Andy Walker:** Yeah, I've got a script that gets me pretty close. I have a very robust, literally dev/scratch. And everything under scratch - I mean, most things under scratch - is a single directory that has a go mod in it. And it's just something I wanted to screw around with. And so I have a script that will create a new scratch, initialize the go mod with the name of the directory, create a main format, and then open code, and drop me in there, and it'll jump to the first line. That's pretty close.
 
@@ -312,7 +312,7 @@ But with the playground, it's just like, no, I just open it up, type play dot wh
 
 **Alice Merrick:** There you go.
 
-**Mat Ryer:** You should open-source that.
+**Mat Ryer:** You should open source that.
 
 **Alice Merrick:** Have you shared that with anyone?
 
@@ -334,7 +334,7 @@ But with the playground, it's just like, no, I just open it up, type play dot wh
 
 **Mat Ryer:** No, I just research people...
 
-**Break**: \[00:40:52.29\] to \[00:42:55.07\]
+**Break**: \[40:52\] to \[42:55\]
 
 **Mat Ryer:** The Go backwards compatibility promise that you have that extra constraint on the user experience - of course, you have to always bear that in mind... And usually, we have to live with our legacy decisions. That's a great example of that. But I was interested in what mistakes we can do, or what mistakes happen a lot, or things we can do to avoid them, if there's any common sort of pitfalls, or bits of UX that we don't like. We talked about the cookie one as well... I think another is where products add loads and loads of features. And then - yes, it's more powerful, it can do all these things, but it actually becomes harder to use, because these features are now sort of in your way if you don't need them.
 
@@ -348,7 +348,7 @@ But with the playground, it's just like, no, I just open it up, type play dot wh
 
 One little allegory we like to give is if you ask somebody what flavor of ice cream do they like, or what flavors should we have available, you're gonna hear every single flavor. Everybody wants every flavor of ice cream that you can conceive of. But you can't just give everybody whatever flavor of ice cream they like. You might have to limit this to what are the top three? And maybe you go by preference; maybe you also go by "Okay, dietary restrictions. This is a common allergen, so maybe we don't use the peanut one. Or maybe we have a dairy-free option as well." So you can put different kinds of criteria on how you select for what features or things you're going to make available. And part of it can be accessibility, part of it can be what is the core task of the tool... It can be helpful to just really focus on the core -- we to call them \[unintelligible 00:45:25.05\] but you can also think of them as like jobs to be done, user journeys, things like that. You have these core tasks that you want your tool to be able to do. And you want that tool to do those things as good, and have the smoothest, most frictionless experience possible for those core things... And you can sort of limit some of that other stuff... Because if somebody's like "Oh, well, I really want to be able to do this", it's like "Yeah, I know you want to be able to do that. But that's not what this tool is for. That's a different tool. And you can happily go build that tool. We would love that tool to exist. It's just not our tool." So there are ways that you can do that... But yeah, I mean, I do see that happen all the time with feature creep... Like, "Oh, it can do everything."
 
-**Andy Walker:** \[00:46:11.20\] Yeah. So I have a couple of really interesting things that you made me think about there... The first thing that occurred to me is I think there's also a temperance that comes experience, to a degree. I mean, I think everybody craves the joy of forging forward new creation, and stuff that. But the more that you do this work... Like, I used to be a big Perl developer, and I couldn't tell you the number of times that they would start something, add some feature, and then "Oh, no, that has some weird cross-side-effect thing. We're deprecating it." So this thing that was this new core, shiny feature that I loved so much, two releases later it'd be deprecated. And then eventually it's removed, because it just had too many side effects.
+**Andy Walker:** \[46:11\] Yeah. So I have a couple of really interesting things that you made me think about there... The first thing that occurred to me is I think there's also a temperance that comes experience, to a degree. I mean, I think everybody craves the joy of forging forward new creation, and stuff that. But the more that you do this work... Like, I used to be a big Perl developer, and I couldn't tell you the number of times that they would start something, add some feature, and then "Oh, no, that has some weird cross-side-effect thing. We're deprecating it." So this thing that was this new core, shiny feature that I loved so much, two releases later it'd be deprecated. And then eventually it's removed, because it just had too many side effects.
 
 Over time, you start to realize that the more things you add, the less orthogonal they are, the more complicated things become, and very quickly in a Frankenstein sort of way the joy of creation can turn to horror.
 
@@ -372,7 +372,7 @@ And I feel like especially for like the old model, before we had this nice subsc
 
 **Andy Walker:** Yeah, yeah, really.
 
-**Alice Merrick:** \[00:50:18.00\] So I mean, we're always going to try to make the things better that we do well, right? It's like, we do well here, and we want to keep doing well here, because it aligns with our core design philosophy, it aligns with our core values, and what we want people to be able to do. So that's going to be a thing that we always work on.
+**Alice Merrick:** \[50:18\] So I mean, we're always going to try to make the things better that we do well, right? It's like, we do well here, and we want to keep doing well here, because it aligns with our core design philosophy, it aligns with our core values, and what we want people to be able to do. So that's going to be a thing that we always work on.
 
 When it comes to new features, really part of it comes down to what is going to something that Kris said, is you know how to unlock people and different kinds of -- I think it was Kris was talking about this... How can you unlock different capabilities. But also, sometimes it's not about building new features to get new users, or new use cases; sometimes it's just removing friction from the existing tool or existing, or existing feature. Just remove some friction there. Like, what if we just made this feature a little easier to discover, or a little easier to use? And so in that case, sometimes you are iterating on that particular thing, that particular feature. You are iterating on that in a way that makes it -- you're unblocking people from using it, instead of building a new thing? Because actually, what I find is that it's not just new features that attract people to a tool or a product, it's how easy is it to do a thing? How easy is it to get started, or how easy is it to build? It's that experience, not just the "Oh, and this one lets me do this." Maybe you'd buy that tool, but are you gonna use it? Probably not... It's the things that makes it easy, not the thing that does all the things.
 
@@ -382,7 +382,7 @@ When it comes to new features, really part of it comes down to what is going to 
 
 **Mat Ryer:** Yeah,it's a good idea. Well, speaking of doing your veggies really well, it's time for unpopular opinions!
 
-**Jingle**: \[00:52:24.05\]
+**Jingle**: \[52:24\]
 
 **Mat Ryer:** Well, we have a great panel today, a.k.a. Alice, Kris, Andy... Literally A.K.A.
 
@@ -402,7 +402,7 @@ When it comes to new features, really part of it comes down to what is going to 
 
 **Mat Ryer:** Well, exactly.
 
-**Alice Merrick:** \[00:53:57.23\] But that's not a real human need, though. And that's my argument, is just there's no real need. I mean, definitely it will generate lots of data, it'll increase car dependency... It'll definitely make a lot of money for someone. But I just don't think it's trying to solve a real human need.
+**Alice Merrick:** \[53:57\] But that's not a real human need, though. And that's my argument, is just there's no real need. I mean, definitely it will generate lots of data, it'll increase car dependency... It'll definitely make a lot of money for someone. But I just don't think it's trying to solve a real human need.
 
 **Mat Ryer:** Yeah, that's an interesting one there. That's a tough one to argue with, but that's not going to stop us. Does anyone want to dispute that?
 
@@ -440,7 +440,7 @@ I feel like the thing we should be doing is being like "Okay, get rid of all of 
 
 **Alice Merrick:** ...that is close to another hill. It would be great if we could just zip... Or a gondola, if you want to be a little safer. A gondola over to the other hill. It would be great.
 
-**Andy Walker:** \[00:58:05.15\] You know, there's nothing like a nice cucumber sandwich in a gondola to really convey yourself in style.
+**Andy Walker:** \[58:05\] You know, there's nothing like a nice cucumber sandwich in a gondola to really convey yourself in style.
 
 **Alice Merrick:** There you go, yeah. It'll be the next big skyline addition to Seattle. The Capitol Hill Queen and gondola. You heard it here first.
 
