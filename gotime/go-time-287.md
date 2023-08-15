@@ -444,7 +444,7 @@ I feel like the thing we should be doing is being like "Okay, get rid of all of 
 
 **Alice Merrick:** There you go, yeah. It'll be the next big skyline addition to Seattle. The Capitol Hill Queen and gondola. You heard it here first.
 
-**Mat Ryer:** I think those -- they're just too slow, those things. I get it, Andy; you strike me as a gentleman from the '50s. You like to sit down and have a nice sandwich with the crusts cut off, and high noon, and all that stuff. It's somehow posher than me, and I'm British, Andy. \[unintelligible 00:58:39.16\]
+**Mat Ryer:** I think those -- they're just too slow, those things. I get it, Andy; you strike me as a gentleman from the '50s. You like to sit down and have a nice sandwich with the crusts cut off, and high noon, and all that stuff. It's somehow posher than me, and I'm British, Andy. High tea. High tea.
 
 **Kris Brandow:** I mean, if you want to go fast, Mat, you just take the subway. You take the gondola when you have a little bit of time, and you want to do something scenic...
 
@@ -468,7 +468,7 @@ I feel like the thing we should be doing is being like "Okay, get rid of all of 
 
 **Alice Merrick:** Bring it back.
 
-**Kris Brandow:** ...we should not bring it back. \[laughter\] I'm just thinking about one winter with all the snow, and all that stuff coming \[unintelligible 00:59:45.07\] Or it's gonna be like ice one day, and there'll be some fools trying to zipline all over the place... There are just so many issues. I feel like Andy had a comment about what I said though.
+**Kris Brandow:** ...we should not bring it back. \[laughter\] I'm just thinking about one winter with all the snow, and all that stuff coming down like oh. Or it's gonna be like ice one day, and there'll be some fools trying to zipline all over the place... There are just so many issues. I feel like Andy had a comment about what I said though.
 
 **Andy Walker:** Oh, you mean the suburbs thing? Yeah, I do. I do. On the one hand, there's a part of me that deeply agrees with you, and how the city layout is fundamentally racist, in a lot of ways, and all that sort of stuff. But the other thing that it made me think of was Judge Dredd. Not the stupid movie, but the original comic; everybody basically -- the world heats up and everybody goes into either these huge mega-cities, or they go out and they live in the desert and eat people, or whatever. And even though I live in the suburbiest suburb that's ever suburbed, Columbia, Maryland - shout-out to the people tree - but I don't want to believe that. I want to believe that we can have better, broader public transit solutions that can work for everybody, no matter where you live. But it's hard, too.
 
@@ -579,7 +579,7 @@ I feel like the thing we should be doing is being like "Okay, get rid of all of 
 
 **Mat Ryer:** You're bringing them back and making them cool again.
 
-**Andy Walker:** \[unintelligible 01:06:26.22\]
+**Andy Walker:** \[unintelligible 01:06:26.22\] is new.
 
 **Kris Brandow:** Also, burger is a weird thing... Because it's just like we decided to break up a word not where it's supposed to be broken up... Because a hamburgers is a sandwich from Hamburg, and we're just like "We'll just take off the ham and do burger, because that's obviously how it's supposed to be."
 
@@ -641,7 +641,7 @@ Anyway, once you start to make things out of vectors, precision really does go o
 
 **Mat Ryer:** Rocket science?
 
-**Andy Walker:** \[01:10:07.04\] Oh, there is that, but can I -- you've reminded me of a beautiful anecdote. So a while back - I don't know what got me on this, but I was like "What is the history of the term computer scientist and programmer? Where did we come up with that?" So I went digging, and I've found the first mention of the term software engineer or something like that, or programmer - now I can't remember exactly what the first mention was, but I thought it was an old letter to the editor for the ACM, where they were talking about what to call people who do this programming thing. And there was this guy who wrote in with these amazing suggestions, and like \[unintelligible 01:10:48.03\] some really interesting stuff. But my favorite was at the very end it was flow-charts-man, with dashes between each one... I was like "That's it. That's my new --"
+**Andy Walker:** \[01:10:07.04\] Oh, there is that, but can I -- you've reminded me of a beautiful anecdote. So a while back - I don't know what got me on this, but I was like "What is the history of the term computer scientist and programmer? Where did we come up with that?" So I went digging, and I've found the first mention of the term software engineer or something like that, or programmer - now I can't remember exactly what the first mention was, but I thought it was an old letter to the editor for the ACM, where they were talking about what to call people who do this programming thing. And there was this guy who wrote in with these amazing suggestions, and like Tur-engineer Tur-ologist some really interesting stuff. But my favorite was at the very end it was flow-charts-man, with dashes between each one... I was like "That's it. That's my new --"
 
 **Mat Ryer:** And that's your Twitter name, isn't it?
 
@@ -651,9 +651,9 @@ Anyway, once you start to make things out of vectors, precision really does go o
 
 **Andy Walker:** So I think there is some prior art...
 
-**Kris Brandow:** Yeah, yeah. And the reason -- I've been studying computing recently, because I've also fallen down another rabbit hole, that maybe we'll do an episode about. I'm planning to write some blog posts and some articles around it, so maybe we can do episodes to that. But I've fallen - because I asked myself the other day, I'm like "What does it mean to compute? What is computing? What is this thing that we do?" And it actually turned out to be a pretty simple answer. It's like, there's two things. It's like, something is computable if you can find an answer to it using computation, which is just an algorithm. And then there's also the complexity, which we all love to talk about, and nerd out about, \[unintelligible 01:11:42.22\] and all of that.
+**Kris Brandow:** Yeah, yeah. And the reason -- I've been studying computing recently, because I've also fallen down another rabbit hole, that maybe we'll do an episode about. I'm planning to write some blog posts and some articles around it, so maybe we can do episodes to that. But I've fallen - because I asked myself the other day, I'm like "What does it mean to compute? What is computing? What is this thing that we do?" And it actually turned out to be a pretty simple answer. It's like, there's two things. It's like, something is computable if you can find an answer to it using computation, which is just an algorithm. And then there's also the complexity, which we all love to talk about, and nerd out about, be complete and all of that.
 
-Also, there's this thing about feasibility of complexity, where it goes into like, well, if you had an Earth-sized computer that existed for about the same time that Earth has existed, this would be the maximum type of problem you could solve with that. And I'm like "That is such a ridiculous, but also nerdy way to put the top \[unintelligible 01:12:01.27\] But the extension to that whole "We should go back to calling it computing", like, one of the reasons I want us to do that is because I want us to remember our roots. Because I feel like with AI, we've fallen into a thing we believed at the end of the 19th century, which was that it was possible that every single problem you could ask, every single question you could ask is computable. You can find an answer for it. And we got computing and computers because multiple people, like Kurt Gödel, Alan Turing, Alonzo Church - all these different people all discovered in different ways how absolutely wrong that idea was. There are things that are uncomputable; there are questions that are unanswerable. And that launched us into what we have now.
+Also, there's this thing about feasibility of complexity, where it goes into like, well, if you had an Earth-sized computer that existed for about the same time that Earth has existed, this would be the maximum type of problem you could solve with that. And I'm like "That is such a ridiculous, but also nerdy way to put the top of feasibility But the extension to that whole "We should go back to calling it computing", like, one of the reasons I want us to do that is because I want us to remember our roots. Because I feel like with AI, we've fallen into a thing we believed at the end of the 19th century, which was that it was possible that every single problem you could ask, every single question you could ask is computable. You can find an answer for it. And we got computing and computers because multiple people, like Kurt Gödel, Alan Turing, Alonzo Church - all these different people all discovered in different ways how absolutely wrong that idea was. There are things that are uncomputable; there are questions that are unanswerable. And that launched us into what we have now.
 
 And I feel like there's a little bit of people believing, in the AI world, that it's like computers can do anything, and they can do everything, and they're going to be these magnificent, all-knowing, all-intelligent machines. And it's like, we've been here and we've proved that wrong. There are significant limits to what is computable and what you can do with computing
 
@@ -699,7 +699,7 @@ I want us to shift away from that thought and be like "Well, let's try and figur
 
 **Andy Walker:** Here comes the food train.
 
-**Mat Ryer:** Yeah, that's the only way you can eat... \[unintelligible 01:16:06.08\] like "Don't look at me!"
+**Mat Ryer:** Yeah, that's the only way you can eat... In the restaurants like "Don't look at me!"
 
 **Andy Walker:** I thought we were listing the analogies we've done.
 
@@ -751,7 +751,7 @@ I want us to shift away from that thought and be like "Well, let's try and figur
 
 **Kris Brandow:** Oh God, we're gonna have a whole episode on sliced bread now...
 
-**Mat Ryer:** Yeah, if I accidentally buy a loaf, I stick it all back together, so it's just one big loaf again. \[unintelligible 01:18:30.25\] not having any of that.
+**Mat Ryer:** Yeah, if I accidentally buy a loaf, I stick it all back together, so it's just one big loaf again. I unslice it. Not having any of that.
 
 **Andy Walker:** You're a loaf purist.
 
