@@ -64,7 +64,7 @@
 
 **Daniel Whitenack:** Yes. Similar to what you said -- I think they say "the best"; they also say the largest open image model... Though we talked about this on a previous show, how it's a two-stage model. There's a base model and a refiner model. The base model is actually smaller, 3.5 billion parameters. The larger model is the refiner model, which is 6.6 billion. So that's a final -- I think they say de-noising, but sort of refining, make-the-image-better step...
 
-**Chris Benson:** Are those model sizes - I noticed they are both under your magical seven number, that you educated us on a while back... Would that be to make this accessible to people, so they can get in there and download the model and start, or not? Is it just \[unintelligible 00:09:50.12\]
+**Chris Benson:** Are those model sizes - I noticed they are both under your magical seven number, that you educated us on a while back... Would that be to make this accessible to people, so they can get in there and download the model and start, or not? Is it just happen chance?
 
 **Daniel Whitenack:** They say that SD XL 1.0 should work effectively on consumer GPUs with 8 gigabytes of GPU memory VRAM, or readily available cloud instances. So this is definitely a one-GPU model. Now, it might not work on all GPUs, depending on how you implement it, and how you call it, but definitely accessible to people, which I think is really cool.
 
