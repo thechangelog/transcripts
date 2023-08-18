@@ -44,7 +44,7 @@
 
 **Jerod Santo:** Pick one and stick with it.
 
-**Amal Hussein:** \[00:06:17.07\] Babble/Babel... Yeah, so many debates on this. But can you -- I love that analogy of something in between AWS Lambda and Zapier. So could you kind of just walk us through the landscape of core problems Val Town sets out to solve, besides just code execution? ...which you said that you can do on Code Sandbox, or Replit...
+**Amal Hussein:** \[06:17\] Babble/Babel... Yeah, so many debates on this. But can you -- I love that analogy of something in between AWS Lambda and Zapier. So could you kind of just walk us through the landscape of core problems Val Town sets out to solve, besides just code execution? ...which you said that you can do on Code Sandbox, or Replit...
 
 **Steve Krouse:** Yeah, so Val Town - it's server-side compute. Some people like to think of us as CodePen for the backend, or JSFiddle for the backend. So in that way, we're a lot like Replit, but we're a lot smaller, more composable snippets. So in that way, Twitter has been a big inspiration for us; each Val is like a tweet-size thing. And then they compose up really well, in the same way that you would make a tweet thread. Instead of one big tweet, it's like a tweet thread, and then each tweet can be individually liked, commented, retweeted. So vals can all be individually versioned, referenced, imported, commented on... We just added comments; you can comment on other people's vals.
 
@@ -60,7 +60,7 @@ I was playing with the Discord API today, and instead of parsing through the doc
 
 **Steve Krouse:** Yeah, persistence is definitely something that we are good at. We're regretting some of the choices we've made, and we're looking to make them -- I'll tell you about what it looks now. So what it looks now is Val Town - from one Val, you can reference another Val state. So the way that works is if I'm in a Val foo, and I want to reference the value of another Val bar, I could just do @, and then the username... SteveKrouse is my username, or @me to just reference my username, dot bar. And then it would reference bar. So the idea there is import's as easy as tagging on Twitter.
 
-\[00:10:23.22\] But then if you wanted to update bar, what we have is you could just update the variable from foo, and the update will just persist to bar. So you could do @me.bar++. And if it was a number, it'll just be one bigger than it was before. And vals all have independent version history. So it just puts a new version of bar, that's a number one bigger.
+\[10:23\] But then if you wanted to update bar, what we have is you could just update the variable from foo, and the update will just persist to bar. So you could do @me.bar++. And if it was a number, it'll just be one bigger than it was before. And vals all have independent version history. So it just puts a new version of bar, that's a number one bigger.
 
 **Jerod Santo:** One thing you said at the beginning there, Steve, was that it's more about where you run it, because we have all this code \[unintelligible 00:10:47.29\] and the dead code on the internet... And I think that's really powerful, not just for beginners, because I definitely think that mindset... I used to teach coding bootcamp-style web development 101, and getting people set up and running, and troubleshooting environments was such a time suck for that. And that was full stack, it wasn't merely in the browser, frontend. So Val Town and other options like it are just a boon for teaching people and getting people started. Most of them, like we've been talking about, are frontend oriented, whereas this is more of a full-stack serverless option.
 
@@ -74,13 +74,13 @@ And you have cron jobs, you have email yourself... So you have scheduled, you ha
 
 **Amal Hussein:** Oh, God... Oh, boy...
 
-**Steve Krouse:** \[00:13:58.09\] Oh, yeah. My first hour of work this morning --
+**Steve Krouse:** \[13:58\] Oh, yeah. My first hour of work this morning --
 
 **Jerod Santo:** Let's stop here and enjoy for a moment...
 
 **Steve Krouse:** Yeah, so a user I saw on Discord was having trouble getting -- okay, so we just released a new version of the Val Town API, that lets you search vals, and just kind of do more things you'd want to do with Val Town from the API. And so they piped our OpenAPI spec through a generator of an API client, with all the TypeScript types and everything, and they have it on GitHub.
 
-So you can actually import GitHub clients, or whatever, GitHub code, right from GitHub. You don't have to publish it to Npm before you can use it in Val Town, because we do it through ESM imports. So anyways, I was showing them how to do it, all for my phone. I don't know, it took 20 minutes. And at the end of it I just copied the link to the Val, put it in the Discord, and they were off forking it and playing with it themselves.
+So you can actually import GitHub clients, or whatever, GitHub code, right from GitHub. You don't have to publish it to npm before you can use it in Val Town, because we do it through ESM imports. So anyways, I was showing them how to do it, all for my phone. I don't know, it took 20 minutes. And at the end of it I just copied the link to the Val, put it in the Discord, and they were off forking it and playing with it themselves.
 
 **Amal Hussein:** Wow. And just to be clear, you were showing them how to import code that's publicly available on GitHub...
 
@@ -118,7 +118,7 @@ So you can actually import GitHub clients, or whatever, GitHub code, right from 
 
 **Amal Hussein:** Did you pick Ohio because it's like middle country?
 
-**Steve Krouse:** \[00:17:58.20\] Exactly. Exactly. Yeah, it seemed like the middle of America, it seems solid. We do have a lot of users in China who probably hate our latency times... But it's fine for now. Most of Val Town can really scale horizontally, and go to the edge when we have enough money to hire a team to do the whole edge thing. We're trying to architect with that in mind. But for now, Ohio is fine.
+**Steve Krouse:** \[17:58\] Exactly. Exactly. Yeah, it seemed like the middle of America, it seems solid. We do have a lot of users in China who probably hate our latency times... But it's fine for now. Most of Val Town can really scale horizontally, and go to the edge when we have enough money to hire a team to do the whole edge thing. We're trying to architect with that in mind. But for now, Ohio is fine.
 
 **Jerod Santo:** Ohio. Is it just stored in a database, like as a string, or a text area? Get into some of the architecture. Where actually is it?
 
@@ -136,7 +136,7 @@ So it anyways, maybe one of the functions as a service platforms is listening to
 
 **Steve Krouse:** So for the medium term it's just gonna be JavaScript and TypeScript, and everyone's gonna be on the same version of Deno. In the slightly longer term, we might allow different JavaScript runtimes, like different versions of Deno, or maybe Node, or Bun, like different JavaScript runtimes, and you could specify that at the val level. And then in the longer term, we might allow other programming languages. But for now, a lot of the benefits of having everything in that lingua franca environment that we were talking about - those benefits are so great that we want to keep that for as long as possible. And to be honest, it's just so much less of a developer complexity for us to maintain just the one environment... So we're gonna stick with that for a long time.
 
-**Amal Hussein:** \[00:22:16.16\] Yeah, JavaScript is the universal solvent, so I get that. Good choice. I think one of the things that really got me excited about this was seeing that one of the vals available was "Do you have a form that you need to add to your website?" Can you talk us through how that works, and just being able to kind of leverage a val to take data that someone's typing onto your static site, and then having that go somewhere?
+**Amal Hussein:** \[22:16\] Yeah, JavaScript is the universal solvent, so I get that. Good choice. I think one of the things that really got me excited about this was seeing that one of the vals available was "Do you have a form that you need to add to your website?" Can you talk us through how that works, and just being able to kind of leverage a val to take data that someone's typing onto your static site, and then having that go somewhere?
 
 **Steve Krouse:** Yeah, Val Town is a really great pairing for a static site like Astro, or any of the static site generators... So you can do the whole thing 100% in Val Town, so Val Town server-side compute, but you can return HTML from a server. And now we're doing frontendy things... So I think the way the Astro Like button -- there was a blog post someone wrote, I think the way he did it was, he just had one route, kind of a basic get route, he made a val that was an express handler val. So there are a couple different types of vals. You could just write a function, just a JavaScript function, or you can write an Express.js handler that takes a request object and a response object and returns a response. So if it's a get request, it'll return a Like button component, and the number of likes, just as an HTML string that it'll construct in the val. And if it's a POST request that's hitting this Express handler, then it'll add one to the count, like we were talking about before. Because you can persist data in Val Town. And that's it. It's really just six lines; the core concepts are just six lines. You can do more complicated things. I think he was doing fingerprinting to make sure that you can only hit the Like button a certain number of times, because it'll try and fingerprint your browser...
 
@@ -154,7 +154,7 @@ So it anyways, maybe one of the functions as a service platforms is listening to
 
 **Jerod Santo:** \[laughs\] "We'll really be able to support this operation when we'll have more money." Any public platform deals with abuse, and if you haven't yet, success will just bring that. And so yeah, hopefully it aligns with a time when you're fleshed out as a business enough to be able to deal with it as it comes up, because it certainly will. I can't remember who we were talking to most recently about that on the show, but we were talking about even GitHub's Actions, and how much GitHub Actions is actually just -- they're fighting it off, constantly. And it's just like, whenever you provide free public compute, at any scale, they'll scale it horizontally across your free plans in order to get it done. But in the good days right now, thankfully you don't worry about it right now, and hopefully they won't find you for a long time.
 
-**Break**: \[00:25:25.07\]
+**Break**: \[25:25\]
 
 **Jerod Santo:** You mentioned Dan Levine from Accel as being kind of the kickstarter to this idea, and you building it. I also was looking at your list of people involved, the team, and I noticed Ross Boucher - I'm not sure how his last name is pronounced - as an advisor. And Ross - I remember Ross from way back in the Cappuccino days. I'm actually a Cappuccino user from the oughts.
 
@@ -166,7 +166,7 @@ So it anyways, maybe one of the functions as a service platforms is listening to
 
 **Jerod Santo:** So I apologize for gapping that... But yeah, Ross - immediately I was like "That name sounds familiar." He's also doing RunKit, right? So RunKit's a thing. I don't know much about RunKit. I know it's popular amongst some. And he's an advisor, so it seems like RunKit and Val Town have a lot of crossovers. Has he been instrumental in the design? He probably knows how to do a lot of these things, maybe even fighting fraud and abuse.
 
-**Steve Krouse:** Yeah. So yeah, RunKit was one of the main inspirations of Val Town, I would say. Yeah, RunKit's a really cool platform. It's still embedded in Npm. So if you want to try any Npm package out, RunKit is just right there, embedded, which is awesome. And Ross is great. He also is at least partially responsible for the early Stripe API...
+**Steve Krouse:** Yeah. So yeah, RunKit was one of the main inspirations of Val Town, I would say. Yeah, RunKit's a really cool platform. It's still embedded in npm. So if you want to try any npm package out, RunKit is just right there, embedded, which is awesome. And Ross is great. He also is at least partially responsible for the early Stripe API...
 
 **Jerod Santo:** Oh, yeah, yeah.
 
@@ -188,7 +188,7 @@ So it anyways, maybe one of the functions as a service platforms is listening to
 
 **Steve Krouse:** Yeah. Like, isn't Val Town a new developer tool? How do you expect people to adopt it? And my answer is -- like, that's why we're so specifically going after hobbyists and amateur use cases right now. There are a couple of businesses, or maybe a bunch of businesses who are using Val Town, but they're bringing their fun hobby thing to work, and they're not expecting more than that because of how we're doing the branding. And sooner rather than later I think it'll become a mature platform, and it'll be more obvious that you'll want to use it at work.
 
-\[00:30:15.11\] But anyways, we're trying to slow-roll that for this very reason, if you're only using it for kind of small things that you don't care about too much to begin with. Like we were saying before, one of the exciting things about Val Town are the things that wouldn't have gotten built before, because they were just too hard to get built, now will actually exist in the world, because they're so easy and you could just do them on your phone as a hobby thing. So yeah, that's what we want to win to start, and build trust over time.
+\[30:15\] But anyways, we're trying to slow-roll that for this very reason, if you're only using it for kind of small things that you don't care about too much to begin with. Like we were saying before, one of the exciting things about Val Town are the things that wouldn't have gotten built before, because they were just too hard to get built, now will actually exist in the world, because they're so easy and you could just do them on your phone as a hobby thing. So yeah, that's what we want to win to start, and build trust over time.
 
 But anyways, back to your point about lock-in. I think we have 8 or 12 Val Town-specific things that you're going to have to replace if you want your code to run without changing any of the code... And we are working on knocking each of those down one by one, so that Val Town is fully a web standard-compliant platform, and really there's just like one or two or zero of these things, to get your Val Town code to run anywhere that JavaScript runs. Node, Deno, Bun, whatever. Well, not anywhere-anywhere. I don't know if you can get it running on every different deployed runtime, but at least locally on any of these platforms with very minimal tweaking. So that's an ongoing project.
 
@@ -212,7 +212,7 @@ But we're actually using your idea of a polyfill kind of transpilation method. I
 
 **Amal Hussein:** Yeah, and thank you so much for sharing that insight and your thought process, and kind of where you are on the decision tree. I think one of the things when you're designing an API for public consumption, every decision, small or big, you're kind of stuck with it once it's out in the universe, and it's really hard... And so I would advise you, don't feel rushed to make this decision. Take your time. Because once you release it, it's out there. So just don't let the community pressure you into having an answer for that right away. But I will say, there's kind of two halves of this. There's the actually getting your code, or your "val" to run, but there's also data. So to use your example from earlier - so Astro has a Like button that they've kind of got hooked up and working through a val... And so those like counts - I would want to kind of be able to export that.
 
-**Jerod Santo:** \[00:34:20.19\] Sure.
+**Jerod Santo:** \[34:20\] Sure.
 
 **Amal Hussein:** So I'd want to know, "Hey, when was the last time that this was working?" So let's say you went down... It'll be like "Did I just lose three days' worth of data?" If I wanted to move it to a different service... So are you letting people just export their data? Is there somewhere they can query and get that JSON? Or are you going to use Cloudflare's R2 for that? I'm just curious, what's the plan there?
 
@@ -248,7 +248,7 @@ So you kind of beat me to the punch, I was going to ask you about what is the na
 
 **Steve Krouse:** Yeah. So a lot of our community happens in Discord, which - I didn't make the Discord. This is my second developer community. The first one was the Future of Coding, which started out as a podcast that I made just to talk about developer tooly kind of things. And then a Slack community kind of sprung up around my podcast, which was very fun. And that's still going on without me.
 
-\[00:37:58.19\] This Discord community is going well. I don't know how many people are in it now. Whenever you message everyone in Discord, it just says "This will message over 500 people." So there are over 500 people. It's pretty chatty. We have four or five people who are kind of in there every day, asking questions, coming up with ideas... Those are my friends. Well, I didn't know them before now, but I like them a lot. It's fun to have some really passionate users always pushing the edges of things. And there's a lot that happens in Discord that I would overtime to push into the product. So we added comments on every val, so anyone can comment on a val.
+\[37:58\] This Discord community is going well. I don't know how many people are in it now. Whenever you message everyone in Discord, it just says "This will message over 500 people." So there are over 500 people. It's pretty chatty. We have four or five people who are kind of in there every day, asking questions, coming up with ideas... Those are my friends. Well, I didn't know them before now, but I like them a lot. It's fun to have some really passionate users always pushing the edges of things. And there's a lot that happens in Discord that I would overtime to push into the product. So we added comments on every val, so anyone can comment on a val.
 
 The behavior now is you make a cool val, you copy and paste it into the Discord, and then people will comment on it on Discord. But we want to push that into the platform. You can like vals, and we have a trending filter, so you can just browse trending vals, like a front page of Val Town... But it's a little bit buried. And there's sometimes interesting things there.
 
@@ -264,7 +264,7 @@ The behavior now is you make a cool val, you copy and paste it into the Discord,
 
 **Amal Hussein:** Yeah. Or you just have a model that's trained on all the new vals, and incoming vals, and then someone just talks to a chatbot. That's the search of the future, right? It's like "I want to do this kind of thing", and then the AI would be like "Alright, well, we don't have anything that does exactly this, but if you combine these three vals, you can do it." Or "Here. Here's one val, and then you just modify it." That could be a very useful way of handling them.
 
-**Steve Krouse:** Totally. I think that's really the programming of the future, getting to use -- so it's not only like will AI be writing code for you, but it won't actually be rewriting everything... It'll pull runnable bits of code from other people that have been verified. So that's part of what Val Town is doing. When I make a little helper utility val, it's like a mini Npm package. It's just like an atomic, usable snippet of code.
+**Steve Krouse:** Totally. I think that's really the programming of the future, getting to use -- so it's not only like will AI be writing code for you, but it won't actually be rewriting everything... It'll pull runnable bits of code from other people that have been verified. So that's part of what Val Town is doing. When I make a little helper utility val, it's like a mini npm package. It's just like an atomic, usable snippet of code.
 
 **Jerod Santo:** Do you expect people to ever have full-fledged systems? It sounds like you kind of did; that they're all just a bunch of vals put together...
 
@@ -282,7 +282,7 @@ The behavior now is you make a cool val, you copy and paste it into the Discord,
 
 **Steve Krouse:** I think there are gonna be a lot of challenges. I think it's gonna be really hard to pull this off. You could pick a number of different directions. Where my brain goes is let's say you have 10 or 100 functions that represent your backend, and now you want to make a change. In a normal server, this would be a pull request, where you'd have changes across them, and you'd make a branch, which is like a fork of all 100 functions. You get a copy of this environment, and then you'd have a pull request... Can we have change sets, or a pull request against 10 or 100 vals?
 
-**Jerod Santo:** \[00:42:14.14\] Right.
+**Jerod Santo:** \[42:14\] Right.
 
 **Steve Krouse:** ...I don't know, I hope so. At the extreme, or if I really succeed, I'm gonna have to build kind of like all of GitHub over again into Val Town. And so you'll put like 100 vals in a folder, and you'll hit Fork, and it will create a branch of that folder that clones all your vals into a new environment... But what's nice about that is it's all instantly deployed. You hit the Fork button, boom. You have a deployed fork, with its own name, like a preview branch. And then you go make your changes. And then now after you want to do a pull request to a folder of vals across 100.
 
@@ -326,7 +326,7 @@ The behavior now is you make a cool val, you copy and paste it into the Discord,
 
 **Steve Krouse:** A novel?
 
-**Jerod Santo:** \[00:45:59.00\] Yeah. And I just don't think it's advisable. And maybe that's the case with Val Town. Like, "Yeah, you can do it. We made it technically possible. It was really hard." And some companies are getting to that size. Maybe they're novellas. But it's just not advisable. Like, maybe you just need your own application delivery network for that. And you could also scale the size of a val, perhaps. And I think that's kind of where your pricing -- we didn't get into your pricing yet. I think that's where it comes in.
+**Jerod Santo:** \[45:59\] Yeah. And I just don't think it's advisable. And maybe that's the case with Val Town. Like, "Yeah, you can do it. We made it technically possible. It was really hard." And some companies are getting to that size. Maybe they're novellas. But it's just not advisable. Like, maybe you just need your own application delivery network for that. And you could also scale the size of a val, perhaps. And I think that's kind of where your pricing -- we didn't get into your pricing yet. I think that's where it comes in.
 
 **Steve Krouse:** Oh, yeah.
 
@@ -350,7 +350,7 @@ So yeah, little things that; things that cost us money, things that are potentia
 
 **Amal Hussein:** That's super-neat. Yeah, I would say please just -- my only ask of you, Steve, is just the sooner you can have a server that's not just based in Ohio, the better. The internet is for everybody! So if you have users in China, let's get some servers in Asia, right? That would be nice.
 
-\[00:50:11.16\] But that being said, I'm just curious... It's been so insightful hearing you talking about this early-stage product that's obviously gained quite a bit of momentum... I'm curious to kind of hear about the decisions behind your stack. You mentioned a little bit earlier that you're using Remix, especially for the frontend. Out of curiosity, I went and looked up some statistics in the Chrome User Report around what frameworks were popular, and what the numbers are in the wild etc. and Remix came up with, I think, roughly 1,500 sites in the wild. And I jokingly made a comment to a friend of mine, like "I'm pretty sure 1,200 of those 1,500 sites are demo apps." But obviously, I was just joking. So I'm just curious, what was the decision behind kind of choosing Remix, and also just what decisions you were making when evaluating your frontend stack?
+\[50:11\] But that being said, I'm just curious... It's been so insightful hearing you talking about this early-stage product that's obviously gained quite a bit of momentum... I'm curious to kind of hear about the decisions behind your stack. You mentioned a little bit earlier that you're using Remix, especially for the frontend. Out of curiosity, I went and looked up some statistics in the Chrome User Report around what frameworks were popular, and what the numbers are in the wild etc. and Remix came up with, I think, roughly 1,500 sites in the wild. And I jokingly made a comment to a friend of mine, like "I'm pretty sure 1,200 of those 1,500 sites are demo apps." But obviously, I was just joking. So I'm just curious, what was the decision behind kind of choosing Remix, and also just what decisions you were making when evaluating your frontend stack?
 
 **Steve Krouse:** This really is more of a question for my co-founder, Tom MacWright. How we became friends - I was following him on the internet, and I just loved... Like, he tries all the new JavaScript technologies, and writes good reviews about them... So he did a good, hard look at Next and Remix, and maybe a couple others, but it was really between those two... And he went with Remix, which I was happy with. I've used Next in the past, and it's fine; it feels maybe a little heavierweight than Remix. Remix kind of fits more of our vibe, of like web-standardy kind of things...
 
@@ -362,7 +362,7 @@ So yeah, little things that; things that cost us money, things that are potentia
 
 **Jerod Santo:** Well, I'm super-excited about Val Town. We do have a couple of questions coming in from our chat... By the way, JS Party listeners, if you're not in the Changelog Community Slack, why not? It's totally free. Head to JSParty.fm/community, join there, hang out with us, talk while we record shows, talk in between shows... Why not?
 
-So here's from Darcy Clarke... Hey, we know Darcy Clarke, don't we, Amal? He was just on the show a couple of weeks ago with the Npm Manifest Confusion... Is that what it's called? I love that term, if I got it right. So Darcy has been playing with Val Town, and he has a question. He says, "Is there a way today, or do you plan to support dynamic references? For example, today if I do @username.val", and username is in brackets, "it doesn't work. So there's no way to export users or references." So I guess this would be for sharing purposes, like maybe you can't do that... Maybe you understand the question better than I do as the platform creator.
+So here's from Darcy Clarke... Hey, we know Darcy Clarke, don't we, Amal? He was just on the show a couple of weeks ago with the npm Manifest Confusion... Is that what it's called? I love that term, if I got it right. So Darcy has been playing with Val Town, and he has a question. He says, "Is there a way today, or do you plan to support dynamic references? For example, today if I do @username.val", and username is in brackets, "it doesn't work. So there's no way to export users or references." So I guess this would be for sharing purposes, like maybe you can't do that... Maybe you understand the question better than I do as the platform creator.
 
 **Steve Krouse:** Totally. Yeah. Yeah, we don't support that now. So the reason we don't support that now is because of the magical way that imports work today. That's quite limited, which is part of why moving to web standards will be so exciting and important to our project. So right now, we parse the code for all your references, statically, we bundle those references in before the code even starts to run.
 
@@ -378,7 +378,7 @@ So here's from Darcy Clarke... Hey, we know Darcy Clarke, don't we, Amal? He was
 
 **Jerod Santo:** Okay. Well, if there are ways around it, Darcy will find them, because he is a security buff, and he likes to find ways around things. In fact, he has another question about security things, that maybe I'll ask in the post show, just in case...
 
-**Amal Hussein:** \[00:54:17.16\] I have some security things, too. Well, I mean, this has been a burning question in general, but why don't we go with Darcy's second question first, actually?
+**Amal Hussein:** \[54:17\] I have some security things, too. Well, I mean, this has been a burning question in general, but why don't we go with Darcy's second question first, actually?
 
 **Jerod Santo:** So are there future plans to sanitize secrets and values to protect users? It seems it's pretty easy to expose those in vals today. And he has some code...
 
@@ -390,7 +390,7 @@ One idea we have, that I think is easy enough to build, that we'll probably do i
 
 **Steve Krouse:** Yeah.
 
-**Amal Hussein:** I mean, quite frankly, you don't have to -- but yeah, hopefully somebody open-sources that in general, because I think that's a very useful thing; like a smart linter, one that isn't just using a regex. But yeah, so my question is just kind of around -- I know that, for example, Cloudflare workers have very kind of tight execution contexts, everything's sandboxed, but things are running on the same machine, from different companies, from different requests etc. And so I'm just curious how you all have taken that consideration into your architecture, and what guarantees security here?
+**Amal Hussein:** I mean, quite frankly, you don't have to -- but yeah, hopefully somebody open sources that in general, because I think that's a very useful thing; like a smart linter, one that isn't just using a regex. But yeah, so my question is just kind of around -- I know that, for example, Cloudflare workers have very kind of tight execution contexts, everything's sandboxed, but things are running on the same machine, from different companies, from different requests etc. And so I'm just curious how you all have taken that consideration into your architecture, and what guarantees security here?
 
 **Steve Krouse:** So right now, most of our security model is coming from Deno, which - that's kind of their main value proposition, that it offers pretty tight security guarantees. But over time, we'll probably just keep wrapping things in containers to just doubly and triply secure you. I think that's kind of what people do these days. You create an enclave, then you create another, and whatever; you create a number of things... What's the one that the Amazon -- I always forget the name; Amazon's open source container runtime thing that they use internally for Lambda... Anyway, I'm sure most people listening to this probably --
 
