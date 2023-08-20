@@ -391,6 +391,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
     </tr>
     <tr>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/ernstki"><img src="https://avatars.githubusercontent.com/u/4009681?v=4?s=100" width="100px;" alt="Kevin Ernst"/><br /><sub><b>Kevin Ernst</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=ernstki" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/roadswitcher"><img src="https://avatars.githubusercontent.com/u/35750915?v=4?s=100" width="100px;" alt="Bill Blum"/><br /><sub><b>Bill Blum</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=roadswitcher" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
