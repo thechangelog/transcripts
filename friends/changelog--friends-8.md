@@ -656,7 +656,7 @@ Jerod, to go back to your question, if you're that CIO - if you look at what thi
 
 **Adam Stacoviak:** \[49:54\] Assuming that's already taken place. We're there -- let's say Jerod and I are there. We're the administrators, the operators, whatever you wanna call us... We've gotta provision this thing. You say it takes a few hours... We slide it in, maybe it takes a small forklift, or several people, or maybe it's got wheels, I have no idea...
 
-**Bryan Cantrill:** This thing is not short.
+**Bryan Cantrill:** This thing is not short, so...
 
 **Adam Stacoviak:** Let's just say it's there. It's there. We're not worried about door spaces, how wide we've gotta be, nothing like that.
 
@@ -678,7 +678,7 @@ Jerod, to go back to your question, if you're that CIO - if you look at what thi
 
 **Adam Stacoviak:** An Ethernet port.
 
-**Bryan Cantrill:** And Ethernet port.
+**Bryan Cantrill:** An Ethernet port.
 
 **Adam Stacoviak:** Gotcha.
 
@@ -872,7 +872,7 @@ And you even ask some of these folks, like, the most ambitious public cloud adop
 
 There's another group that is really interesting, and we've spent a bunch of time with, and that is the large cloud SaaS companies. Companies that were born in the public cloud... They themselves are now spending as much as large enterprises in the public cloud, and I think the thing that I don't like about the whole 37signals discourse is this cloud repatriation. It's like, "It's time to leave the cloud. It's time to go back to on-premises." And I think that's totally the wrong conversation. What's really interesting is when you talk to these large cloud SaaS companies, that they're not saying like "Oh, we've gotta get out of the cloud. It's a racket. We can do all this for less. We can do it better than the cloud." Yeah, good luck. You can do it better than AWS does it. No.
 
-It's conversations that are around "How do we grow and go get access to more of our customers' data?" In this financially-regulated industry we've got 10% of this four letter bank's data. How do we serve that bank and help them use our products for 100% of their data? Well, in order to do that, we've gotta extend our platform closer to where that customer is for a bunch of their data... And we can't do that by cobbling together a kit car of five different enterprise providers and building a 500-person engineering team... And that's where we've had some really rich conversations with these folks where they're excited that they've got a vertically-integrated appliance that they can land their cloud SaaS platform on top of, and go deliver that into a collo, an exchange; places where a lot more of this customer data lives, or these customer use cases live.
+It's conversations that are around "How do we grow and go get access to more of our customers' data?" In this financially-regulated industry we've got 10% of this four letter bank's data. How do we serve that bank and help them use our products for 100% of their data? Well, in order to do that, we've gotta extend our platform closer to where that customer is for a bunch of their data... And we can't do that by cobbling together a kit car of five different enterprise providers and building a 500-person engineering team... And that's where we've had some really rich conversations with these folks where they're excited that they've got a vertically-integrated appliance that they can land their cloud SaaS platform on top of, and go deliver that into a colo, an exchange; places where a lot more of this customer data lives, or these customer use cases live.
 
 \[01:18:12.02\] And so we're really excited about that use case, because that now allows Oxide in a way to help kind of extend enterprise software beyond just public cloud use case, to a bunch of these other markets. And yes, they will be customers of Oxide, we will be partners, because we're gonna be -- you know, there's kind of a nice, virtuous cycle here, where it can be kind of a helpful distribution channel, but also help these companies to improve latency, grow revenue... And those use cases are much more interesting than like "Oh, is the pendulum swinging back out of the public cloud, and back to on-premises?" It's like, that's kind of the wrong way to think about it.
 
@@ -882,7 +882,7 @@ It's conversations that are around "How do we grow and go get access to more of 
 
 **Jerod Santo:** My first one is... Where are you guys storing the secret?
 
-**Bryan Cantrill:** Oh, yeah. That's a good one. We actually do wanna do an Oxide and Friends... Clearly, we're not gonna tell you exactly where the secret is stored, but I think we do wanna go into some -- because I think the technical details are really interesting. I think it's important that we talk about the .matrix printer that gave its life for the secret.
+**Bryan Cantrill:** Oh, yeah. That's a good one. We actually do wanna do an Oxide and Friends... Clearly, we're not gonna tell you exactly where the secret is stored, but I think we do wanna go into some -- because I think the technical details are really interesting. I think it's important that we talk about the dot matrix printer that gave its life for the secret.
 
 **Jerod Santo:** Oh, man, I like the sound of that.
 
@@ -890,7 +890,7 @@ It's conversations that are around "How do we grow and go get access to more of 
 
 **Jerod Santo:** \[laughs\]
 
-**Bryan Cantrill:** And that .matrix printer sacrificed itself for the greater good.
+**Bryan Cantrill:** And that dot matrix printer sacrificed itself for the greater good.
 
 **Steve Tuck:** Met a Dremel it wished it had not.
 
@@ -898,47 +898,45 @@ It's conversations that are around "How do we grow and go get access to more of 
 
 **Jerod Santo:** Was this like a scene out of Office Space, where they take it out back, and...
 
-**Bryan Cantrill:** It goes beyond that though. You can't do that.
+**Steve Tuck:** It goes beyond that though. You can't do that.
 
-**Steve Tuck:** Yeah, because we thought "Oh, this is going to be like PS load letter and we're gonna take it into the field, and we're all gonna --"
+**Bryan Cantrill:** Yeah, because we thought "Oh, this is going to be like PS load letter and we're gonna take it into the field, and we're all gonna --"
 
-**Bryan Cantrill:** Right.
+**Jerod Santo** Yeah yeah yeah...
 
-**Steve Tuck:** No, no, no. No, this is gonna be taken apart surgically, and destroyed surgically. So in particular, the Dremel goes through the microcontroller, because this .matrix printer - why did this .matrix printer have to die? Because it printed out the secret. It saw the secret.
+**Bryan Cantrill:** No, no, no. No, this is gonna be taken apart surgically, and destroyed surgically. So in particular, the Dremel goes through the microcontroller, because this dot matrix printer - why did this dot matrix printer have to die? Because it printed out the secret. It saw the secret.
 
 **Jerod Santo:** It saw the secret, yeah.
 
-**Steve Tuck:** And like, you can see the secret, but then they have to kill you. The .matrix printer has died, and the secret is stored, attended by armed guards. Fortunately, society has some apparatus for storing such things, so...
+**Bryan Cantrill:** And like, you can see the secret, but then they have to kill you. The dot matrix printer has died, and the secret is stored, attended by armed guards. Fortunately, society has some apparatus for storing such things, so...
 
 **Adam Stacoviak:** Which landfill is this thing in?
 
-**Steve Tuck:** Yeah, exactly. That's right. We've got Russ Hanneman out there looking through the --
+**Bryan Cantrill:** Yeah, exactly. That's right. We've got Russ Hanneman out there looking through the --
 
 **Adam Stacoviak:** That's right, for the thumbdrive.
 
-**Steve Tuck:** For the thumbdrive.
+**Steve Tuck:** For the thumbdrive.  It's a good, good question.
 
-**Bryan Cantrill:** It's a good, good question.
-
-**Steve Tuck:** Ultimately, that ends in a safe deposit box at an unspecified institution.
+**Bryan Cantrill:** Ultimately, that ends in a safe deposit box at an unspecified institution.
 
 **Jerod Santo:** That's what I've figured, you know...
 
-**Bryan Cantrill:** In an unspecified country.
+**Steve Tuck:** In an unspecified country.
 
-**Steve Tuck:** Ultimately, it has to. But I think the apparatus there is really interesting, and it's something that we actually wanna get into in the future. It was really fast-hitting, just like all of the precautions that you take, and that are really important, because the secret is super, super-important. The secret is company-ending, and you have seen this from -- there are vendors that have lost control of their sign-in keys...
+**Bryan Cantrill:** Ultimately, it has to. But I think the apparatus there is really interesting, and it's something that we actually wanna get into in the future. It was really fast-hitting, just like all of the precautions that you take, and that are really important, because the secret is super, super-important. The secret is company-ending, and you have seen this from -- there are vendors that have lost control of their sign-in keys...
 
 **Adam Stacoviak:** Really?
 
 **Jerod Santo:** Oh, my goodness...
 
-**Steve Tuck:** Yes. MSI.
+**Bryan Cantrill:** Yes. MSI.
 
 **Adam Stacoviak:** This has happened to MSI? Wow...
 
-**Steve Tuck:** Yeah, it's happened recently to MSI. They lost control of their sign-in key, and it's like, you're done. It's game over. You can never know what you're actually running on.
+**Bryan Cantrill:** Yeah, it's happened recently to MSI. They lost control of their sign-in key, and it's like, you're done. It's game over. You can never know what you're actually running on.
 
-**Bryan Cantrill:** You can't trust what you're running on.
+**Steve Tuck:** You can't trust what you're running on.
 
 **Jerod Santo:** Right, right.
 
@@ -962,13 +960,13 @@ It's conversations that are around "How do we grow and go get access to more of 
 
 **Jerod Santo:** Is there like a content strategy going on here, or is it just like "Yeah, we like to talk on the microphone"?
 
-**Bryan Cantrill:** We should tell you about On the Metal first, because I think that was the first version of the podcast, was On the Metal. And the strategy, such as it was behind that, because it was also selfish in that we wanted to talk to people that had been there as computers were built over the last couple of decades, and found that there was not a lot of recorded history of it... I mean, obviously, thousands of books written, but there wasn't a lot of audio kind of telling the stories of computing in the '70s, and '80s, and '90s, and 2000's, and even more recently. And we were seeking, and kind of were fortunate to run into or know folks that were at that hardware/software interface in the earliest days of Honeywell, and Intel... And getting them on record telling those stories. I think we had a pretty good instinct that this was gonna be content folks would want to listen to, but that historical-themed, kind of "How we got here", like "Why we are in the state we are" was really compelling.
+**Steve Tuck:** We should tell you about On the Metal first, because I think that was the first version of the podcast, was On the Metal. And the strategy, such as it was behind that, because it was also selfish in that we wanted to talk to people that had been there as computers were built over the last couple of decades, and found that there was not a lot of recorded history of it... I mean, obviously, thousands of books written, but there wasn't a lot of audio kind of telling the stories of computing in the '70s, and '80s, and '90s, and 2000's, and even more recently. And we were seeking, and kind of were fortunate to run into or know folks that were at that hardware/software interface in the earliest days of Honeywell, and Intel... And getting them on record telling those stories. I think we had a pretty good instinct that this was gonna be content folks would want to listen to, but that historical-themed, kind of "How we got here", like "Why we are in the state we are" was really compelling.
 
-**Steve Tuck:** And I think strategically, the thing that was clearest in our mind was that there are other technologists out there that would like to join us, and there are gonna be folks that we never met; they're gonna be out of our network. And the podcast was a way of putting the content in front of them that we knew was compelling, and we think that they would find compelling, too. So kind of like -- such as the initial thrust was, this is a way to help build the team. It felt like it was a bit of a bet, but not much of one, because it just felt like this was pretty obvious. I don't think we were expecting just how quickly it would bear fruit... So we got that first episode out of On the Metal with Jeff Rothschild, who -- an extraordinary technologist. Founder of Veritas, very early Facebook; first VP of Engineering at Facebook.
+**Bryan Cantrill:** And I think strategically, the thing that was clearest in our mind was that there are other technologists out there that would like to join us, and there are gonna be folks that we never met; they're gonna be out of our network. And the podcast was a way of putting the content in front of them that we knew was compelling, and we think that they would find compelling, too. So kind of like -- such as the initial thrust was, this is a way to help build the team. It felt like it was a bit of a bet, but not much of one, because it just felt like this was pretty obvious. I don't think we were expecting just how quickly it would bear fruit... So we got that first episode out of On the Metal with Jeff Rothschild, who -- an extraordinary technologist. Founder of Veritas, very early Facebook; first VP of Engineering at Facebook.
 
-**Bryan Cantrill:** Early Intel.
+**Steve Tuck:** Early Intel.
 
-**Steve Tuck:** Yeah, he was early at Intel back in the day... And Jeff's extraordinary, and he was so generous with his time, and really -- just a terrific conversation with Jeff. That podcast drops, and six hours later I've got someone coming in on LinkedIn, saying "I just listened to the podcast. I am leaving Facebook. We've gotta talk." And that was Arjen Roodselaar who is one of our founding engineers, Arjen was the first one that was like totally out of network for us... But Arjen is such an important part of who Oxide is. And we share values with Arjen because he was attracted by the podcast that we put out there. And he's like "The folks that make this - I wanna talk to these people." And early on, those stories we knew would be attractive to the kind of technologists... Because what we knew - the thing that we knew, that I think investors didn't necessarily know, is that the world, technologists, customers, knew that it was time for this company. And that if we could put the bat signal out there saying "Hey, here's what we're doing. Come join us", we knew that technologists and customers would raise their hand.
+**Bryan Cantrill:** Yeah, he was early at Intel back in the day... And Jeff's extraordinary, and he was so generous with his time, and really -- just a terrific conversation with Jeff. That podcast drops, and six hours later I've got someone coming in on LinkedIn, saying "I just listened to the podcast. I am leaving Facebook. We've gotta talk." And that was Arjen Roodselaar who is one of our founding engineers, Arjen was the first one that was like totally out of network for us... But Arjen is such an important part of who Oxide is. And we share values with Arjen because he was attracted by the podcast that we put out there. And he's like "The folks that make this - I wanna talk to these people." And early on, those stories we knew would be attractive to the kind of technologists... Because what we knew - the thing that we knew, that I think investors didn't necessarily know, is that the world, technologists, customers, knew that it was time for this company. And that if we could put the bat signal out there saying "Hey, here's what we're doing. Come join us", we knew that technologists and customers would raise their hand.
 
 \[01:25:57.20\] So strategies such as this behind the podcast was it's a way of getting that bad signal out there. By the way, it's doing it in a vector that we just love. We love podcasts, we love listening to them... We think it's a really important vector. So yeah, On the Metal was huge for us.
 
@@ -986,7 +984,7 @@ It's conversations that are around "How do we grow and go get access to more of 
 
 **Steve Tuck:** ...there's a lot of words. It's ugly, and folks are scared to expose that to their customers. They're scared to expose that to the market. And what we've found is that that transparency has actually endeared us to this demographic of customers, because they love that they get to see it all. They kind of get to see where it came from, why it was built, who built it, why they built it, and that level of transparency, where -- you know, even 5-10 years ago in my career; you're always like "Ah, do we really wanna share this? Do we really want this out there?" You're thinking of all the downside, right? And once you start sharing stuff and you see that positive feedback loop, it emboldens you to wanna share more and more and more, and I can say we are definitely not at risk of sharing too little.
 
-**Adam Stacoviak:** No. Not at all. I mean, it's all contextual, that's the problem. People get so scared about -- I mean, obviously, the printed secret with the .matrix, that's one you keep very close. But your ideas - some of them are worth keeping close to the vest, but not like secret forever. And they're all contextual. What you are doing is maybe drastically different than what most are doing, and they're not in the same space. So they can't just like "Transplant this great idea I heard on this podcast from Steve and Bryan, and bam, my company is successful." It's just not like that.
+**Adam Stacoviak:** No. Not at all. I mean, it's all contextual, that's the problem. People get so scared about -- I mean, obviously, the printed secret with the dot matrix, that's one you keep very close. But your ideas - some of them are worth keeping close to the vest, but not like secret forever. And they're all contextual. What you are doing is maybe drastically different than what most are doing, and they're not in the same space. So they can't just like "Transplant this great idea I heard on this podcast from Steve and Bryan, and bam, my company is successful." It's just not like that.
 
 So many people are just not building in the public... And not like literally sharing every possible secret thing ever. There's some things that you do keep, that just should remain private. But most of it, just put it out there, because you'll probably attract the better people you wanna work with anyways.
 
@@ -998,7 +996,9 @@ So many people are just not building in the public... And not like literally sha
 
 **Adam Stacoviak:** Yeah. They're like "Hey, I don't wanna take on all that risk you all did. Everything you all did - that's amazing. I just wanna work with you all, not instead of you all."
 
-**Bryan Cantrill:** A hundred percent. That's right. And I think also, we knew our customers, because we'd been our customers. The customers in this space, for on-prem computing, have been gaslit by their vendors. And their vendors are not just not transparent, they're deliberately opaque. And when you are responsible for running that infrastructure and the system is misbehaving, and you feel that everybody is lying to you or otherwise obfuscating what you know to be the truth, namely the system is not working... Like, we knew that a real differentiator for us would be that transparency. And we've gone to an extreme that I think is terrific in providing this bright light into these things that have not had a light upon them. And that's not just opening up all the software - though we've done all that, too - but it's getting all these engineers to talk about the actual real experience of getting this stuff done and brought up.
+**Steve Tuck:** A hundred percent.
+
+**Bryan Cantrill:** That's right. And I think also, we knew our customers, because we'd been our customers. The customers in this space, for on-prem computing, have been gaslit by their vendors. And their vendors are not just not transparent, they're deliberately opaque. And when you are responsible for running that infrastructure and the system is misbehaving, and you feel that everybody is lying to you or otherwise obfuscating what you know to be the truth, namely the system is not working... Like, we knew that a real differentiator for us would be that transparency. And we've gone to an extreme that I think is terrific in providing this bright light into these things that have not had a light upon them. And that's not just opening up all the software - though we've done all that, too - but it's getting all these engineers to talk about the actual real experience of getting this stuff done and brought up.
 
 \[01:29:54.24\] And actually, I think it just dropped this morning, actually - there's a GOTO Chicago talk that I gave on the rise of social audio. So Jerod, you were saying that kind of the time for podcasting maybe has passed... I think we are in a golden age for social audio. I think social audio is really, really important. I think it captures something different than we get through these other media. Actually, Oxide and Friends was actually born on Twitter Spaces.
 
