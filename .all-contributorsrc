@@ -2501,10 +2501,20 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "roadswitcher",
+      "name": "Bill Blum",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35750915?v=4",
+      "profile": "https://github.com/roadswitcher",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
   "repoHost": "https://github.com",
   "skipCi": true,
-  "commitConvention": "angular"
+  "commitConvention": "angular",
+  "commitType": "docs"
 }
