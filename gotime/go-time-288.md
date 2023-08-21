@@ -30,7 +30,7 @@
 
 **David Chase:** Not especially, and that's one of the reasons I like them. Because I can do a concentrated bit of work that's important, and then it's like, I would just like to leave that there, and let it take care of itself. In the US there was an introduced pest from Europe, that for a while made it very difficult. They've introduced a natural control, a specific wasp, with specific taste in hosts for its larvae, and it's naturalized here, and it has made it be a fine thing to do. You just grow them, and they're fine.
 
-**Mat Ryer:** \[00:08:10.29\] It's amazing.
+**Mat Ryer:** \[08:10\] It's amazing.
 
 **David Chase:** I should stop. I could talk longer.
 
@@ -82,7 +82,7 @@
 
 The interesting difference from slices is -- well, no, actually, that's not true. So your slice has a capacity, but you can just keep on appending to a slice on and on and on. And if you append out past the capacity, if you're appending, it says "Oh, I need to make it bigger", and it allocates a new slice if it's a slice. And in the case of the stack, Go is unlike a lot of programming languages here. It allocates a new stack, copies the old one to the new.
 
-\[00:11:57.10\] A thing that it does, that is particular to Go, is all the locations of all of the pointers that might be on the stack are recorded. And those are all updated when you do the stack copy. And so your program has no idea that this is going on. You just did a function call, and the stack got copied into a new place, and it's bigger, and all of the internal pointers to its own stack got updated in that copy, and it carries on.
+\[11:57\] A thing that it does, that is particular to Go, is all the locations of all of the pointers that might be on the stack are recorded. And those are all updated when you do the stack copy. And so your program has no idea that this is going on. You just did a function call, and the stack got copied into a new place, and it's bigger, and all of the internal pointers to its own stack got updated in that copy, and it carries on.
 
 **Mat Ryer:** Is that an expensive operation?
 
@@ -90,7 +90,7 @@ The interesting difference from slices is -- well, no, actually, that's not true
 
 An alternate implementation that they used earlier, and that has been used in other programming languages from time to time is segmented stacks. And so you don't relocate the old one, you just allocate a new piece of stack to be in. And the problem with these is that you have sort of a hysteresis problem and a crossing problem. If you happen to have that boundary at a place where you're doing a lot of function calls, you always trip over it, because it's not a smooth, easy increment. It's like "Oops, I hit the end. Gotta do an extra thing." Even if you've got that other stack there, it makes that function call more expensive. What I'm saying is even if you've set it aside and say "Yeah, I know I'm going to do this, so I'm going to cache my next segment and reuse it", you trip over that. And it's expensive enough that everyone that's done it that I know of that's done it the segmented way, unless they have a really good reason to keep on doing it in that segmented way - and there are other reasons, but Go doesn't have them - they moved to the contiguous stack and the recopy.
 
-**Break**: \[00:14:14.13\]
+**Break**: \[14:14\]
 
 **Kris Brandow:** When the garbage collector shrinks the stack, does that happen after a goroutine is kind of done being used? Or do you pause the goroutine? At what point does that happen? Because you said we grow stacks when we hit like a function call; that's like a clean space to do it. So is there a similar, analogous clean space where it can shrink the stack?
 
@@ -112,7 +112,7 @@ So I said Go does it like this... And the thing with allocations is that - and D
 
 **David Chase:** It might be. That's a chunk I don't know about.
 
-**Kris Brandow:** \[00:20:17.18\] It does sound like stacks really are just kind of slices that are just in this -- "Oh, they're just in this special place in memory, and we just use them for goroutines, and all." It doesn't sound like they're that special of a thing.
+**Kris Brandow:** \[20:17\] It does sound like stacks really are just kind of slices that are just in this -- "Oh, they're just in this special place in memory, and we just use them for goroutines, and all." It doesn't sound like they're that special of a thing.
 
 **David Chase:** Sort of. The end of the stack has some extra "Hm, now where did we put the G?" Every goroutine has this thing called the G, or the G structure. And I don't actually know if we keep it at the base of the stack or the end of the stack.
 
@@ -162,7 +162,7 @@ So I said Go does it like this... And the thing with allocations is that - and D
 
 **Mat Ryer:** So do you recommend people do dig in and learn about this for that reason? Or could you still be a good enough Go programmer without even knowing, and just let David \[unintelligible 00:23:47.10\]
 
-**Yarden Laifenfeld:** \[00:23:51.10\] I think that kind of varies. I think that if you're just starting out with the language, then diving into its internals or how it works is not the right way to go. But I do think that if you've been writing in Go for a while, or if it's like a big part of what you do, it might make you a better developer, because it might not only help you understand things, and just help you avoid bugs that might just happen because of incorrect use... It might be common, but it might still could be incorrect use.
+**Yarden Laifenfeld:** \[23:51\] I think that kind of varies. I think that if you're just starting out with the language, then diving into its internals or how it works is not the right way to go. But I do think that if you've been writing in Go for a while, or if it's like a big part of what you do, it might make you a better developer, because it might not only help you understand things, and just help you avoid bugs that might just happen because of incorrect use... It might be common, but it might still could be incorrect use.
 
 And then if I'm going on to the more positive side, it can also make your code better, because you know how to improve performance, using little things from the runtime and how the runtime works. And if you know of the different sections of memory, you can control which things are where, and stuff like that. So definitely for more advanced developers I think it's important.
 
@@ -208,7 +208,7 @@ And then if I'm going on to the more positive side, it can also make your code b
 
 **Kris Brandow:** I feel like we're all -- I mean, this is a bit philosophical, but I think we're all intelligent in different ways, and I think that's kind of like what you're getting at, Yarden, with seeing the Go team. From the outside, it's like "Oh man, they all know everything about everything." But no, there's some people that know the compiler very well, and they know the runtime very well, and they know this part of it very well, and they have no idea how the other parts work... And they rely on the rest of the team to kind of fill in that information.
 
-**Yarden Laifenfeld:** \[00:28:12.29\] It's kind of comforting, in a way.
+**Yarden Laifenfeld:** \[28:12\] It's kind of comforting, in a way.
 
 **Mat Ryer:** Yes, it absolutely is. Well, David, when you joined the Go team, how long had you been writing Go before you joined the Go team?
 
@@ -242,7 +242,7 @@ So yeah, I picked up the language pretty quickly... Which was good, because I wa
 
 **Mat Ryer:** Yeah, but to Yarden's point, this highlights something which I think is an important lesson for everybody, which is - you have to get good at knowing how to learn. And that's the important skill. You don't have to know all the things and have everything in your head. You have to be able to learn in a targeted way, based on what it is you're doing, what problems you're solving... Because that's something that a lot of junior devs - like Yarden was saying, they see people giving a talk, and the talk is just packed. And obviously, they've just done a lot of work to research that subject, or they've got direct experience. The best talks usually is someone telling stories of something real that they've done. So they've specialized in that in order to do that, which is actually a great reason to give talks... Because if you really care and you want to learn about something, that's a great way to do it. But you don't have to know all the things and have all that stuff in your head. And I think that is a nice thing for everyone to remember, especially when you're new, because you don't have the experience of doing that so much. And it can look like people are just these geniuses.
 
-**Yarden Laifenfeld:** \[00:32:25.11\] Yeah. I have a lot of experience sort of mentoring, I guess, really, really, really beginners. And the biggest issue I faced with people who this is their first time writing code is having them try the thing they're thinking of... Because they'll sit at the computer, and they'll look at the screen, and I'll come and ask like "What's going on?" and they'll be like "I'm not sure how to do this." And I'll be like "Okay, how do you think?" And they'll tell me the solution, and it may be right, and it may be wrong, but I'm like "Okay, why don't you write it down and try it?" And there's no real answer. It's just like "Oh, I didn't know I could do that." Or "I didn't really get that stuff there." And I think that's the first part to advancing as a developer is just trying things out and learning that way.
+**Yarden Laifenfeld:** \[32:25\] Yeah. I have a lot of experience sort of mentoring, I guess, really, really, really beginners. And the biggest issue I faced with people who this is their first time writing code is having them try the thing they're thinking of... Because they'll sit at the computer, and they'll look at the screen, and I'll come and ask like "What's going on?" and they'll be like "I'm not sure how to do this." And I'll be like "Okay, how do you think?" And they'll tell me the solution, and it may be right, and it may be wrong, but I'm like "Okay, why don't you write it down and try it?" And there's no real answer. It's just like "Oh, I didn't know I could do that." Or "I didn't really get that stuff there." And I think that's the first part to advancing as a developer is just trying things out and learning that way.
 
 **David Chase:** Definitely "Oh, I didn't know. Oh, really? I can do that? Okay..."
 
@@ -266,7 +266,7 @@ So yeah, I picked up the language pretty quickly... Which was good, because I wa
 
 **Mat Ryer:** So Yarden, I want to go back to something you said... Because you talked about how learning about these internals has made you a better programmer. How do we control what goes on the stack and what goes on the heap? Because at no point -- you're not saying like "Oh, add to stack." There's no functions you're calling to do that. So how do we know stuff's gonna go on the stack or on the heap? How do we actually control that?
 
-**Yarden Laifenfeld:** \[00:36:20.11\] That's a good question. I am going to say that Go has some magic voodoo that I'm not entirely sure about; I can tell you what like for sure goes on the stack, which is like when you create a local variable, for instance, it's going to be on a stack. Or when you pass an argument to a function it's probably going to be on the stack. David did mention earlier that it might be in the register, but I think when we think about it overall, it's just not going to be on the heap. So that's what we should be thinking about.
+**Yarden Laifenfeld:** \[36:20\] That's a good question. I am going to say that Go has some magic voodoo that I'm not entirely sure about; I can tell you what like for sure goes on the stack, which is like when you create a local variable, for instance, it's going to be on a stack. Or when you pass an argument to a function it's probably going to be on the stack. David did mention earlier that it might be in the register, but I think when we think about it overall, it's just not going to be on the heap. So that's what we should be thinking about.
 
 And then the place where this kind of gets complicated is what's not on the stack, which is things that are on the heap. And those are things that are usually allocated, and we don't know how much memory they're going to take ahead of time. So if we think of a regular variable, like an integer, or a float, or anything like that, we're going to know ahead of time exactly how much memory it's going to take, and so that's going to be on the stack. But if we create a map, or a slice, or an array with an unknown number of slots, I guess, or items, that would probably end up on the heap. And I did say there's some magic going on... It depends exactly how you did it, but overall, that's the idea.
 
@@ -282,7 +282,7 @@ And so we kind of like to think of the pointer to the end of the stack moving to
 
 **Yarden Laifenfeld:** Yeah, exactly. It's like doing the minimum you can to achieve what you want.
 
-**David Chase:** \[00:40:09.20\] People don't want it. It would be slower, and people don't like slower. There have been people in the world of crypto who have asked for things like that - if I ever wrote an important thing anywhere in memory, how quickly could I get that zeroed after I'm done with it? So they kind of asked about that. And it's been proposed. We don't know what's the best way.
+**David Chase:** \[40:09\] People don't want it. It would be slower, and people don't like slower. There have been people in the world of crypto who have asked for things like that - if I ever wrote an important thing anywhere in memory, how quickly could I get that zeroed after I'm done with it? So they kind of asked about that. And it's been proposed. We don't know what's the best way.
 
 **Mat Ryer:** Is there no way for them to just programmatically change it to a different value?
 
@@ -326,7 +326,7 @@ And so we kind of like to think of the pointer to the end of the stack moving to
 
 **Yarden Laifenfeld:** So you should almost always put things on the stack, which means -- like, okay, I know from my experience, I said that I wrote C for a while before I started with Go... And in C a really big thing is to pass pointers around. And the reason is not to copy big structures from one place to another one that's not necessary to copy them. I guess it's a thing of the past, when we didn't just have like really small hard drives that have a lot of space in them, where we wanted to save on memory, which isn't really such a big deal now; but that's how I was taught. And so I kind of took this practice with me to Go. But it's really wrong, because anywhere you can copy a struct, which means you just pass it around as it is, without taking its pointer, you should do that. Because then, as I said, it can be cleaned, and you're not giving any extra work to the garbage collector, which has to say "Oh, there's a pointer here", and then also just remember there's a pointer here, and then also go back and see where's that pointing to, does that have any additional pointers... Okay...
 
-\[00:44:35.18\] So you should not be using pointers to save on memory. That's a big thing I learned. But you should be using pointers in case you want to share a reference to something. So sticking to that will probably get you a performance boost, if you haven't been doing that so far.
+\[44:35\] So you should not be using pointers to save on memory. That's a big thing I learned. But you should be using pointers in case you want to share a reference to something. So sticking to that will probably get you a performance boost, if you haven't been doing that so far.
 
 **Mat Ryer:** Yeah, so that's really counterintuitive, and I see people even that are new to Go, when they learn about a pointer, and passing something and it gets copied... And instinctively I think, even without that experience with C, instinctively you think "Well, I'll just pass pointers all the time." I see like slices to pointers of types, and things like this... Because it's like "Oh, of course, I'm just pointing to it. That's much easier." So that's really interesting.
 
@@ -346,7 +346,7 @@ And so we kind of like to think of the pointer to the end of the stack moving to
 
 You were asking about pointers, or mentioning the use of pointers and not... And there's a thing that Go does, that Java does a little bit, other programming languages tend not to do it as much... They do this thing called escape analysis. So there were reasons sometimes to make a pointer to something. Sometimes you need to call a function somebody else wrote, and it says, "I'm sorry, I take a pointer." Or maybe I wish to share that thing, I wish to do some changes to it, and then you need to see them. And then rather than taking a whole structure and passing it back, I decided, for whatever reason, to operate on a pointer. Go has this property on its package imports that there aren't any cycles. And what that means is that if you look at the runtime package first, it doesn't depend upon anything else. So you can compile it, and you can be done. And you can know things about the functions in the runtime package. And then you go up a little more, and you have another layer of packages that depend upon runtime and nothing else...
 
-\[00:48:10.08\] And so for each function, you can say "Well, I passed a pointer to it", but when that function was done, it did not save a copy of that point or anywhere else. It didn't store it into the heap, or anywhere else. So it's done. And you could leave the thing that it pointed to on the stack; that would be okay. What they call this is escaping. So the pointer did not escape; it didn't get stored into the heap, or communicated to another thread... And they have this phase called escape analysis. And for functions and methods, they do escape summaries, so that you can call a function, and in kind of a crude way know that it did or didn't reveal it to the rest of the world; it didn't store it in the heap. And so this is a way that you can keep a little bit more stuff on the stack than you would ordinarily.
+\[48:10\] And so for each function, you can say "Well, I passed a pointer to it", but when that function was done, it did not save a copy of that point or anywhere else. It didn't store it into the heap, or anywhere else. So it's done. And you could leave the thing that it pointed to on the stack; that would be okay. What they call this is escaping. So the pointer did not escape; it didn't get stored into the heap, or communicated to another thread... And they have this phase called escape analysis. And for functions and methods, they do escape summaries, so that you can call a function, and in kind of a crude way know that it did or didn't reveal it to the rest of the world; it didn't store it in the heap. And so this is a way that you can keep a little bit more stuff on the stack than you would ordinarily.
 
 **Mat Ryer:** And does that happen at compile time, or is that a runtime thing?
 
@@ -358,7 +358,7 @@ The Go garbage collector is not -- when you compare it to others, like the Java 
 
 **Kris Brandow:** Yeah, I've definitely done some things in code in the past to make sure that what I'm writing doesn't escape to the heap. Just be like "No, I'm gonna write this in a specific way to make sure that the escape analysis makes it "Okay, this will definitely go on the stack."
 
-\[00:52:08.03\] And one of the things that I wanted to -- I think we talked about it maybe in our tooling episode, or the episode on tools we love... It's like a way to run analysis in the same way you can do code coverage, that will then in your editor turn things like green or red; like, I would like it to turn all my variables, like, I don't know, blue, or some color, to be like "These will all escape to the heap, and these will all be on the stack."
+\[52:08\] And one of the things that I wanted to -- I think we talked about it maybe in our tooling episode, or the episode on tools we love... It's like a way to run analysis in the same way you can do code coverage, that will then in your editor turn things like green or red; like, I would like it to turn all my variables, like, I don't know, blue, or some color, to be like "These will all escape to the heap, and these will all be on the stack."
 
 So I think that would be also really helpful as a way to visualize for things that the compiler, or analysis tools are very sure will not escape, or pretty sure will escape. That would be, I think, a really helpful thing in this area as well, because I think we kind of lack tooling, and it's a lot of intuition and then analyzing your code after the fact, to see "Did that actually wind up on the heap? I don't know..." So if there's a way to see it more tangibly, I think that'd be super-useful.
 
@@ -374,7 +374,7 @@ So I think that would be also really helpful as a way to visualize for things th
 
 **Kris Brandow:** I think that would be actually -- that's the thing I was gonna say too, is it'd be nice if this was integrated into Gopls, or language servers in general, so you could kind of surface that information? So I think I would definitely use it in the way that I also use coverage testing. It'd be like "I care that this function in particular, or this file, or this package is very optimized, so I'm gonna go look at all nice coverage stuff." I think it'd be nice to be able to do that for like those specific places. But I think you're right, too; you don't want people just kind of looking at some random function that gets called once, and being like "Let me make sure it doesn't put anything on the heap." It's okay. A bit like reflection, where people are like -- you know, I've built a lot of those startup utilities that do like flag analysis, and all the fat. People are like "You're using reflection in here." I'm like "It gets called once when your process is starting. It is fine. Don't worry, it's okay if it's slow. We don't need to hyper-optimize this."
 
-**Mat Ryer:** \[00:56:25.03\] Well, that raises a really good point, which - we do mention this a lot, which is "Measure first, and optimize after." But this raises a good question... Since the Go team are busy beavering away under the hood, changing things and adding optimizations and doing a lot of great work there, is it possible that we optimize our code and then a new version of Go comes out which makes some changes that then makes our code less performant, or makes some of our optimizations unnecessary? Is that possible to happen? Should we keep remeasuring and reassessing?
+**Mat Ryer:** \[56:25\] Well, that raises a really good point, which - we do mention this a lot, which is "Measure first, and optimize after." But this raises a good question... Since the Go team are busy beavering away under the hood, changing things and adding optimizations and doing a lot of great work there, is it possible that we optimize our code and then a new version of Go comes out which makes some changes that then makes our code less performant, or makes some of our optimizations unnecessary? Is that possible to happen? Should we keep remeasuring and reassessing?
 
 **David Chase:** I mean, I would never say never...
 
