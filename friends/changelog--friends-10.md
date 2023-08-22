@@ -48,7 +48,7 @@
 
 **Gerhard Lazu:** Solomon?
 
-**Jerod Santo:** It wasn't Solomon, no. But maybe it was, and he didn't tell me about it... It's just like, you get 35 of this Thank You email, versus one. But \[unintelligible 00:05:33.09\] just gets one. Very strange.
+**Jerod Santo:** It wasn't Solomon, no. But maybe it was, and he didn't tell me about it... It's just like, you get 35 of this Thank You email, versus one. But everybody else just gets one. Very strange.
 
 **Gerhard Lazu:** We like you a lot. You don't have enough Changelog in your inbox.
 
@@ -64,9 +64,9 @@
 
 **Gerhard Lazu:** Real developers develop in production, let's just be honest about it...
 
-**Jerod Santo:** You've got to do what you've got to do, man. I've gotta see what's going on her, so...
+**Jerod Santo:** You've got to do what you've got to do, man. I've gotta see what's going on here, so...
 
-**Gerhard Lazu:** \[unintelligible 00:06:23.16\]
+**Gerhard Lazu:** You gotta \[unintelligible 00:06:23.16\] that.
 
 **Adam Stacoviak:** That's where the action's at, you know?
 
@@ -330,7 +330,7 @@ I do have what I think is the best case fix for this, which I learned from Lars 
 
 **Jerod Santo:** Well, we have to blow it away... Maybe it's just a race condition at that point.
 
-**Gerhard Lazu:** Why can't you just re-upload it? \[unintelligible 00:32:47.08\]
+**Gerhard Lazu:** Why can't you just re-upload it? You're doing a \[unintelligible 00:32:47.08\]
 
 **Jerod Santo:** Well, that's true. Is that atomic? I guess that's at that point atomic.
 
@@ -608,7 +608,7 @@ So now if you look in our CI - and there is a screenshot in one of these pull re
 
 **Jerod Santo:** Hey, you know, we've had the work from home movement. Everybody's taken their work from home, and it's like "Well, why not bring your work to your house, take your CI home with you?"
 
-**Gerhard Lazu:** Exactly. \[unintelligible 00:52:18.29\]
+**Gerhard Lazu:** Exactly. \[unintelligible 00:52:18.29\] the CI
 
 **Jerod Santo:** Okay, so this is a production Kubernetes thing of yours that this is running on. This is like -- that's a third fallback, or...?
 
@@ -628,7 +628,7 @@ Now, in the case of Fly and Docker, that's fairly straightforward. It basically 
 
 **Jerod Santo:** ...and now we have three, just in case.
 
-**Adam Stacoviak:** Well, I didn't even consider that we would keep S3 for a backup, or consider B2 as a lower-cost backup... Because I thought, "Well, we'll just cut our ties, keep our dollars, and move to R2." And that's done. But that does make sense. Because what if R2 \[unintelligible 00:54:29.22\] We're going to have some issues. We've got almost a terabyte of assets we've been collecting over these years; our JavaScript, our feeds, whatever we're going to put there, ever... If we have no business continuity, which is a phrase I learned 20 years ago now - business Continuity... That's key in backups. right? You can't just put the backup over there. You've got to get it back to keep doing business. So that does make sense. And I didn't consider that, and I'm glad you did.
+**Adam Stacoviak:** Well, I didn't even consider that we would keep S3 for a backup, or consider B2 as a lower-cost backup... Because I thought, "Well, we'll just cut our ties, keep our dollars, and move to R2." And that's done. But that does make sense. Because what if R2 poops the bed? We're going to have some issues. We've got almost a terabyte of assets we've been collecting over these years; our JavaScript, our feeds, whatever we're going to put there, ever... If we have no business continuity, which is a phrase I learned 20 years ago now - business Continuity... That's key in backups. right? You can't just put the backup over there. You've got to get it back to keep doing business. So that does make sense. And I didn't consider that, and I'm glad you did.
 
 **Gerhard Lazu:** Yeah. And the costs will go down, because again, we are using R2, which is free for egress. S3 isn't, so we're not pulling anything from S3. I mean, if anything, we can move the bits over to B2, so that the storage costs will be lower... But again, there'll be one-off operations... And by the way, when you write, actually, the operations, you pay for them... But anyways, the point is it will be -- well, it will cost us something from S3 to migrate off S3, but it's like a one-off cost.
 
@@ -744,7 +744,7 @@ Now, in the case of Fly and Docker, that's fairly straightforward. It basically 
 
 **Gerhard Lazu:** No SSH.
 
-**Jerod Santo:** Oh, yeah. No SSH. Don't tell anybody \[unintelligible 00:59:05.01\]
+**Jerod Santo:** Oh, yeah. No SSH. Don't tell anybody that they can SSH to it.
 
 **Gerhard Lazu:** Okay. No FTP. Nothing.
 
@@ -752,7 +752,7 @@ Now, in the case of Fly and Docker, that's fairly straightforward. It basically 
 
 **Gerhard Lazu:** Right. Completely firewalled.
 
-**Jerod Santo:** It's actually air-gapped. Yeah, I don't even know how it does what it does, because you have to walk over to \[unintelligible 00:59:16.26\]
+**Jerod Santo:** It's actually air-gapped. Yeah, I don't even know how it does what it does, because you have to walk over to it and put the thumb drive into it.
 
 **Adam Stacoviak:** For every request you need to have somebody go plug it in.
 
@@ -774,7 +774,7 @@ Now, in the case of Fly and Docker, that's fairly straightforward. It basically 
 
 **Jerod Santo:** No, I don't want you to look at it.
 
-**Gerhard Lazu:** Gerhard is not allowed anywhere near this thing. \[laughter\] \[unintelligible 01:00:28.23\]
+**Gerhard Lazu:** Gerhard is not allowed anywhere near this thing. \[laughter\] It just flips over!
 
 **Jerod Santo:** This is legacy code. This is legacy code. I've thought about rewriting it in Elixir, and just like bringing it in and having like a monorepo deal. And then I'm like "Why would I put any time into this? There's so many things I can work on."
 
@@ -830,7 +830,7 @@ Now, in the case of Fly and Docker, that's fairly straightforward. It basically 
 
 **Jerod Santo:** Yeah.
 
-**Adam Stacoviak:** In that case, if it is, don't go there. I've just identified a bot \[unintelligible 01:03:54.07\]
+**Adam Stacoviak:** In that case, if it is, don't go there. I've just identified a bot to not check out.
 
 **Jerod Santo:** Here's how far I've gotten, but I haven't pulled the trigger yet, on trying to actually have a malware/spam detection system for Nightly that's actually good... Is I take a list of a bunch of good repos. Here's what we have: owner, which is like GitHub handle, repo, which is the name of the repo, and then like the description. That's what we have. And I took 20 good ones; these are legit, but they're diverse... Because you can put emoji in there, some people write in different languages etc. And I pass it off to ChatGPT, and I say "Here's an example of 20 good projects on GitHub." And then I pass it some bad ones and I say "Is this one good or bad?" and it's about 60% accurate.
 
@@ -1022,7 +1022,7 @@ So yes, we're doing it for us, of course, but also, a lot of effort goes in to s
 
 **Jerod Santo:** That's like coming into our house and being like "Oh, I threw away your kitchen table. I hope you didn't need that."
 
-**Adam Stacoviak:** "I gave it to you neighbor."
+**Adam Stacoviak:** "I gave it to your neighbor."
 
 **Jerod Santo:** "I got rid of that."
 
