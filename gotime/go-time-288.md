@@ -78,7 +78,7 @@
 
 **Mat Ryer:** Nice. Good answer. Okay, cool. So maybe we could just get started... I'd love to start at the basics. What is the stack? What actually is that, and what does it do?
 
-**David Chase:** In Go terms it's like a slice, but internally. It's used very much that way. It has a capacity, it allocates from high \[unintelligible 00:10:20.28\] to lower, rather than low to high, which is what you would do in a slice. And whenever you make a call to a function or a method, it extends the slice towards lower addresses by a constant amount. Each function has its own constant; that's the size of its stack frame. And it uses that for scratch storage. And so your local variables, and the temporaries that might need to be spilled to memory - that's the memory that would spill to, that's the memory for the local variables... And depending upon your calling convention on your architecture, you may pass parameters to functions and methods that you call also in stack space since Go 1.17. On some architectures we use registers... But we still reserve stack space for spilling them for certain purposes.
+**David Chase:** In Go terms it's like a slice, but internally. It's used very much that way. It has a capacity, it allocates from high addresses to lower, rather than low to high, which is what you would do in a slice. And whenever you make a call to a function or a method, it extends the slice towards lower addresses by a constant amount. Each function has its own constant; that's the size of its stack frame. And it uses that for scratch storage. And so your local variables, and the temporaries that might need to be spilled to memory - that's the memory that would spill to, that's the memory for the local variables... And depending upon your calling convention on your architecture, you may pass parameters to functions and methods that you call also in stack space since Go 1.17. On some architectures we use registers... But we still reserve stack space for spilling them for certain purposes.
 
 The interesting difference from slices is -- well, no, actually, that's not true. So your slice has a capacity, but you can just keep on appending to a slice on and on and on. And if you append out past the capacity, if you're appending, it says "Oh, I need to make it bigger", and it allocates a new slice if it's a slice. And in the case of the stack, Go is unlike a lot of programming languages here. It allocates a new stack, copies the old one to the new.
 
@@ -160,7 +160,7 @@ So I said Go does it like this... And the thing with allocations is that - and D
 
 **Yarden Laifenfeld:** I do. It's so interesting, just because it is really complex, and things that are done there are amazing. And because I'm also writing Go code, I'm understanding what's happening in my code because I'm reading the code that runs my code, or that compiles my code. There's just so many layers to understanding it that makes me a better developer, and also interesting, I guess.
 
-**Mat Ryer:** So do you recommend people do dig in and learn about this for that reason? Or could you still be a good enough Go programmer without even knowing, and just let David \[unintelligible 00:23:47.10\]
+**Mat Ryer:** So do you recommend people do dig in and learn about this for that reason? Or could you still be a good enough Go programmer without even knowing, and just let David and that lot worry about this and you.
 
 **Yarden Laifenfeld:** \[23:51\] I think that kind of varies. I think that if you're just starting out with the language, then diving into its internals or how it works is not the right way to go. But I do think that if you've been writing in Go for a while, or if it's like a big part of what you do, it might make you a better developer, because it might not only help you understand things, and just help you avoid bugs that might just happen because of incorrect use... It might be common, but it might still could be incorrect use.
 
@@ -248,7 +248,7 @@ So yeah, I picked up the language pretty quickly... Which was good, because I wa
 
 **David Chase:** Same goes for even Go internal code. \[laughs\]
 
-**David Chase:** Yeah, there are pieces of it that are a little creepy... The concurrency stuff is just -- or the weirdly-tuned things, like "I need to synchronize with that thread over there... And I think I'll spin for just a little bit." And someone figured out, "Yeah, yeah, that was a good thing to do." And then sometimes the spinning becomes inappropriate, if there's some weird architectural change \[unintelligible 00:33:49.07\] is your processor? What if the thing that you're spinning on never makes it into your cache for some crazy reason? And then you have a horrible problem.
+**David Chase:** Yeah, there are pieces of it that are a little creepy... The concurrency stuff is just -- or the weirdly-tuned things, like "I need to synchronize with that thread over there... And I think I'll spin for just a little bit." And someone figured out, "Yeah, yeah, that was a good thing to do." And then sometimes the spinning becomes inappropriate, if there's some weird architectural change, how \[unintelligible 00:33:49.07\] is your processor? What if the thing that you're spinning on never makes it into your cache for some crazy reason? And then you have a horrible problem.
 
 **Kris Brandow:** I feel like Go is pretty good at allowing you to still get access to all that kind of scary stuff, but also not throwing it at you to start off with. I think your point about slices, David - I think one of the reasons why people don't mess slices up is because they never learn about arrays until you're kind of like much further into the language. It's not like a thing that comes up that often when you're first learning a language, is like "Here's a slice. This is what you would have in another language. That is an array. Use it just like that." Whereas I think if you kind of dove in and we were like "Okay, well, there's these slices things, and these array things. And they're similar, but different. And one can grow, and the other can't." I think that would probably lead to slices being much more confusing. But just having you be like "Here's a thing. It's a list of data items. Go use it like that." I think people are like "Okay, I'll use it..."
 
@@ -316,7 +316,7 @@ And so we kind of like to think of the pointer to the end of the stack moving to
 
 **Kris Brandow:** The original IoT device, and the most terrible of any that we've invented.
 
-**Mat Ryer:** Yeah. \[unintelligible 00:42:44.14\] I don't want to say that too loudly in case mine hears me, and then I'll have problems next time...
+**Mat Ryer:** Yeah. I hate printers. I don't want to say that too loudly in case mine hears me, and then I'll have problems next time...
 
 **David Chase:** Yeah.
 
@@ -362,7 +362,7 @@ The Go garbage collector is not -- when you compare it to others, like the Java 
 
 So I think that would be also really helpful as a way to visualize for things that the compiler, or analysis tools are very sure will not escape, or pretty sure will escape. That would be, I think, a really helpful thing in this area as well, because I think we kind of lack tooling, and it's a lot of intuition and then analyzing your code after the fact, to see "Did that actually wind up on the heap? I don't know..." So if there's a way to see it more tangibly, I think that'd be super-useful.
 
-**David Chase:** So there are two answers... At least two answers to that. And one of them is we've had these discussions with Go users in other companies; some of them were very focused on performance. And also with people working on the IDE. And so there's a flag you can pass to the compiler; it's kind of a little screwy. It's not one that a human would be happy to do. But it's intended for an automated workflow. You could say, "Here's this flag, -json=0,adirectoryname. And it will, for all the packages compiled, drop JSON in there, in an encoded - I think it's a URL-encoded name of the package. And it will talk about anything that the -- basically, the compiler logs, all of its failures there. "Mea culpa, mea culpa. Sorry, couldn't get debounced checkouts. Sorry, had to heap-allocate this. Sorry..." And it's in LSP format, the stuff that VS Code uses. And it was a little screwy to encode compiler messages. This is like the information you'd get from \[unintelligible 00:54:07.26\]0:54:08.18\] but in JSON, LSP. Format JSON. And so you could, in principle, pull this into an IDE, but one problem with this is that -- I mean, stuff goes wrong all the time, and the compiler is failing you constantly. "Debounced checks are still in here. Sorry, the null check is still here. Sorry..." But most of the time it doesn't matter, because most of your time is spent in just a few places... And so you need to combine that, I think, with something like profiling, so that you focus your attention on where the problem is, and not all the other places. Because otherwise you'll just say "Oh, look at this. The compiler's so terrible. Look at look at all it didn't do for me." And we're sort of working on that. There's PGO coming... Where are we at now? I think it's experimental; we're doing more soon.
+**David Chase:** So there are two answers... At least two answers to that. And one of them is we've had these discussions with Go users in other companies; some of them were very focused on performance. And also with people working on the IDE. And so there's a flag you can pass to the compiler; it's kind of a little screwy. It's not one that a human would be happy to do. But it's intended for an automated workflow. You could say, "Here's this flag, -json=0,adirectoryname. And it will, for all the packages compiled, drop JSON in there, in an encoded - I think it's a URL-encoded name of the package. And it will talk about anything that the -- basically, the compiler logs, all of its failures there. "Mea culpa, mea culpa. Sorry, couldn't get debounced checkouts. Sorry, had to heap-allocate this. Sorry..." And it's in LSP format, the stuff that VS Code uses. And it was a little screwy to encode compiler messages. This is like the information you'd get from -m=1 or m=2 but in JSON, LSP. Format JSON. And so you could, in principle, pull this into an IDE, but one problem with this is that -- I mean, stuff goes wrong all the time, and the compiler is failing you constantly. "Debounced checks are still in here. Sorry, the null check is still here. Sorry..." But most of the time it doesn't matter, because most of your time is spent in just a few places... And so you need to combine that, I think, with something like profiling, so that you focus your attention on where the problem is, and not all the other places. Because otherwise you'll just say "Oh, look at this. The compiler's so terrible. Look at look at all it didn't do for me." And we're sort of working on that. There's PGO coming... Where are we at now? I think it's experimental; we're doing more soon.
 
 **Mat Ryer:** So that's why you mentioned that it's not really for a human, because it's too noisy...
 
@@ -436,7 +436,7 @@ So all that to say that if we add any new big features, we're just getting away 
 
 **Mat Ryer:** Yeah.
 
-**Yarden Laifenfeld:** \[unintelligible 01:03:02.15\] by statistics.
+**Yarden Laifenfeld:** Isn't backed by statistics.
 
 **Mat Ryer:** You're talking David out of a job. But let me just ask you this... What about generics? How did you feel about that?
 
@@ -452,7 +452,7 @@ So all that to say that if we add any new big features, we're just getting away 
 
 **Mat Ryer:** Cool. Okay. David?
 
-**David Chase:** I have several. I don't think there is \[unintelligible 01:04:40.17\] no new features, but...
+**David Chase:** I have several. I don't think there as good as 'no new features', but...
 
 **Mat Ryer:** That's unpopular.
 
