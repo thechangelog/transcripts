@@ -58,7 +58,7 @@
 
 **Jerod Santo:** So that was a big change, and also a bit of a headache... But it did prompt me to finally do what I had said I was gonna do last year, which was we signed up for Oban Web, which is supporting the Oban Pro cause. And we don't have that quite in place... Because I want more visibility in our background jobs, basically. The way I'm getting visibility right now is I proxy the Postgres server so I can access it, and I literally am looking at the table of Oban jobs, and doing things...
 
-**Gerhard Lazu:** \[00:06:11.07\] Like a boss, straight in prod. Of course. \[laughter\]
+**Gerhard Lazu:** \[06:11\] Like a boss, straight in prod. Of course. \[laughter\]
 
 **Jerod Santo:** As you do when you're the boss.
 
@@ -112,7 +112,7 @@ But yeah, I would love to have Oban Web for the next Kaizen, because it will hel
 
 **Jerod Santo:** Right.
 
-**Adam Stacoviak:** \[00:09:56.26\] Can we do a quick TL;DR/TL;DL of why it's finally happening? It's caching, basically, right? That's the reason why we haven't been able to replicate the application, was because of caching issues...
+**Adam Stacoviak:** \[09:56\] Can we do a quick TL;DR/TL;DL of why it's finally happening? It's caching, basically, right? That's the reason why we haven't been able to replicate the application, was because of caching issues...
 
 **Jerod Santo:** Yes, but no.
 
@@ -136,13 +136,13 @@ So in our case, we didn't have to do that. Everything continued working, which w
 
 **Gerhard Lazu:** It doesn't happen that often, so on and so forth... But actually, the bigger the provider is, the more often it happens. So in our case, I think we would have been fine, but I wanted to make sure that we're running on two hosts, just to prevent the app going down, and then me having to basically jump into action and fix it. So that was, I think, pull request 457, and you can check it out on GitHub. So I was ensuring that the app deploys, they work on Fly.io Machines; I did a few small changes, a few small improvements. The Fly CTL, the CLI was updated, a couple of things like that... And then everything worked as it should have. The warning which you get in the Fly dashboard if you run a single instance, they say "We strongly recommend that you run more than one", and they explain in their documentation why. So it's basically a strong recommendation, and we did it.
 
-**Adam Stacoviak:** \[00:14:12.22\] I see.
+**Adam Stacoviak:** \[14:12\] I see.
 
 **Jerod Santo:** Okay, so we did... But I will now confess that we were not ready to do it. I didn't know we were doing it yet. And I did not fix the caching problem, which we did experience. So a few people mentioned, "Hey, this Go Time episode appears in my podcast app and then it disappears. And then it appears again." I call that flapping; I'm not sure exactly what it is. But basically, depending on which version of the app you're hitting, the cache may or may not be up to date. So the reason for this is because the way the code works is after you publish, or edit, or whatever, we go and clear the cache, which is just right there in memory, in the application server. And we do not clear the cache across all of our application servers, because we aren't good enough to write that code yet.
 
 I do have what I think is the best case fix for this, which I learned from Lars Wikman, but I'm not going to exactly use exactly what he built. I think we just should use the Phoenix Pub/Sub implementation. But in the meantime, I was like "Well, this isn't cool, so I'm just going to reduce our cache times." These are response caches. So you hit Changelog.com/podcast/feed. We deliver you an XML file of like multiple megabytes, right? We cache that right there inside the application, because it's not going to change. And we will cache it for infinity, until we have an update. Well, I just changed that to two minutes. And I was like "Well, we'll just cache it for two minutes", and every two minutes we'll go ahead and just regenerate, and we'll watch Honeycomb, and see if that puts ridiculous amounts of strain, and slows down our response times etc, etc, etc. This is behind Fastly, by the way; it's just that Fastly has a lot of points of presence, and every single one of them is going to ask for that file... And so there's still a lot of requests. That was just kind of good enough. It's working, things are fast enough, they're good enough; doggone it, people like us. So -- that's an old Stuart Smalley line, for those who missed it...
 
-\[00:16:11.08\]
+\[16:11\]
 
 *Because I'm good enough, I'm smart enough, and doggone it, people like me.*
 
@@ -158,7 +158,7 @@ I do have what I think is the best case fix for this, which I learned from Lars 
 
 **Gerhard Lazu:** Exactly, and that I'm not missing anything important. So I will try to do this as good as I can...
 
-**Jerod Santo:** \[00:18:04.02\] We're looking at Gerhard's screen.
+**Jerod Santo:** \[18:04\] We're looking at Gerhard's screen.
 
 **Gerhard Lazu:** Yes, thank you.
 
@@ -220,7 +220,7 @@ I do have what I think is the best case fix for this, which I learned from Lars 
 
 **Jerod Santo:** And we used to do that. We used to limit it, because I think we have over 1,100 episodes in there, and there's everything, pretty much. Not the transcripts, thankfully. That would really balloon it up. But chapters, etc, etc. There's lots in there. Show notes, links, descriptions... All the stuff, for every episode we've ever shipped. The only way to make that smaller is you just limited it to N episodes, where N is some sort of number like 500, or 100. We used to do that. I would happily continue doing that if the podcast indexes would just keep our history. But they won't. They'll purge it. And then you'll go to our Master feed and you'll see 100 episodes. And you'd be like "Cool, they have 100 episodes." Like, no, we've put out 1,100+ episodes. We want people to know that, we want people to be able to listen to them...
 
-\[00:22:31.26\] We used to have complaints, "Hey, why don't you put the full feed in there?" There is a feature called paginated feeds. It's a non-standard RSS thing that we used to do, and we paginated that, and it was a much smaller thing, and it was great... Except Apple Podcasts didn't support, Spotify didn't support it, blah, blah, blah. It's that old story. So I was like "Screw it, I'm just gonna put everything back in there, and it's just gonna be expensive and slow", and that's what it is. What do you guys think about that? Is that a good trade-off, just leave it? Because it's an 11-megabyte file. I don't know... What do you do?
+\[22:31\] We used to have complaints, "Hey, why don't you put the full feed in there?" There is a feature called paginated feeds. It's a non-standard RSS thing that we used to do, and we paginated that, and it was a much smaller thing, and it was great... Except Apple Podcasts didn't support, Spotify didn't support it, blah, blah, blah. It's that old story. So I was like "Screw it, I'm just gonna put everything back in there, and it's just gonna be expensive and slow", and that's what it is. What do you guys think about that? Is that a good trade-off, just leave it? Because it's an 11-megabyte file. I don't know... What do you do?
 
 **Gerhard Lazu:** Well, I think that serving the full file is important for the service to behave the same. So I wouldn't change that. If you change the file, it will appear differently in these players... So I don't think we should change that.
 
@@ -252,7 +252,7 @@ I do have what I think is the best case fix for this, which I learned from Lars 
 
 **Gerhard Lazu:** Well, I think August second... That's when I commented -- this was merged last week... We upgraded PostgreSQL.
 
-**Jerod Santo:** \[00:26:03.17\] We upgraded Postgres on August second?
+**Jerod Santo:** \[26:03\] We upgraded Postgres on August second?
 
 **Gerhard Lazu:** Yup. Went from Postgres 14 to Postgres 15.
 
@@ -296,7 +296,7 @@ I do have what I think is the best case fix for this, which I learned from Lars 
 
 **Jerod Santo:** Exactly. And right now, when we update it, we clear the cache. But it only clears it on the app server that's running the instance of the admin that you hit. The other app servers that aren't running that request don't know that there's a new thing. Well, with Phoenix Pub/Sub and clustering, you can just Pub/Sub it; you don't even have to use Postgres as a backend, which is what Lars Wikman's solution does... And you can just say, "Hey, everybody, clear your caches", and they'll just clear it that one time. And then we never have to compute it until we're actually publishing or editing something. So that's darn near as good as a pre-compute. Because I know there's a lot of people out there thinking, "Why don't you just pre-compute these things? This is why static site generators exist", etc. Because that is just a static XML file, effectively, until we change something.
 
-\[00:30:07.29\] That's a different infrastructure, that's a different architecture that we don't currently have... And so it's kind of like Easy button versus Hard button. I've definitely considered it, but if we can just cache forever, and have all of our nodes just know when to clear their caches, then everything just works hunky dory. For now, we'll just go ahead and take the performance hit, recalculate every two minutes... That seems to be not the worst trade-off in the world looking at these stats... But that would be a way of improving these times.
+\[30:07\] That's a different infrastructure, that's a different architecture that we don't currently have... And so it's kind of like Easy button versus Hard button. I've definitely considered it, but if we can just cache forever, and have all of our nodes just know when to clear their caches, then everything just works hunky dory. For now, we'll just go ahead and take the performance hit, recalculate every two minutes... That seems to be not the worst trade-off in the world looking at these stats... But that would be a way of improving these times.
 
 **Gerhard Lazu:** But now that you mentioned that, when we used to cache, when we used to have a single app instance, I didn't see much better times. The feed was being served in more or less like the same time, right? This is the Go Time feed when he had misses, so let's go with 60 days. In a 60-day window, it was just under two seconds, and it hasn't changed much, even when it was cached.
 
@@ -362,7 +362,7 @@ I do have what I think is the best case fix for this, which I learned from Lars 
 
 **Jerod Santo:** Right. And the Fastly folks are probably thinking "You're using Cloudflare. No! That's the dark side!"
 
-**Gerhard Lazu:** \[00:34:02.15\] Yeah. Well, we're using both. \[laughs\] So we have two CDNs.
+**Gerhard Lazu:** \[34:02\] Yeah. Well, we're using both. \[laughs\] So we have two CDNs.
 
 **Adam Stacoviak:** But we're using them differently though, aren't we? Aren't we using them differently? Like, we're using R2 simply as object storage, not CDN necessarily.
 
@@ -418,7 +418,7 @@ I do have what I think is the best case fix for this, which I learned from Lars 
 
 **Jerod Santo:** So I knew that it'd be a bigger lift to migrate our entire application, which is the bulk of it because of all of our mp3... Which Fastly of course is serving them, but we are putting this as the origin for Fastly, and so it's requesting them from S3 for us... And that was the major cost, was like outbound traffic; the major cost on S3. And so we knew with R2 we'd had zero on that... This took two months-ish from then; like, when we actually landed this. It was almost two months from us realizing that we should do this. However, Changelog.social, which is a Mastodon app server, was also on S3. And I immediately switched that one over to R2, just to try out R2. And it was super-fast and easy to do that. And I think we went from 150 down to 120... It started to drop precipitously after that, and I think it's because of the way the Fediverse works. When we upload an image to Mastodon, as I do with my stupid memes and stuff, and we put it out on our Mastodon server - well, that image goes directly from S3... Oh, I put Fastly in front of it too, I thought. I might have. But somehow, that image is getting propagated around, because all the Mastodon instances that have people that follow us have to download that image for them to be able to see it.
 
-\[00:38:26.05\] And so this architecture of the Fediverse, where it's all these federated servers - they're all having to download all those assets. And so I think maybe that was a big contributor to that cost, was just changlog.social. And once I switch that, it started to come down. And now it's gonna go to pretty much zero because of this change.
+\[38:26\] And so this architecture of the Fediverse, where it's all these federated servers - they're all having to download all those assets. And so I think maybe that was a big contributor to that cost, was just changlog.social. And once I switch that, it started to come down. And now it's gonna go to pretty much zero because of this change.
 
 **Gerhard Lazu:** Yeah, it will be just a few dollars. And I think we have a few things to clean... So I basically enabled Storage Lens, which is an option in S3. And you can dig down, so I'm just going to once again share my screen, I'm going to click around for a few things, I'm going to come back... 2469. Obviously, you won't have access to this, but if you're using AWS S3, you can enable Storage Loans and have a play around with it.
 
@@ -450,7 +450,7 @@ So what I want to see is here, extended Storage Lens. Okay, and now it loads up,
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** \[00:41:46.03\] Cloudflare's S3 compatible API is not 100% compatible. It's like mostly, but enough that certain tools that should just work, don't. So Transmit, for instance, which is a great FTP -- it started off as an FTP client; it has S3 support... I think I complained about this last time we were on the show, so I'll make it short... But it doesn't support R2 because of like streaming uploads, or some sort of aspect of S3's API that R2 doesn't have yet. So anyways... I haven't deleted a bucket from our R2, because you have to actually highlight all, and then delete, and it paginates, and then you're like Okay", and there's thousands of files. How do you delete them from S3? Just open up an app and select all and hit Delete, or what?
+**Jerod Santo:** \[41:46\] Cloudflare's S3 compatible API is not 100% compatible. It's like mostly, but enough that certain tools that should just work, don't. So Transmit, for instance, which is a great FTP -- it started off as an FTP client; it has S3 support... I think I complained about this last time we were on the show, so I'll make it short... But it doesn't support R2 because of like streaming uploads, or some sort of aspect of S3's API that R2 doesn't have yet. So anyways... I haven't deleted a bucket from our R2, because you have to actually highlight all, and then delete, and it paginates, and then you're like Okay", and there's thousands of files. How do you delete them from S3? Just open up an app and select all and hit Delete, or what?
 
 **Gerhard Lazu:** Well, I think I would try and use the AWS CLI for this...
 
@@ -534,7 +534,7 @@ So what I want to see is here, extended Storage Lens. Okay, and now it loads up,
 
 **Gerhard Lazu:** All of them. Yeah, exactly. So I've set up this production cluster... I mean, this was the second one. I set it up in June, and I've been hosting these workloads. I was using a lot of DigitalOcean droplets. I had about 10. So all of these I consolidated in two bare metal servers. And they're running Talos, and it's all production. So obviously, production needs backups and it needs restores. So what I did when I was migrating between Kubernetes clusters, these workloads - the backups were going to B2. And B2 was okay, but slow. Sometimes unexpectedly slow.
 
-\[00:46:16.23\] I have the same feedback from Transistor FM. I had them on Ship It and they were saying some operations on B2 - sometimes they're slow. So they can take minutes instead of seconds. And that was my experience as well. Restoring things from B2 was incredibly slow. So it took me 30 minutes to restore like 10 gigs, roughly... And that's not normal.
+\[46:16\] I have the same feedback from Transistor FM. I had them on Ship It and they were saying some operations on B2 - sometimes they're slow. So they can take minutes instead of seconds. And that was my experience as well. Restoring things from B2 was incredibly slow. So it took me 30 minutes to restore like 10 gigs, roughly... And that's not normal.
 
 So what I did, I said "Okay, I have to try R2." I tried R2. Same restore - three minutes. So there's a 10x difference between B2 and R2 in my experience. Again, it's limited to me. So that's why for big restores I'm restoring for R2, but of course, I'm using both B2 and R2, because I have two backup mechanisms in place.
 
@@ -590,7 +590,7 @@ So what I did, I said "Okay, I have to try R2." I tried R2. Same restore - three
 
 **Gerhard Lazu:** Anything is possible. \[laughs\] So that's a good idea there, for sure. Now, on that subject - again, I didn't want to talk too much about Dagger in this Kaizen, but I'll just take a few minutes. So I noticed that we had - again, this is Fly Apps v2 migrations related, where we used to run a Docker instance in Fly, and that's where Dagger would run. We'd have all the caching, everything, so our CI jobs would be fast... And part of that migration, the networking stopped working.
 
-\[00:50:16.09\] So I was thinking, okay, well, we have all this resiliency in all these layers, but we don't have resiliency in our CI. So if our primary setup stops working on Fly in this case, then nothing works. So I thought, "Well, why don't we use the free GitHub runners?" And that's exactly what we did.
+\[50:16\] So I was thinking, okay, well, we have all this resiliency in all these layers, but we don't have resiliency in our CI. So if our primary setup stops working on Fly in this case, then nothing works. So I thought, "Well, why don't we use the free GitHub runners?" And that's exactly what we did.
 
 So now if you look in our CI - and there is a screenshot in one of these pull requests; let me try and find it... It's called "Make our Ship It YAML GitHub workflow resilient", 476. So the TL;DR, it looks like this. When Dagger on Fly stops working, there's a fallback job where we go on the free GitHub runners. It takes longer, it takes almost three times as long, all the way up to maybe 10 minutes... But if the primary one fails, we fall back to GitHub. We are also running on Kubernetes. Dagger on Kubernetes. So we have three runtimes now. Fly, GitHub, and Kubernetes. And the common factor is Dagger. It made it really simple to have this sort of resiliency, because at its core, it's the same thing. We just vary the runtime. But we didn't have to do much. I mean, you can go and check our Ship It YAML GitHub workflow to see how that's wired up. Again, it's still running, it's still kicked off by GitHub Actions... But then the bulk of our pipeline runs in one of these places.
 
@@ -620,7 +620,7 @@ Now, in the case of Fly and Docker, that's fairly straightforward. It basically 
 
 **Jerod Santo:** Gotcha.
 
-**Gerhard Lazu:** \[00:53:54.19\] So right now I'm just like running it as an experiment to see how well it behaves, to see if it is reliable long-term, and if it is, then maybe make a decision in a month's time or two months' time. But for now, it's Fly with the GitHub fallback.
+**Gerhard Lazu:** \[53:54\] So right now I'm just like running it as an experiment to see how well it behaves, to see if it is reliable long-term, and if it is, then maybe make a decision in a month's time or two months' time. But for now, it's Fly with the GitHub fallback.
 
 **Jerod Santo:** Cool. Resiliency for the win. Always have two...
 
@@ -712,7 +712,7 @@ Now, in the case of Fly and Docker, that's fairly straightforward. It basically 
 
 **Gerhard Lazu:** Cool.
 
-**Adam Stacoviak:** \[00:57:57.08\] What do we do about tomorrow, though?
+**Adam Stacoviak:** \[57:57\] What do we do about tomorrow, though?
 
 **Jerod Santo:** Well, we can make it run less often. \[laughter\] We can run it like weekly...
 
