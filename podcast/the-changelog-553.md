@@ -62,7 +62,7 @@ So we have this huge mix of people, and in terms of being able to contribute - w
 
 **Jonathan Carter:** \[20:03\]Great. So that's still on my to-do list from my platform back then. So how we exist at the moment is - it's called an association of volunteers. And that's not even recognized everywhere in the world. So what an association of volunteers is is we get together, we have a meeting, we come up with a constitution, and we define what Debian and its contributors is. And some states in the US recognize us, other states don't. Canada, UK, South Africa recognizes that as an organization; other countries just see it as a non-existing organization, because it's not formally registered at some office. But that hasn't been much of an issue for us, because -- well, in some ways it has, but I'll get to that later.
 
-How we work is we have SPI, software in the public interest. It's a nonprofit in the US that was actually initially started as a backing organization for Debian. So this was going to be our Debian organization way back 30 years ago, when I didn't know that Debian existed. But it's grown so much; there's over 100 free software projects hosted with SPI now, and they've grown into such a successful spin-off of their own that they can't really handle all the edge cases we have in Debian, and all the special things that we need from them. They are too cookie-cutter \[unintelligible 00:21:24.14\] a bit more to be more consistent across all the projects that they host. While this is actually a good thing, it's not so great for Debian. So when we have legal troubles, or things like trademark issues we need to sort out, working through SPI just gets too complicated and long-winded. And for smaller projects, it's fine. For Debian, we've just outgrown it. And we also have Debian France, and Debian Switzerland. They are two other organizations that handle Debian money and trademarks. So we work through these three, what we call trusted organizations, which are formal organizations that we use as fiscal sponsors in Debian.
+How we work is we have SPI, software in the public interest. It's a nonprofit in the US that was actually initially started as a backing organization for Debian. So this was going to be our Debian organization way back 30 years ago, when I didn't know that Debian existed. But it's grown so much; there's over 100 free software projects hosted with SPI now, and they've grown into such a successful spin-off of their own that they can't really handle all the edge cases we have in Debian, and all the special things that we need from them. They are too cookie-cutter, they're offering a bit more to be more consistent across all the projects that they host. While this is actually a good thing, it's not so great for Debian. So when we have legal troubles, or things like trademark issues we need to sort out, working through SPI just gets too complicated and long-winded. And for smaller projects, it's fine. For Debian, we've just outgrown it. And we also have Debian France, and Debian Switzerland. They are two other organizations that handle Debian money and trademarks. So we work through these three, what we call trusted organizations, which are formal organizations that we use as fiscal sponsors in Debian.
 
 **Adam Stacoviak:** Interesting. SPI is interesting. So it's software in public interest? Is that what it's called?
 
@@ -92,7 +92,7 @@ I just want to formalize that completely, because I think it can become a real p
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** Well, if we look at Debian, step back and talk about what makes it so special, and obviously, the volunteer-run aspect of it and the democratic aspect of it is one of the things. And even though myself over here is saying like "How could it continue without commercialization?", but it's like the proof's in the pudding. We're here, it's 30 years later. Debian is still around and thriving, and it's still a community that's continuing to release. I misspoke; it's not 11 releases. I did notice that number 12 \[unintelligible 00:27:34.10\] came out here recently.
+**Jerod Santo:** Well, if we look at Debian, step back and talk about what makes it so special, and obviously, the volunteer-run aspect of it and the democratic aspect of it is one of the things. And even though myself over here is saying like "How could it continue without commercialization?", but it's like the proof's in the pudding. We're here, it's 30 years later. Debian is still around and thriving, and it's still a community that's continuing to release. I misspoke; it's not 11 releases. I did notice that number 12, "Bookworm" came out here recently.
 
 One of my favorite things back in the early days of Debian - because I was in and around three, four or five; that was my really running a lot of Linux servers timeframe for me - was just the naming of the major releases, all using the Toy Story theme. I always love that. Bookworm I'm not sure. What's Bookworm all about? Have you moved beyond Toy Story at this point? Ran out of proper nouns?
 
@@ -102,7 +102,7 @@ One of my favorite things back in the early days of Debian - because I was in an
 
 **Jonathan Carter:** I think it was actually earlier. I've only seen Toy Story 4 recently... But yeah, they keep making movies, so hopefully by the time we run out of Toy Story characters, there will be more.
 
-**Jerod Santo:** \[unintelligible 00:28:15.06\]
+**Jerod Santo:** I was gonna say they make their movies...
 
 **Jonathan Carter:** Forky, which is --
 
@@ -118,7 +118,7 @@ One of my favorite things back in the early days of Debian - because I was in an
 
 **Jonathan Carter:** Yeah, I think it's a spork.
 
-**Jerod Santo:** I was in and around like the Wheezy, Jessie era of Debian. And I remember, of course, Sid. So Sid is, for those who are uninitiated, that's the experimental, dangerous branch of Debian. This is like if you want to go on unstable. Sid - I think you guys \[unintelligible 00:28:53.12\] It's like something in development. What's the stand for it, Jonathan?
+**Jerod Santo:** I was in and around like the Wheezy, Jessie era of Debian. And I remember, of course, Sid. So Sid is, for those who are uninitiated, that's the experimental, dangerous branch of Debian. This is like if you want to go on unstable. Sid - I think you guys back-road into that. It's like something in development. What's the stand for it, Jonathan?
 
 **Jonathan Carter:** Exactly. And Sid was, of course, also the unstable kid in Toy Story, that used to torture the toys.
 
@@ -126,7 +126,7 @@ One of my favorite things back in the early days of Debian - because I was in an
 
 **Adam Stacoviak:** Yeah, that was great. What I couldn't connect though was that Debian was released in 1993. Now, I don't know the history from '93 to '95, but Toy Story 1 was released November 22nd, 1995. So there's a two year gap there that I'm not really sure where the names came from. What was Debian 1? What was the earliest days of Debian before Toy Story was a thing?
 
-**Jonathan Carter:** I think Debian 1 only happened in late 1994, and then it didn't have a release name yet. But also, Debian's history with Toy Story comes from before the movie was released, because \[unintelligible 00:29:42.16\] worked at Pixar at the time. So Debian was actually used for the rendering of Toy Story, and for a while the Debian lists were even hosted at a Pixar domain. So it was \[unintelligible 00:29:55.17\] @pixar.com for a little while, until Debian got its own domain.
+**Jonathan Carter:** I think Debian 1 only happened in late 1994, and then it didn't have a release name yet. But also, Debian's history with Toy Story comes from before the movie was released, because \[unintelligible 00:29:42.16\] parents worked at Pixar at the time. So Debian was actually used for the rendering of Toy Story, and for a while the Debian lists were even hosted at a Pixar domain. So it was \[unintelligible 00:29:55.17\] @pixar.com for a little while, until Debian got its own domain.
 
 **Adam Stacoviak:** Wow.
 
@@ -212,7 +212,7 @@ So there's this huge library of free software that exists, that you can use to b
 
 **Jerod Santo:** \[46:08\] The A.
 
-**Jonathan Carter:** \[unintelligible 00:46:08.15\]
+**Jonathan Carter:** The G.
 
 **Adam Stacoviak:** Oh, sorry. The A. My bad.
 
@@ -322,7 +322,7 @@ Now, I don't always want to choose macOS. I do want to keep choosing Mac hardwar
 
 **Jonathan Carter:** Well, this is something that I liked about Debian 12 as well. For once, at least at release time, we had lots of new software. We had all the latest software at the time of release, which was great, because users are fine when things gradually get older, but when you even have outdated stuff by release time, it's not a lot of fun... And also Debian has backports these days, so you can enable the backports repository, and then you can install newer versions of stuff that Debian was not originally released with. So you can still get newer versions of software, it doesn't have to get outdated. The backports repository is really great for that. And we support Flatpak, and we support Snaps just as much as it's supported in Ubuntu. So you can install things from a Flatpak repository, or from Canonical's Snap server, and also get newer software like that.
 
-Ubuntu feels very familiar to me because it also has apt and dpkg. I don't like when they swap out things, when you'd expect to get a \[unintelligible 01:00:25.12\] when you apt-install something and it actually swaps it out for Snap in the background. I think my study users don't like that much either.
+Ubuntu feels very familiar to me because it also has apt and dpkg. I don't like when they swap out things, when you'd expect to get a Deb when you apt-install something and it actually swaps it out for Snap in the background. I think my study users don't like that much either.
 
 **Adam Stacoviak:** That's sneaky...
 
@@ -340,7 +340,7 @@ The other problem I have with Ubuntu is - well, they talk a lot about how they'r
 
 **Jerod Santo:** I like that one. "Ah, they SNAFU'd me." Alright, so that's Ubuntu, Jonathan. Now do Arch. Come on, break it down.
 
-**Jonathan Carter:** \[01:02:02.16\] I love Arch. What's not to love? \[laughter\] The problem with Arch \[unintelligible 01:02:06.01\] is it does have stable releases. So if you want to install it on 5,000 servers, or use it in your enterprise, or even in your university, it just changes too fast. You don't want your web servers not starting one day because the config file format changed with last night's upgrade, or something like that. So Arch is fantastic for what it is. If it wasn't for Debian, and I didn't need to support a system professionally, I would probably use Arch as well. I think it's a great system.
+**Jonathan Carter:** \[01:02:02.16\] I love Arch. What's not to love? \[laughter\] The problem with Arch is the reason why we don't use Arch, is it doesn't have stable releases. So if you want to install it on 5,000 servers, or use it in your enterprise, or even in your university, it just changes too fast. You don't want your web servers not starting one day because the config file format changed with last night's upgrade, or something like that. So Arch is fantastic for what it is. If it wasn't for Debian, and I didn't need to support a system professionally, I would probably use Arch as well. I think it's a great system.
 
 There are a lot more lax on certain things than we are. In Debian, for example, when you package something new in Debian, the Debian developer needs to go through all of the source code and document the copyright of literally every file in that upstream source tarball in the Debian copyright file. In Arch they just look at what the GitHub page says. And if it says it's MIT-licensed or GPL, they basically just have a tag that says "This is the license of this package." But meanwhile, there's a bunch of files in the package that might be under another license. And I think especially if you want to build your product on these packages, it helps to be able to tell exactly what the license terms are that you're using.
 
@@ -406,19 +406,19 @@ It becomes clear, at least to us, and also to the people who use Debian out ther
 
 **Jerod Santo:** That's one of the things I loved about Debian as I was using it back when I administered more servers than I do now. I wasn't afraid of any of the upgrades or anything. It was always just like "Yeah, go ahead, apt-get update", or whatever. Debian just worked. And I would upgrade it with impunity, because it would never break stuff. And just like I like Postgres for that exact reason historically as a database server, as an operating system, silky smooth and reliable for me is number one. And if I have to go grab some new piece of software that's not pre-packaged - sure, I'll go ahead and update my sources, and I'll go get it or download it, or compile it myself if I have to. But that stable foundation, especially if you're running a business... Like, the last thing you want to be doing is dealing with these infrastructure changes as the rug gets pulled out from underneath you when you're trying to push other areas of your enterprise forward, not manage a crisis down in your inner workings. So I know that Debian as the free universal system isn't always the choice for enterprises that need a certain license, and stuff. But for everybody else - I mean, it's kind of a why not proposition in my opinion.
 
-**Jonathan Carter:** I'm surprised that the likes of cPanel haven't started to support Ubuntu or Debian previously. But I think there's clout that comes with running on an Enterprise Linux system. CentOS even had a lot of clout around it, and I think \[unintelligible 01:13:24.14\] on top of that as well.
+**Jonathan Carter:** I'm surprised that the likes of cPanel haven't started to support Ubuntu or Debian previously. But I think there's clout that comes with running on an Enterprise Linux system. CentOS even had a lot of clout around it, and I think that kind of \[unintelligible 01:13:24.14\] on top of that as well.
 
 **Jerod Santo:** Are there companies or entities that provide enterprise support around Debian, as you can hire them in a bind to come in and do stuff for you?
 
-**Jonathan Carter:** Yeah, there's quite a number of them. The biggest one I can think of is called \[unintelligible 01:13:42.11\] which is not a very enterprisy name...
+**Jonathan Carter:** Yeah, there's quite a number of them. The biggest one I can think of is called Freexian which is not a very enterprisy name...
 
 **Jerod Santo:** No...
 
 **Jonathan Carter:** But they actually managed the LTS project for Debian, and the extended LTS project. So if you want to go above five years of support for a Debian system, you can sign a contract with them and they'll provide the longer-term supports. So if you have specific packages that you need to keep running, they'll update it and provide security updates for it. But for other Debian things, like software development, packaging, and also LTS stuff, there's so many companies out there that provide professional support for it.
 
-**Jerod Santo:** \[01:14:21.27\] Well, there's the \[unintelligible 01:14:20.20\] that many people need in order to make a choice like that... Because it's usually just that. It's usually like "Well, I don't want to have unmitigated risk, and so how can I somehow hedge against a catastrophe?" And the answer to that is some sort of support contract. And there's your Enterprise Linux, right?
+**Jerod Santo:** \[01:14:21.27\] Well, there's the COYA that many people need in order to make a choice like that... Because it's usually just that. It's usually like "Well, I don't want to have unmitigated risk, and so how can I somehow hedge against a catastrophe?" And the answer to that is some sort of support contract. And there's your Enterprise Linux, right?
 
-**Jonathan Carter:** Unfortunately, we just don't match the global scale of these big companies like \[unintelligible 01:14:45.28\] or Oracle. Most of these companies, the bigger ones might cover big parts of Europe or big parts of the US, but no one is as global as Red Hat or Oracle. And maybe we'll get there. Maybe some of these companies will grow to that level. It's more of a journey than a destination, and Debian has the steady and slow growth that's been happening over the last 30 years, and I hope that it continues to grow in at least that same trajectory over the next 10, or 20, or 30 years. If it happens faster, that's fine. But if it just keeps on going at the current pace, it will get there eventually. It's just a matter of time.
+**Jonathan Carter:** Unfortunately, we just don't match the global scale of these big companies like Red Hat or Oracle. Most of these companies, the bigger ones might cover big parts of Europe or big parts of the US, but no one is as global as Red Hat or Oracle. And maybe we'll get there. Maybe some of these companies will grow to that level. It's more of a journey than a destination, and Debian has the steady and slow growth that's been happening over the last 30 years, and I hope that it continues to grow in at least that same trajectory over the next 10, or 20, or 30 years. If it happens faster, that's fine. But if it just keeps on going at the current pace, it will get there eventually. It's just a matter of time.
 
 **Adam Stacoviak:** How long is it that you can continue to run for DPL? Here in the US a president can be president twice. Two terms. How many terms can you do as a DPL, for example?
 
@@ -434,7 +434,7 @@ It becomes clear, at least to us, and also to the people who use Debian out ther
 
 **Adam Stacoviak:** Is it one year at a time, or is it two years? When you get elected, is it one single year?
 
-**Jonathan Carter:** One year. One term is one year. But I want to return to technical stuff. I've so many ideas, and so many -- well, relatively small projects, but that has a big impact. Next year I want to focus on that. I have so many ideas to make the installer stuff better, to make it easy to find the \[unintelligible 01:16:28.11\] One person called our downloads page an IQ test, because just finding the Debian image they want to \[unintelligible 01:16:35.27\]
+**Jonathan Carter:** One year. One term is one year. But I want to return to technical stuff. I've so many ideas, and so many -- well, relatively small projects, but that has a big impact. Next year I want to focus on that. I have so many ideas to make the installer stuff better, to make it easy to find the \[unintelligible 01:16:28.11\] One person called our downloads page an IQ test, because just finding the Debian image they want to difficult for them.
 
 **Adam Stacoviak:** It is pretty challenging, I can attest to that.
 
@@ -464,7 +464,7 @@ So at least that's some load that I'm taking off of future DPLs... Yeah, also so
 
 **Adam Stacoviak:** That's cool.
 
-**Jonathan Carter:** But we've had more organizations who wanted to come on board, and we just didn't have the structure to do that properly. So for small tiers like Debian France and Debian Switzerland it's easy, because they were specifically founded to be TOs for Debian. But there's so many others, like the Software Conservancy and Free Software Foundations in Brazil, in Taiwan, in India, and other countries who want to be able to accept donations for Debian and \[unintelligible 01:20:26.03\] our resources, but we just need that framework in place to be able to do that. So those two things I would like to finish.
+**Jonathan Carter:** But we've had more organizations who wanted to come on board, and we just didn't have the structure to do that properly. So for small tiers like Debian France and Debian Switzerland it's easy, because they were specifically founded to be TOs for Debian. But there's so many others, like the Software Conservancy and Free Software Foundations in Brazil, in Taiwan, in India, and other countries who want to be able to accept donations for Debian and help administer our resources, but we just need that framework in place to be able to do that. So those two things I would like to finish.
 
 **Adam Stacoviak:** So if there's somebody listening to this that can support you in that effort, what kind of support could you need from the public? From just those out there who care about Debian, and can in some way, shape or form either make a contact for you, or help you with a connection, or leverage their network... What kind of support would you call for from the community?
 
