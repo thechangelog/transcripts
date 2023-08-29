@@ -82,7 +82,7 @@
 
 **Jerod Santo:** Ooooh...!
 
-**Jim Nielsen:** Oh, Nick \[unintelligible 00:07:13.14\]
+**Jim Nielsen:** Oh, Nick I'm sorry did I say--
 
 **Nick Nisi:** Whoaaa....!
 
