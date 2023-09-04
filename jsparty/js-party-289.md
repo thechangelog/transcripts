@@ -92,13 +92,13 @@
 
 **Nick Nisi:** It was all of the people who were early memers, like the Chocolate Rain guy...
 
-\[00:06:25.08\]
+\[06:25\]
 
 *Chocolate Rain... Some stay dry and others feel the pain...*
 
 **Nick Nisi:** The Leave Britney Alone guy...
 
-\[00:06:32.26\]
+\[06:32\]
 
 *Leave her alone...!*
 
@@ -110,7 +110,7 @@
 
 **Jerod Santo:** And the whistle goes woo? You guys don't know that one? Insert soundbite right here.
 
-\[00:06:46.19\]
+\[06:46\]
 
 *Nearly every muffler shop in Oakland is installing whistler tips. It's a piece of metal welded inside the exhaust pipes that makes the car audible for almost a mile.*
 
@@ -168,7 +168,7 @@
 
 **Josh Goldberg:** I'm just now realizing, I think a lot of the tools we're talking about have two major value props, only one of which ended up being the really important one for that tool. CoffeeScript gave you the value of using what would become new JavaScript features much earlier, and it had the, in my opinion, dubious value of being a significant whitespace language. Dubious because that's not for everyone.
 
-\[00:10:01.23\] And then what we cared about later on was that it gave you the new features. And looking back, the whitespace thing ended up not being so futureproof. And then in TypeScript, there's a parallel there, because TypeScript was similar. You get the new JavaScript features today, and then also the typesystem. And the typesystem now has been - what? It stood the test of time.
+\[10:01\] And then what we cared about later on was that it gave you the new features. And looking back, the whitespace thing ended up not being so futureproof. And then in TypeScript, there's a parallel there, because TypeScript was similar. You get the new JavaScript features today, and then also the typesystem. And the typesystem now has been - what? It stood the test of time.
 
 **Jerod Santo:** Hm. But Nick, you do like the new features aspect of TypeScript, don't you? You use it as your standard of what you can use because it's going to cross-compile or transpile back into something that's usable, with polyfills, or -- I don't know how it works, honestly.
 
@@ -200,7 +200,7 @@
 
 **Nick Nisi:** Definitely, definitely. And then I never really -- like, I played with CoffeeScript a lot, but never really dug into it... And it felt like at the time like "Oh, this is a good thing, because it's kind of dying off and losing popularity... So I can skip TypeScript, because it's gonna be the same thing", which - it really wasn't. But I wasn't excited for it at all in the beginning. And then I was kind of led kicking and screaming into it at the company I worked at, because there was a lot of interest from a lot of the senior devs there, in it. And they started building a framework, like an MVC framework for it... And so I got exposed through that. But I really did not like it at the beginning. And I can get into why, but I'm curious what your stories are like when you first heard about TypeScript, and how you got led into it.
 
-**Josh Goldberg:** \[00:14:08.28\] So I interned at Microsoft in 2014, over the summer. I started full-time end of the summer 2015, and just going back to GitHub, my first TypeScript pull requests are from spring of 2015. So I managed to intern at Microsoft a couple of years after TypeScript was publicized, and not adopt it. And I think the reason why I didn't was because, similar to you, I had seen CoffeeScript come and start to go. This was a new, untested thing; I didn't want to take a big bet in it. Especially since at the time I was trying to be more open source-oriented, and most folks did not know TypeScript. It was a big barrier of entry, in theory. But as TypeScript started to get more powerful, especially when they started adding -- I don't think at the time it was logical types in the type system, but a lot more type system ways to represent kind of the wacky JavaScript code. That's when it really solidified that "Okay, this is worth the barrier of entry, give or take." Never looked back.
+**Josh Goldberg:** \[14:08\] So I interned at Microsoft in 2014, over the summer. I started full-time end of the summer 2015, and just going back to GitHub, my first TypeScript pull requests are from spring of 2015. So I managed to intern at Microsoft a couple of years after TypeScript was publicized, and not adopt it. And I think the reason why I didn't was because, similar to you, I had seen CoffeeScript come and start to go. This was a new, untested thing; I didn't want to take a big bet in it. Especially since at the time I was trying to be more open source-oriented, and most folks did not know TypeScript. It was a big barrier of entry, in theory. But as TypeScript started to get more powerful, especially when they started adding -- I don't think at the time it was logical types in the type system, but a lot more type system ways to represent kind of the wacky JavaScript code. That's when it really solidified that "Okay, this is worth the barrier of entry, give or take." Never looked back.
 
 **Jerod Santo:** So I first heard about it - it must have been 2015, because we had Anders... Help me with the last name, guys. Hejlsberg?
 
@@ -224,7 +224,7 @@ Then JS Party came around, and you came around, and you loved it so much that I 
 
 **Josh Goldberg:** Well, maybe you should be like a sleeper agent, like a double-crossed kind of thing, where you go learn TypeScript in order to be better informed in hating on it.
 
-**Jerod Santo:** \[00:17:57.03\] Oh, that's true.
+**Jerod Santo:** \[17:57\] Oh, that's true.
 
 **Josh Goldberg:** Which, honestly, is how a lot of TypeScript enthusiasts started. They learned it in order to really understand how to criticize it, and then just realized how awesome it is in comparison.
 
@@ -286,7 +286,7 @@ Then JS Party came around, and you came around, and you loved it so much that I 
 
 **Jerod Santo:** Probably not.
 
-**Nick Nisi:** \[00:21:56.13\] I think it predates the language server. Yeah. So I was just adding all these types, and like getting no feedback on it, except for at compile time, which wasn't great... And then when you compile, I specifically remember -- and I thought this was like a dream, so I had to go back and check. And I checked the first project that I worked on, and -- it's called Mayhem on GitHub; I can put a link in there. It's quite dead now... But I am listed -- like, over on the contributor site, I'm listed in there, but then I like cloned it and looked through the commits, and I have zero commits in there. So I have no idea why it even puts me, but...
+**Nick Nisi:** \[21:56\] I think it predates the language server. Yeah. So I was just adding all these types, and like getting no feedback on it, except for at compile time, which wasn't great... And then when you compile, I specifically remember -- and I thought this was like a dream, so I had to go back and check. And I checked the first project that I worked on, and -- it's called Mayhem on GitHub; I can put a link in there. It's quite dead now... But I am listed -- like, over on the contributor site, I'm listed in there, but then I like cloned it and looked through the commits, and I have zero commits in there. So I have no idea why it even puts me, but...
 
 **Jerod Santo:** Oh. You tricked them.
 
@@ -320,7 +320,7 @@ Then JS Party came around, and you came around, and you loved it so much that I 
 
 **Nick Nisi:** Yeah. Think about what was happening back then -- probably prior to this, probably 2009-2010 area... Google had a Chromium version called Dartium, that shipped with Dart and JavaScript as like languages in the browser. And they were trying for a long time to replace it with Dart. There was CoffeeScript, obviously, there was Elm, ClojureScript, PureScript, Reason... All of these languages.
 
-**Jerod Santo:** \[00:26:13.26\] Oh, yeah, ReasonML.
+**Jerod Santo:** \[26:13\] Oh, yeah, ReasonML.
 
 **Nick Nisi:** Yeah. But they tried to extinguish JavaScript, rather than extend, and - what's the second part of that?
 
@@ -360,7 +360,7 @@ Of course, there's going to be use cases where another language might make sense
 
 **Nick Nisi:** And that's great. That's great that we have that option, or we'll have that option as it proliferates a little more... But yeah, I don't think it's going anywhere.
 
-**Josh Goldberg:** \[00:29:59.06\] There's a lot of advantage to having a blessed path. A lot of people, especially bootcamps, they learn HTML, CSS, JavaScript, React, and then maybe TypeScript, in that order. And that means that a lot of community resources are much more fleshed out. It's a lot easier to find help, networking, social groups online. If we were to fragment into 12 different languages you can use to get started on the web, we might be able to innovate more by comparing them against each other, a battle royale competition of the languages, but it becomes a harder situation for newcomers.
+**Josh Goldberg:** \[29:59\] There's a lot of advantage to having a blessed path. A lot of people, especially bootcamps, they learn HTML, CSS, JavaScript, React, and then maybe TypeScript, in that order. And that means that a lot of community resources are much more fleshed out. It's a lot easier to find help, networking, social groups online. If we were to fragment into 12 different languages you can use to get started on the web, we might be able to innovate more by comparing them against each other, a battle royale competition of the languages, but it becomes a harder situation for newcomers.
 
 **Nick Nisi:** Yeah. I think that we get a lot of that, or we have in the past at least gotten competition just within itself, through things like Babel, which allows anyone to write a plugin to immediately test out some new syntax. And that's like a really great way to prove out a use case for a proposal, to add it to the language proper, which is really nice.
 
@@ -396,7 +396,7 @@ So let's shift gears and talk kind of about the present in TypeScript; the prese
 
 **Josh Goldberg:** I just want to shout-out logical types, conditional types, now that you can do logic in the type system. Two reasons - one, it's hilarious. You can do all sorts of whacky stuff. Two, and more importantly, adding logical types and being able to have generic types that reference each other meant that TypeScript was able to represent really complex, and yet common JavaScript patterns, like in utility libraries such as Lodash, that would do weird things where you pass in a string and get a property based on that string, which is horrible and no one should ever do that... So I think once TypeScript got to the point where it could represent the weird pretty reliably, I think that's when it really tipped over and people felt more comfortable, or confident adopting it.
 
-**Nick Nisi:** \[00:33:57.16\] For sure. That is so big. There are so many things that you can do, and some of the most mind-blowing examples that you can show people are these really complex types, that nobody ever has to really think about except for the person that wrote it, but they just make things so much easier. And I'm thinking like some of those ones that do string substitution type things... Like, we just added -- you know, we have this very sometimes deeply nested internationalization JSON file, that has all of our \[unintelligible 00:34:28.04\] keys in, and we made that typesafe by just like looking at the JSON and creating a path through that, so that every possible path through that is a string literal type that you can add to the function. It's just so much nicer.
+**Nick Nisi:** \[33:57\] For sure. That is so big. There are so many things that you can do, and some of the most mind-blowing examples that you can show people are these really complex types, that nobody ever has to really think about except for the person that wrote it, but they just make things so much easier. And I'm thinking like some of those ones that do string substitution type things... Like, we just added -- you know, we have this very sometimes deeply nested internationalization JSON file, that has all of our \[unintelligible 00:34:28.04\] keys in, and we made that typesafe by just like looking at the JSON and creating a path through that, so that every possible path through that is a string literal type that you can add to the function. It's just so much nicer.
 
 **Jerod Santo:** Can you explain that more? Help me understand that.
 
@@ -428,7 +428,7 @@ So let's shift gears and talk kind of about the present in TypeScript; the prese
 
 **Josh Goldberg:** That exposes two theoretical pillars of TypeScript. One, no runtime implications, which except for very old, very rare features of TypeScript, that are debatable in the community, that's true. And then it also exposes that complex types come from complex logic. In both of those cases, I think, Nick, you're overcoming what could be perceived as a type deficiency in your setup. One is that you have this giant JSON file, and you're doing this very specific logic... Should you split that file up? Should you instead pass like an array of strings? Like, there are alternatives one could consider.
 
-**Nick Nisi:** \[00:38:12.14\] Absolutely.
+**Nick Nisi:** \[38:12\] Absolutely.
 
 **Josh Goldberg:** And then, same thing with Tailwind. You want string parsing with an explicit allowed list of strings... If only Tailwind was typesafe, then you wouldn't have to do this. But it's not, so you do.
 
@@ -454,7 +454,7 @@ So let's shift gears and talk kind of about the present in TypeScript; the prese
 
 **Nick Nisi:** That is so nice.
 
-**Break**: \[00:39:18.29\]
+**Break**: \[39:18\]
 
 **Jerod Santo:** Did you see that Supabase even started a Postgres language server protocol? So you have like very specific completions of just Postgres syntax inside of an editor just because now there's a Postgres language server protocol. You don't think of it; it's the kind of thing you wouldn't think of. But of course, it does have its own flavor of SQL query language, right? And so that wouldn't exist if it wasn't for the underlying protocol that was invented alongside TypeScript, right? It's pretty cool.
 
@@ -468,7 +468,7 @@ So let's shift gears and talk kind of about the present in TypeScript; the prese
 
 **Nick Nisi:** Speaking of... I am learning though that -- I guess I didn't realize this at the time, but Typescript's language server, or whatever you want to call it, predates the actual LSP protocol... So there's features that they implement weirdly, or differently, which things have to work around. And I'm learning that through Neovim, specifically through Neovim plugins, like typescript.nvim, I think, and null-ls, which are both projects that have, as of last week, been archived, because the developer justifiably doesn't have the time to work on them anymore... And so they're out there on GitHub, someone can fork them, but he is --
 
-**Jerod Santo:** \[00:42:24.13\] He's done.
+**Jerod Santo:** \[42:24\] He's done.
 
 **Nick Nisi:** ...archiving them to say he's done. And there's some significant changes coming to Neovim 0.10, that will probably break a lot of things that he's not ready or willing to fix.
 
@@ -514,7 +514,7 @@ So let's shift gears and talk kind of about the present in TypeScript; the prese
 
 **Nick Nisi:** So one question I did want to ask about present-day TypeScript is how it fits in with learning. I'm obviously quite divorced from being a new developer at this point... And Josh, you wrote a book on learning TypeScript. I'm curious your thoughts on what it's like to have this -- you know, you want to get to this language, but do you go through JavaScript first, and then go there? Is it just de facto that you will end up at TypeScript today? It seems like a lot to take in when you're like "Oh, here's this language, but don't use that language. We're gonna use this language that compiles to that language... But it's mostly that language with some added things that you'll spend hours working on, that never actually get run, and..." You know, it's a lot.
 
-**Josh Goldberg:** \[00:46:14.11\] Nick, I love this side of you, the TypeScript bashing side. \[laughter\]
+**Josh Goldberg:** \[46:14\] Nick, I love this side of you, the TypeScript bashing side. \[laughter\]
 
 **Jerod Santo:** My work here is done. I can just leave and let Nick do it. He's doing it better than I do.
 
@@ -550,7 +550,7 @@ So let's shift gears and talk kind of about the present in TypeScript; the prese
 
 **Josh Goldberg:** Which is why honestly a lot of more recent things in the community have done such a good job at this because they were designed with TypeScript in mind. Things like Zod are fantastic and great for typing, because the theology of them fits well with the TypeScript theology.
 
-**Nick Nisi:** \[00:50:14.17\] Yeah. There was another thing I was gonna ask... Well, you mentioned a little while back about these lists of things they need to learn that are deprecated, and I was gonna ask you your thoughts on TSLint, since I've occasionally seen you commenting on an AI-generated list of like best practice things that constantly suggest TSLint as a solution... \[laughs\]
+**Nick Nisi:** \[50:14\] Yeah. There was another thing I was gonna ask... Well, you mentioned a little while back about these lists of things they need to learn that are deprecated, and I was gonna ask you your thoughts on TSLint, since I've occasionally seen you commenting on an AI-generated list of like best practice things that constantly suggest TSLint as a solution... \[laughs\]
 
 **Josh Goldberg:** I feel so bad -- I legitimately don't know who is the author of this Twitter bot. They're trying to do a nice service for the community, and they're using AI to help them generate tweets that point out useful things. And it's such a nice idea. And then this one thing is they keep recommending TSLint, which has been dead since 2019... It's so painful to me. I don't want to be mean online, but... Yeah. An example of one of the downsides of TypeScript, I think, is the complexity points of it. Now that it's been out for a decade plus, we understand the pros and cons. And one of the cons is that it's just -- it's added complexity for every part of your toolchain that has to do with syntax, especially the linter. Because back in the day we had TSLint, which was the TypeScript linter, and TSLint was killed because it was essentially a clone, but with different internals, of ESLint, which was much more widely accepted... But now the way that you have to use ESLint for TypeScript is kind of hacky and clutched together, because ESLint was never designed with this in mind. So it's this whole pain in the butt... I'm trying to maintain a PG13 at worst rating here.
 
@@ -564,7 +564,7 @@ So let's shift gears and talk kind of about the present in TypeScript; the prese
 
 **Nick Nisi:** Okay. Please do.
 
-**Josh Goldberg:** \[00:53:57.08\] It is accurate, but not precise to say that folks who switched to \[unintelligible 00:54:00.05\] over .ts or .tsx files are dropping TypeScript. They're just dropping TypeScript-native syntax. I know you know this, but for the world at large, TypeScript is multiple things. It's the idea of the syntax, it's the language spec, and then it's also a whole bunch of tools built on JavaScript and TypeScript syntaxes... And you can drop just the TypeScript syntax and still get the benefits, as you've described - for example type generation - of the rest of the tool chain, the actual programmatic parts. There was some confusion when SvelteKit formed. Was it Svelte? One of them, for example, dropped just the syntax, but they're still using the tool chain.
+**Josh Goldberg:** \[53:57\] It is accurate, but not precise to say that folks who switched to \[unintelligible 00:54:00.05\] over .ts or .tsx files are dropping TypeScript. They're just dropping TypeScript-native syntax. I know you know this, but for the world at large, TypeScript is multiple things. It's the idea of the syntax, it's the language spec, and then it's also a whole bunch of tools built on JavaScript and TypeScript syntaxes... And you can drop just the TypeScript syntax and still get the benefits, as you've described - for example type generation - of the rest of the tool chain, the actual programmatic parts. There was some confusion when SvelteKit formed. Was it Svelte? One of them, for example, dropped just the syntax, but they're still using the tool chain.
 
 **Jerod Santo:** Yeah, Nick and I argued about that when it happened, because I brought it up as like "Hey, this is interesting", and he was like "No, it's not", and then we talked about it, and then finally he was like "Well, I'm actually--" Once we talked it out - because I knew that it was just the comments in the first place... And then once he realized that, he's like "Oh, they're still using TypeScript." I'm like "Yeah." You know what I'm saying, Nick?
 
@@ -618,7 +618,7 @@ My concern with that proposal though is will it hamstring TypeScript's developme
 
 **Josh Goldberg:** What an interesting question. My guess is it won't hamstring TypeScript other than in good ways. TypeScript has always tried, especially the last majority of those 10 years, to just innovate in the type system, not in syntax, except for type system syntax. And they honestly haven't added, to my knowledge, any new type system spaces. They've changed how existing spaces such as declaring and then \[unintelligible 00:58:12.09\] inside an interface, or an object type, or assertions, like as, or the exclamation mark. They've messed around with those a lot. But there's really very little new stuff going on.
 
-**Nick Nisi:** \[00:58:24.12\] Sure.
+**Nick Nisi:** \[58:24\] Sure.
 
 **Josh Goldberg:** I would assume that for TypeScript the major areas of innovation are going to be around tooling and integrations, not so much radical new type system concepts. I mean, it's been a decade; what else is there?
 
