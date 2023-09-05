@@ -40,7 +40,7 @@
 
 **Jerod Santo:** I'm just over here checking my email. You guys do your thing.
 
-**Josh Goldberg:** Can we get the personal email also to the audience? \[laughter\] \[unintelligible 00:03:40.01\]
+**Josh Goldberg:** Can we get the personal email also to the audience? \[laughter\] Wherever you go.
 
 **Jerod Santo:** It's JoshuaKGoldberg@gmail.com. Actually, I might have just guessed yours correctly. We can bleep that if it's right... \[laughter\]
 
@@ -122,13 +122,13 @@
 
 *It sounds like what?*
 
-*Well, \[unintelligible 00:07:05.15\] It's that woo-woo...!*
+*Well, you wanna woo-woo? It's that woo-woo...!*
 
 **Jerod Santo:** What about them? Have they made real money? Is that the idea? What was the South Park about?
 
 **Nick Nisi:** It's been so long... Josh, you just watched it.
 
-**Josh Goldberg:** Yeah, the idea is they're still waiting for their checks. So they all beat each other up \[unintelligible 00:07:22.02\] This was actually a really big episode. This is the one where Butters does What-what song, which I actually learned last week was an existing beam. They didn't just make that up on South Park.
+**Josh Goldberg:** Yeah, the idea is they're still waiting for their checks. So they all beat each other up and more violent, in line. This was actually a really big episode. This is the one where Butters does What-what song, which I actually learned last week was an existing beam. They didn't just make that up on South Park.
 
 **Jerod Santo:** Oh, really?
 
@@ -332,7 +332,7 @@ Then JS Party came around, and you came around, and you loved it so much that I 
 
 **Nick Nisi:** \[laughs\] Yeah...
 
-**Josh Goldberg:** Yeah. 20 years in \[unintelligible 00:26:29.23\]
+**Josh Goldberg:** Yeah. 20 years in! No I think that...
 
 **Jerod Santo:** \[laughs\] Like "You know what? This entire thing was a worthless--" The other thing is for a long time people have been saying WebAssembly was going to make JavaScript no longer the lingua franca of the web, and make it to where you're writing C\# directly inside the browser, you're writing Rust, you're writing Go, you're writing -- whatever your language of choice is, right in the browser. And - I mean, they've been beating that drum for many, many years. And I think you see here or there a little bit of that, but I'm still waiting for a WASM to destroy JavaScript, and TypeScript by association. Of course, anytime someone says they use JavaScript, Nick Nisi, in his head, he actually has a regular expression that replaces it with TypeScript. Don't you, Nick?
 
@@ -400,7 +400,7 @@ So let's shift gears and talk kind of about the present in TypeScript; the prese
 
 **Jerod Santo:** Can you explain that more? Help me understand that.
 
-**Nick Nisi:** Yeah. So if have a JSON object, and at the top you have like foo, the foo key, and then under there you have foo.name, and then .first. To get to that, you would have to type the string foo.name.first, or have that as your key to tell it how to go look through that. When you have one that's like ours, where it's like 3,000 lines long of all of these \[unintelligible 00:35:13.10\] and you're way down on line 1400, and you're like "Okay, I see that this is called start date... But is that under some other thing?" You have to kind of look at the tabbing in to see how far deeply it's nested...
+**Nick Nisi:** Yeah. So if have a JSON object, and at the top you have like foo, the foo key, and then under there you have foo.name, and then .first. To get to that, you would have to type the string foo.name.first, or have that as your key to tell it how to go look through that. When you have one that's like ours, where it's like 3,000 lines long of all of these \[unintelligible 00:35:13.10\] keys, and you're way down on line 1400, and you're like "Okay, I see that this is called start date... But is that under some other thing?" You have to kind of look at the tabbing in to see how far deeply it's nested...
 
 **Jerod Santo:** Yeah.
 
@@ -506,7 +506,7 @@ So let's shift gears and talk kind of about the present in TypeScript; the prese
 
 **Nick Nisi:** As I'm learning, we're all slowly becoming PHP devs... Because every cool thing that's coming out in like Next and all these server languages, or server implementations, it's like "Oh, cool, Laravel's been doing that for years." So we're all just like slowly --
 
-**Jerod Santo:** It's been kind of fun to watch all these frontenders discover server-side rendering, you know? It's like "Uh, hello guys... It's cute that you gave it its own name. It's kind of just the de facto way that people were making HTML pages for years..." But I think we get to a better place overall, because you kind of like loop back around with better foundations, and hopefully it's... I think it's all healthy, it's just the pace of innovation - there's this is like \[unintelligible 00:44:48.08\] thing, where it doesn't go straight up, it goes like around in circles a little bit...
+**Jerod Santo:** It's been kind of fun to watch all these frontenders discover server-side rendering, you know? It's like "Uh, hello guys... It's cute that you gave it its own name. It's kind of just the de facto way that people were making HTML pages for years..." But I think we get to a better place overall, because you kind of like loop back around with better foundations, and hopefully it's... I think it's all healthy, it's just the pace of innovation - there's this is like encyclical thing, where it doesn't go straight up, it goes like around in circles a little bit...
 
 **Nick Nisi:** Yeah.
 
@@ -556,7 +556,7 @@ So let's shift gears and talk kind of about the present in TypeScript; the prese
 
 **Nick Nisi:** \[laughs\]
 
-**Josh Goldberg:** I will say, the ESLint team is working on this \[unintelligible 00:51:49.10\] are working on making it simpler, but the large rewrite of ESLint that'll make it really beautiful is going to be many years in the future, I think. So... I don't know. Transitory pain. That's one of the downsides of being in a rapidly-evolving ecosystem like JavaScript, it's that things are shifting out from under you constantly, and they never really get settled until it's been a while.
+**Josh Goldberg:** I will say, the ESLint team is working on this, we at \[unintelligible 00:51:49.10\] are working on making it simpler, but the large rewrite of ESLint that'll make it really beautiful is going to be many years in the future, I think. So... I don't know. Transitory pain. That's one of the downsides of being in a rapidly-evolving ecosystem like JavaScript, it's that things are shifting out from under you constantly, and they never really get settled until it's been a while.
 
 **Nick Nisi:** Now, I want to transition to talking about the future of TypeScript a little bit. But to do that, I want to talk about a trend that's been going on pretty much since the beginning, but it seems to be maybe growing or changing as we go along. I'll say, like, to tie them all together, in the past one of the biggest hurdles that I didn't like at the beginning about TypeScript was the compile step. And then I realized that all of these cool features coming to ES2015 at the time, and later, were going to require a compile step. And then that made it okay, because I got all this cool new stuff, and I could use it, and then the compile step just became a part of the way I work. Also, one thing that I went from like pre-TypeScript constantly doing was using the Chrome debugger to step through things, because I was like "Am I actually passing an array here? Is it actually an array?" and I'd have to go check. That precipitously dropped off after starting TypeScript, because I didn't have to go check that stuff anymore, and it was just accurate, which is great. But now we're seeing more of a trend, or there's always been like a steady trend of "Let's not use TypeScript. Let's just use JavaScript with JSDoc, and go from there", and then generate types for the TypeScript lovers out there, or for the JavaScript lovers, because they benefit from it too in the language server. Do you think that that trend is going to continue or grow? And I'll remind you that there's a proposal for type annotations to come to JavaScript, which might change it -- it changes my opinion on it at least.
 
@@ -564,7 +564,7 @@ So let's shift gears and talk kind of about the present in TypeScript; the prese
 
 **Nick Nisi:** Okay. Please do.
 
-**Josh Goldberg:** \[53:57\] It is accurate, but not precise to say that folks who switched to \[unintelligible 00:54:00.05\] over .ts or .tsx files are dropping TypeScript. They're just dropping TypeScript-native syntax. I know you know this, but for the world at large, TypeScript is multiple things. It's the idea of the syntax, it's the language spec, and then it's also a whole bunch of tools built on JavaScript and TypeScript syntaxes... And you can drop just the TypeScript syntax and still get the benefits, as you've described - for example type generation - of the rest of the tool chain, the actual programmatic parts. There was some confusion when SvelteKit formed. Was it Svelte? One of them, for example, dropped just the syntax, but they're still using the tool chain.
+**Josh Goldberg:** \[53:57\] It is accurate, but not precise to say that folks who switched to javascript with JSDoc over .ts or .tsx files are dropping TypeScript. They're just dropping TypeScript-native syntax. I know you know this, but for the world at large, TypeScript is multiple things. It's the idea of the syntax, it's the language spec, and then it's also a whole bunch of tools built on JavaScript and TypeScript syntaxes... And you can drop just the TypeScript syntax and still get the benefits, as you've described - for example type generation - of the rest of the tool chain, the actual programmatic parts. There was some confusion when SvelteKit formed. Was it Svelte? One of them, for example, dropped just the syntax, but they're still using the tool chain.
 
 **Jerod Santo:** Yeah, Nick and I argued about that when it happened, because I brought it up as like "Hey, this is interesting", and he was like "No, it's not", and then we talked about it, and then finally he was like "Well, I'm actually--" Once we talked it out - because I knew that it was just the comments in the first place... And then once he realized that, he's like "Oh, they're still using TypeScript." I'm like "Yeah." You know what I'm saying, Nick?
 
@@ -576,7 +576,7 @@ So let's shift gears and talk kind of about the present in TypeScript; the prese
 
 **Jerod Santo:** Oh... Type-annotated comments?
 
-**Nick Nisi:** No, I don't type-annotate them, because they rely on TypeScript \[unintelligible 00:55:22.08\]
+**Nick Nisi:** No, I don't type-annotate them, because they rely on TypeScript to know the types.
 
 **Jerod Santo:** Right, but what if he didn't?
 
@@ -616,7 +616,7 @@ So let's shift gears and talk kind of about the present in TypeScript; the prese
 
 My concern with that proposal though is will it hamstring TypeScript's development by forcing them to live within whatever sections they carve off? And will they be able to innovate as fast or as much as they have?
 
-**Josh Goldberg:** What an interesting question. My guess is it won't hamstring TypeScript other than in good ways. TypeScript has always tried, especially the last majority of those 10 years, to just innovate in the type system, not in syntax, except for type system syntax. And they honestly haven't added, to my knowledge, any new type system spaces. They've changed how existing spaces such as declaring and then \[unintelligible 00:58:12.09\] inside an interface, or an object type, or assertions, like as, or the exclamation mark. They've messed around with those a lot. But there's really very little new stuff going on.
+**Josh Goldberg:** What an interesting question. My guess is it won't hamstring TypeScript other than in good ways. TypeScript has always tried, especially the last majority of those 10 years, to just innovate in the type system, not in syntax, except for type system syntax. And they honestly haven't added, to my knowledge, any new type system spaces. They've changed how existing spaces such as declaring and then inside an interface, or an object type, or assertions, like as, or the exclamation mark. They've messed around with those a lot. But there's really very little new stuff going on.
 
 **Nick Nisi:** \[58:24\] Sure.
 
@@ -638,7 +638,7 @@ My concern with that proposal though is will it hamstring TypeScript's developme
 
 **Jerod Santo:** \[laughs\] It's a good take.
 
-**Josh Goldberg:** I have a potentially hot take... I think it's damaging that we haven't had any major competitors to TypeScript since Flow \[unintelligible 00:59:27.08\]
+**Josh Goldberg:** I have a potentially hot take... I think it's damaging that we haven't had any major competitors to TypeScript since Flow flaked out.
 
 **Nick Nisi:** Hmm... Yeah, I'm surprised every day that I remember that React is actually written in Flow.
 
@@ -676,7 +676,7 @@ My concern with that proposal though is will it hamstring TypeScript's developme
 
 **Nick Nisi:** Right.
 
-**Josh Goldberg:** Yeah. There's a particular team member of TypeScript who's just recently merged a change for the next TypeScript version that reduces its bundle size a lot by deduplicating files. Shout-out to Jake Bailey. But yeah, just thinking about structurally the things that someone \[unintelligible 01:01:31.26\] into TypeScript, in the existing structure, it's - yeah, native-level performance would be a big one. That unlocks, I think, two areas. One is just directly "It's fast now. Yay." Your JSON files are great.
+**Josh Goldberg:** Yeah. There's a particular team member of TypeScript who's just recently merged a change for the next TypeScript version that reduces its bundle size a lot by deduplicating files. Shout-out to Jake Bailey. But yeah, just thinking about structurally the things that someone wouldn't just see into TypeScript, in the existing structure, it's - yeah, native-level performance would be a big one. That unlocks, I think, two areas. One is just directly "It's fast now. Yay." Your JSON files are great.
 
 **Jerod Santo:** Right.
 
