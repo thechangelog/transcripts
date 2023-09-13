@@ -208,7 +208,7 @@ And so we had some theories about this, and it was like - hm, I wonder if it's b
 
 **Daniel Whitenack:** So we finally got to the conclusion that the graph - we all agree on the point that the graph is showing. And to leave the graph out of it, I think that that's good. \[laughter\]
 
-**Demetrios Brinkmann:** \[unintelligible 00:47:30.29\]
+**Demetrios Brinkmann:** Don't look at the graph.
 
 **Chris Benson:** I'm sorry, he's laughing -- because we can all see each other, even though this is audio only, and he's laughing at himself.
 
