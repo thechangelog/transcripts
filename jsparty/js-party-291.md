@@ -46,7 +46,7 @@ For a long time, developers were kind of monkey-patching this kind of experience
 
 **Nick Nisi:** I mean, it flashes to a star, or zooms into a star, which is the new view, but it has a star outline... The reference, as with every reference that I have, is an old Simpsons one, where Homer and Lisa are making a dating video for Ned Flanders, and Homer just keeps asking Lisa to add star wipes...
 
-\[00:07:05.02\]
+\[07:05\]
 
 *Okay, from here we star wipe to a glamour shot of Flanders paying his bills. Then we star wipe to Flanders brushing his -- *
 
@@ -62,7 +62,7 @@ For a long time, developers were kind of monkey-patching this kind of experience
 
 **Jerod Santo:** It's a progressive enhancement, yeah. So if you don't have it, it doesn't matter. As a developer, you can put this in your websites today, and as people's browsers upgrade, they will get the star wipe. Chrome supports it, Edge, Opera, Chrome for Android, and Arc browser, which is not listed on the CanIuse.com website.
 
-**Amal Hussein:** \[00:08:04.29\] And Samsung internet browser, too. So if you have a lot of customers in Germany... I think it's almost 70% of Germans use Samsung internet browser, so you'll have some happy customers.
+**Amal Hussein:** \[08:04\] And Samsung internet browser, too. So if you have a lot of customers in Germany... I think it's almost 70% of Germans use Samsung internet browser, so you'll have some happy customers.
 
 **Jerod Santo:** So that's what View Transitions API is. Chris, are you for or against? What do you think?
 
@@ -102,7 +102,7 @@ For a long time, developers were kind of monkey-patching this kind of experience
 
 **Amal Hussein:** Astro 10.0... The SSR enhancements are also very exciting. I thought this was really cool, because it kind of also touches performance improvements as well... So they've added support for per-route code splitting, which for multi-page app is huge, and very exciting. So you're getting to kind of dynamically send stuff up, and kind of improve your performance as a result of that... That's huge. Less bytes over the wire, all good stuff. And then they have edge middleware, so you can now bundle your middleware for deployment on the edge, which I think is interesting... I'd love to -- I don't know if you all have examples of when or why people would be doing that kind of stuff. I personally don't, so I'm eager to hear any thoughts that you have on that.
 
-\[00:12:16.27\] And lastly, they have support for host customization, which I thought was also very, very exciting, because you basically -- it's similar to kind of the per-route code splitting. You're able to kind of send a dynamic or bundle up based on if you're using an AWS... Like, depending on where you're rendering and what you're rendering platform is, and as well as your compute engine. It's very, very cool.
+\[12:16\] And lastly, they have support for host customization, which I thought was also very, very exciting, because you basically -- it's similar to kind of the per-route code splitting. You're able to kind of send a dynamic or bundle up based on if you're using an AWS... Like, depending on where you're rendering and what you're rendering platform is, and as well as your compute engine. It's very, very cool.
 
 **Nick Nisi:** I think the benefit of edge middleware would be dynamically generating content that is as close to your user as possible. So on the edge, and just much faster speeds when doing that. Another tidbit that is totally not useful in any way, but I thought was kind of cool - and shout out to chantastic for pointing it out on Twitter, and me seeing that, I guess... They changed the default port for the Astro dev server to 4321, which is a countdown to lift off, to continue the theme...
 
@@ -122,7 +122,7 @@ It's one thing to buy a SaaS service or something, but it's another thing to bui
 
 **Jerod Santo:** Hey, man, I appreciate it. That's why I went to you for the hot take, because I had a feeling that your stance would be in that particular corner. Amal, what do you think?
 
-**Amal Hussein:** \[00:15:56.19\] I mean, I think it's very strategic on the part of Astro and Vercel. I mean, React is not the fastest game in town anymore, and I think Vercel really prides itself on being best in class of everything... And so it's kind of silly for them to be not supporting what I think is a best in class developer framework at this point. And so it's kind of a -- in that sense, it's somebody who's a 10 is marrying somebody who's also a 10... It's like two hot people. I've called Vercel the hottie in town a long time ago, I don't remember, at some point, some show... I was talking to Rich Harris. And when Rich Harris -- when the Svelte and Vercel partnership became a thing, I was like "Yeah, that's what it felt like."
+**Amal Hussein:** \[15:56\] I mean, I think it's very strategic on the part of Astro and Vercel. I mean, React is not the fastest game in town anymore, and I think Vercel really prides itself on being best in class of everything... And so it's kind of silly for them to be not supporting what I think is a best in class developer framework at this point. And so it's kind of a -- in that sense, it's somebody who's a 10 is marrying somebody who's also a 10... It's like two hot people. I've called Vercel the hottie in town a long time ago, I don't remember, at some point, some show... I was talking to Rich Harris. And when Rich Harris -- when the Svelte and Vercel partnership became a thing, I was like "Yeah, that's what it felt like."
 
 And so I think it's strategic on both of their parts. I think it's gonna be a symbiotic thing. I think Vercel has reach and distribution, and Astro is a good product. So with reach and distribution it's hopefully a good thing. It seems like it's more a business partnership from a marketing sense and advertising sense, but there's also the financial aspect is that I think Vercel is going to contribute $5,000 a month towards Astro development, which is great. So that's the financial aspect to that relationship.
 
@@ -140,7 +140,7 @@ And so I think it's strategic on both of their parts. I think it's gonna be a sy
 
 **Jerod Santo:** You can hire somebody with five grand a month, couldn't you?
 
-**Amal Hussein:** \[00:19:58.25\] Maybe not something full-time in the US, I don't think. But...
+**Amal Hussein:** \[19:58\] Maybe not something full-time in the US, I don't think. But...
 
 **Jerod Santo:** No. Well, the earth is flat, so I mean, surely there's talent all around the world. And you could do a part-time hire. I mean, I don't think $5,000 a month as an open source project is something to balk at, myself.
 
@@ -174,7 +174,7 @@ And so I think it's strategic on both of their parts. I think it's gonna be a sy
 
 **Amal Hussein:** This is tremendously exciting. Think about how much it sucks to write little macros and calculations in Excel. But also, Excel is just amazing, and honestly, we could replace the entire world with Excel sheets, I think; screw databases, screw web development. Let's just choose Excel. \[laughs\] But yeah, I mean, so now you can basically use Python right within Excel. So you can just highlight a cell, and then convert it into -- like, calculate Python, and you can format dates, you can run little logarithms... It's just fantastic. So Excel and Python kind of becoming a thing that can be used together, I think that's like -- I don't know, I think backend developers, they should be worried. Just saying... \[laughs\] If I could just use Excel and didn't have to build the backend - I don't know. It's tempting.
 
-**Jerod Santo:** \[00:23:46.03\] Well, Excel is a backend, in many cases. I guess maybe not Excel proper, but Google's version of Excel sheets. Anything that's Airtable... I mean, you can actually go a really long way without foreign keys, and linked relational databases, and stuff. A lot of times all you need is a single table with some columns and rows, and an API in order to put stuff in and get stuff out. Excel itself - are we talking about an online hosted version of Excel? Are we talking about the one that runs on business people's desktops around the world. Because when I think about that, I think the software shops in general will be threatened more than merely backend devs. Because if you can build your entire system right inside the Excel on your desktop, in Python, then you know, who needs custom software, right? Or I guess that is custom software, it's just a different kind of custom software...
+**Jerod Santo:** \[23:46\] Well, Excel is a backend, in many cases. I guess maybe not Excel proper, but Google's version of Excel sheets. Anything that's Airtable... I mean, you can actually go a really long way without foreign keys, and linked relational databases, and stuff. A lot of times all you need is a single table with some columns and rows, and an API in order to put stuff in and get stuff out. Excel itself - are we talking about an online hosted version of Excel? Are we talking about the one that runs on business people's desktops around the world. Because when I think about that, I think the software shops in general will be threatened more than merely backend devs. Because if you can build your entire system right inside the Excel on your desktop, in Python, then you know, who needs custom software, right? Or I guess that is custom software, it's just a different kind of custom software...
 
 **Amal Hussein:** That's how I feel... I think this is actually much more monumental than people are realizing, but...
 
@@ -228,7 +228,7 @@ And so I think it's strategic on both of their parts. I think it's gonna be a sy
 
 **Nick Nisi:** Isn't Python one of the languages that OpenAI knows better than most? Is there a correlation there? My tinfoil hat's on now. This is how AGI becomes a thing... \[laughs\]
 
-**Jerod Santo:** \[00:28:01.16\] Oh, okay.
+**Jerod Santo:** \[28:01\] Oh, okay.
 
 **Nick Nisi:** Because once it gets into our spreadsheets - man, it's over.
 
@@ -250,7 +250,7 @@ And so I think it's strategic on both of their parts. I think it's gonna be a sy
 
 **Jerod Santo:** I have a very important numbers document open right now, which is gonna run our business here... It's gonna hold the scores... Of Headlies!
 
-**Break:** \[00:28:58.12\]
+**Break:** \[28:58\]
 
 **Jerod Santo:** Now, we don't have a jingle for Headlies, because I wrote one once, and I performed it, and Kball laughed so hard at me, and not with me, that I \[unintelligible 00:32:33.01\]
 
@@ -262,7 +262,7 @@ And so I think it's strategic on both of their parts. I think it's gonna be a sy
 
 **Jerod Santo:** I won't perform it live, but maybe I'll insert it right here.
 
-\[00:32:46.23\]
+\[32:46\]
 
 *Uh-huh! I've found ya, ya stinkin' bug!*
 
@@ -312,7 +312,7 @@ I have in front of me a handful of headlines gathered from around the web, as we
 
 **Amal Hussein:** Yeah, no, I still think false. Yeah. I mean, I'm guessing this is going to be true, because it's so obvious... You know what - I'm going to flip-flop, for the game; not because I actually believe it. Somebody has to be the control point. Okay, I'm gonna --
 
-**Jerod Santo:** \[00:36:00.25\] For the love of the game.
+**Jerod Santo:** \[36:00\] For the love of the game.
 
 **Amal Hussein:** Yes, I'm gonna go with true.
 
@@ -398,7 +398,7 @@ I have in front of me a handful of headlines gathered from around the web, as we
 
 **Amal Hussein:** I was kinda -- yeah. I thought so, but I was just too lazy to change my vote, to be honest.
 
-**Jerod Santo:** \[00:40:09.09\] But I did look up the head of Threads; it is Adam Mosseri. Because I wanted it to sound like it was true, and so I gotcha. So Chris scores, because he flipped-flopped to false. Correct, Chris? Yes. And then the other two stayed true. So you both miss. So after two rounds, we have Chris in the lead with two correct answers, Nick has identified one, Amal is 0 for 2.
+**Jerod Santo:** \[40:09\] But I did look up the head of Threads; it is Adam Mosseri. Because I wanted it to sound like it was true, and so I gotcha. So Chris scores, because he flipped-flopped to false. Correct, Chris? Yes. And then the other two stayed true. So you both miss. So after two rounds, we have Chris in the lead with two correct answers, Nick has identified one, Amal is 0 for 2.
 
 **Amal Hussein:** Chris is like the master BS detector.
 
@@ -476,11 +476,11 @@ I have in front of me a handful of headlines gathered from around the web, as we
 
 **Jerod Santo:** Oh, I wouldn't be so malicious. You know I fully support x.com.
 
-**Amal Hussein:** Is this where we start playing DMX? \[00:43:41.21\]
+**Amal Hussein:** Is this where we start playing DMX? \[43:41\]
 
 **Jerod Santo:** That's what I was saying -- if you listened to our show a couple of weeks back, I was saying DMX is rolling in his grave right now, because he's getting all of his cool songs again steamrolled.
 
-**Amal Hussein:** \[00:43:57.18\] \[laughs\] I never realized that what DMX was doing on so many songs was barking...
+**Amal Hussein:** \[43:57\] \[laughs\] I never realized that what DMX was doing on so many songs was barking...
 
 **Jerod Santo:** What did you think he was doing? Coughing something up?
 
@@ -578,7 +578,7 @@ I have in front of me a handful of headlines gathered from around the web, as we
 
 **Nick Nisi:** I'm gonna go false. And I'm curious what this has to do with JS Party, but Taylor Swift, TS, TypeScript... Yeah, I got it. Okay.
 
-**Jerod Santo:** \[00:47:53.18\] \[laughs\] I already told you, these headlines are fun, and web development is also fun. So they're very related. Chris, we've got them on either side of the fence on this one...
+**Jerod Santo:** \[47:53\] \[laughs\] I already told you, these headlines are fun, and web development is also fun. So they're very related. Chris, we've got them on either side of the fence on this one...
 
 **Christopher Hiller:** Yeah. Let's say true.
 
@@ -660,7 +660,7 @@ I have in front of me a handful of headlines gathered from around the web, as we
 
 **Amal Hussein:** And really, I should know better.
 
-**Jerod Santo:** \[00:52:00.17\] We'll leave that as a --
+**Jerod Santo:** \[52:00\] We'll leave that as a --
 
 **Nick Nisi:** Plus Plus. Get your Plus Plus. \[laughter\]
 
@@ -758,7 +758,7 @@ I have in front of me a handful of headlines gathered from around the web, as we
 
 **Jerod Santo:** Oh. Not interested.
 
-**Christopher Hiller:** \[00:56:05.27\] The ones that are false should be completely made up. Because you take part of the headlines and you change it. But if we've seen those, it's going to be easy to know which one is which. And so apparently, I read way too much tech news, and so I see that. Now, if you had made up stuff completely out of the blue, I would have no idea.
+**Christopher Hiller:** \[56:05\] The ones that are false should be completely made up. Because you take part of the headlines and you change it. But if we've seen those, it's going to be easy to know which one is which. And so apparently, I read way too much tech news, and so I see that. Now, if you had made up stuff completely out of the blue, I would have no idea.
 
 **Jerod Santo:** Well, I did.
 
@@ -810,7 +810,7 @@ I have in front of me a handful of headlines gathered from around the web, as we
 
 **Jerod Santo:** Alright, that is JS Party for this week. I'm Jerod, with Nick and Amal, and Chris who doesn't want to say anything, so of course we're going to honor that request... We'll talk to you on the next one.
 
-**Outro:** \[00:59:27.02\]
+**Outro:** \[59:27\]
 
 **Jerod Santo:** Douglas Crockford calls JavaSkwipt -- JavaScript...
 
