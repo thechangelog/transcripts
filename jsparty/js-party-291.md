@@ -48,7 +48,7 @@ For a long time, developers were kind of monkey-patching this kind of experience
 
 \[07:05\]
 
-*Okay, from here we star wipe to a glamour shot of Flanders paying his bills. Then we star wipe to Flanders brushing his -- *
+*Okay, from here we star wipe to a glamour shot of Flanders paying his bills. Then we star wipe to Flanders brushing his --*
 
 *Dad, there other wipes besides star wipes...*
 
