@@ -1,4 +1,4 @@
-**Jerod Santo**: Hello, hello. It's your internet friends... I'm Jerod, and I am joined today by Nick Nisi. What's up, Nick?
+**Jerod Santo:** Hello, hello. It's your internet friends... I'm Jerod, and I am joined today by Nick Nisi. What's up, Nick?
 
 **Nick Nisi:** Hoy-hoy! How's it going?
 
