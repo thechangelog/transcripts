@@ -58,7 +58,7 @@ Clip from the demo video.
 
 **Jerod Santo:**
 
-Matt Basta tells the fascinating tale of the time he single-handedly built a web-based Excel clone for the data scientists inside Uber only to have the entire division sold to another company a week(ish) later. He learned _a lot_ about how Excel works and shares some of the interesting bits and he has a super healthy outlook on what happened to all his hard work: "My first reaction was to publish the code [on Github](https://github.com/WebSheets). My second reaction was to move on. There was maybe a part of me—my younger self—that was disappointed that this major piece of code that I’d labored over had been so gently used before being retired. I wasn’t recognized for it in any material way. My manager didn’t even know what I’d built.
+Matt Basta tells the fascinating tale of the time he single-handedly built a web-based Excel clone for the data scientists inside Uber only to have the entire division sold to another company a week(ish) later. He learned _a lot_ about how Excel works and shares some of the interesting bits and he has a super healthy outlook on what happened to all his hard work: "My first reaction was to publish the code [on GitHub](https://github.com/WebSheets). My second reaction was to move on. There was maybe a part of me—my younger self—that was disappointed that this major piece of code that I’d labored over had been so gently used before being retired. I wasn’t recognized for it in any material way. My manager didn’t even know what I’d built.
 
 On the other hand, we as engineers need to be real with ourselves. Every piece of code you write as an engineer is legacy code. Maybe not right now, but it will be. Someone will take joy in ripping it out someday. Every masterpiece will be gleefully replaced, it’s just a matter of time. So why get precious about how long that period of time is?"
 
@@ -78,6 +78,6 @@ I'd love to see a comparison (link me up if you know of one), but my guess is th
 
 **Jerod Santo:**
 
-That is the news for now! We have an _excellent_ interview for you coming up on Wednesday: RedMonk's [Stephen O'Grady](https://redmonk.com/team/stephen-ogrady/) joins us in the wake of Llama 2 and HashiCorp's relicense to discuss why [he believes](https://redmonk.com/sogrady/2023/08/03/why-opensource-matters/) the open source definition really matters.
+That is the news for now! We have an _excellent_ interview for you coming up on Wednesday: RedMonk's [Stephen O'Grady](https://redmonk.com/team/stephen-ogrady/) joins us in the wake of Llama 2 and HashiCorp's relicense to discuss why [he believes](https://redmonk.com/sogrady/2023/08/03/why-open source-matters/) the open source definition really matters.
 
 Have a great week, **tell your friends about Changelog News** if ya dig it, and I'll talk to you again real soon. 💚
