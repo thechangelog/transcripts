@@ -78,7 +78,7 @@
 
 **Jon Evans:** I'm pretty sure there's no bio police that comes along, so...
 
-**Jerod Santo:** \[00:05:55.05\] It's my bio and I'll say what I want to. That's funny. So catch me up then, Jon, because we haven't spoken much. Obviously, you've written a book in the meantime. You were an author prior. I remember us talking about some of the novels that you had written, and what you were up to... But how did you go from that? That's 2020, was when it was all said and done, I believe, when it was all entered in...
+**Jerod Santo:** \[05:55\] It's my bio and I'll say what I want to. That's funny. So catch me up then, Jon, because we haven't spoken much. Obviously, you've written a book in the meantime. You were an author prior. I remember us talking about some of the novels that you had written, and what you were up to... But how did you go from that? That's 2020, was when it was all said and done, I believe, when it was all entered in...
 
 **Jon Evans:** Yup.
 
@@ -134,7 +134,7 @@
 
 **Adam Stacoviak:** 20 seasons...
 
-**Jerod Santo:** \[00:10:08.05\] More than 20 years. They have, I think, over 750 episodes. And then if you think, "Okay, per episode, how many "predictions of events" will there be per episode?" Hundreds of things they come up within in a 22-minute time period, that could be true in some sort of distant future... So that's just large numbers. And I think if you have enough numbers, you're gonna hit on a few. And it's better than Nostradamus, because his stuff is all very vague, and like interpretable... But at least with The Simpsons, it is like you said, Adam, it is like a very specific thing that happens. And it's not like an interpretation of the thing, it's like no, that's literally what happened; or it's off by a skew. So it is pretty impressive, but it is just like -- what's impressive to me is their large numbers. I mean, it's amazing, the ability to sustain for that long.
+**Jerod Santo:** \[10:08\] More than 20 years. They have, I think, over 750 episodes. And then if you think, "Okay, per episode, how many "predictions of events" will there be per episode?" Hundreds of things they come up within in a 22-minute time period, that could be true in some sort of distant future... So that's just large numbers. And I think if you have enough numbers, you're gonna hit on a few. And it's better than Nostradamus, because his stuff is all very vague, and like interpretable... But at least with The Simpsons, it is like you said, Adam, it is like a very specific thing that happens. And it's not like an interpretation of the thing, it's like no, that's literally what happened; or it's off by a skew. So it is pretty impressive, but it is just like -- what's impressive to me is their large numbers. I mean, it's amazing, the ability to sustain for that long.
 
 **Adam Stacoviak:** Yeah. The most sustained one they had though was Trump coming down the escalator, being president. That was -- nobody predicted that, really. And that was like the meme... It was a predicted meme, essentially; it turned into a meme, but it was predicted.
 
@@ -160,9 +160,9 @@
 
 **Jerod Santo:** Really?
 
-**Jon Evans:** Yeah. So this goes back to the early 1800s. There's a giant volcanic explosion in Indonesia. 1815. 1816, the weather is terrible across their own hemisphere. There's droughts, crops fail... And a bunch of people at this mansion in Switzerland, extremely rich and privileged and weird people, have a terrible holiday. This includes Lord Byron, who's like the Kanye West of his day. Super-controversial. His daughter grew up to be the world's first computer programmer, Ada. \[00:13:18.28\] Percy Shelley, whose poem Ozymandias you probably read in high school... Anyways, Byron challenges them all to write the scariest story... And the most culturally significant person who gets this challenge is Shelley's 19-year-old girlfriend, Mary Godwin, who writes Frankenstein as a result. And everyone knows Frankenstein, right? The guy \[unintelligible 00:13:37.23\] That's not actually how the book works, though. In the book, Frankenstein is this brilliant creature that teaches itself to read, teaches itself languages, invents new things... It is basically an artificial general intelligence, that the other characters are concerned is going to reproduce and take over the world. So like the early 1800s, we were already worried about AGI and the AI doom, and the robots killing us all.
+**Jon Evans:** Yeah. So this goes back to the early 1800s. There's a giant volcanic explosion in Indonesia. 1815. 1816, the weather is terrible across their own hemisphere. There's droughts, crops fail... And a bunch of people at this mansion in Switzerland, extremely rich and privileged and weird people, have a terrible holiday. This includes Lord Byron, who's like the Kanye West of his day. Super-controversial. His daughter grew up to be the world's first computer programmer, Ada. \[13:18\] Percy Shelley, whose poem Ozymandias you probably read in high school... Anyways, Byron challenges them all to write the scariest story... And the most culturally significant person who gets this challenge is Shelley's 19-year-old girlfriend, Mary Godwin, who writes Frankenstein as a result. And everyone knows Frankenstein, right? The guy \[unintelligible 00:13:37.23\] That's not actually how the book works, though. In the book, Frankenstein is this brilliant creature that teaches itself to read, teaches itself languages, invents new things... It is basically an artificial general intelligence, that the other characters are concerned is going to reproduce and take over the world. So like the early 1800s, we were already worried about AGI and the AI doom, and the robots killing us all.
 
-**Adam Stacoviak:** \[00:14:13.03\] What?!
+**Adam Stacoviak:** \[14:13\] What?!
 
 **Jon Evans:** Yes, that is correct.
 
@@ -236,7 +236,7 @@
 
 **Adam Stacoviak:** I mean, I don't have the ability to pull up my personal archive here of what this thing is called, and I'm gonna be so upset later... But this sound stuff is legitimate. Like, they do some really unique things with sound. Like, when you pay attention to that spectrum of people uncovering this knowledge and this experimentation, it's just, you cannot -- it's like science fiction. It's so wild what's possible with sound.
 
-**Jon Evans:** \[00:18:03.29\] So the other thing I've heard about ultrasound is people are speculating - you know, you get an ultrasound image, and it's very hazy, and you need an expert to interpret it... But they're talking about if you can get an AI to clean that up and turn it into like something movie-quality, everyone could have their own personal ultrasound. And if you're like "Oh, I feel weird today. I think I'll inspect the inside of my body by aiming the ultrasound there and having the AI show me exactly what's going on, to see if there's anything weird going on." Which is a little disturbing, honestly, if you're not in the medical profession... But within the bounds of possibility.
+**Jon Evans:** \[18:03\] So the other thing I've heard about ultrasound is people are speculating - you know, you get an ultrasound image, and it's very hazy, and you need an expert to interpret it... But they're talking about if you can get an AI to clean that up and turn it into like something movie-quality, everyone could have their own personal ultrasound. And if you're like "Oh, I feel weird today. I think I'll inspect the inside of my body by aiming the ultrasound there and having the AI show me exactly what's going on, to see if there's anything weird going on." Which is a little disturbing, honestly, if you're not in the medical profession... But within the bounds of possibility.
 
 **Jerod Santo:** Well, according to Egyptfwd.org, a study shows the ancient Egyptians used sound waves in building pyramids. So if that headline is anything to be believed, then Adam's sentence is also something to be believed.
 
@@ -286,7 +286,7 @@
 
 **Adam Stacoviak:** I mean, these things are just insane. I was looking at it, it's like harmonics, I believe is a word used. I can't even find it. I'm just so upset about it. Oh, here it is. Cymatics. It's this language, essentially, in sound. Cymatics. Look into it; it'll blow your mind.
 
-**Jon Evans:** \[00:21:52.12\] So this is not quite the same thing. But in terms of things we understand that blow your mind - three days ago in the New York Times there was this opinion piece by an astrophysicist, saying "Our standard model of physics doesn't work." The more information we get from like the Hubble telescope and so forth, the more it doesn't fit in line with what we have. And there's this amazing "one possibility" raised by the physicist Lee Smolin and the philosopher Roberto Unger, that the laws of physics can evolve and change over time. Different laws might even compete for effectiveness. So this is an actual proposal being proposed by an actual astrophysicist in the New York Times three days ago... \[laughter\] We live in a very strange universe, is all I'm saying.
+**Jon Evans:** \[21:52\] So this is not quite the same thing. But in terms of things we understand that blow your mind - three days ago in the New York Times there was this opinion piece by an astrophysicist, saying "Our standard model of physics doesn't work." The more information we get from like the Hubble telescope and so forth, the more it doesn't fit in line with what we have. And there's this amazing "one possibility" raised by the physicist Lee Smolin and the philosopher Roberto Unger, that the laws of physics can evolve and change over time. Different laws might even compete for effectiveness. So this is an actual proposal being proposed by an actual astrophysicist in the New York Times three days ago... \[laughter\] We live in a very strange universe, is all I'm saying.
 
 **Jerod Santo:** Maybe the laws are also changing over time... Okay.
 
@@ -318,7 +318,7 @@ There used to be a lot of space travel science fiction in the '70s and '80s, whe
 
 **Jerod Santo:** So you're pulling it out of the software world. That's cool.
 
-**Break**: \[00:25:46.20\]
+**Break**: \[25:46\]
 
 **Adam Stacoviak:** I have an idea for you.
 
@@ -370,7 +370,7 @@ There used to be a lot of space travel science fiction in the '70s and '80s, whe
 
 **Jon Evans:** And Greg Egan, who I mentioned earlier, also writes his own software. On his website he has simulations of the physics that he's using for his highly advanced and abstract hard science fiction. And so yeah, I wonder if \[unintelligible 00:33:49.06\]
 
-**Adam Stacoviak:** \[00:33:54.00\] Well, I just think there's a lot of -- I was joking about the DNS idea, but I think it would be kind of a good plot. It'd be kind of cool. There's a growing faction of humanity that are interested in software, and software tech, and budding software, that I think don't have particularly -- not all science fiction gets me the way that like software-driven storylines go...
+**Adam Stacoviak:** \[33:54\] Well, I just think there's a lot of -- I was joking about the DNS idea, but I think it would be kind of a good plot. It'd be kind of cool. There's a growing faction of humanity that are interested in software, and software tech, and budding software, that I think don't have particularly -- not all science fiction gets me the way that like software-driven storylines go...
 
 **Jon Evans:** I totally agree.
 
@@ -416,7 +416,7 @@ And of course, \[unintelligible 00:35:48.03\] Which in turn, by the way -- you k
 
 **Jon Evans:** But anyways, yeah, I don't really buy the sort of "AI is going to be terrible and kill us al." I don't really buy the "AI is gonna be wonderful, and turn us all into angels", blah, blah, blah. I'm confident that the future is gonna be really weird, however.
 
-**Adam Stacoviak:** \[00:37:41.08\] Well, I think we got to this degree of the conversation by saying that so much is changing. Like, you mentioned physics in your Times article... And I think we're kind of in this world right now of change. We're in a world of change around, in particular, our world here in software development, where AI is becoming a pair programmer, and very much becoming like a sidekick to the individual, and a sidekick to the corporation building software. And then we're also in a turbulent time of economics; world economics is turbulent right now. There's lots of stuff happening in all parts of the world. There's things trying to change the power of the dollar, the US dollar, as I'm talking about it... There's lots of change around physics, and going back to the Moon, or have we gone, or... All these things that are like basically every question imaginable is now in question again. It's like, is the Earth flat? Is the Earth round? Have we gone to space? Is there space? Is there only low Earth orbit? World economics, physics... I mean, all these things are essentially what seems to have been hard truths are now like "Well, really? Are they true?"
+**Adam Stacoviak:** \[37:41\] Well, I think we got to this degree of the conversation by saying that so much is changing. Like, you mentioned physics in your Times article... And I think we're kind of in this world right now of change. We're in a world of change around, in particular, our world here in software development, where AI is becoming a pair programmer, and very much becoming like a sidekick to the individual, and a sidekick to the corporation building software. And then we're also in a turbulent time of economics; world economics is turbulent right now. There's lots of stuff happening in all parts of the world. There's things trying to change the power of the dollar, the US dollar, as I'm talking about it... There's lots of change around physics, and going back to the Moon, or have we gone, or... All these things that are like basically every question imaginable is now in question again. It's like, is the Earth flat? Is the Earth round? Have we gone to space? Is there space? Is there only low Earth orbit? World economics, physics... I mean, all these things are essentially what seems to have been hard truths are now like "Well, really? Are they true?"
 
 **Jon Evans:** Well, I think this is like a factor of what I'm saying, that software, like what you're seeing and your exposure to the world is coming through these layers and layers of filters, like journalists, and software, your feed algorithm deciding what you see \[unintelligible 00:39:04.27\] So everyone's getting a slightly different view on what used to be a shared common world, which is an interesting background. I don't think that's entirely bad though.
 
@@ -454,7 +454,7 @@ And of course, \[unintelligible 00:35:48.03\] Which in turn, by the way -- you k
 
 **Jerod Santo:** So on the scale of AI doom, Jon, if 100 is utter doom, that's Eliezer Yudkowsky, and zero is like no doom, zero doom, where do you feel like you personally fall on that scale as we move forward? Are you like a 50/50 guy? 70/30? What do you think's gonna happen on a scaled fashion?
 
-**Jon Evans:** \[00:41:50.08\] If I'm forced onto that scale, I'd be like 30 on the doom. I'm not as concerned, and that's in the long-term. I'm really quite unconcerned with the short to medium term. But also, I think the scale -- I feel like we're going to have a future which is sufficiently weird in unexpected ways that we're going to look back \[unintelligible 00:42:07.15\] and think "I don't know what we were thinking, because it turns out things are much stranger than that, and what actually happened was totally orthogonal to what we expected."
+**Jon Evans:** \[41:50\] If I'm forced onto that scale, I'd be like 30 on the doom. I'm not as concerned, and that's in the long-term. I'm really quite unconcerned with the short to medium term. But also, I think the scale -- I feel like we're going to have a future which is sufficiently weird in unexpected ways that we're going to look back \[unintelligible 00:42:07.15\] and think "I don't know what we were thinking, because it turns out things are much stranger than that, and what actually happened was totally orthogonal to what we expected."
 
 **Jerod Santo:** It's a lot different than we -- it was completely on a different scale that we didn't even know existed.
 
@@ -464,7 +464,7 @@ And of course, \[unintelligible 00:35:48.03\] Which in turn, by the way -- you k
 
 **Jerod Santo:** Well, I think when you ask the question, doom is in the eye of the beholder. Whatever you would define do as, then you scale it according to that thing. I think we could all have different definitions, but somewhere in the realm of like takeover, death, insufficiency for life of humanity... I don't know. Of course, my doom - I'm rooted in like '80s and '90s pop culture, so I go Terminator 2.
 
-\[00:43:20.18\]
+\[43:20\]
 
 *Come with me if you want to live*.
 
@@ -514,7 +514,7 @@ And of course, \[unintelligible 00:35:48.03\] Which in turn, by the way -- you k
 
 **Jon Evans:** Nice full circle loop there. Yeah, that was good.
 
-**Adam Stacoviak:** \[00:45:40.11\] For sure. So I'm kind of like -- I'm not actually scared of the AI overlords in the future. A little bit, just because I have to say that; it's required. A little scared. Man, I just -- I guess my hope is less a prediction; I hope that humanity finds a way to institute these artificial knowledge bases to be comrades... And that's maybe a bad term. Collaborative, than not. To not be us versus them, but more like symbiotic. I hope that that's how it remains. But I imagine at some point an intelligence would get to be so intelligent that I think that enlarge, from what I know about humanity and the Earth, and the way we treat it, and the way we grow, we are kind of like a virus. Where we go, things get decimated, from the eyes of the Earth. And so when you zoom out really, really far -- I mean, I know at the closeness of humanity there's love, and there's respect, and there's all these beautiful things. But from the -- it's like Monet. Monet, I think there's a thing when it's a classic Monet, is what they would say; from far away, a Monet looks beautiful. But when you get closer, you see the artifacts, you see the imperfections. I'm not saying Monet is not a beautiful woman, I'm just saying that's the thing. And I think that might be the case here, where if when you're AI, maybe you zoom so far out to humanity you think "Well, ultimately, this is like a death doom. They're going to war. Destruct, fight, civil war." I mean, we see that in today's society; you turn on the news, it's all -- it's not good, generally. Where's the good news channel?
+**Adam Stacoviak:** \[45:40\] For sure. So I'm kind of like -- I'm not actually scared of the AI overlords in the future. A little bit, just because I have to say that; it's required. A little scared. Man, I just -- I guess my hope is less a prediction; I hope that humanity finds a way to institute these artificial knowledge bases to be comrades... And that's maybe a bad term. Collaborative, than not. To not be us versus them, but more like symbiotic. I hope that that's how it remains. But I imagine at some point an intelligence would get to be so intelligent that I think that enlarge, from what I know about humanity and the Earth, and the way we treat it, and the way we grow, we are kind of like a virus. Where we go, things get decimated, from the eyes of the Earth. And so when you zoom out really, really far -- I mean, I know at the closeness of humanity there's love, and there's respect, and there's all these beautiful things. But from the -- it's like Monet. Monet, I think there's a thing when it's a classic Monet, is what they would say; from far away, a Monet looks beautiful. But when you get closer, you see the artifacts, you see the imperfections. I'm not saying Monet is not a beautiful woman, I'm just saying that's the thing. And I think that might be the case here, where if when you're AI, maybe you zoom so far out to humanity you think "Well, ultimately, this is like a death doom. They're going to war. Destruct, fight, civil war." I mean, we see that in today's society; you turn on the news, it's all -- it's not good, generally. Where's the good news channel?
 
 **Jerod Santo:** Some of that's supply and demand as well, though.
 
@@ -536,7 +536,7 @@ And of course, \[unintelligible 00:35:48.03\] Which in turn, by the way -- you k
 
 **Jerod Santo:** Well, because if you invent God, then you are God, right? That's the point you're making. But also, that desire, I think, is innate in each and every one of us, is to elevate ourselves to that point. And so that's the whole Cast Away, Wilson, "Look what I have created", when he created fire.
 
-\[00:49:05.24\]
+\[49:05\]
 
 *Yeah!! Look what I have created! I have made fire! I... Have made fire!*
 
@@ -548,7 +548,7 @@ And of course, \[unintelligible 00:35:48.03\] Which in turn, by the way -- you k
 
 **Jerod Santo:** ...and so we find ourselves doing it. I don't know, I look at the current state of AI, and I feel like we've plateaued -- I don't know, maybe this will be dumb here in six months, not even in the Arctic Code Vault... I feel like we've plateaued again, to a certain extent. I feel like there was -- I think that the progress that we've made in the world of machine learning has been leaps and then plateaus. And you kind of have a new technique, a new thing, a new idea that gets implemented, and then you have just kind of revolutions around that. Not revolutions; evolutions around that idea for a while, until a new thing -- I mean, transformers is the current technique that has produced this new step function in AI's ability to do what it does. Go ahead.
 
-**Jon Evans:** \[00:50:07.26\] As an aside, I totally agree with that. I've actually read about -- I have a Substack about AI, and I just read about this recently, in the last five days, that we've plateaued. Because like this last winter, when things were dropping every week, I'd go to AI events in San Francisco, and people were stumbling around like someone just hit them on the head with a hammer, going "What is going on? This is insane. There's something new every week, and it's blowing my mind." And then GPT-4 dropped, and that sort of ended it... And we have pretty much plateaued since then. I think everyone in the field would agree... With some relief, honestly, because that was a really crazy time, January to March of this year.
+**Jon Evans:** \[50:07\] As an aside, I totally agree with that. I've actually read about -- I have a Substack about AI, and I just read about this recently, in the last five days, that we've plateaued. Because like this last winter, when things were dropping every week, I'd go to AI events in San Francisco, and people were stumbling around like someone just hit them on the head with a hammer, going "What is going on? This is insane. There's something new every week, and it's blowing my mind." And then GPT-4 dropped, and that sort of ended it... And we have pretty much plateaued since then. I think everyone in the field would agree... With some relief, honestly, because that was a really crazy time, January to March of this year.
 
 **Jerod Santo:** It absolutely was. And so we're in a better place than we were, but we don't know how long we're going to be in this particular plateau. And I've said this, I think probably not on this show, but on JS Party, as a personal user of the tools, I've hit now what I call the trough of disillusionment. I didn't coin that term, but I'm gonna apply that term to this particular case, where I know the limits of the tooling, I use it for what it's good at, I avoid it for things that I know that it's bad at, and it's just become another tool for me, and a useful tool, but not a life-changing tool for me personally. And so even in my own personal use, I've kind of hit that plateau where I'm like "Okay, it fits into my workflows here, it doesn't fit into it here, and I'm more productive because of it in this case", especially in like Give me 40 synonyms for this word." When it comes to words, it's really good at words, and so I use it for those things. When it comes to Elixir, it's just okay Elixir, and so I don't use it quite as much. When it comes to TypeScript, it's better at TypeScript than it is an Elixir, and so I'll use it for TypeScript.
 
@@ -582,7 +582,7 @@ And of course, \[unintelligible 00:35:48.03\] Which in turn, by the way -- you k
 
 **Adam Stacoviak:** And scary. I've been wrecked before... It just brought back some PTSD in me. In terms of AI, some really interesting uses I've done recently - I'd like to share one, because I just didn't consider doing this, and this is where I think it's leveled up humanity in subtle ways. So this weekend I was barbecuing, because that's what you do on holiday weekends... At least here in the States, it was Labor Day weekend. And I had some family over, and I had these gigantic, Texas-sized potatoes. So I was gonna make baked potatoes. And they weren't just like baked potatoes, they were smoked baked potatoes. And so I wanted to go true barbecue and do low and slow, 225, super-smoke, for as long as it takes to get to 205.
 
-**Jon Evans:** \[00:54:00.24\] I haven't had breakfast yet. I'm getting hungry.
+**Jon Evans:** \[54:00\] I haven't had breakfast yet. I'm getting hungry.
 
 **Adam Stacoviak:** Sorry about that.
 
@@ -618,7 +618,7 @@ So I'm like "Well, ChatGPT, help me figure this out. If I've got these available
 
 **Jerod Santo:** Yeah. That letter is signed by really smart people. I mean, you mentioned Yudkowsky, and he actually - I've found a Time article where he says that that letter didn't go far enough. And so he really is, as you said, kind of the high priest of this particular belief. He's like way on the edge of doom.
 
-**Adam Stacoviak:** \[00:58:12.19\] What's the letter say? Give a summary.
+**Adam Stacoviak:** \[58:12\] What's the letter say? Give a summary.
 
 **Jon Evans:** The letter says we should stop all AI research until we understand what the hell was going on. That's basically it.
 
