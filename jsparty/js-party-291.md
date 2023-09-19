@@ -106,7 +106,7 @@ For a long time, developers were kind of monkey-patching this kind of experience
 
 **Nick Nisi:** I think the benefit of edge middleware would be dynamically generating content that is as close to your user as possible. So on the edge, and just much faster speeds when doing that. Another tidbit that is totally not useful in any way, but I thought was kind of cool - and shout out to chantastic for pointing it out on Twitter, and me seeing that, I guess... They changed the default port for the Astro dev server to 4321, which is a countdown to lift off, to continue the theme...
 
-**Jerod Santo:** That is huge. That's the biggest innovation since the 1234 count up, which was also innovative, but nowhere near as exciting. Speaking of nowhere near as exciting, there was also some backend kind of business announcements coming out of Astro and Vercel, just a few days prior to the 3.0. launch. This is an official hosting partner. So Vercel now is going to be supporting Astro development to the tune of $5,000 each month towards the ongoing maintenance and development. And in turn, Astro will be, I guess, just saying \[unintelligible 00:13:56.10\] or I don't know exactly what Astro is going to be doing on their side of this deal... But they've named Vercel as an official hosting partner. Chris - hot takes on this partnership between an open source project and a hosting provider.
+**Jerod Santo:** That is huge. That's the biggest innovation since the 1234 count up, which was also innovative, but nowhere near as exciting. Speaking of nowhere near as exciting, there was also some backend kind of business announcements coming out of Astro and Vercel, just a few days prior to the 3.0. launch. This is an official hosting partner. So Vercel now is going to be supporting Astro development to the tune of $5,000 each month towards the ongoing maintenance and development. And in turn, Astro will be, I guess, just saying use Vercel with us? Or I don't know exactly what Astro is going to be doing on their side of this deal... But they've named Vercel as an official hosting partner. Chris - hot takes on this partnership between an open source project and a hosting provider.
 
 **Christopher Hiller:** Look, I don't know if anybody heard about Gatsby. Have we heard about Gatsby? They got bought by Netlify, right?
 
@@ -202,7 +202,7 @@ And so I think it's strategic on both of their parts. I think it's gonna be a sy
 
 **Nick Nisi:** I'm just appalled over here. My mouth is just open...
 
-**Amal Hussein:** Listen, when I was first learning TypeScript, a developer that I worked with -- I was just complaining about something, and I was like "WTF?!" And he was like "Listen, TypeScript leaves nothing to the imagination." And I have forever kind of thought about it that way. Like, it really leaves nothing to the imagination. And I feel like with Python, I feel like I can go anywhere, do anything. And guess what? There's one way to do everything \[unintelligible 00:26:32.20\]
+**Amal Hussein:** Listen, when I was first learning TypeScript, a developer that I worked with -- I was just complaining about something, and I was like "WTF?!" And he was like "Listen, TypeScript leaves nothing to the imagination." And I have forever kind of thought about it that way. Like, it really leaves nothing to the imagination. And I feel like with Python, I feel like I can go anywhere, do anything. And guess what? There's one way to do everything too.
 
 **Nick Nisi:** "My code is so ambiguous! It's fun!"
 
@@ -252,7 +252,7 @@ And so I think it's strategic on both of their parts. I think it's gonna be a sy
 
 **Break:** \[28:58\]
 
-**Jerod Santo:** Now, we don't have a jingle for Headlies, because I wrote one once, and I performed it, and Kball laughed so hard at me, and not with me, that I \[unintelligible 00:32:33.01\]
+**Jerod Santo:** Now, we don't have a jingle for Headlies, because I wrote one once, and I performed it, and Kball laughed so hard at me, and not with me, that I \[unintelligible 00:32:33.01\] it to dev null.
 
 **Amal Hussein:** I want to see it. Can you do it?
 
@@ -638,7 +638,7 @@ I have in front of me a handful of headlines gathered from around the web, as we
 
 **Amal Hussein:** Yeah, I knew it. I knew it...!
 
-**Christopher Hiller:** Well, thanks for \[unintelligible 00:51:09.07\] everybody.
+**Christopher Hiller:** Well, thanks for playing everybody.
 
 **Jerod Santo:** And I don't believe it was taken out of context. I think that's exactly what they said.
 
@@ -670,7 +670,7 @@ I have in front of me a handful of headlines gathered from around the web, as we
 
 **Jerod Santo:** In private. Only amongst us friends. Okay, we'll keep that for Plus Plus people. If you want to hear Amal's dirty Elon Musk fake headline that's going to be rated R, sign up for Changelog Plus Plus. Okay, last one, last round. This is an anonymous listener... Oh, shoot, I can't say that. \[laugh\] I can't say a listener came up with this. We're gonna skip that one, because I just gave out the answer.
 
-**Amal Hussein:** Ohh...!! Anonymous listener? But why does it matter if \[unintelligible 00:52:35.10\]
+**Amal Hussein:** Ohh...!! Anonymous listener? But why does it matter if our listeners...
 
 **Nick Nisi:** All listeners are anonymous.
 
@@ -790,7 +790,7 @@ I have in front of me a handful of headlines gathered from around the web, as we
 
 **Jerod Santo:** Well, there was another Taylor Swift one that I thought about covering, where it was that in Seattle the number of people at the tour actually caused a mini earthquake. Did you see that one?
 
-**Amal Hussein:** Oh, my God... I did hear about that. I did hear about that. The foot-stomping in the stadium caused some \[unintelligible 00:57:42.01\]
+**Amal Hussein:** Oh, my God... I did hear about that. I did hear about that. The foot-stomping in the stadium caused some some reaction.
 
 **Jerod Santo:** Yes, the foot-stomping caused an earthquake.
 
