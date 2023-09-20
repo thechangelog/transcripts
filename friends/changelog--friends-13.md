@@ -368,7 +368,7 @@ There used to be a lot of space travel science fiction in the '70s and '80s, whe
 
 **Adam Stacoviak:** Yeah.
 
-**Jon Evans:** And Greg Egan, who I mentioned earlier, also writes his own software. On his website he has simulations of the physics that he's using for his highly advanced and abstract hard science fiction. And so yeah, I wonder if \[unintelligible 00:33:49.06\]
+**Jon Evans:** And Greg Egan, who I mentioned earlier, also writes his own software. On his website he has simulations of the physics that he's using for his highly advanced and abstract hard science fiction. And so yeah, I wonder if we'll expect novels to come out of GitHub repos.
 
 **Adam Stacoviak:** \[33:54\] Well, I just think there's a lot of -- I was joking about the DNS idea, but I think it would be kind of a good plot. It'd be kind of cool. There's a growing faction of humanity that are interested in software, and software tech, and budding software, that I think don't have particularly -- not all science fiction gets me the way that like software-driven storylines go...
 
@@ -390,9 +390,9 @@ There used to be a lot of space travel science fiction in the '70s and '80s, whe
 
 **Adam Stacoviak:** One more name I'll throw at you guys... Nick Jones. Not quite software, but close enough. Joseph Bridgeman, that series begins with a book called "And then she vanished." And it's time travel. It's a unique version of time travel. Phenomenal book. Phenomenal series. It's four books.
 
-**Jon Evans:** My favorite -- this is like a deep cut, but my favorite classic science fiction novel about artificial intelligence is from the early '70s. It's called "The adolescence of P-1." It's really prophetic. It's set in my alma mater, University of Waterloo in Canada, \[unintelligible 00:35:32.26\] But it's like a very software-oriented, very realistic attitude towards artificial intelligence getting out of the box, and going onto the internet in the 1970s, when we didn't even have an internet, basically. So it's pretty crazy.
+**Jon Evans:** My favorite -- this is like a deep cut, but my favorite classic science fiction novel about artificial intelligence is from the early '70s. It's called "The adolescence of P-1." It's really prophetic. It's set in my alma mater, University of Waterloo in Canada, \[unintelligible 00:35:32.26\] But it's like a very software-oriented, very realistic attitude towards artificial intelligence getting out of the box, and going onto the internet -- in the 1970s, when we didn't even have an internet, basically. So it's pretty crazy.
 
-And of course, \[unintelligible 00:35:48.03\] Which in turn, by the way -- you know Eliezer Yudkowsky, the AI doom guy?
+And of course, Vernor Vinge -- you know, he invented everything, but... True Names and Other Dangers, the first real internet AI story, that's great. Which in turn, by the way -- you know Eliezer Yudkowsky, the AI doom guy?
 
 **Adam Stacoviak:** No. We need to make a list, because my list is short. And I'm barely into it.
 
@@ -400,7 +400,7 @@ And of course, \[unintelligible 00:35:48.03\] Which in turn, by the way -- you k
 
 **Jerod Santo:** Okay.
 
-**Jon Evans:** He once said on Twitter that reading \[unintelligible 00:36:14.24\] short story was like the defining moment in his life, that changed everything for him. And after he read it, he knew he was gonna do with the rest of his life.
+**Jon Evans:** He once said on Twitter that reading this Vernor Vinge short story was like the defining moment in his life, that changed everything for him. And after he read it, he knew he was gonna do with the rest of his life.
 
 **Adam Stacoviak:** Is that right?
 
@@ -408,9 +408,9 @@ And of course, \[unintelligible 00:35:48.03\] Which in turn, by the way -- you k
 
 **Jerod Santo:** Oh, for sure.
 
-**Adam Stacoviak:** That's why I think the Bobiverse series is so unique, because of the way AI plays out in that storyline... I'm trying my best not to spoil anything, but it's just -- it's not at all negative, nor positive. It's just the way, I guess; it's just like, not quite the word inevitable, but it just happens, and it's actually better for humanity, in the grand scheme of the human storyline in that series... It's just so interesting how you can think so drastically bad. And I suppose when you think about humanity only - and maybe there is only humanity, maybe there isn't - that everybody's take is "How is AI to humanity?", not "How is AI to universality?", or I don't know how do you think about it from a nonhuman perspective.
+**Adam Stacoviak:** That's why I think the Bobiverse series is so unique, because of the way AI plays out in that storyline... I'm trying my best not to spoil anything, but it's just -- it's not at all negative, nor positive. It's just the way, I guess; it's just like, not quite the word inevitable, but it just happens, and it's actually better for humanity, in the grand scheme of the human storyline in that series... It's just so interesting how you can think so drastically bad. And I suppose when you think about humanity only - and maybe there is only humanity, maybe there isn't - that everybody's take is "How is AI to humanity?", not "How is AI to universality?" -- I don't know, how do you think about it from a nonhuman perspective.
 
-**Jon Evans:** A weird question I like to ask is if an alien species were to build an AI, would they be like the AIs that we build? Can we even imagine a different kind of AI? And if not, then aren't we kind of all humans \[unintelligible 00:37:22.15\] crescendoing on like the same thing?
+**Jon Evans:** A weird question I like to ask is if an alien species were to build an AI, would they be like the AIs that we build? Can we even imagine a different kind of AI? And if not, then aren't we kind of all -- you know, humans, aliens, \[unintelligible 00:37:22.15\] -- all sort of crescendoing on like the same thing?
 
 **Adam Stacoviak:** Yeah.
 
