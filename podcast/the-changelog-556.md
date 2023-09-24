@@ -94,7 +94,7 @@ But HashiCorp's perspective is different. They're saying, "Hey, it's not fair th
 
 **Adam Stacoviak:** So I was just following suit. So the CEO, current CEO of HashiCorp was calling them plugins, so I'm like "Okay, I'll follow suit." I didn't know they were called providers.
 
-**Josh Padnick:** Yeah. Well, \[unintelligible 00:32:51.17\] That's what happens...
+**Josh Padnick:** Yeah. Well... see... business guys... CEO. That's what happens...
 
 **Adam Stacoviak:** We'll get into the weeds there. We're not there yet, but we'll get there.
 
@@ -212,7 +212,7 @@ And in the short-term, I absolutely expect HashiCorp will have some neat feature
 
 **Adam Stacoviak:** What gives you the inclination that that's gonna happen? With the Linux Foundation being a done deal, or in process, that the CNCF is obvious, or what?
 
-**Josh Padnick:** Well, with the CNCF in particular, they actually made an announcement that many of their projects rely on TerraForm components, and that with the new business source license, that was no longer a tenable position, and they needed to find an alternative set of components. And this cuts to the heart of the licensing issue, right? Vague, subjective, dynamic. You can't have projects that are using a license that's vague, subjective and dynamic. You want the opposite. You want clear, objective \[unintelligible 00:57:42.17\] for your licenses.
+**Josh Padnick:** Well, with the CNCF in particular, they actually made an announcement that many of their projects rely on TerraForm components, and that with the new business source license, that was no longer a tenable position, and they needed to find an alternative set of components. And this cuts to the heart of the licensing issue, right? Vague, subjective, dynamic. You can't have projects that are using a license that's vague, subjective and dynamic. You want the opposite. You want clear, objective, and static for your licenses.
 
 **Adam Stacoviak:** Yeah. Well said.
 
