@@ -1,4 +1,3 @@
-
 **Jerod Santo:**
 
 What up, nerds? I'm Jerod and this is Changelog News for the week of Monday, September 25th 2023.
