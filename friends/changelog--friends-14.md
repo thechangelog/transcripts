@@ -60,7 +60,7 @@
 
 **Jerod Santo:** Like, "I'm gonna have a Pepsi."
 
-\[00:02:34.09\]
+\[02:34\]
 
 *Do you know where 1640 Riverside--*
 
@@ -190,7 +190,7 @@
 
 **Jerod Santo:** Do you always personify software, Nick? Is that a thing you do?
 
-**Nick Nisi:** \[00:06:14.14\] I do. It's my only friend.
+**Nick Nisi:** \[06:14\] I do. It's my only friend.
 
 **Adam Stacoviak:** I personify a lot of things, honestly.
 
@@ -236,7 +236,7 @@
 
 **Nick Nisi:** They did. Like, they were on top of things. I remember way back, years ago, when CSS Grid came out, and they were partnering with Wes Boss to get course material out for free on how to use it properly, and here's all these amazing dev tool things that the Firefox DevTools can do, and all that... And then all of a sudden, it's like 2022 and we're all waiting around, like "We can use container queries as soon as Firefox ships them", and they're like last. And Safari, way up top. They're great. They're done. But we were just waiting for that last horse -- not to foreshadow one of the browsers we're going to talk about, but... To cross that finish line.
 
-**Jerod Santo:** \[00:09:55.08\] \[laughs\] Well, that makes me think of HorseJS, which I won't bring up, because HorseJS apparently seems to be dead, as a casualty of the hostile takeover of Twitter.com. Horse.js I think is dead at this point, but maybe if any listener out there knows HorseJS on a new social network, hook us up, because that was my favorite Twitter account for a long time.
+**Jerod Santo:** \[09:55\] \[laughs\] Well, that makes me think of HorseJS, which I won't bring up, because HorseJS apparently seems to be dead, as a casualty of the hostile takeover of Twitter.com. Horse.js I think is dead at this point, but maybe if any listener out there knows HorseJS on a new social network, hook us up, because that was my favorite Twitter account for a long time.
 
 And also, while we're punning, if Nick sounds hoarse, it's because he is recovering. He's recovering from an illness... It was an airborne virus that he picked up called the TypeScript Exodus...
 
@@ -252,7 +252,7 @@ And also, while we're punning, if Nick sounds hoarse, it's because he is recover
 
 **Jerod Santo:** ...and just consistently troll him for years now, about TypeScript... Having very little knowledge of the thing. I don't use it, because I can't, because I'm against it. And one of my predictions was that the TypeScript backlash would happen.
 
-\[00:11:24.15\]
+\[11:24\]
 
 ***Jerod Santo:** Every lash has a backlash, okay? And TypeScript will have its day, and I'll be here, waiting... Muhahaha!*
 
@@ -280,7 +280,7 @@ So there's your setup, Nick... Do you want to kick off and just maybe give a lit
 
 **Jerod Santo:** So we're three Safari users here... This is gonna be like the worst conversation of all time, as our listeners are all against us, and we praise Safari, the three of us together. Sorry, go ahead.
 
-**Nick Nisi:** \[00:14:00.22\] No, we will have some -- because I have to caveat it, that for the past couple of months I have actually been using Arc. But Safari is my true home. I'm just not brave enough to install the latest beta of macOS to get hold of the new Safari features, but possibly today... It might be announced when that's coming out...
+**Nick Nisi:** \[14:00\] No, we will have some -- because I have to caveat it, that for the past couple of months I have actually been using Arc. But Safari is my true home. I'm just not brave enough to install the latest beta of macOS to get hold of the new Safari features, but possibly today... It might be announced when that's coming out...
 
 **Jerod Santo:** That's right. It is an Apple announcement today as we record, yeah.
 
@@ -350,7 +350,7 @@ So there's your setup, Nick... Do you want to kick off and just maybe give a lit
 
 **Jerod Santo:** It's good for Apple. It's good for Apple, for multiple reasons, to do that. So that's why they have that stranglehold. The side effect, Nick, is what you've just said - it's actually, even though that's unfortunate, it does provide enough of a market share for Safari that adds diversity at the Desktop OS browser -- because otherwise, Safari wouldn't matter enough at all, for anybody to care about it, and Chrome would basically have the monopoly there. Chromium would, specifically, right?
 
-**Nick Nisi:** \[00:18:11.17\] Yup. And at this point, that's all that matters, too.
+**Nick Nisi:** \[18:11\] Yup. And at this point, that's all that matters, too.
 
 **Jerod Santo:** Right. Because Firefox does not have a mobile footprint, right? They have a desktop footprint still. I don't know what the percentage is today. It shrunk from its heyday. It hit a high watermark of like 20%, 30%... It was like the percentage of global market share, Firefox's high watermark was pretty high, wasn't it? Maybe 15%? I'm just going off memory...
 
@@ -418,7 +418,7 @@ So there's your setup, Nick... Do you want to kick off and just maybe give a lit
 
 **Adam Stacoviak:** Me too, Jerod. That's crazy.
 
-**Jerod Santo:** \[00:22:00.13\] We were all converters.
+**Jerod Santo:** \[22:00\] We were all converters.
 
 **Adam Stacoviak:** Well, I was a diehard GetFirefox way back in the day. I was really into this grassroots movement of better browser, tabs even...
 
@@ -488,7 +488,7 @@ So things like that... I was like "Okay..." And then I kind of discovered the br
 
 **Adam Stacoviak:** Yeah, I agree.
 
-**Jerod Santo:** \[00:25:58.11\] Pretty much. You do bump up against some websites, like Adam was describing earlier, where it's like "This just wasn't thoroughly tested across Safari." I just hit one recently, even on a Zoom call with some people with a content site. I won't namedrop them, because it was a bit embarrassing... Where I said, "When I scroll back up to the top, I can't see the byline of who wrote this article. Is that a Safari bug?" And first they were like "No, that's a feature", and I'm like "This can't be a feature, because this is a terrible feature", and they have a good design aesthetic... And so I screen-shared with them. It was like three people on their blog team, and they're like "Oh yeah, that's a bug." And they're like "You use Safari?" And I was like "Yeah, daily driver Safari user." They're like "What?! We've never met one of your kind."
+**Jerod Santo:** \[25:58\] Pretty much. You do bump up against some websites, like Adam was describing earlier, where it's like "This just wasn't thoroughly tested across Safari." I just hit one recently, even on a Zoom call with some people with a content site. I won't namedrop them, because it was a bit embarrassing... Where I said, "When I scroll back up to the top, I can't see the byline of who wrote this article. Is that a Safari bug?" And first they were like "No, that's a feature", and I'm like "This can't be a feature, because this is a terrible feature", and they have a good design aesthetic... And so I screen-shared with them. It was like three people on their blog team, and they're like "Oh yeah, that's a bug." And they're like "You use Safari?" And I was like "Yeah, daily driver Safari user." They're like "What?! We've never met one of your kind."
 
 It's kind of funny we've got three of us here on this show, because we are actually a small, small, small percentage of people that use Safari on desktop, like we said before. On mobile it's a different story. But most people don't. So you do have like the person who just didn't cross-browser test everything, and so there's a UI that looks a little bit weird every once in a while. And that's about it.
 
@@ -516,7 +516,7 @@ It's kind of funny we've got three of us here on this show, because we are actua
 
 So that's what I don't want in a web browser, really, is that. And I think that that's not too much diversity on that topic. Like, almost everybody is not like "Yes, please! More of this!" Right? Is there anybody that's like excited about having Google in their Chrome? Maybe people that have like Google accounts, and it's really useful in that way. Like, what would be the upside of having Google in your browser? It's maybe having like the account already... Which is kind of the stuff you were talking about with Apple, Nick... Because if you could use Google Pay, and you're already signed into your Google Pay, and like if you could have your Gmail, and you're already signed... So it's kind of that, only one is an advertising company and the other one's not, and I think that's the big distinction.
 
-**Nick Nisi:** \[00:30:12.13\] I think for me that is, and it's probably completely incorrect, but Apple is incentivized to sell me more Apple products; "not my data" is what I think in my head. They probably want my data for nefarious things, too.
+**Nick Nisi:** \[30:12\] I think for me that is, and it's probably completely incorrect, but Apple is incentivized to sell me more Apple products; "not my data" is what I think in my head. They probably want my data for nefarious things, too.
 
 **Adam Stacoviak:** Their own sakes.
 
@@ -542,7 +542,7 @@ It's kinda like TVs... Tell me if you guys like this -- Nick, you might be more 
 
 **Adam Stacoviak:** I think I do have a TCL in my RV, but that's because it came with it.
 
-**Nick Nisi:** \[00:33:54.12\] But all of the TVs - they're cheaper because... Like, it literally asked me; it had a privacy thing like "Hey, we're going to screenshot your TV, and we're going to look at what you're watching, and then recommend "Hey, you just watched the Dark Knight. Do you want to watch The Dark Knight Rises? You can buy it here from our store." And it's creepy, and I don't want that. So this TV - I can just pull the plug on it and keep it off the internet, which I do. I do it through \[unintelligible 00:34:17.07\] software, though.
+**Nick Nisi:** \[33:54\] But all of the TVs - they're cheaper because... Like, it literally asked me; it had a privacy thing like "Hey, we're going to screenshot your TV, and we're going to look at what you're watching, and then recommend "Hey, you just watched the Dark Knight. Do you want to watch The Dark Knight Rises? You can buy it here from our store." And it's creepy, and I don't want that. So this TV - I can just pull the plug on it and keep it off the internet, which I do. I do it through \[unintelligible 00:34:17.07\] software, though.
 
 **Jerod Santo:** I was gonna say, do you literally pull the plug on your TV when you're done using it?
 
@@ -598,7 +598,7 @@ It's kinda like TVs... Tell me if you guys like this -- Nick, you might be more 
 
 **Adam Stacoviak:** Okay...
 
-\[00:36:51.15\]
+\[36:51\]
 
 *Napoleon, give me some of your tots.*
 
@@ -608,7 +608,7 @@ It's kinda like TVs... Tell me if you guys like this -- Nick, you might be more 
 
 *No, I'm freaking starving. I didn't get to eat anything today.*
 
-**Break:** \[00:36:59.13\]
+**Break:** \[36:59\]
 
 **Nick Nisi:** But without all of that creepy advertising, TVs would be a lot more expensive.
 
@@ -666,7 +666,7 @@ It's kinda like TVs... Tell me if you guys like this -- Nick, you might be more 
 
 **Nick Nisi:** I think so. I think that a lot of people have a problem paying for software like that, like browsers. But when you think about it as "Oh, this is a dev tool", if it actually provides enough value - which I think that both of them do; they both have pretty much identical features. I think Sizzy is a little bit nicer, just in like its interaction and its UI. Its UX is better, a little bit. But they're both Chromium browsers that support this ability to show you the browser, show you what you're editing, and have dev tools with it. But then they can also do things like "Here's a phone, here's a desktop, here's a tablet", and see them all at once, and see them all sync together. And then if you're developing like the Open Graph stuff, the Open Graph links, you can see that, "And here's an example of what it would look like on Twitter, here's what it would look like on Facebook."
 
-**Jerod Santo:** \[00:44:26.19\] That's cool.
+**Jerod Santo:** \[44:26\] That's cool.
 
 **Nick Nisi:** Yeah. So you don't have to go out and do all of this. You can do it with your local host running app, and see exactly what it looks like, and make sure that's all working. So that's really cool. And then just the convenience of having -- like, this is not my daily driver browser. This is something that I'm using exclusively for development, so having a development-specific browser for it makes sense. It can do really cool, advanced screenshotting things, because it knows you're going to want to take screenshots, and markup things, and send it over to your UX team or whatever to verify, and things like that... But also just like the simplicity of having a separate browser for development exclusively, especially like on macOS, Command+tabbing over to that is way easier than - what is it, Command+tilde, or Shift+tilde? I can't remember which one, to go between this Chrome window versus that Chrome window, or whatever.
 
@@ -720,7 +720,7 @@ It's kinda like TVs... Tell me if you guys like this -- Nick, you might be more 
 
 **Nick Nisi:** \[laughs\]
 
-**Adam Stacoviak:** \[00:47:51.16\] Yeah. It's like PolyJane, but not PolyJane, it's PolyPlane. Anyways... Very similar. And even pricing; their pricing is similar. I think they both make the same mistake y'all talked about, but I think the lesson can be learned from Raycast. I think Raycast has a phenomenal model for the way they deliver. They give a lot of good stuff away for free, no lookout required, and you could just use it. They want to be ubiquitous on Mac machines; they want to make every Mac supercharged. Smarter, they say.
+**Adam Stacoviak:** \[47:51\] Yeah. It's like PolyJane, but not PolyJane, it's PolyPlane. Anyways... Very similar. And even pricing; their pricing is similar. I think they both make the same mistake y'all talked about, but I think the lesson can be learned from Raycast. I think Raycast has a phenomenal model for the way they deliver. They give a lot of good stuff away for free, no lookout required, and you could just use it. They want to be ubiquitous on Mac machines; they want to make every Mac supercharged. Smarter, they say.
 
 I didn't agree with that model right away. I was like "You guys are giving away way too much for free." But now I get it. And I think Sizzy and Polypane could -- and even Arc; I think any of these browsers who want to compete with the likes of Google or Safari when it comes to browsers, Firefox - you've got to give away something for free with no account. That's just amazing. And then I'm down for paying, because I'm like you, Nick - I don't want to adopt Arc and like a year later they die because I was too stiff to pay them, or something. I think it's the business model that none of these guys are getting right. But what does it take to get the right browser business model? In the case of these dev web browsers, I totally get it. And my advice on the Raycast model - they should listen to, write down twice, and do it. But every other browser, I'm just not sure how you build a business around a browser.
 
@@ -770,7 +770,7 @@ I think there's a change now, because we realize now that we -- like when you bu
 
 **Jerod Santo:** You're way off. It was the year 2000.
 
-\[00:51:53.10\]
+\[51:53\]
 
 *In the year 2000...*
 
@@ -882,7 +882,7 @@ I think there's a change now, because we realize now that we -- like when you bu
 
 Ah, where were we...? Okay, so Sizzy and Polypane are cool... I'm definitely still going to try them. It stopped me from this particular -- I was just like "I do not like to sign up for an account before I use anything. I want to use something. I'll sign up for an account eventually, but don't start with that." I just have a gut negative reaction to "The first thing you want is my email address to try some software out. I'll put in there eventually. I'm cool with that, but --"
 
-**Adam Stacoviak:** \[00:56:09.05\] I believe Warp was the same way. I believe they required you to have an account to use their software...
+**Adam Stacoviak:** \[56:09\] I believe Warp was the same way. I believe they required you to have an account to use their software...
 
 **Jerod Santo:** Yes.
 
