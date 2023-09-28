@@ -22,7 +22,7 @@
 
 **Nick Nisi:** I really only need these to stare at a computer.
 
-**Adam Stacoviak:** My wife likes the whole Clark Kent aspect of me. I get to be this Adam, and then that Adam, with \[unintelligible 00:01:03.00\]
+**Adam Stacoviak:** My wife likes the whole Clark Kent aspect of me. I get to be this Adam, and then that Adam, with contacts in.
 
 **Jerod Santo:** You're Superman at home.
 
@@ -140,7 +140,7 @@
 
 **Adam Stacoviak:** Oh, I just told him, I didn't ask him. Sorry about that.
 
-**Jerod Santo:** \[unintelligible 00:04:55.17\]
+**Jerod Santo:** Needs to ask.
 
 **Adam Stacoviak:** I declared it.
 
@@ -396,7 +396,7 @@ So there's your setup, Nick... Do you want to kick off and just maybe give a lit
 
 **Nick Nisi:** Yeah.
 
-**Jerod Santo:** So Firefox has this feature. Safari has \[unintelligible 00:20:44.23\] I think Chrome also has this feature...
+**Jerod Santo:** So Firefox has this feature. Safari has lacked it. I think Chrome also has this feature...
 
 **Nick Nisi:** Probably.
 
@@ -534,15 +534,15 @@ It's kinda like TVs... Tell me if you guys like this -- Nick, you might be more 
 
 **Nick Nisi:** This was actually an analogy I was gonna bring up when you asked about browsers doing all of that, spying or knowing everything about you. When you go buy a new TV -- I just bought a new TV, and it's LG; it's a decently well-known brand. It's not like TCL, or like one of the -- I don't even know TV brands, but I assume the lower --
 
-**Adam Stacoviak:** Shameless. Shameless, the \[unintelligible 00:33:40.02\] users.
+**Adam Stacoviak:** Shameless. Shameless, TCL users.
 
 **Nick Nisi:** \[laughs\]
 
-**Jerod Santo:** \[laughs\] Those fools \[unintelligible 00:33:46.22\] by TCL.
+**Jerod Santo:** \[laughs\] Those fools that use TCL.
 
 **Adam Stacoviak:** I think I do have a TCL in my RV, but that's because it came with it.
 
-**Nick Nisi:** \[33:54\] But all of the TVs - they're cheaper because... Like, it literally asked me; it had a privacy thing like "Hey, we're going to screenshot your TV, and we're going to look at what you're watching, and then recommend "Hey, you just watched the Dark Knight. Do you want to watch The Dark Knight Rises? You can buy it here from our store." And it's creepy, and I don't want that. So this TV - I can just pull the plug on it and keep it off the internet, which I do. I do it through \[unintelligible 00:34:17.07\] software, though.
+**Nick Nisi:** \[33:54\] But all of the TVs - they're cheaper because... Like, it literally asked me; it had a privacy thing like "Hey, we're going to screenshot your TV, and we're going to look at what you're watching, and then recommend "Hey, you just watched the Dark Knight. Do you want to watch The Dark Knight Rises? You can buy it here from our store." And it's creepy, and I don't want that. So this TV - I can just pull the plug on it and keep it off the internet, which I do. I do it through Eeros software, though.
 
 **Jerod Santo:** I was gonna say, do you literally pull the plug on your TV when you're done using it?
 
@@ -592,7 +592,7 @@ It's kinda like TVs... Tell me if you guys like this -- Nick, you might be more 
 
 **Jerod Santo:** Yeah. If you stretched a 720p to 4k, 85-inch screen, and like the pixels are like the size of like a tater tot. It's like that big. You can see every pixel. \[laughter\]
 
-**Adam Stacoviak:** \[unintelligible 00:36:45.18\]
+**Adam Stacoviak:** \[unintelligible 00:36:45.18\] this is a tater tot.
 
 **Jerod Santo:** Well, they're square, you know?
 
@@ -746,7 +746,7 @@ I didn't agree with that model right away. I was like "You guys are giving away 
 
 **Adam Stacoviak:** Things were different then though.
 
-**Nick Nisi:** \[unintelligible 00:49:38.25\]
+**Nick Nisi:** Photoshop yeah.
 
 **Adam Stacoviak:** You were probably younger, so you had less resources... But at the same time, I think the web was new then, so everything was free.
 
@@ -818,7 +818,7 @@ I think there's a change now, because we realize now that we -- like when you bu
 
 **Nick Nisi:** I didn't have internet until 2002 probably.
 
-**Jerod Santo:** That was another good reason not to pay for it... \[laughs\] You don't have \[unintelligible 00:53:32.10\] web browser. That's funny.
+**Jerod Santo:** That was another good reason not to pay for it... \[laughs\] You don't have a use for a web browser. That's funny.
 
 **Adam Stacoviak:** The business model of Sizzy though and the business model of Polypane - gosh, that's painful to say; sorry, Polypane - I think has legs. I think they've got a great idea.
 
@@ -920,7 +920,7 @@ Ah, where were we...? Okay, so Sizzy and Polypane are cool... I'm definitely sti
 
 **Jerod Santo:** I'm on the same thing with Tmux.
 
-**Adam Stacoviak:** I mean, \[unintelligible 00:58:21.20\] things. I'm not doing complex Vim things, but I'm just like, you know, single Vim editor...
+**Adam Stacoviak:** I mean, I Vim into things. I'm not doing complex Vim things, but I'm just like, you know, single Vim editor...
 
 **Jerod Santo:** It has to be able to run Vim, right?
 
@@ -932,7 +932,7 @@ Ah, where were we...? Okay, so Sizzy and Polypane are cool... I'm definitely sti
 
 **Jerod Santo:** Yeah, if you try Vim inside of Tmux, it wouldn't work, back when I tried it. I don't know about today... But yeah, that's my problem with Warp, is it doesn't support Tmux. For me, that's just a deal breaker.
 
-**Adam Stacoviak:** Is that a pervasive thing? Like, do a lot of developers use Tmux? Like, every time I've tried to use it, it's always felt kludgy to me, and I never forgot \[unintelligible 00:58:55.21\]
+**Adam Stacoviak:** Is that a pervasive thing? Like, do a lot of developers use Tmux? Like, every time I've tried to use it, it's always felt kludgy to me, and I never forgot how to hold it.
 
 **Jerod Santo:** Everybody who watched Nick Nisi's most popular YouTube video of all time...
 
@@ -1218,7 +1218,7 @@ I think that one thing that -- well, first off, Jerod, you were saying, like, th
 
 **Jerod Santo:** You just know by what he's put together. And so that's why I'm kind of like "Well, Ladybird - it's never gonna be all these things... But it might have an opportunity, because this guy understands web browsers." It's not a small feat. Because he's even going from the rendering engine up. Like, he's not a Chromium add-on. So that is a major undertaking, and it doesn't just require money, it requires talent and dedication. So it is a taller order, I agree with you.
 
-**Adam Stacoviak:** Here's a whole different question. Are browsers going to be relevant in the very near future? How long will a browser be relevant? The desktop eventually is going to -- like, will it die? Because I was just thinking about like mobile, and how important that is. You talk to people that are -- this is just anecdotal. This is my rough opinion, without any research. You could talk to somebody and they're like -- they won't even tell you what browser they use. They just browse the web; they don't know, nor do they care. So I think the \[unintelligible 01:17:09.19\] based upon the fact that people just don't know or care, necessarily, and it's people like us who truly do care. But I wonder how long the browser will be in its current form, like, that important?
+**Adam Stacoviak:** Here's a whole different question. Are browsers going to be relevant in the very near future? How long will a browser be relevant? The desktop eventually is going to -- like, will it die? Because I was just thinking about like mobile, and how important that is. You talk to people that are -- this is just anecdotal. This is my rough opinion, without any research. You could talk to somebody and they're like -- they won't even tell you what browser they use. They just browse the web; they don't know, nor do they care. So I think the behemoths out there are gonna collapse you based upon the fact that people just don't know or care, necessarily, and it's people like us who truly do care. But I wonder how long the browser will be in its current form, like, that important?
 
 **Nick Nisi:** I think that it'll outlast the desktop.
 
@@ -1288,7 +1288,7 @@ I think that one thing that -- well, first off, Jerod, you were saying, like, th
 
 **Adam Stacoviak:** It's probably pretty accurate. That's how it is in my household, too. I think we're a version of what's normal for most of the US...
 
-**Jerod Santo:** Western US \[unintelligible 01:20:40.08\]
+**Jerod Santo:** Western US \[unintelligible 01:20:40.08\] the world.
 
 **Adam Stacoviak:** Yeah. And so when you think about Arc, and you think about -- what are the other ones we didn't even mention yet? We have a list... At least I wrote down our list... We had Arc...
 
@@ -1518,7 +1518,7 @@ Nyxt we didn't try, because Nyxt is a hackers' browser. Very cool. I've covered 
 
 **Nick Nisi:** Some random guy who's not relevant switched off... And I saw the perfect tweet against that, and it was "If this project mattered, people would fork it. But there's no fork, so it doesn't matter."
 
-**Jerod Santo:** Speaking of the perfect tweet now... On our JS Party emergency pod, which by the time this drops will have gone out yesterday, so it's in your feed... I'm not sure what it's called, but the JS Party with Amal Hussein, myself, and Nick was physically ill; he couldn't even handle it, so he didn't show up... And Rich Harris. And Rich actually reads aloud his quote tweet of the guy who Nick doesn't want me to name, where he ends it with the word - and we're trying to figure out right now if we need to bleep it or not... \[unintelligible 01:34:29.27\]
+**Jerod Santo:** Speaking of the perfect tweet now... On our JS Party emergency pod, which by the time this drops will have gone out yesterday, so it's in your feed... I'm not sure what it's called, but the JS Party with Amal Hussein, myself, and Nick was physically ill; he couldn't even handle it, so he didn't show up... And Rich Harris. And Rich actually reads aloud his quote tweet of the guy who Nick doesn't want me to name, where he ends it with the word - and we're trying to figure out right now if we need to bleep it or not... d\*\*kwatery.
 
 **Nick Nisi:** I like it.
 
@@ -1590,7 +1590,7 @@ Nyxt we didn't try, because Nyxt is a hackers' browser. Very cool. I've covered 
 
 **Jerod Santo:** Apple's not gonna be happy with you if you don't know about their keynote.
 
-**Adam Stacoviak:** What is the -- what's planned, Nick? What's the leaks? Give us the inside scoop \[unintelligible 01:37:22.04\] for Friday.
+**Adam Stacoviak:** What is the -- what's planned, Nick? What's the leaks? Give us the inside scoop that's late for Friday.
 
 **Nick Nisi:** Oh, you know, iPhone 15, USB-C, Periscope camera, an action button, which is gonna be amazing, instead of a mute switch...
 
@@ -1648,7 +1648,7 @@ Nyxt we didn't try, because Nyxt is a hackers' browser. Very cool. I've covered 
 
 **Jerod Santo:** I don't know.
 
-**Adam Stacoviak:** I thought it was like \[unintelligible 01:39:15.13\] disintegrating.
+**Adam Stacoviak:** I thought it was like \[unintelligible 01:39:15.13\] and that Apple is disintegrating.
 
 **Nick Nisi:** Oh, maybe.
 
