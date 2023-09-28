@@ -50,7 +50,7 @@
 
 **Kris Brandow:** Yeah, precision is -- oh, no, it's just what you're used to; it's kind of like the default OS you get loaded up with. It's just kind of like, everything makes sense from that reference point.
 
-**Adrian Hesketh:** To be fair, the UK has got no leg to stand on here \[unintelligible 00:04:32.12\] using pints for drinks, we've got like liters to fill the car, but then everything's in miles per hour, and miles per gallon, and all that... So it's just complete absolute mess.
+**Adrian Hesketh:** To be fair, the UK has got no leg to stand on here, I mean we're using pints for drinks, we've got like liters to fill the car, but then everything's in miles per hour, and miles per gallon, and all that... So it's just complete absolute mess.
 
 **Kris Brandow:** Oh, so it's like Canada, where you use different units depending on the thing that you're talking about. That's so confusing. Alright, well, we are not here today to talk about different ways to measure how hot or cold it is outside. We're actually here today to talk about templating, and specifically HTML templating with Go. And so let's just start off with - you know, there's an HTML templating library built into the standard library. I literally believe it's called html/template. And you, Adrian, have built a new one. So can you give us kind of the background on that? Why build a new templating library for Go?
 
@@ -80,9 +80,9 @@ So I built that out pretty quickly, and then I had to learn how to build languag
 
 **Adrian Hesketh:** So quicktemplate had a lot of options. So things like how you could format things to strings, and so on like that. And so in my mind, what I wanted was something that was maximally as close to Go as possible. So very much like JSX, or there used to be this thing called Razor View in C\#, where you really were just writing your code straight inside the template, and so you've got this ability -- you don't even need to learn anything, you can just look at it and you know how it works, because it's just like your programming language, but with that in it. But I was really looking for the maximum adoption, and sort of -- I didn't want to kind of reinvent the wheel if I didn't need to... So it was really like "Okay, well, quicktemplate is really popular. Let's try and add it to that. Let's contribute to the community, rather than trying to sort of build my own thing." But I didn't really get any engagement from that, and there were some limitations in -- I thought the design of quicktemplate would make it really hard to do some of the LSP features.
 
-So I switched out, and in the end sort of made a version two that was like "Okay, actually, this is the direction that I think we should go in." And that's the one that you see today, which is really -- the inversion was like instead of it being HTML with Go inside it, it was Go with HTML inside it. So it's really pure, kind of dry \[unintelligible 00:13:30.14\]
+So I switched out, and in the end sort of made a version two that was like "Okay, actually, this is the direction that I think we should go in." And that's the one that you see today, which is really -- the inversion was like instead of it being HTML with Go inside it, it was Go with HTML inside it. So it's really pure, kind of dry forward.
 
-**Joe Davidson:** Yeah, that's where we kind of had some of the real conversations around "Okay, what's actually ergonomic? What can make this language as familiar as possible to write in Go, rather than like \[unintelligible 00:13:43.25\] having curly braces, and then percentage signs, and equal signs everywhere?" You just kind of want it to be as Go-ey as possible.
+**Joe Davidson:** Yeah, that's where we kind of had some of the real conversations around "Okay, what's actually ergonomic? What can make this language as familiar as possible to write in Go, rather than like handlebars, having curly braces, and then percentage signs, and equal signs everywhere?" You just kind of want it to be as Go-ey as possible.
 
 **Adrian Hesketh:** \[13:55\] And by that point, we had real users, right? Ourselves and our team. So we were using an early version of Templ to build HTML for PDFs, that produced insurance documents. So we had real users of it, and they were telling us things like "Hey, I really don't like having to type two characters", because the initial version was a curly brace, and then a percentage symbol, and then another percentage symbol and a curly brace to close it off. And they were like "This isn't great, because it's too much typing." And I could totally -- and that was kind of the syntax we inherited from quicktemplate.
 
@@ -106,7 +106,7 @@ But the other thing is, as it's generating the Go code, it knows which bits of t
 
 **Jon Calhoun:** I mean, I assume it would be possible, but I also feel like that might limit what you could do at some point, if it doesn't support something really well and you wanted to do it.
 
-**Adrian Hesketh:** Yeah, it generates really bog-standard Go code; all the Go code in \[unintelligible 00:17:00.09\] It takes parameters -- each function or template takes parameters, and then it returns a component, which has a function on it called render. And you can render that out to any output stream, so like the STDOUT, or a file, or a response...
+**Adrian Hesketh:** Yeah, it generates really bog-standard Go code; all the Go code implements the same interface it produce -- It takes parameters -- each function or template takes parameters, and then it returns a component, which has a function on it called render. And you can render that out to any output stream, so like the STDOUT, or a file, or a response...
 
 **Jon Calhoun:** So you guys built your own parser to make sure that there's not like code injection, that sort of thing.
 
@@ -180,7 +180,7 @@ So I think, yeah, we're at the point where it's actually -- there's a lot more t
 
 One of the things that I noticed about a lot of the apps I was working on was we were building validation twice; once on the server-side, because you have to, because you can't trust the input from the client. And then once also on the client side. And sometimes you get like oddities between the two behaviors, or there'd be something that you can only test when you go to the server-side. And so you end up with -- you know, it passes in the client, and then there's this kind of extra step where then it fails, and it's kind of got this weird UX around it. Whereas I think if you look at something like HTMX, basically if you apply these attributes to your HTML, and then make sure the JavaScript HTMX client is in there, they'll basically replace all of your full-screen PostBacks with dynamic replacements. And the feeling of it is surprisingly good... Because latency is massively reduced in modern web apps; we have the ability to use cloud providers, CDNs, and just Go is really, really fast.
 
-\[34:07\] There's an example app on the Templ docs of a counter, and you're clicking the counter, and it's so fast, it looks like it's happening locally, but it's actually doing a full post to the server, which is actually just a lambda function, it's doing a database update, a transaction, and then returning the \[unintelligible 00:34:21.01\] and it just feels like it's happening locally.
+\[34:07\] There's an example app on the Templ docs of a counter, and you're clicking the counter, and it's so fast, it looks like it's happening locally, but it's actually doing a full post to the server, which is actually just a lambda function, it's doing a database update, a transaction, and then returning the updated \[unintelligible 00:34:21.01\] and it just feels like it's happening locally.
 
 **Jon Calhoun:** We've had the founder, the guy who created HTMX on to talk, and I agree, it's a really cool thing. I think that's actually part of the reason that Kris asked me to do this one, is I think I hosted that one and -- I'm a big fan of seeing these things that allow us to do a lot of the same things we're doing with the really complex front ends, but really simplifying the developer process. And it's cool to see -- at least ideally, in my mind, it's something where hopefully in the future people are learning "Okay, I want to see how server-side works, then I want to see HTMX", and then if you really want to get complicated or you have a need to get really complicated, then you might want to build a complete JavaScript frontend of some sort. But in reality, I think the number of applications, at least in the future that we'll need that is going to be few and far between, or it's got to be a pretty complex app before things like HTML start to not work that well.
 
@@ -242,7 +242,7 @@ So yeah, it's a balance to do that. As the project's gone more successful, peopl
 
 **Joe Davidson:** Yeah, it helps with adoption, doesn't it? ...to explain to people how to use it. I guess one of the enhancements to that in the future is going to be to actually dogfood Templ, and use it to hopefully generate the docs... Because ironically, at the moment, I think it's using a React-based documentation engine, Docusaurus.
 
-**Adrian Hesketh:** Yeah, it is. Embarrassingly, there was a crash on the page, wasn't there? \[unintelligible 00:50:10.07\] JavaScript crashed on one of the pages, and that was broken for a while. But yeah, I mean, Docusaurus is a great product. It makes writing documentation pretty straightforward. It's just some Markdown in a directory. So there's a lot to be grateful for.
+**Adrian Hesketh:** Yeah, it is. Embarrassingly, there was a crash on the page, wasn't there? A JavaScript crashed on one of the pages, and that was broken for a while. But yeah, I mean, Docusaurus is a great product. It makes writing documentation pretty straightforward. It's just some Markdown in a directory. So there's a lot to be grateful for.
 
 **Jon Calhoun:** I think there's even times where you're a big software company and you use WordPress for your blog, because there's no reason to reinvent the wheel.
 
@@ -250,13 +250,13 @@ So yeah, it's a balance to do that. As the project's gone more successful, peopl
 
 **Kris Brandow:** It's always the trade-offs and what you want to spend your time focusing on. You eventually get to bootstrapping. The Go programming language until 1.5 was written in C... So you focus on some things and you eventually get around to making it not like an ironic thing, where it's like "No, no, our documentation site is in fact built with Templ." It's like, does it really matter that much? Probably not.
 
-**Joe Davidson:** \[unintelligible 00:51:00.23\] In the grand scheme of things now.
+**Joe Davidson:** Yeah probably notl. In the grand scheme of things now.
 
 **Kris Brandow:** Some people might be like "You should have used Hugo instead of some React thing", but...
 
 **Joe Davidson:** Oh yeah, and Mk -- is it MkDocs? That's the other one.
 
-**Adrian Hesketh:** Yeah, I think it'd be a good addition, because we'd have something to kind of really try out the web features on. So we've done a lot of generating documents, and we've got a few kind of \[unintelligible 00:51:24.19\] their actual websites being served by Templ. But if we had like a Docusaurus, or a Hugo-style documentation engine, then we might have some interesting problems like fuzzy searching, and that kind of thing, which are kind of... Well, they're solved problems in server-side rendering, but just kind of showing how that can be done, and really responsive, using Templ and HTMX, or something similar... I think it could be really cool. And just having a playground really to kind of test out new features, make sure it works, make sure it's ergonomic.
+**Adrian Hesketh:** Yeah, I think it'd be a good addition, because we'd have something to kind of really try out the web features on. So we've done a lot of generating documents, and we've got a few kind of toy projects that their actual websites being served by Templ. But if we had like a Docusaurus, or a Hugo-style documentation engine, then we might have some interesting problems like fuzzy searching, and that kind of thing, which are kind of... Well, they're solved problems in server-side rendering, but just kind of showing how that can be done, and really responsive, using Templ and HTMX, or something similar... I think it could be really cool. And just having a playground really to kind of test out new features, make sure it works, make sure it's ergonomic.
 
 **Jon Calhoun:** \[52:02\] So for somebody who's building a new project like this, how did you go about making sure the documentation was actually approachable? I say this because I -- I know when you've spent so much time on something, it can sometimes be hard to break it back down to "How does a beginner actually get into this?" without assuming certain knowledge.
 
@@ -278,7 +278,7 @@ Because I think it's a challenge in the sense of most web projects need both the
 
 **Kris Brandow:** \[laughs\] Okay, do you want to expand upon that at all, or do you just want to leave it there?
 
-**Adrian Hesketh:** \[laughs\] Well, there are lots of different reasons, I guess... I think when Docker came out, I was sort of a relatively early adopter, using Rancher 1.0 before kind of things like Kubernetes existed, I think, in the wild... And before kind of the cloud providers really got really good options for running stuff. Yeah, it was okay, it was a good way \[unintelligible 00:56:38.04\] doing things like what I was doing on premises. But I think over time, I've been a bit more frustrated by some of the limitations of it, in terms of the overall architecture of the thing. One is like the lack of reproducible builds in Docker containers; essentially, you're just running shell commands and grabbing things off the internet, and that sort of stuff, so it's really hard to reproduce a Docker image. They're pretty big. You still get these kind of multi-hundred megabyte things, when with a Go program you've just got a little binary, generally.
+**Adrian Hesketh:** \[laughs\] Well, there are lots of different reasons, I guess... I think when Docker came out, I was sort of a relatively early adopter, using Rancher 1.0 before kind of things like Kubernetes existed, I think, in the wild... And before kind of the cloud providers really got really good options for running stuff. Yeah, it was okay, it was a good way it's better than doing things like what I was doing on premises. But I think over time, I've been a bit more frustrated by some of the limitations of it, in terms of the overall architecture of the thing. One is like the lack of reproducible builds in Docker containers; essentially, you're just running shell commands and grabbing things off the internet, and that sort of stuff, so it's really hard to reproduce a Docker image. They're pretty big. You still get these kind of multi-hundred megabyte things, when with a Go program you've just got a little binary, generally.
 
 Running Docker in Docker is still a pain. If you want to build a Docker container inside a Docker container, that's still a problem. Rootless Docker and the security sandboxing around that isn't great. The sandboxing of Docker isn't ideal, either. It's still difficult to achieve that.
 
@@ -348,7 +348,7 @@ So yeah, I think it seems like we've put a lot of effort into Docker, and the re
 
 **Kris Brandow:** \[laughs\]
 
-**Adrian Hesketh:** Yeah. And Templ isn't trying to compete with html/template. It's going for React. Html/template is not the enemy. Not that React is the enemy; it's just a tool, right? \[unintelligible 01:03:26.27\]
+**Adrian Hesketh:** Yeah. And Templ isn't trying to compete with html/template. It's going for React. Html/template is not the enemy. Not that React is the enemy; it's just a tool, right? Just being, a bit of hyperbole for fun.
 
 **Kris Brandow:** But I feel like if you want to use the kind of built-in style, you should go with Google's Safe HTML package over html/template. I feel like that does some security things that html/template doesn't do, if I'm remembering correctly...
 
