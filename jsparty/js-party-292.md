@@ -8,7 +8,7 @@
 
 **Jerod Santo:** Yes, yes, we're all co-processing together. We're going to light some sage, put on some mood music... Mood lighting, I should say... Is mood music a thing? I don't know, we don't have to answer that.
 
-**Jerod Santo:** I think so \[unintelligible 00:04:50.28\] But yes.
+**Jerod Santo:** I think so. In a different kind of mood. But yes.
 
 **Amal Hussein:** Okay. So we have a very, very, very special guest with us here today to co-process this really important topic... So we're going to be talking today about the little TypeScript dramatic brouhaha that's been going on within the community... If you don't know what I'm talking about, you just stay tuned; you'll find out. If you know what I'm talking about, then yeah, aren't you glad you're listening to this? I know, because I know I am. And so Rich Harris is here to help us co-process today. Welcome, Rich Harris. Hello.
 
@@ -58,7 +58,7 @@ And so we're still authoring .dts files, which get shipped alongside the package
 
 **Amal Hussein:** Oh, yeah. And you're leveraging the JSDoc TypeScript integration; there's a plugin for doing that, right? Because I think JSDoc added support for that. It's like that's not --
 
-**Rich Harris:** It's not even a plugin. It's not something that JSDoc did. It's just something that TypeScript just supports, since a long time ago. They introduced in version 3.7, or something; like, many moons ago. They added the ability to do type checking with JavaScript that has JSDoc annotations. And it's a subtly different version of JSDoc than people were using 10 years ago, before TypeScript... But it's basically the same. Above a function or an object you have this \[unintelligible 00:11:38.14\] comment which begins /\*\* and closes with \*/ And inside there, you have basically the same stuff that you would have had in your type annotations in the first place. It's a little bit of a different way of using TypeScript, but it's something that once you learn it, it is pretty familiar. And you can learn it in the space of a couple of hours.
+**Rich Harris:** It's not even a plugin. It's not something that JSDoc did. It's just something that TypeScript just supports, since a long time ago. They introduced in version 3.7, or something; like, many moons ago. They added the ability to do type checking with JavaScript that has JSDoc annotations. And it's a subtly different version of JSDoc than people were using 10 years ago, before TypeScript... But it's basically the same. Above a function or an object you have this block comment which begins /\*\* and closes with \*/ And inside there, you have basically the same stuff that you would have had in your type annotations in the first place. It's a little bit of a different way of using TypeScript, but it's something that once you learn it, it is pretty familiar. And you can learn it in the space of a couple of hours.
 
 **Amal Hussein:** \[11:59\] Yeah, JSDocs was like the savior back in the day; that was how a lot of libraries in Node published their API docs kind of automatically, with every release... And yeah, so just kind of getting back to your point about all the improvements that came with the removal of TypeScript, I'm kind of team idiomatic JavaScript any day... Idiomatic JavaScript meaning this is JavaScript that you wrote, it's not something that got spit out by a transpiler... And if you look at so many common things that we use in JavaScript... A recent example that was brought up on the podcast was optional chaining; if you look at what happens when you transpile something that uses optional chaining, it's a lot more bytes than what you wrote. So yeah, of course, for a library like Svelte that really prides itself on like "Hey, we're giving you code that you don't have to compile. It just works. You're running our source code, essentially, without any intermediaries", I can see how transpiling and doing a bunch of intermediary steps really pollutes the intention of the library, but also the readability, and your ability to even control the size of your bundles, or your output.
 
@@ -70,7 +70,7 @@ And so we're still authoring .dts files, which get shipped alongside the package
 
 **Jerod Santo:** So improvements to Svelte, the compiled, bundled version, but you changed -- let me say it this way, you changed your team's tooling without affecting your users' tooling. Your users still have all the tools they had previously, with autocomplete and whatnot. Correct?
 
-**Rich Harris:** Exactly. Yeah. If anything, we've taken on a bit of a burden ourselves, because TypeScript is, we think, \[unintelligible 00:15:16.28\] But we're very careful about making sure that our users get the best possible experience.
+**Rich Harris:** Exactly. Yeah. If anything, we've taken on a bit of a burden ourselves, because TypeScript is, we think, nicer to offer. But we're very careful about making sure that our users get the best possible experience.
 
 **Amal Hussein:** Yeah. And that's a good pivot, because one thing that I wanted to discuss today is what are those user-observable differences? Like, end user-observable differences. Especially - you're still supporting type annotations with JSDoc, so builds aren't going to break the next day for people if they upgrade... What else? Is there anything besides -- I don't know, is there anything at all, besides "Oh, my Node modules are slightly smaller"? Is there anything else?
 
@@ -128,7 +128,7 @@ Yeah. Honestly, for me, I think what's just so strange about this whole thing is
 
 **Amal Hussein:** Interesting. Yeah, that's a fair point.
 
-**Rich Harris:** I know just from observing myself that TypeScript saves me literally hours a week, I would say. It costs me minutes a week, certainly... And those minutes are some of the most frustrating minutes that I spend programming. Let's say that I spend an hour a week fighting TypeScript, which is -- it's less than that, but let's say for the sake of argument that that's what it is. I'm going to be super-conscious of that hour, because at the time I'm like "Oh, I don't understand what is going on here." And usually, at the end of it you're like "Oh, right. Yeah, okay. I understand now. TypeScript tricked me into writing better code. It turns out I'm not smarter than \[unintelligible 00:27:50.00\] after all." But the time that TypeScript saved you over the same time period, which - just like an observation for myself, is way, way, way more time... You're not aware of it, you're just like happily coding. But there are times that you do become aware of it.
+**Rich Harris:** I know just from observing myself that TypeScript saves me literally hours a week, I would say. It costs me minutes a week, certainly... And those minutes are some of the most frustrating minutes that I spend programming. Let's say that I spend an hour a week fighting TypeScript, which is -- it's less than that, but let's say for the sake of argument that that's what it is. I'm going to be super-conscious of that hour, because at the time I'm like "Oh, I don't understand what is going on here." And usually, at the end of it you're like "Oh, right. Yeah, okay. I understand now. TypeScript tricked me into writing better code. It turns out I'm not smarter than Anders Hejlsberg --don't know how you say his name-- after all." But the time that TypeScript saved you over the same time period, which - just like an observation for myself, is way, way, way more time... You're not aware of it, you're just like happily coding. But there are times that you do become aware of it.
 
 \[28:09\] Recently, I did a fairly major refactor on a sizable codebase, and if I hadn't had TypeScript to do that, where you just change some property of an interface somewhere, and then the type checker just tells you all of the places in your codebase, where the signature has changed; or like you can even do rename all references, and it'll just go through the entire codebase and it'll just do it for you. The idea of doing that refactor without the benefit of TypeScript brings me out in a cold sweat. But you know, you're so much more viscerally aware of the time that you spent fighting with TypeScript than the reverse.
 
@@ -136,7 +136,7 @@ Yeah. Honestly, for me, I think what's just so strange about this whole thing is
 
 **Rich Harris:** Yeah. I mean, there's two places where I really agree with you...
 
-**Amal Hussein:** It doesn't ship in production. \[unintelligible 00:29:20.29\] I'm like "Our customers are never going to run this code", you know?
+**Amal Hussein:** It doesn't ship in production. That's what gets me angry I'm like "Our customers are never going to run this code", you know?
 
 **Rich Harris:** Right. Right. But if you're doing something very exploratory, and you don't yet know what the shape of the system that you're building is... Like, you're kind of like uncovering the design as you write it, that's a really bad time to be thinking about type safety. And I've always resisted adding types at that very, very early stage of a project that I don't yet understand the shape of.
 
@@ -190,7 +190,7 @@ And I think we have a lot of people who identify as TypeScript developers, just 
 
 **Amal Hussein:** Yeah, yeah, exactly. It's like "Hey, y'all", you know...
 
-**Jerod Santo:** \[unintelligible 00:40:46.27\] advertisements. Public service announcement: Rich Harris says "Don't be a Svelte dev."
+**Jerod Santo:** That's what we need as advertisements. Public service announcement: Rich Harris says "Don't be a Svelte dev."
 
 **Amal Hussein:** Right. Right.
 
@@ -210,7 +210,7 @@ I don't know, Rich, you have large audiences... Do you feel pressure to lead in 
 
 **Jerod Santo:** It is. \[laughs\]
 
-**Rich Harris:** ...that's why we go there. And if anything, because its current owner has made such a complete \[unintelligible 00:45:18.24\] of everything over the last few months, I feel like all of the moderate, reasonable voices have left, and all the people who are left are like the addicts and the people who just can't help but \[unintelligible 00:45:30.13\]
+**Rich Harris:** ...that's why we go there. And if anything, because its current owner has made such a complete \[unintelligible 00:45:18.24\] of everything over the last few months, I feel like all of the moderate, reasonable voices have left, and all the people who are left are like the addicts and the people who just can't help but stir up some...
 
 **Jerod Santo:** Yeah. The expert trolls are still there.
 
@@ -238,7 +238,7 @@ I don't know, Rich, you have large audiences... Do you feel pressure to lead in 
 
 **Jerod Santo:** What's your rule, and why did you finally break it?
 
-**Rich Harris:** \[47:41\] So the rule is only do positive quote tweets. The quote tweet dunk is the lowest form of tweet. \[laughter\] And I've abided by that for a very long time. And when people quote-tweet me to dunk on me, I won't quote-tweet dunk on them back. I'm not gonna try and \[unintelligible 00:47:56.17\] my followers on them, or anything like that. I will reply to them, and that's usually enough. But the tweet last week about the \[unintelligible 00:48:04.10\] thing, it was just so unambiguously wrong, and everyone was basically in agreement about that, that I just forgot my rule. I couldn't help it. But now I have relinquished any moral high ground I may have held from having that rule for so long. And so I do regret a little bit getting involved in that whole thing... But at the same time, it was kind of fun.
+**Rich Harris:** \[47:41\] So the rule is only do positive quote tweets. The quote tweet dunk is the lowest form of tweet. \[laughter\] And I've abided by that for a very long time. And when people quote-tweet me to dunk on me, I won't quote-tweet dunk on them back. I'm not gonna try and sick my followers on them, or anything like that. I will reply to them, and that's usually enough. But the tweet last week about the Turbo-8 thing, it was just so unambiguously wrong, and everyone was basically in agreement about that, that I just forgot my rule. I couldn't help it. But now I have relinquished any moral high ground I may have held from having that rule for so long. And so I do regret a little bit getting involved in that whole thing... But at the same time, it was kind of fun.
 
 **Jerod Santo:** So - I don't know, should we give context? Because I feel like maybe our listener might not know exactly the tweet that was quote-tweeted, and what you said about it...
 
@@ -302,7 +302,7 @@ I don't know, Rich, you have large audiences... Do you feel pressure to lead in 
 
 **Amal Hussein:** Yeah, he's just persona non grata for some people, and I don't know... This is, again -- I personally don't think it's healthy as a community to dunk on people that we disagree with philosophically. I think it's important to have diversity in thought, as long as somebody isn't being hateful towards others. They're allowed to exist, right? It's whatever. But anywho. So did anybody read the blog post? Because I didn't... So thoughts on the blog post.
 
-**Rich Harris:** The reason that this is such perfect fodder for passionate nerd arguments is that there's just so much going on there. No matter what your bias is, what your \[unintelligible 00:54:48.17\] you can find something to strongly agree with or strongly disagree with. And even just the bit of the article that he quoted in the tweet that you just read out, "Let the rest of us enjoy JavaScript in the glorious spirit it was originally designed, free of strong typing" - it wasn't designed at all. It was thrown together by Brendan Eich over a weekend in 1980.
+**Rich Harris:** The reason that this is such perfect fodder for passionate nerd arguments is that there's just so much going on there. No matter what your bias is, what your priors, you can find something to strongly agree with or strongly disagree with. And even just the bit of the article that he quoted in the tweet that you just read out, "Let the rest of us enjoy JavaScript in the glorious spirit it was originally designed, free of strong typing" - it wasn't designed at all. It was thrown together by Brendan Eich over a weekend in 1980.
 
 **Amal Hussein:** Right. It was a hack.
 
@@ -316,7 +316,7 @@ I don't know, Rich, you have large audiences... Do you feel pressure to lead in 
 
 **Amal Hussein:** It was an afterthought, yeah.
 
-**Rich Harris:** And before that, "May you bring much rigor and satisfaction to your tribe" - well, \[unintelligible 00:55:32.05\] who, to be fair, is a TypeScript educator, and so has a little bit of a bias here, pointed out that consistently in survey responses TypeScript is a very large majority of TypeScript/JavaScript users. So it's not a tribe anymore. And even looking beyond the people who self-identify as TypeScript users, every JavaScript user in 2023, is a TypeScript user, whether they were aware of it or not. Because the minute that you start typing some code in VS Code, the minute that you start referencing anything from an external library, it's pulling in the type definitions, and it's giving you IntelliSense, and autocomplete, and all of that stuff. So everyone is a TypeScript user, it's just that a lot of people aren't aware of it.
+**Rich Harris:** And before that, "May you bring much rigor and satisfaction to your tribe" - well, Matt Pocock who, to be fair, is a TypeScript educator, and so has a little bit of a bias here, pointed out that consistently in survey responses TypeScript is a very large majority of TypeScript/JavaScript users. So it's not a tribe anymore. And even looking beyond the people who self-identify as TypeScript users, every JavaScript user in 2023, is a TypeScript user, whether they were aware of it or not. Because the minute that you start typing some code in VS Code, the minute that you start referencing anything from an external library, it's pulling in the type definitions, and it's giving you IntelliSense, and autocomplete, and all of that stuff. So everyone is a TypeScript user, it's just that a lot of people aren't aware of it.
 
 And so just in that very small amount of space, just that tweet, there's a lot of different things to engage with.
 
@@ -344,7 +344,7 @@ And so just in that very small amount of space, just that tweet, there's a lot o
 
 **Rich Harris:** Exactly.
 
-**Jerod Santo:** Well, as I said before, he's very skilled at being contrarian and just drawing out people's ire. And so he brings a lot of it upon himself. I mean, I think he actually enjoys that. I actually -- I've been around DHH long enough to know how much he despised JavaScript for many years, and would do anything possible not to write it. And so that sentence from the quote tweet is particularly interesting for me, because I know that he just despised JavaScript so much \[unintelligible 00:57:42.04\] the way that it was designed to be, you know? Like, it was so good back then.
+**Jerod Santo:** Well, as I said before, he's very skilled at being contrarian and just drawing out people's ire. And so he brings a lot of it upon himself. I mean, I think he actually enjoys that. I actually -- I've been around DHH long enough to know how much he despised JavaScript for many years, and would do anything possible not to write it. And so that sentence from the quote tweet is particularly interesting for me, because I know that he just despised JavaScript so much and they say it's the way that it was designed to be, you know? Like, it was so good back then.
 
 **Rich Harris:** Well, in the blog post he says "The fact is that I actually rather like JavaScript. I go so far as to say it's my second favorite language after Ruby."
 
@@ -374,7 +374,7 @@ And so just in that very small amount of space, just that tweet, there's a lot o
 
 **Rich Harris:** Are we talking about the PR, or my tweet?
 
-**Amal Hussein:** No, no, no. We're talking about the DHH \[unintelligible 01:00:27.09\]
+**Amal Hussein:** No, no, no. We're talking about the DHH thing specifically...
 
 **Jerod Santo:** The Turbo 8 removal of TypeScript. Is that what you mean?
 
@@ -392,7 +392,7 @@ And so just in that very small amount of space, just that tweet, there's a lot o
 
 **Amal Hussein:** Yeah, that makes sense. So Daniel Buckmaster had a question... Well, it was more of a comment. They were like "Well, this is really interesting timing around this removal of TypeScript, especially when projects like ESBuild and Deno and Bun are all trying to actually add support." And I think that's an interesting point, but I'm curious if you have any thoughts on that.
 
-**Rich Harris:** \[01:02:07.13\] Yeah, I mean, I don't know \[unintelligible 01:02:07.03\] TypeScript, but Chrome isn't... So I would prefer that packages continue to ship JavaScript. If I have to start transpiling stuff to run stuff that I've installed from Node modules, then I'm going to be mad.
+**Rich Harris:** \[01:02:07.13\] Yeah, I mean, I Deno and Bun are written in TypeScript, but Chrome isn't... So I would prefer that packages continue to ship JavaScript. If I have to start transpiling stuff to run stuff that I've installed from Node modules, then I'm going to be mad.
 
 **Jerod Santo:** Are you excited about the type annotations proposal? Is that something you've looked at and you're --
 
@@ -406,7 +406,7 @@ And so just in that very small amount of space, just that tweet, there's a lot o
 
 **Jerod Santo:** One of these days... When's that web platform gonna come out? \[laughs\]
 
-**Amal Hussein:** Yeah, this thing... And \[unintelligible 01:03:28.21\] says "I am here for it. I have been saying that, especially on the frontend, I lose a lot more time using TypeScript than any time it could possibly spare me for potential runtime bugs. On the API side, it makes a lot of sense, though." That's kind of how I feel... But of course, it would be completely irresponsible for me, especially when working in a large scale application or with other developers... I think in 2023 it would be irresponsible for me to not use TypeScript in application code. That's just my personal opinion, and it's fine, you can have a different opinion and that's fine. It doesn't make you a bad person, despite what the internet says. But yeah, I mean, what are your thoughts on that, Rich? We kind of talked about that a little bit earlier, but I feel like maybe your expertise in TypeScript helps you have minutes lost to TypeScript lost every week, versus hours... Because I've seen some people just literally will spend hours struggling with TypeScript. And that's not uncommon.
+**Amal Hussein:** Yeah, this thing... And lastly \[unintelligible 01:03:28.21\] says "I am here for it. I have been saying that, especially on the frontend, I lose a lot more time using TypeScript than any time it could possibly spare me for potential runtime bugs. On the API side, it makes a lot of sense, though." That's kind of how I feel... But of course, it would be completely irresponsible for me, especially when working in a large scale application or with other developers... I think in 2023 it would be irresponsible for me to not use TypeScript in application code. That's just my personal opinion, and it's fine, you can have a different opinion and that's fine. It doesn't make you a bad person, despite what the internet says. But yeah, I mean, what are your thoughts on that, Rich? We kind of talked about that a little bit earlier, but I feel like maybe your expertise in TypeScript helps you have minutes lost to TypeScript lost every week, versus hours... Because I've seen some people just literally will spend hours struggling with TypeScript. And that's not uncommon.
 
 **Rich Harris:** I have so much empathy for people in that position, because I've definitely been there. When you first start using TypeScript, you really do feel like this is just busy work, "I'm just writing all of this extra junk to appease the compiler, and it's not doing anything for me." And then at a certain point, in my experience - and this has happened to me, and it's happened to so many people that I've talked to, and that I've personally helped on the TypeScript journey... At some point, it kind of clicks. And then you realize that you're not fighting with the compiler anymore. You're just giving the compiler the means to help you. And I think what sometimes happens is people aren't aware of the degree that you can take advantage of inference, for example; you feel like you need to annotate every variable declaration, when actually, by and large, you don't need to do that. TypeScript has got your back.
 
@@ -446,4 +446,4 @@ And it's this difference between fixing the types and doing type-driven developm
 
 **Jerod Santo:** Unless there's another emergency in the meantime.
 
-**Amal Hussein:** Yes, unless there's another emergency. An awesome show on JS security with \[unintelligible 01:08:15.03\] He's a security engineer at Reddit. We worked together when were at npm. He's phenomenal. Just bring your notebook to that podcast. So with that said, have a good one, y'all. Cheers.
+**Amal Hussein:** Yes, unless there's another emergency. An awesome show on JS security with Ron Perris. He's a security engineer at Reddit. We worked together when were at npm. He's phenomenal. Just bring your notebook to that podcast. So with that said, have a good one, y'all. Cheers.
