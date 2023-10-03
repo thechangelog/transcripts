@@ -592,7 +592,7 @@ It's kinda like TVs... Tell me if you guys like this -- Nick, you might be more 
 
 **Jerod Santo:** Yeah. If you stretched a 720p to 4k, 85-inch screen, and like the pixels are like the size of like a tater tot. It's like that big. You can see every pixel. \[laughter\]
 
-**Adam Stacoviak:** \[unintelligible 00:36:45.18\] this is a tater tot.
+**Adam Stacoviak:** Should've said quarter or this is a tater tot.
 
 **Jerod Santo:** Well, they're square, you know?
 
@@ -1288,7 +1288,7 @@ I think that one thing that -- well, first off, Jerod, you were saying, like, th
 
 **Adam Stacoviak:** It's probably pretty accurate. That's how it is in my household, too. I think we're a version of what's normal for most of the US...
 
-**Jerod Santo:** Western US \[unintelligible 01:20:40.08\] the world.
+**Jerod Santo:** Western US; beyond the other world.
 
 **Adam Stacoviak:** Yeah. And so when you think about Arc, and you think about -- what are the other ones we didn't even mention yet? We have a list... At least I wrote down our list... We had Arc...
 
@@ -1648,7 +1648,7 @@ Nyxt we didn't try, because Nyxt is a hackers' browser. Very cool. I've covered 
 
 **Jerod Santo:** I don't know.
 
-**Adam Stacoviak:** I thought it was like \[unintelligible 01:39:15.13\] and that Apple is disintegrating.
+**Adam Stacoviak:** I thought it was like the same as dusting or same as snapped and that Apple is disintegrating.
 
 **Nick Nisi:** Oh, maybe.
 
