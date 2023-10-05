@@ -32,7 +32,7 @@ I want to say that the White House might have had some sort of initiative around
 
 **Michael Quigley:** So we started working on OpenZiti, I want to say it was maybe six or seven years ago at this point... Probably about six years. We started with a sort of whole cloth solution to this. We actually started with a proprietary product that we sort of built a wrapper around. It was this closed source thing that was used by the Department of Defense and some of those kinds of people to do spread spectrum-like security and some of those kinds of things around securing data in motion. We kind of built that and added some additional layers of security on top of it. And then we started looking at the problem from sort of a holistic perspective, like "How do we want this to work?" And what we ended up with was sort of a network overlay, that doesn't sort of piggyback on top of IP in terms of like IPsec, or WireGuard or anything like that, where it's actually reencapsulating and encrypting the data. Conceptually, what we built is closer to something like Tor, where we have a mesh network that you we call the overlay, and then all of the underlying IP networking, whether it's WAN links, or whatever it might be, we refer to that as underlay. So all of the overlay is basically running in user space, and we've got this mesh network of routers that has smart routing, has its own sort of addressing protocol built on top of it, and layered into that from the very beginning is strong cryptography and strong security around identity. So it truly is zero trust from that perspective, in that you can't really do anything on the network without having strong identity in the loop.
 
-\[00:06:14.00\] But that let us do some interesting stuff where we can sort of tailor the addressing model, and the naming model, and the policies and all those sorts of things at a user space level. Even the routing protocols across the mesh, they basically are running in user space. And you can reroute traffic, you can say "I only want this traffic to go through these links", you can control costs to process things however you want... So in the early days of a lot of this stuff I was working on the underlying fabric, the mesh networking and the architecture around that. And then on top of that we've layered various edge protocols, and higher-level constructs that allow you to embed the stuff in the applications. And if we're talking about like an elevator pitch for this, I think the main thing that we like to talk about in terms of like how we would explain OpenZiti to people is that it's more of a programmable network. So we really come at it from the perspective of -we have SDKs and we've got infrastructure that's designed for programmers to embed this stuff into their applications.
+\[06:14\] But that let us do some interesting stuff where we can sort of tailor the addressing model, and the naming model, and the policies and all those sorts of things at a user space level. Even the routing protocols across the mesh, they basically are running in user space. And you can reroute traffic, you can say "I only want this traffic to go through these links", you can control costs to process things however you want... So in the early days of a lot of this stuff I was working on the underlying fabric, the mesh networking and the architecture around that. And then on top of that we've layered various edge protocols, and higher-level constructs that allow you to embed the stuff in the applications. And if we're talking about like an elevator pitch for this, I think the main thing that we like to talk about in terms of like how we would explain OpenZiti to people is that it's more of a programmable network. So we really come at it from the perspective of -we have SDKs and we've got infrastructure that's designed for programmers to embed this stuff into their applications.
 
 So rather than sort of being a network layer thing that you use like a VPN, or you use as like some sort of bolt-on your application to sort of try and secure it and bolt zero trust to it, I think our ideal use case is we want people to take our SDKs and embed this stuff directly into their applications. So that's the main difference, I think.
 
@@ -48,7 +48,7 @@ So rather than sort of being a network layer thing that you use like a VPN, or y
 
 **Michael Quigley:** Yeah, yeah. And the nice thing about the design too is you can take whatever layers make the most sense for what you're trying to do -- like, we generally ship the entire stack to customers, and they use the whole thing, but you could use just the mesh if you wanted to, you can... And then going up even higher, now that Ziti is starting to become mature, I've sort of pivoted my work and I work on an open source project called zrok now. And zrok was sort of a -- the name, you can kind of tell what it was inspired by just the name. Most people are familiar with ngrok; that kind of had the... I was basically like "Go figure out what something like ngrok would look like on top of OpenZiti." So I built zrok. And one of the cool things about zrok is that you look at tools like ngrok, and it's awesome that you can share a private resource on a public URL, and let anyone use it, and you don't have to open any security holes... All those things are great. But one of the cool things about Ziti is because we have this overlay network, and we control the addressing, and it's all zero trust, we can do peer-to-peer across that network without requiring any of the peers to expose themselves publicly, or anything like that. All the peers can remain "dark", but we can still have peer-to-peer communication. So that lets us do things like private sharing, where we can say "I want to share a network connection between two completely dark peers", and the traffic will go across the overlay, across the internet, but none of that's exposed to any of those things. All that data is end­-to-end encrypted, it's all zero trust under the covers... So that's one of the things that's really cool about it. So zrok ends up becoming like a really good use case for showing people how you can use something like Ziti to build things that you couldn't otherwise easily build.
 
-**Natalie Pistunovich:** \[00:09:59.06\] And how does all this fit with go?
+**Natalie Pistunovich:** \[09:59\] And how does all this fit with go?
 
 **Michael Quigley:** So that's an interesting story. So when we started building Ziti, it was almost accidental that we ended up on Go. And I couldn't be happier that we chose -- I mean, Go... I've been doing this a long time, and I would say that Go has replaced a lot of other programming languages for me.
 
@@ -84,7 +84,7 @@ So I think that's one of the things that we're actively working on, is trying to
 
 **Michael Quigley:** Yeah, absolutely. And I think if you look at our Go SDKs, we've got our -- I kind of think of it as there's OpenZiti and then there's zrok layered on top of it. And zrok is kind of a really good way to sort of understand at a high level what's going on with some of this stuff. You can start with that perspective and sort of drill into it.
 
-\[00:14:14.09\] So there's an OpenZiti Go SDK, but there's also a zrok SDK. And the zrok SDK, like if you're a Go network developer, it's net.Conn and net.Listener at the end of the day. It couldn't be any more simple than that. There's a couple of extra lines of code to sort of establish identity and that sort of thing, but beyond that, like, dial and bind, and you're there. It's basically traditional net.Conn and net.Listener and you've got a working network. And everything's zero trust, and it's secure, and peer-to-peer, and all those kinds of nice things.
+\[14:14\] So there's an OpenZiti Go SDK, but there's also a zrok SDK. And the zrok SDK, like if you're a Go network developer, it's net.Conn and net.Listener at the end of the day. It couldn't be any more simple than that. There's a couple of extra lines of code to sort of establish identity and that sort of thing, but beyond that, like, dial and bind, and you're there. It's basically traditional net.Conn and net.Listener and you've got a working network. And everything's zero trust, and it's secure, and peer-to-peer, and all those kinds of nice things.
 
 **Natalie Pistunovich:** Okay. So you say that what you do is different from some of the traditional zero trust... So let's talk about what is a traditional zero trust architecture, what are some components there, and what is different with you.
 
@@ -108,7 +108,7 @@ So I think that's one of the things that we're actively working on, is trying to
 
 **Natalie Pistunovich:** Does the use of zero trust components in general make at all ISO certification for security more complicated, simpler, or have no effect at all?
 
-**Michael Quigley:** \[00:18:02.29\] I don't actually know. I haven't been through a certification process like that, so I don't really know. Yeah, I don't have a good answer for that. So I don't know.
+**Michael Quigley:** \[18:02\] I don't actually know. I haven't been through a certification process like that, so I don't really know. Yeah, I don't have a good answer for that. So I don't know.
 
 **Natalie Pistunovich:** I can definitely see the value of using that on the technical side, but usually you do security -- if you spend a lot of focus on security, you're probably going to display that for others to know, and know that this is a checklist that they mark, and are able to use, so...
 
@@ -138,7 +138,7 @@ So I think that's one of the things that we're actively working on, is trying to
 
 **Michael Quigley:** So one of the things that we talked about a lot, that I think I mentioned earlier, is the smart routing capabilities. So we have this overlay network, and there's connections in all directions, and we've got this mesh. And we have sort of a basic implementation of what we call smart routing. And that's about rerouting traffic to a different path if there's a better path available, or rerouting around damage, and some of those kinds of things. There's a couple of things that I think could pull AI into the mix. We're talking about multi-tenancy, and we've got this big data plane, and we want to build to allow multiple customers to share large amounts of resources on the overlay network. So we're having a big, giant, well-provisioned mesh, and then we let lots of customers use that mesh. It's one of the things that's a discussion point.
 
-\[00:22:21.22\] And then our smart routing implementation could very easily use statistical learning or ML or something along those lines to sort of make smarter decisions around optimization, potentially. So I think there is an aspect of what we're doing with that overlay that could benefit from that kind of an approach.
+\[22:21\] And then our smart routing implementation could very easily use statistical learning or ML or something along those lines to sort of make smarter decisions around optimization, potentially. So I think there is an aspect of what we're doing with that overlay that could benefit from that kind of an approach.
 
 **Natalie Pistunovich:** Have you seen that at all? Is that some trend that might be coming?
 
@@ -156,7 +156,7 @@ So I actually was able to get to a point where on lossy links especially, and ce
 
 **Natalie Pistunovich:** And because it worked best for the edge cases where it was, for example, far, and then it also means it was not very common, so it was not competing too much, so it's okay, kind of... It's okay greedy.
 
-**Michael Quigley:** \[00:26:02.14\] Yeah, exactly. It was designed to be used in cases where it was okay to be that kind of greedy. I believe that's still available as a transport option in Ziti. So I think it's still -- I don't know, I haven't looked to see if anyone's pulled it out, but I want to say you can still set up a transport mesh and have that protocol... And again, there's certain cases where I think it might perform less well than TCP. I think local hosts -- like, there's a couple places where the fact that it runs in user space, there's some buffering issues and things where it doesn't always perform as well as it could... But for certain kinds of links it's definitely -- you'll get a pretty good performance boost over TCP. And that repository is in our -- if you go to GitHub.com/openziti/testkitchen, we've got a separate sort of GitHub group. There's a -- I believe it's there; there's a Dilithium project. It's all in open source, so people can check that out.
+**Michael Quigley:** \[26:02\] Yeah, exactly. It was designed to be used in cases where it was okay to be that kind of greedy. I believe that's still available as a transport option in Ziti. So I think it's still -- I don't know, I haven't looked to see if anyone's pulled it out, but I want to say you can still set up a transport mesh and have that protocol... And again, there's certain cases where I think it might perform less well than TCP. I think local hosts -- like, there's a couple places where the fact that it runs in user space, there's some buffering issues and things where it doesn't always perform as well as it could... But for certain kinds of links it's definitely -- you'll get a pretty good performance boost over TCP. And that repository is in our -- if you go to github.com/openziti/testkitchen, we've got a separate sort of GitHub group. There's a -- I believe it's there; there's a Dilithium project. It's all in open source, so people can check that out.
 
 **Natalie Pistunovich:** Taking notes of all the things you're mentioning - and this will all be part of the show notes, with links... So if anybody wants to go and check this out, you will find this in the show notes.
 
@@ -196,7 +196,7 @@ So I actually was able to get to a point where on lossy links especially, and ce
 
 **Natalie Pistunovich:** So every time there is onboarding, something in the documentation gets better.
 
-**Michael Quigley:** \[00:30:10.11\] Yeah, that's the hope. Documentation is hard, though.
+**Michael Quigley:** \[30:10\] Yeah, that's the hope. Documentation is hard, though.
 
 **Natalie Pistunovich:** Yeah, for sure. Although I guess it's one of those things that ChatGPT can also help with "Here's what we do. Explain this better."
 
@@ -236,7 +236,7 @@ So zrok as a project sits on top of Ziti. So it's what we call a Ziti native app
 
 **Michael Quigley:** Sure. I would think of that as more like an operational metric, like how well is the overlay performing. And I would imagine -- there are cases, like with the whole Transwarp/Dilithium thing, there's cases where an overlay could improve the performance of what you're doing, but I think in general most people aren't using them to try and make things faster or better. I think it's more about -- it's physics. If you're going to put your bits through more CPU, it's gonna take longer.
 
-**Natalie Pistunovich:** \[00:34:13.27\] Yeah, yeah. It's a trade-off that probably is okay to have also...
+**Natalie Pistunovich:** \[34:13\] Yeah, yeah. It's a trade-off that probably is okay to have also...
 
 **Michael Quigley:** Yeah.
 
@@ -272,7 +272,7 @@ We're a bunch of real people who are sitting around and working on this stuff, a
 
 **Natalie Pistunovich:** And Hacktoberfest is around the corner.
 
-**Michael Quigley:** \[00:37:44.13\] Yeah, yeah. That would be amazing. One of the things that are part of my world right now is we do have that zrok SDK, and that's sort of the easiest possible way to sort of get yourself programming on top of something like OpenZiti. You can sign up for a zrok account, download it, take the SDK for zrok as a dependency in a Go project and have a working application in five minutes. It's super, super-easy. We are rolling out SDKs for other languages and stuff, too. I know for a fact we're working on Python and Node right now. And I'm sure we'll probably roll out something in Rust, and I'm sure we'll hit some of the high points there, but... I mean, it's actually a really good time to get involved with some of that stuff. It's really easy to build very powerful peer-to-peer stuff.
+**Michael Quigley:** \[37:44\] Yeah, yeah. That would be amazing. One of the things that are part of my world right now is we do have that zrok SDK, and that's sort of the easiest possible way to sort of get yourself programming on top of something like OpenZiti. You can sign up for a zrok account, download it, take the SDK for zrok as a dependency in a Go project and have a working application in five minutes. It's super, super-easy. We are rolling out SDKs for other languages and stuff, too. I know for a fact we're working on Python and Node right now. And I'm sure we'll probably roll out something in Rust, and I'm sure we'll hit some of the high points there, but... I mean, it's actually a really good time to get involved with some of that stuff. It's really easy to build very powerful peer-to-peer stuff.
 
 The example I built for zrok is sort of a -- I called it a paste bin, because when I first started coming up with this, I was thinking of it kind of like a paste bin sort of thing, but distributed. It's probably not the best name for it, but it's basically a buffer that you can work with between any pairs of machines. Any enabled zrok machine, you can shove data through it like it's a copy and paste buffer. And it's also the SDK example. The core of it is like three lines of code on both the server and listener side. Like, it's trivial to get your head around some of that stuff.
 
@@ -320,7 +320,7 @@ The example I built for zrok is sort of a -- I called it a paste bin, because wh
 
 **Michael Quigley:** ...the nice thing about doing that was I was able to cut corners, because I didn't have to worry about interoperability. So I didn't have to worry about like conforming to standards, or anything. I could just say "I'm going to use VPA, and I'm going to use this audio codec", and not worry about negotiations, or anything like that. So I was able to build something that let me save some time, because I didn't care about interoperability. But that did allow us to sort of -- one of the things you have to deal with when you're writing an audio/video client like this is you have to make sure that the lips move at the same time that the words come out, like when you hear the audio.
 
-\[00:42:05.11\] So there's a lip sync thing that has to happen, because generally, the audio and video streams show up independently; they're separate UDP streams. So you have to synchronize those in the client; you actually have to play them out at the same time. So synchronizing arbitrary streams of data is just a matter of building a synchronization primitive that lets you synchronize more things.
+\[42:05\] So there's a lip sync thing that has to happen, because generally, the audio and video streams show up independently; they're separate UDP streams. So you have to synchronize those in the client; you actually have to play them out at the same time. So synchronizing arbitrary streams of data is just a matter of building a synchronization primitive that lets you synchronize more things.
 
 **Natalie Pistunovich:** So you were building this type of synchronization on top of the UDP, basically.
 
@@ -360,7 +360,7 @@ The example I built for zrok is sort of a -- I called it a paste bin, because wh
 
 **Natalie Pistunovich:** Okay. Then I will ask one more question as we are moving into the unpopular opinions.
 
-**Jingle**: \[00:46:11.17\]
+**Jingle**: \[46:11\]
 
 **Natalie Pistunovich:** So do you have an unpopular opinion? ...on any topic at all. It doesn't have to be on packets or on protocols.
 
