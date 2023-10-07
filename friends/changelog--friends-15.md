@@ -102,7 +102,7 @@
 
 **Adam Stacoviak:** Makes sense.
 
-**Jerod Santo:** \[00:06:07.03\] Okay. And 10 rounds, the person with the most points at the end wins. I think we'll figure it out a little bit as we go. Let's start this game of \#define. Round one. The word for round one is megger. Please submit to me your definition of the word megger.
+**Jerod Santo:** \[06:07\] Okay. And 10 rounds, the person with the most points at the end wins. I think we'll figure it out a little bit as we go. Let's start this game of \#define. Round one. The word for round one is megger. Please submit to me your definition of the word megger.
 
 **Amal Hussein:** And that's not to be confused with meager, right? To be clear.
 
@@ -190,7 +190,7 @@
 
 **Jerod Santo:** I'm gonna read a different one and come back. A megger is a small, often wooden box, used for storing a tangled nest of wires. Amal, you're not helping here...
 
-**Amal Hussein:** \[00:10:05.00\] Sorry. \[laughter\] I'm just realizing, all these sounds so official, but like clearly, people are making s\*\*t up, you know?
+**Amal Hussein:** \[10:05\] Sorry. \[laughter\] I'm just realizing, all these sounds so official, but like clearly, people are making s\*\*t up, you know?
 
 **Jerod Santo:** Totally. A megger is a hardware device for measuring network traffic in data centers, or also known as -- gosh, this one's funny... Also known as megger flask - a tool used to mix a hydrous solutions together, with the goal of achieving a homogenous solution. Okay... \[laughs\]
 
@@ -278,7 +278,7 @@
 
 **Adam Stacoviak:** Can you read the correct definition again? What was the true definition?
 
-**Jerod Santo:** \[00:14:00.01\] Yes. A megger is a specialized instrument used to measure electrical insulation resistance. And that was hard for me to read as well.
+**Jerod Santo:** \[14:00\] Yes. A megger is a specialized instrument used to measure electrical insulation resistance. And that was hard for me to read as well.
 
 **Taylor Troesh:** Also known as insolence...
 
@@ -334,7 +334,7 @@ I'm literally sweating, guys, I'm laughing so hard. It's also warm in here, so t
 
 **Jerod Santo:** I don't know...
 
-**Adam Stacoviak:** \[00:17:58.06\] Maybe copy and paste on our main channel, so I can visualize and read them afterwards and choose one.
+**Adam Stacoviak:** \[17:58\] Maybe copy and paste on our main channel, so I can visualize and read them afterwards and choose one.
 
 **Jerod Santo:** I don't know if that's good. That requires more massaging by me of the texts.
 
@@ -446,7 +446,7 @@ I'm literally sweating, guys, I'm laughing so hard. It's also warm in here, so t
 
 **Jerod Santo:** Well, there's plenty of time left. Let's move now to round three. Our word for round three, or our term, is - Zeigarnik effect.
 
-**Amal Hussein:** \[00:21:54.15\] This is when I really wish I was Greek, or took like a Latin class, you know, to break down a word...
+**Amal Hussein:** \[21:54\] This is when I really wish I was Greek, or took like a Latin class, you know, to break down a word...
 
 **Taylor Troesh:** I don't think effect is a Latin word...
 
@@ -548,7 +548,7 @@ I'm literally sweating, guys, I'm laughing so hard. It's also warm in here, so t
 
 **Jerod Santo:** Alright, that's Amal. Last up, Taylor. What are you thinking?
 
-**Taylor Troesh:** \[00:26:18.07\] I think Zeigarlic effect is when they put too much garlic on your pasta, and it ends up being so good. Just so tasty.
+**Taylor Troesh:** \[26:18\] I think Zeigarlic effect is when they put too much garlic on your pasta, and it ends up being so good. Just so tasty.
 
 **Adam Stacoviak:** Just so good.
 
@@ -616,7 +616,7 @@ I'm literally sweating, guys, I'm laughing so hard. It's also warm in here, so t
 
 We move to round four.
 
-**Break**: \[00:28:58.06\]
+**Break**: \[28:58\]
 
 **Jerod Santo:** This is a TLA round, a little bit different. This is a three-letter acronym. I'm simply going to provide an acronym. There's also a correct use of that acronym, with a definition. So you are going to come up with your own acronym, and then define what it is. The acronym is NMR. So that's your three-letter acronym, NMR. You will provide to me what it stands for, and what that is. Submit to me your answers whenever you have them. This is still in the same general category of STEM. Come on, y'all. I'm looking for some acronyms here.
 
@@ -716,7 +716,7 @@ We move to round four.
 
 **Taylor Troesh:** Let's go with that kidney one. I don't think Jerod would have picked an acronym he couldn't pronounce, but I'm drawn to it.
 
-**Jerod Santo:** \[00:38:05.23\] Okay, you're thinking of nephrological micellar retusa?
+**Jerod Santo:** \[38:05\] Okay, you're thinking of nephrological micellar retusa?
 
 **Taylor Troesh:** Yeah.
 
@@ -798,7 +798,7 @@ We move to round four.
 
 **Amal Hussein:** Yeah, I think we need to all unite. Like, who cares who wins? It just can't be Jerod, okay?
 
-**Jerod Santo:** \[00:41:58.10\] Play the spread game? Are you gonna play the spread game?
+**Jerod Santo:** \[41:58\] Play the spread game? Are you gonna play the spread game?
 
 **Lars Wikman:** See, the thing is, you have to go for the definitions that sound fake. Like Roombas.
 
@@ -900,7 +900,7 @@ We move to round four.
 
 **Jerod Santo:** I resent that notion.
 
-**Lars Wikman:** \[00:45:58.01\] What a scam, dude... \[laughter\]
+**Lars Wikman:** \[45:58\] What a scam, dude... \[laughter\]
 
 **Adam Stacoviak:** This is a scam.
 
@@ -1000,7 +1000,7 @@ The Riemann hypothesis is an unsolved problem related to the distribution of pri
 
 **Adam Stacoviak:** And now he's the professor. He's the shrink.
 
-**Amal Hussein:** \[00:50:20.25\] Yes, yes, yes, exactly.
+**Amal Hussein:** \[50:20\] Yes, yes, yes, exactly.
 
 **Adam Stacoviak:** \[unintelligible 00:50:21.10\] because he solved them all.
 
@@ -1084,7 +1084,7 @@ The Riemann hypothesis is an unsolved problem related to the distribution of pri
 
 **Amal Hussein:** Wait, I'm editing.
 
-**Jerod Santo:** \[00:54:19.09\] Okay, go ahead.
+**Jerod Santo:** \[54:19\] Okay, go ahead.
 
 **Taylor Troesh:** I just got an email that all the prices are increasing on my domains. What's going on there?
 
@@ -1178,7 +1178,7 @@ The Riemann hypothesis is an unsolved problem related to the distribution of pri
 
 **Jerod Santo:** The German word for the bittersweet.
 
-**Amal Hussein:** \[00:58:10.19\] Let's just go with number two, state fish, whatever.
+**Amal Hussein:** \[58:10\] Let's just go with number two, state fish, whatever.
 
 **Adam Stacoviak:** Oh, my God...
 
