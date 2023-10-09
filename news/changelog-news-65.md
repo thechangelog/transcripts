@@ -70,7 +70,7 @@ Prank on your boss? Ferris Buehler style?
 
 **Jerod Santo:**
 
-Here's Luke Plant, spittin' hard truths about simplicity: "A lot of developers want simplicity in the same way that a lot of clients claim they want a fast website. You respond “OK, so we can remove some of these 17 Javascript trackers and other bloat that’s making your website horribly slow?” – no, apparently those are all critical business functionality. In other words, they prioritise everything over speed. And then they wonder why using their website is like rowing a boat through a lake of molasses on a cold day using nothing but a small plastic spoon."
+Here's Luke Plant, spittin' hard truths about simplicity: "A lot of developers want simplicity in the same way that a lot of clients claim they want a fast website. You respond “OK, so we can remove some of these 17 JavaScript trackers and other bloat that’s making your website horribly slow?” – no, apparently those are all critical business functionality. In other words, they prioritise everything over speed. And then they wonder why using their website is like rowing a boat through a lake of molasses on a cold day using nothing but a small plastic spoon."
 
 I could pull quote every paragraph form this piece, but I'll limit myself to just one more:
 
