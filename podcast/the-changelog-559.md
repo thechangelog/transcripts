@@ -78,7 +78,7 @@
 
 **AnnMarie Thomas:** Oh yeah, absolutely.
 
-**Adam Stacoviak:** \[00:07:59.24\] You know this probably, as a professor; so you know this. But to me, I'm like hanging on to your talk, because I am a curious person who pays attention to brain sciency things. So neuroscience, those kind of things... And so to me, it's like, I'm hearing from somebody who's like steeped in literally educating and playing at the same time, and engineering, and all that fun stuff... So just exactly what you said was on point, because it wasn't going perfectly AV-wise; talk-wise, great.
+**Adam Stacoviak:** \[07:59\] You know this probably, as a professor; so you know this. But to me, I'm like hanging on to your talk, because I am a curious person who pays attention to brain sciency things. So neuroscience, those kind of things... And so to me, it's like, I'm hearing from somebody who's like steeped in literally educating and playing at the same time, and engineering, and all that fun stuff... So just exactly what you said was on point, because it wasn't going perfectly AV-wise; talk-wise, great.
 
 **AnnMarie Thomas:** Thank you.
 
@@ -108,7 +108,7 @@ Also, if you go younger - and I work with kids, too - a lot of magic and sleight
 
 **AnnMarie Thomas:** When we did that class at the circus, the final exam was doing a circus about physics for sixth graders. But then we created a music video later, and the song that the music video plays to - and you can find it online - was done by a band called Mighty Fairly, and they took my course notes... And it's beautiful, like in a nerdy way. One of the lines they \[unintelligible 00:12:08.12\] Which is lovely. They weren't just randomly using the words; like, we were doing cross-products, we were doing potential to kinetic, and it was just beautiful, their ability to turn it into this catchy song, that is like totally geeky-correct.
 
-**Adam Stacoviak:** \[00:12:30.22\] Right. How did OK Go happen for you? The whole sandbox... How did that relationship happen? Do you know somebody? Are you in music? How did the relationship spawn and the partnership form?
+**Adam Stacoviak:** \[12:30\] Right. How did OK Go happen for you? The whole sandbox... How did that relationship happen? Do you know somebody? Are you in music? How did the relationship spawn and the partnership form?
 
 **AnnMarie Thomas:** Yeah, I went to a conference... I drink too much coffee, and I got in line for a coffee before heading to the airport, literally the last minute of the conference... And the person in front of me was the lead singer for OK Go. And I introduced myself and said they'd given a great talk at the conference, and I love their work, and I use them in classrooms. And they asked what I did, and I said "I teach, I'm an engineering and education professor", and he said, "Oh, we should do something together." He didn't know me, and then I was like "Well, I'm gonna be in L.A. in a few weeks", and he's like "Why?" I'm like "I'm giving a talk. Hey, do you wanna give a talk with me?" This is truly like in coffee line, at a conference. And he's like "Sure." So my second conversation with Damien was us giving a talk to 1,500 people. And then we chatted over meal and said "Alright, how can we work together?" And we got a grant the next week; a few months later they were on our campus, filming our test content... And yeah, that was April of 2017, so we've done a lot since then.
 
@@ -138,7 +138,7 @@ Also, if you go younger - and I work with kids, too - a lot of magic and sleight
 
 **AnnMarie Thomas:** We had to do that, because for that one -- because of COVID, a lot of people couldn't mail back their stuff. So some of them were digital and some were filmed. And so to make it so they were seamless, we had to do both, and then combine.
 
-**Adam Stacoviak:** \[00:16:18.21\] How does this project live now? I know it's digital, it's an artifact...
+**Adam Stacoviak:** \[16:18\] How does this project live now? I know it's digital, it's an artifact...
 
 **AnnMarie Thomas:** That's right. The five songs you can find on Spotify, and then the six music videos and the documentary about how the whole project happened you can find on OK Go's sandbox.
 
@@ -186,7 +186,7 @@ In terms of big new things, there's definitely discussions. The band - they have
 
 **AnnMarie Thomas:** I was so nervous. I've been so nervous. I've heard of this conference before, and if you read the rules, it's all like your talk should not be about process, it should be... And I was panicking. Like non-stop panicking about it. I was talking to some programmer friends, I'm like "I think they asked the wrong person." But yeah, I've heard about Strange Loop for years, and how cool it is, so it's delightful to be here, and I'm sad I come just as attending... But better last than never.
 
-**Adam Stacoviak:** \[00:20:00.03\] How did you like how Alex introduced you? His process to find keynoters, and how he found someone like you.
+**Adam Stacoviak:** \[20:00\] How did you like how Alex introduced you? His process to find keynoters, and how he found someone like you.
 
 **AnnMarie Thomas:** That was lovely. I was so delighted when I got Alex's email. So that was... Yup.
 
@@ -262,7 +262,7 @@ I'm trying to learn some new things... So I've been deep-diving into magic. I've
 
 **Jerod Santo:** Thank you.
 
-**Break**: \[00:23:18.21\]
+**Break**: \[23:18\]
 
 **Richard Feldman:** Yeah, so I'm Richard Feldman. This is my 10th Strange Loop. I was in St. Louis when they started, so I've been to the first several... My best memory's actually from just before the pandemic. Every year we'd have ElmCon right before Strange Loop, in like the same venue... And that was awesome, because that was really about community, and we'd just go and have an all-day Elm fest, and then followed by that immediately Strange Loop. So it was just great having like both of those back to back. And then we'd have a lot of overlap, where people came out to Strange Loop, and they'd be trying out Elm for the first time, and they just kind of wandered over to Elm Conf... It was just awesome. It was a great time, and I'm gonna miss it.
 
@@ -322,7 +322,7 @@ I think the main thing that's changed is that it's gotten bigger and better and 
 
 **Adam Stacoviak:** Okay.
 
-**Richard Feldman:** \[00:28:04.05\] So we have this concept called platforms and applications. The basic idea is whatever you're about to build, you're saying, "I'm gonna build an application in Roc", you always have to pick a platform to build on. Exactly one. And a platform feels to you as a user kind of like a framework, but actually under the hood it's doing a lot more than a framework would. It's doing stuff like providing all the IO primitives, and also memory management. So that's how you can have something, for example, like a database extension. In a lot of languages if you're doing a database extension, it's like "Okay, so in this database extension I've got HTTP, and like multi-threading, and file IO... Am I allowed to do all that stuff in a database extension? Maybe not."
+**Richard Feldman:** \[28:04\] So we have this concept called platforms and applications. The basic idea is whatever you're about to build, you're saying, "I'm gonna build an application in Roc", you always have to pick a platform to build on. Exactly one. And a platform feels to you as a user kind of like a framework, but actually under the hood it's doing a lot more than a framework would. It's doing stuff like providing all the IO primitives, and also memory management. So that's how you can have something, for example, like a database extension. In a lot of languages if you're doing a database extension, it's like "Okay, so in this database extension I've got HTTP, and like multi-threading, and file IO... Am I allowed to do all that stuff in a database extension? Maybe not."
 
 So the idea is that on the Roc platform, the platform says "I'm gonna be both a framework, and also like, here's just the primitives that makes sense in this use case." So if you're doing like a TUI, then somebody can make a platform for just that, that's got APIs that makes sense for that. And a server - same thing, just APIs that makes sense for that.
 
@@ -392,11 +392,11 @@ So the idea is that on the Roc platform, the platform says "I'm gonna be both a 
 
 **Richard Feldman:** Go for it.
 
-**Nikolai Vasquez:** Hi, I'm Nikolai Vasquez. Why the focus on WebAssembly? What do you want to enable by having Roc work with Web Assembly?
+**Nikolai Vasquez:** Hi, I'm Nikolai Vasquez. Why the focus on WebAssembly? What do you want to enable by having Roc work with WebAssembly?
 
 **Jerod Santo:** See you later, Adam.
 
-**Richard Feldman:** I would say there isn't a focus on Web Assembly. So Roc compiles to either machine code or to Web Assembly. Actually, almost all the use cases today are not Web Assembly. The one that's on the website is we have a web REPL. So you can try out the language right in the browser. And actually, the entire REPL is running in the browser, so you can like turn off your network connection and it still works. And that's basically like -- we have a little stripped-down version of the Roc compiler compile to WebAssembly, running in the browser. And then we also have, obviously, it compiles your Roc code to WebAssembly and then it runs it in the browser. So that's like the main use case for it. But there's plenty of stuff people can use WebAssembly for, so if people want to, they can do that.
+**Richard Feldman:** I would say there isn't a focus on WebAssembly. So Roc compiles to either machine code or to WebAssembly. Actually, almost all the use cases today are not WebAssembly. The one that's on the website is we have a web REPL. So you can try out the language right in the browser. And actually, the entire REPL is running in the browser, so you can like turn off your network connection and it still works. And that's basically like -- we have a little stripped-down version of the Roc compiler compile to WebAssembly, running in the browser. And then we also have, obviously, it compiles your Roc code to WebAssembly and then it runs it in the browser. So that's like the main use case for it. But there's plenty of stuff people can use WebAssembly for, so if people want to, they can do that.
 
 **Jerod Santo:** Do we have a follow-up?
 
@@ -404,7 +404,7 @@ So the idea is that on the Roc platform, the platform says "I'm gonna be both a 
 
 **Jerod Santo:** Okay.
 
-**Nikolai Vasquez:** And it works very well with Web Assembly, so I was \[unintelligible 00:31:02.04\]
+**Nikolai Vasquez:** And it works very well with WebAssembly, so I was \[unintelligible 00:31:02.04\]
 
 **Richard Feldman:** Oh, yeah. Well, Roc's compiler was written in Rust, so I'm very familiar with \[unintelligible 00:31:07.20\]
 
@@ -440,7 +440,7 @@ So the idea is that on the Roc platform, the platform says "I'm gonna be both a 
 
 **Adam Stacoviak:** Glad to get you on the mic then, man.
 
-**Break:** \[00:31:28.10\]
+**Break:** \[31:28\]
 
 **Colin Dean:** So I'm Colin Dean. I run Code & Supply up in Pittsburgh, a community of software professionals. We've run our own conferences for a long time too, and I've wanted to come to Strange Loop for a long time. About 10 years or so since the first time I heard about it. Strange Loop has influenced our conferences through people's feedback, as well as people who are in the coding supply sphere going to Strange Loop and telling us all the good things that they've experienced here... And so I had to come and see it myself. And finally, this year, after 10 years, I'm able to come.
 
@@ -522,7 +522,7 @@ My girlfriend, longtime partner, about 15 years, has usually had a dog show on t
 
 **Adam Stacoviak:** Is that normal for you?
 
-**Colin Dean:** \[00:35:51.02\] Pretty much. There are times -- if it's like a later afternoon flight, yeah, I'll show up three hours early and I'll just sit there and compute a bit. But if it's like a morning flight like mine -- not an early morning flight, but if it's a morning flight...
+**Colin Dean:** \[35:51\] Pretty much. There are times -- if it's like a later afternoon flight, yeah, I'll show up three hours early and I'll just sit there and compute a bit. But if it's like a morning flight like mine -- not an early morning flight, but if it's a morning flight...
 
 **Adam Stacoviak:** What time was your flight?
 
@@ -628,13 +628,13 @@ My girlfriend, longtime partner, about 15 years, has usually had a dog show on t
 
 **Colin Dean:** That was cool. Thanks for the chat.
 
-**Break**: \[00:39:40.02\]
+**Break**: \[39:40\]
 
 **Taylor Troesh:** Hello. I am Taylor Troesh, from good old taylor.town. I'd like to tell the story of my first Strange Loop, many, many years ago. This is my sixth or seventh. So this had to be like 2012, or something like that.
 
 **Jerod Santo:** Okay.
 
-**Taylor Troesh:** \[00:39:53.00\] So I got this Airbnb out by the river... And it took me like an hour or two to find it in the middle of the night, because it was just this old, abandoned building. And I was very scared, and nobody was texting me back, and I had nowhere to go. I'm totally alone. And so finally, finally, these guys say "Hey, are you in the Airbnb?" I was like "Yeah." They're like "Oh yeah, come on in. We're in here. You're in with us." So I was like "Oh, do you guys own the Airbnb?" I'm walking in, there's a guy passed out on the couch with some illicit substances on his chest... And they say "Oh, that's the host. That's the guy that owns the Airbnb."
+**Taylor Troesh:** \[39:53\] So I got this Airbnb out by the river... And it took me like an hour or two to find it in the middle of the night, because it was just this old, abandoned building. And I was very scared, and nobody was texting me back, and I had nowhere to go. I'm totally alone. And so finally, finally, these guys say "Hey, are you in the Airbnb?" I was like "Yeah." They're like "Oh yeah, come on in. We're in here. You're in with us." So I was like "Oh, do you guys own the Airbnb?" I'm walking in, there's a guy passed out on the couch with some illicit substances on his chest... And they say "Oh, that's the host. That's the guy that owns the Airbnb."
 
 **Jerod Santo:** Okay...
 
@@ -700,7 +700,7 @@ I wake up the next morning, because there was a motorcycle show outside... And s
 
 **Taylor Troesh:** So the moral of the story is, if you ever stay in St. Louis, the Grand Union Station Hotel is an amazing hotel to stay at.
 
-**Jerod Santo:** \[00:44:07.14\] Hopefully the conference was good...
+**Jerod Santo:** \[44:07\] Hopefully the conference was good...
 
 **Taylor Troesh:** Oh, the conference was amazing. \[laughter\] That's the story...
 
@@ -770,7 +770,7 @@ So I'm in the middle of a conversation with somebody the next day, and somebody 
 
 **Adam Stacoviak:** I'm not sure I like your spectrum.
 
-**Break:** \[00:47:22.10\]
+**Break:** \[47:22\]
 
 **Jerod Santo:** Alright, well, we're here with Pokey Rule, the guy whose name I will never forget... It's a unique name.
 
@@ -854,11 +854,11 @@ So I'm in the middle of a conversation with somebody the next day, and somebody 
 
 **Adam Stacoviak:** Are you doing the pop sound, too?
 
-**Pokey Rule:** I do, but mine is \[00:55:09.03\] Yeah. So instead of \[00:55:12.23\] which is -- I can't make that sound.
+**Pokey Rule:** I do, but mine is \[55:09\] Yeah. So instead of \[55:12\] which is -- I can't make that sound.
 
 **Jerod Santo:** It's harder for you.
 
-**Pokey Rule:** \[00:55:15.09\] That's what I do.
+**Pokey Rule:** \[55:15\] That's what I do.
 
 **Adam Stacoviak:** It might not translate so well in this somewhat loud room, but... You're popping.
 
@@ -888,7 +888,7 @@ So I'm in the middle of a conversation with somebody the next day, and somebody 
 
 **Jerod Santo:** That was good. Let's loop that sucker. Put a beat behind it. This could be a new form of music. Okay, so what does that do?
 
-**Pokey Rule:** \[00:56:01.11\] Right. So what that does is it inserts a new line before every function, in a particular range of function defined by two particular endpoints, air and bat. So spike every func, air past bat. We're spiking, putting a new line before every function, in the range between the air function and the bat function. Now, what are the air functions in the bat functions, you probably are going to ask... So air, this is where we get into -- and this on a podcast is gonna be tough, but there's hats all over the little tokens on your screen. There's these little hats that we put right over certain letters. And so if there's a hat over an A, then that token is called air. Because air is the word we use for a. And if there's a hat over a b, then we call that token bat. And so func air is the function which has a hat over an a somewhere in it, and func bat is the function that has a hat over a b somewhere in it. So that's spike every funk air past bat.
+**Pokey Rule:** \[56:01\] Right. So what that does is it inserts a new line before every function, in a particular range of function defined by two particular endpoints, air and bat. So spike every func, air past bat. We're spiking, putting a new line before every function, in the range between the air function and the bat function. Now, what are the air functions in the bat functions, you probably are going to ask... So air, this is where we get into -- and this on a podcast is gonna be tough, but there's hats all over the little tokens on your screen. There's these little hats that we put right over certain letters. And so if there's a hat over an A, then that token is called air. Because air is the word we use for a. And if there's a hat over a b, then we call that token bat. And so func air is the function which has a hat over an a somewhere in it, and func bat is the function that has a hat over a b somewhere in it. So that's spike every funk air past bat.
 
 **Jerod Santo:** So do you have basically a codeword per letter?
 
@@ -942,7 +942,7 @@ So I'm in the middle of a conversation with somebody the next day, and somebody 
 
 **Jerod Santo:** What happened earlier, yeah.
 
-**Adam Stacoviak:** \[00:59:50.21\] Yeah. Like, is there room for error in your speech pattern? Do you have to be precise? How challenging is that?
+**Adam Stacoviak:** \[59:50\] Yeah. Like, is there room for error in your speech pattern? Do you have to be precise? How challenging is that?
 
 **Pokey Rule:** Yeah. So I guess there's kind of two ways in which you could define forgiving. One is forgiving in how you enunciate, and the other is forgiving in what you say. So you could very clearly say a command that's not real. On the other hand, you could slur a perfectly normal command. And so there's sort of two questions there.
 
