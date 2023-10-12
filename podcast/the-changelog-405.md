@@ -104,7 +104,7 @@ This is one of the reasons why developers hate JIRA so much, and they love GitHu
 
 **Jerod Santo:** You've got a personal attachment to it, yeah...
 
-**Adam Stacoviak:** For Pro though, what I think was really interesting was being able to go beyond a text editor. So I've got my Alfred themes in that way... So I think, if you rewind a little bit, what I like is the story, the idea of Dracula... And I also like Zeno, so it was easy to say "Okay, well, he's got this thing. I'm sure he's been working hard on it. I've used Dracula in the past for free... I might as well find a way to support him as a maker and as a person I'm a fan of... And I also enjoy Dracula." I now use it in code, I use it in -- you've made it really easy to use in Oh My Zsh; \[unintelligible 00:11:50.29\] and then the same with Alfred. So in my terminal, in VS Code and In Alfred, which is -- I don't know how to describe Alfred. If you don't know what it is, check it out. I think it's AlfredApp.com, or something like that... But all those themes are themed with my preferred version, which was Van Helsing. That's my flavor. I like dark themes... So that's me.
+**Adam Stacoviak:** For Pro though, what I think was really interesting was being able to go beyond a text editor. So I've got my Alfred themes in that way... So I think, if you rewind a little bit, what I like is the story, the idea of Dracula... And I also like Zeno, so it was easy to say "Okay, well, he's got this thing. I'm sure he's been working hard on it. I've used Dracula in the past for free... I might as well find a way to support him as a maker and as a person I'm a fan of... And I also enjoy Dracula." I now use it in code, I use it in -- you've made it really easy to use in Oh My Zsh; yeah, I just flip the theme and install it and flip the theme, and then the same with Alfred. So in my terminal, in VS Code and In Alfred, which is -- I don't know how to describe Alfred. If you don't know what it is, check it out. I think it's AlfredApp.com, or something like that... But all those themes are themed with my preferred version, which was Van Helsing. That's my flavor. I like dark themes... So that's me.
 
 **Jerod Santo:** \[12:17\] Cool. So what did you land on in terms of the pricing structure, and how that works out, and the details there? Because I noticed it doesn't seem like it's monthly or annually...
 
@@ -202,7 +202,7 @@ It's basically a survey or a way of tracking purchasing power parity - which is 
 
 **Jerod Santo:** I don't know, Zeno, how do those npm packages work, do you know? Is it based on their locale, or just IP address, or...?
 
-**Zeno Rocha:** Yeah, \[unintelligible 00:21:40.16\] on your server, they detect your IP, based on that they give you a certain percentage of discount that you can apply. So if you're connecting with some payment system, you can set up different coupons for different countries. So if you are in Brazil, it's like "Okay, 57%", if you're in India it's another percentage... So that's how it usually works. But yeah, you can just enable VPN and pretend you're there, right?
+**Zeno Rocha:** Yeah, you usually hook up on your server, they detect your IP, based on that they give you a certain percentage of discount that you can apply. So if you're connecting with some payment system, you can set up different coupons for different countries. So if you are in Brazil, it's like "Okay, 57%", if you're in India it's another percentage... So that's how it usually works. But yeah, you can just enable VPN and pretend you're there, right?
 
 **Jerod Santo:** Yeah.
 
@@ -258,7 +258,7 @@ So when I'm working on the open source version, for me it's like I'm working on 
 
 **Jerod Santo:** Maybe you're launching it for him right now... \[laughs\]
 
-**Zeno Rocha:** But it's a really nice theme as well, and I think he's probably going in that direction. And I think other friends - they reached out and got inspired by that idea, of turning their open source projects into a paid version. I have a friend that does a Mac application for you to pretty much enter a presentation mode, where you hide all your desktop apps, you block all the notifications, and now there's no distractions, and you can present whatever you're presenting. It's an app called \[unintelligible 00:29:43.02\] and this was something -- very similar, the way he structured both his offer, and the landing page, and all that. We talked about how to do the pricing, what are the different variables you can think of... And yeah, it was -- I think some people are starting that as well, and I think it's a great thing.
+**Zeno Rocha:** But it's a really nice theme as well, and I think he's probably going in that direction. And I think other friends - they reached out and got inspired by that idea, of turning their open source projects into a paid version. I have a friend that does a Mac application for you to pretty much enter a presentation mode, where you hide all your desktop apps, you block all the notifications, and now there's no distractions, and you can present whatever you're presenting. It's an app called plim and this was something -- very similar, the way he structured both his offer, and the landing page, and all that. We talked about how to do the pricing, what are the different variables you can think of... And yeah, it was -- I think some people are starting that as well, and I think it's a great thing.
 
 **Adam Stacoviak:** You mentioned Solarize, Jerod - that's the only other theme or color scheme I can think of that's been of similar popularity. And Ethan - we had actually had him on - geez, way back when... When was that? Let me look real quick... 2012.
 
@@ -306,7 +306,7 @@ The whole premise of that is that you transform those multiple symbols into just
 
 **Break:** \[35:45\]
 
-**Adam Stacoviak:** The conversation though -- it was more than just a theme. I'm actually using \[unintelligible 00:36:52.04\] because that's what you wrote on DraculaTheme.com/pro when you mentioned seven habits of highly productive developers. Now, first, I wanna know - is seven habits of highly anything trademarked? Because there's another book that's really popular that's very similar named... What are your thoughts on that?
+**Adam Stacoviak:** The conversation though -- it was more than just a theme. I'm actually using your language here Zeno, because that's what you wrote on DraculaTheme.com/pro when you mentioned seven habits of highly productive developers. Now, first, I wanna know - is seven habits of highly anything trademarked? Because there's another book that's really popular that's very similar named... What are your thoughts on that?
 
 **Zeno Rocha:** That's what I found out when I was writing it... \[laughter\]
 
@@ -344,7 +344,7 @@ But yeah, writing a book is a very different beast from programming. But still, 
 
 **Adam Stacoviak:** I'm not doubting you, I'm just wondering - how do you know? How do you have that assurance?
 
-**Jerod Santo:** \[unintelligible 00:39:45.21\] I could on seven, but I can't quite get to 14..."
+**Jerod Santo:** What if you only have eleven habits, and not get the last one. I could on seven, but I can't quite get to 14..."
 
 **Zeno Rocha:** \[39:54\] \[laughs\] You know how I did it? I'm gonna tell you how I got the 14.
 
@@ -356,13 +356,13 @@ But yeah, writing a book is a very different beast from programming. But still, 
 
 **Zeno Rocha:** 11, 12 - taken, or too pricey. And then 14 was free. Okay, 14 it is.
 
-**Jerod Santo:** Wow, that's... I love that. \[unintelligible 00:40:20.01\] So you're like, "Well, I'm gonna have to come up with 14, one way or the other."
+**Jerod Santo:** Wow, that's... I love that. Backing into your topic size. So you're like, "Well, I'm gonna have to come up with 14, one way or the other."
 
 **Zeno Rocha:** Yes. And I was writing, and there were certain topics that were already on my mind. I think one that we can all relate as software engineers is how difficult it is to pick what you should learn. We are bombarded with tweets and messages, everybody telling you "You should use this technology, you should use that one. Use that framework. Oh, React is much better than Angular. Flutter is much better than React Native. Everybody is always telling you what you should do." And I feel that since I started using jQuery there was always a new framework better, there's always a new library that is better.
 
 I try to combine all these things that I was noticing on the market, or working on the day-to-day, and things from my personal life, as well. I think by now I gave more than 100 presentations... And I know how that was amazing for me personally as a human being; putting yourself out there... Like, talking to you right now. This is super-hard; it's not easy to be out in the public and just opening your heart and telling all the things you feel.
 
-It's a very difficult thing, especially for programmers. We are all introspective, we have to deal with that... So I try to put that, like "Okay, if you teach things, it's gonna help you." It's not gonna only help the person who's listening, but it's gonna help you much more at the end of the day... So trying to combine all these \[unintelligible 00:41:56.17\] was how I ended up with those 14 habits.
+It's a very difficult thing, especially for programmers. We are all introspective, we have to deal with that... So I try to put that, like "Okay, if you teach things, it's gonna help you." It's not gonna only help the person who's listening, but it's gonna help you much more at the end of the day... So trying to combine all these lessons was how I ended up with those 14 habits.
 
 **Adam Stacoviak:** 14habits.com is super-cool. I loved to find out there's some actual science around habit creation, which - we'll do some investigation; we have a show called Brain Science, and we're actually gonna do a little investigation into this hypothesis... But it'd be cool if there was some science to say "Learning 14 habits is easier than learning 10." Because that'd be cool -- habit loops in creation is one thing, and there's insane science behind it... But for some reason, if numbers play into habits, or -- you know, the whole world is mathematical. It's all math, and physics, and stuff... It's intense. But if there's some reason why learning 14 is somehow easier than ten, or maybe even 7... Hey, nothing on Stephen Covey or anything, but you know, maybe it's easier to do 14 versus 7 or 10. I don't know.
 
@@ -392,7 +392,7 @@ It's a very difficult thing, especially for programmers. We are all introspectiv
 
 I think there's one that I kind of touched a little bit on this... And it's around knowing the business side.
 
-\[44:16\] I think when we first start as programmers, we think like this, that the sales side is bad, and it's hard to sympathize with salespeople, because all they want inside the organization is to sell, at any cost. So if that means adding a new feature, if that means promising some new \[unintelligible 00:44:37.03\] to include on the roadmap, then that's it, and we have to comply, and that's all. And they don't care about our code. So as developers, we're super-protective over the quality of our code, and those people are the opposite; it's like, "I don't care about the quality of the code, unless it sells", and that's it.
+\[44:16\] I think when we first start as programmers, we think like this, that the sales side is bad, and it's hard to sympathize with salespeople, because all they want inside the organization is to sell, at any cost. So if that means adding a new feature, if that means promising some new epic to include on the roadmap, then that's it, and we have to comply, and that's all. And they don't care about our code. So as developers, we're super-protective over the quality of our code, and those people are the opposite; it's like, "I don't care about the quality of the code, unless it sells", and that's it.
 
 So I wrote one that is called "Master the dark side", where I make this comparison between the light side being the engineering part, and the dark side being the sales side... And I tried to convince people on why it's important to know the business side of things. Some people think that we are paid to code, and I don't think that's the case. We are paid to solve problems. If that means using code to solve those problems - great. If that's not the case - okay, then you don't necessarily have to code. That's not your job, it's not to write characters into a black screen. It's actually to solve something for real. Understanding that helps you in so many different levels.
 
@@ -558,7 +558,7 @@ And I thought about doing the same with the book - I'm just gonna put it on Gumr
 
 **Zeno Rocha:** \[laughs\]
 
-**Jerod Santo:** \[unintelligible 00:59:47.14\]
+**Jerod Santo:** Decode your dig
 
 **Adam Stacoviak:** Congrats though.
 
