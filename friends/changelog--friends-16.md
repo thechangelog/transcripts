@@ -20,7 +20,7 @@
 
 **Adam Stacoviak:** Very sad. Very well said, and very sad. Obscure titles like the Naked Gun 2½.
 
-\[00:03:06.28\]
+\[03:06\]
 
 *The Naked Gun 2½. The smell of fear... "Give me the strongest thing you've got." This is a sequel so big they had to add another half.*
 
@@ -30,7 +30,7 @@
 
 **Christina Warren:** Splash.
 
-\[00:03:21.12\]
+\[03:21\]
 
 *There is a mermaid in New York City.*
 
@@ -44,7 +44,7 @@
 
 **Adam Stacoviak:** Or like Philadelphia.
 
-\[00:03:36.21\]
+\[03:36\]
 
 *Every now and again, not often, but occasionally, you get to be a part of justice being done.*
 
@@ -104,7 +104,7 @@
 
 **Adam Stacoviak:** Oh, for sure. Where did you go to film school?
 
-**Christina Warren:** \[00:06:11.25\] Emory University.
+**Christina Warren:** \[06:11\] Emory University.
 
 **Adam Stacoviak:** Okay. I thought you were gonna say Full Sail, because --
 
@@ -120,7 +120,7 @@
 
 **Adam Stacoviak:** DK is a DP, yeah. That means director of photography. But you know, what I'll miss about the DVD/BluRay/physical disk era is something like this - a treat that you may not be familiar with on Superbad.
 
-\[00:07:05.21\]
+\[07:05\]
 
 *McLovin? What kind of a stupid name is that, Fogell? What, are you trying to be an Irish R&B singer?*
 
@@ -176,7 +176,7 @@
 
 **Christina Warren:** Yeah, that's the thing, you always had your stand-outs, like the Criterion Collection, who have always been known... I mean, they go back to the laserdisc era, which was before my time... But some of the best early DVDs especially were just laserdisc ports. And even today, some of the best -- like, the commentary tracks and extras are from the laserdisc era. But Criterion always did really good job with that stuff. And some studios would do a really good job, too. But yeah, then I think it became a marketing thing. And then I think you're right, we all kind of became blind to it, because it just became promotional. It wasn't about the treat, it was about "Okay, let me advertise this other upcoming thing to you. Let me sell you something."
 
-**Jerod Santo:** \[00:10:19.18\] Oh, yeah. And it required stuff to watch before you can get to the menu screen, and stuff.
+**Jerod Santo:** \[10:19\] Oh, yeah. And it required stuff to watch before you can get to the menu screen, and stuff.
 
 **Christina Warren:** Exactly.
 
@@ -188,7 +188,7 @@
 
 **Christina Warren:** I am. And the book.
 
-\[00:11:11.23\]
+\[11:11\]
 
 *To the North Pole, of course... This is the Polar Expres!*
 
@@ -230,7 +230,7 @@
 
 They even had for a period of time - and I don't know if they're still available... I've found a way to rip some of them at some at one point, but it was difficult... But some of the Netflix original series, they had some audio commentary tracks, that Netflix had. I remember for the pilot of House of Cards, the director of that pilot episode did a really good commentary track, and they had some commentary tracks I think for some of the \[unintelligible 00:13:48.19\] development stuff when that came out. But then over time that sort of thing disappears, and you have this rot, and this loss of this great commentary... I mean, it might not be that important, but it's just -- you know, seeing how something was done... And people cared enough to share the process of how it was made.
 
-**Jerod Santo:** \[00:14:11.25\] Oh, yeah.
+**Jerod Santo:** \[14:11\] Oh, yeah.
 
 **Christina Warren:** Like, it's not gonna appeal to everyone, but to the real lovers out there, it does. And for me - I mean, the reason I get so romantic about the DVD era is, as I said, I always loved movies as a kid... But there were only so many of them you could get. Mot everything was available on home video. And tapes were expensive and bulky... And then suddenly, we had this way where everything, things that had been out of print for years, for decades, it was just available. And I felt like I had this whole world open up to me, both seeing films I'd never seen before, or couldn't see, but also being able to find out these tidbits about how it was done. And it makes me sad that 15-year-old Christina in the future, living in 2023, wouldn't have that same access. Because it's not there the same way. It's just not.
 
@@ -248,7 +248,7 @@ They even had for a period of time - and I don't know if they're still available
 
 **Jerod Santo:** Oh, my goodness...
 
-**Christina Warren:** \[00:17:51.29\] ...of how the machine works. And how it would basically just put in the disks, and put everything out to be mailed. But yeah, this was a really great kind of reflection... They show kind of the inner workings of the whole thing, how this was done. These folks, they're losing their jobs, too. Which is sad, but it's an interesting kind of testament to something that -- the employees have a more sanguine attitude. Lorraine Sikora started at Netflix in 2008, and used to rip open envelopes; 650 envelopes an hour. When automation came, she was one of the few employees who traveled to the facility in Fremont to learn how to run the machines and pass that training on to others. Now she runs the floor. But yeah, ripping open 650 envelopes an hour? Like, that's insane.
+**Christina Warren:** \[17:51\] ...of how the machine works. And how it would basically just put in the disks, and put everything out to be mailed. But yeah, this was a really great kind of reflection... They show kind of the inner workings of the whole thing, how this was done. These folks, they're losing their jobs, too. Which is sad, but it's an interesting kind of testament to something that -- the employees have a more sanguine attitude. Lorraine Sikora started at Netflix in 2008, and used to rip open envelopes; 650 envelopes an hour. When automation came, she was one of the few employees who traveled to the facility in Fremont to learn how to run the machines and pass that training on to others. Now she runs the floor. But yeah, ripping open 650 envelopes an hour? Like, that's insane.
 
 **Jerod Santo:** Imagine... That's some skill right there. That's some speed. How many do you do an hour, Adam?
 
@@ -294,7 +294,7 @@ So it was announced in September of 2011, and then it was canceled in October of
 
 **Christina Warren:** They were, yeah.
 
-**Break**: \[00:21:40.22\]
+**Break**: \[21:40\]
 
 **Adam Stacoviak:** What about Redbox?
 
@@ -340,7 +340,7 @@ So it was announced in September of 2011, and then it was canceled in October of
 
 **Christina Warren:** Yeah. The box art mattered, right? Like, what was on the back of the -- the description, all that stuff mattered, because you didn't know; you'd have to talk to the guy at the store... We had blockbusters and stuff, but my home video store was actually called Home Video, and it was like this two-story, huge video store, and they had like a marionette Pinocchio, I remember that. And they had a massive collection of stuff. Like, stuff that you couldn't get anywhere else. And they had video games, too. But they had this promo they started - it was like five movies, for $5, for five nights, if it was not a new release. And they would have like a seven, for seven, for seven.
 
-\[00:26:02.03\] And when my mom was in graduate school, she would take me to Home Video during the summers, and I would get a bunch of Nintendo and Super-Nintendo games, and I would get a bunch of VHS tapes. And that's what I would do while she was in graduate school during the days. I would amuse myself by watching the collected works of Alfred Hitchcock, and Martin Scorsese, and Francis Ford Coppola. And I'm like nine; I'm like nine or ten at this point.
+\[26:02\] And when my mom was in graduate school, she would take me to Home Video during the summers, and I would get a bunch of Nintendo and Super-Nintendo games, and I would get a bunch of VHS tapes. And that's what I would do while she was in graduate school during the days. I would amuse myself by watching the collected works of Alfred Hitchcock, and Martin Scorsese, and Francis Ford Coppola. And I'm like nine; I'm like nine or ten at this point.
 
 **Jerod Santo:** Those are advanced for a nine-year-old...
 
@@ -412,7 +412,7 @@ So it was announced in September of 2011, and then it was canceled in October of
 
 **Christina Warren:** Well, they've shut down a lot of them. I think it depends... I mean, they'll still be around for the big releases, but they have far fewer of them than they used to. I don't know. I mean, it's interesting... There's always this chance of having kind of a resurgence. It will never be as big, but you see what's happened with the vinyl... Vinyl now outsells CDs significantly, and it's still a fraction of what it was at its peak... But I don't know. I think that's why Redbox was sold to Chicken Soup for the Soul, which - it makes no sense that; whoever owned it was like "Yup, we probably need to get out of this space."
 
-**Adam Stacoviak:** \[00:30:08.14\] Yeah. Well, what's required? You've got tech required, you have to have a BluRay or DVD player... So there's a requirement of like Sony, and all the big manufacturers of hardware to keep making their hardware, or repairing the hardware. So there's a requirement of sorts... Whereas --
+**Adam Stacoviak:** \[30:08\] Yeah. Well, what's required? You've got tech required, you have to have a BluRay or DVD player... So there's a requirement of like Sony, and all the big manufacturers of hardware to keep making their hardware, or repairing the hardware. So there's a requirement of sorts... Whereas --
 
 **Jerod Santo:** Yeah, but content. Are they still making them? When Dune 2 comes out, will there'll be a BluRay that'll have stuff on it, and stuff?
 
@@ -432,7 +432,7 @@ So it was announced in September of 2011, and then it was canceled in October of
 
 **Adam Stacoviak:** I bought a license for it, and everything, because it's amazing software... But for example, the one recently I was upset by was Cabin in the Woods.
 
-\[00:31:44.08\]
+\[31:44\]
 
 *I think I can get it to go down...*
 
@@ -466,7 +466,7 @@ So it was announced in September of 2011, and then it was canceled in October of
 
 **Christina Warren:** Okay, so the company has a really storied history, but basically, they make very high-end movie players and servers for the types of people who have millions of dollars to spend on their home theater system, and will be able to buy the super-expensive Crestron-controlled audio, and lighting, and everything, setups... And basically, these are servers, and many times they are actually server-sized things that can act as a movie player for 4k UHD. And there's various ways you can get the content imported. But what they used to have, their original product - and they were sued for this - was that they would let you take... It was very user-friendly, and they'd let you take a disk that you owned, and drop it into their system, and it would rip it, and rip everything perfectly, and it would put it in the library, just like a Plex for you, and then you would have it available. And everyone loved it. But they were sued, and they had to change how they worked, to a certain amount. It's amazing that they're still in business... I'm very happy for them.
 
-\[00:34:03.02\] You know what - I can just say it now, because enough time has passed... But I had a meeting with the then head of Warner Brothers home entertainment, probably a decade ago; maybe a little bit more than that. And we were talking about some of the issues of around like Vudu, and Movies Anywhere, Disney's platform, which at the time was I think called \[unintelligible 00:34:20.06\] and whatnot... And we were talking about whether or not Warner Brothers was going to sign on or not, and he was talking to me about Collide Escape, and he was like "I love this so much... But we're suing them, so I can't tell anybody that I have this." And the guy who was Kevin Tsujihara, who wound up becoming the president of Warner Brothers Entertainment, like the chairman and CEO of Warner Brothers. He had to resign because of some stuff, but this was maybe two months before he was promoted, and he was talking to me about how everybody in Hollywood who was suing this company, all of the executives had these things in their houses, and were using them. That to me kind of percents the perfect -- like the friction point between these two things, where you have people who love this stuff so much, and then you have people who just only see the business goals, and want to make it as difficult as possible for people to do the right thing...
+\[34:03\] You know what - I can just say it now, because enough time has passed... But I had a meeting with the then head of Warner Brothers home entertainment, probably a decade ago; maybe a little bit more than that. And we were talking about some of the issues of around like Vudu, and Movies Anywhere, Disney's platform, which at the time was I think called \[unintelligible 00:34:20.06\] and whatnot... And we were talking about whether or not Warner Brothers was going to sign on or not, and he was talking to me about Collide Escape, and he was like "I love this so much... But we're suing them, so I can't tell anybody that I have this." And the guy who was Kevin Tsujihara, who wound up becoming the president of Warner Brothers Entertainment, like the chairman and CEO of Warner Brothers. He had to resign because of some stuff, but this was maybe two months before he was promoted, and he was talking to me about how everybody in Hollywood who was suing this company, all of the executives had these things in their houses, and were using them. That to me kind of percents the perfect -- like the friction point between these two things, where you have people who love this stuff so much, and then you have people who just only see the business goals, and want to make it as difficult as possible for people to do the right thing...
 
 **Jerod Santo:** Cutthroat.
 
@@ -506,7 +506,7 @@ So it was announced in September of 2011, and then it was canceled in October of
 
 Look, if Netflix wants to enforce not giving your password to 500 different people, I get it. But I pay you for X number of users a month. I pay them whatever the highest amount of money you can pay Netflix is for their 4k account. I should not have to make sure that my Fire TV stick, which I keep in my suitcase and I never take out, because I use it when traveling... I shouldn't have to connect that to my home network every three months, just so the IP address is the same as where I live, so that you don't cut off access. When you do things like that, that's when I'm going to go back to Popcorn Time, and stuff like that. Like, that's when that happens again.
 
-**Jerod Santo:** \[00:38:27.26\] Right. It's customer-hostile.
+**Jerod Santo:** \[38:27\] Right. It's customer-hostile.
 
 **Christina Warren:** Yeah. Because when everything was less customer-hostile, the piracy problems went away. Andy Baio of waxy.org fame, every year he used to track how long it would take for the Oscar screeners to leak online. And he had to stop doing it, because basically, the problem kind of went away. The studios kind of won, because they've gotten everything online and made it easier for the people who wanted to watch the stuff to watch the stuff. And that's a win, but then you ruin all that by adding in all these layers and being customer hostile, and making it difficult for people to do things. Like, I wanna watch Cabin in the Woods without the scenes being messed up just because I want to watch it in a different location.
 
@@ -514,7 +514,7 @@ Look, if Netflix wants to enforce not giving your password to 500 different peop
 
 **Jerod Santo:** Good movie.
 
-\[00:39:15.27\]
+\[39:15\]
 
 *I suspect foul play. I have eliminated no suspects.*
 
@@ -548,7 +548,7 @@ Look, if Netflix wants to enforce not giving your password to 500 different peop
 
 **Jerod Santo:** Enthusiasts find a way... Like life on Jurassic Park. It finds a way.
 
-\[00:41:21.02\]
+\[41:21\]
 
 *We've gotta do something about this. I'm pretty sure our washing machine is pregnant. I don't even know how that's scientifically possible.*
 
@@ -564,7 +564,7 @@ Look, if Netflix wants to enforce not giving your password to 500 different peop
 
 **Jerod Santo:** You know the studios. Okay, so you're really a film buff.
 
-**Christina Warren:** \[00:41:55.04\] Yeah. No -- I didn't even have to look that up. That's the embarrassing thing about that, is that I did not even have to look that up. I was like "No, they're both-- " First I said Paramount, and then I'm like "No, it's Lionsgate. They're both Lionsgate Films."
+**Christina Warren:** \[41:55\] Yeah. No -- I didn't even have to look that up. That's the embarrassing thing about that, is that I did not even have to look that up. I was like "No, they're both-- " First I said Paramount, and then I'm like "No, it's Lionsgate. They're both Lionsgate Films."
 
 **Adam Stacoviak:** I will say though, I'm very happy that 4k discs never have that happen.
 
@@ -646,7 +646,7 @@ Look, if Netflix wants to enforce not giving your password to 500 different peop
 
 **Adam Stacoviak:** It is... I only did that after -- this is like after many, many years of my life dreaming. Like, I didn't just suddenly be like "Let me just spend all this money doing this." I started reading Crutchfield magazines at like 10 years old, or whatever. And I learned all about home theater, and gear, and equipment, and channels, and all these different things through Crutchfield. The Crutchfield brand is amazing. I still buy almost everything I can from Crutchfield. My TVs I bought from Crutchfield, most speakers through them... My subs were from Crutchfield... So sometimes you price things out, because like, I'm not gonna spend two grand more when I can get it for a grand less, or whatever. I'm not going to do every possible thing. But I love Crutchfield. They're always amazing. It's a great brand. They're not sponsoring this, of course... Crutchfield.com.
 
-**Jerod Santo:** \[00:46:13.06\] Crutchfield.com... \[laughs\]
+**Jerod Santo:** \[46:13\] Crutchfield.com... \[laughs\]
 
 **Adam Stacoviak:** But they're amazing. And I learned everything. And so I've been dreaming since I was super-young about over my life eventually getting to like a home theater level. I remember when my very first credit card, the JCPenney credit card, I bought a crappy little 5.1 system, like JVC or something like that, from JCPenney, on my credit card... And that was my first setup.
 
@@ -664,7 +664,7 @@ Look, if Netflix wants to enforce not giving your password to 500 different peop
 
 **Adam Stacoviak:** My kids - so I've got a seven-year-old and a three-year-old. And they sit down with me and watch films... Not all things. Like, we'll watch The Grinch, and like kids stuff. The Super-Mario Brothers movie's on there... We just got the 4k version of it recently, because we bought it through Apple TV when it first came out. We cannot wait. We watched it in the theater... That was amazing. These kids love that film, and I loved it, because it was just an amazing, amazing version of it. And so we bought it on Apple TV. And then it came out on disk, and then we finally got the 4k version of it. So we have that on Plex now, thankfully. And it's just so amazing to watch 4k content on a 4k-native laser projector, on a phenomenal screen. That's not what the show is about, but it was pretty awesome to -- and I designed it all. I didn't obviously design the screen, but like the whole room is - I chose every component, specifically, after many years of research, and what I can afford, and what would fit in the room, and what would make sense, and all that good stuff. But it's been a labor of love to get to that point, because it takes work.
 
-**Break**: \[00:48:13.15\]
+**Break**: \[48:13\]
 
 **Christina Warren:** I did want to ask you, though... So you mentioned buying stuff on Apple TV. So I still do this, because they have sales all the time, and I am nothing if not someone who spends money indiscriminately on stupid stuff... Do you also buy digital copies of things? Because I find that I do. For things that I really love, I get like the 4k UHD disc, and I'll rip it. But for a number of things, it'll just be easier if it's five bucks or something to get it on Apple TV, because I find their 4k - it's not obviously as good as watching it ripped, but I find the quality is, in many cases, if I'm not, like - because I don't have a set up like yours - it's indistinguishable from what I could have. So do you buy any digital copies of anything, or are you strictly physical?
 
@@ -690,11 +690,11 @@ Look, if Netflix wants to enforce not giving your password to 500 different peop
 
 **Adam Stacoviak:** Yeah. Here's the things I concern myself with... I recall an interview with Matt Damon, talking about the change in the film business, essentially...
 
-\[00:55:02.20\]
+\[55:02\]
 
 *The DVD was a huge part of our business, of our revenue stream. And technology has just made that obsolete. The movies that we used to make, you could afford to not make all of your money when it played in the theater, because you knew you had the DVD coming behind the release, and six months later you'd get all a whole other chunk; it would be like reopening the movie almost. And when that went away, that changed the type of movies that we could make. I have to split everything I get with the exhibitor, the people who own the movie theaters... So I would have to make $100 million before I got into profit. The idea of making $100 million on a story about lik this love affair between these two people... Yeah, I love everyone in the movie, but that's suddenly a massive gamble, in a way that it wasn't in the 1990s when they were making all those kinds of movies, the kind of movies that I loved, and the kind of movies that were my bread and butter.*
 
-**Adam Stacoviak:** \[00:55:55.20\] So there's a couple things I worry about. One, how does the end of physical media change humanity's relationship with the content, both for games, and for films etc. but then also, how does that really change long-term the business of filmmaking? Because you have to essentially come out -- you only invest in blockbusters. Or you kind of get in this position where you can only really bet on the winners, so there's less innovation, there's less risk... So you sort of have Transformers - which isn't a bad film, but like it's only about blow'em up, car chases, killing people, or whatever. There's like one shot to get it right, essentially.
+**Adam Stacoviak:** \[55:55\] So there's a couple things I worry about. One, how does the end of physical media change humanity's relationship with the content, both for games, and for films etc. but then also, how does that really change long-term the business of filmmaking? Because you have to essentially come out -- you only invest in blockbusters. Or you kind of get in this position where you can only really bet on the winners, so there's less innovation, there's less risk... So you sort of have Transformers - which isn't a bad film, but like it's only about blow'em up, car chases, killing people, or whatever. There's like one shot to get it right, essentially.
 
 **Jerod Santo:** Going back to the well and just doing what's safe every time.
 
@@ -704,7 +704,7 @@ Look, if Netflix wants to enforce not giving your password to 500 different peop
 
 **Christina Warren:** And you miss out on things. No, I think you're exactly right. I mean, I would argue that this is one of the reasons why Netflix has stagnated a little bit, is that they do everything from a data-driven perspective, and not from more of an artistic perspective... And so if you just follow the numbers, and you just give everybody the cookie cutter Marvel stuff - that's great, you can make a lot of money off of it, but where does that leave those small films that could actually grow into something huge? Like, some of the most beloved films of all time took a long time for people to really get to know and love. The Wizard of Oz was not a hit when it was released.
 
-\[00:57:12.10\]
+\[57:12\]
 
 *You cursed brat! Look what you've done!*
 
