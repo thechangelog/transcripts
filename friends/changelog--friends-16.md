@@ -228,7 +228,7 @@
 
 **Christina Warren:** That was the thing. And also, there's less of an incentive for the studios to make them, because they're like "Okay, well, people will stream it without or without it." Once they can get data on how many people are listening to these things and how many people are watching these things... This is a good software analogy, too - on the one hand, it's really great to get that telemetry, because you know what's being used. On the other hand, it can kind of be a curse a little bit, because there are these things that might only be used by a certain subset of users, but are really beloved. And if you over index on data, which Netflix famously does do, I think you miss out on that.
 
-They even had for a period of time - and I don't know if they're still available... I've found a way to rip some of them at some at one point, but it was difficult... But some of the Netflix original series, they had some audio commentary tracks, that Netflix had. I remember for the pilot of House of Cards, the director of that pilot episode did a really good commentary track, and they had some commentary tracks I think for some of the \[unintelligible 00:13:48.19\] development stuff when that came out. But then over time that sort of thing disappears, and you have this rot, and this loss of this great commentary... I mean, it might not be that important, but it's just -- you know, seeing how something was done... And people cared enough to share the process of how it was made.
+They even had for a period of time - and I don't know if they're still available... I've found a way to rip some of them at some at one point, but it was difficult... But some of the Netflix original series, they had some audio commentary tracks, that Netflix had. I remember for the pilot of House of Cards, the director of that pilot episode did a really good commentary track, and they had some commentary tracks I think for some of the arrested development stuff when that came out. But then over time that sort of thing disappears, and you have this rot, and this loss of this great commentary... I mean, it might not be that important, but it's just -- you know, seeing how something was done... And people cared enough to share the process of how it was made.
 
 **Jerod Santo:** \[14:11\] Oh, yeah.
 
@@ -280,7 +280,7 @@ So it was announced in September of 2011, and then it was canceled in October of
 
 **Jerod Santo:** Geez Louise...
 
-**Christina Warren:** I mean, \[unintelligible 00:20:41.11\] they were too early. They were making the right decision, but they were doing it in 2011, where - at that time, the internet situation was not...
+**Christina Warren:** I mean, I think to note, that they were too early. They were making the right decision, but they were doing it in 2011, where - at that time, the internet situation was not...
 
 **Jerod Santo:** Nowhere near ready.
 
@@ -350,7 +350,7 @@ So it was announced in September of 2011, and then it was canceled in October of
 
 **Christina Warren:** Elmos.
 
-**Adam Stacoviak:** Yeah, Elmos. \[unintelligible 00:27:23.18\] of these folks, and it was a computer repair shop and a DVD... Well, actually, part of DVDs. It was VHS...
+**Adam Stacoviak:** Yeah, Elmos. It was the last name of these folks, and it was a computer repair shop and a DVD... Well, actually, part of DVDs. It was VHS...
 
 **Jerod Santo:** Right.
 
@@ -366,7 +366,7 @@ So it was announced in September of 2011, and then it was canceled in October of
 
 **Christina Warren:** I was gonna say... Postmates is really what it was. That's amazing.
 
-**Adam Stacoviak:** Right. Legit. You can order a \[unintelligible 00:27:47.22\] or whatever, however you want to call it... Or like spaghetti dinner. That was my favorite; it was two meatballs, and spaghetti dinner, and two movies. And they would deliver it to your house 10 miles away.
+**Adam Stacoviak:** Right. Legit. You can order a sub or a hoagie or whatever, however you want to call it... Or like spaghetti dinner. That was my favorite; it was two meatballs, and spaghetti dinner, and two movies. And they would deliver it to your house 10 miles away.
 
 **Jerod Santo:** Classic.
 
@@ -466,7 +466,7 @@ So it was announced in September of 2011, and then it was canceled in October of
 
 **Christina Warren:** Okay, so the company has a really storied history, but basically, they make very high-end movie players and servers for the types of people who have millions of dollars to spend on their home theater system, and will be able to buy the super-expensive Crestron-controlled audio, and lighting, and everything, setups... And basically, these are servers, and many times they are actually server-sized things that can act as a movie player for 4k UHD. And there's various ways you can get the content imported. But what they used to have, their original product - and they were sued for this - was that they would let you take... It was very user-friendly, and they'd let you take a disk that you owned, and drop it into their system, and it would rip it, and rip everything perfectly, and it would put it in the library, just like a Plex for you, and then you would have it available. And everyone loved it. But they were sued, and they had to change how they worked, to a certain amount. It's amazing that they're still in business... I'm very happy for them.
 
-\[34:03\] You know what - I can just say it now, because enough time has passed... But I had a meeting with the then head of Warner Brothers home entertainment, probably a decade ago; maybe a little bit more than that. And we were talking about some of the issues of around like Vudu, and Movies Anywhere, Disney's platform, which at the time was I think called \[unintelligible 00:34:20.06\] and whatnot... And we were talking about whether or not Warner Brothers was going to sign on or not, and he was talking to me about Collide Escape, and he was like "I love this so much... But we're suing them, so I can't tell anybody that I have this." And the guy who was Kevin Tsujihara, who wound up becoming the president of Warner Brothers Entertainment, like the chairman and CEO of Warner Brothers. He had to resign because of some stuff, but this was maybe two months before he was promoted, and he was talking to me about how everybody in Hollywood who was suing this company, all of the executives had these things in their houses, and were using them. That to me kind of percents the perfect -- like the friction point between these two things, where you have people who love this stuff so much, and then you have people who just only see the business goals, and want to make it as difficult as possible for people to do the right thing...
+\[34:03\] You know what - I can just say it now, because enough time has passed... But I had a meeting with the then head of Warner Brothers home entertainment, probably a decade ago; maybe a little bit more than that. And we were talking about some of the issues of around like Vudu, and Movies Anywhere, Disney's platform, which at the time was I think called magic key and whatnot... And we were talking about whether or not Warner Brothers was going to sign on or not, and he was talking to me about Collide Escape, and he was like "I love this so much... But we're suing them, so I can't tell anybody that I have this." And the guy who was Kevin Tsujihara, who wound up becoming the president of Warner Brothers Entertainment, like the chairman and CEO of Warner Brothers. He had to resign because of some stuff, but this was maybe two months before he was promoted, and he was talking to me about how everybody in Hollywood who was suing this company, all of the executives had these things in their houses, and were using them. That to me kind of percents the perfect -- like the friction point between these two things, where you have people who love this stuff so much, and then you have people who just only see the business goals, and want to make it as difficult as possible for people to do the right thing...
 
 **Jerod Santo:** Cutthroat.
 
@@ -534,7 +534,7 @@ Look, if Netflix wants to enforce not giving your password to 500 different peop
 
 **Adam Stacoviak:** Right.
 
-**Christina Warren:** Yeah. And maybe there's a way - and this is where I get super-nerdy... I'm like "Oh, there probably is a list." And maybe there's a way you could have that list, a text file or something \[unintelligible 00:41:05.15\] update...
+**Christina Warren:** Yeah. And maybe there's a way - and this is where I get super-nerdy... I'm like "Oh, there probably is a list." And maybe there's a way you could have that list, a text file or something check it for update...
 
 **Jerod Santo:** Exactly.
 
@@ -840,7 +840,7 @@ Look, if Netflix wants to enforce not giving your password to 500 different peop
 
 **Christina Warren:** Goodbye, yeah.
 
-**Adam Stacoviak:** DVD, at least. Not Netflix \[unintelligible 01:10:41.03\] Yeah, that's crazy. Well, thanks, Christina. It was fun having you.
+**Adam Stacoviak:** DVD, at least. Not Netflix but the prop part (dvd.com). Yeah, that's crazy. Well, thanks, Christina. It was fun having you.
 
 **Jerod Santo:** Yes. Thanks. That was awesome.
 
