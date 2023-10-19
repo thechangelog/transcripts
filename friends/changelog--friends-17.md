@@ -82,7 +82,7 @@
 
 **Gerhard Lazu:** Approved. It's Gerhard-approved. \[laughter\]
 
-**Jerod Santo:** So there we go. There's some reinforcement learning from human feedback. That's a good response. Gerhard approves this message. Pretty cool... He also open-sourced all the bits, so if you're a Changelog News listener/reader, you already know this, and you have the link. If not, check out the links for that in our show notes, so you can go play with it. And probably even more instructive, you can go check out how he built that. He used SuperDuperDB, which I was not previously aware of, and... Yeah, pretty sweet little side project for Duarte.
+**Jerod Santo:** So there we go. There's some reinforcement learning from human feedback. That's a good response. Gerhard approves this message. Pretty cool... He also open sourced all the bits, so if you're a Changelog News listener/reader, you already know this, and you have the link. If not, check out the links for that in our show notes, so you can go play with it. And probably even more instructive, you can go check out how he built that. He used SuperDuperDB, which I was not previously aware of, and... Yeah, pretty sweet little side project for Duarte.
 
 **Adam Stacoviak:** Should we begin most podcasts now just gushing about each other, just to...?
 
@@ -96,7 +96,7 @@
 
 **Gerhard Lazu:** Yeah, we have to improve our perception of ourselves, and our impression of ourselves. Navel gazing was mentioned in the past... I think it's something different, but still... \[laughter\] The sentiment is similar.
 
-**Adam Stacoviak:** \[00:05:57.26\] Well, in good practice of podcasting, let's give them what they came for.
+**Adam Stacoviak:** \[05:57\] Well, in good practice of podcasting, let's give them what they came for.
 
 **Jerod Santo:** Right.
 
@@ -144,7 +144,7 @@ So it would have required a little bit of infrastructure changes from Gerhard in
 
 **Jerod Santo:** Right. Versus what we're doing, which is effectively booting up a Docker image and then telling it to start its Phoenix server and go. Right?
 
-**Gerhard Lazu:** \[00:10:09.24\] Yeah. So we install Erlang and a bunch of other dependencies, so it's already in the image, and then we just add the app code on top, which gets compiled, so it just boots up and it runs the code... While this one will just -- we wouldn't need Erlang separately; it will be all part of the release.
+**Gerhard Lazu:** \[10:09\] Yeah. So we install Erlang and a bunch of other dependencies, so it's already in the image, and then we just add the app code on top, which gets compiled, so it just boots up and it runs the code... While this one will just -- we wouldn't need Erlang separately; it will be all part of the release.
 
 Now, I did mention this, I think last time, and I don't want to go too much into it, but I mostly solved it, like 90% solved it... But then, the idea was let's just finish the migration to whichever version of Dagger it was at the time. I think we went from a Cue-based one to the Go SDK, so a code-based approach. And the focus was "Let's get that done. Let's leave releases--" Basically, I was descoping, so I would get things out the door. And if you look in the code, it's still there, commented, like "Hey, we have releases, but Jerod really needs this." I think it's actually in the to-do, so let's just get it out there, and then we'll figure releases later. So I know that they will come, so it's just a matter of time when we add releases... But yeah, I think releases were linked to this clustering.
 
@@ -198,7 +198,7 @@ The bigger issue was that now we have a cluster of instances, which is both a go
 
 **Gerhard Lazu:** Yeah.
 
-**Adam Stacoviak:** \[00:13:56.27\] If we didn't have Fastly, then we would leverage the built-in no ops geolocate inside of Fly.
+**Adam Stacoviak:** \[13:56\] If we didn't have Fastly, then we would leverage the built-in no ops geolocate inside of Fly.
 
 **Jerod Santo:** Well, that's the thing, with Fly and with services like Fly that will do this, they say you don't really need a CDN, because you're running these app servers all around the world; you've basically already got one.
 
@@ -268,7 +268,7 @@ The bigger issue was that now we have a cluster of instances, which is both a go
 
 **Gerhard Lazu:** He's jamesarosen on GitHub. So he listened to the previous Kaizen, Kaizen 11, he reached out via Slack, and we had two amazing pairing sessions. If you go to the GitHub discussion for this episode, which is GitHub discussion 480, you will see a lot of screenshots, a lot of details about how we debugged this. And James was super, super-useful. He worked at Fastly in the past, and he had specific insights, including some very nice diagrams, and formulas... They are all there, go and check them out. And we went through a few debugging sessions. And what that meant is that I not only understood very well how Fastly works, how the shielding works, what do various things mean... Again, it's all captured in the discussion. The problem was that the headers that we were getting from S3 in the Fastly configuration, we were not processing them correctly; which means that the surrogate control and the caching was not being respected... Therefore, Fastly was hitting AWS S3 more often than it needed to. And it was hitting it from the shield, because the shield still had like that content cached.
 
-\[00:18:06.17\] The shield is a series of very big, beefy servers. Think vertically scaled. And they keep everything in memory, so they're super, super-quick. But sometimes they need cycling. So based on the server which gets cycled, the content which was cached maybe is no longer cached; therefore, it has to go back to S3. So that configuration was not very good. And the shield will basically have to keep going to S3 to pull content which it has already seen way more than it needed to. So we have 3x to 4x improvements across the board now that we are caching things correctly with R2.
+\[18:06\] The shield is a series of very big, beefy servers. Think vertically scaled. And they keep everything in memory, so they're super, super-quick. But sometimes they need cycling. So based on the server which gets cycled, the content which was cached maybe is no longer cached; therefore, it has to go back to S3. So that configuration was not very good. And the shield will basically have to keep going to S3 to pull content which it has already seen way more than it needed to. So we have 3x to 4x improvements across the board now that we are caching things correctly with R2.
 
 **Adam Stacoviak:** Let me ask you this question - how long have we been holding it wrong? Like, how many years?
 
@@ -298,7 +298,7 @@ The bigger issue was that now we have a cluster of instances, which is both a go
 
 **Gerhard Lazu:** Yeah. Every system has inefficiencies, unless you look at them. They can be growing, they can be a worst case not getting fixed, and that has always been the problem... You don't even realize, and - benefit of the hindsight, of course, I should have thought that; it's a simple thing. But unless you're paying attention to these things \[unintelligible 00:21:39.02\] conscious decision, like "Okay, we will be improving, and we will be looking at this thing, and we'll be trying to drive these small improvements."
 
-\[00:21:49.02\] It took us a while to get here, and I think the details aren't exactly clear, because we went through so many of these cycles... In my mind, they're starting to blur at this point. I know we talked about clustering for so long, to the point that it stopped being relevant. You know, like "Hey, we can solve this differently." I think that's the beauty of it. But at the same time, you should be driving improvements constantly. I think that's why I want to emphasize this, and I want to share our story, in that hey, even us, as amazing as we are - again, going back to how this episode started - we still get it wrong, and it's okay to admit publicly and have a laugh about it... Because otherwise you will get miserable. You really will.
+\[21:49\] It took us a while to get here, and I think the details aren't exactly clear, because we went through so many of these cycles... In my mind, they're starting to blur at this point. I know we talked about clustering for so long, to the point that it stopped being relevant. You know, like "Hey, we can solve this differently." I think that's the beauty of it. But at the same time, you should be driving improvements constantly. I think that's why I want to emphasize this, and I want to share our story, in that hey, even us, as amazing as we are - again, going back to how this episode started - we still get it wrong, and it's okay to admit publicly and have a laugh about it... Because otherwise you will get miserable. You really will.
 
 **Adam Stacoviak:** Right. Well, you get to laugh and learn, right? Laugh and learn.
 
@@ -344,7 +344,7 @@ Question to Jerod... How do we expire the feeds, these various podcast feeds in 
 
 **Gerhard Lazu:** I think we're still holding it wrong \[unintelligible 00:25:40.14\] \[laughter\] Okay. Well, these things are beasts. Just like, everyone listening to this - they're such complicated systems, and they all come together. So this is a bit of appreciation for how complicated these things get... And there's all sorts of edge cases; there's always edge cases. I don't know whether we are hitting one, but this doesn't sound right to me. No one should be able to purge our cache, our Fastly cache, except us, if we have the correct key...
 
-**Jerod Santo:** \[00:26:09.02\] I agree. But you can just do that.
+**Jerod Santo:** \[26:09\] I agree. But you can just do that.
 
 **Gerhard Lazu:** So let's put a pin in that and follow up, rather than live-debug it.
 
@@ -406,7 +406,7 @@ Question to Jerod... How do we expire the feeds, these various podcast feeds in 
 
 **Jerod Santo:** \[laughs\] I appreciate that.
 
-**Break**: \[00:28:47.01\]
+**Break**: \[28:47\]
 
 **Gerhard Lazu:** Finally, we have HTTP/3 enabled. So if you have a client that supports HTTP/3, the website should be quicker for you.
 
@@ -456,7 +456,7 @@ Also, we are redirecting RSS at the edge. So we have like an extra, config in Fa
 
 And then - here's what was kind of funny... I went and pushed the button, activated it, code-tested it, it didn't work... Like, dang it. I'm thinking, "Did this free trial actually activate? Maybe it takes somebody to actually on their end go do a thing for that to actually work out." So of course, I immediately blamed somebody else. And then, a half hour goes by, I'm thinking, "You know, it's just gonna take them a minute to actually activate it." Half hour, I go do something else, I come back... It still won't stinkin' work. So I go back to the web UI, and it has WebSockets turned off. And I was like "Well, maybe I didn't push the button, you know?" So I do it again, same process, reload the page, WebSockets are turned off. This, it turns out, is a bug in their web UI. \[laughs\]
 
-**Gerhard Lazu:** \[00:34:07.14\] Nice. Not a feature...
+**Gerhard Lazu:** \[34:07\] Nice. Not a feature...
 
 **Jerod Santo:** Not a feature... Actual bug... Where WebSockets were on, but for some reason, the actual configuration UI just wasn't recognizing that they were on.
 
@@ -534,7 +534,7 @@ My favorite thing is to send off Changelog News, which has over 20,000 subscribe
 
 **Gerhard Lazu:** Let's see if it sticks. It's in the Nightly repo, pull request 42.
 
-**Jerod Santo:** \[00:37:53.28\] Okay. So this was my marching orders for you on the previous Kaizen, which we're doing Kaizen-driven development, which is why I thought the PR got open so late. Like, literally 10 minutes before we hit Record.
+**Jerod Santo:** \[37:53\] Okay. So this was my marching orders for you on the previous Kaizen, which we're doing Kaizen-driven development, which is why I thought the PR got open so late. Like, literally 10 minutes before we hit Record.
 
 **Gerhard Lazu:** Yup.
 
@@ -654,7 +654,7 @@ My favorite thing is to send off Changelog News, which has over 20,000 subscribe
 
 **Jerod Santo:** Alright, I have Dagger, and I have Docker.
 
-**Gerhard Lazu:** \[00:42:06.05\] Excellent. So now, check out the branch.
+**Gerhard Lazu:** \[42:06\] Excellent. So now, check out the branch.
 
 **Jerod Santo:** Okay. Check out the branch...
 
@@ -748,7 +748,7 @@ My favorite thing is to send off Changelog News, which has over 20,000 subscribe
 
 **Gerhard Lazu:** Even Jenkins. It makes a couple of -- so for example the whole provisioning, for the engine to be automatically provisioned, it makes an assumption that Docker is available. And it's because it basically needs to spin up a container where all of this runs. So if you don't have that, then you get into issues where we're on platforms, only Linux is supported... Anyways, so it just basically shortcuts a lot of things.
 
-\[00:46:03.16\] In production, we run these engines in Kubernetes. In our case, we run them, Changelog, we run them on Fly. So we have a bunch of Dagger engines deployed on Fly, we spin them up on demand; they're just machines, we suspend them when we're done. When the pipelines start, we spin them up, we run the code against those engines. They are stateful, we have everything there; it's super-fast, because everything is cached... And then we spin them down when the job is finished. So that's why we don't have to worry about this, and we're not using the built-in Docker that comes with GitHub Actions. So we don't make use of that, because we run our own engines. And by the way, all that code is in Changelog. In this case it's slightly different, because the Nightly repo is different. So we do use the Docker and GitHub Actions; it automatically provisions the Docker engine, and then everything runs there.
+\[46:03\] In production, we run these engines in Kubernetes. In our case, we run them, Changelog, we run them on Fly. So we have a bunch of Dagger engines deployed on Fly, we spin them up on demand; they're just machines, we suspend them when we're done. When the pipelines start, we spin them up, we run the code against those engines. They are stateful, we have everything there; it's super-fast, because everything is cached... And then we spin them down when the job is finished. So that's why we don't have to worry about this, and we're not using the built-in Docker that comes with GitHub Actions. So we don't make use of that, because we run our own engines. And by the way, all that code is in Changelog. In this case it's slightly different, because the Nightly repo is different. So we do use the Docker and GitHub Actions; it automatically provisions the Docker engine, and then everything runs there.
 
 And by the way, you can look at the Actions, because part of this pull request, we added a new Action, it's called Ship It, and you can go and check it out. This is a GitHub Action. You can see how that runs, how long it takes... A few things.
 
@@ -796,7 +796,7 @@ Now, there is something special about the build, in that - and this is, again, i
 
 It makes a couple of assumptions. It asks you to have dotenv. Basically, it requires these files so that it works locally. And they just need to exist. I mean, they don't need to be valid, or anything. You don't have to have production credentials, but they need to be set. And it also needs a GitHub DB. That's the other thing that I wanted to talk about... How is this basically wired together, and what else do we need from Nightly to finish the migration?
 
-\[00:50:11.10\] So I know we have the secrets that we need, but there's also GitHub DB, which in my understanding is just SQLite... So as long as we stop it and move that across -- actually, we don't even have to stop, because there's nothing to stop; just move it across... And that's what I did just manually.
+\[50:11\] So I know we have the secrets that we need, but there's also GitHub DB, which in my understanding is just SQLite... So as long as we stop it and move that across -- actually, we don't even have to stop, because there's nothing to stop; just move it across... And that's what I did just manually.
 
 **Jerod Santo:** This is the database, by the way, that we backed up thousands and thousands of times over to S3, and realized we had just gigabytes of backups of Nightly...
 
@@ -838,7 +838,7 @@ It makes a couple of assumptions. It asks you to have dotenv. Basically, it requ
 
 **Gerhard Lazu:** It's more like a token; if you think about like an API key or a token, that's what this is. This is a new feature that 1Password introduced; they're called service accounts. And before, you had to have like a Connect server running, which then connects to vault, so it was like a more complicated setup; it had this extra component. And I was very excited about the service accounts; they were I think announced in January of this year, and they're finally generally available. The idea is that as long as you have this token, API key token, you can use OP, the OP CLI, the 1Password CLI to talk to 1Password.
 
-**Break**: \[00:54:51.05\]
+**Break**: \[54:51\]
 
 **Adam Stacoviak:** OP is such a weird -- just now, when you said 1Password, did I think the word o-n-e 1Password, which is OP. For the longest time I've been like "What does OP stand for?" I mean, I've used it before, and I'm like "Why is it OP?"
 
