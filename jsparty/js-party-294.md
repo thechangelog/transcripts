@@ -18,7 +18,7 @@
 
 **Matteo Collina:** Ah, No worries. You know we all love you.
 
-**Amal Hussein:** Our resident Grouch... Am I allowed to say that? That's not bullying, right? That's \[unintelligible 00:04:58.26\] I hope... And James Snell. Welcome! Hello, James.
+**Amal Hussein:** Our resident Grouch... Am I allowed to say that? That's not bullying, right? That's not mean. I hope... And James Snell. Welcome! Hello, James.
 
 **James Snell:** Hello.
 
@@ -58,7 +58,7 @@ Then board member of the Open.js Foundation, then co-founder and CTO of a compan
 
 **Amal Hussein:** Cool, cool.
 
-**James Snell:** Yeah, so I've been involved with Node since 2015, contributed all kinds of stuff, some were with Matteo... \[unintelligible 00:08:18.24\] all of like the URL parser, and HTTP/2, and a whole bunch of things have been added to Node since 2015, that I'm largely responsible for. The way I put it is I'll add the bugs and then encourage other people to get involved with the project to fix them... Which has been quite successful over the years.
+**James Snell:** Yeah, so I've been involved with Node since 2015, contributed all kinds of stuff, some were with Matteo... you know stuff I write planning computers all of like the URL parser, and HTTP/2, and a whole bunch of things have been added to Node since 2015, that I'm largely responsible for. The way I put it is I'll add the bugs and then encourage other people to get involved with the project to fix them... Which has been quite successful over the years.
 
 Today I'm working on not just Node, but I'm at Cloudflare. I work on the workers runtime itself, and also the open source kind of kernel of that called Workerd... So between Node and workers, I touch a lot of the stuff that folks use.
 
@@ -94,7 +94,7 @@ And that was critical at that time... I don't think Node would have survived if 
 
 **Kevin Ball:** \[16:10\] But I guess what I want to say is before we start going into the trade-offs and the choices that Node has made, versus Bun, versus whatever, I want to get out there that this is a manufactured controversy. This is --
 
-**Matteo Collina:** Let me state that -- let me take over here, and state that stuff. Both James and myself, and most of the Node -- I would say all, but maybe somebody not, but I can just say all the Node.js Technical Steering Committee and all the people in the project are very supportive, and they've always been very supportive with the effort that Jarred is doing with Bun and the different trade-offs he has made, and everything he has done with the project, okay? To be honest, everybody here has been supportive with him, even explaining to him how certain APIs work, or reporting bugs, incompatibilities, and things like that. So everybody has been super-supportive with Bun, with the launch. The two projects are friends, and to be honest, there was no jokes or implied "We will replace Node" or implied "We will destroy Node" assumption from the Bun team. And overall, the Bun team has always said "We wouldn't be here if Node was not here." There was \[unintelligible 00:17:30.07\] mistakes of Node here that set that stage. So I just wanted to clarify...
+**Matteo Collina:** Let me state that -- let me take over here, and state that stuff. Both James and myself, and most of the Node -- I would say all, but maybe somebody not, but I can just say all the Node.js Technical Steering Committee and all the people in the project are very supportive, and they've always been very supportive with the effort that Jarred is doing with Bun and the different trade-offs he has made, and everything he has done with the project, okay? To be honest, everybody here has been supportive with him, even explaining to him how certain APIs work, or reporting bugs, incompatibilities, and things like that. So everybody has been super-supportive with Bun, with the launch. The two projects are friends, and to be honest, there was no jokes or implied "We will replace Node" or implied "We will destroy Node" assumption from the Bun team. And overall, the Bun team has always said "We wouldn't be here if Node was not here." There was no time mistakes of Node here that set that stage. So I just wanted to clarify...
 
 **James Snell:** And I've seen some comments on Twitter, and stuff like this, where people are just like "Oh, the Node folks are scared of Bun", and all this kind of stuff... And just to be absolutely clear - no. Absolutely none of the drama that has been around this Node versus Bun thing, none of that drama can be attributed to anyone in Node, or Bun. \[laughs\] So from those projects themselves, none of that drama can be attributed them.
 
@@ -324,7 +324,7 @@ For example, I disable security audits. There is an npm audit that does the chec
 
 **Amal Hussein:** Yeah, that's a problem that npm has as well. Darcy Clarke was on the show, talking about the Manifest Confusion bug that was kind of more recently codified... And I know this as well from my time there, but basically, he shared that there's people depending on bugs; that's like in the CLI, and registry bugs. There's people who've actually coded whole solutions and they're relying on it. So changing that behavior, including like the Manifest Confusion - if npm just started patching that, a whole bunch of stuff would just break. Large and small companies.
 
-**James Snell:** We've had real cases of this. The glob module - it's been changed since, I believe, but a number of years ago we decided that the way that symbolic links are resolved in Node \[unintelligible 01:01:46.25\] It used to be this fairly expensive JavaScript algorithm, and there was a new method added to libuv, that made it super, super-fast... But it changed the characteristics of how that worked. The glob module had this logic that depended on the old Node algorithm to throw an error at a particular point. So if a glob ended up recursing through symbolic links, you could set it up so it would recurse infinitely.
+**James Snell:** We've had real cases of this. The glob module - it's been changed since, I believe, but a number of years ago we decided that the way that symbolic links are resolved in Node before if you like follow a path of them or whatever. It used to be this fairly expensive JavaScript algorithm, and there was a new method added to libuv, that made it super, super-fast... But it changed the characteristics of how that worked. The glob module had this logic that depended on the old Node algorithm to throw an error at a particular point. So if a glob ended up recursing through symbolic links, you could set it up so it would recurse infinitely.
 
 The operating systems, depending on whether you were on Windows or Linux, would throw an error at a different point, if that path got too long. The glob module was actually depending on that error being thrown, to know when to stop, when to exit out that loop. When we switched to the libuv method, that broke. And this module, this glob module, that everyone in the ecosystem depended on because it was used by npm itself and a bunch of others, suddenly stopped working correctly. And this is a clear example of a behavior that ideally you wouldn't depend on an error being thrown at a particular point, especially when that differs from one operating system to the next. But the code was still written to account for that... And trying to fix the performance - and it was a massive performance improvement - broke everybody.
 
@@ -332,7 +332,7 @@ The operating systems, depending on whether you were on Windows or Linux, would 
 
 So we've kind of talked about this quite a bit now, and James, I really loved your analogy around optimizing for performance versus kind of production-readiness and following standards. That was just really great, that push-pull. And of course, when you're a new project, with no -- I don't know, I can't say no real production users; but very few... You can thrash, you can change your API 600 times, you can break things... There'll be people angry, but they're such a small group. Who cares? So I'm curious, can you just kind of codify it for people so we can kind of move on from this topic? Breaking Node - what would that even be like? Because whether you have a Node backend or not, if you're using modern JavaScript tooling, you're using Node, right? So it's everywhere. It's in your CI, it's in all the things and all the places. What does breaking Node -- what does that look like? Like a shutdown for the internet? Please explain to me, what kind of scale are we talking about?
 
-**James Snell:** \[01:04:36.13\] No, it becomes like a Python to Python \[unintelligible 01:04:37.07\]
+**James Snell:** \[01:04:36.13\] No, it becomes like a Python 2 to Python 3 where...
 
 **Amal Hussein:** Oh, yes, yes. Yeah.
 
@@ -364,7 +364,7 @@ Now, there is one thing - who are your target contributors, and who are your use
 
 **James Snell:** \[01:08:26.06\] This, by the way, is a key, key difference between Node and commercial runtimes like Deno and Bun, and workers, and those kinds of things... Those are not actively gonna go out and seek to convert the user base into a contributor base. The user base and the distributor base are very different in those other runtimes.
 
-**Matteo Collina:** This is the key difference between the end users and the commercial projects, even commercial open source; let's call it commercial open source... Versus community-based open source. In community-based open source, the end goal is increase the maintainers base. Your key target, your key metrics is increasing the maintainers base. If the maintainer numbers goes down, the project dies. So that's what you need to achieve. If you have a huge pile of VC money, you can essentially afford to "Who cares? \[unintelligible 01:09:22.24\] And by the way, it's not necessarily bad, it's just a different way of doing things. I'm not saying one camp or the other. Probably all of us have used some React. React is a key example of a commercial project, in that former sense.
+**Matteo Collina:** This is the key difference between the end users and the commercial projects, even commercial open source; let's call it commercial open source... Versus community-based open source. In community-based open source, the end goal is increase the maintainers base. Your key target, your key metrics is increasing the maintainers base. If the maintainer numbers goes down, the project dies. So that's what you need to achieve. If you have a huge pile of VC money, you can essentially afford to "Who cares? ok I'm adding people. And by the way, it's not necessarily bad, it's just a different way of doing things. I'm not saying one camp or the other. Probably all of us have used some React. React is a key example of a commercial project, in that former sense.
 
 **Amal Hussein:** Company-backed. Yeah, it's financially-backed, yeah. And I love that term, by the way, commercial open source... It sounds so much better than just VC-backed, or "has money", or whatever. It's a more inclusive term, so I'm going to use that from now on. And I'm eager to discuss that with all of you next, but I do want to just ask about maintainers, and how is Node doing as a project right now? How's that whole maintainer sustainability kind of working? Because no one's really paid to work on Node. There's a lot of people working at companies --
 
@@ -408,7 +408,7 @@ All these large projects - it's not for the faint of heart. It's not easy, to so
 
 **James Snell:** An informal one, yeah.
 
-**Matteo Collina:** An informal one. Also because the travel fund for the foundation has run out of money. So there's no money for that, for flying more people \[unintelligible 01:14:07.12\]
+**Matteo Collina:** An informal one. Also because the travel fund for the foundation has run out of money. So there's no money for that, for flying more people out to work on.
 
 **Amal Hussein:** Oh, gosh... So anyways, so that's exciting... And my announcement is that, you know, for a long time people poked me about "Oh, you should join the Node.js community committee", which is lovingly called ConCom. I don't even know if that's still a thing, but I'm like now actually really interested in contributing some of my time every week towards Node. And so if the community committee is still a thing, I think I would like to join that, and help. I ran a community for many years in the Boston area, so I was doing like in-person meetups and stuff like that, so I didn't have time to do that plus all the other things... So I'm redirecting some of that energy now. So that's my announcement. What's your announcement, Matteo? Your first thing should be "Congratulations, Amal. We're so lucky to have you", but...
 
@@ -426,7 +426,7 @@ All these large projects - it's not for the faint of heart. It's not easy, to so
 
 **Matteo Collina:** And that shows people that Node is not that same thing, that mean tutorial that somebody wrote 2014, that's full of bad advice, that everybody keeps following as for today. That tutorial creates so many production outages that -- look, those were bad decisions at the time, and even worse decisions now to follow that same tutorial from 2014.
 
-**James Snell:** It's funny, Matteo and I are on various consulting, or talking to folks... It's gotten to the point where we can see what mistakes they're making, and we know exactly which sources \[unintelligible 01:16:03.21\]
+**James Snell:** It's funny, Matteo and I are on various consulting, or talking to folks... It's gotten to the point where we can see what mistakes they're making, and we know exactly which sources they got those from.
 
 **Amal Hussein:** \[01:16:06.13\] \[laughs\] "Did you read this blog post? No, no, no, no..." Yeah, that's so funny. Well, no, I'm happy to write unit tests, too. I'd love to do code contributions. But I'm more interested in like community building, and like helping do that stuff... But happy to write unit tests, or dig out into...
 
@@ -478,7 +478,7 @@ Now, I absolutely believe in Deno and Bun as a company, their ability to overcom
 
 **Amal Hussein:** It's pretty good...
 
-**Matteo Collina:** \[01:23:40.16\] It's impressively and phenomenally fast. And essentially, they end up -- like, we had to implement that, and add that to core, because the test runners out there were so different from what the Node core team considered a good test runner for Node, that we actually had to write our own. At some point it was, if you need to beat -- you know, so many problems with the most popular ones, like Jest. You should not be using Jest with us on JS. Sorry, if you're watching and you're using it every day. You cannot test \[unintelligible 01:24:14.20\] so whatever it tells you, it's a lie. And I'm so sorry; there's an issue, and I'm so sorry about this. You can configure it to be more or less better, but then you lose a lot of the benefits of it. So at this point, you might as well use something else.
+**Matteo Collina:** \[01:23:40.16\] It's impressively and phenomenally fast. And essentially, they end up -- like, we had to implement that, and add that to core, because the test runners out there were so different from what the Node core team considered a good test runner for Node, that we actually had to write our own. At some point it was, if you need to beat -- you know, so many problems with the most popular ones, like Jest. You should not be using Jest with us on JS. Sorry, if you're watching and you're using it every day. You cannot test your app 100%, so whatever it tells you, it's a lie. And I'm so sorry; there's an issue, and I'm so sorry about this. You can configure it to be more or less better, but then you lose a lot of the benefits of it. So at this point, you might as well use something else.
 
 Mocha is a great framework, but again, the Node folks wanted something that can run each process separately, and not everything together. I don't know. And essentially, we ended up having to write our own, because there was no room left. You cannot spawn a new test runner and expect it to win a lot of users out of the blue.
 
