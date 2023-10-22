@@ -54,7 +54,7 @@
 
 **Adam Stacoviak:** Okay. So I guess the thing I'm trying to figure out is that outside of the personal experience you've had as a developer, as someone trying to build stuff, for sure here in the United States - or even in other countries outside of China, I guess, from this example - we're used to, if there's information for how to be a better software developer, we pretty much have access to it if it's open, right? But that's not the case for China.
 
-**Shiya Lou:** Right. I will say that the first lesson for software developers is how to connect to VPN \[unintelligible 00:07:18.28\]. Then I think the biggest barrier there still though is language, much less of developer experience in terms of whether you can get across, because for us developers, we can always get across.
+**Shiya Lou:** Right. I will say that the first lesson for software developers is how to connect to VPN on your own. Then I think the biggest barrier there still though is language, much less of developer experience in terms of whether you can get across, because for us developers, we can always get across.
 
 **Adam Stacoviak:** Right. I was taking notice to something that's near and dear to us here at this conference (Node Interactive). Obviously, around a Node Conference, anybody who is in the Node community knows what npm is, so seeing Cnpm, which is China's npm -- so you had the language barrier, but then you also have this firewall barrier. Talk about the language barrier first. Clearly, from here to South America there's a language barrier; from here to China, there's a language barrier; from here to Germany as well... So there's a language barrier everywhere. What is your example of experiencing this language barrier?
 
@@ -166,7 +166,7 @@ So for people like us, or people that aspire to be like us, to have that kind of
 
 **Adam Stacoviak:** Okay. And then you've got Bing - good job, Microsoft! What other search options do you have?
 
-**Shiya Lou:** There's this company called 360 Search, this company called \[unintelligible 00:19:20.00\], and there's a bunch of companies making their own search solutions. My personal experience is that they never really compare to Google, no matter how good they are, maybe because once Google went out of China there wasn't enough competition for people to be forced to...
+**Shiya Lou:** There's this company called 360 Search, this company called [Sogou](https://www.sogou.com/), and there's a bunch of companies making their own search solutions. My personal experience is that they never really compare to Google, no matter how good they are, maybe because once Google went out of China there wasn't enough competition for people to be forced to...
 
 **Adam Stacoviak:** To make it better. That's a good example of having a really good user experience (I'm air quoting); I think Google has a good user experience, but I think that there obviously are some biases where if you compare the results from other engines that you might like those better, but I've always, in a blind taste test so to speak, I've always preferred Google's results, without any styles; not even looking at the page, but just in general, the results I get back seem to be more relevant to me.
 

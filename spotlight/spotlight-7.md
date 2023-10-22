@@ -82,7 +82,7 @@ Otherwise, I wasn't working on things like Node until this year as an open sourc
 
 **Tracy Hinds:** I know.
 
-**Adam Stacoviak:** And you're like, "What's your name?" and it's like, it's the back of the lanyard, it's not the front. Great job, I like that blend of lanyard \[unintelligible 00:09:11.14\] with a tube, so it doesn't spin.
+**Adam Stacoviak:** And you're like, "What's your name?" and it's like, it's the back of the lanyard, it's not the front. Great job, I like that blend of lanyard best with a tube, so it doesn't spin.
 
 **Tracy Hinds:** Yeah, that's all our events team. Lara and Cassandra, they think of everything. That's all on them. I always forget to do these, and I end up doing the center ones, because they're everywhere.
 
@@ -168,7 +168,7 @@ The team doing things already had all of these things in place for months, which
 
 Having on-site childcare, having the stickers that communicate whether you wanna be talked to - I loved that too, those special touches.
 
-**Adam Stacoviak:** \[unintelligible 00:21:33.00\] Those are the details that people just miss... For good reason; conferences are tough anyways. Then you naturally want to care, because you do care, it's just... It's already so many things happening, that if you don't have the right kind of team, the right kind of support and the right kind of attention to detail to those things that really matter, you will just miss them. And it may not be on purpose, like we said earlier. No grace given whenever you mess up.
+**Adam Stacoviak:** We understand those are the details that people just miss... For good reason; conferences are tough anyways. Then you naturally want to care, because you do care, it's just... It's already so many things happening, that if you don't have the right kind of team, the right kind of support and the right kind of attention to detail to those things that really matter, you will just miss them. And it may not be on purpose, like we said earlier. No grace given whenever you mess up.
 
 We all want to do well... Or maybe we don't all want to; generally, we all desire to do well, but we all mess up to some degree, at some point in our lives.
 
@@ -236,7 +236,7 @@ It's exciting to see what the Linux Foundation is setting as example. It's easie
 
 **Tracy Hinds:** Well, there weren't plans for it yet. \[laughs\]
 
-**Adam Stacoviak:** Maybe it could be How To Interact \[unintelligible 00:29:14.07\]
+**Adam Stacoviak:** Maybe it could be How To Interact for Interactive.
 
 **Tracy Hinds:** Yeah, that would be cool.
 
@@ -328,7 +328,7 @@ I'm a terrible salesperson; I can't lie, I can't sell anything unless I really l
 
 **Adam Stacoviak:** No! Selling is helping.
 
-**Tracy Hinds:** Well, see? That's how I see it... If I'm not helping you, \[unintelligible 00:41:39.05\]
+**Tracy Hinds:** Well, see? That's how I see it... If I'm not helping you, it's not worth it.
 
 **Adam Stacoviak:** Then you're great at it... That's my feeling. I can't stand those kinds of salespeople. If you lie, you're not a salesperson, you're a sleazebag. It's a whole different term.
 
