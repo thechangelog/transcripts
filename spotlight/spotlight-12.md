@@ -161,7 +161,7 @@ Tracy, in general, has been a pioneer in diversity/inclusivity work in community
 
 **Mikeal Rogers:** Yeah. These stickers are not that difficult to get, you just need to know about it.
 
-**Adam Stacoviak:** Organize it, and even think about it. That's that detail that you don't think about, unless it's top of mind to care. Unless you're the Linux Foundation, without the resources... If you're just an individual person that says, "I really care about the community and I wanna \[unintelligible 00:18:07.18\] a conference", you don't have the years of experience that you mentioned Tracy has, so you haven't been able to blood your knuckles, so to speak, so sometimes you make mistakes... And they're not intentional, it's just -- you've thought the details of this conference to do to that level, to make people feel invited...
+**Adam Stacoviak:** Organize it, and even think about it. That's that detail that you don't think about, unless it's top of mind to care. Unless you're the Linux Foundation, without the resources... If you're just an individual person that says, "I really care about the community and I wanna produce a conference", you don't have the years of experience that you mentioned Tracy has, so you haven't been able to blood your knuckles, so to speak, so sometimes you make mistakes... And they're not intentional, it's just -- you've thought the details of this conference to do to that level, to make people feel invited...
 
 **Mikeal Rogers:** Well, honestly... You have to remember how recent a lot of these practices are. The first NodeConf that I ran was in 2010, alongside JSConf. Chris Williams helped me out and we ran them together. That JSConf was the first conference that I'd ever seen that had a code of conduct. He had to draft one from scratch, which is now the basis of the Conf Code of Conduct that everyone uses. But that was... It's only 2016, that was 2010. So getting from there to actually having preferences about how to approach people is a really long journey.
 
@@ -173,7 +173,7 @@ Tracy, in general, has been a pioneer in diversity/inclusivity work in community
 
 **Adam Stacoviak:** ...within a box.
 
-**Mikeal Rogers:** Yeah, exactly. So you really have to motivate the individuals, right? It's not just market needs and all this kind of business concerns; it really does come down to some of the individuals, and now that we're gonna be able to have benchmarks that show particular Node.js workloads on different VMs, you're gonna see better performance in every VM \[unintelligible 00:20:31.15\]
+**Mikeal Rogers:** Yeah, exactly. So you really have to motivate the individuals, right? It's not just market needs and all this kind of business concerns; it really does come down to some of the individuals, and now that we're gonna be able to have benchmarks that show particular Node.js workloads on different VMs, you're gonna see better performance in every VM further down the road.
 
 **Adam Stacoviak:** Right. I talked to Arunesh and Gaurav, I believe is how you pronounce it...
 
@@ -291,7 +291,7 @@ But just taking more responsibility for the Node ecosystem - which is what every
 
 We're now getting to the point where at a very high level - CIO/CTO level - they decide to make a decision to invest in Node, which means hiring sometimes hundreds of Node developers, or retraining hundreds of Node developers - that means people that used to write Java and .NET. When those kinds of developers come to Node and look for education resources, the kinds of resources that they're used to, that they used to learn the last platform sometimes aren't there.
 
-**Adam Stacoviak:** So is this documentation, is this video tutorials, is this \[unintelligible 00:36:58.28\] independence?
+**Adam Stacoviak:** So is this documentation, is this video tutorials, is this [Pluralsight](https://www.pluralsight.com/) stuff, independence?
 
 **Mikeal Rogers:** We have all that... We have documentation. We couldn't have more of an ecosystem around that kind of an education, which is why we continue to grow so quickly, but formal certification programs, formal training programs, that kind of stuff...
 
@@ -329,7 +329,7 @@ Right now he is living on his own savings, focused on this open source project..
 **Adam Stacoviak:** \[40:03\] Haven't seen what?
 
 **Mikeal Rogers:** A huge of amount of growth in, the kind of growth that we see in other places. I've spent a lot of time actually figuring out what we could do here and what our current barriers are. One barrier which I think is a problem and it needs to get resolved, but it's not the number one problem, but it is a problem - JavaScript standards have not given us some of the tools that we need at the language level to do some of this.
-This is kind of hilarious - now that Brandon has a company that's doing Crypto in the browser, he is shifting some of his focus... Because he does a bunch of standards work as well, and there are some new 64-bit stuff and some new math stuff coming out that Brandon is pushing forward into TC39; also, the Node Foundation in partnership with the JS Foundation - the JS Foundation is a member of TC39 \[unintelligible 00:40:55.19\] they've started to send me to those meetings.
+This is kind of hilarious - now that Brandon has a company that's doing Crypto in the browser, he is shifting some of his focus... Because he does a bunch of standards work as well, and there are some new 64-bit stuff and some new math stuff coming out that Brandon is pushing forward into TC39; also, the Node Foundation in partnership with the JS Foundation - the JS Foundation is a member of TC39, the JavaScript standards body, they've started to send me to those meetings.
 
 There's one right now that obviously I couldn't be at, but I went to the last one that they did and resolved a lot of the module stuff, a lot of the concerns that we've had about how do we integrate these module systems; we were able to work that out. And I'll continue to go, to start to try to resolve some of those problems.
 
@@ -346,7 +346,7 @@ Python is not uniquely good at scientific computing; I mean, not a knock against
 
 **Adam Stacoviak:** How does that actually play out though, at an institutional level? How do you play out that support? Is it similar to the Apache Foundation where they kind of adopt projects and they incubate them to a degree and then take them on full-term once they matured to a degree? Is that some sort of plan? How do you nurture those developers who are living on their own savings or making sacrifices? I know that's open source at large, so you're preaching to the choir when it comes to the sacrifice we all make to move it forward, but I'm just curious what your general thoughts are for a future outlook on that?
 
-**Mikeal Rogers:** I don't think that we have a lot to offer at the project level, mainly because there are actually a couple non-profits now that have spun up to help back a lot of this work; SciPy isn't one of them. Those institutions are set up to take in grant funding as well, because a lot of the ways that those libraries get funded is through grant funding. We're just not an institution that's set up to do grant funding. We could, but it would be like building an entire other competence. But what we can do is we can reach out as the official \[unintelligible 00:46:21.12\] We can connect people to communities that are of value...
+**Mikeal Rogers:** I don't think that we have a lot to offer at the project level, mainly because there are actually a couple non-profits now that have spun up to help back a lot of this work; SciPy isn't one of them. Those institutions are set up to take in grant funding as well, because a lot of the ways that those libraries get funded is through grant funding. We're just not an institution that's set up to do grant funding. We could, but it would be like building an entire other competence. But what we can do is we can reach out as the official place for this stuff. We can connect people to communities that are of value...
 
 **Adam Stacoviak:** So if someone's listening to this, that's like...
 
