@@ -330,7 +330,7 @@ And I don't think -- we don't really need to upgrade to a this newest version of
 
 **Tim Smith:** Okay...
 
-**Jerod Santo:** \[unintelligible 00:37:24.21\] full DIMM, right about now.
+**Jerod Santo:** I'm feeling full DIMM, right about now.
 
 **Adam Stacoviak:** So SO-DIMM is basically just a smaller version of what's typically known as RAM.
 

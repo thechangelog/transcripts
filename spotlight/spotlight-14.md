@@ -22,7 +22,7 @@ And then, like you said, the Bloomberg one hit... I mean, Bloomberg is a pretty 
 
 **Adam Stacoviak:** Right.
 
-**Jerod Santo:** Unless there's like vesting, and stuff... I don't know how these \[unintelligible 00:02:20.02\]
+**Jerod Santo:** Unless there's like vesting, and stuff... I don't know how these how these insentives work.
 
 **Adam Stacoviak:** Right, there's always some sort of details.
 
@@ -228,7 +228,7 @@ Of course, he's always been celebrating the independent companies, so it makes s
 
 **Jerod Santo:** Well, while we're on Basecamp, Jason Fried actually predicted this sale on Twitter back in February 2014. He said "Prediction - if GitHub ends up selling itself one day, Microsoft will be the buyer." That's a pretty solid prediction right there. That's four years ago.
 
-**Adam Stacoviak:** I'm gonna take some advice from Jason from now on. \[laughter\] \[unintelligible 00:34:04.21\]
+**Adam Stacoviak:** I'm gonna take some advice from Jason from now on. \[laughter\] My next move is calling Jason.
 
 **Jerod Santo:** I've always appreciated him, but I read that because I think somebody retweeted that... And I was like "I'm not following this guy on Twitter yet... I'm gonna follow him just based on that." So I actually hit the Follow button for the first time on Jason Fried today.
 
