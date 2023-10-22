@@ -94,7 +94,7 @@ Even over multiplexed requests, all of those requests and responses share the sa
 
 **Adam Stacoviak:** What would you have done differently?
 
-**James Snell:** I actually worked on the spec as one of the co-authors and I had a proposal for just using a more efficient binary coding of certain header \[unintelligible 00:19:09.04\] Instead of representing numbers as text, representing them as binary, right? The compression ratios work as good, but you could transmit that data without incurring the cost of managing the state. So it would be just like what HTTP/1 has today, where you're still sending it every time, but you're sending less every time.
+**James Snell:** I actually worked on the spec as one of the co-authors and I had a proposal for just using a more efficient binary coding of certain headers like dates, right? Instead of representing numbers as text, representing them as binary, right? The compression ratios work as good, but you could transmit that data without incurring the cost of managing the state. So it would be just like what HTTP/1 has today, where you're still sending it every time, but you're sending less every time.
 
 **Adam Stacoviak:** Right. It makes sense to shrink it, rather than... \[cross-talk 00:21:46.08\] I kind of agree with you on the state, because it seems like it's adding this extra layer of -- it's almost like somebody shakes your hand and doesn't let it go.
 

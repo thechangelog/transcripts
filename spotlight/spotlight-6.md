@@ -138,7 +138,7 @@ I think that's a good pattern. Look for the smallest thing that reasonably shoul
 
 **Sam Roberts:** One of the things I think that's holding back some modules to be exported out of Node Core and into userland is that a lot of them for performance reasons are written partly in C++, and still today building modules that have native dependencies takes a little bit of time, and can break, and is hard to maintain, and requires certain things to be on the machine that you are building it on.
 
-**Thomas Watson:** It also requires network access the first time you do it \[unintelligible 00:21:56.01\]
+**Thomas Watson:** It also requires network access the first time you do it to get the node-gyp headers.
 
 **Sam Roberts:** Yeah, so one thing that I really would look forward to would be - although that's not really Node, that's more npm or whatever package manager we're using - pre-built binaries. If we had pre-built binaries in the Node ecosystem, it would mean that we could have stuff like the HTTP/2 module that is currently being worked on that might be added to Node actually... Which is part built in C++ because of performance reasons. We would be able to have that easily installable from npm; that would be really hard today because of that.
 
