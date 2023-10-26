@@ -44,7 +44,7 @@ Nadia, tell us about these notes, because you all gotta see some of the Google D
 
 **Nadia Eghbal:** Okay, alright, alright... I'll keep doing crazy docs...
 
-**Adam Stacoviak:** In the worst case scenario, you'll keep them on their toes. It's like, "Wow, these people are serious... We're gonna podcast about this." And I think, to that note, one of my most favorite - not because it's the best one, but because I just love the way he came in with passion - was Brendan Eich. It was like the \[unintelligible 00:04:46.03\] and let it go, and then Brendan just told the story, the history of open source, the web, how it was funded... I think he'd have done that anyways, but maybe the notes... It was like, "Hey, this is serious... We're gonna talk about the history of the web here", and he was ready for it.
+**Adam Stacoviak:** In the worst case scenario, you'll keep them on their toes. It's like, "Wow, these people are serious... We're gonna podcast about this." And I think, to that note, one of my most favorite - not because it's the best one, but because I just love the way he came in with passion - was Brendan Eich. It was like the \[unintelligible 00:04:46.03\] just pulled it back and let it go, and then Brendan just told the story, the history of open source, the web, how it was funded... I think he'd have done that anyways, but maybe the notes... It was like, "Hey, this is serious... We're gonna talk about the history of the web here", and he was ready for it.
 
 **Mikeal Rogers:** I think it made him really excited too, because it made it clear that we were gonna talk about something different than most of his podcasts. Usually, he comes on and talks about either how he created JavaScript in like an hour, or whatever it was, or...
 
