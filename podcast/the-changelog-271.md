@@ -108,7 +108,7 @@ If you kind of followed my blogs, initially they were all about JavaScript or th
 
 **Jerod Santo:** Oh, okay.
 
-**Preethi Kasireddy:** It's so funny \[unintelligible 00:23:59.28\] When I was at Goldman I was like "Finance sucks; I don't wanna be in finance." \[laughter\]
+**Preethi Kasireddy:** It's so funny you bring that up because when I was at Goldman I was like "Finance sucks; I don't wanna be in finance." \[laughter\]
 
 **Adam Stacoviak:** "Maybe this sucks. Maybe not yet. Maybe this sucks."
 
@@ -140,11 +140,11 @@ If you kind of followed my blogs, initially they were all about JavaScript or th
 
 **Jerod Santo:** Yeah, he did, he laughed at it. I can't remember the exact quote, but it looks pretty bad in retrospect. With that being said, like Adam said, a lot of people were laughing at it in positions where they should have been calling an all-hands meeting at their company and changing their current strategy.
 
-It always reminds me of \[unintelligible 00:26:20.05\] about the iPod... You guys know that one off the top of your head?
+It always reminds me of Slashdot post about the iPod... You guys know that one off the top of your head?
 
 **Adam Stacoviak:** No.
 
-**Jerod Santo:** Okay, so \[unintelligible 00:26:28.12\] wrote about the iPod when it was first announced in 2001. This was one of the founders of Slashdot - he said "No wireless, less space than a nomad. Lame." So it's just kind of comparing something brand new to the current state of the market and not seeing the dramatic changes that are happening.
+**Jerod Santo:** Okay, so [CmdrTaco](http://cmdrtaco.net/) wrote about the iPod when it was first announced in 2001. This was one of the founders of Slashdot - he said "No wireless, less space than a nomad. Lame." So it's just kind of comparing something brand new to the current state of the market and not seeing the dramatic changes that are happening.
 
 **Adam Stacoviak:** It's just proof that specifications don't define the ability for a product or some thing's ability to do its job well. You often buy a computer potentially on its specs, right? Or something like a camera, or whatever. But it's actually what you can do with it as a creator, as an innovator or as a doer that really matters.
 
@@ -204,7 +204,7 @@ So if you shard it and only make some transactions available to some nodes, then
 
 **Preethi Kasireddy:** Yeah, just for the blockchain to scale -- it's just impossible for it to scale if every node needs to process every transaction. So you still need to have a mechanism where even if you shard, it has to be possible for all the nodes to still trust that every transaction is valid, even though they don't have access to all the transactions. That's hard, and that's why it's been a hard problem to solve.
 
-\[42:10\] One of the things with Bitcoin's scalability is Bitcoin also has a blockchain, they have blocks, and they foresaw this problem quite a long back ago (almost three or four years ago). With them, they had two solutions: either increase the size of the block itself, so that you can fit more transactions in a block, and therefore every time a block gets processed, you're processing more transactions in a second, or another solution was to \[unintelligible 00:42:44.22\] where you basically take the heaviest parts of the transaction and move it to another part of the block that doesn't necessarily have to be calculated in the actual size of the block, so they can still fit more transactions.
+\[42:10\] One of the things with Bitcoin's scalability is Bitcoin also has a blockchain, they have blocks, and they foresaw this problem quite a long back ago (almost three or four years ago). With them, they had two solutions: either increase the size of the block itself, so that you can fit more transactions in a block, and therefore every time a block gets processed, you're processing more transactions in a second, or another solution was to call SegWit \[Segregated Witness\] where you basically take the heaviest parts of the transaction and move it to another part of the block that doesn't necessarily have to be calculated in the actual size of the block, so they can still fit more transactions.
 
 So there's short-term solutions like that, but in the long-term I definitely think there's a lot more sophisticated solutions that need to be created, like sharding, as you're saying.
 
@@ -258,7 +258,7 @@ Another one that I've heard of is plasma, which is something Ethereum is researc
 
 **Adam Stacoviak:** You definitely have to find a way to archive parts of the blockchain over time. There has to be a way to do that, because otherwise, whoever invented that originally had to have thought like "At some point this may grow huge", and there's no stopping it.
 
-**Preethi Kasireddy:** Yeah, actually Ethereum and Bitcoin too offer that kind of stuff. You can download the full \[unintelligible 00:48:27.11\] you can download some of the lighter clients, you can download a super light client... So they kind of figure out -- some of the lighter clients just carry the state cash, which is calculated in a certain way, whereas like the full nodes carry the entire data set.
+**Preethi Kasireddy:** Yeah, actually Ethereum and Bitcoin too offer that kind of stuff. You can download the full chain you can download some of the lighter clients, you can download a super light client... So they kind of figure out -- some of the lighter clients just carry the state cash, which is calculated in a certain way, whereas like the full nodes carry the entire data set.
 
 There's obviously a lot of ways, so even though Ethereum at a full node is probably -- I don't even know how big it is now... 20 GB? I don't know, but the light clients that I use are 3-4 gigs, not that big.
 
