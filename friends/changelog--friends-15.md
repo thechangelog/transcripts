@@ -270,7 +270,7 @@
 
 **Jerod Santo:** Yeah. Unfortunately, I had already bombarded you with laughter on yours... I will work harder not to do that next time. I apologize.
 
-**Taylor Troesh:** Give her the point. \[unintelligible 00:13:47.21\] opportunity.
+**Taylor Troesh:** Give her the point. You tanked her opportunity.
 
 **Amal Hussein:** You did. You did. I would agree.
 
@@ -496,7 +496,7 @@ I'm literally sweating, guys, I'm laughing so hard. It's also warm in here, so t
 
 **Jerod Santo:** Yeah, I thought he was trolling, to a certain degree...
 
-**Adam Stacoviak:** I was totally trolling. \[unintelligible 00:23:46.23\]
+**Adam Stacoviak:** I was totally trolling. That's how you got to do it man.
 
 **Jerod Santo:** Alright, I have one definition here. I'm still missing three.
 
@@ -762,7 +762,7 @@ We move to round four.
 
 **Adam Stacoviak:** Oh, gosh...
 
-**Jerod Santo:** Thinking there's no way I would pick one that I couldn't pronounce, but \[unintelligible 00:39:37.03\] it anyways... And you would have been right, because I never would have picked that one. I can't even say it. That's Amal's. She wrote that one.
+**Jerod Santo:** Thinking there's no way I would pick one that I couldn't pronounce, but slugging it anyways... And you would have been right, because I never would have picked that one. I can't even say it. That's Amal's. She wrote that one.
 
 **Adam Stacoviak:** I knew it was Amal's, because she's been laughing every time you say tubular... She's like laughing. Tubula.
 
@@ -1002,7 +1002,7 @@ The Riemann hypothesis is an unsolved problem related to the distribution of pri
 
 **Amal Hussein:** \[50:20\] Yes, yes, yes, exactly.
 
-**Adam Stacoviak:** \[unintelligible 00:50:21.10\] because he solved them all.
+**Adam Stacoviak:** He's gotten out of math because he solved them all.
 
 **Amal Hussein:** I don't actually know how old Matt Damon is, but for what it's worth, 50 is not even middle age.
 
@@ -1040,12 +1040,11 @@ The Riemann hypothesis is an unsolved problem related to the distribution of pri
 
 **Jerod Santo:** No, you can't phone them. This is not "Do You Want to Be a millionaire?" or "Who Wants to Be a Millionaire?"
 
-**Taylor Troesh:** \[unintelligible 00:51:47.15\]
+**Taylor Troesh:** I wish I spoke better German.
 
 **Jerod Santo:** Yeah, so if you have a background in German...
 
-**Taylor Troesh:** I barely took French, but German is Nordic enough that there's some \[unintelligible 00:51:56.26\]
-
+**Taylor Troesh:** I barely took French, but German is Nordic enough that there's some familiarity in there.
 **Jerod Santo:** Zitter bewegung. It's hard to say.
 
 **Taylor Troesh:** There are so many other ways it could be pronounced though...
@@ -1726,13 +1725,13 @@ So after eight rounds, Lars moves into the lead with 16 points. I am in second w
 
 **Lars Wikman:** I Just wanted to verify which one Taylor's was...
 
-**Jerod Santo:** \[laughs\] I was fine until I looked at -- I read it fine until I looked at Taylor's face, and I couldn't \[unintelligible 01:23:13.09\] any longer.
+**Jerod Santo:** \[laughs\] I was fine until I looked at -- I read it fine until I looked at Taylor's face, and I couldn't hold it any longer.
 
 **Taylor Troesh:** I caught the laugh the first time, but I couldn't remember which one was which, so yeah... I'll go with the salt wave thing.
 
 **Adam Stacoviak:** Taylor already had his answer submitted. It was submitted. The answer was submitted.
 
-**Jerod Santo:** Adam is not happy with this \[unintelligible 01:23:28.03\]
+**Jerod Santo:** Adam is not happy with this game.
 
 **Adam Stacoviak:** And then Taylor was like "Hey, listen, listen, this is my logic here."
 
@@ -2184,7 +2183,7 @@ Also, let us know; we will do more of these here on Changelog & Friends if you w
 
 **Adam Stacoviak:** The letters between Under and Jord. That's the UD. There's seven between. It's like a16z.
 
-**Jerod Santo:** \[unintelligible 01:42:43.27\] Alright, sorry. I've exhausted my ability to reason. Let's say goodbye. Thanks, everybody, for hanging out. We'll be back next week. Bye, friends.
+**Jerod Santo:** \[unintelligible 01:42:43.27\] A16z, i18n, alright, sorry. I've exhausted my ability to reason. Let's say goodbye. Thanks, everybody, for hanging out. We'll be back next week. Bye, friends.
 
 **Taylor Troesh:** Bye now.
 

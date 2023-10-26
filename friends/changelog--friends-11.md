@@ -104,7 +104,7 @@
 
 **Justin Searls:** Okay, so I've got several hundred newsletter subscribers, and a good majority are people using the "kill the newsletter" kind of subscription link, so they can get an RSS feed out of it...
 
-**Jerod Santo:** Actually, fun side tangent - that entire service exists because somebody wanted to RSS our newsletter back in the day, and we wouldn't do it. And so they created kill the newsletter, which is literally our newsletter. And now we love it, because we just point people to that. It's like "You want to RSS our newsletter? Use this." And we don't have \[unintelligible 00:06:58.05\]
+**Jerod Santo:** Actually, fun side tangent - that entire service exists because somebody wanted to RSS our newsletter back in the day, and we wouldn't do it. And so they created kill the newsletter, which is literally our newsletter. And now we love it, because we just point people to that. It's like "You want to RSS our newsletter? Use this." And we don't have upkeep.
 
 **Justin Searls:** I just love the Rube Goldberg machine of you're spitting out an email so that one company can go and catch them all and produce N RSS feeds.
 

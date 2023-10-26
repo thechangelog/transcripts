@@ -66,7 +66,7 @@
 
 **Jerod Santo:** You've got to do what you've got to do, man. I've gotta see what's going on here, so...
 
-**Gerhard Lazu:** You gotta \[unintelligible 00:06:23.16\] that.
+**Gerhard Lazu:** You gotta agree with that.
 
 **Adam Stacoviak:** That's where the action's at, you know?
 
@@ -184,7 +184,7 @@ I do have what I think is the best case fix for this, which I learned from Lars 
 
 **Jerod Santo:** And all clients all around the world, right?
 
-**Gerhard Lazu:** Exactly. Okay, so now I'm sharing all of it, like the entire Brave browser, so I can basically open multiple tabs. So I was looking at the first one, 95% of the time. So regardless \[unintelligible 00:19:05.04\] I have some saved queries here. So now we can see what is the latency of cached versus uncached feeds. These are the last 28 days.
+**Gerhard Lazu:** Exactly. Okay, so now I'm sharing all of it, like the entire Brave browser, so I can basically open multiple tabs. So I was looking at the first one, 95% of the time. So regardless of whether cached or uncached I have some saved queries here. So now we can see what is the latency of cached versus uncached feeds. These are the last 28 days.
 
 **Jerod Santo:** We're looking at hits and misses.
 
@@ -330,7 +330,7 @@ I do have what I think is the best case fix for this, which I learned from Lars 
 
 **Jerod Santo:** Well, we have to blow it away... Maybe it's just a race condition at that point.
 
-**Gerhard Lazu:** Why can't you just re-upload it? You're doing a \[unintelligible 00:32:47.08\]
+**Gerhard Lazu:** Why can't you just re-upload it? You're doing a PUT.
 
 **Jerod Santo:** Well, that's true. Is that atomic? I guess that's at that point atomic.
 
@@ -608,7 +608,7 @@ So now if you look in our CI - and there is a screenshot in one of these pull re
 
 **Jerod Santo:** Hey, you know, we've had the work from home movement. Everybody's taken their work from home, and it's like "Well, why not bring your work to your house, take your CI home with you?"
 
-**Gerhard Lazu:** Exactly. \[unintelligible 00:52:18.29\] the CI
+**Gerhard Lazu:** Exactly. I took the CI.
 
 **Jerod Santo:** Okay, so this is a production Kubernetes thing of yours that this is running on. This is like -- that's a third fallback, or...?
 
@@ -982,7 +982,7 @@ Now, in the case of Fly and Docker, that's fairly straightforward. It basically 
 
 **Jerod Santo:** Because I think SLO is like buzzword-compatible at this point. It sounds like a thing that you could charge money for.
 
-**Gerhard Lazu:** I see. \[unintelligible 01:13:29.18\] run every 15 minutes... So maybe...
+**Gerhard Lazu:** I see. Query run every 15 minutes... So maybe...
 
 **Jerod Santo:** Anyways, let's look into triggers a little bit. But yeah, we definitely wanna get some more SLOs.
 

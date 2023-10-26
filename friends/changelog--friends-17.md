@@ -86,7 +86,7 @@
 
 **Adam Stacoviak:** Should we begin most podcasts now just gushing about each other, just to...?
 
-**Jerod Santo:** Just to \[unintelligible 00:05:39.08\] the engine.
+**Jerod Santo:** Just to juice the engine.
 
 **Gerhard Lazu:** At least the kaizens...
 
@@ -256,7 +256,7 @@ The bigger issue was that now we have a cluster of instances, which is both a go
 
 **Gerhard Lazu:** I'll take this one. It's okay. \[laughter\]
 
-**Adam Stacoviak:** The neural engine's gotta know how we're feeling about Gerhard \[unintelligible 00:16:37.17\] So we've got to put that clear.
+**Adam Stacoviak:** The neural engine's gotta know how we're feeling about Gerhard at this point. So we've got to put that clear.
 
 **Gerhard Lazu:** I get things wrong a lot, but sometimes I fix them so fast people don't even realize they're a problem... Unless I admit it. So I'm gonna admit it now.
 
@@ -296,7 +296,7 @@ The bigger issue was that now we have a cluster of instances, which is both a go
 
 **Adam Stacoviak:** It makes me also think about these problems at scale. This is a small scale... And I think it's part of the beauty of kaizen, and continuous improvement at our scale. We've done things like Linode and Kubernetes... Not Linode in particular being a bad choice, but Kubernetes is not necessarily a smart choice for us to do, because we were in a single node for a long time. It's obviously better multinode, and there's much bigger problems that Kubernetes solves... But we get to sort of expose these very small problems, really; I mean, we're talking about 100 bucks, really, in cost... It was incorrect, and we've hunted it down through like "Why is this bill growing?", paying attention, iterating, all collaborating... I just wonder, at larger scales, with larger teams, who just have multiple teams with legit AWS billing issues, like hundreds of thousands of dollars, hundreds of machines even, hundreds of instances, and how this problem permeates in a team at scale. I mean, how much money is being wasted, really, by holding it slightly wrong, or completely wrong.
 
-**Gerhard Lazu:** Yeah. Every system has inefficiencies, unless you look at them. They can be growing, they can be a worst case not getting fixed, and that has always been the problem... You don't even realize, and - benefit of the hindsight, of course, I should have thought that; it's a simple thing. But unless you're paying attention to these things \[unintelligible 00:21:39.02\] conscious decision, like "Okay, we will be improving, and we will be looking at this thing, and we'll be trying to drive these small improvements."
+**Gerhard Lazu:** Yeah. Every system has inefficiencies, unless you look at them. They can be growing, they can be a worst case not getting fixed, and that has always been the problem... You don't even realize, and - benefit of the hindsight, of course, I should have thought that; it's a simple thing. But unless you're paying attention to these things are \[unintelligible 00:21:39.02\] conscious decision, like "Okay, we will be improving, and we will be looking at this thing, and we'll be trying to drive these small improvements."
 
 \[21:49\] It took us a while to get here, and I think the details aren't exactly clear, because we went through so many of these cycles... In my mind, they're starting to blur at this point. I know we talked about clustering for so long, to the point that it stopped being relevant. You know, like "Hey, we can solve this differently." I think that's the beauty of it. But at the same time, you should be driving improvements constantly. I think that's why I want to emphasize this, and I want to share our story, in that hey, even us, as amazing as we are - again, going back to how this episode started - we still get it wrong, and it's okay to admit publicly and have a laugh about it... Because otherwise you will get miserable. You really will.
 
@@ -412,7 +412,7 @@ Question to Jerod... How do we expire the feeds, these various podcast feeds in 
 
 **Jerod Santo:** Nice.
 
-**Gerhard Lazu:** 20% to 30% -- it was just about, literally, I was just like "Oh, this should be enabled." I just enabled it. There's nothing in the VCL, by the way. I was a bit surprised. I was expecting some sort of a \[unintelligible 00:30:17.12\] to change. It didn't.
+**Gerhard Lazu:** 20% to 30% -- it was just about, literally, I was just like "Oh, this should be enabled." I just enabled it. There's nothing in the VCL, by the way. I was a bit surprised. I was expecting some sort of a config to change. It didn't.
 
 **Jerod Santo:** Okay.
 
@@ -500,7 +500,7 @@ My favorite thing is to send off Changelog News, which has over 20,000 subscribe
 
 **Gerhard Lazu:** Okay. I want to give a big shout-out to \[unintelligible 00:36:26.20\] on GitHub. You can check the debugging chat in our Slack dev channel. Remember, don't archive the dev channel, okay? \[laughter\]
 
-**Jerod Santo:** \[unintelligible 00:36:38.19\]
+**Jerod Santo:** It's like a PSA.
 
 **Gerhard Lazu:** I don't know whether we disabled that, but still, don't do it.
 
@@ -566,7 +566,7 @@ My favorite thing is to send off Changelog News, which has over 20,000 subscribe
 
 **Jerod Santo:** I mean, it's probably been 2015, so almost a decade Changelog Nightly has been sending me emails, and thousands of other humans... It's just amazing. We should add up the math on how many emails Nightly has sent out. Anyways... I said, "Please get this off of DigitalOcean. Let's get it onto Fly. Daggerize it." And 10 minutes before we hit Record, you finally got it done.
 
-**Gerhard Lazu:** That's it. I was waiting. \[laughter\] I was like \[unintelligible 00:39:05.19\] Will it be finished? It won't be finished...
+**Gerhard Lazu:** That's it. I was waiting. \[laughter\] I was like \[unintelligible 00:39:05.19\] Sweating. Will it be finished? It won't be finished...
 
 **Jerod Santo:** I am surprised. I just thought you weren't going to do it.
 
@@ -638,7 +638,7 @@ My favorite thing is to send off Changelog News, which has over 20,000 subscribe
 
 **Jerod Santo:** Okay, brew install dagger CLI, or brew install dagger?
 
-**Gerhard Lazu:** Basically, it's \[unintelligible 00:41:40.16\] That's the command. Boom. Oh, do you have Docker running locally?
+**Gerhard Lazu:** Basically, it's `brew install dagger/tap/dagger`. That's the command. Boom. Oh, do you have Docker running locally?
 
 **Jerod Santo:** Yes.
 
@@ -690,7 +690,7 @@ My favorite thing is to send off Changelog News, which has over 20,000 subscribe
 
 **Jerod Santo:** Yeah, actually have it installed via AST. Do I need to set it as a global, or local, or something?
 
-**Gerhard Lazu:** I think you'll need a global one, or you can commit it. Both work. I forgot that you use \[unintelligible 00:43:08.11\]
+**Gerhard Lazu:** I think you'll need a global one, or you can commit it. Both work. I forgot that you use [asdf](https://asdf-vm.com/) too.
 
 **Jerod Santo:** Right.
 
@@ -768,7 +768,7 @@ And by the way, you can look at the Actions, because part of this pull request, 
 
 **Gerhard Lazu:** Was not cached?
 
-**Jerod Santo:** Wasn't cached. It ran it. \[unintelligible 00:47:52.14\] Maybe it was because there was some that were only test. So that's probably why. It had to run again, because it's gonna get -- let me run it now a second time.
+**Jerod Santo:** Wasn't cached. It ran it. It fetched three, used the rest, installed a few. Maybe it was because there was some that were only test. So that's probably why. It had to run again, because it's gonna get -- let me run it now a second time.
 
 **Gerhard Lazu:** Exactly. Because by default, it says "without tests", if you look at the output. And then when you want to run tests, it says "with test."
 
@@ -802,7 +802,7 @@ It makes a couple of assumptions. It asks you to have dotenv. Basically, it requ
 
 **Gerhard Lazu:** Right.
 
-**Jerod Santo:** So we have plenty of copies. If you need a GitHub DB, I can find you \[unintelligible 00:50:34.27\]
+**Jerod Santo:** So we have plenty of copies. If you need a GitHub DB, I can find you one.
 
 **Gerhard Lazu:** There's thousands. \[laughter\] So that's all good. The question is, as you know, in Fly there's the Dist directory, which is stored on a volume, but the database is currently stored in the context where the app code is, and that is not using a volume. That's just a container image. So I think we'll need to relocate this database to a place which would be persistent.
 
