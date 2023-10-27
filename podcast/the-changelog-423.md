@@ -210,7 +210,7 @@ So then I said "Title, hello world." Title is a formatter that just capitalizes 
 
 **Adam Stacoviak:** Right. Title case.
 
-**Josh Comeau:** When I say "slap" - slap is actually not my own. It's built into it. It moves the cursor to the end of the line and adds a new line... Which - I actually wish this was a keyboard shortcut. I find it super, super-useful. Because you could also do \[unintelligible 00:30:20.15\] So you could do it with the keyboard.
+**Josh Comeau:** When I say "slap" - slap is actually not my own. It's built into it. It moves the cursor to the end of the line and adds a new line... Which - I actually wish this was a keyboard shortcut. I find it super, super-useful. Because you could also do Cmd+Right. So you could do it with the keyboard.
 
 **Jerod Santo:** That's what I would tend to do, yeah.
 
@@ -232,7 +232,7 @@ And then when I said "Rule, color red", rule is my own little shortcut, and what
 
 **Josh Comeau:** So that's essentially -- there probably is Talon-specific ways to do some of this stuff. I think you can actually just say "Undo that", but I just use the keyboard shortcut, because it's kind of the same thing in my mind.
 
-**Adam Stacoviak:** Right. When you're doing this kind of coding, having had the ability to do it with your hands, \[unintelligible 00:31:59.26\] but just with some pain at some point, but then via voice... Is there a preference? Would you prefer to do it with your hands? Do you find it somewhat maybe even different in what you're able to create with your voice? Because there might be an obvious preference, but I'm just not sure.
+**Adam Stacoviak:** Right. When you're doing this kind of coding, having had the ability to do it with your hands, still yet even, but just with some pain at some point, but then via voice... Is there a preference? Would you prefer to do it with your hands? Do you find it somewhat maybe even different in what you're able to create with your voice? Because there might be an obvious preference, but I'm just not sure.
 
 **Josh Comeau:** \[32:18\] Yeah, that's a fair question. I'd say that overall I do think that I prefer typing. And part of that too is that, you know, I have 3-4 months of dictation practice, and 25 years of typing experience. So there is a little bit of an asymmetry there, just in terms of practice. I'd say for about 10% to 20% of the things that I do, dictation actually is better and faster. A good example would be creating a StyledComponent. If I was to do that with typing, I would have to type "const TheNameOfTheThing = styled.TheElement the tick", I'd have to press Enter, a second tick... There's a lot of fussing about. Whereas if I say "Styled title heading" or "Styled heading title", it's much faster to say that than to type all those characters.
 
@@ -292,7 +292,7 @@ My snarky answer anyway - because a couple of people have said "You couldn't do 
 
 **Josh Comeau:** Certainly, when I started this, my partner would occasionally pop his head in and say like "Are you talking to me? What's going on in here?" And you can be a little self-conscious, too. You're not used to speaking out loud. It's like a weird thing. But in my case - and I recognize that everyone's situation is different - if you have a private space, then that really kind of nullifies that concern, once you get over just the self-consciousness of it.
 
-**Adam Stacoviak:** Can you speak to maybe -- since you've been doing frontend for quite a while, and \[unintelligible 00:38:17.10\] and these various things that we've gotta deal with in terms of frontend developers... Like, we're the frontline, in many cases, to implement and care about accessibility. Can you talk about maybe your transition from everyday frontender to someone with this problem, to have to care about it maybe even more because you're sort of in the trenches with it?
+**Adam Stacoviak:** Can you speak to maybe -- since you've been doing frontend for quite a while, and you know a11y \[accessibility\] and these various things that we've gotta deal with in terms of frontend developers... Like, we're the frontline, in many cases, to implement and care about accessibility. Can you talk about maybe your transition from everyday frontender to someone with this problem, to have to care about it maybe even more because you're sort of in the trenches with it?
 
 **Josh Comeau:** Yeah, so -- I mean, actually when I started this, the co-worker who suggested this to me said "Even if it doesn't work out, at the very least it's an interesting accessibility case study." Because now it's like I'm involuntarily being thrown in the deep end of trying to use the web without a mouse and keyboard.
 
@@ -304,7 +304,7 @@ But then my right arm started exactly the same thing. Not sure why. I had the sa
 
 **Josh Comeau:** Yeah.
 
-**Adam Stacoviak:** So you may have cared beforehand, maybe after dealing with this, and then obviously having to do such measures to continue to do your job, and to enjoy what you do... It probably has to give you a different perspective on implementing and caring about, being a frontliner, essentially, in the \[unintelligible 00:40:03.23\] world and accessibility world. The frontenders are pretty much who implements that stuff, so it's us who cares anyways, but you double-care now.
+**Adam Stacoviak:** So you may have cared beforehand, maybe after dealing with this, and then obviously having to do such measures to continue to do your job, and to enjoy what you do... It probably has to give you a different perspective on implementing and caring about, being a frontliner, essentially, in the a11y world and accessibility world. The frontenders are pretty much who implements that stuff, so it's us who cares anyways, but you double-care now.
 
 **Josh Comeau:** \[40:14\] Yeah, and I would have told you before all of this that accessibility was important, and I always knew it was important, but it was theoretical. I had never watched someone struggle to use a thing that I had built because I neglected to take into account how they were using computers... So it was always this abstract notion. "I wanna do this because it's the right thing to do."
 
@@ -442,7 +442,7 @@ That's kind of the ambition with this - to get people to feel comfortable with i
 
 **Josh Comeau:** Yeah. I mean, it's one of those things that probably 4-5 years ago I was frustrated with not being good at it. So it was a somewhat concerted effort of not just taking things at face-value. So when you find a snippet that works, don't just copy-paste it and move on. Poke at it. See "Why does this not work this way?" Go to the MDN documentation and dig into it. Understand. Every property, every declaration has a whole page on MDN. You can figure out flex-grow, and just learn all kinds of little details about it. That's kind of what I did for several years. I would just never miss an opportunity to dig into something, and just build that intuition, a working mental model of how does this property work, how does it interact with all these other properties that it can be often paired with... Why does min-width do funky things when it's inside a Flex container? I don't actually know the answer to that question in terms of why, but I know --
 
-**Jerod Santo:** \[laughs\] \[unintelligible 01:03:05.14\]
+**Jerod Santo:** \[laughs\] No honestly, we're asking why?
 
 **Josh Comeau:** ...but I know how. I know how to use it and how to get it to do what I want.
 

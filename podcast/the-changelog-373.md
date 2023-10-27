@@ -22,7 +22,7 @@
 
 **Ovilia:** I was looking for a job after graduation. As I said, when I made this online resume, my current boss found my resume and asked me if I got interested in this project. At that time ECharts was quite famous, but I said "No, I haven't heard about it." Luckily, I passed the interview, partly because my research domain was about computer graphics and image processing. So it's quite related to the project.
 
-I'm very passionate about quantified \[unintelligible 00:06:20.23\] and data visualization, so I chose ECharts to be my first career, and I hope it will be the last one.
+I'm very passionate about quantified self and data visualization, so I chose ECharts to be my first career, and I hope it will be the last one.
 
 **Adam Stacoviak:** What do you know about the background of the project itself for becoming an Apache incubator project? Do you know the back-story there?
 
@@ -70,7 +70,7 @@ This could be a problem, because we have so many users and the product is rather
 
 For the code part, I'm doing some tools like Seam editor which helps the user set the charts themes in GUI and export it to be used in ECharts. I've made a cheatsheet to help users understand the terminology of components, because in the documents, components are named like "legend" or "access pointer" or "visual map", so new users may find it hard to locate the document. I created a chart with frequently used components, and when the mouse is focused on the component, it will show the names of that component and the link to the document.
 
-I've also created some new types of charts, like liquid fill charts for percentage \[unintelligible 00:15:14.23\] tree structure... But our regular work is about fixing bugs and producing new features for all parts of the code.
+I've also created some new types of charts, like liquid fill charts for percentage data, sunburts for data in tree structure... But our regular work is about fixing bugs and producing new features for all parts of the code.
 
 **Adam Stacoviak:** Very cool. I guess it's kind of hard to bypass the fact that you're from China, and my guess - I didn't ask you this, but my assumption is that Chinese is your first language... Is that correct?
 
@@ -134,7 +134,7 @@ The main idea is to give a palette of colors. For example, for old school I may 
 
 **Adam Stacoviak:** Clearly, you have a plethora of open source. This website is a testament to that. That's also open source on GitHub... So if you want to dig into this software and the code behind it, the website, you can check out our show notes... But I'm curious when you find time to do all this. How do you design your life to be able to work on so much open source? And I guess maybe a side note to that is why open source everything that you've done?
 
-**Ovilia:** I think for the time part, if you really want to do something, you will have to \[unintelligible 00:25:57.29\] the excuses. We all have limited time nowadays, but what we do with our limited times pretty much forms who we are... So I think it is a cool thing to make those things open source to public and let others see who I am from the projects I made.
+**Ovilia:** I think for the time part, if you really want to do something, you will have to have the time rather than excuses. We all have limited time nowadays, but what we do with our limited times pretty much forms who we are... So I think it is a cool thing to make those things open source to public and let others see who I am from the projects I made.
 
 **Adam Stacoviak:** Let's talk about maybe the reasoning why open source then. Why do you open source so much?
 
@@ -174,7 +174,7 @@ In fact, the whole point of being open source is to provide a source code so tha
 
 **Ovilia:** Yeah, I think it's a nice way to start and experiment to see if this could work for the open source world... But I've not personally tried with it, because they are only for the better stage. I think if it can go to a healthy community, like the Patreon goes, I think it's a good way for the maintainers to put more effort on it... Because some of them can be a full-time open source maintainer, to put more efforts on the project.
 
-On the other hand, I do have concerns about whether these benefits could let the open source go another way to consider the benefits too much, so that it will have some potential \[unintelligible 00:32:14.11\] from that.
+On the other hand, I do have concerns about whether these benefits could let the open source go another way to consider the benefits too much, so that it will have some potential bad effects from that.
 
 **Adam Stacoviak:** So your concern is that a focus on sustainability or a focus on funding could skew the focus, essentially...
 

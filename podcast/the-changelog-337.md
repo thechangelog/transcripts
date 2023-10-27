@@ -130,7 +130,7 @@ But again, that's the flipside of open source projects; people who are involved 
 
 It made me think of proprietary companies, and the advantage that they have is that they can actually offer cash for bugs, cash for vulnerabilities. As open source people, we can't even get any cash to buy a sandwich, let alone to fund some security audits.
 
-**Mike McQuaid:** Yeah, that's very true. I completely agree. And the other tricky thing which doesn't come across on the public side is that the signal-to-noise ratio on this stuff makes GitHub issues look bad, in some ways, because you have so many people who are going and more or less literally copying and pasting the same report onto 20 projects. You find a project that uses Jenkins and then you copy and do the same inverted commas \[unintelligible 00:21:52.27\] about something that's not actually an issue.
+**Mike McQuaid:** Yeah, that's very true. I completely agree. And the other tricky thing which doesn't come across on the public side is that the signal-to-noise ratio on this stuff makes GitHub issues look bad, in some ways, because you have so many people who are going and more or less literally copying and pasting the same report onto 20 projects. You find a project that uses Jenkins and then you copy and do the same inverted commas expolit about something that's not actually an issue.
 
 There's various people saying that they've owned a GitHub Pages site and stuff like that, and it's like, "Well, it's a static site, so I'm not convinced you have, actually, because there's nothing dynamic on that page whatsoever", unless you somehow have access to GitHub's servers, in which case they will probably pay you for that bounty. So yeah, it's tricky wading through all that stuff.
 
@@ -140,7 +140,7 @@ There's various people saying that they've owned a GitHub Pages site and stuff l
 
 **Jerod Santo:** That's a hard problem to solve.
 
-**Mike McQuaid:** It is. And to be fair, HackerOne seems to have a good reputational system underlying it, so you definitely don't see the same bad reports, more than one of...your dark side showing. If you got a really crappy report from someone, then you can log it as basically being sufficiently negative that they take kind of a reputational hit in the system, and stuff like that. But you still feel like you're doing moderation/being a \[unintelligible 00:22:58.05\]guy situation.
+**Mike McQuaid:** It is. And to be fair, HackerOne seems to have a good reputational system underlying it, so you definitely don't see the same bad reports, more than one of...your dark side showing. If you got a really crappy report from someone, then you can log it as basically being sufficiently negative that they take kind of a reputational hit in the system, and stuff like that. But you still feel like you're doing moderation/being a recaptcha guy situation.
 
 **Adam Stacoviak:** So what's the advice then for maintainers out there that might find themselves in a similar situation? Should they go to HackerOne and get an account? What's your recommendation here?
 
@@ -306,7 +306,7 @@ So that's it, to answer the question of why you -- I mean, I'm one of those peop
 
 **Jerod Santo:** Which makes way more sense, yeah.
 
-**Mike McQuaid:** Yeah. So this was the motivation for this, and since we've moved to this new system, it seems to be saving a lot of people time. And again, the Homebrew Bundle thing - it's actually got a few different use cases. One is the "I wanna set up all the software on my machine", but then there's also the classic one that always bugged me - in the readme of a project it says "Okay, so before you try and set up the server you need to brew install X, Y and Z", and I always thought that that was kind of...my attitude is, put stuff into code if you can, rather than documentation... So instead of that, now the little Bootstrap script, instead of saying "run brew install" or whatever, you can run brew bundle in that repository once you've checked it out, and then it will know to set up, say, mySQL, Elasticsearch, \[unintelligible 00:43:33.10\]
+**Mike McQuaid:** Yeah. So this was the motivation for this, and since we've moved to this new system, it seems to be saving a lot of people time. And again, the Homebrew Bundle thing - it's actually got a few different use cases. One is the "I wanna set up all the software on my machine", but then there's also the classic one that always bugged me - in the readme of a project it says "Okay, so before you try and set up the server you need to brew install X, Y and Z", and I always thought that that was kind of...my attitude is, put stuff into code if you can, rather than documentation... So instead of that, now the little Bootstrap script, instead of saying "run brew install" or whatever, you can run brew bundle in that repository once you've checked it out, and then it will know to set up, say, mySQL, Elasticsearch, start resources...
 
 **Jerod Santo:** Right.
 
