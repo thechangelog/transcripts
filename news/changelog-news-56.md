@@ -16,7 +16,7 @@ Ok, let's get into the news.
 
 Matt Asay in Infoworld writes, "It’s time for the open source Rambos to stop fighting and agree that developers care more about software’s access and ease of use than the purity of its license."
 
-This, of course, prompted many "open source Rambos" to disagree and start fighting about licenses again... The context for Matt's article is Meta's claim that [Llama 2](https://ai.meta.com/llama/) was open source despite its license restricting commercial use from players large enough to use it commercially. This means it's not actually open source [by definition](https://open source.org/osd/). Matt agrees with that, but his point is that it doesn't matter because nobody cares.
+This, of course, prompted many "open source Rambos" to disagree and start fighting about licenses again... The context for Matt's article is Meta's claim that [Llama 2](https://ai.meta.com/llama/) was open source despite its license restricting commercial use from players large enough to use it commercially. This means it's not actually open source [by definition](https://opensource.org/osd/). Matt agrees with that, but his point is that it doesn't matter because nobody cares.
 
 **Jurassic Park:**
 
