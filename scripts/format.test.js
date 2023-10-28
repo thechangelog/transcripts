@@ -54,7 +54,7 @@ test("open source' and 'closed source' every time", () => {
     expect(applyReplaces("There's a great article on opensource.com on this")).toBe("There's a great article on opensource.com on this")
     expect(applyReplaces("What's wrong with close-sourced stuff")).toBe("What's wrong with close sourced stuff")
     expect(applyReplaces("It's a closed-source thing")).toBe("It's a closed source thing")
-
+    expect(applyReplaces("[OSI](https://opensource.org/) is the best")).toBe('[OSI](https://opensource.org/) is the best')
 })
 
 test("GitHub and GitLab is correct", () => {
