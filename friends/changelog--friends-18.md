@@ -112,7 +112,7 @@
 
 **Adam Stacoviak:** You know, honestly, I mean, that was December 2016 we shipped that... So I think if we went around that range in our feed, we'd see potentially something else on the Changelog, and I just don't know for sure.
 
-**Kevin Ball:** \[00:06:03.13\] So barring that - and I was just scanning... So there were two crossover episodes y'all did, where you pulled content from JS Party into Changelog, that I was on.
+**Kevin Ball:** \[06:03\] So barring that - and I was just scanning... So there were two crossover episodes y'all did, where you pulled content from JS Party into Changelog, that I was on.
 
 **Jerod Santo:** State of the 'log...
 
@@ -152,7 +152,7 @@ I had this idea of wanting to not just do another long-form interview podcast, b
 
 **Adam Stacoviak:** That's a hard pitch right here, Jerod.
 
-**Kevin Ball:** \[00:09:44.26\] I mean, we'll see. I could do a trailer for you all... I've been doing these interviews -- I have shipped at this point 25 of these interviews, on the order of an hour long... And I think at this point I probably have enough content to slice together for an episode, or like a season. So maybe 12 episodes, or something like that... But there's enough scatter that I don't know how much beyond that. But I don't know. We'll see. Right now I'm super-busy with other stuff, so I'm just kind of keeping the interview train going, and building up this content library, and eventually it'll turn into something a little bit more edited.
+**Kevin Ball:** \[09:44\] I mean, we'll see. I could do a trailer for you all... I've been doing these interviews -- I have shipped at this point 25 of these interviews, on the order of an hour long... And I think at this point I probably have enough content to slice together for an episode, or like a season. So maybe 12 episodes, or something like that... But there's enough scatter that I don't know how much beyond that. But I don't know. We'll see. Right now I'm super-busy with other stuff, so I'm just kind of keeping the interview train going, and building up this content library, and eventually it'll turn into something a little bit more edited.
 
 **Jerod Santo:** Gotcha.
 
@@ -222,7 +222,7 @@ I had this idea of wanting to not just do another long-form interview podcast, b
 
 **Jerod Santo:** It reminds me of an old Mitch Hedberg joke, which goes something like "Every book is a kid's book, if the kid can read."
 
-\[00:12:58.13\]
+\[12:58\]
 
 *Every book is a children's book if the kid can read. \[laughter\]*
 
@@ -230,7 +230,7 @@ I had this idea of wanting to not just do another long-form interview podcast, b
 
 **Kevin Ball:** Yeah. So I'm pushing this as a phrase, because I think the sort of nomenclature of hard skills and soft skills has set us back. And the words that we use shape the way that we think about things. People think, "Oh, hard skills. Yeah, that's challenging. I'm smart, I'm going to do the hard stuff. I'm going to do hard skills. Soft skills - that's easy, weak. I don't need to touch those things." Right? And not everybody feels that way, but I think there's a solid set of people who have taken that nomenclature, and then become disdainful of this whole set of non-technical skills, that are actually extremely impactful.
 
-\[00:13:46.13\] The other part of that is soft makes people think fuzzy, it makes people think undefined, where they're often very definite tactics, and concrete things that you can learn, that will increase your effectiveness and your impact. And so I've been for a while trying to push -- instead of talking about hard skills and soft skills, let's actually call them what they are. One set of skills is technical skills, skills for dealing with technology and technical problems, and one set of skills is human skills, things for dealing with humans. And those humans might be ourselves, or they might be other people out there... But there's nothing hard or soft about one or the other, it's really about what is the domain that these skills are relevant for.
+\[13:46\] The other part of that is soft makes people think fuzzy, it makes people think undefined, where they're often very definite tactics, and concrete things that you can learn, that will increase your effectiveness and your impact. And so I've been for a while trying to push -- instead of talking about hard skills and soft skills, let's actually call them what they are. One set of skills is technical skills, skills for dealing with technology and technical problems, and one set of skills is human skills, things for dealing with humans. And those humans might be ourselves, or they might be other people out there... But there's nothing hard or soft about one or the other, it's really about what is the domain that these skills are relevant for.
 
 **Jerod Santo:** That hard and soft divide, I think, is very real. And I had a boss, who I appreciated in many ways; he's passed on now. And he used to always say -- he very much valued engineering and hard technical problems, and then he used to say "Well, we'll do all the hard work, or whatever, and then we'll give it to the arts and crafts people", which was like such a condescending way to refer to a group of skills... And that was more like a design versus dev thing, which is very much a divide, and has ire on either side, for reasons of lack of human skills, and tribalism, to a certain extent, over the years... And I would always raise my hand as the engineer who's like "Hey, it's not like arts and crafts are lesser..." I mean, first of all, that term makes it sound like it's something that children do in their free time at school, or something... But unfortunate that there's this divide between hard and soft, just in our heads, that is like leftover baggage from, I would say, the past, but maybe even the present. And I do think that words matter, and I think human skills is a better way of framing it, and one that I've adopted just from talking with you. I used to call them soft skills, and I know what that means to me, and I don't think it's a bad thing to be a soft skill... But I think that a human skill tells a better story.
 
@@ -246,7 +246,7 @@ I had this idea of wanting to not just do another long-form interview podcast, b
 
 **Adam Stacoviak:** ChatGPT gave me a definitive answer... It actually broke it down into definition, examples, and assessment for each. I won't bore you with all the details, but do that on your own. I just said "What is the meaning of soft and hard skills?" and got back what I got back... But basically, it seems like teachable abilities; things you have to go to school for, formal education, a foreign language... Things that seem to take rigorous training and on-the-job experience; things that you have to seemingly intentionally do. That's what it seems to me. And then the soft skills are less tangible. Basically, it's fungible, it's blurred. You're not really sure how to define those, and so they just end up being soft.
 
-**Jerod Santo:** \[00:17:56.25\] Right. That's the everything else.
+**Jerod Santo:** \[17:56\] Right. That's the everything else.
 
 **Adam Stacoviak:** Yeah.
 
@@ -268,7 +268,7 @@ One really tiny example, that I love because it is so tiny and concrete - in Eng
 
 **Adam Stacoviak:** For sure. Yeah. We talked about mindset a lot, too. There's a certain -- you have a superpower in your choice. So your choice is your individual superpower, and your choice to change your phraseology, so to speak, whenever you speak to people, is part of that superpower you have. Mindset I think is a big thing. It brings to mind Jocko Willink's thing where he says "Good." So if you have a bad thing happen to you, he's like, rather than think about the negative of it, he says, "You broke your leg? Good. What's the positive from that?" I'm paraphrasing his bigger thing, but you know... You've got to run two miles? Good.
 
-\[00:21:53.06\]
+\[21:53\]
 
 **Jocko Willink:** *One of my direct subordinates, one of my guys that worked for me, he would call me up or pull me aside with some major problem, some issue that was going on... And he'd say "Boss, we've got this, and that, and the other thing..." And I'd look at him and I'd say "Good." And finally, one day he was telling me about some issue that he was having, some problem, and he said "I already know what you're gonna say." And I said "Well, what am I gonna say?" He said "You're gonna say "Good." He said, "That's what you always say. When something is wrong, and going bad, you always just look at me and say "Good." And I said, "Well, yeah." When things are going bad, there's going to be some good that's going to come from it. Didn't get the new high-speed gear we wanted? Good. Didn't get promoted. Good. More time to get better. Oh, mission got cancelled? Good. We can focus on another one. Didn't get funded. Didn't get the job you waned. Got injured. Sprained my ankle. Got tapped out good. Good. Got beat? Good. \[unintelligible 00:23:02.13\] Unexpected problems? Good. We have the opportunity to figure out a solution.*
 
@@ -286,7 +286,7 @@ One really tiny example, that I love because it is so tiny and concrete - in Eng
 
 **Kevin Ball:** Yeah. No, it's a great question, and it's one that I've asked myself, because if I'm honest, the audience for this has stayed pretty small. I find myself getting a tremendous amount of value out of these conversations. And so in some ways, the thing that has kept me going is every time I have one of these, I learn something that I then can go apply in my work. And I've had other people tell me, "Oh my gosh, I learned so much from that." I have maybe 100 subscribers on YouTube right now... Like, it's tiny; a little more than that on Substack. But you know, in the podcasting world you don't get much feedback.
 
-\[00:26:04.13\] With 100 people I've hardly had ten of them independently say "Oh my gosh, I've gotten so much value from this. Thank you for doing this." 10% of people giving feedback on something like that - I mean, early audiences are more passionate, but also it's creating value for those folks. So long as it's creating value for me, I want to keep going forward.
+\[26:04\] With 100 people I've hardly had ten of them independently say "Oh my gosh, I've gotten so much value from this. Thank you for doing this." 10% of people giving feedback on something like that - I mean, early audiences are more passionate, but also it's creating value for those folks. So long as it's creating value for me, I want to keep going forward.
 
 I think there is a question in my head of like "How big is the audience for this type of stuff?" Is the audience small right now because it's undiscovered? Or is it small because actually most people don't care? I don't know the answer, but I am continuing to publish interviews every week. Caveat - I skipped this week, because my wife is traveling, I'm single-parenting, and editing is a lot of freaking time. I didn't realize how much time y'all saved me editing JS Party... Man, it's a lot. And so I've got a backlog of things that I just need to get to editing, and I haven't had time... But anyway, that's a long about understanding of -- I mean, and some of this comes to "Why do I keep doing JS Party?" Some of it is because other people like it, but also, I get a lot of value out of every conversation that we have. It helps me think; it helps me shape my thinking and it helps me learn about stuff that I wouldn't otherwise have the opportunity to learn.
 
@@ -304,7 +304,7 @@ I think there is a question in my head of like "How big is the audience for this
 
 **Jerod Santo:** Amen to that.
 
-**Break:** \[00:28:02.14\]
+**Break:** \[28:02\]
 
 **Adam Stacoviak:** I wonder if it's a packaging thing. This is, I think - Jerod, it's something that you can help me with here too, is that in a lot of cases the idea is the thing, but it's how you package it and share it with the world is the whole other thing. We have long-form content through some brain power of Jerod primarily, clips form in the world and they go out on YouTube, and Twitter, and other places, and in some cases not even a show that he's on or I'm on. It's Practical AI and you've got this person on that speaks of patenting, or trademarking, a billion whatevers, and with music... That whole one, Jerod - it's blown up; that clip was less than two minutes, on Practical AI. It was about -- tell the story, Jerod, with this one, because I'm butchering the specifics... But it was -- it blew up. It transcended our audience and went to mainstream, and many places. It was on Reddit, it was on TikTok, it was on Instagram, and a lot of places where there's commenting back and forth about this subject matter... And I think packaging is a big part of helping your content live. It's how do you package it, how do you deliver it to the world... And because we don't have a lot of time, when we're first beginning to learn how to create content and deliver it and edit it and package it, we sort of take some perceived easy roads, because we don't want to build the infrastructure for it, or whatever it might be... But the way people want to consume it might be a whole different way. Like, if you did the same content in a different package, would it transcend the 100 on YouTube, or several hundred on Substack, is the rough thing I'm trying to say. But sure the story, Jerod. What's that gigantic piece of Practical AI content that just blew up? What was that?
 
@@ -316,7 +316,7 @@ He tells it much better than I do, he tells it in 60 seconds, with a nice rhythm
 
 **Jerod Santo:** And he told it in a way that has a twist ending... Because this entire time you're thinking this guy's an evil villain, because he's a lawyer who copyrighted a bunch of stuff, and you're thinking "And then he sued everybody into oblivion." Because that's what lawyers do. And no, he took it all and put it in the public domain.
 
-\[00:36:02.24\] And so the last minute you have a reveal... Which was very compelling, and made everybody want to share that, because their mind was blown. Plus, certain people in the comments didn't listen to the whole thing, so they still think he's a villain, and then they were getting arguments in the comments about "You didn't actually even watch the whole clip, you didn't pay attention", blah, blah...
+\[36:02\] And so the last minute you have a reveal... Which was very compelling, and made everybody want to share that, because their mind was blown. Plus, certain people in the comments didn't listen to the whole thing, so they still think he's a villain, and then they were getting arguments in the comments about "You didn't actually even watch the whole clip, you didn't pay attention", blah, blah...
 
 **Kevin Ball:** Which of course then surfaces it to more people, because controversy is how you make things go...
 
@@ -344,7 +344,7 @@ I think you're right, Adam, about packaging. And right now, I frankly don't have
 
 **Kevin Ball:** Yeah, no, absolutely.
 
-**Jerod Santo:** \[00:39:55.24\] So the people that do tell you, it means that you've actually -- there's a few different kinds of people, of course. Some people just tend to be more communicative on the internet, and so they're the kind of person who will email you. But then there's also the fact that you helped them enough that they felt compelled to email you. And that's depth of impact. So if you can get both breadth and depth going, now you have a hit. But if you have one or the other, I guess I personally would take depth over breadth myself... Even though numbers games appeal to our dopamine things; you guys can probably help me with the brain science on that. But that could keep you going until you just slow and steady build up a base. I mean, that's what we have done. We've never had a viral moment with the Changelog. I think the very first time we had the React team on the Changelog, years and years ago, I think that show did probably outperform like double the shows around it. It was a very successful episode. But not like you see with YouTube, TikTok, Instagram kind of virality. Podcasts just don't do that, unless you have an existing audience. MKBHD - millions of followers on YouTube; starts a podcast - he immediately has a huge reach on his podcast. That one went viral, so to speak, because that's just him extending his reach.
+**Jerod Santo:** \[39:55\] So the people that do tell you, it means that you've actually -- there's a few different kinds of people, of course. Some people just tend to be more communicative on the internet, and so they're the kind of person who will email you. But then there's also the fact that you helped them enough that they felt compelled to email you. And that's depth of impact. So if you can get both breadth and depth going, now you have a hit. But if you have one or the other, I guess I personally would take depth over breadth myself... Even though numbers games appeal to our dopamine things; you guys can probably help me with the brain science on that. But that could keep you going until you just slow and steady build up a base. I mean, that's what we have done. We've never had a viral moment with the Changelog. I think the very first time we had the React team on the Changelog, years and years ago, I think that show did probably outperform like double the shows around it. It was a very successful episode. But not like you see with YouTube, TikTok, Instagram kind of virality. Podcasts just don't do that, unless you have an existing audience. MKBHD - millions of followers on YouTube; starts a podcast - he immediately has a huge reach on his podcast. That one went viral, so to speak, because that's just him extending his reach.
 
 **Kevin Ball:** Yeah, you can do the cross-channel thing. Absolutely.
 
@@ -372,7 +372,7 @@ I think you're right, Adam, about packaging. And right now, I frankly don't have
 
 **Kevin Ball:** Swyx is an interesting guy, as you all know. He's seeing a lot of success right now in the AI space. But I think of him as somebody who's extremely productive, right? He gets so much stuff done; he's always executing. So I asked him about that, and his reaction was "Everyone asked about productivity systems, and we can talk about that. But productivity is for people who don't have leverage. So let's talk about leverage."
 
-\[00:44:12.14\] And first off, that switch of "Here's somebody that I perceive as extremely productive, and he tells me "You know what - productivity is not the right thing to be optimizing for. You may see me as productive. I don't see myself as that productive, but I'm productive on the right things." And so that was a brain switch.
+\[44:12\] And first off, that switch of "Here's somebody that I perceive as extremely productive, and he tells me "You know what - productivity is not the right thing to be optimizing for. You may see me as productive. I don't see myself as that productive, but I'm productive on the right things." And so that was a brain switch.
 
 And then we talked about what are the things that can create leverage for you as an individual; like how do you do personal leverage. And one thing that he was talking about is he said "Code and content both give you tremendous leverage, because those are things that you do once, and they can be shared, and they can do all these different things." So they have abnormal power in terms of leverage. His highlight, he says "They're permissionless." You don't need somebody else's permission to write code or to write content, as compared to forms of financial leverage or other different things you might do, where you have to bring other people along. So I thought that was interesting.
 
@@ -402,7 +402,7 @@ So if you have your viral episode of, in this case, the brute-forcing mechanism 
 
 Another place that came up in that conversation is thinking about where in an organization do you want to work? Different code in different parts of the organization have different amounts of leverage. One could think about this a little bit in terms of "Are you writing a feature or are you writing a library?" As you see people moving up in their careers, often they're writing tools for other developers to increase their impact, increase their leverage, things like that. You can also look at what is valued within the organization you're in, and make sure you're working on things that you will see value from, because the organization perceives their value.
 
-**Jerod Santo:** \[00:48:08.23\] So that's like front office versus back office kind of distinction, where the people who are generating the revenue, their perceived value is higher than the people who are reducing the costs, right? The two levers that software can pull in any organization is increase revenue, reduce costs.
+**Jerod Santo:** \[48:08\] So that's like front office versus back office kind of distinction, where the people who are generating the revenue, their perceived value is higher than the people who are reducing the costs, right? The two levers that software can pull in any organization is increase revenue, reduce costs.
 
 **Kevin Ball:** Yup.
 
@@ -454,7 +454,7 @@ So that's one domain we could talk about... I've gotten a lot of value from inte
 
 **Jerod Santo:** That episode called "The ORMazing show."
 
-**Kevin Ball:** \[00:51:53.16\] And it was ORMazing. And it was great. We dove really deep into some of the cool stuff they do with that ORM, and it is awesome. And there's some things around sort of speed and paralyzation and the ability to do things that are really, really cool. It works async out of the box in a way that Active Record doesn't. However, as a developer, where I don't need all those optimizations, and I'm just purely optimizing for productivity, and having all these different things, it's not quite as easy.
+**Kevin Ball:** \[51:53\] And it was ORMazing. And it was great. We dove really deep into some of the cool stuff they do with that ORM, and it is awesome. And there's some things around sort of speed and paralyzation and the ability to do things that are really, really cool. It works async out of the box in a way that Active Record doesn't. However, as a developer, where I don't need all those optimizations, and I'm just purely optimizing for productivity, and having all these different things, it's not quite as easy.
 
 **Jerod Santo:** Fair enough. Well, we were trying to drive towards more human skills. You were talking about some of the stuff that you're working on... I'm curious if you picked up anything on communication, because I think it was our episode with Kris Brandow recently, Adam, where we talked about the difficulty of engineers - I won't to say explaining themselves, but really advocating for their positions and their decisions. Specifically, he was talking about how to justify a refactor, or the difficulty of talking about technical debt when you are trying to define things in like numerical terms... And I think I said to him "Communicating is hard", and I was about to qualify it, and I just stopped, because I realized that's just a true sentence.
 
@@ -472,7 +472,7 @@ So maybe they care about revenue and customer renewals, and you can say "Hey, ou
 
 And over time, you can build up kind of categories that will be less perfect than if you know this person in particular, but you can know "Okay, people who work in Customer Success usually care about this set of things. People who work in sales usually care about this other set of things." And so you can kind of use that as a proxy if you don't have that pre-existing relationship. But to get that, you still need to build relationships with individuals in those positions.
 
-**Break**: \[00:56:53.19\]
+**Break**: \[56:53\]
 
 **Adam Stacoviak:** Adam, you convince people of things all the time. How do you do it?
 
