@@ -62,7 +62,7 @@ There has been many phases in this project; the early stages, and then the recen
 
 **Jerod Santo:** That's really cool. I thought it was simpler than that. That sounds hard... I'm sure you've worked on it over time and have improved it over time. I guess it's probably a huge data win too, because you're hosting these things at the end of the day. What does my computer upload in order to host that? Is it just the set of whatever I sent the STDOUT, like you were saying? It's probably just minuscule in comparison to if I recorded my screen for 30 seconds, or 60 seconds, and sent that to you.
 
-**Marcin Kulik:** Exactly. The file format the recorder uses is called asciicast, which is a JASON-based text format, which you can just open and read. Current version of the recorder uses \[unintelligible 00:15:24.25\] delimited format, where you have like a JSON document on every line. And those are small JSON documents. Calling them documents is not the right thing here. But it's like a kind of readable format. It's documented in the asciinema repository. So you can write your own recorder, you can write your own player, and then you can deal with those asciicast recordings.
+**Marcin Kulik:** Exactly. The file format the recorder uses is called asciicast, which is a JSON-based text format, which you can just open and read. Current version of the recorder uses asciicast format version 2, which is like a JSON LD, well the JSON new line delimited format, where you have like a JSON document on every line. And those are small JSON documents. Calling them documents is not the right thing here. But it's like a kind of readable format. It's documented in the asciinema repository. So you can write your own recorder, you can write your own player, and then you can deal with those asciicast recordings.
 
 \[16:02\] So how the recorder works is when you start asciinema recorder in your shell, it creates a thing called pseudoterminal. Unix systems have this capability, PTI, pseudoterminal, which creates an imitation of a terminal for the program which runs in it. So asciinema recorder creates pseudoterminal, inside of which it launches your shell again, and that shell gets recorded. And whatever you type in it gets recorded. So by being in control of this pseudoterminal, the recorder can intercept all the output that goes from your programs inside the terminal, as well as all the inputs, which is the keystrokes. But that's off by default. So you can actually capture keystrokes, and these would be also included in the asciicasts file.
 
@@ -162,7 +162,7 @@ So another control for making videos more pleasant is something called idle time
 
 **Marcin Kulik:** It's my favorite.
 
-**Adam Stacoviak:** \[27:59\] I like \[unintelligible 00:27:58.14\] I'm not a hater. Just my preference is JetBrains Mono.
+**Adam Stacoviak:** \[27:59\] I like Fira Code too, I'm not a hater. Just my preference is JetBrains Mono.
 
 **Jerod Santo:** I'm a longtime Ubuntu Mono user, but no love lost...
 
@@ -272,7 +272,7 @@ So in that blog post, Blast From the Past, I show how you can write a custom par
 
 **Adam Stacoviak:** What about things like embedding and whatnot? How do people use this as a true tool to -- I mean, I'm just on the Explore tab, and it begs for categorization, tagging of sorts... Like, can I just hang out in Elixir for a bit, and just see people do things in Elixir? I don't know, write some Elixir, or something like that. Or things where you're setting up particular things with spinning up an Ubuntu server, or something like that. Configuring Kubernetes, or whatever it might be. Things that are generally challenging to showcase, but asciinema offers all the flexibility in everything it does. What about things like that? If I did that, then being able to embed it in my blog - how does the user use this beyond the website, or beyond hosting their own player?
 
-**Marcin Kulik:** Yeah, sure. So there are a few options there. One option is if you record and upload to asciinema.org, you can just click on those -- there are two links on the recording page. One is Download and the other is Share. And if you click on the Share one, you have a few options of how you can share it with people, including embedding it. So you can just place JS snippets inside your HTML, which creates an embedded player inside an iFrame on your site. It's still hosted on asciinema.org \[unintelligible 00:45:54.26\] from there, but you can have it just by pasting a JS snippet. That's one option.
+**Marcin Kulik:** Yeah, sure. So there are a few options there. One option is if you record and upload to asciinema.org, you can just click on those -- there are two links on the recording page. One is Download and the other is Share. And if you click on the Share one, you have a few options of how you can share it with people, including embedding it. So you can just place JS snippets inside your HTML, which creates an embedded player inside an iFrame on your site. It's still hosted on asciinema.org but inserted from there, but you can have it just by pasting a JS snippet. That's one option.
 
 Another option is you can self-host the player. So you can use the player on your own site, and if you have a recording on your computer, you can just use it there. But also, you can download the asciicast file from asciinema.org, and include it in the assets of your own website, and use the player there. So that's how you can embed it.
 
@@ -318,7 +318,7 @@ There's also ability to -- so you can also have a link to the recording, which i
 
 **Marcin Kulik:** You can try Brew.
 
-**Jerod Santo:** \[unintelligible 00:49:35.11\] Brew install AGG. Let's see what happens.
+**Jerod Santo:** Let me give it a shot. Brew install AGG. Let's see what happens.
 
 **Marcin Kulik:** Yeah. Well, I had this funny relationship with GIF generation, actually, since GIF is a very inefficient format for video.
 
@@ -418,7 +418,7 @@ It's kind of resource-intensive, and with Rust it works smooth and fine, but the
 
 **Adam Stacoviak:** Yeah. I'm actually seeing the details here now for a configuration file too, because - I guess this might be a Mac-only thing, I don't know. I guess you always have a home directory and a .config folder... And asciinema/config is where you can like set API things, record things, STDIN, environment file variables, and stuff like that. A lot of configuration here.
 
-I see a lot of possibility with this. I mean, I want to be encouraging, because we're grilling you on how it works... Less to be like "Here's all the \[unintelligible 01:02:31.25\] that you have to go and leave this podcast and be like "Man, these guys gave me a to-do list."
+I see a lot of possibility with this. I mean, I want to be encouraging, because we're grilling you on how it works... Less to be like "Here's all the warts that you have to go and leave this podcast" and be like "Man, these guys gave me a to-do list."
 
 **Jerod Santo:** He's gonna work on his audio support when he leaves here.
 
@@ -480,15 +480,15 @@ I see a lot of possibility with this. I mean, I want to be encouraging, because 
 
 **Marcin Kulik:** Possibly not.
 
-**Adam Stacoviak:** Oh, like \[unintelligible 01:07:03.11\] that like generates from just typing the prompt itself, the command itself?
+**Adam Stacoviak:** Oh, like the man that like generates from just typing the prompt itself, the command itself?
 
 **Jerod Santo:** Yeah. Like, you just type agg with nothing and it says "The following required arguments were not provided: input file name, output file name, usage, options, input file name, output file name." Right there it could say "Input file name or asciinema URL."
 
 **Marcin Kulik:** Yeah.
 
-**Jerod Santo:** You know what I'm saying? And agg--help might say it...
+**Jerod Santo:** You know what I'm saying? And agg --help might say it...
 
-**Marcin Kulik:** This help message is generated by the library, for command line parsing. \[unintelligible 01:07:30.02\] library. But I'm sure there's a way to just modify it in some way.
+**Marcin Kulik:** This help message is generated by the library, for command line parsing. The Clap library. But I'm sure there's a way to just modify it in some way.
 
 **Jerod Santo:** Cool. I can code that up for you, Marcin. I can fix that help message for you.
 
