@@ -62,7 +62,7 @@
 
 **Matthew Sanabria:** ...all of their projects. They have a bunch of projects. And each of those teams kind of operates in autonomy, by themselves. They contribute to each other's codebase, they have shared libraries and stuff... But for the most part, TerraForm is TerraForm, Vault is Vault, Nomad is Nomad.
 
-\[00:07:56.09\] So from the TerraForm side, we were pretty shocked. And mind you, I was on TerraForm Enterprise, so our license and all that has never changed. TerraForm open source changed. So I wasn't on the TerraForm open source team. Maybe they knew in advance, but for me, on the TerraForm Enterprise team, we did not know in advance.
+\[07:56\] So from the TerraForm side, we were pretty shocked. And mind you, I was on TerraForm Enterprise, so our license and all that has never changed. TerraForm open source changed. So I wasn't on the TerraForm open source team. Maybe they knew in advance, but for me, on the TerraForm Enterprise team, we did not know in advance.
 
 **Adam Stacoviak:** I guess it kind of makes sense, to some degree, that enterprise doesn't need to know...
 
@@ -106,7 +106,7 @@ When you make software tools and products that are that impactful, you probably 
 
 **Matthew Sanabria:** We were about 10 engineers in like June. Then HashiCorp did a layoff in June; then we dropped to eight engineers. And then a few of our engineers went on maternity leave, and then I left... So when I left, we were five. So seven if you count the staff, but I don't count the staff engineers in that.
 
-**Jerod Santo:** \[00:11:55.24\] Yeah. So were your colleagues equally as shocked, were they also upset? What was the general vibe on your team?
+**Jerod Santo:** \[11:55\] Yeah. So were your colleagues equally as shocked, were they also upset? What was the general vibe on your team?
 
 **Matthew Sanabria:** Oh, some of them were pretty frustrated with it, some of them were like "I don't care. We're Enterprise, it doesn't really matter." That was kind of the vibe. Me, I was more so affected by it, because I was looking to transfer teams a year before that to an open source team, to specifically work on the open source product, and not the Enterprise product... And that team also had their license change. So for me, I was like "That sucks."
 
@@ -166,7 +166,7 @@ And it was interesting though, but there was one message there that was like -- 
 
 **Matthew Sanabria:** But that's the thing, right? Like, with my comment in the Slack that we were talking about, people were saying "Oh, the license is good. You just want HashiCorp to fail." It's like "No, I'm not mad about license. What I'm mad about is the lack of transparency." And that's kind of what got me. And then the company I'm going to, Cockroach, they have the same license. They're under the BSL license as well.
 
-**Adam Stacoviak:** \[00:16:19.29\] Yeah, I thought it was SSPL, but I'm probably wrong.
+**Adam Stacoviak:** \[16:19\] Yeah, I thought it was SSPL, but I'm probably wrong.
 
 **Matthew Sanabria:** I think it's BSL. I've gotta check, too.
 
@@ -238,7 +238,7 @@ And it was interesting though, but there was one message there that was like -- 
 
 **Jerod Santo:** So what do you think of their claim -- so one of the things that Josh Padnick said on the show was about the amount of effort dedicated to Terraform versus OpenTofu... And he stated, based on GitHub public activity on the repos, and who's actually working on it, a handful of people, and he was saying "We had 15--" I think they said 15 engineers at the time, I don't know, dedicating their full-time resources. Do you think that's a) accurate from your perspective, and then b) do you think that's going to really move the needle?
 
-**Matthew Sanabria:** \[00:20:06.04\] I think that's relatively accurate if you keep to -- if you just talk about TerraForm open source as itself... Because TerraForm is kind of a beast of a tool, right? You have the open source binary that is responsible for like the graphing and whatnot, and then you have the providers that actually communicate with the APIs. If you look at the open source part of the product, then yeah, there's probably just a handful of engineers working there. But then there's various little ecosystem teams, CLI experience teams, provider teams... And then the team - I air-quotes the team - of TerraForm expands beyond that. But realistically speaking, the major providers - you're already partnering with like AWS, Google, Azure, all that, for those providers, so you're kind of already sharing that bandwidth. But if you just focus on the core, I think they're correct. There's only about a handful of engineers that work on the core core.
+**Matthew Sanabria:** \[20:06\] I think that's relatively accurate if you keep to -- if you just talk about TerraForm open source as itself... Because TerraForm is kind of a beast of a tool, right? You have the open source binary that is responsible for like the graphing and whatnot, and then you have the providers that actually communicate with the APIs. If you look at the open source part of the product, then yeah, there's probably just a handful of engineers working there. But then there's various little ecosystem teams, CLI experience teams, provider teams... And then the team - I air-quotes the team - of TerraForm expands beyond that. But realistically speaking, the major providers - you're already partnering with like AWS, Google, Azure, all that, for those providers, so you're kind of already sharing that bandwidth. But if you just focus on the core, I think they're correct. There's only about a handful of engineers that work on the core core.
 
 So can OpenTofu pull it off with their 15 or so engineers? I don't see why not... Right? I think my worry with them is a lot of companies are coming together to work on OpenTofu, and maybe for now the companies have an alignment on where they're going. But will that always remain? Hard to say. What happens when conflict arises and one company wants to go one way and one wants to go the other way? What do they do?
 
@@ -276,7 +276,7 @@ So can OpenTofu pull it off with their 15 or so engineers? I don't see why not..
 
 **Adam Stacoviak:** Yeah. We call him a friend.
 
-**Matthew Sanabria:** \[00:23:55.23\] There you go. Perfect. Yeah, great, great people there. A couple former HashiCorp people that are there... I've talked to a few of them... They have a wonderful Discord, that if you are really interested in System Initiative, go join. They're wonderful people, they do everything out in the open as much as possible, and that's how I got involved. So I interviewed with them, didn't get that role, they went with someone else, because you know, startups... They're only like 14 people.
+**Matthew Sanabria:** \[23:55\] There you go. Perfect. Yeah, great, great people there. A couple former HashiCorp people that are there... I've talked to a few of them... They have a wonderful Discord, that if you are really interested in System Initiative, go join. They're wonderful people, they do everything out in the open as much as possible, and that's how I got involved. So I interviewed with them, didn't get that role, they went with someone else, because you know, startups... They're only like 14 people.
 
 **Jerod Santo:** Yeah, they're small.
 
@@ -324,7 +324,7 @@ Outside of that - obviously, they're still in very, very early release phase... 
 
 **Jerod Santo:** Amen.
 
-**Matthew Sanabria:** \[00:27:47.28\] That's what it is. So if they're using TypeScript, and I know how to use TypeScript to do what I need to do, why do I care so much? I'm using the thing. It's okay.
+**Matthew Sanabria:** \[27:47\] That's what it is. So if they're using TypeScript, and I know how to use TypeScript to do what I need to do, why do I care so much? I'm using the thing. It's okay.
 
 **Jerod Santo:** "I'm using the thing."
 
@@ -378,7 +378,7 @@ Outside of that - obviously, they're still in very, very early release phase... 
 
 **Matthew Sanabria:** That was fun.
 
-**Break**: \[00:30:33.25\]
+**Break**: \[30:33\]
 
 **Jerod Santo:** Alright, so Nithya Ruff, director of the OSPO at Amazon, is that right?
 
@@ -480,7 +480,7 @@ Outside of that - obviously, they're still in very, very early release phase... 
 
 **Nithya Ruffnithyaruff:** It's funny you say that, because every time I receive a package - and I order things constantly on Amazon - I always say "Oh, Jeff sent me something today." \[laughter\] My husband said "Who's Jeff?" I said "You know, the Jeff..."
 
-**Adam Stacoviak:** \[00:38:17.27\] So we're of the same mind then.
+**Adam Stacoviak:** \[38:17\] So we're of the same mind then.
 
 **Nithya Ruffnithyaruff:** Yes.
 
@@ -502,7 +502,7 @@ And we also play another role, which is work with foundations, open source commu
 
 **Nithya Ruffnithyaruff:** We do GitHub Sponsors... We support foundations like the OpenSSF, Apache Foundation, Linux Foundation, Project CNCF, that sort of thing. And we have lots of developers who are behind the scenes actually contributing to projects. It's never enough, because all of us consume a lot, so we have to keep working on that. And most businesses, not just Amazon, is challenged with business justification; why should I dedicate five engineers to doing this work? Because there's so many competing needs. Customer needs, and product development needs, and so on and so forth.
 
-\[00:41:52.06\] So we work hard as an OSPO and open source marketing team, who's downstairs at our booth, to work with businesses, to educate them on why they should be involved, why they should contribute back, what's the business case for setting aside people to do it... So those are the ways we help the business do more with open source. But we have to have a good business decision and argument, because businesses know business, and they need the return on investment or justification for why they should be involved.
+\[41:52\] So we work hard as an OSPO and open source marketing team, who's downstairs at our booth, to work with businesses, to educate them on why they should be involved, why they should contribute back, what's the business case for setting aside people to do it... So those are the ways we help the business do more with open source. But we have to have a good business decision and argument, because businesses know business, and they need the return on investment or justification for why they should be involved.
 
 **Jerod Santo:** What are some of the things that your OSPO does to enable these different business units to adopt open source, to maintain open source, to do more? What are the kinds of things that helps them get there?
 
@@ -544,7 +544,7 @@ A lot of times, teams don't want to do it, because they'll say "I don't want to 
 
 **Nithya Ruffnithyaruff:** It's funny you mentioned that... A lot of companies start their open source program office because they say "We can't have everybody go to our lawyers and ask questions." So if you have thousands of developers, all pinging them and saying "Can I use this license? Can I use this license? Can I contribute this? Can I release this?" It chews up a lot of valuable attorney time. So often, OSPOs kind of act as the front line, and we kind of act as the in-between developers and legal. And we handle a lot of the questions, and the issues, and the tickets.
 
-**Adam Stacoviak:** \[00:46:19.04\] It's funny it's called Open Source Programs Office when it's that, right? It's essentially the gateway to legal; the cheaper -- not just that, but the way you described it just now...
+**Adam Stacoviak:** \[46:19\] It's funny it's called Open Source Programs Office when it's that, right? It's essentially the gateway to legal; the cheaper -- not just that, but the way you described it just now...
 
 **Nithya Ruffnithyaruff:** It's one role, yeah.
 
@@ -564,7 +564,7 @@ The third is AI. What's the role of open source in AI? What are the different ar
 
 **Adam Stacoviak:** Yeah, it probably is.
 
-**Nithya Ruffnithyaruff:** \[00:50:11.18\] There's only a small group of people that --
+**Nithya Ruffnithyaruff:** \[50:11\] There's only a small group of people that --
 
 **Adam Stacoviak:** \[unintelligible 00:50:11.29\] that also like policy.
 
@@ -604,15 +604,15 @@ The third is AI. What's the role of open source in AI? What are the different ar
 
 **Jerod Santo:** Yeah, that sounds like a very challenging coordination.
 
-**Nithya Ruffnithyaruff:** \[00:53:55.02\] Yeah, it was, because I still had to work with all these different divisions, and understand that engagement with open source, and where they were, what their obstacles were, what were the commonality across these teams etc. I didn't own any resources, I didn't have a team; I was working with a CTO, and trying to help the company. But now I have a team, so it's so much nicer to be able to scale, and have really smart, smart people at Amazon, who help me get this work done.
+**Nithya Ruffnithyaruff:** \[53:55\] Yeah, it was, because I still had to work with all these different divisions, and understand that engagement with open source, and where they were, what their obstacles were, what were the commonality across these teams etc. I didn't own any resources, I didn't have a team; I was working with a CTO, and trying to help the company. But now I have a team, so it's so much nicer to be able to scale, and have really smart, smart people at Amazon, who help me get this work done.
 
-**Jerod Santo:** Yeah. Curious what your guidance is, coming back to Amazon... I'm an engineer at Amazon, I have a library that I've written, that facilitates something inside of our service... It's generic, I could open-source it; I come to whomever and say "Hey, I'd like to open source this." What is the guidance like? "You will do this, you will license it that way, it will be under this organization on GitHub, it will have this kind of a readme..."? I mean, do you guys step by step help people through this?
+**Jerod Santo:** Yeah. Curious what your guidance is, coming back to Amazon... I'm an engineer at Amazon, I have a library that I've written, that facilitates something inside of our service... It's generic, I could open source it; I come to whomever and say "Hey, I'd like to open source this." What is the guidance like? "You will do this, you will license it that way, it will be under this organization on GitHub, it will have this kind of a readme..."? I mean, do you guys step by step help people through this?
 
 **Nithya Ruffnithyaruff:** Yes, precisely.
 
 **Jerod Santo:** What does that guidance look like? What do you say?
 
-**Nithya Ruffnithyaruff:** They typically have to write a document. We are big doc writers at Amazon. So they have to write a doc to get approval from their business, their manager, and their business owner, that this is okay to open-source. And typically, their business line lawyer may be involved in approving that. And then once it's approved, they come to the open source program office, they help them go through security review of the code, they help them do something called -- it's an open source project called Repo Linter, which looks through your code and makes sure that you haven't got keys and proprietary information etc. So it sanitizes it.
+**Nithya Ruffnithyaruff:** They typically have to write a document. We are big doc writers at Amazon. So they have to write a doc to get approval from their business, their manager, and their business owner, that this is okay to open source. And typically, their business line lawyer may be involved in approving that. And then once it's approved, they come to the open source program office, they help them go through security review of the code, they help them do something called -- it's an open source project called Repo Linter, which looks through your code and makes sure that you haven't got keys and proprietary information etc. So it sanitizes it.
 
 We helped them attach an Apache 2.0 license, we make sure that they have a readme file, code of conduct etc. And then my I have a GitHub team also who administers our external GitHub - they help them cut a ticket to open a repo, put it in the right org... We have a samples org, we have a lab org, where all the lab papers are published... And so they'll put it in the right org, and they'll also monitor the org, making sure it has a proper maintainer, issues are not stale... That we are being good citizens on the project.
 
@@ -634,15 +634,15 @@ We helped them attach an Apache 2.0 license, we make sure that they have a readm
 
 **Adam Stacoviak:** It's a lot though still yet.
 
-**Nithya Ruffnithyaruff:** I think you have to be thoughtful if it's a full library and a full project, right? You need to be thoughtful about what's the right thing to do. And one of the right things to do is to resource it correctly if you're open-sourcing it, so that it can be maintained properly. Very often teams will be very enthusiastic about open-sourcing, but not commit to maintaining it.
+**Nithya Ruffnithyaruff:** I think you have to be thoughtful if it's a full library and a full project, right? You need to be thoughtful about what's the right thing to do. And one of the right things to do is to resource it correctly if you're open sourcing it, so that it can be maintained properly. Very often teams will be very enthusiastic about open sourcing, but not commit to maintaining it.
 
 **Adam Stacoviak:** Yeah, for sure.
 
 **Nithya Ruffnithyaruff:** And so we want to make sure that the business is fully behind it, and there is a good, sound reason why it's the right thing to do.
 
-**Adam Stacoviak:** It's like a liability in a way even too, right? A liability in the fact that you have to show up. It's one more thing to commit to; it's one more yes that you can't say no to later on. It's a liability in that sense that, from the business perspective, as Amazon, you have to say "Yeah, this makes sense, not just to open-source, but for us to open-source it."
+**Adam Stacoviak:** It's like a liability in a way even too, right? A liability in the fact that you have to show up. It's one more thing to commit to; it's one more yes that you can't say no to later on. It's a liability in that sense that, from the business perspective, as Amazon, you have to say "Yeah, this makes sense, not just to open source, but for us to open source it."
 
-**Nithya Ruffnithyaruff:** \[00:57:58.07\] Yes, yes. And you know, small little things that you want to release, like sample code, or something. We really don't do that much due diligence. But if it's a full-blown project, we've released Bottlerocket, and Firecracker, and Finch, and projects like that. We really want to make sure we do it right. We owe it to open source to do it right, and not just throw it over the wall.
+**Nithya Ruffnithyaruff:** \[57:58\] Yes, yes. And you know, small little things that you want to release, like sample code, or something. We really don't do that much due diligence. But if it's a full-blown project, we've released Bottlerocket, and Firecracker, and Finch, and projects like that. We really want to make sure we do it right. We owe it to open source to do it right, and not just throw it over the wall.
 
 **Adam Stacoviak:** Let's say there's a case where this library you've written, Jerod, is generic. It's useful to some, but y'all say "Well, it makes sense to be open source, but not from us." Do you allow that person to put an open source on their own, if they've written it on company time, or for company resources? Is there ever a time whenever it's like "It's not right for us, but it's okay for you."
 
@@ -696,7 +696,7 @@ We helped them attach an Apache 2.0 license, we make sure that they have a readm
 
 **Jerod Santo:** You are an open source maintainer at large, mostly through the JavaScript side of things... Tell us about yourself.
 
-**Jordan Harband:** Yeah. Let's see... So I maintain 400-450-some Npm packages, as well as Nvm. They account for like 5% to 10% of Npm's download traffic, which is terrifyingly high. I've been on TC-39, which is the JavaScript Standards Committee, since 2014. I was an editor of the spec for three years.
+**Jordan Harband:** Yeah. Let's see... So I maintain 400-450-some npm packages, as well as Nvm. They account for like 5% to 10% of npm's download traffic, which is terrifyingly high. I've been on TC-39, which is the JavaScript Standards Committee, since 2014. I was an editor of the spec for three years.
 
 **Jerod Santo:** Long time...
 
@@ -830,7 +830,7 @@ So Temporal is a proposal that was originally championed by the Moment.js mainta
 
 **Jordan Harband:** Absolutely.
 
-**Jerod Santo:** Thinking about your open source and your life and your lack of sleep... Are you able to make money off of this? Have you been -- I mean, because you're kind of crucial at this point to the Npm ecosystem as a human, it seems...
+**Jerod Santo:** Thinking about your open source and your life and your lack of sleep... Are you able to make money off of this? Have you been -- I mean, because you're kind of crucial at this point to the npm ecosystem as a human, it seems...
 
 **Jordan Harband:** Yeah, I mean, I would say that the amount I make off of my projects is -- I'm very grateful for it, and it's enough that if I were single and in my 20s, I could do it full-time. But I am not single, and I have kids, and I'm not in my 20s, and it just doesn't cover the bills. So I've done the math, and if my most lucrative package -- like, I look at my most lucrative package, and then I look at my most used package, and if I extrapolated all that out for all my packages, I would be able to do open source full-time. But at the moment, that's not the case. So I would definitely be very happy to see a world where all of the profitable corporations that are using people's open source packages, mine included, are able to contribute even a tiny fraction of their profit. At that point, I think it will become a much more viable world for open source maintainers.
 
@@ -1014,7 +1014,7 @@ I mean, there are specific tasks, large tasks that I have wanted to do for years
 
 **Adam Stacoviak:** You said earlier that you're in -- rephrase it for me. Something like you're in all software, or a large majority of software out there...
 
-**Jordan Harband:** I am in most, I think, JavaScript applications, even a little bit. Like, if you go and type \[unintelligible 01:22:32.17\] in almost any JavaScript application, my name will be in there. Not everyone. And it might be in there for one package, it might be in there for 50, but it's in there somewhere. And it might be an inconsequential piece, right? Like, I'm not trying to claim that I am an irreplaceable part of most Javascript -- or of even any JavaScript applications, right? It's just that I happen to be in there.
+**Jordan Harband:** I am in most, I think, JavaScript applications, even a little bit. Like, if you go and type \[unintelligible 01:22:32.17\] in almost any JavaScript application, my name will be in there. Not everyone. And it might be in there for one package, it might be in there for 50, but it's in there somewhere. And it might be an inconsequential piece, right? Like, I'm not trying to claim that I am an irreplaceable part of most JavaScript -- or of even any JavaScript applications, right? It's just that I happen to be in there.
 
 **Adam Stacoviak:** Yeah.
 
@@ -1026,7 +1026,7 @@ I mean, there are specific tasks, large tasks that I have wanted to do for years
 
 **Adam Stacoviak:** Have they spoken at all, Tidelift, about the way they distribute those funds, how they weight it?
 
-**Jordan Harband:** I don't know if they talked about the specific algorithm and how they weight it, but I'm sure they -- I mean, they've been doing it for a long time, and they have their Upstream conference... Last couple years, I was part of their keynote; this year, actually... Talking about how I took over packages when a former Npm author, a prolific author decided to kind of delete his GitHub and quit the ecosystem...
+**Jordan Harband:** I don't know if they talked about the specific algorithm and how they weight it, but I'm sure they -- I mean, they've been doing it for a long time, and they have their Upstream conference... Last couple years, I was part of their keynote; this year, actually... Talking about how I took over packages when a former npm author, a prolific author decided to kind of delete his GitHub and quit the ecosystem...
 
 **Jerod Santo:** I recall, yes.
 
@@ -1212,7 +1212,7 @@ Thanks.dev - I don't have to do anything to get it. So that's more of like a pat
 
 **Jordan Harband:** There should be more than -- there should be like a team of 20 people on that product, and I don't think there is. So a lot of things at GitHub seem to be understaffed at the moment.
 
-**Jerod Santo:** How about Npm? How is NPM looking?
+**Jerod Santo:** How about npm? How is npm looking?
 
 **Jordan Harband:** From my external view it seems wildly understaffed as well.
 
@@ -1226,7 +1226,7 @@ Thanks.dev - I don't have to do anything to get it. So that's more of like a pat
 
 **Adam Stacoviak:** Stop talking. I don't want to hear any more of this stuff. You're starting to scare me.
 
-**Jerod Santo:** Alright, well, let's shill your links now. GitHub Sponsors - how do they hit you up? What do we do? Github.com slash what?
+**Jerod Santo:** Alright, well, let's shill your links now. GitHub Sponsors - how do they hit you up? What do we do? github.com slash what?
 
 **Jordan Harband:** Ljharb. I'm that on everything.
 
