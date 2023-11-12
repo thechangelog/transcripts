@@ -34,7 +34,7 @@
 
 **Natalie Pistunovich:** Spooky, spooky jokes. So when did the crypto library join the standard libraries of Go? When, why? Was it there from the beginning?
 
-**Filippo Valsorda:** Yeah, very beginning. I think you can find it all the way back to when the tree was open-sourced, I think... And originally, they were mostly written by Adam Langley, who pretty much did with me what I did with Roland... \[laughs\]
+**Filippo Valsorda:** Yeah, very beginning. I think you can find it all the way back to when the tree was open sourced, I think... And originally, they were mostly written by Adam Langley, who pretty much did with me what I did with Roland... \[laughs\]
 
 **Natalie Pistunovich:** Blockchain all the way.
 
@@ -50,7 +50,7 @@ So from the beginning, the Go cryptography libraries are not about competing wit
 
 **Roland Shoemaker:** Yeah, I think that's something that has saved us from a lot of security vulnerabilities, is that we don't implement everything. There's a lot of things we have explicitly kind of said "You can go and implement this yourself, but we don't think this is necessary in the standard library." And that has meant that every time there has been a huge security disclosure about some custom curve parameters or something, we have not been affected, because we have explicitly made those decisions to just not implement it.
 
-**Filippo Valsorda:** \[00:06:17.17\] Yeah. And this is the part where we take the opportunity to apologize to everybody we said no to on the issue tracker... Because they're probably listening and being like "Yeah, tell me what's new, because my thing didn't make it..."
+**Filippo Valsorda:** \[06:17\] Yeah. And this is the part where we take the opportunity to apologize to everybody we said no to on the issue tracker... Because they're probably listening and being like "Yeah, tell me what's new, because my thing didn't make it..."
 
 \[laughter\]
 
@@ -78,7 +78,7 @@ So from the beginning, the Go cryptography libraries are not about competing wit
 
 **Filippo Valsorda:** And the same was used in the ECDSA implementation... It was a little bit all over the standard library, because we in cryptography often need to do things with big numbers. And it's tempting to say "Oh, great, I will use this library that's called Big Numbers." And then you regret it, because libraries that are not designed to be secure will optimize for things like feature-completeness, or performance, and will end up having 2,000 lines of code that have code paths that might be reachable by attackers, but not really looked at, because they are only used if the number is a specific module, or value module, something else, some very edge case, or something like that.
 
-\[00:09:35.26\] So the result is that math/big was really not a robust basis for cryptography. So I set out to move math/big out of the security perimeter. The goal was even if there's a bug in math/big - okay, it's a bug. It's not immediately a vulnerability. So that meant producing a new bigint implementation that was specifically about cryptography, which we call bigmod, and that's started as an external contribution, and was rewritten almost entirely over to make it even smaller... And I think it worked out to 400 lines of code, something like that, down from the thousands of lines of math/big... And we used that to replace the backend of RSA, half the backend of the elliptic curve implementations, and so far, so good. You know, last famous words... Roland maybe even has --
+\[09:35\] So the result is that math/big was really not a robust basis for cryptography. So I set out to move math/big out of the security perimeter. The goal was even if there's a bug in math/big - okay, it's a bug. It's not immediately a vulnerability. So that meant producing a new bigint implementation that was specifically about cryptography, which we call bigmod, and that's started as an external contribution, and was rewritten almost entirely over to make it even smaller... And I think it worked out to 400 lines of code, something like that, down from the thousands of lines of math/big... And we used that to replace the backend of RSA, half the backend of the elliptic curve implementations, and so far, so good. You know, last famous words... Roland maybe even has --
 
 **Natalie Pistunovich:** Spooky, spooky theme... I didn't find any spooky tunes that are a transition for it.
 
@@ -106,7 +106,7 @@ So from the beginning, the Go cryptography libraries are not about competing wit
 
 **Filippo Valsorda:** Yeah, exactly. For example here, the lesson is to not expose low-level concepts in the API... Because before -- so an elliptic curve point is a coordinate, X and Y; it's a point, to make this simple. And the current API just take some bytes that are an encoding, and if the bytes are wrong, we can check and tell you. The old API actually took numbers for x and y. So what happens if the x is too big? What happens if x is negative? It's not supposed to go negative. What happens if you pass in a negative number? The answers were not pretty. The answers are actually in the CVE database, in the list of vulnerabilities. \[laughs\] So the new API - you just can't pass in a negative number, because you can only pass in a bunch of bytes, and we decide what they are, and if they're valid or not... And there's no way for you to forget to validate something, because when you pass in the bytes, we validate them, because almost surely you didn't mean for us to skip the validation. The old API didn't let us do it in-line.
 
-\[00:13:55.21\] So yeah, a lot of this rewriting was deprecating the old elliptic curve API, and designing the new one, writing new backends, just like with the RSA one... So everything is constant time, it uses better formulas, it uses generics... And it uses some formally verified code generator for the hardest parts, where there's a computer that actually knows how to count, unlike most cryptographers, and produces the code to do the arithmetic correctly, automatically. And that's machine-checked, and that's great, because every library introduces bugs in the \[unintelligible 00:14:30.22\] carry the one situations of arithmetic... So yeah, that's an exciting new thing that we're adding. But Roland said something about the fact that we can never change things. And I feel like that brings us to the next thing...
+\[13:55\] So yeah, a lot of this rewriting was deprecating the old elliptic curve API, and designing the new one, writing new backends, just like with the RSA one... So everything is constant time, it uses better formulas, it uses generics... And it uses some formally verified code generator for the hardest parts, where there's a computer that actually knows how to count, unlike most cryptographers, and produces the code to do the arithmetic correctly, automatically. And that's machine-checked, and that's great, because every library introduces bugs in the \[unintelligible 00:14:30.22\] carry the one situations of arithmetic... So yeah, that's an exciting new thing that we're adding. But Roland said something about the fact that we can never change things. And I feel like that brings us to the next thing...
 
 **Natalie Pistunovich:** Before we go to the next thing, I want to say that I googled what ECDH stands for, and same as many things in security, it's just names of people. So it's Elliptic Curve Diffie–Hellman. Difffie I know it's Whitfield Diffie, but Hellman I don't know that person; the first name.
 
@@ -148,7 +148,7 @@ So from the beginning, the Go cryptography libraries are not about competing wit
 
 **Natalie Pistunovich:** Another reason for Go surviving the AI revolution.
 
-**Roland Shoemaker:** \[00:18:14.19\] Yeah. I think it's one of the greatest properties of the language. The problem is sometimes you make the wrong decision, and you end up with an API that is unfortunately bad in some way. The double-edged sword of the compatibility guarantee is that we cannot fix a lot of these problems. The security team, technically, is the only part of the Go team that has the right to break things. We have the escape valves sometimes, but we try and use that as sparingly as possible. But for things like the elliptic curve API - in theory we could have designed a better elliptic curve API, but there's too many things that rely on the old implementation, and the ability to basically do whatever you want, for better or worse.
+**Roland Shoemaker:** \[18:14\] Yeah. I think it's one of the greatest properties of the language. The problem is sometimes you make the wrong decision, and you end up with an API that is unfortunately bad in some way. The double-edged sword of the compatibility guarantee is that we cannot fix a lot of these problems. The security team, technically, is the only part of the Go team that has the right to break things. We have the escape valves sometimes, but we try and use that as sparingly as possible. But for things like the elliptic curve API - in theory we could have designed a better elliptic curve API, but there's too many things that rely on the old implementation, and the ability to basically do whatever you want, for better or worse.
 
 So a lot of the time, we kind of have to see what we can do behind the scenes to try and fix things as much as we can, while leaving the old implementation basically as -- make the change as invisible to the user as possible, which I think is harder for us, but makes the lives of users significantly better. You know, the RSA backend change is a great example of this. There should be zero -- the user should see nothing changed at all, except for maybe performance.
 
@@ -174,7 +174,7 @@ So a lot of the time, we kind of have to see what we can do behind the scenes to
 
 **Roland Shoemaker:** An example of this would be the OpenPGP package. There are known issues in the OpenPGP package, and minor security issues, but they're the kinds of things that cannot really be fixed without breaking the API; it is like an inherent problem with either the design of the OpenPGP package or the design of OpenPGP in general. So there's not much we could do there. And in those cases we've taken our hands off that package.
 
-\[00:22:07.03\] And there is an open source maintained alternative, which is another reason -- when there are publicly-known workarounds that a user can apply themselves, such as using a different package, or holding an API in a slightly different way, it does mean that -- it lets us reconsider whether we need to be the people fixing the problem.
+\[22:07\] And there is an open source maintained alternative, which is another reason -- when there are publicly-known workarounds that a user can apply themselves, such as using a different package, or holding an API in a slightly different way, it does mean that -- it lets us reconsider whether we need to be the people fixing the problem.
 
 **Filippo Valsorda:** However, there are times when we just can't do without visible changes. And those are, for example, the default changes of... As time goes on, and protocols advance, and hashes get broken - which is less of a thing now; it's been 5 years since a hash has been weakened significantly...
 
@@ -200,7 +200,7 @@ So a lot of the time, we kind of have to see what we can do behind the scenes to
 
 **Filippo Valsorda:** Yeah. Which, by the way, is a terrible name for this mechanism, but is a historical artifact. There was already a godebug environment variable; it's the one you use to say "Hey, I want to know about the garbage collector pauses", or things like that. So we just kind of piggybacked on that, to be like "Oh, if you want to turn SHA1 back on, you can do it --"
 
-**Roland Shoemaker:** \[00:26:15.10\] Yeah... It was already there...
+**Roland Shoemaker:** \[26:15\] Yeah... It was already there...
 
 **Filippo Valsorda:** Yeah... \[laughs\]
 
@@ -226,7 +226,7 @@ So a lot of the time, we kind of have to see what we can do behind the scenes to
 
 **Natalie Pistunovich:** Can you just elaborate about the two? That is such a -- I was like "Are they saying things to see if I'm following?"
 
-**Filippo Valsorda:** \[00:30:00.11\] So they are two very different attacks. The Bleichenbacher 98 attack, which is -- Bleichenbacher is just the name of a cryptographer.
+**Filippo Valsorda:** \[30:00\] So they are two very different attacks. The Bleichenbacher 98 attack, which is -- Bleichenbacher is just the name of a cryptographer.
 
 **Natalie Pistunovich:** As it is common in the field...
 
@@ -254,7 +254,7 @@ So a lot of the time, we kind of have to see what we can do behind the scenes to
 
 **Roland Shoemaker:** Making better decisions than professional cryptographers at the time, so... \[laughter\]
 
-**Filippo Valsorda:** \[00:34:00.28\] I've got nothing nice to say. \[laughs\] So yeah, godebugs allow us to make changes like turning off these RSA ciphers that allow the attacker to mount the Bleichenbacher 98 attacks, and turning off TLS 1.0 and so on, while giving people a way to escape.
+**Filippo Valsorda:** \[34:00\] I've got nothing nice to say. \[laughs\] So yeah, godebugs allow us to make changes like turning off these RSA ciphers that allow the attacker to mount the Bleichenbacher 98 attacks, and turning off TLS 1.0 and so on, while giving people a way to escape.
 
 Also, I don't know, Roland, if you want to explain how they relate to Go versions, and the new backwards-compatibility policy... You were explaining it to me earlier.
 
@@ -276,7 +276,7 @@ Also, I don't know, Roland, if you want to explain how they relate to Go version
 
 **Roland Shoemaker:** \[laughs\] No, they're all bad. Well, some of them are better than others.
 
-**Filippo Valsorda:** \[00:38:08.09\] Fair.
+**Filippo Valsorda:** \[38:08\] Fair.
 
 **Roland Shoemaker:** But this has been a problem for a long time, especially for people who use Docker... Because if you build a very lightweight Docker image, often you will not end up with a root store. And when you try and write a Go program, and you drop it into your Docker image, your lightweight Docker image, and then you try and connect to a web server that uses TLS, all of a sudden you're getting all these failures, and it's kind of confusing why. So in 1.21 I think we added a new API that allowed you to register a default set of root certificates to trust. So if you don't get anything from the system, you will get this special extra bundle of certificates that you will fall back on. And this has, I think, solved a problem for a lot of people, but maybe introduced new problems for us, in that we now have to also provide a bundle of certificates... Which we have done as a separate module in the golang.org X crypto module. It's a special sub-module, which provides the Mozilla bundle of certificates.
 
@@ -310,7 +310,7 @@ Also, I don't know, Roland, if you want to explain how they relate to Go version
 
 **Roland Shoemaker:** Yeah. I think a good thing to follow on from the Go debug discussion would be - you know, we try and keep everything as compatible as possible; we have this great way to introduce behavior that may be breaking, but I think there's also a discussion about what we want to do in the future, where there are APIs we cannot change. They are what they are, and in those cases our only real option is to introduce a completely new package. And this has been done very sparingly in the standard library thus far, but I think it is probably -- the world has changed a lot since not just the crypto tree was written, but a lot of the packages in the standard library were written. And we're kind of looking at this point to what does not a Go 2, but a v2 of certain packages in the standard library look like. And the first big one that this has happened for is the math/rand package. I don't know if you want to talk about that as well, Filippo...
 
-**Filippo Valsorda:** \[00:42:13.25\] Yeah, so math/rand is one of the things that ended up on every presentation about Go footguns, because there's crypto/rand, which is good, and there's math/rand, which is bad. And they are both called rand, and they both have a read method. So you might be excused for using rand.read to generate your session ticket keys, and then find out that actually, you are importing math/rand in that file, and so you ended up using math/rand to generate keys, which - why is it bad? It's bad because it's completely predictable. And I'm not just saying it has a bad seed, or anything like that. I'm saying if I look at a few of the outputs, I can predict the future ones. There is no secure way to use math/rand up to now. But math/rand is getting a v2, and the v2 critically doesn't have a read method, so it can't be mistakenly used as easily in place of crypto/rand. And it's switching its default, and this is -- I think here I can only claim credit for lobbying for this, but Russ Cox then went and did all of the actual implementation... But I think I convinced Russ to make the default ChaCha8, which is this reduced round version of the ChaCha20 thing that you used in TLS sometimes; it's a cryptographic cipher, so it's actually secure, and it's almost as fast as the non-secure fast thing. So it will default to that, so that if by mistake you use math/rand, you'll actually not have done that much damage. It will probably still be secure. And I am so happy about that... And we're getting that in the v2. And v2 will have a default source, which is this, and it will not be locked to a specific sequence of outputs... Because that was the other major thing that was a problem in math/rand, it could never change what outputs it returned, because programs had come to rely on those, and that's how seriously we take the compatibility promise.
+**Filippo Valsorda:** \[42:13\] Yeah, so math/rand is one of the things that ended up on every presentation about Go footguns, because there's crypto/rand, which is good, and there's math/rand, which is bad. And they are both called rand, and they both have a read method. So you might be excused for using rand.read to generate your session ticket keys, and then find out that actually, you are importing math/rand in that file, and so you ended up using math/rand to generate keys, which - why is it bad? It's bad because it's completely predictable. And I'm not just saying it has a bad seed, or anything like that. I'm saying if I look at a few of the outputs, I can predict the future ones. There is no secure way to use math/rand up to now. But math/rand is getting a v2, and the v2 critically doesn't have a read method, so it can't be mistakenly used as easily in place of crypto/rand. And it's switching its default, and this is -- I think here I can only claim credit for lobbying for this, but Russ Cox then went and did all of the actual implementation... But I think I convinced Russ to make the default ChaCha8, which is this reduced round version of the ChaCha20 thing that you used in TLS sometimes; it's a cryptographic cipher, so it's actually secure, and it's almost as fast as the non-secure fast thing. So it will default to that, so that if by mistake you use math/rand, you'll actually not have done that much damage. It will probably still be secure. And I am so happy about that... And we're getting that in the v2. And v2 will have a default source, which is this, and it will not be locked to a specific sequence of outputs... Because that was the other major thing that was a problem in math/rand, it could never change what outputs it returned, because programs had come to rely on those, and that's how seriously we take the compatibility promise.
 
 **Natalie Pistunovich:** Wait, they rely on math/rand being --
 
@@ -328,7 +328,7 @@ Also, I don't know, Roland, if you want to explain how they relate to Go version
 
 **Filippo Valsorda:** \[laughs\] But yes, I'm excited about v2, and we are starting to think about what v2 of packages in the crypto -- well, of the crypto packages would look like. Because there are things like AADs, which are just a fancy name for the thing that encrypts stuff, like AES256-GCM, or ChaCha20-Poly1305... So you have a key and a message and you want to encrypt it. And right now, the API is kind of hard to use; you have to separately generate the nonce and have opinions on how to generate the nonce, and then where to put it... And nonce is a number used once, so it has to never never, ever repeat. And what happens if it repeats? It depends; it depends on what we're using. It could be catastrophic. It could be -- most of the times it's catastrophic. But sometimes it's okay. But how do you know? You don't. So we want to make higher-level APIs for that, and things that just say "Yeah, we'll take care of generating it, we will prepend it to the ciphertext... You don't even have to know that it exists. You don't even need to know it's a thing. And then we'll pick primitives where we can do that instead of having to ask the application to respect some strict rules, or else. And so that means, for example, making new APIs that expose XChaCha20-Poly1305 instead of ChaCha20-Poly1305, which - should anybody care about the difference between the x and the non-x? Nobody should, but it is very important, because it will make the difference between you're allowed to encrypt at most a couple million messages, which sometimes you have more than 2 million files, or not having that problem.
 
-**Roland Shoemaker:** \[00:46:33.23\] Right. We shouldn't require users to kind of know these arcane details in order to make secure decisions. I think that's one of the real problems with a lot of -- the cryptography libraries are good, but they assume you have a lot of knowledge in order to use them safely.
+**Roland Shoemaker:** \[46:33\] Right. We shouldn't require users to kind of know these arcane details in order to make secure decisions. I think that's one of the real problems with a lot of -- the cryptography libraries are good, but they assume you have a lot of knowledge in order to use them safely.
 
 **Filippo Valsorda:** Which - still less than order cryptography libraries. I feel like we tend to be a little too doom and gloom, the two of us, because we want it to be better...
 
@@ -348,7 +348,7 @@ Also, I don't know, Roland, if you want to explain how they relate to Go version
 
 **Roland Shoemaker:** Right, yeah.
 
-**Filippo Valsorda:** Indeed, there was a lot more stuff on the list, because it's exciting also, because we're now getting to work on things like SSH, and there are more people on board... There's \[00:48:35.21\] now, who's working on the golang.org/x/crypto/ssh package, which - possibly one of the underestimated packages in our purview that really needed a maintainer...
+**Filippo Valsorda:** Indeed, there was a lot more stuff on the list, because it's exciting also, because we're now getting to work on things like SSH, and there are more people on board... There's \[48:35\] now, who's working on the golang.org/x/crypto/ssh package, which - possibly one of the underestimated packages in our purview that really needed a maintainer...
 
 **Roland Shoemaker:** Yup. It's second perhaps to the TLS package as one of the most important packages that nobody thinks about.
 
@@ -356,7 +356,7 @@ Also, I don't know, Roland, if you want to explain how they relate to Go version
 
 **Natalie Pistunovich:** Yeah, that sounds like a good plan. What else sounds like a good plan?
 
-**Jingle**: \[00:49:45.22\]
+**Jingle**: \[49:45\]
 
 **Natalie Pistunovich:** So gentleman, what did you bring with you as an unpopular opinion?
 
@@ -388,7 +388,7 @@ So when I first started actually doing software engineering, and I was using -- 
 
 **Filippo Valsorda:** \[laughs\] This is like when people say "Oh, real programmers use keyboard shortcuts for everything. They don't touch the mouse", and Rob Pike answers "I guess I'm not a real programmer then." Yeah, because Plan9 is entirely mouse-based. Well, not entirely, but you do a lot with the mouse... Because you know, 2d input is actually kind of nice.
 
-**Roland Shoemaker:** \[00:53:27.24\] Yeah, it turns out the mouse was a good invention.
+**Roland Shoemaker:** \[53:27\] Yeah, it turns out the mouse was a good invention.
 
 **Filippo Valsorda:** Yeah, it's okay. It's totally okay to use the mouse.
 
