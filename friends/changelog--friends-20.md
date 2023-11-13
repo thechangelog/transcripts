@@ -40,7 +40,7 @@
 
 **Adam Stacoviak:** But there's a certain love that you have for the music you love... And so Watermelon Sugar, and the seaside version that's pretty much famous on TikTok... That's where I know it from, at least; those blends... Watermelon Sugar was a song by itself from Harry Styles. And Seaside was a song separately, that I'm not even sure the artist, but on TikTok they blend together and they're perfect. And we made a rendition of that that was super-cool.
 
-**Sample:** \[00:02:33.20\]
+**Sample:** \[02:33\]
 
 **Breakmaster Cylinder:** And then you're like "Nintendo video game levels." And then you're like "Billie Jean plus Hall & Oates..."
 
@@ -112,7 +112,7 @@
 
 **Breakmaster Cylinder:** No... No. All-in.
 
-**Jerod Santo:** \[00:06:11.22\] No? Come on.
+**Jerod Santo:** \[06:11\] No? Come on.
 
 **Adam Stacoviak:** Well, one, he learns something.
 
@@ -134,7 +134,7 @@
 
 **Adam Stacoviak:** But then I'm like "Hey, BMC, these two songs were like -- there was an impression here on Michael Jackson to create Billie Jean..." He's like "Wow, that's super-cool. Let's do something about." And that's how it works.
 
-**Sample:** \[00:07:25.02\]
+**Sample:** \[07:25\]
 
 **Breakmaster Cylinder:** Yeah... Didn't he like apologize to them for ripping it off, and they were like "We have no idea what you're talking about"?
 
@@ -190,7 +190,7 @@
 
 **Jerod Santo:** You can go after it sometimes, and I'll be like "Hey, this is a part of the process." You've gotta push to the limits, right?
 
-**Breakmaster Cylinder:** \[00:09:57.06\] Yeah. That's an extreme compliment. Being brutal.
+**Breakmaster Cylinder:** \[09:57\] Yeah. That's an extreme compliment. Being brutal.
 
 **Jerod Santo:** \[laughs\] You're welcome.
 
@@ -218,7 +218,7 @@
 
 **Breakmaster Cylinder:** This is the only time you've asked me to do something that harsh, but not electronic. Like, sometimes you're just like "Bash this together and make it super-glitchy", but it's never just like grab a guitar, put on some corpse paint... You know, really lose your mind...
 
-**Sample:** \[00:12:13.08\]
+**Sample:** \[12:13\]
 
 **Adam Stacoviak:** I was in this synthwave zone for a bit there, too. I was thinking about like Miami Bites, and I think there was another thing that I was like influenced by... And I was like "We really need to have some music around this." Pole Position. Pole Reposition actually is the name of it.
 
@@ -230,7 +230,7 @@
 
 **Adam Stacoviak:** And they have a really good song that is the theme of it.
 
-**Sample:** \[00:14:46.01\]
+**Sample:** \[14:46\]
 
 **Jerod Santo:** So Miami Bytes 1984... I can't remember the inspiration for that. Was that Grand Theft Auto Vice City, or did we just say "Give us the '80s Miami"? Do you remember what happened with that track, how we came to that?
 
@@ -256,7 +256,7 @@
 
 **Breakmaster Cylinder:** Yeah.
 
-**Adam Stacoviak:** And like all the Halt and \[00:16:13.02\] and Halt and Catch a Cold, and Halt and Don't Pass Go, and Halt and Catch Fire, and Halt Water, which was actually parenthesis with different high hats... Those are all like being used in the intro - well, the intro-intro of the Changelog now. Like the opener. So they've sort of replaced some of the stuff there. It's been fun to do that.
+**Adam Stacoviak:** And like all the Halt and \[16:13\] and Halt and Catch a Cold, and Halt and Don't Pass Go, and Halt and Catch Fire, and Halt Water, which was actually parenthesis with different high hats... Those are all like being used in the intro - well, the intro-intro of the Changelog now. Like the opener. So they've sort of replaced some of the stuff there. It's been fun to do that.
 
 **Breakmaster Cylinder:** Nice. I like that stuff, because you get to be earnest. You get to be earnest without having to feel embarrassed about it. Like, there's no irony when you're being -- well, when you're writing polka, too. You've got to be just as cheesy as possible, and just love it as much as possible...
 
@@ -264,7 +264,7 @@
 
 **Breakmaster Cylinder:** Same thing with '80s techno, or '70s techno, I guess... You've gotta be all craftworky about it. That's some cheesy goodness.
 
-**Sample:** \[00:16:58.20\]
+**Sample:** \[16:58\]
 
 **Jerod Santo:** Yeah, it's not worth doing it ironically, or whatever. It's like, what's the point? Do it with complete sincerity if you're gonna do it.
 
@@ -276,7 +276,7 @@
 
 **Jerod Santo:** Yeah, you certainly don't go for brevity... Kind of like the typical people who write song names, like one or two words. Especially your public library. Because a lot of it is like you try and describe what kind of music it is for people who are just like scrolling... So it's not really necessarily just the song title. It also has some descriptive words attached.
 
-**Breakmaster Cylinder:** \[00:18:11.12\] Yeah, I put little tags at the end for you to search, but...
+**Breakmaster Cylinder:** \[18:11\] Yeah, I put little tags at the end for you to search, but...
 
 **Jerod Santo:** Yeah, exactly. But your ability to make me - sometimes laugh, but definitely smile, just by reading the tracklist is something I've always appreciated.
 
@@ -356,7 +356,7 @@
 
 **Breakmaster Cylinder:** Yeah. I love it when people DM me "Found you!" That game is so much fun. It was so much fun to write for. You had to write little second and a half snippets of music... Oh, single bars; you write single bars of music for 20 different instruments, and they all have to match in the same key. And then you make these little characters play whatever pattern you want, and they all overlap with other characters... And it's cacophonous, and it's great.
 
-**Adam Stacoviak:** \[00:22:08.01\] My kid plays that. He's only had like a couple weeks now, but he's playing it constantly. I mean, he's had his Osmo for years now, but they keep coming out with new applications and new things to the Osmo world, like Coding Aubrey, and stuff like that. I think that's different than Coding Jam, which is similar, but not the same.
+**Adam Stacoviak:** \[22:08\] My kid plays that. He's only had like a couple weeks now, but he's playing it constantly. I mean, he's had his Osmo for years now, but they keep coming out with new applications and new things to the Osmo world, like Coding Aubrey, and stuff like that. I think that's different than Coding Jam, which is similar, but not the same.
 
 **Breakmaster Cylinder:** Yeah, \[unintelligible 00:22:26.26\]
 
@@ -384,7 +384,7 @@
 
 **Breakmaster Cylinder:** Mm-hm, mm-hm...
 
-**Sample:** \[00:23:38.05\]
+**Sample:** \[23:38\]
 
 **Adam Stacoviak:** But seriously, why don't you self-promote? Would it not make more business sense to be a bit more self-promotional?
 
@@ -408,7 +408,7 @@
 
 **Breakmaster Cylinder:** Oh, thanks.
 
-**Break:** \[00:24:27.06\]
+**Break:** \[24:27\]
 
 **Adam Stacoviak:** Well, this should be just a gushing fest, because I feel like at this point, Jerod, we can't -- there's nothing we can give Breakmaster and not come back with something at least good.
 
@@ -489,7 +489,7 @@
 
 **Jerod Santo:** Do you ever go out and - when you say you use your phone to get samples... Are you actually making noises in the world and recording them, or you're just sampling off of somebody else's music? Or what do you mean by that?
 
-**Breakmaster Cylinder:** \[00:30:01.11\] I do less of that now, but a long time ago I had this app that was always, always recording, which is just a privacy nightmare... But it was deleting everything after 30 seconds also, all the time. So if you ever heard a sound that you liked, you've already recorded it, and you have 30 seconds to press Save... Which is cool. And I would just record drunken businessmen, or something, and put it in music, or subways and such... But I don't know, I don't do all that that much anymore.
+**Breakmaster Cylinder:** \[30:01\] I do less of that now, but a long time ago I had this app that was always, always recording, which is just a privacy nightmare... But it was deleting everything after 30 seconds also, all the time. So if you ever heard a sound that you liked, you've already recorded it, and you have 30 seconds to press Save... Which is cool. And I would just record drunken businessmen, or something, and put it in music, or subways and such... But I don't know, I don't do all that that much anymore.
 
 **Jerod Santo:** But you probably have a library now of tons of stuff.
 
@@ -535,7 +535,7 @@
 
 **Breakmaster Cylinder:** Oh, but actually, if you're going R2, then you need something like 8-bit. We just make a round sort of sine wave tone... Although they call it a triangle, but still... You make a round tone, and you just sort of pitch-warp it.
 
-**Sample:** \[00:32:21.20\]
+**Sample:** \[32:21\]
 
 **Jerod Santo:** And then you just do a bunch of variations of the same sounds to make different noises.
 
@@ -561,7 +561,7 @@
 
 **Adam Stacoviak:** I did that recently with an Editor's Note on one of the Changelogs... I want to say -- it was the Kevin Ball Friends one, when I like had to come in with an aside, essentially... Like you're saying, a parenthetical. I wanted to clarify the history of Kevin, and stuff like that... I think that was it, if I recall correctly. But that was fun, just to do that, because... Without the droid sound, or the sound library... I think I chose two, obviously; one in, one out. But without that library, I would have been like "Hey, by the way..." Exactly, just changing your voices, or whatever.
 
-**Jerod Santo:** \[00:34:09.22\] Right. Or sometimes I'll include a clip from an episode, and if that clip starts with me talking, it's really weird to introduce myself. Because then it's like "Well, when did I stop introducing and start talking?" Because a lot of times a clip will start with me asking a question, and then a guest answering it. Or Adam asking it etc.
+**Jerod Santo:** \[34:09\] Right. Or sometimes I'll include a clip from an episode, and if that clip starts with me talking, it's really weird to introduce myself. Because then it's like "Well, when did I stop introducing and start talking?" Because a lot of times a clip will start with me asking a question, and then a guest answering it. Or Adam asking it etc.
 
 **Breakmaster Cylinder:** You've gotta go atmospheric and change the world of it entirely.
 
@@ -569,7 +569,7 @@
 
 **Breakmaster Cylinder:** You could pan yourself like 30 to the right.
 
-**Jerod Santo:** I actually tried to insert it once. It didn't work out. Remember in Wayne's World, where they do the \[00:34:44.07\]
+**Jerod Santo:** I actually tried to insert it once. It didn't work out. Remember in Wayne's World, where they do the \[34:44\]
 
 **Breakmaster Cylinder:** Oh, yeah.
 
@@ -604,7 +604,7 @@
 
 **Jerod Santo:** Or is it not Ballroom Blitz? Ball-room Blitz... I don't know.
 
-**Breakmaster Cylinder:** \[00:35:52.12\]
+**Breakmaster Cylinder:** \[35:52\]
 
 **Adam Stacoviak:** See? Good job, BMC.
 
@@ -618,7 +618,7 @@
 
 **Jerod Santo:** And I mean, I fell in love with Bohemian Rhapsody because of Wayne's World, and I still love the song to this day.
 
-**Sample:** \[00:36:23.02\]
+**Sample:** \[36:23\]
 
 **Breakmaster Cylinder:** Thanks, Wayne. Thanks, Garth.
 
@@ -662,7 +662,7 @@
 
 **Jerod Santo:** Okay.
 
-**Adam Stacoviak:** \[00:38:08.07\] What about these albums? I mean, we finally collected the music together in a coherent way to release on the streaming platforms... Bandcamp is there, Spotify, iTunes, stream or purchase... It's cool, right?
+**Adam Stacoviak:** \[38:08\] What about these albums? I mean, we finally collected the music together in a coherent way to release on the streaming platforms... Bandcamp is there, Spotify, iTunes, stream or purchase... It's cool, right?
 
 **Breakmaster Cylinder:** It is cool. You were not asking me, but it is cool.
 
@@ -805,7 +805,7 @@
 
 **Jerod Santo:** \[laughs\] "Just trust me." I'm not gonna fact-check that at all.
 
-**Breakmaster Cylinder:** \[00:42:14.23\] There was that music video, it was like 15 years ago and who cares... Like, I could talk about it, but... Artist name though, Robot Makeout Music?
+**Breakmaster Cylinder:** \[42:14\] There was that music video, it was like 15 years ago and who cares... Like, I could talk about it, but... Artist name though, Robot Makeout Music?
 
 **Jerod Santo:** No, not really good.
 
@@ -847,7 +847,7 @@
 
 **Adam Stacoviak:** 2016. That was when the Hallelujah song became a little bit more popular, because I think SNL did a rendition of it in their cold open, as like a thing for his death, I think. Something like that.
 
-**Sample:** \[00:43:20.22\]
+**Sample:** \[43:20\]
 
 **Adam Stacoviak:** Are you gonna sing, too? Sing. You've gotta sing.
 
@@ -929,7 +929,7 @@
 
 **Adam Stacoviak:** Okay... It was an unexpected hit. And it wasn't a hit until it was part of the Bourne movie franchise. It was basically obscure and unknown until they picked it up, and then for two of the films... Because there were four Bourne films. For two of the films it was the exact studio version he produced. And on the third one, they' were like "We can't do the same one again." But it is the theme song, basically, for Bourne Identity, and for the Bourne film series. And so he went and re-recorded all of it; vocals... Back to the drawing board for everything. Instruments... Everything. And did the same thing again for the final film, which I believe was just called Jason Bourne. And so I think, from what I understand about Extreme Ways, this is like his big hit, really; one of his big hits.
 
-**Sample:** \[00:46:21.17\]
+**Sample:** \[46:21\]
 
 **Moby:** Extreme ways, was a single for my album 18, and it got licensed for the first Bourne movie. The first two Bourne movies used the exact same version. And then the third Bourne movie, I re-recorded the whole thing. All different vocals, different instruments, different everything... And so now for the fourth Bourne movie, I'm re-recording it one more time.
 
@@ -973,7 +973,7 @@
 
 **Breakmaster Cylinder:** Yeah. I like it. Maybe you will like it too, you know?
 
-**Break:** \[00:49:02.02\]
+**Break:** \[49:02\]
 
 **Adam Stacoviak:** I think that what you're wearing today sort of dovetails right into this, because I think Sia attempts this, or has attempted this. Now, I know she's not invisible, she has been seen... But as an artist, she tends to hide herself as part of her persona.
 
@@ -1007,7 +1007,7 @@
 
 **Adam Stacoviak:** No? Gosh... Elastic Heart is the song.
 
-**Sample:** \[00:54:56.02\]
+**Sample:** \[54:56\]
 
 **Adam Stacoviak:** And the video is just super-cool. It's just them dancing, basically... And it's a story through dance. There's no words, and you've got the Elastic Heart song going on, and it's... You've got to see it. I think if you saw it you'd be like "That's pretty cool."
 
@@ -1031,7 +1031,7 @@
 
 **Adam Stacoviak:** If I was your manager, this is what I would do for you. If you've seen the film Interstellar, there's two robots, artificial intelligent robots in there, one called Case and one called Tars. And these things are like -- I can't even describe them to you, but they're not like you would imagine robots of the future. I'd give you those kinds of robots, and that would be like your dancers.
 
-**Breakmaster Cylinder:** \[00:56:19.00\] Oh, okay, yeah... Super-angular and clunky, yeah...
+**Breakmaster Cylinder:** \[56:19\] Oh, okay, yeah... Super-angular and clunky, yeah...
 
 **Adam Stacoviak:** I mean, that's your style. Glitchy robotics.
 
@@ -1067,13 +1067,13 @@
 
 **Adam Stacoviak:** Can you tell the story for Jerod and the audience? Give them a -- what your idea was. It was on Kickstarter, but you had this -- we DM-ed a bit about some of this, and I think it was like before your Kickstarter. And then I saw your Kickstarter, and then I was like "This is super-cool", and I'm asking the question now.
 
-**Breakmaster Cylinder:** It is the first fight scene... No car chase scene from Mad Max Fury Road. It's -- what, 16 minutes long, or something? It's just some real epic what's it to start the movie off... And I erased all the audio, and I'm trying to rescore it, which includes music, it includes... I mean, I don't have them speak at all, but whenever Max is talking, it's my pug. It's like \[00:58:01.12\]
+**Breakmaster Cylinder:** It is the first fight scene... No car chase scene from Mad Max Fury Road. It's -- what, 16 minutes long, or something? It's just some real epic what's it to start the movie off... And I erased all the audio, and I'm trying to rescore it, which includes music, it includes... I mean, I don't have them speak at all, but whenever Max is talking, it's my pug. It's like \[58:01\]
 
 **Adam Stacoviak:** Yeah, very gnarly.
 
 **Breakmaster Cylinder:** Yeah. I redid the guitar solo for that guy who's like strapped to the big rig... He's got like a skull mask and he's shooting fire of it... I made that sound more like you're walking into a guitar center, and someone who doesn't know how to play is just kind of noodling... You know, one of the warboys is listening to Gary Numan as you pass by, as the camera passes by... "Here in my car... I feel safest of all..."
 
-**Sample:** \[00:58:35.22\]
+**Sample:** \[58:35\]
 
 **Jerod Santo:** That's out there on YouTube?
 
