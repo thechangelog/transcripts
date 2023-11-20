@@ -112,7 +112,7 @@
 
 **Amal Hussein:** Oh, wow.
 
-**Kevin Ball:** \[00:05:59.27\] If y'all could see Chris's face right now... \[laughter\]
+**Kevin Ball:** \[05:59\] If y'all could see Chris's face right now... \[laughter\]
 
 **Jerod Santo:** HorseJS --
 
@@ -128,7 +128,7 @@
 
 **Jerod Santo:** Just wait, you're gonna love this. The song is called "His beloved TypeScript." And I will play it now for the first time and probably the only time in human history.
 
-**Song:** \[00:06:29.04\]
+**Song:** \[06:29\]
 
 **Nick Nisi:** I don't know what it is, but I'm just digging the mood for this 300th episode.
 
@@ -150,7 +150,7 @@
 
 **Kevin Ball:** So I have a reaction. So I've long been in favor of making it easier for frontend folks to build full applications. And I think we've moved in that direction for a lot of things, and I think generally that's good. And that was the whole JAMStack thing, and we're doing that by letting you just \[unintelligible 00:09:35.20\] React and write other things. Okay, all these things are good. And I have recently, for the first time, had the experience of having to jump into two large existing Next.js full-stack applications, and oh my God, they are terrible. This is great for building simple applications, this is great for I have to access a little bit of data... But this is not one of the places where separation of concerns and getting rid of it makes for better applications. These things are tangled nests of workflow-dependent mess, that are really, really hard to maintain and work with.
 
-\[00:10:15.01\] So I think enabling this type of stuff for simple things is great, and I also think that this is a place where, from what I have seen recently, this trend of trying to mash everything together and say "You know what, we can treat our backends the same way as our frontends", and all of these different things has led to some really awful application architectures, and maintenance nightmares, and all sorts of headaches. And I don't know all the reasons, but it turns out there's a lot of specialized knowledge in the frontend - we've been trying to get that across to people for a long time, that this is a specialized discipline; there's a lot of important things to learn. It's not just simple things, it's not just - as one of my developers said, "Taking JSON and shuttling it at different places." There's a lot to think about. That same thing is true of the backend, and trying to mash it all together and not have to worry about it works great for small applications, works great for demos, leads to some really terrible, unmaintainable systems at scale.
+\[10:15\] So I think enabling this type of stuff for simple things is great, and I also think that this is a place where, from what I have seen recently, this trend of trying to mash everything together and say "You know what, we can treat our backends the same way as our frontends", and all of these different things has led to some really awful application architectures, and maintenance nightmares, and all sorts of headaches. And I don't know all the reasons, but it turns out there's a lot of specialized knowledge in the frontend - we've been trying to get that across to people for a long time, that this is a specialized discipline; there's a lot of important things to learn. It's not just simple things, it's not just - as one of my developers said, "Taking JSON and shuttling it at different places." There's a lot to think about. That same thing is true of the backend, and trying to mash it all together and not have to worry about it works great for small applications, works great for demos, leads to some really terrible, unmaintainable systems at scale.
 
 **Nick Nisi:** My thought on it is that it does seem weird, it does seem like it would be a tangled mess to maintain, potentially. I haven't really done much with it... I've done some Next stuff and ended up abandoning it, because it wasn't great at the time. And from what I see on Twitter, it's still not great. But at the same time, I want to approach this kind of in an opposite way of how I approached React in 2013, when it came out, with that separation of concerns. Bringing my HTML into my JavaScript - that seemed wrong and weird at the time. Now JSX seems totally normal and awesome. In 2033, is that... God, I hope I'm not still writing this stuff. \[laughs\] I'm kidding. I would love to be writing it in 2033.
 
@@ -174,7 +174,7 @@
 
 **Amal Hussein:** I mean, Angular was a leader in its day. Angular JS, specifically. Yeah, and I think even Angular in its current evolution is doing a lot of really interesting things as well. So yeah, no hate on Angular. But I think for me this trend of kind of RPC, which is an old pattern that was popular a long, long time ago, and back when single-page apps weren't really a thing, you know... And so for me, it was really interesting, this old pattern of RPC coming back. So RPC - I think it stands for Remote Procedural Call, or something like that... But this is kind of a pattern that existed a long time ago, before single-page apps sort of thing; think PHP days and before. And so it's interesting to see this kind of resurgence of RPC in this Reacty/Nexty world... And then also I think Signals is doing some of that work as well... There's quite a few places in the ecosystem that I think are following this pattern... So I don't know, I mean, it's definitely not something I'm personally excited about, but again, not having used it in production, it's hard to make an informed opinion... Which, based on Twitter, you would think everyone's using it in production, and has well-informed opinions, you know... \[laughs\] And yeah, RPC is definitely not unique to web tech either, exactly. Chris just typed that in the chat.
 
-\[00:14:14.04\] So yeah, I don't know... Not for me personally, but it's interesting. I'm eager to see how this plays out. I'm definitely curious to try it in production and see if it makes sense... I agree with everyone, I think in the simple cases - okay; but as soon as it gets complicated and hairy, I would refactor that out very quickly. So that's kind of where I stand. But again, not having used this in production, it's hard to have like a well-informed opinion... Which, based on Twitter, you wouldn't think that.
+\[14:14\] So yeah, I don't know... Not for me personally, but it's interesting. I'm eager to see how this plays out. I'm definitely curious to try it in production and see if it makes sense... I agree with everyone, I think in the simple cases - okay; but as soon as it gets complicated and hairy, I would refactor that out very quickly. So that's kind of where I stand. But again, not having used this in production, it's hard to have like a well-informed opinion... Which, based on Twitter, you wouldn't think that.
 
 **Jerod Santo:** Well, I'm withholding judgment till I see it in a more serious way, I guess. Right now it's just like "Here's a demo of one line", but let's actually see that in use. It did give me that response of "This is exactly how I was writing my index.php files when I was in college", and those became giant piles of spaghetti code very quickly, and I needed something else. And so I don't personally ever want to go back to that lifestyle... But wait till we see more, because it's very much \[unintelligible 00:15:11.14\]
 
@@ -198,7 +198,7 @@
 
 **Kevin Ball:** I mean, I think there is something here that's interesting... So for a long time, we lived in a world where we had these really great, ergonomic frameworks that were only available on the frontend. And we said "Oh, okay, we're shipping SPAs, we do all this stuff on the frontend, there's a simple API in the backend." And then we said "Oh, there's all these downsides of single-page applications. We want to maybe be able to render on the server, send over HTML, maybe we send less JavaScript... Okay, let's do that." And we had server-side rendering. And then we've got "Okay, these things are still kind of like a SPA, but they're server-side rendered, but they're still a separated frontend. They're talking back to a backend that's written somewhere else, that's handling our data." And people say "Okay this is good, but now I still have to deploy two things. This is a pain in the butt. What if I could do all of my stuff in one application, I could have the benefits of the front, I could have the benefits of the back, I could do all these things together...?" And so they're trying to kind of go back to this whole single-stack application that you had in the world of a PHP app, or Rails, or something like that, and kind of recreate that, but instead of going back to front, they're creating it front to back. Is that the right approach? For simple applications, that is great.
 
-\[00:18:21.10\] I have yet to find something that is ergonomically beautiful and easy to work in as an old Rails application. Those are great. And they have technical limitations, and they only meet certain things, and at some point you want the power of a separated frontend, or something like that. So I think this is kind of in that same world. It's great for simple applications; you can do everything in one spot, you only worry about one deploy, it goes out on your, Fly server or whatever... But --
+\[18:21\] I have yet to find something that is ergonomically beautiful and easy to work in as an old Rails application. Those are great. And they have technical limitations, and they only meet certain things, and at some point you want the power of a separated frontend, or something like that. So I think this is kind of in that same world. It's great for simple applications; you can do everything in one spot, you only worry about one deploy, it goes out on your, Fly server or whatever... But --
 
 **Jerod Santo:** Vercel.
 
@@ -268,7 +268,7 @@
 
 **Kevin Ball:** How much of this is Facebook is trying to be profitable and Vercel is still flying high on VC money?
 
-**Amal Hussein:** \[00:22:07.13\] I don't know. Either way, it's sketch, and we should definitely talk about it in a show. So we'll see. We can move on now, but I just wanted to throw that out there.
+**Amal Hussein:** \[22:07\] I don't know. Either way, it's sketch, and we should definitely talk about it in a show. So we'll see. We can move on now, but I just wanted to throw that out there.
 
 **Jerod Santo:** It's an entire episode.
 
@@ -332,7 +332,7 @@
 
 **Amal Hussein:** We've never had this conversation, because we're always talking about careers and JavaScript... So I feel like we haven't gone there.
 
-**Nick Nisi:** \[00:26:08.04\] I tried Suits. I tried three episodes maybe... And it just wasn't sticking. So then I went and started Billions, and I'm on the final season of that now. And Rick Hoffman is actually in that as well, and he plays a \[unintelligible 00:26:19.08\] doctor who lost his license. It's pretty funny.
+**Nick Nisi:** \[26:08\] I tried Suits. I tried three episodes maybe... And it just wasn't sticking. So then I went and started Billions, and I'm on the final season of that now. And Rick Hoffman is actually in that as well, and he plays a \[unintelligible 00:26:19.08\] doctor who lost his license. It's pretty funny.
 
 **Jerod Santo:** I also haven't watched Billions... But I did watch some Louis Litt quotes on YouTube, and... Thanks, Jarvis; I might check that out, now with Amal's seal of approval as well. It might be next up on my list. This episode, 284, "This is going to be lit" with Justin Fagnani from Lit HTML.
 
@@ -340,7 +340,7 @@
 
 **Jerod Santo:** And that was Kball and Amal. Awesome episode, so thanks for shouting that one out, Jarvis.
 
-**Break:** \[00:27:47.13\]
+**Break:** \[27:47\]
 
 **Jerod Santo:** Let's hit up our next listener, Lars \[unintelligible 00:31:37.08\] He says "There have been so many good episodes that it's hard to choose. One of my favorites was the Yep/Nope debate episode on whether React is only good at being popular.
 
@@ -390,7 +390,7 @@
 
 **Jerod Santo:** Oh, I wouldn’t be so malicious. You know I fully support x.com.
 
-**Amal Hussein:** Is this where we start playing DMX? \[00:34:13.26\]
+**Amal Hussein:** Is this where we start playing DMX? \[34:13\]
 
 **Jerod Santo:** That’s what I was saying – if you listened to our show a couple of weeks back, I was saying DMX is rolling in his grave right now, because he’s getting all of his cool songs again steamrolled.
 
@@ -412,13 +412,13 @@
 
 **Christopher Hiller:** Amal, can you make that song?
 
-**Amal Hussein:** I mean, it was basically like \[00:35:07.08\] And I don't know, I just thought he was rapping and making sounds; like, how am I supposed to know that was barking? That's such a random thing. You don't assume a human being is barking, you know what I mean? But alas, he was. I also have to say, for the React show, that was like my debut with that song, which I feel like has gotten so much general airtime, the dangerously set inner HTML...
+**Amal Hussein:** I mean, it was basically like \[35:07\] And I don't know, I just thought he was rapping and making sounds; like, how am I supposed to know that was barking? That's such a random thing. You don't assume a human being is barking, you know what I mean? But alas, he was. I also have to say, for the React show, that was like my debut with that song, which I feel like has gotten so much general airtime, the dangerously set inner HTML...
 
 **Jerod Santo:** Oh, yes.
 
 **Amal Hussein:** You know what my favorite - and when I say “favorite”, I mean favorite-not - feature of JSX is? \[singing\] Dangerously set inner HTML… What’s so dangerous about HTML’s inner parts? I don’t know… \[laughter\] But they’re dangerous on the internet… Of React. React’s internet, of course.
 
-**Amal Hussein:** \[00:35:58.12\] That was a really fun show. Yeah, Kball, you were on the opposite side. You were on the opposite team.
+**Amal Hussein:** \[35:58\] That was a really fun show. Yeah, Kball, you were on the opposite side. You were on the opposite team.
 
 **Kevin Ball:** We were going at it. It was great.
 
@@ -480,7 +480,7 @@
 
 **Amal Hussein:** Really? How does Steven Seagal sound?
 
-\[00:40:32.07\]
+\[40:32\]
 
 *Are you really as good as they all say you are?*
 
@@ -520,7 +520,7 @@ So the nice thing about Frontend Feud is it's the people versus the audience, ri
 
 **Nick Nisi:** \[unintelligible 00:43:46.09\]
 
-**Jerod Santo:** \[00:43:53.02\] Chris, please directly contact with Nick with some form of government ID and let him know that you are indeed real. Let's hear from our next listener. This is William V, who says "I love the episode called "Spicy fonts and static sites", where they discussed the awesome use Eleventy, and just kept talking even after the pod was supposed to end; it pushed me to want to subscribe to Changelog Plus Plus, which is better, I'm told..." \[Changelog Plus Plus. It's better.\]
+**Jerod Santo:** \[43:53\] Chris, please directly contact with Nick with some form of government ID and let him know that you are indeed real. Let's hear from our next listener. This is William V, who says "I love the episode called "Spicy fonts and static sites", where they discussed the awesome use Eleventy, and just kept talking even after the pod was supposed to end; it pushed me to want to subscribe to Changelog Plus Plus, which is better, I'm told..." \[Changelog Plus Plus. It's better.\]
 
 That one was cool. That's Zach Leatherman. Of course we're gonna keep talking to Zach... We've known Zach for many years, and it's hard to stop talking when you get the three of us together, after a long time of not talking.
 
@@ -560,7 +560,7 @@ You know, a lot of these people, when we have them on the show it's like the onl
 
 **Jerod Santo:** So a little bit of context around – so David Heinemeier Hansson, he’s the creator of Ruby on Rails. He’s a very outspoken developer and business guy, quasi-professional contrarian, and he’s very good at taking a contrarian view… And he has a library called Turbo, which is a JavaScript library that helps your website go faster by basically hijacking anchor clicks and replacing them with Ajax non-full page refreshes. It’s a long-standing thing that’s on its eighth version; it’s gone through a lot of iterations. Actually, we use it, an older Turbo, 5 I think, on changelog.com. I’ve used it for many years. It’s decent software… And it’s an open source project that’s pretty much controlled and managed by him, and his company. And they took TypeScript out of Turbo; not the way that Svelte did it with type annotations, or with JSDoc comments, but just by actually removing it wholesale. And DHH wrote a blog post about why they did this, and he had a tweet about it, which Rich has now found, and I’m clicking on, which says “So farewell TypeScript. May you bring much rigor and satisfaction to your tribe, while letting the rest of us enjoy JavaScript in the glorious spirit it was originally designed, free of strong typing.” So that’s, I think, probably a pull quote from the blog post, as his typical fare is. So that’s the context. And then Rich… Do you wanna dunk on him again? \[laughs\]
 
-**Amal Hussein:** \[00:48:29.23\] You should read this in your Jay-Z voice, or your Barry White voice. Either one, you know…
+**Amal Hussein:** \[48:29\] You should read this in your Jay-Z voice, or your Barry White voice. Either one, you know…
 
 **Rich Harris:** Hang on, I’ve gotta find my own tweet now…
 
@@ -624,7 +624,7 @@ You know, a lot of these people, when we have them on the show it's like the onl
 
 **Amal Hussein:** Oh, my God...
 
-**Jerod Santo:** \[00:51:56.10\] Kball... I have a word for you. It's called buzzkill. You know, back in the day that's what they'd call Kball, with the context... "Actually, guys, it's not the correct context..." Okay, back to Mikhail's message. So on that show I kind of went on a mini-rant about developer identity, and how we need to be able to detach ourselves from our tools, and float above the short-term... And to that, Mikhail says "As a new frontend dev, I love telling people why they are wrong for not liking the thing I was told to like." So there you go...
+**Jerod Santo:** \[51:56\] Kball... I have a word for you. It's called buzzkill. You know, back in the day that's what they'd call Kball, with the context... "Actually, guys, it's not the correct context..." Okay, back to Mikhail's message. So on that show I kind of went on a mini-rant about developer identity, and how we need to be able to detach ourselves from our tools, and float above the short-term... And to that, Mikhail says "As a new frontend dev, I love telling people why they are wrong for not liking the thing I was told to like." So there you go...
 
 **Amal Hussein:** Oh, yeah... And I want to say, Jonathan -- I'm sure this is Jonathan Creamer, right? The Jonathan that's in our chat, he just said that he loved the recent "The death of Node.js has been greatly exaggerated" show, and he said that it was so much fun to hear from the folks like Matteo... You had and provide context about what Bun is trying to do. Yes, I agree. And he also loved the show "Automating the pain away", which he was on almost a couple years ago.
 
@@ -648,7 +648,7 @@ Sometimes I feel like programming has been like that, for me personally, where I
 
 **Jerod Santo:** Right?!
 
-**Kevin Ball:** \[00:55:48.03\] Yeah, it was a fun one. I think Erick does a really nice job of kind of breaking down these things that feel overwhelming and hard, and showing how they're not that different from problems you're probably already solving, and kind of building things back up again. So yeah, I love having folks like that on. It's a really important skill, because I think getting into this industry now... There's so many layers of stuff out there that it feels like you have to learn... And really, most of it is like applications of the fundamentals, in one form or another. And so kind of breaking that barrier of "Oh my gosh, this thing has been around for 15 years. How am I possibly able to dig into it?" and saying -- you know what, it's using the same things that you're doing in your applications. "Let's just look at how they're applied here, and kind of making it accessible" is super-powerful.
+**Kevin Ball:** \[55:48\] Yeah, it was a fun one. I think Erick does a really nice job of kind of breaking down these things that feel overwhelming and hard, and showing how they're not that different from problems you're probably already solving, and kind of building things back up again. So yeah, I love having folks like that on. It's a really important skill, because I think getting into this industry now... There's so many layers of stuff out there that it feels like you have to learn... And really, most of it is like applications of the fundamentals, in one form or another. And so kind of breaking that barrier of "Oh my gosh, this thing has been around for 15 years. How am I possibly able to dig into it?" and saying -- you know what, it's using the same things that you're doing in your applications. "Let's just look at how they're applied here, and kind of making it accessible" is super-powerful.
 
 **Jerod Santo:** Not to mention his enthusiasm for the content, and just all things is contagious, and he makes you want to go and try things as well that you otherwise wouldn't... So we should definitely get him back on at some point as well.
 
