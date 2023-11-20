@@ -192,7 +192,7 @@
 
 **Jerod Santo:** So your opening line was "I've got a good code review for you"?
 
-**Adam Stacoviak:** \[00:06:07.06\] Well, he said software developer. What am I gonna do? You know what I mean? You've gotta use context.
+**Adam Stacoviak:** \[06:07\] Well, he said software developer. What am I gonna do? You know what I mean? You've gotta use context.
 
 **Jerod Santo:** Yeah. Fair enough. It didn't work.
 
@@ -210,7 +210,7 @@
 
 **Jerod Santo:** Well, speaking of reputations... We have a reputation of playing a game called Unpopular Opinions.
 
-**Jingle:** \[00:06:39.23\]
+**Jingle:** \[06:39\]
 
 **Jerod Santo:** We played it the last time you were on, Mat. I think that was back in June, or July... I don't recall. It's been a while back. One of our very first episodes of Changelog & Friends. It's one of our worst ones yet, but... Nonetheless, here we are.
 
@@ -244,7 +244,7 @@
 
 **Mat Ryer:** Well, you just bite someone's finger until they go "Aaargghhhh!"
 
-\[00:08:43.24\]
+\[08:43\]
 
 *Ouch, Charlie...! OUUCCHHHH!! Charlie...! That really hurts!*
 
@@ -276,7 +276,7 @@
 
 **Adam Stacoviak:** Oh, yes.
 
-\[00:09:38.00\]
+\[09:38\]
 
 *Look at this stuff. Top Cereal. It's supposed to be good for you. Do you wanna try it?*
 
@@ -304,7 +304,7 @@
 
 **Jerod Santo:** No?
 
-\[00:10:36.13\]
+\[10:36\]
 
 *It certainly is a big bun.*
 
@@ -400,7 +400,7 @@
 
 **Jerod Santo:** He's lying again. \[laughter\]
 
-**Mat Ryer:** \[00:14:04.01\] You can't say that. There's no way that is true.
+**Mat Ryer:** \[14:04\] You can't say that. There's no way that is true.
 
 **Jerod Santo:** \[laughs\] I'm onto him this time.
 
@@ -542,7 +542,7 @@
 
 **Adam Stacoviak:** Honestly? Yeah. I was really good at it. Really good.
 
-**Mat Ryer:** \[00:18:15.05\] For whatever reason, they could just never find you, even if you were in a really obvious place.
+**Mat Ryer:** \[18:15\] For whatever reason, they could just never find you, even if you were in a really obvious place.
 
 **Adam Stacoviak:** Days later I'm like "Man, they haven't found me. This is good stuff. But I'm hungry."
 
@@ -562,7 +562,7 @@
 
 **Mat Ryer:** Good point.
 
-**Break:** \[00:18:49.17\]
+**Break:** \[18:49\]
 
 **Jerod Santo:** Unpopular Opinions. Mat said that wired keyboards are better than wireless keyboards. Pretty much a popular opinion, Mat. I apologize for your lack of abilities. Everybody agreed with you. 72% of people on X - that's the website formerly known as Twitter...
 
@@ -618,7 +618,7 @@ And the new, shiny thingamabobs are usually the parts that break. So we have a p
 
 **Mat Ryer:** See? You don't do it in real life, do you?
 
-**Adam Stacoviak:** \[00:26:02.15\] I'm with you, man. That's -- imagine the person doing it. Like, you just fall into a caricature, essentially. You're on the stage, you're a hyper person, and you're there to hype folks up... And obviously, the first round, even if it was hype, is not hype enough. "Come on, you could do better than that! One more. Come on, everybody!"
+**Adam Stacoviak:** \[26:02\] I'm with you, man. That's -- imagine the person doing it. Like, you just fall into a caricature, essentially. You're on the stage, you're a hyper person, and you're there to hype folks up... And obviously, the first round, even if it was hype, is not hype enough. "Come on, you could do better than that! One more. Come on, everybody!"
 
 **Jerod Santo:** Here's a question. I tend to agree; you're getting popular. But is there a context in which that is legit? Like, it's tech conference, Monday morning... You've painted that particular picture. But is there ever a time where you can reject their level of enthusiasm appropriately?
 
@@ -682,7 +682,7 @@ And the new, shiny thingamabobs are usually the parts that break. So we have a p
 
 **Adam Stacoviak:** Right.
 
-**Jerod Santo:** \[00:29:57.09\] Everybody disagreed with you; specifically, 61% other people disagreed on X, and 81% on Mastodon, which shows were the true people of tasty live. That's 57 votes. So highly unpopular on Mastodon, pretty unpopular on the \[unintelligible 00:30:13.13\] formerly known as Twitter.
+**Jerod Santo:** \[29:57\] Everybody disagreed with you; specifically, 61% other people disagreed on X, and 81% on Mastodon, which shows were the true people of tasty live. That's 57 votes. So highly unpopular on Mastodon, pretty unpopular on the \[unintelligible 00:30:13.13\] formerly known as Twitter.
 
 **Adam Stacoviak:** Oh, my gosh...
 
@@ -728,7 +728,7 @@ And the new, shiny thingamabobs are usually the parts that break. So we have a p
 
 **Jerod Santo:** Is it clicky?
 
-**Mat Ryer:** It's clicky. \[00:32:03.14\]
+**Mat Ryer:** It's clicky. \[32:03\]
 
 **Jerod Santo:** That's nice. Turn the knob.
 
@@ -736,7 +736,7 @@ And the new, shiny thingamabobs are usually the parts that break. So we have a p
 
 **Jerod Santo:** Yeah. That is cool. That should be clickier.
 
-**Adam Stacoviak:** Compare that to this beautiful sound. Listen to this beautiful sound. Listen. \[00:32:19.25\] That's amazing right there.
+**Adam Stacoviak:** Compare that to this beautiful sound. Listen to this beautiful sound. Listen. \[32:19\] That's amazing right there.
 
 **Jerod Santo:** Mat's is better.
 
@@ -774,7 +774,7 @@ And the new, shiny thingamabobs are usually the parts that break. So we have a p
 
 **Jerod Santo:** Can you base-64 encode it?
 
-**Mat Ryer:** \[00:34:06.10\] Oh, yeah, yeah, yeah.
+**Mat Ryer:** \[34:06\] Oh, yeah, yeah, yeah.
 
 **Jerod Santo:** Or ROT13. Can you ROT13 it?
 
@@ -852,7 +852,7 @@ And the new, shiny thingamabobs are usually the parts that break. So we have a p
 
 **Adam Stacoviak:** Do you think that this makes you think of a song, Mat, by any chance? Like some sort of automagical thing... Did you already do a song on this? I feel like you did.
 
-**Mat Ryer:** \[00:37:57.21\] Did we?
+**Mat Ryer:** \[37:57\] Did we?
 
 **Jerod Santo:** Yeah, it was the end of our last show. It was the Beatles "Let it be automagically."
 
@@ -888,7 +888,7 @@ And the new, shiny thingamabobs are usually the parts that break. So we have a p
 
 **Jerod Santo:** Automagically, by Mat Ryer. The remix.
 
-\[00:39:09.29\]
+\[39:09\]
 
 **Mat Ryer:** It's automagic... It's automagically my favorite thing... But nobody likes me, nobody takes me seriously... Nobody likes me, nobody takes me seriously...
 
@@ -954,7 +954,7 @@ One of Jerod's six friends...!
 
 **Jerod Santo:** I also habit-stack. You know, I do post on our Instagram reels, and I've made a habit - every time that I'm posting to our reels, that I also drop the kids off at the pool.
 
-**Mat Ryer:** \[00:42:04.27\] Oh, really?
+**Mat Ryer:** \[42:04\] Oh, really?
 
 **Jerod Santo:** Shall I share my unpopular opinion now?
 
@@ -986,7 +986,7 @@ One of Jerod's six friends...!
 
 **Mat Ryer:** What about line feeds though?
 
-**Jerod Santo:** What about line feeds, like backslash n? I mean, I live with it. I'm also left-handed in a right-handers world. I also live with that. There's things in life you just have to overcome. And every time I see a backslash, I have to overcome the unction I have to throw up in my mouth.
+**Jerod Santo:** What about line feeds, like backslash N? I mean, I live with it. I'm also left-handed in a right-handers world. I also live with that. There's things in life you just have to overcome. And every time I see a backslash, I have to overcome the unction I have to throw up in my mouth.
 
 **Adam Stacoviak:** Yeah. Well, let me be the first to say I'm sorry that you're in this position in life. One, as a left hander. Thank you for admitting that. And then two as somebody who just despises backslashes.
 
@@ -1030,7 +1030,7 @@ One of Jerod's six friends...!
 
 **Jerod Santo:** And it's like, come on, guys. We only have so much time. You're on television. You don't have to spell out the https colon, forward slash forward slash www dot... Mat, were you going to say we changed your life again, was that what you were about to say?
 
-**Mat Ryer:** \[00:46:10.03\] Yeah, because you've changed my life again, Adam, because I -- I think if I was describing a URL, all of it, I would say forward slash each time. So...
+**Mat Ryer:** \[46:10\] Yeah, because you've changed my life again, Adam, because I -- I think if I was describing a URL, all of it, I would say forward slash each time. So...
 
 **Adam Stacoviak:** Yeah. It's assumed, it's implied...
 
@@ -1056,7 +1056,7 @@ One of Jerod's six friends...!
 
 **Jerod Santo:** By Mat Ryer.
 
-\[00:47:00.07\]
+\[47:00\]
 
 **Mat Ryer:** I don't mind ash, I don't even mind Bash... I like caching and cache, and I'll clash with a dash in a flash, man... I'm not gonna say gosh... I don't even mind hash... I'm out on the lash, man. I've got a rash. Oh my gosh, man, I'm gonna smash your face in if you backslash me. That's trash!
 
@@ -1096,7 +1096,7 @@ Just say slash...
 
 **Adam Stacoviak:** Jesse Eisler actually said this recently, he was saying that the best favor you can do for yourself is to not take yourself so seriously that you can't be embarrassed, or -- man, I wish I can remember his exact words. But basically, don't worry about being embarrassed. Forget about that. Just let it go. Do what you've got to do in life, because nobody cares anyways... People are more paying attention to themselves than even you anyways, so just go and do your thing, and don't be embarrassed. Don't be afraid to embarrass yourself.
 
-**Mat Ryer:** \[00:50:01.02\] I think it's good advice. On the other side of it, be forgiving of people. If they take a risk and it doesn't work, just forgive it and move on.
+**Mat Ryer:** \[50:01\] I think it's good advice. On the other side of it, be forgiving of people. If they take a risk and it doesn't work, just forgive it and move on.
 
 **Jerod Santo:** Don't keep bringing it back up again.
 
@@ -1112,7 +1112,7 @@ Just say slash...
 
 **Mat Ryer:** Exactly. But you've got to forgive yourself, and forgive each other. Then we can have some more fun.
 
-**Break:** \[00:51:40.27\]
+**Break:** \[51:40\]
 
 **Jerod Santo:** Mat, you thought it'd be fun to talk about viri.
 
@@ -1158,7 +1158,7 @@ Just say slash...
 
 **Jerod Santo:** Well, let me add to this context. So 1999 was a heck of a year. And it ends with New Year's Eve, and of course, Prince famously wrote "Party like it's 1999." So when that ended, when it flipped to 2000, we thought -- first of all, the y2k bug, but hopefully that's not the one you're talking about. Because that one's lame. But we had that whole situation, and then 2000 came, Prince wasn't relevant anymore, y2k was over... It was a brand new day. And very exciting. But also a little disappointing, because nothing really changed on January 1st 2000; everything felt the same. You were like "Oh, I was hoping for --" I don't know, an alien landing, or what did we expect?
 
-**Mat Ryer:** \[00:58:02.21\] Probably that. Aliens.
+**Mat Ryer:** \[58:02\] Probably that. Aliens.
 
 **Jerod Santo:** We expected a lot.
 
