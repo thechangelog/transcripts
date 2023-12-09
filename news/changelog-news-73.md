@@ -76,7 +76,7 @@ During the session, they will cover:
 - How to take action on Web Vitals
 - Profiling in Browser JavaScript for code-level bottlenecks
 
-[Sign up](https://sentry.io/resources/improve-web-browser-performance-find-the-javascript-code-causing-slowdowns/?utm_source=changelog&utm_medium=paid-community&utm_campaign=perf-fy24q4-jsperfworkshop&utm_content=static-ad-jsbrowserperfwebinar-signup) and bring your questions! There will be a Q&A at the end of the stream. ✌️
+[Sign up](https://sentry.io/resources/improve-web-browser-performance-find-the-JavaScript-code-causing-slowdowns/?utm_source=changelog&utm_medium=paid-community&utm_campaign=perf-fy24q4-jsperfworkshop&utm_content=static-ad-jsbrowserperfwebinar-signup) and bring your questions! There will be a Q&A at the end of the stream. ✌️
 
 **Break:**
 
