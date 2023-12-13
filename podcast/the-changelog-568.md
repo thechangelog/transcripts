@@ -102,7 +102,7 @@
 
 **Solomon Hykes:** It was a top secret demo for 10,000 people. \[laughter\] Yeah, we have this project underway called Project Zenith. It's a future release of Dagger. And not too far in the future... I hope. I think. And it adds the one feature that our whole community has been asking us for a year. Ever since we made the previous major release, which was to support many languages... That's immediately -- actually, one of our most engaged users, Mark, yesterday reminded me that the first time I saw that release, I immediately asked "When is the next big thing coming?"
 
-\[00:12:07.23\] And it's reusable cross-language modules. So if you can write your CI pipeline in code, you're very happy, it solves all these problems for you, it runs locally, you can test it, you can collaborate on it with developers etc. And you can modularize it. You can say, "Oh, that function here, that's cool. That's my build. I optimized it, it's perfect. And I want to share it with everyone else. Or I want to reuse it in my next project." If it's some weird YAML proprietary thing, you can't do it. If it's code, in your favorite language, you can do it, but only within the confines of your language. So if it's a Go function, you can share it with other Go programs. And in a lot of software organizations you've got multiple teams using different languages, and the tools that go with it. So if I'm here in my little Go team, and I've got the perfect build, and there's another team over there and they use Python - maybe they use Dagger also, because the platform team just kind of evangelized Dagger... So everyone's happily using Dagger in these silos, but they can't use each other's stuff. And the problem is the I in CI is for integration... So you're supposed to connect it all together somehow.
+\[12:07\] And it's reusable cross-language modules. So if you can write your CI pipeline in code, you're very happy, it solves all these problems for you, it runs locally, you can test it, you can collaborate on it with developers etc. And you can modularize it. You can say, "Oh, that function here, that's cool. That's my build. I optimized it, it's perfect. And I want to share it with everyone else. Or I want to reuse it in my next project." If it's some weird YAML proprietary thing, you can't do it. If it's code, in your favorite language, you can do it, but only within the confines of your language. So if it's a Go function, you can share it with other Go programs. And in a lot of software organizations you've got multiple teams using different languages, and the tools that go with it. So if I'm here in my little Go team, and I've got the perfect build, and there's another team over there and they use Python - maybe they use Dagger also, because the platform team just kind of evangelized Dagger... So everyone's happily using Dagger in these silos, but they can't use each other's stuff. And the problem is the I in CI is for integration... So you're supposed to connect it all together somehow.
 
 **Jerod Santo:** Right.
 
@@ -156,7 +156,7 @@ And so not only does it work, but after a few tries - I'll spare you the details
 
 **Solomon Hykes:** That's crazy.
 
-**Jerod Santo:** \[00:15:45.19\] Yeah. This might sound bad, but - it doesn't feel bad... Well, maybe it does. It's kind of a carnival thing going on. Like they're a fair in the expo hall. You guys are in your spot, so you probably don't see it as much, because you're just at your booth. But there's a lot of people who are vying for attention. And these companies with lots of big budgets, and flashiness, and all these things... And I mean, it's huge here. I've never been to an expo hall this size. I've never done like a Comic Con, or - what's the big one? CES...
+**Jerod Santo:** \[15:45\] Yeah. This might sound bad, but - it doesn't feel bad... Well, maybe it does. It's kind of a carnival thing going on. Like they're a fair in the expo hall. You guys are in your spot, so you probably don't see it as much, because you're just at your booth. But there's a lot of people who are vying for attention. And these companies with lots of big budgets, and flashiness, and all these things... And I mean, it's huge here. I've never been to an expo hall this size. I've never done like a Comic Con, or - what's the big one? CES...
 
 **Gerhard Lazu:** \[unintelligible 00:16:10.13\]
 
@@ -194,7 +194,7 @@ And so not only does it work, but after a few tries - I'll spare you the details
 
 I do think that the CI as a category - this is the market of CI platforms. I think one effective Dagger succeeding in the future - knock on wood - is that... But if somehow we fail to finish the job, someone else will, because some things just have to happen. CI as a category I think will just go away. It's no longer needed, really.
 
-\[00:20:13.18\] So these are two different things. We're not telling teams, "Get rid of your CI platform now." We're doing something more incremental, low-friction etc. but the end result of everyone doing that is eventually someone - not us - will kind of say "Do we need this now?" I think that's the end result.
+\[20:13\] So these are two different things. We're not telling teams, "Get rid of your CI platform now." We're doing something more incremental, low-friction etc. but the end result of everyone doing that is eventually someone - not us - will kind of say "Do we need this now?" I think that's the end result.
 
 **Jerod Santo:** What would that day look like? What would be different from today?
 
@@ -208,7 +208,7 @@ I do think that the CI as a category - this is the market of CI platforms. I thi
 
 **Jerod Santo:** You've tested it or you imploded one?
 
-**Adam Stacoviak:** \[00:23:52.03\] Well, I write all of our archives to 7Z, and that process, the algorithm to compress is almost half. And so that's where I'd test it. So I have a script that will loop through directories - and they're usually 5-10 gigabytes. So it's got to compress by half multiple directories. And sometimes I'll do them in a batch. I'll just make a list of them; it could be 20... It could be like "JS Party, whatever through whatever. Move it into archive." And I'm like, this thing will clock out at 100% CPU utilization, and it'd be 205 degrees for as long as it takes. It could be hours. And lately, I'm just like "How far can I push this thing?" and it just does not die. It just won't. So you've got so much to use there. All cores, 100%, for an hour and a half. No melting.
+**Adam Stacoviak:** \[23:52\] Well, I write all of our archives to 7Z, and that process, the algorithm to compress is almost half. And so that's where I'd test it. So I have a script that will loop through directories - and they're usually 5-10 gigabytes. So it's got to compress by half multiple directories. And sometimes I'll do them in a batch. I'll just make a list of them; it could be 20... It could be like "JS Party, whatever through whatever. Move it into archive." And I'm like, this thing will clock out at 100% CPU utilization, and it'd be 205 degrees for as long as it takes. It could be hours. And lately, I'm just like "How far can I push this thing?" and it just does not die. It just won't. So you've got so much to use there. All cores, 100%, for an hour and a half. No melting.
 
 **Jerod Santo:** Nice.
 
@@ -222,7 +222,7 @@ So that affects everyone in the organization - application developer, all the wa
 
 **Solomon Hykes:** I think that person uses Dagger to push work to other people in the organization, so that they don't become a bottleneck. Or they are a bottleneck, so that they can stop being a bottleneck... Because one of the downsides of the thing not being \[unintelligible 00:27:13.10\] the thing being the pipeline, the factory - is that, well, it's not familiar to any of the development teams. So they don't want to touch it. And whether it's GitHub Actions, or Jenkins, or whatever the factory is, all the developers have to use it. They have this harness to use. But for them it's like commuting to the big factory. They just \[unintelligible 00:27:36.21\] and they go; someone tells them where to push the buttons. And they can't wait to get out of there, because it's not theirs. And if there's a missing tool for them to be productive, like "Oh, there's this build tool I'm using. It's missing from the factory." There's an idea box, I guess... But they're not going to go and mess with it anymore than they need to. But then who is? Well, the platform people who built the factory, now it's their job to do that. But they don't know, they're not familiar with the tool they're supposed to integrate.
 
-\[00:28:09.13\] And there's sort of an exponential scale problem where -- you know, there's a matrix problem. Those teams we were talking about before, the Go team, Python team... There's an ML team now somewhere, and they've got a whole bunch of new tools. They're like "Oh, here's the model... Can we just deploy that now?" And the DevOps team usually is like "I don't know how any of this works."
+\[28:09\] And there's sort of an exponential scale problem where -- you know, there's a matrix problem. Those teams we were talking about before, the Go team, Python team... There's an ML team now somewhere, and they've got a whole bunch of new tools. They're like "Oh, here's the model... Can we just deploy that now?" And the DevOps team usually is like "I don't know how any of this works."
 
 **Jerod Santo:** Right.
 
@@ -244,7 +244,7 @@ So that affects everyone in the organization - application developer, all the wa
 
 **Solomon Hykes:** \[unintelligible 00:31:14.21\] that's just one example. But then on the other end of that funnel there's actual products, software products leveraging AI, and it's a trickle right now. That slope is incredibly steep. And along the way, all software engineering best practices basically fly out the window. Nobody knows how to ship the thing. People who know how to ship software don't understand what's going on here, mostly... And then people who do, don't know how to ship software. So I really think it's going to end up being revolutionary in the impact, the kinds of products you can build. But from the stack point of view, I think it's going to be a large, but still incremental upgrade to the stack... But at the end of the day it's still a stack, you've still got to ship it, you've still got to build into this thing. It's still a software engineer's world.
 
-**Gerhard Lazu:** \[00:32:03.03\] This is hopefully a very enjoyable question for all of us, because we get to dream... And we can start with Jerod. What is your dream for Dagger? Because we are a user and using Dagger, what do you wish Dagger did? And it doesn't have to be a timeline, but if you could wish for Dagger to do something for you in your app, what would you wish that it did?
+**Gerhard Lazu:** \[32:03\] This is hopefully a very enjoyable question for all of us, because we get to dream... And we can start with Jerod. What is your dream for Dagger? Because we are a user and using Dagger, what do you wish Dagger did? And it doesn't have to be a timeline, but if you could wish for Dagger to do something for you in your app, what would you wish that it did?
 
 **Jerod Santo:** Give me a million dollars? \[laughter\]
 
@@ -298,7 +298,7 @@ So that affects everyone in the organization - application developer, all the wa
 
 **Solomon Hykes:** And basically, we concluded that there was a missing layer there. It's got to be you, someone who owns your platform, and then someone under that, who makes it possible to do that cost-effectively. So you, your platform team - it could be a team of one, part time, and then under that the operating system, basically. And I think Heroku tried to do that with buildpacks, realized "Oh, it's never gonna work", and we tried to do that with something more custom, container-based, and then we were like "Okay, even that's not enough. We've got to start over."
 
-\[00:36:28.23\] And so the journey has been -- our bet is that the only way to solve this properly at the scale of the whole world of software, which is huge... There's a lot of software factories out there, or they should be factories, and right now they're like workshops... You've got to build the foundation from the ground up. And I would say, okay, Docker was step one; you've got that very bottom foundation. And then if I go to you and say "You have Docker. Now figure it out", you're like "Yeah, I liked Heroku better." And then you ad what we're doing now, these programmable pipelines, with reusable modules... And it's much more abstracted, but still, you're like "Yeah, but I don't want to write my own module. Even if it's a 30-line module, why do I need to write code at all?" But if Gerhard's happy writing that code, I'm happy. And then eventually, we get to the point where Gerhard part-time can actually give you Heroku. But it's your Heroku.
+\[36:28\] And so the journey has been -- our bet is that the only way to solve this properly at the scale of the whole world of software, which is huge... There's a lot of software factories out there, or they should be factories, and right now they're like workshops... You've got to build the foundation from the ground up. And I would say, okay, Docker was step one; you've got that very bottom foundation. And then if I go to you and say "You have Docker. Now figure it out", you're like "Yeah, I liked Heroku better." And then you ad what we're doing now, these programmable pipelines, with reusable modules... And it's much more abstracted, but still, you're like "Yeah, but I don't want to write my own module. Even if it's a 30-line module, why do I need to write code at all?" But if Gerhard's happy writing that code, I'm happy. And then eventually, we get to the point where Gerhard part-time can actually give you Heroku. But it's your Heroku.
 
 **Jerod Santo:** Right.
 
@@ -318,7 +318,7 @@ So that affects everyone in the organization - application developer, all the wa
 
 **Gerhard Lazu:** As we prepare to wrap this up, I have one last question for Solomon. I know Christmas is far away, but people have to buy presents, and prepare... \[laughter\] So people that are listening to this, that are thinking "Oh, what should I get Solomon for Christmas?" \[laughter\] Do you have a few items that you would like? It can be whatever, it doesn't matter. It can be tech-related if you want, or not... And if anyone else has anything to add... Because by the way, I already got my Christmas present, so I'm good... \[laughs\] We were talking about it the other day, but... Anyways, back to Solomon.
 
-**Jerod Santo:** \[00:40:07.06\] What do you want for Christmas, Solomon?
+**Jerod Santo:** \[40:07\] What do you want for Christmas, Solomon?
 
 **Solomon Hykes:** Yeah, that's tough, you know... Yeah, I have family members who always ask me this and I never know what to answer, but... I love tea, like I mentioned before. So you can get me tea. That's always appreciated.
 
@@ -358,7 +358,7 @@ So that affects everyone in the organization - application developer, all the wa
 
 **Solomon Hykes:** Thank you.
 
-**Break:** \[00:41:39.24\]
+**Break:** \[41:39\]
 
 **Jerod Santo:** So... Tammer and James from SuperOrbital. Welcome, guys.
 
@@ -392,7 +392,7 @@ That's been my favorite talk of the conference so far, was hearing from one of t
 
 **James McShane:** And one of the things that's useful to do as well is connecting with folks ahead of time that, you know, you search through the conference schedule, and - you know, I knew John was talking... But there are a couple folks as well that I reached out to ahead of time, and had some conversation... And I think when you can combine that hallway track with the real -- you know, you put all those pieces together, and that's when you can get... You know, hey, conference talks can sometimes have a little bit more shine than the reality, and so you get behind the curtain a little bit... And we had a great conversation with a couple folks yesterday who are speaking today, and when you're able to really get to that depth of "Where did you fail along the way?", oftentimes those are the things you learn the most from as well.
 
-**Tammer Saleh:** \[00:52:15.04\] You know, I just got done saying that I don't like going to the talks, and for the most part it's true, but that is the one useful thing, is when somebody's gonna be talking about a technology you're interested in, and you're going to the talk pretty much just so that you can come up to them afterwards and say "Yeah, okay, that's great. Thank you so much. Wonderful talk, but... Let's get real, when did it break down?" \[laughs\] Right? This is three months on from that; how has it been actually shining since?
+**Tammer Saleh:** \[52:15\] You know, I just got done saying that I don't like going to the talks, and for the most part it's true, but that is the one useful thing, is when somebody's gonna be talking about a technology you're interested in, and you're going to the talk pretty much just so that you can come up to them afterwards and say "Yeah, okay, that's great. Thank you so much. Wonderful talk, but... Let's get real, when did it break down?" \[laughs\] Right? This is three months on from that; how has it been actually shining since?
 
 **Gerhard Lazu:** I think the people that bring various perspectives, whether you're preparing for a talk, whether you're preparing for a conversation, recorded, not record, it doesn't really matter, it's like, those different perspectives, they all come together, and there's something for everyone. Even if you're into bubble machines, you will find them here, and they're fun, right? \[laughter\] Hopefully, it's not just that. It would be a bad place to come just for that, but that is happening. It's a bit of everything for everyone.
 
@@ -462,7 +462,7 @@ episode.
 
 **Gerhard Lazu:** Alright...
 
-**Jerod Santo:** \[00:56:03.18\] "I want my 61 seconds back..." \[laughter\] "Such a vacuous video." "I loved the part where they never mentioned what the fatal flaws were..." \[laughter\] "This video will age like milk when Nix takes over the world." "Tammer Saleh has no idea what he's talking about." \[laughter\]
+**Jerod Santo:** \[56:03\] "I want my 61 seconds back..." \[laughter\] "Such a vacuous video." "I loved the part where they never mentioned what the fatal flaws were..." \[laughter\] "This video will age like milk when Nix takes over the world." "Tammer Saleh has no idea what he's talking about." \[laughter\]
 
 **Tammer Saleh:** To be fair, that last quote you got from somewhere else. That's a pretty common quote on the internet.
 
@@ -486,7 +486,7 @@ That being said, I know there's a lot of initiatives to fix Nix's usability, and
 
 The third is as just a package distribution system. So Docker Hub is the third, right? Docker Build, Docker Run, Docker Hub. Nix solves the last two. Nix solves the packaging your application and its dependencies better than Docker does, right? Too many people don't understand that if you run Docker build twice, and you're not careful about your layer caches, you're not going to get the same result. I hate that about Docker. You remember Bosh... Bosh got that right. Nix is a better version of that, right?
 
-**James McShane:** \[00:59:56.02\] Yeah, yeah.
+**James McShane:** \[59:56\] Yeah, yeah.
 
 **Tammer Saleh:** But still, Docker solves it for the masses. The masses don't care about that one little niggly part of Docker Build. The masses are just like "Whatever. It's Docker. It's everywhere, right?" And Docker Hub solves the distribution problem. I want to install NGINX, I just docker run NGINX. Done. Nix also solves the distribution problem, but Docker's got more momentum. So everybody has a Docker image. Not everybody's got a Nix -- what is it
 
