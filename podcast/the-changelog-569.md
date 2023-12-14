@@ -28,7 +28,7 @@
 
 **Adam Stacoviak:** What's the why behind that?
 
-**Drew DeVault:** \[00:08:01.22\] Okay, yeah, you're right. So basically, I have all kinds of ideas of stuff I want to work on, because I find it fun or interesting or useful to me... And there was a lot of stuff I wanted to build, that I felt that the tools I had available to me at the time were not really ideal for that purpose. And so I'm yak-shaving. I had to invent the programming language to make these projects that I want to write with it better.
+**Drew DeVault:** \[08:01\] Okay, yeah, you're right. So basically, I have all kinds of ideas of stuff I want to work on, because I find it fun or interesting or useful to me... And there was a lot of stuff I wanted to build, that I felt that the tools I had available to me at the time were not really ideal for that purpose. And so I'm yak-shaving. I had to invent the programming language to make these projects that I want to write with it better.
 
 **Jerod Santo:** Oh, okay. Going all the way back to the language itself.
 
@@ -72,7 +72,7 @@ Sometimes those projects end up providing some kind of financial or revenue stre
 
 **Drew DeVault:** Yeah, so it's myself, my colleagues Simon Ser and Hoffmann, and... It's just three of us. We occasionally have contractors that come on board to help out with this or that, but we're the full-time employees. And our goal, again, is - it's very kind of self-directed at the discretion of our engineers. So we work together on what we think is important together, and we work independently on what we think is important independently. And we also engage with the larger community. So we're full-time maintainers of our own projects, and we contribute to a wide variety of projects in the ecosystem.
 
-\[00:12:03.01\] So our motivations and our structure is essentially the same as any other free software contributor. We work on what's important to us, or what we care about, or what we depend on, but we've built a structure wherein we can engage in that kind of work and make money from it.
+\[12:03\] So our motivations and our structure is essentially the same as any other free software contributor. We work on what's important to us, or what we care about, or what we depend on, but we've built a structure wherein we can engage in that kind of work and make money from it.
 
 **Adam Stacoviak:** Are you all close geographically?
 
@@ -92,7 +92,7 @@ And from a philosophical or like inspirational point of view, as to like "Why do
 
 **Drew DeVault:** You know, it's something of a mix of all of those factors. So even when I started Sourcehut there were existing free software solutions which were seeking to be competitive with GitHub. So like GitLab, for example, already existed, and Gitea, and a number of other platforms as well. Something that kind of like GitLab, and Gitea, and a couple of others have in common is that they're really forward about trying to compete with the GitHub market on GitHub's terms.
 
-\[00:16:07.23\] And it's a little bit disingenuous to say this; I know that these platforms have their own appeal, and their own design sensibilities... But to some extent, they're all clones of GitHub. And so Sourcehut is not a clone of GitHub; it is what we believe is a better way to write software. It's inspired by the way Git was designed to work by Linus Torvalds, the way that it's used for Linux kernel development, and we have a philosophy of working on free software with a workflow that we have built into Sourcehut, which is distinctly very different from the GitHub workflow.
+\[16:07\] And it's a little bit disingenuous to say this; I know that these platforms have their own appeal, and their own design sensibilities... But to some extent, they're all clones of GitHub. And so Sourcehut is not a clone of GitHub; it is what we believe is a better way to write software. It's inspired by the way Git was designed to work by Linus Torvalds, the way that it's used for Linux kernel development, and we have a philosophy of working on free software with a workflow that we have built into Sourcehut, which is distinctly very different from the GitHub workflow.
 
 And so it's its own thing, and we think it's important that it's its own thing, but it's also to some extent a response to the fact that the majority of open source software is using a closed source platform, and we do believe that's very important for free software projects to depend on free software infrastructure.
 
@@ -122,7 +122,7 @@ And from the maintainer's side, it's even faster, because I get so many emails -
 
 **Drew DeVault:** Oh, I'm an inbox zero guy, too. I just have 500 emails in my inbox. Those are all actionable in the near future.
 
-**Jerod Santo:** \[00:20:08.10\] Okay. So you're an inbox zero guy who's drowning at the moment...
+**Jerod Santo:** \[20:08\] Okay. So you're an inbox zero guy who's drowning at the moment...
 
 **Drew DeVault:** No, no, I'm not drowning. It's manageable because I use this workflow.
 
@@ -160,7 +160,7 @@ And from the maintainer's side, it's even faster, because I get so many emails -
 
 **Drew DeVault:** Yeah, so Hare is a systems programming language, and it compiles down to machine code, and you can use it for a whole lot of low-level use cases for that reason. I'm writing this kernel with it, and we're doing a bunch of other stuff along those lines of that.
 
-\[00:24:02.29\] It has a syntax which comes from the C lineage, it has braces, and it has those fixed expressions, these kinds of things you would expect from a C derivative syntax like JavaScript, Java; these are similar syntaxes. And it gives you the tools you need to do a lot of the same stuff C does. So it can feel like you have the power of C, but it also has 50 years of hindsight that C didn't, and so it has a lot of features which kind of address paper cuts in the space that C is occupying right now. We have better error handling through tagged unions; that feels very comfortable to use, so you can write more robust code more easily. We have things like slices, which is a sorely missing feature from C. We have better string support, and we have a handful of safety features - nowhere near what Rust does, for example, but things that were sorely missed for C programmers... And we let you take the training wheels off as well. So if you need to do something in a kernel context, writing a driver with unsafe memory patterns, it's easy to do that in Hare.
+\[24:02\] It has a syntax which comes from the C lineage, it has braces, and it has those fixed expressions, these kinds of things you would expect from a C derivative syntax like JavaScript, Java; these are similar syntaxes. And it gives you the tools you need to do a lot of the same stuff C does. So it can feel like you have the power of C, but it also has 50 years of hindsight that C didn't, and so it has a lot of features which kind of address paper cuts in the space that C is occupying right now. We have better error handling through tagged unions; that feels very comfortable to use, so you can write more robust code more easily. We have things like slices, which is a sorely missing feature from C. We have better string support, and we have a handful of safety features - nowhere near what Rust does, for example, but things that were sorely missed for C programmers... And we let you take the training wheels off as well. So if you need to do something in a kernel context, writing a driver with unsafe memory patterns, it's easy to do that in Hare.
 
 And then we also have a standard library for Hare, which is, in my opinion, significantly better than C. I think one of the \[unintelligible 00:25:13.01\] parts of C is the standard library, and with 50 years of hindsight and a bunch of other languages for inspiration, we were able to come up with something a lot better.
 
@@ -172,7 +172,7 @@ And then we also have a standard library for Hare, which is, in my opinion, sign
 
 **Drew DeVault:** I mean, we do have different ideals. Zig predates Hare, and I actually investigated Zig and was fairly optimistic about it as like "Maybe this is the answer to the problems I'm trying to solve." And I didn't think it was. I think Zig's a really cool language, with a lot of cool ideas, and it was one of the closest things I've found to what I needed, but it wasn't quite there. And Hare is different in many ways, especially in terms of design and philosophy, but the languages are capable of similar things.
 
-**Break:** \[00:26:53.04\]
+**Break:** \[26:53\]
 
 **Jerod Santo:** So let's get back to the 100-year aspect of it then. So you put out on this post - which we'll link to - "Hare aims to become a 100-year programming language", five points which are important for this purpose. I thought maybe we could breeze through these and camp out on areas that we find interesting. The first one is that conservatism is in the language design. The second one is the importance of the standard. Three is the necessity of a feature freeze. Four, defining long-term API stability goals, and five, fostering a culture that values stability. That one might be the hardest, as we software developers tend to value anything but stability, right?
 
@@ -200,7 +200,7 @@ So Zig, for example, one of it big value-adds or selling points is the comp time
 
 **Drew DeVault:** Yeah. And there was this point you mentioned about the feature freeze; this is a goal that we have which ties into that, which is that when we finish designing the language, when we finish writing the specification, and we finalize the compiler, or the grammar and the syntax and the semantics, we're going to say "It's done" and call that 1.0, and there will never be a 2.0. We're going to commit to not making breaking changes or adding new features even to the core language, ever, once we're done with it.
 
-**Adam Stacoviak:** \[00:34:08.03\] How in the world do you do that? Wow. It's like JSON all over again.
+**Adam Stacoviak:** \[34:08\] How in the world do you do that? Wow. It's like JSON all over again.
 
 **Jerod Santo:** You say no to everything else. \[laughter\]
 
@@ -242,7 +242,7 @@ So Zig, for example, one of it big value-adds or selling points is the comp time
 
 **Drew DeVault:** Yeah, that's probably a virtue, is the ability just to not care so much, and just name it Hare. Well, I thought it was because it was fast, or something... I was trying to figure out why. Then I saw your 100-year thing, and I'm like "Well, he's not going for the tortoise versus hare metaphor", because that would be backwards.
 
-**Drew DeVault:** \[00:38:15.20\] No. It's named Hare because of the cute mascot. The mascot came first and the language came later.
+**Drew DeVault:** \[38:15\] No. It's named Hare because of the cute mascot. The mascot came first and the language came later.
 
 **Jerod Santo:** Yeah, mascot-driven naming. There you go. Which one came first, the hare or the name...? Okay, so we have the importance of the standard. Conservatism - I just feel like that's going to be so hard. Because a) like you said, it's really hard to call something finished and good... Right? And sometimes you can just quit.
 
@@ -264,7 +264,7 @@ And as it stands today, Hare is a useful programming language that people are al
 
 **Drew DeVault:** Well, Linux is frozen in a sense, which is that the cardinal rule of Linux is "We never break user space." And so Linux is infamously unstable in terms of like if you compiled a binary five years ago, you can't run it today. But that's entirely because the userspace is unstable. And glibc does symbol breakage all the time.
 
-\[00:41:56.12\] If you were to statically link something where it just relies on the Linux syscall ABI, or on the SYSFS or PROCFS layouts, that kind of thing; if it's just talking to the kernel, something that you wrote 20 years ago for Linux in this manner would still run today, because Linux has made that guarantee.
+\[41:56\] If you were to statically link something where it just relies on the Linux syscall ABI, or on the SYSFS or PROCFS layouts, that kind of thing; if it's just talking to the kernel, something that you wrote 20 years ago for Linux in this manner would still run today, because Linux has made that guarantee.
 
 **Adam Stacoviak:** So what's wrong with LTS'es then? Like LTS-ing a version, like a long-term support kind of thing, where you can stabilize to a degree over a period of time, provide support to it? Does that not provide enough encapsulation or enough -- what was the word you used before, like freezing it? Or what did you say before?
 
@@ -310,17 +310,17 @@ And also, Hare is significantly simpler than Linux, and it has a fixed scope. Wh
 
 **Drew DeVault:** Yeah.
 
-**Break**: \[00:44:38.16\]
+**Break**: \[44:38\]
 
-**Jerod Santo:** Here's the one that I can't get over quite, because you know, I am a working programmer, believe it or not... "Fostering a culture that values stability." So I do have some years behind me, so I value stability, but I also have that childlike wonder of the new and shiny, that I just can't get rid of no matter how many of my hairs turn gray... Are you going to find enough people to care about that, that Hare becomes actually -- because really, what will probably make Hare last 100 years is that people are still finding it useful n years from now. So the user base, which - is it going to appeal to folks when Rust is adding new things, maybe Zig's adding new things, and maybe some brand new feature comes out 10 years from now that you've just got to have, but Hare doesn't have it because it's feature-frozen? How are you gonna get that community base going?
+**Jerod Santo:** Here's the one that I can't get over quite, because you know, I am a working programmer, believe it or not... "Fostering a culture that values stability." So I do have some years behind me, so I value stability, but I also have that childlike wonder of the new and shiny, that I just can't get rid of no matter how many of my hairs turn gray... Are you going to find enough people to care about that, that Hare becomes actually -- because really, what will probably make Hare last 100 years is that people are still finding it useful N years from now. So the user base, which - is it going to appeal to folks when Rust is adding new things, maybe Zig's adding new things, and maybe some brand new feature comes out 10 years from now that you've just got to have, but Hare doesn't have it because it's feature-frozen? How are you gonna get that community base going?
 
 **Drew DeVault:** Well, that's a really good question. And this is the hardest part in all of these goals, is fostering a culture of stability. I don't think in terms of scale; we don't have ambitions to be especially popular. We just want to be good, and if people like it, they'll use it. But it is an important question, because yeah, if nobody's using it to write cool software, then there's no point for it to be stable for that long. And I think we attract people because Hare is really fun to write, and you can do a lot of stuff with it... And it's super-fast, you can bootstrap the entire tool chain from scratch, including the backend, which is not LLVM, in three and a half minutes, including running all of the tests. The compiler is super-fast, it's a very pleasant workflow to use... And we have great documentation tools that feel really good to use... And a lot of people feel like they get their Hare code right on the first try. Especially, they get their APIs right, which is really the most important part of designing software, is to get your interfaces right. And people feel like they just know how to express their interface goal in Hare in the one true way of writing Hare.
 
 And so there's all of these things about writing Hare as an experience that feels really good. And a lot of those things that feel really good, like making it easy to design a good interface, also lend themselves to supporting the stability goals. Because if you make a bad interface, you have to make a breaking change to do another one. And so we want Hare to just be a good language, which is enjoyable to use, and applicable to a lot of projects in the systems programming space. And we think if we build that, people will come. But we don't actually set it as an explicit goal. We make it good because we want it to be good for us, not necessarily because we want to take over the world.
 
-\[00:52:27.13\] But that's kind of secondary to the whole culture of stability thing, which - you know, you're right, people love shiny, new things, and that's an instinct which we're trying to kind of push back against... And that's probably one of the hardest goals for stability that we're trying to take on. But I think it's working. And I don't know if it's going to scale, but what we're doing right now seems to be working. And the way we're doing it is Hare is a community which is growing a little bit more every day; it's kind of small, but it's also a little bit closer-knit, and we focus on making a place where people feel comfortable participating. And we have kind of a close community where we can not just collaborate, but also share values. And so if somebody comes into the project, and we make it easy for them to participate in our discourse, they're exposed to our ways of thinking, and understand how we value stability and why we value stability, and how they can apply those values to productive purpose.
+\[52:27\] But that's kind of secondary to the whole culture of stability thing, which - you know, you're right, people love shiny, new things, and that's an instinct which we're trying to kind of push back against... And that's probably one of the hardest goals for stability that we're trying to take on. But I think it's working. And I don't know if it's going to scale, but what we're doing right now seems to be working. And the way we're doing it is Hare is a community which is growing a little bit more every day; it's kind of small, but it's also a little bit closer-knit, and we focus on making a place where people feel comfortable participating. And we have kind of a close community where we can not just collaborate, but also share values. And so if somebody comes into the project, and we make it easy for them to participate in our discourse, they're exposed to our ways of thinking, and understand how we value stability and why we value stability, and how they can apply those values to productive purpose.
 
-And we also have design decisions which also kind of nudge you into that. We have, for example, no package manager. We don't want to have an Npm situation where you have 1,000 dependencies \[unintelligible 00:53:41.17\] And so we have both a small number of technical things, but mostly we just have this discourse where the way we talk about Hare, and the way we talk about values within the project causes people to, as they acclimate to the culture of the Hare community and start learning Hare and seeking help from experts on Hare, they kind of start to get it. And this is a big experiment, and it's a social experiment, so who knows, but we're trying to make the culture value that. And it's something we're deliberately trying to do, but it's also, by far, the hardest goal.
+And we also have design decisions which also kind of nudge you into that. We have, for example, no package manager. We don't want to have an npm situation where you have 1,000 dependencies \[unintelligible 00:53:41.17\] And so we have both a small number of technical things, but mostly we just have this discourse where the way we talk about Hare, and the way we talk about values within the project causes people to, as they acclimate to the culture of the Hare community and start learning Hare and seeking help from experts on Hare, they kind of start to get it. And this is a big experiment, and it's a social experiment, so who knows, but we're trying to make the culture value that. And it's something we're deliberately trying to do, but it's also, by far, the hardest goal.
 
 **Jerod Santo:** Where does that community exist?
 
@@ -334,7 +334,7 @@ And we also have design decisions which also kind of nudge you into that. We hav
 
 **Drew DeVault:** I mean, we've also been deliberate about accommodating the community as it grows. So you know, it's small, but we have 100 people working on Hare. And we recently did a bunch of reforms to the governance structure. We added more maintainers and we subdivided the project into subsystems, and assigned specific maintainer to those subsystems. We set up a code of conduct, and we created a social space for the community... And so we're taking these measures as it grows; we're watching it grow, and we're identifying where things aren't working, and then we're changing and adapting.
 
-\[00:56:06.17\] So far, we were able to preserve our culture by doing that. And it's not known if as it goes bigger and bigger, or if it grows bigger and bigger, if we'll still be able to do that, but it's something that so far -- we have had to deal with growth, and we've done it in a way which was measured and good for our community, and allowed our culture to persist.
+\[56:06\] So far, we were able to preserve our culture by doing that. And it's not known if as it goes bigger and bigger, or if it grows bigger and bigger, if we'll still be able to do that, but it's something that so far -- we have had to deal with growth, and we've done it in a way which was measured and good for our community, and allowed our culture to persist.
 
 **Adam Stacoviak:** Have y'all met in public yet, face to face, IRL? You said only mailing lists, only IRC...
 
@@ -382,7 +382,7 @@ And so it can store all kinds of secrets, and I do have a Firefox add-on to fill
 
 **Jerod Santo:** Very cool. So I think that is a great starting place for anybody who's curious about Hare. Perhaps. Maybe there's a better starting place; just to like check out a real-world Hare codebase that's serving a purpose for Drew. Or is there a better place for folks who are just interested in the language itself, and seeing what it looks like, how you can compile it and run it, and like a real-world program that's written in Hare?
 
-**Drew DeVault:** \[00:59:51.29\] We do have a great tutorial on the website, which includes instructions on how to compile it. If you build everything from scratch, you're up and running in three minutes; maybe five minutes, I'll be generous. And we think the tutorial's great. It's a good introduction to the language features, presented well, I hope... And if you just want to see the language and learn about it, go there, and if you want to see real Hare code, Himitsu is great.
+**Drew DeVault:** \[59:51\] We do have a great tutorial on the website, which includes instructions on how to compile it. If you build everything from scratch, you're up and running in three minutes; maybe five minutes, I'll be generous. And we think the tutorial's great. It's a good introduction to the language features, presented well, I hope... And if you just want to see the language and learn about it, go there, and if you want to see real Hare code, Himitsu is great.
 
 We also have kind of a stock project for people who want to look into Hare, or do their first real contribution by writing Hare, which is hautils, which is an implementation of the POSIX core utilities, written in Hare. It's not like a particularly serious project that we expect people to like install and use, but POSIX is standardized, and it's just good, bite-sized, real-world problems for people to solve. That's a good place to see how those problems are solved, and maybe to solve one of those problems yourself.
 
