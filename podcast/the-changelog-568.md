@@ -114,7 +114,7 @@ And so not only does it work, but after a few tries - I'll spare you the details
 
 **Adam Stacoviak:** No.
 
-**Gerhard Lazu:** Nothing? Oh, wow. Okay. Well, after this, when we stop recording, maybe I can show you a few... Even though \[unintelligible 00:14:41.21\] have been amazing.
+**Gerhard Lazu:** Nothing? Oh, wow. Okay. Well, after this, when we stop recording, maybe I can show you a few... Even though they might not be set up. have been amazing.
 
 **Jerod Santo:** We only watch the demos where you might win $100 at the end...
 
@@ -130,9 +130,9 @@ And so not only does it work, but after a few tries - I'll spare you the details
 
 **Gerhard Lazu:** Wow, okay... \[laughter\]
 
-**Jerod Santo:** And I felt bad for it, so I was like "Okay, I'll sit there..." And the funny thing was, I don't even -- I honestly can't remember what the demo was, but she sat me four feet from the screen, and the guy is projecting for the audience, and I'm like \[unintelligible 00:15:15.19\] So I just basically -- I got on my phone and just played on my phone for 10 minutes, until it was over.
+**Jerod Santo:** And I felt bad for it, so I was like "Okay, I'll sit there..." And the funny thing was, I don't even -- I honestly can't remember what the demo was, but she sat me four feet from the screen, and the guy is projecting for the audience, and I'm like, "This is going to burn my retinas." So I just basically -- I got on my phone and just played on my phone for 10 minutes, until it was over.
 
-**Adam Stacoviak:** \[unintelligible 00:15:23.06\]
+**Adam Stacoviak:** It was \[REDACTED\] (😉)
 
 **Jerod Santo:** Don't name and shame them, man...
 
@@ -156,15 +156,11 @@ And so not only does it work, but after a few tries - I'll spare you the details
 
 **Solomon Hykes:** That's crazy.
 
-**Jerod Santo:** \[15:45\] Yeah. This might sound bad, but - it doesn't feel bad... Well, maybe it does. It's kind of a carnival thing going on. Like they're a fair in the expo hall. You guys are in your spot, so you probably don't see it as much, because you're just at your booth. But there's a lot of people who are vying for attention. And these companies with lots of big budgets, and flashiness, and all these things... And I mean, it's huge here. I've never been to an expo hall this size. I've never done like a Comic Con, or - what's the big one? CES...
-
-**Gerhard Lazu:** \[unintelligible 00:16:10.13\]
-
-**Jerod Santo:** Yeah... Where these are like tens of thousands of people in expo halls. So this is new to me. I've done smaller events where there's booths, but it's not like a carnival or a fair. I mean, they -- it's difficult to get people to pay attention to what you're doing, and so people pull out all the stops, such as giveaways, people on microphones literally calling you over, similar to a county fair where a guy wants you to --
+**Jerod Santo:** \[15:45\] Yeah. This might sound bad, but - it doesn't feel bad... Well, maybe it does. It's kind of a carnival thing going on. Like they're a fair in the expo hall. You guys are in your spot, so you probably don't see it as much, because you're just at your booth. But there's a lot of people who are vying for attention. And these companies with lots of big budgets, and flashiness, and all these things... And I mean, it's huge here. I've never been to an expo hall this size. I've never done like a Comic Con, or - what's the big one? CES... Where these are like tens of thousands of people in expo halls. So this is new to me. I've done smaller events where there's booths, but it's not like a carnival or a fair. I mean, they -- it's difficult to get people to pay attention to what you're doing, and so people pull out all the stops, such as giveaways, people on microphones literally calling you over, similar to a county fair where a guy wants you to --
 
 **Solomon Hykes:** Step right up.
 
-**Jerod Santo:** Step right up. Yeah, exactly. So that's what we've been experiencing... \[unintelligible 00:16:40.02\]
+**Jerod Santo:** Step right up. Yeah, exactly. So that's what we've been experiencing...
 
 **Adam Stacoviak:** Very interesting.
 
@@ -202,7 +198,7 @@ I do think that the CI as a category - this is the market of CI platforms. I thi
 
 **Jerod Santo:** What are the technical limitations? Is it the ability of your local dev environment to run, to do builds fast, to do tests fast? What has been holding dev back, that's no longer -- I mean, is it our M3 Macs that just make it not matter anymore? Is it software?
 
-**Solomon Hykes:** I think it's a combination of things. One is containers had to exist and be ubiquitous, because you needed a way to make all that stuff reproducible; otherwise it's not worth it. There's a family of tech called DAG tech that just had to mature. The ability to execute tasks in parallel, with \[unintelligible 00:22:11.06\] as a graph... I mean, make has been doing that forever, but it's been kind of doing it on its own. But recently, in the last 10 years, you've seen things like Bazel, Buck, Nix... Everyone's sort of independently exploring this model. And it's really matured, and one of the big benefits, honestly, is caching. So everything's got to be cached, or cacheable, for the thing to make sense. I think also just the amount of computing power that's available, I guess... I mean, we joke that the biggest -- you know, we ask teams, "In your organization what's your number one provider of CI compute?" People are like "Well, we did the migration from Jenkins to GitHub Actions, so I guess maybe Azure now... No, I guess it's still the original..." But the answer usually is Apple. So you've got these beasts on every desk. That can run all that stuff just really well. And people don't realize it, because there's this software blockage. You've got this platform there, in the sky, and you can't run it locally, so no one's trying... But if you try, and you add caching, and you add containerization, you're like "Wow, this is actually not as big as I thought it was. Why am I paying $5,000 a month to run this, and it just completed in three, four seconds on my Mac?"
+**Solomon Hykes:** I think it's a combination of things. One is containers had to exist and be ubiquitous, because you needed a way to make all that stuff reproducible; otherwise it's not worth it. There's a family of tech called DAG tech that just had to mature. The ability to execute tasks in parallel, with dependencies modeled as a graph... I mean, make has been doing that forever, but it's been kind of doing it on its own. But recently, in the last 10 years, you've seen things like Bazel, Buck, Nix... Everyone's sort of independently exploring this model. And it's really matured, and one of the big benefits, honestly, is caching. So everything's got to be cached, or cacheable, for the thing to make sense. I think also just the amount of computing power that's available, I guess... I mean, we joke that the biggest -- you know, we ask teams, "In your organization what's your number one provider of CI compute?" People are like "Well, we did the migration from Jenkins to GitHub Actions, so I guess maybe Azure now... No, I guess it's still the original..." But the answer usually is Apple. So you've got these beasts on every desk. That can run all that stuff just really well. And people don't realize it, because there's this software blockage. You've got this platform there, in the sky, and you can't run it locally, so no one's trying... But if you try, and you add caching, and you add containerization, you're like "Wow, this is actually not as big as I thought it was. Why am I paying $5,000 a month to run this, and it just completed in three, four seconds on my Mac?"
 
 **Adam Stacoviak:** Have you ever tested a MacBook to see how long you can run it at 100% CPU utilization? You can run that thing at 205 degrees for about hours before it implodes. I know because I've done it. \[laughter\]
 
@@ -220,7 +216,7 @@ So that affects everyone in the organization - application developer, all the wa
 
 **Gerhard Lazu:** And how do you imagine this person using Dagger? So in the ideal world, this person, the right person has Dagger at their command. How do they use it for their day to day job? What does that look like?
 
-**Solomon Hykes:** I think that person uses Dagger to push work to other people in the organization, so that they don't become a bottleneck. Or they are a bottleneck, so that they can stop being a bottleneck... Because one of the downsides of the thing not being \[unintelligible 00:27:13.10\] the thing being the pipeline, the factory - is that, well, it's not familiar to any of the development teams. So they don't want to touch it. And whether it's GitHub Actions, or Jenkins, or whatever the factory is, all the developers have to use it. They have this harness to use. But for them it's like commuting to the big factory. They just \[unintelligible 00:27:36.21\] and they go; someone tells them where to push the buttons. And they can't wait to get out of there, because it's not theirs. And if there's a missing tool for them to be productive, like "Oh, there's this build tool I'm using. It's missing from the factory." There's an idea box, I guess... But they're not going to go and mess with it anymore than they need to. But then who is? Well, the platform people who built the factory, now it's their job to do that. But they don't know, they're not familiar with the tool they're supposed to integrate.
+**Solomon Hykes:** I think that person uses Dagger to push work to other people in the organization, so that they don't become a bottleneck. Or they are a bottleneck, so that they can stop being a bottleneck... Because one of the downsides of the thing not being code... the thing being the pipeline, the factory - is that, well, it's not familiar to any of the development teams. So they don't want to touch it. And whether it's GitHub Actions, or Jenkins, or whatever the factory is, all the developers have to use it. They have this harness to use. But for them it's like commuting to the big factory. They just go to work and they go; someone tells them where to push the buttons. And they can't wait to get out of there, because it's not theirs. And if there's a missing tool for them to be productive, like "Oh, there's this build tool I'm using. It's missing from the factory." There's an idea box, I guess... But they're not going to go and mess with it anymore than they need to. But then who is? Well, the platform people who built the factory, now it's their job to do that. But they don't know, they're not familiar with the tool they're supposed to integrate.
 
 \[28:09\] And there's sort of an exponential scale problem where -- you know, there's a matrix problem. Those teams we were talking about before, the Go team, Python team... There's an ML team now somewhere, and they've got a whole bunch of new tools. They're like "Oh, here's the model... Can we just deploy that now?" And the DevOps team usually is like "I don't know how any of this works."
 
@@ -238,17 +234,17 @@ So that affects everyone in the organization - application developer, all the wa
 
 **Jerod Santo:** And obviously, the AI gold rush is on... And so if you think about what the pick axe is for the AI gold rush - well, you may think it's the models. It seems like maybe that's kind of true, but also in the long-term is it going to be false, as those become commoditized? But maybe the ability to deploy the models, the tooling around actually taking that stuff from a Jupyter Notebook into production in a way that's reproducible and not expensive, and doesn't run your cloud bill up insane is the kind of tools that people are going to need in order to find the gold, so to speak.
 
-**Solomon Hykes:** Yeah, exactly. We're seeing the beginning of that. But what's interesting is MLOps today is 99% experiments in training. It's either ML research teams training models, fine-tuning models or whatever, or a gazillion people messing around because it's fun. No product in sight. And then you have the steepest funnel in the world, where these, I don't know how many -- if you go to these online communities, it's insane, the number of people in there. But there's everything in there. There's graphic artists that's been playing with generative AI for images, and they're in there messing with it... So it's the graphic designer, to webmaster, to web designer, to web developer...
+**Solomon Hykes:** Yeah, exactly. We're seeing the beginning of that. But what's interesting is MLOps today is 99% experiments in training. It's either ML research teams training models, fine-tuning models or whatever, or a gazillion people messing around because it's fun. No product in sight. And then you have the steepest funnel in the world, where these, I don't know how many -- if you go to these online communities, it's insane, the number of people in there. But there's everything in there. There's graphic artists that's been playing with generative AI for images, and they're in there messing with it... So it's the graphic designer, to webmaster, to web designer, to web developer... pipeline all over again.
 
 **Gerhard Lazu:** ...to DevOps person...
 
-**Solomon Hykes:** \[unintelligible 00:31:14.21\] that's just one example. But then on the other end of that funnel there's actual products, software products leveraging AI, and it's a trickle right now. That slope is incredibly steep. And along the way, all software engineering best practices basically fly out the window. Nobody knows how to ship the thing. People who know how to ship software don't understand what's going on here, mostly... And then people who do, don't know how to ship software. So I really think it's going to end up being revolutionary in the impact, the kinds of products you can build. But from the stack point of view, I think it's going to be a large, but still incremental upgrade to the stack... But at the end of the day it's still a stack, you've still got to ship it, you've still got to build into this thing. It's still a software engineer's world.
+**Solomon Hykes:** That's just one example. But then on the other end of that funnel there's actual products, software products leveraging AI, and it's a trickle right now. That slope is incredibly steep. And along the way, all software engineering best practices basically fly out the window. Nobody knows how to ship the thing. People who know how to ship software don't understand what's going on here, mostly... And then people who do, don't know how to ship software. So I really think it's going to end up being revolutionary in the impact, the kinds of products you can build. But from the stack point of view, I think it's going to be a large, but still incremental upgrade to the stack... But at the end of the day it's still a stack, you've still got to ship it, you've still got to build into this thing. It's still a software engineer's world.
 
 **Gerhard Lazu:** \[32:03\] This is hopefully a very enjoyable question for all of us, because we get to dream... And we can start with Jerod. What is your dream for Dagger? Because we are a user and using Dagger, what do you wish Dagger did? And it doesn't have to be a timeline, but if you could wish for Dagger to do something for you in your app, what would you wish that it did?
 
 **Jerod Santo:** Give me a million dollars? \[laughter\]
 
-**Gerhard Lazu:** Okay, well, let's start with a hundred... \[unintelligible 00:32:31.08\] Is that how we buy our Oxide Rack? \[laughter\] Is this it?
+**Gerhard Lazu:** Okay, well, let's start with a hundred... Maybe. You maybe get it. Is that how we buy our Oxide Rack? \[laughter\] Is this it?
 
 **Jerod Santo:** Our first Oxide Rack. Our first Oxide rack.
 
@@ -308,7 +304,7 @@ So that affects everyone in the organization - application developer, all the wa
 
 **Solomon Hykes:** Yeah. Heroku would be like "Oh, that's on our roadmap for 2025", and Gerhard's like "Already on it", and then the next day it's there... And it still feels like Heroku. That's the dream, right? But there's this whole layer cake that has to be built, and the reason I'm excited and I can't stop shutting up about it is because I really think we're getting super-close, finally...
 
-**Gerhard Lazu:** Yesterday \[unintelligible 00:38:00.10\]
+**Gerhard Lazu:** Yesterday felt that way.
 
 **Solomon Hykes:** ...and I'd love for this to be complete while I'm still alive... \[laughter\] That would be nice.
 
@@ -340,7 +336,7 @@ So that affects everyone in the organization - application developer, all the wa
 
 **Solomon Hykes:** A hug. A hug from you would be a great Christmas present.
 
-**Gerhard Lazu:** Well, we don't have to wait until Christmas. We can do this right here, right now. \[unintelligible 00:41:00.02\]
+**Gerhard Lazu:** Well, we don't have to wait until Christmas. We can do this right here, right now.
 
 **Solomon Hykes:** You know, I've always wanted an ugly Christmas sweater. That's an American thing, and I always thought it's cool. We don't really have that in France, and...
 
@@ -372,7 +368,7 @@ So that affects everyone in the organization - application developer, all the wa
 
 That's been my favorite talk of the conference so far, was hearing from one of the Istio maintainers really in-depth about how they are maintaining the Istio ecosystem of controllers and how they're thinking about the next evolution of that. So that was a really valuable talk for me.
 
-**Tammer Saleh:** Yeah, you were talking about that one even amongst us beforehand \[unintelligible 00:49:37.29\]
+**Tammer Saleh:** Yeah, you were talking about that one even amongst us beforehand how much you got out of that talk.
 
 **James McShane:** Yeah, absolutely. You get a few talks at the end of the week where it's like "I'm gonna go back with a notebook and a piece of paper and really learn from this in." In-person you listen, but you need to go back and really think through the things that they're saying when it comes down to those highlight talks that you get out of the week.
 
@@ -426,9 +422,7 @@ That's been my favorite talk of the conference so far, was hearing from one of t
 
 **Gerhard Lazu:** Yes, I remember that. Yes.
 
-**Jerod Santo:** That was pretty much my only feedback \[unintelligible 00:54:10.01\] I enjoyed listening to you talk. I thought it was a great
-
-episode.
+**Jerod Santo:** That was pretty much my only feedback. No, this is the compliment. I enjoyed listening to you talk. I thought it was a great episode.
 
 **Gerhard Lazu:** Yeah. Was it your birthday, the first time or the second time? I think we wished you happy birthday. It was the second time, right? I remember that... \[laughs\]
 
@@ -438,13 +432,13 @@ episode.
 
 **Jerod Santo:** So there's the compliment.
 
-**Gerhard Lazu:** Okay. \[laughter\] \[unintelligible 00:54:26.28\]
+**Gerhard Lazu:** Okay. It's the carrot. \[laughter\]
 
 **Jerod Santo:** I enjoyed listening to you. Now, we do clips -- you probably know about this, because I emailed you to write a blog post... So you know where this is headed. So we do clips to promote the shows, pretty standard stuff. And I put together a clip from one of the two episodes - I'm not sure which one. I've put it on YouTube, and it's been one of the most commented on clips that we've had.
 
 **Tammer Saleh:** There's no such thing as bad publicity...
 
-**Jerod Santo:** Yeah. And so the title of the clip, which - I've picked the title; it wasn't you. But it's "NixOS is interesting, but it has fatal flaws." And you mentioned something about Nix's fatal flaw in the video. It's a 60-second video of a much larger conversation. It wasn't even your point... You were making some point about science fiction novels, and \[unintelligible 00:55:08.29\] and it was -- not quintessential; it was... The naivety of what they thought the future might be.
+**Jerod Santo:** Yeah. And so the title of the clip, which - I picked the title; it wasn't you. But it's "NixOS is interesting, but it has fatal flaws." And you mentioned something about Nix's fatal flaw in the video. It's a 60-second video of a much larger conversation. It wasn't even your point... You were making some point about science fiction novels, and Foundation... You had returned to reading Foundation and it was -- not quintessential; it was... The naivety of what they thought the future might be.
 
 **Tammer Saleh:** Just a different path.
 
@@ -466,7 +460,7 @@ episode.
 
 **Tammer Saleh:** To be fair, that last quote you got from somewhere else. That's a pretty common quote on the internet.
 
-**Jerod Santo:** \[unintelligible 00:56:26.09\] if you find the fatal flaw..." \[laughter\] "This guy is just plain wrong." I mean, very good... So the one question that I came prepared with is "What are NixOS'es fatal flaws?" \[laughter\] Because I'd like to let these people know...
+**Jerod Santo:** "Reply here if you find the fatal flaw..." \[laughter\] "This guy is daft. Just plain wrong." I mean, very good... So the one question that I came prepared with is "What are NixOS'es fatal flaws?" \[laughter\] Because I'd like to let these people know...
 
 **Tammer Saleh:** Alright. Okay. Totally fair question. I think that that title might have been a bit exaggerated. NixOS had one fatal flaw, which is the usability of Nix. And I've never talked to a single Nix advocate. And by the way, I love - I really do love the passion in the Nix community. They created that, right? They created those comments.
 
@@ -522,7 +516,7 @@ The third is as just a package distribution system. So Docker Hub is the third, 
 
 **Tammer Saleh:** Tammer says "Go to hell." \[laughter\]
 
-**Gerhard Lazu:** Tammer says Docker is better than Nix. \[laughter\] \[unintelligible 01:02:50.15\]
+**Gerhard Lazu:** Tammer says Docker is better than Nix. \[laughter\]
 
 **Tammer Saleh:** No such thing as bad publicity. Just say SuperOrbital next to my name. Tammer of SuperOrbital.
 
@@ -552,7 +546,7 @@ The third is as just a package distribution system. So Docker Hub is the third, 
 
 **Jerod Santo:** News to me.
 
-**Tammer Saleh:** It's great. It's super-fast, and it launches whole VMs -- literally, I can launch a VM and get a shell in it in like a couple of seconds, because it uses the MacOS native virtualization \[unintelligible 01:04:02.08\]
+**Tammer Saleh:** It's great. It's super-fast, and it launches whole VMs -- literally, I can launch a VM and get a shell in it in like a couple of seconds, because it uses the macOS native virtualization technology.
 
 **Jerod Santo:** \[01:04:04.13\] So like a drop-in replacement kind of thing?
 
@@ -572,7 +566,7 @@ The third is as just a package distribution system. So Docker Hub is the third, 
 
 **Gerhard Lazu:** OrbStack. Okay. So everyone -- I'm amazed. Cool.
 
-**Tammer Saleh:** Whoever that developer is, you can pay me later \[unintelligible 01:04:20.16\]
+**Tammer Saleh:** Whoever that developer is, you can pay me later for that.
 
 **Gerhard Lazu:** James! It was you, all this time...! \[laughter\] You are that developer.
 
@@ -708,7 +702,7 @@ I think we decided to teach the courses with tests... Yeah. I'm looking at him l
 
 **James McShane:** You've got credit card debt of innovation points that is going to rack up real quick.
 
-**Jerod Santo:** Are you a Pivotal Labs \[unintelligible 01:22:18.26\] as well?
+**Jerod Santo:** Are you a Pivotal Labs guy as well?
 
 **James McShane:** No.
 
@@ -720,7 +714,7 @@ I think we decided to teach the courses with tests... Yeah. I'm looking at him l
 
 **Tammer Saleh:** We had a lot of fun. Thank you.
 
-**Jerod Santo:** Which is the key takeaway point for the people that \[unintelligible 01:23:20.17\]
+**Gerhard Lazu:** Which is the key takeaway point for the people that... Nix? We can do Docker, we can do anything.
 
 **Tammer Saleh:** Actually, I think innovation points - that's probably the key thread to everything we've been talking about, including Nix.
 
@@ -860,7 +854,7 @@ So that was my quest since we last spoke, Ship It episode 84, that I went on; I 
 
 **Steve Francis:** And then you exec into it, and --
 
-**Gerhard Lazu:** Yeah, exactly. I SSH. I solve that problem. But obviously, you have to have kubectl access, and that goes like through the Omni control plane API... And that's great. But also, I have like a set of tools I need to have. For example, I use iPerf quite a bit. iPerf3. So how do you get that? And I need like a bunch of networking tools to understand what is happening at a networking level... And then before we know it - well, what about the volumes? Can I understand what is happening on the host? And then "Well, how do I mount the host namespace into --" So all those problems I solved via the daemon set. That's why \[unintelligible 01:46:27.11\] real one is like "Can I get my sysadmin please daemon set running on the Talos cluster?" So that is a common thing, and I can relate to that.
+**Gerhard Lazu:** Yeah, exactly. I SSH. I solve that problem. But obviously, you have to have kubectl access, and that goes like through the Omni control plane API... And that's great. But also, I have like a set of tools I need to have. For example, I use iPerf quite a bit. iPerf3. So how do you get that? And I need like a bunch of networking tools to understand what is happening at a networking level... And then before we know it - well, what about the volumes? Can I understand what is happening on the host? And then "Well, how do I mount the host namespace into --" So all those problems I solved via the daemon set. That's why the first thing, I don't have a neck beard... No real one, is like, "Can I get my sysadmin please daemon set running on the Talos cluster?" So that is a common thing, and I can relate to that.
 
 **Spencer Smith:** Yeah. We don't really recommend you do that, but yeah, that is common. \[laughter\]
 
@@ -874,7 +868,7 @@ So that was my quest since we last spoke, Ship It episode 84, that I went on; I 
 
 **Spencer Smith:** Yeah, that's probably true.
 
-**Gerhard Lazu:** You can read this, but I'll read it for you. I have my notes... "Managing local volumes." That is my number one feature. \[laughter\] For me, it's something LVM-based. I think LVM is great, and it's a waste to not use it. I never really liked Ceph, or any systems like that. OpenEBS, anything like that. It feels very heavyweight. And we have LVM. Like, what's wrong with LVM? We can do snapshots, we can do a bunch of things... So on my Talos nodes CSI LVM is one of the first things which I install. And by the way, I opened a pull request, and it got merged in that LVM driver. And by the way, this is not TopoLVM. I tried that one as well; it was too complicated. I can add it in the show notes... And I \[unintelligible 01:48:05.21\] Talos support to the CSI LVM, because that was the first thing which I needed. I have some very fast disks... Even NVMe disks in some case. Why can't I use them? That's what I would like to have, really. Number one feature for me as well. Okay, we're on the same page...
+**Gerhard Lazu:** You can read this, but I'll read it for you. I have my notes... "Managing local volumes." That is my number one feature. \[laughter\] For me, it's something LVM-based. I think LVM is great, and it's a waste to not use it. I never really liked Ceph, or any systems like that. OpenEBS, anything like that. It feels very heavyweight. And we have LVM. Like, what's wrong with LVM? We can do snapshots, we can do a bunch of things... So on my Talos nodes CSI LVM is one of the first things which I install. And by the way, I opened a pull request, and it got merged in that LVM driver. And by the way, this is not TopoLVM. I tried that one as well; it was too complicated. I can add it in the show notes... And I added Talos support to the CSI LVM, because that was the first thing which I needed. I have some very fast disks... Even NVMe disks in some case. Why can't I use them? That's what I would like to have, really. Number one feature for me as well. Okay, we're on the same page...
 
 **Steve Francis:** \[01:48:22.08\] Yeah. \[laughter\]
 
@@ -908,13 +902,13 @@ But yeah, we've made sure that -- because our clusters are all Calico-based. We 
 
 **Steve Francis:** We sent an email about it just last week. \[laughs\]
 
-**Gerhard Lazu:** Really? Okay, alright... I'm not good at \[unintelligible 01:51:27.14\]
+**Gerhard Lazu:** Really? Okay, alright... I'm not good at reading my emails...
 
 **Spencer Smith:** We're into Spam.
 
 **Gerhard Lazu:** No, no. KubeCon is a bit crazy the week before and the week after, so I blame it on that... But yeah, so tell me more about that.
 
-**Spencer Smith:** \[unintelligible 01:51:35.20\] Yeah, so the idea of the Image Factory is -- so the way that Talos works is everything kind of has to be there at install time. You're not adding things to the system after the initial installation, right?
+**Spencer Smith:** Yeah, so the idea of the Image Factory is -- so the way that Talos works is everything kind of has to be there at install time. You're not adding things to the system after the initial installation, right?
 
 **Steve Francis:** No loadable modules...
 
@@ -1012,7 +1006,7 @@ But yeah, we've made sure that -- because our clusters are all Calico-based. We 
 
 **Spencer Smith:** \[01:59:17.14\] It's definitely possible. I mean, KubeSpan makes all that really easy. But you are going to have to be careful in terms of where your workers are stationed, that they're away from the control plane. If those workers require something from the control plane, data about ingresses, or whatever, then yes, you're gonna have a latency problem. So whatever's running at this very remote spot needs to be pretty well by itself, I think. It's still going to be part of that problem. I mean, you can't solve that, I think.
 
-**Steve Francis:** And obviously, your control planes need to be collocated, because... Etcd does not like replication \[unintelligible 01:59:48.02\]
+**Steve Francis:** And obviously, your control planes need to be collocated, because... Etcd does not like replication logs.
 
 **Spencer Smith:** Yeah, we had a pretty interesting scenario with one of our clients around that. They were doing Etcd in three different AZs in the same region on Amazon, but the AZs - something was going on networking-wise there and they were dropping packets all over the place, and Etcd was even within the same AZs... And that's a supported, recommended architecture, right? And it still was like -- yeah, it lost its mind. So we had to -- that was actually part of why KubePrism was built, I think, if I remember right.
 
