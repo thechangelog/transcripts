@@ -40,7 +40,7 @@
 
 **Jerod Santo:** No, that's new. That's new. You're the first one.
 
-**Gregg Tavares:** \[00:07:41.17\] It was totally the right decision... And I ended up working on WebGL, which was the correct replacement; it's more it's more flexible, as people write their own engines, instead of having to deal with ours. And that was the better decision. And for whatever reason, I started answering questions on Stack Overflow, and one of the problems with these kinds of GPU APIs is they require a lot of setup... So you can answer it as quickly as you can answer most web API questions. If you want to draw a circle with a canvas to the API. It's like, you have a canvas, you create a context, you call arc, and then you call fill, and you get a circle, like four lines. No. It's like 70, 80, 100 lines to do that...
+**Gregg Tavares:** \[07:41\] It was totally the right decision... And I ended up working on WebGL, which was the correct replacement; it's more it's more flexible, as people write their own engines, instead of having to deal with ours. And that was the better decision. And for whatever reason, I started answering questions on Stack Overflow, and one of the problems with these kinds of GPU APIs is they require a lot of setup... So you can answer it as quickly as you can answer most web API questions. If you want to draw a circle with a canvas to the API. It's like, you have a canvas, you create a context, you call arc, and then you call fill, and you get a circle, like four lines. No. It's like 70, 80, 100 lines to do that...
 
 **Jerod Santo:** To draw a circle?
 
@@ -74,9 +74,9 @@
 
 So outside of the web, there's OpenGL, which has been used since the early '90s. And lots of native apps use OpenGL. It's still popular on phones, as far as I know... And I think it's still popular even on desktop for some apps. And so yeah, WebGL kind of had their hands tied. If their thinking was "We're going to bring OpenGL to the web", then they couldn't really redesign API. All they could do is make it safe for the web and try to make it webby where it needed to be.
 
-**Amal Hussein:** \[00:12:08.13\] Yeah, that makes sense. Thanks for sharing that context. That explains a lot. So this is a leaky abstraction in the worst of ways, where it's just like "Here's the JavaScript way to use this really complicated thing, that was complicated to begin with."
+**Amal Hussein:** \[12:08\] Yeah, that makes sense. Thanks for sharing that context. That explains a lot. So this is a leaky abstraction in the worst of ways, where it's just like "Here's the JavaScript way to use this really complicated thing, that was complicated to begin with."
 
-**Gregg Tavares:** The other way to look at both of these APIs is they're kind of like Web Assembly, where they've come out with this thing called Web Assembly, or WASM, and you don't generally write WASM; you use some other tool, like Enscripten, or -- Enscripten lets you write C++, and that translates to WASM. So C++ programmers can write web code if they want. You see all the emulators -- if you've ever gone to the archive and you look up Commodore 64 games, or Apple 2 games, they're all running through WASM, which are running an emulator that somebody wrote for native, and they just recompiled it. So yeah, most people don't write WASM directly. And in the same way, most people probably don't write either WebGL or WebGPU directly. They use a library. The most popular one is probably Three.js. Another popular one is Babylon.js.
+**Gregg Tavares:** The other way to look at both of these APIs is they're kind of like WebAssembly, where they've come out with this thing called WebAssembly, or WASM, and you don't generally write WASM; you use some other tool, like Enscripten, or -- Enscripten lets you write C++, and that translates to WASM. So C++ programmers can write web code if they want. You see all the emulators -- if you've ever gone to the archive and you look up Commodore 64 games, or Apple 2 games, they're all running through WASM, which are running an emulator that somebody wrote for native, and they just recompiled it. So yeah, most people don't write WASM directly. And in the same way, most people probably don't write either WebGL or WebGPU directly. They use a library. The most popular one is probably Three.js. Another popular one is Babylon.js.
 
 If you're using MapsGL, or Google Maps embedded, both of those use it for you. You don't have to do anything, you're just doing something at a higher level. So that's the most common way to get those things in, get usage. You don't have to do it yourself.
 
@@ -86,7 +86,7 @@ If you're using MapsGL, or Google Maps embedded, both of those use it for you. Y
 
 And a good example -- I don't know if this is a good example. Let's see. Back when Chrome shipped, Chrome used the CPU to render, and they had a fast renderer, and it had its impressive demos. I don't remember -- they had like these bouncing ball physics demos that they showed off, and it was pretty neat \[unintelligible 00:15:02.25\] fast at the time. Then all the OS'es and the browsers added GPU rendering. Using the GPU itself will draw triangles for you, and based on that, you get all the stuff you see. Triangles with textures on them, so with images in them. And that's mostly how stuff works today. But lately, using something called compute shaders, which - this lets you kind of do generalized computing on GPUs. There are newer algorithms that take it even further. So there's a library called Vello, which you can look up - I think it's called Vello - that does structure graphics, like SVG type of stuff, and you can use it to render UIs and things like that. That's using completely software rendering; software meaning that... I don't know how to say that; they're not asking the GPU to use its older rasterizing functions. They're actually computing the pixels themselves. This is like a progression.
 
-\[00:16:01.08\] Another examples is - I think Unreal has a renderer called Nanite, and they're also doing new techniques, where they're rendering things themselves in ways that just 5-10 years ago were very less common. So if we gave you a higher-level API, those things wouldn't be possible.
+\[16:01\] Another examples is - I think Unreal has a renderer called Nanite, and they're also doing new techniques, where they're rendering things themselves in ways that just 5-10 years ago were very less common. So if we gave you a higher-level API, those things wouldn't be possible.
 
 **Jerod Santo:** It makes sense.
 
@@ -118,7 +118,7 @@ And a good example -- I don't know if this is a good example. Let's see. Back wh
 
 As for WebGL to WebGPU, nowadays - this is my personal point of view, I guess, but there's like three or four major graphics APIs. There's OpenGL, there's Vulkan, there's Metal on Apple devices, and there's DirectX 12, 11-12 on Windows devices... They're all different, but at a certain level they're all the same. So porting from WebGL to WebGPU, depending on how you look at it, is just a matter of "Okay, over here I call fillRect() and over there I call rectFill()." \[laughs\] It's not that simple... But at a certain level, it is.
 
-**Amal Hussein:** \[00:20:17.23\] So what's the advantage? What I'm trying to understand is, as an engineer, there's two things I care about - how this thing performs, how this runs on the metal, how does it perform in the browser. The other thing I care about is the usability of the API. So what improvements do I get from using this? Is there a velocity increase in my productivity as a developer when using WebGPU? Or is it still the same complicated API?
+**Amal Hussein:** \[20:17\] So what's the advantage? What I'm trying to understand is, as an engineer, there's two things I care about - how this thing performs, how this runs on the metal, how does it perform in the browser. The other thing I care about is the usability of the API. So what improvements do I get from using this? Is there a velocity increase in my productivity as a developer when using WebGPU? Or is it still the same complicated API?
 
 **Gregg Tavares:** They're all complicated. They haven't gotten the less complicated.
 
@@ -156,7 +156,7 @@ As for WebGL to WebGPU, nowadays - this is my personal point of view, I guess, b
 
 **Amal Hussein:** Yeah, that makes sense. And so I'm curious, since these things are going to be living side by side more or less indefinitely, because of the arc of the web... Are there features going to -- I guess, is there a deprecation for WebGL? Because --
 
-**Gregg Tavares:** \[00:24:06.11\] I don't know if we'd use that word yet... I just don't think there's going to be a lot of effort. All the people on the browser teams that would work on the two APIs -- well, they're the same people working on both, and so they only have so much time, and they all want to move forward. If they had to split their time between the both, that would be a huge drain, so...
+**Gregg Tavares:** \[24:06\] I don't know if we'd use that word yet... I just don't think there's going to be a lot of effort. All the people on the browser teams that would work on the two APIs -- well, they're the same people working on both, and so they only have so much time, and they all want to move forward. If they had to split their time between the both, that would be a huge drain, so...
 
 **Amal Hussein:** So new features probably will exclusively be added, like high likely exclusively be added to WebGPU.
 
@@ -200,7 +200,7 @@ And then in WebGPU there's also a compute shader. A compute shader is just a fun
 
 **Amal Hussein:** Yeah, no, I was just curious to see, is this -- I mean, how would you compare this to kind of the HTML rendering engines, essentially?
 
-**Gregg Tavares:** \[00:28:15.25\] Well, I guess I would compare -- the maybe easier comparison is SVG versus canvas. In SVG you declare this hierarchy of elements, and then it renders it, and you can update the elements, and it'll update it. That's very similar to the DOM; in fact, it is the DOM. Versus the Canvas API, where you just call these functions to draw and they just put pixels in a rectangle... And there's no structure anymore. There's nothing left there.
+**Gregg Tavares:** \[28:15\] Well, I guess I would compare -- the maybe easier comparison is SVG versus canvas. In SVG you declare this hierarchy of elements, and then it renders it, and you can update the elements, and it'll update it. That's very similar to the DOM; in fact, it is the DOM. Versus the Canvas API, where you just call these functions to draw and they just put pixels in a rectangle... And there's no structure anymore. There's nothing left there.
 
 **Jerod Santo:** It's more imperative versus declarative, right?
 
@@ -210,7 +210,7 @@ And then in WebGPU there's also a compute shader. A compute shader is just a fun
 
 **Gregg Tavares:** Yeah. Except that, again, WebGPU brings in compute shaders, and now it's just \[unintelligible 00:29:00.01\] It doesn't have to be about drawing.
 
-**Break:** \[00:29:09.11\]
+**Break:** \[29:09\]
 
 **Jerod Santo:** The whole machine learning thing I think is definitely interesting. It's also concerning I guess for me as a guy who visits a website on my phone, and all of a sudden it's machine learning in my browser... It seems like there are security and privacy concerns with this... Isn't there?
 
@@ -256,7 +256,7 @@ capability...
 
 **Jerod Santo:** Yeah, that's true.
 
-**Amal Hussein:** \[00:32:10.25\] But it does bring up an interesting ethical question though, which is "Should there be some type of user consent for heavy compute?" Where it's like "Hey, this is your device, this is your battery; maybe you're in an airport, maybe you're in a train station..." Imagine going to a website and just like having 10% of your battery drained in like five minutes. That would that would hurt, you know? And so I'm curious... Any thoughts on that, Greg?
+**Amal Hussein:** \[32:10\] But it does bring up an interesting ethical question though, which is "Should there be some type of user consent for heavy compute?" Where it's like "Hey, this is your device, this is your battery; maybe you're in an airport, maybe you're in a train station..." Imagine going to a website and just like having 10% of your battery drained in like five minutes. That would that would hurt, you know? And so I'm curious... Any thoughts on that, Greg?
 
 **Gregg Tavares:** I'm not the person to answer... I would ask what's the difference between that and a native app? You go to the native app and it starts using whatever features it wants...
 
@@ -294,7 +294,7 @@ capability...
 
 **Gregg Tavares:** I'm not even sure I know what that question means...
 
-**Amal Hussein:** \[00:36:02.10\] Well, what's your favorite API? Do you like 2D rendering, 3D rendering? Do you like playing around with lighting? I don't know... Do you like doing stuff with textures? Shadows? I don't know, what's your favorite thing to do?
+**Amal Hussein:** \[36:02\] Well, what's your favorite API? Do you like 2D rendering, 3D rendering? Do you like playing around with lighting? I don't know... Do you like doing stuff with textures? Shadows? I don't know, what's your favorite thing to do?
 
 **Gregg Tavares:** I like games.
 
@@ -350,7 +350,7 @@ capability...
 
 **Gregg Tavares:** To me the best on-ramp would be go to Threejs.org, click on the Manual button, and read the first page. It will get you some cubes on the screen just as an example... You can probably pick a loaded gltf file, which is a format for 3D files. They're easy to find online, and then once you know how to load one and display it, then you can start putting 3D together. You can deal with that in an hour or two of looking up -- or you can ask your favorite machine learning thing "How do I do this?" and it'll probably tell you...
 
-**Jerod Santo:** \[00:40:20.10\] \[laughs\] Make sure it has access to the internet so it's not outdated... Because at least with WebGPU, it's a moving target at this point.
+**Jerod Santo:** \[40:20\] \[laughs\] Make sure it has access to the internet so it's not outdated... Because at least with WebGPU, it's a moving target at this point.
 
 **Gregg Tavares:** With WebGPU no, but if you use a higher-level library Three.js, there's plenty of right tutorials that are not out of date.
 
@@ -386,7 +386,7 @@ I don't know if you've ever seen, there's something called a fantasy console, th
 
 There was also a talk - this is not AI-related, but there was a talk where somebody made a slot machine generator, and they actually published 1,500 of them... Until they got taken off the store. But they gave a talk about it at GDC...
 
-**Amal Hussein:** \[00:44:16.07\] Wow...! That's hilarious.
+**Amal Hussein:** \[44:16\] Wow...! That's hilarious.
 
 **Gregg Tavares:** And they had made it -- so they just typed in a couple keywords, like, you know, unicorns and candy canes, and it would make slot machines with unicorns and candy canes and publish it.
 
@@ -432,7 +432,7 @@ And I don't think you're gonna get the style that you want, a cohesive style for
 
 **Gregg Tavares:** And I talk to friends, "Hey, we should make a game", and then yeah, we don't do it. One of it is golden handcuffs. You come to a big tech company and you're like "Oh, what? I don't have to crunch, and I get paid a lot more?" Another is that the industry changed. The last I shipped it was 2007-ish... The iPhone came out in 2007; mobile games became a thing. Free to play games became a thing. When I came to Google, I mentioned that I came to write a game engine; that was because at the time Unreal actually cost like a million dollars to use it.
 
-\[00:48:18.13\] And I remember -- Unity might have been free, but they didn't have the reputation yet for "Oh, this is something you should use." So I came to Google to make an open source engine. That all changed. Now there's two -- they're not free, but they're free to use to prototype at least... And to even ship. It's only if you make a lot of money that they want some money.
+\[48:18\] And I remember -- Unity might have been free, but they didn't have the reputation yet for "Oh, this is something you should use." So I came to Google to make an open source engine. That all changed. Now there's two -- they're not free, but they're free to use to prototype at least... And to even ship. It's only if you make a lot of money that they want some money.
 
 And there's things like Godot, and there's a whole bunch of other engines out there now that weren't around back then. So that's changed it in multiple ways. It's made it easier... So theoretically, if those existed back in 2008, then I probably wouldn't ever have come to Google, and I would have just tried to make something... On the other hand, there's -- I don't remember what the numbers are. There's several thousand new games every day. And so it's just much harder to stick out, to look at that and go "I have an idea that's gonna sell." Oh, wait, I'm gonna put three years in, and it's gonna sell five copies? I've had friends that do that; they made the game look beautiful, they shipped it... I think they sold 80 units.
 
@@ -474,7 +474,7 @@ And there's things like Godot, and there's a whole bunch of other engines out th
 
 **Gregg Tavares:** Alright...
 
-**Jerod Santo:** \[00:52:07.22\] "Alright..." \[laughter\] I don't think he's convinced. He's over there thinking "Okay, I'll think of it that way", but he's not really thinking about it that way. He's over there thinking about his game.
+**Jerod Santo:** \[52:07\] "Alright..." \[laughter\] I don't think he's convinced. He's over there thinking "Okay, I'll think of it that way", but he's not really thinking about it that way. He's over there thinking about his game.
 
 **Gregg Tavares:** It's like, you want to be the director, and you're making the canvas. \[laughter\]
 
