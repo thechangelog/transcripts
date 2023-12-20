@@ -28,7 +28,7 @@
 
 **Jerod Santo:** Yes. Which is why I use it as the closer, because just the amount of remorse and angst that you expressed there... In fact, one of those sounds was Matt Ryer saying "I think It Depends should have its own little theme song." I didn't have Breakmaster put together something special yet. I'm just riffing... But I did put together a brief jingle, and you may find your voice on it. Here it is...
 
-\[00:03:43.22\]
+\[03:43\]
 
 *"It depends..."*
 
@@ -64,7 +64,7 @@ But when you're naming functions and designing functions, whether you're going t
 
 **Kris Brandow:** Yeah. I think definitely the number one indicator is how many parameters do you have, really. That's the first thing I always look at. Does this thing have two or three parameters? ...which I'm like "Okay, cool." Or does it -- I think on one of the codebases we were working on we had this function that had 16 parameters, and we're like "Okay, well, this is a sign that this thing's kind of broken." And also the number of parameters compared to the lines of code, of the actual function itself... The one that had 16 parameters was also three lines of code, because it was calling another thing that had 15 parameters... And that was a sign of like "Oh, this is a spot in our local API that we need to fix, because this is just not okay." So I think definitely looking at the parameters and the inputs to the functions I'm creating is one of the biggest signs that I tend to look at.
 
-**Jerod Santo:** \[00:10:23.20\] Yeah, inputs and outputs... I mean, I guess the three things that I consider is the name, which if you're having a really hard time naming something, I think that's a point to slow down, and maybe think you're trying to encapsulate too much sometimes... And maybe you're actually -- it's two things, or more, and that's why it's hard to name... But clarity and naming is something that I take very seriously, even with my own code, which - there's lots of with my own code that I don't take seriously at all. But naming with clarity is one of them. It's probably because code comments is not something I take seriously, and so I need good names.
+**Jerod Santo:** \[10:23\] Yeah, inputs and outputs... I mean, I guess the three things that I consider is the name, which if you're having a really hard time naming something, I think that's a point to slow down, and maybe think you're trying to encapsulate too much sometimes... And maybe you're actually -- it's two things, or more, and that's why it's hard to name... But clarity and naming is something that I take very seriously, even with my own code, which - there's lots of with my own code that I don't take seriously at all. But naming with clarity is one of them. It's probably because code comments is not something I take seriously, and so I need good names.
 
 But naming inputs and outputs, that's pretty much what you're going to see from the outside of a function, and that's what you're going to care about, is like "Okay, what's coming in, what's coming out?" And I agree with you that too many parameters is an indicator of, again, poor design, or trying to do too much, or sometimes just scope creep... Because a lot of those functions start with not very many parameters, and then you're like "I'm just gonna slap another one on at the end here... And that's fine." And it probably was. And then the next time you come back, you're like "I'm just gonna slap another one on at the end here." And at a certain point you get to 16, and then people have meetings about your function that you wrote... And that's a problem. Then there's the cheat code, which is where you pass in a hash, or a map, or a struct, and you're like "See, it takes one. It only takes one input."
 
@@ -82,7 +82,7 @@ But naming inputs and outputs, that's pretty much what you're going to see from 
 
 **Kris Brandow:** Yeah, you can pass -- and that does happen quite a bit with APIs, where you have a struct... Especially when it's a constructor where you're like "Oh, there's a lot of different things that might be in here." You have a struct, or a special object type that builds up options, and then you pass that in... There's definitely cleaner ways to pass a large amount of information in... But it's also sort of obvious when you're looking at it. And sometimes, at the end of the day, you do just need to pass a lot of parameters into something, and I think when you do bundle it into a struct, into another type, that's pretty okay, as long as you've thought about it. As long as you can name that type properly and it's not just kind of like "input to function name", or whatever.
 
-**Jerod Santo:** \[00:14:05.06\] Right. Or data. That's what I go with when I can't think of a better name; it's like "Here comes the data..." \[laughter\] I mean context is kind of just as bad. I mean, context is a pretty meaningless thing once you start to think about it. Everything is contextual. It's all context.
+**Jerod Santo:** \[14:05\] Right. Or data. That's what I go with when I can't think of a better name; it's like "Here comes the data..." \[laughter\] I mean context is kind of just as bad. I mean, context is a pretty meaningless thing once you start to think about it. Everything is contextual. It's all context.
 
 **Kris Brandow:** I mean, we've done a pretty good job of making sure that the context object just contains oddly timeouts... And then really \[unintelligible 00:14:23.25\] for like "Okay, well, this provides you information about the environment around you, so that you can more properly do something within a function." I rarely put things into the context object. It's mostly just I use it for timeouts and cancellation, which is I think the main reason why you're supposed to use that object. But other languages - I remember when I was still writing PHP back in the day, there would be a lot of -- I don't remember what it's called, but you kind of inject everything down, so you have this nice, big bag of stuff, and you just pull whatever objects you need off of that, and then use them... And I just remember how much of a mess that could be, and how confusing it could be to trace where all that came from.
 
@@ -94,7 +94,7 @@ But naming inputs and outputs, that's pretty much what you're going to see from 
 
 So that's thinking, obviously, in the very small. What about the library-level API design? I mean, some things that I really appreciate in library APIs is... Guessability? I don't know what the word is... Where it's named and it's used in the way that I would expect it to be.
 
-**Kris Brandow:** \[00:17:55.11\] I think that's like consistency...
+**Kris Brandow:** \[17:55\] I think that's like consistency...
 
 **Jerod Santo:** Yeah, consistency plays into that; principle of least astonishment plays into that... I think uniform access principle plays into that sometimes... But it's really just like, if it works the way that I thought it should, then I feel like this is a good library. Maybe that's just like a Jerod bias. I just -- you'v probably used some software where you're like you can darn near just know the way it's gonna work. I mean, I felt jQuery was like this very much, where you could be like I bet there's a function called like .upcase. And then there is one; and that's not jQuery, it doesn't have that, but... For instance, I bet I can just upcase this with .upcase, and then it's like "Oh, cool. I totally can." And I feel like there's something good about that. Or is it maybe -- is that just very subjective?
 
@@ -114,7 +114,7 @@ So that's thinking, obviously, in the very small. What about the library-level A
 
 **Jerod Santo:** Written by -- I can't remember who wrote it. But just a complete takedown. This is -- again, it's probably 15 years ago now... Of PHP just as the language design. It has a lot of good properties as an overall language and ecosystem, but we're talking about specifically API. It's so inconsistent that I've found it frustrating. And at first I didn't really know... Because Perl is kind of like that as well. Perl has short and long versions of everything, because of the whole \[unintelligible 00:22:00.23\] angle to their community... Which I think is really cool, but cranks out some of the most unreadable code in history, because of all of the special characters, and short versions of everything...
 
-\[00:22:12.11\] But I didn't realize there was better ground out there when I first started using PHP inside of WordPress until I came across Ruby. And I was like "Oh, this is what good language would look like." Just as API design, specifically. Ruby has its own warts as well, of course...
+\[22:12\] But I didn't realize there was better ground out there when I first started using PHP inside of WordPress until I came across Ruby. And I was like "Oh, this is what good language would look like." Just as API design, specifically. Ruby has its own warts as well, of course...
 
 **Kris Brandow:** Right, yeah.
 
@@ -130,7 +130,7 @@ So that's thinking, obviously, in the very small. What about the library-level A
 
 **Kris Brandow:** I think so, because I'm someone that's gonna push very hard in every codebase I'm in, to make sure it's well documented and well thought out... And what I've seen a lot over the course of my career is that people will not do good design of their code, and use static typing to paper over that. So the static typing that they have allows them to be a little bit worse, so they are a little bit worse with the actual documenting of the code and the actual thinking of how their code works... Whereas if you're in a dynamically-typed language, and you try and do that same stuff, you just won't be able to function. Some codebases I've walked into, and it's like "I can barely understand this, because there's types." But that's because you also haven't documented anything, and everything is named terribly, mostly because you can.
 
-**Jerod Santo:** \[00:26:02.12\] Like, it's a crutch.
+**Jerod Santo:** \[26:02\] Like, it's a crutch.
 
 **Kris Brandow:** Yeah, yeah. And the codebases I've walked into, one of the things I tried to do is "Okay, I'm gonna try and document this. I'm gonna sit down and figure this out, and then write things about it so that we can all understand the page that we're on." Also, the benefits that people get from static typing isn't really the static types, it's the compiler being able to tell them "Hey, you've probably done something wrong here", which doesn't actually require declarative types. It just requires -- I think there's a language called Roc that if you don't declare any of the types, it does type inference for everything. And that's the type of thing I think people actually want at the end of the day... Which you can get from dynamically-typed languages. Because any of them today - dynamically-typed languages do have typing; they're not Assembly, which has no typing. The typing just tends to happen at runtime, but that doesn't necessarily mean you can't do it statically, at static analysis, at compile time.
 
@@ -140,7 +140,7 @@ So that's thinking, obviously, in the very small. What about the library-level A
 
 **Jerod Santo:** It's an entirely different conversation, and one that I'm sure our good friend Nick Nisi will want to be a part of as the TypeScript fanboy of our Changelog community...
 
-**Break:** \[00:27:12.11\]
+**Break:** \[27:12\]
 
 **Jerod Santo:** Back to APIs. Let's get off languages, because we could probably live here the whole day. It's definitely, to me, a fascinating conversation, but I think most of the time when we talk about APIs, we are thinking about that proper noun, like a third-party API, or a web service API, or a microservice API... And so we are designing these things, we are using these things, and there's a lot of questions you have to ask yourself when you're creating one. One such question is "Well, what kind of API do I want to write?" I think that's where you'd start, isn't it? I don't know, where do you start, Kris?
 
@@ -152,7 +152,7 @@ So that's thinking, obviously, in the very small. What about the library-level A
 
 **Jerod Santo:** \[laughs\] Okay... Well, we might plumb those depths... I also never use GraphQL, but not necessarily for any reason other than I've never had a reason to use GraphQL. I thought about it once with Changelog.com, because there's a tool called -- it's called PostGraphile, or PostGraphQL... And this was when GraphQL first came out, and of course, we did a show on it... And after any show about a new technology, I'm nerding out. I'm like "Oh, this is cool. I should probably go try this." And 99 out of 100 times I don't actually go try it, but I have good intentions to do so. And with GraphQL, I thought "Well, we have a website that renders HTML... It does not have a proper API for people to consume. Maybe we could put out an API of changelog.com", which has people, and topics, and episodes, and all these typical things that might be interesting; news items etc. "And maybe I'll do a GraphQL API for that. That'd be a cool thing that people might want to play with." Because one of the things I think is cool about GraphQL as a frontend, or who's building a thing in the browser, is you can really just play with it, and find stuff, and do stuff, and it's very enabling, I think, for frontend devs... Which I think is a powerful property. But then I found this tool, PostGraphQL I think it was called, and then maybe renamed Postgraphfile, and it's gonna take your Postgres database and turn it into a GraphQL API... Which is kind of a cool idea, but also kind of like "Are you just basically exposing your database to the world? Sort of like that...?"
 
-\[00:36:06.00\] And I used it one time. And this was, again, probably a decade ago, so I'm not gonna speak on the current product or anything that. I think it was a cool piece of software. And it sure did... It just was like "Yup, I didn't ship this, but I played with it." And I'm like "Yup, basically, you could just turn your entire-- but I don't want to just turn my database into an API. That's not designed." So it was not; it's just like, "Here's, SQL over the wire", roughly speaking. And I'm sure there was different things that you could do...
+\[36:06\] And I used it one time. And this was, again, probably a decade ago, so I'm not gonna speak on the current product or anything that. I think it was a cool piece of software. And it sure did... It just was like "Yup, I didn't ship this, but I played with it." And I'm like "Yup, basically, you could just turn your entire-- but I don't want to just turn my database into an API. That's not designed." So it was not; it's just like, "Here's, SQL over the wire", roughly speaking. And I'm sure there was different things that you could do...
 
 The reason why it really fell apart for me was I wanted to have some sort of other place where I would define rules, and things, and the way that PostGraphile worked back then was you literally had to define everything in your Postgres database, including access controls, and a lot of stuff that I just didn't have at that layer.
 
@@ -180,7 +180,7 @@ The reason why it really fell apart for me was I wanted to have some sort of oth
 
 **Jerod Santo:** As well, or version two?
 
-**Kris Brandow:** \[00:39:57.29\] No, I think gRPC is exclusively... Okay, well, gRPC is interesting, because technically you can put it over pretty much any transport, but the default transport is HTTP/2.
+**Kris Brandow:** \[39:57\] No, I think gRPC is exclusively... Okay, well, gRPC is interesting, because technically you can put it over pretty much any transport, but the default transport is HTTP/2.
 
 **Jerod Santo:** I think GraphQL was an example of technology that was built to serve the needs of Facebook...
 
@@ -216,7 +216,7 @@ And I've tried with GRPC, and I just... Especially with proto -- like, the fact 
 
 **Kris Brandow:** So at a base level, Hypermedia is really -- I think it's kind of like Hypermedia controls, which means you have this base layer of media, which is some type of document, some type of information, and then you add controls to that, which usually come in the form of links. So when you think of HTML, the Hypermedia controls in HTML are the anchor tag, the link tag, and form tags. And these give the application the ability to move the application to do things, to navigate around. So with forms, you can send data to the server.
 
-\[00:44:05.15\] And the idea behind the Hypermedia constraint is that the server controls from the perspective of what the client is allowed to do via Hypermedia, and then the client chooses what to do via the Hypermedia that was given by the server. So the server sends you links, you use those links to do things and move the application state forward. So it's like "Oh, I give you a link to create an account, or I create a form to create account, you fill out the form, you send that back to me..." Now I have created an account, and the little state engine of account creation moves forward based on those Hypermedia controls that you're given, based on that form that you were able to fill out.
+\[44:05\] And the idea behind the Hypermedia constraint is that the server controls from the perspective of what the client is allowed to do via Hypermedia, and then the client chooses what to do via the Hypermedia that was given by the server. So the server sends you links, you use those links to do things and move the application state forward. So it's like "Oh, I give you a link to create an account, or I create a form to create account, you fill out the form, you send that back to me..." Now I have created an account, and the little state engine of account creation moves forward based on those Hypermedia controls that you're given, based on that form that you were able to fill out.
 
 **Jerod Santo:** Right. So the API itself, the servers, they actually publish the things that you can do via Hypermedia responses.
 
@@ -244,7 +244,7 @@ And I've tried with GRPC, and I just... Especially with proto -- like, the fact 
 
 **Jerod Santo:** Okay. So what you were saying before - I so rudely interrupted to get that clarity - is that what we call REST, or RESTful , meaning it has certain properties of REST \[unintelligible 00:47:30.22\] what RESTful means... Is that they're not actually REST APIs; they're HTTP APIs, because of - what do they fall short of that is not a Representational State Transfer?
 
-**Kris Brandow:** \[00:47:44.22\] They violate a lot of the actual components that Roy Fielding defined in his dissertation where he defined REST. The biggest one is obviously Hypermedia. They are not based in Hypermedia, because you've gotta go read a thing to understand them... And there's a few other. I mean, I think that's definitely the biggest one, of why they're not...
+**Kris Brandow:** \[47:44\] They violate a lot of the actual components that Roy Fielding defined in his dissertation where he defined REST. The biggest one is obviously Hypermedia. They are not based in Hypermedia, because you've gotta go read a thing to understand them... And there's a few other. I mean, I think that's definitely the biggest one, of why they're not...
 
 **Jerod Santo:** Okay. Why aren't we writing Hypermedia? What was the sticking point? Is it too hard? Is it not performant at scale? Why don't we do that? We don't do it.
 
@@ -254,7 +254,7 @@ This is what we do in JSON APIs a lot. It's like, okay, I have a name field, and
 
 So you can change the representation, but still be sending the same information, and that's what gives you some of the flexibility that you get from Hypermedia APIs, that you do not get from rest APIs. This is why rest APIs run into the version problem that they tend to run into, because you can't change the name of something, or even in some cases the location of something, because it's hardcoded into the client, "Hey, this string means this thing", or "This location is where I find this stuff." Instead of the client saying "Oh, the server sent me this. Let me interpret it. Okay, this string is mapped to this internal string I know, so I can connect those things together and process this information."
 
-**Break:** \[00:51:18.13\]
+**Break:** \[51:18\]
 
 **Jerod Santo:** So a little story about some more ancient history from me was that way back in the day I did a rewrite of Groovshark's client. Do you remember Grooveshark? It might have been before your time...
 
