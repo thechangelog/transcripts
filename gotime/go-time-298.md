@@ -44,7 +44,7 @@
 
 **Roland Shoemaker:** Yeah, it's all very theoretical... But if someone does come up with a good way to break the current cryptographic primitives, we're in real trouble... So just on the off-chance that has been all of this work of trying to figure out new algorithms, which will not be susceptible to these very specific things that quantum computers are good at doing... Which leads us to the new NIST drafts. I don't know if you want to talk a bit about that, Filippo...
 
-**Filippo Valsorda:** \[00:06:08.15\] Sure. So NIST has run a competition where a bunch of independent scientific groups submitted various proposals, and then they ran a bunch of selection rounds, and they finally selected \[unintelligible 00:06:21.23\] exchange. Two signatures... Two?
+**Filippo Valsorda:** \[06:08\] Sure. So NIST has run a competition where a bunch of independent scientific groups submitted various proposals, and then they ran a bunch of selection rounds, and they finally selected \[unintelligible 00:06:21.23\] exchange. Two signatures... Two?
 
 **Natalie Pistunovich:** The NIST is the National Institute of Standards and Technology.
 
@@ -64,7 +64,7 @@
 
 So we don't get to do Diffie-Hellman in the post-quantum world. We thought we were going to, and then somebody went and completely broke the algorithm that was closest to Diffie-Hellman, supersingular isogenies. We loved them while they lasted. And we have these things called KEMs, which are key exchange mechanisms, which do a thing that's close enough. So just like we used to use curve25519 to exchange keys, and Diffie Hellman... We can now use things like Kyber, which is now called ML-KEM, because we can't have nice things. The two things selected were called Kyber and Dilithium. Such good names...! And then they went and called them ML-KEM, and ML-DSA. Which one do you want to be saying? \[laughter\]
 
-**Roland Shoemaker:** \[00:09:59.24\] Yeah, the Star Wars/Star Trek names are much better.
+**Roland Shoemaker:** \[09:59\] Yeah, the Star Wars/Star Trek names are much better.
 
 **Filippo Valsorda:** Right?! I'm not even a Star Wars and Star Trek fan, and I wanted those names. \[laughs\]
 
@@ -104,7 +104,7 @@ I think SSH is going to be fine... Actually, I think that OpenSSH already has a 
 
 **Filippo Valsorda:** Exactly... \[laughter\] Anyway, going back to two Kyber... The very annoying thing about these new algorithms is that the keys and signatures and the exchanged things are so much bigger. And that's a problem. Like, with Kyber you're looking at sending on the wire something like 1,300 bytes; you're sending a kilobyte of data... Where with X25519 you are sending 32 bytes. Like, we used to be like "What's another Diffie-Hellman element? Just stick a few in there. Actually, let's make a ratchet where we go from element to element to element, and let's change keys all the time, and let's stick keys inside of keys, out of keys..." And now we can't do that. We get one if we're lucky. A packet might fit one key. Now, that's not great...
 
-**Roland Shoemaker:** \[00:14:24.29\] Yeah, this is gonna be an even bigger problem for signature algorithms. We've been trying to figure out what the PQ, the post-quantum approach to certificate signing is... And the last decade or so has been spent trying to figure out how to make certificates smaller and smaller in terms of the number of bytes that need to be sent over the wire... And now all of the post-quantum signature algorithms result in keys that are -- keys and signatures which are orders of magnitude larger. So all of those gains that were hard fought for over the last decade have just been completely lost, and we now have certificates that are -- I think there were some suggestions where they would be megabytes in size.
+**Roland Shoemaker:** \[14:24\] Yeah, this is gonna be an even bigger problem for signature algorithms. We've been trying to figure out what the PQ, the post-quantum approach to certificate signing is... And the last decade or so has been spent trying to figure out how to make certificates smaller and smaller in terms of the number of bytes that need to be sent over the wire... And now all of the post-quantum signature algorithms result in keys that are -- keys and signatures which are orders of magnitude larger. So all of those gains that were hard fought for over the last decade have just been completely lost, and we now have certificates that are -- I think there were some suggestions where they would be megabytes in size.
 
 **Filippo Valsorda:** Yeah, I don't think we're doing that.
 
@@ -130,7 +130,7 @@ I think SSH is going to be fine... Actually, I think that OpenSSH already has a 
 
 **Filippo Valsorda:** Well, before you could decide whether you liked better TLS RSA with AES 256 GCM SHA384, or TLS ECDHE ECDSA with 3DES EDE CBC SHA? Now --
 
-**Natalie Pistunovich:** \[00:18:12.29\] That sounds like our next Twitter poll... Better than unpopular opinion poll. I will ask you to write that down in the show notes at the end, and we will make that a poll, just for the trolleybus.
+**Natalie Pistunovich:** \[18:12\] That sounds like our next Twitter poll... Better than unpopular opinion poll. I will ask you to write that down in the show notes at the end, and we will make that a poll, just for the trolleybus.
 
 **Filippo Valsorda:** Done! \[laughs\]
 
@@ -150,7 +150,7 @@ But then sometimes something happens and then you have to change your mind, beca
 
 **Filippo Valsorda:** And some people were upset, but you know, still, I think I pulled it off. For TLS 1.0 to 1.2, it would break too many programs to say "Oh, actually, we'll pick which ones to enable, and that's it." However, one thing we could take away was the order in which they're selected... Which might sound silly; like, what does the order matter? Well, the order matters, because if you're selecting five good ciphers and one bad one, I have to worry that there are applications out there that might have put the bad one at the top of the preference list. So any client that has support for that, for backwards compatibility reasons, will end up negotiating a very bad algorithm, when it couldn't use a good one. And so we would have to have these conversations where we'd be like "Well, do we remove it because it's kind of broken?" It's not so broken that you wouldn't want it ever, but you would definitely not want it if you had any other option. But we have no way to make sure if somebody is using it, because they don't realize; they just sorted them alphabetically maybe, or something... And so we would have all these difficult conversations around backwards compatibility... Because if you listened to the last episode, you know that the hard part of our job is neither quantum computers nor algorithms, but it is backwards-compatibility. \[laughs\]
 
-\[00:22:16.07\] So we have all these very difficult conversations... And then instead now, with this change, the order is picked entirely by us. You can select them, but we know that if you selected anything else that's even slightly better than this, it will be used before we fall back to that. And that's important, because for example there are some old Android phones that will never get upgraded, because they were sold before Android knew how to force carriers to update phones. And you want your server to still serve connections from them, but you want to make sure that just because you serve connections to them, you're not going to be less secure when somebody else connects, right?
+\[22:16\] So we have all these very difficult conversations... And then instead now, with this change, the order is picked entirely by us. You can select them, but we know that if you selected anything else that's even slightly better than this, it will be used before we fall back to that. And that's important, because for example there are some old Android phones that will never get upgraded, because they were sold before Android knew how to force carriers to update phones. And you want your server to still serve connections from them, but you want to make sure that just because you serve connections to them, you're not going to be less secure when somebody else connects, right?
 
 So with the fact that we handle the ordering, we can make sure that we will only go to the terrible algorithm that is the only thing Android phones support, only if it's the last resort. So yes, I get excited about the small things about backwards-compatibility, what can I say...
 
@@ -168,7 +168,7 @@ And then the world changed, and now we implement most stuff in software. And imp
 
 **Filippo Valsorda:** Exactly. Now somebody who's observing what you did -- even if the result was right, like you didn't throw an error, you didn't do a panic... Your tests all pass, there's no way to test this. But since you did it in this way, you touched memory over here, and I know that if you touch memory over here, it means that the first bit of your key is one. And then if you touched memory over here, it means that the second bit of your key is zero. And then you keep going like that, and then you just extract the key, and that's bad. It's generally frowned upon.
 
-\[00:26:02.08\] So the result is that AES is a major pain to implement in software. We kind of figured it out now with a technique called bit slicing, which is basically reimplementing hardware CPU, but in software. It's madness... I don't know if you've ever seen those videos of computers inside Minecraft. \[laughter\] You know, people building computers by using redstone, and switches, and torches, and so on... Right. So the bit slicing is sort of like that, which really makes me think we should get all these kids who build this stuff in Minecraft and ask them if they have nice ideas for fighting side-channel attacks in cryptography algorithms.
+\[26:02\] So the result is that AES is a major pain to implement in software. We kind of figured it out now with a technique called bit slicing, which is basically reimplementing hardware CPU, but in software. It's madness... I don't know if you've ever seen those videos of computers inside Minecraft. \[laughter\] You know, people building computers by using redstone, and switches, and torches, and so on... Right. So the bit slicing is sort of like that, which really makes me think we should get all these kids who build this stuff in Minecraft and ask them if they have nice ideas for fighting side-channel attacks in cryptography algorithms.
 
 **Natalie Pistunovich:** That's actually not a bad idea. \[unintelligible 00:26:44.06\] right?
 
@@ -220,7 +220,7 @@ And then the world changed, and now we implement most stuff in software. And imp
 
 **Filippo Valsorda:** So it's a cake. There's HTTP on top, and that's HTTP/3, and then you have QUIC, where you would have TCP. A QUIC is basically a way to reimplement TCP, because TCP is implemented by your kernel. And people have opinions about that implementation, and then the kernel doesn't change it, and so they go like "Fine. I'll reimplement TCP with black--" No, "...with all of my features, and encryption", and they implement it over UDP, which instead is just packets, right? Because the internet ossified, and now there are two internet protocols, and those are UDP and TCP, and you cannot have another one. If you want another one, you build it on top of UDP, like we has to do back in the days.
 
-**Roland Shoemaker:** \[00:30:01.28\] Yeah. If you look at the old OSI layer diagrams of the internet -- I think the whole point of QUIC is that over time the layers became incredibly complicated and necessarily needed to be interconnected... So QUIC just takes three separate layers and squishes them all into a single layer. The main useful thing to know about it is that it's encrypted by default. I don't think you can have unencrypted QUIC.
+**Roland Shoemaker:** \[30:01\] Yeah. If you look at the old OSI layer diagrams of the internet -- I think the whole point of QUIC is that over time the layers became incredibly complicated and necessarily needed to be interconnected... So QUIC just takes three separate layers and squishes them all into a single layer. The main useful thing to know about it is that it's encrypted by default. I don't think you can have unencrypted QUIC.
 
 **Filippo Valsorda:** I don't think you can, yeah.
 
@@ -260,7 +260,7 @@ So they run the TLS handshake over QUIC, and then they extract some stuff. Now, 
 
 **Filippo Valsorda:** ...who is the maintainer of QUIC Go, which was the external implementation that did have a fork of Crypto TLS, which we did break regularly every release, which did cause a lot of breakage in the ecosystem, which was why Homebrew couldn't update to their Go version for a month every time a new Go version came out... So all of that was not great. So now there's a bunch of crypto TLS APIs that are a very small hook into the crypto TLS library, and that don't make me terrified of the complexity that was added, and they allow QUIC implementations, both the one that -- is it coming in standard library, is it not?
 
-**Roland Shoemaker:** \[00:34:08.28\] It's in 1.22. I don't think you can really use it, but...
+**Roland Shoemaker:** \[34:08\] It's in 1.22. I don't think you can really use it, but...
 
 **Filippo Valsorda:** Oh. Wait, the QUIC implementation, or the TLS APIs?
 
@@ -300,7 +300,7 @@ So they run the TLS handshake over QUIC, and then they extract some stuff. Now, 
 
 **Roland Shoemaker:** Yeah. I suspect most people will just be happy that it's happening, and won't have to do anything. Fingers crossed.
 
-**Break:** \[00:36:18.12\]
+**Break:** \[36:18\]
 
 **Natalie Pistunovich:** Alright, let's talk then about the new pathbuilder and the parser.
 
@@ -324,7 +324,7 @@ So they run the TLS handshake over QUIC, and then they extract some stuff. Now, 
 
 **Natalie Pistunovich:** Okay, Nicola, what are you excited most about in the upcoming changes for SSH?
 
-**Nicola Murino:** \[00:41:20.03\] Yes, there are a lot of changes we added in the last month. For example, \[unintelligible 00:41:26.21\] So recently, we added a new implementation to avoid passive network \[unintelligible 00:41:53.24\] The idea is simple, because the client can just emulate a keystroke at a fixed interval. If there is no activity, for example if you stop typing, the client can send some packet. So since SSH is a client-server protocol, there are already a lot of messages defined to exchange the data between the client and the server. And the client may use one of the existing messages to emulate a keystroke. This will be the simplest thing. Unfortunately, this does not work, because the existing packets, the existing messages have two limitations. The first one is their size. They are too big. So a network observer can detect if a data is a keystroke or not the keystroke.
+**Nicola Murino:** \[41:20\] Yes, there are a lot of changes we added in the last month. For example, \[unintelligible 00:41:26.21\] So recently, we added a new implementation to avoid passive network \[unintelligible 00:41:53.24\] The idea is simple, because the client can just emulate a keystroke at a fixed interval. If there is no activity, for example if you stop typing, the client can send some packet. So since SSH is a client-server protocol, there are already a lot of messages defined to exchange the data between the client and the server. And the client may use one of the existing messages to emulate a keystroke. This will be the simplest thing. Unfortunately, this does not work, because the existing packets, the existing messages have two limitations. The first one is their size. They are too big. So a network observer can detect if a data is a keystroke or not the keystroke.
 
 Another limitation is that there isn't a message allowing to send a sequence of bytes, and retuning the same sequence of bytes. For this reason, OpenSSH, the leading SSH implementation, added the protocol extension at \[unintelligible 00:43:19.28\] classical ping. You send some bytes, and the service sends back these bytes. So a client may use this pig message to emulate the keystrokes. Obviously, a client cannot send this \[unintelligible 00:43:43.28\] unconditionally. There is the need to advertise this feature.
 
@@ -342,7 +342,7 @@ Another limitation is that there isn't a message allowing to send a sequence of 
 
 **Filippo Valsorda:** And the reason this is happening, by the way, is that Nicola is now working on maintaining that. Thanks also to all the funding from my clients, which -sorry, I'm not going to say the whole names. This is not a sales pitch. But yeah, I'm so happy we could get Nicola to do that maintenance work.
 
-**Nicola Murino:** \[00:46:14.06\] Of course, I don't work alone on these. Filippo helped me a lot, Roland helped me, Russ, others Go team members helped me in the approval process, because there is a very formal approval process before the shipping a new feature... Because we have to keep backward compatibility. \[laughter\]
+**Nicola Murino:** \[46:14\] Of course, I don't work alone on these. Filippo helped me a lot, Roland helped me, Russ, others Go team members helped me in the approval process, because there is a very formal approval process before the shipping a new feature... Because we have to keep backward compatibility. \[laughter\]
 
 **Filippo Valsorda:** Because our job is about... Backward compatibility.
 
@@ -372,7 +372,7 @@ Another limitation is that there isn't a message allowing to send a sequence of 
 
 **Nicola Murino:** Yes. Basically, the feature support was something \[unintelligible 00:49:52.02\] because it took some time before people realized that there was another breakage. So it was something to do.
 
-**Filippo Valsorda:** \[00:50:07.14\] In my defense, OpenSSH itself implemented this wrong for the first five versions.
+**Filippo Valsorda:** \[50:07\] In my defense, OpenSSH itself implemented this wrong for the first five versions.
 
 **Nicola Murino:** This is exactly the breakage I'm thinking about, because after the initial support we started to get reports because all the OpenSSH versions don't work properly, because their bug, also some old version of gpg-agent, stopped working... And so we added a lot of new \[unintelligible 00:50:37.19\] Basically, our problem was that we have a senior interface that was unable to advertise the supported algorithm... So you can just assume that all algorithms are supported, but this is not applicable anymore. So we needed to introduce a new interface, a multi-algorithm to the senior, and advertise the supported algorithm so you know the supported algorithm and you can choose the one to use for signing. This is our way to fix the issue, because supporting the multi-algorithm signing allowed us to provide the ability to restrict and choose client-side, server-side, and also a certificate signing algorithm... Because one of the biggest issues with OpenSSH are the certificates that are a different standard from X.509 certificate; it's something different, and this introduced a lot of issues with the old OpenSSH versions. Since a few days we merged the latest fix, so I hope we have a normal regression in this area... At least for a while.
 
@@ -390,7 +390,7 @@ Another limitation is that there isn't a message allowing to send a sequence of 
 
 **Filippo Valsorda:** \[laughs\] And I also remember that every time we go back and we change something similar, we get on a call and we're like "Wait, is this an underlying algorithm or is it a key type? Wait, no, this is one can be a certificate, right?"
 
-**Nicola Murino:** \[00:54:11.13\] We absolutely need to do something to fix these, because it's really -- we have two choices. The first one is not change any \[unintelligible 00:54:19.29\] code, never... \[laughter\]
+**Nicola Murino:** \[54:11\] We absolutely need to do something to fix these, because it's really -- we have two choices. The first one is not change any \[unintelligible 00:54:19.29\] code, never... \[laughter\]
 
 **Filippo Valsorda:** No more bug reports.
 
@@ -446,7 +446,7 @@ Another limitation is that there isn't a message allowing to send a sequence of 
 
 **Natalie Pistunovich:** The next GPT is just saying "Thanks for your bug report. Please fix it." \[laughter\]
 
-**Filippo Valsorda:** \[00:58:06.13\] Oh, by the way, we are talking about how -- I think we started saying how not having configurability is good... And we're closing with how we are happy that there's more configurability... I want to call it out, but there is an important difference. In the first one we liked the defaults. In the latter one, the defaults were so bad that being able to configure them off is a step forward. A v2 of the API can remove all of the configurability, and leave only the good things behind, but when you have so much bad stuff, the fact that at least you can turn it off - big thumbs up.
+**Filippo Valsorda:** \[58:06\] Oh, by the way, we are talking about how -- I think we started saying how not having configurability is good... And we're closing with how we are happy that there's more configurability... I want to call it out, but there is an important difference. In the first one we liked the defaults. In the latter one, the defaults were so bad that being able to configure them off is a step forward. A v2 of the API can remove all of the configurability, and leave only the good things behind, but when you have so much bad stuff, the fact that at least you can turn it off - big thumbs up.
 
 **Nicola Murino:** But another important difference, in the SSH world there are \[unintelligible 00:58:45.02\] All modern browsers are updated, so you can remove all the algorithms more easily. I frequently get reposts of a client unable to connect because they maybe use also something \[unintelligible 00:59:04.18\] No more than one year ago I got -- a person asked me how they can enable ARC4. That is an algorithm from at least another era.
 
