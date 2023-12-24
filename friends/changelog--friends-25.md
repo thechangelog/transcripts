@@ -92,7 +92,7 @@
 
 **Amal Hussein:** Can you spell the word for us, or put it in chat?
 
-**Jerod Santo:** \[00:05:56.29\] Yes, it's syzygy. I will put it in the chat here. I am resolved this time not to fall prey to the humble megaflask. Please don't use megaflask in any of your definitions.
+**Jerod Santo:** \[05:56\] Yes, it's syzygy. I will put it in the chat here. I am resolved this time not to fall prey to the humble megaflask. Please don't use megaflask in any of your definitions.
 
 **Emma Bostian:** If you can hear some kind of farm animal noise coming out of my microphones...
 
@@ -154,7 +154,7 @@
 
 **Jerod Santo:** Syzygy - the fizzing that occurs after extracting two or more elements from their original state... Or syzygy, an alignment of three celestial bodies. We will start with Amal. I can reread or I can help you remember if you need to, which of those six definitions is the correct one for syzygy?
 
-**Amal Hussein:** \[00:10:09.18\] I hate going first. Well, that was interesting... There was two references to planets. One sounded more legit than the other, but the element thing looked good, the proton thing seemed very legit, too... Can you read the planet once again?
+**Amal Hussein:** \[10:09\] I hate going first. Well, that was interesting... There was two references to planets. One sounded more legit than the other, but the element thing looked good, the proton thing seemed very legit, too... Can you read the planet once again?
 
 **Jerod Santo:** Yes. This was number three, the maximum axial tilt of a planetary body.
 
@@ -264,7 +264,7 @@
 
 **Lars Wikman:** For the word?
 
-**Amal Hussein:** \[00:14:10.17\] This is not a spelling bee.
+**Amal Hussein:** \[14:10\] This is not a spelling bee.
 
 **Jerod Santo:** It's not a spelling bee. Alright. The word is in the chat. The word is Ultracrepidarian. Spelled, for our listeners, it's spelled Ultracrepidarian. Ultracrepidarian.
 
@@ -344,7 +344,7 @@
 
 **Amal Hussein:** Just remember we have somebody who studied math on the panel... Including myself, technically, but... I mean, Taylor, I think, is a little more advanced...
 
-**Lars Wikman:** \[00:18:04.28\] I saw him laugh a lot at a different one... So I think he \[unintelligible 00:18:07.10\] on that one.
+**Lars Wikman:** \[18:04\] I saw him laugh a lot at a different one... So I think he \[unintelligible 00:18:07.10\] on that one.
 
 **Jerod Santo:** See, Lars plays the -- he reads our faces the entire time that we're reading these... Don't you? Yeah...
 
@@ -456,7 +456,7 @@
 
 **Taylor Troesh:** You should have gone for the one that Emma did. I'm pretty sure that was the right one.
 
-**Amal Hussein:** \[00:22:11.05\] \[laughs\]
+**Amal Hussein:** \[22:11\] \[laughs\]
 
 **Taylor Troesh:** You should have gone for the other one.
 
@@ -508,7 +508,7 @@
 
 **Jerod Santo:** Once I read it. Yeah. Alright, after two rounds we have Emma in first place, with four points, we have Amal and Taylor in second with three, Lars and Adam tied in last, with one; I guess technically I'm last with zero, but we don't have to talk about that.
 
-**Break:** \[00:24:05.00\]
+**Break:** \[24:05\]
 
 **Jerod Santo:** Let's move now to round three, and Omphaloskepsis. Omphaloskepsis. Please submit to me Omphaloskepsis now. Or whenever you're ready. I'm actually gonna go get a drink of water and bring it back, so take your time... Take your time, I'll be right back.
 
@@ -578,7 +578,7 @@
 
 **Adam Stacoviak:** Nah... \[laughter\]
 
-**Amal Hussein:** \[00:33:58.20\] Okay, I'm gonna go with my girl Emma.
+**Amal Hussein:** \[33:58\] Okay, I'm gonna go with my girl Emma.
 
 **Jerod Santo:** Okay, so you're on lymph nodes as well.
 
@@ -690,7 +690,7 @@
 
 **Jerod Santo:** Can we talk about a form of meditation wherein you stare at your navel? I mean, come on... Let's move on, round four. This is our TLA round, which stands for Three Letter Acronym. It turns out it's a four-letter acronym this time... But it's a special round where I give an acronym, you all provide the words behind said acronym, and the definition of the words. So much like NMR last time was neuromuscular reeducation - you provide that, plus the definition.
 
-\[00:38:00.15\] Okay, and the acronym that you're going to do is VLSI. V as in Victor, L as in loser, S as in Saturday, and I as in Indigo. But that's not what it stands for. It's not Victor Loser Saturday Indigo, if anybody was thinking they might submit that. Can I just say from the last round - yes, Taylor's was the wigglebone disease... Please don't say "also known as..." I just can't handle them, okay? \[laughter\] As soon as I saw that, I'm like "Oh, I'm gonna struggle... I can't read Also Known As'es."
+\[38:00\] Okay, and the acronym that you're going to do is VLSI. V as in Victor, L as in loser, S as in Saturday, and I as in Indigo. But that's not what it stands for. It's not Victor Loser Saturday Indigo, if anybody was thinking they might submit that. Can I just say from the last round - yes, Taylor's was the wigglebone disease... Please don't say "also known as..." I just can't handle them, okay? \[laughter\] As soon as I saw that, I'm like "Oh, I'm gonna struggle... I can't read Also Known As'es."
 
 **Adam Stacoviak:** I \[unintelligible 00:38:36.08\] have said "Similar to the facial myalgia" then.
 
@@ -766,7 +766,7 @@
 
 **Jerod Santo:** Alright, WTF does that TLA mean? VLSI. Six definitions. Vision Lens Spectrum Interceptor - the apparatus used to mimic the human eyes' ability to capture light. VLSI - Verilog Language System Integration - a language for Field Programmable Gate Arrays (FPGAs). VLSI - Vector Language Symbol Interference, a shorthand used to store large computational vector data as a means of reducing cloud storage costs. Number four, VLSI - Very Large Scale Integration, the process of creating an integrated circuit by combining millions or billions of transistors onto a single chip.
 
-\[00:42:18.13\] Number five, Vector LASIK Surface Incision - a minimally-invasive type of dermal laser treatment using acute angles and low power. And number six, Vector Longitudinal Scalar Intersection, a Cartesian coordinate where two vectors intersect along a horizontal plane, typically used in aerospace engineering to calculate the angle at which the wings are attached to the fuselage. There you have it, six I think pretty good definitions this time around. One of those is the real definition, and the real acronym. And five of them are not.
+\[42:18\] Number five, Vector LASIK Surface Incision - a minimally-invasive type of dermal laser treatment using acute angles and low power. And number six, Vector Longitudinal Scalar Intersection, a Cartesian coordinate where two vectors intersect along a horizontal plane, typically used in aerospace engineering to calculate the angle at which the wings are attached to the fuselage. There you have it, six I think pretty good definitions this time around. One of those is the real definition, and the real acronym. And five of them are not.
 
 **Lars Wikman:** I'm not convinced there's a real one in there...
 
@@ -850,7 +850,7 @@
 
 **Jerod Santo:** The non-vector ones. The Verilog Language System Integration, the Vision Lens Spectrum Interceptor, and the Very Large Scale Integration.
 
-**Lars Wikman:** \[00:46:02.26\] One of the vector ones was not programming or engineering in that way...
+**Lars Wikman:** \[46:02\] One of the vector ones was not programming or engineering in that way...
 
 **Amal Hussein:** Yeah, it had to do with aerospace. Yeah. And I think that definition was way too long to be real. So that's my pry. I eliminated it there.
 
@@ -954,7 +954,7 @@
 
 **Adam Stacoviak:** Good job, Taylor.
 
-**Jerod Santo:** \[00:50:02.11\] Vector LASIK Surface Incision - Emma guessed that. That was Lars'es, so he also gains another point for tricking somebody; three for each of you. And Vision Lens Spectrum Interceptor - you know Amal loves Adam's definitions, so he got her with that one.
+**Jerod Santo:** \[50:02\] Vector LASIK Surface Incision - Emma guessed that. That was Lars'es, so he also gains another point for tricking somebody; three for each of you. And Vision Lens Spectrum Interceptor - you know Amal loves Adam's definitions, so he got her with that one.
 
 **Amal Hussein:** Of course he did... Like a moth to the flame, you know?
 
@@ -1032,7 +1032,7 @@
 
 **Jerod Santo:** Alright. Zymurgy - the result of a merge event of two zygotes. An academic term for the lack of a synergistic effect where two separate processes do not interact or affect one another in a measurable way. The process in which a zygote or a fertilized egg cell resulting from the union of an egg and a sperm embeds itself within the uterine lining. This process is also more commonly referred to as implantation.
 
-\[00:54:02.06\] Zymurgy occurs when there is more than one asteroid headed in the same direction. The study of fermentation and brewing. Or the cooperative advantage of small, independent groups. Six definitions for Zymurgy. Adam, you're up first this time.
+\[54:02\] Zymurgy occurs when there is more than one asteroid headed in the same direction. The study of fermentation and brewing. Or the cooperative advantage of small, independent groups. Six definitions for Zymurgy. Adam, you're up first this time.
 
 **Adam Stacoviak:** Read number six again, please?
 
@@ -1130,7 +1130,7 @@
 
 **Amal Hussein:** Whoever made up that cooperation thing is gonna get a whole boatloat of points this round.
 
-**Emma Bostian:** \[00:58:10.04\] I'm gonna trust Taylor and go with the fermentation, because I feel like we would have heard the term zymurgy if it was really a corporate BS word. \[laughter\]
+**Emma Bostian:** \[58:10\] I'm gonna trust Taylor and go with the fermentation, because I feel like we would have heard the term zymurgy if it was really a corporate BS word. \[laughter\]
 
 **Adam Stacoviak:** Wow...
 
