@@ -60,7 +60,7 @@
 
 **Jerod Santo:** Yeah.
 
-**Heikki Linnakangas:** \[00:08:06.01\] So there's a lot of potential if you can draw them in to become more active on Postgres itself.
+**Heikki Linnakangas:** \[08:06\] So there's a lot of potential if you can draw them in to become more active on Postgres itself.
 
 **Jerod Santo:** Well, Neon - I mean, you and your team... I'm not sure your age, but there's fresh -- we'll call it fresh blood in the ecosystem. Like, here's a brand new startup, relatively - a couple of years old - contributing, building extensions etc.
 
@@ -106,7 +106,7 @@
 
 **Heikki Linnakangas:** But when that parallel query was implemented a few years ago, that was actually -- a lot of effort went into working around the fact that we did some multi-process architecture. So you actually had to build an infrastructure to share the data between the processes... Which would be a lot simpler in a multi-threaded architecture. So I think we could probably do more. It would probably speed up the development of parallel query as well, although that would be separate projects to do that...
 
-**Adam Stacoviak:** \[00:12:09.20\] That's another mailing list post.
+**Adam Stacoviak:** \[12:09\] That's another mailing list post.
 
 **Heikki Linnakangas:** Yeah.
 
@@ -152,7 +152,7 @@
 
 **Heikki Linnakangas:** Yeah. I think we -- yeah. So it would benefit Neon, because we do all the scaling, and that becomes easier in a multi-threaded architecture, because that makes it easier to resize some of the \[unintelligible 00:16:03.20\] it makes it easier to share some of those caches. Kind of the same problems that everyone has; it would benefit everyone. But yeah, for Neon, that would really help with all the scaling part.
 
-**Jerod Santo:** \[00:16:14.16\] Gotcha. When we had Nikita on the show, probably 18 months ago roughly --
+**Jerod Santo:** \[16:14\] Gotcha. When we had Nikita on the show, probably 18 months ago roughly --
 
 **Adam Stacoviak:** Exactly this time last year.
 
@@ -204,7 +204,7 @@ Then there's all of the exciting stuff happening with pgvector, for example; the
 
 **Jerod Santo:** Yeah, geospatial stuff. Good point. Are those things that, when using Neon -- are those things that are pre-integrated for you as a user of a Neon database? Or is it like click a box, get pgvector? How does it work with plugins?
 
-**Heikki Linnakangas:** \[00:20:14.22\] Yeah, we provide those extensions. You create the extension, and you get it.
+**Heikki Linnakangas:** \[20:14\] Yeah, we provide those extensions. You create the extension, and you get it.
 
 **Jerod Santo:** So you have full Postgres access, and you're just doing your thing, huh?
 
@@ -240,7 +240,7 @@ Then there's all of the exciting stuff happening with pgvector, for example; the
 
 **Adam Stacoviak:** Right.
 
-**Heikki Linnakangas:** The other thing that the storage system can do is the branching, and it kind of replaces traditional backups and \[00:22:23.27\] archive. So you can do point in time query, you can easily spin up a new Postgres instance against an older point in time, start running queries against that, stuff like that... And the branching is something that is kind of unique, and we hear a lot of good things about that; people like that. If you're a developer, you want to create a branch of your development database, or even your production database, and do your changes, run your PR against that... And when you're done, you can forget about it, or you can refresh that.
+**Heikki Linnakangas:** The other thing that the storage system can do is the branching, and it kind of replaces traditional backups and \[22:23\] archive. So you can do point in time query, you can easily spin up a new Postgres instance against an older point in time, start running queries against that, stuff like that... And the branching is something that is kind of unique, and we hear a lot of good things about that; people like that. If you're a developer, you want to create a branch of your development database, or even your production database, and do your changes, run your PR against that... And when you're done, you can forget about it, or you can refresh that.
 
 **Adam Stacoviak:** Right. You said storage system. Is that like a different term, that sits above the database? So Neon is the storage system, and then there's the database... Give me an idea what you mean when you say storage system.
 
@@ -264,7 +264,7 @@ Then there's all of the exciting stuff happening with pgvector, for example; the
 
 **Heikki Linnakangas:** Thank you.
 
-**Break:** \[00:24:20.13\]
+**Break:** \[24:20\]
 
 **Jerod Santo:** Are we started yet?
 
@@ -368,15 +368,15 @@ Then there's all of the exciting stuff happening with pgvector, for example; the
 
 **Robert Aboukhalil:** Surprisingly, yes.
 
-**Jerod Santo:** And I don't know what we talked about then specifically, but one thing that is interesting to me about Web Assembly is how much promise it has, but how little in my purview, practical use it has, beyond tinkerers or people with very specific needs. So just curious your perspective on that.
+**Jerod Santo:** And I don't know what we talked about then specifically, but one thing that is interesting to me about WebAssembly is how much promise it has, but how little in my purview, practical use it has, beyond tinkerers or people with very specific needs. So just curious your perspective on that.
 
-**Robert Aboukhalil:** Yeah, I think I generally agree with that. I think people who think that Web Assembly is going to be used everywhere are just wrong. It's just not what it's meant for. It's a very heavy duty tool. Like, if you have needs for running compute-intensive workloads in the browser, like Figma, and Photoshop, Google Earth - or bioinformatics, I should add - all those are great applications for WebAssembly. Because for the first time, you can take code that's not written in JavaScript and bring it to the browser. But if you're building your typical web application that doesn't have any sort of compute, any sort of processing audio/visual, then you probably don't need it. That's kind of my view on it.
+**Robert Aboukhalil:** Yeah, I think I generally agree with that. I think people who think that WebAssembly is going to be used everywhere are just wrong. It's just not what it's meant for. It's a very heavy duty tool. Like, if you have needs for running compute-intensive workloads in the browser, like Figma, and Photoshop, Google Earth - or bioinformatics, I should add - all those are great applications for WebAssembly. Because for the first time, you can take code that's not written in JavaScript and bring it to the browser. But if you're building your typical web application that doesn't have any sort of compute, any sort of processing audio/visual, then you probably don't need it. That's kind of my view on it.
 
 **Jerod Santo:** Okay. What about these people that are taking it server-side? There's a lot of talk about that as well. I mean, do you dip into that area at all?
 
-**Robert Aboukhalil:** \[00:31:54.20\] A little bit. So there is a lot of excitement about that. I don't share that excitement... Because here's the thing - when you're running Web Assembly in the browser, it lets you do something that was previously impossible; you just couldn't take a C program and run it in the browser... Except maybe asm.js. But that was kind of a precursor. It lets you do things like SIMD. That's also impossible with just JavaScript. But once you leave the browser, you can do whatever you want. So Web Assembly is one extra alternative to the other hundred you have.
+**Robert Aboukhalil:** \[31:54\] A little bit. So there is a lot of excitement about that. I don't share that excitement... Because here's the thing - when you're running WebAssembly in the browser, it lets you do something that was previously impossible; you just couldn't take a C program and run it in the browser... Except maybe asm.js. But that was kind of a precursor. It lets you do things like SIMD. That's also impossible with just JavaScript. But once you leave the browser, you can do whatever you want. So WebAssembly is one extra alternative to the other hundred you have.
 
-So from that angle, there's a few use cases that I think are pretty valuable for Web Assembly on the server. Maybe you want to extend your application, let's say, with plugins, and you want to let users write whatever code they want, and you want to execute that securely... Web Assembly is a good sandbox for that. But then, again, you're not going to reimplement that yourself, you're going to use some other tool that maybe under the hood uses Web Assembly to solve that problem.
+So from that angle, there's a few use cases that I think are pretty valuable for WebAssembly on the server. Maybe you want to extend your application, let's say, with plugins, and you want to let users write whatever code they want, and you want to execute that securely... WebAssembly is a good sandbox for that. But then, again, you're not going to reimplement that yourself, you're going to use some other tool that maybe under the hood uses WebAssembly to solve that problem.
 
 **Jerod Santo:** Okay. What kind of stuff are you doing?
 
@@ -414,7 +414,7 @@ The other thing I'm really interested in is something I'm talking about tomorrow
 
 **Robert Aboukhalil:** Yeah, yeah. One example is - I have this website called fastq.bio. So it takes in some data that you get out of an instrument, and runs some really quick data analysis to tell you how good of a quality the data is... And it runs in the browser, because that's just super-convenient. People drag and drop their files, and they're done. They don't have to figure out how to install it, how to set it up, and all that stuff. So that's one use case. You wouldn't necessarily do super-heavy duty analysis, because it's still the browser; you're kind of limited by what the user has. But it's a nice way to cover a ton of use cases that previously were not covered.
 
-**Adam Stacoviak:** \[00:35:56.27\] And you specialize in the WASM world, in bioinformatics, in particular. That's where your usage of WASM is, in that silo.
+**Adam Stacoviak:** \[35:56\] And you specialize in the WASM world, in bioinformatics, in particular. That's where your usage of WASM is, in that silo.
 
 **Robert Aboukhalil:** Yeah, that's right.
 
@@ -438,7 +438,7 @@ The other thing I'm really interested in is something I'm talking about tomorrow
 
 **Jerod Santo:** Well, I call it WASM. But I'm open to either direction.
 
-**Adam Stacoviak:** I don't even understand why I call it WASM, but I do call it WASM. It's Web Assembly... Wassm...
+**Adam Stacoviak:** I don't even understand why I call it WASM, but I do call it WASM. It's WebAssembly... Wassm...
 
 **Jerod Santo:** One time I called it WASM, because I wanted it to rhyme with awesome... But that was just a means to an end.
 
@@ -536,11 +536,11 @@ The other thing I'm really interested in is something I'm talking about tomorrow
 
 **Jerod Santo:** Yeah.
 
-**Robert Aboukhalil:** \[00:39:56.21\] If you have a slow application that has portions of it that are really heavy JavaScript compute, in some cases - this is something that also tends to be overplayed. This not always happens, but you can get performance improvements by switching it off with Web Assembly. But you can also get worse performance. And yeah, that's kind of the couple of applications that I think are pretty relevant.
+**Robert Aboukhalil:** \[39:56\] If you have a slow application that has portions of it that are really heavy JavaScript compute, in some cases - this is something that also tends to be overplayed. This not always happens, but you can get performance improvements by switching it off with WebAssembly. But you can also get worse performance. And yeah, that's kind of the couple of applications that I think are pretty relevant.
 
 **Adam Stacoviak:** Describe worse performance. Because sometimes access is enough, and I'll wait, because maybe with the web it's easier. And I can't install it on my system, or I can't, because literally I can't install the application. But I can browse the web, and I can authenticate on the web.
 
-**Robert Aboukhalil:** Yeah. So one big thing that I've noticed is that when you have a Web Assembly module and it needs to communicate a lot back and forth with the JavaScript world, that is super-expensive. So if ideally your module takes in a little amount of data, does a bunch of stuff and returns small amounts of data, but if you're constantly returning large trunks, that's because Web Assembly only understands numbers. So if you pass in strings, it converts to a number; you pass in an object, it converts to a number.
+**Robert Aboukhalil:** Yeah. So one big thing that I've noticed is that when you have a WebAssembly module and it needs to communicate a lot back and forth with the JavaScript world, that is super-expensive. So if ideally your module takes in a little amount of data, does a bunch of stuff and returns small amounts of data, but if you're constantly returning large trunks, that's because WebAssembly only understands numbers. So if you pass in strings, it converts to a number; you pass in an object, it converts to a number.
 
 **Adam Stacoviak:** Do you know the conversion, by any chance? Like, if I said the word "the", what number is that, to WASM?
 
@@ -556,7 +556,7 @@ The other thing I'm really interested in is something I'm talking about tomorrow
 
 **Jerod Santo:** Numbers only. So that translation layer in between is expensive...
 
-**Robert Aboukhalil:** Yeah. And so that's actually one way in which you can try to optimize the performance, is if you switch off some JavaScript with Web Assembly, you can try to trim that down in order to speed it up.
+**Robert Aboukhalil:** Yeah. And so that's actually one way in which you can try to optimize the performance, is if you switch off some JavaScript with WebAssembly, you can try to trim that down in order to speed it up.
 
 **Jerod Santo:** Yeah, it makes sense. Back to your current interest of CLI tutorials in the browser...
 
@@ -564,7 +564,7 @@ The other thing I'm really interested in is something I'm talking about tomorrow
 
 **Jerod Santo:** Are you giving people full-fledged Linux environments in the browser? Or how does it work?
 
-**Robert Aboukhalil:** Not yet. So right now, in the v1, every tool I have to compile to Web Assembly, and then I have this sort of Xterm.js; it simulates a console... And I kind of hook those up together. In the future, what I'm going to do is actually switch that up with a full-blown Linux OS in the browser; that's going to be a little slower, but it's going to be worth it for getting some things on there that are otherwise hard to do just by directly compiling. And this is using an open source project called v86. So they wrote essentially a CPU emulator in Rust. And so they compiled that to Web Assembly, and that's kind of how they emulate the whole operating system. And it boots up, there's a BIOS, there's everything. It's pretty wild.
+**Robert Aboukhalil:** Not yet. So right now, in the v1, every tool I have to compile to WebAssembly, and then I have this sort of Xterm.js; it simulates a console... And I kind of hook those up together. In the future, what I'm going to do is actually switch that up with a full-blown Linux OS in the browser; that's going to be a little slower, but it's going to be worth it for getting some things on there that are otherwise hard to do just by directly compiling. And this is using an open source project called v86. So they wrote essentially a CPU emulator in Rust. And so they compiled that to WebAssembly, and that's kind of how they emulate the whole operating system. And it boots up, there's a BIOS, there's everything. It's pretty wild.
 
 **Adam Stacoviak:** That'd be kind of cool, man. Can you simulate any BIOS, or just a particular BIOS?
 
@@ -580,7 +580,7 @@ The other thing I'm really interested in is something I'm talking about tomorrow
 
 **Adam Stacoviak:** \[unintelligible 00:43:18.25\] "Which was it, Delete? Gosh, I missed it!" You know, it's like, "Boot it up already!" Well, I think of that because if you can emulate those things, you can kind of give somebody a playground to configure hardware, or to configure a BIOS, or whatever it might be to be like "Okay, this is how you change the boot order. This is how you set these two NVMe drives to be the boot." Or to the USB, or whatever it might be. Or this is how you set up virtualization in this particular Intel CPU, for example. Those are the kinds of things that you kind of have to have the hardware to learn; until you have the hardware, you can't learn it. And then you're kind of by yourself... You know what I mean? If you could do it in an environment like that, there could be interactivity, because you're emulating it, you know?
 
-**Robert Aboukhalil:** \[00:44:00.04\] I love this. Yeah. I was mostly thinking, like, once you're logged in, past boot time... But yeah, this is an interesting use case for it.
+**Robert Aboukhalil:** \[44:00\] I love this. Yeah. I was mostly thinking, like, once you're logged in, past boot time... But yeah, this is an interesting use case for it.
 
 **Adam Stacoviak:** Yeah, as a black box. I mean, you go to the forums, you'll find zillions - and I don't mean like literally zillions, but quite a lot - of people saying "How do you do this with this BIOS?", or whatever. All the BIOS out there. And you've got somebody showing screenshots... That's cavemen knocking rocks together, trying to make fire.
 
@@ -648,7 +648,7 @@ The other thing I'm really interested in is something I'm talking about tomorrow
 
 **Jerod Santo:** Core utils...
 
-**Adam Stacoviak:** \[00:48:05.08\] So give an example of how these tutorials would work then. Let's say I have zero idea of how I would use awk, or grep.
+**Adam Stacoviak:** \[48:05\] So give an example of how these tutorials would work then. Let's say I have zero idea of how I would use awk, or grep.
 
 **Robert Aboukhalil:** Yeah, so there's an awk tutorial right now. You can go to sandbox.bio and click on the awk tutorial. It basically shows you tutorial contents on the left... And it shows you some scenarios. Let's say you want to analyze a tab-separated file, and filter out rows that have a number greater than whatever in a column. So you can do these sorts of things. Awk, by the way, is a whole programming language, which is amazing... You can launch processes within it, you can write to files, you can -- it's quite deep. But yeah, so the tutorial has these sorts of examples, and then you have exercises. Some of them, I admit, are probably a bit too complicated. You're doing a bit too much math for awk, but just to show you how powerful it is.
 
@@ -714,7 +714,7 @@ The other thing I'm really interested in is something I'm talking about tomorrow
 
 **Robert Aboukhalil:** Sure, yeah. If you want to just play with having Debian in the browser, you could also look at v86, which is what I'm using to emulate it, and you could run it on your own site; or if you want to embed it, or... All that's possible.
 
-**Adam Stacoviak:** \[00:51:55.16\] Yeah. Well, I was actually thinking about this recently, and I just did this with screenshots. I did a fresh install of -- because I've been messing with Ubuntu 22.04, or sorry, 23.04... And I got a redundant OS installation, I've got two discs, I've got a swap, I've got a boot, I've got root, and all that stuff like that... And so rather than just choosing one drive, I want to have the system be fully redundant by having two drives in mirror. And I like to show that off, either in written, but the only way I could do it really was like through screenshots, and then \[unintelligible 00:52:27.25\] those screenshots. Now, will I do a full emulation? It'd be kind of cool to have all that I already have, but then at the end, or somewhere else, a sidecar would be like "Here's literally the environment to go and do just that. You've got two discs, so when you get to that part, you can configure these discs, because you can follow my instructions." So rather than having to pull down a VM, or Proxmox, or actual \[unintelligible 00:52:50.09\] you take a USB stick and boot up into it and do the full thing yourself... It's accessibility to what's kind of trivial to some, redundant OS installation on Linux, but there's a lot of steps in there. There's a lot of steps in there in like choosing the partition, adding the partitions and giving them the paths, and stuff like that, and adding them... It's a mess, really. So I want to do the example through screenshots, but the best version of that really would be an interactive playground they could do... I mean, just follow the steps.
+**Adam Stacoviak:** \[51:55\] Yeah. Well, I was actually thinking about this recently, and I just did this with screenshots. I did a fresh install of -- because I've been messing with Ubuntu 22.04, or sorry, 23.04... And I got a redundant OS installation, I've got two discs, I've got a swap, I've got a boot, I've got root, and all that stuff like that... And so rather than just choosing one drive, I want to have the system be fully redundant by having two drives in mirror. And I like to show that off, either in written, but the only way I could do it really was like through screenshots, and then \[unintelligible 00:52:27.25\] those screenshots. Now, will I do a full emulation? It'd be kind of cool to have all that I already have, but then at the end, or somewhere else, a sidecar would be like "Here's literally the environment to go and do just that. You've got two discs, so when you get to that part, you can configure these discs, because you can follow my instructions." So rather than having to pull down a VM, or Proxmox, or actual \[unintelligible 00:52:50.09\] you take a USB stick and boot up into it and do the full thing yourself... It's accessibility to what's kind of trivial to some, redundant OS installation on Linux, but there's a lot of steps in there. There's a lot of steps in there in like choosing the partition, adding the partitions and giving them the paths, and stuff like that, and adding them... It's a mess, really. So I want to do the example through screenshots, but the best version of that really would be an interactive playground they could do... I mean, just follow the steps.
 
 **Robert Aboukhalil:** Yeah. I'd be curious to see if it works with all the configuration of like disks, and BIOS, and all that combination...
 
@@ -818,7 +818,7 @@ The other thing I'm really interested in is something I'm talking about tomorrow
 
 **Jerod Santo:** Transcript and diff it... There's an idea.
 
-**Break**: \[00:56:30.01\]
+**Break**: \[56:30\]
 
 **Jerod Santo:** So we're here with M. Scott Ford... You have a name like a great novelist. Have you ever been told that?
 
@@ -1032,7 +1032,7 @@ Something I've seen on a lot of teams is there'll be engineers on the teams who 
 
 **Jerod Santo:** Sure. And you think bubbling that up to somebody with decision-making would help them...
 
-**Scott Ford:** That's my hope, is that if leaders, the people who are kind of in control of the priorities, and people who are in control of funding - if they had a better understanding of the problem, I think they would make different choices. I think, in a large respect, how out of date dependencies are is -- it's invisible; it's even invisible to the team, a lot of times. They just kind of pull in a package, they start using it and they move on. And there's not really much to help them stay up to date and kind of keep aware of that. That's starting to change a little bit with different package ecosystems. I feel like NPM is doing a pretty good job with letting people know when things are out of date when they do an Npm install. Npm-outdated is a really good tool set for folks, and it has really good output, and it it's easy to read... And I think more package ecosystems are starting to adopt that strategy and that approach. My hope is that that helps kind of increase awareness. I really do think it's interesting to see how well the team has been doing at keeping up with that churn.
+**Scott Ford:** That's my hope, is that if leaders, the people who are kind of in control of the priorities, and people who are in control of funding - if they had a better understanding of the problem, I think they would make different choices. I think, in a large respect, how out of date dependencies are is -- it's invisible; it's even invisible to the team, a lot of times. They just kind of pull in a package, they start using it and they move on. And there's not really much to help them stay up to date and kind of keep aware of that. That's starting to change a little bit with different package ecosystems. I feel like npm is doing a pretty good job with letting people know when things are out of date when they do an npm install. npm-outdated is a really good tool set for folks, and it has really good output, and it it's easy to read... And I think more package ecosystems are starting to adopt that strategy and that approach. My hope is that that helps kind of increase awareness. I really do think it's interesting to see how well the team has been doing at keeping up with that churn.
 
 And obviously, because of supply chain attacks - again, that's what they're called in the security ecosystem, is supply chain attacks... Sorry, Adam... \[laughs\]
 
