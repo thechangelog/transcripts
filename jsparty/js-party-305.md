@@ -24,7 +24,7 @@
 
 **Daniel Ehrenberg:** Yeah. My coworker, Rob Palmer and I have been talking about making a blog post about all this... And it's just a lot of work that we haven't done yet.
 
-**Amal Hussein:** \[00:07:58.04\] Well, Rob Palmer has been invited. He has had an open invitation to this show. And I know you're listening, Rob, so I just want to say - let's talk about the Bloomberg terminal on JS Party, okay? But today, again, we're going back to JavaScript. There would be no Bloomberg terminal without JavaScript, right, Dan? Is that fair to say?
+**Amal Hussein:** \[07:58\] Well, Rob Palmer has been invited. He has had an open invitation to this show. And I know you're listening, Rob, so I just want to say - let's talk about the Bloomberg terminal on JS Party, okay? But today, again, we're going back to JavaScript. There would be no Bloomberg terminal without JavaScript, right, Dan? Is that fair to say?
 
 **Daniel Ehrenberg:** At this point, no.
 
@@ -42,7 +42,7 @@
 
 Years ago, before I got involved in this process, I of thought "Oh, it would be really cool to work on JavaScript... But it just seems these things are already of fixed, or it'd be very impossible to change. You would have to be in some-- I don't even know what of powerful position to do it." But instead, we aim to have this open process where anyone can join the committee, people can participate from outside the committee, and make contributions to the language, and propose changes, and work together with the open source community on developing those changes. So because it's -- you know, in the old day, we would have a waterfall model. We would say, "Okay, here's the goals for ES6. Let's work on them for five years, and then publish ES6." After ES6, we decided "No, this is too much. We have to go more incrementally." Just with developing software. It used to be Windows 95, Windows 98, and now we're on these sort of rolling releases.
 
-\[00:11:46.19\] So instead, we develop the proposals through this four-stage process. Actually five stages now. So it's stage one, we have an idea that we're all discussing. That means that someone has brought it to committee, it's on the table, and we haven't yet agreed whether we should do anything about it. At stage two there's a concrete first draft. So there's a concrete specification, showing what the language feature would do, and the committee of agrees that it should move forward. We of hope that it can eventually be part of JavaScript, collectively.
+\[11:46\] So instead, we develop the proposals through this four-stage process. Actually five stages now. So it's stage one, we have an idea that we're all discussing. That means that someone has brought it to committee, it's on the table, and we haven't yet agreed whether we should do anything about it. At stage two there's a concrete first draft. So there's a concrete specification, showing what the language feature would do, and the committee of agrees that it should move forward. We of hope that it can eventually be part of JavaScript, collectively.
 
 At stage 2.7 - it's the new stage - we've basically finished with the design, as much as we can, in theory, based on community outreach, and based on thinking things through carefully as a committee...
 
@@ -72,7 +72,7 @@ Sometimes engines try out a prototype implementation beforehand, and that can bu
 
 **Daniel Ehrenberg:** And that's part of what makes it a real standard, in some sense.
 
-**Amal Hussein:** \[00:16:09.18\] Yeah, absolutely. For sure. And just a couple of really important points that you've made there, Daniel... First of all, amazing job summarizing that. Thank you so much for the wonderful explanation of this super-dense topic. I just want to clarify one thing. You said once something is of in stage four, the PR gets merged. It's not the Test262 PR. You're talking about the actual draft PR to edit the spec, right? That there's a repo, and--
+**Amal Hussein:** \[16:09\] Yeah, absolutely. For sure. And just a couple of really important points that you've made there, Daniel... First of all, amazing job summarizing that. Thank you so much for the wonderful explanation of this super-dense topic. I just want to clarify one thing. You said once something is of in stage four, the PR gets merged. It's not the Test262 PR. You're talking about the actual draft PR to edit the spec, right? That there's a repo, and--
 
 **Daniel Ehrenberg:** Yeah.
 
@@ -100,7 +100,7 @@ Sometimes engines try out a prototype implementation beforehand, and that can bu
 
 And I think for me the interesting part, as somebody who's written tests for the language - tests really, really helped implementers. Imagine having the ability to TDD your specification. So I'm an engineer on JavaScript core, I'm implementing top-level awaits... Me being able to have tests along the way, while I'm implementing, to see what I'm doing right or wrong - it greatly speeds up my processes as a browser developer/engineer.
 
-\[00:20:07.08\] But on the flipside of that, for folks who are writing these tests, they're actually the first -- I remember I was writing tests for atomics, for example. I was one of the first people on the planet hitting different edge cases with like "How do I do this in atomics? How do I do that?" What kind of a harness do I need? And how do I need to set this file up in order to make things work?" And it's really interesting being that early, because you also get a chance to potentially give feedback to the people who wrote the spec, and say 'This is difficult. This isn't working." So it's actually this really nice chance to also further polish up the spec.
+\[20:07\] But on the flipside of that, for folks who are writing these tests, they're actually the first -- I remember I was writing tests for atomics, for example. I was one of the first people on the planet hitting different edge cases with like "How do I do this in atomics? How do I do that?" What kind of a harness do I need? And how do I need to set this file up in order to make things work?" And it's really interesting being that early, because you also get a chance to potentially give feedback to the people who wrote the spec, and say 'This is difficult. This isn't working." So it's actually this really nice chance to also further polish up the spec.
 
 **Daniel Ehrenberg:** Yeah. Like when you found that bug in my BigInt proposal...
 
@@ -144,7 +144,7 @@ And I think for me the interesting part, as somebody who's written tests for the
 
 **Daniel Ehrenberg:** Yeah, yeah. So type annotations is a stage one proposal that adds syntax to JavaScript where you can put types. It's to solve this problem where - you know, right now you have to choose between either writing TypeScript, in which case you have to use TSC to strip out the types before running the code... Or use JSDoc comments, in which case the types are really ugly, and then you're missing a bunch of features. So it only handles parts of your code. And instead, the idea is "What if we put types in JavaScript?" But there's a problem. Type checking is really complicated, and also TypeScript keeps evolving its type checking pretty rapidly. In a way, that's good. It keeps getting better.
 
-**Amal Hussein:** \[00:24:24.20\] One might say a breaking release every release, you know? \[laughs\]
+**Amal Hussein:** \[24:24\] One might say a breaking release every release, you know? \[laughs\]
 
 **Daniel Ehrenberg:** Yeah, yeah. That's not something we could do in JavaScript. We try to be compatible; we call it -- we say web-compatible. We try to not break the web with each release. Maybe there could be something that's technically a little incompatible, but it's not going to break too many websites. That's of the criteria.
 
@@ -188,7 +188,7 @@ And I think for me the interesting part, as somebody who's written tests for the
 
 **Amal Hussein:** So what are we losing with that, though?
 
-**Daniel Ehrenberg:** \[00:27:56.22\] Well, one thing that we wouldn't be losing is the ability to use them as keys in maps and sets. Or at least we would have a version of maps and sets that compare those by value. So that's one of the big things that people want records and tuples for, so that you can have a kind of compound key.
+**Daniel Ehrenberg:** \[27:56\] Well, one thing that we wouldn't be losing is the ability to use them as keys in maps and sets. Or at least we would have a version of maps and sets that compare those by value. So that's one of the big things that people want records and tuples for, so that you can have a kind of compound key.
 
 **Amal Hussein:** That was such a political diplomatic answer, though... This is how I know you've been doing standards work for a long time. I asked you for the glass half empty, and you gave me the glass half full.
 
@@ -266,7 +266,7 @@ So anyway, all this means that interning is not something that you always want t
 
 **Daniel Ehrenberg:** Chris, anything to share?
 
-**Christopher Hiller:** \[00:31:54.28\] No, no...
+**Christopher Hiller:** \[31:54\] No, no...
 
 **Amal Hussein:** \[laughs\] I can do it that way. I can say it in that voice if you'd like.
 
@@ -282,7 +282,7 @@ So anyway, all this means that interning is not something that you always want t
 
 **Christopher Hiller:** Is this sync iterator helpers?
 
-**Daniel Ehrenberg:** Sync iterator helpers, yeah. It's at stage three. There was a web compatibility issue that forced it to be a little bit delayed... Iterator helper should let you filter over a map or set. And if you want to union or intersection sets, then set methods do that. We had huge debates over these; there's so many details to work out, and a lot of this is about what are the conventions that we're going to use going forward when we add things to the JavaScript standard library. So these are moderately big additions, but I hope that they'll pave the way for even more things that you don't have to use an Npm package for something as simple as filtering over an iterator, or \[unintelligible 00:34:13.27\] or groupBy. What was wrong with groupBy, by the way? How did it not do what you wanted?
+**Daniel Ehrenberg:** Sync iterator helpers, yeah. It's at stage three. There was a web compatibility issue that forced it to be a little bit delayed... Iterator helper should let you filter over a map or set. And if you want to union or intersection sets, then set methods do that. We had huge debates over these; there's so many details to work out, and a lot of this is about what are the conventions that we're going to use going forward when we add things to the JavaScript standard library. So these are moderately big additions, but I hope that they'll pave the way for even more things that you don't have to use an npm package for something as simple as filtering over an iterator, or \[unintelligible 00:34:13.27\] or groupBy. What was wrong with groupBy, by the way? How did it not do what you wanted?
 
 **Christopher Hiller:** I don't remember.
 
@@ -306,7 +306,7 @@ Also, a lot of us go to conferences to speak about proposals, or just to learn f
 
 **Daniel Ehrenberg:** So that always makes it hard when it's not clear when the point is that you should give feedback before. And so I'm always trying to do outreach to encourage people to give feedback earlier in the process.
 
-\[00:36:08.24\] We've also had some specific outreach mechanisms. I've created a couple of calls to talk to tools, authors, and also framework authors, and some JavaScript educators. If you're interested in getting involved in those, please write me through any means of communication you could see on my GitHub page; there's a few ways that you would contact me. But yeah, we'd always like more participation in those things.
+\[36:08\] We've also had some specific outreach mechanisms. I've created a couple of calls to talk to tools, authors, and also framework authors, and some JavaScript educators. If you're interested in getting involved in those, please write me through any means of communication you could see on my GitHub page; there's a few ways that you would contact me. But yeah, we'd always like more participation in those things.
 
 **Christopher Hiller:** I retract my displeasure with groupBy... I think it was userError.
 
@@ -352,7 +352,7 @@ Also, a lot of us go to conferences to speak about proposals, or just to learn f
 
 **Amal Hussein:** So we might want to start publishing two episodes a week to get through everything next year... So we'll see. We'll see. Anyways, so...
 
-**Daniel Ehrenberg:** \[00:39:41.11\] So for Promise.withResolvers(). Right now the promise constructor - we needed a new promise. You have to pass it a function, and then that function is passed to other functions for resolve and reject. And then you're supposed to launch the stuff within the function that you're passing. It's called a revealing constructor. And then the whole thing returns a promise. I think the idea behind this was that it would encourage people to use promises the right way, or something... In particular, if you throw an exception within the function, within that callback that you're passing to the promise constructor, then it'll get caught and the thing will be rejected, rather than throwing an exception... Because you're not supposed to -- when you have a function that returns a promise, it's supposed to always return a promise. If it has to throw, it should return a rejection.
+**Daniel Ehrenberg:** \[39:41\] So for Promise.withResolvers(). Right now the promise constructor - we needed a new promise. You have to pass it a function, and then that function is passed to other functions for resolve and reject. And then you're supposed to launch the stuff within the function that you're passing. It's called a revealing constructor. And then the whole thing returns a promise. I think the idea behind this was that it would encourage people to use promises the right way, or something... In particular, if you throw an exception within the function, within that callback that you're passing to the promise constructor, then it'll get caught and the thing will be rejected, rather than throwing an exception... Because you're not supposed to -- when you have a function that returns a promise, it's supposed to always return a promise. If it has to throw, it should return a rejection.
 
 Anyway, that was lost on, I would say, 99.9% of people, the rationale for that... Unfortunately. And instead, it just seems like extra work. You have to save off the resolve and reject functions that you could call them later... And this new form promise.withResolvers is just a simple function that you call; it doesn't take any arguments. It returns you an object with three named properties: the promise, the resolve function, and the project function. And it just saves you an extra five lines of code that everyone has to keep writing over and over again.
 
@@ -390,7 +390,7 @@ Anyway, that was lost on, I would say, 99.9% of people, the rationale for that..
 
 **Christopher Hiller:** And I always feel like I'm doing something wrong... Because somewhere along the way we learned that you shouldn't do that. And I don't know where that came from.
 
-**Daniel Ehrenberg:** \[00:43:43.03\] Well, I mean, there should be some other API that returns a promise, and then you should just do then. But the cases where you need to save it off, where it's legitimate to do so, is when you have an API that has a callback, or an event, or something like that. You shouldn't really be using the resolve and reject functions when you're just dealing with a bunch of other promises. But yeah, I think that message was marketed a lot. Probably the new generation of programmers hasn't even heard it, and it didn't fully make sense, because nobody fully followed through on making promise-based APIs for everything. And we have the node FS Promise APIs, we have -- on the web, new APIs are made with promises, but in general, nobody went back and made promise-based APIs for all the old things.
+**Daniel Ehrenberg:** \[43:43\] Well, I mean, there should be some other API that returns a promise, and then you should just do then. But the cases where you need to save it off, where it's legitimate to do so, is when you have an API that has a callback, or an event, or something like that. You shouldn't really be using the resolve and reject functions when you're just dealing with a bunch of other promises. But yeah, I think that message was marketed a lot. Probably the new generation of programmers hasn't even heard it, and it didn't fully make sense, because nobody fully followed through on making promise-based APIs for everything. And we have the node FS Promise APIs, we have -- on the web, new APIs are made with promises, but in general, nobody went back and made promise-based APIs for all the old things.
 
 **Amal Hussein:** Right.
 
@@ -444,19 +444,19 @@ So the problem was we kept having trouble coming up with a name. It's really har
 
 **Amal Hussein:** So it's just object and map, even though the proposal is called array grouping. So why did the proposal name not change?
 
-**Daniel Ehrenberg:** \[00:47:58.26\] Well, it's still Groups Arrays. Well, now groups are all iterables, so it's kind of more general.
+**Daniel Ehrenberg:** \[47:58\] Well, it's still Groups Arrays. Well, now groups are all iterables, so it's kind of more general.
 
 **Amal Hussein:** Oh, iterables. Okay. I see. That makes sense.
 
 **Daniel Ehrenberg:** I mean, because it used to be an array method, and now because it's an argument, it's just going to accept any iterable.
 
-**Amal Hussein:** Yeah, that makes sense. And then the Lodash group by, which does pretty much the exact same thing... So now this is part of the language, yay. But it has 850,000 downloads a week. This is where I wish Npm had this memo feature, where it's like "By the way, this package can now be deleted." It'd be cool if we had this broadcast, honestly.
+**Amal Hussein:** Yeah, that makes sense. And then the Lodash group by, which does pretty much the exact same thing... So now this is part of the language, yay. But it has 850,000 downloads a week. This is where I wish npm had this memo feature, where it's like "By the way, this package can now be deleted." It'd be cool if we had this broadcast, honestly.
 
 **Daniel Ehrenberg:** Well, Lodash being deleted is kind of a long way off...
 
 **Amal Hussein:** Oh, no, no; this package specifically. Hopefully, you're downloading just that one package, and not all of Lodash.
 
-**Christopher Hiller:** You can use Npm deprecate to mention it on that one package, whoever is --
+**Christopher Hiller:** You can use npm deprecate to mention it on that one package, whoever is --
 
 **Amal Hussein:** Yeah, but I meant like as a community, I wish we had just like a weekly community broadcast... Just like "Everybody..."
 
@@ -468,7 +468,7 @@ So the problem was we kept having trouble coming up with a name. It's really har
 
 **Amal Hussein:** Yeah, no, that makes sense. Alright, so moving on, just because I know we have a lot to cover... Error cause.
 
-**Daniel Ehrenberg:** Yeah. Error cause is when you call the error constructor, you can pass an extra cause. So this happens, for example, if you have a function that calls some other function; then that inner function throws an exception, and then the outer function catches it, and it wants to explain sort of at a higher level what's going on. But also, you want to point to the inner thing, so that you can see more details about what's going on. So error cause lets you bring those both together, just based on the standard error constructor. So you can use the .cause property to figure this out.
+**Daniel Ehrenberg:** Yeah. Error cause is when you call the error constructor, you can pass an extra cause. So this happens, for example, if you have a function that calls some other function; then that inner function throws an exception, and then the outer function catches it, and it wants to explain sort of at a higher level what's going on. But also, you want to point to the inner thing, so that you can see more details about what's going on. So error cause lets you bring those both together, just based on the STDERR constructor. So you can use the .cause property to figure this out.
 
 **Christopher Hiller:** What's the semantic difference between that and an aggregate error that contains one error?
 
@@ -488,7 +488,7 @@ So the problem was we kept having trouble coming up with a name. It's really har
 
 **Amal Hussein:** That's a big deal.
 
-**Break**: \[00:51:32.04\]
+**Break**: \[51:32\]
 
 **Amal Hussein:** Alright, so moving on to stage three. So now we're getting into stuff that's either very close to officially shipping, or still in discussion, like stage two and one. So let's talk about decorators, because this has just been like -- when this thing officially gets to stage four, I think there's gonna be like a worldwide JavaScript party, led by Pitbull, Mr. 305, honestly... Because --
 
@@ -514,7 +514,7 @@ For me personally, I really wanted it to be that you could decorate a private fi
 
 One of the things that we fixed up at the last minute was - for a while, we were going to make it so that if you have an exported class, you have a class decorator, then the export initially came before... Well, initially, in TypeScript and the first version of Babel, first you had the decorator, and then you had the export keyword. And then it got switched, actually initially by accident. But then some people on the committee really liked it, the order; so you would put export, and then the decorator. And finally, we decided at the 11th hour that you should be able to use either order. Because people were pretty worried about the difficulty upgrading from one version to the other; it's going to require a lot of changes in documentation, and such. Maybe it wasn't a big problem, but it was kind of nice that we were able to take the feedback from the decorator community, and make sure that the proposal listened to it.
 
-\[00:55:59.24\] Anyway, now it's at stage three, it's implemented in TypeScript... There's some implementations in progress in engines, but I think they're somewhat early. So I wouldn't expect that that's going to be usable directly in your browser tomorrow, but in the next couple of years \[unintelligible 00:56:14.08\]
+\[55:59\] Anyway, now it's at stage three, it's implemented in TypeScript... There's some implementations in progress in engines, but I think they're somewhat early. So I wouldn't expect that that's going to be usable directly in your browser tomorrow, but in the next couple of years \[unintelligible 00:56:14.08\]
 
 **Amal Hussein:** But it's in the works. Yeah. In the next couple of years... Wow. Even the implementation... That's amazing. So it's taking a while. I understand why. I mean, I think implementers were the loudest to contest why this was gonna be really hard to do, if I remember correctly, the first go around.
 
