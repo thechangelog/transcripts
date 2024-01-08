@@ -418,7 +418,7 @@ I'll also say I really enjoyed episode 558, "Open source is at a crossroads", wi
 
 Episode 549, with Steve Yegge, was a lot of fun, too... Just hearing Steve's stories. He's just such a great storyteller. I know I kind of geeked out along with Adam listening to episode 537 on "Hard drive reliability at scale" with Andy Klein. So that turned out to be just a lot of fun, and just learning about all the little nitty-gritty details about physical hard drives still...
 
-Those are probably the top ones. \[40:14\] in reverse chronological order, that just deserves an honorable mention, was "Next level", where you got to listen to one of your new albums... "30 years of Debian", episode 553, "A new path to full-time open source", episode 533, "Mainframes are still a big thing", episode 524... And closing at the beginning of the year was Just Postgres, 523, with Craig Kirstens. And I made sure this year to actually make sure every episode I talked about in this recording was actually from the year of 2023.
+Those are probably the top ones. \[unintelligible 40:14\] in reverse chronological order, that just deserves an honorable mention, was "Next level", where you got to listen to one of your new albums... "30 years of Debian", episode 553, "A new path to full-time open source", episode 533, "Mainframes are still a big thing", episode 524... And closing at the beginning of the year was Just Postgres, 523, with Craig Kirstens. And I made sure this year to actually make sure every episode I talked about in this recording was actually from the year of 2023.
 
 Once again, congrats, guys. Another great year, and talk to you soon.
 
