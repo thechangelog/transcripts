@@ -38,7 +38,7 @@ I think I remember the very first State of the 'log, it was really just us two t
 
 **Jerod Santo:** Do you want to hear our second episode ever? /2. And so on and so forth. \[laughs\] So this episode is going to be cool. In 2021 - actually, it came by way of JS Party. I think we did JS Party's 200th episode, Best of the Fest, and I asked to have some people call in and leave us voicemails, or text messages... And we had a good response. It was just really cool hearing from listeners on that show. And so we pulled that over shortly thereafter, a month later, like "Let's do that for State of the 'log." And we got a few in our first year. I think there was four listener call-ins on State of the 'log '21... But enough to make a cool thing out of it. And so we did it again last year... I think we got eight call-ins last year. And we're back with some more, we've got 11.
 
-\[00:04:48.27\]
+\[04:48\]
 
 *Jerod here in post. It turns out we ended up with 12 submissions. One came in after the bell rang. You'll hear that one at the end.*
 
@@ -46,7 +46,7 @@ I think I remember the very first State of the 'log, it was really just us two t
 
 **Adam Stacoviak:** That's right.
 
-**Jerod Santo:** \[00:05:47.18\] And generally quiet, which is nice. When I put the call out in that Slack for people to leave us voicemails, Ricky de la Vega said "Wait, the entire episode isn't just going to be soundbites from the Breakmaster Cylinder episode?" \[Heckings yeah, I said to myself\] So Ricky really enjoyed that BMC episode. And I said "Was it that good?" And then Breakmaster chimed in \[I threw my fist in the air\] and said "Oh, it was that good!" And then Mary Hightower, brilliantly, says "What if Breakmaster Cylinder drops a beat for each listener voicemail?" to which BMC said \[Oh, cool.\] "I got beats." \[I like making music, so of course\]
+**Jerod Santo:** \[05:47\] And generally quiet, which is nice. When I put the call out in that Slack for people to leave us voicemails, Ricky de la Vega said "Wait, the entire episode isn't just going to be soundbites from the Breakmaster Cylinder episode?" \[Heckings yeah, I said to myself\] So Ricky really enjoyed that BMC episode. And I said "Was it that good?" And then Breakmaster chimed in \[I threw my fist in the air\] and said "Oh, it was that good!" And then Mary Hightower, brilliantly, says "What if Breakmaster Cylinder drops a beat for each listener voicemail?" to which BMC said \[Oh, cool.\] "I got beats." \[I like making music, so of course\]
 
 So BMC got busy, we sent over these voicemails... And I think you're gonna like this better than a T-shirt. Having your own voice remixed into your own custom beat. So we are going to play some voicemails, we're gonna play some remixes... We hope you enjoy them as we go. Anything to add, Adam, before we pop into the first listener call?
 
@@ -60,7 +60,7 @@ So BMC got busy, we sent over these voicemails... And I think you're gonna like 
 
 **Arthur:** Hey, Changelog crew. Huge fan. I've been listening since the Wynn Netherland days, if you can think back that far... Anyway, I just wanted to send in a recording for the sixth annual State of the 'log episode. For some reason, all of my favorites seem to be clustered around this summer. I guess you all put out some really epic episodes this whole summer. I have to say that I really enjoyed the episode Change & Friends 11, with Justin Searls in "An aberrant generation of programmers." It really struck a chord with me, as I've really been feeling the same recently, and wondering, "Is it just me getting old?" and you know, that "Oh, back in my day we walked to school in the snow uphill, both ways" kind of person, or there was something else... But it was really great to hear that the newer generation of developers, that there's still that energy. And I of course see it in my day to day as well. I guess it's just a big market now and there is room for lots of different levels of passion... But hopefully, we can inspire a new generation, one engineer at a time.
 
-\[00:10:11.18\] The other big one I really enjoyed as a huge proponent of developer experience, recently having the chance to kind of dig into the topic more at GitHub Universe as I've been the presenter, I absolutely loved the DX on DX Changelog interview, episode 5512. I'm also an avid listener of the Engineering Enablement podcast, and I find Abi Noda's insights really great. I thought that the way that you all went in depth in that interview, and got into the science of survey design, and... I mean, you just really dug into the details with Abi, and I really enjoyed that. I think \[unintelligible 00:10:51.03\] listened to most of the Engineering Enablement podcasts, I thought you really got to the real core value propositions of the DX company, and then just what are they looking at, and how do they gauge developer sentiment... And it made me a bit depressed about survey design, and realizing there really is kind of a science to it... I guess that's why people talk about if you want to get great at writing documentation, hire technical authors, and also look at hiring archivists and librarians to help organize that information. I guess doing surveys well is kind of like that, too.
+\[10:11\] The other big one I really enjoyed as a huge proponent of developer experience, recently having the chance to kind of dig into the topic more at GitHub Universe as I've been the presenter, I absolutely loved the DX on DX Changelog interview, episode 5512. I'm also an avid listener of the Engineering Enablement podcast, and I find Abi Noda's insights really great. I thought that the way that you all went in depth in that interview, and got into the science of survey design, and... I mean, you just really dug into the details with Abi, and I really enjoyed that. I think \[unintelligible 00:10:51.03\] listened to most of the Engineering Enablement podcasts, I thought you really got to the real core value propositions of the DX company, and then just what are they looking at, and how do they gauge developer sentiment... And it made me a bit depressed about survey design, and realizing there really is kind of a science to it... I guess that's why people talk about if you want to get great at writing documentation, hire technical authors, and also look at hiring archivists and librarians to help organize that information. I guess doing surveys well is kind of like that, too.
 
 And then it's not really a 2023 reflection, but an episode that I consistently message to folks, especially because of kind of where I am in my career today, is the Leading Leaders Who Lead Engineers. I think that that episode is so impactful on unpacking the difference between mentoring, coaching, sponsorship... Just an epic interview with Laura Hogan, a super-bright engineering manager. I think I send that around maybe once a month to different people... So anyway, thanks again. You all are doing amazing work, heroes' work really, and I always look forward to new Changelog episodes... So thank you so much.
 
@@ -90,7 +90,7 @@ Man... Good stuff in there. So I mentioned the pre-call, some notes about Founde
 
 **Adam Stacoviak:** Which we had trouble defining in the call, too. DX versus DX. And that's why I was like "DX on DX”, because it was like DX the company on developer experience. And I was just like "Abi, how in the world did you build a company out of just throwing out surveys, basically?” He’s like “Man, there's a science to it.” I'm paraphrasing all the episode, of course, but... That was the fun ,part digging into the science, digging into the -- and there's people with Ph.D’s in this stuff. Intense, intense stuff.
 
-**Abi Noda:** \[00:13:57.04\] How do you make developers productive? Let’s say, Adam, you have developers; how do you make them productive? There’s kind of two ways you can go about it. There’s the way where you kind of like give them really tough deadlines, crack the whip, tell them to type faster, work longer, work harder, move faster… Right? That’s one approach.
+**Abi Noda:** \[13:57\] How do you make developers productive? Let’s say, Adam, you have developers; how do you make them productive? There’s kind of two ways you can go about it. There’s the way where you kind of like give them really tough deadlines, crack the whip, tell them to type faster, work longer, work harder, move faster… Right? That’s one approach.
 
 **Adam Stacoviak:** Sure.
 
@@ -120,7 +120,7 @@ But yeah, lots of people engaged with that episode, because it's somewhat contro
 
 **Jerod Santo:** We find if you have a pre-call with a guest, you'll end up doing the interview in the pre-call. And it’s kind of just like “Well, we should be recording this.”
 
-**Adam Stacoviak:** \[00:17:55.18\] Right. The best part was actually the pre-call, you know?
+**Adam Stacoviak:** \[17:55\] Right. The best part was actually the pre-call, you know?
 
 **Jerod Santo:** Right.
 
@@ -136,17 +136,17 @@ But yeah, lots of people engaged with that episode, because it's somewhat contro
 
 **Jerod Santo:** Okay.
 
-**Adam Stacoviak:** The best part of the Abi Noda episode was - and going back to favorites - was Standard Out.
+**Adam Stacoviak:** The best part of the Abi Noda episode was - and going back to favorites - was STDOUT.
 
 **Jerod Santo:** Yes.
 
-**Adam Stacoviak:** Abi Noda's brother is Standard Out. You knew this. I mean, I don't think you knew this until I told you, but --
+**Adam Stacoviak:** Abi Noda's brother is STDOUT. You knew this. I mean, I don't think you knew this until I told you, but --
 
 **Jerod Santo:** I do know this. This was a Plus Plus bonus.
 
 **Adam Stacoviak:** Yes.
 
-**Jerod Santo:** I knew this once you told me. I knew that his brother was in tech, because he told me the story... So this is Standard Out, the rapper. We've done a special on him... One of my favorite episodes of all time; just really cool. The guy raps about programming. I mean, talk about one of a kind...
+**Jerod Santo:** I knew this once you told me. I knew that his brother was in tech, because he told me the story... So this is STDOUT, the rapper. We've done a special on him... One of my favorite episodes of all time; just really cool. The guy raps about programming. I mean, talk about one of a kind...
 
 **Adam Stacoviak:** Well.
 
@@ -172,7 +172,7 @@ But yeah, lots of people engaged with that episode, because it's somewhat contro
 
 **Jerod Santo:** It is. Alright, Arthur, so here is your personal, as a thank you, from us and BMC... And this is why you went first, because this is really kind of an introductory beat. Here we go, BMC remix of Arthur's message.
 
-\[00:21:27.00\]
+\[21:27\]
 
 **Jerod Santo:** \[laughs\]
 
@@ -190,7 +190,7 @@ But yeah, lots of people engaged with that episode, because it's somewhat contro
 
 **Adam Stacoviak:** That’s right. Alright, let's get the next one. Here comes Hal. Of course, we always ask for pronunciation help... And Hal says it’s Hal, like Hal 9000. Thanks, Hal.
 
-\[00:22:19.28\]
+\[22:19\]
 
 **Hal:** Hey, Adam and Jerod, thanks for another year of excellent podcasts. When I thought back over the year, one episode immediately stood out. \#542 “Mainframes are still a big thing.” I think part of what made this episode special was that it didn't really seem that interesting based on the subject, but it turned out to be fantastic. Your guest, Cameron Seay, was a really passionate, enthusiastic and engaging speaker. Such a good advocate for this subject.
 
@@ -218,7 +218,7 @@ Finally, there are lots of other episodes I could recommend, but I think I'll ca
 
 **Jerod Santo:** Yeah, he's so awesome.
 
-\[00:24:53.18\]
+\[24:53\]
 
 **Cameron Seay:** What most people don’t know is that probably 90% of business transactions globally go through a mainframe. Somewhere, they go through a mainframe. 90%, 95% of all credit card transactions globally go through a mainframe. It is the core and the foundation of the global economy. That’s just a fact. And most of those programs are in COBOL. And that’s not gonna change any time soon.
 
@@ -226,7 +226,7 @@ So these companies have to – when you use the term “legacy”, yes, it’s l
 
 So those applications on the mainframe are the mission-critical applications of the business.
 
-**Adam Stacoviak:** \[00:25:55.15\] A very amazing human being, from the start... And then also very talented with what he knows, and how he approaches what seemingly is not a big thing, but still is a big thing. And even the way he teaches; I mean, there's just -- teachers are not just those who teach in grade school, and middle school, and high school. We have teachers of all types. And man, it just takes so much to be a good teacher; to be a good coach, to be a good teacher... Jerod, you know this, you’re a coach for your kids’ teams and whatnot, and I am as well... And it's just so much effort to teach. I mean, maybe it's easier for some, maybe it's easier for you, but it takes a lot, to teach, or to coach, or to lead... And I think Cameron is the kind of person that just does it, seemingly, just easy. It just seems like it's his natural state. Right?
+**Adam Stacoviak:** \[25:55\] A very amazing human being, from the start... And then also very talented with what he knows, and how he approaches what seemingly is not a big thing, but still is a big thing. And even the way he teaches; I mean, there's just -- teachers are not just those who teach in grade school, and middle school, and high school. We have teachers of all types. And man, it just takes so much to be a good teacher; to be a good coach, to be a good teacher... Jerod, you know this, you’re a coach for your kids’ teams and whatnot, and I am as well... And it's just so much effort to teach. I mean, maybe it's easier for some, maybe it's easier for you, but it takes a lot, to teach, or to coach, or to lead... And I think Cameron is the kind of person that just does it, seemingly, just easy. It just seems like it's his natural state. Right?
 
 **Jerod Santo:** It seems like that. I think his passion and enthusiasm is natural. I think that he's also older. And so he's been teaching for many, many, many years. And I do know, now that I've been coaching for five plus years, maybe seven years, I'm better at it now than I was when I first started, just because I do have that experience. And so I hope to get better and better every year as I coach. And I'm sure he's just -- he's honed in, he's figured out how to communicate things in ways that it connects with people... And he was just fascinating and so full of joy and enthusiasm that it was just contagious. Like, I wanted to go learn some COBOL after that. I didn't, but I wanted to. \[laughter\]
 
@@ -254,7 +254,7 @@ So those applications on the mainframe are the mission-critical applications of 
 
 **Jerod Santo:** It's hot right from the start. Alright, Hal, thanks again. Here is your BMC remix.
 
-\[00:28:51.27\]
+\[28:51\]
 
 **Adam Stacoviak:** \[laughs\]
 
@@ -272,7 +272,7 @@ So those applications on the mainframe are the mission-critical applications of 
 
 **Jerod Santo:** The pain of finding a good name. So some of you know, like Hal, that we do sweat the details... And one detail that we have to sweat on a recurring basis is “What are we going to call this stinkin’ episode?” And sometimes it's just natural. Sometimes we have the name before anything else. We're like “Here's a good name. Let's make an episode about it.” Other times we have no name, and the show needs to go out, and then we're just like grinding together to find -- that didn't sound right. Grinding names out in order to get this show shipped.
 
-**Adam Stacoviak:** \[00:29:54.26\] And it's like the last thing too, so it’s the thing that's like holding everything up.
+**Adam Stacoviak:** \[29:54\] And it's like the last thing too, so it’s the thing that's like holding everything up.
 
 **Jerod Santo:** It holds it all up. And we've talked about this in the past... Here we are again. That's how he knows about it. We thought we would real quickly, you know, celebrate, not just good episodes, but let's talk about the best titles of the year, according to yours truly, and Adams truly... So we’ve both made our quick lists of what we thought were our best titles of the year. This should be brief. Do you want to go first?
 
@@ -364,7 +364,7 @@ just over with.
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** \[00:33:57.22\] And maybe even better would have been "Be back. Warp will be back." I don't know if we can riff on some new ones there, now that we know the be-backs \[unintelligible 00:34:01.23\]
+**Jerod Santo:** \[33:57\] And maybe even better would have been "Be back. Warp will be back." I don't know if we can riff on some new ones there, now that we know the be-backs \[unintelligible 00:34:01.23\]
 
 **Adam Stacoviak:** Yeah... And it's fun talking to Zack too, because I feel for Zach... Zach Lloyd, who is a solo founder. Solo founder of Warp and CEO of Warp. And I feel for his direction, and I feel for even wanting to take some of Warp open source. I feel like that tension that you feel, of like leading, creating a good product, and being consistent with it, and then being venture capital-backed, and all that pressure... So I just loved that conversation quite a bit with Zach...
 
@@ -400,7 +400,7 @@ Rory: My favorite 2023 episode was way back in January, and it's one I've relist
 
 **Jerod Santo:** Thank you, Rory. We probably don't need to discuss this one too much, because it's Cameron once again... But I will say, when it comes to BMC remixes, Rory, I think you'll get spoiled, because this one's spectacular.
 
-\[00:38:07.11\]
+\[38:07\]
 
 **Jerod Santo:** \[laughs\]
 
@@ -408,7 +408,7 @@ Rory: My favorite 2023 episode was way back in January, and it's one I've relist
 
 **Jerod Santo:** So good... "Legacy tech space..."
 
-**Adam Stacoviak:** "Legacy..." Yeah, that's the best. Well, for one, we have to bring that beat somewhere else. It kind of reminds me of how we stumbled upon the theme for Changelog & Friends. \[00:38:48.10\] Very, you know, '80s VHS tape intro-sounding sound, that we happen to rickroll right in front of it... It kind of reminds me of that track a bit.
+**Adam Stacoviak:** "Legacy..." Yeah, that's the best. Well, for one, we have to bring that beat somewhere else. It kind of reminds me of how we stumbled upon the theme for Changelog & Friends. \[38:48\] Very, you know, '80s VHS tape intro-sounding sound, that we happen to rickroll right in front of it... It kind of reminds me of that track a bit.
 
 **Jerod Santo:** Yeah. Agreed. Alright, next up... Who's this? Oh, it's our old friend, Brett Cannon. Brett calls in every year, and we always love hearing from him.
 
@@ -418,7 +418,7 @@ I'll also say I really enjoyed episode 558, "Open source is at a crossroads", wi
 
 Episode 549, with Steve Yegge, was a lot of fun, too... Just hearing Steve's stories. He's just such a great storyteller. I know I kind of geeked out along with Adam listening to episode 537 on "Hard drive reliability at scale" with Andy Klein. So that turned out to be just a lot of fun, and just learning about all the little nitty-gritty details about physical hard drives still...
 
-Those are probably the top ones. \[00:40:14.21\] in reverse chronological order, that just deserves an honorable mention, was "Next level", where you got to listen to one of your new albums... "30 years of Debian", episode 553, "A new path to full-time open source", episode 533, "Mainframes are still a big thing", episode 524... And closing at the beginning of the year was Just Postgres, 523, with Craig Kirstens. And I made sure this year to actually make sure every episode I talked about in this recording was actually from the year of 2023.
+Those are probably the top ones. \[40:14\] in reverse chronological order, that just deserves an honorable mention, was "Next level", where you got to listen to one of your new albums... "30 years of Debian", episode 553, "A new path to full-time open source", episode 533, "Mainframes are still a big thing", episode 524... And closing at the beginning of the year was Just Postgres, 523, with Craig Kirstens. And I made sure this year to actually make sure every episode I talked about in this recording was actually from the year of 2023.
 
 Once again, congrats, guys. Another great year, and talk to you soon.
 
@@ -444,7 +444,7 @@ Once again, congrats, guys. Another great year, and talk to you soon.
 
 **Adam Stacoviak:** Yeah. The insider baseball there is we -- our podcast is obviously listenable inside of Spotify. However, you're not allowed to podcast just straight music, because they think you're trying to get onto the platform out of the context of being a musician. And so we're like "Hey, we're not musicians. Obviously, we work with a musician named Breakmaster Cylinder. And this is just an album, not -- like, all of our podcasts are not going to be this music." And so they said "You can't have this episode."
 
-\[00:42:09.01\] So if you go there and you see that it skips whatever that episode is... I guess it actually didn't have an episode number, so it's okay... But they didn't allow Next Level as a podcast, to be in the podcast feed on Spotify. For those reasons.
+\[42:09\] So if you go there and you see that it skips whatever that episode is... I guess it actually didn't have an episode number, so it's okay... But they didn't allow Next Level as a podcast, to be in the podcast feed on Spotify. For those reasons.
 
 **Jerod Santo:** Open platforms and RSS for the win. Again.
 
@@ -468,7 +468,7 @@ Once again, congrats, guys. Another great year, and talk to you soon.
 
 **Jerod Santo:** Good friends of ours. We've been lucky enough to sit down and have a meal with you, an ice cream with you, and this is just hilarious. Here we go.
 
-\[00:44:04.27\]
+\[44:04\]
 
 **Adam Stacoviak:** \[laughs\] That was good. The ending - perfect.
 
@@ -488,7 +488,7 @@ Once again, congrats, guys. Another great year, and talk to you soon.
 
 **Jerod Santo:** No idea what's gonna happen. And I have to say, most of his jingles are funny contextually, and you can tell he has skills and musician abilities... But "Backslashes are trash" is a legit good song. It gets stuck in your head. I go back to it and listen to it sometimes. It was so funny, it was so on point... I love that song. I just go back and listen to it just because.
 
-\[00:45:56.07\]
+\[45:56\]
 
 *I don't mind ash, I don't even mind Bash... I like caching and cache, and I'll clash with a dash in a flash, man... I'm not gonna say gosh, I don't even mind hash... I'm out on the lash, man. I've got a rash. Oh my gosh, man, I'm gonna smash your face in if you backslash me. That's trash! Backslashes are trash... Backslashes are trash, yeah... Backslashes are trash. And don't say forward slash... Just say... Slash... Just say slash... Just say slash... No need to say that forward bit... Just say slash.*
 
@@ -514,7 +514,7 @@ Once again, congrats, guys. Another great year, and talk to you soon.
 
 So we had just the technical machinations of getting that done. Of course, the decision-making process - how does that work? Should we do it that way? I think that was more debate and discussion, and really just slowly deciding, versus making quick decisions... Because we knew this is one of those doors that probably could go back to a door, but not the easiest thing to reopen once you kind of let the cat out of the bag...
 
-\[00:50:13.22\] So yeah, it was a big decision for us, and it required software changes that would have been rollbackable, but not easily rolled back, and investment on that... But I think the fact that we do have our own custom platform allowed us to do that in a way that would have been way more difficult, if not impossible, using off the shelf software.
+\[50:13\] So yeah, it was a big decision for us, and it required software changes that would have been rollbackable, but not easily rolled back, and investment on that... But I think the fact that we do have our own custom platform allowed us to do that in a way that would have been way more difficult, if not impossible, using off the shelf software.
 
 **Adam Stacoviak:** For sure.
 
@@ -546,7 +546,7 @@ So I love being able to meet people where they are, but also bring them along, a
 
 **Jerod Santo:** So thank you for that reassurance, Mikhail, and here is your personalized BMC remix.
 
-\[00:54:14.10\]
+\[54:14\]
 
 **Jerod Santo:** What did he say? \[laughter\] That's an abstract one right there.
 
@@ -562,7 +562,7 @@ So I love being able to meet people where they are, but also bring them along, a
 
 **Jerod Santo:** Like Rahzel.
 
-\[00:55:06.01\]
+\[55:06\]
 
 *This is the tricky part. The beat, and the chorus... At the same time.*
 
@@ -570,7 +570,7 @@ So I love being able to meet people where they are, but also bring them along, a
 
 **Jerod Santo:** Greatest beatboxer that I've ever heard. Alright... Speaking of beatboxers - this has nothing to do with beatboxers - Jarvis Yang, who we've heard from previous years as well... Jarvis hangs out in our Slack. By the way, I think it was last year that I told people about our Wordle channel in Slack, and quadrupled the population of \#wordle, which is still going strong to this day. So if you're still wordling, or if you have your own daily puzzle that you play, we have a channel on our Slack called \#wordle, that we just share our Wordle results. And there's probably about 10 of us who share our wordles pretty much every day, and cheer each other on, and drop funny emoji on there... And it's just an open invite for you to come do that with us. Jarvis is one of them. Here's Jarvis.
 
-**Jarvis:** Hey, Changloggers. This is Jarvis, and I've got a special shout-out to incredible people \[00:56:24.15\] Minnesota software and technology community. First up, a massive high five to the fantastic folks at MiniStar for putting together MiniBar and MiniDemo this year. I also wanted to give thanks to the folks at GDG Twin Cities for bringing back DevFest Minnesota. Your commitment to fostering innovation, collaboration and knowledge sharing is inspiring. Can't wait for next year to come.
+**Jarvis:** Hey, Changloggers. This is Jarvis, and I've got a special shout-out to incredible people \[56:24\] Minnesota software and technology community. First up, a massive high five to the fantastic folks at MiniStar for putting together MiniBar and MiniDemo this year. I also wanted to give thanks to the folks at GDG Twin Cities for bringing back DevFest Minnesota. Your commitment to fostering innovation, collaboration and knowledge sharing is inspiring. Can't wait for next year to come.
 
 And speaking of brilliance, let's give a shout-out to the Homelab \[unintelligible 00:56:48.16\] himself TechnoTim from YouTube. I didn't know Tim was from here until I listened to the Homelab Nerds Unite episode with Adam. TechnoTim, your insightful content and knack for breaking down complex concepts make the tech world more accessible to all of us. Keep those materials and deep dives coming. We're learning and loving every minute of it. So whether you're a seasoned developer, an aspiring coder, or just someone fascinated by the tech universe, give a round of applause to these amazing contributors shaping the Minnesota software and tech scene. Have a Happy New Year.
 
@@ -586,7 +586,7 @@ And speaking of brilliance, let's give a shout-out to the Homelab \[unintelligib
 
 **Jerod Santo:** Right. Totally.
 
-**Adam Stacoviak:** \[00:57:51.10\] But you know, it was really just easy to get into the details with Tim. It wasn't hard at all, really. And speaking of that show in particular, that was another one where you helped out with the name. Because I was like -- I wanted Homelab in it, but I think you were like "Homelab nerds unite." And that was just a perfect name for it. And that's like an outperforming -- I think that's the highest-performing Friends episode to date. It might actually compete with Justin's episode, potentially. Is that right? Or is it the highest-performing?
+**Adam Stacoviak:** \[57:51\] But you know, it was really just easy to get into the details with Tim. It wasn't hard at all, really. And speaking of that show in particular, that was another one where you helped out with the name. Because I was like -- I wanted Homelab in it, but I think you were like "Homelab nerds unite." And that was just a perfect name for it. And that's like an outperforming -- I think that's the highest-performing Friends episode to date. It might actually compete with Justin's episode, potentially. Is that right? Or is it the highest-performing?
 
 **Jerod Santo:** I did not look. I can search it real quick.
 
@@ -614,7 +614,7 @@ And speaking of brilliance, let's give a shout-out to the Homelab \[unintelligib
 
 **Jerod Santo:** Right on. Well here's Jarvis remixed by Breakmaster Cylinder.
 
-\[00:59:31.07\]
+\[59:31\]
 
 **Adam Stacoviak:** Nice!
 
