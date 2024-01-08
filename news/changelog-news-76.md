@@ -48,7 +48,7 @@ When it comes to distributed systems, [NATS](https://nats.io) is proving to be t
 
 NATS enables truly innovative solutions. Who better to hear stories from than the actual users themselves? Join the NATS community for RethinkConn 2024 and hear them for yourself, for no cost whatsoever!
 
-The **FREE** 3-hour virtual event is happening on Jan 11th, 2024 at 16:00 UTC. Learn more and [Sign up today](https://www.synadia.com/blog/rethinkconn-2024?utm_source=changelog&utm_medium=newsletter&utm_campaign=changelog-news) at synadia.com/rethinkconn (with two n's) and thank you to our new sponsors at Synadia, for supporting Changelog News!
+The **FREE** 3-hour virtual event is happening on Jan 11th, 2024 at 16:00 UTC. Learn more and [Sign up today](https://www.synadia.com/blog/rethinkconn-2024?utm_source=changelog&utm_medium=newsletter&utm_campaign=changelog-news) at synadia.com/rethinkconn (with two N's) and thank you to our new sponsors at Synadia, for supporting Changelog News!
 
 **Break:**
 
