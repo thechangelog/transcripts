@@ -2510,6 +2510,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "ole",
+      "name": "Ole Begemann",
+      "avatar_url": "https://avatars.githubusercontent.com/u/5010?v=4",
+      "profile": "https://oleb.net",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
