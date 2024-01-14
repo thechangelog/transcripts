@@ -60,7 +60,7 @@
 
 **Amal Hussein:** Honestly - so I have very close friends of mine who judge me on the daily, whenever I send them links from Twitter... And I can basically hear their eyeroll. I'll text them a link and I could hear the eyeroll on the other side, like "Oh, are you still on there? When are you gonna get off?" And here's the thing, I was off. I was off for almost two years. I just came back a few months ago, and... I think I've been having fun. It's definitely a lot different. It feels like an echo of itself. It's not the same platform from 2018, where I think for me tech Twitter kind of peaked... But, you know, it's still the fastest way to get news and reach out to people and share information.
 
-\[00:06:06.05\] I mean, real talk, I just -- I just needed help from someone the other day on something; this person is like a really big deal on the internet, and I was like "This person is uniquely suited to help me with my problem", and I literally reached out to them, and in two minutes they responded back to me, in 30 minutes we were having a conversation on our cell phones. I mean, it was that quick. And so I feel like we're still -- I don't know what's going to be that when it comes to kind of news connection and information.
+\[06:06\] I mean, real talk, I just -- I just needed help from someone the other day on something; this person is like a really big deal on the internet, and I was like "This person is uniquely suited to help me with my problem", and I literally reached out to them, and in two minutes they responded back to me, in 30 minutes we were having a conversation on our cell phones. I mean, it was that quick. And so I feel like we're still -- I don't know what's going to be that when it comes to kind of news connection and information.
 
 **Jerod Santo:** Yeah. There's still value there.
 
@@ -118,11 +118,11 @@
 
 **Jerod Santo:** Just for clarity purposes.
 
-**Amal Hussein:** \[00:09:55.13\] Yeah, Jared found this area of Node that was slow, and then the maintainers were like -- or I take that back. It wasn't that he found it, it's that somebody when they were doing benchmarking found this new area... And then the maintainers looked into it, and it was like "Oh, it has to do with some old dependency that hadn't been updated", and yada-yada-yada. It's just fascinating how these discussions are happening in the community now, and Node is getting better as a result... I'm very, very happy about that.
+**Amal Hussein:** \[09:55\] Yeah, Jared found this area of Node that was slow, and then the maintainers were like -- or I take that back. It wasn't that he found it, it's that somebody when they were doing benchmarking found this new area... And then the maintainers looked into it, and it was like "Oh, it has to do with some old dependency that hadn't been updated", and yada-yada-yada. It's just fascinating how these discussions are happening in the community now, and Node is getting better as a result... I'm very, very happy about that.
 
 **Jerod Santo:** Chris, your take on this sentiment. Do you think it's true? Are you happy about it? You're a -- I think of you as a Node guy. I'm not sure if that's the right way to think of you, but I very much associate you with Node.js. What are your thoughts on this?
 
-**Christopher Hiller:** Yeah, I mean, I think the same thing is gonna happen; you know, after Yarn came out, it pushed Npm to add some features and stuff that it didn't have... And it made Npm better, and I think the same thing is gonna happen with Node.
+**Christopher Hiller:** Yeah, I mean, I think the same thing is gonna happen; you know, after Yarn came out, it pushed npm to add some features and stuff that it didn't have... And it made npm better, and I think the same thing is gonna happen with Node.
 
 **Nick Nisi:** I agree with all of that.
 
@@ -142,7 +142,7 @@
 
 **Nick Nisi:** Not to cross-promote here... I don't want to cross-promote things that Jerod does, that aren't TypeScript-related... But that episode of Changelog & Friends with Searles about - I think it was It Dependencies... It's gotten me constantly thinking about "Do I really need to add this new dependency?"
 
-**Jerod Santo:** \[00:14:05.13\] Oh, I love that.
+**Jerod Santo:** \[14:05\] Oh, I love that.
 
 **Amal Hussein:** That's good.
 
@@ -190,7 +190,7 @@ Well, let's now turn the focus to me. I had a prediction last year; I don't know
 
 **Amal Hussein:** Yeah, same here. I think for me it's only useful for boilerplate code. Other than that, I'm always refactoring around it. But it's really great for learning a new language, or a new tool, which is how I've been using it... Because I'm learning C++. I learned it a long, long time ago, and I just blocked everything I knew out of my brain... So I'm relearning that; so that's been helpful.
 
-**Kevin Ball:** \[00:18:07.25\] I will put an asterisk on that; it is really good for learning an old tool that is new to you. If you try to use it to learn an actually newly developed tool, it will mislead you all over the place.
+**Kevin Ball:** \[18:07\] I will put an asterisk on that; it is really good for learning an old tool that is new to you. If you try to use it to learn an actually newly developed tool, it will mislead you all over the place.
 
 **Jerod Santo:** Yes. Lack of data.
 
@@ -214,7 +214,7 @@ Well, let's now turn the focus to me. I had a prediction last year; I don't know
 
 **Christopher Hiller:** Yeah. I mean, I've I think I've had good success with Copilot. I haven't tried to use ChatGPT directly for coding, but it's cool that they have -- I don't know what they do now, but it has some sort of understanding of the project you're working in. And so I would be like - I'd select this class, and be like "Okay, refactor this class in this particular way", that would be tedious to do manually, and it does it. And it uses my types, and everything; it tries to keep the same style. And with unit tests and testing in particular, it knows I'm using a weird, a non-popular, just kind of an obscure assertion library. But it knows all the assertions I've written before, and it's able to figure out what to use. So it's not like I'm asking it to write unit tests and it's going and using try syntax, or \[unintelligible 00:21:45.06\] syntax, or something... Because it doesn't; it knows what I'm using in it, and it does it correctly four out of five times.
 
-**Kevin Ball:** \[00:21:55.02\] I think this is kind of the natural process of maturation of a new set of capabilities that was developed, and we're trying to learn the best ways to use them. And I think, for example, writing unit tests, doing other things - like, that is a productivity boost. I do think there's a lot of hype cycles around the productivity boost that you get from writing new code, that I think are baloney... I don't think it's actually -- I mean, to Amal's point, it's really useful when writing boilerplate. And if you're writing a set of boilerplate scripts, or you're trying to do little things to push data from one service to another, I think it is a dramatic performance boost there.
+**Kevin Ball:** \[21:55\] I think this is kind of the natural process of maturation of a new set of capabilities that was developed, and we're trying to learn the best ways to use them. And I think, for example, writing unit tests, doing other things - like, that is a productivity boost. I do think there's a lot of hype cycles around the productivity boost that you get from writing new code, that I think are baloney... I don't think it's actually -- I mean, to Amal's point, it's really useful when writing boilerplate. And if you're writing a set of boilerplate scripts, or you're trying to do little things to push data from one service to another, I think it is a dramatic performance boost there.
 
 I have definitely seen, particularly like a junior using code completion, and then getting things where it has to go through many cycles of review and feedback, because it's not matching styles, or other things from the rest of the project... And I think it's a performance cost. I mean, I think we need to figure out where it's useful and where it's not, but some of that is getting past the hype cycle and saying "Okay, it's a useful tool in these scenarios, and it is not a useful tool in these other scenarios, and we should stop trying."
 
@@ -228,7 +228,7 @@ And so I'm just really worried about what does the future look like for them? Ho
 
 **Amal Hussein:** Oh, gosh... I'm just saying it's a concern, you guys. And this is an us problem, it affects our industry; we should be figuring this out, and making sure we have a path for people at all levels, senior to junior. And I just want to make sure that people can progress those paths in a way that is conducive, and healthy, and sustainable. And I'm not saying that even being a junior engineer -- some people get through junior in six months, and they're done. And they've moved on to mid. Some people are there for a few years. So it's not even something that's like a universal standard, or timeline, or whatever... But I'm just saying, I just want to make sure that we have a path for people to learn, effectively, so that they can manage these complex systems. And when things go sideways on the AI written code, they know how to debug at 3am, if they need to... Because that's what happens. Incidents happen.
 
-**Jerod Santo:** \[00:26:01.16\] Well, I think I'm with you. I think that thinking back to when I was a junior, I didn't know how to debug at 3am either, until I had to debug at 3am, and then I had to figure it out. So I think that still all those same processes apply, just perhaps maybe in scarier ways... I don't know; maybe it was pretty scary back then for me as well.
+**Jerod Santo:** \[26:01\] Well, I think I'm with you. I think that thinking back to when I was a junior, I didn't know how to debug at 3am either, until I had to debug at 3am, and then I had to figure it out. So I think that still all those same processes apply, just perhaps maybe in scarier ways... I don't know; maybe it was pretty scary back then for me as well.
 
 **Amal Hussein:** I think it's more that you're debugging at 3am as a senior, or mid-level person, or above. It's just that like --
 
@@ -264,7 +264,7 @@ And so like, we were just out there -- I mean, I'll speak for myself, because I'
 
 There may be an analog to what we need to do in software. Maybe it's more formal training, maybe it's something else, but there may be something where we say "If you are learning, you don't use these tools, even though they would help you, because you need to learn the underlying fundamentals before you start applying these tools."
 
-\[00:30:08.01\] And we separate out the doing for learning from the doing for doing... Which is not something that happens right now a lot in entry-level positions. There's a lot of "You're doing this thing, and you're expected to learn on the job, and kind of go." Maybe we need to formalize the separation a little bit more, of like "Here's a set of things you do to learn principles, and here's a set of things you do to get the job done."
+\[30:08\] And we separate out the doing for learning from the doing for doing... Which is not something that happens right now a lot in entry-level positions. There's a lot of "You're doing this thing, and you're expected to learn on the job, and kind of go." Maybe we need to formalize the separation a little bit more, of like "Here's a set of things you do to learn principles, and here's a set of things you do to get the job done."
 
 **Christopher Hiller:** In college, all I learned was principles, and I didn't know anything -- I didn't learn anything about doing a job. And you read articles where employers say that's a huge problem about college grads, where it's just theory and first principles, and they don't know how to ship software.
 
@@ -280,9 +280,9 @@ There may be an analog to what we need to do in software. Maybe it's more formal
 
 So I think some of this is pushed by people like the Sam Altmans of the world, who - they have an agenda. And it's very clear that they have an agenda, but they're kind of taking this... It's like the NFT boom. "This is gonna replace all these things. This is gonna be doing these things." Well, there's more value in AI than I think there was in crypto, but there's also a whole lot of junk.
 
-**Jerod Santo:** And the question is, that none of us know the answer to, is like "Where will the pace of progress take us over n years?" Which goes back to my prediction; I predicted we'd have another plateau. I haven't seen a step change like we saw with transformers since then... And now we're just kind of like at this new plane, where we can do generative AI, now we have these tools, and now we're gonna integrate them, we're gonna test them, we're gonna figure them out, we're gonna have these minor improvements to our work and life, that don't replace humans at all. The question is, will the next step get us to a place there, or not? Or is it or is there going to be another one? And when will those step changes happen? This last one took about five years. Is there going to be another one at the pace of -- that was what the buzz was about back in the spring, was like "Look how fast we're moving now. It's going to just hit the stratosphere from here." We have seen that not take place. We are learning how these have improved our lives, but now we're seeing where they stop, and the question is \[unintelligible 00:33:54.09\] in five years there won't be any engineers; like, that could be true. I don't think it is, I don't think the history has played out that way. Past results do not predict future performance. But maybe these people are right that you won't need humans in the loop in 5 to 10 years, and the AI will do it all. I think all five of us are probably on the betting against that, but we've been wrong before, haven't we, Kball? \[laughter\]
+**Jerod Santo:** And the question is, that none of us know the answer to, is like "Where will the pace of progress take us over N years?" Which goes back to my prediction; I predicted we'd have another plateau. I haven't seen a step change like we saw with transformers since then... And now we're just kind of like at this new plane, where we can do generative AI, now we have these tools, and now we're gonna integrate them, we're gonna test them, we're gonna figure them out, we're gonna have these minor improvements to our work and life, that don't replace humans at all. The question is, will the next step get us to a place there, or not? Or is it or is there going to be another one? And when will those step changes happen? This last one took about five years. Is there going to be another one at the pace of -- that was what the buzz was about back in the spring, was like "Look how fast we're moving now. It's going to just hit the stratosphere from here." We have seen that not take place. We are learning how these have improved our lives, but now we're seeing where they stop, and the question is \[unintelligible 00:33:54.09\] in five years there won't be any engineers; like, that could be true. I don't think it is, I don't think the history has played out that way. Past results do not predict future performance. But maybe these people are right that you won't need humans in the loop in 5 to 10 years, and the AI will do it all. I think all five of us are probably on the betting against that, but we've been wrong before, haven't we, Kball? \[laughter\]
 
-**Nick Nisi:** \[00:34:20.13\] I think that there's less of a concern of it fully replacing us, but I do think that there is some truth to the idea that humans who use the AI well will outpace the humans that don't.
+**Nick Nisi:** \[34:20\] I think that there's less of a concern of it fully replacing us, but I do think that there is some truth to the idea that humans who use the AI well will outpace the humans that don't.
 
 **Jerod Santo:** Sure.
 
@@ -322,7 +322,7 @@ Coming back to predictions, I would actually predict that towards the second hal
 
 **Kevin Ball:** Maybe it's less layoffs... Which we've had reduced layoffs over the course of the year; we will probably see -- I think we saw a few coming through in December again, and we may see a spike up at the beginning of the year again, just because everybody's doing their annual "Oh my god, what are we trying to do next year?" So I think that. I think a part of it is big tech will be expanding and hiring again.
 
-**Jerod Santo:** \[00:38:03.12\] Which we've seen of the big tech. I think Facebook/Meta is the only one so far that has shown that they are, which may be just be the first of all, or maybe...
+**Jerod Santo:** \[38:03\] Which we've seen of the big tech. I think Facebook/Meta is the only one so far that has shown that they are, which may be just be the first of all, or maybe...
 
 **Amal Hussein:** Oh yeah, no, I'm being poached for roles at Meta and Microsoft and Google right now, so...
 
@@ -396,7 +396,7 @@ Coming back to predictions, I would actually predict that towards the second hal
 
 **Jerod Santo:** Get specific.
 
-**Nick Nisi:** I don't know if I want to call it out specifically, but... \[laughs\] I feel like the close-knit \[00:40:47.11\] -- I don't know my words today... My CO2 is off the charts because of podcasting.
+**Nick Nisi:** I don't know if I want to call it out specifically, but... \[laughs\] I feel like the close-knit \[40:47\] -- I don't know my words today... My CO2 is off the charts because of podcasting.
 
 **Jerod Santo:** \[laughs\] Oh, gosh... The quantified self.
 
@@ -438,7 +438,7 @@ Coming back to predictions, I would actually predict that towards the second hal
 
 **Nick Nisi:** Isn't Astro becoming less of a static site generator and more of the...?
 
-**Amal Hussein:** \[00:42:10.09\] Yeah, yeah, yeah. Yeah, I guess you're right with the newer... Yeah. I mean, that's fair. I mean, you could still do very rich interactions with Astro sites, it's just that because it's not the hot path, which I think is the right thing, it's just one more thing to do. And so if that's all you're doing, it's maybe not the best choice, I would say; maybe use Lit, create a bunch of Lit components... You know, that's the way I would go.
+**Amal Hussein:** \[42:10\] Yeah, yeah, yeah. Yeah, I guess you're right with the newer... Yeah. I mean, that's fair. I mean, you could still do very rich interactions with Astro sites, it's just that because it's not the hot path, which I think is the right thing, it's just one more thing to do. And so if that's all you're doing, it's maybe not the best choice, I would say; maybe use Lit, create a bunch of Lit components... You know, that's the way I would go.
 
 **Nick Nisi:** Yeah. I was gonna say, maybe Angular is cool again.
 
@@ -476,7 +476,7 @@ I think we're gonna see a lot more projects embrace JSDocs over TypeScript as on
 
 **Jerod Santo:** Hundreds across the board, wasn't it?
 
-**Amal Hussein:** \[00:46:08.28\] Ah, sure, but I think you have to understand there's a big difference between Lighthouse and simulated performance, versus like in the wild. Very different numbers. And I think that's why a lot of performance experts --
+**Amal Hussein:** \[46:08\] Ah, sure, but I think you have to understand there's a big difference between Lighthouse and simulated performance, versus like in the wild. Very different numbers. And I think that's why a lot of performance experts --
 
 **Jerod Santo:** Don't they create those, so that we can actually do our tests against our -- I mean, aren't we all striving for that though?
 
@@ -528,7 +528,7 @@ I think we're gonna see a lot more projects embrace JSDocs over TypeScript as on
 
 **Amal Hussein:** Let's just say "Hey, Twitter..."
 
-**Jerod Santo:** \[00:50:10.15\] There you go.
+**Jerod Santo:** \[50:10\] There you go.
 
 **Amal Hussein:** "...if I wanted to measure this metric, what are anchor posts that we can use?" And whatever Twitter suggests, we can...
 
@@ -556,7 +556,7 @@ I think we're gonna see a lot more projects embrace JSDocs over TypeScript as on
 
 **Jerod Santo:** Good question. Find out next time, on -- no, I don't know. I ran out of stuff to say.
 
-**Break:** \[00:53:31.18\]
+**Break:** \[53:31\]
 
 **Jerod Santo:** Let's do resolutions, as we are getting near the end. Does anybody -- we have a few predictions; we'll see what happens next year, of course. All in good fun. Resolutions, how about? I tend to just keep mine private, so I can fail to myself... But some of y'all like to put them out there to the public, so that we can help you stay accountable... Does anybody want to be resolved in this new year to maybe change something about their lives, or have a goal for your career, or for your funemployment? ...anything, before we get into the big announcement.
 
