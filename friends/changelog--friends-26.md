@@ -132,7 +132,7 @@
 
 **Gerhard Lazu:** But more are coming. More apps like this one, for example, the second one... Because we've been doing this for a while. We have two apps, two Changelogs running at the same time, and we don't want that to be part of a pull request for too long. This 492 is a special case; again, we'll come back to that. But that's the idea. You can have multiple apps running at the same time, and you do like a long blue/green.
 
-**Jerod Santo:** \[00:06:20.13\] Awesome.
+**Jerod Santo:** \[06:20\] Awesome.
 
 **Adam Stacoviak:** I dig it.
 
@@ -256,7 +256,7 @@
 
 **Jerod Santo:** It was a stepping stone on your way to this other thing.
 
-**Gerhard Lazu:** \[00:10:04.11\] Pretty much. And before that, it was the RabbitMQ videos. TGIR. Those were fun. That was like all \[unintelligible 00:10:07.27\] videos.
+**Gerhard Lazu:** \[10:04\] Pretty much. And before that, it was the RabbitMQ videos. TGIR. Those were fun. That was like all \[unintelligible 00:10:07.27\] videos.
 
 **Jerod Santo:** Well, I hope you achieve that goal.
 
@@ -286,7 +286,7 @@ And I think one that you and I were kind of passionate about, Jerod - so if you 
 
 I think if we can execute on that well, then we have a decent, I would just say moneymaker on our hands that helps us sustain whenever sponsorship's slim, or as we prop up Plus Plus, and that becomes more and more of a leg... Which, honestly, for those who support us on the Plus Plus side, we want it to be more of a leg to our chair, I suppose, in terms of stability... But we never really anticipated it being that. Traditionally, sponsorships have always trumped the amount of revenue we can gain from Plus Plus. But I think there's an untapped market on subscribers supporting you. And I think that's where bringing Plus Plus inside gives us that chance, but then also this opportunity for Changelog.jobs being a great indie dev-centered place to get and look for cool jobs. And I think one part of that is maybe the vetting process.
 
-\[00:14:06.00\] So lots of interesting things on how to execute, not just throwing it up and "There you go, post a job", but something that's a bit more well-executed, and really for the indie market. Because most of the indie markets in the job space that have been boards have been bought up by the big guys, the big folks.
+\[14:06\] So lots of interesting things on how to execute, not just throwing it up and "There you go, post a job", but something that's a bit more well-executed, and really for the indie market. Because most of the indie markets in the job space that have been boards have been bought up by the big guys, the big folks.
 
 **Jerod Santo:** Or neglected.
 
@@ -312,7 +312,7 @@ I think if we can execute on that well, then we have a decent, I would just say 
 
 **Jerod Santo:** Right.
 
-**Adam Stacoviak:** \[00:18:06.17\] Whereas now I feel like if we can embed them into the shows, in the ways we think we can, and swap them out when necessary dynamically, then I think that's a big win for us and a big win for the folks trying to find the right folks. And I think if we could do a good job on vetting who comes into that pool, and just some way to provide - like you were saying, Gerhard, quoting Mary Hightower... Hi Mary, by the way... You know, I think that's great. Building great software, building great teams I think has always been the fun part of the conversations. We've just had that conversation with Dan more on Letters to Developers. Such a cool conversation, the first show out of the gate this year... And I think it's gonna be a big hit for the year, and it's show number one for 2024.
+**Adam Stacoviak:** \[18:06\] Whereas now I feel like if we can embed them into the shows, in the ways we think we can, and swap them out when necessary dynamically, then I think that's a big win for us and a big win for the folks trying to find the right folks. And I think if we could do a good job on vetting who comes into that pool, and just some way to provide - like you were saying, Gerhard, quoting Mary Hightower... Hi Mary, by the way... You know, I think that's great. Building great software, building great teams I think has always been the fun part of the conversations. We've just had that conversation with Dan more on Letters to Developers. Such a cool conversation, the first show out of the gate this year... And I think it's gonna be a big hit for the year, and it's show number one for 2024.
 
 **Gerhard Lazu:** Yeah.
 
@@ -340,7 +340,7 @@ I think if we can execute on that well, then we have a decent, I would just say 
 
 **Gerhard Lazu:** That's a good one. That's a good one.
 
-**Break:** \[00:20:33.24\]
+**Break:** \[20:33\]
 
 **Gerhard Lazu:** Okay, well, my next goal is to encourage you to open up GitHub discussions 485. It's in the changelog.com repository... Because the bulk of this conversation is going to happen around that. And if you're listening, you can go there; by then it should have been done, but you can see all the topics, all the links... Everything's there.
 
@@ -372,7 +372,7 @@ So we have a new app instance, as we discussed, the 2023 12.17, which is running
 
 **Jerod Santo:** Yup.
 
-**Adam Stacoviak:** \[00:28:09.00\] About a year and some back now... That he really laid out a lot of good promise. And he had experience in databases before. He had been previously successful around databases with Memcache, I believe... I forget what -- SQLcache, or I forget what his previous startup was that was acquired... But he had had some success. And he impressed us in that podcast about where they're taking Postgres... In particular serverless managed Postgres, and then the idea of maybe getting \[unintelligible 00:28:34.09\] which they're not quite there yet... And then I think what really impressed me recently talking to them was around the way that they plan to bolt in bringing this dev mode to Neon and Postgres, really where you're -- and y'all can probably speak to this more than I can, but the way you interact with the database is one in production, but then also in dev. And so to innovate and to experiment with a database at the dev level always requires some sort of cloning of the production database, and this weird flow. And they've made it a way, because it's serverless and because it's sort of ephemeral, to allow you to just branch off the database.
+**Adam Stacoviak:** \[28:09\] About a year and some back now... That he really laid out a lot of good promise. And he had experience in databases before. He had been previously successful around databases with Memcache, I believe... I forget what -- SQLcache, or I forget what his previous startup was that was acquired... But he had had some success. And he impressed us in that podcast about where they're taking Postgres... In particular serverless managed Postgres, and then the idea of maybe getting \[unintelligible 00:28:34.09\] which they're not quite there yet... And then I think what really impressed me recently talking to them was around the way that they plan to bolt in bringing this dev mode to Neon and Postgres, really where you're -- and y'all can probably speak to this more than I can, but the way you interact with the database is one in production, but then also in dev. And so to innovate and to experiment with a database at the dev level always requires some sort of cloning of the production database, and this weird flow. And they've made it a way, because it's serverless and because it's sort of ephemeral, to allow you to just branch off the database.
 
 This isn't a new concept necessarily for databases. I think -- who's it out there? Gosh, their other name... It's the SQL one. The MySQL one.
 
@@ -400,7 +400,7 @@ Well then, All Things Open, talked to them, talked about partnerships and stuff 
 
 Being able to connect to a dev mode which is just a branch of production, that I'm assuming I can either resync, or just do a new snapshot whenever I'd like to, and it just is somewhere else, and I just change my connection string... I don't have to version Postgres locally... And it's one less dependency on my local box.
 
-\[00:32:08.13\] I'm here for it. I haven't tried that yet. I haven't used it. Obviously, we are in flight with even doing this... So maybe I'll end up hating it and be like "Nah, I'll just run my local Postgres, and do a snapshot, and everything will be fine." But I'm definitely not naysaying it yet. I'm excited to try it, and I think it's gonna be better than what I currently do.
+\[32:08\] I'm here for it. I haven't tried that yet. I haven't used it. Obviously, we are in flight with even doing this... So maybe I'll end up hating it and be like "Nah, I'll just run my local Postgres, and do a snapshot, and everything will be fine." But I'm definitely not naysaying it yet. I'm excited to try it, and I think it's gonna be better than what I currently do.
 
 **Gerhard Lazu:** I think that's a really cool idea, because it helps me figure out what else is important part of this pull request, the 492. And my most important take on this was like "Okay, so if we do this, what will this unlock? What will this enable us to do differently or better than we're doing today?" And what you're saying to me sounds like -- that's like a great goal to work towards, because it will simplify things a lot; you don't need Postgres locally.
 
@@ -420,7 +420,7 @@ One guy was working on the player, which -- he couldn't play an mp3, so he could
 
 **Gerhard Lazu:** Yeah. So that sounds like a step four; we're still this step zero. We're still migrating towards it, in that the pull request is open... And one of the first observations was that the latency increased. And if you think about it, it makes sense, because with Fly, Postgres was local, so we get sub-millisecond latency. In Neon's case, the Postgres is remote; it's running in AWS. Still the same region, but it adds a couple of milliseconds. And when you have lots of queries, which we do on some pages, they add up.
 
-\[00:35:55.13\] So for example, when we started this, the homepage latency just shot up by 3x, and Jerod, you came \[unintelligible 00:36:01.25\] and reduced the number of select statements; we had 70 plus, now we have 15... So while it was 3x before, now it's like maybe 10%, which is 0.1. So that's a huge, huge improvement. So how do we feel about knowing that the latency of all our database queries will increase? Are we okay with that?
+\[35:55\] So for example, when we started this, the homepage latency just shot up by 3x, and Jerod, you came \[unintelligible 00:36:01.25\] and reduced the number of select statements; we had 70 plus, now we have 15... So while it was 3x before, now it's like maybe 10%, which is 0.1. So that's a huge, huge improvement. So how do we feel about knowing that the latency of all our database queries will increase? Are we okay with that?
 
 **Jerod Santo:** Yes, because we are leveraging cached information most of time.
 
@@ -446,7 +446,7 @@ And we can use Honeycomb, and know when stuff gets slow, and then we go optimize
 
 **Jerod Santo:** Right. And is there any sort of like connection pooling, or other things we could do in order to reduce that per-query cost? We have all that set up.
 
-**Gerhard Lazu:** \[00:40:13.07\] We do have that. It's literally -- you run one, you have to wait for the response, you run another one... And some of them do run in parallel, but eventually, you've run all these things, and all the responses have to come back for it to be able to rebuild the page. While if you use fewer request responses, it will be quicker.
+**Gerhard Lazu:** \[40:13\] We do have that. It's literally -- you run one, you have to wait for the response, you run another one... And some of them do run in parallel, but eventually, you've run all these things, and all the responses have to come back for it to be able to rebuild the page. While if you use fewer request responses, it will be quicker.
 
 **Jerod Santo:** Just the law of math and physics. Doing less costs less than doing more.
 
@@ -492,7 +492,7 @@ But anyways, October 8th. This is when it started. Our CDN cache misses increase
 
 Now, this has improved since... So we didn't do anything. December 28th, we are now at 900,000. Now, obviously, requests go up and down, but we still have more than we should do. Most of these requests are to the homepage. 80% of them are HTTP/1, 19% are HTTP/2, and only 1% are HTTP/3. 75% of all text HTML requests are cache misses. So this is like highly cacheable content, that there shouldn't be any misses, and we get no explanation for why this just started happening. I got so frustrated that I want to build my CDN...
 
-**Jerod Santo:** \[00:44:19.17\] Hah!
+**Jerod Santo:** \[44:19\] Hah!
 
 **Gerhard Lazu:** That's not the 20 years project. So yeah, so three years ago, Kurt posted about this. He wrote "The five-hour CDN" on the Fly.io blog.
 
@@ -512,7 +512,7 @@ Now, this has improved since... So we didn't do anything. December 28th, we are 
 
 And I think for us, we look at infrastructure partners like this, like Honeycomb, like Fastly has been, like Linode has been in the past; like Fly is, like TypeSense is... Is we want integrated, embedded partners. Not because that's what we necessarily want, but because we see that's what they get the best benefit of. We get the best benefit, because we get to have that deep relationship, and that conversation back and forth to improve. And I'm sure if Neon succeeds with us, and we fully migrate our Postgres there, and we're super-happy with all the things we've been sort of talking about, that there's gonna be a deep embedded relationship.
 
-\[00:47:55.05\] I've kind of come up with this idea over the holidays, this embedded sponsorship. It's different than just sort of flying by and throwing some money at content, and hoping that you can talk to their audience. It's far more of a partnership in embedded, and so that's why I go that route. And I think Cloudflare has an opportunity to work with us, if that works out. We've given Fastly years to work that out, and they haven't done it. And that's just a shame. I really would love to have them figure that out. I've begged them in email, in conversations. And I don't mind saying that, because I've worked it personally to the n-th degree that I'm kind of sad and upset that that's where we're at. They are amazing, maybe not amazing for us... But we've just not gotten the kind of support we need to get past these challenges, over and over and over.
+\[47:55\] I've kind of come up with this idea over the holidays, this embedded sponsorship. It's different than just sort of flying by and throwing some money at content, and hoping that you can talk to their audience. It's far more of a partnership in embedded, and so that's why I go that route. And I think Cloudflare has an opportunity to work with us, if that works out. We've given Fastly years to work that out, and they haven't done it. And that's just a shame. I really would love to have them figure that out. I've begged them in email, in conversations. And I don't mind saying that, because I've worked it personally to the N-th degree that I'm kind of sad and upset that that's where we're at. They are amazing, maybe not amazing for us... But we've just not gotten the kind of support we need to get past these challenges, over and over and over.
 
 So I guess my question to you is, does it make sense for us to build our own CDN? Was does it really take? Should a small operation like ours try to do that? Or does it make sense to go to the goliaths and the behemoths like Cloudflare and Fastly, like we have done? Should we try something different? What should we do?
 
@@ -534,7 +534,7 @@ Even our config, what we need in terms of streaming logs - it's such a simple fe
 
 I mean, I can talk, for example, why our Dagger on Fly has been failing, and there's some problems with the WireGuard... I mean, it's not all great, and we can talk about that. But that's a very specific use of Fly, in a very specific context.
 
-**Adam Stacoviak:** \[00:52:17.09\] And it's not their core competency, necessarily. Their core competency is what they provide to us. It's the edges where they're sort of moving and innovating that still need work, which is par for the course.
+**Adam Stacoviak:** \[52:17\] And it's not their core competency, necessarily. Their core competency is what they provide to us. It's the edges where they're sort of moving and innovating that still need work, which is par for the course.
 
 **Gerhard Lazu:** Yeah. So - I mean, this basically has to do with the Fly -- there's intermittent Fly.io-WireGuard gateway issues when you're connecting, for example, from CI, from GitHub in this case. Sometimes that whole setup -- and it's very difficult to say whether it's Fly or whether it's GitHub, or Microsoft Azure where this runs. So it's difficult to say what exactly is happening, \[unintelligible 00:52:49.00\] that specific combination isn't working well. But because we have two have everything, it's okay, because we've been falling back to the GitHub runners. Builds have been a bit slower, but they worked. Deploys, were taking ten minutes, rather than --
 
@@ -552,11 +552,11 @@ I mean, I can talk, for example, why our Dagger on Fly has been failing, and the
 
 And then you have some very small rules, which basically tell you what do you do. So let's say that you're serving an mp3. If you don't have the mp3, it will stream it from wherever it is, and it will cache it locally. So you have some disks attached to every single NGINX instance, so that you have like a local ephemeral cache of all the content that's requested in that region. It's just a simple config; you just add the volume - boom, you're done. That's it. I mean, there's not much more -- I suppose it's like the config for the NGINX, so that Jerod gets the logs.
 
-**Adam Stacoviak:** \[00:56:19.01\] That can't be it. What about logs, and stuff like that? What about the things we need for stats, and the application...?
+**Adam Stacoviak:** \[56:19\] That can't be it. What about logs, and stuff like that? What about the things we need for stats, and the application...?
 
 **Gerhard Lazu:** Logs, exactly. Yeah. So NGINX logs; we'll get them in the form that we need to, we'll write them to a disk... I mean, Fly has NATS. That's how they distribute all the logs. I know that's not always reliable. There's small issues, and I know because I've been using this for another project for like the past year... This is for Dagger, by the way, so I know exactly how NATS works, how log distribution works in Fly... And the challenge would be to get those logs reliably from the NGINX instances to S3. I think that's the one thing which is like an unknown, in the sense that I know the limitations of NATS, which is internal to Fly. But maybe there's something more that we can do there. We cannot do this without a little bit of Fly's help. And what I mean by that - we wouldn't want our logs to get lost, right? Fastly has been very reliable as far as I know when it comes to delivering those logs. I know that we can get them in the right format, because NGINX is super-configurable. What I don't know is how reliable will it be to get those logs from Fly into S3.
 
-One tool that I've used and I love is called vector.dev. It's an open source tool, very lightweight, written in Rust, that consumes - they're called inputs. So it can be anything from like a log file, to standard in, standard out, whatever. It has a couple of sources, and then it does transformations, and it has syncs. So we could collocate some of those vector instances right next to NGINX. They are super-lightweight; think megabytes of memory usage, hardly any CPU usage... And they could distribute those logs reliably. They have backup mechanisms, they have all sorts of things. So even that, I would have an idea of how to do. Time-wise, we're talking days of my time.
+One tool that I've used and I love is called vector.dev. It's an open source tool, very lightweight, written in Rust, that consumes - they're called inputs. So it can be anything from like a log file, to STDIN, STDOUT, whatever. It has a couple of sources, and then it does transformations, and it has syncs. So we could collocate some of those vector instances right next to NGINX. They are super-lightweight; think megabytes of memory usage, hardly any CPU usage... And they could distribute those logs reliably. They have backup mechanisms, they have all sorts of things. So even that, I would have an idea of how to do. Time-wise, we're talking days of my time.
 
 **Adam Stacoviak:** Hm. Preach. I like it.
 
@@ -570,7 +570,7 @@ One tool that I've used and I love is called vector.dev. It's an open source too
 
 **Gerhard Lazu:** \[laughs\]
 
-**Adam Stacoviak:** \[00:59:44.18\] But I was thinking like the idea of really simple syndication. What if it was a really simple CDN, like \[unintelligible 00:59:47.21\] Like a repo we started up, where you could do the same thing we're gonna do if we decided to do this, and it became a template, via open source, as it works... Call it \[unintelligible 00:59:59.26\] and it's meant to run on Fly, and you can spin up your own really simple CDN, essentially, and kind of follow our blueprint. And I think that that's promotion for Fly. That's obviously promotion for open source, dogfooding, in a way... Because that's what we're asking for, is just a really simple CDN. Don't give us all the extras.
+**Adam Stacoviak:** \[59:44\] But I was thinking like the idea of really simple syndication. What if it was a really simple CDN, like \[unintelligible 00:59:47.21\] Like a repo we started up, where you could do the same thing we're gonna do if we decided to do this, and it became a template, via open source, as it works... Call it \[unintelligible 00:59:59.26\] and it's meant to run on Fly, and you can spin up your own really simple CDN, essentially, and kind of follow our blueprint. And I think that that's promotion for Fly. That's obviously promotion for open source, dogfooding, in a way... Because that's what we're asking for, is just a really simple CDN. Don't give us all the extras.
 
 **Gerhard Lazu:** I mean, if we think of it as an experiment to try out, and see how far we can get... Maybe we can invest a little bit of time and see "Will this work?" I mean, we have the blueprint, we have a couple of things which are out there... I think we're relying a lot on NGINX and NGINX caching. As a feature, that's one of the NGINX Plus features, especially managing the cache, and visibility into the cache.
 
