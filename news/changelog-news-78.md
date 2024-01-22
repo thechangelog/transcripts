@@ -43,7 +43,7 @@ It's now time for Sponsored News!
 
 Socket for GitHub protects your apps from those dreaded supply chain attacks right where you live: Whenever a new dependency is added in a pull request, Socket analyzes the package's behavior and security risk.
 
-The best part: Socket is quick and easy to install! Just install the official GitHub app from the marketplace, choose the repos you want it to protect & Socket will automatically analyze your project and keep them secure. Too easy! But don't take our word for it... [Check it out for yourself](https://socket.dev/features/github?utm_source=changelog&utm_medium=newsletter&utm_campaign=changelog-news) using the link in the show notes and chapter data.
+The best part: Socket is quick and easy to install! Just install the official GitHub app from the marketplace, choose the repos you want it to protect & Socket will automatically analyze your project and keep them secure. Too easy! But don't take our word for it... [Check it out for yourself](https://socket.dev/features/GitHub?utm_source=changelog&utm_medium=newsletter&utm_campaign=changelog-news) using the link in the show notes and chapter data.
 
 Thanks again to Feross and our friends at Socket for sponsoring this week on Changelog news.
 
@@ -91,7 +91,7 @@ The entire guide and sample code are available for you to follow for yourself. H
 
 > Could you just use the phone app that comes with sensor? Sure. Is this setup over-engineered? Probably. Is it unnecessary? Most definitely; but it works, and it's fun to tinker with hardware.
 >
-> It also gives you full control of the data; transforms it into standardized format in case you want to play with it further, and you don't have to rely on closed-source smartphone app.
+> It also gives you full control of the data; transforms it into standardized format in case you want to play with it further, and you don't have to rely on closed source smartphone app.
 
 **Break:**
 
