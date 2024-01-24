@@ -14,7 +14,7 @@ And that went on for a long time and worked quite well, but as time went on, AT&
 
 **Adam Stacoviak:** That's interesting.
 
-**Allan Jude:** \[00:08:00.00\] But those all got settled, and it turned out there were like four files that just got rewritten, and there was never actually something that was being done wrong necessarily... But it scared people off enough and delayed the development long enough that Linux gained a lot more popularity in the meantime. But in general, then, after the last versions of that, the university was kind of done with it after dealing with the lawsuits and everything, and so they came up with the BSD license, which, compared to the GPL, is much shorter; you could fit it on a business card. The modern version has just two clauses in it: don't remove the copyright, and reproduce the copyright in the manual. Those are basically the only requirements.
+**Allan Jude:** \[08:00\] But those all got settled, and it turned out there were like four files that just got rewritten, and there was never actually something that was being done wrong necessarily... But it scared people off enough and delayed the development long enough that Linux gained a lot more popularity in the meantime. But in general, then, after the last versions of that, the university was kind of done with it after dealing with the lawsuits and everything, and so they came up with the BSD license, which, compared to the GPL, is much shorter; you could fit it on a business card. The modern version has just two clauses in it: don't remove the copyright, and reproduce the copyright in the manual. Those are basically the only requirements.
 
 The original BSD license had a couple of more, including like "You can't use the name of the university to promote your product", just because this code came from the university, and "You have to include the line that this includes code that came from the university in the manual." But of course, as you can expect with something open source, when that proliferated, and you had 200 different companies having contributed code to something, and you have to list all 200 of them in the manual for every product, it got a little out of hand. So the advertising clause got removed from the license to make life easier for everyone.
 
@@ -28,7 +28,7 @@ FreeBSD pioneered the practical implementation of containers in the year 2000, w
 
 And then a lot of companies, as we talked about, can take the BSD code and build a product on top of it. And a lot of the reason why BSD continues to thrive is that those companies see the value in investing back in FreeBSD. So while the license doesn't say you have to give your code back, if there's any code that's not specific to their product, and is not their intellectual property, they have an advantage of contributing that back... So it means when they go to build the next product on a newer version of BSD, it's that much less diff that they have to try to rebase on top of.
 
-**Jerod Santo:** \[00:12:15.18\] So I'm curious, Allan, why you use or choose BSD personally. What's your story coming into it?
+**Jerod Santo:** \[12:15\] So I'm curious, Allan, why you use or choose BSD personally. What's your story coming into it?
 
 **Allan Jude:** So back in the late '90s, when I was a teenager, I finally got on the internet, and I discovered IRC, and thought this was really cool. And I wanted to host an IRC server, to have my own IRC server instead of using the big popular one with all the people on it... Because that way, I could be in charge. Because I was 13. And so I asked around a little bit and learned about it, and I apparently needed this thing called a shell account, which is basically -- it was pre SSH, but you'd telnet into somebody else's server and be able to leave a process running. And it turned out a good chunk of the servers you could get a shell on back then were BSD. And so that's what I started and what I learned.
 
@@ -46,7 +46,7 @@ And also, the fact that in FreeBSD there's the kernel, like in Linux, but also t
 
 So, I remember being very excited after years when GNU Core Utils DU finally got the -A flag for showing the apparent size of a directory. So if there's compression, it can show it. But that version only ships on newer Ubuntu, and if you're still using CentOS, you didn't have that feature. And it was just like... Interesting. But mostly, it's just once you know a tool really well, every time you use a different tool, you just hate the fact that it's not the tool you know. And I think that's the main thing that's really kept me.
 
-**Jerod Santo:** \[00:16:16.00\] Right... I think a lot of things perpetuate for that reason.
+**Jerod Santo:** \[16:16\] Right... I think a lot of things perpetuate for that reason.
 
 **Allan Jude:** Yeah. And one of the big things is there's a very clear separation between what is the operating system, and what is the packages I installed. So on FreeBSD, if you do a fresh install, and you go into the package manager and list what's installed, the list is empty. Well, some tools are built into the operating system, like tcpdump, and netcat, and some of the basic stuff like that, and like the compiler. Those are part of the operating system. And then anything I decide to install goes in a prefix directory; it goes under User Local, because this is a local modification I made; it's not part of the operating system. And it means that I can have completely different packages that are separate from the operating system.
 
@@ -56,7 +56,7 @@ And so those packages are always fresher than what you -- like, if you're on Ubu
 
 **Allan Jude:** There are some cases where I have to use Linux. Like doing video transcoding stuff... Well, Nvidia makes the graphics drivers to use the GPU as a GPU on FreeBSD; they don't make the drivers available to do the video transcoding stuff on FreeBSD. So in my sysadmin experience, there are some Linux machines, and I use them, but I often find myself trying to make them look more and more like BSD, just for my own comfort, and realizing that that's probably just making it worse.
 
-**Break:** \[00:18:12.25\]
+**Break:** \[18:12\]
 
 **Jerod Santo:** So I was first exposed to BSD in college. I've never run it, so now my experience level. So this is my level of personal experience...
 
@@ -86,7 +86,7 @@ So with that in mind, the integration with ZFS seems like it could be better or 
 
 **Allan Jude:** Yes.
 
-**Adam Stacoviak:** \[00:28:10.12\] Okay. Sweet.
+**Adam Stacoviak:** \[28:10\] Okay. Sweet.
 
 **Allan Jude:** ZFS and OpenZFS are licensed under the CDDL, which is a slightly modified version of the Mozilla Public License. And so the CDDL says - I'm not a lawyer; don't take my legal advice. But in general, the license says that you can make a binary out of CDDL license code, and you can license that binary however you want, so that you can make a product out of it, or whatever. And so you can make a ZFS binary, a kernel module, or whatever, and license that even under the GPL, so it'd be compatible to integrate it into the Linux Kernel. But the GPL itself requires that any code you link into it has to be licensed under the GPL and the CDDL. It doesn't let you just change the license on that code to be under the GPL. And so that's where that kind of incompatibility comes in. But it's not a very strong one, and Ubuntu is pretty sure that their legal way around it is working.
 
@@ -96,7 +96,7 @@ So with ZFS I can take a snapshot of my root filesystem, and save that as "Befor
 
 Or if you've ever tried to update the firmware or the OS on like a little router or something, they often have two images; they always have like the one-year update, and then there's like a spare one \[unintelligible 00:31:15.20\] switches to this, so that if you somehow botch the firmware update, they have a second firmware they can boot from in the meantime. So FreeBSD had a feature like that before it had ZFS called NanoBSD, that let you do that. You'd partition up your disk into two big partitions and one little one. And the little one would hold the configuration, and the two big ones would be like version A and version B of whatever you're trying to install, whether it was a firewall, or a router, or whatever. And you'd be running off A, so you'd update B, and the next time you'd boot you'd switch to B, and then you can ping pong between these two images. But ZFS allows you to do that with an unlimited number of images. Because each is just this virtual file system in the pool, you can have as many of these as you want, and you can access them directly from the bootloader and decide which one you want to use.
 
-\[00:32:01.16\] And when you're switching to one, it doesn't make the other ones go away. All the data is still there, because ZFS is copy on write, so only the bits you actually changed are taking space. So having seven copies of your operating system doesn't take that much space, because you only have to store the differences, not all of the data seven times. And so that allows much deeper integration.
+\[32:01\] And when you're switching to one, it doesn't make the other ones go away. All the data is still there, because ZFS is copy on write, so only the bits you actually changed are taking space. So having seven copies of your operating system doesn't take that much space, because you only have to store the differences, not all of the data seven times. And so that allows much deeper integration.
 
 But also, if we go back -- when we talked about the fact that the base system utilities, like top, for example, are not a separate package that came from a different maintainer somewhere. That is part of the FreeBSD operating system. So when you start top on FreeBSD, under the line where it tells you about how much free memory you have, it has two lines about ZFS, telling you "This is how much of your memory is being used by the \[unintelligible 00:32:43.04\] this much is for frequently used files, this much is for recently used files, and this much is data that's pending being written. Here's what your compression ratios are, and memory", and all this other information that would only be there if you had ZFS. And because FreeBSD is integrated with ZFS, top can just be compiled against the version of ZFS \[unintelligible 00:33:02.19\] and be able to get that information all integrated.
 
@@ -124,7 +124,7 @@ So with the BSDs -- the NetBSD, OpenBSD and DragonFlyBSD are not really analogou
 
 So NetBSD wanted to maintain that, and works on all of those weird architectures that we just mentioned, and a bunch of ones you've probably never heard of, and a bunch that only existed in Japan, and never shipped anywhere outside of Japan. So NetBSD's focus is really that portability, and being able to run on anything.
 
-\[00:35:57.26\] A lot of their ethos from the beginning was "There were these bigger mainframe type machines, and they don't make an OS for them anymore. We can be the open source OS, so people can still use to run these." And that has a lot of value, but it doesn't have quite the same mainstream appeal as running commodity servers with regular applications.
+\[35:57\] A lot of their ethos from the beginning was "There were these bigger mainframe type machines, and they don't make an OS for them anymore. We can be the open source OS, so people can still use to run these." And that has a lot of value, but it doesn't have quite the same mainstream appeal as running commodity servers with regular applications.
 
 But NetBSD did pioneer a very interesting thing called package source, PKG SRC. And this is a package manager that's not specific to one operating system. So it's supported on various different versions of the BSDs, Linux'es, Solaris and its derivatives, Lumos and so on, and it allows you to get some kind of basic applications on stuff. People who are like "Oh, I need modern Python on HPUX", PKG SRC is a way to do that. And that came out of the NetBSD project.
 
@@ -142,7 +142,7 @@ They also invented a couple other concepts. They relink the kernel, all the diff
 
 FreeBSD ended up changing what it was doing to even a third option, but since FreeBSD 6, the process model has worked very well to support that -- and with FreeBSD 14 or 15 we can support up to 1024 cores on a machine, and I think Linux is going to get there soon, but I think most versions of Linux are still stuck at not able to support more than 256 cores... Which seemed like lots even only a couple of years ago, but now that I've personally used machines with 192 cores, it's like "Oh, we're definitely going to exceed 256 any minute now."
 
-**Break:** \[00:40:11.22\]
+**Break:** \[40:11\]
 
 **Adam Stacoviak:** So if you were just beginning with BSD, which BSD would you choose? Is FreeBSD the choice that people should select first? Should they choose the portability one? How do you choose? I suppose based on what you've just said, it makes sense that FreeBSD is probably the one you'd say.
 
@@ -186,7 +186,7 @@ What about the homelabbers out there who are running Proxmox? They just want to 
 
 **Adam Stacoviak:** What about a FreeBSD system that runs obviously ZFS, because it's built-in, it's open ZFS built-in, but it's really intended to be a Docker machine, running a particular Docker container that runs Plex, and needs access to a GPU and stuff like that? Can you do that with FreeBSD? Is that going to be a problematic system to build?
 
-**Allan Jude:** \[00:46:06.23\] There's a couple different ways to approach that. Docker specifically doesn't really support Linux, although the more generic concept, the container runtime stuff - there is growing support for being able to do that directly on FreeBSD. For the specific use case you're talking about, it might make more sense to use Beehive, which is FreeBSD's hypervisor - kind of like KVM on Linux - and you could pass through the GPU. So you could have a VM that would run your Docker container, and be able to pass through the GPU.
+**Allan Jude:** \[46:06\] There's a couple different ways to approach that. Docker specifically doesn't really support Linux, although the more generic concept, the container runtime stuff - there is growing support for being able to do that directly on FreeBSD. For the specific use case you're talking about, it might make more sense to use Beehive, which is FreeBSD's hypervisor - kind of like KVM on Linux - and you could pass through the GPU. So you could have a VM that would run your Docker container, and be able to pass through the GPU.
 
 **Adam Stacoviak:** It doesn't have to be a Docker container. I mean, is there a more native FreeBSD way to do things that isn't Docker-related?
 
@@ -198,7 +198,7 @@ What about the homelabbers out there who are running Proxmox? They just want to 
 
 **Adam Stacoviak:** That's why I like my Docker Compose setup, because I pass through via Docker Compose which mounts I want the Plex Docker machine to know about. And it can only see those, and that's it, essentially. And that's why I like that process. But I figure there's probably a more native way to do it.
 
-**Allan Jude:** Yeah. And those concepts were originally done in 1999 on FreeBSD by a company who wanted it. They were just trying to support PHP 3 and PHP 4 at the same time as a web host. And so they paid for this feature, and they said "We need this as a competitive advantage. But a year from when we finish the project, you can open-source it." And so a developer built it on top of FreeBSD for this web host, and they used it, and then it became open source.
+**Allan Jude:** Yeah. And those concepts were originally done in 1999 on FreeBSD by a company who wanted it. They were just trying to support PHP 3 and PHP 4 at the same time as a web host. And so they paid for this feature, and they said "We need this as a competitive advantage. But a year from when we finish the project, you can open source it." And so a developer built it on top of FreeBSD for this web host, and they used it, and then it became open source.
 
 **Adam Stacoviak:** That's awesome.
 
@@ -216,7 +216,7 @@ One of our customers wanted to be able to run Docker inside of a container. They
 
 **Adam Stacoviak:** Yeah, I bet. What about networking? What can you do fun with networking around FreeBSD? I know that you've got some cool stuff in there, but if I wanted to tinker with it, build my own router, just do fun things with ports on a machine that I have access to, whatever...? Give me some fun stuff.
 
-**Allan Jude:** \[00:50:15.28\] Yeah, one of the main ways people get started with FreeBSD is using one of the kind of open source appliances based on FreeBSD, whether that's like pfSense or OpenSense as a router, which - it's a router firewall with a web GUI. And that's how a lot of people get started. Or there's TruneNAS. If you have a machine and you just want it to be your ZFS machine, rather than trying to learn it all yourself, you install TrueNAS on it, you get a web GUI, and then you have a ZFS machine.
+**Allan Jude:** \[50:15\] Yeah, one of the main ways people get started with FreeBSD is using one of the kind of open source appliances based on FreeBSD, whether that's like pfSense or OpenSense as a router, which - it's a router firewall with a web GUI. And that's how a lot of people get started. Or there's TruneNAS. If you have a machine and you just want it to be your ZFS machine, rather than trying to learn it all yourself, you install TrueNAS on it, you get a web GUI, and then you have a ZFS machine.
 
 **Adam Stacoviak:** That's Core, right? Not Scale. Scale is based on Debian. Isn't that right?
 
@@ -238,7 +238,7 @@ And just a lot of composability, so it has a bunch of these different layers whe
 
 **Adam Stacoviak:** What about this scenario - so I have two Pi-holes, and I have a DNS mask, a load balancer essentially machine in between them, that I point my router at that single IP address, I have two Pi-holes, and I load balance to those two Pi-holes based on a DNS mask. If I want to do that in the FreeBSD world, what would you suggest? If I want to replace that machine with a load balancer built on FreeBSD.
 
-**Allan Jude:** \[00:54:18.11\] Yeah, so you can just install a DNS mask on FreeBSD.
+**Allan Jude:** \[54:18\] Yeah, so you can just install a DNS mask on FreeBSD.
 
 **Adam Stacoviak:** That's it.
 
@@ -292,7 +292,7 @@ One of the other interesting protocols that's available on FreeBSD and OpenBSD i
 
 **Jerod Santo:** It sounds like it wouldn't work, like it would fail.
 
-**Allan Jude:** \[00:58:01.01\] I'm sure it works. I've seen lots of really big, really big, important internet nodes using that to stay online.
+**Allan Jude:** \[58:01\] I'm sure it works. I've seen lots of really big, really big, important internet nodes using that to stay online.
 
 **Adam Stacoviak:** That's cool.
 
