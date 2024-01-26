@@ -72,7 +72,7 @@
 
 **Jerod Santo:** Show me Rich Harris. \[win alert\] You got it. He is number two, Rich Harris, with 17 responses.
 
-**Una Kravets:** \[00:06:03.04\] Alright.
+**Una Kravets:** \[06:03\] Alright.
 
 **Jerod Santo:** Now, because you went first, James gets one more chance. If he can match that number one spot, then Compressed will play the round. If not, you win the round. So James, one more guess. What's above Rich Harris?
 
@@ -154,7 +154,7 @@
 
 **Jerod Santo:** Yes. So Brad and James, you can confer; you can talk amongst yourselves. You get one guess, and you have to match that fourth spot to steal the board.
 
-**Brad Garropy:** \[00:09:43.04\] Okay, so my take is this is probably a library... I think we've exhausted all the frameworks at this point. And I can think of a few big time library authors. I was gonna go with Sindre, that's a really great guess... But if we try to think of like single big-name libraries, I'm thinking maybe Tanner Linsley for like React Query, things like that. Or maybe like Ryan Florence for React Router, Reach UI...
+**Brad Garropy:** \[09:43\] Okay, so my take is this is probably a library... I think we've exhausted all the frameworks at this point. And I can think of a few big time library authors. I was gonna go with Sindre, that's a really great guess... But if we try to think of like single big-name libraries, I'm thinking maybe Tanner Linsley for like React Query, things like that. Or maybe like Ryan Florence for React Router, Reach UI...
 
 **James Q Quick:** Oh, I would probably -- yeah...
 
@@ -204,13 +204,13 @@
 
 **Una Kravets:** \[unintelligible 00:11:53.00\]
 
-**Jerod Santo:** Which is better -- you all did better than Tim Berners Lee, who got to shout-outs. \[laughter\] Patrick JS got a vote... Anybody who's been tracking the Everything saga, Patrick JS, Unleashed on Npm. That was a funny one. And then there's one vote for Bob from accounts. So shout-out to you, Bob, for an awesome job, creating someone's favorite library or framework...
+**Jerod Santo:** Which is better -- you all did better than Tim Berners Lee, who got to shout-outs. \[laughter\] Patrick JS got a vote... Anybody who's been tracking the Everything saga, Patrick JS, Unleashed on npm. That was a funny one. And then there's one vote for Bob from accounts. So shout-out to you, Bob, for an awesome job, creating someone's favorite library or framework...
 
 **James Q Quick:** Thank you, Bob.
 
 **Jerod Santo:** Alright, that goes to the end of round one. CSS Pod takes an early lead with 52 points, Compressed just getting started.
 
-**Break:** \[00:12:30.09\]
+**Break:** \[12:30\]
 
 **Jerod Santo:** Let's go to round two, and we now have Brad and Adam facing off. Let's start with Brad. We asked JS Party listeners to name the first CSS property that comes to your mind. The top six responses are on the board. Brad, what do you think is at the top of JS Party listeners' minds?
 
@@ -292,7 +292,7 @@ After two rounds, let's award those points. CSS Pod, 182. Compressed - y'all kno
 
 **Jerod Santo:** Okay. We asked our listeners about their favorite coding website. Is freeCodeCamp one of the top five? \[win alert\] Yes, it is. However, it's in the five slot.
 
-**James Q Quick:** \[00:20:17.11\] That's great.
+**James Q Quick:** \[20:17\] That's great.
 
 **Jerod Santo:** So that opens the board to Una for a chance to take it. You just have to match one through four. What do you think?
 
@@ -387,7 +387,7 @@ After two rounds, let's award those points. CSS Pod, 182. Compressed - y'all kno
 
 **James Q Quick:** That's cool that it's still on there.
 
-**Jerod Santo:** \[00:24:08.09\] Yes. So it was definitely mentioned three times, all in such a manner. Okay, so you're on the board now. It's still anybody's game. There are three more rounds to play, and I didn't say at the beginning, but the last two rounds are double points. So in terms of the pointspread, you guys have plenty of time to come back.
+**Jerod Santo:** \[24:08\] Yes. So it was definitely mentioned three times, all in such a manner. Okay, so you're on the board now. It's still anybody's game. There are three more rounds to play, and I didn't say at the beginning, but the last two rounds are double points. So in terms of the pointspread, you guys have plenty of time to come back.
 
 Alright, we move now to round four. This is the inverted round. So it doesn't work like regular rounds. There's no interface-off. There's simply a passing back and forth of opportunities to guess... And you're trying to match the board, but you're actually trying to match the bottom side of the board. So you want the least popular of the most popular responses. The lower on the board you are, the higher the points scored.
 
@@ -486,7 +486,7 @@ So we'll just alternate between teams. We will start with Compressed, since you 
 
 **Jerod Santo:** Show us main. \[fail alert\] Not on the board. One, four and six are taken. Slots two, three and five are still out there. Brad, what do you think?
 
-**Brad Garropy:** \[00:27:56.17\] HTML. The HTML element.
+**Brad Garropy:** \[27:56\] HTML. The HTML element.
 
 **Jerod Santo:** Show us HTML. \[fail alert\] Not top of mind.
 
@@ -558,7 +558,7 @@ Starting with Adam. This time, this is a double point round, so a lot of points 
 
 **James Q Quick:** Una yawns... \[laughter\] Well timed.
 
-**Jerod Santo:** \[00:31:57.16\] Yes. Alright, no strikes yet. Two answers left to take round five. Back to you, Brad.
+**Jerod Santo:** \[31:57\] Yes. Alright, no strikes yet. Two answers left to take round five. Back to you, Brad.
 
 **Brad Garropy:** We spend most of our time dealing with bugs, probably, so maybe some form of frustrated.
 
@@ -596,7 +596,7 @@ Starting with Adam. This time, this is a double point round, so a lot of points 
 
 **Adam Argyle:** I feel like five rounds is plenty... I'm getting kind of tired.
 
-**Break:** \[00:34:12.01\]
+**Break:** \[34:12\]
 
 **Jerod Santo:** Now, round six, for the first time in Frontend Feud in history is both double points and inverted, so this one might get crazy...
 
@@ -706,7 +706,7 @@ Starting with Adam. This time, this is a double point round, so a lot of points 
 
 **Brad Garropy:** I got your tip. I heard it \[unintelligible 00:39:55.25\]
 
-**Jerod Santo:** \[00:39:58.09\] Brad heard my tip. \[laughs\]
+**Jerod Santo:** \[39:58\] Brad heard my tip. \[laughs\]
 
 **James Q Quick:** Come on, Brad.
 
@@ -791,7 +791,7 @@ I think what would be cool will be to bring back past Frontend Feuders, but then
 
 **Jerod Santo:** We should have a Frontend Feud CSS Podcast edition where it's like your guys's show, you run the thing... The game board's all out there, open source, I'll show you how to use it... And different audience... I will say - so, to the very first round, the name of the person who made your favorite library or framework... Now, Zack Leatherman is a friend of mine, known him for a long time. Eleventy is an awesome project. He deserves to be on that list. But I will say that because it is JS Party listeners, and because you all know we were coming up short on responses for a while - we had like 65, and we needed 100 in hours to be able to play... And so I asked you all to post about it on your socials, which you did... And Zack also did, and so he had a lot of respondents from his following fill out the survey...
 
-**Una Kravets:** \[00:44:19.29\] Oh, so Zack filled it out five times...
+**Una Kravets:** \[44:19\] Oh, so Zack filled it out five times...
 
 **Jerod Santo:** Yeah, exactly... \[laughs\] And so thankfully, we actually blew through our 100-mark threshold. I think we had like 160 or something, which was awesome... So we appreciate everybody who took time. I know that survey is kind of fun, but it's also longer than you expect it to be, because there's a lot of people that like look at it and then they just leave. Because there's 30 questions, it takes a little bit of time. The reason why we do that is we can now play a handful of games without doing a survey every single time. But that is one of the reasons why -- you know, no disrespect to Zack at all. He's amazing. But there's some names not in that list, that are pretty popular names, and Zach was number four. And I think probably because it's just skewed to us is why it's like that. So I say all that to say, if we had more of these games, with different audiences filling them out, it might be interesting to see how they play out.
 
