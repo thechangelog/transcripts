@@ -12,7 +12,7 @@ Ok, let's get into the news.
 
 Pooya Parsa, creator of [UnJS](https://unjs.io) and one of the maintainers of [Nuxt](https://github.com/nuxt/nuxt), writes what so many maintainers have (or haven't, but wanted to) write before:
 
-"The thing is, maintaining multiple open-source projects is not as easy as you might imagine. As a full-time open-source maintainer, I roughly receive more than 200 notifications every 12 hours plus random messages and all are expected to be responded to. They often come from completely different people with different contexts, skill levels, priorities concerns, and so on."
+"The thing is, maintaining multiple open source projects is not as easy as you might imagine. As a full-time open source maintainer, I roughly receive more than 200 notifications every 12 hours plus random messages and all are expected to be responded to. They often come from completely different people with different contexts, skill levels, priorities concerns, and so on."
 
 He goes on to describe various circumstances in which messages come to him and responses from a tired maintainer. One example, when discussing pull requests you'd like to see merged, Pooya says: "In all cases, please BE PATIENT. Be sure that maintainers love nothing more than triaging PRs and moving them forward. Please understand that making decisions in a project is not as easy as you might think. Most of the time there is more context that you might be less aware of."
 
@@ -36,7 +36,7 @@ I love this idea! Unfortunately, I missed the first stream, but I'm excited to s
 
 **Jerod Santo:**
 
-Ollama is an [open source](https://github.com/ollama/ollama) effort to help devs run llama2, mistral & [many other](https://ollama.ai/library) language models on your own hardware. This week, they [released](https://ollama.ai/blog/python-javascript-libraries) Python & JavaScript libraries:
+Ollama is an [open source](https://github.com/ollama/ollama) effort to help devs run llama2, mistral & [many other](https://ollama.ai/library) language models on your own hardware. This week, they [released](https://ollama.ai/blog/python-JavaScript-libraries) Python & JavaScript libraries:
 
 > Both libraries make it possible to integrate new and existing apps with Ollama in a few lines of code, and share the features and feel of the Ollama REST API.
 
@@ -82,7 +82,7 @@ This was the beginning of a beautiful <strike>friendship</strike> [implementatio
 
 I volunteered to judge the last couple [React Game Jams](https://reactjam.com). (It's a fun way to help out and all I have to do is play some video games with my kids and talk about which ones we like the best!) As a result, I've come to know of the [Rune](https://www.rune.ai) platform for multiplayer mobile games. Looks like the folks behind Rune would like more people to know about it:
 
-> We at Rune believe that tons of amazing multiplayer games are just waiting to be made by talented indie devs. We've created this $100k grants program to help such indie devs and grow the open-source web game community. Based on us searching GitHub, we've found only 25 open-source multiplayer JS games. We hope that these grants will dramatically boost the ecosystem!
+> We at Rune believe that tons of amazing multiplayer games are just waiting to be made by talented indie devs. We've created this $100k grants program to help such indie devs and grow the open source web game community. Based on us searching GitHub, we've found only 25 open source multiplayer JS games. We hope that these grants will dramatically boost the ecosystem!
 
 $500 "spark" grants and $5000 "ignite" grants are both on offer. If you needed a good excuse to finally build that game you've been thinking about forever...
 
