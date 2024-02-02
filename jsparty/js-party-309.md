@@ -32,7 +32,7 @@
 
 **Jerod Santo:** Love it. Well, we are here for it; we want to definitely hear about you and all of that... But speaking of conferences - it's been a while. In fact, new JS Party listeners may not even remember this segment of mine, which we will do now for the first time in months... It's called Holla. Here we go.
 
-**Jingle**: \[00:06:37.21\]
+**Jingle**: \[06:37\]
 
 **Jerod Santo:** This segment, of course, is where we holla at various community goings on. And today we want to tell you about React Paris. This is a brand new conference from some folks who have ran conferences before - our good friend Omar - putting on React Paris. So this is a community-run, first time conference, single track, single day, 13 talks. Shaundai is one of them. 300 people - this is like my favorite kind of conference: small, single track, so everyone has a shared experience... And it's happening March 22nd, 2024. Shaundai, are you also keynoting at this one, or just a speaker?
 
@@ -50,13 +50,13 @@ The first time when I was out there with them in Belgium was just like -- Tejas 
 
 **Jerod Santo:** Yes. And of course, Tejas also sung their praises when he was on the pod last year... So if you want to see Shaundai in Paris, if you want to see Tejas Kumar, if you like such names as Josh Comeau, Una Kravets, Anthony Fu, lots of interesting speakers - check out React Paris. The website, react.paris.
 
-\[00:10:18.08\]
+\[10:18\]
 
 **Jerod Santo:** Hey, Jerod here in the editing room... One thing I forgot to say while recording, that I'm sure you'd like to know about, is that Omar and the React Paris team have created a discount code for JS Party listeners. Use jspartyparis while registering for 20% off in person and online tickets. Once again, that's jspartyaris, save a little doe.
 
 Okay, this has been holla, and if you organize or regularly attend a meetup or a conference that you think more people should know about, let us know about it. We'd be happy to give your event a holla on a future episode. \[In a matter of seconds we'll beam your information to one of our skilled field technicians.\]
 
-**Jingle:** \[00:10:58.22\]
+**Jingle:** \[10:58\]
 
 **Jerod Santo:** So I would love to hear about your transition. Sales to engineering... Sorry, it's just more interesting to me than TypeScript... I know Nick's waiting -- he's got the TypeScript questions, just like a list of them, because he just wants to talk about TypeScript... But to me, this is just fascinating, because - wildly different things, it seems like.
 
@@ -98,7 +98,7 @@ So I was in sales, I was really successful at it, but I knew -- when I was looki
 
 **Jerod Santo:** Yeah. Middle-aged white guys... I mean, Nick is just drilling it.
 
-**Shaundai Person:** \[00:15:54.04\] That is so great. \[laughter\] Yeah. But I was like "I'm not that. I'm a social person." You know, sales is, I guess -- this is what I get with what I like to do. I was very -- like I said, I was good at sales, I just didn't like it, and I never came home and was like "Oh, can't wait to do more sales stuff in the morning." But it was a job, and that's what I expected it to be.
+**Shaundai Person:** \[15:54\] That is so great. \[laughter\] Yeah. But I was like "I'm not that. I'm a social person." You know, sales is, I guess -- this is what I get with what I like to do. I was very -- like I said, I was good at sales, I just didn't like it, and I never came home and was like "Oh, can't wait to do more sales stuff in the morning." But it was a job, and that's what I expected it to be.
 
 One day I decided to quit the workforce and start my own business, follow my passions for entrepreneurship... I don't know what I was thinking, but I didn't have any kids at the time. So I quit the workforce and I started an online business. And it was a business where I sold all-natural things -- like anything you would see in Whole Foods, like \[unintelligible 00:16:38.24\] all that kind of thing. I used Shopify to do that. And I also was like negotiating deals with all of these suppliers, trying to use my sales skills... I was literally knocking on doors to get sales, because I was like "I want bigger customers", and things like that. But what I found the most fun about the business wasn't the sales part of it, it was actually building widgets to add to my Shopify site.
 
@@ -120,7 +120,7 @@ So I signed up for Codecademy, and I gave myself half an hour a day. Because thi
 
 So I used my sales skills - I'm just alluding to the stuff that you'll find on my YouTube, but I'm using my sales skills to network and find opportunities to build a community around me... And I was able to -- I moved pretty quickly, but I was able to quickly switch careers... And I'm the happiest that I've ever been.
 
-\[00:20:02.15\] And now I'm finally in a career -- I mean, one, I'm lucky enough to have a career that I love, where I'm also making money, but I can see myself moving up, and I can see myself in this for a long time, which is something that I couldn't -- even though I was good at sales, it was something that I never had experienced. I've never experienced that when I was in sales. So it's just awesome, and I love that I'm able to still have that social aspect of it. I'm not -- I'm still drinking diet Coke, and I'm still a dork, but... \[laughs\]
+\[20:02\] And now I'm finally in a career -- I mean, one, I'm lucky enough to have a career that I love, where I'm also making money, but I can see myself moving up, and I can see myself in this for a long time, which is something that I couldn't -- even though I was good at sales, it was something that I never had experienced. I've never experienced that when I was in sales. So it's just awesome, and I love that I'm able to still have that social aspect of it. I'm not -- I'm still drinking diet Coke, and I'm still a dork, but... \[laughs\]
 
 **Jerod Santo:** Coke Zero is preferred...
 
@@ -156,7 +156,7 @@ I was working at a tech company called SalesLoft. I'm based out of Atlanta, so t
 
 So a lot of aspects of my story are very unique to me... So what I encourage people to do is like when they say -- or when they ask me "How did you do it? How can I duplicate exactly what you did?", you're not going to. You're going to have success, no doubt, but you're going to have success in your own way, and you're going to bring your own unique strengths to the table, and you're going to use those to your advantages, with whatever -- you'll figure out the way that it's best for you. I can't write that for you. This is something that you have to figure out, and write for yourself. And don't break up with your husbands and wives over a career switch... I didn't break up with him because of that...
 
-**Jerod Santo:** \[00:24:24.12\] I was gonna say, was it over the career switch?
+**Jerod Santo:** \[24:24\] I was gonna say, was it over the career switch?
 
 **Shaundai Person:** No, it wasn't. And we get along great, so I joke... You know, we get along great as co-parents.
 
@@ -182,7 +182,7 @@ So the thing that makes you a commodity, basically - your coding skills are a co
 
 **Shaundai Person:** So if I got paired with somebody in marketing, I wouldn't do it. If I got paired with somebody in engineering, I would. And that would be my chance to be like "Hey, so tell me about your journey. Tell me about yourself." I'd learn more about them, and then just be like "Well, if I was thinking about switching into engineering... Let me show you my project, and you tell me what you would add to it", and stuff like that. So it was like a warm way to get these conversations to happen... And then people started to talk, like "Oh, this salesperson, she's --" Like, I started to build extensions to our platform, and sell them on why we needed them.
 
-\[00:28:23.25\] I'm like "We need something that -- well, salespeople, our customers... We're focused on account based management. We need a tool for that. So I'm gonna build one." And so I used our API and I added it to the tool. And so I'm selling everybody. So it gets up to the CTO, and he's like "What? We're doing this?" And then the CEO messages and he's like "This is the most incredible feat that I've ever seen." I was like "Yeah, it is... Yeah, I did that." But yeah, so... \[laughs\]
+\[28:23\] I'm like "We need something that -- well, salespeople, our customers... We're focused on account based management. We need a tool for that. So I'm gonna build one." And so I used our API and I added it to the tool. And so I'm selling everybody. So it gets up to the CTO, and he's like "What? We're doing this?" And then the CEO messages and he's like "This is the most incredible feat that I've ever seen." I was like "Yeah, it is... Yeah, I did that." But yeah, so... \[laughs\]
 
 So that was one way that I stood out as human, using video. People aren't doing that. People are sending -- because we're nerds; we're scared to talk to people. Working from home was the best thing that happened to our community. We don't have to go on camera, we don't have to talk to people. But if you want to be a human, if you want to stand out, that's what you need to do. You need to send videos, you need to talk to people like they're human. That was a long-winded way of saying "Yes, I do feel like my sales skills \[unintelligible 00:29:17.01\]
 
@@ -208,7 +208,7 @@ So that was one way that I stood out as human, using video. People aren't doing 
 
 **Shaundai Person:** NASA was my customer. Yeah, a lot of engineers do. And this is why I had the sense in my head that engineers are just dorks, because... They're dorks. You want dorks, like --
 
-**Jerod Santo:** \[00:31:59.12\] \[laughs\] Like literal rocket scientists...
+**Jerod Santo:** \[31:59\] \[laughs\] Like literal rocket scientists...
 
 **Shaundai Person:** ...the dorkiest NASA -- yes.
 
@@ -232,7 +232,7 @@ So if I came to them and I was acting as shy as I feel on the inside, as insecur
 
 **Jerod Santo:** Love it.
 
-**Break:** \[00:35:06.18\]
+**Break:** \[35:06\]
 
 **Jerod Santo:** Nick, do you talk to yourself when you're preparing for your -- so you may not know this about Nick, Shaundai, because he comes off as quiet and humble, but he's also a stage performer. You get this guy on stage, and he performs. Yes, very confidently. He's an MC of TSConf... Is that right?
 
@@ -292,7 +292,7 @@ So if I came to them and I was acting as shy as I feel on the inside, as insecur
 
 **Nick Nisi:** Lots of friends singing this Love in the Dark.
 
-\[00:38:52.04\]
+\[38:52\]
 
 *"I thought we were gonna be just friends..."*
 
@@ -328,7 +328,7 @@ So if I came to them and I was acting as shy as I feel on the inside, as insecur
 
 **Shaundai Person:** Oh, my gosh...
 
-**Jerod Santo:** \[00:40:12.10\] That conference...
+**Jerod Santo:** \[40:12\] That conference...
 
 **Shaundai Person:** There are so many opportunities...
 
@@ -366,7 +366,7 @@ So yeah, TypeScript kind of -- it makes me mad sometimes. But I was an anti Type
 
 **Shaundai Person:** It's like "It works right now, so that's all that matters. Let me just get this out here. I'm gonna merge this code, and it's fine." Nobody's checking for anything, except for - as long as I didn't break any tests, it's good. But I'v found that with TypeScript and the squigglies, now I'm starting to think about, okay, once I export this component, I need to make sure that -- it needs to be extensible. Like, it needs to work beyond where I'm exporting. This component has to be able to -- or this function; I mean \[unintelligible 00:43:45.01\] but it has to be able to work with all of the downstream components that it's getting plugged into... So it starts to change the way that you think about code, and you start to structure your code with all of these edge cases in mind, that I didn't used to think about when I was just using my YOLO JavaScript language.
 
-**Jerod Santo:** \[00:44:08.09\] Well, you do only live once, you know... So if you're gonna just live once, I would use a language that's more enjoyable myself... But I understand. Enterprise engineers need their enterprise solutions. Here's an honest question about TypeScript... Because - okay, you don't understand our dramatic foil, Shaundai, because you're new here, but Nick is the TS fanboy. He would rename the podcast if he could, to TS Party. But I will not let him.
+**Jerod Santo:** \[44:08\] Well, you do only live once, you know... So if you're gonna just live once, I would use a language that's more enjoyable myself... But I understand. Enterprise engineers need their enterprise solutions. Here's an honest question about TypeScript... Because - okay, you don't understand our dramatic foil, Shaundai, because you're new here, but Nick is the TS fanboy. He would rename the podcast if he could, to TS Party. But I will not let him.
 
 **Nick Nisi:** Who says I can't? Oh, you do. Okay.
 
@@ -408,7 +408,7 @@ strongly-typed languages. And for me, it seems like when I'm using dynamic langu
 
 **Jerod Santo:** Sure. I'm more thing about runtime data coming in from a third party, like a fetch call; not from a third party library, but from an API, or from some other microservice or whatever that I'm talking to. And I think I have a contract with that thing, but I don't actually have a contract with anything. And so I find myself doing lots of application-level type checking on the data coming in, like "Does this happen to be null? Because who knows...? Or is it an empty string, but I was expecting a date?" And if TypeScript could fix that at the - I guess like the barrier, or the boundary of my application from third party data, not from third party code, then I'd be like "Oh, that's super-rad." But if it can't, because it's not invoked in production, then I guess it just doesn't solve this other problem that I have, that I'd be like "Oh, it does solve that problem? Now I can have a reason to use it."
 
-\[00:48:31.25\] Because like Nick said, Shaundai, I don't work in enterprise teams. I'm mostly a solo dev, and so I just don't have any of the problems that TypeScript -- I have some of the problems, but very few of them that TypeScript solves. And so I'm never super-motivated to try it. Plus the whole "I can't try it, because I hate it" thing. But if it did this for me, I'd be like "You know what...?"
+\[48:31\] Because like Nick said, Shaundai, I don't work in enterprise teams. I'm mostly a solo dev, and so I just don't have any of the problems that TypeScript -- I have some of the problems, but very few of them that TypeScript solves. And so I'm never super-motivated to try it. Plus the whole "I can't try it, because I hate it" thing. But if it did this for me, I'd be like "You know what...?"
 
 **Nick Nisi:** I think that it gives a medium for solving that problem, but it's still on like the third party API that you're consuming to properly solve that. And one way that they might do that is by just -- the API that you're working with is GraphQL, right? GraphQL you'd be able to get at the schema, and from that - you can generate types automatically from that. So the types become this common layer, that you can at least make your code understand what's coming back... And of course, there can be problems where it's not 100%, or you have an old version of the schema, but you're getting new data somehow, or things like that... But it's better than it used to be, I guess...
 
