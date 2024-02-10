@@ -48,7 +48,7 @@
 
 **Jerod Santo:** Remember data mining? Is data mining something still people talk about?
 
-**Joe Reis:** \[00:09:39.16\] That just gets folded into data engineering or data science now, depending on what you're doing. But you've got to look at how job titles start. It's kind of like if you're a company hiring people, you want to get the sexiest catch-all title you can; if you get too specific, like Oracle Data Miner or something like that, you'll probably get a more specific candidate, but people want the sexy titles. So I think it's kind of how data engineering came about, but as I dug deeper into it, me and my co-author, Matt Housley, what we realized was... I was writing the book, and before, if you were to describe it from first principles, it actually is a thing. It's a real thing, so it's not just a made up title... But we can get into what that real thing is, or at least how we imagine it... But yeah, title-wise though, even as I pointed out in the last chapter of the book, I feel like titles are just one of these things that are constantly evolving in our field, whether you're talking software, or data, or whatever. So it's just - the title today probably won't be the title tomorrow.
+**Joe Reis:** \[09:39\] That just gets folded into data engineering or data science now, depending on what you're doing. But you've got to look at how job titles start. It's kind of like if you're a company hiring people, you want to get the sexiest catch-all title you can; if you get too specific, like Oracle Data Miner or something like that, you'll probably get a more specific candidate, but people want the sexy titles. So I think it's kind of how data engineering came about, but as I dug deeper into it, me and my co-author, Matt Housley, what we realized was... I was writing the book, and before, if you were to describe it from first principles, it actually is a thing. It's a real thing, so it's not just a made up title... But we can get into what that real thing is, or at least how we imagine it... But yeah, title-wise though, even as I pointed out in the last chapter of the book, I feel like titles are just one of these things that are constantly evolving in our field, whether you're talking software, or data, or whatever. So it's just - the title today probably won't be the title tomorrow.
 
 **Adam Stacoviak:** Everything's iterative. It always begins somewhere and goes somewhere else, that's for sure.
 
@@ -90,7 +90,7 @@
 
 **Adam Stacoviak:** For the record, I was against AI in the title. I was all for data. I was like "This has to have data in it." I can recall the arguments. It's a data show, it's data engineering... I didn't see where the puck was going. And thankfully, Dan and Chris were way wiser than I was, because they saw where the puck was going, and they were like "No, we want to talk about practical artificial intelligence. We want to talk about how it actually applies to developers today, even though it's not quite here yet. Where is it gonna really land, and how can we actually use it?" And that was such a wise move on their part.
 
-\[00:14:00.19\] And honestly, that's part of the wisdom of the crowd, so to speak, when it comes to -- you know, Jerod and I run the show around here, and Dan and Chris are not owners necessarily, but they were partners in the long-term endeavor. And we could have certainly "forced our hand" - which we would never do; we don't do that - and push for "No, it's gotta be data. This is not right." And thankfully, we were like "Nah, that makes sense." At least -- I don't know what your position was, Jerod, but I was against AI. I thought "That's not coming. That's not here. What's going on here?"
+\[14:00\] And honestly, that's part of the wisdom of the crowd, so to speak, when it comes to -- you know, Jerod and I run the show around here, and Dan and Chris are not owners necessarily, but they were partners in the long-term endeavor. And we could have certainly "forced our hand" - which we would never do; we don't do that - and push for "No, it's gotta be data. This is not right." And thankfully, we were like "Nah, that makes sense." At least -- I don't know what your position was, Jerod, but I was against AI. I thought "That's not coming. That's not here. What's going on here?"
 
 **Joe Reis:** Okay, so you didn't like it because you were like "This is fantasy land."
 
@@ -118,7 +118,7 @@
 
 **Joe Reis:** It's bigger than what we have here. By a long shot. But every company had some AI story there at that conference. Everybody was an AI company; it didn't matter whether you were selling mops, or something; you'd probably have an AI angle to it. And I was at CES a couple weeks ago. Same thing, AI was the story of the conference. Everything had to have an AI pitch to it.
 
-\[00:17:59.23\] And the other crazy thing was just the sheer amount of Chinese car companies. If you think American car companies are doing cool stuff, like Tesla, I don't think it as much on what China's doing right now in terms of either self-driving or electric. There's just a lot of companies that I've never heard of. Here you know all the companies.
+\[17:59\] And the other crazy thing was just the sheer amount of Chinese car companies. If you think American car companies are doing cool stuff, like Tesla, I don't think it as much on what China's doing right now in terms of either self-driving or electric. There's just a lot of companies that I've never heard of. Here you know all the companies.
 
 **Adam Stacoviak:** There was actually a mention of that I believe in Snacks recently, Jerod, where they were saying that the -- and I'm gonna try and find the name, but there was a Chinese car manufacturer that was actually beating Tesla.
 
@@ -178,7 +178,7 @@ Part of it is I think that this current AI cycle we're in, at least for corporat
 
 **Adam Stacoviak:** What about the skill set and the tooling of a data engineer? What are some of the skills and tools that "a data engineer", or one who you're trying to upskill is trying to get to?
 
-**Joe Reis:** \[00:22:15.19\] Yeah, as we describe it in our book - I'll take a step back and sort of describe what we wrote, the philosophy that we took. So we wanted to -- the types of books that we saw, me and my co-author, that we really didn't about data engineering were like these data engineering on technology X, Y, or Z, or programming language, say Python, or on AWS... Nothing wrong with that, obviously. I think it's great. But the thing is, these are very ephemeral types of books and lessons. You know how fast things change...
+**Joe Reis:** \[22:15\] Yeah, as we describe it in our book - I'll take a step back and sort of describe what we wrote, the philosophy that we took. So we wanted to -- the types of books that we saw, me and my co-author, that we really didn't about data engineering were like these data engineering on technology X, Y, or Z, or programming language, say Python, or on AWS... Nothing wrong with that, obviously. I think it's great. But the thing is, these are very ephemeral types of books and lessons. You know how fast things change...
 
 **Adam Stacoviak:** Yeah, they're stale pretty quickly. If they're too niched, it's just very stale. Yeah.
 
@@ -218,7 +218,7 @@ Now, tools and technologies, I would say, what we try and tell people is -- you 
 
 **Adam Stacoviak:** I'm tempted... Truck tires are pretty expensive.
 
-**Joe Reis:** \[00:26:07.16\] Yeah, they are. But if you want to locally grow your own car tires - I mean, go for it. But there's shops that do this, and people that can install them for you. I mean, I can install car tires just fine. But do I do that every day? No, because I've got other things to do.
+**Joe Reis:** \[26:07\] Yeah, they are. But if you want to locally grow your own car tires - I mean, go for it. But there's shops that do this, and people that can install them for you. I mean, I can install car tires just fine. But do I do that every day? No, because I've got other things to do.
 
 **Adam Stacoviak:** Can you? You can install a car tire?
 
@@ -256,7 +256,7 @@ Now, tools and technologies, I would say, what we try and tell people is -- you 
 
 **Joe Reis:** Yeah. I was talking with a friend of mine this morning on a podcast about just why is it that -- because she wrote a book on becoming a data analyst, and the her question was why is it that data analysts seem to have a disdain for the businesspeople? I was like, "That's an interesting perspective. Business people feel the same way about you probably too, if you have that mindset." So that's what I'm excited about. That's how I view it.
 
-**Break:** \[00:29:03.24\]
+**Break:** \[29:03\]
 
 **Adam Stacoviak:** I'm more curious about this whole disdain.
 
@@ -318,7 +318,7 @@ Now, tools and technologies, I would say, what we try and tell people is -- you 
 
 **Adam Stacoviak:** It's challenging.
 
-**Jerod Santo:** \[00:36:05.04\] It's challenging, but it's easier for small orgs, I think. So here we are, in a small org, and so it's easy for us to have a cohesive mission, and vision, and focus, because there's just not so many people to keep on that same focus. And so we're kind of in our perch here, telling people how to live their lives, but not in large, very complicated org structures in which these things are very difficult.
+**Jerod Santo:** \[36:05\] It's challenging, but it's easier for small orgs, I think. So here we are, in a small org, and so it's easy for us to have a cohesive mission, and vision, and focus, because there's just not so many people to keep on that same focus. And so we're kind of in our perch here, telling people how to live their lives, but not in large, very complicated org structures in which these things are very difficult.
 
 **Joe Reis:** But that's what podcasts are supposed to do. I mean, we're all supposed to pontificate, and...
 
@@ -336,7 +336,7 @@ Now, tools and technologies, I would say, what we try and tell people is -- you 
 
 **Adam Stacoviak:** There's a little framework I want to share too, on this note of keeping things in the right direction, that I learned probably a decade ago... And it's actually - I believe, it comes from a restauranteur, that was like the salt shaker theory of leadership. And basically, it boils down to constant, gentle pressure. And so imagine that you are the leader of a restaurant, and you like your tables set a certain way. And the mission of the staff, who is on the front side, is supposed to keep that table set the right way. Salt shaker goes here, pepper goes there, napkins over here etc. Now, are you gonna get upset and scream at these people when they get it wrong? No. You're gonna constantly apply gentle pressure. Hey, by the way, this is how it's done. This is how we do it. Hey, by the way, this is how it's done. This is how we do it. Every time there's a mishap, it's not freak out, "Oh my gosh, you're fired", "Oh, what are you doing?" It's just constant, gentle pressure on the mission, on the standards, on the requirements of excelling at the business we've decided to build. And they're participants and partners in that mission, and so you have to treat them like participants and partners, and that's where the constant and the gentle comes in. But it is pressure. You can't let off. It has to be constant. But it has to be gentle, I think. And that relates to the side of being respectful, and with a version of love or empathy for the people that you've chosen to work with you.
 
-\[00:39:49.11\] Now, in that constant gentle pressure framework, if it's a constant with a particular individual, maybe at that point the gentle pressure is no longer working, and you have to apply a different thing, which is maybe "There's no longer a reason for you to be here, because you don't understand our mission. I've tried to be constant and gentle, to apply the pressures of our business to you, and it's not working, so therefore we part ways." But I think that's a lesson I learned a while back, and it's like, every time I've been in a leadership position, and I have to redirect the mission, it's been constant, gentle pressure. Not "You jerk" or "You bad person", or any sort of like negative thing you can ever think of. Jerod what was the last time I yelled at you? Like, never, right? I've never yelled at you.
+\[39:49\] Now, in that constant gentle pressure framework, if it's a constant with a particular individual, maybe at that point the gentle pressure is no longer working, and you have to apply a different thing, which is maybe "There's no longer a reason for you to be here, because you don't understand our mission. I've tried to be constant and gentle, to apply the pressures of our business to you, and it's not working, so therefore we part ways." But I think that's a lesson I learned a while back, and it's like, every time I've been in a leadership position, and I have to redirect the mission, it's been constant, gentle pressure. Not "You jerk" or "You bad person", or any sort of like negative thing you can ever think of. Jerod what was the last time I yelled at you? Like, never, right? I've never yelled at you.
 
 **Jerod Santo:** Right.
 
@@ -366,7 +366,7 @@ We see this a lot these days too with engineering teams and data teams, especial
 
 **Jerod Santo:** Well, I think there's a lot of trepidation right now. There's a lot of people who are hoping that the tide has turned, or is starting to turn back towards the thriving life of software engineers... Because it's been a rough 18 months, and they're still to this day -- we just had Justin Garrison on the show talking about Amazon's silent sacking... And really this trend of large orgs, not even laying off employees, but just either making their lives miserable via mandatory return to office things, or removing roles that no longer exist, and no leadership in how you're gonna find a new role. You're not fired, but they just want you to quit. Basically, kind of making it so that you quit. It's definitely a thing that we're hearing about. And a lot of people have either DM-ed, or raised their hand, or liked when that kind of a post goes out, because they had a similar experience that Justin put out there, and we talked to him about that. Those are the big trends.
 
-\[00:44:00.19\] I think there's slight hopefulness that the layoffs are kind of waning, and the market is recovering... And there's a hope that the interest rate hikes are over, and perhaps we'll have some cuts next year, and things will kind of return to the way that they were... I don't think they're ever gonna be what they were during the peak of the bubble. Maybe someday, but... That probably wasn't healthy, and so this is the ramifications of that. So do you want that to be the case? I don't know... That's what I'm hearing.
+\[44:00\] I think there's slight hopefulness that the layoffs are kind of waning, and the market is recovering... And there's a hope that the interest rate hikes are over, and perhaps we'll have some cuts next year, and things will kind of return to the way that they were... I don't think they're ever gonna be what they were during the peak of the bubble. Maybe someday, but... That probably wasn't healthy, and so this is the ramifications of that. So do you want that to be the case? I don't know... That's what I'm hearing.
 
 **Joe Reis:** Interesting.
 
@@ -402,7 +402,7 @@ A thing that set me off the other day was on LinkedIn they had these AI-generate
 
 **Joe Reis:** Yeah. Are you going to go read that?
 
-**Jerod Santo:** \[00:47:55.03\] That's the hard part for me, because I 100% agree with you... And I get quite curmudgeonly about it. And I think - even just yesterday, Nick Nisi from our JS Party podcast posted some AI-generated rap song into our channel about me and TypeScript, or whatever... And yeah, it was cute. He said, "Finally, a good use of AI." And he's just joking, we're having fun... And my response was like "This is C+ rap. This rap is not good rap. It's barely entertaining. It's funny that you applied it to me and TypeScript. That's what made it funny, was your creativity." It's C+ content, and that's what you're talking about, very mediocre. It passed the class, but it's not going to change anybody's life; it's not going to be outstanding, or excellent, or any of the things that we desire in great art.
+**Jerod Santo:** \[47:55\] That's the hard part for me, because I 100% agree with you... And I get quite curmudgeonly about it. And I think - even just yesterday, Nick Nisi from our JS Party podcast posted some AI-generated rap song into our channel about me and TypeScript, or whatever... And yeah, it was cute. He said, "Finally, a good use of AI." And he's just joking, we're having fun... And my response was like "This is C+ rap. This rap is not good rap. It's barely entertaining. It's funny that you applied it to me and TypeScript. That's what made it funny, was your creativity." It's C+ content, and that's what you're talking about, very mediocre. It passed the class, but it's not going to change anybody's life; it's not going to be outstanding, or excellent, or any of the things that we desire in great art.
 
 Then I asked myself, "But am I just looking at today's AI-generated content?" And I'm correct - you guys can correct me if I'm wrong, but I think we're agreeing - that it's C+ content. But it's going to be B+ in '25, it's gonna be B-... No, that's worse than B+. It's gonna be A-... You know, it's going to get to where now it's indistinguishable from magic, and then we're not going to be able to distinguish. We're just seeing it in its infancy, and it's going to be so much better quickly. And I don't know the answer to that. Is it going to be so much better quickly? Maybe, Joe, you know more than we do.
 
@@ -428,7 +428,7 @@ So I'm a humanist. I want to be touched and loved by other humans, not non-human
 
 **Adam Stacoviak:** Yeah, I think it knows. That's because I do find it helpful. At the same time, I'm not -- I suppose... Okay, that does make sense... But I think it's because I long for what seems like, okay? ...maybe "seems like" is better placed in there; it seems like human interaction. And because ChatGPT - I mean, it doesn't respond to me. Like, it loves me back, or anything like that, so I'm not in the movie Her here...
 
-\[00:51:31.03\]
+\[51:31\]
 
 *"I'm sorry to wake you."*
 
@@ -448,7 +448,7 @@ So I'm a humanist. I want to be touched and loved by other humans, not non-human
 
 **Adam Stacoviak:** I am still interacting with it... I'm just being polite, because I'm just a polite person. I can't help it, it's my nature. But it's because I longed for humanistic touch. I suppose I anthropomorphize the thing, and make it feel more human that it actually obviously is not... Because the desire in my humanistic ways is for human touch.
 
-**Jerod Santo:** \[00:52:15.23\] Hm... So you want your podcasts created by humans.
+**Jerod Santo:** \[52:15\] Hm... So you want your podcasts created by humans.
 
 **Adam Stacoviak:** Oh, yeah. For sure.
 
@@ -478,7 +478,7 @@ We've seen that recent politician in Davos happened - like, that was super-cool.
 
 **Adam Stacoviak:** That's right, yeah.
 
-**Jerod Santo:** \[00:55:35.06\] Well, maybe more hopeful than that. I've likened it to handmade goods... Which are still the world of the wealthy, because you can afford to pay more for this kitchen table, than the one that's at IKEA. But there's nothing wrong with the one that IKEA makes. That's the manufactured, AI version of the content. But there's still going to be a marketplace, I think, for people who are like "You know what? This was made by this guy who lives 10 miles up the road, and it took him three months, and I paid a premium for it... But I'm willing to, because it was made by a person, and I know the story." That is a thing that very much exists today inside of furniture making and stuff, and I'm wondering if that will be how content online becomes as well.
+**Jerod Santo:** \[55:35\] Well, maybe more hopeful than that. I've likened it to handmade goods... Which are still the world of the wealthy, because you can afford to pay more for this kitchen table, than the one that's at IKEA. But there's nothing wrong with the one that IKEA makes. That's the manufactured, AI version of the content. But there's still going to be a marketplace, I think, for people who are like "You know what? This was made by this guy who lives 10 miles up the road, and it took him three months, and I paid a premium for it... But I'm willing to, because it was made by a person, and I know the story." That is a thing that very much exists today inside of furniture making and stuff, and I'm wondering if that will be how content online becomes as well.
 
 **Joe Reis:** It's a good question. I was talking to some influencers yesterday, people who get paid to do sponsored posts, and I think their biggest question is "Okay, so at what point are we kind of automated \[unintelligible 00:56:24.10\] on what we do." It's an interesting one. I don't know where this all goes... I mean, I'm quite excited about it in some ways. It reminds me of the -- I think we're all about the same age, I'm guessing, but we were all around when the web Information Superhighway came into existence...
 
@@ -492,7 +492,7 @@ We've seen that recent politician in Davos happened - like, that was super-cool.
 
 **Joe Reis:** I don't know.
 
-**Break:** \[00:56:54.24\]
+**Break:** \[56:54\]
 
 **Adam Stacoviak:** I think I've heard of folks generating movies, or like alternate versions, like fan art in a way... Even that is kind of cool to me, because a human directed the AI to do something. And the AI produced it, but in such a fast amount of time in comparison to a human, who would never spend their time doing the fan art version of it. Or a scene. Redoing a scene in a different style, with different music, via an AI's help. I mean, that's where the line really gets blurred.
 
