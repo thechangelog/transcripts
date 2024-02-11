@@ -162,7 +162,7 @@
 
 **Adam Stacoviak:** It goes straight up -- how would you describe it? Like you're in it. It's not VR anymore, it's like connected to your brain... And they call it the ONI headset, but they just really call it ONI. So I feel like the Apple Vision Pro is like the precursor to our fiction turned reality, I suppose... You know what I mean? it's going to influence that. this is like the original Oasis headset moment. I'm waiting for the ONI headset.
 
-**Nick Nisi:** \[00:06:11.16\] Oh, yeah.
+**Nick Nisi:** \[06:11\] Oh, yeah.
 
 **Adam Stacoviak:** You know what I'm saying? You can unplug now. You're good. Jerod was plugging his ears. He don't wanna ruin it.
 
@@ -264,7 +264,7 @@ of balls.
 
 **Jerod Santo:** ...alternate rendering engines, only in the EU, but - that seems like it's probably good enough to at least get all the benchmarks out there, and see if WebKit on iOS, Safari on iOS is actually slow. I've always thought it was pretty snappy... I mean, as the phones have gotten real fast. But who knows? Maybe they're intentionally keeping it slow, so that their app store is more flourishing... Once we can have alternate rendering engines, even if we don't use them here in the States, the benchmarks will be out there, and that I think will spur them on to make it fast.
 
-**Adam Stacoviak:** \[00:10:28.17\] It'll push the innovation, for sure. Yeah, I suppose that's true. It might actually influence Apple to allow us to have that, if there is innovation that comes from the act of choice, right?
+**Adam Stacoviak:** \[10:28\] It'll push the innovation, for sure. Yeah, I suppose that's true. It might actually influence Apple to allow us to have that, if there is innovation that comes from the act of choice, right?
 
 **Jerod Santo:** Well, I think just the embarrassment of it will be enough.
 
@@ -384,7 +384,7 @@ of balls.
 
 **Jerod Santo:** Have you ever declared bankruptcy and started over?
 
-**Adam Stacoviak:** \[00:14:14.02\] Oh, yeah. At least once a year.
+**Adam Stacoviak:** \[14:14\] Oh, yeah. At least once a year.
 
 **Nick Nisi:** You at least have the badge hidden, right?
 
@@ -456,7 +456,7 @@ of balls.
 
 **Nick Nisi:** Yes. I think the bigger problem with Obsidian though is there's so much reliance on plugins. And there are fantastic plugins in there... But you're relying on all of these third-party devs, who -- for example, the calendar plugin; it broke for me, and I had to completely uninstall it and reinstall it. And that's relied upon by like periodic notes, and like these other plugins... And I went and looked, I'm like "Why did this break?" I have no idea.
 
-\[00:18:06.12\] This plugin has not been touched in three years. And it's like a pivotal plugin. So the rot of plugins, and the proprietary nature of like "Oh, I'm gonna build this data view thing, which is like an SQL type thing", that's a third-party thing, and if they stop supporting that at some point... Like, I've got all these notes with this...
+\[18:06\] This plugin has not been touched in three years. And it's like a pivotal plugin. So the rot of plugins, and the proprietary nature of like "Oh, I'm gonna build this data view thing, which is like an SQL type thing", that's a third-party thing, and if they stop supporting that at some point... Like, I've got all these notes with this...
 
 **Adam Stacoviak:** That's kind of where I keep my -- it's not a dashboard for me, it's just more like my thinking. Notes, thinking... Sponsor data is in there. Reads... Everything, all the stuff. And I just keep it simple. I focus on tags to get around, titling... And I love the search features. Like, Cmd+O just to get to whatever, and start searching for things.
 
@@ -550,7 +550,7 @@ of balls.
 
 **Adam Stacoviak:** That's it?
 
-**Jerod Santo:** \[00:22:00.07\] And then I Cmd+O, I Cmd+T, I CMD+N... And I hit the Today Note thing...
+**Jerod Santo:** \[22:00\] And then I Cmd+O, I Cmd+T, I CMD+N... And I hit the Today Note thing...
 
 **Nick Nisi:** The most important thing though, do you look at your graph?
 
@@ -648,7 +648,7 @@ of balls.
 
 **Nick Nisi:** I looked at them at least, and I was like "Oh, that is kind of cool." The main one that I got out of that was one called Folder Notes. So if you do use folders - I have some folders in there - you can set "When I click on this folder, this is the note that opens, so that I can have a work dashboard, and I can just click on the folder and I see that." It's like really simple. Oh, he's downloading it...
 
-**Jerod Santo:** \[00:25:58.11\] \[laughs\]
+**Jerod Santo:** \[25:58\] \[laughs\]
 
 **Adam Stacoviak:** No... My wife is texting me.
 
@@ -738,7 +738,7 @@ I don't know for sure, but what I've seen in the past is like cool plugins - the
 
 **Jerod Santo:** Based on the installs, or what?
 
-**Adam Stacoviak:** \[00:30:14.26\] I'm thinking like how could they do that, but I think -- that's one idea. But then I'm thinking, "Well, how do they actually make money?" And I think the main way they make money is from their sync.
+**Adam Stacoviak:** \[30:14\] I'm thinking like how could they do that, but I think -- that's one idea. But then I'm thinking, "Well, how do they actually make money?" And I think the main way they make money is from their sync.
 
 **Nick Nisi:** Yup.
 
@@ -784,7 +784,7 @@ I don't know for sure, but what I've seen in the past is like cool plugins - the
 
 **Nick Nisi:** Yeah. They're working on actually being able to collaborate better between -- right now I share a vault with somebody, and we can both be in there, editing the same document... And it works. But it's like, he typed something, and then five seconds later, it shows up on my screen. So it's not like Google Docs, real-time. If they added something more like that... Because that's like a powerful feature of Notion, too; we can collaborate and we can be on the same thing and just do it, and it's all gonna be there, and it's gonna be fine.
 
-**Adam Stacoviak:** And maybe even like an adaption strategy for them could be to open-source what is a basic Sync Server, right?
+**Adam Stacoviak:** And maybe even like an adaption strategy for them could be to open source what is a basic Sync Server, right?
 
 **Nick Nisi:** Oh, yeah.
 
@@ -828,7 +828,7 @@ I don't know for sure, but what I've seen in the past is like cool plugins - the
 
 **Adam Stacoviak:** Please do.
 
-**Jerod Santo:** \[00:34:08.27\] Is there no value in ephemeral? Is there nothing worth forgetting? Is everything have to be remembered all the time to be worth anything?
+**Jerod Santo:** \[34:08\] Is there no value in ephemeral? Is there nothing worth forgetting? Is everything have to be remembered all the time to be worth anything?
 
 **Adam Stacoviak:** That's just too deep, man...
 
@@ -978,7 +978,7 @@ I don't know for sure, but what I've seen in the past is like cool plugins - the
 
 **Nick Nisi:** I've written 30 lines of Python in my life, I think. It was for a Raspberry Pi, to control the breadboard, to control a camera to take pictures. I made a wedding photobooth thing... And I wrote 30 lines of Python.
 
-**Jerod Santo:** \[00:38:10.00\] And did you enjoy it?
+**Jerod Santo:** \[38:10\] And did you enjoy it?
 
 **Nick Nisi:** It worked.
 
@@ -1058,7 +1058,7 @@ I don't know for sure, but what I've seen in the past is like cool plugins - the
 
 **Adam Stacoviak:** Ugh...
 
-**Break**: \[00:40:03.23\]
+**Break**: \[40:03\]
 
 **Amy Dutton:** So I need to hear about the tab game.
 
@@ -1218,7 +1218,7 @@ I don't know for sure, but what I've seen in the past is like cool plugins - the
 
 **Adam Stacoviak:** I'm with you. I can empathize.
 
-**Jerod Santo:** \[00:50:12.02\] So you can just say more or less that Adam's tabs. That's all we need to know.
+**Jerod Santo:** \[50:12\] So you can just say more or less that Adam's tabs. That's all we need to know.
 
 **Amy Dutton:** Less.
 
@@ -1392,7 +1392,7 @@ I don't know for sure, but what I've seen in the past is like cool plugins - the
 
 **Amy Dutton:** I mean, that's the other part, how you rack up on them is when you have the redirects. I mentioned goodlookingemail.com and goodlooking.email, just make sure that --
 
-**Jerod Santo:** \[00:54:10.13\] Yeah, that's two for one. Right.
+**Jerod Santo:** \[54:10\] Yeah, that's two for one. Right.
 
 **Amy Dutton:** Yeah.
 
@@ -1482,7 +1482,7 @@ I don't know for sure, but what I've seen in the past is like cool plugins - the
 
 I was also hopeful that our friends at .tech would just reimburse me via sponsorship, because we've worked with them before, and I told them about that... So I'm sure if we did something --
 
-**Jerod Santo:** \[00:58:05.10\] Did they say no?
+**Jerod Santo:** \[58:05\] Did they say no?
 
 **Adam Stacoviak:** No. They said "Next time we sponsor, we'll make sure it happens."
 
