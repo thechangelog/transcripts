@@ -66,7 +66,7 @@ It's also [open source](https://github.com/microsoft/sudo), which is how I know 
 
 **Jerod Santo:**
 
-Tatu Ylonenqqq, author of the original SSH, tells the tale of how they got SSH to be port 22.
+Tatu Ylonen, author of the original SSH, tells the tale of how they got SSH to be port 22.
 
 > I wrote the initial version of SSH (Secure Shell) in Spring 1995. It was a time when telnet and FTP were widely used.
 >
