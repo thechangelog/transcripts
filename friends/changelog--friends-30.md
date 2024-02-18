@@ -114,7 +114,7 @@
 
 **Adam Stacoviak:** So it must be something that. I don't know.
 
-**Samuel Goff:** \[00:06:09.03\] Exactly. So I discovered this fairly recently... And of course, I use logic, and I use a bunch of other stuff, but this is exciting to me, because it would allow me to take and experiment. If I want to experiment with music - yes, I can perform everything from scratch. But it'd be really awesome to be able to isolate, let's say, just a Billy Cobham beat from an old recording. Or a little funk bass, or whatever. Be able to feed that in as a seed... Here's my frustration about -- okay, I'm so deprived with caffeine, I'm going to just jump around topics.
+**Samuel Goff:** \[06:09\] Exactly. So I discovered this fairly recently... And of course, I use logic, and I use a bunch of other stuff, but this is exciting to me, because it would allow me to take and experiment. If I want to experiment with music - yes, I can perform everything from scratch. But it'd be really awesome to be able to isolate, let's say, just a Billy Cobham beat from an old recording. Or a little funk bass, or whatever. Be able to feed that in as a seed... Here's my frustration about -- okay, I'm so deprived with caffeine, I'm going to just jump around topics.
 
 **Adam Stacoviak:** Pause. Take a drink.
 
@@ -166,7 +166,7 @@
 
 **Jerod Santo:** What do you think explains the gap between what you wish existed, and what actually exists today? What explains that?
 
-**Samuel Goff:** \[00:10:01.21\] Audio content is not as popular, at least on Twitter, and a lot of other social media platforms. I think the visual catches people's eye. It's eye candy. Video and still image format is easiest to gobble up attention. And so right now, I think we're seeing a distortion in the pursuit of different areas of AI based on what gets engagement on social media. So whatever is most popular is going to be incentivized. So I think, eventually, we will get there with generative AI for musicians and recording artists, but...
+**Samuel Goff:** \[10:01\] Audio content is not as popular, at least on Twitter, and a lot of other social media platforms. I think the visual catches people's eye. It's eye candy. Video and still image format is easiest to gobble up attention. And so right now, I think we're seeing a distortion in the pursuit of different areas of AI based on what gets engagement on social media. So whatever is most popular is going to be incentivized. So I think, eventually, we will get there with generative AI for musicians and recording artists, but...
 
 **Jerod Santo:** Yeah. I was gonna say, music is pretty popular. I don't disagree with you, but man, you'd think that music would be coming up next, or high on the hit list for what gets attention.
 
@@ -210,7 +210,7 @@
 
 **Jerod Santo:** Yeah, there are no longer compact discs. Now you write music in order to bring people to your tour. It's completely the opposite.
 
-**Samuel Goff:** \[00:13:51.27\] Exactly.
+**Samuel Goff:** \[13:51\] Exactly.
 
 **Adam Stacoviak:** Which i not a fun lifestyle, right?
 
@@ -256,7 +256,7 @@
 
 **Jerod Santo:** Sure.
 
-**Samuel Goff:** \[00:18:10.14\] I think I have faith that people are going to have to evolve past where they are right now in terms of their sophistication of their media consumption. We're gonna have to get to a place where we're more intentional about the diet of the mind that we feed ourselves. Because right now, everybody is competing for everybody's attention. It's all about manipulating, and bludgeoning people into giving up their attention, whether it's for a minute or an hour, and then reinforcing that habit, and then monetizing it.
+**Samuel Goff:** \[18:10\] I think I have faith that people are going to have to evolve past where they are right now in terms of their sophistication of their media consumption. We're gonna have to get to a place where we're more intentional about the diet of the mind that we feed ourselves. Because right now, everybody is competing for everybody's attention. It's all about manipulating, and bludgeoning people into giving up their attention, whether it's for a minute or an hour, and then reinforcing that habit, and then monetizing it.
 
 So something has to change. This is not sustainable in the long term. And that's the beauty of how human beings and living systems evolve... You push things beyond a breaking point; you push things into a problem state, and something changes. And either it changes in a way that you hoped for, or it changes and you're just going to be left with the repercussions. And it might not be something that you would hope for... In fact, it might be the very thing that you fear. But that's the thing about equilibrium. When you stress people, when you put people into a situation where it's unsustainable, something has to change.
 
@@ -310,7 +310,7 @@ So something has to change. This is not sustainable in the long term. And that's
 
 **Adam Stacoviak:** Not necessarily... \[laughter\] I would go on TikTok when I should be --
 
-**Jerod Santo:** \[00:21:56.23\] When you're going to bed. Before bed.
+**Jerod Santo:** \[21:56\] When you're going to bed. Before bed.
 
 **Adam Stacoviak:** Right. It's a reading thing. So instead --
 
@@ -346,7 +346,7 @@ So something has to change. This is not sustainable in the long term. And that's
 
 **Adam Stacoviak:** Tucker Carlson, love him or hate him, he was on a debate with one of the Young Turks hosts recently. I saw it, and I think the headline was Tucker Carlson beats this guy, dunks on him basically; demolishes him, from an argument standpoint. But one thing he said was about government - and this is kind of getting political to some degree, but he was saying about government, and he was saying in no time in history have we ever had a private company be more financially stable and well-funded than our government is, and how much power Google in particular, you mentioned, has. We've never had the algorithm, the search algorithm be so in control of society, that we can be -- you just said, your results are different than your uncle, or your aunt, or whomever... That we all have this sort of -- they have just so much power over what we can see, and what our filters are, and what our bubbles are, and our spectrums are...
 
-\[00:26:33.14\] These are private companies, that are for profit, and they could be good, or they could be evil. But that's something that we've never really experienced in all of human history, having so much power, and yet when I go into Safari on my iPhone, and I search something, whether it's a product, I'm looking for something at Home Depot or whatever, it begins with a Google search, in a lot of cases.
+\[26:33\] These are private companies, that are for profit, and they could be good, or they could be evil. But that's something that we've never really experienced in all of human history, having so much power, and yet when I go into Safari on my iPhone, and I search something, whether it's a product, I'm looking for something at Home Depot or whatever, it begins with a Google search, in a lot of cases.
 
 **Jerod Santo:** Or you're asking ChatGPT, which is a different company, but in the same scenario, right?
 
@@ -378,7 +378,7 @@ So something has to change. This is not sustainable in the long term. And that's
 
 So I think the solution is for us to trust our eyes and ears less, and start going back to original sources, and get to a place where we can actually trust the information that we see and hear and consume. And we need immediacy of that in our media, and in every other source, where as you're consuming something, there's a way for you to evaluate "Hey--" Almost a real-time fact checker. And I feel as if this is where AI could be unleashed, to give people contextualization of the information. Because you look at Twitter; somebody says something outrageous. Eventually, community notes will come in there and say "Oh, by the way, you're missing this crucial context, which basically flips --"
 
-**Jerod Santo:** \[00:30:24.08\] Flips the narrative.
+**Jerod Santo:** \[30:24\] Flips the narrative.
 
 **Samuel Goff:** ...flips the narrative, so the thing that you agreed with and liked and shared got completely turned upside down. Imagine if you could have that kind of accountability to a broader context, in real time. And up until now, it required people who are experts, or people who are freaks of nature who just happen to have certain subjects memorized, so that they could provide that accountability, and they had to be available, and their attention had to be trained on that. But imagine if you had AIs that can provide that for you, and provide that accountability in real time, and actually reduce disinformation, before the disinformation has actually had a chance to do its damage.
 
@@ -416,7 +416,7 @@ done.
 
 **Adam Stacoviak:** It's definitely not a headline.
 
-**Jerod Santo:** \[00:33:49.05\] And the headline has been consumed and moved on from already, and the correction gets a tenth, a hundredth of the viewership as the wrong thing was... So that also is -- maybe AIs can help with that as well. I don't know.
+**Jerod Santo:** \[33:49\] And the headline has been consumed and moved on from already, and the correction gets a tenth, a hundredth of the viewership as the wrong thing was... So that also is -- maybe AIs can help with that as well. I don't know.
 
 **Samuel Goff:** It gets even more interesting when you look at the reproducibility issue in scientific publications. Because that's where the economic incentives are even more distorted, because it's publish or perish in that world. So if you're not publishing, then you're not gonna get funded, and you're not gonna have any means to be able to actually continue your research. So the incentive is to actually continue to publish, publish, publish, and if there's a retraction, it's an afterthought. And the thing I'll never forget is there's a gentleman - I think he was out of Stanford, and he founded something called The Reproducibility -- Retraction Watch, that's what it was called. But basically, what they discovered is over 50% of the landmark studies that have been done on the subject of cancer are not reproducible. And so you have huge companies spending billions of dollars on trying to cure cancer, or treat cancer more effectively, but over half of what they thought they could count on, is actually not reproducible. And it's kind of frightening when you think it.
 
@@ -456,7 +456,7 @@ done.
 
 **Jerod Santo:** What do you think would break, or what would be that potentially look like? Obviously, you can't tell the future, but what would that look like?
 
-**Samuel Goff:** \[00:38:08.19\] Well, I can look at the recent past. I can remember what happened on January 6th, and you had an attempted coup.
+**Samuel Goff:** \[38:08\] Well, I can look at the recent past. I can remember what happened on January 6th, and you had an attempted coup.
 
 **Jerod Santo:** Yeah, I could see a post-election serious problem, breaking point.
 
@@ -518,7 +518,7 @@ Something will change, either by our design, or because we have no choice, becau
 
 **Adam Stacoviak:** Totally. Because you can fake consensus, essentially.
 
-**Samuel Goff:** \[00:41:57.16\] Exactly.
+**Samuel Goff:** \[41:57\] Exactly.
 
 **Jerod Santo:** Well, this is why the Bitcoiners go back to Bitcoin. They say it's the longest-standing, most diverse, secure blockchain there is, because of how much value is there, and how long it's been not broken.
 
@@ -566,7 +566,7 @@ So what's happening here in Texas is a bunch of Bitcoin miners set up in the oil
 
 **Adam Stacoviak:** We need a better harness the most available energy source ever, and that's solar. All the things that the Earth provides as its natural ways. I'm for Bitcoin. I understand the whole "It sucks a bunch of energy", but let's be humans and innovate and find ways around the dirty ways. And again, to Jerod's point, I don't know a ton about energy necessarily, but at the same time, the word I feel is more hybrid.
 
-\[00:46:14.27\] There's places where something Diesel-powered will trump, for the moment, the output of something that is electric-powered. Or LiPo battery-powered, or whatever it might be-powered. The world is more hybrid. I think we need balance, rather than cut-off.
+\[46:14\] There's places where something Diesel-powered will trump, for the moment, the output of something that is electric-powered. Or LiPo battery-powered, or whatever it might be-powered. The world is more hybrid. I think we need balance, rather than cut-off.
 
 **Samuel Goff:** Interesting.
 
@@ -584,7 +584,7 @@ The other thing is, I've actually invented a blockchain-based technology that ge
 
 So the concept was to basically take some of the brains of the Internet where it's self-configuring, it's able to automatically discover the capabilities of all the different devices around it, and it can also self-heal. So take that resiliency and put it into an electrical grid. So when you hook up your solar panels, you don't have to go through all of the government red tape, and the solar panels communicate with the local electrical grid, using Blockchain as a way to actually preserve a historical record of the capabilities of the production of that system.
 
-\[00:50:03.28\] So first of all, the right people get paid, but also, that's more valuable to the grid, to know what that system is capable of historically. And then also to move more intelligence away from a command and control structure, and move more intelligence into the nodes around the electrical grid. So if there's a terrorist attack, or if there's a natural disaster, it becomes far more resilient, more secure, more fault-tolerant, and it's able to respond much faster than one person, Homer Simpson, watching a dial and adjusting levers and knobs... You can actually automate a lot of that stuff in the way that a lot of the internet, the backbone of the internet is actually capable of self-healing and rerouting traffic. You can do the same with electricity.
+\[50:03\] So first of all, the right people get paid, but also, that's more valuable to the grid, to know what that system is capable of historically. And then also to move more intelligence away from a command and control structure, and move more intelligence into the nodes around the electrical grid. So if there's a terrorist attack, or if there's a natural disaster, it becomes far more resilient, more secure, more fault-tolerant, and it's able to respond much faster than one person, Homer Simpson, watching a dial and adjusting levers and knobs... You can actually automate a lot of that stuff in the way that a lot of the internet, the backbone of the internet is actually capable of self-healing and rerouting traffic. You can do the same with electricity.
 
 **Jerod Santo:** Tell us more. Or tell us where we can learn more about that.
 
@@ -620,7 +620,7 @@ So the concept was to basically take some of the brains of the Internet where it
 
 **Adam Stacoviak:** For a good week, at least.
 
-**Samuel Goff:** \[00:53:50.13\] So the interesting thing about it though is that the ERCOT was built by the same people who built Enron. Okay? So the people whose theory is "Well, let's just turn it into a free market experiment. Let's see what happens." Well, the thing is, the free market -- free market pixie dust is not a cure for every ill. Okay? So just because you sprinkle free market pixie dust on an energy grid doesn't mean that it's always going to produce better results. And in the case of the winter, a couple/few years ago, it has disastrous impacts. But the interesting thing is, at the same time that ERCOT was collapsing, you have the panhandle of Texas, you've got El Paso, which are on neighboring grids - both of them were sustainable, and they survived all of those cold snaps because they had a larger grid, and the fundamentals of the grid are completely different than how ERCOT operates.
+**Samuel Goff:** \[53:50\] So the interesting thing about it though is that the ERCOT was built by the same people who built Enron. Okay? So the people whose theory is "Well, let's just turn it into a free market experiment. Let's see what happens." Well, the thing is, the free market -- free market pixie dust is not a cure for every ill. Okay? So just because you sprinkle free market pixie dust on an energy grid doesn't mean that it's always going to produce better results. And in the case of the winter, a couple/few years ago, it has disastrous impacts. But the interesting thing is, at the same time that ERCOT was collapsing, you have the panhandle of Texas, you've got El Paso, which are on neighboring grids - both of them were sustainable, and they survived all of those cold snaps because they had a larger grid, and the fundamentals of the grid are completely different than how ERCOT operates.
 
 So here's the thing... The thing that a lot of people use as a reason not to switch over faster to renewables - they say, "Oh, well, the sun doesn't always shine, the wind doesn't always blow." Well, here's the thing. That only applies if you have tunnel vision. If you're zoomed in so close to your point of reference, that that's the only thing you're looking at. If you zoom out, all of a sudden you notice that -- if you could look at the entire globe at once, the sun is always shining somewhere, and it is always blowing somewhere. And if you can basically generate energy on a large enough scale, and then ship that energy, using the magic of science and three-phase electricity, you can ship that energy anywhere. I mean, within reason.
 
@@ -630,7 +630,7 @@ So here's the thing... The thing that a lot of people use as a reason not to swi
 
 So I understand the idea of "Well, we can't just throw a switch and cut it off." However, every time somebody spends billions of dollars building new nuclear, I look at that and go "Yeah, well, we could do that in order to get X amount of generation capacity." Or, if you took all that money that was spent on nuclear, or a natural gas plant, or anything else, switch it over to grid scale, solar and wind, with just a little bit of storage, we could build 5-10 times as much. Well, if we had five or ten times as much as we actually needed - that's called over-provisioning. Here's the thing - if you generate two, five, ten times more energy than you actually need, you don't need to store nearly as much of it. So your costs of storage actually go down vastly. But with just a little bit of storage, and a little bit of over-provisioning, we could be switching over to renewables in a matter of just a few years. Like, literally, we have all the technology. We don't have to have more research. Literally, we can take off-the-shelf solutions right now, and it would actually save us money. Because everywhere that this has been done, the cost of electricity actually goes down, the grid becomes more reliable.
 
-\[00:58:19.10\] Look at what Tesla did with their massive battery that they installed in Australia. They said, "We can do this in--" I can't remember what it was; under three months. It turned out they did it in 90 days, or something that. So they basically said "We can stabilize the Australian power grid during the worst of the summer months." And it did. They stabilized it; they were able to install it within 90 days or something that, and their cost of energy actually went down, because it's more reliable. And all of your equipment lasts longer because of that. All your heavy machinery, and stuff that... If you have a brownout, or if you have an interruption to your power supply, that's really freaking expensive. I'm sorry, I'm a nerd... \[laughs\]
+\[58:19\] Look at what Tesla did with their massive battery that they installed in Australia. They said, "We can do this in--" I can't remember what it was; under three months. It turned out they did it in 90 days, or something that. So they basically said "We can stabilize the Australian power grid during the worst of the summer months." And it did. They stabilized it; they were able to install it within 90 days or something that, and their cost of energy actually went down, because it's more reliable. And all of your equipment lasts longer because of that. All your heavy machinery, and stuff that... If you have a brownout, or if you have an interruption to your power supply, that's really freaking expensive. I'm sorry, I'm a nerd... \[laughs\]
 
 **Adam Stacoviak:** I love the rant. I just wish it would happen. I feel maybe in the case of that being effective, not necessarily at the end of this session, but Elon himself might pose a risk to that, because he's so bombastic. He's so polarizing...
 
