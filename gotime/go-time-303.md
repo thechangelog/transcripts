@@ -48,7 +48,7 @@ Okay, Team zero over here. We have Wiktor, Diana and Grzeg. Wiktor, tell us, wha
 
 **Valentin Michaluk:** Yeah, I wanted to just say Rust.
 
-**Mat Ryer:** \[00:06:05.18\] Rust. Gophers say? \[win alert\] Yes, it's on there, but it's in the final position. Only five people said it. That means Team Zero gets control of the board. Diana, it's your turn next to have a guess. What's your favorite non-Go programming language? What did they say?
+**Mat Ryer:** \[06:05\] Rust. Gophers say? \[win alert\] Yes, it's on there, but it's in the final position. Only five people said it. That means Team Zero gets control of the board. Diana, it's your turn next to have a guess. What's your favorite non-Go programming language? What did they say?
 
 **Diana Shevchenko:** Python.
 
@@ -108,7 +108,7 @@ Okay, Team zero over here. We have Wiktor, Diana and Grzeg. Wiktor, tell us, wha
 
 **Wiktor Jurkiewicz:** Log info.
 
-**Mat Ryer:** \[00:09:58.00\] Log info. Let's see - to steal least points, is log info on the board? Gophers say... \[fail alert\] No, I'm afraid not. So team one wins those points. Congratulations team one. \[applause\]
+**Mat Ryer:** \[09:58\] Log info. Let's see - to steal least points, is log info on the board? Gophers say... \[fail alert\] No, I'm afraid not. So team one wins those points. Congratulations team one. \[applause\]
 
 So in top position we had main. 25 people said that. Then fmt.Println was in second position, with 12 people. Panic was in number three with 11 people. Number four was... Make. Eight people said that. And number five, fmt.Printf was in there, that five people also said.
 
@@ -174,7 +174,7 @@ Okay... This next question is - we asked people to name one feature that you wou
 
 **Mat Ryer:** Type inheritance. Okay. So you're saying type inheritance... Let's see - gophers say? \[fail alert\] No, they didn't say that. That means that team zero takes those 12 points. This is interesting... Let's find out what people said though. In fifth position here it was cgo. Five people said they would remove cgo. I think that's fair enough.
 
-\[00:14:15.13\] In at number four, named returns. So just keeping those return values unnamed. Seven people said that. In number three, errors. 10 people said they would remove errors. To be fair, if you can write code that doesn't have any errors, you're doing pretty well. But the top answer for this, "Name one feature you would remove from Go", the top answer was "Nothing." And that was 17 people. Somebody also said "That plugin system that never really worked properly to begin with." Someone answered that as well. Okay, so congrats to Team Zero there. We're going to now move into a special round, round four. This is our unpopular round. So now what you're trying to do is guess the opposite. You're trying to find out the least popular answers. Wiktor, you can take a guess.
+\[14:15\] In at number four, named returns. So just keeping those return values unnamed. Seven people said that. In number three, errors. 10 people said they would remove errors. To be fair, if you can write code that doesn't have any errors, you're doing pretty well. But the top answer for this, "Name one feature you would remove from Go", the top answer was "Nothing." And that was 17 people. Somebody also said "That plugin system that never really worked properly to begin with." Someone answered that as well. Okay, so congrats to Team Zero there. We're going to now move into a special round, round four. This is our unpopular round. So now what you're trying to do is guess the opposite. You're trying to find out the least popular answers. Wiktor, you can take a guess.
 
 **Grzegorz Brzezinka:** Okay.
 
@@ -228,7 +228,7 @@ Okay... This next question is - we asked people to name one feature that you wou
 
 **Mat Ryer:** Let's take Python. Gophers say? \[win alert\] Yes, you got it. The fourth one. It gets you 20 points, because six people said it. Excellent. So let's check in with the scores, see how we're doing here. Team One has 63 points. Very respectable number of points. But in the lead, by quite a margin at the moment, Team Zero has 119 coins. \[applause\] It's all still to play for, because our next round is what I like to call Double Points.
 
-\[00:18:05.18\] We asked gophers "If you weren't in tech, what job would you have?" That's how we asked them as well. If you weren't in tech, what job would you have? Wiktor and Val, you're going head to head to try and crack the case.
+\[18:05\] We asked gophers "If you weren't in tech, what job would you have?" That's how we asked them as well. If you weren't in tech, what job would you have? Wiktor and Val, you're going head to head to try and crack the case.
 
 **Valentin Michaluk:** Electrician.
 
@@ -284,7 +284,7 @@ Okay... This next question is - we asked people to name one feature that you wou
 
 **Mat Ryer:** Okay, accountant. I mean, if that's the answer, I'll give you the points myself out of my own points. Accountant. Gophers say? \[fail alert\] No, I'm afraid not. So you don't steal the points. That means that Team Zero takes those 24 points. And let's have a look at just some interesting answers... Okay, so at the top we had teacher and coach, and in the fourth place there people said none, or no idea. In position number three, carpenter. Five people said that as well, which would have got your 10 points. \[unintelligible 00:22:00.23\] And in number two, position number two was scientist. Yeah, that makes sense. Six people said that, which would have got you - I think 12 points, if I've done the math correctly.
 
-\[00:22:17.20\] Okay, brilliant. Let me tell you some of the other answers we got. One person said goat farmer... Which I assume means they want to be the best farmer of all time... \[laughter\] Someone said a gelato maker, which I think is just a machine, isn't it? Someone said a cheese shop owner. And then one person just wrote bum, which in the US means just homeless, or just nothing, I think, really...
+\[22:17\] Okay, brilliant. Let me tell you some of the other answers we got. One person said goat farmer... Which I assume means they want to be the best farmer of all time... \[laughter\] Someone said a gelato maker, which I think is just a machine, isn't it? Someone said a cheese shop owner. And then one person just wrote bum, which in the US means just homeless, or just nothing, I think, really...
 
 **Grzegorz Brzezinka:** Hopefully it's Thomas.
 
