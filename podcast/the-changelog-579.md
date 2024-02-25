@@ -12,13 +12,13 @@
 
 **Jerod Santo:** Yeah. So we're super-excited to have you. Let's open up with Atuin, what it is, and why you built it.
 
-**Ellie Huxtable:** Yeah, sure. So you've kind of covered it quite well, but firstly, Atuin replaces Ctrl+R. It provides like a nicer search interface for your command history... But it goes a little bit further than that. There's a few similar tools that make Ctrl+R nicer, like Fzf a lot of people use... But the main, sort of this killer feature, I guess, is that it lets you sync the shell history you have between n different machines.
+**Ellie Huxtable:** Yeah, sure. So you've kind of covered it quite well, but firstly, Atuin replaces Ctrl+R. It provides like a nicer search interface for your command history... But it goes a little bit further than that. There's a few similar tools that make Ctrl+R nicer, like Fzf a lot of people use... But the main, sort of this killer feature, I guess, is that it lets you sync the shell history you have between N different machines.
 
 I started this because I had the problem myself, kind of scratching my own itch... I had this really long command that I regularly used at work, that was suddenly useful at home as well... But my work laptop was like at the other side of the room, closed, locked, whatever... And I couldn't quite remember how to do it exactly, so I had to go in and like boot the machine up, login, copy-paste it across, and it was really long-winded... And I actually didn't really want to make a new tool. I kind of assumed someone would have solved this problem already, but I couldn't find anything... So I went from there, and... I had a little bit of time off work for some reasons, and I kind of polished up a GitHub readme, put it online and forgot about it for a little while... But it turns out a lot of people had the same problem too, so it grew from there.
 
 **Adam Stacoviak:** I concur, I have that problem as well. I do a lot of homelabbing, so not a lot of production work, really... And a lot of my machines are ephemeral because they're VMs, so I will like be embedded and do things and test out, and like, that command history's just like stuck in that machine that's now not even real. It's just back to digital dust on the disk again. So the command line history is there, not with me.
 
-\[00:08:00.07\] Now, I'm also a user of Warp, which does supplant some of that... And I thought "Well, this is sort of like an interesting thing... Does Warp use something like this behind the scenes? How does this work with that kind of terminal?" Because warp is doing some smarts there, and keeping some of that history. I don't even know how it works, but it does work, to some degree, but not always perfect, long history... So I imagine that Atuin is a little bit better than that.
+\[08:00\] Now, I'm also a user of Warp, which does supplant some of that... And I thought "Well, this is sort of like an interesting thing... Does Warp use something like this behind the scenes? How does this work with that kind of terminal?" Because warp is doing some smarts there, and keeping some of that history. I don't even know how it works, but it does work, to some degree, but not always perfect, long history... So I imagine that Atuin is a little bit better than that.
 
 **Ellie Huxtable:** Yeah. I mean, from what I know of Warp, they're doing a lot of different things. Shell history there, as far as I know, is not synchronized... And the kind of frustrating thing right now is that Atuin doesn't work on Warp. Their keybinding stuff's not customizable completely, as far as I know... But yeah, there's a comparison to be made, but the main goal with Atuin I guess is to run in as many places as possible. I actually heard from someone that it runs on their phone, and they only knew this because they were complaining about compile times on phones being quite high... And I was like "Sorry, what? It runs on phones?" So that was pretty cool.
 
@@ -38,7 +38,7 @@ Now, your docs are nice, and you say right up front end-to-end encrypted, so eve
 
 **Ellie Huxtable:** Yeah. So you said you were a bit hesitant, right? And for me, trust is super-important, so the end-to-end encryption was a definite requirement from the very beginning. It did make a lot of development very frustrating, because key sharing, key management, all of this stuff is just not that easy. There's also two sides to that, I guess, because users don't want to give me their shell history if it's not encrypted, but I also don't want - I think right now we've got like 70 million lines of history on the server, and I don't want that not encrypted, because all of the API keys, all of the credentials, all of the stuff that you shouldn't paste into your shell, but lots of people do, is just going to be sat there, and that would make me a huge target as well. So it's kind of best for everyone.
 
-\[00:11:44.18\] The idea with the sync service, as it's all encrypted, is pretty much just a dumb blob store. It syncs encrypted data; that data can be shell history, in this case it is, but it doesn't really have to be. It's just small little bits of information. There's a very tiny amount of metadata that we sync as well, just in order to make the sync work. Mostly just timestamps and host names. The host names are hashed, just as long as they're different... But yeah, it's actually very simple. I'm giving a really in-depth tech talk about it next month, which I'm looking forward to, but... Yeah.
+\[11:44\] The idea with the sync service, as it's all encrypted, is pretty much just a dumb blob store. It syncs encrypted data; that data can be shell history, in this case it is, but it doesn't really have to be. It's just small little bits of information. There's a very tiny amount of metadata that we sync as well, just in order to make the sync work. Mostly just timestamps and host names. The host names are hashed, just as long as they're different... But yeah, it's actually very simple. I'm giving a really in-depth tech talk about it next month, which I'm looking forward to, but... Yeah.
 
 **Adam Stacoviak:** I guess sync is required to use Atuin...
 
@@ -64,7 +64,7 @@ There's also quite a lot of functional programming inspired functionality, so li
 
 **Ellie Huxtable:** Yeah, I think at first I just put it on Twitter, and I had a decent number of retweets. I wouldn't say it went like viral or anything, but that got me like my first kind of slow momentum. The inflection points you mentioned were mostly Hacker News and Reddit. I tried posting on Hacker News myself a few times, and it just never really picked up. It's always been when other people post it. There was one inflection point from last year in May, where I was actually on holiday, and that morning I was meant to be going on with this big trip, and I woke up, and my phone was going crazy... And I was like "Wait, what's going on here?" So I was in the car, replying to comments, and stuff... But that was really cool.
 
-\[00:16:02.29\] I think a lot of the marketing is down to just having a readme that's very clear as to what it is, that makes a lot of sense. Having a nice logo and stuff can be very helpful... I tried to make the install very, very straightforward. So the call to Bash you mentioned earlier literally just calls your package manager for you, and adds something to your Zsh, or whatever config file... So kind of the friction for people giving it a try is very low, so that helped a lot. I think a lot of it's also just luck. It was like the right thing at the right time. It was a need a lot of people had, it turned out.
+\[16:02\] I think a lot of the marketing is down to just having a readme that's very clear as to what it is, that makes a lot of sense. Having a nice logo and stuff can be very helpful... I tried to make the install very, very straightforward. So the call to Bash you mentioned earlier literally just calls your package manager for you, and adds something to your Zsh, or whatever config file... So kind of the friction for people giving it a try is very low, so that helped a lot. I think a lot of it's also just luck. It was like the right thing at the right time. It was a need a lot of people had, it turned out.
 
 One other thing that really helped - I gave a talk at FOSDEM, that wasn't really intended as marketing; it was more like I wanted to give a talk, and I had this project, so it was an easy fit. That helped a lot. A lot of people shared it, a lot of people told me they saw my talk... So that was really helpful, too.
 
@@ -94,7 +94,7 @@ And I think there's a lot of people who never really realized the value of their
 
 **Jerod Santo:** Like "How large is my disk", you know... Yeah.
 
-**Adam Stacoviak:** \[00:19:48.15\] I had this one command back in my more tried and true Ruby days whenever I would blow away gems. It was a for loop, that is now on a Mac that doesn't exist for me... And if I wanted to, like you said, recall that command, it's just gone. It's not part of this new environment. Maybe I'm running Jekyll, and I want to blow away the gems and do something different... Now I don't have that for loop readily available. I could probably google it. Maybe there's a gist out there where I stuck it in a gist on GitHub somewhere from back in the day, which is how we used to sort of like \[unintelligible 00:20:20.15\] some ideas and kind of share them, too... But now if I wanted to do that for loop, I'd probably just be like "I don't know how I did it. Forget it."
+**Adam Stacoviak:** \[19:48\] I had this one command back in my more tried and true Ruby days whenever I would blow away gems. It was a for loop, that is now on a Mac that doesn't exist for me... And if I wanted to, like you said, recall that command, it's just gone. It's not part of this new environment. Maybe I'm running Jekyll, and I want to blow away the gems and do something different... Now I don't have that for loop readily available. I could probably google it. Maybe there's a gist out there where I stuck it in a gist on GitHub somewhere from back in the day, which is how we used to sort of like \[unintelligible 00:20:20.15\] some ideas and kind of share them, too... But now if I wanted to do that for loop, I'd probably just be like "I don't know how I did it. Forget it."
 
 **Ellie Huxtable:** I find as well that as time goes on, the number of sort of original commands you write goes down. Even if you're recalling something from three, four years ago, like you've written it before, and having that history means that the longer you have it for, the less time you spend typing, and that sort of compounds over time.
 
@@ -126,7 +126,7 @@ And I think there's a lot of people who never really realized the value of their
 
 **Jerod Santo:** Smug is a Go-based tool for managing Tmux sessions... So you can like define different Tmux sessions using YAML, or some sort of little config file format. And you can use smug to manage them. So I can say "smug start changelog", and that will launch a specific Tmux session, with three terminals, and this one runs that command, this goes to this directory, this starts that command. And then I can just switch between them quickly. Because I have a few things that I do, but that's about it... And so I use smug to just start that thing, suspend this one, start that one... And it always is just set up the way you like it. So I run that command a lot in order to get into whatever it is that I'm up to... So that's a cool one. It's based off of -- there's an old project in Ruby called Tmuxinator, which does the same thing. And I think Tmuxinator either got unmaintained, or I got sick of having to deal with Ruby with regards to it, and I wanted a universal binary... And Go is very good at that, and so there's one called smug in Go, which - I replaced it. And I think it even uses the Tmuxinator config format or something, so it's like an easy switch... So that's my top five. And then ls, coming in at number six.
 
-**Adam Stacoviak:** \[00:24:02.23\] For sure. That's kind of a cool tool, because getting started is half the battle, right? I guess it creates that momentum. There's no minutiae to do, no ceremony to do. It's just like - what was it, smug changelog, that was it?
+**Adam Stacoviak:** \[24:02\] For sure. That's kind of a cool tool, because getting started is half the battle, right? I guess it creates that momentum. There's no minutiae to do, no ceremony to do. It's just like - what was it, smug changelog, that was it?
 
 **Jerod Santo:** Smug start changelog.
 
@@ -174,7 +174,7 @@ And I think there's a lot of people who never really realized the value of their
 
 **Adam Stacoviak:** Yeah, I actually like that idea a lot. Running your own server - I think it's super-cool that you offer that. I did like a lot of the install process. I can at least share some of my thoughts on the experience here, which was your thoughtfulness in the messaging I think is super-cool. Like, you have the ASCII art going on, and you've got these very polite prompts, detected Linux, checking distro, Ubuntu detected... It gives me all these details, all this different stuff... It runs apt get update from me, which is super-kind of you to give me the latest repositories available...
 
-**Jerod Santo:** \[00:28:04.15\] Super-kind... \[laughs\]
+**Jerod Santo:** \[28:04\] Super-kind... \[laughs\]
 
 **Adam Stacoviak:** Yeah, super-kind of you. And at the very end, it does all its thing and it's like "Hey, thank you." And this is how you can like use it, and contribute, and become a part of community, which I think is super-important for any tool that wants to be adopted... Like, tell me how to adopt. And you've done that. So - very, very well done on that part of it. Even though I've had this Zsh eval issue. I'll figure it out.
 
@@ -194,7 +194,7 @@ And I think there's a lot of people who never really realized the value of their
 
 **Jerod Santo:** Exactly.
 
-**Break**: \[00:29:44.09\]
+**Break**: \[29:44\]
 
 **Jerod Santo:** So when you decided to quit your job to do this, what --
 
@@ -250,7 +250,7 @@ I think there's a bit of a gap in sort of the shell as it is. It hasn't really c
 
 **Adam Stacoviak:** I think he was the originator...
 
-**Jerod Santo:** \[00:40:10.12\] Okay... \[unintelligible 00:40:10.11\]took it over and had to maintain it. Okay, it's all coming back to me.
+**Jerod Santo:** \[40:10\] Okay... \[unintelligible 00:40:10.11\]took it over and had to maintain it. Okay, it's all coming back to me.
 
 **Adam Stacoviak:** I think Michael took over a lot of the issues really though, and he felt -- there was like a burnout stage there too with Michael.
 
@@ -320,7 +320,7 @@ I think there's a bit of a gap in sort of the shell as it is. It hasn't really c
 
 **Adam Stacoviak:** I'll test it out after this conversation. I'll give play with it and give you some feedback. Oh, I see it, yeah. Under your docs, self-hosting. Server setup, Usage, Docker, Kubernetes. Very cool.
 
-**Jerod Santo:** \[00:44:13.25\] So here's a setup that I think has worked in the past... It's like open source library or framework or system with a hosted business attached to it, where the end user is more mainstream, more normal, less nerdy. But when you have open source tool service as the business model with your core audiences super-nerds, like Adam, who gets excited because he heard Docker, or somebody even nerdier, who hears Helm chart and is like "Let's go!", which I'm sure some of our listeners are like "Oh, good. Helm chart. Cool." It seems like that's harder for the business side, isn't it? Where it's like, the people who are your core demographic of potential purchasers - because they're all command line users - they also are super-down with self-hosting.
+**Jerod Santo:** \[44:13\] So here's a setup that I think has worked in the past... It's like open source library or framework or system with a hosted business attached to it, where the end user is more mainstream, more normal, less nerdy. But when you have open source tool service as the business model with your core audiences super-nerds, like Adam, who gets excited because he heard Docker, or somebody even nerdier, who hears Helm chart and is like "Let's go!", which I'm sure some of our listeners are like "Oh, good. Helm chart. Cool." It seems like that's harder for the business side, isn't it? Where it's like, the people who are your core demographic of potential purchasers - because they're all command line users - they also are super-down with self-hosting.
 
 **Ellie Huxtable:** I think it's split. I think a lot of the sort of early users are very down for self-hosting, very down for customizing things... But I think there's tons of people that don't actually know how nice the shell can be, and how things can be better... And if there was a very easy way for them to have a nice setup, that felt modern and was good, and they didn't have to know what sort of scripts and plugins they need to install and which things they need to add, and all of this, which most people will just stop caring as soon as they start seeing this huge list of stuff... If it was nice, with no effort, I think we could have more people using the terminal much more.
 
@@ -368,7 +368,7 @@ I think there's a bit of a gap in sort of the shell as it is. It hasn't really c
 
 **Jerod Santo:** Very cool.
 
-**Break**: \[00:48:16.11\]
+**Break**: \[48:16\]
 
 **Jerod Santo:** So when you decided to quit the job, let's go back there.
 
@@ -404,7 +404,7 @@ I think there's a bit of a gap in sort of the shell as it is. It hasn't really c
 
 **Adam Stacoviak:** Did you say mountain bikes when you said to --
 
-**Jerod Santo:** \[00:56:00.08\] No, she said motorbikes, didn't she?
+**Jerod Santo:** \[56:00\] No, she said motorbikes, didn't she?
 
 **Ellie Huxtable:** Yeah, I'm kind of obsessed. It's like my not-computer thing to do.
 
