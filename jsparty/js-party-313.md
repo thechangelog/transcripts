@@ -40,7 +40,7 @@
 
 **Jessica Sachs:** Okay, probably -- it was a boring one. There was one time where I broke Expedia... And I didn't work at Expedia. \[laughter\]
 
-**Jerod Santo:** \[00:06:15.03\] Okay... So that's a twist.
+**Jerod Santo:** \[06:15\] Okay... So that's a twist.
 
 **Jessica Sachs:** Yeah. So I noticed it because we -- I did build Canary deploys. I was working in an ad tech company, and we were a third-party script, and they put us in top, window.top. And so we had access to the entirety of Expedia, and all user data on the search page. And so when you would type in like San Francisco to JFK, our ads would run. And so my code ran on millions and millions of page loads. And that gave us a lot of volume, and on IE whatever, I broke Expedia by like messing up some CSS. And I think also the Back button. I think they had just switched routers in the Back button. We messed it up. So that was bad... We reverted within five minutes.
 
@@ -108,13 +108,13 @@
 
 **Jerod Santo:** Is that like on the nightly builds, or is that like shipped, like production?
 
-**Jessica Sachs:** No, prod. Npm nstall. Pnpm install, or bun install.
+**Jessica Sachs:** No, prod. npm nstall. Pnpm install, or bun install.
 
 **Jerod Santo:** Okay. Alright, Amal, your turn.
 
 **Amal Hussein:** Really, Jerod?
 
-**Jerod Santo:** \[00:10:13.00\] Just read the question.
+**Jerod Santo:** \[10:13\] Just read the question.
 
 **Amal Hussein:** Who is your favorite JS Party panelist, and why is it Jerod? \[laughter\]
 
@@ -216,7 +216,7 @@
 
 **Jessica Sachs:** I code from the couch, or... Yeah, I code from the couch, or... Is there anywhere else? Yeah, room -- WeWork. I would consider WeWork not my office, because I don't go there at office hours. Like, I go there at like 12am, after I go to a bar.
 
-**Amal Hussein:** \[00:14:08.22\] Yeah, 12am, WeWork... It's so funny, I think I used to do something very similar, in the sense that some of the best views in the city were at some of the co-working spaces that I had access to like a very, very long time ago... And yeah, we'd just like get food, we'd get takeout and like eat, and like watch TV in like a conference room, or whatever... It's like a city apartment that's not a city apartment, you know... So yeah, I feel you on that. Respect. It's also good utilization of the space, you know...?
+**Amal Hussein:** \[14:08\] Yeah, 12am, WeWork... It's so funny, I think I used to do something very similar, in the sense that some of the best views in the city were at some of the co-working spaces that I had access to like a very, very long time ago... And yeah, we'd just like get food, we'd get takeout and like eat, and like watch TV in like a conference room, or whatever... It's like a city apartment that's not a city apartment, you know... So yeah, I feel you on that. Respect. It's also good utilization of the space, you know...?
 
 **Jessica Sachs:** They're not using it. I mean... I read a really decent article actually about that. At some point we could talk about it.
 
@@ -316,7 +316,7 @@
 
 **Jessica Sachs:** When I was in Cambridge, I got a lot of experience with turkeys...
 
-**Jerod Santo:** \[00:18:05.29\] Alright, would you rather fight one wolf or 50 turkeys? I'm sorry, that's not a question. I just added that one.
+**Jerod Santo:** \[18:05\] Alright, would you rather fight one wolf or 50 turkeys? I'm sorry, that's not a question. I just added that one.
 
 **Jessica Sachs:** 50 turkeys.
 
@@ -410,7 +410,7 @@ Hm?
 
 **Jerod Santo:** That's a good one. Explain that feature to the plebs out there.
 
-**Jessica Sachs:** \[00:22:03.17\] Oh, my gosh... List comprehensions allow you to -- how would you say...? Allow you to do a map in a single line... Is that about right?
+**Jessica Sachs:** \[22:03\] Oh, my gosh... List comprehensions allow you to -- how would you say...? Allow you to do a map in a single line... Is that about right?
 
 **Amal Hussein:** Yeah. Pretty much, yeah. It's an elegant iteration over like iterable objects, you know?
 
@@ -504,7 +504,7 @@ Hm?
 
 **Amal Hussein:** Tell us about this. Are you like a circus nerd, too? Because there's definitely a fun intersection of tech nerds that are also circus nerds... And I find them to be utterly like the most delightful people.
 
-**Jessica Sachs:** \[00:26:05.26\] Yeah, the Venn diagram's good. Yeah, circusy stuff - I did contortion. So I did rhythmic gymnastics growing up, which is really good if you're hypermobile... So I can still do over splits, even though I don't train them anymore. So my legs go like over 180 degrees. They just do. And then my back's still -- you know, feet touch head. But then I had a back injury, totally unrelated to contortion, and I couldn't do the exciting dynamic circus arts anymore. I couldn't do trapeze. I have a trapeze... And I couldn't do lira. So I was like "What can I do that's weird and circusy?" And I was like "I can stand straight and throw balls, and make small movements with my core." So that's why juggling.
+**Jessica Sachs:** \[26:05\] Yeah, the Venn diagram's good. Yeah, circusy stuff - I did contortion. So I did rhythmic gymnastics growing up, which is really good if you're hypermobile... So I can still do over splits, even though I don't train them anymore. So my legs go like over 180 degrees. They just do. And then my back's still -- you know, feet touch head. But then I had a back injury, totally unrelated to contortion, and I couldn't do the exciting dynamic circus arts anymore. I couldn't do trapeze. I have a trapeze... And I couldn't do lira. So I was like "What can I do that's weird and circusy?" And I was like "I can stand straight and throw balls, and make small movements with my core." So that's why juggling.
 
 **Christopher Hiller:** What's lira?
 
@@ -562,7 +562,7 @@ Hm?
 
 **Amal Hussein:** Yeah, I think my husband and I when we were first -- we never really dated, we were just in a relationship... But that's where we had all of our -- our first everythings were in that area. But yeah, there's just so many circus nerds that are like concentrated there. Have you noticed that?
 
-**Jessica Sachs:** \[00:30:08.00\] Yeah. They have a circus school...
+**Jessica Sachs:** \[30:08\] Yeah. They have a circus school...
 
 **Jerod Santo:** Oh, there's a school there.
 
@@ -586,7 +586,7 @@ Hm?
 
 **Jessica Sachs:** Nerds.
 
-**Break**: \[00:32:01.29\]
+**Break**: \[32:01\]
 
 **Jerod Santo:** Alright, nerds, let's turn now to the news, because Amal is - I was gonna say hot and bothered, but that implies something else. You're just bothered by this. This is big... This is Apple versus the world here. The OWA, a group of people that you've been working hard, Amal, to get a show together with, the Open Web Advocates, I believe, or Advocacy, has been fighting hard to have the web be more and more open. These are often legal battles, or lobbying, or those kinds of things, political arenas in order to have that... And they've had some wins of late, or maybe what they thought was a win, and now Apple maliciously complying in Europe with regards to the DMA - which I don't know what that stands for... But there's a deal going on with PWAs, specifically in Europe. And there's a post on the OpenWebAdvocacy.org called "It's official: Apple kills web apps in the EU." Amal, do you want to give us the rundown of exactly what's going on here, and then we can discuss?
 
@@ -600,7 +600,7 @@ And so there's no browser choice, they've kind of pushed off and kind of systemi
 
 Anyway, so the Open Web Advocacy group has been doing a lot of advocacy to kind of fight for browser choice on mobile devices, so that there's just fair competition across the board... Oh my God, I'm getting worked up just like explaining this...
 
-\[00:40:11.27\] Anyway, so long story short, they made some really good strides in the EU; however Apple trying to comply with the EU means that they basically just came up with a bunch of really not-so-friendly - I don't even... Not responses. There's like a bunch of new really bad laws...
+\[40:11\] Anyway, so long story short, they made some really good strides in the EU; however Apple trying to comply with the EU means that they basically just came up with a bunch of really not-so-friendly - I don't even... Not responses. There's like a bunch of new really bad laws...
 
 **Jerod Santo:** Changes.
 
@@ -612,7 +612,7 @@ So long story short, they're just being really problematic, and they've been sil
 
 And they're going to do what's in their best interest. Money first over a lot of stuff. And that's kind of -- I don't know, I think that's the way of the world, which is toxic to people who are paying attention, like us... We could create something better if we were in a position of an Apple. We could have chosen differently. And so that bothers us a lot. That's what gets us bothered, because we know.
 
-**Amal Hussein:** \[00:44:24.24\] 100%.
+**Amal Hussein:** \[44:24\] 100%.
 
 **Jerod Santo:** And there's engineers inside of Apple, and there's swirling rumors - these are just rumors - that there's a divide in the company, because there's people on both sides of this particular decision-making... And you have those who get it and would love to see the open web available on their platform... They're the WebKit engineers, and a lot of the people who are down there doing the things. And then there's the pointy-haired bosses, so to speak, who are on the other side, adding up the money...
 
@@ -644,7 +644,7 @@ And they're going to do what's in their best interest. Money first over a lot of
 
 **Jessica Sachs:** It'd be crazy not to.
 
-**Jerod Santo:** \[00:47:33.27\] The interesting thing there, Jess, the divide there, the hardware/software divide is interesting. So when it came to you have to have USB-C in your phones, or whatever the actual rules became in the EU, it's like "Okay, we're just gonna do that now." And then it affects everybody around the world. When it comes to software though, they've taken a completely different stance, of like "Okay, we're only going to do that in the EU. We're going to actually bifurcate the codebase, we're going to have --" Think about the complexity inside of the code for the App Store, and for all the things, in order to only enforce this stuff in the EU, and then everybody else around the world it's different. A, that's gotta be tons of tech debt inside of Apple. B, it actually creates so many problems for people who are outside of Apple, but are shipping apps to these stores... Because now they have to have certain forks in their code in order to apply these rules, depending on where the thing gets downloaded. I mean, it's so messy that - gosh, it seems untenable in the long run.
+**Jerod Santo:** \[47:33\] The interesting thing there, Jess, the divide there, the hardware/software divide is interesting. So when it came to you have to have USB-C in your phones, or whatever the actual rules became in the EU, it's like "Okay, we're just gonna do that now." And then it affects everybody around the world. When it comes to software though, they've taken a completely different stance, of like "Okay, we're only going to do that in the EU. We're going to actually bifurcate the codebase, we're going to have --" Think about the complexity inside of the code for the App Store, and for all the things, in order to only enforce this stuff in the EU, and then everybody else around the world it's different. A, that's gotta be tons of tech debt inside of Apple. B, it actually creates so many problems for people who are outside of Apple, but are shipping apps to these stores... Because now they have to have certain forks in their code in order to apply these rules, depending on where the thing gets downloaded. I mean, it's so messy that - gosh, it seems untenable in the long run.
 
 **Jessica Sachs:** I mean, it speaks to the bets that they're making on their own ecosystem being such a lock-in. And it speaks to probably what the truth is about how much money they take in. Bifurcating the codebase versus (b)billions? I don't know, that seems easy to me. I'll bifurcate the codebase all day for that.
 
@@ -668,7 +668,7 @@ And they're going to do what's in their best interest. Money first over a lot of
 
 **Jerod Santo:** Totally.
 
-**Amal Hussein:** \[00:52:07.27\] So any numbers or ratios have to kind of be taken into account with that other metric... Which is why this fight is so important.
+**Amal Hussein:** \[52:07\] So any numbers or ratios have to kind of be taken into account with that other metric... Which is why this fight is so important.
 
 **Jerod Santo:** I'm just thinking we should start a browser, that's all I'm thinking. It seems like there's good money in it. \[laughs\]
 
@@ -712,7 +712,7 @@ And they're going to do what's in their best interest. Money first over a lot of
 
 **Amal Hussein:** Hopefully not that long... But yeah, I agree, it might be that long. I mean, yeah, for it to become a standard, let's say 40.
 
-**Jerod Santo:** \[00:55:49.21\] Right. That's what we need, is one more standard. Well, the blog post right now - this is a moving target, so as we record, February 16th -- as you listen, seven days later, it'll be like 10 days left... They have a survey that they want you to fill in if you are somebody who ships a web app in the EU. They think that will help. I don't know what the OWA's next move is here, if they even have one... But iOS 17.4 ships 19 days from now, according to this, and they have a Digital Markets Act countdown on the website. So we will link to that in the show notes. And then stay tuned for a full episode with the people who are the movers and shakers on the OWA's side, as Amal's trying to put that one together. I'm definitely excited about that.
+**Jerod Santo:** \[55:49\] Right. That's what we need, is one more standard. Well, the blog post right now - this is a moving target, so as we record, February 16th -- as you listen, seven days later, it'll be like 10 days left... They have a survey that they want you to fill in if you are somebody who ships a web app in the EU. They think that will help. I don't know what the OWA's next move is here, if they even have one... But iOS 17.4 ships 19 days from now, according to this, and they have a Digital Markets Act countdown on the website. So we will link to that in the show notes. And then stay tuned for a full episode with the people who are the movers and shakers on the OWA's side, as Amal's trying to put that one together. I'm definitely excited about that.
 
 **Amal Hussein:** Yeah. I was literally just chatting with Bruce this morning, Bruce Lawson, who's one of the folks... And he -- I asked him "Okay, what can I do to help?" I'm gonna read his response to you. "You could encourage anyone who operates a PWA in the EU - they could be a US company with EU customers, or an EU company - to fill the survey at the top of our blog posts." So thank you, Jerod.
 
@@ -738,7 +738,7 @@ And they're going to do what's in their best interest. Money first over a lot of
 
 I haven't heard of QuickJS either. I'd be interested in that. Maybe we could do a deep-dive with some folks if that's like an open source thing that they're working on, or that they've just pulled in from a different group... But yes, we have one more of these. It seems like it's been - not the year of, but maybe like the couple years of proliferating JS runtimes... And there's pros and cons to that. Amal, obviously, you are thinking "Let's all contribute to Node.js." Other people are thinking different techniques, different approaches... Worth perhaps reinvention, worth competition... I don't know. I kind of flip flop on that myself.
 
-**Amal Hussein:** \[00:59:48.25\] Yeah. I think just relying on a new engine as well... Like, someone who's worked with JavaScript engines very closely in the past, specifically when it comes to like bugs and interoperability - you know, there's a whole matrix of bugs that you're now potentially introducing... Like, how spec-compliant is this, you know, and are these being run against the same tests that all the other engines are being run against? It's a lot of work to have a spec-compliant JavaScript engine, so I'm very curious to see how spec-compliant Quick is... Because obviously, what that means to developers if something is not spec-compliant is that you think fetch is doing something, or you think a map is doing something, and it's doing something different.
+**Amal Hussein:** \[59:48\] Yeah. I think just relying on a new engine as well... Like, someone who's worked with JavaScript engines very closely in the past, specifically when it comes to like bugs and interoperability - you know, there's a whole matrix of bugs that you're now potentially introducing... Like, how spec-compliant is this, you know, and are these being run against the same tests that all the other engines are being run against? It's a lot of work to have a spec-compliant JavaScript engine, so I'm very curious to see how spec-compliant Quick is... Because obviously, what that means to developers if something is not spec-compliant is that you think fetch is doing something, or you think a map is doing something, and it's doing something different.
 
 **Jessica Sachs:** I can talk a little bit about the development of Bun, if you're interested...
 
