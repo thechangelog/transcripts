@@ -57,7 +57,7 @@ Nikita Prokopov surveyed a bunch of popular websites to see how much JS they loa
 - Zoom, 6 MB
 - Vercel, 6 MB
 - Pinterest, 10 MB
-- Gitlab, 13 MB
+- GitLab, 13 MB
 - Google, 9 MB
 
 Niki approximates that 10MB of minified JS expands to ~300k lines of code... and remember:
