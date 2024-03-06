@@ -490,7 +490,7 @@ the chemical reactions just happen. I mean, it's just--
 
 **Adam Stacoviak:** I don't know. The place where my son goes to music lessons just shared the email with us. I didn't get all the details; they're coming like sometime in June, and they're "We've got to get tickets now as a togetherness. We're gonna go together", so like "Yes, put us down for four tickets." That's all I know for now. So I figured, DCI - and I'm down for it.
 
-**Robert Ross:** Tat's great.
+**Robert Ross:** That's great.
 
 **Adam Stacoviak:** It's always gonna be a good show. And I have a two-year-old, so he can make a lot of noise there... Because that's what you do at those kind of places, you get excited. So I'm sure it won't be an issue for us with a two-year-old, which can be challenging.
 
@@ -510,7 +510,7 @@ the chemical reactions just happen. I mean, it's just--
 
 **Adam Stacoviak:** Nice!
 
-**Robert Ross:** Well, Robert, it's been a blast catching up with you on your past, present and your future, and I'm looking forward to it. I'm a big fan. I love having you guys as a sponsor, I love being able to come to this context here and go deep on your story and the details behind creating reliable software, which I think is obviously a much-needed thing in the world, if we're moving towards the entropy of software, which is just more reliance on it in the future... So why not make it more reliable?
+**Adam Stacoviak:** Well, Robert, it's been a blast catching up with you on your past, present and your future, and I'm looking forward to it. I'm a big fan. I love having you guys as a sponsor, I love being able to come to this context here and go deep on your story and the details behind creating reliable software, which I think is obviously a much-needed thing in the world, if we're moving towards the entropy of software, which is just more reliance on it in the future... So why not make it more reliable?
 
 **Robert Ross:** It's what we're doing, every day.
 
