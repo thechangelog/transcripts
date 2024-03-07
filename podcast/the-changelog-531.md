@@ -539,7 +539,7 @@ And like another cool thing we haven't even scratched the surface of is like ani
 
 **Nathan Sobo:** I didn't see it.
 
-**Jerod Santo:** Okay. So there's a quick clip, you can go watch it on the internet somewhere. And Jay Leno is driving it. He's asking Elon Musk questions. They're driving further. And he's like "This car is bulletproof, isn't it?" And Elon says, "Yeah, it is." And then Jay Leno is like "Why would you want your truck to be bulletproof?" And Elon Musk says, "Because it's badass." And it was kind of the best answer, you know? It's like, "Okay... Why does Zed do that?" It's like, "Well, cuz it's awesome!" Isn't that cool? And then turn it back off and keep coding, or whatever.
+**Jerod Santo:** Okay. So there's a quick clip, you can go watch it on the internet somewhere. And Jay Leno is driving it. He's asking Elon Musk questions. They're driving further. And he's like "This car is bulletproof, isn't it?" And Elon says, "Yeah, it is." And then Jay Leno is like "Why would you want your truck to be bulletproof?" And Elon Musk says, "[Because it's badass](https://www.youtube.com/watch?v=25ZuKkbHdqM&t=173s)." And it was kind of the best answer, you know? It's like, "Okay... Why does Zed do that?" It's like, "Well, cuz it's awesome!" Isn't that cool? And then turn it back off and keep coding, or whatever.
 
 **Adam Stacoviak:** Yeah.
 
