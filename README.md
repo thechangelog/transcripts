@@ -395,6 +395,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
       <td align="center" valign="top" width="16.66%"><a href="https://oleb.net"><img src="https://avatars.githubusercontent.com/u/5010?v=4?s=100" width="100px;" alt="Ole Begemann"/><br /><sub><b>Ole Begemann</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=ole" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/magnusbaeck"><img src="https://avatars.githubusercontent.com/u/9032797?v=4?s=100" width="100px;" alt="Magnus Bäck"/><br /><sub><b>Magnus Bäck</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=magnusbaeck" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/tripleee"><img src="https://avatars.githubusercontent.com/u/2160915?v=4?s=100" width="100px;" alt="tripleee"/><br /><sub><b>tripleee</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=tripleee" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://www.jvt.me"><img src="https://avatars.githubusercontent.com/u/3315059?v=4?s=100" width="100px;" alt="Jamie Tanna"/><br /><sub><b>Jamie Tanna</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=jamietanna" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
