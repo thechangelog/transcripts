@@ -12,7 +12,7 @@ Ok, let's get into the news.
 
 [Puter is the internet OS](https://github.com/HeyPuter/puter)
 
-> Puter is an advanced open-source desktop environment in the browser, designed to be feature-rich, exceptionally fast, and highly extensible. It can be used to build remote desktop environments or serve as an interface for cloud storage services, remote servers, web hosting platforms, and more.
+> Puter is an advanced open source desktop environment in the browser, designed to be feature-rich, exceptionally fast, and highly extensible. It can be used to build remote desktop environments or serve as an interface for cloud storage services, remote servers, web hosting platforms, and more.
 
 I've been around long enough to see a bunch of "desktop OS in a browser window" demos and toys, but this is the first time I've been impressed by one long enough to keep the tab open longer than 30 seconds. From the URL structure, to the cloud storage integration, to the developer portal... Puter strikes me as an actually viable internet-based operating system with potentially real-world use cases. And that's saying a lot!
 
