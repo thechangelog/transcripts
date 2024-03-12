@@ -30,7 +30,7 @@
 
 **Sharon DiOrio:** "If else... AI!"
 
-**Kent Quirk:** \[00:05:58.02\] Yeah. Well, and it was a nice thing... Sometime in the '90s it was a thing, like, AI is whatever hasn't been done yet. As soon as it becomes an accepted capability, then "Oh, it's actually not AI... That's just computing." For a while, it was going to be the first chess champion would be the dawn of AI. And it was like "No, actually, that's just the big search." So yes, it's hyped. Who stands to benefit, just to get your question right now - it's the people who have invested in it and want number go up. That's usually, at least your earliest thing is. I don't know, we can talk more about the hype and who sees the hype, and who's getting most excited... Because I do think that's maybe an interesting question for this --
+**Kent Quirk:** \[05:58\] Yeah. Well, and it was a nice thing... Sometime in the '90s it was a thing, like, AI is whatever hasn't been done yet. As soon as it becomes an accepted capability, then "Oh, it's actually not AI... That's just computing." For a while, it was going to be the first chess champion would be the dawn of AI. And it was like "No, actually, that's just the big search." So yes, it's hyped. Who stands to benefit, just to get your question right now - it's the people who have invested in it and want number go up. That's usually, at least your earliest thing is. I don't know, we can talk more about the hype and who sees the hype, and who's getting most excited... Because I do think that's maybe an interesting question for this --
 
 **Sharon DiOrio:** Excited about possibilities, and not just the money.
 
@@ -60,7 +60,7 @@ But on the less noble end of things, you could say there are companies that are 
 
 **Kent Quirk:** Yeah, unless you're the one on the other end of the conversation... \[laughter\] Like, you call anybody or you try to talk to anybody, and you basically have to spend five minutes arguing with an AI to please let me talk to a human, because "You don't have the answer I need."
 
-**Johnny Boursiquot:** \[00:09:58.17\] Well, I mean, that's the thing though, right? They's saying that folks are actually closing tickets because they got the answer they wanted. This is not our grandpa's AI, where you're going through the phone tree, pressing all the buttons, trying to press zero, or yelling at the thing, saying "Hey, operator, give me a human." This is not the same thing at all. These days, these things are -- I mean, if they have a knowledge base, and you unleash an agent, an LLM or something on that knowledge base, presumably it's the same thing that the human that you otherwise would have been chatting with is doing, right? They're looking up a way to give you an answer that is approved by the company. They can't wing it, so they have to use a for reference. So if you give that reference to an AI bot, presumably it does a much better job, much more accurate and faster job of giving the right answer to the user. And that is one of the sort of use cases which I can appreciate. But the fact is that it still leads to layoffs. And these are the kinds of jobs that I think are being impacted the most, right?
+**Johnny Boursiquot:** \[09:58\] Well, I mean, that's the thing though, right? They's saying that folks are actually closing tickets because they got the answer they wanted. This is not our grandpa's AI, where you're going through the phone tree, pressing all the buttons, trying to press zero, or yelling at the thing, saying "Hey, operator, give me a human." This is not the same thing at all. These days, these things are -- I mean, if they have a knowledge base, and you unleash an agent, an LLM or something on that knowledge base, presumably it's the same thing that the human that you otherwise would have been chatting with is doing, right? They're looking up a way to give you an answer that is approved by the company. They can't wing it, so they have to use a for reference. So if you give that reference to an AI bot, presumably it does a much better job, much more accurate and faster job of giving the right answer to the user. And that is one of the sort of use cases which I can appreciate. But the fact is that it still leads to layoffs. And these are the kinds of jobs that I think are being impacted the most, right?
 
 **Kent Quirk:** Yeah. So actually, I think that -- I guess I feel like when I approach these things, very often the reason I'm trying to get to a human is because I have searched for that information and couldn't find it. And I've search the knowledge base, and no, they don't have the answer in their knowledge base, at least not in the form that I can use. And so then the AI is just a delaying tactic for me. However -- and I think that what's happening here is the AI is really good at giving you an answer that you can look up. And that is true whether you're using Copilot to write code, or talking to the support bot of your favorite bank. If for average questions, for average commentary, for average code, for things that everybody has already done 2000 times and there's no innovation involved, the AI is really effective. But when you're talking about "I need to rearchitect the system", or "I need to--"
 
@@ -82,7 +82,7 @@ But on the less noble end of things, you could say there are companies that are 
 
 **Sharon DiOrio:** I describe it to people who ask as it's like having a junior developer -- you're pairing with a junior developer who types really fast. And most of the time, they're kind of in the right realm, and a lot of time they even get it right. But then there's that part where it's like "I don't even know where you're going with this one." Just like a junior. But you can't -- at this point anyway you can't improve the AI like you can improve the junior, from an end user perspective. And I know there's ways, and actually we were joking around, Johnny and I, that's how we ended up deciding to do this, we were joking around with "Now what if I have an AI and I can train it on only certain GitHub repos containing this code? jboursiquot, there you go. There's your go-to Go code."
 
-**Steven Pyle:** \[00:14:04.06\] I mean, it definitely has context... I mean, if I'm writing code in a codebase, within a repo it, it pulls things from the rest of that repo... So it's on the fly.
+**Steven Pyle:** \[14:04\] I mean, it definitely has context... I mean, if I'm writing code in a codebase, within a repo it, it pulls things from the rest of that repo... So it's on the fly.
 
 **Kent Quirk:** But -- I mean, I was doing one today, and I started to comment, I start typing, I type two words and it goes \[unintelligible 00:14:17.27\] the rest of the line. And it's like, that's not what I was gonna say. It's not entirely wrong, but it's not what I was gonna say, and it just messed me up... And I needed to stop and delete that code and rethink of what I was trying to say, but not start typing it yet, because as soon as I do, it's gonna fill it in \[unintelligible 00:14:32.05\]
 
@@ -108,7 +108,7 @@ But on the less noble end of things, you could say there are companies that are 
 
 **Kent Quirk:** I mean, I have a couple of various co-workers who got pretty excited about it, and most of the ones who were most excited were the people who do not write code for a living. They're salespeople, and support people, and sales support engineers, and all that kind of stuff, whose job is to make something work. And they sit down with us, and they're very excited, because they can make something work very quickly. Because what they're trying to do in my view is usually something that's been done before, and they need that syntactic help. And they have the semantics in their heads roughly of what they want, so they can say "Write me an app to do X", because they don't really need the best app in the world, and they're not treading new ground... They're doing the thing that's been done before, and they just need to get it on paper, in their code. And that's cool.
 
-**Break**: \[00:18:41.25\]
+**Break**: \[18:41\]
 
 **Johnny Boursiquot:** It's one thing to have gen AI pump out snippets of code that is part of a larger whole, right? ...whereby I'm the engineer, I'm engineering a solution; I'm not just a code monkey just clocking out syntax. I'm trying to fix a problem, I'm engineering a solution to a business problem. Now, I could go as high level as I can, and I can just open up Copilot in chat mode and say "Hey, this is what I'm trying to accomplish. Start spittin' out files." Now, maybe today it can build somewhat trivial apps. I've seen YouTube videos and clips and things of it spitting out entire working React apps and all these things, and that's great. And I think over time it's gonna become even better at doing those things. But I have a hard time trying to sort of correlate that, or trying to replace solution building. Because to me, solutions aren't static, right? When a business comes to me and says "Hey, I need you to build a solution to this problem." I build it, they take it into production, they do stuff with it, and they come back and say "Hey, you know what? This is great. Now, I need to change it in this way. Or I need to account for this exception", or "I need to account for this particular use case, or this specific customer, where 90% of the time it works like this way for every customer of this type, but for this customer of that type --"
 
@@ -132,7 +132,7 @@ But on the less noble end of things, you could say there are companies that are 
 
 **Kent Quirk:** Hell yeah. I sat in a meeting today where an artist went over her design, basically her design process for a big design project... Like, "Here's the resources I looked at. Here's the feeling I was going for. Here are the things I considered. I looked at these typefaces; this typeface reminded me of this building architecture, which is relevant to the site we're --" And then that artist proceeded to churn out over the course of a couple of months 200 pieces of support art for an event. That was a brilliant design exercise by somebody deeply steeped in art and creation, who then studied the event and what the event needed and integrated all that.
 
-\[00:24:07.17\] And yes, some random person could have sat down with Midjourney and said "Make me this stuff", and it would have been much less good. But people who don't know the difference would have been "Sure, it looks fine." I mean, we've all seen that, right? My document has 37 fonts and 12 colors, but... \[laughter\]
+\[24:07\] And yes, some random person could have sat down with Midjourney and said "Make me this stuff", and it would have been much less good. But people who don't know the difference would have been "Sure, it looks fine." I mean, we've all seen that, right? My document has 37 fonts and 12 colors, but... \[laughter\]
 
 **Steven Pyle:** "It looks fine to me..."
 
@@ -156,7 +156,7 @@ But on the less noble end of things, you could say there are companies that are 
 
 **Kent Quirk:** I don't think it's about gatekeeping. I feel like a big chunk of my career has been spent trying to help people learn to program. And so I'm not thinking that the reason I'm skeptical is because I don't want other people to do what I do. I think it's more because I feel like the hype and the reality are distinct. That what the reality is producing is mostly devoid of creativity. People are confusing knowing what to look up with being creative. And I think knowing what to look up is a skill, and a lot of us have it, and the better engineers I think are better at it. And so yes, AI helps to ease that problem. But knowing what to even ask about, or looking at a new solution to a problem - that's something that I think is well beyond what's AIs are capable of now, or in the reasonably -- like, the LLM model I think is fundamentally non-creative. That's my take on it.
 
-**Johnny Boursiquot:** \[00:28:38.23\] Spicy. We're not at the --
+**Johnny Boursiquot:** \[28:38\] Spicy. We're not at the --
 
 **Kent Quirk:** We're not at that point yet?
 
@@ -180,7 +180,7 @@ But on the less noble end of things, you could say there are companies that are 
 
 **Steven Pyle:** I think at a point it becomes like a personal AI, where it's tuned to you, your data doesn't get shared... Then it becomes like a superpower. It's like your co-pilot, right?
 
-**Sharon DiOrio:** \[00:32:11.22\] But how would that work? If it's only got your data, it's basically replicating, to a point, you...
+**Sharon DiOrio:** \[32:11\] But how would that work? If it's only got your data, it's basically replicating, to a point, you...
 
 **Kent Quirk:** There's a generic -- it's trained on the universe, and then specialized for you...
 
@@ -214,7 +214,7 @@ On the opposite side of it is the highly-specialized person who understands a bu
 
 **Steven Pyle:** I don't think so, personally...
 
-**Sharon DiOrio:** \[00:35:56.27\] How many of those people do we need?
+**Sharon DiOrio:** \[35:56\] How many of those people do we need?
 
 **Johnny Boursiquot:** And that's the thing, right?
 
@@ -266,7 +266,7 @@ On the opposite side of it is the highly-specialized person who understands a bu
 
 **Sharon DiOrio:** It doesn't matter what language it is, there's people out there that you respect their code, and you'd be like "Yes, I would like my code to be more like this. I wish it would learn that that's what I was thinking, or that's the way this problem should be thought about." I mean, yes, there's a precious few of those people, and those people will probably never lose their jobs... But for the rest of the mere mortals, they're going to have to work with the tools that are out there. And I would love if this was a possibility now, that you could train Copilot on what you'd say to train it on, and not all of GitHub.
 
-**Kent Quirk:** \[00:40:15.27\] I think there are companies that are working on that product. I feel like I've even seen a product announcement like it... But yeah, I mean, the thing about it is you can take one of these LLMs, and you can essentially subset it, and you can make a tiny, compact LLM that will run in a box that you can actually stand on your desktop... And then you can further train that with new information. So that's exactly what you want to do here, you want to take a coding-centric LLM, like a Copilot, and create the mini version of it, and then train it on your repositories, and now it knows how to write your code, and it's also not talking out to the cloud while doing it. So there's got to be businesses like that, if there aren't any.
+**Kent Quirk:** \[40:15\] I think there are companies that are working on that product. I feel like I've even seen a product announcement like it... But yeah, I mean, the thing about it is you can take one of these LLMs, and you can essentially subset it, and you can make a tiny, compact LLM that will run in a box that you can actually stand on your desktop... And then you can further train that with new information. So that's exactly what you want to do here, you want to take a coding-centric LLM, like a Copilot, and create the mini version of it, and then train it on your repositories, and now it knows how to write your code, and it's also not talking out to the cloud while doing it. So there's got to be businesses like that, if there aren't any.
 
 **Sharon DiOrio:** And this is where we redact all of this and put it into our business plan, right? \[laughter\]
 
@@ -286,7 +286,7 @@ On the opposite side of it is the highly-specialized person who understands a bu
 
 **Steven Pyle:** Well, not for me...
 
-**Kent Quirk:** \[00:43:48.08\] So I've worked with a couple of -- with several junior engineers over the last few years, and some of them have done very well and some of them haven't... And the ones who have done well are mostly the ones who know how to work, that know how to study a problem, figure out what needs to be solved, find the problems that exist within it, and then address those things at whatever level they're capable of addressing them. So the brilliant computer scientist is less important than being able to like have a real conversation, and understand the real problem, and work with other people. So I want you to get that out of college, so I want you to be going to a college where a lot of your work is working in teams to make things happen.
+**Kent Quirk:** \[43:48\] So I've worked with a couple of -- with several junior engineers over the last few years, and some of them have done very well and some of them haven't... And the ones who have done well are mostly the ones who know how to work, that know how to study a problem, figure out what needs to be solved, find the problems that exist within it, and then address those things at whatever level they're capable of addressing them. So the brilliant computer scientist is less important than being able to like have a real conversation, and understand the real problem, and work with other people. So I want you to get that out of college, so I want you to be going to a college where a lot of your work is working in teams to make things happen.
 
 **Sharon DiOrio:** Oh, God, please no... \[laughter\] I still haven't processed the trauma from working on teams in college... I get what you're saying though.
 
@@ -320,7 +320,7 @@ So I'm not saying people going to college or thinking about going to college sho
 
 **Johnny Boursiquot:** I heard \[unintelligible 00:47:05.08\] I was like "Yup, that checks out." \[laughs\] Okay, okay. So my next question then is basically kind of along the same lines... If you were entering the field today, as a professional -- let's just put it this way. All of us here are professionals, many years of experience... If you're about to transition into a new job, where you know AI might be a requirement, or even if they if it's not explicitly stated, how are you preparing to make that switch? What are you doing right now?
 
-**Sharon DiOrio:** \[00:47:46.03\] I'll give a very pragmatic answer. I am moving away from frontend CRUD, or doing my best to, even though I'll be honest that's what's on my resume and what I get the most calls for... I think the frontend CRUD is going to simplify -- it's already kind of distilling down to a handful of frameworks. And even those frameworks are used in even a more prominent way... So I'm not seeing that as a growth industry. And I'm really sad if you just went through a bootcamp and they told you you were going to make a lot of money... Maybe that was the case five years ago, but it's a different world. Personally, I'm getting closer to the data again. I don't think data is going to go anywhere, and I think that they're always going to need people to feed the voracious beast of AI when it comes to analyzing data, and understanding data. And if you're a frontend person who hasn't dealt with a lot of data at any level of the stack other than JSON, I would honestly start looking at what goes into creating the API responses that you get, for instance. Just start looking a little deeper.
+**Sharon DiOrio:** \[47:46\] I'll give a very pragmatic answer. I am moving away from frontend CRUD, or doing my best to, even though I'll be honest that's what's on my resume and what I get the most calls for... I think the frontend CRUD is going to simplify -- it's already kind of distilling down to a handful of frameworks. And even those frameworks are used in even a more prominent way... So I'm not seeing that as a growth industry. And I'm really sad if you just went through a bootcamp and they told you you were going to make a lot of money... Maybe that was the case five years ago, but it's a different world. Personally, I'm getting closer to the data again. I don't think data is going to go anywhere, and I think that they're always going to need people to feed the voracious beast of AI when it comes to analyzing data, and understanding data. And if you're a frontend person who hasn't dealt with a lot of data at any level of the stack other than JSON, I would honestly start looking at what goes into creating the API responses that you get, for instance. Just start looking a little deeper.
 
 **Johnny Boursiquot:** So if you're a frontend dev and the only thing you've ever done is consume APIs, and send something in, something that comes back out the black box, now it's time to start investing.
 
@@ -366,7 +366,7 @@ So there is still, as far as I know, a college premium. If you don't go to colle
 
 **Kent Quirk:** That's as good. I mean, that goes right in that list, in my view.
 
-**Sharon DiOrio:** \[00:52:08.00\] Yeah. And it turns out my major was actually a very small number of hours required... So every other hour I had was like I had so many electives. I was all over the school. It was great. I highly recommend it if you can do it. But there's so many -- the push to get job skills, and not waste your mom and dad's money on basket weaving... \[laughter\] I'm on team basket weaving. Sorry.
+**Sharon DiOrio:** \[52:08\] Yeah. And it turns out my major was actually a very small number of hours required... So every other hour I had was like I had so many electives. I was all over the school. It was great. I highly recommend it if you can do it. But there's so many -- the push to get job skills, and not waste your mom and dad's money on basket weaving... \[laughter\] I'm on team basket weaving. Sorry.
 
 **Steven Pyle:** I mean, I went back to get a degree in software engineering afterwards, halfway through my career. But that was later. It wasn't really -- it was useful, and I'm glad I did it, but it wasn't necessary.
 
@@ -394,7 +394,7 @@ So there is still, as far as I know, a college premium. If you don't go to colle
 
 **Sharon DiOrio:** No, I don't believe there's a line that like "Nope. You go, you don't." I believe that -- I'm not a runner. I have tried at various points. Could I get better at running? Absolutely. But I'm funny-shaped, I'm a peasant stock, and I don't run. I'll walk all day, and I'm strong at the plow, but I'm not going to be a runner. I think it's that same kind of like if you want it and you enjoy it, even if you're not naturally "gifted", yeah, you can make that work. I've bumped into plenty of those people. And largely, those people who are successful, again, are the ones who have industry knowledge, or something else to bring to the table... But yeah, then there's people that I've met who are just naturally gifted. They just see things in code, and... And most people aren't the be-all-end-all either, because I've worked with enough that type, that it's like, are they 10x developers, or do they just write 10 times the code that nobody else can work with? Okay, I went way off into the weeds on that one, I'm sorry.
 
-**Johnny Boursiquot:** \[00:56:08.06\] This is this is what this is for. Let it out, let it out. This is therapy.
+**Johnny Boursiquot:** \[56:08\] This is this is what this is for. Let it out, let it out. This is therapy.
 
 **Sharon DiOrio:** Good. Because my therapist doesn't really want to hear me rant about this.
 
@@ -438,7 +438,7 @@ So be humble, don't be afraid to let go of some long ingrained habits, and espec
 
 **Sharon DiOrio:** I don't worry about seeing whether or not it's in the language, I just use Lodash.
 
-**Johnny Boursiquot:** \[00:59:57.28\] Well, my advice would be - you know, it continues to be... Maybe I'm just stubborn. I don't know. I'd like to think not. I'd like to think I try to stay on top of things, and can spot trends and whatnot... But one thing that has sort of cut through any hype cycle for me has been the principle of sort of being a T-shaped developer. Be sort of knowledgeable in a lot of different things. Be a generalist. But have one strong -- like your master of one, right? What's that old saying? Master of one --
+**Johnny Boursiquot:** \[59:57\] Well, my advice would be - you know, it continues to be... Maybe I'm just stubborn. I don't know. I'd like to think not. I'd like to think I try to stay on top of things, and can spot trends and whatnot... But one thing that has sort of cut through any hype cycle for me has been the principle of sort of being a T-shaped developer. Be sort of knowledgeable in a lot of different things. Be a generalist. But have one strong -- like your master of one, right? What's that old saying? Master of one --
 
 **Kent Quirk:** Jack of all trades?
 
