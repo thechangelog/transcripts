@@ -73,7 +73,7 @@ People are solving some of the world’s biggest problems with graphs…Now it�
 
 Begin your journey at Neo4j.com/developer
 
-Once again that's n-e-o-4-j.com/developer.
+Once again that's N-e-o-4-j.com/developer.
 
 **Break:**
 
@@ -105,7 +105,7 @@ Do you like the idea of Airtable, but would rather it be self-hosted and actuall
 
 **Jerod Santo:**
 
-[Announcing Target’s Open Source Fund](https://tech.target.com/blog/open-source-fund)
+[Announcing Target’s Open Source Fund](https://tech.target.com/blog/open source-fund)
 
 **Break:**
 
