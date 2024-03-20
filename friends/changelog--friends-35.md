@@ -82,7 +82,7 @@
 
 **Jerod Santo:** I take the opposite stance; I try to stay as high-level as possible. So my old line was "I make websites." And that worked pretty well. People were like "Okay." Because they understand websites. "You make websites. We're done here." And then I got to writing other stuff, and so I changed it to like "I write software", or "I'm in software", and that was pretty much people are done with you at that point. They're like "Okay. That's nice, Jerod. Let's move on." Now it's weird, actually. "I podcast about software." And they're like "You what now? Because those are two things that are foreign to me." And it usually opens up a bigger question. They don't want to ask about the software, but they do want to ask about the podcasting. For some reason that's interesting to people... But also sometimes harder to explain how it all works.
 
-**Adam Stacoviak:** \[00:08:13.22\] It is.
+**Adam Stacoviak:** \[08:13\] It is.
 
 **Parker Selbert:** You've got a meta situation too, because you write software to make it easier for you to publish your podcast about writing software.
 
@@ -128,7 +128,7 @@
 
 **Parker Selbert:** I thought it was poetic. I liked that.
 
-**Shannon Selbert:** \[00:11:49.21\] It is poetic, and I embrace that. But I hate to give somebody the whole pie in the sky without the reality of the patience it takes to restrain yourself when your partner is refactoring something, or has critique of you in a response. And the familiarity leads you to a dark place. You have to be patient; you just have to be extremely patient... Because a work incident, an incident with a customer or with code - it could become a personal incident in a matter of seconds. So it's just that restraint.
+**Shannon Selbert:** \[11:49\] It is poetic, and I embrace that. But I hate to give somebody the whole pie in the sky without the reality of the patience it takes to restrain yourself when your partner is refactoring something, or has critique of you in a response. And the familiarity leads you to a dark place. You have to be patient; you just have to be extremely patient... Because a work incident, an incident with a customer or with code - it could become a personal incident in a matter of seconds. So it's just that restraint.
 
 **Adam Stacoviak:** Yeah. Well, that's where love and respect comes into play, right?
 
@@ -148,7 +148,7 @@
 
 **Jerod Santo:** And you had a proven guinea pig, so to speak, with Mike Perham and Sidekiq, and Sidekiq Pro, in the Ruby world, in the Rails world. Much success, very much similar projects, similar structure. That had to feel good, to say "Okay, here I am in a different place, with different tools, probably some of the same people who remember Sidekiq, like me, for instance... So there's an analog that I can draw pretty easily to Sidekiq." Although in the Elixir land background jobs are less necessary. The kind of background jobs that you provide are less necessary for people just getting started. And then I think eventually you kind of do grow into wanting the persistence, and a lot of the scheduling and the tooling that you provide... But I went a long time without having any background solution on our application. Probably three or four years. I need to look back and see exactly when I pulled Oban in the first time. But besides that, you did have kind of Rails to run on, to a certain extent. Did that give you confidence? Were you basically saying "I'm going to Mike Perham's playbook and apply it in this ecosystem"? I mean, no shame in doing that, by the way. That's a good way to do things. Was that part of your playbook?
 
-**Parker Selbert:** \[00:16:16.15\] That was definitely part of the playbook. And I do have history. I'm not gonna say Mike's my friend, but I do have history in the past of collaborating with him, and sharing some work with him, and writing a tremendous amount about Redis and Sidekiq, and helping former contracting clients onboard Enterprise and Pro. So I was deeply familiar with both the business, and the code, and all the features, and saw it as such a great way to have a technical project that is a -- it's a developer tool, so you're selling to developers, but also scratching your own itch, where you understand deeply exactly what problems you have.
+**Parker Selbert:** \[16:16\] That was definitely part of the playbook. And I do have history. I'm not gonna say Mike's my friend, but I do have history in the past of collaborating with him, and sharing some work with him, and writing a tremendous amount about Redis and Sidekiq, and helping former contracting clients onboard Enterprise and Pro. So I was deeply familiar with both the business, and the code, and all the features, and saw it as such a great way to have a technical project that is a -- it's a developer tool, so you're selling to developers, but also scratching your own itch, where you understand deeply exactly what problems you have.
 
 But you're right, in many ways it's not as necessary in Elixir. You can get away without it for a while. And that until you understand that you have certain guarantees that you want to hit, of "I'm not ever going to lose this thing." So the concurrency story in Elixir compared to the concurrency story in Ruby are vastly different. It's unbelievably easy to do certain things in Elixir, that would be tremendously difficult, if not impossible to do in Ruby. And so that's part of like the springboard for -- Oban has a lot, I think, deeper features than much of what even Sidekiq Enterprise still has. And that's purely because of what Elixir makes possible.
 
@@ -162,7 +162,7 @@ But I will say one other thing is that I remember after somebody added Oban to t
 
 So don't necessarily go look at the Changelog.com codebase for how to do things today... But even context. Like, Phoenix really promotes the idea of contexts now, and I just ignore them all together. And so I tried to introduce contexts as the feature came out, because the Phoenix team was really big on it, and the ecosystem was big on it... And for our application it just felt like another layer of abstraction that I didn't necessarily need, and so I just ignored it. Which - I love that about Elixir; you can just ignore the stuff. And about Phoenix, the way it's built. And you just don't have to use it. I mean, sure, it's the idiom; you're gonna look less like a Phoenix app by doing so. But you can just ignore it and do things your way. And so I've continued to do that, and I think that most modern Phoenix apps wouldn't look like ours, at least for that reason. And LiveView.
 
-**Parker Selbert:** \[00:20:28.07\] Yeah, yeah. Plus LiveView. Yeah, for Oban web, for the development, we have like a single-file script that's essentially an entire Phoenix application in one file, that also generates random jobs, and all this different timing... The kind of stuff that we have on our demo, so that when you're working on it locally, you have some reasonable amount of job traffic, and errors, and cancellation. But that fits in exactly one file. It's not like it's an entire, full-blown, scaffolded Phoenix app. It's just the bare bones things. And as long as you configure it right, and the modules are there, it all just works. So it's easy in that way, once you understand what the parts are.
+**Parker Selbert:** \[20:28\] Yeah, yeah. Plus LiveView. Yeah, for Oban web, for the development, we have like a single-file script that's essentially an entire Phoenix application in one file, that also generates random jobs, and all this different timing... The kind of stuff that we have on our demo, so that when you're working on it locally, you have some reasonable amount of job traffic, and errors, and cancellation. But that fits in exactly one file. It's not like it's an entire, full-blown, scaffolded Phoenix app. It's just the bare bones things. And as long as you configure it right, and the modules are there, it all just works. So it's easy in that way, once you understand what the parts are.
 
 **Jerod Santo:** Right. Well, that was one of the things that attracted me to Phoenix in the first place, was how simple it was relative to Rails, in terms of -- for me, it was the stack traces when I threw an error on the page. The stack traces were tiny. You know how in Rails - probably to this day; I haven't done Rails in a long time. But it's like "Here's your application code trace, and then here's the framework trace. And this one's collapsed by default, because you don't want to look at that one." And it's the same way in Phoenix. But when you go and expand the framework trace, at least back in the early days, it was like eight function calls. I mean, it was nothing. My code was there, and you could see the entire pipeline of function calls. And it was like 12 function calls... And I was like "Wow, this is something I can actually reason about relatively easily." Now it's probably a little more deeper than that now. You guys probably know better than I do, perhaps... But I liked that. It was just, it was grokable. Like, you could see all of Phoenix, and there was nothing hidden from you.
 
@@ -180,7 +180,7 @@ So don't necessarily go look at the Changelog.com codebase for how to do things 
 
 **Adam Stacoviak:** I'm looking at the date when we recorded that. That was -- March 20th 2015 was the record, and shipped it, which means it's probably around the same week span... Because this is prior to us having separate date fields in our CMS for those things. Because this was published probably the old way, prior to the CMS. And the CMS is the application we're talking about.
 
-**Jerod Santo:** \[00:23:58.02\] Oh, it had to be the old way.
+**Jerod Santo:** \[23:58\] Oh, it had to be the old way.
 
 **Adam Stacoviak:** Yeah.
 
@@ -206,7 +206,7 @@ So don't necessarily go look at the Changelog.com codebase for how to do things 
 
 **Shannon Selbert:** Yeah, dual anniversaries for the Oban context. I think that would be a dream, to have people choose Elixir in the way that people love Phoenix. I'm not going to say that would ever happen, but that would be a dream, that people would come to Elixir, wanting to use Oban.
 
-**Break**: \[00:24:56.23\]
+**Break**: \[24:56\]
 
 **Shannon Selbert:** We understand our niche pretty well. We can clarify the market all we want for us, unless we have more people, more Elixir users, we'll max out at some point. That's just the reality of such a -- Elixir is just an amazing thing...
 
@@ -226,7 +226,7 @@ So if you look at some popular tools in the Python side, like Dagster, or things
 
 So the vision that we have is that it's enough that you can have your web app, but you can also have your web app orchestrate things, and it can do all this ML stuff, and it's all under one blanket of a single ecosystem. And then you have all of the other, like fantastic documentation, and great packages, and a really vibrant, responsive community. You have all of those things, instead of having to scatter your attention between the JavaScript for some stuff, and a server-side language for some stuff, and Python for the ML side.
 
-**Adam Stacoviak:** \[00:31:46.00\] As you describe this, I'm thinking, do you produce any content around this attracting folks to Elixir because of this comparative nature to Python, and how it's good, and it does it, but it doesn't do it well? ...I'm paraphrasing what you said there... But it sounds like you've got a bias, obviously, because we know where you live in terms of where your camp is at. I'm just curious, how much do you help with the growth, not just provide the tooling? And I don't mean that in a negative just, but how much are you doing activism, and outreach, and advocacy around the depth of ability that you can have in Elixir over other traditional ways, or maybe ways that are being seen as... Well, Python's the easy path in some cases for those kinds of workflows, for example. And that seems to be the default in the marketplace, so to speak, of dev land. And they don't consider Elixir, because there's not enough awareness.
+**Adam Stacoviak:** \[31:46\] As you describe this, I'm thinking, do you produce any content around this attracting folks to Elixir because of this comparative nature to Python, and how it's good, and it does it, but it doesn't do it well? ...I'm paraphrasing what you said there... But it sounds like you've got a bias, obviously, because we know where you live in terms of where your camp is at. I'm just curious, how much do you help with the growth, not just provide the tooling? And I don't mean that in a negative just, but how much are you doing activism, and outreach, and advocacy around the depth of ability that you can have in Elixir over other traditional ways, or maybe ways that are being seen as... Well, Python's the easy path in some cases for those kinds of workflows, for example. And that seems to be the default in the marketplace, so to speak, of dev land. And they don't consider Elixir, because there's not enough awareness.
 
 **Shannon Selbert:** Well, should we discuss that which shall not be named? I mean...
 
@@ -258,7 +258,7 @@ So the vision that we have is that it's enough that you can have your web app, b
 
 **Adam Stacoviak:** What's stopping you all from doing this? I mean, this -- again, I think Jerod asked before, "Hey, did that give you confidence because of the path of Sidekiq and Sidekiq Pro when you initially started?" This to me says there's room for a mature option, I suppose. But then that really depends on -- because your whole entire operation goes from... Let's just call you mom and pop. Do you mind if I call you mom and pop?
 
-**Shannon Selbert:** \[00:36:07.19\] No, we definitely refer to ourselves as the mom and pop software shop.
+**Shannon Selbert:** \[36:07\] No, we definitely refer to ourselves as the mom and pop software shop.
 
 **Adam Stacoviak:** Right. I mean, you very much are. I mean, I don't know more of your employment, like if you have other folks working with you... Maybe you have temps, I don't know... Who knows? I don't know what you have. But it seems mom and pop. It would say "Okay, you've got to graduate to a whole new level. And do you want to be at that level?" You may see the market opportunity; that's going to change your lives, that's going to change a lot for you... And sometimes - I've even lamented about this with podcasting, running an indie media company. It's like, I like what we do, I like what we do as an indie media company... But at some point the market and maybe other competition may say that we, Changelog Media, has to become more of a "behemoth" of sorts, or funded, or operate differently because competitors compete with us for ear share, market share, mindshare etc And then so we've got to follow suit, or wither on the vine and die, or just be happy with our little slice of pie. Not intended to rhyme that, but I did.
 
@@ -316,7 +316,7 @@ So Y Combinator-backed, Hatchet seems pretty -- just going to their page, it see
 
 **Adam Stacoviak:** I can see the dynamic already playing out. You asked her to rap her response, and "Go!' That was cool.
 
-**Shannon Selbert:** \[00:40:02.01\] And I took my three fingers and put them in the middle of my forehead, to just try to express the pain...
+**Shannon Selbert:** \[40:02\] And I took my three fingers and put them in the middle of my forehead, to just try to express the pain...
 
 **Parker Selbert:** Alright, the answer... I don't know. Well, you can say whatever --
 
@@ -364,7 +364,7 @@ So Y Combinator-backed, Hatchet seems pretty -- just going to their page, it see
 
 **Shannon Selbert:** Right.
 
-**Parker Selbert:** \[00:43:58.27\] Yeah. But also, for you as an indie media company, there's part of it, like, how much do you want to grow, versus how much do you not want to face an existential crisis?
+**Parker Selbert:** \[43:58\] Yeah. But also, for you as an indie media company, there's part of it, like, how much do you want to grow, versus how much do you not want to face an existential crisis?
 
 **Adam Stacoviak:** I think Jerod and I can answer that pretty well.
 
@@ -408,7 +408,7 @@ So they were just surprised that I had this long game approach to things. And I 
 
 **Parker Selbert:** No fear at all.
 
-**Adam Stacoviak:** \[00:48:07.19\] Okay. Well, you were just saying how you were making sure your customers were made good if something happened, a tragedy... So you were speaking melodramatic about the potential.
+**Adam Stacoviak:** \[48:07\] Okay. Well, you were just saying how you were making sure your customers were made good if something happened, a tragedy... So you were speaking melodramatic about the potential.
 
 **Parker Selbert:** Oh, she's talking like really tragic. Very tragic.
 
@@ -446,7 +446,7 @@ So they were just surprised that I had this long game approach to things. And I 
 
 **Parker Selbert:** And that's the plan. That's the whole thing.
 
-**Break**: \[00:50:13.04\]
+**Break**: \[50:13\]
 
 **Jerod Santo:** And what was your freedom number, and when did you reach your freedom number?
 
@@ -552,7 +552,7 @@ good, Parker."
 
 **Jerod Santo:** And I said "Hey, I haven't needed background jobs stuff like this before." And we needed it because I think there was a specific use case... So we had Alex doing some contract work for us. I think it was when we decided we wanted people to be able to edit comments for like three minutes, or five minutes after you posted... Just the typo fix. And so when you send a comment on one of our episodes, everybody who's on the episode and hasn't opted out, or whoever you're applying to, they get emails. So there's logic there about who gets notified. Our comments system is nice, because it's not heavily used, and so each comments pretty high signal... And you want to know about it; there's very few, so you get the email. No big deal. However, we want to give the people the opportunity to fix the typos before we send that email. We'll put the comment content in the email notifications; you don't have to come back to the website, you can read what they said.
 
-\[00:58:15.28\] And I said "Alex, we want to be able to edit those comments, just because typos. We just want to be better than Twitter." This is back when you didn't have edit support. I'm like "We've gotta have edit support, because we've got to be better than Twitter." So he went ahead and was working on that, and what that required was basically a future-scheduled background job, that when you create the comment for the first time, it's gonna schedule the notification to go out in five minutes, or three minutes, or whatever the threshold is. And we couldn't get that done without Oban. I mean, we could have done it some other way, but he liked Oban, so he reached for open. And then I was like "Well, now that it's in here, we might as well just use it for all the other things that I was just using processes", for spawn, on or whatever it is. I can't remember the actual module name. I'm sure you know it, Parker.
+\[58:15\] And I said "Alex, we want to be able to edit those comments, just because typos. We just want to be better than Twitter." This is back when you didn't have edit support. I'm like "We've gotta have edit support, because we've got to be better than Twitter." So he went ahead and was working on that, and what that required was basically a future-scheduled background job, that when you create the comment for the first time, it's gonna schedule the notification to go out in five minutes, or three minutes, or whatever the threshold is. And we couldn't get that done without Oban. I mean, we could have done it some other way, but he liked Oban, so he reached for open. And then I was like "Well, now that it's in here, we might as well just use it for all the other things that I was just using processes", for spawn, on or whatever it is. I can't remember the actual module name. I'm sure you know it, Parker.
 
 **Parker Selbert:** Task? I'm pretty sure it's Task.
 
