@@ -28,7 +28,7 @@ And it's crazy, because women actually -- I think we dictate 71% to 80% of spend
 
 So what does that mean for tech? What does that mean for how we build software and our return on investment, if we have this thing that statistically shows we are not going to build as good of software, and have as good of a return on investment without having people from different backgrounds, especially women, who is going to be a majority of your audience, and the purchasing power, and then we've decided to just abandon that? Where do we go forward?
 
-\[00:06:11.08\] Also, retention is horrible. It's 56% by mid career, by 35. So not only is only 25% or 27% of the industry women, and that's not even mostly a technical... I think black women are 1.6%, Latino women are 2%, and those are not widely, like, engineering, right?
+\[06:11\] Also, retention is horrible. It's 56% by mid career, by 35. So not only is only 25% or 27% of the industry women, and that's not even mostly a technical... I think black women are 1.6%, Latino women are 2%, and those are not widely, like, engineering, right?
 
 **Justin Garrison:** Yeah, "in tech" is a very broad term for management, PM, various things.
 
@@ -64,7 +64,7 @@ So what does that mean for tech? What does that mean for how we build software a
 
 **Justin Garrison:** Yeah, it's alright. We're still gonna meet up, it's still recorded. Again, if anyone wants a live stream interview there in person, come find us. I'll be around Thursday, Friday, Saturday and Sunday, because I help organize SCALE and KCD. And then Autumn, you'll be there mostly Saturday and Sunday, but a bit on Friday.
 
-**Autumn Nash:** \[00:10:06.14\] And we're getting tacos. So everybody, let's meet up and get tacos. I'm so excited; we're gonna finally meet in real life. Also, we have to not forget to talk about your link. What's your link for this week?
+**Autumn Nash:** \[10:06\] And we're getting tacos. So everybody, let's meet up and get tacos. I'm so excited; we're gonna finally meet in real life. Also, we have to not forget to talk about your link. What's your link for this week?
 
 **Justin Garrison:** My link is all about the Fediverse, actually, for Mastodon specifically. I've found this link interesting, mainly because it talks about how to kind of discover infrastructure, and how to discover what the backend of something is. So if you're not aware, Mastodon is a server that connects into Fediverse instance with Activity Pub, and someone walked through how they were figuring out where the instances were running, and what providers they were on... Because all of these Activity Pub endpoints have well-known endpoints, and one of the things at the very beginning was about 50% of it is on, or at least fronted by Fastly and Cloudflare.
 
@@ -74,7 +74,7 @@ So what does that mean for tech? What does that mean for how we build software a
 
 And one of the coolest things in here was there was a good percentage of - anything behind Cloudflare, because coffer was the largest CDN in front... But 30% of the Cloudflare endpoints were hosted at home. For BGP tools, it just showed it as a home internet access point. So people are running Mastodon servers at their house, putting Cloudflare in front of it so that they don't get DDoS-ed.
 
-**Break**: \[00:11:44.26\]
+**Break**: \[11:44\]
 
 **Justin Garrison:** ...which is a German cloud provider. 51% was there, mostly because of Mastodon.social, which is the big instance. It's like the largest default instance.
 
@@ -100,7 +100,7 @@ And one of the coolest things in here was there was a good percentage of - anyth
 
 **Autumn Nash:** I love the way that you approach infrastructure, in a very physical, cool way, where you get excited about it, and then you talk about it \[unintelligible 00:13:15.01\] actual projects, and the way that it kind of interacts with the real world... Because I think it makes it so much more accessible to people that want to get into that. Your approach is so much more accessible. You don't talk about it in a way that is so high level that it makes it intimidating. You talk about it how it affects the real world, which makes it so much more accessible to somebody that wants to learn about it... Which is how I think we get more people into tech and more people in infrastructure... Because the percentage of people that can meet people at these high-level places - it makes it so hard. So I think that's just a really cool way to being helpful to let other people in and kind of get people interested, which I hope that's what this podcast does, it makes infrastructure more accessible and obtainable, and that is intimidating, you know?
 
-**Justin Garrison:** \[00:14:04.27\] Yeah, and I appreciate it, because that's how I understand things, and that's how I learn things. If I'm going to try to figure out "How does security work?", I need to be able to relate it to something that I physically know.
+**Justin Garrison:** \[14:04\] Yeah, and I appreciate it, because that's how I understand things, and that's how I learn things. If I'm going to try to figure out "How does security work?", I need to be able to relate it to something that I physically know.
 
 **Autumn Nash:** Yes. I'm like a very -- I need to draw that relationship, you know?
 
@@ -166,7 +166,7 @@ this."
 
 **Justin Garrison:** I'll have three jackets on, it is okay. I will survive. I just need a little a few more layers. Alright, so let's go ahead and jump into that interview with Kyle right after the break.
 
-**Break**: \[00:17:01.24\]
+**Break**: \[17:01\]
 
 **Justin Garrison:** Alright, we're really happy to have Kyle Quest on the show. Kyle was a founder at SlimAI and DockerSlim, and has a lot to say about Docker containers and how to make them smaller, but also how to make them more useful. So Kyle, welcome to the show. Can you tell us about yourself?
 
@@ -190,7 +190,7 @@ Originally, the automation opportunities were pretty basic. You kind of had to h
 
 **Kyle Quest:** So the reason AI was there is not because of the actual artificial intelligence. It represented two concepts. One I mentioned, application intelligence, and then the other one is autonomous infrastructure. So the idea was application intelligence leads to autonomous infrastructure. But we never got around to that, and that's what I'm trying to do now, take the application intelligence and get to autonomous infrastructure.
 
-**Justin Garrison:** \[00:25:46.08\] So the original problem you were solving though was - I don't assume it was just "My containers are too big." There had to be something that was driving that. My very first container that I ever built was 60 gigs. And it was large, but it was still useful. So what problem actually drove you? Why did you need a small container?
+**Justin Garrison:** \[25:46\] So the original problem you were solving though was - I don't assume it was just "My containers are too big." There had to be something that was driving that. My very first container that I ever built was 60 gigs. And it was large, but it was still useful. So what problem actually drove you? Why did you need a small container?
 
 **Kyle Quest:** Production-ready containers, or VMs, or anything, when you prepare your application for production, you go through this hardening phase, where you go from a developer-friendly setup, either a VM or a container, to a more locked down setup, where you look at the security too to make sure it can't be easily exploited. For example, when an attacker exploits a vulnerability, they persist, and then they move laterally.
 
@@ -204,7 +204,7 @@ And the reason why it's evolving to the new name is because when the tool was go
 
 And one of the newer capabilities is debugging. So you create a minimal container image, but it doesn't have a shell. And then you want to use that minimal container image in production. And I heard this over and over again when I talked to people about it, developers, DevOps engineers, SREs... They say "Okay, how am I supposed to debug it? There is no shell. What if it crashes?" I mean, if the application is perfect, great. It never crashes, it has no problems, but it never happens. It doesn't work that way. So not being able to debug minimal container images has been a barrier to adoption for the minimal container images in general, regardless of how you build them; whether you build them from scratch, doing it manually, or using tools, you've got to be able to debug them. And that's one of those additional adjacent commands.
 
-\[00:30:12.02\] In terms of the core capability, minification core capability, the intelligence to handle more advanced applications, runtimes evolved and improved, but the main idea is to combine static analysis with dynamic analysis, and build this profile in terms of what it is that you have, what it needs, the dependencies, and all of that.
+\[30:12\] In terms of the core capability, minification core capability, the intelligence to handle more advanced applications, runtimes evolved and improved, but the main idea is to combine static analysis with dynamic analysis, and build this profile in terms of what it is that you have, what it needs, the dependencies, and all of that.
 
 **Justin Garrison:** You have these extra abilities on top of slimming things down. You have the "We need to give you best practices around your dockerfile to make sure your cache is good. And we can get rid of all that apt or yum cache" or whatever it is that you don't need anymore for your application. But there's got to be a middle thing here, of like "I do from Ubuntu, and my application is a Python script." Are you profiling the application as it starts, and then saying "Hey, here's all the files you opened. Let's delete everything else"? Or are you compressing files? Or are you just relayering the container images, so polls are faster? What is the actual technology that allows you to make this from a few hundred megs down to tens of megs, hopefully.
 
@@ -226,7 +226,7 @@ For example, one of the capabilities DockerSlim uses is this fanotify capability
 
 **Kyle Quest:** That's a good question. So eBPF is an evolution of the old school concept behind BPF, Berkeley Packet Filters. And it was a networking construct that allowed you to capture packets from the network, and allowed you to filter packets that you're capturing. So a couple of decades ago network sniffing tools, and networking tools have been super-popular. They're still popular, but I wasn't involved in that space a lot... So all those tools used eBPF to capture packets. But then, the new version was created that allowed you to capture not only the network traffic, but other things in the system. And e stands for extended BPF.
 
-\[00:34:03.19\] So with that extended eBPF system you can get the networking information, you can hook into different parts of the networking stack, but also hook into different parts of the OS stack as well, including the parts that allow you to see what's going on in the system. And now it's used by a lot of different tools, security tools. A lot of the runtime security tools use that, especially in Kubernetes. And then a lot of continuous profiling tools are using it, observability... In the last couple of KubeCons, continuous profiling and observability powered by eBPF had been big themes, and it's growing in popularity. And there's also a number of tools, security tools, like Falco, Tetragon, Tracee, that leveraged this capable already for runtime security needs in Kubernetes clusters or endpoints, and that's one of the new tools that DockerSlim or MinToolkit is integrating with in order to get more data to use for application intelligence.
+\[34:03\] So with that extended eBPF system you can get the networking information, you can hook into different parts of the networking stack, but also hook into different parts of the OS stack as well, including the parts that allow you to see what's going on in the system. And now it's used by a lot of different tools, security tools. A lot of the runtime security tools use that, especially in Kubernetes. And then a lot of continuous profiling tools are using it, observability... In the last couple of KubeCons, continuous profiling and observability powered by eBPF had been big themes, and it's growing in popularity. And there's also a number of tools, security tools, like Falco, Tetragon, Tracee, that leveraged this capable already for runtime security needs in Kubernetes clusters or endpoints, and that's one of the new tools that DockerSlim or MinToolkit is integrating with in order to get more data to use for application intelligence.
 
 **Autumn Nash:** what was the coolest thing that you got to break when you were at Microsoft?
 
@@ -244,7 +244,7 @@ So the fuzzing tech was great. I think it was the best compared to other vendors
 
 **Justin Garrison:** So you have all of these technologies you have as part of slimming this down... Fanotify... You're basically looking at, when you start the process, what does it access? What does it do? Anything that's not in that list, let's get rid of it. Let's just throw it away.
 
-**Kyle Quest:** \[00:37:54.13\] Almost, almost. What it is - it's one of the sources for data. So each monitor, each different monitor type collects different types of telemetry, it provides different information. And then there's additional processing. For example, let's say the fanotify monitor saw that one of the Python object files was loaded. And the way it works with Python applications - the Python runtime, it compiles the Python application into bytecode. So you end up with these Python object files that are cached. And when the application runs, it loads the object file. So what you see loaded is actually the object file, but you still need to have the source file. And that's an example of additional processing that needs to happen.
+**Kyle Quest:** \[37:54\] Almost, almost. What it is - it's one of the sources for data. So each monitor, each different monitor type collects different types of telemetry, it provides different information. And then there's additional processing. For example, let's say the fanotify monitor saw that one of the Python object files was loaded. And the way it works with Python applications - the Python runtime, it compiles the Python application into bytecode. So you end up with these Python object files that are cached. And when the application runs, it loads the object file. So what you see loaded is actually the object file, but you still need to have the source file. And that's an example of additional processing that needs to happen.
 
 So you see the object files being loaded, you see that "Oh, it's the Python runtime. We need to have the source files as well." So the source files are also added. So there's a number of additional post-processing steps that collect additional data based on the application type, based on what's going on... So it's not just what's loaded from my fanotify. There's a lot more going on there.
 
@@ -258,7 +258,7 @@ Plus, let's say you load an application... I don't know, kubectl. Now, kubectl i
 
 **Kyle Quest:** So let's start with security either way, because there are interesting benefits there that you normally wouldn't get otherwise, or you would have to do a lot more. So about security, you're removing the attack surface that you have in your container. The concept of attack surface is one of those fundamental constructs in security. The more stuff you have, the bigger attack surface you have. And with DockerSlim, you automatically reduce the attack surface. And not only that; the way you do it, you do it in a proactive way, not in a reactive way. If you use the traditional security controls like vulnerability management, the way it works - it's a very reactive control. Somebody discovers a vulnerability. Then that vulnerability is recorded. Then scanners look for that vulnerability. Then you try to fix or remove that vulnerability. It's very reactive, and you secure your application only after the fact. But the DockerSlim approach and the proactive attack surface reduction, you're removing a whole bunch of stuff that may be exploited in the future, before there's a CVE discovered and before the scanners know about it. So that's one of the benefits, and it makes it easier to do... And it's actually related to container best practices; that will be good to talk about.
 
-**Autumn Nash:** \[00:42:06.29\] Honestly, that's really good best practices for all software, right? Having the least amount of attack area. And just the fact of having less dependencies, and stuff... It can really help you, but people don't think of it in advance. You now take on all the security risks of every dependency that you pull in, and every -- like, half the time we have packages that we don't even use, and they're just sitting there, waiting to make your application more vulnerable, and you don't even need them.
+**Autumn Nash:** \[42:06\] Honestly, that's really good best practices for all software, right? Having the least amount of attack area. And just the fact of having less dependencies, and stuff... It can really help you, but people don't think of it in advance. You now take on all the security risks of every dependency that you pull in, and every -- like, half the time we have packages that we don't even use, and they're just sitting there, waiting to make your application more vulnerable, and you don't even need them.
 
 **Kyle Quest:** Exactly, exactly.
 
@@ -278,7 +278,7 @@ So creating minimal container images, regardless of whether you do it from scrat
 
 **Kyle Quest:** Yeah, it's definitely a part of it. And those two things go together. But in terms of other benefits, a couple of other benefits, classic benefits that developers like - faster pools, that's one. And then faster startups, that's another one. So that, in some environments, it's a bigger problem than in other environments. Because let's say you use some kind of containerized function environment like Lambda. There you get billed for each load, and Lambdas get loaded a lot. A lot happened with Lambdas in terms of optimizing, and different advanced image formats, and all of that... But fundamentally, you get charged every time your image gets loaded, and that's one of the benefits that others liked, too.
 
-**Justin Garrison:** \[00:46:33.20\] How does removing files I don't use increase my startup time?
+**Justin Garrison:** \[46:33\] How does removing files I don't use increase my startup time?
 
 **Kyle Quest:** It makes it faster, but it decreases the time it takes to load the image.
 
@@ -302,15 +302,15 @@ So creating minimal container images, regardless of whether you do it from scrat
 
 So it comes down to this - when you control the environment, especially when you have a dedicated operating system like you guys, you know exactly what you need; you control that and you design that environment to work the way you need it to work. But for the general-purpose operating systems, for regular application developers, they simply don't know.
 
-So one of the things I see with people when they use multistage builds - so that's one of the recommendations that you hear: "Use multistage builds. You build the image in one stage", you run npm install, for example, if you have a Node application, or an Npm CI if you really follow the best practices...
+So one of the things I see with people when they use multistage builds - so that's one of the recommendations that you hear: "Use multistage builds. You build the image in one stage", you run npm install, for example, if you have a Node application, or an npm CI if you really follow the best practices...
 
-\[00:50:18.17\] And then you copy the stuff from there, from that stage, to your release stage. Well, there, again, you need to know what to copy. So most of the time, you see people just copying the entire application folder with everything in it... So it's pretty much going with "I'm gonna just copy everything, and that's it." And there's a lot of junk there still. And then you can't necessarily have a scratch image in the release stage, because you need to have dependencies. So you will have a minimal release stage image; that's great to have. But again, that's the main problem - you don't always know what you need. There is a middle ground, the idea with distroles images.
+\[50:18\] And then you copy the stuff from there, from that stage, to your release stage. Well, there, again, you need to know what to copy. So most of the time, you see people just copying the entire application folder with everything in it... So it's pretty much going with "I'm gonna just copy everything, and that's it." And there's a lot of junk there still. And then you can't necessarily have a scratch image in the release stage, because you need to have dependencies. So you will have a minimal release stage image; that's great to have. But again, that's the main problem - you don't always know what you need. There is a middle ground, the idea with distroles images.
 
 **Justin Garrison:** That's exactly where I wanted to go. I was like, what is the difference here with slimming it down from a fat image, versus distroless, and how do those compare?
 
 **Kyle Quest:** Yeah. So with the distroless images you have this minimal foundation for the runtime you have, for example, for Node applications. You have a set of basic OS libraries, and then a set of runtime-specific libraries; Node.js libraries that you need to have. And then you just add your application code on top of it with that multistage build, and you're good to go. And that's one way to do it, and it's a middle ground where you can say "Okay, I have a foundation that's stable, and then I'm just going to put everything in the application on top of it." But if you want to optimize it even more, then you can use something like DockerSlim, because you can run DockerSlim on the distroless-based images. You're not going to get a 10x size change, but you might get 50% change, or 30% change. So depending on the environment and how small you need to go, you can still benefit from that. And those distroless base images, they help you with the base image part, but not the application part of it. And if you look at other available options, like Wolfi, and Chainguard... They also help you with that foundation, but then you're on your own with the application itself, and you need to have this full end-to-end solution for the end user.
 
-**Justin Garrison:** And runtimes are almost operating systems unto themselves, because they need to be generic enough so you can run anything within the Java ecosystem or Npm ecosystem and still be able to "Hey, we don't know what's underneath us and we don't know what's above us, but we need to be big enough to cover as much as we think is possible."
+**Justin Garrison:** And runtimes are almost operating systems unto themselves, because they need to be generic enough so you can run anything within the Java ecosystem or npm ecosystem and still be able to "Hey, we don't know what's underneath us and we don't know what's above us, but we need to be big enough to cover as much as we think is possible."
 
 **Kyle Quest:** Yeah, they're like stem cells. The base images in general, base OS images are like stem cells; they can become anything. Those images can become anything depending on the application. The same with the runtime images; they're a little more purpose-built, but again, they're open in terms of what they're going to do, so they need to have a lot of extra components that you may not need. That's why slimming distroless-based images also works, and you get benefits from 20% to 50% there as well.
 
@@ -326,7 +326,7 @@ So one of the things I see with people when they use multistage builds - so that
 
 **Justin Garrison:** Sounds great. Thank you so much, and we'll be right back with the outro of the show.
 
-**Break**: \[00:54:15.02\]
+**Break**: \[54:15\]
 
 **Justin Garrison:** Thanks again, Kyle, for coming on the show and talking to us all about slimming down your container images, and different options for doing that, and why it might be important... Because that's just always a really interesting thing, to see not only if it's only a big tooling sector for containers, but also - hey, maybe this might be a good way to get better security benefits, or you even faster debugging by eliminating some of those files and things that you don't need anymore.
 
