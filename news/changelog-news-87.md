@@ -16,7 +16,7 @@ Ok, let's get into the news.
 
 Another open source project bites the dust. Here's their explainer:
 
-> The success of Redis has created a unique set of challenges. Redis has been sponsoring the bulk of development alongside a dynamic community of developers eager to contribute. However, the majority of Redis’ commercial sales are channeled through the largest cloud service providers, who commoditize Redis’ investments and its open source community. Despite efforts to support a community-led governance model, and our desire to maintain the BSD license, delivering multiple software distributions simultaneously – across open-source, source-available, and commercial software optimized for different on-premises and cloud platforms – is at odds with our ability to drive Redis successfully into the future.
+> The success of Redis has created a unique set of challenges. Redis has been sponsoring the bulk of development alongside a dynamic community of developers eager to contribute. However, the majority of Redis’ commercial sales are channeled through the largest cloud service providers, who commoditize Redis’ investments and its open source community. Despite efforts to support a community-led governance model, and our desire to maintain the BSD license, delivering multiple software distributions simultaneously – across open source, source-available, and commercial software optimized for different on-premises and cloud platforms – is at odds with our ability to drive Redis successfully into the future.
 
 When this news first dropped last Wednesday, I quipped: Gentlemen, start your forks. Drew DeVault must've been listening. (Probably not literally, but in spirit.) Enter [Redict](https://codeberg.org/redict/redict). Drew writes:
 
