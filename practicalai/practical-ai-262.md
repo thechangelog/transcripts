@@ -4,7 +4,7 @@ And finally, you'll hear a segment from the Changelog, where my co-host Adam Sta
 
 Okay, first up is JS Party and Devin.
 
-Break: \[00:02:23.23\]
+Break: \[02:23\]
 
 **Jerod Santo:** There's some news that's good. There's also some news that's maybe bad, maybe good... I don't know. The thing that everybody's talking about, this week at least as we record, and last week as well, is Devin, the first AI software engineer, according to the makers of Devin, which is Cognition Labs, a new company which raised a series A led by Founders Fund, headed up by Scott Wu, who seems to be a very intelligent person, even from a young age, if you watched that video of him doing math very quickly, at ages when it seems like you shouldn't know math very quickly... And they got a demo out there on this new AI software engineer. So I could say more; I'll stop right there. You all have probably seen the demo, Kball and Nick, or at least heard about what's going on... And this is a new tool, which can start from scratch, and do some cool stuff. I'll just leave it there for now, and we can talk about the details.
 
@@ -16,7 +16,7 @@ Break: \[00:02:23.23\]
 
 The other thing - and this is around... I think a part of what they do is "Oh, it can spin up resources for you." And they showed this cool demo of "You point it at this thing and it allocates a bunch of different production resources for you." And the person who's handled DevOps in me before, and now the engineering leader who has to sign off on our Digital Ocean, or AWS, or Google Cloud or whatever expenditures you might have, looks at that and is terrified by "I'm gonna give an LLM, which is known for hallucination, which is..." These things are not -- you have to design an application... And I'm building applications with an LLM, but you have to design around their unpredictability and their willingness to lie... And I'm going to give that raw access to spinning up resources in my cloud? Like, that sounds -- well, it sounds like something I would not sign up for, I'll say that.
 
-**Jerod Santo:** \[00:06:20.16\] Okay.
+**Jerod Santo:** \[06:20\] Okay.
 
 **Nick Nisi:** Kball, let he whose success rate at issues that is greater than one in seven cast the first stone...
 
@@ -44,7 +44,7 @@ The other thing - and this is around... I think a part of what they do is "Oh, i
 
 **Kevin Ball:** So this is a struggle with all of the LLM world right now, and all the AI world... Because on the one hand, we have been in a place where we're in the rapid part of an S curve. There have been some very rapid advancements in the core capabilities of these things. And they are super-freaking cool. Like, really cool. And also, they have a lot of limitations. A lot of those limitations are baked into the architecture that's being used.
 
-\[00:10:07.23\] And so you get kind of a situation where there's a bunch of people doing really cool stuff with this, and trying to figure out what it's good for... But it demos way better than it does anything reliably in production. Because you can get a really cool outcome 40% of the time, in some situations 70% of the time... And like you show that, and people are like "Oh my gosh, this is gonna take over the world!" And I would not trust a, for example, AI software engineer, even that could handle 70% of my tickets, but 30% of the time spins up millions of dollars of cost for me, right? Or like other things.
+\[10:07\] And so you get kind of a situation where there's a bunch of people doing really cool stuff with this, and trying to figure out what it's good for... But it demos way better than it does anything reliably in production. Because you can get a really cool outcome 40% of the time, in some situations 70% of the time... And like you show that, and people are like "Oh my gosh, this is gonna take over the world!" And I would not trust a, for example, AI software engineer, even that could handle 70% of my tickets, but 30% of the time spins up millions of dollars of cost for me, right? Or like other things.
 
 And once again, I'm not trying to take away from the technology, but I don't think these hyperbolic claims actually serve anyone, except for getting attention. They get attention - okay, great. And you're gonna get a whole bunch of people who buy this thing are disappointed. If it cost them a bunch of money, they'll sue your ass off. I'm like "Why would you do that to yourself?"
 
@@ -52,7 +52,7 @@ And once again, I'm not trying to take away from the technology, but I don't thi
 
 **Nick Nisi:** Somewhat, yeah. Yeah, it's humans who are deciding what is good out of that, and kind of helping to train that going forward. But I was trying to think and trying to relate this to another article I saw, that wasn't about Devin specifically, but it was about like prompt engineering as a "profession" being taken over already by AI, because an AI can iterate and more quickly come up with a way to answer the questions that you want, by appending exactly what it wants to hear at the end of a string. And I think the example that I heard from that was like "We want you to answer this question", and the AI is "incentivized" to answer it a little bit better if you put it into a scenario that it likes. So the AI is Captain Kirk on the Enterprise, and it has to answer this question to save the planet from whatever. And the question could be "What's two plus two?", or something really simple. And by putting in all of these extra prompt words that the AI is coming up with on its own, it's making better results overall. And I'm just wondering how that marries to the idea of humans being the ones who curate the good ideas that come out of it.
 
-**Jerod Santo:** \[00:14:00.22\] Well, prompt engineering, I've been convinced by Swyx that it's a code smell. At first, I was convinced this is the new thing that everybody needs to learn. And I think it's just a leaky abstraction that's we're currently dealing with as humans, because the tooling is not good enough, so that we have to engineer the prompts. I mean, Google's search box is prompt engineering. Knowing how to google -- it's the exact same thing, it's just way harder, and it's like way more magical now to tell it the magical incantations to get the best results back out. And so the fact that it knows what results are better to me is not intelligence or anything, it's just, we just need that to go away.
+**Jerod Santo:** \[14:00\] Well, prompt engineering, I've been convinced by Swyx that it's a code smell. At first, I was convinced this is the new thing that everybody needs to learn. And I think it's just a leaky abstraction that's we're currently dealing with as humans, because the tooling is not good enough, so that we have to engineer the prompts. I mean, Google's search box is prompt engineering. Knowing how to google -- it's the exact same thing, it's just way harder, and it's like way more magical now to tell it the magical incantations to get the best results back out. And so the fact that it knows what results are better to me is not intelligence or anything, it's just, we just need that to go away.
 
 And I think Devin is actually an example of where they've productized and hidden a lot of the innards that we've currently been exposed to, in order to make the tool work better than it would for an inexperienced user to use it. Like, they've actually turned it into a product. And I think that's great. I think it's one step on a long line of iterative improvements that will make it so that prompt engineering -- I mean, you're just going to basically talk to it in layman's terms, and it will know how to feed itself the correct prompt, so to speak, in order to get the goodness out. But I don't know... Kball, back to you.
 
@@ -66,7 +66,7 @@ And so you can design applications around that, and there are things that you ca
 
 **Kevin Ball:** Yeah. So this is a technology that has the potential to dramatically impact the productivity of software engineers. And I think there's a couple of different things around that, as we think -- so short-term, that can create some disruption. Short-term, that means that a company that had been running on, say, five engineers, and might have needed to hire and expand to 15, now they don't have to expand nearly as soon, and things like that.
 
-\[00:18:00.11\] So I think there is the potential for relatively short-term disruption. I will say, both -- the history of economics broadly and software in particular is that every time we make it easier to code, we discover there a whole world now that we can address and build software around, that we couldn't before. So if, for example -- and this, actually... There's a particular example of this that I think is interesting to dive into. So one of the big economic challenges in the tech industry in the last four or five years is that we had these massive tech companies, with incredibly high revenue per employee: Google Meta, Netflix... The FAANGs, mostly. And so they were able to set the salary bar that was super-high; they were paying ridiculous amounts of money - that's a technical term, ridiculous - for software engineers.
+\[18:00\] So I think there is the potential for relatively short-term disruption. I will say, both -- the history of economics broadly and software in particular is that every time we make it easier to code, we discover there a whole world now that we can address and build software around, that we couldn't before. So if, for example -- and this, actually... There's a particular example of this that I think is interesting to dive into. So one of the big economic challenges in the tech industry in the last four or five years is that we had these massive tech companies, with incredibly high revenue per employee: Google Meta, Netflix... The FAANGs, mostly. And so they were able to set the salary bar that was super-high; they were paying ridiculous amounts of money - that's a technical term, ridiculous - for software engineers.
 
 And then when we had very low interest rates, and a ton of VC money flowing into the industry, there were lots of companies whose fundamental business economics do not support that level of salary per software engineer, who were nevertheless paying that amount of salary per software engineer based on VC capital. And sort of this thesis that "Okay, we'll be able to scale out of this, and we'll get whatever." And I think that caused a lot of distortions and problems in the field.
 
@@ -76,7 +76,7 @@ So long-term I don't think it's a negative impact on the software engineering ca
 
 **Jerod Santo:** Speaking of astro-nomical, Astro has a new database...
 
-**Break:** \[00:20:40.05\]
+**Break:** \[20:40\]
 
 **Jerod Santo:** Up next we have a Go Time podcast fireside chat between long-time programmers Kent Quirk, Sharon DiOrio, Steven Pyle and host Johnny Boursiquot.
 
@@ -106,7 +106,7 @@ And yes, some random person could have sat down with Midjourney and said "Make m
 
 **Steven Pyle:** "It looks fine to me..."
 
-**Kent Quirk:** \[00:26:04.15\] But there's a big difference between something crafted and something just slapped together. And yeah, I guess I think that AI is going to make it easier to slap \*bleep\* together. But...
+**Kent Quirk:** \[26:04\] But there's a big difference between something crafted and something just slapped together. And yeah, I guess I think that AI is going to make it easier to slap \*bleep\* together. But...
 
 **Johnny Boursiquot:** But for most people though, would you argue -- so here's what I'm not saying. I'm not saying that these things generated by AI -- like, if you're a connoisseur of a particular art, you're an architect of a particular kind of application, or solution, or thing, whatever it is, you can critique the output of Gen AI, as it stands today; again, arguably, it's going to get better at what it does. But you can critique the output today and be like "This is subpar. This is not as good as what I could have come up with." But for most people, it's good enough.
 
@@ -128,7 +128,7 @@ And yes, some random person could have sat down with Midjourney and said "Make m
 
 **Johnny Boursiquot:** Spicy. We're not at the --
 
-**Kent Quirk:** \[00:30:13.28\] We're not at that point yet?
+**Kent Quirk:** \[30:13\] We're not at that point yet?
 
 **Johnny Boursiquot:** We're not at the unpopular opinions yet. So one thing you mentioned, the whole teaching -- y'all remember when... Maybe it was during maybe the first or second Obama term or something, but there was this giant push to teach everybody how to code, right? It was everywhere. It was in the media, it was in newspapers... "We need to teach our young how to program." Now I'm looking at a clip from NVIDIA CEO, like three or four days ago or something, saying "Hey, people shouldn't learn how to program. You should now let -- the new programming language is the human language." And I'm thinking "Man, you are sitting here -- you stand to gain billions, a bajillion dollars if your wish comes true, because you're producing chips and stuff for these things. Of course you're gonna say that." But I'm definitely not on the "Don't teach people how to program" camp.
 
@@ -162,7 +162,7 @@ And yes, some random person could have sat down with Midjourney and said "Make m
 
 **Johnny Boursiquot:** It's like creating your own GPT, but it's based on a larger model.
 
-**Steven Pyle:** \[00:34:04.08\] Yeah. Exactly.
+**Steven Pyle:** \[34:04\] Yeah. Exactly.
 
 **Kent Quirk:** My company, we've built -- we have a query engine that looks like SQL. And then we built an AI where we train that AI as part of a prompt. We basically can go out and get your data, and all the names of your fields, and the data types of your fields, and we can plug them into the AI query so that when you say "Show me my slowest service", it can go "Alright, what are the fields that are named according to time, duration? And what are the things that look like a service name? And now I can write a query for you." So it knows how to query Honeycomb, and then it can write that query for you from your inept prompt, because it's been specialized for that particular type of application. And I think that's a really cool use of AI.
 
@@ -196,7 +196,7 @@ On the opposite side of it is the highly-specialized person who understands a bu
 
 **Johnny Boursiquot:** Right. Right.
 
-**Kent Quirk:** \[00:37:52.10\] So that's good. But we all kind of expect productivity to continue to rise... So this is a productivity tool.
+**Kent Quirk:** \[37:52\] So that's good. But we all kind of expect productivity to continue to rise... So this is a productivity tool.
 
 **Johnny Boursiquot:** Mm-hm. Not a replacement tool.
 
@@ -240,7 +240,7 @@ On the opposite side of it is the highly-specialized person who understands a bu
 
 **Sharon DiOrio:** And this is where we redact all of this and put it into our business plan, right? \[laughter\]
 
-**Break:** \[00:42:32.07\]
+**Break:** \[42:32\]
 
 **Jerod Santo:** Last up we have Jose Valim, creator of the Elixir programming language on Changelog & Friends. That is our talk show flavor of the Changelog podcast.
 
@@ -256,7 +256,7 @@ So I feel like we have the knife and the cheese... It's just a matter of somebod
 
 So yeah, so I think it's still too many unknowns. But I think at the core, we unwillingly did a good job, because we were worried about documentation being accessible, documentation being first class... So we did that, and we promote people to write documentation; lots of documentation. So there is a lot there. And yeah, maybe RAG is going to be the thing that is going to be enough. That's one of the hopes, going back to -- you know, we want everybody to be able to use this. If RAG is good enough, then a lot of people would be able to augment their ecosystems without depending on Open AI, or whatever. But we are still evaluating.
 
-**Adam Stacoviak:** \[00:48:10.17\] When we talked about sort of the long-term future of Elixir, artificial intelligence, and that sort of larger topic of how long will it be relevant, and can AI generate it well, that whole conversation - this makes me think of this necessity to not have a blank box that is whatever AI is. Because just like you said, "Who do I send a letter to to index my stuff, so that my very relevant language today remains relevant tomorrow? ...because tomorrow says AI will continue to be more and more relevant to developers in their journey to develop." Right? So who do we send the letter to? How do we know? Well currently, the status quo of AI is for the most part a black box. Obviously, open source LLMs and indexes have become more and more pushed because of this challenge, but I think this illustrates and highlights really the long-term challenge, because even you can't say for sure why what was indexed was indexed for the Elixir corpus, whether that's the forums, whether that's the documentation, through Hex documentation, or whatever. It's unclear to someone like you how to enable ChatGPT or the likes to better support Elixir assistance for developers using those things to use this tooling. And that's just not cool. Because long-term, we need to have inroads into those places, so that we can be part of the future if AI is predicting how we'll get to the future.
+**Adam Stacoviak:** \[48:10\] When we talked about sort of the long-term future of Elixir, artificial intelligence, and that sort of larger topic of how long will it be relevant, and can AI generate it well, that whole conversation - this makes me think of this necessity to not have a blank box that is whatever AI is. Because just like you said, "Who do I send a letter to to index my stuff, so that my very relevant language today remains relevant tomorrow? ...because tomorrow says AI will continue to be more and more relevant to developers in their journey to develop." Right? So who do we send the letter to? How do we know? Well currently, the status quo of AI is for the most part a black box. Obviously, open source LLMs and indexes have become more and more pushed because of this challenge, but I think this illustrates and highlights really the long-term challenge, because even you can't say for sure why what was indexed was indexed for the Elixir corpus, whether that's the forums, whether that's the documentation, through Hex documentation, or whatever. It's unclear to someone like you how to enable ChatGPT or the likes to better support Elixir assistance for developers using those things to use this tooling. And that's just not cool. Because long-term, we need to have inroads into those places, so that we can be part of the future if AI is predicting how we'll get to the future.
 
 **José Valim:** Yeah. And I think - yeah, it's too early. I think we're going to improve a lot. I was listening to a podcast today where Sam Altman, who was saying they improved ChatGPT 3 about 40 in the orders of magnitude in terms of size, performance, and things like that, since they started. I think 10 times for ChatGPT 3.5. And I think open source is going to catch up; I think that's the hope. But yeah, it's also - we go back to when we were thinking about Livebook, because what I want is for open source to win. But when I'm building a feature for Livebook, I need to build the best feature for the users. And I can use ChatGPT 4, and I can immediately see the results. And they are really, really good. I can use other tools off the shelf - they are not as good.
 
@@ -268,7 +268,7 @@ But yeah, I think it's just patience. We have to be patient. And I think probabl
 
 **José Valim:** No, not really, in the sense that I consider myself very lucky, very fortunate, or whatever; or blessed, however you want to say it. I'm not being overconfident here, but more like thankful that I think whatever happens to me, it's going to be fine. I truly believe that what's going to make Elixir survive is the community, more than whatever technological changes... Unless there's something very drastic.
 
-\[00:52:18.11\] I talked to my father about this, about investments. So when Bitcoin wasn't that crazy, and then my father is like "Oh, have you heard about this thing, that if you put your money there, people got this huge return?" And then I always told him "Father, if we got to know about it, it's because it's too late." Or if something happens, it's like "Oh, father, if something happens, it's because -- if something goes this bad, it's because it's going to be bad for everybody. So don't try to fight it."
+\[52:18\] I talked to my father about this, about investments. So when Bitcoin wasn't that crazy, and then my father is like "Oh, have you heard about this thing, that if you put your money there, people got this huge return?" And then I always told him "Father, if we got to know about it, it's because it's too late." Or if something happens, it's like "Oh, father, if something happens, it's because -- if something goes this bad, it's because it's going to be bad for everybody. So don't try to fight it."
 
 So again, unless there's a very major change, I think I'll be fine. So I'm not worried about me, in the sense I always think more about -- it's more about ideals. Again, I like to say, well, me 10 years ago - that's where my trepidation is if things go closed source... And those things, they happen by -- we don't see the results. I think another polemic topic about this, it's like "Hey, I use Chrome. As soon as Chrome came out, I immediately --" Today I don't use Chrome anymore. But as soon as Chrome came out, I immediately swapped to Chrome. And if I had known that this would lead to a point where Google is in this position where it has a lot of control over the browser, over the web, and over how we use the internet, 10 years ago I would probably not have used Chrome, if I could have seen it. So I think that's where my trepidation comes from, of things being closed source. The developer experience...
 
