@@ -32,7 +32,7 @@
 
 **Justin Garrison:** But yeah, there's mailing lists that you can say hey, where can you help? And it's not just like you have to run the event. If you want to come and attend the event, that's fine, too. There's a bunch of stuff leading up to it, like call for papers... And even just promoting the event. Because this isn't -- again, it's community-run. There's not a marketing budget, or big ad money behind this. No, this is people on social media that are like "Hey, I'm going to this thing. It'd be cool if you came, too." That's great.
 
-**Autumn Nash:** \[00:06:12.16\] Also, I've never seen so many women talks that are technical. So many great talks. There were just so many smart women. And it was like 40% or 50% women, it looked like, on the feature page. It was so cool.
+**Autumn Nash:** \[06:12\] Also, I've never seen so many women talks that are technical. So many great talks. There were just so many smart women. And it was like 40% or 50% women, it looked like, on the feature page. It was so cool.
 
 **Justin Garrison:** Well, and speaking of which, Autumn, you were one of those amazing technical talks. So let's dive into your talk at Scale, as this was your first conference presentation, or public conference, or...
 
@@ -88,7 +88,7 @@
 
 **Justin Garrison:** We learned a lot of things from what we've known before, right? It's like, everything you learn is building on something you've known. So if you know how Dungeons and Dragons work, and if you know how -- I come from doing cars. I always use car analogies, because I'm like "I know how car engine works, and I know how a car suspension works." I know all those systems tie together, and actually, that's a more complicated system than pretty much anything else I've ever interfaced with in my life... And I do it all the time. And it's the most dangerous thing I do, constantly.
 
-**Autumn Nash:** \[00:10:12.08\] Yeah. For sure.
+**Autumn Nash:** \[10:12\] Yeah. For sure.
 
 **Justin Garrison:** And that is the thing; we just take it for granted, because like "Oh, well, it's just a car. I have a steering wheel and pedals." Like, yeah, because that's your interface. And so yeah, as people build out their own ecosystem of understanding, and try to understand more things, it's like "Hey, let's show you how this game is like that thing you're trying to learn, and how you can associate the similarities." How security is like a door lock.
 
@@ -120,7 +120,7 @@
 
 **Justin Garrison:** Yeah. So we will cut to those interviews and see you afterwards.
 
-**Break:** \[00:12:57.27\]
+**Break:** \[12:57\]
 
 **Justin Garrison:** Hello and welcome to Southern California Linux Expo, also known as Scale. This is the first time Autumn and I have met in-person, and Autumn's first time coming to Scale. What do you think of the conference?
 
@@ -198,7 +198,7 @@
 
 **Autumn Nash:** Best conference ever.
 
-**Break:** \[00:20:05.23\]
+**Break:** \[20:05\]
 
 **Justin Garrison:** Who are you, and what technology are you responsible for?
 
@@ -232,7 +232,7 @@
 
 **Jeremy Price:** You're welcome.
 
-**Break:** \[00:22:22.04\]
+**Break:** \[22:22\]
 
 **Justin Garrison:** Who are you and what technology are you responsible for?
 
@@ -262,7 +262,7 @@
 
 **Elizabeth K. Joseph:** Yeah, thanks.
 
-**Break:** \[00:23:44.22\]
+**Break:** \[23:44\]
 
 **Autumn Nash:** Who are you and what technology are you responsible for?
 
@@ -298,7 +298,7 @@
 
 **Autumn Nash:** That's good advice.
 
-**Break:** \[00:25:50.05\]
+**Break:** \[25:50\]
 
 **Justin Garrison:** Alright, so who are you, and what technology are you responsible for?
 
@@ -324,7 +324,7 @@
 
 **Noel Miller:** Yeah, thanks.
 
-**Break**: \[00:27:18.21\]
+**Break**: \[27:18\]
 
 **Justin Garrison:** Alright, so who are you, and what technology are you responsible for?
 
@@ -364,7 +364,7 @@
 
 **Justin Garrison:** Awesome. Thank you so much for interviewing.
 
-**Break**: \[00:29:34.13\]
+**Break**: \[29:34\]
 
 **Autumn Nash:** Who are you, and what technology are you responsible for?
 
