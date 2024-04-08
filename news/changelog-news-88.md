@@ -98,7 +98,7 @@ As of the time of this recording, it's unknown who Jia tan really is.
 
 **Jerod Santo:**
 
-[The pattern](https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open-source-projects/)
+[The pattern](https://robmensching.com/blog/posts/2024/03/30/a-microcosm-of-the-interactions-in-open source-projects/)
 
 Rob Mensching lays out the process of the attack and focuses in on step 0:
 

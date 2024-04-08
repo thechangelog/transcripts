@@ -42,7 +42,7 @@ Asay later issued [this statement](https://twitter.com/mjasay/status/17766352261
 
 A few days later, OpenTofu posted this on their LinkedIn page:
 
-> OpenTofu Project was recently made aware of a letter by HashiCorp’s lawyers, alleging that OpenTofu was not respecting the terms of its BSL license governing its Terraform codebase. OpenTofu vehemently disagrees with any suggestion that it misappropriated, mis-sourced, or otherwise misused HashiCorp’s BSL code. Indeed, it seems that HashiCorp may be conflating code that it had previously been open-sourced under the MPL and more recently developed code it published under the BSL. OpenTofu’s maintainers have investigated this matter, and intends to issue a written response providing a more detailed explanation of its position in the coming days.
+> OpenTofu Project was recently made aware of a letter by HashiCorp’s lawyers, alleging that OpenTofu was not respecting the terms of its BSL license governing its Terraform codebase. OpenTofu vehemently disagrees with any suggestion that it misappropriated, mis-sourced, or otherwise misused HashiCorp’s BSL code. Indeed, it seems that HashiCorp may be conflating code that it had previously been open sourced under the MPL and more recently developed code it published under the BSL. OpenTofu’s maintainers have investigated this matter, and intends to issue a written response providing a more detailed explanation of its position in the coming days.
 
 I'm excited to read OpenTofu's written response, but I have a feeling it's only going to get uglier from here. If I'm running the OpenTofu project, I'd be seriously considering a change in strategy from "feature parity" to "differentiation" from now on...
 
