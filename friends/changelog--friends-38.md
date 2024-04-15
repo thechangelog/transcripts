@@ -140,7 +140,7 @@
 
 **Adam Stacoviak:** Well, it's not about the bunny.
 
-**Gerhard Lazu:** \[00:08:06.09\] You're right. It is not. I was expecting you to say that. However, Changelog has a bunny. What does that mean?
+**Gerhard Lazu:** \[08:06\] You're right. It is not. I was expecting you to say that. However, Changelog has a bunny. What does that mean?
 
 **Jerod Santo:** I have no idea.
 
@@ -240,7 +240,7 @@
 
 **Jerod Santo:** Where's our slow continent?
 
-**Gerhard Lazu:** \[00:11:51.22\] So the slowest one is Middle East, at 681 milliseconds, and it's fairly flat. You can see the line is almost like a flatline. Australia is 516 milliseconds, and Asia just about the same. So Europe and North America, 150. All the other continents are around 500 or more. Between 500 and 700 milliseconds, okay?
+**Gerhard Lazu:** \[11:51\] So the slowest one is Middle East, at 681 milliseconds, and it's fairly flat. You can see the line is almost like a flatline. Australia is 516 milliseconds, and Asia just about the same. So Europe and North America, 150. All the other continents are around 500 or more. Between 500 and 700 milliseconds, okay?
 
 **Jerod Santo:** Okay.
 
@@ -314,7 +314,7 @@
 
 **Gerhard Lazu:** Honestly, I don't think the network is as optimized as it could be.
 
-**Jerod Santo:** \[00:16:05.27\] Well, I just wonder how many POPs they have? I mean, could Fly have more?
+**Jerod Santo:** \[16:05\] Well, I just wonder how many POPs they have? I mean, could Fly have more?
 
 **Gerhard Lazu:** I don't think so. I'm pretty sure Fastly has more. Yeah. Fastly is like a CDN... Like, first and foremost.
 
@@ -386,7 +386,7 @@ So we're looking at the homepage, and we're seeing that in the last day, the las
 
 **Adam Stacoviak:** So where's Cloudflare in this mix?
 
-**Gerhard Lazu:** \[00:19:56.01\] Exactly. So let's move on, because I think we gave Bunny enough time... I think we should talk to them if they want more.
+**Gerhard Lazu:** \[19:56\] Exactly. So let's move on, because I think we gave Bunny enough time... I think we should talk to them if they want more.
 
 **Jerod Santo:** Yeah.
 
@@ -426,7 +426,7 @@ So where is Cloudflare? CloudFlare - we need the enterprise account to be able t
 
 **Gerhard Lazu:** Yeah. I mean, we still can. That's why I didn't want to spend too much time on it; I timeboxed it. We talk about it, and we figure out "Do we want to invest a bit more time?" And that's fine. That's not a problem. We give it another hour or two and see how far we can get. I mean, it's not an insurmountable problem... It's just one that maybe want to sidestep. And I was excited about Adam's proposal to try Cloudflare, and I had looked at it. So we just basically keep picking at this problem from different perspectives... And the solution which is simplest, and it means that we have the least amount of work to do - that's what we would like to pick, please. Because we are not in the business of building CDNs, you know?
 
-**Jerod Santo:** \[00:24:15.26\] In the meantime, by the way, I'm kind of in a holding pattern, because I have big things in the works that I would like to roll out, but a lot of them - specifically, I'm working on custom feeds - are dependent upon CDN changes... And so I don't want to go make CDN changes inside of Fastly, and then have to port those over to somewhere else... Or our custom CDN, as I was thinking about how you might roll something out... So kind of blocked in that regard. I have other stuff I can work on, so it's not like block-block... But I would love to have our CDN figured out here sooner rather than later.
+**Jerod Santo:** \[24:15\] In the meantime, by the way, I'm kind of in a holding pattern, because I have big things in the works that I would like to roll out, but a lot of them - specifically, I'm working on custom feeds - are dependent upon CDN changes... And so I don't want to go make CDN changes inside of Fastly, and then have to port those over to somewhere else... Or our custom CDN, as I was thinking about how you might roll something out... So kind of blocked in that regard. I have other stuff I can work on, so it's not like block-block... But I would love to have our CDN figured out here sooner rather than later.
 
 **Gerhard Lazu:** Got it.
 
@@ -470,7 +470,7 @@ A cool thing that he mentioned is pghero. I haven't heard about pghero, but it l
 
 Apart from the two orange things, which is 11 duplicate indexes, we would that maybe to -- I mean, it says here "Indexes exist, but they aren't needed; remove them for faster writes." That's why we would do that. And the other one was slow queries; we have to slow queries. What does it mean? It means queries that take more than 20 milliseconds. We have one that the average time is 62 milliseconds, and we have 29,000 almost. 29,000 times this was executed. And the other one was 29 milliseconds. So we have two slow queries, but we're talking milliseconds.
 
-**Jerod Santo:** \[00:34:23.03\] Right.
+**Jerod Santo:** \[34:23\] Right.
 
 **Gerhard Lazu:** Maybe we should dig into those. I don't know. But interesting.
 
@@ -510,7 +510,7 @@ Apart from the two orange things, which is 11 duplicate indexes, we would that m
 
 **Gerhard Lazu:** There we go. So a performance dashboard for Postgres, see it in action, and it's battle-tested at Instacart.
 
-**Jerod Santo:** Okay. I've seen a handful of these Instacart open source projects that aren't owned by Instacart proper, but they all have that little "Battle-tested by Instacart" thing on them. And so I'm guessing he was allowed to create this as part of his work, and open-source it under his own name, which is pretty cool if that's what they're doing.
+**Jerod Santo:** Okay. I've seen a handful of these Instacart open source projects that aren't owned by Instacart proper, but they all have that little "Battle-tested by Instacart" thing on them. And so I'm guessing he was allowed to create this as part of his work, and open source it under his own name, which is pretty cool if that's what they're doing.
 
 **Adam Stacoviak:** Very cool.
 
@@ -528,7 +528,7 @@ Apart from the two orange things, which is 11 duplicate indexes, we would that m
 
 **Adam Stacoviak:** Let's do it. Move on.
 
-**Gerhard Lazu:** \[00:38:16.27\] Cool. So one of the things that I was very excited about when we transitioned to Neon, Neon Postgres, is the ability to create branches, database branches, where we can try things out. I think that's a killer feature. There's nothing to explore, there's nothing to import... You just create a branch and off you go. So pull request 508: "Enable changelog.com devs to create prod db forks with a single command." Now, that sounds very royal. It's just Jerod, let's be honest. \[laughs\]
+**Gerhard Lazu:** \[38:16\] Cool. So one of the things that I was very excited about when we transitioned to Neon, Neon Postgres, is the ability to create branches, database branches, where we can try things out. I think that's a killer feature. There's nothing to explore, there's nothing to import... You just create a branch and off you go. So pull request 508: "Enable changelog.com devs to create prod db forks with a single command." Now, that sounds very royal. It's just Jerod, let's be honest. \[laughs\]
 
 **Jerod Santo:** It is me. I like how you royaled me.
 
@@ -554,7 +554,7 @@ Apart from the two orange things, which is 11 duplicate indexes, we would that m
 
 **Gerhard Lazu:** So in a nutshell, this builds on a recently-released Dagger, I'd say functionality, but it's almost like this is the third generation of Dagger... Which enables anyone to write functions, and then reuse those functions. So use each other's functions. You can think of it like the GitHub Marketplace, or Docker Hub, but this is for functions that you could use in your pipelines and locally.
 
-**Jerod Santo:** So more like Npm...
+**Jerod Santo:** So more like npm...
 
 **Gerhard Lazu:** In some ways, yes. In some ways, yes. But what's really cool about this is that, for example, I wrote a function that's called dbbranch, and Jerod is now going to run it for the first time. The only thing he did - he just installed the prerequisites. There is only two. Really just one CLI, the Dagger CLI for us... Because I already configured an engine, a Dagger engine, which is running on Fly, that we are connecting to, again, privately. This is not exposed publicly, so it doesn't need to run Docker or any other container runtime, which is required for the engine. That's where all the operations run. So there's a Changelog directory in the Changelog repository. I'm assuming you're there...
 
@@ -590,7 +590,7 @@ Apart from the two orange things, which is 11 duplicate indexes, we would that m
 
 **Adam Stacoviak:** I'm done with both \[unintelligible 00:42:07.22\]
 
-**Gerhard Lazu:** \[00:42:11.09\] Alright. So back to dbfork, okay? So dbbranch. So you're in that directory, and you have WireGuard running so that you can connect to the engine, and there is an envrc, which by the way is not hidden; you can just source it. All it does is it basically sets an environment variable which tells it "Hey, the engine is running at this IP address", and because you have WireGuard running, everything works.
+**Gerhard Lazu:** \[42:11\] Alright. So back to dbfork, okay? So dbbranch. So you're in that directory, and you have WireGuard running so that you can connect to the engine, and there is an envrc, which by the way is not hidden; you can just source it. All it does is it basically sets an environment variable which tells it "Hey, the engine is running at this IP address", and because you have WireGuard running, everything works.
 
 So the next thing that you could do is use netcat to check that you can connect to that port. It's a TCP port, and this is using WireGuard, and it's using that private IP address. Sorry, private hostname.
 
@@ -684,7 +684,7 @@ So the next thing that you could do is use netcat to check that you can connect 
 
 **Jerod Santo:** This is using like the Neon API to do that.
 
-**Gerhard Lazu:** \[00:46:02.21\] So now you copy those values, the exports, paste them in your terminal, go a level up, and then boot the app. Booty the app. \[laughs\]
+**Gerhard Lazu:** \[46:02\] So now you copy those values, the exports, paste them in your terminal, go a level up, and then boot the app. Booty the app. \[laughs\]
 
 **Jerod Santo:** Oh, my app's already booted, though... So I'll come back and -- so this will now connect my app to that snapshot.
 
@@ -770,7 +770,7 @@ So the next thing that you could do is use netcat to check that you can connect 
 
 **Gerhard Lazu:** So no... You can do it via the UI. Go in the UI, click on the branch, boom. It works. You could also use the Neon CLI to do the same thing, but for that you need Node, you need a couple of things, you have to install it... Things like that. This, the function which I added, is an interface to the Neon API. And I'm using the Neon Go SDK, which by the way is a community contribution... And I'm looking for the name. Kislerdm. So Kislerdm - he's a community member, and he's a Neon community member, and he wrote the Go SDK for Neon.
 
-**Jerod Santo:** \[00:50:23.29\] Dmitry Kisler.
+**Jerod Santo:** \[50:23\] Dmitry Kisler.
 
 **Gerhard Lazu:** Dmitry Kisler. That's him. So thank you, Dimitri. That's basically the SDK, and in the pull request, the 508, Jerod, you can see exactly how I integrated it. I'm pulling it down... So again, it's an implementation detail. I could have used something else. I could have called, for example, the Neon CLI... But this seemed the most elegant. The idea is that the implementation doesn't matter. And to be honest, it doesn't even matter whether you use Neon. In our case, that's what we do. But if we change, for example, back to Fly Postgres, it's possible, one day... Who knows...? The idea is that this interface will not change. So you want to give simple, convenient interfaces to your developers, so that they do not worry about implementation details, which are ops, or infra. All Jerod cares is a fork for the database. And while he cares about his fresh data, which was what we discussed in last episode... And I tried to deliver.
 
@@ -820,7 +820,7 @@ So the next thing that you could do is use netcat to check that you can connect 
 
 **Adam Stacoviak:** I think this is -- what I like too is the, I suppose, care. Like, we're kaizening, but I think there's a level of care here from one individual on the team to another individual team. And so Gerhard, you have particular expertise and specificity when it comes to how you implement things. And you don't just get the job done, you think about the other person in the job roles, and that's what you've done here, is "Let me think about and have empathy for Jerod and the other devs who may join our team in the future to give them an elegant way to sort of like pull in fresh data", as an example. That to me is kind of cool. I like to highlight that, because we're humans making software for other humans using the software to enjoy podcast to make more software. What a many layered onion there. But that to me is kind of cool, that you've got this humanity in the process. That's a good Kaizen episode there too, just the Kaizen thought process that you care, and so therefore you put good DX in the processes, not just the work.
 
-**Gerhard Lazu:** \[00:54:00.21\] I appreciate that. Thank you very much.
+**Gerhard Lazu:** \[54:00\] I appreciate that. Thank you very much.
 
 **Jerod Santo:** Let me ask you about Neon costs. If we had 10 devs doing this, and they were all branching off of that one, and they're all coding against it, aren't we paying more money than if it was running on their local Postgres'es as an org?
 
@@ -844,7 +844,7 @@ That being said, the more that I thought about it, I was like "Yeah, I probably 
 
 **Gerhard Lazu:** I would like to emphasize an approach that was very dear to me when XP was still fun and young, and everyone used to love extreme programming. You always want to do just enough, and keep asking "Is this enough? Does this deliver on what you wanted?" So rather than going and spending a lot of time on coming up with a perfect solution, do just enough, that looks like it's just enough, and ask "Is it enough?" So with that in mind, I think what we have now - this was very simple to implement. It embraces Neon, and the whole branching model. I can see some people wanting to use it, and it was easier to implement than the other option, which has certain requirements from Postgres, it has to do checks like "Am I importing the same Postgres version?" Are you running 16.2 or 16.1? I mean, we had issues in the past, where even small minors, that had like breaking changes between them... There was like one bad indexing one which I remember; it's still somewhere in our issues. So it's a bit more complicated, because we don't control the local environment.
 
-\[00:57:47.21\] The other option - and now I'm very glad we are discussing this - we could spin up a Postgres in the Dagger engine.
+\[57:47\] The other option - and now I'm very glad we are discussing this - we could spin up a Postgres in the Dagger engine.
 
 There is that option of running Postgres as a service, importing all the data... But then the question is "Well, where's the Dagger engine running?" Currently it's Fly, and you want it to be local. And to get it local, currently you need to contain the runtime. It means Podman, or Docker, or something like that. And I don't think you want that.
 
@@ -876,7 +876,7 @@ There is that option of running Postgres as a service, importing all the data...
 
 **Gerhard Lazu:** Or booty. I think fresh data. I think we'll go for fresh data. Dagger call fresh data it is. \[laughter\]
 
-**Break**: \[00:59:22.04\]
+**Break**: \[59:22\]
 
 **Gerhard Lazu:** So I'd like to spend a little bit of time talking about your 55 commits, and no pull requests, Jerod. What is lurking in those 55 commits...? \[laughter\]
 
