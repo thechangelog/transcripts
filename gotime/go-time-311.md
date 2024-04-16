@@ -30,7 +30,7 @@ When did you start using Go? What did you do before that? What were the language
 
 **Natalie Pistunovich:** I'm sharing that there's a some conference talks I gave on this topic; one of them actually an hour... On why Go is a good choice. So I will join you for this \[unintelligible 00:05:19.14\] on why Go is a great choice. We're in agreement here, let's say; no devil's advocate, for sure. It has some other interesting features as well, that may be somewhat useful... For example the garbage collection making things efficient... What are your thoughts there?
 
-**Carlos Becker:** \[00:05:42.06\] I really like that I usually don't have to think about any of that. In most cases, it just works, which I think is great. And still, if I think it's weird, for whatever reason, I can use pprof to get the profiling of CPU, and memory, and threads, and all that kind of thing, and try to understand what's going on. That for sure helps a lot. But yeah, I've worked a long time with Java. In Java you can customize how GC works, and there are different JVM implementations with different GC implementations, and everything is kind of - how can I say... It doesn't always work how you expect it to work, which is in my opinion not too good sometimes. If you really understand what you're doing, it probably does what you think it will... But sometimes you don't really know what you're doing, and those times you get --
+**Carlos Becker:** \[05:42\] I really like that I usually don't have to think about any of that. In most cases, it just works, which I think is great. And still, if I think it's weird, for whatever reason, I can use pprof to get the profiling of CPU, and memory, and threads, and all that kind of thing, and try to understand what's going on. That for sure helps a lot. But yeah, I've worked a long time with Java. In Java you can customize how GC works, and there are different JVM implementations with different GC implementations, and everything is kind of - how can I say... It doesn't always work how you expect it to work, which is in my opinion not too good sometimes. If you really understand what you're doing, it probably does what you think it will... But sometimes you don't really know what you're doing, and those times you get --
 
 **Natalie Pistunovich:** But it works on my machine.
 
@@ -62,7 +62,7 @@ When did you start using Go? What did you do before that? What were the language
 
 **Natalie Pistunovich:** Yeah, for sure.
 
-**Break:** \[00:09:08.16\]
+**Break:** \[09:08\]
 
 **Natalie Pistunovich:** Go also has a single binary approach that you just compile it once, and you get one binary pair operating system and so on, and architecture... And it's different from how things were in the past. Like, did you have a chance of being a release engineer, where it was checklists and a bit less streamlined that you can tell about?
 
@@ -102,7 +102,7 @@ When did you start using Go? What did you do before that? What were the language
 
 **Natalie Pistunovich:** I mean, it's nice that you have everything organized in an automated and simple way. And I think one of the bigger benefits that it introduces is not actually in the context of DevOps, but in the context of security... Anyway, it's not the Go way to have too many imports, so you're already kind of -- it's easier to keep track, because you have less, but also, there you can see the dependencies, and the transitive dependencies... So if you and look at your go mod files for a little bit, it's good kind of that you have this extra information for free.
 
-**Carlos Becker:** \[00:15:46.22\] Do you use the go.mod proxy feature constantly? It does it automatically if you run go install, and give it a tag, or something. I don't know if you know that, but for people listening that don't, the go.mod cache caches the hash of all your dependencies and everything, from that tag, on their server. So I saw people deleting the tag, and \[unintelligible 00:16:11.13\] again, and then try to run go install, and it breaks, because there are differences now, and they get really confused about that sometimes... Especially like people new to Go.
+**Carlos Becker:** \[15:46\] Do you use the go.mod proxy feature constantly? It does it automatically if you run go install, and give it a tag, or something. I don't know if you know that, but for people listening that don't, the go.mod cache caches the hash of all your dependencies and everything, from that tag, on their server. So I saw people deleting the tag, and \[unintelligible 00:16:11.13\] again, and then try to run go install, and it breaks, because there are differences now, and they get really confused about that sometimes... Especially like people new to Go.
 
 **Natalie Pistunovich:** Wait, why would somebody delete that?
 
@@ -140,7 +140,7 @@ When did you start using Go? What did you do before that? What were the language
 
 **Carlos Becker:** Yeah, that's a good one, too. You can totally get code from Go 1.2 and build it now, and it will still work, which is amazing.
 
-**Natalie Pistunovich:** \[00:19:57.14\] Yeah, I have a whole agenda that I think Go is a great choice for AI - jumping a little bit for a second from DevOps... And yesterday, I was giving a training with O'Reilly on this topic, how to write software with AI. And somebody said, "I have a problem, that I noticed that ChatGPT sometimes returns .NET 6 and sometimes it returns .NET 8. How can you solve that?" And you can fix that, in some ways; I can think of some workarounds and some things you will put in place, but honestly, it just shows that this is not a good choice in the long-term. It's just not as compatible as Go. So kudos yet again to the Go team.
+**Natalie Pistunovich:** \[19:57\] Yeah, I have a whole agenda that I think Go is a great choice for AI - jumping a little bit for a second from DevOps... And yesterday, I was giving a training with O'Reilly on this topic, how to write software with AI. And somebody said, "I have a problem, that I noticed that ChatGPT sometimes returns .NET 6 and sometimes it returns .NET 8. How can you solve that?" And you can fix that, in some ways; I can think of some workarounds and some things you will put in place, but honestly, it just shows that this is not a good choice in the long-term. It's just not as compatible as Go. So kudos yet again to the Go team.
 
 **Carlos Becker:** Yeah, that's a good point.
 
@@ -160,7 +160,7 @@ I don't like a lot like how Ansible works. It's a lot of YAML, it's written what
 
 In Go you can just write the server and everything, and ship a single binary... So it's a lot simpler, I think. It's one step versus I don't know how many. It depends on the use case. But one step versus a lot of steps, usually. And I also deployed some Ruby apps in the past, and it's not so different, but -- it actually it is different. You ship the entire codebase to production, which is - I don't know, it can be good, it can be bad... But you need to have the right Ruby install, you need to make sure the dependencies are there... And then you need to start your server with something like \[unintelligible 00:25:00.25\] I don't really remember it, but yeah. Break start, I think.
 
-**Break**: \[00:25:11.26\]
+**Break**: \[25:11\]
 
 **Natalie Pistunovich:** So is there any scenario you can think that Go is not a good choice for this? Or you say from everything you experienced so far, Go is great for infrastructure as code?
 
@@ -174,11 +174,11 @@ In Go you can just write the server and everything, and ship a single binary... 
 
 **Carlos Becker:** When you say MLOps you mean the continuous deployment of machine learning and that kind of thing?
 
-**Natalie Pistunovich:** Of models and machine learning-based apps, pretty much, yeah. LLM Ops, AI Ops... It has several names, but I think MLOps is slowly taking the center...
+**Natalie Pistunovich:** Of models and machine learning-based apps, pretty much, yeah. LLM Ops, AIOps... It has several names, but I think MLOps is slowly taking the center...
 
 **Carlos Becker:** Yeah, I did work in a project that had a little bit of that. We had a team of machine learning and big data engineers. I don't know what they were called. And they would write Python code to generate reports, or I don't know what was everything they were doing... And my team was responsible for automating, putting those models and everything in production. We ended up writing a Kubernetes operator in Go to deploy Python containers, basically. It did work really well, but I don't have much experience other than that. I don't know what other people do, and I don't know what will happen in the future either. It's evolving really fast, all those things, so...
 
-**Natalie Pistunovich:** \[00:30:01.10\] Yeah, it is interesting to follow and seeing how that -- I see lots of parts of the checklist that Go checks for things you would need from an MLOps platform that you have in Go. And it's the same things that make it a good choice for like FinTech, and eCommerce, and so on; that it's high loads, and it's fast, and good parallelism and everything... I can imagine lots of platforms or lots of tools that are AI-based, serving AI models, and taking user input, sending it to the AI for whatever processing and returning that... All the ChatGPT-based stuff. This is really very similar to what Go is already doing, like Stripe, and so on. So I see MLOps slowly going into the world of Go's reign in the world of DevOps.
+**Natalie Pistunovich:** \[30:01\] Yeah, it is interesting to follow and seeing how that -- I see lots of parts of the checklist that Go checks for things you would need from an MLOps platform that you have in Go. And it's the same things that make it a good choice for like FinTech, and eCommerce, and so on; that it's high loads, and it's fast, and good parallelism and everything... I can imagine lots of platforms or lots of tools that are AI-based, serving AI models, and taking user input, sending it to the AI for whatever processing and returning that... All the ChatGPT-based stuff. This is really very similar to what Go is already doing, like Stripe, and so on. So I see MLOps slowly going into the world of Go's reign in the world of DevOps.
 
 It was also interesting to see how Samir, who's leading the Go team, wrote one or two weeks ago a couple of articles on how he sees Go play a part in the AI being introduced to the world of software. Also saying some similar things, like acknowledging Python is there because it is the language people will keep developing models with, and so on. That is the data science language; this will probably not change. Go is there for many good reasons, but also Rust can have some parts where it's -- I don't know, where you need some more memory-focused things... It's still interesting to see what will be exactly the balance between them, but...
 
@@ -202,7 +202,7 @@ It was also interesting to see how Samir, who's leading the Go team, wrote one o
 
 **Natalie Pistunovich:** Yeah. Cool. And some other interesting tools or features you're also using?
 
-**Carlos Becker:** \[00:33:57.15\] I really like the race flag when building and testing to find race conditions. A good one that I'm using too is goleak from Uber, I think, to find leaky goroutines. It already saved me some bugs. What else...? I think those are like the most -- maybe not as well known ones. What are you using then, that we don't know about?
+**Carlos Becker:** \[33:57\] I really like the race flag when building and testing to find race conditions. A good one that I'm using too is goleak from Uber, I think, to find leaky goroutines. It already saved me some bugs. What else...? I think those are like the most -- maybe not as well known ones. What are you using then, that we don't know about?
 
 **Natalie Pistunovich:** I don't think I have any secret surprises. Last week we had an episode about the tracing tool that was quite interesting. I think it's not yet released, but we're talking with two of the maintainers of it, and that was kind of interesting to see their perspective of everything. Yeah, in my world of context tracing does not get a lot of attention, and it was fun to get an option to dive into that.
 
@@ -228,7 +228,7 @@ It was also interesting to see how Samir, who's leading the Go team, wrote one o
 
 **Carlos Becker:** Yeah, sometimes even with the checksum of the tag, too. I think it's a good practice security-wise, because you can override tags, but you can't override its checkum, so I think that's why people do that. Maybe even just using the tags might not be enough. People do that for GitHub Actions too, but instead of pinging to a version, they ping to the commit of that version, basically. So if people recreate the tags, you will still be using the previous version. Those are security concerns.
 
-\[00:37:50.29\] Another good thing to do is sign something, at least the checksums of your artifacts. Maybe sign the Docker images, too, upload the SBOMs, because some people really like those... Yeah, I think that's what I try to do, at least. But most of it I set up one time, and GoReleaser takes care of it for me. Not that I'm trying to sell anything... It's all I do.
+\[37:50\] Another good thing to do is sign something, at least the checksums of your artifacts. Maybe sign the Docker images, too, upload the SBOMs, because some people really like those... Yeah, I think that's what I try to do, at least. But most of it I set up one time, and GoReleaser takes care of it for me. Not that I'm trying to sell anything... It's all I do.
 
 **Natalie Pistunovich:** It is open source.
 
@@ -252,7 +252,7 @@ It was also interesting to see how Samir, who's leading the Go team, wrote one o
 
 **Natalie Pistunovich:** Cool. Then, segueing to the fun part...
 
-**Jingle:** \[00:39:35.13\]
+**Jingle:** \[39:35\]
 
 **Natalie Pistunovich:** So the last question for this episode... What is your unpopular opinion, and is this related to AI? \[laughter\]
 
