@@ -26,7 +26,7 @@ And so the requirements kind of started changing for Wiz, and what we realized w
 
 Mobile had started taking off around 2008, but working on the website -- like, all features typically started on the web. Very rapidly, G Plus was growing in size to become the largest website ever. And there was a lot of need to break it down systematically into smaller modules, so that you're not loading all the JavaScript just to render the home screen, or something.
 
-\[00:08:09.13\] And so this framework, Wiz, started coming into existence from this idea that if you depend on developers to systematically keep chunking the code, or code splitting, they're eventually going to get it wrong, because either they forget to do it, or they make suboptimal decisions. And so what we need is a framework that systematically chunks the code, and then has a system to load only the code that's required, depending on what is rendered on the page.
+\[08:09\] And so this framework, Wiz, started coming into existence from this idea that if you depend on developers to systematically keep chunking the code, or code splitting, they're eventually going to get it wrong, because either they forget to do it, or they make suboptimal decisions. And so what we need is a framework that systematically chunks the code, and then has a system to load only the code that's required, depending on what is rendered on the page.
 
 **Jessica Sachs:** So Wiz is a front end framework that was born out of the need to performantly chunk frontend code? That's correct, right?
 
@@ -68,7 +68,7 @@ Angular existed in a different organization as well... So I guess that's a big d
 
 **Kevin Ball:** So some of the things you were talking about with regards to Wiz made me think about another framework we've had conversations about on the show... So you were talking about sort of the desire to do chunking automatically... And contrasting to many of the web frameworks out there, where you have to work hard to keep it performant, wanting that performance by default. You also mentioned the word resumability. Both of those brought me back to conversations with Misko Hevery about Qwik. And before we even get into the technical pieces, I'm really curious, to Jessica's point about the lineage here... Because he was involved with Angular, he was clearly inside Google... Qwik came after he left there, but was he involved with Wiz at all? Are these concepts and lineage coming together there? Or are these independent attempts at the same problem?
 
-**Jatin Ramanathan:** \[00:12:21.05\] Yeah, so I actually met Misko recently, and learned what I'm about to share here. So this is not the first time Wiz and Angular are trying to merge. It was kind of known that about maybe 2019, when the teams actually kind of organizationally moved really close to each other, and desire was expressed that we're gonna try to merge them. And Misko studied Wiz very, very deeply at that point, to try to understand if the two frameworks can merge. And he kind of concluded that, at that point, the frameworks were very different, and actually very hard to converge \[unintelligible 00:12:55.28\] was not clear to him. And he shared with me that that was the inception of Qwik; when he was writing those papers to try to understand Wiz and talk about convergence, that's when the seeds of Qwik were sown in his mind.
+**Jatin Ramanathan:** \[12:21\] Yeah, so I actually met Misko recently, and learned what I'm about to share here. So this is not the first time Wiz and Angular are trying to merge. It was kind of known that about maybe 2019, when the teams actually kind of organizationally moved really close to each other, and desire was expressed that we're gonna try to merge them. And Misko studied Wiz very, very deeply at that point, to try to understand if the two frameworks can merge. And he kind of concluded that, at that point, the frameworks were very different, and actually very hard to converge \[unintelligible 00:12:55.28\] was not clear to him. And he shared with me that that was the inception of Qwik; when he was writing those papers to try to understand Wiz and talk about convergence, that's when the seeds of Qwik were sown in his mind.
 
 **Jessica Sachs:** So where I met Jatin and Minko was actually about a month ago at JS Dev -- what is it, Dev World, or what was the conference's name? I'm gonna mess it up.
 
@@ -88,7 +88,7 @@ So the simplest kind of way to understand resumability would be "It's fine. Keep
 
 **Jessica Sachs:** Is that the really basic TL;DR?
 
-**Jatin Ramanathan:** \[00:16:00.26\] I think this is the way to start thinking about it. What you realize quickly afterwards is the amount of time you have to capture those events, and you cannot replay them yet depends on how much JavaScript you load. And then you're like "Okay, I need to load the minimum amount of JavaScript, which then means I need to only load the event handlers that I'm actually about to attach on the page. I don't want to load any event handler that's not yet on the page." So you need to know what was rendered on the page. And then you start trying to optimize that, and then you get a fully reasonable kind of framework.
+**Jatin Ramanathan:** \[16:00\] I think this is the way to start thinking about it. What you realize quickly afterwards is the amount of time you have to capture those events, and you cannot replay them yet depends on how much JavaScript you load. And then you're like "Okay, I need to load the minimum amount of JavaScript, which then means I need to only load the event handlers that I'm actually about to attach on the page. I don't want to load any event handler that's not yet on the page." So you need to know what was rendered on the page. And then you start trying to optimize that, and then you get a fully reasonable kind of framework.
 
 **Kevin Ball:** Minko, you looked like you were about to jump in on something...
 
@@ -98,7 +98,7 @@ So the simplest kind of way to understand resumability would be "It's fine. Keep
 
 **Minko Gechev:** And vice versa. Concepts that Angular has, coming to Wiz. A good example is what Jatin started explaining at first, during his introduction around how we discovered that YouTube has similar requirements to what Angular is building, and Wiz reusing Angular's reactivity was able to deliver on these requirements. Now we're doing something similar the other way around, with reasonability and fine-grained code loading. So I guess we can probably dig deeper into these two topics at a certain point.
 
-**Break**: \[00:18:06.08\]
+**Break**: \[18:06\]
 
 **Kevin Ball:** I'm curious actually the connection between reactivity and resumability, because they both conceptually are mapping a dependency graph; just one's about data, and one's about code.
 
@@ -124,7 +124,7 @@ So we're adding some extra semantics on top of this when you do server-side rend
 
 So just by adding additional, let's say, abstractions and functionality, over time we'll be able to get you closer to resumability, to where it makes sense also, by providing you a good developer experience. We will decide at certain point if we would like to flip the switch and make this the default behavior or not, but I would say we are many years away from this, and we're currently going gradually on this path of adding resumability concepts on top of the framework.
 
-**Kevin Ball:** \[00:26:18.02\] So a question related to that... And I do love the kind of opt-in migration path that Angular has landed on. I think it is -- we've talked about it before, but it sets a really good standard, and it makes sense given the audience of Angular being so much in the enterprise; people who can't just drop everything on a dime, where that backwards-compatibility is super-important. But is there like a critical -- so something like resumability, it feels like... I'm wondering if there's a critical mass you need to hit too before you start to see the benefits? Or do you see it immediately, just on whatever component you have opted in for it on?
+**Kevin Ball:** \[26:18\] So a question related to that... And I do love the kind of opt-in migration path that Angular has landed on. I think it is -- we've talked about it before, but it sets a really good standard, and it makes sense given the audience of Angular being so much in the enterprise; people who can't just drop everything on a dime, where that backwards-compatibility is super-important. But is there like a critical -- so something like resumability, it feels like... I'm wondering if there's a critical mass you need to hit too before you start to see the benefits? Or do you see it immediately, just on whatever component you have opted in for it on?
 
 **Minko Gechev:** Yeah, so in Angular later this year we're going to introduce partial hydration, which is bringing us one step closer. And you'd immediately see the benefits there, because you'll already be loading half of your application, let's say. Or actually, at first, you will not be loading any JavaScript; you'll be only loading this small library, JsAction, that is a couple of kilobytes. And from there, you would cut, let's say, by half the JavaScript that you need for the page, depending on how you structure your component tree. So yeah, getting immediate benefits there.
 
@@ -142,7 +142,7 @@ And at a certain point, as you can imagine, we might be able to get 80% of the b
 
 **Jatin Ramanathan:** Yeah.
 
-**Minko Gechev:** \[00:30:02.10\] I have one - maybe a little bit of a hot take also... I would say that performance - it still needs to be a priority. Even if you get a very highly optimized framework that is focused on performance, you can still make your application slow.
+**Minko Gechev:** \[30:02\] I have one - maybe a little bit of a hot take also... I would say that performance - it still needs to be a priority. Even if you get a very highly optimized framework that is focused on performance, you can still make your application slow.
 
 **Kevin Ball:** I'm very good at that.
 
@@ -170,7 +170,7 @@ There is another team at Google called Aurora. Aurora also joined us for our ses
 
 **Kevin Ball:** Man, y'all live in a very different world... I mean, it makes sense, right? The scale that you're talking about Google, both in terms of access to data, but then if you save a few kilobytes on YouTube, how many petabytes is that per week, right?
 
-**Jatin Ramanathan:** \[00:34:09.11\] Yeah. So the biggest thing that we were probably learning over the last two years is how different these two products are. They're almost at like the two ends of a diameter which represents like all possible. On one hand you have a product that just wants to get the user off as soon as possible, like show your search result, find the result, and you're gone. Right? And on the other end, you come there, you kind of sit in, you kick your legs up and spend an hour watching YouTube, or more. Completely different products, that care about completely different things.
+**Jatin Ramanathan:** \[34:09\] Yeah. So the biggest thing that we were probably learning over the last two years is how different these two products are. They're almost at like the two ends of a diameter which represents like all possible. On one hand you have a product that just wants to get the user off as soon as possible, like show your search result, find the result, and you're gone. Right? And on the other end, you come there, you kind of sit in, you kick your legs up and spend an hour watching YouTube, or more. Completely different products, that care about completely different things.
 
 So the one or two kilobytes example I gave was for search, because it matters -- instead of taking like 200 milliseconds, you can get it done in like 150, that's a really big deal. But for YouTube, that matters a little less. That doesn't mean you just load as much JavaScript as you want, but at the same time, other things are important, like contention. Like, if you load a lot of JavaScript, and now the browser is spending time dealing with that, it's not spending time initializing the video player, and running the video. So it still matters, but for different reasons.
 
@@ -180,7 +180,7 @@ So the one or two kilobytes example I gave was for search, because it matters --
 
 **Jatin Ramanathan:** \[unintelligible 00:35:37.02\] Angular, yeah...
 
-**Jessica Sachs:** We're open-sourcing... Yeah.
+**Jessica Sachs:** We're open sourcing... Yeah.
 
 **Jessica Sachs:** How long?
 
@@ -192,7 +192,7 @@ So the one or two kilobytes example I gave was for search, because it matters --
 
 **Minko Gechev:** And also at the same time trying to make this happen without breaking anyone... It's not trivial. It's how we want it to be at the same time; we want everyone to be able to take advantage of these features gradually, incrementally. And it's opt-in at first.
 
-**Break**: \[00:37:12.02\]
+**Break**: \[37:12\]
 
 **Kevin Ball:** So coming back real quickly to Jatin's point about optimizing for very different things... If someone's making a decision, is the view that no matter what you're optimizing for, eventually Angular plus Wiz, whatever this merge thing, Wizilar, that will be your solution, and it's maybe configuration that changes what you're optimizing for? Or is there still going to be some set of decisions about what's the right framework for the problem?
 
@@ -210,7 +210,7 @@ So the one or two kilobytes example I gave was for search, because it matters --
 
 **Jessica Sachs:** That's super-important to mention. I know the dashboard crowd is pro-CSR in general... So a question - I kind of wanted to go deeper, Kball, into thinking critically about your performance. Can you talk a little bit, Jatin or Minko, about Lighthouse, and the nice green 100 bubble, and when you should or shouldn't care about that, depending on what you're optimizing for?
 
-**Minko Gechev:** \[00:44:21.19\] I'll say just the business, whatever the business cares about. It's a dashboard. 100 out of 100 might not be the most important thing, especially if you're accessing over like Ethernet. If you're building an eCommerce platform, or eCommerce website, I'd say that 100 out of 100 is probably critical. But there are also other bubbles on there, on Lighthouse, around accessibility, that are also just equally important in a lot of cases.
+**Minko Gechev:** \[44:21\] I'll say just the business, whatever the business cares about. It's a dashboard. 100 out of 100 might not be the most important thing, especially if you're accessing over like Ethernet. If you're building an eCommerce platform, or eCommerce website, I'd say that 100 out of 100 is probably critical. But there are also other bubbles on there, on Lighthouse, around accessibility, that are also just equally important in a lot of cases.
 
 **Jatin Ramanathan:** I don't have much to add to that. You have to look at your business metrics as well, and just focusing on one particular metric will probably be a bad idea, if you do it for the long term.
 
@@ -228,7 +228,7 @@ Yeah, I can't think of anything else actually, any other spectrums, or any other
 
 **Jatin Ramanathan:** That actually reminds me of maybe another spectrum... And that spectrum is consistency. So what I mean by that is, if you're making a product like a spreadsheet, and there's a lot of complex formulas and ways to calculate things, you're likely reaching out to your users on multiple platforms, and so you want the stuff to work the same way on Android, on iOS and web. And so you kind of have to make that decision of do you want the same code running everywhere? Or do you want to target one of those platforms, and then the others can catch up in your business?
 
-\[00:48:00.10\] And so Workspaces actually does run the same code everywhere. So there's a lot of like technology that technology choice is there, but then imagine writing your web code using Kotlin, or something like that... Or any one of these cross-platform tools. So that's kind of important to mention as well; you make that choice, like "Oh, I'm gonna be platform-native everywhere, so I'm just gonna make my app n times." Or "I'm not doing that. I'm making my app once", and I think Jess is pretty familiar with this area.
+\[48:00\] And so Workspaces actually does run the same code everywhere. So there's a lot of like technology that technology choice is there, but then imagine writing your web code using Kotlin, or something like that... Or any one of these cross-platform tools. So that's kind of important to mention as well; you make that choice, like "Oh, I'm gonna be platform-native everywhere, so I'm just gonna make my app N times." Or "I'm not doing that. I'm making my app once", and I think Jess is pretty familiar with this area.
 
 **Jessica Sachs:** Yeah, I work at Ionic, we do cross-platform. Write once, run anywhere... Gosh, I can't believe I said that. I'm sorry, to everybody listening... Jatin, is that public? Did I miss the what?
 
@@ -256,7 +256,7 @@ So we've talked a little bit about the timeline for this. It's kind of a long ti
 
 **Jessica Sachs:** End of the day...!
 
-**Jatin Ramanathan:** \[00:50:38.20\] Yeah. It depends on the time... But yeah, we try to do daily releases in a lot of our large apps as well, and yeah, it's certainly possible. Anything that ends up in primitives is actually going to be running in production in Google as well. And so that's like a great way to try to -- it's understand what is one way to do this, and also know that any changes you make there are impacting a lot of users.
+**Jatin Ramanathan:** \[50:38\] Yeah. It depends on the time... But yeah, we try to do daily releases in a lot of our large apps as well, and yeah, it's certainly possible. Anything that ends up in primitives is actually going to be running in production in Google as well. And so that's like a great way to try to -- it's understand what is one way to do this, and also know that any changes you make there are impacting a lot of users.
 
 **Jessica Sachs:** If somebody doesn't feel comfortable contributing publicly on GitHub at that point, they're not there yet in their open source journey, will there be a set of best practices that you publish for Angular developers, soon to be WiNg developers, eventually WiNg developers?
 
