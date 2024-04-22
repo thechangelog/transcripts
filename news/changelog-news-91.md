@@ -10,19 +10,19 @@ Ok, let's get into the news.
 
 **Jerod Santo:**
 
-[The threat to open source comes from within](https://newsletter.goodtechthings.com/p/the-threat-to-open-source-comes-from)
+[The threat to open source comes from within](https://newsletter.goodtechthings.com/p/the-threat-to-open source-comes-from)
 
 Forrest Brazeal wrote this not-thought-leadership piece before OpenTofu published its response to Hashicorp's lawyers, but the general sentiment still stands.
 
 First, he lays out why he doesn't believe external threats like the XZ backdoor are existential for the open source community. Then, he turns inward with the horror movie classic twist: "The phone call is originating from inside the house!"
 
-> External threats, as the XZ thing demonstrates, seem to have a galvanizing effect on the broader open-source community. OSS just gets stronger under stresses like that.
+> External threats, as the XZ thing demonstrates, seem to have a galvanizing effect on the broader open source community. OSS just gets stronger under stresses like that.
 >
 > The thing I’m most worried about now is the opposite: a chilling effect. And it’s been creeping up on OSS like a glacier for over a decade.
 
 After a quick history lesson (Current situation: " Everyone is mad at everyone") and Forrest's viewpoint of the OpenTofu / Hashicorp legal drama, he concludes with this somber note: q
 
-> Here is where, if I were a thought leader, I would make some grand-sounding call for companies to “do better”, or for OSS foundations to “revisit their governance structures”, or something. But this is an impasse that can’t be solved with platitudes. Cloud companies, fundamentally, see open-source as something to exploit; OSS software companies see it as incompatible with a sustainable business model. Contributors who don’t work for either side are getting trampled on. And eventually, as the ecosystem fractures, everybody loses. The whole situation is just sad.
+> Here is where, if I were a thought leader, I would make some grand-sounding call for companies to “do better”, or for OSS foundations to “revisit their governance structures”, or something. But this is an impasse that can’t be solved with platitudes. Cloud companies, fundamentally, see open source as something to exploit; OSS software companies see it as incompatible with a sustainable business model. Contributors who don’t work for either side are getting trampled on. And eventually, as the ecosystem fractures, everybody loses. The whole situation is just sad.
 >
 > In the end, the fragile balance of open source—that unlikely blend of personalities and incentives that has driven tech’s innovation engine throughout the 21st century—won’t be upset by the odd state actor, or by malicious spam, or whatever scary new thing The Register is up in arms about tomorrow. It can only be disrupted when the community comes to believe maintaining that balance is more trouble than it’s worth. That’s the threat we should all be concerned about.
 
