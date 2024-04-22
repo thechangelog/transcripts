@@ -110,7 +110,7 @@
 
 **Breakmaster Cylinder:** Tell us about it. It was in the '90s when I listened a lot of trance CDs, or things like that. You can hear the DJ trying to switch between tracks, and sometimes it goes really well, and sometimes it's a little clunky; you can hear them do it. And I found that endearing. So I made it deliberately sound like I was trying to get from one to the other, and do it as best as I can, but it wouldn't be totally perfect... And the beats aren't like off from each other or anything, but like trying to get one song that's in one key into another one that's in a different key... And be creative... I don't know, it just sounds good. It feels good. You press Play, and then the whole thing doesn't stop until the end.
 
-**Jerod Santo:** Right. Yeah, I like that. What happens is -- tell us how it works. So during one track, the next track overlays it for the last n seconds, and it fades from one to the other...
+**Jerod Santo:** Right. Yeah, I like that. What happens is -- tell us how it works. So during one track, the next track overlays it for the last N seconds, and it fades from one to the other...
 
 **Breakmaster Cylinder:** Yeah.
 
@@ -130,7 +130,7 @@
 
 **Breakmaster Cylinder:** Yes, I like details. Also, it was like a nostalgia thing for me. I don't know if that's gonna mean a lot to too many other people, but...
 
-**Jerod Santo:** \[00:08:09.00\] Right.
+**Jerod Santo:** \[08:09\] Right.
 
 **Adam Stacoviak:** I'm jumping the gun a little bit, but I'm really concerned about Paul.
 
@@ -236,7 +236,7 @@
 
 **Breakmaster Cylinder:** \[unintelligible 00:11:48.05\] Clapping is like cheering of the hands. That's on the way...
 
-**Jerod Santo:** \[00:11:56.18\] Yeah, I think we're on our way... Here's what I think would happen actually, if we ever did do -- because we hint, and we tease, and we talk about a conference, a party, a meet-up, a show, a hangout... We've never done any of these things. But every time we're talking about it behind the scenes, we're like "Do you think BMC would come and DJ that thing live?" And Adam's like "Oh, I'm sure." And I'm like "I'm not sure, but I hope so."
+**Jerod Santo:** \[11:56\] Yeah, I think we're on our way... Here's what I think would happen actually, if we ever did do -- because we hint, and we tease, and we talk about a conference, a party, a meet-up, a show, a hangout... We've never done any of these things. But every time we're talking about it behind the scenes, we're like "Do you think BMC would come and DJ that thing live?" And Adam's like "Oh, I'm sure." And I'm like "I'm not sure, but I hope so."
 
 **Adam Stacoviak:** I've already asked him.
 
@@ -268,9 +268,9 @@
 
 **Jerod Santo:** And then we drop the Bump on a Log.
 
-**Sample**: \[00:13:14.10\]
+**Sample**: \[13:14\]
 
-**Breakmaster Cylinder:** Yeah, I do like these for openers. That bass is like sparse, and \[00:13:25.23\] if you ever heard the song a long time ago...
+**Breakmaster Cylinder:** Yeah, I do like these for openers. That bass is like sparse, and \[13:25\] if you ever heard the song a long time ago...
 
 **Jerod Santo:** Right. That's my favorite part. What do you call that though, \[unintelligible 00:13:31.07\]
 
@@ -288,7 +288,7 @@
 
 **Breakmaster Cylinder:** Yeah.
 
-**Sample**: \[00:14:34.23\]
+**Sample**: \[14:34\]
 
 **Jerod Santo:** And prior to that you had something entirely different, and I was like "It has to start with a banger." Remember that?
 
@@ -324,7 +324,7 @@
 
 **Breakmaster Cylinder:** Sweet.
 
-**Adam Stacoviak:** \[00:16:12.18\] So I skipped a little bit, but for the whole album, dancing it out, the whole way.
+**Adam Stacoviak:** \[16:12\] So I skipped a little bit, but for the whole album, dancing it out, the whole way.
 
 **Breakmaster Cylinder:** Kids' reactions is perfect.
 
@@ -378,7 +378,7 @@
 
 **Jerod Santo:** ...and he just goes crazy with the head bumps. And then it finally ends and he goes "Will you play that again for me, dad?" or something real cute.
 
-**Audio**: \[00:18:33.28\]
+**Audio**: \[18:33\]
 
 **Jerod Santo:** And he was just -- that Go Time theme song was all he wanted to listen to.
 
@@ -408,7 +408,7 @@
 
 **Breakmaster Cylinder:** No, it's always been like -- yeah.
 
-**Break**: \[00:19:25.03\]
+**Break**: \[19:25\]
 
 **Jerod Santo:** So take us through the Halt & Catches, because this was Halt & Catch Fire inspired music; there's about four of them. Halt & Catch Pyre... Halt & Do Not Pass Go, Halt & Catch a Cold... Which is awesome. And then my favorite, Halt & Cacciatore, which I had to look up... That's like a pasta dish, or something?
 
@@ -440,7 +440,7 @@
 
 **Jerod Santo:** Oh yeah, this was at the top of the Changelog. Still is, isn't it? Yeah, Adam uses this one as his intro.
 
-**Sample**: \[00:23:59.02\]
+**Sample**: \[23:59\]
 
 **Breakmaster Cylinder:** Yeah, I like that broken up little synth thing that's barely appearing... There's a gate on it, so it kind of crackles... If that means anything.
 
@@ -494,7 +494,7 @@
 
 **Breakmaster Cylinder:** Really?
 
-**Adam Stacoviak:** \[00:26:05.05\] Hank Rogers, yeah. It was really interesting to watch that, considering the conversation, and I guess how old that conversation is in comparison to I guess just the entropy of Tetris, really. You can't stop Tetris, you know? I mean, the film is evident of that. I won't ruin it for anybody, but it gets out. It can't be stopped.
+**Adam Stacoviak:** \[26:05\] Hank Rogers, yeah. It was really interesting to watch that, considering the conversation, and I guess how old that conversation is in comparison to I guess just the entropy of Tetris, really. You can't stop Tetris, you know? I mean, the film is evident of that. I won't ruin it for anybody, but it gets out. It can't be stopped.
 
 **Jerod Santo:** You can't stop the signal.
 
@@ -540,7 +540,7 @@
 
 **Jerod Santo:** And then this came out the other end right here.
 
-**Sample**: \[00:28:50.16\]
+**Sample**: \[28:50\]
 
 **Jerod Santo:** Oh, yeah, you definitely use this one.
 
@@ -584,7 +584,7 @@
 
 **Adam Stacoviak:** Gosh... So good, yeah.
 
-**Jerod Santo:** \[00:29:49.20\] And it's kind of chill too, so it is begging for someone to talk over the top of it. I mean, some tracks where you're like "I love this track, but I couldn't use it as a bed, during a read, because it's just too much going on." Like, you're just gonna be fighting with it. But especially the first part of that is just very melodic and simple, and doesn't have a lot of craziness to it, and so you can just talk right over the top of it.
+**Jerod Santo:** \[29:49\] And it's kind of chill too, so it is begging for someone to talk over the top of it. I mean, some tracks where you're like "I love this track, but I couldn't use it as a bed, during a read, because it's just too much going on." Like, you're just gonna be fighting with it. But especially the first part of that is just very melodic and simple, and doesn't have a lot of craziness to it, and so you can just talk right over the top of it.
 
 **Breakmaster Cylinder:** \[unintelligible 00:30:12.28\]
 
@@ -678,7 +678,7 @@
 
 **Breakmaster Cylinder:** That was fun.
 
-**Adam Stacoviak:** \[00:34:15.08\] See?
+**Adam Stacoviak:** \[34:15\] See?
 
 **Jerod Santo:** It was probably like three times better than usual, and we're gonna have to have you do it every year probably now.
 
@@ -744,7 +744,7 @@
 
 **Jerod Santo:** Let's play a little bit of it here...
 
-**Sample**: \[00:37:10.09\]
+**Sample**: \[37:10\]
 
 **Breakmaster Cylinder:** In-house musicians... Oh, I'm on the Highway to the Dangerzone already...
 
@@ -754,7 +754,7 @@
 
 **Jerod Santo:** Yeah, this track is just awesome. I'll turn it off now, because I could listen to the whole thing, but...
 
-**Adam Stacoviak:** \[00:38:04.05\] Yeah. So there was several renditions of that on YouTube, and I've found one where -- and I think this is the one you actually was inspired by, was one that actually had like multiple instruments, I suppose. Like, the same person playing multiple instruments of the Pole Reposition, or Pole Position.
+**Adam Stacoviak:** \[38:04\] Yeah. So there was several renditions of that on YouTube, and I've found one where -- and I think this is the one you actually was inspired by, was one that actually had like multiple instruments, I suppose. Like, the same person playing multiple instruments of the Pole Reposition, or Pole Position.
 
 **Breakmaster Cylinder:** One of those videos with all the mini screens inside it, where they're playing every --
 
@@ -830,7 +830,7 @@
 
 **Breakmaster Cylinder:** Sure.
 
-**Adam Stacoviak:** \[00:41:46.01\] And then of course, back in the MTV days - I grew up in the '80s-'90s, so I want my MTV, basically. But the original music video - gosh... It was quintessential, of course. It was this real-life photography video mixed with cartoon... So cool. Have you seen it?
+**Adam Stacoviak:** \[41:46\] And then of course, back in the MTV days - I grew up in the '80s-'90s, so I want my MTV, basically. But the original music video - gosh... It was quintessential, of course. It was this real-life photography video mixed with cartoon... So cool. Have you seen it?
 
 **Breakmaster Cylinder:** No. I'm picturing a different video. Yeah.
 
@@ -946,7 +946,7 @@
 
 **Adam Stacoviak:** Was that the same one who was mentioning Britney Spears?
 
-**Jerod Santo:** \[00:46:11.10\] I think so.
+**Jerod Santo:** \[46:11\] I think so.
 
 **Adam Stacoviak:** Yeah.
 
@@ -968,7 +968,7 @@
 
 **Jerod Santo:** And you went and came up with this.
 
-**Sample**: \[00:46:47.08\]
+**Sample**: \[46:47\]
 
 **Breakmaster Cylinder:** That's the Paul Oakenfold bit, for sure.
 
@@ -1070,7 +1070,7 @@
 
 **Breakmaster Cylinder:** Yeah... \[unintelligible 00:50:05.20\]
 
-**Sample**: \[00:50:09.07\]
+**Sample**: \[50:09\]
 
 **Jerod Santo:** Yeah, this one could have been like what Bump on a Log is almost.
 
@@ -1192,7 +1192,7 @@
 
 **Jerod Santo:** I'm interested that you're writing a book, not necessarily in the book... Unless you tell me what it's about and I get interested, but... That's kind of interesting.
 
-**Breakmaster Cylinder:** \[00:54:16.02\] I won't do that to you, but...
+**Breakmaster Cylinder:** \[54:16\] I won't do that to you, but...
 
 **Jerod Santo:** Yeah, don't do that to us.
 
@@ -1340,7 +1340,7 @@
 
 **Breakmaster Cylinder:** Yeah. There's an actual reason for it, but everything appears supernatural. It's the case of the repeating spider, and then the mystery of the missing missing arm.
 
-**Jerod Santo:** \[00:58:07.03\] Ah. And what's your intended audience age? Like, is this for adults? It this for young adults? Is this for children?
+**Jerod Santo:** \[58:07\] Ah. And what's your intended audience age? Like, is this for adults? It this for young adults? Is this for children?
 
 **Breakmaster Cylinder:** I swear a lot... A lot. Otherwise kids could read it.
 
