@@ -42,7 +42,7 @@ So Chris, while you were setting up your studio there to record the podcast, I w
 
 **Chris Benson:** Oh, you got my attention, man.
 
-**Song of Arrakis:** \[00:07:18.16\]
+**Song of Arrakis:** \[07:18\]
 
 **Daniel Whitenack:** What do you think?
 
@@ -74,7 +74,7 @@ So Chris, while you were setting up your studio there to record the podcast, I w
 
 **Daniel Whitenack:** We really appreciate you, Breakmaster Cylinder, the Mysterious Breakmaster Cylinder behind our theme music for the show, but this is what Udio can do. And I selected specifically to have it pop-rock, and to autogenerate the lyrics. So I didn't put it in any lyrics. So I have two options for you, Chris. I have two selections that you can see which one you like better. Here's the first.
 
-**Selection 1:** \[00:09:06.13\]
+**Selection 1:** \[09:06\]
 
 **Daniel Whitenack:** Alright, selection one. Thoughts.
 
@@ -82,7 +82,7 @@ So Chris, while you were setting up your studio there to record the podcast, I w
 
 **Daniel Whitenack:** Okay, cool. Yeah, I love it. Okay, that one was -- they also generated a title. It's interesting, I don't know how many models are at play under the hood here, and how they're coordinated... I'm guessing maybe there's some that generate the lyrics, and some that generate the title, and then somehow that's merged together in a music generation... Because obviously, the voice and the lyrics have to be coordinated somehow. I at least didn't see a lot of underlying explanation of what's going on here, but pretty interesting. And that was generated, I would say in 30 seconds, or something. I don't know, not that long. So let's take a listen to number two. This one was titled "Digital Odyssey".
 
-**Selection 2:** \[00:10:37.25\]
+**Selection 2:** \[10:37\]
 
 **Daniel Whitenack:** There you go. Even with a little bit of a guitar type solo there at the end...
 
@@ -92,7 +92,7 @@ So Chris, while you were setting up your studio there to record the podcast, I w
 
 **Chris Benson:** Oh, my God... My wife has all these chores planned for me, because we're recording here late on a Saturday morning, and I may get myself in trouble by... Yes, okay.
 
-**Daniel Whitenack:** \[00:11:37.19\] Well, there you go. So Udio - check it out. Super-cool stuff. I think this does bring up some really interesting challenges, issues, struggles, excitement... Also, of course, joy, in hearing Dune the Musical... But it is super-interesting - I even thought about this when I was going through here... Well, you know, Bobby B. created Dune, the Broadway Musical, and I just downloaded and I'm doing what I want with it, which I guess is playing it on my podcast. So Bobby B, I hope you're okay with that.
+**Daniel Whitenack:** \[11:37\] Well, there you go. So Udio - check it out. Super-cool stuff. I think this does bring up some really interesting challenges, issues, struggles, excitement... Also, of course, joy, in hearing Dune the Musical... But it is super-interesting - I even thought about this when I was going through here... Well, you know, Bobby B. created Dune, the Broadway Musical, and I just downloaded and I'm doing what I want with it, which I guess is playing it on my podcast. So Bobby B, I hope you're okay with that.
 
 Now, technically, this is machine-generated, so at least as far as I understand, in the current US legal system, such a thing would not be copyrightable. Sorry, Bobby.
 
@@ -116,7 +116,7 @@ By way of example of that inevitability, we have a Spotify account for our famil
 
 **Chris Benson:** That's right.
 
-**Daniel Whitenack:** \[00:15:58.18\] So yeah, I think that even now that's a bit of a gray area, but then my personal thought is eventually this will be more recognized as a creative pursuit... But we'll see.
+**Daniel Whitenack:** \[15:58\] So yeah, I think that even now that's a bit of a gray area, but then my personal thought is eventually this will be more recognized as a creative pursuit... But we'll see.
 
 **Chris Benson:** You know, this new inroads into music through this AI model, with this being so far the most interesting that I've seen, this probably will really scare the music industry... Because this is taking it to a whole different level, and there probably will be a lot of lobbying, a lot of lawsuits... We saw this past year actors going on strike, because of AI-based video and the creation of characters, or the representation potentially of live people... And I think we'll see some form of that here.
 
@@ -132,7 +132,7 @@ This is a process we're going to go through over and over again, and I was talki
 
 **Daniel Whitenack:** Yeah.
 
-**Break**: \[00:19:20.24\]
+**Break**: \[19:20\]
 
 **Daniel Whitenack:** A lot of these things, like I say, are moving into this multimodal sphere... And it might be worth just kind of looking back a little bit at how we got to where we're at in terms of multimodal functionality. Sort of how that gradually has changed over time, from NLP and speech to multimodal models that we're seeing now. I think one good way, if we kind of step back and look at it on a holistic, or historical standpoint, you kind of started out with modes of data processing that were maybe separated, but often tied together in a sort of chained way. We didn't really think about it chaining at the time, but you had speech synthesis models, for example, that were really specifically trained to only do text to speech. And in some cases, even that was broken up into submodels of like a vocoder, and other types of models.
 
@@ -146,7 +146,7 @@ And you had text-to-text models, you had maybe computer vision models that would
 
 I think this progression that we've seen in terms of moving into multimodal this year has been really fascinating in terms of coming into really how we take in information and how we learn... And I think, going back to Udio today, and seeing what they're doing, and looking at the other multimodal capabilities that we've been learning, it feels like we're finally getting to some -- I know we keep saying this; it's always kind of cool at the moment when the new thing comes out... But it feels like it's really aligning with what it means to be human as well, ironically. That's the background thought process I had as you were going through that.
 
-**Daniel Whitenack:** \[00:26:21.06\] Yeah, there's these scenarios in which knowledge is definitely -- like, we process knowledge across multiple modes of data inputs... And many things are not all represented in text, or in any given mode. And I think you've seen this already kind of utility over this with things like GPT Vision, which is a kind of visual instruction-tuned model... And maybe that's something to share with the audience. If you're not familiar, there's kind of this -- the music generation stuff, maybe that's a little bit newer, but there's kind of this ongoing work in visual instruction tuning. And this would be the type of model in which you would have an image input, and maybe a text prompt. And traditionally, I remember -- I think there's even some of these models still that are quite popular to use on, for example, AWS Textract, for example, is an OCR system, but you can also do visual question-answering. Now, it used to be you had a specific model architecture for visual question-answering; it was a research topic in and of itself. There was a specialized model... And this kind of illustrates some of the progression that we've had. There was a very specific discipline around visual question-answering, and very specific models that could do those things. And they advanced. But then, recently, you've got what has begun being termed visual instruction tuning for models, where the models are actually similar foundation models to what people are using for other modes.
+**Daniel Whitenack:** \[26:21\] Yeah, there's these scenarios in which knowledge is definitely -- like, we process knowledge across multiple modes of data inputs... And many things are not all represented in text, or in any given mode. And I think you've seen this already kind of utility over this with things like GPT Vision, which is a kind of visual instruction-tuned model... And maybe that's something to share with the audience. If you're not familiar, there's kind of this -- the music generation stuff, maybe that's a little bit newer, but there's kind of this ongoing work in visual instruction tuning. And this would be the type of model in which you would have an image input, and maybe a text prompt. And traditionally, I remember -- I think there's even some of these models still that are quite popular to use on, for example, AWS Textract, for example, is an OCR system, but you can also do visual question-answering. Now, it used to be you had a specific model architecture for visual question-answering; it was a research topic in and of itself. There was a specialized model... And this kind of illustrates some of the progression that we've had. There was a very specific discipline around visual question-answering, and very specific models that could do those things. And they advanced. But then, recently, you've got what has begun being termed visual instruction tuning for models, where the models are actually similar foundation models to what people are using for other modes.
 
 So for example, if we look at the LLLaVA model; so not LLaMA, but LLLaVA - maybe a bit hard to distinguish in the audio... That's an open source manifestation of the GPT Vision system, or a similar functionality to that. And if we look at how that operates, it actually is built off of - and this is kind of, we talk about this a lot on the podcast, Chris, where you're always sort of building on the shoulders of giants and a lot of what's come before, even though some of these functionalities seem to pop up out of nowhere. But there are kind of previous signals. And Chris, I don't know if you remember, we I think had an episode where we talked about CLIP...
 
@@ -158,7 +158,7 @@ So for example, if we look at the LLLaVA model; so not LLaMA, but LLLaVA - maybe
 
 **Daniel Whitenack:** Correct. Which thankfully is open to everyone back in the days when Open AI was open, and we can still use it. But CLIP allows you to embed an image or text in a similar embedding space, which means you're converting an image or a piece of text into a set of numbers, and if you compare those sets of numbers in that vector space, you can actually find things that are semantically similar by the distance between those vectors... Which is interesting, and kind of makes immediate sense if you're doing text-to-text things. The semantics of one piece of text, or the meaning of one piece of text could be similar to the meaning of another piece of text.
 
-\[00:30:01.16\] It's very intriguing though if you make this multimodal and say "A nice sunset on a beach in Florida", and then you have an image of a sunset somewhere on a beach, and then you have an image of a car driving through New York, and then you have an image of a spaceship in outer space... And you could actually find which of those images is semantically similar to a text input, right? So that's kind of the CLIP way of embedding things.
+\[30:01\] It's very intriguing though if you make this multimodal and say "A nice sunset on a beach in Florida", and then you have an image of a sunset somewhere on a beach, and then you have an image of a car driving through New York, and then you have an image of a spaceship in outer space... And you could actually find which of those images is semantically similar to a text input, right? So that's kind of the CLIP way of embedding things.
 
 And then on the other side you have large language models, which can take a text prompt, reason over that text prompt even though it's not really reasoning, it's just auto completing... But we can think, functionally, it takes in that prompt and outputs some output related to the question that's input, the query, the instruction, that sort of thing.
 
@@ -176,7 +176,7 @@ And then people then fine-tune these models based on datasets that they've creat
 
 So to give people a sense of the functionality of this type of model, if you haven't played around with GPT Vision or something like that, one of the examples on the LLaVA paper site which I find interesting is there's like a meme image of a world map, but it's made out of chicken nuggets... And so it looks like a world, but it's made out of chicken nuggets. So the picture is there, and then the user input, the text input along with the image input is "Can you explain this meme in detail?" So there's some element of the question that's needed to answer that question, because if you're saying this is a meme, you're asking for specific details, right? And then you definitely need the visual content to answer that question. Otherwise, you would just hallucinate something about a meme.
 
-**Chris Benson:** \[00:34:22.20\] Sure.
+**Chris Benson:** \[34:22\] Sure.
 
 **Daniel Whitenack:** So the LLaVA answer is "The meme in this image is a creative and humorous take on food, with a focus on chicken nuggets as the center of the Universe. The meme begins etc." and it essentially explains the humor, which is maybe not the best way to make something more humorous. \[laughs\]
 
