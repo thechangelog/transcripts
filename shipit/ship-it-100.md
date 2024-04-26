@@ -24,7 +24,7 @@
 
 **Justin Garrison:** So we'll get that interview in just a little bit. First, we want to go over a couple of links that we've found this week that are interesting, or we think you might find informative. And I'm gonna go first, because this one relates exactly to the interview and the episode today, which is an article called "How does Bluesky work?" And this doesn't go into all of the details underneath the app protocol and things like that, but it lays out some of the fundamentals of what Bluesky -- how it's layered, which I thought was really, really cool... With things like the personal data server, which is kind of where your information is stored, and how relays work, and how feed generators work, and labelers... They're all components of how it's built, that make the social network just kind of seamless for people to be able to just use, because it's just behind the scenes stuff.
 
-\[00:06:24.21\] I've found it really interesting just how they broke it down, because it was different than like developer documentation. This was more like "Oh, what is this piece? Why is it here? What does it do?" And it was a really good article. So yeah, it's interested in those details, especially how it is different than from something like Mastodon, or a, I don't know, monolithic or traditional social media platform like Twitter. This kind of goes into what do you need to kind of build this from scratch, and what do you need to make this scalable for as many people as Bluesky has.
+\[06:24\] I've found it really interesting just how they broke it down, because it was different than like developer documentation. This was more like "Oh, what is this piece? Why is it here? What does it do?" And it was a really good article. So yeah, it's interested in those details, especially how it is different than from something like Mastodon, or a, I don't know, monolithic or traditional social media platform like Twitter. This kind of goes into what do you need to kind of build this from scratch, and what do you need to make this scalable for as many people as Bluesky has.
 
 **Autumn Nash:** I think it's really cool that they are so open to tell people how it's built, and the features that people want to add... And it's the best world in between Mastodon and kind of like if you came from Twitter, because you can either have a lot of control, or have just enough that you feel comfortable and it's not too much extra work. So I think it's really cool the way that it's built and learning more about it.
 
@@ -40,9 +40,9 @@
 
 **Autumn Nash:** And I'm totally not knocking Mastodon. I think it was really cool when it came out, and I think they've done a good job... But I think that Bluesky's protocol and the way it's built and it gives you that option - but like you said, how you're not scraping everything... I do think that at some point Mastodon servers may -- like, I think Hachyderm's amazing; that's like the best server to me. I really enjoyed being there. But at the same time, I just feel like it's not sustainable, or it may not be sustainable at some point... Because it gets to a point where you have to scrape such large servers to interact with them... Like, that's a lot of cost eventually, especially the way things are going with Redis, and everything. Eventually, that could just really be expensive for the people who are owning those servers.
 
-**Justin Garrison:** \[00:09:59.27\] I didn't even think about the Redis fork, and how that fits into -- because that's a big component of Mastodon. And if you're making money from it, or you're charging money from it, does that fall under that? I don't know.
+**Justin Garrison:** \[09:59\] I didn't even think about the Redis fork, and how that fits into -- because that's a big component of Mastodon. And if you're making money from it, or you're charging money from it, does that fall under that? I don't know.
 
-**Autumn Nash:** Building something as big as Mastodon is still an achievement, right? Like, they built something from nothing. They open-sourced it. So I am in no way knocking it, and I think that it'll always kind of go down as a great refuge for people leaving Twitter, and I think it was made with the information they had at the time... Because who would have known it would get so much more expensive? But I do think that it's going to get into a point where it's going to be like "How does it go forward with the stuff with Redis, with things getting so expensive, with Threads...?" I think it's going to be interesting what happens from here on out.
+**Autumn Nash:** Building something as big as Mastodon is still an achievement, right? Like, they built something from nothing. They open sourced it. So I am in no way knocking it, and I think that it'll always kind of go down as a great refuge for people leaving Twitter, and I think it was made with the information they had at the time... Because who would have known it would get so much more expensive? But I do think that it's going to get into a point where it's going to be like "How does it go forward with the stuff with Redis, with things getting so expensive, with Threads...?" I think it's going to be interesting what happens from here on out.
 
 **Justin Garrison:** I have been pretty vocal about my distaste for Mastodon decisions, as much as it's an achievement to be able to create something like that. I have blog posts and YouTube videos and things of that nature that go into why I think that it wasn't a great decision on how the servers are run, and how they're monetized. We do have someone coming on the show scheduled from a Mastodon server, which I'm really excited to hear about how to do it at scale. Because every Mastodon server I've ever run in the past was for like me, and it was just like "Oh, I'm playing around with this", and then quickly finding out "Oh, this costs a lot of money", or "I need to scale things in these ways." I want to hear from someone that actually is doing it, how does this work and how are you maintaining that stuff.
 
@@ -64,7 +64,7 @@ them.
 
 **Justin Garrison:** Yeah. And apparently, they have fixed it, at least according to the reports... But this was definitely something that once I saw this, I was like "This is no longer failing over in an annoyance. This is actually kind of dangerous at this point." When you can't trust some of the things you're seeing, versus clicking on, that's when it's like "Okay, I don't know that I want to be here anymore." And actually, this week was my 16th anniversary on Twitter, and I posted that I'm done. I'm not sticking around, I'm not coming back; I have no plans to engage with the platform. I actually blocked it at DNS for my phone and my tablet. I still have it on my development machine, on my desktop, because I do need to maintain some things on Twitter for work... But otherwise, I'm done. This was too much for me, and I don't want to provide my free services to Elon and to the people there, so I left, and that's okay.
 
-**Autumn Nash:** \[00:14:11.12\] It makes me feel bad being on Twitter, because we're basically making him money, and the content is why people go there.
+**Autumn Nash:** \[14:11\] It makes me feel bad being on Twitter, because we're basically making him money, and the content is why people go there.
 
 **Justin Garrison:** And the reason I deleted all of my old tweets was I read his biography years and years ago, and after reading the biography, I was like "I will never work for that person." I was like "I cannot work for that person." And Nilay Patel from The Verge, when all this happened, he said "If you are on Twitter and you're posting things, you are working for Elon for free." And I took that to heart. I was like "You're right, because I'm making him content, and I'm bringing in ad revenue, and I'm bringing in traffic." And I couldn't do that anymore for myself, and so that's when I deleted all of my old tweets. And I had planned on stopping at that point, but I also knew that I was switching jobs, and I needed a few little bit of networking. I was still connecting with people, I still had open DMS, I was still having conversations with people... But now that I have fully transitioned into a new role, and I'm in a much better place just socially... I have a lot of phone numbers now. I text a lot of people, and that's actually really great. It's great having fewer deep connections with people. And so that's where I was just like "I don't need Twitter at this point." And I know a lot of people aren't in that same situation. I'm not putting judgment on anyone that still needs to be there. I still will miss people that I know only or primarily tweet or post on Twitter... But yeah, the things I kept seeing, that were just like "This is just kind of dangerous and stupid, and I don't want to do it anymore."
 
@@ -82,7 +82,7 @@ And Twitter Spaces were fantastic. I loved doing that. I was doing like white pa
 
 **Autumn Nash:** Don't say that. It's so sad.
 
-**Justin Garrison:** \[00:18:10.25\] I don't think that's ever going to be a thing of like this big social place, that had - not necessarily all the people, because Twitter actually is a very small social network compared to Facebook, and Instagram, and others. But it had a lot of the mindshare of people. When CNN would just read tweets; that was literally like shows. And sports networks would just read tweets, and that was...
+**Justin Garrison:** \[18:10\] I don't think that's ever going to be a thing of like this big social place, that had - not necessarily all the people, because Twitter actually is a very small social network compared to Facebook, and Instagram, and others. But it had a lot of the mindshare of people. When CNN would just read tweets; that was literally like shows. And sports networks would just read tweets, and that was...
 
 **Autumn Nash:** That's what I'm saying. Well, not just that, but... Did you ever feel like you had -- I don't know, I feel like it was the place that people had all the nerdy hobbies that I did. You could find your people there. Facebook is at this point our parents and grandparents, and just posts that nobody really wants to get into, and you post pictures of your kids and get off... And Instagram, I'll post pictures of like trips or fun things I'm doing, but it's primarily picture-based. And Twitter was my jam. Like, I found all the things -- people that were interested in the same things I was; the algorithm would just send me the coolest people, and I was like "Ah, this is cool. What are they working on? What are they excited about?" And now it's really hard to replicate the people it brought into your life, in the circle.
 
@@ -140,7 +140,7 @@ And Twitter Spaces were fantastic. I loved doing that. I was doing like white pa
 
 **Justin Garrison:** So with that, let's go ahead and jump into the interview with Paul, the staff engineer at Bluesky.
 
-**Break**: \[00:21:54.14\]
+**Break**: \[21:54\]
 
 **Justin Garrison:** This week on the show we have Paul Frazee, a staff engineer at Bluesky. Welcome to the show, Paul.
 
@@ -196,7 +196,7 @@ And Twitter Spaces were fantastic. I loved doing that. I was doing like white pa
 
 **Paul Frazee✌:** Before this I was working on a peer-to-peer web browser called the Beaker Browser. And before that, I was working on something called Secure Scuttlebutt, which was another peer-to-peer social network. And that covers - the two of those combined - about 10 years.
 
-**Autumn Nash:** \[00:26:16.03\] What's the difference between what you do now and peer-to-peer?
+**Autumn Nash:** \[26:16\] What's the difference between what you do now and peer-to-peer?
 
 **Paul Frazee✌:** What we do at Bluesky actually takes a lot of ideas from peer to peer, but we just still use servers. So it's almost like the servers are talking to each other with the peer-to-peer network, instead of users' devices. That was like the weird thing that we did with this leading up to it, because like I said, 10 years of doing this stuff - there's a whole community of these peer-to-peer software engineers that have been trying to decentralize social media or web browsers, things like that... And we developed a lot of really great tech, but peer-to-peer is really hard to get to work the way that you need it.
 
@@ -220,7 +220,7 @@ So we set up some simulation tests that we run before every release to make sure
 
 **Justin Garrison:** And you don't have any sort of like device farm that you're renting out, and all that?
 
-**Paul Frazee✌:** \[00:30:09.28\] Nah...
+**Paul Frazee✌:** \[30:09\] Nah...
 
 **Justin Garrison:** Which is amazing to think that Bluesky now is open for everyone to sign up, you've passed 5 million users, and a lot of people think "Oh, if I'm ever gonna get like 100 users, I have to have all this automation, I have to have all these things perfect." And instead, it's not fully YOLO, but also, there's exciting things like the Hellthread from last year, and things that were not really expected; that weren't intended, but also --
 
@@ -282,7 +282,7 @@ It's completely not the same.
 
 **Justin Garrison:** How has the open signups affected anything on your end, or adding millions of people in a matter of a month or so?
 
-**Paul Frazee✌:** \[00:33:55.05\] I mean, way less than I thought. We were definitely nervous about it, but that time of staying closed did exactly what it needed to do. A lot of people didn't really know why we were doing that. There was a lot of people thinking it was an exclusivity thing, and that was not what it was about. It was quite literally that we could not handle the users, and we had to scale things up on the moderation side, and on the server side, and the implementation, everything like that. So we just needed time to get it right. And we gave ourselves enough time, because yeah, once we opened up, it was smooth going. I was expecting worse. So I was pretty happy about it.
+**Paul Frazee✌:** \[33:55\] I mean, way less than I thought. We were definitely nervous about it, but that time of staying closed did exactly what it needed to do. A lot of people didn't really know why we were doing that. There was a lot of people thinking it was an exclusivity thing, and that was not what it was about. It was quite literally that we could not handle the users, and we had to scale things up on the moderation side, and on the server side, and the implementation, everything like that. So we just needed time to get it right. And we gave ourselves enough time, because yeah, once we opened up, it was smooth going. I was expecting worse. So I was pretty happy about it.
 
 **Autumn Nash:** Also, when you're trying to \[unintelligible 00:34:27.04\] something different, and it's new. That's a lot harder. It's not like you were just doing something that's already been done, so...
 
@@ -292,7 +292,7 @@ It's completely not the same.
 
 **Paul Frazee✌:** Oh, yeah.
 
-**Justin Garrison:** That's the thing you stay inside of a social network for. If there is no moderation, or if it's not your flavor of moderation, you're not gonna wanna stick around, because it''s not for you. And having that as a composable layer is really interesting. And I'm curious to know why, or what benefits you might get for open-sourcing things like Ozone. We were talking about that earlier, which is like this current open source implementation of a custom labeler. Why open-source some of that? Why not make it a hosted service and say "Hey, you have to pay us to make it?" Because you could do it either way, and you say "Here's an open source thing. You run it yourself, you label it, and you can run your own moderation stack."
+**Justin Garrison:** That's the thing you stay inside of a social network for. If there is no moderation, or if it's not your flavor of moderation, you're not gonna wanna stick around, because it''s not for you. And having that as a composable layer is really interesting. And I'm curious to know why, or what benefits you might get for open sourcing things like Ozone. We were talking about that earlier, which is like this current open source implementation of a custom labeler. Why open source some of that? Why not make it a hosted service and say "Hey, you have to pay us to make it?" Because you could do it either way, and you say "Here's an open source thing. You run it yourself, you label it, and you can run your own moderation stack."
 
 **Paul Frazee✌:** Yeah, I mean, we may still do that. We're kind of starting from the extreme of making sure that the technology and the pieces are out there, so that anybody can do it... Because again, that's the strong mission orientation that we have, is making sure that this stuff is in a way kind of a public domain, so to speak.
 
@@ -318,7 +318,7 @@ Apple in some ways is a little bit better. You can ask them to accelerate a revi
 
 **Justin Garrison:** What has Bluesky been rejected for?
 
-**Paul Frazee✌:** \[00:38:06.23\] A fair amount over NSFW stuff. It took us a while to kind of get onto the same page with them about that.
+**Paul Frazee✌:** \[38:06\] A fair amount over NSFW stuff. It took us a while to kind of get onto the same page with them about that.
 
 **Justin Garrison:** Which was really interesting... And I actually appreciate the things you were doing early on to make sure that stuff was labeled. It doesn't show up on mobile, and it can show up on web, depending on those settings.
 
@@ -354,7 +354,7 @@ So that was fine... But yeah, we just said "Oh, this is the date we're going liv
 
 **Autumn Nash:** That's what I was wondering. I feel like that would be a better cadence to kind of be on the same page about when you want to do your releases.
 
-**Paul Frazee✌:** \[00:42:02.23\] Yeah, we always do the thing where you choose when to press the button... Because you want to have everybody come out at the same time, so that people aren't confused... Because that's something else that factors in, is that you don't want users talking about a new feature, and being like "I don't see it yet." You're like "Okay, now we have 100 support requests."
+**Paul Frazee✌:** \[42:02\] Yeah, we always do the thing where you choose when to press the button... Because you want to have everybody come out at the same time, so that people aren't confused... Because that's something else that factors in, is that you don't want users talking about a new feature, and being like "I don't see it yet." You're like "Okay, now we have 100 support requests."
 
 **Justin Garrison:** "Look, I've got a database migration over here. Hold on..."
 
@@ -388,7 +388,7 @@ And I think a big part of what the review process is about is just making sure y
 
 **Justin Garrison:** Autumn's just like humble-bragging there... She's like "I'm here too, so..." \[laughter\]
 
-**Autumn Nash:** \[00:46:02.13\] I am cool, and also live here... But I just meant in general, because think about all the people that work in tech, and new cool things, and biotech, and... There's so many cool industries here. I went to the Museum of Industry in Seattle, and it's crazy the amount of things that have been like founded here; it makes it really special.
+**Autumn Nash:** \[46:02\] I am cool, and also live here... But I just meant in general, because think about all the people that work in tech, and new cool things, and biotech, and... There's so many cool industries here. I went to the Museum of Industry in Seattle, and it's crazy the amount of things that have been like founded here; it makes it really special.
 
 **Paul Frazee✌:** Yeah. I can't go anywhere without running into somebody from Amazon, too... Which is pretty fun.
 
@@ -438,7 +438,7 @@ Yeah, so that's gonna be pretty huge... But other than that though, mainly what 
 
 **Paul Frazee✌:** Oh, yeah, nobody is confused on that. It wasn't on purpose. It was just an accident of how things kind of worked, that yeah, I just ended up -- because what we were doing... And this is still kind of there, but we're shifting away from it... We would show replies, like if somebody's talking. So I'm just replying to a lot of folks, and next thing you know, people -- like, if I'm one of the few people you follow, then you just start seeing my replies just dominating your feed, and so... Yeah, dev advantage on that one right there.
 
-**Justin Garrison:** \[00:50:05.13\] Yeah. The Paul feed. The Paul feed was definitely a good six months of "Oh, you're using this one a lot. This is good."
+**Justin Garrison:** \[50:05\] Yeah. The Paul feed. The Paul feed was definitely a good six months of "Oh, you're using this one a lot. This is good."
 
 **Paul Frazee✌:** Yeah.
 
@@ -476,7 +476,7 @@ We want to make sure also that -- in decentralization, a lot of the kind of big 
 
 **Paul Frazee✌:** Well, that's what we're trying to do, but we're not there yet. For sure, we have not brought over all of tech Twitter. And we want to try to -- like, that's our goal, is to get to that point where we're hitting all those points... But we've got some things we've got to get in there. We've got to get DMs in there, we've got to make sure that the discovery is working right... Like, part of the problem is you get in there and it's hard to find the folks, right? We just haven't put in the resources into that. So we've got to clean up some of that stuff and make sure that it can actually happen.
 
-**Autumn Nash:** \[00:53:59.16\] I hope people do go over to Bluesky, because Twitter's just sad at this point.
+**Autumn Nash:** \[53:59\] I hope people do go over to Bluesky, because Twitter's just sad at this point.
 
 **Paul Frazee✌:** We're definitely grabbing folks, and I just want us to grab more.
 
@@ -540,7 +540,7 @@ We want to make sure also that -- in decentralization, a lot of the kind of big 
 
 **Paul Frazee✌:** Thank you all.
 
-**Break**: \[00:57:07.28\]
+**Break**: \[57:07\]
 
 **Justin Garrison:** Thank you so much, Paul, for coming on the show and talking to us all about how you test and deploy the mobile apps at Bluesky, because that's just a cool area that I have almost zero experience with. And it's always fun to hear more about like how complex that can be, and sort of the tools and the pipelines you use to do that sort of testing.
 
