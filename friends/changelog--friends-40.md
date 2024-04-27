@@ -24,7 +24,7 @@
 
 **Jerod Santo:** That's kind of cool. So they published the whole letter, that you can read even the revisions; you think they'd want to strike stuff.
 
-**Adam Stacoviak:** \[00:06:00.03\] Yeah, I don't know why they would give the full... I think it's a legal thing, to provide all of the...
+**Adam Stacoviak:** \[06:00\] Yeah, I don't know why they would give the full... I think it's a legal thing, to provide all of the...
 
 **Jerod Santo:** Transparency?
 
@@ -56,7 +56,7 @@
 
 **Jerod Santo:** Right. They came out non-open source from the start. And he specifically says they wanted to avoid a rug pull. And it seems like that's really the offense, is when things change on you. And now Redis having its license changed has caused quite a splash... And many forks. So we have a post here, which we'll link to, from Vicki Boykis, called "Redis is forked." And yes, she's using that tongue-in-cheek to talk about the condition of the Redis project in light of this relicense, and what's all going on. The skinny is forks are abounding, and people are looking elsewhere for their Redis needs... Specifically, there are two major forks. One's called Valkey, which is licensed under the BSD license, and led by previous contributors to Redis from AWS and other companies. So Valkey is a big one. And then another one called Redict. I don't know how you pronounce that one. That one's actually GPL-ed. It's led by an open source coalition headed up by none other than Drew DeVault, who we had on the show recently.
 
-\[00:10:03.20\] So two major forks, both vying for your eyeballs... I don't know, your user-ish, to be their users... For your contributions, of course... And I don't know if anything has really shooken out, shaked out... Hard time with verbs today.... In terms of what's going to be what everybody goes and uses. But in addition to that, there's also not just forks, but people start to look elsewhere for Redis-compatible things. So not Redis forks, but just things where they can keep their API client code, everything that talks to Redis, and swap in some other data store in the backend.
+\[10:03\] So two major forks, both vying for your eyeballs... I don't know, your user-ish, to be their users... For your contributions, of course... And I don't know if anything has really shooken out, shaked out... Hard time with verbs today.... In terms of what's going to be what everybody goes and uses. But in addition to that, there's also not just forks, but people start to look elsewhere for Redis-compatible things. So not Redis forks, but just things where they can keep their API client code, everything that talks to Redis, and swap in some other data store in the backend.
 
 Two that are interesting, one from Microsoft called Garnet, which is in C\#, and obviously has Microsoft pedigree... It's supposed to be very fast. And then another one I thought was pretty cool, which caught my attention, is called Redka. That is not a Redis per se, but it's a Redis-compatible Go program written by a fella who has been on Changelog News a handful of times recently. I think I might get him on an interview show... Anton Zhiyanov. And so he's built Redka in Go, which is Redis with an SQLite backend. So a pretty cool relational database, under the covers. Gonna be slower. He says it is slower than Redis, two to six times in his benchmarks... But still pretty fast.
 
@@ -78,7 +78,7 @@ So lots of, I guess, activity in the wake of this one. And people are trying to 
 
 **Jerod Santo:** Right. And the cool thing about Redis - I mean, what is Redis'es innovation? What is its legacy? And the answer to that was it was a cache store that was more robust and useful than a typical key-value store, where you put a key in, and you get a value back out. And maybe you namespace it. Redis has rich data types, but not very many of them. So few, in fact, that Anton Zhiyanov could reimplement quite a bit of it - at least the API - on his own in what seems to be a short amount of time. I didn't check the history of his repository, but... That's what people love. It's like "Give me a fast data store, that has these rich data types: strings, sets, lists, maps etc." And that was cool, and it was well-written, and it was steady as software; it was very reliable. And that was Redis'es thing. And that thing is awesome, and brought a lot of joy to a lot of us, but it's not that hard to do again, with a different backend. Maybe a faster one, maybe a slower one. Maybe a simpler one, maybe a more complicated one.
 
-\[00:14:17.29\] And so I expect a Cambrian explosion of Redis-like projects to come out of this, and then we'll see what happens. Certain ones survive, other ones don't... In the wake of Redis, perhaps, something better comes out, that developers love for years to come. So I'm kind of putting a fork in it, no pun intended there.
+\[14:17\] And so I expect a Cambrian explosion of Redis-like projects to come out of this, and then we'll see what happens. Certain ones survive, other ones don't... In the wake of Redis, perhaps, something better comes out, that developers love for years to come. So I'm kind of putting a fork in it, no pun intended there.
 
 **Adam Stacoviak:** Oh, boy. Nice one.
 
@@ -88,7 +88,7 @@ So lots of, I guess, activity in the wake of this one. And people are trying to 
 
 **Jerod Santo:** "What next?" That's what I'm thinking.
 
-**Break**: \[00:14:56.20\]
+**Break**: \[14:56\]
 
 **Jerod Santo:** What's next in the news?
 
@@ -102,7 +102,7 @@ So lots of, I guess, activity in the wake of this one. And people are trying to 
 
 **Adam Stacoviak:** And you put in on your list, so I was like "Okay, this is great crossover", because Ars Technica covered this. I have not read this yet... But I will dig in with you, because - wow, that thing stood up so amazingly. And that was actually quite scary when I saw it do exactly that. So I was like "Worst dream ever, queue suspenseful horror music for movie" kind of thing.
 
-**Jerod Santo:** \[00:17:49.28\] Exactly. So this is Boston Dynamics' latest humanoid. If you recall, they had their Atlas robot, which was this big, bulky, hydraulic-based thing that was really cool, and did a lot of impressive demos. It could even do flips. It could traverse difficult gymnastic --
+**Jerod Santo:** \[17:49\] Exactly. So this is Boston Dynamics' latest humanoid. If you recall, they had their Atlas robot, which was this big, bulky, hydraulic-based thing that was really cool, and did a lot of impressive demos. It could even do flips. It could traverse difficult gymnastic --
 
 **Adam Stacoviak:** Parkour.
 
@@ -116,7 +116,7 @@ It's crazy. I mean, I watched it like five times... But it very much -- I mean, 
 
 **Jerod Santo:** \[laughs\] Of course...
 
-**Adam Stacoviak:** \[00:21:45.28\] You know, all these things... That's to me is just like "Wow..." I mean, inside of our household, Jerod - I don't know if I told you this before, but I have a four-year-old son, so I go to bed with him every night... Well, Heather and I share. We switch. And I will often do interesting lookups. And my son loves, loves Boston Dynamics. We have watched that parkour video, and we call the other one the water one, where spot goes through -- it's a spot ad. It's a fantastic ad, because it's not at all an ad. We love that, right? Ads that aren't ads. And it's just amazing what they've done with the old generation. And if this is the new generation, I just think about all the software, all the sensors, all the things that went into making this kind of thing realistic. It stands and uses gravity to its best benefit. It doesn't wobble one little bit... Now, could this be a Devon situation? I sure hope not. I don't think Boston Dynamics is a Devon-like folks, because they've proven it before --
+**Adam Stacoviak:** \[21:45\] You know, all these things... That's to me is just like "Wow..." I mean, inside of our household, Jerod - I don't know if I told you this before, but I have a four-year-old son, so I go to bed with him every night... Well, Heather and I share. We switch. And I will often do interesting lookups. And my son loves, loves Boston Dynamics. We have watched that parkour video, and we call the other one the water one, where spot goes through -- it's a spot ad. It's a fantastic ad, because it's not at all an ad. We love that, right? Ads that aren't ads. And it's just amazing what they've done with the old generation. And if this is the new generation, I just think about all the software, all the sensors, all the things that went into making this kind of thing realistic. It stands and uses gravity to its best benefit. It doesn't wobble one little bit... Now, could this be a Devon situation? I sure hope not. I don't think Boston Dynamics is a Devon-like folks, because they've proven it before --
 
 **Jerod Santo:** You're referring to the fake demo. Devon's fake demo.
 
@@ -178,7 +178,7 @@ It's crazy. I mean, I watched it like five times... But it very much -- I mean, 
 
 **Adam Stacoviak:** These batteries weigh a lot.
 
-**Jerod Santo:** \[00:25:54.13\] Smaller and lighter... I mean, at less than 100 pounds, you could carry that sucker around, throw it in your trunk... Oh, could you imagine...? You open your back trunk, and that thing unfolds out of it, and starts walking towards you...
+**Jerod Santo:** \[25:54\] Smaller and lighter... I mean, at less than 100 pounds, you could carry that sucker around, throw it in your trunk... Oh, could you imagine...? You open your back trunk, and that thing unfolds out of it, and starts walking towards you...
 
 **Adam Stacoviak:** So I've got a little Plus Plus treat for folks I'll mention right here at the part of the show... And you can even leave for this, Jerod, unless you wants to stick around for it... But I have a story that I had Chat-GPT write my son.
 
@@ -258,7 +258,7 @@ And so he kind of covered some things he likes about Zed, in regards to coming f
 
 **Jerod Santo:** Well, I can definitely see it... And I've never been a fan of Vim mode myself, having deep Vim roots, but also enjoying nice, pretty GUIs editors. I've always turned Vim mode on for a few minutes, and then it's been uncanny valley, and there's stuff missing, and so I ended up turning it off... And eventually, I just got used to the way Sublime Text worked, and I was happy with that. So I wouldn't use Vim mode myself inside Zed. I do not use Vim mode inside Zed, even though I use Vim in a terminal throughout the week as well. But I can see how it would help people cross that chasm, and keep some of the speed they're used to by being keyboard-based nav.
 
-\[00:29:58.19\] I mean, if you have all of Vim's keyboard shortcuts internalized, there's no faster moving than that. And so to use an editor like Zed, where you're tempted to take the mouse and point it at a spot and click on it, you're going to slow yourself down doing that. So I understand why they need to have Vim mode for adoption. I also understand why Vim users would want to have Vim mode. I've just never personally liked it enough. It's always kind of left me hanging, or it doesn't support my particular nav...
+\[29:58\] I mean, if you have all of Vim's keyboard shortcuts internalized, there's no faster moving than that. And so to use an editor like Zed, where you're tempted to take the mouse and point it at a spot and click on it, you're going to slow yourself down doing that. So I understand why they need to have Vim mode for adoption. I also understand why Vim users would want to have Vim mode. I've just never personally liked it enough. It's always kind of left me hanging, or it doesn't support my particular nav...
 
 That's the thing about Vim, is you can create your own style of navigation based on whatever combination of keyboard strokes that you like. And people navigate in different ways. And so if it supports all of Vim's motions, which I doubt it, then it'd be fine. But there's always some lacking, and that was frustrating for me. But I am still, to this day, Zed daily driver. There are some things that bug me about it, but I do love how often it's updating. A couple of times a week sometimes... Relaunch and see what's new. And they're adding stuff that I want. So Emmet was recently added as a built-in extension, first-party supported extension. Emmet, for those who don't know, is the HTML text expander library, where you can type div.title, and it'll be div class = title. And you can say x3 and it'll do three divs class equals title. And you can get real fancy with it. I just use it for basic HTML text expansion.
 
@@ -276,7 +276,7 @@ But then there's things that bug me, like it only works if your document's set t
 
 **Jerod Santo:** Up next, let's talk about something that Justin Searls is using, that most people are not using. And that's the Apple Vision Pro. Justin recently wrote a post titled "Vision Pro was a better deal than my Mac Studio." So he is all-in on Vision Pro. I know many people have moved on; like, it made a splash, it got all the reviews, all the memes, and the people walking around Times Square, stopping in the middle of the street and doing some sort of Vision Pro motion and then they keep walking... And they're like "This is what life's gonna be like now." And then the luster wore off, and many people are now writing their posts about how they're not using their Vision Pro anymore, and it's a failure. And Justin is, however, the voice of one crying in the wilderness here. He's saying he's still using his Vision Pro. It was a better deal than his Mac Studio, and he says he's been using it for no other purpose than Mac virtual display, and he uses it for that for four to eight hours a day, seven days a week. So he's spending four to eight hours, even on a Sunday, with this thing on his face.
 
-\[00:34:34.08\] He says "Meanwhile, my brand spankin' new M2 ultra-equipped Mac Studio and 32-inch 6k monitor are collecting dust." This sounds a little bit like a humble brag coming from Justin, with the gear that he has... More than that, he says "I'm getting more done than at any point in my career." And he's more productive now, he thinks, with this thing strapped to his face than he was with any other setup in his life. What do you think about that, Adam?
+\[34:34\] He says "Meanwhile, my brand spankin' new M2 ultra-equipped Mac Studio and 32-inch 6k monitor are collecting dust." This sounds a little bit like a humble brag coming from Justin, with the gear that he has... More than that, he says "I'm getting more done than at any point in my career." And he's more productive now, he thinks, with this thing strapped to his face than he was with any other setup in his life. What do you think about that, Adam?
 
 **Adam Stacoviak:** I ain't mad at it... As my good friend says that runs Meat Church, Matt Pittman. That's something he says every time he makes something good, and he tastes it, he's like "Ain't mad at that." It's like, it tastes good. That's the response. So I don't disagree. He's a good tastemaker. I'm concerned about his neck, but I'm looking at the Mac Virtual Display video that's on the docs page that he links to, and I think it looks pretty cool. So I think if this was a scenario -- I can agree, I suppose, that this looks pretty cool; that you can do certain gestures, and you've got this virtual display... He talks about not having ADHD as a diagnosis, but talks about his ability to focus... And so I think that that's pretty spot on, I think, with a less distracting display... Because I find myself doing that. I mean, jeez, I'm like "I've gotta go to my email to get this information." And then on my way there to my email, I see a different email. And then I'm chasing this thing, because that was an urgent thing, or something that caught my attention, something that I should do --
 
@@ -294,7 +294,7 @@ But then there's things that bug me, like it only works if your document's set t
 
 **Jerod Santo:** And so the overall gist is now he says instead of sitting at his computer for six hours and getting a few hours of work done, he's getting six really great hours of work done with this device, versus any other one. I can't argue with it, because I've never worn one, I've never tried it. Maybe he's living in the future, and we just haven't arrived there yet. Or maybe he's just the only one who likes this thing, and everybody else is back to their -- I mean, a 6k display is pretty nice, if you ask me...
 
-**Adam Stacoviak:** \[00:38:07.03\] Well, I think my hinge for this is not its usefulness. I just worry about until it gets a smaller form factor. I think he's probably spot on with the usefulness. It's the ergonomics. It's pretty heavy.
+**Adam Stacoviak:** \[38:07\] Well, I think my hinge for this is not its usefulness. I just worry about until it gets a smaller form factor. I think he's probably spot on with the usefulness. It's the ergonomics. It's pretty heavy.
 
 **Jerod Santo:** Yeah, I couldn't imagine wearing that for eight hours. Even my headphones - you know, I wear big studio headphones when we record and when we edit... I take them off in between. If I'm not recording or editing, they're off my head, because I just do not want something on my head for that long. And I couldn't imagine even if it's in front of your eyes... But I don't know; it works for some folks, I guess.
 
@@ -306,7 +306,7 @@ But then there's things that bug me, like it only works if your document's set t
 
 **Jerod Santo:** I guess in a certain way I feel guilty for not using Firefox. I don't know about you... Have you ever heard Bill Burr's take on feminists and the WNBA.
 
-**Bill Burr extract:** \[00:40:34.18\]
+**Bill Burr extract:** \[40:34\]
 
 *Dude, look at the WNBA. Nobody in the WNBA got COVID. Nobody. They've been playing in front of 300 to 400 people a night for a quarter of a century. Not to mention it's a male-subsidized league. We \[unintelligible 00:40:56.14\] None of you showed up. Where are all the feminists? That place should be packed with feminists. Faces painted, wearing jerseys, going nuts, like the guys do, in the upper deck, with your big \[unintelligible 00:41:09.08\]*
 
@@ -322,7 +322,7 @@ But then there's things that bug me, like it only works if your document's set t
 
 **Jerod Santo:** No, it was a large minority. Like, I would put it in the 20%, maybe 15% to 20% of worldwide usage. This is off the top of my head about history. And now it's back down to like 3% to 5%, I think. But it got enough of a hold that it needed to be taken seriously, and supported by websites writ-large. And so that really broke the stranglehold of Internet Explorer, or as we used to call it, Internet Exploder. So it was significant, and it's definitely lost a lot of market share since then... But it never got to a majority.
 
-\[00:44:04.00\] And I disagree about their support for burgeoning web standards. I feel like Firefox has always been right there with people in the game, writing the specs, implementing the features... Of course, different browsers have different priorities. Safari - there are certain things that the Safari team just doesn't want to build for business reasons. There are other places where Safari has been the first one to implement things, especially if they're things that Apple likes, like font loading, and performance things, and security things... So that's a tough one for me to really make strong claims about.
+\[44:04\] And I disagree about their support for burgeoning web standards. I feel like Firefox has always been right there with people in the game, writing the specs, implementing the features... Of course, different browsers have different priorities. Safari - there are certain things that the Safari team just doesn't want to build for business reasons. There are other places where Safari has been the first one to implement things, especially if they're things that Apple likes, like font loading, and performance things, and security things... So that's a tough one for me to really make strong claims about.
 
 I think Firefox, Mozilla as a corporation, in the last 10 years has gotten distracted from Firefox, and hasn't funded its development, even though it's the cash cow of the organization, by pulling in that Google money for search. And so they've gotten distracted with like the mobile OS (Firefox OS, was it?), VPNs... Other things, other products that haven't got the usage that Firefox has. And so for that reason, I feel like Firefox has definitely got to where it wasn't. It used to be like nimble, fast, private, with extensions, and tabs. And that's what got it to where it was. And it still has tabs, and it still has extensions, and it still has privacy as far as I can tell... But it got kind of memory-hungry, kind of slow... It's always been, at least on MacOS, in my opinion, an ugly-looking piece of software. No offense to the people that work on it. I have much respect for you all. It just hasn't spoken to my sensibilities. And I don't know. But it definitely stands for a lot of the things that I believe in, and yet I don't use it.
 
@@ -344,7 +344,7 @@ Well, I think the one caveat that I can mention for this person that wrote the p
 
 **Jerod Santo:** \[laughs\] Yeah. Take it all back.
 
-**Adam Stacoviak:** \[00:47:55.09\] I'm just kidding. I should have noticed this too, because on the homepage it says "Executive chair of the board" now, not CEO. So that's my bed.
+**Adam Stacoviak:** \[47:55\] I'm just kidding. I should have noticed this too, because on the homepage it says "Executive chair of the board" now, not CEO. So that's my bed.
 
 **Jerod Santo:** And I'm not sure how long the interim is going to last for Laura... But we'd love to have you on the show as well.
 
@@ -394,7 +394,7 @@ So I think what may have happened with Alfred is just that it was -- because I d
 
 **Adam Stacoviak:** Maybe. All their extensions are MIT open source, too. So they have a single repository on GitHub. So every extension other than the native extension, I believe, live in this repository. And so all contributions are MIT-licensed. So you can go today, Jerod, and from our API create a Changelog extension that says "Show me the latest episodes." And you can down-arrow to it, click it, and it can open up in Spotify, or in Music, or on our website, and they can choose that kind of stuff, and it would be open source.
 
-**Jerod Santo:** \[00:51:56.26\] Who's building this?
+**Jerod Santo:** \[51:56\] Who's building this?
 
 **Adam Stacoviak:** You are. I just gave you a task.
 
@@ -440,7 +440,7 @@ So I think what may have happened with Alfred is just that it was -- because I d
 
 **Jerod Santo:** Yeah, that's cool. I just use ChatGPT in a tab.
 
-**Adam Stacoviak:** \[00:55:54.02\] Yeah. And I did, too. Until.
+**Adam Stacoviak:** \[55:54\] Yeah. And I did, too. Until.
 
 **Jerod Santo:** And now you don't.
 
@@ -472,7 +472,7 @@ So I think what may have happened with Alfred is just that it was -- because I d
 
 **Jerod Santo:** It's difficult when you have like a single prompt, or a single pane of glass that tries to provide so many different sub-programs; it has to then say "Hey, okay, here's my query... But which sub-program were you targeting this query to? Was it an LLM? Was it the OS? Are you trying to launch an application?" And so they have trade-offs there. They have to decide what gets the bare query, the empty one, where it's just a word, or just a phrase, versus - I'm sure you can put a little prefix there, with a colon or whatever, and like use a sub-part of Raycast, or something. And I'm just talking completely hypothetically, because I don't use it, but... That's a challenge as a UX designer, is like "Well, what gets top-level search, and what doesn't?" And because macOS spotlight really is an operating system level thing and nothing else, it's just like, it's gonna search its built-in Apple apps, and that's usually just what you need. But I do feel like that particular use, like "Hey, this is just a name", you know... Just like pass it off to the Contacts app automatically. Why not? Alright, we've beat this horse dead...
 
-**Break**: \[00:59:25.15\]
+**Break**: \[59:25\]
 
 **Jerod Santo:** Beeper no longer indie... I don't know if it was indie before. It was probably a startup. Now part of Automattic. So this is April 9th, Beeper's CEO Eric Migicovsky, now the Automattic head of messaging, writes "I'm excited to announce that Beeper has been acquired by Automattic. This acquisition marks the beginning of an exciting new chapter", that's what they always say, "as we continue our mission to create the best chat app on Earth." So if you haven't heard of Beeper before, this really made its name, because it unified the green bubbles and the blue bubbles on iOS. So you could be an Android user, install Beeper, and chat over iMessage with a blue level.
 
@@ -508,7 +508,7 @@ And then my question is what exactly will Automattic not acquire, and what is th
 
 **Adam Stacoviak:** Yes.
 
-**Jerod Santo:** And so Matt said -- he came out and said they wouldn't have bought it unless it was affordable. And it was. And I think they -- I couldn't find the quote, but I feel like he recently said that Tumblr was a mistake, or that they haven't been able to do with it what they thought they would be able to do with it. And they had layoffs recently at Tumblr, in December. A big portion, like 100+ people of a small organization laid off... And I think Matt has said they've been unable to find a way of having Tumblr make money... So I think Tumblr was a bad buy. But he's bought a bunch of stuff, and done really well with some of it. I mean, PocketCasts, for instance, is thriving. And they open-sourced it, and they've left it pretty much alone... But Automattic ones PocketCasts, which is a great podcast app... And they seem to support things that are open and webby, and... I don't know the exact mission of Automattic, or what they say their investment philosophy is, but it seems like they like to buy different webby things and run them. I don't know, like WordPress.
+**Jerod Santo:** And so Matt said -- he came out and said they wouldn't have bought it unless it was affordable. And it was. And I think they -- I couldn't find the quote, but I feel like he recently said that Tumblr was a mistake, or that they haven't been able to do with it what they thought they would be able to do with it. And they had layoffs recently at Tumblr, in December. A big portion, like 100+ people of a small organization laid off... And I think Matt has said they've been unable to find a way of having Tumblr make money... So I think Tumblr was a bad buy. But he's bought a bunch of stuff, and done really well with some of it. I mean, PocketCasts, for instance, is thriving. And they open sourced it, and they've left it pretty much alone... But Automattic ones PocketCasts, which is a great podcast app... And they seem to support things that are open and webby, and... I don't know the exact mission of Automattic, or what they say their investment philosophy is, but it seems like they like to buy different webby things and run them. I don't know, like WordPress.
 
 **Adam Stacoviak:** Well, I just wonder, is this amazing news for -- I suppose, in quotes, any acquisition is a good news? Maybe that's not true... Probably not true.
 
@@ -608,7 +608,7 @@ And then my question is what exactly will Automattic not acquire, and what is th
 
 **Adam Stacoviak:** And if you go to texts.com, it still is a standalone app. Eric says they're merging worlds. He's now head of messaging for Automattic. So maybe they have a big mission here, where they will have the best end-all-be-all all-in-one chat app.
 
-**Jerod Santo:** Well, let me put one prediction out there, just based on recent history. Open source Beeper coming soon. Maybe within the next couple of years. I think they might go ahead and -- maybe it'd be called something else, but... They open-sourced PocketCasts. That was cool. Matt loves open source.
+**Jerod Santo:** Well, let me put one prediction out there, just based on recent history. Open source Beeper coming soon. Maybe within the next couple of years. I think they might go ahead and -- maybe it'd be called something else, but... They open sourced PocketCasts. That was cool. Matt loves open source.
 
 **Adam Stacoviak:** Yeah.
 
