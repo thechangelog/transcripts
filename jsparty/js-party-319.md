@@ -14,11 +14,11 @@ So at the time I was building the app with like a sales API, and then Nuxt SPA, 
 
 The page is useless without the Courses list. But with the current status quo, I will have to have like a loading spinner. Why do I need a loading spinner? Why can't the page just load with the courses? Because without the courses, there is no Courses page. But that's the status quo of modern SPAs, right?
 
-\[00:07:45.21\] So I got dissatisfied, so I started looking for alternative. Then I found Inertia.js, which is this thing that came out from the Laravel world, because of course -- the maker of the tool, Jonathan Reinink, had the same problem I have, which is I want to build modern SPAs, but I don't want a separate API. Can't my backend drive the SPA experience? And that's what the Boring Stack is all about; it's where you have this solid MVC, stable, predictable web framework, and then you can bring in your React, your Vue, your Svelte as your pages. So you get the SPA experience, you're routing this on the server, the data the page needs comes with the page each time the users request the page, so there's no loading spinners at all. So in a nutshell, that's what it is. There's other things that goes into it, but that's just what it is.
+\[07:45\] So I got dissatisfied, so I started looking for alternative. Then I found Inertia.js, which is this thing that came out from the Laravel world, because of course -- the maker of the tool, Jonathan Reinink, had the same problem I have, which is I want to build modern SPAs, but I don't want a separate API. Can't my backend drive the SPA experience? And that's what the Boring Stack is all about; it's where you have this solid MVC, stable, predictable web framework, and then you can bring in your React, your Vue, your Svelte as your pages. So you get the SPA experience, you're routing this on the server, the data the page needs comes with the page each time the users request the page, so there's no loading spinners at all. So in a nutshell, that's what it is. There's other things that goes into it, but that's just what it is.
 
 **Jerod Santo:** Nice. That's what it is. Cool. So you mentioned SailsCasts is your site, and Sails.js is the Node framework. This goes way back. I mean, I remember when Sails came out... Was it 2011-2012? I mean, this has been around for a long time.
 
-**Kelvin Omereshone:** Yeah. \[00:08:51.20\] and stable.
+**Kelvin Omereshone:** Yeah. \[08:51\] and stable.
 
 **Jerod Santo:** What's the history of that project? Who made it, and how is it maintained? Tell us more about Sails, because I haven't heard about it much lately.
 
@@ -30,7 +30,7 @@ So at the time, I was a consultant on a project to build web servers, and I pick
 
 So yeah, it's very, very much alive. People use it. Fun fact - Postman uses it. Paystack, which is like the Stripe of Africa - they use it as well. And I know a lot of companies who are picking it up, who have been using it for decades, even in Europe and elsewhere; even banks and airlines. It's just being used, and it's common, it's boring, so people don't really talk about it much... But my job is to make sure that people talk about it much. \[laughs\]
 
-**Jerod Santo:** \[00:12:09.22\] Okay, I like it. I like it. So you found it, you liked it, it spoke to you... It was a small community, it was a long-standing, boring project, as you said, that didn't have much magic, but all the things that you need to build your projects, and you slowly started contributing... And eventually, now you are lead maintainer of Sails.js, from which you build on top of for the Boring Stack, and you're building products on top of this. You mentioned Hagfish... Real quickly, mention what that is and what you're up to with that.
+**Jerod Santo:** \[12:09\] Okay, I like it. I like it. So you found it, you liked it, it spoke to you... It was a small community, it was a long-standing, boring project, as you said, that didn't have much magic, but all the things that you need to build your projects, and you slowly started contributing... And eventually, now you are lead maintainer of Sails.js, from which you build on top of for the Boring Stack, and you're building products on top of this. You mentioned Hagfish... Real quickly, mention what that is and what you're up to with that.
 
 **Kelvin Omereshone:** Okay, so Hagfish.io is because -- you know, right now I work full-time for myself. I don't have a nine to five job. I'm a full time indie hacker entrepreneur. And before now, I've always -- I do a show called TKYT... So I have a lot of ways where I need invoices. And I also have a lot of ways where people send me invoices, because I hire contractors from all over the place. So I always wanted a way to manage it. So Hagfish is my -- I know there are other platforms out there, but it's the way I want to work in terms of like if I have to send invoices before - okay, I go to Google Docs, I create an invoice in in Google Docs, export as PDF, go to my email client, send emails, and then I don't know where the invoice is anymore. But with Hagfish I get to see this one place where I get to send my invoices and manage them, and I automate the email so you can send your invoices as emails. They're going to attach the PDF as well, which is very important... And I have so much plans for it, but for right now it's just an invoice platform. And yeah, I've been using it, I use it a lot. People also send me invoices through the platform as well. And it's all built with the Boring Stack, so it's fun.
 
@@ -44,7 +44,7 @@ And apart from that, I have TKYT sponsorships. TKYT is my show, Teach Kelvin You
 
 **Jerod Santo:** That's cool.
 
-**Break**: \[00:15:20.15\]
+**Break**: \[15:20\]
 
 **Jerod Santo:** So Project 50 - you've been working on it, but it's not out yet. You said it comes out in July, so you're not going to talk about what it is...
 
@@ -74,7 +74,7 @@ And apart from that, I have TKYT sponsorships. TKYT is my show, Teach Kelvin You
 
 **Kelvin Omereshone:** Okay. \[laughs\]
 
-**Jerod Santo:** \[00:21:50.20\] Give people the sales pitch for Sails.js. Because you're all-in on this and you love it. I heard the very little magic part... But why would somebody else maybe consider using Sails as the basis for their web app?
+**Jerod Santo:** \[21:50\] Give people the sales pitch for Sails.js. Because you're all-in on this and you love it. I heard the very little magic part... But why would somebody else maybe consider using Sails as the basis for their web app?
 
 **Kelvin Omereshone:** Yeah, for sure. So primarily, good software, good technologies there in the background, and it just lets you be awesome. So what Sails have been able to do for me is to stay in the background and let me just focus on my business logic. With technologies today, with the other competitors out there I know it's a lot of pain, because I've seen people move from the other way to the Boring Stack. Just the other day I was onboarding someone from like Next, to the Boring Stack. Because it's just -- it works.
 
@@ -90,7 +90,7 @@ So it's tiny layer that lets you -- so when you click a link, an Inertia link, n
 
 It is just mind blowing. It's simple tech. It is so boring, because in the Laravel there's this talk of "Okay, should we use Inertia or Livewire?" It's not an apples to apples comparison, because Inertia is just boring. Anyone could write a backend adapter. It's that simple. All it has is this glue, that "Okay, let me have my SPA experience, but let my server side control all the business logic."
 
-\[00:26:03.13\] So when you need a page, it's going to send the name of the component of the page and also the data the page needs as props, which is a brilliant use of the prop interface. So anytime the page loads, it loads with the data. So no more loading spinners; that's all gone. No more \[unintelligible 00:26:19.15\] content, because like I've always said in examples, you visit this website where you logged in. Well, because everything is done client side, you set the sign in and login or signup button, even though you're logging in for like two seconds before the JavaScript kicks in, you then see that "Oh, is this my avatar." But within Inertia you don't see that, because the page is authenticated on the server side. So it's always going to come in the state that it's supposed to be, and it's just mind-blowing. And simple.
+\[26:03\] So when you need a page, it's going to send the name of the component of the page and also the data the page needs as props, which is a brilliant use of the prop interface. So anytime the page loads, it loads with the data. So no more loading spinners; that's all gone. No more \[unintelligible 00:26:19.15\] content, because like I've always said in examples, you visit this website where you logged in. Well, because everything is done client side, you set the sign in and login or signup button, even though you're logging in for like two seconds before the JavaScript kicks in, you then see that "Oh, is this my avatar." But within Inertia you don't see that, because the page is authenticated on the server side. So it's always going to come in the state that it's supposed to be, and it's just mind-blowing. And simple.
 
 **Jerod Santo:** That's very cool. I had not heard of Inertia.js. So this is built for Laravel, in the PHP world, but it's generic, and so you can basically adapt it to Sails, which is what you have done for your Boring Stack, right?
 
@@ -108,7 +108,7 @@ So I picked it because it was just stable. So the stack comes with Tailwind alre
 
 So if you want to look at the app right now, you just look at the mellow view template, which is on the Boring Stack repo. So that would be github.com/ \[unintelligible 00:29:57.08\] /boringstack, then Templates, and you'll see all the templates. They're all real cool; you could read, and you will understand how the stack works.
 
-**Jerod Santo:** \[00:30:05.20\] What about deploying a Boring Stack app? What does that look like?
+**Jerod Santo:** \[30:05\] What about deploying a Boring Stack app? What does that look like?
 
 **Kelvin Omereshone:** Oh, it is -- anyway you can run nodeapp.js, literally, you could deploy it there. So I have people deploying on VPS'es. \[unintelligible 00:30:15.11\] So I want to work on more -- so anyway you can run nodeapp.js, literally, I'm not even kidding, you could deploy the Boring Stack app. So I'm thinking that's almost like every hosting provider out there that supports Node.js. So wherever you want to deploy. It's so simple, it's so easy. Because Sails is that simple, there's not much orchestration needed. Just nodeapp.js, your app is live, in wherever you're deploying.
 
@@ -120,7 +120,7 @@ So for database -- in fact, one cool thing is if you scaffold a new Boring Stack
 
 And one cool thing I like is you could have different models use different databases in one Sails app. I haven't had to do that. I had to do that just once in a client's project... But if that's what you want -- you're like "Okay, my users table - let it be on Postgres. My orders table should be on MongoDB", for whatever reason. Sails is that flexible; it can handle it. It's just beautiful to see.
 
-**Break**: \[00:32:37.22\]
+**Break**: \[32:37\]
 
 **Jerod Santo:** Why do you think Sails isn't more popular than it is? Why do you think that people don't use it all that often?
 
@@ -136,7 +136,7 @@ And one thing that always blows my mind - we are at 1.x in Sails. And I could te
 
 **Kelvin Omereshone:** So I see more adoption, because I am very entrepreneurial. I have something called the African Indie Hackers project I'm working on, which is encouraging more people to build products on the web, and get paid for it. So I got to see more people, more indie hackers using Sails and the Boring Stack, because it's just a no-brainer... Because I've seen it both ways. And more enterprise companies are using Sails, because -- especially the Boring Stack. And of course, Sails if you just want backend. So I see more people knowing about it, and more people picking it up as a no-brainer. And as a very modern replacement for the MEAN stack, or MongoDB, Express, React... So anyone using Express or the MEAN stack have no reason not to use the Boring Stack. And from what I've seen, more people that are tired of the complexity of modern web dev, from things like Next.js, will be coming to Sails. Because like I said, people are already coming.
 
-\[00:37:56.22\] I had someone who was building their first product - they were working with Next.js. They were so frustrated, they hit me up like "Dude, I've gotta try the Boring Stack." They set it up in a day. Everything they'd been building on in Next.js they set up in a day, and it was night and day difference for them. And they loved it so much.
+\[37:56\] I had someone who was building their first product - they were working with Next.js. They were so frustrated, they hit me up like "Dude, I've gotta try the Boring Stack." They set it up in a day. Everything they'd been building on in Next.js they set up in a day, and it was night and day difference for them. And they loved it so much.
 
 So I got to see people who want simplicity... Because I like to code, but I don't want to spend hours coding, you know? I just want to do work for like an hour, and then get my stuff done, and I'm gone. Because work should enable me to leave as soon as possible. So my tools should not keep me at my desk for hours, just because I'm debugging something specific to the framework. There's gonna be very much more adoption. And what I want - this is my opinion; I don't want people building demo apps to use the Boring Stack. I want people shipping businesses. So agencies that want to ship for their clients, businesses that are building SaaS, freelancers, and anyone who just wants to ship stuff; like, you don't really care about the shiny, you just want to ship stuff... Yeah, I see them using Sails. I'm loving it... Because I love it.
 
