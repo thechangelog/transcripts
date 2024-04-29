@@ -28,7 +28,7 @@ The resulting list includes 17 ideas (not implementations) that are “universal
 
 **Jerod Santo:**
 
-[Corporate Open Source is Dead](https://www.jeffgeerling.com/blog/2024/corporate-open-source-dead)
+[Corporate Open Source is Dead](https://www.jeffgeerling.com/blog/2024/corporate-open source-dead)
 
 Instead of linking to and IBM press release announcing their purchase of HashiCorp for $6.4 billion, let's enjoy our friend Jeff Geerling's analysis!
 
