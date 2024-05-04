@@ -48,7 +48,7 @@
 
 **Justin Garrison:** I'm pretty mid according to my kids, so...
 
-**Autumn Nash:** \[00:07:46.03\] You're an awesome husband that makes cute stuff for your wife, and you're always reading and informing yourself somewhere... Some people just like to virtue-signal, and we're like "No, please don't. Just stop." But I think this segues really well into my article about why women in tech spaces are shutting down. Women Who Code is shutting down, one of the Portland's women's group is shutting down... She Geeks is shutting down... And Women Who Code - almost every female tech accounts on Twitter had something to say about how much Women That Code has had an impact on their career, and getting them in. It is one of the biggest tech organizations. For one, I'm always constantly sharing their tech jokes on Instagram. They're fire. They help so many women; they've done so many classes, they do so many summer camps for girls... They have so many speaking opportunities, so many scholarships... This is one of the biggest, and it is shutting down because of lack of funding. Because the first thing that happened when tech was zero interest rates and making hand over fist -- well, they're still making hand over fist money. But when we got into the supposed tech recession, the first thing they cut was DEI, recruiters and any initiative to get people into tech that are not your average people getting into tech. They were the first teams to go. And then the funding, from all the tech companies that were going into these initiatives that were any kind of - what was the word? I guess donations... Those got cut, too. So it's really sad to see such an impactful organization close down.
+**Autumn Nash:** \[07:46\] You're an awesome husband that makes cute stuff for your wife, and you're always reading and informing yourself somewhere... Some people just like to virtue-signal, and we're like "No, please don't. Just stop." But I think this segues really well into my article about why women in tech spaces are shutting down. Women Who Code is shutting down, one of the Portland's women's group is shutting down... She Geeks is shutting down... And Women Who Code - almost every female tech accounts on Twitter had something to say about how much Women That Code has had an impact on their career, and getting them in. It is one of the biggest tech organizations. For one, I'm always constantly sharing their tech jokes on Instagram. They're fire. They help so many women; they've done so many classes, they do so many summer camps for girls... They have so many speaking opportunities, so many scholarships... This is one of the biggest, and it is shutting down because of lack of funding. Because the first thing that happened when tech was zero interest rates and making hand over fist -- well, they're still making hand over fist money. But when we got into the supposed tech recession, the first thing they cut was DEI, recruiters and any initiative to get people into tech that are not your average people getting into tech. They were the first teams to go. And then the funding, from all the tech companies that were going into these initiatives that were any kind of - what was the word? I guess donations... Those got cut, too. So it's really sad to see such an impactful organization close down.
 
 **Justin Garrison:** I saw that and I was like "What happened?" From the outside, not being a part of it, it seemed like it was successful and it was growing and things were happening... And then realizing how much does depend on corporate sponsorship. And in-person events are so important, where during COVID it was like "Oh, great." I naively would think that "Oh, cool, virtual events are more accessible for people, and it's easier for anyone to join, at anytime, from anywhere, without travel."
 
@@ -66,7 +66,7 @@ So I think, any type of virtual, it's better for moms, it's better for disabled 
 
 **Justin Garrison:** No, it's a pretty small-ish community-run conference, but it is still primarily in-person. There are live streams and we make some of that available. We don't have the bandwidth or the ability to do the online networking with folks. Like "Oh, come hang out in this room." And from my experience, a lot of that just never happened anyway. A lot of folks didn't stick around. They're like "Actually, I have something else to do." And if you're at your computer, you're going to be distracted anyway... And so it's like, what's kind of the point there? But also from a speaker's perspective, I have done virtual events where literally no one showed up.
 
-**Autumn Nash:** \[00:12:05.26\] I've actually had really good turnouts for virtual events.
+**Autumn Nash:** \[12:05\] I've actually had really good turnouts for virtual events.
 
 **Justin Garrison:** That's great. I remember I worked on one for weeks, and it was just me and the person who would introduce me, was the only person that streamed it with me. I felt so broken...
 
@@ -84,7 +84,7 @@ So I think, any type of virtual, it's better for moms, it's better for disabled 
 
 And in this case, they decided at Slack that they needed something better, and something a little more scalable... And so of course, Kubernetes was the answer. And not just Kubernetes with a custom job scheduler; like, this has a full-on Kafka queue, Vitess, which is like a distributed MySQL database, and a custom scheduler... As well as their custom platform on top of Kubernetes.
 
-\[00:16:19.07\] So I think it's really interesting... Once you step beyond the machine, what components do you need to make this scalable or usable for a large company? And especially, I like these ad hoc jobs, because I can set up a Slack reminder for any time, so they can't predict these things, and it will send me a message. And that literally gets queued on their job scheduling system, and then comes back to me as a message. And so I've found just the practicality of how that works to be really interesting.
+\[16:19\] So I think it's really interesting... Once you step beyond the machine, what components do you need to make this scalable or usable for a large company? And especially, I like these ad hoc jobs, because I can set up a Slack reminder for any time, so they can't predict these things, and it will send me a message. And that literally gets queued on their job scheduling system, and then comes back to me as a message. And so I've found just the practicality of how that works to be really interesting.
 
 **Autumn Nash:** I find this interesting for one because I think Slack seems to be a lot of people's favorite alternative to keeping in touch with people. I think Slack seems to me like it's more loved than Teams and other alternatives. I love Slack, personally. And I think it's cool that they've rolled out so many different services and ways that you can use Slack as more than just that way to keep in touch with work and with friends and yadda-yadda. But I also think it's really interesting that it's built in Golang, because - did you see that tweet that everybody was arguing about, like if people should go to Rust, and JavaScript, and I think another language, because they were like "All the other languages are not going to be used, and everything's going to be built in TypeScript, Rust and one other thing." And I was like "What?! Do you know all the infrastructure that's built in Java and C++, and a million other things?" I actually think Rust is going to be very impactful, because so many things are going to be rewritten in it, like the Kernel... But how would you just completely forget that Go and other things existed? And there's so much legacy software that is built in Java and C++ and C... I was just "How?!" PHP is gonna live on after we're all dead and buried. So it's cool.
 
@@ -114,7 +114,7 @@ And in this case, they decided at Slack that they needed something better, and s
 
 **Justin Garrison:** So let's go ahead and jump into the interview with Mandi and talk all about AOL chat rooms.
 
-**Break**: \[00:19:11.23\]
+**Break**: \[19:11\]
 
 **Justin Garrison:** Welcome today Mandi Walls. She is a DevOps advocate at Pager Duty. But Mandi, first, I want to start off with asl.
 
@@ -178,7 +178,7 @@ for?
 
 **Mandi Walls:** Not the way things ran at the time. Super-crazy.
 
-**Justin Garrison:** \[00:24:09.05\] So you had this mishmash of infrastructure and tooling, and you're moving it onto Rel... And what were you responsible for in that migration? Were you doing provisioning, and Linux servers? I'm assuming this is hardware stacks, and you have data centers, places, and...
+**Justin Garrison:** \[24:09\] So you had this mishmash of infrastructure and tooling, and you're moving it onto Rel... And what were you responsible for in that migration? Were you doing provisioning, and Linux servers? I'm assuming this is hardware stacks, and you have data centers, places, and...
 
 **Mandi Walls:** At the time we were buying a combination of -- well, they'd put everything up for bid, because you're gonna buy half a million dollars of hardware at a time... So you'd get like a six-month bid-out on whatever they're going to put in the data center. So sometimes we'd get Dell machines, sometimes HP would win the bid. So you'd be flipping back and forth; we'd have a mix of hardware, and mix of ages, things would go back on lease return... A lot of the gear at that time - they're in owned data centers, but the gear is leased, so they'd go back. And so you're just constantly refreshing the farms, and all the fleets were constantly in motion for things coming in and out... And if you needed to scale anything up - that's a requisition; it's not a "Slide your credit card in the cloud and get more gear", it was "Oh, it's a ticket, and four teams are involved, and there's all this budgeting..." And if you happened to get extra hardware, you'd hide it in a different project for a while...
 
@@ -216,7 +216,7 @@ for?
 
 So at the time, aol.com was like the sixth-largest site on the internet. It was big, so we were spreading things out, trying to collocate things closer to users... And this is at the same time the rise of global DNS sharing... So Akamai was the commercial provider of the time for that stuff, where you'd go to www.aol.com and it would point you to the closest place. And that was Akamai handling all of that stuff.
 
-\[00:28:08.18\] So we had hundreds of servers in a dozen locations to serve the US... And there were these little pods that ran with all the stuff you needed on the backend as well... Because when you log in as an AOL user, it knows all this stuff about you. So it knows who you are, and what you like, and what you wanna see on the homepage.
+\[28:08\] So we had hundreds of servers in a dozen locations to serve the US... And there were these little pods that ran with all the stuff you needed on the backend as well... Because when you log in as an AOL user, it knows all this stuff about you. So it knows who you are, and what you like, and what you wanna see on the homepage.
 
 **Justin Garrison:** And if you have mail.
 
@@ -262,7 +262,7 @@ So at the time, aol.com was like the sixth-largest site on the internet. It was 
 
 **Autumn Nash:** You powered my teenage years.
 
-**Mandi Walls:** \[00:31:50.28\] The irony is I was never an AOL user before I joined AOL. I had no experience with the service at all, because it was a long distance phone call from my parents' house to the local pop. So that was not going to happen from my parents' house. But yeah, the biggest outage we probably had, the one that still gives me nightmares - so one of the deep configurations in AOL's server is that you can actually get into it and see what each individual thread is doing. It's super-cool. It can tell you exactly what request every thread is serving. But you can also then see "Hey, all my threads are full. What is going on?" And then you have to get into the configuration and tweak how many threads there are.
+**Mandi Walls:** \[31:50\] The irony is I was never an AOL user before I joined AOL. I had no experience with the service at all, because it was a long distance phone call from my parents' house to the local pop. So that was not going to happen from my parents' house. But yeah, the biggest outage we probably had, the one that still gives me nightmares - so one of the deep configurations in AOL's server is that you can actually get into it and see what each individual thread is doing. It's super-cool. It can tell you exactly what request every thread is serving. But you can also then see "Hey, all my threads are full. What is going on?" And then you have to get into the configuration and tweak how many threads there are.
 
 So when we were doing a deploy to aol.com - and I think we were in five or six data centers at that time - and you drain one, load the software, and pull it back up, and then it rebalances on the global DNS. Well, it would load up, and then the threads would fail. You're like "What is going on? Why are the threads full?" Something in the new software is just a little bit too slow, and it turns out we only had 10 threads available on every server... Which is not enough. At the time it seemed like "Oh, 10 threads in there... It's pretty quick", but it slows down enough that it would block the entire thing.
 
@@ -298,7 +298,7 @@ So it was fascinating, but also kind of a nightmare, because we were dealing wit
 
 **Mandi Walls:** It would vary. Four to six, eight at the max... Like, these are little teams. The engineering teams are huge. We ran the channels, which was called Big Bowl. So if you've ever been to Chicago, there is a place called Big Bowl; it's a restaurant. There's also one in Reston. And that's where they came up with the concept for this. That's what they called the product, it was a Big Bowl. We ran 200 DNS names or so, 70 channels across it...
 
-**Autumn Nash:** \[00:36:08.29\] I felt eight people was not enough for that.
+**Autumn Nash:** \[36:08\] I felt eight people was not enough for that.
 
 **Mandi Walls:** Right? Hundreds of developers dealing with this thing...
 
@@ -340,7 +340,7 @@ So it was fascinating, but also kind of a nightmare, because we were dealing wit
 
 **Justin Garrison:** It's interesting, you're describing this wave that we see over and over again, in any technology, where it's like "Oh, this consumer thing is great, and it's mass-adopted, but it's not flexible enough for the power users, for people that really want to dive deep into it", and so we switch back to this "You have to run that yourself." And a lot of people ran their own mail servers for a very long time, because they needed that power, they needed bigger scale, whatever... And then it consolidated, and we're like "Oh, now guess what? The consumer products get some of those features", and bring some of that power into "Oh, Gmail can just add filters for me", and I can do that routing, all that stuff.
 
-\[00:40:01.11\] And Then I'm wondering what the next shift is going to be; what the next gap in consumer features are, that we're like "Hey, guess what?" Maybe at some point the cloud makes things boring and easy, and then you're like "Oh, but I can't do the thing that I need to, so I have to go buy a datacenter, or buy some hardware", that sort of stuff.
+\[40:01\] And Then I'm wondering what the next shift is going to be; what the next gap in consumer features are, that we're like "Hey, guess what?" Maybe at some point the cloud makes things boring and easy, and then you're like "Oh, but I can't do the thing that I need to, so I have to go buy a datacenter, or buy some hardware", that sort of stuff.
 
 **Mandi Walls:** Yeah. It'd be super-interesting.
 
@@ -386,7 +386,7 @@ You described outages, you've described a little bit -- all of your updates, bas
 
 **Justin Garrison:** War files now. You don't get a tar, you get a war.
 
-**Mandi Walls:** \[00:43:50.01\] You get a war file, with an XML config wrapped in it, which is a nightmare... And no good practice around making sure things are good and ready for prod. So we'd be unwrapping everything, and then rolling it back up and pushing it out, just to make sure. Because one of the interesting things about AOL at that time - it was like the only place that I've really encountered that spent a lot of money on the non-prod environments. So there was full deploys across for dev and integration testing... Because if you were going to integrate with the dial-up stuff, there's this service called Unified Preferences that held all the backend information about all the users... And if you were going to integrate with that and pulling it in, you had to load it up in the integration environment, make sure all this stuff worked. So I had all these environments and all this stuff... And we're always getting stuff to go into prod that was configured for dev, and integration, and not for where it was supposed to go, for any reason...
+**Mandi Walls:** \[43:50\] You get a war file, with an XML config wrapped in it, which is a nightmare... And no good practice around making sure things are good and ready for prod. So we'd be unwrapping everything, and then rolling it back up and pushing it out, just to make sure. Because one of the interesting things about AOL at that time - it was like the only place that I've really encountered that spent a lot of money on the non-prod environments. So there was full deploys across for dev and integration testing... Because if you were going to integrate with the dial-up stuff, there's this service called Unified Preferences that held all the backend information about all the users... And if you were going to integrate with that and pulling it in, you had to load it up in the integration environment, make sure all this stuff worked. So I had all these environments and all this stuff... And we're always getting stuff to go into prod that was configured for dev, and integration, and not for where it was supposed to go, for any reason...
 
 **Justin Garrison:** What sort of data behind the scenes were -- is this MySQL then?
 
@@ -428,7 +428,7 @@ You described outages, you've described a little bit -- all of your updates, bas
 
 **Justin Garrison:** So you left in 2011, right? And this is right around -- like, DevOps was a thing. It was becoming -- all of those lessons learned that you're talking about were definitely coming into view publicly for people, and they started talking about "Hey, how do we not throw things over the wall? How do we do this config management stuff?", all that stuff. So what was it like at the tail end of "Oh, hey, we're going this direction", or "We're going to change everything to make it better, hopefully, for the ops team or the developers"?
 
-**Mandi Walls:** \[00:48:04.23\] Yeah, AOL wasn't headed in that direction when I left. So the Velocity Conference kind of kicked all this off. The first one of those was in 2008, and then things kind of got rolling after that, with web operations being something that was like -- you had to do it at scale, you had to think about things a little bit differently than people had been thinking about systems administration in the past... And also sort of taking into account "Yeah, you can't do this at massive scale with these tiny little teams, when you're just on the receiving end of a waterfall of garbage from the application teams." Because they're being slammed in the head for deadlines, and all this stuff...
+**Mandi Walls:** \[48:04\] Yeah, AOL wasn't headed in that direction when I left. So the Velocity Conference kind of kicked all this off. The first one of those was in 2008, and then things kind of got rolling after that, with web operations being something that was like -- you had to do it at scale, you had to think about things a little bit differently than people had been thinking about systems administration in the past... And also sort of taking into account "Yeah, you can't do this at massive scale with these tiny little teams, when you're just on the receiving end of a waterfall of garbage from the application teams." Because they're being slammed in the head for deadlines, and all this stuff...
 
 **Justin Garrison:** Yeah. Features, and -- yup.
 
@@ -454,7 +454,7 @@ It was kind of cool. You could see things... It was so much in the zeitgeist tha
 
 **Mandi Walls:** You had to check the horoscopes, right? I'm glad you did, because they were paying a bunch of load... So \[unintelligible 00:51:49.02\] and that was important. But yeah, there was all kinds of commercial products at the time that were helping us out on all that stuff... They'd spend a lot of money on that, because you want to push your resources to the things that people are going to engage with, because ultimately you're selling ads. And when you have something as big as aol.com, you make all of your money for the entire year out of ads before the end of February.
 
-**Autumn Nash:** \[00:52:14.20\] Wow...
+**Autumn Nash:** \[52:14\] Wow...
 
 **Mandi Walls:** You're making a lot of money to run that thing, and it then gives you the capital to run everything else afterwards. So yeah, a lot of cash there.
 
@@ -476,13 +476,13 @@ It was kind of cool. You could see things... It was so much in the zeitgeist tha
 
 **Justin Garrison:** How did that apply to scaling? Because you mentioned during Super Bowls, and those things, the chat rooms would get really busy... How did you handle that on the backend, especially being on prem, and having hardware that you have to buy? Like, "I need to scale this thing up", and you have to make some operational decision. That's like a six-month process.
 
-**Mandi Walls:** You overbuilt Everything was overbuilt. Absolutely overbuilt. And when we had something like dot com, or the channels, or whatever, that had to be in multiple locations for DR, or whatever, you made sure that every location could handle all of the peak traffic at your anticipated peak. And we can look back -- one of the other things that AOL never got to open-source was their monitoring system. And it had a -- I forget its name; it was weird. There were like tuna boats or something involved. It was strange...
+**Mandi Walls:** You overbuilt Everything was overbuilt. Absolutely overbuilt. And when we had something like dot com, or the channels, or whatever, that had to be in multiple locations for DR, or whatever, you made sure that every location could handle all of the peak traffic at your anticipated peak. And we can look back -- one of the other things that AOL never got to open source was their monitoring system. And it had a -- I forget its name; it was weird. There were like tuna boats or something involved. It was strange...
 
 **Autumn Nash:** Wait, tuna boats?
 
 **Mandi Walls:** Yeah, that was part of the transports. I don't remember all the details there... But it was aggressive. It was really, really good, and gave us a lot of information about when you were hitting peak. And we could put custom data into it, and a bunch of other really interesting things that were unique at the time... And again, it would have been interesting to see if it had gotten open source, what people would do with it. But it would give you enough to know "Hey, you need to bulk this thing up", because like you said, there was no dynamic provisioning. It was all solid-built bare metal at that time. Everything has to be fully deployed.
 
-**Justin Garrison:** \[00:56:17.23\] You get the page and then you dust off those extra machines you had in the back and you're like "Hey, these are gonna be web tier now."
+**Justin Garrison:** \[56:17\] You get the page and then you dust off those extra machines you had in the back and you're like "Hey, these are gonna be web tier now."
 
 **Mandi Walls:** Right? If you need to redeploy, then you need to pull in the extra machines you squirreled away in some other project, and reprovision them, and you might have to reload their operating system because they're on the last version... And then put on the runtimes, and the current code, and hook them all in, put them in machines.dat and off they go... So they get all the hookups... Because in the backend there was a custom CDN, and small object brokers, and repeaters for commands, and all kinds of other weird stuff they had to talk to for that particular platform. So yeah, there was no quick scale-up, so we were overbuilt all the time, on all those platforms.
 
