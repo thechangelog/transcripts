@@ -20,7 +20,7 @@
 
 And one of the big holes with Web Components is they're very client-side JavaScript-centric. You implement a class by extending an HTML element. And then you register that with the custom elements define call, which runs client-side. And this happens after client-side JavaScript kicks in. And we wanted to do a lot of stuff before client-side JavaScript kicks in. If you take a normal web page, just like any given web page, most of the elements on that page are inert. They don't have event listeners.
 
-**Jerod Santo:** \[00:06:37.15\] They're just sitting there.
+**Jerod Santo:** \[06:37\] They're just sitting there.
 
 **Brian Leroux:** Yeah, they're just hanging out, drawing boxes, or whatever... And that's great, but it's funny, because our whole programming model is downstream thinking about HTML elements is something JavaScript created, manages and maintains, and that's kind of inefficient. So server-rendering is becoming popular again, which is great, because that performs better, and it's also closer to how the ultimate page works. You just get a bunch of inert HTML, and then you can kind of save your client-side JavaScript for the stuff that client-side JavaScript can only do.
 
@@ -50,7 +50,7 @@ So most of the time when we think about Wasm... Or Wasm. I'm not sure which it i
 
 **Jerod Santo:** Slow, big... Yeah.
 
-**Brian Leroux:** \[00:10:22.02\] And it's not. It's fast, it's tiny... It's pretty quick. You end up with like a three-megabyte payload, but on the server side that's not as big of a deal. And this opens up a whole bunch of really cool use cases. So in the past, we've kind of maintained a good, clean separation between our frontends and backends. But that does create its own problems with those separations of concerns. So if I build my whole front end and react, that's great. But now if I want to server-render anything, I have to run Node, or Deno, or Bun, or something like that.
+**Brian Leroux:** \[10:22\] And it's not. It's fast, it's tiny... It's pretty quick. You end up with like a three-megabyte payload, but on the server side that's not as big of a deal. And this opens up a whole bunch of really cool use cases. So in the past, we've kind of maintained a good, clean separation between our frontends and backends. But that does create its own problems with those separations of concerns. So if I build my whole front end and react, that's great. But now if I want to server-render anything, I have to run Node, or Deno, or Bun, or something like that.
 
 **Jerod Santo:** Exactly.
 
@@ -68,7 +68,7 @@ And yeah, the kind of big example for me has been design systems. So this is a p
 
 **Jerod Santo:** Yeah, for me it also opens up the possibility of just globally sharing of components. Like, across every stack. It's like "Well, here's a web component that this person wrote. It's really high quality, it does all the things it has all the accessibility built in, everything's been thought through." And now, if you can basically run Wasm on your backend, which is most languages at this point, then you can server-side-render that sucker and just integrate it into your application, no matter what you're doing or where you are. I think that's pretty cool. I think it opens up a lot.
 
-**Break**: \[00:13:50.26\]
+**Break**: \[13:50\]
 
 **Brian Leroux:** It feels like a Holy Grail moment, for sure. And I'm certain -- there's probably people listening that want to figure out how to get this kind of going for themselves, or maybe they don't want to use Web Components, which is totally cool, by the way. I'm all about diversity in our solution space, so... We used a project called Extism. And it's spelled kind of weird, but it's Extism. And it made this dead simple. So our renderer is already pretty dead simple. I think it's got two dependencies. One of them is Parse5. We effectively take a string of HTML, we find all the custom elements inside of that, and then we expand them. And so our renderer is a couple hundred lines of JavaScript with two dependencies. So packaging it was super-easy. I think more complicated renderers, kind of the more mature frameworks that have been doing this stuff for a while might have more difficulty bundling and packaging this stuff... But definitely check out Extism if you want to run a JavaScript module in a weird place like Python, or Ruby, or something like that. They absolutely made this possible.
 
@@ -86,7 +86,7 @@ And yeah, the kind of big example for me has been design systems. So this is a p
 
 **Jerod Santo:** ...as I was writing my Ruby on Rails apps and my client side JavaScript... And I tried to get those validation rules to matriculate into JS land, and it was just always a mess. You kind of get it working, and then something messes up... Especially uniqueness validation specifically, which require a server side call, because you can't check that in client, of course... Unless you're gonna ship your whole user database into the browser, but not advised.
 
-**Brian Leroux:** \[00:20:02.29\] Right. And you've got to do that backend call anyways, because the client could be compromised.
+**Brian Leroux:** \[20:02\] Right. And you've got to do that backend call anyways, because the client could be compromised.
 
 **Jerod Santo:** Lying. Yeah.
 
@@ -130,7 +130,7 @@ I did a Rails demo, we got a Flask one... I think there might be a -- there's a 
 
 **Brian Leroux:** We've got a demo repo... I'd say join our Discord, because there's probably someone else out there that's already done this, and see what they've said. But I do believe we have a Go repo, but I don't know -- let me really quickly check. So our GitHub is enhance-dev, and then you can just do a search for your favorite language. And we do have enhance-ssr-go. And it's just a little silly... I guess the way that Go developers like to work is as few dependencies as possible. So our example is a whopping 120 lines of code that demonstrate doing this without any dependencies at all. So that's kind of cool.
 
-**Jerod Santo:** \[00:24:12.02\] Okay. That's not too bad. Considering --
+**Jerod Santo:** \[24:12\] Okay. That's not too bad. Considering --
 
 **Brian Leroux:** No. Yeah, I've never deployed a Go thing myself. It's on the list of things I'm kind of interested in, because it looks like a slightly nicer C, if anything... But I don't really know much about it.
 
@@ -158,7 +158,7 @@ I did a Rails demo, we got a Flask one... I think there might be a -- there's a 
 
 **Brian Leroux:** There's a whole bunch of stuff that the browser just does. Most of what the browser does is respond to user interactions, and it tells us about this through events. And you don't need any of that server side. I'm just rendering a header here; I've just returned a bunch of \[unintelligible 00:27:53.24\] HTML, so it's not a thing you need.
 
-**Jerod Santo:** \[00:27:58.10\] So what if you're entering a header that has a form in it with a submit, and stuff? Are you basically just rendering the first version of it, and then the browser attaches to those events once it's there, and then like you're done on the server side, it's all browser from there on out?
+**Jerod Santo:** \[27:58\] So what if you're entering a header that has a form in it with a submit, and stuff? Are you basically just rendering the first version of it, and then the browser attaches to those events once it's there, and then like you're done on the server side, it's all browser from there on out?
 
 **Brian Leroux:** Yup, exactly. And you can have a single definition for that. So you could have my form extends HTML element, and then put all that business inside of that. And yeah, we'll do the initial render, and then if JavaScript kicks in - and I think that's a very key statement, because JavaScript doesn't always work. And it's okay to say that. It typically fails like 1% to 2% of the time for different reasons. Network requests, crappy carriers, drove under a bridge, whatever. Or you had an error on your page. And in client renders scenarios, that's bad, because nothing happens. You just get a blank screen. So if we server-render and then if JavaScript kicks in script tags there, it'll take over at that point.
 
@@ -184,7 +184,7 @@ There's no real black boxes that were client-side. In fact, I'd say it's substan
 
 **Brian Leroux:** ...the meaning is basically, they're components that don't require client JavaScript to render per se. So there's nothing preventing you right now from doing my \[unintelligible 00:31:43.03\] and like putting that in HTML with no client-side JavaScript whatsoever. You're allowed to do that. That's okay. And HTML Web Components are... This. They're components that don't necessarily have a JavaScript analog or on client that's running... But they often can, and do, but you're supplying the HTML initially.
 
-\[00:32:12.21\] The other aspect is treating the Shadow DOM as an opt-in, as opposed to a default. So when Web Components first kind of came around, one of the very strong desires was to have better encapsulation. I don't want to open up some component and have it leaking its styles and stuff all over the rest of my DOM, especially if I'm bringing it in from a third party. And that's a wonderful idea, and that's a great capability. This comes with a bunch of trade-offs. If you have a shadow root, or if you're using the Shadow DOM inside of your web component, a ton of behavior changes in the document. One of the big changes in the behavior can be the form elements might not behave the way that you think they will, and you'll have to write a ton of JavaScript to fix that.
+\[32:12\] The other aspect is treating the Shadow DOM as an opt-in, as opposed to a default. So when Web Components first kind of came around, one of the very strong desires was to have better encapsulation. I don't want to open up some component and have it leaking its styles and stuff all over the rest of my DOM, especially if I'm bringing it in from a third party. And that's a wonderful idea, and that's a great capability. This comes with a bunch of trade-offs. If you have a shadow root, or if you're using the Shadow DOM inside of your web component, a ton of behavior changes in the document. One of the big changes in the behavior can be the form elements might not behave the way that you think they will, and you'll have to write a ton of JavaScript to fix that.
 
 And people struggled with this, and they've written a ton -- like, classically, we write a ton of JavaScript to fix the problems that we introduced with JavaScript... And we looked at the problem and we were "Well, just don't use the Shadow DOM." Just make that an opt in. So if you need it, it's there. We're not saying never use it, but we are saying "Hey, maybe my header component isn't going to be shared on another person's website." It seems pretty reasonable that my header would belong to me... Most of my components, in fact, almost all of them will probably only be used by me. So do I need to like protect myself from me? I mean, somewhat... But --
 
@@ -210,7 +210,7 @@ And people struggled with this, and they've written a ton -- like, classically, 
 
 **Jerod Santo:** Right.
 
-**Brian Leroux:** \[00:35:49.01\] And the ergonomics are a bit funky. At the time of their definition, \[unintelligible 00:35:54.04\] stuff was very popular, React was extending an element, and so they wanted to have those similar ergonomics. But by the time it shipped, it became a lot more functional in the kind of mainstream programming world. And so it looks a little long in the tooth; you've got an extended HTML element, which feels like kind of classy, maybe not quite right.
+**Brian Leroux:** \[35:49\] And the ergonomics are a bit funky. At the time of their definition, \[unintelligible 00:35:54.04\] stuff was very popular, React was extending an element, and so they wanted to have those similar ergonomics. But by the time it shipped, it became a lot more functional in the kind of mainstream programming world. And so it looks a little long in the tooth; you've got an extended HTML element, which feels like kind of classy, maybe not quite right.
 
 **Jerod Santo:** Right.
 
@@ -234,7 +234,7 @@ And then certain elements absolutely may be needed. A good example is a text are
 
 **Brian Leroux:** Yes.
 
-**Break**: \[00:38:24.08\]
+**Break**: \[38:24\]
 
 **Jerod Santo:** How much of this is platformizable, insofar as like will it work its way into the platform? I'm thinking of the hacky stuff that y'all are doing to make this possible. Are there ways that the browsers and the platform creators can do things to help us, or...?
 
@@ -268,7 +268,7 @@ I think otherwise though, we're always looking so far forward... And yet things 
 
 **Jerod Santo:** Yeah. Can we get to a point -- I don't know enough about design systems to answer this. Maybe you do, maybe you don't. But can we get to a point where you can just formalize your design system into the browser somehow? You know, a lot like CSS variables, but it's like "Here's my rules for my design system", and I'm kind of done, or at least kind of there...
 
-**Brian Leroux:** \[00:45:55.20\] I mean, Brad Frost has been banging a drum about global design systems on his blog lately, and I'm pretty bullish on this idea, too. So we -- I'm not sure how we get there completely. I think we need some new components, I think we need some new toys from a high level... But we probably don't need to reimplement button every time anymore. And custom properties points to a way to make things somewhat themeable. The irony to me of this is that we will end up with a flat file of variables, and that really starts to look like BEM again to me. We've got like primary, secondary and tertiary colors, and...
+**Brian Leroux:** \[45:55\] I mean, Brad Frost has been banging a drum about global design systems on his blog lately, and I'm pretty bullish on this idea, too. So we -- I'm not sure how we get there completely. I think we need some new components, I think we need some new toys from a high level... But we probably don't need to reimplement button every time anymore. And custom properties points to a way to make things somewhat themeable. The irony to me of this is that we will end up with a flat file of variables, and that really starts to look like BEM again to me. We've got like primary, secondary and tertiary colors, and...
 
 **Jerod Santo:** Right.
 
@@ -304,7 +304,7 @@ I think otherwise though, we're always looking so far forward... And yet things 
 
 And so Begin really started with us trying to build a way to build serverless applications. So when serverless really started to kick off, a lot of different approaches emerged, and a lot of them were pretty complicated... And we wanted to just cut all the business out that was complicated, get rid of all the infrastructure concerns, and just focus on your code. And that's been going well, and lots of people are using it, and it's based on an open source project called Architect that's a part of the Open JS Foundation. So you can look that up at arc.codes. You can run all of it yourself; you don't need to use us. You can deploy Architect apps to your own CloudFormation or to your own AWS at anytime. And so that's nice, because Begin is a startup. So if we have an exit, and we go away, your code is still portable to your own Amazon account, which we think is a customer-friendly way to work.
 
-\[00:50:28.18\] So Begin's good, and that's great, and that's all very backend-centric. When serverless happened, I really believed that this would just be the way people would want to work. They wouldn't want to load-balance a monolith, or set up Kubernetes, and pods, and all this other business. They just want to write their code and run it.
+\[50:28\] So Begin's good, and that's great, and that's all very backend-centric. When serverless happened, I really believed that this would just be the way people would want to work. They wouldn't want to load-balance a monolith, or set up Kubernetes, and pods, and all this other business. They just want to write their code and run it.
 
 What I missed was that a lot of people that are coming to the cloud are coming from frontend. And that's where all the growth is. So this is where Enhance fits in. We didn't want to be another React framework way to get to the cloud. There's a bunch of those, and they're kind of -- they do their thing, and that's fine. We wanted to be a way to do it with truly modern primitives and Web Components. And yeah, you don't need to use us or Amazon with Enhance, but it's designed to work well with those places, and it deploys to those places.
 
