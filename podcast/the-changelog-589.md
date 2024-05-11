@@ -38,7 +38,7 @@ I think he's originally from Victoria BC. Tiny was his investment company/acquis
 
 **Jerod Santo:** You have an Android app as well, which kind of ties these stories together, why you're interested in that. We'll get to your story as well. But on the Castro side, do you know why Tiny sold it, or -- sorry, sorry, sorry. Andrew Wilkinson personally sold it to you. \[laughter\] Was it not working? Where they bored? I know that it went into some sort of state of quasi-disrepair. I mean, the users were kind of mad, they were leaving... Tell us that side, like what you walked into.
 
-**Adam Stacoviak:** \[00:06:29.17\] One more layer though for you, Jerod, before he answers this, is they're also the investors behind Supercast, which you know of.
+**Adam Stacoviak:** \[06:29\] One more layer though for you, Jerod, before he answers this, is they're also the investors behind Supercast, which you know of.
 
 **Jerod Santo:** of I do.
 
@@ -66,7 +66,7 @@ So I think it just didn't really make sense... Because I think what they wanted 
 
 **Dustin Bluck:** ...compared to alternatives... So I worked for Instagram for a long time, and I've been self-employed the last few years. So one thing I could do is just go back to Instagram; that will pay a lot more money than Castro will pay me, right? So why did I buy it? I was working on a podcast app on the side, sort of just for my listening. I used it for a year before I released it. And then I do like mobile consulting for eCommerce companies, which pays the bills, but isn't the most exciting thing in the world... Working on the podcast app was a lot more rewarding. I saw some posts about it that it was not doing so well, and then I think they actually posted it was going to be for sale. So yeah, it just sort of fell into my lap. I think I caught the guy at the right time, and I just did it. It makes a lot of sense for me to run an app, it makes a lot more sense than opening a restaurant, or doing whatever; going to a farm, whatever the alternative to like going back to big tech would be. It makes a lot more sense for me to run an app. So yeah, I'm able to do it, it's interesting to me, it's a space I really like... Yeah, so it just kind of made sense.
 
-**Adam Stacoviak:** \[00:10:18.22\] Take us to the right time, right moment, exact moment. Did you email Andrew, did you DM him on X/Twitter? I know he's prolific on X quite a bit... So how did this happen?
+**Adam Stacoviak:** \[10:18\] Take us to the right time, right moment, exact moment. Did you email Andrew, did you DM him on X/Twitter? I know he's prolific on X quite a bit... So how did this happen?
 
 **Dustin Bluck:** I've actually never spoken to Andrew.
 
@@ -158,7 +158,7 @@ So I think it just didn't really make sense... Because I think what they wanted 
 
 **Jerod Santo:** Yeah, exactly.
 
-**Break**: \[00:14:26.12\]
+**Break**: \[14:26\]
 
 **Adam Stacoviak:** Well, when you said "Okay--", regardless what the number is you paid for it, what is your ambition? Let's just start with the business. Let's set aside the cool-looking application, the brand name, the awareness... Let's focus on just simply the big business mechanics, the business model. What is your hopes and dreams in the next year, and then I would say long term?
 
@@ -192,7 +192,7 @@ And I think despite the fact that it's been around a long time, and seen lots of
 
 **Adam Stacoviak:** Yeah. But when I click the X, the chapters all go away. So it seems like it's hidden behind something.
 
-**Jerod Santo:** \[00:20:07.27\] Is that based on a regular expression that you write, or how do you actually pick which chapters? Not you, Dustin, but you the end, the power user. Do I say -- I'm just thinking you could skip all of our sponsorships with the right title Regular Expression if you want it to. Is that how it works? Because that's a cool feature.
+**Jerod Santo:** \[20:07\] Is that based on a regular expression that you write, or how do you actually pick which chapters? Not you, Dustin, but you the end, the power user. Do I say -- I'm just thinking you could skip all of our sponsorships with the right title Regular Expression if you want it to. Is that how it works? Because that's a cool feature.
 
 **Dustin Bluck:** Yeah, you could definitely skip your ads, the way yours work.
 
@@ -266,7 +266,7 @@ And I think despite the fact that it's been around a long time, and seen lots of
 
 **Adam Stacoviak:** Yeah. Well, everybody likes speed, especially "Do you have cash? Can you do it now?" "Yes. Yes." "Okay, let's do it." I mean, that's the best world.
 
-**Jerod Santo:** \[00:23:49.10\] That is nice. Okay, so where do you go from here? I mean, you started with the servers... I tried to think of what would a takeover look like. I would definitely get into the source code, I would make my announcements... You did that. Because you're bleeding users in the meantime. People are angry at Castro, because they love Castro, and Castro is falling by the wayside... So literally, podcasts aren't being downloaded... I mean, I'm seeing some of the Twitter threads from back at the turn of the year, it wasn't great. So I'm sure that was your priority number one, was "We've got to get it functional."
+**Jerod Santo:** \[23:49\] That is nice. Okay, so where do you go from here? I mean, you started with the servers... I tried to think of what would a takeover look like. I would definitely get into the source code, I would make my announcements... You did that. Because you're bleeding users in the meantime. People are angry at Castro, because they love Castro, and Castro is falling by the wayside... So literally, podcasts aren't being downloaded... I mean, I'm seeing some of the Twitter threads from back at the turn of the year, it wasn't great. So I'm sure that was your priority number one, was "We've got to get it functional."
 
 **Dustin Bluck:** Yeah.
 
@@ -306,7 +306,7 @@ And I think despite the fact that it's been around a long time, and seen lots of
 
 **Jerod Santo:** I like Castro now more than I did when we first started this call, just because. now I know, Dustin, I know what he's up to. I understand his plans; even though the app doesn't quite get to where I want it to be right now, I know he's working on it, and I can send an email to support and they'll reply right away... That kind of stuff goes a mile, on goodwill and on subscriptions, and all the things. That's what Adam was getting at, right?
 
-**Adam Stacoviak:** \[00:28:18.08\] Yeah.
+**Adam Stacoviak:** \[28:18\] Yeah.
 
 **Dustin Bluck:** Yeah, fair enough.
 
@@ -336,7 +336,7 @@ So if you put transcripts in your feed, I want to show that to the user, but if 
 
 But things Castro could do a lot better, things like season, and episode, and trailers and bonuses, these basic things that are in the feed, Castro \[unintelligible 00:32:11.08\] 500 characters, I think, which is really not enough. I mean, I want to do a lot better job of like really showing the user what the owner of the feed has put into it, you know?
 
-**Break**: \[00:32:13.02\]
+**Break**: \[32:13\]
 
 **Jerod Santo:** How much do you know about the new podcast namespace and a lot of the podcasting 2.0 features that people are building? These are indie apps... I mean, Apple just adopted their first tag from podcasting namespace, which was podcast:transcript, I think... But Spotify supports none of it. Apple supports none of it. And then a lot of the indie people support a lot of these features. There's things like the social interact, where it's trying to get cross-app comments... There's a lot of stuff that people are trying, and they have some support from certain indie apps, but not other ones, and I'm just curious, are you plugged into that with your Android app, or what are your thoughts on the new podcasting features via the feed?
 
@@ -368,7 +368,7 @@ But things Castro could do a lot better, things like season, and episode, and tr
 
 **Jerod Santo:** "I didn't know I could subscribe to Gary Vaynerchuk", for instance. I know he probably has his own show, but... Or somebody who's like a thought leader that doesn't have a podcast. "I can just subscribe to this person inside of Castro, and whenever they're on whatever show, I'll know about it?" People don't know they want that until someone tells them they want that. And a lot of times, \[unintelligible 00:37:33.04\] what their app offers. And so that's why it's tough. You have so many parties involved. You have the listener, you have the podcaster, you have the platform, you have the apps. And who is going to get the word out? Well, we all kind of have to get the word out about the things that we think are cool or interesting. And so being the podcast app, you have a lot of power and a lot of influence in that way.
 
-**Adam Stacoviak:** \[00:37:59.02\] Tons.
+**Adam Stacoviak:** \[37:59\] Tons.
 
 **Jerod Santo:** Being the measly podcasters... We just try to get a hold of the app owners and say "Hey, this is cool. You should try it." And most of them ignore us. So Pocket Casts has been very receptive, it's awesome now that we know you, Marco Arment at Overcast, he takes feedback and feature requests... He says no to lots of stuff... But then there's the big apps that we just have no -- we have a public email address that we can use. And so we don't really have any chance influencing them. But I think as an app owner now, you've got a lot of cool power you can wield, for the better.
 
@@ -410,7 +410,7 @@ But things Castro could do a lot better, things like season, and episode, and tr
 
 **Adam Stacoviak:** For sure.
 
-**Jerod Santo:** \[00:41:48.14\] Yeah. And you can thrive through it, obviously, as Castro gets better, more subscribers, then you get this cool new feature, it can go premium etc. And so it's not just us that benefits, but everybody who does. Do you have a roadmap - not feature roadmap, but do you have like a path on some whiteboard somewhere, to zero, or like to profitability? Like breakeven? Do you know what that looks like in like years, and months, or...? What are you thinking?
+**Jerod Santo:** \[41:48\] Yeah. And you can thrive through it, obviously, as Castro gets better, more subscribers, then you get this cool new feature, it can go premium etc. And so it's not just us that benefits, but everybody who does. Do you have a roadmap - not feature roadmap, but do you have like a path on some whiteboard somewhere, to zero, or like to profitability? Like breakeven? Do you know what that looks like in like years, and months, or...? What are you thinking?
 
 **Dustin Bluck:** We have a roadmap. We have a product roadmap. Financial projections - I mean, not so much. I have a rough idea... When we turn on ads today - so that'll help; that's basically going to be another developer. So that helps.
 
@@ -454,7 +454,7 @@ But things Castro could do a lot better, things like season, and episode, and tr
 
 **Jerod Santo:** Goodwill. Goodwill is probably what they're getting out of that. I do know that some of the people who are implementing things like Podcast Index, they go look at the Pocket Casts source code from time to time in order to implement things, or know how things work, and just to get an idea of "Okay, here's at least how one client is treating this particular thing." So it's all the developers, it's people that are pushing things, not so much the users or the podcast creators. Maybe some users, it depends. I mean a podcast app can be a pretty complicated beast, especially one that's stratified across client and server... And so it's like, if I could add my own pet feature to Castro, maybe I would participate. But if that's prohibitively complicated, it's not going to happen, you know? And so, I don't know if it would benefit you much, but I think it might benefit the world a little more than it is closed source. And I don't think it's going to be a drawback on you whatsoever, but... That's just my two cents.
 
-**Dustin Bluck:** \[00:46:12.24\] No concrete plans at this time. I mean, it makes a lot more sense to me to open-source maybe podcast parsing, or some libraries, or...
+**Dustin Bluck:** \[46:12\] No concrete plans at this time. I mean, it makes a lot more sense to me to open source maybe podcast parsing, or some libraries, or...
 
 **Jerod Santo:** Right.
 
@@ -492,7 +492,7 @@ But things Castro could do a lot better, things like season, and episode, and tr
 
 **Dustin Bluck:** Yeah. It's \[unintelligible 00:49:54.25\] and I have people who email me every couple days. Just --
 
-**Jerod Santo:** \[00:49:59.03\] "Hey, Dustin. How are you doing...?"
+**Jerod Santo:** \[49:59\] "Hey, Dustin. How are you doing...?"
 
 **Dustin Bluck:** "I really like the app. Here are all my issues with it."
 
