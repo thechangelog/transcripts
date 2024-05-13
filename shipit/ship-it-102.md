@@ -8,7 +8,7 @@
 
 **Justin Garrison:** I know. Yeah, we saw her, she was at Scale, she gave a talk there, and I reached out and was like "Hey, I've read the Twine paper. Do you wanna come on the show? I'd love to talk about how you manage millions of machines. Physical hosts, rolling out Linux." This is just fun to talk about, because I'm a nerd.
 
-**Autumn Nash:** It's amazing. Well, not just that, but just the fact that they do it all on prem, and they do all of it themselves. And then they are awesome enough to open-source a bunch of their cool stuff once they get it working on all of these millions of things, and then they open source it so other people can use it, which is rad.
+**Autumn Nash:** It's amazing. Well, not just that, but just the fact that they do it all on prem, and they do all of it themselves. And then they are awesome enough to open source a bunch of their cool stuff once they get it working on all of these millions of things, and then they open source it so other people can use it, which is rad.
 
 **Justin Garrison:** They work mostly upstream, yeah. It's like they're working upstream with the Fedora and CentOS and these communities... And while Twine, their container scheduler isn't open source, a lot of the other components they have too just --
 
@@ -30,7 +30,7 @@
 
 And one of the things that I latched onto in this was he does what Amazon does with document-driven meetings, which I've found very fascinating working at Amazon, just the whole, like, you write a big document, and then everyone reads it quietly at the beginning of the meeting. And that is what you do. And if you're not at Amazon, that sounds completely foreign, and I always thought that that was kind of one of the seeds of one of the best asynchronous and remote work possibilities available.
 
-**Autumn Nash:** \[00:06:25.01\] It is.
+**Autumn Nash:** \[06:25\] It is.
 
 **Justin Garrison:** It was like, you could do a lot with like "Hey, we're gonna do a lot of thinking upfront to write this document, make it coherent, and make it a little too structured for Amazon's likings..." Like, some of that could be more flexible, but keeping it structured in a way that makes it easier to consume, so people know what to expect. If you're going into a one-pager, \[unintelligible 00:06:37.16\] a six-pager, all of those types of meetings have very structured requirements going into it. And in this podcast, Drew mentions that Dropbox adopted document-driven meetings around COVID time, when they said "Hey, we're gonna go all-in on being remote." And I've found it fascinating, just the conversation they had, and --
 
@@ -52,7 +52,7 @@ So Dropbox, I'm sure -- like, any large company is going to be hybrid, but where
 
 **Autumn Nash:** I also think that that shows you how much -- like the culture of people moving jobs every so many years. People take things they learned at their previous job, that made their meetings more efficient... And things that are good from companies will transfer to other companies. People will take what they like and what really made an impact, and take it to the new place they're going to.
 
-**Justin Garrison:** \[00:10:13.13\] Yeah, every environment is going to be different. I know plenty of people that won't work from people from certain companies, because they try to force it too much. They're like "Oh, well, at my last company we always did this, so we have to do it here." I'm like "This is different."
+**Justin Garrison:** \[10:13\] Yeah, every environment is going to be different. I know plenty of people that won't work from people from certain companies, because they try to force it too much. They're like "Oh, well, at my last company we always did this, so we have to do it here." I'm like "This is different."
 
 **Autumn Nash:** There's always somebody on \[unintelligible 00:10:26.01\] who's like "Don't hire these people, because they'll make you do this..."
 
@@ -64,7 +64,7 @@ So Dropbox, I'm sure -- like, any large company is going to be hybrid, but where
 
 **Autumn Nash:** Did you work for Hashi?
 
-**Justin Garrison:** No, no. They open-sourced it.
+**Justin Garrison:** No, no. They open sourced it.
 
 **Autumn Nash:** Oh. It's funny though, because it seems like every big company -- like, there was a thread on Twitter the other day, and people were like "The thing I have missed most about (I think) working at Google was Scanner", when everybody said that they hate it Scanner... But like a bunch of people that left said that that's what they've missed... And I will see the things people say they miss when they leave different big companies... And it's funny, the things that you're like "This is horrible", but then you miss it when you're gone later.
 
@@ -76,7 +76,7 @@ So Dropbox, I'm sure -- like, any large company is going to be hybrid, but where
 
 When I was at Disney Plus, we were building everything on ECS, and we could never find any ECS experts. Like, there was no one out there that knew ECS, unless you worked at Amazon. I'm like "We're not hiring Amazon people, so how do we get ECS experts to come?" So we hired a bunch of Kubernetes experts. Everyone on the team was a Kubernetes expert, and we're like "Hey, if you squint, this is kind of Kubernetes." But there was all these edge cases and things that we had to build around, because it's like "Oh, it's not Kubernetes, and we know that we're not driving a car, we're riding a bicycle", or something. It was a different paradigm of how we had to treat the system.
 
-**Autumn Nash:** \[00:14:15.00\] But I think that's almost like a secret sauce. Like, they worked really hard on implementing as simple as possible, while also making tools, but they implemented their own tools when it was necessary to truly make it easier, but they kept a lot of it as simple as possible...
+**Autumn Nash:** \[14:15\] But I think that's almost like a secret sauce. Like, they worked really hard on implementing as simple as possible, while also making tools, but they implemented their own tools when it was necessary to truly make it easier, but they kept a lot of it as simple as possible...
 
 **Justin Garrison:** And the fact that they had different goals. It was trying to have a single system that manages a million machines...
 
@@ -92,7 +92,7 @@ When I was at Disney Plus, we were building everything on ECS, and we could neve
 
 **Justin Garrison:** Well, in that case, you're gonna love the outro for today as well... And we're gonna just leave people on that, and we're gonna cut over to the interview with Anita, and talk to you again after.
 
-**Break**: \[00:16:28.20\]
+**Break**: \[16:28\]
 
 **Justin Garrison:** So today on the show we have Anita Zhang from Meta. Anita, you are an engineer D, manager D is your title. Is that correct?
 
@@ -110,7 +110,7 @@ When I was at Disney Plus, we were building everything on ECS, and we could neve
 
 **Anita Zhang:** Yeah, I mean, we've been around a while. We personally -- the company owns millions of hosts at this point. A mix of compute, storage, and now the AI fleet. Teams primarily work out of a shared pool. So we have a pool of machines called Twshared, where all of the container jobs run. There are a few services that run in like their own set of host prefixes, but for the most part the largest pool is Twshared. A lot of our infrastructure to support this scale is homegrown.
 
-**Justin Garrison:** \[00:18:09.17\] I don't know anything off the shelf that's gonna do a million hosts.
+**Justin Garrison:** \[18:09\] I don't know anything off the shelf that's gonna do a million hosts.
 
 **Anita Zhang:** Yeah... Me neither.
 
@@ -136,7 +136,7 @@ When I was at Disney Plus, we were building everything on ECS, and we could neve
 
 **Justin Garrison:** The repo syncing - I had a project at an animation we had \[unintelligible 00:21:19.07\] that we would sync all the repos internally, it all sits on NFS, and then we mount everything to NFS to pull in repos... And I forget, it was like a Jenkins tree of syncing jobs that would all run to like register a system, and pull down 300 or something repos that we would sync every night, and like "Okay, let's fetch all the files now." And then squirrel those away somewhere on a drive, and then host them, so that everyone else can sync to it, and then have it like rollout to the testing fleet. It's a lot of data, and it's a lot of stuff that you just have to -- as packages get removed from upstream, and you're using them in places, I'm assuming you have some isolation there, because as far as I know, most of your workloads are containerized on Twine, on Twshared as like the base infrastructure, right?
 
-**Anita Zhang:** \[00:22:09.01\] Yup. So containers, they don't get the live updates that the bare metal hosts get. So users can just find their jobs in a spec, and for like the lifetime of the job, the packages and things that go into it don't change. I mean, there are certificates that also are used to identify the job; those get renewed... But we have a big push to get every job updated at least every 90 days. Most jobs update more frequently than that.
+**Anita Zhang:** \[22:09\] Yup. So containers, they don't get the live updates that the bare metal hosts get. So users can just find their jobs in a spec, and for like the lifetime of the job, the packages and things that go into it don't change. I mean, there are certificates that also are used to identify the job; those get renewed... But we have a big push to get every job updated at least every 90 days. Most jobs update more frequently than that.
 
 **Justin Garrison:** Is that an update for like the base container layer, or whatever they're building on top of?
 
@@ -166,7 +166,7 @@ There's a sidecar for the logs specifically. So logs are pretty important, as yo
 
 **Anita Zhang:** Yeah, pretty much.
 
-**Justin Garrison:** \[00:25:47.00\] One of the things that I've found super-interesting in the white paper was host profiles, where different workloads - you basically like virtually allocate clusters, I guess, for a lack of better... Entitlements is what you call them, for like "Hey, this job gets this set of hosts", and then you can dynamically switch those hosts to needing different kernel parameters, file systems, huge pages, and you have a resource allocator that does that, as far as I understood... How does that affect what you're doing? You have a set of host profiles, you say "Hey, you can pick from a menu", and then we know how to switch between them? How does that typically work?
+**Justin Garrison:** \[25:47\] One of the things that I've found super-interesting in the white paper was host profiles, where different workloads - you basically like virtually allocate clusters, I guess, for a lack of better... Entitlements is what you call them, for like "Hey, this job gets this set of hosts", and then you can dynamically switch those hosts to needing different kernel parameters, file systems, huge pages, and you have a resource allocator that does that, as far as I understood... How does that affect what you're doing? You have a set of host profiles, you say "Hey, you can pick from a menu", and then we know how to switch between them? How does that typically work?
 
 **Anita Zhang:** So that part's a little newer than from the time I was in containers. So you create a host profile, you work with the host management team to do that, and then you can, I believe, specify it in your job spec. And then when you need to either restart your job, or move the job around, they actually have to drain the hosts. Most host profiles require a host restart, because things like huge pages - you need to restart the hosts to apply... And then the jobs gets started back up on the host with the host profile you're asking for.
 
@@ -198,7 +198,7 @@ There's a sidecar for the logs specifically. So logs are pretty important, as yo
 
 **Justin Garrison:** How does release frequently, and a million hosts go together? Because you mentioned that it takes about a year to basically rollout an update to every host? But if you're pushing out updates to the OS every month, then you have like 12 different stages of things that are going through release, and that makes it really hard to debug... Like, "Oh, what version are you on? Did we fix that bug somewhere else?" How do you manage that?
 
-**Anita Zhang:** \[00:29:58.18\] Yeah, so it's mainly the major upgrades that take like up to a year. And we're about to go from CentOS Stream 9 to 10. That will probably take a long time than if we were just doing our rolling OS upgrades. So the thing about CentOS is that we do maintain kind of like ABI boundaries. So we expect that the changes that Red Hat and CentOS are making to packages are mostly like bug fixes that won't break compatibility in the program... And that's remained true. We haven't run into a lot of major issues with rolling OS upgrades. Most issues come from like when we personally are trying to pull in like the latest version of Systemd or something, and we're rolling that out. Those we have to do with more intention.
+**Anita Zhang:** \[29:58\] Yeah, so it's mainly the major upgrades that take like up to a year. And we're about to go from CentOS Stream 9 to 10. That will probably take a long time than if we were just doing our rolling OS upgrades. So the thing about CentOS is that we do maintain kind of like ABI boundaries. So we expect that the changes that Red Hat and CentOS are making to packages are mostly like bug fixes that won't break compatibility in the program... And that's remained true. We haven't run into a lot of major issues with rolling OS upgrades. Most issues come from like when we personally are trying to pull in like the latest version of Systemd or something, and we're rolling that out. Those we have to do with more intention.
 
 **Justin Garrison:** You mentioned an AI fleet... From what I've heard Zuckerberg talk about is like Meta has more GPUs than anyone else in the world, basically. How do you manage that? Not only how are the drivers installed, because Linux and Nvidia aren't always known to be the best friends, but then how do you like isolate those things, and roll out those changes?
 
@@ -234,7 +234,7 @@ So if you're just writing like a service, a lot of that's abstracted away from y
 
 **Autumn Nash:** That's awesome.
 
-**Anita Zhang:** \[00:34:00.28\] Yeah. But if you're on the infrastructure side, sometimes you need to maintain those widely-distributed binaries on the bare metal hosts. So us running Systemd, or the team \[unintelligible 00:34:07.21\] that does the load balancing, they also run a widely-distributed binary across the fleet on bare Metal. There's also another service that does specifically fetching packages, or shipping out configuration files, and things like that. But yeah, most of the services people write, they're running in containers. Databases - they have kind of their own separate thing going on as well. Most of them are moving more into Twshared as well, but they have more specific requirements related to draining the hosts and making sure there's no data loss.
+**Anita Zhang:** \[34:00\] Yeah. But if you're on the infrastructure side, sometimes you need to maintain those widely-distributed binaries on the bare metal hosts. So us running Systemd, or the team \[unintelligible 00:34:07.21\] that does the load balancing, they also run a widely-distributed binary across the fleet on bare Metal. There's also another service that does specifically fetching packages, or shipping out configuration files, and things like that. But yeah, most of the services people write, they're running in containers. Databases - they have kind of their own separate thing going on as well. Most of them are moving more into Twshared as well, but they have more specific requirements related to draining the hosts and making sure there's no data loss.
 
 **Justin Garrison:** Right. All those shards... Making sure that enough of the data replicas are available.
 
@@ -268,7 +268,7 @@ So if you're just writing like a service, a lot of that's abstracted away from y
 
 **Justin Garrison:** Yeah, I suppose once you have any sort of specialized compute or interface, whether that's network, some fabric adapters, you always have snowflakes in some way, where it's like "Hey, this is different than the general compute stuff."
 
-**Anita Zhang:** \[00:38:07.25\] Oh, yeah, for sure.
+**Anita Zhang:** \[38:07\] Oh, yeah, for sure.
 
 **Justin Garrison:** How has that affected your global optimization around things? And I know - again, the paper is old now. It's like 2020, I think is when it was published... Which is probably looking at 2019, 2018 data. But in general, something like 18% overall total cost optimization because of moving to single-size hosts, because you're just like "Hey, our power draw was less overall, globally." So I think the web tiers was like 11% -- I should have had it up in front of me... 11% more performance by switching to host profiles and allowing them to customize the host. Have you had things like that over the past four years, with these either optimizations in specialized compute, that have allowed you to even gain more global optimization? Because at a million hosts, a 10% gain in efficiency or lower power requirements is huge. That's like megawatts of savings.
 
@@ -316,7 +316,7 @@ So if you're just writing like a service, a lot of that's abstracted away from y
 
 **Anita Zhang:** I mean, I'm always interested in doing more stuff with Systemd. I think there's still a bunch of components internally that could be utilizing Systemd in more ways, making sure that we're on a common base. That's kind of the main general goal that I'm always going to be focused on, I guess.
 
-\[00:42:10.23\] There are also some bigger -- I mean, Journald, I've been trying to get us to replace our syslog completely, and move entirely to systemd-journald. That's an ongoing effort.
+\[42:10\] There are also some bigger -- I mean, Journald, I've been trying to get us to replace our syslog completely, and move entirely to systemd-journald. That's an ongoing effort.
 
 **Justin Garrison:** That was one of my best claim to fames at Disney Plus, was I disabled our syslog. I was like "No, we're just doing Journald now", and it saved us so much just like IO throughput on the disk, and everything... And there was a lot of problems with it, too. Maybe we weren't ready to do that, but I was like "We can't ship Disney Plus until our syslog's off."
 
@@ -324,7 +324,7 @@ So if you're just writing like a service, a lot of that's abstracted away from y
 
 **Justin Garrison:** It was great. It was a great feeling one day, when I'm like "I don't need this anymore. I don't need our syslog."
 
-**Anita Zhang:** I mean, \[unintelligible 00:42:50.13\] Systemd Networkd was pretty cool, but... I mean, now that that's done, I can just like be happy with it. There's probably some more stuff we're going to be doing with like systemd-oomd, the out of memory killer. I think we're about ready to get Senpai upstreamed into Systemd. Senpai is like a memory auto-resizer that we wrote... And I don't think that that's been open-sourced in any way. I mean, we have like an internal plugin to do that with the old \[unintelligible 00:43:22.28\] I think it's time to get that into systemd-oomd as well.
+**Anita Zhang:** I mean, \[unintelligible 00:42:50.13\] Systemd Networkd was pretty cool, but... I mean, now that that's done, I can just like be happy with it. There's probably some more stuff we're going to be doing with like systemd-oomd, the out of memory killer. I think we're about ready to get Senpai upstreamed into Systemd. Senpai is like a memory auto-resizer that we wrote... And I don't think that that's been open sourced in any way. I mean, we have like an internal plugin to do that with the old \[unintelligible 00:43:22.28\] I think it's time to get that into systemd-oomd as well.
 
 **Justin Garrison:** Is that for resizing the container, the cgroup, and saying how much memory they have available? Or is that something different?
 
@@ -336,7 +336,7 @@ So if you're just writing like a service, a lot of that's abstracted away from y
 
 **Justin Garrison:** Yeah. Have you been doing anything with immutable file systems, or read-only, or like A/B switching hosts for -- Fedora has Silverblue... I use a distro called Bluefin, which is kind of built on top of that, which does like A/B switching for upgrades to do reboots every time. It sounds like you're doing rolling updates, so you would still be writing packages to disk instead of like flipping between partitions.
 
-**Anita Zhang:** I mean, we're trying to shift to like more of an immutable model internally. We have something called \[00:44:22.20\] And right now we're rolling out a variation of \[unintelligible 00:44:26.01\] It's similar to -- the goal is like kind of an immutable file system, but it's making strides to get there. We still have to rely on Chef to do a lot of configuration, but a lot of it has shifted to a more static configuration, that is more deterministic and gets updated at a cadence where we can more clearly see what the changes are.
+**Anita Zhang:** I mean, we're trying to shift to like more of an immutable model internally. We have something called \[44:22\] And right now we're rolling out a variation of \[unintelligible 00:44:26.01\] It's similar to -- the goal is like kind of an immutable file system, but it's making strides to get there. We still have to rely on Chef to do a lot of configuration, but a lot of it has shifted to a more static configuration, that is more deterministic and gets updated at a cadence where we can more clearly see what the changes are.
 
 **Justin Garrison:** And I was asking that because leading into you said you want more Systemd stuff, and I'm curious if you're trying to use things like Systemd system extensions, or sysext, or whatever it's called, that are like layering different things on top of Systemd... Which is typically for an immutable file system, but still allow changes to happen.
 
@@ -346,7 +346,7 @@ So if you're just writing like a service, a lot of that's abstracted away from y
 
 Well, Anita, this has been great. I'm just nerding out, because I'm trying to learn all the things that I've done in the past, and still doing in the future... And I think it's great that Meta is not only doing this at like just a core level of just like "Hey, we just have Systemd, and things run in that", but also giving back upstream with the Systemd builds, and all the stuff that you've been publishing in the white papers, which Autumn and I were reading, and talks, but also just the open source work... So I think that's fascinating. And we didn't even get to talk about eBPF really that much... Because that's a whole other topic.
 
-**Anita Zhang:** \[00:46:08.00\] Oh, yeah... \[laughs\]
+**Anita Zhang:** \[46:08\] Oh, yeah... \[laughs\]
 
 **Autumn Nash:** You have to come back. I think Meta gets a really bad rap for a lot of things, but I don't think that you guys get enough credit for the amount of open source you guys do, and the white papers... The white papers you guys have written on databases and the database contributions alone is amazing. And there's been so many things given away for free, so people can gain knowledge. I don't think Meta gets enough credit for that.
 
@@ -378,7 +378,7 @@ Well, Anita, this has been great. I'm just nerding out, because I'm trying to le
 
 **Autumn Nash:** Have a great day.
 
-**Break**: \[00:48:29.01\]
+**Break**: \[48:29\]
 
 **Justin Garrison:** Thanks again, Anita, for coming on the show and talking to us all about how Linux is managed at Meta, and how containers run, and upgrades, and all that stuff. Again, if you want to read more, the link to the whitepaper is in the show notes, so check it out. For today's outro I made up a new game with a silly name. This one is called "Faux or fo' sho'." And Faux being spelled f-a-u-x, so this is -- you're gonna have to spot the fake or the real thing in this list.
 
@@ -438,7 +438,7 @@ Well, Anita, this has been great. I'm just nerding out, because I'm trying to le
 
 **Justin Garrison:** Yeah. So that one is definitely fake. Okay, here's another. "The hidden costs of homogeneity: exploring diversity in AI development."
 
-**Autumn Nash:** \[00:56:07.04\] It sounds too good to be real, so...
+**Autumn Nash:** \[56:07\] It sounds too good to be real, so...
 
 **Justin Garrison:** I know, right? It's just picking them out now. It's just like "Yeah--" ChatGPT knows what should exist.
 
@@ -490,7 +490,7 @@ Well, Anita, this has been great. I'm just nerding out, because I'm trying to le
 
 **Justin Garrison:** These are my capacitors... And so the camera's not going to focus, because -- there you go. See, it's labeled as Cap. And the bottom box here is all my resistors, and it is labeled as No Cap. \[laughs\] \[unintelligible 00:58:55.26\] It's an audio show, so no one cares, but yes, my --
 
-**Autumn Nash:** \[00:59:00.13\] Oh, you brought like nerdy and like pop culture together, and I love it. I love it!
+**Autumn Nash:** \[59:00\] Oh, you brought like nerdy and like pop culture together, and I love it. I love it!
 
 **Justin Garrison:** So yeah, that's my organization of my electronics in my shelf behind me.
 
