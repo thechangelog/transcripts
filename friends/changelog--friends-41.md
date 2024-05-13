@@ -746,7 +746,7 @@ So yeah, I'd say it's a couple of weeks away from being stable again... And then
 
 So it's all coming. If you can't wait, then what you should do is come join the Discord. We've got a big Discord full of people. You can look at the software now, you can run it, you can talk to us in the Discord, you can use the branch from before we merged the engine, which is slow, but worked, more stable...
 
-**Jerod Santo:** Well, if you'd like to steal Adam's model, which I'm sure he's happy for you to do, everything is laid out in great detail on [systeminit.com/open-source](https://www.systeminit.com/open-source/). This describes both in a really short version, and a short version, and then a long version, exactly how he is laying out the open source, the proprietary, how you can work with System Initiative, how you can not... And so that seems like a recipe for anybody out there building similar software who would like to productize and open source and create a product, create a business.
+**Jerod Santo:** Well, if you'd like to steal Adam's model, which I'm sure he's happy for you to do, everything is laid out in great detail on [systeminit.com/open source](https://www.systeminit.com/open source/). This describes both in a really short version, and a short version, and then a long version, exactly how he is laying out the open source, the proprietary, how you can work with System Initiative, how you can not... And so that seems like a recipe for anybody out there building similar software who would like to productize and open source and create a product, create a business.
 
 **Adam Jacob:** Yeah. And you can take that page and just run with it. It's all good.
 
