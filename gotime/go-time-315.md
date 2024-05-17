@@ -26,7 +26,7 @@ Now, what the governance model would be? Right now it's the Go team that decides
 
 **Kris Brandow:** I feel like if Google did just like "Okay, we don't want to do Go anymore, we're gonna get rid of it. We're gonna lay off the whole team", I feel like one of the other big tech companies like Amazon or Microsoft would just pick up that whole team and be like "Okay, then we'll just start doing this." I mean Microsoft, they basically almost did that with Open AI, and that was a whole lot more people than the Go team. And as we'll talk about later, Microsoft seems to have a pretty significant investment in Go.
 
-\[00:07:58.09\] So it seems like some kind of corporate benefactor, someone would want to actually pick this up and run with it. It was kind of the whole team just being let go at once... Or like a foundation, because I think as mentioned in the Reddit post, the CNCF has so many different projects that are written in Go. You're not going to rewrite Kubernetes at this point in another language, so...
+\[07:58\] So it seems like some kind of corporate benefactor, someone would want to actually pick this up and run with it. It was kind of the whole team just being let go at once... Or like a foundation, because I think as mentioned in the Reddit post, the CNCF has so many different projects that are written in Go. You're not going to rewrite Kubernetes at this point in another language, so...
 
 **Johnny Boursiquot:** Some will try... \[laughs\]
 
@@ -78,7 +78,7 @@ they're 50% off."
 
 **Kris Brandow:** That's right. The people that built Go worked at Google at the time, and Google has those all-encompassing contracts of like "We own all of it."
 
-**Johnny Boursiquot:** \[00:12:16.13\] So Go is open source... What does intellectual property law look like for open source? Like, open source means you just can use it, freely reuse it and do all kinds of things, right? Does that mean --
+**Johnny Boursiquot:** \[12:16\] So Go is open source... What does intellectual property law look like for open source? Like, open source means you just can use it, freely reuse it and do all kinds of things, right? Does that mean --
 
 **Kris Brandow:** It means that if you forked it, you couldn't call it Go? Like, the same thing happened with TerraForm, where they forked TerraForm, but they can't call it TerraForm, because TerraForm is intellectual property of HashiCorp. So Go is intellectual property; like, the brand of it.
 
@@ -126,7 +126,7 @@ they're 50% off."
 
 **Johnny Boursiquot:** As far as we know. I mean, we're three peeps on a podcast, just making wild guesses as to what a mega corporation might or might not do. I mean, they're laying off entire language teams and entire frameworks. Can you imagine if you're like -- what is it, like Flutter data laid off, or something? Or Dart, or whatever it is? Can you imagine if you invested like years into these frameworks and languages, and all of a sudden, on some corporate execs whim, like "Well, nah, we need to now divert these funds into AI. No more of these side things. These are not core to our mission. These do not align with our objectives." And all of a sudden, just with that sentence, your livelihood is now at risk. Can you fathom it?
 
-**Kris Brandow:** \[00:16:17.29\] I mean, yes, but...
+**Kris Brandow:** \[16:17\] I mean, yes, but...
 
 **Johnny Boursiquot:** Do not put all your eggs in one basket, folks. Do not put your eggs, all of them in one basket. Never, never, ever.
 
@@ -184,7 +184,7 @@ they're 50% off."
 
 **Kris Brandow:** \[laughs\] I like the one that we have, but we already have three... Two at least... Well, I guess three. Depending on how you count. We have the GC compiler, which is the main Go compiler, you have GCC Go, you have TinyGo... And there's a few others. Is there one that works with the GNU compiler system? GCC Go. And there's llgo. That's the other one I was thinking of. Yeah. There's a lot of different versions -- not versions. There's a lot of different implementations of Go, which is how they the designers meant it to be. So adding another one in there seems like a fine thing to do.
 
-**Johnny Boursiquot:** \[00:19:58.01\] Okay. Alright. I'll give it a pass.
+**Johnny Boursiquot:** \[19:58\] Okay. Alright. I'll give it a pass.
 
 **Kris Brandow:** I mean, you can disagree, Johnny, if you want to disagree...
 
@@ -236,7 +236,7 @@ So many CNCF things are written -- I mean, so many cloud things are written in G
 
 **Kris Brandow:** 5,25, and 3,5...
 
-**Johnny Boursiquot:** \[00:24:07.17\] And then we sized it down to the 3.5 \[unintelligible 00:24:10.07\] or something... But in between there we went through all kinds of various kinds of mediums, and zip drives, and this and that... I mean, the kids these days, they have no idea how good they have it.
+**Johnny Boursiquot:** \[24:07\] And then we sized it down to the 3.5 \[unintelligible 00:24:10.07\] or something... But in between there we went through all kinds of various kinds of mediums, and zip drives, and this and that... I mean, the kids these days, they have no idea how good they have it.
 
 **Ian Lopshire:** A ZIP drive was legit a tape, right?
 
@@ -268,7 +268,7 @@ So many CNCF things are written -- I mean, so many cloud things are written in G
 
 **Kris Brandow:** It got cheaper, for sure... I remember being like "$4 a month for all this stuff? That's great."
 
-**Break**: \[00:26:53.12\]
+**Break**: \[26:53\]
 
 **Kris Brandow:** What's next, what's next? We are going to think -- I think we also wanna talk about... Oh, yes, this nice post from the Go blog about evolving the standard library with the first v2 package in the form of math/rand getting a new version. This one feels like it's a long time coming. I've always had my own dislikes of how math/rand has worked, and especially -- I get why they made it different from crypto/rand, so you couldn't like accidentally use \[unintelligible 00:32:37.29\] But it was still very annoying. You had to use like a completely different API if you wanted to have a pseudo random number generator instead of a cryptographically random one.
 
@@ -280,7 +280,7 @@ But yeah, I think this is like an interesting next step when it comes to all of 
 
 **Ian Lopshire:** I think the article makes some really interesting points, kind of about the drift between the version one and version two, which we don't want to happen, right? So it goes on to say any v2 package will be able to completely do what a v1 package does at the time of release. So it's not going to be like a v2 package that \[unintelligible 00:34:01.18\] part of another package, which I think is good. And it also goes on to say that the plan is to kind of make the v1 packages just a thin wrapper over v2 packages, so v1 packages can get bug updates and fixes from changes in the v2 packages... Which I think is great. I hope that works out.
 
-**Kris Brandow:** \[00:34:22.22\] Oh, change the v1 package to be wrapped around the v2 -- okay, yeah.
+**Kris Brandow:** \[34:22\] Oh, change the v1 package to be wrapped around the v2 -- okay, yeah.
 
 **Ian Lopshire:** Yeah. So I mean, I think that's smart, and I hope it works. It doesn't seem like it's gonna work for everything, but...
 
@@ -294,7 +294,7 @@ Even right now I tried to get a random number generator initialized earlier this
 
 **Kris Brandow:** Yeah. I also think the fact they added the functionality that in the go.mod file there's like the version of Go you're compiling with, which I think allows them to fix a lot of things that might have been attempted to be fixed with like a v2 package in the past, or like a v2 of the language in the past. I think the shadowing stuff that they just got rid of, I think it was one of those things where it's like "Oh, well, it would have been very difficult to fix this before." But now that you can be like "Oh, okay, you're compiling for this older version of the language, so we're going to keep those semantics the same." Or "Oh, you're in this newer version of language. Now the semantics are different."
 
-\[00:37:54.06\] Or like the ability to just used a number in a range, which I've wanted forever... \[laughter\] Like, just being able to do that kind of stuff, and be able to detect based on like "Oh yeah, you're on this version of the compiler, so we know that we have these features, we have this functionality" I think helps make sure that we don't rush to v2 packages when we don't need them, and that we actually go to the v2 when we actually have a pressing need to do something at a higher level that's different, like something semantically different, instead of just some "I don't like this index", or "I don't like this particular thing."
+\[37:54\] Or like the ability to just used a number in a range, which I've wanted forever... \[laughter\] Like, just being able to do that kind of stuff, and be able to detect based on like "Oh yeah, you're on this version of the compiler, so we know that we have these features, we have this functionality" I think helps make sure that we don't rush to v2 packages when we don't need them, and that we actually go to the v2 when we actually have a pressing need to do something at a higher level that's different, like something semantically different, instead of just some "I don't like this index", or "I don't like this particular thing."
 
 **Ian Lopshire:** Are y'all excited for any v2 packages?
 
@@ -332,7 +332,7 @@ Even right now I tried to get a random number generator initialized earlier this
 
 **Kris Brandow:** I think it's an interesting challenge of our industry... You know I have my gripes with semantic import versioning and how a bunch of this stuff works... This does feel like one of the better ways this has been done in the industry. We've basically successfully managed to move Go into Go 2. Like, "This is Go version 2", without actually having any breaking changes... Which I think is kind of incredible, because we didn't have to run into like the thing that happened with Python, or happened with so many other languages, where it's just like "Oh God, we have these few years of awfulness, because we had to make all of these changes at once, and now everybody's mad at us, and everybody stuck on the old thing for an extra decade, and we don't know what to do..."
 
-\[00:42:21.29\] But with Go, it's just kind of like -- it's like, you're stuck on the old thing for not that long, because you can just move forward. And I think that's also partly because of Go's history with like the Gofix tool, and a whole bunch of other stuff that's like "Okay, well, we'll just rewrite your code for you, to help you upgrade some of \[unintelligible 00:42:37.10\]
+\[42:21\] But with Go, it's just kind of like -- it's like, you're stuck on the old thing for not that long, because you can just move forward. And I think that's also partly because of Go's history with like the Gofix tool, and a whole bunch of other stuff that's like "Okay, well, we'll just rewrite your code for you, to help you upgrade some of \[unintelligible 00:42:37.10\]
 
 **Johnny Boursiquot:** Thank goodness we didn't take a page from the JavaScript community and just start creating polyfills everywhere, and transpilers, and this and that... Yeah, the JavaScript community is a --
 
@@ -344,7 +344,7 @@ Even right now I tried to get a random number generator initialized earlier this
 
 This reminds me of an interesting lesson I had to learn in sort of the early days of my career, where I figured out that technical decisions were rarely purely technical decisions. I'd present a really well argued, well structured reasoning, logical sort of proposals for changing from this framework to that framework, this language to that language, or this architectural style to that one, and blah, blah, with a clear path to migration... You know, not blow things up, but just incremental changes... A release schedule, roadmap... I'd do all this work, and then they'd be like "Oh yeah, we'll take it from here." And then the decision is made in some room somewhere, where I'm not at the table in, and I'm realizing "What?! You're going with this approach? But this makes no sense. Technically, it is a poor, bad decision. You don't know what the heck you're doing." Literally, I would be getting mad about this stuff, and then I realized one day "Crap, it's not about the technical decision all the time." Right? There are other factors that I'm not privy to, that go into these decisions. So yeah, it's the same thing with -- even in the open source community there's going to be incumbents who don't want things to change that much, because they have a lot of stake.
 
-**Kris Brandow:** \[00:46:05.09\] Yeah. And I think that's why forking is a good thing. I remember back when my last couple of -- I think maybe last year or so of actively doing Drupal development there was this big push for the new version of Drupal; it was gonna be Drupal 8, and it was gonna change everything... And there were a whole bunch of people that were like "We kind of like how Drupal 7 worked, and the historical way Drupal worked... So we're just gonna go fork it and make this other thing." And it seems like both things are thriving. So it's like "Okay, well, if you want the old thing, then go over here, use this backdrop thing; if you want the new thing, then go use the new Drupal stuff."
+**Kris Brandow:** \[46:05\] Yeah. And I think that's why forking is a good thing. I remember back when my last couple of -- I think maybe last year or so of actively doing Drupal development there was this big push for the new version of Drupal; it was gonna be Drupal 8, and it was gonna change everything... And there were a whole bunch of people that were like "We kind of like how Drupal 7 worked, and the historical way Drupal worked... So we're just gonna go fork it and make this other thing." And it seems like both things are thriving. So it's like "Okay, well, if you want the old thing, then go over here, use this backdrop thing; if you want the new thing, then go use the new Drupal stuff."
 
 **Johnny Boursiquot:** Wait, hang on a second... I've gotta go fork Redis. \[laughter\] Speaking of which, don't we have another Redis clone or something on our list of news?
 
@@ -408,7 +408,7 @@ On to more forks. Redis. So we have a little Redis reimplemented in Go, with SQL
 
 **Johnny Boursiquot:** Yeah, we've been having these debates for time immemorial. Just the same way we're like "No, bro, serverless doesn't mean no servers." We have these conversations all the time. But eventually you're just like "You know what, let me just stop fighting the marketing people, and just go with it." \[laughs\]
 
-**Kris Brandow:** \[00:50:17.01\] I think the hard part is English isn't a phonetic language. You can't look at a word and know how it's supposed to be pronounced... So that's half the battle.
+**Kris Brandow:** \[50:17\] I think the hard part is English isn't a phonetic language. You can't look at a word and know how it's supposed to be pronounced... So that's half the battle.
 
 **Johnny Boursiquot:** Well, some hills I'm not willing to die on. I don't have time.
 
@@ -474,7 +474,7 @@ On to more forks. Redis. So we have a little Redis reimplemented in Go, with SQL
 
 **Johnny Boursiquot:** Ben Johnson, exactly. He created BoltDB, which for a long time I use constantly... Yeah, he's very knowledgeable in databases, and writing database servers, and everything else. And he had this project, I think it's called Litestream, where basically if your use case is right, you can literally put SQLite into production, and actually have a reliable system that has continuous streaming backups, and you don't lose your stuff... He kind of opened my eyes to the possibilities of actually treating SQLite not just as a toy database, or something I use locally when I'm developing, or something I use in sort of low-power devices, or whatever it is, but actually using it instead of relying on sort of the go-to's: the Postgres, the MySQL, and so on and so forth.
 
-\[00:54:15.16\] So I agree, SQLite is very capable for certain use cases. The primary thing for me has always been sort of the lock issue with writes, that we can only have one write at a time... So that creates a problem. In some cases you kind of have to be clever with how you get around that. Maybe you just have one writer, with a ton of readers... But you have to kind of approach your design architecture a little differently than some extra thinking you have to do around the design of your software when you're not using a full-blown database like Postgres or MySQL or something like that.
+\[54:15\] So I agree, SQLite is very capable for certain use cases. The primary thing for me has always been sort of the lock issue with writes, that we can only have one write at a time... So that creates a problem. In some cases you kind of have to be clever with how you get around that. Maybe you just have one writer, with a ton of readers... But you have to kind of approach your design architecture a little differently than some extra thinking you have to do around the design of your software when you're not using a full-blown database like Postgres or MySQL or something like that.
 
 **Kris Brandow:** I suppose... Although when you're using SQLite you're operating at like many orders of magnitude faster than like a Postgres or a MySQL... Because it's just like, you don't have a network. You're just kind of there, \[unintelligible 00:55:03.01\] So it's a lot faster in general, I think... But I also think like the -- you do have to structure things differently, but I think there's also like the macro structuring of your application differently if you want to put SQLite at the center of what you're doing.
 
@@ -508,7 +508,7 @@ On to more forks. Redis. So we have a little Redis reimplemented in Go, with SQL
 
 The first commit was a month ago, so careful out there, people. I feel like SQLite also was having kind of a resurgence in Go specifically, because there was -- I don't remember his name, but there's a guy that's been basically working on trying to make it so you would have SQLite in pure Go, so you don't have to use cgo... And I think that actually just went 1.0 recently, or got to some very stable point, so you can start using it more, and it literally is a drop-in replacement for SQLite, which means that if you want to use SQLite but in Go, you don't have to use cgo, which I think is a huge advantage, and really opens the opportunities.
 
-\[00:58:36.01\] I mean SQLite was pretty easy to embed into Go in the first place, because it's packaged and shipped as a single C file, with no dependencies... So as far as things that you integrate into Go from C land, it's pretty easy to do... But just having it so you can like still do cross-compiling and all of that easily is like a huge advantage.
+\[58:36\] I mean SQLite was pretty easy to embed into Go in the first place, because it's packaged and shipped as a single C file, with no dependencies... So as far as things that you integrate into Go from C land, it's pretty easy to do... But just having it so you can like still do cross-compiling and all of that easily is like a huge advantage.
 
 **Johnny Boursiquot:** We should do an episode on licensing, because I'm still -- when I see licenses... Like, the only thing I know is MIT good, everything else suspect. Right? \[laughter\] If I see like BSD 3-Clause, blah, blah, blah... Now I need to go do research to see if I can go get this thing.
 
