@@ -68,7 +68,7 @@ Check it out at cloudflare.tv and thanks to our friends at Cloudflare for sponso
 
 [Oracle dumps Terraform for OpenTofu](https://www.thestack.technology/oracle-dumps-terraform-for-opentofu/)
 
-> Oracle has swapped Terraform for the open-source fork OpenTofu under the hood of its Oracle E-Business Suite (EBS) Cloud Manager. It is now telling customers they “must” make the shift to its new OpenTofu-based version of the migration/provisioning tool by June 30, 2024.
+> Oracle has swapped Terraform for the open source fork OpenTofu under the hood of its Oracle E-Business Suite (EBS) Cloud Manager. It is now telling customers they “must” make the shift to its new OpenTofu-based version of the migration/provisioning tool by June 30, 2024.
 
 The reason for the switch is unsurprising, but notable nonetheless: "due to forthcoming Terraform licensing changes." This is a big vote of confidence for the fork. Will Oracle's move be a one-off or the first big domino to fall in an OpenTofu rally?
 
