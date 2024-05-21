@@ -54,7 +54,7 @@
 
 There's also a book called Pipes, which is another great book about this same network, in book form. And it does a lot of how a datacenter connects to a different data center. So they walk the whole path, which is fun, because they have like -- when it comes up on a beach, what do you do? How do you actually terminate that and like make it go somewhere? Do you connect it in the ocean water right there? It's kind of shallow... What do you do? So the book is also really good, but for the link I'll go with "The cloud under the sea."
 
-**Autumn Nash:** \[00:06:05.09\] I like to read stuff like that to my kids, because I think the magic in the world is learning that these invisible things are things that you take for granted, so much work goes into it. I used to love that show - what was it called...? How Things Work, as a kid... And just like learning the secrets, and... I think it gives you more appreciation for different people in different jobs. Also speaking of appreciation for different people in different jobs... You can tell that a designer, and other people had input on this because it's visually beautiful. And the visuals really drive the point home in the article. So not only is it like technologically interesting, but it visually puts the dots together, and also it's just... I don't know, I think it makes it richer. The experience is richer, and a lot of times visual arts and designers are always like "Well, we can get rid of them", but it's crazy how much it adds to the experience, you know?
+**Autumn Nash:** \[06:05\] I like to read stuff like that to my kids, because I think the magic in the world is learning that these invisible things are things that you take for granted, so much work goes into it. I used to love that show - what was it called...? How Things Work, as a kid... And just like learning the secrets, and... I think it gives you more appreciation for different people in different jobs. Also speaking of appreciation for different people in different jobs... You can tell that a designer, and other people had input on this because it's visually beautiful. And the visuals really drive the point home in the article. So not only is it like technologically interesting, but it visually puts the dots together, and also it's just... I don't know, I think it makes it richer. The experience is richer, and a lot of times visual arts and designers are always like "Well, we can get rid of them", but it's crazy how much it adds to the experience, you know?
 
 **Justin Garrison:** And this is one of the pieces that I love reading on my iPad, but usually it's just text... And this was one of those -- it felt like what reading on an iPad should be.
 
@@ -72,7 +72,7 @@ So "The UK introduces its first IoT security laws." This is IoT Tech News. I tho
 
 The other ones are like publish vulnerability disclosures, state minimum periods for providing secure updates, and provide mechanisms for securely updated software... But what I've found interesting is the password section of it came from the Mirai Botnet incident, which is a DoS attack that was super, I guess infamous... But I just thought it was cool, because I loved the Georgia Tech write-up that was done about it. So it's just crazy to see people go and write these great post mortems, and to see actual change in laws come from them.
 
-**Justin Garrison:** \[00:10:05.05\] Of those bullet points in the article too, like "Publish vulnerability disclosure policies for reporting security flaws." They didn't have to do anything. They didn't have to have a blog post to say "Hey, by the way, this is vulnerable." And the second one, "State minimum periods for providing security updates" - again, they don't have to do anything. They just have to say "We are going to have 12 months of security vulnerabilities", or something.
+**Justin Garrison:** \[10:05\] Of those bullet points in the article too, like "Publish vulnerability disclosure policies for reporting security flaws." They didn't have to do anything. They didn't have to have a blog post to say "Hey, by the way, this is vulnerable." And the second one, "State minimum periods for providing security updates" - again, they don't have to do anything. They just have to say "We are going to have 12 months of security vulnerabilities", or something.
 
 And then that last one on there is "Provide a mechanism for securely updating software." That's the first one that like "Oh, they have to have a way to update it." Like "This is the thing that's wrong, this is our guarantee for this thing." I wonder how this applies to things that happen... Like I know California is pushing out a really big law for right to repair, and right to be able to own some of the hardware and stuff, and be able to fix it, and be able to "Hey, if this is vulnerable, I should have a way that I can get into -- even if you don't provide security updates, I should be able to push in my own security updates if that is something that is outside of your cycle of maintenance anymore."
 
@@ -102,7 +102,7 @@ And so I'm wondering how this kind of plays into that as well, where it's like "
 
 **Justin Garrison:** I'm at the point where I still want them for the convenience side of it, but I don't want them connected to anything. Like, I want to own both ends of that.
 
-**Autumn Nash:** \[00:14:02.26\] I remember when I first got into tech seriously, and everybody was like "I don't have any Alexas", and I'm like "How can you not?" I was obsessed with IoT, and smart homes, and all of the lights and stuff... And now I'm like "Oh, we've got to find a happy medium." Because they just keep updating more and more stuff, and just sending you stuff without even really telling you what these updates are doing, and you're like "Whoa..."
+**Autumn Nash:** \[14:02\] I remember when I first got into tech seriously, and everybody was like "I don't have any Alexas", and I'm like "How can you not?" I was obsessed with IoT, and smart homes, and all of the lights and stuff... And now I'm like "Oh, we've got to find a happy medium." Because they just keep updating more and more stuff, and just sending you stuff without even really telling you what these updates are doing, and you're like "Whoa..."
 
 **Justin Garrison:** My youngest child's first word was Google. Literally. Because we used to say "Okay Google" all the time - I'm sorry, I've just triggered my own - for music and whatnot. And that was his first word.
 
@@ -114,7 +114,7 @@ And so I'm wondering how this kind of plays into that as well, where it's like "
 
 **Justin Garrison:** So speaking about back in the day... Let's jump into our interview with Rich and all about how WebMD used to work.
 
-**Break**: \[00:16:09.15\]
+**Break**: \[16:09\]
 
 **Justin Garrison:** Alright, thank you so much Rich Burroughs for being on the show today. I am super-excited to talk about this. Rich, you've been around technology for a little while, and you've been doing a lot of stuff...
 
@@ -148,7 +148,7 @@ It's kind of funny, because back then being a sysadmin was like a dream job for 
 
 **Justin Garrison:** There was no firewall, no such thing. Like, Windows didn't -- Windows, whatever, like 98 or something like that... No firewalls until -- like XP Service Pack 2 had a firewall. It was just like "Yeah, you just open ports all the time."
 
-**Rich Burroughs:** \[00:23:51.01\] Yeah. So when I showed up, there was no sysadmin, and there hadn't been for a while, because my boss had fired the last sysadmin. When I say my boss, he was the owner of the company. Because the previous sysadmin apparently would do this thing where he would say that he had stayed up all night doing maintenance, but he was just playing Duke Nukem or something... They came in and he was like asleep at his desk, with like the game still up... So they fired him, and there was months where they didn't have anybody patching the servers, and stuff like that. And one day I'm talking to my boss, and he says "Oh yeah, I'm looking on our mail server and somebody's FTP-ing off the password file." And for those of you who know about password files in Unix, this is like the very early days, where the passwords weren't even hashed yet... So I mean, it was literally the plaintext passwords in the file. And this guy is downloading them all.
+**Rich Burroughs:** \[23:51\] Yeah. So when I showed up, there was no sysadmin, and there hadn't been for a while, because my boss had fired the last sysadmin. When I say my boss, he was the owner of the company. Because the previous sysadmin apparently would do this thing where he would say that he had stayed up all night doing maintenance, but he was just playing Duke Nukem or something... They came in and he was like asleep at his desk, with like the game still up... So they fired him, and there was months where they didn't have anybody patching the servers, and stuff like that. And one day I'm talking to my boss, and he says "Oh yeah, I'm looking on our mail server and somebody's FTP-ing off the password file." And for those of you who know about password files in Unix, this is like the very early days, where the passwords weren't even hashed yet... So I mean, it was literally the plaintext passwords in the file. And this guy is downloading them all.
 
 **Autumn Nash:** Oh, no...
 
@@ -172,7 +172,7 @@ It's kind of funny, because back then being a sysadmin was like a dream job for 
 
 **Rich Burroughs:** That was like about '98... So I learned my first big lesson in grown-up pants, big boy business stuff, which was "Get everything in writing."
 
-**Autumn Nash:** \[00:28:06.00\] Oh, no...
+**Autumn Nash:** \[28:06\] Oh, no...
 
 **Rich Burroughs:** So our boss had been telling us at the ISP for years, he'd been telling me -- because I was a really key employee there. I was like the sysadmin. And he'd been telling me for a long time that "Oh, someday I'm gonna sell the company. I'll make sure that you get something. You're gonna get enough money to buy a house, or something like that." And he sold the company and I got offered twice as many stock options in the new company as a new employee would have. So a new employee would have gotten 1,000 options, I was offered 2,000, with no vesting at all. The clock would start that day. And I was just like "You've got to be kidding me. I've been working at this place for three years, and done so much..." So I started looking for other opportunities, and I happened to meet one of the best recruiters that I've ever worked with in my career. She was a third party recruiter, and she was just fantastic. She was like "What do you want to do?" And that's not a conversation that recruiters have all the time, really. Like "What exactly are you interested in? What kind of companies do you want to work at?"
 
@@ -190,7 +190,7 @@ And she ended up giving me an in there at WebMD. And I was really excited to wor
 
 **Rich Burroughs:** Yeah... I mean, the thing that was brand new was the blockchain part... But yeah, so I go to WebMD... Like I said, it's this super-big company... I come in as like -- you know, even though I have a few years experience, I'm still sort of a junior-ish sysadmin, like maybe mid-level at best... And it was a Solaris shop. So that was brand new to me. So I had done all Linux stuff up until that point... And we did have some Linux servers, but it was mostly Solaris. And that's a whole different world, right? We would have these big sun boxes that had like 10 CPUs, and every CPU was like a whole shelf... You could pull them out, and hot-swap them, and... Yeah, I didn't touch any of that stuff; they wouldn't let me touch those big boxes.
 
-\[00:31:50.03\] But yeah, and when I started off there, I was doing a bunch of different things, sticking CDs in sun boxes and building them... I ended up building like a little kind of cluster of Linux boxes that we use for like load testing, that would just run the load testing apps... But then eventually, I got into doing deployments. They just had me do one or two on the physician site, which wasn't used as much... And then I ended up doing it on the webmd.com site. And that was kind of crazy, because that was such a high traffic site... Due to deployment, it was like a big deal. And when we would do a big release, we did them in the evenings, and like everybody would come in, and we'd all be sitting at our desks at 9pm, doing this big deployment.
+\[31:50\] But yeah, and when I started off there, I was doing a bunch of different things, sticking CDs in sun boxes and building them... I ended up building like a little kind of cluster of Linux boxes that we use for like load testing, that would just run the load testing apps... But then eventually, I got into doing deployments. They just had me do one or two on the physician site, which wasn't used as much... And then I ended up doing it on the webmd.com site. And that was kind of crazy, because that was such a high traffic site... Due to deployment, it was like a big deal. And when we would do a big release, we did them in the evenings, and like everybody would come in, and we'd all be sitting at our desks at 9pm, doing this big deployment.
 
 **Justin Garrison:** Right, because you had a maintenance window, right? Did you take down the site? You're like "Can we put up a splash page that points somewhere else?", or...
 
@@ -232,7 +232,7 @@ Yeah, it was a fun place to be at. There were a lot of really smart people there
 
 **Justin Garrison:** Git came out in 2005, GitHub was 2008. So I mean, were you using like CVS? What was that deployment script doing? Was it just like --
 
-**Rich Burroughs:** \[00:35:59.27\] CVS, yeah. So for those who aren't familiar with it, CVS was one of the early version control systems. There was a thing called RCS before that... And yeah, the big difference between CVS and Git is that when you make a branch in CVS, it literally makes a copy of all the files. So it's not like Git, where it just knows the differences between branches. If you have a really big repo, and you made a branch with CVS, it was like go to lunch, go take a two-hour lunch or something, because it's gotta copy all the files over.
+**Rich Burroughs:** \[35:59\] CVS, yeah. So for those who aren't familiar with it, CVS was one of the early version control systems. There was a thing called RCS before that... And yeah, the big difference between CVS and Git is that when you make a branch in CVS, it literally makes a copy of all the files. So it's not like Git, where it just knows the differences between branches. If you have a really big repo, and you made a branch with CVS, it was like go to lunch, go take a two-hour lunch or something, because it's gotta copy all the files over.
 
 **Autumn Nash:** The merge conflicts that must have happened...
 
@@ -270,7 +270,7 @@ And so it crapped out, and I had to go to tape, and restore everything from tape
 
 **Rich Burroughs:** And I was like "I just can't do this. I can't do this right now."
 
-**Justin Garrison:** \[00:40:02.07\] "Let me tell you about IIS, okay?"
+**Justin Garrison:** \[40:02\] "Let me tell you about IIS, okay?"
 
 **Rich Burroughs:** Yeah, let's talk tomorrow, or whatever. She went and stayed with her parents for the first time that night. She had never been like "I'm going to my parents", and she dumped me the next day.
 
@@ -310,7 +310,7 @@ And then the company was actually kind of on the frontend of the bubble bursting
 
 **Rich Burroughs:** Yeah. And then eventually, the WebMD CEO went away. This guy named Jeff Arnold. And he started a company after that, that was like -- I can't remember the name of it, but it was like you would get a soft drink at McDonald's or somewhere, and the top that went on the cup had like a disc in it, a little music disc that you could pull out and play...
 
-**Justin Garrison:** \[00:43:58.05\] What?! Like the lid had like one of those mini CDs in it?
+**Justin Garrison:** \[43:58\] What?! Like the lid had like one of those mini CDs in it?
 
 **Rich Burroughs:** Yup. So that was his big idea after WebMD.
 
@@ -382,7 +382,7 @@ And then the company was actually kind of on the frontend of the bubble bursting
 
 **Autumn Nash:** I feel like tech needs this website right now.
 
-**Rich Burroughs:** \[00:47:43.04\] I agree completely. It would have been very valuable in the last year or two. And people would do stuff like they would leak internal memos and emails about which companies were laying off people, and what terrible things they'd done... So yeah, things were already crazy back then. And one of my favorite companies in that period was this company called Kozmo. It was basically like DoorDash, or something, but they had actual employees. So it wasn't random people. Like, they had employees that they paid, who I'm assuming got benefits, and all of that, and they would deliver your lunch to your desk, or whatever. And so they were another company that went under because apparently that business model did not pan out.
+**Rich Burroughs:** \[47:43\] I agree completely. It would have been very valuable in the last year or two. And people would do stuff like they would leak internal memos and emails about which companies were laying off people, and what terrible things they'd done... So yeah, things were already crazy back then. And one of my favorite companies in that period was this company called Kozmo. It was basically like DoorDash, or something, but they had actual employees. So it wasn't random people. Like, they had employees that they paid, who I'm assuming got benefits, and all of that, and they would deliver your lunch to your desk, or whatever. And so they were another company that went under because apparently that business model did not pan out.
 
 **Justin Garrison:** What's something you learned from those days running that infrastructure, or trying to do things at that scale at the time, that you kind of keep with you today whenever you're kind of evaluating technology, or just running systems?
 
@@ -408,7 +408,7 @@ And then the company was actually kind of on the frontend of the bubble bursting
 
 **Justin Garrison:** And most of the time it was because it was an Active Directory DNS server that never worked for me... But even if it wasn't that -- if it was like a bind server or something, when that has maintenance, everything else breaks, and I need to have some reliable way of replicating what's in bind, and storing it locally, so I know what IP address I'm gonna hit. And that was like the longest time... And even today. I mean, we're kind of doing it today with Kubernetes. IP addresses for like the Kube API is like hard coded in there. Like, you don't want to rely on this discovery system. At some point, you just want the actual like \[unintelligible 00:51:34.17\] ARP table to say "Hey, who on the network has this MAC address? Let me go there", and that's what you do.
 
-**Rich Burroughs:** \[00:51:42.28\] Yeah, there's something else, too... We were talking earlier about the early days of Linux and stuff like that, and one of the things that's a pattern that's repeated itself a lot in the industry - or in technology in general - is that things start off open... So the early versions of Unix had basically no security at all; you could just do all kinds of crazy stuff. And like I said, even with those early versions of Linux, there was no shadow passwords, or anything like that... And so I think that things tend to start out open, and then as a response to the stuff that the hackers do, they get locked down more and more.
+**Rich Burroughs:** \[51:42\] Yeah, there's something else, too... We were talking earlier about the early days of Linux and stuff like that, and one of the things that's a pattern that's repeated itself a lot in the industry - or in technology in general - is that things start off open... So the early versions of Unix had basically no security at all; you could just do all kinds of crazy stuff. And like I said, even with those early versions of Linux, there was no shadow passwords, or anything like that... And so I think that things tend to start out open, and then as a response to the stuff that the hackers do, they get locked down more and more.
 
 **Justin Garrison:** Well, it's hard. That security side is very difficult, and it adds more barriers... Because managing password files that worked with the shadow file and weren't hashed was a lot easier as a sysadmin. Because like \[unintelligible 00:52:30.05\] and there you go, your password's changed. That was the process.
 
@@ -454,7 +454,7 @@ And then the company was actually kind of on the frontend of the bubble bursting
 
 **Justin Garrison:** Yeah, I mean, I would have done things that would have been considered hacking at the time because I just learned about it. The hard part for me in the late '90s early 2000s was like just finding the information. Information was so scarce. Things were open, but you had no idea how it worked, or what you were doing. When I popped up someone's \[unintelligible 00:55:51.27\] and I'm like "What does this mean? What am I looking at here?" That's their files. Like, how did this work? And understanding how, and how you get to that point, and that thing actually exists... And now all the docs are open, and all of these things know how this stuff -- and the information side of it is really, really free, but you have to go really deep to find the underlying thing that you still get around.
 
-**Autumn Nash:** \[00:56:13.20\] Yeah. Now there's so many more automated protections, and best practices...
+**Autumn Nash:** \[56:13\] Yeah. Now there's so many more automated protections, and best practices...
 
 **Justin Garrison:** There's a lot of better defaults, for sure.
 
@@ -468,7 +468,7 @@ And then the company was actually kind of on the frontend of the bubble bursting
 
 And so we were in the middle of that period, and they were also laying off people from our team in Atlanta. And so at one point this new VP comes in above us, and he realizes that basically all of the people who run the production website are about to get laid off at once. \[laughs\] And so at that point, they actually tried to hire us back. So they were like "Hey, we'll let you stay, and you can keep the retention bonus." And I think pretty much all of us were like "Nope, that's okay..." Because things were so -- I mean, back then I just felt bulletproof. I felt like I could find another job in like 10 minutes, you know? And so I took some time off after that. I took a couple months off, and just chilled... And then by the time I started looking for work, it had completely changed. And at that point, the only people that were hiring here in town were the people like Xerox, and they needed you to have a bunch of experience with these enterprise Unix tools that I hadn't worked with before, a lot of IBM stuff, and... Yeah, it was really rough. And at that point I ended up being unemployed for 10 months, and I was at the point where I wasn't going to make rent in a few weeks. And so I ended up taking a job that was like a 40% pay cut, and it was much worse responsibilities compared to the kind of stuff that I'd been doing. And it was rough, but I did what I had to. I sucked it up and I worked there for a while, and then I finally ended up getting another job that kind of put me back more like where I was.
 
-\[00:59:43.02\] One of my friends from WebMD actually went to another company and ended up getting me hired there. But I mean, I think that the biggest lesson that I've had from all of that is that I know things are scary right now for a lot of people, but the stuff really does go in cycles. Do what you need to take care of yourself now. Make the best decisions that you can, and try to keep the faith that things are gonna get better, right?
+\[59:43\] One of my friends from WebMD actually went to another company and ended up getting me hired there. But I mean, I think that the biggest lesson that I've had from all of that is that I know things are scary right now for a lot of people, but the stuff really does go in cycles. Do what you need to take care of yourself now. Make the best decisions that you can, and try to keep the faith that things are gonna get better, right?
 
 **Autumn Nash:** Do you think this is just part of tech, where we'll just continue to go through these cycles? Is this just part of like the territory, I guess?
 
