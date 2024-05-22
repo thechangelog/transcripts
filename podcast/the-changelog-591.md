@@ -160,7 +160,7 @@ So I think what we're building has legs, and I hope it can be a platform that ha
 
 And I think that's the difference between GitHub Sponsors and Polar, where GitHub Sponsors is great because it offers donations and sponsorship, which is the most accessible and the broadest applicable type for all developers on GitHub... But I think it would be challenging for them to like really go deep on products, and SaaS, and these commercialization tools without spreading themselves too thin, or potentially even upsetting their customer base as well. That's why Polar is a great add-on for those who choose, and they can cherry-pick amongst the tools that we offer as well.
 
-**Break**: \[00:25:07.19\]
+**Break**: \[25:07\]
 
 **Jerod Santo:** So I love the tagline - Adam started with it - "From first donation to IPO." Is that real? I love the way it sounds, and so grandiose and awesome... But do you expect to ever take somebody from first donation to IPO? Because those are radically different things.
 
@@ -358,7 +358,7 @@ There's a lot of players out there that are pitching great ideas, but probably g
 
 And then there was slides about all of the things that we talked about, like these different monetization tactics that we would offer eventually, and... But we launched and we just started out with issue funding. And so we've been just iterating one funding tool, and now soon one monetization tool at a time, to just continuously learn from users and continuously adapt, to hopefully solve it for as many people as possible.
 
-**Break**: \[00:58:24.26\]
+**Break**: \[58:24\]
 
 **Jerod Santo:** So the Polar platform itself is open source, it looks like Apache 2.0 license, building on top of the GitHub platform, which itself is not open source. And Polar backed by Mitchell Hashimoto, whose company was open source, in a sense \[unintelligible 01:00:44.06\] but recently re licensed to business source, or functional source. I can't remember which one they used. Curious your thoughts on Polar itself being open source. Are you afraid of somebody coming in and just copy-pasting Polar, and renaming it, and competing with you? What are your thoughts around that?
 
