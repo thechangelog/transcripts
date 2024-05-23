@@ -98,7 +98,7 @@ So the first jam, I landed a third place, with a game called Disco Warrior. When
 
 **Brian Breiholz:** ...like 70% through the thing. Everything was looking pretty good. I was thinking "Okay, you could actually keep on working on top of that." But it just degenerated completely over the last two days. Lack of sleep, lack of time, so you just end up hacking stuff in the worst way possible... So I didn't open that project again.
 
-**Break**: \[00:11:32.05\]
+**Break**: \[11:32\]
 
 **Nick Nisi:** You mentioned a couple times that you're working on a game engine, and I'm curious about - like, when it comes to these... I assume that you're using your game engine in this, but is that something that you come pre-prepared with? Do others come with their own game engines, or their shared -- or how does that work?
 
@@ -180,7 +180,7 @@ Originally, those were supposed to be different scenes, handled by our scene man
 
 **Brian Breiholz:** No, they were -- with Cooper & Onita I ended up finishing at 8pm here, because that was the time that I discussed with my girlfriend that I have to stop then... Because on the first jam, they do end at like 8 or 9 AM here. So it means "Okay, if you want to get all of the time in, then you're going not going to sleep on the last night", right? So on the first one -- that's not the worst part. I was so focused on animations and having a cool character controller that there wasn't any type of gameplay, score system, or checking is a level complete, or anything. All of that happened in the last two hours, where my brain was already completely fried. So I ended up hacking a - you get some type of score, I think, for hitting enemies, or for killing enemies while you have health points as well. But when they go to zero, you don't even die; the original score just gets reset. But there was no time for something else. All sorts of bugs. The enemies, once they die, whenever they respond, there was a bug where they continually end up being stuck in the ground, more and more. If you play for like five minutes, all of the characters are going to be under the ground, so you have to reload the page. Yeah, so the Vite template definitely wasn't the worst part.
 
-**Break**: \[00:34:31.14\]
+**Break**: \[34:31\]
 
 **Jerod Santo:** You mentioned your girlfriend, and timing problems... I mean, this is an 11-day jam... You certainly have to have people in your life who are cool with it. I mean, I'm thinking -- I would love to do one of these, I just couldn't do 11 days. My whole life would fall apart. People might literally die. I don't know, Nick. You probably are in a similar boat, right? You'd lose your job, Nick. Probably.
 
@@ -254,7 +254,7 @@ Yeah, so that's my dream game. Aside from that, I'm really hoping that web games
 
 **Jerod Santo:** Very cool. Well, reactjam.com. If you don't want to participate as a game dev, you can still just follow along and play the games as they come out, like I do. It's lots of fun. There's a handful of -- I mean, probably a dozen or so people submit games, and I would say out of those 12, 9 of them are playable. And of the 9, 5 of them are actually pretty fun. So it's a good time. Check it out. Brian, what's the best way folks can connect with you, especially if they're waiting around for you to release that open source game engine for them to check out? What's the best way to stay in touch with you?
 
-**Brian Breiholz:** Probably on Twitter, \[00:48:02.23\] Other than that, I'm very active in the Web Game Dev Discord. I think the website is just webgamedev.com, or .org. You can probably find me in there. Yeah, those are the places.
+**Brian Breiholz:** Probably on Twitter, \[48:02\] Other than that, I'm very active in the Web Game Dev Discord. I think the website is just webgamedev.com, or .org. You can probably find me in there. Yeah, those are the places.
 
 **Jerod Santo:** Very cool. Well, you have all the links to all the things in your show notes, especially this webgamedev.com. It looks like a great resource for all kinds of links to other places to get started. And including that Discord. So we'll definitely link up that one, as well as all the other stuff, so you can just click through and find your way.
 
