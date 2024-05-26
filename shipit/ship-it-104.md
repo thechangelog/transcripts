@@ -46,7 +46,7 @@ And it was really interesting, and it talks about how women are only able to rea
 
 **Justin Garrison:** I've always had a very strong stance on my work/life balance. And even when I worked at Amazon, I --
 
-**Autumn Nash:** \[00:06:10.25\] You were one of the first guys though that I've ever met... I remember one of our first video calls, and you were like "I have to work remotely, because I pick up my kids", and most guys will not say that. When you say that in a workplace, you make it easier for people like me, because then it's not like looked down upon.
+**Autumn Nash:** \[06:10\] You were one of the first guys though that I've ever met... I remember one of our first video calls, and you were like "I have to work remotely, because I pick up my kids", and most guys will not say that. When you say that in a workplace, you make it easier for people like me, because then it's not like looked down upon.
 
 I think the way that a lot of the workforce is going, the more people that accept being treated a certain way makes it harder for women, because we don't have that option to just be like "My wife's gonna go pick up the kids." So that is a big deal, when people like you say that. I have people I work with, and when they say those things, it makes it so much easier for me to stick around, you know?
 
@@ -74,7 +74,7 @@ I think the way that a lot of the workforce is going, the more people that accep
 
 **Autumn Nash:** So it's wild where all this will shake up. I felt like we were getting closer to closing that gap, and does this mean that we're now gonna get farther away? It's wild.
 
-**Justin Garrison:** \[00:09:59.17\] Yeah. But I think a lot of that, like the 50/50-ness of it also comes down to just like -- for me at least it was redefining what I wanted to do, what I thought was successful. And the more I thought about "Hey, I would rather be happy than rich" is like a huge mind shift for me. As a dude, that has all the benefits in the world, and a little bit of social pressure of like "Hey, you've gotta be successful." Actually, I don't think my definition matches yours. And that's okay.
+**Justin Garrison:** \[09:59\] Yeah. But I think a lot of that, like the 50/50-ness of it also comes down to just like -- for me at least it was redefining what I wanted to do, what I thought was successful. And the more I thought about "Hey, I would rather be happy than rich" is like a huge mind shift for me. As a dude, that has all the benefits in the world, and a little bit of social pressure of like "Hey, you've gotta be successful." Actually, I don't think my definition matches yours. And that's okay.
 
 **Autumn Nash:** And it sucks, because that's a privilege, to be able to pay your bills still, and to be able to do that.
 
@@ -118,7 +118,7 @@ I saw that actually on a PowerPoint at a tech conference, and somebody goes "Let
 
 **Justin Garrison:** And that's one of those things, that there's trade-offs with this remote culture, and remote -- everyone works, anywhere around the world; it's great for flexibility and it allows you to do that stuff, but you have to be cognizant of "Oh, this isn't your lunch." Like "Hey, look, we're gonna have a happy hour after work today", and it's just like "Oh, it's 9 AM for me. I'm not gonna show up with a --"
 
-**Autumn Nash:** \[00:14:18.28\] We always did coffee and code, and some people would have happy hour, and some people would have coffees, and it was really fun.
+**Autumn Nash:** \[14:18\] We always did coffee and code, and some people would have happy hour, and some people would have coffees, and it was really fun.
 
 **Justin Garrison:** Yeah. So those are just things to consider... And it's interesting --
 
@@ -164,7 +164,7 @@ So sysctl-explorer was just a very practical thing that I've found, that I was l
 
 **Justin Garrison:** Alright, so let's jump into our interview with Andrew, and talk all about Postgres.
 
-**Break**: \[00:18:11.19\]
+**Break**: \[18:11\]
 
 **Justin Garrison:** Alright, thank you so much, Andrew Atkinson, for coming on the show today. Andrew, let's talk about some databases and Ruby. What do you say?
 
@@ -224,7 +224,7 @@ I do like the --
 
 **Justin Garrison:** This is a big concern in open source anything right now... Not to derail the conversation, but I think that's an interesting point... Absolutely everything you said is something I would have been saying about a lot of things three, four, five years ago. And now the industry has changed in various ways that community-backed open sources is a little harder to find... And maybe it's a foundation that has to run these things, or be in charge of them, but... That's a really interesting perspective, of just like "Hey, with a lot of contributors, and a lot of innovation, and people dedicated to this thing, it can become a standard" like Redis kind of did. The Redis API is the standard that we can reimplement in many other ways. But the project itself, what it has become, is like "Well, am I allowed to use that thing anymore?" There's a lot of other legal questions around this stuff.
 
-**Andrew Atkinson:** \[00:24:07.02\] For sure, yeah. And I've heard people use the term "rug pull", kind of the license change... And for anyone that's interested about this with Postgres, I personally haven't gone into a lot of deep thinking about it, but there are people to have been writing about "Will Postgres ever pull a rug pull?" sort of thing.
+**Andrew Atkinson:** \[24:07\] For sure, yeah. And I've heard people use the term "rug pull", kind of the license change... And for anyone that's interested about this with Postgres, I personally haven't gone into a lot of deep thinking about it, but there are people to have been writing about "Will Postgres ever pull a rug pull?" sort of thing.
 
 And I guess a couple more things that come to mind along those lines to me is another big reason to choose Postgres is its extensibility. And if you look into the ecosystem, a lot of folks don't know even that there is an extensions mechanism, and that there's a lot of commercial companies that are building commercial extensions and hosting platforms with Postgres as its core. And I think that also kind of -- like, I guess to maybe contradict a bit of "There isn't a single company", I guess... Well, maybe it doesn't contradict. There's dozens of companies that are building on Postgres, and I don't know if I know how that's going to shake out, but to me it sort of broadens the user base and the financial backing and the financial interests, and that sort of thing.
 
@@ -244,7 +244,7 @@ So yeah, I know we're kind of like at the industry level maybe here. I could als
 
 **Autumn Nash:** Let's do why, and maybe why not. Oh, there's another lady named Henrietta that I've met. She came to MySQL talk, and she invited me to Postgres Chicago, but I couldn't go, because it's between Scale and possibly Grace Hopper... But I think it's cool that there's a lot of push to get women into the Postgres community, which I think is -- it just seems very welcoming to me. I think that's really rad. And she gave me some tickets that we got to donate to Milspouse Coders, so I definitely appreciate the Postgres community, and how they're really trying to get more people into the community, and give people options. I thought that was really cool. They gave us tickets to give away, so I thought that was really nice of her. She was really cool.
 
-**Andrew Atkinson:** \[00:28:21.04\] Yeah, Henrietta is someone who I call a friend now. We've been able to meet a couple of times, and...
+**Andrew Atkinson:** \[28:21\] Yeah, Henrietta is someone who I call a friend now. We've been able to meet a couple of times, and...
 
 **Autumn Nash:** She's amazing. She's very knowledgeable, and she's super-kind.
 
@@ -266,7 +266,7 @@ So yeah, I mean, for anyone listening to this that's curious, if you are a littl
 
 **Andrew Atkinson:** Nice. That's really good to hear.
 
-**Justin Garrison:** \[00:31:58.01\] So a lot of this is why Postgres has been around a while, why the community is growing and is great, and why we want to use it... Why would someone not want to use Postgres? That's the other end of it. Because that's where I usually kind of pull out the "Oh, no, I've seen the bad things", or having a little more exposure into other databases... I mean \[unintelligible 00:32:15.05\] is kind of a straightforward maybe comparison... But even something else that's like a no SQL database - why would someone not choose Postgres?
+**Justin Garrison:** \[31:58\] So a lot of this is why Postgres has been around a while, why the community is growing and is great, and why we want to use it... Why would someone not want to use Postgres? That's the other end of it. Because that's where I usually kind of pull out the "Oh, no, I've seen the bad things", or having a little more exposure into other databases... I mean \[unintelligible 00:32:15.05\] is kind of a straightforward maybe comparison... But even something else that's like a no SQL database - why would someone not choose Postgres?
 
 **Andrew Atkinson:** I've got a couple of ideas to answer this question, but I'll just also say it's not really where I'm spending a lot of my energy on. I'm more working on Postgres specifically, so I tend to have a very echo chamber/social media situation, and people I talk with about that... But at a past company I was at, for example, they were looking into using Pinecone as a place to store vector embeddings information, and we were trying to add AI features to the application... And there's a lot of energy in the industry now around different vector storage options. So maybe someone might want to say "Well, maybe we want a dedicated vector storage database for its performance benefits, its index types", that sort of thing. With that being said, again, the extensibility of Postgres - Pgvector has become very popular as a Postgres extension to store vector embeddings, and there's a lot of folks writing about why you might want to stick with Postgres... You know, if you're using it for like your application database, or maybe you're running a second instance that's more focused on your AI use cases, your vector storage...
 
@@ -278,7 +278,7 @@ So yeah, I mean, for anyone listening to this that's curious, if you are a littl
 
 But you can also do things like - there's an open source tool called JSON Schema Validation, or something... Now I'm kind of forgetting the name. But what you can do is, you can kind of do no schema, or NoSQL at the outset. You can just slam a blob of - as long as it's JSON-compatible text, into a column. And then you can actually come back later and add type information and even check it automatically with a constraint. So you can say "Well, we actually have these few keys within here. They should have these data types. For any new inserts or updates or deletes, we'll check them against this schema." It's sort of like a ninja move maybe, but it's like "Oh, you want no schema? We can do that. And then we can add a schema later."
 
-**Autumn Nash:** \[00:36:15.18\] Well, which is interesting, because you do -- I think that when we say that, it's like, you have to know your access patterns for NoSQL. If you want it to be efficient, you'd need to be able to plan out your access patterns, and I think people hear like "unstructured data", and they think you can just put whatever you want in there, in any pattern. And that's not true, if you want to be able to pull it out in like a proper way.
+**Autumn Nash:** \[36:15\] Well, which is interesting, because you do -- I think that when we say that, it's like, you have to know your access patterns for NoSQL. If you want it to be efficient, you'd need to be able to plan out your access patterns, and I think people hear like "unstructured data", and they think you can just put whatever you want in there, in any pattern. And that's not true, if you want to be able to pull it out in like a proper way.
 
 So I do think that Postgres is probably the most flexible version -- well, maybe the most flexible version of relational database that is kind of comparable to like a MongoDB, or a DocumentDB, but still, I guess, relational... So I do think that that's what makes it a really interesting SQL database.
 
@@ -290,7 +290,7 @@ If you dig in a bit to Postgres, there's a lot of different features that you ca
 
 **Andrew Atkinson:** Yeah, I mean, more or less. I mean, Postgres architecturally is still a single instance database. So there's not a concept of nodes, or different instances in the core community Postgres distribution. But like Autumn was saying, there's lots of companies building on Postgres. So for example, Microsoft supports Citus, which is a multi-node Postgres distribution, so you can add more nodes if you want, and you can distribute your writes and your reads to different nodes... So that is one way to scale up. That would be an alternative to just vertically scaling up a single instance. You would scale out more by adding more nodes.
 
-\[00:40:06.05\] Typically though, the web applications I work on -- and with modern cloud providers you can get so much hardware, so many resources on a single instance, that I actually tend to encourage people... Like, it's fine; single-instance scalability is fine. I mean, unless you're Google, maybe... But you can get servers with -- I saw at one point Amazon was gonna launch... And I'm sure Google Cloud Platform, Microsoft, these other big cloud providers have similar things... Servers with 24 terabytes of RAM. So if you can get more RAM than the size of your database, all of your queries are going to fit into the memory of your instance, and you're going to have super-high performance queries, even with relatively minimal effort on indexing, and things like that.
+\[40:06\] Typically though, the web applications I work on -- and with modern cloud providers you can get so much hardware, so many resources on a single instance, that I actually tend to encourage people... Like, it's fine; single-instance scalability is fine. I mean, unless you're Google, maybe... But you can get servers with -- I saw at one point Amazon was gonna launch... And I'm sure Google Cloud Platform, Microsoft, these other big cloud providers have similar things... Servers with 24 terabytes of RAM. So if you can get more RAM than the size of your database, all of your queries are going to fit into the memory of your instance, and you're going to have super-high performance queries, even with relatively minimal effort on indexing, and things like that.
 
 **Autumn Nash:** So if it's staying in one instance, how do you kind of make sure you're getting it highly available everywhere? Because it's only on one instance.
 
@@ -324,7 +324,7 @@ If you dig in a bit to Postgres, there's a lot of different features that you ca
 
 **Andrew Atkinson:** It is, yeah.
 
-**Justin Garrison:** \[00:43:53.15\] Because the lower in the stack you get, or the closer you get to the bits that you store, the more paranoid you have to get with how it's used, and where it's available, and how it's accessed. All this stuff becomes more critical. If you have physical hard drives in a data center, you have to back them up. That is on me to do it. If I'm throwing something on S3, I don't care. The 18 nines that Amazon gives me for that data - I'm fine with that, as long as my access patterns match. But the closer you get to that data that you're responsible for, the more important it is to have someone that knows what they're doing.
+**Justin Garrison:** \[43:53\] Because the lower in the stack you get, or the closer you get to the bits that you store, the more paranoid you have to get with how it's used, and where it's available, and how it's accessed. All this stuff becomes more critical. If you have physical hard drives in a data center, you have to back them up. That is on me to do it. If I'm throwing something on S3, I don't care. The 18 nines that Amazon gives me for that data - I'm fine with that, as long as my access patterns match. But the closer you get to that data that you're responsible for, the more important it is to have someone that knows what they're doing.
 
 **Autumn Nash:** It's so interesting... I think that's what the thing is -- cloud was so famous, and now we're going back to on-prem. All these NoSQL databases were so famous, and now people are migrating from NoSQL back to like Postgres. It really shows you - people went for what was really popular, and now we're going back to almost the basics; maybe not the basics...
 
@@ -362,7 +362,7 @@ If you dig in a bit to Postgres, there's a lot of different features that you ca
 
 **Autumn Nash:** Learning how to put in -- yes, like your data modeling, and how you're putting in the data and out... Because that will save you so much money.
 
-**Andrew Atkinson:** \[00:47:56.05\] Yeah.
+**Andrew Atkinson:** \[47:56\] Yeah.
 
 **Justin Garrison:** That's a big point when I was asking about scalability... Because I'm talking about like the systems. How do we scale these out? How do we scale them up? And actually, you could just structure your data better, and optimize your queries.
 
@@ -390,7 +390,7 @@ And by the way, actually, I'll answer your original question one more time - the
 
 So having the knowledge out there to be able to give developers that information to make good decisions is so underrated, which makes Postgres so underrated, because I feel like, for one, it's a ton of examples out there, a ton more knowledge in books, and the fact that you have these tools, and that you can do a little bit of what non-relational databases give you - well, it's still relational, but that NoSQL gives you - but also have all that knowledge and information out there is really important.
 
-**Andrew Atkinson:** \[00:52:25.03\] Yeah. And you can run Postgres locally, you can run it in a VM or a container... So it's easy to just play around with on your local laptop. You can load in millions of records, and you can play around and get a sense for your production-like environment, and really build the skills hands-on yourself, which is a big part of what I like, and isn't always the case for some offerings. It's hard to like -- can you really get a copy of this particular database engine locally, and "Can I really easily set up a lab (so to speak) to test it out?" And you can do that with Postgres, which is fun. So it's a great way to really build -- and as a developer myself, I've always learned the most by hands-on work, and building little things.
+**Andrew Atkinson:** \[52:25\] Yeah. And you can run Postgres locally, you can run it in a VM or a container... So it's easy to just play around with on your local laptop. You can load in millions of records, and you can play around and get a sense for your production-like environment, and really build the skills hands-on yourself, which is a big part of what I like, and isn't always the case for some offerings. It's hard to like -- can you really get a copy of this particular database engine locally, and "Can I really easily set up a lab (so to speak) to test it out?" And you can do that with Postgres, which is fun. So it's a great way to really build -- and as a developer myself, I've always learned the most by hands-on work, and building little things.
 
 **Autumn Nash:** It's so important. And also, when you're stuck and something breaks, there's so much information out there to be like "Hey, I had this problem. Did you have this problem?" Like, who wants to get stuck somewhere and you can't fix it? That's part of our jobs.
 
@@ -438,7 +438,7 @@ So having the knowledge out there to be able to give developers that information
 
 **Justin Garrison:** Thanks so much for coming.
 
-**Break**: \[00:56:08.12\]
+**Break**: \[56:08\]
 
 **Justin Garrison:** Thanks again, Andrew, for coming on the show and talking to us all about Postgres, and a little bit of Ruby, and how it works, how it runs, and how to upgrade all this stuff. It's great as me from -- I've always been avoiding databases pretty much my entire career...
 
@@ -468,7 +468,7 @@ And the last one I wanted to share is called Poetry Camera. And this is a projec
 
 **Autumn Nash:** Poetry Camera.
 
-**Justin Garrison:** \[00:59:17.01\] Poetry Camera. So I've found it on TikTok, I believe... The lady that's building it - you can take a Raspberry Pi Zero... This is for you, Autumn. This is for your kids. It's built on a Raspberry Pi Zero. And it runs a Python script with a local large-ish language model, and it has an actual camera attached to it. So you take a picture, and it spits out -- it actually prints out text of a poem about what it sees. You don't get a printout of the picture, you get a poem representing what the camera saw.
+**Justin Garrison:** \[59:17\] Poetry Camera. So I've found it on TikTok, I believe... The lady that's building it - you can take a Raspberry Pi Zero... This is for you, Autumn. This is for your kids. It's built on a Raspberry Pi Zero. And it runs a Python script with a local large-ish language model, and it has an actual camera attached to it. So you take a picture, and it spits out -- it actually prints out text of a poem about what it sees. You don't get a printout of the picture, you get a poem representing what the camera saw.
 
 **Autumn Nash:** My kids would make so many ridiculous poems about just ridiculous -- like Cheetos, or something.
 
