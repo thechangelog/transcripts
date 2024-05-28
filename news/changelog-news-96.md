@@ -2,7 +2,7 @@
 
 What up, nerds? I'm Jerod and this is Changelog News for the week of Monday, May 28th 2024. But delivered to you on Tuesday, the 29th because Memorial Day here in the States.
 
-Hello to all our new listeners who learned about this program [on the freeCodeCamp podcast](https://www.freecodecamp.org/news/open-source-is-changing-the-changelog-host-jerod-santo-on-how-to-keep-up-podcast-125/)! Sit back, relax & enjoy the Changelog-y goodness.
+Hello to all our new listeners who learned about this program [on the freeCodeCamp podcast](https://www.freecodecamp.org/news/open source-is-changing-the-changelog-host-jerod-santo-on-how-to-keep-up-podcast-125/)! Sit back, relax & enjoy the Changelog-y goodness.
 
 For those who missed it, I spent almost 2 hours chatting with my old friend Quincy Larson about too many topics to list here. But I will play you a sound bite of one of my favorite moments that begins with Quincy saying they don't do clips of their podcast and ends with me telling him he should make a clip...
 
