@@ -40,7 +40,7 @@
 
 **Adam Stacoviak:** Okay.
 
-**Bryan Cantrill:** \[00:07:45.27\] And oh, for sure, I recall everything about that. That is very present in my memory.
+**Bryan Cantrill:** \[07:45\] And oh, for sure, I recall everything about that. That is very present in my memory.
 
 **Adam Stacoviak:** When was that?
 
@@ -70,7 +70,7 @@ So by this point, like I said, it was between Christmas and New Years', and he a
 
 **Bryan Cantrill:** And I'm like, "Let's upload it to YouTube." So we upload this video to YouTube, and thinking like "This will get like 1,000 views. It'll be kind of fun. We'll kind of show some of the things we've done in terms of the storage appliance." I mean, I believe that thing has got like 4 million views at this point. The views are kind of crazy... And every so often it gets another like huge wave of views as it starts -- the YouTube recommendation algorithm recommends it to people.
 
-\[00:12:19.20\] So it's a video that's endured, and it was seen -- so this is when we were at Sun Microsystems together... That video has been watched more than any other marketing material that Sun put together, that Sun developed. If you take the next, I believe, 10 put together, that video has been viewed more than they have been. It's only Sun's Super Bowl ads -- Sun had some very ill-advised Super Bowl ads. The Sun Super Bowl ads - two Super Bowl ads - were viewed obviously by more people, but... And you know, Sun was the kind of company where it didn't even occur to me to like ask permission before we did that... And fortunately, the marketing folks were pretty forgiving. They were like "One thing we do wish though is like -- you didn't actually mention the name Sun Microsystems at all." I'm like "Oh, did we forget --" Like, no company name, no logo... It's like "Oh, sorry about that. We've just mentioned Fishworks."
+\[12:19\] So it's a video that's endured, and it was seen -- so this is when we were at Sun Microsystems together... That video has been watched more than any other marketing material that Sun put together, that Sun developed. If you take the next, I believe, 10 put together, that video has been viewed more than they have been. It's only Sun's Super Bowl ads -- Sun had some very ill-advised Super Bowl ads. The Sun Super Bowl ads - two Super Bowl ads - were viewed obviously by more people, but... And you know, Sun was the kind of company where it didn't even occur to me to like ask permission before we did that... And fortunately, the marketing folks were pretty forgiving. They were like "One thing we do wish though is like -- you didn't actually mention the name Sun Microsystems at all." I'm like "Oh, did we forget --" Like, no company name, no logo... It's like "Oh, sorry about that. We've just mentioned Fishworks."
 
 **Adam Stacoviak:** Right...
 
@@ -110,7 +110,7 @@ So by this point, like I said, it was between Christmas and New Years', and he a
 
 It's -- I mean, maybe "a tragedy" is a bit too strong, but we don't really... You know, hard drives are fading pretty quickly, they're being replaced by flash, because they are so mechanically finnicky. There are a lot of problems with a hard drive. We experimented for many years with making that rotational velocity faster, but that has gotten really diminishing returns. So we had like 15k RPM drives, and they may even made 20k RPM drives... But relative to the access of flash -- like, there's no comparison. Flash is much, much, much better.
 
-**Adam Stacoviak:** \[00:16:16.24\] Yeah. Skip the spinning, just move to something different, that actually has better technology... Because at some point you've got thermodynamics that are going to push back, and physics to push back on... Like, you mentioned helium... I'm imagining that the reason for helium -- and I don't know all the science behind hard drives, but I know that the fly height of the head that reads the data off the disk is minimal. There's micrometers -- I don't even know what the term would be. Like nanometers...?
+**Adam Stacoviak:** \[16:16\] Yeah. Skip the spinning, just move to something different, that actually has better technology... Because at some point you've got thermodynamics that are going to push back, and physics to push back on... Like, you mentioned helium... I'm imagining that the reason for helium -- and I don't know all the science behind hard drives, but I know that the fly height of the head that reads the data off the disk is minimal. There's micrometers -- I don't even know what the term would be. Like nanometers...?
 
 **Bryan Cantrill:** So the fly height... And I learned this - we deployed a lot of \[unintelligible 00:16:44.28\] Because talking about the importance of thermals in the data center for hard drives... And the fly height of an \[unintelligible 00:16:54.19\] drive during a write... And I'm like, I would have guessed -- I don't know what I would have guessed. I actually don't know. Hundreds of nanometers? I don't know. It was 0.8 nanometers. And I'm like -- I literally fell out of my chair. I'm like, do you mean 800 picometers? And he's like "Yeah, it actually is 800. You know, I hadn't thought about it that way, but it is 800 picometers." I'm like, "What do you mean you had thought about it that way?" 800 picometers... I mean, that is so unbelievably --
 
@@ -142,7 +142,7 @@ It's -- I mean, maybe "a tragedy" is a bit too strong, but we don't really... Yo
 
 **Bryan Cantrill:** Yeah, sorry... So QLC is a cheaper, denser, but less reliable flash. And FTL's a flash translation layer, and we would presume we would do our own software on top of QLC... But in part because the real challenge is that they have done an amazing job of improving the density of rotating media, but you can't do anything about the access time, or you can do very little about the access time. You can kind of like add a second head, and do some other tricks. And so you end up with this -- I mean, it ends up being a tape drive. It ends up looking largely like a tape drive, where you just -- you literally cannot... It takes so long to actually extract all the information out of it that if you actually blow a drive, resilvering takes a prohibitively long period of time.
 
-\[00:19:58.18\] So I think it is -- unfortunately, even though it holds a special place in my heart... And I guess I don't miss it, at some level, but I think it is probably on the way out... Although I've been predicting the demise of the drive also for 15 years, so... It'll probably still be with us.
+\[19:58\] So I think it is -- unfortunately, even though it holds a special place in my heart... And I guess I don't miss it, at some level, but I think it is probably on the way out... Although I've been predicting the demise of the drive also for 15 years, so... It'll probably still be with us.
 
 **Adam Stacoviak:** Yeah, I'm with you on that. Hindsight a bit is 20/20 in that case, but you've been in the game long enough to predict that future... And let's go back to that. I wanted to obviously touch the fact that you're at Oxide, you've founded Oxide, you are "creating servers as they should be..." But you began -- probably further back than Sun, but I began there, with Fishworks and this sort of common ground, to some degree... ZFS was born instead of Sun. You worked and co-founded fish worked, which was a group that really created a plan I think based on ZFS... And obviously, this is your life, so you can tell the story better than me bumbling and mumbling through it... But I didn't know that you worked at Sun. I had always just thought Joyent.
 
@@ -166,7 +166,7 @@ It's -- I mean, maybe "a tragedy" is a bit too strong, but we don't really... Yo
 
 And I had used Solaris a lot as an undergrad, and -- you know, I actually had kind of, I would say, a complicated relationship with it, because we'd used Solaris from the early days of Solaris, when there were some real problems with it... But it was a real -- so when I came out to interview at Sun, I didn't really know what I was going to find... And I interviewed with Jeff Bonwick, and it was just an absolute bolt of energy to talk to Bonwick. Jeff had had a post to comp.unix.solaris, describing what was new in Solaris 2.5, and I had reached out to him after seeing that... And meeting Jeff in person was a transformational moment in my life, because I met someone who was older than I was, 10 years older roughly, but had a real energy and zeal for system software development. And I realized that I was going to come join him and come work at Sun.
 
-\[00:23:59.26\] So he and I along with Kevin Clark were in the Solaris performance group. And Jeff really had -- I mean, Jeff had a couple of chips on his shoulder... I would say that he and I respectively each had a big chip on our shoulder in circa 1996. I had a chip on my shoulder around the way the system was understood. I felt that the debugging infrastructure in the system was really inadequate, and I didn't understand why we had this entirely synthetic system that we had created... And yet we couldn't ask ourselves what the software was doing. It was really frustrating to me. There was a real lack of observability in the system, and I had some ideas as an undergrad about how I wanted to go instrument the system dynamically, and the idea for what would become DTrace. And when I was actually interviewing with Jeff - this is one of these moments where I remember exactly where I was... We were kind of coming back from lunch, over the 101 from Palo Alto, and I was walking Jeff through my ideas for what would become DTrace, and trying to understand why was dynamic text modification not being used for instrumentation of the system. I just didn't understand that. And Jeff was like "Yeah, it sounds like you should do that. In fact, you should come here and you should do that." And that was a really exhilarating feeling, to feel like kind of the future was open to someone who was so young.
+\[23:59\] So he and I along with Kevin Clark were in the Solaris performance group. And Jeff really had -- I mean, Jeff had a couple of chips on his shoulder... I would say that he and I respectively each had a big chip on our shoulder in circa 1996. I had a chip on my shoulder around the way the system was understood. I felt that the debugging infrastructure in the system was really inadequate, and I didn't understand why we had this entirely synthetic system that we had created... And yet we couldn't ask ourselves what the software was doing. It was really frustrating to me. There was a real lack of observability in the system, and I had some ideas as an undergrad about how I wanted to go instrument the system dynamically, and the idea for what would become DTrace. And when I was actually interviewing with Jeff - this is one of these moments where I remember exactly where I was... We were kind of coming back from lunch, over the 101 from Palo Alto, and I was walking Jeff through my ideas for what would become DTrace, and trying to understand why was dynamic text modification not being used for instrumentation of the system. I just didn't understand that. And Jeff was like "Yeah, it sounds like you should do that. In fact, you should come here and you should do that." And that was a really exhilarating feeling, to feel like kind of the future was open to someone who was so young.
 
 So that kind of was my chip on the shoulder. And Jeff's chip on the shoulder was really frustrated about file systems. And frustrated by -- he thought UFS was a mess, and that all these various layers, the layering on top of that was a mess... And I think he and I respectively both really wanted to take on these problems. And it took until -- it'd be three to four years later before we could really go start that.
 
@@ -178,7 +178,7 @@ It's kind of remarkable to me now that -- I'm 50 now, and I think that Matt and 
 
 And ultimately, Jeff and Matt building a much larger team around them. It wasn't just the two of them. But it definitely started with the two of them really testing out some of these early ideas. And then certainly it was really exhilarating for us on DTrace. And there were a bunch of other things happening at that same time, at that time in the early 2000s. It was kind of ironic, because it was after the dotcom bust. I mean, people do not know what an economic wipeout looks like. We have not seen anything --
 
-**Adam Stacoviak:** \[00:28:31.15\] Since then, yeah.
+**Adam Stacoviak:** \[28:31\] Since then, yeah.
 
 **Bryan Cantrill:** ...that rivals the --
 
@@ -200,7 +200,7 @@ And ultimately, Jeff and Matt building a much larger team around them. It wasn't
 
 And actually, it was great, because just yesterday I had a really interesting bug at a customer site at Oxide... And man, we were using DTrace so much to debug this thing. And the engineer Robert Mustacchi, who was working on this, he and I were both reflecting on it, being like "Man, thank God for this. Thank God for DTrace. How would we debug this without DTrace?"
 
-**Adam Stacoviak:** \[00:32:08.08\] That's so crazy.
+**Adam Stacoviak:** \[32:08\] That's so crazy.
 
 **Bryan Cantrill:** It's crazy.
 
@@ -226,7 +226,7 @@ So yeah, it changes one's disposition to kind of have that longer view about the
 
 **Adam Stacoviak:** Well, you knew the story then. I mean, you were probably just listening for posterity's sake, for just sheer enjoyment, because you were there for the most part for all this stuff. And he was just literally telling me -- the title of that show was "Making the ZFS file system." And I thought that was cool. Jeff, how he recruited Matt... He didn't share the whole - you know, those two in the back of that cab there, the future of the company perspective like you did just now, but he was like "I'm a co-inventor of it, but really, Jeff was the real brains. I was a brand new person to the company, hadn't really done anything substantial... Obviously, I brought a lot of knowledge to the table and capability, but really, this was the brainchild of somebody else, and I was just there at the right place, at the right time, to help make ZFS what it is.
 
-**Bryan Cantrill:** \[00:35:57.14\] So I think Matt is being characteristically self-effacing.
+**Bryan Cantrill:** \[35:57\] So I think Matt is being characteristically self-effacing.
 
 **Adam Stacoviak:** Is that right? Okay...
 
@@ -250,13 +250,13 @@ So yeah, it changes one's disposition to kind of have that longer view about the
 
 **Adam Stacoviak:** I mean, not awesome, but awesome that otherwise it would have been unknown, if ZFS wasn't as good as it is, basically.
 
-**Bryan Cantrill:** \[00:40:23.00\] Absolutely. And it was one of these moments where you realize that these storage systems are really complicated, and that when you have these kinds of errors, people don't necessarily have ways of observing them. So the DMA controller vendor is not necessarily gonna -- they're gonna be very hard-pressed to be directly connected to the folks who are actually seeing data corruption. Because software doesn't routinely validate the data that it's getting back. Or if it does it, it does it in a checksum that is stored within the same block. And if I gave you a block that you corrupted on the way down, and you corrupted it in the same way returning back up, it's like the block looks self-consistent, so I don't know the difference. It's like, "No, this block is actually corrupt." And it was very eye-opening. And it's like, I'm sorry, I'm not living without that, ever, in my life. I'm just like, "No, thank you. I would like to know when my data is corrupt. Please don't return it to me if my data is corrupt."
+**Bryan Cantrill:** \[40:23\] Absolutely. And it was one of these moments where you realize that these storage systems are really complicated, and that when you have these kinds of errors, people don't necessarily have ways of observing them. So the DMA controller vendor is not necessarily gonna -- they're gonna be very hard-pressed to be directly connected to the folks who are actually seeing data corruption. Because software doesn't routinely validate the data that it's getting back. Or if it does it, it does it in a checksum that is stored within the same block. And if I gave you a block that you corrupted on the way down, and you corrupted it in the same way returning back up, it's like the block looks self-consistent, so I don't know the difference. It's like, "No, this block is actually corrupt." And it was very eye-opening. And it's like, I'm sorry, I'm not living without that, ever, in my life. I'm just like, "No, thank you. I would like to know when my data is corrupt. Please don't return it to me if my data is corrupt."
 
 **Adam Stacoviak:** Precisely.
 
 **Bryan Cantrill:** I mean, file system corruption is really, really horrifying. It's very hard to trust again when you've seen file system corruption. And you know, in all of my years with ZFS, \[unintelligible 00:41:28.03\] we had some data take some very long vacations, but it always came home. We did not actually have corrupt data. And that is -- I mean, first and foremost, data cannot be corrupt. So yeah... Definitely I'll be using ZFS for the rest of my career, thank you very much.
 
-**Adam Stacoviak:** Yeah, thank you very much. Thank you, I suppose, to the early days... Like you'd mentioned, even in your own passion, for Sun to get to open-source those things. And I think it was only because of those actions was what is known as ZFS was able to survive Oracle's acquisition... Which you were there for, I think, in 2010. You were there --
+**Adam Stacoviak:** Yeah, thank you very much. Thank you, I suppose, to the early days... Like you'd mentioned, even in your own passion, for Sun to get to open source those things. And I think it was only because of those actions was what is known as ZFS was able to survive Oracle's acquisition... Which you were there for, I think, in 2010. You were there --
 
 **Bryan Cantrill:** Oh, yeah.
 
@@ -274,7 +274,7 @@ So yeah, it changes one's disposition to kind of have that longer view about the
 
 I felt embarrassed to work for Oracle, which is not something -- I felt ashamed. Not something that I would have anticipated. But one of the things that I really learned very quickly after the acquisition is despite Sun's faults - and Sun had plenty of faults - Sun's customers, our customers wanted Sun to succeed. And what I realized was like, despite our faults, our customers trusted us, because we were always transparent with them, like warts and all. Sun did try to pretend that it was something -- I mean, again, every company has got faults, but for its size and history, and staying power, Sun had really surprisingly few... I mean, no one went to jail at Sun, there were not these major ethical transgressions... And Sun's customers, by and large, wanted Sun to succeed, because they trusted the company. And that was not true with Oracle. When you get to Oracle -- Oracle's customers don't trust Oracle. And Oracle's customers are -- I mean, when I was there in 2010, the state of California refused to purchase any more Oracle. The state I lived in, the government of the state I lived in refused to purchase the product, because they had outstanding lawsuits... I mean, that's not what I want to do with my career.
 
-\[00:44:40.03\] What I learned in that whole process is that the meaning of an endeavor is really important to me. There's got to be a bigger why. Why are we doing this? And I have always believed that in computing there's this line -- I'm not a huge Halt and Catch Fire fan, but there is a line that I do love, which is... I'm a much bigger Silicon Valley fan than Halt and Catch Fire.
+\[44:40\] What I learned in that whole process is that the meaning of an endeavor is really important to me. There's got to be a bigger why. Why are we doing this? And I have always believed that in computing there's this line -- I'm not a huge Halt and Catch Fire fan, but there is a line that I do love, which is... I'm a much bigger Silicon Valley fan than Halt and Catch Fire.
 
 **Adam Stacoviak:** Oh gosh, you said at first. Okay.
 
@@ -312,7 +312,7 @@ I felt embarrassed to work for Oracle, which is not something -- I felt ashamed.
 
 **Bryan Cantrill:** That's my view, that when people can -- because it used to be that the companies went public much earlier. And a lot of that kind of ascendancy, the public could participate in. And you could have someone who was a barber, who was able to put away some money and buy some shares of Apple... And you know, they've been able to enjoy some of that success. We've democratized that success. I think, it's really, really important. So that to me is the future for Oxide. Big public company.
 
-**Break**: \[00:48:33.25\]
+**Break**: \[48:33\]
 
 **Adam Stacoviak:** Those are lofty goals. We're 55-ish minutes in, and we have barely talked about Oxide, really.
 
@@ -342,7 +342,7 @@ In 2006, when we started, that meant Ajax, right? Remember Ajax, asynchronous Ja
 
 So I was like "This is really interesting, and I'm really enjoying JavaScript." Then we also extended that onto the server side, and we were starting to -- we did our CLI, I reimplemented it... Our CLI had started as this Perl monstrosity - like there's any other kind of Perl - and I realized, "I'm down the wrong path, and I need to rewrite this thing in JavaScript." And that was really, really eye-opening for me, because we were able to reimplement this thing really cleanly in JavaScript.
 
-\[00:55:54.10\] And I'm like "I think this has got a lot of potential on the server side." Node was a catalyst for that.
+\[55:54\] And I'm like "I think this has got a lot of potential on the server side." Node was a catalyst for that.
 
 So I went into Joyent and Node full of enthusiasm for Node.js in 2010. A bit more jaundiced after a couple of years, because I had this idea that we would be able to really bring robustness and rigor... There are things I loved about JavaScript, but there are things where JavaScript needed best practices in order to make it rigorous. And there was just a lot of resistance. And we had done a bunch of technologies, we had developed a bunch of things to make it more dependable, and so on... But that was not the priority of that broader -- the broader community was a JavaScript community, not a Node community. And there was just some pretty deep fractures that I had kind of wanted to bridge, and I began to realize "These are not actually bridgeable." And I actually gave a talk on this. I mean, there was this fracture... Kind of famously, there was a fork --
 
