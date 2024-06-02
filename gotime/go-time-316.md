@@ -26,7 +26,7 @@ And Cloudflare actually did something very similar. Cloudflare was also -- peopl
 
 **Natalie Pistunovich:** And do you know what brought this decision, or what introduced Go generally to the team?
 
-**Matthew Boyle:** \[00:05:57.29\] Yeah, I think there was a -- in London especially, and I'm sure you've seen this, Natalie, in Europe, generally... But quite a lot of the fintechs seem to have picked Go. So I think there was definitely a strategic hiring element to it. I think this all started with Monzo. That's my reading of the situation. But Monzo did a great job --
+**Matthew Boyle:** \[05:57\] Yeah, I think there was a -- in London especially, and I'm sure you've seen this, Natalie, in Europe, generally... But quite a lot of the fintechs seem to have picked Go. So I think there was definitely a strategic hiring element to it. I think this all started with Monzo. That's my reading of the situation. But Monzo did a great job --
 
 **Natalie Pistunovich:** Monzo is the large, UK-based digital bank.
 
@@ -46,7 +46,7 @@ We were certainly seeing performance issues with PHP. It was pretty challenging 
 
 It was the first language where I watched a couple of tutorials and I could build something useful... And I'd never really experienced that before, because previous to that I'd tried to learn Laravel, the PHP framework, and it was very easy to be productive in, but when things went wrong, I didn't understand why they went wrong. The error messages didn't make sense to me. Me and Chris have joked about it before... If you've used Java Spring Boot, it's great while it works, but as soon as it starts throwing errors at you, and you just copy and paste them into -- we're probably showing our age at this point, but like putting them in Stack Overflow... \[laughter\] And figuring out what they mean. It was basically the only way to proceed. I'm sure ChatGPT can do a much better job these days of helping you figure those out. Whereas I found Go quite intuitive.
 
-\[00:10:17.15\] So - similar thing, I actually was actively looking for a job where I could use Go at work, rather than it being at home. So I like to think I joined Curve and was relatively productive relatively quickly... But in my experience since then, we've hired tons of people at Cloudflare and at Curve who were predominantly from Object Oriented backgrounds like Java and PHP, the popular ones... And we've found people from those backgrounds especially really can be productive in the one to two weeks that Chris said there.
+\[10:17\] So - similar thing, I actually was actively looking for a job where I could use Go at work, rather than it being at home. So I like to think I joined Curve and was relatively productive relatively quickly... But in my experience since then, we've hired tons of people at Cloudflare and at Curve who were predominantly from Object Oriented backgrounds like Java and PHP, the popular ones... And we've found people from those backgrounds especially really can be productive in the one to two weeks that Chris said there.
 
 **Natalie Pistunovich:** Curve of productivity I guess made that an easy sell to whoever made the decision to move from PHP to Go.
 
@@ -64,7 +64,7 @@ But once we started to write Go, and to this day I continue to see this, it's re
 
 So yeah, I think for me just being pragmatic about what's definitely going to be around forever, and what's not going to be around, I think, is the biggest learning I took from it.
 
-**Matthew Boyle:** \[00:14:05.01\] Yeah, I think that's a really good call-out. And I think the only thing I would build on top of that with is any challenges you're facing with your monolithic application, you're going to experience ten times more with a distributed system. So you need to go into that eyes open, and be aware that especially as you go through this journey of starting to move -- if you are going to run this... There's two ways to do this migration. You can down tools and literally rewrite your whole application in Go, and ship that. And maybe there's a class of company that's small enough where maybe that makes sense. I can't think of any. I think I would get a bit of a red flag if someone told me to do that or asked me to do that... But generally, that is an approach that's valuable.
+**Matthew Boyle:** \[14:05\] Yeah, I think that's a really good call-out. And I think the only thing I would build on top of that with is any challenges you're facing with your monolithic application, you're going to experience ten times more with a distributed system. So you need to go into that eyes open, and be aware that especially as you go through this journey of starting to move -- if you are going to run this... There's two ways to do this migration. You can down tools and literally rewrite your whole application in Go, and ship that. And maybe there's a class of company that's small enough where maybe that makes sense. I can't think of any. I think I would get a bit of a red flag if someone told me to do that or asked me to do that... But generally, that is an approach that's valuable.
 
 To Chris's point, I think most people are going to adopt this sort of -- we called it the strangler pattern. You either build new pieces around the edge until the PHP becomes such a small part of your ecosystem that it's either really quick to rewrite, because it's become sort of irrelevant, or it's become such a small part that you just let it continue to do the things that it's been doing well, and you just continue to build your new competencies in other languages. I think that makes a lot more sense as an approach.
 
@@ -84,7 +84,7 @@ I actually had a very simple ticket to migrate a data type that we were -- to ch
 
 So I think we had about a 20-minute period where every single user in the app looked at how their account had been wiped... So it wasn't probably my best moment to be honest. Luckily, we did fix it, and it did have a bunch of other issues... But yeah, I learned a very valuable lesson from that.
 
-**Natalie Pistunovich:** \[00:18:05.08\] Matthew, you have a story to share.
+**Natalie Pistunovich:** \[18:05\] Matthew, you have a story to share.
 
 **Matthew Boyle:** Yeah, I was just thinking... So Chris's example is a really good one, of a very clear issue. I think we saw very quickly that we'd broken the app, and we got lots of complaints, and we could see ourselves... But I think maybe a more subtle one ,that's more interesting to share just from a different angle, is the data consistency issues is a really interesting one.
 
@@ -106,7 +106,7 @@ So these aren't Go-specific issues. Whatever migration you go from, and when we 
 
 **Natalie Pistunovich:** Yeah, interesting learning, the replication lag. That's a good recommendation related to migrations. Were there any interesting behaviors you noticed when you migrated some codebase from PHP to Go? Maybe you had to change the way that it's written to do it more the Go way, and then it somehow affected the behavior? Or any interesting things you've stumbled upon?
 
-**Matthew Boyle:** \[00:21:50.28\] There's a few things I would call out that come to mind immediately... So the first one is - I think I mentioned it briefly at the start, but the performance profile of Go was noticeable immediately. We had systems that were sort of struggling along at sort of 10 requests per second, that were using a bunch of CPU and memory... And then all of a sudden, they could do thousands of requests per second, and they were using barely any CPU or memory. And we didn't do anything clever, we just wrote in Go what we were about to write in PHP. That was really eye-opening to me. That was on the first things I remember sort of being really shocked about.
+**Matthew Boyle:** \[21:50\] There's a few things I would call out that come to mind immediately... So the first one is - I think I mentioned it briefly at the start, but the performance profile of Go was noticeable immediately. We had systems that were sort of struggling along at sort of 10 requests per second, that were using a bunch of CPU and memory... And then all of a sudden, they could do thousands of requests per second, and they were using barely any CPU or memory. And we didn't do anything clever, we just wrote in Go what we were about to write in PHP. That was really eye-opening to me. That was on the first things I remember sort of being really shocked about.
 
 The second was maybe slightly niche, and not for everybody, but containerization of a Go app versus a PHP app. Like, you literally need a PhD to containerize a PHP app... \[unintelligible 00:22:37.07\] It was really complicated to figure out. At least the way we were doing it, it was really, really challenging. And I think \[unintelligible 00:22:45.16\] our PHP container images were a couple of gig... And then we moved to this distroless Go, and they were like 13 megabytes. It was astoundingly different. And if you're running these workloads somewhere where you pay for nodes, or space, or whatever, that can be really significant... To be able to have such a small profile was amazing.
 
@@ -128,11 +128,11 @@ And then the other one I guess I would call out - it's probably less true today,
 
 **Natalie Pistunovich:** The lack of libraries is a little bit like the Go thing, right? You should use what you have, and don't export libraries for what you don't.
 
-**Chris Shepherd:** \[00:26:04.28\] Yeah... And I think that's another learning, isn't it, that you kind of have to pick up as you go with Go... If you go and write JavaScript -- you know, the Leftpad incident is very famous, where everyone was depending on this really small module to do something very minor... And I think that comes with people from a lot of other languages. If you do come from PHP and Java, it's not unusual to pull in dependencies... And you get the -- are they called POM files? I can't remember what the Java things were called. I think they were called POM files. You could get huge ones, and the dependency management thing was quite well managed; there were enterprise solutions for dependency management available to you... Whereas kind of coming around to "Actually I should try and implement this myself in Go, and I should manage and own this myself..." What's the idiom? "A little copying and pasting is better than a little dependency." Coming around to that way of thinking definitely took me some time, and it kind of takes everyone who jumps into the Go ecosystem a tiny bit of time to get to grips with it, I think.
+**Chris Shepherd:** \[26:04\] Yeah... And I think that's another learning, isn't it, that you kind of have to pick up as you go with Go... If you go and write JavaScript -- you know, the Leftpad incident is very famous, where everyone was depending on this really small module to do something very minor... And I think that comes with people from a lot of other languages. If you do come from PHP and Java, it's not unusual to pull in dependencies... And you get the -- are they called POM files? I can't remember what the Java things were called. I think they were called POM files. You could get huge ones, and the dependency management thing was quite well managed; there were enterprise solutions for dependency management available to you... Whereas kind of coming around to "Actually I should try and implement this myself in Go, and I should manage and own this myself..." What's the idiom? "A little copying and pasting is better than a little dependency." Coming around to that way of thinking definitely took me some time, and it kind of takes everyone who jumps into the Go ecosystem a tiny bit of time to get to grips with it, I think.
 
 So especially when we were doing this, this was unusual. And also being able to type things into Google and not always finding an answer was unusual too, if you're used to Java, where it was 20 years of experience available on the internet for you.
 
-**Break:** \[00:27:13.20\]
+**Break:** \[27:13\]
 
 **Natalie Pistunovich:** This is something that I recently mentioned in some other podcasts where I was a guest, that this is the Go way of doing things, and then somebody wrote me an email saying "I didn't find any documentation for this. Can you back your claim?" And so I approached the Go team, and Cameron, the lead, actually replied to me... I'm looking for the exact quote. "The Go programming philosophy encourages using trustworthy dependencies", while I said something like "The Go programming philosophy encourages using the standard library as much as possible. And when the standard library is not solving it, I generally prefer writing code over importing third party." So just for the very historic accuracy, in case anybody follows \[unintelligible 00:33:01.09\] it is not written anywhere... But here you have the philosophy. The Go programming philosophy encourages using trustworthy dependencies. But it still somehow feels it's almost like a common knowledge, that you told to import as much as you write. And I'm very curious where did this come from. But it's something that people know.
 
@@ -156,7 +156,7 @@ And it seems strange at first coming from other languages, but the longer you sp
 
 **Matthew Boyle:** You've hit the nail on the head there, because PHP has to have a web server built into it; it has PHP Apache, or FPM I seem to remember it was called. You used to have like a web server, and then usually you have a bunch of like extensions to PHP as well to make it work. Then you need to install Composer, and some other things to be able to -- as you say, it's interpreted, so all these things need to be available to run it... Whereas with Go, it kind of does a build, chucks all that stuff away, and then you just put the binary on the container, which is why it's much smaller.
 
-**Natalie Pistunovich:** \[00:35:56.28\] And that wonderful cross-compilation... All the things that make Go a favorite for DevOps people. So if somebody were to migrate from PHP - and I'm asking this as a person based in Berlin, that Berlin needs to be such a huge PHP shop, and more and more places, more and more companies migrated to Go, but there's still a good amount of PHP monolith shops... How would you recommend going about that?
+**Natalie Pistunovich:** \[35:56\] And that wonderful cross-compilation... All the things that make Go a favorite for DevOps people. So if somebody were to migrate from PHP - and I'm asking this as a person based in Berlin, that Berlin needs to be such a huge PHP shop, and more and more places, more and more companies migrated to Go, but there's still a good amount of PHP monolith shops... How would you recommend going about that?
 
 **Matthew Boyle:** I think my first piece of advice is like to figure out why you're doing it, and figure out what success looks like for you. So here's some reasons why I think it's a good idea to think about it. You are running like a more performance-critical system, and you think it'll be easier to kind of get that performance out of a Go application, or potentially another language's application. The ecosystem is better suited for what you're trying to do, and that's not even migrating from PHP to Go, but like if you are really going to double down on AI, maybe doing all your AI stuff in PHP probably doesn't make sense; it probably doesn't make sense to look at Python if you're gonna build your own models.
 
@@ -172,7 +172,7 @@ So I think just figuring out success is my tip number one... Like what do you ho
 
 **Chris Shepherd:** Yeah, I think the other thing is just be prepared that it will be a learning experience... Especially if your company's not writing \[unintelligible 00:39:38.15\] at the moment, and if there's not many people maybe with experience writing Go... I think it's a learning experience, and it's worth taking time just to look at how to write Go and how to structure projects and things like that... Because I know from experience when starting out with Go the quality of our services varied massively compared to the ones we were maybe writing a couple of years into that journey.
 
-\[00:40:05.23\] And yeah, I wouldn't recommend writing Go like you were writing PHP, just because they're just totally different languages and different paradigms... But there's definitely a learning experience there, and there definitely is a learning curve... So I think that's the biggest thing, like be prepared that it might take longer than you expect to actually start getting services out at the start.
+\[40:05\] And yeah, I wouldn't recommend writing Go like you were writing PHP, just because they're just totally different languages and different paradigms... But there's definitely a learning experience there, and there definitely is a learning curve... So I think that's the biggest thing, like be prepared that it might take longer than you expect to actually start getting services out at the start.
 
 **Matthew Boyle:** You touched on something really interesting there as well... I think there's this illusion that the PHP is tech debt, and that Go is going to be beautiful, and it's going to be perfect, and tech debt isn't allowed there, it doesn't exist. And I think the reality is your first pass at writing any Go, especially if it's going to be a new service and it's your first time doing it, you've got to accept and expect that there's going to be technical debt there, too. You're not going to figure out exactly how you want to structure things, you're going to run into a few issues with how Go does things a little bit differently to how you're used to...
 
@@ -190,7 +190,7 @@ If you've got standards, like Go standards at your work, and you've got a certai
 
 There's a joke that if you give someone a 10,000 line PR, you'll get a thumbs up. "Looks good to me." But if you give them a 10 line PR, you'll get 10 pieces of feedback... Whereas a bot is probably more likely to actually spot all the issues in the 10,000 line PR, because it will take the time to figure them out, whereas humans kind of -- their eyes start to glaze over.
 
-**Natalie Pistunovich:** \[00:44:07.17\] It's true, humans do rely more on the test automation at this scale... But for now at least, AI still has context memory issues, so... Different ways of unreliable, but as you say, in the long-term this will be improved and this will be better.
+**Natalie Pistunovich:** \[44:07\] It's true, humans do rely more on the test automation at this scale... But for now at least, AI still has context memory issues, so... Different ways of unreliable, but as you say, in the long-term this will be improved and this will be better.
 
 **Matthew Boyle:** I know you spend a lot more time in this space than we do... Have you seen any really interesting sort of use cases or tools where you think it could help you?
 
@@ -224,7 +224,7 @@ There's a joke that if you give someone a 10,000 line PR, you'll get a thumbs up
 
 So I think there's one really interesting use case that I'm still looking for. I haven't seen great offerings here yet... It's being able to deploy some of this stuff on prem, right?
 
-**Natalie Pistunovich:** \[00:47:59.18\] You can with Azure, and so on. You can have -- even the German health companies, which is like my peak GDPR example, they use their German-based data center instance, and that's meeting all the requirements. Worth looking into.
+**Natalie Pistunovich:** \[47:59\] You can with Azure, and so on. You can have -- even the German health companies, which is like my peak GDPR example, they use their German-based data center instance, and that's meeting all the requirements. Worth looking into.
 
 **Matthew Boyle:** I definitely have to take a look. We run our own cloud, we don't use any of the other cloud providers... So it might just be we haven't yet kind of invested the effort to figure out how to deploy this ourselves... But I'd be super-interested to be able to -- because I know there's tons of great open source models now, so I'd love to go and explore that a little bit further. So thanks for your idea. I'm gonna add it to my to do list right now.
 
@@ -250,7 +250,7 @@ Yeah, I think there are things like Encore, that give you that in Go, but... Yea
 
 **Natalie Pistunovich:** Well, one more unpopular question...
 
-**Jingle:** \[00:51:17.13\]
+**Jingle:** \[51:17\]
 
 **Natalie Pistunovich:** So what are your unpopular opinions? Who'd like to start?
 
@@ -264,7 +264,7 @@ Yeah, I think there are things like Encore, that give you that in Go, but... Yea
 
 **Natalie Pistunovich:** I can speak for myself that I have multiple meals, and I definitely have my second lunch around three, but I do have my main lunch around 12. So I partially agree, I don't know... I guess in Spain it's more common to eat later.
 
-**Chris Shepherd:** \[00:52:23.01\] Yeah, I guess, because \[unintelligible 00:52:21.17\] I don't know what the science is behind it, if there is any science... But I swear when I have lunch later in the day like that, I don't get any kind of dips in the afternoon. So I feel like I'm more productive in the afternoon when I eat lunch later.
+**Chris Shepherd:** \[52:23\] Yeah, I guess, because \[unintelligible 00:52:21.17\] I don't know what the science is behind it, if there is any science... But I swear when I have lunch later in the day like that, I don't get any kind of dips in the afternoon. So I feel like I'm more productive in the afternoon when I eat lunch later.
 
 **Matthew Boyle:** I don't know, I feel like you have about six cups of coffee a day as well, so I think claiming \[unintelligible 00:52:39.13\] because of late lunches -- there's more to this story.
 
@@ -292,7 +292,7 @@ And I know there's clever things you can do to avoid that, but it really put me 
 
 **Chris Shepherd:** So funnily enough, I actually have Philips Hue light bulbs, but I think we changed the plug, the light plugs or something a couple years ago and they stopped working, so now I just use the light bulbs as regular light bulbs... So I think I somewhat agree. Like, there's some things are just easier just to have them done, but now I definitely do think there are some advantages to having smart homes.
 
-**Natalie Pistunovich:** \[00:55:47.17\] The light bulbs are something I enjoy. It's convenient that when I go into the bathroom there's a sensor and I don't have to, like, with dirty hands touch the light switch. I specifically like that one thing. And if the internet goes out, I can always still click on the button. But that's where it kind of ends for me. It's true, it's frustrating how assistants are useless.
+**Natalie Pistunovich:** \[55:47\] The light bulbs are something I enjoy. It's convenient that when I go into the bathroom there's a sensor and I don't have to, like, with dirty hands touch the light switch. I specifically like that one thing. And if the internet goes out, I can always still click on the button. But that's where it kind of ends for me. It's true, it's frustrating how assistants are useless.
 
 **Matthew Boyle:** Yeah. Also, it just shows where Amazon really fumbled as well . They had such a lead with Alexa. It actually bothers me that they're not the ones presenting all this stuff that Open AI are. And Google, too. It felt like theirs to win. I don't really know how we got here, so massive props to Open AI for being massively behind, at least on paper, having this -- they went up against Google and Amazon and Microsoft, and they're clearly leading the pack when... If I had to bet five years ago who it was gonna be, it would have 100% been Amazon Alexa is gonna be the one to take this.
 
