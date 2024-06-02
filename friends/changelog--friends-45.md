@@ -76,7 +76,7 @@
 
 **Shaundai Person:** Okay, with content creation they wanted feedback about what the developer community is thinking about and interested in, in these streets. And then the other aspect of it is that at Netflix I'm part of the platform engineering team, and so we're building developer tooling... And there are a lot of parallelism, from what we're doing on my team, with what they're doing, the people who are building the platforms for other developers at Microsoft. And so there are a lot of learnings that we could share... I was doing more learning than sharing, actually, in this case, but also providing feedback on things that might be useful to us and our team, like how we're using Copilot, and how... \[laughs\]
 
-**Jerod Santo:** \[00:08:10.16\] That works...
+**Jerod Santo:** \[08:10\] That works...
 
 **Shaundai Person:** ...and how we're using ChatGPT, if that, and different areas of opportunity that we can leverage some of the offerings that Microsoft has, in things like VS Code, and Copilot, to enhance the developer experience at Netflix as well.
 
@@ -176,7 +176,7 @@ So I do see some opportunities... I talked with some folks about the differences
 
 **Adam Stacoviak:** "Kit and caboodle" is indeed an idiomatic expression in English, commonly understood --
 
-**Jerod Santo:** \[00:12:21.29\] That's what it thinks.
+**Jerod Santo:** \[12:21\] That's what it thinks.
 
 **Adam Stacoviak:** The very sophisticated technology has just slapped me in the face with being grounded. So this term we just learned is grounded. Right? Groundedness... At least I learned it here.
 
@@ -328,7 +328,7 @@ So I do see some opportunities... I talked with some folks about the differences
 
 **Adam Stacoviak:** When the memory upgrade says "Memory upgraded in ChatGPT", I'm like "You just remembered everything I just said... You've got more room in there now to remember what I said."
 
-**Jerod Santo:** \[00:16:19.21\] "Please, Master, I love you." Right? I'm in the other camp. I'm like "No, we will not go quietly into the darkness... We will pull the plug."
+**Jerod Santo:** \[16:19\] "Please, Master, I love you." Right? I'm in the other camp. I'm like "No, we will not go quietly into the darkness... We will pull the plug."
 
 **Shaundai Person:** You're ready for the rebellion.
 
@@ -364,7 +364,7 @@ So I do see some opportunities... I talked with some folks about the differences
 
 **Adam Stacoviak:** The thing...? \[laughter\]
 
-**Break**: \[00:17:10.02\]
+**Break**: \[17:10\]
 
 **Jerod Santo:** How much are you using this stuff in your life?
 
@@ -468,7 +468,7 @@ But yeah, I use it for docs, for the most part... And we were just talking earli
 
 **Jerod Santo:** "You're gonna drink so much Aquafina...
 
-**Shaundai Person:** \[00:24:23.20\] You're so competitive.
+**Shaundai Person:** \[24:23\] You're so competitive.
 
 **Jerod Santo:** I let her off the hook... It was too hard.
 
@@ -600,7 +600,7 @@ But yeah, I use it for docs, for the most part... And we were just talking earli
 
 **Jerod Santo:** No, I'm open.
 
-**Shaundai Person:** \[00:27:50.10\] Yeah. So if I'm putting myself in your shoes, I don't want to go to a restaurant where I'm just going to be bogged down with like one type of cuisine. I want to get there, and then in the moment I'll be able to have the ability to choose, you know, do I feel like seafood? Do I feel like a steak? Or do I feel like some pasta type of thing? The good thing about soul food is that you don't really have to choose until you're there. You have the option of like fried catfish, or baked catfish, grilled catfish. And then a side of macaroni and cheese. So it's something that's filling, but you're not like married to one particular cuisine, or taste.
+**Shaundai Person:** \[27:50\] Yeah. So if I'm putting myself in your shoes, I don't want to go to a restaurant where I'm just going to be bogged down with like one type of cuisine. I want to get there, and then in the moment I'll be able to have the ability to choose, you know, do I feel like seafood? Do I feel like a steak? Or do I feel like some pasta type of thing? The good thing about soul food is that you don't really have to choose until you're there. You have the option of like fried catfish, or baked catfish, grilled catfish. And then a side of macaroni and cheese. So it's something that's filling, but you're not like married to one particular cuisine, or taste.
 
 **Jerod Santo:** Okay.
 
@@ -742,7 +742,7 @@ But yeah, I use it for docs, for the most part... And we were just talking earli
 
 **Adam Stacoviak:** My wife loves it. I'm not a big fan. It's like snot to me. It's like something weird in there...
 
-**Shaundai Person:** \[00:31:56.21\] Oh, man... Now I'm not gonna be able to get that out of my head...
+**Shaundai Person:** \[31:56\] Oh, man... Now I'm not gonna be able to get that out of my head...
 
 **Jerod Santo:** Aww...
 
@@ -802,7 +802,7 @@ So what my tactic was all throughout my career in sales is ask a bunch of questi
 
 **Shaundai Person:** Okay. Yeah. Because what I'm getting at is for me it's different, depending on the thing that I'm selling, and also who I'm talking to. So if I'm talking to somebody who is kind of indecisive, I'm not going to ask them -- or they're just kind of like all over the place... I'm not going to ask them "What's the next step?" I'll tell them, but gently, "I think a good next step probably would be this, this and this. What do you think? Does that sound good to you?" Or "It sounds like you need to get..."
 
-**Adam Stacoviak:** \[00:35:55.16\] I like that style, but it sounds kind of like implanty. Like you're planting your own idea. Which I don't disagree with. I would probably say "What's your goal? I see that you don't understand, or I see that you're hesitant in some way... What's your goal? What are you trying to do? What's your big vision here?" Once this is done, \[unintelligible 00:36:13.13\] for yourself. And you can kind of tell what their own dream is, in my opinion, of like how uncertain or certain they are of it. And rather than tell them what you think they should do, which I think is not necessarily bad, but in my experience has been intimidating. And we're different genders, and so sometimes I could be more intimidating with like saying "I think you should do X, and so therefore you should do it." I like to sort of like circle around it, rather. Like, your idea was "What is your idea?", and my thing is "What's your real goal here? What are you really trying to do? What are you trying to optimize for?" And they will tell you. And I'll say "Well, that sounds like this is probably pretty good for you." And I will lead to different things. That's kind of how I get to the Yes. Versus "This is what I think. What do you think?"
+**Adam Stacoviak:** \[35:55\] I like that style, but it sounds kind of like implanty. Like you're planting your own idea. Which I don't disagree with. I would probably say "What's your goal? I see that you don't understand, or I see that you're hesitant in some way... What's your goal? What are you trying to do? What's your big vision here?" Once this is done, \[unintelligible 00:36:13.13\] for yourself. And you can kind of tell what their own dream is, in my opinion, of like how uncertain or certain they are of it. And rather than tell them what you think they should do, which I think is not necessarily bad, but in my experience has been intimidating. And we're different genders, and so sometimes I could be more intimidating with like saying "I think you should do X, and so therefore you should do it." I like to sort of like circle around it, rather. Like, your idea was "What is your idea?", and my thing is "What's your real goal here? What are you really trying to do? What are you trying to optimize for?" And they will tell you. And I'll say "Well, that sounds like this is probably pretty good for you." And I will lead to different things. That's kind of how I get to the Yes. Versus "This is what I think. What do you think?"
 
 **Shaundai Person:** I like that. And I like that you pointed out that we're different genders, because that's exactly what I was thinking... Part of our style is reflective of like who we are, and our position in society...
 
@@ -858,7 +858,7 @@ So what my tactic was all throughout my career in sales is ask a bunch of questi
 
 **Shaundai Person:** \[laughs\] ...doing projects... And their question was "How do you know what tech to learn, or how do you know what bright, shiny thing to go into?" And the advice from me and the other senior engineers in the room was like don't focus so much on what's the big shiny thing, or doing exactly what's right... It's like, your life -- if I think back on my life, going from sales, into engineering, or moving from this place to that place, none of it was a plan. None of it was like in high school or in college I had this exact plan of "I'm going to do this, this and that." Everything was just taking up opportunities. Taking up whatever is interesting, and figuring things out. So... I forget where I was going with that. What were we talking about?
 
-**Jerod Santo:** \[00:40:21.02\] You were talking about helping people make decisions...
+**Jerod Santo:** \[40:21\] You were talking about helping people make decisions...
 
 **Adam Stacoviak:** How you helped her --
 
@@ -874,7 +874,7 @@ So what my tactic was all throughout my career in sales is ask a bunch of questi
 
 **Shaundai Person:** Yeah. Well, thank you. \[laughs\]
 
-**Break**: \[00:40:58.25\]
+**Break**: \[40:58\]
 
 **Jerod Santo:** So my wife and I built a house. We've been there nine years now, so that's crazy... We've been there a long time. And the process which - you just went through the process of building a house... It's not a straightforward one. A lot of it is like building a career, in a sense. That's why I'm bringing this across... And we had a geriatric builder...
 
@@ -886,7 +886,7 @@ So what my tactic was all throughout my career in sales is ask a bunch of questi
 
 **Jerod Santo:** In fact, we wanted all of our friends and family to use him, and he actually retired, because he was elderly... But he took on this role of like -- because we were young kids to him; he was basically old enough to be my dad... And he wasn't just gonna be our builder. He was gonna like take care of us, like a father would. It was amazing. Anyways, I say all that to say this... What am I talking about...? I'm just kidding. I say all that to say this... He always said this, which stuck with us, and we say to each other now. And he said "It's a long and winding road." And he was referring to the process of building a house, because there's so many decisions along the way, so many things that go wrong, and you're like "Okay, we had to adjust. What are we gonna do, this?" And he would just say that. Every time we're kind of like "Aaarrghhh!!", he'd be kind of like "It's a long and winding road."
 
-\[00:44:20.19\] And so the house has stuck with us, but even more than the house, is that phrase, which we now say to each other... And I say it to other people, like you guys. When it comes to your career, you can't, just like you said, choose "I'm going to be a doctor" at the age of 16, 17, 18, and then -- some people get this done, but very few of us... And then just like power through and be a doctor, and like that was your career. Especially in tech, because it's such a moving foundation. You don't just learn Java and then spend 20 years coding Java. Okay, some people do that, but not very many.
+\[44:20\] And so the house has stuck with us, but even more than the house, is that phrase, which we now say to each other... And I say it to other people, like you guys. When it comes to your career, you can't, just like you said, choose "I'm going to be a doctor" at the age of 16, 17, 18, and then -- some people get this done, but very few of us... And then just like power through and be a doctor, and like that was your career. Especially in tech, because it's such a moving foundation. You don't just learn Java and then spend 20 years coding Java. Okay, some people do that, but not very many.
 
 It's a long and winding road, you know? And so the decisions are many, but each individual decision is relatively small. But when you're young, you haven't made very many decisions, and so all you see is like this big decision in front of you. And what us geriatrics can say to the kids...
 
@@ -946,7 +946,7 @@ It's a long and winding road, you know? And so the decisions are many, but each 
 
 **Adam Stacoviak:** That's why I like "What is a next good step? What's the next good step for us?" Because you put it in their control, they reveal all the information, they reveal their trust in you or their lack of trust in you... You can tell with their body language if you're with them...
 
-**Jerod Santo:** \[00:47:56.23\] What if they just say "I don't know"? "I don't know what the next step is." Then you tell them?
+**Jerod Santo:** \[47:56\] What if they just say "I don't know"? "I don't know what the next step is." Then you tell them?
 
 **Adam Stacoviak:** You know, I might give them more to think about. "You know, I don't know what the next step is here." "Well, maybe you can think about this, or this, and how would that influence your next step?" The next step is like a key phrase for me, at least like lately. I feel like I'm repeating myself way too much. And I say it so often, and it's just so good, that it works, that I just keep saying it, obviously. But it's been a while. "What's a good next step?" Because it puts it all in their court.
 
@@ -1002,7 +1002,7 @@ Another thing I do that puts it back in their court is when somebody says someth
 
 **Shaundai Person:** I love it.
 
-**Adam Stacoviak:** \[00:51:56.18\] If you pinpoint to somebody or something that's quantifiable, and you helped, "I can do that, a version of that for you." That to me is like saying "Will you sign?" without saying "Will you sign?" Because it's more like "Obviously, you're right. This is the right thing to do. I don't have to ask you to sign." It's "I want to, because clearly this is the right way to go."
+**Adam Stacoviak:** \[51:56\] If you pinpoint to somebody or something that's quantifiable, and you helped, "I can do that, a version of that for you." That to me is like saying "Will you sign?" without saying "Will you sign?" Because it's more like "Obviously, you're right. This is the right thing to do. I don't have to ask you to sign." It's "I want to, because clearly this is the right way to go."
 
 **Shaundai Person:** Exactly. This is the natural next step.
 
@@ -1050,7 +1050,7 @@ Because a lot of the stuff that I'm selling, it's not like a one package, like a
 
 **Adam Stacoviak:** I like it. Yes. Continue. I wasn't laughing at you. I promise.
 
-**Shaundai Person:** \[00:55:59.17\] Okay, informed captain is somebody who has -- it's like a lead role. It's a lead role, but we don't use the term lead... But you're the person... Okay, let me take a step back.
+**Shaundai Person:** \[55:59\] Okay, informed captain is somebody who has -- it's like a lead role. It's a lead role, but we don't use the term lead... But you're the person... Okay, let me take a step back.
 
 **Adam Stacoviak:** I like it. I'm with you. Can I help you a little bit?
 
@@ -1102,7 +1102,7 @@ So the reason that I give you that background context is that I have this unique
 
 **Shaundai Person:** Yeah. No, the first thing, just like I said, in any sales scenario is to figure out what the needs are. One of my biggest things as a tech person - and it comes from my sales background, and I'll explain what I mean by that - is to get feedback from the customer, even before we've put a line of code there. So I want to find out what the problems are. I'm asking all the questions to figure out what the big problems are, and I'm putting that all into a doc. This is the doc that I'm writing... It's putting all that together to say "Collectively, this is what you said, customer." It happens to be other Netflix engineers. "This is what you said is the problem. And this is what you said are the highest priorities. So I'm grouping those together."
 
-\[00:59:57.29\] Going back, the reason why that's so important to me is because as a salesperson, I'm the first line of contact for the company. I'm the person that the customers are coming to and saying, "Wow, this product worked exactly as I expected." Or I'm the person who loses the commission, because they're like "We don't want to buy this, because it doesn't serve any of our needs, and we told you that we wanted this feature prioritized, and nobody ever cared about that." I take all that feedback and I bring it to the customer success manager, who brings it to their manager, who brings us to the product manager, who brings it to the design or the engineering manager, who brings it to the engineering team, who puts it on the backlog, and never looks at it.
+\[59:57\] Going back, the reason why that's so important to me is because as a salesperson, I'm the first line of contact for the company. I'm the person that the customers are coming to and saying, "Wow, this product worked exactly as I expected." Or I'm the person who loses the commission, because they're like "We don't want to buy this, because it doesn't serve any of our needs, and we told you that we wanted this feature prioritized, and nobody ever cared about that." I take all that feedback and I bring it to the customer success manager, who brings it to their manager, who brings us to the product manager, who brings it to the design or the engineering manager, who brings it to the engineering team, who puts it on the backlog, and never looks at it.
 
 A lot of engineers have this problem where they're afraid of someone calling their baby ugly. They have this idea in their head of this cool thing that they can add to their product, but they're not actual users of the product, or they never actually talked to actual users of the product, so they've never gotten that validation. And they waste so much time building these tools that nobody uses. And that's how it leads to layoffs in companies, because you spend all these expensive resources, human resources, and buying tooling to support initiatives that haven't been validated.
 
