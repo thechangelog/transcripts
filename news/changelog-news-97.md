@@ -18,7 +18,7 @@ Ok, let's get into the news. But first, a quick correction from last week: the a
 
 [Raivo OTP app quietly changes hands, loses passwords](https://web.archive.org/web/20240531085449/https://github.com/raivo-otp/ios-application/issues/328)
 
-In _yet-another-unsettling-open-source-sustainability-failure_ news...
+In _yet-another-unsettling-open source-sustainability-failure_ news...
 
 Ravio, a popular open source iOS authenticator app that syncs your one-time-passwords across devices, was [quietly transferred](https://github.com/raivo-otp/ios-application/commit/3a8aaa0ea16a761e6205abd2700ac90dd4c9c9b6) from its original creator to a company called [Mobime](https://mobime.org). After ~10 months of zero public commits, the new owners shipped an update that deleted people's 2fa codes and, according to one angry user review:
 
