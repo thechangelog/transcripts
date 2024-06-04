@@ -72,7 +72,7 @@
 
 **Justin Garrison:** There's an AI bot for that.
 
-**Autumn Nash:** \[00:06:02.00\] ...I don't know if it's gonna get better... You know what I mean? It will just be even more like fakeness...
+**Autumn Nash:** \[06:02\] ...I don't know if it's gonna get better... You know what I mean? It will just be even more like fakeness...
 
 **Justin Garrison:** Two people show up in real world, they're like "Oh, so our bots talk to each other, right?" \[laughs\]
 
@@ -110,7 +110,7 @@ But this is like -- we're almost taking the fun out of everything. I don't want 
 
 **Justin Garrison:** Yeah. Well, and so what was -- Google recently had their developer conference, Microsoft Build is having their dev conference... Both of them all about AI. Apple's I think is next month.
 
-**Autumn Nash:** \[00:10:03.19\] Yeah, they're next.
+**Autumn Nash:** \[10:03\] Yeah, they're next.
 
 **Justin Garrison:** It's all going to be AI, I'm sure. So for anyone that wants to jump on Linux on the desktop, hit me up...
 
@@ -144,7 +144,7 @@ I also wanted to call out - this is kind of ridiculous... They have a sustainabi
 
 **Justin Garrison:** Yeah. There is a lot of -- especially in big tech, I feel like a lot of just chasing the stock price, and doing whatever is going to drive that price... Because that is the ultimate thing.
 
-**Autumn Nash:** \[00:14:11.24\] Which kind of sucks, because we were building some cool stuff. And so much cool stuff just kind of like -- I mean, there are people, of course, still building cool stuff, but it's just like it seems like we're just doing the same thing over and over... And it's hard to get excited like we used to. There was like \[unintelligible 00:14:25.26\] pretty exciting, but it's just... It's hard to get excited. All these different conferences, you'd be like "Oh, did you see this new thing? I totally want this!" It would be like "I can't wait to try this out!" And now it's like the same flavor, over and -- I mean, to a certain extent, there's always a trend, but this is like...
+**Autumn Nash:** \[14:11\] Which kind of sucks, because we were building some cool stuff. And so much cool stuff just kind of like -- I mean, there are people, of course, still building cool stuff, but it's just like it seems like we're just doing the same thing over and over... And it's hard to get excited like we used to. There was like \[unintelligible 00:14:25.26\] pretty exciting, but it's just... It's hard to get excited. All these different conferences, you'd be like "Oh, did you see this new thing? I totally want this!" It would be like "I can't wait to try this out!" And now it's like the same flavor, over and -- I mean, to a certain extent, there's always a trend, but this is like...
 
 I think we've already found the cool things to do with it. And of course, there's going to be other cool things, but I'm just like --
 
@@ -162,7 +162,7 @@ I think we've already found the cool things to do with it. And of course, there'
 
 **Justin Garrison:** So let's jump to the interview and we will talk to you again after.
 
-**Break**: \[00:15:59.27\]
+**Break**: \[15:59\]
 
 **Justin Garrison:** Alright, welcome to the show today, Jon Johnson. Thanks for joining. Tell us a little bit about yourself.
 
@@ -230,7 +230,7 @@ I think we've already found the cool things to do with it. And of course, there'
 
 **Autumn Nash:** Did you side-eye him in like your next one on one, and you were just like...
 
-**Jon Johnson:** \[00:22:09.07\] No. I gave y'all $10. So it made it into the Changelog Plus Plus bonus content at the end, where I get named-dropped... So I was like "Oh..." So now I've been baited into being a Changelog Plus Plus subscriber.
+**Jon Johnson:** \[22:09\] No. I gave y'all $10. So it made it into the Changelog Plus Plus bonus content at the end, where I get named-dropped... So I was like "Oh..." So now I've been baited into being a Changelog Plus Plus subscriber.
 
 **Justin Garrison:** We will mention your name. Anyone that wants to send $10...
 
@@ -288,7 +288,7 @@ What other benefits -- like, could you do this in a different language that is b
 
 **Jon Johnson:** It is, yes. I think probably because -- I mean, you may be familiar with the fact that the JSON package in the standard library is going through a v2 design phase right now... But there's not like any way to do random access of stuff with JSON in Go... And so I think if you had something like this, you might end up with people writing code that took advantage of it. But obviously, from TerraForm's perspective, it's like "Oh, writing JSON to disk is really slick-fast, relative to all these expensive infrastructure operations, so we're not going to pay attention to that." That should be the fastest part of this whole operation, but when you do it, say, 30,000 times, it ends up slowing you down quite a bit.
 
-**Justin Garrison:** \[00:26:25.06\] Yeah. And I remember a long time ago there was a service that they did a comparison between -- they're rewriting it from probably Scala, or something, and they're like "Oh, we want to rewrite it, and we're gonna go with Go, because it's fast. It compiles fast, and everything." And then the comparison with a Go version of the service and a Kotlin version of the service... And it was a GraphQL API, and actually, Kotlin was a lot faster, just because we had to keep marshalling and unmarshaling JSON over and over again. And there's actually -- just the handling that Java and Kotlin gave us was faster than Go. And it's like, that was an eye-opener for me, because I was just all-in on "Go must be fast, right?" It's like, well...
+**Justin Garrison:** \[26:25\] Yeah. And I remember a long time ago there was a service that they did a comparison between -- they're rewriting it from probably Scala, or something, and they're like "Oh, we want to rewrite it, and we're gonna go with Go, because it's fast. It compiles fast, and everything." And then the comparison with a Go version of the service and a Kotlin version of the service... And it was a GraphQL API, and actually, Kotlin was a lot faster, just because we had to keep marshalling and unmarshaling JSON over and over again. And there's actually -- just the handling that Java and Kotlin gave us was faster than Go. And it's like, that was an eye-opener for me, because I was just all-in on "Go must be fast, right?" It's like, well...
 
 **Autumn Nash:** I'm just happy we're talking about Java right now...
 
@@ -334,7 +334,7 @@ What other benefits -- like, could you do this in a different language that is b
 
 **Jon Johnson:** Sure. Okay, so there are two places in my life where my caring about Gzip is actually useful, and not just some weird thing that happened to me... Going back to three tars in a trench coat - I don't know how you came up with that. Maybe I -- surely I didn't... But it's obscenely accurate as a description. So before I joined Chainguard, I had spent about a year just kind of being nerd-sniped by Gzip in general, for other reasons we'll get to. But when I joined, I learned that I would have to do a lot of things with APKs, and I didn't know what an APK was. It's a package format. I believe APK stands for Alpine Package Keeper. But what I learned is that it is three gzipped tar balls in a trench coat.
 
-**Autumn Nash:** \[00:30:10.28\] He's not wrong.
+**Autumn Nash:** \[30:10\] He's not wrong.
 
 **Jon Johnson:** Yeah. It was surprising to me that like all of the stuff I have learned about Gzip and tarballs for container reasons is like directly applicable to now my day job... And so I kind of double-dipped on this weird obsession that I have, which was very useful for a lot of reasons. But for the purposes of performance, it is really useful to us that APKs are just gzipped tarballs... Because if you think about how we build a container image with Apko, a container image is also just a gzipped tarball, plus some JSON stitched into a DAG. But the gzipped tarball bits are like the same as the APK.
 
@@ -364,7 +364,7 @@ I don't know why we're talking about this anymore, but... Yeah, this kind of lik
 
 **Jon Johnson:** Right. So my introduction, I think, to all of this Gzip nonsense was Stargz. So a while ago - I don't know how long ago - Brad Fitzpatrick, who was at Google at the time working on the Go build system, trying to make the Go builds faster, ran into the reality that polling was really slow.
 
-\[00:33:54.17\] So they had packaged up in their Go-based images for testing, many, many gigabytes. I think tens, or hundreds of gigabytes of stuff... Very little of which was actually accessed on each build. So he came up with this thing which he called Crfs, which is a container registry file system that used Fuse to mount effectively your container image from the registry onto your local file system. And it would give you the ability to access the files directly, instead of having to first pull them... But it required pre-processing those images a little bit to be amenable to this mounting format.
+\[33:54\] So they had packaged up in their Go-based images for testing, many, many gigabytes. I think tens, or hundreds of gigabytes of stuff... Very little of which was actually accessed on each build. So he came up with this thing which he called Crfs, which is a container registry file system that used Fuse to mount effectively your container image from the registry onto your local file system. And it would give you the ability to access the files directly, instead of having to first pull them... But it required pre-processing those images a little bit to be amenable to this mounting format.
 
 So what he ended up doing is effectively rewriting the container image layers to be more like a zip file, instead of a gzipped tarball, which maybe is a good digression to talk about the difference...
 
@@ -390,7 +390,7 @@ So what he ended up doing is effectively rewriting the container image layers to
 
 **Jon Johnson:** Right. It kind of strikes a middle balance between the two... So the way that works, briefly, is that when you're going through the startgz file, every so often you just stop the Gzip stream and reset it. So instead of being one giant Gzip archive, it's actually several Gzip archives, just concatenated together.
 
-**Justin Garrison:** \[00:38:00.16\] So you're just like chunking a certain -- so you're not getting as good a compression, but much faster read time, because you're like "Hey, this first meg is compressed", but then I get some metadata to say what's in the next meg.
+**Justin Garrison:** \[38:00\] So you're just like chunking a certain -- so you're not getting as good a compression, but much faster read time, because you're like "Hey, this first meg is compressed", but then I get some metadata to say what's in the next meg.
 
 **Jon Johnson:** Right. So I think it's every two, or four, or something... Maybe it's every file, honestly, but every so often, you just reset that stream. And then at the end of this stream, you have a table of contents index thing, that is "Hey, here's all the offsets of all the files I just ripped", you write that file to the targz, and then at the very end you include "Here's the offset to that table of contents", and it's essentially identical to like a zip file, it's just in targz clothes, right?
 
@@ -424,7 +424,7 @@ So what he ended up doing is effectively rewriting the container image layers to
 
 **Justin Garrison:** And yet, just to give the listeners like "This was specifically designed for containers, for speeding up that poll process." Because usually, you're going through and you're like "I have a container image", and that's sending you a metadata list of like "Here's 10 other Gzips you have to download." And in with Stargz, or at least with extended Stargz, you can say, "Hey, I need to start this NGINX container, so just give me the layer that has the binary NGINX and whatever libraries it needs. All the other cruft in the container, I don't need right away. I can load that after the fact. We're still going to download it, but I can start my container faster", and that's a big win when you have tens of gigs in a container. You're like "Actually, this container is really large, and the download takes a long time." Because usually, it's just like "Download, decompress, start." And you're like "Hey, let me just download the bits I need first. We'll decompress that and we'll start it." And this Stargz allows you to optimize "Hey, I'm going to rebuild my container and say -- look, we're going to profile it basically, and say "Which files are access-first? Let's put those in their own layer. And then when I tell you to download this, you're just going to fetch that one piece. And we're still going to download the stuff in the background, but the piece to start will come down a lot faster than waiting for 10 gigs."
 
-**Jon Johnson:** \[00:42:03.11\] Right, right. And just to contextualize that with some numbers, the public ones I've found, that everyone references, are from this paper Slacker from 2016, and their number -- I wrote these down, because there's no way I could remember this. They claim that 76% of the startup time for a container is in copying and installing stuff, whereas to actually start up, you only need about 6% of the data in the image. So it's a pretty substantial amount, especially when you aren't doing stuff like we are, where you're trying to slim down your images as much as possible, and have actually everything in that image is something you need. Most people don't do that, and so for most people these kind of lazy filesystem things are super-useful.
+**Jon Johnson:** \[42:03\] Right, right. And just to contextualize that with some numbers, the public ones I've found, that everyone references, are from this paper Slacker from 2016, and their number -- I wrote these down, because there's no way I could remember this. They claim that 76% of the startup time for a container is in copying and installing stuff, whereas to actually start up, you only need about 6% of the data in the image. So it's a pretty substantial amount, especially when you aren't doing stuff like we are, where you're trying to slim down your images as much as possible, and have actually everything in that image is something you need. Most people don't do that, and so for most people these kind of lazy filesystem things are super-useful.
 
 I'll pause, because in my life this is where I had this cutoff point. So I obsessed with Stargz a little bit for a while... There was a lot of efforts from people to switch from Gzip to Zstandard, which we could talk about... But let's get back to that later. I had a -- well, my wife had a child with me in the interim. And so there was a point where I was just sitting around a lot, holding a baby, or not able to sleep, and thinking about Gzip, and thinking about this stuff... Because right before we had this child, I learned some things from someone on Twitter, who kind of nerd-sniped me into this.
 
@@ -438,7 +438,7 @@ So there is a tool called I think Gztool, and it allows you to get random access
 
 **Jon Johnson:** So I have an abridged version of it that I might share if I get very comfortable... But yeah, so I was reading like a lot of children's books right at the time, to a toddler, or I guess an infant...
 
-**Autumn Nash:** \[00:45:42.08\] I love that you did this while like not sleeping, because if I told you the amount of times that I figured out code in the middle of the night, or like while holding a sleeping child - it's a low-key flex, okay? Because when you have kids, you are forced to walk away from code sometimes, when you're like trying to beat your head against it... And I used to think that made me a bad engineer, until my kids went to go hang out with their dad for two weeks, and I was almost less productive, because I didn't know when to walk away... Because I have all these breaks that inside my day, like you've gotta pick up kids, and do all that... And then it was just amazing. I sucked so bad, because I was just -- I'd sit there and try to bang my head against the wall... I get the best -- I can write a doc in my head while holding a sleeping child.
+**Autumn Nash:** \[45:42\] I love that you did this while like not sleeping, because if I told you the amount of times that I figured out code in the middle of the night, or like while holding a sleeping child - it's a low-key flex, okay? Because when you have kids, you are forced to walk away from code sometimes, when you're like trying to beat your head against it... And I used to think that made me a bad engineer, until my kids went to go hang out with their dad for two weeks, and I was almost less productive, because I didn't know when to walk away... Because I have all these breaks that inside my day, like you've gotta pick up kids, and do all that... And then it was just amazing. I sucked so bad, because I was just -- I'd sit there and try to bang my head against the wall... I get the best -- I can write a doc in my head while holding a sleeping child.
 
 **Jon Johnson:** There's something to it, where you have no options; you are only in your mind. And so you're just like "How can I --"
 
@@ -484,7 +484,7 @@ So there is a tool called I think Gztool, and it allows you to get random access
 
 **Autumn Nash:** This is why we keep Justin around.
 
-**Jon Johnson:** \[00:50:00.27\] So I want to try to describe Deflate to you... I think without a visual aid, it's basically impossible. But I've also on podcasts -- I think basically what we're describing... If I'm forced to try to visualize something, just from hearing someone describe it, I actually have a way better chance of understanding it than if they give me like a really good visual diagram, because I'm actually flexing my mind, trying to grasp what they're saying...
+**Jon Johnson:** \[50:00\] So I want to try to describe Deflate to you... I think without a visual aid, it's basically impossible. But I've also on podcasts -- I think basically what we're describing... If I'm forced to try to visualize something, just from hearing someone describe it, I actually have a way better chance of understanding it than if they give me like a really good visual diagram, because I'm actually flexing my mind, trying to grasp what they're saying...
 
 **Autumn Nash:** It's like when you read a book, and you have to imagine the scene, and it's not a movie.
 
@@ -502,7 +502,7 @@ So the first block is "Hey, I am uncompressible data. The encoder just gave up, 
 
 So that's BTYPE=00, the first one. The next block is fixed-compressed, which means that it's a compressed block, but the Huffman tables are hardcoded. So what does that mean? So the compressed blocks have a header themselves, which is like two Huffman trees. If you're not familiar with Huffman encoding, I'm not going to try to explain it. But I'll do it very quickly... You can imagine that most data is not uniformly distributed. So say you have some English text. If you think about ASCII, there are 256 possible ASCII character bytes, right? English is not many of those. So if you just have a bunch of text, you're going to want to prioritize, say, the letter E over a zero with space, or something.
 
-\[00:54:01.29\] And so what Huffman encoding does is it basically sorts all your data by frequency, and then it encodes them in a way where the most frequent things are small, and the less frequent things are large. And so it's just a way to basically make a bunch of stuff smaller, in a generic way, that's very clever.
+\[54:01\] And so what Huffman encoding does is it basically sorts all your data by frequency, and then it encodes them in a way where the most frequent things are small, and the less frequent things are large. And so it's just a way to basically make a bunch of stuff smaller, in a generic way, that's very clever.
 
 **Autumn Nash:** That's like a complicated tree, basically.
 
@@ -528,7 +528,7 @@ So popping the stack a little bit... So the other type of blocks are compressed.
 
 **Autumn Nash:** Why is it immutable, though? What makes that?
 
-**Jon Johnson:** \[00:57:45.13\] It's just a little optimization -- so Deflate itself is a cute engineering trade-off of a lot of things that are aspects of like Lz77... But it's just an optimization where if you have a small amount of data to encode, it's better if we all just agree ahead of time on what those trees would be, so that we don't have to put it in the data stream, it's just part of the algorithm.
+**Jon Johnson:** \[57:45\] It's just a little optimization -- so Deflate itself is a cute engineering trade-off of a lot of things that are aspects of like Lz77... But it's just an optimization where if you have a small amount of data to encode, it's better if we all just agree ahead of time on what those trees would be, so that we don't have to put it in the data stream, it's just part of the algorithm.
 
 **Justin Garrison:** It's just hardcoded in the spec, right? You're like "Hey, we're gonna do this type of data, and if you're decoding this type of file, if I reference it, I don't need to add it myself."
 
