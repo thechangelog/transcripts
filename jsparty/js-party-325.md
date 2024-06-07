@@ -52,7 +52,7 @@
 
 **Zach Leatherman:** Yeah. 11ty is a static site generator. It's maybe one of the simpler ones that exists right now. It really allows a very simple on-ramp, an easy on-ramp for beginners, and we try to keep the beginner experience as streamlined and simple as possible. So we're sort of known for -- because we're sort of a reduced feature set from the beginning, and you sort of add things on top of it later, we're sort of known for our build performance. And that's probably highly related to the configurability there. So you can have a very speedy build to build your site, and the output that you can get is also speedy as well. And I think for many years, that was a controversial thing. It's nice to see that that's changing... Yeah, and there's more HTML-focused tools, in the JavaScript ecosystem at least.
 
-**Jerod Santo:** \[00:07:41.25\] And 11ty has been going a long time. It was started by you, as I assume, a way of building your own sites, grew into something where people started to adopt it... I confessed a couple episodes of yours back that at first I was like "Why is Zach building yet another site generator?" and how wrong I was to have that assumption... Because it has stood the test of time, and it has gone through many iterations... And also, I guess, patrons. You worked on it full time at Netlify for a while, you worked on it -- I'm not sure it was full-time, but you were at CloudCannon, or you might still be at CloudCannon. I'm not sure of the exact situation, but 11ty was being patronized by CloudCannon, and now you've recently announced "I need your help to make 11ty fully independent and sustainable in 2024." That was just last week... So tell us the recent history and what's going on.
+**Jerod Santo:** \[07:41\] And 11ty has been going a long time. It was started by you, as I assume, a way of building your own sites, grew into something where people started to adopt it... I confessed a couple episodes of yours back that at first I was like "Why is Zach building yet another site generator?" and how wrong I was to have that assumption... Because it has stood the test of time, and it has gone through many iterations... And also, I guess, patrons. You worked on it full time at Netlify for a while, you worked on it -- I'm not sure it was full-time, but you were at CloudCannon, or you might still be at CloudCannon. I'm not sure of the exact situation, but 11ty was being patronized by CloudCannon, and now you've recently announced "I need your help to make 11ty fully independent and sustainable in 2024." That was just last week... So tell us the recent history and what's going on.
 
 **Zach Leatherman:** Yeah, so - I mean, you're right, I worked on it at Netlify, full-time for about a year and a half, and then I moved to CloudCannon after that. And yeah, I was a CloudCannon, I think, for eight or nine months... And yeah, now I'm going full indie, trying to self-sustain the project. And I think we have some fundraising goals that we're trying to hit right now, and we also have sort of this nest egg of contributions built up, that has sort of bought us a runway, as it were, to try and make this into a self sustainable, independent thing... Which is very exciting, but also scary.
 
@@ -74,7 +74,7 @@ And then I've been talking with a lot of folks about what they might want, or ne
 
 **Zach Leatherman:** And we've sort of built that over the years, of folks that have shipped things to production with 11ty. So yeah, I don't think this is necessarily the best time to go indie, as it were, just because I think a lot of marketing budgets are sort of tightening, and there is sort of -- it's a hard job market right now. But again, we have runway to grow into something that I think will be self-sustaining. So I think it's just building the right thing, that people will pay money for in terms of a product later, while also maintaining the open source project at the same time. So yeah, it's gonna be a lot of work, but I'm excited, because I do think that if this experiment is successful, the sky's the limit for the framework. So if we make it over this initial hump, then - I mean, anything's possible.
 
-**Jerod Santo:** \[00:12:03.19\] Nick, you said that the list of companies using 11ty were impressive.
+**Jerod Santo:** \[12:03\] Nick, you said that the list of companies using 11ty were impressive.
 
 **Nick Nisi:** Yeah. I mean, just right off the bat, the first four: NASA, CERN, TC39, W3C. And isn't CERN where the web was born, like with Tim Berners Lee? It's just awesome that it's -- yeah, you're influencing \[unintelligible 00:12:20.27\]
 
@@ -96,7 +96,7 @@ The Gatsby one is interesting, because they did take a different approach than y
 
 And one thing I saw when 11ty was sponsored by Netlify, a lot of the work that you did was "Well, Netlify wants this to happen", and that's makes sense, because they're funding the full-time development of it. Of course, we're gonna build that thing. And from my perspective, Zach - I'm just over here watching - I don't think necessarily a lot of that stuff made 11ty as awesome as it would have been with just the pure motivations behind it; your own and your community's. And so then after you left there, it's kind of like -- I'm streamlining, I'm ripping a lot of stuff out... I mean, that was what I read from your blog post.
 
-**Zach Leatherman:** \[00:16:13.00\] Well, yeah, we did a community survey when the Netlify change happened... And all of our -- sort of the lowest tier things that were being utilized by our community were those sort of hosting-specific things. And so it became a very easy decision to say "We don't need to maintain these super-underutilized pieces of integration moving forward, because almost no one is using them."
+**Zach Leatherman:** \[16:13\] Well, yeah, we did a community survey when the Netlify change happened... And all of our -- sort of the lowest tier things that were being utilized by our community were those sort of hosting-specific things. And so it became a very easy decision to say "We don't need to maintain these super-underutilized pieces of integration moving forward, because almost no one is using them."
 
 **Jerod Santo:** Right.
 
@@ -142,7 +142,7 @@ So I almost think that that kind of arrangement was better for the project than 
 
 **Jerod Santo:** Zach Leatherman, TypeScript proponent...
 
-**Zach Leatherman:** \[00:20:14.04\] I mean, I think that I've said over the years that I am fine with TypeScript, but I also wish that it would be a first-party part of the platform, and... I mean, I think there have been various standards discussions to add types to JavaScript as a first party thing, and I think that that's great. I would love to see that happen, as long as they're optional, and not everyone needs to use them. So yeah, I think that would be great, and I think that would be great for the platform.
+**Zach Leatherman:** \[20:14\] I mean, I think that I've said over the years that I am fine with TypeScript, but I also wish that it would be a first-party part of the platform, and... I mean, I think there have been various standards discussions to add types to JavaScript as a first party thing, and I think that that's great. I would love to see that happen, as long as they're optional, and not everyone needs to use them. So yeah, I think that would be great, and I think that would be great for the platform.
 
 And I think another part of that that's very awkward for me is when you think of something like JSX, and how much extra work went into sort of shoehorning JSX into everything. And I really feel like it would have been better for the web, generally, if that had been a standards-based movement, and not just like a piecemeal thing. Because that still isn't something that is first-party in Node.js, and so it's awkward; it's just very awkward. And we have these features that are now available in only certain JavaScript runtimes, and not all JavaScript runtimes, and now we're getting sort of into the weeds about things that are "What is JavaScript formal and what isn't?" Deno and Bun would say that it's part of their runtime, JSX and types are like first-party things. But, I mean, what happens when one of the major runtimes disagrees?
 
@@ -172,7 +172,7 @@ For a long time, I was like "I don't like what Bun's doing, because they're doin
 
 **Jerod Santo:** Well, on one side is not great, and the other side I do think is spurring some innovation and progress. Some things don't progress perfectly, but at least they're moving in a direction. Now, you can move in the wrong direction, but I think stagnation also is not great, you know?
 
-**Zach Leatherman:** \[00:23:50.16\] Yeah, and you can definitely see - Node.js seems like they've gotten a fire lit under them recently, and they've been shipping like crazy, and just adding like ESM, CJS compatibility in Node.js I think is just a huge win. I mean, you've got to assume that a lot of that was born from competition, so...
+**Zach Leatherman:** \[23:50\] Yeah, and you can definitely see - Node.js seems like they've gotten a fire lit under them recently, and they've been shipping like crazy, and just adding like ESM, CJS compatibility in Node.js I think is just a huge win. I mean, you've got to assume that a lot of that was born from competition, so...
 
 **Jerod Santo:** Yeah, I just used Node a couple of weeks back to write a server that was probably like 150 lines of code... And I hadn't used Node for a few years, and I was like "Oh, it's nice. This is pretty nice." It was easy, ESM was cool, async/await's there... And I just didn't have much trouble. ChatGPT knew most of the stuff I didn't know... What did you say, Nick?
 
@@ -194,11 +194,11 @@ For a long time, I was like "I don't like what Bun's doing, because they're doin
 
 **Zach Leatherman:** I don't have a t... Darn it.
 
-**Break**: \[00:25:24.07\]
+**Break**: \[25:24\]
 
-**Jerod Santo:** Well, one thing you've adopted recently in my eyes - and it's not new, but it's newly becoming standard - is like Web Components stuff. I mean, you seem to be all in on Web Components. I know there's this HTML-first, or HTML Web Components movement, which I talked about a little bit with Brian LaRue a couple of weeks back on the pod... And I've seen you publishing -- I don't know whether they're going to Npm or where they're going, but you're like "Here's a Web Component... And you can use my marquee." I don't know if that's one of them, but you like have things, you have widgets, that you're just like "Use my marquee element." Can you talk about that whole side of your life?
+**Jerod Santo:** Well, one thing you've adopted recently in my eyes - and it's not new, but it's newly becoming standard - is like Web Components stuff. I mean, you seem to be all in on Web Components. I know there's this HTML-first, or HTML Web Components movement, which I talked about a little bit with Brian LaRue a couple of weeks back on the pod... And I've seen you publishing -- I don't know whether they're going to npm or where they're going, but you're like "Here's a Web Component... And you can use my marquee." I don't know if that's one of them, but you like have things, you have widgets, that you're just like "Use my marquee element." Can you talk about that whole side of your life?
 
-**Zach Leatherman:** \[00:28:10.05\] Yeah, I mean, I think that at my core, I'm a frontend web developer, so even though I work on Node.js almost exclusively now... But all the websites I build use Web Components, because I really think that is the sort of lowest overhead way to build interactivity on a website, with the least amount of dev tool overhead, and tool chain overhead.
+**Zach Leatherman:** \[28:10\] Yeah, I mean, I think that at my core, I'm a frontend web developer, so even though I work on Node.js almost exclusively now... But all the websites I build use Web Components, because I really think that is the sort of lowest overhead way to build interactivity on a website, with the least amount of dev tool overhead, and tool chain overhead.
 
 So for me, it's really the sweet spot of simplicity and longevity. And that's what I love about Web Components. And I think when it comes to publishing Web Components, anytime I build something with a Web Component, why not publish it, so I can reuse it on all of my 50 websites or what I have... Probably not that many in production now, but... And all of my projects moving forward. And I really try to make my Web Components as design-free as possible. I think a lot of my demos are just like Times New Roman, the default typeface, and just as little CSS in them as possible, because I really want them to be as reusable across as many projects and design systems as possible. And I think the best way to do that is just to have these sort of just structural components that don't take a strong stance on how it should look, just how it should behave.
 
@@ -222,7 +222,7 @@ So for me, it's really the sweet spot of simplicity and longevity. And that's wh
 
 **Zach Leatherman:** That's what it is, right? I think maybe the most well-known one that I've done is is-land, which is like a lazy-loader basically, which is a Web Component that allows you to dynamically initialize or hydrate client-side components; it's just like islands architecture kind of, but in a framework-independent way. In a server tool-independent way; you can use it on any project.
 
-**Nick Nisi:** Just looking at your packages on Npm, you have the most amazing names for things... Squirminal... It's awesome.
+**Nick Nisi:** Just looking at your packages on npm, you have the most amazing names for things... Squirminal... It's awesome.
 
 **Jerod Santo:** What's that one? Is it a terminal?
 
@@ -266,7 +266,7 @@ So for me, it's really the sweet spot of simplicity and longevity. And that's wh
 
 **Nick Nisi:** And another one, Seven Minute Tabs. I love that name.
 
-**Jerod Santo:** \[00:31:51.25\] That reminds me of your old website name. Wasn't your website like 360Abs, or so? What was it? Tell me what it was.
+**Jerod Santo:** \[31:51\] That reminds me of your old website name. Wasn't your website like 360Abs, or so? What was it? Tell me what it was.
 
 **Zach Leatherman:** Yeah, that's true. What was that...? It was 7-minute tabs, Web 3.0...
 
@@ -364,7 +364,7 @@ So for me, it's really the sweet spot of simplicity and longevity. And that's wh
 
 **Jerod Santo:** Yeah, he's a late adopter. That's fair.
 
-**Nick Nisi:** \[00:35:56.07\] Yeah. How about from a maintainer side? For 11ty, is it in the back of your mind to somehow optimize things in a way that an LLM could better help other people discover 11ty, work with 11ty, give advice on properly doing things? Like, not shipping JavaScript, or you know...
+**Nick Nisi:** \[35:56\] Yeah. How about from a maintainer side? For 11ty, is it in the back of your mind to somehow optimize things in a way that an LLM could better help other people discover 11ty, work with 11ty, give advice on properly doing things? Like, not shipping JavaScript, or you know...
 
 **Zach Leatherman:** Yeah, I honestly don't know. I don't know what that would look I feel like. It might have a space in like diagnosing issues, or at least providing help for folks that are trying to diagnose issues... And I know the Astra folks have shipped some LLM stuff on their docs, and... I haven't used it personally, but I think that there's space for LLMs. I think that, I don't know, the current ecosystem around it just feels very data-slurpy, in a way that I'm not really on board with. I think that the only path forward for how I would use it maybe it's just local models on my own machine... Because I don't think that I would want to just arbitrarily send a bunch of data to Open AI, or any of these other third party services... Because who knows how they're using it, and I don't think there's enough data governance around how that data is being utilized.
 
@@ -388,7 +388,7 @@ So for me, it's really the sweet spot of simplicity and longevity. And that's wh
 
 **Jerod Santo:** And you can't opt out of that situation. On a personal level, for now - and it's still iffy - you can kind of unplug from the grid, so to speak, and just opt out of a lot... Even though there's stuff that you don't have a choice. Like maybe your tax returns, who knows. But as a tool provider, in a world where everybody is increasingly using these, you can't opt out of that. They are going to ask ChatGPT about your tool, just like they were going to google search for a tool prior... And you want to be well represented in that circumstance. We've talked about this a couple times with Jose Valim about Elixir, because I write a lot of Elixir code, and I have been using these tools... And while they are very good at TypeScript, from my perspective (how would I know...? I suck at TypeScript). But they're bad at Elixir. And so I asked Jose, I'm like "Hey, just because it's a smaller language, way less examples..." The docs are good, so if you ask very common things... But just the sample code available to the tooling is just not great... And so they will just routinely, both on the Google and the Open AI side, just give me code that's not going to work. And so I end up being like "Why am I going to use this tool? It's wrong so many times." But that's just Elixir land. Go to a different land... Nick, you're using a lot for TypeScript... It's probably right 9 out of 10 times? Eight? Seven? Where are you at?
 
-**Nick Nisi:** \[00:39:56.25\] Yeah, seven, probably... But a lot of the stuff that I've been doing with like ASTs, and doing that - like, that's a very vast, verbose API to be able to tokenize your TypeScript... And it's fantastic at that. Which makes it a lot easier to actually do that. Whereas if I couldn't just ask very context-specific questions, I would be doing a lot less with that, for sure.
+**Nick Nisi:** \[39:56\] Yeah, seven, probably... But a lot of the stuff that I've been doing with like ASTs, and doing that - like, that's a very vast, verbose API to be able to tokenize your TypeScript... And it's fantastic at that. Which makes it a lot easier to actually do that. Whereas if I couldn't just ask very context-specific questions, I would be doing a lot less with that, for sure.
 
 **Jerod Santo:** Right.
 
@@ -442,7 +442,7 @@ So for me, it's really the sweet spot of simplicity and longevity. And that's wh
 
 **Zach Leatherman:** I mean, I don't know... To me, the whole point comes back to "Do we want to make content for algorithms and computers to slurp up, or do we want to make genuine connections with people, and grow community that way?" And to me, there's just so much better return on investment trying to make connections directly with people, rather than worrying about how your page ranks on Google, or... I know it's important to at least think about it a little bit, but... Yeah, I would rather make connections with people online, so you can grow community that way... And the fragmentation of social media is making that very hard now, but...
 
-**Jerod Santo:** \[00:44:18.12\] Yeah... We take a similar perspective with our podcasts. I think we could be a lot more baity and trendy... And there's a lot we could do. We see other people doing it to just get more ears, more eyes, and do that deal. But at the end of the day, we want to have awesome conversations, that are truly valuable, and build a listenership of people who are community-oriented and like-minded. So we have a deeper connection with a smaller amount of people, versus a shallower connection with a much larger amount of people.
+**Jerod Santo:** \[44:18\] Yeah... We take a similar perspective with our podcasts. I think we could be a lot more baity and trendy... And there's a lot we could do. We see other people doing it to just get more ears, more eyes, and do that deal. But at the end of the day, we want to have awesome conversations, that are truly valuable, and build a listenership of people who are community-oriented and like-minded. So we have a deeper connection with a smaller amount of people, versus a shallower connection with a much larger amount of people.
 
 And of course, we look over at like the views that YouTube gets, and the views that are happening over at TikTok, and we're like "Oh, man... Look at that audience. It's huge." And it's like, how connected and real is that to that creator? Some have the best of both worlds. They go very deep with a lot of people... Good for them. That's amazing. But other people have to compromise the kind of content they would create in order to do that, and I think that's where you end up ultimately missing the mark. So we definitely have similar spirits on that side, Zach.
 
@@ -460,13 +460,13 @@ Let's get back to these web components, because I was having fun, man.... Nick, 
 
 **Jerod Santo:** I mean, that's where originally I assume it was from, because - I can't remember who it was. I think he in the car scene on Something About Mary... That's right. There's a hitchhiker scene, and he's hitchhiking... And he picks up this guy who's convinced that he's gonna become rich by creating a workout program called seven-minute abs...
 
-\[00:46:03.21\]
+\[46:03\]
 
 *"Seven-minute abs..."*
 
 **Jerod Santo:** ...because he's gonna undercut the eight-minute abs, which was the very popular workout program of the day.
 
-\[00:46:11.13\]
+\[46:11\]
 
 *"And we guarantee just \[unintelligible 00:46:11.26\]*
 
@@ -496,9 +496,9 @@ Let's get back to these web components, because I was having fun, man.... Nick, 
 
 **Jerod Santo:** That's a cool idea. So imagine that I'm Joe Developer, and I have a website. It's generated with Astro. And I was like "I want snowfall", and I don't want to go to CodePen and copy-paste the function. I want Zach's web component in my Astro site. What do I do? Like, what are my steps?
 
-**Zach Leatherman:** Yeah, I mean, you can install it directly from Npm...
+**Zach Leatherman:** Yeah, I mean, you can install it directly from npm...
 
-**Jerod Santo:** Npm install snowfall.
+**Jerod Santo:** npm install snowfall.
 
 **Zach Leatherman:** Yeah. I think it's scoped under my name, but... I don't know, it's not even my code, but yeah.
 
@@ -518,7 +518,7 @@ Let's get back to these web components, because I was having fun, man.... Nick, 
 
 **Zach Leatherman:** Excuse me...? Excuse me. I am just taking offense --
 
-**Jerod Santo:** \[00:48:15.16\] No offense. \[laughs\] Well, no snow is fine, right? My user experience is --
+**Jerod Santo:** \[48:15\] No offense. \[laughs\] Well, no snow is fine, right? My user experience is --
 
 **Zach Leatherman:** Oh, you mean the degraded experiences...
 
@@ -550,9 +550,9 @@ And so yeah, on the Webc docs you can go out and see... There's like seven diffe
 
 **Zach Leatherman:** Yes, absolutely. It's the curse of knowledge, right? The more you learn, the more complicated a solution gets. But it's also part of our jobs as professionals to try and learn as much as we can about things that can impact the user experience. And that is maybe the hard part of having a lot of these tooling discussions, is that almost all of the discussion that we have is around the developer experience, and the user experience is often left to be desired... Or it's not even discussed, in a lot of these avenues.
 
-\[00:52:06.06\] I don't know, I care a lot more about the user experience than the developer experience, if I had to choose one. I know you don't have to, but I think it's much more fascinating to think about these progressive enhancement strategies and how these components work in terms of how they affect users, rather than... Yeah, what's the best way to put it in my project.
+\[52:06\] I don't know, I care a lot more about the user experience than the developer experience, if I had to choose one. I know you don't have to, but I think it's much more fascinating to think about these progressive enhancement strategies and how these components work in terms of how they affect users, rather than... Yeah, what's the best way to put it in my project.
 
-**Jerod Santo:** Well, I think the nice thing about knowledge sharing is our ability to pass down the knowledge, but also to pass down the tooling. So you know a lot more about this stuff than I do. Maybe Nick is on your same level, but... I can at least Npm-install your web components, and use them at first, but then eventually, you always have to kind of look under the covers, I find, over time... How is this thing working? How can I adjust it? How can I change it? And you learn and see the way that people who have thought deeply about the subjects build their components, and you can start to build yours the same way and realize "Oh, here's an accessibility concern that's been accounted for here. I didn't even know that was a thing, now I know about it." So you start off as a script kiddie, so to speak. I'm just downloading someone else's script and using it, which is where 99% of us start in this world... And then eventually, you're like "Oh, I can read this script now." And then you're like "Oh, I can write my own script." And I've learned, hopefully, from people who know what they're doing, how to do it well, or at least what to think about when building, and we can pass down the knowledge in that way as well.
+**Jerod Santo:** Well, I think the nice thing about knowledge sharing is our ability to pass down the knowledge, but also to pass down the tooling. So you know a lot more about this stuff than I do. Maybe Nick is on your same level, but... I can at least npm-install your web components, and use them at first, but then eventually, you always have to kind of look under the covers, I find, over time... How is this thing working? How can I adjust it? How can I change it? And you learn and see the way that people who have thought deeply about the subjects build their components, and you can start to build yours the same way and realize "Oh, here's an accessibility concern that's been accounted for here. I didn't even know that was a thing, now I know about it." So you start off as a script kiddie, so to speak. I'm just downloading someone else's script and using it, which is where 99% of us start in this world... And then eventually, you're like "Oh, I can read this script now." And then you're like "Oh, I can write my own script." And I've learned, hopefully, from people who know what they're doing, how to do it well, or at least what to think about when building, and we can pass down the knowledge in that way as well.
 
 So I guess for me that's heartening, because otherwise it's like those who know and those who don't know, and how do we transfer that to everybody, so that there's not just this elite class that builds great user experiences, and then the rest of us just \[unintelligible 00:53:40.04\] spaghetti around everywhere.
 
@@ -568,7 +568,7 @@ So I guess for me that's heartening, because otherwise it's like those who know 
 
 **Zach Leatherman:** Yeah. And that's not even to say -- I mean, there's a couple of different things there. I think that a lot of tools for many years required you to have a JavaScript bundle. They gave you a JavaScript bundle by mechanism of how the tool was designed, and the assumptions that they built into the tool. And a lot of those were single-page application-focused-first tools. And I think the sort of misstep that was taken from a larger engineering perspective into these tools is that you really only need HTML and CSS to build an attractive and well-looking and well-operating website. Not every website needs extra interactivity beyond links. And so it almost became a failure of you're starting with this baseline, and someone else decided that the baseline should be much higher than it needs to be. And then a bunch of folks felt sort of left out by those assumptions that went into the tools that were made. And it's great to see some more competition in the space, that exists to satisfy these folks that were left out. Because I really think that this is a huge -- this is a great time for web developers right now, because we can build things how we want to build them, and it doesn't need to sacrifice -- just like you said, it doesn't need to sacrifice the user experience. And yeah, I love to see zero JavaScript bundle by default tools succeed.
 
-**Break**: \[00:55:46.25\]
+**Break**: \[55:46\]
 
 **Jerod Santo:** Let's switch gears quickly before we let you go, and talk about 11ty Conf. This was a big endeavor of yours over the last few months... It seemed like it was quite a hit. Of course, it had the Zach Leatherman thoughtfulness applied, and having run multiple conferences with you, I know how much you put into these things... You published a really cool retrospective, which we will link to. I think this is great for anybody who's running events online, or considering it... You have analytics, you have your budget very public there... Tell us about it, and what you think went really well, and then we maybe we'll talk about what you might do next time, or do differently... Not the full deep-dive, because people can read the blog post, but just to give us a taste.
 
