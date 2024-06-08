@@ -32,15 +32,15 @@ So we're still going to have an outro, which will be a variety of different thin
 
 **Autumn Nash:** And then when people are so excited about things, it's so much fun when they're "I totally saw that video..." and you're just "Exactly..."
 
-**Justin Garrison:** So this week on the show we have Danielle Lancashire, who is a principal engineer at Fermyon. And Fermyon is a Web Assembly cloud hosting platform that you can run your Web Assembly code, and they will run it for you. And so we get to dive into how that works, what is Web Assembly, and how the backend of Fermyon works, and how kind of you can run this stuff in either the Fermyon environment, or even what they ship as a Kubernetes interface for it. It has a lot of variety there, but if you've never used WebAssembly before never tried it, aren't familiar with it, don't worry; in the outro we also have you covered. We're gonna go over the WTA outro of What The Acronym, and explain some of the stuff... Because there's a lot of terms and stuff in the interview. We try to explain those as well, but we're gonna go into them a little bit more in the outro just as a review, so we can make sure everyone's on the same page. We want to be inclusive and help anyone, even if you don't know the tech, or you're familiar with it.
+**Justin Garrison:** So this week on the show we have Danielle Lancashire, who is a principal engineer at Fermyon. And Fermyon is a WebAssembly cloud hosting platform that you can run your WebAssembly code, and they will run it for you. And so we get to dive into how that works, what is WebAssembly, and how the backend of Fermyon works, and how kind of you can run this stuff in either the Fermyon environment, or even what they ship as a Kubernetes interface for it. It has a lot of variety there, but if you've never used WebAssembly before never tried it, aren't familiar with it, don't worry; in the outro we also have you covered. We're gonna go over the WTA outro of What The Acronym, and explain some of the stuff... Because there's a lot of terms and stuff in the interview. We try to explain those as well, but we're gonna go into them a little bit more in the outro just as a review, so we can make sure everyone's on the same page. We want to be inclusive and help anyone, even if you don't know the tech, or you're familiar with it.
 
-**Autumn Nash:** I had no idea -- before we were doing research for this episode, I had no idea what Web Assembly was, at all.
+**Autumn Nash:** I had no idea -- before we were doing research for this episode, I had no idea what WebAssembly was, at all.
 
 **Justin Garrison:** Yeah. It's pretty new.
 
 **Autumn Nash:** I found out it has just as many awful acronyms as Kubernetes, and all of your crazy stuff.
 
-**Justin Garrison:** Yeah, it's just Web Assembly's acronyms are usually in English... And that is a benefit for Web Assembly.
+**Justin Garrison:** Yeah, it's just WebAssembly's acronyms are usually in English... And that is a benefit for WebAssembly.
 
 **Autumn Nash:** Not "Let's do everything in Greek, and then \[unintelligible 00:04:31.07\]
 
@@ -56,13 +56,13 @@ So we're still going to have an outro, which will be a variety of different thin
 
 **Autumn Nash:** And it's nice that it's themed. It's one of those Pinterest birthday parties you throw your kids, but with technology... Like, you've got a thing going, and you could stick to it... It's cool to make stickers with.
 
-**Justin Garrison:** So let's jump into the interview with Danielle, and then we will come back for the outro and explain some more acronyms all around Web Assembly.
+**Justin Garrison:** So let's jump into the interview with Danielle, and then we will come back for the outro and explain some more acronyms all around WebAssembly.
 
-**Break**: \[00:05:29.26\]
+**Break**: \[05:29\]
 
 **Justin Garrison:** Hello, and welcome to the podcast, Danielle Lancashire, a principal engineer at Fermyon. Danielle, welcome. Tell us about yourself.
 
-**Danielle Lancashire:** Hi. You'd think I'd be prepared for these things ever, but I never am. I am by heart a photographer, and then by trade a software engineer at Fermyon, where I work a lot on bringing WebAssembly to the cloud... Which is a sort of interesting concept if you think about it. A lot of people think Web Assembly and hear browser... But it turns out having a portable binary format you can run anyone is kind of awesome.
+**Danielle Lancashire:** Hi. You'd think I'd be prepared for these things ever, but I never am. I am by heart a photographer, and then by trade a software engineer at Fermyon, where I work a lot on bringing WebAssembly to the cloud... Which is a sort of interesting concept if you think about it. A lot of people think WebAssembly and hear browser... But it turns out having a portable binary format you can run anyone is kind of awesome.
 
 **Justin Garrison:** And I want to dive really deep into WebAssembly and WASM in general, because portable binaries - an ELF binary is pretty portable, right? How is WASM different, and what does it do?
 
@@ -70,25 +70,25 @@ So we're still going to have an outro, which will be a variety of different thin
 
 **Autumn Nash:** The struggle is real.
 
-**Danielle Lancashire:** And so by building to a portable intermediary format like Web Assembly, you can then run those on literally anything. So I have a demo cluster where I take the same Web Assembly application, and I have a Kubernetes cluster that's RISC-V and AMD64. And the same thing just runs across all of them, with no changes. And that is the point where a lot of people go "Oh, wait, I didn't have to spend six months supporting different architectures and testing a bunch of really \[unintelligible 00:11:07.29\] dependencies?" And that's pretty awesome.
+**Danielle Lancashire:** And so by building to a portable intermediary format like WebAssembly, you can then run those on literally anything. So I have a demo cluster where I take the same WebAssembly application, and I have a Kubernetes cluster that's RISC-V and AMD64. And the same thing just runs across all of them, with no changes. And that is the point where a lot of people go "Oh, wait, I didn't have to spend six months supporting different architectures and testing a bunch of really \[unintelligible 00:11:07.29\] dependencies?" And that's pretty awesome.
 
 **Justin Garrison:** And how does that actually get accomplished? Because you have containers, which can be portable, and you just build them twice for the architectures... And then at the runtime layer says "Oh, I need the ARM, or the RISC, or the AMD, whatever version I need as executable. Give me that one." But that's like - build time, you build them multiple times. And WASM is different, right?
 
-**Danielle Lancashire:** Yeah. With WebAssembly you build once, and then it's the job of the runtime to either build a specialized version for your platform, or just interpret the Web Assembly the same way that Node interprets JavaScript... Although I think it also does some precompilation and stuff, whatever, too. Because you know, nothing is ever truly interpreted these days. So you either - like, with Wasmtime, which is what we use, there's a thing called Cranelift. And what Cranelift does is build optimized local native representations at instantiation time. All lazily, and JIT-ed, but after the first request, everything is pretty fast.
+**Danielle Lancashire:** Yeah. With WebAssembly you build once, and then it's the job of the runtime to either build a specialized version for your platform, or just interpret the WebAssembly the same way that Node interprets JavaScript... Although I think it also does some precompilation and stuff, whatever, too. Because you know, nothing is ever truly interpreted these days. So you either - like, with Wasmtime, which is what we use, there's a thing called Cranelift. And what Cranelift does is build optimized local native representations at instantiation time. All lazily, and JIT-ed, but after the first request, everything is pretty fast.
 
 **Justin Garrison:** And that sounds similar to what we had in the past with something like Python, right? So an interpreted language where it's like "Hey, the runtime handles the architecture. And my Python code doesn't have to change to run on different architectures. And then at runtime, it does some compilation for my architecture to run."
 
-**Danielle Lancashire:** Exactly. With Web Assembly you end up being a little bit lower overhead. If you compile C to WebAssembly, I think the most recent set of benchmarks I saw was like a few percentage points slower than running a native binary. But the other joy of that is you can do that for any programming language that can eventually support Web Assembly. So be that Python, Ruby, Swift, JavaScript, Rust, Go... You can truly do this polyglot thing. And when you bring in things like the component model, which is one of the sort of more recent evolutions of WASI, you can even have different components of your application be written in different languages.
+**Danielle Lancashire:** Exactly. With WebAssembly you end up being a little bit lower overhead. If you compile C to WebAssembly, I think the most recent set of benchmarks I saw was like a few percentage points slower than running a native binary. But the other joy of that is you can do that for any programming language that can eventually support WebAssembly. So be that Python, Ruby, Swift, JavaScript, Rust, Go... You can truly do this polyglot thing. And when you bring in things like the component model, which is one of the sort of more recent evolutions of WASI, you can even have different components of your application be written in different languages.
 
 For example, if you have a tooling team that writes a bunch of stuff, or doing observability, or interacting with different APIs, or whatever, you can call those from any language that your team is writing software in.
 
 **Justin Garrison:** Can you take a step back and just describe WASI for us too, the interface?
 
-**Danielle Lancashire:** Oh, yeah, I should probably do that. WASI is bringing IO to Web Assembly, basically. So Web Assembly by itself can't really talk to the outside world. It's just an executable format, and you run it in the browser, so you might extend some JavaScript browser APIs into a Web Assembly binary... But it's mostly pure put something in, get something out, not much else.
+**Danielle Lancashire:** Oh, yeah, I should probably do that. WASI is bringing IO to WebAssembly, basically. So WebAssembly by itself can't really talk to the outside world. It's just an executable format, and you run it in the browser, so you might extend some JavaScript browser APIs into a WebAssembly binary... But it's mostly pure put something in, get something out, not much else.
 
 **Justin Garrison:** And the runtime is responsible for moving that data between, right?
 
-**Danielle Lancashire:** \[00:14:04.01\] Yeah. And WASI takes the Web Assembly format, and brings a standard set of interfaces for doing a lot of the stuff that software needs to do. Sort of like POSIX APIs are to everything else, but it doesn't quite copy those, because we bring in a capability-based security model. And so you can say that "At runtime, this WASI application can talk to this set of files, and this set of files only, or make outbound requests to these specific IP addresses."
+**Danielle Lancashire:** \[14:04\] Yeah. And WASI takes the WebAssembly format, and brings a standard set of interfaces for doing a lot of the stuff that software needs to do. Sort of like POSIX APIs are to everything else, but it doesn't quite copy those, because we bring in a capability-based security model. And so you can say that "At runtime, this WASI application can talk to this set of files, and this set of files only, or make outbound requests to these specific IP addresses."
 
 **Justin Garrison:** Is that enforced in the runtime?
 
@@ -96,9 +96,9 @@ For example, if you have a tooling team that writes a bunch of stuff, or doing o
 
 **Justin Garrison:** Okay. So the runtime knows, "Hey, you have this rule set that you're allowed to do, and I'm only going to allow you to do those things", where, again, an ELF binary or a Python script - I basically have the whole machine, unless I'm containerized some other way, where I have to isolate my space with a different mechanism.
 
-**Danielle Lancashire:** Yeah. All Web Assembly stuff is pretty much default deny. And you have to sort of incrementally give it the things you want it to do. And that all happens through a standardized set of interfaces that is WASI, that's a bunch of people coming together and figuring out sort of the right way to do things, both from a security perspective, but also efficiency and standardization of like "What does it mean to talk to a database?"
+**Danielle Lancashire:** Yeah. All WebAssembly stuff is pretty much default deny. And you have to sort of incrementally give it the things you want it to do. And that all happens through a standardized set of interfaces that is WASI, that's a bunch of people coming together and figuring out sort of the right way to do things, both from a security perspective, but also efficiency and standardization of like "What does it mean to talk to a database?"
 
-**Justin Garrison:** Right. WASI stands for the Web Assembly System Interface, right?
+**Justin Garrison:** Right. WASI stands for the WebAssembly System Interface, right?
 
 **Danielle Lancashire:** Yeah.
 
@@ -116,15 +116,15 @@ For example, if you have a tooling team that writes a bunch of stuff, or doing o
 
 **Justin Garrison:** Now, what software are you responsible for? You work at Fermyon, and you have this WASM cloud that you offer... What do you run or what software are you building there?
 
-**Danielle Lancashire:** I've worked on a big mix of both our cloud, and also the bringing Web Assembly to Kubernetes stuff through SpinKube . A lot of that is sort of mine and people I work with domain, which is a mix of -- you know, for Kubernetes things we built out a Containerd shim. So Containerd has pluggable runtime environments; like execution things called shims. And there's a project called Runwasi, that exists to let you write shims that run Web Assembly code. And so we have one of those for running Spin applications, which is Fermyon's WebAssembly - I guess framework is kind of the right word... It's like kind of a runtime, but also kind of a framework, and the community hasn't really standardized on a language for that yet. And then sort of an \[unintelligible 00:17:53.25\]
+**Danielle Lancashire:** I've worked on a big mix of both our cloud, and also the bringing WebAssembly to Kubernetes stuff through SpinKube . A lot of that is sort of mine and people I work with domain, which is a mix of -- you know, for Kubernetes things we built out a Containerd shim. So Containerd has pluggable runtime environments; like execution things called shims. And there's a project called Runwasi, that exists to let you write shims that run WebAssembly code. And so we have one of those for running Spin applications, which is Fermyon's WebAssembly - I guess framework is kind of the right word... It's like kind of a runtime, but also kind of a framework, and the community hasn't really standardized on a language for that yet. And then sort of an \[unintelligible 00:17:53.25\]
 
 **Justin Garrison:** Why would I want that? Why do I want to run WebAssembly binaries inside of a Kubernetes cluster? I have containers, and I can put those languages in a container and run them, and the runtime can also handle architecture differences... Because I could build it twice, and then I can pull it down and run it on ARM versus AMD, whatever. What other benefits does a WebAssembly binary have in this case?
 
-**Danielle Lancashire:** \[00:18:18.22\] So one of the big ones is density. When a Web Assembly application is doing nothing, it is actually doing nothing. It's a bit of memory, and effectively no CPU. That's pretty different to a lot of other sort of serverless programming models, where you potentially need to be running fairly heavyweight software, and potentially two applications to have that programming model.
+**Danielle Lancashire:** \[18:18\] So one of the big ones is density. When a WebAssembly application is doing nothing, it is actually doing nothing. It's a bit of memory, and effectively no CPU. That's pretty different to a lot of other sort of serverless programming models, where you potentially need to be running fairly heavyweight software, and potentially two applications to have that programming model.
 
 In some cases that's like 10+x density improvements, which if you're worrying about cloud cost, or managing your cloud infrastructure, that can make really big differences, especially at scale. But beyond that, the security model and being able to cleanly express what you want your applications to do gives you a lot of really nice benefits, partially for things multi-tenancy, especially if you ever need to run an untrusted application in your environment.
 
-**Justin Garrison:** I've used in the past Cloudflare Workers; it's Web Assembly-based, and they have some really good blog posts on how they would speed that up, and why they use it... And I know there's other WebAssembly companies that use more - I don't wanna say lighter weight, but difference scheduling engines like Nomad, to be able to speed up execution time for scheduling... Because that's like a built-in stack. It's less flexible, but also faster than Kubernetes, in a lot of ways.
+**Justin Garrison:** I've used in the past Cloudflare Workers; it's WebAssembly-based, and they have some really good blog posts on how they would speed that up, and why they use it... And I know there's other WebAssembly companies that use more - I don't wanna say lighter weight, but difference scheduling engines like Nomad, to be able to speed up execution time for scheduling... Because that's like a built-in stack. It's less flexible, but also faster than Kubernetes, in a lot of ways.
 
 A lot of those things build layers of "Where do I want to control this thing?" Because I can control -- again, at the container layer I can say "You're not allowed to talk to this other thing" or "You're not allowed to run this kernel argument", or permissions, whatever... And at the WebAssembly layer I can do at the application, and say "Hey, the runtime will enforce "I can't read this file." And then at the cloud layer, if I'm running all this in an AWS account, I am on top of that... That says "Somewhere in there, have some Linux permissions."
 It seems like security is good and layers... But at some point you have to pick the layer that you want to operate in. And I guess the more portable you need to be, the closer you want that to be the application, right?
@@ -137,7 +137,7 @@ It seems like security is good and layers... But at some point you have to pick 
 
 I worked at CircleCI when we moved from doing a lot of stuff in preconfigured LXC containers to Docker and bring-your-own-container. And the amount of work we had to do to isolate anything sensibly was monumental in comparison to what we had to do for Fermyon Cloud. And trying to understand what anything needed was basically impossible. And now your application self-describes what it needs. It tells us that it needs this thing, and we can go "Yes, you can have this thing." And we can guarantee at deploy time that your application has access to the things it needs to, or doesn't, and bring that conversation much earlier in the loop, as opposed to doing runtime profiling to understand what syscall something is making.
 
-**Justin Garrison:** \[00:22:15.01\] Right. And I think that's just that approach of starting with the default deny, and building up is so much easier than -- I mean, not easier, but it's a different approach than what we have with containers, where we're taking all of the kernel calls and we're dividing them, and we have all these namespaces that we say "Hey, \[unintelligible 00:22:30.12\] take a big machine with a single kernel, and then make it smaller, into smaller chunks, and then how do we divvy all that up." And if at some point you want to the more secure thing, and so you're gonna say "Hey, I just need these 10, 20, 30 things, versus I don't need these hundreds of things." And how you approach those things are very different.
+**Justin Garrison:** \[22:15\] Right. And I think that's just that approach of starting with the default deny, and building up is so much easier than -- I mean, not easier, but it's a different approach than what we have with containers, where we're taking all of the kernel calls and we're dividing them, and we have all these namespaces that we say "Hey, \[unintelligible 00:22:30.12\] take a big machine with a single kernel, and then make it smaller, into smaller chunks, and then how do we divvy all that up." And if at some point you want to the more secure thing, and so you're gonna say "Hey, I just need these 10, 20, 30 things, versus I don't need these hundreds of things." And how you approach those things are very different.
 
 Can you walk through -- if I create a WASM binary, what is the process for me going from the spin command to an executable inside of Fermyon? Like, I can call it and I get data back from it. What are all the layers and steps there?
 
@@ -155,15 +155,15 @@ Can you walk through -- if I create a WASM binary, what is the process for me go
 
 **Danielle Lancashire:** That manifest is a rendered version of some TOML. It's a data structure that kind of goes "You want these key-value stores, and they're bound to these names for this application. And you want this database, and you should respond to things at this address", that kind of stuff.
 
-Then the backend monolith goes and runs a Nomad job that will go and deploy your Web Assembly app on some subset of the nodes, and that goes and does the sort of precompilation step, getting everything set up, and also goes and makes sure the databases that you wanted exist, and makes sure that your application's token has access to them. And that sort of all gets handled in the runtime layer, so your application doesn't know that there's an authentication tool, for example.
+Then the backend monolith goes and runs a Nomad job that will go and deploy your WebAssembly app on some subset of the nodes, and that goes and does the sort of precompilation step, getting everything set up, and also goes and makes sure the databases that you wanted exist, and makes sure that your application's token has access to them. And that sort of all gets handled in the runtime layer, so your application doesn't know that there's an authentication tool, for example.
 
 **Justin Garrison:** Handle that outside the app, so I don't have to deal with it as a developer.
 
-**Danielle Lancashire:** Yeah. The idea is you should focus on writing code, and it shouldn't matter what is backing any of those things... Which is a programming model that a lot of people really love, and we've had it repeatedly sort of happen over the years... Especially when sort of Heroku took the world by storm, and did a lot of stuff for you, but left you with a lot of sort of vendor lock-in. The joys of Web Assembly and standardizing on a bunch of these interfaces is that you can get that programming model without necessarily being tied into a platform forever. Because the same thing you've run on your laptop when you type spin up, and by default binds a lot of things to being in SQLite, but will also let you talk to CosmosDB, or DynamoDB, or whatever it is. It works the same way in Fermyon Cloud as it does anywhere else.
+**Danielle Lancashire:** Yeah. The idea is you should focus on writing code, and it shouldn't matter what is backing any of those things... Which is a programming model that a lot of people really love, and we've had it repeatedly sort of happen over the years... Especially when sort of Heroku took the world by storm, and did a lot of stuff for you, but left you with a lot of sort of vendor lock-in. The joys of WebAssembly and standardizing on a bunch of these interfaces is that you can get that programming model without necessarily being tied into a platform forever. Because the same thing you've run on your laptop when you type spin up, and by default binds a lot of things to being in SQLite, but will also let you talk to CosmosDB, or DynamoDB, or whatever it is. It works the same way in Fermyon Cloud as it does anywhere else.
 
 **Justin Garrison:** That layer of abstracting what I'm talking to happens at the runtime, right? So the runtime shim is saying "Oh, you wanted a key-value store. I give you a key-value store, you don't care." Right?
 
-**Danielle Lancashire:** \[00:26:14.06\] Exactly. Then the rest of the cloud rundown as it is. We have a multi-tenant key-value store that's actually backed by Postgres...
+**Danielle Lancashire:** \[26:14\] Exactly. Then the rest of the cloud rundown as it is. We have a multi-tenant key-value store that's actually backed by Postgres...
 
 **Autumn Nash:** Postgres runs the world.
 
@@ -207,7 +207,7 @@ Then the backend monolith goes and runs a Nomad job that will go and deploy your
 
 **Danielle Lancashire:** Yeah. Our biggest single node scaling bottleneck in the cloud is that because we health-check applications relatively frequently, Consul starts chewing a lot of CPU... Because if there's more than about 8,000 applications on every node, it starts consuming about four CPU cores just to do health checks. It's like, okay, we know that's a problem; we could eventually fix it.
 
-**Justin Garrison:** \[00:30:19.18\] How do you do health checks for 8000 applications on a single node, from Consul? Because they're not long-running processes, right? These are all essentially functions, so you have to start them to health-check them, right?
+**Justin Garrison:** \[30:19\] How do you do health checks for 8000 applications on a single node, from Consul? Because they're not long-running processes, right? These are all essentially functions, so you have to start them to health-check them, right?
 
 **Danielle Lancashire:** Yeah.
 
@@ -217,7 +217,7 @@ Then the backend monolith goes and runs a Nomad job that will go and deploy your
 
 **Autumn Nash:** How do you do that efficiently, though?
 
-**Danielle Lancashire:** I mean, partially because running Web Assembly stuff is relatively efficient to begin with. It takes less than a millisecond for a Web Assembly application to start.
+**Danielle Lancashire:** I mean, partially because running WebAssembly stuff is relatively efficient to begin with. It takes less than a millisecond for a WebAssembly application to start.
 
 **Justin Garrison:** It's essentially forking a process, right? Because the runtime's there, it's always running, and we have this binary that it's just gonna execute... And so we're just like "Oh, fork the process and kill it." Right?
 
@@ -243,9 +243,9 @@ Then the backend monolith goes and runs a Nomad job that will go and deploy your
 
 **Justin Garrison:** And so at that point, you take your runtime and shove it in a pod, and then all of the applications that run under that are all under one IP address, but it routes in does all this stuff to say like "Hey, we're just gonna fork or run these threads, running these executables inside of this one container." And now if I'm debugging it from a Kubernetes admin perspective, I say "Hey, I want to get my pod", but that's just at runtime. \[unintelligible 00:33:32.16\] want to get my application, I need to go a layer deeper than that.
 
-**Danielle Lancashire:** Exactly. So my prototype for this runs 3,000 apps on every node, with basically zero noticeable overhead. So at the networking layer, that still means making a service for every application, but an application might be multiple Web Assembly components. Because you might want a different component per set of routes, or something, in a HTTP application, depending on how you want to architect your application. So we create a service per application, and then we bind the runtimes that are running that application to the service, when the application is ready.
+**Danielle Lancashire:** Exactly. So my prototype for this runs 3,000 apps on every node, with basically zero noticeable overhead. So at the networking layer, that still means making a service for every application, but an application might be multiple WebAssembly components. Because you might want a different component per set of routes, or something, in a HTTP application, depending on how you want to architect your application. So we create a service per application, and then we bind the runtimes that are running that application to the service, when the application is ready.
 
-**Justin Garrison:** \[00:34:16.28\] And those are just pods behind a service. In Kubernetes' case this is like I have a service, and that routes to pods, and then the runtime itself says "Oh, I was called on this path or this host name. Let me start that application for you."
+**Justin Garrison:** \[34:16\] And those are just pods behind a service. In Kubernetes' case this is like I have a service, and that routes to pods, and then the runtime itself says "Oh, I was called on this path or this host name. Let me start that application for you."
 
 **Danielle Lancashire:** Exactly. And it works surprisingly well. It's one of those things where you think something's gonna work, but then you try it, and it works better than you expected it to.
 
@@ -255,7 +255,7 @@ Then the backend monolith goes and runs a Nomad job that will go and deploy your
 
 **Justin Garrison:** And why? Why put your cloud in a Kubernetes box when you're doing everything with EC2 and Nomad now?
 
-**Danielle Lancashire:** It turns out a lot of people really like the programming model of serverless... But between sort of potential vendor issues, cost, whatever else means that they're looking for something else. And Web Assembly, in my opinion, is basically what serverless should be. You completely separate away the runtime from the application, and so you don't need your application to bind to a socket... Which you still have in a lot of other serverless environments. Combine that with Web Assembly's security capabilities, and the fact that it actually does scale to effectively zero, you get this sort of perfect coupling of infrastructure that can support the programming model.
+**Danielle Lancashire:** It turns out a lot of people really like the programming model of serverless... But between sort of potential vendor issues, cost, whatever else means that they're looking for something else. And WebAssembly, in my opinion, is basically what serverless should be. You completely separate away the runtime from the application, and so you don't need your application to bind to a socket... Which you still have in a lot of other serverless environments. Combine that with WebAssembly's security capabilities, and the fact that it actually does scale to effectively zero, you get this sort of perfect coupling of infrastructure that can support the programming model.
 
 Whereas before we had a programming model, we were shoehorning into infrastructure that couldn't really handle it, and that meant that we were paying huge startup costs if you wanted to run anything in Lambda, or other similar stuff, because you've got to go fetch a container, start a VM, launch the thing, and then set up all your network pathways. And that's in response to a request... Like, I never understood it. I was like, I like the idea of serverless... But I could never get behind ever shipping something in a serverless way. There's just too many drawbacks.
 
@@ -271,15 +271,15 @@ How would you describe -- and I wanted to bring this conversation this way, beca
 
 **Autumn Nash:** It's 8... And I think the world will blow up before it fully dies. But that's not the point, Justin...
 
-**Justin Garrison:** \[00:38:06.07\] It's like, I remember running Java 4, or 5, or something like that, and we had these Tomcat apps...
+**Justin Garrison:** \[38:06\] It's like, I remember running Java 4, or 5, or something like that, and we had these Tomcat apps...
 
-**Autumn Nash:** But Java has also done a lot. They've increased how you're going to release every six months, so that problem does not continue happening. Smaller releases, smaller jumps... But honestly, I've never used Web Assembly, so I do not have the context to compare the two.
+**Autumn Nash:** But Java has also done a lot. They've increased how you're going to release every six months, so that problem does not continue happening. Smaller releases, smaller jumps... But honestly, I've never used WebAssembly, so I do not have the context to compare the two.
 
 **Justin Garrison:** Well, that's what I was curious... I wanted to know, either Autumn or Danielle, if his promise keeps repeating itself. Is WebAssembly the new Java?
 
 **Autumn Nash:** Isn't that kind of just tech in general? Everybody wants to do the new cool thing, and then half the time they don't even use the old cool thing, they just come up with a new cool thing, because they're like "I have the most brilliant idea ever, and nobody's ever done it before." And they have...
 
-**Danielle Lancashire:** When I speak at very enterprise conferences, I describe Web Assembly as FastCGI for the modern era... Partially just because that is basically what serverless is. But also, the execution model of WebAssembly is so close to that. Java is always interesting to me, partially because Sun needed Java to succeed, existentially... And then - well, there's a reason why you can't go work at Sun Microsystems. But Java did a lot of really interesting things, and I think part of the reason the JVM could never really be all it could be was because it was so tied to Java the language.
+**Danielle Lancashire:** When I speak at very enterprise conferences, I describe WebAssembly as FastCGI for the modern era... Partially just because that is basically what serverless is. But also, the execution model of WebAssembly is so close to that. Java is always interesting to me, partially because Sun needed Java to succeed, existentially... And then - well, there's a reason why you can't go work at Sun Microsystems. But Java did a lot of really interesting things, and I think part of the reason the JVM could never really be all it could be was because it was so tied to Java the language.
 
 A lot of the stuff now exists will run Python on the JVM, and whatever... But a lot of that is sort of very new, and Java has its own big set of bloaty problems, and people that need to understand how to tune, and work on all of the bits that let the JVM be good... But you don't see the JVM real scaling down effectively. I mean Java Card exists, but that's not JVM, is it?
 
@@ -293,7 +293,7 @@ The thing I'm actually really struggling with is finding the right layer of expr
 
 One of the things that I want to model in our Kubernetes stuff eventually is the concept of a default data store. So in Fermyon Cloud, every application gets access to at least a "default" key-value store, which is really nice to rely on, because it means that every component can assume that it has access to some form of cash. And in building a lot of applications on top of that, it's a really powerful assumption to be able to make. And we want to be able to bring that kind of thing into Kubernetes.
 
-\[00:42:25.00\] So what I'm thinking about is, how do you give that kind of magic to someone without making them write a ton of YAML? Because anything that is a configurable knob is something that will be off by default. And then you can't rely on that assumption anymore. And it's really hard to get right.
+\[42:25\] So what I'm thinking about is, how do you give that kind of magic to someone without making them write a ton of YAML? Because anything that is a configurable knob is something that will be off by default. And then you can't rely on that assumption anymore. And it's really hard to get right.
 
 **Justin Garrison:** Especially generally, right? Because if you could get something right for a specific use case, or for a certain type of developer application, like "Yeah, this is the right way to do this thing."
 
@@ -335,7 +335,7 @@ One of the things that I want to model in our Kubernetes stuff eventually is the
 
 **Danielle Lancashire:** I hate the sparkle points, or innovation points analogy, but it works so well...
 
-**Autumn Nash:** \[00:46:15.19\] Well, and it also just sucks, because I do think some things are super-interesting about AI... But now I'm scared to even touch those things, because what happens when it bursts? You know what I mean? So it's not even like a shade to the new, shiny thing.
+**Autumn Nash:** \[46:15\] Well, and it also just sucks, because I do think some things are super-interesting about AI... But now I'm scared to even touch those things, because what happens when it bursts? You know what I mean? So it's not even like a shade to the new, shiny thing.
 
 **Danielle Lancashire:** Oh, I haven't even tried ChatGPT. I'm like "I'm too boring for this."
 
@@ -383,7 +383,7 @@ One of the things that I want to model in our Kubernetes stuff eventually is the
 
 **Danielle Lancashire:** Cool. Well, this has been great.
 
-**Break**:\[00:50:06.10\]
+**Break**:\[50:06\]
 
 **Justin Garrison:** Thank you so much, Danielle, for coming on the show and telling us all about the backend of Fermyon and WebAssembly in general. And it's just such a different mindset when you think "Oh, I'm going to shove 1000 applications on a single instance", compared to back in the day when it was like one server one application, containers, Kubernetes, "Oh, I can get maybe 100 or so." It's like "Yeah, let's just change how this works, and get 1,000 out of it." That's just really cool.
 
@@ -394,17 +394,17 @@ So ASM stands for Assembly, and again, I don't know why... There is an A, an S a
 
 **Autumn Nash:** I'm not sure.
 
-**Justin Garrison:** But WebAssembly is Wasm, or WASM, and if you're reading it or writing it, usually the acronym is all capitalized. Not all acronyms are fully capitalized. And also, when you're writing Web Assembly out long ways, it's one word, with the W and the A camel cased. So just FYI, to get those things right sometimes. It looks better if you're correct in how you're spelling it.
+**Justin Garrison:** But WebAssembly is Wasm, or WASM, and if you're reading it or writing it, usually the acronym is all capitalized. Not all acronyms are fully capitalized. And also, when you're writing WebAssembly out long ways, it's one word, with the W and the A camel cased. So just FYI, to get those things right sometimes. It looks better if you're correct in how you're spelling it.
 
-**Autumn Nash:** It's really cool meeting different people and learning about products, and then seeing where they come from. I wouldn't have -- like, Mozilla came up with that, and just seeing the things that have come out of Meta and all these different places... And then they create something, and then open-source it... It's really cool.
+**Autumn Nash:** It's really cool meeting different people and learning about products, and then seeing where they come from. I wouldn't have -- like, Mozilla came up with that, and just seeing the things that have come out of Meta and all these different places... And then they create something, and then open source it... It's really cool.
 
 **Danielle Lancashire:** Yeah, and really the beginning of asm.js was all about getting a smaller subset of JavaScript. They wanted to minimize the amount of what -- JavaScript is a big language. And how do we take just a small subset of JavaScript, and then we can compile it? And we can take it and we can actually just run it at more native speeds, because JavaScript is an interpreted language. And when you're moving text files around and then trying to interpret it and just-in-time compile it, those are all things that just take time, and it's something that machines, like, hey, what if we compile this up ahead of time, before we send it to a person? We can make the file size smaller, because it can be actually in bytes, not in text, or ASCII... And then also just the machine can read it, and just start executing it. And there's all these steps you can kind of avoid... And then by minimizing all of the JavaScript, from not everything, but a smaller subset, you can say "Oh, you only write a small subset of JavaScript", but then we can compile that and be really fast about it, because we know how that's going to compile into what our runtime is going to execute.
 
 **Autumn Nash:** Not to defend JavaScript - I can't believe I'm defending JavaScript, but... I mean, I think it's because it started off for one use, and then people want it to do so many different things, and to be object-oriented programming, and it just became so much, to do so many things that it just got so big.
 
-**Justin Garrison:** \[00:53:44.04\] And WebAssembly has followed a very similar trajectory, where JavaScript was first designed for the web browser, WebAssembly ran in browsers, and it was targeted for browser environments, and how we make web apps faster. And then it kind of shifted into what Node.js did for JavaScript, where it's like "Oh, we can run this on the server", and we can say "Oh, we have a runtime that runs outside of the browser", and "How does that work?" And that's what a lot of the Fermyon and the WebAssembly cloud environments do. We're like "Hey, we're executing code that runs services", and most of the time these are functions, these are more like Lambda functions, or function as a service, where it's just executing one thing and then dying... That's how Cloudflare workers and Fermyon works.
+**Justin Garrison:** \[53:44\] And WebAssembly has followed a very similar trajectory, where JavaScript was first designed for the web browser, WebAssembly ran in browsers, and it was targeted for browser environments, and how we make web apps faster. And then it kind of shifted into what Node.js did for JavaScript, where it's like "Oh, we can run this on the server", and we can say "Oh, we have a runtime that runs outside of the browser", and "How does that work?" And that's what a lot of the Fermyon and the WebAssembly cloud environments do. We're like "Hey, we're executing code that runs services", and most of the time these are functions, these are more like Lambda functions, or function as a service, where it's just executing one thing and then dying... That's how Cloudflare workers and Fermyon works.
 
-There are some that are starting to do these long-running processes, more like a traditional web server like Nginx... But that gets into the next acronym of the Web Assembly System Interface, which we did mention in the interview. The WASI. It's that interface of how -- it's kinda the Node.js of WebAssembly, of like "How does this thing that is intended to run inside of basically an operating system... Like, a browser is an operating system to many, many degrees. It has isolation, it has all this runtime stuff that's built into the browser... But what if we don't have a browser? What if we don't have Chrome, or Firefox, and so you need another runtime engine that can execute this code?
+There are some that are starting to do these long-running processes, more like a traditional web server like Nginx... But that gets into the next acronym of the WebAssembly System Interface, which we did mention in the interview. The WASI. It's that interface of how -- it's kinda the Node.js of WebAssembly, of like "How does this thing that is intended to run inside of basically an operating system... Like, a browser is an operating system to many, many degrees. It has isolation, it has all this runtime stuff that's built into the browser... But what if we don't have a browser? What if we don't have Chrome, or Firefox, and so you need another runtime engine that can execute this code?
 
 **Autumn Nash:** That's like when people try to argue if a hot dog's a sandwich or not... And then people have these debates on Twitter...
 
@@ -432,13 +432,13 @@ There are some that are starting to do these long-running processes, more like a
 
 Ahead Of Time, or AOT compilation is what you do with a Rust, or Go, or something that's like "Oh, I'm gonna make this binary, and then we're going to ship the binary out."
 
-WASI Interfaces was tripping me up, because WASI is Web Assembly System Interface, and then there's an Interfaces on top of that...
+WASI Interfaces was tripping me up, because WASI is WebAssembly System Interface, and then there's an Interfaces on top of that...
 
 **Autumn Nash:** It's like an interface-interface?
 
 **Justin Garrison:** Yes, it's like ATM machine... You have an Automated Teller Machine Machine, is how that works... And so it feels a little redundant. But the WASI interfaces is just like general categorization of how your code is going to interact with a wider system. And those are things like input/outputs for streams, clocks, random filesystems, sockets... There's a couple other ones. CLI and HTTP... These are all different interfaces that your application says "Oh, I need the file system, and so I'm going to use that interface", and those get declared in what's called a WIT file. These acronyms just keep -- they're all W's, and they just keep... Kubernetes stuff is Ks, all WebAssembly is W's. And a WIT file is a WebAssembly Interface Type. And so you define that as "Hey, I need to use this interface." And then when the runtime is going to let you run, it says "Oh, you can or cannot access that thing", which has good and bad parts of it, because if I'm using the runtime and say "Hey, I want to interface with the database", then it doesn't matter what the database is on the backend. I need a SQL database. And the runtime can interface and say "Oh, well you can get MySQL, you can get Postgres, you can get whatever I tell you is this generic database thing." And that could be really good from an application developer; you're like "I just need the generic thing", but can also be bad --
 
-**Autumn Nash:** \[00:58:06.23\] When you need something specific.
+**Autumn Nash:** \[58:06\] When you need something specific.
 
 **Justin Garrison:** Exactly. You're like "I need this specific feature, from this --"
 
@@ -456,7 +456,7 @@ WASI Interfaces was tripping me up, because WASI is Web Assembly System Interfac
 
 **Autumn Nash:** Okay, I'm here for how it sounds. Their acronyms are very cute. I don't know if I would guess any of these things from the acronym, but you know...
 
-**Justin Garrison:** And that's why we're here. That's why we're explaining this stuff. So Wasmer is a runtime. So again, you can execute your WASM bytecode... And it's created by the Wasmer company. I actually don't know -- I couldn't find who's behind the Wasmer company, but they make a runtime named after themselves... But they also make WAPM, which is the Web Assembly Package Manager. And this is kind of like a registry of reusable bits for Web Assembly-compiled code. You can think of this as any sort of registry as something similar to maybe a TerraForm modules, or Docker Hub... The downside is this is very, very new, and so when I looked at it, there was only like 1,000 packages out there... And there was only a dozen that looked reasonably useful. A lot of them to me were just like "Oh, I've no idea what that does." It seems like someone just uploaded a package just to see how uploading packages works. So it looks a little bit promising, but again, another acronym that you might want to know, because they have a command line tool WAPM to install packages from their registry.
+**Justin Garrison:** And that's why we're here. That's why we're explaining this stuff. So Wasmer is a runtime. So again, you can execute your WASM bytecode... And it's created by the Wasmer company. I actually don't know -- I couldn't find who's behind the Wasmer company, but they make a runtime named after themselves... But they also make WAPM, which is the WebAssembly Package Manager. And this is kind of like a registry of reusable bits for WebAssembly-compiled code. You can think of this as any sort of registry as something similar to maybe a TerraForm modules, or Docker Hub... The downside is this is very, very new, and so when I looked at it, there was only like 1,000 packages out there... And there was only a dozen that looked reasonably useful. A lot of them to me were just like "Oh, I've no idea what that does." It seems like someone just uploaded a package just to see how uploading packages works. So it looks a little bit promising, but again, another acronym that you might want to know, because they have a command line tool WAPM to install packages from their registry.
 
 **Autumn Nash:** I feel like half of tech is algorithms.
 
@@ -476,7 +476,7 @@ WASI Interfaces was tripping me up, because WASI is Web Assembly System Interfac
 
 **Autumn Nash:** Go to bed.
 
-**Justin Garrison:** \[01:00:44.17\] The last one I wanna talk about, the last runtime is Wasmtime, and this one is created by the Bytecode Alliance. And the Bytecode Alliance is a nonprofit that is trying to push the specs forward for what Web Assembly is, what WASI is, and they created Wasmtime as a runtime for Web Assembly. And the Bytecode Alliance - I couldn't tell if they were a sub organization... A lot of them are part of the Linux Foundation.
+**Justin Garrison:** \[01:00:44.17\] The last one I wanna talk about, the last runtime is Wasmtime, and this one is created by the Bytecode Alliance. And the Bytecode Alliance is a nonprofit that is trying to push the specs forward for what WebAssembly is, what WASI is, and they created Wasmtime as a runtime for WebAssembly. And the Bytecode Alliance - I couldn't tell if they were a sub organization... A lot of them are part of the Linux Foundation.
 
 **Autumn Nash:** Yeah, that's what I'm trying to understand... What is the hierarchy, or the way this is all structured?
 
