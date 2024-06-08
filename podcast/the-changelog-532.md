@@ -24,11 +24,11 @@ But when Whisper came out, I happened to be working on a smaller library... It w
 
 **Adam Stacoviak:** For sure.
 
-**Georgi Gerganov:** Yeah. So I was working on this library, I wanted it to have some basic functionality, make it kind of efficient, very strict with the memory management, avoid unnecessary memory allocation, have \[unintelligible 00:09:31.10\] Some kind of a tool that you can basically use in other projects to solve different machine learning tasks. I wasn't thinking about neural networks a lot, as I mentioned. It was kind of not interesting to me at that point...
+**Georgi Gerganov:** Yeah. So I was working on this library, I wanted it to have some basic functionality, make it kind of efficient, very strict with the memory management, avoid unnecessary memory allocation, have multithreading support. Some kind of a tool that you can basically use in other projects to solve different machine learning tasks. I wasn't thinking about neural networks a lot, as I mentioned. It was kind of not interesting to me at that point...
 
-Okay, so I had some initial version of ggml, and there was some hype about GPT by that time, I guess... And also, I was definitely inspired by Fabrice Bellard. He had a similar Tensor library, LibNC I think it's called... And there was an interesting idea to try to implement a transformer model; GPT-2 is such a model. And I already had \[unintelligible 00:10:22.00\] necessary functionality. So I gave it a try, I actually found some interesting blog post or tutorial, like GPT-2 illustrated, or something like this... I went through the steps, I implemented this with ggml, I was happy, it was running, it was generating some \[unintelligible 00:10:44.29\] and I think I posted on Reddit; maybe also Hacker News, I forgot... But basically no interest. And I said "Okay, I guess that's not very interesting to people. Let's move on with other stuff."
+Okay, so I had some initial version of ggml, and there was some hype about GPT by that time, I guess... And also, I was definitely inspired by Fabrice Bellard. He had a similar Tensor library, LibNC I think it's called... And there was an interesting idea to try to implement a transformer model; GPT-2 is such a model. And I already had the tools, had the necessary functionality. So I gave it a try, I actually found some interesting blog post or tutorial, like GPT-2 illustrated, or something like this... I went through the steps, I implemented this with ggml, I was happy, it was running, it was generating some Jun-shu [rich sake] and I think I posted on Reddit; maybe also Hacker News, I forgot... But basically no interest. And I said "Okay, I guess that's not very interesting to people. Let's move on with other stuff."
 
-The next day, or the day after that, Whisper came out... And I opened the repo, OpenAI \[unintelligible 00:11:11.29\] I look at the code, and I figured basically this is like 90% I have the code already written for the GPT-2... Because like the transformer model in Whisper, it's kind of very similar to GPT-2. I mean, there are obviously some differences as well, but the core stuff is quite similar.
+The next day, or the day after that, Whisper came out... And I opened my repo, OpenAI's, and look back at my repo. I look at the code, and I figured basically this is like 90% I have the code already written for the GPT-2... Because like the transformer model in Whisper, it's kind of very similar to GPT-2. I mean, there are obviously some differences as well, but the core stuff is quite similar.
 
 So I figured "Okay, I can easily port this. It might be interesting to have it running on a CPU. I know that everybody's running it on GPUs, so probably it will not be efficient, it will not be very useful, but let's give it a try." And that's basically how it came. And yeah, it slowly started getting some traction.
 
@@ -162,7 +162,7 @@ So I tried a few things... I know people are also trying to do this... I guess i
 
 He actually came from GitHub and they had this thing called GitHub TV when he worked there, and Connor's a designer, and long story short, they had this thing, and so he really wanted the transcription feature, and they have transcripts that are pretty amazing, and they have this diarization - I don't know if that's what they call it, but they have Jerod, Adam, whomever else, labeled. Why is it possible there and why is it such a hard thing here?
 
-**Georgi Gerganov:** Yeah, I think the explanation is basically Whisper wasn't designed for this task, and I guess most likely they're using something that was designed for this task; some other models that were trained to do diarization. And yeah, you can always pull in some third-party project and \[unintelligible 00:36:55.16\] network, to do this extra step. It would be cool being able to do it with a single model, but for now it's not possible.
+**Georgi Gerganov:** Yeah, I think the explanation is basically Whisper wasn't designed for this task, and I guess most likely they're using something that was designed for this task; some other models that were trained to do diarization. And yeah, you can always pull in some third-party project and await the network, to do this extra step. It would be cool being able to do it with a single model, but for now it's not possible.
 
 **Adam Stacoviak:** Is it kind of like converting your .wav file to 16-bit first, before using the model? It's like one more step in the mix, basically?
 
@@ -236,7 +236,7 @@ So yeah, I guess using Accelerate is not really something new. It's probably not
 
 **Jerod Santo:** It works for now. It's good enough for us, regular people... So on the Whisper front -- I know we should get to LLaMA here soon, because it's the most exciting new thing, and here we are, burying the lead deep into the show, like fools... But Whisper is interesting to me. The GPU support - so one of the things about it is it's simple, it's great hardware support, very generic, runs on the CPU... You do have GPU support also on the roadmap. Is that something that you're just -- you put it on there because people asked for it, or are you actually interested in this? Because it seems like it could definitely complicate things.
 
-**Georgi Gerganov:** Yeah, GPU support I avoid, because usually you have to learn some framework, like CUDA, or OpenCL, stuff like this... Stuff like this. It's complicated, it takes time to understand everything... There are some workarounds, like using \[unintelligible 00:45:37.09\] where it kind of automatically does it for you... But I don't know, there'll be probably in the future some basic support. I think more interesting for Apple hardware is the transition of the encoder part, one of the heavy parts to the Apple Neural Engine, which we already have a prototype...
+**Georgi Gerganov:** Yeah, GPU support I avoid, because usually you have to learn some framework, like CUDA, or OpenCL, stuff like this... Stuff like this. It's complicated, it takes time to understand everything... There are some workarounds, like using NVBLAS, where it kind of automatically does it for you... But I don't know, there'll be probably in the future some basic support. I think more interesting for Apple hardware is the transition of the encoder part, one of the heavy parts to the Apple Neural Engine, which we already have a prototype...
 
 **Jerod Santo:** Oh, nice.
 
@@ -288,7 +288,7 @@ I tried to make it so they're kind of able to get into it, like create some entr
 
 **Georgi Gerganov:** Basically, we had to forbid quantization stuff for the Whisper, just an idea working, where you basically take the model, you compress it down to 4 bits, you lose some accuracy, but it's smaller, it's faster... So we had that in ggml, and it was available.. So a few days later comes out the LLaMA, I do some calculations and I figure out "Okay, 65 billion parameters. You probably need about 40 gigs of RAM, with 4-bit quantization. So this can run on a MacBook. Why not do it?"
 
-And yeah, it just was a matter of time to find some free time to try it, and... Yeah, last Friday, I came after work home, had \[unintelligible 00:51:26.13\] Why I was able to do it so quickly - basically, for all that I saw it's pretty much GPT-J architecture with some modifications, like some extra memorization layers. It's minor changes. Basically, again, the existing code for the GPT-J, I just simply modified it there, it happened pretty quickly.
+And yeah, it just was a matter of time to find some free time to try it, and... Yeah, last Friday, I came after work home, I had the worst day... Why I was able to do it so quickly - basically, for all that I saw it's pretty much GPT-J architecture with some modifications, like some extra memorization layers. It's minor changes. Basically, again, the existing code for the GPT-J, I just simply modified it there, it happened pretty quickly.
 
 **Adam Stacoviak:** You had a leg up. Prior art helped you, that you created.
 
@@ -328,7 +328,7 @@ And yeah, it just was a matter of time to find some free time to try it, and... 
 
 **Jerod Santo:** Yeah.
 
-**Georgi Gerganov:** So with the \[unintelligible 00:54:55.13\] generation - I mean, yeah, it's developing quite fast... I personally haven't seen anybody that's not going this direction, but... Yeah, I think people are just basically excited to be able to run this locally. I'm mostly doing it for fun, I would say...
+**Georgi Gerganov:** So with the texting generation - I mean, yeah, it's developing quite fast... I personally haven't seen... anyway let's not go in this direction, but... Yeah, I think people are just basically excited to be able to run this locally. I'm mostly doing it for fun, I would say...
 
 **Adam Stacoviak:** Did you have to agree to those strict terms to get access to the model from Facebook?
 
