@@ -26,7 +26,7 @@ In the meantime, we're wondering about copyright. We're wondering about the law 
 
 **Adam Stacoviak:** I think so, too. I was reading \[unintelligible 00:06:56.20\] I believe, Jerod; you and I are subscribed to this newsletter. It was actually part of the -- I think this week's or today's newsletter. And I think one thing they mentioned was essentially that nearly 3,000 newspapers have closed or merged since 2005. And I'm just reading from essentially their perspective on this... Which is kind of telling, because before AI there was social media, there was the News tab inside of Meta, slash Facebook now, which caused a lot of drama... There was a lot of deals struck then, which - the challenge there is not "Oh, it's now funneled through one place", it's algorithmically funneled through one place. And now you have newsrooms, who should be journalists, in quotes journalists (and sometimes they are actually journalists), they should be journalistically pursuing the truth of what's happening in the world and telling it to the world... Because that's the whole point of news, right? It's not that it's biased based upon a political stance, or an ideological stance, or a newsroom stance... There's editorial, of course, but now they've got to compete with the algorithm, which means we get visibility, or we don't. And that really shifted a lot of stuff, too. And now essentially we have a new version of what happened then. Now, with AI, which is "Will AI only be consuming AI content?" There's lots of stuff I'm sure you can tell us, but... Before this was social media, essentially.
 
-**Luis Villa:** \[00:08:18.08\] Yeah. Well, and for newspapers in specific in the US, it's even before social media that Craigslist was eating their lunch, and even before that... And private equity is eating the backend... There's a lot going on there. But yeah, I mean, this is something that we dealt with it at Wikipedia for a long time... Because Wikipedia got really sort of lucky timing-wise... I mean, obviously, we all know it, we all love it, but it rose to prominence in part sort of hand in hand with the Google algorithm. Before there was SEO, Google had already decided "We frickin' love Wikipedia", which is great for Wikipedia. As Google got more popular, Wikipedia got more popular. It's a pretty clear relationship there. And then at some point, Google was like "We could just read Wikipedia articles. We can read the info boxes. We can start pulling out all this information."
+**Luis Villa:** \[08:18\] Yeah. Well, and for newspapers in specific in the US, it's even before social media that Craigslist was eating their lunch, and even before that... And private equity is eating the backend... There's a lot going on there. But yeah, I mean, this is something that we dealt with it at Wikipedia for a long time... Because Wikipedia got really sort of lucky timing-wise... I mean, obviously, we all know it, we all love it, but it rose to prominence in part sort of hand in hand with the Google algorithm. Before there was SEO, Google had already decided "We frickin' love Wikipedia", which is great for Wikipedia. As Google got more popular, Wikipedia got more popular. It's a pretty clear relationship there. And then at some point, Google was like "We could just read Wikipedia articles. We can read the info boxes. We can start pulling out all this information."
 
 And Wikipedia - that was something we worried about a lot when I was there. And Wikipedia probably has some qualities that make it a little more resistant to that. But if I was a newspaper, I'd be terrified. They're reading all my headlines, which is all most people have ever read. Even before social media, that was mostly what people read, was the headlines... And they're in a world of hurt there. I can understand why that's terrifying, especially if you don't think your local news or your local spin on it is all that interesting to people... And I think a lot of people in the newspaper industry are very confident in their own product. At least Wikipedia - whatever else you think of it, Wikipedians are pretty confident in the product, and I'm not sure that's the case in the news industry right now. So you're looking around for other revenue sources...
 
@@ -48,7 +48,7 @@ I almost think it's more of a straightforward deal now, though. Like, if this is
 
 **Luis Villa:** I don't know if it's exactly -- you know, simplifying has some implications of being like "Oh, yeah, now everybody understands. This is all good." I mean, you know, sometimes clarifying can just mean "Now we see exactly how the beast works, and we don't necessarily like it."
 
-\[00:12:07.16\] I mean, I don't really know -- I mean, a couple things, right? I think that's right... But okay, well, one, what's our alternatives? Are we going to start seeing more alternatives that are sort of bottom up, community up in some way? Distributed in some way? I don't know. I suspect not, because it's still expensive to host this stuff... But there's going to be people who opt out, and what are they going to do? Where are they going to go? I think that's an interesting question.
+\[12:07\] I mean, I don't really know -- I mean, a couple things, right? I think that's right... But okay, well, one, what's our alternatives? Are we going to start seeing more alternatives that are sort of bottom up, community up in some way? Distributed in some way? I don't know. I suspect not, because it's still expensive to host this stuff... But there's going to be people who opt out, and what are they going to do? Where are they going to go? I think that's an interesting question.
 
 **Jerod Santo:** That's the hard part. I think the only current best answer is like Fediverse and ActivityPub, and we just haven't seen that really lay enough technical foundation. I know there are Reddit alternatives that are ActivityPub, and I can't think of the name of the protocol... Not the protocol, but --
 
@@ -76,7 +76,7 @@ I almost think it's more of a straightforward deal now, though. Like, if this is
 
 **Jerod Santo:** Yeah.
 
-**Luis Villa:** \[00:15:40.16\] Because if they get a ruling that this is all fair, that all this scraping is fair use, they don't need a contract like this anymore, and they could just go do it. And so we don't know -- as part of that negotiation, what did they agree in that case? If they get a favorable Fair Use ruling, do they keep paying? Do they walk away? That's actually, I think, a really important thing for our understanding of what the equilibrium is going forward, and we just don't know. For the moment, that's a totally secret clause. We don't know what that looks like.
+**Luis Villa:** \[15:40\] Because if they get a ruling that this is all fair, that all this scraping is fair use, they don't need a contract like this anymore, and they could just go do it. And so we don't know -- as part of that negotiation, what did they agree in that case? If they get a favorable Fair Use ruling, do they keep paying? Do they walk away? That's actually, I think, a really important thing for our understanding of what the equilibrium is going forward, and we just don't know. For the moment, that's a totally secret clause. We don't know what that looks like.
 
 **Adam Stacoviak:** How clear is fair use, to your knowledge? Pretty ambiguous?
 
@@ -102,7 +102,7 @@ The other thing that I think we really need to seriously consider at this point 
 
 **Jerod Santo:** Embarrassing.
 
-**Luis Villa:** \[00:19:50.24\] ...some hilarious garbage, right? Embarrassing garbage... And there's just no amount of like -- there's no amount of additional text you can feed to the machine to get it to not embarrass itself this way under the current LLM paradigm. It's just not going to -- so maybe we see that all this stuff gets put back in a corner a little bit, and it becomes less... I mean, part of the reason why everybody's doing these deals now is because everybody smells a giant pot of money. And maybe the pot of money is not as big as we think it is. Maybe hallucination limits -- hallucination or just the inability to tell fact from truth. I mean, my favorite of these ones from Google last week - people have been calling them hallucinations, but they're not hallucinations; it is really faithfully copying The Onion, and it just doesn't know that The Onion is The Onion. \[laughs\]
+**Luis Villa:** \[19:50\] ...some hilarious garbage, right? Embarrassing garbage... And there's just no amount of like -- there's no amount of additional text you can feed to the machine to get it to not embarrass itself this way under the current LLM paradigm. It's just not going to -- so maybe we see that all this stuff gets put back in a corner a little bit, and it becomes less... I mean, part of the reason why everybody's doing these deals now is because everybody smells a giant pot of money. And maybe the pot of money is not as big as we think it is. Maybe hallucination limits -- hallucination or just the inability to tell fact from truth. I mean, my favorite of these ones from Google last week - people have been calling them hallucinations, but they're not hallucinations; it is really faithfully copying The Onion, and it just doesn't know that The Onion is The Onion. \[laughs\]
 
 **Jerod Santo:** Yeah. Well, talk about a hard problem... I mean, we've had humans getting tricked by The Onion for years, you know?
 
@@ -124,7 +124,7 @@ The other thing that I think we really need to seriously consider at this point 
 
 **Luis Villa:** Right. And what was this test-driven development? We'll have to bring back his codebases...
 
-**Jerod Santo:** \[00:24:13.19\] Yeah, exactly.
+**Jerod Santo:** \[24:13\] Yeah, exactly.
 
 **Luis Villa:** TDD for satire. Yeah. So maybe we all got nerd-sniped into "Oh man, this is so amazing", without thinking through like, actually, code is weird. Because it is creative, and complex...
 
@@ -142,7 +142,7 @@ The other thing that I think we really need to seriously consider at this point 
 
 I mean, we know there's certainly some interesting research that shows that they're figuring out structure in large codebases, and there's certainly some analogies there with the law that I think you're gonna be super-interesting... But it's still early days, and it's still -- I mean, there's plenty of bad examples of bad LLM search out there in the law, I would say so far... But it might be tractable. I don't know. We'll see.
 
-**Break**: \[00:26:44.15\]
+**Break**: \[26:44\]
 
 **Adam Stacoviak:** I think it's interesting at the micro level, at the clause level, or the section level, so to speak... Because there's a lot of opportunity to sort of write a better accountability clause, or just something that's in an agreement, that doesn't have to be a full-on document. Maybe there's an existing document already, and you just need to massage it for this one use case, and you explain the use case that it currently solves, and you say "Well, I need a new clause to now support this one section of concern", and there's help there.
 
@@ -156,7 +156,7 @@ Now, I could be just the layman wishing for a magic genie inside this bottle to 
 
 And so there's going to be a gap there, which as a profession, how do we talk about that? How do we reason about that? I don't know.
 
-\[00:31:53.12\] And then as like a legal system... So I live in San Francisco... We see Waymos all the time. They're not perfect. So if you judge them against perfection - you know, they do some weird things on occasion. I saw one get very confused just last Friday. Are they safer than human drivers? 1,000%. If I could flip a switch and turn every car in San Francisco new a Waymo tomorrow, I wouldn't hesitate. I would do it in a heartbeat. And so what do you compare against? Are you comparing the LLM against perfection? Are you comparing it against what would a human do? Are you comparing it against the last generation in Google search? I don't think we know -- we haven't figured that out as a society how to do that yet.
+\[31:53\] And then as like a legal system... So I live in San Francisco... We see Waymos all the time. They're not perfect. So if you judge them against perfection - you know, they do some weird things on occasion. I saw one get very confused just last Friday. Are they safer than human drivers? 1,000%. If I could flip a switch and turn every car in San Francisco new a Waymo tomorrow, I wouldn't hesitate. I would do it in a heartbeat. And so what do you compare against? Are you comparing the LLM against perfection? Are you comparing it against what would a human do? Are you comparing it against the last generation in Google search? I don't think we know -- we haven't figured that out as a society how to do that yet.
 
 **Jerod Santo:** Yeah.
 
@@ -184,7 +184,7 @@ There's a great book by an old law prof of mine, where he talks about how there 
 
 **Adam Stacoviak:** Right. I think societally, I think humanistically it is too late. In my opinion it's probably too late. Let me just say it more clearly... I think it's too late to opt out of AI. So now what? What do we do now, essentially? So you've got law, you've got code gen, you've got just generative art, and text generally, out there in every permutation, and then you have investments probably happening... Like, is there any news around AI and investments? How has this kind of gone into predictiveness? What might happen? What might not happen?
 
-**Luis Villa:** \[00:35:58.11\] I mean, all of my baseball games are now sponsored by a mortgage company that claims to evaluate your mortgage applications with AI.
+**Luis Villa:** \[35:58\] I mean, all of my baseball games are now sponsored by a mortgage company that claims to evaluate your mortgage applications with AI.
 
 **Jerod Santo:** Sure.
 
@@ -210,7 +210,7 @@ There's a great book by an old law prof of mine, where he talks about how there 
 
 **Jerod Santo:** Right...
 
-**Luis Villa:** \[00:40:00.11\] But that in-between period, as you say - a lot of dislocation, there's going to be a lot of chokepoint stuff, there's going to be a lot of mediocre... More than anything else, we already had this with Google search. The SEO crap that was dominating all the everything. It's not like Google search was great a year ago, before they put the AI stuff in.
+**Luis Villa:** \[40:00\] But that in-between period, as you say - a lot of dislocation, there's going to be a lot of chokepoint stuff, there's going to be a lot of mediocre... More than anything else, we already had this with Google search. The SEO crap that was dominating all the everything. It's not like Google search was great a year ago, before they put the AI stuff in.
 
 **Jerod Santo:** No, it's been failing, which is why it's ripe for disruption, which is why I think ChatGPT poses such an existential threat to Google. Because really, if you think about what we will like years from now - I mean, is it too late to opt out? Like, we don't actually want to as a human race, because this is kind of... Okay, it's a proxy of what the dream is. Like, I can just talk to my computer, and it has answers for me. Why would I want Google searches? Now, the problem is you don't always get the truth, but you just want the answer. It's a better user experience ultimately, until it tells you that you should go eat rocks once a day... Because that's one of the things it said, that it's healthy to eat a rock a day to live longer, or some crap like that.
 
@@ -230,7 +230,7 @@ There's a great book by an old law prof of mine, where he talks about how there 
 
 **Luis Villa:** But then as content producers - and we are all as humans to some extent or another content producers - what's that look like? How do we choose -- how do we opt out or not opt out? Degrees of opting out... Like, that's a really -- I think that's a sort of fundamentally different question, because like you're saying, Jerod, it's from a search perspective if I've got a digital butler who anticipates my every need, and just has what I want, that's obviously better. But if to get the inputs for that we sort of like homogenized all content production... Like, I'm not sure that -- that's a different question about whether you want to opt out, and I think a much harder one. And I don't think we have any good answers on that.
 
-**Break**: \[00:42:34.21\]
+**Break**: \[42:34\]
 
 **Jerod Santo:** It's kind of the luxury that Hollywood has, insofar as they can just invent data on Star Trek Next Generation, who has all of the world's knowledge in his computer chips. But they don't have to actually figure out the hard part of where data got his information from, and how many people that displaced, and like you said, the wars that maybe happened in order for that to just be a fact of that reality.
 
@@ -280,7 +280,7 @@ There's a great book by an old law prof of mine, where he talks about how there 
 
 **Adam Stacoviak:** If you haven't watched the TV show Silicon Valley, it's largely about artificial intelligence. Have you watched it end to end?
 
-**Luis Villa:** \[00:47:48.23\] I got through the first two seasons, and then sort of... I was watching it on -- I was watching it because Tidelift, my company, headquartered in Boston, so I was doing cross-country flights... And the thing is, all my co-founders are East Coast, and they watch Silicon Valley as like anthropology.
+**Luis Villa:** \[47:48\] I got through the first two seasons, and then sort of... I was watching it on -- I was watching it because Tidelift, my company, headquartered in Boston, so I was doing cross-country flights... And the thing is, all my co-founders are East Coast, and they watch Silicon Valley as like anthropology.
 
 **Jerod Santo:** \[unintelligible 00:48:08.05\]
 
@@ -362,7 +362,7 @@ There's a great book by an old law prof of mine, where he talks about how there 
 
 **Luis Villa:** Right, yeah.
 
-**Jerod Santo:** \[00:52:10.16\] They're starting to hallucinate at this point... \[laughs\]
+**Jerod Santo:** \[52:10\] They're starting to hallucinate at this point... \[laughs\]
 
 **Luis Villa:** I mean, AI, the one that they literally had to spell out, the -- that was the Spielberg working on...
 
@@ -430,7 +430,7 @@ There's a great book by an old law prof of mine, where he talks about how there 
 
 There's I think a more interesting concern of "Well, is this creating new cruft? Is it creating new technical debt? Is creating new security vulnerabilities?" And on the one hand, I think it probably is, and on the other hand, have you looked at our code lately? Even before AI, we had piles of technical debt, we had a lot of vulnerabilities... And I am not -- so this is one of these things where the question, as we were saying earlier, "What is it you're measuring against?" And I can see a legitimate case of maybe it does make these things worse, so I think we need to understand and research that... But at the same time also, these things are already very bad. Like, XZ is not caused by AI.
 
-**Adam Stacoviak:** \[00:56:34.22\] That we're aware of...
+**Adam Stacoviak:** \[56:34\] That we're aware of...
 
 **Luis Villa:** Left Pad was not caused by AI. These are mistakes that we've been making for a long time. So I'm more worried about, with like my Tidelift hat on, some of these questions of "How do we think about these piles of very human systems that we put a lot of pressure on?" I mean XZ was really... I think, actually, I want to float this with you guys, because I don't think I saw -- I was reviewing some notes for Upstream, our conference coming up soon, and I was realizing, I don't... You know, everybody read the email from the XZ maintainer, who was like "Yeah, I'm burnt out. I have some stuff going on in my personal life." The thing that I'm curious what you guys think about this, because it jumped out at me weeks later as I was reviewing all this... He mentions in there that he's been maintaining the project for 15 years. When was the last time you guys had a job for 15 years straight, without changing? I don't know how long has the podcast been on.
 
