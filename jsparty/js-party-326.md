@@ -36,7 +36,7 @@
 
 **Amy Dutton:** You know what, this is such a strong argument that I don't even think it needs a full minute.
 
-**Jerod Santo:** \[00:07:47.12\] Okay, I like that closer. What do they say in politics, "I yield my time"? Or I don't know what they say. Something like that. She yields it over. We will now go to Eric for the rebuttal. What have you got, Eric?
+**Jerod Santo:** \[07:47\] Okay, I like that closer. What do they say in politics, "I yield my time"? Or I don't know what they say. Something like that. She yields it over. We will now go to Eric for the rebuttal. What have you got, Eric?
 
 **Eric Clemmons:** Yeah, I mean, it makes a lot of sense, but it's inevitable that there will be some sort of bundling for performance reasons... And it makes a lot of sense that you want to develop the way that your code gets delivered to your end users at the end of the day. So bundling will be a step, building will be a step... And even though that the web eventually makes it way to browsers and language features out there, we go through our proposal in stages, one, two, three, four, five, for browser adoption... So if you ever want to get ahead, or take advantage of new language features, at some point you're going to have to build down to the lowest common denominator. So I feel since it's an inevitability, it's better to just embrace it early, pay the tax soon, upfront, get it out of the way, and then you never have to think about it again. I yield my time.
 
@@ -66,7 +66,7 @@ Plus, build steps give me this superpower where I can write this condensed or te
 
 **Jerod Santo:** I was gonna say, he's now set up Amy for the most epic rebuttal of all times. Go ahead, Amy. You've got one minute.
 
-**Amy Dutton:** \[00:11:49.22\] Now, Nick, you mentioned TypeScript. \[laughs\] The thing is, right now it might be needed for a build step. But should it? Like, just because that's the way that we've been doing it doesn't mean that that's the way it should always be done, or be done in the future. And I think TypeScript is fantastic. I love TypeScript. But let's just include it in the browser. There's no need then to have a bundle step if we continue to use these things to push browsers forward, instead of giving them excuses to stay in the dark ages and use bundling. Let's push our tools forward. Yeah, that's my TypeScript point.
+**Amy Dutton:** \[11:49\] Now, Nick, you mentioned TypeScript. \[laughs\] The thing is, right now it might be needed for a build step. But should it? Like, just because that's the way that we've been doing it doesn't mean that that's the way it should always be done, or be done in the future. And I think TypeScript is fantastic. I love TypeScript. But let's just include it in the browser. There's no need then to have a bundle step if we continue to use these things to push browsers forward, instead of giving them excuses to stay in the dark ages and use bundling. Let's push our tools forward. Yeah, that's my TypeScript point.
 
 **Jerod Santo:** Okay. Kball, 15 seconds for free, if you want to use them.
 
@@ -92,7 +92,7 @@ Plus, build steps give me this superpower where I can write this condensed or te
 
 We will start with Eric and Nick. Who's going to make your guys's final argument? You've got one minute. Who wants to be the representative on team Yep?
 
-**Nick Nisi:** \[00:15:58.26\] Eric, I think you should do it. I'm coming in too hot, and I'm just shaking here thinking about my build step...
+**Nick Nisi:** \[15:58\] Eric, I think you should do it. I'm coming in too hot, and I'm just shaking here thinking about my build step...
 
 **Amy Dutton:** \[laughs\] Thinking about TypeScript.
 
@@ -138,7 +138,7 @@ So to Nick's point, it sounds like more of it's a DX issue, and like a batteries
 
 **Jerod Santo:** Thanks for the setup, though. That was great.
 
-**Break:** \[00:19:36.08\]
+**Break:** \[19:36\]
 
 **Jerod Santo:** A solid debate, y'all. I know we assigned sides... I'm curious why there was not more emphasis on the "should". Because whether we need one or not, the real debate is "Should we need one?" And I think it's a lot harder to argue that we should need one. It's easy, I think, to argue that we do need one. But I think should is a lot harder thing. So I think Nick and Eric had a harder side to debate if you had drilled down on the should, guys. Kball, you ignored it completely. As a seasoned debater, I wonder what's with that strategy.
 
@@ -148,7 +148,7 @@ So to Nick's point, it sounds like more of it's a DX issue, and like a batteries
 
 **Eric Clemmons:** Yeah, I'm trying to grapple with that one, especially recently... Because I've written libraries without a build step, and like Rich Harris, it's like "Oh, it's great being able to just copy-paste code." If I Command+Click in VS Code, I go straight to the source definition... If I want to patch a third party dependency... There's no obfuscation. It's so readily accessible. And there's some caveats, I'm sure, with it, but it was nice to be able to prove that's possible, but it definitely was like the untrodden path.
 
-\[00:25:53.07\] And so whenever I think about like a build stuff outside of like do versus should, I think about "Well, what should a build step be doing that I don't really want to do?" And I was thinking about React compiler recently, where you don't change the way you author your code, but the compiler is making your code more performant, just because you're adhering to the paradigms and patterns within like React. And I think that's probably the more compelling case for should, is whenever you buy into patterns, or the ecosystem, or language features or whatever, you should have the computer making your code better, more correct, more performant, for free. But whether or not that's a detail that you have to pay attention to is the part where I'm hung up on. I'm very much wanting everything to go to the left of like "I shouldn't have to think about it", and this should just become table stakes for "I'm just going to write my stuff, focus on the differentiating logic, and the should is going to be outside of my responsibility." So it's tough...
+\[25:53\] And so whenever I think about like a build stuff outside of like do versus should, I think about "Well, what should a build step be doing that I don't really want to do?" And I was thinking about React compiler recently, where you don't change the way you author your code, but the compiler is making your code more performant, just because you're adhering to the paradigms and patterns within like React. And I think that's probably the more compelling case for should, is whenever you buy into patterns, or the ecosystem, or language features or whatever, you should have the computer making your code better, more correct, more performant, for free. But whether or not that's a detail that you have to pay attention to is the part where I'm hung up on. I'm very much wanting everything to go to the left of like "I shouldn't have to think about it", and this should just become table stakes for "I'm just going to write my stuff, focus on the differentiating logic, and the should is going to be outside of my responsibility." So it's tough...
 
 **Jerod Santo:** Yeah, I mean, I think that is a really good point. I think that performance optimizations are at odds with clarity and readability. They always have been. And oftentimes, you'll find the codebase where a certain code path needs to be highly optimized to run at speed, or at low resource... And you'll find comments in that section like "Here be the dragons", because somebody has personally by hand done some fancy memory allocation stuff, or whatever it happens to be in order to make that particular bit of code more performant. And therefore, it's hard to read, because you're like "What are they doing here?" It's some fancy footwork.
 
@@ -158,7 +158,7 @@ And ideally, you could have both things. You could have the clear, idiomatic cod
 
 But then, as Eric was mentioning, there's a lot of innovation that gets built on top of that to reduce the footprint that the build step takes in like a developer's mind, or in the process, the flow of an everyday developer. And I'm thinking of things like the Svelte compiler. You can write this regular code, and then the compiler figures out what needs to be reactive. And now they have like the runes thing, with signals and all of that... But we're moving more towards these primitives that make it easier to remove some of that compiler magic and make it easier... But then we have things like Tailwind. Tailwind has a build step, because it takes the classes that you actually use and builds them down. And what's the big thing in Tailwind 4? It's basically the removal of the config file for their build step, in a big way, and kind of moving it back into CSS... So it's just DX improvements on top of the existing build step, but the build step's not going away.
 
-**Kevin Ball:** \[00:30:11.02\] Yeah. I mean, I feel like those performance pieces where it's like "Build this down, compile it", those are the least interesting ones. The ones that you highlight -- like JSX, that's creating a new DSL for writing HTML. That's a new abstraction, it's a new way to think about things that lets you operate at a higher level of abstraction and be more productive - that's where a build step gets really interesting. And it allows you to experiment with that in userspace, as you highlight, so you don't have to do that innovation at the level of standards and browser.
+**Kevin Ball:** \[30:11\] Yeah. I mean, I feel like those performance pieces where it's like "Build this down, compile it", those are the least interesting ones. The ones that you highlight -- like JSX, that's creating a new DSL for writing HTML. That's a new abstraction, it's a new way to think about things that lets you operate at a higher level of abstraction and be more productive - that's where a build step gets really interesting. And it allows you to experiment with that in userspace, as you highlight, so you don't have to do that innovation at the level of standards and browser.
 
 So yeah, I think there's these two pieces here, but the innovation side is what's really interesting. And as build steps are becoming so prevalent, because TypeScript is, which - it is a forcing function; I think it unlocks things like that. And I don't know that we've talked about this on the show, but languages like Elm, or other stuff, where it's like "Let's just explore a fundamentally different way of writing our code, thinking about our code, and the build step lets us do that and compile it down to something that will run today."
 
@@ -182,7 +182,7 @@ Kball's point, that I think might have been read out of the bullet points about 
 
 **Jerod Santo:** That sounds a lot like websites, too. Well said.
 
-**Eric Clemmons:** \[00:33:56.01\] I was curious, is this a problem, like with the build step, to where it's becoming a smaller footprint? Like, is this a SAP era kind of issue of, like "Too much JavaScript", and we're seeing -- I was looking at HTMX. Not just HTMX's library, but how do they maintain it. It's like a single deliverable file that's ES11-compatible. So it's authored without a build step in an ES11-compatible way. So no ES6 features until I guess the next release, where they become ES6-compatible. But I think that's kind of like fascinating that we're pushing less of the client side interaction into server-side behaviors, and having islands in Astro, or React Server Components... So maybe some of the stuff of like the promise of HTTP/2 is less impactful, because we're just trying to not send as much JavaScript anyway, and we're trying to go to zero JavaScript.
+**Eric Clemmons:** \[33:56\] I was curious, is this a problem, like with the build step, to where it's becoming a smaller footprint? Like, is this a SAP era kind of issue of, like "Too much JavaScript", and we're seeing -- I was looking at HTMX. Not just HTMX's library, but how do they maintain it. It's like a single deliverable file that's ES11-compatible. So it's authored without a build step in an ES11-compatible way. So no ES6 features until I guess the next release, where they become ES6-compatible. But I think that's kind of like fascinating that we're pushing less of the client side interaction into server-side behaviors, and having islands in Astro, or React Server Components... So maybe some of the stuff of like the promise of HTTP/2 is less impactful, because we're just trying to not send as much JavaScript anyway, and we're trying to go to zero JavaScript.
 
 **Jerod Santo:** I think the pendulum has definitely swung that way, and I'm here for it. I think that's great. There's a whole lot -- there's 10 years of SPAs that are just massive, that are sitting out there in production apps that are 3-megabyte bundles, and people are downloading all the time. So while we are seeing that as a burgeoning trend, and one that I hope continues, I think that there's a whole lot of web apps that are just massive bundles of JavaScript still. And I think that process is going to be one of tooling, I think, and trending, versus switching -- I don't know, I just see a lot of legacy out there that's just not going to change. I mean, jQuery is still in 80% of websites. Is it 80? That's probably two years old, but that was about the number. And so how long will large single-page applications, that have been written years ago -- it's just still what they are. It's a hard problem too, to go ahead and either rewrite, or -- actually, rewrite's probably easier than a transition, in many cases. And you know how difficult big rewrites are...
 
@@ -206,7 +206,7 @@ So whenever I say something like "push into the left", what I really mean is lik
 
 **Eric Clemmons:** Yeah. So from the client's responsibility down to the server responsibility.
 
-**Jerod Santo:** \[00:37:53.28\] Right. There's this term "shift left" which exists in a lot of, I would say, enterprise development contexts, especially around information security and best practices; they will say "You need to shift it left", meaning make it earlier in the software development lifecycle... Versus a thing that you put in at the end. Because - well, with security, you can't actually bolt it on at the end; if you're trying that, you are doomed to fail.
+**Jerod Santo:** \[37:53\] Right. There's this term "shift left" which exists in a lot of, I would say, enterprise development contexts, especially around information security and best practices; they will say "You need to shift it left", meaning make it earlier in the software development lifecycle... Versus a thing that you put in at the end. Because - well, with security, you can't actually bolt it on at the end; if you're trying that, you are doomed to fail.
 
 And so I think pushing left, shifting left - these are terms that I've also had to wrestle with... But now I know what they mean. Good question, Kball, to clarify, to get all of us on the same page.
 
@@ -268,7 +268,7 @@ Amy, you wanted to talk about shifting left PHP somewhere...
 
 **Eric Clemmons:** I would like to fund your startup... \[laughter\]
 
-**Amy Dutton:** \[00:42:01.28\] He said AI. That's the key, right?
+**Amy Dutton:** \[42:01\] He said AI. That's the key, right?
 
 **Jerod Santo:** I think we should go back to this PHP blog idea that Nick made. Let's fund that startup, you know?
 
@@ -314,7 +314,7 @@ Amy, you wanted to talk about shifting left PHP somewhere...
 
 So I actually think, rather than asking "What would it take to remove the build step?", we should be asking "What new performance and productivity gains could we unlock if we think more about what we can do in a build step?" If we take more inspiration from compiled languages, if we look at the different types of things that are hard to do in the web ecosystem today, but by perhaps constraining ourselves or doing something we could actually do automatically using a compiler?
 
-**Jerod Santo:** \[00:46:12.06\] That was very JFK. I like that. "Ask not what your build step can do for you, but what you can do for your build step."
+**Jerod Santo:** \[46:12\] That was very JFK. I like that. "Ask not what your build step can do for you, but what you can do for your build step."
 
 **Kevin Ball:** I mean, I just fundamentally think we should be raising our aspirations here. I think the web is incredibly powerful, but there's so much more we could be doing with it... And we do see these sort of unlocks of like fast by default, or like -- I mean, you look at the islands stuff... We're explicitly configuring that. Could that be automatically detected in the way that a Qwik does, where it only loads it when you need to load it? All those different areas. And I think the answer is probably yes, but not if our goal is to \[unintelligible 00:46:49.21\] or build this ship. I think it's probably more embracing the things where you say "Can we do a full analysis of this thing at build time, when it's cheap, and we're doing it once, and optimize it, and transform it, so that then when people are running this thing it is magical?"
 
@@ -332,7 +332,7 @@ Actually, using that example of edge-based services versus not - like, if you ha
 
 And if we think about a build step not as a burden that we're trying to get rid of, but rather an opportunity to let us think about things in a different way, it can help us write simpler applications, that still take advantage of our sort of multiple layers of operational infrastructure.
 
-**Jerod Santo:** \[00:49:57.03\] I just don't see how you can push further left than the platform. Like, isn't that the furthest thing left? And I don't just mean the browser. I mean, we also have the transport layer. And then we have the application layer, we have layers below where we are writing code, which would be further left, in my opinion, and more optimal than a compilation step. Wouldn't they?
+**Jerod Santo:** \[49:57\] I just don't see how you can push further left than the platform. Like, isn't that the furthest thing left? And I don't just mean the browser. I mean, we also have the transport layer. And then we have the application layer, we have layers below where we are writing code, which would be further left, in my opinion, and more optimal than a compilation step. Wouldn't they?
 
 **Kevin Ball:** Not necessarily, because they don't necessarily know your project model. So it doesn't make sense to include my application logic in the platform. But it might make sense to analyze my application logic at build time and say "Oh, here's a set of things that we can precompute for you. Here's a set of things that we know you're not going to need on first page load, so we'll split those out into a bundle that loads lazily", right? Like, there's all these different pieces of my application logic that don't have to actually arrive in one big blob of JavaScript that gets loaded by the user. Or many small bundles of JavaScript that get loaded by the user.
 
@@ -354,7 +354,7 @@ And if we think about a build step not as a burden that we're trying to get rid 
 
 **Jerod Santo:** So when you go to build time, are you just talking about my Node app, and my frontend code? Or are you talking about the holistic system? That's where we're detaching.
 
-**Kevin Ball:** \[00:54:04.22\] Good question. Which are you talking about? I think you could make an argument either way.
+**Kevin Ball:** \[54:04\] Good question. Which are you talking about? I think you could make an argument either way.
 
 **Jerod Santo:** Well, I was wondering which one you were talking about. I don't have an argument over here... I'm just trying to follow. I guess your argument is that build steps should be a part of that no matter what your setup is, because you can do fancy things at build time.
 
@@ -382,7 +382,7 @@ So whenever a hosting provider puts a DDoS protection in front of my site for fr
 
 **Jerod Santo:** Fair answer... Amy? Same?
 
-**Amy Dutton:** \[00:57:52.21\] Yeah. Well, I don't think about it, but I am gonna throw a thought out there... I wonder if some of this just comes down to the fact that with the JavaScript world we've become more serverless... And so I do rely on tools like Vercel or Netlify just to "Hey, here's my GitHub, and go ahead and take my site, put it up there, and then I don't have to worry about it." And so it'll be interesting as this pendulum swings the other way, and then we have React Server Components, we're having to configure servers, we're having to think more about databases and how we interact with those different layers, that all of a sudden now caching and HTTP/2 - all these things, they start to enter the conversation more because we don't have necessarily the tooling that handles it, or doesn't handle it yet.
+**Amy Dutton:** \[57:52\] Yeah. Well, I don't think about it, but I am gonna throw a thought out there... I wonder if some of this just comes down to the fact that with the JavaScript world we've become more serverless... And so I do rely on tools like Vercel or Netlify just to "Hey, here's my GitHub, and go ahead and take my site, put it up there, and then I don't have to worry about it." And so it'll be interesting as this pendulum swings the other way, and then we have React Server Components, we're having to configure servers, we're having to think more about databases and how we interact with those different layers, that all of a sudden now caching and HTTP/2 - all these things, they start to enter the conversation more because we don't have necessarily the tooling that handles it, or doesn't handle it yet.
 
 **Kevin Ball:** I think a lot of this comes back to kind of what Eric was saying, in terms of identifying the business problem we're trying to solve, and doing the minimum possible things -- having the minimum set of things under our control to solve that, and shifting as much of the rest of it as you can into tooling, platform etc. Depending on what you're solving, as you start to expand to bigger and bigger problems, and also depending on the types of scale that you're addressing, those things become things you start to have to worry about. So there's a tremendous range of things that you can throw static HTML and CSS up on a static server, S3 bucket, what have you, and you have solved the problem. And now there's so many problems you don't have to worry about, and that's phenomenal. And then there's a layer you can do things with just a few JavaScript functions that Vercel is going to run for you really nicely. And then there's a set of things that you need a little bit more server-side control and infrastructure to handle with. And it kind of goes on and on until you're at one of these mega corps that are handling all of their own infrastructure, and then you say "Okay, it's the infra team's problem, and I'm still going to worry about my little bundle."
 
