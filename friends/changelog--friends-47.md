@@ -92,7 +92,7 @@
 
 **Jerod Santo:** ...pseudo random definition generators, that you know the definition to these obscure, STEM jargon. I have 10 rounds of play. I will say the word, send it to you all, spell it out loud for our listener, and you will then write a definition for the word. I also have, of course, the correct definition... I will mix them together, read them out, and you will try to guess which is the correct definition.
 
-\[00:05:59.15\] If you know the definition to start, and you submit to me the correct definition, you automatically get three points, which is the most points you can score for a single action... And you sit that round out. So you know, go have a drink of coffee, or something. If you don't get it right right away, I will gather them and read them during the reading time. If you guess the right one then, you get two points. And if you trick somebody else to guess your definition, you get one point. So for each person who selects yours, you get a point. And we get to 15 points first wins, or 10 rounds. That's how it goes. I'm sure that was convoluted as an explanation, because I was confusing myself as I went... But as the game starts, it will become immediately obvious how this works. So let's just get into it, and start with round one.
+\[05:59\] If you know the definition to start, and you submit to me the correct definition, you automatically get three points, which is the most points you can score for a single action... And you sit that round out. So you know, go have a drink of coffee, or something. If you don't get it right right away, I will gather them and read them during the reading time. If you guess the right one then, you get two points. And if you trick somebody else to guess your definition, you get one point. So for each person who selects yours, you get a point. And we get to 15 points first wins, or 10 rounds. That's how it goes. I'm sure that was convoluted as an explanation, because I was confusing myself as I went... But as the game starts, it will become immediately obvious how this works. So let's just get into it, and start with round one.
 
 So the word for round one: cryptarythm. I will submit that to the chat... Please send me your fake definitions now. Okay, Nick has already submitted. So it's not based on speed, Nick, but I do appreciate that. I have Mat's definition... Adam is historically the slowest submitter...
 
@@ -184,7 +184,7 @@ So the word for round one: cryptarythm. I will submit that to the chat... Please
 
 **Mat Ryer:** Yeah, it's the same principle. I love that it's one beans on toast. Like, the beans on toast is a singular. And there's one of them. I love that.
 
-**Jerod Santo:** \[00:09:51.22\] Yeah. Well, the beans are plural, but the toast is singular. Yes. Alright, I now have all definitions... A quick disclaimer, I do my darndest to read these as straight as possible... In fact, I close my video so I can't see your faces, and I just read, as if I'm the only one in the room. Having said that, it's still really hard, because some of these get to be a little bit zany... Thankfully, Taylor Troesh is not here, because he's trolling pretty much every round. And so... Maybe Mat will troll, I don't know. But there's my disclaimer. If I laugh, it's not because it's not the right definition. It's because I think something's funny.
+**Jerod Santo:** \[09:51\] Yeah. Well, the beans are plural, but the toast is singular. Yes. Alright, I now have all definitions... A quick disclaimer, I do my darndest to read these as straight as possible... In fact, I close my video so I can't see your faces, and I just read, as if I'm the only one in the room. Having said that, it's still really hard, because some of these get to be a little bit zany... Thankfully, Taylor Troesh is not here, because he's trolling pretty much every round. And so... Maybe Mat will troll, I don't know. But there's my disclaimer. If I laugh, it's not because it's not the right definition. It's because I think something's funny.
 
 **Mat Ryer:** Yeah. But you also find quite weird things funny. I listened to an episode of this last time and you were in hysterics for 10 minutes... And then when you read it out, it was just a sentence.
 
@@ -272,7 +272,7 @@ There you have it, five definitions for cryptarythm. One of those is the correct
 
 **Adam Stacoviak:** Can I get a readback, please?
 
-**Jerod Santo:** \[00:14:11.16\] Of which ones?
+**Jerod Santo:** \[14:11\] Of which ones?
 
 **Adam Stacoviak:** All of them. \[laughter\]
 
@@ -354,7 +354,7 @@ There you have it, five definitions for cryptarythm. One of those is the correct
 
 **Jerod Santo:** Alright. Pile-on theme tune.
 
-\[00:16:43.19\]
+\[16:43\]
 
 *Where has our individuality gone...? We're all saying the same thing... It's a pile-on... It's a pile-on...!*
 
@@ -390,7 +390,7 @@ There you have it, five definitions for cryptarythm. One of those is the correct
 
 **Adam Stacoviak:** There might be a recall on Recall...
 
-**Jerod Santo:** \[00:17:58.02\] Total recall. \[laughter\] Even better. Alright, how do we land this helicopter? We say the correct answer was... The puzzle! You all got it!
+**Jerod Santo:** \[17:58\] Total recall. \[laughter\] Even better. Alright, how do we land this helicopter? We say the correct answer was... The puzzle! You all got it!
 
 **Adam Stacoviak:** Sweet!
 
@@ -510,7 +510,7 @@ There you have it, five definitions for cryptarythm. One of those is the correct
 
 **Jerod Santo:** Right, the metagame. Most likely they were, and it just backfired horrendously. Or not. Because if you guess their name, then they get a point for tricking you.
 
-**Thomas Eckert:** \[00:22:10.27\] They get a point for tricking me... When I choose...
+**Thomas Eckert:** \[22:10\] They get a point for tricking me... When I choose...
 
 **Jerod Santo:** \[laughs\]
 
@@ -624,7 +624,7 @@ There you have it, five definitions for cryptarythm. One of those is the correct
 
 **Adam Stacoviak:** And the title of this project is "Nuclei." Please submit to me your fake taglines now.
 
-**Thomas Eckert:** \[00:26:10.06\] And this is not nucleus, from --
+**Thomas Eckert:** \[26:10\] And this is not nucleus, from --
 
 **Adam Stacoviak:** Don't say it... Don't say it...
 
@@ -728,7 +728,7 @@ There you have it, five definitions for cryptarythm. One of those is the correct
 
 **Jerod Santo:** I refuse to read number one again. You know what it is, and you're just trolling me.
 
-**Nick Nisi:** \[00:30:13.18\] Your favorite show, right?
+**Nick Nisi:** \[30:13\] Your favorite show, right?
 
 **Jerod Santo:** Absolutely.
 
@@ -836,7 +836,7 @@ There you have it, five definitions for cryptarythm. One of those is the correct
 
 **Jerod Santo:** You did in the graviton round...
 
-**Mat Ryer:** \[00:33:57.07\] Thomas, you keep having to go with beans on toast. What's the sort of local food from where you are that's popular?
+**Mat Ryer:** \[33:57\] Thomas, you keep having to go with beans on toast. What's the sort of local food from where you are that's popular?
 
 **Thomas Eckert:** You know, where I am - I'm just outside of DC. And so there's such a --
 
@@ -938,7 +938,7 @@ There you have it, five definitions for cryptarythm. One of those is the correct
 
 **Jerod Santo:** Alright, that's Nick's. He's got five. And Thomas.
 
-**Thomas Eckert:** \[00:38:17.09\] Yes, I will pile on with Nick... Even though he didn't know which one he was picking. Now he does, and I agree with him. That temporary tool - that sounds right.
+**Thomas Eckert:** \[38:17\] Yes, I will pile on with Nick... Even though he didn't know which one he was picking. Now he does, and I agree with him. That temporary tool - that sounds right.
 
 **Jerod Santo:** Okay.
 
@@ -1038,7 +1038,7 @@ There you have it, five definitions for cryptarythm. One of those is the correct
 
 **Thomas Eckert:** It is a good word.
 
-**Jerod Santo:** \[00:41:59.03\] And I have a round called "Not STEM", because that's not STEM. Throwing something out a window is not STEM...
+**Jerod Santo:** \[41:59\] And I have a round called "Not STEM", because that's not STEM. Throwing something out a window is not STEM...
 
 **Thomas Eckert:** No, that's physics. That's physics.
 
@@ -1100,7 +1100,7 @@ There you have it, five definitions for cryptarythm. One of those is the correct
 
 **Jerod Santo:** Well, after a crazy round four, I have subtracted those three points that I gave myself, and I'm back at zero... But we let Thomas's two and Mat's two stand, because they did convince Mat -- or they convinced the other people to select theirs, and so that puts them into a tie for second, Thomas, and a leader now, Mat leapfrogging over Nick and Thomas at seven, with eight. So it's Mat eight, Nick and Thomas tied with seven, and Adam with five. I am down here in the basement, where I belong... And we move now to round five.
 
-**Break**: \[00:44:32.24\]
+**Break**: \[44:32\]
 
 **Jerod Santo:** And we move now to round five... This is our new round.
 
@@ -1200,7 +1200,7 @@ There you have it, five definitions for cryptarythm. One of those is the correct
 
 **Jerod Santo:** Alright. Give it a goog. "Why doesn't Apple..." Five potential responses. The first one, "Why doesn't Apple Pay work?" The second one, "Why doesn't Apple taste good like banana?" \[laughter\] The third one, "Why doesn't Apple make cheaper products?" Number four, "Why doesn't Apple let me change the default browser for iPhone?" Number five, "Why doesn't Apple let iPads run MacOS?" There you have, the five potential autocompletes for the phrase "Why doesn't Apple..." We start this round with Nick.
 
-**Nick Nisi:** \[00:54:19.11\] Not with me... Can you repeat the first two, please?
+**Nick Nisi:** \[54:19\] Not with me... Can you repeat the first two, please?
 
 **Jerod Santo:** Number one was "Why doesn't Apple Pay work?" Number two was "Why doesn't Apple tastes good like banana?" \[laughter\]
 
@@ -1356,7 +1356,7 @@ There you have it, five definitions for cryptarythm. One of those is the correct
 
 **Jerod Santo:** Do you think the world's population prefers banana to apple?
 
-**Mat Ryer:** \[00:58:04.20\] Yeah, I'm the one --
+**Mat Ryer:** \[58:04\] Yeah, I'm the one --
 
 **Adam Stacoviak:** \[unintelligible 00:58:04.17\] just say banana by itself, it's like no, that's not real, is it?
 
@@ -1390,7 +1390,7 @@ There you have it, five definitions for cryptarythm. One of those is the correct
 
 **Jerod Santo:** Let's hear it. Yeah, make it different.
 
-\[00:58:49.17\]
+\[58:49\]
 
 *Have you ever seen a baby... That looked like an old man...? Have you ever seen a lady, that also looked like an old man? Well, I don't know what that's about, but we're gonna pile on... And that's why we sing the pile-on song...*
 
