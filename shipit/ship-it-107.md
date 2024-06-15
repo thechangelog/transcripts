@@ -20,7 +20,7 @@
 
 **Justin Garrison:** So let's go ahead and jump into the interview, and I know for the outro Autumn's making a game for me, so stick around and we will see how that goes.
 
-**Break**: \[00:03:33.19\]
+**Break**: \[03:33\]
 
 **Justin Garrison:** Thank you so much, Gina Häußge, for joining us on the show today. Can you tell us about yourself and how you got started with creating OctoPrint?
 
@@ -48,7 +48,7 @@ I threw it on GitHub up, and within a week or so the emails started coming in, a
 
 **Gina Häußge:** Yeah, so the thing is that most printers out there actually run on open source firmware, and have more or less agreed on a communication protocol. I say more or less, because a lot of the printer vendors actually adjust the firmware, often without really knowing what they are doing, with the result that they break the firmware in the process, and then things get really tricky for the users, because then usually they do not know how to fix it, and... Yeah, in the end, that is always when I'm very happy that I also built a plugin system into OctoPrint, because that allows us to work around these things, so that people can just -- if they have a printer like that, and also happen to know how to code or can find someone who can see the issue and work around it, or maybe if it's a large enough community, then maybe I can also do that... Just build a little plugin that pretty much translates from the broken firmware into something that is more standard-conform.
 
-\[00:12:07.19\] And that way - yeah, pretty much everything that is old out there is supported by OctoPrint, but these days it's a bit more tricky, because a whole bunch of printers are now currently coming out that have a full-blown host system... So OctoPrint is a so-called printhouse, and a lot of printers now come with something similar fully blown on board. So they only now have a Wi-Fi interface, they often have an integrated full graphical display and such, and it is really tricky now to access these and use them with something that the vendor did not plan on... Which is a bit sad.
+\[12:07\] And that way - yeah, pretty much everything that is old out there is supported by OctoPrint, but these days it's a bit more tricky, because a whole bunch of printers are now currently coming out that have a full-blown host system... So OctoPrint is a so-called printhouse, and a lot of printers now come with something similar fully blown on board. So they only now have a Wi-Fi interface, they often have an integrated full graphical display and such, and it is really tricky now to access these and use them with something that the vendor did not plan on... Which is a bit sad.
 
 **Autumn Nash:** That's how my son's printer -- well, he has a toy box, so it's meant for little kids to use with their iPads, so in a way it kind of monitors, but it kind of makes it limited what you can do with it, because it comes with its own software, and everything.
 
@@ -86,7 +86,7 @@ I threw it on GitHub up, and within a week or so the emails started coming in, a
 
 **Justin Garrison:** Now, back to OctoPrint for a bit... I saw you had a release last week. What does that release process look like? Because you have this huge system that supports all of these printers, and you have these plugins, and all of these features... How do you actually go about releasing and testing that, to say like "This is a new release of OctoPrint?"
 
-**Gina Häußge:** \[00:15:51.11\] So it should be obvious that it's pretty much impossible to test every possible printer, firmware, plugin, operation system, starting state of software situation. So what I do before I actually roll out the full release is there goes a long, long phase of release candidates. And OctoPrint has a release branch system built in, so if you feel fine with testing stuff that is not necessarily fully stable yet, then you can just switch over to another release branch, and then you will get release candidates whenever I push those out. And they actually get the same procedure that I do for every single release, and I will go quickly over it later as well.
+**Gina Häußge:** \[15:51\] So it should be obvious that it's pretty much impossible to test every possible printer, firmware, plugin, operation system, starting state of software situation. So what I do before I actually roll out the full release is there goes a long, long phase of release candidates. And OctoPrint has a release branch system built in, so if you feel fine with testing stuff that is not necessarily fully stable yet, then you can just switch over to another release branch, and then you will get release candidates whenever I push those out. And they actually get the same procedure that I do for every single release, and I will go quickly over it later as well.
 
 But the idea behind that is that if I have something like 1,000-2,000 people out there testing a release candidate and putting it through several years of print duration over the course of the release candidate phase, and then I can be pretty sure that a lot of these combinations that I would never be able to test have been tested. And yeah, it usually takes something like three to four release candidates until no more bugs come in... And at that point, then I declare this stable.
 
@@ -102,7 +102,7 @@ So I have three Raspberry Pi threes there, and all of these have a little card a
 
 **Gina Häußge:** Yeah, one of these things costs me $100, but they exist, and... Yeah, a little --
 
-**Autumn Nash:** \[00:20:02.02\] Hey, sometimes that $100 is worth it.
+**Autumn Nash:** \[20:02\] Hey, sometimes that $100 is worth it.
 
 **Justin Garrison:** Yeah. It saves how much time...?
 
@@ -142,7 +142,7 @@ And then there's also always a whole test matrix that I write down in JSON, that
 
 **Justin Garrison:** There you go. So you went Java to Python, basically.
 
-**Gina Häußge:** \[00:24:00.26\] Yeah. Python was self-taught. I started when I was -- yeah, my career was a bit weird. I started actually working at university because I wanted to do a PhD... And I worked at university -- so in Germany it's like you have some work, either you are teaching or you are doing something administration, and at the same time, you're working towards your PhD. And I ended up in the administration part. So I was administering the whole department's servers, all of them on really old Unix; not Linux, Unix machines. The main server was older than me. And not really finding much time for my PhD, but automating a lot of stuff back then, even already for the administrative tasks, with Python.
+**Gina Häußge:** \[24:00\] Yeah. Python was self-taught. I started when I was -- yeah, my career was a bit weird. I started actually working at university because I wanted to do a PhD... And I worked at university -- so in Germany it's like you have some work, either you are teaching or you are doing something administration, and at the same time, you're working towards your PhD. And I ended up in the administration part. So I was administering the whole department's servers, all of them on really old Unix; not Linux, Unix machines. The main server was older than me. And not really finding much time for my PhD, but automating a lot of stuff back then, even already for the administrative tasks, with Python.
 
 And then at some point I decided "Yeah, okay, so the PhD thing isn't happening. I'm not getting really enough time to work on that." And to be honest, I was more drawn to doing something, like really with my hands, and not just writing stuff, and having students do the stuff with their hands. So I ended up as a software engineer in the industry, and ended up writing a bunch of software like in Java, IPTV-related actually for a big telecommunication company... And that went on for half a decade, and then I got myself a 3D printer, and the rest is history. So...
 
@@ -158,7 +158,7 @@ And then at some point I decided "Yeah, okay, so the PhD thing isn't happening. 
 
 **Justin Garrison:** I do find it interesting that the commercialized spin wasn't even an option for you there. You could have tried to raise money and say "This is gonna be a product. I'm gonna make a new business out of it", and you have this open core model, sort of like paid plugins, whatever you want to do... So many companies do that. And that's how they get started, because it was a side project, or it was something they were interested in. And for you, it was like "I either abandon it, or I do it all community." And that's awesome.
 
-**Gina Häußge:** \[00:27:47.07\] Yeah. I'm really not that big of a fan of this whole open core thing... And personally, I also felt like I could not really do that, because I forked off of open source software... So the part that talks to your printer was something that I basically took from a slicer, of all things, because that already was talking to -- \[unintelligible 00:28:08.10\] had a communication part that I could just take over... A lot of people had contributed, so going like "Yeah, I'm going to close this down now, and we are only going to keep an open core" - it just feels felt wrong, and to this day feels wrong. And I believe in open source, and I find it a bit weird that it's still news for people out there, that yeah, open source in general should be something that should be funded. We shouldn't have to jump through hoops by selling stuff around it, because what we do with maintaining open source is already a full-time job.
+**Gina Häußge:** \[27:47\] Yeah. I'm really not that big of a fan of this whole open core thing... And personally, I also felt like I could not really do that, because I forked off of open source software... So the part that talks to your printer was something that I basically took from a slicer, of all things, because that already was talking to -- \[unintelligible 00:28:08.10\] had a communication part that I could just take over... A lot of people had contributed, so going like "Yeah, I'm going to close this down now, and we are only going to keep an open core" - it just feels felt wrong, and to this day feels wrong. And I believe in open source, and I find it a bit weird that it's still news for people out there, that yeah, open source in general should be something that should be funded. We shouldn't have to jump through hoops by selling stuff around it, because what we do with maintaining open source is already a full-time job.
 
 **Justin Garrison:** Now, I don't know if you can go into details, but where does your funding come from? Is that from recurring businesses that say "Hey, we want to pay for you to --"
 
@@ -190,7 +190,7 @@ So...
 
 **Gina Häußge:** Yeah...
 
-**Justin Garrison:** \[00:31:58.07\] Sorry, Autumn. No shade.
+**Justin Garrison:** \[31:58\] Sorry, Autumn. No shade.
 
 **Autumn Nash:** A lot of stuff runs on Java, okay...?
 
@@ -232,7 +232,7 @@ So the first time I ran into a complete and utter problem with my whole approach
 
 **Autumn Nash:** That's a lot.
 
-**Gina Häußge:** \[00:35:57.14\] It's like this huge project that really needs to get done to make everything more modular, and to be able to make it easily adaptable to new developments out there, and to possibly also swap the whole communication stack out to target something else, and serial communication... Like something like network or so. But the only problem is that it is a project in and of itself... I don't know English at this time of the day. And as I already said, I am the only maintainer, so I also have to take care of all the bug fixes, all the security fixes, all the other new features, all of the community management, architecture, stuff...
+**Gina Häußge:** \[35:57\] It's like this huge project that really needs to get done to make everything more modular, and to be able to make it easily adaptable to new developments out there, and to possibly also swap the whole communication stack out to target something else, and serial communication... Like something like network or so. But the only problem is that it is a project in and of itself... I don't know English at this time of the day. And as I already said, I am the only maintainer, so I also have to take care of all the bug fixes, all the security fixes, all the other new features, all of the community management, architecture, stuff...
 
 **Autumn Nash:** How do you push all the developers and different people that are making the plugins to the next version, so you can eventually do an update?
 
@@ -278,7 +278,7 @@ So the first time I ran into a complete and utter problem with my whole approach
 
 **Justin Garrison:** How do you make sure you -- because a lot of that comes from just learning... Either scaling the projects, and it needs to change over time, or you didn't know how it worked back then, and you just learned a new way of doing it now. How would you go back in time and teach yourself "Oh, you should do it this way instead?" Is there a way?
 
-**Gina Häußge:** \[00:39:48.28\] Do we have a time machine? \[laughter\] Apart from that... I mean, I think most of the stuff, if I just had known any better, so if I had found some more information on some things, then yeah, that would have saved me a lot of work. I mean, some of the problems I actually just managed to iron out with the current release... Because I basically have two web servers situations going on; I have Tornado sitting in there, single-threaded, async... And on that, I have Flask sitting, which is sync. That is really a bad idea; you do not want to mix that up. But in 2012, Gina didn't know any better than that... And now I know.
+**Gina Häußge:** \[39:48\] Do we have a time machine? \[laughter\] Apart from that... I mean, I think most of the stuff, if I just had known any better, so if I had found some more information on some things, then yeah, that would have saved me a lot of work. I mean, some of the problems I actually just managed to iron out with the current release... Because I basically have two web servers situations going on; I have Tornado sitting in there, single-threaded, async... And on that, I have Flask sitting, which is sync. That is really a bad idea; you do not want to mix that up. But in 2012, Gina didn't know any better than that... And now I know.
 
 **Autumn Nash:** Flask talked a big game at that time. It's not even your fault. \[laughter\]
 
@@ -308,7 +308,7 @@ Because it went sideways, and you had to learn it.
 
 **Justin Garrison:** I feel like that needs \[unintelligible 00:43:50.25\] It's like "Test with users."
 
-**Autumn Nash:** \[00:43:55.00\] I mean, there's nothing -- like, it is nothing like some real person being like "I wonder what you could do if I put this here..." And you're like "Why would you do that?"
+**Autumn Nash:** \[43:55\] I mean, there's nothing -- like, it is nothing like some real person being like "I wonder what you could do if I put this here..." And you're like "Why would you do that?"
 
 **Justin Garrison:** Or they have some crazy workflow, where you're just like "What?! When you do what?!" Like "Oh, yeah, no, I drop to the web console every time, and I type my commands manually in JavaScript." And you're like...
 
@@ -360,7 +360,7 @@ Because it went sideways, and you had to learn it.
 
 **Gina Häußge:** Mostly functional stuff, really, I have to say... So I printed some parts for my bike, like for mounting the two locks that I have to the frame, and for mounting the radar unit that I have to tell me when a car is coming from back, and such stuff like that... Then together with a buddy we did a whole project for the Chaos Communication Congress at the Chaos Communication Camp last year... Which were basically little environment sensors that we put into little gnome figures. And I printed all of these gnome figures...
 
-**Autumn Nash:** \[00:48:08.23\] You're like the human problem solver.
+**Autumn Nash:** \[48:08\] You're like the human problem solver.
 
 **Gina Häußge:** That is actually my superpower.
 
@@ -400,13 +400,13 @@ Because it went sideways, and you had to learn it.
 
 **Gina Häußge:** Thank you for having me. It was a blast.
 
-**Break**: \[00:51:37.17\]
+**Break**: \[51:37\]
 
 **Autumn Nash:** Thank you so much, Gina, for coming to talk to us and letting us ask you all the questions. Your interview was great. Do we have stuff listed for people to find Gina, all her links, and everything?
 
 **Justin Garrison:** Yeah, we have a couple of links in the show notes, as well as some blog posts and a slide deck that she had for a presentation. So we have a couple of things there that people can go check out. It's in the show notes.
 
-**Autumn Nash:** \[00:52:14.29\] Gina is amazing. She speaks multiple languages, not just programming languages... She does all the things... And she's on Mastodon, right? Yeah, so definitely go check her out and support her, because she's amazing. So for our outro game we're gonna do K8s versus 3D printers, where Justin's going to guess -- I feel like he's cheating, because he knows all Kubernetes things... But we're going to try.
+**Autumn Nash:** \[52:14\] Gina is amazing. She speaks multiple languages, not just programming languages... She does all the things... And she's on Mastodon, right? Yeah, so definitely go check her out and support her, because she's amazing. So for our outro game we're gonna do K8s versus 3D printers, where Justin's going to guess -- I feel like he's cheating, because he knows all Kubernetes things... But we're going to try.
 
 **Justin Garrison:** I do not know all Kubernetes things.
 
@@ -524,7 +524,7 @@ Because it went sideways, and you had to learn it.
 
 **Autumn Nash:** That is a printer, unless Kubernetes has one, too... Some of these are like "It could be both..." What if we don't know...?
 
-**Justin Garrison:** \[00:56:20.02\] That's the ship from Wall-e, the Axiom. There was an internal project that I was familiar with called Axiom.
+**Justin Garrison:** \[56:20\] That's the ship from Wall-e, the Axiom. There was an internal project that I was familiar with called Axiom.
 
 **Autumn Nash:** It looks really cool, and it kind of looks like -- some of these... On this one from Airwolf - here, I'll send it to you. They almost remind me of -- you know what the old IMAX used to look like? The ones that were clear...
 
