@@ -38,7 +38,7 @@ They also use it for exploitation and extortion, basically. They use this stolen
 
 **Ramin Mohammadi:** That's right.
 
-**Break**: \[00:07:02.08\]
+**Break**: \[07:02\]
 
 **Daniel Whitenack:** Could you talk a little bit about like - let's say that I'm a healthcare company, and I want to not be on that wall of shame... And I want to do the best practices, and all of that... What is the reality of -- I know that, of course, you have been thinking very deeply about solving these issues with AI, and machine learning, or some related issues... But let's just say that doesn't exist. What are the choices that a company has and what are the challenges that they face in terms of securing this data?
 
@@ -54,7 +54,7 @@ They also use it for exploitation and extortion, basically. They use this stolen
 
 **Daniel Whitenack:** And when you say dark PHI, is this -- I'm assuming there is like, okay, you might have a regex for a social security number, or something like that... But if I just think of like a doctor recording a dictation of a patient visit, or something like that, there's a lot of natural text in there about diseases, and all of those sorts of things... So is that more natural text, sort of health information? Is that what leads to kind of the dark PHI? Or does it also have to do with "Oh, it's easy to detect in this file format, because I know the pattern I'm getting", but then someone scanned in this document, and it's in PDF or something, and my script doesn't know how to scrape these different data types. Could you kind of go into -- I'm super-fascinated by this idea of this dark PHI sitting around...
 
-**Ramin Mohammadi:** \[00:11:52.15\] So the first thing I'll point out is that 80% of healthcare data are unstructured. Unstructured means that from image, to audio transcripts, all sorts of PDFs... And what we have seen also on the healthcare - it's a variety of data extensions. So you will be surprised that the elusive file extensions that they don't exist, but what the clinicians or researchers do is that when they edit a file, the put dot the last name at the end. I think the last study we did, we found 8,000 extensions on our prospects' environment.
+**Ramin Mohammadi:** \[11:52\] So the first thing I'll point out is that 80% of healthcare data are unstructured. Unstructured means that from image, to audio transcripts, all sorts of PDFs... And what we have seen also on the healthcare - it's a variety of data extensions. So you will be surprised that the elusive file extensions that they don't exist, but what the clinicians or researchers do is that when they edit a file, the put dot the last name at the end. I think the last study we did, we found 8,000 extensions on our prospects' environment.
 
 **Daniel Whitenack:** Oh, my gosh... So literally, the personal information is in the file extension.
 
@@ -82,7 +82,7 @@ They also use it for exploitation and extortion, basically. They use this stolen
 
 Other challenges that I can see is that you also cannot collect or transfer any data to the cloud. That means everything needs to happen at the edge. Data labeling is highly difficult. Even human-level performance happens about 8 to 10 percent labeling error for detecting PHIs. Again, for example, you have lots of types and extensions. Data normally contains bias, certain demographics have a higher amount of data than others...
 
-\[00:16:07.09\] Model development is confined by first model performance, and then optimization metrics. And model deployment on the edge has its own difficulties, which we can talk about later. I think lastly, unsupervised model monitoring makes it more challenging to detect the rifts.
+\[16:07\] Model development is confined by first model performance, and then optimization metrics. And model deployment on the edge has its own difficulties, which we can talk about later. I think lastly, unsupervised model monitoring makes it more challenging to detect the rifts.
 
 **Daniel Whitenack:** And just to kind of define a couple of those things... When you say the edge, what is your -- because people might have different definitions in their mind of whether that's some staff member's laptop, or a desktop in a lab, or something like that... Or like a phone, or a microcontroller somewhere. People have a range of that. So in the context of healthcare, what is the edge environment?
 
@@ -98,7 +98,7 @@ Other challenges that I can see is that you also cannot collect or transfer any 
 
 **Daniel Whitenack:** Yeah, yeah. Contextualization, I guess, is a challenge. Interesting.
 
-**Break**: \[00:18:38.22\]
+**Break**: \[18:38\]
 
 **Daniel Whitenack:** Yeah, so maybe we could get a little bit now kind of into some of how you've been thinking about and approaching this problem, and thinking about it from the Tausight perspective. So in the context of this edge environment, in the context of this unstructured data, in the context of the constraints that we just talked about, how did you and your team specifically think about applying AI and machine learning in the context of detecting PHI? And maybe also what is your goal here? Is your goal to stop breaches? Is your goal to provide sort of insights about this PHI? How did you decide on what the main problem is you wanted to solve, and why AI or machine learning was relevant to solve that problem?
 
@@ -114,7 +114,7 @@ At Tausight, we do see this problem as a personal problem. It's our PHI that's b
 
 I think we get to the point where risks and threats and vulnerabilities are going to be detected at the edge, using the AI... As opposed to "Gee, I have all these heuristic rules", which is how we do lots of stuff today when it comes to recognizing patterns.
 
-\[00:24:04.10\] So at Tausight we use AI, for example, to recognize when the sensitive data is in unstructured content. It doesn't require us to say "Hey, there's a keyword here, there's another key word here." That would be how you do heuristic programming. A combination of these three words must mean this; this combination of these four must mean this. Those -- you never get to do all the rules; you will never get to the variability you need. So in our model, for example - one of our models, with about 50 million parameters, that can be set to recognize this stuff. You will never in years of programming get that much logic into your regex.
+\[24:04\] So at Tausight we use AI, for example, to recognize when the sensitive data is in unstructured content. It doesn't require us to say "Hey, there's a keyword here, there's another key word here." That would be how you do heuristic programming. A combination of these three words must mean this; this combination of these four must mean this. Those -- you never get to do all the rules; you will never get to the variability you need. So in our model, for example - one of our models, with about 50 million parameters, that can be set to recognize this stuff. You will never in years of programming get that much logic into your regex.
 
 Now, the other main factor for us is the ability to run these models right at the edge, where the data is being created, emailed, printed, copied or faxed. We bring the AI to the data, rather than taking the data to the AI, which most of the current AI solutions do that. By doing so, we can ensure that our data is always protected, agnostic of hardware specs or network connections.
 
@@ -134,7 +134,7 @@ The other thing comes around the model training. So our solutions need to be abl
 
 **Ramin Mohammadi:** That is absolutely correct.
 
-**Daniel Whitenack:** \[00:27:48.05\] Gotcha. Yeah. And in light of those constraints, of course, some people now might just say "Oh, well, we've got all these LLMs now", and they're great at doing all these things, but I'm guessing a lot of those aren't sort of fitting for this sort of environment, these memory constraints... So where do you go with that? Is it looking back to sort of traditional NLP sorts of things? Is it model optimization? Is it a combination of those? How are you balancing the constraints, but also kind of looking forward to the these new generations of models, and that sort of thing?
+**Daniel Whitenack:** \[27:48\] Gotcha. Yeah. And in light of those constraints, of course, some people now might just say "Oh, well, we've got all these LLMs now", and they're great at doing all these things, but I'm guessing a lot of those aren't sort of fitting for this sort of environment, these memory constraints... So where do you go with that? Is it looking back to sort of traditional NLP sorts of things? Is it model optimization? Is it a combination of those? How are you balancing the constraints, but also kind of looking forward to the these new generations of models, and that sort of thing?
 
 **Ramin Mohammadi:** Regarding the LLMs, I was reading about this Phi 3 by Microsoft, the small model.. And even that model requires a certain amount of core RAM, or GPU.
 
@@ -152,7 +152,7 @@ The other thing comes around the model training. So our solutions need to be abl
 
 But it will take quite a while for healthcare organizations to have that change adapted, because it requires budgets... And I think healthcare organizations, they go through a machine update once every five years. I don't think they do it over all data machines; only maybe certain machines. But definitely, I do see the future that you can bring much larger models right at the edge, but I don't think we are there yet.
 
-**Daniel Whitenack:** \[00:32:16.17\] Yeah, I appreciate that perspective, because some people, I think, in our listener base, they're constantly overwhelmed by this news about these new big models... But it's harder to get this sort of story of a practitioner on the ground working with specific companies, in certain constraints. There's still quite a diversity of constraints that a practicing data scientist or AI engineer has to work within... So I think that viewpoint's very important.
+**Daniel Whitenack:** \[32:16\] Yeah, I appreciate that perspective, because some people, I think, in our listener base, they're constantly overwhelmed by this news about these new big models... But it's harder to get this sort of story of a practitioner on the ground working with specific companies, in certain constraints. There's still quite a diversity of constraints that a practicing data scientist or AI engineer has to work within... So I think that viewpoint's very important.
 
 As you kind of look at what you've done with Tausight and these tools that you've built in detecting PHI, helping companies know where their PHI is, reducing false positives, figuring out how to run these models on edge devices and all of those things, do you have anything that stands out in your mind in terms of -- you don't have to mention specific customers or anything, but success stories or really things that you're proud of, that you're glad that you've been able to be a part of in terms of helping protect this PHI. Any sort of case studies or use cases that pop into your mind?
 
