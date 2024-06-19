@@ -60,7 +60,7 @@ And then it also simultaneously makes sure that that software that you create pr
 
 So that's actually provided a pretty good lens to think about everything. Like, "Well, if we build something new, how does that further that mission of making sure that our developers everywhere are being more productive, and they're building production-grade stuff that will make them more successful?" That makes Google happy, that makes our users happy, that makes the community happy, and then the Go team gets really happy about that, too.
 
-**Break**: \[00:13:53.04\]
+**Break**: \[13:53\]
 
 **Angelica Hill:** So Russ, what is it like being the tech lead on the Go team? Like, what is your day to day? Are you just spending all day talking to the teams, and thinking about your own interesting ideas? I'm very intrigued to understand what your interaction with these various teams are, and what does it entail to be the tech lead of this huge language that you have such invested users of? I mean, people who -- you know, which we've seen somewhat in the past, you make a change and some people love it, some people are in uproars. So I'm interested to understand how you think about your role, and just what's it like.
 
@@ -181,7 +181,7 @@ And so with AI - again, we're not trying to chase the data scientists and the Py
 
 **Angelica Hill:** Love it. Okay.
 
-**Jingle**: \[00:57:03.05\]
+**Jingle**: \[57:03\]
 
 **Sameer Ajmani:** So years ago -- well, probably my biggest contribution to Go is actually the context data type, that everyone has to deal with invading their function signatures... Russ and I did the original design together, but I did most of the authorship and popularization of it. And we've gotten a lot of feedback about "Aargh...! Wasn't there a better way?" My unpopular opinion is context is fine. It actually does its job pretty well, and what it does is very subtle and tricky, considering that you have to deal with multi-threaded request handlers, and Goroutines, and deadlines and timeouts, and request \[unintelligible 00:57:54.01\] values, and... It pretty much just works. And the implementation is simple enough that we've been able to optimize it over time, and... Yeah. The sort of risks of context abuse have not become a giant, pervasive problem that we're really worried about... And for the most part, Go developers seem to be holding it right, and I'm thankful for that.
 
