@@ -52,7 +52,7 @@
 
 **Jerod Santo:** It is.
 
-**Adam Stacoviak:** It's perfect for the male voice. I've never really I guess maybe listened to many female speakers speak Japanese, but it's such -- like a growling; there's some growling in there. It's definitely like some \[00:07:11.16\] in there. I can't, obviously...
+**Adam Stacoviak:** It's perfect for the male voice. I've never really I guess maybe listened to many female speakers speak Japanese, but it's such -- like a growling; there's some growling in there. It's definitely like some \[07:11\] in there. I can't, obviously...
 
 **Justin Searls:** Yeah, yeah. And the more manly you want to present yourself, the growlier it gets... Which is why I find women way easier to understand.
 
@@ -60,7 +60,7 @@
 
 **Justin Searls:** Because they actually enunciate. \[laughter\]
 
-**Adam Stacoviak:** Yeah. Men are like \[00:07:27.04\] That's cool. Thank you for appeasing my desires here... Because I do believe that the Changelog podcast is the best podcast ever. And so there you go.
+**Adam Stacoviak:** Yeah. Men are like \[07:27\] That's cool. Thank you for appeasing my desires here... Because I do believe that the Changelog podcast is the best podcast ever. And so there you go.
 
 **Justin Searls:** That's why we're here.
 
@@ -78,7 +78,7 @@
 
 **Adam Stacoviak:** It may have been the biggest... Maybe not the best, but the biggest keynote, I would say, for Apple in a while. And not just because of like product, but because of all of the hype and push and pull around - now I guess they want to brand it Apple intelligence, right? AI has been, as you know, Jerod...
 
-**Jerod Santo:** \[00:08:22.01\] I do know...
+**Jerod Santo:** \[08:22\] I do know...
 
 **Adam Stacoviak:** I mean, I'm speaking to the choir here. I'm sure you know as well, Justin, but... We went to Build, Microsoft Build, and I just think we couldn't stop talking about AI, because that's all they talked about. Google IO was all about it... And now we've just sort of been waiting for Apple to unveil whatever they may or may not do around this. Now, obviously, the Open AI partnership was talked about weeks ago, so we knew something was coming. They couldn't sit that much longer... Siri could not sit and be Siri old version. It had to be -- and I have to turn my phone off, because Siri was talking to me now... You know, she, they, whatever, the robot that is Siri could not continue to be as unintelligent as it had been. So they weren't primed to do something.
 
@@ -94,7 +94,7 @@ And it is long overdue. I mean, the pressure has been on them. I remember last y
 
 **Adam Stacoviak:** Well, we are. It's \[unintelligible 00:11:52.23\]
 
-**Jerod Santo:** \[00:11:56.17\] It's such a different philosophy. And I mean, I don't know if you guys were impressed by what they've crafted, but I thought "Wow, it's a pretty cohesive story. They're differentiated." Obviously, I do think the ChatGPT integration is a weird constellation thing for being slow and behind... Maybe you guys can bounce back on that. But overall, I thought their approach does seem like to me the most compelling product yet. Obviously, it's just demos at this point, coming this fall, all that being said. I felt like they did a pretty good job with their strategy.
+**Jerod Santo:** \[11:56\] It's such a different philosophy. And I mean, I don't know if you guys were impressed by what they've crafted, but I thought "Wow, it's a pretty cohesive story. They're differentiated." Obviously, I do think the ChatGPT integration is a weird constellation thing for being slow and behind... Maybe you guys can bounce back on that. But overall, I thought their approach does seem like to me the most compelling product yet. Obviously, it's just demos at this point, coming this fall, all that being said. I felt like they did a pretty good job with their strategy.
 
 **Justin Searls:** You know, it's interesting, too... I think Google is always -- Google, Meta, and to an extent Microsoft, if you think of them more as a b2b company, although I think they've done a good job transitioning to being a consumer-oriented company... Google and Meta -- you get good at what you do, and they don't make their money taking dollars from Jerod and Adam, and Justin. The people paying them are somebody else, and all of the reinforcing feedback loops inside of their broader system. Marketing is like an accident that happens sometimes, and products or things that come and go almost as a way to keep engineers retained as much as something that's vital to their business... So of course, it's not shocking when they're finally faced with an existential threat to the thing that makes them money, that they're completely caught flat-footed and flailing... Because they don't know how to ship a product. Sorry, if you're a Google fan, or something. It's like their organization's lifeblood, that is new revenue and profitability, has nothing to do with the normal cadence of bringing something new to market for actual users to use and buy. Gmail and Google Maps, the two most famous things that everyone loves, were total accidents.
 
@@ -106,7 +106,7 @@ And it is long overdue. I mean, the pressure has been on them. I remember last y
 
 **Justin Searls:** Well, and to recap if you didn't watch the keynote, what was cool about it is it has pencil support, and you can just draw -- this is going to go down as one of the best demos... The demo to actual people using this ratio is going to be hilarious... Because the demo is just phenomenal. You draw the freebody diagram that you have nightmares about from high school, of all of the throwing the basketball, and trying to figure out the arc and cosine and stuff, and then you write down the equation, and then you just put equals, and then you draw a line, and you cross your fingers that it'll recognize it... And then it writes the answer for you. And then you can change any of the other variables, and it'll update the answer. You can tell that they had something like that, and the reason that they're finally shipping a Calculator app to the iPad was to show that off.
 
-**Jerod Santo:** \[00:15:37.08\] For sure. For sure, because it demos so well. And it just -- it's just so impressive. I mean, it's the stuff out of the future, right? I mean, you basically take your story problem, that your teacher gives you, and you just write it down with your pencil, and draw some little diagrams and lay it out, and then boom goes the dynamite. But again, I don't think -- I mean, I don't even have an iPad, but I think some of that is in... Math notes have come to also to the Notes app, and I'm not sure if that's in there, or that's just the iPad Calculator... But regardless, I will probably never use this feature myself.
+**Jerod Santo:** \[15:37\] For sure. For sure, because it demos so well. And it just -- it's just so impressive. I mean, it's the stuff out of the future, right? I mean, you basically take your story problem, that your teacher gives you, and you just write it down with your pencil, and draw some little diagrams and lay it out, and then boom goes the dynamite. But again, I don't think -- I mean, I don't even have an iPad, but I think some of that is in... Math notes have come to also to the Notes app, and I'm not sure if that's in there, or that's just the iPad Calculator... But regardless, I will probably never use this feature myself.
 
 **Justin Searls:** I think that -- here's a great little microcosm though of how Apple's marketing is effective... Because the imagined student is drawing all this, you feel like "Oh, they're doing work." But the fact that it's arriving at the answer means like the student's not learning anything, they're just doing that rote drawing exercise... But the demo of this was an Open AI keynote; it would be take a picture of the problem, and then it'll draw the picture, or it'll just jump to the solution for you... And that to the average viewer is like "Oh, now you're cutting the student out of the equation." So here the students still exists, but their job is just to use these fancy devices to draw with a pencil, even though they don't end up learning math... Like, I mean, we're losing the point of "Learning math is about learning math." And that's why I think this is just an example of really, really high-end, top-notch marketing.
 
@@ -144,7 +144,7 @@ And it is long overdue. I mean, the pressure has been on them. I remember last y
 
 **Jerod Santo:** There you go.
 
-**Adam Stacoviak:** \[00:19:28.21\] They have that, and I was like "Well, I mean, if you're gonna do all this artificial intelligence stuff and do it well, like you've demoed, you've done", I mean Neha Batra literally demoed speaking in Spanish into VS Code, it translated to English, working with Copilot the application, or it could have been GitHub Copilot; I'm not really sure. They all merge in my brain... Like, which Copilot am I talking to? And there was a developer preview of speaking one language, translating to the other, and getting work done. And I think that's kind of cool. So if you're going to have that kind of power, why not have a native device? And I think that's what Apple's doing here, is they're just natively bringing in the passwords out there, natively bringing in an upgrade to Siri, and obviously the ChatGPT extensions and stuff like that that let you opt in or out of the response... But I think Apple has a lot of things happening because they're native to the device we all, for the most part, know and love.
+**Adam Stacoviak:** \[19:28\] They have that, and I was like "Well, I mean, if you're gonna do all this artificial intelligence stuff and do it well, like you've demoed, you've done", I mean Neha Batra literally demoed speaking in Spanish into VS Code, it translated to English, working with Copilot the application, or it could have been GitHub Copilot; I'm not really sure. They all merge in my brain... Like, which Copilot am I talking to? And there was a developer preview of speaking one language, translating to the other, and getting work done. And I think that's kind of cool. So if you're going to have that kind of power, why not have a native device? And I think that's what Apple's doing here, is they're just natively bringing in the passwords out there, natively bringing in an upgrade to Siri, and obviously the ChatGPT extensions and stuff like that that let you opt in or out of the response... But I think Apple has a lot of things happening because they're native to the device we all, for the most part, know and love.
 
 **Justin Searls:** So hear me out... Microsoft, just come out with a little pin that you put on your chest. It's got Copilot built right in...
 
@@ -180,7 +180,7 @@ And it is long overdue. I mean, the pressure has been on them. I remember last y
 
 **Jerod Santo:** Well, you don't use it, do you? You use 1Password.
 
-**Adam Stacoviak:** \[00:23:57.09\] Well, so I still use 1Password, and I still change passwords. And I don't always use their mechanisms. I will literally copy out the password from 1Password, into another application which is a staple for me, which is called Text Soap.
+**Adam Stacoviak:** \[23:57\] Well, so I still use 1Password, and I still change passwords. And I don't always use their mechanisms. I will literally copy out the password from 1Password, into another application which is a staple for me, which is called Text Soap.
 
 **Jerod Santo:** Text Soap?
 
@@ -242,7 +242,7 @@ And it is long overdue. I mean, the pressure has been on them. I remember last y
 
 **Justin Searls:** It seems like the specification was written with the device manufacturer in mind, and not like a third-party floating cross-platform thing in mind.
 
-**Jerod Santo:** \[00:27:56.14\] Right. I mean, that's a challenge for 1Password that's just ongoing... I just recently skimmed a post of theirs about a lot of the work that they're doing just to keep it working inside of Safari. And it's like "Come on, Apple." At a certain point you're just wondering if they're making it harder on purpose.
+**Jerod Santo:** \[27:56\] Right. I mean, that's a challenge for 1Password that's just ongoing... I just recently skimmed a post of theirs about a lot of the work that they're doing just to keep it working inside of Safari. And it's like "Come on, Apple." At a certain point you're just wondering if they're making it harder on purpose.
 
 **Adam Stacoviak:** Right. Yeah, I mean, that's true, because there's a lot of things, like in the Safari field, that pop up... You have to do a lot of sniffing to the UI to like display their interface, to give you that functionality. And they're not baked in. They may be using native protocols, like with X-code or whatever... But in the end -- well, I guess probably not, because they're Electron, right? It's an Electron app.
 
@@ -274,7 +274,7 @@ I think if I had a wish for 1Password, it would be to get acquired. They've buil
 
 **Adam Stacoviak:** I agree. Good points.
 
-**Break**: \[00:30:28.24\]
+**Break**: \[30:28\]
 
 **Jerod Santo:** Well, here is the other thing on MacOS Sequoia that I'm super-excited about. I don't know if you guys are... Use your iPhone from your Mac. iPhone mirroring --
 
@@ -306,7 +306,7 @@ I think if I had a wish for 1Password, it would be to get acquired. They've buil
 
 **Justin Searls:** And it's as buggy as the day it was born, so...
 
-**Jerod Santo:** \[00:40:15.00\] Oh, gosh... Well, screen time - I would love some help with screen time, because we manage a bunch of kids and their phones... And --
+**Jerod Santo:** \[40:15\] Oh, gosh... Well, screen time - I would love some help with screen time, because we manage a bunch of kids and their phones... And --
 
 **Justin Searls:** And they've zero-dayed you?
 
@@ -360,7 +360,7 @@ And then C, there's so many holes in the system that a savvy kid, of which there
 
 **Adam Stacoviak:** Breaking \[unintelligible 00:43:47.26\]
 
-**Justin Searls:** \[00:43:50.07\] ...in advance. So I recorded that on Saturday. I was wondering, "Why would Apple publicly announced that they're going to work with Open AI for their backend model when all of our iCloud stuff is stored on Azure, AWS, Google Cloud?" And Apple never betrays that information. Like, they play them off each other; they just treat it like a commodity. So why is it that the language model would get elevated into this thing? And Federighi even kind of previewed that it would be -- or was it him? Whoever was talking about it was like that it would be configurable in the future, that they'd add additional models... So for Apple to take both third parties, elevate them to a named thing on their platform that the users know about, and then to give the users the \*bleep\* work of having to decide which model is best in which circumstances - there must be a reason. And I think that that reason became clear during the keynote, which was "Apple wants plausible deniability." "Hey, we are confident that our very limited model, that's only local, that's got temperature set to zero, is going to work fine. But if you want something more, here, you can click this escape hatch button." And as soon as you do, you're gonna see "ChatGPT may make mistakes", and you're gonna see their logo big.
+**Justin Searls:** \[43:50\] ...in advance. So I recorded that on Saturday. I was wondering, "Why would Apple publicly announced that they're going to work with Open AI for their backend model when all of our iCloud stuff is stored on Azure, AWS, Google Cloud?" And Apple never betrays that information. Like, they play them off each other; they just treat it like a commodity. So why is it that the language model would get elevated into this thing? And Federighi even kind of previewed that it would be -- or was it him? Whoever was talking about it was like that it would be configurable in the future, that they'd add additional models... So for Apple to take both third parties, elevate them to a named thing on their platform that the users know about, and then to give the users the \*bleep\* work of having to decide which model is best in which circumstances - there must be a reason. And I think that that reason became clear during the keynote, which was "Apple wants plausible deniability." "Hey, we are confident that our very limited model, that's only local, that's got temperature set to zero, is going to work fine. But if you want something more, here, you can click this escape hatch button." And as soon as you do, you're gonna see "ChatGPT may make mistakes", and you're gonna see their logo big.
 
 So what Apple is saying really is "That's the throat to choke. Don't look at us." Whereas Google has all the egg on their face, because they brand Gemini as Google Gemini... And Microsoft, too. Even though Copilot -- we all in the industry know that it's backed by Open AI. They want to brand it as if it's their own thing, and they go out of their way to say "Oh, we've got all of our own proprietary models on top of it, too", which means that when recall screws up, or whatever these new features are blow up, it's Microsoft with egg on their face. So I think this is a way for them to have their cake and eat it too.
 
@@ -378,7 +378,7 @@ So what Apple is saying really is "That's the throat to choke. Don't look at us.
 
 **Justin Searls:** I think from a safety perspective I'm personally really glad that there is a two-tiered system with this Apple intelligence stuff. The equivalent of a large action model, like what the Rabbit R1 was doing, where -- I'm sure on a phone it's gonna make way more sense, where I'm telling Siri "Hey, go and do things across these apps on my behalf." That's all going to be either the on-device or running in an M2 Ultra in the cloud Apple stuff. ChatGPT will not be able to act on my behalf and then accidentally call 911, or order 1,000 pizzas, or delete my bank account. That seems like there's a pretty firm line somewhere in the capabilities. It's like text generation, or -- it's not like it can suddenly as soon as you hit okay take over and route your phone.
 
-**Jerod Santo:** \[00:48:13.24\] The other thing I thought was pretty savvy, but they have been putting in asterisks at the bottom of the pages, and not up front with, is like "This Apple Intelligence stuff", which is obviously the flagship thing that they're here to talk about, is on iPhone 15 Pro and newer. Which is this year's model. I mean, there's nothing newer than that right now. Obviously, in the fall, when this stuff ships, there will be a 16, I assume; there'll be a new phone that comes out. But this, in addition to pushing their chips into the pile of the AI game, they're also like "We're going to sell some new devices. We need a good reason to sell some new devices", because they're struggling to sell new devices, compared to the past at this point.
+**Jerod Santo:** \[48:13\] The other thing I thought was pretty savvy, but they have been putting in asterisks at the bottom of the pages, and not up front with, is like "This Apple Intelligence stuff", which is obviously the flagship thing that they're here to talk about, is on iPhone 15 Pro and newer. Which is this year's model. I mean, there's nothing newer than that right now. Obviously, in the fall, when this stuff ships, there will be a 16, I assume; there'll be a new phone that comes out. But this, in addition to pushing their chips into the pile of the AI game, they're also like "We're going to sell some new devices. We need a good reason to sell some new devices", because they're struggling to sell new devices, compared to the past at this point.
 
 **Adam Stacoviak:** Yeah, I noticed that as well. It's like "The system will be available for free on the iPhone 15 Pro, as well as on iPads and Macs with an M1 chip and later." So I'm happy that the M1 that we've invested in - Jerod, you have the same machine I do...
 
@@ -424,7 +424,7 @@ And so if that floor specifies the size, the parameter count of the model that t
 
 **Adam Stacoviak:** I was looking at the "Compare iPhone models" page. I've got the iPhone 15 Pro Max up, and I've got the iPhone 14 Pro Max up, which is the phone that I own, which is the iPhone 14 Pro Max... I love saying all four of those words in unison; thank you very much. And the difference - you know, where it really matters it's the chip; it's the A16 versus the A17 Pro. Y'all probably know this. But when you compare them, aside from the number changing -- I'm sure there's some innards and some technology change that are more advanced to give the A17 Pro some advancements... But when you compare, them it's A16 Bionic Chip, A17 Pro Chip. Six core CPU, six core GPU, 16-core neural engine, and the only difference between the two is that on the A16, which is the 14 Pro Max version, is a five-core GPU versus a six-core GPU on the A17 Pro. So I agree with you, Justin... But come on. I mean, these are the same.
 
-**Jerod Santo:** \[00:52:50.13\] That last GPU is critical. It's just critical. You've gotta have it.
+**Jerod Santo:** \[52:50\] That last GPU is critical. It's just critical. You've gotta have it.
 
 **Adam Stacoviak:** Right?
 
@@ -478,7 +478,7 @@ And so if that floor specifies the size, the parameter count of the model that t
 
 **Justin Searls:** I'm surprised I didn't see a whole bunch of people just like "Oh, drug dealer mode." It's harder to trace those transactions. It's not like it's impossible. It's all backed by like a real bank somewhere. But a lot of illicit stuff happens via Apple Cash, because it is more secure. I thought it was hilarious that they demoed it that way.
 
-**Jerod Santo:** \[00:56:14.08\] Better than Bitcoin for drug dealers, it turns out.
+**Jerod Santo:** \[56:14\] Better than Bitcoin for drug dealers, it turns out.
 
 **Justin Searls:** More convenient.
 
