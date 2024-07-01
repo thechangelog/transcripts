@@ -64,7 +64,7 @@ Join this all-star cast as they chat through the latest trends, technologies & w
 
 Hopefully you already heard about this one, but just in case you haven't:
 
-> The `polyfill.js` is a popular open source library to support older browsers. 100K+ sites embed it using the `cdn.polyfill.io` domain. Notable users are JSTOR, Intuit and World Economic Forum. However, in February this year, a Chinese company bought the domain and the Github account. Since then, this domain was caught injecting malware on mobile devices via any site that embeds `cdn.polyfill.io`.
+> The `polyfill.js` is a popular open source library to support older browsers. 100K+ sites embed it using the `cdn.polyfill.io` domain. Notable users are JSTOR, Intuit and World Economic Forum. However, in February this year, a Chinese company bought the domain and the GitHub account. Since then, this domain was caught injecting malware on mobile devices via any site that embeds `cdn.polyfill.io`.
 
 Yesterday's best practice (loading common static assets from 3rd-party CDNs) are today's malpractice...
 

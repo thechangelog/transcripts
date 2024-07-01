@@ -84,9 +84,9 @@ Thank you to FireHydrant for sponsoring this episode of Changelog News!
 
 **Jerod Santo:**
 
-[GitHub Copilot Workspace reviewed](https://matduggan.com/reviewing-github-copilot-workspaces/)
+[GitHub Copilot Workspace reviewed](https://matduggan.com/reviewing-GitHub-copilot-workspaces/)
 
-Mathew Duggan, who had avoided AI tooling until now, was invited to try out the beta for [GitHub's new AI-driven web IDE](https://githubnext.com/projects/copilot-workspace). His results were... underwhelming. TLDR!
+Mathew Duggan, who had avoided AI tooling until now, was invited to try out the beta for [GitHub's new AI-driven web IDE](https://GitHubnext.com/projects/copilot-workspace). His results were... underwhelming. TLDR!
 
 > GitHub Copilot Workspace didn't work on a super simple task regardless of how easy I made the task. I wouldn't use something like this for free, much less pay for it. It sort of failed in every way it could at every step.
 
