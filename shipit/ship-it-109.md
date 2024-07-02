@@ -64,7 +64,7 @@
 
 **Justin Garrison:** But if you roll into a meeting with a tangerine iBook with your iPad inside, you are --
 
-**Autumn Nash:** \[00:06:17.08\] It's gotta be pink. Have you seen my hair? Like...
+**Autumn Nash:** \[06:17\] It's gotta be pink. Have you seen my hair? Like...
 
 **Justin Garrison:** They never made a pink iBook, okay?
 
@@ -88,7 +88,7 @@
 
 **Justin Garrison:** \[laughs\] Wow. That was such a... Like "Well, it could be worse. You could be just a terrible, not fun person." So anyway... Devyn and Jakub, thank you for joining us. We'll jump into the interview, and we'll talk to you all after.
 
-**Break**: \[00:07:08.15\]
+**Break**: \[07:08\]
 
 **Justin Garrison:** Okay, thank you so much for coming on the show today, Devyn Cairns And Jakub Žádník. I want to start with just what is Nushell?
 
@@ -116,7 +116,7 @@
 
 Devyn, how did you get -- you said you're new on the project. How did you get started? Why did you decide to become a maintainer, part of the core team here?
 
-**Devyn Cairns:** \[00:15:33.20\] Yeah, I just started this year, and so I'm brand new to the project, basically... But computer languages have always been sort of like an interest of mine, and I was never really the type to really mod my shell a lot. I would do some stuff for convenience, but I had mostly sort of a static, set shell kind of setup. And I started using Nushell because I just -- I heard about it and I thought it was kind of interesting. And I was just kind of blown away by how much it rethinks some of the things that we just take for granted all of the time... That sort of traditional paradigm of sort of Unix commands where you you're typing stuff into other things to stream-transform them, right? But output formats are really different between different commands, and you've got like awk, and cut, and all these different things that are meant to sort of like work with all these different bespoke text formats that exist... And Nushell just does away with that, because it just uses structured data, and it also has ways for you to easily parse text coming from those other commands if you really want to, or you need to. And so I've found that really interesting.
+**Devyn Cairns:** \[15:33\] Yeah, I just started this year, and so I'm brand new to the project, basically... But computer languages have always been sort of like an interest of mine, and I was never really the type to really mod my shell a lot. I would do some stuff for convenience, but I had mostly sort of a static, set shell kind of setup. And I started using Nushell because I just -- I heard about it and I thought it was kind of interesting. And I was just kind of blown away by how much it rethinks some of the things that we just take for granted all of the time... That sort of traditional paradigm of sort of Unix commands where you you're typing stuff into other things to stream-transform them, right? But output formats are really different between different commands, and you've got like awk, and cut, and all these different things that are meant to sort of like work with all these different bespoke text formats that exist... And Nushell just does away with that, because it just uses structured data, and it also has ways for you to easily parse text coming from those other commands if you really want to, or you need to. And so I've found that really interesting.
 
 I've found one of the things that was missing was a good plugin interface for extensibility. There was one, but it was really limited; you could only sort of write like commands that had like one result. You'd basically take a bunch of arguments and then you could do something and then return a result. But that was it. And so I tried to make them more like internal commands, so you could add all kinds of like stuff that like keeps running... And we actually ended up using it to pull the data frame support that was quite a large thing, that was difficult to compile, out of the main binary and into a plugin. So now that exists as the \[unintelligible 00:17:11.09\] plugin, and that's certainly one of the main achievements that I've had so far.
 
@@ -140,7 +140,7 @@ I've found one of the things that was missing was a good plugin interface for ex
 
 **Justin Garrison:** That's awesome. Jakub, how did you start with the project? Do you do something similar in your day job, or is this full-time?
 
-**Jakub Žádník:** \[00:19:58.06\] No, no. So in my day job, I'm a PhD researcher in computing science here in Finland... And yeah, I was using shell for Bash, for work, writing scripts, and so on... So it's the same story as I ended up programming Rust. I was also programming a lot of C, and then I was "Oh man, there are a lot of like weird things about it. Is there something better?" So I found Rust. And then I was programming Bash in my day job, and I was looking around if there is something better. I don't really enjoy writing Bash script, and its syntax. I never remember how to write if conditions; I always have to look it up. All those Bash quirks were eventually growing up on me, so... Yeah, I found Nushell, started contributing... I think the path commands were one of my first contributions, and I eventually joined the core team.
+**Jakub Žádník:** \[19:58\] No, no. So in my day job, I'm a PhD researcher in computing science here in Finland... And yeah, I was using shell for Bash, for work, writing scripts, and so on... So it's the same story as I ended up programming Rust. I was also programming a lot of C, and then I was "Oh man, there are a lot of like weird things about it. Is there something better?" So I found Rust. And then I was programming Bash in my day job, and I was looking around if there is something better. I don't really enjoy writing Bash script, and its syntax. I never remember how to write if conditions; I always have to look it up. All those Bash quirks were eventually growing up on me, so... Yeah, I found Nushell, started contributing... I think the path commands were one of my first contributions, and I eventually joined the core team.
 
 **Justin Garrison:** Oh, that's cool. I've found it a while ago, but never had a real use case for it... And in the beginning of this year I had to transform like some dates; there was a CSV file with some dates. And one of the things I really loved was like, okay, I'm gonna try it in Bash with awk first, because that seemed like a natural way to do it. But awk doesn't know about date time format. It's not a thing; like, it's just strings, and I'm like "Okay, how do I modify this string?" And I never got it to work. So I was like "Let me do it with Python." And my Python script ended up being 15 lines or so, and I'm like "That's not that bad." I'm like "Let me try it in Nu. Let me just see if I can do it in Nushell." And in the community, the Discord community was so helpful, just because I was like "Hey, here's the thing I'm doing. I have this data, I want it to go here." And I think it was maybe an hour later, someone replied back, like "Oh, here's the three commands you need to string together." I was like "Okay, cool. But what about this last piece? I want to transform the date..." Like "Oh, yeah, here's the -- we know about datetime." Datetime is this data structure that exists inside of Nushell, and you can just change that format. And I was like "Really?" And so I ended up with like a one-liner in Nushell, and I was like "This is cool." This transformed the way that I wanted to interact with things. And I am one of the weirdos that likes writing Bash scripts. I always remember the Bash syntax, but I always know when to not write a Bash script.
 
@@ -170,7 +170,7 @@ I've found one of the things that was missing was a good plugin interface for ex
 
 **Justin Garrison:** Shelling out doesn't feel like you're doing it wrong... Which is the thing that Python and Go, and a lot of other -- like, if you try to use a programming language, like "I need to shell out to something", you're like "Okay, well, os/exec, something, something..." And in Nushell it's just like "Oh yeah, I have a binary in my path. Please run it."
 
-**Autumn Nash:** \[00:23:59.03\] Python is definitely my favorite scripting language, but I don't know if I would ever consider it a shell. It doesn't work the same way as you can write a 40-line Bash script and have it automated in that way... As much as Bash is painful...
+**Autumn Nash:** \[23:59\] Python is definitely my favorite scripting language, but I don't know if I would ever consider it a shell. It doesn't work the same way as you can write a 40-line Bash script and have it automated in that way... As much as Bash is painful...
 **Justin Garrison:** And break for everyone that's on a Mac, or has the BSD option, versus the --
 
 **Autumn Nash:** Yeah. \[laughs\] Well, not just that, but with Python's path in Mac, it's like always trying to pick the wrong path, and you're like "No. Stop it."
@@ -197,7 +197,7 @@ I've found one of the things that was missing was a good plugin interface for ex
 
 **Justin Garrison:** I'm realizing now on an audio podcast saying Nushell over and over again is going to be hard, because they're gonna end up at any new shell, and it's actually nushell.sh.
 
-**Autumn Nash:** \[00:28:04.09\] I think a shell is so close to the operating system... Like, how did you guys get started in making those contributions? Because it's a very different thing than application programming, or app, or data science. Really playing with the interaction of the operating system is different, so how did you guys get into it?
+**Autumn Nash:** \[28:04\] I think a shell is so close to the operating system... Like, how did you guys get started in making those contributions? Because it's a very different thing than application programming, or app, or data science. Really playing with the interaction of the operating system is different, so how did you guys get into it?
 
 **Jakub Žádník:** I think I just ended up fixing bugs, and going into the path... So for me it was that I discovered something that I didn't like, and started fixing it, and then during that process I started learning about it. So I ended up learning too much about paths. \[laughter\]
 
@@ -231,7 +231,7 @@ So we're kind of in the process of it, and it keeps going and going, but we're c
 
 **Devyn Cairns:** Yeah, so we release every month; it's on a clock schedule. And we freeze -- Jakub, I think it's two days, or one day before the release? We completely freeze.
 
-**Jakub Žádník:** \[00:32:19.03\] Yeah. We 8ship on Tuesday, so during the weekend, we land the last PRs. On Sunday we freeze, and if there are any errors coming up, then we release on Tuesday, and then keep the freeze after the release for some time, also just to see if we need to do some hot fixes, like it was in the last release.
+**Jakub Žádník:** \[32:19\] Yeah. We 8ship on Tuesday, so during the weekend, we land the last PRs. On Sunday we freeze, and if there are any errors coming up, then we release on Tuesday, and then keep the freeze after the release for some time, also just to see if we need to do some hot fixes, like it was in the last release.
 
 **Autumn Nash:** What is your actual release process like?
 
@@ -249,7 +249,7 @@ So we're kind of in the process of it, and it keeps going and going, but we're c
 
 **Devyn Cairns:** Yeah. As I see it, we're still kind of a medium-sized open source project, so we're kind of growing, we're getting sort of more formal processes for certain things... But for example, when I joined the core team, I had the time to sort of start doing releases, so I volunteered to do that... And the first time I didn't do it, I just watched \[unintelligible 00:35:26.16\] do it. He's one of the other core team members. And he streamed it on Discord. And actually, the first time I did a release, I actually just did it publicly on our open mic, and anybody who was there could just watch me do it. So that was cool.
 
-**Justin Garrison:** \[00:35:44.18\] Yeah. That welcoming community of jut sharing, like "Hey, we're just gonna walk through this. No pressure to come, no pressure to ask anything, but if you want to see how we're doing it..." I mean, I think Twitch has a lot of live developers that are doing this stuff, and it's lik "Oh, I don't actually know what I'm doing, but we're gonna figure it out for the next couple hours. If you want to come watch me struggle, you're welcome to." And I think that's really neat.
+**Justin Garrison:** \[35:44\] Yeah. That welcoming community of jut sharing, like "Hey, we're just gonna walk through this. No pressure to come, no pressure to ask anything, but if you want to see how we're doing it..." I mean, I think Twitch has a lot of live developers that are doing this stuff, and it's lik "Oh, I don't actually know what I'm doing, but we're gonna figure it out for the next couple hours. If you want to come watch me struggle, you're welcome to." And I think that's really neat.
 
 One of my favorite things about the Nushell Discord is the Cool Scripts channel, where people just share "I wrote a script that solved the problem for me", in the most obscure things that I've ever seen before. But it's a great idea, because I've looked in that channel and gotten ideas about things that I didn't know was possible, and about other subcommands in Nushell that I'm like "Oh, that's why you would use that piece of it", or how someone else might use it, even though it was not my use case. What are some surprising use cases that you've seen people using Nushell for, and writing scripts or solving their own problems?
 
@@ -277,7 +277,7 @@ One of my favorite things about the Nushell Discord is the Cool Scripts channel,
 
 Do you know like a spread of like how many users are on different platforms? Is that something that you keep track of? Are there any sort of like reporting back, to say like "Hey, there's 10% on Windows, and 50% on Mac"? Or is that even like a thing that is common for you to know about?
 
-**Jakub Žádník:** \[00:40:03.28\] We had this survey, and we had this question there, and we had a pie with the ratio of Windows, Mac, Linux users... But I don't remember at all. I would need to look it up and send you the link, or something. I don't know, Devyn, if you remember, or...
+**Jakub Žádník:** \[40:03\] We had this survey, and we had this question there, and we had a pie with the ratio of Windows, Mac, Linux users... But I don't remember at all. I would need to look it up and send you the link, or something. I don't know, Devyn, if you remember, or...
 
 **Devyn Cairns:** No, I don't remember what came out of that, but I do know that we have a lot of Windows users. There's always people talking, and I see people pasting stuff that's clearly from Windows... So it's a popular option. I mean, there aren't that many options on Windows. You've got PowerShell, and you've got us, and... I don't know, not that many other things.
 
@@ -311,7 +311,7 @@ Do you know like a spread of like how many users are on different platforms? Is 
 
 **Justin Garrison:** So I write a little Rust to wrap it, and then suck in the data and put it out natively?
 
-**Jakub Žádník:** \[00:43:56.07\] It doesn't have to be Rust. You can write even in Python. You can write a Nushell plugin in Nushell. It's kind of pointless, but... \[laughs\]
+**Jakub Žádník:** \[43:56\] It doesn't have to be Rust. You can write even in Python. You can write a Nushell plugin in Nushell. It's kind of pointless, but... \[laughs\]
 
 **Justin Garrison:** Well, that was actually my last question I wanted to ask, was around like is the goal of Nushell, like a lot of programming languages, to eventually write in itself? Do you want to get rid of Rust? Is Nushell trying to get so big that you can do all that, or is it still isolated, like "We want this single use case"?
 
@@ -351,7 +351,7 @@ Do you know like a spread of like how many users are on different platforms? Is 
 
 **Autumn Nash:** I love a good, helpful tech community...
 
-**Jakub Žádník:** \[00:48:13.08\] Yeah, that's the design goal of Nushell, to be cool and fun. And it's a project made for people; we're not like hardcore tech bros, but we want people to have fun, to be friendly... That's the main goal of Nushell, to provide something useful --
+**Jakub Žádník:** \[48:13\] Yeah, that's the design goal of Nushell, to be cool and fun. And it's a project made for people; we're not like hardcore tech bros, but we want people to have fun, to be friendly... That's the main goal of Nushell, to provide something useful --
 
 **Autumn Nash:** Those are usually the best projects... When you're trying to solve a problem and be user-friendly, you know?
 
@@ -367,7 +367,7 @@ Do you know like a spread of like how many users are on different platforms? Is 
 
 **Justin Garrison:** Thank you.
 
-**Break**: \[00:48:50.23\]
+**Break**: \[48:50\]
 
 **Justin Garrison:** Thank you so much, Devyn and Jakub for coming on and telling us all about Nushell. I hope that anyone listening is encouraged to go try it. It's just a fun thing. I have it installed on my systems. I don't use it as my default yet, but I still poke at it every once in a while... And even during this interview I learned to new things - the help outputs, and I also learned that plugins didn't have to be written in Rust. I did not know that. So now I have new ideas of writing plugins that wrap some of my own commands and make them native Nushell commands.
 
@@ -407,7 +407,7 @@ This is just a random popularity sort of thing. It's okay. You can vote for thin
 
 **Autumn Nash:** It is not.
 
-**Justin Garrison:** \[00:58:16.04\] It is, I've just put it in there. Along with a wiki page to Dreamcast, so you can see what the Dreamcast is. So we can skip obvious distros, because I just went to random and I ended up on Debian EDU, which is kind of obvious...
+**Justin Garrison:** \[58:16\] It is, I've just put it in there. Along with a wiki page to Dreamcast, so you can see what the Dreamcast is. So we can skip obvious distros, because I just went to random and I ended up on Debian EDU, which is kind of obvious...
 
 **Autumn Nash:** I was right -- Sonic was on Dreamcast.
 
