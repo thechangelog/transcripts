@@ -48,7 +48,7 @@
 
 But at the same time, you know, people come up with new things they want to do with this internet transfer thing, and then we have to -- how do you add the new thing? Yeah, you have to add a new option. Like, we add stuff like "Oh, you can set one of them--" For example, there's a header field in the IPv4 header. It's called type of service. You can set it now. It exists in IPv6 too, it's called traffic class. It's just a numeric field in the IP header. Okay, now you can set it with curl, because some people like to do that. Most people won't. But of course, we have to add a command line option to be able to set it if you want to set it... And stuff like that. So there's often -- these days, when we add new options, they're all these niche things for some users.
 
-**Jerod Santo:** \[00:08:14.14\] Right. Yeah, that's the eternal struggle, I guess, of somebody who's writing useful software, is how to maintain and evolve it over time, that continues to serve new needs, but doesn't trample down what people came for in the first place. And I think when it comes to command line options, like you said, it's the documentation, it's the man page, it's the help where it really does get in the way. Other than that - I mean, it's invisible. I use curl daily, and I probably use 5.
+**Jerod Santo:** \[08:14\] Right. Yeah, that's the eternal struggle, I guess, of somebody who's writing useful software, is how to maintain and evolve it over time, that continues to serve new needs, but doesn't trample down what people came for in the first place. And I think when it comes to command line options, like you said, it's the documentation, it's the man page, it's the help where it really does get in the way. Other than that - I mean, it's invisible. I use curl daily, and I probably use 5.
 
 **Daniel Stenberg:** Exactly.
 
@@ -61,7 +61,7 @@ But at the same time, you know, people come up with new things they want to do w
 **Daniel Stenberg:** Yeah, so just over these three years HTTP/3 three has really grown a lot, both in curl and in general on the web. So now we support much more H3 in curl. And -- well, it's still complicated to build curl with HTTP/3 support because of all the different components involved, and there are different maturity levels and different API's, and different... So many different pieces that needs to work together. So it's the juggle -- if you install curl in a Linux distro today, for example, I don't think a single one actually enables H3 by default, just because of the weird mix of different dependencies that need to add up for it to work. But we support it now, as we say, non-experimentally, with a set of dependencies called the ngtcp2 QUIC library.
 
 **Jerod Santo:** Hm. That rolls right off the tongue...
-**Daniel Stenberg:** Yeah, it's a mouthful... \[laughter\] And the best part is that it then requires the \[00:10:28.24\] library, too. So yeah, say that fast three times. Ngtcp2 and nghttp3 So yeah. And then when you enable HTTP/3, you can use the --http3 option, of course, with curl, so then you can actually try it against... You can run it against any server, really, because it'll try H3 in parallel with H2 and H1.
+**Daniel Stenberg:** Yeah, it's a mouthful... \[laughter\] And the best part is that it then requires the \[10:28\] library, too. So yeah, say that fast three times. Ngtcp2 and nghttp3 So yeah. And then when you enable HTTP/3, you can use the --http3 option, of course, with curl, so then you can actually try it against... You can run it against any server, really, because it'll try H3 in parallel with H2 and H1.
 
 **Jerod Santo:** Oh, really?
 
@@ -83,7 +83,7 @@ But at the same time, you know, people come up with new things they want to do w
 
 **Daniel Stenberg:** Exactly. And to complicate matters, we also do Happy Eyeballs, so we do IPv4, IPv6 old, and IPv4 and IPv6 new. So we actually do four attempts at once.
 
-**Adam Stacoviak:** \[00:12:06.17\] That's what they call it, old and new?
+**Adam Stacoviak:** \[12:06\] That's what they call it, old and new?
 
 **Jerod Santo:** Yeah.
 
@@ -145,7 +145,7 @@ But at the same time, you know, people come up with new things they want to do w
 
 **Daniel Stenberg:** Well, that's still the case. There's been a lot of patching and gluing things... So yes, we are running out of IPv4 addresses, and I think they are getting more expensive. In particular in certain areas they're really run out, so you have to be creative, or you have to pay a lot of money to get IPv4 addresses. So I think that is the real case. But I think also during this time people have come up with new ways on how to work around the problem, with different kinds of NATs, and carrier-grade NATs and everything, so that we can keep on doing these, we can extend our lifetime on IPv4 a little bit longer... Because most people, it turns out, don't really need their own IPv4 addresses, so we can come up with new ways.
 
-\[00:15:54.06\] But of course, that is then also kind of a blocker for doing new kinds of innovations on the internet, because back in the at least '80s, '90s people thought about doing things peer-to-peer. You had an IP address in your client, and you knew the IP address and the server, and you could communicate between those two IP addresses. Nowadays you really can't, because nowadays there are so many different layers and translations, so you're not -- but that's just the reality now. I think that has made it so that the IPv4 problem hasn't become that big, so we managed to survive on IPv4 pretty good anyway.
+\[15:54\] But of course, that is then also kind of a blocker for doing new kinds of innovations on the internet, because back in the at least '80s, '90s people thought about doing things peer-to-peer. You had an IP address in your client, and you knew the IP address and the server, and you could communicate between those two IP addresses. Nowadays you really can't, because nowadays there are so many different layers and translations, so you're not -- but that's just the reality now. I think that has made it so that the IPv4 problem hasn't become that big, so we managed to survive on IPv4 pretty good anyway.
 
 **Jerod Santo:** Yeah. Now we're like layering NATs behind each other. So you have this one IPv4 addresses representing so many networks.
 
@@ -183,7 +183,7 @@ But at the same time, you know, people come up with new things they want to do w
 
 **Daniel Stenberg:** Well, I think we've only done minor things, really, when it comes to what happens in the end user layer. We support TLS 1.3 in more ways now. For example, you can do -- you know, curl ships with Windows since a long time nowadays, so it's built into Windows... And then when Microsoft ships curl, they ship it built with Schannel, which is the Windows TLS library native in Windows. And nowadays, for example, we can do TLS 1.3 with that library... Which is a fairly new thing. So stuff like that. But - I mean, most users won't notice. They'll just be happy that it'll actually survive longer and work better... But that's jut one of those things that you don't really see or know about in the engine.
 
-\[00:20:20.06\] We now do more things. We can support -- over the last few years, we've done quite drastic refactoring of our way of building protocol chains internally in curl, I would call it... So how you stack different layers of doing protocols. Like, if you do HTTP proxies TLS, or doing TLS protocols and TLS and proxies in many different layers - nowadays, we can do that in a more flexible way, so that we can support more ways of creating protocols. Well, I call them protocol chains, pretty much setting up different -- for example, doing different kinds of protocols over different kinds of proxies in more combinations... Because that is also where we're going into the future, because nowadays we have so many different HTTP protocol versions, and we have a lot of proxies. And people want to do, you know, HTTP/3 over HTTP/1 or HTTP/2 proxies. Or you can do HTTP/1 or HTTP/2 over an HTTP/3 proxy. You get all confused in your head just thinking about that, but... Pretty much, to be able to offer all those different combinations of protocols versions, it becomes an explosion in how to handle that. So we had to change our internals so that we could build them dynamically, in a better way, so that the code could manage all of these new ways of building protocol chains.
+\[20:20\] We now do more things. We can support -- over the last few years, we've done quite drastic refactoring of our way of building protocol chains internally in curl, I would call it... So how you stack different layers of doing protocols. Like, if you do HTTP proxies TLS, or doing TLS protocols and TLS and proxies in many different layers - nowadays, we can do that in a more flexible way, so that we can support more ways of creating protocols. Well, I call them protocol chains, pretty much setting up different -- for example, doing different kinds of protocols over different kinds of proxies in more combinations... Because that is also where we're going into the future, because nowadays we have so many different HTTP protocol versions, and we have a lot of proxies. And people want to do, you know, HTTP/3 over HTTP/1 or HTTP/2 proxies. Or you can do HTTP/1 or HTTP/2 over an HTTP/3 proxy. You get all confused in your head just thinking about that, but... Pretty much, to be able to offer all those different combinations of protocols versions, it becomes an explosion in how to handle that. So we had to change our internals so that we could build them dynamically, in a better way, so that the code could manage all of these new ways of building protocol chains.
 
 **Jerod Santo:** Tricky stuff. It seems like not only has curl changed recently, but the world around curl has changed quite a bit since the last time we talked as well... And I know you have written somewhat extensively on the effect of LLMs on curl development... I'm trying to find it back in your backlog. The gist being you're getting a lot more low-quality PRs, issues opened by robots, security fixes that are not useful... Remind me, because it's way back there now.
 
@@ -199,7 +199,7 @@ But at the same time, you know, people come up with new things they want to do w
 
 **Jerod Santo:** It's pretty good, Daniel. It's pretty good.
 
-**Daniel Stenberg:** \[00:24:05.13\] So therefore, it becomes a challenge there. Sure, they say something -- the AI is kind of hallucinating... It seems reasonable. Yeah, it could be right. Maybe. But it doesn't feel right. And then you ask a few follow-up questions, and "Yeah, wait a minute. Yes, you're right." And then if provides more information. But the more information is also slightly off, and not actually answering the questions. So it's been a few of those that - yes, they certainly are time suckers, because I just spend a lot of time, and in the end it's just worthless crap.
+**Daniel Stenberg:** \[24:05\] So therefore, it becomes a challenge there. Sure, they say something -- the AI is kind of hallucinating... It seems reasonable. Yeah, it could be right. Maybe. But it doesn't feel right. And then you ask a few follow-up questions, and "Yeah, wait a minute. Yes, you're right." And then if provides more information. But the more information is also slightly off, and not actually answering the questions. So it's been a few of those that - yes, they certainly are time suckers, because I just spend a lot of time, and in the end it's just worthless crap.
 
 **Jerod Santo:** Exactly.
 
@@ -249,7 +249,7 @@ But at the same time, you know, people come up with new things they want to do w
 
 **Jerod Santo:** Have you considered fighting fire with fire? I mean, you have these tools at your disposal...
 
-**Daniel Stenberg:** \[00:28:13.04\] Yeah, but... I really don't think I can do that in an effective way.
+**Daniel Stenberg:** \[28:13\] Yeah, but... I really don't think I can do that in an effective way.
 
 **Adam Stacoviak:** Well, that would go against some of the BDFL things you have in place.
 
@@ -269,7 +269,7 @@ But at the same time, you know, people come up with new things they want to do w
 
 **Jerod Santo:** Yeah, a little bit over five years. And so as a BDFL, he has, like Adam said, created these guiding principles, which means he's thought deeply about it... What are some of the other ones? So Adam mentioned the first one "Be open and friendly." What else do you aspire to as a BDFL?
 
-**Daniel Stenberg:** \[00:31:49.17\] Yeah, what do I do? So of course, because people like to say that "Sure, I'm a BDFL", which means "Sure, I'm the dictator, so I could do whatever I want in the project", in theory at least... But of course, there's this difference between being a dictator in a software project and in a country. It's probably that if people wouldn't like the project, they would just go away and do something else instead. Maybe fork it, or at least not participate in the project. So there's every motivation to not be a bad dictator for the project.
+**Daniel Stenberg:** \[31:49\] Yeah, what do I do? So of course, because people like to say that "Sure, I'm a BDFL", which means "Sure, I'm the dictator, so I could do whatever I want in the project", in theory at least... But of course, there's this difference between being a dictator in a software project and in a country. It's probably that if people wouldn't like the project, they would just go away and do something else instead. Maybe fork it, or at least not participate in the project. So there's every motivation to not be a bad dictator for the project.
 
 So no, I don't think I have anything that is strange... Sure, I think, for example, that the quality of the products that we're shipping is one of the key things. And I know that that's one of the key things that people appreciate about curl and libcurl as a project, that we ship products that rarely cause people problems... A lot of people mentioned to me that they never experienced bugs in curl, which of course I think is fun, because we fix bugs quite frequently... But still. \[laughter\] We still work hard on making sure that it's a good, solid product, and that we don't break behavior, and we don't break user scripts, we don't break APIs at all... So stuff like that.
 
@@ -285,7 +285,7 @@ A lot of times I will just look to see "Well, how does Daniel handle this?", bec
 
 **Daniel Stenberg:** Right. And every project is unique, so maybe it doesn't apply to everything, right? But I think also sometimes it's a big benefit of being an old project, and have been around for such a long time, because we have had time to adapt and adjust and do things the way we should do... Because obviously, we didn't do everything right from the beginning. I mean, who does, right? But if you just stick around for long enough, we get time and ability and chances to just fix those, and make sure that "Sure, that didn't work. Let's do it this way instead, because this is the better way." So over time, a lot of things just fall into place, and end up being decent ways to do things. Decent approaches, and concepts, and policies, and everything.
 
-**Jerod Santo:** \[00:36:16.27\] And you're right about it. That's the other thing. There's probably other people who are also making long-term decisions and managing a project for a long time... But like I said, you blog -- is "profusely" the right word? Maybe that sounds like too much. What's the word I'm thinking of...?
+**Jerod Santo:** \[36:16\] And you're right about it. That's the other thing. There's probably other people who are also making long-term decisions and managing a project for a long time... But like I said, you blog -- is "profusely" the right word? Maybe that sounds like too much. What's the word I'm thinking of...?
 
 **Daniel Stenberg:** It could be too much.
 
@@ -303,7 +303,7 @@ A lot of times I will just look to see "Well, how does Daniel handle this?", bec
 
 So I'm in a fortunate position when I can do it like this, and I'm happy to continue in this way. So I want it. And when I've managed to do it for this long, and for this amount of time, I imagine that I should be able to continue doing it as well. And I think it's pretty good, because it makes it -- we don't have to obey to anyone. Not even a umbrella organization, or anything. No company, no one actually decides what we need to do. We just decide what we need to do depending on what we think our users want, or how the internet goes, or what's an internet transfer really, and we can just base it on that. And I think that is good, because we don't have to bend to artificial whims.
 
-**Break**: \[00:39:40.21\]
+**Break**: \[39:40\]
 
 **Adam Stacoviak:** I wonder what makes you do this, really, at your core, as a human being. I get that you are probably in the best intellectual space to do it. You've done it for so long. But sometimes we do -- they call them "because". "I do this because", right? Maybe you do this because you want to see the substrate of the Internet to be something pliable, and usable. But like, really, why do you do this?
 
@@ -317,7 +317,7 @@ So I'm in a fortunate position when I can do it like this, and I'm happy to cont
 
 **Daniel Stenberg:** First, I think what I do now is just leading how I want it to be done. So I'm leading by example. This is the way I think we should do the project and how we should do protocols now, and what I think we should do. And then I pretty much just make sure that if I would go on an extended holiday tomorrow, everything necessary is already available, as in documented, provided, written down. I mean, I don't have any magic handshakes anywhere. There's no secrets; the word that is necessary for anyone. I mean, sure, there are some credentials for logging onto servers and stuff like that, but there's no project secret anywhere. There's nothing hidden. Everything is out there. Everything is documented, even to the level of how I do releases, how we do things, how we do governance in the project... So everything is there. So that's how I want it to be done. Show by example how I want things to run. And if I don't run it, everything's there for someone else to do it the same way, or another way. But if I go away tomorrow, there's nothing that's preventing anyone else from taking over tomorrow.
 
-**Jerod Santo:** \[00:48:41.18\] Right. What about the last mile of that contingency plan? Like the credentials, the server logins, the DNS, maybe the password to log into the registrar...
+**Jerod Santo:** \[48:41\] Right. What about the last mile of that contingency plan? Like the credentials, the server logins, the DNS, maybe the password to log into the registrar...
 
 **Daniel Stenberg:** Yeah, I have those sorted out too, but at a more personal level. So I have more of a wheel-like situation, so that I have relatives, or mostly my brother, who's into computers, pretty much like I am... So he's my next of kin. So if I would actually die, he would have access to all of that tomorrow.
 
@@ -337,7 +337,7 @@ So I'm in a fortunate position when I can do it like this, and I'm happy to cont
 
 **Daniel Stenberg:** So he's sort of tangential -- well, he's only marginally involved, but still.
 
-**Jerod Santo:** \[laughter\] \[00:49:57.16\]
+**Jerod Santo:** \[laughter\] \[49:57\]
 
 **Daniel Stenberg:** \[unintelligible 00:50:00.24\] I don't want to dismiss it either, but I mean...
 
@@ -369,7 +369,7 @@ So I'm in a fortunate position when I can do it like this, and I'm happy to cont
 
 **Daniel Stenberg:** Sure. It's actually pretty easy. So the curl project is completely separate and standalone. So I don't do business with the curl project. I support curl stuff. But I do that separately. So I sell curl services. There's an American company called wolfSSL. And my primary curl business is just support on curl. A little bit an insurance thing. I sell a number of issues per year, and I have a guaranteed response time. So my customers, mostly actually big American tech companies, they have paid me a yearly subscription, basically, and they file issues, and I help them when they have issues. So I make sure that their curl use is uninterrupted and works well in their products.
 
-\[00:52:25.14\] Usually, companies where curl use is deemed important enough for them to do this. Even though I usually, of course, try to tell a lot of my potential customers that it's much better if they pay me to do that, rather than spend time for their developers to try to figure out how to fix curl... Because I probably do it much faster and much cheaper than they having to waste engineering time on figuring out how to do things, figuring out even just how to, or just finding or fixing bugs even more.
+\[52:25\] Usually, companies where curl use is deemed important enough for them to do this. Even though I usually, of course, try to tell a lot of my potential customers that it's much better if they pay me to do that, rather than spend time for their developers to try to figure out how to fix curl... Because I probably do it much faster and much cheaper than they having to waste engineering time on figuring out how to do things, figuring out even just how to, or just finding or fixing bugs even more.
 
 So that's what I do. And then of course, in addition to just supporting, it's also more feature development and contracts, more working closely with the product development teams really, and how they use curl, and debugging their applications using curl. Because very often it's not a problem with curl, but maybe in how they use curl, or in the area between; it's hard sometimes. And having an NDA and contract in place makes them feel safe to share their code with me. They wouldn't dream to sometimes submit extensive explanations in the public bug report, because they're scared that they're never really special source code would be something special for the rest of the world to see. So it works pretty good. Still a challenge to sell support, so something that is free, because it's free. So why would I pay you when it's free...?
 
@@ -385,7 +385,7 @@ So that's what I do. And then of course, in addition to just supporting, it's al
 
 **Daniel Stenberg:** I don't mean to sort of get on my high horse about that, sure... But then there's also Roku, and there's Apple TV devices, they all use curl... And YouTube has it bundled in the YouTube app on all phones. So everything like that is using curl. And nowadays, every TV has it, every car has it. Pretty much every printer has it, every fridge, dishwashers, washing machines, and trains, motorcycles, and keyboards, watches, and robots, and computer games... It's really big in a lot of high-volume games... I guess because they want it to be portable. I don't know exactly why the games like it so much...
 
-\[00:56:12.13\] So actually, I think I underestimate when I say 20 billion installations. It depends a little bit on how we count. But curl pretty much runs on -- since it's not provided as an API in mobile operating systems, a lot of the mobile apps ship their own curl installations. So in an ordinary mobile phone it's installed like 5, 10, 15 times, because a lot of the high-volume apps have their own installations.
+\[56:12\] So actually, I think I underestimate when I say 20 billion installations. It depends a little bit on how we count. But curl pretty much runs on -- since it's not provided as an API in mobile operating systems, a lot of the mobile apps ship their own curl installations. So in an ordinary mobile phone it's installed like 5, 10, 15 times, because a lot of the high-volume apps have their own installations.
 
 **Jerod Santo:** Right. They just bundle it. Well, you know what we call that, Daniel. We call that total world domination. That's what we call it. I mean, where isn't curl? At the bottom of the ocean. And we know it was on Mars, right? We knew that
 
