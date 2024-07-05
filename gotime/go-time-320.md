@@ -50,7 +50,7 @@ At the start of each round two team members will go head to see who gets control
 
 **Cameron Balahan:** I don't know how to be cool.
 
-**Mat Ryer:** \[00:09:56.25\] Okay. Init. Gophers say... \[fail alert\] No. Also not. And unfortunately, you lose three lives, innit? It's crazy, innit? \[unintelligible 00:10:03.26\] Get mad at these. That means though team one, you get a chance to steal. You can confer on this, into the microphone, please. It's a podcast. Into the microphone, Johnny. It's a podcast. You're on the podcast, you should...
+**Mat Ryer:** \[09:56\] Okay. Init. Gophers say... \[fail alert\] No. Also not. And unfortunately, you lose three lives, innit? It's crazy, innit? \[unintelligible 00:10:03.26\] Get mad at these. That means though team one, you get a chance to steal. You can confer on this, into the microphone, please. It's a podcast. Into the microphone, Johnny. It's a podcast. You're on the podcast, you should...
 
 **Paula Babbicola:** Everyone's favorite debugger, print.
 
@@ -128,7 +128,7 @@ At the start of each round two team members will go head to see who gets control
 
 **Ron Evans:** Well, looking out at you wonderful humans in the audience, and looking that ChatGPT is in last place, I'm gonna go with the old-school answer, Stack Exchange.
 
-**Mat Ryer:** \[00:13:56.02\] Okay. Stack Exchange... We'll accept any of those - StackOverflow, Stack Exchange. Gophers say... \[win alert\] Yeah, baby! Second place there, which gets you 13 points. Okay, Cameron, you've just gotta get this last one, and you hoover up all the lovely points.
+**Mat Ryer:** \[13:56\] Okay. Stack Exchange... We'll accept any of those - StackOverflow, Stack Exchange. Gophers say... \[win alert\] Yeah, baby! Second place there, which gets you 13 points. Okay, Cameron, you've just gotta get this last one, and you hoover up all the lovely points.
 
 **Cameron Balahan:** What's left...?
 
@@ -216,7 +216,7 @@ At the start of each round two team members will go head to see who gets control
 
 **Mat Ryer:** Yeah. I've done some lines of code, I'll tell you that...
 
-**Cameron Balahan:** \[00:18:06.05\] \[laughs\]
+**Cameron Balahan:** \[18:06\] \[laughs\]
 
 **Ron Evans:** ChatGPT \[unintelligible 00:18:05.01\] come up with an awesome joke like that. ChatGPT could not make that kind of joke.
 
@@ -292,7 +292,7 @@ At the start of each round two team members will go head to see who gets control
 
 **Mat Ryer:** It's not soda, is it? It's not plain water, is it? \[unintelligible 00:22:03.16\] take all the bubbles out?
 
-**Cameron Balahan:** \[00:22:07.26\] Could be. How many Germans did we have? Can I get the hands?
+**Cameron Balahan:** \[22:07\] Could be. How many Germans did we have? Can I get the hands?
 
 **Mat Ryer:** We don't have that data. \[laughter\] We don't say "Are you German?" before we ask people questions.
 
@@ -304,7 +304,7 @@ At the start of each round two team members will go head to see who gets control
 
 **Mat Ryer:** Yeah. Some other interesting answers... Somebody put "Coffee as strong as Chuck Norris", and then someone put a grande iced double vanilla frapuccino with cream on top. It's soy milk, of course. I think they just thought that was a \[unintelligible 00:23:05.01\] Right. Now it's time for round four. And we're giving it a little twist here... It's time for the Unpopular Opinions round.
 
-**Jingle**: \[00:23:15.27\]
+**Jingle**: \[23:15\]
 
 **Mat Ryer:** Okay, so that means what we're looking for now is the most unpopular answers. So it still need to have got on the board, still needs to have been five people saying it... But now we're looking for the unpopular ones. And the question is, what is the first go keyword that comes to your mind? So what is the first Go key word that comes to your mind? We're looking for unpopular ones, and I think we're going to start with team one. We're gonna go for Johnny. Johnny, what's your guess?
 
@@ -354,7 +354,7 @@ At the start of each round two team members will go head to see who gets control
 
 **Mat Ryer:** Switch. You say switch, Paula, but what do our gophers say? \[fail alert\] No.
 
-**Paula Babbicola:** \[00:26:11.25\] Come on, switch.
+**Paula Babbicola:** \[26:11\] Come on, switch.
 
 **Ron Evans:** I am going to go with the same answer for the most popular, which is go. No one ever got fired for using go, right?
 
@@ -430,7 +430,7 @@ At the start of each round two team members will go head to see who gets control
 
 **Johnny Boursiquot:** Nil.
 
-**Mat Ryer:** \[00:29:57.12\] Nil. Okay, John says nil. gophers say? \[fail alert\] \[unintelligible 00:30:00.14\] Cameron.
+**Mat Ryer:** \[29:57\] Nil. Okay, John says nil. gophers say? \[fail alert\] \[unintelligible 00:30:00.14\] Cameron.
 
 **Ron Evans:** Cameron, use your data knowledge of the internals of the Go team. It's alright, they did not say we could not do that.
 
@@ -518,7 +518,7 @@ So let's just have a quick look at the scores. Team zero's at 94, but team one h
 
 **Ron Evans:** I'll meet you outside the bar...
 
-**Break**: \[00:34:15.04\]
+**Break**: \[34:15\]
 
 **Mat Ryer:** Okay, the question we asked our gophers... And again, this is for double points. "I couldn't code without..." what? What couldn't they code without? Cameron, to get control of the board, you just have to get one right. "I couldn't code without..."
 
