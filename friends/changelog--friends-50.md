@@ -92,7 +92,7 @@
 
 **Gerhard Lazu:** Okay. So Kaizen stands for continuous improvement, and that's an abbreviation that many are familiar with, but change for the better. I think that's what the translation is closest to. So the idea of kaizen started three years ago, almost three years ago, by the way; and we will get to that. Three years ago, I think it was summer. The first Kaizen ever, Kaizen \#1. Ship It show episode 10. Shipit.show/10 and you'll see it. And it started with Fastly, it was summer, and it's when half the internet went down. That's what happened three years ago.
 
-\[00:05:58.06\] So the idea behind Kaizens was to improve things about the Changelog setup, on a regular basis, and then talk about it. So the pace was every 10 Ship It episodes, and it just happened to be every two and a half months. And for the past three years, every two and a half months that's what we have been doing. And it's been a lot of fun.
+\[05:58\] So the idea behind Kaizens was to improve things about the Changelog setup, on a regular basis, and then talk about it. So the pace was every 10 Ship It episodes, and it just happened to be every two and a half months. And for the past three years, every two and a half months that's what we have been doing. And it's been a lot of fun.
 
 **Adam Stacoviak:** I did a little digging into this extended version of the meaning of this. It says, as we know, Kaizen is a Japanese term; it means improvement, or as you'd mentioned, Gerhard, change for the better. And it says "In the context of business, particularly manufacturing management, it refers to a philosophy or practice that focuses on continuous improvement of processes, products and services." And here's the part I like. It says "The concept of kaizen involves all employees, from top to bottom, all of management, to the assembly line workers, and it encourages a culture of sustained, incremental improvements." I think that encapsulates a bit more, because it involves everyone. It's not like you, or Jerod, or just me... It's a collective, and it's this culture, which I think is interesting, because Kaizen has -- you know, most of the pillars, Jerod, of our business are built by you and I, Jerod. And then here comes Gerhard, with Ship It, and all the things he's been with us for the past - I don't even know how long, but pretty much forever... And he brings in this new pillar called Kaizen. And I think this is very much Gerhard-born, but adopted by all... And I'm really thankful, because Kaizen has become part of my own personal DNA as well. And I like that.
 
@@ -106,7 +106,7 @@
 
 **Gerhard Lazu:** It's the contemplation of one's navel as an aid to meditation. So you're contemplating the basic principles of the cosmos and the human nature. Check Wikipedia. Omphaloskepsis. It's Greek. That's where it comes from. Navel gazing.
 
-\[00:08:28.29\]
+\[08:28\]
 
 **Jerod Santo:** Jerod here, in the editing room. You know, I thought omphaloskepsis sounded familiar when Gerhard said that, but I couldn't quite put my finger on it. Now that I've had more time to think about it, omphaloskepsis was our word for round three in the \#define game show we played on episode 25. Maybe you recall it, "Game theory, dude." I'll link to that chapter from this chapter in case you want to jump over there and listen to it before returning to our navel gazing. Okay, back to the gazing.
 
@@ -134,7 +134,7 @@
 
 **Jerod Santo:** I would have to agree that yes, navel gazing outward is worse than inward. So at least we aren't going that far. But I do agree that Kaizen is a much better way of framing it, so it feels okay.
 
-**Adam Stacoviak:** \[00:10:08.00\] Here's maybe a better twist on it. If you're gonna navel gaze, turn it into a product. Like, this is a product. Kaizen is a product. We produce something as a result of navel gazing, and we're doing that, but we're doing it in the manner, in the culture of Kaizen, continuous improvement, improvement for change, change for the better... But at the same time, we've turned this sometimes habit or circumstance of just wanting to popularize the things you're doing, and not be overly self-promotional. And we've always been a little guarded with being overly self-promotional. But I think that there's been so much value in all the Kaizens, in all this navel-gazing, Kaizen, change for the better stuff that I think I now see a positive style and a positive light to what is typically determined as navel gazing.
+**Adam Stacoviak:** \[10:08\] Here's maybe a better twist on it. If you're gonna navel gaze, turn it into a product. Like, this is a product. Kaizen is a product. We produce something as a result of navel gazing, and we're doing that, but we're doing it in the manner, in the culture of Kaizen, continuous improvement, improvement for change, change for the better... But at the same time, we've turned this sometimes habit or circumstance of just wanting to popularize the things you're doing, and not be overly self-promotional. And we've always been a little guarded with being overly self-promotional. But I think that there's been so much value in all the Kaizens, in all this navel-gazing, Kaizen, change for the better stuff that I think I now see a positive style and a positive light to what is typically determined as navel gazing.
 
 **Gerhard Lazu:** Yeah. No, I do think that we've been sharing and promoting a lot of the work that the community has been doing from the open source, we've been promoting projects, we've been helping some of our partners improve themselves... Whether they wanted to or not; we had some of those as well.
 
@@ -182,7 +182,7 @@ So, rules for today... We'll share the background story. We have lots of stories
 
 **Gerhard Lazu:** I noticed that.
 
-**Jerod Santo:** \[00:14:10.26\] I did. I did that kind of for you, I did that kind of for me... I was like "It's been a while..." I normally just push straight up on the master branch. But I thought "This is a noteworthy change. I should open a PR, and Gerhard's gonna love this."
+**Jerod Santo:** \[14:10\] I did. I did that kind of for you, I did that kind of for me... I was like "It's been a while..." I normally just push straight up on the master branch. But I thought "This is a noteworthy change. I should open a PR, and Gerhard's gonna love this."
 
 **Gerhard Lazu:** I did. Oh, man. I loved it so much.
 
@@ -202,7 +202,7 @@ So when you'd go to changelog.com/news, you would find the Changelog News podcas
 
 A couple of shout-outs. Of course, Cody Peterson, who worked with me on the design and the frontend implementation of the new splash page. Shout-out to me for coding it up and opening up an epic PR, which I don't normally do... And to a handful of folks who decided to send us kind words to use on the page. We have a lot of people who enjoy the podcast, enjoy the newsletter, and they tell us this privately via email and stuff, and so I reached back out to everybody who reads it and said "Hey, if you would give us a quote, we'd like to put some of those on the homepage." And so shout-outs to Mary, to Justin, to Chris, to Maros, and to \[unintelligible 00:17:57.09\] whose quotes were awesome. And we got more than those, so thank you to everybody who sent one in. Those were the five that we selected to feature on the homepage. And that's pretty cool.
 
-\[00:18:15.23\] Being able to hear from and see some of the people who take value in the newsletter I think is powerful when you're trying to decide -- like, two things you want to know. A, do people like this? And then B, what does it look like? Show me a recent issue. And I think with this redesign that we've accomplished that. So that's that.
+\[18:15\] Being able to hear from and see some of the people who take value in the newsletter I think is powerful when you're trying to decide -- like, two things you want to know. A, do people like this? And then B, what does it look like? Show me a recent issue. And I think with this redesign that we've accomplished that. So that's that.
 
 **Gerhard Lazu:** Very nice.
 
@@ -304,7 +304,7 @@ A couple of shout-outs. Of course, Cody Peterson, who worked with me on the desi
 
 **Jerod Santo:** I will accept this.
 
-**Gerhard Lazu:** \[00:22:05.19\] Cool. Okay. And for everyone else, there'll be a new pull request. I don't know the number, but by the time this comes out, I'm sure we'll have a link.
+**Gerhard Lazu:** \[22:05\] Cool. Okay. And for everyone else, there'll be a new pull request. I don't know the number, but by the time this comes out, I'm sure we'll have a link.
 
 **Jerod Santo:** So funny story about this particular feature... This was almost entirely Cody's idea, because I'm like a) I want social proof; I want people's quotes on there. And then b) we do a few things differently, and they're all minor; it's like minor reasons. But I want to have somewhere a list of the stuff that we do, like we don't track your clicks, blah, blah, blah. And he's like "Well, what if you just did way too many of them, and just made some up?" And he actually stubbed it out with 36 reasons... And I took it as a personal challenge to come up with 36 reasons why you should subscribe. And in the mid '20s I'm like "Cody, this is too hard, dude. I cannot come up with -- he's like "I did not expect you to come up with 36 reasons. I just made up a number." And so I finally made it to 27, and left it there. But I love that you've improved it, you've added two. I will go on record to say we are accepting pull requests on reasons to subscribe. So if you have more reasons, I would love to get that number as high as humanly possible.
 
@@ -318,7 +318,7 @@ A couple of shout-outs. Of course, Cody Peterson, who worked with me on the desi
 
 **Gerhard Lazu:** Thank you. Thank you.
 
-**Break**: \[00:23:21.09\]
+**Break**: \[23:21\]
 
 **Gerhard Lazu:** Now, I want to show you a really cool feature. So I've used the previous improvement that we shipped last in the last Kaizen, which is I'm connecting to the Neon from my local environment. Look at this. So I've done this, I've created a branch, I think it was a few days ago. I can't remember. And obviously, Master has moved since, right? So if I'm going to close this, I'm going to go to Home, localhost 4000, and if we go to the podcast "Securing GitHub" 2024.06.19, right?
 
@@ -374,7 +374,7 @@ A couple of shout-outs. Of course, Cody Peterson, who worked with me on the desi
 
 **Adam Stacoviak:** Yeah. And really too, I think my other favorite thing about this is that it didn't -- the existing newsletter design didn't have to change really at all, if any, to fit into this new design. So the original email design got pulled into this, and so I think that's kind of nice that we can literally incrementally improve Kaizen, this newsletter, to be - beyond newsletter, a decent design, and good design, and great content - to a full-on landing page that doesn't have to change a lot; it just sort of added to it. It was additive, versus total morphed. So I like literally how iterative we got to this point to have this kind of page.
 
-**Jerod Santo:** \[00:32:26.15\] And one more note on the newsletter redesign... So for those who haven't seen it, as Adam described, on the left hand side it's dark, and it's really representing what you're looking at, and has the reasons to subscribe, the buttons and stuff... And on the right hand side it's the most recent issue, so you're literally reading what it looks like. And in light mode, the right hand side has a white background. Now, in dark mode they're both kind of dark, and there's a border in between... But the idea behind this, kind of the metagame is really -- the podcast/newsletter is a hybrid. It's two things in one. It's the only podcast that is a newsletter, and it's the only newsletter that's also a podcast that we know of, in this space... And so you kind of have this two-faced thing going on, where there's a duality to the content, and there's a duality to the design... Which I think is kind of cool. Probably that gets lost on most people, but for those of us who put it together, we just thought that was kind of neat.
+**Jerod Santo:** \[32:26\] And one more note on the newsletter redesign... So for those who haven't seen it, as Adam described, on the left hand side it's dark, and it's really representing what you're looking at, and has the reasons to subscribe, the buttons and stuff... And on the right hand side it's the most recent issue, so you're literally reading what it looks like. And in light mode, the right hand side has a white background. Now, in dark mode they're both kind of dark, and there's a border in between... But the idea behind this, kind of the metagame is really -- the podcast/newsletter is a hybrid. It's two things in one. It's the only podcast that is a newsletter, and it's the only newsletter that's also a podcast that we know of, in this space... And so you kind of have this two-faced thing going on, where there's a duality to the content, and there's a duality to the design... Which I think is kind of cool. Probably that gets lost on most people, but for those of us who put it together, we just thought that was kind of neat.
 
 Now, I don't want to directly reference Two-Face, because I realize he's a villain, and it's probably not the best association... But you know, it's got that duality thing going on, which is pretty cool.
 
@@ -432,7 +432,7 @@ You also can't skip chapters, and stuff. I think when I'm wanting to scan an epi
 
 **Gerhard Lazu:** Exactly.
 
-**Jerod Santo:** \[00:36:00.01\] I'm still a little tentative of those things, because I have -- I guess anxiety is the word. You know, I played basketball early in the mornings, and one time I got halfway to the gym and realized I didn't have my socks... Which pretty much ruins it, right? And it's a 20-minute drive. So I'm either coming home, or I'm missing that day... And ever since then, I've had like "Do you have your socks?" anxiety. And to the point where I put them in my bag, I put my bag next to me, I'll start to drive my car, and I'll stop -- I won't stop, but I'll think to myself "Do you have your socks?" And I know intellectually that I have my socks, because I literally --
+**Jerod Santo:** \[36:00\] I'm still a little tentative of those things, because I have -- I guess anxiety is the word. You know, I played basketball early in the mornings, and one time I got halfway to the gym and realized I didn't have my socks... Which pretty much ruins it, right? And it's a 20-minute drive. So I'm either coming home, or I'm missing that day... And ever since then, I've had like "Do you have your socks?" anxiety. And to the point where I put them in my bag, I put my bag next to me, I'll start to drive my car, and I'll stop -- I won't stop, but I'll think to myself "Do you have your socks?" And I know intellectually that I have my socks, because I literally --
 
 **Adam Stacoviak:** Oh, man...
 
@@ -468,7 +468,7 @@ The cost is basically nothing, because you're in dev mode; unless you're creatin
 
 **Jerod Santo:** Right.
 
-**Adam Stacoviak:** \[00:39:55.25\] But then Brian did also divulge some potential future stuff that I'm gonna mention here, because it's not an ad spot, and it's cool. They're going to work on the ability to go offline with your database, and still be Neon-like. Neon, locally dev branch, all the fun things you want, with Neon local dev branches, but go offline. Go on a plane, go on a train, whatever it might be. That's future coming. I'm kind of like future-spelling for them, so don't get too upset, Neon, please... But this is cool tech, they're working on it, and they have a plan to continuously improve this developer workflow with a database... Which has not been there really, at large, ever... And it's on our favorite database, Postgres. So that's a beautiful thing.
+**Adam Stacoviak:** \[39:55\] But then Brian did also divulge some potential future stuff that I'm gonna mention here, because it's not an ad spot, and it's cool. They're going to work on the ability to go offline with your database, and still be Neon-like. Neon, locally dev branch, all the fun things you want, with Neon local dev branches, but go offline. Go on a plane, go on a train, whatever it might be. That's future coming. I'm kind of like future-spelling for them, so don't get too upset, Neon, please... But this is cool tech, they're working on it, and they have a plan to continuously improve this developer workflow with a database... Which has not been there really, at large, ever... And it's on our favorite database, Postgres. So that's a beautiful thing.
 
 **Jerod Santo:** Well, that leads me to what I asked Gerhard for last time. Didn't I ask you for something like that as a gift?
 
@@ -518,7 +518,7 @@ Also the shoutouts. I think if the shoutout section would be slightly different,
 
 So I could get more formal on certain things, but I don't do any classes, any tagging, anything. The quote of the week is literally me making an h3 that says "Quote of the week", and then a blockquote. And then that's it. Like, that's what the quote of the week is. So in our system, there's no fancy formatting, because it's so free-flowing. And that allows me to be more, I think, creative and experimental with what I'm doing. Quote of the week is not always there, which is I think is funny. There's not always a quote of the week, there's not always a video of the week... So it's not like I'm saying "I need a quote for this week", and I plug it into the quote of the week block. So it's more a result of how I write, versus an editorial decision.
 
-\[00:44:14.02\] And we definitely used to have -- the sponsored section I think was more called out than it is currently, and I think we could do some coding and just follow the same syntax that says "When you find a section that has this particular element in it, then change the style", or something. So I'm not against it. It was just like we wanted it to be as free-flowing as possible, so that I could continually put them out every week.
+\[44:14\] And we definitely used to have -- the sponsored section I think was more called out than it is currently, and I think we could do some coding and just follow the same syntax that says "When you find a section that has this particular element in it, then change the style", or something. So I'm not against it. It was just like we wanted it to be as free-flowing as possible, so that I could continually put them out every week.
 
 **Gerhard Lazu:** Yeah.
 
@@ -548,7 +548,7 @@ Now, sometimes I'm in the mood of reading everything, and that's okay, but other
 
 **Adam Stacoviak:** Because then it's always leading with the money bag, and you can kind of spot the money bag, and the money bag, obviously... "Hey, this is sponsored" - and by the way, we do love 1Password - and that's cool. I think that that'd be a good --
 
-**Jerod Santo:** \[00:47:44.03\] Well, some people put like sponsored in parentheses in the title. We've considered doing that kind of stuff as well, and it just gets to be a little bit too noisy... But I think of it just like, the money bag -- because contextually, the money bag doesn't make sense until you know that "Oh, it's sponsored." And it's always just the money bag.
+**Jerod Santo:** \[47:44\] Well, some people put like sponsored in parentheses in the title. We've considered doing that kind of stuff as well, and it just gets to be a little bit too noisy... But I think of it just like, the money bag -- because contextually, the money bag doesn't make sense until you know that "Oh, it's sponsored." And it's always just the money bag.
 
 **Gerhard Lazu:** I like that idea.
 
@@ -580,7 +580,7 @@ I think - and I'm biased - that if a company is sponsoring Changelog News, they 
 
 Quote of the week - not quite so sold on making that standout, because it's honestly just a thing I made up and do sometimes. It's not like a formal part. There are no real formal parts... Besides, there's going to be five or six main stories, and then the rest I just make up each week. Like, is there three smaller stories? Is there a list at the end that's shaped like a pyramid? You know, I just kind of roll with it, and I like that. But definitely good feedback.
 
-**Break**: \[00:50:45.16\]
+**Break**: \[50:45\]
 
 **Gerhard Lazu:** So I'd like to give a shoutout to Brandon Smith now. He's not involved with Elixir. Pull requests 513. He is in the list of contributors. It's a one-character change. He's my type of people. His comment is way, way longer than the actual change, and I love it, because it has all the context.
 
