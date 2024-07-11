@@ -22,7 +22,7 @@ And then the other piece of it is that folks often think about code review anxie
 
 **Adam Stacoviak:** Yeah. Because I know that was code review to some degree prior to GitHub, right?
 
-**Jerod Santo:** \[00:10:07.05\] Sure. Yes.
+**Jerod Santo:** \[10:07\] Sure. Yes.
 
 **Carol Lee:** Yeah.
 
@@ -48,7 +48,7 @@ Having said that, I don't know how you fix anxiety necessarily, but in my experi
 
 **Carol Lee:** No, I love this. I mean, what you say is also very true. We call this exposure or habituation; you kind of get used to an experience, and you're like "Hey, actually, it's not so bad." So not to get too in the weeds or get too nerdy about anxiety - let me know if I am - the way that anxiety can develop some times is that yes, you do this thing a lot of times, but for some people, instead of thinking "Hey, here's my 100th pull request. Just same old, same old", right? They might engage in something called experiential avoidance, we call it. So this is when you kind of avoid the whole experience. You're just kind of like "I don't know, just press the thing." And so every time you press Submit, you're actually still feeling anxious, so you just never move past it. Or you might just have some really intense negative thoughts, where you're like "I don't know, Adam just hates me. I just know it. Adam thinks I'm so stupid. My gosh."
 
-\[00:14:20.28\] And you just never consider "You know, Adam doesn't care what's happening. Adam probably is just living his best life." And so you don't consider that, and so you can imagine, the 100th time you have to ask Adam for something, you're like "Oh my God, Adam still hates me. I've asked him for something 100 times now. My God." The anxiety just builds.
+\[14:20\] And you just never consider "You know, Adam doesn't care what's happening. Adam probably is just living his best life." And so you don't consider that, and so you can imagine, the 100th time you have to ask Adam for something, you're like "Oh my God, Adam still hates me. I've asked him for something 100 times now. My God." The anxiety just builds.
 
 So it really just kind of depends. I kind of take it as like "Let's not blame the tool." And I know I jsut blamed GitHub, you know... Very jokingly.
 
@@ -82,7 +82,7 @@ So it really just kind of depends. I kind of take it as like "Let's not blame th
 
 **Jerod Santo:** So when you talk about anxiety in the context of your study, I think it's worth narrowing in on it, because we've been talking about it, but actually, when I thought about code review anxiety, that term, I actually brought my own different anxiety, my own baggage to that term... And so it was interesting to read your study, because I'm like "Oh, it's specifically narrowing in on fear of judgment of my code." That's pretty much what code review anxiety is. "My code is going to be reviewed by someone. They're going to judge it. That makes me anxious", which makes total sense, and that's the context.
 
-\[00:18:09.07\] But what I was thinking was like "There's other anxieties I have around code review." Like, my code is going to sit there and not get reviewed for a long time. And that makes me anxious. Or, on the other side, somebody wants me to review their code, and that makes me anxious, because I don't like to do that, I don't want to do that. I'm doing the avoidance thing, and now I'm a blocker for them to do their job, and that makes me anxious... So there's other ones that are kind of tangential that I was bringing to the table, but those aren't the things that you studied specifically, right?
+\[18:09\] But what I was thinking was like "There's other anxieties I have around code review." Like, my code is going to sit there and not get reviewed for a long time. And that makes me anxious. Or, on the other side, somebody wants me to review their code, and that makes me anxious, because I don't like to do that, I don't want to do that. I'm doing the avoidance thing, and now I'm a blocker for them to do their job, and that makes me anxious... So there's other ones that are kind of tangential that I was bringing to the table, but those aren't the things that you studied specifically, right?
 
 **Carol Lee:** It's actually anxiety about your code, like asking for it. So it's actually about the code itself. It's also about the process of asking. So sometimes folks feel anxious about like "I asked for this weird", or they might say something like that... But it's also about the process of giving a code review, exactly what you were saying. A lot of -- I had several kind of staff level engineers who were like "You know what really sucks about being staff? It's that you feel pressured to give the best code review, and it has to be right." Honestly, I don't know if -- that's a lot of pressure. "It's just a lot for me", and they feel paralyzed, and they, as you say, avoid it, procrastinate etc. Yeah.
 
@@ -96,7 +96,7 @@ So it really just kind of depends. I kind of take it as like "Let's not blame th
 
 Basically, folks get randomized to one of two conditions. A control condition, or the treatment condition. And then ideally, folks in the treatment condition improve, and then control not so much; they didn't get the thing. And that's exactly what we've found. It was only like a two-hour workshop intervention. So this is kind of a common method to use in mental health experiences, where you're trying to reach a bunch of people at once. It's a little bit more scalable, you don't have to schedule a one on one with everybody... So we did that, I delivered these workshops, and the workshop had several major components. The first major component is we teach people how to just manage physiological symptoms of anxiety. I often talk about it as like if you are literally hyperventilating, the only thing you can think about is the fact that you're hyperventilating. It's really not useful for me to be like "And here are some other things you can do." You're like "I'm literally trying to breathe right now." So the first thing we need to do is reduce that hyperventilating. So kind of teaching things like that.
 
-\[00:21:50.19\] And then the bulk of it is kind of thinking about what are your cognitive biases that you bring in, and then what can you do to kind of challenge them? It's a cognitive behavioral technique. So we worked on kind of teaching that, identifying biases... Folks brought up things like -- one that really always stuck out to me is one person was like "This review is going to be so bad that XYZ is going to leave the company." I'm like "Wow, this person hated your review so much that they left the org? Seriously?" So kind of things like that.
+\[21:50\] And then the bulk of it is kind of thinking about what are your cognitive biases that you bring in, and then what can you do to kind of challenge them? It's a cognitive behavioral technique. So we worked on kind of teaching that, identifying biases... Folks brought up things like -- one that really always stuck out to me is one person was like "This review is going to be so bad that XYZ is going to leave the company." I'm like "Wow, this person hated your review so much that they left the org? Seriously?" So kind of things like that.
 
 Or someone will say -- one person had a thought that kind of broke my heart a little bit, that was like "My team is never going to respect me or my code." That's a scary thing to walk into a code review with.
 
@@ -114,7 +114,7 @@ A nice self-compassion technique is -- if this was someone you were mentoring, a
 
 **Carol Lee:** Adam, I am also a catastrophizer. So there's several kind of -- we call them cognitive distortions that we go through, and I kind of have everyone be like "Alright--" Chances are there's some of these where you're like "That one speaks to me." Some people are like "I am 100% a mind reader. I just think I know what everybody's thinking, and it's bad." But I actually don't know what this person is thinking at all. So it's kind of a fun thing to be like "Okay, you're doing the thing again, doing the mind reading again... Come on, Carol, get it together..." So I think that could be super-helpful, too.
 
-**Break**: \[00:24:57.03\]
+**Break**: \[24:57\]
 
 **Adam Stacoviak:** And you mentioned this in section 1.2 -- I'm gonna get very specific here.
 
@@ -186,7 +186,7 @@ Like you said, reducing physiological arousal helps with things, challenging tho
 
 The exposure piece is super-interesting. So part of it actually refers back to what Jerod was saying earlier, where you do the thing a lot of times, and you kind of get used to it. For some people, they're able to say "I did this a lot of times, and I still feel anxious, but I feel like I can manage it." Or "I'm okay with the anxiety now. I'm chill with it." And then you being chill with it reduces your anxiety. It's very paradoxical.
 
-\[00:32:19.01\] But there's also this way in which you -- like I was saying earlier, you kind of avoid thinking about the code review, and you're just focused on getting it over with. Maybe you open the thing up and you're like \[unintelligible 00:32:31.28\] and then you close it out. You're like "It's done. Thank God." And so exposure here really involves "Okay, let's practice that awareness during the entire code review."
+\[32:19\] But there's also this way in which you -- like I was saying earlier, you kind of avoid thinking about the code review, and you're just focused on getting it over with. Maybe you open the thing up and you're like \[unintelligible 00:32:31.28\] and then you close it out. You're like "It's done. Thank God." And so exposure here really involves "Okay, let's practice that awareness during the entire code review."
 
 So folks after the workshop get a toolkit to do during their next code review, and it asks you "Okay, what is your anxiety like now? What can you do to manage it now? Okay, keep working on your code review. What is your anxiety now? What can we do to manage that now?" And so it kind of gives you practice on saying "Hey, actually, my anxiety isn't in control of me. It's not this thing that I have to run away from, and therefore run away from code reviews. I can approach a code review and learn" - and this is a new learning kind of theory; you can learn that you can actually handle it.
 
@@ -202,7 +202,7 @@ There's also kind of a method here where proactively engaging also means that yo
 
 **Adam Stacoviak:** So front-loading is whenever you have - at least to my knowledge; this is how I'm aware of it, or what the term means to me... Similar to you, Jerod, you don't want to go to the gym and play basketball without your shoes. So what do you do? You front-load. You prepare the night before. This toolkit is a preparation for anxiety reduction in the act of. So when you don't have your frontal lobe fully engaged, you're less rational thinking, you do the front-loading, the pre-thinking when you have rationality in a more key state for you, so that you can better plan. So when you're weak, you use the strength you had beforehand to empower you when you're not. So Jerod, you hate not taking your shoes to the gym, right? So what do you do?
 
-**Jerod Santo:** \[00:36:07.01\] It was my socks in particular, but...
+**Jerod Santo:** \[36:07\] It was my socks in particular, but...
 
 **Adam Stacoviak:** Sorry, your socks.
 
@@ -266,7 +266,7 @@ There's also kind of a method here where proactively engaging also means that yo
 
 **Adam Stacoviak:** Well, you know, here's an example. So this morning or the evening beforehand I always prepare an oatmeal, kind of overnight oatmeal kind of thing. Oat milk, oatmeal, a little bit of frozen blueberries... But what that lets me do is it prepares me. That's my prethinking through this, so that whenever I'm weak, and I get home and I'm like "Gosh, I'm hungry, I'm ravenous", or I'm ready to eat, rather than grabbing a snack or something in high sugar or something else, I've preplanned, I've front-loaded my plan. And it keeps my discipline rails on rails. And you can apply that to code review, you can apply that to all sorts of things, but it's the idea that whenever you're weak, you make less wise choices.
 
-**Carol Lee:** \[00:39:55.09\] Yes.
+**Carol Lee:** \[39:55\] Yes.
 
 **Adam Stacoviak:** And so prepare and plan beforehand, and have a plan for when you're weak. And that's kind of what this toolkit you gave them - almost, but not fully; almost. It's a check-in during the process, but it's like, you have less anxiousness because "Do a little bit. How are you feeling now? Do a little bit. How are you feeling now?" It's something like that, that helps somebody in that moment of despair or crisis not have despair and crisis.
 
@@ -324,7 +324,7 @@ There's also kind of a method here where proactively engaging also means that yo
 
 **Jerod Santo:** It is not rational at all, I know that.
 
-**Adam Stacoviak:** \[00:43:58.20\] And I get that. I totally identify with that, because I'm the same way with locking a door. I check the front door before I go to bed, I check the front door when I get home, I check doors that I know I've locked, again... I will get out of the truck and go back and confirm I locked the doors.
+**Adam Stacoviak:** \[43:58\] And I get that. I totally identify with that, because I'm the same way with locking a door. I check the front door before I go to bed, I check the front door when I get home, I check doors that I know I've locked, again... I will get out of the truck and go back and confirm I locked the doors.
 
 **Carol Lee:** I'm so sorry to your audience, because I feel like they're learning a lot about random things about you all today, and I'm so sorry.
 
@@ -352,7 +352,7 @@ There's also kind of a method here where proactively engaging also means that yo
 
 **Carol Lee:** I think what's kind of really lovely too is that there's also some research showing that particularly for folks learning new kind of languages, or new skills, code reviews are a really valuable way to get mentorship, or to kind of create learning. So getting that feedback on something you've done is a great way to learn new methods, new ways of thinking. And so that is really cool. There's also research that shows that code reviews can create a sense of community between folks, which is quite lovely... So yeah, there's kind of these other benefits to code reviews outside of "You probably have to do it anyways", like you're going to be asked to do it. So in that case, yes, it makes sense to kind of cope with this.
 
-\[00:47:47.23\] Kind of to bounce off on your kind of note about frameworks, right? The key thing about having frameworks or coping mechanisms is to learn how to apply them flexibly. You're not like "I am going to always do things that make me anxious, always from now on." No. Terrible idea. So you have to be flexible about that. But even with your framework of like "Hey, this code is basically - a stranger wrote it six months ago." You also don't want to apply that so rigidly that when someone's like "Hey, I really love this thing you did", you're like "Oh, someone else wrote that six months ago."
+\[47:47\] Kind of to bounce off on your kind of note about frameworks, right? The key thing about having frameworks or coping mechanisms is to learn how to apply them flexibly. You're not like "I am going to always do things that make me anxious, always from now on." No. Terrible idea. So you have to be flexible about that. But even with your framework of like "Hey, this code is basically - a stranger wrote it six months ago." You also don't want to apply that so rigidly that when someone's like "Hey, I really love this thing you did", you're like "Oh, someone else wrote that six months ago."
 
 **Jerod Santo:** \[laughs\]
 
@@ -370,7 +370,7 @@ There's also kind of a method here where proactively engaging also means that yo
 
 **Carol Lee:** Yeah.
 
-**Break**: \[00:48:51.28\]
+**Break**: \[48:51\]
 
 **Adam Stacoviak:** I do like what you brought up though about the positive side of things... Because we've been camping out on this anxiety, because that's the whole entire point the research... But then there's the flipside, which is the not catastrophizing, the not-truth that you've thought it was, which is unification, better connection... So the easiest way to get out of conflict is to come together, right? You know this, Carol, because you're a psychologist. If you have disconnection, the only way to get connected is to connect, is to be around each other more. And so the code review process can be a very beautiful thing, and I would say with the caveat that if the team dynamic and framework is sound outside of the code review, you must have to also approach the teamwork, culture and aspects of what it actually takes to run the organization, and the teams, to ensure that a positive code review is possible. Because if you don't have respect, empathy etc. in that team dynamic, you're going to have anxiety-filled code reviews.
 
@@ -380,7 +380,7 @@ There's also kind of a method here where proactively engaging also means that yo
 
 **Carol Lee:** Yeah, absolutely. So something that I really stress in these workshops too is that it's rational thinking, not positive thinking... Because you might have a thought, like "Jerod is gonna nitpick this. Jerod always nitpicks this." And maybe Jerod does always nitpick this.
 
-**Adam Stacoviak:** \[00:52:12.17\] Sometimes Jerod nitpicks.
+**Adam Stacoviak:** \[52:12\] Sometimes Jerod nitpicks.
 
 **Carol Lee:** Maybe that's just Jerod's thing.
 
@@ -410,7 +410,7 @@ It's really interesting, actually... So something that I really love about -- we
 
 **Jerod Santo:** Is the toolkit that you provided during the study - is it published somewhere standalone, or online, or...?
 
-**Carol Lee:** \[00:56:03.25\] Yes. I totally forgot to mention this. I guess I should also mention that the results of the study were good; people got less anxious, just to kind of put that out there... \[laughs\]
+**Carol Lee:** \[56:03\] Yes. I totally forgot to mention this. I guess I should also mention that the results of the study were good; people got less anxious, just to kind of put that out there... \[laughs\]
 
 **Jerod Santo:** Awesome.
 
