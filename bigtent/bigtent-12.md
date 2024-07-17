@@ -92,7 +92,7 @@
 
 **Alex Koehler:** We are a big Prometheus user. I even changed the documentation for Prometheus, so actually I'm a Prometheus contributor.
 
-**Tom Wilkie:** \[00:06:07.11\] Oh, fantastic. Thank you.
+**Tom Wilkie:** \[06:07\] Oh, fantastic. Thank you.
 
 **Alex Koehler:** But yeah, we have multiple instances of Prometheus in Prezi for our different use cases, and we collect a lot of metrics. We're quite happy with it, because it's just working. That's not a big deal, to debug, and...
 
@@ -114,7 +114,7 @@
 
 **Tom Wilkie:** Oh, I'm sorry about that.
 
-**Mat Ryer:** \[00:10:06.19\] What's the culture like when it comes to appetite for risk then at Prezi? Do you tend to be quite careful? Or are you allowed to take risks and do things and move fast and break things? What's the sort of attitude?
+**Mat Ryer:** \[10:06\] What's the culture like when it comes to appetite for risk then at Prezi? Do you tend to be quite careful? Or are you allowed to take risks and do things and move fast and break things? What's the sort of attitude?
 
 **Alex Koehler:** We actually implemented SLOs in the past. So every team has an error budget, and is allowed to act inside this budget, and deploy small batches, and deploy fast and early. So the whole deployment cycle is fast, but when it comes to let's say bigger changes on an infrastructure level, we are a little bit conservative... Because if you, for example, update a Kubernetes cluster on AWS, there is only one way, and it's update the version and be happy or not. But on the application level, we are quite flexible and fast. So it's a mixed approach.
 
@@ -142,7 +142,7 @@ We also have a lot of feature flags in our system, so we release quite often beh
 
 **Mat Ryer:** It's so good.
 
-**Tom Wilkie:** \[00:13:58.14\] Trying to add that feedback into the development cycle. But yeah, if only you could predict "Ah, well, if you deploy this flag, you'll see your error budget go away for this month."
+**Tom Wilkie:** \[13:58\] Trying to add that feedback into the development cycle. But yeah, if only you could predict "Ah, well, if you deploy this flag, you'll see your error budget go away for this month."
 
 **Mat Ryer:** Yeah. No, but that bot that tells you the cost is really useful. And sometimes you might just have a bug in there that's going to do --
 
@@ -170,7 +170,7 @@ The downside of these kinds of alerts though is they really lack context. They'r
 
 **Alex Koehler:** For that -- I mean, the Prezi culture is all hands on deck when a certain criticality is reached. So we distinguish between SSH warning alerts, and critical alerts... And for all the critical alerts, we tend to raise an incident more often than less... And that brings different parts of the company together, and looking at the things... And that's better than being alone and trying to decide "Is this now a critical incident or not?" Because that decision is really lonely.
 
-**Tom Wilkie:** \[00:17:46.22\] Yeah. Oh, for sure. So one of the things I'm interested in -- because you say your developers also do on-call for services they write. And the traditional DevOps model - I'm a huge fan of that. But how do you balance the workload between the software engineering and the operations? How do you make sure that this is sustainable, that you're not burning people out?
+**Tom Wilkie:** \[17:46\] Yeah. Oh, for sure. So one of the things I'm interested in -- because you say your developers also do on-call for services they write. And the traditional DevOps model - I'm a huge fan of that. But how do you balance the workload between the software engineering and the operations? How do you make sure that this is sustainable, that you're not burning people out?
 
 **Alex Koehler:** We are pretty lucky, and are in a stable phase. We do not have a lot of alerts waking up our developers... But when we reach such a phase, I think the most important thing is to have a look at the alerts; why are they coming? Can we fix it? And then reduce the amount of alerts... Because as you said, they actually are paid for implementing business features, and not for debugging things. But when we make them teach us to do the operations stuff, we are overwhelmed with actions and tasks. So it's a trade-off. Basically, help them to write good and stable code, and good applications, and they help you to not be overburdened in operations work.
 
@@ -198,7 +198,7 @@ There is a good culture going on in reducing alerts, or scoping the alerts to a 
 
 **Devin Cheevers:** There's a nice thing in Grafana IRM, because if you've got your team set up in Grafana, you can scope all those dashboards to the team, and get your team specific metrics out of the box and you don't have to do any work. So team A could go into Grafana OnCall and see the alerts that are just specific to their teams.
 
-**Tom Wilkie:** \[00:22:02.10\] You'd never guess that Devin is the product manager for Grafana IRM, would you?
+**Tom Wilkie:** \[22:02\] You'd never guess that Devin is the product manager for Grafana IRM, would you?
 
 **Devin Cheevers:** This is my contribution... \[laughter\]
 
@@ -268,7 +268,7 @@ There is a good culture going on in reducing alerts, or scoping the alerts to a 
 
 **Mat Ryer:** Yeah. That is good, contributing factors.
 
-**Tom Wilkie:** \[00:26:11.29\] Mat, here's a question for you. Actually, we should do this as a roundtable. Mat, what was the worst incident you've ever caused, personally? Well, at work.
+**Tom Wilkie:** \[26:11\] Mat, here's a question for you. Actually, we should do this as a roundtable. Mat, what was the worst incident you've ever caused, personally? Well, at work.
 
 **Mat Ryer:** Yes. I assumed that's what you meant. I've been quite lucky. But the worst thing that happens - because we use our own Grafana incident tool internally... And so sometimes if we break that, which is a piece of software like any other, we have error budgets like any other. But what we tend to do is release internally first for a bit, and let the Grafana people kind of test out our release, and then we go to production. So sometimes we do break Incident Response inside Grafana, and then we can't even declare an incident about it. And you realize how useful the tools end up being, because when you then don't have them, then you're really sort of like -- you know, you really feel it. So that's the one that I never -- I'm never happy if we break incident internally, because...
 
@@ -314,7 +314,7 @@ There is a good culture going on in reducing alerts, or scoping the alerts to a 
 
 **Mat Ryer:** That's amazing.
 
-**Tom Wilkie:** \[00:29:53.28\] My worst incident ever... I remember it vividly, because it was the morning after the Christmas party. Luckily, at the previous employer. And I was sitting in a cafe - I didn't go into the office that day; I went and sat in a local cafe and worked from there. And I was doing -- funnily enough, Alex, I was upgrading my Kubernetes clusters... And this was before managed Kubernetes service, so the upgrade was a lot of TerraForm, a lot of Ansible. I think it was Ansible at the time; and I fat-fingered it, and typed the wrong thing, and the TerraForm apply removed every single EC2 VM we had. We only were only running in a single region at the time, and it just deleted all of them. And I'm like "Uh-oh..." We literally just deleted our production cluster.
+**Tom Wilkie:** \[29:53\] My worst incident ever... I remember it vividly, because it was the morning after the Christmas party. Luckily, at the previous employer. And I was sitting in a cafe - I didn't go into the office that day; I went and sat in a local cafe and worked from there. And I was doing -- funnily enough, Alex, I was upgrading my Kubernetes clusters... And this was before managed Kubernetes service, so the upgrade was a lot of TerraForm, a lot of Ansible. I think it was Ansible at the time; and I fat-fingered it, and typed the wrong thing, and the TerraForm apply removed every single EC2 VM we had. We only were only running in a single region at the time, and it just deleted all of them. And I'm like "Uh-oh..." We literally just deleted our production cluster.
 
 It was definitely a, you know, go on Slack, apologize profusely, and figure out how not to make it happen again in the future... But we managed to we managed -- we were back up in production in like 20 or 30 minutes, because everything was stored in Git. It was a TerraForm apply to get everything back, and then Kubectl apply to bring all the services back up. And generally, we were serving traffic in 20 or 30 minutes later; it was quite impressive. But yeah, we learned very quickly about the "Maybe do a diff before doing an apply", or plan before doing an apply, sorry. And doing things like having your TerraForm applied by a GitHub Action and things like that, to make sure there's a level of review involved... You know, and the fact that you can put flags on TerraForm resources saying "Do not allow TerraForm to delete these things." We learned how to do that then.
 
@@ -336,7 +336,7 @@ It was definitely a, you know, go on Slack, apologize profusely, and figure out 
 
 We have this enviable - I guess, enviable - problem in some teams now in Grafana Labs, where it's a bit like that scene from Life with Brian, where everyone goes "I'm Brian. No, I'm Brian. I'm Brian, and so is my wife." Everyone wants to take responsibility for the incident, because there's this culture of like "No, this is how I did wrong, and how we can make it better in the future", and it's so healthy.
 
-**Alex Koehler:** \[00:34:16.07\] And I think also when you have that culture, it encourages people to actually change things and not wait for someone else to change things, or wait for a longer period... But right now you have to be quick and adapt to changing market situations, and release features, and so on... And if you have a culture of fear, then you will lose track pretty soon.
+**Alex Koehler:** \[34:16\] And I think also when you have that culture, it encourages people to actually change things and not wait for someone else to change things, or wait for a longer period... But right now you have to be quick and adapt to changing market situations, and release features, and so on... And if you have a culture of fear, then you will lose track pretty soon.
 
 **Tom Wilkie:** Yes, exactly. A culture of fear is just discouraging people from making changes. And in today's world, your ability to move quickly, change quickly and accept change is really what means you survive. So I guess it goes without saying, you have a similar blame-free post mortem culture at Prezi.
 
@@ -374,7 +374,7 @@ We have this enviable - I guess, enviable - problem in some teams now in Grafana
 
 **Tom Wilkie:** I mean, I guess I can represent the business in this situation, right? Tell me why you need to go in and focus on or give a higher focus to reliability? Do you have data that shows your SLO performance has been poor? Do you have data that shows your latencies are high, or high customer churn because experience with the product due to reliability is low? We were talking about error budgets earlier. Are you are you seeing that you're routinely breaching your error budget? Even just -- how many incidents a day, a week, a month are you having? All of this kind of data can really help motivate these problems.
 
-\[00:38:22.12\] It's interesting, because as the big bad manager in the room, I have the opposite problem, of engineers come to me sometimes and say "I really want to do the next month on reliability." And I go and look at the numbers and be like "But why? You're hitting four and a half nines on your SLA performance. Tell me why you want to do it." But honestly, I feel very deeply about like a bottom-up DevOps culture where it should be up to the individual product teams, the individual engineering teams to decide what the most important priority is... And if they come to me and say "I want to focus on reliability", of course I'm going to try and accommodate that.
+\[38:22\] It's interesting, because as the big bad manager in the room, I have the opposite problem, of engineers come to me sometimes and say "I really want to do the next month on reliability." And I go and look at the numbers and be like "But why? You're hitting four and a half nines on your SLA performance. Tell me why you want to do it." But honestly, I feel very deeply about like a bottom-up DevOps culture where it should be up to the individual product teams, the individual engineering teams to decide what the most important priority is... And if they come to me and say "I want to focus on reliability", of course I'm going to try and accommodate that.
 
 **Alex Koehler:** I think as an engineer it's not only about reliability, it's also about maintenance. You have to update your libraries, you have to make sure you're using the latest OpenSSL library, or any other tool you use... So maybe it goes hand in hand, working on reliability and working on maintenance. And in my mind, it comes down to this 20% for every week or month or quarter just to work on that foundational things before they hit you in the back... Because when you don't do that, they will come after you some point in time later.
 
@@ -390,7 +390,7 @@ We have this enviable - I guess, enviable - problem in some teams now in Grafana
 
 But yeah, I would say these kind of things should be relatively easy to justify with data. It's just a case of gathering that data can sometimes be quite painful... But yeah, knowing the right data to gather, like number of issues that are tagged with toil, number of incidents, SLO performance, or error budget, these kinds of things... Devin, is that the kind of thing you're looking for?
 
-**Devin Cheevers:** \[00:41:52.18\] Yeah, it sounds good. I mean, and this podcast title is sustainable, I think. I think it'll end up being sustainable when we ship it... And one thing that I looked at as prep for this was I got the Dora metrics... You have this new framework called Space... But I think it can be a bit overwhelming for a lot of folks to try and figure out how to track all this. Alex, you even mentioned earlier it's been hard to measure maybe at a global level. But one thing that we do in our core product is we have a score for your specific schedule and your rotation. So you can actually get a health check on your team. You're an individual team - you can get a score and a health check on that actual schedule. I think that score is based on "Are there any gaps in your rotation? What is the average load per team member?" So if one team member has significantly more load than other team members, that is unbalanced. Alex, I saw you nodding there. Do you use that score? Does your team use the scoring \[unintelligible 00:42:47.27\] in on-call?
+**Devin Cheevers:** \[41:52\] Yeah, it sounds good. I mean, and this podcast title is sustainable, I think. I think it'll end up being sustainable when we ship it... And one thing that I looked at as prep for this was I got the Dora metrics... You have this new framework called Space... But I think it can be a bit overwhelming for a lot of folks to try and figure out how to track all this. Alex, you even mentioned earlier it's been hard to measure maybe at a global level. But one thing that we do in our core product is we have a score for your specific schedule and your rotation. So you can actually get a health check on your team. You're an individual team - you can get a score and a health check on that actual schedule. I think that score is based on "Are there any gaps in your rotation? What is the average load per team member?" So if one team member has significantly more load than other team members, that is unbalanced. Alex, I saw you nodding there. Do you use that score? Does your team use the scoring \[unintelligible 00:42:47.27\] in on-call?
 
 **Alex Koehler:** Yeah, but for a different reason. We shifted the responsibility for the on call rotation planning to the teams. We use an iCal integration you have in the on-call system. So every team is responsible for their own shifts, and we just double-check that there are no gaps in there. Because it's hard to create a gap in Google Calendar, for example, and then the on-call product just shows "Okay, your rotation is not healthy. There is a gap." And then we can have a look. Because disaster happens in those gaps. When you have a gap for an hour where nobody is available, it's for sure that there is an issue.
 
@@ -454,7 +454,7 @@ But yeah, I would say these kind of things should be relatively easy to justify 
 
 **Tom Wilkie:** I think I've eaten one before. Yeah. I've tried to eat every animal I could.
 
-**Devin Cheevers:** \[00:46:15.29\] Alex, did they get them in Germany?
+**Devin Cheevers:** \[46:15\] Alex, did they get them in Germany?
 
 **Tom Wilkie:** We've just completely lost the vegetarian audience there.
 
@@ -492,7 +492,7 @@ And I think our engineers love it, because it gives them the same features. And 
 
 **Mat Ryer:** Gotcha.
 
-**Tom Wilkie:** \[00:50:05.06\] Obviously, we're hugely grateful for you using the tool, and being a customer... Is there anything you miss about Pager Duty? Anything -- you know, you get a chance to ask us now. If you had one wish that you would be putting in Grafana On Call...
+**Tom Wilkie:** \[50:05\] Obviously, we're hugely grateful for you using the tool, and being a customer... Is there anything you miss about Pager Duty? Anything -- you know, you get a chance to ask us now. If you had one wish that you would be putting in Grafana On Call...
 
 **Alex Koehler:** Actually, Pager Duty had quite an impressive UI. It was not so user friendly. A lot of different objects... I don't know, they have those service objects, the business service objects, and you have to go there, and go there to find out things... What I really like with the On Call thing - it's just a simple UI, you have to click on it, and you can pretty fast comprehend what you see. So that's actually cool. I didn't prepare a wish, so I can't come up with one now. \[unintelligible 00:50:49.07\]
 
@@ -528,7 +528,7 @@ And I think our engineers love it, because it gives them the same features. And 
 
 **Alex Koehler:** Actually, you already spoiled it. The more time I see on-call and IRM, the more stressful it is. And that's not because the product is bad, because you only look there to just be paged when you have been paged. What my wish is just that the tool stays simple, in terms of just usable, and not be over complex, and be friendly for our engineers that are not quite often doing on call work.
 
-\[00:54:18.21\] So I spoke about the different teams having responsibility for their tools, and there are actually teams that are quite often on call users, because their services are producing errors, and are quite important... But there are other teams there that are not quite often in on call. So if the product stays usable for them as well, that is a big, big plus. And if you can make it resolve anything automatically and solve the issue, that's cool, but that's not possible, I think.
+\[54:18\] So I spoke about the different teams having responsibility for their tools, and there are actually teams that are quite often on call users, because their services are producing errors, and are quite important... But there are other teams there that are not quite often in on call. So if the product stays usable for them as well, that is a big, big plus. And if you can make it resolve anything automatically and solve the issue, that's cool, but that's not possible, I think.
 
 **Mat Ryer:** In some ways... Yeah, we do look at that a lot. We have also Sift, which is the AI/ML thing, which does sort of like root cause, or contributing factor analysis, and tries to find what could be going on here. And then it isn't a great leap to think "Well, maybe you can then automate that", which you can do. And you can do it today with the webhooks. Some people do that; they will have a webhook for something that fires off, and then they've just got some code that just tries some basic things for them. But we always prefer people to fix the problem before that, if you can. But it's very tempting.
 
@@ -568,7 +568,7 @@ And I think our engineers love it, because it gives them the same features. And 
 
 **Mat Ryer:** Yeah, we should do. It's a good idea.
 
-**Tom Wilkie:** \[00:57:56.17\] Get some of the winners along.. So one of the things -- and again, I've asked Mat for this before, but one of the things we touched on earlier was you often get more than one alert and page for the same thing, for the same incident. You might get an alert for multiple SLOs, on multiple different services, that are all related to one region or one availability zone going down, or whatever it happens to be. I've always thought this should be really tractable issue for AI to do that grouping for you. They should be able to say "Are these alerts always fired at the same time? They're related." And plus, you've got a really strong signal with the right UX to like train it, to say "Yes, these are related. No, these are not related." But I've never seen anyone actually do that very well. I mean, we don't do it, to be very clear. Have you ever -- do you know of anyone that does that? Can you tell me how they do it?
+**Tom Wilkie:** \[57:56\] Get some of the winners along.. So one of the things -- and again, I've asked Mat for this before, but one of the things we touched on earlier was you often get more than one alert and page for the same thing, for the same incident. You might get an alert for multiple SLOs, on multiple different services, that are all related to one region or one availability zone going down, or whatever it happens to be. I've always thought this should be really tractable issue for AI to do that grouping for you. They should be able to say "Are these alerts always fired at the same time? They're related." And plus, you've got a really strong signal with the right UX to like train it, to say "Yes, these are related. No, these are not related." But I've never seen anyone actually do that very well. I mean, we don't do it, to be very clear. Have you ever -- do you know of anyone that does that? Can you tell me how they do it?
 
 **Mat Ryer:** No. But that is a great hackathon project.
 
