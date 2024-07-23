@@ -28,7 +28,7 @@ And finishes with this call to action:
 
 **Jerod Santo:**
 
-[GitHub is starting to feel like legacy software](https://www.mistys-internet.website/blog/blog/2024/07/12/github-is-starting-to-feel-like-legacy-software/)
+[GitHub is starting to feel like legacy software](https://www.mistys-internet.website/blog/blog/2024/07/12/GitHub-is-starting-to-feel-like-legacy-software/)
 
 Misty De Meo, writing about her frustrating experience using GitHub's `blame` view:
 
