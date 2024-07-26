@@ -26,7 +26,7 @@
 
 **Jesús Espino:** Yeah, tricky, and understanding how they work under the hood is interesting. And that was my first attempt to start reading the Go source code here and there. It was relatively targeted, so it was kind of simpler at that time.
 
-\[00:08:14.07\] I prepared a talk, I gave that talk in the FOSDEM for the first time... So what's really great - it gave me a lot of insights about how channels actually work, and how slices and maps work, and even some small sneak peek on how goroutines works. So it was an interesting experiment. And that is how I started.
+\[08:14\] I prepared a talk, I gave that talk in the FOSDEM for the first time... So what's really great - it gave me a lot of insights about how channels actually work, and how slices and maps work, and even some small sneak peek on how goroutines works. So it was an interesting experiment. And that is how I started.
 
 Then I just kept going. I use conferences and public speaking as an excuse to learn things that I want to learn. So I prepare a talk, and then I have to learn something to the degree that I can give a talk and I can answer the questions; that sometimes is really hard. So yeah, it's how I get into that. So the ten a-ha moments come from the exploration that keeps going, preparing other talks, that if you want we can keep talking about it.
 
@@ -38,7 +38,7 @@ Then you have some pitfalls that because you know how it's implemented under the
 
 **Natalie Pistunovich:** Were you comparing it to what you know from other languages, or was it more like "This is the first time for arrays I'm focusing on how's it done under the hood"?
 
-**Jesús Espino:** \[00:12:03.25\] Yeah, I think from Python it was very similar. It's not the same, because in Python -- I'm not 100% sure. In Python they are not appending things. You are saying, "Hey, I have a list of elements, and I'm adding things to that list." So semantically, you are understanding that you are adding things to the list under the hood. If I recall correctly, it's pretty similar, the behavior. There's an array of memory that keeps doubling, and you have these pointers and these counters that give you the \[unintelligible 00:12:37.05\] and the capacity. All that is almost exactly the same, if I recall correctly. I don't have the Python implementation very fresh.
+**Jesús Espino:** \[12:03\] Yeah, I think from Python it was very similar. It's not the same, because in Python -- I'm not 100% sure. In Python they are not appending things. You are saying, "Hey, I have a list of elements, and I'm adding things to that list." So semantically, you are understanding that you are adding things to the list under the hood. If I recall correctly, it's pretty similar, the behavior. There's an array of memory that keeps doubling, and you have these pointers and these counters that give you the \[unintelligible 00:12:37.05\] and the capacity. All that is almost exactly the same, if I recall correctly. I don't have the Python implementation very fresh.
 
 **Natalie Pistunovich:** Yeah, of course. We're not talking about the focus of Python source code. I'm just curious if you generally were focusing on the same topic for other languages, or was Go kind of where you started really diving into this.
 
@@ -56,7 +56,7 @@ Then you have some pitfalls that because you know how it's implemented under the
 
 **Jesús Espino:** Yeah. I was interested that at the end of the day most of the implementations -- so for example, slices and maps is not like a super-weird implementation. You can find very similar implementations in other languages. It's just a relatively standard implementation of certain things. There's details on for example maps that can be different than other languages... For example in Go maps keys are unsorted, and are unsorted on purpose; actually, they are unsorted on purpose up to the level that every single map have a random set for the keys. So two different maps with the same keys and the same values are going to be ordered differently.
 
-\[00:15:52.21\] So it's on purpose, it's by design. But at the end of the day, most of the languages have their own implementation of these kinds of things, and most of them are kind of similar, around HashMaps, and slices and all that stuff.
+\[15:52\] So it's on purpose, it's by design. But at the end of the day, most of the languages have their own implementation of these kinds of things, and most of them are kind of similar, around HashMaps, and slices and all that stuff.
 
 **Natalie Pistunovich:** Okay. How about the second a-ha moment?
 
@@ -72,7 +72,7 @@ There's some special goroutines like the system monitor goroutine, that is doing
 
 **Jesús Espino:** I think it's kind of a natural way of doing that whenever you are doing coroutines. It's not exactly the same coroutine that Go has, but it's this kind of cooperative approach where you have one single thread, and you have to decide when to change to one or another. And it's just easier if you let the goroutines collaborate than if you have to put another process on top of that, orchestrating all of those goroutines. Because actually, the scheduler, the Go scheduler is not another process, is not another goroutine; it's nothing like that. The Go scheduler is a chunk of code. The goroutine that is going to sleep, or the goroutine that finishes work and is going to go to \[unintelligible 00:19:44.27\] it's going to call the scheduler code, and it's going to transfer somehow the execution to the scheduler, the scheduler executes and selects another goroutine and transfers to that goroutine the execution. So it's just a chunk of code that transitions from one goroutine to another. It's pretty cool, actually; it's super-interesting code. I don't know if I answered your question, actually...
 
-**Natalie Pistunovich:** \[00:20:15.02\] Yeah, yeah. Another philosophical question a little bit, as a background for the question. Have you watched Rick and Morty? Do you know the concept of Mr. Meeseeks?
+**Natalie Pistunovich:** \[20:15\] Yeah, yeah. Another philosophical question a little bit, as a background for the question. Have you watched Rick and Morty? Do you know the concept of Mr. Meeseeks?
 
 **Jesús Espino:** Oh, no, I don't. Sorry.
 
@@ -98,7 +98,7 @@ There is actually something that for some people is weird - goroutines doesn't a
 
 **Natalie Pistunovich:** Yeah. Do you want to chat about that?
 
-**Jesús Espino:** \[00:24:08.27\] Yeah, well, it's interesting how it's solving in the Go runtime. Basically, they abstract you from the operating system threads and call them CPUs, actually. Processors, actually. And then that processor gets assigned to different goroutines. But the goroutines and the processors are not highly coupled, so they can't -- they normally have a certain tendency to execute in the same processor, on the same operating system thread, but it's not mandatory at all for the goroutines. So the goroutines can execute in different operating system threads, so... It's a very smart approach that they coupled the CPU and the goroutines, or the operating system threads and the goroutines, and it allows you to execute at full capacity of your processors using that architecture. Because if a CPU is overloaded, you can take the goroutines from another CPU and start executing in the one that is more free, things like that. So it's very cool how Go abstracts you from CPUs, operating system threads, and the goroutine itself. It's pretty cool.
+**Jesús Espino:** \[24:08\] Yeah, well, it's interesting how it's solving in the Go runtime. Basically, they abstract you from the operating system threads and call them CPUs, actually. Processors, actually. And then that processor gets assigned to different goroutines. But the goroutines and the processors are not highly coupled, so they can't -- they normally have a certain tendency to execute in the same processor, on the same operating system thread, but it's not mandatory at all for the goroutines. So the goroutines can execute in different operating system threads, so... It's a very smart approach that they coupled the CPU and the goroutines, or the operating system threads and the goroutines, and it allows you to execute at full capacity of your processors using that architecture. Because if a CPU is overloaded, you can take the goroutines from another CPU and start executing in the one that is more free, things like that. So it's very cool how Go abstracts you from CPUs, operating system threads, and the goroutine itself. It's pretty cool.
 
 **Natalie Pistunovich:** Yup. And efficient. So what is your number three a-ha moment?
 
@@ -114,7 +114,7 @@ And it probably is kind of silly, but for me it was like an a-ha moment. So it w
 
 **Jesús Espino:** Yeah, it's kind of like that, exactly. You have a clear definition of what can go there. It's not exactly the same, because in the h file you are saying "Hey, these are the functions that I declare." This is a public interface. But at the same time it's okay, yeah, if I understand the h file, in theory I should be able to use it, and I should be able to understand all the boundaries. So yeah.
 
-**Natalie Pistunovich:** \[00:28:03.07\] And you say that what you liked more than that, this is like defining, scoping it for this file, it's kind of like scoping it for Go in general, that this is your entire toolbox, and there will be no surprises. It's not keywords, but a toolbox, really.
+**Natalie Pistunovich:** \[28:03\] And you say that what you liked more than that, this is like defining, scoping it for this file, it's kind of like scoping it for Go in general, that this is your entire toolbox, and there will be no surprises. It's not keywords, but a toolbox, really.
 
 **Jesús Espino:** Yeah, there's nothing else. If you say "Oh, could I execute a chunk of code inside the main file, but outside the function?" No, you can't. That's it. It's a variable declaration? Then you can. It's a constant? Then you can. But if it's not a type definition or a function, you can't. There's no representation for that. You can't represent that in days the AST. There are the pragmas, \[unintelligible 00:28:50.19\] but they are comments that are handled in a smart way. But at the end of the day, the AST is just that. There's nothing else that you can represent with that.
 
@@ -128,7 +128,7 @@ And it probably is kind of silly, but for me it was like an a-ha moment. So it w
 
 On the other hand you have inlining. Inlining is a process that analyzes a function in the Go compiler, it's a process that analyzes the function and decides if the function is simple enough to be embedded, to be inlined in the other side, in the call side. Instead of calling the function, you are going to take the whole code of the function and replace the function code with the code itself. That is inlining. And it depends on the complexity of the function that it not necessarily means the size of the function. It means the size of the function, but it actually means the operations that you use inside the function.
 
-\[00:32:12.11\] So the cool thing that I learned was if you have escape analysis, that the size of function needs to go into the stack or the heap, and you have inlining, that allows you to take a function and put the function in place of the caller... What is going to happen is they are going to collaborate together. So if your function is simple enough, it's going to be inline, and suddenly, the scope of your variables is bigger, so it's more probable that you can use the stack instead of the heap. So that was very cool, that was very interesting. It's something that I've found super-interesting.
+\[32:12\] So the cool thing that I learned was if you have escape analysis, that the size of function needs to go into the stack or the heap, and you have inlining, that allows you to take a function and put the function in place of the caller... What is going to happen is they are going to collaborate together. So if your function is simple enough, it's going to be inline, and suddenly, the scope of your variables is bigger, so it's more probable that you can use the stack instead of the heap. So that was very cool, that was very interesting. It's something that I've found super-interesting.
 
 **Natalie Pistunovich:** And then did you have any chance of writing code that is kind of corresponding to this functionality that was extra-efficient, or interesting, or...? Or is there a use case you can imagine for this to be interesting, or...? Because as you were describing this, I had nothing come to mind.
 
@@ -144,7 +144,7 @@ So keeping your constructors small enough to get them inlined is going to be a g
 
 **Natalie Pistunovich:** Or actually, we'll find big differences. I would be very curious, would you have a tracing episode in planning? Part two of that... So I will remember to do a cross and to bring this up there as well. It's a cool observation.
 
-**Jesús Espino:** \[00:36:05.25\] Yeah. Actually, I think the inliner now - it's being rewritten. I don't know if it's already finished the work...
+**Jesús Espino:** \[36:05\] Yeah. Actually, I think the inliner now - it's being rewritten. I don't know if it's already finished the work...
 
 **Natalie Pistunovich:** I think in 23 it will be released and updated.
 
@@ -162,7 +162,7 @@ But it's pretty cool that very far in the process is when do you get the machine
 
 So apart from that, you have to have a runtime that is compatible with microcontrollers, because with microcontrollers you don't have the same kind of access to things; you don't have an operating system and things like that. But at the end of the day, the compilation part is exactly the same, so that is the reason why TinyGo is exactly the same language. You can have differences in the runtime, but you don't have differences in the language, because it's the same one, and it's leveraging that point. So for me, that was like "Oh wow, these people are really smart." So I really loved that a-ha moment. And actually, I'm a big fan of TinyGo, so...
 
-**Natalie Pistunovich:** \[00:40:04.15\] \[laughs\] Shouting out to the cool things that TinyGo does... And together with Ron Evans and Daniel Esteban and the team who is working on the cool projects around that.
+**Natalie Pistunovich:** \[40:04\] \[laughs\] Shouting out to the cool things that TinyGo does... And together with Ron Evans and Daniel Esteban and the team who is working on the cool projects around that.
 
 **Jesús Espino:** Oh, yeah.
 
@@ -178,7 +178,7 @@ So apart from that, you have to have a runtime that is compatible with microcont
 
 Yeah. Well, we only covered six of the ten, but we're slowly approaching our time, which means we will have to do a part two, because you're just bringing up too interesting points, and I have too many questions/comments about them. My last question to you would be "Do you have an unpopular opinion?"
 
-**Jingle**: \[00:42:59.28\]
+**Jingle**: \[42:59\]
 
 **Jesús Espino:** Okay, I think I'm going to get some hate for this... Well, that's what unpopular opinion is about.
 
