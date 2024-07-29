@@ -42,7 +42,7 @@
 
 **Autumn Nash:** It's very much the cloud versus on-prem conversation. There are no absolutes for everything. There's a reason why people say "It depends." And sometimes decentralization is great, and sometimes just centralize it and stop being ridiculous. There's always kind of both ways.
 
-**Justin Garrison:** \[00:07:54.12\] So yeah, so in this conversation we go through a little bit of GitLab in general, and also his kind of a journey at GitLab, which was just fun to talk about. So we'll jump into the interview, and then we will come back with that game that we were promising. We'll talk to you all soon.
+**Justin Garrison:** \[07:54\] So yeah, so in this conversation we go through a little bit of GitLab in general, and also his kind of a journey at GitLab, which was just fun to talk about. So we'll jump into the interview, and then we will come back with that game that we were promising. We'll talk to you all soon.
 
 **Justin Garrison:** Alright, thank you so much, Abubakar, for coming onto the show to talk to us about GitLab. Because I used to be responsible partially for GitLab internally, and I've used GitLab for projects for a long time.
 
@@ -78,7 +78,7 @@ So GitLab has evolved from just being an application to get you from idea to pro
 
 **Justin Garrison:** I was like, "The struggle is real."
 
-**Autumn Nash:** \[00:11:56.09\] It is. Automation is beautiful, and we want to make it where we're using automation to take the weight off of us manually doing things. But then it gets to a point where it's just so much noise that you stop paying attention to it. So how do you make sure that the scanning and the warning stays valuable?
+**Autumn Nash:** \[11:56\] It is. Automation is beautiful, and we want to make it where we're using automation to take the weight off of us manually doing things. But then it gets to a point where it's just so much noise that you stop paying attention to it. So how do you make sure that the scanning and the warning stays valuable?
 
 **Abubakar Siddiq Ango:** Yeah, I think in GitLab one of the things we do is to have a security center where you can review all the scans. Like, okay, maybe certain severity; probably you're scanning your container, and you want to focus on the highest or the critical. Or maybe the medium. And you can also have your security team they have on the -- at the GitLab instance level, you as a developer can do your work, but you have your security team who can be notified "Oh, there's a new critical security issue that has been flagged by the system." Then they can review, and probably mark it as "Okay, this is a false flag." Then you can continue your work.
 
@@ -93,7 +93,7 @@ But after five years, I felt "Ah, I need to try something new. I need to go out 
 
 And I used to tell a funny story. During the interview, or during my last interview, I was interviewing with the CEO of the company. And I was having serious network issues. The network was 3G then. So I had to step outside of the house, climbed a rock with my phone held up, with the earpiece attached to my ear to complete the rest of the interview. \[unintelligible 00:15:54.01\] They even offered to reschedule the interview, and I'm like "Nah, I'm not missing this opportunity. Let me do it that way."
 
-\[00:16:05.06\] So I joined GitLab as a junior support engineer. More like "Okay, even if I would take a junior role, down from what I was doing before, it's fine. I'm learning new things, and experimenting." So I started as a junior support engineer, started supporting customers who are running GitLab on prem. That's, okay, probably they install it on a VM, or on a machine somewhere... You see different types of customers.
+\[16:05\] So I joined GitLab as a junior support engineer. More like "Okay, even if I would take a junior role, down from what I was doing before, it's fine. I'm learning new things, and experimenting." So I started as a junior support engineer, started supporting customers who are running GitLab on prem. That's, okay, probably they install it on a VM, or on a machine somewhere... You see different types of customers.
 
 Then I was promoted to full support engineer, and then that was when Kubernetes was becoming more popular. Everyone wants to run something like Kubernetes. I was one of the first on the team to learn Kubernetes, because we were now having customers come in and say "Okay, we want to run GitLab CI runners on Kubernetes, so we want to deploy GitLab itself on Kubernetes." But then we've not really had a mature support for Kubernetes. But when we had our GitLab Helm charts and so on, we started supporting more customers using Kubernetes. So I was one of the ones that "Okay, let me go to CKA, let me learn so that we can support." So I became like the default Kubernetes expert, and also training some other team members on the team.
 
@@ -111,7 +111,7 @@ So my experience, working as a support engineer, and knowing GitLab as a whole, 
 
 **Abubakar Siddiq Ango:** Yeah, yeah.
 
-**Autumn Nash:** \[00:19:47.26\] But learning, for one, that empathy and seeing people like go through that struggle and stuff - it helps you to be better for your customers, and better help developers and customers use a product, to be a good dev advocate, and then it helps you to gain the empathy to be a good manager, because that is such an important part. And community is so important. So I think --
+**Autumn Nash:** \[19:47\] But learning, for one, that empathy and seeing people like go through that struggle and stuff - it helps you to be better for your customers, and better help developers and customers use a product, to be a good dev advocate, and then it helps you to gain the empathy to be a good manager, because that is such an important part. And community is so important. So I think --
 
 **Abubakar Siddiq Ango:** Definitely. Because you learn to communicate, you learn to write, you learn to listen, and you learn to solve problems. So it gives you a lot of experience to be able to even do other jobs.
 
@@ -123,7 +123,7 @@ So my experience, working as a support engineer, and knowing GitLab as a whole, 
 
 **Abubakar Siddiq Ango:** Yeah, it is.
 
-**Break**: \[00:20:56.03\]
+**Break**: \[20:56\]
 
 **Justin Garrison:** Going a little back to what you were saying at the beginning of the conversation, I want to talk a little bit about the requirements of GitLab. As things have changed over time, now that you're doing let's say more AI features -- because GitLab has development features, it has a web-based development platform, and it also has AI stuff. If I'm running GitLab on prem, what does that mean for my infrastructure? What does that mean for or what my requirements are? It used to just be a web interface and some storage. The old school GitLab was like "Oh, I can SSH and push some files up there", and a web interface to manage users or whatnot. And now you have Kubernetes runners, and you have these AI integrations. How has that impacted the infrastructure side of GitLab, for users that aren't running the hosted version?
 
@@ -139,7 +139,7 @@ And there are certain settings or configurations, depending on your skill, that 
 
 **Justin Garrison:** All of those options made it a little easier to expand the system into areas where it's like "Oh, I need some of these things either as options, or I need them for scaling reasons." And your Helm chart was one of the very first really complex applications that I saw that started doing that, that was "Oh, this isn't just an install Apache, or install nginx with a couple of files." It's like no, you have 8 or 10 different components that all need to work together.
 
-**Abubakar Siddiq Ango:** \[00:27:51.03\] Yeah, exactly. And you can decouple them to say "Okay, I don't want to use this." For example, I remember supporting a customer who was using Azure, and we had not fully tested our Helm charts then on Azure. I'm like "Okay, let me experiment." Created an Amazon account, tweaked the Helm chart, and added some costume features that you want, and be able to create a proof of concept for the customers to use. So we designed this to be highly customizable, and easy for people to tweak and scale.
+**Abubakar Siddiq Ango:** \[27:51\] Yeah, exactly. And you can decouple them to say "Okay, I don't want to use this." For example, I remember supporting a customer who was using Azure, and we had not fully tested our Helm charts then on Azure. I'm like "Okay, let me experiment." Created an Amazon account, tweaked the Helm chart, and added some costume features that you want, and be able to create a proof of concept for the customers to use. So we designed this to be highly customizable, and easy for people to tweak and scale.
 
 **Justin Garrison:** Experimentation is so important, especially at that level of like "We've never tried it, so let me go ahead and see what happens." I feel like a lot of organizations, they take out the -- because experimentation is risk. And they say "Oh, well, we can't allow someone to have risks, because we don't know what they're gonna do to the environment." But you're not gonna learn.
 
@@ -165,7 +165,7 @@ And there are certain settings or configurations, depending on your skill, that 
 
 **Justin Garrison:** Let's say I want to develop on GitLab... How do you go about testing? Because in a lot of cases you're like "I need to run it locally." You're like "I'm going to mount this web interface locally, and then I'm gonna tweak, the button's gonna be blue", whatever. But GitLab has a web console similar to - GitHub has Codespaces, or whatever is called... GitLab has a web IDE as well, but you're not running all of GitLab inside of that web console, right? So how are you going about doing some of that development? What does that look like?
 
-**Abubakar Siddiq Ango:** \[00:32:06.02\] Yeah, we have what we call a GDK, GitLab Development Kit. It's huge. You can use it to bring up all the different \[unintelligible 00:32:11.23\] you need to run locally. More like you have in a minikube on your system. So you can bring up the GDK, you can set "Okay, this is the version of GitLab I want to test and run on my system." And then one way that will also support customers is - because when you build something and you push it, you probably create a fork of GitLab, and you push those changes to your fork. There are a ton of CI jobs that need to run. And that will probably eat into -- probably it will lead to CI credits you have on your account; let's assume you're probably using free accounts. We have a program where if you sign up with the contributor success team, you are added to a dedicated group to use some dedicated GitLab runners to build your job. So you don't have to use your own CI credits to do that. Because we've had complaints from a lot of developers like "Okay, I'm making this contribution, but I can't build them on my system, and I don't have CI minutes to do it." So once you join that group or are added to the group, you can take advantage of the CI runners that GitLab has.
+**Abubakar Siddiq Ango:** \[32:06\] Yeah, we have what we call a GDK, GitLab Development Kit. It's huge. You can use it to bring up all the different \[unintelligible 00:32:11.23\] you need to run locally. More like you have in a minikube on your system. So you can bring up the GDK, you can set "Okay, this is the version of GitLab I want to test and run on my system." And then one way that will also support customers is - because when you build something and you push it, you probably create a fork of GitLab, and you push those changes to your fork. There are a ton of CI jobs that need to run. And that will probably eat into -- probably it will lead to CI credits you have on your account; let's assume you're probably using free accounts. We have a program where if you sign up with the contributor success team, you are added to a dedicated group to use some dedicated GitLab runners to build your job. So you don't have to use your own CI credits to do that. Because we've had complaints from a lot of developers like "Okay, I'm making this contribution, but I can't build them on my system, and I don't have CI minutes to do it." So once you join that group or are added to the group, you can take advantage of the CI runners that GitLab has.
 
 **Autumn Nash:** It seems like GitLab is really good at listening to their customers, and I think that is like an underrated skill, observability and being able to listen... Because so many companies will make huge acquisitions and spend all this money to acquire software, and then not listen to customers. And like, why did you spend so much money to not listen to people...? So I think that's really cool that you're not only listening to your customers, but then you're like "Hey, we realized that open source is benefiting us, so now we're gonna go and invest." Because I mean, what you're saying - you've made huge investments into making it possible for people to make good contributions, too.
 
@@ -189,7 +189,7 @@ And there are certain settings or configurations, depending on your skill, that 
 
 **Justin Garrison:** I think giving back in that open source way is also interesting. It's something that GitLab does that I don't see many companies do. Or I don't know another company that has done it as like the handbook is open source. The GitLab company handbook, including what people are paid; there's pay ranges, and everything. It's handbook.gitlab.com, and you can just go there and see all of the things you normally would only see if you work at a company. And it had a lot of interesting guides for -- I remember there was like a DevRel section of the handbook, which was like "Here's how we do developer relations."
 
-\[00:36:03.05\] And when I was working as an engineer, I'm like "What does that look like?" And they're like "Oh, we just open-source all of it, and we tell everyone like "This is what we're going to do. This is how we measure, this is what we're trying to do. And here's our goals", and it's all just part of that open source handbook, is being out there. And I feel like having the code open source is one thing. Having the how you do business is completely separate. It's like, that's a different level of being open and visible for other people to see.
+\[36:03\] And when I was working as an engineer, I'm like "What does that look like?" And they're like "Oh, we just open source all of it, and we tell everyone like "This is what we're going to do. This is how we measure, this is what we're trying to do. And here's our goals", and it's all just part of that open source handbook, is being out there. And I feel like having the code open source is one thing. Having the how you do business is completely separate. It's like, that's a different level of being open and visible for other people to see.
 
 **Autumn Nash:** I think that's kind of awesome though, because let's say I'm going to start my own startup, or just something, right? And I have no idea where to start. Somebody can go and look and maybe take some tenets of GitLab. Because think about it, how many times have we seen a company copy other people's tenets? But I think it's more than that. Where we are going economy-wise, and in tech, so many companies that used to fund nonprofit and open source are no longer funding, so it's going to cause like a major downturn when it comes to open source. But 70% of open source is infrastructure, or of infrastructure is open source. So seeing companies like GitLab that are good stewards of open source is going to be so influential moving forward. People that know how to get people to contribute, and to do it the right way, and to not just take from people, to really invest in that community, and to be good at community is going to be probably the only way that we keep open source moving forward.
 
@@ -203,7 +203,7 @@ When I was joining GitLab, one of the things I did to prepare for the interview 
 
 **Autumn Nash:** I also think that's cool to create a culture of documenting things. Documentation and writing things down is so underrated... Because at some point you forget what you didn't know when you started. So when you're first learning something, write it down.
 
-**Justin Garrison:** \[00:40:25.27\] Writing things down is different than making things accessible. Because at my first job I had a binder; that was the handbook. A physical binder, that if I had to go look up something I had it at my desk, and I'd pull it down, and I'd look through it, and I'm like "Okay, where's this thing?" And having something that is updatable by everyone at the company... Like, this is a Git repo; you know how to write some Markdown and add to it, or change things if something's happening, but then also being able to search through it... Those are important things. Because a lot of companies, that's like the HR vault, of like "Oh, you've gotta go talk to someone at HR if you want to know that specific policy." But then having a lot of GitLab available and open, not only internally at the company, but just like available online, is fascinated as a company culture.
+**Justin Garrison:** \[40:25\] Writing things down is different than making things accessible. Because at my first job I had a binder; that was the handbook. A physical binder, that if I had to go look up something I had it at my desk, and I'd pull it down, and I'd look through it, and I'm like "Okay, where's this thing?" And having something that is updatable by everyone at the company... Like, this is a Git repo; you know how to write some Markdown and add to it, or change things if something's happening, but then also being able to search through it... Those are important things. Because a lot of companies, that's like the HR vault, of like "Oh, you've gotta go talk to someone at HR if you want to know that specific policy." But then having a lot of GitLab available and open, not only internally at the company, but just like available online, is fascinated as a company culture.
 
 **Autumn Nash:** Not just that, but having one source of truth that is easily accessible, that you can add to will stop it from getting outdated. And we all know that documentation and different policies - people don't understand them, or they don't update them, so they become useless.
 
@@ -223,7 +223,7 @@ The main ideas is it must start with a merge request, and then collaborate withi
 
 **Abubakar Siddiq Ango:** Yeah, thank you very much.
 
-**Break**: \[00:43:14.26\]
+**Break**: \[43:14\]
 
 **Justin Garrison:** Thanks again, Abubakar, for coming on and talking to us about GitLab. If anyone is out there running GitLab in your environment - I used to be semi-responsible for that, and their Helm charts were really cool. It's one of the really neat things that when I first started out with Kubernetes, and also being responsive for GitLab, seeing how you could run like a complex application was really cool. So go check those out. I'll put a link to the Helm charts in the show notes... Because it has all those kinds of tunable features, which I thought was really cool.
 
@@ -260,7 +260,7 @@ The main ideas is it must start with a merge request, and then collaborate withi
 
 **Autumn Nash:** Okay, but how do you go for "Hey, here's my broken arm from a mosh pit, and here's my man page resume." It's just...
 
-**Justin Garrison:** \[00:52:02.12\] Okay, so as an example for curl, do you know what the -k in curl does?
+**Justin Garrison:** \[52:02\] Okay, so as an example for curl, do you know what the -k in curl does?
 
 **Autumn Nash:** I don't know, I look up half of the stuff unless I use it all the time.
 
@@ -326,7 +326,7 @@ The main ideas is it must start with a merge request, and then collaborate withi
 
 **Justin Garrison:** So it connects to both IPv4 and IPv6 at the same time. Basically, whichever one replies first, it's like "Okay, I'll use that one." Happy eyeballs. -H in curl? Remember that one? Actually, I occasionally do use that one.
 
-**Autumn Nash:** \[00:55:40.20\] Which one's that? I'm trying to find a cool wget. I feel like in wget they're all very straightforward.
+**Autumn Nash:** \[55:40\] Which one's that? I'm trying to find a cool wget. I feel like in wget they're all very straightforward.
 
 **Justin Garrison:** You've got your header information, sso if you want to send username/password in header, or x connect as, or host, or whatever... Host is probably the one -- I always use it... It's like oh, I have multiple websites on the same server, and I need to...
 
