@@ -8,7 +8,7 @@ Let's get right into the news.
 
 **Jerod Santo:**
 
-[The Swiss government goes open source](https://www.zdnet.com/article/switzerland-now-requires-all-government-software-to-be-open-source)
+[The Swiss government goes open source](https://www.zdnet.com/article/switzerland-now-requires-all-government-software-to-be-open source)
 
 In a move that began way back in 2011 (!), Switzerland recently passed the "Federal Act on the Use of Electronic Means for the Performance of Official Duties" ([EMBAG](https://datenrecht.ch/en/bundesgesetz-ueber-den-einsatz-elektronischer-mittel-zur-erfuellung-von-behoerdenaufgaben-embag-in-schlussabstimmung-angenommen/) for short).
 
@@ -32,7 +32,7 @@ Let me also introduce a new experience that lets people make an informed choice 
 
 **Jerod Santo:**
 
-["Open source" AI is the path forward](https://about.fb.com/news/2024/07/open-source-ai-is-the-path-forward/)
+["Open source" AI is the path forward](https://about.fb.com/news/2024/07/open source-ai-is-the-path-forward/)
 
 _(Scare quotes added by me, because Zuck uses the term "open source" sans [OSI](https://opensource.org/osd) approval)_
 
@@ -46,7 +46,7 @@ In the linked post, He outlines why he believes "open source" is the best develo
 
 **Jerod Santo:**
 
-[Anyone can access deleted and private repository data on GitHub](https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-github)
+[Anyone can access deleted and private repository data on GitHub](https://trufflesecurity.com/blog/anyone-can-access-deleted-and-private-repo-data-GitHub)
 
 This sounds... _not ideal_
 
