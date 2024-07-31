@@ -36,7 +36,7 @@
 
 **Daniel Whitenack:** Well, Chris, you sent me a very interesting-looking, hype-filled chart the other day... Do you want to go into what that was?
 
-**Chris Benson:** \[00:05:52.14\] I will. And I'm actually blaming it all on Demetrios... He was making fun of the Gartner Hype Cycle. And gosh, I hope they're not a sponsor, because we're making fun of them today. And he was going through that, and it was funny... And I said "Dude, we need to do an episode where we all analyze the Gartner Hype Cycle in 2024 for artificial intelligence, and we break it down. And we're gonna assess it and decide what we think of those things." And we're not doing this in our normal, extremely serious manner. We are doing this in the fun way. And lest you don't know Demetrios out there, which I can't imagine, because he's a regular guest on the show here, he is, in addition to being a brilliant guy in this field, he's also the funniest man in all of artificial intelligence. So this is going to be good, and we're going to dive into the Gartner Hype Cycle today, and break it down for you. We're going to start with the real one, and then we're going to maybe make some adjustments to it.
+**Chris Benson:** \[05:52\] I will. And I'm actually blaming it all on Demetrios... He was making fun of the Gartner Hype Cycle. And gosh, I hope they're not a sponsor, because we're making fun of them today. And he was going through that, and it was funny... And I said "Dude, we need to do an episode where we all analyze the Gartner Hype Cycle in 2024 for artificial intelligence, and we break it down. And we're gonna assess it and decide what we think of those things." And we're not doing this in our normal, extremely serious manner. We are doing this in the fun way. And lest you don't know Demetrios out there, which I can't imagine, because he's a regular guest on the show here, he is, in addition to being a brilliant guy in this field, he's also the funniest man in all of artificial intelligence. So this is going to be good, and we're going to dive into the Gartner Hype Cycle today, and break it down for you. We're going to start with the real one, and then we're going to maybe make some adjustments to it.
 
 **Daniel Whitenack:** You know, Chris, you say making fun, but - I mean, Gartner seems to have fulfilled their mission. I mean, we're talking about the hype cycle, we're going into it... So maybe their mission was fulfilled, you know?
 
@@ -70,7 +70,7 @@
 
 **Chris Benson:** I think your point on. If there's anyone making a killer amount of money on this, it's Microsoft, it's Amazon, it's Google... Uh-huh.
 
-**Daniel Whitenack:** \[00:09:55.03\] Part of my struggle here is some of these terms -- like, I could interpret them one way or another way. SageMaker, for example, which - for those that don't know, it's kind of like a Model Deployment service within AWS, and there's various convenience around it, and that sort of thing. Like, that's been around for quite a while now; a very long time, even before the kind of hyped Gen AI stuff.
+**Daniel Whitenack:** \[09:55\] Part of my struggle here is some of these terms -- like, I could interpret them one way or another way. SageMaker, for example, which - for those that don't know, it's kind of like a Model Deployment service within AWS, and there's various convenience around it, and that sort of thing. Like, that's been around for quite a while now; a very long time, even before the kind of hyped Gen AI stuff.
 
 **Chris Benson:** Long before it, yeah.
 
@@ -120,7 +120,7 @@ Maybe to some degree certain RAG services would fit into that. We were talking t
 
 **Demetrios Brinkmann:** Yeah. Well, also, the big question is, everybody wants to - and this kind of ties back into the hype cycle. Everybody wants to be doing RAG, and wants to have all these great use cases with their RAG... Like you were talking about with Pinecone, they make it really easy for you to do your RAG. But then at the end of the day, is that a viable business? Or is that actually super-useful? As opposed to somebody's got this support software that they can come in and really cut down the burden for your customer success engineers, or your customer success people. And that is fascinating to me, because it's a booming business right now. The RAG business - maybe, yeah, that's great, and maybe there's some interest there. Is it a booming business? I don't know. I haven't seen numbers. But I think the really fascinating part to me is if you try to juxtapose that with a fraud detection as a service type of product. I just haven't seen that anywhere, because I think a) you're not able to really like give away everything as freely, and b) what works for one fraud detection use case doesn't necessarily... It's not like you can productize that and then go out and sell it as a service, in my opinion. So this is a little bit of a tangent, I know... But that all that to say is we're at peak hype for AI engineers.
 
-**Daniel Whitenack:** \[00:18:08.21\] Peak hype, yes.
+**Daniel Whitenack:** \[18:08\] Peak hype, yes.
 
 **Chris Benson:** So I'm going to draw us back over to the hype cycle just for a moment, and I'm going to something boring for a moment. I'm going to read off the things, where they are, for our listeners... Because the three of us have the benefit, obviously, of seeing the graph in front of us, and for our listeners who aren't. So I'm gonna take a moment and then we can go back and start hitting them.
 
@@ -168,7 +168,7 @@ Very quickly, heading up the curve initially, the innovation trigger. We have au
 
 **Daniel Whitenack:** I think for me -- like, some of these things are themselves correlated, and yet in different places on the chart. So if you look at generative AI foundation models, Edge AI, AI engineering, prompt engineering, probably some others on there - all of those sort of fit into the same-ish bucket, and yet are on different sides of the hump. So yeah, I don't know, some of these it's also a matter of where do you draw the boundaries? Where's the boundary between generative AI and foundation models? Or generative AI and prompt engineering.
 
-**Chris Benson:** \[00:22:17.26\] I'll give you one... At the very bottom on the innovation trigger is quantum AI. Okay, so that's not going to happen anytime soon. And I will note that they have it on the greater than 10 years, but I would suggest it's probably greater than greater than 10 years.
+**Chris Benson:** \[22:17\] I'll give you one... At the very bottom on the innovation trigger is quantum AI. Okay, so that's not going to happen anytime soon. And I will note that they have it on the greater than 10 years, but I would suggest it's probably greater than greater than 10 years.
 
 **Daniel Whitenack:** But isn't that -- I mean, one of the things that's interesting about this whole cycle is there's that one... Maybe you all can tell me or I can look it up. There's one law, it's like a general law that people talk about where you underestimate short-term innovation and overestimate long-term innovation, or something like that.
 
@@ -214,7 +214,7 @@ Very quickly, heading up the curve initially, the innovation trigger. We have au
 
 The one that I would say is probably in the wrong spot is synthetic data. It feels like that should be still going up on the hype train, because we're just discovering what we can do with synthetic data. And every week I feel like we unlock new use cases. And synthetic data is just -- it's the gift that keeps on giving in my eyes.
 
-**Chris Benson:** \[00:26:15.05\] I think that's the difference in you who actually does it, and somebody at Gartner, who was tasked to go put the chart together and doesn't actually do the thing in real life. I've terribly offended somebody out there.
+**Chris Benson:** \[26:15\] I think that's the difference in you who actually does it, and somebody at Gartner, who was tasked to go put the chart together and doesn't actually do the thing in real life. I've terribly offended somebody out there.
 
 **Demetrios Brinkmann:** Well, we're glad that it's out there. Let's just say that we are very happy that this exists, so we can have a whole episode dedicated to breaking it down.
 
@@ -272,7 +272,7 @@ So I've been hearing people call it an AI Gateway. Others I think have called it
 
 **Demetrios Brinkmann:** Yeah, what is it...?
 
-**Daniel Whitenack:** \[00:30:00.01\] The one that really stands out to me, unless I'm just like -- there's a lot of words on this page, so maybe I'm totally missing it somewhere... But where is multimodal AI?
+**Daniel Whitenack:** \[30:00\] The one that really stands out to me, unless I'm just like -- there's a lot of words on this page, so maybe I'm totally missing it somewhere... But where is multimodal AI?
 
 **Chris Benson:** Oh, good catch there.
 
@@ -330,7 +330,7 @@ So I've been hearing people call it an AI Gateway. Others I think have called it
 
 **Chris Benson:** It should be there, I agree.
 
-**Break**: \[00:34:08.17\]
+**Break**: \[34:08\]
 
 **Daniel Whitenack:** Maybe this fits into kind of the agentic stuff that is represented in certain ways on there, but this whole idea of tool function calling/text-to-SQL, interacting with structured databases, APIs, whatever that is... I don't know maybe the general name for that other than tool and function calling, or text-to-SQL, but certainly, that's like sliding into a zone where people are definitely doing some of those things in production, and there's products released around it. So like the Hex Magic stuff and all that that other...
 
@@ -392,7 +392,7 @@ So I'm just curious, two-second deviation... We've talked about fine-tuning, we'
 
 **Daniel Whitenack:** Yeah, I think you mentioned that you might have had some of these, Demetrios... What are AI hyped items that are your own, that you've come up with a name for, that other people will have to interpret to figure out their definition?
 
-**Demetrios Brinkmann:** \[00:40:16.13\] \[laughs\] Alright... DO you want to guess on this one?
+**Demetrios Brinkmann:** \[40:16\] \[laughs\] Alright... DO you want to guess on this one?
 
 **Daniel Whitenack:** Yes.
 
@@ -458,7 +458,7 @@ So I'm just curious, two-second deviation... We've talked about fine-tuning, we'
 
 **Chris Benson:** Yup.
 
-**Daniel Whitenack:** \[00:44:07.28\] So my next one either AI nepotism, or AI anti-nepotism.
+**Daniel Whitenack:** \[44:07\] So my next one either AI nepotism, or AI anti-nepotism.
 
 **Demetrios Brinkmann:** Oh.
 
@@ -546,7 +546,7 @@ But are you multimodal multi-model?
 
 **Chris Benson:** True.
 
-**Demetrios Brinkmann:** \[00:47:46.10\] ...and how we need to build out all these data centers, and they need to be sustainable etc, etc. So yeah, sustainable AI for sure has some room to grow. Back to Broccoli AI... A.k.a. Healthy AI. This is AI -- and this is very much on the downslope, again. It has passed its peak. People are a little disillusioned with it, because it's AI that doesn't taste good for the organization, but it's needed. And so you can imagine the cybersecurity folks - they love this kind of AI.
+**Demetrios Brinkmann:** \[47:46\] ...and how we need to build out all these data centers, and they need to be sustainable etc, etc. So yeah, sustainable AI for sure has some room to grow. Back to Broccoli AI... A.k.a. Healthy AI. This is AI -- and this is very much on the downslope, again. It has passed its peak. People are a little disillusioned with it, because it's AI that doesn't taste good for the organization, but it's needed. And so you can imagine the cybersecurity folks - they love this kind of AI.
 
 **Daniel Whitenack:** Is this like a linear regression model, or what would you consider good for an organization? I think you used the word good.
 
@@ -582,7 +582,7 @@ But are you multimodal multi-model?
 
 **Demetrios Brinkmann:** I wasn't creeped out until you said that. But... \[laughter\]
 
-**Chris Benson:** \[00:50:47.27\] I had this image of Mr. Rogers' Neighborhood. Instead of Mr. Rogers, it's the AI. "Hi, girls and boys..."
+**Chris Benson:** \[50:47\] I had this image of Mr. Rogers' Neighborhood. Instead of Mr. Rogers, it's the AI. "Hi, girls and boys..."
 
 **Daniel Whitenack:** Maybe they can help you clean up a few things with their RAGs?
 
