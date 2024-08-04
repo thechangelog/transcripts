@@ -62,7 +62,7 @@
 
 **Jerod Santo:** \[laughs\] It's a bad way to find out about it. But before that - brilliant.
 
-**Robert Ross:** \[00:08:01.17\] Right. It's like, you had a bunch of stuff on your walls, and then eventually it falls out of the wall and you're like "Oh, that's been rotting behind there for a long time." I think that change is always the biggest cause of incidents. I mean, we see it all the time. Google even has a stat that 80% of their incidents are caused by a change. So it's not exactly shocking that a change caused this. I think what's shocking to people is the scale of the incident.
+**Robert Ross:** \[08:01\] Right. It's like, you had a bunch of stuff on your walls, and then eventually it falls out of the wall and you're like "Oh, that's been rotting behind there for a long time." I think that change is always the biggest cause of incidents. I mean, we see it all the time. Google even has a stat that 80% of their incidents are caused by a change. So it's not exactly shocking that a change caused this. I think what's shocking to people is the scale of the incident.
 
 You had AC/DC Thunderstruck playing in your head... I kind of had Jeff Goldbloom in my head, where he's like "Flap your wings and like a hurricane happens across the ocean..." That's kind of what it felt like for me...
 
@@ -90,7 +90,7 @@ You had AC/DC Thunderstruck playing in your head... I kind of had Jeff Goldbloom
 
 **Robert Ross:** And not surprising. He went on air pretty quickly. He was like "This is our fault. We're fixing it." And I have to commend the confidence to just go and own it that quickly... But I have questions. I think everyone does. Even my aunts and uncles in their late 60s who don't quite understand this type of world like we all do were asking me questions. I mean, I had -- everyone felt this, I think, in some way, shape or form.
 
-**Adam Stacoviak:** \[00:12:12.08\] Well, Windows only... There's a lot of details. So I caught up with Dave Plummer. That's literally his name. He is on YouTube, he runs a channel called Dave's garage. He's an ex -- from my understanding, ex Microsoft operating system developer, and so he knows a lot about this stuff. And I will link it in the show notes, but I mean, he was my source of literally what really happened on the inside.
+**Adam Stacoviak:** \[12:12\] Well, Windows only... There's a lot of details. So I caught up with Dave Plummer. That's literally his name. He is on YouTube, he runs a channel called Dave's garage. He's an ex -- from my understanding, ex Microsoft operating system developer, and so he knows a lot about this stuff. And I will link it in the show notes, but I mean, he was my source of literally what really happened on the inside.
 
 There's also the Code Report from - I think it's Fireside, or Fire-something... Fireship, on YouTube. They also summarized some things that I pay attention to as well, as part of researching this topic. So there's some theories that this is just simply bad quality code, this could be sabotage, or this could be planned. Now, those are obviously theories, not truth at this point... But I think it's important to look at -- you know, Robert, you said change is what affects things and what causes incidents. And we're not sure when exactly this code got pushed, but what happened was -- or at least from my understanding, and thanks to Dave for explaining this, is that this software, Falcon, as you all run as well, it runs in what they call kernel mode. And stop me if you've heard this one before, but there's two lands to live in, basically, in the operating world. You've got user mode, and you've got kernel mode. And kernel mode has higher priority. And when an application crashes in kernel mode, it crashes the system, and it does it by design, because it's protecting the system. It's better to crash than to actually boot up. Something else worse could happen if that was the case.
 
@@ -100,7 +100,7 @@ But the way they bypassed this was because, in Dave's words, they wanted to be a
 
 **Robert Ross:** Yeah, I think it's a game of trade-offs, and that's a hard thing to feel now. You know, flights got canceled, hospital surgeries got canceled... It's a big deal. But at the end of the day, it's easy to say "This was the worst thing that could happen", instead of the sum of the parts of all the things that were maybe prevented in the past. And we just have no idea -- I don't even think that CrowdStrike would probably know, but how many things were via CrowdStrike or another locking system, security system running, have prevented mass credit card theft, or identity theft, or other things going on. It's hard to say. No one's gonna buy that now though, because no one's gonna look at the trade-off right now. They're gonna be like "My flight got canceled. I don't care what my trade-offs were in the past right now."
 
-\[00:16:11.28\] The other thing that I think that is gonna be - we're just going to have to see if CrowdStrike posts a public retrospective. But this code could have been -- this code that is the crime scene of this codebase, that could be in there (we don't know) for 10 years. We have no idea.
+\[16:11\] The other thing that I think that is gonna be - we're just going to have to see if CrowdStrike posts a public retrospective. But this code could have been -- this code that is the crime scene of this codebase, that could be in there (we don't know) for 10 years. We have no idea.
 
 **Adam Stacoviak:** True.
 
@@ -110,7 +110,7 @@ But the way they bypassed this was because, in Dave's words, they wanted to be a
 
 **Robert Ross:** I even think of -- for every person listening to this, think about the mechanics of what is going on as you're listening to this podcast. If you're using headphones right now, your headphones have software in them. That is going to a Bluetooth chip that has software on it. That's part of an operating system, that's translating that to go over the air to a cell phone tower, that's running software, that's going to a network switch that Cisco probably built. That's running software. And it just goes more... And then it eventually hits an Apple Music server, or some SSpotify server that goes through a CDN, that's software... It's just software all the way down. I mean, it is thousands of touch points of software, for you to hear this stupid analogy that I'm making. And you had to go through that grueling exercise through that much software. And that's just the world now. That's the way it is. It's not going back. We can't unwind this anytime soon.
 
-**Jerod Santo:** \[00:20:12.05\] Right. That's why I said, sometimes you just have to clean up the mess, and then obviously do a retrospective. And one thing we can do is make sure that particular thing doesn't happen ever again. But that's just one of the things. That's what regression tests are for. Like "I'm not going to let THIS particular bug by me and my billion customers again." And I'm sure CrowdStrike, after they go through the PR process -- I mean, not pull requests, but like public relations... Because I mean, their stock was down 23%, I think they have... I mean, they are massively hurt by this. Their reputation is just in the mud.
+**Jerod Santo:** \[20:12\] Right. That's why I said, sometimes you just have to clean up the mess, and then obviously do a retrospective. And one thing we can do is make sure that particular thing doesn't happen ever again. But that's just one of the things. That's what regression tests are for. Like "I'm not going to let THIS particular bug by me and my billion customers again." And I'm sure CrowdStrike, after they go through the PR process -- I mean, not pull requests, but like public relations... Because I mean, their stock was down 23%, I think they have... I mean, they are massively hurt by this. Their reputation is just in the mud.
 
 So they're gonna go through all that, and maybe there'll be people fired... Who knows what's going to happen. But then hopefully they sit down and say "Okay, let's do our analysis, let's do our post mortem, let's figure out how we can make this particular aspect of our business not hurt people again." But that's just one thing. That goes back to the conversation of information security that we were having with Jacob DePriest from GitHub's security team... The challenge of the defender is you have to defend the entire system, and the attacker only has to find one hole. Bugs work the same way, only it's just accidental, and not malicious, you know... And in that conversation I said "I feel like, to a certain extent, resistance is futile." I mean, the defender does all they can. But you're still going to have the attacker succeed sometimes. And it seems like with software systems, the bugs are going to be there. I mean, we haven't found a way of eliminating all bugs. And so how do we build around, fortify, defense in depth, react, respond...? I don't know, I think the -- in one case, this is an advertisement for heterogeneous systems... What's the word? Not a monoculture. Just like in biological systems, right? You want to have --
 
@@ -132,7 +132,7 @@ So I think one takeaway we can have is "Hey, I'm really happy I'm on macOS today
 
 **Robert Ross:** I've heard that the last 15 years of my life, and it has not come to fruition...
 
-**Adam Stacoviak:** \[00:23:32.20\] Here's the throughline to all this though... The throughline is massively deployed software. That's it. Or massively dependent-upon software, in a different scenario, like a dependency. It's that this was everywhere, right? It's that this was everywhere, and then I think very specifically to this scenario there are some layers that may have been not thought so well through. Like literally, if Dave from Dave's Garage, Dave Plummer, is accurate in his description of how they bypassed the WHQL - which is a hardware labs quality system that is there to sign these drivers to run in kernel mode, because it's so... Like, what runs in kernel mode is so limited because of its power. And here they are, able to run there, which is "Okay, fine. If you have to", and Windows and that team blesses you and they put you in the WHQL system to have this signed certificate say "Okay, your driver is blessed. We've tested it to the absolute best of our knowledge. We've put it through all the paces", but then to be able to have a separate folder that you can deploy to at scale, and the driver essentially is an engine that runs code that has not been signed, or not gone through these paces. That alone there is like -- I'd imagine, Robert, as you look at what you do, and how you help folks look at incidents, it's like "When we look at what we've done here, we have to examine the system we've built." Maybe it's anti the Windows way to have this sidecar, this folder of definitions that the driver enumerates over and sucks in, and the driver essentially is an engine that runs unsigned code... That could be true if Dave's accurate. And if that is true, wow. How did that happen? Is that, in quotes, legal? Not so much in the true legal sense, but by the relationship formed between CrowdStrike, the Falcon software, and the Windows team that has WHQL, to allow this to live in kernel land, and not userland?
+**Adam Stacoviak:** \[23:32\] Here's the throughline to all this though... The throughline is massively deployed software. That's it. Or massively dependent-upon software, in a different scenario, like a dependency. It's that this was everywhere, right? It's that this was everywhere, and then I think very specifically to this scenario there are some layers that may have been not thought so well through. Like literally, if Dave from Dave's Garage, Dave Plummer, is accurate in his description of how they bypassed the WHQL - which is a hardware labs quality system that is there to sign these drivers to run in kernel mode, because it's so... Like, what runs in kernel mode is so limited because of its power. And here they are, able to run there, which is "Okay, fine. If you have to", and Windows and that team blesses you and they put you in the WHQL system to have this signed certificate say "Okay, your driver is blessed. We've tested it to the absolute best of our knowledge. We've put it through all the paces", but then to be able to have a separate folder that you can deploy to at scale, and the driver essentially is an engine that runs code that has not been signed, or not gone through these paces. That alone there is like -- I'd imagine, Robert, as you look at what you do, and how you help folks look at incidents, it's like "When we look at what we've done here, we have to examine the system we've built." Maybe it's anti the Windows way to have this sidecar, this folder of definitions that the driver enumerates over and sucks in, and the driver essentially is an engine that runs unsigned code... That could be true if Dave's accurate. And if that is true, wow. How did that happen? Is that, in quotes, legal? Not so much in the true legal sense, but by the relationship formed between CrowdStrike, the Falcon software, and the Windows team that has WHQL, to allow this to live in kernel land, and not userland?
 
 **Robert Ross:** Yeah.
 
@@ -142,7 +142,7 @@ So I think one takeaway we can have is "Hey, I'm really happy I'm on macOS today
 
 The same thing has happened -- I mean, we have sprinklers in our buildings because of fires. We didn't put sprinklers there as a preventative measure. We had to have a lot of fires before we said "Maybe we should have sprinklers in buildings." Or "Maybe we should put concrete as the center of the building, so it doesn't fall when it becomes structurally unsound." And because of the hundreds of years that we've had of retrospectives, and all of these learnings from these types of things, we have safe buildings now.
 
-\[00:28:03.02\] Same things with cars. You were saying the kernel panic is a preventative measure... Cars have the same thing. They have crinkle zones, to protect the driver. It's designed to collapse, in certain ways. And we're getting to that point with software more and more. I think the challenge we have for software is it's much easier to do new things with software than it is to do new things with cars.
+\[28:03\] Same things with cars. You were saying the kernel panic is a preventative measure... Cars have the same thing. They have crinkle zones, to protect the driver. It's designed to collapse, in certain ways. And we're getting to that point with software more and more. I think the challenge we have for software is it's much easier to do new things with software than it is to do new things with cars.
 
 I can go write a crazy random piece of code and put it in production today. To all the FireHydrant customers, I swear I won't do that... But I could do that. And it would cost nothing. There'd be no labor, virtually. But with these other systems, it's expensive to do new things like that. So the problem, I think, is we're kind of getting ahead of our skis now with software. It's happening more and more that we're hearing about these global outages, because the system is changing constantly, and we're introducing change at the fastest, most rapid rate that we possibly could do it. Like you were saying, it's a bit of a house of cards. This is probably just the beginning. We're probably going to have another massive outage before we really start to learn "Oh, maybe we should scale back how much we're actually changing these really complicated systems."
 
@@ -160,7 +160,7 @@ Now, we have had some motion in the direction of -- I think it was the United St
 
 **Jerod Santo:** Well, the only other answer is to predict the future.
 
-**Adam Stacoviak:** \[00:31:58.02\] Yeah... And I think that's, to some degree, what developers are trying to do. They're at least tasked with trying to solve the present problem that is futureproof, that has a version of futureproof in it. We hear it all the time, "This is futureproof code."
+**Adam Stacoviak:** \[31:58\] Yeah... And I think that's, to some degree, what developers are trying to do. They're at least tasked with trying to solve the present problem that is futureproof, that has a version of futureproof in it. We hear it all the time, "This is futureproof code."
 
 **Jerod Santo:** I've never said that about my code.
 
@@ -178,7 +178,7 @@ Now, we have had some motion in the direction of -- I think it was the United St
 
 **Jerod Santo:** Feature-free.
 
-**Break**: \[00:32:28.29\]
+**Break**: \[32:28\]
 
 **Adam Stacoviak:** I really come back to this at-scale situation. When we have the larger catastrophes, outages etc. it's because of widely-deployed code... Which is a great thing, because that code is somehow wildly useful. But then, you've got to have certain things in place that once you're maybe at that level, certain things that have to take place to instantiate change. Because like you said earlier, Robert, it's usually change, and not so much that specific change, it's that change plus something else that's the unintended consequence of those two together. And I did look up, by the way, just because I was like "What actually happens when you combine chlorine bleach with vinegar?" It produces chlorine gas, which is highly toxic. So don't do that. And the reaction is just not good at all.
 
@@ -210,7 +210,7 @@ Now, we have had some motion in the direction of -- I think it was the United St
 
 **Jerod Santo:** Yeah, my very first MacBook Pro laptop, I didn't reboot it for over a year. I just was trying to see how long it could go.
 
-**Robert Ross:** \[00:40:01.27\] Oh, did you do like "uptime" in Terminal, and...?
+**Robert Ross:** \[40:01\] Oh, did you do like "uptime" in Terminal, and...?
 
 **Jerod Santo:** Yeah, uptime... Well, I had the -- also iStat Menus will show that to you, which I've used for many years... So it's very cool. And then I'll just close it and open it. And I refused to reboot it, because I just wanted to see how long \[unintelligible 00:40:11.07\]
 
@@ -240,11 +240,11 @@ Now, we have had some motion in the direction of -- I think it was the United St
 
 **Jerod Santo:** Your company's computer guy...
 
-\[00:41:58.21\]
+\[41:58\]
 
 **Jerod Santo:** Yeah, it's a Jimmy Fallon character. It's one of his better characters. Not a huge Fallon fan myself, but this was a good one, where he was just the most obnoxious computer guy stereotype ever. And nobody wanted to go ask him for help, because he was going to just denigrate them, you know... And I think his catch line was "Move...!"
 
-\[00:42:28.28\]
+\[42:28\]
 
 *Move...! Was that so hard?*
 
@@ -274,7 +274,7 @@ Now, we have had some motion in the direction of -- I think it was the United St
 
 **Jerod Santo:** Certainly somewhere in the stack, yes.
 
-**Robert Ross:** \[00:44:22.11\] Right? I can't even think of it. I think that Twitter/X runs on Envoy, which is written in C++. So... \[laughs\]
+**Robert Ross:** \[44:22\] Right? I can't even think of it. I think that Twitter/X runs on Envoy, which is written in C++. So... \[laughs\]
 
 **Jerod Santo:** Right.
 
@@ -294,7 +294,7 @@ This happened recently... I mean, our CDN provider -- incidents are natural, so 
 
 So what we did is we actually just rerouted traffic; we just took our CDN out of the loop. And that's how we got around it. That was the only thing we could do. And I think teams are going to have to start thinking about these emergency routes more and more, especially because of this CrowdStrike outage. They're going to be like "What is our risk surface area if we use this vendor, and that vendor goes down? Are we screwed?"
 
-\[00:47:53.29\] I think a lot of companies are going to start thinking that now, just because of this one outage. It's going to be pretty present in people's minds. And the management process is going to have to change. You're going to have to create like your go bag of incident management when it's out of your control.
+\[47:53\] I think a lot of companies are going to start thinking that now, just because of this one outage. It's going to be pretty present in people's minds. And the management process is going to have to change. You're going to have to create like your go bag of incident management when it's out of your control.
 
 **Jerod Santo:** I remember doing these practices back when I was in school, which was an MIS degree with a CS minor \[unintelligible 00:48:13.08\] which is management information systems. I probably haven't said that phrase since I graduated, but... I remember them doing these practice routines - business continuity planning... I'm trying to remember the acronyms as well. Disaster recovery... You would actually write down what are all the things that could possibly go wrong - which is a fool's errand, by the way, but you'd still try... You'd do your best, right? There's the predict the future part...
 
@@ -314,7 +314,7 @@ And it made me realize "Oh, in software we just kind of fly by the seat of our p
 
 **Adam Stacoviak:** That got abused, though. I mean, I think that at the time that began at Facebook, so that was a Facebook-born ideation... And I think it was a culture because they were in an innovation state. They were not in a -- I mean, I guess they were becoming more and more widely deployed, but they were also a web service. So it wasn't like "Well, it's installed, and it's going to crash something." So I think there's scenarios -- now, obviously, it's a social network, and there's a lot of people out there that are affected by abuse, harm etc. that can happen in social media, which I fully agree to. That's just how it kind of just sucks. And so the "Move fast and break things" moniker to a lot of people is just not a good thing, obviously. But to a technologist who's trying to innovate, that's a very admirable thing... Like, "Yeah, let's move fast and break things", because what happens is the iteration cycle to learning happens faster. This cycle you described with the sprinklers. Well, it doesn't happen over decades, or regulated timeframes. It's minutes to hours to deployments; there could be hundreds in a day. And I think when you're in an innovation state like that, it is credible to pursue that kind of goal. But for everybody else to cargo-cult called that idea in places it doesn't apply is the danger zone. In places -- like, CrowdStrike should not deploy this idea of "Move fast and break things." And maybe they did move fast and break things.
 
-**Jerod Santo:** \[00:52:15.16\] Well, it's interesting in that particular context, because they are fighting adversaries, who are also moving fast in order to break things... And so this goes back to the trade-offs that Robert was discussing. I mean, I can understand the ethos that said "We need a way to deploy to these machines outside of going through the entire process with Microsoft and the kernel stuff and the signing. We need a way to get our fixes out there before they attack all of our customers. That's what they're paying us for." And so I can see that trade-off of like "Well, how can we do that? Well, let's develop a system where we're going to just sideload some rules, and we'll try to make it innocuous, and we'll have --" I'm sure there's CI/CD, and there's test suites... I mean, this is a publicly-traded company. I'm sure they have infrastructure around the code they're rolling out. I may even be giving them too much credit. I don't think I am. I would be shocked if we learn that this code went out and one person wrote it, and nobody else looked at it... I doubt that's the case.
+**Jerod Santo:** \[52:15\] Well, it's interesting in that particular context, because they are fighting adversaries, who are also moving fast in order to break things... And so this goes back to the trade-offs that Robert was discussing. I mean, I can understand the ethos that said "We need a way to deploy to these machines outside of going through the entire process with Microsoft and the kernel stuff and the signing. We need a way to get our fixes out there before they attack all of our customers. That's what they're paying us for." And so I can see that trade-off of like "Well, how can we do that? Well, let's develop a system where we're going to just sideload some rules, and we'll try to make it innocuous, and we'll have --" I'm sure there's CI/CD, and there's test suites... I mean, this is a publicly-traded company. I'm sure they have infrastructure around the code they're rolling out. I may even be giving them too much credit. I don't think I am. I would be shocked if we learn that this code went out and one person wrote it, and nobody else looked at it... I doubt that's the case.
 
 **Adam Stacoviak:** The anxiety of that code review, Jerod... A little throwback.
 
@@ -338,7 +338,7 @@ And it made me realize "Oh, in software we just kind of fly by the seat of our p
 
 **Robert Ross:** Well, what better way to get R&D budget to make that go faster than what just happened, right?
 
-**Jerod Santo:** \[00:56:11.04\] Well, there you go. That was kind of Brendan Gregg's point, at the end... And of course, I think he has a dog in the hunt. He's very much invested in eBPF - which is open source and all that, but there's businesses built around it. But he said "Hey, here's your great moment. If you are paying for computer security software, and you are a paid customer of these entities, you could push them to make this eBPF path happen faster and better, because you're their customer." So that was his call to action at the end of that post.
+**Jerod Santo:** \[56:11\] Well, there you go. That was kind of Brendan Gregg's point, at the end... And of course, I think he has a dog in the hunt. He's very much invested in eBPF - which is open source and all that, but there's businesses built around it. But he said "Hey, here's your great moment. If you are paying for computer security software, and you are a paid customer of these entities, you could push them to make this eBPF path happen faster and better, because you're their customer." So that was his call to action at the end of that post.
 
 **Adam Stacoviak:** And what would happen is that is at the kernel level -- do you know much about this to describe what would happen in this hypothesized world existed, this future development, how it would work to prevent this kernel from crashing the system, or booting without it, or being more safer?
 
@@ -478,7 +478,7 @@ I think that's the area where I'm really confident and looking forward to more a
 
 **Jerod Santo:** Yeah.
 
-**Robert Ross:** And that's going to be a tough moment. We're going to have to kind of start thinking about that. I'm starting to hear more and more about people don't want to use third party libraries for common things, just because of the risk. For example, attacking a JavaScript Npm package that's widely used, that does a pretty simple thing. Candidly, it's less risky to just do it yourself sometimes. And that's a calculus that companies are going to have to start thinking about.
+**Robert Ross:** And that's going to be a tough moment. We're going to have to kind of start thinking about that. I'm starting to hear more and more about people don't want to use third party libraries for common things, just because of the risk. For example, attacking a JavaScript npm package that's widely used, that does a pretty simple thing. Candidly, it's less risky to just do it yourself sometimes. And that's a calculus that companies are going to have to start thinking about.
 
 **Jerod Santo:** Yes. I mean, I think every developer should make that calculation every time they're going to pull in a dependency. And I'm not saying don't pull the dependency in, but I think you do have to think through that, and I think we're learning that, and hopefully our collective immune system will react.
 
@@ -536,19 +536,19 @@ I do think that these state actors being outed, every once in a while at least, 
 
 **Adam Stacoviak:** Yeah.
 
-**Robert Ross:** They just deleted it off of Npm package registry, and then chaos ensued.
+**Robert Ross:** They just deleted it off of npm package registry, and then chaos ensued.
 
-**Jerod Santo:** Yeah. I think Leftpad might have been the one where they had another package called Kik, or Sidekik, and another company -- a company, not another company. This might not be Leftpad either. But this definitely happened. There was a company, a startup called Kik, and there was a package called Kik, I think owned by the Leftpad owner, if it's coming back to me. And the Kik company contacted Npm and wanted the name, but didn't have the package name. And I think Npm granted them access to the Kik package name, basically kicking it off the Leftpad owner, and then they got mad and just pulled Leftpad and all their stuff. I think they pulled all their stuff. I'm pretty sure that's Leftpad. It may be a different one, because there's been so many at this point... But that definitely happened.
+**Jerod Santo:** Yeah. I think Leftpad might have been the one where they had another package called Kik, or Sidekik, and another company -- a company, not another company. This might not be Leftpad either. But this definitely happened. There was a company, a startup called Kik, and there was a package called Kik, I think owned by the Leftpad owner, if it's coming back to me. And the Kik company contacted npm and wanted the name, but didn't have the package name. And I think npm granted them access to the Kik package name, basically kicking it off the Leftpad owner, and then they got mad and just pulled Leftpad and all their stuff. I think they pulled all their stuff. I'm pretty sure that's Leftpad. It may be a different one, because there's been so many at this point... But that definitely happened.
 
 **Robert Ross:** There's a Wikipedia page for it...
 
 **Jerod Santo:** Is there?
 
-**Robert Ross:** ..."Npm Leftpad incident", that I've just found. And yeah, you're right on the money with what you've just said. But what's kind of crazy about that? And it kind of goes back to what I was saying about own your software a little bit more... Leftpad was not a thing that needed to go out over a network, and download a package, and pull it down. Any engineer should be able to write what Leftpad did.
+**Robert Ross:** ..."npm Leftpad incident", that I've just found. And yeah, you're right on the money with what you've just said. But what's kind of crazy about that? And it kind of goes back to what I was saying about own your software a little bit more... Leftpad was not a thing that needed to go out over a network, and download a package, and pull it down. Any engineer should be able to write what Leftpad did.
 
 **Jerod Santo:** Absolutely. Or copy-paste the function.
 
-**Robert Ross:** Or that, yeah. Because I mean, you can use somebody else's code with a little copy-paste, and remove that dependency. Not because you can't trust the author, but because we cannot trust the network. That's the problem with Npm. We can trust the authors in most cases, but we cannot trust the network into the future. You can maybe trust this today, but you cannot trust the network tomorrow. And so copy-paste that sucker. Vendor it. I mean, that's what we used to call it in the real world, vendor it. Which is to pull it into your repo, check it in, and leave it there.
+**Robert Ross:** Or that, yeah. Because I mean, you can use somebody else's code with a little copy-paste, and remove that dependency. Not because you can't trust the author, but because we cannot trust the network. That's the problem with npm. We can trust the authors in most cases, but we cannot trust the network into the future. You can maybe trust this today, but you cannot trust the network tomorrow. And so copy-paste that sucker. Vendor it. I mean, that's what we used to call it in the real world, vendor it. Which is to pull it into your repo, check it in, and leave it there.
 
 **Robert Ross:** I remember doing that. Did you see that one - it was a couple of weeks ago, that a domain expired, and it was hosting a JavaScript package...
 
