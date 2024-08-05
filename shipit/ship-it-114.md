@@ -64,7 +64,7 @@
 
 **Justin Garrison:** Yeah. But I've finally just finished... I literally edited a video and posted it on my YouTube last week for a video I recorded over two years ago.
 
-**Autumn Nash:** \[00:07:56.24\] Dang, Justin. I thought I was behind.
+**Autumn Nash:** \[07:56\] Dang, Justin. I thought I was behind.
 
 **Justin Garrison:** No, it actually aligns with this podcast as well. I have a hard drive video on my YouTube channel that I recorded from 2011, 2012, that I posted last year. I did it as like -- I wanted to do this when I worked for a website called HowToGeek.com. I was one of their editors and we wanted to do video, and I'm like "Hey, I have these ideas --"
 
@@ -120,7 +120,7 @@
 
 **Justin Garrison:** Yeah. So let's go ahead and jump over to that interview with Michael, and then we will talk to you all after.
 
-**Break**: \[00:12:39.20\]
+**Break**: \[12:39\]
 
 **Justin Garrison:** Alright, so thank you so much, Michael, for coming on the show today and talking to us all about -- this is another retro episode, and I'm excited for it, because you were running software and infrastructure a while ago, right? We were talking -- we actually met for the first time at Scale, right?
 
@@ -150,7 +150,7 @@ You could literally open a door and walk into one of these computers, that ran i
 
 **Michael Gat:** Well, the contrast I would come up with is the mainframe was designed from the start to be high availability, multi-tenant, designed to do basic business functions - business or scientific functions - which as I said, is crunching numbers. Everything else kind of fell by the wayside. When these things started, you were feeding punch cards into the machines as your storage, literally; storage on cardboard for computers. I don't think we're going to go back to that. Although tape is making a huge comeback...
 
-**Justin Garrison:** \[00:16:21.14\] Tape is dense, right? Tape can store --
+**Justin Garrison:** \[16:21\] Tape is dense, right? Tape can store --
 
 **Michael Gat:** Well, the thing is tape is currently - because we haven't done anything with it for so long, it's not dense. So we can increase the density. What tape is, is it's huge. You know, a disk drive... I had one over here a few minutes ago.
 
@@ -184,7 +184,7 @@ And today we've gotten to the point where we now have clusters, and tools like K
 
 **Michael Gat:** And that is exactly what you did if you bought an IBM mainframe back in the day. IBM owned everything, right down to the if there is a failure on a piece of the mainframe - and you could have localized failures. You can hotswap CPUs on a mainframe. \[laughs\]
 
-**Autumn Nash:** \[00:20:10.22\] I think that's kind of where it's going with cloud too, because people were like "Oh, we're going to run our own data centers." And they're like "No, the cloud's better." Now people are owning infrastructure, but it's being managed in someone else's data -- not infrastructure, but they're running their own servers and racks, but it's managed in someone else's data center... Which is weird to me, because then it's like, I feel like all the good things about the cloud is that you don't have to wait to like get all the equipment, and then set it up, and then it goes and gets old... And I'm like, I don't understand how that option has gotten so popular, you know? It's all these different degrees of ownership, and... I don't know, that's weird.
+**Autumn Nash:** \[20:10\] I think that's kind of where it's going with cloud too, because people were like "Oh, we're going to run our own data centers." And they're like "No, the cloud's better." Now people are owning infrastructure, but it's being managed in someone else's data -- not infrastructure, but they're running their own servers and racks, but it's managed in someone else's data center... Which is weird to me, because then it's like, I feel like all the good things about the cloud is that you don't have to wait to like get all the equipment, and then set it up, and then it goes and gets old... And I'm like, I don't understand how that option has gotten so popular, you know? It's all these different degrees of ownership, and... I don't know, that's weird.
 
 **Michael Gat:** Well, what's interesting about the way it used to work back then -- well, still does, for those who are running these beasts... It's if you have an outage, or if you have a problem, your CPU or a disk or something needs to be hotswapped, we ran our own data center, but our IBM techs had access. They had a key card that got them in. And sometimes they would just show up and tell us "Oh, we need to fix something." "You do?" "Yeah. The computer told us." So they would know before we did, because they truly did own the stack.
 
@@ -210,7 +210,7 @@ And today we've gotten to the point where we now have clusters, and tools like K
 
 **Michael Gat:** And it's not like it's a great career path, being a tech, running around hot-swapping things in a data center.
 
-**Justin Garrison:** \[00:24:09.00\] Unless you're gonna to sell that skill set, right? And that is the case -- people forget that like AWS, and Google, and Microsoft, they are the biggest on-prem users in the world, right? And they just happen to sell that on-prem to you, and they are good at running on-prem.
+**Justin Garrison:** \[24:09\] Unless you're gonna to sell that skill set, right? And that is the case -- people forget that like AWS, and Google, and Microsoft, they are the biggest on-prem users in the world, right? And they just happen to sell that on-prem to you, and they are good at running on-prem.
 
 **Michael Gat:** Yeah.
 
@@ -220,7 +220,7 @@ And today we've gotten to the point where we now have clusters, and tools like K
 
 **Autumn Nash:** Yes, it's a very specific skill. There's very specific things you need to know about scaling it, and like not having a node die... So when people are just like "I'm going to save some money, and we're going to go back to this", I'm like "You have to find the people that know how to do that, you know? And do it well."
 
-**Break**: \[00:25:13.00\]
+**Break**: \[25:13\]
 
 **Justin Garrison:** Michael, going back to mainframes real quick... One of the things when we were talking about this episode was something you said that was surprising to me, and I wanted to learn more about. You said that with the mainframe, you always deployed on a Friday, right? Like, Friday was deploy day.
 
@@ -236,7 +236,7 @@ And today we've gotten to the point where we now have clusters, and tools like K
 
 **Justin Garrison:** Websites used to be offline at nights, and they're like "Oh yeah, that person has turned off their computer, and it's just not around right now, so the website is down", and that was fine.
 
-**Autumn Nash:** \[00:31:56.00\] I think we've gotten so used to 24 hour access to things, though... There's that study that if something takes two seconds longer to load, they'll go somewhere else and buy it. But it's also wild to me that, for instance Fortnite - my kids play Fortnite - and they'll shut them down for 10 hours for an update, and they're so excited about the update. And the game is so big, they can do that, and it's fine.
+**Autumn Nash:** \[31:56\] I think we've gotten so used to 24 hour access to things, though... There's that study that if something takes two seconds longer to load, they'll go somewhere else and buy it. But it's also wild to me that, for instance Fortnite - my kids play Fortnite - and they'll shut them down for 10 hours for an update, and they're so excited about the update. And the game is so big, they can do that, and it's fine.
 
 **Michael Gat:** Well, it's interesting that in some cases like that you almost have to wonder, do they really need to shut it down? Or are they almost trying to build the anticipation for that? You almost are kind of building in excitement, and making it into an event where otherwise it would just be "Okay, the new one's there."
 
@@ -266,7 +266,7 @@ And today we've gotten to the point where we now have clusters, and tools like K
 
 **Michael Gat:** Typically when we would deploy for Fridays, the stuff that was used, the online stuff, the stuff facing a user would be used on Fridays. So we'd deploy early Friday AM, before everybody came in, so we could monitor during the day. So it might mean an early start. But you would usually know very quickly, "Does this work? Are there issues?"
 
-**Autumn Nash:** \[00:35:55.07\] Well, that's also interesting, because you're getting people to use it, but you're not completely endangering your whole week. So that's --
+**Autumn Nash:** \[35:55\] Well, that's also interesting, because you're getting people to use it, but you're not completely endangering your whole week. So that's --
 
 **Michael Gat:** Right.
 
@@ -308,7 +308,7 @@ When I entered the business, I think it was still T+5. So you had five business 
 
 **Justin Garrison:** Right. But I feel like '70s-'80s timeframe would have been the digitization of that. At some point they're like "We need to store this in some sort of database."
 
-**Autumn Nash:** \[00:40:01.23\] Stop calling Michael old, Justin.
+**Autumn Nash:** \[40:01\] Stop calling Michael old, Justin.
 
 **Justin Garrison:** No, I'm fascinated by --
 
@@ -328,7 +328,7 @@ When I entered the business, I think it was still T+5. So you had five business 
 
 **Autumn Nash:** But that's so underrated though. Now that now that we're trying to automate everything for efficiency and for money... But if you don't build it, how do you fix it? If you don't go through all the troubles of trying to figure out, and the failing and experimenting, you will not be as effective. So the next generation of developers - are we going to break them by overly automating and having things do everything, you know?
 
-**Justin Garrison:** \[00:44:08.17\] And building with oversight, right? Because that whole training - it's an apprenticeship. When I look at -- my neighbor's an electrician, and he's like "Yeah, I have this year-long apprenticeship." And I wish there was a way -- because a lot of people are just like "This is guarded secrets now." And it's "Well, it's not, really." Don't give them the all the customer data, but like, there's plenty of stuff that someone can do.
+**Justin Garrison:** \[44:08\] And building with oversight, right? Because that whole training - it's an apprenticeship. When I look at -- my neighbor's an electrician, and he's like "Yeah, I have this year-long apprenticeship." And I wish there was a way -- because a lot of people are just like "This is guarded secrets now." And it's "Well, it's not, really." Don't give them the all the customer data, but like, there's plenty of stuff that someone can do.
 
 **Autumn Nash:** But it's also wild though, because they just expect you to come out of college with all this knowledge, and college does not teach you Linux, or Kubernetes, or infrastructure.
 
@@ -366,7 +366,7 @@ When I entered the business, I think it was still T+5. So you had five business 
 
 **Michael Gat:** I'll send you a link. But I do want to conclude on one story, or on one little tidbit that I was just thinking about yesterday as I was looking at some of the latest stuff going on in S3. S3, of course, being Simple Storage Service. But if you use it, you know it's not really very simple. In fact, using it correctly is extraordinarily complicated. And it occurred to me that "Well, nothing here has really changed." Because you can use S3 very simply, but you won't be using it optimally.
 
-\[00:48:19.19\] Well, back in the day on a mainframe I had to write stuff to disk. And to do that, you had to know the physical details of the disk, and tell it how to allocate space. Do you want to allocate tracks, a single track around a single platter, or a cylinder, which is a stack of tracks in the same -- you know, lining up with each other? Did you want to make them contiguous? Did you not? The more efficient you made it, the less likely you were to find space in the system. You had to know all this weird, arcane stuff.
+\[48:19\] Well, back in the day on a mainframe I had to write stuff to disk. And to do that, you had to know the physical details of the disk, and tell it how to allocate space. Do you want to allocate tracks, a single track around a single platter, or a cylinder, which is a stack of tracks in the same -- you know, lining up with each other? Did you want to make them contiguous? Did you not? The more efficient you made it, the less likely you were to find space in the system. You had to know all this weird, arcane stuff.
 
 When I tell people this today, they tell me "Well, that sounds really weird that you would need to know all that." But I was thinking, "Yeah, well, 30 years from now people are gonna think it's really weird that I had to think about how big my puts and gets were going to be." And whether I wanted to do parallel puts and gets, or any other things to make it more efficient... But there'll be some new level of bizarre, arcane stuff that people have to do to manage storage. So yeah, things changed, but nothing changes.
 
@@ -396,7 +396,7 @@ Well, thank you so much. This was a lot of fun. And if people want to reach out 
 
 **Michael Gat:** Okay, thank you.
 
-**Break**: \[00:51:02.07\]
+**Break**: \[51:02\]
 
 **Justin Garrison:** Thank you so much, Michael, for coming on the show and talking to us all about some of the history on infrastructure, and in hardware and data centers. I love this stuff. I read a lot of history, like historical technology... I think partially because I feel like I missed out. There's this like this historical FOMO for me.
 
@@ -420,7 +420,7 @@ Today's outro - I didn't come up with a clever name, I'm sorry, because this is 
 
 **Michael Gat:** Yes, it's the hammer. People want to use the hammer for everything, and sometimes need a screwdriver, and sometimes you need \[unintelligible 00:57:46.16\] And if you take a hammer -- like, a hammer is a great tool, but using it in a situation it's not qualified for, you are going to break something, or ruin something, or make it very expensive for no reason.
 
-**Justin Garrison:** \[00:58:01.10\] So the main place that I used to get a lot of papers from was just the quote-unquote FAANG companies. Facebook, Google, Amazon, Netflix, and Microsoft... Actually, Microsoft is thrown in there. Apple is the other one, is the other A.. They all have research divisions, and they all publish papers. And so many of them also are running large-scale systems, they have datacenters, or just complex use cases... Some of them have invented technologies that we use today. Go read the S3 paper. It's a good read, and you can see why was it created. What was object store solving? And these are all things that are available on their research -- we'll have all the links in the show notes for if you want to find one of those research divisions... But usually, what I was doing was I would find one paper that was interesting, and I would find the author for that paper, and I would go search on their system, or filter by that author, and say "What else did they write?" Because they probably worked on adjacent systems. And I'd kind of branch out from there.
+**Justin Garrison:** \[58:01\] So the main place that I used to get a lot of papers from was just the quote-unquote FAANG companies. Facebook, Google, Amazon, Netflix, and Microsoft... Actually, Microsoft is thrown in there. Apple is the other one, is the other A.. They all have research divisions, and they all publish papers. And so many of them also are running large-scale systems, they have datacenters, or just complex use cases... Some of them have invented technologies that we use today. Go read the S3 paper. It's a good read, and you can see why was it created. What was object store solving? And these are all things that are available on their research -- we'll have all the links in the show notes for if you want to find one of those research divisions... But usually, what I was doing was I would find one paper that was interesting, and I would find the author for that paper, and I would go search on their system, or filter by that author, and say "What else did they write?" Because they probably worked on adjacent systems. And I'd kind of branch out from there.
 
 So I remember there's a couple that were like at Google, and one at Amazon that I was like "Oh, I'm just gonna read all their white papers", because I find they worked on interesting problems. So that's one way. And all these sites have good filtering. All the FAANG companies have really good filtering for white papers.
 
