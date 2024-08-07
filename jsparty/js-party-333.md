@@ -68,7 +68,7 @@
 
 **Kevin Ball:** But Jerod, actually, I have a way forward for you to do TypeScript, and not worry about TypeScript so much, which is LLM-based coding tools are the future. And you don't have to deal with TypeScript, you just tell the machine learning model "Write this in TypeScript", and then you're done.
 
-**Jerod Santo:** \[00:06:10.02\] I could be convinced of that, perhaps. If I didn't have to touch any of the artifacts either... Like, if we got far enough away that I don't even effectively have to know that it's TypeScript, but it just works - and that's a big if; if it just works - then yeah, I'm here for it. I'm here for it. I'm happy to move higher up the value chain at all times. I don't think we're there yet, but I think we're getting there. Here's an experimental flag that I would like: --experimentalstripbugs. Would you guys be here for that, strip bugs? \[laughs\]
+**Jerod Santo:** \[06:10\] I could be convinced of that, perhaps. If I didn't have to touch any of the artifacts either... Like, if we got far enough away that I don't even effectively have to know that it's TypeScript, but it just works - and that's a big if; if it just works - then yeah, I'm here for it. I'm here for it. I'm happy to move higher up the value chain at all times. I don't think we're there yet, but I think we're getting there. Here's an experimental flag that I would like: --experimentalstripbugs. Would you guys be here for that, strip bugs? \[laughs\]
 
 **Nick Nisi:** That's just called TypeScript.
 
@@ -146,7 +146,7 @@
 
 **Jerod Santo:** Boundaries. You're defining boundaries, Kball. Remember, I want you to do an episode on this.
 
-**Kevin Ball:** \[00:10:08.00\] Yes. And I think it's an art more than a science. JavaScript land has historically defined lots of many small modules, which is way on the end of one spectrum, where you're saying essentially like there's no standard library, or there's a minimal standard library; everything is your choice, everything you have to configure. That's a lot of cognitive load.
+**Kevin Ball:** \[10:08\] Yes. And I think it's an art more than a science. JavaScript land has historically defined lots of many small modules, which is way on the end of one spectrum, where you're saying essentially like there's no standard library, or there's a minimal standard library; everything is your choice, everything you have to configure. That's a lot of cognitive load.
 
 On the flip side, you put everything in there, in the core... Like, it slows things down, it's hard to innovate; if they get it wrong, it's a mess... And if I'm using this, I can't necessarily just say "Okay, I've been prototyping with SQLite, now I'm gonna swap in Postgres and it all works fine, because I have an abstraction between my database and the data manipulation", or whatever I'm doing. Instead, now I've got to rip out SQLite and do other different things with it.
 
@@ -194,7 +194,7 @@ On the flip side, you put everything in there, in the core... Like, it slows thi
 
 **Jerod Santo:** Fair.
 
-**Nick Nisi:** \[00:14:00.28\] That's just like the comparison that came to my mind, with inspiration for this, potentially. Like, I don't know where it came from or anything, but that's...
+**Nick Nisi:** \[14:00\] That's just like the comparison that came to my mind, with inspiration for this, potentially. Like, I don't know where it came from or anything, but that's...
 
 **Jerod Santo:** Right.
 
@@ -254,7 +254,7 @@ On the flip side, you put everything in there, in the core... Like, it slows thi
 
 **Nick Nisi:** Oh, \[unintelligible 00:17:26.17\] No, I'm kidding. I don't have anything else.
 
-**Jerod Santo:** \[00:17:30.19\] I just think it's interesting. I think it's cool. At a certain point you just wonder how much stuff can you shove in a box, you know? But this is what happens with mature ecosystems. You wouldn't want this when Chalk just first came out. It's like, all of a sudden it's in Node core. Because things in the core are going to move slower, they're not going to have as much iteration... I mean, this is what happens when Apple sherlocks things, right? Like, Apple has sherlocked x. No, not the platform, but the variable x. And everyone that loved x is mad, and then they realize "Oh, Apple's doing an 80% version of what this is." It's never going to actually reach parity. They don't even want to. They want to provide kind of a baseline feature set that that thing provides... And there's a place in the world for it. But once it gets mature and there's not much change in -- I mean, SQLite's a good example. It's like lower risk. Anyways, moving on... Moving on to the language. What's new for JavaScript devs in ECMAScript 2024? This is a nice write-up from Mary Branscombe at The New Stack, all about new features in JavaScript itself. Most notably to me, what's not in there? See how I'm always discontented? I'm like "Here's the first thing. What's not in 24?" which is Temporal and decorators. The big ones.
+**Jerod Santo:** \[17:30\] I just think it's interesting. I think it's cool. At a certain point you just wonder how much stuff can you shove in a box, you know? But this is what happens with mature ecosystems. You wouldn't want this when Chalk just first came out. It's like, all of a sudden it's in Node core. Because things in the core are going to move slower, they're not going to have as much iteration... I mean, this is what happens when Apple sherlocks things, right? Like, Apple has sherlocked x. No, not the platform, but the variable x. And everyone that loved x is mad, and then they realize "Oh, Apple's doing an 80% version of what this is." It's never going to actually reach parity. They don't even want to. They want to provide kind of a baseline feature set that that thing provides... And there's a place in the world for it. But once it gets mature and there's not much change in -- I mean, SQLite's a good example. It's like lower risk. Anyways, moving on... Moving on to the language. What's new for JavaScript devs in ECMAScript 2024? This is a nice write-up from Mary Branscombe at The New Stack, all about new features in JavaScript itself. Most notably to me, what's not in there? See how I'm always discontented? I'm like "Here's the first thing. What's not in 24?" which is Temporal and decorators. The big ones.
 
 **Kevin Ball:** I want Temporal. Time still continues to suck. When is it going to be in there?
 
@@ -276,7 +276,7 @@ So there is some cool stuff that's new. Promise.withResolvers, which is somethin
 
 **Kevin Ball:** Well, and this sort of topic of dealing better with asynchronicity and data loads is one of the areas that I think... So at a conference earlier this summer there was a roundtable conversation with Q&A that had both one of the folks really up in Angular, and then it had Ryan Carniato... So a lot of sharp front-end people, and I asked them, "What are the big unresolved problems?" It seems like there's a lot of consensus moving towards signals, and doing these other things, but what is still out there? And this was a thing that was raised, is like dealing with asynchronicity well is something that all the frameworks are sort of looking at. React took a stab at this with suspend, and what are they doing there... Angular has all that complexity with the baked-in - whatchamacallit... What is their observables framework that they use?
 
-**Nick Nisi:** \[00:22:18.15\] Rx?
+**Nick Nisi:** \[22:18\] Rx?
 
 **Kevin Ball:** Yeah, RxJS. You're right. It was Rx. So that's like the big hammer in this space right now... And so this just in some ways feels like it's fitting into that queue of we just need better tooling for dealing with things that are asynchronous and outstanding, and how do you handle them in different ways, and being able to manipulate your resolvers, as for example maybe a different promise resolved, and so now the promise that you had for this outstanding one, it needs to do something slightly different, or other things. That is the tooling that we need to be able to deal with multiple layers of asynchronicity.
 
@@ -314,7 +314,7 @@ Now, there is a new -- have you guys heard of this? There's a new competitor ent
 
 **Kevin Ball:** I'm going to pause it so that Jerod will use it and shout it out on Changelog.
 
-**Jerod Santo:** \[00:25:54.20\] Oh, that would be like metagame. That would be super-smart. Nick, what do you think?
+**Jerod Santo:** \[25:54\] Oh, that would be like metagame. That would be super-smart. Nick, what do you think?
 
 **Nick Nisi:** The same reason that it's not TSLint anymore. It supports all ECMAScript variants.
 
@@ -380,7 +380,7 @@ Now, there is a new -- have you guys heard of this? There's a new competitor ent
 
 **Jerod Santo:** Yeah, that's actually pretty smart. I like that. Thanks for looking that up. That's interesting. They've basically done what Nick did with groupby, only with all of them, and... There you go.
 
-**Kevin Ball:** \[00:30:04.18\] Well, and that kind of makes sense if you're a utilities library author. You can take the time to do that extra work, and it makes your library so much more independently usable in that way. I do wonder, if you start using a larger amount of the functions in your code, if you -- this is, once again, the classic "Do you have a runtime-ish thing that is shared, or is everything flattened and independent?" At what point is the crossover where it's actually more expensive because you're shipping a lot of duplicated logic? But I would bet most codebases, especially as we move into this - we split things, we only load what's necessary for each particular things... They're going to benefit from that flattened approach.
+**Kevin Ball:** \[30:04\] Well, and that kind of makes sense if you're a utilities library author. You can take the time to do that extra work, and it makes your library so much more independently usable in that way. I do wonder, if you start using a larger amount of the functions in your code, if you -- this is, once again, the classic "Do you have a runtime-ish thing that is shared, or is everything flattened and independent?" At what point is the crossover where it's actually more expensive because you're shipping a lot of duplicated logic? But I would bet most codebases, especially as we move into this - we split things, we only load what's necessary for each particular things... They're going to benefit from that flattened approach.
 
 **Nick Nisi:** And there's plenty of environments that I've been in where it's just -- you have to play politics to get new dependencies in, or we just don't want to ship new third party code in. And if it's like that, where it's just like "There's this standalone thing", I mean, at that point you can just copy and paste from it, which is fantastic. And it's also just way, way easier to learn from that. Like "How is groupby actually created? How would you do that?" If you're like "Oh, it's calling this utility, that's calling this utility", and you have to go up this stack, then you lose the thread on that a little bit. So...
 
@@ -422,7 +422,7 @@ Now, there is a new -- have you guys heard of this? There's a new competitor ent
 
 **Kevin Ball:** Interesting to me looking through was like looking at stuff like what are the pain points people are feeling... So there was sections on like main API pain points, where some of the biggest pain points I see are the forward ref memos, and the context API... Memoization - apparently, if you follow the rules, you can use React compiler now. You don't need to worry about it. So that's hopefully one pain point they're actually getting rid of, but we'll see. They also have some new API pain points. Lots of people complaining about React Server Components... Interestingly, number three on the "new APIs pain points" around React is Next.js issues. So it's more indication of the extent to which Next.js and React are becoming sort of entangled with one another.
 
-\[00:34:02.29\] There is a place where you can sort of see what frameworks people are using, and there I think it was -- the one that's still the most known was Create React App. It's not gone away, but lots of people don't like it anymore. They're pretty unhappy with it. After that was Next. It is sort of the most -- most people have tried it, and it actually has reasonably positive sentiment. 46% of people said they liked it, 44% felt neutral about it, and just under 10% ish were unhappy, if I'm reading that... Which is confusing to me, because they have multiple numbers on the same -- I'm having trouble with their graphs, but... A relatively large percent of people like it, a lot of people felt neutral, and then just a few people didn't like it. Gatsby's still on there, nobody likes it... Astro and Remix are moving. And then Redwood is also in there, but also nobody likes it.
+\[34:02\] There is a place where you can sort of see what frameworks people are using, and there I think it was -- the one that's still the most known was Create React App. It's not gone away, but lots of people don't like it anymore. They're pretty unhappy with it. After that was Next. It is sort of the most -- most people have tried it, and it actually has reasonably positive sentiment. 46% of people said they liked it, 44% felt neutral about it, and just under 10% ish were unhappy, if I'm reading that... Which is confusing to me, because they have multiple numbers on the same -- I'm having trouble with their graphs, but... A relatively large percent of people like it, a lot of people felt neutral, and then just a few people didn't like it. Gatsby's still on there, nobody likes it... Astro and Remix are moving. And then Redwood is also in there, but also nobody likes it.
 
 Let's see, other things of interest... I mean, I noticed that Syntax is still more popular than we are, but we're coming in number two again, so it's all good... Syntax, man...!
 
@@ -454,7 +454,7 @@ Let's see, other things of interest... I mean, I noticed that Syntax is still mo
 
 **Jerod Santo:** I would tend to agree. Negative sentiment would be what my analysis is. If you fed me all of the public talk, and asked me to have my neural network determine if it's positive or negative sentiment, I would say negative sentiment. This is interesting... So at the end, Josh Comeau, who I think's been on the show before, definitely has been on the Changelog - the third best React podcast out there - has a conclusion that he wrote at the end of this... So I think probably Sascha asked him to write this, and this is interesting... He says that he thinks that this year has been the most interesting year, the biggest year for React since 2018, when React hooks were first introduced. He goes on and at the end he's talking about React Server Components, and he says "If I had to guess, I'd say that in 2028 there will be two Reacts in wide circulation, with roughly equivalent usage. The 'full stack' version with server components and server actions, and the client-only single page app version." I wonder your guys's reaction to that particular prediction from Josh Comeau.
 
-**Kevin Ball:** \[00:38:21.17\] So it's interesting that he would say that... And it makes me wonder, would those both be called React? Or is what happens - React continues down this full stack direction which they've very much been going, and some other competitor says... I mean, this is the dynamics we were talking about before; they're incorporating more and more into React core, and at some point it's enough that the complexity starts to really bother people, which if you look at the pain points, excessive complexity was like the top React pain point in the question at the end that's "Are there any other React pain points you'd like to mention?" They say "Excessive complexity." That's the incorporation of all of these different pieces coming in. And at some point there's room for a simple take of a competitor to actually rise up and eat up a bunch of those. And I think that might become that second "React", except maybe it's not called React. Maybe it's called Vue, or Qwik, or Astro. Astro is weird, because they actually do something different. But maybe it's one of these competitive frameworks that says "You know what? We don't need all that complexity. We'll handle one use case, which is client-side applications, and we will do it really well."
+**Kevin Ball:** \[38:21\] So it's interesting that he would say that... And it makes me wonder, would those both be called React? Or is what happens - React continues down this full stack direction which they've very much been going, and some other competitor says... I mean, this is the dynamics we were talking about before; they're incorporating more and more into React core, and at some point it's enough that the complexity starts to really bother people, which if you look at the pain points, excessive complexity was like the top React pain point in the question at the end that's "Are there any other React pain points you'd like to mention?" They say "Excessive complexity." That's the incorporation of all of these different pieces coming in. And at some point there's room for a simple take of a competitor to actually rise up and eat up a bunch of those. And I think that might become that second "React", except maybe it's not called React. Maybe it's called Vue, or Qwik, or Astro. Astro is weird, because they actually do something different. But maybe it's one of these competitive frameworks that says "You know what? We don't need all that complexity. We'll handle one use case, which is client-side applications, and we will do it really well."
 
 **Nick Nisi:** Yeah. Maybe one would be from the before times, before they started going into this. So it'd be the pre-times. They could call it something like Preact, or something... I don't know, I think that --
 
@@ -494,7 +494,7 @@ Let's see, other things of interest... I mean, I noticed that Syntax is still mo
 
 **Nick Nisi:** Okay, yeah.
 
-**Jerod Santo:** \[00:42:00.16\] That's two words.
+**Jerod Santo:** \[42:00\] That's two words.
 
 **Kevin Ball:** Vue...
 
@@ -544,7 +544,7 @@ Let's see, other things of interest... I mean, I noticed that Syntax is still mo
 
 **Kevin Ball:** That is amazing.
 
-**Jerod Santo:** \[00:45:57.22\] Let's see it. TypeScript fan page. "Why I love TypeScript. As a developer and podcaster, I've come to appreciate the power and flexibility of TypeScript." This is actually super-boring. I think it should be way fancier. They don't know my style, man. I've got way more style than this.
+**Jerod Santo:** \[45:57\] Let's see it. TypeScript fan page. "Why I love TypeScript. As a developer and podcaster, I've come to appreciate the power and flexibility of TypeScript." This is actually super-boring. I think it should be way fancier. They don't know my style, man. I've got way more style than this.
 
 **Kevin Ball:** You've got to pass in some params. Style = epic poem, or something like that.
 
