@@ -70,7 +70,7 @@ I wasn't really a little kid, but...
 
 **Justin Garrison:** But thinking back history-wise, of what Disney and historically what we did as kids, in today's show we have Martin Jackson, who's going to talk to us about something that wasn't even that long ago.
 
-**Autumn Nash:** \[00:06:03.02\] It felt like it, though. It felt a super-retro episode, which is just -- it's really funny the way that technology has evolved, especially when it comes to just infrastructure. I feel we went through warp speed the last 5 to 10 years of infrastructure.
+**Autumn Nash:** \[06:03\] It felt like it, though. It felt a super-retro episode, which is just -- it's really funny the way that technology has evolved, especially when it comes to just infrastructure. I feel we went through warp speed the last 5 to 10 years of infrastructure.
 
 **Justin Garrison:** The acceleration of infrastructure and application management in the last 10 years has been astronomical.
 
@@ -102,7 +102,7 @@ I wasn't really a little kid, but...
 
 **Justin Garrison:** So let's not spoil the whole the whole interview. Let's jump right into it with Martin, and we'll come back afterwards and talk about CrowdStrike.
 
-**Break**: \[00:09:48.21\]
+**Break**: \[09:48\]
 
 **Justin Garrison:** Thank you so much, Martin Jackson, for joining us on the show today. Martin currently works at Red Hat, doing a lot of different automation and container stuff, but also what we we kind of were talking about in the pre-show was some of your work you did at Walmart with configuration management... And I kind of want to dive into that first and see how it's going. But first just tell us, what was your what were you responsible for at Walmart with configuration management, and what did that look like?
 
@@ -120,7 +120,7 @@ So we did a competitive evaluation of a bunch of these configuration management 
 
 Okay, so we were in the process of doing configuration management. We decided on Puppet as being the solution that we were going to use... And so we got heavily into the prospect of writing content for it. We had a couple of really experienced systems engineers that wrote the bulk of our content for the initial deployment of what we were going to do. And I was responsible for designing what the head end was going to look like, how the Puppet services were going to be laid out, with the load balancing, and division of labor, and all that stuff. So there were a bunch of us. And then there were a couple of other store guys that were instrumental in helping get a bunch of that stuff deployed.
 
-\[00:17:46.03\] The really exciting thing -- there are projects like this that go on at companies like Walmart all the time. One of the real learning moments for me was when we were talking about how excited we were about Puppet, and showing it to applications teams, and like "Hey, wow, we can make changes across the entire environment in hours." And everyone was like "Uhh, yeah... I mean, we've already got a dozen systems that can do that. Who cares?" "What do you mean you've got a dozen systems?" "Well, there's our main package distribution system, an internal thing called Dust, there are a whole bunch of proprietary products for it... What makes this different?" And I did not have a really good answer for that at the time.
+\[17:46\] The really exciting thing -- there are projects like this that go on at companies like Walmart all the time. One of the real learning moments for me was when we were talking about how excited we were about Puppet, and showing it to applications teams, and like "Hey, wow, we can make changes across the entire environment in hours." And everyone was like "Uhh, yeah... I mean, we've already got a dozen systems that can do that. Who cares?" "What do you mean you've got a dozen systems?" "Well, there's our main package distribution system, an internal thing called Dust, there are a whole bunch of proprietary products for it... What makes this different?" And I did not have a really good answer for that at the time.
 
 We learned through brutal experience that along with the ability to do infrastructure as code comes a responsibility of doing those deployments in a conservative and safe manner, because if you send a bad change to a lot of places very quickly, it can have a lot of consequences.
 
@@ -152,7 +152,7 @@ But that was one of the things that we used to help show that there was value in
 
 **Martin Jackson:** Yes, that is exactly the problem that you run into. And we were training people to get used to the idea of being able to rely on certain configurations being a certain way. And when you're in the thick of it, your first thing is "Okay, check this, check this, check this, check this." If you're in the middle of a really serious issue, it could take you an hour to check all of the things that you know you need to check, just kind of in the back of your head, for what the major problem could be. And until you know what the state of those things are, you can't sort of proceed to the next part of the troubleshooting tree.
 
-**Justin Garrison:** \[00:22:32.29\] What did the application layer look here? So you have racks in stores, and you're deploying and configuring Linux on top of it... This is pre-containers, this is pre-Kubernetes stuff, so you're probably just deploying -- an application developer creates an RPM, throws it in a repo, and then Puppet says "yum update" somewhere. Is that the cycle? Are application developers doing any of the Puppet configuration, too?
+**Justin Garrison:** \[22:32\] What did the application layer look here? So you have racks in stores, and you're deploying and configuring Linux on top of it... This is pre-containers, this is pre-Kubernetes stuff, so you're probably just deploying -- an application developer creates an RPM, throws it in a repo, and then Puppet says "yum update" somewhere. Is that the cycle? Are application developers doing any of the Puppet configuration, too?
 
 **Martin Jackson:** Oh, RPM would have been so much better than some of the actual things that we had to do...
 
@@ -174,7 +174,7 @@ Now, years went by, and at this point of Walmart's history, it was solidly into 
 
 **Autumn Nash:** What was the purpose of having servers per store, instead of having it all in a centralized area? Why servers in the actual locations? And then running that many applications on those servers. Because it just seems it would be very hard to onboard new people, and to troubleshoot, and then to keep all those different servers updated if they're all running on different hardware.
 
-**Martin Jackson:** \[00:26:17.29\] Oh, yeah, it was a full-time job for a lot of us keeping all that stuff up to date, for sure. But the reason it was done that way was that the basic origins of this architecture go back to the old mainframe days of the '80s and satellite networking. When they had it all centralized on a single mainframe, they had massive scaling problems, because Walmart went through this whole period where it was the fastest-growing company that anybody had ever seen anywhere. And it went from being a minor regional retailer to a national retailer, to the world's biggest retailer in the course of about 15 years. It's really kind of crazy how all of that worked out. But at the time, the first architecture was a batch mode thing where basically they would do local stuff, and then there was a modem that would dial the home office, and everything would upload to the mainframe, and they'd pull the stuff that they needed, and they'd hang up. And then someone got the idea "Hey, if we got more information about what stores were selling in real time, we would be able to make better business decisions." Well, but that would cost a lot, because it would require full-time networking, and you can't do full-time networking. And then the networking industry came along and said "Oh, yes, we can. Watch us."
+**Martin Jackson:** \[26:17\] Oh, yeah, it was a full-time job for a lot of us keeping all that stuff up to date, for sure. But the reason it was done that way was that the basic origins of this architecture go back to the old mainframe days of the '80s and satellite networking. When they had it all centralized on a single mainframe, they had massive scaling problems, because Walmart went through this whole period where it was the fastest-growing company that anybody had ever seen anywhere. And it went from being a minor regional retailer to a national retailer, to the world's biggest retailer in the course of about 15 years. It's really kind of crazy how all of that worked out. But at the time, the first architecture was a batch mode thing where basically they would do local stuff, and then there was a modem that would dial the home office, and everything would upload to the mainframe, and they'd pull the stuff that they needed, and they'd hang up. And then someone got the idea "Hey, if we got more information about what stores were selling in real time, we would be able to make better business decisions." Well, but that would cost a lot, because it would require full-time networking, and you can't do full-time networking. And then the networking industry came along and said "Oh, yes, we can. Watch us."
 
 So there were a whole series of full-time networking technologies that were deployed. We did ATM, we did \[unintelligible 00:27:40.29\] Frame relay... A whole bunch of those things. But a lot of those still had some really serious availability limitations, and crucially, bandwidth limitations. So it wasn't until past the year 2000 where we could rely on having more than 56K of bandwidth. K, not megs. K. And that was the burst. You bursted to 56K. Your guaranteed committed information rate was 16K. 16K.
 
@@ -194,7 +194,7 @@ So there were a whole series of full-time networking technologies that were depl
 
 **Autumn Nash:** How do you re-architect something so big in that way? Because the way that you're explaining it, with it growing so fast and it being the first retailer to grow that fast, you're solving a problem that's never been solved. So how did you go about re-architecting that system to solve this new problem? That's a good problem, but you know...
 
-**Martin Jackson:** \[00:29:55.06\] Yeah. Well, my move to what would become the configuration management team was a big part of that. We recognized that there were a whole lot of things that we needed to modernize. But because of the way that technology rollouts happen in a company that size, and with national reach and global reach in some cases, that's not something that you can change overnight. So you need to build an entirely new set of capabilities, and introduce them gradually in such a way that the stores that are able to take advantage of them can, and you don't penalize the stores that can't take advantage of them yet.
+**Martin Jackson:** \[29:55\] Yeah. Well, my move to what would become the configuration management team was a big part of that. We recognized that there were a whole lot of things that we needed to modernize. But because of the way that technology rollouts happen in a company that size, and with national reach and global reach in some cases, that's not something that you can change overnight. So you need to build an entirely new set of capabilities, and introduce them gradually in such a way that the stores that are able to take advantage of them can, and you don't penalize the stores that can't take advantage of them yet.
 
 And that's never a perfect transition plan, but you're kind of like Indiana Jones at the beginning of Raiders of the Lost Ark, where you've got the bag of sand, like "Yeah, it looks you need a couple ounces", and you put the bag of sand down, and the boulder's coming. You know the boulder's coming. But you're just hoping that you get an extra four or five seconds to get away from the boulder. But yes, the basic strategy is that a lot of those applications keep running, but we have to add new capabilities underneath them, around them, to make it easier to deal with.
 
@@ -228,7 +228,7 @@ Lots of people around Walmart still called logging into a server dialing in. "Oh
 
 **Autumn Nash:** Red Hat needs to give you a raise... The way that you go so hard for Red Hat, I love it.
 
-**Martin Jackson:** \[00:34:04.11\] I made a big decision 22 years into my career, and I'd better believe in it. Yes.
+**Martin Jackson:** \[34:04\] I made a big decision 22 years into my career, and I'd better believe in it. Yes.
 
 **Autumn Nash:** I love that.
 
@@ -274,7 +274,7 @@ There was one day - and I tell this story in the Puppet conf 2015 keynote, becau
 
 **Martin Jackson:** Luxury.
 
-**Autumn Nash:** \[00:37:49.19\] But did you test it on a few of them first, or did you actually just roll them all out and just hoped for the best?
+**Autumn Nash:** \[37:49\] But did you test it on a few of them first, or did you actually just roll them all out and just hoped for the best?
 
 **Martin Jackson:** Alright, so the way we did this - we enlisted a lot of help. There were, I don't know, three, four, five of us full-time on the configuration management team. We had a bunch of people from the stores team that were helping. We had a bunch of people from the DCs team, the distribution center team, because this was part of it, too... We had a bunch of people from the home office team, which was where the data centers were... Our focus was on stores, because with that kind of timeline we could not afford to lose any time. And the store process was important.
 
@@ -312,7 +312,7 @@ So we were deploying Puppet, and the only thing that it was managing in full enf
 
 But getting these other people involved... We had an incredible esprit de corps on the configuration management team. We very much believed that what we were doing was going to fundamentally change the way people interacted with systems. We saw the change that was happening in the world, and that -- you know, everybody was in awe that Walmart was running as many servers as it was at the time... But Walmart was a huge outlier in terms of all that.
 
-\[00:42:06.20\] These days you can name any 10 groups that are running a hundred thousand servers. It's not that big of a deal. For us at the time it sure was, now it isn't. And it was important to us to kind of be part of being part of that hinge, where everybody said "Hey, maybe we can do this at this scale, making people's lives easier", because all of us had spent a lot of time on pagers, and answering the 2 AM calls. I can't get an IP address. That was mostly the stuff that I did. And other guys were like "Yeah, intermittent database slowness in the store." Oh, did I mention we were running two different Informix installations in most stores, locally? Yeah... You know, tuning, raw spaces... The whole business.
+\[42:06\] These days you can name any 10 groups that are running a hundred thousand servers. It's not that big of a deal. For us at the time it sure was, now it isn't. And it was important to us to kind of be part of being part of that hinge, where everybody said "Hey, maybe we can do this at this scale, making people's lives easier", because all of us had spent a lot of time on pagers, and answering the 2 AM calls. I can't get an IP address. That was mostly the stuff that I did. And other guys were like "Yeah, intermittent database slowness in the store." Oh, did I mention we were running two different Informix installations in most stores, locally? Yeah... You know, tuning, raw spaces... The whole business.
 
 So all of these guys had spent most of their careers doing these 2, 3 AM calls and saying "Hey, we have a system that's going to make this easier, for you and for everybody who follows. And if we get this done, we will be legendary." It was not hard to get people to sign on to that.
 
@@ -342,7 +342,7 @@ So all of these guys had spent most of their careers doing these 2, 3 AM calls a
 
 **Martin Jackson:** I've had an awful long time to think about all of this, and the adoption of Puppet, and the usage of modern infrastructure as code systems... We paved the way for a bunch of other modern orchestration systems, and more importantly, we gave the old architecture the bridge into the future that it needed to stay alive for as long as it needs to. And that's a big deal.
 
-\[00:46:07.25\] There's a lot to say -- the company needed that stuff to keep running. And if it hadn't been able to keep managing it, things would be very different. But the one thing that I wish we could have done better in those days was to prioritize and facilitate self-service for infrastructure as code, without a doubt.
+\[46:07\] There's a lot to say -- the company needed that stuff to keep running. And if it hadn't been able to keep managing it, things would be very different. But the one thing that I wish we could have done better in those days was to prioritize and facilitate self-service for infrastructure as code, without a doubt.
 
 **Justin Garrison:** Enable other people to -- yeah.
 
@@ -362,7 +362,7 @@ But the sort of Achilles heel of a centralized Puppet setup like that is that ev
 
 **Martin Jackson:** Alright. Thank you very much.
 
-**Break**: \[00:49:24.00\]
+**Break**: \[49:24\]
 
 **Justin Garrison:** Thank you so much, Martin, for coming on the show and talking to us about what it was like for you at Walmart, deploying at this scale, and making these foundational changes in a very diverse infrastructure. It was awesome, and also a little bit scary for me to remember some of the things that I went through, and I'm sure a lot of people listening to this have maybe a similar story. If you do have a similar story and would to share how you went through organizational change at a large scale like this, whether it was configuration management or just CI/CD, please email us. We'd love to hear from you. shipit \[at\] Changelog.com, and let us know who you'd want us to talk to, and what topics we want.
 
@@ -386,7 +386,7 @@ But the sort of Achilles heel of a centralized Puppet setup like that is that ev
 
 **Justin Garrison:** So look, if you're sick of listening to CrowdStrike reviews from people that weren't actually involved, feel free to skip this part. This is just stuff that we've learned reading a couple different things. And the main places that I'm pulling information from are the CrowdStrike executive summary from their post-incident review, and Pragmatic Engineer did a great write-up just top to bottom, like "Where is this happening? What happened here? And where did it go wrong?" But there's a couple other reviews and podcasts and things that I listened to, that were also in this realm. But the main thing you're talking about - there should have been more testing.
 
-\[00:56:03.27\] In the executive summary, they say what they're doing to make sure this doesn't happen again. They say that they're enhanced software testing procedures. And they say "Improve rapid response content testing by using testing types such as local developer." That's not a thing you should be relying on. They wrote the code.
+\[56:03\] In the executive summary, they say what they're doing to make sure this doesn't happen again. They say that they're enhanced software testing procedures. And they say "Improve rapid response content testing by using testing types such as local developer." That's not a thing you should be relying on. They wrote the code.
 
 **Autumn Nash:** I'm a little scared that Justin's face said... I knew it was going wrong. Y'all can't see it, but I knew it was going wrong when he -- okay, he has this Justin shade face that y'all don't get to see... And right before he's about to throw it... And I'm just so excited, and I'm just like "Oh, it's coming."
 
