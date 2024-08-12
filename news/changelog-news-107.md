@@ -22,7 +22,7 @@ This post is too glorious to summarize. Just grab some popcorn and go read it. O
 
 On the codebase:
 
-> But to describe this codebase as merely half VB, half C# would be to do it a disservice. Every javascript framework that existed at the time was checked into this repository. Typically, with some custom changes the author believed needed to be made. Most notably, knockout, backbone, and marionette. But of course, there was a smattering of jquery and jquery plugins.
+> But to describe this codebase as merely half VB, half C# would be to do it a disservice. Every JavaScript framework that existed at the time was checked into this repository. Typically, with some custom changes the author believed needed to be made. Most notably, knockout, backbone, and marionette. But of course, there was a smattering of jquery and jquery plugins.
 
 That's just the tip. Wait 'til you hear the part about Gilfoyle's hard drive...
 
@@ -56,7 +56,7 @@ Zach's final word on AWS is it's "a huge pain to setup but it’s nice to have a
 
 It's now time for Sponsored News!
 
-[Dangers of compromised Git dependencies](https://socket.dev/blog/how-to-mitigate-the-risks-of-using-open-source-packages-with-git-dependencies?utm_source=changelog&utm_medium=newsletter&utm_campaign=changelog-news)
+[Dangers of compromised Git dependencies](https://socket.dev/blog/how-to-mitigate-the-risks-of-using-open source-packages-with-git-dependencies?utm_source=changelog&utm_medium=newsletter&utm_campaign=changelog-news)
 
 Sarah Gooding the risks associated with using Git dependencies in open source projects:
 
@@ -69,7 +69,7 @@ Sarah Gooding the risks associated with using Git dependencies in open source pr
 
 Is this something you actively think about? Thankfully, Socket has your back!
 
-Check out [the article](https://socket.dev/blog/how-to-mitigate-the-risks-of-using-open-source-packages-with-git-dependencies?utm_source=changelog&utm_medium=newsletter&utm_campaign=changelog-news) for the full rundown and how to navigate Socket's **Git Dependency Alert** features. Link in your chapter data and the newsletter.
+Check out [the article](https://socket.dev/blog/how-to-mitigate-the-risks-of-using-open source-packages-with-git-dependencies?utm_source=changelog&utm_medium=newsletter&utm_campaign=changelog-news) for the full rundown and how to navigate Socket's **Git Dependency Alert** features. Link in your chapter data and the newsletter.
 
 
 **Break:**
