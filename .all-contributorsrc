@@ -2555,6 +2555,15 @@
       "contributions": [
         "doc"
       ]
+    },
+    {
+      "login": "mhjacks",
+      "name": "Martin Jackson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/7352852?v=4",
+      "profile": "https://github.com/mhjacks",
+      "contributions": [
+        "doc"
+      ]
     }
   ],
   "repoType": "github",
