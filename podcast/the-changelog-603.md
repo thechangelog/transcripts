@@ -24,7 +24,7 @@ I say "listen", because I mostly listened to the phenomenal Ray Porter voice, yo
 
 **Dennis E. Taylor:** Yeah. I'm a cautious individual. If I was a mountain climber, I'm the person who never lets go of one handhold before I've securely got the next one. I was working as a computer programmer at ICBC at the time when I started writing. The writing gig started out as a bet with my wife; or a challenge, I guess. A dare. And it worked out, which was a surprise to everybody concerned.
 
-\[00:08:15.28\] We Are Legion was published September 2016, and my agent said to me at the time "If you make back the advance - which was $2,500 - if you make back the advance, you can consider yourself to be doing well." So we made back the advance in the first 10 days, and then it just snowballed. So by February of 2017, I bought my wife a new car. And by June of 2017, I quit. Well, actually, I retired. And went to writing full-time.
+\[08:15\] We Are Legion was published September 2016, and my agent said to me at the time "If you make back the advance - which was $2,500 - if you make back the advance, you can consider yourself to be doing well." So we made back the advance in the first 10 days, and then it just snowballed. So by February of 2017, I bought my wife a new car. And by June of 2017, I quit. Well, actually, I retired. And went to writing full-time.
 
 **Adam Stacoviak:** Where did the revenue come from? Primarily Amazon, as a primary source, or how did you -- obviously through your publisher, but...
 
@@ -44,7 +44,7 @@ And so we had a lot of trouble picking up a traditional publisher, but Audible o
 
 Ray Porter is stunning. I think you were probably very lucky... Many swirls of luck in there for you. Timing, Ray Porter... Phenomenal voice actor, really.
 
-**Dennis E. Taylor:** \[00:12:28.12\] Yeah. Well, I should add there that that's not luck. That's basically skill on the part of my editor. Steve Feldberg made the decision about who the narrator would be. I at that point had only listened to Ready Player One as an audiobook. So I was familiar with Wil Wheaton anyway, because you know, Wil Wheaton... And that would have been my first choice for a narrator. He's well known. He puts a lot of enthusiasm into his books.
+**Dennis E. Taylor:** \[12:28\] Yeah. Well, I should add there that that's not luck. That's basically skill on the part of my editor. Steve Feldberg made the decision about who the narrator would be. I at that point had only listened to Ready Player One as an audiobook. So I was familiar with Wil Wheaton anyway, because you know, Wil Wheaton... And that would have been my first choice for a narrator. He's well known. He puts a lot of enthusiasm into his books.
 
 **Adam Stacoviak:** He does.
 
@@ -82,7 +82,7 @@ I love time travel, I love science fiction... I call it plausible science. I don
 
 **Adam Stacoviak:** Yeah. I do want to go one layer deeper and figure out -- so there was a challenge between you and your wife, to write. And this is pre-retirement, so you were safeguarding yourself... In what way had you begun to prepare for writing? Had you ever thought about this story? Did you have these stories packed in your brain, and they just had to come out? What's the backstory there?
 
-**Dennis E. Taylor:** \[00:16:07.24\] Well, I'm not a writer, or I wasn't a writer. I am not one of those people who's had these stories in them all their lives, that they just have to get out... You know, they spend 10 years writing the great American novel, or they write because they have to... I've been on writers forums, and I've listened - well, read - to people who said that "I've got this story, I've got to get it out. I'm trying to get published", and it's like a need for them. And I didn't have that.
+**Dennis E. Taylor:** \[16:07\] Well, I'm not a writer, or I wasn't a writer. I am not one of those people who's had these stories in them all their lives, that they just have to get out... You know, they spend 10 years writing the great American novel, or they write because they have to... I've been on writers forums, and I've listened - well, read - to people who said that "I've got this story, I've got to get it out. I'm trying to get published", and it's like a need for them. And I didn't have that.
 
 I wrote a story for a grade 11 English, and it was a novelette, and that was the last time I wrote anything. And I mean, that's dinosaur is still roaming --
 
@@ -106,7 +106,7 @@ I wrote a story for a grade 11 English, and it was a novelette, and that was the
 
 **Dennis E. Taylor:** Yeah. I would like to try a time travel story, but it's not like I'm digging the bottom of the barrel for ideas. So it's something that may happen in the future, but meanwhile I've got a lot a lot of other things to write. The thing that both of them say is that once you get into time travel stories, it's like Edge of Tomorrow - you have to start coming up with reasons why the characters can't just go back and keep trying until they get it working. And it becomes another MacGuffin.
 
-\[00:20:16.24\] It's like multiverse stories, which are all the rage right now, apparently. I've heard a lot of people say - and I agree with them - that you lose interest in the stakes in multiverse stories, because no matter what happens to the character, there's another universe where they win.
+\[20:16\] It's like multiverse stories, which are all the rage right now, apparently. I've heard a lot of people say - and I agree with them - that you lose interest in the stakes in multiverse stories, because no matter what happens to the character, there's another universe where they win.
 
 **Adam Stacoviak:** Yeah. I can see that. I think what was interesting about this one in particular, and the time travel, slash -- it's more of a loop, and it is definitely a multiverse... And maybe it does belong just as a short story. Maybe that's why it's so good, because it couldn't unpack the details. Maybe it couldn't unpack the edges and the fringes, as your editor has said, and maybe that's wise. I mean, that's wise feedback.
 
@@ -130,7 +130,7 @@ I do agree that you kind of get stuck in that motion, and I don't disagree with 
 
 **Adam Stacoviak:** There you go. "Oops" story. I like that better. Well, let's -- I wanted to give you some praise for feedback before we got deep into Bobiverse, because we can go super, super-deep with Bobiverse and all the things there. I think that's a really cool, unexpected, short read. So if you're listening to this and you want an easy 40-minute, 50-minute listen, read Feedback. You've got my praise on that.
 
-**Break**: \[00:24:41.06\]
+**Break**: \[24:41\]
 
 **Adam Stacoviak:** Okay, so let's go into Bob, We Are Legion, or We Are Many... That was kind of hard too, I guess, initially. "We Are Legion", and in parentheses "We Are Bob." I was not sure what to expect. As I mentioned, a friend of mine suggested this, so I was not sure what to expect.
 
@@ -156,7 +156,7 @@ Thankfully, he went to the cryogenic center and did some things to enable himsel
 
 **Dennis E. Taylor:** For instance, you're talking about how quickly Bob dies... That's not the way my first draft went. I spent considerably more time setting it up. And my agent basically said "It is too much before you get to the point." So we discussed it a little, and I shortened it down. And once you get to where he gets killed, that's when things really start to roll, and that's when if you're going to hook a reader at all, that's when the reader's hooked. So Ethan's point was "Don't take too long to get there."
 
-**Adam Stacoviak:** \[00:31:59.02\] I do agree with that sentiment, because you think you're -- because you are not sure what the book is, and you're either listening or reading, and you're humming along with the character development, and then bam. Something unexpected happens. So it's at that point the question mark comes about, and you have to stick around until the question mark becomes an answer. And so you're like "Well, this person died, and these things happened..."
+**Adam Stacoviak:** \[31:59\] I do agree with that sentiment, because you think you're -- because you are not sure what the book is, and you're either listening or reading, and you're humming along with the character development, and then bam. Something unexpected happens. So it's at that point the question mark comes about, and you have to stick around until the question mark becomes an answer. And so you're like "Well, this person died, and these things happened..."
 
 I think even the stuff in the lab, where he realizes he's a replicant, and - that whole discovery process was great, because you kind of set... Bob was a uniquely-positioned character to be good at being a replicant. And you know this, because you wrote the book. Gosh, I'm gonna keep telling you this as if you know these things, Dennis... Because he had this software background, he'd -- I didn't know this, this was written out there, but I was always thinking "Bob is such a MacGyver." In every scenario he reminded me of Mark Watney from The Martian, and there's even people who have said "If there was a lovechild between Andy Weir and Ernest Cline, it would be potentially you." I don't know how you feel about that quote, but I don't disagree with it, because I'm a fan of both those authors as well. Mark Watney is an Andy Weir character, from The Martian, and MacGyver is not at all from either of those authors, but from the older time, back in the eighties, I think potentially nineties... But MacGyver could get out of any situation. He always had a way. And that's the thing with Bob, is Bob was uniquely positioned, maybe even from a mental state, to be a good replicant. Can you expand a little bit on the difficulty of being a good replicant?
 
@@ -176,7 +176,7 @@ He has to have a physics background. He has to be a nerd, and he has to be a bit
 
 **Dennis E. Taylor:** I had gotten as far as they were in Epsilon Eridani, they'd blown up Medeiros... Bob had cloned himself several times, and they're all sitting around, talking. And I realized that what I had was a book with a bunch of invisible talking heads. If you ever made it into a movie, it would just be a background of stars for most of the book. There was no visual. There was no visual, no physical action other than the spaceships. So I thought "Well, put a VR in there, so that he can at least have a virtual reality." And then once you add the VR, of course, you can do anything if you have complete control of the VR. So now you have baseball games, and pubs, and moots, and offices, and a cat, and a butler, and stuff like that. So that was an iterative addition.
 
-**Adam Stacoviak:** \[00:36:03.20\] And that's one I would definitely concur with being a wise choice, because I think you get a chance to show off a lot of what made Bob a great replicant, which was you show off a lot of the unique nerdisms, if that's even a word. Like, they're playing baseball.
+**Adam Stacoviak:** \[36:03\] And that's one I would definitely concur with being a wise choice, because I think you get a chance to show off a lot of what made Bob a great replicant, which was you show off a lot of the unique nerdisms, if that's even a word. Like, they're playing baseball.
 
 **Dennis E. Taylor:** Badly. They're replicants.
 
@@ -204,7 +204,7 @@ So when you have a movie or a story where the VR is the main combat arena, if yo
 
 **Adam Stacoviak:** But they tend to have their moots, as you've called them... And I didn't even know what a moot was. I was like "Okay, this is a thing. It's a real thing." Moots are - I don't know; meetings, basically. I never called it a moot before. I just called them meetings.
 
-\[00:40:22.00\]
+\[40:22\]
 
 *"I held an air horn over my head and pressed the button. A loud \[unintelligible 00:40:24.22\] filled the room. All conversations ceased, as every head turned towards me. "Hey, everyone. Welcome to the first Bob moot. I've built a matrix here at the Skunk Works that is more than big enough to handle everyone in the Bobiverse in VR." Bobiverse? Really? Garfield gave me the stink eye. I laughed. Just thought of it. I think it's pretty good, actually. Bobiverse. Bobnet. This galaxy may not be big enough for our ego..."*
 
@@ -218,7 +218,7 @@ So when you have a movie or a story where the VR is the main combat arena, if yo
 
 **Adam Stacoviak:** Yes. I think even like that, it shows -- as an author, it shows your exposure to different science fictions out there... Because that's kind of interesting, how this character from Star Wars doesn't have any emotion... Even that. Bob is always wondering if he's an AI, if he's evolving, if he's becoming sentient, if he's just like this manifestation of Bob, or a different... Like, he's talking to himself. I think early on he was like "Am I just talking to myself, or is Ackbar really becoming real?"
 
-\[00:41:50.14\]
+\[41:50\]
 
 *"I leaned back, put my hands behind my head and stretched. It felt good. More importantly, it felt right. If I didn't think about it, I experienced the VR environment as if I was a real person, in a real room. Okay, shut it down, Guppy. Push the latest source through the deobfuscator and we'll run through that when it's done. "Aye, aye, sir." I raised a virtual eyebrow. I had a sneaking suspicion that Guppy was actively developing a sense of humor. He behaved like a dead fish most of the time, but every once in a while there was a moment of snark."*
 
@@ -238,7 +238,7 @@ So when you have a movie or a story where the VR is the main combat arena, if yo
 
 **Dennis E. Taylor:** You know, who always gets their way, and always knows the answer, and stuff like that. So with a male character, the Gary Stu term has sort of evolved.
 
-**Adam Stacoviak:** \[00:44:15.22\] Okay. Gotcha. I didn't know that term. So there's definitely some things in there that you are aware of, that I haven't caught. Now, so you wrote the original book, We Are Legion, We Are Bob, as a trilogy. You've described it being iterative. How in the world do you write an iterative book, that is evolving as you write it, in a way, and know it's going to be a trilogy? How did you know it was going to be a trilogy? What made you -- I mean, you had to think about something beyond book one...
+**Adam Stacoviak:** \[44:15\] Okay. Gotcha. I didn't know that term. So there's definitely some things in there that you are aware of, that I haven't caught. Now, so you wrote the original book, We Are Legion, We Are Bob, as a trilogy. You've described it being iterative. How in the world do you write an iterative book, that is evolving as you write it, in a way, and know it's going to be a trilogy? How did you know it was going to be a trilogy? What made you -- I mean, you had to think about something beyond book one...
 
 **Dennis E. Taylor:** So the way it works with trying to get a publisher is you have to query your book to either publishers or agents. I would recommend agents myself. So you send out - these days it's email, which is a lot simpler. In the old days, back when dinosaurs ruled the earth, you would actually package up your entire manuscript, mail it to an agent, with a postage paid return envelope inside so they could send it back, and they would either say yes, or no, or whatever. These days you can use Query Tracker, which is a website that lists agents and what genres they look for, and how you query them and stuff like that.
 
@@ -260,7 +260,7 @@ So I was querying We Are Legion. But while I was doing that, I was continuing to
 
 **Dennis E. Taylor:** Well, print is available through Amazon, but the way that print-on-demand books work on Amazon is they'll print, I don't know, maybe a dozen, some number at a time, they'll keep them in a warehouse, and then send them out as they're ordered. And when they're getting low, they'll print another dozen, or whatever the number is. But they're essentially print-on-demand. It's not a large run, and it's done with, like I say, a laser printer.
 
-**Adam Stacoviak:** \[00:47:58.07\] That's interesting. Well, good thing for Ethan being such an advocate. Does that relationship -- is there a lot of autonomy in there? Do they get to do a lot of things without asking you? Like this language thing, or this Kickstarter thing - are these things your ideas? Do you collaborate quite well? How is that relationship for you? We collaborate well. Ethan doesn't do anything without checking with me, because he is my agent, rather than -- yeah, I'm not even sure if a traditional publisher would do things without checking with the author. I don't have the experience in that area, so I don't know. But it would be one level more removed, if you will.
+**Adam Stacoviak:** \[47:58\] That's interesting. Well, good thing for Ethan being such an advocate. Does that relationship -- is there a lot of autonomy in there? Do they get to do a lot of things without asking you? Like this language thing, or this Kickstarter thing - are these things your ideas? Do you collaborate quite well? How is that relationship for you? We collaborate well. Ethan doesn't do anything without checking with me, because he is my agent, rather than -- yeah, I'm not even sure if a traditional publisher would do things without checking with the author. I don't have the experience in that area, so I don't know. But it would be one level more removed, if you will.
 
 Audible is my publisher, is what it comes down to. I'm different than most authors in that most traditional publishers are - you tend to think of them as text publishers, with a side of audio. Whereas Audible is audio, and they don't care about the text.
 
@@ -274,7 +274,7 @@ Lord Miller, who signed us up not all that long after Endeavor's contract expire
 
 **Adam Stacoviak:** Well, that's good to have. Considering science fiction book of the year 2016, all the success - as a backer in terms of content, you've proven that you can go beyond the trilogy to the fourth book, and now the fifth book coming out soon. I've got it on preorder, so the moment it's out, I'm going to start queuing it up, obviously. I think Heaven's River was a unique twist to all the books... Not bad. I think it went really deep in the Quinlan world. It was different, let's just say. It immersed yourself. The whole thing was about Quinlans, and the Quinlan world, which was unexpected having been through three books with you already. But I think it was a good twist, because you eventually got to this -- well, I always thought Bob was AI. I never really thought of him as replicant until I was preparing for this conversation with you, because I was thinking, I've mentioned your books several times in our podcasts... We talk to nerds. We talk to software developers. And so they're going to be primed for your books. So I don't mind mentioning them.
 
-\[00:52:14.24\] I've even said, "I'm eventually going to get Dennis on this show, so just wait and see." This has been years in the making, basically. But I've never thought of Bob as not artificial intelligence, but I guess he's more replicant than he is AI.
+\[52:14\] I've even said, "I'm eventually going to get Dennis on this show, so just wait and see." This has been years in the making, basically. But I've never thought of Bob as not artificial intelligence, but I guess he's more replicant than he is AI.
 
 And in book four you begin to expose - spoiler, by the way...
 
@@ -298,7 +298,7 @@ You mentioned Ray Porter and his ability to voice things... I think the Pavlonia
 
 That's the museum now." That whole meeting that took place... I think it was the beginning of book three where that takes place, if I recall correctly. It's cool.
 
-**Dennis E. Taylor:** \[00:55:44.26\] Yeah, the whole multiple species thing... I set that up at the beginning of book one with a little bit of exposition on panspermia, because I wanted to establish early on that there was going to be a large level of biological compatibility across different planets. And I don't mean sex. We're not talking \[unintelligible 00:56:06.27\] half human stuff. But you can eat the animals on Vulcan, and the Pav can eat human food, and stuff like that.
+**Dennis E. Taylor:** \[55:44\] Yeah, the whole multiple species thing... I set that up at the beginning of book one with a little bit of exposition on panspermia, because I wanted to establish early on that there was going to be a large level of biological compatibility across different planets. And I don't mean sex. We're not talking \[unintelligible 00:56:06.27\] half human stuff. But you can eat the animals on Vulcan, and the Pav can eat human food, and stuff like that.
 
 So it's set in book one, early on, and then it becomes a theme all the way through that most of the life that they've encountered is carbon-based, liquid water-based, has proteins, carbohydrates, and fats, and is able to eat each other. It sets a certain tone. You can have a different universe, a different background, where life is so fundamentally incompatible between different planets that they can't even breathe each other's air without picking something up.
 
@@ -314,7 +314,7 @@ So it's set in book one, early on, and then it becomes a theme all the way throu
 
 **Dennis E. Taylor:** Yeah. A lot of people say that they had a little trouble with the book at the beginning, because they just kept hearing Bob. But that happens with Ray. What can you do...? He's so identified with the character to Bobiverse fans.
 
-**Break**: \[00:57:45.20\]
+**Break**: \[57:45\]
 
 **Adam Stacoviak:** Speaking of Ray then, I guess, what kind of relationship do you have with Ray Porter? Are you guys buddies? Do you guys hang out? Have you had dinner? What's your relationship with him?
 
