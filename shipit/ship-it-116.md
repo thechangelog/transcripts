@@ -24,7 +24,7 @@
 
 **Justin Garrison:** He's very good at being a whole person, and technology is a part of his personhood. And that is amazing, because you're not your job. You are not that thing you just learned. You are an entire person, and all of those things are interrelated, and you can tie them together in various ways. So let's jump into the interview, and then we'll come back afterwards with some links.
 
-**Break**: \[00:03:28.11\]
+**Break**: \[03:28\]
 
 **Justin Garrison:** Thank you so much, Tim Banks, for being on the show today. We have done 20 minutes of pre-show here, and Tim is not your typical dev advocate, because usually developer advocates will have all the badges from the conferences they've been to in the background... Tim has a line of all of the Brazilian jiujitsu championships he's won behind him, and that is just amazing. So Tim, thanks for coming on the show.
 
@@ -62,7 +62,7 @@ So I care less about how many commits you have. I don't really care about what l
 
 **Autumn Nash:** Dang, why you've gotta do us like that?
 
-**Tim Banks:** \[00:11:57.10\] Well no, because I feel like software engineers have captured most of the attention of the tech community... And for whatever it's worth, they feel like it's \[unintelligible 00:12:05.13\] It is software engineers who delineate people into technical or not technical at conferences, right? It is software engineers who I usually say "Oh, if you work in tech", and then they will give a very developer-specific point of view. And there's a lot more jobs in tech than just software developers.
+**Tim Banks:** \[11:57\] Well no, because I feel like software engineers have captured most of the attention of the tech community... And for whatever it's worth, they feel like it's \[unintelligible 00:12:05.13\] It is software engineers who delineate people into technical or not technical at conferences, right? It is software engineers who I usually say "Oh, if you work in tech", and then they will give a very developer-specific point of view. And there's a lot more jobs in tech than just software developers.
 
 And so what I think is interesting is because my -- first of all, my background is operations. I started off in system administration and things like that... So I know how to code. You know, I code like Taylor Swift sings - just good enough, I guess, to get the job done. But more importantly, I understand that the code is not the important part. It's what you're trying to do.
 
@@ -90,7 +90,7 @@ No. I mean, yeah, I know how to do it, but it's not important."
 
 **Tim Banks:** What I think is really interesting about the dawn of generative AI - because generative AI can do junior dev work, in theory. You give it enough direction, it'll write code, right? So it's imperative for you to understand the processes, and have context. Because the grunt work of writing a Terraform thing based on a problem description is now largely going to be automated away, for good or for bad.
 
-**Autumn Nash:** \[00:15:55.09\] So do you think that will change what the industry is looking for? Because think about it, we've all been in the interview process, and it's like all LeetCode, and "Write this code", and "Do this, and do that." And now that I think a lot of the dev rel jobs have gone away and people are going back to more solutions architect jobs or more engineering jobs, it is just on the small version of skills that is not most of our job that you're tested on. So how do you think that will impact tech, and the roles there are, and how we interview?
+**Autumn Nash:** \[15:55\] So do you think that will change what the industry is looking for? Because think about it, we've all been in the interview process, and it's like all LeetCode, and "Write this code", and "Do this, and do that." And now that I think a lot of the dev rel jobs have gone away and people are going back to more solutions architect jobs or more engineering jobs, it is just on the small version of skills that is not most of our job that you're tested on. So how do you think that will impact tech, and the roles there are, and how we interview?
 
 **Justin Garrison:** Now, I don't know that that's a specific dev rel thing. All jobs are now more aligned with making money. They all have to show that they're valuable to the company, no matter what they're doing. And most of that value comes from having the context to give impact to your customers. Like, grow the customers or make them more successful. And that doesn't matter if you're doing it in dev rel, or as a TAM, or as a software engineer. You have to show your value to the company, meaning you fit into the broader whole of things, and not just you do that one thing on the keyboard.
 
@@ -114,7 +114,7 @@ No. I mean, yeah, I know how to do it, but it's not important."
 
 **Tim Banks:** Here's the thing though - you don't need a person to write a million lines of code anymore. You don't need that. Again, that's something that AI is going to be able to do for you. What you need a person to be able to do is understand what it is you're trying to do. Because that's the only way you're going to be able to give good context for the tools that are going to write the code for you. Eventually, the actual code writing is not even going to happen, because when you have a machine talking to a machine, you don't need to write human-readable code. We are not far away from machines just writing assembly. I'm telling you that right now.
 
-**Autumn Nash:** \[00:20:05.16\] Out of all the jobs that you've done - because you've had a very long career and you've done a lot of different jobs - what do you feel like, I guess, was your favorite, or the one that you had the most impact, or maybe the one that you learned the most out of your whole career?
+**Autumn Nash:** \[20:05\] Out of all the jobs that you've done - because you've had a very long career and you've done a lot of different jobs - what do you feel like, I guess, was your favorite, or the one that you had the most impact, or maybe the one that you learned the most out of your whole career?
 
 **Tim Banks:** That's going to be a tie between being a DevOps engineer at Object Rocket and working at Elastic. Actually, I'll take that back. Let me -- I will say the DevOps engineer at Object Rocket. And the only reason I'll give that over Elastic is because the DevOps engineer at Object Rocket was a startup that had just gotten acquired. We were developing products. So literally, it was the first time I got to sit there and say "This is a product, this is an idea, and we need to bring this to fruition and actually realize this as a thing." This was before -- I mean, Docker existed, but you didn't use it in production for anything stateful. Kubernetes existed, but you didn't use it in anything -- so we ran OpenVZ, which I will still contend that OpenVZ does not get the respect it deserved for being a really awesome open source virtualization product. Because they were actually even called OpenVZ containers. So we were doing a container management system using OpenVZ, and the provisioning thing that me and others cobbled together with Python, using like Slack, and other stuff like that... We had observability, we had automation, we had chat ops, we had all the things we needed, that we wrote ourselves in Python using OpenVZ. And we used that to deploy very meticulously a well, high-performance architected deployment of Elasticsearch as a service and MongoDB as a service and Redis as a service. And I thought that was real cool. And the funny part was we had like one, maybe two sales engineers.
 
@@ -154,7 +154,7 @@ We were talking to customers all the time. We knew our customers, most of them b
 
 **Autumn Nash:** Wait, what is Tinder God -- what else was on it? You know what? I don't need to know...
 
-**Tim Banks:** \[00:23:45.03\] No, you really don't. I promise you, you don't. But what I thought was real cool about that is because -- like, you're running out. Now, we had the 2016 Olympics, right? I don't know if you know this about athletes, but they like to have a lot of sex when they're done competing. And the people who go to watch it, they're all traveling like that. So we had some very real data sharding issues around performance around hyperlocal -- they used to call it the hot girl problem, right? The hot girl problem was whenever a hot girl would go on vacation, we would get a hot data shard, because she was in a new place, and everyone was matching her, and she's doing all this stuff like that, and we'd have huge amounts of data being written to one shard, that's allocated to one person, who was normally over here when she was a medium sized fish in a big pond, and now she goes to a medium sized city, she goes to like Indianapolis or something like that, and now Indianapolis is blowing up, because she's the hottest thing that they've ever seen in 20 years. So now we had to figure out, "Why is this shard hot? Oh, hot girl problem."
+**Tim Banks:** \[23:45\] No, you really don't. I promise you, you don't. But what I thought was real cool about that is because -- like, you're running out. Now, we had the 2016 Olympics, right? I don't know if you know this about athletes, but they like to have a lot of sex when they're done competing. And the people who go to watch it, they're all traveling like that. So we had some very real data sharding issues around performance around hyperlocal -- they used to call it the hot girl problem, right? The hot girl problem was whenever a hot girl would go on vacation, we would get a hot data shard, because she was in a new place, and everyone was matching her, and she's doing all this stuff like that, and we'd have huge amounts of data being written to one shard, that's allocated to one person, who was normally over here when she was a medium sized fish in a big pond, and now she goes to a medium sized city, she goes to like Indianapolis or something like that, and now Indianapolis is blowing up, because she's the hottest thing that they've ever seen in 20 years. So now we had to figure out, "Why is this shard hot? Oh, hot girl problem."
 
 So knowing this was a thing, we had to have like huge preparatory deployments for the 2016 Olympics. Because we were going to have all these athletes in one spot, and all they want to do is, you know, that... And when they \[unintelligible 00:25:07.00\] or whatever.
 
@@ -184,7 +184,7 @@ So knowing this was a thing, we had to have like huge preparatory deployments fo
 
 **Tim Banks:** So these are the things that you get when you're dealing in operations and not software engineering. Because our app developers, people that wrote the interface, and wrote all the -- they didn't have none of these conversations. They didn't do none of that fun stuff.
 
-**Autumn Nash:** \[00:27:51.14\] What was like the worst outage you've had to deal with as like a DevOps SRE engineer? Because you've done some stuff, and you're very, like...
+**Autumn Nash:** \[27:51\] What was like the worst outage you've had to deal with as like a DevOps SRE engineer? Because you've done some stuff, and you're very, like...
 
 **Tim Banks:** I think the worst outage, worst one that -- because there were outages that were caused by stuff that wasn't our fault, that we're just like "Oh, it's down." And whenever somebody fixes their login authentication, \[unintelligible 00:28:10.04\] The worst outage I ever had is I was at Elastic, an engineering all hands in Berlin. It was a great place. I loved it. So all the SREs were there. And we did this to ourselves. Let me just preface this by saying... Because we relied on something that you should never rely on, and it's called Zookeeper.
 
@@ -223,7 +223,7 @@ So Zookeeper fell over. Oh, the reason I say we did this to ourself - because it
 
 **Tim Banks:** And so fixing Zookeeper is not a permanent state. It's like an electron, right? Yes, it is fixed now, but when you go back and look at it again, it's going to be broken. It's Schrodinger Zookeeper. And so we got it up and running, and then everyone was like kind of shook, but also celebrating, and we were now with in this semi-traumatized, "Is it okay to party? Should we celebrate? I don't know..." Because it's working, but no one ever \[unintelligible 00:31:55.21\] And so we were shook the rest of the time. But yeah, that's probably my most fun outage.
 
-**Autumn Nash:** \[00:32:05.06\] I love that y'all were all partying, and the poor one dude on call... I guess at least he wasn't intoxicated...
+**Autumn Nash:** \[32:05\] I love that y'all were all partying, and the poor one dude on call... I guess at least he wasn't intoxicated...
 
 **Tim Banks:** But we were all crowded around him in this Spy Museum, trying to be so helpful...
 
@@ -275,7 +275,7 @@ Cost optimization - I beat this over and over \[unintelligible 00:33:53.29\] abo
 
 **Tim Banks:** ...before you could get a VM approved. Before they would launch anything for you. That was the thing. There was forms for it, there was a whole way of predicting and forecasting. And when the cloud says "You don't have to do that anymore. You can just spin up, and we'll bill you for it later." "Great." Okay. So you didn't have no dev environments that were just sitting there, hanging out, sucking up disk space. Not to the extent you do in cloud, right? You didn't have systems that just stayed on forever. You didn't have petabytes of data sitting out there, unsecured in a bucket because you copied it somewhere, and then now somebody got in and grabbed it, because you don't know how to secure it. You didn't have it like that back then. Not saying it never existed, but not to the extent it does today. Cloud has made us reckless, because it's too easy to do things.
 
-\[00:36:21.24\] There are people that have money... And then you know, when they have so much money and the money don't really mean nothing to them, they just go and do anything with the money, and they get a little reckless with it. Cloud is kind of like that. You have, in theory, or a promise of unlimited resources... So what does it matter how much traffic something takes? How much this, how much that. And then you get the bill. And then you're like "Wow, this bill is a lot higher than I thought it was going to be."
+\[36:21\] There are people that have money... And then you know, when they have so much money and the money don't really mean nothing to them, they just go and do anything with the money, and they get a little reckless with it. Cloud is kind of like that. You have, in theory, or a promise of unlimited resources... So what does it matter how much traffic something takes? How much this, how much that. And then you get the bill. And then you're like "Wow, this bill is a lot higher than I thought it was going to be."
 
 **Justin Garrison:** Well, and you hide your bad architecture with bigger bills. You're just like "Oh, that was a bad choice" and "We'll just pay for it now."
 
@@ -313,7 +313,7 @@ Cost optimization - I beat this over and over \[unintelligible 00:33:53.29\] abo
 
 **Tim Banks:** What's that?
 
-**Autumn Nash:** \[00:40:11.01\] With all of the multi-cloud and all that good stuff, and then AI, I think the people that are really going to make money in the next couple of years are going to be the people that make really good tools for multi-cloud, or things to lift and shift... Because that's what people seem to be doing right now. And the chip companies. Because -- you know when they say that like during the mining gold rush back in the day, the people that made the money were the ones that sold the shovels...
+**Autumn Nash:** \[40:11\] With all of the multi-cloud and all that good stuff, and then AI, I think the people that are really going to make money in the next couple of years are going to be the people that make really good tools for multi-cloud, or things to lift and shift... Because that's what people seem to be doing right now. And the chip companies. Because -- you know when they say that like during the mining gold rush back in the day, the people that made the money were the ones that sold the shovels...
 
 **Tim Banks:** Sold the shovels. Yeah, yeah.
 
@@ -343,7 +343,7 @@ But also, not every GPU needs to be newer, faster, whatever like that. The vast 
 
 **Autumn Nash:** Yeah. I think startups should start in the cloud, and then figure out what you're using, and when you figure out your scale...
 
-**Tim Banks:** \[00:43:51.17\] But the thing that I think where startups mess up is startups build in the cloud as if they're always going to stay in the cloud. And what you should be is agnostic as possible, because it may behoove you to be able to move at some point. And you need to make good architectural decisions in the beginning, that don't make it extremely difficult or impossible for you to change down the road.
+**Tim Banks:** \[43:51\] But the thing that I think where startups mess up is startups build in the cloud as if they're always going to stay in the cloud. And what you should be is agnostic as possible, because it may behoove you to be able to move at some point. And you need to make good architectural decisions in the beginning, that don't make it extremely difficult or impossible for you to change down the road.
 
 **Autumn Nash:** That's not even just for cloud, though. I think that's for -- how many times have you seen horrible tech debt come from the fact that people just didn't really spend a lot of time on their design and architecture in the beginning, even with databases? You know what I mean?
 
@@ -381,7 +381,7 @@ But also, not every GPU needs to be newer, faster, whatever like that. The vast 
 
 **Autumn Nash:** Yes. And then you had all this -- you had a bunch of jujitsu... Dude, it was so good, because it was like this real life thing, and you were bringing this real life experience with these pictures and these visuals, but it was also talking about technology. And it was wild... Like, it was such a good talk. Usually -- sometimes you can get very bored in the middle of a very technically depth talk, but you're like "Okay, I want the information", you know? That talk was so good. Can you tell us more about that? Kind of how Justin framed that, and about how you do that?
 
-**Tim Banks:** \[00:48:09.19\] So we talk about techniques, and a lot of people in jujitsu, or anything, we talk about technique. Technique is the ideal way that something should work. So if I'm going to do what's called a scissor sweep... So I'm on my back and I'm in guard. I'm going to grab your lapel of your gi, and I'm going to grab a sleeve, and then I do what's called a shrimp.
+**Tim Banks:** \[48:09\] So we talk about techniques, and a lot of people in jujitsu, or anything, we talk about technique. Technique is the ideal way that something should work. So if I'm going to do what's called a scissor sweep... So I'm on my back and I'm in guard. I'm going to grab your lapel of your gi, and I'm going to grab a sleeve, and then I do what's called a shrimp.
 
 So I'm going to move on my side, I'm going to scissor my legs, and you're going to fall over on your side. And that's going to work pretty well in a drill. If I do it like in a \[unintelligible 00:48:35.11\] it's never going to work, because I have to understand the fundamentals behind why a scissor sweep works.
 
@@ -407,7 +407,7 @@ A technique is the application of a fundamental. The fundamentals behind why a s
 
 **Autumn Nash:** It is. It's amazing.
 
-**Tim Banks:** \[00:52:00.20\] So is tech. And so when I talk about -- going back to having context for what you're doing... If you're just doing a scissor sweep and you can do these moves and hope someone falls over, it's never going to work, because you don't have context for what's actually going on. When you understand the fundamentals, now you see the context of what you're doing. Now you can apply what's going to work in that situation, versus doing the technique.
+**Tim Banks:** \[52:00\] So is tech. And so when I talk about -- going back to having context for what you're doing... If you're just doing a scissor sweep and you can do these moves and hope someone falls over, it's never going to work, because you don't have context for what's actually going on. When you understand the fundamentals, now you see the context of what you're doing. Now you can apply what's going to work in that situation, versus doing the technique.
 
 So a coder who just knows coding is -- all they know is going to type code. But if they understand the fundamentals behind how the infrastructure works and how your architecture is laid out, and why things are the way they are, you're going to be able to make better choices about how you write code and how you fix problems.
 
@@ -425,7 +425,7 @@ You can find me -- I'm writing a blog, it's at tim-banks.ghost.io. It's on Ghost
 
 **Tim Banks:** Yay.
 
-**Break**: \[00:53:51.20\]
+**Break**: \[53:51\]
 
 **Justin Garrison:** Thank you so much, Tim, for coming on the show. It was a lot of fun. I don't think we've laughed that hard on any interview.
 
@@ -455,7 +455,7 @@ You can find me -- I'm writing a blog, it's at tim-banks.ghost.io. It's on Ghost
 
 **Autumn Nash:** Yeah. So think about -- like, you are paying crazy interest. This is a lot of money for an acquisition. So people were shocked that Google was ready to pay this much money for a startup. And then they said, "Hey, never mind. We're going to IPO. We don't want your money." And turned it down.
 
-\[00:55:59.26\] So it was wild, because the talk of this acquisition was so big. People were just like "They're going to do what? For how much money?" And for them to turn it down... I mean, in this era of people being really unsure about the future of tech and like products, a lot of people would have took that money and got out.
+\[55:59\] So it was wild, because the talk of this acquisition was so big. People were just like "They're going to do what? For how much money?" And for them to turn it down... I mean, in this era of people being really unsure about the future of tech and like products, a lot of people would have took that money and got out.
 
 **Justin Garrison:** Yeah, that's a lot of money. And looking back -- I didn't realize Motorola was 2011... And they were $12.5 billion. And that was supposed to be an all cash deal for the shares, because Motorola was a public company...
 
