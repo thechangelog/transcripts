@@ -1,6 +1,6 @@
 **Jerod Santo:** We are back with yet another It Depends episode. That means I have to play my jingle.
 
-**Jingle:** \[00:04:01.09\]
+**Jingle:** \[04:01\]
 
 **Jerod Santo:** You know, there are no silver bullets... So the best way that we can help you build great software is to equip you with knowledge. Much of that knowledge can only be gained through experience, and that's why on this It Depends miniseries I sit down with experienced devs to discuss their decision-making process. Today I have with me Ben Johnson, who you may have heard on our shows in the past nine times. In fact, this is Ben's 10th appearance on Changelog pods.
 
@@ -42,7 +42,7 @@ So today we want to talk about databases, and this is an It Depends where we kin
 
 **Ben Johnson:** Yeah, for sure.
 
-**Jerod Santo:** \[00:08:04.27\] But just the breadth of the types of databases is somewhat overwhelming. here we are talking about three different databases, but they're all pretty much the same. they probably share 90% overlap. And then the devil's in the details.
+**Jerod Santo:** \[08:04\] But just the breadth of the types of databases is somewhat overwhelming. here we are talking about three different databases, but they're all pretty much the same. they probably share 90% overlap. And then the devil's in the details.
 
 **Ben Johnson:** Yeah. And a lot of them -- even SQLite has support for MySQL style SQL, and Postgres style SQL, so you can kind of swap out parts of them... So they definitely try to overlap.
 
@@ -64,7 +64,7 @@ So today we want to talk about databases, and this is an It Depends where we kin
 
 **Jerod Santo:** Right. That leads me to a whole other line of thinking, which is beyond database choice... It's like, how much of your application logic should reside inside of your database? And I feel there's been a pendulum swing in both directions over time, where it used to be store procedures and all the things in there. And we found problems with that, operational problems, all kinds of things that you could say "Well, that's not ideal because of this." And then I think Ruby on Rails, at least in the web dev space, really swung in the opposite direction of your data store is a dumb thing that you treat as an input/output mechanism, that will store things on disk... And you put everything inside your application code; your consistency rules, your relationships - all that stuff is an app code... And that way, you can actually even just swap out the backend and not even worry about it. And I feel that was a move too far in the other way, because of the reasons you said. All of a sudden, you want to use it outside of the context of your Ruby code, and you're "Oh, where's all my consistency rules? Where's all my constraints, and all that?" Well, they're over there in your Ruby on Rails app, so you can't use it in any other context, so you lose it, and now you have data problems on the backend. So that's another thing, is where do you put stuff? Where do you fall on that, usually?
 
-**Ben Johnson:** \[00:11:49.20\] I think the high-level things foreign key constraints, some checks, check constraints maybe, I would probably just put in the database. Because yeah, you do have a lot of users or clients for a database, not just your own single application... So I think it's tough. I mean, I think putting too much into your application layer - again if you ever want to rewrite it, or change it, or move somewhere else, you're moving everything. But -- I mean, I used to do stored procedures back in Oracle, and I would say the one thing I really loved about stored procedures is that they're just wicked fast. They're literally -- you're putting your code right next to your data, and it's hard to explain just how fast a stored procedure will run. So if you really need the speed, that can be great, but again, they're terrible to maintain. This was 20 years ago, so there was no Git repo where we versioned everything. It was "Oh, we're just going to upload this giant SQL file to replace our stored procedures and hope it works. So that's terrifying.
+**Ben Johnson:** \[11:49\] I think the high-level things foreign key constraints, some checks, check constraints maybe, I would probably just put in the database. Because yeah, you do have a lot of users or clients for a database, not just your own single application... So I think it's tough. I mean, I think putting too much into your application layer - again if you ever want to rewrite it, or change it, or move somewhere else, you're moving everything. But -- I mean, I used to do stored procedures back in Oracle, and I would say the one thing I really loved about stored procedures is that they're just wicked fast. They're literally -- you're putting your code right next to your data, and it's hard to explain just how fast a stored procedure will run. So if you really need the speed, that can be great, but again, they're terrible to maintain. This was 20 years ago, so there was no Git repo where we versioned everything. It was "Oh, we're just going to upload this giant SQL file to replace our stored procedures and hope it works. So that's terrifying.
 
 **Jerod Santo:** Yeah. I wonder if -- I'm sure there's people who feel like they've found a good middle ground, and I'm most familiar with Postgres, so writing PSQL functions and using extensions, but also keeping that stuff in version-controlled, maybe tested, I don't know, places, where you can... Because for me the distance from my code to a stored procedure was always the problem. It's like "Now I have to connect to a thing over there, and then update the stored procedure..." And it was always just a weird disconnect there that I felt was going to cause problems, whether it ever did or not.
 
@@ -76,11 +76,11 @@ But I'm wondering if people are building -- you know, similar to the folks who t
 
 **Ben Johnson:** I think it's interesting to kind of play around and see where you can maximize different performance characteristics, I would say. I don't feel like from a usability standpoint it's always the best. I think that Postgres is a pain to set up a lot of times to begin with, so I think adding more to it just scares me a little bit. But yeah, I think that's cool, try new things out, see what sticks.
 
-**Break**: \[00:15:03.15\]
+**Break**: \[15:03\]
 
 **Jerod Santo:** How many different types of databases have you used throughout your career? I listed off a bunch of them. Have you used all those?
 
-**Ben Johnson:** I think most of them. I haven't done a ton with graph databases, but I've done document databases, I've worked in time series before, I've done columnar, for analytics... The way I think of it in my head - I think document was an interesting kind of road we went down, of like -- you know, you kind of denormalize your data, and it makes it a lot faster just to grab one big, chunky object, instead of doing, you know, one, and then an n+1 query after that to grab all the children. But denormalization has its own issues, as far as, you know, you update in one place, and it doesn't update in all of them necessarily... So I think that -- especially with the work that Postgres and a lot of databases like SQLite have done as far as JSON embedding inside the rows, I don't see a big need for document databases these days. I think you can do a lot of that stuff inside relational databases.
+**Ben Johnson:** I think most of them. I haven't done a ton with graph databases, but I've done document databases, I've worked in time series before, I've done columnar, for analytics... The way I think of it in my head - I think document was an interesting kind of road we went down, of like -- you know, you kind of denormalize your data, and it makes it a lot faster just to grab one big, chunky object, instead of doing, you know, one, and then an N+1 query after that to grab all the children. But denormalization has its own issues, as far as, you know, you update in one place, and it doesn't update in all of them necessarily... So I think that -- especially with the work that Postgres and a lot of databases like SQLite have done as far as JSON embedding inside the rows, I don't see a big need for document databases these days. I think you can do a lot of that stuff inside relational databases.
 
 **Jerod Santo:** I would tend to agree. I have used MongoDB on a production project. It was probably 10, 15 years ago now, and it was very much because I was convinced by one of their sales demos... So it was when they showed this layout of Magento, which is a PHP e-commerce framework, very popular then - probably still in use in many places now - and they showed the table structure of that particular piece of software... And it was gnarly, in the bad sense of gnarly. I mean, there were so many relationships, so many -- this is like "How many joins do you have to do to pull together your shopping cart?" was kind of like what this thing was.
 
@@ -100,7 +100,7 @@ The graph database side though I think is a little trickier. I think there are e
 
 **Ben Johnson:** I mean, they have things that relate to other things... If you need to do six degrees of Kevin Bacon in your application for some reason, then I think a graph database makes sense.
 
-**Jerod Santo:** \[00:22:07.13\] Right. Yeah, your typical social network makes sense for a graph database, because if you think about followers and followings and friendships and these kinds of relations, if it's all about that, then - the way I heard it explained is if you have edges and nodes in a system, if the edges are more important than the nodes are, which the edges would be the connecting points, then you're probably well served by a graph database. And in the case of a social network, that's pretty much what it's all about, right? It's like who's connected to whom, where. Then something like Neo4j or other graph solutions have made sense... I've never used one of those, and so I can't speak to it personally.
+**Jerod Santo:** \[22:07\] Right. Yeah, your typical social network makes sense for a graph database, because if you think about followers and followings and friendships and these kinds of relations, if it's all about that, then - the way I heard it explained is if you have edges and nodes in a system, if the edges are more important than the nodes are, which the edges would be the connecting points, then you're probably well served by a graph database. And in the case of a social network, that's pretty much what it's all about, right? It's like who's connected to whom, where. Then something like Neo4j or other graph solutions have made sense... I've never used one of those, and so I can't speak to it personally.
 
 **Ben Johnson:** Yeah, I haven't really either. I think the funny thing though is all these essentially boil down to B+ trees as the actual implementation. So it's kind of all a matter of language at the high level. They're all kind of key-value stores underneath. It's interesting too, because most of it you're optimizing to minimize the number of queries, so you don't have so much latency. So you can send a single query to get a bunch of relationships, instead of sending a ton of queries to get those. Whereas once you actually get to running something locally, like a Bolt or a SQLite, you don't have that overhead, so you could make a bunch of different queries and you can essentially kind of have kind of the best of all those worlds. You could basically write kind of a graph database with just a SQLite, since you're so close to the data.
 
@@ -124,7 +124,7 @@ It's good if you really want a really super-lightweight dependency. If you want 
 
 **Jerod Santo:** While we're talking key-value stores - thoughts on Redis?
 
-**Ben Johnson:** \[00:26:05.13\] I don't use a ton of Redis. Most of the use cases I see it for are more at like a caching layer. And I know it does a bunch of other things, too; you can do kind of queues, and you can do sets, and all kinds of stuff. I think those are probably fine, but it seems like it's rarely used as a primary store. It's more like a memcached kind of thing.
+**Ben Johnson:** \[26:05\] I don't use a ton of Redis. Most of the use cases I see it for are more at like a caching layer. And I know it does a bunch of other things, too; you can do kind of queues, and you can do sets, and all kinds of stuff. I think those are probably fine, but it seems like it's rarely used as a primary store. It's more like a memcached kind of thing.
 
 **Jerod Santo:** Right.
 
@@ -172,7 +172,7 @@ So if you look at Kyle Kingsbury, who goes by Aphyr online, he does a bunch of w
 
 **Ben Johnson:** And once you get into distributed systems especially, it's kind of hard to keep in your head all the different clients going on, what their views of data are, and how they interact with each other... So Kyle Kingsbury has a website, Jepsen - that's his software as well, software to test these different databases. But on there, there's a list of consistency models that he'll show on there. And that's a great resource to kind of dive in and to kind of understand the relationship between them. There's kind of two different camps. There's kind of more traditional databases and their write isolation, more or less, I would say. That's where you think of like read committed, or read uncommitted, and snapshot consistency... But then there's also things where you get into eventually consistent systems, about what they can read, and it's more kind of like a read consistency side.
 
-\[00:30:05.28\] So there's a lot to read out there, honestly, and it's kind of -- it hurts the brain a lot. I would just say, if you're not sure, generally try to have the highest isolation level you can, and you won't get a bunch of weird little bugs later on that you can't figure out.
+\[30:05\] So there's a lot to read out there, honestly, and it's kind of -- it hurts the brain a lot. I would just say, if you're not sure, generally try to have the highest isolation level you can, and you won't get a bunch of weird little bugs later on that you can't figure out.
 
 **Jerod Santo:** And is SQLite's isolation level so good because of its embedded nature, or because they've coded it in such a way that it's that good, or both?
 
@@ -214,7 +214,7 @@ And one of my favorite -- and I bring this up, but I really don't mean to dump o
 
 **Jerod Santo:** I mean people would wonder if we literally died. So there is a level that you have to define what kind of thresholds matter for us in our use cases. And I think, as weird as it sounds, Ben, saying "Some data loss is okay", coming from a database guy... Refreshing, I guess. \[laughs\] It makes me feel better.
 
-**Ben Johnson:** \[00:33:53.24\] Yeah. And honestly, I wrote a tool called Litestream, where you can kind of continuously stream updates up to S3 for SQLite... So you basically have this super-small window of data loss of maybe a second or two. But honestly, that's even overkill for a lot of people. There's even documentation on the website of "Hey, if you just want to use a cron job and back up hourly, here's how to do it." It's simple, and it's hard to break. So I think there's great options when you don't need that really high level of data loss guarantee, I guess.
+**Ben Johnson:** \[33:53\] Yeah. And honestly, I wrote a tool called Litestream, where you can kind of continuously stream updates up to S3 for SQLite... So you basically have this super-small window of data loss of maybe a second or two. But honestly, that's even overkill for a lot of people. There's even documentation on the website of "Hey, if you just want to use a cron job and back up hourly, here's how to do it." It's simple, and it's hard to break. So I think there's great options when you don't need that really high level of data loss guarantee, I guess.
 
 **Jerod Santo:** Right. I think it's easy for us all to kind of jump to the maximal side of anything... Because I immediately think "Well, that wouldn't work for Amazon", because every second they're down, they're literally losing hundreds of thousands, if not millions of dollars in sales. And so then I'm like "But I'm not building a solution for Amazon. I'm building it for me."
 
@@ -226,7 +226,7 @@ And one of my favorite -- and I bring this up, but I really don't mean to dump o
 
 **Jerod Santo:** \[laughs\] Yeah, you might actually save yourself downtime and trouble by having simpler solutions.
 
-**Break**: \[00:35:27.02\]
+**Break**: \[35:27\]
 
 **Jerod Santo:** Well, you'll like this, Ben. I wrote this on Monday for Changelog News. I was covering a story called "Why CSV is still king", which - of course, there's the details in there, but you kind of get the point from the title of their post. And one of the reasons \[unintelligible 00:37:38.04\] One of these interesting accidental standards; nobody designed this thing. It's almost like JavaScript, 10 days in a lab and now out it comes... This just became a thing, and remains a thing, and this whole point of this post was -- and it ain't going anywhere, basically. But one of the things they said is it's good enough for many situations, and it's dead simple to use. It's just dead simple. And so that got me thinking more and more about simplicity. And of course, there's two sides to simplicity. One side is like, it's not clever; it's not impressive. It's simple.
 
@@ -264,7 +264,7 @@ And one of my favorite -- and I bring this up, but I really don't mean to dump o
 
 **Ben Johnson:** Oh, there definitely are. I think people that are used to more of a graphical user interface - there's not a great way to do that for remote databases. Honestly, that's one of the biggest things I find that people hit. I always use CLIs, so it never bothers me, but that is definitely a big one.
 
-\[00:41:54.02\] I mean, like you mentioned around concurrency - you can't have multiple writers. There's obviously some solutions around disaster recovery you can do, but essentially, it is just a file on a disk. It can be on its own; you can't just replicate it with just simple SQLite. So there's definitely some trade-offs.
+\[41:54\] I mean, like you mentioned around concurrency - you can't have multiple writers. There's obviously some solutions around disaster recovery you can do, but essentially, it is just a file on a disk. It can be on its own; you can't just replicate it with just simple SQLite. So there's definitely some trade-offs.
 
 **Jerod Santo:** Right. So in comes Litestream. You built that for that purpose, right?
 
@@ -302,11 +302,11 @@ I think a lot of their -- they have the SQLite Consortium as well, which is a bu
 
 **Jerod Santo:** React themselves are moving server-side as well, to provide more of a full-stack solution... Although that's had a lot of issues because of just the nature of how React started, and what it is, and the user base of React. It's been very difficult for them to make that transition. So I think there's opportunity for newer component libraries that are server-side in nature or full-stack in nature to start with to actually gain some foothold, because simplicity and React at this point are not in the same ballpark. They just aren't.
 
-**Ben Johnson:** \[00:46:09.05\] Yeah. I try to learn React once every two years... And I'm like "Eh, I'll just go back to writing Go."
+**Ben Johnson:** \[46:09\] Yeah. I try to learn React once every two years... And I'm like "Eh, I'll just go back to writing Go."
 
 **Jerod Santo:** Yeah. The basics aren't too bad, but things do get complex pretty quickly. But anyways, we were talking SQLite and scaling. You all have put on some work to do some horizontal scaling as well, like moving it around to different regions, and having -- like if I had a web app with app servers geographically distributed, aren't you trying to also take my SQLite database and move it around, and have it replicated around the world?
 
-**Ben Johnson:** Yeah. So we have an open-source project called LiteFS, where we essentially -- we implement kind of like a file system layer in Fuse, so that we intercept... We basically -- it's a pass-through file system, essentially. So all your SQLite writes and whatnot go straight through to the database, but we can essentially detect where transactions start and end, so that we can then kind of wrap up those changes into a separate file, and then ship those out to other SQLite or Litestream -- sorry, LiteFS... Too many Lites. LiteFS nodes, and they can then apply those changes. And it's all done kind of at a file system layer and a physical layer, so you can use any extensions you want on top of that. It's not specific to any of those.
+**Ben Johnson:** Yeah. So we have an open source project called LiteFS, where we essentially -- we implement kind of like a file system layer in Fuse, so that we intercept... We basically -- it's a pass-through file system, essentially. So all your SQLite writes and whatnot go straight through to the database, but we can essentially detect where transactions start and end, so that we can then kind of wrap up those changes into a separate file, and then ship those out to other SQLite or Litestream -- sorry, LiteFS... Too many Lites. LiteFS nodes, and they can then apply those changes. And it's all done kind of at a file system layer and a physical layer, so you can use any extensions you want on top of that. It's not specific to any of those.
 
 **Jerod Santo:** So as an app developer, I don't have to necessarily think about it. I just deploy and say "Put my--" I was going to say dynos, but that's the Heroku thing. What do y'all call it at Fly? Put my Fly machines...?
 
@@ -344,7 +344,7 @@ I think a lot of their -- they have the SQLite Consortium as well, which is a bu
 
 **Ben Johnson:** That's in Etcd, which is in Kubernetes.
 
-**Jerod Santo:** \[00:49:54.03\] It's in Etcd, yeah. Exactly. And the amount of success, and money, and valuations, and money raising stuff were just going through the roof... And all these BoltDBs and all of these different things. Wasn't it?
+**Jerod Santo:** \[49:54\] It's in Etcd, yeah. Exactly. And the amount of success, and money, and valuations, and money raising stuff were just going through the roof... And all these BoltDBs and all of these different things. Wasn't it?
 
 **Ben Johnson:** Oh, yeah. Go kind of went crazy with the cloud-native stuff.
 
@@ -408,7 +408,7 @@ And then the other one was just read replicas. So people might want to have read
 
 **Jerod Santo:** Haven't had any wanderlust?
 
-**Ben Johnson:** \[00:53:50.25\] I don't know, some things I like... Like Zig, I thought was kind of interesting. I wish it was just more mature. But I like the idea of specifically allocating your memory very intentionally, I guess. So I find that interesting. I liked Rust, the language, but the actual async implementation I got so infuriated by that I just gave up on Rust.
+**Ben Johnson:** \[53:50\] I don't know, some things I like... Like Zig, I thought was kind of interesting. I wish it was just more mature. But I like the idea of specifically allocating your memory very intentionally, I guess. So I find that interesting. I liked Rust, the language, but the actual async implementation I got so infuriated by that I just gave up on Rust.
 
 **Jerod Santo:** What triggered you the most about it?
 
@@ -450,7 +450,7 @@ So yeah, I think time series is a great example of something where you can get s
 
 **Jerod Santo:** No, I said "Just start with Postgres."
 
-**Ben Johnson:** \[00:58:01.07\] Start with Postgres, yeah. But I think there's so many areas you can kind of delve into, and I think there are definitely use cases for people that need something faster, or whatnot. It's interesting, a lot of these kind of niche databases came because you can get a 10x performance if you relax certain constraints. If you don't need a certain isolation level, for example, you can really go a lot faster. So I think kind of delving in and kind of understanding your data, and what the needs are, and what constraints you have can really help you kind of pick out which database works for your situation and what performance needs you actually have.
+**Ben Johnson:** \[58:01\] Start with Postgres, yeah. But I think there's so many areas you can kind of delve into, and I think there are definitely use cases for people that need something faster, or whatnot. It's interesting, a lot of these kind of niche databases came because you can get a 10x performance if you relax certain constraints. If you don't need a certain isolation level, for example, you can really go a lot faster. So I think kind of delving in and kind of understanding your data, and what the needs are, and what constraints you have can really help you kind of pick out which database works for your situation and what performance needs you actually have.
 
 **Jerod Santo:** Good advice. Good advice, indeed. And last question for you, Ben... How do you make software simple?
 
