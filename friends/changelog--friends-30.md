@@ -32,7 +32,7 @@
 
 **Jerod Santo:** That's cool.
 
-**Adam Stacoviak:** \[unintelligible 00:02:01.11\]
+**Adam Stacoviak:** Have somebody else strumming them for you, but you can do the fretting.
 
 **Samuel Goff:** Yeah... When I was younger, I traveled to New Orleans, and you'd see the one man band, and they've got the --
 
