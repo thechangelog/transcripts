@@ -164,7 +164,7 @@ But yeah, so all the abstractions and things that we had inside Serenity OS, the
 
 We want to make a browser for everybody, not just people who use the same operating systems that we do, or people who feel the same way we do about the web, or whatever... And especially now being a nonprofit, that's something that's very important to me, is that we have sort of a very neutral stance on this type of stuff, that we just have to make ourselves available everywhere, to everybody... Which is a bit scary, I will admit, because I don't know the first thing about Windows development. Last time I did Windows development was on 3.1, I think. So it's been a while.
 
-**Break**: \[00:29:25.10\]
+**Break**: \[29:25\]
 
 **Adam Stacoviak:** You'd mentioned I think in your FAQs really the use of third party libraries. Can you speak to, I guess, the freedom you may have now, comparative to Serenity OS's strict "no third party, we write it ourselves" kind of montage? Can you express how that's changing for you?
 
@@ -238,7 +238,7 @@ And Swift, unlike Rust, actually has official investment in C++ interoperability
 
 So in the reality where we're like doing a ship of Theseus maneuver on our project, having a successor language that actually tries to interoperate with C++ is essential. So what that means in practice is that Swift has facilities that allow you to call from C++ to Swift, and from Swift to C++. It's not always completely trivial to do so, especially if you have weird, complicated objects, with confusing ownership, but there's a way to make them talk to each other. And we didn't get the feeling that that's nearly as easy in Rust land, because - at the risk of being slightly controversial, I get the impression that people in the Rust land would rather make fun of C++ than help C++ programmers interoperate with Rust, which is unfortunate.
 
-**Adam Stacoviak:** It is unfortunate. You are correct though... The new GitHub organization for Swift was announced on June 10th, so that is true. Github.com/swiftlang.
+**Adam Stacoviak:** It is unfortunate. You are correct though... The new GitHub organization for Swift was announced on June 10th, so that is true. github.com/swiftlang.
 
 **Andreas Kling:** Are you fact-checking me, Adam? \[laughter\]
 
@@ -268,7 +268,7 @@ I think that was a cool process too, to kind of give that task to those who are 
 
 **Andreas Kling:** Yeah, which is why we've been taking so long, and we're still hemming and hawing a little bit... Because whatever we choose, we're going to be stuck with for a long time. There are other alternatives, but one that I like in particular is there's this guy named Sean Baxter, who is doing a weirdly heroic one-man effort to evolve C++. He has his own C++ compiler called Circle, and he has adapted the memory safety model of Rust to C++, and then built a compiler that shows that you can actually do this.
 
-And he did it all himself, and he's been dabbing on people on Twitter, for lack of a better term, about how it is actually possible to do this... And he recently spoke to the C++ Standards Committee, showing them "Look, you say that this is impossible, but I did it. Can we talk about making C++ safe now?" And they seemed interested, but it's the C++ Standards Committee, so even if they're ultra-interested, this might get into a standard in eight years, or something.
+And he did it all himself, and he's been dabbing on people on Twitter, for lack of a better term, about how it is actually possible to do this... And he recently spoke to the C++ Standards Committee, showing them "Look, you say that this is impossible, but I did it. Can we talk about making C++ safe now?" And they seemed interested, but it's the C++ Standards Committee, so even if they're ultra-interested, this might get into a STDIN eight years, or something.
 
 Who knows. So we want to ship something to users sooner than C++ can evolve, so we don't really have the luxury of waiting for that kind of thing.
 
@@ -370,7 +370,7 @@ And having the success of GitHub and being in this position where - yes, I think
 
 **Jerod Santo:** \[laughs\]
 
-**Adam Stacoviak:** But I do agree. Chris \[at\] GitHub.com was part of who you were, and losing that was a change.
+**Adam Stacoviak:** But I do agree. Chris \[at\] github.com was part of who you were, and losing that was a change.
 
 **Chris Wanstrath:** Definitely. I started GitHub when I was 22, and when I left I was 33. And so it's just a huge chunk of my life, and a huge chunk of my growing up. I mean, I don't know why anyone would listen to a 22-year-old CEO at this point, but that's what happened.
 
@@ -594,7 +594,7 @@ But the point of the story is from March until April, I wanted that damn clicker
 
 **Break**: \[01:35:19.29\]
 
-**Jerod Santo:** GitHub.com. Land on a repo page, right? Pjax, probably beloved by you to this day, right? Pjax, was that your creation? I believe it was.
+**Jerod Santo:** github.com. Land on a repo page, right? Pjax, probably beloved by you to this day, right? Pjax, was that your creation? I believe it was.
 
 **Chris Wanstrath:** That was me.
 
