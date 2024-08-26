@@ -30,7 +30,7 @@ I didn't go to school for software, and this has been, I said, a little playgrou
 
 And yeah, it also led to all kinds of interesting collaborations and opportunities to do work, that actually ended up being kind of impactful in terms of -- I said, the partnership with the Internet Archive, where we're able to preserve Winamp skins, which are these themes that people could create for Winamp, and did, in vast quantities... And yeah, that's felt an actual meaningful thing to do, to take all this work that amateur artists and people just getting started in their careers, so many people who work in design now, or even software, got their start tinkering with this stuff... And to be able to preserve it has felt really cool. So both an education for me, and accidentally some useful outcome for others.
 
-**Jerod Santo:** \[00:08:04.03\] Well, Winamp has a lot of nostalgia for many of us, especially - I would call us age mates; those of us in 30s and 40s, who grew up really in the Web 1.0 era. In the Napster era, for sure. Winamp and Napster were, for me at least, two programs that were just two peas in the same pod. You'd download Napster, and listen to it in Winamp, and... Too much free time as a youth, and not really a robust Internet, you know... There wasn't just streams of video content that you could just flip through and watch... So you really had to kind of tinker and toy to entertain yourself. So you're listening to that new album that you shared of your own CD, and then downloaded off of Napster from yourself, because it was all legal, as we all did... And then you're just tweaking your look. I mean, it was very much the digital equivalent of pimping out your ride. Although because it's on a desktop in the '90s, the only people that are going to see it are those who come over and sit down next to you. But still, it was still so -- what's the word? I don't know, just...
+**Jerod Santo:** \[08:04\] Well, Winamp has a lot of nostalgia for many of us, especially - I would call us age mates; those of us in 30s and 40s, who grew up really in the Web 1.0 era. In the Napster era, for sure. Winamp and Napster were, for me at least, two programs that were just two peas in the same pod. You'd download Napster, and listen to it in Winamp, and... Too much free time as a youth, and not really a robust Internet, you know... There wasn't just streams of video content that you could just flip through and watch... So you really had to kind of tinker and toy to entertain yourself. So you're listening to that new album that you shared of your own CD, and then downloaded off of Napster from yourself, because it was all legal, as we all did... And then you're just tweaking your look. I mean, it was very much the digital equivalent of pimping out your ride. Although because it's on a desktop in the '90s, the only people that are going to see it are those who come over and sit down next to you. But still, it was still so -- what's the word? I don't know, just...
 
 **Adam Stacoviak:** Fun?
 
@@ -46,7 +46,7 @@ But then that announcement created this flywheel where people were getting in to
 
 **Jerod Santo:** And what makes up an actual skin? I read it's just as a zip file, but certainly, if you were to describe the spec, what would that spec say?
 
-**Jordan Eldredge:** \[00:12:07.10\] So like many file formats, it's really just a zip archive by another name. That's the wrapper, I guess you could call it. And then there's a convention of files inside of it, which are actually just sprite sheets. So they're Bitmap files, and each file contains all the buttons for the main window, but in a very particular layout. And that's the main bulk of it, is these sprite sheet images. But then there's also some INI files for "What colors should the text be?" And there's even a region.txt file, which says "Define some polygons of which areas of the skin should be transparent." So there's a wide variety of just little different kinds of things that are in there, and they all have file names that they're expected to be located at.
+**Jordan Eldredge:** \[12:07\] So like many file formats, it's really just a zip archive by another name. That's the wrapper, I guess you could call it. And then there's a convention of files inside of it, which are actually just sprite sheets. So they're Bitmap files, and each file contains all the buttons for the main window, but in a very particular layout. And that's the main bulk of it, is these sprite sheet images. But then there's also some INI files for "What colors should the text be?" And there's even a region.txt file, which says "Define some polygons of which areas of the skin should be transparent." So there's a wide variety of just little different kinds of things that are in there, and they all have file names that they're expected to be located at.
 
 **Jerod Santo:** And do how people figured that out originally? Did they reverse-engineer the default skin, or were there instructions on how to build a skin coming from the Winamp folks?
 
@@ -62,7 +62,7 @@ And yeah, so that was the original. And then I think there was minimal documenta
 
 **Jerod Santo:** Yeah. It's hard to overstate how groundbreaking and culture-changing Napster really was for us. It was the killer app of the internet for teenagers. It was the reason that I got a computer when I was younger. It was "I need to listen to music." And my friends were doing it. And the stealing part wasn't even the point... It was just all of a sudden you now had unfettered access... Which is what everybody has today, so we take it for granted. Like, of course if I could pay $9.99 or $15.99 or whatever it is a month, and be able to listen to every song, pretty much, in the world, I would have just done that instead of the whole Napster game... Because it was also a huge time sink, and failed downloads, and you'd get the file and it's a really low bit rate version, and you're "Ah..." And then you've got to spend all this time futzing with the ID3 tags to make it look nice... It was a ton of work for us. Thankfully, we had free time. But before that, access to music was not straightforward.
 
-**Jordan Eldredge:** \[00:15:54.17\] Yeah. I think especially as a teenager, right? You were limited in your funds, and you have to make your really strategic moves as to which album you're going to get... And yeah, I think it really did completely change how we interact with music. And I think it was both the unfettered access to just everything, and obviously the price point was attractive...
+**Jordan Eldredge:** \[15:54\] Yeah. I think especially as a teenager, right? You were limited in your funds, and you have to make your really strategic moves as to which album you're going to get... And yeah, I think it really did completely change how we interact with music. And I think it was both the unfettered access to just everything, and obviously the price point was attractive...
 
 **Jerod Santo:** Of course.
 
@@ -114,7 +114,7 @@ But then you think, "Okay, here's a song that I like... I'm going to go acquire 
 
 **Jerod Santo:** Classic rock. See, I can't even do that. That's too big of a genre. But if you said "Okay, you're going to go lift weights", then I would probably say ACDC, Back in Black.
 
-**Sample**: \[00:19:32.23\]
+**Sample**: \[19:32\]
 
 **Jerod Santo:** Because it's the perfect kind of meathead, weightlifting, rock/jock anthem. That's a perfect one, front to back, in my opinion. But there's so many that it's very difficult to say. But Adam, you have one in mind, so please do...
 
@@ -126,7 +126,7 @@ But then you think, "Okay, here's a song that I like... I'm going to go acquire 
 
 **Jordan Eldredge:** And I think probably my favorite artist is - I don't know how well-known he is... He has a cult following, but Tom Waits, and his album Alice.
 
-**Sample**: \[00:20:23.02\]
+**Sample**: \[20:23\]
 
 **Jordan Eldredge:** And actually my main love of file sharing was related to opera. So I studied music in college, and I was doing classical singing in high school, and so I was collecting all these opera recordings. If you were to ask my very favorite recordings on disc, it would probably be an opera recording.
 
@@ -148,7 +148,7 @@ But then you think, "Okay, here's a song that I like... I'm going to go acquire 
 
 **Jerod Santo:** Queue it up for yourself later. I've seen that video, and it is uncanny.
 
-**Sample**: \[00:22:27.23\]
+**Sample**: \[22:27\]
 
 **Jerod Santo:** It's what convinced me. I thought maybe he actually came out and said it, but... Yes.
 
@@ -158,7 +158,7 @@ But then you think, "Okay, here's a song that I like... I'm going to go acquire 
 
 **Adam Stacoviak:** Yeah, it's one link. I just clicked one link. So there's at least some version of confirmation there. Okay, so my favorite album of all time - literally of all time; I can put this in, and it puts me in a mode. Led Zeppelin, album number four, Zoso.
 
-**Sample**: \[00:23:39.16\]
+**Sample**: \[23:39\]
 
 **Adam Stacoviak:** Black Dog, Rock and Roll, The Battle of Evermore, Stairway to Heaven... I mean, it's a forbidden track. You can't play that on guitar in Guitar Center. They'll throw you out. Misty Mountain Hop, Four Sticks, Going to California, and Where the Levee Breaks. Eight tracks. Amazingness. That's their best album ever.
 
@@ -206,7 +206,7 @@ But then you think, "Okay, here's a song that I like... I'm going to go acquire 
 
 **Jordan Eldredge:** Down in the Hole. I think the original -- if you watch The Wire, the intro music was a song of his called Down in the Hole. And I think each season they did a different artist covering it, but I think the first season was him. So that one might be more recognizable to folks. But yeah, it's this very Louis Armstrong-esque kind of raspiness. But it has a lot of character. Probably not great for his voice though.
 
-**Adam Stacoviak:** \[00:28:12.13\] Yeah. Well I'm listening to his most popular track and it doesn't ring a bell. I'm gonna have to go back in time and listen to some of this, because I was just never exposed to Tom Waits, unfortunately.
+**Adam Stacoviak:** \[28:12\] Yeah. Well I'm listening to his most popular track and it doesn't ring a bell. I'm gonna have to go back in time and listen to some of this, because I was just never exposed to Tom Waits, unfortunately.
 
 **Jerod Santo:** There you go.
 
@@ -244,7 +244,7 @@ Whereas Napster was a situation where you could find really obscure, different, 
 
 I think we had these systems of libraries, and record stores, and they had some discoverability built in, but only as an accidental artifact of "We need to find somebody to let you find the thing you want to buy." And in the process we have to organize them, and then we're gonna end up with things organized by genre, and you'll stumble across someone adjacent to the thing that you're looking for. And I think you see this in bookstores too, where you're browsing along and you're "Oh, look." I'm in the sci-fi section and "I've never seen this before. This looks interesting."
 
-\[00:32:16.07\] And then when we went online, and everything -- it's "Well, if you want the thing, you just go straight to the thing. You don't need to waste all this time browsing through." But along the way we shed this accidental piece of "Well, we had this browsing-based discoverability", and in the name of efficiency we let that go. Which I think is right. I'm not passing a value judgment on it. But we're now "Okay, well, we accidentally had a solution to that problem, that maybe wasn't ever designed and it wasn't necessarily perfect, but we dropped it." And now we're "Okay, how do we backfill that?" And I think this algorithmic solution is what has emerged.
+\[32:16\] And then when we went online, and everything -- it's "Well, if you want the thing, you just go straight to the thing. You don't need to waste all this time browsing through." But along the way we shed this accidental piece of "Well, we had this browsing-based discoverability", and in the name of efficiency we let that go. Which I think is right. I'm not passing a value judgment on it. But we're now "Okay, well, we accidentally had a solution to that problem, that maybe wasn't ever designed and it wasn't necessarily perfect, but we dropped it." And now we're "Okay, how do we backfill that?" And I think this algorithmic solution is what has emerged.
 
 But yeah, it does make you wonder if there's better, or maybe those algorithms will get better over time... But it is interesting that we had it as an accident, and now we have to design it from scratch as an actual solution.
 
@@ -258,13 +258,13 @@ But yeah, it does make you wonder if there's better, or maybe those algorithms w
 
 **Adam Stacoviak:** I think there's also this connection... There was actually an announcement, I believe, between -- it was Meta's music deal. Jerod, you may have seen this in Snacks today. "Universal Music Group and Meta expand their partnership as labels lean on social media." So I think today's exposure for -- I mean music is culture, or it's representative of culture, at least... And the algorithm, and what I was talking about, discovering, to me is some version, some pulse towards culture. And that culture could be "Hey, I'm XYZ years old, so my culture and desire to tap into it is different than somebody else's." But it's this idea of connecting me to culture that I find relevant to me, or culture I find worthwhile pursuing, or understanding more of, or being curious about... But this Universal Music Group deal with Meta I think is representative of how -- I don't want to say young people either, but I feel just generationally how we tap into or come to know more music. For example, I didn't know the Watermelon Sugar song from Harry Styles until I heard it via TikTok, and then it was blended. And I'm going to put it in this -- well, maybe Jerod you can, because you'll do the show... The mastering at least.
 
-**Sample**: \[00:36:09.22\]
+**Sample**: \[36:09\]
 
 **Adam Stacoviak:** We have a track that we inspired by Watermelon Sugar and Seaside. There's this remix that was only on social media, only really available on social media. It was never an official track. I'm not even sure if Harry Styles and this other artist that I have no idea who the name is of this person - talking about how we don't connect with the artist, because it just goes by so fastly... But at the same time, I thought it was a really cool blend between Watermelon Sugar and this song called Seaside. And anybody who hears it, you would think that that version, that remix is the original. And if you were me, the first time you ever heard it, you only heard this remix version, you're "That's the OG. That's the original." And that's not true.
 
 But the point I'm getting at is that it's my exposure to this new music. Even Makeba... Gosh, who's heard the song Makeba?
 
-**Sample**: \[00:37:14.13\]
+**Sample**: \[37:14\]
 
 **Jerod Santo:** I have...
 
@@ -286,7 +286,7 @@ But the point I'm getting at is that it's my exposure to this new music. Even Ma
 
 **Jerod Santo:** Yeah. The social media, specifically TikTok/Instagram reels, and then probably in third place YouTube shorts... But as I post our stuff to these places, it's all the same content. People at this point are just posting it to everything. But that's definitely become the new exposure for new artists. You want to go to TikTok viral. And so that's changed the actual music as well, because now people are "Then what do we do? Well we feed the beast." And they're "Well, what does the algorithm want?" Well, these are the kinds of songs that are catchy, and short, and have 0.7 seconds before the drop, or whatever it is you're going to get. There's people out there trying to figure it out, and writing music for that... Which you can kind of say is a shame, because you want to write music for other reasons, but I think it's just a fact of history that the medium very much is the message, and it always has been. So when people were making albums, they were writing albums. And when people are trying to get TikTok-viral, they're going to make TikTok music. You know, it's just kind of how it probably always has been.
 
-**Jordan Eldredge:** \[00:39:36.00\] Yeah, I mean, even going back to classical music, right? The publication of music to be played in the home - it's like, the original album was a book that you would buy and play at your home piano, and then that goes all the way through to, you know, how did artists write their music to fit on an album. Well, they had to think about their music as a cohesive, nearly hour-long piece, or whatever... And maybe that was great; maybe that inspired some artists who were great, and that was how they would have wanted to create anyway... But then we got to the radio play, and it's "Well, now you've got to write for the radio", and we're now in our new era.
+**Jordan Eldredge:** \[39:36\] Yeah, I mean, even going back to classical music, right? The publication of music to be played in the home - it's like, the original album was a book that you would buy and play at your home piano, and then that goes all the way through to, you know, how did artists write their music to fit on an album. Well, they had to think about their music as a cohesive, nearly hour-long piece, or whatever... And maybe that was great; maybe that inspired some artists who were great, and that was how they would have wanted to create anyway... But then we got to the radio play, and it's "Well, now you've got to write for the radio", and we're now in our new era.
 
 But I think there's something interesting about the -- you were saying discovery of music being both personal, but I think there's also this longing for some kind of... You know, as we have gone, everything is personal on the internet. Everything is tailored to you, everything is exactly what you want, exactly tailored to your tastes... There's a gluttony of options available to you, tailor-made to exactly your tastes... But I think then we also crave this connection of "Well, what are the pieces that pull us together, that we can sit down in this podcast and have things in common?" "Oh yeah, the Watermelon Sugar song. Yeah, we all know what that is." And I think those are two different pieces. There's "What is the thing that is perfectly going to resonate with me?", but also "What is the thing that I'm going to get to talk about with my co-workers?", or in the schoolyard, or whatever it is.
 
@@ -306,7 +306,7 @@ But I think there's something interesting about the -- you were saying discovery
 
 **Jerod Santo:** For sure.
 
-**Break**: \[00:42:03.01\]
+**Break**: \[42:03\]
 
 **Jordan Eldredge:** Do you remember who told you about Napster? Was that on the schoolyard as well? I think for me it was in the yearbook, whatever room the yearbook class was in. I was talking with someone there and there was a computer, and they're "Oh, look at this thing!"
 
@@ -332,11 +332,11 @@ But I think there's something interesting about the -- you were saying discovery
 
 **Jerod Santo:** It's really good. Yeah, really good music.
 
-**Sample**: \[00:46:27.26\]
+**Sample**: \[46:27\]
 
 **Jerod Santo:** But I go into this birthday party and the very first time I heard Nirvana, specifically it was -- In Utero was the album. It was not Nevermind, which is what most people were spinning. Smells Like Teen Spirit. But this was In Utero. And I just couldn't believe. I'm "What are these sounds?!"
 
-**Sample**: \[00:47:01.09\]
+**Sample**: \[47:01\]
 
 **Jerod Santo:** But I also had to act "Oh yeah, I know these guys." You know, just playing it cool. I had no idea. I was listening to Aladdin on the way over. And from then on out I was a Nirvana boy for two and a half years, until I found Pearl Jam, and Stone Temple Pilots, and the whole grunge scene really just swept over me when I was in middle school.
 
@@ -392,7 +392,7 @@ But I think there's something interesting about the -- you were saying discovery
 
 **Adam Stacoviak:** Well, let's see. Tell me if this concurs then. Because I just asked it "What was the year of Napster?" Because I was thinking, I do recall a time with Napster, but it was brief. And I was trying to figure out "Why?" And so Napster, according to GPT 4.0 was launched in June of 1999. It was one of the first widely used peer-to-peer, P2P, file sharing services, primarily known for sharing digital music files, MP3s... And it says -- there's only one more sentence. "Napster quickly became popular, but also faced significant legal challenges from the music industry, leading to its shutdown in 2001." And so the reason why -- first, does that translate to what you all remember in terms of timeline?
 
-**Jordan Eldredge:** \[00:50:14.13\] That matches my hallucination, yeah.
+**Jordan Eldredge:** \[50:14\] That matches my hallucination, yeah.
 
 **Jerod Santo:** Yeah, absolutely. I would have probably dated it a little earlier, but... It definitely is probably true. I would have been wrong.
 
@@ -428,7 +428,7 @@ But I think there's something interesting about the -- you were saying discovery
 
 **Jerod Santo:** Is he still around? Is he still out there somewhere?
 
-**Jordan Eldredge:** \[00:53:54.07\] Yeah, I got a chance to meet up with him and chat a bit with him about WebAmp, and about Winamp, obviously... And yeah, he's working on a DAW, digital audio software called Reaper. And yeah, he sort of has a small group of people, and they just work on this audio software, and I think he plays music, and is kind of living his best life.
+**Jordan Eldredge:** \[53:54\] Yeah, I got a chance to meet up with him and chat a bit with him about WebAmp, and about Winamp, obviously... And yeah, he's working on a DAW, digital audio software called Reaper. And yeah, he sort of has a small group of people, and they just work on this audio software, and I think he plays music, and is kind of living his best life.
 
 **Jerod Santo:** Cool. I have to get him on for an interview at some point. I'd love to hear his exploits...
 
@@ -478,7 +478,7 @@ And there was this one \[unintelligible 00:57:47.00\] where it's just you open i
 
 Some were I think just Easter eggs that people place. I think that's another thing that we've gotten away from in our modern software era, this idea of Easter eggs. And even on albums, right? Remember, hidden tracks on albums... I don't think there's really much of an equivalent in the Spotify era.
 
-\[00:58:22.18\] So I think some of them were someone's creating something, they're in this era of -- even Winamp itself had a bunch of little Easter eggs. Like, if you typed in a special pattern of characters, the title bar would swap out for a different title bar... And as a skin author, you could provide the Easter egg version of your skin. So it kind of makes sense, right? You're in that mode, you're designing your skin... Well, you get your chance to add your version of the Easter egg into it.
+\[58:22\] So I think some of them were someone's creating something, they're in this era of -- even Winamp itself had a bunch of little Easter eggs. Like, if you typed in a special pattern of characters, the title bar would swap out for a different title bar... And as a skin author, you could provide the Easter egg version of your skin. So it kind of makes sense, right? You're in that mode, you're designing your skin... Well, you get your chance to add your version of the Easter egg into it.
 
 Sorry, I'm going to pause for one second. My mic has slipped precariously, and I'm hunching over...
 
