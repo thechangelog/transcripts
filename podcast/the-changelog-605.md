@@ -56,7 +56,7 @@ A little bit more about me... So I am principal software engineer at Orbital Sid
 
 **Andrew Guenther:** Yeah, I mean, this really gets into redundant systems. So a lot of the components on board, there's at least two, our own component, so our own dev board - you know, there's one or two of those, but there's kind of like a main control computer that exists separate from ours, that kind of handles a lot of the boring stuff, like pointing the satellite, and doing the actual hard work of transmitting data back down to the ground... And then our dev board basically handles all that image processing, sending commands to the camera.
 
-\[00:08:15.22\] So effectively, we have capabilities to like failover from one component to the other. Or if we're rolling out an upgrade, we roll it out to XCOM 2, and then we primary-swap to XCOM 1... So it's almost like an A/B test in space, right? Kind of like a canary. So you upload it to one of the XCOMs, you swap over to that, make sure everything still works - great. Roll it up to the second XCOM, everything still works - great.
+\[08:15\] So effectively, we have capabilities to like failover from one component to the other. Or if we're rolling out an upgrade, we roll it out to XCOM 2, and then we primary-swap to XCOM 1... So it's almost like an A/B test in space, right? Kind of like a canary. So you upload it to one of the XCOMs, you swap over to that, make sure everything still works - great. Roll it up to the second XCOM, everything still works - great.
 
 **Autumn Nash:** I feel like you have to write really good code, because and you have to really think about your hardware, because you're never get to touch it again. And you could miss a picture...
 
@@ -82,7 +82,7 @@ A little bit more about me... So I am principal software engineer at Orbital Sid
 
 **Andrew Guenther:** Oh man, there's so many great questions to unpack here... So I'll try and go at it one at a time. So one of the saving graces to some degree is that as we launch more satellites, they're all based on the same hardware designs. Very minor, minor revisions between them. Like, you have a satellite that works - don't mess with it. Continue to launch more of the same. But then also, on the flipside, when the first one goes up, and we realize "Oh, we really should have done some things differently", as we learn, that iteration cycle is even slower, so there's a lot of things that we have to kind of deal with on ground, and we're making notes for what the next gen hardware is going to look like, and additional concerns...
 
-\[00:11:42.02\] And when you talk about what kind of packages are we going to use, that's a huge concern of ours. Again, it's running 18.04 in space, we're trying to do machine learning and data analysis, and a lot of those libraries move very fast. They're very quick to drop support for older operating systems... So we have to make the call as a small team, are we going to compile these ourselves? Are we going to build our own versions of these dependencies to maintain them? So we're very cognizant, especially on the onboard data processing side, of what libraries we pull in... More so than anywhere I've ever been. Because not only is maintenance a concern, size is a huge concern. Pushing software updates to space is hard. It takes a while, you're gonna test the hell out of it, and you want to make sure that it works. I always like to pick on Node.js, because you have like the Npm package system, where just everything sprawls out to infinity. You install --
+\[11:42\] And when you talk about what kind of packages are we going to use, that's a huge concern of ours. Again, it's running 18.04 in space, we're trying to do machine learning and data analysis, and a lot of those libraries move very fast. They're very quick to drop support for older operating systems... So we have to make the call as a small team, are we going to compile these ourselves? Are we going to build our own versions of these dependencies to maintain them? So we're very cognizant, especially on the onboard data processing side, of what libraries we pull in... More so than anywhere I've ever been. Because not only is maintenance a concern, size is a huge concern. Pushing software updates to space is hard. It takes a while, you're gonna test the hell out of it, and you want to make sure that it works. I always like to pick on Node.js, because you have like the npm package system, where just everything sprawls out to infinity. You install --
 
 **Autumn Nash:** They're ridiculous. 65 warnings. \[laughs\] Like, "What?!"
 
@@ -114,7 +114,7 @@ A little bit more about me... So I am principal software engineer at Orbital Sid
 
 **Autumn Nash:** How do you make decisions, and what kind of tenets do you have to, I guess, develop? Because you both want to develop quickly, because everybody wants to innovate and develop quickly, and that's how you get an edge in your market... But also, how do you make that last for so long? And then how do you do it with like -- I was writing an automation script, and we were trying to get rid of like dependencies. So it's like "Okay, I won't use Panda, I'll use Python", you know, the things that come with Python. So trying to develop on that level on just a small automation script made it so much more complicated. So I can only imagine image processing...
 
-**Andrew Guenther:** \[00:15:47.10\] It's a big push-pull, because you definitely want to try and keep your space systems as simple as possible, and we're very much breaking that mold by saying we're going to do imagery analysis on board of a satellite. And so it's definitely something that we're cognizant of. And we have this nicety that we can test a lot of things out in the ground segment. We can use those libraries on ground initially, before we make the call of, you know, "This is something that we want to run in space, so let's retrofit." We can use all those nice libraries, have 100 gigabytes of dependencies to prove out those analyses on ground... And then when we want to say "Okay, this is high value. We want to run it on board", we can take that step to say "Alright, let's strip this back. Let's make this bare bones. How do we leverage what's already on board to now ship this thing out to space?"
+**Andrew Guenther:** \[15:47\] It's a big push-pull, because you definitely want to try and keep your space systems as simple as possible, and we're very much breaking that mold by saying we're going to do imagery analysis on board of a satellite. And so it's definitely something that we're cognizant of. And we have this nicety that we can test a lot of things out in the ground segment. We can use those libraries on ground initially, before we make the call of, you know, "This is something that we want to run in space, so let's retrofit." We can use all those nice libraries, have 100 gigabytes of dependencies to prove out those analyses on ground... And then when we want to say "Okay, this is high value. We want to run it on board", we can take that step to say "Alright, let's strip this back. Let's make this bare bones. How do we leverage what's already on board to now ship this thing out to space?"
 
 **Autumn Nash:** \[unintelligible 00:16:32.28\] working backwards.
 
@@ -146,7 +146,7 @@ A little bit more about me... So I am principal software engineer at Orbital Sid
 
 **Andrew Guenther:** Yeah, you can SSH into space for like a hot five minutes, and take a look around. So there has to be some planning ahead of time. If you want to run some set of debug scripts, you're going to want to know ahead of time, and just run that in an automated way, rather than just like maybe having a terminal open... Which we've done. We've done this, especially after the sats first went up, and we were trying to better understand the characteristics of the first one, and just get a sense of what was happening live... There was a lot of "Alright, time to SSH." \[laughs\]
 
-**Justin Garrison:** \[00:19:47.09\] I can only imagine that constant Tmux session that's like "Oh, it's coming back around. Let me connect to it again. Hold on." That's just amazing.
+**Justin Garrison:** \[19:47\] I can only imagine that constant Tmux session that's like "Oh, it's coming back around. Let me connect to it again. Hold on." That's just amazing.
 
 **Andrew Guenther:** We don't have space for Tmux, man. It's a fresh shell every time. \[laughter\]
 
@@ -170,7 +170,7 @@ So I think that's kind of where that push and pull really comes into play, and I
 
 **Andrew Guenther:** Yeah, it's nuts. I mean, this is something that even 10 years ago wasn't possible. Launches have become way cheaper... $5 million is a lot, but in the grand scheme of like Silicon Valley VC money, that's not a lot. And it's become super-accessible for startups to launch payloads into space. It's high cap ex still, for sure, but it's possible, when it really just wasn't before. And I think, to your point, we're seeing that transformation in a lot of industries. For oil and gas, the state of the art was like once a quarter they would pay some kid trying to get their pilot's license to just like fly and look out the window of a Cessna, and like "Do you see any leaks?" "Nope." Right? That's what we're going up against. That's what we're replacing. It just feels like such a huge quantum leap forward for that industry... And we see that with customers; they're super-excited. I mean, a) because it's space, and it's cool, but also just, it is such a faster feedback loop than anything that they'd worked with before.
 
-**Autumn Nash:** \[00:24:11.01\] That's wild, that you can do something in space that much quicker... Also, I think it's really going to add - I don't even know if I'd say add value, but it really sets you apart if you can move fast and cheaper, because of the market that we're in right now, and less VC funding, and higher interest rates... That's awesome that you've been able to add so much value, but also iterate faster, and I guess at a smaller cost... Even though $5 million isn't anything to like --
+**Autumn Nash:** \[24:11\] That's wild, that you can do something in space that much quicker... Also, I think it's really going to add - I don't even know if I'd say add value, but it really sets you apart if you can move fast and cheaper, because of the market that we're in right now, and less VC funding, and higher interest rates... That's awesome that you've been able to add so much value, but also iterate faster, and I guess at a smaller cost... Even though $5 million isn't anything to like --
 
 **Andrew Guenther:** Well, still our cap ex, but lower than it used to be cap ex.
 
@@ -202,7 +202,7 @@ So I think that's kind of where that push and pull really comes into play, and I
 
 **Andrew Guenther:** So the actual -- so there's a difference between orbit decay and mission life, because the components on board, in theory, will go out long before the actual orbit will decay. So I believe that satellites are slated to be a five-year mission from the onboard component perspective. But this is like -- that's still kind of like NASA-grade ratings. Ideally, you get way longer than five years. And then I think the orbital decay is like 15 years, closer to 10-15 years it'll take, before --
 
-**Autumn Nash:** \[00:28:02.05\] But do they completely dissolve? Because you know how the rovers -- like, one will live way longer than they're supposed to, and then one gets like too much dust, and then solar plates can't keep powering it. Also, I cried; I was so in my feelings about the rover... I was like "Noo, but I love your pictures...!"
+**Autumn Nash:** \[28:02\] But do they completely dissolve? Because you know how the rovers -- like, one will live way longer than they're supposed to, and then one gets like too much dust, and then solar plates can't keep powering it. Also, I cried; I was so in my feelings about the rover... I was like "Noo, but I love your pictures...!"
 
 **Andrew Guenther:** It's just out there, all alone...
 
@@ -240,7 +240,7 @@ So I think that's kind of where that push and pull really comes into play, and I
 
 **Andrew Guenther:** I mean, there's only -- like, low Earth orbit is smaller than you think... And I would say, without naming names, the jerks are the people who are just launching tons and tons... Which is pretty much anybody who's looking to offer satellite-based internet. Satellite-based internet takes an absurd number of satellites... It's easy to pick on Starlink, because they were the first, but they're not the only... And that's going to continue to crowd lower Earth orbit, which again, is the most accessible orbit for people like us. And these things -- like, you can't understand an orbit out with accuracy multiple years. These things -- like, they're going to collide at some point. There will be collisions, and there have been close calls. And what's crazy is we got a call -- we actually got a call for one of our sats, and they were like "Hey, you're gonna pass really close to a Starlink satellite. Just heads up."
 
-**Justin Garrison:** \[00:31:58.28\] How close is really close? I think in space it's like you're hundreds of miles away... But no, this is really close, probably...
+**Justin Garrison:** \[31:58\] How close is really close? I think in space it's like you're hundreds of miles away... But no, this is really close, probably...
 
 **Andrew Guenther:** Close enough that somebody called, right? \[laughter\]
 
@@ -310,7 +310,7 @@ So I think that's kind of where that push and pull really comes into play, and I
 
 **Justin Garrison:** Clerical, that was good. That was a pun. \[laughter\]
 
-**Andrew Guenther:** \[00:35:59.12\] I just -- I'm far enough into dadville that they just roll out, and I don't even think about it anymore...
+**Andrew Guenther:** \[35:59\] I just -- I'm far enough into dadville that they just roll out, and I don't even think about it anymore...
 
 **Autumn Nash:** I was gonna say, are you a dad, Andrew?
 
@@ -348,7 +348,7 @@ So I think that's kind of where that push and pull really comes into play, and I
 
 **Andrew Guenther:** So it was the most infuriating thing to watch, because it's also this long tail... Like, we couldn't tell -- we didn't have the control to tell a satellite "Oh, we only need these five remaining packets." It would just blast down the whole thing, so you would get like 50% on one pass, then on the next pass 75, the 90 the 95, then 99, then 99.9. And because these bundles are encrypted, you need the whole thing. Like, you can't be like "Ah, screw that last packet." For encryption to work, you need the whole thing. So we like basically wrote this -- we call them DJPCAP...
 
-**Justin Garrison:** \[00:39:55.05\] Yeah, PCAP file, read it in and parse the data...
+**Justin Garrison:** \[39:55\] Yeah, PCAP file, read it in and parse the data...
 
 **Andrew Guenther:** Just spinnin' those PCAPS, yeah. Spinning those PCAPs. So DJPCAP was just trying as hard as it could to assemble from these TCP dumps, and that's how we got our first imagery. This issue has since been resolved, but the first imagery from our satellites was basically rebuilt through this crazy kind of bespoke process. And again, I think it kind of like goes towards the whole theme of the space segment moves much slower than we can move on the ground, so we're always trying to think of ways like "How can we deal with this on the ground? How can we fix this on the ground?" And I think that's probably the most harrowing story out of all of them.
 
@@ -392,7 +392,7 @@ The other thing I will say is - so a lot of this work we did at one of our vendo
 
 **Andrew Guenther:** It was great to meet you as well.
 
-**Break**: \[00:42:32.24\]
+**Break**: \[42:32\]
 
 **Justin Garrison:** So today on the show we have Anita Zhang from Meta. Anita, you are an engineer D, manager D is your title. Is that correct?
 
@@ -428,7 +428,7 @@ The other thing I will say is - so a lot of this work we did at one of our vendo
 
 **Justin Garrison:** Basically like the rawhide equivalent of like "Hey, this is a rolling kind of new thing", but eventually that gets cut down. How does that relate? Or I'm actually really curious - CentOS Stream, when they moved to this rolling release style of distribution, how did that affect how you're doing those releases and doing upgrades for those hosts? Because you have to at some point say "This is the thing we're rolling out", but the OS keeps going.
 
-**Anita Zhang:** \[00:50:08.04\] Yeah. I'd say the change to Stream didn't really affect us much, because we were already kind of doing rolling OS updates inside the fleet. So when new point releases get released, we have a system that syncs it to our internal repos, and then updates the repositories. And then we have Chef running to actually pick up the new packages and things, and just updates depending on what's in those repositories. So the change to stream didn't really change that model at all. We're still doing that picking up new packages on like a two-week cadence.
+**Anita Zhang:** \[50:08\] Yeah. I'd say the change to Stream didn't really affect us much, because we were already kind of doing rolling OS updates inside the fleet. So when new point releases get released, we have a system that syncs it to our internal repos, and then updates the repositories. And then we have Chef running to actually pick up the new packages and things, and just updates depending on what's in those repositories. So the change to stream didn't really change that model at all. We're still doing that picking up new packages on like a two-week cadence.
 
 **Autumn Nash:** Do you guys use a lot of automation that you build in-house?
 
@@ -452,7 +452,7 @@ The other thing I will say is - so a lot of this work we did at one of our vendo
 
 There's a sidecar for the logs specifically. So logs are pretty important, as you'd imagine, to users being able to debug their jobs... There is a separate service that runs alongside the container to actually make sure that no logs get lost. So those logs get preserved in the hosts somewhere.
 
-**Autumn Nash:** \[00:54:07.27\] Twine sounds really cool, too. I was reading the white paper about that yesterday...
+**Autumn Nash:** \[54:07\] Twine sounds really cool, too. I was reading the white paper about that yesterday...
 
 **Justin Garrison:** How does that work with like the sidecar? I would assume - I've never really actually done this side the of... Like, Systemd inside the container, running on Systemd... So if I log into a host, and not the container, I see just services all the way down, right? They just look like standard Systemd units, they're just isolated from each other, right?
 
@@ -488,7 +488,7 @@ There's a sidecar for the logs specifically. So logs are pretty important, as yo
 
 **Anita Zhang:** Yeah... I'd say at least the way the kernel team and our team operates is that we're mostly upstream first. So everything that we write, we write it with the idea that we're gonna be upstreaming it. And that's how we managed to keep our team size small, so that we don't have to maintain like a bunch of backports, things like that.
 
-**Justin Garrison:** \[00:57:59.16\] But you have to wait for it though, right? You're like "We're gonna write this internally, we're gonna hope this gets upstreamed, and then we have to either wait for the release to consume it. Or we're just going to keep running it", but then if upstream needs changes, you have to kind of like merge back to it.
+**Justin Garrison:** \[57:59\] But you have to wait for it though, right? You're like "We're gonna write this internally, we're gonna hope this gets upstreamed, and then we have to either wait for the release to consume it. Or we're just going to keep running it", but then if upstream needs changes, you have to kind of like merge back to it.
 
 **Anita Zhang:** Yeah. So the kernel - we actually build and maintain internally, so we can kind of pull from the release whenever you want. And we can kind of do the same thing with CentOS too, because we all contribute to the CentOS Hyperscale SIG. That's where any bleeding edge packages that we want to like release immediately, it goes into like the Hyperscale SIG.
 
@@ -624,7 +624,7 @@ There are also some bigger -- I mean, Journald, I've been trying to get us to re
 
 **Justin Garrison:** It was great. It was a great feeling one day, when I'm like "I don't need this anymore. I don't need our syslog."
 
-**Anita Zhang:** I mean, \[unintelligible 01:12:17.20\] Systemd Networkd was pretty cool, but... I mean, now that that's done, I can just like be happy with it. There's probably some more stuff we're going to be doing with like systemd-oomd, the out of memory killer. I think we're about ready to get Senpai upstreamed into Systemd. Senpai is like a memory auto-resizer that we wrote... And I don't think that that's been open-sourced in any way. I mean, we have like an internal plugin to do that with the old \[unintelligible 01:12:48.23\] I think it's time to get that into systemd-oomd as well.
+**Anita Zhang:** I mean, \[unintelligible 01:12:17.20\] Systemd Networkd was pretty cool, but... I mean, now that that's done, I can just like be happy with it. There's probably some more stuff we're going to be doing with like systemd-oomd, the out of memory killer. I think we're about ready to get Senpai upstreamed into Systemd. Senpai is like a memory auto-resizer that we wrote... And I don't think that that's been open sourced in any way. I mean, we have like an internal plugin to do that with the old \[unintelligible 01:12:48.23\] I think it's time to get that into systemd-oomd as well.
 
 **Justin Garrison:** Is that for resizing the container, the cgroup, and saying how much memory they have available? Or is that something different?
 
