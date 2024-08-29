@@ -36,7 +36,7 @@ Then we have Matt Dale, who's a software engineer living in Pacific Northwest, w
 
 **Angelica Hill:** I love that. And then last, but certainly not least, we have Andy Joseph, who has architected and developed several industrial control platforms that propel the growth of a startup company into a highly respected world leader in motion control, and sensing systems for manufacturing. As a prolific inventor, he's been awarded various patents in software, industrial motion, actuators, and sensing systems. I'm going to have to ask you about some of those words...
 
-\[00:08:19.00\] Most recently, Andy led the development of an IoT product that connects industrial equipment to plant-wide data analytics and historian applications using services written in Go. I know we're here today to talk about lightning talks, but Andy, can you say a little bit more about what that is, and what that entails? It sounds extremely interesting.
+\[08:19\] Most recently, Andy led the development of an IoT product that connects industrial equipment to plant-wide data analytics and historian applications using services written in Go. I know we're here today to talk about lightning talks, but Andy, can you say a little bit more about what that is, and what that entails? It sounds extremely interesting.
 
 **Andy Joseph:** It is. It keeps us very busy. We provide machines to manufacturing... So you think of like automotive, you're assembling cars and engines, and that sort of thing. And a lot of our machines show up in plants. About five years ago we had a big initiative to create this IoT product that would connect our machines to our customers' data analytics. And so it was a prime application to use Go, and to be able to connect the edge up to the cloud. So we had a lot of fun doing it, and we're continuing to do even more of that kind of development.
 
@@ -56,7 +56,7 @@ Now, as a consumer of lightning talks, I actually like them a lot. I mean, I pic
 
 **Angelica Hill:** So in terms of process - I mean, Matt, maybe you're going to dive a little bit more into this, but I'd love to hear from you specifically, what was the process? Did you start with just like writing down random ideas? Did you start with a full talk and then have to cut it down further? Interested in kind of your experience.
 
-**Matt Dale:** \[00:12:02.04\] Well, I was fortunate to have written a couple of blog posts about this already, so I was like "I think that this could be an interesting topic for a lightning talk", because I think of lightning talks as sort of like adult show-and-tell, which is like, you just want to tease your audience with this concept, and then leave them asking questions. And that was sort of the original motivation for this blog series that I've been writing on, in this case, the Go Playground. So it was really obvious. I was like "Well, I really think that this would go well as a lightning talk also."
+**Matt Dale:** \[12:02\] Well, I was fortunate to have written a couple of blog posts about this already, so I was like "I think that this could be an interesting topic for a lightning talk", because I think of lightning talks as sort of like adult show-and-tell, which is like, you just want to tease your audience with this concept, and then leave them asking questions. And that was sort of the original motivation for this blog series that I've been writing on, in this case, the Go Playground. So it was really obvious. I was like "Well, I really think that this would go well as a lightning talk also."
 
 **Angelica Hill:** So, in terms of working out like how it went - kind of what you said, Matt - how did they go? I would love to hear a little bit about kind of, one, I would love if we could go around and say like what even was your lightning talk, and then also a little bit about like how did you feel it went? And I'm going to encourage you to be brutally honest with yourself.
 
@@ -80,7 +80,7 @@ If you were left being like "Oh, I wish I had needed more time", or "Oh, I wish 
 
 **Andy Joseph:** What caught me by surprise was I couldn't really see the audience. I think it was the lighting or something, and... Every presentation I've done before, I've been able to see the entire audience. But this one I couldn't. So it was a little bit -- I felt almost like I was there by myself on the stage.
 
-**Ehden Sinai:** \[00:16:00.13\] I remember seeing a couple of people on the front row, that were clearly following along with the talk, but that was about it. It was just maybe a couple of people. One guy at some point smiled and gave me a thumbs up. I have no idea who he was, but shout-out to that guy. It really helped, because otherwise I would have been talking to nobody.
+**Ehden Sinai:** \[16:00\] I remember seeing a couple of people on the front row, that were clearly following along with the talk, but that was about it. It was just maybe a couple of people. One guy at some point smiled and gave me a thumbs up. I have no idea who he was, but shout-out to that guy. It really helped, because otherwise I would have been talking to nobody.
 
 **Cassie Coyle:** I remember seeing the front row people... I don't even remember seeing my sister, as funny as that is. She sat in the front row, far over, just so I could see her. I did not. And it was like, beyond the front row, it's just like a black room. But I liked it that way, I don't know...
 
@@ -100,7 +100,7 @@ If you were left being like "Oh, I wish I had needed more time", or "Oh, I wish 
 
 **Jacob Hochstetler:** I was going to say, I don't think I really spent a lot of time practicing the information. I spent at least three or four run-throughs on timing... Because it's like, one slide doesn't have the same information as another slide. And in my talk, I had a couple of slides that were obviously inserted for "comedic effect". So I had to sort of time that on like "Do I let this hang, or do I click on it? Read it as quick as possible and then move on, to like reinforce the stupidity of my slides?" So the timing was hard for me.
 
-**Dylan Bourque:** \[00:19:56.25\] I did work out that my last slide, the conclusion, was about 45 seconds. So I spent quite a bit of time getting to hitting that slide at six minutes, to make sure that I was not going to get dinged... Because no one wants that.
+**Dylan Bourque:** \[19:56\] I did work out that my last slide, the conclusion, was about 45 seconds. So I spent quite a bit of time getting to hitting that slide at six minutes, to make sure that I was not going to get dinged... Because no one wants that.
 
 **Ehden Sinai:** I mean, I can echo what other people said, that the content of the talk wasn't really a problem, because I know a lot of that I could easily talk for an hour... But that's the problem, is that I could, so I had to drill it a lot, and make sure that I was going to hit the timing okay. Beause with the format, if you go over, there's a buzzer, and it doesn't look good, and it doesn't sound good, and there's no recovery. But a full length talk, you usually have at least a few minutes leeway. If you're a full length talk, you're not going to get booted off the stage immediately. So that was my fear. I definitely spent a lot of time -- the whole talk was scripted, pretty much, start to finish. It wasn't just a series of bullet points. I had to over-prepare, I felt like.
 
@@ -130,7 +130,7 @@ If you were left being like "Oh, I wish I had needed more time", or "Oh, I wish 
 
 **Andy Joseph:** I can't see doing it without slides, because as you're doing the scripting and you're memorizing it to some extent -- lik with me, I associate that with the pictures I'm seeing on the slides. So when I see that picture, the whole story comes back, and I can basically remember it that way. So I couldn't do it without the slides.
 
-**Dylan Bourque:** \[00:24:01.10\] I kind of think the same. If it was without slides, I would have to rehearse so much to be able to get it all in that it would become mechanical. I don't think the presentation would go over as well without the slides, because - with the timing, and the cues... And then you can throw in Simpsons references and get a laugh from the crowd.
+**Dylan Bourque:** \[24:01\] I kind of think the same. If it was without slides, I would have to rehearse so much to be able to get it all in that it would become mechanical. I don't think the presentation would go over as well without the slides, because - with the timing, and the cues... And then you can throw in Simpsons references and get a laugh from the crowd.
 
 **Cassie Coyle:** I resonate. I also think like I need the slides to form the story more, so I don't just talk about nonsense and go off on tangents... Not that I think I would, but just to keep in order, build the story from start to finish, and then like add the details, where relevant, with slides and whatnot.
 
@@ -158,7 +158,7 @@ If you were left being like "Oh, I wish I had needed more time", or "Oh, I wish 
 
 **Dylan Bourque:** So my very first talk was, like I said, the second day keynote, it got picked and I was in front of the entire conference on the second day, first talk in the morning, dumping on Go modules, with Russ Cox sitting in the front row. So that wasn't awkward at all. But it was 25 minutes, so there were a lot of nerves. I spent a lot of time kind of "Hey, is this right? Is this the right balance of information?" Not getting into droning on about technical things... In comparison, the lightning talk, I approached it as a lot of fun. It was lighthearted... I think I had 17 or 18 slides, and probably six of them had some type of meme or joke on it. A lot more fun to do.
 
-\[00:27:51.13\] The longer talk was much more stressful, especially with Russ 20 feet away. And I also did a 45-minute tutorial last year. That one was a lot of time. Much, much longer to put in. That one was probably 65 or 70 slides, with a bunch of content. That one took a long time to prepare for and to get everything together.
+\[27:51\] The longer talk was much more stressful, especially with Russ 20 feet away. And I also did a 45-minute tutorial last year. That one was a lot of time. Much, much longer to put in. That one was probably 65 or 70 slides, with a bunch of content. That one took a long time to prepare for and to get everything together.
 
 So for me, this year was fun. I came in, didn't have any responsibility to do a big talk... There was no stress level... I went into it like "Hey, lightning talks are gonna be fun this year. I can go rant for six and a half minutes."
 
@@ -186,7 +186,7 @@ So that was probably the biggest difference, was I wanted to present more of lik
 
 **Andy Joseph:** I think you get a lot more for your money when you do a seven-minute talk, versus say a 30 or 45-minute talk in terms of the number of people that you reach with a single message... And it takes about the same amount of time to prepare for both, so why wouldn't you do the lightning talk then?
 
-**Angelica Hill:** \[00:32:00.11\] So I want to challenge that. Are you saying that you think it takes the same amount of time to prepare for a lightning versus a longer talk for you?
+**Angelica Hill:** \[32:00\] So I want to challenge that. Are you saying that you think it takes the same amount of time to prepare for a lightning versus a longer talk for you?
 
 **Andy Joseph:** In my limited experience, it does take about the same amount of time, yeah. I mean, I've done 45-minute talks as well, and it took about the same time to prepare for it.
 
@@ -218,7 +218,7 @@ So that was probably the biggest difference, was I wanted to present more of lik
 
 **Dylan Bourque:** Yeah, I've kind of been on both sides. I attended two workshops at GopherCon, one years ago, 2018, I believe, and then one this year. And they were drastically different. But both were very hands-on, kind of almost classroom environment... Which is, like Jacob said, different. It's fun. It's a diversion, but it's definitely a different experience. On the flipside, a co-worker of mine hosted a workshop, put one on this year. And I helped him put together his materials, and review the exercises, and kind of going through and writing the code for them... "How does this work? How does it feel?" It definitely was a ton of work that he put into making it an educational experience, where people would feel like they got value out of it.
 
-**Break**: \[00:36:10.13\]
+**Break**: \[36:10\]
 
 **Angelica Hill:** So before we kind of move on to our second segment of the episode, which is going to be where we're going to put a couple of you to the test in terms of being concise and to the point, I would love to go around and I can call on you kind of one by one and ask you to give like your top tip, one or two tips to anyone who's thinking about doing a lightning talk, to help our listeners understand from you all, now you've done it, I would argue successfully having seen all of yours and I enjoyed them a lot... Kind of give them some pearls of wisdom. So why don't we start with you, Matt?
 
@@ -254,7 +254,7 @@ And the other thing I was looking at was highlighting a product; doing sort of a
 
 **Angelica Hill:** I love that. I feel like I should do that before any Go Time episode, even though they don't really see us... But I feel like I want to be animated for you all. I don't want a dull face.
 
-**Dylan Bourque:** \[00:42:01.05\] If anyone ever asked me "Should I?" I would say, "Yes, do it." One of the highlights of Lightning Talks for me is that they are random. Like, they're not so regimented, technical, it's going to be Go execution tracer, or logging, or tracing, or whatever the case may be for the language... They're random. They're all over the place. It's a fun diversion to go and see Matt this year talk about remodeling his kitchen. The randomness is fun, and it's a nice diversion for people. So whatever it is that you think that you want to talk about, do it.
+**Dylan Bourque:** \[42:01\] If anyone ever asked me "Should I?" I would say, "Yes, do it." One of the highlights of Lightning Talks for me is that they are random. Like, they're not so regimented, technical, it's going to be Go execution tracer, or logging, or tracing, or whatever the case may be for the language... They're random. They're all over the place. It's a fun diversion to go and see Matt this year talk about remodeling his kitchen. The randomness is fun, and it's a nice diversion for people. So whatever it is that you think that you want to talk about, do it.
 
 **Matt Dale:** I think the genuine passion for the topic comes through a lot more in Lightning Talks, because I think it's easier to be genuinely passionate about a topic for seven minutes than for 45 minutes. Like, after 45 minutes, you're like "Can I just talk about something else, please?"
 
@@ -288,7 +288,7 @@ And I think the other big tip is just get a good night's sleep beforehand, becau
 
 **Angelica Hill:** Awesome. Any final pearls of wisdom before we move on to our elevator pitches?
 
-**Matt Dale:** \[00:45:58.02\] Something I learned that I didn't expect is macOS has like the scripting feature that can let you resize windows to very specific sizes... And that's a top tip I got from Jeff Geerling's blog. I like watching his stuff on YouTube, and I was like "Wow, this guy has all the tips."
+**Matt Dale:** \[45:58\] Something I learned that I didn't expect is macOS has like the scripting feature that can let you resize windows to very specific sizes... And that's a top tip I got from Jeff Geerling's blog. I like watching his stuff on YouTube, and I was like "Wow, this guy has all the tips."
 
 **Angelica Hill:** Awesome. Thank you very much for your top tips. Now - we don't have a jingle for it, but I'm going to ask our lovely producer, Jerod, to make me one for when we actually releas the episode, for elevator pitches. So I'm just gonna \[unintelligible 00:46:30.09\]
 
@@ -324,7 +324,7 @@ First, make sure that all of your mocks are in an \_test.go file, or in a folder
 
 **Dylan Bourque:** Score!
 
-**Angelica Hill:** \[00:49:53.09\] Ehden, you're next. So please introduce yourself, give us the talk title, and then I'll give you your countdown.
+**Angelica Hill:** \[49:53\] Ehden, you're next. So please introduce yourself, give us the talk title, and then I'll give you your countdown.
 
 **Ehden Sinai:** Yeah. I'm Ehden, I work at Contrast Security on our Go agent, and I've been programming for a medium amount of time, I guess, compared to Dylan. My talk was called Implementing Code Coverage with Tool Exec.
 
@@ -384,7 +384,7 @@ Finally, you launch a Pronto GUI app, which is built using Flutter, to interact 
 
 **Angelica Hill:** Awesome. And what is your talk title?
 
-**Cassie Coyle:** \[00:54:01.26\] Oh, yes, I forgot. Standardizing errors in Go, a Practical Guide with Dapr. And that is my intro sentence as well, so I will say it again when I start.
+**Cassie Coyle:** \[54:01\] Oh, yes, I forgot. Standardizing errors in Go, a Practical Guide with Dapr. And that is my intro sentence as well, so I will say it again when I start.
 
 **Angelica Hill:** Love that. Right. Three, two, one, go!
 
@@ -430,7 +430,7 @@ Would anyone who didn't give an elevator pitch like to? No pressure. I just want
 
 **Ehden Sinai:** Besides that part of the message, I actually really like the other message, which is the reason that Go is not really great for competitive programming is actually stuff that makes it good. And I thought it was a nice way to phrase it.
 
-**Jacob Hochstetler:** \[00:58:06.19\] And I could talk about it longer, obviously, and I will for five more seconds... It's one of the things the students right now really have a problem with, because I'm having to tell them, "Hey, for career readiness, as a senior, you need to like dive back into algorithms. You need to start doing LeetCode", because all the online assessments now - it's not a free pass anymore. Like, the market's a lot different.
+**Jacob Hochstetler:** \[58:06\] And I could talk about it longer, obviously, and I will for five more seconds... It's one of the things the students right now really have a problem with, because I'm having to tell them, "Hey, for career readiness, as a senior, you need to like dive back into algorithms. You need to start doing LeetCode", because all the online assessments now - it's not a free pass anymore. Like, the market's a lot different.
 
 And at the same time, I'm telling "Also, this is dumb. LeetCode is sort of dumb." If you enjoy it, it's great. It's like people who play chess. There's no point to chess, but if you play it and enjoy it, do it. But yeah, I'm going to mirror that sentiment. Go is not designed for this. It's not designed for software engineering at scale. The reasons we all love it.
 
