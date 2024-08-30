@@ -48,7 +48,7 @@
 
 **Adam Stacoviak:** Now, do you 3D-print yourself, or do you save these for a later date when you get the printer? What's your experience with 3D printing? Yeah, so that's a 3D printer right behind me, the one with all the stuff stuck on it. It's also like my post-it noteboard, because it's just a big sheet of perspex. It's got an enclosure on it, because it's also a laser cutter and a CNC machine in one...
 
-**Jerod Santo:** \[00:08:12.03\] Oh, nice.
+**Jerod Santo:** \[08:12\] Oh, nice.
 
 **Suz Hinton:** ...so it kind of needs that enclosure around it. I mean, I've been in the 3D printing scene since I think 2009, 2010.
 
@@ -114,7 +114,7 @@
 
 **Suz Hinton:** It's interesting you say that, because it's sort of like someone else narrating their interpretation of it. It's actually really interesting. It's not inaccurate, it's just...
 
-**Jerod Santo:** \[00:12:05.09\] It's just like me putting it together from what I can gather... But I have no idea what happened, so...
+**Jerod Santo:** \[12:05\] It's just like me putting it together from what I can gather... But I have no idea what happened, so...
 
 **Suz Hinton:** Yeah, I know. And it almost feels like -- my goal, the goal I set out to achieve was actually successful based on what you said.
 
@@ -138,7 +138,7 @@ So it was just a very tumultuous year, but I managed to move back here in the mi
 
 **Jerod Santo:** What was the hardest part to step away from? It seems like maybe your Twitch stream, because there was a lot of people that just loved to hang out with you every week, and it was very -- that stream, which I watched it a few times over the years, was very intimate, and it seemed like there's a lot of friends there that probably missed you when you decided to stop.
 
-**Suz Hinton:** \[00:15:49.13\] It was really nice, actually. That was hard to step away... It was an easy decision for me to make just because I'd been doing it for five years. I didn't start the stream to become famous, or to make lots of money, or to get attention, or anything like that. I really did start the stream because I wanted to connect with people, and sort of show them what it's like to work on open source, and show them that JavaScript hardware is really not that difficult. You're still writing JavaScript, it's just a slightly different context.
+**Suz Hinton:** \[15:49\] It was really nice, actually. That was hard to step away... It was an easy decision for me to make just because I'd been doing it for five years. I didn't start the stream to become famous, or to make lots of money, or to get attention, or anything like that. I really did start the stream because I wanted to connect with people, and sort of show them what it's like to work on open source, and show them that JavaScript hardware is really not that difficult. You're still writing JavaScript, it's just a slightly different context.
 
 So I have struck up some really lovely friendships with my mods, and with a lot of the people that were contributing to the repos that I was sort of reviewing on stream... And everyone -- I just had such an amazing experience with it over five years, but it just felt like it was time to step away. So it was an easy decision, but obviously, I miss that weekly community. It was just really fun to have everyone in the chat. But it sort of wasn't something that I was relying on as a an outlet to seek approval, or compliments, or anything like that. So it just felt like it got to a point where it was too popular for me, to be honest. It's not as if I was like the people that get millions of viewers in eSports, but 300 people on a Sunday morning is a lot to handle, especially for my mods, too. And I would say that that was just too successful for me. It's just, it broke outside of the tiny community that I would have been happier with, and we were getting less and less productive as a result, too... And I don't know, it just bothered me a lot. I was starting to lose a lot of privacy, and I was just starting to feel that I wasn't really streaming for myself anymore, I was streaming because there was an expectation to.
 
@@ -154,7 +154,7 @@ So I have struck up some really lovely friendships with my mods, and with a lot 
 
 **Suz Hinton:** Yeah. I know famous is kind of this very highly contextual thing, and what we're talking about is we're all nerds, and we have X amount of nerds who want to interact, or like watch your stuff, or listen to your stuff... So I think you two are very well poised to talk about this again, and because you do so many of these recordings too, I can imagine there are days where you're just like "I just don't want to show up. I just don't want to do this at all." But it is really rude when you have people expecting you to conform in a certain way. It's like that monkey dance sort of thing.
 
-\[00:19:46.28\] I think that where I was really fortunate was because I didn't rely on it for my livelihood, and again, I wasn't doing it for to feel like I was worthy, or that I was cool, or anything. It was just so easy for me to step away, because as soon as it's not fulfilling in the intrinsic way for me, it was just way easier for me to walk away. And so I think I'm thankful for that, but I think people didn't really understand at the time why I did it... Because I think a lot of people aspire to be popular, or famous, or have people say really nice things about them, and follow them online... And I've never given a -- I've just never cared about Twitter followers, or amount of followers, or amount of this, blah, blah, blah... And I think that some people project those values on you because they have them, and they they look up to you and see you as having achieved something they want to achieve, and that also made me feel uncomfortable, too.
+\[19:46\] I think that where I was really fortunate was because I didn't rely on it for my livelihood, and again, I wasn't doing it for to feel like I was worthy, or that I was cool, or anything. It was just so easy for me to step away, because as soon as it's not fulfilling in the intrinsic way for me, it was just way easier for me to walk away. And so I think I'm thankful for that, but I think people didn't really understand at the time why I did it... Because I think a lot of people aspire to be popular, or famous, or have people say really nice things about them, and follow them online... And I've never given a -- I've just never cared about Twitter followers, or amount of followers, or amount of this, blah, blah, blah... And I think that some people project those values on you because they have them, and they they look up to you and see you as having achieved something they want to achieve, and that also made me feel uncomfortable, too.
 
 So it is a lot easier to walk away when you compare it to YouTubers who are doing it full-time, and they need people to watch to make them money, from the advertising and things like that. And so I think that's a really hard place to be in.
 
@@ -176,7 +176,7 @@ So yeah, it was really just demystifying stuff, because I benefited so much from
 
 **Jerod Santo:** I don't know how to describe it very well, but there's something to that, isn't there, Adam?
 
-**Adam Stacoviak:** \[00:24:02.19\] I'm just not sure if confidence is the right word.
+**Adam Stacoviak:** \[24:02\] I'm just not sure if confidence is the right word.
 
 **Jerod Santo:** I'm not either. I'm just talking... I'm not very confident about this...
 
@@ -228,7 +228,7 @@ But I was really nervous actually for that particular talk, because it was eight
 
 **Suz Hinton:** Yeah, that was it. Oh, my God. You can hear it in my voice, and everything.
 
-**Adam Stacoviak:** \[00:28:00.29\] It's only because I was there with a camera. I was really into photography then.
+**Adam Stacoviak:** \[28:00\] It's only because I was there with a camera. I was really into photography then.
 
 **Jerod Santo:** Oh, you took that picture, Adam, huh?
 
@@ -286,7 +286,7 @@ But I was really nervous actually for that particular talk, because it was eight
 
 **Suz Hinton:** And I think that's where I also struggled, too. I was like "No. So I'm trying to show you this thing, and you keep putting the attention back on me." And I wasn't having the conversations with people afterwards that I wanted to be having. And so I felt kind of lonely and frustrated as well.
 
-\[00:31:47.03\] And again, I think it's a huge privilege to be a public figure, and you don't sort of feed off the attention... And I didn't do it because I was sort of trying to fill that sort of void for myself, but at the same time - yeah, it sort of made me feel very ungrateful for it, because I know a lot of people would kill to be in my position, and I just sort of -- in their opinion, I might have thrown everything away... So yeah, it's interesting. I'm very grateful, obviously, for a lot of the doors that opened as a result of me doing this, I want to make that very clear. And just the fact that I talked on Changelog years ago, that was because of the public work I was doing.
+\[31:47\] And again, I think it's a huge privilege to be a public figure, and you don't sort of feed off the attention... And I didn't do it because I was sort of trying to fill that sort of void for myself, but at the same time - yeah, it sort of made me feel very ungrateful for it, because I know a lot of people would kill to be in my position, and I just sort of -- in their opinion, I might have thrown everything away... So yeah, it's interesting. I'm very grateful, obviously, for a lot of the doors that opened as a result of me doing this, I want to make that very clear. And just the fact that I talked on Changelog years ago, that was because of the public work I was doing.
 
 **Jerod Santo:** It was.
 
@@ -302,7 +302,7 @@ I don't know, I'm such a nerd. I just want to talk about that. So I caught up wi
 
 And so I think my idea would be just me having a -- just going back to the early 2000s, having a blog, like I used to have back then, too... And publishing a project, and like 99.9% of the online population does not care about it, but you get two or three people that are like "This is awesome. Can I send you this link to this other person, who's done this thing that reminds me of your project?" And "I have some questions", or "I think you could improve it with this." That's the only discourse I really want. I want it to be about the works and about people helping each other change and improve, and push things a bit further, and not be about the personalities. I think that's just what I want.
 
-**Break**: \[00:34:40.17\]
+**Break**: \[34:40\]
 
 **Jerod Santo:** Have you ever considered going anonymous?
 
@@ -338,7 +338,7 @@ So he went and just created an anonymous handle, and he was contributing to peop
 
 **Adam Stacoviak:** It's wild to hear this, because so many people -- I don't really know why, I suppose, or what is drawing folks to this desire... But a lot of young kids -- I have young kids, and so I'm seeing them grow up, and I'm seeing the friends that they are making, and friends that I'd like them to make less friends with. And I just see their influences. And they're younger. They're not like in their teens, they're younger than teens. And I have an older daughter too, and so she's in her 20s, and I'm seeing this shift between different folks. For a while there, people want to be YouTubers. They want to be Instagrammers, or whatever this thing is. They want, for some reason, this spotlight, even at a young age. And I'm not really sure what exactly it is that attracts them there. I suppose it's the opportunity of various influence...
 
-\[00:40:05.23\] But I think even at a young age -- I couldn't imagine having influence in my 20s. If I was influential in my 20s - wow, the world would suck a whole lot more than it already does, and it would not have been a positive thing for me to have any sort of primary influence on the world in my 20s.
+\[40:05\] But I think even at a young age -- I couldn't imagine having influence in my 20s. If I was influential in my 20s - wow, the world would suck a whole lot more than it already does, and it would not have been a positive thing for me to have any sort of primary influence on the world in my 20s.
 
 **Jerod Santo:** Right.
 
@@ -428,7 +428,7 @@ So he went and just created an anonymous handle, and he was contributing to peop
 
 **Adam Stacoviak:** No. When you go and you find out Lego cooking, you're gonna be like "Oh yeah, this is the coolest." It is stop motion film. The person cooks... It's just stop motion film. It's very artist-driven.
 
-**Suz Hinton:** \[00:44:02.09\] Oh, cute.
+**Suz Hinton:** \[44:02\] Oh, cute.
 
 **Jerod Santo:** Okay.
 
@@ -464,7 +464,7 @@ So he went and just created an anonymous handle, and he was contributing to peop
 
 **Jerod Santo:** I think we just see it more now, because it's so easy to put yourself out there. Whereas you go back to when we were children, and those people who wanted to be famous - well, they had to go move to Los Angeles, and wait tables while they did all these tryouts, and stuff... Their failures weren't public. They happened, but we didn't see them; or their desires to be that thing - nobody knew that I wanted to be Donnie Wahlberg, or whatever his name was.
 
-\[00:47:51.19\] I actually -- more than that, I remember being like "Man, girls like the new kids on the block. I wish I was one of them." That was a fleeting moment. But my desire was more to be a professional athlete, which is another route to all the exact same things.
+\[47:51\] I actually -- more than that, I remember being like "Man, girls like the new kids on the block. I wish I was one of them." That was a fleeting moment. But my desire was more to be a professional athlete, which is another route to all the exact same things.
 
 **Suz Hinton:** Oh, wow.
 
@@ -500,7 +500,7 @@ So he went and just created an anonymous handle, and he was contributing to peop
 
 **Jerod Santo:** Yeah, I think Donnie was.
 
-**Adam Stacoviak:** And then Danny Wood. Now, when I say \[00:49:22.19\] "Whoaa-aaa-aa-aaah", what does that make you think of? Hanging tough, right?
+**Adam Stacoviak:** And then Danny Wood. Now, when I say \[49:22\] "Whoaa-aaa-aa-aaah", what does that make you think of? Hanging tough, right?
 
 **Jerod Santo:** Hanging tough.
 
@@ -508,7 +508,7 @@ So he went and just created an anonymous handle, and he was contributing to peop
 
 **Jerod Santo:** Yeah.
 
-**Sample**: \[00:49:28.24\]
+**Sample**: \[49:28\]
 
 **Jerod Santo:** Suz, do you remember New Kids on the Block? Were you around?
 
@@ -532,7 +532,7 @@ So he went and just created an anonymous handle, and he was contributing to peop
 
 **Adam Stacoviak:** Yeah, I'm not going to sing again. I just had to -- I hummed, basically. It was not a sing.
 
-**Break**: \[00:50:45.28\]
+**Break**: \[50:45\]
 
 **Adam Stacoviak:** What is on your mind, Suz? What is it that's got your attention in terms of like technical prowess, exploratory...? Are you playing with hardware still yet? I did not catch your conversation with Quincy yet, but I'm understanding that you're now a white hat hacker, and the NSA sent you a fidget spinner... Like, without sharing the whole podcast --
 
