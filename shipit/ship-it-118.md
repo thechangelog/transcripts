@@ -54,7 +54,7 @@
 
 **Autumn Nash:** Tell us about your career background before you were a senior architect, because that's like an amazing role, so you must have done a lot of cool things. Tell us about you.
 
-**Silvia Botros:** \[00:07:59.29\] Or we say "We've seen some things." It could be that, too. A little bit of both. I'm an immigrant. I moved to the States when I was about 21, so I sort of had to restart college kind of later than most of my peers... I did my college here, in Southern California, \[unintelligible 00:08:15.14\] Titans, down in Fullerton. Just the way life worked out, as soon as I finished, I moved out to the East coast. My husband, who's a physician, started his residency. And so my first job out of college was in a now long gone CDN called Panther Express, which is part of what was known at the time as Alicorp. And for those who are listening who are probably old enough to remember this - this is a long time ago - there was a company called DoubleClick, that kind of pioneered ad tech, basically. Its founders sold it to Google for a lot of money at the time. It was probably like kind of a record --
+**Silvia Botros:** \[07:59\] Or we say "We've seen some things." It could be that, too. A little bit of both. I'm an immigrant. I moved to the States when I was about 21, so I sort of had to restart college kind of later than most of my peers... I did my college here, in Southern California, \[unintelligible 00:08:15.14\] Titans, down in Fullerton. Just the way life worked out, as soon as I finished, I moved out to the East coast. My husband, who's a physician, started his residency. And so my first job out of college was in a now long gone CDN called Panther Express, which is part of what was known at the time as Alicorp. And for those who are listening who are probably old enough to remember this - this is a long time ago - there was a company called DoubleClick, that kind of pioneered ad tech, basically. Its founders sold it to Google for a lot of money at the time. It was probably like kind of a record --
 
 **Justin Garrison:** It was huge at the time, yeah.
 
@@ -96,7 +96,7 @@ The way I ended up in databases is about the six-month mark after I started the 
 
 **Autumn Nash:** I'd buy it, I'm just saying.
 
-**Silvia Botros:** \[00:12:09.01\] So about the one year mark was the market crash of 2009, and Panther Express did not survive it. We ended up getting bought by a competitor whose headquarter's in Korea, a completely different stack. They sort of bought it for the customer base, and still needed to figure out "Okay, now we have to keep running this thing, but then slowly sort of absorb--" Like, all of that kind of M&A fun stuff. But then at that point it became clear that "The data store stuff is important, because that's a big part of the value we just paid money for, and she's the one who knows how to run it."
+**Silvia Botros:** \[12:09\] So about the one year mark was the market crash of 2009, and Panther Express did not survive it. We ended up getting bought by a competitor whose headquarter's in Korea, a completely different stack. They sort of bought it for the customer base, and still needed to figure out "Okay, now we have to keep running this thing, but then slowly sort of absorb--" Like, all of that kind of M&A fun stuff. But then at that point it became clear that "The data store stuff is important, because that's a big part of the value we just paid money for, and she's the one who knows how to run it."
 
 So I stayed with them for another three years after that, and then moved back to California... And because of a layoff over in \[unintelligible 00:12:50.10\] and all sorts of conversations here in Southern California, I happened to just also - again, I was in SoCal, interviewing with someone else entirely, another company entirely, but that didn't go well, so I sort of took an interview with this very small company in Anaheim called SendGrid. I got to learn through that interview that apparently sending email is a business. That was news to me. They were looking for their first in-house DBA. So that was my first time going "Yes, this is now my job. It's not just like the second thing I do."
 
@@ -127,7 +127,7 @@ So I stayed with them for another three years after that, and then moved back to
 
 **Autumn Nash:** But I do though. I do.
 
-**Silvia Botros:** \[00:16:09.27\] So here's the thing I did... So I was lucky in my time in SendGrid, because I was there for so long that I had a long trail of like leaders, some of whom were really good at sort of helping me recognize where my actual strengths are, and sort of realizing "Oh, it's not like \[unintelligible 00:16:22.12\] You need to start building a team, be a leader, even if you don't want to be a manager." And so something I did about that -- because when I finally got to the point of understanding how that worked, and sort of advocating for my promotions, I decided I don't want the team I hired to go through the same thing. And so when it came time to sort of phase out our consultants, who were sort of my backbone for four or five years, and sort of "We're hiring an internal team. Here's some headcount, and here's a partner/people manager who's going to help you -- you and him are going to figure out what this team looks like." And he and I, very early on -- I was like "We're not hiring DBAs. I don't even want DBA on the job title." We didn't call them DBREs, because it was before the whole SRE thing. It was still like the height of DevOps days. And so I decided to be like "We're going to call them database engineers", because I was like "This is the team that's not going to be administrators. I'm going to want--" We had like a headcount of four, and I was like "I want maybe one or two of them to have some solid past experience, and the other two I want them brand new. Like, they're just software engineers, but they decided to switch gears."
+**Silvia Botros:** \[16:09\] So here's the thing I did... So I was lucky in my time in SendGrid, because I was there for so long that I had a long trail of like leaders, some of whom were really good at sort of helping me recognize where my actual strengths are, and sort of realizing "Oh, it's not like \[unintelligible 00:16:22.12\] You need to start building a team, be a leader, even if you don't want to be a manager." And so something I did about that -- because when I finally got to the point of understanding how that worked, and sort of advocating for my promotions, I decided I don't want the team I hired to go through the same thing. And so when it came time to sort of phase out our consultants, who were sort of my backbone for four or five years, and sort of "We're hiring an internal team. Here's some headcount, and here's a partner/people manager who's going to help you -- you and him are going to figure out what this team looks like." And he and I, very early on -- I was like "We're not hiring DBAs. I don't even want DBA on the job title." We didn't call them DBREs, because it was before the whole SRE thing. It was still like the height of DevOps days. And so I decided to be like "We're going to call them database engineers", because I was like "This is the team that's not going to be administrators. I'm going to want--" We had like a headcount of four, and I was like "I want maybe one or two of them to have some solid past experience, and the other two I want them brand new. Like, they're just software engineers, but they decided to switch gears."
 
 **Autumn Nash:** Can we talk about how much I love you that you were like "Give me new people, so I can teach a skill"? That's the only way you can get more people to have these skills. I love that.
 
@@ -137,7 +137,7 @@ And so it was a recognition that we needed a team that didn't just fix databases
 
 **Autumn Nash:** Can we just talk about just -- I just... I love you. Okay, there's so many things I'm so excited about. First of all, I love databases because everybody's always like "Oh, I don't want to touch database. That's not cool." But what is in one of the most important parts of every business? The data.
 
-**Silvia Botros:** \[00:20:12.14\] Can't live without them.
+**Silvia Botros:** \[20:12\] Can't live without them.
 
 **Autumn Nash:** Yes. And then the fact that you wanted to take new people and teach them - this is what is going to... I call this the new like "Mess around and find out" era of tech. This is going to bite us all in the butt; with all the AI, and how we don't want to teach junior people, and we only want to hire senior people... There are certain skills that you're just not going to get out of thin air. And if we don't learn how to teach people skills, we're going to ruin the -- when you teach people how to do things, you get paged less. You know what I mean?
 
@@ -179,7 +179,7 @@ And so it was a recognition that we needed a team that didn't just fix databases
 
 **Silvia Botros:** And I remember going "Man, this is why I'm getting paged by that other database right here in Panther for four years."
 
-**Autumn Nash:** \[00:24:10.08\] I think they get so wrapped up into NoSQL and SQL and like each database that they don't realize that their tools - they all take tuning. You need to be careful what your use case is. They're all a tool that's right for a certain use case. And they're just like "This will do things, and it'll be magical." And I'm like "No. No. That's not \[unintelligible 00:24:28.08\]
+**Autumn Nash:** \[24:10\] I think they get so wrapped up into NoSQL and SQL and like each database that they don't realize that their tools - they all take tuning. You need to be careful what your use case is. They're all a tool that's right for a certain use case. And they're just like "This will do things, and it'll be magical." And I'm like "No. No. That's not \[unintelligible 00:24:28.08\]
 
 **Silvia Botros:** Exactly. People think I'm joking when I say all databases are terrible, but truly, they all have a terrible side to them.
 
@@ -209,7 +209,7 @@ And so it was a recognition that we needed a team that didn't just fix databases
 
 **Autumn Nash:** You're giving me PTSD. Stop...
 
-**Break**: \[00:26:26.25\]
+**Break**: \[26:26\]
 
 **Justin Garrison:** I love your career progression of like you got nerd-sniped by a database problem.
 
@@ -267,7 +267,7 @@ And so it was a recognition that we needed a team that didn't just fix databases
 
 **Silvia Botros:** Yeah. So I got on a call with him, he showed me a demo, I got super-excited... Because that was around the same time -- serendipitously, this was around the same time when we were starting at SendGrid to go "We need others to be on call for the databases. It can't be just the one person." And so this -- I showed it to my leadership, we ended up taking on the contract... We were one of the first white papers on Vivid Cortex's website, and it was a very good way for me to sort of show engineers how to figure out their performance problems. Because up to that point, if you felt -- like, if you were perceiving a slowness on the application side, your only recourse is ping me, I have to go collect slow logs directly on the database, run them through pt-query-digest, which Baron also wrote, and then pull out this text-based report and start telling them what's going on. And it's such a long cycle, and very reactive.
 
-\[00:34:10.26\] And at that point, you probably have incidents, or you should have an incident in your hand. Turning it around where it's like already a tool that's just running, and you just go and you see "Okay, this query used to be this little, and now it's that big. The number of rows expanded. Did a customer decide to hit us a little too hard?" Like, those kinds of conversations.
+\[34:10\] And at that point, you probably have incidents, or you should have an incident in your hand. Turning it around where it's like already a tool that's just running, and you just go and you see "Okay, this query used to be this little, and now it's that big. The number of rows expanded. Did a customer decide to hit us a little too hard?" Like, those kinds of conversations.
 
 And so through that partnership with Vivid Cortex, and even after he sold it - and he's now in retirement, basically - we stayed in touch. So when O'Reilly came to him years later and were like "Hey, High Performance MySQL third edition is like hitting six-ish years now", or eight years almost, and there's been other major releases of MySQL since then... And things like AWS Aurora had been around for like five, six years, and it was becoming very solid, not like brand new and sketch... And so they were like "Are you interested in helping in working with a fourth edition?", he was like "Absolutely not. I don't even do any of that stuff anymore." And so he actually directed their development editor to me, and I ended up agreeing to do it.
 
@@ -295,7 +295,7 @@ I signed up initially to be a single fourth edition author, but I signed that co
 
 **Silvia Botros:** Yeah. So around May or June was when my production editor was like "I think you need a co-author." And I was like "I think so, too." I needed a co-author who agreed philosophically on certain things with me. And so I already had known Jeremy for quite a while, and we were both about the same thing. We had been doing databases for so long, and we were ready for databases to stop being so special... And so we hauled the inside of that book a lot. We removed entire chapters about benchmarking.
 
-**Justin Garrison:** \[00:38:18.09\] Wow.
+**Justin Garrison:** \[38:18\] Wow.
 
 **Silvia Botros:** Yeah. We added chapters about DB -- like, I added I added one chapter specifically that I felt strongly about, about DBRE principles. We obviously, for obvious reasons, needed to expand on the cloud offering and compliance things, because there was none of that in the past...
 
@@ -349,7 +349,7 @@ I signed up initially to be a single fourth edition author, but I signed that co
 
 People get surprised when I go "That's an S3 file. Why is that a database?" So that happens.
 
-**Autumn Nash:** \[00:42:23.28\] Why are you spending the extra money for no reason...?
+**Autumn Nash:** \[42:23\] Why are you spending the extra money for no reason...?
 
 **Silvia Botros:** I mean, here's the thing... I mean, we talk about cogs, and yes, that's a more important thing now with our economic landscape... But your time as an engineer is still the most expensive thing. Why are you spending time trying to tune this database when it could be an S3 file? This data doesn't change except once every day.
 
@@ -373,7 +373,7 @@ So I actually went to my leadership at that point and said "I want to lead this 
 
 **Silvia Botros:** So first they hired the manager. I had a wonderful partner in that manager. He's a great guy, John Martin. I don't know if Justin knows him. In any case, they hired him, and then he and I -- at that point, they had him as my manager. I was still like senior staff, I think, at that point. But I had been clear at that point -- I brought them that Rent the Runway career ladder and I told them "We should have this", and I wanted to go in that IC path. I want us to start having a principal role, and architect role, and grow that. I'm sure there was conversations without me as well. Like, it wasn't just me bringing it in. I don't want to make it sound like \[unintelligible 00:46:01.28\] or anything.
 
-\[00:46:06.07\] And so they hired that manager, and he and I started together sort of planning what we want the team to look like. So it was it was a long journey... So what we ended up doing is he owned the -- he was technically the hiring manager. He did the initial screening, but I worked with him on writing the job requirement, on writing the interview loop, on figuring out who else \[unintelligible 00:46:24.27\] Obviously, I was as well. So I was involved in all the hiring decisions. That was a big part of the success there. And then as the team got completely fleshed out, it was like "Okay, we're going to have this kind of work for these folks, and then we'll have those pair this way, so that this new for this person who is brand, brand new to databases gets to learn."
+\[46:06\] And so they hired that manager, and he and I started together sort of planning what we want the team to look like. So it was it was a long journey... So what we ended up doing is he owned the -- he was technically the hiring manager. He did the initial screening, but I worked with him on writing the job requirement, on writing the interview loop, on figuring out who else \[unintelligible 00:46:24.27\] Obviously, I was as well. So I was involved in all the hiring decisions. That was a big part of the success there. And then as the team got completely fleshed out, it was like "Okay, we're going to have this kind of work for these folks, and then we'll have those pair this way, so that this new for this person who is brand, brand new to databases gets to learn."
 
 I was lucky to kind of catch a couple of really promising engineers. One of them moved on to be like a senior DBE in other places, and sort of took the same mindset with him... Two of them are still here, actually, at Twilio, really good team members... It's been really great watching all of that happen.
 
@@ -399,7 +399,7 @@ I was the only one. The rest were dudes. And they were great dudes, and they wer
 
 **Autumn Nash:** But it's so sad, because now women that are interested in data won't see you on Twitter. You know what I mean? Because we haven't got back to like one centralized place, it's like... Representation matters, and the fact that we don't have a place to see other people succeeding in that... I mean, I guess you can go on LinkedIn and stuff, but whatever was captured in tech Twitter -- exactly. You know what I mean? I feel like Mastodon and Bluesky have gotten so boring, not because they're not good social medias, but just cause we're not all in one place.
 
-**Silvia Botros:** \[00:50:10.26\] It's a difficult one.
+**Silvia Botros:** \[50:10\] It's a difficult one.
 
 **Autumn Nash:** Yeah. I don't know how we get the magic back.
 
@@ -423,7 +423,7 @@ I was the only one. The rest were dudes. And they were great dudes, and they wer
 
 **Autumn Nash:** Yeah. I was going to say, that's when the CAP theorem comes in. Do you want availability, or do you want consistency?
 
-**Silvia Botros:** \[00:54:11.04\] It's just reality. These are your tools. Figure out how to make them work for you.
+**Silvia Botros:** \[54:11\] It's just reality. These are your tools. Figure out how to make them work for you.
 
 **Autumn Nash:** I wish people looked at NoSQL databases and SQL databases in that realm, and not in such black and white.
 
@@ -467,7 +467,7 @@ I was the only one. The rest were dudes. And they were great dudes, and they wer
 
 **Autumn Nash:** Sure. Thank you.
 
-**Break**: \[00:56:18.11\]
+**Break**: \[56:18\]
 
 **Justin Garrison:** Thank you, Silvia, again, for coming on the show. I have a feeling we'll have you back at some point, because this was too good...
 
