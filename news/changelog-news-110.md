@@ -36,7 +36,7 @@ That's not an easy question to answer, but that didn't stop her. She looked at M
 
 **Jerod Santo:**
 
-[Caleb Porzio made $1 million on GitHub Sponsors](https://calebporzio.com/i-just-cracked-1-million-on-github-sponsors-heres-my-playbook)
+[Caleb Porzio made $1 million on GitHub Sponsors](https://calebporzio.com/i-just-cracked-1-million-on-GitHub-sponsors-heres-my-playbook)
 
 I remember [interviewing Caleb](https://changelog.fm/381) when he'd just crossed $100k four years ago. (Link in the newsletter) Time flies! Here's his breakdown of where the milly came from:
 
@@ -63,7 +63,7 @@ Say goodbye to copying API keys, database credentials & passwords into your CLI 
 
 Now you can authenticate third-party CLIs using biometrics & integrate with your SSH agent so your keys are just a fingerprint away. So cool!
 
-You can do even more with new SDKs for Javascript, Python / Go, IDE extensions & CI/CD integrations.
+You can do even more with new SDKs for JavaScript, Python / Go, IDE extensions & CI/CD integrations.
 
 **We use 1Password** and we think your team should too.
 
@@ -74,7 +74,7 @@ Just for Changelog readers, they’re doubling their free trial to 28 days (vs 1
 
 **Jerod Santo:**
 
-[Elasticsearch is open source, again](https://www.elastic.co/blog/elasticsearch-is-open-source-again)
+[Elasticsearch is open source, again](https://www.elastic.co/blog/elasticsearch-is-open source-again)
 
 Elastic founder/CTO, Shay Banon:
 
