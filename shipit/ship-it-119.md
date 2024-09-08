@@ -28,7 +28,7 @@
 
 **Justin Garrison:** Yeah. So let's go ahead and just go right into the interview, and then we're going to come back and talk about a couple of different topics. Some long reads, as I'm going to label this one.
 
-**Break**: \[00:06:18.11\]
+**Break**: \[06:18\]
 
 **Justin Garrison:** Thank you so much, John Watson and Scott Prutten, for coming on the show today to talk about what you're doing with System Initiative, and some things that I've found really fascinating about how you are building it and how you're hosting it.
 
@@ -44,7 +44,7 @@
 
 **Scott Prutton:** Yeah, there's a slide that Adam reads out to us every week, that has a really succinct 30-second elevator pitch that I don't have memorized, so I'm going to butcher that... But I like to think of it as like a hands-on way to design and build your infrastructure. I worked as a cloud architect for years, and most of my job was like drawing diagrams, and showing them to people, and then building what was in the diagram. And I like to think this removes some of those steps. And it basically is the diagram is your infrastructure, and whatever's in the diagram is a real thing, somewhere in the cloud, that you've built and you're hosting. So it's that kind of tool. How do you feel, John?
 
-**John Watson:** \[00:08:08.18\] I think it's - yeah, pretty much what Scott said. There are a lot of tools out there that let you kind of create an architecture diagram, right? But none of them actually let you interact with the architecture. They're separate. So maybe you use Terraform to make infrastructure changes, but then reference a static architecture diagram, that you have to update frequently, and things like that. So System Initiative basically pulls those both together. So you can interact directly with the infrastructure, create VPCs, restart EC2 nodes, run SSM documents against different autoscaling groups, various other things, directly against the diagram... Which is pretty cool.
+**John Watson:** \[08:08\] I think it's - yeah, pretty much what Scott said. There are a lot of tools out there that let you kind of create an architecture diagram, right? But none of them actually let you interact with the architecture. They're separate. So maybe you use Terraform to make infrastructure changes, but then reference a static architecture diagram, that you have to update frequently, and things like that. So System Initiative basically pulls those both together. So you can interact directly with the infrastructure, create VPCs, restart EC2 nodes, run SSM documents against different autoscaling groups, various other things, directly against the diagram... Which is pretty cool.
 
 **Justin Garrison:** And a lot of that assumes that, I guess, you have those APIs to do that automation. How would I do System Initiative for on-prem?
 
@@ -58,7 +58,7 @@ So it's not just AWS that we're managing. You can interact with Docker images...
 
 **John Watson:** One thing that we haven't really talked about is like the tool is basically like an authoring tool, and an architecturing tool. There's two very separate concerns within the application, that are both key cornerstones to the value proposition. So not to turn this into a sales pitch or anything, but basically, as Scott was saying, you can author support for basically anything that has an API. And what that lets you do is imagine against the EC2 assets or the EC2 kind of components, you can add your own custom functions. So imagine you ran a Java app on an EC2 node, for example, or an auto scaling group. You could write your own custom business function, or private function, whatever you want to do, to say "Log on and delete this dodgy file that says the health check's passing." that's how most -- everyone knows there's dodgy files... So whatever your business function is, it will let you do it. You author the function, and it will go on, and you can run that as like a runbook.
 
-\[00:12:08.29\] One of the ways that I've been using it is like I wrote a function for us internally that runs an SSM document against all the EC2 nodes in a particular group or function, and hits USR2 code against the binaries that are running, and it will bump the log level, and that's how our internal applications will respond. So if you're running your application differently, or -- you can write something that interacts with them.
+\[12:08\] One of the ways that I've been using it is like I wrote a function for us internally that runs an SSM document against all the EC2 nodes in a particular group or function, and hits USR2 code against the binaries that are running, and it will bump the log level, and that's how our internal applications will respond. So if you're running your application differently, or -- you can write something that interacts with them.
 
 **Autumn Nash:** How did you guys end up at the startup, and what did you do beforehand?
 
@@ -94,7 +94,7 @@ So it's not just AWS that we're managing. You can interact with Docker images...
 
 **Justin Garrison:** How does that work when you're doing that for a SaaS? Is it a multi-tenant application? Are you running multiple versions per customer? Are you -- I mean, I guess it's coming \[unintelligible 00:15:50.00\] So it's like, you're getting there.
 
-**Scott Prutton:** \[00:15:52.16\] Yeah, we're getting there. It is multi-tenant. There are some version of the future where we might run - I won't say like instance per customer, unless somebody really, really wants that... But maybe some like hybrid, they host part of it in their cloud... Most of the infrastructure is very standard, but we have our engine that runs the functions that anybody can write. We use Firecracker to spit out VMs, and run isolated code. So that part's a little unique. But yeah, it's pretty standard otherwise.
+**Scott Prutton:** \[15:52\] Yeah, we're getting there. It is multi-tenant. There are some version of the future where we might run - I won't say like instance per customer, unless somebody really, really wants that... But maybe some like hybrid, they host part of it in their cloud... Most of the infrastructure is very standard, but we have our engine that runs the functions that anybody can write. We use Firecracker to spit out VMs, and run isolated code. So that part's a little unique. But yeah, it's pretty standard otherwise.
 
 **Justin Garrison:** You're managing Firecracker yourself on EC2, not doing it through Lambda?
 
@@ -120,7 +120,7 @@ So it's not just AWS that we're managing. You can interact with Docker images...
 
 **Scott Prutton:** Yeah, for sure.
 
-**Break**: \[00:18:37.16\]
+**Break**: \[18:37\]
 
 **Autumn Nash:** What are you guys both most excited about with the future, with the startup? Because it sounds like a really cool idea.
 
@@ -148,7 +148,7 @@ So imagine what you wanted to do was run a health check, and then when the healt
 
 **John Watson:** Yeah, yeah. Okay, fair. Fair, fair. And it's like, we've got these things internally called refresh functions. So inside the application holds a state of what that resource actually looks like inside AWS. So it hits AWS, EC2, I think, the security group \[unintelligible 00:25:58.02\] pretty much. And then it holds a copy of that JSON representation directly against the asset.
 
-\[00:26:07.21\] So imagine you have an incident, all the houses are on fire, and it's like, it's always a security group, or I don't know... And somebody changes it in the incident. You could see that in the resource definition in that panel.
+\[26:07\] So imagine you have an incident, all the houses are on fire, and it's like, it's always a security group, or I don't know... And somebody changes it in the incident. You could see that in the resource definition in that panel.
 
 There's still some work in the future for us to -- we've got this thing called the attribute panel, which is basically like user inputs. And when you created the security group, you would say \[unintelligible 00:26:28.26\] And then the resource representation in JSON would have that additional security group that was added during the incident.
 
@@ -162,7 +162,7 @@ We're still working on how we would sync that back into user managed attributes,
 
 I think Kubernetes did a good thing here of like it tries not to by default manage things outside of itself too much, or at least not in reconcile loops. Load balancers are one of those things where it's like it will constantly check those, but it tries to do it in a way that's like "I'm not going to hit API limits for load balancers." But the second thing is that copy of what is true. That diff of like "What do I think the state is" versus "What does the cloud think the state is" versus "What does the Linux file system know the state is"? Just like all these versions of truth around. And reconciling that is always computationally expensive, at some at some level of complexity or some level of scale.
 
-**John Watson:** \[00:30:36.00\] Sure. Yeah.
+**John Watson:** \[30:36\] Sure. Yeah.
 
 **Justin Garrison:** And I don't think that the Terraform "shove a JSON file in S3" is necessarily the right model either, but I also don't think that it's Etcd. And there has to be some other middle ground to make it so lik "Oh, this is truth enough that this isn't going to fail for me." Or it should fail a fewer amount of times.
 
@@ -196,7 +196,7 @@ I think Kubernetes did a good thing here of like it tries not to by default mana
 
 **John Watson:** Yeah, you could make arguments about "Are you transforming HCL into some other representation on the backend?" Like, it's not human-readable. It's like a data structure. I mean, I guess it's human-readable if you try hard enough, but... You know. Yeah, so it just gives us access to be able to like walk the graph and do diffs about the relationships of the things that are there, understand conflicts, and know how to make changes between change sets.
 
-\[00:34:17.10\] We have a model very close to Git, where you have like a head, and when you want to make changes in the infrastructure, you open a change set, make changes, and then basically push the changes onto the graph, and it reconciles and does what it needs to make that the new reality, and push it up to whatever cloud or whatever you're interacting with.
+\[34:17\] We have a model very close to Git, where you have like a head, and when you want to make changes in the infrastructure, you open a change set, make changes, and then basically push the changes onto the graph, and it reconciles and does what it needs to make that the new reality, and push it up to whatever cloud or whatever you're interacting with.
 
 **Autumn Nash:** How do you make sure it's all secure without kind of shooting yourself in the foot at the same time? Because I feel like it's either -- like every automated security or automated anything, it's like, you want to automate things to make your life easier, and then at some point it makes it harder. So how do you reconcile all of that?
 
@@ -218,7 +218,7 @@ So security on that front, I think like all of the networking rules are written 
 
 **John Watson:** I'm very fortunate, because Scott is great, and I've never looked at what he's done in our workspace and been like "Dude, what is wrong with you?" So that's amazing. But each -- so we've got this concept of workspaces and change sets. So I hope this answers your question... Basically, that if you're collaborating on a change set - so imagine Scott's doing security groups, I'm doing the compute, and we're going to create this infrastructure, a bit like the way you would git apply it to head, or git apply it to main, it would be like, I'd try and apply it and it'd be like Scott gets an opportunity to review it before it goes into head and that stuff actually gets created. It's a very Git-like model. And there's various -- we're still to implement, or there's a bit of work that needs to go in on RBAC. So different roles, like viewer, editor... I don't know, applier... I don't know what they might be called. But that would improve that kind of posture, like you've got in Git.
 
-**Scott Prutton:** \[00:38:27.26\] And let's say somebody starts using the product and they try to create 10,000 EC2 instances all at once... I mean, we have pretty rudimentary resource limits and things on the size of the VMs that we create, and like throttling, and how many we can run at a time... So ideally, all that happens is that it takes a long time for them, and other people aren't really slowed down by it... But that stuff can always become more sophisticated, and we can do rate-limiting, and try to distribute workloads and that kind of stuff as well.
+**Scott Prutton:** \[38:27\] And let's say somebody starts using the product and they try to create 10,000 EC2 instances all at once... I mean, we have pretty rudimentary resource limits and things on the size of the VMs that we create, and like throttling, and how many we can run at a time... So ideally, all that happens is that it takes a long time for them, and other people aren't really slowed down by it... But that stuff can always become more sophisticated, and we can do rate-limiting, and try to distribute workloads and that kind of stuff as well.
 
 **Justin Garrison:** One of the things, Scott, you mentioned earlier about making the diagram, the infrastructure or the more truth infrastructure representation is I love drawing and diagramming, and every job that I've had, when someone's like "I'm describing the thing to you", I'm like "Can you draw me a picture?" Because I want to see it. I want to see what you're talking about, and I want to understand it better in a picture form. But one of the things that sucks in pictures, and I've never found a good way to represent it, is things that happen over time. Things that need to happen in series. And I used to work in animation, and I loved animation for this. Like, I've started drawing my own animations of like "This is how this thing changes", because it's showing you the thing over time.
 
@@ -234,7 +234,7 @@ And one thing we can't do easily in a static representation of a diagram is like
 
 **Scott Prutton:** If it's on the graph, and you can see it, you can queue up the deletes appropriately and make it go. I mean, we're still limited by the nature of physics in AWS APIs, both equally limiting... But yeah, a lot of how things work today is just based on relationships. We've talked about more sophisticated systems, that let you describe something, maybe like a workflow, or to define the order of actions and maybe make decisions about "Run action B if action A fails", those kinds of things... But for the most part, it's just like "I need this to exist before I can make this next thing. So I'll wait till it exists, take the output, make the next thing", and just kind of walk down the path.
 
-**Justin Garrison:** \[00:42:10.16\] And that still assumes that I'm the creator of those nodes, right? Like, I can't point it at my AWS account and say import. Like, you go figure out everything I made. Or can I?
+**Justin Garrison:** \[42:10\] And that still assumes that I'm the creator of those nodes, right? Like, I can't point it at my AWS account and say import. Like, you go figure out everything I made. Or can I?
 
 **Scott Prutton:** Not yet. But that's definitely something that we want to do. Both like importing existing infrastructure, like I want to pull in a single VPC, or like "Hey, walk through my account and bring it all in, and show me what it looks like." I feel like that that's kind of the dream. And we have all the things in place. Running a refresh means basically going and getting information about it, so... I think we can get there. I think it'd be really cool.
 
@@ -262,7 +262,7 @@ I'm pretty passionate about this, because it's super-empowering. You can legitim
 
 **Justin Garrison:** Change set. So being able to do both of those things adds a lot of questions to me. Contributing back a function in System Initiative to say like "I want to extend this" immediately in my mind, working at enterprises for 20 years, is like "Do I have to get approval from OSPO for this? Is this code contribution? And if it doesn't go through GitHub, am I still doing the same thing?" All of those questions get answered to me as like a process and an open source quote-unquote person, "What does that mean for my contributions into that ecosystem?"
 
-\[00:46:15.13\] But then the other thing of just like the speed of learning, of being able to basically pair program on infrastructure at any time with those sort of like share and collaborative links of like "Oh look, here's the picture. This is the change, and this is how it's going to be different. Does this look good to both of us?" And again, it's outside of that Git PR workflow, which we've all come as like "This is the standard for infrastructure, is you have to make a branch, modify it, push it, someone looks at your text and then says, "Yeah, it looks good to me" and you ship it." And then something else breaks down the line that says "No. Actually, the state of the world was too different than what you thought it was."
+\[46:15\] But then the other thing of just like the speed of learning, of being able to basically pair program on infrastructure at any time with those sort of like share and collaborative links of like "Oh look, here's the picture. This is the change, and this is how it's going to be different. Does this look good to both of us?" And again, it's outside of that Git PR workflow, which we've all come as like "This is the standard for infrastructure, is you have to make a branch, modify it, push it, someone looks at your text and then says, "Yeah, it looks good to me" and you ship it." And then something else breaks down the line that says "No. Actually, the state of the world was too different than what you thought it was."
 
 **John Watson:** So for me, when I joined System Initiative -- Scott, you said you didn't originally completely buy in. For me, I almost was anxious that I couldn't do git branch, write some code... It was safe... You know? And it was like a static reference that I could look at. Whereas in SI, you create a change set, and if you think of the change set as a branch, it's probably very intentionally not called branch, to not cause confusion; it's like a live simulation of what would happen if you merged it. The values of propagating and stuff through the change set, like your IDs and things. And it would know that that ID doesn't exist yet, because the resource hasn't been created. So you can see that. And it's almost made me uneasy, you know? But once you use it, it was pretty amazing.
 
@@ -298,7 +298,7 @@ I'm pretty passionate about this, because it's super-empowering. You can legitim
 
 **Scott Prutton:** Yeah, you too.
 
-**Break**: \[00:49:40.08\]
+**Break**: \[49:40\]
 
 **Justin Garrison:** Thanks again, John and Scott, for coming on the show and telling us all about how the infrastructure works and generally how System Initiative thinks about infrastructure. I like that they're self-hosting, or at least managing the SaaS version with the tool itself, because that dogfooding always works out well.
 
@@ -338,7 +338,7 @@ I'm pretty passionate about this, because it's super-empowering. You can legitim
 
 There's a reason we have all these tools, and there's a reason that so many tools are built from like compute power, or like infrastructure tools, or database tools, and there's such a variety, because sometimes they don't always work for everything.
 
-**Justin Garrison:** \[00:56:32.25\] I mean tools are sticky, because you're like "I know how this tool works, so I'm going to stick with it." And problems are often invisible, because we get used to it as we build the problem ourself; and we're just like "Oh, that's not actually a problem." No, no. No one else has that problem. You built this on yourself and you should go use a different tool.
+**Justin Garrison:** \[56:32\] I mean tools are sticky, because you're like "I know how this tool works, so I'm going to stick with it." And problems are often invisible, because we get used to it as we build the problem ourself; and we're just like "Oh, that's not actually a problem." No, no. No one else has that problem. You built this on yourself and you should go use a different tool.
 
 **Autumn Nash:** It's also why it's hard when you internally build everything for yourself. Sometimes you want to have the old simple stuff that you built yourself, and then sometimes it's like "Dude, at some point we need to not build everything ourselves." It just depends.
 
