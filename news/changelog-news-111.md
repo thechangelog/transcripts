@@ -77,7 +77,7 @@ Rule of thumb: adopt any title necessary to make that money as long as you can d
 
 It's now time for Sponsored News!
 
-[3.7 million fake GitHub stars](https://socket.dev/blog/3-7-million-fake-github-stars-a-growing-threat-linked-to-scams-and-malware)
+[3.7 million fake GitHub stars](https://socket.dev/blog/3-7-million-fake-GitHub-stars-a-growing-threat-linked-to-scams-and-malware)
 
 How much weight do you put in a project's GitHub star count? Probably too much...
 
@@ -85,7 +85,7 @@ Socket researchers have uncovered 3.7 million fake GitHub stars, highlighting a 
 
 Based on this research, Socket is launching a new “Suspicious Stars on GitHub” alert that utilizes the low activity and clustering heuristics to detect packages associated with repositories that have fake stars.
 
-if you want to get proactive alerts and check your entire organization for suspicious star packages (and 70+ indicators of supply chain risk), install the free [Socket for GitHub app](https://socket.dev/features/github) in just 2 clicks (link in the newsletter). Whenever a new dependency is added or updated in a pull request, Socket analyzes the package's behavior and security risk, alerting you before any malicious code has the chance to land in your project.
+if you want to get proactive alerts and check your entire organization for suspicious star packages (and 70+ indicators of supply chain risk), install the free [Socket for GitHub app](https://socket.dev/features/GitHub) in just 2 clicks (link in the newsletter). Whenever a new dependency is added or updated in a pull request, Socket analyzes the package's behavior and security risk, alerting you before any malicious code has the chance to land in your project.
 
 **Break:**
 
