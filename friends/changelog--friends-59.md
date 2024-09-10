@@ -82,7 +82,7 @@
 
 **Adam Stacoviak:** I'm just kidding.
 
-**Jerod Santo:** \[00:07:48.23\] Well, let me briefly describe the game, and then we will get right into it. This is the game of fake definitions. We have 10 rounds of play, or 15 points scored will win; if you can get that done prior to 10 rounds, good on you. The way it works is I will present a word, and the five of you will submit to me fake definitions of that word, unless you happen to know exactly what it means... You can submit to me the correct definition and I will award you with three points immediately. If not, fake definitions are submitted, I gather them, I read them aloud in randomized orders, and then we go around the circle and see who can guess the correct definition. If you get it right at that point, you get two points. If somebody else picks your fake definition, you get one point per person, unless it's yourself. And we have a lot of fun along the way. Any questions before we hop into round one?
+**Jerod Santo:** \[07:48\] Well, let me briefly describe the game, and then we will get right into it. This is the game of fake definitions. We have 10 rounds of play, or 15 points scored will win; if you can get that done prior to 10 rounds, good on you. The way it works is I will present a word, and the five of you will submit to me fake definitions of that word, unless you happen to know exactly what it means... You can submit to me the correct definition and I will award you with three points immediately. If not, fake definitions are submitted, I gather them, I read them aloud in randomized orders, and then we go around the circle and see who can guess the correct definition. If you get it right at that point, you get two points. If somebody else picks your fake definition, you get one point per person, unless it's yourself. And we have a lot of fun along the way. Any questions before we hop into round one?
 
 The one bit of context here is the default style of word is STEM. So science, technology, engineering, and mathematics. We also include science fiction and fantasy, just to broaden it slightly... But there are also non-STEM rounds, where any word will work, and I will let you guys know what those are as we go. But first round is a normal round, and your word for round one is cavorite. Cavorite. That's C-A-V-O-R-I-T-E. Please submit to me your definitions now.
 
@@ -142,7 +142,7 @@ Imagine though, it just drives around. You don't have to talk to anyone... I thi
 
 **Carol Lee:** I'm really curious about your fake laugh at the real definition.
 
-**Jerod Santo:** \[00:12:00.15\] Oh, you won't know when it hits.
+**Jerod Santo:** \[12:00\] Oh, you won't know when it hits.
 
 **Carol Lee:** We'll see.
 
@@ -236,7 +236,7 @@ Imagine though, it just drives around. You don't have to talk to anyone... I thi
 
 **Jerod Santo:** Unfortunately, I defenestrated mine.
 
-**Thomas Eckert:** \[00:15:57.13\] You defenestrated yours, yeah.
+**Thomas Eckert:** \[15:57\] You defenestrated yours, yeah.
 
 **Jerod Santo:** Yeah. Well... I didn't like it. Taylor, which are you going to go with?
 
@@ -372,7 +372,7 @@ So Carol and Mat both scored two points there, giving Mat three for the round. C
 
 **Carol Lee:** Yeah. \[laughs\] Like, it's going to be okay, Taylor... You got it.
 
-**Taylor Troesh:** \[00:20:01.08\] Yeah... I get in trouble at home. My wife's like "We're gonna have to pay for Botox if you keep on doing that." Because I just do it all day. I'm just like...
+**Taylor Troesh:** \[20:01\] Yeah... I get in trouble at home. My wife's like "We're gonna have to pay for Botox if you keep on doing that." Because I just do it all day. I'm just like...
 
 **Jerod Santo:** Resting furl face.
 
@@ -490,7 +490,7 @@ So Carol and Mat both scored two points there, giving Mat three for the round. C
 
 **Mat Ryer:** No, they used to do stand-up before mass. It's like "Before we get to eating the cracker and having the thing... Yeah, here's our Roman stand-up."
 
-**Jerod Santo:** \[00:23:55.27\] Number two. A dish made from a mixture of leftover food, especially meat and veggies. Number three - a concerned, pensive, downtrodden, forlorn face, that is bound to need Botox injections. Which some people are very, very self-conscious of... Carol, you meanie. \[laughter\]
+**Jerod Santo:** \[23:55\] Number two. A dish made from a mixture of leftover food, especially meat and veggies. Number three - a concerned, pensive, downtrodden, forlorn face, that is bound to need Botox injections. Which some people are very, very self-conscious of... Carol, you meanie. \[laughter\]
 
 **Thomas Eckert:** I think that was the real definition.
 
@@ -620,7 +620,7 @@ So Carol and Mat both scored two points there, giving Mat three for the round. C
 
 **Carol Lee:** Oh, like you fry the gallimauf. Got it, got it.
 
-**Mat Ryer:** \[00:27:59.18\] Yeah, exactly.
+**Mat Ryer:** \[27:59\] Yeah, exactly.
 
 **Jerod Santo:** So Adam scores two points. Good job, dude. Got the correct answer there. Mat was tricked by aluminum, and Adam wrote aluminum. Did I read it correctly for you?
 
@@ -760,7 +760,7 @@ So Carol and Mat both scored two points there, giving Mat three for the round. C
 
 **Jerod Santo:** ...in the cellar. Well, you know, there's the caboose, and then there's the rear. I don't know, these things are close together. In the middles, Adam with three, probably feeling pretty good about his three-point round... And Mat and Carol tied, with five after two rounds. We move now to round three.
 
-**Break**: \[00:31:38.20\]
+**Break**: \[31:38\]
 
 **Jerod Santo:** And your word for round three is bunyip. Bunyip. That's B-U-N-Y-I-P.
 
@@ -942,7 +942,7 @@ So Carol and Mat both scored two points there, giving Mat three for the round. C
 
 **Jerod Santo:** She didn't see that coming, huh?
 
-**Adam Stacoviak:** \[00:40:17.24\] I didn't put those two together until just now.
+**Adam Stacoviak:** \[40:17\] I didn't put those two together until just now.
 
 **Jerod Santo:** I feel like I did, but also I feel like it might have been the first thing you ever said to me, Taylor, was that.
 
@@ -1030,7 +1030,7 @@ Number four, a misshapen egg or an egg that looks atypical. And number five, con
 
 **Taylor Troesh:** Dude, you have the same middle name as Sarah J. Moss. Did you realize that?
 
-**Carol Lee:** \[00:44:18.06\] I do now. What does the J stand for in Sarah J. Moss?
+**Carol Lee:** \[44:18\] I do now. What does the J stand for in Sarah J. Moss?
 
 **Taylor Troesh:** J, dude.
 
@@ -1040,7 +1040,7 @@ Number four, a misshapen egg or an egg that looks atypical. And number five, con
 
 **Jerod Santo:** Oh, yeah. Mat, what are you thinking over there?
 
-**Mat Ryer:** I'm going to go for the mythological one. The mythological one. Hey, last time I did this, being silly, they cut it out, thinking I was accidentally... I was going like \[00:44:42.05\] And the editor's like "Oh, we'll cut that out, because he's obviously made a little mistake..." But it was hilarious.
+**Mat Ryer:** I'm going to go for the mythological one. The mythological one. Hey, last time I did this, being silly, they cut it out, thinking I was accidentally... I was going like \[44:42\] And the editor's like "Oh, we'll cut that out, because he's obviously made a little mistake..." But it was hilarious.
 
 **Jerod Santo:** Well, we can't tell when you're being real or not real with your mistakes. I mean, imagine you couldn't pronounce a word and then we left it in. The embarrassment.
 
@@ -1146,7 +1146,7 @@ H-A-I-R. Just closing that loop. What are you thinking, Taylor?
 
 **Mat Ryer:** We're about to find out, mate...
 
-\[00:47:49.24\] You're saying hare, I'm saying eggs...
+\[47:49\] You're saying hare, I'm saying eggs...
 
 I wish we were saying the all the same things again, but...
 
@@ -1260,7 +1260,7 @@ The phrase I typed into google.com was "Why don't we." "Why don't we", and then 
 
 **Jerod Santo:** Yeah.
 
-**Mat Ryer:** \[00:51:52.28\] Yeah.
+**Mat Ryer:** \[51:52\] Yeah.
 
 **Jerod Santo:** That'd be on the dark side, for sure. But go ahead and tell me what you think is the top autocomplete, and we can see which one's correct. I have Mat's...
 
@@ -1402,7 +1402,7 @@ The phrase I typed into google.com was "Why don't we." "Why don't we", and then 
 
 **Adam Stacoviak:** Yeah, please.
 
-**Jerod Santo:** \[00:56:09.14\] Alright. Number one was "Why don't we live on Mars?" Number two, "Why don't we drugs legal?" Number three, "Why don't we print more money?" Number four, "Why don't we eat turkey eggs?" Number five, "Why don't we destroy the moon once and for all?" Number six, "Why don't we see dead people?"
+**Jerod Santo:** \[56:09\] Alright. Number one was "Why don't we live on Mars?" Number two, "Why don't we drugs legal?" Number three, "Why don't we print more money?" Number four, "Why don't we eat turkey eggs?" Number five, "Why don't we destroy the moon once and for all?" Number six, "Why don't we see dead people?"
 
 **Adam Stacoviak:** So many good choices here. Is that you, Thomas, drugs legal?
 
@@ -1546,7 +1546,7 @@ The phrase I typed into google.com was "Why don't we." "Why don't we", and then 
 
 **Carol Lee:** \[laughs\]
 
-**Jerod Santo:** \[00:59:54.08\] I think David Bowie - didn't he? He lived some life on Mars, didn't he? Mat, it's your turn. What are you thinking?
+**Jerod Santo:** \[59:54\] I think David Bowie - didn't he? He lived some life on Mars, didn't he? Mat, it's your turn. What are you thinking?
 
 **Mat Ryer:** Okay. Hang on a minute. So you did it in incognito mode...
 
