@@ -2,7 +2,7 @@
 
 **Alya Abbott:** Great to be here, yeah.
 
-**Jerod Santo:** Great to have you. Great to have an open source chat application out there, and one with a storied history. You all have been around a long time, in and out of Dropbox even. I would love to hear a little bit about that story. Dropbox acquired, and then open-sourced out of that. Can you give us a little bit of the history?
+**Jerod Santo:** Great to have you. Great to have an open source chat application out there, and one with a storied history. You all have been around a long time, in and out of Dropbox even. I would love to hear a little bit about that story. Dropbox acquired, and then open sourced out of that. Can you give us a little bit of the history?
 
 **Adam Stacoviak:** Really?
 
@@ -10,11 +10,11 @@
 
 **Jerod Santo:** Yeah.
 
-**Alya Abbott:** At that time it was not open source. It was just kind of your regular closed source startup out in Boston. And when it was still in private beta, the company was acquired at Dropbox. At the time, Dropbox was exploring kind of different strategies with chat, as kind of providing a suite of office products alongside with the file storage... And then they went in a different direction and actually open-sourced the entire Zulip codebase, along with the full history of the project. So all that commit history, there was a Hack Week project to clean that up and make that something that can be publicly shared. And they very generously -- I guess, once it was open-sourced, Tim Abbott, who was one of the original co-founders, and was working at Dropbox at the time, started running that open source project in his kind of nights and weekends in his spare time, and Dropbox also very generously gave the trademark for Zulip to Tim as well... So at this point, there's no relationship between Zulip and Dropbox.
+**Alya Abbott:** At that time it was not open source. It was just kind of your regular closed source startup out in Boston. And when it was still in private beta, the company was acquired at Dropbox. At the time, Dropbox was exploring kind of different strategies with chat, as kind of providing a suite of office products alongside with the file storage... And then they went in a different direction and actually open sourced the entire Zulip codebase, along with the full history of the project. So all that commit history, there was a Hack Week project to clean that up and make that something that can be publicly shared. And they very generously -- I guess, once it was open sourced, Tim Abbott, who was one of the original co-founders, and was working at Dropbox at the time, started running that open source project in his kind of nights and weekends in his spare time, and Dropbox also very generously gave the trademark for Zulip to Tim as well... So at this point, there's no relationship between Zulip and Dropbox.
 
 **Jerod Santo:** There's no relationship at all.
 
-**Alya Abbott:** Yeah, yeah. But we're definitely very grateful that they decided that they would be happy to open-source it, given that they were not using it themselves.
+**Alya Abbott:** Yeah, yeah. But we're definitely very grateful that they decided that they would be happy to open source it, given that they were not using it themselves.
 
 **Jerod Santo:** Why did they make that decision? Do you know why that decision was made?
 
@@ -30,7 +30,7 @@
 
 **Jerod Santo:** Huh.
 
-**Adam Stacoviak:** Very generous to open-source it, though. And all the history. That's kind of unheard of, wouldn't you say? And then like be disconnected completely, no back link or connection to it... Just like, "Be free bird. Go. Fly."
+**Adam Stacoviak:** Very generous to open source it, though. And all the history. That's kind of unheard of, wouldn't you say? And then like be disconnected completely, no back link or connection to it... Just like, "Be free bird. Go. Fly."
 
 **Alya Abbott:** Yeah, and one thing that's pretty cool is that we actually still have some of Zulip's 2013 beta customers using Zulip today, continuously...
 
@@ -52,7 +52,7 @@
 
 In some of the tools folks may be familiar with, you probably have channels, and within that channels, a lot of discussion going on kind of like in that main channel feed. Maybe you have some threads on the side... Zulip is different in that when you start a conversation, you give that conversation a brief topic, so something similar to what you might do if you're sending an email and you write a quick subject line for your email. And then when people respond to your messages, they respond within that topic. And so it's a little bit of extra effort to start that conversation, you do need to give it a topic, but then it just makes a huge difference when you're reading your messages.
 
-\[00:08:11.01\] So now, instead of kind of everything being mixed up, you have these organized conversations, labeled with their topic, and so you can come in and read your messages one conversation at a time. Rather than everything happening chronologically, you could say "Okay, people are talking about this. Let me read about that. Okay, I'm done with that conversation. Let me move on to the next one." And so it doesn't matter if people are -- and it's a busy channel, people are talking about 10 different things at once... It's just not a problem. You can read everything in its own context, and you can have a conversation that goes across time. So maybe people are working async, or just busy with meetings, and so somebody comes in a few hours later or a day later and wants to comment on something that was going on - rather than getting kind of like lost in the noise, you have all that context in the same place.
+\[08:11\] So now, instead of kind of everything being mixed up, you have these organized conversations, labeled with their topic, and so you can come in and read your messages one conversation at a time. Rather than everything happening chronologically, you could say "Okay, people are talking about this. Let me read about that. Okay, I'm done with that conversation. Let me move on to the next one." And so it doesn't matter if people are -- and it's a busy channel, people are talking about 10 different things at once... It's just not a problem. You can read everything in its own context, and you can have a conversation that goes across time. So maybe people are working async, or just busy with meetings, and so somebody comes in a few hours later or a day later and wants to comment on something that was going on - rather than getting kind of like lost in the noise, you have all that context in the same place.
 
 **Jerod Santo:** So every Zulip instance has channels, which are like long-lasting things. And then the channels have inside of them topics. Is that the architecture?
 
@@ -74,7 +74,7 @@ And there's also ways to view -- instead of viewing all your messages in a feed,
 
 **Alya Abbott:** And we also give folks tools to kind of reorganize everything, if things do end up out of place. So you can move messages between topics, as well as between channels... So especially when an organization is just getting started and folks are getting used to the model, that really lets you reorganize things if things do end up in the wrong place \[unintelligible 00:12:01.04\]
 
-**Jerod Santo:** \[00:12:04.21\] Yeah. I suppose if you really wanted just like a general chat inside of a channel, you could just have a topic called general chat, and then you're just like --
+**Jerod Santo:** \[12:04\] Yeah. I suppose if you really wanted just like a general chat inside of a channel, you could just have a topic called general chat, and then you're just like --
 
 **Alya Abbott:** Yeah, you totally could. Absolutely. Yeah.
 
@@ -106,7 +106,7 @@ And there's also ways to view -- instead of viewing all your messages in a feed,
 
 **Jerod Santo:** And it's very active and scrolly. I was just looking for the most recent conversations. So that's kind of cool. As you hop in, you can see all the recent conversations, and yes, you can jump into those different topics, and see what's going on there.
 
-It seems pretty well organized. I mean, we use Slack on the daily, and we have slightly less organization... We have channels, and now there's threads, which is kind of a bolt-on, which kind of can act as a topic, but they're more like ad hoc, like "Hey, maybe I'll reply in the thread, or maybe I'll reply to the whole channel." And then it gets to be like "What's the idiom, or what's the culture around threads?" How do we use them? And people use them differently. And it gets to be hairy because of that, I think, this little bit of extra structure... Which really isn't very much; it's like one more level of structure. It's like channel and topic might help organize your communications. And it seems like it is, because you all still exist here, 12 years later... Yes, 12 years later. And now you're a thriving business on top of an open-source project... So people must like this model.
+It seems pretty well organized. I mean, we use Slack on the daily, and we have slightly less organization... We have channels, and now there's threads, which is kind of a bolt-on, which kind of can act as a topic, but they're more like ad hoc, like "Hey, maybe I'll reply in the thread, or maybe I'll reply to the whole channel." And then it gets to be like "What's the idiom, or what's the culture around threads?" How do we use them? And people use them differently. And it gets to be hairy because of that, I think, this little bit of extra structure... Which really isn't very much; it's like one more level of structure. It's like channel and topic might help organize your communications. And it seems like it is, because you all still exist here, 12 years later... Yes, 12 years later. And now you're a thriving business on top of an open source project... So people must like this model.
 
 **Alya Abbott:** Yeah. I mean, we get lots of feedback from folks, and that's really the biggest differentiator for people, is that level of organization just makes a huge difference in people's experience using the product. People tell us "Sometimes I have to go back to Slack to talk to my customers, and it's just so chaotic." Having experienced the level of organization within Zulip, other things feel -- people start feeling like other things are messy, and hard to follow.
 
@@ -118,7 +118,7 @@ It seems pretty well organized. I mean, we use Slack on the daily, and we have s
 
 **Jerod Santo:** Stuck in the middle with us?
 
-**Adam Stacoviak:** \[00:15:54.19\] Stuck in the middle, you know...
+**Adam Stacoviak:** \[15:54\] Stuck in the middle, you know...
 
 **Jerod Santo:** Nice. Well played.
 
@@ -152,7 +152,7 @@ It seems pretty well organized. I mean, we use Slack on the daily, and we have s
 
 **Jerod Santo:** Oh, are they? I don't know. I don't follow too closely along.
 
-**Adam Stacoviak:** \[00:20:10.08\] Well, I've gotten a couple of those emails, and they are scary to see... I was actually a little nervous, because I was trying to quickly, as this topic came up in this conversation, to find that message, because I do recall them saying recently to us that there's some updates required by September, or something like that... And like final notices for X... And like you, Jerod, I'm like "Who cares?", in a way. But then I'm like "Maybe I do care." Maybe I might care, you know?
+**Adam Stacoviak:** \[20:10\] Well, I've gotten a couple of those emails, and they are scary to see... I was actually a little nervous, because I was trying to quickly, as this topic came up in this conversation, to find that message, because I do recall them saying recently to us that there's some updates required by September, or something like that... And like final notices for X... And like you, Jerod, I'm like "Who cares?", in a way. But then I'm like "Maybe I do care." Maybe I might care, you know?
 
 **Jerod Santo:** Right. You don't care until you do care... And you're like "Oh, no! It was in the Slack!", and then it's gone now.
 
@@ -204,7 +204,7 @@ So we do sponsor free Zulip cloud standard plans for folks... We have I think ov
 
 **Adam Stacoviak:** It's a PG show here. That's how I've always felt about Slack. It's just like, great company, and I'm all for companies being ambitious and enterprise-focused and all that good stuff. I'm not at all against that. But I was always confused by their seemingly inability to see the goldmine of community that had leveraged Slack and its free tier to not find a way to make them pay in some way that wasn't thousands and thousands. It only seemed like they optimized for the large enterprises only, not for the smaller communities at all.
 
-**Alya Abbott:** \[00:24:06.14\] Yeah. Well, and I guess our general philosophy on pricing is - look, if you're a business and you're paying somebody a salary, paying a small monthly fee for that user, a few dollars a month to have them have chat software that they use hours every day, and in our case that can help them be more efficient with their time - that's just so worth it, and it's a very reasonable way to do things. But if you're looking at an organization where the folks using chat are not your employees, so even if there's some kind of core employee \[unintelligible 00:24:39.15\] a few folks who are part of a business, but then you have a large community that's part of that organization, now that pricing doesn't make any sense at all. And so folks can contact our sales team for their specific situation, but in general, our approach is really businesses, it makes sense to pay that kind of level, but not for community members, even if there's a business involved.
+**Alya Abbott:** \[24:06\] Yeah. Well, and I guess our general philosophy on pricing is - look, if you're a business and you're paying somebody a salary, paying a small monthly fee for that user, a few dollars a month to have them have chat software that they use hours every day, and in our case that can help them be more efficient with their time - that's just so worth it, and it's a very reasonable way to do things. But if you're looking at an organization where the folks using chat are not your employees, so even if there's some kind of core employee \[unintelligible 00:24:39.15\] a few folks who are part of a business, but then you have a large community that's part of that organization, now that pricing doesn't make any sense at all. And so folks can contact our sales team for their specific situation, but in general, our approach is really businesses, it makes sense to pay that kind of level, but not for community members, even if there's a business involved.
 
 **Jerod Santo:** Plus, if you're doing long-term thinking, the way you all are doing it builds value over the long run... Because the price of you all providing these standard plans for at this point 1,500 organizations which are community-focused, non-profits, open source, research, Academia, etc. these are people who will use and love your product, and it will help generate a network effect, you would hope, that would eventually bring their business to Zulip, their friend's business when they go to ask them for a recommendation to Zulip, who becomes a paying customer. And that stuff doesn't pay off in the quarterly or sometimes even the yearly, because you're actually losing money by giving this away to more people... But on the measuring 10 years, 15 years, 20 years down the road, that stuff compounds and becomes massive. And it's something that Slack I think currently has, to a certain extent, is some network effects, where it's like, people already have a Slack app on their phone, and so it's easy to add another Slack. In fact, yet another Slack is kind of a fatigue at this point. It's like "Oh, I have so many Slacks. I don't want to have another Slack." But it's a big advantage when it comes to getting people to use the tool if they've already used it, if they already have it on their phone or on their laptop. And so what you're doing is you're getting Zulip out there for these people, and you're doing good at the same time. So I applaud that strategy.
 
@@ -214,7 +214,7 @@ And also, another way that folks from these communities are really contributing 
 
 **Jerod Santo:** So when it comes to Slack, Adam, you and I kind of have maybe two values, that they hit on one of them. One of them's like high-quality software and design. Like, that's the thing that we both care about. And then the other one's like open source community ethos, which Slack does not have. We like to have them both. And high-quality software in Slack - I think that's more questionable now than it used to be. I think they really did hit it out of the park in certain ways, and were groundbreaking in certain ways... Recently, I've been less impressed after some redesigns, and I feel like it's kind of stagnated. Of course, they've arrived. They are now part of Salesforce, and a big company and all that, and they have other people on their minds that aren't us.
 
-\[00:28:16.18\] But I'm curious about Zulip when it comes to the software, and the way it all works... And does it fit into all the different places that you communicate? Because more often I'm using Slack on my phone, even though I stand at my desk for hours every day... You communicate all day long and all night long. And so Zulip on the phones, Android, iOS, Zulip on the web, Zulip apps... Do you have all that necessary surface area accounted for, and how do you all manage that?
+\[28:16\] But I'm curious about Zulip when it comes to the software, and the way it all works... And does it fit into all the different places that you communicate? Because more often I'm using Slack on my phone, even though I stand at my desk for hours every day... You communicate all day long and all night long. And so Zulip on the phones, Android, iOS, Zulip on the web, Zulip apps... Do you have all that necessary surface area accounted for, and how do you all manage that?
 
 **Alya Abbott:** Yeah, absolutely. So Zulip - you can use it just in a browser tab. There's also a desktop app for all the major platforms. And then yeah, Android and iOS apps. And we're actually currently in the process of rewriting our mobile apps from the ground up, using a different framework. We're switching to Flutter-based apps. So our current apps are definitely functional, but not as smooth and beautiful as we would like them to be. And so that next generation app is really going to get us all the way there, so we're very excited for it. And for old school folks out there, there's also a terminal client for Zulip, if anybody wants to use it that way.
 
@@ -234,7 +234,7 @@ And also, another way that folks from these communities are really contributing 
 
 **Adam Stacoviak:** Yeah, pretty much.
 
-**Break**: \[00:30:18.26\]
+**Break**: \[30:18\]
 
 **Jerod Santo:** What are some of the biggest challenges you all are facing?
 
@@ -250,7 +250,7 @@ A big challenge for us is to really get people off of their kind of default mode
 
 **Adam Stacoviak:** Yeah, it's unfortunate, especially -- you would think, as a user... Like you said, nobody got fired for buying IBM. I didn't make that up, but I don't disagree with it, to some degree... Except for what if you're missing out on what is free and open source, but you can also pay for it, when the Zulip name isn't as polished as maybe Microsoft, obviously? That's the hard part, is that you kind of have to win them with showing up, with the open sourceness of what you're doing, the way you've been in the trenches, with the communities, the way you've sponsored things... Not just simply the larger brand name, and the literal freeness that you can get with Teams. Now, I know that at certain points organizations have to pay for Teams, but it's pretty much free for the entrance, and then you pay once you're literally locked in.
 
-**Alya Abbott:** \[00:40:10.20\] Yeah. And I think in the past a couple of things that have held us back have been, one, the design of the app. That's really something that we've been focused on improving. That's been like a major, major investment for us over the past year or two, and continues to be. For the longest time, our users would tell us that the user experience in Zulip is second to none, but the design could use some work... And that's not such a big problem necessarily for folks who kind of -- once you've gotten used to an app, you might kind of stop noticing some of these things. But in the initial evaluation, it makes a huge difference. If you open an app and you're like "Oh, this doesn't look modern. This doesn't look beautiful..." And so we're really trying to get away from that, and folks have an immediate kind of like positive response to the app, as well as enjoying the UI over the long term.
+**Alya Abbott:** \[40:10\] Yeah. And I think in the past a couple of things that have held us back have been, one, the design of the app. That's really something that we've been focused on improving. That's been like a major, major investment for us over the past year or two, and continues to be. For the longest time, our users would tell us that the user experience in Zulip is second to none, but the design could use some work... And that's not such a big problem necessarily for folks who kind of -- once you've gotten used to an app, you might kind of stop noticing some of these things. But in the initial evaluation, it makes a huge difference. If you open an app and you're like "Oh, this doesn't look modern. This doesn't look beautiful..." And so we're really trying to get away from that, and folks have an immediate kind of like positive response to the app, as well as enjoying the UI over the long term.
 
 And then another thing we've been really focusing on is the onboarding experience, because there is a little bit of a different mental model for Zulip compared to other apps folks might've seen... And we do want to have that be easy to understand, and easy to onboard people, easy to get everybody in your organization, have folks get started with that... And also just -- I think almost any app, when you first encounter it, might feel a little overwhelming. If you've never seen Discord before, and you open it up, there's a lot going on. But some of these apps that we're competing with - most folks have seen them before, and so now they kind of have forgotten that first initial feeling of "Oh, there's so much happening. It's different." So we really want to help folks through that experience with Zulip, because we do have a lot of users who are coming in who haven't interacted with it before, to really get them across this threshold of like "Oh, I get it. This is comfortable. Some things about it are different, but a lot of patterns I'm familiar with from other applications work here as well... And it really is pretty intuitive once I have a handle on it."
 
@@ -282,7 +282,7 @@ And then another thing we've been really focusing on is the onboarding experienc
 
 It seems like a hot mess to me. But it's very big in like gaming communities, musicians, and crypto scam artists I know use it, other communities... And I'm not sure what it is about Discord. I know they have some cool audio features built in. They kind of have a lot of different stuff, because it came out of - I think gamers would hang out and talk to each other, initially. Do you ever have to compete with Discord, or do you have to explain Zulip in light of Discord, and how you all differentiate from them?
 
-**Alya Abbott:** \[00:44:03.29\] It depends. So Discord is not so much designed for business use, or use within organizations that needs to be closed and have sort of -- because it's a single account across all your organizations; it's a different structure there.
+**Alya Abbott:** \[44:03\] It depends. So Discord is not so much designed for business use, or use within organizations that needs to be closed and have sort of -- because it's a single account across all your organizations; it's a different structure there.
 
 **Jerod Santo:** Right.
 
@@ -321,7 +321,7 @@ Something that we're actually working towards is Discord has -- maybe if you hav
 
 **Jerod Santo:** Yeah, yeah, yeah. Apropos of nothing.
 
-**Alya Abbott:** \[00:47:54.23\] Yeah, so we have instructions in our help center for how to go about it. So basically, what you would want to do is, assuming you want to keep your message history, you can export that through Slack. It might be limited, I guess, depending on your situation... And then if you're moving, say, to Zulip Cloud, so that's our managed SaaS offering, you would just send over that data to us, and we would import that into a new organization for you. And so you could preserve all your - not just the messages, but also the user data. So you'd have a running start on that.
+**Alya Abbott:** \[47:54\] Yeah, so we have instructions in our help center for how to go about it. So basically, what you would want to do is, assuming you want to keep your message history, you can export that through Slack. It might be limited, I guess, depending on your situation... And then if you're moving, say, to Zulip Cloud, so that's our managed SaaS offering, you would just send over that data to us, and we would import that into a new organization for you. And so you could preserve all your - not just the messages, but also the user data. So you'd have a running start on that.
 
 And then we also -- I don't know if you guys have integrations, but also, to make it easier to move over your integrations if you have any, we have Slack-compatible webhooks. So basically you could just kind of remap where your webhooks are sending their data to be Zulip, and then on your own time later on, if you want to move over to more like Zulip native integrations, then you can do that. But things would be working for you right away. So yeah, and you can tell folks where to log in, or we can automatically send emails to all the users that you imported with their login information. So however you want to manage that.
 
@@ -343,7 +343,7 @@ My point is that I've been just anxious about what it would take to literally mi
 
 **Alya Abbott:** Yeah. I mean, I can't promise anything about your specific experience, but we have had folks tell us that when they moved to Zulip, they actually started getting much better community engagement, because it works quite nicely for folks who are not around all the time. I mean, one kind of category of folks, as you were saying, are may be people who are lurking, or who are just kind of coming by once in a while to check in on something... And if you're coming to something like Slack, it's hard to -- you might see the latest messages. It's really hard -- it's going to be not really possible for you to kind of catch up on what you missed if you're checking it out every couple of weeks or every month, in an active organization... Whereas for Zulip, if you just want to sort of check in on things occasionally, folks will come in and they'll look at that recent conversations you maybe saw when you were exploring the app, and instead of having to look at sort of individual messages and try to figure out what's going on, they'll just see that list of topics, and they can be like "Oh, this topic sounds interesting. Let me jump into that."
 
-\[00:52:14.13\] And so you don't even have to feel obliged to kind of make everything be marked as read, or kind of manage your own reads necessarily, if it's just something where you're not following every little detail. You really can kind of just skim that list of what's been going on, and jump into the ones that are of interest.
+\[52:14\] And so you don't even have to feel obliged to kind of make everything be marked as read, or kind of manage your own reads necessarily, if it's just something where you're not following every little detail. You really can kind of just skim that list of what's been going on, and jump into the ones that are of interest.
 
 So yeah, we've had folks say that something like an open source project, that it can actually really be great for community engagement, because people can select the parts that are interesting to them, and just follow those, and jump in on those. You can even configure notification -- there's a concept of following topics. So once you've seen something that's interesting, if it's a community you're not engaged with very regularly, you can follow that particular topic and say get email notifications when there's more messages just to that topic. And so there's really ways to follow specific conversations and find things to engage with for occasional users in a community.
 
@@ -375,7 +375,7 @@ So yeah, we've had folks say that something like an open source project, that it
 
 **Alya Abbott:** Exactly. Yeah, we have an installation guide that is pretty straightforward. We really do work hard to make it easy to self-host Zulip, and also make the installation process as easy as possible... Really smooth upgrade process when the new version comes out. So it's definitely a priority for us, and there's detailed documentation on how you need to do everything. So it should be very doable for you if that's something that you enjoy. Yeah.
 
-**Jerod Santo:** \[00:56:14.19\] You just have a Docker image?
+**Jerod Santo:** \[56:14\] You just have a Docker image?
 
 **Alya Abbott:** Yes. Sorry, this is not the part that I personally work on nearly as much as some other things...
 
