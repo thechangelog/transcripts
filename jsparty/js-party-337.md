@@ -106,7 +106,7 @@ The next generation RSpec, a JavaScript bundler written in... Can you guys guess
 
 **Nick Nisi:** Yeah, that is a good point. I was totally not thinking of it from that point. I was totally thinking "Oh, here comes the return of 400-line config files."
 
-**Jerod Santo:** \[00:06:16.11\] Oh, you think they've gone somewhere? No, they're still around.
+**Jerod Santo:** \[06:16\] Oh, you think they've gone somewhere? No, they're still around.
 
 **Nick Nisi:** Yeah. If you still have those around, then you just get these benefits for free. Yeah, that's great, actually.
 
@@ -146,7 +146,7 @@ Moving on to our favorite server-side runtime, Node.js. Have you heard of it? Ye
 
 **Jerod Santo:** I see.
 
-**Christopher Hiller:** \[00:09:54.24\] Likewise, I think, namespace is another... I assume they just treat it like an object. An object create null type object, and you just throw properties in there. But that also would need to be compiled down. You cannot strip a namespace.
+**Christopher Hiller:** \[09:54\] Likewise, I think, namespace is another... I assume they just treat it like an object. An object create null type object, and you just throw properties in there. But that also would need to be compiled down. You cannot strip a namespace.
 
 **Jerod Santo:** Fair. So if this was a two-phase adoption of TypeScript support, phase one would have been "Well, let's strip all the types we can just strip", and now phase two would be there's a few edge cases or things that you can't strip, because they have to be actually included in the compiled product, and so now let's go ahead and add support for transforming them into JavaScript at build time, or at Node - not build time, but Node run time. And now that's there. So no emergency pod for this one, but he's still smiling, he's still grinning... Because it further deepens TypeScript support in Node.
 
@@ -190,7 +190,7 @@ Moving on to our favorite server-side runtime, Node.js. Have you heard of it? Ye
 
 **Jerod Santo:** Gotcha.
 
-**Break**: \[00:13:36.15\]
+**Break**: \[13:36\]
 
 **Jerod Santo:** IEEE Spectrum, which I believe is a website and used to be a publication, it might even still be kind of a magazine from IEEE...
 
@@ -228,7 +228,7 @@ Moving on to our favorite server-side runtime, Node.js. Have you heard of it? Ye
 
 **Jerod Santo:** Because I don't really write SQL anymore. I write plain English SQL that gets turned into actual SQL. And that's been pretty nice. That's been a life improvement for me. I mean, that's what LLMs have done in my life... You now copy-paste SQL, you know? You don't actually author it directly, which has been an improvement. Because I use it all the time, but just, is it an inner join? Is it a left outer join? How do I -- you know? Like, gosh, who has time for that? Not me. But I do have time to say "Here's what I'm looking at", and then I get a query that's close enough, and then you can tweak it from there. So maybe she would benefit from that.
 
-**Christopher Hiller:** \[00:20:25.23\] Hey, Jerod, are you an Elixir guy?
+**Christopher Hiller:** \[20:25\] Hey, Jerod, are you an Elixir guy?
 
 **Jerod Santo:** Yes.
 
@@ -312,7 +312,7 @@ Moving on to our favorite server-side runtime, Node.js. Have you heard of it? Ye
 
 **Christopher Hiller:** Let Homebrew deal with it, if you just need to use like a Python script.
 
-**Jerod Santo:** \[00:24:02.00\] A lot of Python scripts you can't just brew install.
+**Jerod Santo:** \[24:02\] A lot of Python scripts you can't just brew install.
 
 **Christopher Hiller:** If they're good, you should be able to.
 
@@ -410,7 +410,7 @@ But you don't actually have index references there either, so -- you can if you 
 
 **Jerod Santo:** Exactly. Ruby is the best programming language if you don't need to show this code to anybody... Because you can just monkey patch like the core objects, and have all very nice utilities for yourself. Just don't ever share that, because no one's going to know how it's working. But it's very malleable, and makes writing stuff very enjoyable, as long as it's not to be collaborated on.
 
-**Nick Nisi:** \[00:28:03.12\] Everything's just in method missing, right?
+**Nick Nisi:** \[28:03\] Everything's just in method missing, right?
 
 **Jerod Santo:** Well, you can definitely do that too, yeah.
 
@@ -520,7 +520,7 @@ Transpilation, of course... We don't have to do that. We have pretty good langua
 
 **Christopher Hiller:** Oh, God... Satisfactory plugins?
 
-**Jerod Santo:** \[00:31:55.20\] What's Satisfactory plugins? They are like good enough?
+**Jerod Santo:** \[31:55\] What's Satisfactory plugins? They are like good enough?
 
 **Christopher Hiller:** Like mods. It's like plugins for a Satisfactory mod, written in Lua, but I use Moonscript. Anyway. And I've written stuff for like Computercraft.
 
@@ -600,7 +600,7 @@ Transpilation, of course... We don't have to do that. We have pretty good langua
 
 **Jerod Santo:** Yeah, and I liked CoffeeScript as well. I thought it was very energizing.
 
-**Break**: \[00:35:13.29\]
+**Break**: \[35:13\]
 
 **Jerod Santo:** Okay, let's talk more Node. Chris, you had thoughts on Node's test runner. Please, open up this conversation.
 
@@ -634,7 +634,7 @@ But I picked it up recently to write some tests, instead of Mocha, and I was hap
 
 **Jerod Santo:** Cool. Related discussion that we got Kball's opinion on recently, and I'd love your opinion, Chris... Kind of going up a level. What belongs in Node and what doesn't? What is your particular opinion on shoving a bunch of stuff into Node, versus keeping that relatively slim, and allowing third-party developers to innovate, etc? Do you have strong opinions one way or the other on where things belong inside of something like Node?
 
-**Christopher Hiller:** \[00:40:20.24\] I know what goes too far. The Python standard library had something like an iTunes module built into it. And that goes too far.
+**Christopher Hiller:** \[40:20\] I know what goes too far. The Python standard library had something like an iTunes module built into it. And that goes too far.
 
 **Jerod Santo:** Yeah.
 
@@ -668,7 +668,7 @@ Whereas if it's just built in, it's like "Oh, there's no barrier. I can just wri
 
 **Christopher Hiller:** No config file. No config file.
 
-**Jerod Santo:** \[00:43:45.22\] That's nice. Very, very nice. Well, let's finish up this episode on a musical note. One thing I've always loved is the cross-section of software development and culture. Whether it's music, movies, video games, art... We featured all kinds of things over the years on our shows. Maybe you recall Nested Loops, a JavaScript band from back in the day, that would rap over JS-generated beats, and we had them on the show and featured some of their music... Of course, I've done features of Standard Out the Rapper, who's a software development rapper, probably the only one on Earth who has some actually really good music... And most recently, I've found out about the TC39 song. This comes by way of Bruce Lawson, who works at the Vivaldi browser, which - Chris, you're rocking Vivaldi today, huh?
+**Jerod Santo:** \[43:45\] That's nice. Very, very nice. Well, let's finish up this episode on a musical note. One thing I've always loved is the cross-section of software development and culture. Whether it's music, movies, video games, art... We featured all kinds of things over the years on our shows. Maybe you recall Nested Loops, a JavaScript band from back in the day, that would rap over JS-generated beats, and we had them on the show and featured some of their music... Of course, I've done features of STDOUT the Rapper, who's a software development rapper, probably the only one on Earth who has some actually really good music... And most recently, I've found out about the TC39 song. This comes by way of Bruce Lawson, who works at the Vivaldi browser, which - Chris, you're rocking Vivaldi today, huh?
 
 **Christopher Hiller:** Yeah.
 
@@ -690,7 +690,7 @@ Whereas if it's just built in, it's like "Oh, there's no barrier. I can just wri
 
 **Jerod Santo:** Gosh... You're a curmudgeon. Alright, here's the song by Bruce Lawson... TC39 song, Chris...
 
-**Song**: \[00:45:47.24\]
+**Song**: \[45:47\]
 
 *I get so excited writing JavaScript I'm pretty easygoing, but now are you strict?*
 
