@@ -36,7 +36,7 @@
 
 **Justin Garrison:** Yeah. And at some point, you just have to ship something. You have to say "Hey, we built the thing. Here's why it didn't work out, and why you might want to choose something else." So let's go ahead and jump into that interview, and we will see you all after to talk about the Meta white paper I read. \[unintelligible 00:04:28.25\]
 
-**Break**: \[00:04:32.04\]
+**Break**: \[04:32\]
 
 **Justin Garrison:** Hello and welcome to the show, Du'An Lightfoots. Du'An's a developer advocate at AWS. Welcome and thanks for coming on the show.
 
@@ -58,7 +58,7 @@ So now at AWS, I make content on - I would say I've done some blogs, but a lot o
 
 **Autumn Nash:** It seems like a lot of network engineers are former military, because I think it's one of the -- like, it gives a lot of good hands-on experience learning that type of skill.
 
-**Du'An Lightfoot:** \[00:12:03.15\] Yeah. Networking is one of those technologies where people either start at, or come from somewhere else. Telecom, a lot of phone engineers that were doing analog phone systems, or PBS phone systems, they migrated from doing that to network engineering. And then I actually listened to a lot of like CEOs from like Google, and large companies... They actually started in networking, for some reason. And yeah, it's just one of those things where people start out and then kind of go other directions.
+**Du'An Lightfoot:** \[12:03\] Yeah. Networking is one of those technologies where people either start at, or come from somewhere else. Telecom, a lot of phone engineers that were doing analog phone systems, or PBS phone systems, they migrated from doing that to network engineering. And then I actually listened to a lot of like CEOs from like Google, and large companies... They actually started in networking, for some reason. And yeah, it's just one of those things where people start out and then kind of go other directions.
 
 **Autumn Nash:** I think it's like learning one of the harder pieces of engineering, because network engineering is a very in-depth skill, that is complicated to learn, but also it's not one that you hear people making content for, and it's not like the sexy "Oh, everybody should go learn this." Maybe the cloud or other things are, you know. So what is different about learning networking in the cloud? What are you learning different working at AWS, doing that kind of...?
 
@@ -76,7 +76,7 @@ So now at AWS, I make content on - I would say I've done some blogs, but a lot o
 
 **Du'An Lightfoot:** I think IPv6 is good. I think IPv6 should be used more. If I'm a dreamer right now, and I'm thinking about networking, I think the way we allocate IPv4 IP addresses should be a thing of the past. I don't know if you use VPC lattice, but it has this concept of a service network. You create your service network, and then you create services that are associated with that service network.
 
-\[00:16:08.28\] And when you create the service network, you get an IP address, IPv6 IP address space, and it handles all of the networking and DNS for each of your services. So let's say you have different VPCs, and the services that are in those VPCs, and they need to communicate between the services. Normally, you would have to worry about ensuring there's no IP address overlap. But with VPC lattice, it handles all that for you, because it's assigning IPv6 addresses, and it's kind of handling the communication in a PIP address, the 169.254 that you will never see. So it handles all of that connectivity within AWS, within the region, for your different VPCs and your services, removing the need to even have to worry about IPv4.
+\[16:08\] And when you create the service network, you get an IP address, IPv6 IP address space, and it handles all of the networking and DNS for each of your services. So let's say you have different VPCs, and the services that are in those VPCs, and they need to communicate between the services. Normally, you would have to worry about ensuring there's no IP address overlap. But with VPC lattice, it handles all that for you, because it's assigning IPv6 addresses, and it's kind of handling the communication in a PIP address, the 169.254 that you will never see. So it handles all of that connectivity within AWS, within the region, for your different VPCs and your services, removing the need to even have to worry about IPv4.
 
 So when I think about IPv6, I think that we should use it. It's so large that we don't really have to worry about overlaps and the challenges that we face, and then when we think about networking and routing and things, I think at the end of the day, a network engineer's job is going to look a lot different in 10 years than it does today.
 
@@ -98,7 +98,7 @@ And then once you have a service within those VPCs, or a service that's created,
 
 **Autumn Nash:** Oh, okay.
 
-**Du'An Lightfoot:** \[00:20:13.00\] Because a private subnet - you don't want to have direct connectivity from the internet. You're going to go through a bastion host, which will be in a public subnet, meaning that it's a subnet within a VPC that has connectivity from the internet.
+**Du'An Lightfoot:** \[20:13\] Because a private subnet - you don't want to have direct connectivity from the internet. You're going to go through a bastion host, which will be in a public subnet, meaning that it's a subnet within a VPC that has connectivity from the internet.
 
 **Autumn Nash:** So kind of like gates to make sure that you're staying secure.
 
@@ -130,7 +130,7 @@ I remember at Disney+ we literally were like -- they bought the startup, and the
 
 **Autumn Nash:** Which is wild, because if you just look at your home network - I have four satellites in my house, because everything's connected to the Internet nowadays, and it's crazy how many devices just in our house, just in regular things around our houses that are connected. My fridge is connected to my network, because I have the fridge with the screen. You know what I mean? Like, it's just --
 
-**Du'An Lightfoot:** \[00:24:09.20\] When we talk about like home networks, they're actually -- you probably have one IPv4 address for your home, and everything is using a private IP address space, and then it's using something called NAT, network address translation to communicate with the internet. So it looks like you're one IPv4 address at home, but it's using a port to say "Okay, when I'm communicating from my refrigerator, use this port", which is at layer four. The layer three address is what's traversing the internet; when it comes back, it's saying "Okay, I came in on this port", and then it goes back to your refrigerator. That's the layer four. That's kind of why you need to understand the OSI model, because that works at the, I would say the network, the transport layer, but it also - when you're dealing with your applications and you're understanding the port connectivity to the application, now if you're serving a web server on port 80, you can't serve multiple web services on that port 80 if you already have one using port 80. So now you may have to have another web server running on port 8080.
+**Du'An Lightfoot:** \[24:09\] When we talk about like home networks, they're actually -- you probably have one IPv4 address for your home, and everything is using a private IP address space, and then it's using something called NAT, network address translation to communicate with the internet. So it looks like you're one IPv4 address at home, but it's using a port to say "Okay, when I'm communicating from my refrigerator, use this port", which is at layer four. The layer three address is what's traversing the internet; when it comes back, it's saying "Okay, I came in on this port", and then it goes back to your refrigerator. That's the layer four. That's kind of why you need to understand the OSI model, because that works at the, I would say the network, the transport layer, but it also - when you're dealing with your applications and you're understanding the port connectivity to the application, now if you're serving a web server on port 80, you can't serve multiple web services on that port 80 if you already have one using port 80. So now you may have to have another web server running on port 8080.
 
 **Autumn Nash:** See, you just made networking interesting. It was just like Charlie Brown teaching. Now I'm going to go down a rabbit hole for three days and learn...
 
@@ -150,7 +150,7 @@ I remember at Disney+ we literally were like -- they bought the startup, and the
 
 So I went through a couple of courses learning how to build my own GPT, my general purpose transformer. And that kind of showed me "Okay, here's what's happening." Now I realized I need to understand math. So I need to go back and learn some more math. And also, I need to understand algorithms, because I need to know how that works. But that's just me trying to really understand what's going on, so I can solve some problems that I want to have.
 
-\[00:28:12.20\] Now, for the generative AI side, it's seeing how what we do every day, let's say as a network engineer... Back in like 2016 there was a real push to start using automation. The challenge at that time was that many of the devices on premises, you had to connect through SSH, meaning that you're not dealing with structured data. And so people were automating, that was happening, but now fast-forward to let's say 2020, more devices were becoming API-driven, along with more workloads were becoming hybrid, as well as cloud-native. So if you're dealing with APIs, you're dealing with structured data, so now you can really leverage the power of automation.
+\[28:12\] Now, for the generative AI side, it's seeing how what we do every day, let's say as a network engineer... Back in like 2016 there was a real push to start using automation. The challenge at that time was that many of the devices on premises, you had to connect through SSH, meaning that you're not dealing with structured data. And so people were automating, that was happening, but now fast-forward to let's say 2020, more devices were becoming API-driven, along with more workloads were becoming hybrid, as well as cloud-native. So if you're dealing with APIs, you're dealing with structured data, so now you can really leverage the power of automation.
 
 Well, once you start doing that, and you're automating - okay, that's great. But now with generative AI, you could actually take the API responses and let generative AI kind of handle them, and then do something else. So now we're talking about agents, we're talking about leveraging tools... The possibilities that are available to me are endless right now, and they really haven't been thought of. Because when I think of myself, let's say working in a NOC, or a SOC, or somewhere where you have to log into all these different systems to find out "Okay, why is there latency on my link?" Well, one thing generative AI is great at is analyzing data. What if it had access to all of these logs, it had access to all of these APIs, you ask the question "Why is there latency from on-premises to another workload that's in another location, or between sites?", what if you can use generative AI in some type of chatbot that could make those API calls for you, analyze the data, and then return a response? And then once you return a response, then from there what if you say "Okay, contact this service provider to find out what's going on." And then it makes the request to the service provider, sending them an email, and then all of that is automated through this chatbot. Like, this is the type of possibilities I'm thinking of now.
 
@@ -164,7 +164,7 @@ Well, once you start doing that, and you're automating - okay, that's great. But
 
 **Justin Garrison:** I'm trying to think, like -- I don't remember what they had at the time, but they probably had like Elasticsearch. They probably had some way for them to search for the data, because the logs were semi-structured, and they're able to like "Hey, we need to find this." But the person trying to fit all the context of not knowing what happens into this -- like, now we need to discover something, and not knowing how all these complex systems plug together... Especially at that networking layer. Like, if this is a networking problem, you are below where most people are comfortable diving in. Some people are like "Oh, I'm going to look at my system logs." No, no, no. You need to look at like packets on the wire, and figure out... I love that overlap of -- like, networking is so physical, where it's like literally when you're tracing... Like, there's electrons that are flowing somewhere, outside of the computer, and you could like cut a wire and like "Oh, look. They're gone." You could actually affect that from the real world.
 
-**Du'An Lightfoot:** \[00:32:23.20\] Yeah, that's true. But I think in the Reddit case it was actually a CNI for one of the older Kubernetes workloads that wasn't compatible when they tried to update that environment. And so if you're analyzing that, that's a whole application layer issue. You know what I mean?
+**Du'An Lightfoot:** \[32:23\] Yeah, that's true. But I think in the Reddit case it was actually a CNI for one of the older Kubernetes workloads that wasn't compatible when they tried to update that environment. And so if you're analyzing that, that's a whole application layer issue. You know what I mean?
 
 **Justin Garrison:** I mean, that's encapsulated networks. And like that gets super-tricky, super-hard. I remember -- I think it was Cillium, is what they were using. It was like the old version of Cillium had a problem with that version of Kubernetes, or whatever it was. At that at that scale, they're like "Oh, you know what? These things are hard to put together, and hard to verify. And one bit us."
 
@@ -172,7 +172,7 @@ Well, once you start doing that, and you're automating - okay, that's great. But
 
 **Autumn Nash:** I actually think that is awesome, because I had never heard of VPC Lattice, but it seems like it would solve a lot of problems that I ran into trying to build things, and experiment with it... So that's actually really cool.
 
-**Break**: \[00:33:28.02\]
+**Break**: \[33:28\]
 
 **Autumn Nash:** I thought what you said earlier was really interesting, is when people just talk about AI, they only talk about AI as one big, I guess, kind of glob of artificial intelligence... But really, machine learning, deep learning, generative AI... I think people think that you're going to use generative AI for everything, which - it has got a lot of great uses; I use it all the time, personally. But also, machine learning is so interesting, and so is deep learning, and it's like we almost forgot about it... Which is wild, because I think that is going to -- I mean, it's in so much of our life. Alexa is always like "You forgot to order popcorn." And I'm like "Dang it, Alexa. I'm spending my money \[unintelligible 00:37:20.14\] They get me every time. Alexa is like "I think you want to buy this." And I'm like "You're right, I do." So I feel like we almost forgot like all these actual -- well, not actual, but like uses, and these different cool things... And it's really, like you said, math, but we don't even think about that. Is there anything that you've like really enjoyed learning about deep learning or machine learning in your process of learning?
 
@@ -190,7 +190,7 @@ Well, once you start doing that, and you're automating - okay, that's great. But
 
 **Du'An Lightfoot:** Yeah. But this actually does a way better job at that.
 
-**Justin Garrison:** \[00:40:09.00\] One of the things that Perplexity does really well is exposing that path for you. Because it's not just "Here's the next question" or "Here's a similar question that other people are asking." It's not the SEO side of it. It's the "How deep do you want to go into this, and finding that?" I've only used it a couple times, but I mostly read about it in the news from all the data they scrape, and what they're doing... It seems a little bit like "Oh, maybe we shouldn't have done this." But also, it's a useful tool, and that is a difficult thing to kind of come to terms with, of "Hey, this thing adds value to my life and my learning", but also it has stolen information from people that would have tried to give me that as well, but I did not know how to get to them. I didn't know how to ask the question to find their content.
+**Justin Garrison:** \[40:09\] One of the things that Perplexity does really well is exposing that path for you. Because it's not just "Here's the next question" or "Here's a similar question that other people are asking." It's not the SEO side of it. It's the "How deep do you want to go into this, and finding that?" I've only used it a couple times, but I mostly read about it in the news from all the data they scrape, and what they're doing... It seems a little bit like "Oh, maybe we shouldn't have done this." But also, it's a useful tool, and that is a difficult thing to kind of come to terms with, of "Hey, this thing adds value to my life and my learning", but also it has stolen information from people that would have tried to give me that as well, but I did not know how to get to them. I didn't know how to ask the question to find their content.
 
 **Du'An Lightfoot:** Yes...
 
@@ -210,7 +210,7 @@ There's situations, like, I was a DA, Du'An, you're a DA... We're professionally
 
 And so what he's saying is that there probably will need to be some type of ASCAP for texts and images that people post publicly, and then they get a percentage of that revenue back from the content they paste. And I'm like "I could see that." I actually could see that.
 
-**Autumn Nash:** \[00:43:58.05\] I like that. It would suggest the actual links and tell people "Hey, this is a blurb. Now go click on this link." So you still get your clicks. Because it's instead of trying to fight change, we just need to embrace it. You know when you see all these people that are old try to make laws, in like Congress, and you're like "Bro, you don't even know what TikTok is." You know what I mean? Like, why are you --
+**Autumn Nash:** \[43:58\] I like that. It would suggest the actual links and tell people "Hey, this is a blurb. Now go click on this link." So you still get your clicks. Because it's instead of trying to fight change, we just need to embrace it. You know when you see all these people that are old try to make laws, in like Congress, and you're like "Bro, you don't even know what TikTok is." You know what I mean? Like, why are you --
 
 **Justin Garrison:** "You know, old people making laws..." That's a problem.
 
@@ -236,7 +236,7 @@ Think about all the different things... You were in the military, right? Justin 
 
 **Autumn Nash:** I know, there's like three. But the big one is the search monopoly, right?
 
-**Du'An Lightfoot:** \[00:48:03.20\] Yeah, the search monopoly. Because the number one search engine for the longest time was Google. And then from there, the number one search engine was YouTube. So I think now it's TikTok. But still, number two and three is Google and YouTube. So they own both of those. And then the advertising for both of those, they own that, too. So they control that entire market. If you think about a monopoly --
+**Du'An Lightfoot:** \[48:03\] Yeah, the search monopoly. Because the number one search engine for the longest time was Google. And then from there, the number one search engine was YouTube. So I think now it's TikTok. But still, number two and three is Google and YouTube. So they own both of those. And then the advertising for both of those, they own that, too. So they control that entire market. If you think about a monopoly --
 
 **Autumn Nash:** Not just that, but that's a dangerous monopoly, because that's how people get their information. I'm not saying Google's doing anything wrong right now...
 
@@ -266,7 +266,7 @@ Think about all the different things... You were in the military, right? Justin 
 
 **Justin Garrison:** They're even getting RCS now. Again, another technical thing that was required to say "Hey, you have to support this better protocol, that's more secure, that has better features..." And Apple dragged their feet to be like "Oh, SMS. 120 characters."
 
-**Autumn Nash:** \[00:52:12.22\] And the chargers, and stuff... But this all goes back to what we were just talking about - we need people that are educated enough in technology to make these laws. I don't know if the people that we have in positions of political power in the United States have enough background in technology to even be able to make these laws. I don't know what they're doing different in the EU, but half of the -- have you ever seen them argue about technology on the Senate floor? I'm like "Who do these people talk to?" Like, pay one of us, because we'll help you.
+**Autumn Nash:** \[52:12\] And the chargers, and stuff... But this all goes back to what we were just talking about - we need people that are educated enough in technology to make these laws. I don't know if the people that we have in positions of political power in the United States have enough background in technology to even be able to make these laws. I don't know what they're doing different in the EU, but half of the -- have you ever seen them argue about technology on the Senate floor? I'm like "Who do these people talk to?" Like, pay one of us, because we'll help you.
 
 **Justin Garrison:** More senators need to know the OSI model, and I think that's the full circle...
 
@@ -286,7 +286,7 @@ Think about all the different things... You were in the military, right? Justin 
 
 **Du'An Lightfoot:** Yeah, thanks.
 
-**Break**: \[00:54:05.23\]
+**Break**: \[54:05\]
 
 **Justin Garrison:** Thank you so much, Du'An, for the interview. And actually, you're sticking around for the outro, because we were just talking, and we're just like "Let's just keep going." We've got 20 more minutes, and we were figuring out the outro piece... So thanks for sticking with us right now.
 
@@ -298,7 +298,7 @@ Think about all the different things... You were in the military, right? Justin 
 
 **Justin Garrison:** Every section had new acronyms, and at least two or three other resources. Like "We're just referencing this other major work from this other white paper."
 
-**Autumn Nash:** I actually thought that was really cool, though. Meta does -- I don't always agree with them, but the way that they outsource and open-source things... It's amazing how transparent they'll be. And how they give a lot of information, and that they give credit to the other white papers that they learned it from. I really appreciate that about them.
+**Autumn Nash:** I actually thought that was really cool, though. Meta does -- I don't always agree with them, but the way that they outsource and open source things... It's amazing how transparent they'll be. And how they give a lot of information, and that they give credit to the other white papers that they learned it from. I really appreciate that about them.
 
 **Justin Garrison:** To me, this really -- what we were just talking about in the interview... Like, summarizing a website and content and then saying "This is what I'm using." And when you go ask the AI and say "Hey, what does that website say?", you're giving the credit, because it's like "It came from here", but no one's going there. I'm not reading all these white papers and then figuring out the depth of it, because sometimes these references - they get it wrong. And that is one of the most fascinating pieces to me about this whole academic infrastructure of how these white papers reference each other, and they get like bonus points the more they reference, and all this stuff. That is a very interesting area, and that's what we want to talk about today.
 
