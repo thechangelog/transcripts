@@ -8,7 +8,7 @@ Ok, let's get into this week's news.
 
 **Jerod Santo:**
 
-[Why GitHub actually won](https://blog.gitbutler.com/why-github-actually-won/)
+[Why GitHub actually won](https://blog.gitbutler.com/why-GitHub-actually-won/)
 
 Scott Chacon writes up his insider's take on why GitHub became the de facto code collaboration site. Here's the quick version:
 
@@ -79,7 +79,7 @@ Head to [warpstream.com/byoc](https://warpstream.com/byoc) to learn more and get
 
 **Jerod Santo:**
 
-[Look out, kids: PHP is the new JavaScript](https://www.mux.com/blog/php-is-the-new-javascript)
+[Look out, kids: PHP is the new JavaScript](https://www.mux.com/blog/php-is-the-new-JavaScript)
 
 Dave Kiss explains the "current hype and traction" that PHP is getting (mostly on X & a few YouTube channels):
 
