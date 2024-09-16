@@ -112,7 +112,7 @@
 
 **Emily Freeman:** Well, I know... I used to live there.
 
-**Adam Stacoviak:** \[00:05:58.17\] All over the place. By the airport, by Universal... I think it was called Westlake, or Westgate... Maybe Westgate... Does that ring a bell? West something. Near Full Self a little bit, too.
+**Adam Stacoviak:** \[05:58\] All over the place. By the airport, by Universal... I think it was called Westlake, or Westgate... Maybe Westgate... Does that ring a bell? West something. Near Full Self a little bit, too.
 
 **Emily Freeman:** Yeah.
 
@@ -212,7 +212,7 @@ People want those things that are important to them.
 
 **Adam Stacoviak:** Oh, yeah. I've been diehard collecting friends... But really only people I know. So I've been hardcore about knowing somebody, or having met somebody, or want to be truly connected to them in some way, shape, or form... Like truly networking. And I don't mean that in that I'm being posh, or anything like that whatsoever. Just more like I wanted it to be about people that I was trying to connect with in some way, shape, or form, or met literally face to face, or virtually in meetings, and stuff like that. Not really this "Hey, I want to follow you." Now, they do have the follow mechanism, but literally connecting... That was what I was trying to do there. So I feel like all my connections are pretty proper connections, not just randos on the internet that I'm a fan of.
 
-**Jerod Santo:** \[00:10:16.07\] Right.
+**Jerod Santo:** \[10:16\] Right.
 
 **Adam Stacoviak:** Or vice versa.
 
@@ -298,7 +298,7 @@ People want those things that are important to them.
 
 **Jerod Santo:** No. We all have basements here, so the basement is usually good enough. I know some places don't have basements readily, but... There are folks who have shelters, but for the most part just get as low as you can.
 
-**Emily Freeman:** \[00:13:52.19\] My family is all in northern Alabama, and my father growing up -- my grandfather was horrified of tornadoes. In fact, the school knew that a storm was coming when my grandfather walked across the courtyard to fetch all his kids and all the cousins... And then he would make everyone sit in the cellar for way too long. And so they called it the cellar dweller club.
+**Emily Freeman:** \[13:52\] My family is all in northern Alabama, and my father growing up -- my grandfather was horrified of tornadoes. In fact, the school knew that a storm was coming when my grandfather walked across the courtyard to fetch all his kids and all the cousins... And then he would make everyone sit in the cellar for way too long. And so they called it the cellar dweller club.
 
 **Jerod Santo:** Cellar dweller. That's nice.
 
@@ -442,7 +442,7 @@ People want those things that are important to them.
 
 **Justin Garrison:** But I think if you're looking at modern, last 50 to 60 year remakes, that's going to be harder.
 
-**Jerod Santo:** \[00:18:05.29\] Yeah.
+**Jerod Santo:** \[18:05\] Yeah.
 
 **Emily Freeman:** They're just ruining our childhood. They really are.
 
@@ -602,7 +602,7 @@ People want those things that are important to them.
 
 **Emily Freeman:** In the alley, just... \[laughs\]
 
-**Justin Garrison:** \[00:22:00.17\] No, I mean, I meet them at a Starbucks, if it's local. I just go "Hey, I'm in the area. Can I buy these three movies from you?"
+**Justin Garrison:** \[22:00\] No, I mean, I meet them at a Starbucks, if it's local. I just go "Hey, I'm in the area. Can I buy these three movies from you?"
 
 **Emily Freeman:** Why is he so funny? \[laughs\]
 
@@ -752,7 +752,7 @@ People want those things that are important to them.
 
 **Jerod Santo:** Well, 1999 is the best year ever, so we can't really even compare.
 
-**Emily Freeman:** \[00:26:21.03\] Wait, why is 1999 the best year ever?
+**Emily Freeman:** \[26:21\] Wait, why is 1999 the best year ever?
 
 **Jerod Santo:** Oh my goodness, here we are again... Adam, do you want to get the list out?
 
@@ -910,7 +910,7 @@ People want those things that are important to them.
 
 **Emily Freeman:** It's like Disney. We go East Coast, West Coast, you know.
 
-**Jerod Santo:** \[00:29:53.20\] Yeah, exactly. Gotta hit them all.
+**Jerod Santo:** \[29:53\] Yeah, exactly. Gotta hit them all.
 
 **Emily Freeman:** Jurassic Park holds up though.
 
@@ -988,7 +988,7 @@ People want those things that are important to them.
 
 **Jerod Santo:** Hey, that's a good segue. It doesn't really matter what year it was... Well, let's somehow a hard segue into DevRel and careers, because there's no possible way of getting there with my limited skill set...
 
-**Break**: \[00:32:06.04\]
+**Break**: \[32:06\]
 
 **Jerod Santo:** Emily.
 
@@ -1036,7 +1036,7 @@ People want those things that are important to them.
 
 **Jerod Santo:** "What am I paying you for...?
 
-**Emily Freeman:** \[00:41:54.24\] "Thanks, doc. I appreciate that." And so it was like "Well, you just have to remove the stress." I'm like "I can't do that until my stock drops. Thank you." And so I went to an acupuncturist, and she actually helped the most. She kind of made it manageable for the last little home stretch. But yeah, as soon as I realized there wasn't going to be any kind of meaningful change, and I wasn't going to be able to be what I needed to be to be effective, I was like "I can't keep going." And so yeah, I just -- I made the bold decision. And it wasn't – I think a lot of times in my... Because I've made some real bold decisions in my career. And people sometimes think that I'm just like bold by nature. I am not. I am driven by like – I don't know, I think it's more of a fear response than anything else. It wasn't like, in that moment – like, I could revisionist history this and say "Oh, I had a plan, and I was going to make sure everything was going to be amazing, and I was going to go off on my own." But really, it was like "I cannot keep going down this path, or I will damage myself, both soul and body. And it's like "Okay, we have to stop this and figure out what's next. Whether that's a new job or something on my own, I don't know." But yeah.
+**Emily Freeman:** \[41:54\] "Thanks, doc. I appreciate that." And so it was like "Well, you just have to remove the stress." I'm like "I can't do that until my stock drops. Thank you." And so I went to an acupuncturist, and she actually helped the most. She kind of made it manageable for the last little home stretch. But yeah, as soon as I realized there wasn't going to be any kind of meaningful change, and I wasn't going to be able to be what I needed to be to be effective, I was like "I can't keep going." And so yeah, I just -- I made the bold decision. And it wasn't – I think a lot of times in my... Because I've made some real bold decisions in my career. And people sometimes think that I'm just like bold by nature. I am not. I am driven by like – I don't know, I think it's more of a fear response than anything else. It wasn't like, in that moment – like, I could revisionist history this and say "Oh, I had a plan, and I was going to make sure everything was going to be amazing, and I was going to go off on my own." But really, it was like "I cannot keep going down this path, or I will damage myself, both soul and body. And it's like "Okay, we have to stop this and figure out what's next. Whether that's a new job or something on my own, I don't know." But yeah.
 
 **Jerod Santo:** Justin or Adam, have you ever been in such a precarious circumstance as Emily's, where it's like, "My health is suffering. If I don't make a dramatic change, I'm going to damage myself"?
 
@@ -1076,7 +1076,7 @@ And I actually think one of the hardest things to do in our society in this mome
 
 **Adam Stacoviak:** Wow.
 
-**Emily Freeman:** \[00:46:09.28\] That was February. And then March, April, May was just around mostly cleaning closets. My friends will tell you... I went nuts on just tidying, and cleaning, and neurotically organizing... I mean, my closets look like a serial killer lives in the house.
+**Emily Freeman:** \[46:09\] That was February. And then March, April, May was just around mostly cleaning closets. My friends will tell you... I went nuts on just tidying, and cleaning, and neurotically organizing... I mean, my closets look like a serial killer lives in the house.
 
 **Jerod Santo:** Literally cleaning closets.
 
@@ -1124,7 +1124,7 @@ And then, in all transparency, I mean, what other industry could we join, outsid
 
 **Jerod Santo:** For sure, for sure more debt.
 
-**Emily Freeman:** \[00:50:09.23\] Yeah. It's wild to me that they -- I mean, some of these doctors come out of school... If you didn't get scholarships or your parents didn't pay for it, you can come out of school with $350,000, $400,000 in debt.
+**Emily Freeman:** \[50:09\] Yeah. It's wild to me that they -- I mean, some of these doctors come out of school... If you didn't get scholarships or your parents didn't pay for it, you can come out of school with $350,000, $400,000 in debt.
 
 **Jerod Santo:** Right.
 
@@ -1146,7 +1146,7 @@ And then, in all transparency, I mean, what other industry could we join, outsid
 
 **Emily Freeman:** Don't have an in-unit laundry. I grew up without an in-unit laundry. So it's like, you have to go where there's machines.
 
-**Break**: \[00:51:54.17\]
+**Break**: \[51:54\]
 
 **Adam Stacoviak:** I'm curious though, this idea of influencers on tap -- I'm just on your homepage, so I'm just leveraging your headline...
 
@@ -1200,7 +1200,7 @@ But still there's this, there's this thought of "Okay, well, have you actually u
 
 **Emily Freeman:** Yes.
 
-**Justin Garrison:** \[00:59:57.21\] There's so much of that that's just out of my hands. But also the fact that like AI -- any text box on the internet, AI can fill it. And they can generate credible people, that don't exist, and personas that don't even exist, and say "Oh, this is someone that will tell you all the things you want to hear", and can earn that money. How much of that plays into this, what companies are willing to pay for?
+**Justin Garrison:** \[59:57\] There's so much of that that's just out of my hands. But also the fact that like AI -- any text box on the internet, AI can fill it. And they can generate credible people, that don't exist, and personas that don't even exist, and say "Oh, this is someone that will tell you all the things you want to hear", and can earn that money. How much of that plays into this, what companies are willing to pay for?
 
 **Adam Stacoviak:** Didn't a conference do that though, where they generated some people?
 
