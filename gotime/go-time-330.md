@@ -18,7 +18,7 @@ The nice thing about Go, as we all know for Go programmers, is that we can take 
 
 **Mike Riley:** And I reached out to Ricardo strictly for selfish purposes. I wanted to learn Go, and Ricardo had written an awesome book for Pragmatic Bookshelf about using Go from the command line. And I found that book extremely helpful, and I thought "Wouldn't it be great to write a book while I'm learning how to do really, really effective Go programming?" And so for me it was a joy working with Ricardo.
 
-**Johnny Boursiquot:** \[00:08:03.06\] So you got your nerd-sniping weapon, and you just aimed it at Ricardo... \[laughs\]
+**Johnny Boursiquot:** \[08:03\] So you got your nerd-sniping weapon, and you just aimed it at Ricardo... \[laughs\]
 
 **Mike Riley:** Absolutely.
 
@@ -44,7 +44,7 @@ The other thing that's nice about them is that they are, once again, written in 
 
 **Mike Riley:** Well, I'll start, and then Ricardo, you can certainly embellish further... So yeah, the Pi's - they're in various configurations. These days you can get up to a Raspberry Pi 5, which is the most powerful. Unfortunately, it's also the most expensive. Myself, I'm still fairly comfortable with the Raspberry Pi 4, especially the 8-gig model. It's got plenty of RAM, it's got plenty of CPU capacity, especially for the smaller jobs. And again, because Go is so small of a footprint, it doesn't take a lot of resources to run.
 
-\[00:12:11.04\] So you can run multiple Go applications, within containers no less, on a single Raspberry Pi. And that's what I'm doing. I've got a Raspberry Pi cluster right now that's doing a number of the jobs that we've written for the book. Now, in the book we didn't want to make it more complex and add Kubernetes to the mix, because that's a whole other book in and of itself. So we've instead recommended that people build their Docker containers and then run it within a Docker container. But needless to say, even running within a Docker container, we can run multiple -- in fact, we can run all the projects in the book on a single Raspberry Pi, if necessary.
+\[12:11\] So you can run multiple Go applications, within containers no less, on a single Raspberry Pi. And that's what I'm doing. I've got a Raspberry Pi cluster right now that's doing a number of the jobs that we've written for the book. Now, in the book we didn't want to make it more complex and add Kubernetes to the mix, because that's a whole other book in and of itself. So we've instead recommended that people build their Docker containers and then run it within a Docker container. But needless to say, even running within a Docker container, we can run multiple -- in fact, we can run all the projects in the book on a single Raspberry Pi, if necessary.
 
 So obviously, get yourself a Raspberry Pi. You do have to know a little bit of Linux, a little bit of command line. Of course, there's tons of books, as well as videos and everything else out there for that. And it's fairly easy to get up to speed, even if it's basic command line. And we do provide all the command lines necessary, although, again, it really helps to have some background, a little bit of experience with them.
 
@@ -56,7 +56,7 @@ And in fact, this kind of fulfilled that dream that I talked about earlier, with
 
 So you can simply get a Pi Zero, you build a TinyGo program, install it on that Pi Zero, and the Pi Zero will then not only connect to the Wi-Fi, but using the onboard temperature probe on the board, you can then capture in real time what the ambient temperature is around. You tie that into the ability to export that result as a JSON format, consume that in Prometheus, and then Prometheus can provide that to Grafana, so you've got a full real-time map for as long as you want it. If you want it for two weeks, two months, whatever; you set the parameters. But now you've got a complete fluctuation, or -- what I use it for is internal monitoring of my temperature, because I've got different temperature zones in the home. So I can see, as the day comes, you get the cyclic cycles, and it's really kind of neat to see how that happens.
 
-\[00:16:00.14\] But I also have it so that if that temperature starts to hit a threshold, I then tie into Grafana's alerting capabilities, so that it contacts myself. And if you do decide to go with the Grafana's free cloud version, they've got another add-on feature for incident management called OnCall. And it actually saved my bacon once, because we had a pretty brutal winter here, where the heater went down, and I didn't know about it because I was away at the time. But then all of a sudden I get these alerts saying "You've got a problem." And fortunately, I've got my kids on the OnCall as a backup. And so they're like "Hey, dad, I think there's a problem with the heater." I'm like "Yeah, there sure is." Fortunately, we --
+\[16:00\] But I also have it so that if that temperature starts to hit a threshold, I then tie into Grafana's alerting capabilities, so that it contacts myself. And if you do decide to go with the Grafana's free cloud version, they've got another add-on feature for incident management called OnCall. And it actually saved my bacon once, because we had a pretty brutal winter here, where the heater went down, and I didn't know about it because I was away at the time. But then all of a sudden I get these alerts saying "You've got a problem." And fortunately, I've got my kids on the OnCall as a backup. And so they're like "Hey, dad, I think there's a problem with the heater." I'm like "Yeah, there sure is." Fortunately, we --
 
 **Johnny Boursiquot:** "Why don't you respond to the problem then...?" \[laughs\]
 
@@ -74,7 +74,7 @@ But if you don't have one of those, or if you have either a light or a sensor th
 
 Now, the other thing you can also do - let's say you prefer working off of your Mac, or PC, with all the accoutrements of like Visual Studio or whatever - you can just use the SSH connector, and then have all the tooling that's on board, so that you can remotely \[unintelligible 00:20:24.29\] into the Pi, and then develop that way as well. So whatever is most comfortable for you, that's the way to do it.
 
-**Break**: \[00:20:35.28\]
+**Break**: \[20:35\]
 
 **Johnny Boursiquot:** So did either of you have experience in doing this line of work with a language other than Go? Because I want to ask, basically - and again, perhaps during the research for the book and everything else you've come across... I'm sure you've come across code that was not written in Go, that is attempting to teach you how to manipulate devices that small. So what's your impression, or rather what was your experience with Go versus sort of these other languages? Do you think Go is sort of better suited, or less suited? Or does it even matter, other than having a preference for a language?
 
@@ -92,7 +92,7 @@ And then Go offers that as an option too with TinyGo. And as long as you have dr
 
 **Mike Riley:** To a certain degree. Again, we don't require you to be a Go expert, but you should at least have a little bit of awareness; at least run maybe a Hello World under Go, and maybe a few other simple programs. But again, Go is so easy to learn. And we do -- of course, there's Ricardo's prior book, that certainly can get people up to speed... And that's where he takes the beginner and gets them to an intermediate stage... Which is why I thought Ricardo was a perfect co-author for the book, because of his expertise and his knowledge, and his ability to take the more advanced technical situations and put them into an approach that most people, even with the minimum amount of effort, or minimum amount of experience, can pick up pretty quickly.
 
-**Johnny Boursiquot:** \[00:28:02.01\] So you make mention of a personal data center during this book... I also want to couple that with the notion of perhaps -- like, I could definitely see myself as, okay, I get a taste for what's possible. Now I just want to put things around all over the house; temperature sensors, indoors, outdoors... I start doing things... I maybe have cameras... Let me know when the dog runs out in the backyard... Basically, I just want to put things everywhere. First, explain to me, for somebody who's not in this world, what is perhaps the most interesting, full-on, sort of mind-blowing project you have, perhaps in the book, and what's the level of effort, if I wanted to go sort of full-on, full-scale, put microcontrollers everywhere in the house, and run a good, a powered home automation data center. Like, what's possible here? What do I have to worry about?
+**Johnny Boursiquot:** \[28:02\] So you make mention of a personal data center during this book... I also want to couple that with the notion of perhaps -- like, I could definitely see myself as, okay, I get a taste for what's possible. Now I just want to put things around all over the house; temperature sensors, indoors, outdoors... I start doing things... I maybe have cameras... Let me know when the dog runs out in the backyard... Basically, I just want to put things everywhere. First, explain to me, for somebody who's not in this world, what is perhaps the most interesting, full-on, sort of mind-blowing project you have, perhaps in the book, and what's the level of effort, if I wanted to go sort of full-on, full-scale, put microcontrollers everywhere in the house, and run a good, a powered home automation data center. Like, what's possible here? What do I have to worry about?
 
 **Mike Riley:** Well, I'll name one project - and I know Ricardo's got another favorite of his, which involves some lighting. But for me, I just like the idea of being able to have like a bird feeder, and being able to capture the wildlife that comes up to it based on whether or not a certain trigger was tripped, or if motion was detected, or something of that nature.
 
@@ -120,7 +120,7 @@ You're wrong, daddy. It was kind of fun to see them using that by themselves. It
 
 **Johnny Boursiquot:** You're not maintaining your five nines on this thing. \[laughter\]
 
-**Ricardo Gerardi:** \[00:32:13.24\] Precisely.
+**Ricardo Gerardi:** \[32:13\] Precisely.
 
 **Johnny Boursiquot:** Well, so along those lines, do you have any concerns around maintaining this stuff? Is it a deploy it, one and done, and you don't have to really touch it? I mean, it's not like it's interacting with the rest of the world, where you have to worry about ort of a bad actor, or something like that. It's just internal to your own home network, and maybe at worst you get some observability onto it, and you know when something's going wrong... Do you worry about maintaining these things at all?
 
@@ -142,7 +142,7 @@ And with the latest version of Gitea, it also supports what GitHub calls action 
 
 **Johnny Boursiquot:** To be able to change the colors, and everything else.
 
-**Ricardo Gerardi:** \[00:35:52.03\] Exactly. And the one that I have, which is the one that - if you look at the book, there's a picture in the book... It's actually stripped. So I have a column near my door, and I got this strip around the column. So you can put it in different shapes, and... You also have bulbs that you can use, but in this case, it's just a strip of light --
+**Ricardo Gerardi:** \[35:52\] Exactly. And the one that I have, which is the one that - if you look at the book, there's a picture in the book... It's actually stripped. So I have a column near my door, and I got this strip around the column. So you can put it in different shapes, and... You also have bulbs that you can use, but in this case, it's just a strip of light --
 
 **Johnny Boursiquot:** It's just a light strip. That's pretty cool. That's pretty cool.
 
@@ -164,11 +164,11 @@ And then you talk about, for example, the TinyGo, the Pico W - that definitely n
 
 So what I'm looking forward to is seeing what our readers of the book expound on and create. Because I think that's where it gets more exciting. I've had ideas of being able to take that Pi zero, for instance, and tying it into, say, a sprinkler system.
 
-\[00:40:05.01\] And that way, based on, let's say, the humidity, or what the soil density of water reading in there - alright, it looks like the grass needs watering, so let's turn on the sprinkler, and let it run for a certain duration, and then check the soil density again. If it looks good, then go ahead and turn it off. So all that is possible. And again, the technologies and the languages that we use - it can be all built straight from the knowledge that is picked up by the book, and by just Go programming in general.
+\[40:05\] And that way, based on, let's say, the humidity, or what the soil density of water reading in there - alright, it looks like the grass needs watering, so let's turn on the sprinkler, and let it run for a certain duration, and then check the soil density again. If it looks good, then go ahead and turn it off. So all that is possible. And again, the technologies and the languages that we use - it can be all built straight from the knowledge that is picked up by the book, and by just Go programming in general.
 
 **Ricardo Gerardi:** And just to add on that, I think that was a big topic for us when we were brainstorming which projects should be part of the book, which ones didn't make it... We had different ideas that bounced off each other. One thing that we try to do really in each one of those projects is to teach a skill associated with that project. So the readers would not only learn and build that project specifically, but they would also learn a skill that they can then use to expand and create their own projects based on that. So now you know how to use the GPIO... So there's plenty of other projects that can come out of that. And obviously, everybody's home is different, everybody's requirements and needs are different, so now hopefully they have that skill, and they can build their own solutions, their own home automations for their specific needs. That was really a big topic for us in our discussions, and how the book evolved.
 
-**Break**: \[00:41:42.10\]
+**Break**: \[41:42\]
 
 **Johnny Boursiquot:** So at the very least, then one would come out of reading the books and implementing the projects with sort of a better understanding of how these sort of commercial alternatives sort of function. I'm not saying all of a sudden people are going to be building commercial products...
 
@@ -188,7 +188,7 @@ There's so many opportunities and possibilities. And again, what we've found, pa
 
 But yeah, that was that first one, because I thought "How do I make this so that it is as easy to discover, and yet makes me look like a real competent programmer?" So that for me was it. But I don't know, what about you, Ricardo? What was your most challenging...?
 
-**Ricardo Gerardi:** \[00:47:56.01\] For me, in terms of challenge, I think it was our last project, the birdwatcher project... And more because I think on the other side of it is -- the project requires more in terms of building. You have more components, you have to assemble them in a case, because you're going to leave them outside, so it has to be protected from the weather... So I think I'm good with the software, but when it comes a little bit to the hardware and assembling these components together, I'm not that used to. I know that Mike has a lot more experience there, so it was a little bit more challenging for me to put those together. It's not that hard, but I think comparatively it was the more challenging one for me.
+**Ricardo Gerardi:** \[47:56\] For me, in terms of challenge, I think it was our last project, the birdwatcher project... And more because I think on the other side of it is -- the project requires more in terms of building. You have more components, you have to assemble them in a case, because you're going to leave them outside, so it has to be protected from the weather... So I think I'm good with the software, but when it comes a little bit to the hardware and assembling these components together, I'm not that used to. I know that Mike has a lot more experience there, so it was a little bit more challenging for me to put those together. It's not that hard, but I think comparatively it was the more challenging one for me.
 
 **Johnny Boursiquot:** Nice, nice. So the last question before we transition to Unpops... Has this sort of effort given you a sense of sort of what's coming, sort of what's next, or any trends happening within this space? Do you see something perhaps others don't yet see?
 
@@ -206,7 +206,7 @@ So this stuff can be intimidating from the outside looking in, but I think with 
 
 **Johnny Boursiquot:** Yeah. Alright, let's transition to Unpops.
 
-**Jingle**: \[00:52:06.20\]
+**Jingle**: \[52:06\]
 
 **Johnny Boursiquot:** Alright, lay it on me. Who's going first?
 
