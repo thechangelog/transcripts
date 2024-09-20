@@ -144,7 +144,7 @@
 
 **Jerod Santo:** We're non-money people.
 
-**Adam Stacoviak:** \[00:06:11.19\] Yeah. I would say we bring the money, but we're not given the money.
+**Adam Stacoviak:** \[06:11\] Yeah. I would say we bring the money, but we're not given the money.
 
 **Jerod Santo:** I mean, we're so money that we don't even know it.
 
@@ -234,7 +234,7 @@
 
 **Adam Stacoviak:** ...yeah, changing, there's people in there. And I would say there's more deep conversation in Zulip than has ever been in Slack. Now, there's been lots of conversation, but it seems like it's deeper and longer because the thread is there, the topic is there. I don't know, something uniquely different is in Zulip. And now when I go back to Slack, I really just feel like I have no idea where the conversation's at.
 
-**Jerod Santo:** \[00:09:53.17\] Right. Yeah, a couple of things that have struck me... The first one is required topics makes you think a little more before you do something or say something. And so there's a little more intentionality to what you have to do, which is friction, which sometimes stops you. It's like - I think you said it - this feels more like real-time email. And because when you start a new email thread with somebody, you have to put a subject in that email. And that's what a topic is, really. And so it does feel a little bit more like that compared to Slack.
+**Jerod Santo:** \[09:53\] Right. Yeah, a couple of things that have struck me... The first one is required topics makes you think a little more before you do something or say something. And so there's a little more intentionality to what you have to do, which is friction, which sometimes stops you. It's like - I think you said it - this feels more like real-time email. And because when you start a new email thread with somebody, you have to put a subject in that email. And that's what a topic is, really. And so it does feel a little bit more like that compared to Slack.
 
 The second thing is - and our community folks have figured this out quickly - it feels like it's built by nerds more so than Slack does, even though Slack has some nerdy things for sure in there. Nerds built this, and that's really cool. You can feel that love.
 
@@ -258,7 +258,7 @@ And then the third thing is, we've already had a success story with one particul
 
 **Adam Stacoviak:** That's how I feel. I feel like -- so I didn't share this with you yet, because I've been... You know me, I'm reserved, I suppose. I haven't been talking a lot in there, but I've been observing people conversating, and participating through observation, and here and there jabbing in with some stuff... But the web public stuff is super-interesting. I think it could be cool to find ways to like make the Changelog community - not so much bigger to be bigger, but this idea that I've always shared and I think you've adopted it too, is this idea of "No imposters here. Everyone's welcome." And that same idea where maybe Zulip, because we have this full history and we can self-host it, and all the things... They were not locked into their cloud. We can begin there, and move to our own self-hosted version of it, I feel like we have a lot more room to like really lean even heavier into community, where we could have before, but we would have had to pay for it, and it was a significant cost, in the Slack world... Where maybe we didn't put that kind of pressure on ourselves to do so because of our known limitations... Whereas now I feel like unfettered. Now we can literally do what we want. And I don't know this to be true, but I can hypothesize that it would be, that we can get pretty good buy-in and support from Zulip, in whatever ways. Like, if we have ideas for how to make this even more community-focused, then I think that there's an opportunity there that was definitely not there with Slack.
 
-**Jerod Santo:** \[00:14:17.13\] I agree with all of that, and I think that there's definitely ways where we could increase the amount of community discussion around the shows by deeply integrating into Zulip, versus what we have been doing previously, which is some of the ideas being tossed around in our channel about sharing certain channels publicly, and allowing people to lurk... Yes, allowing people to lurk. Sign up, integrating the actual comments of our episodes into that directly, the discussion... So yeah, there's a lot of opportunities for nerdery and tomfoolery, that previously were kind of just - they were non-starters, because you were just deepening a relationship with an entity that you really couldn't go deeper in any sort of communal way. It was like -- what are those barnacles on top of the whale? We like just a little bit bigger barnacle, living off this whale.
+**Jerod Santo:** \[14:17\] I agree with all of that, and I think that there's definitely ways where we could increase the amount of community discussion around the shows by deeply integrating into Zulip, versus what we have been doing previously, which is some of the ideas being tossed around in our channel about sharing certain channels publicly, and allowing people to lurk... Yes, allowing people to lurk. Sign up, integrating the actual comments of our episodes into that directly, the discussion... So yeah, there's a lot of opportunities for nerdery and tomfoolery, that previously were kind of just - they were non-starters, because you were just deepening a relationship with an entity that you really couldn't go deeper in any sort of communal way. It was like -- what are those barnacles on top of the whale? We like just a little bit bigger barnacle, living off this whale.
 
 **Adam Stacoviak:** Yeah... Well, we're not their customer either. We're not who they're optimizing for.
 
@@ -290,7 +290,7 @@ And then the third thing is, we've already had a success story with one particul
 
 **Adam Stacoviak:** And something's got to change there. And that's where my uncertainty for them comes, is like "You've got to figure out how to market." You can't be the best unknown tool in the marketplace. Something's got to change there. And I don't know if it's dollars spent, but something's got to change with their, their GTM, their go-to-market strategy, how they talk about them, their awareness. Firefox, famously, "Get Firefox", we've lamented on this in positive and negative ways over the years. Like, they did all that grassroots stuff with a very shoestring budget. Zulip can do something similar, I believe. And that's where my reservation comes, is like, they've got so much kinetic energy stored, waiting to be released. This potential. And I want to see them do that.
 
-**Jerod Santo:** \[00:18:21.01\] Well, perhaps in the spirit of open source we can also help them do that. I think our adoption would be useful in that sense. Let's talk about some other things going on. Of course, with open source companies, you're always afraid of a rug pull, as we've experienced many a pulls, especially of late... How about this? I'm calling it "the reverse rug pull", in which they, I don't know, put the rug back. Elastic. Elasticsearch. Open source once again.
+**Jerod Santo:** \[18:21\] Well, perhaps in the spirit of open source we can also help them do that. I think our adoption would be useful in that sense. Let's talk about some other things going on. Of course, with open source companies, you're always afraid of a rug pull, as we've experienced many a pulls, especially of late... How about this? I'm calling it "the reverse rug pull", in which they, I don't know, put the rug back. Elastic. Elasticsearch. Open source once again.
 
 **Adam Stacoviak:** How about this? "Reverse rug pull, so cool."
 
@@ -298,7 +298,7 @@ And then the third thing is, we've already had a success story with one particul
 
 **Adam Stacoviak:** Sure.
 
-\[00:19:12.15\] *That rug really tied the room together, did it not?*
+\[19:12\] *That rug really tied the room together, did it not?*
 
 **Jerod Santo:** But yes, much cooler than the rug pull. We don't want to talk too much about this, because we are talking with Shay Bannon, CTO of Elastic, soon. This month. He's coming on Interviews for the deep dive. But yeah, Elasticsearch opened back up again, went full OSI-approved AGPL license. And Shay's pretty excited, as you can just read into his announcement post from August the 29th... And we're excited too, right? I mean, you called it so cool, so you must be for this move.
 
@@ -314,7 +314,7 @@ And then the third thing is, we've already had a success story with one particul
 
 And now, to be in a position -- the same hacker that made it initially, when you read his post on it, you can tell he's excited. You can tell that he's got joy writing the words, and revealing this, and going back to an OSI-approved AGPL license. And at least there is now a trajectory for, as he says, more open source in the world.
 
-**Jerod Santo:** \[00:21:59.26\] Yeah, I agree. Obviously, we have questions, which is why we invited him on the show to talk... One of the main things I want to ask him about is he asserts in his post that their move was successful. Like, that was a successful thing they did, despite him not wanting to do it. And now it's provided this opportunity to go back. And I would love to get that all out in the open - how they define success, how do they know it's successful... Because we recently covered RedMonk's analysis of open source rug pulls and whether or not they've been worth it. And to the best of her ability, I think it was Rachel Stephens over there at RedMonk, did the analysis on a bunch of at least publicly-traded rug pulls, so that you can get the data. And she couldn't find any correlation between actually any sort of meteoric rise after the license change, especially ones that have been out there for a while, including Elastic. So that's an interesting thing. And we'll be talking with him soon. To our listener, if you have specific questions, lines of thought, conversation that you'd like us to broach with Elastic's CTO, Shay Bannon, definitely let us know... In Slack, in Zulip, I don't know; email editors \[at\] Changelog.com. It's probably the safest place right now... Unless you're already in our Slack or already in our Zulip. Then just go ahead and use what you're already doing. That works.
+**Jerod Santo:** \[21:59\] Yeah, I agree. Obviously, we have questions, which is why we invited him on the show to talk... One of the main things I want to ask him about is he asserts in his post that their move was successful. Like, that was a successful thing they did, despite him not wanting to do it. And now it's provided this opportunity to go back. And I would love to get that all out in the open - how they define success, how do they know it's successful... Because we recently covered RedMonk's analysis of open source rug pulls and whether or not they've been worth it. And to the best of her ability, I think it was Rachel Stephens over there at RedMonk, did the analysis on a bunch of at least publicly-traded rug pulls, so that you can get the data. And she couldn't find any correlation between actually any sort of meteoric rise after the license change, especially ones that have been out there for a while, including Elastic. So that's an interesting thing. And we'll be talking with him soon. To our listener, if you have specific questions, lines of thought, conversation that you'd like us to broach with Elastic's CTO, Shay Bannon, definitely let us know... In Slack, in Zulip, I don't know; email editors \[at\] Changelog.com. It's probably the safest place right now... Unless you're already in our Slack or already in our Zulip. Then just go ahead and use what you're already doing. That works.
 
 **Adam Stacoviak:** I was just thinking, as you were suggesting that, if they were going to pile on or start anew in Zulip, where would it happen at? That is the challenge. Not to go back there, but that's the challenge of "Where does that live? Does it live in general under a topic called shows? Does it live under Changelog Podcast", that isn't a channel yet, that will be a channel soon? Or interviews?
 
@@ -346,7 +346,7 @@ And now, to be in a position -- the same hacker that made it initially, when you
 
 **Adam Stacoviak:** And I guess we'll find out when we talk to Shay himself, and release that episode and see how we feel about that... We'll see.
 
-**Break**: \[00:25:48.25\]
+**Break**: \[25:48\]
 
 **Jerod Santo:** Well, let's talk about another Changelog News item that I did not feature in the audio... I actually think I just put it in the list of links at the bottom, so I didn't write anything about it, but it's a really nice post by Christian Hollinger, or Hollinger, perhaps... "Why I still self-host my servers, and what I've learned recently." I thought this one would hit home with you, Adam, as a home labber, but maybe not a self-hoster... But maybe a self-hoster... This article is about two things, Christian says. "Why I still bother, and what it has recently taught me. Think of it as a brief retrospective and an encouragement for readers to go down the same rabbit hole." So Christian likes self-hosting and he thinks you should, too. It's a long post, but to summarize the two reasons at least - independence, reason number one, and "Learning is good", reason number two. Are you convinced, Adam?
 
@@ -364,7 +364,7 @@ But the learning comes through trial, and it comes through things going wrong. A
 
 **Adam Stacoviak:** No, I was not excited. Well, it's just too critical. I do self-hosting for the things that are -- that I don't mind being down. If somebody's like "Adam, why is Zulip not working?", that's the worst world for me ever. I don't want to live in that world. I don't want to be responsible to that degree. I don't mind assisting, it's just not something I want to personally be responsible for. Nor do I think I have the expertise currently to do so.
 
-**Jerod Santo:** \[00:34:05.15\] Well, you probably would earn it over time.
+**Jerod Santo:** \[34:05\] Well, you probably would earn it over time.
 
 **Adam Stacoviak:** I would earn it over time, but I'm like...
 
@@ -410,7 +410,7 @@ But the learning comes through trial, and it comes through things going wrong. A
 
 **Jerod Santo:** That's hardcore.
 
-**Adam Stacoviak:** \[00:37:51.26\] That is so hardcore. And I don't know why you would do that, but you know... In the Coder instance you do it because of resources. You want to take all those resources - CPU, RAM, GPU, whatever you need to dedicate to your environment - into that CDE, that cloud development environment. Versus your local. One more layer. This is something I think is kind of cool... I have my Jekyll blog still yet, so adamstakoviak.com is a Jekyll blog, basically. I do not run that locally. I have set that up to run inside of Docker. Because I don't want to fiddle with Ruby and any of the gems and stuff like that locally. Like, it's all inside the Docker container. Which I think is so cool. And I never have to mess with local stuff.
+**Adam Stacoviak:** \[37:51\] That is so hardcore. And I don't know why you would do that, but you know... In the Coder instance you do it because of resources. You want to take all those resources - CPU, RAM, GPU, whatever you need to dedicate to your environment - into that CDE, that cloud development environment. Versus your local. One more layer. This is something I think is kind of cool... I have my Jekyll blog still yet, so adamstakoviak.com is a Jekyll blog, basically. I do not run that locally. I have set that up to run inside of Docker. Because I don't want to fiddle with Ruby and any of the gems and stuff like that locally. Like, it's all inside the Docker container. Which I think is so cool. And I never have to mess with local stuff.
 
 **Jerod Santo:** That is cool. I'm sure a lot of these services are dockerized, which makes it a lot easier.
 
@@ -442,7 +442,7 @@ This is like a homesteading version of software. He's a homesteader.
 
 Christian closes with this, which might be a good end cap to our discussion. He says: "If you're a software engineer, I recommend self-hosting things. You learn a whole bunch of things through forced exposure to problems that you'll be less likely to encounter in your day job, which in itself is a benefit. Even better, I do believe you'll wind up using at least some of these things in your day job eventually, provided you work on something vaguely backend-related. By hosting stuff yourself, you also get a reasonable level of autonomy, or at the very least some hedging against the corporate dream of your entire life being a perpetually rented subscription." I think that's nice.
 
-**Adam Stacoviak:** \[00:42:00.17\] Poetic.
+**Adam Stacoviak:** \[42:00\] Poetic.
 
 **Jerod Santo:** Good ender. I mean, it's certainly romantic. That part gets me.
 
@@ -498,7 +498,7 @@ Christian closes with this, which might be a good end cap to our discussion. He 
 
 **Jerod Santo:** ...anything. And you should finally be happy that we've answered your request. This one's navel-gazy and self-serving to a certain degree, which is why we didn't do it for a long time... But I thought it'd be a nice end cap to a Friends episode with just the two of us, where we can take at least one listener question/request. Alex wants us to talk about how we podcast. How we produce podcasts. He said he's heard of some really cool workflows from both the Linux people, and you guys - which I guess means we're not Linux people - about different ways you record and upload scripts. He says "You guys, if I recall, have some type of encoded timestamps to the mp3s. Destination Linux timestamp the episode while they record. Jupyter Broadcasting uses some type of all-in-one container for recording", if he recalls... And we have master feeds, they also have master feeds... So just some of the inside baseball on how we produce our shows. Maybe some of the nerdier parts. I don't know. Some of it's boring, at least to us, because we do it... But maybe interesting to other people.
 
-**Adam Stacoviak:** \[00:46:25.06\] I think it's super-interesting to other people, because I've been having some conversations with a future branded podcast we're producing...
+**Adam Stacoviak:** \[46:25\] I think it's super-interesting to other people, because I've been having some conversations with a future branded podcast we're producing...
 
 **Jerod Santo:** Oh, yeah.
 
@@ -564,7 +564,7 @@ The reason I'm saying this story is that in the span of an hour, I solidified an
 
 **Jerod Santo:** \[laughs\]
 
-**Break**: \[00:50:53.08\]
+**Break**: \[50:53\]
 
 **Jerod Santo:** I do have a propensity to answer questions directly, which some people appreciate, and others think is boring... So your mileage may vary. But in brief - okay, so tools and techniques. We record everything on riverside.fm, which is a proprietary in-browser technology that we pay for as a service. Happy to rent it. Don't want to self-host it. I'm sure it's very complex.
 
@@ -582,7 +582,7 @@ Sometimes there are things that we know about, and so we'll just tell our editor
 
 **Jerod Santo:** It was like an xml file, I think...
 
-**Adam Stacoviak:** \[00:59:46.14\] It's very xml-like, yeah. And so when you make these copies of it, the file is like a couple megs, at most. For an example, Jerod mentioned the Prepped version of this. We have a show coming up today on these ergonomic, really awesome keyboards from ZSA... And the prepped file is 130 kilobytes. The edited version is 2.2 megabytes, and because the master version only has a couple things added to it, it's the same file size. Now, once those changes go in, I'm going to that right after the show, or after this recording that we're literally talking into right now; I'm going to go do that work in the master file, and then that file size will grow probably to, at most, 3 megabytes. So these session files are very small, and are supported by the local file system, which has recorded sessions in their imported files... All these different things that are sort of like file system stuff that Adobe Audition uses.
+**Adam Stacoviak:** \[59:46\] It's very xml-like, yeah. And so when you make these copies of it, the file is like a couple megs, at most. For an example, Jerod mentioned the Prepped version of this. We have a show coming up today on these ergonomic, really awesome keyboards from ZSA... And the prepped file is 130 kilobytes. The edited version is 2.2 megabytes, and because the master version only has a couple things added to it, it's the same file size. Now, once those changes go in, I'm going to that right after the show, or after this recording that we're literally talking into right now; I'm going to go do that work in the master file, and then that file size will grow probably to, at most, 3 megabytes. So these session files are very small, and are supported by the local file system, which has recorded sessions in their imported files... All these different things that are sort of like file system stuff that Adobe Audition uses.
 
 Adobe Audition has been really good to use, I would say, over the years, because it moves from person to person pretty easily as an independent file system, or an independent directory that you can copy, and do whatever you need to do with it... And so we've been very happy on that front. And even chaptering within, in the wav file; when we do that, there's a span ,that you can put like a marker, and another marker, and join those together and make them a chapter, or a two-point marker. I'm not even sure what they call those things, honestly. Merged markers, something like that... And those turn into chapters.
 
