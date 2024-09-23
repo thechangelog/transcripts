@@ -54,7 +54,7 @@ John Hancock? It's Herbie Hancock. Duh.
 
 With kty, you can:
 
-- Use your Github or Google account to log into the cluster. No more annoying kubectl auth plugins
+- Use your GitHub or Google account to log into the cluster. No more annoying kubectl auth plugins
 - Get a shell running in pods - just like you would when SSH’n into a host normally
 - Access the logs for running and exited containers in a pod
 - Forward traffic from your local machine into the cluster or from the cluster to your local machine
