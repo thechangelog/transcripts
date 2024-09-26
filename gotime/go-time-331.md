@@ -24,7 +24,7 @@
 
 **Johnny Boursiquot:** Wow. How do we explain this? Please, somebody make it make sense.
 
-**Kent Quirk:** \[00:07:55.12\] I guess I'm going to put it this way. I think the best way I've come to characterize this personally is that AI gives you the average result. If you are below average, it's amazing. If you're not a software engineer, and you're writing code, it's doing things you can't possibly do.
+**Kent Quirk:** \[07:55\] I guess I'm going to put it this way. I think the best way I've come to characterize this personally is that AI gives you the average result. If you are below average, it's amazing. If you're not a software engineer, and you're writing code, it's doing things you can't possibly do.
 
 **Johnny Boursiquot:** Right, right.
 
@@ -60,7 +60,7 @@
 
 **Steven Pyle:** Well, for one thing, I'm getting a lot of wrong answers. Like, there was one time a few weeks ago I was trying to build some Terraform modules to build infrastructure. And I was having it -- I was prompting it to get information from a series of AWS documents, right on the web... And it says, hey, it can go out and pull information from the web and generate on the fly. And it was giving me completely wrong answers. So if I had not known that it was giving me incorrect answers, I would have done something completely wrong with our production system.
 
-\[00:11:46.25\] So maybe in the future it'll be at a point where it will be more trustworthy, but that's just the first point. The second point is - I don't know, I get more out of doing the research, and the creativity, and the searching for the information that I need, either from books, or from documentation.
+\[11:46\] So maybe in the future it'll be at a point where it will be more trustworthy, but that's just the first point. The second point is - I don't know, I get more out of doing the research, and the creativity, and the searching for the information that I need, either from books, or from documentation.
 
 **Johnny Boursiquot:** Oh, books... What are you, in the Dark Ages? \[laughs\] You're looking things up in books?
 
@@ -134,7 +134,7 @@
 
 **Johnny Boursiquot:** Wow. You sound ruined by that experience. \[laughter\]
 
-**Kent Quirk:** \[00:16:07.06\] No, I mean... Google -- this is a combination of like the business thing and the practicality thing. It's like, AI is desperately searching for the problem to solve; like the big problem. Because now AI is a trillion-dollar problem. It's not a billion-dollar problem, it's a trillion-dollar problem. Because that much money has been spent on training these models, and building all the hardware, and NVIDIA is pumping out chips like nobody's business... And now it has to find a trillion-dollar problem to solve. And there isn't one.
+**Kent Quirk:** \[16:07\] No, I mean... Google -- this is a combination of like the business thing and the practicality thing. It's like, AI is desperately searching for the problem to solve; like the big problem. Because now AI is a trillion-dollar problem. It's not a billion-dollar problem, it's a trillion-dollar problem. Because that much money has been spent on training these models, and building all the hardware, and NVIDIA is pumping out chips like nobody's business... And now it has to find a trillion-dollar problem to solve. And there isn't one.
 
 **Sharon DiOrio:** There is. There is. It's just not in like every application out there. It's in financial markets...
 
@@ -164,7 +164,7 @@ Now, even the premise that the company - and for those who don't know it, I'm ta
 
 Now, the person or people who left were worried about the safety. That safety was no longer a primary concern. Now, they went and started their own thing. And that's all well and good. That sounds honorable, admirable... Hey, I respect that. If the company's going in a direction that you don't like, you go make your own thing. Great. Love America. Love capitalism. That's exactly what you're supposed to do. Awesome.
 
-\[00:20:06.25\] Now, keep that in mind. You're worried about safety. You even create a company with safe in the name. Your primary objective is AI safety; presumably, not profit. Keep that in mind. Now, you have VCs who've put in a billion dollars. What do VCs want back?
+\[20:06\] Now, keep that in mind. You're worried about safety. You even create a company with safe in the name. Your primary objective is AI safety; presumably, not profit. Keep that in mind. Now, you have VCs who've put in a billion dollars. What do VCs want back?
 
 **Sharon DiOrio:** Money. They want profit. They don't care about safety...
 
@@ -190,7 +190,7 @@ And to your point, in six months... So AWS's big conference, Reinvent; it's in D
 
 **Kent Quirk:** So one of my co-workers this morning told me that -- I think they said Google has just released a system, an AI-driven system that can theoretically take a research paper and turn it into a podcast that discusses that paper. And what I thought was actually extra hilarious is it only works on papers from Archive, which is being used by AI organizations to sort of research-wash their work as if it were an academic paper, except that there has no peer review. It just goes up on Archive and it looks like a research paper.
 
-**Johnny Boursiquot:** \[00:24:07.27\] \[laughs\]
+**Johnny Boursiquot:** \[24:07\] \[laughs\]
 
 **Kent Quirk:** So yeah, I mean, actually, AI is going to put us out of THIS job.
 
@@ -212,7 +212,7 @@ Oh, my goodness... Alright, so all joking aside, like you, Kent, I use AI in my 
 
 **Johnny Boursiquot:** So you don't like the way it responds to you.
 
-**Sharon DiOrio:** \[00:28:02.04\] Right? Like, it doesn't qualify its answers, it doesn't -- it'll backtrack if you call it out. Like, you can say "No, that's wrong." And "Well, oh, I'm sorry" and then it'll try again.
+**Sharon DiOrio:** \[28:02\] Right? Like, it doesn't qualify its answers, it doesn't -- it'll backtrack if you call it out. Like, you can say "No, that's wrong." And "Well, oh, I'm sorry" and then it'll try again.
 
 **Johnny Boursiquot:** Like, "You're right." "I'm sorry..." \[laughs\]
 
@@ -248,7 +248,7 @@ Oh, my goodness... Alright, so all joking aside, like you, Kent, I use AI in my 
 
 **Sharon DiOrio:** I have no doubt that AI will improve. I'm not saying it won't. I'm not I'm not even suggesting that what we have today is what we're going to have forever. But some of these interpersonal little quirky things that AI does, and the big one that I notice is that it says things as they are as if it was like an absolutely known fact. It doesn't doesn't qualify it, it doesn't give context, it just goes "Here's an answer." That's a big problem, I think, for an average AI user.
 
-**Break**: \[00:32:13.15\]
+**Break**: \[32:13\]
 
 **Johnny Boursiquot:** So Kent, are you using AI to write code?
 
@@ -284,7 +284,7 @@ So I think this is all part of "What's the training set?" The training set is al
 
 **Johnny Boursiquot:** I have a theory. My theory - and the context is software engineering specifically. So when somebody says something outlandish as "Oh, we don't need senior software engineers anymore, because Cursor or whatever it is can generate code" or whatever. I chuckle. I understand where they're coming from, but I chuckle. The reason I chuckle is because I'm like "Well, you my friend have no idea what it is like to write sophisticated, complicated, long-lived software, that you have to maintain over years, decades even. Keep that stuff human-understandable, human-readable, still generating business value, still allowing somebody to do a checkout and pay money, and still connecting all these dots that need to be connected in order for software to \[unintelligible 00:39:56.06\]. You have no idea what's involved in the process. So I chuckle, because you don't know. And I understand that you don't know, so that's why you can say such outlandish things."
 
-\[00:40:07.03\] But at the same time, I have to check myself, because I'm like "Okay, perhaps I'm looking at this from the point of view of the way things have always been. If I were to change my perspective, to be more like this person, or these people, who don't know what software writing and maintaining is like, to be like "Okay, what if what they're demonstrating in their YouTube or X video clips and whatnot, what if the AI or the LLM, the Gen AI, whatever tool, whatever it is, whatever fancy name, whatever fancy algorithm we come up with in the future... What if whatever solution, whatever code it generated was not the concern?" What if I as an engineer didn't have to actually maintain whatever code this thing spits out? What if its job was to generate the code, fix the code, maintain the code, deploy it, do all the things that a software engineer or SRE team or DevOps or whatever it is, all the things that we do - what if it was in charge of all that stuff? That way it could optimize the code however it saw fit, it could generate however it saw fit. Heck, it can generate binary, for all I care. I don't have to read it. The reason why we write software and have programming languages is because we need a higher order level to be able to reason about things and communicate to each other.
+\[40:07\] But at the same time, I have to check myself, because I'm like "Okay, perhaps I'm looking at this from the point of view of the way things have always been. If I were to change my perspective, to be more like this person, or these people, who don't know what software writing and maintaining is like, to be like "Okay, what if what they're demonstrating in their YouTube or X video clips and whatnot, what if the AI or the LLM, the Gen AI, whatever tool, whatever it is, whatever fancy name, whatever fancy algorithm we come up with in the future... What if whatever solution, whatever code it generated was not the concern?" What if I as an engineer didn't have to actually maintain whatever code this thing spits out? What if its job was to generate the code, fix the code, maintain the code, deploy it, do all the things that a software engineer or SRE team or DevOps or whatever it is, all the things that we do - what if it was in charge of all that stuff? That way it could optimize the code however it saw fit, it could generate however it saw fit. Heck, it can generate binary, for all I care. I don't have to read it. The reason why we write software and have programming languages is because we need a higher order level to be able to reason about things and communicate to each other.
 
 Machines just need binary code. The reason we have programming languages is because you and I need to communicate to each other as humans around intent of what we are \[unintelligible 00:41:32.22\] the code to do. So what if the machine doesn't need that level of sort of abstraction, of communication?
 
@@ -308,7 +308,7 @@ I mean, yes, you can ask OpenAI to "Build me a real estate sales application" an
 
 **Johnny Boursiquot:** That is funny.
 
-**Kent Quirk:** \[00:44:08.18\] It's that kind of specification. I don't think you solve the problem of underspecified behavior and are happy with it. I think you try to free people from having to specify all that stuff, and yes, write better prompts. And maybe there's a little more induction from the prompts compared to what we used to have to do. But nonetheless, I don't think you're going to get an application that a) is good to start, and b) you can iterate on effectively. I don't know how you iterate on something like that.
+**Kent Quirk:** \[44:08\] It's that kind of specification. I don't think you solve the problem of underspecified behavior and are happy with it. I think you try to free people from having to specify all that stuff, and yes, write better prompts. And maybe there's a little more induction from the prompts compared to what we used to have to do. But nonetheless, I don't think you're going to get an application that a) is good to start, and b) you can iterate on effectively. I don't know how you iterate on something like that.
 
 **Steven Pyle:** It's not now. But what about in the future, as it improves?
 
@@ -328,7 +328,7 @@ I mean, yes, you can ask OpenAI to "Build me a real estate sales application" an
 
 **Johnny Boursiquot:** No, no, trust me, as a podcast host, who's had to get who's had to get specially built cables, grounding cables, because there was a hum and a buzz on my microphone, despite it being an $800 microphone... It's still buzzed, and I have to get a special cable. I get it. I get it. This stuff is hard. But the thing is some would have you believe these are bumps on the road to this future. This envisioned future where you don't need humans to write code anymore. And believe me, I get it. I'm not so egotistical as to think that I'm irreplaceable as a knowledge worker. Every year that goes by, I find myself having to do fewer and fewer mundane things. Some of those things are being taken care of automatically by software, by automation, and these things... So there's fewer and fewer -- as a result, I can focus more on the things that require creativity, on the things that require true sit down, think through the problem, and create a solution that's going to actually solve a problem kind of thing.
 
-\[00:48:15.10\] And I think perhaps why we collectively as software engineers are perhaps miffed when people throw out exaggerated statements in today's context, exaggerated statements like "Oh, you don't need software engineers anymore. Heck, you don't even need senior software engineers anymore", the reason why we find it perhaps annoying to hear is that we're like "Ah, a machine can't replace my creativity. A machine can't replace the context that I have, the nuances that I'm aware of outside of the code itself. The machine can only generate code and see the code it has, but it doesn't know that I have to think about this brief encounter that I had with my project manager in the hallway, talking about a potential change in scope... Now that I'm writing some code to account for the coming scope; not the current scope, but to account for the coming scope that I know is going to show up next week... It doesn't know things of that nature."
+\[48:15\] And I think perhaps why we collectively as software engineers are perhaps miffed when people throw out exaggerated statements in today's context, exaggerated statements like "Oh, you don't need software engineers anymore. Heck, you don't even need senior software engineers anymore", the reason why we find it perhaps annoying to hear is that we're like "Ah, a machine can't replace my creativity. A machine can't replace the context that I have, the nuances that I'm aware of outside of the code itself. The machine can only generate code and see the code it has, but it doesn't know that I have to think about this brief encounter that I had with my project manager in the hallway, talking about a potential change in scope... Now that I'm writing some code to account for the coming scope; not the current scope, but to account for the coming scope that I know is going to show up next week... It doesn't know things of that nature."
 
 So we see ourselves as having more knowledge, more context. Speaking of context and context windows - we see ourselves having more context than the machine does. But what happens when the world learns to live with AI, when the world learns to live with this new technology? No longer are we using shovels, but we're now using \[unintelligible 00:49:29.27\] So basically, we know now that there are better tools, so we simply learn how to use those better tools. So I don't want us engineers to sound as people who know how software is written, because - well, software writing may completely change in the next decade. Because now it's being done differently, by different tools, by different systems, different processes. And we no longer need to be involved in the same way we were before. So now we too need to evolve. I just don't know what that looks like yet.
 
@@ -344,7 +344,7 @@ So we see ourselves as having more knowledge, more context. Speaking of context 
 
 **Johnny Boursiquot:** No, we're not bashing NoSQL... But - well, let me let me link the two things together. So SQL has been around for many, many, many years. And one could argue it is the perfect language for what it does. Given a relational database -- heck, I think I've even seen SQL-like dialects for non-relational databases. But given a relational database, on average, SQL is the right sort of language, the right way of thinking through data that you want to get out of a database system.
 
-\[00:52:09.11\] So to me, us as software engineers, we understand SQL and we understand how to extract data from tables in a relational database. In the future, what if data is not stored? So this is the correlation I'm trying to draw here - what if data is not stored in a table, in a relational database, but it's stored in a completely different way, so you need a different language, and now AI knows that language and can do a better job than you possibly could, because your thought processes and your tools and everything else, and even the systems you used to use to get at that data, these things are now obsolete, because there are new, better ways you can store all the world's knowledge on a four by four chip on your fingertip? It's a whole different world.
+\[52:09\] So to me, us as software engineers, we understand SQL and we understand how to extract data from tables in a relational database. In the future, what if data is not stored? So this is the correlation I'm trying to draw here - what if data is not stored in a table, in a relational database, but it's stored in a completely different way, so you need a different language, and now AI knows that language and can do a better job than you possibly could, because your thought processes and your tools and everything else, and even the systems you used to use to get at that data, these things are now obsolete, because there are new, better ways you can store all the world's knowledge on a four by four chip on your fingertip? It's a whole different world.
 
 So the reason why I'm not worried about AI taking my job is that the way we build software would have to completely change in order to get rid of the people who know how to build software for that given era. You'd have to completely change the way you write software, the way software is built, the languages that are used for it... Everything about it would have to change in order for AI to have a complete takeover. So I'm not worried about somebody saying "Oh, yeah, AI is going to come take your job." Well, there's always going to be... AI is going to be generating -- listen, if anything, I think there's going to be a greater need for software engineers, because AI is going to be generating a bunch of slop, and creating projects that people are like "Oh yeah, I replaced my engineers", and then once they put it into production, they're like "Well, crap. I guess I need a software engineer to keep it going, keep it running." Like, there's going to be more demand, I think; I'm predicting there's going to be more demand in the short-term... There's going to be more demand for software engineers to come maintain things that were generated originally by AI, until we basically go over the hump where not only is the software being generated by AI, but it's also being maintained by AI, and serviced by AI, and all these things... And no human need to be involved in the process. Once that can be accomplished, then yeah, sure, AI can take software engineering jobs.
 
@@ -370,7 +370,7 @@ So the reason why I'm not worried about AI taking my job is that the way we buil
 
 **Steven Pyle:** So bias in the model. So say you have more and more that we're giving to the to AI to build our code. And we get to a point where we're just doing prompts. If there is bias to a particular way, like a more inefficient way of doing something, or something that uses... Oh, here's something malicious. It's trained to use --
 
-**Johnny Boursiquot:** \[00:56:19.24\] You just have one of those on hand? I see you reaching down. Have you got something malicious within reach? \[laughter\]
+**Johnny Boursiquot:** \[56:19\] You just have one of those on hand? I see you reaching down. Have you got something malicious within reach? \[laughter\]
 
 **Steven Pyle:** No, no. Okay, so say there is some product which has like an enterprise license which is very expensive. What if the model requires that library? And so now by default you're paying this entity, this company more money because the model has been biased to use that more often. And then when you're doing a prompt, you're just saying "Hey, I wanted to do action X", or whatever like that, and you have no visibility of what it's doing. It just decides, because it has this bias, that "Oh, okay, I'm always going to use this expensive product", if that makes sense.
 
@@ -388,7 +388,7 @@ So the reason why I'm not worried about AI taking my job is that the way we buil
 
 **Kent Quirk:** But I do think the bias problem has been shown over and over again to be a real problem. Not just like who is it going to direct you to spend your money with, but also things racism and sexism are massive problems. There've been any number of trained visual databases that - you know, we've all seen all the headlines about asking an AI to show you a happy family and it's a white family, and show us a sad family and it's a black family. That stuff is hard to get out. And then now that we're training AIs on the output of AI's, it's only going to get worse. That's your feedback problem.
 
-**Break**: \[00:58:46.09\]
+**Break**: \[58:46\]
 
 **Johnny Boursiquot:** So when you talk about bias, Steve, you're worried about... So if I say "Hey, write the code, Gen AI. I write the code that turns on the faucet when I put my hand under it. When you detect a hand, turn on the faucet." You're saying that if we have biased AI and a person with enough pigmentation puts their hand under... If the training data only includes people without pigments in their skin, the moment I as a person who is heavily pigmented puts my hand under that thing, if it doesn't turn on, that's bias. Right?
 
