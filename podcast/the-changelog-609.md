@@ -28,7 +28,7 @@ Well, first of all, let's lay some groundwork here before I start to get into th
 
 **Jerod Santo:** Things that you're like "Oh, that's kind of clever, but it's also so dumb."
 
-**Jimmy Miller:** \[00:07:56.21\] I think that was one of the lessons I had to learn, was just how clever you can be, and how much you can solve a problem with the most complicated code you could possibly imagine. And yet, for the end person, they don't care. It doesn't really matter. But for me -- I don't know, I've never been a businessy person. I like coding because I think coding itself is really interesting... And so for this first job, it was kind of a shock of like "This is what I have to deal with? This ugly grossness?" But I think that that's changed a bit. I look back on those moments quite fondly.
+**Jimmy Miller:** \[07:56\] I think that was one of the lessons I had to learn, was just how clever you can be, and how much you can solve a problem with the most complicated code you could possibly imagine. And yet, for the end person, they don't care. It doesn't really matter. But for me -- I don't know, I've never been a businessy person. I like coding because I think coding itself is really interesting... And so for this first job, it was kind of a shock of like "This is what I have to deal with? This ugly grossness?" But I think that that's changed a bit. I look back on those moments quite fondly.
 
 So yeah, maybe I should talk a little bit more in detail about -- I'm assuming most people haven't read the blog post, or whatever... Happy to fill in some background of what does this codebase look like, and what are the weird things going on in it, or...
 
@@ -44,7 +44,7 @@ There were all these teams who were redoing the big rewrites, and the interns an
 
 The whole thing was just kind of duct-taped, terrible codebase. Every JavaScript framework you could possibly imagine... And the task as an intern was "Here's a big list of bugs and features that we don't want to actually spend developer time on. This is your job now."
 
-**Adam Stacoviak:** \[00:11:49.12\] You've got to ask yourself, how does a codebase get to this point? Is it because there was no leader? Is it because no one cared? Is it because it was sort of siloed off the seemingly primary application which ran the processing? This was, as you said, customer support. Maybe it's a sidecar to the business and less important, but you talk about sales folks putting their wins in there, and logging in, because you've got the calendar, and stuff... How does that even happen? Is it because there's no leadership? What do you think?
+**Adam Stacoviak:** \[11:49\] You've got to ask yourself, how does a codebase get to this point? Is it because there was no leader? Is it because no one cared? Is it because it was sort of siloed off the seemingly primary application which ran the processing? This was, as you said, customer support. Maybe it's a sidecar to the business and less important, but you talk about sales folks putting their wins in there, and logging in, because you've got the calendar, and stuff... How does that even happen? Is it because there's no leadership? What do you think?
 
 **Jimmy Miller:** Yeah, that's a good question. So in some ways it's less important because it's customer support. But it's also -- yes, the sales organization is kind of in this codebase. That really matters. But also shipping out payment terminals all happened from this site, or at least a lot of them happened from this site. They might have had other locations... So shipping was also a big part of this. So it's not like it was completely to the side.
 
@@ -66,7 +66,7 @@ So I could definitely see the Dwight comparison, but I think that'd be selling h
 
 And then a second move - he moved to like a new town after college and tried again. And he ended up running into an old buddy who called him Munch, and then it spread. Even his wife apparently didn't know how he got the nickname Munch.
 
-**Jerod Santo:** \[00:16:05.24\] That is hilarious. Some names just find you; you just can't escape them. They just stick.
+**Jerod Santo:** \[16:05\] That is hilarious. Some names just find you; you just can't escape them. They just stick.
 
 **Jimmy Miller:** Yeah. I remember the day where we got a new system for being able to -- like naming; we got a new 80 setup or whatever, that kept your emails and your names or whatever... And it turns out that it had a little lower permissions requirements than the last one... And Munch went and changed his name and everything to Munch. So instead of actually having to be like "Oh yeah, that guy. That's Munch", now in the system he was properly Munch, which was fun.
 
@@ -96,7 +96,7 @@ But yeah I think for me a lot of this was just I didn't know anything about the 
 
 **Jerod Santo:** Really?
 
-**Jimmy Miller:** \[00:20:14.14\] Yeah. Yeah. The way I got into programming was a bit weird. I grew up relatively poor, not always having food on the table poor, but I still have a roof over my head, still electricity... US poor. Obviously, there's people who have it much worse in the world, but... We did have a computer, luckily. We were gifted a computer from some family friends... But my brother would always hog it, my older brother. And so one day he decided that I got my own computer, because he found one by the trash, with mud on it. It was this old Dell with Windows ME on it. And he just gave it to me and said "This is your computer now. This is the one you have to use." It didn't work, I didn't know the password for Windows ME... But luckily, I had a friend whose dad was a system admin, and he had mentioned Linux to me one time. And so I got Ubuntu running on it.
+**Jimmy Miller:** \[20:14\] Yeah. Yeah. The way I got into programming was a bit weird. I grew up relatively poor, not always having food on the table poor, but I still have a roof over my head, still electricity... US poor. Obviously, there's people who have it much worse in the world, but... We did have a computer, luckily. We were gifted a computer from some family friends... But my brother would always hog it, my older brother. And so one day he decided that I got my own computer, because he found one by the trash, with mud on it. It was this old Dell with Windows ME on it. And he just gave it to me and said "This is your computer now. This is the one you have to use." It didn't work, I didn't know the password for Windows ME... But luckily, I had a friend whose dad was a system admin, and he had mentioned Linux to me one time. And so I got Ubuntu running on it.
 
 **Jerod Santo:** Nice.
 
@@ -132,7 +132,7 @@ So yeah, I got it working, and that was my computer for probably five years. It 
 
 **Jimmy Miller:** Yeah, I had only really -- I mean, I'd written a lot of code in my spare time. I did a bunch of like ProjectEuler.net. I don't know if you all are familiar with it, but for anyone who's not, listeners, it's a bunch of math problems that you have to use programming to solve. So it's a bunch of like number theory kind of stuff. I'd solved -- they get really difficult, really fast. I think I've solved all of them I will ever be able to solve in my lifetime, because as they continue on, it's just like graduate-level math. So I had done a bunch of those...
 
-\[00:23:58.20\] I had played around with -- Mozilla had had a new extension method called Jetpack that they were playing with. I'd made some of those, and released some, and people used them out in the wild. They were all like super-small programs. I'd written a program for my school. I had a great programming teacher. Ms. Johns was her name. She was fantastic. I love her. She did not know programming, but she was a great person, who would teach from a book, and recognize that I knew more programming than her, so I just was a tutor in the programming classes. I took the Java AP exam, never took the class, got a five on it... I did a bunch of stuff in my spare time. So I learned Java, I learned Python... I just loved programming. It was my main hobby. I'd skip my calculus class to go program. That was the kind of -- I failed a lot of my classes because I would just skip them to go programming.
+\[23:58\] I had played around with -- Mozilla had had a new extension method called Jetpack that they were playing with. I'd made some of those, and released some, and people used them out in the wild. They were all like super-small programs. I'd written a program for my school. I had a great programming teacher. Ms. Johns was her name. She was fantastic. I love her. She did not know programming, but she was a great person, who would teach from a book, and recognize that I knew more programming than her, so I just was a tutor in the programming classes. I took the Java AP exam, never took the class, got a five on it... I did a bunch of stuff in my spare time. So I learned Java, I learned Python... I just loved programming. It was my main hobby. I'd skip my calculus class to go program. That was the kind of -- I failed a lot of my classes because I would just skip them to go programming.
 
 **Jerod Santo:** Well, it paid off.
 
@@ -156,7 +156,7 @@ So I go to write the program, and I start -- you know, it's a simple little Pyth
 
 So I tried to reach out to the company to tell them "Hey, this is a problem." Because I knew my local branch is not going to know anything about this. I tried to reach out to corporate... I like filled out an employee survey, and stuff... And they respond back to me. This is a customer support person; my older brother told me "Well, you can't give it to them for free. You can't tell them security vulnerability for free. They should pay you for this."
 
-**Jerod Santo:** \[00:28:03.23\] Okay...
+**Jerod Santo:** \[28:03\] Okay...
 
 **Jimmy Miller:** Me being the dumb 16-year-old I was...
 
@@ -214,7 +214,7 @@ I tell the whole story to the Secret Service agent, about what happened, what I 
 
 **Jimmy Miller:** Yeah. I got the interview, I think six weeks into my internship I got hired on full-time, and... Yeah.
 
-**Adam Stacoviak:** \[00:32:17.27\] Were you actually good?
+**Adam Stacoviak:** \[32:17\] Were you actually good?
 
 **Jimmy Miller:** I mean, you know, I could fake modesty, but yeah, I was good. I mean, I wasn't good compared to now. If you look back at all of that stuff, I was terrible. But for where I was at, as a junior developer, basically like a recent grad, I knew my stuff. I was able to -- when I joined, we took the backlog from like 60 items in the queue that had been there, and I was able to get like 40 of them solved pretty quickly. I mean, that's why I got hired in six weeks from intern to junior developer. It turns out all the stuff I had been doing in my spare time was actually real software. I just didn't realize it.
 
@@ -228,7 +228,7 @@ I tell the whole story to the Secret Service agent, about what happened, what I 
 
 **Jimmy Miller:** Exactly. And I've realized "Ah, my worst code is -- you know, I write bad code." I wrote tons of bad code at that company. Zero question. I mean, they had to scrap a whole project that I did... I made all sorts of mistakes. But you can not be perfect and yet contribute quite a bit. And these people - yeah, they created value for the company, despite this code being awful.
 
-**Break**: \[00:34:29.12\]
+**Break**: \[34:29\]
 
 **Jerod Santo:** You didn't introduce the calendar, did you?
 
@@ -266,7 +266,7 @@ It was just -- it was only 5000 lines because it was copied and pasted. Like, th
 
 **Jerod Santo:** I imagine it's unreadable, right?
 
-**Jimmy Miller:** \[00:41:40.13\] It is completely, completely unreadable. It is compiler output. It's like, if you had to work on JavaScript minified code... And I had a person -- one of these was our time tracking system. The way we tracked all employees was a custom-built application, but we had lost the source control; we had lost the source code, so it was decompiled. And there was some list that was wrong, according to a business person. So I go in there, and I'm looking at this boolean logic that's been optimized by a compiler... And I finally get it, I write down the logical formula, and I plug it into Wolfram Alpha, and it tells me the simplified form, which was great.
+**Jimmy Miller:** \[41:40\] It is completely, completely unreadable. It is compiler output. It's like, if you had to work on JavaScript minified code... And I had a person -- one of these was our time tracking system. The way we tracked all employees was a custom-built application, but we had lost the source control; we had lost the source code, so it was decompiled. And there was some list that was wrong, according to a business person. So I go in there, and I'm looking at this boolean logic that's been optimized by a compiler... And I finally get it, I write down the logical formula, and I plug it into Wolfram Alpha, and it tells me the simplified form, which was great.
 
 **Jerod Santo:** Oh, cool.
 
@@ -298,7 +298,7 @@ But also -- I mean, this will show my very strong bias here, that I know you all
 
 **Adam Stacoviak:** We don't do agile around here. We do whatever we want, basically. \[laughter\]
 
-**Jerod Santo:** \[00:46:06.16\] We just code stuff.
+**Jerod Santo:** \[46:06\] We just code stuff.
 
 **Jimmy Miller:** Yeah, I wasn't sure -- you know, I don't know you exactly. But with the Kaizen, and all of that, obviously --
 
@@ -344,7 +344,7 @@ But yeah.
 
 **Adam Stacoviak:** Yeah.
 
-**Jerod Santo:** \[00:49:52.08\] It definitely was like -- when I saw that, I thought "Adam's going to love this. There's someone named Guilfoyle?!"
+**Jerod Santo:** \[49:52\] It definitely was like -- when I saw that, I thought "Adam's going to love this. There's someone named Guilfoyle?!"
 
 **Adam Stacoviak:** Well, you say "Let's call him Guilfoyle", so I figured... And then I immediately Command+F'd and typed in S-I-L, and found nothing for Silicon Valley... I thought maybe at least reference it, like let's, you know --
 
@@ -372,7 +372,7 @@ And yeah, he was the most prolific programmer I have ever seen. The sheer amount
 
 But I actually debugged that bug for a year. It manifested itself as like 15 different cases in the system where things would just go wrong. And I thought it was like a memory leak for the longest time... I thought it was all these things. And finding out that it was just some legacy third-party application reused unique IDs every month was like the most exciting and most letdown bug find I'd ever seen in my life.
 
-**Jerod Santo:** \[00:54:16.15\] Yeah, not exotic.
+**Jerod Santo:** \[54:16\] Yeah, not exotic.
 
 **Jimmy Miller:** I thought for sure it had to be Guilfoyle's fault, right? His code was too clever. I really wanted to blame him on his cleverness.
 
@@ -406,7 +406,7 @@ When you actually think about it, if you're not one of these big web scale compa
 
 **Jerod Santo:** Okay...
 
-**Jimmy Miller:** \[00:58:06.02\] I don't know if you all remember Rhino. It is --
+**Jimmy Miller:** \[58:06\] I don't know if you all remember Rhino. It is --
 
 **Jerod Santo:** I do, but I can't remember what it does. But I remember Rhino-js. It was involved in my Cappuccino days. I think they were using it back with Objective-J.
 
