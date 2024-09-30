@@ -59,7 +59,7 @@ In the linked post, Joseph lays out what his fork would look like (in extreme de
 
 Perhaps you're thinking what I was thinking: why doesn't Joseph get involved and help move Rust in the direction he wants? Perish the thought...
 
-> A few years ago I would have considered writing RFCs for all of these proposals. But I like programming more than I like dying slowly in the endless pit of github RFC comments. I don't want months of work to result in yet another idea in [rust's landfill of unrealised dreams](https://doc.rust-lang.org/reference/items/associated-items.html).
+> A few years ago I would have considered writing RFCs for all of these proposals. But I like programming more than I like dying slowly in the endless pit of GitHub RFC comments. I don't want months of work to result in yet another idea in [rust's landfill of unrealised dreams](https://doc.rust-lang.org/reference/items/associated-items.html).
 
 
 **Break:**
