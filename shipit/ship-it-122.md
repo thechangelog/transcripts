@@ -2,7 +2,7 @@
 
 I have been using Bluefin on my developer desktop for over a year now. I have been using Bazzite on my Steam Deck for probably the same amount of time... I love them both. I think they're great projects. They have Chrome OS-ified Linux distro for me, and that's been wonderful. So if you want to learn more about it, stick around for the interview with Jorge, and check out the links in the show notes.
 
-\[00:05:13.12\]
+\[05:13\]
 
 **Justin Garrison:** Hello and welcome to the show, Jorge Castro. Jorge is a part of developer relations with the CNCF or the Linux Foundation, one and the same, for some parts... Jorge -- but that's not what we're going to talk about. Today we're talking about your side project, this thing that you started and now it's taken over a lot of things... And I love it, and I've been using it for a year. Why don't you tell us about UBlue?
 
@@ -18,7 +18,7 @@ Now we are on year three, we're about to make a release, again, this fall... And
 
 **Jorge Castro:** Yeah. So the model basically is -- Red Hat and Fedora had this thing called RPM OS3, which I don't really want to get into... It's basically just an operating system in a Git-like structure. So imagine that your entire operating system is just in Git.
 
-**Justin Garrison:** \[00:08:01.12\] I always describe people go to the root of your file system, do git init, and git \[unintelligible 00:08:02.07\] and that is basically --
+**Justin Garrison:** \[08:01\] I always describe people go to the root of your file system, do git init, and git \[unintelligible 00:08:02.07\] and that is basically --
 
 **Jorge Castro:** Exactly.
 
@@ -36,7 +36,7 @@ So the pattern really enables what we were able to do at work with cloud-native,
 
 Those are the patterns that I wanted to bring to the Linux desktop. Because the value isn't actually in the artifact. It's the fact that you can gather experts around a Git repo, and apply that to your workstation so that when I fire up my VS Code, I just want my VS Code to be the good one.
 
-\[00:12:01.17\] Brian Ketelsen, who's on the team, when we were hanging out, I was like "Show me your VS Code setup." Did you ever get to know someone, and you're like "Show me your VS Code setups"?
+\[12:01\] Brian Ketelsen, who's on the team, when we were hanging out, I was like "Show me your VS Code setup." Did you ever get to know someone, and you're like "Show me your VS Code setups"?
 
 **Justin Garrison:** Once you know them enough, you're like "Hey, what's your vimrc?"
 
@@ -70,7 +70,7 @@ So for us with Bluefin - you like Gnome, but you want Ubuntu-style Gnome; sort o
 
 **Jorge Castro:** That's my X-Men. That's the X-Men I identify with the most. It's the same way with technology. Because it's the same, but it's also different, like what multiverse of your favorite superheroes... You have that with Star Wars, what era is your favorite, sports teams or whatever... So if you grew up in this kind of classic Ubuntu era, \[unintelligible 00:15:56.00\] that's kind of awesome for you.
 
-\[00:16:00.13\] But you're looking for something more modern, something more standard space, something that really -- what I try to do, especially with Bluefin DX, is set people up for success. Pretend, when they open that laptop and there's Bluefin on it, that they're at a workshop, learning their first deployment of something.
+\[16:00\] But you're looking for something more modern, something more standard space, something that really -- what I try to do, especially with Bluefin DX, is set people up for success. Pretend, when they open that laptop and there's Bluefin on it, that they're at a workshop, learning their first deployment of something.
 
 **Autumn Nash:** I was just going to say that it makes it more accessible. And then you can learn to change all of those different opinions as you go on. If you took, I don't know, different students that we teach at Milspouse Coders, or different kids - there's some people who really want to be in those weeds, and they really want to change everything and learn every little piece. And there's some people where they're going to get frustrated and not want to even try if it's so down in the weeds. So it's that's really cool, that you're giving people the options and making it more accessible for maybe somebody who wants to get started.
 
@@ -98,7 +98,7 @@ So we actually went into it with a "We don't want to make infrastructure." Becau
 
 **Justin Garrison:** 0 dollar egress. Yup.
 
-**Jorge Castro:** \[00:19:55.20\] I think we pay $8 a month for all of Bluefin's ISOs. It's such a great deal. And a lot of these companies, they have fantastic open source programs that we take advantage of, which -- we try to do our part, too; recognize when companies are supporting open source. So Discourse, that runs our forum, has just a great open source program for communities that meet a certain size. You don't just get it right away. You've got to earn it. And that really helped us. It kind of gave us -- when we reach a certain size, we know that we'll be able to leverage these kinds of things.
+**Jorge Castro:** \[19:55\] I think we pay $8 a month for all of Bluefin's ISOs. It's such a great deal. And a lot of these companies, they have fantastic open source programs that we take advantage of, which -- we try to do our part, too; recognize when companies are supporting open source. So Discourse, that runs our forum, has just a great open source program for communities that meet a certain size. You don't just get it right away. You've got to earn it. And that really helped us. It kind of gave us -- when we reach a certain size, we know that we'll be able to leverage these kinds of things.
 
 So we really do try to run it as much as possible with SaaS, and things like that. That helps us keep it lean, because it does take a lot of effort to run a Linux distro, and we want to leverage as much goodness from Fedora, but we want to give our users what they want, in the most efficient way possible. We could definitely set up a lot of infrastructure. We say no to ourselves all the time.
 
@@ -132,7 +132,7 @@ Again, by using things OCI containers we could just leverage existing tools, opt
 
 **Jorge Castro:** Yeah. And really the only maintenance is - you'll find this out - GitHub, if you don't make a Git commit to your repository and you're running Actions, if you don't make a commit, it assumes that you abandoned it, and gives you a warning "We're going to turn your Action off", which would actually turn off your OS. But yeah, literally, other than checking in every once in a while to see how your build is doing, it is very low maintenance.
 
-\[00:23:55.03\] Although what we are finding is initially, I think, because people were also learning how to use a Linux in this manner, instead of their traditional way, I think a lot of people go into it thinking that they need to make a custom image, and a lot of people do follow that pattern. But what we did find is a lot of people do end up, even after you do your own image, being like "Wow, I'd rather have someone else do this anyway." And as we bring in new tools, it alleviates a lot of the need to do a custom image. So getting Homebrew, I think, in there was a huge win. I know a lot of Linux traditionalists don't like Homebrew, but --
+\[23:55\] Although what we are finding is initially, I think, because people were also learning how to use a Linux in this manner, instead of their traditional way, I think a lot of people go into it thinking that they need to make a custom image, and a lot of people do follow that pattern. But what we did find is a lot of people do end up, even after you do your own image, being like "Wow, I'd rather have someone else do this anyway." And as we bring in new tools, it alleviates a lot of the need to do a custom image. So getting Homebrew, I think, in there was a huge win. I know a lot of Linux traditionalists don't like Homebrew, but --
 
 **Justin Garrison:** They can stay in their old-school -- I've been using Homebrew for four or five years on Linux, and it's fantastic.
 
@@ -158,7 +158,7 @@ I need a little bit of duct tape there, if anyone's interested. These are the ki
 
 **Autumn Nash:** Yes. Sometimes you just want to start, you know... And I think this is a great way to bridge that gap and to give people the start. But still, you can learn, and you can go and look and experiment, but it's enough to get you started.
 
-**Break**: \[00:26:39.23\]
+**Break**: \[26:39\]
 
 **Autumn Nash:** Is your sticker the one with the little raptor on it?
 
@@ -264,7 +264,7 @@ I need a little bit of duct tape there, if anyone's interested. These are the ki
 
 **Autumn Nash:** Look, my kid and me, we will be your first customers, and we will walk around Scale looking like raptors. It'll be great.
 
-**Jorge Castro:** \[00:34:09.27\] Oh, I know. We'll figure it out. Yeah, the kids love it. And it also, I think it teaches -- one of the things about the project is we really want to teach people the on-ramp to go onto into the profession. Because Scale is relatively cheap. And for a lot of enthusiasts -- KubeCon is not. For a lot of people, unless their \[unintelligible 00:34:29.02\] they can't go to KubeCon. They can't go to OSS Summit, you know?
+**Jorge Castro:** \[34:09\] Oh, I know. We'll figure it out. Yeah, the kids love it. And it also, I think it teaches -- one of the things about the project is we really want to teach people the on-ramp to go onto into the profession. Because Scale is relatively cheap. And for a lot of enthusiasts -- KubeCon is not. For a lot of people, unless their \[unintelligible 00:34:29.02\] they can't go to KubeCon. They can't go to OSS Summit, you know?
 
 **Autumn Nash:** Not just that, but if you're a single mom like me, you can't take your kids to KubeCon and all these other places.
 
@@ -304,7 +304,7 @@ So as people were saying, it was like "Well, I kind of have my own messed up way
 
 **Autumn Nash:** I love Jetbrains so much. I am such a Jetbrains fan.
 
-**Jorge Castro:** \[00:37:52.14\] Yeah. Their Toolbox tool is what we use to install it on a Bluefin system, and it works fantastic. It updates for you, it handles everything... So our challenge really has been developers who aren't used to that workflow to get them used to -- you don't app get install Node and app get install MySQL, right? You have a file in your Git repo that says "I want from Ubuntu 24.04, from MySQL \[unintelligible 00:38:17.01\] or whatever. And then you work with it in that way as the container first primitive. And I would also say that that's the thing that probably trips up people the most, there are developers that some of them really don't want to change their bad habit.
+**Jorge Castro:** \[37:52\] Yeah. Their Toolbox tool is what we use to install it on a Bluefin system, and it works fantastic. It updates for you, it handles everything... So our challenge really has been developers who aren't used to that workflow to get them used to -- you don't app get install Node and app get install MySQL, right? You have a file in your Git repo that says "I want from Ubuntu 24.04, from MySQL \[unintelligible 00:38:17.01\] or whatever. And then you work with it in that way as the container first primitive. And I would also say that that's the thing that probably trips up people the most, there are developers that some of them really don't want to change their bad habit.
 
 **Justin Garrison:** Well, it's just a habit.
 
@@ -328,7 +328,7 @@ So as people were saying, it was like "Well, I kind of have my own messed up way
 
 **Autumn Nash:** If you would like to do a partnership, I would love that, because we're trying to get them to contribute to open source, because it's a great way to learn real development, and to be able to do development as a team. Working with people around the world, and being able to add, and to use version control, and stuff... Because that is another thing that is not taught. And just being able to work in a community, and to be able to work remotely... But a lot of places won't give you a shot if you haven't done it before; open source can be very gatekeepy.
 
-**Justin Garrison:** \[00:42:14.01\] And going to the right open source. Because you can have a lot of people --
+**Justin Garrison:** \[42:14\] And going to the right open source. Because you can have a lot of people --
 
 **Autumn Nash:** Dude, we are bringing a gang of Milspouse Coders to Scale because of that community. No, for real, because they're kind, and they're not going to judge them. It's so refreshing to -- even talking to Garrett and just people there; you guys have been in tech for so long, but you're some of the kindest people who've been in tech for so long, you know? So that community is so important.
 
@@ -344,7 +344,7 @@ So as people were saying, it was like "Well, I kind of have my own messed up way
 
 **Jorge Castro:** Love that tool.
 
-**Justin Garrison:** It's a great tool. But I kept doing it, and I kept getting duplicates on the authenticated -- and I was just like "Oh, this will just remove the duplicates." It just looks at "Hey, is there a duplicate there? Don't add it. And if it's not there, then add it." It was just a three-line Bash -- but it took me two days to learn how to open an account for Launchpad, to be able to send the PR, to be able to do all that other stuff. I fixed the thing for myself. I'm like "I want to contribute this back." And that was the very first time that I was like "I'm going to open-source this thing. I'm going to contribute back to a thing that already exists."
+**Justin Garrison:** It's a great tool. But I kept doing it, and I kept getting duplicates on the authenticated -- and I was just like "Oh, this will just remove the duplicates." It just looks at "Hey, is there a duplicate there? Don't add it. And if it's not there, then add it." It was just a three-line Bash -- but it took me two days to learn how to open an account for Launchpad, to be able to send the PR, to be able to do all that other stuff. I fixed the thing for myself. I'm like "I want to contribute this back." And that was the very first time that I was like "I'm going to open source this thing. I'm going to contribute back to a thing that already exists."
 
 And it took a week before anyone even saw it... And they're like "Yeah, no, this doesn't make sense. It's not a big file. We're just going to write it twice." And they denied it. And I was heartbroken, because I was just like "Oh, man." That was such a bad taste of open source, because it wasn't -- and obviously, now I don't care. It was just like \[unintelligible 00:43:43.24\] I probably would also deny that, looking back, if someone contributed. But there was no feedback on it, there was no "Oh, let's talk about it." Like, "No we don't want this. It's fine. It's closed."
 
@@ -360,7 +360,7 @@ I think a lot of us maintain -- we want to be efficient, but I encourage maintai
 
 **Autumn Nash:** I want to be a part of your project. I just think that is -- I wish people were more like that, whether it's in business, where you're actually working as a developer, or open source. If you want to not have to do so much work, you teach other people and allow other people to come in to spread that work. And if you're not welcoming, you're just taking on more and more work by yourself.
 
-**Justin Garrison:** \[00:46:03.11\] Before we go into the how to get involved here, what's going on with the hardware support? Because you have an unofficial community distro for the framework laptop... It's getting bigger, and you're starting to \[unintelligible 00:46:13.24\] If someone wants to install it, where should they be installing stuff, or are there things they can just go buy?
+**Justin Garrison:** \[46:03\] Before we go into the how to get involved here, what's going on with the hardware support? Because you have an unofficial community distro for the framework laptop... It's getting bigger, and you're starting to \[unintelligible 00:46:13.24\] If someone wants to install it, where should they be installing stuff, or are there things they can just go buy?
 
 **Jorge Castro:** Yeah. So we are an unofficial community supported option on the framework. We get to work with those folks. I got to meet them in OSS Summit. Matt Hartley's been a Linux person in the community for at least as long as I have, over 20 years. And when I found out that framework, I was very interested in -- I mean, they outright are just saying... In the beginning they were like "We may do Linux or not", but now, as time goes on, they're like "We want to offer a Linux that's an alternative to Mac. But we want to do it in a sustainable way, with hardware that brings the cost down for everyone. Commodity stuff." And as a Linux nerd, that just lines up with everything that I want.
 
@@ -378,7 +378,7 @@ And I think by now we we've realized that we can't get there with a traditional 
 
 And on the AI thing I think it's very interesting, because Bluefin does ship AI tools. But you're going to get Ollama, and you're going to do it locally, and you're going to use open-weighted models, and you can pull from everyone, and there's a little GTK app that gives you the ChatGPT experience...
 
-**Autumn Nash:** \[00:50:05.12\] See, that makes me excited, because now you're also -- the fact that you said you can get old computers, that means it's accessible for the next person to learn, and for someone to be able to start off without spending... I always get the questions, "Do I need to spend a thousand dollars on a MacBook to be a developer?" No, you don't. But stuff like this is going to make it even more accessible for somebody, and give you those options. So that just makes me excited, because I'm all about trying to get people in tech, and to get different perspectives, and help people learn, and I just I love that.
+**Autumn Nash:** \[50:05\] See, that makes me excited, because now you're also -- the fact that you said you can get old computers, that means it's accessible for the next person to learn, and for someone to be able to start off without spending... I always get the questions, "Do I need to spend a thousand dollars on a MacBook to be a developer?" No, you don't. But stuff like this is going to make it even more accessible for somebody, and give you those options. So that just makes me excited, because I'm all about trying to get people in tech, and to get different perspectives, and help people learn, and I just I love that.
 
 **Jorge Castro:** I love it. I love it. Now we've just got to finish the thing for you. It always feels like it's never finished. It's been good enough for a while, but you know how it is, Justin... It's my baby, and I want every -- that brew thing that you're like "That's not a big deal", it constantly bothers me.
 
@@ -412,7 +412,7 @@ And on the AI thing I think it's very interesting, because Bluefin does ship AI 
 
 So that's the spiel. Give it a shot. Find a laptop and... Always happy to help, especially if you have experience in developer stuff, developer relations, putting together bundles of -- I would love to have a better story for data scientists, that includes better tools, things like that. So if you're deep in the industry, you can help out just by telling me what to ship. \[laughs\]
 
-**Autumn Nash:** \[00:54:18.29\] I love that you're actually listening to your audience, because some people just want to build something cool and then they just don't listen to any other opinions.
+**Autumn Nash:** \[54:18\] I love that you're actually listening to your audience, because some people just want to build something cool and then they just don't listen to any other opinions.
 
 **Jorge Castro:** Yeah. You want to listen to your audience. We generally don't listen to generic Linux people... Because if you ask people, they'll just ask for a better horse, you know? So we do take some choices that are opinionated, but... You know, it worked for Kubernetes, so... \[laughs\]
 
@@ -426,7 +426,7 @@ So that's the spiel. Give it a shot. Find a laptop and... Always happy to help, 
 
 **Justin Garrison:** Alright, thanks so much.
 
-**Break**: \[00:55:20.10\]
+**Break**: \[55:20\]
 
 **Justin Garrison:** Thank you so much, Jorge, for coming on the show and talking to us all about Bluefin, and Bazzite, and UBlue, and what you're doing with the modern Linux distro. I've been running Linux on my computers since - I believe it was 2002. 2002 was when I got my first computer. So yeah, that was when I started running a Linux distro, because it was an old computer from an old company, and it didn't run Windows ME, or 2000 at the time... So I installed -- I don't remember what I installed. It was \[unintelligible 00:59:20.05\] Anyway, I've been using the UBlue stuff, I had a fork of it myself... I actually have a couple videos of getting started with Bazzite and Bluefin on my YouTube channel, because I've been involved with it. Really friendly folks. I have some PRs into it. It's a lot of fun. I just want to spread it to more people, because I think it's great.
 
