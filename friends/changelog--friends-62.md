@@ -62,9 +62,9 @@
 
 **Gerhard Lazu:** It's almost a product.
 
-**Jerod Santo:** Yeah, it's almost a product. If you could package up and sell 20 lines of Varnish, we would do it. But if you can't, we would at least open-source it and let the world look at what we did. So it has its own repo, and it has its own pull request... So you know, it's going to be a real boy. Does it work? Does it do stuff? I mean, I know you demoed it last time, and it was doing things, but does it do more than it did before? Or is it the same?
+**Jerod Santo:** Yeah, it's almost a product. If you could package up and sell 20 lines of Varnish, we would do it. But if you can't, we would at least open source it and let the world look at what we did. So it has its own repo, and it has its own pull request... So you know, it's going to be a real boy. Does it work? Does it do stuff? I mean, I know you demoed it last time, and it was doing things, but does it do more than it did before? Or is it the same?
 
-**Gerhard Lazu:** \[00:07:43.02\] Yeah. I mean, the initial commit of the repo was basically I extracted what would have become a pull request to the Changelog repo. That was the initial commit, and we ended up with 46 lines of Varnish config. The pull request 1, which added dynamic backends, and it does something interesting with a cache status header... We end up with 60 lines of Varnish config.
+**Gerhard Lazu:** \[07:43\] Yeah. I mean, the initial commit of the repo was basically I extracted what would have become a pull request to the Changelog repo. That was the initial commit, and we ended up with 46 lines of Varnish config. The pull request 1, which added dynamic backends, and it does something interesting with a cache status header... We end up with 60 lines of Varnish config.
 
 Why dynamic backends? That was an important one, because whenever there's a new application deployment, you can't have static backends. The IP will change, therefore you need to use the DNS to resolve whatever the domain is pointing to. So that's what the first pull request was, and that's what we did in the second iteration.
 
@@ -94,7 +94,7 @@ Then we'd need to implement the purging across all instances. I think that's sli
 
 **Jerod Santo:** It's actually pretty straightforward, because we already have a Fastly purge function in our app, that goes and does the thing, and then we just change this to go and background Java reset on all these different. Now, there has to be some sort of orchestration of like - the instances have to be known. Maybe that's just like a call to Fly, or something, or I don't know how...
 
-**Gerhard Lazu:** \[00:12:11.12\] DNS...
+**Gerhard Lazu:** \[12:11\] DNS...
 
 **Jerod Santo:** Okay, DNS-based, yeah.
 
@@ -154,7 +154,7 @@ And so we essentially had this scenario where our application was not telling th
 
 **Gerhard Lazu:** I don't know, I quite like the name, to be honest. I think it has a great story behind it; so it just goes back to the origin.
 
-**Adam Stacoviak:** \[00:16:05.15\] And the CDN is a pipe, right? I mean, it is a pipe, so....
+**Adam Stacoviak:** \[16:05\] And the CDN is a pipe, right? I mean, it is a pipe, so....
 
 **Jerod Santo:** Yeah, exactly.
 
@@ -260,7 +260,7 @@ Now, we need something really simple. We need something that we understand insid
 
 **Gerhard Lazu:** Open source for the win. Cool.
 
-**Jerod Santo:** So I'm going to open-source the issue, and then you open-source the code.
+**Jerod Santo:** So I'm going to open source the issue, and then you open source the code.
 
 **Gerhard Lazu:** Amazing. I love that.
 
@@ -298,7 +298,7 @@ But when I said that back in the day, I was thinking about Tigris... Because I h
 
 **Gerhard Lazu:** I think so. But once we start adding the test harness, once we start adding the purging... Which, by the way, is specific to our app, but maybe that would need to be generic, by the way. So if this was to be a product, we would need to have a generic way of purging, doesn't matter what your app is.
 
-\[00:24:02.11\] So there's a couple of things that we need to implement to make this as a product... And in that case, it would be in this repo, I think. But it could also be a hosted service, like Tigris is maybe, especially if we get the cool domain. Why not? I can see that. And this can be our playground; the Pipe Dream can be our playground. But then the real thing, with all the bells and whistles, could be private.
+\[24:02\] So there's a couple of things that we need to implement to make this as a product... And in that case, it would be in this repo, I think. But it could also be a hosted service, like Tigris is maybe, especially if we get the cool domain. Why not? I can see that. And this can be our playground; the Pipe Dream can be our playground. But then the real thing, with all the bells and whistles, could be private.
 
 **Jerod Santo:** Yeah, I think we build Pipe Dream in the open, and then if we decide that there's a possibility there, then you genericize it in a separate effort.
 
@@ -324,7 +324,7 @@ So I think keeping that true to open source would be important. And if not, then
 
 **Jerod Santo:** We'll link that up.
 
-**Break**: \[00:26:25.14\]
+**Break**: \[26:25\]
 
 **Jerod Santo:** What's next? Custom feeds.
 
@@ -376,7 +376,7 @@ So moving off Supercast is a big lift, and not one that I have made the jump yet
 
 **Jerod Santo:** You can write your own tagline, and that'll show up in your podcast app. You can be like "It's better."
 
-**Gerhard Lazu:** \[00:34:04.27\] Hang on. I'm still at tagline. "Jerod made me do this."
+**Gerhard Lazu:** \[34:04\] Hang on. I'm still at tagline. "Jerod made me do this."
 
 **Jerod Santo:** Okay...
 
@@ -476,7 +476,7 @@ So moving off Supercast is a big lift, and not one that I have made the jump yet
 
 **Jerod Santo:** But yeah, it's been kind of a screaming success, honestly. Currently we have 320 Changelog++ members, and those 320 people have created 144 custom feeds so far.
 
-**Gerhard Lazu:** \[00:38:00.22\] Including mine.
+**Gerhard Lazu:** \[38:00\] Including mine.
 
 **Jerod Santo:** Including yours. I see yours right there. And the cover is your face.
 
@@ -562,7 +562,7 @@ So moving off Supercast is a big lift, and not one that I have made the jump yet
 
 **Jerod Santo:** Like, you can't even build custom feeds. Now, I did consider custom feeds for all. Let the people have the custom feeds... But Plus Plus people obviously would be the only ones who get the checkbox. That's something that I'd be open to if lots of people want it... But for now, I was like "Well, let's let our Plus Plus people be special for a while."
 
-**Adam Stacoviak:** \[00:41:54.27\] Is there a cost center with these custom feeds? Is there an additive to the cost if we were having to deal with costs?
+**Adam Stacoviak:** \[41:54\] Is there a cost center with these custom feeds? Is there an additive to the cost if we were having to deal with costs?
 
 **Jerod Santo:** Marginal.
 
@@ -640,7 +640,7 @@ Now, if it was for a broader audience, and this was a baking show, and we were g
 
 Sign up. You need an invitation to join this organization.
 
-**Jerod Santo:** \[00:46:10.08\] Alright, go to our Slack, go to Main, scroll up a little bit... You'll see there's an invite link.
+**Jerod Santo:** \[46:10\] Alright, go to our Slack, go to Main, scroll up a little bit... You'll see there's an invite link.
 
 **Adam Stacoviak:** To get into Zulip, you have to go to Slack.
 
@@ -738,7 +738,7 @@ Sign up. You need an invitation to join this organization.
 
 **Jerod Santo:** Historically, I would say too slow.
 
-**Gerhard Lazu:** \[00:50:04.29\] Too slow. Okay. Adam?
+**Gerhard Lazu:** \[50:04\] Too slow. Okay. Adam?
 
 **Adam Stacoviak:** Yeah, historically too slow.
 
@@ -768,7 +768,7 @@ So how did we accomplish this? We're using Namespace.so, which - they provide fa
 
 And while the first run obviously uses quite a bit of CPU, because you have to compile all the Elixir into bytecode and all of that, subsequent runs are much, much quicker.
 
-\[00:54:00.22\] And the other thing which I did, I split the -- let's see, is it here? It's not actually here. We need to go to Honeycomb to see that. So I'm going to Honeycomb to look at that. I've split the build time, basically the build test and publish, from the deploy time, because something really interesting is happening there. So let's take, for example - before this change, let's take Dagger on Fly, one of the blue ones, and have a look at the trace. So we have this previous run, which actually took four minutes and 21 seconds. And all of it is like all together. It took basically three minutes. There's some time to start the engine, to start the machine, whatever, whatever. All in all, 4 minutes and 20 seconds.
+\[54:00\] And the other thing which I did, I split the -- let's see, is it here? It's not actually here. We need to go to Honeycomb to see that. So I'm going to Honeycomb to look at that. I've split the build time, basically the build test and publish, from the deploy time, because something really interesting is happening there. So let's take, for example - before this change, let's take Dagger on Fly, one of the blue ones, and have a look at the trace. So we have this previous run, which actually took four minutes and 21 seconds. And all of it is like all together. It took basically three minutes. There's some time to start the engine, to start the machine, whatever, whatever. All in all, 4 minutes and 20 seconds.
 
 So in your run, for example, this one, which was fairly fast, it was two minutes and a half, if we look at the trace. We can see that Dagger on Namespace... The build test and publish was 54 seconds. So in 54 seconds we went from just getting the code, to getting the final artifact, which is the container image that we ship into production. In this case, we basically publish it to gcr.io. And then the deploy starts. And the deploy took one minute and 16 seconds.
 
@@ -782,7 +782,7 @@ As a TL;DR, this change meant that we have less moving parts, and when Namespace
 
 **Gerhard Lazu:** Well, I think the application boot time could be improved... Because it takes a while for the app to boot. When I say it takes a while, it may take 20-30 seconds for it to be healthy, all the connections to be established... Now, I'm not sure exactly which parts of those would be the easiest ones to optimize. But I think the application going from the deploy starting and deploy finishing, taking a minute and a half is a bit long. So I'll need to dig deeper, like "Is it when it comes to connecting to the database? Is it just the application itself being healthy? Which part needs to be optimized?" But again, we're talking -- this is like a minute and a half. We're optimizing a minute and a half, just to put this into perspective. And that's why I started with the question, "How fast is fast enough?"
 
-**Jerod Santo:** \[00:57:59.18\] Yeah. And I think if you're at 90 seconds, you're probably right about there. I would still go in and spend an hour thinking "Is there a low-hanging fruit that we haven't looked at yet, that we could squeeze 10 more seconds off?" And then I would stop squeezing the radish after that, you know?
+**Jerod Santo:** \[57:59\] Yeah. And I think if you're at 90 seconds, you're probably right about there. I would still go in and spend an hour thinking "Is there a low-hanging fruit that we haven't looked at yet, that we could squeeze 10 more seconds off?" And then I would stop squeezing the radish after that, you know?
 
 **Gerhard Lazu:** I see.
 
@@ -1112,7 +1112,7 @@ And in some cases, that's exactly what you want, especially when you want to red
 
 **Gerhard Lazu:** Yeah.
 
-**Adam Stacoviak:** C-A-S-E-Y, github.com/casey. Github.com slash -- I'm just kidding. I was just gonna say it one more time. Thanks, Casey.
+**Adam Stacoviak:** C-A-S-E-Y, github.com/casey. github.com slash -- I'm just kidding. I was just gonna say it one more time. Thanks, Casey.
 
 **Jerod Santo:** Are we stuck in a loop?
 
