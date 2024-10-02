@@ -18,7 +18,7 @@ So I spent my spare time outside of work, experimenting with it and engaging wit
 
 So long story short, I realized at the end of last year that this was a great and fun opportunity for me to really go deep into the world of graphs and graph databases. And at the beginning of this year, I moved over and I joined Kùzu as an AI engineer. And currently, I'm leading the developer relation efforts and I'm engaging with the growing user community of Kùzu, which is really, really fun in itself. And of course, working with use cases that are taking this whole space forward, and working with the community to understand what they are using these tools for.
 
-\[00:08:04.14\] And I should also add, I'm still very plugged into the vector database ecosystem. I've not left that behind, and I'm actively experimenting with some of those in my spare time as well. And I still very much enjoy using LanceDB, which is the tool I mentioned last year in our conversation as well.
+\[08:04\] And I should also add, I'm still very plugged into the vector database ecosystem. I've not left that behind, and I'm actively experimenting with some of those in my spare time as well. And I still very much enjoy using LanceDB, which is the tool I mentioned last year in our conversation as well.
 
 So again, it's really exciting to see how these different kinds of tools are coming togethe... And yeah, I'd love to go deeper into some of these topics in our conversation.
 
@@ -42,7 +42,7 @@ Now, more formally, I also want to make the point here that the term knowledge g
 
 Similarly, in finance you can have chains of direct or indirect transactions, let's say between onshore and offshore accounts. And these ultimately connect to given individuals anywhere in the world. So you could choose to model these using tables in a relational database, or you could choose to model this as a graph in a graph database. And in either case, there are pros and cons. But specifically when you're analyzing patterns, and you want to actually understand these complex relationships in an analytical way, using a graph database can actually be very powerful. It's a lot more intuitive, it's much easier to construct the queries that can answer these questions... And this is where the idea of a graph and how you model the data as a graph becomes very, very powerful.
 
-\[00:12:09.29\] But going back to the idea of databases. So a graph database can be thought of as a specialized database that allows you to scalably manage and query data that's organized as a graph. And the performance aspects of these graph databases come from specialized data structures and operators that allow you to express complex joins, and efficiently traverse paths in your data.
+\[12:09\] But going back to the idea of databases. So a graph database can be thought of as a specialized database that allows you to scalably manage and query data that's organized as a graph. And the performance aspects of these graph databases come from specialized data structures and operators that allow you to express complex joins, and efficiently traverse paths in your data.
 
 Now, a lot of listeners may have heard of graph databases already. And the most popular graph database model is called the property graph data model, which was invented and popularized by Neo4j. And I've been a user of Neo4j myself in the past. Today you have many other graph databases like Kùzu, that also implement the property graph data model. But in general, you start off with a data model, which is more conceptual, which allows you to express how to store and query your data. And a graph database basically is the underlying system that allows you to express the graph data model of choice. And the reason it's more intuitive than a relational database for certain kinds of queries that involve connected data and this sort of interrelated data is that it allows you to express your queries in a much more concise and intuitive manner, using the query languages that graph databases offer... As well as the performance aspects of traversing the paths in the data.
 
@@ -56,7 +56,7 @@ So I guess the idea here is that you can actually think of that very same data t
 
 So that's one example of, let's say, a healthcare scenario. I've already mentioned the financial transaction scenario, where you have a transaction graph between individuals, the merchants they've interacted with, the money transfers they've made between their accounts, how these accounts are connected... So financial institutions make heavy use of graphs to answer these kinds of questions.
 
-\[00:16:05.10\] Traffic networks is another common use case. If you're working with city authorities and you want to understand the flow of traffic and the numbers of people moving between locations, this is something that can actually be well modeled in a graph. And the kinds of questions you can answer can also change based on whether you choose to model this as tables or as a graph. And there are many, many other examples.
+\[16:05\] Traffic networks is another common use case. If you're working with city authorities and you want to understand the flow of traffic and the numbers of people moving between locations, this is something that can actually be well modeled in a graph. And the kinds of questions you can answer can also change based on whether you choose to model this as tables or as a graph. And there are many, many other examples.
 
 I will highlight one thing, though... The example of Wikipedia that I gave earlier - the idea of Wikipedia as a graph, I think, reinforces the idea that knowledge graphs are a term to be used, I guess, with a bit of caution, in the sense that in general a graph is a general representation of how nodes are connected to other nodes in the network. A knowledge graph is something that you can think of as the collection of all knowledge that is available in that domain.
 
@@ -66,7 +66,7 @@ So there are certain scenarios where actually the data model and the way you bui
 
 In general, I would say that you can think of your tabular data or records as a graph very conveniently using the property graph model, and model things like transaction networks and social networks and drug interaction networks and so on.
 
-**Break:** \[00:18:05.08\]
+**Break:** \[18:05\]
 
 **Daniel Whitenack:** Well, Prashanth, before we get into one thing that I'm really excited to talk about on the show, which I've been telling Chris we need to talk about for a while, which is graph RAG... But before we get there, we sort of talked a bit about graphs. I think it would be useful to kind of just give people a reminder of the kind of, what most people would refer to maybe when they're referring to a RAG workflow, an AI RAG workflow.
 
@@ -84,7 +84,7 @@ Now, you had the initial makings of vector embedding-based retrievals that we ar
 
 **Chris Benson:** So I guess we've been teasing this for a while on the show here... We've talked about graphs, we've talked a little bit about RAG... Everyone's waiting for us to ask you the question about graph RAG, and get into the topic. So without further ado, if you want to dive in and kind of give us an intro to that, we'd love to hear that.
 
-**Prashanth Rao:** \[00:24:25.23\] Absolutely. So let's understand what we were doing with, RAG and then go into graph RAG. So the early approach to doing RAG is -- we call it naive RAG now. And in that approach, you just create chunks of your data, you embed that using an embedding model, and you store them in a vector database. So essentially, you just store the chunks on the chunk embeddings in a vector database, and when you do a retrieval, you convert your query into an embedding model, using the same embedding model that you used to embed the data. And this returns the most similar chunks, that are similar to the query vector.
+**Prashanth Rao:** \[24:25\] Absolutely. So let's understand what we were doing with, RAG and then go into graph RAG. So the early approach to doing RAG is -- we call it naive RAG now. And in that approach, you just create chunks of your data, you embed that using an embedding model, and you store them in a vector database. So essentially, you just store the chunks on the chunk embeddings in a vector database, and when you do a retrieval, you convert your query into an embedding model, using the same embedding model that you used to embed the data. And this returns the most similar chunks, that are similar to the query vector.
 
 So you typically return like the top K, let's say top 5 or top 10, whatever number you choose. And these top K chunks can then be sent to the LLM as context to synthesize a response in natural language. So in a nutshell, that's kind of what you could say traditional RAG does.
 
@@ -98,7 +98,7 @@ So let's look at an example of a professor and let's say the PhD students the pr
 
 So your vector search alone may not retrieve this answer, because you didn't model the relationships in that explicit way. However, if you had chosen to model this as a graph, you would explicitly capture this relationship using this concept of a triple, which is "person X worked with person Y."
 
-\[00:28:03.21\] So this is where triples come in. A triple essentially is two nodes that are connected via a relationship. You have a source and a target, and the person X is a source, person Y is a target, and the "worked with" is what represents the relationship.
+\[28:03\] So this is where triples come in. A triple essentially is two nodes that are connected via a relationship. You have a source and a target, and the person X is a source, person Y is a target, and the "worked with" is what represents the relationship.
 
 So the very powerful idea here is that where graphs come into this whole picture and why it's relevant to RAG is that you can actually provide additional valuable context to an LLM by modeling these relationships explicitly, and simultaneously retrieving, both from a dense embedding vector search, as well as a graph traversal. And then using the retrievals in combination with one another to provide additional context to the generation LLM, so that you can actually include this explicit relationship in your answer. And this actually has been proven in practice from some work that's been done recently.
 
@@ -114,7 +114,7 @@ So I wouldn't state that the benefit of Graph RAG is that it eliminates or reduc
 
 And then at the time that, let's say I receive a user query question in my chatbot or whatever that is, what is actually kind of concretely retrieved, and how is that combined, or how could that be combined with the prompt into the model? So just walking us through those kind of very concrete things might be helpful for people.
 
-**Prashanth Rao:** \[00:32:00.25\] Sure. That makes a lot of sense. So the two key stages in any RAG application, not just Graph RAG, is the fact that you divide it into an indexing stage and a retrieval or a serving stage. So to get the data in and store it and index it is what we call as indexing stage. So this is the stage that is upfront, or upstream, where you have data that already exists in different structured or unstructured sources.
+**Prashanth Rao:** \[32:00\] Sure. That makes a lot of sense. So the two key stages in any RAG application, not just Graph RAG, is the fact that you divide it into an indexing stage and a retrieval or a serving stage. So to get the data in and store it and index it is what we call as indexing stage. So this is the stage that is upfront, or upstream, where you have data that already exists in different structured or unstructured sources.
 
 Now, you could apply a variety of techniques, including using LLMs itself for this stage, where you could extract the entities, or you could say named entities from the unstructured data, or structured data that already exists, and store them as entities or nodes in a graph database. And simultaneously, you can also extract relationships from this unstructured text. There are many different methods that you could use to extract the relationships.
 
@@ -128,7 +128,7 @@ Essentially, the node that represents an entity in the graph can have an ID that
 
 So again, just to summarize, the two key stages in the RAG pipeline include indexing and serving... And each of these stages has a suite of tools that you can use to help the user achieve the required outcome.
 
-**Break**: \[00:35:28.27\]
+**Break**: \[35:28\]
 
 **Chris Benson:** So here we are after break, I am still thinking about what you were telling us going into break, and trying to grok it myself... And I'm kind of thinking about how I can use it in a practical sense to help me get it down, and kind of get it from the notional sense into more of a practical thing that I can go do after we stop talking on the podcast. Can you give me like an example, something really hands-on that folks out there might be doing, that really puts it into that "Okay, I get it. Now I'm going to go do it" kind of context?
 
@@ -144,7 +144,7 @@ So it's mentioned in the text that Paul Langevin was a student of Pierre Curie. 
 
 So what I'm getting at here is, in the graph I was able to retrieve both the answers, the Paul Langevin as well as Marie Curie, who worked with Pierre Curie. And rather than just using the result from the graph, there may be other scenarios where my question may have been a little bit more vague or fuzzy, and a vector search might have given me a better result. I'm sure if you tinker with the dataset and the questions here, you'll find such examples.
 
-\[00:39:57.17\] So what I've done is I've included a re-ranker downstream of the vector search and the graph search, and when I retrieve the result and pass it as context to the LLM, I'm adding that re-ranker step so that I get the most relevant graph search results, as well as the most relevant vector search results. In this case, the vector search missed one of the entities, but the graph search captured it.
+\[39:57\] So what I've done is I've included a re-ranker downstream of the vector search and the graph search, and when I retrieve the result and pass it as context to the LLM, I'm adding that re-ranker step so that I get the most relevant graph search results, as well as the most relevant vector search results. In this case, the vector search missed one of the entities, but the graph search captured it.
 
 So the combined context from both these retrievals allowed me to get the generator model to actually give me the correct response. And if you want to experiment more with this, I think it's pretty straightforward to come up with other queries that will show the reverse result to be true, where the semantic match between the vector search and the query might be closer. You might get a more relevant result from the vector search, and the graph search missed the result because of a mismatch.
 
@@ -162,7 +162,7 @@ Of course, there's the element that you highlighted, which is sometimes it's har
 
 Now, there's two things regarding graph construction that we can delve into. The first is that the quality of the graph is absolutely paramount, because as we know, in any RAG system the quality of your retrieval greatly impacts the quality of the generation downstream. A poor retrieval with garbage results is going to result in a garbage output from the generation model.
 
-\[00:44:03.27\] So first of all, we have to stress on the fact that to get the most out of Graph RAG, we need a high-quality graph. But then you go one step further back, which is how do you even get a graph from unstructured text? So as you mentioned, LLaMA Index, and I think Langchain as well, some of these frameworks offer valuable tooling to help you extract triples or entities and relationships from unstructured text, and they do this primarily through the use of LLMs. But as we know, LLMs themselves have issues with hallucinations, or they just have issues in general with reproducibility.
+\[44:03\] So first of all, we have to stress on the fact that to get the most out of Graph RAG, we need a high-quality graph. But then you go one step further back, which is how do you even get a graph from unstructured text? So as you mentioned, LLaMA Index, and I think Langchain as well, some of these frameworks offer valuable tooling to help you extract triples or entities and relationships from unstructured text, and they do this primarily through the use of LLMs. But as we know, LLMs themselves have issues with hallucinations, or they just have issues in general with reproducibility.
 
 You are not guaranteed to get the same results if you run the same LLM multiple times, and although some APIs provide seeds where you can control the reproducibility, that still doesn't mean that it's not random. The output of an LLM is still more or less unpredictable.
 
@@ -176,7 +176,7 @@ So yeah, I think this is a very active space, and there is no right answer in te
 
 **Chris Benson:** What you've covered so far is really fascinating to me, and I'm learning a lot in this conversation. As we're kind of winding up on this, and we've been covering Graph RAG, as well as the components that make that up, and kind of talking about how to combine vector search, graph search... And it feels like a brave new world that we're leaping into, even for the AI topic, which is that way anyway. Where's this going? Where do you envision this going over various timelines in the future? Things are happening at light speed, so you just go a few months and there's a lot of change... But if you could maybe pick a couple of points out and tell us kind of what you think might happen... If you're wrong, no big deal, but I'd love to see what your imagination has in store for us there.
 
-**Prashanth Rao:** \[00:48:10.23\] Yeah, I'd love to see this a year from now, because I know half the stuff I'll say will be out of date or wrong...
+**Prashanth Rao:** \[48:10\] Yeah, I'd love to see this a year from now, because I know half the stuff I'll say will be out of date or wrong...
 
 **Chris Benson:** Of course, but that's fine. That's this \[unintelligible 00:48:16.20\]
 
