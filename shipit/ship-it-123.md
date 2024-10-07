@@ -24,7 +24,7 @@ And so me and a couple other people were basically doing all the desktop support
 
 **Justin Garrison:** What kind of stuff did you learn through that? What was the experience like as far as going through and "Hey, I have this expectation of what I'm going into", and then afterwards everything changes, obviously, once people demand things?
 
-**David Beale:** \[00:07:59.06\] You know, it demystified what life was like as a programmer a little bit. Obviously, I didn't want to be doing mainframe AS400 stuff. I was really interested in sort of modern, at the time, PHP, Java, stuff like that, and JavaScript. But it was really daunting to me... I had never really built anything. I'd made some little IRC bots and stuff like that, but I'd never really sat down and been like "I'm going to build a thing."
+**David Beale:** \[07:59\] You know, it demystified what life was like as a programmer a little bit. Obviously, I didn't want to be doing mainframe AS400 stuff. I was really interested in sort of modern, at the time, PHP, Java, stuff like that, and JavaScript. But it was really daunting to me... I had never really built anything. I'd made some little IRC bots and stuff like that, but I'd never really sat down and been like "I'm going to build a thing."
 
 **Justin Garrison:** I bet your bands had some pretty kick-ass MySpace pages.
 
@@ -60,7 +60,7 @@ And so me and a couple other people were basically doing all the desktop support
 
 **Autumn Nash:** I was trying to explain dial-up to my children who die of WiFi. When our electricity goes out, I don't even think they care about the electricity. They care about the fact that WiFi doesn't work. Don't you miss the '90s internet? I had so many friends that I've met from random ways, and just... It was like the peak of the internet.
 
-**Justin Garrison:** \[00:12:20.01\] I was not on '90s internet. I did not get the internet till 2000s. It was like \[unintelligible 00:12:23.28\] It was like my first internet.
+**Justin Garrison:** \[12:20\] I was not on '90s internet. I did not get the internet till 2000s. It was like \[unintelligible 00:12:23.28\] It was like my first internet.
 
 **David Beale:** Yeah, my father was super-supportive of my interest in technology. And it's really weird, because I try to think about what's the actual genesis... Like, when did I like first use a computer? And it's kind of like skateboarding, I have no idea. But I don't remember a time where I couldn't like run some DOS commands, or do something.
 
@@ -96,7 +96,7 @@ And so me and a couple other people were basically doing all the desktop support
 
 **David Beale:** Yeah. So I learned networking through my high school. I had crappy Windows 3.1 computers, and we had a couple of computer classes, two typing classes, and then programming class that was computer math science, and it was just working through Visual Basic 101. QBasic for the first class, and then Visual Basic the second. But we didn't have internet. And I knew that the teachers had Internet on their computers, so I was like "I've got to figure out how this works."
 
-\[00:15:52.17\] So I just learned enough about networking, and learned how to use -- I forget what I used, but the Windows equivalent to like traceroute and ping and stuff like that, to figure out what the internet gateway was, and how to access it from one of the terminals... Or they weren't terminals, but one of the typing computers. So that's how I learned networking, is because I wanted to use Internet in my computer classes during high school.
+\[15:52\] So I just learned enough about networking, and learned how to use -- I forget what I used, but the Windows equivalent to like traceroute and ping and stuff like that, to figure out what the internet gateway was, and how to access it from one of the terminals... Or they weren't terminals, but one of the typing computers. So that's how I learned networking, is because I wanted to use Internet in my computer classes during high school.
 
 **Justin Garrison:** This was, again late '90s... How were you finding this information? The Internet was difficult. You didn't have a smartphone, you didn't have a way to -- there was books, right? There's like books and magazines, and then friends.
 
@@ -124,7 +124,7 @@ people are like "Why do you care about remote work?" and I'm like "I know what i
 
 **David Beale:** Yeah, yeah. No, it's true... I'm a big kind of self-help junkie for the past couple of years, and I'm listening to this book right now called "The Courage to be Disliked." And it's a Japanese book, based on like Adler psychology... He was like a contemporary of Freud. And it kind of denounces trauma. Or at least trauma as like a thing that you could ever use to like make an excuse for anything. It's just like your origin. Everyone has an origin of something, and mine just has some trauma in it. And I think that that lines up a lot with this dude, David Goggins, who I'm a huge fan of. He wrote a book called Can't Hurt Me. And he's a Navy SEAL, and he's insane. Like, ultra marathon runner runner... He has just destroyed his body. But he did it all with a really, really rough origin story. And I don't know, I just think it makes for some superheroes.
 
-**Autumn Nash:** \[00:20:10.09\] Yeah. I think you've got to acknowledge it and deal with it, but it's really good when you get past it and you can use it for good. You know what I mean?
+**Autumn Nash:** \[20:10\] Yeah. I think you've got to acknowledge it and deal with it, but it's really good when you get past it and you can use it for good. You know what I mean?
 
 **David Beale:** Yeah.
 
@@ -176,7 +176,7 @@ people are like "Why do you care about remote work?" and I'm like "I know what i
 
 **Autumn Nash:** I'm just like, how did we not glow in the dark? I get my kids -- I feel like I make them eat healthy cereal, but like for Halloween I'm always like "Let's go get fun cereal", and my kids ate cereal this morning and they're like bouncing off the walls. And I'm like "How did we survive eating crap all the time?"
 
-**David Beale:** \[00:24:04.09\] Yeah... If we let my son have like syrup on his pancakes - three, four hours of just complete insanity.
+**David Beale:** \[24:04\] Yeah... If we let my son have like syrup on his pancakes - three, four hours of just complete insanity.
 
 **Autumn Nash:** I swear to God, I was just like "What?"
 
@@ -210,7 +210,7 @@ At the time, Ruby was kind of like the DSL of DevOps. You had Chef, and Capistra
 
 **Justin Garrison:** After that you were in New York, you started doing DevOps over and over again for startups, migrating Heroku to AWS over and over again. What came after that? Are you still helping people migrate Heroku to AWS? It's still a thing. Like, there's still a lot of people doing it.
 
-**David Beale:** \[00:28:16.27\] Yeah. It depends on how much they're paying. No, so I worked at a bunch of startups, for fairly decent stints; a year, two years, whatever. And so I worked at some notable ones in New York... Etsy - not really a startup, but... And at the time that was actually Google Cloud. I worked at a company called Glossier; they did like skincare and makeup. They blew up pretty big. And then a company called Kustomer, which was like a CMS. And they were acquired by Facebook. And then actually --
+**David Beale:** \[28:16\] Yeah. It depends on how much they're paying. No, so I worked at a bunch of startups, for fairly decent stints; a year, two years, whatever. And so I worked at some notable ones in New York... Etsy - not really a startup, but... And at the time that was actually Google Cloud. I worked at a company called Glossier; they did like skincare and makeup. They blew up pretty big. And then a company called Kustomer, which was like a CMS. And they were acquired by Facebook. And then actually --
 
 **Justin Garrison:** Not Kubernetes.
 
@@ -232,7 +232,7 @@ At the time, Ruby was kind of like the DSL of DevOps. You had Chef, and Capistra
 
 **David Beale:** Yeah. And you don't get to watch other people work; you overhear so much -- so much of the value of valuable information I've heard in my career is just from me eavesdropping.
 
-**Break**: \[00:30:26.05\]
+**Break**: \[30:26\]
 
 **Autumn Nash:** I feel like you must've learned a lot switching startups every year and having to kind of adjust to the new team, and what everyone's using there... What do you think you took away the most? ...because I feel like now you can walk into any room, if you could go to that many different startups and start in that many different stacks, and kind of get in there and migrate things... Also, I just want to know, what's the biggest reason for migrating from Heroku to AWS at that time? Because I think that's interesting, that you did so many migrations for that.
 
@@ -254,7 +254,7 @@ At the time, Ruby was kind of like the DSL of DevOps. You had Chef, and Capistra
 
 **Autumn Nash:** All the &'s in Ruby drive me nuts. I'm just like "This is what brackets are for."
 
-**David Beale:** \[00:36:11.27\] But you don't have to use any parentheses. You can just declare a function, and it's just there, you know?
+**David Beale:** \[36:11\] But you don't have to use any parentheses. You can just declare a function, and it's just there, you know?
 
 **Autumn Nash:** Yeah, I think I like the structure. I think that's what happens when you learn Java first. It's just like, what you got used to - not necessarily what's better. You know how you said COBOL you learn first, and then you liked Go, because they're their own thing? I think sometimes it's just what you're used to, I guess.
 
@@ -266,7 +266,7 @@ At the time, Ruby was kind of like the DSL of DevOps. You had Chef, and Capistra
 
 **Justin Garrison:** What other patterns have you seen over time, of 20-year careers, a bunch of startups, a bunch of different infrastructure? Obviously, the languages are almost all the same, in like the management and maintenance of them. It's like "Oh, what's the gem in Go?" "Okay, it's this other thing." Like, you just change all the commands into something else, and they all kind of function the same. And then management is kind of the same. "Oh, well, here's a deployment. Here's a -- we've got to upgrade it. We've got to do database migration", whatever. What sort of patterns have you seen over time in the different environments and infrastructure that you've worked in?
 
-**David Beale:** You know, I think that runtime has always just been the Achilles heel of delivering software. Different programming languages or different operating systems handle that differently. Containerization, obviously, has been the biggest development in my career... I think I really got into dev ops around the time cloud was taking off. And Docker came into existence around that time. Kubernetes came into existence shortly thereafter. I discovered Kubernetes in 2016, so pretty early, but not at the advent.
+**David Beale:** You know, I think that runtime has always just been the Achilles heel of delivering software. Different programming languages or different operating systems handle that differently. Containerization, obviously, has been the biggest development in my career... I think I really got into DevOps around the time cloud was taking off. And Docker came into existence around that time. Kubernetes came into existence shortly thereafter. I discovered Kubernetes in 2016, so pretty early, but not at the advent.
 
 I feel like we're getting further away from the metal, and we still kind of are, but maybe getting a little closer back to it as well. DHH, the founder of Rails - all of his company is back on bare metal. I'm seeing companies go back to bare metal. It's happening. It's just cheap. And depending on what you're doing, you might not need all those cloud-native services. But I don't know, you probably do... It's weird. I think we're in a weird place right now, where I'm seeing more anti-patterns than patterns. Tech is -- I think there's a sort of fundamental existential discord happening within technology right now. Like, no one really knows what's happening. AI - we're all bullish on AI, but weren't we just that bullish on blockchain like two years ago?
 
@@ -290,7 +290,7 @@ I feel like we're getting further away from the metal, and we still kind of are,
 
 **Justin Garrison:** The lostness is like "Oh, I don't know what I'm doing, but also, we have to make a lot of money." And back then it was like "I don't know what I'm doing, but I'm happy learning it."
 
-**David Beale:** \[00:40:11.03\] Yeah. Well, and here's the thing... And I'm trying to be a less judgmental person and a less cynical person in general, so this is probably not in the right direction, but... The people that are attracted to technology today as a career path are very different than those who were attracted to it 20 years ago. There's a lot of money in it. You can make a lot more money as your first year as a front-end developer than you can working 80 hours as a junior analyst at whatever bank, o you can spend five minutes a night in your Murray Hill apartment.
+**David Beale:** \[40:11\] Yeah. Well, and here's the thing... And I'm trying to be a less judgmental person and a less cynical person in general, so this is probably not in the right direction, but... The people that are attracted to technology today as a career path are very different than those who were attracted to it 20 years ago. There's a lot of money in it. You can make a lot more money as your first year as a front-end developer than you can working 80 hours as a junior analyst at whatever bank, o you can spend five minutes a night in your Murray Hill apartment.
 
 **Autumn Nash:** That's so real though.
 
@@ -316,7 +316,7 @@ I feel like we're getting further away from the metal, and we still kind of are,
 
 **Autumn Nash:** I feel like it's almost like being the NeuroSpicy kid in math class, and everybody follows the teacher's way of getting the same equation and answer, and then you do it in this more efficient, better way, and it's still wrong... That's how I feel like interviewing for tech is now. It got to the point where you can't google your answer. You have to just pretend like you know it all on LeetCode, which is memorization. It's not being good at building things. But now we're going to let AI be part of the interview... It's so confusing. Like, what do you want from us? Do you want the memorization? Do we want AI to do it all? Can I just tell you how I would build it?
 
-**Justin Garrison:** \[00:43:56.19\] And, at least in my experience - I've never got a job that I didn't have a network connection at a place.
+**Justin Garrison:** \[43:56\] And, at least in my experience - I've never got a job that I didn't have a network connection at a place.
 
 **Autumn Nash:** Did you have to LeetCode for all your engineer jobs?
 
@@ -350,7 +350,7 @@ I feel like we're getting further away from the metal, and we still kind of are,
 
 **David Beale:** Yeah. But it's interesting, for a while there in the 2010s in New York, job interviews were awesome. VCs were just throwing around money, so it was all these dudes my age - and I hate to say it, but it was all dudes, pretty much until I went to Glossier. And I'd show up at their WeWork or wherever their office was, and we'd just drink Lagunitas IPAs and talk... And then they'd just like send me an offer later the next day. I had several job interviews that were pretty much that.
 
-\[00:48:18.01\] But yeah, I don't know. It's weird. Interviewing now -- I think the thing that makes interviewing the worst these days is calendars. I feel like I'll get in a flow with a company, and have like a first interview, and then they'll be like "Alright, well, the hiring manager is on PTO until next month, and then they're blocked until the month after that. So you're cool to wait for two months between now and the next interview, right?" And I'm like "Uhm..."
+\[48:18\] But yeah, I don't know. It's weird. Interviewing now -- I think the thing that makes interviewing the worst these days is calendars. I feel like I'll get in a flow with a company, and have like a first interview, and then they'll be like "Alright, well, the hiring manager is on PTO until next month, and then they're blocked until the month after that. So you're cool to wait for two months between now and the next interview, right?" And I'm like "Uhm..."
 
 **Justin Garrison:** "Do you remember who I am?"
 
@@ -396,7 +396,7 @@ I feel like we're getting further away from the metal, and we still kind of are,
 
 **David Beale:** Well, I think you just have to think about what you like to do. Do you like talking to people? Are you extroverted? You're probably not a developer. Maybe, but like probably not.
 
-**Autumn Nash:** \[00:52:05.24\] I'm extroverted and a developer.
+**Autumn Nash:** \[52:05\] I'm extroverted and a developer.
 
 **David Beale:** I am too, I am too. But we're on a podcast right now. Not --
 
@@ -418,9 +418,9 @@ And I think those are all three tracks, and it's pretty easy to get into, with a
 
 **Autumn Nash:** What's your favorite startup job? Because you worked at so many. Did you have one that you maybe learned the most at, and one that was the most fun? Or are those the same job?
 
-**David Beale:** You know, I'd probably say Lua... And I wasn't there for a super-long time, but I was there long enough to really catch the bug with like Kubernetes, and distributed computing. I never got to open-source it, but I wrote, I think, the first distributed Erlang virtual machine on Kubernetes. So I actually wrote like an operator in Go, that could listen to the Erlang API and scale itself up and down based on events. And so we were migrating from Ruby on Rails to Elixir microservices, which ran on Erlang... It was a lot of fun. I love Erlang, I love Elixir, I love Kubernetes. Too bad there's no Erlang Elixir jobs... But I did learn Kubernetes.
+**David Beale:** You know, I'd probably say Lua... And I wasn't there for a super-long time, but I was there long enough to really catch the bug with like Kubernetes, and distributed computing. I never got to open source it, but I wrote, I think, the first distributed Erlang virtual machine on Kubernetes. So I actually wrote like an operator in Go, that could listen to the Erlang API and scale itself up and down based on events. And so we were migrating from Ruby on Rails to Elixir microservices, which ran on Erlang... It was a lot of fun. I love Erlang, I love Elixir, I love Kubernetes. Too bad there's no Erlang Elixir jobs... But I did learn Kubernetes.
 
-**Justin Garrison:** \[00:56:18.18\] That Venn diagram is pretty small for that overlap, right? You can pick one or the other, but yeah.
+**Justin Garrison:** \[56:18\] That Venn diagram is pretty small for that overlap, right? You can pick one or the other, but yeah.
 
 **David Beale:** Yeah, unfortunately. But I think that was probably my favorite one. I hope to eventually be a founder, or co-founder of a startup, so I'm going to say that will be my favorite one... It just hasn't happened yet.
 
@@ -436,7 +436,7 @@ And I think those are all three tracks, and it's pretty easy to get into, with a
 
 **David Beale:** Awesome. See you guys.
 
-**Break**: \[00:57:27.18\]
+**Break**: \[57:27\]
 
 **Justin Garrison:** Thank you so much, David, for coming on the episode and talking to us all about a lot of things... Like, your career in technology, how you got into it, things you're still interested in... I love that the thread of skateboarding and music and just figuring things out was just kind of constant through the whole thing... So that was very fun to hear about.
 
