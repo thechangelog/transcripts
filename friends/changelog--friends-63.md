@@ -162,7 +162,7 @@
 
 **Nick Nisi:** I do. To fit that phone in.
 
-**Jerod Santo:** \[00:08:00.00\] That is way too suggestive. "I do..." \[laughter\]
+**Jerod Santo:** \[08:00\] That is way too suggestive. "I do..." \[laughter\]
 
 **Adam Stacoviak:** "I have such large pockets..."
 
@@ -242,7 +242,7 @@
 
 **Jerod Santo:** At this point it's not there yet, right?
 
-**Nick Nisi:** \[00:11:56.29\] Well, I was running the beta on my 15, and I decidedly did not want to run the beta on my new phone, mostly because I just want to experience "What's this phone like when it achieves its full battery potential?" Because on the 15 Pro Max I was at zero by 4 p.m. every day, and I wasn't doing anything with it. So it was just like draining constantly.
+**Nick Nisi:** \[11:56\] Well, I was running the beta on my 15, and I decidedly did not want to run the beta on my new phone, mostly because I just want to experience "What's this phone like when it achieves its full battery potential?" Because on the 15 Pro Max I was at zero by 4 p.m. every day, and I wasn't doing anything with it. So it was just like draining constantly.
 
 **Jerod Santo:** Really? That's terrible.
 
@@ -306,7 +306,7 @@
 
 **Adam Stacoviak:** For everyone who ever needs to know.
 
-**Jerod Santo:** \[00:15:54.02\] That's the kind of stuff that humans ask all the time. I mean, I can't remember that stuff...
+**Jerod Santo:** \[15:54\] That's the kind of stuff that humans ask all the time. I mean, I can't remember that stuff...
 
 **Nick Nisi:** I did see a video today that -- I can't speak to the validity of it... And I do have ChatGPT Pro, but I don't have the advanced voice thing that they have. Do you remember, they announced that forever ago?
 
@@ -356,7 +356,7 @@
 
 **Adam Stacoviak:** Yeah, I think his channel's just Jeff Geerling. I don't think it's named anything. Anyways, there's a company called \[unintelligible 00:17:40.21\] To my knowledge, they have several videos out there. When I say several, it's more than one. I think it's probably 10 or so potentially. And I think somebody told him about it, somehow he found out, and he shared a video on his YouTube channel, which we can link up in the show notes, highlighting the fact that -- he's like "Does this voice sound familiar?" And he plays it, and it sounds just like him. Just like him. And so, not that I've got a cool voice, or Jerod, you've got a cool voice, but our voice is out there a lot... I'm wondering, when are we gonna get Scar Joed?
 
-**Jerod Santo:** \[00:18:18.05\] Oh, you want this to happen to you.
+**Jerod Santo:** \[18:18\] Oh, you want this to happen to you.
 
 **Adam Stacoviak:** I don't think I want it to happen, but is it gonna happen? We have influential voices. I mean...
 
@@ -434,7 +434,7 @@ And maybe that's where other client applications apply, where it's like, you're 
 
 **Nick Nisi:** This reminds me... I just read Charlie and the Chocolate Factory with my daughter, and her dad was -- he was putting the lids on toothpaste bottles. And then times changed, and he had to evolve to be the repairman for the robot that does that. But what if he finds zen in just putting the lid on the bottle?
 
-**Jerod Santo:** \[00:22:15.07\] There's other ways to find zen... There's many roads to roam.
+**Jerod Santo:** \[22:15\] There's other ways to find zen... There's many roads to roam.
 
 **Adam Stacoviak:** Yeah. He can do it in his spare time, for free.
 
@@ -466,7 +466,7 @@ And maybe that's where other client applications apply, where it's like, you're 
 
 **Jerod Santo:** Yeah. Fix type errors? How am I gonna know about them?
 
-**Break**: \[00:23:11.10\]
+**Break**: \[23:11\]
 
 **Adam Stacoviak:** Well, AI is crazy. I am not -- to summarize, I am not yet FOMOed by Apple Intelligence.
 
@@ -610,7 +610,7 @@ And maybe that's where other client applications apply, where it's like, you're 
 
 **Jerod Santo:** Vim is totally worth it, though.
 
-**Adam Stacoviak:** \[00:34:08.17\] But for someone who hasn't, and they're intimidated, or they have imposter syndrome, I can understand why it's challenging to get over that hump to even be comfortable in Vim. And so I would say that Arc or a browser that is uniquely different like it is, has similar characteristics of the challenge that Vim has to capture users. And once you're over that hump, maybe you're like "I'm sweet, it's great. I get it." But for me, it's like "Well, I just can't get past this departure." It's hard.
+**Adam Stacoviak:** \[34:08\] But for someone who hasn't, and they're intimidated, or they have imposter syndrome, I can understand why it's challenging to get over that hump to even be comfortable in Vim. And so I would say that Arc or a browser that is uniquely different like it is, has similar characteristics of the challenge that Vim has to capture users. And once you're over that hump, maybe you're like "I'm sweet, it's great. I get it." But for me, it's like "Well, I just can't get past this departure." It's hard.
 
 **Nick Nisi:** I would say that's true for any life-changing tool, like Vim, or... I wouldn't necessarily say Arc, but Arc does have a lot of --
 
@@ -694,7 +694,7 @@ And maybe that's where other client applications apply, where it's like, you're 
 
 **Adam Stacoviak:** Google's also correct. I googled that.
 
-**Jerod Santo:** \[00:37:59.04\] Crunchbase also seems to confirm it.
+**Jerod Santo:** \[37:59\] Crunchbase also seems to confirm it.
 
 **Nick Nisi:** We all did three different things to find that information.
 
@@ -714,7 +714,7 @@ The part I may disagree about a little bit - andl the jury is still out on this 
 
 **Adam Stacoviak:** Well, I think there's room for one, because I speculated with Lady Bird that there could be some sort of subscription model to sustain it. There's definitely room for the browser caring more about security and privacy. And the incumbents, Chrome -- Google has had a bad reputation for user privacy. Apple has been on the fence of privacy-focused, but then they also have lots of things that are behind the scenes that get spoken about their practices that may be somewhat true or mostly true... And I still trust Apple. I'm not distrusting Apple.
 
-\[00:42:09.01\] What I'm trying to say is I think there's room for a browser to do stuff like this as a business model, that isn't just "Here's a Firefox clone, or Chrome clone, or a Safari clone, and we're a new company, sustain us", where they can deliver more innovation. And I think insofar as they've done with the browsing experience, which is the jarring part that I've said that's hard for me to cross that chasm, there's room for features, in my opinion.
+\[42:09\] What I'm trying to say is I think there's room for a browser to do stuff like this as a business model, that isn't just "Here's a Firefox clone, or Chrome clone, or a Safari clone, and we're a new company, sustain us", where they can deliver more innovation. And I think insofar as they've done with the browsing experience, which is the jarring part that I've said that's hard for me to cross that chasm, there's room for features, in my opinion.
 
 **Nick Nisi:** Yeah. I think that there's a lot of really cool things in Arc that are UI-level, fundamental changes to the way that you would browse. Specifically the things like a split view, being able to split into three different panels, and view things side by side. That's really awesome.
 
@@ -736,7 +736,7 @@ This Max stuff I have turned off completely, and that's because it's all just AI
 
 **Nick Nisi:** I was skeptical of switching to Raycast when it was all free, because it was like "I don't want to like build up my workflow around you and then you die because you couldn't sustain yourself, and then I have to go crawling back to Alfred." But --
 
-**Jerod Santo:** \[00:45:52.13\] Spotlight, man. It's right there, it's built in.
+**Jerod Santo:** \[45:52\] Spotlight, man. It's right there, it's built in.
 
 **Nick Nisi:** \[laughs\] That's true. Raycast does so much, though; it's so nice. But yeah, once they had that -- and it was for pretty simple features. Like, I have more than one Mac; I'll sync between those. That's totally worth it for me. And they have some AI stuff, which is pretty nice, too. That's probably my primary interface into all of these chatbots, is like through the Raycast interface for that. But it's also something that you can completely ignore if you don't want to use it.
 
@@ -766,7 +766,7 @@ This Max stuff I have turned off completely, and that's because it's all just AI
 
 **Adam Stacoviak:** Liberally, permissively... They're probably interchangeable, to some degree. I'm sticking to my guns. Great job, Enchanted, and whoever's behind this. AugustDev. Fantastic work. This is free. You just download it. What do you do to get access to the -- you have to have like a token, is that right?
 
-**Jerod Santo:** \[00:50:04.03\] No, so this is like an interface for Ollama. And Ollama is an open source project that will run these different LLMs that you have the models downloaded on your machine. And so if you look at the repo for Enchanted, it'll say things "You must have Ollama running first." And so there's a little bit to do there. It doesn't actually embed or download the models for you. So Ollama's really cool as well.
+**Jerod Santo:** \[50:04\] No, so this is like an interface for Ollama. And Ollama is an open source project that will run these different LLMs that you have the models downloaded on your machine. And so if you look at the repo for Enchanted, it'll say things "You must have Ollama running first." And so there's a little bit to do there. It doesn't actually embed or download the models for you. So Ollama's really cool as well.
 
 **Adam Stacoviak:** So you're running Ollama as like a Homelab thing then?
 
@@ -848,7 +848,7 @@ This Max stuff I have turned off completely, and that's because it's all just AI
 
 **Jerod Santo:** Running Apache, or Nginx, or what?
 
-**Nick Nisi:** \[00:54:05.21\] Yeah, Nginx. I did -- and probably Apache. Because I kind of stopped doing it. I was hosting a WordPress site for a friend, and it \[unintelligible 00:54:10.23\] and it got really -- there's malware everywhere. All this extra PHP code... I had to manually go change a hundred files. And this was like -- I was not smart enough at the time. I was in college, so I didn't use any kind of version control, so all of the files got modified, and I had to manually go unmodify them...
+**Nick Nisi:** \[54:05\] Yeah, Nginx. I did -- and probably Apache. Because I kind of stopped doing it. I was hosting a WordPress site for a friend, and it \[unintelligible 00:54:10.23\] and it got really -- there's malware everywhere. All this extra PHP code... I had to manually go change a hundred files. And this was like -- I was not smart enough at the time. I was in college, so I didn't use any kind of version control, so all of the files got modified, and I had to manually go unmodify them...
 
 **Jerod Santo:** That's funny. Did you know that I once set up my own little intrusion detection system on a WordPress install using Git and a shell script? So I didn't want it to change unless I change it. And so I had WordPress installed, and I just initialized a Git repository on all the PHP files, and then -- like, initial commit. And then I assumed that none of these files are gonna change, and so I wrote a shell script that basically ran git status, and if it had any modified files, it would email me. Like "Hey, there's a file here that's changed."
 
@@ -862,7 +862,7 @@ This Max stuff I have turned off completely, and that's because it's all just AI
 
 **Nick Nisi:** Mm-hm.
 
-**Break**: \[00:55:58.20\]
+**Break**: \[55:58\]
 
 **Jerod Santo:** But speaking of WordPress...
 
@@ -992,15 +992,15 @@ Lots of details here. We may not have it -- like Adam said, there's probably mis
 
 **Nick Nisi:** Did they?
 
-**Jerod Santo:** And they open-sourced it after they bought it.
+**Jerod Santo:** And they open sourced it after they bought it.
 
 **Nick Nisi:** What?! I just switched to Pocket Casts, so that's interesting.
 
-**Jerod Santo:** I've always appreciated Matt Mullenweg's investments. He invests in things that I think are cool... And then he, a lot of times, will open-source them after investing.
+**Jerod Santo:** I've always appreciated Matt Mullenweg's investments. He invests in things that I think are cool... And then he, a lot of times, will open source them after investing.
 
 **Nick Nisi:** That's awesome.
 
-**Adam Stacoviak:** \[01:16:13.14\] I didn't know that Pocket Casts was open, though. So when you go to their website, it's not very clear that it is. Which kind of is a bummer... But I agree with you, Jerod. I think it's super-cool that when he does -- like, Day One, I was a fan of Day One... It was probably one of the best Mac apps to journal personally. Such a cool application. And Podcast Evolved, and a whole different show, different idea... I think it was called The Industry Radio Show, back with Drew Wilson and Jared Erondu. A different Jared, Jerod. Sorry. We podcasted with the creator of that back in the day. It was like an indie startup that got acquired by Automattic, and then it was open-sourced, I believe, too. Simple Note was part of that...
+**Adam Stacoviak:** \[01:16:13.14\] I didn't know that Pocket Casts was open, though. So when you go to their website, it's not very clear that it is. Which kind of is a bummer... But I agree with you, Jerod. I think it's super-cool that when he does -- like, Day One, I was a fan of Day One... It was probably one of the best Mac apps to journal personally. Such a cool application. And Podcast Evolved, and a whole different show, different idea... I think it was called The Industry Radio Show, back with Drew Wilson and Jared Erondu. A different Jared, Jerod. Sorry. We podcasted with the creator of that back in the day. It was like an indie startup that got acquired by Automattic, and then it was open sourced, I believe, too. Simple Note was part of that...
 
 He's got a track record of doing the right thing, I think... Which - I do think it's surprising, his seemingly harsh way to put this cat out of the bag, or push it out of the bag, or let it out of the bag... There's some context, I'm assuming, that's missing, because this doesn't seem characteristic of his past behavior.
 
