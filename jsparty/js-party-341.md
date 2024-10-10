@@ -24,7 +24,7 @@ So since 2021, we've been building basically on top of web containers, experimen
 
 **Jerod Santo:** Yeah. And so these web containers, I think, are what are enabling this project, TutorialKit. Is this on top of web containers? At least part of it is, right?
 
-**Tomek Sułkowski:** \[00:08:09.08\] Yes, exactly. It kind of consists of two very cool technologies we can dive into in a second... But I think also an interesting thing is how we got there, because basically, a piece of web containers development was dictated by tutorials, to about two years ago, I think, or even longer. But let's start from the beginning.
+**Tomek Sułkowski:** \[08:09\] Yes, exactly. It kind of consists of two very cool technologies we can dive into in a second... But I think also an interesting thing is how we got there, because basically, a piece of web containers development was dictated by tutorials, to about two years ago, I think, or even longer. But let's start from the beginning.
 
 So you might have seen -- even if you're not into Svelte, you might have seen a Svelte tutorial. It was basically the primary way for people to learn Svelte since its inception, in like over five years ago. That was created primarily by Rich Harris, who is a great communicator and educator. So he built that, I think, inspired by Knockout, from even more back in the day...
 
@@ -42,7 +42,7 @@ People started building very interesting projects on top of it, like their own c
 
 So the direct inspiration for the web containers API were the tutorials built by Rich Harris, but then it became a very universal tool. And since SvelteKit tutorial was such a big success, people from other teams, from other frameworks, were also inspired by it. And there is now -- I think since the beginning of this year, there is an interactive Angular tutorial. If you go to angular.dev, they have a cool, new documentation and an interactive tutorial, that looks very similar in structure and functionality to SvelteKit. And there's also a very cool tutorial in progress built by Anthony Fu from the Nuxt team... You can see in his stream - I think there was like 10 video series; you can find it on YouTube - where he actually built the tutorial app from scratch.
 
-\[00:12:16.11\] And again, if you look at it, it takes him a lot of time, a lot of hours, and it's not a trivial app... But you end up with something similar to SvelteKit tutorial, similar to Angular tutorial... So we took a look at this and - it's kind of not something that we usually do anymore as developers, building this same structure from scratch. Usually, we have a framework for everything right now.
+\[12:16\] And again, if you look at it, it takes him a lot of time, a lot of hours, and it's not a trivial app... But you end up with something similar to SvelteKit tutorial, similar to Angular tutorial... So we took a look at this and - it's kind of not something that we usually do anymore as developers, building this same structure from scratch. Usually, we have a framework for everything right now.
 
 **Jerod Santo:** Right.
 
@@ -58,7 +58,7 @@ So the direct inspiration for the web containers API were the tutorials built by
 
 But we've heard from a lot of people who are on like low-end machines that they're using StackBlitz, because they're -- let's say like a traditional setup of VS Code, which is built on top of Electron itself... So you have already one engine, then you have Node, another engine, and then you have the browser. So it kind of sometimes kills the lower-end computers. While in StackBlitz, we use just one browser. So it's --
 
-**Jerod Santo:** \[00:15:59.23\] There's one less browser, because there's no local Node. You don't need local Node. You have like the in-browser --
+**Jerod Santo:** \[15:59\] There's one less browser, because there's no local Node. You don't need local Node. You have like the in-browser --
 
 **Tomek Sułkowski:** Yeah. Kind of like two even, because the editor itself is also using...
 
@@ -88,11 +88,11 @@ And besides that - yeah, we do have to implement some of this stuff on our own. 
 
 **Tomek Sułkowski:** You could do it probably maybe on like Halloween, as like a scary episode.
 
-**Jerod Santo:** Yeah, spooky; spooky code sessions. Yeah, I could imagine. Well, the cool thing about TutorialKit, as I said earlier, is that anybody now using this tool, which you all have open-sourced and made available, can have rich, interactive tutorials for their library, I imagine you could use it for your design system, or your overall UI that you have for your business... You could use it for educational resources, like Rich Harris does, making demos, filming your own stuff... There's tons of different use cases for TutorialKit, and most of the heavylifting, maybe all of the heavylifting, except for the whole "How should I communicate my tutorial?" has been done. The hard work has been done. And because of web containers you can run it, I assume, on or off StackBlitz, right? Now, you don't need StackBlitz necessarily to get this done...
+**Jerod Santo:** Yeah, spooky; spooky code sessions. Yeah, I could imagine. Well, the cool thing about TutorialKit, as I said earlier, is that anybody now using this tool, which you all have open sourced and made available, can have rich, interactive tutorials for their library, I imagine you could use it for your design system, or your overall UI that you have for your business... You could use it for educational resources, like Rich Harris does, making demos, filming your own stuff... There's tons of different use cases for TutorialKit, and most of the heavylifting, maybe all of the heavylifting, except for the whole "How should I communicate my tutorial?" has been done. The hard work has been done. And because of web containers you can run it, I assume, on or off StackBlitz, right? Now, you don't need StackBlitz necessarily to get this done...
 
-**Tomek Sułkowski:** Yeah, actually, there's no connection to StackBlitz.com, as in like you don't go to the StackBlitz.com domain. The web containers themselves do request our part, because if you want to download Npm packages, we handle that package management... But not necessarily as well, because we work with several enterprises that have their specific requirements, so you can already imagine what I'm going to say... But working with their own nexuses, their own private packages behind company firewalls, so airtight installations, and things like that. So that's possible as well.
+**Tomek Sułkowski:** Yeah, actually, there's no connection to StackBlitz.com, as in like you don't go to the StackBlitz.com domain. The web containers themselves do request our part, because if you want to download npm packages, we handle that package management... But not necessarily as well, because we work with several enterprises that have their specific requirements, so you can already imagine what I'm going to say... But working with their own nexuses, their own private packages behind company firewalls, so airtight installations, and things like that. So that's possible as well.
 
-**Break**: \[00:19:45.15\]
+**Break**: \[19:45\]
 
 **Jerod Santo:** So let's imagine that I'm a library author, and I have a new web component that I want to get out there and get used, and I want to set up a tutorial for it. Maybe it's a complicated one, it's a calendaring web component that builds an entire calendar into your browser. Where do I start? What do I do?
 
@@ -122,7 +122,7 @@ So that sounds like "Okay, the way to go", right? But once you start developing 
 
 **Tomek Sułkowski:** Yeah. So I mentioned that you can have several templates... So now the question is, okay, how does TutorialKit know which template to use? So of course, we enter the realm of configuration... And that's another interesting DX question, right?
 
-**Jerod Santo:** \[00:28:16.22\] Yeah, for sure.
+**Jerod Santo:** \[28:16\] Yeah, for sure.
 
 **Tomek Sułkowski:** So for the configuration, you can actually configure on every lesson. There is at this point I think like 15 things you can configure, as in "Do you want to show the preview --" Maybe your tutorial is for a CLI-only tool, so you don't need that preview aspect... Or maybe for a specific lesson there's an intro page, and you don't even need the editor. So you'd want to turn on or off several things.
 
@@ -146,7 +146,7 @@ So wherever you can host Astro, wherever you can host an index HTML file, you ca
 
 **Jerod Santo:** Curious...
 
-**Tomek Sułkowski:** \[00:31:47.08\] Good point. Yeah, I think we were mostly focused on having a very simple code structure, and focused on specific markdown files... So when we looked at what Astro does with projects like Starlight, where this file routing for Markdown and MDX files is a common place... Plus they have a lot of built-in components that are pretty close to what TutorialKit does, like documenting code specifically... This all comes with Astro. So that was kind of our main reasoning behind this.
+**Tomek Sułkowski:** \[31:47\] Good point. Yeah, I think we were mostly focused on having a very simple code structure, and focused on specific markdown files... So when we looked at what Astro does with projects like Starlight, where this file routing for Markdown and MDX files is a common place... Plus they have a lot of built-in components that are pretty close to what TutorialKit does, like documenting code specifically... This all comes with Astro. So that was kind of our main reasoning behind this.
 
 **Jerod Santo:** So once you have your Astro build, you're ready to distribute static files, and you put it up on any host that hosts static files. Are you done at that point? Is there no server-side requirements at all?
 
@@ -156,7 +156,7 @@ And we have this documented both in web containers documentation, main StackBlit
 
 **Jerod Santo:** Cool.
 
-**Break**: \[00:33:28.01\]
+**Break**: \[33:28\]
 
 **Jerod Santo:** Another thing I noticed which I thought was neat, worth highlighting is that you have available components, React Components to use, that you use to build TutorialKit, but they are the different subcomponents of TutorialKit... And so if people want just, for instance, the file browser, or the editor window, or like different sections, the different panes, to build into something else that's not a tutorial or whatever, you can grab and go with those, right?
 
@@ -192,7 +192,7 @@ And finally, last but not least is - I mentioned there's over a dozen of configu
 
 **Tomek Sułkowski:** Yes, yes. I was only a consumer for this one. But yeah, thanks to this you have auto-completion, errors, squigglies, if the types or whatever are wrong... So yeah, that's the big one.
 
-**Jerod Santo:** \[00:40:17.24\] There you are, doing developer experience again.
+**Jerod Santo:** \[40:17\] There you are, doing developer experience again.
 
 **Tomek Sułkowski:** Yeah. \[laughs\] Yeah, exactly. But actually, just to give additional props - in parallel, the Astro team worked out a very similar solution. So I don't remember if this is specifically for Starlight, or generally for Astro. I think it might be for Astro collections. So if you have Astro collections, their extension also can do this as well. So we're kind of coming out of the dark ages of Frontmatter.
 
@@ -208,7 +208,7 @@ So there is a sense of mission behind it, but now that we have it, we also scrat
 
 **Jerod Santo:** Love it. Well, there is a demo tutorial out there - speaking of CSS - which walks you through some of the basic functionality of TutorialKit as you style up some forms. So I went through that one this morning, and just got a lay of the land... Very familiar. I'm not sure if I've gone through specifically Svelte's tutorial, but I like that there's becoming kind of this pattern or trend of how these things flow. And honestly, now that TutorialKit exists, it may have the bootstrap effect. The bootstrap effect was a downside, because we want to have unique and different experiences on our websites... But you go to our websites and they all look like a bootstrap site, with different color scheme applied, and a different logo... And that's not great when you're trying to stand out from the crowd. But when you're trying to make a tutorial that's familiar for folks, actually having it uniform in the way it presents - and of course, you can theme and style these - is actually a big win, because I immediately understood "Here's the text on the left, here's the interactive part on the right, and the lower right is the terminal. Here's your output." It was all very Codepen-ish. I don't know who started this trend... Maybe it was Svelte. But it feels like a Codepen or a JSFiddle, with additional instruction... And I like that. I like how it's uniform. And I think as more people build these out, it's going to be a win for the cognitive load. I mean, we've already got to learn so much stuff, right? There's so much to learn. Don't make me learn how to use your tutorial.
 
-**Tomek Sułkowski:** \[00:44:30.29\] Yeah, fair point. That's a great point. One metaphor or mental model that I have for this is Storybook also, if you think about it. Before Storybook, usually you would build some workbench privately to work on a component faster... But it usually wouldn't get published. And once Storybook came to be seen, now every component library has a Storybook project. And they -- yeah, they look the same, pretty much, plus/minus some plugins...
+**Tomek Sułkowski:** \[44:30\] Yeah, fair point. That's a great point. One metaphor or mental model that I have for this is Storybook also, if you think about it. Before Storybook, usually you would build some workbench privately to work on a component faster... But it usually wouldn't get published. And once Storybook came to be seen, now every component library has a Storybook project. And they -- yeah, they look the same, pretty much, plus/minus some plugins...
 
 **Jerod Santo:** Yeah.
 
