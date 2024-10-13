@@ -64,7 +64,7 @@ And it's not the stuff they're working on necessarily, but it is other things. O
 
 **Adam Stacoviak:** They generally call their own shots, kind of hard to replace... You call them in a pinch, like "Hey, listen. I've got water on my floor, man. You've got to come help me out here." And they jump on it. And they're like "Hey, 500 bucks. Thank you very much." "All you did was turn the nut. Come on now." You know?
 
-**Jerod Santo:** \[00:08:00.26\] It's a relatively stable industry. I mean, you're always going to have people with plumbing, new plumbing, plumbing problems etc. So it's not as much affected by perhaps the Federal Reserve like we are.
+**Jerod Santo:** \[08:00\] It's a relatively stable industry. I mean, you're always going to have people with plumbing, new plumbing, plumbing problems etc. So it's not as much affected by perhaps the Federal Reserve like we are.
 
 The medical industry went through a huge swell, of course, during COVID, where there was just so many needs for medical workers that their salaries went through the roof. They were in huge demand. Of course, they worked ridiculously long and trying hours... And so that was probably not producing happiness. But the pay was really, really good. And now coming down on the other side of it, it's similar to the software world, where it's like, demand is waning, jobs are harder to find, you may go unemployed for a while... And so there's probably a similar chart - if you were to chart - overall demand.
 
@@ -82,7 +82,7 @@ The medical industry went through a huge swell, of course, during COVID, where t
 
 **Abi Noda:** What I think is really interesting is the why. So why are developers satisfied or unsatisfied in their jobs? And I think the first images that pop into our minds might be pay, or their managers, or layoffs, or AI... But if I'm reading this correctly, the top contributors to satisfaction are actually the developer experience, or technical debt. The tooling, the complexity of the systems and the codebase. Am I reading that correctly? Is that how you guys read it?
 
-**Jerod Santo:** \[00:12:07.19\] That's how I read it as well. Yes. Technical debt and complexity are the two driving factors to this unhappiness... Which effectively is developer experience. I mean, it's your work. And how did we get there? I think it's just like two decades of move fast and break things, isn't it? I mean, isn't that just kind of how we've gotten here? That's my best guess.
+**Jerod Santo:** \[12:07\] That's how I read it as well. Yes. Technical debt and complexity are the two driving factors to this unhappiness... Which effectively is developer experience. I mean, it's your work. And how did we get there? I think it's just like two decades of move fast and break things, isn't it? I mean, isn't that just kind of how we've gotten here? That's my best guess.
 
 **Adam Stacoviak:** Maybe.
 
@@ -114,7 +114,7 @@ Yeah, the difficulty of doing work as a developer seems to be the preeminent cau
 
 **Abi Noda:** At GitHub we had a lot of problems. Developer tooling, getting releases out, the builds, developer environments... People were leaving, and they were telling leaders that they were leaving because it was hard to get things done at GitHub. This is back in 2020, if I'm getting my years right.
 
-**Jerod Santo:** \[00:16:13.01\] Well, hindsight is 20/20.
+**Jerod Santo:** \[16:13\] Well, hindsight is 20/20.
 
 **Abi Noda:** \[laughs\] And what we ended up doing - we froze features for a quarter. All of GitHub engineering. No features. A whole quarter spent fixing these problems. It was dramatic. And things got a lot better as a result. And another example is actually Atlassian. Their CTO is very public about how they're focusing on developer productivity, developer experience. At Atlassian not only do they have a pretty substantial portion of their engineering organization that is devoted to this type of stuff, but they give all product engineering teams at Atlassian 10% of their time to be spent fixing things - as they call it, "fixing things that suck." That get in the way of productivity.
 
@@ -136,7 +136,7 @@ It's because of technical debt, and the developer experience. But to actually do
 
 **Jerod Santo:** I don't have past Stack Overflow survey data. Do you, Abi?
 
-**Adam Stacoviak:** \[00:20:10.21\] Do you, Abi?
+**Adam Stacoviak:** \[20:10\] Do you, Abi?
 
 **Abi Noda:** I don't. No.
 
@@ -170,7 +170,7 @@ No real hate here. But. I was trying to answer Adam's question, which was "Do we
 
 **Adam Stacoviak:** Maybe ChatGPT or something else might have a hallucinated version of an answer. The reason why I think you're nerding out on that and camping out on the semantics of the question and the response is because certainly it corners the person. It forces the person in response time. At the same time, there are probably lots of questions in the survey. So they could be experiencing cognitive overload at that particular question, while also being slightly unhappy for their day. They may have measured their happiness moments in that day and like "You know what? I'm unhappy." Not saying it's skewed, but it's important to scrutinize the question and the offered options as a response, because that is what the sentiment is drawn from. And so if it's skewed or not so much poorly worded - I would prefer you to say that, Abi, versus me, because you're the professional at crafting these, in quotes, surveys... Just kidding... \[laughter\]
 
-**Abi Noda:** \[00:24:36.26\] Poorly designed...
+**Abi Noda:** \[24:36\] Poorly designed...
 
 **Adam Stacoviak:** \[laughs\] Because that's really important. The way you ask a question and the options you offer is where the sentiment comes from. And if it is ambiguous, or it's not super-clear, it's clear why the answer is potentially skewed. And so to understand the efficacy of the answer set based on the question - I think that's what's worth scrutinizing.
 
@@ -196,7 +196,7 @@ So an example of this would be the DORA metrics and the DORA report, which I kno
 
 And what they did was they said "Here's some ways we can measure DevOps." So it was metrics like MTTR and lead time, deployment frequency... So they said "Here's DevOps." And what they did is correlate it to companies' profitability, stock returns and increases, EMPS scores... And by doing that, they were able to "prove" and show the dollar ROI, "Hey, companies, when they invest in DevOps and get X percentage better, their stock prices tend to be X percentage higher." They tend to be X percentage more profitable. So it wasn't perfect --
 
-**Jerod Santo:** \[00:28:26.10\] Yeah, that seems a little bit brittle to me.
+**Jerod Santo:** \[28:26\] Yeah, that seems a little bit brittle to me.
 
 **Abi Noda:** A little bit brittle... Well, let me tell you what we're doing with developer experience. So we have this construct of what is developer experience. So we have our version of what Stack Overflow has here, where we have -- it's called the Developer Experience Index. So it's 14 of the top drivers of developer experience. So we say "Okay, that's how we measure developer experience." Then what we've been doing is correlating that measure to different outcomes. And one of them is actually self-reported time waste reported by developers. So how much time do you -- it's a series of different questions we ask about. How much time do you lose each week? How much time is wasted each week due to inefficiencies?
 
@@ -222,11 +222,11 @@ And when we correlate the two, we found that a one-point increase in the develop
 
 **Abi Noda:** No. We should. And we already have the data, because we are already -- we're surveying hundreds of thousands of people.
 
-**Jerod Santo:** Right. The nice thing about this particular measure or this combination of measures is that if it could be somewhat generalized and made public, it's now a tool and a resource for people who don't have those quantitative metrics inside their company to say "Look, this stuff really matters. Look what it did for Walmart and these important companies. It's moving their bottom line. It's making them more productive. And they've they proved it out over n years. And so if that's public information that I can take to my leadership and use that, and convince them that "Hey, let's call a feature freeze", or whatever it is that I'm trying to get done, right?
+**Jerod Santo:** Right. The nice thing about this particular measure or this combination of measures is that if it could be somewhat generalized and made public, it's now a tool and a resource for people who don't have those quantitative metrics inside their company to say "Look, this stuff really matters. Look what it did for Walmart and these important companies. It's moving their bottom line. It's making them more productive. And they've they proved it out over N years. And so if that's public information that I can take to my leadership and use that, and convince them that "Hey, let's call a feature freeze", or whatever it is that I'm trying to get done, right?
 
 **Abi Noda:** Yeah.
 
-**Break**: \[00:32:39.18\]
+**Break**: \[32:39\]
 
 **Adam Stacoviak:** My idea for you, Abi, is a growth hack.
 
@@ -272,7 +272,7 @@ And when we correlate the two, we found that a one-point increase in the develop
 
 **Jerod Santo:** 14 metrics, right? Is that 14 metrics?
 
-**Abi Noda:** Yeah. 14 different metrics. So we haven't open-sourced it right now. It's proprietary.
+**Abi Noda:** Yeah. 14 different metrics. So we haven't open sourced it right now. It's proprietary.
 
 **Jerod Santo:** You've got to, man.
 
@@ -282,11 +282,11 @@ And when we correlate the two, we found that a one-point increase in the develop
 
 **Abi Noda:** Do we open it up, or do we keep it proprietary?
 
-**Jerod Santo:** Well, when you have the opportunity to become the index... I think -- I mean, obviously you know way more about your business than I do and how important it is internally as a proprietary thing... But I can see a huge upside in the open-sourcing of it.
+**Jerod Santo:** Well, when you have the opportunity to become the index... I think -- I mean, obviously you know way more about your business than I do and how important it is internally as a proprietary thing... But I can see a huge upside in the open sourcing of it.
 
-**Abi Noda:** Yeah. Yeah, agreed. And I think we can open-source it while putting like a copyright on it, so you're not technically supposed to use it for a commercial, within a -- like, Walmart can't actually use, deploy it...
+**Abi Noda:** Yeah. Yeah, agreed. And I think we can open source it while putting like a copyright on it, so you're not technically supposed to use it for a commercial, within a -- like, Walmart can't actually use, deploy it...
 
-**Jerod Santo:** \[00:42:03.01\] Right, right. Yeah. I mean, we can get into the licensing discussions, and we're happy to; we do it all the time.
+**Jerod Santo:** \[42:03\] Right, right. Yeah. I mean, we can get into the licensing discussions, and we're happy to; we do it all the time.
 
 **Abi Noda:** Yeah, yeah.
 
@@ -354,7 +354,7 @@ And when we correlate the two, we found that a one-point increase in the develop
 
 **Abi Noda:** Yeah.
 
-**Adam Stacoviak:** \[00:46:01.03\] And so I'll do the work for you, if you don't mind... The drivers are deep work, dev environment, batch size, local iteration, production, debugging, ease of release, incident response, build and test, code review, documentation, code maintainability, change confidence, cross-team collaboration, and planning. Those are the drivers. Those are the 14 dimensions. And those correlate to five outcomes: speed, ease of delivery, quality, engagement, and efficiency. Dude, that's a good map. That's a really good map to maturity in an organization, a dev organization... All those things on the driver's side are really good. Like, what is my maturity level, and what is my -- I don't know how you would describe it. I'm trying to think on the fly here, but... How good am I? How good are we at these drivers? And then the correlations are obviously awesome, with the outcomes: the speed, the ease of delivery, quality, engagement, efficiency...
+**Adam Stacoviak:** \[46:01\] And so I'll do the work for you, if you don't mind... The drivers are deep work, dev environment, batch size, local iteration, production, debugging, ease of release, incident response, build and test, code review, documentation, code maintainability, change confidence, cross-team collaboration, and planning. Those are the drivers. Those are the 14 dimensions. And those correlate to five outcomes: speed, ease of delivery, quality, engagement, and efficiency. Dude, that's a good map. That's a really good map to maturity in an organization, a dev organization... All those things on the driver's side are really good. Like, what is my maturity level, and what is my -- I don't know how you would describe it. I'm trying to think on the fly here, but... How good am I? How good are we at these drivers? And then the correlations are obviously awesome, with the outcomes: the speed, the ease of delivery, quality, engagement, efficiency...
 
 **Abi Noda:** Yeah.
 
@@ -382,7 +382,7 @@ So a lot of things go into it, but it's ultimately about if developers feel like
 
 **Abi Noda:** Documentation... So if you're modifying code, can you even understand how that code works, so you're confident in changing that little bit of code? So yeah, a lot of things. All these factors interrelate. Even something like batch size, which is about incremental delivery. Like, if you're working on huge changes, huge PRs, there's so much more risk. They just have a lot more surface area. So if you're delivering incrementally, your confidence is going to be higher for each unit of change.
 
-**Jerod Santo:** \[00:50:00.15\] Right.
+**Jerod Santo:** \[50:00\] Right.
 
 **Adam Stacoviak:** Is this your next big thing, the DXI?
 
@@ -436,7 +436,7 @@ So to sum it all up, what should we actually be measuring?" \[laughs\]
 
 **Jerod Santo:** Core two, core three, maybe...
 
-**Abi Noda:** \[00:53:51.10\] But the DX Core4 does -- and now we've started rolling it out to people, and it's landed well. I actually asked the CEO, after I showed him -- I showed him the Core4 right after hearing about that experience that they had talking with Nicole, and said "Hey, we've been working on something for this." And I asked him, "To you as CEO, does this seem right? Does this seem correct? Does this seem like the right way to be thinking about and measuring developer productivity?" And he said yes.
+**Abi Noda:** \[53:51\] But the DX Core4 does -- and now we've started rolling it out to people, and it's landed well. I actually asked the CEO, after I showed him -- I showed him the Core4 right after hearing about that experience that they had talking with Nicole, and said "Hey, we've been working on something for this." And I asked him, "To you as CEO, does this seem right? Does this seem correct? Does this seem like the right way to be thinking about and measuring developer productivity?" And he said yes.
 
 **Adam Stacoviak:** Wow. I was going to give you an idea, but that might actually be the answer... Because rather than say "It depends", what if you said "We have a survey that takes you five minutes to answer"? Instead of saying "It depends", you say --
 
@@ -496,7 +496,7 @@ So to sum it all up, what should we actually be measuring?" \[laughs\]
 
 **Abi Noda:** Yeah. So it's been a journey for, just for me personally on this topic, because - the whole reason I actually got into spending six, seven years on this whole problem space was because I felt like metrics like diffs per engineer were reductive and not correct and not helpful. But one of the things that the core four optimizes for is -- so we work with a lot of technical leaders, engineering leaders. And as we were talking about earlier, one of their big challenges is talking about rationalizing investments in developer productivity in a way that the CEO and CFO are going to agree to. And to do that, you need a shared definition of productivity that your CEO and CFO agree with. And to achieve that, I've found that you do need some type of output measure. Like, we're not at a point in human evolution yet where most CEOs and CFOs are down with this idea that a developer experience index is the one metric that matters for understanding the maturity or effectiveness with the organization. A lot of CFOs and CEOs still think -- I mean, there's Fortune 50 companies still measuring lines of code, benchmarking that.
 
-\[00:57:57.13\] So we're still at a point in human state of the art around software engineering where output measures need to be a part of that conversation. It needs to be part of the way you're framing developer experience and developer productivity if you want the people you're pitching this to to actually fund it and believe it and buy in. So there's a marketability optimization here. That's one of the reasons PRs per engineers is in here. But the other reason is, we have come around to talking with a lot of companies like Uber, Microsoft, top tech companies where they use this metric as an input. It's not the sole metric. They're not performance valuing engineers based on this metric. But in aggregate, they are looking at this metric as an input to understanding how developer productivity is trending and compare it to other organizations. And it's not useless. It is a useful indicator in aggregate, and that's why in the framework, in the core four, there's an asterisk that says "Not to measure this at the individual level." So this is only to be looked at an aggregate, team, group, organization level and benchmark that way... And we've found it more useful than not.
+\[57:57\] So we're still at a point in human state of the art around software engineering where output measures need to be a part of that conversation. It needs to be part of the way you're framing developer experience and developer productivity if you want the people you're pitching this to to actually fund it and believe it and buy in. So there's a marketability optimization here. That's one of the reasons PRs per engineers is in here. But the other reason is, we have come around to talking with a lot of companies like Uber, Microsoft, top tech companies where they use this metric as an input. It's not the sole metric. They're not performance valuing engineers based on this metric. But in aggregate, they are looking at this metric as an input to understanding how developer productivity is trending and compare it to other organizations. And it's not useless. It is a useful indicator in aggregate, and that's why in the framework, in the core four, there's an asterisk that says "Not to measure this at the individual level." So this is only to be looked at an aggregate, team, group, organization level and benchmark that way... And we've found it more useful than not.
 
 **Adam Stacoviak:** So it says diffs per engineer, though. Diffs per engineer, then asterisk.
 
