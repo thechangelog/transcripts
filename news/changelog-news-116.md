@@ -36,7 +36,7 @@ To see it for yourself, visit this ACF plugin page: [wordpress.org/plugins/advan
 
 What you'll see (as I publish this on 2024-10-14) is Automattic's own *Secure Custom Fields* plugin. This is technically inside the realm of Auotmattic's guidelines, which says they can remove any plugin for any reason, but it is NOT inside realm of what's cool/reasonable in the open source world.
 
-DHH [says it](https://world.hey.com/dhh/open-source-royalty-and-mad-kings-a8f79d16) well:
+DHH [says it](https://world.hey.com/dhh/open source-royalty-and-mad-kings-a8f79d16) well:
 
 > Weaponizing open source code registries is something we simply cannot allow to form precedence. They must remain neutral territory. Little Switzerlands in a world of constant commercial skirmishes.
 
