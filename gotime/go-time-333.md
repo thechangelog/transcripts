@@ -234,7 +234,7 @@ Thank you so, so much for spending this last kind of hour with me. It's been tru
 
 **Angelica Hill:** Okay. I will think about that point. I might not agree with it, but I will accept it. Cherry, Austin?
 
-**Cherry Mui:** Okay, I can go. I usually don't have that many -- I have an unpopular preference. But opinion, I don't really -- I'm not that opinionated, but I do have one. You were mentioning pull requests... I find the pull request workflow, the GitHub pull request - it's very hard to understand. It's very hard for me. I think \[unintelligible 01:05:11.26\] model is way better. It's just way easier to do.
+**Cherry Mui:** Okay, I can go. I usually don't have that many -- I have an unpopular preference. But opinion, I don't really -- I'm not that opinionated, but I do have one. You were mentioning pull requests... I find the pull request workflow, the GitHub pull request - it's very hard to understand. It's very hard for me. I think Gerrit model is way better. It's just way easier to do.
 
 **Austin Clements:** Plus one.
 
