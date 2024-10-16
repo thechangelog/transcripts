@@ -446,7 +446,7 @@ And obviously, Tetragon and the security that we're providing with that, and one
 
 **Tom Wilkie:** You thought I'd almost forgotten you. I'm Tom Wilkie, and thank you for listening. We'll see you next time on Grafana's Big Tent.
 
-**Outro:** \[00:58:42.00\]
+**Outro:** \[58:42\]
 
 **Liz Rice:** My delivery has just arrived. Sorry.
 
