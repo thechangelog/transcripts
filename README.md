@@ -401,6 +401,7 @@ Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/kcoul"><img src="https://avatars.githubusercontent.com/u/1772504?v=4?s=100" width="100px;" alt="kcoul"/><br /><sub><b>kcoul</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=kcoul" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="https://github.com/mhjacks"><img src="https://avatars.githubusercontent.com/u/7352852?v=4?s=100" width="100px;" alt="Martin Jackson"/><br /><sub><b>Martin Jackson</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=mhjacks" title="Documentation">📖</a></td>
       <td align="center" valign="top" width="16.66%"><a href="http://www.linkedin.com/in/joelyles"><img src="https://avatars.githubusercontent.com/u/157207997?v=4?s=100" width="100px;" alt="Joe Lyles"/><br /><sub><b>Joe Lyles</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=joelyles" title="Documentation">📖</a></td>
+      <td align="center" valign="top" width="16.66%"><a href="https://github.com/cuishuang"><img src="https://avatars.githubusercontent.com/u/15921519?v=4?s=100" width="100px;" alt="cui fliter"/><br /><sub><b>cui fliter</b></sub></a><br /><a href="https://github.com/thechangelog/transcripts/commits?author=cuishuang" title="Documentation">📖</a></td>
     </tr>
   </tbody>
 </table>
